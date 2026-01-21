@@ -1,0 +1,243 @@
+[
+  {
+    "Id": 1,
+    "Content": "The Media Downloader Project\n![Media Downloader logo](https://raw.githubusercontent.com/yuri-maxiutenko/MediaDownloader/master/MediaDownloader/Images/icon.png)\n====================\nJust a small user-friendly UI wrapper (C#/WPF, .NET) over the great video downloading command-line utility [yt-dlp](https://github.com/yt-dlp/yt-dlp) which allows to download videos in different quality from various internet resources (YouTube, Vimeo, Facebook, you name it). Downloading playlists is supported too.\n\n## Main Features\n\n**Media Downloader** is capable of downloading almost any video from all major providers (YouTube, Vimeo, Facebook, etc.). Just give it a link and voilà! Links to playlists are fine too.\n\nCurrently the application supports the following download formats:\n\n* Best quality video\n* Best quality MP4 video\n* Best quality video available by direct link\n* Audio only\n\nAlso, **Media Downloader** supports download history and stores the list of recently used folders.\n\nComes with an installer, which includes everything necessary: the application itself, [yt-dlp](https://github.com/yt-dlp/yt-dlp) and the [FFmpeg](https://ffmpeg.org/) converter.\n\nThe application is installed to current user's AppData folder and doesn't require administrator's permissions.\n\nCurently **Media Downloader** is localized to English and Russian. The application language is automatically selected depending on current Windows locale.\n\n## Requirements\n\nStarting from version **2.1**, the application uses **[.NET 7 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)**. But you shouldn't need to install it, as Media Downloader is provided as **[a self-contained application](https://devblogs.microsoft.com/dotnet/app-trimming-in-net-5/)**.\n\nAlso, **yt-dlp** requires **[Microsoft Visual C++ 2010 Redistributable Package (x86)](https://www.microsoft.com/en-us/download/details.aspx?id=5555)**.\n\n## Screenshots\n\nVideo download in progress:\n![Video download in progress](https://github.com/yuri-maxiutenko/MediaDownloader/blob/master/Screenshots/Annotation%202020-06-29%20210558.png?raw=true)\n\nVideo download complete:\n![Video download complete](https://github.com/yuri-maxiutenko/MediaDownloader/blob/master/Screenshots/Annotation%202020-06-29%20210909.png?raw=true)\n",
+    "ContentSha": "wmX3mWKBX19Lg+Q1JQP25mvUJzQ6fTBv70qBKv9Tbgs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "The Media Downloader Project\n![Media Downloader logo](https://raw.githubusercontent.com/yuri-maxiutenko/MediaDownloader/master/MediaDownloader/Images/icon.png)\n====================\n優れた動画ダウンロードコマンドラインユーティリティ[yt-dlp](https://github.com/yt-dlp/yt-dlp)の上に構築された、小さくて使いやすいUIラッパー（C#/WPF、.NET）です。さまざまなインターネットリソース（YouTube、Vimeo、Facebookなど）から異なる品質の動画をダウンロードできます。プレイリストのダウンロードもサポートしています。\n\n## 主な特徴\n\n**Media Downloader** は、主要な動画提供元（YouTube、Vimeo、Facebookなど）からほぼすべての動画をダウンロードできます。リンクを渡すだけで完了です！プレイリストのリンクも問題ありません。\n\n現在、アプリケーションは以下のダウンロード形式をサポートしています：\n\n* 最高品質の動画\n* 最高品質のMP4動画\n* 直接リンクで利用可能な最高品質の動画\n* 音声のみ\n\nさらに、**Media Downloader** はダウンロード履歴をサポートし、最近使用したフォルダのリストを保存します。\n\nインストーラーが付属しており、アプリケーション本体、[yt-dlp](https://github.com/yt-dlp/yt-dlp)、および[FFmpeg](https://ffmpeg.org/)コンバーターがすべて含まれています。\n\nアプリケーションは現在のユーザーのAppDataフォルダにインストールされ、管理者権限は不要です。\n\n現在、**Media Downloader** は英語とロシア語に対応しています。アプリケーションの言語は現在のWindowsロケールに基づいて自動的に選択されます。\n\n## 必要条件\n\nバージョン**2.1**以降、アプリケーションは**[.NET 7 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)**を使用します。しかし、Media Downloaderは**[自己完結型アプリケーション](https://devblogs.microsoft.com/dotnet/app-trimming-in-net-5/)**として提供されるため、インストールは不要です。\n\nまた、**yt-dlp**は**[Microsoft Visual C++ 2010 Redistributable Package (x86)](https://www.microsoft.com/en-us/download/details.aspx?id=5555)**が必要です。\n\n## スクリーンショット\n\n動画ダウンロード中：\n![Video download in progress](https://github.com/yuri-maxiutenko/MediaDownloader/blob/master/Screenshots/Annotation%202020-06-29%20210558.png?raw=true)\n\n動画ダウンロード完了：\n![Video download complete](https://github.com/yuri-maxiutenko/MediaDownloader/blob/master/Screenshots/Annotation%202020-06-29%20210909.png?raw=true)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bUWGXXdkjDn2/3EJLOL+3ZzzCVuX7vjszVjbz6epqQw=",
+        "originContent": "The Media Downloader Project",
+        "translatedContent": "The Media Downloader Project"
+      },
+      {
+        "row": 2,
+        "rowsha": "yxVN1fgwY8QWrzGRxS6NZAPna5XUqHBq86w43W/Vqu8=",
+        "originContent": "![Media Downloader logo](https://raw.githubusercontent.com/yuri-maxiutenko/MediaDownloader/master/MediaDownloader/Images/icon.png)",
+        "translatedContent": "![Media Downloader logo](https://raw.githubusercontent.com/yuri-maxiutenko/MediaDownloader/master/MediaDownloader/Images/icon.png)"
+      },
+      {
+        "row": 3,
+        "rowsha": "lm9urXkOeXcpE8PiTJh6Mu4SBVzB//PdhL0HMTDNzRU=",
+        "originContent": "====================",
+        "translatedContent": "===================="
+      },
+      {
+        "row": 4,
+        "rowsha": "2GPngkj0NVGCx4SYuJJoEk1XKDZ7VhZDKRUznCSgSyE=",
+        "originContent": "Just a small user-friendly UI wrapper (C#/WPF, .NET) over the great video downloading command-line utility [yt-dlp](https://github.com/yt-dlp/yt-dlp) which allows to download videos in different quality from various internet resources (YouTube, Vimeo, Facebook, you name it). Downloading playlists is supported too.",
+        "translatedContent": "優れた動画ダウンロードコマンドラインユーティリティ[yt-dlp](https://github.com/yt-dlp/yt-dlp)の上に構築された、小さくて使いやすいUIラッパー（C#/WPF、.NET）です。さまざまなインターネットリソース（YouTube、Vimeo、Facebookなど）から異なる品質の動画をダウンロードできます。プレイリストのダウンロードもサポートしています。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "RADlypCP1NDVFK7/L8/G/KoFy+S97qnuDl8+AOnoDbY=",
+        "originContent": "## Main Features",
+        "translatedContent": "## 主な特徴"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "+grQj4Vgn9HaQt5nxKRSIetVT08+Ghmpw71zanUse5E=",
+        "originContent": "**Media Downloader** is capable of downloading almost any video from all major providers (YouTube, Vimeo, Facebook, etc.). Just give it a link and voilà! Links to playlists are fine too.",
+        "translatedContent": "**Media Downloader** は、主要な動画提供元（YouTube、Vimeo、Facebookなど）からほぼすべての動画をダウンロードできます。リンクを渡すだけで完了です！プレイリストのリンクも問題ありません。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "769GfMTioAc8lXJwt3uLcqXt8ketprnSWWrX2OR65F8=",
+        "originContent": "Currently the application supports the following download formats:",
+        "translatedContent": "現在、アプリケーションは以下のダウンロード形式をサポートしています："
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "kEFd1n8GRPbJigUu6SyMcM8WcDvLc1NCjjQ9rtAaWi8=",
+        "originContent": "* Best quality video",
+        "translatedContent": "* 最高品質の動画"
+      },
+      {
+        "row": 13,
+        "rowsha": "aUpPZvY21OXELKS8YOxbeR8Oig9t5lfBVVYgyNvmKmI=",
+        "originContent": "* Best quality MP4 video",
+        "translatedContent": "* 最高品質のMP4動画"
+      },
+      {
+        "row": 14,
+        "rowsha": "jsiNn8jAOubfm+xODxZxIWOVL4/4g4i9NWtT9DqBI+Y=",
+        "originContent": "* Best quality video available by direct link",
+        "translatedContent": "* 直接リンクで利用可能な最高品質の動画"
+      },
+      {
+        "row": 15,
+        "rowsha": "c3/Wo4+Lg991hDKKK8sb0PLWeWHAL3YnKXAd7rXrJIQ=",
+        "originContent": "* Audio only",
+        "translatedContent": "* 音声のみ"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "TKJx3REFUbpGinTrpOlCXbvlEByaWy/+i05DDZZJbc4=",
+        "originContent": "Also, **Media Downloader** supports download history and stores the list of recently used folders.",
+        "translatedContent": "さらに、**Media Downloader** はダウンロード履歴をサポートし、最近使用したフォルダのリストを保存します。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "JGxY+PRyYl4a3V2jRV+BLFBver1AIXYQT0f9RxqPOlk=",
+        "originContent": "Comes with an installer, which includes everything necessary: the application itself, [yt-dlp](https://github.com/yt-dlp/yt-dlp) and the [FFmpeg](https://ffmpeg.org/) converter.",
+        "translatedContent": "インストーラーが付属しており、アプリケーション本体、[yt-dlp](https://github.com/yt-dlp/yt-dlp)、および[FFmpeg](https://ffmpeg.org/)コンバーターがすべて含まれています。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "vGUbtAbbERlOS/U1SqkMsTwHjirtwWMv7J/EX2q04Ek=",
+        "originContent": "The application is installed to current user's AppData folder and doesn't require administrator's permissions.",
+        "translatedContent": "アプリケーションは現在のユーザーのAppDataフォルダにインストールされ、管理者権限は不要です。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "LAjQQc2M4ktaAACnC5rskZHfedcfBi0SsU3FXFMS0mo=",
+        "originContent": "Curently **Media Downloader** is localized to English and Russian. The application language is automatically selected depending on current Windows locale.",
+        "translatedContent": "現在、**Media Downloader** は英語とロシア語に対応しています。アプリケーションの言語は現在のWindowsロケールに基づいて自動的に選択されます。"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## 必要条件"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "w59WTGffaHJPgDKflqf5yalbRSzE8EUbBRzbQVVMo/0=",
+        "originContent": "Starting from version **2.1**, the application uses **[.NET 7 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)**. But you shouldn't need to install it, as Media Downloader is provided as **[a self-contained application](https://devblogs.microsoft.com/dotnet/app-trimming-in-net-5/)**.",
+        "translatedContent": "バージョン**2.1**以降、アプリケーションは**[.NET 7 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)**を使用します。しかし、Media Downloaderは**[自己完結型アプリケーション](https://devblogs.microsoft.com/dotnet/app-trimming-in-net-5/)**として提供されるため、インストールは不要です。"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "wB8Rj/iITyR78r1wGHxJgfB7lrWdlBV28mEi+zXCW6Y=",
+        "originContent": "Also, **yt-dlp** requires **[Microsoft Visual C++ 2010 Redistributable Package (x86)](https://www.microsoft.com/en-us/download/details.aspx?id=5555)**.",
+        "translatedContent": "また、**yt-dlp**は**[Microsoft Visual C++ 2010 Redistributable Package (x86)](https://www.microsoft.com/en-us/download/details.aspx?id=5555)**が必要です。"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "CrQ1XO/et1agLOmJnlaLYfcfQdvL77gCZWQqAUysVwM=",
+        "originContent": "## Screenshots",
+        "translatedContent": "## スクリーンショット"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "NFUJVXVJdch1BpAenxDFcRgH9dWp2dkHqV9MRNzvBkw=",
+        "originContent": "Video download in progress:",
+        "translatedContent": "動画ダウンロード中："
+      },
+      {
+        "row": 34,
+        "rowsha": "pj7CVn2TfzEJDXkkkR5LK4aTdVWUT2SlxrbkKkIq3xg=",
+        "originContent": "![Video download in progress](https://github.com/yuri-maxiutenko/MediaDownloader/blob/master/Screenshots/Annotation%202020-06-29%20210558.png?raw=true)",
+        "translatedContent": "![Video download in progress](https://github.com/yuri-maxiutenko/MediaDownloader/blob/master/Screenshots/Annotation%202020-06-29%20210558.png?raw=true)"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "jpsHsFqUWn0Su+Dfb3h4I9QuqbqUwiG7s0eAoFol83k=",
+        "originContent": "Video download complete:",
+        "translatedContent": "動画ダウンロード完了："
+      },
+      {
+        "row": 37,
+        "rowsha": "oNBxcBGxYFjwqeKsMrrwPeS+dFFKTuV87ifEyuuPRl4=",
+        "originContent": "![Video download complete](https://github.com/yuri-maxiutenko/MediaDownloader/blob/master/Screenshots/Annotation%202020-06-29%20210909.png?raw=true)",
+        "translatedContent": "![Video download complete](https://github.com/yuri-maxiutenko/MediaDownloader/blob/master/Screenshots/Annotation%202020-06-29%20210909.png?raw=true)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

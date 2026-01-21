@@ -1,0 +1,1599 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/BinSquare/envmap/main/./logo.svg\" alt=\"envmap logo\" width=\"280\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/binsquare/envmap/stargazers\">\n    <img src=\"https://img.shields.io/github/stars/binsquare/envmap?style=social\" alt=\"GitHub stars\">\n  </a>\n  <a href=\"https://github.com/binsquare/envmap/actions/workflows/release.yml\">\n    <img src=\"https://img.shields.io/github/actions/workflow/status/binsquare/envmap/release.yml?branch=main&event=push&label=release\" alt=\"Release workflow status\">\n  </a>\n  <a href=\"https://pkg.go.dev/github.com/binsquare/envmap\">\n    <img src=\"https://pkg.go.dev/badge/github.com/binsquare/envmap\" alt=\"Go pkg Reference\">\n  </a>\n  <a href=\"https://goreportcard.com/report/github.com/binsquare/envmap\">\n    <img src=\"https://goreportcard.com/badge/github.com/binsquare/envmap\" alt=\"Go Report Card\">\n  </a>\n  <a href=\"https://github.com/binsquare/envmap/blob/main/LICENSE\">\n    <img src=\"https://img.shields.io/github/license/binsquare/envmap\" alt=\"License: Apache-2.0\">\n  </a>\n</p>\n\n# envmap\n\n`envmap` is a local env manager that helps you:\n\n1.  Keep local environment variables in sync with the remote secret stores, per project.\n2.  Makes the `.env` file an ephemeral artifact, to keep secrets providers the source of truth. i.e. \"envmap --sync\" to produce a newly updated `.env` file.\n3.  Comes with metadata on each key stored to inform when those keys were last changed/created for sake of doing routine rotations.\n4.  Potentially better security since you're not locked to storing secrets in a plaintext `.env` file.\n5.  Runs completely local + opensource for audits.\n\n### Who is this for?\n\n- Engineers working with multiple `.env` variants like `.env.prod, .env.dev, .env.staging`. This will help you consolidate and switch environments with a single command. Here's an example of that workflow: \n",
+    "ContentSha": "bg1HpCkMXxXFzdcjI/tKzswvXkBKCdPY54CtTDYBFD0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/BinSquare/envmap/main/./logo.svg\" alt=\"envmap ロゴ\" width=\"280\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/binsquare/envmap/stargazers\">\n    <img src=\"https://img.shields.io/github/stars/binsquare/envmap?style=social\" alt=\"GitHub スター数\">\n  </a>\n  <a href=\"https://github.com/binsquare/envmap/actions/workflows/release.yml\">\n    <img src=\"https://img.shields.io/github/actions/workflow/status/binsquare/envmap/release.yml?branch=main&event=push&label=release\" alt=\"リリースワークフローの状態\">\n  </a>\n  <a href=\"https://pkg.go.dev/github.com/binsquare/envmap\">\n    <img src=\"https://pkg.go.dev/badge/github.com/binsquare/envmap\" alt=\"Go pkg リファレンス\">\n  </a>\n  <a href=\"https://goreportcard.com/report/github.com/binsquare/envmap\">\n    <img src=\"https://goreportcard.com/badge/github.com/binsquare/envmap\" alt=\"Go レポートカード\">\n  </a>\n  <a href=\"https://github.com/binsquare/envmap/blob/main/LICENSE\">\n    <img src=\"https://img.shields.io/github/license/binsquare/envmap\" alt=\"ライセンス: Apache-2.0\">\n  </a>\n</p>\n\n# envmap\n\n`envmap` は、以下を支援するローカル環境変数マネージャーです:\n\n1.  プロジェクトごとにローカル環境変数をリモートのシークレットストアと同期させる。\n2.  `.env` ファイルを一時的なアーティファクトとし、シークレットプロバイダーを真の情報源として保持する。すなわち、\"envmap --sync\" で新しく更新された `.env` ファイルを生成する。\n3.  各キーに関するメタデータを保持し、ルーチンローテーションのためにキーが最後に変更・作成された日時を通知。\n4.  平文の `.env` ファイルにシークレットを保存し続ける必要がないため、セキュリティが向上する可能性がある。\n5.  完全にローカルで動作し、監査のためにオープンソースで提供。\n\n### 対象ユーザー\n\n- `.env.prod`, `.env.dev`, `.env.staging` のような複数の `.env` バリアントを扱うエンジニア。このツールは単一コマンドで環境を統合・切り替えるのに役立ちます。以下はそのワークフローの例です: \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "SJhAnHONSegor6fIQs+84RzyPxGIev47KJqNU/BPgF4=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/BinSquare/envmap/main/./logo.svg\" alt=\"envmap logo\" width=\"280\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/BinSquare/envmap/main/./logo.svg\" alt=\"envmap ロゴ\" width=\"280\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "GjvnX4YL7z2ZKXmOqtzq1HHqwzs6oOvUfWDUdVfRaos=",
+        "originContent": "  <a href=\"https://github.com/binsquare/envmap/stargazers\">",
+        "translatedContent": "  <a href=\"https://github.com/binsquare/envmap/stargazers\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "TMiWOQ2WO6GY1dmjJSDu6jajU2B6jMTldr/SPZ0gqno=",
+        "originContent": "    <img src=\"https://img.shields.io/github/stars/binsquare/envmap?style=social\" alt=\"GitHub stars\">",
+        "translatedContent": "    <img src=\"https://img.shields.io/github/stars/binsquare/envmap?style=social\" alt=\"GitHub スター数\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "ZG5MnLH09msvU7ek5lPns2wrCq1BfE+5PPbFXA5QC/I=",
+        "originContent": "  <a href=\"https://github.com/binsquare/envmap/actions/workflows/release.yml\">",
+        "translatedContent": "  <a href=\"https://github.com/binsquare/envmap/actions/workflows/release.yml\">"
+      },
+      {
+        "row": 10,
+        "rowsha": "jDbn/w79DCUvnDCryjkc+H1t47ArFS3BHSL984Z7VwE=",
+        "originContent": "    <img src=\"https://img.shields.io/github/actions/workflow/status/binsquare/envmap/release.yml?branch=main&event=push&label=release\" alt=\"Release workflow status\">",
+        "translatedContent": "    <img src=\"https://img.shields.io/github/actions/workflow/status/binsquare/envmap/release.yml?branch=main&event=push&label=release\" alt=\"リリースワークフローの状態\">"
+      },
+      {
+        "row": 11,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "FX5Dcnkyoqe/K7z8Jk+GoL3G1oUN9wVGra1BQA0DtCQ=",
+        "originContent": "  <a href=\"https://pkg.go.dev/github.com/binsquare/envmap\">",
+        "translatedContent": "  <a href=\"https://pkg.go.dev/github.com/binsquare/envmap\">"
+      },
+      {
+        "row": 13,
+        "rowsha": "y2AfQhW17TGqgTj/j4QhkYN36RIvwIEa1XpAvaYS6sQ=",
+        "originContent": "    <img src=\"https://pkg.go.dev/badge/github.com/binsquare/envmap\" alt=\"Go pkg Reference\">",
+        "translatedContent": "    <img src=\"https://pkg.go.dev/badge/github.com/binsquare/envmap\" alt=\"Go pkg リファレンス\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "do5H4u+WH7GkwW7cxLaiVZlInKznjB2bk6WMXJZDT3A=",
+        "originContent": "  <a href=\"https://goreportcard.com/report/github.com/binsquare/envmap\">",
+        "translatedContent": "  <a href=\"https://goreportcard.com/report/github.com/binsquare/envmap\">"
+      },
+      {
+        "row": 16,
+        "rowsha": "BCYXkBvZQ2VMKUQ4Q35o8w9KAUd/SbAfiE2ehFOYzls=",
+        "originContent": "    <img src=\"https://goreportcard.com/badge/github.com/binsquare/envmap\" alt=\"Go Report Card\">",
+        "translatedContent": "    <img src=\"https://goreportcard.com/badge/github.com/binsquare/envmap\" alt=\"Go レポートカード\">"
+      },
+      {
+        "row": 17,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "27ssQedcriWV8JQXJyZe63dq5zium5+NGRHGqb0GFIg=",
+        "originContent": "  <a href=\"https://github.com/binsquare/envmap/blob/main/LICENSE\">",
+        "translatedContent": "  <a href=\"https://github.com/binsquare/envmap/blob/main/LICENSE\">"
+      },
+      {
+        "row": 19,
+        "rowsha": "4VonV28Xwi+cwoKMraHB/oqM5wftXyFJqWIBMUUDWZ4=",
+        "originContent": "    <img src=\"https://img.shields.io/github/license/binsquare/envmap\" alt=\"License: Apache-2.0\">",
+        "translatedContent": "    <img src=\"https://img.shields.io/github/license/binsquare/envmap\" alt=\"ライセンス: Apache-2.0\">"
+      },
+      {
+        "row": 20,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "/6uhs1UpPtHWA0T/SKVyZ38y1+Okkt31P3PECTJ9uYg=",
+        "originContent": "# envmap",
+        "translatedContent": "# envmap"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "4Q7g58vfNeRsoQxggc97eGrDLZEd6pc/L42kfA4UUdI=",
+        "originContent": "`envmap` is a local env manager that helps you:",
+        "translatedContent": "`envmap` は、以下を支援するローカル環境変数マネージャーです:"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "gDdKZyEH4LELHqcsOV2k9RSQbAZlJDiKDLpyNN1dqUU=",
+        "originContent": "1.  Keep local environment variables in sync with the remote secret stores, per project.",
+        "translatedContent": "1.  プロジェクトごとにローカル環境変数をリモートのシークレットストアと同期させる。"
+      },
+      {
+        "row": 28,
+        "rowsha": "o/mwS5jI29JOx03xU0cd70Jz0Mg/gZ9iwcI4XzeWV1o=",
+        "originContent": "2.  Makes the `.env` file an ephemeral artifact, to keep secrets providers the source of truth. i.e. \"envmap --sync\" to produce a newly updated `.env` file.",
+        "translatedContent": "2.  `.env` ファイルを一時的なアーティファクトとし、シークレットプロバイダーを真の情報源として保持する。すなわち、\"envmap --sync\" で新しく更新された `.env` ファイルを生成する。"
+      },
+      {
+        "row": 29,
+        "rowsha": "7dhb6Ynsab15BEogDOCNcCzs+bfMLItJ2PZqWvgIh+g=",
+        "originContent": "3.  Comes with metadata on each key stored to inform when those keys were last changed/created for sake of doing routine rotations.",
+        "translatedContent": "3.  各キーに関するメタデータを保持し、ルーチンローテーションのためにキーが最後に変更・作成された日時を通知。"
+      },
+      {
+        "row": 30,
+        "rowsha": "4ZIR9Tv7RzJ1MJLmoBv2hdCzR6auygdB4q6lwKty9e0=",
+        "originContent": "4.  Potentially better security since you're not locked to storing secrets in a plaintext `.env` file.",
+        "translatedContent": "4.  平文の `.env` ファイルにシークレットを保存し続ける必要がないため、セキュリティが向上する可能性がある。"
+      },
+      {
+        "row": 31,
+        "rowsha": "I9KcMLcs18i1YSoT5BiO31evyInViCviHv6PJdzeGRs=",
+        "originContent": "5.  Runs completely local + opensource for audits.",
+        "translatedContent": "5.  完全にローカルで動作し、監査のためにオープンソースで提供。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "AcNSvC5lFjqaX7ayrNzDNIkRXb5mpALGOMctxseLL6E=",
+        "originContent": "### Who is this for?",
+        "translatedContent": "### 対象ユーザー"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "IKEUFWZSywsr46oo39HG4u2vqUX3fCF/OGvABlrcNkk=",
+        "originContent": "- Engineers working with multiple `.env` variants like `.env.prod, .env.dev, .env.staging`. This will help you consolidate and switch environments with a single command. Here's an example of that workflow: ",
+        "translatedContent": "- `.env.prod`, `.env.dev`, `.env.staging` のような複数の `.env` バリアントを扱うエンジニア。このツールは単一コマンドで環境を統合・切り替えるのに役立ちます。以下はそのワークフローの例です: "
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n(base) binsquare@mac.lan:~/Documents/envMap (main*) $ ./envmap sync --env prod\nWrote .env (1 secrets)\n(base) binsquare@mac.lan:~/Documents/envMap (main*) $ cat .env\n# generated by envmap sync 2025-12-01T07:49:20Z\ntestkey=apishofih123\n(base) binsquare@mac.lan:~/Documents/envMap (main*) $ ./envmap sync --env dev\nWrote .env (1 secrets)\n(base) binsquare@mac.lan:~/Documents/envMap (main*) $ cat .env\n# generated by envmap sync 2025-12-01T07:50:07Z\ntestkey=test123\n```",
+    "ContentSha": "8/9nbL79iLfMu4eUXM0gOzuAYT3IL7lY1oLPcBvxxLQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n(base) binsquare@mac.lan:~/Documents/envMap (main*) $ ./envmap sync --env prod\nWrote .env (1 secrets)\n(base) binsquare@mac.lan:~/Documents/envMap (main*) $ cat .env\n# generated by envmap sync 2025-12-01T07:49:20Z\ntestkey=apishofih123\n(base) binsquare@mac.lan:~/Documents/envMap (main*) $ ./envmap sync --env dev\nWrote .env (1 secrets)\n(base) binsquare@mac.lan:~/Documents/envMap (main*) $ cat .env\n# generated by envmap sync 2025-12-01T07:50:07Z\ntestkey=test123\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "6WaE7AWK7UR5xsNwqG74oltuUF5WDHsVUpsuG1GZWI8=",
+        "originContent": "(base) binsquare@mac.lan:~/Documents/envMap (main*) $ ./envmap sync --env prod",
+        "translatedContent": "(base) binsquare@mac.lan:~/Documents/envMap (main*) $ ./envmap sync --env prod"
+      },
+      {
+        "row": 3,
+        "rowsha": "Zx1Bn9GOjA1PpWaItzrdrRf2XXwn2/J6RB7Cf81yOkE=",
+        "originContent": "Wrote .env (1 secrets)",
+        "translatedContent": "Wrote .env (1 secrets)"
+      },
+      {
+        "row": 4,
+        "rowsha": "vf9ccWXWUcVw/QHMkw5ce8pQhu+O4/orOP/o6QCVYMA=",
+        "originContent": "(base) binsquare@mac.lan:~/Documents/envMap (main*) $ cat .env",
+        "translatedContent": "(base) binsquare@mac.lan:~/Documents/envMap (main*) $ cat .env"
+      },
+      {
+        "row": 5,
+        "rowsha": "gFh1NCF2kDjs8M4DWFc/U0974a8j972TqYNXIqEu8Uk=",
+        "originContent": "# generated by envmap sync 2025-12-01T07:49:20Z",
+        "translatedContent": "# generated by envmap sync 2025-12-01T07:49:20Z"
+      },
+      {
+        "row": 6,
+        "rowsha": "SadOTrL466TpJyXw0ly7mnGzzAL7x2oT/LOQ3/nytTo=",
+        "originContent": "testkey=apishofih123",
+        "translatedContent": "testkey=apishofih123"
+      },
+      {
+        "row": 7,
+        "rowsha": "KkND2BikIgTlfdllNMtGiuPuh8Tdz3WpegQBpfai0RM=",
+        "originContent": "(base) binsquare@mac.lan:~/Documents/envMap (main*) $ ./envmap sync --env dev",
+        "translatedContent": "(base) binsquare@mac.lan:~/Documents/envMap (main*) $ ./envmap sync --env dev"
+      },
+      {
+        "row": 8,
+        "rowsha": "Zx1Bn9GOjA1PpWaItzrdrRf2XXwn2/J6RB7Cf81yOkE=",
+        "originContent": "Wrote .env (1 secrets)",
+        "translatedContent": "Wrote .env (1 secrets)"
+      },
+      {
+        "row": 9,
+        "rowsha": "vf9ccWXWUcVw/QHMkw5ce8pQhu+O4/orOP/o6QCVYMA=",
+        "originContent": "(base) binsquare@mac.lan:~/Documents/envMap (main*) $ cat .env",
+        "translatedContent": "(base) binsquare@mac.lan:~/Documents/envMap (main*) $ cat .env"
+      },
+      {
+        "row": 10,
+        "rowsha": "dIm0CyuVBLYJKQ49q9BEPgoaAAz4XY86bl1RqzDjpkU=",
+        "originContent": "# generated by envmap sync 2025-12-01T07:50:07Z",
+        "translatedContent": "# generated by envmap sync 2025-12-01T07:50:07Z"
+      },
+      {
+        "row": 11,
+        "rowsha": "0yEcwyO8QzDj/thwAHgdXpCHozhMx4cfYrKSqBbd3+8=",
+        "originContent": "testkey=test123",
+        "translatedContent": "testkey=test123"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n- Engineers working a long list of env variables just wants a thin that helps you manage that increases dev velocity by making sure you have metadata\n- Engineers working across multiple projects and wants to consolidate and track ENV variables globally.\n\n## Installation\n\n### Option 1: Go toolchain\n",
+    "ContentSha": "GZy/fNos6P3tJYgB6CIJyKwDep2HLaUtKtbGrESOsts=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 多数の環境変数を扱うエンジニアは、メタデータを確保することで開発速度を向上させる管理ツールを求めています  \n- 複数プロジェクトを横断して作業するエンジニアは、環境変数をグローバルに統合・追跡したいと考えています  \n\n## インストール\n\n### オプション1: Goツールチェーン\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 多数の環境変数を扱うエンジニアは、メタデータを確保することで開発速度を向上させる管理ツールを求めています  "
+      },
+      {
+        "row": 2,
+        "rowsha": "ysf/2BT1FpMQbaZQQExQ0sUDfGDtREidcKYUoIBPPy8=",
+        "originContent": "- Engineers working a long list of env variables just wants a thin that helps you manage that increases dev velocity by making sure you have metadata",
+        "translatedContent": "- 複数プロジェクトを横断して作業するエンジニアは、環境変数をグローバルに統合・追跡したいと考えています  "
+      },
+      {
+        "row": 3,
+        "rowsha": "sDzc+hCso6qXlMMy9AxN0pjBfahr/teWfl5hK5cqzDk=",
+        "originContent": "- Engineers working across multiple projects and wants to consolidate and track ENV variables globally.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 5,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### オプション1: Goツールチェーン"
+      },
+      {
+        "row": 7,
+        "rowsha": "0vP2QS2Z2zuP59j4GQrydTCYxvD3z3arkRNfjXX3TqI=",
+        "originContent": "### Option 1: Go toolchain",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh\ngo install github.com/binsquare/envmap@latest\n```",
+    "ContentSha": "HgJudlR9A8/QgOS+82izKrtaPmPUH16ZYaqY7UvNT/k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ngo install github.com/binsquare/envmap@latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "DckvUrcjq59qFHAAJMOiIBFSF8SH59jvRI/6d40ZEzM=",
+        "originContent": "go install github.com/binsquare/envmap@latest",
+        "translatedContent": "go install github.com/binsquare/envmap@latest"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Option 2: Prebuilt binary (bash)\n",
+    "ContentSha": "Pr414lXdxI2OrXc4egBVCgl+ZW/RoWfyVX6uBEyJYyQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### オプション2: 事前構築済みバイナリ（bash）\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "YTTT63bTh4zpI4FZhf+SWFeFho6kVsYoCRSW1rnCLTg=",
+        "originContent": "### Option 2: Prebuilt binary (bash)",
+        "translatedContent": "### オプション2: 事前構築済みバイナリ（bash）"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```sh\n# install into /usr/local/bin (requires sudo)\ncurl -sSfL \"https://github.com/binsquare/envmap/releases/latest/download/envmap_$(uname -s)_$(uname -m).tar.gz\" \\\n  | sudo tar -xz -C /usr/local/bin envmap\n\n# or install into ~/.local/bin (no sudo; ensure it's on PATH)\nmkdir -p ~/.local/bin\ncurl -sSfL \"https://github.com/binsquare/envmap/releases/latest/download/envmap_$(uname -s)_$(uname -m).tar.gz\" \\\n  | tar -xz -C ~/.local/bin envmap\n\n# (optional) verify checksum (adjust path if using ~/.local/bin)\ncurl -sSfL \"https://github.com/binsquare/envmap/releases/latest/download/envmap_$(uname -s)_$(uname -m).tar.gz.sha256\" \\\n  | sha256sum --check -\n```",
+    "ContentSha": "YXIKKmW6rZGyebz6Vc9KIjlM1fiIQfS0RPJz92fcNjY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n# install into /usr/local/bin (requires sudo)\ncurl -sSfL \"https://github.com/binsquare/envmap/releases/latest/download/envmap_$(uname -s)_$(uname -m).tar.gz\" \\\n  | sudo tar -xz -C /usr/local/bin envmap\n\n# or install into ~/.local/bin (no sudo; ensure it's on PATH)\nmkdir -p ~/.local/bin\ncurl -sSfL \"https://github.com/binsquare/envmap/releases/latest/download/envmap_$(uname -s)_$(uname -m).tar.gz\" \\\n  | tar -xz -C ~/.local/bin envmap\n\n# (optional) verify checksum (adjust path if using ~/.local/bin)\ncurl -sSfL \"https://github.com/binsquare/envmap/releases/latest/download/envmap_$(uname -s)_$(uname -m).tar.gz.sha256\" \\\n  | sha256sum --check -\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "PNy/rO2JsK2S+kLGMacgLWX1RU8HCMsVdg52AnYsdjY=",
+        "originContent": "# install into /usr/local/bin (requires sudo)",
+        "translatedContent": "# install into /usr/local/bin (requires sudo)"
+      },
+      {
+        "row": 3,
+        "rowsha": "8mAj+3NV9fATcGXykeZMsqTGVNpE3GIU1yWxiwlN/5U=",
+        "originContent": "curl -sSfL \"https://github.com/binsquare/envmap/releases/latest/download/envmap_$(uname -s)_$(uname -m).tar.gz\" \\",
+        "translatedContent": "curl -sSfL \"https://github.com/binsquare/envmap/releases/latest/download/envmap_$(uname -s)_$(uname -m).tar.gz\" \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZbAUWDty5CcQSY0b788YZ3dfef0fd0hsRx2aK6mthME=",
+        "originContent": "  | sudo tar -xz -C /usr/local/bin envmap",
+        "translatedContent": "  | sudo tar -xz -C /usr/local/bin envmap"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "1cZy/5Dgi1M4Due3i6lf2uEy8khIGKzyqsUQefKTZBM=",
+        "originContent": "# or install into ~/.local/bin (no sudo; ensure it's on PATH)",
+        "translatedContent": "# or install into ~/.local/bin (no sudo; ensure it's on PATH)"
+      },
+      {
+        "row": 7,
+        "rowsha": "1KhDPv87ay1T7IqjLBtwrtcObis03aiDAH9yBfEdVUo=",
+        "originContent": "mkdir -p ~/.local/bin",
+        "translatedContent": "mkdir -p ~/.local/bin"
+      },
+      {
+        "row": 8,
+        "rowsha": "8mAj+3NV9fATcGXykeZMsqTGVNpE3GIU1yWxiwlN/5U=",
+        "originContent": "curl -sSfL \"https://github.com/binsquare/envmap/releases/latest/download/envmap_$(uname -s)_$(uname -m).tar.gz\" \\",
+        "translatedContent": "curl -sSfL \"https://github.com/binsquare/envmap/releases/latest/download/envmap_$(uname -s)_$(uname -m).tar.gz\" \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "yHhjVkz12qYlEAF2ofANv+OwvL+F35MusqUx8RU6b44=",
+        "originContent": "  | tar -xz -C ~/.local/bin envmap",
+        "translatedContent": "  | tar -xz -C ~/.local/bin envmap"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "mGCWcscsGehCz5dYfsqRnk3FfHHw5DCP9kZE1me6j2M=",
+        "originContent": "# (optional) verify checksum (adjust path if using ~/.local/bin)",
+        "translatedContent": "# (optional) verify checksum (adjust path if using ~/.local/bin)"
+      },
+      {
+        "row": 12,
+        "rowsha": "XifrhKX8BUVwQ1vSngQ/kbATIM0xP74jrfKcq/48doA=",
+        "originContent": "curl -sSfL \"https://github.com/binsquare/envmap/releases/latest/download/envmap_$(uname -s)_$(uname -m).tar.gz.sha256\" \\",
+        "translatedContent": "curl -sSfL \"https://github.com/binsquare/envmap/releases/latest/download/envmap_$(uname -s)_$(uname -m).tar.gz.sha256\" \\"
+      },
+      {
+        "row": 13,
+        "rowsha": "+k4lsqUCJTIi3HYdtbEPg8UT+xepoaH+HvUAt5rF9kg=",
+        "originContent": "  | sha256sum --check -",
+        "translatedContent": "  | sha256sum --check -"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nIf you use the `~/.local/bin` option, make sure your shell loads it (most modern shells already do; otherwise append `export PATH=\"$HOME/.local/bin:$PATH\"` to your profile).\n\nRestart the shell (or reload the profile) and run `envmap --help` to verify.\n\n## Quick start (local provider)\n",
+    "ContentSha": "3kWcj0H0UFW90sTpGAnyPY9fDf8qDVUURmxG0MmlWXI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n`~/.local/bin` オプションを使用する場合は、シェルがそれを読み込むようにしてください（ほとんどの最新のシェルはすでに読み込みます。そうでない場合は、`export PATH=\"$HOME/.local/bin:$PATH\"` をプロファイルに追加してください）。\n\nシェルを再起動するか（またはプロファイルをリロードして） `envmap --help` を実行し、確認してください。\n\n## クイックスタート（ローカルプロバイダー）\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "XWnut5eqjCGo9qXbYtyMew2dIegT+L8hECiVXXYG3bA=",
+        "originContent": "If you use the `~/.local/bin` option, make sure your shell loads it (most modern shells already do; otherwise append `export PATH=\"$HOME/.local/bin:$PATH\"` to your profile).",
+        "translatedContent": "`~/.local/bin` オプションを使用する場合は、シェルがそれを読み込むようにしてください（ほとんどの最新のシェルはすでに読み込みます。そうでない場合は、`export PATH=\"$HOME/.local/bin:$PATH\"` をプロファイルに追加してください）。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ct0018ENTtNhEL7out4/vcukTDBW7Bawwcl6ypdeFUo=",
+        "originContent": "Restart the shell (or reload the profile) and run `envmap --help` to verify.",
+        "translatedContent": "シェルを再起動するか（またはプロファイルをリロードして） `envmap --help` を実行し、確認してください。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "RW2JQnR94b4PIEDtijCvDOj+MBicp4lmgutXsg4jenQ=",
+        "originContent": "## Quick start (local provider)",
+        "translatedContent": "## クイックスタート（ローカルプロバイダー）"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```sh\n# 1. Generate encryption key (writes to ~/.envmap/key)\nenvmap keygen\n\n# 2. Configure global provider (wizard; runs keygen if needed)\nenvmap init --global\n\n# 3. Create project config (wizard)\nenvmap init\n\n# 4. Add secrets\nenvmap set --env dev DATABASE_URL --prompt\nenvmap set --env dev STRIPE_KEY --prompt\n\n# 5. Inspect/export/run\nenvmap get --env dev --all\neval $(envmap export --env dev)\nenvmap run --env dev -- npm start\n```",
+    "ContentSha": "WFPui8iLg874qDoKgro2JXQ+nEyKDId4dM827xwtkpM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n# 1. Generate encryption key (writes to ~/.envmap/key)\nenvmap keygen\n\n# 2. Configure global provider (wizard; runs keygen if needed)\nenvmap init --global\n\n# 3. Create project config (wizard)\nenvmap init\n\n# 4. Add secrets\nenvmap set --env dev DATABASE_URL --prompt\nenvmap set --env dev STRIPE_KEY --prompt\n\n# 5. Inspect/export/run\nenvmap get --env dev --all\neval $(envmap export --env dev)\nenvmap run --env dev -- npm start\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "qqauCbkPej2IjfyShqd1b3sDqyRTMGqBtAHPnU2LOzw=",
+        "originContent": "# 1. Generate encryption key (writes to ~/.envmap/key)",
+        "translatedContent": "# 1. Generate encryption key (writes to ~/.envmap/key)"
+      },
+      {
+        "row": 3,
+        "rowsha": "U6NAL9vN0wucfeTKCU/5++jHwkulmpDXKgKdQ/0Q+H4=",
+        "originContent": "envmap keygen",
+        "translatedContent": "envmap keygen"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "uiDhvMkZt74zFJ4Y4QAHSy8UDUEaFYPgvz9lQ3qcB1U=",
+        "originContent": "# 2. Configure global provider (wizard; runs keygen if needed)",
+        "translatedContent": "# 2. Configure global provider (wizard; runs keygen if needed)"
+      },
+      {
+        "row": 6,
+        "rowsha": "BR/5vGVvQe2+daItvYhIjYtPSgBuAWuFaZcVh1RlrcA=",
+        "originContent": "envmap init --global",
+        "translatedContent": "envmap init --global"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "UmBLkO/IMqB1WOLV5zPiry0ecHiq9HQ1817RE2kfaU8=",
+        "originContent": "# 3. Create project config (wizard)",
+        "translatedContent": "# 3. Create project config (wizard)"
+      },
+      {
+        "row": 9,
+        "rowsha": "jfsHE5vBRDTfdnG4laMZurSCFB2uCWTICCq6f/66z7M=",
+        "originContent": "envmap init",
+        "translatedContent": "envmap init"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "jxHiS+V9CiwKkWoC1kTGps1VbSCaAQuclUUTmFqWlqg=",
+        "originContent": "# 4. Add secrets",
+        "translatedContent": "# 4. Add secrets"
+      },
+      {
+        "row": 12,
+        "rowsha": "sRqn+BNgfk4BYHFW5TNMwEuXzzsCY5wwnhdm4O/xJIY=",
+        "originContent": "envmap set --env dev DATABASE_URL --prompt",
+        "translatedContent": "envmap set --env dev DATABASE_URL --prompt"
+      },
+      {
+        "row": 13,
+        "rowsha": "/2lABeX/KZBBnGTFR0NEewWnTY5ZqZFaCTvNFijixRA=",
+        "originContent": "envmap set --env dev STRIPE_KEY --prompt",
+        "translatedContent": "envmap set --env dev STRIPE_KEY --prompt"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "ofMO+smwpRJNa1wVeHeizgQPcGENC2ltgdLfthDwBq8=",
+        "originContent": "# 5. Inspect/export/run",
+        "translatedContent": "# 5. Inspect/export/run"
+      },
+      {
+        "row": 16,
+        "rowsha": "H0Ie0ihoddajoAi4GgmQFPZE84m1vEaHHPDyN+0XMvc=",
+        "originContent": "envmap get --env dev --all",
+        "translatedContent": "envmap get --env dev --all"
+      },
+      {
+        "row": 17,
+        "rowsha": "y48ZBxGQdIMobiWigl037KN0PBgfRv574FptHZwQRKk=",
+        "originContent": "eval $(envmap export --env dev)",
+        "translatedContent": "eval $(envmap export --env dev)"
+      },
+      {
+        "row": 18,
+        "rowsha": "kJ9YR41gArmVWGKzTRZvtypJ5vWSGURtpS0Yx3bY/nk=",
+        "originContent": "envmap run --env dev -- npm start",
+        "translatedContent": "envmap run --env dev -- npm start"
+      },
+      {
+        "row": 19,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nPrefer the wizards, but manual config is supported. Use absolute paths (Go does not expand `~` or `${HOME}`).\n\n<details>\n<summary>Manual configuration reference</summary>\n\n### Global config (`~/.envmap/config.yaml`)\n",
+    "ContentSha": "O4mG+cyI3eLIUEi2wqoJVZhmcGB++TXRZAJw1TRd4Z0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nウィザードを推奨しますが、手動設定もサポートされています。絶対パスを使用してください（Goは`~`や`${HOME}`を展開しません）。\n\n<details>\n<summary>手動設定のリファレンス</summary>\n\n### グローバル設定（`~/.envmap/config.yaml`）\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "4uim3wvV4UG8ZRDeLmGyXP5dcIDhf7sYQnGfnlMKOYo=",
+        "originContent": "Prefer the wizards, but manual config is supported. Use absolute paths (Go does not expand `~` or `${HOME}`).",
+        "translatedContent": "ウィザードを推奨しますが、手動設定もサポートされています。絶対パスを使用してください（Goは`~`や`${HOME}`を展開しません）。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "1ZoGdickpfHn3aof1aFgQjjm/Hd1/zDfIHeimGJX8UU=",
+        "originContent": "<summary>Manual configuration reference</summary>",
+        "translatedContent": "<summary>手動設定のリファレンス</summary>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "3g+jv2Z0xi5rZJFqAfUm+ZJ0+J5ug8EmhJOX/QIVvXM=",
+        "originContent": "### Global config (`~/.envmap/config.yaml`)",
+        "translatedContent": "### グローバル設定（`~/.envmap/config.yaml`）"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```yaml\nproviders:\n  local-dev:\n    type: local-file\n    path: /Users/<you>/.envmap/secrets.db\n    encryption:\n      key_file: /Users/<you>/.envmap/key\n```",
+    "ContentSha": "OrEt3P6qwzHTd65XQUkdosI/B147OxchxytqoHeROaU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nproviders:\n  local-dev:\n    type: local-file\n    path: /Users/<you>/.envmap/secrets.db\n    encryption:\n      key_file: /Users/<you>/.envmap/key\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "oTQ79lcdOawoFGnAx5ZECXjpFzPVhK+frVK3WuJIwB0=",
+        "originContent": "providers:",
+        "translatedContent": "providers:"
+      },
+      {
+        "row": 3,
+        "rowsha": "Nn5p4nZrYZ0ZKNyj3hOeCBeO/a+erfV8tuARtGBaZTo=",
+        "originContent": "  local-dev:",
+        "translatedContent": "  local-dev:"
+      },
+      {
+        "row": 4,
+        "rowsha": "43jhZzhIiIfB5dFhqXN4IsLpZMLLuZQz7XSmZEfCGjA=",
+        "originContent": "    type: local-file",
+        "translatedContent": "    type: local-file"
+      },
+      {
+        "row": 5,
+        "rowsha": "YJLhnZSivQYEAJQj2miZYBsClWdmqLfsxHxvt19chpU=",
+        "originContent": "    path: /Users/<you>/.envmap/secrets.db",
+        "translatedContent": "    path: /Users/<you>/.envmap/secrets.db"
+      },
+      {
+        "row": 6,
+        "rowsha": "VL7c/nzI797WVmqHo02gOwFth1rtsDwdySajtZuXFmg=",
+        "originContent": "    encryption:",
+        "translatedContent": "    encryption:"
+      },
+      {
+        "row": 7,
+        "rowsha": "Aj4Zp+5o7OcKX2Dr9S61eJWP1VWAF4dvfM5++rGNyio=",
+        "originContent": "      key_file: /Users/<you>/.envmap/key",
+        "translatedContent": "      key_file: /Users/<you>/.envmap/key"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### Project config (`.envmap.yaml`)\n",
+    "ContentSha": "AxUUsNilLuYD1a2lTLRRq8LtI4BckAwnaQdF+myvziI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### プロジェクト設定（`.envmap.yaml`）\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "96i4X9h9ZIJhLFPyqztF9hYCiysKIgRu4be4fWb6xYI=",
+        "originContent": "### Project config (`.envmap.yaml`)",
+        "translatedContent": "### プロジェクト設定（`.envmap.yaml`）"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```yaml\nproject: demo\ndefault_env: dev\nenvs:\n  dev:\n    provider: local-dev\n    prefix: demo/dev/\n```",
+    "ContentSha": "8Kca+uRABwK2EDs4WS/SswuwDL39na3uQwcLJWMPmGA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nproject: demo\ndefault_env: dev\nenvs:\n  dev:\n    provider: local-dev\n    prefix: demo/dev/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "z2nszc5VY+ZCDeICianQcPg4iYjGDX3lyRzlMNFCAsI=",
+        "originContent": "project: demo",
+        "translatedContent": "project: demo"
+      },
+      {
+        "row": 3,
+        "rowsha": "jTyc9jf7g1LI0cSPbtj7S3zN8HLDGTaXLZpnNLmOzJk=",
+        "originContent": "default_env: dev",
+        "translatedContent": "default_env: dev"
+      },
+      {
+        "row": 4,
+        "rowsha": "EJRhMtT9A/OhNlO4hjbCVuSAYbui54zDsXKPAPxiPaM=",
+        "originContent": "envs:",
+        "translatedContent": "envs:"
+      },
+      {
+        "row": 5,
+        "rowsha": "86QocA7vkn4RyHGtDBlc1nCvCwIxV7vHx3COyYiBzf8=",
+        "originContent": "  dev:",
+        "translatedContent": "  dev:"
+      },
+      {
+        "row": 6,
+        "rowsha": "FIgwu64F2add/br2ve90dzE59x/ADDBay025jNT8ZzU=",
+        "originContent": "    provider: local-dev",
+        "translatedContent": "    provider: local-dev"
+      },
+      {
+        "row": 7,
+        "rowsha": "N8j3JX0fzEfVP9rDnmMJotDH8VCUOwYs3Vt1aSToKN8=",
+        "originContent": "    prefix: demo/dev/",
+        "translatedContent": "    prefix: demo/dev/"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n</details>\n\n## Usage\n\n- `envmap run [--env <name>] -- <command>` – fetch secrets and run the command with them injected as env vars (disk never sees them).\n- `envmap export [--env <name>] [--format plain|json]` – output suitable for `eval`, direnv, or tooling.\n- `envmap get --env <name> KEY [--raw]` – read individual secrets.\n- `envmap get --env <name> --all [--raw] [--global]` – list all secrets (masked by default); `--global` iterates all envs.\n- `envmap set --env <name> KEY (--prompt | --file PATH)` – write/update secrets without shell history.\n- `envmap import PATH --env <name> [--delete]` – ingest existing `.env` files.\n- `envmap sync --env <name> [--out .env] [--merge] [--keep-local] [--force] [--backup=false]` – write a .env file from provider secrets. Provider wins by default; merge keeps extra local-only keys; keep-local preserves local values on conflict; backup writes .bak first.\n- `envmap sync --env <name> --check` – report drift between provider and .env without writing.\n- `envmap keygen [-o PATH]` – create a 256-bit key for the local provider.\n- `envmap validate` – confirm `.envmap.yaml` and global config reference defined providers.\n- `envmap init` / `envmap init --global` – interactive project/global configuration.\n\n### Use with direnv\n",
+    "ContentSha": "KryrWYIQ13Zrw5NKAKK/dxw4i68pIp+UsbFkO79c7JU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n## 使用方法\n\n- `envmap run [--env <name>] -- <command>` – シークレットを取得し、それらを環境変数として注入してコマンドを実行（ディスクには保存しません）。\n- `envmap export [--env <name>] [--format plain|json]` – `eval`、direnv、またはツール向けの出力。\n- `envmap get --env <name> KEY [--raw]` – 個別のシークレットを読み取る。\n- `envmap get --env <name> --all [--raw] [--global]` – すべてのシークレットを一覧表示（デフォルトでマスクされます）；`--global` はすべての環境を繰り返します。\n- `envmap set --env <name> KEY (--prompt | --file PATH)` – シェル履歴に残らずシークレットを書き込み/更新。\n- `envmap import PATH --env <name> [--delete]` – 既存の `.env` ファイルを取り込む。\n- `envmap sync --env <name> [--out .env] [--merge] [--keep-local] [--force] [--backup=false]` – プロバイダのシークレットから .env ファイルを書き出す。デフォルトはプロバイダ優先；`--merge` はローカル専用のキーを保持；`--keep-local` は衝突時にローカル値を保持；`--backup` は最初に .bak を書き出す。\n- `envmap sync --env <name> --check` – 書き込みなしでプロバイダと .env の差分を報告。\n- `envmap keygen [-o PATH]` – ローカルプロバイダ用の256ビットキーを作成。\n- `envmap validate` – `.envmap.yaml` とグローバル設定が定義されたプロバイダを参照していることを確認。\n- `envmap init` / `envmap init --global` – 対話形式のプロジェクト/グローバル設定。\n\n### direnv と併用する場合\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "RR5F+AZRj9V3l7G65FVa+C7YTtsmdvveZY3OYEoLun8=",
+        "originContent": "- `envmap run [--env <name>] -- <command>` – fetch secrets and run the command with them injected as env vars (disk never sees them).",
+        "translatedContent": "- `envmap run [--env <name>] -- <command>` – シークレットを取得し、それらを環境変数として注入してコマンドを実行（ディスクには保存しません）。"
+      },
+      {
+        "row": 7,
+        "rowsha": "IaEBb+2t4uigGYU4ZGtj+WFU44tO0nZTMS9c74aAKWA=",
+        "originContent": "- `envmap export [--env <name>] [--format plain|json]` – output suitable for `eval`, direnv, or tooling.",
+        "translatedContent": "- `envmap export [--env <name>] [--format plain|json]` – `eval`、direnv、またはツール向けの出力。"
+      },
+      {
+        "row": 8,
+        "rowsha": "DjNTPRF1szxv0/oZepCBeKwoPpB4Oe322A1dh3pdXJU=",
+        "originContent": "- `envmap get --env <name> KEY [--raw]` – read individual secrets.",
+        "translatedContent": "- `envmap get --env <name> KEY [--raw]` – 個別のシークレットを読み取る。"
+      },
+      {
+        "row": 9,
+        "rowsha": "xWlzts+iJXP7sC/XrbNcXqUBU45olC2wpbkk9ttSz6Q=",
+        "originContent": "- `envmap get --env <name> --all [--raw] [--global]` – list all secrets (masked by default); `--global` iterates all envs.",
+        "translatedContent": "- `envmap get --env <name> --all [--raw] [--global]` – すべてのシークレットを一覧表示（デフォルトでマスクされます）；`--global` はすべての環境を繰り返します。"
+      },
+      {
+        "row": 10,
+        "rowsha": "F5iaZxtidoKiQ3mpsdlZVKXahs111d7nSc9hvfkJkdY=",
+        "originContent": "- `envmap set --env <name> KEY (--prompt | --file PATH)` – write/update secrets without shell history.",
+        "translatedContent": "- `envmap set --env <name> KEY (--prompt | --file PATH)` – シェル履歴に残らずシークレットを書き込み/更新。"
+      },
+      {
+        "row": 11,
+        "rowsha": "ONvcbpfqkWuZSIP3v+RzaZrsKdEyuabRvfUKycHsJmo=",
+        "originContent": "- `envmap import PATH --env <name> [--delete]` – ingest existing `.env` files.",
+        "translatedContent": "- `envmap import PATH --env <name> [--delete]` – 既存の `.env` ファイルを取り込む。"
+      },
+      {
+        "row": 12,
+        "rowsha": "v6vcpgWfCN48ywcfclX1zpaY4QEow9G6+eqflNlJKEc=",
+        "originContent": "- `envmap sync --env <name> [--out .env] [--merge] [--keep-local] [--force] [--backup=false]` – write a .env file from provider secrets. Provider wins by default; merge keeps extra local-only keys; keep-local preserves local values on conflict; backup writes .bak first.",
+        "translatedContent": "- `envmap sync --env <name> [--out .env] [--merge] [--keep-local] [--force] [--backup=false]` – プロバイダのシークレットから .env ファイルを書き出す。デフォルトはプロバイダ優先；`--merge` はローカル専用のキーを保持；`--keep-local` は衝突時にローカル値を保持；`--backup` は最初に .bak を書き出す。"
+      },
+      {
+        "row": 13,
+        "rowsha": "TeocS+jPRFRDt+wnhDHqDc6pfzUS+w+9Wg8/kbSiZNg=",
+        "originContent": "- `envmap sync --env <name> --check` – report drift between provider and .env without writing.",
+        "translatedContent": "- `envmap sync --env <name> --check` – 書き込みなしでプロバイダと .env の差分を報告。"
+      },
+      {
+        "row": 14,
+        "rowsha": "v39BKT6F0u8sO8wLeV38PRmWZUenfWOZ9drGCdb3GcI=",
+        "originContent": "- `envmap keygen [-o PATH]` – create a 256-bit key for the local provider.",
+        "translatedContent": "- `envmap keygen [-o PATH]` – ローカルプロバイダ用の256ビットキーを作成。"
+      },
+      {
+        "row": 15,
+        "rowsha": "WlS9LbMlope7tEM2P6sdu5apUEgiI0Hp3dpNBOznlEw=",
+        "originContent": "- `envmap validate` – confirm `.envmap.yaml` and global config reference defined providers.",
+        "translatedContent": "- `envmap validate` – `.envmap.yaml` とグローバル設定が定義されたプロバイダを参照していることを確認。"
+      },
+      {
+        "row": 16,
+        "rowsha": "oz8wYTVwQGNbTXHPfpq6LnoAEqad1Plm5hc+NBao470=",
+        "originContent": "- `envmap init` / `envmap init --global` – interactive project/global configuration.",
+        "translatedContent": "- `envmap init` / `envmap init --global` – 対話形式のプロジェクト/グローバル設定。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "8WeZM/2XppVp5mPKlIaIORg40NPpPC+Tak3UFVJTPV8=",
+        "originContent": "### Use with direnv",
+        "translatedContent": "### direnv と併用する場合"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```sh\n# .envrc\neval \"$(envmap export --env dev)\"\n```",
+    "ContentSha": "rj2TU6+p2JxhFtK8L2Y1c+4UP2j82yq/DRyuli3Guz8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n# .envrc\neval \"$(envmap export --env dev)\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "757CdS010cqEBs7so5m1qu+QjqFw8Asc6Qo4PQdoXDw=",
+        "originContent": "# .envrc",
+        "translatedContent": "# .envrc"
+      },
+      {
+        "row": 3,
+        "rowsha": "GBmDBeQaj6Ezr+vLnekvzlENucuEjy0QtXFDWrYGaxs=",
+        "originContent": "eval \"$(envmap export --env dev)\"",
+        "translatedContent": "eval \"$(envmap export --env dev)\""
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nThen run `direnv allow`. Every time you enter the directory, direnv will re-run `envmap export` and populate the shell with fresh secrets without touching disk.\n\n## Configuration\n\n### Global config (`~/.envmap/config.yaml`)\n",
+    "ContentSha": "cS68v2xJc294+ITbxPM8qowlw16Mc4hkZvio0XyrgAY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n次に `direnv allow` を実行します。ディレクトリに入るたびに、direnv は `envmap export` を再実行し、ディスクに触れることなくシェルに新しいシークレットを設定します。\n\n## 設定\n\n### グローバル設定 (`~/.envmap/config.yaml`)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "4810Sh743aVkwe1C6TFzxm74BH2l0SSVypaf777Ly9o=",
+        "originContent": "Then run `direnv allow`. Every time you enter the directory, direnv will re-run `envmap export` and populate the shell with fresh secrets without touching disk.",
+        "translatedContent": "次に `direnv allow` を実行します。ディレクトリに入るたびに、direnv は `envmap export` を再実行し、ディスクに触れることなくシェルに新しいシークレットを設定します。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+        "originContent": "## Configuration",
+        "translatedContent": "## 設定"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "3g+jv2Z0xi5rZJFqAfUm+ZJ0+J5ug8EmhJOX/QIVvXM=",
+        "originContent": "### Global config (`~/.envmap/config.yaml`)",
+        "translatedContent": "### グローバル設定 (`~/.envmap/config.yaml`)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```yaml\nproviders:\n  aws-dev:\n    type: aws-ssm\n    region: us-west-2\n    profile: dev # optional, uses default credential chain\n\n  vault-prod:\n    type: vault\n    address: https://vault.internal:8200\n    mount: secret # default: secret\n\n  local:\n    type: local-file\n    path: ~/.envmap/secrets.db\n    encryption:\n      key_file: ~/.envmap/key # must be chmod 600\n      # or: key_env: ENVMAP_KEY\n```",
+    "ContentSha": "+tdjpLWYWgtZF1N2V/T/qaZrLIJKkV1QM7pVk0zXOF8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nproviders:\n  aws-dev:\n    type: aws-ssm\n    region: us-west-2\n    profile: dev # optional, uses default credential chain\n\n  vault-prod:\n    type: vault\n    address: https://vault.internal:8200\n    mount: secret # default: secret\n\n  local:\n    type: local-file\n    path: ~/.envmap/secrets.db\n    encryption:\n      key_file: ~/.envmap/key # must be chmod 600\n      # or: key_env: ENVMAP_KEY\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "oTQ79lcdOawoFGnAx5ZECXjpFzPVhK+frVK3WuJIwB0=",
+        "originContent": "providers:",
+        "translatedContent": "providers:"
+      },
+      {
+        "row": 3,
+        "rowsha": "q2iB4GUR/LQ/3ITTLBQ3/hR0UGe1dGMKr8vQCiH4hgA=",
+        "originContent": "  aws-dev:",
+        "translatedContent": "  aws-dev:"
+      },
+      {
+        "row": 4,
+        "rowsha": "VFfMr2ItCgjJ58ZOARmOjQyFSsIEuf/lLFdKzyYxukU=",
+        "originContent": "    type: aws-ssm",
+        "translatedContent": "    type: aws-ssm"
+      },
+      {
+        "row": 5,
+        "rowsha": "Sz0FYLvcCQPu3y64v4IJy632qMz2p2kKD5OCnldTcb4=",
+        "originContent": "    region: us-west-2",
+        "translatedContent": "    region: us-west-2"
+      },
+      {
+        "row": 6,
+        "rowsha": "GOGHBo07i/Txuye99ku1ElRF+CESKqcRuCdcoQvelNg=",
+        "originContent": "    profile: dev # optional, uses default credential chain",
+        "translatedContent": "    profile: dev # optional, uses default credential chain"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "TuTrDQ9tLBR4rwZCSqA2CCQnBvps54Lb8btZMZRgQ+0=",
+        "originContent": "  vault-prod:",
+        "translatedContent": "  vault-prod:"
+      },
+      {
+        "row": 9,
+        "rowsha": "LnRXGKb2oF7ZiTyN0e6Jehj091Z8wxL9HBZxZrSbEK0=",
+        "originContent": "    type: vault",
+        "translatedContent": "    type: vault"
+      },
+      {
+        "row": 10,
+        "rowsha": "jZHMax7JomkHDtooL+p7WbPvlCsOcba3BMD0mcEfuZ4=",
+        "originContent": "    address: https://vault.internal:8200",
+        "translatedContent": "    address: https://vault.internal:8200"
+      },
+      {
+        "row": 11,
+        "rowsha": "S3ymfX4ZFW/j6+1szCSAJMwy2gC6cgKL+UZBrmVeG+0=",
+        "originContent": "    mount: secret # default: secret",
+        "translatedContent": "    mount: secret # default: secret"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "+2j746ugpaXw7FFFVi/3E3iWJmycylzDvx6+3oZXSFw=",
+        "originContent": "  local:",
+        "translatedContent": "  local:"
+      },
+      {
+        "row": 14,
+        "rowsha": "43jhZzhIiIfB5dFhqXN4IsLpZMLLuZQz7XSmZEfCGjA=",
+        "originContent": "    type: local-file",
+        "translatedContent": "    type: local-file"
+      },
+      {
+        "row": 15,
+        "rowsha": "sQ3CA4Ebg14V2lfvpOe7PfQUVip3jHvidoaJYQC9NGw=",
+        "originContent": "    path: ~/.envmap/secrets.db",
+        "translatedContent": "    path: ~/.envmap/secrets.db"
+      },
+      {
+        "row": 16,
+        "rowsha": "VL7c/nzI797WVmqHo02gOwFth1rtsDwdySajtZuXFmg=",
+        "originContent": "    encryption:",
+        "translatedContent": "    encryption:"
+      },
+      {
+        "row": 17,
+        "rowsha": "f91/EwfQ0v3ChsuCDgjyt/bq4h/mcatwLOPBQTC4rMI=",
+        "originContent": "      key_file: ~/.envmap/key # must be chmod 600",
+        "translatedContent": "      key_file: ~/.envmap/key # must be chmod 600"
+      },
+      {
+        "row": 18,
+        "rowsha": "8a7sGpUIuFi2/0epr+KptUiST76fVFQENjyr9WOlHf8=",
+        "originContent": "      # or: key_env: ENVMAP_KEY",
+        "translatedContent": "      # or: key_env: ENVMAP_KEY"
+      },
+      {
+        "row": 19,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### Project config (`.envmap.yaml`)\n",
+    "ContentSha": "AxUUsNilLuYD1a2lTLRRq8LtI4BckAwnaQdF+myvziI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### プロジェクト設定（`.envmap.yaml`）\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "96i4X9h9ZIJhLFPyqztF9hYCiysKIgRu4be4fWb6xYI=",
+        "originContent": "### Project config (`.envmap.yaml`)",
+        "translatedContent": "### プロジェクト設定（`.envmap.yaml`）"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```yaml\nproject: myapp\ndefault_env: dev\n\nenvs:\n  dev:\n    provider: aws-dev\n    path_prefix: /myapp/dev/\n\n  staging:\n    provider: aws-dev\n    path_prefix: /myapp/staging/\n\n  local:\n    provider: local\n    prefix: myapp/\n```",
+    "ContentSha": "nhrraBafWwmQkRDR7QpCoMbiJvtRn0VDUncGY9HM1yQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nproject: myapp\ndefault_env: dev\n\nenvs:\n  dev:\n    provider: aws-dev\n    path_prefix: /myapp/dev/\n\n  staging:\n    provider: aws-dev\n    path_prefix: /myapp/staging/\n\n  local:\n    provider: local\n    prefix: myapp/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "xs1FKwy6+cTVTEuO0/lMfsHvH0Bn+lIGKNWiLzaJH7E=",
+        "originContent": "project: myapp",
+        "translatedContent": "project: myapp"
+      },
+      {
+        "row": 3,
+        "rowsha": "jTyc9jf7g1LI0cSPbtj7S3zN8HLDGTaXLZpnNLmOzJk=",
+        "originContent": "default_env: dev",
+        "translatedContent": "default_env: dev"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "EJRhMtT9A/OhNlO4hjbCVuSAYbui54zDsXKPAPxiPaM=",
+        "originContent": "envs:",
+        "translatedContent": "envs:"
+      },
+      {
+        "row": 6,
+        "rowsha": "86QocA7vkn4RyHGtDBlc1nCvCwIxV7vHx3COyYiBzf8=",
+        "originContent": "  dev:",
+        "translatedContent": "  dev:"
+      },
+      {
+        "row": 7,
+        "rowsha": "Vc4kobQUvNhb32LgG6y+MzdN8waXbBnQqZI/fQkMeEc=",
+        "originContent": "    provider: aws-dev",
+        "translatedContent": "    provider: aws-dev"
+      },
+      {
+        "row": 8,
+        "rowsha": "z7owI9I6h7Ogl61LWxbvda/2dVnGn1apPtg/gFLSzio=",
+        "originContent": "    path_prefix: /myapp/dev/",
+        "translatedContent": "    path_prefix: /myapp/dev/"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "cGp+mILI8sJ50QGGmpHazmPR/po7/3QOWT3DL9CFnkE=",
+        "originContent": "  staging:",
+        "translatedContent": "  staging:"
+      },
+      {
+        "row": 11,
+        "rowsha": "Vc4kobQUvNhb32LgG6y+MzdN8waXbBnQqZI/fQkMeEc=",
+        "originContent": "    provider: aws-dev",
+        "translatedContent": "    provider: aws-dev"
+      },
+      {
+        "row": 12,
+        "rowsha": "v7buz/kZSmeVe/EVhziFWKIqekPlpdYP5ITZtRk36xs=",
+        "originContent": "    path_prefix: /myapp/staging/",
+        "translatedContent": "    path_prefix: /myapp/staging/"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "+2j746ugpaXw7FFFVi/3E3iWJmycylzDvx6+3oZXSFw=",
+        "originContent": "  local:",
+        "translatedContent": "  local:"
+      },
+      {
+        "row": 15,
+        "rowsha": "I6MxHpssgJtgWW9isA3z2bydpTH/7SkcCNbdaMfol/I=",
+        "originContent": "    provider: local",
+        "translatedContent": "    provider: local"
+      },
+      {
+        "row": 16,
+        "rowsha": "m4JyUKu4aNMCnussaU03LiPDl7CALPXFECBvpA8yf9g=",
+        "originContent": "    prefix: myapp/",
+        "translatedContent": "    prefix: myapp/"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n## Built-in providers (WIP)\n\n| Type                 | Auth                       | Notes                                                   |\n| -------------------- | -------------------------- | ------------------------------------------------------- |\n| `aws-ssm`            | IAM (profile/env/instance) | Requires `path_prefix`. Uses SecureString.              |\n| `aws-secretsmanager` | IAM                        | Full secret names. JSON secrets expanded to `name/key`. |\n| `gcp-secretmanager`  | ADC or service account     | Reads latest version. Adds version on write.            |\n| `vault`              | Token (env/config)         | KV v2. Configurable mount path and namespace.           |\n| `onepassword`        | Connect server             | Requires `connect_host`. Items matched by title.        |\n| `doppler`            | Service token              | Read-only; writes require Doppler CLI.                  |\n| `local-file`         | AES-256-GCM                | Key from file (0600) or env var. For local dev.         |\n\n## Security Model\n\n- Secrets never touch disk during normal operation. (unless you choose to use localstore to store all your env variables)\n- We only have`set --prompt` and `set --file` avoid saving secrets to shell history.\n- Values are masked by default in `env` and `get` output\n\n## Contributions\n\nContributions and bug reports are welcome—open an issue or submit a PR if you find a bug.\n\n## License\n\nLicensed under the Apache License, Version 2.0. See [LICENSE](./LICENSE) for details.\n",
+    "ContentSha": "F2mo/XsZGQK4svZDhkf3VU1+noLhuDTy/xlN6MlOYbo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## ビルトインプロバイダー（作業中）\n\n| タイプ               | 認証                       | 備考                                                     |\n| -------------------- | -------------------------- | ------------------------------------------------------- |\n| `aws-ssm`            | IAM（プロファイル/環境/インスタンス） | `path_prefix`が必要。SecureStringを使用。                |\n| `aws-secretsmanager` | IAM                        | 完全なシークレット名。JSONシークレットは`name/key`に展開。 |\n| `gcp-secretmanager`  | ADCまたはサービスアカウント | 最新バージョンを読み取る。書き込み時にバージョンを追加。    |\n| `vault`              | トークン（環境/設定）       | KV v2。マウントパスと名前空間を設定可能。                 |\n| `onepassword`        | Connectサーバー            | `connect_host`が必要。タイトルでアイテムをマッチ。         |\n| `doppler`            | サービストークン            | 読み取り専用。書き込みにはDoppler CLIが必要。             |\n| `local-file`         | AES-256-GCM                | ファイル（0600）または環境変数からキーを取得。ローカル開発向け。 |\n\n## セキュリティモデル\n\n- シークレットは通常の操作中にディスクに触れません。（すべての環境変数を保存するためにlocalstoreを使用する場合を除く）\n- `set --prompt` と `set --file` のみを使用し、シークレットがシェル履歴に保存されるのを避けます。\n- `env` と `get` の出力ではデフォルトで値がマスクされます。\n\n## コントリビューション\n\nバグ報告やコントリビューションを歓迎します—バグを見つけたらIssueを開くかPRを提出してください。\n\n## ライセンス\n\nApache License Version 2.0の下でライセンスされています。詳細は[LICENSE](./LICENSE)をご覧ください。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "hpGv2N+PbOhoNWpcKS9nVCSpr2/8neTCP5XNlSjyBtE=",
+        "originContent": "## Built-in providers (WIP)",
+        "translatedContent": "## ビルトインプロバイダー（作業中）"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "n5K+uYZYMBT3Jhi8tyBQd50WoTaKo0UAoGga3H72KG0=",
+        "originContent": "| Type                 | Auth                       | Notes                                                   |",
+        "translatedContent": "| タイプ               | 認証                       | 備考                                                     |"
+      },
+      {
+        "row": 5,
+        "rowsha": "Wef4SLE3CvjFZh9xvZHllsFGnnldLHkLq5q5kKzgMEI=",
+        "originContent": "| -------------------- | -------------------------- | ------------------------------------------------------- |",
+        "translatedContent": "| -------------------- | -------------------------- | ------------------------------------------------------- |"
+      },
+      {
+        "row": 6,
+        "rowsha": "OG5Oi2F30ArUtaneQSD/Bj4tTv6KeAzNgJfrcKbj3T0=",
+        "originContent": "| `aws-ssm`            | IAM (profile/env/instance) | Requires `path_prefix`. Uses SecureString.              |",
+        "translatedContent": "| `aws-ssm`            | IAM（プロファイル/環境/インスタンス） | `path_prefix`が必要。SecureStringを使用。                |"
+      },
+      {
+        "row": 7,
+        "rowsha": "QVNQ6DZBmYWbgJaD5UgDb7KLEEJCsWQbE2IsnykGe50=",
+        "originContent": "| `aws-secretsmanager` | IAM                        | Full secret names. JSON secrets expanded to `name/key`. |",
+        "translatedContent": "| `aws-secretsmanager` | IAM                        | 完全なシークレット名。JSONシークレットは`name/key`に展開。 |"
+      },
+      {
+        "row": 8,
+        "rowsha": "Ny6avR+Dpi+ApvK/7fDHTuVviD2GJ7DKLHs0s8zS9ZE=",
+        "originContent": "| `gcp-secretmanager`  | ADC or service account     | Reads latest version. Adds version on write.            |",
+        "translatedContent": "| `gcp-secretmanager`  | ADCまたはサービスアカウント | 最新バージョンを読み取る。書き込み時にバージョンを追加。    |"
+      },
+      {
+        "row": 9,
+        "rowsha": "DT2mQ2LckNxB9yvbqRuYGi28c2i7IX/u9xoeSlSyp30=",
+        "originContent": "| `vault`              | Token (env/config)         | KV v2. Configurable mount path and namespace.           |",
+        "translatedContent": "| `vault`              | トークン（環境/設定）       | KV v2。マウントパスと名前空間を設定可能。                 |"
+      },
+      {
+        "row": 10,
+        "rowsha": "DoKuJoUK20fZt9V+lruwdYqv5G2aMCztGcFWmkCjTKg=",
+        "originContent": "| `onepassword`        | Connect server             | Requires `connect_host`. Items matched by title.        |",
+        "translatedContent": "| `onepassword`        | Connectサーバー            | `connect_host`が必要。タイトルでアイテムをマッチ。         |"
+      },
+      {
+        "row": 11,
+        "rowsha": "AeJqVaeye/aL5XYD9Uv35EvMKV+qcMUf9pZNk1/P7s4=",
+        "originContent": "| `doppler`            | Service token              | Read-only; writes require Doppler CLI.                  |",
+        "translatedContent": "| `doppler`            | サービストークン            | 読み取り専用。書き込みにはDoppler CLIが必要。             |"
+      },
+      {
+        "row": 12,
+        "rowsha": "WO/4zoFxU82iN3JhlZt6+kOTdUYu5f7kA4cFrG0BRVc=",
+        "originContent": "| `local-file`         | AES-256-GCM                | Key from file (0600) or env var. For local dev.         |",
+        "translatedContent": "| `local-file`         | AES-256-GCM                | ファイル（0600）または環境変数からキーを取得。ローカル開発向け。 |"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "uQBmaSyDyIoeR1N9y/czrw6LDfmumTVEeLFQ5fXJ7SE=",
+        "originContent": "## Security Model",
+        "translatedContent": "## セキュリティモデル"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Sc7Qwi9pAD8tpivyOwOsWay9jdaq4U3Rqylxqpk1kuA=",
+        "originContent": "- Secrets never touch disk during normal operation. (unless you choose to use localstore to store all your env variables)",
+        "translatedContent": "- シークレットは通常の操作中にディスクに触れません。（すべての環境変数を保存するためにlocalstoreを使用する場合を除く）"
+      },
+      {
+        "row": 17,
+        "rowsha": "wIQljZQG6XVkknjnl3pBinp/MIoxdSHm3sdL1pdKI2c=",
+        "originContent": "- We only have`set --prompt` and `set --file` avoid saving secrets to shell history.",
+        "translatedContent": "- `set --prompt` と `set --file` のみを使用し、シークレットがシェル履歴に保存されるのを避けます。"
+      },
+      {
+        "row": 18,
+        "rowsha": "4p9hjvVsJdRc3lFo5X7m4gbNwxHU8ahmqtkKcR2swv0=",
+        "originContent": "- Values are masked by default in `env` and `get` output",
+        "translatedContent": "- `env` と `get` の出力ではデフォルトで値がマスクされます。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "m6RK9qoNcoHFU6IcMGmVmvuZ5yNpXxvMd/A5zh2OI9o=",
+        "originContent": "## Contributions",
+        "translatedContent": "## コントリビューション"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "5C70pTAyyitIqYKzQRlr6670mlNrHeoWMsESBV5PCEI=",
+        "originContent": "Contributions and bug reports are welcome—open an issue or submit a PR if you find a bug.",
+        "translatedContent": "バグ報告やコントリビューションを歓迎します—バグを見つけたらIssueを開くかPRを提出してください。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "/Us8YfwPHHi7qZgzCm3ZoJFlAgvp4+pwOzVZD9LqeeA=",
+        "originContent": "Licensed under the Apache License, Version 2.0. See [LICENSE](./LICENSE) for details.",
+        "translatedContent": "Apache License Version 2.0の下でライセンスされています。詳細は[LICENSE](./LICENSE)をご覧ください。"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
