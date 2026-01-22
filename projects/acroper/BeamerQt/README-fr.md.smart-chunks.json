@@ -1,0 +1,1212 @@
+[
+  {
+    "Id": 1,
+    "Content": "# BeamerQt\nBeamerQT is a user-friendly graphical interface designed to facilitate the creation of Beamer presentations without manually editing LaTeX code associated with the Slides. It provides a comprehensive set of features that allow users to define layouts, insert content (including text, blocks, and images), and configure some advance settings of the theme. BeamerQT provides both beginners and advanced LaTeX users the ability to create amazing presentations and focus in the contents rather than in the code.\n\n### Library requirements:\n* PyQt6\n\n* PyMuPDF\n\n<img src=\"https://github.com/user-attachments/assets/b123f050-dff5-4584-b40d-c2fd581c2f16\" width=\"600\">\n\n\n# Features\nBeamerQT features a graphical user interface that provides easy access to most desired Beamer/LaTeX features without adding LaTeX code. \n\n## Theme Editor (New Feature!)\nEdit source code of templates. \n\n* Supports attaching included files.\n* Extract attached files during LaTeX generation.\n* Share the custom .xml file with ease.\n* New features in the near future.\n\n## Layout Selection\nBeamerQT provides a range of predefined layout schemes inspired by common presentation tools such as PowerPoint or LibreOffice Impress. Instead of manually writing LaTeX code for columns and blocks, the user can simply select a layout and BeamerQT will automatically insert and manage the required Beamer columns and blocks.\n\nKey capabilities include: \n\n* Automatic creation of columns and blocks based on the chosen layout. \n* A slider control to adjust column widths dynamically, without manual code edits. \n* Seamless reconfiguration of the slide layout with minimal user intervention.\n\n<img src=\"https://github.com/user-attachments/assets/1c313ed2-337c-4925-aaef-b18aa718bd0e\" width=\"600\">\n\n<img src=\"https://github.com/user-attachments/assets/305af2c5-7726-43bd-b457-fe68d8ff3fd9\" width=\"600\">\n\n\n## Slides\n\nEach slide can contain a title, a subtitle, and a set of blocks for content. Additionally, slides can be configured as either a new section or subsection, enabling automatic insertion of corresponding section or subsection titles into the presentation.\n",
+    "ContentSha": "zOnJICBzxnz/uveEXhvZoDEYJU3p5VS+xQ0oDNEDPm0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# BeamerQt  \nBeamerQT est une interface graphique conviviale conçue pour faciliter la création de présentations Beamer sans éditer manuellement le code LaTeX associé aux diapositives. Il offre un ensemble complet de fonctionnalités permettant aux utilisateurs de définir des mises en page, d’insérer du contenu (y compris du texte, des blocs et des images), et de configurer certains paramètres avancés du thème. BeamerQT permet aussi bien aux débutants qu’aux utilisateurs avancés de LaTeX de créer des présentations impressionnantes en se concentrant sur le contenu plutôt que sur le code.\n\n### Bibliothèques requises :  \n* PyQt6  \n\n* PyMuPDF  \n\n<img src=\"https://github.com/user-attachments/assets/b123f050-dff5-4584-b40d-c2fd581c2f16\" width=\"600\">  \n\n\n# Fonctionnalités  \nBeamerQT propose une interface graphique qui donne un accès facile à la plupart des fonctionnalités Beamer/LaTeX désirées sans avoir à ajouter du code LaTeX.  \n\n## Éditeur de thème (Nouvelle fonctionnalité !)  \nModifier le code source des modèles.  \n\n* Prise en charge de l’attachement de fichiers inclus.  \n* Extraction des fichiers attachés lors de la génération LaTeX.  \n* Partage facile du fichier .xml personnalisé.  \n* Nouvelles fonctionnalités à venir prochainement.  \n\n## Sélection de la mise en page  \nBeamerQT propose une gamme de schémas de mise en page prédéfinis inspirés des outils de présentation courants tels que PowerPoint ou LibreOffice Impress. Au lieu d’écrire manuellement le code LaTeX pour les colonnes et les blocs, l’utilisateur peut simplement sélectionner une mise en page et BeamerQT insérera et gérera automatiquement les colonnes et blocs Beamer requis.  \n\nLes principales capacités incluent :  \n\n* Création automatique des colonnes et des blocs selon la mise en page choisie.  \n* Un contrôle par curseur pour ajuster dynamiquement la largeur des colonnes, sans modification manuelle du code.  \n* Reconfiguration fluide de la mise en page des diapositives avec une intervention utilisateur minimale.  \n\n<img src=\"https://github.com/user-attachments/assets/1c313ed2-337c-4925-aaef-b18aa718bd0e\" width=\"600\">  \n\n<img src=\"https://github.com/user-attachments/assets/305af2c5-7726-43bd-b457-fe68d8ff3fd9\" width=\"600\">  \n\n\n## Diapositives  \n\nChaque diapositive peut contenir un titre, un sous-titre, et un ensemble de blocs pour le contenu. De plus, les diapositives peuvent être configurées comme une nouvelle section ou sous-section, permettant l’insertion automatique des titres de section ou sous-section correspondants dans la présentation.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "T79/FtcqDbQGED+AeSI9sxY0YnyV3zoMZTfqsRdwB14=",
+        "originContent": "# BeamerQt",
+        "translatedContent": "# BeamerQt  "
+      },
+      {
+        "row": 2,
+        "rowsha": "b+W6THjQ5leIA2X6KnW/T6zsoOK7mxSHPxuhBHKAiik=",
+        "originContent": "BeamerQT is a user-friendly graphical interface designed to facilitate the creation of Beamer presentations without manually editing LaTeX code associated with the Slides. It provides a comprehensive set of features that allow users to define layouts, insert content (including text, blocks, and images), and configure some advance settings of the theme. BeamerQT provides both beginners and advanced LaTeX users the ability to create amazing presentations and focus in the contents rather than in the code.",
+        "translatedContent": "BeamerQT est une interface graphique conviviale conçue pour faciliter la création de présentations Beamer sans éditer manuellement le code LaTeX associé aux diapositives. Il offre un ensemble complet de fonctionnalités permettant aux utilisateurs de définir des mises en page, d’insérer du contenu (y compris du texte, des blocs et des images), et de configurer certains paramètres avancés du thème. BeamerQT permet aussi bien aux débutants qu’aux utilisateurs avancés de LaTeX de créer des présentations impressionnantes en se concentrant sur le contenu plutôt que sur le code."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "JXa9okKVDY1Scw5WzyWBd2ZRU3hi2MojCaEhlle9EmU=",
+        "originContent": "### Library requirements:",
+        "translatedContent": "### Bibliothèques requises :  "
+      },
+      {
+        "row": 5,
+        "rowsha": "Ln2zMguFGl1MtrAEsBK61jMwHQDkCrlVoIYzh3RpgaM=",
+        "originContent": "* PyQt6",
+        "translatedContent": "* PyQt6  "
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "767dZPByJVHodVkxg1JQSdSBqE7snLD6e2HqkxUiL24=",
+        "originContent": "* PyMuPDF",
+        "translatedContent": "* PyMuPDF  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "OwF5RnMATtqexFqd+596aV3dRoXpNRgb9UjyVK3+TUY=",
+        "originContent": "<img src=\"https://github.com/user-attachments/assets/b123f050-dff5-4584-b40d-c2fd581c2f16\" width=\"600\">",
+        "translatedContent": "<img src=\"https://github.com/user-attachments/assets/b123f050-dff5-4584-b40d-c2fd581c2f16\" width=\"600\">  "
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Qxdp3Hj7dWmz+GAKg4NkEzKgHfg+ZfXXUNg0RDB9+KI=",
+        "originContent": "# Features",
+        "translatedContent": "# Fonctionnalités  "
+      },
+      {
+        "row": 13,
+        "rowsha": "KyGyvPInEUDpo463Y8zUVIAzs6NqS3/U1qqMZmsGt3I=",
+        "originContent": "BeamerQT features a graphical user interface that provides easy access to most desired Beamer/LaTeX features without adding LaTeX code. ",
+        "translatedContent": "BeamerQT propose une interface graphique qui donne un accès facile à la plupart des fonctionnalités Beamer/LaTeX désirées sans avoir à ajouter du code LaTeX.  "
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "4UhSrgM04igt0bmI2DvLX4sRpfzKdlyVHlAhLLONufc=",
+        "originContent": "## Theme Editor (New Feature!)",
+        "translatedContent": "## Éditeur de thème (Nouvelle fonctionnalité !)  "
+      },
+      {
+        "row": 16,
+        "rowsha": "CdTAHTg7XhOW1UKiH2U3QbaO/0lZ3f9Y2JAm6MB1MCc=",
+        "originContent": "Edit source code of templates. ",
+        "translatedContent": "Modifier le code source des modèles.  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "T2BlOmEA+Ux8yAz+5csMHg6XxF35qDPN8lr9z4XJwkc=",
+        "originContent": "* Supports attaching included files.",
+        "translatedContent": "* Prise en charge de l’attachement de fichiers inclus.  "
+      },
+      {
+        "row": 19,
+        "rowsha": "WHJZ/DvafPqTM7p3N8rMrq+/d+XuEOsRUWPkxHPrArI=",
+        "originContent": "* Extract attached files during LaTeX generation.",
+        "translatedContent": "* Extraction des fichiers attachés lors de la génération LaTeX.  "
+      },
+      {
+        "row": 20,
+        "rowsha": "3dZjqmW23hITB5duH9/erkYf49FjnhHPPVrPY809kFY=",
+        "originContent": "* Share the custom .xml file with ease.",
+        "translatedContent": "* Partage facile du fichier .xml personnalisé.  "
+      },
+      {
+        "row": 21,
+        "rowsha": "TpdzWQz5yx8PCwHcN/HXFFAtRWEoV6QN2LFTldl1X0g=",
+        "originContent": "* New features in the near future.",
+        "translatedContent": "* Nouvelles fonctionnalités à venir prochainement.  "
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "eJf6UpUb5LL0LB+DnGkbAbZ5BuA0mTZ6X5EhbQp95tw=",
+        "originContent": "## Layout Selection",
+        "translatedContent": "## Sélection de la mise en page  "
+      },
+      {
+        "row": 24,
+        "rowsha": "wXXn9Qso1FcMm9udlDqiMxHqTk6lsvLmThVtcs/Td20=",
+        "originContent": "BeamerQT provides a range of predefined layout schemes inspired by common presentation tools such as PowerPoint or LibreOffice Impress. Instead of manually writing LaTeX code for columns and blocks, the user can simply select a layout and BeamerQT will automatically insert and manage the required Beamer columns and blocks.",
+        "translatedContent": "BeamerQT propose une gamme de schémas de mise en page prédéfinis inspirés des outils de présentation courants tels que PowerPoint ou LibreOffice Impress. Au lieu d’écrire manuellement le code LaTeX pour les colonnes et les blocs, l’utilisateur peut simplement sélectionner une mise en page et BeamerQT insérera et gérera automatiquement les colonnes et blocs Beamer requis.  "
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "J8AAHgS4dvuB3CBHBIQ2bQNAwfFBrRZAyfM9J0cY8VI=",
+        "originContent": "Key capabilities include: ",
+        "translatedContent": "Les principales capacités incluent :  "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "7wV0e8DHtlvCZfUJBCPWPOr/xsC34t5MjNnbASgQPx8=",
+        "originContent": "* Automatic creation of columns and blocks based on the chosen layout. ",
+        "translatedContent": "* Création automatique des colonnes et des blocs selon la mise en page choisie.  "
+      },
+      {
+        "row": 29,
+        "rowsha": "+0GBIjDNvsg6N6COGmqSCvxKOmhi50R5m8lT9gS0k20=",
+        "originContent": "* A slider control to adjust column widths dynamically, without manual code edits. ",
+        "translatedContent": "* Un contrôle par curseur pour ajuster dynamiquement la largeur des colonnes, sans modification manuelle du code.  "
+      },
+      {
+        "row": 30,
+        "rowsha": "I7k2pRWsF8eYM0UuYDIqb3nXSTc1WVsohj0klNZeK/M=",
+        "originContent": "* Seamless reconfiguration of the slide layout with minimal user intervention.",
+        "translatedContent": "* Reconfiguration fluide de la mise en page des diapositives avec une intervention utilisateur minimale.  "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "JqivPBdZIisM5kKc/ELsY9Ofs/De4E8rdAUPC2IqXzM=",
+        "originContent": "<img src=\"https://github.com/user-attachments/assets/1c313ed2-337c-4925-aaef-b18aa718bd0e\" width=\"600\">",
+        "translatedContent": "<img src=\"https://github.com/user-attachments/assets/1c313ed2-337c-4925-aaef-b18aa718bd0e\" width=\"600\">  "
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "sMQ5qfmjWXPOmoy6gGu3f6QqmiiDRj14dlzO+R8DaM0=",
+        "originContent": "<img src=\"https://github.com/user-attachments/assets/305af2c5-7726-43bd-b457-fe68d8ff3fd9\" width=\"600\">",
+        "translatedContent": "<img src=\"https://github.com/user-attachments/assets/305af2c5-7726-43bd-b457-fe68d8ff3fd9\" width=\"600\">  "
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "brKQZIBtJE9i0t6yrsUzVqGVlncteNt/H43+Fnk+i2Q=",
+        "originContent": "## Slides",
+        "translatedContent": "## Diapositives  "
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "YNKBgxgpI27VsE1gRANCLv9uq5MuAVMWGcGVJsgLWos=",
+        "originContent": "Each slide can contain a title, a subtitle, and a set of blocks for content. Additionally, slides can be configured as either a new section or subsection, enabling automatic insertion of corresponding section or subsection titles into the presentation.",
+        "translatedContent": "Chaque diapositive peut contenir un titre, un sous-titre, et un ensemble de blocs pour le contenu. De plus, les diapositives peuvent être configurées comme une nouvelle section ou sous-section, permettant l’insertion automatique des titres de section ou sous-section correspondants dans la présentation."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "Key features: \n\n* Easy input of slide title and subtitle. \n* Marking a slide as a section or subsection to structure the presentation. \n* Automatic adjustment of slide-level formatting options.\n\n## Slides List\n\nThe Slides List provides an overview of the entire presentation, showing each slide’s position, number, and title. Sections and subsections are clearly marked, assisting in navigation and organization. Users can reorder, duplicate, copy, or delete slides as needed, ensuring efficient slide management.\n\n## Blocks\n\nBlocks are fundamental units of content in BeamerQT. The tool supports various block types—such as Block, Alert, Example, or plain text blocks—through a simple radio-button interface. This approach eliminates the need to write LaTeX commands manually.\n\nCore functionalities of blocks include: \n\n* Selection of block type (Block, Alert, Example, or plain text). \n* Position controls for rearranging blocks within the layout. \n* A dedicated button for removing the block from the slide. \n* A title field and text input area for each block, with multiline support. \n* Automatic line breaks or retention of manual line breaks depending on user input.\n* Multiple sub-blocks\n<img src=\"https://github.com/user-attachments/assets/5b914c96-e691-4fdf-af42-faba89b2c8f4\" width=\"600\">\n\n\n## Sub-blocks\n\nSub-blocks allow for more granular content organization within a block. Each block contains at least one sub-block (generally text-based), and users can add multiple sub-blocks as needed.\n\nSub-block features include: \n\n* Arrangement in up to four columns, with horizontal navigation buttons to reorder sub-blocks. \n* A slider to adjust column widths, offering flexible layout customization. \n* Alignment controls for each sub-block (left, center, right, or default).\n\n## Image sub-block\n\nThe image sub-block is a specialized sub-block type for inserting images. BeamerQT supports bitmap files (e.g., .jpg, .png), vector images (.svg), and .pdf files. For .svg images, BeamerQT utilizes Inkscape to convert them to .pdf format, ensuring seamless integration into the final presentation (tested Linux systems only).\n\nImage sub-block features: ",
+    "ContentSha": "FEqWPpMens6vY5FzwUIrWQPD1A88JDySWMx6nNBCYsI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Caractéristiques principales : \n\n* Saisie facile du titre et du sous-titre de la diapositive. \n* Marquage d’une diapositive comme section ou sous-section pour structurer la présentation. \n* Ajustement automatique des options de formatage au niveau de la diapositive.\n\n## Liste des diapositives\n\nLa Liste des diapositives offre une vue d’ensemble de toute la présentation, affichant la position, le numéro et le titre de chaque diapositive. Les sections et sous-sections sont clairement indiquées, facilitant la navigation et l’organisation. Les utilisateurs peuvent réorganiser, dupliquer, copier ou supprimer des diapositives selon leurs besoins, garantissant une gestion efficace des diapositives.\n\n## Blocs\n\nLes blocs sont les unités fondamentales de contenu dans BeamerQT. L’outil prend en charge différents types de blocs — tels que Bloc, Alerte, Exemple, ou blocs de texte simple — via une interface à boutons radio simple. Cette approche élimine la nécessité d’écrire manuellement des commandes LaTeX.\n\nLes fonctionnalités principales des blocs incluent : \n\n* Sélection du type de bloc (Bloc, Alerte, Exemple, ou texte simple). \n* Contrôles de position pour réarranger les blocs dans la mise en page. \n* Un bouton dédié pour supprimer le bloc de la diapositive. \n* Un champ de titre et une zone de saisie de texte pour chaque bloc, avec support multilignes. \n* Retours à la ligne automatiques ou conservation des retours manuels selon la saisie de l’utilisateur.\n* Plusieurs sous-blocs\n<img src=\"https://github.com/user-attachments/assets/5b914c96-e691-4fdf-af42-faba89b2c8f4\" width=\"600\">\n\n\n## Sous-blocs\n\nLes sous-blocs permettent une organisation plus granulaire du contenu à l’intérieur d’un bloc. Chaque bloc contient au moins un sous-bloc (généralement basé sur du texte), et les utilisateurs peuvent ajouter plusieurs sous-blocs selon leurs besoins.\n\nFonctionnalités des sous-blocs : \n\n* Disposition en jusqu’à quatre colonnes, avec boutons de navigation horizontale pour réorganiser les sous-blocs. \n* Un curseur pour ajuster la largeur des colonnes, offrant une personnalisation flexible de la mise en page. \n* Contrôles d’alignement pour chaque sous-bloc (gauche, centre, droite, ou par défaut).\n\n## Sous-bloc image\n\nLe sous-bloc image est un type spécialisé de sous-bloc pour insérer des images. BeamerQT prend en charge les fichiers bitmap (ex. .jpg, .png), images vectorielles (.svg) et fichiers .pdf. Pour les images .svg, BeamerQT utilise Inkscape pour les convertir en format .pdf, assurant une intégration fluide dans la présentation finale (testé uniquement sur systèmes Linux).\n\nFonctionnalités du sous-bloc image : ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "TG0oFyt72sMjr1YLiDugHVzaATbp0mwt7JgDMjFMUWs=",
+        "originContent": "Key features: ",
+        "translatedContent": "Caractéristiques principales : "
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "nXtTwSD71HQtZ/vX8zfeNV6un2UN7NNCsGiUQ9urJew=",
+        "originContent": "* Easy input of slide title and subtitle. ",
+        "translatedContent": "* Saisie facile du titre et du sous-titre de la diapositive. "
+      },
+      {
+        "row": 4,
+        "rowsha": "QCMBoFUkoBFGeWDyvhcZxBT/7AWMZ4+52HzMcct9qNA=",
+        "originContent": "* Marking a slide as a section or subsection to structure the presentation. ",
+        "translatedContent": "* Marquage d’une diapositive comme section ou sous-section pour structurer la présentation. "
+      },
+      {
+        "row": 5,
+        "rowsha": "ocOoQcs/FLIMWmWtzN1E4jBHFuabr4Q+Eh4QDEds6dw=",
+        "originContent": "* Automatic adjustment of slide-level formatting options.",
+        "translatedContent": "* Ajustement automatique des options de formatage au niveau de la diapositive."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "UsiwRaZnK3hi7Wq9ZOQTvGkZ3jQIKarGfOj2pUSSBQk=",
+        "originContent": "## Slides List",
+        "translatedContent": "## Liste des diapositives"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "U83Wg3D3SP1+xsaGLNLkbN5vnvTKD4VWHCxGKoW/UJ8=",
+        "originContent": "The Slides List provides an overview of the entire presentation, showing each slide’s position, number, and title. Sections and subsections are clearly marked, assisting in navigation and organization. Users can reorder, duplicate, copy, or delete slides as needed, ensuring efficient slide management.",
+        "translatedContent": "La Liste des diapositives offre une vue d’ensemble de toute la présentation, affichant la position, le numéro et le titre de chaque diapositive. Les sections et sous-sections sont clairement indiquées, facilitant la navigation et l’organisation. Les utilisateurs peuvent réorganiser, dupliquer, copier ou supprimer des diapositives selon leurs besoins, garantissant une gestion efficace des diapositives."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "J8w17dJJM9CwNvXpuVKiT+eR/KWF2bXJqWPYhGM6Jxo=",
+        "originContent": "## Blocks",
+        "translatedContent": "## Blocs"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "PjOPBfgsGrCcDthlpeaJqL2vKj7zyb9lJzhUtACsqJ8=",
+        "originContent": "Blocks are fundamental units of content in BeamerQT. The tool supports various block types—such as Block, Alert, Example, or plain text blocks—through a simple radio-button interface. This approach eliminates the need to write LaTeX commands manually.",
+        "translatedContent": "Les blocs sont les unités fondamentales de contenu dans BeamerQT. L’outil prend en charge différents types de blocs — tels que Bloc, Alerte, Exemple, ou blocs de texte simple — via une interface à boutons radio simple. Cette approche élimine la nécessité d’écrire manuellement des commandes LaTeX."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "MZJRb8J0a0gPfQqSsh028HWstydUJgPpzgBk/7XEuds=",
+        "originContent": "Core functionalities of blocks include: ",
+        "translatedContent": "Les fonctionnalités principales des blocs incluent : "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "2WwWALW4FZxTkBM2KnJ91UDOcFLCGLI6wBb91t1xH0Y=",
+        "originContent": "* Selection of block type (Block, Alert, Example, or plain text). ",
+        "translatedContent": "* Sélection du type de bloc (Bloc, Alerte, Exemple, ou texte simple). "
+      },
+      {
+        "row": 18,
+        "rowsha": "MR86CWFV8rSkRiyN8mgYevyftXaazFVdjkJbxvsVW/k=",
+        "originContent": "* Position controls for rearranging blocks within the layout. ",
+        "translatedContent": "* Contrôles de position pour réarranger les blocs dans la mise en page. "
+      },
+      {
+        "row": 19,
+        "rowsha": "ytpS467pb2Ytb3uHA+QIsgKWAQXlm5DVF0/sZYtcYlg=",
+        "originContent": "* A dedicated button for removing the block from the slide. ",
+        "translatedContent": "* Un bouton dédié pour supprimer le bloc de la diapositive. "
+      },
+      {
+        "row": 20,
+        "rowsha": "HXNDCCiHMGx0c1m240GbyXqfwn0JOSAslnXWBtSCrvQ=",
+        "originContent": "* A title field and text input area for each block, with multiline support. ",
+        "translatedContent": "* Un champ de titre et une zone de saisie de texte pour chaque bloc, avec support multilignes. "
+      },
+      {
+        "row": 21,
+        "rowsha": "eWQqmpW5vuNGMe9DlS6Ulo+XEqxITSf3y9DUCZR6FbQ=",
+        "originContent": "* Automatic line breaks or retention of manual line breaks depending on user input.",
+        "translatedContent": "* Retours à la ligne automatiques ou conservation des retours manuels selon la saisie de l’utilisateur."
+      },
+      {
+        "row": 22,
+        "rowsha": "XNXgCNZxsU25Lq+UPqo6NtBp6dL66Bhqi/QcVsFQ4Yg=",
+        "originContent": "* Multiple sub-blocks",
+        "translatedContent": "* Plusieurs sous-blocs"
+      },
+      {
+        "row": 23,
+        "rowsha": "7FIH0p7KfOJFBq5VjBMJXX2jM9sl59KDeCM74yrqiXQ=",
+        "originContent": "<img src=\"https://github.com/user-attachments/assets/5b914c96-e691-4fdf-af42-faba89b2c8f4\" width=\"600\">",
+        "translatedContent": "<img src=\"https://github.com/user-attachments/assets/5b914c96-e691-4fdf-af42-faba89b2c8f4\" width=\"600\">"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "0StDuRaG1BOw+TLT3PUaz/pQP7MPYSrYHOBxiDf1/iw=",
+        "originContent": "## Sub-blocks",
+        "translatedContent": "## Sous-blocs"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "U+N1LBox6iZ9FEVb0bJOLzDFixrjnHsO7v1+Kbe1vHU=",
+        "originContent": "Sub-blocks allow for more granular content organization within a block. Each block contains at least one sub-block (generally text-based), and users can add multiple sub-blocks as needed.",
+        "translatedContent": "Les sous-blocs permettent une organisation plus granulaire du contenu à l’intérieur d’un bloc. Chaque bloc contient au moins un sous-bloc (généralement basé sur du texte), et les utilisateurs peuvent ajouter plusieurs sous-blocs selon leurs besoins."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "ISZQDTVfU9fDsvljyxB6iS+VySEYze0My1yNXiTTYYc=",
+        "originContent": "Sub-block features include: ",
+        "translatedContent": "Fonctionnalités des sous-blocs : "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "9L+xs8/qjP/Rcs8x2tRzQRWiM+sXjFcLiXV8jBzZI48=",
+        "originContent": "* Arrangement in up to four columns, with horizontal navigation buttons to reorder sub-blocks. ",
+        "translatedContent": "* Disposition en jusqu’à quatre colonnes, avec boutons de navigation horizontale pour réorganiser les sous-blocs. "
+      },
+      {
+        "row": 33,
+        "rowsha": "qjFuFMojuHZleL6W1Ir3rNX3LVS+8MmRGo3cgvj+zso=",
+        "originContent": "* A slider to adjust column widths, offering flexible layout customization. ",
+        "translatedContent": "* Un curseur pour ajuster la largeur des colonnes, offrant une personnalisation flexible de la mise en page. "
+      },
+      {
+        "row": 34,
+        "rowsha": "CBNSMNCP7BBwCxxXGG9YfglHCQ6S8+551SAOBFHycEA=",
+        "originContent": "* Alignment controls for each sub-block (left, center, right, or default).",
+        "translatedContent": "* Contrôles d’alignement pour chaque sous-bloc (gauche, centre, droite, ou par défaut)."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "uBHj+1dIqyxey3OH5o1rNqrV/BFcl4U4ZsAZx4pHvao=",
+        "originContent": "## Image sub-block",
+        "translatedContent": "## Sous-bloc image"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "Ud5FSVENobaxLe85rcSNAlDYPEawlCTIGLo3CEGz4LE=",
+        "originContent": "The image sub-block is a specialized sub-block type for inserting images. BeamerQT supports bitmap files (e.g., .jpg, .png), vector images (.svg), and .pdf files. For .svg images, BeamerQT utilizes Inkscape to convert them to .pdf format, ensuring seamless integration into the final presentation (tested Linux systems only).",
+        "translatedContent": "Le sous-bloc image est un type spécialisé de sous-bloc pour insérer des images. BeamerQT prend en charge les fichiers bitmap (ex. .jpg, .png), images vectorielles (.svg) et fichiers .pdf. Pour les images .svg, BeamerQT utilise Inkscape pour les convertir en format .pdf, assurant une intégration fluide dans la présentation finale (testé uniquement sur systèmes Linux)."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "yLmyTETKPmk18gs92vjNUeVcFrdnnKoKH7XYbjuHvr0=",
+        "originContent": "Image sub-block features: ",
+        "translatedContent": "Fonctionnalités du sous-bloc image : "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n* Adjustable image sizing as a percentage of the sub-block’s width. \n* Automatic adaptation to layout changes for consistently scaled visuals. \n* Compatibility with multiple image formats, ensuring flexibility in presentation design.\n\n## Front-matter\n\nThe front-matter section allows for easy configuration of presentation-wide settings. Users can define the presentation title, author names, and customize the LaTeX preamble. Additionally, advanced features can be enabled to further refine the overall look and structure of the presentation, such as: \n\n* Changing the aspect ratio (4:3 to 16:9). \n* Creating title frames for each section. \n* Automatically generating an outline frame for each section.\n<img src=\"https://github.com/user-attachments/assets/07629d96-ba38-4e5b-87ff-c1648598ad9f\" width=\"600\">\n\n\n<img src=\"https://github.com/user-attachments/assets/bb47ffe5-7d92-408e-a42d-1cd734f53d51\" width=\"600\">\n\n<img src=\"https://github.com/user-attachments/assets/9149eb46-020a-4f02-b3fe-9959fb231fd3\" width=\"600\">\n\n\n\n## LaTeX generation\n\nWhen the user is satisfied with the content and layout, clicking the **Generate LaTeX** button exports the presentation to LaTeX and runs pdflatex to compile a PDF. The resulting PDF is then displayed, enabling immediate review. \n\nThe **LaTeX folder** button opens the output directory, allowing for further customization or integration with other tools. Note that each LaTeX generation overwrites files in the output folder.\n\n\n## File format\n\nBeamerQT uses a .bqt file format, which is essentially a zipped directory containing all necessary metadata, such as: \n\n* An XML file with presentation details. \n* Preview images of slides. \n* (Future feature) Embedded images and custom themes to ensure portability.\n\nThis approach ensures that .bqt files can be easily shared, backed up, and edited across different systems without losing essential data.\n\n\n## Installation",
+    "ContentSha": "OOcpoR8vvytRBG658XlJVnpsFfbaHU5cbt6oZx/HHJU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* Taille d'image ajustable en pourcentage de la largeur du sous-bloc.  \n* Adaptation automatique aux changements de mise en page pour des visuels toujours bien proportionnés.  \n* Compatibilité avec plusieurs formats d'image, garantissant une flexibilité dans la conception de la présentation.  \n\n## Front-matter  \n\nLa section front-matter permet une configuration facile des paramètres globaux de la présentation. Les utilisateurs peuvent définir le titre de la présentation, les noms des auteurs, et personnaliser le préambule LaTeX. De plus, des fonctionnalités avancées peuvent être activées pour affiner davantage l'apparence et la structure globale de la présentation, telles que :  \n\n* Modification du format d'image (4:3 à 16:9).  \n* Création de cadres de titre pour chaque section.  \n* Génération automatique d'un cadre de plan pour chaque section.  \n<img src=\"https://github.com/user-attachments/assets/07629d96-ba38-4e5b-87ff-c1648598ad9f\" width=\"600\">  \n\n<img src=\"https://github.com/user-attachments/assets/bb47ffe5-7d92-408e-a42d-1cd734f53d51\" width=\"600\">  \n\n<img src=\"https://github.com/user-attachments/assets/9149eb46-020a-4f02-b3fe-9959fb231fd3\" width=\"600\">  \n\n## Génération LaTeX  \n\nLorsque l'utilisateur est satisfait du contenu et de la mise en page, cliquer sur le bouton **Generate LaTeX** exporte la présentation au format LaTeX et lance pdflatex pour compiler un PDF. Le PDF résultant est alors affiché, permettant une révision immédiate.  \n\nLe bouton **LaTeX folder** ouvre le répertoire de sortie, permettant une personnalisation supplémentaire ou une intégration avec d'autres outils. Notez que chaque génération LaTeX écrase les fichiers dans le dossier de sortie.  \n\n## Format de fichier  \n\nBeamerQT utilise un format de fichier .bqt, qui est essentiellement un répertoire compressé contenant toutes les métadonnées nécessaires, telles que :  \n\n* Un fichier XML avec les détails de la présentation.  \n* Des images d'aperçu des diapositives.  \n* (Fonction future) Images intégrées et thèmes personnalisés pour garantir la portabilité.  \n\nCette approche garantit que les fichiers .bqt peuvent être facilement partagés, sauvegardés et édités sur différents systèmes sans perte de données essentielles.  \n\n## Installation\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* Taille d'image ajustable en pourcentage de la largeur du sous-bloc.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "eFG4QhTpy/mjwdMXIMnTJ32ReRGz/8gEXL3Uzjinqc4=",
+        "originContent": "* Adjustable image sizing as a percentage of the sub-block’s width. ",
+        "translatedContent": "* Adaptation automatique aux changements de mise en page pour des visuels toujours bien proportionnés.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "Ix6xdD4c6oVm5J0MnqSFu7nWY/wDILUA1vyjCf6/y0c=",
+        "originContent": "* Automatic adaptation to layout changes for consistently scaled visuals. ",
+        "translatedContent": "* Compatibilité avec plusieurs formats d'image, garantissant une flexibilité dans la conception de la présentation.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "awaClo/3GQViLYZMu2yGnvGNt2SoA3wspiSeOh1mODg=",
+        "originContent": "* Compatibility with multiple image formats, ensuring flexibility in presentation design.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Front-matter  "
+      },
+      {
+        "row": 6,
+        "rowsha": "/1hHTrYqQiFz7VbvW1f9LCiAowWpJEwYRDpz5i2hU7w=",
+        "originContent": "## Front-matter",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "La section front-matter permet une configuration facile des paramètres globaux de la présentation. Les utilisateurs peuvent définir le titre de la présentation, les noms des auteurs, et personnaliser le préambule LaTeX. De plus, des fonctionnalités avancées peuvent être activées pour affiner davantage l'apparence et la structure globale de la présentation, telles que :  "
+      },
+      {
+        "row": 8,
+        "rowsha": "sWkBeH5n2gfflaU3T/J6GcrET8ifW5kE/SV9fnQmksM=",
+        "originContent": "The front-matter section allows for easy configuration of presentation-wide settings. Users can define the presentation title, author names, and customize the LaTeX preamble. Additionally, advanced features can be enabled to further refine the overall look and structure of the presentation, such as: ",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* Modification du format d'image (4:3 à 16:9).  "
+      },
+      {
+        "row": 10,
+        "rowsha": "NvCQGketeViZ9RYSw4bb79wNtnpYpGzqGxJwHmwToyU=",
+        "originContent": "* Changing the aspect ratio (4:3 to 16:9). ",
+        "translatedContent": "* Création de cadres de titre pour chaque section.  "
+      },
+      {
+        "row": 11,
+        "rowsha": "76qMm9ntMcWo1fjRZj6H2bS9VpAsxEPPFn+kSd2OXbk=",
+        "originContent": "* Creating title frames for each section. ",
+        "translatedContent": "* Génération automatique d'un cadre de plan pour chaque section.  "
+      },
+      {
+        "row": 12,
+        "rowsha": "ryoBPl0ATDd3WO7ILCwhs9YPp2p6hyj4l1R/kkbCyPI=",
+        "originContent": "* Automatically generating an outline frame for each section.",
+        "translatedContent": "<img src=\"https://github.com/user-attachments/assets/07629d96-ba38-4e5b-87ff-c1648598ad9f\" width=\"600\">  "
+      },
+      {
+        "row": 13,
+        "rowsha": "3P9SLw40z4BlRzid3YQzNJuVDsmDFoTHs8X8rPZoV0U=",
+        "originContent": "<img src=\"https://github.com/user-attachments/assets/07629d96-ba38-4e5b-87ff-c1648598ad9f\" width=\"600\">",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<img src=\"https://github.com/user-attachments/assets/bb47ffe5-7d92-408e-a42d-1cd734f53d51\" width=\"600\">  "
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "3wsMmbpUlYSnokg3/G6L2QPgSXn1lOL3vG1KCOejZtc=",
+        "originContent": "<img src=\"https://github.com/user-attachments/assets/bb47ffe5-7d92-408e-a42d-1cd734f53d51\" width=\"600\">",
+        "translatedContent": "<img src=\"https://github.com/user-attachments/assets/9149eb46-020a-4f02-b3fe-9959fb231fd3\" width=\"600\">  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "k8mnLc7wQn2vuEPKtR9GqNQX7sN3zbm7Ex2d13QF1L4=",
+        "originContent": "<img src=\"https://github.com/user-attachments/assets/9149eb46-020a-4f02-b3fe-9959fb231fd3\" width=\"600\">",
+        "translatedContent": "## Génération LaTeX  "
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Lorsque l'utilisateur est satisfait du contenu et de la mise en page, cliquer sur le bouton **Generate LaTeX** exporte la présentation au format LaTeX et lance pdflatex pour compiler un PDF. Le PDF résultant est alors affiché, permettant une révision immédiate.  "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "CxWVp1v9Y5TGIneLs0cTp/GTYmdH70DhRi8pZTZxTjc=",
+        "originContent": "## LaTeX generation",
+        "translatedContent": "Le bouton **LaTeX folder** ouvre le répertoire de sortie, permettant une personnalisation supplémentaire ou une intégration avec d'autres outils. Notez que chaque génération LaTeX écrase les fichiers dans le dossier de sortie.  "
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "kBFE+1pwqVLck8x/YH+AXp6EJvycLF96aDk9qUnAiV4=",
+        "originContent": "When the user is satisfied with the content and layout, clicking the **Generate LaTeX** button exports the presentation to LaTeX and runs pdflatex to compile a PDF. The resulting PDF is then displayed, enabling immediate review. ",
+        "translatedContent": "## Format de fichier  "
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "Jj5agF1zExRc629OSvcq1S9O9suOF9dRYAgWyb7p2V8=",
+        "originContent": "The **LaTeX folder** button opens the output directory, allowing for further customization or integration with other tools. Note that each LaTeX generation overwrites files in the output folder.",
+        "translatedContent": "BeamerQT utilise un format de fichier .bqt, qui est essentiellement un répertoire compressé contenant toutes les métadonnées nécessaires, telles que :  "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* Un fichier XML avec les détails de la présentation.  "
+      },
+      {
+        "row": 29,
+        "rowsha": "1qW3ol6dXViRfdkx6IDtuWYGRhh2goIecbyWYsTJz/4=",
+        "originContent": "## File format",
+        "translatedContent": "* Des images d'aperçu des diapositives.  "
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* (Fonction future) Images intégrées et thèmes personnalisés pour garantir la portabilité.  "
+      },
+      {
+        "row": 31,
+        "rowsha": "VHUz4GC3Nx6kRC2d7aAXaA8DwhzqoNMugaVhaQcrOqA=",
+        "originContent": "BeamerQT uses a .bqt file format, which is essentially a zipped directory containing all necessary metadata, such as: ",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Cette approche garantit que les fichiers .bqt peuvent être facilement partagés, sauvegardés et édités sur différents systèmes sans perte de données essentielles.  "
+      },
+      {
+        "row": 33,
+        "rowsha": "j6MxtnOSN9NvxE8MpgwwNwT8nzjkh4jl81UjMcAHY9E=",
+        "originContent": "* An XML file with presentation details. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "yh/kr80RANFzzug82D9/eRoxQPSPzLDFkmSRWn9s/zk=",
+        "originContent": "* Preview images of slides. ",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 35,
+        "rowsha": "ICezerSJthsLUAnK25141bT37qgr5n63X+M1kqEYN1U=",
+        "originContent": "* (Future feature) Embedded images and custom themes to ensure portability.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "6XvK1NER+v7QWxVco9axVX9sUUEKhvXVjZGZ9Ult4BY=",
+        "originContent": "This approach ensures that .bqt files can be easily shared, backed up, and edited across different systems without losing essential data.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "\n* Windows\n\n  Install MikTex:\n  \n  https://miktex.org/download\n\n  Install BeamerQT:\n  \n  https://sourceforge.net/projects/beamerqt/\n\n* Linux\n  Install python3, TexLive and Inkscape, according to your distribution:\n  \n\n  Debian based:",
+    "ContentSha": "3g3Iv7+qQu8zArfnnj1TbcaBNw4SaGxrOhIdwKQ5A50=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n* Windows\n\n  Installer MikTex :\n  \n  https://miktex.org/download\n\n  Installer BeamerQT :\n  \n  https://sourceforge.net/projects/beamerqt/\n\n* Linux\n  Installer python3, TexLive et Inkscape, selon votre distribution :\n  \n\n  Basé sur Debian :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "a2UEt1O2hsHejUn1/APGcauq+IIRvqZyoNzv/9j/DE4=",
+        "originContent": "* Windows",
+        "translatedContent": "* Windows"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "p/tLffaRR+1GorZ0BMHWaglLJe6ywFCPmRBX+9hcBfI=",
+        "originContent": "  Install MikTex:",
+        "translatedContent": "  Installer MikTex :"
+      },
+      {
+        "row": 5,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 6,
+        "rowsha": "ntCUk6zs7QgEOWAAGUtCqFPbYhVe4PRaJTfNDpY7+8Y=",
+        "originContent": "  https://miktex.org/download",
+        "translatedContent": "  https://miktex.org/download"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "yBmRZmFh5aYVtvm++7miPxVJdUaBLvn7vIvCm+Htrds=",
+        "originContent": "  Install BeamerQT:",
+        "translatedContent": "  Installer BeamerQT :"
+      },
+      {
+        "row": 9,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 10,
+        "rowsha": "CEy6MffaillvYMXZovu/cNuEYWbFqgu5Es+nbHrnJVI=",
+        "originContent": "  https://sourceforge.net/projects/beamerqt/",
+        "translatedContent": "  https://sourceforge.net/projects/beamerqt/"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "+/Y0vhEXzqdHQJjyQz0LYbbtNIUS2ckjQDDPXIXfGwA=",
+        "originContent": "* Linux",
+        "translatedContent": "* Linux"
+      },
+      {
+        "row": 13,
+        "rowsha": "6V4CrB9wS1E7+dxzy06li/8uZwArK6YA2sRDeCNUQxk=",
+        "originContent": "  Install python3, TexLive and Inkscape, according to your distribution:",
+        "translatedContent": "  Installer python3, TexLive et Inkscape, selon votre distribution :"
+      },
+      {
+        "row": 14,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "XaXPSsgCm6jKLni28kfqnYPhBcygeW6DEAZifb382tQ=",
+        "originContent": "  Debian based:",
+        "translatedContent": "  Basé sur Debian :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "  ```\n  apt-get install python3 texlive-beamer inkscape \n  ```",
+    "ContentSha": "/xri7ZZaZIzNRJSHxEHGhwDMBcA68bbPO8DXA9yczaU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n  apt-get install python3 texlive-beamer inkscape \n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "sqo7ftJ86CGrE05N22aUi1iZ17ihW2A1NWDns/9VCp4=",
+        "originContent": "  apt-get install python3 texlive-beamer inkscape ",
+        "translatedContent": "  apt-get install python3 texlive-beamer inkscape "
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "  Install PyQt6 and PyMuPDF:",
+    "ContentSha": "1BHnEXGfWNEth0AGzIB9t+lJ+nFSYy33qXA7/4rYmQ8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  Installer PyQt6 et PyMuPDF :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "1BHnEXGfWNEth0AGzIB9t+lJ+nFSYy33qXA7/4rYmQ8=",
+        "originContent": "  Install PyQt6 and PyMuPDF:",
+        "translatedContent": "  Installer PyQt6 et PyMuPDF :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "  ```\n  pip install pyqt6 pymupdf\n  ```",
+    "ContentSha": "R1NuG0Tei7hw/83stN3vS+0H1uS42DF5cirfWiGmvQM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n  pip install pyqt6 pymupdf\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "1NfPAuAI6qaJ7LvsCuy8O38CCrS3Zle79iF6MXzreVU=",
+        "originContent": "  pip install pyqt6 pymupdf",
+        "translatedContent": "  pip install pyqt6 pymupdf"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "  \n\n  Run BeamerQT:\n\n  Download the source code of BeamerQT from this repository.\n  \n  Open a terminal in the directory that contains the file main.py",
+    "ContentSha": "Qg4ltqf4e69L5WWWtSsrkGbwIbabtSJnpCXIeo2WuyI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  \n  Exécuter BeamerQT :\n\n  Téléchargez le code source de BeamerQT depuis ce dépôt.\n  \n  Ouvrez un terminal dans le répertoire contenant le fichier main.py\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  Exécuter BeamerQT :"
+      },
+      {
+        "row": 3,
+        "rowsha": "hw5caggENfC3qBMlhtQZqsv39V9wMiw88kDoWLbGezU=",
+        "originContent": "  Run BeamerQT:",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  Téléchargez le code source de BeamerQT depuis ce dépôt."
+      },
+      {
+        "row": 5,
+        "rowsha": "OloSsPcXxB8U44Yh7VDbZaRlVvwNJQ2qi+llQVtBXdk=",
+        "originContent": "  Download the source code of BeamerQT from this repository.",
+        "translatedContent": "  "
+      },
+      {
+        "row": 6,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  Ouvrez un terminal dans le répertoire contenant le fichier main.py"
+      },
+      {
+        "row": 7,
+        "rowsha": "Cs0kdqrR2e+zYKhPYegkm+F7I9odOnhkvFfxio1rvlE=",
+        "originContent": "  Open a terminal in the directory that contains the file main.py",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "  ```\n  python3 main.py\n  ```",
+    "ContentSha": "Z+fqTYT2ucqUwtV5AtW1XBaC0cATpR5g2f0DV6LKZjw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n  python3 main.py\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "SG7zTtv6G84A2sao4qsJ4YVcSE97Y4j+gTNDMQ1wDCc=",
+        "originContent": "  python3 main.py",
+        "translatedContent": "  python3 main.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n\n## Example video:\n\nhttps://www.youtube.com/watch?v=XQKJbuT8q1g\n\n## Screenshots:\n### BeamerQT GUI\n<img src=\"https://github.com/user-attachments/assets/cf332d4e-9962-4251-9619-67e146af9851\" width=\"600\">\n\n### PDF Output\n<img src=\"https://github.com/user-attachments/assets/be7b2e0c-20a4-41f0-b09d-93131973c4d4\" width=\"600\">\n\n\n## Donate\nPlease donate to help me developing this software. Paypal donation link:\n\nhttps://www.paypal.com/donate/?business=2PP5H8Z8L5E8E&no_recurring=0&item_name=Support+the+development+of+BeamerQT&currency_code=USD\n\n\n## Science Fiction Book\nIf you enjoyed this, you might also like my science fiction book, Synapses: The Chaos of Order.\n\nhttp://synapsesbook.wordpress.com/\n\nJorge Guerrero\n",
+    "ContentSha": "Lsc2HUdThgEPTiufYsu59VDOFO8eK1GTyDV73ii3/Tg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n\n## Vidéo exemple :\n\nhttps://www.youtube.com/watch?v=XQKJbuT8q1g\n\n## Captures d’écran :\n### Interface BeamerQT\n<img src=\"https://github.com/user-attachments/assets/cf332d4e-9962-4251-9619-67e146af9851\" width=\"600\">\n\n### Sortie PDF\n<img src=\"https://github.com/user-attachments/assets/be7b2e0c-20a4-41f0-b09d-93131973c4d4\" width=\"600\">\n\n\n## Faire un don\nVeuillez faire un don pour m’aider à développer ce logiciel. Lien de don Paypal :\n\nhttps://www.paypal.com/donate/?business=2PP5H8Z8L5E8E&no_recurring=0&item_name=Support+the+development+of+BeamerQT&currency_code=USD\n\n\n## Livre de science-fiction\nSi cela vous a plu, vous aimerez peut-être aussi mon livre de science-fiction, Synapses : Le chaos de l’ordre.\n\nhttp://synapsesbook.wordpress.com/\n\nJorge Guerrero\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "qp1i2vlRSvKi7DCWZQYP2ZIOlxWCuRGSD/gjzj9e10Y=",
+        "originContent": "## Example video:",
+        "translatedContent": "## Vidéo exemple :"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "hnZS2QrUFtbv0IEvpJzArz2WaPgbrcFec4s5pCsNvqY=",
+        "originContent": "https://www.youtube.com/watch?v=XQKJbuT8q1g",
+        "translatedContent": "https://www.youtube.com/watch?v=XQKJbuT8q1g"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "26s1S4bCYagOA1NivvVb3Fx9Q+CLfEUX08I0cGdFrWA=",
+        "originContent": "## Screenshots:",
+        "translatedContent": "## Captures d’écran :"
+      },
+      {
+        "row": 8,
+        "rowsha": "eeIkvxI7TGeb0S7s7LlT5P0h5AQMQAshCbQegYfxKDI=",
+        "originContent": "### BeamerQT GUI",
+        "translatedContent": "### Interface BeamerQT"
+      },
+      {
+        "row": 9,
+        "rowsha": "WQ7M1Wq5cil0vNG6qq2Wsbl8lzSazdDs8mZGUf1G+Es=",
+        "originContent": "<img src=\"https://github.com/user-attachments/assets/cf332d4e-9962-4251-9619-67e146af9851\" width=\"600\">",
+        "translatedContent": "<img src=\"https://github.com/user-attachments/assets/cf332d4e-9962-4251-9619-67e146af9851\" width=\"600\">"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "2nu2gFqtVL/Equ9iqwc/wQdKu0lO/iG8l2aPnpQ7Qcw=",
+        "originContent": "### PDF Output",
+        "translatedContent": "### Sortie PDF"
+      },
+      {
+        "row": 12,
+        "rowsha": "HhhKcfXl8NC1eUF75uZC5QDkod7mNu7ik1kVdl87Zew=",
+        "originContent": "<img src=\"https://github.com/user-attachments/assets/be7b2e0c-20a4-41f0-b09d-93131973c4d4\" width=\"600\">",
+        "translatedContent": "<img src=\"https://github.com/user-attachments/assets/be7b2e0c-20a4-41f0-b09d-93131973c4d4\" width=\"600\">"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "FNvaJIRsvZSjSfd1AKN5t1DSohP4YV++BeEW/C1EOJY=",
+        "originContent": "## Donate",
+        "translatedContent": "## Faire un don"
+      },
+      {
+        "row": 16,
+        "rowsha": "F/HjFUQctXsjfHFRdYoWNrW/ajDvRwdSiOD1JAvS0WA=",
+        "originContent": "Please donate to help me developing this software. Paypal donation link:",
+        "translatedContent": "Veuillez faire un don pour m’aider à développer ce logiciel. Lien de don Paypal :"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "qOe/loo0yubjkLbyzLwOfA7wZ4waoIMgBP0UTm7urRM=",
+        "originContent": "https://www.paypal.com/donate/?business=2PP5H8Z8L5E8E&no_recurring=0&item_name=Support+the+development+of+BeamerQT&currency_code=USD",
+        "translatedContent": "https://www.paypal.com/donate/?business=2PP5H8Z8L5E8E&no_recurring=0&item_name=Support+the+development+of+BeamerQT&currency_code=USD"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "mX1CPW0E2ucRU9SUkRM78wBSgOHnRFQqaW1YyvYeW9o=",
+        "originContent": "## Science Fiction Book",
+        "translatedContent": "## Livre de science-fiction"
+      },
+      {
+        "row": 22,
+        "rowsha": "1Jq/o6iiaHh+4aqv2sb64GjjorVf5iiNfT1UfVnsHKc=",
+        "originContent": "If you enjoyed this, you might also like my science fiction book, Synapses: The Chaos of Order.",
+        "translatedContent": "Si cela vous a plu, vous aimerez peut-être aussi mon livre de science-fiction, Synapses : Le chaos de l’ordre."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "44CySBBAOSoxiRcCVdQ6EX4eUUdUx2mKRGlk4oEJzXQ=",
+        "originContent": "http://synapsesbook.wordpress.com/",
+        "translatedContent": "http://synapsesbook.wordpress.com/"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "O0pCZG/AUPMAvh0G/NY1pjEOy8tjrPE7pPhjCd7zvuA=",
+        "originContent": "Jorge Guerrero",
+        "translatedContent": "Jorge Guerrero"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
