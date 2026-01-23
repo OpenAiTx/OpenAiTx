@@ -1,0 +1,727 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n<img src=\"https://moooonet.github.io/assets/Comfy-Align//images/display.jpg\" width=\"100%\">\n<br><br>\n\n[![Version](https://img.shields.io/badge/Version-3.0.4-cyan)](README.md)\n[![Youtube](https://img.shields.io/badge/Video-Tutorial-red)](https://youtu.be/p1niyxwsOes)\n\n</div>\n\nComfyUI-Align provides a powerful set of node alignment, stretching, and color configuration tools, addressing the lack of node alignment functionality in ComfyUI\n\n> _If this plugin has helped preserve your sanity, please consider giving a ⭐ to sustain the caffeine habit._\n\n## Environment\n\n- ComfyUI: Tested on version 0.3.76; theoretically supports recent and future versions.\n- Python: Tested on Python 3.12\n- System: Tested on Windows 11 and Ubuntu 25.10. Other Linux distributions should work; please test yourself. Theoretically supports macOS, but it’s untested due to lack of a device.\n\n## Install\n\n- **From ComfyUI Manager:** Search for \"ComfyUI-Align\" in ComfyUI Manager and install.\n- **Git Clone:** Open ComfyUI directory, navigate to `custom_nodes` folder, and run:",
+    "ContentSha": "G7IEEP46UipTfQxK9tvr2wqdKhDAOn0FULG33ibwFAg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n<img src=\"https://moooonet.github.io/assets/Comfy-Align//images/display.jpg\" width=\"100%\">\n<br><br>\n\n[![Version](https://img.shields.io/badge/Version-3.0.4-cyan)](README.md)\n[![Youtube](https://img.shields.io/badge/Video-Tutorial-red)](https://youtu.be/p1niyxwsOes)\n\n</div>\n\nComfyUI-Align provides a powerful set of node alignment, stretching, and color configuration tools, addressing the lack of node alignment functionality in ComfyUI\n\n> _If this plugin has helped preserve your sanity, please consider giving a ⭐ to sustain the caffeine habit._\n\n## Environment\n\n- ComfyUI: Tested on version 0.3.76; theoretically supports recent and future versions.\n- Python: Tested on Python 3.12\n- System: Tested on Windows 11 and Ubuntu 25.10. Other Linux distributions should work; please test yourself. Theoretically supports macOS, but it’s untested due to lack of a device.\n\n## Install\n\n- **From ComfyUI Manager:** Search for \"ComfyUI-Align\" in ComfyUI Manager and install.\n- **Git Clone:** Open ComfyUI directory, navigate to `custom_nodes` folder, and run:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "uUQ8dbYuQo1c05OHTmU9vD6AASaUD6VRwCX/WmUzLWc=",
+        "originContent": "<img src=\"https://moooonet.github.io/assets/Comfy-Align//images/display.jpg\" width=\"100%\">",
+        "translatedContent": "<img src=\"https://moooonet.github.io/assets/Comfy-Align//images/display.jpg\" width=\"100%\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "px87SzJmny2j5XSZk5l8GRkuvG0a9uyL0M/Z8rcCB3s=",
+        "originContent": "<br><br>",
+        "translatedContent": "<br><br>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "5yYwmRW2gVUXUF3ELLZIpnP+TaqR1bbb//humpyvxSE=",
+        "originContent": "[![Version](https://img.shields.io/badge/Version-3.0.4-cyan)](README.md)",
+        "translatedContent": "[![Version](https://img.shields.io/badge/Version-3.0.4-cyan)](README.md)"
+      },
+      {
+        "row": 6,
+        "rowsha": "R0WxfRy1j/BwfQ2h+0KvFkEoPN1LJ1sCLdOYK84zByc=",
+        "originContent": "[![Youtube](https://img.shields.io/badge/Video-Tutorial-red)](https://youtu.be/p1niyxwsOes)",
+        "translatedContent": "[![Youtube](https://img.shields.io/badge/Video-Tutorial-red)](https://youtu.be/p1niyxwsOes)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "yOd/7qfBJflJRlEMrjcf+2SXbPXcyUb3jrzydH2zhlc=",
+        "originContent": "ComfyUI-Align provides a powerful set of node alignment, stretching, and color configuration tools, addressing the lack of node alignment functionality in ComfyUI",
+        "translatedContent": "ComfyUI-Align provides a powerful set of node alignment, stretching, and color configuration tools, addressing the lack of node alignment functionality in ComfyUI"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "IS1M6+JlRmFdAxtUd7Czrht789Bn8OCLMhK+CnWm4HA=",
+        "originContent": "> _If this plugin has helped preserve your sanity, please consider giving a ⭐ to sustain the caffeine habit._",
+        "translatedContent": "> _If this plugin has helped preserve your sanity, please consider giving a ⭐ to sustain the caffeine habit._"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "kVelewho4nrbWBFj27nGhD7kcC0+d1qqyBqAirOwbYg=",
+        "originContent": "## Environment",
+        "translatedContent": "## Environment"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "OIaljjgo3jAxWWbt/r3+jRym2mleONf6VfhtbN5fdQA=",
+        "originContent": "- ComfyUI: Tested on version 0.3.76; theoretically supports recent and future versions.",
+        "translatedContent": "- ComfyUI: Tested on version 0.3.76; theoretically supports recent and future versions."
+      },
+      {
+        "row": 17,
+        "rowsha": "tS+SdklBsbTDAsF3R3hAeLvvTq8tg+cCMcIjihh6tYk=",
+        "originContent": "- Python: Tested on Python 3.12",
+        "translatedContent": "- Python: Tested on Python 3.12"
+      },
+      {
+        "row": 18,
+        "rowsha": "6hfzsJn/cpd9P/leCa6W04JKiYrdGVk77vhIKM0fuiI=",
+        "originContent": "- System: Tested on Windows 11 and Ubuntu 25.10. Other Linux distributions should work; please test yourself. Theoretically supports macOS, but it’s untested due to lack of a device.",
+        "translatedContent": "- System: Tested on Windows 11 and Ubuntu 25.10. Other Linux distributions should work; please test yourself. Theoretically supports macOS, but it’s untested due to lack of a device."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+        "originContent": "## Install",
+        "translatedContent": "## Install"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "Bq+2YbYw+y6n5uwH/AagKGXaVZZjoPJUzf4KMmbm3YY=",
+        "originContent": "- **From ComfyUI Manager:** Search for \"ComfyUI-Align\" in ComfyUI Manager and install.",
+        "translatedContent": "- **From ComfyUI Manager:** Search for \"ComfyUI-Align\" in ComfyUI Manager and install."
+      },
+      {
+        "row": 23,
+        "rowsha": "emmFx5q5E9PxbJVLTWNwVrm5FyxX+oC8FNlmDB8Hf8k=",
+        "originContent": "- **Git Clone:** Open ComfyUI directory, navigate to `custom_nodes` folder, and run:",
+        "translatedContent": "- **Git Clone:** Open ComfyUI directory, navigate to `custom_nodes` folder, and run:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "  ```bash\n  git clone https://github.com/Moooonet/ComfyUI-Align.git\n  ```",
+    "ContentSha": "9clUBHwL5FlRA6iZXibxd487E8EmDlPsrlDAT2aZWnQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```bash\n  git clone https://github.com/Moooonet/ComfyUI-Align.git\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+        "originContent": "  ```bash",
+        "translatedContent": "  ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "cFoc9C/3WUnKeXSTGwQJ2SvNArNMRLWYdGU5heqekCw=",
+        "originContent": "  git clone https://github.com/Moooonet/ComfyUI-Align.git",
+        "translatedContent": "  git clone https://github.com/Moooonet/ComfyUI-Align.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "- **Restart ComfyUI:** After installation, restart ComfyUI to load the new plugin.\n\n## Settings and Usage\n\n- **Shortcut Key:** Default is the backquote key <kbd>`</kbd>, for multi-system compatibility, the custom shortcut key is implemented using ComfyUI's native feature. Please search for \"Align Panel\" in Keybindings to set a custom shortcut key.\n\n<div align=\"center\">\n  <img src=\"https://moooonet.github.io/assets/Comfy-Align/images/keybindings.jpg\" width=\"100%\">\n</div>\n\n- **Two Operation Modes:**\n- 1. Use <kbd>`</kbd> to toggle the visibility of the alignment panel. (Backtick key, located above the Tab key)\n- 2. Enable Hold Mode in Settings (hold the shortcut to show the panel; hover over a button and release the key to execute without clicking; or hold the key and click different buttons to perform multiple operations).\n\n<div align=\"center\">\n  <img src=\"https://moooonet.github.io/assets/Comfy-Align/images/settings.jpg\" width=\"100%\">\n</div>\n\n## Main Features\n\n### 1. Node and Group Alignment, Distribution, and Stretching\n\n- **Alignment:**\n\n  - **Left Align, Right Align, Top Align, Bottom Align:**\n  - `Alt` Key: Holding <kbd>Alt</kbd> while aligning reverses the target nodes.\n\n- **Distribution:**\n\n  - **Horizontal Top Align Distribution:** Distribute nodes evenly horizontally first, then top-align.\n  - **Vertical Center Align Distribution:** Distribute nodes evenly vertically first, then center-align.\n  - **Spacing Setting:** Set spacing in the `Align` options.\n\n- **Stretching:**\n  - **Left Stretch, Right Stretch, Top Stretch, Bottom Stretch:**\n  - **Horizontal Bilateral Stretch:** The widest node is the target, and other nodes stretch to the left and right of the target node, maintaining their width.\n  - **Vertical Bilateral Stretch:** The tallest node is the target, and other nodes stretch to the top and bottom of the target node, maintaining their height.\n  - **`Alt` Key:** Holding <kbd>Alt</kbd> while stretching reverses the target nodes.\n\n### 2. Node and Group Color Management",
+    "ContentSha": "2HuXrgDe1hF+DnrQ6DMRjXt37Zgcr4EDetIJHcHSi0U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **Restart ComfyUI:** After installation, restart ComfyUI to load the new plugin.\n\n## Settings and Usage\n\n- **Shortcut Key:** Default is the backquote key <kbd>`</kbd>, for multi-system compatibility, the custom shortcut key is implemented using ComfyUI's native feature. Please search for \"Align Panel\" in Keybindings to set a custom shortcut key.\n\n<div align=\"center\">\n  <img src=\"https://moooonet.github.io/assets/Comfy-Align/images/keybindings.jpg\" width=\"100%\">\n</div>\n\n- **Two Operation Modes:**\n- 1. Use <kbd>`</kbd> to toggle the visibility of the alignment panel. (Backtick key, located above the Tab key)\n- 2. Enable Hold Mode in Settings (hold the shortcut to show the panel; hover over a button and release the key to execute without clicking; or hold the key and click different buttons to perform multiple operations).\n\n<div align=\"center\">\n  <img src=\"https://moooonet.github.io/assets/Comfy-Align/images/settings.jpg\" width=\"100%\">\n</div>\n\n## Main Features\n\n### 1. Node and Group Alignment, Distribution, and Stretching\n\n- **Alignment:**\n\n  - **Left Align, Right Align, Top Align, Bottom Align:**\n  - `Alt` Key: Holding <kbd>Alt</kbd> while aligning reverses the target nodes.\n\n- **Distribution:**\n\n  - **Horizontal Top Align Distribution:** Distribute nodes evenly horizontally first, then top-align.\n  - **Vertical Center Align Distribution:** Distribute nodes evenly vertically first, then center-align.\n  - **Spacing Setting:** Set spacing in the `Align` options.\n\n- **Stretching:**\n  - **Left Stretch, Right Stretch, Top Stretch, Bottom Stretch:**\n  - **Horizontal Bilateral Stretch:** The widest node is the target, and other nodes stretch to the left and right of the target node, maintaining their width.\n  - **Vertical Bilateral Stretch:** The tallest node is the target, and other nodes stretch to the top and bottom of the target node, maintaining their height.\n  - **`Alt` Key:** Holding <kbd>Alt</kbd> while stretching reverses the target nodes.\n\n### 2. Node and Group Color Management",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "n7JPmb/kTNaPlO1BllXV09YDSzmX4Vct5Pjem9IsqA0=",
+        "originContent": "- **Restart ComfyUI:** After installation, restart ComfyUI to load the new plugin.",
+        "translatedContent": "- **Restart ComfyUI:** After installation, restart ComfyUI to load the new plugin."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "r2I3vZhbj0yY9HxznxE6f5y/eWAoY7RYa+vYt57XFFk=",
+        "originContent": "## Settings and Usage",
+        "translatedContent": "## Settings and Usage"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Fzo8IXVTA1Ls1XH+KvB2qONsgrx5XdRjr+hpcjnOSf8=",
+        "originContent": "- **Shortcut Key:** Default is the backquote key <kbd>`</kbd>, for multi-system compatibility, the custom shortcut key is implemented using ComfyUI's native feature. Please search for \"Align Panel\" in Keybindings to set a custom shortcut key.",
+        "translatedContent": "- **Shortcut Key:** Default is the backquote key <kbd>`</kbd>, for multi-system compatibility, the custom shortcut key is implemented using ComfyUI's native feature. Please search for \"Align Panel\" in Keybindings to set a custom shortcut key."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "zJimM2+WxSeqjZPz+THAPK06tAKd6knAKxYxhPejaHI=",
+        "originContent": "  <img src=\"https://moooonet.github.io/assets/Comfy-Align/images/keybindings.jpg\" width=\"100%\">",
+        "translatedContent": "  <img src=\"https://moooonet.github.io/assets/Comfy-Align/images/keybindings.jpg\" width=\"100%\">"
+      },
+      {
+        "row": 9,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "IIQ8N7r+jfAlnFkmSo2TK5Mlkgjk/Pg8COk84uo7hP4=",
+        "originContent": "- **Two Operation Modes:**",
+        "translatedContent": "- **Two Operation Modes:**"
+      },
+      {
+        "row": 12,
+        "rowsha": "6mN06vW9udaJMH+/qSoV8d2uv3T2oAklxf83is7+sM0=",
+        "originContent": "- 1. Use <kbd>`</kbd> to toggle the visibility of the alignment panel. (Backtick key, located above the Tab key)",
+        "translatedContent": "- 1. Use <kbd>`</kbd> to toggle the visibility of the alignment panel. (Backtick key, located above the Tab key)"
+      },
+      {
+        "row": 13,
+        "rowsha": "0SHITvNZYV/Z/8WxSRUnPswTXMuu1kkh5FauR1cBeZg=",
+        "originContent": "- 2. Enable Hold Mode in Settings (hold the shortcut to show the panel; hover over a button and release the key to execute without clicking; or hold the key and click different buttons to perform multiple operations).",
+        "translatedContent": "- 2. Enable Hold Mode in Settings (hold the shortcut to show the panel; hover over a button and release the key to execute without clicking; or hold the key and click different buttons to perform multiple operations)."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 16,
+        "rowsha": "moBBV+QTHDXXj8GEHG7wyUZWv2u/EMa3nHg/ujYKB/g=",
+        "originContent": "  <img src=\"https://moooonet.github.io/assets/Comfy-Align/images/settings.jpg\" width=\"100%\">",
+        "translatedContent": "  <img src=\"https://moooonet.github.io/assets/Comfy-Align/images/settings.jpg\" width=\"100%\">"
+      },
+      {
+        "row": 17,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "RADlypCP1NDVFK7/L8/G/KoFy+S97qnuDl8+AOnoDbY=",
+        "originContent": "## Main Features",
+        "translatedContent": "## Main Features"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "m7uOkZRPGI1rZwU5+odQVmzVIpSDuA25Go3k1gHR5Y8=",
+        "originContent": "### 1. Node and Group Alignment, Distribution, and Stretching",
+        "translatedContent": "### 1. Node and Group Alignment, Distribution, and Stretching"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "nqfaVi/0B7PsHnCHquXEU38EPq3Xmz7N7qXU0avAqD0=",
+        "originContent": "- **Alignment:**",
+        "translatedContent": "- **Alignment:**"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "RwxHC4XcUwIwq1AcWNCmO62As+IPuVwRVfpSC02bi/E=",
+        "originContent": "  - **Left Align, Right Align, Top Align, Bottom Align:**",
+        "translatedContent": "  - **Left Align, Right Align, Top Align, Bottom Align:**"
+      },
+      {
+        "row": 26,
+        "rowsha": "tszkHWSWZDjLyHWR+khX2x+LP388dCVam3IF0IxLu40=",
+        "originContent": "  - `Alt` Key: Holding <kbd>Alt</kbd> while aligning reverses the target nodes.",
+        "translatedContent": "  - `Alt` Key: Holding <kbd>Alt</kbd> while aligning reverses the target nodes."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "qofkOuYHos6sIQyvQZuItKFpAPSUh5FEwYDC+HylHG8=",
+        "originContent": "- **Distribution:**",
+        "translatedContent": "- **Distribution:**"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "YDc5mM/6+1mH7wCc7JcPO9G03Gw822FWZ1C7HdrEApY=",
+        "originContent": "  - **Horizontal Top Align Distribution:** Distribute nodes evenly horizontally first, then top-align.",
+        "translatedContent": "  - **Horizontal Top Align Distribution:** Distribute nodes evenly horizontally first, then top-align."
+      },
+      {
+        "row": 31,
+        "rowsha": "hNhWporuiPMDrtadWxFdR6FwA73fS9UQWDnyp1HzfW8=",
+        "originContent": "  - **Vertical Center Align Distribution:** Distribute nodes evenly vertically first, then center-align.",
+        "translatedContent": "  - **Vertical Center Align Distribution:** Distribute nodes evenly vertically first, then center-align."
+      },
+      {
+        "row": 32,
+        "rowsha": "DqZ5u5Wl2615NkHrSQrNZiwmPfIeuZC6xUqE/Z9CNxM=",
+        "originContent": "  - **Spacing Setting:** Set spacing in the `Align` options.",
+        "translatedContent": "  - **Spacing Setting:** Set spacing in the `Align` options."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "f6hBk/rsbSRx2hMYVwOpiMLyWMwumfadsubHEznQLLY=",
+        "originContent": "- **Stretching:**",
+        "translatedContent": "- **Stretching:**"
+      },
+      {
+        "row": 35,
+        "rowsha": "DByYFW/z4V+ctZ4rUhkgdjR7XzrQy+BfdVfnDlMvkvw=",
+        "originContent": "  - **Left Stretch, Right Stretch, Top Stretch, Bottom Stretch:**",
+        "translatedContent": "  - **Left Stretch, Right Stretch, Top Stretch, Bottom Stretch:**"
+      },
+      {
+        "row": 36,
+        "rowsha": "8iFtKGHxHNnNX2B9zXPithG1/Jx01R76Hege6cj86ps=",
+        "originContent": "  - **Horizontal Bilateral Stretch:** The widest node is the target, and other nodes stretch to the left and right of the target node, maintaining their width.",
+        "translatedContent": "  - **Horizontal Bilateral Stretch:** The widest node is the target, and other nodes stretch to the left and right of the target node, maintaining their width."
+      },
+      {
+        "row": 37,
+        "rowsha": "jjh2scWbpDJsk9ff1nboZr+0fzxCK9EJS5EFZfmWYV8=",
+        "originContent": "  - **Vertical Bilateral Stretch:** The tallest node is the target, and other nodes stretch to the top and bottom of the target node, maintaining their height.",
+        "translatedContent": "  - **Vertical Bilateral Stretch:** The tallest node is the target, and other nodes stretch to the top and bottom of the target node, maintaining their height."
+      },
+      {
+        "row": 38,
+        "rowsha": "WVILjC0ByIguVDpXRhms9nHwNwrnT1t7ioAApHddgKY=",
+        "originContent": "  - **`Alt` Key:** Holding <kbd>Alt</kbd> while stretching reverses the target nodes.",
+        "translatedContent": "  - **`Alt` Key:** Holding <kbd>Alt</kbd> while stretching reverses the target nodes."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "xXUWtI4jUZHNydoyjcu6oHDyx4uVg7mN9ovQnuGmrAQ=",
+        "originContent": "### 2. Node and Group Color Management",
+        "translatedContent": "### 2. Node and Group Color Management"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "\n- **ColorBar:**\n\n  - 7 default colors\n  - Moon icon (To open ColorPicker)\n  - Clear color (clear the color of selected nodes)\n  - Apply color (apply the color from presets to the corresponding nodes)\n\n- **ColorPicker:**\n\n  - Color selection area\n  - Eyedropper tool\n  - Hue slider\n  - Alpha slider\n  - HEX value (click to copy, double-click to edit)\n  - RGBA value (click to copy, double-click to edit. Hold Ctrl to copy all values)\n  - Color history\n  - Color presets\n\n- **ColorPresets:**\n  - Initially, a `color_presets.json` file will be generated in the plugin root directory to store custom color presets.\n  - After setting the color of nodes, click the `Save` button to save the preset.\n  - Click the `Clear` button to clear all saved preset colors.\n  - Click the `Apply` button to apply the colors from presets to the corresponding nodes. (The `Apply` button is located at the last position of `ColorBar`)\n\n---\n\n<div align=\"center\">\n   <a href=\"https://www.star-history.com/#Moooonet/ComfyUI-Align&Date\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=Moooonet/ComfyUI-Align&type=Date&theme=dark\" />\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=Moooonet/ComfyUI-Align&type=Date\" />\n      <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=Moooonet/ComfyUI-Align&type=Date\" />\n    </picture>\n   </a>\n</div>\n\n---\n\n<div align=\"center\">",
+    "ContentSha": "fKfnRVunqp6ddWfkG/7O7TWbA2UEWzqIxb/S7/Yc4x8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- **ColorBar:**\n\n  - 7 default colors\n  - Moon icon (To open ColorPicker)\n  - Clear color (clear the color of selected nodes)\n  - Apply color (apply the color from presets to the corresponding nodes)\n\n- **ColorPicker:**\n\n  - Color selection area\n  - Eyedropper tool\n  - Hue slider\n  - Alpha slider\n  - HEX value (click to copy, double-click to edit)\n  - RGBA value (click to copy, double-click to edit. Hold Ctrl to copy all values)\n  - Color history\n  - Color presets\n\n- **ColorPresets:**\n  - Initially, a `color_presets.json` file will be generated in the plugin root directory to store custom color presets.\n  - After setting the color of nodes, click the `Save` button to save the preset.\n  - Click the `Clear` button to clear all saved preset colors.\n  - Click the `Apply` button to apply the colors from presets to the corresponding nodes. (The `Apply` button is located at the last position of `ColorBar`)\n\n---\n\n<div align=\"center\">\n   <a href=\"https://www.star-history.com/#Moooonet/ComfyUI-Align&Date\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=Moooonet/ComfyUI-Align&type=Date&theme=dark\" />\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=Moooonet/ComfyUI-Align&type=Date\" />\n      <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=Moooonet/ComfyUI-Align&type=Date\" />\n    </picture>\n   </a>\n</div>\n\n---\n\n<div align=\"center\">",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lSbrWTq0Y0Yl/C1K/Pn+1DG2no/Zq9I2BP97VYiZNEA=",
+        "originContent": "- **ColorBar:**",
+        "translatedContent": "- **ColorBar:**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "nzIFk+lsTRVsxGMejhU2uwMy39Pa0PqsxcLXZt1YEjw=",
+        "originContent": "  - 7 default colors",
+        "translatedContent": "  - 7 default colors"
+      },
+      {
+        "row": 5,
+        "rowsha": "wPqFJzAs1SnlmRWaIsmVMbLnct45HmPTWVO9bbSPSfI=",
+        "originContent": "  - Moon icon (To open ColorPicker)",
+        "translatedContent": "  - Moon icon (To open ColorPicker)"
+      },
+      {
+        "row": 6,
+        "rowsha": "QhhI4a8EqQ8Ek7pYyQjT76MyIZvIrJ0BsW6FgR9cuNk=",
+        "originContent": "  - Clear color (clear the color of selected nodes)",
+        "translatedContent": "  - Clear color (clear the color of selected nodes)"
+      },
+      {
+        "row": 7,
+        "rowsha": "VmoeM1L4xiGYs7j0JR7mDKB1XMoPuGz9ty/WRyU5gBQ=",
+        "originContent": "  - Apply color (apply the color from presets to the corresponding nodes)",
+        "translatedContent": "  - Apply color (apply the color from presets to the corresponding nodes)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "kiZEHh+LWefoO2jzH9kNzjM4GeV/shQj3HlYnoYBwx4=",
+        "originContent": "- **ColorPicker:**",
+        "translatedContent": "- **ColorPicker:**"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "RkmwSS1urqhhldr2SKqs8Mrw68j/2LYnUxGqpS7nIrY=",
+        "originContent": "  - Color selection area",
+        "translatedContent": "  - Color selection area"
+      },
+      {
+        "row": 12,
+        "rowsha": "lRWgNdpb7HIKCII5eJeIidv5qsML5jIOLb2s/MYs4EY=",
+        "originContent": "  - Eyedropper tool",
+        "translatedContent": "  - Eyedropper tool"
+      },
+      {
+        "row": 13,
+        "rowsha": "Ds29cPoa74oz5M5GznyXqaEPFDmWNgsphMjIR6/d/8k=",
+        "originContent": "  - Hue slider",
+        "translatedContent": "  - Hue slider"
+      },
+      {
+        "row": 14,
+        "rowsha": "I7ew8iB1TfUrkvpAh7AckzsMXIAlTtwOgR3I4N0u5tA=",
+        "originContent": "  - Alpha slider",
+        "translatedContent": "  - Alpha slider"
+      },
+      {
+        "row": 15,
+        "rowsha": "Ay38gJdB4RkdcIbXTEn0BMvn+k9f+URqIIiQv8opu8c=",
+        "originContent": "  - HEX value (click to copy, double-click to edit)",
+        "translatedContent": "  - HEX value (click to copy, double-click to edit)"
+      },
+      {
+        "row": 16,
+        "rowsha": "bTUfEO6Upzt0SC/DroitZTRw6bo47iHc6bvG3kGy2jA=",
+        "originContent": "  - RGBA value (click to copy, double-click to edit. Hold Ctrl to copy all values)",
+        "translatedContent": "  - RGBA value (click to copy, double-click to edit. Hold Ctrl to copy all values)"
+      },
+      {
+        "row": 17,
+        "rowsha": "BGo4r9cN4rpuLql3NIROk6AxeyajYOjH29YR/grLfSA=",
+        "originContent": "  - Color history",
+        "translatedContent": "  - Color history"
+      },
+      {
+        "row": 18,
+        "rowsha": "Ew/vjWxqFltJwxNHKpoeRLyOvSvSBwWvjPVQHQQz8po=",
+        "originContent": "  - Color presets",
+        "translatedContent": "  - Color presets"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "uUlDEKVbhUTuTRo8XDAXR2BVjt9HJfk5BhGqi0IM4oU=",
+        "originContent": "- **ColorPresets:**",
+        "translatedContent": "- **ColorPresets:**"
+      },
+      {
+        "row": 21,
+        "rowsha": "7Gv5CcoMGYfijT9KVWnJRtqJZP9cyoT498ov2Xh0GK8=",
+        "originContent": "  - Initially, a `color_presets.json` file will be generated in the plugin root directory to store custom color presets.",
+        "translatedContent": "  - Initially, a `color_presets.json` file will be generated in the plugin root directory to store custom color presets."
+      },
+      {
+        "row": 22,
+        "rowsha": "uKv0WBBfD2IsSG3sYr66zVMa1JD2sSY2ycrw8KYkkdc=",
+        "originContent": "  - After setting the color of nodes, click the `Save` button to save the preset.",
+        "translatedContent": "  - After setting the color of nodes, click the `Save` button to save the preset."
+      },
+      {
+        "row": 23,
+        "rowsha": "OLejUW2vQMmX/pe140b6WnnG/1zBQstMtGiSPYhrYKw=",
+        "originContent": "  - Click the `Clear` button to clear all saved preset colors.",
+        "translatedContent": "  - Click the `Clear` button to clear all saved preset colors."
+      },
+      {
+        "row": 24,
+        "rowsha": "gotqj6nTykkPxUGkm80NSvGiDCXL7+8UWDVU/TNycH4=",
+        "originContent": "  - Click the `Apply` button to apply the colors from presets to the corresponding nodes. (The `Apply` button is located at the last position of `ColorBar`)",
+        "translatedContent": "  - Click the `Apply` button to apply the colors from presets to the corresponding nodes. (The `Apply` button is located at the last position of `ColorBar`)"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 29,
+        "rowsha": "l/Ro7U58ue2YGycPOPUWXIELrgti8Tdk6hR0G/unayg=",
+        "originContent": "   <a href=\"https://www.star-history.com/#Moooonet/ComfyUI-Align&Date\">",
+        "translatedContent": "   <a href=\"https://www.star-history.com/#Moooonet/ComfyUI-Align&Date\">"
+      },
+      {
+        "row": 30,
+        "rowsha": "Q+M7PRMBBE7zaEHpl/LBH+86XEBmcIehzVpL3N4sntY=",
+        "originContent": "    <picture>",
+        "translatedContent": "    <picture>"
+      },
+      {
+        "row": 31,
+        "rowsha": "ufE8plXdiMhrk+U/e5lyxkAnSUurBY/Q8Hh9IP8+CAE=",
+        "originContent": "      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=Moooonet/ComfyUI-Align&type=Date&theme=dark\" />",
+        "translatedContent": "      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=Moooonet/ComfyUI-Align&type=Date&theme=dark\" />"
+      },
+      {
+        "row": 32,
+        "rowsha": "kxJfsJ3u7NWVrQL0Q3HbT7QHVQpjllcnVIhEFavvtZg=",
+        "originContent": "      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=Moooonet/ComfyUI-Align&type=Date\" />",
+        "translatedContent": "      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=Moooonet/ComfyUI-Align&type=Date\" />"
+      },
+      {
+        "row": 33,
+        "rowsha": "q/cv/gneyIWa6wuG1wOtl5CyPp/ZXWEEiuK5xawjsvY=",
+        "originContent": "      <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=Moooonet/ComfyUI-Align&type=Date\" />",
+        "translatedContent": "      <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=Moooonet/ComfyUI-Align&type=Date\" />"
+      },
+      {
+        "row": 34,
+        "rowsha": "idmeZWEf6Z/7xrCErmtdJHw/btCXZ91wC0xZyoz3LM0=",
+        "originContent": "    </picture>",
+        "translatedContent": "    </picture>"
+      },
+      {
+        "row": 35,
+        "rowsha": "AYlNwOAhKr1FawbLLvlgk9XH0c4syLpsacrg3Ki5flk=",
+        "originContent": "   </a>",
+        "translatedContent": "   </a>"
+      },
+      {
+        "row": 36,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "  <p>Unless explicitly authorized, integration, modification, or redistribution in any form is strictly prohibited.</p>\n  <p>© 2025 Moooonet. All rights reserved.</p>\n</div>\n",
+    "ContentSha": "/rm3hU57hHmMj+ZayBKN508Orb5c5iTljDKNou66jE4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  <p>Unless explicitly authorized, integration, modification, or redistribution in any form is strictly prohibited.</p>\n  <p>© 2025 Moooonet. All rights reserved.</p>\n</div>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HUEiHF6rhgEWPeqXL+NtIc+l2ZJFPLMnuj4gUbaLbDg=",
+        "originContent": "  <p>Unless explicitly authorized, integration, modification, or redistribution in any form is strictly prohibited.</p>",
+        "translatedContent": "  <p>Unless explicitly authorized, integration, modification, or redistribution in any form is strictly prohibited.</p>"
+      },
+      {
+        "row": 2,
+        "rowsha": "SSSFQlcloVcuZXE6hjDWzs46S5V6qXLAjC9d7xob1ek=",
+        "originContent": "  <p>© 2025 Moooonet. All rights reserved.</p>",
+        "translatedContent": "  <p>© 2025 Moooonet. All rights reserved.</p>"
+      },
+      {
+        "row": 3,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
