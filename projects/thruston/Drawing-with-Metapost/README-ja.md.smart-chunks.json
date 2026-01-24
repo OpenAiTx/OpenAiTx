@@ -1,0 +1,292 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Drawing-with-Metapost\n\nToby Thurston -- 28 Jan 2025\n\nThis project provides a document that discusses how to draw technical diagrams\nwith John Hobby's Metapost language. It includes over 200 illustrations created\nwith Metapost, complete with source code as inspiration and examples.  The\nintended level is for intermediate to advanced users rather than complete\nbeginners.  For introductions, tutorials, and other articles about Metapost, see\nhttp://www.tug.org/metapost.html\n\nStart with `Drawing-with-Metapost.pdf` in the top directory.\n\nThe `src` directory contains \n- the TeX source for the main document\n- the style file used for marking up Metapost source code\n- the Metapost source for each illustration used in the main document\n- the corresponding PDF files created from each MP source file\n\nThe text includes a discussion of the techniques used for drawing the\nillustrations, and includes complete or partial listings for most of them.\nThese listings are included directly from the source code used, so in all cases\nthe output should exactly match what you see on the page.\n\nYou might like to read the main document first, but you might also like to\nbrowse through the PDFs in the `src` directory, and when you find one that is\ninteresting, have a look at the corresponding MP source file.  There is a\none-to-one match between the PDF names and the MP source names, so\n`geometry-apollonius.pdf` is created from `geometry-apollonius.mp`.  The `src`\ndirectory contains a few drawings that are not included in the main document.\n\nIf you find any errors, or have any suggestions for improvement, please raise an\nissue or submit a pull request on Github.\n\nCopyright (c) 2025 by Toby Thurston. This material may be distributed only\nsubject to the terms and conditions set forth in the Open Publication License,\nv1.0 or later.  The latest version is presently available at\nhttps://opencontent.org/openpub/\n\nDistribution of substantively modified versions of this document is prohibited",
+    "ContentSha": "fPHT3J2W5Zxif8ALLu9Qgg4P4D6TvjOrxv7NWBYdnGA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Drawing-with-Metapost\n\nトビー・サーストン -- 2025年1月28日\n\nこのプロジェクトは、ジョン・ホビーのMetapost言語を使って技術図を描く方法について解説したドキュメントを提供します。  \n200点以上のMetapostで作成されたイラストと、インスピレーションや例としてのソースコードが含まれています。  \n対象レベルは完全な初心者ではなく、中級から上級ユーザー向けです。  \nMetapostの入門、チュートリアル、その他の記事については、  \nhttp://www.tug.org/metapost.html を参照してください。\n\nトップディレクトリの `Drawing-with-Metapost.pdf` から始めてください。\n\n`src` ディレクトリには  \n- 本文書のTeXソース  \n- Metapostソースコードのマーキングに使われるスタイルファイル  \n- 本文書で使用されている各イラストのMetapostソース  \n- 各MPソースファイルから作成された対応するPDFファイル  \nが含まれています。\n\n本文にはイラスト作成に用いられた技法の解説があり、ほとんどのイラストについて完全または部分的なリスティングが含まれています。  \nこれらのリスティングは使用されたソースコードから直接引用されているため、すべての場合においてページ上に表示されるものと出力が完全に一致します。\n\nまず本文書を読むことをお勧めしますが、`src` ディレクトリ内のPDFをブラウズし、興味のあるものがあれば対応するMPソースファイルを参照するのも良いでしょう。  \nPDF名とMPソース名は一対一で対応しているため、  \n`geometry-apollonius.pdf` は `geometry-apollonius.mp` から作成されています。  \n`src` ディレクトリには本文書に含まれない図もいくつかあります。\n\n誤りを見つけた場合や改善提案がある場合は、Githubでイシューを立てるかプルリクエストを提出してください。\n\n著作権 (c) 2025 トビー・サーストン。  \n本資料の配布はOpen Publication License v1.0以降の条件に従うものとします。  \n最新版は https://opencontent.org/openpub/ で入手可能です。\n\n本資料の実質的に改変されたバージョンの配布は禁止されています。\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "56TsKXEA4J+QkcN9Qq4k9zQkDJNLRkMXP9Pwj94+2xE=",
+        "originContent": "# Drawing-with-Metapost",
+        "translatedContent": "# Drawing-with-Metapost"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "A63MT4tSsis3uHS6B23pxpaB/5meKdAIRtE0uSS5lZE=",
+        "originContent": "Toby Thurston -- 28 Jan 2025",
+        "translatedContent": "トビー・サーストン -- 2025年1月28日"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "gRhFyEJLAuRrWmK/0yrCEZeGaUWOOF0I/mQxohSUA1g=",
+        "originContent": "This project provides a document that discusses how to draw technical diagrams",
+        "translatedContent": "このプロジェクトは、ジョン・ホビーのMetapost言語を使って技術図を描く方法について解説したドキュメントを提供します。  "
+      },
+      {
+        "row": 6,
+        "rowsha": "eUAqpGwGB1HUsSWcLhB0UK2AYTJ2STZJ0vhQHkv3AXU=",
+        "originContent": "with John Hobby's Metapost language. It includes over 200 illustrations created",
+        "translatedContent": "200点以上のMetapostで作成されたイラストと、インスピレーションや例としてのソースコードが含まれています。  "
+      },
+      {
+        "row": 7,
+        "rowsha": "iCHofEfX1BUMj/FehY2aUWRW5mcP/3MXsZxMfZJYW6Q=",
+        "originContent": "with Metapost, complete with source code as inspiration and examples.  The",
+        "translatedContent": "対象レベルは完全な初心者ではなく、中級から上級ユーザー向けです。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "AYVXWSCwv+c/5VeXMj+SIuEJgjGUZl5Uhd/uJHs2yd0=",
+        "originContent": "intended level is for intermediate to advanced users rather than complete",
+        "translatedContent": "Metapostの入門、チュートリアル、その他の記事については、  "
+      },
+      {
+        "row": 9,
+        "rowsha": "CnICTgTcDwaYZ1zsGQ8KvIvqMI64FAEmpva+UXAQdnQ=",
+        "originContent": "beginners.  For introductions, tutorials, and other articles about Metapost, see",
+        "translatedContent": "http://www.tug.org/metapost.html を参照してください。"
+      },
+      {
+        "row": 10,
+        "rowsha": "YxvdVhuJ3mHGyeZSYBkUZmFEgfFitx7OsEcbjI0tS0M=",
+        "originContent": "http://www.tug.org/metapost.html",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "トップディレクトリの `Drawing-with-Metapost.pdf` から始めてください。"
+      },
+      {
+        "row": 12,
+        "rowsha": "G93Ru1BIu8doRr/NZEYQa5Ei6fdlXeEovAsWMEsGLx0=",
+        "originContent": "Start with `Drawing-with-Metapost.pdf` in the top directory.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`src` ディレクトリには  "
+      },
+      {
+        "row": 14,
+        "rowsha": "PHfyqNmqskjOimkgbEUslAHdPacbOd1xaYKtKNNvb18=",
+        "originContent": "The `src` directory contains ",
+        "translatedContent": "- 本文書のTeXソース  "
+      },
+      {
+        "row": 15,
+        "rowsha": "UKQIRQiWT4tkpxw9GEGBgpb+RYBmZhL7AS39q7qcyjQ=",
+        "originContent": "- the TeX source for the main document",
+        "translatedContent": "- Metapostソースコードのマーキングに使われるスタイルファイル  "
+      },
+      {
+        "row": 16,
+        "rowsha": "nm/INoqBZCdjTXFtabusjicFGvlbJlWTkycXnZucLr8=",
+        "originContent": "- the style file used for marking up Metapost source code",
+        "translatedContent": "- 本文書で使用されている各イラストのMetapostソース  "
+      },
+      {
+        "row": 17,
+        "rowsha": "9Wf9dSrgRTTgcfGYOJmioEwYIBBCAErFLwyykpvQtGY=",
+        "originContent": "- the Metapost source for each illustration used in the main document",
+        "translatedContent": "- 各MPソースファイルから作成された対応するPDFファイル  "
+      },
+      {
+        "row": 18,
+        "rowsha": "ez1I5Ddcwy8K4m2m3HvpevbFUFF224sozJwdcb9o5sY=",
+        "originContent": "- the corresponding PDF files created from each MP source file",
+        "translatedContent": "が含まれています。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "jqMdAEHtcZLxqiYlG6tiUV/XtNis00B4cAeOXbyl38w=",
+        "originContent": "The text includes a discussion of the techniques used for drawing the",
+        "translatedContent": "本文にはイラスト作成に用いられた技法の解説があり、ほとんどのイラストについて完全または部分的なリスティングが含まれています。  "
+      },
+      {
+        "row": 21,
+        "rowsha": "D/IbrssM8fjZ9DEBqoN9ZIYCIf8l+Ouf5C0kM0cRGcg=",
+        "originContent": "illustrations, and includes complete or partial listings for most of them.",
+        "translatedContent": "これらのリスティングは使用されたソースコードから直接引用されているため、すべての場合においてページ上に表示されるものと出力が完全に一致します。"
+      },
+      {
+        "row": 22,
+        "rowsha": "yWObHWKDAjd1Q6U+yDHXZb5EIOeSHYr8H9ZT5tPvoS4=",
+        "originContent": "These listings are included directly from the source code used, so in all cases",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "U5m4m2MgNplgNSof1zpASZsBj0vKNE5BZbW0faM7ZHQ=",
+        "originContent": "the output should exactly match what you see on the page.",
+        "translatedContent": "まず本文書を読むことをお勧めしますが、`src` ディレクトリ内のPDFをブラウズし、興味のあるものがあれば対応するMPソースファイルを参照するのも良いでしょう。  "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "PDF名とMPソース名は一対一で対応しているため、  "
+      },
+      {
+        "row": 25,
+        "rowsha": "/2ozaNy0LW/PZplBJUrQLn5VllOxHdLf0xX1O2SAnYM=",
+        "originContent": "You might like to read the main document first, but you might also like to",
+        "translatedContent": "`geometry-apollonius.pdf` は `geometry-apollonius.mp` から作成されています。  "
+      },
+      {
+        "row": 26,
+        "rowsha": "grmH/d7UWwsBMQNX1BmztK3pjEOlsQb0dNZ7M++2G/8=",
+        "originContent": "browse through the PDFs in the `src` directory, and when you find one that is",
+        "translatedContent": "`src` ディレクトリには本文書に含まれない図もいくつかあります。"
+      },
+      {
+        "row": 27,
+        "rowsha": "R8CowProDzSq76ssw24NmYAJd7CT9E1N8mlhrP5iXOg=",
+        "originContent": "interesting, have a look at the corresponding MP source file.  There is a",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "TQxGcmhu7d84A2T0o9D6ZG3G8sehW2S/2DzBoqLc294=",
+        "originContent": "one-to-one match between the PDF names and the MP source names, so",
+        "translatedContent": "誤りを見つけた場合や改善提案がある場合は、Githubでイシューを立てるかプルリクエストを提出してください。"
+      },
+      {
+        "row": 29,
+        "rowsha": "c+iI/ow3mLoBs68YhyO+39tckeag1mXn/qOGeqJ//uo=",
+        "originContent": "`geometry-apollonius.pdf` is created from `geometry-apollonius.mp`.  The `src`",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "ciIghSX3qY0g5AVITquiSUQCP81Pl3P46vmN10OczVE=",
+        "originContent": "directory contains a few drawings that are not included in the main document.",
+        "translatedContent": "著作権 (c) 2025 トビー・サーストン。  "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本資料の配布はOpen Publication License v1.0以降の条件に従うものとします。  "
+      },
+      {
+        "row": 32,
+        "rowsha": "tCo/BQaXvtGXg4lwPEoMufeLdHVFRvK9/DoWbLvR2qs=",
+        "originContent": "If you find any errors, or have any suggestions for improvement, please raise an",
+        "translatedContent": "最新版は https://opencontent.org/openpub/ で入手可能です。"
+      },
+      {
+        "row": 33,
+        "rowsha": "SlSouruJfr8IltlGQfwTzdKHtRuxOVeCI8+kAfwxJ3Y=",
+        "originContent": "issue or submit a pull request on Github.",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本資料の実質的に改変されたバージョンの配布は禁止されています。"
+      },
+      {
+        "row": 35,
+        "rowsha": "lCFHtme98uZdvhHL2HB2B+nJ1I+1BSK5Ff/atwbKE3o=",
+        "originContent": "Copyright (c) 2025 by Toby Thurston. This material may be distributed only",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "V5du2sqnskDMShoaj0ZJ4C7KLTLtH1ZSpK5cvGVm5nQ=",
+        "originContent": "subject to the terms and conditions set forth in the Open Publication License,",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "M3GfjG6iw2o6CJSpE10dLeLSjg+wF7WTXLrruSikVpw=",
+        "originContent": "v1.0 or later.  The latest version is presently available at",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "uY/G4a2NVDfyMtiAX9NQugq4j6h4h7K+W2CAP43VMbQ=",
+        "originContent": "https://opencontent.org/openpub/",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "l5rzfggWH1AA00jKOFFtMlvfWNOim6GA/CRxbW6tqKs=",
+        "originContent": "Distribution of substantively modified versions of this document is prohibited",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "without the explicit permission of the copyright holder.  Distribution of the\nwork or derivative of the work in any standard (paper) book form is prohibited\nunless prior permission is obtained from the copyright holder.\n",
+    "ContentSha": "1Q3ZAPKQNtJDX17Tq8mdlleBUzjufvAzFShVRgTElPg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "著作権者の明示的な許可なしに。  \n作品またはその派生作品を標準的な（紙の）書籍形式で配布することは、  \n著作権者から事前の許可を得ない限り禁止されています。  \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZC2sAAUn79jx97KbvAnFrWQW2BVB1xS1TgXh4gUXvM=",
+        "originContent": "without the explicit permission of the copyright holder.  Distribution of the",
+        "translatedContent": "著作権者の明示的な許可なしに。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "nO6pvKS0g/dVPlSQdj36YOY1W+lwUNO83RP/EmJi1xs=",
+        "originContent": "work or derivative of the work in any standard (paper) book form is prohibited",
+        "translatedContent": "作品またはその派生作品を標準的な（紙の）書籍形式で配布することは、  "
+      },
+      {
+        "row": 3,
+        "rowsha": "OmvT64Qkx7reuwKk5cevtZ+gw1iM/xEWrtGS8qPhqYc=",
+        "originContent": "unless prior permission is obtained from the copyright holder.",
+        "translatedContent": "著作権者から事前の許可を得ない限り禁止されています。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

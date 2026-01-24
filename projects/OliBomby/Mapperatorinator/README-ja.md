@@ -1,17 +1,49 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Mapperatorinator
 
-ジェネレーティブモデルを[こちら](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb)で、またはMaiModを[こちら](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb)で試せます。動画デモは[こちら](https://youtu.be/FEr7t1L2EoA)をご覧ください。
+生成モデルを[こちら](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb)で試せます。また、MaiModは[こちら](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb)から試せます。ビデオ紹介は[こちら](https://youtu.be/FEr7t1L2EoA)です。
 
-Mapperatorinatorはスペクトログラム入力を使用して、全ゲームモード向けの完全な機能を備えたosu!ビートマップを生成し、[アシストモッディングビートマップ](#maimod-the-ai-driven-modding-tool)を行うマルチモデルフレームワークです。  
-このプロジェクトの目標は、任意の楽曲から高いカスタマイズ性を持つランク可能な品質のosu!ビートマップを自動生成することです。
+Mapperatorinatorは、スペクトログラム入力を利用して全てのosu!ゲームモード用の完全なビートマップを生成し、[譜面のモッド支援](#maimod-the-ai-driven-modding-tool)も行うマルチモデルフレームワークです。
+このプロジェクトの目標は、あらゆる楽曲から高いカスタマイズ性を持ったランク可能な品質のosu!ビートマップを自動生成することです。
 
-このプロジェクトは[osuT5](https://github.com/gyataro/osuT5)と[osu-diffusion](https://github.com/OliBomby/osu-diffusion)をベースにしています。開発には、私の4060 Tiとvast.aiでレンタルした4090インスタンスを用いて、142回の実行で約2500時間のGPU計算を費やしました。
+本プロジェクトは[osuT5](https://github.com/gyataro/osuT5)および[osu-diffusion](https://github.com/OliBomby/osu-diffusion)の上に構築されています。開発にあたり、4060 Tiとvast.aiのレンタル4090インスタンスで合計142回の実行、約2500時間分のGPU計算を行いました。
 
-#### このツールは責任を持って使用してください。ビートマップにAIの使用を必ず明示してください。
+#### このツールは責任を持って使用してください。必ずビートマップでAIの使用を開示してください。
 
 ## インストール
 
-以下の手順でローカルマシンでビートマップを生成できます。代わりに[Colabノートブック](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb)でクラウド上で実行することも可能です。
+以下の手順でローカルマシン上でビートマップを生成できます。もしくは、[colabノートブック](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb)でクラウド上で実行することもできます。
 
 ### 1. リポジトリをクローンする
 
@@ -358,6 +390,6 @@ python osuT5/train.py -cn lora train_dataset_path="/workspace/datasets/cool_data
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-24
 
 ---

@@ -1,19 +1,51 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Mapperatorinator
 
-尝试这个生成模型[这里](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb)，或者MaiMod[这里](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb)。观看视频展示[这里](https://youtu.be/FEr7t1L2EoA)。
+可在此处试用生成模型 [这里](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb)，或试用 MaiMod [这里](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb)。观看视频展示 [这里](https://youtu.be/FEr7t1L2EoA)。
 
-Mapperatorinator 是一个多模型框架，使用频谱图输入生成适用于所有游戏模式的全功能osu!谱面，并[辅助谱面制作](#maimod-the-ai-driven-modding-tool)。
-该项目的目标是从任何歌曲自动生成可排名的高质量osu!谱面，并具有高度的自定义性。
+Mapperatorinator 是一个多模型框架，使用声谱图输入为所有 osu! 游戏模式生成完整功能的 beatmap，并可[辅助 beatmap 修改](#maimod-the-ai-driven-modding-tool)。
+该项目的目标是能够从任意歌曲自动生成具有高度自定义性的、可排名的高质量 osu! beatmap。
 
-该项目基于[osuT5](https://github.com/gyataro/osuT5)和[osu-diffusion](https://github.com/OliBomby/osu-diffusion)构建。在开发过程中，我在4060 Ti和租用vast.ai上的4090实例上共耗费约2500小时GPU计算，进行了142次运行。
+本项目基于 [osuT5](https://github.com/gyataro/osuT5) 和 [osu-diffusion](https://github.com/OliBomby/osu-diffusion) 构建。在开发过程中，我在 4060 Ti 和租用的 vast.ai 4090 实例上进行了 142 次运行，累计约 2500 小时的 GPU 计算。
 
-#### 请负责任地使用此工具。在您的谱面中务必披露AI的使用。
+#### 请负责任地使用此工具。始终在您的谱面中披露 AI 的使用情况。
 
 ## 安装
 
-以下说明允许您在本地机器上生成谱面，或者您也可以使用[Colab笔记本](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb)在云端运行。
+以下说明允许您在本地计算机上生成谱面，或者您也可以使用 [colab 笔记本](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb)在云端运行。
 
-### 1. 克隆仓库
+### 1. 克隆代码库
 
 ```sh
 git clone https://github.com/OliBomby/Mapperatorinator.git
@@ -358,6 +390,6 @@ python osuT5/train.py -cn lora train_dataset_path="/workspace/datasets/cool_data
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-24
 
 ---

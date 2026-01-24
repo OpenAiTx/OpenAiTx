@@ -1,0 +1,674 @@
+[
+  {
+    "row": 1,
+    "rowsha": "/wFX6POHgUvWKjt0mXWLHFNaS3WKPT0YWKoQZJHBfv4=",
+    "originContent": "# 27C322/160/800/400 EPROM Programming Adapter Series",
+    "translatedContent": "# Serie de Adaptadores de Programación EPROM 27C322/160/800/400"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "wMD0lJaJDpw8VWgvFSLceFqAyyfJsTudRZ9BEuvZ1K4=",
+    "originContent": "![GitHub issues](https://img.shields.io/github/issues-raw/mafe72/27c160-tl866-adapter?logo=Github&style=for-the-badge)",
+    "translatedContent": "![GitHub issues](https://img.shields.io/github/issues-raw/mafe72/27c160-tl866-adapter?logo=Github&style=for-the-badge)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "11PvuraB+k2oJHDZqDscIC3lj5L9SY53omnBFjvEcUs=",
+    "originContent": "## Introduction",
+    "translatedContent": "## Introducción"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "aC1xZ+XsLqHtpGdVzPycYZBiVA6aAv4/VFJHnUj/c/8=",
+    "originContent": "This adapter converts the pin-outs of the parts listed below (which are similar to contemporary DIP-packaged mask ROMs) to 27C4096 pin-out as supported by the readily-available and cheap TL866 series of USB programmers.",
+    "translatedContent": "Este adaptador convierte las asignaciones de pines de las piezas listadas abajo (que son similares a las ROMs enmascaradas en encapsulado DIP contemporáneas) al pinout de 27C4096 tal como lo soporta la serie TL866 de programadores USB, que es económica y fácilmente disponible."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "OFAdyvN7RuTT+qcImNL61Q7gBbslPyyHEvZ2BxNYv58=",
+    "originContent": "The supported EPROMs parts are:",
+    "translatedContent": "Las EPROMs soportadas son:"
+  },
+  {
+    "row": 10,
+    "rowsha": "y847cSmtAVbIXbZ59vc/5XU9TD9Bsvx5GRBBED6rbFw=",
+    "originContent": "- **27C400:** 40-pin, 4Mbit (256k x 16-bit, 512k x 8-bit)",
+    "translatedContent": "- **27C400:** 40 pines, 4Mbit (256k x 16 bits, 512k x 8 bits)"
+  },
+  {
+    "row": 11,
+    "rowsha": "dLT8UtJTqrJ8qbmmz/0KM8hfRfsS0q7lIexlu+/CXxM=",
+    "originContent": "- **27C800:** 42-pin, 8Mbit (512k x 16-bit, 1M x 8-bit)",
+    "translatedContent": "- **27C800:** 42 pines, 8Mbit (512k x 16 bits, 1M x 8 bits)"
+  },
+  {
+    "row": 12,
+    "rowsha": "2YeNClu4/mh12qW7NSKypxcT8nfodIB1ebCErnr6a98=",
+    "originContent": "- **27C160:** 42-pin, 16Mbit (1M x 16-bit, 2M x 8-bit)",
+    "translatedContent": "- **27C160:** 42 pines, 16Mbit (1M x 16 bits, 2M x 8 bits)"
+  },
+  {
+    "row": 13,
+    "rowsha": "UJfSoZtXumY2QM/tNtF4GPHlYhxhX54FbgYKAMclJts=",
+    "originContent": "- **27C322:** 42-pin, 32Mbit (2M x 16-bit, no 8-bit access mode)",
+    "translatedContent": "- **27C322:** 42 pines, 32Mbit (2M x 16 bits, sin modo de acceso de 8 bits)"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "N6L+UYLhHY/cugCeGRL8z6sOSibbTBD/r8hihGlyos8=",
+    "originContent": "## Design",
+    "translatedContent": "## Diseño"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "Wlyq/zTrFvr2BWKOUePBTBd+OwYQawihZshIPS2Dgjc=",
+    "originContent": "This adapter was designed using KiCad 5.0, you can find the project files on the folder called kicad-project.",
+    "translatedContent": "Este adaptador fue diseñado usando KiCad 5.0, puedes encontrar los archivos del proyecto en la carpeta llamada kicad-project."
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "J0bIa6j/BexpDO67vqWF+eW19bF0ciTQ5QRTayfpxug=",
+    "originContent": "Top Side:",
+    "translatedContent": "Lado Superior:"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "8FsBCBmg3b9UNyRBTMdBXzV3vp16v3RYDjmuyMEVaxY=",
+    "originContent": "![top](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/front_th.png)",
+    "translatedContent": "![top](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/front_th.png)"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "h3spSLY986MwmA9XMDjXshl6ve8vjcgPU47PqumZGBQ=",
+    "originContent": "Bottom Side:",
+    "translatedContent": "Lado Inferior:"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "S4t3tLS+mC7qXeJt81I3w12aFqgZ3mWpiOuhuykjquA=",
+    "originContent": "![bottom](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/back_th.png)",
+    "translatedContent": "![bottom](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/back_th.png)"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Uso"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "eSoQmJrc6bnAJaeEgo+O+SwV/axkdLrVgNrGUoFBVEw=",
+    "originContent": "Insert the programming adapter into the TL866 with the socket handles adjacent to each other. Insert the EPROM into the lowest-possible position in the adapter and with pin 1 nearest the handle.",
+    "translatedContent": "Inserta el adaptador de programación en el TL866 con las asas del zócalo adyacentes entre sí. Inserta la EPROM en la posición más baja posible del adaptador y con el pin 1 más cercano al asa."
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "s5siZHIDr528v41M/Rui9ZLqwqZCmDmyyV7033NLycQ=",
+    "originContent": "![Adapter when in use](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/adapter_in_use.jpg)",
+    "translatedContent": "![Adapter when in use](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/adapter_in_use.jpg)"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "FFEXT7e5uCjDByuHlAnV7YqVOcCJnCIGucYgwvA6+FY=",
+    "originContent": "If your are programming a 27C322 EPROMs, move the switch to the **Position 27c322**, for 27C160 , 27C400 and 27C800 EPROMs, switch must be in the **Position other**.",
+    "translatedContent": "Si vas a programar una EPROM 27C322, mueve el interruptor a la **Posición 27c322**, para EPROMs 27C160, 27C400 y 27C800, el interruptor debe estar en la **Posición otra**."
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "Gfw2mjw349eOWKbgkE3H7AzJbJSut6zr9QaGWl9cZsw=",
+    "originContent": "![Adapter mode](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/addapter_mode.jpg)",
+    "translatedContent": "![Adapter mode](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/addapter_mode.jpg)"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "Qm4bFlfb4IWfhLidSayIPiw+o1Uh6zgacroR1ox1aDM=",
+    "originContent": "## Software",
+    "translatedContent": "## Software"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "HAiSpqfH17SH/ozaHCr7XkgxqhJqIpmwCp3pu5DzT2U=",
+    "originContent": "The following instructions describe how to write a 27c160 EPROM.",
+    "translatedContent": "Las siguientes instrucciones describen cómo grabar una EPROM 27c160."
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "ZpSF+UXRbnIP2abCOf7JHauuAeseLeJqhxtjiP2AViQ=",
+    "originContent": "Split the source EPROM into 512Kbytes parts, in this case I use the HJSplit, however other programs can be used.",
+    "translatedContent": "Divide la EPROM fuente en partes de 512Kbytes, en este caso uso el HJSplit, aunque se pueden usar otros programas."
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "c89uH88Tc63JLYW57ZyqkDHgLfhUSd1OhsjzaB1D8lA=",
+    "originContent": "![HJSplit](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/hjsplit_512k.jpg)",
+    "translatedContent": "![HJSplit](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/hjsplit_512k.jpg)"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "33kRropG7CFrPI/RlNTJJRbMwCr5AtgxJWwYF4DOCMI=",
+    "originContent": "Located the output path, for this example four files of 512Kbyte size with the extension ending on \".001\" - \".004\".",
+    "translatedContent": "Ubica la ruta de salida, para este ejemplo cuatro archivos de tamaño 512Kbyte con la extensión terminando en \".001\" - \".004\"."
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "++tveuUrN2w+luUd+yxbVmUxgAG7FGeRBDC6u9XIUA4=",
+    "originContent": "Launch the MiniPro software, select `AMD 27C4096 DIP40` device, deselect `Check ID` and set `Pulse Delay` to `50us`. You may also optionally reduce `VPP Voltage` to `12.50V`, depending on your EPROM's datasheet and programming success.",
+    "translatedContent": "Lanza el software MiniPro, selecciona el dispositivo `AMD 27C4096 DIP40`, deselecciona `Check ID` y configura `Pulse Delay` en `50us`. Opcionalmente, también puedes reducir `VPP Voltage` a `12.50V`, dependiendo de la hoja de datos de tu EPROM y el éxito de la programación."
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "fT5+8CKHXUU2gWGwNtEt8rwgQQjn4ZNuJOn1wy+wGKw=",
+    "originContent": "![MiniPro Software Configuration](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/minipro.jpg)",
+    "translatedContent": "![MiniPro Software Configuration](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/minipro.jpg)"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "BoSdk+6EaanpPFJGdI+aHaf5KSpDv+rt8S47QSxPc94=",
+    "originContent": "The EPROM can now be accessed as if it were a 27C4096 device, 512kB at a time, as configured by the DIP Switch:",
+    "translatedContent": "La EPROM ahora puede ser accedida como si fuera un dispositivo 27C4096, 512kB a la vez, según lo configurado por el DIP Switch:"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "mLNA0UUg/GvgOFf3UltXcsi3+aDCcuta1ZCHJt2I2sM=",
+    "originContent": "- **27C400:** program all 512kB in one pass.",
+    "translatedContent": "- **27C400:** programa los 512kB en una sola pasada."
+  },
+  {
+    "row": 54,
+    "rowsha": "RcXJ75522Y7kyy/yh8c/TnZY+2h4QbhwEBwvcBmeWNM=",
+    "originContent": "- **27C800:** program in 2 (two) 512kB passes.",
+    "translatedContent": "- **27C800:** programa en 2 (dos) pasadas de 512kB."
+  },
+  {
+    "row": 55,
+    "rowsha": "BZVmAv0oCHWtIPzD8sBgmIpXne1i0XToUpHM519RXJ8=",
+    "originContent": "- **27C160:** program in 4 (four) 512kB passes.",
+    "translatedContent": "- **27C160:** programa en 4 (cuatro) pasadas de 512kB."
+  },
+  {
+    "row": 56,
+    "rowsha": "46ewsbo3RbUFaxNu/PBbD+20Nk3zowBrfOyDU0esXRQ=",
+    "originContent": "- **27C322:** program in 8 (eight) 512kB passes.",
+    "translatedContent": "- **27C322:** programa en 8 (ocho) pasadas de 512kB."
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "tkzx6B8YkPeqdqqPt7bomjQsWWDAplg+6ycxKwDuRIc=",
+    "originContent": "Refer to the following table for DIP Switch configuration:",
+    "translatedContent": "Consulta la siguiente tabla para la configuración del DIP Switch:"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "bDYBC8fxAd6UmPeVe47o358Ca/B3YDxqxwQqx1VD3tM=",
+    "originContent": "![DIP Switch configuration](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/dip_config.png)",
+    "translatedContent": "![DIP Switch configuration](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/dip_config.png)"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+    "originContent": "## Troubleshooting",
+    "translatedContent": "## Solución de Problemas"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "g9lz1+rZs2Mn/AS/2tHF6/6ElICC7PBdrBX9/9sOm5k=",
+    "originContent": "If you suffer write or verify errors when programming, try these steps:",
+    "translatedContent": "Si tienes errores de escritura o verificación al programar, prueba estos pasos:"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "8KmF+J8oxxJSDiGL1dP8SzbkCw8jAMZQZGXAzLTBgr8=",
+    "originContent": "1. Make sure the EPROM is fully blank before programming it (`Device -> Blank Check`). All EPROMs available today are second-hand 'pulls'; sellers aren't always careful when erasing before resale.",
+    "translatedContent": "1. Asegúrate de que la EPROM esté completamente borrada antes de programarla (`Device -> Blank Check`). Todas las EPROM disponibles hoy en día son 'pulls' de segunda mano; los vendedores no siempre son cuidadosos al borrar antes de la reventa."
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "CJGXIyDRQziBVzFLY0VEFGN8w30fTZdZfMGlDrmAig8=",
+    "originContent": "2. Open and close the adapter's ZIF lever a few times, and reposition the EPROM squarely in the socket.",
+    "translatedContent": "2. Abre y cierra la palanca ZIF del adaptador varias veces, y reposiciona la EPROM de manera cuadrada en el zócalo."
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "QZnFUUqUqabw59QEs2zzf5cXeuDcqHBPyP0wfToTQqs=",
+    "originContent": "3. Try adjusting `VPP Voltage` between `12.50V` and `13.50V`. Subjectively, I have had greater success at the higher voltage, which gives headroom for voltage losses in transferring VPP through the adapter's logic.",
+    "translatedContent": "3. Intenta ajustar `VPP Voltage` entre `12.50V` y `13.50V`. Subjetivamente, he tenido más éxito con el voltaje más alto, que da margen para pérdidas de voltaje al transferir VPP a través de la lógica del adaptador."
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "yK9icURFWKbusuFwuLIIhcj8PVSsCnC6bzwW3F8Fmz0=",
+    "originContent": "4. Programming errors will occur occasionally, and of course, the chances increase the larger the device. It makes sense to invest in a UV eraser. These are available at a low cost on eBay for around $15-20. Most devices will be erased after 10 to 20 minutes under UV light.",
+    "translatedContent": "4. Los errores de programación ocurrirán ocasionalmente, y por supuesto, las probabilidades aumentan con dispositivos de mayor tamaño. Tiene sentido invertir en un borrador UV. Estos están disponibles a bajo costo en eBay por alrededor de $15-20. La mayoría de los dispositivos se borrarán después de 10 a 20 minutos bajo luz UV."
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "Azbl9h6sALnRXTxJyJpvUVl3a+G0b00ZepsbW4/agPQ=",
+    "originContent": "5. [Maillouski](https://github.com/Maillouski/), reported that Xgpro v12.38 sets the default VDD Write value to 6.60V for the AT27C4096. To avoid programming issues, make sure you change this value to 3.30V.",
+    "translatedContent": "5. [Maillouski](https://github.com/Maillouski/), reportó que Xgpro v12.38 establece el valor predeterminado de VDD Write en 6.60V para el AT27C4096. Para evitar problemas de programación, asegúrate de cambiar este valor a 3.30V."
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "XlE26MELzsqSLyP+M5aybhO0EAGpWWU0wWwglFL2pc8=",
+    "originContent": "![IC Config Information VDD Write](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/vdd_3v30.png)",
+    "translatedContent": "![IC Config Information VDD Write](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/vdd_3v30.png)"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "dSv84d+dcr7uGpk1e+ShXS5L6iC/gwxfkFdIt0hrGLc=",
+    "originContent": "6. [Tim aka BeepFixer](https://x.com/@beepfixer), shares his programming values for the **27C160** variants sourced from AliExpress.",
+    "translatedContent": "6. [Tim aka BeepFixer](https://x.com/@beepfixer), comparte sus valores de programación para las variantes **27C160** obtenidas en AliExpress."
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "+ytfvkpSBuPtj4KGpsBxfPz06j8eY+9/DCeRJEAE9Ug=",
+    "originContent": "   The main difference: the UV window pad configuration. call them Types A, B, and C.",
+    "translatedContent": "   La principal diferencia: la configuración de la almohadilla de la ventana UV. Llámalos Tipos A, B y C."
+  },
+  {
+    "row": 81,
+    "rowsha": "6wIpGvP57hNf8Rvyg6NJEu02PTCRYpbk7Ok5nbNxnzE=",
+    "originContent": "    - **Type A**: 2x2 pads using only the center of the available window space ",
+    "translatedContent": "    - **Tipo A**: pads 2x2 usando solo el centro del espacio disponible en la ventana "
+  },
+  {
+    "row": 82,
+    "rowsha": "jZgsQx2DR9L1L0EGdNfUs+tzwj8pe8imGo+gtxv5XTY=",
+    "originContent": "    - **Type B**: 2x2 pads using most of the available window space ",
+    "translatedContent": "    - **Tipo B**: pads 2x2 usando la mayor parte del espacio disponible en la ventana "
+  },
+  {
+    "row": 83,
+    "rowsha": "NtD0S6HUf+THZXQpBFV15PgLjrooYRMyHkCEbQSzl2A=",
+    "originContent": "    - **Type C**: 2x4 pads",
+    "translatedContent": "    - **Tipo C**: pads 2x4"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "tLpVHZt5JaPFJPJ3SVk6/WANn84n3QWiDeGZsMVQSFU=",
+    "originContent": "![IC Config Information VDD Write](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/m27c160_variants.jpg)",
+    "translatedContent": "![IC Config Information VDD Write](https://raw.githubusercontent.com/mafe72/27c160-tl866-adapter/master/images/m27c160_variants.jpg)"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "zPQT6c6Q+JhANwljpf9c6qriu5DrMuo7EHC0egIccKU=",
+    "originContent": "**Testing Results**",
+    "translatedContent": "**Resultados de las pruebas**"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "Y3ukrvW1AJ4baQE2H+/jotfErG8m5+Z3ENw3yLesH+I=",
+    "originContent": "  **Type A**: 2/10 chips needed a little TLC-a tiny tweak outside recommended settings (changing 50us 100us) made them programmable and verifiable. Just to be sure, here's the full settings used: VPP Voltage: 13.50V / VCC Verify:. 5.00V / VDD Write: 5.00V / Puls Delay: 100us. Although did have success with other voltages too, as long as the Puls Delay was at 100 and not 50us.",
+    "translatedContent": "  **Tipo A**: 2/10 chips necesitaron un poco de cuidado—un pequeño ajuste fuera de los parámetros recomendados (cambiar 50us por 100us) los hizo programables y verificables. Solo para estar seguros, aquí están los ajustes completos usados: Voltaje VPP: 13.50V / Verificación VCC: 5.00V / Escritura VDD: 5.00V / Retardo de pulso: 100us. Aunque también tuve éxito con otros voltajes, siempre que el retardo de pulso fuera 100 y no 50us."
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "pe8oBaca31ys1YFM5GChAZtzdL+gzYtLDBBjupr4O8w=",
+    "originContent": "  **Type B**: 7/10 chips worked flawlessly- first try, recommended settings from Eladio (50us)",
+    "translatedContent": "  **Tipo B**: 7/10 chips funcionaron a la perfección—en el primer intento, con la configuración recomendada por Eladio (50us)"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "y65OK6y0R5ym0I9Z1R6+PehYgBSUkej4DWFkdXf+tzM=",
+    "originContent": "  **Type C**: 1/10 chip failed spectacularly. It reads and erases just fine, and can write a single word. But after the single word right it refuses to write more than that. Likely an older, stricter variant; not broken, just a silicon diva. I tried over and over again with different settings and can simply not get it to write a full batch. ",
+    "translatedContent": "  **Tipo C**: 1/10 chip falló estrepitosamente. Lee y borra bien, y puede escribir una sola palabra. Pero después de esa única palabra escrita se niega a escribir más. Probablemente una variante más antigua y estricta; no está roto, solo es una diva del silicio. Intenté una y otra vez con diferentes configuraciones y simplemente no pude hacer que escribiera un lote completo."
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "8m7QGdXepmJhQNICJrS8pGdC7mzy1ESR0CNFzmKKrF0=",
+    "originContent": "**Practical tips**",
+    "translatedContent": "**Consejos prácticos**"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "EoEfcMZkbOUws+Uq1uHhC45IPuF8LMb3ZKbSVdookwU=",
+    "originContent": "   - Always verify after programming. ",
+    "translatedContent": "   - Siempre verificar después de programar. "
+  },
+  {
+    "row": 98,
+    "rowsha": "VYDFFNAcjySi0gmEptMkdJNyMenqEr2iaV255oAaEJ0=",
+    "originContent": "   - Try voltage differences as also mentioned in the adapter's GitHub.",
+    "translatedContent": "   - Prueba diferentes voltajes como también se menciona en el GitHub del adaptador."
+  },
+  {
+    "row": 99,
+    "rowsha": "CN+zFM7iJxPH5ioNqm+wOkBhj3lGpCt5NfFSWn2n9cs=",
+    "originContent": "   - And keep of file writes; since you will be using the adapter to write an image split into 4 sections, it is easy to write the wrong file to the wrong bank (oopsie, yes guilty of writing file 3 to bank 3 and 4 myself once). So, do verify the EPROM on the destination device!",
+    "translatedContent": "   - Y ten cuidado con las escrituras de archivos; dado que usarás el adaptador para escribir una imagen dividida en 4 secciones, es fácil escribir el archivo equivocado en la memoria equivocada (ups, sí, culpable de escribir el archivo 3 en la memoria 3 y 4 una vez). Así que, ¡verifica el EPROM en el dispositivo destino!"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "vZ5dlJKZh2ng0Kz0CLrBlT1qsg9k5NzA0prvP9GcFps=",
+    "originContent": "## Hardware change log",
+    "translatedContent": "## Registro de cambios de hardware"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "4XZq9raqJLg5a9ooMNtbmc0YhInSSZicDqxZCzIXz5Q=",
+    "originContent": "R_20231123",
+    "translatedContent": "R_20231123"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "zykHVrZsaTZ58sikixjg4vLITm6+7lYS0tsPiWcBgw8=",
+    "originContent": "* Fix EDG-03 DIP Switch's correct polarity.",
+    "translatedContent": "* Corregir la polaridad correcta del interruptor DIP EDG-03."
+  },
+  {
+    "row": 106,
+    "rowsha": "VY2Z6K3+2N46686uSMaXv+vwxXFZI7rwsZuqxjMjVHM=",
+    "originContent": "* Update revision number to R_20231123",
+    "translatedContent": "* Actualizar el número de revisión a R_20231123"
+  },
+  {
+    "row": 107,
+    "rowsha": "JUsmaeXtxDBYUIXdlvx4ua372pu+4LvYQgP1mxRecTU=",
+    "originContent": "* Update Version number to 1.1",
+    "translatedContent": "* Actualizar el número de versión a 1.1"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "bgifqJBo2GmN6W7ABpU8i1aWsIVYwpduLS1CqqFTKeE=",
+    "originContent": "V_20180919",
+    "translatedContent": "V_20180919"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "Zt5Le2VaEOsfdDvtuMi/jCdCO6IubpSFSRmi0Dp07+g=",
+    "originContent": "* Initial release.",
+    "translatedContent": "* Lanzamiento inicial."
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

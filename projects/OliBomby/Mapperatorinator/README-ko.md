@@ -1,19 +1,51 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Mapperatorinator
 
-[여기](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb)에서 생성 모델을 시도하거나, [여기](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb)에서 MaiMod를 사용해보세요. 비디오 쇼케이스는 [여기](https://youtu.be/FEr7t1L2EoA)에서 확인할 수 있습니다.
+생성 모델을 [여기서](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb) 사용해보거나, MaiMod는 [여기서](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb) 시도해보세요. 영상 데모는 [여기서](https://youtu.be/FEr7t1L2EoA) 확인할 수 있습니다.
 
-Mapperatorinator는 스펙트로그램 입력을 사용하여 모든 게임 모드에 대해 완전한 기능의 osu! 비트맵을 생성하고 [보조 모딩 비트맵](#maimod-the-ai-driven-modding-tool)을 지원하는 멀티 모델 프레임워크입니다.
-이 프로젝트의 목표는 높은 수준의 사용자 정의 가능성으로 어떤 노래든 자동으로 랭크 가능한 품질의 osu! 비트맵을 생성하는 것입니다.
+Mapperatorinator는 스펙트로그램 입력을 사용하여 모든 osu! 게임 모드의 완전한 기능을 갖춘 비트맵을 생성하고 [비트맵의 모딩 지원](#maimod-the-ai-driven-modding-tool)을 할 수 있는 다중 모델 프레임워크입니다.
+이 프로젝트의 목표는 높은 커스터마이즈 가능성을 가진, 어떤 곡이라도 자동으로 랭크 등급의 osu! 비트맵을 생성하는 것입니다.
 
-이 프로젝트는 [osuT5](https://github.com/gyataro/osuT5)와 [osu-diffusion](https://github.com/OliBomby/osu-diffusion)를 기반으로 구축되었습니다. 개발 과정에서 4060 Ti와 vast.ai에서 임대한 4090 인스턴스를 사용하여 총 142회 실행에 약 2500시간의 GPU 연산 시간을 투자했습니다.
+이 프로젝트는 [osuT5](https://github.com/gyataro/osuT5)와 [osu-diffusion](https://github.com/OliBomby/osu-diffusion)에 기반하여 구축되었습니다. 개발 과정에서 4060 Ti와 vast.ai에서 임대한 4090 인스턴스를 활용해 약 2500시간의 GPU 연산을 142회에 걸쳐 수행했습니다.
 
-#### 이 도구를 책임감 있게 사용하세요. 비트맵에 AI 사용 사실을 항상 공개하세요.
+#### 이 도구를 책임감 있게 사용하세요. 비트맵에 AI 사용을 항상 공개하십시오.
 
 ## 설치
 
-아래 지침을 따르면 로컬 머신에서 비트맵을 생성할 수 있으며, 또는 [colab 노트북](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb)에서 클라우드로 실행할 수 있습니다.
+아래 지침을 따르면 로컬 컴퓨터에서 비트맵을 생성할 수 있으며, [colab 노트북](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb)을 통해 클라우드에서도 실행할 수 있습니다.
 
-### 1. 저장소 복제하기
+### 1. 저장소 복제
 
 ```sh
 git clone https://github.com/OliBomby/Mapperatorinator.git
@@ -358,6 +390,6 @@ python osuT5/train.py -cn lora train_dataset_path="/workspace/datasets/cool_data
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-24
 
 ---

@@ -1,0 +1,2817 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Mapperatorinator\n\nTry the generative model [here](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb), or MaiMod [here](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb). Check out a video showcase [here](https://youtu.be/FEr7t1L2EoA).\n\nMapperatorinator is multi-model framework that uses spectrogram inputs to generate fully featured osu! beatmaps for all gamemodes and [assist modding beatmaps](#maimod-the-ai-driven-modding-tool).\nThe goal of this project is to automatically generate rankable quality osu! beatmaps from any song with a high degree of customizability.\n\nThis project is built upon [osuT5](https://github.com/gyataro/osuT5) and [osu-diffusion](https://github.com/OliBomby/osu-diffusion). In developing this, I spent about 2500 hours of GPU compute across 142 runs on my 4060 Ti and rented 4090 instances on vast.ai.",
+    "ContentSha": "HbzcRp2iMECQNmLgJVo92Pih5OalxjTI8UMtTBkhrfs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Taal</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=en\">Engels</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fr\">Frans</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=de\">Duits</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=es\">Spaans</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=it\">Italiaans</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ru\">Russisch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pt\">Portugees</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pl\">Pools</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=tr\">Turks</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=vi\">Vietnamees</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Mapperatorinator\n\nProbeer het generatieve model [hier](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb), of MaiMod [hier](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb). Bekijk een video showcase [hier](https://youtu.be/FEr7t1L2EoA).\n\nMapperatorinator is een multi-model framework dat spectrogram invoer gebruikt om volledig uitgeruste osu! beatmaps te genereren voor alle gamemodi en [modding van beatmaps te ondersteunen](#maimod-the-ai-driven-modding-tool).\nHet doel van dit project is om automatisch osu! beatmaps van rankbare kwaliteit te genereren van elk lied met een hoge mate van aanpasbaarheid.\n\nDit project is gebouwd op [osuT5](https://github.com/gyataro/osuT5) en [osu-diffusion](https://github.com/OliBomby/osu-diffusion). Voor de ontwikkeling hiervan heb ik ongeveer 2500 uur GPU-rekenkracht besteed over 142 runs op mijn 4060 Ti en gehuurde 4090-instanties via vast.ai.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Taal</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "BYSKRT5rQIobLzfo4tJMegjCK8JVTgUwcmUBIkd9aZs=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=en\">Engels</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "+dANCAytvVuKyYeK9epJMLfhBu587m2QhIqMan6Rwrs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "t9sGZfNvLHHgKK6bQ4HBp/lfAd8Gjcd5Rf9cvoN1L/0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "HxJMsBMwSrB8iKiJzER1CedGz0l11R23OMutNoMIV5Y=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "eGDT3waVu5XmtjZ5sTZLnRzDEnlo/mW42oBeEh77hhQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "28Ffp18LuYUVlaa3P2fPUwUwrlt9vah4BQQV8vEGeBo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "yHS8e1WoIlkjBLkpzdBmrofK2IOW2uJRDLQAIU4iqEY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "7AiNFy9mtjn7HNWBZIXqaom0SmG1YMYcLYRr9+jgyeY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fr\">Frans</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "9d2b1r2bTxtIVaVYtNOJSpcO9FzH+ewBBYSkc/m+ybQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=de\">Duits</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "WG2taIKGtEgo4chCOEEbOw0Djd+3mhLblqyzvdhJaTo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=es\">Spaans</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "fuTzZv7ofDRa40fN1TPPS2DVZrRAb9z/8DkQa7GvQ+I=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=it\">Italiaans</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "mHYFfXIRcuMxh1fT+sCizsIherelGT3dvGIRdihMeQE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ru\">Russisch</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "jOcdBErLi58ZkzgaJaOypc0JfFL4pGNEOnNHVdHg4r8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pt\">Portugees</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "pY+tKb4J+8j0uboYeodP0P9AnRqB1aEc6aID0Faf6ak=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "PxQUYtjfbs+Zt/QUnZJLMFnjuHyri7Qrzpwyu7x+jH0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pl\">Pools</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "JgjkUHPi2h47FFA6ETLQ5c7NVSuLmhH+AO5ufAF0gRM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "ehgcigb69kHWYfCxFyX9Alc2bZerTSIJC7YwzALRp3s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "Ks2zK/uhRPfvSllCcRwyxi3xhP5UlJiwGuUvdVNZeQE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=tr\">Turks</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "p2RVbwUPKEl6xY9HgI5nREyDcD2DVh1fVJ0Vm3Y7OpQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=vi\">Vietnamees</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "5syTogjzxt7MJWpLhoF9yE6fWaYUzcvv0JMCG9xV4cg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "kIzhToAghlQhdyOv/RnP5a/CIJzXRs2gox0Zw9U94hA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "dvM+1+ULKNDZcjqyK/fPLfuqE1Kfm/J5gtrugwgqakU=",
+        "originContent": "# Mapperatorinator",
+        "translatedContent": "# Mapperatorinator"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "VhvS2vunp0jnp3jgSaCrieaLtgw7Rc1JxjE83/nwcKE=",
+        "originContent": "Try the generative model [here](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb), or MaiMod [here](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb). Check out a video showcase [here](https://youtu.be/FEr7t1L2EoA).",
+        "translatedContent": "Probeer het generatieve model [hier](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb), of MaiMod [hier](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb). Bekijk een video showcase [hier](https://youtu.be/FEr7t1L2EoA)."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "CmR06HU+xUHuI+sMYFOtv5keP8SE3HZngRsFxbiSCCE=",
+        "originContent": "Mapperatorinator is multi-model framework that uses spectrogram inputs to generate fully featured osu! beatmaps for all gamemodes and [assist modding beatmaps](#maimod-the-ai-driven-modding-tool).",
+        "translatedContent": "Mapperatorinator is een multi-model framework dat spectrogram invoer gebruikt om volledig uitgeruste osu! beatmaps te genereren voor alle gamemodi en [modding van beatmaps te ondersteunen](#maimod-the-ai-driven-modding-tool)."
+      },
+      {
+        "row": 38,
+        "rowsha": "EgG9JaVtrzyexCO/w4kicGTRPq4CE/xUzbwlerphsnQ=",
+        "originContent": "The goal of this project is to automatically generate rankable quality osu! beatmaps from any song with a high degree of customizability.",
+        "translatedContent": "Het doel van dit project is om automatisch osu! beatmaps van rankbare kwaliteit te genereren van elk lied met een hoge mate van aanpasbaarheid."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "5nlY84awtX+oZno/j2kdJ2z6DT3HlY+jBjQri+10PZI=",
+        "originContent": "This project is built upon [osuT5](https://github.com/gyataro/osuT5) and [osu-diffusion](https://github.com/OliBomby/osu-diffusion). In developing this, I spent about 2500 hours of GPU compute across 142 runs on my 4060 Ti and rented 4090 instances on vast.ai.",
+        "translatedContent": "Dit project is gebouwd op [osuT5](https://github.com/gyataro/osuT5) en [osu-diffusion](https://github.com/OliBomby/osu-diffusion). Voor de ontwikkeling hiervan heb ik ongeveer 2500 uur GPU-rekenkracht besteed over 142 runs op mijn 4060 Ti en gehuurde 4090-instanties via vast.ai."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n#### Use this tool responsibly. Always disclose the use of AI in your beatmaps.\n\n## Installation\n\nThe instruction below allows you to generate beatmaps on your local machine, alternatively you can run it in the cloud with the [colab notebook](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb).\n\n### 1. Clone the repository\n",
+    "ContentSha": "i7Q120zjLwSfFkhCcadPDCyMeUwdlfIQN7v/w+gjYLc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### Gebruik dit hulpmiddel op verantwoorde wijze. Vermeld altijd het gebruik van AI in je beatmaps.\n\n## Installatie\n\nDe onderstaande instructie stelt je in staat om beatmaps te genereren op je lokale machine, als alternatief kun je het uitvoeren in de cloud met het [colab notebook](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb).\n\n### 1. Clone de repository\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "0WJ90ceKfLgFlUkPw8TzuemhbmxlPojoyaNDJ0sAmOI=",
+        "originContent": "#### Use this tool responsibly. Always disclose the use of AI in your beatmaps.",
+        "translatedContent": "#### Gebruik dit hulpmiddel op verantwoorde wijze. Vermeld altijd het gebruik van AI in je beatmaps."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installatie"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "aVg5com4vCk4FE3XVUhQIRyucNn0Ck3+9VJRIHrllZs=",
+        "originContent": "The instruction below allows you to generate beatmaps on your local machine, alternatively you can run it in the cloud with the [colab notebook](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb).",
+        "translatedContent": "De onderstaande instructie stelt je in staat om beatmaps te genereren op je lokale machine, als alternatief kun je het uitvoeren in de cloud met het [colab notebook](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb)."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "+xj0fCZBnnk1GY2rxUGAtpalIeN4JdfjLYAPNPmqklw=",
+        "originContent": "### 1. Clone the repository",
+        "translatedContent": "### 1. Clone de repository"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```sh\ngit clone https://github.com/OliBomby/Mapperatorinator.git\ncd Mapperatorinator\n```",
+    "ContentSha": "OaS/b4/bPuoOp2xfWw4vL8JAKsjbzPABqvBluCegHzM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ngit clone https://github.com/OliBomby/Mapperatorinator.git\ncd Mapperatorinator\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "zOYvCc16d0IMY+2lzpmVl2bYVfuWTKN/EjyyKOc3ZE8=",
+        "originContent": "git clone https://github.com/OliBomby/Mapperatorinator.git",
+        "translatedContent": "git clone https://github.com/OliBomby/Mapperatorinator.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "seN29s2smYEHnCh2SvzLLwuCVnKIr8n6wQZDzzOIqP8=",
+        "originContent": "cd Mapperatorinator",
+        "translatedContent": "cd Mapperatorinator"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n### 2. (Optional) Create virtual environment\n\nUse Python 3.10, later versions will might not be compatible with the dependencies.\n",
+    "ContentSha": "NJ3//k16c8zBxWi8EgaqAKcvKKhrPMujxrwzxucKac4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 2. (Optioneel) Maak een virtuele omgeving aan\n\nGebruik Python 3.10, latere versies zijn mogelijk niet compatibel met de afhankelijkheden.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Z2uG8MiRfHTwHG+HZOVIUDTO8mYaxPpYmUnIpRA/vX4=",
+        "originContent": "### 2. (Optional) Create virtual environment",
+        "translatedContent": "### 2. (Optioneel) Maak een virtuele omgeving aan"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "AJN2OBZFYUFVKGFnuEltWKNS5NjuNZKTLjMa5ehpKqc=",
+        "originContent": "Use Python 3.10, later versions will might not be compatible with the dependencies.",
+        "translatedContent": "Gebruik Python 3.10, latere versies zijn mogelijk niet compatibel met de afhankelijkheden."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```sh\npython -m venv .venv\n\n# In cmd.exe\n.venv\\Scripts\\activate.bat\n# In PowerShell\n.venv\\Scripts\\Activate.ps1\n# In Linux or MacOS\nsource .venv/bin/activate\n```",
+    "ContentSha": "yuujApF1Gqj/Sb3jYCpHKhJoQzQbBE7C/0N4hk0oTCY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npython -m venv .venv\n\n# In cmd.exe\n.venv\\Scripts\\activate.bat\n# In PowerShell\n.venv\\Scripts\\Activate.ps1\n# In Linux or MacOS\nsource .venv/bin/activate\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Xj91YHlRZzKcvPAqij5Lg/nwRbh8yYG2itmCPVuE0WY=",
+        "originContent": "python -m venv .venv",
+        "translatedContent": "python -m venv .venv"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "g4plQLx9azs+jWCrLhm+/NT591Z+MfKyGcqXqR8/A78=",
+        "originContent": "# In cmd.exe",
+        "translatedContent": "# In cmd.exe"
+      },
+      {
+        "row": 5,
+        "rowsha": "/H8IN72eypJcaFTg42a8fo9ibxXSvDDMjIRIElEMVso=",
+        "originContent": ".venv\\Scripts\\activate.bat",
+        "translatedContent": ".venv\\Scripts\\activate.bat"
+      },
+      {
+        "row": 6,
+        "rowsha": "bbozohqVn1unpqrlEqUuNCpfmUK7zHnDIues448Z9sY=",
+        "originContent": "# In PowerShell",
+        "translatedContent": "# In PowerShell"
+      },
+      {
+        "row": 7,
+        "rowsha": "lVxlJHyhw8SLLzf/4aqnY7HM2QH4D56Y1JjwP+Y4Z3s=",
+        "originContent": ".venv\\Scripts\\Activate.ps1",
+        "translatedContent": ".venv\\Scripts\\Activate.ps1"
+      },
+      {
+        "row": 8,
+        "rowsha": "caCEnp7o41OrfoHfzZfV+yKylUbnaLzR87WSF1hxyhE=",
+        "originContent": "# In Linux or MacOS",
+        "translatedContent": "# In Linux or MacOS"
+      },
+      {
+        "row": 9,
+        "rowsha": "RDUaxA18s/pXqQvQov8NDg+Q3PTeDJ8ytJ0PGX0egwA=",
+        "originContent": "source .venv/bin/activate",
+        "translatedContent": "source .venv/bin/activate"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n### 3. Install dependencies\n\n- Python 3.10\n- [Git](https://git-scm.com/downloads)\n- [ffmpeg](http://www.ffmpeg.org/)\n- [CUDA](https://developer.nvidia.com/cuda-zone) (For NVIDIA GPUs) or [ROCm](https://rocmdocs.amd.com/en/latest/Installation_Guide/Installation-Guide.html) (For AMD GPUs on linux)\n- [PyTorch](https://pytorch.org/get-started/locally/): Make sure to follow the Get Started guide so you install `torch` and `torchaudio` with GPU support. Select the correct Compute Platform version that you have installed in the previous step.\n\n- and the remaining Python dependencies:\n",
+    "ContentSha": "bgq+FfyfpNpD7EhLZmu36fZwBPTZbgnrZgi5qGQkb2c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 3. Installeer afhankelijkheden\n\n- Python 3.10\n- [Git](https://git-scm.com/downloads)\n- [ffmpeg](http://www.ffmpeg.org/)\n- [CUDA](https://developer.nvidia.com/cuda-zone) (Voor NVIDIA GPU's) of [ROCm](https://rocmdocs.amd.com/en/latest/Installation_Guide/Installation-Guide.html) (Voor AMD GPU's op linux)\n- [PyTorch](https://pytorch.org/get-started/locally/): Zorg ervoor dat je de Get Started-gids volgt zodat je `torch` en `torchaudio` met GPU-ondersteuning installeert. Selecteer de juiste Compute Platform-versie die je in de vorige stap hebt geïnstalleerd.\n\n- en de overige Python-afhankelijkheden:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "tCNcCRJ9DCBocN6wBVpcL7fWQ9Vqvcgf0NLXUsBzBow=",
+        "originContent": "### 3. Install dependencies",
+        "translatedContent": "### 3. Installeer afhankelijkheden"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "pfCmdD0HlNxa3kKubNuvsONJoV3Xbx/Ll4szOyKp5do=",
+        "originContent": "- Python 3.10",
+        "translatedContent": "- Python 3.10"
+      },
+      {
+        "row": 5,
+        "rowsha": "ffJ5uQNcmCNL5rJe4OT7Vkw7B3xNQDLsJf9C61MtjOg=",
+        "originContent": "- [Git](https://git-scm.com/downloads)",
+        "translatedContent": "- [Git](https://git-scm.com/downloads)"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ce2f/t1SIMeaGTAtMcWs2kKDaTwSiBwReRomX9PfOX8=",
+        "originContent": "- [ffmpeg](http://www.ffmpeg.org/)",
+        "translatedContent": "- [ffmpeg](http://www.ffmpeg.org/)"
+      },
+      {
+        "row": 7,
+        "rowsha": "oW2lUVazlcOIZ1cF676mLDz/vO6bMNV8FKngFI5O/28=",
+        "originContent": "- [CUDA](https://developer.nvidia.com/cuda-zone) (For NVIDIA GPUs) or [ROCm](https://rocmdocs.amd.com/en/latest/Installation_Guide/Installation-Guide.html) (For AMD GPUs on linux)",
+        "translatedContent": "- [CUDA](https://developer.nvidia.com/cuda-zone) (Voor NVIDIA GPU's) of [ROCm](https://rocmdocs.amd.com/en/latest/Installation_Guide/Installation-Guide.html) (Voor AMD GPU's op linux)"
+      },
+      {
+        "row": 8,
+        "rowsha": "/C4j5441U08TV9ybpkVU+BKZKPP8NxoGTHLKKsbmw2o=",
+        "originContent": "- [PyTorch](https://pytorch.org/get-started/locally/): Make sure to follow the Get Started guide so you install `torch` and `torchaudio` with GPU support. Select the correct Compute Platform version that you have installed in the previous step.",
+        "translatedContent": "- [PyTorch](https://pytorch.org/get-started/locally/): Zorg ervoor dat je de Get Started-gids volgt zodat je `torch` en `torchaudio` met GPU-ondersteuning installeert. Selecteer de juiste Compute Platform-versie die je in de vorige stap hebt geïnstalleerd."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "X4t4snIrvR4E2yvs05+9Wv1TTWPDSj4z60ohP0VzVA4=",
+        "originContent": "- and the remaining Python dependencies:",
+        "translatedContent": "- en de overige Python-afhankelijkheden:"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```sh\npip install -r requirements.txt\n```",
+    "ContentSha": "IyYArEAhzuaBh+lMyOtMI7OuN6+1zHkH/GxKOD25WkM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n## Web GUI (Recommended)\n\nFor a more user-friendly experience, consider using the Web UI. It provides a graphical interface to configure generation parameters, start the process, and monitor the output.\n\n### Launch the GUI\n\nNavigate to the cloned `Mapperatorinator` directory in your terminal and run:\n",
+    "ContentSha": "i4QR+8mop58v51RMHDYLV9xPm7xyNPnjigKr7m1fS2M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Web GUI (Aanbevolen)\n\nVoor een gebruiksvriendelijkere ervaring kunt u de Web UI gebruiken. Deze biedt een grafische interface om generatieparameters te configureren, het proces te starten en de output te monitoren.\n\n### Start de GUI\n\nNavigeer in uw terminal naar de gekloonde `Mapperatorinator`-map en voer uit:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "7NKu99BNGEhWfmSt+Y+vcHnP0vPS/iqw93R5UZTnUAI=",
+        "originContent": "## Web GUI (Recommended)",
+        "translatedContent": "## Web GUI (Aanbevolen)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "tY7Uu8DT0CbEHRKmCz1gXFJWOrdMJ0jka+blqtmCXj4=",
+        "originContent": "For a more user-friendly experience, consider using the Web UI. It provides a graphical interface to configure generation parameters, start the process, and monitor the output.",
+        "translatedContent": "Voor een gebruiksvriendelijkere ervaring kunt u de Web UI gebruiken. Deze biedt een grafische interface om generatieparameters te configureren, het proces te starten en de output te monitoren."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "qgvj95NqkgQazgtyNvypHJVVGW1YgcIbs//7+LQ6Ceo=",
+        "originContent": "### Launch the GUI",
+        "translatedContent": "### Start de GUI"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "iPUN/N0z4q1aa+KCL/MKy2gkYlMn6/OxwAGYIKMB1EQ=",
+        "originContent": "Navigate to the cloned `Mapperatorinator` directory in your terminal and run:",
+        "translatedContent": "Navigeer in uw terminal naar de gekloonde `Mapperatorinator`-map en voer uit:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```sh\npython web-ui.py\n```",
+    "ContentSha": "Ab8pVr+eA79EspATtOTpa9D448LHbY/tmkupSGXFBPE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npython web-ui.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "8N8NeqAR+Gn3VNE+FShn4iNUcosmuuTIYFg26slgzeA=",
+        "originContent": "python web-ui.py",
+        "translatedContent": "python web-ui.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\nThis will start a local web server and automatically open the UI in a new window.\n\n### Using the GUI\n\n- **Configure:** Set input/output paths using the form fields and \"Browse\" buttons. Adjust generation parameters like gamemode, difficulty, style (year, mapper ID, descriptors), timing, specific features (hitsounds, super timing), and more, mirroring the command-line options. (Note: If you provide a `beatmap_path`, the UI will automatically determine the `audio_path` and `output_path` from it, so you can leave those fields blank)\n- **Start:** Click the \"Start Inference\" button to begin the beatmap generation.\n- **Cancel:** You can stop the ongoing process using the \"Cancel Inference\" button.\n- **Open Output:** Once finished, use the \"Open Output Folder\" button for quick access to the generated files.\n\nThe Web UI acts as a convenient wrapper around the `inference.py` script. For advanced options or troubleshooting, refer to the command-line instructions.\n\n![python_u3zyW0S3Vs](https://github.com/user-attachments/assets/5312a45f-d51c-4b37-9389-da3258ddd0a1)\n\n## Command-Line Inference\n\nFor users who prefer the command line or need access to advanced configurations, follow the steps below. **Note:** For a simpler graphical interface, please see the [Web UI (Recommended)](#web-ui-recommended) section above.\n\nRun `inference.py` and pass in some arguments to generate beatmaps. For this use [Hydra override syntax](https://hydra.cc/docs/advanced/override_grammar/basic/). See `configs/inference_v29.yaml` for all available parameters.",
+    "ContentSha": "UGOhnfOks4TaX0oEuYSoA7X0yAIGhM636OnU/or4sn0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Dit zal een lokale webserver starten en de gebruikersinterface automatisch in een nieuw venster openen.\n\n### De GUI gebruiken\n\n- **Configureren:** Stel invoer-/uitvoerpaden in met behulp van de invulvelden en \"Bladeren\"-knoppen. Pas generatieparameters aan zoals gamemodus, moeilijkheidsgraad, stijl (jaar, mapper-ID, descriptors), timing, specifieke functies (hitsounds, super timing), en meer, overeenkomstig de commandoregelopties. (Opmerking: Als je een `beatmap_path` opgeeft, zal de UI automatisch het `audio_path` en `output_path` hieruit bepalen, zodat je deze velden leeg kunt laten)\n- **Starten:** Klik op de knop \"Start Inference\" om te beginnen met het genereren van de beatmap.\n- **Annuleren:** Je kunt het lopende proces stoppen met de knop \"Cancel Inference\".\n- **Uitvoer openen:** Zodra het klaar is, gebruik je de knop \"Open Output Folder\" voor snelle toegang tot de gegenereerde bestanden.\n\nDe Web UI fungeert als een handige wrapper rond het script `inference.py`. Raadpleeg voor geavanceerde opties of probleemoplossing de instructies voor de commandoregel.\n\n![python_u3zyW0S3Vs](https://github.com/user-attachments/assets/5312a45f-d51c-4b37-9389-da3258ddd0a1)\n\n## Commandoregel-inferentie\n\nVoor gebruikers die de voorkeur geven aan de commandoregel of toegang nodig hebben tot geavanceerde configuraties, volg de onderstaande stappen. **Opmerking:** Voor een eenvoudigere grafische interface, zie het gedeelte [Web UI (Aanbevolen)](#web-ui-recommended) hierboven.\n\nVoer `inference.py` uit en geef enkele argumenten mee om beatmaps te genereren. Gebruik hiervoor de [Hydra override-syntax](https://hydra.cc/docs/advanced/override_grammar/basic/). Zie `configs/inference_v29.yaml` voor alle beschikbare parameters.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Dit zal een lokale webserver starten en de gebruikersinterface automatisch in een nieuw venster openen."
+      },
+      {
+        "row": 2,
+        "rowsha": "Qq1L414MmpuzoCYEa225u3qFJSlMicqSRmLuAYkR2+A=",
+        "originContent": "This will start a local web server and automatically open the UI in a new window.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### De GUI gebruiken"
+      },
+      {
+        "row": 4,
+        "rowsha": "CSQLodihBQzL27qUvRHC4++e3MQitQM0XdXsUiP9Wbs=",
+        "originContent": "### Using the GUI",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **Configureren:** Stel invoer-/uitvoerpaden in met behulp van de invulvelden en \"Bladeren\"-knoppen. Pas generatieparameters aan zoals gamemodus, moeilijkheidsgraad, stijl (jaar, mapper-ID, descriptors), timing, specifieke functies (hitsounds, super timing), en meer, overeenkomstig de commandoregelopties. (Opmerking: Als je een `beatmap_path` opgeeft, zal de UI automatisch het `audio_path` en `output_path` hieruit bepalen, zodat je deze velden leeg kunt laten)"
+      },
+      {
+        "row": 6,
+        "rowsha": "bDe/oZOi32TLYlJnaSxBhTAVA2XQula3UoPSJXEnxEU=",
+        "originContent": "- **Configure:** Set input/output paths using the form fields and \"Browse\" buttons. Adjust generation parameters like gamemode, difficulty, style (year, mapper ID, descriptors), timing, specific features (hitsounds, super timing), and more, mirroring the command-line options. (Note: If you provide a `beatmap_path`, the UI will automatically determine the `audio_path` and `output_path` from it, so you can leave those fields blank)",
+        "translatedContent": "- **Starten:** Klik op de knop \"Start Inference\" om te beginnen met het genereren van de beatmap."
+      },
+      {
+        "row": 7,
+        "rowsha": "FC14hlJCDHD01B6TT1r8ha1p0h3cHFo8/dfL2+R553g=",
+        "originContent": "- **Start:** Click the \"Start Inference\" button to begin the beatmap generation.",
+        "translatedContent": "- **Annuleren:** Je kunt het lopende proces stoppen met de knop \"Cancel Inference\"."
+      },
+      {
+        "row": 8,
+        "rowsha": "iDJafoXDddTxBazARktLicj8G6BEHh9P/PhJtEzQ/Dg=",
+        "originContent": "- **Cancel:** You can stop the ongoing process using the \"Cancel Inference\" button.",
+        "translatedContent": "- **Uitvoer openen:** Zodra het klaar is, gebruik je de knop \"Open Output Folder\" voor snelle toegang tot de gegenereerde bestanden."
+      },
+      {
+        "row": 9,
+        "rowsha": "IQiQp8mb3JDpOLGgHNe1GXtxjXdJdnBJg1kYBuAQtFI=",
+        "originContent": "- **Open Output:** Once finished, use the \"Open Output Folder\" button for quick access to the generated files.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "De Web UI fungeert als een handige wrapper rond het script `inference.py`. Raadpleeg voor geavanceerde opties of probleemoplossing de instructies voor de commandoregel."
+      },
+      {
+        "row": 11,
+        "rowsha": "PU6mw/15ElpteMvQD+uJx8swDVFuyXiAlf2NKQl7fPM=",
+        "originContent": "The Web UI acts as a convenient wrapper around the `inference.py` script. For advanced options or troubleshooting, refer to the command-line instructions.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![python_u3zyW0S3Vs](https://github.com/user-attachments/assets/5312a45f-d51c-4b37-9389-da3258ddd0a1)"
+      },
+      {
+        "row": 13,
+        "rowsha": "46urnjvCCASeYICTZnAJNEWkixx5/JGht8Z9Q09MUOA=",
+        "originContent": "![python_u3zyW0S3Vs](https://github.com/user-attachments/assets/5312a45f-d51c-4b37-9389-da3258ddd0a1)",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Commandoregel-inferentie"
+      },
+      {
+        "row": 15,
+        "rowsha": "PPhZlB3KtcndWh+mkW0Jm0Gy5mra3OYiQOfIuIrvxjA=",
+        "originContent": "## Command-Line Inference",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Voor gebruikers die de voorkeur geven aan de commandoregel of toegang nodig hebben tot geavanceerde configuraties, volg de onderstaande stappen. **Opmerking:** Voor een eenvoudigere grafische interface, zie het gedeelte [Web UI (Aanbevolen)](#web-ui-recommended) hierboven."
+      },
+      {
+        "row": 17,
+        "rowsha": "h9itj65o2zCg3P7nv9p/sYsVcZrOU34/3NNkLyUFhYQ=",
+        "originContent": "For users who prefer the command line or need access to advanced configurations, follow the steps below. **Note:** For a simpler graphical interface, please see the [Web UI (Recommended)](#web-ui-recommended) section above.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Voer `inference.py` uit en geef enkele argumenten mee om beatmaps te genereren. Gebruik hiervoor de [Hydra override-syntax](https://hydra.cc/docs/advanced/override_grammar/basic/). Zie `configs/inference_v29.yaml` voor alle beschikbare parameters."
+      },
+      {
+        "row": 19,
+        "rowsha": "24iIGu71K6L8NhZoPP9wIU4siF8157a+oQY0XTb9o+k=",
+        "originContent": "Run `inference.py` and pass in some arguments to generate beatmaps. For this use [Hydra override syntax](https://hydra.cc/docs/advanced/override_grammar/basic/). See `configs/inference_v29.yaml` for all available parameters.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```\npython inference.py \\\n  audio_path           [Path to input audio] \\\n  output_path          [Path to output directory] \\\n  beatmap_path         [Path to .osu file to autofill metadata, and output_path, or use as reference] \\\n  \n  gamemode             [Game mode to generate 0=std, 1=taiko, 2=ctb, 3=mania] \\\n  difficulty           [Difficulty star rating to generate] \\\n  mapper_id            [Mapper user ID for style] \\\n  year                 [Upload year to simulate] \\\n  hitsounded           [Whether to add hitsounds] \\\n  slider_multiplier    [Slider velocity multiplier] \\\n  circle_size          [Circle size] \\\n  keycount             [Key count for mania] \\\n  hold_note_ratio      [Hold note ratio for mania 0-1] \\\n  scroll_speed_ratio   [Scroll speed ratio for mania and ctb 0-1] \\\n  descriptors          [List of beatmap user tags for style] \\\n  negative_descriptors [List of beatmap user tags for classifier-free guidance] \\\n  \n  add_to_beatmap       [Whether to add generated content to the reference beatmap instead of making a new beatmap] \\\n  start_time           [Generation start time in milliseconds] \\\n  end_time             [Generation end time in milliseconds] \\\n  in_context           [List of additional context to provide to the model [NONE,TIMING,KIAI,MAP,GD,NO_HS]] \\\n  output_type          [List of content types to generate] \\\n  cfg_scale            [Scale of the classifier-free guidance] \\\n  super_timing         [Whether to use slow accurate variable BPM timing generator] \\\n  seed                 [Random seed for generation] \\\n```",
+    "ContentSha": "MSMeTgeNcJHyTT6X4t6eKBcRXOMI1RHteiaOWvp3p8c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython inference.py \\\n  audio_path           [Path to input audio] \\\n  output_path          [Path to output directory] \\\n  beatmap_path         [Path to .osu file to autofill metadata, and output_path, or use as reference] \\\n  \n  gamemode             [Game mode to generate 0=std, 1=taiko, 2=ctb, 3=mania] \\\n  difficulty           [Difficulty star rating to generate] \\\n  mapper_id            [Mapper user ID for style] \\\n  year                 [Upload year to simulate] \\\n  hitsounded           [Whether to add hitsounds] \\\n  slider_multiplier    [Slider velocity multiplier] \\\n  circle_size          [Circle size] \\\n  keycount             [Key count for mania] \\\n  hold_note_ratio      [Hold note ratio for mania 0-1] \\\n  scroll_speed_ratio   [Scroll speed ratio for mania and ctb 0-1] \\\n  descriptors          [List of beatmap user tags for style] \\\n  negative_descriptors [List of beatmap user tags for classifier-free guidance] \\\n  \n  add_to_beatmap       [Whether to add generated content to the reference beatmap instead of making a new beatmap] \\\n  start_time           [Generation start time in milliseconds] \\\n  end_time             [Generation end time in milliseconds] \\\n  in_context           [List of additional context to provide to the model [NONE,TIMING,KIAI,MAP,GD,NO_HS]] \\\n  output_type          [List of content types to generate] \\\n  cfg_scale            [Scale of the classifier-free guidance] \\\n  super_timing         [Whether to use slow accurate variable BPM timing generator] \\\n  seed                 [Random seed for generation] \\\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "fRkgk7SztJVt4jE+29UcwROrhNIMgyrgsYJjaNt2Ugo=",
+        "originContent": "python inference.py \\",
+        "translatedContent": "python inference.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "7eL+HKK9njr0jwUwt8PKKPTRndloGFSXCiLqvEt4YDE=",
+        "originContent": "  audio_path           [Path to input audio] \\",
+        "translatedContent": "  audio_path           [Path to input audio] \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "LpvzYDVUBAPRc4u/Fh5SVnk6LTwDeKW0MjQxYjVwlmM=",
+        "originContent": "  output_path          [Path to output directory] \\",
+        "translatedContent": "  output_path          [Path to output directory] \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "0lnICy2+s2rHlVylo7N9glLsz1HpqyA1itIDM3O2RlI=",
+        "originContent": "  beatmap_path         [Path to .osu file to autofill metadata, and output_path, or use as reference] \\",
+        "translatedContent": "  beatmap_path         [Path to .osu file to autofill metadata, and output_path, or use as reference] \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 7,
+        "rowsha": "r+xAYt+D41sqZiH3Q1LJAjf37OrBw/OIVDQs+R8Sr9c=",
+        "originContent": "  gamemode             [Game mode to generate 0=std, 1=taiko, 2=ctb, 3=mania] \\",
+        "translatedContent": "  gamemode             [Game mode to generate 0=std, 1=taiko, 2=ctb, 3=mania] \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "b2PLY1orZl0NWUq0a8vlygI4RdiFXY0MQpIf97UKPvo=",
+        "originContent": "  difficulty           [Difficulty star rating to generate] \\",
+        "translatedContent": "  difficulty           [Difficulty star rating to generate] \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "8R4wO9iNHlCs7nxmSejq3jqTfbMnh2pwIjDt+YyU6+Y=",
+        "originContent": "  mapper_id            [Mapper user ID for style] \\",
+        "translatedContent": "  mapper_id            [Mapper user ID for style] \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "T4tZn9ZUbufZP2d1Kn59Z9ugS0M+arc/0GSPyvYUbAI=",
+        "originContent": "  year                 [Upload year to simulate] \\",
+        "translatedContent": "  year                 [Upload year to simulate] \\"
+      },
+      {
+        "row": 11,
+        "rowsha": "8tIddE6DoMtH4DJ53Be1DHCTTJP9RnLZJPe2e3rR5bY=",
+        "originContent": "  hitsounded           [Whether to add hitsounds] \\",
+        "translatedContent": "  hitsounded           [Whether to add hitsounds] \\"
+      },
+      {
+        "row": 12,
+        "rowsha": "kTkmun/15vF4Ouu5CdyaQHIfVWbWGZBnd32PYcoAEWE=",
+        "originContent": "  slider_multiplier    [Slider velocity multiplier] \\",
+        "translatedContent": "  slider_multiplier    [Slider velocity multiplier] \\"
+      },
+      {
+        "row": 13,
+        "rowsha": "Xb9Ua3UlLg4mT1iMDivPkAzVfjLoT7j/A54AsUvCB5E=",
+        "originContent": "  circle_size          [Circle size] \\",
+        "translatedContent": "  circle_size          [Circle size] \\"
+      },
+      {
+        "row": 14,
+        "rowsha": "TQsbOKeVq5cIBxgN4XaZntX94RbFVvfL5lA53dsLTPU=",
+        "originContent": "  keycount             [Key count for mania] \\",
+        "translatedContent": "  keycount             [Key count for mania] \\"
+      },
+      {
+        "row": 15,
+        "rowsha": "Wer3tirWQR/yBPlzU/NNeEGONYNWb/CPdypiyUEsn8k=",
+        "originContent": "  hold_note_ratio      [Hold note ratio for mania 0-1] \\",
+        "translatedContent": "  hold_note_ratio      [Hold note ratio for mania 0-1] \\"
+      },
+      {
+        "row": 16,
+        "rowsha": "fijdGKShpdHwL6OXKTvInKsaOF21guatQVRodEgFxqo=",
+        "originContent": "  scroll_speed_ratio   [Scroll speed ratio for mania and ctb 0-1] \\",
+        "translatedContent": "  scroll_speed_ratio   [Scroll speed ratio for mania and ctb 0-1] \\"
+      },
+      {
+        "row": 17,
+        "rowsha": "qncOhYq3GAIxo234a0sSx6kezdgb0/7Z7MixMt73HdU=",
+        "originContent": "  descriptors          [List of beatmap user tags for style] \\",
+        "translatedContent": "  descriptors          [List of beatmap user tags for style] \\"
+      },
+      {
+        "row": 18,
+        "rowsha": "JxEnX1sgrY8SlahJtxU1RIWxNoWOquhSuvBzzuVxzO8=",
+        "originContent": "  negative_descriptors [List of beatmap user tags for classifier-free guidance] \\",
+        "translatedContent": "  negative_descriptors [List of beatmap user tags for classifier-free guidance] \\"
+      },
+      {
+        "row": 19,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 20,
+        "rowsha": "VNZ3gZncp9YklKOvgGdmiEES8S7PoYruRfEIIhDNCaY=",
+        "originContent": "  add_to_beatmap       [Whether to add generated content to the reference beatmap instead of making a new beatmap] \\",
+        "translatedContent": "  add_to_beatmap       [Whether to add generated content to the reference beatmap instead of making a new beatmap] \\"
+      },
+      {
+        "row": 21,
+        "rowsha": "4EOx8r5+0MrVSs6i3JmaF36hVALkwl+csC4RAOH+alY=",
+        "originContent": "  start_time           [Generation start time in milliseconds] \\",
+        "translatedContent": "  start_time           [Generation start time in milliseconds] \\"
+      },
+      {
+        "row": 22,
+        "rowsha": "sXDkXaehCibtyAF02vaZ2UT7RpsWQBe5Fw3rqlYiWOI=",
+        "originContent": "  end_time             [Generation end time in milliseconds] \\",
+        "translatedContent": "  end_time             [Generation end time in milliseconds] \\"
+      },
+      {
+        "row": 23,
+        "rowsha": "c6RfwlsDsqDAbgz1WujQSmRgfwRX5CyG2wJXJy+Gpz0=",
+        "originContent": "  in_context           [List of additional context to provide to the model [NONE,TIMING,KIAI,MAP,GD,NO_HS]] \\",
+        "translatedContent": "  in_context           [List of additional context to provide to the model [NONE,TIMING,KIAI,MAP,GD,NO_HS]] \\"
+      },
+      {
+        "row": 24,
+        "rowsha": "b0bJ2yAD5ZMZkp3UF4Q2aX/TPrN/8XE5jBih/qJ1jVM=",
+        "originContent": "  output_type          [List of content types to generate] \\",
+        "translatedContent": "  output_type          [List of content types to generate] \\"
+      },
+      {
+        "row": 25,
+        "rowsha": "SNGzSARISqHTL/HHy13uTd9wolBYd8LVC+H1lmZKZAs=",
+        "originContent": "  cfg_scale            [Scale of the classifier-free guidance] \\",
+        "translatedContent": "  cfg_scale            [Scale of the classifier-free guidance] \\"
+      },
+      {
+        "row": 26,
+        "rowsha": "/FPTzSjW3aW2VBWjzG+sA79aS/6oCVEIdu3wj+kEA6Q=",
+        "originContent": "  super_timing         [Whether to use slow accurate variable BPM timing generator] \\",
+        "translatedContent": "  super_timing         [Whether to use slow accurate variable BPM timing generator] \\"
+      },
+      {
+        "row": 27,
+        "rowsha": "W4PL+Cy7x8MAdXSGzhOn470GGTHrA1FjU7/tF6uEcgs=",
+        "originContent": "  seed                 [Random seed for generation] \\",
+        "translatedContent": "  seed                 [Random seed for generation] \\"
+      },
+      {
+        "row": 28,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\nExample:",
+    "ContentSha": "mgcjsuhRPKsKI5lzclL/pS3DvvHcZ+cIf+hbV/L8jxE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nVoorbeeld:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "Voorbeeld:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```\npython inference.py beatmap_path=\"'C:\\Users\\USER\\AppData\\Local\\osu!\\Songs\\1 Kenji Ninuma - DISCO PRINCE\\Kenji Ninuma - DISCOPRINCE (peppy) [Normal].osu'\" gamemode=0 difficulty=5.5 year=2023 descriptors=\"['jump aim','clean']\" in_context=[TIMING,KIAI]\n```",
+    "ContentSha": "V0nF3Ik83LaqTX6QzuN4p6dm25TEz3vQCYI1m72o8IQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython inference.py beatmap_path=\"'C:\\Users\\USER\\AppData\\Local\\osu!\\Songs\\1 Kenji Ninuma - DISCO PRINCE\\Kenji Ninuma - DISCOPRINCE (peppy) [Normal].osu'\" gamemode=0 difficulty=5.5 year=2023 descriptors=\"['jump aim','clean']\" in_context=[TIMING,KIAI]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "bEyIHqA/H8L4QCYYG3aHON0G0LoqrMxCJ3gvu+Un2Zo=",
+        "originContent": "python inference.py beatmap_path=\"'C:\\Users\\USER\\AppData\\Local\\osu!\\Songs\\1 Kenji Ninuma - DISCO PRINCE\\Kenji Ninuma - DISCOPRINCE (peppy) [Normal].osu'\" gamemode=0 difficulty=5.5 year=2023 descriptors=\"['jump aim','clean']\" in_context=[TIMING,KIAI]",
+        "translatedContent": "python inference.py beatmap_path=\"'C:\\Users\\USER\\AppData\\Local\\osu!\\Songs\\1 Kenji Ninuma - DISCO PRINCE\\Kenji Ninuma - DISCOPRINCE (peppy) [Normal].osu'\" gamemode=0 difficulty=5.5 year=2023 descriptors=\"['jump aim','clean']\" in_context=[TIMING,KIAI]"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n## Interactive CLI\nFor those who prefer a terminal-based workflow but want a guided setup, the interactive CLI script is an excellent alternative to the Web UI.\n\n### Launch the CLI\nNavigate to the cloned directory. You may need to make the script executable first.\n",
+    "ContentSha": "i30m0jfDuyi+N7U5IrgvUD/p2LY4feSm5uuSfYWT2Vg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Interactieve CLI\nVoor degenen die een terminal-gebaseerde workflow verkiezen maar toch een begeleide installatie willen, is het interactieve CLI-script een uitstekend alternatief voor de Web UI.\n\n### Start de CLI\nNavigeer naar de gekloonde map. Mogelijk moet je het script eerst uitvoerbaar maken.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "eVNCf7g6BYgUbBC5JyrJfNGP12yyND/l8czq52j72MQ=",
+        "originContent": "## Interactive CLI",
+        "translatedContent": "## Interactieve CLI"
+      },
+      {
+        "row": 3,
+        "rowsha": "ELALyUop+ToMM9bUJPvAGwt0yx2os4FU+ZC5ZCEINGQ=",
+        "originContent": "For those who prefer a terminal-based workflow but want a guided setup, the interactive CLI script is an excellent alternative to the Web UI.",
+        "translatedContent": "Voor degenen die een terminal-gebaseerde workflow verkiezen maar toch een begeleide installatie willen, is het interactieve CLI-script een uitstekend alternatief voor de Web UI."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "rjTExAQzTRivIIRj5tBlTcIPTwKz9a6+t6Azuqx5vRw=",
+        "originContent": "### Launch the CLI",
+        "translatedContent": "### Start de CLI"
+      },
+      {
+        "row": 6,
+        "rowsha": "L/J8SCrtugis/hoYWJOxn82FRY9WnQhw3nLfOdkuwNI=",
+        "originContent": "Navigate to the cloned directory. You may need to make the script executable first.",
+        "translatedContent": "Navigeer naar de gekloonde map. Mogelijk moet je het script eerst uitvoerbaar maken."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```sh\n# Make the script executable (only needs to be done once)\nchmod +x cli_inference.sh\n```",
+    "ContentSha": "4h4Gw6wB7jvCN/i0TLJFu3580fsq1bGzxzQefxtJkM8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n# Make the script executable (only needs to be done once)\nchmod +x cli_inference.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "dln8vDVxNpWwo7dSlLRN8ISErt5JN+kx9LNvsvQKhuA=",
+        "originContent": "# Make the script executable (only needs to be done once)",
+        "translatedContent": "# Make the script executable (only needs to be done once)"
+      },
+      {
+        "row": 3,
+        "rowsha": "0rB96jd2cQxH5EOrn+/vMQ5GofZEpz+bgseAg8k12zU=",
+        "originContent": "chmod +x cli_inference.sh",
+        "translatedContent": "chmod +x cli_inference.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```sh\n# Run the script\n./cli_inference.sh\n```",
+    "ContentSha": "3uvwgJ4pDSPk1Kdk8XqfH9mLQ2NLkan2Hbm+TtmHSbU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n# Run the script\n./cli_inference.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "TTq1WTM8uTKsJASZuhHGtVTSfUpO1v+XsPZUmJj04Hs=",
+        "originContent": "# Run the script",
+        "translatedContent": "# Run the script"
+      },
+      {
+        "row": 3,
+        "rowsha": "ntacN/P6U7tpVb4w5osKzq1nYN1T+2aq0lQNXPM850Q=",
+        "originContent": "./cli_inference.sh",
+        "translatedContent": "./cli_inference.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n### Using the CLI\nThe script will walk you through a series of prompts to configure all generation parameters, just like the Web UI.\n\nIt uses a color-coded interface for clarity.\nIt provides an advanced multi-select menu for choosing style descriptors using your arrow keys and spacebar.\nAfter you've answered all the questions, it will display the final command for your review.\nYou can then confirm to execute it directly or cancel and copy the command for manual use.\n\n## Generation Tips\n\n- You can edit `configs/inference_v29.yaml` and add your arguments there instead of typing them in the terminal every time.\n- All available descriptors can be found [here](https://osu.ppy.sh/wiki/en/Beatmap/Beatmap_tags).\n- Always provide a year argument between 2007 and 2023. If you leave it unknown, the model might generate with an inconsistent style.\n- Always provide a difficulty argument. If you leave it unknown, the model might generate with an inconsistent difficulty.\n- Increase the `cfg_scale` parameter to increase the effectiveness of the `mapper_id` and `descriptors` arguments.\n- You can use the `negative_descriptors` argument to guide the model away from certain styles. This only works when `cfg_scale > 1`. Make sure the number of negative descriptors is equal to the number of descriptors.\n- If your song style and desired beatmap style don't match well, the model might not follow your directions. For example, its hard to generate a high SR, high SV beatmap for a calm song. \n- If you already have timing and kiai times done for a song, then you can give this to the model to greatly increase inference speed and accuracy: Use the `beatmap_path` and `in_context=[TIMING,KIAI]` arguments.\n- To remap just a part of your beatmap, use the `beatmap_path`, `start_time`, `end_time`, and `add_to_beatmap=true` arguments.\n- To generate a guest difficulty for a beatmap, use the `beatmap_path` and `in_context=[GD,TIMING,KIAI]` arguments.\n- To generate hitsounds for a beatmap, use the `beatmap_path` and `in_context=[NO_HS,TIMING,KIAI]` arguments.\n- To generate only timing for a song, use the `super_timing=true` and `output_type=[TIMING]` arguments.\n\n## MaiMod: The AI-driven Modding Tool\n\nMaiMod is a modding tool for osu! beatmaps that uses Mapperatorinator predictions to find potential faults and inconsistencies which can't be detected by other automatic modding tools like [Mapset Verifier](https://github.com/Naxesss/MapsetVerifier).\nIt can detect issues like:\n- Incorrect snapping or rhythmic patterns\n- Inaccurate timing points\n- Inconsistent hit object positions or new combo placements\n- Weird slider shapes\n- Inconsistent hitsounds or volumes\n\nYou can try MaiMod [here](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb), or run it locally:\nTo run MaiMod locally, you'll need to install Mapperatorinator. Then, run the `mai_mod.py` script, specifying your beatmap's path with the `beatmap_path` argument.",
+    "ContentSha": "63occa3LSpq4jzecVniyeyVltQTyeQDhVmDtfaHaeNo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### De CLI gebruiken\nHet script leidt je door een reeks prompts om alle generatieparameters te configureren, net als de Web UI.\n\nHet gebruikt een kleurgecodeerde interface voor duidelijkheid.\nHet biedt een geavanceerd multi-selectiemenu voor het kiezen van stijlbeschrijvers met je pijltjestoetsen en spatiebalk.\nNadat je alle vragen hebt beantwoord, toont het het uiteindelijke commando ter beoordeling.\nJe kunt daarna bevestigen om het direct uit te voeren of annuleren en het commando kopiëren voor handmatig gebruik.\n\n## Generatie-tips\n\n- Je kunt `configs/inference_v29.yaml` bewerken en daar je argumenten toevoegen in plaats van ze telkens in de terminal in te typen.\n- Alle beschikbare beschrijvers zijn te vinden [hier](https://osu.ppy.sh/wiki/en/Beatmap/Beatmap_tags).\n- Geef altijd een jaartal tussen 2007 en 2023 op. Als je dit onbekend laat, kan het model met een inconsistente stijl genereren.\n- Geef altijd een moeilijkheidsgraad op. Als je dit onbekend laat, kan het model met een inconsistente moeilijkheidsgraad genereren.\n- Verhoog de `cfg_scale` parameter om de effectiviteit van de `mapper_id` en `descriptors` argumenten te vergroten.\n- Je kunt het argument `negative_descriptors` gebruiken om het model van bepaalde stijlen weg te sturen. Dit werkt alleen als `cfg_scale > 1`. Zorg dat het aantal negatieve beschrijvers gelijk is aan het aantal beschrijvers.\n- Als de stijl van je liedje en de gewenste beatmapstijl niet goed overeenkomen, volgt het model mogelijk je aanwijzingen niet. Het is bijvoorbeeld moeilijk om een hoge SR, hoge SV beatmap te genereren voor een rustig liedje.\n- Als je al timing- en kiai-tijden hebt voor een nummer, kun je deze aan het model geven om de inferentiesnelheid en nauwkeurigheid sterk te verhogen: Gebruik de argumenten `beatmap_path` en `in_context=[TIMING,KIAI]`.\n- Om slechts een deel van je beatmap opnieuw te maken, gebruik je de argumenten `beatmap_path`, `start_time`, `end_time` en `add_to_beatmap=true`.\n- Om een gastmoeilijkheid voor een beatmap te genereren, gebruik je de argumenten `beatmap_path` en `in_context=[GD,TIMING,KIAI]`.\n- Om hitsounds voor een beatmap te genereren, gebruik je de argumenten `beatmap_path` en `in_context=[NO_HS,TIMING,KIAI]`.\n- Om alleen timing voor een nummer te genereren, gebruik je de argumenten `super_timing=true` en `output_type=[TIMING]`.\n\n## MaiMod: De AI-gedreven Modding Tool\n\nMaiMod is een moddingtool voor osu! beatmaps die Mapperatorinator-voorspellingen gebruikt om potentiële fouten en inconsistenties te vinden die niet door andere automatische moddingtools zoals [Mapset Verifier](https://github.com/Naxesss/MapsetVerifier) kunnen worden gedetecteerd.\nHet kan problemen detecteren zoals:\n- Onjuiste snapping of ritmepatronen\n- Onnauwkeurige timingpunten\n- Inconsistente posities van hitobjecten of nieuwe combo-plaatsingen\n- Vreemde slider-vormen\n- Inconsistente hitsounds of volumes\n\nJe kunt MaiMod [hier](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb) proberen, of het lokaal draaien:\nOm MaiMod lokaal uit te voeren, moet je Mapperatorinator installeren. Voer daarna het script `mai_mod.py` uit en specificeer het pad naar je beatmap met het argument `beatmap_path`.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5s+7Fs1mwU8ov6S6P7SSIprN05ozC2PiMtQeMepxJ6E=",
+        "originContent": "### Using the CLI",
+        "translatedContent": "### De CLI gebruiken"
+      },
+      {
+        "row": 3,
+        "rowsha": "6GfWPf+5VTQSJTfSQ89SAIH4FHjtd4Ye2E4zYqLkGYE=",
+        "originContent": "The script will walk you through a series of prompts to configure all generation parameters, just like the Web UI.",
+        "translatedContent": "Het script leidt je door een reeks prompts om alle generatieparameters te configureren, net als de Web UI."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "77KaBT0LglGSCvDITuA4XHgYkNyPCnGxs+XggsnPIUY=",
+        "originContent": "It uses a color-coded interface for clarity.",
+        "translatedContent": "Het gebruikt een kleurgecodeerde interface voor duidelijkheid."
+      },
+      {
+        "row": 6,
+        "rowsha": "SNHDpHTzGcpZ9kzV7V5YQZmbCCm9FxlqDIFyz5HkTMI=",
+        "originContent": "It provides an advanced multi-select menu for choosing style descriptors using your arrow keys and spacebar.",
+        "translatedContent": "Het biedt een geavanceerd multi-selectiemenu voor het kiezen van stijlbeschrijvers met je pijltjestoetsen en spatiebalk."
+      },
+      {
+        "row": 7,
+        "rowsha": "+XvS82z5BnQtQaxD2JiJm4uehTpeHB5zmqTRr/U9Kto=",
+        "originContent": "After you've answered all the questions, it will display the final command for your review.",
+        "translatedContent": "Nadat je alle vragen hebt beantwoord, toont het het uiteindelijke commando ter beoordeling."
+      },
+      {
+        "row": 8,
+        "rowsha": "okMYlxr4VUvt5pX7Q2kgUz/+JyacmNQ8W24PZHKrCgE=",
+        "originContent": "You can then confirm to execute it directly or cancel and copy the command for manual use.",
+        "translatedContent": "Je kunt daarna bevestigen om het direct uit te voeren of annuleren en het commando kopiëren voor handmatig gebruik."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "OqWXAmQkSqaWxfCBrrtfo3PA/td5uN8W7kqEQEIEEAo=",
+        "originContent": "## Generation Tips",
+        "translatedContent": "## Generatie-tips"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "sAwUG/qBp8nmcrM+2/EhgrFhqA0EKIRl38j0Sjrsw+w=",
+        "originContent": "- You can edit `configs/inference_v29.yaml` and add your arguments there instead of typing them in the terminal every time.",
+        "translatedContent": "- Je kunt `configs/inference_v29.yaml` bewerken en daar je argumenten toevoegen in plaats van ze telkens in de terminal in te typen."
+      },
+      {
+        "row": 13,
+        "rowsha": "O34nbj8K6HV4W+3oZXcKcWRWFvghlwIgzXkf4PHfRFQ=",
+        "originContent": "- All available descriptors can be found [here](https://osu.ppy.sh/wiki/en/Beatmap/Beatmap_tags).",
+        "translatedContent": "- Alle beschikbare beschrijvers zijn te vinden [hier](https://osu.ppy.sh/wiki/en/Beatmap/Beatmap_tags)."
+      },
+      {
+        "row": 14,
+        "rowsha": "oZLeLVY/Na/9j5nxV2hI0aPFVzRjdlfvXWRwS7Nkj5U=",
+        "originContent": "- Always provide a year argument between 2007 and 2023. If you leave it unknown, the model might generate with an inconsistent style.",
+        "translatedContent": "- Geef altijd een jaartal tussen 2007 en 2023 op. Als je dit onbekend laat, kan het model met een inconsistente stijl genereren."
+      },
+      {
+        "row": 15,
+        "rowsha": "D2iUVFzUDl/W8cqqlyYkLI4mDRskk67kTouvAl9RAP8=",
+        "originContent": "- Always provide a difficulty argument. If you leave it unknown, the model might generate with an inconsistent difficulty.",
+        "translatedContent": "- Geef altijd een moeilijkheidsgraad op. Als je dit onbekend laat, kan het model met een inconsistente moeilijkheidsgraad genereren."
+      },
+      {
+        "row": 16,
+        "rowsha": "XVNKp3TcASmzciOXb91v+s7LbOlzdPlxAnEty7Vr0CA=",
+        "originContent": "- Increase the `cfg_scale` parameter to increase the effectiveness of the `mapper_id` and `descriptors` arguments.",
+        "translatedContent": "- Verhoog de `cfg_scale` parameter om de effectiviteit van de `mapper_id` en `descriptors` argumenten te vergroten."
+      },
+      {
+        "row": 17,
+        "rowsha": "JE5cQhvwKAP5PVGn4U1cQuRbr4mAnxePpdsrsOLS+Hc=",
+        "originContent": "- You can use the `negative_descriptors` argument to guide the model away from certain styles. This only works when `cfg_scale > 1`. Make sure the number of negative descriptors is equal to the number of descriptors.",
+        "translatedContent": "- Je kunt het argument `negative_descriptors` gebruiken om het model van bepaalde stijlen weg te sturen. Dit werkt alleen als `cfg_scale > 1`. Zorg dat het aantal negatieve beschrijvers gelijk is aan het aantal beschrijvers."
+      },
+      {
+        "row": 18,
+        "rowsha": "jRnhD6NTV3qTvzLzmWm7OT4E31/KSWPdxXv+ZssuyaA=",
+        "originContent": "- If your song style and desired beatmap style don't match well, the model might not follow your directions. For example, its hard to generate a high SR, high SV beatmap for a calm song. ",
+        "translatedContent": "- Als de stijl van je liedje en de gewenste beatmapstijl niet goed overeenkomen, volgt het model mogelijk je aanwijzingen niet. Het is bijvoorbeeld moeilijk om een hoge SR, hoge SV beatmap te genereren voor een rustig liedje."
+      },
+      {
+        "row": 19,
+        "rowsha": "YKvsWApRuIFmPw/Lo3xoHTa+S9G6Y8kPHcIEykPt0Dc=",
+        "originContent": "- If you already have timing and kiai times done for a song, then you can give this to the model to greatly increase inference speed and accuracy: Use the `beatmap_path` and `in_context=[TIMING,KIAI]` arguments.",
+        "translatedContent": "- Als je al timing- en kiai-tijden hebt voor een nummer, kun je deze aan het model geven om de inferentiesnelheid en nauwkeurigheid sterk te verhogen: Gebruik de argumenten `beatmap_path` en `in_context=[TIMING,KIAI]`."
+      },
+      {
+        "row": 20,
+        "rowsha": "s+cT8itpYEsoflV5ZOwTGtIDmZ6TKmXhzmVgEHqJW44=",
+        "originContent": "- To remap just a part of your beatmap, use the `beatmap_path`, `start_time`, `end_time`, and `add_to_beatmap=true` arguments.",
+        "translatedContent": "- Om slechts een deel van je beatmap opnieuw te maken, gebruik je de argumenten `beatmap_path`, `start_time`, `end_time` en `add_to_beatmap=true`."
+      },
+      {
+        "row": 21,
+        "rowsha": "hYuzcUQXWLe4tQALzEAxsZDCSvQOdA86FCsjUyLvbr0=",
+        "originContent": "- To generate a guest difficulty for a beatmap, use the `beatmap_path` and `in_context=[GD,TIMING,KIAI]` arguments.",
+        "translatedContent": "- Om een gastmoeilijkheid voor een beatmap te genereren, gebruik je de argumenten `beatmap_path` en `in_context=[GD,TIMING,KIAI]`."
+      },
+      {
+        "row": 22,
+        "rowsha": "NZYWPQ0H6N50VktkRpzH8Z9bNof48xuHXZNh3paxDEM=",
+        "originContent": "- To generate hitsounds for a beatmap, use the `beatmap_path` and `in_context=[NO_HS,TIMING,KIAI]` arguments.",
+        "translatedContent": "- Om hitsounds voor een beatmap te genereren, gebruik je de argumenten `beatmap_path` en `in_context=[NO_HS,TIMING,KIAI]`."
+      },
+      {
+        "row": 23,
+        "rowsha": "c8jYoVCNO9yAmU9iDFcBhMr88PYcVmGg2yDBRQoqLC4=",
+        "originContent": "- To generate only timing for a song, use the `super_timing=true` and `output_type=[TIMING]` arguments.",
+        "translatedContent": "- Om alleen timing voor een nummer te genereren, gebruik je de argumenten `super_timing=true` en `output_type=[TIMING]`."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "lduzyeNxSTUHV1VdFUUhQHDcWEcUWoQ4EnxZbVw7sjg=",
+        "originContent": "## MaiMod: The AI-driven Modding Tool",
+        "translatedContent": "## MaiMod: De AI-gedreven Modding Tool"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "y2UQF0xM1Os40szo5Usz2+FEpZpABwuut2Rm3YTavME=",
+        "originContent": "MaiMod is a modding tool for osu! beatmaps that uses Mapperatorinator predictions to find potential faults and inconsistencies which can't be detected by other automatic modding tools like [Mapset Verifier](https://github.com/Naxesss/MapsetVerifier).",
+        "translatedContent": "MaiMod is een moddingtool voor osu! beatmaps die Mapperatorinator-voorspellingen gebruikt om potentiële fouten en inconsistenties te vinden die niet door andere automatische moddingtools zoals [Mapset Verifier](https://github.com/Naxesss/MapsetVerifier) kunnen worden gedetecteerd."
+      },
+      {
+        "row": 28,
+        "rowsha": "JFlUX0mmZ7eMwrUGb2sk0Pst5G/qEXeZ+VAa05mSw/4=",
+        "originContent": "It can detect issues like:",
+        "translatedContent": "Het kan problemen detecteren zoals:"
+      },
+      {
+        "row": 29,
+        "rowsha": "ujZkjKlYm9VYPRehrlMAESj2sFQzoQK3r+IPev28QU4=",
+        "originContent": "- Incorrect snapping or rhythmic patterns",
+        "translatedContent": "- Onjuiste snapping of ritmepatronen"
+      },
+      {
+        "row": 30,
+        "rowsha": "yTDR+DzayPQWtXhd5v1E0+iTiEJYSa6zbwZutOuYRio=",
+        "originContent": "- Inaccurate timing points",
+        "translatedContent": "- Onnauwkeurige timingpunten"
+      },
+      {
+        "row": 31,
+        "rowsha": "bQ/l3MJ9uIQDFy5DQwIDfjTtzTFdehfbYVxKEPOfeuM=",
+        "originContent": "- Inconsistent hit object positions or new combo placements",
+        "translatedContent": "- Inconsistente posities van hitobjecten of nieuwe combo-plaatsingen"
+      },
+      {
+        "row": 32,
+        "rowsha": "8bAqhF1z4DdPAcxz+Lgxhrl1v4n6u5webxKySB4rjRE=",
+        "originContent": "- Weird slider shapes",
+        "translatedContent": "- Vreemde slider-vormen"
+      },
+      {
+        "row": 33,
+        "rowsha": "njR9Z2Wih8YFKDuFA17JP65iixFgezGEkjNxRqudmAk=",
+        "originContent": "- Inconsistent hitsounds or volumes",
+        "translatedContent": "- Inconsistente hitsounds of volumes"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "vCryhoY07/jyYBZbcUxPtVz/+/upoJKy5mVKGrYDZYw=",
+        "originContent": "You can try MaiMod [here](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb), or run it locally:",
+        "translatedContent": "Je kunt MaiMod [hier](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb) proberen, of het lokaal draaien:"
+      },
+      {
+        "row": 36,
+        "rowsha": "dMhhBmnQwFqUBaaQNORbiVLTh7PRJEDNXQZRq3G1ZHg=",
+        "originContent": "To run MaiMod locally, you'll need to install Mapperatorinator. Then, run the `mai_mod.py` script, specifying your beatmap's path with the `beatmap_path` argument.",
+        "translatedContent": "Om MaiMod lokaal uit te voeren, moet je Mapperatorinator installeren. Voer daarna het script `mai_mod.py` uit en specificeer het pad naar je beatmap met het argument `beatmap_path`."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "```sh\npython mai_mod.py beatmap_path=\"'C:\\Users\\USER\\AppData\\Local\\osu!\\Songs\\1 Kenji Ninuma - DISCO PRINCE\\Kenji Ninuma - DISCOPRINCE (peppy) [Normal].osu'\"\n```",
+    "ContentSha": "QM/ohxqpWtFLuIbXW0/UbDV+n2/tOHOJmHUXABPjW9o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npython mai_mod.py beatmap_path=\"'C:\\Users\\USER\\AppData\\Local\\osu!\\Songs\\1 Kenji Ninuma - DISCO PRINCE\\Kenji Ninuma - DISCOPRINCE (peppy) [Normal].osu'\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "97NsG4DiKXqiEBB7tcgJjQA+cDLp++PSvNC03tYtf8I=",
+        "originContent": "python mai_mod.py beatmap_path=\"'C:\\Users\\USER\\AppData\\Local\\osu!\\Songs\\1 Kenji Ninuma - DISCO PRINCE\\Kenji Ninuma - DISCOPRINCE (peppy) [Normal].osu'\"",
+        "translatedContent": "python mai_mod.py beatmap_path=\"'C:\\Users\\USER\\AppData\\Local\\osu!\\Songs\\1 Kenji Ninuma - DISCO PRINCE\\Kenji Ninuma - DISCOPRINCE (peppy) [Normal].osu'\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "This will print the modding suggestions to the console, which you can then apply to your beatmap manually.\nSuggestions are ordered chronologically and grouped into categories.\nThe first value in the circle indicates the 'surprisal' which is a measure of how unexpected the model found the issue to be, so you can prioritize the most important issues.\n\nThe model can make mistakes, especially on low surprisal issues, so always double-check the suggestions before applying them to your beatmap.\nThe main goal is to help you narrow down the search space for potential issues, so you don't have to manually check every single hit object in your beatmap.\n\n### MaiMod GUI\nTo run the MaiMod Web UI, you'll need to install Mapperatorinator.\nThen, run the `mai_mod_ui.py` script. This will start a local web server and automatically open the UI in a new window:\n",
+    "ContentSha": "atiDGduho6/jB6KpwFSdRKXSRbjWK6dt1kBrL23CXqA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Dit zal de modding suggesties naar de console printen, die je vervolgens handmatig op je beatmap kunt toepassen.\nSuggesties worden chronologisch gerangschikt en gegroepeerd in categorieën.\nDe eerste waarde in de cirkel geeft de 'surprisal' aan, wat een maat is voor hoe onverwacht het model het probleem vond, zodat je de belangrijkste problemen kunt prioriteren.\n\nHet model kan fouten maken, vooral bij problemen met een lage surprisal, dus controleer altijd de suggesties voordat je ze toepast op je beatmap.\nHet belangrijkste doel is om je te helpen de zoekruimte voor potentiële problemen te verkleinen, zodat je niet elk afzonderlijk hit-object in je beatmap handmatig hoeft te controleren.\n\n### MaiMod GUI\nOm de MaiMod Web UI uit te voeren, moet je Mapperatorinator installeren.\nVoer vervolgens het script `mai_mod_ui.py` uit. Dit zal een lokale webserver starten en automatisch de UI in een nieuw venster openen:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/9D0LfXDkbPNVWU08SUnshZNrRVrEFzD1EsJ6nbkEUI=",
+        "originContent": "This will print the modding suggestions to the console, which you can then apply to your beatmap manually.",
+        "translatedContent": "Dit zal de modding suggesties naar de console printen, die je vervolgens handmatig op je beatmap kunt toepassen."
+      },
+      {
+        "row": 2,
+        "rowsha": "9MH/NcMaI4OZFRqdUSds9+Zlmx/XaAsxrLh9m063fdE=",
+        "originContent": "Suggestions are ordered chronologically and grouped into categories.",
+        "translatedContent": "Suggesties worden chronologisch gerangschikt en gegroepeerd in categorieën."
+      },
+      {
+        "row": 3,
+        "rowsha": "RSnqMZ6zAL3NwZJUeq4sl9/a6jUitIuq18zFMLKUCbE=",
+        "originContent": "The first value in the circle indicates the 'surprisal' which is a measure of how unexpected the model found the issue to be, so you can prioritize the most important issues.",
+        "translatedContent": "De eerste waarde in de cirkel geeft de 'surprisal' aan, wat een maat is voor hoe onverwacht het model het probleem vond, zodat je de belangrijkste problemen kunt prioriteren."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "57km/FRTf80+wHEjsoa0ckKGI1yng5Lc6ppJwuzW2Qs=",
+        "originContent": "The model can make mistakes, especially on low surprisal issues, so always double-check the suggestions before applying them to your beatmap.",
+        "translatedContent": "Het model kan fouten maken, vooral bij problemen met een lage surprisal, dus controleer altijd de suggesties voordat je ze toepast op je beatmap."
+      },
+      {
+        "row": 6,
+        "rowsha": "GifAvI0nplNOZuxX1IsMKmMTndFoSxncc4UwZgHrMXE=",
+        "originContent": "The main goal is to help you narrow down the search space for potential issues, so you don't have to manually check every single hit object in your beatmap.",
+        "translatedContent": "Het belangrijkste doel is om je te helpen de zoekruimte voor potentiële problemen te verkleinen, zodat je niet elk afzonderlijk hit-object in je beatmap handmatig hoeft te controleren."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "UeFXvJZKgrz2ll5+KdqeYeE5uV+jdTUprgahqgYDnSE=",
+        "originContent": "### MaiMod GUI",
+        "translatedContent": "### MaiMod GUI"
+      },
+      {
+        "row": 9,
+        "rowsha": "V/9FAQWZw+mmCpCXxPg8TE6GfDDlhlP13XYd8feIii4=",
+        "originContent": "To run the MaiMod Web UI, you'll need to install Mapperatorinator.",
+        "translatedContent": "Om de MaiMod Web UI uit te voeren, moet je Mapperatorinator installeren."
+      },
+      {
+        "row": 10,
+        "rowsha": "cwisS2CGIxyHacGto9UfJ7XHP6l8x9bwA2wa6kg938Q=",
+        "originContent": "Then, run the `mai_mod_ui.py` script. This will start a local web server and automatically open the UI in a new window:",
+        "translatedContent": "Voer vervolgens het script `mai_mod_ui.py` uit. Dit zal een lokale webserver starten en automatisch de UI in een nieuw venster openen:"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "```sh\npython mai_mod_ui.py\n```",
+    "ContentSha": "eq/qSeAHjT0LoPbd1RrY4SwUE2ddbauyBZcG7nmKO7w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npython mai_mod_ui.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "2ngNlpUxzvz1ih0JmgCVQEhUqLR69Gsu5+jlizZirR4=",
+        "originContent": "python mai_mod_ui.py",
+        "translatedContent": "python mai_mod_ui.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "\n<img width=\"850\" height=\"1019\" alt=\"afbeelding\" src=\"https://github.com/user-attachments/assets/67c03a43-a7bd-4265-a5b1-5e4d62aca1fa\" />\n\n## Overview\n\n### Tokenization\n\nMapperatorinator converts osu! beatmaps into an intermediate event representation that can be directly converted to and from tokens.\nIt includes hit objects, hitsounds, slider velocities, new combos, timing points, kiai times, and taiko/mania scroll speeds.\n\nHere is a small examle of the tokenization process:\n\n![mapperatorinator_parser](https://github.com/user-attachments/assets/84efde76-4c27-48a1-b8ce-beceddd9e695)\n\nTo save on vocabulary size, time events are quantized to 10ms intervals and position coordinates are quantized to 32 pixel grid points.\n\n### Model architecture\nThe model is basically a wrapper around the [HF Transformers Whisper](https://huggingface.co/docs/transformers/en/model_doc/whisper#transformers.WhisperForConditionalGeneration) model, with custom input embeddings and loss function.\nModel size amounts to 219M parameters.\nThis model was found to be faster and more accurate than T5 for this task.\n\nThe high-level overview of the model's input-output is as follows:\n\n![Picture2](https://user-images.githubusercontent.com/28675590/201044116-1384ad72-c540-44db-a285-7319dd01caad.svg)\n\nThe model uses Mel spectrogram frames as encoder input, with one frame per input position. The model decoder output at each step is a softmax distribution over a discrete, predefined, vocabulary of events. Outputs are sparse, events are only needed when a hit-object occurs, instead of annotating every single audio frame.\n\n### Multitask training format\n\n![Multitask training format](https://github.com/user-attachments/assets/62f490bc-a567-4671-a7ce-dbcc5f9cd6d9)\n\nBefore the SOS token are additional tokens that facilitate conditional generation. These tokens include the gamemode, difficulty, mapper ID, year, and other metadata.\nDuring training, these tokens do not have accompanying labels, so they are never output by the model. \nAlso during training there is a random chance that a metadata token gets replaced by an 'unknown' token, so during inference we can use these 'unknown' tokens to reduce the amount of metadata we have to give to the model.\n\n### Seamless long generation\n\nThe context length of the model is 8.192 seconds long. This is obviously not enough to generate a full beatmap, so we have to split the song into multiple windows and generate the beatmap in small parts.\nTo make sure that the generated beatmap does not have noticeable seams in between windows, we use a 90% overlap and generate the windows sequentially.\nEach generation window except the first starts with the decoder pre-filled up to 50% of the generation window with tokens from the previous windows.",
+    "ContentSha": "vEX1Cu9EPxKNLtj7yLOqAbXpxpFlapV/bNTrPIWfXls=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n<img width=\"850\" height=\"1019\" alt=\"afbeelding\" src=\"https://github.com/user-attachments/assets/67c03a43-a7bd-4265-a5b1-5e4d62aca1fa\" />\n\n## Overzicht\n\n### Tokenisatie\n\nMapperatorinator zet osu! beatmaps om in een intermediaire evenementrepresentatie die direct omgezet kan worden naar en van tokens.\nHet bevat hitobjecten, hitsounds, slidervelociteiten, nieuwe combinaties, timingpunten, kiai-tijden en taiko/mania scrollsnelheden.\n\nHier is een klein voorbeeld van het tokenisatieproces:\n\n![mapperatorinator_parser](https://github.com/user-attachments/assets/84efde76-4c27-48a1-b8ce-beceddd9e695)\n\nOm het vocabulaire te beperken, worden tijdgebeurtenissen gekwantiseerd naar intervallen van 10 ms en positiecoördinaten naar rasterpunten van 32 pixels.\n\n### Modelarchitectuur\nHet model is in feite een wrapper rond het [HF Transformers Whisper](https://huggingface.co/docs/transformers/en/model_doc/whisper#transformers.WhisperForConditionalGeneration) model, met aangepaste inputembeddings en verliesfunctie.\nDe modelgrootte bedraagt 219M parameters.\nDit model bleek sneller en nauwkeuriger te zijn dan T5 voor deze taak.\n\nHet algemene overzicht van de input-output van het model is als volgt:\n\n![Picture2](https://user-images.githubusercontent.com/28675590/201044116-1384ad72-c540-44db-a285-7319dd01caad.svg)\n\nHet model gebruikt Mel-spectrogramframes als encoderinput, met één frame per inputpositie. De decoderoutput van het model is bij elke stap een softmaxverdeling over een discrete, vooraf gedefinieerde, vocabulaire van gebeurtenissen. Uitvoer is schaars; gebeurtenissen zijn alleen nodig wanneer een hitobject voorkomt, in plaats van het annoteren van elk afzonderlijk audiokader.\n\n### Multitask-trainingsformaat\n\n![Multitask training format](https://github.com/user-attachments/assets/62f490bc-a567-4671-a7ce-dbcc5f9cd6d9)\n\nVoor de SOS-token staan extra tokens die conditionele generatie vergemakkelijken. Deze tokens omvatten de spelmodus, moeilijkheidsgraad, mapper-ID, jaar en andere metadata.\nTijdens het trainen hebben deze tokens geen bijbehorende labels, dus worden ze nooit door het model uitgegeven.\nOok tijdens het trainen is er een willekeurige kans dat een metadatadoken wordt vervangen door een 'onbekend' token, zodat we tijdens inferentie deze 'onbekend'-tokens kunnen gebruiken om de hoeveelheid metadata die we aan het model moeten geven te verminderen.\n\n### Naadloze lange generatie\n\nDe contextlengte van het model is 8.192 seconden. Dit is uiteraard niet genoeg om een volledige beatmap te genereren, dus moeten we het nummer opdelen in meerdere vensters en de beatmap in kleine delen genereren.\nOm ervoor te zorgen dat de gegenereerde beatmap geen zichtbare naden tussen vensters heeft, gebruiken we een overlap van 90% en genereren we de vensters sequentieel.\nElk generatievenster behalve het eerste begint met een decoder die tot 50% van het generatievenster is voorgevuld met tokens uit de vorige vensters.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "AFHW/JqjNBFhcw2X4d1J2OUD3GjYlhGKnXiXbz38J/Q=",
+        "originContent": "<img width=\"850\" height=\"1019\" alt=\"afbeelding\" src=\"https://github.com/user-attachments/assets/67c03a43-a7bd-4265-a5b1-5e4d62aca1fa\" />",
+        "translatedContent": "<img width=\"850\" height=\"1019\" alt=\"afbeelding\" src=\"https://github.com/user-attachments/assets/67c03a43-a7bd-4265-a5b1-5e4d62aca1fa\" />"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": "## Overzicht"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "PGbHLABTGq40FdplR6QqAJQusaDhmnFWjUwmVBXGSbM=",
+        "originContent": "### Tokenization",
+        "translatedContent": "### Tokenisatie"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "PPQ34febFE1RmIqLYFT8Ba9v4iiSX8BV/ufRqvXlETw=",
+        "originContent": "Mapperatorinator converts osu! beatmaps into an intermediate event representation that can be directly converted to and from tokens.",
+        "translatedContent": "Mapperatorinator zet osu! beatmaps om in een intermediaire evenementrepresentatie die direct omgezet kan worden naar en van tokens."
+      },
+      {
+        "row": 9,
+        "rowsha": "ngff6vqxTAIClSpbaQ/tkLuJOmuo3GqlJiQZDjF9Lro=",
+        "originContent": "It includes hit objects, hitsounds, slider velocities, new combos, timing points, kiai times, and taiko/mania scroll speeds.",
+        "translatedContent": "Het bevat hitobjecten, hitsounds, slidervelociteiten, nieuwe combinaties, timingpunten, kiai-tijden en taiko/mania scrollsnelheden."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "BHIB3Y8/m99HiXazIj2SgIZ5IKLLdS2RvxtuM78ZODE=",
+        "originContent": "Here is a small examle of the tokenization process:",
+        "translatedContent": "Hier is een klein voorbeeld van het tokenisatieproces:"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "hPjvoYPTngXesiaZ0rtCQeT7/wcEZtaj9HtyFXboVsE=",
+        "originContent": "![mapperatorinator_parser](https://github.com/user-attachments/assets/84efde76-4c27-48a1-b8ce-beceddd9e695)",
+        "translatedContent": "![mapperatorinator_parser](https://github.com/user-attachments/assets/84efde76-4c27-48a1-b8ce-beceddd9e695)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "WvA9ZpkwyPXVD1aAvfZZtUEclF8hnUn0xly0JY6hfV0=",
+        "originContent": "To save on vocabulary size, time events are quantized to 10ms intervals and position coordinates are quantized to 32 pixel grid points.",
+        "translatedContent": "Om het vocabulaire te beperken, worden tijdgebeurtenissen gekwantiseerd naar intervallen van 10 ms en positiecoördinaten naar rasterpunten van 32 pixels."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "NRf34HUV4iYm1wwRN3LcnOY8yEu1HIXWZuFTBoM23Ys=",
+        "originContent": "### Model architecture",
+        "translatedContent": "### Modelarchitectuur"
+      },
+      {
+        "row": 18,
+        "rowsha": "Q0rOaoBBkqMNPvWtIERs1CTFy6rIQP3Ww7mmbGa2DZ8=",
+        "originContent": "The model is basically a wrapper around the [HF Transformers Whisper](https://huggingface.co/docs/transformers/en/model_doc/whisper#transformers.WhisperForConditionalGeneration) model, with custom input embeddings and loss function.",
+        "translatedContent": "Het model is in feite een wrapper rond het [HF Transformers Whisper](https://huggingface.co/docs/transformers/en/model_doc/whisper#transformers.WhisperForConditionalGeneration) model, met aangepaste inputembeddings en verliesfunctie."
+      },
+      {
+        "row": 19,
+        "rowsha": "K21ge7cpD2kM82NdByjDBiVNNkmEohgSJwtJOqRHxjQ=",
+        "originContent": "Model size amounts to 219M parameters.",
+        "translatedContent": "De modelgrootte bedraagt 219M parameters."
+      },
+      {
+        "row": 20,
+        "rowsha": "B6zoh4rgDnf8ExCvW1Uo5FZbqbdSs3koLuWIDYYEduI=",
+        "originContent": "This model was found to be faster and more accurate than T5 for this task.",
+        "translatedContent": "Dit model bleek sneller en nauwkeuriger te zijn dan T5 voor deze taak."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "O0A5LkR9PHJSFsu6RenUIxpdXL5Q0UU1JUYr8YKkmeY=",
+        "originContent": "The high-level overview of the model's input-output is as follows:",
+        "translatedContent": "Het algemene overzicht van de input-output van het model is als volgt:"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "MLtQNJ2KZCdpTncTzCb2f7Lhib06b243YybO64w6ERI=",
+        "originContent": "![Picture2](https://user-images.githubusercontent.com/28675590/201044116-1384ad72-c540-44db-a285-7319dd01caad.svg)",
+        "translatedContent": "![Picture2](https://user-images.githubusercontent.com/28675590/201044116-1384ad72-c540-44db-a285-7319dd01caad.svg)"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "JhKPprsKHtEro5p07uPTnpfrzisFKHMjCxgypmEKb38=",
+        "originContent": "The model uses Mel spectrogram frames as encoder input, with one frame per input position. The model decoder output at each step is a softmax distribution over a discrete, predefined, vocabulary of events. Outputs are sparse, events are only needed when a hit-object occurs, instead of annotating every single audio frame.",
+        "translatedContent": "Het model gebruikt Mel-spectrogramframes als encoderinput, met één frame per inputpositie. De decoderoutput van het model is bij elke stap een softmaxverdeling over een discrete, vooraf gedefinieerde, vocabulaire van gebeurtenissen. Uitvoer is schaars; gebeurtenissen zijn alleen nodig wanneer een hitobject voorkomt, in plaats van het annoteren van elk afzonderlijk audiokader."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "3rT6nMF5CeCqi6/ikIPGLnLOEpGMc+kDXRm4AevpTpA=",
+        "originContent": "### Multitask training format",
+        "translatedContent": "### Multitask-trainingsformaat"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "iFODtGK/ofEv9CygdXcYs8WlmSDUlbw+K7+Gi9nshLU=",
+        "originContent": "![Multitask training format](https://github.com/user-attachments/assets/62f490bc-a567-4671-a7ce-dbcc5f9cd6d9)",
+        "translatedContent": "![Multitask training format](https://github.com/user-attachments/assets/62f490bc-a567-4671-a7ce-dbcc5f9cd6d9)"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "UcykDTknNCTLTPbH/3gbSq1Hhq1IShe56A1KK2Afv0w=",
+        "originContent": "Before the SOS token are additional tokens that facilitate conditional generation. These tokens include the gamemode, difficulty, mapper ID, year, and other metadata.",
+        "translatedContent": "Voor de SOS-token staan extra tokens die conditionele generatie vergemakkelijken. Deze tokens omvatten de spelmodus, moeilijkheidsgraad, mapper-ID, jaar en andere metadata."
+      },
+      {
+        "row": 33,
+        "rowsha": "c41cVshbr1EDfien4FMWFKbrNWYVYX084FJpHlZICS8=",
+        "originContent": "During training, these tokens do not have accompanying labels, so they are never output by the model. ",
+        "translatedContent": "Tijdens het trainen hebben deze tokens geen bijbehorende labels, dus worden ze nooit door het model uitgegeven."
+      },
+      {
+        "row": 34,
+        "rowsha": "NMARfPrn90E1ZYEvlt4Uw4V+pAMFkWJWPfZJ+UEYrI4=",
+        "originContent": "Also during training there is a random chance that a metadata token gets replaced by an 'unknown' token, so during inference we can use these 'unknown' tokens to reduce the amount of metadata we have to give to the model.",
+        "translatedContent": "Ook tijdens het trainen is er een willekeurige kans dat een metadatadoken wordt vervangen door een 'onbekend' token, zodat we tijdens inferentie deze 'onbekend'-tokens kunnen gebruiken om de hoeveelheid metadata die we aan het model moeten geven te verminderen."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "CEzVtFyz/tDCvAMgCoiB9p+qUeGPtrvluX6vMndNlTI=",
+        "originContent": "### Seamless long generation",
+        "translatedContent": "### Naadloze lange generatie"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "F80C9sCavy377I4SrqnthV4AvSCAoaJ0GScVnt+GZFo=",
+        "originContent": "The context length of the model is 8.192 seconds long. This is obviously not enough to generate a full beatmap, so we have to split the song into multiple windows and generate the beatmap in small parts.",
+        "translatedContent": "De contextlengte van het model is 8.192 seconden. Dit is uiteraard niet genoeg om een volledige beatmap te genereren, dus moeten we het nummer opdelen in meerdere vensters en de beatmap in kleine delen genereren."
+      },
+      {
+        "row": 39,
+        "rowsha": "Hy6lClotIqeMtGj96m3YixyqpFa7B3+7IId3ecLPMLI=",
+        "originContent": "To make sure that the generated beatmap does not have noticeable seams in between windows, we use a 90% overlap and generate the windows sequentially.",
+        "translatedContent": "Om ervoor te zorgen dat de gegenereerde beatmap geen zichtbare naden tussen vensters heeft, gebruiken we een overlap van 90% en genereren we de vensters sequentieel."
+      },
+      {
+        "row": 40,
+        "rowsha": "/W4yxXAWeSZjl1P3dkEoPk86+VrETGc3vAwGsMcuyFM=",
+        "originContent": "Each generation window except the first starts with the decoder pre-filled up to 50% of the generation window with tokens from the previous windows.",
+        "translatedContent": "Elk generatievenster behalve het eerste begint met een decoder die tot 50% van het generatievenster is voorgevuld met tokens uit de vorige vensters."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "We use a logit processor to make sure that the model can't generate time tokens that are in the first 50% of the generation window.\nAdditionally, the last 40% of the generation window is reserved for the next window. Any generated time tokens in that range are treated as EOS tokens.\nThis ensures that each generated token is conditioned on at least 4 seconds of previous tokens and 3.3 seconds of future audio to anticipate.\n\nTo prevent offset drifting during long generation, random offsets have been added to time events in the decoder during training.\nThis forces it to correct timing errors by listening to the onsets in the audio instead, and results in a consistently accurate offset.\n\n### Refined coordinates with diffusion\n\nPosition coordinates generated by the decoder are quantized to 32 pixel grid points, so afterward we use diffusion to denoise the coordinates to the final positions.\nFor this we trained a modified version of [osu-diffusion](https://github.com/OliBomby/osu-diffusion) that is specialized to only the last 10% of the noise schedule, and accepts the more advanced metadata tokens that Mapperatorinator uses for conditional generation.\n\nSince the Mapperatorinator model outputs the SV of sliders, the required length of the slider is fixed regardless of the shape of the control point path.\nTherefore, we try to guide the diffusion process to create coordinates that fit the required slider lengths.\nWe do this by recalculating the slider end positions after every step of the diffusion process based on the required length and the current control point path.\nThis means that the diffusion process does not have direct control over the slider end positions, but it can still influence them by changing the control point path.\n\n### Post-processing\n\nMapperatorinator does some extra post-processing to improve the quality of the generated beatmap:\n\n- Refine position coordinates with diffusion.\n- Resnap time events to the nearest tick using the snap divisors generated by the model.\n- Snap near-perfect positional overlaps.\n- Convert mania column events to X coordinates.\n- Generate slider paths for taiko drumrolls.\n- Fix big discrepancies in required slider length and control point path length.\n\n### Super timing generator\n\nSuper timing generator is an algorithm that improves the precision and accuracy of generated timing by infering timing for the whole song 20 times and averaging the results.\nThis is useful for songs with variable BPM, or songs with BPM changes. The result is almost perfect with only sometimes a section that needs manual adjustment.\n\n## Training\n\nThe instruction below creates a training environment on your local machine.\n\n### 1. Clone the repository\n",
+    "ContentSha": "iHvVf89acADK+19qEXyG7D8wYnn8MWsJe9Q21eFQxSo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "We gebruiken een logit-processor om ervoor te zorgen dat het model geen tijdtokens kan genereren die in de eerste 50% van het generatievenster liggen.\nDaarnaast is de laatste 40% van het generatievenster gereserveerd voor het volgende venster. Alle gegenereerde tijdtokens in dat bereik worden behandeld als EOS-tokens.\nDit zorgt ervoor dat elk gegenereerd token is gebaseerd op ten minste 4 seconden aan vorige tokens en 3,3 seconden aan toekomstige audio om te anticiperen.\n\nOm offsetdrift tijdens lange generaties te voorkomen, zijn willekeurige offsets toegevoegd aan tijdgebeurtenissen in de decoder tijdens de training.\nDit dwingt het model om timingfouten te corrigeren door naar de onsets in de audio te luisteren, wat resulteert in een consequent nauwkeurige offset.\n\n### Verfijnde coördinaten met diffusie\n\nPositiecoördinaten die door de decoder zijn gegenereerd, worden gekwantiseerd naar 32 pixel rasterpunten, dus gebruiken we daarna diffusie om de coördinaten naar de uiteindelijke posities te denoisen.\nHiervoor hebben we een aangepaste versie van [osu-diffusion](https://github.com/OliBomby/osu-diffusion) getraind die is gespecialiseerd in alleen de laatste 10% van het ruisprogramma, en die de geavanceerdere metadatatokens accepteert die Mapperatorinator gebruikt voor conditionele generatie.\n\nAangezien het Mapperatorinator-model de SV van sliders uitvoert, is de vereiste lengte van de slider vast ongeacht de vorm van het control point pad.\nDaarom proberen we het diffusieproces te sturen om coördinaten te creëren die passen bij de vereiste sliderlengtes.\nDit doen we door na elke stap van het diffusieproces de slider-eindposities opnieuw te berekenen op basis van de vereiste lengte en het huidige control point pad.\nDit betekent dat het diffusieproces geen directe controle heeft over de slider-eindposities, maar ze wel kan beïnvloeden door het control point pad aan te passen.\n\n### Post-processing\n\nMapperatorinator voert extra nabewerking uit om de kwaliteit van de gegenereerde beatmap te verbeteren:\n\n- Verfijn positiecoördinaten met diffusie.\n- Resnap tijdgebeurtenissen naar de dichtstbijzijnde tick met behulp van de snapverdelers die door het model zijn gegenereerd.\n- Snap bijna-perfecte positionele overlappingen.\n- Zet mania columnevenementen om naar X-coördinaten.\n- Genereer sliderpaden voor taiko drumrolls.\n- Corrigeer grote discrepanties tussen vereiste sliderlengte en control point pad lengte.\n\n### Super timing generator\n\nSuper timing generator is een algoritme dat de precisie en nauwkeurigheid van gegenereerde timing verbetert door timing voor het hele lied 20 keer af te leiden en het resultaat te middelen.\nDit is nuttig voor nummers met variabele BPM, of nummers met BPM-wijzigingen. Het resultaat is bijna perfect, met soms slechts een sectie die handmatige aanpassing vereist.\n\n## Training\n\nDe onderstaande instructie maakt een trainingsomgeving aan op je lokale computer.\n\n### 1. Clone de repository\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "R3rAnCWfab75Ib1CJGCnj45R1ryEtsVGr7vLKfNWD+0=",
+        "originContent": "We use a logit processor to make sure that the model can't generate time tokens that are in the first 50% of the generation window.",
+        "translatedContent": "We gebruiken een logit-processor om ervoor te zorgen dat het model geen tijdtokens kan genereren die in de eerste 50% van het generatievenster liggen."
+      },
+      {
+        "row": 2,
+        "rowsha": "KD88prGfCw25jPalk7tsP86cENGBnlVGWiA04HiZmKM=",
+        "originContent": "Additionally, the last 40% of the generation window is reserved for the next window. Any generated time tokens in that range are treated as EOS tokens.",
+        "translatedContent": "Daarnaast is de laatste 40% van het generatievenster gereserveerd voor het volgende venster. Alle gegenereerde tijdtokens in dat bereik worden behandeld als EOS-tokens."
+      },
+      {
+        "row": 3,
+        "rowsha": "MA4hHONZeNUI4zg+6LrVlKw1E1e/s+W1w/s0+NWIwf4=",
+        "originContent": "This ensures that each generated token is conditioned on at least 4 seconds of previous tokens and 3.3 seconds of future audio to anticipate.",
+        "translatedContent": "Dit zorgt ervoor dat elk gegenereerd token is gebaseerd op ten minste 4 seconden aan vorige tokens en 3,3 seconden aan toekomstige audio om te anticiperen."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "LdLzqJ/7OoJCcoiF8oyASZgX7pbgH4RFw9weoY2DPJg=",
+        "originContent": "To prevent offset drifting during long generation, random offsets have been added to time events in the decoder during training.",
+        "translatedContent": "Om offsetdrift tijdens lange generaties te voorkomen, zijn willekeurige offsets toegevoegd aan tijdgebeurtenissen in de decoder tijdens de training."
+      },
+      {
+        "row": 6,
+        "rowsha": "lR4HWY8BMVREL4JzD4f3QgVL+kpzmrYgQgMBtlZ/cjA=",
+        "originContent": "This forces it to correct timing errors by listening to the onsets in the audio instead, and results in a consistently accurate offset.",
+        "translatedContent": "Dit dwingt het model om timingfouten te corrigeren door naar de onsets in de audio te luisteren, wat resulteert in een consequent nauwkeurige offset."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "o18KdqPNTSWotT/S5E47KUcNYD8WG07fSM/8YNX1/a4=",
+        "originContent": "### Refined coordinates with diffusion",
+        "translatedContent": "### Verfijnde coördinaten met diffusie"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "AcFrGxzGDeWFsuhkjBWDdmn3mGmiOixNt83pYFH3BWk=",
+        "originContent": "Position coordinates generated by the decoder are quantized to 32 pixel grid points, so afterward we use diffusion to denoise the coordinates to the final positions.",
+        "translatedContent": "Positiecoördinaten die door de decoder zijn gegenereerd, worden gekwantiseerd naar 32 pixel rasterpunten, dus gebruiken we daarna diffusie om de coördinaten naar de uiteindelijke posities te denoisen."
+      },
+      {
+        "row": 11,
+        "rowsha": "70BI60TZUlJiA4BrLw0xn1J1lGs4dKV7nc8yAXj9jbE=",
+        "originContent": "For this we trained a modified version of [osu-diffusion](https://github.com/OliBomby/osu-diffusion) that is specialized to only the last 10% of the noise schedule, and accepts the more advanced metadata tokens that Mapperatorinator uses for conditional generation.",
+        "translatedContent": "Hiervoor hebben we een aangepaste versie van [osu-diffusion](https://github.com/OliBomby/osu-diffusion) getraind die is gespecialiseerd in alleen de laatste 10% van het ruisprogramma, en die de geavanceerdere metadatatokens accepteert die Mapperatorinator gebruikt voor conditionele generatie."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "aUekMUAQg+nLWf6ACYAsgl9vk0hKTvu3Urpx0teaCkg=",
+        "originContent": "Since the Mapperatorinator model outputs the SV of sliders, the required length of the slider is fixed regardless of the shape of the control point path.",
+        "translatedContent": "Aangezien het Mapperatorinator-model de SV van sliders uitvoert, is de vereiste lengte van de slider vast ongeacht de vorm van het control point pad."
+      },
+      {
+        "row": 14,
+        "rowsha": "PSdG0R7OrecM07qPVQeDbu7oejufAhM7geRBPkmulHs=",
+        "originContent": "Therefore, we try to guide the diffusion process to create coordinates that fit the required slider lengths.",
+        "translatedContent": "Daarom proberen we het diffusieproces te sturen om coördinaten te creëren die passen bij de vereiste sliderlengtes."
+      },
+      {
+        "row": 15,
+        "rowsha": "FqfW7n7dVVCWioY3Jq1bzj5eutsGx6+zMpqLPPGMrlo=",
+        "originContent": "We do this by recalculating the slider end positions after every step of the diffusion process based on the required length and the current control point path.",
+        "translatedContent": "Dit doen we door na elke stap van het diffusieproces de slider-eindposities opnieuw te berekenen op basis van de vereiste lengte en het huidige control point pad."
+      },
+      {
+        "row": 16,
+        "rowsha": "1DZEujH7sa39UI5fRouovg9KvjtzfgmCtdH8AnQC8M8=",
+        "originContent": "This means that the diffusion process does not have direct control over the slider end positions, but it can still influence them by changing the control point path.",
+        "translatedContent": "Dit betekent dat het diffusieproces geen directe controle heeft over de slider-eindposities, maar ze wel kan beïnvloeden door het control point pad aan te passen."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "6xqQ4xz3ZxypO5C2ULMPsbIiWUNxlcUYd/XuIAm9RUU=",
+        "originContent": "### Post-processing",
+        "translatedContent": "### Post-processing"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "HCdieKOHJMEC4EWxIeJXLYtYtlYdz5SwGajzw+//BWQ=",
+        "originContent": "Mapperatorinator does some extra post-processing to improve the quality of the generated beatmap:",
+        "translatedContent": "Mapperatorinator voert extra nabewerking uit om de kwaliteit van de gegenereerde beatmap te verbeteren:"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "UfnMXBy7v37q6rLanvqOEJx1twoCZS5F5IFbn67WLOE=",
+        "originContent": "- Refine position coordinates with diffusion.",
+        "translatedContent": "- Verfijn positiecoördinaten met diffusie."
+      },
+      {
+        "row": 23,
+        "rowsha": "oCluM0443M+MtOXTGhrT2B7CnJQFSvmlZtOslDrt6n8=",
+        "originContent": "- Resnap time events to the nearest tick using the snap divisors generated by the model.",
+        "translatedContent": "- Resnap tijdgebeurtenissen naar de dichtstbijzijnde tick met behulp van de snapverdelers die door het model zijn gegenereerd."
+      },
+      {
+        "row": 24,
+        "rowsha": "GebhSCAuamJT+acC6k/VNnQNQ2Iu932uLUv2m5inhw0=",
+        "originContent": "- Snap near-perfect positional overlaps.",
+        "translatedContent": "- Snap bijna-perfecte positionele overlappingen."
+      },
+      {
+        "row": 25,
+        "rowsha": "oihL3AJKL2dMd+eePqrJ2NmVbs9h6xmWWS9RQH0r77M=",
+        "originContent": "- Convert mania column events to X coordinates.",
+        "translatedContent": "- Zet mania columnevenementen om naar X-coördinaten."
+      },
+      {
+        "row": 26,
+        "rowsha": "PiuMdipQ3QZC6RcYa+lLvnY5jMkSM5vyCLynDEz11t4=",
+        "originContent": "- Generate slider paths for taiko drumrolls.",
+        "translatedContent": "- Genereer sliderpaden voor taiko drumrolls."
+      },
+      {
+        "row": 27,
+        "rowsha": "AhzhyVbJ0TMnzUZ2WMJpIACL5XctnyJ8h5ZyDWDHdbo=",
+        "originContent": "- Fix big discrepancies in required slider length and control point path length.",
+        "translatedContent": "- Corrigeer grote discrepanties tussen vereiste sliderlengte en control point pad lengte."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "iuAuqV6rjI2+/g4D7/i394YQ3S9GgS3D0weav0HxE1Y=",
+        "originContent": "### Super timing generator",
+        "translatedContent": "### Super timing generator"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "6+Ma7hIcqE0YJ1kY+6rznqXRWWr+gxIV1xqSTLtrsAw=",
+        "originContent": "Super timing generator is an algorithm that improves the precision and accuracy of generated timing by infering timing for the whole song 20 times and averaging the results.",
+        "translatedContent": "Super timing generator is een algoritme dat de precisie en nauwkeurigheid van gegenereerde timing verbetert door timing voor het hele lied 20 keer af te leiden en het resultaat te middelen."
+      },
+      {
+        "row": 32,
+        "rowsha": "/zNUmZizsT/mMSS9+qUeSlkbbaPq15Djy+lXvJvUvrs=",
+        "originContent": "This is useful for songs with variable BPM, or songs with BPM changes. The result is almost perfect with only sometimes a section that needs manual adjustment.",
+        "translatedContent": "Dit is nuttig voor nummers met variabele BPM, of nummers met BPM-wijzigingen. Het resultaat is bijna perfect, met soms slechts een sectie die handmatige aanpassing vereist."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "RyMVT8AI38tOz4vO0V79NvmoheEkQCWRArItkq8CyJU=",
+        "originContent": "## Training",
+        "translatedContent": "## Training"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "ywEYYj+AyEHgrTk4TDf7r92ubOBXe3PS5Ztw3+05WOw=",
+        "originContent": "The instruction below creates a training environment on your local machine.",
+        "translatedContent": "De onderstaande instructie maakt een trainingsomgeving aan op je lokale computer."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "+xj0fCZBnnk1GY2rxUGAtpalIeN4JdfjLYAPNPmqklw=",
+        "originContent": "### 1. Clone the repository",
+        "translatedContent": "### 1. Clone de repository"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```sh\ngit clone https://github.com/OliBomby/Mapperatorinator.git\ncd Mapperatorinator\n```",
+    "ContentSha": "OaS/b4/bPuoOp2xfWw4vL8JAKsjbzPABqvBluCegHzM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ngit clone https://github.com/OliBomby/Mapperatorinator.git\ncd Mapperatorinator\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "zOYvCc16d0IMY+2lzpmVl2bYVfuWTKN/EjyyKOc3ZE8=",
+        "originContent": "git clone https://github.com/OliBomby/Mapperatorinator.git",
+        "translatedContent": "git clone https://github.com/OliBomby/Mapperatorinator.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "seN29s2smYEHnCh2SvzLLwuCVnKIr8n6wQZDzzOIqP8=",
+        "originContent": "cd Mapperatorinator",
+        "translatedContent": "cd Mapperatorinator"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n### 2. Create dataset\n\nCreate your own dataset using the [Mapperator console app](https://github.com/mappingtools/Mapperator/blob/master/README.md#create-a-high-quality-dataset). It requires an [osu! OAuth client token](https://osu.ppy.sh/home/account/edit) to verify beatmaps and get additional metadata. Place the dataset in a `datasets` directory next to the `Mapperatorinator` directory.\n",
+    "ContentSha": "fVm/dHMxzOdQI67axBPWIIXvpIH71WuxPMvKP5Nfr3Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 2. Maak dataset aan\n\nMaak je eigen dataset aan met behulp van de [Mapperator console-app](https://github.com/mappingtools/Mapperator/blob/master/README.md#create-a-high-quality-dataset). Hiervoor heb je een [osu! OAuth client token](https://osu.ppy.sh/home/account/edit) nodig om beatmaps te verifiëren en extra metadata op te halen. Plaats de dataset in een `datasets`-map naast de `Mapperatorinator`-map.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "c92r9cs0dZtq6Ox3fQt2Xzwykp9tATALQDSHiHYXe9k=",
+        "originContent": "### 2. Create dataset",
+        "translatedContent": "### 2. Maak dataset aan"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "W4zpZ8IkdSDyzW8OeNDG1At2lUb0WozqnyPN1Mub09Q=",
+        "originContent": "Create your own dataset using the [Mapperator console app](https://github.com/mappingtools/Mapperator/blob/master/README.md#create-a-high-quality-dataset). It requires an [osu! OAuth client token](https://osu.ppy.sh/home/account/edit) to verify beatmaps and get additional metadata. Place the dataset in a `datasets` directory next to the `Mapperatorinator` directory.",
+        "translatedContent": "Maak je eigen dataset aan met behulp van de [Mapperator console-app](https://github.com/mappingtools/Mapperator/blob/master/README.md#create-a-high-quality-dataset). Hiervoor heb je een [osu! OAuth client token](https://osu.ppy.sh/home/account/edit) nodig om beatmaps te verifiëren en extra metadata op te halen. Plaats de dataset in een `datasets`-map naast de `Mapperatorinator`-map."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```sh\nMapperator.ConsoleApp.exe dataset2 -t \"/Mapperatorinator/datasets/beatmap_descriptors.csv\" -i \"path/to/osz/files\" -o \"/datasets/cool_dataset\"\n```",
+    "ContentSha": "Sw/z1ojvOiotMA9OucyGnXsm0uQwY7AedNgTpxKawuk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nMapperator.ConsoleApp.exe dataset2 -t \"/Mapperatorinator/datasets/beatmap_descriptors.csv\" -i \"path/to/osz/files\" -o \"/datasets/cool_dataset\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "sSlKt47ajSR3jf5+lha0BoAT6UlFt+sIlFXMlmmPYmU=",
+        "originContent": "Mapperator.ConsoleApp.exe dataset2 -t \"/Mapperatorinator/datasets/beatmap_descriptors.csv\" -i \"path/to/osz/files\" -o \"/datasets/cool_dataset\"",
+        "translatedContent": "Mapperator.ConsoleApp.exe dataset2 -t \"/Mapperatorinator/datasets/beatmap_descriptors.csv\" -i \"path/to/osz/files\" -o \"/datasets/cool_dataset\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n### 3. (Optional) Set-up Weight & Biases for logging\nCreate an account on [Weight & Biases](https://wandb.ai/site) and get your API key from your account settings.\nThen set the `WANDB_API_KEY` environment variable, so the training process knows to log to this key.\n",
+    "ContentSha": "ijSQGtdVXlcCXxpI69y22wZdYV2vUP9b4KRBPqL4F3Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 3. (Optioneel) Stel Weight & Biases in voor logging\nMaak een account aan op [Weight & Biases](https://wandb.ai/site) en haal je API-sleutel op uit je accountinstellingen.\nStel vervolgens de `WANDB_API_KEY` omgevingsvariabele in, zodat het trainingsproces weet dat er op deze sleutel gelogd moet worden.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "nhCDG3f9MRI/V4j3nOSn8bzr+wvGYEO69wbgzAymowc=",
+        "originContent": "### 3. (Optional) Set-up Weight & Biases for logging",
+        "translatedContent": "### 3. (Optioneel) Stel Weight & Biases in voor logging"
+      },
+      {
+        "row": 3,
+        "rowsha": "ELW+6WWUbGsB1fFViRgEDUDzLPd7DoE7gQNkDqnGRiM=",
+        "originContent": "Create an account on [Weight & Biases](https://wandb.ai/site) and get your API key from your account settings.",
+        "translatedContent": "Maak een account aan op [Weight & Biases](https://wandb.ai/site) en haal je API-sleutel op uit je accountinstellingen."
+      },
+      {
+        "row": 4,
+        "rowsha": "q9XVjvx7GlN10KRI+2pzFQOJoa/hFv0gnxZgo69JHi4=",
+        "originContent": "Then set the `WANDB_API_KEY` environment variable, so the training process knows to log to this key.",
+        "translatedContent": "Stel vervolgens de `WANDB_API_KEY` omgevingsvariabele in, zodat het trainingsproces weet dat er op deze sleutel gelogd moet worden."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```sh\nexport WANDB_API_KEY=<your_api_key>\n```",
+    "ContentSha": "Fr778rN5ptmOcljhH1frd+vrI3ZpUVjcdJUs6y2r5l0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nexport WANDB_API_KEY=<your_api_key>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "gMEdy3txtLFw9Xwc+A3iRksb4ZhkoybazDMdu5Tq2xo=",
+        "originContent": "export WANDB_API_KEY=<your_api_key>",
+        "translatedContent": "export WANDB_API_KEY=<your_api_key>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n### 4. Create docker container\nTraining in your venv is also possible, but we recommend using Docker on WSL for better performance.",
+    "ContentSha": "YQYXMsMgoRYv/Fhz+9PnR0vmCQkgow5nXmIHoOPa+kY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 4. Maak een docker container\nTraining in je venv is ook mogelijk, maar we raden aan Docker op WSL te gebruiken voor betere prestaties.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "9Oc/FjO4GOeA/OiGRL9SeM8mj108eaJIiXu/G6CQHhg=",
+        "originContent": "### 4. Create docker container",
+        "translatedContent": "### 4. Maak een docker container"
+      },
+      {
+        "row": 3,
+        "rowsha": "YzCS7PnVa55QQ3R0AZ7Wjvg9ev4ErtK09TK+4C0c3Qk=",
+        "originContent": "Training in your venv is also possible, but we recommend using Docker on WSL for better performance.",
+        "translatedContent": "Training in je venv is ook mogelijk, maar we raden aan Docker op WSL te gebruiken voor betere prestaties."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "```sh\ndocker compose up -d --force-recreate\ndocker attach mapperatorinator_space\ncd Mapperatorinator\n```",
+    "ContentSha": "s2iym9OnRu/4MSvE2Fg/sYntt0kqUy5O0QGdlczMmIc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ndocker compose up -d --force-recreate\ndocker attach mapperatorinator_space\ncd Mapperatorinator\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "+bHYg8LcgBwCYHnJip/8fxOsz/dCtJCpPWT+QIyb3w8=",
+        "originContent": "docker compose up -d --force-recreate",
+        "translatedContent": "docker compose up -d --force-recreate"
+      },
+      {
+        "row": 3,
+        "rowsha": "7K6d4XFBiFFlxihLlHr3NoVUCo5iz8gOzAxgRUQj0O4=",
+        "originContent": "docker attach mapperatorinator_space",
+        "translatedContent": "docker attach mapperatorinator_space"
+      },
+      {
+        "row": 4,
+        "rowsha": "seN29s2smYEHnCh2SvzLLwuCVnKIr8n6wQZDzzOIqP8=",
+        "originContent": "cd Mapperatorinator",
+        "translatedContent": "cd Mapperatorinator"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "\n### 5. Configure parameters and begin training\n\nAll configurations are located in `./configs/train/default.yaml`. \nMake sure to set the correct `train_dataset_path` and `test_dataset_path` to your dataset, as well as the start and end mapset indices for train/test split.\nThe path is local to the docker container, so if you placed your dataset called `cool_dataset` into the `datasets` directory, then it should be `/workspace/datasets/cool_dataset`.\n\nI recommend making a custom config file that overrides the default config, so you have a record of your training config for reproducibility.\n",
+    "ContentSha": "aiP6ikkv5P25XfUNTaxRBP0XaBj7lsatO3eaT781y8k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 5. Configureer parameters en start de training\n\nAlle configuraties zijn te vinden in `./configs/train/default.yaml`.\nZorg ervoor dat je het juiste `train_dataset_path` en `test_dataset_path` instelt naar jouw dataset, evenals de start- en eindindices van de mapset voor de train/test split.\nHet pad is lokaal voor de dockercontainer, dus als je jouw dataset genaamd `cool_dataset` in de `datasets`-directory hebt geplaatst, moet het `/workspace/datasets/cool_dataset` zijn.\n\nIk raad aan om een aangepast configuratiebestand te maken dat de standaardconfiguratie overschrijft, zodat je een overzicht hebt van je trainingsconfiguratie voor reproduceerbaarheid.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ZCv4unyC/tqpEUrF/BOu9zcZfFuArNgQr5D2r5jEeOM=",
+        "originContent": "### 5. Configure parameters and begin training",
+        "translatedContent": "### 5. Configureer parameters en start de training"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "GtcAYv6QxkBoZA3Rbk3BT4RDM78ArOvbUMGg47Xdfws=",
+        "originContent": "All configurations are located in `./configs/train/default.yaml`. ",
+        "translatedContent": "Alle configuraties zijn te vinden in `./configs/train/default.yaml`."
+      },
+      {
+        "row": 5,
+        "rowsha": "c7oF4LQCfhYNhVxyNGxBufUjBLTYuOioSviYkCq2ThU=",
+        "originContent": "Make sure to set the correct `train_dataset_path` and `test_dataset_path` to your dataset, as well as the start and end mapset indices for train/test split.",
+        "translatedContent": "Zorg ervoor dat je het juiste `train_dataset_path` en `test_dataset_path` instelt naar jouw dataset, evenals de start- en eindindices van de mapset voor de train/test split."
+      },
+      {
+        "row": 6,
+        "rowsha": "4TTSBxE+yeXWtBduaMXIvM3edCf/tr2BKOQAI296TCc=",
+        "originContent": "The path is local to the docker container, so if you placed your dataset called `cool_dataset` into the `datasets` directory, then it should be `/workspace/datasets/cool_dataset`.",
+        "translatedContent": "Het pad is lokaal voor de dockercontainer, dus als je jouw dataset genaamd `cool_dataset` in de `datasets`-directory hebt geplaatst, moet het `/workspace/datasets/cool_dataset` zijn."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "DRZxnWCMA4O4/Lm4jX7zjsv551YYpgU3WNVQlkEA1Dc=",
+        "originContent": "I recommend making a custom config file that overrides the default config, so you have a record of your training config for reproducibility.",
+        "translatedContent": "Ik raad aan om een aangepast configuratiebestand te maken dat de standaardconfiguratie overschrijft, zodat je een overzicht hebt van je trainingsconfiguratie voor reproduceerbaarheid."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 32,
+    "Content": "```yaml\ndata:\n  train_dataset_path: \"/workspace/datasets/cool_dataset\"\n  test_dataset_path: \"/workspace/datasets/cool_dataset\"\n  train_dataset_start: 0\n  train_dataset_end: 90\n  test_dataset_start: 90\n  test_dataset_end: 100\n```",
+    "ContentSha": "bIEDs41Lsgz6GIZe24ULCrghsh5whqC3KHk5c+rpB30=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\ndata:\n  train_dataset_path: \"/workspace/datasets/cool_dataset\"\n  test_dataset_path: \"/workspace/datasets/cool_dataset\"\n  train_dataset_start: 0\n  train_dataset_end: 90\n  test_dataset_start: 90\n  test_dataset_end: 100\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "/3LKo23KK6oQqFZ+fDA/OHeJdZ43e2aQQEe1zub2nCs=",
+        "originContent": "data:",
+        "translatedContent": "data:"
+      },
+      {
+        "row": 3,
+        "rowsha": "wqKiht+hrEs+o1gx4KQpfgMX7llzQ2/YhX+CpyttmYc=",
+        "originContent": "  train_dataset_path: \"/workspace/datasets/cool_dataset\"",
+        "translatedContent": "  train_dataset_path: \"/workspace/datasets/cool_dataset\""
+      },
+      {
+        "row": 4,
+        "rowsha": "KO1FbvmNWPvJiTDaHgAgiAugih+1QOLVN0JEXrJEi1I=",
+        "originContent": "  test_dataset_path: \"/workspace/datasets/cool_dataset\"",
+        "translatedContent": "  test_dataset_path: \"/workspace/datasets/cool_dataset\""
+      },
+      {
+        "row": 5,
+        "rowsha": "YJF63sy4K3PhWSU/G93sbSMOyjzR01bbufgw9xDV5cA=",
+        "originContent": "  train_dataset_start: 0",
+        "translatedContent": "  train_dataset_start: 0"
+      },
+      {
+        "row": 6,
+        "rowsha": "1owynzKRO7l0CzcNXSi4rFywzgiXUxU9A6oHZGvJmCs=",
+        "originContent": "  train_dataset_end: 90",
+        "translatedContent": "  train_dataset_end: 90"
+      },
+      {
+        "row": 7,
+        "rowsha": "hrHYGa0CdHnhrcfnFHuvBJ25t7gdf8yhiertXMT6A0Y=",
+        "originContent": "  test_dataset_start: 90",
+        "translatedContent": "  test_dataset_start: 90"
+      },
+      {
+        "row": 8,
+        "rowsha": "RwG9+FQSNJIPdnbv55i1poV3s4az82uCf+1p++Ps92U=",
+        "originContent": "  test_dataset_end: 100",
+        "translatedContent": "  test_dataset_end: 100"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 33,
+    "Content": "\nBegin training by calling `python osuT5/train.py` or `torchrun --nproc_per_node=NUM_GPUS osuT5/train.py` for multi-GPU training.\n\n",
+    "ContentSha": "fjrFfBYDjlW8Z//b15oaYNhoTdkn9dGYYk2k4z/o90w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nBegin training by calling `python osuT5/train.py` or `torchrun --nproc_per_node=NUM_GPUS osuT5/train.py` for multi-GPU training.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "M/UYKIl1wlcpnQH2u2FaK7+3kUv0ZOKCsG6Ho9i2lLk=",
+        "originContent": "Begin training by calling `python osuT5/train.py` or `torchrun --nproc_per_node=NUM_GPUS osuT5/train.py` for multi-GPU training.",
+        "translatedContent": "Begin training by calling `python osuT5/train.py` or `torchrun --nproc_per_node=NUM_GPUS osuT5/train.py` for multi-GPU training."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 34,
+    "Content": "```sh\npython osuT5/train.py -cn train_v29 train_dataset_path=\"/workspace/datasets/cool_dataset\" test_dataset_path=\"/workspace/datasets/cool_dataset\" train_dataset_end=90 test_dataset_start=90 test_dataset_end=100\n```",
+    "ContentSha": "GS+qJbl2/Z5sMhenLGY1qB+tZyMUgyR1rPOV3Y9e8Ng=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npython osuT5/train.py -cn train_v29 train_dataset_path=\"/workspace/datasets/cool_dataset\" test_dataset_path=\"/workspace/datasets/cool_dataset\" train_dataset_end=90 test_dataset_start=90 test_dataset_end=100\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Tlkll9ZE4C1oTNHtLfLMImhlKQR3iWMcPMWPL0LQs3s=",
+        "originContent": "python osuT5/train.py -cn train_v29 train_dataset_path=\"/workspace/datasets/cool_dataset\" test_dataset_path=\"/workspace/datasets/cool_dataset\" train_dataset_end=90 test_dataset_start=90 test_dataset_end=100",
+        "translatedContent": "python osuT5/train.py -cn train_v29 train_dataset_path=\"/workspace/datasets/cool_dataset\" test_dataset_path=\"/workspace/datasets/cool_dataset\" train_dataset_end=90 test_dataset_start=90 test_dataset_end=100"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 35,
+    "Content": "\n### 6. LoRA fine-tuning\n\nYou can also fine-tune a pre-trained model with [LoRA](https://arxiv.org/abs/2106.09685) to adapt it to a specific style or gamemode.\nTo do this, adapt `configs/train/lora.yaml` to your needs and run the `lora` training config:\n",
+    "ContentSha": "eJ/T5RlvhDLX3k8AzH9zPmJrjHfqTejmG5vcaDU9Ezw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 6. LoRA-finetuning\n\nJe kunt ook een voorgetraind model fijn afstemmen met [LoRA](https://arxiv.org/abs/2106.09685) om het aan te passen aan een specifieke stijl of gamemodus.\nHiervoor pas je `configs/train/lora.yaml` aan naar jouw wensen en start je de `lora` trainingsconfiguratie:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "6EhtTRGtUCrZeUcG9n5Ick8nJGD7sS163Olwmo7Wj/I=",
+        "originContent": "### 6. LoRA fine-tuning",
+        "translatedContent": "### 6. LoRA-finetuning"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Lnoqesz/phTdX10D5nLCFaWLud/Sxp2LFGBcCSWcqi0=",
+        "originContent": "You can also fine-tune a pre-trained model with [LoRA](https://arxiv.org/abs/2106.09685) to adapt it to a specific style or gamemode.",
+        "translatedContent": "Je kunt ook een voorgetraind model fijn afstemmen met [LoRA](https://arxiv.org/abs/2106.09685) om het aan te passen aan een specifieke stijl of gamemodus."
+      },
+      {
+        "row": 5,
+        "rowsha": "E6mX9haJtBXzWGvtp4A9rlFltc5QcAfs8OWRKyMIwpA=",
+        "originContent": "To do this, adapt `configs/train/lora.yaml` to your needs and run the `lora` training config:",
+        "translatedContent": "Hiervoor pas je `configs/train/lora.yaml` aan naar jouw wensen en start je de `lora` trainingsconfiguratie:"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 36,
+    "Content": "```sh\npython osuT5/train.py -cn lora train_dataset_path=\"/workspace/datasets/cool_dataset\" test_dataset_path=\"/workspace/datasets/cool_dataset\" train_dataset_end=90 test_dataset_start=90 test_dataset_end=100\n```",
+    "ContentSha": "6g2BzqL1gPO77Cvp/3HMpKszPiY/BGLXI49m9hj6iuA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npython osuT5/train.py -cn lora train_dataset_path=\"/workspace/datasets/cool_dataset\" test_dataset_path=\"/workspace/datasets/cool_dataset\" train_dataset_end=90 test_dataset_start=90 test_dataset_end=100\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "QHPEmIPNQUwm2rge0xs8ijnHmFXOinabgIRmrnlBwwk=",
+        "originContent": "python osuT5/train.py -cn lora train_dataset_path=\"/workspace/datasets/cool_dataset\" test_dataset_path=\"/workspace/datasets/cool_dataset\" train_dataset_end=90 test_dataset_start=90 test_dataset_end=100",
+        "translatedContent": "python osuT5/train.py -cn lora train_dataset_path=\"/workspace/datasets/cool_dataset\" test_dataset_path=\"/workspace/datasets/cool_dataset\" train_dataset_end=90 test_dataset_start=90 test_dataset_end=100"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 37,
+    "Content": "\nImportant LoRA parameters to consider:\n- `pretrained_path`: Path or HF repo of the base model to fine-tune.\n- `r`: Rank of the LoRA matrices. Higher values increase model capacity but also memory usage.\n- `lora_alpha`: Scaling factor for the LoRA updates.\n- `total_steps`: Total number of training steps. Balance this according to your dataset size.\n- `enable_lora`: Whether to use LoRA or full model fine-tuning.\n\nDuring inference, you can specify the LoRA weights to use with the `lora_path` argument.\nThis can be a local path or a Hugging Face repo.\n\n## See also\n- [Mapper Classifier](https://raw.githubusercontent.com/OliBomby/Mapperatorinator/main/./classifier/README.md)\n- [RComplexion](https://raw.githubusercontent.com/OliBomby/Mapperatorinator/main/./rcomplexion/README.md)\n\n## Credits\n\nSpecial thanks to:\n1. The authors of [osuT5](https://github.com/gyataro/osuT5) for their training code.\n2. Hugging Face team for their [tools](https://huggingface.co/docs/transformers/index).\n3. [Jason Won](https://github.com/jaswon) and [Richard Nagyfi](https://github.com/sedthh) for bouncing ideas.\n4. [Marvin](https://github.com/minetoblend) for donating training credits.\n5. The osu! community for the beatmaps.\n\n## Related works\n\n1. [osu! Beatmap Generator](https://github.com/Syps/osu_beatmap_generator) by Syps (Nick Sypteras)\n2. [osumapper](https://github.com/kotritrona/osumapper) by kotritrona, jyvden, Yoyolick (Ryan Zmuda)\n3. [osu-diffusion](https://github.com/OliBomby/osu-diffusion) by OliBomby (Olivier Schipper), NiceAesth (Andrei Baciu)\n4. [osuT5](https://github.com/gyataro/osuT5) by gyataro (Xiwen Teoh)\n5. [Beat Learning](https://github.com/sedthh/BeatLearning) by sedthh (Richard Nagyfi)\n6. [osu!dreamer](https://github.com/jaswon/osu-dreamer) by jaswon (Jason Won)\n",
+    "ContentSha": "fGhuQOBsF8TCmJEIOsxTyJGTK/Haj7qmEj5m5PcA7fc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nBelangrijke LoRA-parameters om te overwegen:\n- `pretrained_path`: Pad of HF-repository van het basismodel om te fine-tunen.\n- `r`: Rang van de LoRA-matrices. Hogere waarden verhogen de modelcapaciteit maar ook het geheugengebruik.\n- `lora_alpha`: Schaalfactor voor de LoRA-updates.\n- `total_steps`: Totaal aantal trainingsstappen. Stem dit af op de grootte van je dataset.\n- `enable_lora`: Of LoRA of volledige model fine-tuning wordt gebruikt.\n\nTijdens inferentie kun je de LoRA-gewichten specificeren met het argument `lora_path`.\nDit kan een lokaal pad of een Hugging Face-repository zijn.\n\n## Zie ook\n- [Mapper Classifier](https://raw.githubusercontent.com/OliBomby/Mapperatorinator/main/./classifier/README.md)\n- [RComplexion](https://raw.githubusercontent.com/OliBomby/Mapperatorinator/main/./rcomplexion/README.md)\n\n## Credits\n\nSpeciale dank aan:\n1. De auteurs van [osuT5](https://github.com/gyataro/osuT5) voor hun trainingscode.\n2. Het Hugging Face-team voor hun [tools](https://huggingface.co/docs/transformers/index).\n3. [Jason Won](https://github.com/jaswon) en [Richard Nagyfi](https://github.com/sedthh) voor het uitwisselen van ideeën.\n4. [Marvin](https://github.com/minetoblend) voor het doneren van trainingscredits.\n5. De osu!-gemeenschap voor de beatmaps.\n\n## Gerelateerde werken\n\n1. [osu! Beatmap Generator](https://github.com/Syps/osu_beatmap_generator) door Syps (Nick Sypteras)\n2. [osumapper](https://github.com/kotritrona/osumapper) door kotritrona, jyvden, Yoyolick (Ryan Zmuda)\n3. [osu-diffusion](https://github.com/OliBomby/osu-diffusion) door OliBomby (Olivier Schipper), NiceAesth (Andrei Baciu)\n4. [osuT5](https://github.com/gyataro/osuT5) door gyataro (Xiwen Teoh)\n5. [Beat Learning](https://github.com/sedthh/BeatLearning) door sedthh (Richard Nagyfi)\n6. [osu!dreamer](https://github.com/jaswon/osu-dreamer) door jaswon (Jason Won)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "/9jXigp9iLuGLPpruZs4rCmOR+HX3x9Q4h1mUO7OBsg=",
+        "originContent": "Important LoRA parameters to consider:",
+        "translatedContent": "Belangrijke LoRA-parameters om te overwegen:"
+      },
+      {
+        "row": 3,
+        "rowsha": "2Q0ITKr4Mje4HhRvt9+KuCg1G0Dv83d0Q3hDpo5tvgA=",
+        "originContent": "- `pretrained_path`: Path or HF repo of the base model to fine-tune.",
+        "translatedContent": "- `pretrained_path`: Pad of HF-repository van het basismodel om te fine-tunen."
+      },
+      {
+        "row": 4,
+        "rowsha": "Lxdl9YXYLLymxZpdPfkMkbPaouCSlHGknkLB9X132ZQ=",
+        "originContent": "- `r`: Rank of the LoRA matrices. Higher values increase model capacity but also memory usage.",
+        "translatedContent": "- `r`: Rang van de LoRA-matrices. Hogere waarden verhogen de modelcapaciteit maar ook het geheugengebruik."
+      },
+      {
+        "row": 5,
+        "rowsha": "fDakv+FPIbSNavFcAkgFAva1IXe6AdXKP/dxYkyxeBw=",
+        "originContent": "- `lora_alpha`: Scaling factor for the LoRA updates.",
+        "translatedContent": "- `lora_alpha`: Schaalfactor voor de LoRA-updates."
+      },
+      {
+        "row": 6,
+        "rowsha": "4QRjh8vn8cqvtSYXOBj7biD8M1T9h9EFLILvK/oYHlQ=",
+        "originContent": "- `total_steps`: Total number of training steps. Balance this according to your dataset size.",
+        "translatedContent": "- `total_steps`: Totaal aantal trainingsstappen. Stem dit af op de grootte van je dataset."
+      },
+      {
+        "row": 7,
+        "rowsha": "/jsajSiBoVYs3uALC2doOuVulNt5lNw2q+0yuO+HYZA=",
+        "originContent": "- `enable_lora`: Whether to use LoRA or full model fine-tuning.",
+        "translatedContent": "- `enable_lora`: Of LoRA of volledige model fine-tuning wordt gebruikt."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "7hh+hiZDd5/1IeLbDkqc03OBLHLe5qWP5K4W73Kvjkc=",
+        "originContent": "During inference, you can specify the LoRA weights to use with the `lora_path` argument.",
+        "translatedContent": "Tijdens inferentie kun je de LoRA-gewichten specificeren met het argument `lora_path`."
+      },
+      {
+        "row": 10,
+        "rowsha": "a9amaBdn2Zq2OeoFabcaBG6jU/gUUkSkgioNtHgJ6Bo=",
+        "originContent": "This can be a local path or a Hugging Face repo.",
+        "translatedContent": "Dit kan een lokaal pad of een Hugging Face-repository zijn."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "+G2s2/KW3zKGIG1CZQvi5bMo8w6HwuKpGJS75uXh73g=",
+        "originContent": "## See also",
+        "translatedContent": "## Zie ook"
+      },
+      {
+        "row": 13,
+        "rowsha": "+5x8TfgTlvwBQQKn2A6AsRSESTpuDF0/jkLRbvcvreU=",
+        "originContent": "- [Mapper Classifier](https://raw.githubusercontent.com/OliBomby/Mapperatorinator/main/./classifier/README.md)",
+        "translatedContent": "- [Mapper Classifier](https://raw.githubusercontent.com/OliBomby/Mapperatorinator/main/./classifier/README.md)"
+      },
+      {
+        "row": 14,
+        "rowsha": "kjq20vqvcXxEidHrGFqC3Y79530ntZk2jdjm73EyC+g=",
+        "originContent": "- [RComplexion](https://raw.githubusercontent.com/OliBomby/Mapperatorinator/main/./rcomplexion/README.md)",
+        "translatedContent": "- [RComplexion](https://raw.githubusercontent.com/OliBomby/Mapperatorinator/main/./rcomplexion/README.md)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "## Credits"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "17xrnRFrxtbV2/VrEOM7MvNVU+4x1tdBoWQSX8P3fpo=",
+        "originContent": "Special thanks to:",
+        "translatedContent": "Speciale dank aan:"
+      },
+      {
+        "row": 19,
+        "rowsha": "BPaZDy3TFTA9GqpFlfKwATQ+3PnGj2fVQrMJXniHcZg=",
+        "originContent": "1. The authors of [osuT5](https://github.com/gyataro/osuT5) for their training code.",
+        "translatedContent": "1. De auteurs van [osuT5](https://github.com/gyataro/osuT5) voor hun trainingscode."
+      },
+      {
+        "row": 20,
+        "rowsha": "z4SITYxXcEjSfNuM6bbFGOqIjjW/Piyvf5xdS7XTFeo=",
+        "originContent": "2. Hugging Face team for their [tools](https://huggingface.co/docs/transformers/index).",
+        "translatedContent": "2. Het Hugging Face-team voor hun [tools](https://huggingface.co/docs/transformers/index)."
+      },
+      {
+        "row": 21,
+        "rowsha": "DPS4FWJjVdcm53TwzNc23JOrm5seBqSm33fXuUYiH7M=",
+        "originContent": "3. [Jason Won](https://github.com/jaswon) and [Richard Nagyfi](https://github.com/sedthh) for bouncing ideas.",
+        "translatedContent": "3. [Jason Won](https://github.com/jaswon) en [Richard Nagyfi](https://github.com/sedthh) voor het uitwisselen van ideeën."
+      },
+      {
+        "row": 22,
+        "rowsha": "EN9klyqJJoCpJZ7a4CkAGMVgIX94ziki2SWv57BxrJ8=",
+        "originContent": "4. [Marvin](https://github.com/minetoblend) for donating training credits.",
+        "translatedContent": "4. [Marvin](https://github.com/minetoblend) voor het doneren van trainingscredits."
+      },
+      {
+        "row": 23,
+        "rowsha": "0RhWiPzTYNNeQ60Pf51eB4xTEz1qlZLtA2MlLIrxbNA=",
+        "originContent": "5. The osu! community for the beatmaps.",
+        "translatedContent": "5. De osu!-gemeenschap voor de beatmaps."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "pOXhrswT9L95TsH1/yPtFnGMt7SF2igUXxxQI2LuY2Y=",
+        "originContent": "## Related works",
+        "translatedContent": "## Gerelateerde werken"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "WF0NnRkzV3MoMcXQoLYVJu2t4aGre80CnIBifLGPbBY=",
+        "originContent": "1. [osu! Beatmap Generator](https://github.com/Syps/osu_beatmap_generator) by Syps (Nick Sypteras)",
+        "translatedContent": "1. [osu! Beatmap Generator](https://github.com/Syps/osu_beatmap_generator) door Syps (Nick Sypteras)"
+      },
+      {
+        "row": 28,
+        "rowsha": "CUI1xSXrXCMlQl+OISg0BofFq+QWfXaKXLye7N7xrvA=",
+        "originContent": "2. [osumapper](https://github.com/kotritrona/osumapper) by kotritrona, jyvden, Yoyolick (Ryan Zmuda)",
+        "translatedContent": "2. [osumapper](https://github.com/kotritrona/osumapper) door kotritrona, jyvden, Yoyolick (Ryan Zmuda)"
+      },
+      {
+        "row": 29,
+        "rowsha": "l8v8yw20HUW7Syl/4u/AnguxnCcVvST8UY+y5whx8PI=",
+        "originContent": "3. [osu-diffusion](https://github.com/OliBomby/osu-diffusion) by OliBomby (Olivier Schipper), NiceAesth (Andrei Baciu)",
+        "translatedContent": "3. [osu-diffusion](https://github.com/OliBomby/osu-diffusion) door OliBomby (Olivier Schipper), NiceAesth (Andrei Baciu)"
+      },
+      {
+        "row": 30,
+        "rowsha": "H34V/r+MbPBE1I2g6F6xivSj3oKdY1F/PnYLYiFb9xw=",
+        "originContent": "4. [osuT5](https://github.com/gyataro/osuT5) by gyataro (Xiwen Teoh)",
+        "translatedContent": "4. [osuT5](https://github.com/gyataro/osuT5) door gyataro (Xiwen Teoh)"
+      },
+      {
+        "row": 31,
+        "rowsha": "l7Yq49MFJ6SS/7aSdlHogTuKz6NONjdmrULtKVxW+wc=",
+        "originContent": "5. [Beat Learning](https://github.com/sedthh/BeatLearning) by sedthh (Richard Nagyfi)",
+        "translatedContent": "5. [Beat Learning](https://github.com/sedthh/BeatLearning) door sedthh (Richard Nagyfi)"
+      },
+      {
+        "row": 32,
+        "rowsha": "QdmxrRZzbUmN7Ey/nt1h4xKPRBZbrCsj/ALhHc6DYgU=",
+        "originContent": "6. [osu!dreamer](https://github.com/jaswon/osu-dreamer) by jaswon (Jason Won)",
+        "translatedContent": "6. [osu!dreamer](https://github.com/jaswon/osu-dreamer) door jaswon (Jason Won)"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

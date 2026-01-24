@@ -1,17 +1,49 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=OliBomby&project=Mapperatorinator&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Mapperatorinator
 
 Prueba el modelo generativo [aquí](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb), o MaiMod [aquí](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb). Mira una demostración en video [aquí](https://youtu.be/FEr7t1L2EoA).
 
-Mapperatorinator es un marco multimodelo que utiliza entradas de espectrogramas para generar mapas de osu! completamente detallados para todos los modos de juego y [modding asistido de mapas](#maimod-the-ai-driven-modding-tool).
-El objetivo de este proyecto es generar automáticamente mapas de osu! de calidad clasificable a partir de cualquier canción con un alto grado de personalización.
+Mapperatorinator es un marco multi-modelo que utiliza entradas de espectrograma para generar mapas de osu! completamente funcionales para todos los modos de juego y [asistir en el modding de mapas](#maimod-the-ai-driven-modding-tool).
+El objetivo de este proyecto es generar automáticamente mapas de osu! de calidad rankeable para cualquier canción, con un alto grado de personalización.
 
-Este proyecto está basado en [osuT5](https://github.com/gyataro/osuT5) y [osu-diffusion](https://github.com/OliBomby/osu-diffusion). En el desarrollo de esto, dediqué alrededor de 2500 horas de cómputo en GPU a lo largo de 142 ejecuciones en mi 4060 Ti y en instancias alquiladas 4090 en vast.ai.
+Este proyecto está construido sobre [osuT5](https://github.com/gyataro/osuT5) y [osu-diffusion](https://github.com/OliBomby/osu-diffusion). Para desarrollarlo, dediqué aproximadamente 2500 horas de cómputo GPU en 142 ejecuciones en mi 4060 Ti y alquilando instancias 4090 en vast.ai.
 
-#### Usa esta herramienta responsablemente. Siempre revela el uso de IA en tus mapas.
+#### Utiliza esta herramienta de manera responsable. Siempre divulga el uso de IA en tus beatmaps.
 
 ## Instalación
 
-La instrucción a continuación te permite generar mapas en tu máquina local, alternativamente puedes ejecutarlo en la nube con el [notebook de colab](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb).
+La siguiente instrucción te permite generar beatmaps en tu máquina local, alternativamente puedes ejecutarlo en la nube con el [colab notebook](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb).
 
 ### 1. Clona el repositorio
 
@@ -358,6 +390,6 @@ Agradecimientos especiales a:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-24
 
 ---
