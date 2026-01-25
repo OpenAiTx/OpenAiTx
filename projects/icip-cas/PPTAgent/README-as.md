@@ -1,151 +1,233 @@
+
 <div align="right">
   <details>
     <summary >🌐 ভাষা</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=en">ইংৰাজী</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-CN">সৰল চীনী</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-TW">পৰম্পৰাগত চীনী</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ja">জাপানী</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ko">কোৰিয়ান</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi">হিন্দী</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=th">থাই</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fr">ফৰাচী</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=de">জাৰ্মান</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=es">স্পেনিছ</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=it">ইটালিয়ান</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ru">ৰাছিয়ান</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pt">পৰ্তুগীজ</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=nl">ডাচ</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pl">পোলিশ</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar">আৰবী</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fa">ফাৰ্ছী</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=tr">তুৰ্কী</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=vi">ভিয়েটনামী</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=id">ইণ্ডোনেছিয়ান</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=as">অসমীয়া</
+        <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
-# PPTAgent: পাঠ-টু-স্লাইডছৰ সীমা অতিক্ৰম কৰি প্ৰেজেন্টেশ্বন সৃষ্টি আৰু মূল্যায়ন
-<p align="center">
-  📄 <a href="https://arxiv.org/abs/2501.03936" target="_blank">প্ৰবন্ধ</a> &nbsp; | &nbsp;
-  🤗 <a href="#open-source-" target="_blank">উন্মুক্ত উৎস</a> &nbsp; | &nbsp;
-  📝 <a href="./DOC.md" target="_blank">দস্তাবেজ</a> &nbsp; | &nbsp;
-  🙏 <a href="#citation-" target="_blank">উদ্ধৃতি</a> &nbsp; | &nbsp;
-  <a href="https://deepwiki.com/icip-cas/PPTAgent" target="_blank"><img src="https://deepwiki.com/icon.png" alt="DeepWikiত সোধক"> DeepWiki</a>
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/pptagent-logo.png" width="240px">
+</div>
+
+https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
+
+## 📫 যোগাযোগ কৰক
+> এই ৰেপ'ৰ মুখ্য অৱদানকাৰীজন এজন মাস্টাৰ্ছ ছাত্ৰ, যি ২০২৬ চনত উত্তীৰ্ণ হ'ব, বৰ্তমান চাকৰিৰ সন্ধানত আছে। সহযোগিতা বা চাকৰিৰ সুযোগৰ বাবে যোগাযোগ কৰিবলৈ স্বাধীন অনুভৱ কৰক।
+>
+> এই সংৰক্ষণাগাৰৰ মুখ্য অৱদানকাৰী এজন ২০২৬ বৰ্ষৰ স্নাতকোত্তৰ শিক্ষান্ত পৰীক্ষার্থী, বৰ্তমান কৰ্মঅন্বেষণত আছে, যোগাযোগ কৰিবলৈ স্বাগতম।
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
+</div>
+
+## 📅 বাতৰি
+- [২০২৬/০১]: আমি এতিয়া ফ্ৰীফর্ম আৰু টেম্পলেট জেনাৰেশ্যন সমৰ্থিত PPTX এক্সপ'ৰ্ট, অফলাইন মড সমৰ্থন কৰোঁ! পৰিপ্ৰেক্ষিত পৰিচালনাও যোগ হৈছে যাতে পৰিপ্ৰেক্ষিত অতিক্ৰম নঘটে।
+- [২০২৫/১২]: 🔥 V2 মুক্তি দিয়া হৈছে ডাঙৰ উন্নতিৰে - গভীৰ গৱেষণা একত্ৰিকৰণ, মুক্ত-ৰূপ ভিজ্যুয়েল ডিজাইন, স্বয়ংক্ৰিয় সম্পদ সৃষ্টিৰ ক্ষমতা, পাঠ্য-ৰূপান্তৰিত চিত্ৰ আৰু এজেন্ট পৰিৱেশ sandbox আৰু ২০+ টুলৰ সৈতে।
+- [২০২৫/০৯]: 🛠️ MCP ছাৰ্ভাৰ সমৰ্থন যোগ হৈছে - সংৰূপৰ বাবে চাওক [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-)
+- [২০২৫/০৯]: 🚀 V2 মুক্তি দিয়া হৈছে ডাঙৰ উন্নতিৰে - বিৱৰণৰ বাবে চাওক [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0)
+- [২০২৫/০৮]: 🎉 পেপাৰ **EMNLP 2025**-ত গ্ৰহণ কৰা হৈছে!
+- [২০২৫/০৫]: ✨ V1 মুক্তি দিয়া হৈছে মুখ্য কাৰ্যক্ষমতাৰ সৈতে আৰু 🌟 গুৰুত্বপূৰ্ণ সাফল্য: GitHub-ত ১,০০০ টা ষ্টাৰ লাভ কৰা হৈছে! - বিৱৰণৰ বাবে চাওক [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0)
+- [২০২৫/০১]: 🔓 ক'ডবেছ খোলাখুলিভাৱে মুক্তি দিয়া হৈছে, পৰীক্ষামূলক ক'ড সংৰক্ষিত [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)-ত
+
+## 📖 ব্যৱহাৰ
+
+> [!IMPORTANT]
+> ১. এই সকলো API কী, সংৰূপ আৰু সেৱাসমূহ **আৱশ্যক**।
+> ২. এজেন্ট বেকবোনৰ পৰামৰ্শ: গৱেষণা এজেন্টৰ বাবে Claude আৰু ডিজাইন এজেন্টৰ বাবে Gemini ব্যৱহাৰ কৰক। খোলা উৎস মডেলসমূহত GLM-4.7ও ভাল বিকল্প।
+> ৩. সীমিত ক্ষমতাৰে অফলাইন মড সমৰ্থিত (তলত থকা অফলাইন ছেটআপ চাওক)।
+
+### ১. পৰিবেশ সংৰূপ
+
+- **সংৰূপ ফাইল সৃষ্টি কৰক** (প্ৰকল্পৰ মূল স্থানৰ পৰা):
 
 
-আমি PPTAgent প্ৰস্তুত কৰি দিছোঁ, যি এটা উদ্ভাৱনী পৰিসৰ যি স্বয়ংক্ৰিয়ভাৱে নথিপত্ৰৰ পৰা প্ৰেজেন্টেশ্বন সৃষ্টি কৰে। মানুহে প্ৰেজেন্টেশ্বন তৈয়াৰ কৰাৰ পদ্ধতিৰ পৰা অনুপ্ৰেৰণা লৈ, আমাৰ পৰিসৰে গুণগত মানৰ উৎকৃষ্টতা নিশ্চিত কৰিবলৈ দুটা পৰ্যায়ৰ প্ৰক্ৰিয়া ব্যৱহাৰ কৰে। ইয়াৰ উপৰিও, আমি **PPTEval** পৰিচয় কৰাইছোঁ, যি এটা বিস্তৃত মূল্যায়ন কাঠামো যি বহুমাত্ৰিক দিশত প্ৰেজেন্টেশ্বনসমূহৰ মূল্যায়ন কৰে।
+  ```bash
+  cp deeppresenter/deeppresenter/config.yaml.example deeppresenter/deeppresenter/config.yaml
+  cp deeppresenter/deeppresenter/mcp.json.example deeppresenter/deeppresenter/mcp.json
+  ```
+
+- **অনলাইন ছেটআপ**:
+  - **MinerU**: [mineru.net](https://mineru.net/apiManage/docs)ত API কীৰ বাবে আবেদন কৰক। প্ৰত্যেকটা কী ১৪ দিনলৈকে বৈধ।
+  - **Tavily**: [tavily.com](https://www.tavily.com/)ত API কীৰ বাবে আবেদন কৰক।
+  - **LLM**: আপোনাৰ মডেল এণ্ডপইণ্ট, API কী আৰু সংশ্লিষ্ট পেৰামিটাৰসমূহ `config.yaml`ত ছেট কৰক।
+
+- **অফলাইন ছেটআপ**:
+  - **MinerU**: [MinerU docker guide](https://opendatalab.github.io/MinerU/quick_start/docker_deployment/#start-services-directly-with-docker-compose)ত দিয়া নিৰ্দেশনা অনুসৰি MinerU ছাৰ্ভাৰ ডিপ্লয় কৰক।
+  - **Config switch**: [`config.yaml`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/deeppresenter/config.yaml)ত `offline_mode: true` ছেট কৰক যাতে নেটৱৰ্ক-নির্ভৰ টুলসমূহ (যেনে, `fetch`, `search`) লোড নহয়।
+  - **MinerU endpoint**: [`mcp.json`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/deeppresenter/mcp.json)ত `MINERU_API_URL` আপোনাৰ স্থানীয় MinerU ছাৰ্ভিছ URLলৈ ছেট কৰক।
+
+### ২. ছাৰ্ভিছ ষ্টাৰ্টআপ
+
+ডকৰ ইমেজ বিল্ড কৰক: `docker compose build`
+
+- **Docker Composeৰ পৰা**:
+
+  ```bash
+  docker compose up -d
+  ```
+
+- **স্থানীয়ভাৱে চলোৱা**:
+
+  ```bash
+  pip install -e deeppresenter
+  playwright install-deps
+  playwright install chromium
+  npm install
+  npx playwright install chromium
+  python webui.py
+  ```
 
 > [!TIP]
-> 🚀 আগতিয়াকৈ সাজু কৰা আমাৰ Docker image-ৰে তৎকালিক আৰম্ভ কৰক - [Docker নিৰ্দেশনা চাওক](DOC.md/#docker-)
+> 🚀 All configurable variables can be found in [constants.py](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/deeppresenter/utils/constants.py).
 
-## মুক্ত উৎস 🤗
-আমি **PPTAgent code model** আৰু datasetবোৰ মুক্ত কৰি দিছোঁ: [PPTAgent-Coder](https://huggingface.co/Forceless/PPTAgent-coder-3B), [Zenodo10k](https://huggingface.co/datasets/Forceless/Zenodo10K), আৰু [pptagent-code26k](https://huggingface.co/datasets/Forceless/pptagent-code26k)।
+## 💡 Case Study
 
-## ডেমো ভিডিঅ' 🎥
-
-https://github.com/user-attachments/assets/c3935a98-4d2b-4c46-9b36-e7c598d14863
-
-## বৈশিষ্ট্যৰ বৈচিত্ৰ্য ✨
-
-- **ডাইনামিক সামগ্ৰী সৃষ্টি**: পাঠ আৰু ছবি একত্ৰিত কৰি slide তৈয়াৰ কৰে
-- **বুদ্ধিমত্তা সম্পন্ন Reference Learning**: বিদ্যমান প্ৰেজেন্টেশ্বন ব্যৱহাৰ কৰে, ম্যানুৱেল টীকাকৰণৰ প্ৰয়োজন নোহোৱা
-- **বিস্তৃত গুণগত মান মূল্যায়ন**: বহুমাত্ৰিক গুণগত মান সূচকৰে প্ৰেজেন্টেশ্বন মূল্যায়ন কৰে
-
-## কেইটা অধ্যয়ন 💡
-
-- #### [Iphone 16 Pro](https://www.apple.com/iphone-16-pro/)
+- #### Prompt: Please present the given document to me.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0001.jpg" alt="ছবি1" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/manuscript/0001.jpg" alt="图片1" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0002.jpg" alt="ছবি2" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/manuscript/0002.jpg" alt="图片2" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0003.jpg" alt="ছবি3" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/manuscript/0003.jpg" alt="图片3" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0004.jpg" alt="ছবি4" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/manuscript/0004.jpg" alt="图片4" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0005.jpg" alt="ছবি5" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/manuscript/0005.jpg" alt="图片5" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0006.jpg" alt="ছবি6" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/manuscript/0006.jpg" alt="图片6" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/iphone16pro/0007.jpg" alt="ছবি7" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/manuscript/0007.jpg" alt="图片7" width="200"/>
+
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/manuscript/0008.jpg" alt="图片8" width="200"/>
+
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/manuscript/0009.jpg" alt="图片9" width="200"/>
+
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/manuscript/0010.jpg" alt="图片10" width="200"/>
 
 </div>
 
-- #### [Build Effective Agents](https://www.anthropic.com/research/building-effective-agents)
+- #### Prompt: 请介绍小米 SU7 的外观和价格
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0001.jpg" alt="图片1" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation1/0001.jpg" alt="图片1" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0002.jpg" alt="图片2" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation1/0002.jpg" alt="图片2" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0003.jpg" alt="图片3" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation1/0003.jpg" alt="图片3" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0004.jpg" alt="图片4" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation1/0004.jpg" alt="图片4" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0005.jpg" alt="图片5" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation1/0005.jpg" alt="图片5" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0006.jpg" alt="图片6" width="200"/>
-
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0007.jpg" alt="图片7" width="200"/>
-
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0008.jpg" alt="图片8" width="200"/>
-
-<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0009.jpg" alt="图片9" width="200"/>
-
-<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/build_effective_agents/0010.jpg" alt="图片10" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation1/0006.jpg" alt="图片6" width="200"/>
 
 </div>
 
-## PPTAgent 🤖
+- #### Prompt: 请制作一份高中课堂展示课件，主题为“解码立法过程：理解其对国际关系的影响”
 
-PPTAgent follows a two-phase approach:
-1. **Analysis Phase**: Extracts and learns from patterns in reference presentations
-2. **Generation Phase**: Develops structured outlines and produces visually cohesive slides
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-Our system's workflow is illustrated below:
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0001.jpg" alt="图片1" width="200"/>
 
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0002.jpg" alt="图片2" width="200"/>
 
-![PPTAgent Workflow](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig2.jpg)
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0003.jpg" alt="图片3" width="200"/>
 
-## PPTEval ⚖️
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0004.jpg" alt="图片4" width="200"/>
 
-PPTEval তিনিটা দিশত প্ৰেজেণ্টেশ্বনসমূহ মূল্যায়ন কৰে:
-- **বিষয়বস্তু**: স্লাইডসমূহৰ সঠিকতা আৰু প্ৰাসংগিকতা পৰীক্ষা কৰা হয়।
-- **ডিজাইন**: দৃশ্যমান আকৰ্ষণ আৰু একৰূপতা মূল্যায়ন কৰা হয়।
-- **সম্বদ্ধতা**: চিন্তাধাৰাৰ যুক্তিসংগত প্ৰবাহ নিশ্চিত কৰা হয়।
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0005.jpg" alt="图片5" width="200"/>
 
-PPTEval-ৰ কাৰ্যপদ্ধতি তলত দেখুওৱা হৈছে:
-<p align="center">
-<img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/fig3.jpg" alt="PPTEval Workflow" style="width:70%;"/>
-</p>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0006.jpg" alt="图片6" width="200"/>
 
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0007.jpg" alt="图片7" width="200"/>
 
-## উদ্ধৃতি 🙏
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0008.jpg" alt="图片8" width="200"/>
 
-যদি আপুনি এই প্ৰকল্পটো সহায়ক বুলি ভাবেন, অনুগ্ৰহ কৰি ইয়াক উদ্ধৃত কৰিবলৈ তলৰটো ব্যৱহাৰ কৰক:
-```bibtex
-@article{zheng2025pptagent,
-  title={PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides},
-  author={Zheng, Hao and Guan, Xinyan and Kong, Hao and Zheng, Jia and Zhou, Weixiang and Lin, Hongyu and Lu, Yaojie and He, Ben and Han, Xianpei and Sun, Le},
-  journal={arXiv preprint arXiv:2501.03936},
-  year={2025}
-}
-```
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0009.jpg" alt="图片9" width="200"/>
+
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0010.jpg" alt="图片10" width="200"/>
+
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0011.jpg" alt="图片11" width="200"/>
+
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0012.jpg" alt="图片12" width="200"/>
+
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0013.jpg" alt="图片13" width="200"/>
+
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0014.jpg" alt="图片14" width="200"/>
+
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0015.jpg" alt="图片15" width="200"/>
+
+</div>
+
+---
+
 
 [![Star History Chart](https://api.star-history.com/svg?repos=icip-cas/PPTAgent&type=Date)](https://star-history.com/#icip-cas/PPTAgent&Date)
+
+## Citation 🙏
+
+If you find this project helpful, please use the following to cite it:
+```bibtex
+@inproceedings{zheng-etal-2025-pptagent,
+    title = "{PPTA}gent: Generating and Evaluating Presentations Beyond Text-to-Slides",
+    author = "Zheng, Hao  and
+      Guan, Xinyan  and
+      Kong, Hao  and
+      Zhang, Wenkai  and
+      Zheng, Jia  and
+      Zhou, Weixiang  and
+      Lin, Hongyu  and
+      Lu, Yaojie  and
+      Han, Xianpei  and
+      Sun, Le",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.728/",
+    doi = "10.18653/v1/2025.emnlp-main.728",
+    pages = "14413--14429",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Automatically generating presentations from documents is a challenging task that requires accommodating content quality, visual appeal, and structural coherence. Existing methods primarily focus on improving and evaluating the content quality in isolation, overlooking visual appeal and structural coherence, which limits their practical applicability. To address these limitations, we propose PPTAgent, which comprehensively improves presentation generation through a two-stage, edit-based approach inspired by human workflows. PPTAgent first analyzes reference presentations to extract slide-level functional types and content schemas, then drafts an outline and iteratively generates editing actions based on selected reference slides to create new slides. To comprehensively evaluate the quality of generated presentations, we further introduce PPTEval, an evaluation framework that assesses presentations across three dimensions: Content, Design, and Coherence. Results demonstrate that PPTAgent significantly outperforms existing automatic presentation generation methods across all three dimensions."
+}
+```
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-25
 
 ---

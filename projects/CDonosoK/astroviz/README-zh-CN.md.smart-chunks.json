@@ -1,0 +1,916 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🚀 AstroViz 🚀\n\n<img src=\"https://github.com/hucebot/astroviz/blob/main/images/AstroViz.png\" alt=\"AstroViz Image\" width=\"800\" height=\"500\">\n\n[![License](https://img.shields.io/badge/License-MIT--Clause-blue.svg)](https://opensource.org/licenses/MIT)\n[![ROS2 Version](https://img.shields.io/badge/ROS-Humble-green)](https://docs.ros.org/en/humble/index.html)\n\nAstroViz is the ultimate real-time data visualization suite for ROS 2 robotic missions. Built from the ground up for flexibility, clarity, and performance, AstroViz empowers roboticists, engineers, and field operators with a unified interface to monitor, control, and debug complex systems in real-time.\n\n- 🌍 All-in-one visualization: From GPS and LiDAR to camera feeds, robot state, and motor health, AstroViz integrates multiple views into a cohesive and modern GUI.\n- ⚡ High-performance: Docker-based deployment with GPU support ensures smooth operation even in data-intensive environments.\n- 🛰️ Field-proven: Whether you’re launching autonomous vehicles, drones, or ground robots, AstroViz is your visual command center.\n\n💡 Looking for a ROS 2 tool that goes beyond raw data and helps you make real-time decisions in the field?\n<b>AstroViz is built for that.</b>\n\n## Visual Overview\n<table>\n  <tr>\n    <td colspan=\"2\" align=\"center\">\n      <strong>DASHBOARD VIEWER</strong><br>\n      <img src=\"https://github.com/hucebot/astroviz/blob/main/images/dashboard.gif\" alt=\"Teleoperation Overview\" width=\"800\">\n    </td>\n  </tr>\n</table>\n\nFor a detailed view of all implemented windows, see: [windows implemented](https://raw.githubusercontent.com/CDonosoK/astroviz/main/WINDOWS_IMPLEMENTED.md)\n\n\n## Table of Contents\n1. [Get Started](#get-started)\n   - [Prerequisites](#prerequisites)\n   - [Installation](#installation)\n      - [Clone the Repository](#clone-the-repository)\n      - [Build Using Docker](#build-using-docker)\n      - [Run the Docker Container](#run-the-docker-container)\n2. [Usage](#usage)\n   - [Node Overview](#node-overview)\n   - [Running Nodes](#running-nodes)\n3. [Maintainer](#maintainer)",
+    "ContentSha": "93NCsQ9WKq7fDFAjbBW7jCs8AX9USb5QhcBsnP2/GEQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🚀 AstroViz 🚀\n\n<img src=\"https://github.com/hucebot/astroviz/blob/main/images/AstroViz.png\" alt=\"AstroViz Image\" width=\"800\" height=\"500\">\n\n[![License](https://img.shields.io/badge/License-MIT--Clause-blue.svg)](https://opensource.org/licenses/MIT)\n[![ROS2 Version](https://img.shields.io/badge/ROS-Humble-green)](https://docs.ros.org/en/humble/index.html)\n\nAstroViz 是 ROS 2 机器人任务的终极实时数据可视化套件。AstroViz 从零开始构建，注重灵活性、清晰度和性能，为机器人学家、工程师和现场操作员提供统一界面，以实时监控、控制和调试复杂系统。\n\n- 🌍 一体化可视化：从 GPS 和 LiDAR 到摄像头画面、机器人状态和电机健康，AstroViz 将多种视图整合成一个统一且现代的图形界面。\n- ⚡ 高性能：基于 Docker 的部署支持 GPU，确保即使在数据密集环境中也能流畅运行。\n- 🛰️ 现场验证：无论是自主车辆、无人机还是地面机器人，AstroViz 都是您的视觉指挥中心。\n\n💡 想要一个超越原始数据、帮助您在现场做出实时决策的 ROS 2 工具吗？\n<b>AstroViz 就是为此而生。</b>\n\n## 可视化概览\n<table>\n  <tr>\n    <td colspan=\"2\" align=\"center\">\n      <strong>仪表板查看器</strong><br>\n      <img src=\"https://github.com/hucebot/astroviz/blob/main/images/dashboard.gif\" alt=\"Teleoperation Overview\" width=\"800\">\n    </td>\n  </tr>\n</table>\n\n有关所有已实现窗口的详细视图，请参见：[已实现窗口](https://raw.githubusercontent.com/CDonosoK/astroviz/main/WINDOWS_IMPLEMENTED.md)\n\n\n## 目录\n1. [快速开始](#get-started)\n   - [先决条件](#prerequisites)\n   - [安装](#installation)\n      - [克隆仓库](#clone-the-repository)\n      - [使用 Docker 构建](#build-using-docker)\n      - [运行 Docker 容器](#run-the-docker-container)\n2. [使用方法](#usage)\n   - [节点概览](#node-overview)\n   - [运行节点](#running-nodes)\n3. [维护者](#maintainer)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ye4VyGUE6y1CxOij5ouI2OLWo5UxwUeC+a02L6y3qq8=",
+        "originContent": "# 🚀 AstroViz 🚀",
+        "translatedContent": "# 🚀 AstroViz 🚀"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "mBP6vsN4nRGM0Qo9d3Gd7toKDzl2Ivlb+SoOLZ7ctmY=",
+        "originContent": "<img src=\"https://github.com/hucebot/astroviz/blob/main/images/AstroViz.png\" alt=\"AstroViz Image\" width=\"800\" height=\"500\">",
+        "translatedContent": "<img src=\"https://github.com/hucebot/astroviz/blob/main/images/AstroViz.png\" alt=\"AstroViz Image\" width=\"800\" height=\"500\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "SbgTg0rDz2iRwp3BUU5fkXPsQFCQBeJvqWEo+SwGc+s=",
+        "originContent": "[![License](https://img.shields.io/badge/License-MIT--Clause-blue.svg)](https://opensource.org/licenses/MIT)",
+        "translatedContent": "[![License](https://img.shields.io/badge/License-MIT--Clause-blue.svg)](https://opensource.org/licenses/MIT)"
+      },
+      {
+        "row": 6,
+        "rowsha": "OSwCGbMN4SwJKTDjooiCu/rKAepfiOff+HFRW8FaVJo=",
+        "originContent": "[![ROS2 Version](https://img.shields.io/badge/ROS-Humble-green)](https://docs.ros.org/en/humble/index.html)",
+        "translatedContent": "[![ROS2 Version](https://img.shields.io/badge/ROS-Humble-green)](https://docs.ros.org/en/humble/index.html)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "eUbgSUxwLvqm8SirXW8ZSDV9olQnrZW2w6LIKacgmXc=",
+        "originContent": "AstroViz is the ultimate real-time data visualization suite for ROS 2 robotic missions. Built from the ground up for flexibility, clarity, and performance, AstroViz empowers roboticists, engineers, and field operators with a unified interface to monitor, control, and debug complex systems in real-time.",
+        "translatedContent": "AstroViz 是 ROS 2 机器人任务的终极实时数据可视化套件。AstroViz 从零开始构建，注重灵活性、清晰度和性能，为机器人学家、工程师和现场操作员提供统一界面，以实时监控、控制和调试复杂系统。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "+go+FTsdU1gptro7EyaowkZeXfQNr+VtgbfmrSLe/KM=",
+        "originContent": "- 🌍 All-in-one visualization: From GPS and LiDAR to camera feeds, robot state, and motor health, AstroViz integrates multiple views into a cohesive and modern GUI.",
+        "translatedContent": "- 🌍 一体化可视化：从 GPS 和 LiDAR 到摄像头画面、机器人状态和电机健康，AstroViz 将多种视图整合成一个统一且现代的图形界面。"
+      },
+      {
+        "row": 11,
+        "rowsha": "2nATklC1uUr32iN87ROOsh4yLEjpFctVtS6oRDzgx2w=",
+        "originContent": "- ⚡ High-performance: Docker-based deployment with GPU support ensures smooth operation even in data-intensive environments.",
+        "translatedContent": "- ⚡ 高性能：基于 Docker 的部署支持 GPU，确保即使在数据密集环境中也能流畅运行。"
+      },
+      {
+        "row": 12,
+        "rowsha": "NDp3/F+IVQuYk0AHnaWEiq6yUJZj516l6yxLVHlzPek=",
+        "originContent": "- 🛰️ Field-proven: Whether you’re launching autonomous vehicles, drones, or ground robots, AstroViz is your visual command center.",
+        "translatedContent": "- 🛰️ 现场验证：无论是自主车辆、无人机还是地面机器人，AstroViz 都是您的视觉指挥中心。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "HxniYSwLDs8Vz/AT+m74e+DWz6BxeSJaM0sSGg8I2ps=",
+        "originContent": "💡 Looking for a ROS 2 tool that goes beyond raw data and helps you make real-time decisions in the field?",
+        "translatedContent": "💡 想要一个超越原始数据、帮助您在现场做出实时决策的 ROS 2 工具吗？"
+      },
+      {
+        "row": 15,
+        "rowsha": "7Vlgn97MsVIUOEZa8Zp6ECFlzObW4KV8mA2CfYdhmz8=",
+        "originContent": "<b>AstroViz is built for that.</b>",
+        "translatedContent": "<b>AstroViz 就是为此而生。</b>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "CmXnGwQMpNHAayWfDIe0Z5/t3ScFHK/9LZqqWkYXk+g=",
+        "originContent": "## Visual Overview",
+        "translatedContent": "## 可视化概览"
+      },
+      {
+        "row": 18,
+        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+        "originContent": "<table>",
+        "translatedContent": "<table>"
+      },
+      {
+        "row": 19,
+        "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+        "originContent": "  <tr>",
+        "translatedContent": "  <tr>"
+      },
+      {
+        "row": 20,
+        "rowsha": "sboi/eTIawXcLLE8odO3cXnqh0JR7kFuqB2gpePvmh4=",
+        "originContent": "    <td colspan=\"2\" align=\"center\">",
+        "translatedContent": "    <td colspan=\"2\" align=\"center\">"
+      },
+      {
+        "row": 21,
+        "rowsha": "fbSeeO4FoNdNbHzhjZON9KVqLMZjX8zIMLkT3wf9QTo=",
+        "originContent": "      <strong>DASHBOARD VIEWER</strong><br>",
+        "translatedContent": "      <strong>仪表板查看器</strong><br>"
+      },
+      {
+        "row": 22,
+        "rowsha": "gWI4kl+FmScxaTXYD27ftK3CiKJZXuNCC184/yNgd2U=",
+        "originContent": "      <img src=\"https://github.com/hucebot/astroviz/blob/main/images/dashboard.gif\" alt=\"Teleoperation Overview\" width=\"800\">",
+        "translatedContent": "      <img src=\"https://github.com/hucebot/astroviz/blob/main/images/dashboard.gif\" alt=\"Teleoperation Overview\" width=\"800\">"
+      },
+      {
+        "row": 23,
+        "rowsha": "oVAjIYeEC3KIPvxPwWdjaW5GfRZXirrgYK/Z2W12ONM=",
+        "originContent": "    </td>",
+        "translatedContent": "    </td>"
+      },
+      {
+        "row": 24,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 25,
+        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+        "originContent": "</table>",
+        "translatedContent": "</table>"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "tjbXbOzo6y/LyAmGF1n/9uZF7wczZ5tzF7hRtg2z1Y8=",
+        "originContent": "For a detailed view of all implemented windows, see: [windows implemented](https://raw.githubusercontent.com/CDonosoK/astroviz/main/WINDOWS_IMPLEMENTED.md)",
+        "translatedContent": "有关所有已实现窗口的详细视图，请参见：[已实现窗口](https://raw.githubusercontent.com/CDonosoK/astroviz/main/WINDOWS_IMPLEMENTED.md)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## 目录"
+      },
+      {
+        "row": 31,
+        "rowsha": "J1V8YtBdkxvKLEJz5FD8w11OODcWOFzdIDujI6ZYYZ4=",
+        "originContent": "1. [Get Started](#get-started)",
+        "translatedContent": "1. [快速开始](#get-started)"
+      },
+      {
+        "row": 32,
+        "rowsha": "lnBRWZgI0+2uVtAjxRjS7aWppzQX0PaR5vpqnI0OENA=",
+        "originContent": "   - [Prerequisites](#prerequisites)",
+        "translatedContent": "   - [先决条件](#prerequisites)"
+      },
+      {
+        "row": 33,
+        "rowsha": "93JCz83Sz5XIH6kJ3HZTh36W5UtmsfUhnhappT5IDG0=",
+        "originContent": "   - [Installation](#installation)",
+        "translatedContent": "   - [安装](#installation)"
+      },
+      {
+        "row": 34,
+        "rowsha": "DgT+y5O/wIJAyeC1xAwlu9YLhXXhnVlUQ+2ESl7lJaI=",
+        "originContent": "      - [Clone the Repository](#clone-the-repository)",
+        "translatedContent": "      - [克隆仓库](#clone-the-repository)"
+      },
+      {
+        "row": 35,
+        "rowsha": "pz6KV0imItu14ohsd924FiGjdQtXBny+xyAVjNhYzoY=",
+        "originContent": "      - [Build Using Docker](#build-using-docker)",
+        "translatedContent": "      - [使用 Docker 构建](#build-using-docker)"
+      },
+      {
+        "row": 36,
+        "rowsha": "ZCb36DaA2q2C4RUXFlvY83zAxsGaINC7oI/HJkXP9bI=",
+        "originContent": "      - [Run the Docker Container](#run-the-docker-container)",
+        "translatedContent": "      - [运行 Docker 容器](#run-the-docker-container)"
+      },
+      {
+        "row": 37,
+        "rowsha": "2maOBvrIxYkEGyULe0jXWqB/yINI+YNoStUAAH1FuJk=",
+        "originContent": "2. [Usage](#usage)",
+        "translatedContent": "2. [使用方法](#usage)"
+      },
+      {
+        "row": 38,
+        "rowsha": "oa+zCVrQAbBFGaD13vit1xXmHXtVT8tvH9tfKxIyHDQ=",
+        "originContent": "   - [Node Overview](#node-overview)",
+        "translatedContent": "   - [节点概览](#node-overview)"
+      },
+      {
+        "row": 39,
+        "rowsha": "dnk/4KbWV1MYHj4voMJHRf9tTf2vFx8/uOmVim4xXfY=",
+        "originContent": "   - [Running Nodes](#running-nodes)",
+        "translatedContent": "   - [运行节点](#running-nodes)"
+      },
+      {
+        "row": 40,
+        "rowsha": "OBf2d7ohkDR6nQK0FsQ1HaT2TgOf6btL1shQFyisFKo=",
+        "originContent": "3. [Maintainer](#maintainer)",
+        "translatedContent": "3. [维护者](#maintainer)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "3. [License](#license)\n\n---\n\n## Get Started\n### Prerequisites\n\nTo run this package, ensure the following dependencies are installed:\n- **Git**: For version control and repository management.\n- **Docker**: To streamline the environment setup and execution.\n- **NVIDIA Container Toolkit** (if using an NVIDIA GPU): For hardware acceleration.\n\n\n### Installation\n\n#### Clone the Repository\nStart by cloning the repository:",
+    "ContentSha": "OKo3Kx0Yc2dVq0FS8fUqa9OUU6S9a+FxlSDR+bgDG4Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. [许可](#license)\n\n---\n\n## 快速开始\n### 前提条件\n\n运行此软件包，请确保安装以下依赖项：\n- **Git**：用于版本控制和代码库管理。\n- **Docker**：简化环境搭建和运行。\n- **NVIDIA 容器工具包**（如果使用 NVIDIA GPU）：用于硬件加速。\n\n\n### 安装\n\n#### 克隆代码库\n首先克隆代码库：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "TQbYKEVXDDg0DH/THmL2rpvZ5VmqOydaFIuO4CyzVTE=",
+        "originContent": "3. [License](#license)",
+        "translatedContent": "3. [许可](#license)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "fdzSvcVmecTeZF5A18WcXJ925k4OTH/HculV8+p+hkk=",
+        "originContent": "## Get Started",
+        "translatedContent": "## 快速开始"
+      },
+      {
+        "row": 6,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### 前提条件"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "MwE7gN4vhvlD7zhyvi+c3itT9eB52xpHKzRZ9wcPONE=",
+        "originContent": "To run this package, ensure the following dependencies are installed:",
+        "translatedContent": "运行此软件包，请确保安装以下依赖项："
+      },
+      {
+        "row": 9,
+        "rowsha": "SAwwqTibW2Mfe0VM0IZzIvYUaPdBy2hy5MdRJIQ4dRE=",
+        "originContent": "- **Git**: For version control and repository management.",
+        "translatedContent": "- **Git**：用于版本控制和代码库管理。"
+      },
+      {
+        "row": 10,
+        "rowsha": "63PaevYLxwlkDHEQzoLIvjjDD981z9cm+hGIEg6U2u4=",
+        "originContent": "- **Docker**: To streamline the environment setup and execution.",
+        "translatedContent": "- **Docker**：简化环境搭建和运行。"
+      },
+      {
+        "row": 11,
+        "rowsha": "QMlIluO2WAWbESFrUcpC7JVlI48PoFujwB1BRlTOtH0=",
+        "originContent": "- **NVIDIA Container Toolkit** (if using an NVIDIA GPU): For hardware acceleration.",
+        "translatedContent": "- **NVIDIA 容器工具包**（如果使用 NVIDIA GPU）：用于硬件加速。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### 安装"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Vmte0a30xejXhslgrCDa4gJSOPF/AXX8WGUhp27t2B0=",
+        "originContent": "#### Clone the Repository",
+        "translatedContent": "#### 克隆代码库"
+      },
+      {
+        "row": 17,
+        "rowsha": "99ArvPob0+fZEtl885yRFDGWfM0Hgd1zJYel7rarPts=",
+        "originContent": "Start by cloning the repository:",
+        "translatedContent": "首先克隆代码库："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\ngit clone git@github.com:hucebot/astroviz.git\n```",
+    "ContentSha": "FiTbKIzHHaRCkhUDIVymN1WonXw3scC19G4CVHfE40I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone git@github.com:hucebot/astroviz.git\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Vh6SqTbTssnVEIW6+/USSJ0XIpL+iHcLO1EwsvXhmWI=",
+        "originContent": "git clone git@github.com:hucebot/astroviz.git",
+        "translatedContent": "git clone git@github.com:hucebot/astroviz.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n#### Build Using Docker\nThis repository includes a pre-configured Docker setup for easy deployment. To build the Docker image:\n1. Navigate to the `docker` directory:",
+    "ContentSha": "WPqBJjIIvD+9XhK0ULLSgPUiXUJk6Z0vIcriY6MvrqA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### 使用 Docker 构建\n本仓库包含预配置的 Docker 设置，便于快速部署。构建 Docker 镜像：\n1. 进入 `docker` 目录：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "nOYjkgOpQQZe09XRE+BfrTSNYnFZxwBg9G7T7/DLcLs=",
+        "originContent": "#### Build Using Docker",
+        "translatedContent": "#### 使用 Docker 构建"
+      },
+      {
+        "row": 3,
+        "rowsha": "gAqxfAi8zRw6CXqFsej10iY9nz2GtNamFSlaRfxuqZ0=",
+        "originContent": "This repository includes a pre-configured Docker setup for easy deployment. To build the Docker image:",
+        "translatedContent": "本仓库包含预配置的 Docker 设置，便于快速部署。构建 Docker 镜像："
+      },
+      {
+        "row": 4,
+        "rowsha": "E9+YKX0YIAPiP1ya2NTGIum4p92U9AWKMOwrs71wvZ4=",
+        "originContent": "1. Navigate to the `docker` directory:",
+        "translatedContent": "1. 进入 `docker` 目录："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "   ```bash\n   cd astroviz/docker\n   ```",
+    "ContentSha": "eZlCjSlSIHlMvIabp3SbH/InFdwpyk6NG9rBeQdywuU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   cd astroviz/docker\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "iGbch3FAB3mJBfA/959TKiOvkdgXWEhVmoNa76yvJ0Q=",
+        "originContent": "   cd astroviz/docker",
+        "translatedContent": "   cd astroviz/docker"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "2. Run the build script:",
+    "ContentSha": "6xlDYv/mqpGbnUrlgS/yGaG/JVSO//f5CZrQnotM3Pc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. 运行构建脚本：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6xlDYv/mqpGbnUrlgS/yGaG/JVSO//f5CZrQnotM3Pc=",
+        "originContent": "2. Run the build script:",
+        "translatedContent": "2. 运行构建脚本："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "   ```bash\n   sh build.sh\n   ```",
+    "ContentSha": "ARUzKt0k4R4cvTfy27E0VGCBRz2fUDgbVU+p2uK8DLk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   sh build.sh\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "7D7tE2rb0SjouUYdFnosJtkGcLDtB7PorsHk4deuctA=",
+        "originContent": "   sh build.sh",
+        "translatedContent": "   sh build.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "   This will create a Docker image named `astroviz`.\n\n#### Run the Docker Container\nOnce built, launch the container using:",
+    "ContentSha": "IadmxAZ01M8FIzhFtI6cYsVjlQj8UP6Mq8K1pXmdi14=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   这将创建一个名为 `astroviz` 的 Docker 镜像。\n\n#### 运行 Docker 容器\n构建完成后，使用以下命令启动容器：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pHIHfoiwTs+TXeeY4hqV8vBSM/wAXZYqc4Whmwh6/nU=",
+        "originContent": "   This will create a Docker image named `astroviz`.",
+        "translatedContent": "   这将创建一个名为 `astroviz` 的 Docker 镜像。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "brKszWTHtXAYx2p92bVm5gO9hDffsm2M25jQJQHMSXM=",
+        "originContent": "#### Run the Docker Container",
+        "translatedContent": "#### 运行 Docker 容器"
+      },
+      {
+        "row": 4,
+        "rowsha": "lvyXRVpvLKkcuRN6wQMxVOfSWHoBLM2rqwpl8EGJS3E=",
+        "originContent": "Once built, launch the container using:",
+        "translatedContent": "构建完成后，使用以下命令启动容器："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```bash\nsh run.sh\n```",
+    "ContentSha": "8YSKWpdK72SNsvfcM2FKLZ05ldbMPftAc3j+Q0EoXDk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nsh run.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "xb+Lnfa8vr7RZFchL0nvwRsBpaUxfqyjzTdH8N+eTPA=",
+        "originContent": "sh run.sh",
+        "translatedContent": "sh run.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "---\n\n## Usage\n### Node Overview\n\nThis package nodes that are designed to facilitate teleoperation and visualization of data. Each node serves a specific purpose in the teleoperation workflow:\n- **gpsmap_viewer**: Visualizes GPS data on a map.\n- **camera_viewer**: Displays camera feed from the robot.\n- **imu_viewer**: Visualizes IMU data.\n- **lidar_viewer**: Visualizes LiDAR data.\n- **teleoperation_viewer**: Provides a GUI for teleoperation control.\n- **dashboard_viewer**: A comprehensive dashboard that integrates various data streams and provides a unified interface for monitoring and control.\n- **plot_viewer**: Displays real-time plots of various data streams.\n- **grid_map_viewer**: Visualizes grid map data for navigation and planning.\n- **robot_state_viewer**: Displays the current state of the robot related to the joint positions and transformations.\n- **motor_state_viewer**: Monitors and visualizes the state of the robot's motors, including temperature and voltage readings.\n- **record_manager_viewer**: Manages and visualizes recording sessions, allowing users to start, stop, and review recordings.\n\n### Running Nodes\nTo run the nodes, you can use the following command:",
+    "ContentSha": "1LdqMZ5UlcHipsdAK2P6DYDPOteDmu6GXYBO02qUsIo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n\n## 使用说明\n### 节点概述\n\n本包节点旨在促进远程操作和数据可视化。每个节点在远程操作工作流程中都有特定用途：\n- **gpsmap_viewer**：在地图上可视化GPS数据。\n- **camera_viewer**：显示机器人的摄像头画面。\n- **imu_viewer**：可视化IMU数据。\n- **lidar_viewer**：可视化激光雷达数据。\n- **teleoperation_viewer**：提供远程操作控制的GUI界面。\n- **dashboard_viewer**：一个集成各种数据流的综合仪表盘，提供统一的监控和控制界面。\n- **plot_viewer**：显示各种数据流的实时图表。\n- **grid_map_viewer**：可视化导航和规划用的网格地图数据。\n- **robot_state_viewer**：显示机器人当前状态，涉及关节位置和变换。\n- **motor_state_viewer**：监控并可视化机器人电机状态，包括温度和电压读数。\n- **record_manager_viewer**：管理和可视化录制会话，允许用户开始、停止及回顾录制内容。\n\n### 运行节点\n要运行这些节点，您可以使用以下命令：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用说明"
+      },
+      {
+        "row": 4,
+        "rowsha": "ApHdWvXWQmyRSJhhd2oTGIb24eR5NmV37NCTi1KJ5vA=",
+        "originContent": "### Node Overview",
+        "translatedContent": "### 节点概述"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "M3UEO5SoeRo9Hw9kM4OfSpUSaeDWK6mIzlf5+r3IhWA=",
+        "originContent": "This package nodes that are designed to facilitate teleoperation and visualization of data. Each node serves a specific purpose in the teleoperation workflow:",
+        "translatedContent": "本包节点旨在促进远程操作和数据可视化。每个节点在远程操作工作流程中都有特定用途："
+      },
+      {
+        "row": 7,
+        "rowsha": "5gzonVwp7FU03sHeVcPbqGI2O7TUDP1V4EvAZ81Tg3k=",
+        "originContent": "- **gpsmap_viewer**: Visualizes GPS data on a map.",
+        "translatedContent": "- **gpsmap_viewer**：在地图上可视化GPS数据。"
+      },
+      {
+        "row": 8,
+        "rowsha": "waK7GJNwrr1f+9lv9IB3gIM0lkjwC7LWb/4QNw25uzk=",
+        "originContent": "- **camera_viewer**: Displays camera feed from the robot.",
+        "translatedContent": "- **camera_viewer**：显示机器人的摄像头画面。"
+      },
+      {
+        "row": 9,
+        "rowsha": "L1BRPYeHgrGULWm3vrliLe/WY/DQcVNi/QftWh2dnac=",
+        "originContent": "- **imu_viewer**: Visualizes IMU data.",
+        "translatedContent": "- **imu_viewer**：可视化IMU数据。"
+      },
+      {
+        "row": 10,
+        "rowsha": "q+d9mdMRWR8wP02M6JJh6UUTxqO75aCDHFrNJCExOEE=",
+        "originContent": "- **lidar_viewer**: Visualizes LiDAR data.",
+        "translatedContent": "- **lidar_viewer**：可视化激光雷达数据。"
+      },
+      {
+        "row": 11,
+        "rowsha": "6aqsdavg2Xt4++Gceu+Ww6HodZx0R6aSdyU/tnaONgc=",
+        "originContent": "- **teleoperation_viewer**: Provides a GUI for teleoperation control.",
+        "translatedContent": "- **teleoperation_viewer**：提供远程操作控制的GUI界面。"
+      },
+      {
+        "row": 12,
+        "rowsha": "rfZRSfgya7Ph8S6LcAZsIMphKOn1hmrKegcyek1b+6A=",
+        "originContent": "- **dashboard_viewer**: A comprehensive dashboard that integrates various data streams and provides a unified interface for monitoring and control.",
+        "translatedContent": "- **dashboard_viewer**：一个集成各种数据流的综合仪表盘，提供统一的监控和控制界面。"
+      },
+      {
+        "row": 13,
+        "rowsha": "Qfyk7p6LIoHziiKu9VQCPvkXjNFb3KnnZILP2mcUgJg=",
+        "originContent": "- **plot_viewer**: Displays real-time plots of various data streams.",
+        "translatedContent": "- **plot_viewer**：显示各种数据流的实时图表。"
+      },
+      {
+        "row": 14,
+        "rowsha": "sJyiFRSiJOPn/ox0hVfF7/ukPsPOTX2FYWi7Fp49RXs=",
+        "originContent": "- **grid_map_viewer**: Visualizes grid map data for navigation and planning.",
+        "translatedContent": "- **grid_map_viewer**：可视化导航和规划用的网格地图数据。"
+      },
+      {
+        "row": 15,
+        "rowsha": "Rg8FOqlwsxljoa1VW8O65I+1X0rc6JnK08dKYSLU+/w=",
+        "originContent": "- **robot_state_viewer**: Displays the current state of the robot related to the joint positions and transformations.",
+        "translatedContent": "- **robot_state_viewer**：显示机器人当前状态，涉及关节位置和变换。"
+      },
+      {
+        "row": 16,
+        "rowsha": "JN32hDqPz+hhQYOoEyHRLyCdnyXngw2JpXRzCOB7utc=",
+        "originContent": "- **motor_state_viewer**: Monitors and visualizes the state of the robot's motors, including temperature and voltage readings.",
+        "translatedContent": "- **motor_state_viewer**：监控并可视化机器人电机状态，包括温度和电压读数。"
+      },
+      {
+        "row": 17,
+        "rowsha": "fP0TeD7VLQOr+V7HUQMpQlaXLUwF6/WSYnBq5u9CkJU=",
+        "originContent": "- **record_manager_viewer**: Manages and visualizes recording sessions, allowing users to start, stop, and review recordings.",
+        "translatedContent": "- **record_manager_viewer**：管理和可视化录制会话，允许用户开始、停止及回顾录制内容。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "KyNWZQHF0UNbcqs+p8O0xX4nsDbGsNwhH0Igm38k+OY=",
+        "originContent": "### Running Nodes",
+        "translatedContent": "### 运行节点"
+      },
+      {
+        "row": 20,
+        "rowsha": "UeO6Yw1U0QvI9fq531AFRdiUSDsM8m/lnQzFhCIA4Rs=",
+        "originContent": "To run the nodes, you can use the following command:",
+        "translatedContent": "要运行这些节点，您可以使用以下命令："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```bash\nros2 run astroviz <node_name>\n```",
+    "ContentSha": "ni3f/5AkPYat3pXZj0/RqeA9egZhiM7fwYGGiQGF+Bo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nros2 run astroviz <node_name>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "yPvqvGaBMDAxRFABcl7g7rrI8vMRI5r/sD6GWWGcXBs=",
+        "originContent": "ros2 run astroviz <node_name>",
+        "translatedContent": "ros2 run astroviz <node_name>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "Replace `<node_name>` with the name of the node you wish to run, such as `gps_map_viewer`, `camera_viewer`, etc.\n\nOr if you prefer to run the dashboard viewer, which integrates all functionalities:",
+    "ContentSha": "JbtjuET1jfCHoLZN/5ntk6nlL9q5YdV5N92K5C4KMoE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "将 `<node_name>` 替换为您希望运行的节点名称，例如 `gps_map_viewer`、`camera_viewer` 等。\n\n或者，如果您更喜欢运行集成所有功能的仪表盘查看器：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DHgDJoLh92RXmI9I/D8zUQq8U1ste6xzVM2zYCF1r8s=",
+        "originContent": "Replace `<node_name>` with the name of the node you wish to run, such as `gps_map_viewer`, `camera_viewer`, etc.",
+        "translatedContent": "将 `<node_name>` 替换为您希望运行的节点名称，例如 `gps_map_viewer`、`camera_viewer` 等。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "7589R2Ig/dqP6+g+S3mld0c6g2a+134BfzzcqKVLx3E=",
+        "originContent": "Or if you prefer to run the dashboard viewer, which integrates all functionalities:",
+        "translatedContent": "或者，如果您更喜欢运行集成所有功能的仪表盘查看器："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```bash\nros2 launch astroviz dashboard_launcher.launch.py\n```",
+    "ContentSha": "NxhAvpbO/CZ5OuUF6nfI3Jm0c0mTJ5jn8Qj3+Hr0g8U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nros2 launch astroviz dashboard_launcher.launch.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "5kBoCQEyWmOU0NmhkV5gHwm5ehrOUTjnl/ZESnp0tEI=",
+        "originContent": "ros2 launch astroviz dashboard_launcher.launch.py",
+        "translatedContent": "ros2 launch astroviz dashboard_launcher.launch.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n## Maintainer\nThis package is maintained by:\n\n**Clemente Donoso**  \nEmail: [clemente.donoso@inria.fr](https://raw.githubusercontent.com/CDonosoK/astroviz/main/mailto:clemente.donoso@inria.fr)\nGitHub: [CDonosoK](https://github.com/CDonosoK)  \n\n---\n\n## License\nThis project is licensed under the **MIT**. See the [LICENSE](LICENSE) file for details.\n\n---\nContributions and feedback are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.",
+    "ContentSha": "nWZMoer955H9r6f01AUataZumX/WIjglL6+H/uyYQFg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 维护者\n本软件包由以下人员维护：\n\n**Clemente Donoso**  \n电子邮件: [clemente.donoso@inria.fr](https://raw.githubusercontent.com/CDonosoK/astroviz/main/mailto:clemente.donoso@inria.fr)  \nGitHub: [CDonosoK](https://github.com/CDonosoK)  \n\n---\n\n## 许可证\n本项目采用 **MIT** 许可证。详情请参阅 [LICENSE](LICENSE) 文件。\n\n---\n欢迎贡献和反馈！如果您遇到任何问题或有改进建议，欢迎提出 issue 或提交 pull request。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "WSxkKTE7+Frs2DSSdGU2Iv+AQpnH4Kh8kvc+9g9iMzs=",
+        "originContent": "## Maintainer",
+        "translatedContent": "## 维护者"
+      },
+      {
+        "row": 3,
+        "rowsha": "1R5mgCOFXGjAk9XfKG9fEV0WgddnQw6kQNEH+o4yW9o=",
+        "originContent": "This package is maintained by:",
+        "translatedContent": "本软件包由以下人员维护："
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "APCKgg4HK1Gdur1NGf2kDJqh9KwJN28zl5K/N3dFDLM=",
+        "originContent": "**Clemente Donoso**  ",
+        "translatedContent": "**Clemente Donoso**  "
+      },
+      {
+        "row": 6,
+        "rowsha": "ZUPTink038a6wKc80jBkjZC5Qxxdk9WTW1kTRuEdVcU=",
+        "originContent": "Email: [clemente.donoso@inria.fr](https://raw.githubusercontent.com/CDonosoK/astroviz/main/mailto:clemente.donoso@inria.fr)",
+        "translatedContent": "电子邮件: [clemente.donoso@inria.fr](https://raw.githubusercontent.com/CDonosoK/astroviz/main/mailto:clemente.donoso@inria.fr)  "
+      },
+      {
+        "row": 7,
+        "rowsha": "rU2ri2xPcjXBFyr/PXoQIO7wfF33fLDuvzetkIuVabU=",
+        "originContent": "GitHub: [CDonosoK](https://github.com/CDonosoK)  ",
+        "translatedContent": "GitHub: [CDonosoK](https://github.com/CDonosoK)  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 12,
+        "rowsha": "Q0gk9IFDT9LXMP3v/8llCdHs2gSH2u8TX8hO1spXrbU=",
+        "originContent": "This project is licensed under the **MIT**. See the [LICENSE](LICENSE) file for details.",
+        "translatedContent": "本项目采用 **MIT** 许可证。详情请参阅 [LICENSE](LICENSE) 文件。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 15,
+        "rowsha": "jrIlawaIHbKL6z7KnEkBAvR9lW5ER2bZHlSj87zVxC4=",
+        "originContent": "Contributions and feedback are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.",
+        "translatedContent": "欢迎贡献和反馈！如果您遇到任何问题或有改进建议，欢迎提出 issue 或提交 pull request。"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

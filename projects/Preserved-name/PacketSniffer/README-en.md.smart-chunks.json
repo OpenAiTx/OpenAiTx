@@ -8,92 +8,7 @@
     "EndLine": 0,
     "Translation": "# PacketSniffer - Real-time Network Packet Capture and Protocol Analysis Tool\n\nA real-time network packet capture tool developed in C#, supporting automatic protocol recognition, parsing, and business logic dispatch.\n\n## Features\n\n- 🔍 **Real-time Capture**: Uses SharpPcap for network packet capture\n- 🔄 **Automatic Protocol Recognition**: Supports automatic recognition of JSON, HTTP, and binary protocols\n- 📊 **Intelligent Parsing**: Automatically extracts protocol fields and content\n- 🎯 **Business Dispatch**: Supports custom business logic processing\n- 🛡️ **Highly Extensible**: Easy to add new protocol parsers\n\n## Project Structure\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "TZjrqRsRKgoyf/EZI9TiOF6JOCJnMYVYkX5AGoriudE=",
-        "originContent": "# PacketSniffer - 实时网络抓包与协议解析工具",
-        "translatedContent": "# PacketSniffer - Real-time Network Packet Capture and Protocol Analysis Tool"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "Tm0MesV3qOKrggbZP3MQ4dhxxLbuLlpN3Xa4hy4xCao=",
-        "originContent": "一个基于 C# 开发的实时网络抓包工具，支持自动协议识别、解析和业务逻辑分发。",
-        "translatedContent": "A real-time network packet capture tool developed in C#, supporting automatic protocol recognition, parsing, and business logic dispatch."
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "hcZsKlpSPkTFpH/QegoKHGVWmJDSH48IDfZVw6T3YEk=",
-        "originContent": "## 功能特性",
-        "translatedContent": "## Features"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "jl+9bRO14jhMerf7qe5xFqAnvmoXcxJUC7P83PbXgkk=",
-        "originContent": "- 🔍 **实时抓包**：使用 SharpPcap 进行网络数据包捕获",
-        "translatedContent": "- 🔍 **Real-time Capture**: Uses SharpPcap for network packet capture"
-      },
-      {
-        "row": 8,
-        "rowsha": "z2TOOVyVb8gLb5ujC7F6YAlgtlj8cRWD4+1SY/nHiuQ=",
-        "originContent": "- 🔄 **自动协议识别**：支持 JSON、HTTP、二进制协议自动识别",
-        "translatedContent": "- 🔄 **Automatic Protocol Recognition**: Supports automatic recognition of JSON, HTTP, and binary protocols"
-      },
-      {
-        "row": 9,
-        "rowsha": "LG+F7x5Ra08zssX2cd1cCNtAoM7rFdPCbKwT9sTr2Nc=",
-        "originContent": "- 📊 **智能解析**：自动提取协议字段和内容",
-        "translatedContent": "- 📊 **Intelligent Parsing**: Automatically extracts protocol fields and content"
-      },
-      {
-        "row": 10,
-        "rowsha": "m2woBr30OTikPjkzRHUz6JJMRqSSxQlHFZU+YN0F7KU=",
-        "originContent": "- 🎯 **业务分发**：支持自定义业务逻辑处理",
-        "translatedContent": "- 🎯 **Business Dispatch**: Supports custom business logic processing"
-      },
-      {
-        "row": 11,
-        "rowsha": "1cwMHBNxbLkb6N8xC+vVMdpSNN0uNKtk6ldLqGL+A3E=",
-        "originContent": "- 🛡️ **扩展性强**：易于添加新的协议解析器",
-        "translatedContent": "- 🛡️ **Highly Extensible**: Easy to add new protocol parsers"
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "KNi74eC3BYSSTY/NJhZRhjl7Vd47p9Ku64CkxGrFIws=",
-        "originContent": "## 项目结构",
-        "translatedContent": "## Project Structure"
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -105,98 +20,7 @@
     "EndLine": 0,
     "Translation": "```\nPacketSniffer/\n├── PacketSniffer.csproj      # 项目配置文件\n├── Program.cs                 # 程序入口\n├── Core/\n│   ├── Sniffer.cs            # 抓包核心模块\n│   └── PacketRouter.cs       # 数据包路由分发器\n├── Parsers/\n│   ├── IParser.cs            # 解析器接口\n│   ├── JsonParser.cs         # JSON 协议解析器\n│   ├── HttpParser.cs         # HTTP 协议解析器\n│   └── BinaryParser.cs       # 二进制协议解析器（兜底）\n└── Models/\n    └── ParsedResult.cs       # 解析结果数据模型\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "6oyiXMurPtY3+K9X1P3yehhCKHsyfmCHPiChB0TWRzs=",
-        "originContent": "PacketSniffer/",
-        "translatedContent": "PacketSniffer/"
-      },
-      {
-        "row": 3,
-        "rowsha": "SOsSn5BUKSZ1aayk48orSBRkO82mquy92Q3iMmOFDhw=",
-        "originContent": "├── PacketSniffer.csproj      # 项目配置文件",
-        "translatedContent": "├── PacketSniffer.csproj      # 项目配置文件"
-      },
-      {
-        "row": 4,
-        "rowsha": "W73QPrQ7Bm5MHVX2ZfyGwfor++DnAWoJjUhLPW0RfZg=",
-        "originContent": "├── Program.cs                 # 程序入口",
-        "translatedContent": "├── Program.cs                 # 程序入口"
-      },
-      {
-        "row": 5,
-        "rowsha": "pOVvzmt6h+d4QIfHpESzKUhRW+RDXmwSwRXIeLmkjJM=",
-        "originContent": "├── Core/",
-        "translatedContent": "├── Core/"
-      },
-      {
-        "row": 6,
-        "rowsha": "mQdiyl3ho9o+4Z4zO/zu9j74Os+TJyD1uigAZctmADU=",
-        "originContent": "│   ├── Sniffer.cs            # 抓包核心模块",
-        "translatedContent": "│   ├── Sniffer.cs            # 抓包核心模块"
-      },
-      {
-        "row": 7,
-        "rowsha": "qEWEjbJE462Ww+hvxAEjMQxb6a2sCf8qQD5oQt8yHtI=",
-        "originContent": "│   └── PacketRouter.cs       # 数据包路由分发器",
-        "translatedContent": "│   └── PacketRouter.cs       # 数据包路由分发器"
-      },
-      {
-        "row": 8,
-        "rowsha": "yWflCf/C3Sp2rZernTaqil1wtcsUlAofAEwl2dRcxAQ=",
-        "originContent": "├── Parsers/",
-        "translatedContent": "├── Parsers/"
-      },
-      {
-        "row": 9,
-        "rowsha": "d5nENZNly80bN0Bg07k94HNyW2ILZLrAyqIbOGsPruA=",
-        "originContent": "│   ├── IParser.cs            # 解析器接口",
-        "translatedContent": "│   ├── IParser.cs            # 解析器接口"
-      },
-      {
-        "row": 10,
-        "rowsha": "0kqtEl7oS3eSiCjnbPRdkGF8/akY9j0qi+vITuIEQc8=",
-        "originContent": "│   ├── JsonParser.cs         # JSON 协议解析器",
-        "translatedContent": "│   ├── JsonParser.cs         # JSON 协议解析器"
-      },
-      {
-        "row": 11,
-        "rowsha": "SqVIgsFE8+NIZxlU0TEMYDYG2G5zqrDDR6Qd5Rknz7c=",
-        "originContent": "│   ├── HttpParser.cs         # HTTP 协议解析器",
-        "translatedContent": "│   ├── HttpParser.cs         # HTTP 协议解析器"
-      },
-      {
-        "row": 12,
-        "rowsha": "qWcGabsERq8AGr/yoPf6W1+CfhPzRP8VP4eR+ruPaSo=",
-        "originContent": "│   └── BinaryParser.cs       # 二进制协议解析器（兜底）",
-        "translatedContent": "│   └── BinaryParser.cs       # 二进制协议解析器（兜底）"
-      },
-      {
-        "row": 13,
-        "rowsha": "dON6o5o39wV8OdEhpaQv1XMNgRsS+Ey8JtOBgchElg4=",
-        "originContent": "└── Models/",
-        "translatedContent": "└── Models/"
-      },
-      {
-        "row": 14,
-        "rowsha": "cS275z6sYVG1VJSQbdjWMJlgowxO6781krIpMG+qIQw=",
-        "originContent": "    └── ParsedResult.cs       # 解析结果数据模型",
-        "translatedContent": "    └── ParsedResult.cs       # 解析结果数据模型"
-      },
-      {
-        "row": 15,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -208,74 +32,7 @@
     "EndLine": 0,
     "Translation": "\n## Environment Requirements\n\n- .NET 6.0 or higher\n- Windows operating system (requires administrator privileges)\n- Installed network adapter\n\n## Installation Steps\n\n### 1. Clone or download the project\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "vQrSFUT72XT2wMX3ofwk2TAL2YY5XOpfTkTUOJEiN7g=",
-        "originContent": "## 环境要求",
-        "translatedContent": "## Environment Requirements"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "lA4cfKUdiWIBePVp1Oao0mp7fW2QTWIN091iGKyQ4nc=",
-        "originContent": "- .NET 6.0 或更高版本",
-        "translatedContent": "- .NET 6.0 or higher"
-      },
-      {
-        "row": 5,
-        "rowsha": "ZFijD5BgyEkR9t0hXktvC57zSzO7eVLvrIju8FAFvuo=",
-        "originContent": "- Windows 操作系统（需要管理员权限运行）",
-        "translatedContent": "- Windows operating system (requires administrator privileges)"
-      },
-      {
-        "row": 6,
-        "rowsha": "6OiISxF9ofG09LaFbtuOMsT5cbe8jaxaeSwkF8Lupmk=",
-        "originContent": "- 已安装的网络适配器",
-        "translatedContent": "- Installed network adapter"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "Xad2M4OdpGgCk3H02yAdSFc00hlA47zTV9qmg8otOo0=",
-        "originContent": "## 安装步骤",
-        "translatedContent": "## Installation Steps"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "S6GarpppzFQgbd6yp2bbRYLZhG2GJQuzIX1Md+JhbVs=",
-        "originContent": "### 1. 克隆或下载项目",
-        "translatedContent": "### 1. Clone or download the project"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -287,26 +44,7 @@
     "EndLine": 0,
     "Translation": "```bash\ncd \"D:\\C# Project\\zhuabao\"\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "3GX7x5TKDtBO0gfF31Vc7CYosBG1KWjuO/MH2+NuuEA=",
-        "originContent": "cd \"D:\\C# Project\\zhuabao\"",
-        "translatedContent": "cd \"D:\\C# Project\\zhuabao\""
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -318,26 +56,7 @@
     "EndLine": 0,
     "Translation": "\n### 2. Restore NuGet Dependencies\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "w9ATVEGAx3SG7bWeSGmt+dSLr5lON31LFduGVF95aIs=",
-        "originContent": "### 2. 恢复 NuGet 依赖",
-        "translatedContent": "### 2. Restore NuGet Dependencies"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -349,26 +68,7 @@
     "EndLine": 0,
     "Translation": "```bash\ndotnet restore\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "K8Jp5ysiPx64p/MSwLWhrpIEoTR/jZDXWTZr8HPVM4g=",
-        "originContent": "dotnet restore",
-        "translatedContent": "dotnet restore"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -380,26 +80,7 @@
     "EndLine": 0,
     "Translation": "\n### 3. Building the Project\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "PrmjOSY01UZBEsNAGhdGx7NNSx4r8wIRzostwyQxDqw=",
-        "originContent": "### 3. 构建项目",
-        "translatedContent": "### 3. Building the Project"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -411,26 +92,7 @@
     "EndLine": 0,
     "Translation": "```bash\ndotnet build\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "jE8Uv8aAOIPekJ0PA3D2uDa+bt8YctMA6v5/a4hicUA=",
-        "originContent": "dotnet build",
-        "translatedContent": "dotnet build"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -442,50 +104,7 @@
     "EndLine": 0,
     "Translation": "\n## Usage\n\n### Basic Operation\n\n**Important: Must be run with administrator privileges!**\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "6MQVJlN8pzS/JKFAmEsF+fGPpVBhkqKXd7kJyIXtGEg=",
-        "originContent": "## 使用方法",
-        "translatedContent": "## Usage"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "oGNWC/BYBhIcQtEMrEFlLNTq2vIrNhSu+BRzcXKuJpw=",
-        "originContent": "### 基本运行",
-        "translatedContent": "### Basic Operation"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "+EclN+tvjVJfoGMTdHcLH9jxcFH1V1PHJimUBo81gvs=",
-        "originContent": "**重要：必须以管理员权限运行！**",
-        "translatedContent": "**Important: Must be run with administrator privileges!**"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -497,74 +116,7 @@
     "EndLine": 0,
     "Translation": "```bash\n# 默认模式：只打印 HTTP Request 的时间 + 方法 + 路径\ndotnet run\n\n# 完整模式：打印完整数据包信息（包含 IP/MAC/端口/Body 等）\ndotnet run -- --full\n\n# 先构建后运行\ndotnet build\ndotnet bin/Debug/net6.0/PacketSniffer.exe\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "Q9hypQofh5vvCERi7LKAdGlj7/sBXNvRuJ4UZ7T1NMU=",
-        "originContent": "# 默认模式：只打印 HTTP Request 的时间 + 方法 + 路径",
-        "translatedContent": "# 默认模式：只打印 HTTP Request 的时间 + 方法 + 路径"
-      },
-      {
-        "row": 3,
-        "rowsha": "hQeSqaHh6OyLdP4T2H5RqAH1rXZaLqcMEx5qx+IuEv0=",
-        "originContent": "dotnet run",
-        "translatedContent": "dotnet run"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "7G5sgZr4i6oL1uJOYeTqhfkdzjtWk+8LB5We5AEKOwA=",
-        "originContent": "# 完整模式：打印完整数据包信息（包含 IP/MAC/端口/Body 等）",
-        "translatedContent": "# 完整模式：打印完整数据包信息（包含 IP/MAC/端口/Body 等）"
-      },
-      {
-        "row": 6,
-        "rowsha": "e5tbtHS5uw1veIq3owTG4Eyec0nDnCAqNMXlW5Y43vc=",
-        "originContent": "dotnet run -- --full",
-        "translatedContent": "dotnet run -- --full"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "cV8fx3WmIcMMjZrrJDTqW52DhLP0sP/v1am/Bk36c3A=",
-        "originContent": "# 先构建后运行",
-        "translatedContent": "# 先构建后运行"
-      },
-      {
-        "row": 9,
-        "rowsha": "jE8Uv8aAOIPekJ0PA3D2uDa+bt8YctMA6v5/a4hicUA=",
-        "originContent": "dotnet build",
-        "translatedContent": "dotnet build"
-      },
-      {
-        "row": 10,
-        "rowsha": "rlMd7fWdZkOyXheR7W/wIllxGCBn8IHP5WPiEFXO2TY=",
-        "originContent": "dotnet bin/Debug/net6.0/PacketSniffer.exe",
-        "translatedContent": "dotnet bin/Debug/net6.0/PacketSniffer.exe"
-      },
-      {
-        "row": 11,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -576,50 +128,7 @@
     "EndLine": 0,
     "Translation": "\n### 配置文件 `config.json`\n\n所有需要手动调整的内容都集中在根目录的 `config.json`，程序运行时会从 **exe 所在目录** 读取该文件。\n\n示例：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "qDtk+hM+cGMqk+dwaDraQIcC99IK2xs01dPNBrPvf3Y=",
-        "originContent": "### 配置文件 `config.json`",
-        "translatedContent": "### 配置文件 `config.json`"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "C1FQeRu7kg7aLslXI0uJ2RFBkHKoRrymgRlt4zIyboU=",
-        "originContent": "所有需要手动调整的内容都集中在根目录的 `config.json`，程序运行时会从 **exe 所在目录** 读取该文件。",
-        "translatedContent": "所有需要手动调整的内容都集中在根目录的 `config.json`，程序运行时会从 **exe 所在目录** 读取该文件。"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "JFRDw/Ef5IGM4UeUsiKl8yLTl1enpFYBjZCyOOGBwhM=",
-        "originContent": "示例：",
-        "translatedContent": "示例："
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -631,74 +140,7 @@
     "EndLine": 0,
     "Translation": "```json\n{\n  \"DeviceKeyword\": \"loopback\",\n  \"Ports\": [5005],\n  \"FilterSourcePort\": true,\n  \"FilterDestinationPort\": true,\n  \"HttpPathFilters\": [\n    \"/api/\"\n  ]\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
-        "originContent": "```json",
-        "translatedContent": "```json"
-      },
-      {
-        "row": 2,
-        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-        "originContent": "{",
-        "translatedContent": "{"
-      },
-      {
-        "row": 3,
-        "rowsha": "1Iq1gJHAuJglN/VCwEpFICAjMFebQJKZCMbYBL2r0aU=",
-        "originContent": "  \"DeviceKeyword\": \"loopback\",",
-        "translatedContent": "  \"DeviceKeyword\": \"loopback\","
-      },
-      {
-        "row": 4,
-        "rowsha": "fwmdCJcRx3PRLcLFXXg4mqmtHhcjnQZlqu7EMkPweH0=",
-        "originContent": "  \"Ports\": [5005],",
-        "translatedContent": "  \"Ports\": [5005],"
-      },
-      {
-        "row": 5,
-        "rowsha": "synT3pA8PEEg8EUZJQDYW7lTczAIbh12J5YjS+EwTl0=",
-        "originContent": "  \"FilterSourcePort\": true,",
-        "translatedContent": "  \"FilterSourcePort\": true,"
-      },
-      {
-        "row": 6,
-        "rowsha": "BUB4VfBpPFcMbQg4WDj1yd7k61Asq44AAmCUJAjpWkI=",
-        "originContent": "  \"FilterDestinationPort\": true,",
-        "translatedContent": "  \"FilterDestinationPort\": true,"
-      },
-      {
-        "row": 7,
-        "rowsha": "/lLG1lXd3Ny6fyMq1ORVC46/ZCbp2GGzSzcId0BcEVc=",
-        "originContent": "  \"HttpPathFilters\": [",
-        "translatedContent": "  \"HttpPathFilters\": ["
-      },
-      {
-        "row": 8,
-        "rowsha": "Eu05b4n5idgXARv13RNsUlS1Y2c6N6Fvcap/YKvldbs=",
-        "originContent": "    \"/api/\"",
-        "translatedContent": "    \"/api/\""
-      },
-      {
-        "row": 9,
-        "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
-        "originContent": "  ]",
-        "translatedContent": "  ]"
-      },
-      {
-        "row": 10,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 11,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -710,248 +152,7 @@
     "EndLine": 0,
     "Translation": "- **DeviceKeyword**: Network card filter keyword (matches Name/Description).  \n  For example, `\"Intel\"`, `\"Realtek\"`, `\"Npcap Loopback\"`, `\"loopback\"`. If empty or omitted, physical network cards are prioritized, followed by Npcap Loopback.\n- **Ports**: List of listening ports (matches source or destination port). If empty or omitted, all ports are listened to.\n- **FilterSourcePort / FilterDestinationPort**: Whether to filter by source port / destination port.\n- **HttpPathFilters**: HTTP request path filtering keywords, effective only for **HTTP Request**.  \n  For example, `[\"/api/\"]` means only printing HTTP requests whose paths contain `/api/`.\n\n### Running Process\n\n1. On startup, read `config.json` to determine: network card keyword, listening ports, HTTP path filtering rules.\n2. Fuzzy match the network card list based on `DeviceKeyword`, prioritizing the configured network card; if not configured, automatically prioritize physical network cards, then Npcap Loopback.  \n   The console will list all network cards and mark them `[PHYSICAL]` / `[VIRTUAL]` / `[LOOPBACK]`.\n3. Enable promiscuous mode for packet capture.\n4. Capture TCP/UDP packet payloads in real time and filter according to port configuration (`Ports` + FilterSource/FilterDestination).\n5. Automatically recognize protocol type (JsonParser → HttpParser → BinaryParser).\n6. In default mode: only process HTTP Requests, parse the request line and print `time + method + path + port`, optionally filter by path keywords.\n7. In full mode (`--full`): build `PacketInfo` for each packet, print full packet structure, header info, and payload summary.\n\n### Stopping the Program\n\nPress `Ctrl+C` to exit gracefully; the program will automatically stop capturing and clean up resources.\n\n## Protocol Parsing Description\n\n### JSON Protocol Parsing\n\n- **Recognition method**: Check if payload starts with `{` or `[`\n- **Parsing content**: Extract all first-level field key-value pairs\n- **Output format**: `Protocol=json, Fields={key1=value1, key2=value2, ...}`\n\n### HTTP Protocol Parsing\n\n- **Recognition method**: Check if it starts with HTTP methods (GET/POST, etc.) or `HTTP/1.x`\n- **Parsing content**:\n  - Parse HTTP Headers (all header fields)\n  - Parse Request Line or Status Line\n  - If Body is JSON format, automatically parse JSON fields\n- **Output format**: `Protocol=http, Fields={request_line=..., header_Content-Type=..., ...}`\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- **DeviceKeyword**: Network card filter keyword (matches Name/Description).  "
-      },
-      {
-        "row": 2,
-        "rowsha": "WE1L969lNK0KLcYmElrHP4V209uVAkTHqCiCUOWPvCQ=",
-        "originContent": "- **DeviceKeyword**：网卡筛选关键字（匹配 Name/Description）。  ",
-        "translatedContent": "  For example, `\"Intel\"`, `\"Realtek\"`, `\"Npcap Loopback\"`, `\"loopback\"`. If empty or omitted, physical network cards are prioritized, followed by Npcap Loopback."
-      },
-      {
-        "row": 3,
-        "rowsha": "nyIvRmauNVCV/xwRdmhdxbtUZMEJG4oweexLNT/crtg=",
-        "originContent": "  例如 `\"Intel\"`、`\"Realtek\"`、`\"Npcap Loopback\"`、`\"loopback\"`。为空或省略时，将自动选择物理网卡优先，其次 Npcap Loopback。",
-        "translatedContent": "- **Ports**: List of listening ports (matches source or destination port). If empty or omitted, all ports are listened to."
-      },
-      {
-        "row": 4,
-        "rowsha": "LGlYsDltffcffRvTNZNPHiLQE1hZ/Wipgcas7sBgqcY=",
-        "originContent": "- **Ports**：监听的端口列表（源端口或目标端口任一匹配即可）。为空或省略时，监听所有端口。",
-        "translatedContent": "- **FilterSourcePort / FilterDestinationPort**: Whether to filter by source port / destination port."
-      },
-      {
-        "row": 5,
-        "rowsha": "zc6XqA3tiPE2Wb3b4nCbWtpcWEJ4VsooaqGOBdlvf98=",
-        "originContent": "- **FilterSourcePort / FilterDestinationPort**：是否按源端口 / 目标端口进行过滤。",
-        "translatedContent": "- **HttpPathFilters**: HTTP request path filtering keywords, effective only for **HTTP Request**.  "
-      },
-      {
-        "row": 6,
-        "rowsha": "ezOEBoTy781RKI0H6TdwPjaDFB3nz8yPRmP2c758Kig=",
-        "originContent": "- **HttpPathFilters**：HTTP 请求路径过滤关键字，仅对 **HTTP Request** 生效。  ",
-        "translatedContent": "  For example, `[\"/api/\"]` means only printing HTTP requests whose paths contain `/api/`."
-      },
-      {
-        "row": 7,
-        "rowsha": "xF8E3l11ELLzbU2ZddYzDtQrhSAih7veE7wGs2m2csY=",
-        "originContent": "  例如 `[\"/api/\"]` 表示只打印路径中包含 `/api/` 的 HTTP 请求。",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### Running Process"
-      },
-      {
-        "row": 9,
-        "rowsha": "Ku8sVRqzUv3Ms6Sf84bKu8yE+BrtaeSYHePFuIqCaSE=",
-        "originContent": "### 运行流程",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. On startup, read `config.json` to determine: network card keyword, listening ports, HTTP path filtering rules."
-      },
-      {
-        "row": 11,
-        "rowsha": "tMOvfVbBsLnooX9XCS/eRY3lAVx7L5+eDh3f1HxIA4M=",
-        "originContent": "1. 启动时读取 `config.json`，确定：网卡关键字、监听端口、HTTP 路径过滤规则。",
-        "translatedContent": "2. Fuzzy match the network card list based on `DeviceKeyword`, prioritizing the configured network card; if not configured, automatically prioritize physical network cards, then Npcap Loopback.  "
-      },
-      {
-        "row": 12,
-        "rowsha": "yisRaL1lB4Ee/w1hJ/7/tqmsNoIILOexD5ejy96+ZUw=",
-        "originContent": "2. 根据 `DeviceKeyword` 从网卡列表中模糊匹配，优先选择配置指定的网卡；若未配置则自动选择物理网卡优先，其次 Npcap Loopback。  ",
-        "translatedContent": "   The console will list all network cards and mark them `[PHYSICAL]` / `[VIRTUAL]` / `[LOOPBACK]`."
-      },
-      {
-        "row": 13,
-        "rowsha": "0GU887yr+g66aDTL/PXPCgzHWx6zYw7v1FaOBQIIkj4=",
-        "originContent": "   此时控制台会列出所有网卡并标注 `[PHYSICAL]` / `[VIRTUAL]` / `[LOOPBACK]`。",
-        "translatedContent": "3. Enable promiscuous mode for packet capture."
-      },
-      {
-        "row": 14,
-        "rowsha": "SA8YnX1Aot41TnSaaXZZY4LW4k0BrYL1Z7CvmQrEYZI=",
-        "originContent": "3. 开启混杂模式（Promiscuous Mode）进行抓包。",
-        "translatedContent": "4. Capture TCP/UDP packet payloads in real time and filter according to port configuration (`Ports` + FilterSource/FilterDestination)."
-      },
-      {
-        "row": 15,
-        "rowsha": "SdD7WJgL/an1sDijQYGyYN3a1f8K+xeGYF8QPsp9ZMA=",
-        "originContent": "4. 实时捕获 TCP/UDP 包的 payload，并根据端口配置 (`Ports` + FilterSource/FilterDestination) 做过滤。",
-        "translatedContent": "5. Automatically recognize protocol type (JsonParser → HttpParser → BinaryParser)."
-      },
-      {
-        "row": 16,
-        "rowsha": "AaPAc6BLb1nyv1MxY9svqWi3Ej7+kMftO9/rPxKjm2A=",
-        "originContent": "5. 自动识别协议类型（JsonParser → HttpParser → BinaryParser）。",
-        "translatedContent": "6. In default mode: only process HTTP Requests, parse the request line and print `time + method + path + port`, optionally filter by path keywords."
-      },
-      {
-        "row": 17,
-        "rowsha": "fJyFX3xTnHYMOJm21PRZz44aCfbdPnghq7fNtJz+/tE=",
-        "originContent": "6. 默认模式下：只处理 HTTP Request，解析请求行并打印 `时间 + 方法 + 路径 + 端口`，可选按路径关键字过滤。",
-        "translatedContent": "7. In full mode (`--full`): build `PacketInfo` for each packet, print full packet structure, header info, and payload summary."
-      },
-      {
-        "row": 18,
-        "rowsha": "QbtjuRiOud92yp561+zle/gb7p7KYSsK4/2T/J3WJ1o=",
-        "originContent": "7. 完整模式（`--full`）下：对每个包构建 `PacketInfo`，打印完整的包结构、头部信息和 Payload 摘要。",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### Stopping the Program"
-      },
-      {
-        "row": 20,
-        "rowsha": "7BjiXoUVdqWjom6keoxhSkp1qo9AjtSLurvGIBFs7KQ=",
-        "originContent": "### 停止程序",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Press `Ctrl+C` to exit gracefully; the program will automatically stop capturing and clean up resources."
-      },
-      {
-        "row": 22,
-        "rowsha": "ymuz8gr2laOqpKtkUFnh6Wr435CNegkSdwe7LZWGmjI=",
-        "originContent": "按 `Ctrl+C` 优雅退出，程序会自动停止抓包并清理资源。",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Protocol Parsing Description"
-      },
-      {
-        "row": 24,
-        "rowsha": "a1I6aSUtTsW6I+KiuxGUR8ctBp8j3rOHWTI+heNA6GQ=",
-        "originContent": "## 协议解析说明",
-        "translatedContent": ""
-      },
-      {
-        "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### JSON Protocol Parsing"
-      },
-      {
-        "row": 26,
-        "rowsha": "tChMZRt/O/j2PP+8kVVUX0ZgBrDd9mnqAxgnB1UrCC8=",
-        "originContent": "### JSON 协议解析",
-        "translatedContent": ""
-      },
-      {
-        "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- **Recognition method**: Check if payload starts with `{` or `[`"
-      },
-      {
-        "row": 28,
-        "rowsha": "2N8fn6RkaklurjDg14lSlL7NR37qwbbZ/cgGBVGQ20M=",
-        "originContent": "- **识别方式**：检查 payload 是否以 `{` 或 `[` 开头",
-        "translatedContent": "- **Parsing content**: Extract all first-level field key-value pairs"
-      },
-      {
-        "row": 29,
-        "rowsha": "wr4yHaKn5ckyYtDV78PK2vYdsCWBdp7WFdUgc77ONxs=",
-        "originContent": "- **解析内容**：提取所有一级字段的键值对",
-        "translatedContent": "- **Output format**: `Protocol=json, Fields={key1=value1, key2=value2, ...}`"
-      },
-      {
-        "row": 30,
-        "rowsha": "+fclpvyCfWgRoF3V94ff8XenyUIOSqK8Tosesn9v8Ys=",
-        "originContent": "- **输出格式**：`Protocol=json, Fields={key1=value1, key2=value2, ...}`",
-        "translatedContent": ""
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### HTTP Protocol Parsing"
-      },
-      {
-        "row": 32,
-        "rowsha": "t3tEl+X3gjGIzpn4JoHppgCVKURJT+qDm53LjG4Pf7o=",
-        "originContent": "### HTTP 协议解析",
-        "translatedContent": ""
-      },
-      {
-        "row": 33,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- **Recognition method**: Check if it starts with HTTP methods (GET/POST, etc.) or `HTTP/1.x`"
-      },
-      {
-        "row": 34,
-        "rowsha": "YNYqSEYl5+R5skSK6B+UHkbUj/AwQ7leDa/Y93eOQVc=",
-        "originContent": "- **识别方式**：检查是否以 HTTP 方法（GET/POST等）或 `HTTP/1.x` 开头",
-        "translatedContent": "- **Parsing content**:"
-      },
-      {
-        "row": 35,
-        "rowsha": "/52VfS3+6qPBnE8s1fcx850rRlUEGoKmNI+jdk9uzoo=",
-        "originContent": "- **解析内容**：",
-        "translatedContent": "  - Parse HTTP Headers (all header fields)"
-      },
-      {
-        "row": 36,
-        "rowsha": "ZDDfmzLFqdteY6V/UjcMpatoPK6rQwLaia4uLDYldps=",
-        "originContent": "  - 解析 HTTP Headers（所有 header 字段）",
-        "translatedContent": "  - Parse Request Line or Status Line"
-      },
-      {
-        "row": 37,
-        "rowsha": "DNroDTqk3K59X0SyWp8AZUvsHiVwz3WjeHm2cTGeCA8=",
-        "originContent": "  - 解析 Request Line 或 Status Line",
-        "translatedContent": "  - If Body is JSON format, automatically parse JSON fields"
-      },
-      {
-        "row": 38,
-        "rowsha": "qRFWm3ru+zOJGB0lRpWDYW8XikxFhHhmQbUqavxLjQ4=",
-        "originContent": "  - 如果 Body 是 JSON 格式，自动解析 JSON 字段",
-        "translatedContent": "- **Output format**: `Protocol=http, Fields={request_line=..., header_Content-Type=..., ...}`"
-      },
-      {
-        "row": 39,
-        "rowsha": "W/lBhzICqDtoOnLZbKijWkGX7FS3a7uqRrr3DF+Jl9o=",
-        "originContent": "- **输出格式**：`Protocol=http, Fields={request_line=..., header_Content-Type=..., ...}`",
-        "translatedContent": ""
-      },
-      {
-        "row": 40,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -963,134 +164,7 @@
     "EndLine": 0,
     "Translation": "### Binary Protocol Parsing\n\n- **Identification method**: Used as the fallback parser; all unrecognized protocols will use this parser  \n- **Parsing content**: Converts the payload into a hexadecimal string  \n- **Output format**: `Protocol=binary, Fields={hex=AA BB CC DD ...}`  \n- **Extension tip**: Custom protocol parsing logic can be added in `BinaryParser.cs`  \n\n## Business Logic Processing\n\nThe current version by default only performs \"capture + parse + print\" to help you observe actual traffic:  \n\n- In default mode: only prints the HTTP Request time, method, path, and port information.  \n- In full mode: prints the complete `PacketInfo`, including link layer/IP layer/transport layer information and payload summary.  \n- The business processing entry `HandleBusinessLogic(ParsedResult result)` is still reserved for you to perform custom processing based on parsing results later.  \n\n## Custom Extensions\n\n### Adding a New Protocol Parser\n\n1. Implement the `IParser` interface:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "97UJtPBj8gg+YFlWUK55D9fKlmSUvJyzytxPLWiJP58=",
-        "originContent": "### 二进制协议解析",
-        "translatedContent": "### Binary Protocol Parsing"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "2a9wyDJwiFT49cSEcGqkJuNdaDkv/KXDA5ybfOeCnY4=",
-        "originContent": "- **识别方式**：作为兜底解析器，所有无法识别的协议都会使用此解析器",
-        "translatedContent": "- **Identification method**: Used as the fallback parser; all unrecognized protocols will use this parser  "
-      },
-      {
-        "row": 4,
-        "rowsha": "dsTDYxQ3/N3rVuXxMj8v5Y5AytaJvtJfY/qafcDKuzs=",
-        "originContent": "- **解析内容**：将 payload 转换为十六进制字符串",
-        "translatedContent": "- **Parsing content**: Converts the payload into a hexadecimal string  "
-      },
-      {
-        "row": 5,
-        "rowsha": "03AhMMjlPFqYUorE2cUaRW4QlBnA3cANViDvUhXLhXU=",
-        "originContent": "- **输出格式**：`Protocol=binary, Fields={hex=AA BB CC DD ...}`",
-        "translatedContent": "- **Output format**: `Protocol=binary, Fields={hex=AA BB CC DD ...}`  "
-      },
-      {
-        "row": 6,
-        "rowsha": "vEpM0pZ2BWsBYd1NTrrka2S2kweLTjTBlld1CSBws4E=",
-        "originContent": "- **扩展提示**：可在 `BinaryParser.cs` 中添加自定义协议解析逻辑",
-        "translatedContent": "- **Extension tip**: Custom protocol parsing logic can be added in `BinaryParser.cs`  "
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "9+gLFNgqWhsTzX331R8zol5dcpjzF3JVC914eBbGzXE=",
-        "originContent": "## 业务逻辑处理",
-        "translatedContent": "## Business Logic Processing"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "Tpk2lMRNB+43LPmrZ/RpcJx4rX89++1VKxjFb9LRF8E=",
-        "originContent": "当前版本默认只做“捕获 + 解析 + 打印”，便于你观察实际流量：",
-        "translatedContent": "The current version by default only performs \"capture + parse + print\" to help you observe actual traffic:  "
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "vfplSSvWKSCiFgYk/mdBnc7fms2Y1L7C/qBfBLHn6xI=",
-        "originContent": "- 默认模式下：只打印 HTTP Request 的时间、方法、路径和端口信息。",
-        "translatedContent": "- In default mode: only prints the HTTP Request time, method, path, and port information.  "
-      },
-      {
-        "row": 13,
-        "rowsha": "sOAu9wIENkb9kZXATOj+U/6gv8xZF+JDUlqDd8Ycgds=",
-        "originContent": "- 完整模式下：打印完整 `PacketInfo`，包括链路层/IP 层/传输层信息及 Payload 概要。",
-        "translatedContent": "- In full mode: prints the complete `PacketInfo`, including link layer/IP layer/transport layer information and payload summary.  "
-      },
-      {
-        "row": 14,
-        "rowsha": "PutbF4CXemQOvCMhe+CqY61iqq+98aXHpEm7GF2oeT8=",
-        "originContent": "- 业务处理入口 `HandleBusinessLogic(ParsedResult result)` 仍然保留，方便你后续按解析结果做自定义处理。",
-        "translatedContent": "- The business processing entry `HandleBusinessLogic(ParsedResult result)` is still reserved for you to perform custom processing based on parsing results later.  "
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "Rb10y4GEXqTh34f9bZGjLk9jhTPpz+tD6Msx2eh1LrM=",
-        "originContent": "## 自定义扩展",
-        "translatedContent": "## Custom Extensions"
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "vR4Pd3ychrUBdHtNXWzcx68GFuSbl5goMDxw4NeFatg=",
-        "originContent": "### 添加新的协议解析器",
-        "translatedContent": "### Adding a New Protocol Parser"
-      },
-      {
-        "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 20,
-        "rowsha": "c1usec/aHNfLtaNYGeMDywignWpacmHzxBYAjF5o22w=",
-        "originContent": "1. 实现 `IParser` 接口：",
-        "translatedContent": "1. Implement the `IParser` interface:"
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1102,104 +176,7 @@
     "EndLine": 0,
     "Translation": "```csharp\npublic class CustomParser : IParser\n{\n    public bool CanParse(byte[] payload)\n    {\n        // 判断逻辑\n        return false;\n    }\n\n    public ParsedResult Parse(byte[] payload)\n    {\n        // 解析逻辑\n        return new ParsedResult { ... };\n    }\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
-        "originContent": "```csharp",
-        "translatedContent": "```csharp"
-      },
-      {
-        "row": 2,
-        "rowsha": "wVVCDlN8U1lsay+kYSWzu6jCc2eu8XWG/9AGoa1j0fE=",
-        "originContent": "public class CustomParser : IParser",
-        "translatedContent": "public class CustomParser : IParser"
-      },
-      {
-        "row": 3,
-        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-        "originContent": "{",
-        "translatedContent": "{"
-      },
-      {
-        "row": 4,
-        "rowsha": "43jULpwY/amg2LImNx0QHAKYWdeCVKYVk/OqiF4sIeM=",
-        "originContent": "    public bool CanParse(byte[] payload)",
-        "translatedContent": "    public bool CanParse(byte[] payload)"
-      },
-      {
-        "row": 5,
-        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
-        "originContent": "    {",
-        "translatedContent": "    {"
-      },
-      {
-        "row": 6,
-        "rowsha": "rKIsqTla6IWZYbbm9TREgD/i9HTUmZgIfC3ZZCzpNW8=",
-        "originContent": "        // 判断逻辑",
-        "translatedContent": "        // 判断逻辑"
-      },
-      {
-        "row": 7,
-        "rowsha": "o47xwOyqooDLabO5h1jewGTQUv1PnAwBRTqrxFt60n0=",
-        "originContent": "        return false;",
-        "translatedContent": "        return false;"
-      },
-      {
-        "row": 8,
-        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
-        "originContent": "    }",
-        "translatedContent": "    }"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "e1iOWPbsNgXuL+0qMuhSxYzxblI4bdyp1WY4+N7fDXM=",
-        "originContent": "    public ParsedResult Parse(byte[] payload)",
-        "translatedContent": "    public ParsedResult Parse(byte[] payload)"
-      },
-      {
-        "row": 11,
-        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
-        "originContent": "    {",
-        "translatedContent": "    {"
-      },
-      {
-        "row": 12,
-        "rowsha": "w72MJtkHVP+O/NBgK5s41xgV5AZP/oOkIpj9fTAckAc=",
-        "originContent": "        // 解析逻辑",
-        "translatedContent": "        // 解析逻辑"
-      },
-      {
-        "row": 13,
-        "rowsha": "SijRP3q0E3R3FUY9Ka1OMKbnFEfWjWzUl2Th/4QvJWM=",
-        "originContent": "        return new ParsedResult { ... };",
-        "translatedContent": "        return new ParsedResult { ... };"
-      },
-      {
-        "row": 14,
-        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
-        "originContent": "    }",
-        "translatedContent": "    }"
-      },
-      {
-        "row": 15,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 16,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1211,26 +188,7 @@
     "EndLine": 0,
     "Translation": "\n2. Register in `Program.cs`:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "pM4lo9bP1nt835jPbNe1PUoAoWn0JU0Ht9w/vPGNWd0=",
-        "originContent": "2. 在 `Program.cs` 中注册：",
-        "translatedContent": "2. Register in `Program.cs`:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1242,26 +200,7 @@
     "EndLine": 0,
     "Translation": "```csharp\nrouter.RegisterParser(new CustomParser());\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
-        "originContent": "```csharp",
-        "translatedContent": "```csharp"
-      },
-      {
-        "row": 2,
-        "rowsha": "0J2su/KH92/1UfBC2uv1PhLntwm+YQFzEY2PNLmuxw8=",
-        "originContent": "router.RegisterParser(new CustomParser());",
-        "translatedContent": "router.RegisterParser(new CustomParser());"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1273,38 +212,7 @@
     "EndLine": 0,
     "Translation": "\n### Extended Business Logic\n\nAdd custom logic in the `HandleBusinessLogic()` method of `PacketRouter.cs`:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "LevTDAjRYlI5kH461pfHjp9bo3dPM8Y2xkP0y2ekTiw=",
-        "originContent": "### 扩展业务逻辑",
-        "translatedContent": "### Extended Business Logic"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "1o768b0LSCxAutM+o9KBCDYs1+u/wo9+h79V/d4F7pQ=",
-        "originContent": "在 `PacketRouter.cs` 的 `HandleBusinessLogic()` 方法中添加自定义逻辑：",
-        "translatedContent": "Add custom logic in the `HandleBusinessLogic()` method of `PacketRouter.cs`:"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1316,68 +224,7 @@
     "EndLine": 0,
     "Translation": "```csharp\nprivate void HandleBusinessLogic(ParsedResult result)\n{\n    // 添加你的业务逻辑\n    if (result.Fields.ContainsKey(\"yourKey\"))\n    {\n        // 处理逻辑\n    }\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
-        "originContent": "```csharp",
-        "translatedContent": "```csharp"
-      },
-      {
-        "row": 2,
-        "rowsha": "CRk6Z8rDWU0g95wyP8IrHApgj2TWaPy7ev350jlNtOY=",
-        "originContent": "private void HandleBusinessLogic(ParsedResult result)",
-        "translatedContent": "private void HandleBusinessLogic(ParsedResult result)"
-      },
-      {
-        "row": 3,
-        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-        "originContent": "{",
-        "translatedContent": "{"
-      },
-      {
-        "row": 4,
-        "rowsha": "ESzQcSxGTYosx3RNoiponUxbAA20OZ9K2NMmvEurw2M=",
-        "originContent": "    // 添加你的业务逻辑",
-        "translatedContent": "    // 添加你的业务逻辑"
-      },
-      {
-        "row": 5,
-        "rowsha": "7pkAr7AMS9Q3uZdv0BQ/6S76f/2TpGAG0l4n5eXg3MU=",
-        "originContent": "    if (result.Fields.ContainsKey(\"yourKey\"))",
-        "translatedContent": "    if (result.Fields.ContainsKey(\"yourKey\"))"
-      },
-      {
-        "row": 6,
-        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
-        "originContent": "    {",
-        "translatedContent": "    {"
-      },
-      {
-        "row": 7,
-        "rowsha": "11W9rdczluh46RRhz9E6hRch+oP+lT18+YqdUiz0WB4=",
-        "originContent": "        // 处理逻辑",
-        "translatedContent": "        // 处理逻辑"
-      },
-      {
-        "row": 8,
-        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
-        "originContent": "    }",
-        "translatedContent": "    }"
-      },
-      {
-        "row": 9,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 10,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1389,50 +236,7 @@
     "EndLine": 0,
     "Translation": "\n## Output Example\n\n### Default Mode: Print Only HTTP Request Paths\n\nUse the following configuration example (`config.json`):\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "NHp4dY3s6VqqOzfuDWbxGKg0+HkbN42zelYCXY4AKfc=",
-        "originContent": "## 输出示例",
-        "translatedContent": "## Output Example"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "YgLB6dJJ1+wDJ7vLboicKQh0mbG75/gZV+C8jx5qUrE=",
-        "originContent": "### 默认模式：只打印 HTTP 请求路径",
-        "translatedContent": "### Default Mode: Print Only HTTP Request Paths"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "+SndmHBrC+wm+jylRBW5G8B4jQTU5eOUQJeYg4NGK4Q=",
-        "originContent": "使用如下配置（`config.json`）示例：",
-        "translatedContent": "Use the following configuration example (`config.json`):"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1444,74 +248,7 @@
     "EndLine": 0,
     "Translation": "```json\n{\n  \"DeviceKeyword\": \"loopback\",\n  \"Ports\": [5005],\n  \"FilterSourcePort\": true,\n  \"FilterDestinationPort\": true,\n  \"HttpPathFilters\": [\n    \"/api/\"\n  ]\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
-        "originContent": "```json",
-        "translatedContent": "```json"
-      },
-      {
-        "row": 2,
-        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-        "originContent": "{",
-        "translatedContent": "{"
-      },
-      {
-        "row": 3,
-        "rowsha": "1Iq1gJHAuJglN/VCwEpFICAjMFebQJKZCMbYBL2r0aU=",
-        "originContent": "  \"DeviceKeyword\": \"loopback\",",
-        "translatedContent": "  \"DeviceKeyword\": \"loopback\","
-      },
-      {
-        "row": 4,
-        "rowsha": "fwmdCJcRx3PRLcLFXXg4mqmtHhcjnQZlqu7EMkPweH0=",
-        "originContent": "  \"Ports\": [5005],",
-        "translatedContent": "  \"Ports\": [5005],"
-      },
-      {
-        "row": 5,
-        "rowsha": "synT3pA8PEEg8EUZJQDYW7lTczAIbh12J5YjS+EwTl0=",
-        "originContent": "  \"FilterSourcePort\": true,",
-        "translatedContent": "  \"FilterSourcePort\": true,"
-      },
-      {
-        "row": 6,
-        "rowsha": "BUB4VfBpPFcMbQg4WDj1yd7k61Asq44AAmCUJAjpWkI=",
-        "originContent": "  \"FilterDestinationPort\": true,",
-        "translatedContent": "  \"FilterDestinationPort\": true,"
-      },
-      {
-        "row": 7,
-        "rowsha": "/lLG1lXd3Ny6fyMq1ORVC46/ZCbp2GGzSzcId0BcEVc=",
-        "originContent": "  \"HttpPathFilters\": [",
-        "translatedContent": "  \"HttpPathFilters\": ["
-      },
-      {
-        "row": 8,
-        "rowsha": "Eu05b4n5idgXARv13RNsUlS1Y2c6N6Fvcap/YKvldbs=",
-        "originContent": "    \"/api/\"",
-        "translatedContent": "    \"/api/\""
-      },
-      {
-        "row": 9,
-        "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
-        "originContent": "  ]",
-        "translatedContent": "  ]"
-      },
-      {
-        "row": 10,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 11,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1523,26 +260,7 @@
     "EndLine": 0,
     "Translation": "\nExample of running output:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "G+HcLL/p3teLAV39Ji1bdHQzSGiTOyclFF5dBVKQ2K4=",
-        "originContent": "运行输出示例：",
-        "translatedContent": "Example of running output:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1554,110 +272,7 @@
     "EndLine": 0,
     "Translation": "```text\n=== Packet Sniffer - Protocol Parse Mode ===\n已加载配置文件: C:\\...\\bin\\Debug\\net6.0\\config.json\n端口过滤: 已启用，监听端口: 5005\n过滤模式: 源端口=True, 目标端口=True\n网卡关键字: \"loopback\"（将优先匹配 Name/Description）\nHTTP 路径过滤已启用，关键字列表：\n  - /api/\n\nUsing device (from config/auto): Npcap Loopback Adapter\nPacket capture started. Press Ctrl+C to stop.\n\n======================================================================================================================\n[2025-12-01 16:30:12.345] GET /api/user/123  (src:52345 -> dst:5005)\n======================================================================================================================\n[2025-12-01 16:30:13.001] POST /api/order/create  (src:52346 -> dst:5005)\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
-        "originContent": "```text",
-        "translatedContent": "```text"
-      },
-      {
-        "row": 2,
-        "rowsha": "3UedHzFi8wmW1uHHkdgzMTXqNxCjbvFS05QuScMv3lI=",
-        "originContent": "=== Packet Sniffer - Protocol Parse Mode ===",
-        "translatedContent": "=== Packet Sniffer - Protocol Parse Mode ==="
-      },
-      {
-        "row": 3,
-        "rowsha": "F22P9HrmjzPYM4ndIHqUqkGeB2RON2msCihtAuTB5u0=",
-        "originContent": "已加载配置文件: C:\\...\\bin\\Debug\\net6.0\\config.json",
-        "translatedContent": "已加载配置文件: C:\\...\\bin\\Debug\\net6.0\\config.json"
-      },
-      {
-        "row": 4,
-        "rowsha": "hoGiVPFqfVhcq0Xo2kU3KbZFb1sIakI7mRQxAXEPW0g=",
-        "originContent": "端口过滤: 已启用，监听端口: 5005",
-        "translatedContent": "端口过滤: 已启用，监听端口: 5005"
-      },
-      {
-        "row": 5,
-        "rowsha": "ANk8s5M9yFmVgUgmKbljO71FMK3m/Ur1F69LPTxvlDI=",
-        "originContent": "过滤模式: 源端口=True, 目标端口=True",
-        "translatedContent": "过滤模式: 源端口=True, 目标端口=True"
-      },
-      {
-        "row": 6,
-        "rowsha": "nGoDqqt/+qAvB1a0deomSoPYca4zkyo3+JkayxNk5h0=",
-        "originContent": "网卡关键字: \"loopback\"（将优先匹配 Name/Description）",
-        "translatedContent": "网卡关键字: \"loopback\"（将优先匹配 Name/Description）"
-      },
-      {
-        "row": 7,
-        "rowsha": "HeIOHhqKoATSBDb1FsjqeVPhe9Bn+eRbAx9uXvfMsjc=",
-        "originContent": "HTTP 路径过滤已启用，关键字列表：",
-        "translatedContent": "HTTP 路径过滤已启用，关键字列表："
-      },
-      {
-        "row": 8,
-        "rowsha": "KIJpMShQFG9hxjw4VdSlExrL3qlN5AbWHwJdIUnWlIw=",
-        "originContent": "  - /api/",
-        "translatedContent": "  - /api/"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "9dc8LlP9blcKuht6vvSnT/+ScKjkGFyF+G7jHMtRQlA=",
-        "originContent": "Using device (from config/auto): Npcap Loopback Adapter",
-        "translatedContent": "Using device (from config/auto): Npcap Loopback Adapter"
-      },
-      {
-        "row": 11,
-        "rowsha": "LPYHt08pPskuBIEvpF+WWqRpIfqGjiNnSJKHoBEt8go=",
-        "originContent": "Packet capture started. Press Ctrl+C to stop.",
-        "translatedContent": "Packet capture started. Press Ctrl+C to stop."
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "oAn9puwS3AEU5NiqVoDrcwJRBMHpvlKsuXAN+alqIys=",
-        "originContent": "======================================================================================================================",
-        "translatedContent": "======================================================================================================================"
-      },
-      {
-        "row": 14,
-        "rowsha": "5Gftr0NS4FMN5MhnepoZjqy5HPe/SuXx72qj0qmSzZM=",
-        "originContent": "[2025-12-01 16:30:12.345] GET /api/user/123  (src:52345 -> dst:5005)",
-        "translatedContent": "[2025-12-01 16:30:12.345] GET /api/user/123  (src:52345 -> dst:5005)"
-      },
-      {
-        "row": 15,
-        "rowsha": "oAn9puwS3AEU5NiqVoDrcwJRBMHpvlKsuXAN+alqIys=",
-        "originContent": "======================================================================================================================",
-        "translatedContent": "======================================================================================================================"
-      },
-      {
-        "row": 16,
-        "rowsha": "4Aj/KL+spllc1xM/N/6O52oHuExgP6JL/so4xnjUkTE=",
-        "originContent": "[2025-12-01 16:30:13.001] POST /api/order/create  (src:52346 -> dst:5005)",
-        "translatedContent": "[2025-12-01 16:30:13.001] POST /api/order/create  (src:52346 -> dst:5005)"
-      },
-      {
-        "row": 17,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1669,26 +284,7 @@
     "EndLine": 0,
     "Translation": "\n### Full Mode: Print Complete Package Information\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "QogyCOWBgHo+2lEe8mnXuO+kvvz6kWTBNdjoLc/JVHU=",
-        "originContent": "### 完整模式：打印完整包信息",
-        "translatedContent": "### Full Mode: Print Complete Package Information"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1700,26 +296,7 @@
     "EndLine": 0,
     "Translation": "```bash\ndotnet run -- --full\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "e5tbtHS5uw1veIq3owTG4Eyec0nDnCAqNMXlW5Y43vc=",
-        "originContent": "dotnet run -- --full",
-        "translatedContent": "dotnet run -- --full"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1731,26 +308,7 @@
     "EndLine": 0,
     "Translation": "\nOutput Example (Truncated):\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "ZDlDJ8uQq9R3mikIetWedlHeSl0sVNh6l0vojCx8aY0=",
-        "originContent": "输出示例（截断）：",
-        "translatedContent": "Output Example (Truncated):"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1762,164 +320,7 @@
     "EndLine": 0,
     "Translation": "```text\n================================================================================\n数据包捕获时间: 2025-12-01 16:31:00.123\n--------------------------------------------------------------------------------\n数据包长度: 1500 字节\n链路层类型: Ethernet\n源 MAC 地址: AA:BB:CC:DD:EE:FF\n目标 MAC 地址: 11:22:33:44:55:66\n\n网络层协议: IPv4Packet\nIP 版本: IPv4\n源 IP 地址: 192.168.1.100\n目标 IP 地址: 192.168.1.1\nTTL: 64\n\n传输层协议: TCP\n源端口: 52345\n目标端口: 5005\nTCP 标志: Syn, Ack\n\nPayload 长度: 256 字节\nPayload (十六进制):\n0000: 47 45 54 20 2F 61 70 69 2F 75 73 65 72 2F 31 32 | GET /api/user/12\n...\n================================================================================\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
-        "originContent": "```text",
-        "translatedContent": "```text"
-      },
-      {
-        "row": 2,
-        "rowsha": "NzsXia4J3K2yC0TtPILnbz5JFcW1XkJkNzvJmWZA6Gk=",
-        "originContent": "================================================================================",
-        "translatedContent": "================================================================================"
-      },
-      {
-        "row": 3,
-        "rowsha": "vzCkbxsD3/dfVZ/+x47ULEOlycXjS/0KTrEX45OejDs=",
-        "originContent": "数据包捕获时间: 2025-12-01 16:31:00.123",
-        "translatedContent": "数据包捕获时间: 2025-12-01 16:31:00.123"
-      },
-      {
-        "row": 4,
-        "rowsha": "rdCV0PUprMl5k+4ot4bncx1KykDv4jjaKIsGmpGEBiA=",
-        "originContent": "--------------------------------------------------------------------------------",
-        "translatedContent": "--------------------------------------------------------------------------------"
-      },
-      {
-        "row": 5,
-        "rowsha": "vCRT0s2zD6E7yzIXRSpV2YFaadpXs28Mwk8A6rK0Z1M=",
-        "originContent": "数据包长度: 1500 字节",
-        "translatedContent": "数据包长度: 1500 字节"
-      },
-      {
-        "row": 6,
-        "rowsha": "6vjq+gQBaGCNwIOf6ldmJg/DDlbvw6aqSL3ErdyUztc=",
-        "originContent": "链路层类型: Ethernet",
-        "translatedContent": "链路层类型: Ethernet"
-      },
-      {
-        "row": 7,
-        "rowsha": "I0VGi+B95y+bYoqs1Yfg3fx3bk1zsgKqrriHBwhn+6c=",
-        "originContent": "源 MAC 地址: AA:BB:CC:DD:EE:FF",
-        "translatedContent": "源 MAC 地址: AA:BB:CC:DD:EE:FF"
-      },
-      {
-        "row": 8,
-        "rowsha": "msLSPIQ0rn8N39r8rAadGnd0Fg8NwTW0nWNTo8afu/E=",
-        "originContent": "目标 MAC 地址: 11:22:33:44:55:66",
-        "translatedContent": "目标 MAC 地址: 11:22:33:44:55:66"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "jbUiJYB0tv02EDd+xcEWWtn8MuNaVtYyEcH6gRn4ysM=",
-        "originContent": "网络层协议: IPv4Packet",
-        "translatedContent": "网络层协议: IPv4Packet"
-      },
-      {
-        "row": 11,
-        "rowsha": "n7U5L8eQtl86FPcurl/tY/nVr0COw6e/Rfmjn4gf9hU=",
-        "originContent": "IP 版本: IPv4",
-        "translatedContent": "IP 版本: IPv4"
-      },
-      {
-        "row": 12,
-        "rowsha": "wtw46oCJAWEtLWOeTtCjacP4LtYi6RcgcbVpgH+YLgo=",
-        "originContent": "源 IP 地址: 192.168.1.100",
-        "translatedContent": "源 IP 地址: 192.168.1.100"
-      },
-      {
-        "row": 13,
-        "rowsha": "GBG9QJPWECRumuwru88sRPRoKIA/resDCaTZNcjImk8=",
-        "originContent": "目标 IP 地址: 192.168.1.1",
-        "translatedContent": "目标 IP 地址: 192.168.1.1"
-      },
-      {
-        "row": 14,
-        "rowsha": "i3r/+X4p+B1S6JoMRJxGr4dBM+7hZ76TkJnWLknbQmE=",
-        "originContent": "TTL: 64",
-        "translatedContent": "TTL: 64"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "H1WZctKrybTf5OrlHVR94utaSLIuXwIROkazhMUN+Oc=",
-        "originContent": "传输层协议: TCP",
-        "translatedContent": "传输层协议: TCP"
-      },
-      {
-        "row": 17,
-        "rowsha": "mHlNylPij2P9knht4QzQGyt0Vsjh5mBitMvv4urBWfA=",
-        "originContent": "源端口: 52345",
-        "translatedContent": "源端口: 52345"
-      },
-      {
-        "row": 18,
-        "rowsha": "i9nN1L1rml+xJmaqssVsI+AdzojueoZ7Zm4rlj8tKkg=",
-        "originContent": "目标端口: 5005",
-        "translatedContent": "目标端口: 5005"
-      },
-      {
-        "row": 19,
-        "rowsha": "4FjXlo+ma7iBZthlqxmdZg0r7YGVbZBe6xrlEkddJyA=",
-        "originContent": "TCP 标志: Syn, Ack",
-        "translatedContent": "TCP 标志: Syn, Ack"
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "+SRGKng+R2uTRCIU83upOqkGGQccX0X2AVSXLBUT+DI=",
-        "originContent": "Payload 长度: 256 字节",
-        "translatedContent": "Payload 长度: 256 字节"
-      },
-      {
-        "row": 22,
-        "rowsha": "bcvl0FDLPTKDFl3CJB92G3cD9yPhLlEHu2FS5Gxy4Dk=",
-        "originContent": "Payload (十六进制):",
-        "translatedContent": "Payload (十六进制):"
-      },
-      {
-        "row": 23,
-        "rowsha": "f0EEkZqoBR5ohwvyQMrvnycLHxb8fhLV7a7wMYd923I=",
-        "originContent": "0000: 47 45 54 20 2F 61 70 69 2F 75 73 65 72 2F 31 32 | GET /api/user/12",
-        "translatedContent": "0000: 47 45 54 20 2F 61 70 69 2F 75 73 65 72 2F 31 32 | GET /api/user/12"
-      },
-      {
-        "row": 24,
-        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
-        "originContent": "...",
-        "translatedContent": "..."
-      },
-      {
-        "row": 25,
-        "rowsha": "NzsXia4J3K2yC0TtPILnbz5JFcW1XkJkNzvJmWZA6Gk=",
-        "originContent": "================================================================================",
-        "translatedContent": "================================================================================"
-      },
-      {
-        "row": 26,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1931,248 +332,7 @@
     "EndLine": 0,
     "Translation": "## Notes\n\n1. **Administrator Privileges**: Packet capture requires administrator privileges; otherwise, network adapters cannot be opened.  \n2. **Firewall**: Some firewalls may block packet capture operations.  \n3. **Performance Impact**: Large amounts of network traffic may affect program performance; it is recommended to use port filtering to reduce processing load.  \n4. **Privacy and Security**: Please ensure use in a legal and compliant environment; do not capture others' private data.  \n5. **Port Filtering**: Using port filtering can significantly reduce the number of packets processed and improve performance.  \n\n## Troubleshooting\n\n### Issue 1: Network Device Not Found\n\n**Error Message**: `No network devices found`  \n\n**Solution**:  \n- Ensure network adapter drivers are installed.  \n- Check if there is an available network connection.  \n- Try running with administrator privileges.  \n\n### Issue 2: Cannot Open Device\n\n**Error Message**: `Failed to open device`  \n\n**Solution**:  \n- Ensure running with administrator privileges.  \n- Check if other programs are occupying the network adapter.  \n- Try restarting the program.  \n\n### Issue 3: Parsing Failure\n\n**Symptom**: Some packets cannot be parsed.  \n\n**Explanation**: This is normal; unrecognized protocols will be output in hexadecimal format using BinaryParser.  \n\n## Technology Stack\n\n- **.NET 6.0** - Development framework  \n- **SharpPcap 6.2.5** - Network packet capture library  \n- **PacketDotNet 1.4.7** - Packet parsing library\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Notes"
-      },
-      {
-        "row": 2,
-        "rowsha": "qqM9x68fli7rmqs2E7FUA7w7vxRW4wDZzEckY8TxYu8=",
-        "originContent": "## 注意事项",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. **Administrator Privileges**: Packet capture requires administrator privileges; otherwise, network adapters cannot be opened.  "
-      },
-      {
-        "row": 4,
-        "rowsha": "+LOgMPQeNPFY5VSX9D1/S/wxkVc34KHgMER/0cpdluE=",
-        "originContent": "1. **管理员权限**：抓包功能需要管理员权限，否则无法打开网络适配器",
-        "translatedContent": "2. **Firewall**: Some firewalls may block packet capture operations.  "
-      },
-      {
-        "row": 5,
-        "rowsha": "FCcindbz+JozB0wHq6QkUWR7Jh4sTWg45bVRE4XZhUw=",
-        "originContent": "2. **防火墙**：某些防火墙可能会阻止抓包操作",
-        "translatedContent": "3. **Performance Impact**: Large amounts of network traffic may affect program performance; it is recommended to use port filtering to reduce processing load.  "
-      },
-      {
-        "row": 6,
-        "rowsha": "Ps/OLuyA0f3JKkKr0ZzgcUyXhUuKdSPJJ62FeYZaWnI=",
-        "originContent": "3. **性能影响**：大量网络流量可能会影响程序性能，建议使用端口过滤减少处理量",
-        "translatedContent": "4. **Privacy and Security**: Please ensure use in a legal and compliant environment; do not capture others' private data.  "
-      },
-      {
-        "row": 7,
-        "rowsha": "nU+yT/O17Q6zwI5Iv95wIAMN5b4ImytUdnUi66feiz8=",
-        "originContent": "4. **隐私安全**：请确保在合法合规的环境中使用，不要抓取他人隐私数据",
-        "translatedContent": "5. **Port Filtering**: Using port filtering can significantly reduce the number of packets processed and improve performance.  "
-      },
-      {
-        "row": 8,
-        "rowsha": "8yh8eXsFfiJgpn0LnBahiboVDTG0Jt6Qq3hoN3DLbWs=",
-        "originContent": "5. **端口过滤**：使用端口过滤可以显著减少处理的数据包数量，提高性能",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Troubleshooting"
-      },
-      {
-        "row": 10,
-        "rowsha": "2HpehF4nbSwKqJxjyWabh4UZ7Qde0jnRqVgXyP3c9Po=",
-        "originContent": "## 故障排除",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### Issue 1: Network Device Not Found"
-      },
-      {
-        "row": 12,
-        "rowsha": "Ow+Sqs8D+mILmzHlIpYEkc5coL/CnGe846Z6S3bYduk=",
-        "originContent": "### 问题1：找不到网络设备",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**Error Message**: `No network devices found`  "
-      },
-      {
-        "row": 14,
-        "rowsha": "iUpHLrJJhbVRjQk1C0LB/JgnqfCflv4XfJxnya+BidM=",
-        "originContent": "**错误信息**：`No network devices found`",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**Solution**:  "
-      },
-      {
-        "row": 16,
-        "rowsha": "X7cBkNIIZ4HhHNydnJG/EnW32NMdtL9aePAjZ+kjCw0=",
-        "originContent": "**解决方案**：",
-        "translatedContent": "- Ensure network adapter drivers are installed.  "
-      },
-      {
-        "row": 17,
-        "rowsha": "37jBHDwtKG8FG90X4RrxbLQGh0S0Xtei7BITqPHCTRU=",
-        "originContent": "- 确保已安装网络适配器驱动",
-        "translatedContent": "- Check if there is an available network connection.  "
-      },
-      {
-        "row": 18,
-        "rowsha": "X2esR+26P+yp5Tdeiq1vzjj/6ihiRPPUAwDdZSTosVA=",
-        "originContent": "- 检查是否有可用的网络连接",
-        "translatedContent": "- Try running with administrator privileges.  "
-      },
-      {
-        "row": 19,
-        "rowsha": "VOrNVvJh5aWiBRL6gTyzURdMjgOfiI+QcSlYQJ0nC/E=",
-        "originContent": "- 尝试以管理员权限运行",
-        "translatedContent": ""
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### Issue 2: Cannot Open Device"
-      },
-      {
-        "row": 21,
-        "rowsha": "tmyGdxV4wgkM/zB5Vm/hjWCHOZ483cHHzt74G5U+Hrw=",
-        "originContent": "### 问题2：无法打开设备",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**Error Message**: `Failed to open device`  "
-      },
-      {
-        "row": 23,
-        "rowsha": "60XOj2PasXj9+aRvnh3OqnS+oO6jRl4OkT1sdBQRUEs=",
-        "originContent": "**错误信息**：`Failed to open device`",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**Solution**:  "
-      },
-      {
-        "row": 25,
-        "rowsha": "X7cBkNIIZ4HhHNydnJG/EnW32NMdtL9aePAjZ+kjCw0=",
-        "originContent": "**解决方案**：",
-        "translatedContent": "- Ensure running with administrator privileges.  "
-      },
-      {
-        "row": 26,
-        "rowsha": "oOir1fEXwnt7veiivN1R9ZDldV4W0IJPVWiLrQBrb5w=",
-        "originContent": "- 确保以管理员权限运行",
-        "translatedContent": "- Check if other programs are occupying the network adapter.  "
-      },
-      {
-        "row": 27,
-        "rowsha": "kAqQvqsmhUDwA67v2IffBaMNv+PBYNdKHPhDTMA/h9M=",
-        "originContent": "- 检查是否有其他程序占用网络适配器",
-        "translatedContent": "- Try restarting the program.  "
-      },
-      {
-        "row": 28,
-        "rowsha": "krD6Ze9ITbN1Y7uMs6Ti1xnl4CTe4eKFCCvLkvSzN8A=",
-        "originContent": "- 尝试重启程序",
-        "translatedContent": ""
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### Issue 3: Parsing Failure"
-      },
-      {
-        "row": 30,
-        "rowsha": "E1X7+tBhOKGUVXyhedajoWTXP9QibWbXbd9frF7Hj0A=",
-        "originContent": "### 问题3：解析失败",
-        "translatedContent": ""
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**Symptom**: Some packets cannot be parsed.  "
-      },
-      {
-        "row": 32,
-        "rowsha": "f7Uz7mL5hZbJqDVm/vKVUGipXC1T2oGaVvKtx66d2BM=",
-        "originContent": "**现象**：某些数据包无法解析",
-        "translatedContent": ""
-      },
-      {
-        "row": 33,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**Explanation**: This is normal; unrecognized protocols will be output in hexadecimal format using BinaryParser.  "
-      },
-      {
-        "row": 34,
-        "rowsha": "FcNqNk2U/HXr74zsHoGEPQ+QI7/pUv2N4rrQ1AY6p14=",
-        "originContent": "**说明**：这是正常现象，无法识别的协议会使用 BinaryParser 输出十六进制格式",
-        "translatedContent": ""
-      },
-      {
-        "row": 35,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Technology Stack"
-      },
-      {
-        "row": 36,
-        "rowsha": "LtaCEvD8FWJfPXsJMaPE5dt0QVZ/++OpGW5pGNG3LYY=",
-        "originContent": "## 技术栈",
-        "translatedContent": ""
-      },
-      {
-        "row": 37,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- **.NET 6.0** - Development framework  "
-      },
-      {
-        "row": 38,
-        "rowsha": "EFLqtbw885Gn5bQuE+cVcTlKBIEmg3vMfmv/RYrLStg=",
-        "originContent": "- **.NET 6.0** - 开发框架",
-        "translatedContent": "- **SharpPcap 6.2.5** - Network packet capture library  "
-      },
-      {
-        "row": 39,
-        "rowsha": "/6pLM+9pp0uye7H5zsdX7K1962n8hTY5+GFzJzNoha8=",
-        "originContent": "- **SharpPcap 6.2.5** - 网络抓包库",
-        "translatedContent": "- **PacketDotNet 1.4.7** - Packet parsing library"
-      },
-      {
-        "row": 40,
-        "rowsha": "2Tnu68n3rtGxvbaWY76Clhn6cOwbF8idHWCQqML3L8M=",
-        "originContent": "- **PacketDotNet 1.4.7** - 数据包解析库",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -2184,164 +344,7 @@
     "EndLine": 0,
     "Translation": "- **Newtonsoft.Json 13.0.3** - JSON parsing library\n\n## License\n\nThis project is for learning and research purposes only.\n\n## Changelog\n\n### v1.0.0 (2024)\n- ✅ Implemented real-time network packet capture functionality\n- ✅ Supports automatic recognition of JSON/HTTP/binary protocols\n- ✅ Implemented business logic dispatch mechanism\n- ✅ Supports graceful exit (Ctrl+C)\n\n## Contact\n\nIf you have any questions or suggestions, please submit an Issue or Pull Request.\n\n---\n\n**⚠️ Disclaimer**: This tool is for learning and legal use only. Users are responsible for any legal consequences arising from the use of this tool.\n\n\n## Stargazers over time\n[![Stargazers over time](https://starchart.cc/Preserved-name/PacketSniffer.svg?variant=adaptive)](https://starchart.cc/Preserved-name/PacketSniffer)\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "qKl/iKTkZSGggWUhbiEvAxHRdnchyWxOHNNT/HqMMZM=",
-        "originContent": "- **Newtonsoft.Json 13.0.3** - JSON 解析库",
-        "translatedContent": "- **Newtonsoft.Json 13.0.3** - JSON parsing library"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "l9mHJhM0bkQldVQ8sqfWeieeIFtAwhD/P/KiVcLUJww=",
-        "originContent": "## 许可证",
-        "translatedContent": "## License"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "MGEGkpmj6Vi8G9fkXIheYczAZipSjngblc3dSHBmEfs=",
-        "originContent": "本项目仅供学习和研究使用。",
-        "translatedContent": "This project is for learning and research purposes only."
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "6Sc+2v44lDEbDdVTj3VnsMxy5Ia3loc0PPRSv3sj0to=",
-        "originContent": "## 更新日志",
-        "translatedContent": "## Changelog"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "lhQAN4xUgDYL+bPrGygMKBNMGn4lzabcPYR/mrIhvBI=",
-        "originContent": "### v1.0.0 (2024)",
-        "translatedContent": "### v1.0.0 (2024)"
-      },
-      {
-        "row": 10,
-        "rowsha": "1c+BA3TO0H+4RV96pI9hE7mhZMiDkLcLeNdfE/YK6tE=",
-        "originContent": "- ✅ 实现实时网络抓包功能",
-        "translatedContent": "- ✅ Implemented real-time network packet capture functionality"
-      },
-      {
-        "row": 11,
-        "rowsha": "1P3Z94vxHobDEtFk0846W0GhUKjfn6n+1mzuaSTieiY=",
-        "originContent": "- ✅ 支持 JSON/HTTP/二进制协议自动识别",
-        "translatedContent": "- ✅ Supports automatic recognition of JSON/HTTP/binary protocols"
-      },
-      {
-        "row": 12,
-        "rowsha": "kdPDe0kIr1VxoN2Gk5qjqVJabEiwvoqd+3DSwZwXlX0=",
-        "originContent": "- ✅ 实现业务逻辑分发机制",
-        "translatedContent": "- ✅ Implemented business logic dispatch mechanism"
-      },
-      {
-        "row": 13,
-        "rowsha": "d0LXVeEvwaWQeRoJmPBQ+Is+HiJP5YpZJK9w1OKHsNE=",
-        "originContent": "- ✅ 支持优雅退出（Ctrl+C）",
-        "translatedContent": "- ✅ Supports graceful exit (Ctrl+C)"
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "ZP5PHCFkp+eVb6xgZZZnWt5eG6M+An7l7JIzcdLTUSM=",
-        "originContent": "## 联系方式",
-        "translatedContent": "## Contact"
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "Jmo+qdRtSq6gk8Ojzwj9obNn5eyp2ttfy+f0t9GKwUM=",
-        "originContent": "如有问题或建议，请提交 Issue 或 Pull Request。",
-        "translatedContent": "If you have any questions or suggestions, please submit an Issue or Pull Request."
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "ujNYtaSG0TbRNqmAlFAP/XU5OdbDLia761opETY2fJo=",
-        "originContent": "**⚠️ 免责声明**：本工具仅供学习和合法用途使用，使用者需自行承担使用本工具所产生的法律责任。",
-        "translatedContent": "**⚠️ Disclaimer**: This tool is for learning and legal use only. Users are responsible for any legal consequences arising from the use of this tool."
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "4zf9LaAgC3oEnb1ggiFqOCI9HC17z3tdWv1YEg5ZgdU=",
-        "originContent": "## Stargazers over time",
-        "translatedContent": "## Stargazers over time"
-      },
-      {
-        "row": 25,
-        "rowsha": "kfPhNhMa+gGjGz3sUCbrVpJbShmRwBUX0NyiPb8tGBI=",
-        "originContent": "[![Stargazers over time](https://starchart.cc/Preserved-name/PacketSniffer.svg?variant=adaptive)](https://starchart.cc/Preserved-name/PacketSniffer)",
-        "translatedContent": "[![Stargazers over time](https://starchart.cc/Preserved-name/PacketSniffer.svg?variant=adaptive)](https://starchart.cc/Preserved-name/PacketSniffer)"
-      },
-      {
-        "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]
