@@ -124,24 +124,24 @@
 
 ## 貢獻
 
-我們歡迎各種貢獻，無論是翻譯或新增功能。  
-我們的開發環境設定指南可在[這裡](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md)取得。  
+我們歡迎各種貢獻，無論是翻譯還是新功能開發。  
+我們的開發環境設置指南可在[這裡](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md)查閱。  
 如有疑問，請加入我們的 [Discord 伺服器](https://discord.gg/5gAHhMvTcx) 或 [Telegram 群組](https://t.me/AnymeX_Discussion)。  
-歡迎提交 Pull Request；重大更動請參考[開放議題](https://github.com/RyanYuuki/AnymeX/issues)尋求指引。
+歡迎提交 Pull requests；如需重大更動，請參考[未解決議題](https://github.com/RyanYuuki/AnymeX/issues)。
 
 <!--<details>
 <summary>Weblate 翻譯圖表</summary>
 <a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Translation status" /></a>
 </details>-->
 
-## 訪客
+## 訪客統計
 
 <img src="https://count.getloli.com/@ryanyuuki?name=anymex&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
 
-## 致謝
+## 鳴謝
 
-衷心感謝所有參與 AnymeX 開發的人員。  
-你們的努力不可或缺。
+衷心感謝所有為 AnymeX 開發做出貢獻的夥伴。
+您們的努力彌足珍貴。
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
@@ -151,13 +151,18 @@
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
 
-## 授權
 
-AnymeX 採用 MIT 授權條款。更多資訊請參閱[這裡](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md)。
+## 統計資料
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats analytics image")
+
+## 授權條款
+
+AnymeX 採用 MIT 授權條款。更多資訊可參考 [此處](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md)。
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

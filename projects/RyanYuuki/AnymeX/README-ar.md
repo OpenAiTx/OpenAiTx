@@ -126,12 +126,12 @@
 
 نرحب بجميع المساهمات، من الترجمات إلى الميزات الجديدة.  
 دليل إعداد بيئة التطوير الخاص بنا متوفر [هنا](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
-للاستفسارات، انضم إلى [خادم الديسكورد](https://discord.gg/5gAHhMvTcx) أو [مجموعة التليجرام](https://t.me/AnymeX_Discussion).  
-طلبات السحب مرحب بها؛ تحقق من [المشكلات المفتوحة](https://github.com/RyanYuuki/AnymeX/issues) للحصول على إرشادات بشأن التغييرات الرئيسية.
+للاستفسارات، انضم إلى [خادم الديسكورد الخاص بنا](https://discord.gg/5gAHhMvTcx) أو [مجموعة التليجرام](https://t.me/AnymeX_Discussion).  
+طلبات السحب مرحب بها؛ تحقق من [المشكلات المفتوحة](https://github.com/RyanYuuki/AnymeX/issues) للحصول على إرشادات حول التغييرات الرئيسية.
 
 <!--<details>
-<summary>رسم بياني لترجمة Weblate</summary>
-<a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="حالة الترجمة" /></a>
+<summary>Weblate Translation Graph</summary>
+<a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Translation status" /></a>
 </details>-->
 
 ## الزوار
@@ -140,24 +140,29 @@
 
 ## الشكر والتقدير
 
-شكرٌ جزيل لكل من ساهم في تطوير AnymeX.  
+شكر خاص من القلب لكل من ساهم في تطوير AnymeX.
 جهودكم لا تقدر بثمن.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
-  <img alt="مساهمو GitHub" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=المساهمون%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
 </a>
 <br>
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="المساهمون">
+  <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
+
+
+## الإحصائيات
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats analytics image")
 
 ## الترخيص
 
-AnymeX مرخص بموجب رخصة MIT. يمكن العثور على مزيد من المعلومات [هنا](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
+تم ترخيص AnymeX بموجب رخصة MIT. يمكن العثور على مزيد من المعلومات [هنا](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

@@ -124,13 +124,13 @@ Tritt unseren Communities bei, um auf dem Laufenden zu bleiben und dich an der D
 
 ## Mitwirken
 
-Wir begrüßen Beiträge jeglicher Art, von Übersetzungen bis hin zu neuen Funktionen.  
-Unsere Anleitung zur Einrichtung der Entwicklungsumgebung findest du [hier](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
-Für Anfragen tritt unserem [Discord-Server](https://discord.gg/5gAHhMvTcx) oder unserer [Telegram-Gruppe](https://t.me/AnymeX_Discussion) bei.  
-Pull Requests sind willkommen; schaue bei den [offenen Issues](https://github.com/RyanYuuki/AnymeX/issues) vorbei, um Hinweise zu größeren Änderungen zu erhalten.
+Wir begrüßen Beiträge, von Übersetzungen bis hin zu neuen Funktionen.  
+Unser Leitfaden zur Einrichtung der Entwicklungsumgebung ist [hier](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md) verfügbar.  
+Für Anfragen trete unserem [Discord-Server](https://discord.gg/5gAHhMvTcx) oder unserer [Telegram-Gruppe](https://t.me/AnymeX_Discussion) bei.  
+Pull Requests sind willkommen; sieh dir die [offenen Issues](https://github.com/RyanYuuki/AnymeX/issues) für Hinweise zu größeren Änderungen an.
 
 <!--<details>
-<summary>Weblate Übersetzungs-Graph</summary>
+<summary>Weblate Übersetzungsdiagramm</summary>
 <a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Übersetzungsstatus" /></a>
 </details>-->
 
@@ -138,7 +138,7 @@ Pull Requests sind willkommen; schaue bei den [offenen Issues](https://github.co
 
 <img src="https://count.getloli.com/@ryanyuuki?name=anymex&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
 
-## Danksagung
+## Danksagungen
 
 Ein herzliches Dankeschön an alle, die zur Entwicklung von AnymeX beigetragen haben.
 Eure Bemühungen sind von unschätzbarem Wert.
@@ -151,13 +151,18 @@ Eure Bemühungen sind von unschätzbarem Wert.
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Mitwirkende">
 </a>
 
+
+## Statistiken
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats Analytics-Bild")
+
 ## Lizenz
 
-AnymeX steht unter der MIT-Lizenz. Weitere Informationen findest du [hier](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
+AnymeX ist unter der MIT-Lizenz lizenziert. Weitere Informationen finden Sie [hier](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

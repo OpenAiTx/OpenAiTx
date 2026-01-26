@@ -124,10 +124,10 @@
 
 ## มีส่วนร่วม
 
-เรายินดีต้อนรับการมีส่วนร่วม ตั้งแต่การแปลภาษาไปจนถึงฟีเจอร์ใหม่ ๆ  
-คู่มือการติดตั้งสภาพแวดล้อมการพัฒนาของเรามีให้ [ที่นี่](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md)  
-หากมีข้อสงสัย เข้าร่วม [เซิร์ฟเวอร์ Discord](https://discord.gg/5gAHhMvTcx) หรือ [กลุ่ม Telegram](https://t.me/AnymeX_Discussion) ของเรา  
-เรายินดีรับ Pull request โปรดตรวจสอบ [ปัญหาที่เปิดอยู่](https://github.com/RyanYuuki/AnymeX/issues) เพื่อดูแนวทางการเปลี่ยนแปลงสำคัญ
+เรายินดีต้อนรับการมีส่วนร่วม ไม่ว่าจะเป็นการแปลหรือเพิ่มฟีเจอร์ใหม่ ๆ  
+คู่มือการตั้งค่าสภาพแวดล้อมการพัฒนาของเราสามารถดูได้ [ที่นี่](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md)  
+หากมีข้อสงสัยสามารถเข้าร่วม [เซิร์ฟเวอร์ Discord](https://discord.gg/5gAHhMvTcx) หรือ [กลุ่ม Telegram](https://t.me/AnymeX_Discussion)  
+ยินดีรับ Pull request; ตรวจสอบ [ปัญหาที่เปิดอยู่](https://github.com/RyanYuuki/AnymeX/issues) เพื่อดูแนวทางสำหรับการเปลี่ยนแปลงสำคัญ
 
 <!--<details>
 <summary>Weblate Translation Graph</summary>
@@ -138,10 +138,10 @@
 
 <img src="https://count.getloli.com/@ryanyuuki?name=anymex&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
 
-## การขอบคุณ
+## คำขอบคุณ
 
-ขอขอบคุณอย่างสุดซึ้งสำหรับทุกคนที่มีส่วนร่วมในการพัฒนา AnymeX  
-ความพยายามของคุณมีคุณค่าอย่างยิ่ง
+ขอขอบคุณจากใจสำหรับทุกคนที่มีส่วนร่วมในการพัฒนา AnymeX  
+ความพยายามของคุณล้ำค่าอย่างยิ่ง
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
@@ -151,13 +151,18 @@
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
 
+
+## สถิติ
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats analytics image")
+
 ## สัญญาอนุญาต
 
-AnymeX ได้รับอนุญาตภายใต้สัญญาอนุญาต MIT สามารถดูข้อมูลเพิ่มเติมได้ [ที่นี่](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md)
+AnymeX ได้รับอนุญาตภายใต้สัญญาอนุญาต MIT License ข้อมูลเพิ่มเติมสามารถดูได้ [ที่นี่](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md)
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

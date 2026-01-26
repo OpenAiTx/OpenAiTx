@@ -124,10 +124,10 @@
 
 ## コントリビュート
 
-翻訳から新機能の追加まで、あらゆる貢献を歓迎します。  
+翻訳から新機能追加まで、あらゆる貢献を歓迎しています。  
 開発環境のセットアップガイドは[こちら](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md)にあります。  
-お問い合わせは、[Discordサーバー](https://discord.gg/5gAHhMvTcx)または[Telegramグループ](https://t.me/AnymeX_Discussion)にご参加ください。  
-プルリクエストは歓迎します。[オープンな課題](https://github.com/RyanYuuki/AnymeX/issues)を確認して、主要な変更についてご案内します。
+ご質問は[Discordサーバー](https://discord.gg/5gAHhMvTcx)または[Telegramグループ](https://t.me/AnymeX_Discussion)にご参加ください。  
+プルリクエストも歓迎します。[オープンイシュー](https://github.com/RyanYuuki/AnymeX/issues)で大きな変更のガイダンスを確認できます。
 
 <!--<details>
 <summary>Weblate Translation Graph</summary>
@@ -140,8 +140,8 @@
 
 ## 謝辞
 
-AnymeXの開発に貢献してくださったすべての皆様に心より感謝いたします。  
-皆様の努力はかけがえのないものです。
+Anymexの開発に貢献してくださった全ての方に心より感謝いたします。
+皆様のご尽力に深く感謝いたします。
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
@@ -151,13 +151,18 @@ AnymeXの開発に貢献してくださったすべての皆様に心より感�
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
 
+
+## 統計
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats analytics image")
+
 ## ライセンス
 
-AnymeXはMITライセンスの下で提供されています。詳細は[こちら](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md)をご参照ください。
+AnymeXはMITライセンスの下でライセンスされています。詳細は[こちら](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md)をご覧ください。
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

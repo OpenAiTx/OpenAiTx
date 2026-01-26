@@ -124,24 +124,24 @@
 
 ## অৱদান কৰক
 
-অনুবাদৰ পৰা নতুন বৈশিষ্ট্যলৈকে আমি আপোনাৰ অৱদানক স্বাগত জনাইছোঁ।  
-আমাৰ বিকাশ পৰিৱেশ স্থাপন গাইড [ইয়াত](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md) উপলব্ধ।  
-জিজ্ঞাসাৰ বাবে, আমাৰ [Discord চাৰ্ভাৰ](https://discord.gg/5gAHhMvTcx) বা [Telegram গোট](https://t.me/AnymeX_Discussion)ত যোগদান কৰক।  
-পুল অনুৰোধ স্বাগতম; মুখ্য পৰিৱর্তনৰ বাবে দিশনিদৰ্শন চাবলৈ [মুক্ত সমস্যাবোৰ](https://github.com/RyanYuuki/AnymeX/issues) চাওক।
+আমরা অনুবাদৰ পৰা নতুন বৈশিষ্ট্য যোগ কৰা পৰ্যন্ত সকলো ধৰণৰ অৱদানক স্বাগতম জনাইছো।  
+আমাৰ উন্নয়ন পৰিৱেশ স্থাপন গাইড [ইয়াত](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md) উপলব্ধ।  
+প্ৰশ্ন থাকিলে আমাৰ [Discord server](https://discord.gg/5gAHhMvTcx) অথবা [Telegram group](https://t.me/AnymeX_Discussion)ত যোগদান কৰক।  
+Pull requests স্বাগতম; বৃহৎ পৰিৱর্তনৰ বাবে [open issues](https://github.com/RyanYuuki/AnymeX/issues) চাওক।
 
 <!--<details>
 <summary>Weblate Translation Graph</summary>
 <a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Translation status" /></a>
 </details>-->
 
-## পৰিদৰ্শক
+## দর্শকবৃন্দ
 
 <img src="https://count.getloli.com/@ryanyuuki?name=anymex&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
 
-## স্বীকৃতি
+## কৃতজ্ঞতা
 
-AnymeX উন্নয়নত অৱদান দিয়া সকলোলৈ হৃদয়ৰ পৰা ধন্যবাদ।
-আপোনাৰ প্ৰচেষ্টা অমূল্য।
+AnymeXৰ উন্নয়নত অৱদান আগবঢ়োৱা সকলোকে আন্তৰিক ধন্যবাদ।
+আপোনালোকৰ প্ৰয়াস অমূল্য।
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
@@ -151,13 +151,18 @@ AnymeX উন্নয়নত অৱদান দিয়া সকলোলৈ হ
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
 
-## অনুমতি-পত্র
 
-AnymeX MIT অনুমতি-পত্ৰৰ অধীনত লাইসেন্স কৰা হৈছে। অধিক তথ্য [ইয়াত](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md) পাব।
+## পৰিসংখ্যা
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats analytics image")
+
+## লাইচেঞ্চ
+
+AnymeX MIT লাইচেঞ্চৰ অধীনত লাইচেঞ্চ কৰা হৈছে। অধিক তথ্য [ইয়াত](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md) পোৱা যাব।
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

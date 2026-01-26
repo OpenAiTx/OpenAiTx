@@ -122,16 +122,16 @@
 <a href="https://t.me/AnymeX_Discussion" style="display: inline-block;"><img src="https://files.catbox.moe/z66xwr.png" alt="Telegram" height="40" style="vertical-align: middle;"></a>
 <a href="https://www.reddit.com/r/AnymeX_/" style="display: inline-block;"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-black-and-white-logos/1000/2018_social_media_popular_app_logo_reddit-1024.png" alt="Reddit" height="40" style="vertical-align: middle;"></a>
 
-## 기여하기
+## 기여
 
-번역부터 새로운 기능 개발까지 모든 기여를 환영합니다.  
-개발 환경 설정 가이드는 [여기](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md)에서 확인할 수 있습니다.  
-문의 사항은 [Discord 서버](https://discord.gg/5gAHhMvTcx) 또는 [Telegram 그룹](https://t.me/AnymeX_Discussion)에 참여해 주세요.  
-풀 리퀘스트를 환영하며, 주요 변경 사항에 대한 안내는 [오픈 이슈](https://github.com/RyanYuuki/AnymeX/issues)에서 확인하세요.
+저희는 번역부터 새로운 기능 추가까지 다양한 기여를 환영합니다.  
+개발 환경 설정 가이드는 [여기](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md)에서 확인하실 수 있습니다.  
+문의 사항이 있으시면 [Discord 서버](https://discord.gg/5gAHhMvTcx) 또는 [Telegram 그룹](https://t.me/AnymeX_Discussion)에 참여하세요.  
+Pull request는 언제든 환영합니다. 주요 변경 사항은 [오픈 이슈](https://github.com/RyanYuuki/AnymeX/issues)를 참고해 주세요.
 
 <!--<details>
-<summary>Weblate 번역 그래프</summary>
-<a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="번역 상태" /></a>
+<summary>Weblate Translation Graph</summary>
+<a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Translation status" /></a>
 </details>-->
 
 ## 방문자
@@ -140,24 +140,29 @@
 
 ## 감사의 말씀
 
-AnymeX 개발에 기여해 주신 모든 분들께 진심으로 감사드립니다.  
-여러분의 노력이 매우 소중합니다.
+AnymeX 개발에 기여해주신 모든 분들께 진심으로 감사드립니다.
+여러분의 노고는 소중합니다.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
-  <img alt="GitHub 기여자" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
 </a>
 <br>
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="기여자">
+  <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
+
+
+## 통계
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats analytics image")
 
 ## 라이선스
 
-AnymeX는 MIT 라이선스로 배포됩니다. 자세한 내용은 [여기](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md)에서 확인할 수 있습니다.
+AnymeX는 MIT 라이선스 하에 제공됩니다. 자세한 정보는 [여기](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md)에서 확인할 수 있습니다.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

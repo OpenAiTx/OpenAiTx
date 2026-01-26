@@ -122,12 +122,12 @@
 <a href="https://t.me/AnymeX_Discussion" style="display: inline-block;"><img src="https://files.catbox.moe/z66xwr.png" alt="Telegram" height="40" style="vertical-align: middle;"></a>
 <a href="https://www.reddit.com/r/AnymeX_/" style="display: inline-block;"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-black-and-white-logos/1000/2018_social_media_popular_app_logo_reddit-1024.png" alt="Reddit" height="40" style="vertical-align: middle;"></a>
 
-## Contribuye
+## Contribuir
 
 Damos la bienvenida a contribuciones, desde traducciones hasta nuevas funciones.  
-Nuestra guía para configurar el entorno de desarrollo está disponible [aquí](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
+Nuestra guía de configuración del entorno de desarrollo está disponible [aquí](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
 Para consultas, únete a nuestro [servidor de Discord](https://discord.gg/5gAHhMvTcx) o [grupo de Telegram](https://t.me/AnymeX_Discussion).  
-Las pull requests son bienvenidas; revisa los [issues abiertos](https://github.com/RyanYuuki/AnymeX/issues) para orientación sobre cambios importantes.
+Las solicitudes de extracción son bienvenidas; revisa los [issues abiertos](https://github.com/RyanYuuki/AnymeX/issues) para orientación sobre cambios importantes.
 
 <!--<details>
 <summary>Weblate Translation Graph</summary>
@@ -144,20 +144,25 @@ Un sincero agradecimiento a todos los que han contribuido al desarrollo de Anyme
 Sus esfuerzos son invaluables.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
-  <img alt="Colaboradores de GitHub" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contribuidores%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contribuidores%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
 </a>
 <br>
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contribuidores">
 </a>
 
+
+## Estadísticas
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats analytics image")
+
 ## Licencia
 
-AnymeX está licenciado bajo la Licencia MIT. Más información disponible [aquí](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
+AnymeX está licenciado bajo la Licencia MIT. Se puede encontrar más información [aquí](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

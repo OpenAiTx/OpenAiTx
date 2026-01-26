@@ -124,13 +124,13 @@ Unisciti alle nostre community per rimanere aggiornato e contribuire alla discus
 
 ## Contribuisci
 
-Accogliamo con piacere contributi, dalle traduzioni alle nuove funzionalità.  
-La nostra guida per la configurazione dell'ambiente di sviluppo è disponibile [qui](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
-Per domande, unisciti al nostro [server Discord](https://discord.gg/5gAHhMvTcx) o [gruppo Telegram](https://t.me/AnymeX_Discussion).  
-Le pull request sono benvenute; consulta le [issue aperte](https://github.com/RyanYuuki/AnymeX/issues) per suggerimenti sui cambiamenti principali.
+Siamo lieti di accogliere contributi, dalle traduzioni alle nuove funzionalità.  
+La nostra guida alla configurazione dell'ambiente di sviluppo è disponibile [qui](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
+Per domande, unisciti al nostro [server Discord](https://discord.gg/5gAHhMvTcx) o al [gruppo Telegram](https://t.me/AnymeX_Discussion).  
+Le pull request sono benvenute; consulta le [issue aperte](https://github.com/RyanYuuki/AnymeX/issues) per indicazioni sui cambiamenti principali.
 
 <!--<details>
-<summary>Grafico traduzioni Weblate</summary>
+<summary>Grafico Traduzioni Weblate</summary>
 <a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Stato traduzione" /></a>
 </details>-->
 
@@ -151,13 +151,18 @@ Il vostro impegno è prezioso.
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributori">
 </a>
 
+
+## Statistiche
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Immagine analitica Repobeats")
+
 ## Licenza
 
-AnymeX è distribuito con licenza MIT. Maggiori informazioni sono disponibili [qui](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
+AnymeX è distribuito sotto licenza MIT. Maggiori informazioni sono disponibili [qui](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

@@ -124,23 +124,23 @@
 
 ## 贡献
 
-我们欢迎各类贡献，包括翻译和新功能开发。  
-我们的开发环境搭建指南可在[此处](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md)获取。  
-如有疑问，请加入我们的 [Discord 服务器](https://discord.gg/5gAHhMvTcx)或 [Telegram 群组](https://t.me/AnymeX_Discussion)。  
-欢迎提交 Pull Request；重大更改请查阅[公开议题](https://github.com/RyanYuuki/AnymeX/issues)获取指导。
+我们欢迎各种形式的贡献，无论是翻译还是新功能开发。  
+我们的开发环境搭建指南可在[这里](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md)找到。  
+如有疑问，请加入我们的[Discord服务器](https://discord.gg/5gAHhMvTcx)或[Telegram群组](https://t.me/AnymeX_Discussion)。  
+欢迎提交拉取请求；如需进行重大更改，请查看[开放议题](https://github.com/RyanYuuki/AnymeX/issues)获取指导。
 
 <!--<details>
-<summary>Weblate 翻译进度图表</summary>
+<summary>Weblate 翻译图表</summary>
 <a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Translation status" /></a>
 </details>-->
 
-## 访客
+## 访问者
 
 <img src="https://count.getloli.com/@ryanyuuki?name=anymex&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
 
-## 致谢
+## 鸣谢
 
-衷心感谢所有为 AnymeX 发展做出贡献的人员。
+衷心感谢所有为 AnymeX 开发做出贡献的朋友们。  
 你们的努力极其宝贵。
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
@@ -151,13 +151,18 @@
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
 
+
+## 统计
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats analytics image")
+
 ## 许可证
 
-AnymeX 采用 MIT 许可证。更多信息见[此处](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md)。
+AnymeX 采用 MIT 许可证授权。更多信息可在[此处](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md)找到。
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

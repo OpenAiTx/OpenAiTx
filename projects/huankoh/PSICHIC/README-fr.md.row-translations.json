@@ -1,0 +1,920 @@
+[
+  {
+    "row": 1,
+    "rowsha": "p34i7DBUFOSkQaYjD7pwG0xGtP9ZdNHO2w6X3Ez0s6A=",
+    "originContent": "## PSICHIC: physicochemical graph neural network for learning protein-ligand interaction fingerprints from sequence data [[Nature Machine Intelligence](https://www.nature.com/articles/s42256-024-00847-1)]",
+    "translatedContent": "## PSICHIC : réseau de neurones graphes physico-chimiques pour l’apprentissage des empreintes d’interaction protéine-ligand à partir de données de séquence [[Nature Machine Intelligence](https://www.nature.com/articles/s42256-024-00847-1)]"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "sYGwxbDN63PaqrPvM0Md8WGu671qAZIFPIP0J6NI8EU=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/huankoh/PSICHIC/main/image/PSICHIC.jpg\" width=\"500\"/>",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/huankoh/PSICHIC/main/image/PSICHIC.jpg\" width=\"500\"/>"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "/Azt3drqZYCrPXuRF6oSXrrilvJcTCAo2TOey7IRea4=",
+    "originContent": "## PSICHIC Webserver <a href=\"http://www.psichicserver.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/huankoh/PSICHIC/main/image/crystal_ball.png\" alt=\"PSICHIC Webserver\" width=\"30\"/></a>",
+    "translatedContent": "## Serveur Web PSICHIC <a href=\"http://www.psichicserver.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/huankoh/PSICHIC/main/image/crystal_ball.png\" alt=\"Serveur Web PSICHIC\" width=\"30\"/></a>"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "6imDHYuKnkWhfO+qNbwFjvRifbU6GQLv5BF7PPruXcU=",
+    "originContent": "Exciting news❗ The PSICHIC webserver (beta version) is now available! 🚀 Experience the future of protein-ligand interaction analysis at at [www.psichicserver.com](https://www.psichicserver.com/)",
+    "translatedContent": "Bonne nouvelle❗ Le serveur web PSICHIC (version bêta) est maintenant disponible ! 🚀 Découvrez l’avenir de l’analyse des interactions protéine-ligand sur [www.psichicserver.com](https://www.psichicserver.com/)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "qkMDEaF+RbSGESIMS/1Ph6uvHw/u+IYAercKk9Esf48=",
+    "originContent": "_Start exploring. Your next discovery_ 🌐🔬 _could be just clicks away!_",
+    "translatedContent": "_Commencez à explorer. Votre prochaine découverte_ 🌐🔬 _pourrait être à quelques clics seulement !_"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "ivNMYlCEaEanHl4+npHpaz34RNH1Mxb1RPvgJHy2ACU=",
+    "originContent": "<sub>Note: This server is not officially associated with the paper. For the official version, you can refer to the Colab and local deployment setup below.</sub>",
+    "translatedContent": "<sub>Note : Ce serveur n’est pas officiellement associé à l’article. Pour la version officielle, vous pouvez consulter le Colab et la configuration de déploiement local ci-dessous.</sub>"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "bEMdwSL110+x8IDesup3G6UWNcpExBePkcP2PgJ3GlE=",
+    "originContent": "## PSICHIC Virtual Screening Platform <a href=\"https://colab.research.google.com/github/huankoh/PSICHIC/blob/main/PSICHIC.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>",
+    "translatedContent": "## Plateforme de criblage virtuel PSICHIC <a href=\"https://colab.research.google.com/github/huankoh/PSICHIC/blob/main/PSICHIC.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Ouvrir dans Colab\"/></a>"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "FaHHne9Et8yft/Aq4PQn1uK2aFawfmTHMWDKGmNZ7o4=",
+    "originContent": "- **Only Sequence Data**: Protein Sequence + Ligand SMILES pairs is all you need.",
+    "translatedContent": "- **Données de séquence uniquement** : seules les paires Séquence Protéine + SMILES ligand sont nécessaires."
+  },
+  {
+    "row": 16,
+    "rowsha": "xAngJK6VxJOIaGDM8xj9kaQEYLl+gefc5XwLQfbkL5U=",
+    "originContent": "- **Quick Screening**: Up to 100K compounds in an hour.",
+    "translatedContent": "- **Criblage rapide** : jusqu’à 100 000 composés en une heure."
+  },
+  {
+    "row": 17,
+    "rowsha": "vd0RgXwCAQ7mrOFEWmIZInFKpnx5Nq3GXSvCUqS1+Do=",
+    "originContent": "- **Deep Analysis**: Uncover molecular insights with PSICHIC-powered pharmacophore and targeted mutagenesis analysis.",
+    "translatedContent": "- **Analyse approfondie** : révélez des informations moléculaires avec l’analyse pharmacophore et mutagenèse ciblée propulsée par PSICHIC."
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "s9dFn9Wxr9PRGsEqjCbImCDnOsWL122q+KIotecDOtU=",
+    "originContent": "**UPDATE:** We included a jupyter notebook in selectivity subfolder to demonstrate how PSICHIC can be used for selectivity profiling.",
+    "translatedContent": "**MISE À JOUR :** Nous avons inclus un notebook jupyter dans le sous-dossier sélectivité pour démontrer comment PSICHIC peut être utilisé pour le profilage de sélectivité."
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "t5ScXg3hqkvJbDk5FO8vlEnR4DDIKwKAipUyfkDuNpI=",
+    "originContent": "## PSICHIC Environment Setup for Local Deployment",
+    "translatedContent": "## Configuration de l’environnement PSICHIC pour déploiement local"
+  },
+  {
+    "row": 22,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 23,
+    "rowsha": "1L34XXe4EOXyO5qpDAWy2R1TMltmOayRjoxIYwzL6dY=",
+    "originContent": "<summary>Click to toggle contents of PSICHIC local development </summary>",
+    "translatedContent": "<summary>Cliquez pour afficher le contenu du développement local PSICHIC </summary>"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Actuellement, PSICHIC est validé pour une utilisation sur MacOS (OSX), Linux et Windows. Nous recommandons l’installation via conda, ou mieux encore, en utilisant le gestionnaire de paquets et d’environnements plus rapide mamba. Mamba peut être installé avec la commande ``conda install mamba -n base -c conda-forge``. Pour la configuration utilisant conda ou mamba, veuillez vous référer à la ligne de code correspondante ci-dessous."
+  },
+  {
+    "row": 26,
+    "rowsha": "mZWST8fLTeoaYdKBf75umCTIctamkTxXU9TGn6vFKTw=",
+    "originContent": "Currently, PSICHIC is validated for use on MacOS (OSX), Linux and Windows. We recommend installation via conda, or even better, using the faster mamba package and environment manager. Mamba can be installed with the command ``conda install mamba -n base -c conda-forge``. For setup using either conda or mamba, please refer to the relevant code line provided below.",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 29,
+    "rowsha": "hbpXxBoVkvdnsYCxwhw/Bt4jvywzmDW1QJnisBhFbWc=",
+    "originContent": "## OSX ",
+    "translatedContent": "## OSX "
+  },
+  {
+    "row": 30,
+    "rowsha": "yy9x0so1WxplDmYNWw9zmhk370EzMWX7tujBG5DCFr8=",
+    "originContent": "conda env create -f environment_osx.yml  # if mamba: mamba env create -f environment_osx.yml",
+    "translatedContent": "conda env create -f environment_osx.yml  # if mamba: mamba env create -f environment_osx.yml"
+  },
+  {
+    "row": 31,
+    "rowsha": "BreTC0PSJPZp0YzIXWxDXoergwvi6fZiVhzRV3TgP+Y=",
+    "originContent": "## LINUX or Windows GPU",
+    "translatedContent": "## LINUX or Windows GPU"
+  },
+  {
+    "row": 32,
+    "rowsha": "v0D33ecp1pVT2tS4hWG+3RHTWBR5apxL0dO3II8P4Wk=",
+    "originContent": "conda env create -f environment_gpu.yml # if mamba: mamba env create -f environment_gpu.yml",
+    "translatedContent": "conda env create -f environment_gpu.yml # if mamba: mamba env create -f environment_gpu.yml"
+  },
+  {
+    "row": 33,
+    "rowsha": "xS2nk9GYZBRlqMohW14y4IJSPdRc/dXsouB0axYw1Qo=",
+    "originContent": "conda activate psichic_fp",
+    "translatedContent": "conda activate psichic_fp"
+  },
+  {
+    "row": 34,
+    "rowsha": "0/CO+iS1Subu3lj4ukotaaf0m5BXM4yQnNZ6u/n+BBA=",
+    "originContent": "pip install torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cu118.html",
+    "translatedContent": "pip install torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cu118.html"
+  },
+  {
+    "row": 35,
+    "rowsha": "mdj1ePEoqHJ1f8ZAN0i72RBGloVojF6WFfkdzSHVsbQ=",
+    "originContent": "## LINUX or Windows CPU",
+    "translatedContent": "## LINUX or Windows CPU"
+  },
+  {
+    "row": 36,
+    "rowsha": "kt/5BxhP68Up9Op8KCBOQdzQ/2BNo9BoxCOFYwl8kQI=",
+    "originContent": "conda env create -f environment_cpu.yml  # if mamba: mamba env create -f environment_cpu.yml",
+    "translatedContent": "conda env create -f environment_cpu.yml  # if mamba: mamba env create -f environment_cpu.yml"
+  },
+  {
+    "row": 37,
+    "rowsha": "xS2nk9GYZBRlqMohW14y4IJSPdRc/dXsouB0axYw1Qo=",
+    "originContent": "conda activate psichic_fp",
+    "translatedContent": "conda activate psichic_fp"
+  },
+  {
+    "row": 38,
+    "rowsha": "hlsnujexDauLv4KAY/oIVzB9xsRFndHOKIa6IhVuJug=",
+    "originContent": "pip install torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cpu.html",
+    "translatedContent": "pip install torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cpu.html"
+  },
+  {
+    "row": 39,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "C3YhHGL4hpmXdeBq1TN3FmtnsSnjFB4uOvxfcGNYwqk=",
+    "originContent": "Alternatively, command lines that can be helpful in setting up the environment (tested on linux with python 3.8). ",
+    "translatedContent": "Alternativement, des lignes de commande qui peuvent être utiles pour configurer l'environnement (testées sous Linux avec Python 3.8). "
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "pYz/HjMjRcOBl3wqdRFpOsmuT0Fk8/T3njYN8FKTF6Q=",
+    "originContent": "conda create --name psichic_fp python=3.8",
+    "translatedContent": "conda create --name psichic_fp python=3.8"
+  },
+  {
+    "row": 44,
+    "rowsha": "1NJjwyINAJBhX63ajIYJ6B0KfP0qP7jcqiNjYQT4OOw=",
+    "originContent": "conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.7 -c pytorch -c nvidia",
+    "translatedContent": "conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.7 -c pytorch -c nvidia"
+  },
+  {
+    "row": 45,
+    "rowsha": "MD5EOraCFvXC/CWzytxuvhBMuxZVbmNqsxI3HvtfoqM=",
+    "originContent": "conda install pyg -c pyg",
+    "translatedContent": "conda install pyg -c pyg"
+  },
+  {
+    "row": 46,
+    "rowsha": "m352StbUY96SyTcmdjRyDPOZYVaBAwggAqjXEvysBZU=",
+    "originContent": "conda install -c conda-forge rdkit==2022.09.5",
+    "translatedContent": "conda install -c conda-forge rdkit==2022.09.5"
+  },
+  {
+    "row": 47,
+    "rowsha": "oX5UtKxm76xkMHhOgkk4YbjeOFa6gxCnzh4GqMM8fSc=",
+    "originContent": "pip install scipy biopython pandas biopandas timeout_decorator py3Dmol umap-learn plotly mplcursors lifelines reprint",
+    "translatedContent": "pip install scipy biopython pandas biopandas timeout_decorator py3Dmol umap-learn plotly mplcursors lifelines reprint"
+  },
+  {
+    "row": 48,
+    "rowsha": "/clqITaaaywKtUxXkW52jTEBd5wb1BPpx8MtX/tpCAE=",
+    "originContent": "pip install \"fair-esm\"",
+    "translatedContent": "pip install \"fair-esm\""
+  },
+  {
+    "row": 49,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## BYO-PSICHIC avec données de séquence annotées"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "cmbXhn16Fr17hwakKS2NIImZ2wvfYCO4FKWHovzKIwk=",
+    "originContent": "## BYO-PSICHIC with Annotated Sequence Data ",
+    "translatedContent": "Créez un fichier csv train, valid et test dans un dossier de données (pour des exemples, voir le dossier dataset). Le dossier de données doit contenir au moins un fichier train.csv et test.csv. Selon vos étiquettes annotées, vous souhaitez utiliser ``--regression_task True`` s’il s’agit d’une étiquette de valeur continue (par exemple, affinité de liaison), ``--classification_task True`` s’il s’agit d’une étiquette de classe binaire (par exemple, présence d’interaction) et ``--mclassification_task C`` où C représente le nombre de classes dans vos étiquettes multiclasses (par exemple, 3 si vous utilisez notre jeu de données de réponse fonctionnelle protéine-ligand). Notez que vous pouvez avoir un jeu de données avec plusieurs types d’étiquettes et nous entraînerons PSICHIC à prédire plusieurs propriétés d’interaction protéine-ligand (voir PSICHIC-MultiTask ci-dessous)"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "84Gl+qnO6Q2kyYuKjWLwOMJ0UEngxiDK0buwFkgpJjY=",
+    "originContent": "Create a train, valid and test csv file in a datafolder (for examples, see the dataset folder). The datafolder should contain at least a train.csv and test.csv file. Depending on your annotated labels, you want to use ``--regression_task True`` if it is a continuous value label (e.g., binding affinity), ``--classification_task True`` if it is a binary class label (e.g., presence of interaction) and ``--mclassification_task C`` where C represents the number of classes in your multiclass labels (e.g., 3 if you are using our protein-ligand functional response dataset). Note, you can have a dataset with multiple label types and we will train PSICHIC on predicting multiple protein-ligand interaction properties (see PSICHIC-MultiTask below)",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 56,
+    "rowsha": "36sAAXx+gkVt0qFXmoS+2fqB8laacDw1IwobVx6BTvg=",
+    "originContent": "python main.py --datafolder annotated_folder --result_path result/annotated_result --regression_task True ",
+    "translatedContent": "python main.py --datafolder annotated_folder --result_path result/annotated_result --regression_task True "
+  },
+  {
+    "row": 57,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "qdIdqRrzt7+uZ9PHcYEW55Rx8gLdaXPP61gdO13WnZc=",
+    "originContent": "BYO-PSICHIC using a benchmark dataset, for example, the PDBBind v2020 benchmark:",
+    "translatedContent": "BYO-PSICHIC utilisant un ensemble de données de référence, par exemple, le benchmark PDBBind v2020 :"
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "1nZD0/HDF4Q29xnK9IZMZNlkXUIku8JJnyQdf+Pn+mo=",
+    "originContent": "python main.py --datafolder dataset/pdb2020 --result_path result/PDB2020_BENCHMARK --regression_task True ",
+    "translatedContent": "python main.py --datafolder dataset/pdb2020 --result_path result/PDB2020_BENCHMARK --regression_task True "
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "OmrYvZg5O/8i96kiwp4/0N9TWJytuSDcZGMe8xQbkUo=",
+    "originContent": "Model and optimizer configurations are consistent across all benchmark datasets, except PDBBind v2016 where you want to change the optimizer's number of training iterations, betas and eps to 30000, \"(0.9,0.99)\" and 1e-5 respectively, i.e. add to the commandline: ``--total_iters 30000 --betas \"(0.9,0.99)\" --eps 1e-5``. For binary classification task, replace ``--regression_task True`` to ``--classification_task True``. For protein functional effect dataset, replace ``--regression_task True`` to ``--mclassification_task 3``. Feel free to adjust the model hyperparameters in the config.json file, let us know if you find any interesting results!",
+    "translatedContent": "Les configurations du modèle et de l'optimiseur sont cohérentes pour tous les ensembles de données de référence, sauf pour PDBBind v2016 où vous souhaitez modifier le nombre d'itérations d'entraînement de l'optimiseur, les betas et eps respectivement à 30000, \"(0.9,0.99)\" et 1e-5, c’est-à-dire ajouter à la ligne de commande : ``--total_iters 30000 --betas \"(0.9,0.99)\" --eps 1e-5``. Pour une tâche de classification binaire, remplacez ``--regression_task True`` par ``--classification_task True``. Pour l’ensemble de données d’effet fonctionnel des protéines, remplacez ``--regression_task True`` par ``--mclassification_task 3``. N’hésitez pas à ajuster les hyperparamètres du modèle dans le fichier config.json, faites-nous savoir si vous trouvez des résultats intéressants !"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "56c6K3N6zCquW185s5E9O+ItAhBBIrsDaPqtmT+L/4Y=",
+    "originContent": "## Dataset Structure and BYO Formatting Guidelines",
+    "translatedContent": "## Structure des ensembles de données et directives de formatage BYO"
+  },
+  {
+    "row": 67,
+    "rowsha": "I3kLQbFEVS3x4j7xq0Iws78Qkpw/bdK8j+zRUlhb5fA=",
+    "originContent": "All datasets referenced in our manuscript are available on Google Drive ([Dataset](https://drive.google.com/drive/folders/1ZRpnwXtllCP89hjhfDuPivBlarBIXnmu?usp=sharing)). For the datasets used in the benchmark evaluation of PSICHIC, we have train, valid, and test CSV files that have been created based on established split settings. A separate README.md in the dataset section is dedicated to explaining the purpose of each dataset in the Google Drive Link (this is similar to Extended Data Table 1 in our manuscript). ",
+    "translatedContent": "Tous les ensembles de données référencés dans notre manuscrit sont disponibles sur Google Drive ([Dataset](https://drive.google.com/drive/folders/1ZRpnwXtllCP89hjhfDuPivBlarBIXnmu?usp=sharing)). Pour les ensembles de données utilisés dans l’évaluation comparative de PSICHIC, nous avons des fichiers CSV train, valid et test qui ont été créés selon des paramètres de découpage établis. Un fichier README.md séparé dans la section des ensembles de données est dédié à expliquer le but de chaque ensemble de données dans le lien Google Drive (c’est similaire au tableau étendu 1 dans notre manuscrit)."
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "6wycL1lvKU4eN1Un3nKSZMwP+78UCOG4TdK3GxsxN28=",
+    "originContent": "BYO-PSICHIC Dataset: Each file should look something like this if you are interested in training BYO-PSICHIC. A validation CSV file is not required if you don't have one, for instance, if you plan to apply the results in external experiments.",
+    "translatedContent": "Ensemble de données BYO-PSICHIC : Chaque fichier devrait ressembler à ceci si vous souhaitez entraîner BYO-PSICHIC. Un fichier CSV de validation n’est pas requis si vous n’en avez pas, par exemple si vous prévoyez d’appliquer les résultats dans des expériences externes."
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "SiHsfnMT7kyaFgG0RoNRJCbI5zs1CtSd59/U49Cm8VE=",
+    "originContent": "__Binding Affinity Regression__",
+    "translatedContent": "__Régression de l’affinité de liaison__"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "u/tQOs8KEivwTkMuYrKaw6jM/HOXoeSB43b5I2N/kd8=",
+    "originContent": "| Protein | Ligand | regression_label | ",
+    "translatedContent": "| Protéine | Ligand | regression_label | "
+  },
+  {
+    "row": 74,
+    "rowsha": "ofmDzJ5/YmYJ1mdj7/JaFAYkjSpwRg06iH9BDye1NZc=",
+    "originContent": "|:----------:|:----------:|:----------:|",
+    "translatedContent": "|:----------:|:----------:|:----------:|"
+  },
+  {
+    "row": 75,
+    "rowsha": "1dvVmHSlL2L/9gVHyetiUtFrp9rrAf3bv94Mx8C/Xqk=",
+    "originContent": "| ISAFQAAYIGIE....  | C1CCCCC1  | 6.7 | ",
+    "translatedContent": "| ISAFQAAYIGIE....  | C1CCCCC1  | 6.7 | "
+  },
+  {
+    "row": 76,
+    "rowsha": "Yg+mPhMODLyYK1t0U4UlSh/FxwD5BgbeGxyhf6WKSpA=",
+    "originContent": "| GGALVSVISAFQASV....  | O=C(C)Oc1ccccc1C(=O)O | 4.0 |",
+    "translatedContent": "| GGALVSVISAFQASV....  | O=C(C)Oc1ccccc1C(=O)O | 4.0 |"
+  },
+  {
+    "row": 77,
+    "rowsha": "/nEbGibg/BNCfcCIjvJ0CxsuATciMsMW9b1QSnA5Jq0=",
+    "originContent": "|...|...| ...|",
+    "translatedContent": "|...|...| ...|"
+  },
+  {
+    "row": 78,
+    "rowsha": "Vb+3az0LUXNXFidsIajUQQS4ajatOYLe2r2szX9F3U8=",
+    "originContent": "| MIPSAYIGIEVLI... | CCO | 8.1 | ",
+    "translatedContent": "| MIPSAYIGIEVLI... | CCO | 8.1 | "
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 81,
+    "rowsha": "8h3iFRy9Ya06RjZVE4XjiWwmxagLG71bwVsLTd1BhCQ=",
+    "originContent": "python main.py --datafolder BYO_DATASET --result_path BYO_RESULT --regression_task True ",
+    "translatedContent": "python main.py --datafolder BYO_DATASET --result_path BYO_RESULT --regression_task True "
+  },
+  {
+    "row": 82,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "eDn37vwqNlPL/RXYUYbVvSxKKgleuzUqfuBnBjCihG8=",
+    "originContent": "__Binary Interaction Classification__",
+    "translatedContent": "__Classification des interactions binaires__"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "AI5s03lAFh2YyKuznrzb3BO+F3TE0rowyKt7hqMPegc=",
+    "originContent": "| Protein | Ligand | classification_label | ",
+    "translatedContent": "| Protéine | Ligand | étiquette_de_classification | "
+  },
+  {
+    "row": 87,
+    "rowsha": "ofmDzJ5/YmYJ1mdj7/JaFAYkjSpwRg06iH9BDye1NZc=",
+    "originContent": "|:----------:|:----------:|:----------:|",
+    "translatedContent": "|:----------:|:----------:|:----------:|"
+  },
+  {
+    "row": 88,
+    "rowsha": "Gt3hE0BoR4qAFQifuJ4hYtDPkV118rEXVoVBp5EDnO8=",
+    "originContent": "| ISAFQAAYIGIE....  | C1CCCCC1  | 1 | ",
+    "translatedContent": "| ISAFQAAYIGIE....  | C1CCCCC1  | 1 | "
+  },
+  {
+    "row": 89,
+    "rowsha": "7DfwLJSaNGop85umi+Tt+m/eYCP7QjUNbWpGY4CeNMY=",
+    "originContent": "| GGALVSVISAFQASV.... | O=C(C)Oc1ccccc1C(=O)O | 0 |",
+    "translatedContent": "| GGALVSVISAFQASV.... | O=C(C)Oc1ccccc1C(=O)O | 0 |"
+  },
+  {
+    "row": 90,
+    "rowsha": "/nEbGibg/BNCfcCIjvJ0CxsuATciMsMW9b1QSnA5Jq0=",
+    "originContent": "|...|...| ...|",
+    "translatedContent": "|...|...| ...|"
+  },
+  {
+    "row": 91,
+    "rowsha": "pQ1urQnODOgMdHLKHD4tOkKza42yKEJTTQuJTJp5NgE=",
+    "originContent": "| MIPSAYIGIEVLI.... | CCO | 1 | ",
+    "translatedContent": "| MIPSAYIGIEVLI.... | CCO | 1 | "
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 94,
+    "rowsha": "knH1M7HMWOzKx+Bo2FML8ec381lgXupyY6rRZmCdrbo=",
+    "originContent": "python main.py --datafolder BYO_DATASET --result_path BYO_RESULT --classification_task True",
+    "translatedContent": "python main.py --datafolder BYO_DATASET --result_path BYO_RESULT --classification_task True"
+  },
+  {
+    "row": 95,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "/WsJ/LiAJzi7qLbO16X97Y0WH48EEhf8eQfGa5+Ds5Q=",
+    "originContent": "__Functional Effect Classification (Three-way Classification)__",
+    "translatedContent": "__Classification de l'effet fonctionnel (Classification à trois voies)__"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "Mkazbdc08VXzNpqbyAhmj6leHErjI8PKxB3DbAIZOSQ=",
+    "originContent": "| Protein | Ligand | multiclass_label | ",
+    "translatedContent": "| Protéine | Ligand | multiclass_label | "
+  },
+  {
+    "row": 100,
+    "rowsha": "ofmDzJ5/YmYJ1mdj7/JaFAYkjSpwRg06iH9BDye1NZc=",
+    "originContent": "|:----------:|:----------:|:----------:|",
+    "translatedContent": "|:----------:|:----------:|:----------:|"
+  },
+  {
+    "row": 101,
+    "rowsha": "2uyqzvzMI1d5rabxsxzvcpHClhWrnqHRwY+5KQlV1Sk=",
+    "originContent": "| ISAFQAAYIGIE....  | C1CCCCC1  | -1 |  # antagonist",
+    "translatedContent": "| ISAFQAAYIGIE....  | C1CCCCC1  | -1 |  # antagoniste"
+  },
+  {
+    "row": 102,
+    "rowsha": "tM89EGNI8H2YmCO4ob8dX5ky4B2UdbFs7bQEtJexbP4=",
+    "originContent": "| GGALVSVISAFQASV.... | O=C(C)Oc1ccccc1C(=O)O | 0 | # non-binder",
+    "translatedContent": "| GGALVSVISAFQASV.... | O=C(C)Oc1ccccc1C(=O)O | 0 | # non-ligand"
+  },
+  {
+    "row": 103,
+    "rowsha": "/nEbGibg/BNCfcCIjvJ0CxsuATciMsMW9b1QSnA5Jq0=",
+    "originContent": "|...|...| ...|",
+    "translatedContent": "|...|...| ...|"
+  },
+  {
+    "row": 104,
+    "rowsha": "r/oWwuv0qpN4cORpletdym7kQZDKaapGwTk2Fy03gqk=",
+    "originContent": "| MIPSAYIGIEVLI.... | CCO | 1 | # agonist",
+    "translatedContent": "| MIPSAYIGIEVLI.... | CCO | 1 | # agoniste"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 107,
+    "rowsha": "r7CSePurwtnnHch1zoDnRhPS5wctPFSS6EwreaAnO5M=",
+    "originContent": "python main.py --datafolder BYO_DATASET --result_path BYO_RESULT --mclassification_task 3",
+    "translatedContent": "python main.py --datafolder BYO_DATASET --result_path BYO_RESULT --mclassification_task 3"
+  },
+  {
+    "row": 108,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "Q1YpCF4XF4kAR+UyMjetZZLGvHFswyPSzUXRzOjau+8=",
+    "originContent": "__Multi Task PSICHIC__",
+    "translatedContent": "__Multi Task PSICHIC__"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "dy+gWLR1Na/TT/mbieuW5q63cyQJJYevKMgTgFlLk0U=",
+    "originContent": "| Protein | Ligand | regression_label | multiclass_label | ",
+    "translatedContent": "| Protéine | Ligand | étiquette_régression | étiquette_multiclasse | "
+  },
+  {
+    "row": 113,
+    "rowsha": "3ZhAqBjkhPx0peyyRUyg1peae/EaZGcz0B3SegrDuRQ=",
+    "originContent": "|:----------:|:----------:|:----------:|:----------:|",
+    "translatedContent": "|:----------:|:----------:|:----------:|:----------:|"
+  },
+  {
+    "row": 114,
+    "rowsha": "D6SXGYniYAgbjyY+28+tGCzl/J7X3iLjXq8SJYoaQVw=",
+    "originContent": "| ISAFQAAYIGIE....  | C1CCCCC1  | 6.7 | -1 |  # antagonist",
+    "translatedContent": "| ISAFQAAYIGIE....  | C1CCCCC1  | 6.7 | -1 |  # antagoniste"
+  },
+  {
+    "row": 115,
+    "rowsha": "ThtfuZayHTWQYNkT5kiaEEiKcvcsZ1BOKmPV/YqK1gw=",
+    "originContent": "| GGALVSVISAFQASV....  | O=C(C)Oc1ccccc1C(=O)O | 4.0 | 0 | # non-binder",
+    "translatedContent": "| GGALVSVISAFQASV....  | O=C(C)Oc1ccccc1C(=O)O | 4.0 | 0 | # non-ligand"
+  },
+  {
+    "row": 116,
+    "rowsha": "/nEbGibg/BNCfcCIjvJ0CxsuATciMsMW9b1QSnA5Jq0=",
+    "originContent": "|...|...| ...|",
+    "translatedContent": "|...|...| ...|"
+  },
+  {
+    "row": 117,
+    "rowsha": "/gyTc6GnGwlas5HxI/n4KFFS79GMaPnVE59qubqB8p0=",
+    "originContent": "| MIPSAYIGIEVLI.... | CCO | 8.1 | 1 | # agonist",
+    "translatedContent": "| MIPSAYIGIEVLI.... | CCO | 8.1 | 1 | # agoniste"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 120,
+    "rowsha": "/mvDfjxgtt5xITxVHV8twM+yBU8iWDYPJYmrF2hC1MA=",
+    "originContent": "python main.py --datafolder BYO_DATASET --result_path BYO_RESULT --regression_task True --mclassification_task 3",
+    "translatedContent": "python main.py --datafolder BYO_DATASET --result_path BYO_RESULT --regression_task True --mclassification_task 3"
+  },
+  {
+    "row": 121,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "EES/sIYUlWepRd8cxVM7c4Sg4aq8VQ3kdDWIEMidvsQ=",
+    "originContent": "**Strategically Split Your Dataset?** Jupyter notebook in dataset folder is available to illustrate how we perform random splits, unseen protein splits, and unseen ligand scaffold splits to evaluate the generalizability of PSICHIC or other methods. This can be useful in evaluating whether the BYO-PSICHIC works on your annotated sequence data.",
+    "translatedContent": "**Divisez stratégiquement votre ensemble de données ?** Le notebook Jupyter dans le dossier dataset est disponible pour illustrer comment nous effectuons des divisions aléatoires, des divisions par protéines non vues, et des divisions par échafaudages de ligands non vus afin d’évaluer la généralisabilité de PSICHIC ou d’autres méthodes. Cela peut être utile pour évaluer si BYO-PSICHIC fonctionne sur vos données de séquence annotées."
+  },
+  {
+    "row": 124,
+    "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+    "originContent": " ",
+    "translatedContent": " "
+  },
+  {
+    "row": 125,
+    "rowsha": "ZBUY0PZTgdsXMeo3ty6/3RjMNjBG69S0I2xZVJ7N8hw=",
+    "originContent": "## PSICHIC<sub>XL</sub>: Multitask Prediction Training on Large-scale Interaction Dataset",
+    "translatedContent": "## PSICHIC<sub>XL</sub> : Entraînement de prédiction multitâche sur un ensemble de données d’interactions à grande échelle"
+  },
+  {
+    "row": 126,
+    "rowsha": "RRFry5DlC8lF/MMqKRLweKMVE9099xG1bYfUAyT7wv4=",
+    "originContent": "The PSICHIC<sub>XL</sub> was previously referred to as the pre-trained multi-task PSICHIC. The PSICHIC<sub>A1R</sub> was previously referred to as the fine-tuned multi-task PSICHIC. We changed the name to clarify that PSICHIC<sub>XL</sub> can be used as is without any additional training. However, PSICHIC<sub>XL</sub> can potentially improve its ranking capabilities in virtual screening when fine-tuned on data specific to a protein target, e.g., the PSICHIC<sub>A<sub>1</sub>R</sub> we show below using A<sub>1</sub>R-related data.",
+    "translatedContent": "Le PSICHIC<sub>XL</sub> était auparavant appelé PSICHIC multitâche pré-entraîné. Le PSICHIC<sub>A1R</sub> était auparavant appelé PSICHIC multitâche affiné. Nous avons changé le nom pour clarifier que PSICHIC<sub>XL</sub> peut être utilisé tel quel sans entraînement supplémentaire. Cependant, PSICHIC<sub>XL</sub> peut potentiellement améliorer ses capacités de classement en criblage virtuel lorsqu’il est affiné sur des données spécifiques à une cible protéique, par ex., le PSICHIC<sub>A<sub>1</sub>R</sub> que nous montrons ci-dessous en utilisant des données liées à A<sub>1</sub>R."
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "3w0p/ri9Y9wiJ8S+EpTy2VcRgeo6qDuA0r5UBOa9vMY=",
+    "originContent": "### Training PSICHIC<sub>XL</sub> (AKA Pre-trained PSICHIC in Preprint)",
+    "translatedContent": "### Entraînement de PSICHIC<sub>XL</sub> (alias PSICHIC pré-entraîné dans le préprint)"
+  },
+  {
+    "row": 129,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 130,
+    "rowsha": "VPjJEFUQshMzgVKZ4p+9/gy3xn3Kv2P4iYDnFI9rSIs=",
+    "originContent": "python main.py --datafolder dataset/large_scale_interaction_dataset --result_path PSICHIC_MultiTask_Pretrain --lrate 1e-5 --sampling_col pretrain_sampling_weight --regression_task True --mclassification_task 3 --total_iters 300000 --evaluate_step 25000",
+    "translatedContent": "python main.py --datafolder dataset/large_scale_interaction_dataset --result_path PSICHIC_MultiTask_Pretrain --lrate 1e-5 --sampling_col pretrain_sampling_weight --regression_task True --mclassification_task 3 --total_iters 300000 --evaluate_step 25000"
+  },
+  {
+    "row": 131,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 132,
+    "rowsha": "l67FCDFv9R3OomvLxDFmiT2sKz4iqb5twHXIj+mtXKo=",
+    "originContent": "### Fine-tune PSICHIC<sub>XL</sub> into PSICHIC<sub>A<sub>1</sub>R</sub> (AKA Fine-tuned PSICHIC in Preprint)",
+    "translatedContent": "### Affiner PSICHIC<sub>XL</sub> en PSICHIC<sub>A<sub>1</sub>R</sub> (Aussi appelé PSICHIC affiné dans le préprint)  "
+  },
+  {
+    "row": 133,
+    "rowsha": "X2o4Zkc9TmmeRYYgk8q07whQI5tV9M9jXgSdhYr2C2g=",
+    "originContent": "We finetune only the application layers of PSICHIC<sub>XL</sub> for 1000 iteration on A<sub>1</sub>R-related protein using the following command:",
+    "translatedContent": "Nous affinons uniquement les couches d'application de PSICHIC<sub>XL</sub> pendant 1000 itérations sur la protéine liée à A<sub>1</sub>R en utilisant la commande suivante :"
+  },
+  {
+    "row": 134,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 135,
+    "rowsha": "resEVGbUaYAScLZ2xeqWKSOm3Cx7YRE2pE8MWA6wM7o=",
+    "originContent": "python main.py --regression_task True --mclassification_task 3 --datafolder dataset/A1R_FineTune --result_path PSICHIC_A1R_FineTune --lrate 1e-5 --total_iters 1000 --finetune_modules \"['reg_out','mcls_out']\" --trained_model_path trained_weights/multitask_PSICHIC",
+    "translatedContent": "python main.py --regression_task True --mclassification_task 3 --datafolder dataset/A1R_FineTune --result_path PSICHIC_A1R_FineTune --lrate 1e-5 --total_iters 1000 --finetune_modules \"['reg_out','mcls_out']\" --trained_model_path trained_weights/multitask_PSICHIC"
+  },
+  {
+    "row": 136,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 137,
+    "rowsha": "CYXImFpLBGyS76caYjWrmuIP+KIGuPUhUuvP3x9LVqw=",
+    "originContent": "We have renamed the PSICHIC version trained on the extensive interaction dataset as PSICHIC<sub>XL</sub>, and the subset focusing on A<sub>1</sub>R data as PSICHIC<sub>A<sub>1</sub>R</sub>. Previously, PSICHIC<sub>XL</sub> and PSICHIC<sub>A<sub>1</sub>R</sub> were known as pre-trained PSICHIC and fine-tuned PSICHIC, respectively. This change more accurately reflects PSICHIC<sub>XL</sub>'s broad applicability and PSICHIC<sub>A<sub>1</sub>R</sub>'s specific emphasis on A1R.",
+    "translatedContent": "Nous avons renommé la version de PSICHIC entraînée sur le vaste jeu de données d’interactions en PSICHIC<sub>XL</sub>, et le sous-ensemble se concentrant sur les données A<sub>1</sub>R en PSICHIC<sub>A<sub>1</sub>R</sub>. Auparavant, PSICHIC<sub>XL</sub> et PSICHIC<sub>A<sub>1</sub>R</sub> étaient respectivement appelés PSICHIC pré-entraîné et PSICHIC affiné. Ce changement reflète plus précisément la large applicabilité de PSICHIC<sub>XL</sub> et l’accent spécifique de PSICHIC<sub>A<sub>1</sub>R</sub> sur A1R."
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "G7C4EeIxu+WFw0rZlJCXZi4IJxtI6cRs1AOl+WaeTlI=",
+    "originContent": "For any other proteins, you can filter out irrelevant proteins and the non-binders in large-scale interaction dataset to apply PSICHIC for other experiments.",
+    "translatedContent": "Pour toute autre protéine, vous pouvez filtrer les protéines non pertinentes et les non-ligands dans le grand jeu de données d’interactions afin d’appliquer PSICHIC pour d’autres expériences."
+  },
+  {
+    "row": 140,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
+    "originContent": "## References",
+    "translatedContent": "## Références"
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "ezx3B48/CQnSehcovJJMSErXusWFyxzriewyy1L5Cv4=",
+    "originContent": "For more information, please refer to our work: ",
+    "translatedContent": "Pour plus d’informations, veuillez vous référer à notre travail : "
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 149,
+    "rowsha": "mRsontNEuepiuebK3R6M8w5/7gsrhFboP7SE6V1QkfI=",
+    "originContent": "PSICHIC: physicochemical graph neural network for learning protein-ligand interaction fingerprints from sequence data",
+    "translatedContent": "PSICHIC: physicochemical graph neural network for learning protein-ligand interaction fingerprints from sequence data"
+  },
+  {
+    "row": 150,
+    "rowsha": "x2kbB8CWu7MDVh6JQjo92arYsJDUHexUtczpGRXzIuI=",
+    "originContent": "Huan Yee Koh, Anh T.N. Nguyen, Shirui Pan, Lauren T. May, Geoffrey I. Webb",
+    "translatedContent": "Huan Yee Koh, Anh T.N. Nguyen, Shirui Pan, Lauren T. May, Geoffrey I. Webb"
+  },
+  {
+    "row": 151,
+    "rowsha": "oMkjB4Q4e/0eIZHu3V4Du4WPEZIKSA/uxVzu9bqlgYY=",
+    "originContent": "bioRxiv 2023.09.17.558145; doi: https://doi.org/10.1101/2023.09.17.558145",
+    "translatedContent": "bioRxiv 2023.09.17.558145; doi: https://doi.org/10.1101/2023.09.17.558145"
+  },
+  {
+    "row": 152,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

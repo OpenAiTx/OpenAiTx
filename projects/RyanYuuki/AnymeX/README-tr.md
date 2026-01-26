@@ -124,10 +124,10 @@ Güncel kalmak ve tartışmaya katkıda bulunmak için topluluklarımıza katıl
 
 ## Katkıda Bulunun
 
-Çevirilerden yeni özelliklere kadar her türlü katkıyı memnuniyetle karşılıyoruz.  
+Çevirilerden yeni özelliklere kadar her türlü katkıya açığız.  
 Geliştirme ortamı kurulum rehberimize [buradan](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md) ulaşabilirsiniz.  
 Sorularınız için [Discord sunucumuza](https://discord.gg/5gAHhMvTcx) veya [Telegram grubumuza](https://t.me/AnymeX_Discussion) katılabilirsiniz.  
-Pull request'ler memnuniyetle karşılanır; büyük değişiklikler için [açık sorunlara](https://github.com/RyanYuuki/AnymeX/issues) göz atabilirsiniz.
+Pull request’ler memnuniyetle karşılanır; büyük değişiklikler için [açık sorunları](https://github.com/RyanYuuki/AnymeX/issues) kontrol edin.
 
 <!--<details>
 <summary>Weblate Çeviri Grafiği</summary>
@@ -140,8 +140,8 @@ Pull request'ler memnuniyetle karşılanır; büyük değişiklikler için [aç�
 
 ## Teşekkürler
 
-AnymeX'in geliştirilmesine katkıda bulunan herkese gönülden teşekkürler.
-Çabalarınız çok değerli.
+AnymeX’in geliştirilmesine katkıda bulunan herkese gönülden teşekkürler.
+Çabalarınız paha biçilemez.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
   <img alt="GitHub katkıda bulunanlar" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Katkıda%20Bulunanlar%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
@@ -151,13 +151,18 @@ AnymeX'in geliştirilmesine katkıda bulunan herkese gönülden teşekkürler.
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Katkıda Bulunanlar">
 </a>
 
+
+## İstatistikler
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats analiz görseli")
+
 ## Lisans
 
-AnymeX MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [buraya](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md) bakabilirsiniz.
+AnymeX, MIT Lisansı altında lisanslanmıştır. Daha fazla bilgiye [buradan](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md) ulaşabilirsiniz.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

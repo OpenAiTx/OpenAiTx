@@ -124,14 +124,14 @@ Junte-se às nossas comunidades para se manter atualizado e contribuir para a di
 
 ## Contribua
 
-Agradecemos contribuições, desde traduções até novos recursos.  
-O nosso guia de configuração do ambiente de desenvolvimento está disponível [aqui](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
-Para dúvidas, junte-se ao nosso [servidor no Discord](https://discord.gg/5gAHhMvTcx) ou [grupo no Telegram](https://t.me/AnymeX_Discussion).  
-Pull requests são bem-vindos; confira as [issues abertas](https://github.com/RyanYuuki/AnymeX/issues) para orientações sobre grandes mudanças.
+Aceitamos contribuições, desde traduções até novos recursos.  
+Nosso guia de configuração do ambiente de desenvolvimento está disponível [aqui](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
+Para dúvidas, entre em nosso [servidor no Discord](https://discord.gg/5gAHhMvTcx) ou [grupo no Telegram](https://t.me/AnymeX_Discussion).  
+Pull requests são bem-vindos; confira as [issues abertas](https://github.com/RyanYuuki/AnymeX/issues) para orientação sobre grandes mudanças.
 
 <!--<details>
-<summary>Gráfico de Tradução Weblate</summary>
-<a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Status da tradução" /></a>
+<summary>Weblate Translation Graph</summary>
+<a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Translation status" /></a>
 </details>-->
 
 ## Visitantes
@@ -141,15 +141,20 @@ Pull requests são bem-vindos; confira as [issues abertas](https://github.com/Ry
 ## Agradecimentos
 
 Um agradecimento especial a todos que contribuíram para o desenvolvimento do AnymeX.
-Seu esforço é inestimável.
+Seus esforços são inestimáveis.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
-  <img alt="Contribuidores do GitHub" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contribuidores%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contribuidores%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
 </a>
 <br>
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contribuidores">
+  <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
+
+
+## Estatísticas
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats analytics image")
 
 ## Licença
 
@@ -158,6 +163,6 @@ AnymeX está licenciado sob a Licença MIT. Mais informações podem ser encontr
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

@@ -124,13 +124,13 @@
 
 ## مشارکت
 
-ما از هر نوع مشارکت، از ترجمه‌ها تا افزودن ویژگی‌های جدید، استقبال می‌کنیم.  
+ما از هرگونه مشارکت استقبال می‌کنیم، از ترجمه‌ها گرفته تا افزودن ویژگی‌های جدید.  
 راهنمای راه‌اندازی محیط توسعه ما [اینجا](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md) در دسترس است.  
-برای پرسش‌ها به [سرور دیسکورد](https://discord.gg/5gAHhMvTcx) یا [گروه تلگرام](https://t.me/AnymeX_Discussion) ما بپیوندید.  
-درخواست‌های Pull پذیرفته می‌شوند؛ برای راهنمایی در مورد تغییرات عمده به [مشکلات باز](https://github.com/RyanYuuki/AnymeX/issues) مراجعه کنید.
+برای پرسش‌ها، به [سرور دیسکورد](https://discord.gg/5gAHhMvTcx) یا [گروه تلگرام](https://t.me/AnymeX_Discussion) ما بپیوندید.  
+درخواست‌های Pull پذیرفته می‌شوند؛ برای راهنمایی درباره تغییرات مهم به [ایشوهای باز](https://github.com/RyanYuuki/AnymeX/issues) مراجعه کنید.
 
 <!--<details>
-<summary>نمودار ترجمه Weblate</summary>
+<summary>نمودار ترجمه وب‌لیت</summary>
 <a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="وضعیت ترجمه" /></a>
 </details>-->
 
@@ -140,24 +140,29 @@
 
 ## قدردانی
 
-سپاس صمیمانه از همه کسانی که در توسعه AnymeX مشارکت داشته‌اند.
+با قلبی سرشار از سپاس از همه کسانی که در توسعه AnymeX مشارکت داشته‌اند.
 تلاش‌های شما بی‌نظیر و ارزشمند است.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
-  <img alt="مشارکت‌کنندگان GitHub" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
+  <img alt="مشارکت‌کنندگان گیت‌هاب" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
 </a>
 <br>
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="مشارکت‌کنندگان">
+  <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
+
+
+## آمار
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "تصویر تحلیل Repobeats")
 
 ## مجوز
 
-AnymeX تحت مجوز MIT ارائه شده است. اطلاعات بیشتر را می‌توانید [اینجا](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md) بیابید.
+انی‌م‌ایکس تحت مجوز MIT ارائه شده است. اطلاعات بیشتر را می‌توانید [اینجا](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md) بیابید.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

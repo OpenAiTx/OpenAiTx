@@ -124,10 +124,10 @@ Dołącz do naszych społeczności, by być na bieżąco i uczestniczyć w dysku
 
 ## Współtwórz
 
-Zapraszamy do współtworzenia projektu – od tłumaczeń po nowe funkcje.  
+Zapraszamy do współtworzenia projektu — od tłumaczeń po nowe funkcje.  
 Przewodnik po konfiguracji środowiska deweloperskiego znajdziesz [tutaj](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
-W razie pytań dołącz do naszego [serwera Discord](https://discord.gg/5gAHhMvTcx) lub [grupy Telegram](https://t.me/AnymeX_Discussion).  
-Pull requesty są mile widziane; sprawdź [otwarte zgłoszenia](https://github.com/RyanYuuki/AnymeX/issues), aby uzyskać wskazówki dotyczące głównych zmian.
+W przypadku pytań dołącz do naszego [serwera Discord](https://discord.gg/5gAHhMvTcx) lub [grupy Telegram](https://t.me/AnymeX_Discussion).  
+Pull requesty są mile widziane; sprawdź [otwarte zgłoszenia](https://github.com/RyanYuuki/AnymeX/issues) aby uzyskać wskazówki dotyczące większych zmian.
 
 <!--<details>
 <summary>Weblate Translation Graph</summary>
@@ -141,7 +141,7 @@ Pull requesty są mile widziane; sprawdź [otwarte zgłoszenia](https://github.c
 ## Podziękowania
 
 Serdeczne podziękowania dla wszystkich, którzy przyczynili się do rozwoju AnymeX.
-Wasz wkład jest nieoceniony.
+Wasze wysiłki są nieocenione.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RyanYuuki/AnymeX?style=flat-square&label=Contributors%20%3A&labelColor=%230f1318&color=%230f1318" align="left">
@@ -151,13 +151,18 @@ Wasz wkład jest nieoceniony.
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
 
+
+## Statystyki
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats analytics image")
+
 ## Licencja
 
-AnymeX jest dostępny na licencji MIT. Więcej informacji znajdziesz [tutaj](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
+AnymeX jest objęty licencją MIT. Więcej informacji można znaleźć [tutaj](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

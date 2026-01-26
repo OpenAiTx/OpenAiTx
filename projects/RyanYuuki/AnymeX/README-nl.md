@@ -124,14 +124,14 @@ Word lid van onze gemeenschappen om op de hoogte te blijven en deel te nemen aan
 
 ## Bijdragen
 
-Bijdragen worden gewaardeerd, van vertalingen tot nieuwe functies.  
-Onze gids voor het opzetten van de ontwikkelomgeving is beschikbaar [hier](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
-Voor vragen, sluit je aan bij onze [Discord-server](https://discord.gg/5gAHhMvTcx) of [Telegram-groep](https://t.me/AnymeX_Discussion).  
-Pull requests zijn welkom; bekijk de [openstaande issues](https://github.com/RyanYuuki/AnymeX/issues) voor richtlijnen over grote wijzigingen.
+We verwelkomen bijdragen, van vertalingen tot nieuwe functies.  
+Onze handleiding voor het opzetten van de ontwikkelomgeving is beschikbaar [hier](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
+Voor vragen, sluit je aan bij onze [Discord server](https://discord.gg/5gAHhMvTcx) of [Telegram groep](https://t.me/AnymeX_Discussion).  
+Pull requests zijn welkom; kijk bij de [openstaande issues](https://github.com/RyanYuuki/AnymeX/issues) voor richtlijnen over grote wijzigingen.
 
 <!--<details>
-<summary>Weblate Vertalingsgrafiek</summary>
-<a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Vertalingsstatus" /></a>
+<summary>Weblate Vertaalgrafiek</summary>
+<a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Vertaalstatus" /></a>
 </details>-->
 
 ## Bezoekers
@@ -140,7 +140,7 @@ Pull requests zijn welkom; bekijk de [openstaande issues](https://github.com/Rya
 
 ## Dankbetuigingen
 
-Een hartelijk dankjewel aan iedereen die heeft bijgedragen aan de ontwikkeling van AnymeX.
+Een welgemeend dankwoord aan iedereen die heeft bijgedragen aan de ontwikkeling van AnymeX.
 Jullie inzet is van onschatbare waarde.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
@@ -151,13 +151,18 @@ Jullie inzet is van onschatbare waarde.
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Bijdragers">
 </a>
 
+
+## Statistieken
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats analytics afbeelding")
+
 ## Licentie
 
-AnymeX is gelicentieerd onder de MIT-licentie. Meer informatie vind je [hier](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
+AnymeX is gelicentieerd onder de MIT-licentie. Meer informatie is te vinden [hier](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

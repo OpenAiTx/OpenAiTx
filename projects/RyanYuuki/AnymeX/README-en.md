@@ -151,6 +151,11 @@ Your efforts are invaluable.
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
 
+
+## Stats
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats analytics image")
+
 ## License
 
 AnymeX is licensed under the MIT License. More info can be found [here](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
@@ -158,6 +163,6 @@ AnymeX is licensed under the MIT License. More info can be found [here](https://
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

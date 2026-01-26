@@ -125,12 +125,12 @@ Tham gia cộng đồng của chúng tôi để cập nhật thông tin mới v�
 ## Đóng góp
 
 Chúng tôi hoan nghênh mọi đóng góp, từ bản dịch đến các tính năng mới.  
-Hướng dẫn thiết lập môi trường phát triển của chúng tôi có tại [đây](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
-Mọi thắc mắc, hãy tham gia [máy chủ Discord](https://discord.gg/5gAHhMvTcx) hoặc [nhóm Telegram](https://t.me/AnymeX_Discussion).  
-Chúng tôi hoan nghênh pull request; hãy xem [các vấn đề đang mở](https://github.com/RyanYuuki/AnymeX/issues) để được hướng dẫn về các thay đổi lớn.
+Hướng dẫn thiết lập môi trường phát triển có tại [đây](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
+Nếu có thắc mắc, hãy tham gia [máy chủ Discord](https://discord.gg/5gAHhMvTcx) hoặc [nhóm Telegram](https://t.me/AnymeX_Discussion) của chúng tôi.  
+Chúng tôi chào đón các pull request; kiểm tra [vấn đề đang mở](https://github.com/RyanYuuki/AnymeX/issues) để biết hướng dẫn về các thay đổi lớn.
 
 <!--<details>
-<summary>Đồ thị Dịch thuật Weblate</summary>
+<summary>Biểu đồ Dịch thuật Weblate</summary>
 <a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Trạng thái dịch thuật" /></a>
 </details>-->
 
@@ -138,9 +138,9 @@ Chúng tôi hoan nghênh pull request; hãy xem [các vấn đề đang mở](ht
 
 <img src="https://count.getloli.com/@ryanyuuki?name=anymex&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
 
-## Lời cảm ơn
+## Ghi nhận
 
-Chân thành cảm ơn tất cả mọi người đã đóng góp vào quá trình phát triển AnymeX.
+Xin gửi lời cảm ơn chân thành đến tất cả những ai đã đóng góp vào sự phát triển của AnymeX.
 Nỗ lực của các bạn là vô giá.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
@@ -151,13 +151,18 @@ Nỗ lực của các bạn là vô giá.
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
 
+
+## Thống kê
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats analytics image")
+
 ## Giấy phép
 
-AnymeX được cấp phép theo giấy phép MIT. Xem thêm thông tin tại [đây](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
+AnymeX được cấp phép theo Giấy phép MIT. Thông tin thêm có thể được tìm thấy [tại đây](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

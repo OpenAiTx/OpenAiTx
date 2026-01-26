@@ -124,10 +124,10 @@
 
 ## Вклад
 
-Мы приветствуем вклад в проект, начиная от переводов и заканчивая новыми функциями.  
+Мы приветствуем любые вклады, от переводов до новых функций.  
 Руководство по настройке среды разработки доступно [здесь](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
-По вопросам присоединяйтесь к нашему [серверу Discord](https://discord.gg/5gAHhMvTcx) или [группе Telegram](https://t.me/AnymeX_Discussion).  
-Мы принимаем pull-запросы; ознакомьтесь с [открытыми задачами](https://github.com/RyanYuuki/AnymeX/issues) для рекомендаций по крупным изменениям.
+По вопросам присоединяйтесь к нашему [Discord серверу](https://discord.gg/5gAHhMvTcx) или [Telegram группе](https://t.me/AnymeX_Discussion).  
+Pull request'ы приветствуются; смотрите [открытые задачи](https://github.com/RyanYuuki/AnymeX/issues) для информации о крупных изменениях.
 
 <!--<details>
 <summary>Weblate Translation Graph</summary>
@@ -140,7 +140,7 @@
 
 ## Благодарности
 
-Сердечно благодарим всех, кто внес свой вклад в разработку AnymeX.
+Искренняя благодарность всем, кто внес вклад в развитие AnymeX.
 Ваши усилия бесценны.
 
 <a href="https://github.com/RyanYuuki/AnymeX/graphs/contributors">
@@ -151,6 +151,11 @@
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Contributors">
 </a>
 
+
+## Статистика
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Repobeats analytics image")
+
 ## Лицензия
 
 AnymeX распространяется по лицензии MIT. Подробнее можно узнать [здесь](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
@@ -158,6 +163,6 @@ AnymeX распространяется по лицензии MIT. Подроб�
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---

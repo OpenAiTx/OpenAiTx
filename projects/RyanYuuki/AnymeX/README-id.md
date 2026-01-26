@@ -124,21 +124,21 @@ Bergabunglah dengan komunitas kami untuk tetap mendapatkan pembaruan dan berkont
 
 ## Kontribusi
 
-Kami menerima kontribusi, mulai dari terjemahan hingga fitur baru.  
-Panduan pengaturan lingkungan pengembangan tersedia [di sini](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
+Kami sangat menyambut kontribusi, mulai dari terjemahan hingga fitur baru.  
+Panduan pengaturan lingkungan pengembangan kami tersedia [di sini](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./DEVELOPMENT.md).  
 Untuk pertanyaan, bergabunglah dengan [server Discord](https://discord.gg/5gAHhMvTcx) atau [grup Telegram](https://t.me/AnymeX_Discussion).  
-Pull request sangat diterima; lihat [isu terbuka](https://github.com/RyanYuuki/AnymeX/issues) untuk panduan perubahan besar.
+Pull request sangat diterima; cek [isu terbuka](https://github.com/RyanYuuki/AnymeX/issues) untuk panduan perubahan besar.
 
 <!--<details>
 <summary>Grafik Terjemahan Weblate</summary>
-<a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Status Terjemahan" /></a>
+<a href="https://hosted.weblate.org/projects/echo/#languages"><img src="https://hosted.weblate.org/widget/echo/app/multi-auto.svg" alt="Status terjemahan" /></a>
 </details>-->
 
 ## Pengunjung
 
 <img src="https://count.getloli.com/@ryanyuuki?name=anymex&theme=rule34&padding=8&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" />
 
-## Ucapan Terima Kasih
+## Penghargaan
 
 Terima kasih yang tulus kepada semua yang telah berkontribusi dalam pengembangan AnymeX.
 Upaya kalian sangat berharga.
@@ -151,13 +151,18 @@ Upaya kalian sangat berharga.
   <img src="https://contrib.rocks/image?repo=RyanYuuki/AnymeX" alt="Kontributor">
 </a>
 
+
+## Statistik
+
+![Alt](https://repobeats.axiom.co/api/embed/3525f48156824c4d59e27eddedb26b53225f6733.svg "Gambar analitik Repobeats")
+
 ## Lisensi
 
-AnymeX dilisensikan di bawah Lisensi MIT. Informasi lebih lanjut dapat ditemukan [di sini](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
+AnymeX dilisensikan di bawah Lisensi MIT. Info lebih lanjut dapat ditemukan [di sini](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/LICENSE.md).
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-08
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
 
 ---
