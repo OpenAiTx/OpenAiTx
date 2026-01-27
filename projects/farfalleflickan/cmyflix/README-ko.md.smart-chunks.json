@@ -1,0 +1,334 @@
+[
+  {
+    "Id": 1,
+    "Content": "# cmyflix\n*A Netflix clone, now in C!*\n\ncmyflix is also a complete rewrite of my original ![Myflix](https://github.com/farfalleflickan/Myflix/) using C, so it's about 30x **faster** than the original whilst keeping almost all functionality.\n\ncmyflix tries to be a somewhat simple and lightweight \"DIY Netflix\", similar to Plex, streama or Emby, for your NAS, especially aimed at the Raspberry Pi/Odroid/etc ecosystem. It's not **meant** or **designed** to be fancy (if you have the hardware and want a ton of functionality, go for other solutions :) ), but the bare minimum to be somewhat pretty, fast and usable. The program create json databases that store the files location and metadata, these databases are then used to create static web pages that can be served from any web server!    \n\nBig props to the following libraries: ![cwalk](https://github.com/likle/cwalk), ![cjson](https://github.com/DaveGamble/cJSON).   \nIf you want to password protect your cmyflix files, you might want to look at ![this](https://github.com/farfalleflickan/JSONlogin)!  \n\nDo you like my work? Feel free to donate :)  \n[<img src=\"https://raw.githubusercontent.com/andreostrovsky/donate-with-paypal/master/dark.svg\" alt=\"donation\" width=\"150\"/>](https://www.paypal.com/donate?hosted_button_id=YEAQ4WGKJKYQQ)\n\n# Sreenshots:  \nTV shows page\n![TV shows](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/ec53e53f252f908bc8bac7f8c4486790.jpg)   \n\nTV show season/episode modal\n![TV show episodes](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/fb31129a22d81b732ce88f02cae27fea.jpg)  \n\n\nTV show episode player\n![TV show episode player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/102b3df4924efeae7476d6ceee79bec9.png)\n\nMovies page\n![Movies](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/d4271907a9af78d8dd84f3941ca1e56a.jpg)  \n\nMovies player\n![Movies player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/2eb41c935d1c11e19adb66466bcdf97e.png)\n\n# How to compile:\nSimply compile by running make, the required libraries are (in Ubuntu) `libbsd-dev libcjson-dev libcurl4-openssl-dev`.\n\n# How to install:\nEither install from source with make install OR use a pre-compiled package from the release tab.\n\nBeware, the pre-compiled `deb` file is built using the default `libcurl4-openssl-dev` backend.\n\n# Requirements to run:\ncmyflix uses libcjson(>=1.7.15), libcurl(>=7.68), imagemagick, ffmpeg and a TMDB api key. Please do also note that cmyflix searches for `mp4`,`mkv`,`ogv` and `webm` files due to the usage of HTML5 and its supported formats.",
+    "ContentSha": "Bm24UwSGi1EmSTT/bQYSEEv2ySzpcOscm0nlG2lpPBA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# cmyflix\n*넷플릭스 클론, 이제 C로!*\n\ncmyflix는 또한 원본 ![Myflix](https://github.com/farfalleflickan/Myflix/)를 C로 완전히 다시 작성한 것으로, 원본보다 약 30배 **더 빠르며** 거의 모든 기능을 유지합니다.\n\ncmyflix는 NAS용으로 라즈베리 파이/오드로이드/기타 생태계에 특히 초점을 맞춘 Plex, streama 또는 Emby와 유사한 다소 간단하고 가벼운 \"DIY 넷플릭스\"가 되려고 합니다. 하드웨어가 충분하고 많은 기능을 원한다면 다른 솔루션을 사용하세요 :) , 하지만 어느 정도 예쁘고 빠르며 사용할 수 있는 최소한의 기능만 제공합니다. 이 프로그램은 파일 위치와 메타데이터를 저장하는 json 데이터베이스를 생성하며, 이 데이터베이스를 사용하여 어떤 웹 서버에서든 제공할 수 있는 정적 웹 페이지를 만듭니다!    \n\n다음 라이브러리들에 큰 감사를 드립니다: ![cwalk](https://github.com/likle/cwalk), ![cjson](https://github.com/DaveGamble/cJSON).  \ncmyflix 파일을 비밀번호로 보호하고 싶다면 ![이것](https://github.com/farfalleflickan/JSONlogin)을 참고하세요!  \n\n제 작업이 마음에 드시나요? 기부는 언제나 환영입니다 :)  \n[<img src=\"https://raw.githubusercontent.com/andreostrovsky/donate-with-paypal/master/dark.svg\" alt=\"donation\" width=\"150\"/>](https://www.paypal.com/donate?hosted_button_id=YEAQ4WGKJKYQQ)\n\n# 스크린샷:  \nTV 쇼 페이지\n![TV shows](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/ec53e53f252f908bc8bac7f8c4486790.jpg)   \n\nTV 쇼 시즌/에피소드 모달\n![TV show episodes](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/fb31129a22d81b732ce88f02cae27fea.jpg)  \n\n\nTV 쇼 에피소드 플레이어\n![TV show episode player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/102b3df4924efeae7476d6ceee79bec9.png)\n\n영화 페이지\n![Movies](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/d4271907a9af78d8dd84f3941ca1e56a.jpg)  \n\n영화 플레이어\n![Movies player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/2eb41c935d1c11e19adb66466bcdf97e.png)\n\n# 컴파일 방법:\nmake 명령어를 실행하여 간단히 컴파일하세요. 필요한 라이브러리는 (우분투 기준) `libbsd-dev libcjson-dev libcurl4-openssl-dev`입니다.\n\n# 설치 방법:\n소스에서 make install로 설치하거나 릴리스 탭에서 미리 컴파일된 패키지를 사용하세요.\n\n주의: 미리 컴파일된 `deb` 파일은 기본 `libcurl4-openssl-dev` 백엔드를 사용하여 빌드되었습니다.\n\n# 실행 요구 사항:\ncmyflix는 libcjson(>=1.7.15), libcurl(>=7.68), imagemagick, ffmpeg 및 TMDB API 키를 사용합니다. 또한 cmyflix는 HTML5 및 지원되는 형식 사용으로 인해 `mp4`, `mkv`, `ogv`, `webm` 파일을 검색한다는 점을 유의하세요.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "snhQBhPzM9NorTJ4yVviwNzAaZgnSX//XzaHAHWUhIU=",
+        "originContent": "# cmyflix",
+        "translatedContent": "# cmyflix"
+      },
+      {
+        "row": 2,
+        "rowsha": "P5r6dBaF9qaoFN7o7Gz9d6jO9c1gDY6tQHAbpgM2lyA=",
+        "originContent": "*A Netflix clone, now in C!*",
+        "translatedContent": "*넷플릭스 클론, 이제 C로!*"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Ji1/fNTqwb0fNDcSTWHds7tpinMdzETrA9omjJJbHbQ=",
+        "originContent": "cmyflix is also a complete rewrite of my original ![Myflix](https://github.com/farfalleflickan/Myflix/) using C, so it's about 30x **faster** than the original whilst keeping almost all functionality.",
+        "translatedContent": "cmyflix는 또한 원본 ![Myflix](https://github.com/farfalleflickan/Myflix/)를 C로 완전히 다시 작성한 것으로, 원본보다 약 30배 **더 빠르며** 거의 모든 기능을 유지합니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "JZsDgxs79qKjV1JhYcsNH6AEhMFdXsNxCxiQk86m3Qk=",
+        "originContent": "cmyflix tries to be a somewhat simple and lightweight \"DIY Netflix\", similar to Plex, streama or Emby, for your NAS, especially aimed at the Raspberry Pi/Odroid/etc ecosystem. It's not **meant** or **designed** to be fancy (if you have the hardware and want a ton of functionality, go for other solutions :) ), but the bare minimum to be somewhat pretty, fast and usable. The program create json databases that store the files location and metadata, these databases are then used to create static web pages that can be served from any web server!    ",
+        "translatedContent": "cmyflix는 NAS용으로 라즈베리 파이/오드로이드/기타 생태계에 특히 초점을 맞춘 Plex, streama 또는 Emby와 유사한 다소 간단하고 가벼운 \"DIY 넷플릭스\"가 되려고 합니다. 하드웨어가 충분하고 많은 기능을 원한다면 다른 솔루션을 사용하세요 :) , 하지만 어느 정도 예쁘고 빠르며 사용할 수 있는 최소한의 기능만 제공합니다. 이 프로그램은 파일 위치와 메타데이터를 저장하는 json 데이터베이스를 생성하며, 이 데이터베이스를 사용하여 어떤 웹 서버에서든 제공할 수 있는 정적 웹 페이지를 만듭니다!    "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "9ugMdzdGwnv7vRPlICoCh5JZHPPEa2Y461EbT+OJYAE=",
+        "originContent": "Big props to the following libraries: ![cwalk](https://github.com/likle/cwalk), ![cjson](https://github.com/DaveGamble/cJSON).   ",
+        "translatedContent": "다음 라이브러리들에 큰 감사를 드립니다: ![cwalk](https://github.com/likle/cwalk), ![cjson](https://github.com/DaveGamble/cJSON).  "
+      },
+      {
+        "row": 9,
+        "rowsha": "s8BcmZ98HixP8gaj8KOtkJfXQFC79xzsJztKHEvSGP0=",
+        "originContent": "If you want to password protect your cmyflix files, you might want to look at ![this](https://github.com/farfalleflickan/JSONlogin)!  ",
+        "translatedContent": "cmyflix 파일을 비밀번호로 보호하고 싶다면 ![이것](https://github.com/farfalleflickan/JSONlogin)을 참고하세요!  "
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "IyBcCObToyCGzB29d0WtcDT6a70AQHhb/YzustRj74o=",
+        "originContent": "Do you like my work? Feel free to donate :)  ",
+        "translatedContent": "제 작업이 마음에 드시나요? 기부는 언제나 환영입니다 :)  "
+      },
+      {
+        "row": 12,
+        "rowsha": "oOs1nxEbnQClPRkGlwp2KjJty4xT4eAbiPc2Sgns9pI=",
+        "originContent": "[<img src=\"https://raw.githubusercontent.com/andreostrovsky/donate-with-paypal/master/dark.svg\" alt=\"donation\" width=\"150\"/>](https://www.paypal.com/donate?hosted_button_id=YEAQ4WGKJKYQQ)",
+        "translatedContent": "[<img src=\"https://raw.githubusercontent.com/andreostrovsky/donate-with-paypal/master/dark.svg\" alt=\"donation\" width=\"150\"/>](https://www.paypal.com/donate?hosted_button_id=YEAQ4WGKJKYQQ)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "C8G/TPPOasAs5MMw66lZSvSwARiA8NaPUn84AVHZCcM=",
+        "originContent": "# Sreenshots:  ",
+        "translatedContent": "# 스크린샷:  "
+      },
+      {
+        "row": 15,
+        "rowsha": "/+8w5sPaULCLMMHgGoEhTlC6spTFSmI7NWvRu61pulU=",
+        "originContent": "TV shows page",
+        "translatedContent": "TV 쇼 페이지"
+      },
+      {
+        "row": 16,
+        "rowsha": "RHF7e+1PQwNCEA0mc7hVXVhg5E50AOWAYp8yvxdYCps=",
+        "originContent": "![TV shows](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/ec53e53f252f908bc8bac7f8c4486790.jpg)   ",
+        "translatedContent": "![TV shows](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/ec53e53f252f908bc8bac7f8c4486790.jpg)   "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "cT50LNBacWjr2wnxQyG99JERjN5zHiXpbudKv3cEmdo=",
+        "originContent": "TV show season/episode modal",
+        "translatedContent": "TV 쇼 시즌/에피소드 모달"
+      },
+      {
+        "row": 19,
+        "rowsha": "C72DMG/iuQXGB1AHOS4pKuDksiZ4gcEuGfIQGQ0cF8c=",
+        "originContent": "![TV show episodes](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/fb31129a22d81b732ce88f02cae27fea.jpg)  ",
+        "translatedContent": "![TV show episodes](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/fb31129a22d81b732ce88f02cae27fea.jpg)  "
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "iNectUFLmFfU5TblsiOPHG9RINZiR5alx+RDu5QgyF8=",
+        "originContent": "TV show episode player",
+        "translatedContent": "TV 쇼 에피소드 플레이어"
+      },
+      {
+        "row": 23,
+        "rowsha": "rZk+iQVhbAJui13c5a3Znk4eKam5kTYnCBQCnywrhts=",
+        "originContent": "![TV show episode player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/102b3df4924efeae7476d6ceee79bec9.png)",
+        "translatedContent": "![TV show episode player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/102b3df4924efeae7476d6ceee79bec9.png)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "FCREBio2gNm9RzY1eSwLRuNcRCEmyGG3t5v2MjOYwEs=",
+        "originContent": "Movies page",
+        "translatedContent": "영화 페이지"
+      },
+      {
+        "row": 26,
+        "rowsha": "9zaKm3rGkNoFhOsp0b6wW03PWwMi78QRFYNJGr4zFyI=",
+        "originContent": "![Movies](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/d4271907a9af78d8dd84f3941ca1e56a.jpg)  ",
+        "translatedContent": "![Movies](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/d4271907a9af78d8dd84f3941ca1e56a.jpg)  "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "cm4zVgAMms1SuWVaPJmGMgybPQWcvDbYizd7arwVdmk=",
+        "originContent": "Movies player",
+        "translatedContent": "영화 플레이어"
+      },
+      {
+        "row": 29,
+        "rowsha": "Y3Stk5fNXKXLJzxly9YtZ2X3v1Mvcgr6yDz9eQdXaYo=",
+        "originContent": "![Movies player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/2eb41c935d1c11e19adb66466bcdf97e.png)",
+        "translatedContent": "![Movies player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/2eb41c935d1c11e19adb66466bcdf97e.png)"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "q/APdE1lzZTD0eeBsImLQt5dp+RfChk1HyQF814GRkc=",
+        "originContent": "# How to compile:",
+        "translatedContent": "# 컴파일 방법:"
+      },
+      {
+        "row": 32,
+        "rowsha": "8hX/VZz+uyhSDydBe7EIbV3omIxdZkLDX6mOka2Kpv8=",
+        "originContent": "Simply compile by running make, the required libraries are (in Ubuntu) `libbsd-dev libcjson-dev libcurl4-openssl-dev`.",
+        "translatedContent": "make 명령어를 실행하여 간단히 컴파일하세요. 필요한 라이브러리는 (우분투 기준) `libbsd-dev libcjson-dev libcurl4-openssl-dev`입니다."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "GmgAzUAPhGAJQX57xICN+4v7CtwWgSd8onY95WkZF30=",
+        "originContent": "# How to install:",
+        "translatedContent": "# 설치 방법:"
+      },
+      {
+        "row": 35,
+        "rowsha": "TpcDYT12976QT9Vgrb/CVRUUq4KOVWX2BrdA1frzq2E=",
+        "originContent": "Either install from source with make install OR use a pre-compiled package from the release tab.",
+        "translatedContent": "소스에서 make install로 설치하거나 릴리스 탭에서 미리 컴파일된 패키지를 사용하세요."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "UKCvSYDpCK2cwEkhxEo7Ui6LiUJUdYyJgM//Muu9OM0=",
+        "originContent": "Beware, the pre-compiled `deb` file is built using the default `libcurl4-openssl-dev` backend.",
+        "translatedContent": "주의: 미리 컴파일된 `deb` 파일은 기본 `libcurl4-openssl-dev` 백엔드를 사용하여 빌드되었습니다."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "OPNziOCGAJBE98rw0UFQsZMULMxHr+vhN8nRB/8RJMQ=",
+        "originContent": "# Requirements to run:",
+        "translatedContent": "# 실행 요구 사항:"
+      },
+      {
+        "row": 40,
+        "rowsha": "j6Oit1zgXytQq7zBlxFGknvk0DnK656zjMWXJnXw4Dw=",
+        "originContent": "cmyflix uses libcjson(>=1.7.15), libcurl(>=7.68), imagemagick, ffmpeg and a TMDB api key. Please do also note that cmyflix searches for `mp4`,`mkv`,`ogv` and `webm` files due to the usage of HTML5 and its supported formats.",
+        "translatedContent": "cmyflix는 libcjson(>=1.7.15), libcurl(>=7.68), imagemagick, ffmpeg 및 TMDB API 키를 사용합니다. 또한 cmyflix는 HTML5 및 지원되는 형식 사용으로 인해 `mp4`, `mkv`, `ogv`, `webm` 파일을 검색한다는 점을 유의하세요."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n# Configuration & usage:\nFor starters, cmyflix looks for `cmyflix.cfg` first in the same folder as the binary, then in `$HOME/.config/cmyflix/` and lastly in `/etc/cmyflix/`. Same thing applies for folder `html` and its contents.\n\nFor more options and information, look in the configuration file or see the help menu, which can be invoked by passing `--help`.\n\n# Folder structure expectations\ncmyflix is a bit picky in the sense that it expects everything to be in organized folders. \nFor TV shows it expects every show to be in it's own folder, with a sub-folder for every season (plus a \"Season.Extras\" for anything else). Example: `/path/to/files/Name.of.TV.show/Season.1/Name.Of.TV.show.S01E01.mp4`.\nFor movies, they should ideally be in a sub-folder for every movie, example: `/path/to/files/Name.of.Movie/Name.Of.Movie.mp4`. Note that multiple movies can technically be in the same sub-folder, as in `/path/to/files/Movies/Star.Wars/Revenge.of.The.Sith.mp4` and `/path/to/files/Movies/Star.Wars/Empire.Strikes.Back.mp4`.\n",
+    "ContentSha": "dOnU9Hem1uGiNHSsEYCIACoC0R6E/YXsBR72PYZeeuY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 구성 및 사용법:\n우선, cmyflix는 바이너리와 동일한 폴더에서 `cmyflix.cfg`를 먼저 찾고, 그 다음으로 `$HOME/.config/cmyflix/` 그리고 마지막으로 `/etc/cmyflix/`에서 찾습니다. `html` 폴더와 그 내용물도 동일한 규칙이 적용됩니다.\n\n추가 옵션 및 정보는 구성 파일을 참고하거나 `--help` 옵션을 사용해 도움말 메뉴를 확인할 수 있습니다.\n\n# 폴더 구조 기대 사항\ncmyflix는 모든 것이 정리된 폴더에 있어야 한다는 점에서 다소 까다롭습니다.\nTV 쇼의 경우, 각 쇼가 자체 폴더에 있어야 하며, 각 시즌마다 하위 폴더가 있어야 합니다(추가 콘텐츠는 \"Season.Extras\" 폴더에). 예: `/path/to/files/Name.of.TV.show/Season.1/Name.Of.TV.show.S01E01.mp4`.\n영화는 이상적으로 각 영화마다 하위 폴더에 있어야 하며, 예: `/path/to/files/Name.of.Movie/Name.Of.Movie.mp4`. 여러 영화가 동일한 하위 폴더에 있을 수도 있습니다. 예: `/path/to/files/Movies/Star.Wars/Revenge.of.The.Sith.mp4` 및 `/path/to/files/Movies/Star.Wars/Empire.Strikes.Back.mp4`.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 구성 및 사용법:"
+      },
+      {
+        "row": 2,
+        "rowsha": "h1DDoWeFncmXEKSml0+4UAPHDRk40pwMdCGRDxKQ5Oo=",
+        "originContent": "# Configuration & usage:",
+        "translatedContent": "우선, cmyflix는 바이너리와 동일한 폴더에서 `cmyflix.cfg`를 먼저 찾고, 그 다음으로 `$HOME/.config/cmyflix/` 그리고 마지막으로 `/etc/cmyflix/`에서 찾습니다. `html` 폴더와 그 내용물도 동일한 규칙이 적용됩니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "BLS2hqCN2t5/z4AUxcf6GFexFKDqO3WhCjSYo6e5RrQ=",
+        "originContent": "For starters, cmyflix looks for `cmyflix.cfg` first in the same folder as the binary, then in `$HOME/.config/cmyflix/` and lastly in `/etc/cmyflix/`. Same thing applies for folder `html` and its contents.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "추가 옵션 및 정보는 구성 파일을 참고하거나 `--help` 옵션을 사용해 도움말 메뉴를 확인할 수 있습니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "q7OI0FXobT+KEA6rDK3GcEJOxiZ+LZOG1Uqz/DuyT7A=",
+        "originContent": "For more options and information, look in the configuration file or see the help menu, which can be invoked by passing `--help`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 폴더 구조 기대 사항"
+      },
+      {
+        "row": 7,
+        "rowsha": "/nyI1nb1jK9aGy4EHh4107pccNemPB5DNSHJVsofPn0=",
+        "originContent": "# Folder structure expectations",
+        "translatedContent": "cmyflix는 모든 것이 정리된 폴더에 있어야 한다는 점에서 다소 까다롭습니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "9j0gd2ILbWBau8ZhyDjWUTHsbB9BABCQuqIX2MLy0GI=",
+        "originContent": "cmyflix is a bit picky in the sense that it expects everything to be in organized folders. ",
+        "translatedContent": "TV 쇼의 경우, 각 쇼가 자체 폴더에 있어야 하며, 각 시즌마다 하위 폴더가 있어야 합니다(추가 콘텐츠는 \"Season.Extras\" 폴더에). 예: `/path/to/files/Name.of.TV.show/Season.1/Name.Of.TV.show.S01E01.mp4`."
+      },
+      {
+        "row": 9,
+        "rowsha": "jbPUfNmHaSMquibFsERAVK/WkREJy8vYV4nkzi2zHMI=",
+        "originContent": "For TV shows it expects every show to be in it's own folder, with a sub-folder for every season (plus a \"Season.Extras\" for anything else). Example: `/path/to/files/Name.of.TV.show/Season.1/Name.Of.TV.show.S01E01.mp4`.",
+        "translatedContent": "영화는 이상적으로 각 영화마다 하위 폴더에 있어야 하며, 예: `/path/to/files/Name.of.Movie/Name.Of.Movie.mp4`. 여러 영화가 동일한 하위 폴더에 있을 수도 있습니다. 예: `/path/to/files/Movies/Star.Wars/Revenge.of.The.Sith.mp4` 및 `/path/to/files/Movies/Star.Wars/Empire.Strikes.Back.mp4`."
+      },
+      {
+        "row": 10,
+        "rowsha": "hKw7Fv8xVWj3lQfCs6k7yxBzR7tyOuTRfB8nkiHWp70=",
+        "originContent": "For movies, they should ideally be in a sub-folder for every movie, example: `/path/to/files/Name.of.Movie/Name.Of.Movie.mp4`. Note that multiple movies can technically be in the same sub-folder, as in `/path/to/files/Movies/Star.Wars/Revenge.of.The.Sith.mp4` and `/path/to/files/Movies/Star.Wars/Empire.Strikes.Back.mp4`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

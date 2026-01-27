@@ -1,0 +1,334 @@
+[
+  {
+    "Id": 1,
+    "Content": "# cmyflix\n*A Netflix clone, now in C!*\n\ncmyflix is also a complete rewrite of my original ![Myflix](https://github.com/farfalleflickan/Myflix/) using C, so it's about 30x **faster** than the original whilst keeping almost all functionality.\n\ncmyflix tries to be a somewhat simple and lightweight \"DIY Netflix\", similar to Plex, streama or Emby, for your NAS, especially aimed at the Raspberry Pi/Odroid/etc ecosystem. It's not **meant** or **designed** to be fancy (if you have the hardware and want a ton of functionality, go for other solutions :) ), but the bare minimum to be somewhat pretty, fast and usable. The program create json databases that store the files location and metadata, these databases are then used to create static web pages that can be served from any web server!    \n\nBig props to the following libraries: ![cwalk](https://github.com/likle/cwalk), ![cjson](https://github.com/DaveGamble/cJSON).   \nIf you want to password protect your cmyflix files, you might want to look at ![this](https://github.com/farfalleflickan/JSONlogin)!  \n\nDo you like my work? Feel free to donate :)  \n[<img src=\"https://raw.githubusercontent.com/andreostrovsky/donate-with-paypal/master/dark.svg\" alt=\"donation\" width=\"150\"/>](https://www.paypal.com/donate?hosted_button_id=YEAQ4WGKJKYQQ)\n\n# Sreenshots:  \nTV shows page\n![TV shows](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/ec53e53f252f908bc8bac7f8c4486790.jpg)   \n\nTV show season/episode modal\n![TV show episodes](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/fb31129a22d81b732ce88f02cae27fea.jpg)  \n\n\nTV show episode player\n![TV show episode player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/102b3df4924efeae7476d6ceee79bec9.png)\n\nMovies page\n![Movies](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/d4271907a9af78d8dd84f3941ca1e56a.jpg)  \n\nMovies player\n![Movies player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/2eb41c935d1c11e19adb66466bcdf97e.png)\n\n# How to compile:\nSimply compile by running make, the required libraries are (in Ubuntu) `libbsd-dev libcjson-dev libcurl4-openssl-dev`.\n\n# How to install:\nEither install from source with make install OR use a pre-compiled package from the release tab.\n\nBeware, the pre-compiled `deb` file is built using the default `libcurl4-openssl-dev` backend.\n\n# Requirements to run:\ncmyflix uses libcjson(>=1.7.15), libcurl(>=7.68), imagemagick, ffmpeg and a TMDB api key. Please do also note that cmyflix searches for `mp4`,`mkv`,`ogv` and `webm` files due to the usage of HTML5 and its supported formats.",
+    "ContentSha": "Bm24UwSGi1EmSTT/bQYSEEv2ySzpcOscm0nlG2lpPBA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# cmyflix\n*一个用C语言实现的Netflix克隆！*\n\ncmyflix 也是我最初的 ![Myflix](https://github.com/farfalleflickan/Myflix/) 的完全重写版本，使用 C 语言编写，因此速度比原版快约30倍，同时几乎保留了所有功能。\n\ncmyflix 试图成为一个相对简单轻量的“DIY Netflix”，类似于 Plex、streama 或 Emby，适用于您的 NAS，特别针对 Raspberry Pi/Odroid 等生态系统。它并非**旨在**或**设计为**华丽（如果您有硬件并且想要大量功能，可以选择其他解决方案 :)），而是实现了基本的美观、快速且可用的最低要求。该程序创建存储文件位置和元数据的 JSON 数据库，这些数据库随后被用来创建可以由任何 Web 服务器提供的静态网页！\n\n非常感谢以下库：![cwalk](https://github.com/likle/cwalk)、![cjson](https://github.com/DaveGamble/cJSON)。  \n如果您想为您的 cmyflix 文件设置密码保护，您可以看看![这个](https://github.com/farfalleflickan/JSONlogin)！\n\n喜欢我的作品吗？欢迎捐赠 :)  \n[<img src=\"https://raw.githubusercontent.com/andreostrovsky/donate-with-paypal/master/dark.svg\" alt=\"donation\" width=\"150\"/>](https://www.paypal.com/donate?hosted_button_id=YEAQ4WGKJKYQQ)\n\n# 截图：  \n电视剧页面  \n![TV shows](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/ec53e53f252f908bc8bac7f8c4486790.jpg)   \n\n电视剧季/集模态窗口  \n![TV show episodes](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/fb31129a22d81b732ce88f02cae27fea.jpg)  \n\n电视剧集播放器  \n![TV show episode player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/102b3df4924efeae7476d6ceee79bec9.png)\n\n电影页面  \n![Movies](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/d4271907a9af78d8dd84f3941ca1e56a.jpg)  \n\n电影播放器  \n![Movies player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/2eb41c935d1c11e19adb66466bcdf97e.png)\n\n# 如何编译：  \n只需运行 make 即可编译，所需库（在 Ubuntu 中）为 `libbsd-dev libcjson-dev libcurl4-openssl-dev`。\n\n# 如何安装：  \n可以通过 make install 从源码安装，或使用发布标签中的预编译包。\n\n注意，预编译的 `deb` 文件是使用默认的 `libcurl4-openssl-dev` 后端构建的。\n\n# 运行要求：  \ncmyflix 依赖 libcjson(>=1.7.15)、libcurl(>=7.68)、imagemagick、ffmpeg 以及 TMDB API 密钥。请注意，由于使用了 HTML5 及其支持的格式，cmyflix 会搜索 `mp4`、`mkv`、`ogv` 和 `webm` 文件。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "snhQBhPzM9NorTJ4yVviwNzAaZgnSX//XzaHAHWUhIU=",
+        "originContent": "# cmyflix",
+        "translatedContent": "# cmyflix"
+      },
+      {
+        "row": 2,
+        "rowsha": "P5r6dBaF9qaoFN7o7Gz9d6jO9c1gDY6tQHAbpgM2lyA=",
+        "originContent": "*A Netflix clone, now in C!*",
+        "translatedContent": "*一个用C语言实现的Netflix克隆！*"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Ji1/fNTqwb0fNDcSTWHds7tpinMdzETrA9omjJJbHbQ=",
+        "originContent": "cmyflix is also a complete rewrite of my original ![Myflix](https://github.com/farfalleflickan/Myflix/) using C, so it's about 30x **faster** than the original whilst keeping almost all functionality.",
+        "translatedContent": "cmyflix 也是我最初的 ![Myflix](https://github.com/farfalleflickan/Myflix/) 的完全重写版本，使用 C 语言编写，因此速度比原版快约30倍，同时几乎保留了所有功能。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "JZsDgxs79qKjV1JhYcsNH6AEhMFdXsNxCxiQk86m3Qk=",
+        "originContent": "cmyflix tries to be a somewhat simple and lightweight \"DIY Netflix\", similar to Plex, streama or Emby, for your NAS, especially aimed at the Raspberry Pi/Odroid/etc ecosystem. It's not **meant** or **designed** to be fancy (if you have the hardware and want a ton of functionality, go for other solutions :) ), but the bare minimum to be somewhat pretty, fast and usable. The program create json databases that store the files location and metadata, these databases are then used to create static web pages that can be served from any web server!    ",
+        "translatedContent": "cmyflix 试图成为一个相对简单轻量的“DIY Netflix”，类似于 Plex、streama 或 Emby，适用于您的 NAS，特别针对 Raspberry Pi/Odroid 等生态系统。它并非**旨在**或**设计为**华丽（如果您有硬件并且想要大量功能，可以选择其他解决方案 :)），而是实现了基本的美观、快速且可用的最低要求。该程序创建存储文件位置和元数据的 JSON 数据库，这些数据库随后被用来创建可以由任何 Web 服务器提供的静态网页！"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "9ugMdzdGwnv7vRPlICoCh5JZHPPEa2Y461EbT+OJYAE=",
+        "originContent": "Big props to the following libraries: ![cwalk](https://github.com/likle/cwalk), ![cjson](https://github.com/DaveGamble/cJSON).   ",
+        "translatedContent": "非常感谢以下库：![cwalk](https://github.com/likle/cwalk)、![cjson](https://github.com/DaveGamble/cJSON)。  "
+      },
+      {
+        "row": 9,
+        "rowsha": "s8BcmZ98HixP8gaj8KOtkJfXQFC79xzsJztKHEvSGP0=",
+        "originContent": "If you want to password protect your cmyflix files, you might want to look at ![this](https://github.com/farfalleflickan/JSONlogin)!  ",
+        "translatedContent": "如果您想为您的 cmyflix 文件设置密码保护，您可以看看![这个](https://github.com/farfalleflickan/JSONlogin)！"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "IyBcCObToyCGzB29d0WtcDT6a70AQHhb/YzustRj74o=",
+        "originContent": "Do you like my work? Feel free to donate :)  ",
+        "translatedContent": "喜欢我的作品吗？欢迎捐赠 :)  "
+      },
+      {
+        "row": 12,
+        "rowsha": "oOs1nxEbnQClPRkGlwp2KjJty4xT4eAbiPc2Sgns9pI=",
+        "originContent": "[<img src=\"https://raw.githubusercontent.com/andreostrovsky/donate-with-paypal/master/dark.svg\" alt=\"donation\" width=\"150\"/>](https://www.paypal.com/donate?hosted_button_id=YEAQ4WGKJKYQQ)",
+        "translatedContent": "[<img src=\"https://raw.githubusercontent.com/andreostrovsky/donate-with-paypal/master/dark.svg\" alt=\"donation\" width=\"150\"/>](https://www.paypal.com/donate?hosted_button_id=YEAQ4WGKJKYQQ)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "C8G/TPPOasAs5MMw66lZSvSwARiA8NaPUn84AVHZCcM=",
+        "originContent": "# Sreenshots:  ",
+        "translatedContent": "# 截图：  "
+      },
+      {
+        "row": 15,
+        "rowsha": "/+8w5sPaULCLMMHgGoEhTlC6spTFSmI7NWvRu61pulU=",
+        "originContent": "TV shows page",
+        "translatedContent": "电视剧页面  "
+      },
+      {
+        "row": 16,
+        "rowsha": "RHF7e+1PQwNCEA0mc7hVXVhg5E50AOWAYp8yvxdYCps=",
+        "originContent": "![TV shows](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/ec53e53f252f908bc8bac7f8c4486790.jpg)   ",
+        "translatedContent": "![TV shows](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/ec53e53f252f908bc8bac7f8c4486790.jpg)   "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "cT50LNBacWjr2wnxQyG99JERjN5zHiXpbudKv3cEmdo=",
+        "originContent": "TV show season/episode modal",
+        "translatedContent": "电视剧季/集模态窗口  "
+      },
+      {
+        "row": 19,
+        "rowsha": "C72DMG/iuQXGB1AHOS4pKuDksiZ4gcEuGfIQGQ0cF8c=",
+        "originContent": "![TV show episodes](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/fb31129a22d81b732ce88f02cae27fea.jpg)  ",
+        "translatedContent": "![TV show episodes](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/fb31129a22d81b732ce88f02cae27fea.jpg)  "
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "电视剧集播放器  "
+      },
+      {
+        "row": 22,
+        "rowsha": "iNectUFLmFfU5TblsiOPHG9RINZiR5alx+RDu5QgyF8=",
+        "originContent": "TV show episode player",
+        "translatedContent": "![TV show episode player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/102b3df4924efeae7476d6ceee79bec9.png)"
+      },
+      {
+        "row": 23,
+        "rowsha": "rZk+iQVhbAJui13c5a3Znk4eKam5kTYnCBQCnywrhts=",
+        "originContent": "![TV show episode player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/102b3df4924efeae7476d6ceee79bec9.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "电影页面  "
+      },
+      {
+        "row": 25,
+        "rowsha": "FCREBio2gNm9RzY1eSwLRuNcRCEmyGG3t5v2MjOYwEs=",
+        "originContent": "Movies page",
+        "translatedContent": "![Movies](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/d4271907a9af78d8dd84f3941ca1e56a.jpg)  "
+      },
+      {
+        "row": 26,
+        "rowsha": "9zaKm3rGkNoFhOsp0b6wW03PWwMi78QRFYNJGr4zFyI=",
+        "originContent": "![Movies](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/d4271907a9af78d8dd84f3941ca1e56a.jpg)  ",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "电影播放器  "
+      },
+      {
+        "row": 28,
+        "rowsha": "cm4zVgAMms1SuWVaPJmGMgybPQWcvDbYizd7arwVdmk=",
+        "originContent": "Movies player",
+        "translatedContent": "![Movies player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/2eb41c935d1c11e19adb66466bcdf97e.png)"
+      },
+      {
+        "row": 29,
+        "rowsha": "Y3Stk5fNXKXLJzxly9YtZ2X3v1Mvcgr6yDz9eQdXaYo=",
+        "originContent": "![Movies player](https://github.com/farfalleflickan/Myflix/blob/master/screenshots/2eb41c935d1c11e19adb66466bcdf97e.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 如何编译：  "
+      },
+      {
+        "row": 31,
+        "rowsha": "q/APdE1lzZTD0eeBsImLQt5dp+RfChk1HyQF814GRkc=",
+        "originContent": "# How to compile:",
+        "translatedContent": "只需运行 make 即可编译，所需库（在 Ubuntu 中）为 `libbsd-dev libcjson-dev libcurl4-openssl-dev`。"
+      },
+      {
+        "row": 32,
+        "rowsha": "8hX/VZz+uyhSDydBe7EIbV3omIxdZkLDX6mOka2Kpv8=",
+        "originContent": "Simply compile by running make, the required libraries are (in Ubuntu) `libbsd-dev libcjson-dev libcurl4-openssl-dev`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 如何安装：  "
+      },
+      {
+        "row": 34,
+        "rowsha": "GmgAzUAPhGAJQX57xICN+4v7CtwWgSd8onY95WkZF30=",
+        "originContent": "# How to install:",
+        "translatedContent": "可以通过 make install 从源码安装，或使用发布标签中的预编译包。"
+      },
+      {
+        "row": 35,
+        "rowsha": "TpcDYT12976QT9Vgrb/CVRUUq4KOVWX2BrdA1frzq2E=",
+        "originContent": "Either install from source with make install OR use a pre-compiled package from the release tab.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "注意，预编译的 `deb` 文件是使用默认的 `libcurl4-openssl-dev` 后端构建的。"
+      },
+      {
+        "row": 37,
+        "rowsha": "UKCvSYDpCK2cwEkhxEo7Ui6LiUJUdYyJgM//Muu9OM0=",
+        "originContent": "Beware, the pre-compiled `deb` file is built using the default `libcurl4-openssl-dev` backend.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 运行要求：  "
+      },
+      {
+        "row": 39,
+        "rowsha": "OPNziOCGAJBE98rw0UFQsZMULMxHr+vhN8nRB/8RJMQ=",
+        "originContent": "# Requirements to run:",
+        "translatedContent": "cmyflix 依赖 libcjson(>=1.7.15)、libcurl(>=7.68)、imagemagick、ffmpeg 以及 TMDB API 密钥。请注意，由于使用了 HTML5 及其支持的格式，cmyflix 会搜索 `mp4`、`mkv`、`ogv` 和 `webm` 文件。"
+      },
+      {
+        "row": 40,
+        "rowsha": "j6Oit1zgXytQq7zBlxFGknvk0DnK656zjMWXJnXw4Dw=",
+        "originContent": "cmyflix uses libcjson(>=1.7.15), libcurl(>=7.68), imagemagick, ffmpeg and a TMDB api key. Please do also note that cmyflix searches for `mp4`,`mkv`,`ogv` and `webm` files due to the usage of HTML5 and its supported formats.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n# Configuration & usage:\nFor starters, cmyflix looks for `cmyflix.cfg` first in the same folder as the binary, then in `$HOME/.config/cmyflix/` and lastly in `/etc/cmyflix/`. Same thing applies for folder `html` and its contents.\n\nFor more options and information, look in the configuration file or see the help menu, which can be invoked by passing `--help`.\n\n# Folder structure expectations\ncmyflix is a bit picky in the sense that it expects everything to be in organized folders. \nFor TV shows it expects every show to be in it's own folder, with a sub-folder for every season (plus a \"Season.Extras\" for anything else). Example: `/path/to/files/Name.of.TV.show/Season.1/Name.Of.TV.show.S01E01.mp4`.\nFor movies, they should ideally be in a sub-folder for every movie, example: `/path/to/files/Name.of.Movie/Name.Of.Movie.mp4`. Note that multiple movies can technically be in the same sub-folder, as in `/path/to/files/Movies/Star.Wars/Revenge.of.The.Sith.mp4` and `/path/to/files/Movies/Star.Wars/Empire.Strikes.Back.mp4`.\n",
+    "ContentSha": "dOnU9Hem1uGiNHSsEYCIACoC0R6E/YXsBR72PYZeeuY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# 配置与使用：\n首先，cmyflix 会优先在与二进制文件相同的文件夹中查找 `cmyflix.cfg`，然后是在 `$HOME/.config/cmyflix/`，最后是在 `/etc/cmyflix/`。文件夹 `html` 及其内容也遵循相同规则。\n\n更多选项和信息，请查看配置文件或使用 `--help` 参数调用帮助菜单。\n\n# 文件夹结构要求\ncmyflix 对文件夹结构有一定要求，期望所有内容都在有序的文件夹中。\n对于电视剧，期望每个剧集在自己的文件夹内，每个季节有一个子文件夹（还有一个 “Season.Extras” 用于其他内容）。例如：`/path/to/files/Name.of.TV.show/Season.1/Name.Of.TV.show.S01E01.mp4`。\n对于电影，理想情况下每部电影在自己的子文件夹中，例如：`/path/to/files/Name.of.Movie/Name.Of.Movie.mp4`。注意技术上多个电影可以在同一个子文件夹中，例如 `/path/to/files/Movies/Star.Wars/Revenge.of.The.Sith.mp4` 和 `/path/to/files/Movies/Star.Wars/Empire.Strikes.Back.mp4`。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "h1DDoWeFncmXEKSml0+4UAPHDRk40pwMdCGRDxKQ5Oo=",
+        "originContent": "# Configuration & usage:",
+        "translatedContent": "# 配置与使用："
+      },
+      {
+        "row": 3,
+        "rowsha": "BLS2hqCN2t5/z4AUxcf6GFexFKDqO3WhCjSYo6e5RrQ=",
+        "originContent": "For starters, cmyflix looks for `cmyflix.cfg` first in the same folder as the binary, then in `$HOME/.config/cmyflix/` and lastly in `/etc/cmyflix/`. Same thing applies for folder `html` and its contents.",
+        "translatedContent": "首先，cmyflix 会优先在与二进制文件相同的文件夹中查找 `cmyflix.cfg`，然后是在 `$HOME/.config/cmyflix/`，最后是在 `/etc/cmyflix/`。文件夹 `html` 及其内容也遵循相同规则。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "q7OI0FXobT+KEA6rDK3GcEJOxiZ+LZOG1Uqz/DuyT7A=",
+        "originContent": "For more options and information, look in the configuration file or see the help menu, which can be invoked by passing `--help`.",
+        "translatedContent": "更多选项和信息，请查看配置文件或使用 `--help` 参数调用帮助菜单。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "/nyI1nb1jK9aGy4EHh4107pccNemPB5DNSHJVsofPn0=",
+        "originContent": "# Folder structure expectations",
+        "translatedContent": "# 文件夹结构要求"
+      },
+      {
+        "row": 8,
+        "rowsha": "9j0gd2ILbWBau8ZhyDjWUTHsbB9BABCQuqIX2MLy0GI=",
+        "originContent": "cmyflix is a bit picky in the sense that it expects everything to be in organized folders. ",
+        "translatedContent": "cmyflix 对文件夹结构有一定要求，期望所有内容都在有序的文件夹中。"
+      },
+      {
+        "row": 9,
+        "rowsha": "jbPUfNmHaSMquibFsERAVK/WkREJy8vYV4nkzi2zHMI=",
+        "originContent": "For TV shows it expects every show to be in it's own folder, with a sub-folder for every season (plus a \"Season.Extras\" for anything else). Example: `/path/to/files/Name.of.TV.show/Season.1/Name.Of.TV.show.S01E01.mp4`.",
+        "translatedContent": "对于电视剧，期望每个剧集在自己的文件夹内，每个季节有一个子文件夹（还有一个 “Season.Extras” 用于其他内容）。例如：`/path/to/files/Name.of.TV.show/Season.1/Name.Of.TV.show.S01E01.mp4`。"
+      },
+      {
+        "row": 10,
+        "rowsha": "hKw7Fv8xVWj3lQfCs6k7yxBzR7tyOuTRfB8nkiHWp70=",
+        "originContent": "For movies, they should ideally be in a sub-folder for every movie, example: `/path/to/files/Name.of.Movie/Name.Of.Movie.mp4`. Note that multiple movies can technically be in the same sub-folder, as in `/path/to/files/Movies/Star.Wars/Revenge.of.The.Sith.mp4` and `/path/to/files/Movies/Star.Wars/Empire.Strikes.Back.mp4`.",
+        "translatedContent": "对于电影，理想情况下每部电影在自己的子文件夹中，例如：`/path/to/files/Name.of.Movie/Name.Of.Movie.mp4`。注意技术上多个电影可以在同一个子文件夹中，例如 `/path/to/files/Movies/Star.Wars/Revenge.of.The.Sith.mp4` 和 `/path/to/files/Movies/Star.Wars/Empire.Strikes.Back.mp4`。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
