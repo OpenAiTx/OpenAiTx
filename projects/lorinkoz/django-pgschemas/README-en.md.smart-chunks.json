@@ -1,0 +1,207 @@
+[
+  {
+    "Id": 1,
+    "Content": "# django-pgschemas\n\n[![Build status](https://github.com/lorinkoz/django-pgschemas/workflows/code/badge.svg)](https://github.com/lorinkoz/django-pgschemas/actions)\n[![Documentation status](https://readthedocs.org/projects/django-pgschemas/badge/?version=latest)](https://django-pgschemas.readthedocs.io/)\n[![Code coverage](https://coveralls.io/repos/github/lorinkoz/django-pgschemas/badge.svg?branch=master)](https://coveralls.io/github/lorinkoz/django-pgschemas?branch=master)\n[![PyPi version](https://badge.fury.io/py/django-pgschemas.svg)](http://badge.fury.io/py/django-pgschemas)\n[![Downloads](https://pepy.tech/badge/django-pgschemas/month)](https://pepy.tech/project/django-pgschemas/)\n\nThis package uses Postgres schemas to support data multi-tenancy in a single Django project. It is a fork of [django-tenants](https://github.com/django-tenants/django-tenants) with some conceptual changes:\n\n- There are static tenants and dynamic tenants. Static tenants can have their own apps and urlconf.\n- Tenants can be routed via:\n  - URL using subdomain or subfolder on shared subdomain\n  - Session\n  - Headers\n- Public schema should not be used for storing the main site data, but the true shared data across all tenants. Table \"overriding\" via search path is not encouraged.\n- Management commands can be run on multiple schemas via wildcards, either sequentially or in parallel using multithreading.\n\n## Documentation\n\nhttps://django-pgschemas.readthedocs.io/\n\n## Contributing\n\nSee [CONTRIBUTING.md](https://github.com/lorinkoz/django-pgschemas?tab=contributing-ov-file) for details on how to contribute to this project.\n\n## Credits\n\n- Tom Turner for [django-tenants](https://github.com/django-tenants/django-tenants).\n- Bernardo Pires for [django-tenant-schemas](https://github.com/bernardopires/django-tenant-schemas).\n- Denish Patel for [pg-clone-schema](https://github.com/denishpatel/pg-clone-schema)\n",
+    "ContentSha": "uhhqBzSZ6eWLJ15nXlnjsE1lkRPeEtHkI7bogQqfK50=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# django-pgschemas\n\n[![Build status](https://github.com/lorinkoz/django-pgschemas/workflows/code/badge.svg)](https://github.com/lorinkoz/django-pgschemas/actions)\n[![Documentation status](https://readthedocs.org/projects/django-pgschemas/badge/?version=latest)](https://django-pgschemas.readthedocs.io/)\n[![Code coverage](https://coveralls.io/repos/github/lorinkoz/django-pgschemas/badge.svg?branch=master)](https://coveralls.io/github/lorinkoz/django-pgschemas?branch=master)\n[![PyPi version](https://badge.fury.io/py/django-pgschemas.svg)](http://badge.fury.io/py/django-pgschemas)\n[![Downloads](https://pepy.tech/badge/django-pgschemas/month)](https://pepy.tech/project/django-pgschemas/)\n\nThis package uses Postgres schemas to support data multi-tenancy in a single Django project. It is a fork of [django-tenants](https://github.com/django-tenants/django-tenants) with some conceptual changes:\n\n- There are static tenants and dynamic tenants. Static tenants can have their own apps and urlconf.\n- Tenants can be routed via:\n  - URL using subdomain or subfolder on shared subdomain\n  - Session\n  - Headers\n- Public schema should not be used for storing the main site data, but the true shared data across all tenants. Table \"overriding\" via search path is not encouraged.\n- Management commands can be run on multiple schemas via wildcards, either sequentially or in parallel using multithreading.\n\n## Documentation\n\nhttps://django-pgschemas.readthedocs.io/\n\n## Contributing\n\nSee [CONTRIBUTING.md](https://github.com/lorinkoz/django-pgschemas?tab=contributing-ov-file) for details on how to contribute to this project.\n\n## Credits\n\n- Tom Turner for [django-tenants](https://github.com/django-tenants/django-tenants).\n- Bernardo Pires for [django-tenant-schemas](https://github.com/bernardopires/django-tenant-schemas).\n- Denish Patel for [pg-clone-schema](https://github.com/denishpatel/pg-clone-schema)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "mc6hs61OmIX18T2G5AqOvK/gTpi3dNs6QQ0JdKiNhfA=",
+        "originContent": "# django-pgschemas",
+        "translatedContent": "# django-pgschemas"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "J+9CoP6p6xX4JLZBH3FsxwraQUXUsA6bgqL495L5f1s=",
+        "originContent": "[![Build status](https://github.com/lorinkoz/django-pgschemas/workflows/code/badge.svg)](https://github.com/lorinkoz/django-pgschemas/actions)",
+        "translatedContent": "[![Build status](https://github.com/lorinkoz/django-pgschemas/workflows/code/badge.svg)](https://github.com/lorinkoz/django-pgschemas/actions)"
+      },
+      {
+        "row": 4,
+        "rowsha": "5BUJbGSlNv3nad6L96caKEu83p/jEPsglYLxDvEQXcs=",
+        "originContent": "[![Documentation status](https://readthedocs.org/projects/django-pgschemas/badge/?version=latest)](https://django-pgschemas.readthedocs.io/)",
+        "translatedContent": "[![Documentation status](https://readthedocs.org/projects/django-pgschemas/badge/?version=latest)](https://django-pgschemas.readthedocs.io/)"
+      },
+      {
+        "row": 5,
+        "rowsha": "GXMNsoVdSCmDNh41JoAU08eSPl7Grhi1Ca/8h+Vfs9I=",
+        "originContent": "[![Code coverage](https://coveralls.io/repos/github/lorinkoz/django-pgschemas/badge.svg?branch=master)](https://coveralls.io/github/lorinkoz/django-pgschemas?branch=master)",
+        "translatedContent": "[![Code coverage](https://coveralls.io/repos/github/lorinkoz/django-pgschemas/badge.svg?branch=master)](https://coveralls.io/github/lorinkoz/django-pgschemas?branch=master)"
+      },
+      {
+        "row": 6,
+        "rowsha": "ehzL3TweZdAa5m6orp5FvlUO/NO3SCPT0EF/DatEdl0=",
+        "originContent": "[![PyPi version](https://badge.fury.io/py/django-pgschemas.svg)](http://badge.fury.io/py/django-pgschemas)",
+        "translatedContent": "[![PyPi version](https://badge.fury.io/py/django-pgschemas.svg)](http://badge.fury.io/py/django-pgschemas)"
+      },
+      {
+        "row": 7,
+        "rowsha": "zsDEeaxcREtTDgNl97WOMQxfmENmynpO9W5sr/KHEZg=",
+        "originContent": "[![Downloads](https://pepy.tech/badge/django-pgschemas/month)](https://pepy.tech/project/django-pgschemas/)",
+        "translatedContent": "[![Downloads](https://pepy.tech/badge/django-pgschemas/month)](https://pepy.tech/project/django-pgschemas/)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "cR8FGslgxeQMz8ZTyEss30TwmMG7Gmg0mGpGhR5eZ4Y=",
+        "originContent": "This package uses Postgres schemas to support data multi-tenancy in a single Django project. It is a fork of [django-tenants](https://github.com/django-tenants/django-tenants) with some conceptual changes:",
+        "translatedContent": "This package uses Postgres schemas to support data multi-tenancy in a single Django project. It is a fork of [django-tenants](https://github.com/django-tenants/django-tenants) with some conceptual changes:"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "1WsAycu2cZ6nJI7eEVitOLBxZ2cq3s2L3RtgotNJwMA=",
+        "originContent": "- There are static tenants and dynamic tenants. Static tenants can have their own apps and urlconf.",
+        "translatedContent": "- There are static tenants and dynamic tenants. Static tenants can have their own apps and urlconf."
+      },
+      {
+        "row": 12,
+        "rowsha": "D1dhUdLmG4z4SHNjHIVR4edZtFxmDyoV3k2xr1Iz3bc=",
+        "originContent": "- Tenants can be routed via:",
+        "translatedContent": "- Tenants can be routed via:"
+      },
+      {
+        "row": 13,
+        "rowsha": "K7AYeunhghwC7SPMBaw+s/7W0lHBRHHm35tONTOTeRk=",
+        "originContent": "  - URL using subdomain or subfolder on shared subdomain",
+        "translatedContent": "  - URL using subdomain or subfolder on shared subdomain"
+      },
+      {
+        "row": 14,
+        "rowsha": "2K9ZbzY443eSTM2yfjzPPtPMPDseGWco1LQAnvmYa0c=",
+        "originContent": "  - Session",
+        "translatedContent": "  - Session"
+      },
+      {
+        "row": 15,
+        "rowsha": "jKCYQT/+NDqe1n7Wuw5yMCo3R93NPbkLgp7q/u7rSr0=",
+        "originContent": "  - Headers",
+        "translatedContent": "  - Headers"
+      },
+      {
+        "row": 16,
+        "rowsha": "QDG5Or1zwwmwkjse9W8/CbNuHMBiLwMGOg75U/sfiVY=",
+        "originContent": "- Public schema should not be used for storing the main site data, but the true shared data across all tenants. Table \"overriding\" via search path is not encouraged.",
+        "translatedContent": "- Public schema should not be used for storing the main site data, but the true shared data across all tenants. Table \"overriding\" via search path is not encouraged."
+      },
+      {
+        "row": 17,
+        "rowsha": "lf4TFgxFTB3F/T9YYqvPn4zcwGUJgP8pngvR9D1RzJ8=",
+        "originContent": "- Management commands can be run on multiple schemas via wildcards, either sequentially or in parallel using multithreading.",
+        "translatedContent": "- Management commands can be run on multiple schemas via wildcards, either sequentially or in parallel using multithreading."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": "## Documentation"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "lHcBu4UsM6HCfd7EtkJfHMvYVfu7vPQ0Mq3l37CD0Mk=",
+        "originContent": "https://django-pgschemas.readthedocs.io/",
+        "translatedContent": "https://django-pgschemas.readthedocs.io/"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Contributing"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "ckTrAgJsGZd7Z5yU+/4eshz6h6cBsuSboDAl32oLFdI=",
+        "originContent": "See [CONTRIBUTING.md](https://github.com/lorinkoz/django-pgschemas?tab=contributing-ov-file) for details on how to contribute to this project.",
+        "translatedContent": "See [CONTRIBUTING.md](https://github.com/lorinkoz/django-pgschemas?tab=contributing-ov-file) for details on how to contribute to this project."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "## Credits"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "laAgvfiaZvemgworM8lTi4pnU3+zpGjlxxEd3EJwUKw=",
+        "originContent": "- Tom Turner for [django-tenants](https://github.com/django-tenants/django-tenants).",
+        "translatedContent": "- Tom Turner for [django-tenants](https://github.com/django-tenants/django-tenants)."
+      },
+      {
+        "row": 30,
+        "rowsha": "Xstg2XlNCEjR5NimV31UGCbnDkiF8pNgFX7c2Y9BBk0=",
+        "originContent": "- Bernardo Pires for [django-tenant-schemas](https://github.com/bernardopires/django-tenant-schemas).",
+        "translatedContent": "- Bernardo Pires for [django-tenant-schemas](https://github.com/bernardopires/django-tenant-schemas)."
+      },
+      {
+        "row": 31,
+        "rowsha": "zUs6sFbWc/n9sTyMroQRxBhamyapTbE0+cVu5nE3Z+8=",
+        "originContent": "- Denish Patel for [pg-clone-schema](https://github.com/denishpatel/pg-clone-schema)",
+        "translatedContent": "- Denish Patel for [pg-clone-schema](https://github.com/denishpatel/pg-clone-schema)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
