@@ -49,6 +49,7 @@ Một hệ thống blog cá nhân tối giản được xây dựng dựa trên 
 - 📱 Thiết kế đáp ứng
 - ⚡ Tải nhanh
 - 📅 Hiển thị dòng thời gian bài viết
+- 🔐 Quản trị trực tuyến (tạo bài viết trực tiếp qua GitHub API)
 
 ## Cấu trúc dự án
 
@@ -95,9 +96,18 @@ npm run build
 
 ## Thêm bài viết mới
 
-1. Tạo tệp Markdown mới trong thư mục `content/posts`
-2. Định dạng tên tệp: xxx.md`
-3. Thêm dữ liệu meta ở đầu tệp:
+### Cách 1: Quản lý trực tuyến qua trang quản trị (khuyến nghị)
+
+1. Truy cập trang `/admin`
+2. Đăng nhập bằng mật khẩu quản trị viên
+3. Điền thông tin bài viết và gửi
+4. Bài viết sẽ được tạo tự động qua GitHub API, Vercel sẽ tự động triển khai lại
+
+### Cách 2: Thêm file thủ công
+
+1. Tạo file Markdown mới trong thư mục `content/posts`
+2. Định dạng tên file: xxx.md`
+3. Thêm metadata ở đầu file:
 
 ```markdown
 ---
@@ -119,21 +129,87 @@ date: YYYY-MM-DD
 ---
 ```
 
-## 部署
+## Cấu hình trang quản trị
 
-项目已配置 Vercel 部署，支持自动部署。只需将代码推送到 GitHub 仓库，Vercel 会自动构建和部署。
+Trang quản trị sử dụng GitHub OAuth để xác thực, chỉ chủ sở hữu kho hoặc cộng tác viên mới có thể truy cập.
 
-## 贡献
+### 1. Tạo GitHub OAuth App
 
-欢迎提交 Issue 和 Pull Request！
+1. Truy cập [GitHub Settings > Developer settings > OAuth Apps](https://github.com/settings/developers)
+2. Nhấn "New OAuth App"
+3. Điền thông tin:
+   - **Application name**: `Jimmy Blog Admin` (hoặc tên bất kỳ)
+   - **Homepage URL**: `https://your-domain.com` (môi trường sản xuất) hoặc `http://localhost:3000` (phát triển cục bộ)
+   - **Authorization callback URL**:
+     - Môi trường sản xuất: `https://your-domain.com/api/auth/github/callback`
+     - Phát triển cục bộ: `http://localhost:3000/api/auth/github/callback`
+4. Nhấn "Register application"
+5. Ghi lại **Client ID**
+6. Nhấn "Generate a new client secret", ghi lại **Client secret**
 
-## 许可证
+### 2. Cấu hình biến môi trường
+
+Thêm các biến môi trường sau vào phần cài đặt dự án Vercel:
+
+- `GITHUB_CLIENT_ID`: Client ID của GitHub OAuth App
+- `GITHUB_CLIENT_SECRET`: Client Secret của GitHub OAuth App
+- `GITHUB_OWNER`: Tên người dùng GitHub (mặc định: `Lily-404`, dùng để xác thực quyền truy cập)
+- `GITHUB_REPO`: Tên kho (mặc định: `blog`)
+- `GITHUB_REDIRECT_URI`: URL callback của OAuth (tùy chọn, mặc định tự động tạo)
+- `NEXT_PUBLIC_BASE_URL`: URL trang web của bạn (dùng để tạo callback URL, bắt buộc phải đặt ở môi trường sản xuất)
+  - Môi trường sản xuất: `https://www.jimmy-blog.top`
+  - Phát triển cục bộ: `http://localhost:3000`
+
+### 3. Cấu hình phát triển cục bộ
+
+Tạo file `.env.local` ở thư mục gốc của dự án:
+
+```env
+GITHUB_CLIENT_ID=你的Client_ID
+GITHUB_CLIENT_SECRET=你的Client_Secret
+GITHUB_OWNER=Lily-404
+GITHUB_REPO=blog
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+```
+
+### 4. Cấu hình môi trường sản xuất (Vercel)
+
+Trong phần thiết lập dự án Vercel, hãy đảm bảo thiết lập:
+
+```env
+NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
+```
+⚠️ **Lưu ý**: 
+- Tệp `.env.local` đã được thêm vào `.gitignore`, sẽ không bị đẩy lên Git
+- Khi phát triển cục bộ, đảm bảo URL callback của OAuth App được đặt là `http://localhost:3000/api/auth/github/callback`
+- **Môi trường sản xuất bắt buộc phải đặt `NEXT_PUBLIC_BASE_URL` là `https://www.jimmy-blog.top`**
+- URL callback của OAuth App ở môi trường sản xuất nên được đặt là: `https://www.jimmy-blog.top/api/auth/github/callback`
+
+## Triển khai
+
+Dự án đã được cấu hình triển khai trên Vercel, hỗ trợ triển khai tự động. Chỉ cần đẩy mã nguồn lên kho GitHub, Vercel sẽ tự động build và triển khai.
+
+### Ưu điểm khi sử dụng trang quản trị
+
+- ✅ Không cần môi trường phát triển cục bộ
+- ✅ Thêm bài viết mọi lúc mọi nơi
+- ✅ Tự động kích hoạt Vercel triển khai lại
+- ✅ Hoàn toàn miễn phí (GitHub OAuth và Vercel đều trong hạn mức miễn phí)
+- ✅ An toàn (Xác thực GitHub OAuth, chỉ chủ kho/kho cộng tác viên mới truy cập được)
+- ✅ Không cần quản lý mật khẩu, chỉ cần đăng nhập bằng tài khoản GitHub
+
+## Đóng góp
+
+Hoan nghênh gửi Issue và Pull Request!
+
+## Giấy phép
 
 MIT License
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

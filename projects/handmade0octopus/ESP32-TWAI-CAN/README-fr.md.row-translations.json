@@ -1,0 +1,920 @@
+[
+  {
+    "row": 1,
+    "rowsha": "zGyARppIf1UK4fewGcS9CcEC52JNXGDaplv4u1y3f3c=",
+    "originContent": "# ESP32-TWAI-CAN",
+    "translatedContent": "# ESP32-TWAI-CAN"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "eu2W6KWFhE3x4yLuR6pFBI9zf0+5CCtH4w5nMdFti2A=",
+    "originContent": "ESP32 driver library for TWAI / CAN for Arduino using ESP-IDF drivers.",
+    "translatedContent": "Bibliothèque de pilotes ESP32 pour TWAI / CAN pour Arduino utilisant les pilotes ESP-IDF."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "c5T1Yqsrb3jm/fKkMzUGhUsg5zAoAN0ccoT++gIlLAA=",
+    "originContent": "Tested on ESP32 and ESP32-S3.",
+    "translatedContent": "Testé sur ESP32 et ESP32-S3."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "VQl64phXBjjplyWiGKNjjWZLPM0chOlnOxoC73zDU/k=",
+    "originContent": "# Usage",
+    "translatedContent": "# Utilisation"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "idtRcdlLuW7ptDMToS8MCLVGJXj7XBrH4ctsV1YhhMU=",
+    "originContent": "Library has everything inside it's header, just include that and then use `ESP32Can` object to send or receive `CanFrame`.",
+    "translatedContent": "La bibliothèque contient tout dans son en-tête, il suffit de l'inclure puis d'utiliser l'objet `ESP32Can` pour envoyer ou recevoir des `CanFrame`."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "wviy+2S5ODgLWBe2RM6w7EchquIgDXd5rP+NLgi650M=",
+    "originContent": "Here is simple example how to query and receive OBD2 PID frames:",
+    "translatedContent": "Voici un exemple simple de comment interroger et recevoir des trames PID OBD2 :"
+  },
+  {
+    "row": 13,
+    "rowsha": "p9kHAsnrYsj1u+Xw/CDKCanha99nrkZazj/wyJwtzUE=",
+    "originContent": "```cpp",
+    "translatedContent": "```cpp"
+  },
+  {
+    "row": 14,
+    "rowsha": "pZDVHya538KcTk5/oRgDm/t4FbPA7byI++M2WkemTR8=",
+    "originContent": "#include <ESP32-TWAI-CAN.hpp>",
+    "translatedContent": "#include <ESP32-TWAI-CAN.hpp>"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "eU3e3Pc4OEcOFFyvau4kUV/p3ZPz459k/qPENhZIMCA=",
+    "originContent": "// Default for ESP32",
+    "translatedContent": "// Default for ESP32"
+  },
+  {
+    "row": 17,
+    "rowsha": "+xPQ9rIOVVV1EzCdC6ATDMYbcCKGjUa3V7vTJu6BUHY=",
+    "originContent": "#define CAN_TX 5",
+    "translatedContent": "#define CAN_TX 5"
+  },
+  {
+    "row": 18,
+    "rowsha": "jjgy6OrXRW/H/ien8QqipthIrIyN/LyJ8yBC3qKCkJg=",
+    "originContent": "#define CAN_RX 4",
+    "translatedContent": "#define CAN_RX 4"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "itACOgI9OguoDT+UY/qnY0wV6ahrLI5zLpSAZk1DL8M=",
+    "originContent": "CanFrame rxFrame;",
+    "translatedContent": "CanFrame rxFrame;"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "ILjQHhsvT9P2p/a95blUwrmpbTin4BMrP5/GAYhjA9Q=",
+    "originContent": "void sendObdFrame(uint8_t obdId) {",
+    "translatedContent": "void sendObdFrame(uint8_t obdId) {"
+  },
+  {
+    "row": 23,
+    "rowsha": "mzTsSaIkhYilUjuJqxBjgF1uYiFKv8yJvcpBl748QX0=",
+    "originContent": "    CanFrame obdFrame         = {0};",
+    "translatedContent": "    CanFrame obdFrame         = {0};"
+  },
+  {
+    "row": 24,
+    "rowsha": "7vgMyAW5tiPeNs/JsNzIWJNv1PBR96EUmahjlnxMqRw=",
+    "originContent": "    obdFrame.identifier       = 0x7DF; // Default OBD2 address;",
+    "translatedContent": "    obdFrame.identifier       = 0x7DF; // Default OBD2 address;"
+  },
+  {
+    "row": 25,
+    "rowsha": "J65dD0Fb8wnfD1mwziSsn1uiFPHF2TAjaQjbarNMc9w=",
+    "originContent": "    obdFrame.extd             = 0;",
+    "translatedContent": "    obdFrame.extd             = 0;"
+  },
+  {
+    "row": 26,
+    "rowsha": "C1SfYxyeK7LTGL81/m5mZOCg9MQa+jXgovLOar7zXdM=",
+    "originContent": "    obdFrame.data_length_code = 8;",
+    "translatedContent": "    obdFrame.data_length_code = 8;"
+  },
+  {
+    "row": 27,
+    "rowsha": "GlOUL1hRXhbIrehEYRr4WgKz8PP9XWrrz7r7h4FlaU8=",
+    "originContent": "    obdFrame.data[0]          = 2;",
+    "translatedContent": "    obdFrame.data[0]          = 2;"
+  },
+  {
+    "row": 28,
+    "rowsha": "kBgqX+ITedaPFRQLWgA1ZpUQKXtXgKpZlmf8UYMFAWo=",
+    "originContent": "    obdFrame.data[1]          = 1;",
+    "translatedContent": "    obdFrame.data[1]          = 1;"
+  },
+  {
+    "row": 29,
+    "rowsha": "TYNC/akm+peq0C0hDO04a0yCP3xXceJboyBCxwMbLVA=",
+    "originContent": "    obdFrame.data[2]          = obdId;",
+    "translatedContent": "    obdFrame.data[2]          = obdId;"
+  },
+  {
+    "row": 30,
+    "rowsha": "UcePRf3RLUiykuApVJgIhtJx44+35G1X0CIHupi4kUY=",
+    "originContent": "    obdFrame.data[3]          = 0xAA; // Best use 0xAA (0b10101010) instead of 0",
+    "translatedContent": "    obdFrame.data[3]          = 0xAA; // Best use 0xAA (0b10101010) instead of 0"
+  },
+  {
+    "row": 31,
+    "rowsha": "wCMHYhhaMip8qXlwEnlum/wdREVf1ABIENyvDDopn24=",
+    "originContent": "    obdFrame.data[4]          = 0xAA; // TWAI / CAN works better this way, as it",
+    "translatedContent": "    obdFrame.data[4]          = 0xAA; // TWAI / CAN works better this way, as it"
+  },
+  {
+    "row": 32,
+    "rowsha": "sZuUR6qYEXPSSfNzSz5sc0bNcxr47PFzGx6yEf1VddY=",
+    "originContent": "    obdFrame.data[5]          = 0xAA; // needs to avoid bit-stuffing",
+    "translatedContent": "    obdFrame.data[5]          = 0xAA; // needs to avoid bit-stuffing"
+  },
+  {
+    "row": 33,
+    "rowsha": "9BXyBfbLzLdNSd4J0NPiDNphRT3SfRJfTRLde62+iqs=",
+    "originContent": "    obdFrame.data[6]          = 0xAA;",
+    "translatedContent": "    obdFrame.data[6]          = 0xAA;"
+  },
+  {
+    "row": 34,
+    "rowsha": "fpTznW5Cb/PWd9SdO9vA08rShDFlDGm1QIMmzRgKDTw=",
+    "originContent": "    obdFrame.data[7]          = 0xAA;",
+    "translatedContent": "    obdFrame.data[7]          = 0xAA;"
+  },
+  {
+    "row": 35,
+    "rowsha": "S1174kLh5YZiST7HMkV+hz8B8ec0iETIw/yWK3uq6h8=",
+    "originContent": "    // Accepts both pointers and references",
+    "translatedContent": "    // Accepts both pointers and references"
+  },
+  {
+    "row": 36,
+    "rowsha": "qMmkakMZr94x545WpP9UyW8M+zyyjgjKhv8d59EPYU4=",
+    "originContent": "    ESP32Can.writeFrame(obdFrame); // timeout defaults to 1 ms",
+    "translatedContent": "    ESP32Can.writeFrame(obdFrame); // timeout defaults to 1 ms"
+  },
+  {
+    "row": 37,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "eNHRdfYQN7+UoywGE79DihYerGNB6jMCMUb+mJJjHRA=",
+    "originContent": "void setup() {",
+    "translatedContent": "void setup() {"
+  },
+  {
+    "row": 40,
+    "rowsha": "B5Lc24lNaAuez4fYa9kxI7yifst9e0mDJ0WSA6USqFY=",
+    "originContent": "    // Setup serial for debbuging.",
+    "translatedContent": "    // Setup serial for debbuging."
+  },
+  {
+    "row": 41,
+    "rowsha": "afKatyuru0P3dRQjDU7ivVGpej1jDwfI9/fKrtbziyQ=",
+    "originContent": "    Serial.begin(115200);",
+    "translatedContent": "    Serial.begin(115200);"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "V/IKUZpZLxeEA7jNz0mlFu5PJvH/NKT0i4wrInyABAY=",
+    "originContent": "    // Set pins",
+    "translatedContent": "    // Set pins"
+  },
+  {
+    "row": 44,
+    "rowsha": "ut7b79ALXIUZeYeCcmYqtDMGkl4KlyfHk7KMM4QmK1A=",
+    "originContent": "    ESP32Can.setPins(CAN_TX, CAN_RX);",
+    "translatedContent": "    ESP32Can.setPins(CAN_TX, CAN_RX);"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "dhjR+35t8ub0xLLTP2vp4A+YtjTlnukQRM3XzG4csZg=",
+    "originContent": "    // You can set custom size for the queues - those are default",
+    "translatedContent": "    // You can set custom size for the queues - those are default"
+  },
+  {
+    "row": 47,
+    "rowsha": "cghU26qp6K2ex6Zu8Ro9A/iy7T+q5peLHxbckD9tPsM=",
+    "originContent": "    ESP32Can.setRxQueueSize(5);",
+    "translatedContent": "    ESP32Can.setRxQueueSize(5);"
+  },
+  {
+    "row": 48,
+    "rowsha": "PT9C9MQaxwl+qfsZwxWI7Hy+mkFXOsb36E2Q9glwbZA=",
+    "originContent": "    ESP32Can.setTxQueueSize(5);",
+    "translatedContent": "    ESP32Can.setTxQueueSize(5);"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "RjDRIhYCBe/j4Qadwq+CZxcRxBvsMOYunzRr9rKuMF0=",
+    "originContent": "    // .setSpeed() and .begin() functions require to use TwaiSpeed enum,",
+    "translatedContent": "    // .setSpeed() and .begin() functions require to use TwaiSpeed enum,"
+  },
+  {
+    "row": 51,
+    "rowsha": "NgR4ajQw5xbgJ2zPTOPTvMzQp4x8ffGdwSLfz+Vk6vI=",
+    "originContent": "    // but you can easily convert it from numerical value using .convertSpeed()",
+    "translatedContent": "    // but you can easily convert it from numerical value using .convertSpeed()"
+  },
+  {
+    "row": 52,
+    "rowsha": "HXo/kRKWgKbCfA0Apx1BebwVmIZyeJ2qglpoGEwHumQ=",
+    "originContent": "    ESP32Can.setSpeed(ESP32Can.convertSpeed(500));",
+    "translatedContent": "    ESP32Can.setSpeed(ESP32Can.convertSpeed(500));"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "Hwk0cNSNbX5fsIcgpm+9f3W1yaoqAA39MqNetf4Aydk=",
+    "originContent": "    // You can also just use .begin()..",
+    "translatedContent": "    // You can also just use .begin().."
+  },
+  {
+    "row": 55,
+    "rowsha": "QWrn/QGTIpwzD4GrA/PiiRvw8DxrgiaZHtyqdUf/DfY=",
+    "originContent": "    if(ESP32Can.begin()) {",
+    "translatedContent": "    if(ESP32Can.begin()) {"
+  },
+  {
+    "row": 56,
+    "rowsha": "IAQWCg7G4Oi+cp9RnIq2iI/cSxR5GG8jXCUeedonKjA=",
+    "originContent": "        Serial.println(\"CAN bus started!\");",
+    "translatedContent": "        Serial.println(\"CAN bus started!\");"
+  },
+  {
+    "row": 57,
+    "rowsha": "1iXXq0O88YnGJrVGefga2st0aG+9pfvcLwJpmYyV0ls=",
+    "originContent": "    } else {",
+    "translatedContent": "    } else {"
+  },
+  {
+    "row": 58,
+    "rowsha": "kj+E4vFyAJnv2E6hB0+O8hO5zOgpk4hd84l3d5UwonU=",
+    "originContent": "        Serial.println(\"CAN bus failed!\");",
+    "translatedContent": "        Serial.println(\"CAN bus failed!\");"
+  },
+  {
+    "row": 59,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "PjXRi2Q1bIL8OsNQC14xEzMyTQcrC7OCxYPLYPE5wXM=",
+    "originContent": "    // or override everything in one command;",
+    "translatedContent": "    // or override everything in one command;"
+  },
+  {
+    "row": 62,
+    "rowsha": "tWZiPz1VEn2rWcNBDgLhWMvR3SJ/yYIwakAsOvJzlSc=",
+    "originContent": "    // It is also safe to use .begin() without .end() as it calls it internally",
+    "translatedContent": "    // It is also safe to use .begin() without .end() as it calls it internally"
+  },
+  {
+    "row": 63,
+    "rowsha": "kzAz63grN47DANJTeYLPOGKSvbKaD01eaOC08fiPup0=",
+    "originContent": "    if(ESP32Can.begin(ESP32Can.convertSpeed(500), CAN_TX, CAN_RX, 10, 10)) {",
+    "translatedContent": "    if(ESP32Can.begin(ESP32Can.convertSpeed(500), CAN_TX, CAN_RX, 10, 10)) {"
+  },
+  {
+    "row": 64,
+    "rowsha": "IAQWCg7G4Oi+cp9RnIq2iI/cSxR5GG8jXCUeedonKjA=",
+    "originContent": "        Serial.println(\"CAN bus started!\");",
+    "translatedContent": "        Serial.println(\"CAN bus started!\");"
+  },
+  {
+    "row": 65,
+    "rowsha": "1iXXq0O88YnGJrVGefga2st0aG+9pfvcLwJpmYyV0ls=",
+    "originContent": "    } else {",
+    "translatedContent": "    } else {"
+  },
+  {
+    "row": 66,
+    "rowsha": "kj+E4vFyAJnv2E6hB0+O8hO5zOgpk4hd84l3d5UwonU=",
+    "originContent": "        Serial.println(\"CAN bus failed!\");",
+    "translatedContent": "        Serial.println(\"CAN bus failed!\");"
+  },
+  {
+    "row": 67,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 68,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "mQrA7EiFQFUZrp3MDfvy12SX7U74Xm63MGq02RK/kgc=",
+    "originContent": "void loop() {",
+    "translatedContent": "void loop() {"
+  },
+  {
+    "row": 71,
+    "rowsha": "6LgtJokBZKf+ZDf7wKIia+t6zexBerU5zwoT71mjf9A=",
+    "originContent": "    static uint32_t lastStamp    = 0;",
+    "translatedContent": "    static uint32_t lastStamp    = 0;"
+  },
+  {
+    "row": 72,
+    "rowsha": "t+uWZBlBa0VE0DfeWeRERUIiQG637NsXJLwwlEGQy9o=",
+    "originContent": "    uint32_t        currentStamp = millis();",
+    "translatedContent": "    uint32_t        currentStamp = millis();"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "1CxeY274YKkI0modlgD3EJIAhEXDg2aqvG3LpL0ahGM=",
+    "originContent": "    if(currentStamp - lastStamp > 1000) { // sends OBD2 request every second",
+    "translatedContent": "    if(currentStamp - lastStamp > 1000) { // sends OBD2 request every second"
+  },
+  {
+    "row": 75,
+    "rowsha": "TbJb8ROL+Wo0pzFIEPixNJGVKeHxqZTWQwQVdzqlZko=",
+    "originContent": "        lastStamp = currentStamp;",
+    "translatedContent": "        lastStamp = currentStamp;"
+  },
+  {
+    "row": 76,
+    "rowsha": "xYGkMHhTF+2gfzdiK2Im44s5ucRZnUNRp71nl11lofQ=",
+    "originContent": "        sendObdFrame(5); // For coolant temperature",
+    "translatedContent": "        sendObdFrame(5); // For coolant temperature"
+  },
+  {
+    "row": 77,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "PiY0DTtEabSM5Ku5y0cNzOR9k2SnMrM57Pu1CNwlHW4=",
+    "originContent": "    // You can set custom timeout, default is 1000",
+    "translatedContent": "    // You can set custom timeout, default is 1000"
+  },
+  {
+    "row": 80,
+    "rowsha": "kIDiCBtgbPXjttPrL56vClKhAJYf2nT+byovagzbwA8=",
+    "originContent": "    if(ESP32Can.readFrame(rxFrame, 1000)) {",
+    "translatedContent": "    if(ESP32Can.readFrame(rxFrame, 1000)) {"
+  },
+  {
+    "row": 81,
+    "rowsha": "B5F49mtfL2DE89dStlFnR8WH9cYZWwd2PWPiwGX44Po=",
+    "originContent": "        // Comment out if too many frames",
+    "translatedContent": "        // Comment out if too many frames"
+  },
+  {
+    "row": 82,
+    "rowsha": "9PO6EryNJszLcm0a0g3AWYHfo02U+XXR0GfmMl/f4gI=",
+    "originContent": "        Serial.printf(\"Received frame: %03X  \\r\\n\", rxFrame.identifier);",
+    "translatedContent": "        Serial.printf(\"Received frame: %03X  \\r\\n\", rxFrame.identifier);"
+  },
+  {
+    "row": 83,
+    "rowsha": "e8l65kKpiMJpYm8AFGspAiFUfqBrHYzryiJXOhh1WGA=",
+    "originContent": "        if(rxFrame.identifier == 0x7E8) {                                    // Standard OBD2 frame responce ID",
+    "translatedContent": "        if(rxFrame.identifier == 0x7E8) {                                    // Standard OBD2 frame responce ID"
+  },
+  {
+    "row": 84,
+    "rowsha": "Rtb/iRKanrA1lg4jYCJFIZD19pOT592xRaNui6TRUSo=",
+    "originContent": "            Serial.printf(\"Collant temp: %3d°C \\r\\n\", rxFrame.data[3] - 40); // Convert to °C",
+    "translatedContent": "            Serial.printf(\"Collant temp: %3d°C \\r\\n\", rxFrame.data[3] - 40); // Convert to °C"
+  },
+  {
+    "row": 85,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 86,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 87,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 88,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "aY9EG3BbLOGyocdOyzIKC0W3ihXhq1SdNPK4q6gON+0=",
+    "originContent": "# Advanced",
+    "translatedContent": "# Avancé"
+  },
+  {
+    "row": 91,
+    "rowsha": "i0pVQpuLKtwnFb8HeyzwuBqY929g8olgLj27EmLtdnI=",
+    "originContent": "You can also setup your own masks and configurations:",
+    "translatedContent": "Vous pouvez également configurer vos propres masques et configurations :"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "p9kHAsnrYsj1u+Xw/CDKCanha99nrkZazj/wyJwtzUE=",
+    "originContent": "```cpp",
+    "translatedContent": "```cpp"
+  },
+  {
+    "row": 94,
+    "rowsha": "ZoqqN96Yf5AD4peRCsYjZewH75X+gl3BA/IsKB0ymks=",
+    "originContent": "// Everything is defaulted so you can just call .begin() or .begin(TwaiSpeed)",
+    "translatedContent": "// Everything is defaulted so you can just call .begin() or .begin(TwaiSpeed)"
+  },
+  {
+    "row": 95,
+    "rowsha": "vc+xAyqyL90nCg4ZizchkoLNyxSalvC4IS2BY811ito=",
+    "originContent": "// Calling begin() to change speed works, it will disable current driver first",
+    "translatedContent": "// Calling begin() to change speed works, it will disable current driver first"
+  },
+  {
+    "row": 96,
+    "rowsha": "8c+tPWykCPwUNS4jr4V71sxxpqdepJjBq+PuV/kCpK4=",
+    "originContent": "bool begin(TwaiSpeed twaiSpeed = TWAI_SPEED_500KBPS, ",
+    "translatedContent": "bool begin(TwaiSpeed twaiSpeed = TWAI_SPEED_500KBPS, "
+  },
+  {
+    "row": 97,
+    "rowsha": "J9wSa9+SdMfd7rcpG21RU2kU8UY3KCNAt+JM8X56/EM=",
+    "originContent": "           int8_t txPin = -1, int8_t rxPin = -1,",
+    "translatedContent": "           int8_t txPin = -1, int8_t rxPin = -1,"
+  },
+  {
+    "row": 98,
+    "rowsha": "hIuyZcIPKazTQINuk3g9HIlIXufky7LMlEHr41+8pzw=",
+    "originContent": "           uint16_t txQueue = 0xFFFF, uint16_t rxQueue = 0xFFFF,",
+    "translatedContent": "           uint16_t txQueue = 0xFFFF, uint16_t rxQueue = 0xFFFF,"
+  },
+  {
+    "row": 99,
+    "rowsha": "1ctcnBU/oAeNOQ/I3IXBbomTWJ5ti0LpPmKUkIGNhi8=",
+    "originContent": "           twai_filter_config_t*  fConfig = nullptr,",
+    "translatedContent": "           twai_filter_config_t*  fConfig = nullptr,"
+  },
+  {
+    "row": 100,
+    "rowsha": "UMZ479PWA7TR/hL579NQQsbYxUmEzLZySrbhpOlIoWg=",
+    "originContent": "           twai_general_config_t* gConfig = nullptr,",
+    "translatedContent": "           twai_general_config_t* gConfig = nullptr,"
+  },
+  {
+    "row": 101,
+    "rowsha": "8oV62DBFRo9IlwFUAum/ITCfpiL9a169ZNPLzIX1ui8=",
+    "originContent": "           twai_timing_config_t*  tConfig = nullptr);",
+    "translatedContent": "           twai_timing_config_t*  tConfig = nullptr);"
+  },
+  {
+    "row": 102,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "eH72+JMlSC31E9vxH5IV8OXTT5D5soAmFVXLQP2Nz6g=",
+    "originContent": "Follow `soc/twai_types.h` for more info:",
+    "translatedContent": "Consultez `soc/twai_types.h` pour plus d'informations :"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "RuuC/BIfzzGWnoOVe3nWvvgovSvOfHCkhlSCEmKmxuI=",
+    "originContent": "```c",
+    "translatedContent": "```c"
+  },
+  {
+    "row": 107,
+    "rowsha": "26fGFHJzcQYHKPsAYxPV+0lIgXnYVqX6K+fZ/SWZ9ao=",
+    "originContent": "typedef struct {",
+    "translatedContent": "typedef struct {"
+  },
+  {
+    "row": 108,
+    "rowsha": "f8ZrNPgspq9YeH+QJuZYH2oXtq/csl7Pf7/QUjIY+lk=",
+    "originContent": "    union {",
+    "translatedContent": "    union {"
+  },
+  {
+    "row": 109,
+    "rowsha": "WHdxSmQFk0F2ci0SBJ47lpuR7C6zj5WVDG+fi4abXlE=",
+    "originContent": "        struct {",
+    "translatedContent": "        struct {"
+  },
+  {
+    "row": 110,
+    "rowsha": "r16z8e/dI7J4Zv3n/ahyneqYhTWdYYakccLaPCXeH9A=",
+    "originContent": "            //The order of these bits must match deprecated message flags for compatibility reasons",
+    "translatedContent": "            //The order of these bits must match deprecated message flags for compatibility reasons"
+  },
+  {
+    "row": 111,
+    "rowsha": "b+Q/wmbdCkL/vn1y5P8qrMHzcV9F8XvSeEXmQ6PYnLU=",
+    "originContent": "            uint32_t extd: 1;           /**< Extended Frame Format (29bit ID) */",
+    "translatedContent": "            uint32_t extd: 1;           /**< Extended Frame Format (29bit ID) */"
+  },
+  {
+    "row": 112,
+    "rowsha": "ASECi1znKvLY0cQ9YkHP9TjwAuLVGIESCSVlEMjoXdc=",
+    "originContent": "            uint32_t rtr: 1;            /**< Message is a Remote Frame */",
+    "translatedContent": "            uint32_t rtr: 1;            /**< Message is a Remote Frame */"
+  },
+  {
+    "row": 113,
+    "rowsha": "4+cCaSQl/ql6S196RzZLC3ygHEhlnk/tzHOSjIvADDw=",
+    "originContent": "            uint32_t ss: 1;             /**< Transmit as a Single Shot Transmission. Unused for received. */",
+    "translatedContent": "            uint32_t ss: 1;             /**< Transmit as a Single Shot Transmission. Unused for received. */"
+  },
+  {
+    "row": 114,
+    "rowsha": "NsVxG8MXmtbUYMafyulXOaTXDFuqx7pPFK8qaqh1sDA=",
+    "originContent": "            uint32_t self: 1;           /**< Transmit as a Self Reception Request. Unused for received. */",
+    "translatedContent": "            uint32_t self: 1;           /**< Transmit as a Self Reception Request. Unused for received. */"
+  },
+  {
+    "row": 115,
+    "rowsha": "Ik3++2Wb8bRSrg9lp0DycQlXP75eCK/CSnkzuvPK9xg=",
+    "originContent": "            uint32_t dlc_non_comp: 1;   /**< Message's Data length code is larger than 8. This will break compliance with ISO 11898-1 */",
+    "translatedContent": "            uint32_t dlc_non_comp: 1;   /**< Message's Data length code is larger than 8. This will break compliance with ISO 11898-1 */"
+  },
+  {
+    "row": 116,
+    "rowsha": "O+Ccx/a9+Mwa/0l8qLmmM0rvyzuuhAbTcCOpCzGT/1s=",
+    "originContent": "            uint32_t reserved: 27;      /**< Reserved bits */",
+    "translatedContent": "            uint32_t reserved: 27;      /**< Reserved bits */"
+  },
+  {
+    "row": 117,
+    "rowsha": "8OSK9LfN3EMF8KXXcn/88MTQZvz8cJjzbAD9AoLmCFQ=",
+    "originContent": "        };",
+    "translatedContent": "        };"
+  },
+  {
+    "row": 118,
+    "rowsha": "Rg+5Mapa2FVUbQO61gZJslR0VrZHbi7QauO1/RcloXs=",
+    "originContent": "        //Todo: Deprecate flags",
+    "translatedContent": "        //Todo: Deprecate flags"
+  },
+  {
+    "row": 119,
+    "rowsha": "q6wr9HTY9a5IBgi3+UcTIeGhoFBarLg20QllmoU174Q=",
+    "originContent": "        uint32_t flags;                 /**< Deprecated: Alternate way to set bits using message flags */",
+    "translatedContent": "        uint32_t flags;                 /**< Deprecated: Alternate way to set bits using message flags */"
+  },
+  {
+    "row": 120,
+    "rowsha": "7em+/b2HqM6iEBXxrPSXlZytO/iDgRIZPZigKkf6YTc=",
+    "originContent": "    };",
+    "translatedContent": "    };"
+  },
+  {
+    "row": 121,
+    "rowsha": "zLP/Y11EIFEX+gZRfEDhXnhMp3zZVGa4+JjgnJcHjeY=",
+    "originContent": "    uint32_t identifier;                /**< 11 or 29 bit identifier */",
+    "translatedContent": "    uint32_t identifier;                /**< 11 or 29 bit identifier */"
+  },
+  {
+    "row": 122,
+    "rowsha": "Yye4SHCxBZ9lh7SLMcnZCW6MOUso50oy8JycU7ILI4Y=",
+    "originContent": "    uint8_t data_length_code;           /**< Data length code */",
+    "translatedContent": "    uint8_t data_length_code;           /**< Data length code */"
+  },
+  {
+    "row": 123,
+    "rowsha": "T8Kd4SFSmraIj7pQLvo43ycL1Ikk7t25rm1bL8y8cYo=",
+    "originContent": "    uint8_t data[TWAI_FRAME_MAX_DLC];    /**< Data bytes (not relevant in RTR frame) */",
+    "translatedContent": "    uint8_t data[TWAI_FRAME_MAX_DLC];    /**< Data bytes (not relevant in RTR frame) */"
+  },
+  {
+    "row": 124,
+    "rowsha": "5Ug7cltHbory0VQdWOaCouCEfq1Enr1A2Ddh1iIvoyI=",
+    "originContent": "} twai_message_t;",
+    "translatedContent": "} twai_message_t;"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "jWSjDZ3hUbZJAGodmHEDesVkmrYWLqXX/XfFT+0HsVU=",
+    "originContent": "/**",
+    "translatedContent": "/**"
+  },
+  {
+    "row": 127,
+    "rowsha": "du5mj+lo67HOSmwc43slLmc7S7LiKJp+m15djOEk/ww=",
+    "originContent": " * @brief   Structure for bit timing configuration of the TWAI driver",
+    "translatedContent": " * @brief   Structure for bit timing configuration of the TWAI driver"
+  },
+  {
+    "row": 128,
+    "rowsha": "ZOdSZpskc51aaMSdhshu6DcerLueYaRnQfYvL51KtPQ=",
+    "originContent": " *",
+    "translatedContent": " *"
+  },
+  {
+    "row": 129,
+    "rowsha": "kUxGGirfSK9zPWgl5D1a9bFhktD80AKQqHpTCJjU0JE=",
+    "originContent": " * @note    Macro initializers are available for this structure",
+    "translatedContent": " * @note    Macro initializers are available for this structure"
+  },
+  {
+    "row": 130,
+    "rowsha": "UzqfEVVyDl7A7soCH4wmGvTKyNM08SuFbyyPOUGixhE=",
+    "originContent": " */",
+    "translatedContent": " */"
+  },
+  {
+    "row": 131,
+    "rowsha": "26fGFHJzcQYHKPsAYxPV+0lIgXnYVqX6K+fZ/SWZ9ao=",
+    "originContent": "typedef struct {",
+    "translatedContent": "typedef struct {"
+  },
+  {
+    "row": 132,
+    "rowsha": "wv2hQUTRlQdEGTyoO/Zos0l0spsUp67zECpuUUWaKHo=",
+    "originContent": "    uint32_t brp;                   /**< Baudrate prescaler (i.e., APB clock divider). Any even number from 2 to 128 for ESP32, 2 to 32768 for ESP32S2.",
+    "translatedContent": "    uint32_t brp;                   /**< Baudrate prescaler (i.e., APB clock divider). Any even number from 2 to 128 for ESP32, 2 to 32768 for ESP32S2."
+  },
+  {
+    "row": 133,
+    "rowsha": "H8g12BgNoCEWWqAePytooJDpj0rqBX6hdIKeWyS09A8=",
+    "originContent": "                                         For ESP32 Rev 2 or later, multiples of 4 from 132 to 256 are also supported */",
+    "translatedContent": "                                         For ESP32 Rev 2 or later, multiples of 4 from 132 to 256 are also supported */"
+  },
+  {
+    "row": 134,
+    "rowsha": "YCcoVkiDc514eiotzYdSU5a2BU5IXVowVKCCqmi1Xe0=",
+    "originContent": "    uint8_t tseg_1;                 /**< Timing segment 1 (Number of time quanta, between 1 to 16) */",
+    "translatedContent": "    uint8_t tseg_1;                 /**< Timing segment 1 (Number of time quanta, between 1 to 16) */"
+  },
+  {
+    "row": 135,
+    "rowsha": "uBvTAu04jrnp8m/r4Poy1KX+CoEW52DS9pOLtZbcYy4=",
+    "originContent": "    uint8_t tseg_2;                 /**< Timing segment 2 (Number of time quanta, 1 to 8) */",
+    "translatedContent": "    uint8_t tseg_2;                 /**< Timing segment 2 (Number of time quanta, 1 to 8) */"
+  },
+  {
+    "row": 136,
+    "rowsha": "57Y8xo1pg3PkGew4JBH0fxJTZdjMEZLaIJfKJiwbFvU=",
+    "originContent": "    uint8_t sjw;                    /**< Synchronization Jump Width (Max time quanta jump for synchronize from 1 to 4) */",
+    "translatedContent": "    uint8_t sjw;                    /**< Synchronization Jump Width (Max time quanta jump for synchronize from 1 to 4) */"
+  },
+  {
+    "row": 137,
+    "rowsha": "FB7Q5zgLNGndCk0wRBwElHfCWnicdgOLHX6uWn9zy2s=",
+    "originContent": "    bool triple_sampling;           /**< Enables triple sampling when the TWAI controller samples a bit */",
+    "translatedContent": "    bool triple_sampling;           /**< Enables triple sampling when the TWAI controller samples a bit */"
+  },
+  {
+    "row": 138,
+    "rowsha": "S8BK++h4qt/n6Dhw0/v1os9GUPVisDi9WKELpH+mkKo=",
+    "originContent": "} twai_timing_config_t;",
+    "translatedContent": "} twai_timing_config_t;"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "jWSjDZ3hUbZJAGodmHEDesVkmrYWLqXX/XfFT+0HsVU=",
+    "originContent": "/**",
+    "translatedContent": "/**"
+  },
+  {
+    "row": 141,
+    "rowsha": "YGPpPKcl4Upbvw2o06VPuYb5oyqxcnYssb8lk2jrsVw=",
+    "originContent": " * @brief   Structure for acceptance filter configuration of the TWAI driver (see documentation)",
+    "translatedContent": " * @brief   Structure for acceptance filter configuration of the TWAI driver (see documentation)"
+  },
+  {
+    "row": 142,
+    "rowsha": "ZOdSZpskc51aaMSdhshu6DcerLueYaRnQfYvL51KtPQ=",
+    "originContent": " *",
+    "translatedContent": " *"
+  },
+  {
+    "row": 143,
+    "rowsha": "kUxGGirfSK9zPWgl5D1a9bFhktD80AKQqHpTCJjU0JE=",
+    "originContent": " * @note    Macro initializers are available for this structure",
+    "translatedContent": " * @note    Macro initializers are available for this structure"
+  },
+  {
+    "row": 144,
+    "rowsha": "UzqfEVVyDl7A7soCH4wmGvTKyNM08SuFbyyPOUGixhE=",
+    "originContent": " */",
+    "translatedContent": " */"
+  },
+  {
+    "row": 145,
+    "rowsha": "26fGFHJzcQYHKPsAYxPV+0lIgXnYVqX6K+fZ/SWZ9ao=",
+    "originContent": "typedef struct {",
+    "translatedContent": "typedef struct {"
+  },
+  {
+    "row": 146,
+    "rowsha": "9p7bVOEde7JcXmiV9t8bJ19t28E83+pcwEtP/7hobks=",
+    "originContent": "    uint32_t acceptance_code;       /**< 32-bit acceptance code */",
+    "translatedContent": "    uint32_t acceptance_code;       /**< 32-bit acceptance code */"
+  },
+  {
+    "row": 147,
+    "rowsha": "1YrdmHrYyOWpasOY3v5ct4xDvXfrR6nymmUa76gacZs=",
+    "originContent": "    uint32_t acceptance_mask;       /**< 32-bit acceptance mask */",
+    "translatedContent": "    uint32_t acceptance_mask;       /**< 32-bit acceptance mask */"
+  },
+  {
+    "row": 148,
+    "rowsha": "d7xzTtouQSslwhu2fUa93dKx5lA3GCj1jNEolP38Aow=",
+    "originContent": "    bool single_filter;             /**< Use Single Filter Mode (see documentation) */",
+    "translatedContent": "    bool single_filter;             /**< Use Single Filter Mode (see documentation) */"
+  },
+  {
+    "row": 149,
+    "rowsha": "kvVmA3yid6jPzVJEAwMjg+ocUO7ue/NBaxz6DAmmdM8=",
+    "originContent": "} twai_filter_config_t;",
+    "translatedContent": "} twai_filter_config_t;"
+  },
+  {
+    "row": 150,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,1399 @@
+[
+  {
+    "Id": 1,
+    "Content": "[![Releases](https://img.shields.io/github/release/GieziJo/ScriptableObjectVariant.svg)](https://github.com/GieziJo/ScriptableObjectVariant/releases/latest)\n[![openupm](https://img.shields.io/npm/v/ch.giezi.tools.scriptableobjectvariant?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/ch.giezi.tools.scriptableobjectvariant/)\n[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/GieziJo/ScriptableObjectVariant/blob/master/LICENSE.txt)\n\n# Scriptable Object Variant for Unity (Scriptable Object Data Overrider)\n\n> [!CAUTION]\n> If you are upgrading from a pre-`2.0.0` version, please read the [upgrade section](#upgrading-to-200-from-previous-versions)\n\n## Table of contents\n- [Description](#description)\n- [Usage](#usage)\n- [Implementation](#implementation)\n- [Installation](#installation)\n- [Upgrading to 2.0.0 from previous versions](#upgrading-to-200-from-previous-versions)\n- [Known issues and tweaks to be made](#known-issues-and-tweaks-to-be-made)\n\n## Description\nAdds a field to any scriptable object tagged with the `[SOVariant]` attribute that lets you select an original SO (parent) and override selected fields in the child object.\n\nWhen changing values in the original, values are automagically propagated to the children.\n\n<img src=\"https://raw.githubusercontent.com/GieziJo/ScriptableObjectVariant/assets/ScriptableObjectOverrideDemo.gif\" width=\"100%\">\n\n## Usage\nAdd the tag `[SOVariant]` before the class header of any ScriptableObject class you want to be overridable, i.e. to be able to create a variant of.\n\nExample:",
+    "ContentSha": "kBOgw/EFw8djxnbKT2b/SpZG5ZR5wEtBUSN4t7V86Uo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[![Releases](https://img.shields.io/github/release/GieziJo/ScriptableObjectVariant.svg)](https://github.com/GieziJo/ScriptableObjectVariant/releases/latest)\n[![openupm](https://img.shields.io/npm/v/ch.giezi.tools.scriptableobjectvariant?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/ch.giezi.tools.scriptableobjectvariant/)\n[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/GieziJo/ScriptableObjectVariant/blob/master/LICENSE.txt)\n\n# Unity용 스크립터블 오브젝트 변형 (스크립터블 오브젝트 데이터 오버라이더)\n\n> [!CAUTION]\n> `2.0.0` 이전 버전에서 업그레이드하는 경우, [업그레이드 섹션](#upgrading-to-200-from-previous-versions)을 반드시 읽어주세요.\n\n## 목차\n- [설명](#description)\n- [사용법](#usage)\n- [구현](#implementation)\n- [설치](#installation)\n- [이전 버전에서 2.0.0으로 업그레이드하기](#upgrading-to-200-from-previous-versions)\n- [알려진 문제 및 수정 사항](#known-issues-and-tweaks-to-be-made)\n\n## 설명\n`[SOVariant]` 속성이 태그된 모든 스크립터블 오브젝트에 원본 SO(부모)를 선택하고 자식 오브젝트에서 선택된 필드를 오버라이드할 수 있는 필드를 추가합니다.\n\n원본 값이 변경되면, 값이 자동으로 자식에게 전파됩니다.\n\n<img src=\"https://raw.githubusercontent.com/GieziJo/ScriptableObjectVariant/assets/ScriptableObjectOverrideDemo.gif\" width=\"100%\">\n\n## 사용법\n오버라이드 가능하거나 변형본을 만들 수 있도록 하고 싶은 모든 ScriptableObject 클래스의 클래스 헤더 앞에 `[SOVariant]` 태그를 추가하세요.\n\n예시:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QMX3tGgb044PYhuAiyRYYwM9LLf49exrvhVIgyk9Cyk=",
+        "originContent": "[![Releases](https://img.shields.io/github/release/GieziJo/ScriptableObjectVariant.svg)](https://github.com/GieziJo/ScriptableObjectVariant/releases/latest)",
+        "translatedContent": "[![Releases](https://img.shields.io/github/release/GieziJo/ScriptableObjectVariant.svg)](https://github.com/GieziJo/ScriptableObjectVariant/releases/latest)"
+      },
+      {
+        "row": 2,
+        "rowsha": "SYPhjXt9296OsT1xsPybIs+3d9oaxhaI171PPfH17Vo=",
+        "originContent": "[![openupm](https://img.shields.io/npm/v/ch.giezi.tools.scriptableobjectvariant?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/ch.giezi.tools.scriptableobjectvariant/)",
+        "translatedContent": "[![openupm](https://img.shields.io/npm/v/ch.giezi.tools.scriptableobjectvariant?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/ch.giezi.tools.scriptableobjectvariant/)"
+      },
+      {
+        "row": 3,
+        "rowsha": "60KUu7eJ/i5D3WjH4Ih6lYZiPDm2o0gC4KYQ4U8iIzs=",
+        "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/GieziJo/ScriptableObjectVariant/blob/master/LICENSE.txt)",
+        "translatedContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/GieziJo/ScriptableObjectVariant/blob/master/LICENSE.txt)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "BZN2O2OSKe5rKM+giuRZAang4ct2elOkC0kfOp/Idis=",
+        "originContent": "# Scriptable Object Variant for Unity (Scriptable Object Data Overrider)",
+        "translatedContent": "# Unity용 스크립터블 오브젝트 변형 (스크립터블 오브젝트 데이터 오버라이더)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "789MAWgjFWXhd0mIsjASBrf6dECsMF4LAJEW0IAIrlI=",
+        "originContent": "> [!CAUTION]",
+        "translatedContent": "> [!CAUTION]"
+      },
+      {
+        "row": 8,
+        "rowsha": "1tse+bki4fCOcXg4qzNhDBCBYb6bz+7ez2r/JHXxPS0=",
+        "originContent": "> If you are upgrading from a pre-`2.0.0` version, please read the [upgrade section](#upgrading-to-200-from-previous-versions)",
+        "translatedContent": "> `2.0.0` 이전 버전에서 업그레이드하는 경우, [업그레이드 섹션](#upgrading-to-200-from-previous-versions)을 반드시 읽어주세요."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "6zV3B2XA9xxg8fn1U1mBnEdZHXm91nNo4NI69Fqpeio=",
+        "originContent": "## Table of contents",
+        "translatedContent": "## 목차"
+      },
+      {
+        "row": 11,
+        "rowsha": "ZlA014QnYl33B3OeYEIBwNxn+CqwZU5KjmbABLDHUh8=",
+        "originContent": "- [Description](#description)",
+        "translatedContent": "- [설명](#description)"
+      },
+      {
+        "row": 12,
+        "rowsha": "ANDaZUJ7DId7BvvcAsl+TYu9Nvfj6L56tZfZOUbQDoo=",
+        "originContent": "- [Usage](#usage)",
+        "translatedContent": "- [사용법](#usage)"
+      },
+      {
+        "row": 13,
+        "rowsha": "a+8FJ4kk9nGgb3O73lcVqRGk5Ka+qZzXconAnMxi8oI=",
+        "originContent": "- [Implementation](#implementation)",
+        "translatedContent": "- [구현](#implementation)"
+      },
+      {
+        "row": 14,
+        "rowsha": "Wl12oCRmfvQwHCfuvjGuhBK05j+rCEJcS20CJyqXCVA=",
+        "originContent": "- [Installation](#installation)",
+        "translatedContent": "- [설치](#installation)"
+      },
+      {
+        "row": 15,
+        "rowsha": "4mQnzzlEbEi5y3FzNEk/5Qt0+2m/iHT9+vw7ktctXNo=",
+        "originContent": "- [Upgrading to 2.0.0 from previous versions](#upgrading-to-200-from-previous-versions)",
+        "translatedContent": "- [이전 버전에서 2.0.0으로 업그레이드하기](#upgrading-to-200-from-previous-versions)"
+      },
+      {
+        "row": 16,
+        "rowsha": "BWi9B2zclg4R9IykKXhrAIMJClAj1XIlMn1bfxaQXKA=",
+        "originContent": "- [Known issues and tweaks to be made](#known-issues-and-tweaks-to-be-made)",
+        "translatedContent": "- [알려진 문제 및 수정 사항](#known-issues-and-tweaks-to-be-made)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "K0XdQb6cPR2XYn4/Xr3GLliF7Co62hbZTlUnZJsZ2Bk=",
+        "originContent": "## Description",
+        "translatedContent": "## 설명"
+      },
+      {
+        "row": 19,
+        "rowsha": "dWb08E9s43ZeeGt9mh7Bb+u0gggyPcg4M6BfhaQvYUA=",
+        "originContent": "Adds a field to any scriptable object tagged with the `[SOVariant]` attribute that lets you select an original SO (parent) and override selected fields in the child object.",
+        "translatedContent": "`[SOVariant]` 속성이 태그된 모든 스크립터블 오브젝트에 원본 SO(부모)를 선택하고 자식 오브젝트에서 선택된 필드를 오버라이드할 수 있는 필드를 추가합니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "5OOX9xjQrad+i2SdHhCCsF4MHZN+q5d/ysaWCLO8/18=",
+        "originContent": "When changing values in the original, values are automagically propagated to the children.",
+        "translatedContent": "원본 값이 변경되면, 값이 자동으로 자식에게 전파됩니다."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "ucZH0rXyPn1cI3Ui+N0SUUXGsKGz8ogSNomWxdpali8=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/GieziJo/ScriptableObjectVariant/assets/ScriptableObjectOverrideDemo.gif\" width=\"100%\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/GieziJo/ScriptableObjectVariant/assets/ScriptableObjectOverrideDemo.gif\" width=\"100%\">"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 26,
+        "rowsha": "5FNgjKKuZEfGC2p8ULtLHDYGElDkom1VKl7MPBWoaak=",
+        "originContent": "Add the tag `[SOVariant]` before the class header of any ScriptableObject class you want to be overridable, i.e. to be able to create a variant of.",
+        "translatedContent": "오버라이드 가능하거나 변형본을 만들 수 있도록 하고 싶은 모든 ScriptableObject 클래스의 클래스 헤더 앞에 `[SOVariant]` 태그를 추가하세요."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "예시:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```csharp\nusing Giezi.Tools;\n\n[SOVariant]\n[CreateAssetMenu(fileName = \"TestScriptable\", menuName = \"Create new TestScriptable\")]\npublic class TestScriptable : ScriptableObject\n{\n    [SerializeField] private float myFloat = 3L;\n    [SerializeField] private GameObject myGameObject;\n    [SerializeField] private int myInt;\n    [SerializeField] private TestScriptable myTestScriptable;\n}\n```",
+    "ContentSha": "n8cKP/DNgWmMlQMxV2fVcm5oErAxx8H7foNRvG15Giw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```csharp\nusing Giezi.Tools;\n\n[SOVariant]\n[CreateAssetMenu(fileName = \"TestScriptable\", menuName = \"Create new TestScriptable\")]\npublic class TestScriptable : ScriptableObject\n{\n    [SerializeField] private float myFloat = 3L;\n    [SerializeField] private GameObject myGameObject;\n    [SerializeField] private int myInt;\n    [SerializeField] private TestScriptable myTestScriptable;\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+        "originContent": "```csharp",
+        "translatedContent": "```csharp"
+      },
+      {
+        "row": 2,
+        "rowsha": "PIPJyzy96a94ZdyJLixlIcXqZpbEVm7eGB8TLFddl4U=",
+        "originContent": "using Giezi.Tools;",
+        "translatedContent": "using Giezi.Tools;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "om7ADfMPvvh/kvS7gr+GFbouHZXpDgf0/QTc7tRBo5M=",
+        "originContent": "[SOVariant]",
+        "translatedContent": "[SOVariant]"
+      },
+      {
+        "row": 5,
+        "rowsha": "qgAj/6+6cTPGsEWAKQfolEAtvoau4pjxCbErbqkHzxY=",
+        "originContent": "[CreateAssetMenu(fileName = \"TestScriptable\", menuName = \"Create new TestScriptable\")]",
+        "translatedContent": "[CreateAssetMenu(fileName = \"TestScriptable\", menuName = \"Create new TestScriptable\")]"
+      },
+      {
+        "row": 6,
+        "rowsha": "GS2xPRS8qd6BDXTk++7Iti5IxrKdQkm0jbMj0DoJ55s=",
+        "originContent": "public class TestScriptable : ScriptableObject",
+        "translatedContent": "public class TestScriptable : ScriptableObject"
+      },
+      {
+        "row": 7,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 8,
+        "rowsha": "5YmPF21H6U8Pot2qdDmqAf90+aQWnvgaVBtuMaEvjZc=",
+        "originContent": "    [SerializeField] private float myFloat = 3L;",
+        "translatedContent": "    [SerializeField] private float myFloat = 3L;"
+      },
+      {
+        "row": 9,
+        "rowsha": "Qj+BcFtCeqzr2ae/mGzUctJQMiTjNwzB77Hbajl3k2M=",
+        "originContent": "    [SerializeField] private GameObject myGameObject;",
+        "translatedContent": "    [SerializeField] private GameObject myGameObject;"
+      },
+      {
+        "row": 10,
+        "rowsha": "KPifgl9IegXyVCLn/cZQrwQ23l2s6LikO0gdJWJq+0Y=",
+        "originContent": "    [SerializeField] private int myInt;",
+        "translatedContent": "    [SerializeField] private int myInt;"
+      },
+      {
+        "row": 11,
+        "rowsha": "3d/fRlESxzo7MV+Evn4rA8d/OJJ72G/sy13pS7ZYEBw=",
+        "originContent": "    [SerializeField] private TestScriptable myTestScriptable;",
+        "translatedContent": "    [SerializeField] private TestScriptable myTestScriptable;"
+      },
+      {
+        "row": 12,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Create Scriptable Object Variant from context menu\n\n![Context Menu](https://raw.githubusercontent.com/GieziJo/ScriptableObjectVariant/assets/ContextMenuExample.png)\n\nIn Unity, you can right click any scriptable object tagged `SOVariant` to create a variant of this object (`Create > Create SO Variant`).\nThe new object will have the selected object as parent.\n\n### Advanced usage in Editor Script\nA helper script has been implemented (`SOVariantHelper.cs`) which allows you to changed parents, override states and values from within other editor scripts.\n\nSet a new parent:",
+    "ContentSha": "6yWBmnuFwSzq8QL2Qp/Z84wvx5a2spbgNaNZSq7T7Jk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 컨텍스트 메뉴에서 스크립터블 오브젝트 변형 생성\n\n![Context Menu](https://raw.githubusercontent.com/GieziJo/ScriptableObjectVariant/assets/ContextMenuExample.png)\n\nUnity에서는 `SOVariant`로 태그된 스크립터블 오브젝트를 우클릭하여 이 오브젝트의 변형을 생성할 수 있습니다(`Create > Create SO Variant`).\n새 오브젝트는 선택된 오브젝트를 부모로 가집니다.\n\n### 에디터 스크립트에서 고급 사용법\n부모 변경, 상태 및 값을 다른 에디터 스크립트 내에서 재정의할 수 있는 도우미 스크립트(`SOVariantHelper.cs`)가 구현되어 있습니다.\n\n새 부모 설정:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 컨텍스트 메뉴에서 스크립터블 오브젝트 변형 생성"
+      },
+      {
+        "row": 2,
+        "rowsha": "4lIvN8uu6qs+gHSzNg3oKfpaptezhyQN5rqh6ifDSY4=",
+        "originContent": "### Create Scriptable Object Variant from context menu",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![Context Menu](https://raw.githubusercontent.com/GieziJo/ScriptableObjectVariant/assets/ContextMenuExample.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "OwoBH7Vlze+dWYgBY+NnLEfGno5F/9+LODOqCsuujb4=",
+        "originContent": "![Context Menu](https://raw.githubusercontent.com/GieziJo/ScriptableObjectVariant/assets/ContextMenuExample.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Unity에서는 `SOVariant`로 태그된 스크립터블 오브젝트를 우클릭하여 이 오브젝트의 변형을 생성할 수 있습니다(`Create > Create SO Variant`)."
+      },
+      {
+        "row": 6,
+        "rowsha": "YJd3YoX+v8ViKeYhbr2QhVTTfh3p2KQz8dqnAcEq9fM=",
+        "originContent": "In Unity, you can right click any scriptable object tagged `SOVariant` to create a variant of this object (`Create > Create SO Variant`).",
+        "translatedContent": "새 오브젝트는 선택된 오브젝트를 부모로 가집니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "8iM4EMWVY68uNLF3gTcHJafxfmHf8MSxBnfqQIyOxyg=",
+        "originContent": "The new object will have the selected object as parent.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 에디터 스크립트에서 고급 사용법"
+      },
+      {
+        "row": 9,
+        "rowsha": "oRaV4p2IK27n5qEEQpkSHJbNK6f9yCz9YkI42g8PGV0=",
+        "originContent": "### Advanced usage in Editor Script",
+        "translatedContent": "부모 변경, 상태 및 값을 다른 에디터 스크립트 내에서 재정의할 수 있는 도우미 스크립트(`SOVariantHelper.cs`)가 구현되어 있습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "dSVr7+aC+l6jXE0xO+CguRIBU/v9VLT2BgftjzcMgbY=",
+        "originContent": "A helper script has been implemented (`SOVariantHelper.cs`) which allows you to changed parents, override states and values from within other editor scripts.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "새 부모 설정:"
+      },
+      {
+        "row": 12,
+        "rowsha": "TyYP+XHnJ8IrBMiExMeslexvqGqKoblr/iEGL/mVfaA=",
+        "originContent": "Set a new parent:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```csharp\nScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");\nScriptableObject parent = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/parent.asset\");\n        \nSOVariantHelper<ScriptableObject>.SetParent(target, parent);\n```",
+    "ContentSha": "7Uuvd9gKDmKWQVZfzuaIe2Wa+fYUFyGIB6NRsjPnWOU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```csharp\nScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");\nScriptableObject parent = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/parent.asset\");\n        \nSOVariantHelper<ScriptableObject>.SetParent(target, parent);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+        "originContent": "```csharp",
+        "translatedContent": "```csharp"
+      },
+      {
+        "row": 2,
+        "rowsha": "tkw2Pwq5PVyGKHzDl1JORsE6rog/Z1x8IAjEfVu2EJo=",
+        "originContent": "ScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");",
+        "translatedContent": "ScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");"
+      },
+      {
+        "row": 3,
+        "rowsha": "dAau7b1JIOE0SBO/lmdpbFq+h/meM7y11kDTSudrT10=",
+        "originContent": "ScriptableObject parent = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/parent.asset\");",
+        "translatedContent": "ScriptableObject parent = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/parent.asset\");"
+      },
+      {
+        "row": 4,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 5,
+        "rowsha": "ZfOEnGS4FhdFKTP+Tv8QY5guuoQwl1471q/1YLTAB0k=",
+        "originContent": "SOVariantHelper<ScriptableObject>.SetParent(target, parent);",
+        "translatedContent": "SOVariantHelper<ScriptableObject>.SetParent(target, parent);"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nSet a field overridable:",
+    "ContentSha": "iWywtahinc93ZrAD86z0pbnSUYMNwy4C1P3x4IDU1IQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n필드를 재정의 가능하도록 설정:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "T/ve66y/SN+qhzvPl4Ln3sE7R7R6+hyPs4cgXaXYXVc=",
+        "originContent": "Set a field overridable:",
+        "translatedContent": "필드를 재정의 가능하도록 설정:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```csharp\nScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");\n        \nSOVariantHelper<ScriptableObject>.ChangeFieldOverrideState(target, \"MyFloat\", true);\n```",
+    "ContentSha": "caBPXQg1IUGC7a0vU945pQyz0Q9GNLv44FgjL3YxHPs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```csharp\nScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");\n        \nSOVariantHelper<ScriptableObject>.ChangeFieldOverrideState(target, \"MyFloat\", true);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+        "originContent": "```csharp",
+        "translatedContent": "```csharp"
+      },
+      {
+        "row": 2,
+        "rowsha": "tkw2Pwq5PVyGKHzDl1JORsE6rog/Z1x8IAjEfVu2EJo=",
+        "originContent": "ScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");",
+        "translatedContent": "ScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");"
+      },
+      {
+        "row": 3,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 4,
+        "rowsha": "gQeKAe5YTlzYDaLnbKOi8mvXIxn3rNK7CpuOaGIpxMg=",
+        "originContent": "SOVariantHelper<ScriptableObject>.ChangeFieldOverrideState(target, \"MyFloat\", true);",
+        "translatedContent": "SOVariantHelper<ScriptableObject>.ChangeFieldOverrideState(target, \"MyFloat\", true);"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nSet a new value of a field (automatically propagates to children):",
+    "ContentSha": "huBHHz0EEFKKjAG+F6zWjhGqjkavkZvES7yWDUe7qCo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "필드의 새 값을 설정합니다(자동으로 자식에게 전파됨):\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "필드의 새 값을 설정합니다(자동으로 자식에게 전파됨):"
+      },
+      {
+        "row": 2,
+        "rowsha": "2LuiY5U91wHyF5/e5LdnzKkrWDNA2suT09jZqnUsS40=",
+        "originContent": "Set a new value of a field (automatically propagates to children):",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```csharp\nScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");\n        \nSOVariantHelper<ScriptableObject>.ChangeFieldValue(target, \"MyFloat\", 45f);\n```",
+    "ContentSha": "2MJB4SXgV8YwKt8wH8EkN8/bHXduHAxvwFL9nmIdA9w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```csharp\nScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");\n        \nSOVariantHelper<ScriptableObject>.ChangeFieldValue(target, \"MyFloat\", 45f);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+        "originContent": "```csharp",
+        "translatedContent": "```csharp"
+      },
+      {
+        "row": 2,
+        "rowsha": "tkw2Pwq5PVyGKHzDl1JORsE6rog/Z1x8IAjEfVu2EJo=",
+        "originContent": "ScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");",
+        "translatedContent": "ScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");"
+      },
+      {
+        "row": 3,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 4,
+        "rowsha": "E6VR6Zt7gV0/dWH+t21yuZFakrlgPa0lYsM1qLk4qu0=",
+        "originContent": "SOVariantHelper<ScriptableObject>.ChangeFieldValue(target, \"MyFloat\", 45f);",
+        "translatedContent": "SOVariantHelper<ScriptableObject>.ChangeFieldValue(target, \"MyFloat\", 45f);"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nSet a filed to be overridden and set new value (automatically propagates to children):",
+    "ContentSha": "/6ag5wcAh5xigl+gsdrM1G6a9xmDdudP2nazrCI0pCo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n재정의할 필드를 설정하고 새 값 설정(자동으로 자식에게 전파):",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "u85o6g3GEwB/SYA53kMRJXVh3xq+0iZflDGiQsgDLmE=",
+        "originContent": "Set a filed to be overridden and set new value (automatically propagates to children):",
+        "translatedContent": "재정의할 필드를 설정하고 새 값 설정(자동으로 자식에게 전파):"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```csharp\nScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");\n        \nSOVariantHelper<ScriptableObject>.SetFieldOverrideAndSetValue(target, \"MyFloat\", 45f);\n```",
+    "ContentSha": "uYpFiFT074VewdRqFYekwKNfh26PN5nMktyi06FUKVk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```csharp\nScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");\n        \nSOVariantHelper<ScriptableObject>.SetFieldOverrideAndSetValue(target, \"MyFloat\", 45f);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+        "originContent": "```csharp",
+        "translatedContent": "```csharp"
+      },
+      {
+        "row": 2,
+        "rowsha": "tkw2Pwq5PVyGKHzDl1JORsE6rog/Z1x8IAjEfVu2EJo=",
+        "originContent": "ScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");",
+        "translatedContent": "ScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");"
+      },
+      {
+        "row": 3,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 4,
+        "rowsha": "rYhFA7E4ktZzTlUW9SQO1cixzTW3ADgbzhZhBcEAQz8=",
+        "originContent": "SOVariantHelper<ScriptableObject>.SetFieldOverrideAndSetValue(target, \"MyFloat\", 45f);",
+        "translatedContent": "SOVariantHelper<ScriptableObject>.SetFieldOverrideAndSetValue(target, \"MyFloat\", 45f);"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nSet a parent and set new overridden value (automatically propagates to children):",
+    "ContentSha": "1RUYFWJ+lebgdZQ96I1VVGKD3J8AsSSMSQT/u3GS9I4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n부모를 설정하고 새로 재정의된 값 설정 (자동으로 자식에게 전파):",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "nFu9wHMt+oQK53xDFFZJHylO7mupSihHByFK8sz6qyY=",
+        "originContent": "Set a parent and set new overridden value (automatically propagates to children):",
+        "translatedContent": "부모를 설정하고 새로 재정의된 값 설정 (자동으로 자식에게 전파):"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```csharp\nScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");\nScriptableObject parent = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/parent.asset\");\n    \nSOVariantHelper<ScriptableObject>.SetParentOverrideValue(target, parent, \"MyFloat\", 45f);\n```",
+    "ContentSha": "rkHO3HYrPG32HPBsqBQDaZm4WgTUTizS8Jnl4dj5S2Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```csharp\nScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");\nScriptableObject parent = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/parent.asset\");\n    \nSOVariantHelper<ScriptableObject>.SetParentOverrideValue(target, parent, \"MyFloat\", 45f);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+        "originContent": "```csharp",
+        "translatedContent": "```csharp"
+      },
+      {
+        "row": 2,
+        "rowsha": "tkw2Pwq5PVyGKHzDl1JORsE6rog/Z1x8IAjEfVu2EJo=",
+        "originContent": "ScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");",
+        "translatedContent": "ScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");"
+      },
+      {
+        "row": 3,
+        "rowsha": "dAau7b1JIOE0SBO/lmdpbFq+h/meM7y11kDTSudrT10=",
+        "originContent": "ScriptableObject parent = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/parent.asset\");",
+        "translatedContent": "ScriptableObject parent = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/parent.asset\");"
+      },
+      {
+        "row": 4,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 5,
+        "rowsha": "MxG9odYRL3SMh+8gapvemSH8aF/3MscyKk76DHeQdEo=",
+        "originContent": "SOVariantHelper<ScriptableObject>.SetParentOverrideValue(target, parent, \"MyFloat\", 45f);",
+        "translatedContent": "SOVariantHelper<ScriptableObject>.SetParentOverrideValue(target, parent, \"MyFloat\", 45f);"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nSet a parent and set new overridden values (automatically propagates to children):",
+    "ContentSha": "beHgwug6HNDKZr6CQ/3DDU8MPY6Hw4/lQTspSNUyBcY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "부모를 설정하고 새로 재정의된 값을 설정합니다(자동으로 자식에게 전파됨):\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "부모를 설정하고 새로 재정의된 값을 설정합니다(자동으로 자식에게 전파됨):"
+      },
+      {
+        "row": 2,
+        "rowsha": "ctCBjVffR96uKJPAKTI2NkUA+MMsHXUwmgY9cibaDMM=",
+        "originContent": "Set a parent and set new overridden values (automatically propagates to children):",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```csharp\nScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");\nScriptableObject parent = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/parent.asset\");\n    \nSOVariantHelper<ScriptableObject>.SetParentOverrideValues(target, parent, new Dictionary<string, object>(){{\"MyFloat\", 45f},{\"MyInt\", 12}});\n```",
+    "ContentSha": "FaPGbv3nhxs1WO9UwveuzzTsOJ4APeaMoolc9B4h4Uw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```csharp\nScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");\nScriptableObject parent = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/parent.asset\");\n    \nSOVariantHelper<ScriptableObject>.SetParentOverrideValues(target, parent, new Dictionary<string, object>(){{\"MyFloat\", 45f},{\"MyInt\", 12}});\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+        "originContent": "```csharp",
+        "translatedContent": "```csharp"
+      },
+      {
+        "row": 2,
+        "rowsha": "tkw2Pwq5PVyGKHzDl1JORsE6rog/Z1x8IAjEfVu2EJo=",
+        "originContent": "ScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");",
+        "translatedContent": "ScriptableObject target = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/child.asset\");"
+      },
+      {
+        "row": 3,
+        "rowsha": "dAau7b1JIOE0SBO/lmdpbFq+h/meM7y11kDTSudrT10=",
+        "originContent": "ScriptableObject parent = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/parent.asset\");",
+        "translatedContent": "ScriptableObject parent = AssetDatabase.LoadAssetAtPath<ScriptableObject>(\"Assets/Tests/parent.asset\");"
+      },
+      {
+        "row": 4,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 5,
+        "rowsha": "T4E7fP+UNDOg9xkRoYFw5B+c+OiI666Wd8IeStbHGfU=",
+        "originContent": "SOVariantHelper<ScriptableObject>.SetParentOverrideValues(target, parent, new Dictionary<string, object>(){{\"MyFloat\", 45f},{\"MyInt\", 12}});",
+        "translatedContent": "SOVariantHelper<ScriptableObject>.SetParentOverrideValues(target, parent, new Dictionary<string, object>(){{\"MyFloat\", 45f},{\"MyInt\", 12}});"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n\n## Implementation\nThe visual interface is implemented in [Odin](odininspector.com/)'s [`OdinPropertyProcessor`](https://odininspector.com/tutorials/using-property-resolvers-and-attribute-processors/custom-property-processors).\n\nThe data with the parent and the overriden fields is kept in a library object located at `Assets/Plugins/SOVariant/Editor/SOVariantDataLibrary.asset`\n\n<p style=\"color: grey\";>Before 2.0.0:\n<strike>The data with the parent and the overriden fields is kept serialized inside the asset's metadata, set in unity with `AssetImporter.GetAtPath(AssetDatabase.GetAssetPath(targetObject)).userData`.</strike></p>\n\n## Installation\n> [!WARNING]\n> Requires [Odin](odininspector.com/) version `3.2.1.0` to be installed before adding the package.\n\n> [!WARNING]\n> This package is maintained for Unity version 2022.3.16f1 LTS.\n\n### Using Unity's package manager\nAdd the line",
+    "ContentSha": "LERph73AbPqfbQybhbi2O3Jp8K9mTS2uZX8ie4umgEM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 구현\n시각적 인터페이스는 [Odin](odininspector.com/)'의 [`OdinPropertyProcessor`](https://odininspector.com/tutorials/using-property-resolvers-and-attribute-processors/custom-property-processors)에서 구현되었습니다.\n\n상위 및 재정의된 필드가 포함된 데이터는 `Assets/Plugins/SOVariant/Editor/SOVariantDataLibrary.asset`에 위치한 라이브러리 객체에 저장됩니다.\n\n<p style=\"color: grey\";>2.0.0 이전:\n<strike>상위 및 재정의된 필드가 포함된 데이터는 에셋 메타데이터 내에 직렬화되어 저장되며, Unity에서는 `AssetImporter.GetAtPath(AssetDatabase.GetAssetPath(targetObject)).userData`로 설정되었습니다.</strike></p>\n\n## 설치\n> [!WARNING]\n> 패키지를 추가하기 전에 [Odin](odininspector.com/) 버전 `3.2.1.0`이 설치되어 있어야 합니다.\n\n> [!WARNING]\n> 이 패키지는 Unity 버전 2022.3.16f1 LTS용으로 유지 관리됩니다.\n\n### Unity 패키지 매니저 사용하기\n다음 줄을 추가하십시오\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 구현"
+      },
+      {
+        "row": 3,
+        "rowsha": "UMMTNBuYDA+GHbAThRVdp6w2IwLFo8gBtq7Gg4BkaZ0=",
+        "originContent": "## Implementation",
+        "translatedContent": "시각적 인터페이스는 [Odin](odininspector.com/)'의 [`OdinPropertyProcessor`](https://odininspector.com/tutorials/using-property-resolvers-and-attribute-processors/custom-property-processors)에서 구현되었습니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "Ee3irA1Mjh5grrHQhxG8grLn0JlBI37ZG6cjxIp/FdI=",
+        "originContent": "The visual interface is implemented in [Odin](odininspector.com/)'s [`OdinPropertyProcessor`](https://odininspector.com/tutorials/using-property-resolvers-and-attribute-processors/custom-property-processors).",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "상위 및 재정의된 필드가 포함된 데이터는 `Assets/Plugins/SOVariant/Editor/SOVariantDataLibrary.asset`에 위치한 라이브러리 객체에 저장됩니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "jEokBkix28YTlRNicGO8gNz3lBTMH8IqHzltCroTQSE=",
+        "originContent": "The data with the parent and the overriden fields is kept in a library object located at `Assets/Plugins/SOVariant/Editor/SOVariantDataLibrary.asset`",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p style=\"color: grey\";>2.0.0 이전:"
+      },
+      {
+        "row": 8,
+        "rowsha": "FEA8run9UV2gxXMF6MpnPUrNPKavWV/8q3R8ifP3Ay8=",
+        "originContent": "<p style=\"color: grey\";>Before 2.0.0:",
+        "translatedContent": "<strike>상위 및 재정의된 필드가 포함된 데이터는 에셋 메타데이터 내에 직렬화되어 저장되며, Unity에서는 `AssetImporter.GetAtPath(AssetDatabase.GetAssetPath(targetObject)).userData`로 설정되었습니다.</strike></p>"
+      },
+      {
+        "row": 9,
+        "rowsha": "GwBsFEbvoF4/0wcBAyAIqEF+gsgdZ2hkj5EwMGTtelQ=",
+        "originContent": "<strike>The data with the parent and the overriden fields is kept serialized inside the asset's metadata, set in unity with `AssetImporter.GetAtPath(AssetDatabase.GetAssetPath(targetObject)).userData`.</strike></p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 11,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "> [!WARNING]"
+      },
+      {
+        "row": 12,
+        "rowsha": "Nsz8emXeBntMJtfP/5hGGuUhVSkwnYQ5OKKPFiy3jPw=",
+        "originContent": "> [!WARNING]",
+        "translatedContent": "> 패키지를 추가하기 전에 [Odin](odininspector.com/) 버전 `3.2.1.0`이 설치되어 있어야 합니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "2p7tINYKGlUozwxU0UIdCIBEmETHT9P1LNMwAE7S6Yg=",
+        "originContent": "> Requires [Odin](odininspector.com/) version `3.2.1.0` to be installed before adding the package.",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> [!WARNING]"
+      },
+      {
+        "row": 15,
+        "rowsha": "Nsz8emXeBntMJtfP/5hGGuUhVSkwnYQ5OKKPFiy3jPw=",
+        "originContent": "> [!WARNING]",
+        "translatedContent": "> 이 패키지는 Unity 버전 2022.3.16f1 LTS용으로 유지 관리됩니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "TYT8sKOVRBLCvkD47s6WtoE1XxqVxyvajfbULVNoRNw=",
+        "originContent": "> This package is maintained for Unity version 2022.3.16f1 LTS.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Unity 패키지 매니저 사용하기"
+      },
+      {
+        "row": 18,
+        "rowsha": "RYTZ6SfekASDx2JpKMmGmujeottijJwfllUuML/UA1Q=",
+        "originContent": "### Using Unity's package manager",
+        "translatedContent": "다음 줄을 추가하십시오"
+      },
+      {
+        "row": 19,
+        "rowsha": "lITsIg0Dyeu5d4piYxDMq92qyqbJ0BuBXiGRXKA+Avw=",
+        "originContent": "Add the line",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```\n\"ch.giezi.tools.scriptableobjectvariant\": \"https://github.com/GieziJo/ScriptableObjectVariant.git#master\"\n```",
+    "ContentSha": "eQs9kbkawnMQNJfIsFa+VhbJWSTQXuz0QlYTDVWRLIY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\"ch.giezi.tools.scriptableobjectvariant\": \"https://github.com/GieziJo/ScriptableObjectVariant.git#master\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ytWmvjR44p6BVvP/5WQRnroS0/rf9TabDN9StmtDMv8=",
+        "originContent": "\"ch.giezi.tools.scriptableobjectvariant\": \"https://github.com/GieziJo/ScriptableObjectVariant.git#master\"",
+        "translatedContent": "\"ch.giezi.tools.scriptableobjectvariant\": \"https://github.com/GieziJo/ScriptableObjectVariant.git#master\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "to the file `Packages/manifest.json` under `dependencies`, or in the `Package Manager` add the link [`https://github.com/GieziJo/ScriptableObjectVariant.git#master`](https://github.com/GieziJo/ScriptableObjectVariant.git#master) under `+ -> \"Add package from git URL...`.\n\n### Using OpenUPM\nThe package is available on [OpenUPM](https://openupm.com/packages/ch.giezi.tools.scriptableobjectvariant/).\nOpenUPM packages can be installed in different ways:\n- via [OpenUPM CLI](https://github.com/openupm/openupm-cli): `openupm add ch.giezi.tools.scriptableobjectvariant`\n- by downloading the [`.unitypackage`](https://package-installer.glitch.me/v1/installer/OpenUPM/ch.giezi.tools.scriptableobjectvariant?registry=https%3A%2F%2Fpackage.openupm.com) and adding it to your project with `Assets > Import Package > Custom Package...`.\n\nthe package will be added as a scoped registry, which you can inspect under `Project Settings > Package Manager > OpenUPM`.\n\n### Alternative\nDownload and copy all files inside your project.\n\n## Upgrading to 2.0.0 from previous versions\n\nIn version `2.0.0` of the package, the data moved from within each object's metadata to using a Scriptable Object library.\nUnity's importer being too unstable, reading and writing the data to the metadata became too complicated and often led to errors and failures.\n\nIf you were using the package pre-`2.0.0`, a tool has been written to migrate to the new version.\nRun `Tools/GieziTools/SOVariant/Upgrade user data to new version`.\nThis will read all data contained in the metadata and build the library.\nIf necessary, you can run `Tools/GieziTools/SOVariant/Fix SOVs`.\nThis will loop through each object and rebuild the parent/child relationship, as well as propagate the parent values to the children.\nBecause the previous version of the tool was quite unstable, this step is highly encouraged\nAdditionally, you should check the data to make sure each object has the right values.\n\nThis new version should fix a lot of the issues that appeared with newer versions of Unity and with the package being unstable.\n\n## Known issues and tweaks to be made\n<details>\n<summary>List of known issues</summary>\n\n\n### [Efficiency](https://github.com/GieziJo/ScriptableObjectVariant/issues/2)\nThe attribute `[SOVariant]` only acts as tagger, which is then looked for in `SOVariantAttributeProcessor:OdinPropertyProcessor -> ProcessMemberProperties`, where the first line reads:",
+    "ContentSha": "nPG8XqQnwaRxT/hT70+JsuuBV1SRBzVWCe4hmbTXSfE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`Packages/manifest.json` 파일의 `dependencies` 아래에 추가하거나, `Package Manager`에서 [`https://github.com/GieziJo/ScriptableObjectVariant.git#master`](https://github.com/GieziJo/ScriptableObjectVariant.git#master) 링크를 `+ -> \"Add package from git URL...\"`에 추가하세요.\n\n### OpenUPM 사용하기\n이 패키지는 [OpenUPM](https://openupm.com/packages/ch.giezi.tools.scriptableobjectvariant/)에서 사용할 수 있습니다.\nOpenUPM 패키지는 여러 방법으로 설치할 수 있습니다:\n- [OpenUPM CLI](https://github.com/openupm/openupm-cli)를 통해: `openupm add ch.giezi.tools.scriptableobjectvariant`\n- [`.unitypackage`](https://package-installer.glitch.me/v1/installer/OpenUPM/ch.giezi.tools.scriptableobjectvariant?registry=https%3A%2F%2Fpackage.openupm.com)를 다운로드하여 `Assets > Import Package > Custom Package...`로 프로젝트에 추가\n\n패키지는 스코프 레지스트리로 추가되며, `Project Settings > Package Manager > OpenUPM`에서 확인할 수 있습니다.\n\n### 대안\n프로젝트 내에 모든 파일을 다운로드하여 복사하세요.\n\n## 이전 버전에서 2.0.0으로 업그레이드\n\n패키지의 `2.0.0` 버전에서는 데이터가 각 객체의 메타데이터 내에서 Scriptable Object 라이브러리로 이동했습니다.\nUnity의 임포터가 너무 불안정하여, 메타데이터에 데이터를 읽고 쓰는 것이 너무 복잡하고 오류 및 실패가 자주 발생했습니다.\n\n`2.0.0` 이전 버전을 사용 중이었다면, 새 버전으로 마이그레이션하는 도구가 작성되었습니다.\n`Tools/GieziTools/SOVariant/Upgrade user data to new version`을 실행하세요.\n이 도구는 메타데이터에 포함된 모든 데이터를 읽어 라이브러리를 구축합니다.\n필요하다면 `Tools/GieziTools/SOVariant/Fix SOVs`를 실행할 수 있습니다.\n이 도구는 각 객체를 순회하며 부모/자식 관계를 재구성하고 부모 값을 자식에게 전파합니다.\n이전 도구 버전이 상당히 불안정했기 때문에 이 단계는 매우 권장됩니다.\n추가로 각 객체가 올바른 값을 가지고 있는지 데이터를 확인해야 합니다.\n\n이 새 버전은 Unity 최신 버전과 패키지 불안정 문제로 발생한 많은 문제를 해결해야 합니다.\n\n## 알려진 문제 및 조정 사항\n<details>\n<summary>알려진 문제 목록</summary>\n\n\n### [효율성](https://github.com/GieziJo/ScriptableObjectVariant/issues/2)\n속성 `[SOVariant]`는 태그 역할만 하며, `SOVariantAttributeProcessor:OdinPropertyProcessor -> ProcessMemberProperties`에서 검색됩니다. 첫 번째 줄은 다음과 같습니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "YjUISov+KR+XYpkYUhTbYerw7TtsLCv+KdKJrAf5Mm8=",
+        "originContent": "to the file `Packages/manifest.json` under `dependencies`, or in the `Package Manager` add the link [`https://github.com/GieziJo/ScriptableObjectVariant.git#master`](https://github.com/GieziJo/ScriptableObjectVariant.git#master) under `+ -> \"Add package from git URL...`.",
+        "translatedContent": "`Packages/manifest.json` 파일의 `dependencies` 아래에 추가하거나, `Package Manager`에서 [`https://github.com/GieziJo/ScriptableObjectVariant.git#master`](https://github.com/GieziJo/ScriptableObjectVariant.git#master) 링크를 `+ -> \"Add package from git URL...\"`에 추가하세요."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "bOSPtDrYATT1CLfbQc0++1cX0V0apJPFtQBAIdF5xsY=",
+        "originContent": "### Using OpenUPM",
+        "translatedContent": "### OpenUPM 사용하기"
+      },
+      {
+        "row": 4,
+        "rowsha": "IwPEKtEPQ9ad1OPizXWGAfVKce0ht+F/LJwfFrIg5Cw=",
+        "originContent": "The package is available on [OpenUPM](https://openupm.com/packages/ch.giezi.tools.scriptableobjectvariant/).",
+        "translatedContent": "이 패키지는 [OpenUPM](https://openupm.com/packages/ch.giezi.tools.scriptableobjectvariant/)에서 사용할 수 있습니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "+zdRi3Iyg8FsrxPs+exABlcSJ45zlZLC4cd49R9gjNg=",
+        "originContent": "OpenUPM packages can be installed in different ways:",
+        "translatedContent": "OpenUPM 패키지는 여러 방법으로 설치할 수 있습니다:"
+      },
+      {
+        "row": 6,
+        "rowsha": "Itjl5Geg/krWQ0isjz9NXzdCv2O1OpopqRJou/lEYBU=",
+        "originContent": "- via [OpenUPM CLI](https://github.com/openupm/openupm-cli): `openupm add ch.giezi.tools.scriptableobjectvariant`",
+        "translatedContent": "- [OpenUPM CLI](https://github.com/openupm/openupm-cli)를 통해: `openupm add ch.giezi.tools.scriptableobjectvariant`"
+      },
+      {
+        "row": 7,
+        "rowsha": "ixYb5aIP/IjV2HSjsg+rG8Eu27vKtZi+laBU7FBLFfg=",
+        "originContent": "- by downloading the [`.unitypackage`](https://package-installer.glitch.me/v1/installer/OpenUPM/ch.giezi.tools.scriptableobjectvariant?registry=https%3A%2F%2Fpackage.openupm.com) and adding it to your project with `Assets > Import Package > Custom Package...`.",
+        "translatedContent": "- [`.unitypackage`](https://package-installer.glitch.me/v1/installer/OpenUPM/ch.giezi.tools.scriptableobjectvariant?registry=https%3A%2F%2Fpackage.openupm.com)를 다운로드하여 `Assets > Import Package > Custom Package...`로 프로젝트에 추가"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "8+32MY5mw/okN+roDUsOGbRLVgkdH74s7eTWpZRcPJU=",
+        "originContent": "the package will be added as a scoped registry, which you can inspect under `Project Settings > Package Manager > OpenUPM`.",
+        "translatedContent": "패키지는 스코프 레지스트리로 추가되며, `Project Settings > Package Manager > OpenUPM`에서 확인할 수 있습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "KFeJhShwD5eNbmJ76/zBJ7GhuhOyhYAOczkCU4FRB+4=",
+        "originContent": "### Alternative",
+        "translatedContent": "### 대안"
+      },
+      {
+        "row": 12,
+        "rowsha": "tibX2SD3LD7t43OOG9l5d/iaoYJWwxpl/4tASMSWJpA=",
+        "originContent": "Download and copy all files inside your project.",
+        "translatedContent": "프로젝트 내에 모든 파일을 다운로드하여 복사하세요."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "h31B3/cSImoCkBBcL/PyfJoj3l67UfOxsDRQdjRIDn0=",
+        "originContent": "## Upgrading to 2.0.0 from previous versions",
+        "translatedContent": "## 이전 버전에서 2.0.0으로 업그레이드"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "V/kdw4Zyz80CBWSSyadIptKJjpD0zo/LNh13fzJ/d1g=",
+        "originContent": "In version `2.0.0` of the package, the data moved from within each object's metadata to using a Scriptable Object library.",
+        "translatedContent": "패키지의 `2.0.0` 버전에서는 데이터가 각 객체의 메타데이터 내에서 Scriptable Object 라이브러리로 이동했습니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "2fT3uH/6chbJ7enz89KIxi62MXsBvpyiJLwbYVLu+hM=",
+        "originContent": "Unity's importer being too unstable, reading and writing the data to the metadata became too complicated and often led to errors and failures.",
+        "translatedContent": "Unity의 임포터가 너무 불안정하여, 메타데이터에 데이터를 읽고 쓰는 것이 너무 복잡하고 오류 및 실패가 자주 발생했습니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "LXibAOSdokwUGIBoqbGWk4GIlZGosyxgXufxGQJzY5w=",
+        "originContent": "If you were using the package pre-`2.0.0`, a tool has been written to migrate to the new version.",
+        "translatedContent": "`2.0.0` 이전 버전을 사용 중이었다면, 새 버전으로 마이그레이션하는 도구가 작성되었습니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "zDlS4SjvDqtQ5PRxfZ20jr4AAyeJnIEcAip5wtHJU/s=",
+        "originContent": "Run `Tools/GieziTools/SOVariant/Upgrade user data to new version`.",
+        "translatedContent": "`Tools/GieziTools/SOVariant/Upgrade user data to new version`을 실행하세요."
+      },
+      {
+        "row": 21,
+        "rowsha": "eb3o+cNbbaOONSjdYTLKiJmmkGvV5VWodlHYhSv75sc=",
+        "originContent": "This will read all data contained in the metadata and build the library.",
+        "translatedContent": "이 도구는 메타데이터에 포함된 모든 데이터를 읽어 라이브러리를 구축합니다."
+      },
+      {
+        "row": 22,
+        "rowsha": "Dh4EWb0IAJca7l07RaWs++PjN7TWXi85oQhcYkY3xHc=",
+        "originContent": "If necessary, you can run `Tools/GieziTools/SOVariant/Fix SOVs`.",
+        "translatedContent": "필요하다면 `Tools/GieziTools/SOVariant/Fix SOVs`를 실행할 수 있습니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "RYrBcXqqruZVhZ0s9cXbtbEOISSD1vV/4ImAtBJ652Y=",
+        "originContent": "This will loop through each object and rebuild the parent/child relationship, as well as propagate the parent values to the children.",
+        "translatedContent": "이 도구는 각 객체를 순회하며 부모/자식 관계를 재구성하고 부모 값을 자식에게 전파합니다."
+      },
+      {
+        "row": 24,
+        "rowsha": "HK8ukxkzUCFwu2ja5V+AeccNNqKPSIUocvTNDH6Tr3o=",
+        "originContent": "Because the previous version of the tool was quite unstable, this step is highly encouraged",
+        "translatedContent": "이전 도구 버전이 상당히 불안정했기 때문에 이 단계는 매우 권장됩니다."
+      },
+      {
+        "row": 25,
+        "rowsha": "6OPUj1NaFdRNrFNymhQHJHbqLMifJWymSiTBeN9qaXc=",
+        "originContent": "Additionally, you should check the data to make sure each object has the right values.",
+        "translatedContent": "추가로 각 객체가 올바른 값을 가지고 있는지 데이터를 확인해야 합니다."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "3ookPYYxpMjCmi5BYfyq/D9SU8lzqtvYf5+7J8ALfdM=",
+        "originContent": "This new version should fix a lot of the issues that appeared with newer versions of Unity and with the package being unstable.",
+        "translatedContent": "이 새 버전은 Unity 최신 버전과 패키지 불안정 문제로 발생한 많은 문제를 해결해야 합니다."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "LfkPiZJ2I3H216VPc0/epir3jsaIx7Ys9rjyV/EFs8I=",
+        "originContent": "## Known issues and tweaks to be made",
+        "translatedContent": "## 알려진 문제 및 조정 사항"
+      },
+      {
+        "row": 30,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "PcS9lSzPzVinGCF9tnQBOH+RzQitWoL8NQwWZd0SznI=",
+        "originContent": "<summary>List of known issues</summary>",
+        "translatedContent": "<summary>알려진 문제 목록</summary>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "p5B+OdFT7/RNt+YZ6Z9ybG9YpVeI2xJ3YUhX1TdnjwQ=",
+        "originContent": "### [Efficiency](https://github.com/GieziJo/ScriptableObjectVariant/issues/2)",
+        "translatedContent": "### [효율성](https://github.com/GieziJo/ScriptableObjectVariant/issues/2)"
+      },
+      {
+        "row": 35,
+        "rowsha": "N2Pik725BLd6dmXzpo+OzT9Fx6XKvSDuQVHuskcuoXQ=",
+        "originContent": "The attribute `[SOVariant]` only acts as tagger, which is then looked for in `SOVariantAttributeProcessor:OdinPropertyProcessor -> ProcessMemberProperties`, where the first line reads:",
+        "translatedContent": "속성 `[SOVariant]`는 태그 역할만 하며, `SOVariantAttributeProcessor:OdinPropertyProcessor -> ProcessMemberProperties`에서 검색됩니다. 첫 번째 줄은 다음과 같습니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```csharp\nif(!Property.Attributes.Select(attribute => attribute.GetType()).Contains(typeof(SOVariantAttribute)))\n    return;\n```",
+    "ContentSha": "1JyPx6cux/XpFvOms29Nn8YldKnT5Wd1Z3kWm8TH634=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```csharp\nif(!Property.Attributes.Select(attribute => attribute.GetType()).Contains(typeof(SOVariantAttribute)))\n    return;\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+        "originContent": "```csharp",
+        "translatedContent": "```csharp"
+      },
+      {
+        "row": 2,
+        "rowsha": "CY6PUpiciphVO8nExcNcEw5jVQZT32qZoro8m7o8ZHA=",
+        "originContent": "if(!Property.Attributes.Select(attribute => attribute.GetType()).Contains(typeof(SOVariantAttribute)))",
+        "translatedContent": "if(!Property.Attributes.Select(attribute => attribute.GetType()).Contains(typeof(SOVariantAttribute)))"
+      },
+      {
+        "row": 3,
+        "rowsha": "P9IoGyZBDEjThC4ig9IWBJl07UeWQikdQc45aZ/oZV8=",
+        "originContent": "    return;",
+        "translatedContent": "    return;"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "The problem with this is that `SOVariantAttributeProcessor` is thus set to be called for every `ScriptableObject`:",
+    "ContentSha": "Fx0naI1beKfdzfBnZKnoeSv4+8OCWdb/O129Q5Voc40=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "이 문제는 `SOVariantAttributeProcessor`가 모든 `ScriptableObject`에 대해 호출되도록 설정된다는 점입니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Fx0naI1beKfdzfBnZKnoeSv4+8OCWdb/O129Q5Voc40=",
+        "originContent": "The problem with this is that `SOVariantAttributeProcessor` is thus set to be called for every `ScriptableObject`:",
+        "translatedContent": "이 문제는 `SOVariantAttributeProcessor`가 모든 `ScriptableObject`에 대해 호출되도록 설정된다는 점입니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```csharp\npublic class SOVariantAttributeProcessor<T> : OdinPropertyProcessor<T> where T : ScriptableObject\n```",
+    "ContentSha": "VmXrPlMXucm1LM6iMOi9QZrBHnKWOMt8pgAqMasmBuQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```csharp\npublic class SOVariantAttributeProcessor<T> : OdinPropertyProcessor<T> where T : ScriptableObject\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+        "originContent": "```csharp",
+        "translatedContent": "```csharp"
+      },
+      {
+        "row": 2,
+        "rowsha": "QOPcoBtmVz+1Eybf99U5bFzZRJWXAlNK5JqQ/NfvPu8=",
+        "originContent": "public class SOVariantAttributeProcessor<T> : OdinPropertyProcessor<T> where T : ScriptableObject",
+        "translatedContent": "public class SOVariantAttributeProcessor<T> : OdinPropertyProcessor<T> where T : ScriptableObject"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "There is probably a way to directly call `SOVariantAttributeProcessor` from the attribute, but I haven't found how.\n\n### [Selecting the parent object](https://github.com/GieziJo/ScriptableObjectVariant/issues/3)\nThe selected parent should be of the exact same class as the overriden item (otherwise fields might be missing) and should not be the child itself.\nThis check is currently done when setting the parent as:",
+    "ContentSha": "W2dV1U6E9JJ/AD7NMEZhOWI9Z/+EygHjF+ElRb3yHZU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "아마도 속성에서 `SOVariantAttributeProcessor`를 직접 호출하는 방법이 있을 텐데, 아직 찾지 못했습니다.\n\n### [부모 객체 선택하기](https://github.com/GieziJo/ScriptableObjectVariant/issues/3)\n선택된 부모는 오버라이드된 항목과 정확히 같은 클래스여야 합니다(그렇지 않으면 필드가 누락될 수 있음) 그리고 자식 자신이어서는 안 됩니다.\n이 검사는 현재 부모를 설정할 때 다음과 같이 수행됩니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kObOAnMQPDcbZUfIwq/WkdXPucSjE5591T8T6y1JJqg=",
+        "originContent": "There is probably a way to directly call `SOVariantAttributeProcessor` from the attribute, but I haven't found how.",
+        "translatedContent": "아마도 속성에서 `SOVariantAttributeProcessor`를 직접 호출하는 방법이 있을 텐데, 아직 찾지 못했습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "YeZH8BwstK39kAE9UDhstcO/Ra6SlgaVVpivLb1yyck=",
+        "originContent": "### [Selecting the parent object](https://github.com/GieziJo/ScriptableObjectVariant/issues/3)",
+        "translatedContent": "### [부모 객체 선택하기](https://github.com/GieziJo/ScriptableObjectVariant/issues/3)"
+      },
+      {
+        "row": 4,
+        "rowsha": "sb3v0Ixtyhast0etKdXyyAaYn26I+u+cWClxlN6bWBY=",
+        "originContent": "The selected parent should be of the exact same class as the overriden item (otherwise fields might be missing) and should not be the child itself.",
+        "translatedContent": "선택된 부모는 오버라이드된 항목과 정확히 같은 클래스여야 합니다(그렇지 않으면 필드가 누락될 수 있음) 그리고 자식 자신이어서는 안 됩니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "VSCdgrRzFlijhhIwh7iw2BMV5ndSiradExI7ovvm1Tw=",
+        "originContent": "This check is currently done when setting the parent as:",
+        "translatedContent": "이 검사는 현재 부모를 설정할 때 다음과 같이 수행됩니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": " ```csharp\nif (parent.GetType() != target.GetType())\n{\n    Debug.Log(\"Only equal types can be selected as parent\");\n    return;\n}\n\nif (AssetDatabase.GetAssetPath(parent) == AssetDatabase.GetAssetPath(target))\n{\n    Debug.Log(\"You can't select the same object as parent\");\n    return;\n}\n ```",
+    "ContentSha": "zenM4bAyHgZl3s5a1aa6mdni70qIUWMmWcAMKvbOGvI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": " ```csharp\nif (parent.GetType() != target.GetType())\n{\n    Debug.Log(\"Only equal types can be selected as parent\");\n    return;\n}\n\nif (AssetDatabase.GetAssetPath(parent) == AssetDatabase.GetAssetPath(target))\n{\n    Debug.Log(\"You can't select the same object as parent\");\n    return;\n}\n ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "xUEUBYwtPlM33LMWUgOt99sLja/4qooJlkDjPNjRBag=",
+        "originContent": " ```csharp",
+        "translatedContent": " ```csharp"
+      },
+      {
+        "row": 2,
+        "rowsha": "RrEGPEh7eTh6sfgjaHiJvoTvs7A5TA5NVFCeKc+LXEI=",
+        "originContent": "if (parent.GetType() != target.GetType())",
+        "translatedContent": "if (parent.GetType() != target.GetType())"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 4,
+        "rowsha": "DDhQp2IL+ckbuvyh/rdfkE970wVvCDCxttq6pj3xp+A=",
+        "originContent": "    Debug.Log(\"Only equal types can be selected as parent\");",
+        "translatedContent": "    Debug.Log(\"Only equal types can be selected as parent\");"
+      },
+      {
+        "row": 5,
+        "rowsha": "P9IoGyZBDEjThC4ig9IWBJl07UeWQikdQc45aZ/oZV8=",
+        "originContent": "    return;",
+        "translatedContent": "    return;"
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "g2596hluw4fBCoIYxQV9gEicuGIjx1VYKTuEQiIlGzY=",
+        "originContent": "if (AssetDatabase.GetAssetPath(parent) == AssetDatabase.GetAssetPath(target))",
+        "translatedContent": "if (AssetDatabase.GetAssetPath(parent) == AssetDatabase.GetAssetPath(target))"
+      },
+      {
+        "row": 9,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 10,
+        "rowsha": "7I4vFev0JFXzhLumgcr0mVAsfazkXDQSjbZfsfIC9QU=",
+        "originContent": "    Debug.Log(\"You can't select the same object as parent\");",
+        "translatedContent": "    Debug.Log(\"You can't select the same object as parent\");"
+      },
+      {
+        "row": 11,
+        "rowsha": "P9IoGyZBDEjThC4ig9IWBJl07UeWQikdQc45aZ/oZV8=",
+        "originContent": "    return;",
+        "translatedContent": "    return;"
+      },
+      {
+        "row": 12,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 13,
+        "rowsha": "+yeshfat/UFFBR11hhUjUnHZG4lqIMvFysnt0D6FJwQ=",
+        "originContent": " ```",
+        "translatedContent": " ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "It would be alot better to directly filter the possible candidates when selecting in the object, but adding the `AssetSelector` attribute with a filter, or building a custom `ValueDropdown` both did not work, not sure why.\n\n</details>\n",
+    "ContentSha": "rLAAnHR3QDRXw2OFGHt8UHruQ7Qg30Jfcd6XUtzt4Uo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "객체를 선택할 때 가능한 후보를 직접 필터링하는 것이 훨씬 좋겠지만, 필터가 있는 `AssetSelector` 속성을 추가하거나 사용자 정의 `ValueDropdown`을 만드는 것은 모두 작동하지 않았으며, 이유를 잘 모르겠습니다.\n\n</details>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qrnvSvZ1o1WQKAtHUE4S0LPniYS4yYjZiW3uLIM9EcE=",
+        "originContent": "It would be alot better to directly filter the possible candidates when selecting in the object, but adding the `AssetSelector` attribute with a filter, or building a custom `ValueDropdown` both did not work, not sure why.",
+        "translatedContent": "객체를 선택할 때 가능한 후보를 직접 필터링하는 것이 훨씬 좋겠지만, 필터가 있는 `AssetSelector` 속성을 추가하거나 사용자 정의 `ValueDropdown`을 만드는 것은 모두 작동하지 않았으며, 이유를 잘 모르겠습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

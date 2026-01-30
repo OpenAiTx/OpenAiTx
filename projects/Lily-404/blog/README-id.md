@@ -39,16 +39,17 @@ Sebuah sistem blog pribadi minimalis yang dibangun dengan Next.js 15+.
 - **Framework**: Next.js 13+ (App Router)
 - **Gaya**: Tailwind CSS
 - **Ikon**: Lucide Icons
-- **Tema**: Mendukung mode gelap/terang
+- **Tema**: Mendukung pergantian mode gelap/terang
 - **Deploy**: Vercel
 
 ## Fitur Utama
 
 - 📝 Dukungan artikel Markdown
-- 🌓 Pengalihan tema gelap/terang
+- 🌓 Pergantian tema gelap/terang
 - 📱 Desain responsif
-- ⚡ Pemuatan cepat
-- 📅 Tampilan lini masa artikel
+- ⚡ Pemrosesan cepat
+- 📅 Tampilan linimasa artikel
+- 🔐 Panel admin online (buat artikel langsung melalui GitHub API)
 
 ## Struktur Proyek
 
@@ -95,8 +96,17 @@ npm run build
 
 ## Menambahkan Artikel Baru
 
+### Metode 1: Melalui Panel Admin Online (Direkomendasikan)
+
+1. Kunjungi halaman `/admin`
+2. Login menggunakan kata sandi administrator
+3. Isi informasi artikel dan submit
+4. Artikel akan otomatis dibuat melalui GitHub API, Vercel akan melakukan redeploy secara otomatis
+
+### Metode 2: Menambahkan File Secara Manual
+
 1. Buat file Markdown baru di direktori `content/posts`
-2. Format penamaan file: xxx.md
+2. Format penamaan file: xxx.md`
 3. Tambahkan metadata di bagian atas file:
 
 ```markdown
@@ -119,21 +129,87 @@ date: YYYY-MM-DD
 ---
 ```
 
-## 部署
+## Konfigurasi Admin Backend
 
-项目已配置 Vercel 部署，支持自动部署。只需将代码推送到 GitHub 仓库，Vercel 会自动构建和部署。
+Admin backend menggunakan GitHub OAuth untuk otentikasi, hanya pemilik repositori atau kolaborator yang dapat mengakses.
 
-## 贡献
+### 1. Membuat GitHub OAuth App
 
-欢迎提交 Issue 和 Pull Request！
+1. Kunjungi [GitHub Settings > Developer settings > OAuth Apps](https://github.com/settings/developers)
+2. Klik "New OAuth App"
+3. Isi informasi:
+   - **Application name**: `Jimmy Blog Admin` (atau nama apa pun)
+   - **Homepage URL**: `https://domain-anda.com` (produksi) atau `http://localhost:3000` (pengembangan lokal)
+   - **Authorization callback URL**: 
+     - Produksi: `https://domain-anda.com/api/auth/github/callback`
+     - Pengembangan lokal: `http://localhost:3000/api/auth/github/callback`
+4. Klik "Register application"
+5. Catat **Client ID**
+6. Klik "Generate a new client secret", catat **Client secret**
 
-## 许可证
+### 2. Konfigurasi Variabel Lingkungan
+
+Tambahkan variabel lingkungan berikut pada pengaturan proyek Vercel:
+
+- `GITHUB_CLIENT_ID`: Client ID dari GitHub OAuth App Anda
+- `GITHUB_CLIENT_SECRET`: Client Secret dari GitHub OAuth App Anda
+- `GITHUB_OWNER`: Username GitHub (default: `Lily-404`, untuk validasi hak akses pengguna)
+- `GITHUB_REPO`: Nama repositori (default: `blog`)
+- `GITHUB_REDIRECT_URI`: URL callback OAuth (opsional, default akan dibuat otomatis)
+- `NEXT_PUBLIC_BASE_URL`: URL situs web Anda (untuk membuat callback URL, wajib diatur pada produksi)
+  - Produksi: `https://www.jimmy-blog.top`
+  - Pengembangan lokal: `http://localhost:3000`
+
+### 3. Konfigurasi Pengembangan Lokal
+
+Buat file `.env.local` di direktori root proyek:
+
+```env
+GITHUB_CLIENT_ID=你的Client_ID
+GITHUB_CLIENT_SECRET=你的Client_Secret
+GITHUB_OWNER=Lily-404
+GITHUB_REPO=blog
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+```
+
+### 4. Konfigurasi Lingkungan Produksi (Vercel)
+
+Di pengaturan proyek Vercel, pastikan untuk mengatur:
+
+```env
+NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
+```
+
+⚠️ **Perhatian**:
+- File `.env.local` sudah ditambahkan ke `.gitignore`, sehingga tidak akan dikirim ke Git
+- Saat pengembangan lokal, pastikan URL callback OAuth App disetel ke `http://localhost:3000/api/auth/github/callback`
+- **Pada lingkungan produksi wajib mengatur `NEXT_PUBLIC_BASE_URL` ke `https://www.jimmy-blog.top`**
+- URL callback OAuth App untuk produksi harus disetel ke: `https://www.jimmy-blog.top/api/auth/github/callback`
+
+## Deploy
+
+Proyek sudah dikonfigurasi untuk deployment di Vercel, mendukung deploy otomatis. Cukup dorong kode ke repositori GitHub, Vercel akan otomatis membangun dan melakukan deploy.
+
+### Keunggulan menggunakan halaman admin
+
+- ✅ Tidak perlu lingkungan pengembangan lokal
+- ✅ Bisa menambah artikel kapan saja di mana saja
+- ✅ Secara otomatis memicu Vercel untuk redeploy
+- ✅ Sepenuhnya gratis (GitHub OAuth dan Vercel dalam batas gratis)
+- ✅ Aman (Verifikasi GitHub OAuth, hanya pemilik/kolaborator repo yang bisa akses)
+- ✅ Tidak perlu mengelola password, login dengan akun GitHub
+
+## Kontribusi
+
+Silakan ajukan Issue dan Pull Request!
+
+## Lisensi
 
 MIT License
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

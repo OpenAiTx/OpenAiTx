@@ -6,6 +6,37 @@
   <img src="https://www.gstatic.com/_/boq-sdlc-agents-ui/_/r/Mvosg4klCA4.svg" alt="Ask Code Wiki" height="20">
 </a>
 
+<div style="text-align: left;">
+  <details>
+    <summary>🌐 Language</summary>
+    <div>
+      <div style="text-align: center;">
+        <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=as">Assamese</a>
+      </div>
+    </div>
+  </details>
+</div>
+
 <!-- markdownlint-disable MD041 -->
 <div style="text-align: center;">
   <div class="centered-logo-text-group">
@@ -16,13 +47,13 @@
 
 **An open protocol enabling communication and interoperability between opaque agentic applications.**
 
-The Agent2Agent (A2A) protocol addresses a critical challenge in the AI landscape: enabling gen AI agents, built on diverse frameworks by different companies running on separate servers, to communicate and collaborate effectively - as agents, not just as tools. A2A aims to provide a common language for agents, fostering a more interconnected, powerful, and innovative AI ecosystem.
+The Agent2Agent (A2A) protocol tackles a key challenge in the AI field: allowing gen AI agents, developed on various frameworks by different companies and running on separate servers, to communicate and collaborate efficiently—as agents, not merely as tools. A2A seeks to provide a unified language for agents, encouraging a more interconnected, capable, and innovative AI ecosystem.
 
 With A2A, agents can:
 
 - Discover each other's capabilities.
 - Negotiate interaction modalities (text, forms, media).
-- Securely collaborate on long running tasks.
+- Collaborate securely on long-running tasks.
 - Operate without exposing their internal state, memory, or tools.
 
 ## Intro to A2A Video
@@ -31,20 +62,20 @@ With A2A, agents can:
 
 ## Why A2A?
 
-As AI agents become more prevalent, their ability to interoperate is crucial for building complex, multi-functional applications. A2A aims to:
+As AI agents become more widespread, their ability to interoperate is vital for developing complex, multifunctional applications. A2A aims to:
 
 - **Break Down Silos:** Connect agents across different ecosystems.
-- **Enable Complex Collaboration:** Allow specialized agents to work together on tasks that a single agent cannot handle alone.
-- **Promote Open Standards:** Foster a community-driven approach to agent communication, encouraging innovation and broad adoption.
-- **Preserve Opacity:** Allow agents to collaborate without needing to share internal memory, proprietary logic, or specific tool implementations, enhancing security and protecting intellectual property.
+- **Enable Complex Collaboration:** Let specialized agents collaborate on tasks beyond the capabilities of a single agent.
+- **Promote Open Standards:** Support a community-driven approach to agent communication, spurring innovation and broad adoption.
+- **Preserve Opacity:** Enable agents to work together without revealing internal memory, proprietary logic, or specific tool details, strengthening security and safeguarding intellectual property.
 
 ### Key Features
 
 - **Standardized Communication:** JSON-RPC 2.0 over HTTP(S).
-- **Agent Discovery:** Via "Agent Cards" detailing capabilities and connection info.
+- **Agent Discovery:** Through "Agent Cards" describing capabilities and connection details.
 - **Flexible Interaction:** Supports synchronous request/response, streaming (SSE), and asynchronous push notifications.
-- **Rich Data Exchange:** Handles text, files, and structured JSON data.
-- **Enterprise-Ready:** Designed with security, authentication, and observability in mind.
+- **Rich Data Exchange:** Supports text, files, and structured JSON data.
+- **Enterprise-Ready:** Built with security, authentication, and observability in mind.
 
 ## Getting Started
 
@@ -89,6 +120,6 @@ The A2A Protocol is an open source project under the Linux Foundation, contribut
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

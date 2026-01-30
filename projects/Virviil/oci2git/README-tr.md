@@ -110,30 +110,92 @@ oci2git postgres:16.9-alpine3.21 -o alp
 oci2git nginx:1.28.0-alpine-slim -o alp
 ```
 
-OCI2Git, görüntüler arasında paylaşılan katmanları otomatik olarak algılar ve ortak tabanlarını yansıtan dallanma yapısı oluşturur. Git geçmişi şunları gösterecektir:
-- Tüm paylaşılan katmanları içeren ortak bir gövde
+OCI2Git, görüntüler arasındaki paylaşılan katmanları otomatik olarak algılar ve ortak tabanlarını yansıtan bir dallanma yapısı oluşturur. Git geçmişi şunları gösterir:
+- Tüm paylaşılan katmanları içeren ortak bir ana gövde
 - Görüntüler gerçekten farklılaştığında ayrılan ayrı dallar
-- Görüntülerin nerede ortak soya sahip olduğunu ve nerede benzersiz hale geldiğini net görselleştirme
-- Akıllı çoğaltma yönetimi: Aynı görüntü iki kez işlenirse, algoritma son meta veri işlemi öncesinde bunu algılar ve kopya dal oluşturmadan atlar
+- Görüntülerin nerede ortak bir kökene sahip olduğunu ve nerede benzersiz hale geldiğini açıkça görselleştirme
+- Akıllı çoğaltma yönetimi: Aynı görüntü iki kez işlenirse, algoritma son meta veri işlemesinden önce bunu algılar ve yinelenen bir dal oluşturmayı atlar
 
-Bu yaklaşım özellikle şu durumlar için değerlidir:
-- **Görüntü Ailesi Analizi**: Bir görüntünün farklı varyantlarının (farklı sürümler, mimariler veya yapılandırmalar) birbirleriyle ilişkisini anlamak
-- **Taban Görüntü Etkisi**: Taban bir görüntüde yapılan değişikliklerin birden fazla türetilmiş görüntüyü nasıl etkilediğini görmek
-- **Optimizasyon Fırsatları**: Görüntü varyantları arasında daha iyi kullanılabilecek ortak bileşenleri belirlemek
+Bu yaklaşım özellikle şu durumlarda değerlidir:
+- **Görüntü Ailesi Analizi**: Bir görüntünün farklı varyantlarının (farklı sürümler, mimariler veya yapılandırmalar) birbiriyle nasıl ilişkili olduğunu anlamak
+- **Taban Görüntü Etkisi**: Bir taban görüntüde yapılan değişikliklerin türetilmiş birden fazla görüntüyü nasıl etkilediğini doğrudan görmek
+- **Optimizasyon Fırsatları**: Görüntü varyantları arasında daha iyi değerlendirilebilecek paylaşılan bileşenleri belirlemek
 
-![Paylaşılan taban ve ayrışan dalları gösteren çoklu görüntü depo yapısı](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
+![Paylaşılan taban ve ayrılan dalları gösteren çoklu-görüntü depo yapısı](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
 
-### Ek Kullanım Senaryoları
+### Ek Kullanım Durumları
 
-- **Güvenlik Denetimi**: Savunmasız paket veya yapılandırmaların tam olarak ne zaman eklendiğini belirleyin ve bunları belirli yapı talimatlarına kadar izleyin.
-- **Görüntü Optimizasyonu**: Katman yapılarını analiz ederek gereksiz işlemleri veya büyük dosyaları belirleyin, böylece görüntü boyutunu küçültün.
-- **Bağımlılık Yönetimi**: Görüntü geçmişi boyunca bağımlılıkların ne zaman eklendiğini, yükseltildiğini veya kaldırıldığını takip edin.
-- **Yapı Süreci İyileştirme**: Katman bileşimini inceleyerek Dockerfile talimatlarını daha iyi önbellekleme ve daha küçük görüntü boyutu için optimize edin.
-- **Görüntüler Arası Karşılaştırma**: Birden fazla ilişkili görüntüyü Git depolarına dönüştürün ve Git’in karşılaştırma araçlarını kullanarak farklılıklarını ve benzerliklerini analiz edin.
+- **Güvenlik Denetimi**: Savunmasız paket veya yapılandırmaların tam olarak ne zaman eklendiğini tespit edin ve bunları belirli derleme talimatlarına kadar takip edin.
+- **Görüntü Optimizasyonu**: Katman yapılarını analiz ederek gereksiz işlemleri veya birleştirilebilecek büyük dosyaları tespit edin, böylece görüntü boyutunu azaltın.
+- **Bağımlılık Yönetimi**: Görüntü geçmişi boyunca bağımlılıkların ne zaman eklendiğini, yükseltildiğini veya kaldırıldığını izleyin.
+- **Derleme Süreci İyileştirmesi**: Daha iyi önbellekleme ve daha küçük görüntü boyutu için Dockerfile talimatlarını optimize etmek üzere katman bileşimini inceleyin.
+- **Çapraz Görüntü Karşılaştırması**: Birbiriyle ilişkili birden fazla görüntüyü Git depolarına dönüştürün ve farklarını ve ortak yönlerini analiz etmek için Git'in karşılaştırma araçlarını kullanın.
 
 ## Kurulum
 
-### Kaynaktan
+### Paket Yöneticileri
+
+#### macOS / Linux (Homebrew)
+
+```bash
+brew tap virviil/oci2git
+brew install oci2git
+```
+
+#### Debian / Ubuntu
+
+[En son sürümden](https://github.com/virviil/oci2git/releases/latest) .deb paketini indirip kurun:
+
+```bash
+# For amd64 (x86_64)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_amd64.deb
+sudo dpkg -i oci2git_VERSION_amd64.deb
+
+# For arm64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_arm64.deb
+sudo dpkg -i oci2git_VERSION_arm64.deb
+```
+
+#### Arch Linux (AUR)
+
+```bash
+# Using yay
+yay -S oci2git-bin
+
+# Using paru
+paru -S oci2git-bin
+
+# Manual installation
+git clone https://aur.archlinux.org/oci2git-bin.git
+cd oci2git-bin
+makepkg -si
+```
+
+### Önceden Derlenmiş İkili Dosyalar
+
+Platformunuza uygun ikili dosyayı [en son sürümden](https://github.com/virviil/oci2git/releases/latest) indirin:
+
+```bash
+# Linux x86_64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-linux-x86_64.tar.gz
+tar xzf oci2git-linux-x86_64.tar.gz
+sudo mv oci2git-linux-x86_64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+
+# macOS (Apple Silicon)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-darwin-aarch64.tar.gz
+tar xzf oci2git-darwin-aarch64.tar.gz
+sudo mv oci2git-darwin-aarch64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+```
+
+### Crates.io'dan
+
+```bash
+cargo install oci2git
+```
+
+### Kaynak
 
 ```bash
 # Clone the repository
@@ -142,12 +204,6 @@ cd oci2git
 
 # Install locally
 cargo install --path .
-```
-
-### Crates.io'dan
-
-```bash
-cargo install oci2git
 ```
 
 ## Kullanım
@@ -223,6 +279,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

@@ -109,31 +109,93 @@ oci2git postgres:16.9-alpine3.21 -o alp
 # Convert second image to the same output folder
 oci2git nginx:1.28.0-alpine-slim -o alp
 ```
-OCI2Git secara otomatis mendeteksi layer bersama antar image dan membuat struktur percabangan yang mencerminkan basis bersama mereka. Riwayat Git akan menunjukkan:
-- Batang utama yang berisi semua layer bersama
-- Cabang terpisah yang menyimpang hanya ketika image benar-benar berbeda
-- Visualisasi yang jelas tentang di mana image memiliki nenek moyang bersama vs. di mana mereka menjadi unik
-- Penanganan duplikat yang cerdas: jika image yang sama persis diproses dua kali, algoritma mendeteksinya sebelum komit metadata akhir dan melewati pembuatan cabang duplikat
+OCI2Git secara otomatis mendeteksi lapisan yang dibagikan antar image dan membuat struktur percabangan yang mencerminkan basis bersama mereka. Riwayat Git akan menampilkan:
+- Sebuah batang utama yang berisi semua lapisan bersama
+- Cabang-cabang terpisah yang hanya bercabang ketika image benar-benar berbeda
+- Visualisasi yang jelas tentang di mana image memiliki leluhur yang sama vs. di mana mereka menjadi unik
+- Penanganan duplikat cerdas: jika image yang sama persis diproses dua kali, algoritma akan mendeteksi ini sebelum komit metadata akhir dan melewati pembuatan cabang duplikat
 
 Pendekatan ini sangat berharga untuk:
-- **Analisis Keluarga Image**: Memahami bagaimana berbagai varian dari suatu image (versi berbeda, arsitektur, atau konfigurasi) saling berhubungan
-- **Dampak Image Dasar**: Melihat secara tepat bagaimana perubahan pada image dasar memengaruhi banyak image turunan
-- **Peluang Optimasi**: Mengidentifikasi komponen bersama yang dapat dimanfaatkan lebih baik di seluruh varian image
+- **Analisis Keluarga Image**: Memahami bagaimana varian berbeda dari sebuah image (versi berbeda, arsitektur, atau konfigurasi) saling berhubungan
+- **Dampak Image Dasar**: Melihat secara pasti bagaimana perubahan pada image dasar mempengaruhi banyak image turunan
+- **Peluang Optimasi**: Mengidentifikasi komponen bersama yang bisa lebih dimanfaatkan di antara varian image
 
-![Struktur repositori multi-image yang menunjukkan basis bersama dan cabang yang menyimpang](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
+![Struktur repositori multi-image yang menunjukkan basis bersama dan percabangan](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
 
 ### Kasus Penggunaan Tambahan
 
-- **Audit Keamanan**: Identifikasi secara tepat kapan paket atau konfigurasi yang rentan diperkenalkan dan telusuri kembali ke instruksi build tertentu.
-- **Optimasi Image**: Analisis struktur layer untuk menemukan operasi yang redundan atau file besar yang dapat dikonsolidasikan, membantu mengurangi ukuran image.
-- **Manajemen Dependensi**: Pantau kapan dependensi ditambahkan, ditingkatkan, atau dihapus sepanjang riwayat image.
-- **Peningkatan Proses Build**: Periksa komposisi layer untuk mengoptimalkan instruksi Dockerfile demi caching yang lebih baik dan ukuran image yang lebih kecil.
-- **Perbandingan Antar Image**: Konversi beberapa image terkait ke repositori Git dan gunakan alat perbandingan Git untuk menganalisis perbedaan dan kesamaan mereka.
+- **Audit Keamanan**: Mengidentifikasi dengan tepat kapan paket atau konfigurasi rentan diperkenalkan dan menelusurinya hingga instruksi build tertentu.
+- **Optimasi Image**: Menganalisis struktur layer untuk menemukan operasi redundan atau file besar yang bisa dikonsolidasikan, membantu mengurangi ukuran image.
+- **Manajemen Dependensi**: Memantau kapan dependensi ditambahkan, diperbarui, atau dihapus sepanjang riwayat image.
+- **Perbaikan Proses Build**: Memeriksa komposisi layer untuk mengoptimalkan instruksi Dockerfile demi caching lebih baik dan ukuran image yang lebih kecil.
+- **Perbandingan Lintas-Image**: Konversi beberapa image terkait ke repositori Git dan gunakan alat perbandingan Git untuk menganalisis perbedaan dan kesamaan mereka.
 
 ## Instalasi
 
-### Dari Sumber
+### Pengelola Paket
 
+#### macOS / Linux (Homebrew)
+
+
+```bash
+brew tap virviil/oci2git
+brew install oci2git
+```
+
+#### Debian / Ubuntu
+
+Unduh dan instal paket .deb dari [rilis terbaru](https://github.com/virviil/oci2git/releases/latest):
+
+```bash
+# For amd64 (x86_64)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_amd64.deb
+sudo dpkg -i oci2git_VERSION_amd64.deb
+
+# For arm64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_arm64.deb
+sudo dpkg -i oci2git_VERSION_arm64.deb
+```
+
+#### Arch Linux (AUR)
+
+```bash
+# Using yay
+yay -S oci2git-bin
+
+# Using paru
+paru -S oci2git-bin
+
+# Manual installation
+git clone https://aur.archlinux.org/oci2git-bin.git
+cd oci2git-bin
+makepkg -si
+```
+
+### Binary yang Sudah Dibangun
+
+Unduh binary yang sesuai untuk platform Anda dari [rilis terbaru](https://github.com/virviil/oci2git/releases/latest):
+
+```bash
+# Linux x86_64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-linux-x86_64.tar.gz
+tar xzf oci2git-linux-x86_64.tar.gz
+sudo mv oci2git-linux-x86_64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+
+# macOS (Apple Silicon)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-darwin-aarch64.tar.gz
+tar xzf oci2git-darwin-aarch64.tar.gz
+sudo mv oci2git-darwin-aarch64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+```
+
+### Dari Crates.io
+
+```bash
+cargo install oci2git
+```
+
+### Dari Sumber
 
 ```bash
 # Clone the repository
@@ -142,12 +204,6 @@ cd oci2git
 
 # Install locally
 cargo install --path .
-```
-
-### Dari Crates.io
-
-```bash
-cargo install oci2git
 ```
 
 ## Penggunaan
@@ -223,6 +279,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

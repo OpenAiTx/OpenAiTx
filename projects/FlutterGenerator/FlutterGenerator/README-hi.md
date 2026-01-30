@@ -83,13 +83,13 @@ jobs:
           flutter build apk --release --target-platform android-arm,android-arm64
 
       - name: Upload libflutter.so for arm64
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: libflutter_so_arm64
           path: flutter_so/build/app/intermediates/merged_native_libs/release/out/lib/arm64-v8a/libflutter.so
 
       - name: Upload libflutter.so for armeabi-v7a
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: libflutter_so_armeabi_v7a
           path: flutter_so/build/app/intermediates/merged_native_libs/release/out/lib/armeabi-v7a/libflutter.so
@@ -118,13 +118,13 @@ python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 
 # जानकारी
 
-**🚀 डार्ट संस्करण: 𒁍 2.7.0-dev.2.1 ➢ 3.10.3**
+**🚀 डार्ट संस्करण: 𒁍 2.7.0-dev.2.1 ➢ 3.10.7**
 
-**🚀 फ्लटर संस्करण: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.4**
+**🚀 फ्लटर संस्करण: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.6**
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

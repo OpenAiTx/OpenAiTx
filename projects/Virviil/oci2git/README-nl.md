@@ -109,31 +109,93 @@ oci2git postgres:16.9-alpine3.21 -o alp
 # Convert second image to the same output folder
 oci2git nginx:1.28.0-alpine-slim -o alp
 ```
-
-OCI2Git detecteert automatisch gedeelde lagen tussen images en creëert een vertakkingsstructuur die hun gemeenschappelijke basis weerspiegelt. De Git-geschiedenis toont:
-- Een gemeenschappelijke stam die alle gedeelde lagen bevat
-- Afzonderlijke takken die alleen afwijken wanneer de images daadwerkelijk verschillen
-- Duidelijke visualisatie van waar images gemeenschappelijke oorsprong delen versus waar ze uniek worden
-- Slimme duplicaatafhandeling: als exact dezelfde image tweemaal wordt verwerkt, detecteert het algoritme dit vóór de definitieve metadata-commit en slaat het aanmaken van een duplicaat-tak over
+OCI2Git detecteert automatisch gedeelde lagen tussen afbeeldingen en creëert een vertakkingsstructuur die hun gemeenschappelijke basis weerspiegelt. De Git-geschiedenis toont:
+- Een gemeenschappelijke stam met alle gedeelde lagen
+- Afzonderlijke takken die pas afwijken wanneer de afbeeldingen daadwerkelijk verschillen
+- Duidelijke visualisatie van waar afbeeldingen een gemeenschappelijke afkomst delen en waar ze uniek worden
+- Slimme duplicaatverwerking: als exact dezelfde afbeelding twee keer wordt verwerkt, detecteert het algoritme dit vóór de definitieve metadata-commit en slaat het maken van een dubbele tak over
 
 Deze aanpak is bijzonder waardevol voor:
-- **Analyse van Image-families**: Begrijpen hoe verschillende varianten van een image (verschillende versies, architecturen of configuraties) zich tot elkaar verhouden
-- **Impact van Basisimages**: Precies zien hoe wijzigingen aan een basisimage meerdere afgeleide images beïnvloeden
-- **Optimalisatiemogelijkheden**: Identificeren van gedeelde componenten die beter benut kunnen worden tussen image-varianten
+- **Afbeeldingsfamilie-analyse**: Begrijpen hoe verschillende varianten van een afbeelding (verschillende versies, architecturen of configuraties) zich tot elkaar verhouden
+- **Impact van basisafbeelding**: Precies zien hoe wijzigingen aan een basisafbeelding invloed hebben op meerdere afgeleide afbeeldingen
+- **Optimalisatiemogelijkheden**: Identificeren van gedeelde componenten die beter benut kunnen worden tussen afbeeldingsvarianten
 
-![Structuur van een multi-image repository met gedeelde basis en uiteenlopende takken](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
+![Structuur van multi-image repository met gedeelde basis en vertakkende takken](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
 
-### Aanvullende Gebruikstoepassingen
+### Aanvullende gebruiksscenario’s
 
-- **Security Auditing**: Identificeer precies wanneer kwetsbare pakketten of configuraties zijn geïntroduceerd en herleid ze naar specifieke build-instructies.
-- **Image-optimalisatie**: Analyseer laagstructuren om dubbele handelingen of grote bestanden te vinden die kunnen worden samengevoegd, wat helpt om de image-grootte te verkleinen.
-- **Dependency Management**: Houd bij wanneer afhankelijkheden zijn toegevoegd, geüpgraded of verwijderd gedurende de image-geschiedenis.
-- **Verbetering van het Buildproces**: Onderzoek laagcompositie om Dockerfile-instructies te optimaliseren voor betere caching en kleinere image-grootte.
-- **Vergelijking tussen Images**: Zet meerdere gerelateerde images om naar Git-repositories en gebruik Git's vergelijkingstools om hun verschillen en overeenkomsten te analyseren.
+- **Beveiligingsaudit**: Precies identificeren wanneer kwetsbare pakketten of configuraties zijn geïntroduceerd en deze herleiden tot specifieke build-instructies.
+- **Afbeeldingsoptimalisatie**: Analyseer laagstructuren om dubbele handelingen of grote bestanden te vinden die geconsolideerd kunnen worden, wat helpt om de afbeeldingsgrootte te verkleinen.
+- **Afhankelijkheidsbeheer**: Monitoren wanneer afhankelijkheden zijn toegevoegd, bijgewerkt of verwijderd in de afbeeldingsgeschiedenis.
+- **Verbetering van het bouwproces**: Onderzoek de samenstelling van lagen om Dockerfile-instructies te optimaliseren voor betere caching en een kleinere afbeeldingsgrootte.
+- **Cross-image vergelijking**: Converteer meerdere gerelateerde afbeeldingen naar Git-repositories en gebruik de vergelijkingstools van Git om hun verschillen en overeenkomsten te analyseren.
 
 ## Installatie
 
-### Vanuit Broncode
+### Pakketbeheerders
+
+#### macOS / Linux (Homebrew)
+
+
+```bash
+brew tap virviil/oci2git
+brew install oci2git
+```
+
+#### Debian / Ubuntu
+
+Download en installeer het .deb-pakket van de [laatste release](https://github.com/virviil/oci2git/releases/latest):
+
+```bash
+# For amd64 (x86_64)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_amd64.deb
+sudo dpkg -i oci2git_VERSION_amd64.deb
+
+# For arm64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_arm64.deb
+sudo dpkg -i oci2git_VERSION_arm64.deb
+```
+
+#### Arch Linux (AUR)
+
+```bash
+# Using yay
+yay -S oci2git-bin
+
+# Using paru
+paru -S oci2git-bin
+
+# Manual installation
+git clone https://aur.archlinux.org/oci2git-bin.git
+cd oci2git-bin
+makepkg -si
+```
+
+### Vooraf gebouwde Binaries
+
+Download het juiste binary voor jouw platform van de [laatste release](https://github.com/virviil/oci2git/releases/latest):
+
+```bash
+# Linux x86_64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-linux-x86_64.tar.gz
+tar xzf oci2git-linux-x86_64.tar.gz
+sudo mv oci2git-linux-x86_64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+
+# macOS (Apple Silicon)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-darwin-aarch64.tar.gz
+tar xzf oci2git-darwin-aarch64.tar.gz
+sudo mv oci2git-darwin-aarch64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+```
+
+### Van Crates.io
+
+```bash
+cargo install oci2git
+```
+
+### Van bron
 
 ```bash
 # Clone the repository
@@ -142,12 +204,6 @@ cd oci2git
 
 # Install locally
 cargo install --path .
-```
-
-### Van Crates.io
-
-```bash
-cargo install oci2git
 ```
 
 ## Gebruik
@@ -223,6 +279,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

@@ -109,31 +109,93 @@ oci2git postgres:16.9-alpine3.21 -o alp
 # Convert second image to the same output folder
 oci2git nginx:1.28.0-alpine-slim -o alp
 ```
-OCI2Git는 이미지 간에 공유되는 레이어를 자동으로 감지하고 공통 기반을 반영하는 분기 구조를 생성합니다. Git 기록은 다음을 보여줍니다:
-- 모든 공유 레이어를 포함하는 공통 줄기
-- 이미지가 실제로 다를 때만 분기되는 별도의 브랜치
-- 이미지가 공통 조상을 공유하는 부분과 고유해지는 부분을 명확하게 시각화
-- 스마트 중복 처리: 동일한 이미지가 두 번 처리되면 알고리즘이 최종 메타데이터 커밋 전에 이를 감지하고 중복 브랜치 생성을 건너뜀
 
-이 접근법은 다음에 특히 유용합니다:
-- **이미지 패밀리 분석**: 이미지의 다양한 변형(버전, 아키텍처 또는 구성) 간의 관계 이해
-- **기본 이미지 영향 분석**: 기본 이미지 변경이 여러 파생 이미지에 미치는 영향 정확히 파악
-- **최적화 기회 탐색**: 이미지 변형 간에 더 잘 활용할 수 있는 공유 구성 요소 식별
+OCI2Git은 이미지 간의 공유 레이어를 자동으로 감지하고, 공통 기반을 반영하는 분기 구조를 생성합니다. Git 히스토리에는 다음이 표시됩니다:
+- 모든 공유 레이어를 포함하는 공통 트렁크
+- 이미지가 실제로 다를 때만 분기되는 개별 브랜치
+- 이미지가 어디서 공통 조상을 공유하고 어디서 독립적으로 변하는지 명확한 시각화
+- 스마트 중복 처리: 동일한 이미지를 두 번 처리할 경우, 알고리즘이 최종 메타데이터 커밋 전에 이를 감지하여 중복 브랜치 생성을 건너뜁니다
 
-![공유 기반과 갈라지는 브랜치를 보여주는 다중 이미지 저장소 구조](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
+이 접근 방식은 특히 다음과 같은 경우에 유용합니다:
+- **이미지 패밀리 분석**: 이미지의 다양한 변종(버전, 아키텍처, 구성)이 서로 어떻게 연결되어 있는지 이해
+- **베이스 이미지 영향 분석**: 베이스 이미지의 변경이 여러 파생 이미지에 어떻게 영향을 미치는지 정확히 파악
+- **최적화 기회 발굴**: 이미지 변종 간에 더 효과적으로 활용될 수 있는 공유 컴포넌트 식별
 
-### 추가 사용 사례
+![공유 베이스 및 분기 브랜치를 보여주는 다중 이미지 저장소 구조](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
 
-- **보안 감사**: 취약한 패키지나 구성이 도입된 시점을 정확히 파악하고 특정 빌드 명령으로 추적
-- **이미지 최적화**: 레이어 구조 분석을 통해 중복 작업이나 통합할 수 있는 큰 파일 발견, 이미지 크기 감소에 도움
-- **종속성 관리**: 이미지 기록 전반에 걸쳐 종속성이 추가, 업그레이드 또는 제거된 시점 모니터링
-- **빌드 프로세스 개선**: 레이어 구성을 검토하여 더 나은 캐싱 및 작은 이미지 크기를 위한 Dockerfile 명령 최적화
-- **이미지 간 비교**: 여러 관련 이미지를 Git 저장소로 변환하고 Git의 비교 도구를 사용해 차이점과 공통점을 분석
+### 추가 활용 사례
+
+- **보안 감사**: 취약한 패키지나 설정이 정확히 언제 도입되었는지 식별하고, 특정 빌드 지침까지 추적
+- **이미지 최적화**: 레이어 구조를 분석하여 중복 작업이나 대용량 파일을 찾아 통합함으로써 이미지 크기 축소
+- **종속성 관리**: 이미지 히스토리 전반에 걸쳐 종속성이 언제 추가, 업그레이드, 제거되었는지 모니터링
+- **빌드 프로세스 개선**: 레이어 구성을 검사하여 Dockerfile 지침을 최적화하고 캐싱 효율 및 이미지 크기 최소화
+- **이미지 간 비교**: 여러 관련 이미지를 Git 저장소로 변환한 후 Git의 비교 도구로 차이점과 공통점을 분석
 
 ## 설치
 
-### 소스에서 설치하기
+### 패키지 관리자
 
+#### macOS / Linux (Homebrew)
+
+```bash
+brew tap virviil/oci2git
+brew install oci2git
+```
+
+#### Debian / Ubuntu
+
+[최신 릴리스](https://github.com/virviil/oci2git/releases/latest)에서 .deb 패키지를 다운로드하여 설치하세요:
+
+```bash
+# For amd64 (x86_64)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_amd64.deb
+sudo dpkg -i oci2git_VERSION_amd64.deb
+
+# For arm64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_arm64.deb
+sudo dpkg -i oci2git_VERSION_arm64.deb
+```
+
+#### 아치 리눅스 (AUR)
+
+```bash
+# Using yay
+yay -S oci2git-bin
+
+# Using paru
+paru -S oci2git-bin
+
+# Manual installation
+git clone https://aur.archlinux.org/oci2git-bin.git
+cd oci2git-bin
+makepkg -si
+```
+
+### 미리 빌드된 바이너리
+
+플랫폼에 맞는 바이너리를 [최신 릴리스](https://github.com/virviil/oci2git/releases/latest)에서 다운로드하세요:
+
+```bash
+# Linux x86_64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-linux-x86_64.tar.gz
+tar xzf oci2git-linux-x86_64.tar.gz
+sudo mv oci2git-linux-x86_64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+
+# macOS (Apple Silicon)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-darwin-aarch64.tar.gz
+tar xzf oci2git-darwin-aarch64.tar.gz
+sudo mv oci2git-darwin-aarch64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+```
+### Crates.io에서 가져오기
+
+
+```bash
+cargo install oci2git
+```
+
+### 소스에서
 
 ```bash
 # Clone the repository
@@ -142,12 +204,6 @@ cd oci2git
 
 # Install locally
 cargo install --path .
-```
-### Crates.io에서 가져오기
-
-
-```bash
-cargo install oci2git
 ```
 
 ## 사용법
@@ -223,6 +279,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

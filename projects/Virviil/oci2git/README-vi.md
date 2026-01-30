@@ -109,31 +109,93 @@ oci2git postgres:16.9-alpine3.21 -o alp
 # Convert second image to the same output folder
 oci2git nginx:1.28.0-alpine-slim -o alp
 ```
-OCI2Git tự động phát hiện các lớp được chia sẻ giữa các ảnh và tạo ra cấu trúc phân nhánh phản ánh cơ sở chung của chúng. Lịch sử Git sẽ hiển thị:
-- Một nhánh chính chung chứa tất cả các lớp được chia sẻ
-- Các nhánh riêng biệt chỉ tách ra khi các ảnh thực sự khác nhau
-- Hình ảnh trực quan rõ ràng về nơi các ảnh chia sẻ nguồn gốc chung so với nơi chúng trở nên độc lập
-- Xử lý thông minh các bản sao: nếu cùng một ảnh được xử lý hai lần, thuật toán sẽ phát hiện trước khi cam kết metadata cuối cùng và bỏ qua việc tạo nhánh trùng lặp
+OCI2Git tự động phát hiện các lớp chia sẻ giữa các ảnh và tạo ra một cấu trúc phân nhánh phản ánh nền tảng chung của chúng. Lịch sử Git sẽ hiển thị:
+- Một nhánh chính chứa tất cả các lớp dùng chung
+- Các nhánh riêng biệt chỉ phân tách khi các ảnh thực sự khác nhau
+- Hình dung rõ ràng vị trí các ảnh có chung tổ tiên và vị trí chúng trở nên độc lập
+- Xử lý thông minh các bản sao: nếu cùng một ảnh được xử lý hai lần, thuật toán sẽ phát hiện trước khi commit siêu dữ liệu cuối cùng và bỏ qua việc tạo nhánh trùng lặp
 
-Cách tiếp cận này đặc biệt có giá trị cho:
-- **Phân tích họ ảnh**: Hiểu cách các biến thể khác nhau của một ảnh (các phiên bản, kiến trúc hoặc cấu hình khác nhau) liên quan đến nhau như thế nào
-- **Ảnh cơ sở tác động**: Thấy chính xác cách thay đổi ảnh cơ sở ảnh hưởng đến nhiều ảnh dẫn xuất
-- **Cơ hội tối ưu hóa**: Nhận diện các thành phần chia sẻ có thể tận dụng tốt hơn giữa các biến thể ảnh
+Phương pháp này đặc biệt hữu ích cho:
+- **Phân tích họ ảnh**: Hiểu cách các biến thể khác nhau của một ảnh (phiên bản, kiến trúc hoặc cấu hình khác nhau) liên quan đến nhau như thế nào
+- **Ảnh nền tảng ảnh hưởng**: Xem chính xác cách các thay đổi đối với một ảnh nền tảng ảnh hưởng đến nhiều ảnh dẫn xuất
+- **Cơ hội tối ưu hóa**: Xác định các thành phần dùng chung có thể được tận dụng tốt hơn giữa các biến thể ảnh
 
-![Cấu trúc kho lưu trữ đa ảnh hiển thị cơ sở chia sẻ và các nhánh phân kỳ](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
+![Cấu trúc kho đa ảnh cho thấy nền tảng chung và các nhánh phân tách](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
 
-### Các trường hợp sử dụng bổ sung
+### Trường hợp sử dụng bổ sung
 
-- **Kiểm toán bảo mật**: Xác định chính xác thời điểm các gói hoặc cấu hình dễ bị tấn công được thêm vào và truy vết về các hướng dẫn build cụ thể.
-- **Tối ưu hóa ảnh**: Phân tích cấu trúc lớp để tìm các thao tác dư thừa hoặc các tệp lớn có thể được hợp nhất, giúp giảm kích thước ảnh.
-- **Quản lý phụ thuộc**: Theo dõi khi nào các phụ thuộc được thêm, nâng cấp hoặc xóa trong lịch sử ảnh.
-- **Cải tiến quy trình build**: Kiểm tra thành phần lớp để tối ưu hóa các hướng dẫn Dockerfile nhằm tăng hiệu quả cache và giảm kích thước ảnh.
-- **So sánh ảnh chéo**: Chuyển đổi nhiều ảnh liên quan sang kho Git và sử dụng công cụ so sánh của Git để phân tích sự khác biệt và điểm chung của chúng.
+- **Kiểm toán bảo mật**: Xác định chính xác thời điểm các gói hoặc cấu hình dễ bị tổn thương được đưa vào và truy vết chúng về các hướng dẫn xây dựng cụ thể.
+- **Tối ưu hóa ảnh**: Phân tích cấu trúc lớp để tìm các thao tác dư thừa hoặc tập tin lớn có thể hợp nhất, giúp giảm kích thước ảnh.
+- **Quản lý phụ thuộc**: Theo dõi khi nào các phụ thuộc được thêm, nâng cấp hoặc gỡ bỏ trong lịch sử ảnh.
+- **Cải thiện quy trình xây dựng**: Kiểm tra thành phần lớp để tối ưu hóa các hướng dẫn Dockerfile nhằm tăng hiệu quả cache và giảm kích thước ảnh.
+- **So sánh nhiều ảnh**: Chuyển đổi nhiều ảnh liên quan thành kho Git và sử dụng công cụ so sánh của Git để phân tích sự khác biệt và điểm chung của chúng.
 
 ## Cài đặt
 
-### Từ mã nguồn
+### Trình quản lý gói
 
+#### macOS / Linux (Homebrew)
+
+
+```bash
+brew tap virviil/oci2git
+brew install oci2git
+```
+
+#### Debian / Ubuntu
+
+Tải xuống và cài đặt gói .deb từ [phiên bản mới nhất](https://github.com/virviil/oci2git/releases/latest):
+
+```bash
+# For amd64 (x86_64)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_amd64.deb
+sudo dpkg -i oci2git_VERSION_amd64.deb
+
+# For arm64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_arm64.deb
+sudo dpkg -i oci2git_VERSION_arm64.deb
+```
+
+#### Arch Linux (AUR)
+
+```bash
+# Using yay
+yay -S oci2git-bin
+
+# Using paru
+paru -S oci2git-bin
+
+# Manual installation
+git clone https://aur.archlinux.org/oci2git-bin.git
+cd oci2git-bin
+makepkg -si
+```
+
+### Tệp nhị phân dựng sẵn
+
+Tải xuống tệp nhị phân phù hợp với nền tảng của bạn từ [phát hành mới nhất](https://github.com/virviil/oci2git/releases/latest):
+
+```bash
+# Linux x86_64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-linux-x86_64.tar.gz
+tar xzf oci2git-linux-x86_64.tar.gz
+sudo mv oci2git-linux-x86_64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+
+# macOS (Apple Silicon)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-darwin-aarch64.tar.gz
+tar xzf oci2git-darwin-aarch64.tar.gz
+sudo mv oci2git-darwin-aarch64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+```
+
+### Từ Crates.io
+
+```bash
+cargo install oci2git
+```
+
+### Từ nguồn
 
 ```bash
 # Clone the repository
@@ -142,12 +204,6 @@ cd oci2git
 
 # Install locally
 cargo install --path .
-```
-
-### Từ Crates.io
-
-```bash
-cargo install oci2git
 ```
 
 ## Cách sử dụng
@@ -223,6 +279,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

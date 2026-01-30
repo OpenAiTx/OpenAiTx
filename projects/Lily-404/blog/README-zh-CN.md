@@ -39,16 +39,17 @@
 - **框架**: Next.js 13+（App Router）
 - **样式**: Tailwind CSS
 - **Icon**: Lucide Icons
-- **Theme**: 支持深色/浅色模式切换
+- **Theme**: Supports dark/light mode switching
 - **Deployment**: Vercel
 
 ## Features
 
-- 📝 支持 Markdown 文章
-- 🌓 深色/浅色主题切换
-- 📱 响应式设计
-- ⚡ 快速加载
-- 📅 文章时间线展示
+- 📝 Markdown article support
+- 🌓 Dark/light theme switching
+- 📱 Responsive design
+- ⚡ Fast loading
+- 📅 Article timeline display
+- 🔐 Online management dashboard (create articles directly via GitHub API)
 
 ## Project Structure
 
@@ -95,6 +96,15 @@ npm run build
 
 ## 添加新文章
 
+### 方式一：在线管理后台（推荐）
+
+1. 访问 `/admin` 页面
+2. 使用管理员密码登录
+3. 填写文章信息并提交
+4. 文章会自动通过 GitHub API 创建，Vercel 会自动重新部署
+
+### 方式二：手动添加文件
+
 1. 在 `content/posts` 目录下创建新的 Markdown 文件
 2. 文件命名格式：xxx.md`
 3. 在文件头部添加元数据：
@@ -119,9 +129,75 @@ date: YYYY-MM-DD
 ---
 ```
 
+## 配置管理后台
+
+管理后台使用 GitHub OAuth 进行身份验证，只有仓库所有者或协作者才能访问。
+
+### 1. 创建 GitHub OAuth 应用
+
+1. 访问 [GitHub 设置 > 开发者设置 > OAuth 应用](https://github.com/settings/developers)
+2. 点击 "New OAuth App"
+3. 填写信息：
+   - **Application name**：`Jimmy Blog Admin`（或任意名称）
+   - **Homepage URL**：`https://你的域名.com`（生产环境）或 `http://localhost:3000`（本地开发）
+   - **Authorization callback URL**：
+     - 生产环境: `https://你的域名.com/api/auth/github/callback`
+     - 本地开发: `http://localhost:3000/api/auth/github/callback`
+4. 点击 "Register application"
+5. 记录 **Client ID**
+6. 点击 "Generate a new client secret"，记录 **Client secret**
+
+### 2. 配置环境变量
+
+在 Vercel 项目设置中添加以下环境变量：
+
+- `GITHUB_CLIENT_ID`：你的 GitHub OAuth App Client ID
+- `GITHUB_CLIENT_SECRET`：你的 GitHub OAuth App Client Secret
+- `GITHUB_OWNER`：GitHub 用户名（默认：`Lily-404`，用于验证用户权限）
+- `GITHUB_REPO`：仓库名称（默认：`blog`）
+- `GITHUB_REDIRECT_URI`：OAuth 回调 URL（可选，默认自动生成）
+- `NEXT_PUBLIC_BASE_URL`：你的网站 URL（用于生成回调 URL，生产环境必须设置）
+  - 生产环境: `https://www.jimmy-blog.top`
+  - 本地开发: `http://localhost:3000`
+
+### 3. 本地开发配置
+
+在项目根目录创建 `.env.local` 文件：
+
+```env
+GITHUB_CLIENT_ID=你的Client_ID
+GITHUB_CLIENT_SECRET=你的Client_Secret
+GITHUB_OWNER=Lily-404
+GITHUB_REPO=blog
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+```
+
+### 4. 生产环境配置（Vercel）
+
+在 Vercel 项目设置中，确保设置：
+
+```env
+NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
+```
+
+⚠️ **注意**:
+- `.env.local` 文件已被添加到 `.gitignore`，不会被提交到 Git
+- 本地开发时，请确保 OAuth 应用的回调 URL 设置为 `http://localhost:3000/api/auth/github/callback`
+- **生产环境必须将 `NEXT_PUBLIC_BASE_URL` 设置为 `https://www.jimmy-blog.top`**
+- 生产环境下的 OAuth 应用回调 URL 应设置为：`https://www.jimmy-blog.top/api/auth/github/callback`
+
 ## 部署
 
-项目已配置 Vercel 部署，支持自动部署。只需将代码推送到 GitHub 仓库，Vercel 会自动构建和部署。
+项目已配置 Vercel 部署，支持自动化部署。只需将代码推送到 GitHub 仓库，Vercel 会自动构建并部署。
+
+### 使用管理后台的优势
+
+- ✅ 无需本地开发环境
+- ✅ 可以随时随地添加文章
+- ✅ 自动触发 Vercel 重新部署
+- ✅ 完全免费（GitHub OAuth 和 Vercel 均在免费额度内）
+- ✅ 安全（GitHub OAuth 验证，仅仓库所有者/协作者可访问）
+- ✅ 无需管理密码，直接用 GitHub 账号登录
 
 ## 贡献
 
@@ -129,11 +205,11 @@ date: YYYY-MM-DD
 
 ## 许可证
 
-MIT License
+MIT 许可证
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

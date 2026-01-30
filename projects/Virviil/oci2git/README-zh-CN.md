@@ -109,31 +109,93 @@ oci2git postgres:16.9-alpine3.21 -o alp
 # Convert second image to the same output folder
 oci2git nginx:1.28.0-alpine-slim -o alp
 ```
-OCI2Git 会自动检测镜像之间共享的层，并创建一个反映它们共同基础的分支结构。Git 历史将显示：
+OCI2Git 会自动检测镜像之间的共享层，并创建一个反映其共同基础的分支结构。Git 历史记录将显示：
 - 包含所有共享层的公共主干
-- 仅在镜像实际不同的时候分叉的独立分支
-- 清晰地展示镜像共享共同祖先的位置以及何处变得独特
-- 智能重复处理：如果完全相同的镜像被处理两次，算法会在最终元数据提交之前检测到这一点并跳过创建重复分支
+- 只有在镜像实际不同时才分叉的独立分支
+- 清晰可视化镜像共享共同祖先和变为唯一的节点
+- 智能重复处理：如果完全相同的镜像被处理两次，算法会在最终元数据提交前检测到，并跳过创建重复分支
 
-这种方法尤其适用于：
-- **镜像家族分析**：理解不同变体镜像（不同版本、架构或配置）之间的关系
-- **基础镜像影响**：准确查看基础镜像的更改如何影响多个派生镜像
-- **优化机会**：识别可以在镜像变体之间更好利用的共享组件
+这种方法对于以下场景特别有价值：
+- **镜像家族分析**：了解镜像的不同变体（不同版本、架构或配置）之间的关系
+- **基础镜像影响**：精准查看基础镜像的更改如何影响多个派生镜像
+- **优化机会**：识别可以在镜像变体间更好利用的共享组件
 
-![多镜像仓库结构，显示共享基础和分叉分支](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
+![多镜像仓库结构显示共享基础和分叉分支](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
 
 ### 其他使用场景
 
-- **安全审计**：准确识别易受攻击的软件包或配置何时引入，并追溯到具体的构建指令。
-- **镜像优化**：分析层结构，发现冗余操作或可合并的大文件，帮助减小镜像体积。
-- **依赖管理**：监控依赖何时被添加、升级或移除，贯穿整个镜像历史。
-- **构建过程改进**：检查层组成，优化 Dockerfile 指令以实现更好的缓存和更小的镜像大小。
-- **跨镜像对比**：将多个相关镜像转换为 Git 仓库，利用 Git 的对比工具分析它们的差异和共性。
+- **安全审计**：精准识别何时引入了有漏洞的包或配置，并追溯到具体的构建指令。
+- **镜像优化**：分析层结构以发现可合并的冗余操作或大文件，帮助减小镜像体积。
+- **依赖管理**：监控依赖在镜像历史中的添加、升级或移除时间。
+- **构建过程改进**：检查层组成以优化 Dockerfile 指令，实现更好的缓存和更小的镜像体积。
+- **跨镜像对比**：将多个相关镜像转换为 Git 仓库，并使用 Git 的对比工具分析它们的差异与共性。
 
 ## 安装
 
-### 从源码安装
+### 包管理器
 
+#### macOS / Linux (Homebrew)
+
+
+```bash
+brew tap virviil/oci2git
+brew install oci2git
+```
+
+#### Debian / Ubuntu
+
+从[最新发布](https://github.com/virviil/oci2git/releases/latest)下载并安装 .deb 包：
+
+```bash
+# For amd64 (x86_64)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_amd64.deb
+sudo dpkg -i oci2git_VERSION_amd64.deb
+
+# For arm64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_arm64.deb
+sudo dpkg -i oci2git_VERSION_arm64.deb
+```
+
+#### Arch Linux（AUR）
+
+```bash
+# Using yay
+yay -S oci2git-bin
+
+# Using paru
+paru -S oci2git-bin
+
+# Manual installation
+git clone https://aur.archlinux.org/oci2git-bin.git
+cd oci2git-bin
+makepkg -si
+```
+
+### 预编译二进制文件
+
+从[最新发布版本](https://github.com/virviil/oci2git/releases/latest)下载适合您平台的二进制文件：
+
+```bash
+# Linux x86_64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-linux-x86_64.tar.gz
+tar xzf oci2git-linux-x86_64.tar.gz
+sudo mv oci2git-linux-x86_64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+
+# macOS (Apple Silicon)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-darwin-aarch64.tar.gz
+tar xzf oci2git-darwin-aarch64.tar.gz
+sudo mv oci2git-darwin-aarch64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+```
+
+### 来自 Crates.io
+
+```bash
+cargo install oci2git
+```
+
+### 来自源头
 
 ```bash
 # Clone the repository
@@ -142,12 +204,6 @@ cd oci2git
 
 # Install locally
 cargo install --path .
-```
-
-### 来自 Crates.io
-
-```bash
-cargo install oci2git
 ```
 
 ## 用法
@@ -223,6 +279,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

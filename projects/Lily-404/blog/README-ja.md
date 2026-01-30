@@ -39,16 +39,17 @@ Next.js 15+ をベースに構築されたミニマルな個人ブログシス�
 - **フレームワーク**: Next.js 13+ (App Router)
 - **スタイル**: Tailwind CSS
 - **アイコン**: Lucide Icons
-- **テーマ**: ダーク/ライトモード切り替え対応
+- **テーマ**: ダーク/ライトモード切替対応
 - **デプロイ**: Vercel
 
 ## 機能特徴
 
 - 📝 Markdown記事対応
-- 🌓 ダーク/ライトテーマ切り替え
+- 🌓 ダーク/ライトテーマ切替
 - 📱 レスポンシブデザイン
-- ⚡ 高速ロード
+- ⚡ 高速読み込み
 - 📅 記事タイムライン表示
+- 🔐 オンライン管理画面（GitHub APIで直接記事作成）
 
 ## プロジェクト構成
 
@@ -93,11 +94,20 @@ npm run dev
 npm run build
 ```
 
-## 新しい記事を追加する
+## 新しい記事の追加
 
-1. `content/posts` ディレクトリに新しい Markdown ファイルを作成する
-2. ファイル命名規則：xxx.md
-3. ファイルの先頭にメタデータを追加する：
+### 方法1：オンライン管理画面（推奨）
+
+1. `/admin` ページにアクセス
+2. 管理者パスワードでログイン
+3. 記事情報を入力して送信
+4. GitHub API により記事が自動作成され、Vercel が自動で再デプロイ
+
+### 方法2：ファイルを手動で追加
+
+1. `content/posts` ディレクトリに新しい Markdown ファイルを作成
+2. ファイル名の形式：xxx.md`
+3. ファイルの先頭にメタデータを追加：
 
 ```markdown
 ---
@@ -119,21 +129,87 @@ date: YYYY-MM-DD
 ---
 ```
 
-## 部署
+## 管理バックエンドの設定
 
-项目已配置 Vercel 部署，支持自动部署。只需将代码推送到 GitHub 仓库，Vercel 会自动构建和部署。
+管理バックエンドは GitHub OAuth を使用して認証を行い、リポジトリの所有者または協力者のみがアクセスできます。
 
-## 贡献
+### 1. GitHub OAuth アプリの作成
 
-欢迎提交 Issue 和 Pull Request！
+1. [GitHub 設定 > 開発者設定 > OAuth Apps](https://github.com/settings/developers) にアクセス
+2. 「New OAuth App」をクリック
+3. 情報を入力：
+   - **Application name**: `Jimmy Blog Admin`（または任意の名称）
+   - **Homepage URL**: `https://あなたのドメイン.com`（本番環境）または `http://localhost:3000`（ローカル開発）
+   - **Authorization callback URL**: 
+     - 本番環境: `https://あなたのドメイン.com/api/auth/github/callback`
+     - ローカル開発: `http://localhost:3000/api/auth/github/callback`
+4. 「Register application」をクリック
+5. **Client ID** を記録
+6. 「Generate a new client secret」をクリックし、**Client secret** を記録
 
-## 许可证
+### 2. 環境変数の設定
 
-MIT License
+Vercel プロジェクト設定で以下の環境変数を追加：
+
+- `GITHUB_CLIENT_ID`: GitHub OAuth App の Client ID
+- `GITHUB_CLIENT_SECRET`: GitHub OAuth App の Client Secret
+- `GITHUB_OWNER`: GitHub ユーザー名（デフォルト: `Lily-404`、ユーザー権限の検証用）
+- `GITHUB_REPO`: リポジトリ名（デフォルト: `blog`）
+- `GITHUB_REDIRECT_URI`: OAuth コールバック URL（任意、デフォルトは自動生成）
+- `NEXT_PUBLIC_BASE_URL`: サイトの URL（コールバック URL 生成用、本番環境では必須）
+  - 本番環境: `https://www.jimmy-blog.top`
+  - ローカル開発: `http://localhost:3000`
+
+### 3. ローカル開発用設定
+
+プロジェクトのルートディレクトリに `.env.local` ファイルを作成：
+
+```env
+GITHUB_CLIENT_ID=你的Client_ID
+GITHUB_CLIENT_SECRET=你的Client_Secret
+GITHUB_OWNER=Lily-404
+GITHUB_REPO=blog
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+```
+
+### 4. 本番環境の設定（Vercel）
+
+Vercel プロジェクト設定で、以下を必ず設定してください：
+
+```env
+NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
+```
+
+⚠️ **注意**: 
+- `.env.local` ファイルは `.gitignore` に追加されており、Git にコミットされません
+- ローカル開発時は、OAuth App のコールバック URL を `http://localhost:3000/api/auth/github/callback` に設定してください
+- **本番環境では `NEXT_PUBLIC_BASE_URL` を `https://www.jimmy-blog.top` に設定してください**
+- 本番環境の OAuth App コールバック URL は次のように設定してください: `https://www.jimmy-blog.top/api/auth/github/callback`
+
+## デプロイ
+
+本プロジェクトは Vercel デプロイが設定されており、自動デプロイをサポートしています。コードを GitHub リポジトリにプッシュするだけで、Vercel が自動でビルドとデプロイを行います。
+
+### 管理画面を使う利点
+
+- ✅ ローカル開発環境が不要
+- ✅ いつでもどこでも記事を追加できる
+- ✅ Vercel の再デプロイを自動トリガー
+- ✅ 完全無料（GitHub OAuth と Vercel は無料枠内）
+- ✅ 安全（GitHub OAuth 認証、リポジトリ所有者・協力者のみアクセス可能）
+- ✅ パスワード管理不要、GitHub アカウントでログイン可能
+
+## コントリビュート
+
+Issue や Pull Request の提出を歓迎します！
+
+## ライセンス
+
+MIT ライセンス
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

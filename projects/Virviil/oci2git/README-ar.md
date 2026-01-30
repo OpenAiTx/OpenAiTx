@@ -109,29 +109,91 @@ oci2git postgres:16.9-alpine3.21 -o alp
 # Convert second image to the same output folder
 oci2git nginx:1.28.0-alpine-slim -o alp
 ```
-
-يقوم OCI2Git بالكشف تلقائيًا عن الطبقات المشتركة بين الصور وينشئ هيكل تفرع يعكس الأساس المشترك بينها. سيُظهر سجل Git ما يلي:
+يقوم OCI2Git باكتشاف الطبقات المشتركة بين الصور تلقائيًا وينشئ بنية تفريع تعكس القاعدة المشتركة بينها. سيعرض سجل Git ما يلي:
 - جذع مشترك يحتوي على جميع الطبقات المشتركة
-- فروع منفصلة تتباعد فقط عندما تختلف الصور فعليًا
-- تصور واضح لمكان اشتراك الصور في السلف المشترك مقابل مكان تفردها
-- معالجة ذكية للتكرار: إذا تم معالجة نفس الصورة تمامًا مرتين، يكتشف الخوارزم ذلك قبل التزام البيانات الوصفية النهائي ويتخطى إنشاء فرع مكرر
+- فروع منفصلة تتشعب فقط عندما تختلف الصور فعليًا
+- تصور واضح لمواضيع اشتراك الصور في السلالة وأين تصبح فريدة
+- معالجة ذكية للتكرار: إذا تمت معالجة نفس الصورة بالضبط مرتين، يكتشف الخوارزمية ذلك قبل الالتزام النهائي للبيانات الوصفية ويتجنب إنشاء فرع مكرر
 
-هذا النهج ذو قيمة خاصة لـ:
-- **تحليل عائلة الصور**: فهم كيفية ارتباط المتغيرات المختلفة لصورة (إصدارات، معماريات، أو إعدادات مختلفة) ببعضها البعض
-- **تأثير الصورة الأساسية**: رؤية كيف تؤثر التغييرات على صورة أساسية في صور مشتقة متعددة
-- **فرص تحسين**: تحديد المكونات المشتركة التي يمكن الاستفادة منها بشكل أفضل عبر متغيرات الصور
+هذه الطريقة ذات قيمة خاصة من أجل:
+- **تحليل عائلة الصور**: فهم كيفية ارتباط المتغيرات المختلفة من صورة (إصدارات مختلفة، معماريات، أو إعدادات) ببعضها البعض
+- **تأثير الصورة الأساسية**: رؤية كيف تؤثر التغييرات على الصورة الأساسية بالضبط على صور مشتقة متعددة
+- **فرص التحسين**: تحديد المكونات المشتركة التي يمكن الاستفادة منها بشكل أفضل عبر متغيرات الصور
 
-![هيكل مستودع متعدد الصور يُظهر الأساس المشترك والفروع المتباعدة](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
+![هيكل مستودع صور متعددة يُظهر قاعدة مشتركة وفروع متشعبة](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
 
 ### حالات استخدام إضافية
 
-- **تدقيق الأمان**: تحديد بالضبط متى تم إدخال الحزم أو الإعدادات المعرضة للخطر وتتبعها إلى تعليمات البناء المحددة.
-- **تحسين الصور**: تحليل هياكل الطبقات للعثور على العمليات أو الملفات الكبيرة المكررة التي يمكن دمجها، مما يساعد في تقليل حجم الصورة.
-- **إدارة الاعتماديات**: مراقبة متى تمت إضافة أو ترقية أو إزالة الاعتماديات عبر سجل الصورة.
-- **تحسين عملية البناء**: فحص تركيب الطبقات لتحسين تعليمات Dockerfile لتحقيق تخزين مؤقت أفضل وحجم صورة أصغر.
-- **مقارنة الصور المتقاطعة**: تحويل عدة صور ذات صلة إلى مستودعات Git واستخدام أدوات المقارنة في Git لتحليل اختلافاتها وقواسمها المشتركة.
+- **تدقيق الأمان**: تحديد اللحظة التي أُدخلت فيها الحزم أو الإعدادات الضعيفة وتتبعها إلى أوامر البناء المحددة.
+- **تحسين الصور**: تحليل بنية الطبقات لاكتشاف العمليات المتكررة أو الملفات الكبيرة التي يمكن دمجها، مما يساعد في تقليل حجم الصورة.
+- **إدارة التبعيات**: مراقبة متى تمت إضافة التبعيات أو ترقيتها أو إزالتها عبر سجل الصورة.
+- **تحسين عملية البناء**: فحص تكوين الطبقات لتحسين أوامر Dockerfile من أجل تخزين مؤقت أفضل وحجم صورة أصغر.
+- **المقارنة بين الصور**: تحويل صور متعددة ذات صلة إلى مستودعات Git واستخدام أدوات المقارنة الخاصة بـ Git لتحليل اختلافاتها وقواسمها المشتركة.
 
 ## التثبيت
+
+### مدراء الحزم
+
+#### macOS / Linux (Homebrew)
+
+
+```bash
+brew tap virviil/oci2git
+brew install oci2git
+```
+
+#### ديبيان / أوبونتو
+
+قم بتنزيل وتثبيت حزمة .deb من [الإصدار الأخير](https://github.com/virviil/oci2git/releases/latest):
+
+```bash
+# For amd64 (x86_64)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_amd64.deb
+sudo dpkg -i oci2git_VERSION_amd64.deb
+
+# For arm64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_arm64.deb
+sudo dpkg -i oci2git_VERSION_arm64.deb
+```
+
+#### آرش لينكس (AUR)
+
+```bash
+# Using yay
+yay -S oci2git-bin
+
+# Using paru
+paru -S oci2git-bin
+
+# Manual installation
+git clone https://aur.archlinux.org/oci2git-bin.git
+cd oci2git-bin
+makepkg -si
+```
+
+### الثنائيات الجاهزة
+
+قم بتنزيل الثنائي المناسب لمنصتك من [الإصدار الأخير](https://github.com/virviil/oci2git/releases/latest):
+
+```bash
+# Linux x86_64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-linux-x86_64.tar.gz
+tar xzf oci2git-linux-x86_64.tar.gz
+sudo mv oci2git-linux-x86_64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+
+# macOS (Apple Silicon)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-darwin-aarch64.tar.gz
+tar xzf oci2git-darwin-aarch64.tar.gz
+sudo mv oci2git-darwin-aarch64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+```
+
+### من Crates.io
+
+```bash
+cargo install oci2git
+```
 
 ### من المصدر
 
@@ -142,12 +204,6 @@ cd oci2git
 
 # Install locally
 cargo install --path .
-```
-
-### من Crates.io
-
-```bash
-cargo install oci2git
 ```
 
 ## الاستخدام
@@ -223,6 +279,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

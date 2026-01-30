@@ -109,31 +109,93 @@ oci2git postgres:16.9-alpine3.21 -o alp
 # Convert second image to the same output folder
 oci2git nginx:1.28.0-alpine-slim -o alp
 ```
-
 O OCI2Git detecta automaticamente camadas compartilhadas entre imagens e cria uma estrutura de ramificação que reflete sua base comum. O histórico do Git mostrará:
 - Um tronco comum contendo todas as camadas compartilhadas
-- Ramos separados que divergem apenas quando as imagens realmente diferem
+- Ramificações separadas que divergem apenas quando as imagens realmente diferem
 - Visualização clara de onde as imagens compartilham ancestralidade comum versus onde se tornam únicas
-- Manipulação inteligente de duplicatas: se exatamente a mesma imagem for processada duas vezes, o algoritmo detecta isso antes do commit final dos metadados e evita criar um ramo duplicado
+- Manipulação inteligente de duplicatas: se exatamente a mesma imagem for processada duas vezes, o algoritmo detecta isso antes do commit final de metadados e evita criar uma ramificação duplicada
 
-Esta abordagem é especialmente valiosa para:
+Esta abordagem é particularmente valiosa para:
 - **Análise de Família de Imagens**: Entender como diferentes variantes de uma imagem (diferentes versões, arquiteturas ou configurações) se relacionam entre si
-- **Impacto da Imagem Base**: Ver exatamente como alterações em uma imagem base afetam várias imagens derivadas
-- **Oportunidades de Otimização**: Identificar componentes compartilhados que podem ser melhor aproveitados entre variantes de imagens
+- **Impacto da Imagem Base**: Ver exatamente como alterações em uma imagem base afetam múltiplas imagens derivadas
+- **Oportunidades de Otimização**: Identificar componentes compartilhados que poderiam ser melhor aproveitados entre variantes de imagens
 
-![Estrutura de repositório multiimagem mostrando base compartilhada e ramos divergentes](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
+![Estrutura de repositório multi-imagem mostrando base compartilhada e ramificações divergentes](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
 
 ### Casos de Uso Adicionais
 
-- **Auditoria de Segurança**: Identifique exatamente quando pacotes vulneráveis ou configurações foram introduzidos e rastreie-os até instruções específicas de build.
-- **Otimização de Imagem**: Analise estruturas de camadas para encontrar operações redundantes ou arquivos grandes que possam ser consolidados, ajudando a reduzir o tamanho da imagem.
-- **Gerenciamento de Dependências**: Monitore quando dependências foram adicionadas, atualizadas ou removidas ao longo do histórico da imagem.
-- **Melhoria do Processo de Build**: Examine a composição das camadas para otimizar instruções do Dockerfile visando melhor cache e tamanho menor de imagem.
-- **Comparação Entre Imagens**: Converta múltiplas imagens relacionadas em repositórios Git e use as ferramentas de comparação do Git para analisar suas diferenças e similaridades.
+- **Auditoria de Segurança**: Identificar exatamente quando pacotes ou configurações vulneráveis foram introduzidos e rastreá-los até instruções de build específicas.
+- **Otimização de Imagem**: Analisar estruturas de camadas para encontrar operações redundantes ou arquivos grandes que poderiam ser consolidados, ajudando a reduzir o tamanho da imagem.
+- **Gerenciamento de Dependências**: Monitorar quando dependências foram adicionadas, atualizadas ou removidas ao longo do histórico da imagem.
+- **Aprimoramento do Processo de Build**: Examinar a composição das camadas para otimizar instruções do Dockerfile visando melhor cache e menor tamanho de imagem.
+- **Comparação Entre Imagens**: Converter múltiplas imagens relacionadas em repositórios Git e usar as ferramentas de comparação do Git para analisar suas diferenças e semelhanças.
 
 ## Instalação
 
-### A Partir do Código-Fonte
+### Gerenciadores de Pacotes
+
+#### macOS / Linux (Homebrew)
+
+
+```bash
+brew tap virviil/oci2git
+brew install oci2git
+```
+
+#### Debian / Ubuntu
+
+Baixe e instale o pacote .deb da [versão mais recente](https://github.com/virviil/oci2git/releases/latest):
+
+```bash
+# For amd64 (x86_64)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_amd64.deb
+sudo dpkg -i oci2git_VERSION_amd64.deb
+
+# For arm64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_arm64.deb
+sudo dpkg -i oci2git_VERSION_arm64.deb
+```
+
+#### Arch Linux (AUR)
+
+```bash
+# Using yay
+yay -S oci2git-bin
+
+# Using paru
+paru -S oci2git-bin
+
+# Manual installation
+git clone https://aur.archlinux.org/oci2git-bin.git
+cd oci2git-bin
+makepkg -si
+```
+
+### Binários Pré-compilados
+
+Baixe o binário apropriado para sua plataforma na [última versão](https://github.com/virviil/oci2git/releases/latest):
+
+```bash
+# Linux x86_64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-linux-x86_64.tar.gz
+tar xzf oci2git-linux-x86_64.tar.gz
+sudo mv oci2git-linux-x86_64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+
+# macOS (Apple Silicon)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-darwin-aarch64.tar.gz
+tar xzf oci2git-darwin-aarch64.tar.gz
+sudo mv oci2git-darwin-aarch64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+```
+
+### Do Crates.io
+
+```bash
+cargo install oci2git
+```
+
+### Da Fonte
 
 ```bash
 # Clone the repository
@@ -142,12 +204,6 @@ cd oci2git
 
 # Install locally
 cargo install --path .
-```
-
-### Do Crates.io
-
-```bash
-cargo install oci2git
 ```
 
 ## Uso
@@ -223,6 +279,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

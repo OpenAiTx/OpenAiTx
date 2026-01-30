@@ -38,17 +38,18 @@ Minimalistyczny system blogowy oparty na Next.js 15+.
 
 - **Framework**: Next.js 13+ (App Router)
 - **Stylizacja**: Tailwind CSS
-- **Ikona**: Lucide Icons
-- **Motyw**: Obsługa przełączania trybu ciemnego/jasnego
-- **Wdrożenie**: Vercel
+- **Ikony**: Lucide Icons
+- **Motyw**: Obsługa przełączania trybu jasnego/ciemnego
+- **Wdrażanie**: Vercel
 
-## Cechy funkcjonalne
+## Funkcje
 
-- 📝 Wsparcie dla artykułów w Markdown
-- 🌓 Przełączanie motywu ciemnego/jasnego
-- 📱 Responsywny design
+- 📝 Wsparcie dla artykułów Markdown
+- 🌓 Przełączanie motywu jasnego/ciemnego
+- 📱 Projekt responsywny
 - ⚡ Szybkie ładowanie
 - 📅 Wyświetlanie osi czasu artykułów
+- 🔐 Panel zarządzania online (tworzenie artykułów bezpośrednio przez GitHub API)
 
 ## Struktura projektu
 
@@ -95,6 +96,15 @@ npm run build
 
 ## Dodawanie nowego artykułu
 
+### Metoda 1: Panel zarządzania online (zalecana)
+
+1. Przejdź do strony `/admin`
+2. Zaloguj się przy użyciu hasła administratora
+3. Wypełnij informacje o artykule i prześlij
+4. Artykuł zostanie automatycznie utworzony poprzez GitHub API, Vercel automatycznie przeprowadzi redeployment
+
+### Metoda 2: Ręczne dodanie pliku
+
 1. Utwórz nowy plik Markdown w katalogu `content/posts`
 2. Format nazwy pliku: xxx.md`
 3. Dodaj metadane na początku pliku:
@@ -119,21 +129,87 @@ date: YYYY-MM-DD
 ---
 ```
 
-## 部署
+## Konfiguracja panelu administracyjnego
 
-项目已配置 Vercel 部署，支持自动部署。只需将代码推送到 GitHub 仓库，Vercel 会自动构建和部署。
+Panel administracyjny używa GitHub OAuth do uwierzytelniania, dostęp mają tylko właściciele repozytorium lub współpracownicy.
 
-## 贡献
+### 1. Utwórz aplikację GitHub OAuth
 
-欢迎提交 Issue 和 Pull Request！
+1. Wejdź na [GitHub Settings > Developer settings > OAuth Apps](https://github.com/settings/developers)
+2. Kliknij "New OAuth App"
+3. Wypełnij informacje:
+   - **Application name**: `Jimmy Blog Admin` (lub dowolna nazwa)
+   - **Homepage URL**: `https://twojadomena.com` (środowisko produkcyjne) lub `http://localhost:3000` (lokalne środowisko)
+   - **Authorization callback URL**: 
+     - Produkcja: `https://twojadomena.com/api/auth/github/callback`
+     - Lokalnie: `http://localhost:3000/api/auth/github/callback`
+4. Kliknij "Register application"
+5. Zanotuj **Client ID**
+6. Kliknij "Generate a new client secret" i zanotuj **Client secret**
 
-## 许可证
+### 2. Konfiguracja zmiennych środowiskowych
 
-MIT License
+Dodaj poniższe zmienne środowiskowe w ustawieniach projektu Vercel:
+
+- `GITHUB_CLIENT_ID`: Twój Client ID aplikacji GitHub OAuth
+- `GITHUB_CLIENT_SECRET`: Twój Client Secret aplikacji GitHub OAuth
+- `GITHUB_OWNER`: Nazwa użytkownika GitHub (domyślnie: `Lily-404`, używane do weryfikacji uprawnień)
+- `GITHUB_REPO`: Nazwa repozytorium (domyślnie: `blog`)
+- `GITHUB_REDIRECT_URI`: URL callback OAuth (opcjonalnie, domyślnie generowany automatycznie)
+- `NEXT_PUBLIC_BASE_URL`: URL Twojej strony (do generowania callback URL, produkcja musi być ustawiona)
+  - Produkcja: `https://www.jimmy-blog.top`
+  - Lokalnie: `http://localhost:3000`
+
+### 3. Konfiguracja do lokalnego rozwoju
+
+Utwórz plik `.env.local` w katalogu głównym projektu:
+
+```env
+GITHUB_CLIENT_ID=你的Client_ID
+GITHUB_CLIENT_SECRET=你的Client_Secret
+GITHUB_OWNER=Lily-404
+GITHUB_REPO=blog
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+```
+
+### 4. Konfiguracja środowiska produkcyjnego (Vercel)
+
+W ustawieniach projektu Vercel upewnij się, że zostały ustawione:
+
+```env
+NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
+```
+
+⚠️ **Uwaga**: 
+- Plik `.env.local` został dodany do `.gitignore` i nie będzie dodawany do repozytorium Git
+- Podczas lokalnego rozwoju upewnij się, że adres URL powrotu OAuth App ustawiony jest na `http://localhost:3000/api/auth/github/callback`
+- **W środowisku produkcyjnym należy ustawić `NEXT_PUBLIC_BASE_URL` na `https://www.jimmy-blog.top`**
+- Adres URL powrotu OAuth App w produkcji powinien być ustawiony na: `https://www.jimmy-blog.top/api/auth/github/callback`
+
+## Wdrażanie
+
+Projekt jest skonfigurowany do wdrożenia na Vercel i obsługuje automatyczne wdrażanie. Wystarczy wypchnąć kod do repozytorium GitHub, a Vercel automatycznie zbuduje i wdroży projekt.
+
+### Zalety korzystania z panelu administracyjnego
+
+- ✅ Brak konieczności posiadania lokalnego środowiska deweloperskiego
+- ✅ Możliwość dodawania artykułów z dowolnego miejsca i o każdej porze
+- ✅ Automatyczne wyzwalanie ponownego wdrożenia Vercel
+- ✅ Całkowicie za darmo (GitHub OAuth i Vercel w ramach darmowego limitu)
+- ✅ Bezpieczeństwo (weryfikacja GitHub OAuth, dostęp tylko dla właściciela repozytorium/współpracowników)
+- ✅ Brak potrzeby zarządzania hasłami, logowanie za pomocą konta GitHub
+
+## Wkład
+
+Zapraszamy do zgłaszania Issue i Pull Requestów!
+
+## Licencja
+
+Licencja MIT
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

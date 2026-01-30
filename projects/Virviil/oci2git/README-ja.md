@@ -109,31 +109,93 @@ oci2git postgres:16.9-alpine3.21 -o alp
 # Convert second image to the same output folder
 oci2git nginx:1.28.0-alpine-slim -o alp
 ```
-OCI2Gitは、イメージ間の共有レイヤーを自動的に検出し、それらの共通のベースを反映したブランチ構造を作成します。Gitの履歴には以下が表示されます：
+OCI2Gitは、イメージ間で共有されているレイヤーを自動的に検出し、それらの共通ベースを反映した分岐構造を作成します。Gitの履歴には以下が表示されます：
 - すべての共有レイヤーを含む共通の幹
-- イメージが実際に異なる場合にのみ分岐する個別のブランチ
-- イメージが共通の祖先を共有する部分と、独自の部分が明確に視覚化される
-- 賢い重複処理：まったく同じイメージが二度処理された場合、最終的なメタデータコミットの前にこれを検出し、重複したブランチの作成をスキップ
+- 実際にイメージが異なる場合のみ分岐する個別のブランチ
+- イメージがどこで共通の祖先を持ち、どこでユニークになるかの明確な可視化
+- スマートな重複処理：全く同じイメージが2回処理された場合、アルゴリズムは最終的なメタデータコミット前にこれを検出し、重複ブランチの作成をスキップします
 
-このアプローチは特に次の点で有用です：
-- **イメージファミリー分析**：異なるバージョン、アーキテクチャ、または構成など、イメージの異なるバリアントが互いにどのように関連しているかを理解する
-- **ベースイメージの影響**：ベースイメージの変更が複数の派生イメージにどのように影響するかを正確に把握する
-- **最適化の機会**：イメージバリアント間でより良く活用できる共有コンポーネントを特定する
+このアプローチは特に以下の場合に有用です：
+- **イメージファミリー分析**：イメージの異なるバリアント（バージョン、アーキテクチャ、設定）がどのように相互に関連しているかの理解
+- **ベースイメージの影響**：ベースイメージの変更が複数の派生イメージにどのように影響するかを正確に把握
+- **最適化の機会**：イメージバリアント間でより有効活用できる共有コンポーネントの特定
 
 ![共有ベースと分岐するブランチを示すマルチイメージリポジトリ構造](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)
 
-### 追加のユースケース
+### 追加ユースケース
 
-- **セキュリティ監査**：脆弱なパッケージや設定が正確にいつ導入されたかを特定し、特定のビルド指示に遡ることができる。
-- **イメージ最適化**：レイヤー構造を分析して冗長な操作や統合可能な大きなファイルを見つけ、イメージサイズの削減に役立てる。
-- **依存関係管理**：依存関係がイメージ履歴のどの時点で追加、アップグレード、または削除されたかを監視する。
-- **ビルドプロセスの改善**：レイヤー構成を検証してDockerfileの指示を最適化し、キャッシュ効率とイメージサイズの縮小を図る。
-- **クロスイメージ比較**：複数の関連イメージをGitリポジトリに変換し、Gitの比較ツールを使って差異と共通点を分析する。
+- **セキュリティ監査**：脆弱なパッケージや設定がいつ導入されたかを正確に特定し、それを特定のビルド命令まで遡ることができます。
+- **イメージ最適化**：レイヤー構造を分析し、冗長な操作や統合可能な大きなファイルを特定してイメージサイズの削減に役立てます。
+- **依存関係管理**：イメージ履歴全体で依存関係が追加、アップグレード、削除されたタイミングを監視します。
+- **ビルドプロセス改善**：レイヤー構成を検証し、より良いキャッシュや小さいイメージサイズのためにDockerfile命令を最適化します。
+- **クロスイメージ比較**：複数の関連イメージをGitリポジトリに変換し、Gitの比較ツールを使って相違点や共通点を分析します。
 
 ## インストール
 
-### ソースからのインストール
+### パッケージマネージャー
 
+#### macOS / Linux（Homebrew）
+
+
+```bash
+brew tap virviil/oci2git
+brew install oci2git
+```
+
+#### Debian / Ubuntu
+
+[最新リリース](https://github.com/virviil/oci2git/releases/latest)から.debパッケージをダウンロードしてインストールします。
+
+```bash
+# For amd64 (x86_64)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_amd64.deb
+sudo dpkg -i oci2git_VERSION_amd64.deb
+
+# For arm64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_arm64.deb
+sudo dpkg -i oci2git_VERSION_arm64.deb
+```
+
+#### Arch Linux（AUR）
+
+```bash
+# Using yay
+yay -S oci2git-bin
+
+# Using paru
+paru -S oci2git-bin
+
+# Manual installation
+git clone https://aur.archlinux.org/oci2git-bin.git
+cd oci2git-bin
+makepkg -si
+```
+
+### 事前構築済みバイナリ
+
+ご利用のプラットフォームに適したバイナリを[最新リリース](https://github.com/virviil/oci2git/releases/latest)からダウンロードしてください:
+
+```bash
+# Linux x86_64
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-linux-x86_64.tar.gz
+tar xzf oci2git-linux-x86_64.tar.gz
+sudo mv oci2git-linux-x86_64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+
+# macOS (Apple Silicon)
+wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-darwin-aarch64.tar.gz
+tar xzf oci2git-darwin-aarch64.tar.gz
+sudo mv oci2git-darwin-aarch64 /usr/local/bin/oci2git
+chmod +x /usr/local/bin/oci2git
+```
+
+### Crates.ioからの入手方法
+
+```bash
+cargo install oci2git
+```
+
+### ソースから
 
 ```bash
 # Clone the repository
@@ -142,12 +204,6 @@ cd oci2git
 
 # Install locally
 cargo install --path .
-```
-
-### Crates.ioからの入手方法
-
-```bash
-cargo install oci2git
 ```
 
 ## 使用方法
@@ -223,6 +279,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---

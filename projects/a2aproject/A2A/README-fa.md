@@ -1,7 +1,125 @@
-## زبان‌های دیگر پس از وارد کردن OpenAiTx به پروژه باز خواهند شد
+# پروتکل Agent2Agent (A2A)
+
+[![PyPI - Version](https://img.shields.io/pypi/v/a2a-sdk)](https://pypi.org/project/a2a-sdk)
+[![Apache License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+<a href="https://codewiki.google/github.com/a2aproject/a2a">
+  <img src="https://www.gstatic.com/_/boq-sdlc-agents-ui/_/r/Mvosg4klCA4.svg" alt="Ask Code Wiki" height="20">
+</a>
+
+<div style="text-align: left;">
+  <details>
+    <summary>🌐 زبان</summary>
+    <div>
+      <div style="text-align: center;">
+        <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=a2aproject&project=A2A&lang=as">অসমীয়া</a>
+      </div>
+    </div>
+  </details>
+</div>
+
+<!-- markdownlint-disable MD041 -->
+<div style="text-align: center;">
+  <div class="centered-logo-text-group">
+    <img src="https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg" alt="لوگوی پروتکل Agent2Agent" width="100">
+    <h1>پروتکل Agent2Agent (A2A)</h1>
+  </div>
+</div>
+
+**یک پروتکل باز برای ایجاد ارتباط و تعامل‌پذیری بین برنامه‌های عامل‌محور و غیرشفاف.**
+
+پروتکل Agent2Agent (A2A) به یک چالش اساسی در حوزه هوش مصنوعی می‌پردازد: امکان‌پذیر ساختن ارتباط و همکاری بین عامل‌های تولیدی هوش مصنوعی که بر بستر چارچوب‌های مختلف توسط شرکت‌های مختلف و روی سرورهای جداگانه اجرا می‌شوند - به عنوان عامل، نه صرفاً ابزار. هدف A2A ارائه زبانی مشترک برای عامل‌ها است تا اکوسیستم هوش مصنوععی پیوسته‌تر، قدرتمندتر و نوآورانه‌تر فراهم کند.
+
+با A2A، عامل‌ها می‌توانند:
+
+- قابلیت‌های یکدیگر را کشف کنند.
+- درباره شیوه تعامل (متن، فرم‌ها، رسانه) مذاکره کنند.
+- به صورت امن روی وظایف طولانی مدت همکاری کنند.
+- بدون افشای وضعیت داخلی، حافظه یا ابزارهای خود فعالیت کنند.
+
+## ویدئوی معرفی A2A
+
+[![A2A Intro Video](https://img.youtube.com/vi/Fbr_Solax1w/hqdefault.jpg)](https://goo.gle/a2a-video)
+
+## چرا A2A؟
+
+با فراگیر شدن عامل‌های هوش مصنوعی، توانایی آن‌ها برای تعامل متقابل، کلید ساخت برنامه‌های پیچیده و چندمنظوره است. اهداف A2A عبارتند از:
+
+- **شکستن دیوارهای جداکننده:** اتصال عامل‌ها در اکوسیستم‌های مختلف.
+- **امکان همکاری پیچیده:** اجازه به عامل‌های تخصصی برای همکاری روی وظایفی که یک عامل به تنهایی قادر به انجام آن نیست.
+- **ترویج استانداردهای باز:** ایجاد رویکردی مبتنی بر جامعه برای ارتباط عامل‌ها به منظور نوآوری و پذیرش گسترده‌تر.
+- **حفظ عدم شفافیت:** فراهم کردن امکان همکاری عامل‌ها بدون نیاز به اشتراک حافظه داخلی، منطق اختصاصی یا پیاده‌سازی ابزارهای خاص، و در نتیجه افزایش امنیت و محافظت از مالکیت فکری.
+
+### ویژگی‌های کلیدی
+
+- **ارتباط استاندارد:** JSON-RPC 2.0 بر بستر HTTP(S).
+- **کشف عامل:** از طریق "کارت‌های عامل" که قابلیت‌ها و اطلاعات اتصال را شرح می‌دهند.
+- **تعامل انعطاف‌پذیر:** پشتیبانی از درخواست/پاسخ همزمان، استریم (SSE) و اعلان‌های پوش ناهمزمان.
+- **تبادل داده غنی:** پشتیبانی از متن، فایل و داده ساختاریافته JSON.
+- **مناسب برای سازمان‌ها:** طراحی شده با تمرکز بر امنیت، احراز هویت و قابلیت نظارت.
+
+## شروع کار
+
+- 📚 **مستندات را بررسی کنید:** برای مشاهده کامل، مشخصات پروتکل، آموزش‌ها و راهنماها به [سایت مستندات پروتکل Agent2Agent](https://a2a-protocol.org) مراجعه کنید.
+- 📝 **مشخصات را ببینید:** [مشخصات پروتکل A2A](https://a2a-protocol.org/latest/specification/)
+- از SDKها استفاده کنید:
+    - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`
+    - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`
+    - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`
+    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) با استفاده از maven
+    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) با استفاده از [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`
+- 🎬 از [نمونه‌ها](https://github.com/a2aproject/a2a-samples) ما برای مشاهده عملکرد A2A استفاده کنید
+
+## مشارکت
+
+ما از مشارکت جامعه برای بهبود و توسعه پروتکل A2A استقبال می‌کنیم!
+
+- **سوالات و گفتگوها:** به [گفتگوهای GitHub ما](https://github.com/a2aproject/A2A/discussions) بپیوندید.
+- **گزارش مشکل و بازخورد:** مشکلات را گزارش دهید یا پیشنهادات خود را از طریق [GitHub Issues](https://github.com/a2aproject/A2A/issues) ارائه دهید.
+- **راهنمای مشارکت:** برای جزئیات نحوه مشارکت، [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) ما را ببینید.
+- **بازخورد خصوصی:** از این [فرم گوگل](https://goo.gle/a2a-feedback) استفاده کنید.
+- **برنامه همکاری:** مشتریان Google Cloud می‌توانند از طریق این [فرم](https://goo.gle/a2a-partner) به برنامه همکاری ما بپیوندند.
+
+## چه چیزی در آینده است
+
+### ارتقاء پروتکل
+
+- **کشف عامل:**
+    - افزودن رسمی طرح‌های مجوزدهی و اعتبارنامه‌های اختیاری مستقیماً درون `AgentCard`.
+- **همکاری عامل‌ها:**
+    - بررسی یک متد `QuerySkill()` برای بررسی پویا مهارت‌های پشتیبانی نشده یا غیرمنتظره.
+- **چرخه عمر وظیفه و تجربه کاربری:**
+    - پشتیبانی از مذاکره تجربه کاربری پویا _درون_ یک وظیفه (مثلاً افزودن صوت/تصویر توسط عامل در میانه گفتگو).
+- **متدهای کلاینت و انتقال:**
+    - بررسی گسترش پشتیبانی از متدهای آغاز شده توسط کلاینت (فراتر از مدیریت وظیفه).
+    - بهبود قابلیت اطمینان جریان و مکانیزم‌های اعلان‌های پوش.
+
+## درباره
+
+پروتکل A2A یک پروژه متن‌باز تحت بنیاد لینوکس است که توسط گوگل ارائه شده است. این پروژه تحت [مجوز Apache 2.0](LICENSE) منتشر شده و برای مشارکت جامعه باز است.
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
 
 ---
