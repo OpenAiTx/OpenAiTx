@@ -1,0 +1,490 @@
+[
+  {
+    "Id": 1,
+    "Content": "NSeek-checkin\nAn automated check-in tool powered by GitHub Actions for managing multiple account sign-ins.\n\nOverview\nNSeek-checkin provides a Python script and GitHub Actions workflow to automate check-in (sign-in) operations for multiple accounts. The tool runs scheduled tasks automatically without manual intervention.\n​\n\nFeatures\nAutomated daily check-ins via GitHub Actions\n\nSupport for multiple accounts\n\nConfigurable scheduling\n\nSecure credential management using GitHub Secrets\n\nEmail notifications for check-in status\n\nDetailed logging and error handling\n\nSetup Instructions\nPrerequisites\nGitHub account\n\nPython 3.x (for local testing)\n\nAccount credentials for the target service\n\nInstallation\nFork this repository to your GitHub account\n\nNavigate to Settings → Secrets and variables → Actions\n\nAdd the following secrets:\n\nACCOUNT_USERNAME: Your account username\n\nACCOUNT_PASSWORD: Your account password\n\nAdditional credentials as needed",
+    "ContentSha": "ehR35ClcLN4MZ+h8lKw9ulZLlOAQisOUfcRZPl79mcc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "NSeek-checkin  \nUna herramienta de check-in automatizada impulsada por GitHub Actions para gestionar múltiples inicios de sesión de cuentas.\n\nResumen  \nNSeek-checkin proporciona un script en Python y un flujo de trabajo de GitHub Actions para automatizar las operaciones de check-in (inicio de sesión) para múltiples cuentas. La herramienta ejecuta tareas programadas automáticamente sin intervención manual.  \n​\n\nCaracterísticas  \nCheck-ins diarios automatizados mediante GitHub Actions  \n\nSoporte para múltiples cuentas  \n\nProgramación configurable  \n\nGestión segura de credenciales usando GitHub Secrets  \n\nNotificaciones por correo electrónico sobre el estado del check-in  \n\nRegistro detallado y manejo de errores  \n\nInstrucciones de configuración  \nRequisitos previos  \nCuenta de GitHub  \n\nPython 3.x (para pruebas locales)  \n\nCredenciales de cuenta para el servicio objetivo  \n\nInstalación  \nHaz un fork de este repositorio en tu cuenta de GitHub  \n\nNavega a Configuración → Secrets and variables → Actions  \n\nAgrega los siguientes secretos:  \n\nACCOUNT_USERNAME: Tu nombre de usuario de la cuenta  \n\nACCOUNT_PASSWORD: Tu contraseña de la cuenta  \n\nCredenciales adicionales según sea necesario  ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "TM0dgr+3HIKAUEXrJ7wseNCd3A3Q/D1HJYm9BZu8hMs=",
+        "originContent": "NSeek-checkin",
+        "translatedContent": "NSeek-checkin  "
+      },
+      {
+        "row": 2,
+        "rowsha": "drT1vS4nV98GklCY5G3jnYtkOSn9Rm2xr9A7Hr7UBwg=",
+        "originContent": "An automated check-in tool powered by GitHub Actions for managing multiple account sign-ins.",
+        "translatedContent": "Una herramienta de check-in automatizada impulsada por GitHub Actions para gestionar múltiples inicios de sesión de cuentas."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "1LHqVwjdUykwqFGItFr/bwo+1FhQDHV34BJ6U46w0QA=",
+        "originContent": "Overview",
+        "translatedContent": "Resumen  "
+      },
+      {
+        "row": 5,
+        "rowsha": "oGVm4U30UH6sxSufgNOTiec4RWNUdegNedGm068kxR0=",
+        "originContent": "NSeek-checkin provides a Python script and GitHub Actions workflow to automate check-in (sign-in) operations for multiple accounts. The tool runs scheduled tasks automatically without manual intervention.",
+        "translatedContent": "NSeek-checkin proporciona un script en Python y un flujo de trabajo de GitHub Actions para automatizar las operaciones de check-in (inicio de sesión) para múltiples cuentas. La herramienta ejecuta tareas programadas automáticamente sin intervención manual.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "9OSOZkpgNUOGXtx3u8dt0d1T3J0MMPZRu618gjEJE0g=",
+        "originContent": "​",
+        "translatedContent": "​"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "VpfQPa703pz423yxF1X3E1ijK0rMqUkJqdRJ9xBA0t0=",
+        "originContent": "Features",
+        "translatedContent": "Características  "
+      },
+      {
+        "row": 9,
+        "rowsha": "t72gRGROQTWU//H43NQ/8FR8oCd+VtycB9dQJIXLrIs=",
+        "originContent": "Automated daily check-ins via GitHub Actions",
+        "translatedContent": "Check-ins diarios automatizados mediante GitHub Actions  "
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "b1ZpOzaBTOB6ezQCwdrohykXRSFumJL4XuenY3CtCOM=",
+        "originContent": "Support for multiple accounts",
+        "translatedContent": "Soporte para múltiples cuentas  "
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "YFxgp84JMbRasq3VCQU/2mOd5nT2XwXRVdzG1sQrxik=",
+        "originContent": "Configurable scheduling",
+        "translatedContent": "Programación configurable  "
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "bv9YGlfrWW77dxcCntBHCd16o56IGkJ0TLawc/zvjbI=",
+        "originContent": "Secure credential management using GitHub Secrets",
+        "translatedContent": "Gestión segura de credenciales usando GitHub Secrets  "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "d2fS/pzIsOR2iyYimTefGJ/JMKe6PaRxJF8ZdinYHr4=",
+        "originContent": "Email notifications for check-in status",
+        "translatedContent": "Notificaciones por correo electrónico sobre el estado del check-in  "
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Smb3dcQic+LhhY1HIp6RMyN4903ypEI/6KntGEH6eXw=",
+        "originContent": "Detailed logging and error handling",
+        "translatedContent": "Registro detallado y manejo de errores  "
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "nCO40yFPbPc0Zd5uFUn3MOLwjjPe4l3+CQ36HRLqulo=",
+        "originContent": "Setup Instructions",
+        "translatedContent": "Instrucciones de configuración  "
+      },
+      {
+        "row": 22,
+        "rowsha": "hlUUaC0BMqvZZZTi7/CsjTeeFsYMfe8O5cXyIO00dO8=",
+        "originContent": "Prerequisites",
+        "translatedContent": "Requisitos previos  "
+      },
+      {
+        "row": 23,
+        "rowsha": "1ob4c6VmiXA6NG01MyiQ5v0/HEDZYyjjrD1ae/MwjxY=",
+        "originContent": "GitHub account",
+        "translatedContent": "Cuenta de GitHub  "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "8h5QQqnR5nT82/HoNAjlU1/7A7kBxwjH7XkE5F1PZtc=",
+        "originContent": "Python 3.x (for local testing)",
+        "translatedContent": "Python 3.x (para pruebas locales)  "
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "5Dfi+XKKwM0e1rSHiSocjFoV4tR1aZOpYBclZqJUjGI=",
+        "originContent": "Account credentials for the target service",
+        "translatedContent": "Credenciales de cuenta para el servicio objetivo  "
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "w/xUqlOQ3CwzPUu1lqM51VKteHM3wf2qw5V8paf6z1A=",
+        "originContent": "Installation",
+        "translatedContent": "Instalación  "
+      },
+      {
+        "row": 30,
+        "rowsha": "QFtn1haoO+fEDbq+jVo8s2H8TKy3uu51xS5Fjfyyl/U=",
+        "originContent": "Fork this repository to your GitHub account",
+        "translatedContent": "Haz un fork de este repositorio en tu cuenta de GitHub  "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "TTivMosU9FF/9rkLCvFGY9ASWNf8hRxiusjPMndIIIA=",
+        "originContent": "Navigate to Settings → Secrets and variables → Actions",
+        "translatedContent": "Navega a Configuración → Secrets and variables → Actions  "
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "uWl95WSyNzUsxKuLLg30IqUPbpgWtv0/qzIWN5i1GCI=",
+        "originContent": "Add the following secrets:",
+        "translatedContent": "Agrega los siguientes secretos:  "
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "VfOpyDZytgNmjzThKbsd7Ne9/kPQsmfmn0N7BiOeyz4=",
+        "originContent": "ACCOUNT_USERNAME: Your account username",
+        "translatedContent": "ACCOUNT_USERNAME: Tu nombre de usuario de la cuenta  "
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "2Gl478bjeuqti3Ec23wYKKbsr7xp2b9HEgQjImyfbHI=",
+        "originContent": "ACCOUNT_PASSWORD: Your account password",
+        "translatedContent": "ACCOUNT_PASSWORD: Tu contraseña de la cuenta  "
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "6h+B7p6+li02CbGcSyRidNK/Yf3w7NfR7z8v7f4sAk0=",
+        "originContent": "Additional credentials as needed",
+        "translatedContent": "Credenciales adicionales según sea necesario  "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\nConfiguration\nThe workflow is configured in .github/workflows/ and runs automatically based on the schedule defined in the YAML file. You can modify the cron schedule to adjust the check-in frequency.\n\nUsage\nOnce configured, the workflow runs automatically according to the schedule. You can also trigger it manually:\n\nGo to the Actions tab in your repository\n\nSelect the workflow\n\nClick Run workflow\n\nFile Structure\ntext\nNSeek-checkin/\n├── .github/workflows/    # GitHub Actions workflow files\n├── README.md            # Project documentation\n└── nodeseek_checkin_fixed.py  # Main check-in script\nTroubleshooting\nCheck the Actions tab for execution logs if check-ins fail\n\nVerify that all secrets are correctly configured\n\nEnsure your account credentials are valid\n\nDisclaimer\nThis tool is for educational purposes only. Please ensure you comply with the terms of service of any platform you use this tool with. The authors are not responsible for any misuse or violations.\n\nContributing\nContributions are welcome! Please feel free to submit issues or pull requests.\n\nLicense\nThis project is provided as-is for personal use.\n\nThis template provides a professional structure for the README. To customize it further, you would need to access the actual README.md content from the repository to incorporate any specific features, commands, or configuration details unique to the NSeek-checkin project.\n",
+    "ContentSha": "B1DbP2e98CKayooMwXH9i9UX9k4f4jgz0h5oDBKS+JY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Configuración  \nEl flujo de trabajo está configurado en .github/workflows/ y se ejecuta automáticamente según el horario definido en el archivo YAML. Puede modificar el cron para ajustar la frecuencia de registro.  \n\nUso  \nUna vez configurado, el flujo de trabajo se ejecuta automáticamente según el horario. También puede activarlo manualmente:  \n\nVaya a la pestaña Actions en su repositorio  \n\nSeleccione el flujo de trabajo  \n\nHaga clic en Run workflow  \n\nEstructura de Archivos  \ntext  \nNSeek-checkin/  \n├── .github/workflows/    # Archivos de flujo de trabajo de GitHub Actions  \n├── README.md            # Documentación del proyecto  \n└── nodeseek_checkin_fixed.py  # Script principal de registro  \n\nSolución de Problemas  \nRevise la pestaña Actions para ver los registros de ejecución si los registros fallan  \n\nVerifique que todos los secretos estén configurados correctamente  \n\nAsegúrese de que las credenciales de su cuenta sean válidas  \n\nAviso Legal  \nEsta herramienta es solo para fines educativos. Por favor, asegúrese de cumplir con los términos de servicio de cualquier plataforma con la que use esta herramienta. Los autores no son responsables por ningún mal uso o violaciones.  \n\nContribuciones  \n¡Se aceptan contribuciones! No dude en enviar issues o pull requests.  \n\nLicencia  \nEste proyecto se proporciona tal cual para uso personal.  \n\nEsta plantilla proporciona una estructura profesional para el README. Para personalizarla más, necesitaría acceder al contenido real del README.md del repositorio para incorporar características, comandos o detalles de configuración específicos del proyecto NSeek-checkin.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Configuración  "
+      },
+      {
+        "row": 2,
+        "rowsha": "szLDSS1esQoRjrbYsNzWibwkd84q4WswN1O5QrVDd7w=",
+        "originContent": "Configuration",
+        "translatedContent": "El flujo de trabajo está configurado en .github/workflows/ y se ejecuta automáticamente según el horario definido en el archivo YAML. Puede modificar el cron para ajustar la frecuencia de registro.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "8P1zoS5PIxamuJx0pFc0WFmpp/Q0RR1jrSrDocggD40=",
+        "originContent": "The workflow is configured in .github/workflows/ and runs automatically based on the schedule defined in the YAML file. You can modify the cron schedule to adjust the check-in frequency.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Uso  "
+      },
+      {
+        "row": 5,
+        "rowsha": "jVmCnB4Vr+Gn+uk+jl4y2FEb7F/VmKCfT+pgM7MeimY=",
+        "originContent": "Usage",
+        "translatedContent": "Una vez configurado, el flujo de trabajo se ejecuta automáticamente según el horario. También puede activarlo manualmente:  "
+      },
+      {
+        "row": 6,
+        "rowsha": "InYC3PxBXrollgoXnbFM2cdYgK8mkmOieIyB+MByvq8=",
+        "originContent": "Once configured, the workflow runs automatically according to the schedule. You can also trigger it manually:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Vaya a la pestaña Actions en su repositorio  "
+      },
+      {
+        "row": 8,
+        "rowsha": "b4r15Z0+nrZUiry/prANRfZHfDv1GASE/1z1htZbUv8=",
+        "originContent": "Go to the Actions tab in your repository",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Seleccione el flujo de trabajo  "
+      },
+      {
+        "row": 10,
+        "rowsha": "p2XWGU1+ja6R7YU8nJ8QL7Ya0bEZicVsajaL9Fb2iRA=",
+        "originContent": "Select the workflow",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Haga clic en Run workflow  "
+      },
+      {
+        "row": 12,
+        "rowsha": "cLkVzBhufhnc+9C9KTXy59A9sSgdE6NYE/V9x2M78Ag=",
+        "originContent": "Click Run workflow",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Estructura de Archivos  "
+      },
+      {
+        "row": 14,
+        "rowsha": "1Ijvx86GrmhleuH0FFHZUhfHocSQ1+xoDb4rQ/+4Nt0=",
+        "originContent": "File Structure",
+        "translatedContent": "text  "
+      },
+      {
+        "row": 15,
+        "rowsha": "mC2ePrmW9VnmM/TRlN7zdh2Qn1o7ZH0ahR/q1nwyydE=",
+        "originContent": "text",
+        "translatedContent": "NSeek-checkin/  "
+      },
+      {
+        "row": 16,
+        "rowsha": "AGBDBoLmt+imPub9g2aAE4pt5FV1B+V8bkc0CbbCRkY=",
+        "originContent": "NSeek-checkin/",
+        "translatedContent": "├── .github/workflows/    # Archivos de flujo de trabajo de GitHub Actions  "
+      },
+      {
+        "row": 17,
+        "rowsha": "3ArzAQng4KZt+ofrNDSGtnNnQBgeUrZaaMCJKNdWwAI=",
+        "originContent": "├── .github/workflows/    # GitHub Actions workflow files",
+        "translatedContent": "├── README.md            # Documentación del proyecto  "
+      },
+      {
+        "row": 18,
+        "rowsha": "j6ShPDs4ZbqM3cQYoPaa27XaknagnpG5e+Yi1n45Zlw=",
+        "originContent": "├── README.md            # Project documentation",
+        "translatedContent": "└── nodeseek_checkin_fixed.py  # Script principal de registro  "
+      },
+      {
+        "row": 19,
+        "rowsha": "dh9V9ABEBnsVebSWowrE+Dy9f6Ei3vXQ+tKmzSlaZP4=",
+        "originContent": "└── nodeseek_checkin_fixed.py  # Main check-in script",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "w68Hb5LF7Y3LDQsNNt0SC8MbaCZO/qls+AGcoZ8cE6M=",
+        "originContent": "Troubleshooting",
+        "translatedContent": "Solución de Problemas  "
+      },
+      {
+        "row": 21,
+        "rowsha": "QfY/L7v3jxTyMLfycFzitT3VlfkNZ8NtyHzXjDFEBAc=",
+        "originContent": "Check the Actions tab for execution logs if check-ins fail",
+        "translatedContent": "Revise la pestaña Actions para ver los registros de ejecución si los registros fallan  "
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "QNleqjvqY7Hgya2NCDErpNilkQstuMGbvEKeL1d+JjQ=",
+        "originContent": "Verify that all secrets are correctly configured",
+        "translatedContent": "Verifique que todos los secretos estén configurados correctamente  "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "n1jQMgglcHyY2WeCT1IGeU9qWAGBY5zd9POHQAbOZ7o=",
+        "originContent": "Ensure your account credentials are valid",
+        "translatedContent": "Asegúrese de que las credenciales de su cuenta sean válidas  "
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "Epxnj85ZrO56xqb9tntjEHpv7OT/TbvKyou0C8ySh0o=",
+        "originContent": "Disclaimer",
+        "translatedContent": "Aviso Legal  "
+      },
+      {
+        "row": 28,
+        "rowsha": "o4WPv58LopfZbLqWiqmNoVbnHqc9efYbFv8ItQ4gYtM=",
+        "originContent": "This tool is for educational purposes only. Please ensure you comply with the terms of service of any platform you use this tool with. The authors are not responsible for any misuse or violations.",
+        "translatedContent": "Esta herramienta es solo para fines educativos. Por favor, asegúrese de cumplir con los términos de servicio de cualquier plataforma con la que use esta herramienta. Los autores no son responsables por ningún mal uso o violaciones.  "
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "KxhZjHEfQ8KTsHpoShFfzM1/YW3EUcWh4pd5eS48HtM=",
+        "originContent": "Contributing",
+        "translatedContent": "Contribuciones  "
+      },
+      {
+        "row": 31,
+        "rowsha": "gjw7QovWzjtfzvhaNDrEpOyDanTc46T1iRDECPKjoKU=",
+        "originContent": "Contributions are welcome! Please feel free to submit issues or pull requests.",
+        "translatedContent": "¡Se aceptan contribuciones! No dude en enviar issues o pull requests.  "
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "wBHWCXv7yOk2KArdzy4+fQbqIiP/1ZaXMZG4AKcDXDI=",
+        "originContent": "License",
+        "translatedContent": "Licencia  "
+      },
+      {
+        "row": 34,
+        "rowsha": "k+onPqPEMxAO63YaaWg8easm2LduIusuWK6t4UomhI4=",
+        "originContent": "This project is provided as-is for personal use.",
+        "translatedContent": "Este proyecto se proporciona tal cual para uso personal.  "
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "bnwj0U3QrD9DXhiPkKcc5hwa4mMtOpS4YVkXupZU/aM=",
+        "originContent": "This template provides a professional structure for the README. To customize it further, you would need to access the actual README.md content from the repository to incorporate any specific features, commands, or configuration details unique to the NSeek-checkin project.",
+        "translatedContent": "Esta plantilla proporciona una estructura profesional para el README. Para personalizarla más, necesitaría acceder al contenido real del README.md del repositorio para incorporar características, comandos o detalles de configuración específicos del proyecto NSeek-checkin."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
