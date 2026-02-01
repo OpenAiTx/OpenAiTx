@@ -70,15 +70,11 @@ zyfun是一款免费、极简、全能的跨平台影音管家，一站式管理
 <details>
 <summary>展开查看软件截图</summary>
 
-|                            影视(首页)                            |                            影视(搜索)                            |
-| :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-| ![影视-首页](https://s2.loli.net/2024/07/20/T8diRvA1q2QaJmP.png) | ![影视-搜索](https://s2.loli.net/2024/07/20/utwCUsVG6c7ShRJ.png) |
-|                            影视(播放)                            |                            解析(首页)                            |
-| ![影视播放](https://s2.loli.net/2024/07/20/DNFBu3LphASROVy.png)  | ![解析-首页](https://s2.loli.net/2024/07/20/JZANVebW4EHOU7I.png) |
-|                            直播(首页)                            |                            直播(播放)                            |
-| ![直播-首页](https://s2.loli.net/2024/07/20/ucxSw3nR2EahG59.png) | ![直播-播放](https://s2.loli.net/2024/07/20/jYEFc6NOwtdWJBV.png) |
-|                             历史记录                             |                               设置                               |
-| ![历史记录](https://s2.loli.net/2024/07/20/DiYsx4fbcH3KU6T.png)  |   ![设置](https://s2.loli.net/2024/07/20/QeaDxZ2IYCFoVki.png)    |
+|                    影视                     |                   直播                   |
+| :-----------------------------------------: | :--------------------------------------: |
+|  ![影视](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-film.png)   | ![直播](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-live.png) |
+|                  **历史**                   |                 **播放**                 |
+| ![历史](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-history.png) | ![播放](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-play.png) |
 
 </details>
 
@@ -127,7 +123,7 @@ sudo xattr -cr /Applications/zyfun.app
 > Running as root without --no-sandbox is not supported
 
 ```bash
-./文件名.AppImage --no-sandbox
+./zyfun.AppImage --no-sandbox
 ```
 
 > dlopen()：error loading libfuse.so.2
@@ -142,7 +138,7 @@ sudo apt-get install libfuse2
 xhost +
 ```
 
-### Linux deb安装失败
+### Linux deb包安装失败
 
 > Package libnss3-1d is not installed
 
@@ -154,6 +150,21 @@ sudo apt-get install libnss3-1d
 
 ```bash
 sudo apt-get install libxss1
+```
+
+### Linux rpm包安装失败
+
+> Dependency check failed libXScrnSaver is needed
+
+```bash
+sudo yum install epel-release
+sudo yum install libXScrnSaver
+```
+
+> Dependency check failed xdg-utils is needed
+
+```bash
+sudo yum install xdg-utils
 ```
 
 ## 📚 数据结构

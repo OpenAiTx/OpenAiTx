@@ -65,57 +65,53 @@
 
 # Giới thiệu phần mềm
 
-zyfun là một phần mềm quản lý đa phương tiện miễn phí, tối giản, toàn năng và đa nền tảng, hỗ trợ quản lý mọi loại tài nguyên T1-T4 chỉ trong một nơi. Tích hợp sẵn trình phát đa lõi có thể chuyển đổi linh hoạt. Phím tắt độc quyền giúp ẩn ứng dụng ngay lập tức, thoải mái sử dụng mà không lo bị phát hiện. Khám phá thế giới qua phim ảnh!
+zyfun là một trình quản lý đa phương tiện miễn phí, tối giản và mạnh mẽ đa nền tảng, quản lý tất cả các loại tài nguyên T1-T4 chỉ trong một nơi, tích hợp sẵn trình phát đa lõi có thể chuyển đổi linh hoạt. Tính năng độc quyền “phím boss”, ẩn ứng dụng chỉ với một nút bấm, giúp bạn yên tâm làm việc riêng. Khám phá thế giới qua từng bộ phim!
 
 <details>
-<summary>Bấm để xem ảnh chụp phần mềm</summary>
+<summary>Mở rộng để xem ảnh chụp phần mềm</summary>
 
-|                           Phim (Trang chủ)                          |                           Phim (Tìm kiếm)                         |
-| :-----------------------------------------------------------------: | :----------------------------------------------------------------: |
-| ![影视-首页](https://s2.loli.net/2024/07/20/T8diRvA1q2QaJmP.png)     | ![影视-搜索](https://s2.loli.net/2024/07/20/utwCUsVG6c7ShRJ.png)   |
-|                           Phim (Phát)                              |                           Phân tích (Trang chủ)                   |
-| ![影视播放](https://s2.loli.net/2024/07/20/DNFBu3LphASROVy.png)      | ![解析-首页](https://s2.loli.net/2024/07/20/JZANVebW4EHOU7I.png)   |
-|                           Truyền hình trực tiếp (Trang chủ)         |                           Truyền hình trực tiếp (Phát)            |
-| ![直播-首页](https://s2.loli.net/2024/07/20/ucxSw3nR2EahG59.png)     | ![直播-播放](https://s2.loli.net/2024/07/20/jYEFc6NOwtdWJBV.png)   |
-|                              Lịch sử xem                            |                               Cài đặt                              |
-| ![Lịch sử ghi lại](https://s2.loli.net/2024/07/20/DiYsx4fbcH3KU6T.png)  |   ![Cài đặt](https://s2.loli.net/2024/07/20/QeaDxZ2IYCFoVki.png)    |
+|                    Phim ảnh                     |                   Truyền hình trực tiếp                   |
+| :-----------------------------------------: | :--------------------------------------: |
+|  ![Phim ảnh](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-film.png)   | ![Trực tiếp](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-live.png) |
+|                  **Lịch sử**                   |                 **Phát**                 |
+| ![Lịch sử](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-history.png) | ![Phát](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-play.png) |
 
 </details>
 
-## 🌴 Lưu ý
+## 🌴 Lưu ý quan trọng
 
-- Chỉ phát hành trên Github này, vui lòng không bị lừa đảo; các quản trị viên không quảng bá hoặc dẫn dắt người dùng sử dụng phần mềm này.
-- Khuyến khích mạnh mẽ việc xem phim hợp pháp, phần mềm này chỉ là công cụ phát, không liên quan đến lưu trữ hay phân phối tài nguyên.
-- Chỉ dùng cho mục đích học tập, trao đổi cá nhân, vui lòng gỡ bỏ trong vòng 24 giờ, không sử dụng cho mục đích thương mại.
-- Tiền thân từ [ZY-Player](https://github.com/Hunlongyu/ZY-Player), biểu tượng do @fourbeauty thiết kế.
-- Trước khi sử dụng, vui lòng đọc kỹ và đồng ý thỏa thuận người dùng, đảm bảo tuân thủ các quy định liên quan.
+- Chỉ phát hành trên Github này, xin đừng bị lừa đảo; các quản trị viên vui lòng không quảng bá hoặc dẫn dắt người dùng về phần mềm này.
+- Cực lực khuyến khích xem phim hợp pháp, phần mềm này chỉ là công cụ phát, không liên quan đến lưu trữ hay phân phối tài nguyên.
+- Chỉ dùng cho mục đích học tập, trao đổi cá nhân, vui lòng tự gỡ cài đặt trong vòng 24 giờ, không sử dụng cho mục đích thương mại.
+- Tiền thân xuất phát từ [ZY-Player](https://github.com/Hunlongyu/ZY-Player), biểu tượng do @fourbeauty thiết kế.
+- Trước khi sử dụng, vui lòng đọc kỹ và đồng ý với thỏa thuận người dùng, đảm bảo tuân thủ các quy định liên quan.
 
-## 💻 Hướng dẫn đa nền tảng
+## 💻 Giải thích đa nền tảng
 
 - **MacOS**:
-  - Có gói cài đặt cho kiến trúc arm64 (chip Apple)/x64 (chip Intel)
-  - Đường dẫn cơ sở dữ liệu/tệp/plugin/nhật ký: `~/Library/Application Support/zyfun/`
+  - Cung cấp gói cài đặt cho kiến trúc arm64 (chip Apple)/x64 (chip Intel)
+  - Đường dẫn cơ sở dữ liệu/tập tin/plugin/log: `~/Library/Application Support/zyfun/`
   - Đường dẫn nhị phân: `~/.zy/bin/`
 - **Linux**:
-  - Có gói cài đặt cho kiến trúc arm64/x64-image/deb
-  - Đường dẫn cơ sở dữ liệu/tệp/plugin/nhật ký: `~/.config/zyfun/`
+  - Cung cấp gói-image/deb cho kiến trúc arm64/x64
+  - Đường dẫn cơ sở dữ liệu/tập tin/plugin/log: `~/.config/zyfun/`
   - Đường dẫn nhị phân: `~/.zy/bin/`
 - **Windows**:
-  - Có gói cài đặt cho kiến trúc arm64/x64
-  - Đường dẫn cơ sở dữ liệu/tệp/plugin/nhật ký: `%USERPROFILE%\AppData\Roaming\zyfun\`
+  - Cung cấp gói cài đặt cho kiến trúc arm64/x64
+  - Đường dẫn cơ sở dữ liệu/tập tin/plugin/log: `%USERPROFILE%\AppData\Roaming\zyfun\`
   - Đường dẫn nhị phân: `%USERPROFILE%\.zy\bin\`
   <!-- - **OpenHarmony**:
-  - Có gói cài đặt cho kiến trúc arm64/x64
-  - Đường dẫn cơ sở dữ liệu/tệp/plugin/nhật ký: `/data/storage/zyfun/base/files/log`
+  - Cung cấp gói cài đặt cho kiến trúc arm64/x64
+  - Đường dẫn cơ sở dữ liệu/tập tin/plugin/log: `/data/storage/zyfun/base/files/log`
   - Đường dẫn nhị phân: `~/.zy/bin/`-->
 
-## 🛠️ Tải về và cài đặt
+## 🛠️ Cài đặt & Tải về
 
-> **Tải bản phát hành mới nhất**: Truy cập [Trang phát hành trên GitHub](https://github.com/Hiram-Wong/ZyPlayer/releases) để tải về
+> **Tải bản phát hành mới nhất**: Truy cập [Trang Releases trên GitHub](https://github.com/Hiram-Wong/ZyPlayer/releases) để nhận
 
-> **Tải bản phát triển mới nhất**: Truy cập [Trang Actions trên GitHub](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml) để tải về, cần đăng nhập tài khoản Github
+> **Tải bản phát triển mới nhất**: Truy cập [Trang Actions trên GitHub](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml) để nhận, cần đăng nhập tài khoản Github
 
-### Mở MacOS sau khi cài đặt báo “Tệp đã bị hỏng”
+### Sau khi cài đặt MacOS mở lên báo "Tập tin đã bị hỏng"
 
 ```bash
 sudo spctl --master-disable
@@ -127,7 +123,7 @@ sudo xattr -cr /Applications/zyfun.app
 > Chạy với quyền root mà không có --no-sandbox không được hỗ trợ
 
 ```bash
-./文件名.AppImage --no-sandbox
+./zyfun.AppImage --no-sandbox
 ```
 
 > dlopen(): lỗi khi tải libfuse.so.2
@@ -142,7 +138,7 @@ sudo apt-get install libfuse2
 xhost +
 ```
 
-### Cài đặt deb trên Linux thất bại
+### Lỗi cài đặt gói deb trên Linux
 
 > Gói libnss3-1d chưa được cài đặt
 
@@ -154,6 +150,21 @@ sudo apt-get install libnss3-1d
 
 ```bash
 sudo apt-get install libxss1
+```
+
+### Cài đặt gói rpm trên Linux thất bại
+
+> Kiểm tra phụ thuộc thất bại, cần có libXScrnSaver
+
+```bash
+sudo yum install epel-release
+sudo yum install libXScrnSaver
+```
+
+> Kiểm tra phụ thuộc thất bại, cần có xdg-utils
+
+```bash
+sudo yum install xdg-utils
 ```
 
 ## 📚 Cấu trúc dữ liệu
@@ -446,6 +457,6 @@ Dưới đây là một số cách bạn có thể đóng góp:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-01
 
 ---

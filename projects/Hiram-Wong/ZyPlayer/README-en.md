@@ -65,55 +65,51 @@
 
 # Software Introduction
 
-zyfun is a free, minimalist, and versatile cross-platform media manager, providing one-stop management for all T1-T4 types of resources, with a built-in multi-core player for easy switching. Exclusive boss key lets you hide in one click for worry-free stealth. Discover the world through watching movies!
+zyfun is a free, minimalist, all-in-one cross-platform media manager, providing one-stop management for all T1-T4 resource types, with a built-in multi-core player for seamless switching. Exclusive boss key, one-click stealth for worry-free leisure. Discover the world through watching movies!
 
 <details>
 <summary>Expand to view software screenshots</summary>
 
-|                            Movies (Home)                         |                            Movies (Search)                       |
-| :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-| ![Movies-Home](https://s2.loli.net/2024/07/20/T8diRvA1q2QaJmP.png) | ![Movies-Search](https://s2.loli.net/2024/07/20/utwCUsVG6c7ShRJ.png) |
-|                            Movies (Play)                         |                            Parsing (Home)                        |
-| ![Movies-Play](https://s2.loli.net/2024/07/20/DNFBu3LphASROVy.png)  | ![Parsing-Home](https://s2.loli.net/2024/07/20/JZANVebW4EHOU7I.png) |
-|                            Live (Home)                           |                            Live (Play)                           |
-| ![Live-Home](https://s2.loli.net/2024/07/20/ucxSw3nR2EahG59.png) | ![Live-Play](https://s2.loli.net/2024/07/20/jYEFc6NOwtdWJBV.png) |
-|                             History                              |                               Settings                            |
-| ![History](https://s2.loli.net/2024/07/20/DiYsx4fbcH3KU6T.png)  |   ![Settings](https://s2.loli.net/2024/07/20/QeaDxZ2IYCFoVki.png)    |
+|                   Movies                   |                   Live                   |
+| :----------------------------------------: | :--------------------------------------: |
+|  ![Movies](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-film.png)   | ![Live](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-live.png) |
+|                  **History**               |                 **Play**                 |
+| ![History](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-history.png) | ![Play](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-play.png) |
 
 </details>
 
-## 🌴 Precautions
+## 🌴 Notes
 
-- Released only on Github, do not fall for scams; administrators, please do not promote or redirect traffic to this software.
-- Strongly advocate legal viewing, this software is only a playback tool and does not involve resource storage or distribution.
-- For personal learning and communication purposes only, please uninstall within 24 hours and do not use for commercial purposes.
-- Originated from [ZY-Player](https://github.com/Hunlongyu/ZY-Player), icons designed by @fourbeauty.
-- Before using, please carefully read and agree to the user agreement and ensure compliance with relevant regulations.
+- Only released on Github, do not be deceived; administrators, please do not promote or direct traffic to this software.
+- Strongly advocate legal viewing; this software is only a playback tool and does not involve resource storage or distribution.
+- For personal study and communication only; please uninstall within 24 hours and do not use for commercial purposes.
+- Originated from [ZY-Player](https://github.com/Hunlongyu/ZY-Player), icon designed by @fourbeauty.
+- Before you start using, please read and agree to the user agreement to ensure compliance with relevant regulations.
 
 ## 💻 Cross-Platform Instructions
 
 - **MacOS**:
-  - Provides arm64 (Apple chip) / x64 (Intel chip) architecture installation packages
-  - Database/File/Plugin/Log path: `~/Library/Application Support/zyfun/`
+  - Provides arm64 (Apple chip)/x64 (Intel chip) architecture installation package
+  - Database/files/plugins/logs path: `~/Library/Application Support/zyfun/`
   - Binary path: `~/.zy/bin/`
 - **Linux**:
-  - Provides arm64/x64 architecture image/deb installation packages
-  - Database/File/Plugin/Log path: `~/.config/zyfun/`
+  - Provides arm64/x64 architecture -image/deb installation package
+  - Database/files/plugins/logs path: `~/.config/zyfun/`
   - Binary path: `~/.zy/bin/`
 - **Windows**:
-  - Provides arm64/x64 architecture installation packages
-  - Database/File/Plugin/Log path: `%USERPROFILE%\AppData\Roaming\zyfun\`
+  - Provides arm64/x64 architecture installation package
+  - Database/files/plugins/logs path: `%USERPROFILE%\AppData\Roaming\zyfun\`
   - Binary path: `%USERPROFILE%\.zy\bin\`
   <!-- - **OpenHarmony**:
-  - Provides arm64/x64 architecture installation packages
-  - Database/File/Plugin/Log path: `/data/storage/zyfun/base/files/log`
+  - Provides arm64/x64 architecture installation package
+  - Database/files/plugins/logs path: `/data/storage/zyfun/base/files/log`
   - Binary path: `~/.zy/bin/`-->
 
-## 🛠️ Download & Installation
+## 🛠️ Download and Installation
 
-> **Latest Release Download**: Visit the [GitHub Releases page](https://github.com/Hiram-Wong/ZyPlayer/releases) to get it
+> **Latest Release Download**: Visit [GitHub Releases Page](https://github.com/Hiram-Wong/ZyPlayer/releases) to get it
 
-> **Latest Development Version Download**: Visit the [GitHub Actions page](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml) to get it, GitHub account login required
+> **Latest Development Build Download**: Visit [GitHub Actions Page](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml) to get it, requires Github login
 
 ### MacOS prompts "File is damaged" after installation
 
@@ -127,7 +123,7 @@ sudo xattr -cr /Applications/zyfun.app
 > Running as root without --no-sandbox is not supported
 
 ```bash
-./文件名.AppImage --no-sandbox
+./zyfun.AppImage --no-sandbox
 ```
 
 > dlopen(): error loading libfuse.so.2
@@ -142,7 +138,7 @@ sudo apt-get install libfuse2
 xhost +
 ```
 
-### Linux deb installation failed
+### Linux deb package installation failed
 
 > Package libnss3-1d is not installed
 
@@ -154,6 +150,21 @@ sudo apt-get install libnss3-1d
 
 ```bash
 sudo apt-get install libxss1
+```
+
+### Linux rpm package installation failed
+
+> Dependency check failed: libXScrnSaver is needed
+
+```bash
+sudo yum install epel-release
+sudo yum install libXScrnSaver
+```
+
+> Dependency check failed xdg-utils is needed
+
+```bash
+sudo yum install xdg-utils
 ```
 
 ## 📚 Data Structure
@@ -446,6 +457,6 @@ Here are some ways you can contribute:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-01
 
 ---

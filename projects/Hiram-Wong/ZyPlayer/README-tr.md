@@ -65,57 +65,53 @@
 
 # Yazılım Tanıtımı
 
-zyfun, ücretsiz, son derece basit ve çok yetenekli bir çapraz platform medya yöneticisidir; T1-T4 tüm kaynak türlerini tek noktadan yönetir, dahili çok çekirdekli oynatıcı ile kolayca geçiş yapabilirsiniz. Benzersiz patron tuşu ile tek tıkla gizlenerek gönül rahatlığıyla işten kaçabilirsiniz. Film izleyerek dünyayı keşfedin!
+zyfun, ücretsiz, son derece basit ve çok yönlü bir çapraz platform medya yöneticisidir. T1-T4 tüm kaynak türlerini tek noktadan yönetir, dahili çok çekirdekli oynatıcı ile istediğiniz gibi geçiş yapabilirsiniz. Eşsiz patron tuşu, tek tıkla gizlenerek rahatça çalışmanızı sağlar. Film izleyerek dünyayı keşfedin!
 
 <details>
-<summary>Yazılım ekran görüntülerini görmek için genişletin</summary>
+<summary>Yazılım ekran görüntülerini görmek için açın</summary>
 
-|                            Film (Ana Sayfa)                         |                            Film (Arama)                           |
-| :------------------------------------------------------------------: | :----------------------------------------------------------------: |
-| ![Film-AnaSayfa](https://s2.loli.net/2024/07/20/T8diRvA1q2QaJmP.png) | ![Film-Arama](https://s2.loli.net/2024/07/20/utwCUsVG6c7ShRJ.png)  |
-|                            Film (Oynatma)                            |                            Analiz (Ana Sayfa)                      |
-| ![Film-Oynatma](https://s2.loli.net/2024/07/20/DNFBu3LphASROVy.png)  | ![Analiz-AnaSayfa](https://s2.loli.net/2024/07/20/JZANVebW4EHOU7I.png) |
-|                            Canlı Yayın (Ana Sayfa)                   |                            Canlı Yayın (Oynatma)                   |
-| ![CanlıYayın-AnaSayfa](https://s2.loli.net/2024/07/20/ucxSw3nR2EahG59.png) | ![CanlıYayın-Oynatma](https://s2.loli.net/2024/07/20/jYEFc6NOwtdWJBV.png) |
-|                             Geçmiş Kayıtları                          |                               Ayarlar                               |
-| ![Geçmiş Kayıtları](https://s2.loli.net/2024/07/20/DiYsx4fbcH3KU6T.png)  |   ![Ayarlar](https://s2.loli.net/2024/07/20/QeaDxZ2IYCFoVki.png)    |
+|                    Film/Dizi                |                   Canlı Yayın            |
+| :-----------------------------------------: | :--------------------------------------: |
+|  ![Film/Dizi](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-film.png)   | ![Canlı Yayın](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-live.png) |
+|                  **Geçmiş**                 |                 **Oynatma**              |
+| ![Geçmiş](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-history.png) | ![Oynatma](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-play.png) |
 
 </details>
 
 ## 🌴 Dikkat Edilmesi Gerekenler
 
-- Sadece bu Github üzerinden yayınlanmaktadır, dolandırıcılıklara karşı dikkatli olun; yöneticiler bu yazılımın tanıtımını veya yönlendirmesini yapmamalıdır.
-- Yasal izlemeyi şiddetle tavsiye ediyoruz, bu yazılım yalnızca bir oynatma aracı olarak kullanılmakta olup, kaynak depolama veya dağıtımı ile ilgili değildir.
-- Yalnızca kişisel öğrenme ve iletişim amaçlıdır, lütfen 24 saat içinde kaldırın ve ticari amaçla kullanmayın.
-- Önceki sürümü [ZY-Player](https://github.com/Hunlongyu/ZY-Player) kaynaklıdır, simge @fourbeauty tarafından tasarlanmıştır.
-- Kullanmaya başlamadan önce lütfen kullanıcı sözleşmesini dikkatlice okuyun ve kabul edin, ilgili kurallara uyduğunuzdan emin olun.
+- Yalnızca bu Github üzerinden yayınlanır, dolandırıcılara karşı dikkatli olun; lütfen yöneticiler bu yazılımı tanıtmasın ve kullanıcı çekmesin.
+- Yasal izlemeyi şiddetle tavsiye ediyoruz, bu yazılım yalnızca oynatma aracı olarak kullanılmakta olup, kaynak depolama veya dağıtımı içermez.
+- Sadece kişisel öğrenme ve iletişim amacıyla kullanılmalıdır, lütfen 24 saat içinde kendiliğinizden kaldırın, ticari amaçla kullanmayın.
+- Önceki sürümü [ZY-Player](https://github.com/Hunlongyu/ZY-Player) kaynaklıdır, ikon @fourbeauty tarafından tasarlanmıştır.
+- Kullanıma başlamadan önce lütfen kullanıcı sözleşmesini dikkatlice okuyup kabul edin, ilgili kurallara uyduğunuzdan emin olun.
 
 ## 💻 Platformlar Arası Açıklama
 
 - **MacOS**:
-  - arm64 (Apple çipi)/x64 (Intel çipi) mimarisi kurulum paketleri sağlanır
-  - Veritabanı/Dosya/Eklenti/Günlük yolu: `~/Library/Application Support/zyfun/`
-  - İkili dosya yolu: `~/.zy/bin/`
+  - arm64 (Apple yongası)/x64 (Intel yongası) mimarileri için kurulum paketi sağlar
+  - Veritabanı/Dosya/Eklenti/Günlük Yolu: `~/Library/Application Support/zyfun/`
+  - İkili dosya Yolu: `~/.zy/bin/`
 - **Linux**:
-  - arm64/x64 mimarisi-image/deb kurulum paketleri sağlanır
-  - Veritabanı/Dosya/Eklenti/Günlük yolu: `~/.config/zyfun/`
-  - İkili dosya yolu: `~/.zy/bin/`
+  - arm64/x64 mimarileri için image/deb kurulum paketi sağlar
+  - Veritabanı/Dosya/Eklenti/Günlük Yolu: `~/.config/zyfun/`
+  - İkili dosya Yolu: `~/.zy/bin/`
 - **Windows**:
-  - arm64/x64 mimarisi kurulum paketleri sağlanır
-  - Veritabanı/Dosya/Eklenti/Günlük yolu: `%USERPROFILE%\AppData\Roaming\zyfun\`
-  - İkili dosya yolu: `%USERPROFILE%\.zy\bin\`
+  - arm64/x64 mimarileri için kurulum paketi sağlar
+  - Veritabanı/Dosya/Eklenti/Günlük Yolu: `%USERPROFILE%\AppData\Roaming\zyfun\`
+  - İkili dosya Yolu: `%USERPROFILE%\.zy\bin\`
   <!-- - **OpenHarmony**:
-  - arm64/x64 mimarisi kurulum paketleri sağlanır
-  - Veritabanı/Dosya/Eklenti/Günlük yolu: `/data/storage/zyfun/base/files/log`
-  - İkili dosya yolu: `~/.zy/bin/`-->
+  - arm64/x64 mimarileri için kurulum paketi sağlar
+  - Veritabanı/Dosya/Eklenti/Günlük Yolu: `/data/storage/zyfun/base/files/log`
+  - İkili dosya Yolu: `~/.zy/bin/`-->
 
 ## 🛠️ İndirme ve Kurulum
 
-> **En Son Sürümü İndirin**: [GitHub Releases Sayfası](https://github.com/Hiram-Wong/ZyPlayer/releases) adresini ziyaret edin
+> **En Son Sürümü İndir**: [GitHub Releases sayfasını](https://github.com/Hiram-Wong/ZyPlayer/releases) ziyaret edin
 
-> **En Son Geliştirici Sürümünü İndirin**: [GitHub Actions Sayfası](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml) adresini ziyaret edin, Github hesabıyla giriş yapılması gerekmektedir
+> **En Son Geliştirme Sürümünü İndir**: [GitHub Actions sayfasını](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml) ziyaret edin, Github hesabı ile giriş gereklidir
 
-### MacOS Kurulumundan Sonra “Dosya Bozuk” Uyarısı
+### MacOS Kurulum Sonrası “Dosya Bozuk” Uyarısı Alınıyor
 
 ```bash
 sudo spctl --master-disable
@@ -127,7 +123,7 @@ sudo xattr -cr /Applications/zyfun.app
 > --no-sandbox olmadan root olarak çalıştırmak desteklenmiyor
 
 ```bash
-./文件名.AppImage --no-sandbox
+./zyfun.AppImage --no-sandbox
 ```
 
 > dlopen(): libfuse.so.2 kütüphanesi yüklenirken hata oluştu
@@ -142,7 +138,7 @@ sudo apt-get install libfuse2
 xhost +
 ```
 
-### Linux deb yüklemesi başarısız oldu
+### Linux deb paketi kurulumu başarısız
 
 > Paket libnss3-1d kurulu değil
 
@@ -154,6 +150,21 @@ sudo apt-get install libnss3-1d
 
 ```bash
 sudo apt-get install libxss1
+```
+
+### Linux rpm paketi kurulumu başarısız
+
+> Bağımlılık kontrolü başarısız oldu, libXScrnSaver gerekli
+
+```bash
+sudo yum install epel-release
+sudo yum install libXScrnSaver
+```
+
+> Bağımlılık kontrolü başarısız oldu xdg-utils gerekli
+
+```bash
+sudo yum install xdg-utils
 ```
 
 ## 📚 Veri Yapısı
@@ -446,6 +457,6 @@ Aşağıda katkıda bulunabileceğiniz bazı yollar yer almaktadır:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-01
 
 ---

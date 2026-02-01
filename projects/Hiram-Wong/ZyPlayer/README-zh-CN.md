@@ -38,7 +38,6 @@
 </p>
 
 <div align="center">
-
 [![][github-release-shield]][github-release-link]
 [![][github-nightly-shield]][github-nightly-link]
 [![][github-license-shield]][github-license-link]
@@ -65,55 +64,52 @@
 
 # 软件介绍
 
-zyfun是一款免费、极简、全能的跨平台影音管家，一站式管理 T1-T4 全类型资源，内置多核播放器随心切换。独家老板键，一键隐身摸鱼无忧。用观影发现世界！
+zyfun是一款免费、极简、全能的跨平台影音管家，一站式管理T1-T4全类型资源，内置多核播放器随心切换。独家老板键，一键隐身摸鱼无忧。用观影发现世界！
 
 <details>
 <summary>展开查看软件截图</summary>
 
-|                            影视(首页)                            |                            影视(搜索)                            |
-| :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-| ![影视-首页](https://s2.loli.net/2024/07/20/T8diRvA1q2QaJmP.png) | ![影视-搜索](https://s2.loli.net/2024/07/20/utwCUsVG6c7ShRJ.png) |
-|                            影视(播放)                            |                            解析(首页)                            |
-| ![影视播放](https://s2.loli.net/2024/07/20/DNFBu3LphASROVy.png)  | ![解析-首页](https://s2.loli.net/2024/07/20/JZANVebW4EHOU7I.png) |
-|                            直播(首页)                            |                            直播(播放)                            |
-| ![直播-首页](https://s2.loli.net/2024/07/20/ucxSw3nR2EahG59.png) | ![直播-播放](https://s2.loli.net/2024/07/20/jYEFc6NOwtdWJBV.png) |
-|                             历史记录                             |                               设置                               |
-| ![历史记录](https://s2.loli.net/2024/07/20/DiYsx4fbcH3KU6T.png)  |   ![设置](https://s2.loli.net/2024/07/20/QeaDxZ2IYCFoVki.png)    |
+|                    影视                     |                   直播                   |
+| :-----------------------------------------: | :--------------------------------------: |
+|  ![影视](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-film.png)   | ![直播](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-live.png) |
+|                  **历史**                   |                 **播放**                 |
+| ![历史](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-history.png) | ![播放](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-play.png) |
 
 </details>
 
+
 ## 🌴 注意事项
 
-- 仅在Github发布，请勿上当受骗；请各管理者不要宣传和引流本软件。
+- 仅在Github发布，请勿上当受骗；请各位管理者不要宣传或引流本软件。
 - 强烈倡导合法观影，本软件仅作为播放工具，不涉及资源存储或分发。
-- 仅供个人学习交流使用，请在24小时内自觉卸载，严禁商业用途。
+- 仅供个人学习交流使用，请在24小时内自觉卸载，勿作商业用途。
 - 前身来源于[ZY-Player](https://github.com/Hunlongyu/ZY-Player)，图标由@fourbeauty设计。
-- 在开始使用前，请务必详读并同意用户协议，确保遵守相关规定。
+- 在开始使用前，请务必详细阅读并同意用户协议，确保遵守相关规定。
 
 ## 💻 跨平台说明
 
 - **MacOS**:
-  - 提供 arm64（苹果芯片）/x64（英特尔芯片）架构安装包
+  - 提供 arm64(苹果芯片)/x64(英特尔芯片)架构安装包
   - 数据库/文件/插件/日志 路径: `~/Library/Application Support/zyfun/`
   - 二进制 路径: `~/.zy/bin/`
 - **Linux**:
-  - 提供 arm64/x64 架构-image/deb安装包
+  - 提供 arm64/x64架构-image/deb安装包
   - 数据库/文件/插件/日志 路径: `~/.config/zyfun/`
   - 二进制 路径: `~/.zy/bin/`
 - **Windows**:
-  - 提供 arm64/x64 架构安装包
+  - 提供 arm64/x64架构安装包
   - 数据库/文件/插件/日志 路径: `%USERPROFILE%\AppData\Roaming\zyfun\`
   - 二进制 路径: `%USERPROFILE%\.zy\bin\`
   <!-- - **OpenHarmony**:
-  - 提供 arm64/x64 架构安装包
+  - 提供 arm64/x64架构安装包
   - 数据库/文件/插件/日志 路径: `/data/storage/zyfun/base/files/log`
   - 二进制 路径: `~/.zy/bin/`-->
 
 ## 🛠️ 下载安装
 
-> **最新发布版下载**: 访问 [GitHub Releases页面](https://github.com/Hiram-Wong/ZyPlayer/releases) 获取
+> **最新发布版下载**: 请访问 [GitHub Releases页面](https://github.com/Hiram-Wong/ZyPlayer/releases) 获取
 
-> **最新开发版下载**: 访问 [GitHub Actions页面](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml) 获取，需登录Github账号
+> **最新开发版下载**: 请访问 [GitHub Actions页面](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml) 获取，需登录Github账号
 
 ### MacOS 安装后打开提示「文件已损坏」
 
@@ -127,7 +123,7 @@ sudo xattr -cr /Applications/zyfun.app
 > 以root身份运行且未使用--no-sandbox是不被支持的
 
 ```bash
-./文件名.AppImage --no-sandbox
+./zyfun.AppImage --no-sandbox
 ```
 
 > dlopen()：加载 libfuse.so.2 时出错
@@ -142,7 +138,7 @@ sudo apt-get install libfuse2
 xhost +
 ```
 
-### Linux deb安装失败
+### Linux deb包安装失败
 
 > 未安装软件包 libnss3-1d
 
@@ -154,6 +150,21 @@ sudo apt-get install libnss3-1d
 
 ```bash
 sudo apt-get install libxss1
+```
+
+### Linux rpm包安装失败
+
+> 依赖性检查失败，需要 libXScrnSaver
+
+```bash
+sudo yum install epel-release
+sudo yum install libXScrnSaver
+```
+
+> 依赖性检查失败，缺少 xdg-utils
+
+```bash
+sudo yum install xdg-utils
 ```
 
 ## 📚 Data Structures
@@ -446,6 +457,6 @@ sudo apt-get install libxss1
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-01
 
 ---

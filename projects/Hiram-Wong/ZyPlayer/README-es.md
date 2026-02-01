@@ -63,59 +63,55 @@
 
 </div>
 
-# Introducción al software
+# Introducción del Software
 
-zyfun es un gestor multimedia multiplataforma gratuito, minimalista y versátil, que permite gestionar todos los recursos T1-T4 en un solo lugar. Incorpora un reproductor multicore con cambio instantáneo. Tecla exclusiva de jefe: ocúltate con un clic y navega sin preocupaciones. ¡Descubre el mundo a través del cine!
+zyfun es un gestor multimedia multiplataforma, gratuito, minimalista y versátil, que permite gestionar todo tipo de recursos T1-T4 en un solo lugar. Incluye un reproductor multinúcleo integrado para cambiar de motor a voluntad. Tecla de jefe exclusiva para ocultar la aplicación con un clic y disfrutar sin preocupaciones. ¡Descubre el mundo a través de tus películas!
 
 <details>
 <summary>Haz clic para ver capturas de pantalla del software</summary>
 
-|                            Cine (Inicio)                         |                            Cine (Búsqueda)                       |
-| :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-| ![Cine-Inicio](https://s2.loli.net/2024/07/20/T8diRvA1q2QaJmP.png) | ![Cine-Búsqueda](https://s2.loli.net/2024/07/20/utwCUsVG6c7ShRJ.png) |
-|                            Cine (Reproducción)                   |                            Análisis (Inicio)                     |
-| ![Cine-Reproducción](https://s2.loli.net/2024/07/20/DNFBu3LphASROVy.png)  | ![Análisis-Inicio](https://s2.loli.net/2024/07/20/JZANVebW4EHOU7I.png) |
-|                            TV en Vivo (Inicio)                   |                            TV en Vivo (Reproducción)             |
-| ![TVenVivo-Inicio](https://s2.loli.net/2024/07/20/ucxSw3nR2EahG59.png) | ![TVenVivo-Reproducción](https://s2.loli.net/2024/07/20/jYEFc6NOwtdWJBV.png) |
-|                             Historial                            |                               Configuración                      |
-| ![Historial](https://s2.loli.net/2024/07/20/DiYsx4fbcH3KU6T.png)  |   ![Configuración](https://s2.loli.net/2024/07/20/QeaDxZ2IYCFoVki.png)    |
+|                    Películas                     |                   En Vivo                   |
+| :---------------------------------------------: | :-----------------------------------------: |
+|  ![影视](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-film.png)   | ![直播](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-live.png) |
+|                  **Historial**                  |                 **Reproducción**            |
+| ![历史](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-history.png) | ![播放](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-play.png) |
 
 </details>
 
-## 🌴 Avisos importantes
+## 🌴 Notas importantes
 
-- Publicado únicamente en Github, no caigas en engaños; se pide a los administradores no promocionar ni derivar tráfico a este software.
-- Se fomenta el visionado legal, este software es solo una herramienta de reproducción, no almacena ni distribuye recursos.
-- Solo para uso personal y académico, desinstala voluntariamente dentro de las 24 horas, no lo uses con fines comerciales.
-- Basado en [ZY-Player](https://github.com/Hunlongyu/ZY-Player), icono diseñado por @fourbeauty.
-- Antes de usar, por favor lee detenidamente y acepta el acuerdo de usuario para asegurarte de cumplir las regulaciones pertinentes.
+- Publicado únicamente en este Github, no caigas en estafas; se solicita a los administradores no promocionar ni dirigir tráfico hacia este software.
+- Se promueve encarecidamente el visionado legal, este software es solo una herramienta de reproducción y no implica almacenamiento ni distribución de recursos.
+- Solo para fines de aprendizaje e intercambio personal, desinstala por cuenta propia en 24 horas, prohibido uso comercial.
+- Basado originalmente en [ZY-Player](https://github.com/Hunlongyu/ZY-Player), icono diseñado por @fourbeauty.
+- Antes de usar, lee y acepta el acuerdo de usuario, asegurándote de cumplir las regulaciones correspondientes.
 
-## 💻 Notas sobre multiplataforma
+## 💻 Instrucciones multiplataforma
 
 - **MacOS**:
-  - Se proporciona instalador para arquitecturas arm64 (chip de Apple) / x64 (chip Intel)
-  - Ruta de base de datos/archivos/plugins/logs: `~/Library/Application Support/zyfun/`
-  - Ruta binaria: `~/.zy/bin/`
+  - Se proveen paquetes de instalación para arquitecturas arm64 (chip de Apple) y x64 (chip Intel)
+  - Ruta de base de datos/archivos/plugins/registros: `~/Library/Application Support/zyfun/`
+  - Ruta de binarios: `~/.zy/bin/`
 - **Linux**:
-  - Se proporciona imagen/paquete deb para arquitecturas arm64/x64
-  - Ruta de base de datos/archivos/plugins/logs: `~/.config/zyfun/`
-  - Ruta binaria: `~/.zy/bin/`
+  - Se proveen paquetes de instalación image/deb para arquitecturas arm64/x64
+  - Ruta de base de datos/archivos/plugins/registros: `~/.config/zyfun/`
+  - Ruta de binarios: `~/.zy/bin/`
 - **Windows**:
-  - Se proporciona instalador para arquitecturas arm64/x64
-  - Ruta de base de datos/archivos/plugins/logs: `%USERPROFILE%\AppData\Roaming\zyfun\`
-  - Ruta binaria: `%USERPROFILE%\.zy\bin\`
+  - Se proveen paquetes de instalación para arquitecturas arm64/x64
+  - Ruta de base de datos/archivos/plugins/registros: `%USERPROFILE%\AppData\Roaming\zyfun\`
+  - Ruta de binarios: `%USERPROFILE%\.zy\bin\`
   <!-- - **OpenHarmony**:
-  - Se proporciona instalador para arquitecturas arm64/x64
-  - Ruta de base de datos/archivos/plugins/logs: `/data/storage/zyfun/base/files/log`
-  - Ruta binaria: `~/.zy/bin/`-->
+  - Se proveen paquetes de instalación para arquitecturas arm64/x64
+  - Ruta de base de datos/archivos/plugins/registros: `/data/storage/zyfun/base/files/log`
+  - Ruta de binarios: `~/.zy/bin/`-->
 
 ## 🛠️ Descarga e instalación
 
-> **Descarga de la última versión estable**: visita la [página de Releases en GitHub](https://github.com/Hiram-Wong/ZyPlayer/releases) para obtenerla
+> **Descarga de la última versión estable**: Visita la [página de lanzamientos de GitHub](https://github.com/Hiram-Wong/ZyPlayer/releases) para descargar
 
-> **Descarga de la última versión de desarrollo**: visita la [página de Actions en GitHub](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml) para obtenerla, es necesario iniciar sesión en tu cuenta de Github
+> **Descarga de la última versión de desarrollo**: Visita la [página de acciones de GitHub](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml), requiere iniciar sesión en Github
 
-### Problema al abrir en MacOS: “El archivo está dañado”
+### MacOS: Aparece el mensaje "El archivo está dañado" al abrir tras la instalación
 
 ```bash
 sudo spctl --master-disable
@@ -127,7 +123,7 @@ sudo xattr -cr /Applications/zyfun.app
 > Ejecutar como root sin --no-sandbox no es compatible
 
 ```bash
-./文件名.AppImage --no-sandbox
+./zyfun.AppImage --no-sandbox
 ```
 
 > dlopen(): error al cargar libfuse.so.2
@@ -142,7 +138,7 @@ sudo apt-get install libfuse2
 xhost +
 ```
 
-### Falló la instalación de deb en Linux
+### Error de instalación de paquete deb en Linux
 
 > El paquete libnss3-1d no está instalado
 
@@ -154,6 +150,21 @@ sudo apt-get install libnss3-1d
 
 ```bash
 sudo apt-get install libxss1
+```
+
+### Error de instalación del paquete rpm en Linux
+
+> Falló la verificación de dependencias, se necesita libXScrnSaver
+
+```bash
+sudo yum install epel-release
+sudo yum install libXScrnSaver
+```
+
+> Falló la verificación de dependencias, se necesita xdg-utils
+
+```bash
+sudo yum install xdg-utils
 ```
 
 ## 📚 Estructura de datos
@@ -446,6 +457,6 @@ A continuación se muestran algunas maneras en las que puede contribuir:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-01
 
 ---

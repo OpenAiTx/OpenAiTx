@@ -65,57 +65,53 @@
 
 # 소프트웨어 소개
 
-zyfun은 무료, 미니멀, 올인원 크로스플랫폼 미디어 매니저로, T1-T4 전 유형 리소스를 원스톱으로 관리하며, 내장 멀티코어 플레이어로 자유롭게 전환할 수 있습니다. 독점 보스키로 한 번에 은폐, 눈치 안 보고 멀티태스킹을 할 수 있습니다. 영화를 보며 세상을 발견하세요!
+zyfun은 무료이자, 극도로 심플하며, 전천후 크로스플랫폼 미디어 관리자입니다. T1-T4 전 유형의 리소스를 한 번에 관리하며, 내장 멀티코어 플레이어로 자유롭게 전환할 수 있습니다. 독점 보스키 지원으로 한 번의 클릭으로 숨김 모드로 전환, 안심하고 작업 중 감상할 수 있습니다. 영화 감상으로 세상을 발견하세요!
 
 <details>
-<summary>소프트웨어 스크린샷 보기</summary>
+<summary>소프트웨어 스크린샷 펼쳐보기</summary>
 
-|                            영상(홈)                               |                            영상(검색)                             |
-| :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-| ![영상-홈](https://s2.loli.net/2024/07/20/T8diRvA1q2QaJmP.png)   | ![영상-검색](https://s2.loli.net/2024/07/20/utwCUsVG6c7ShRJ.png) |
-|                            영상(재생)                             |                            해석(홈)                               |
-| ![영상-재생](https://s2.loli.net/2024/07/20/DNFBu3LphASROVy.png) | ![해석-홈](https://s2.loli.net/2024/07/20/JZANVebW4EHOU7I.png)   |
-|                            라이브(홈)                             |                            라이브(재생)                           |
-| ![라이브-홈](https://s2.loli.net/2024/07/20/ucxSw3nR2EahG59.png) | ![라이브-재생](https://s2.loli.net/2024/07/20/jYEFc6NOwtdWJBV.png)|
-|                            히스토리                               |                               설정                                 |
-| ![역사 기록](https://s2.loli.net/2024/07/20/DiYsx4fbcH3KU6T.png)  |   ![설정](https://s2.loli.net/2024/07/20/QeaDxZ2IYCFoVki.png)    |
+|                    영화/드라마                    |                    라이브                   |
+| :-----------------------------------------: | :--------------------------------------: |
+|  ![영화/드라마](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-film.png)   | ![라이브](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-live.png) |
+|                  **히스토리**                  |                 **재생**                  |
+| ![히스토리](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-history.png) | ![재생](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-play.png) |
 
 </details>
 
-## 🌴 주의 사항
+## 🌴 주의사항
 
-- Github에서만 배포되며, 사기 당하지 마세요. 관리자들은 본 소프트웨어를 홍보하거나 유입시키지 마세요.
-- 합법적인 시청을 강력히 권장하며, 본 소프트웨어는 재생 도구로만 사용되며 리소스 저장 또는 배포는 하지 않습니다.
-- 개인 학습 및 교류 용도로만 제공되며, 24시간 이내에 자발적으로 삭제하고 상업적 용도로 사용하지 마세요.
-- 전신은 [ZY-Player](https://github.com/Hunlongyu/ZY-Player)에서 유래하였으며, 아이콘은 @fourbeauty가 디자인하였습니다.
-- 사용 시작 전 반드시 사용자 약관을 꼼꼼히 읽고 동의한 후 관련 규정을 준수하시기 바랍니다.
+- 오직 이 Github에서만 배포되며, 사기 당하지 않도록 주의하세요. 각 관리자분들은 본 소프트웨어를 홍보하거나 유입하지 마십시오.
+- 합법적 시청을 적극적으로 권장하며, 본 소프트웨어는 재생 도구일 뿐 리소스 저장이나 배포와는 무관합니다.
+- 오직 개인 학습 및 교류용으로만 사용해주시고, 24시간 내에 자발적으로 삭제하시며 상업적 목적으로 사용하지 마십시오.
+- 전신은 [ZY-Player](https://github.com/Hunlongyu/ZY-Player)에서 유래했으며, 아이콘은 @fourbeauty가 디자인했습니다.
+- 사용을 시작하기 전에 반드시 사용자 이용약관을 상세히 읽고 동의하여 관련 규정을 준수하시기 바랍니다.
 
 ## 💻 크로스 플랫폼 안내
 
 - **MacOS**:
-  - arm64(애플 칩)/x64(인텔 칩) 아키텍처 설치 패키지 제공
+  - arm64(애플 칩)/x64(인텔 칩) 구조의 설치 패키지 제공
   - 데이터베이스/파일/플러그인/로그 경로: `~/Library/Application Support/zyfun/`
   - 바이너리 경로: `~/.zy/bin/`
 - **Linux**:
-  - arm64/x64 아키텍처-image/deb 설치 패키지 제공
+  - arm64/x64 구조-image/deb 설치 패키지 제공
   - 데이터베이스/파일/플러그인/로그 경로: `~/.config/zyfun/`
   - 바이너리 경로: `~/.zy/bin/`
 - **Windows**:
-  - arm64/x64 아키텍처 설치 패키지 제공
+  - arm64/x64 구조의 설치 패키지 제공
   - 데이터베이스/파일/플러그인/로그 경로: `%USERPROFILE%\AppData\Roaming\zyfun\`
   - 바이너리 경로: `%USERPROFILE%\.zy\bin\`
   <!-- - **OpenHarmony**:
-  - arm64/x64 아키텍처 설치 패키지 제공
+  - arm64/x64 구조의 설치 패키지 제공
   - 데이터베이스/파일/플러그인/로그 경로: `/data/storage/zyfun/base/files/log`
   - 바이너리 경로: `~/.zy/bin/`-->
 
-## 🛠️ 설치 및 다운로드
+## 🛠️ 다운로드 및 설치
 
 > **최신 릴리즈 다운로드**: [GitHub Releases 페이지](https://github.com/Hiram-Wong/ZyPlayer/releases) 방문
 
 > **최신 개발 버전 다운로드**: [GitHub Actions 페이지](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml) 방문, Github 계정 로그인 필요
 
-### MacOS 설치 후 열기 시 ‘파일이 손상되었습니다’ 안내
+### MacOS 설치 후 열기 시 “파일이 손상되었습니다” 안내
 
 ```bash
 sudo spctl --master-disable
@@ -127,7 +123,7 @@ sudo xattr -cr /Applications/zyfun.app
 > --no-sandbox 없이 root로 실행하는 것은 지원되지 않습니다
 
 ```bash
-./文件名.AppImage --no-sandbox
+./zyfun.AppImage --no-sandbox
 ```
 
 > dlopen()：libfuse.so.2 로드 중 오류 발생
@@ -142,7 +138,7 @@ sudo apt-get install libfuse2
 xhost +
 ```
 
-### Linux deb 설치 실패
+### Linux deb 패키지 설치 실패
 
 > 패키지 libnss3-1d가 설치되어 있지 않습니다
 
@@ -154,6 +150,21 @@ sudo apt-get install libnss3-1d
 
 ```bash
 sudo apt-get install libxss1
+```
+
+### Linux rpm 패키지 설치 실패
+
+> 의존성 검사 실패 libXScrnSaver 필요함
+
+```bash
+sudo yum install epel-release
+sudo yum install libXScrnSaver
+```
+
+> 종속성 검사 실패 xdg-utils가 필요합니다
+
+```bash
+sudo yum install xdg-utils
 ```
 
 ## 📚 데이터 구조
@@ -446,6 +457,6 @@ sudo apt-get install libxss1
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-01
 
 ---

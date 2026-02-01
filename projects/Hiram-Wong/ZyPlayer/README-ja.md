@@ -65,57 +65,53 @@
 
 # ソフトウェア紹介
 
-zyfunは無料で、極めてシンプルかつ多機能なクロスプラットフォーム対応の映像＆音楽マネージャーです。T1～T4全タイプのリソースを一括管理でき、内蔵マルチコアプレーヤーで自在に切り替え可能。独自のボスキーでワンクリックでのステルス機能も搭載、安心して仕事中にも楽しめます。映画・動画で世界を発見しましょう！
+zyfunは、無料・ミニマル・多機能のクロスプラットフォーム型メディアマネージャーです。T1～T4の全タイプ資源を一括管理し、内蔵マルチコアプレイヤーで自在に切替可能。独自の「ボスキー」機能でワンクリック隠蔽、こっそり視聴も安心。映画鑑賞で世界を発見しよう！
 
 <details>
-<summary>ソフトウェアのスクリーンショットを展開する</summary>
+<summary>クリックしてソフトウェアのスクリーンショットを見る</summary>
 
-|                              映画・動画（ホーム）                              |                              映画・動画（検索）                              |
-| :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: |
-| ![映画・動画-ホーム](https://s2.loli.net/2024/07/20/T8diRvA1q2QaJmP.png)     | ![映画・動画-検索](https://s2.loli.net/2024/07/20/utwCUsVG6c7ShRJ.png)       |
-|                              映画・動画（再生）                              |                                解析（ホーム）                                |
-| ![映画・動画再生](https://s2.loli.net/2024/07/20/DNFBu3LphASROVy.png)         | ![解析-ホーム](https://s2.loli.net/2024/07/20/JZANVebW4EHOU7I.png)           |
-|                                 ライブ（ホーム）                             |                                ライブ（再生）                                |
-| ![ライブ-ホーム](https://s2.loli.net/2024/07/20/ucxSw3nR2EahG59.png)         | ![ライブ-再生](https://s2.loli.net/2024/07/20/jYEFc6NOwtdWJBV.png)           |
-|                                 履歴                                         |                                 設定                                         |
-| ![履歴](https://s2.loli.net/2024/07/20/DiYsx4fbcH3KU6T.png)  |   ![設定](https://s2.loli.net/2024/07/20/QeaDxZ2IYCFoVki.png)    |
+|                    映画・ドラマ                    |                   ライブ配信               |
+| :-----------------------------------------: | :--------------------------------------: |
+|  ![影视](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-film.png)   | ![直播](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-live.png) |
+|                  **履歴**                   |                 **再生**                 |
+| ![历史](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-history.png) | ![播放](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-play.png) |
 
 </details>
 
 ## 🌴 注意事項
 
-- 本ソフトウェアはGithubでのみ公開されています。詐欺にご注意ください。管理者の方は宣伝や誘導を行わないでください。
-- 合法的な視聴を強く推奨します。本ソフトウェアは再生ツールとしてのみ提供されており、リソースの保存や配布には関与しません。
-- 本ソフトウェアは個人の学習・交流目的に限りご利用ください。24時間以内にアンインストールし、商用利用はお控えください。
+- 本ソフトウェアはGithubのみで公開されています。詐欺にご注意ください。管理者の方は本ソフトの宣伝・誘導をしないでください。
+- 合法的な視聴を強く推奨します。本ソフトは再生ツールであり、リソースの保存や配布には関与しません。
+- 本ソフトは個人の学習・交流目的のみで使用してください。24時間以内に自主的にアンインストールし、商用利用は禁止です。
 - 前身は[ZY-Player](https://github.com/Hunlongyu/ZY-Player)であり、アイコンは@fourbeautyがデザインしました。
-- ご利用開始前に必ずユーザー規約をよく読み、同意の上、関連規定を遵守してください。
+- ご利用開始前に必ずユーザー規約をよくお読みいただき、規定を遵守してください。
 
 ## 💻 クロスプラットフォームの説明
 
 - **MacOS**:
-  - arm64（Appleチップ）/x64（Intelチップ）用インストーラーを提供
-  - データベース/ファイル/プラグイン/ログのパス: `~/Library/Application Support/zyfun/`
-  - バイナリのパス: `~/.zy/bin/`
+  - arm64（Appleシリコン）/x64（Intel）アーキテクチャのインストーラーを提供
+  - データベース/ファイル/プラグイン/ログパス: `~/Library/Application Support/zyfun/`
+  - バイナリパス: `~/.zy/bin/`
 - **Linux**:
   - arm64/x64アーキテクチャ用-image/debインストーラーを提供
-  - データベース/ファイル/プラグイン/ログのパス: `~/.config/zyfun/`
-  - バイナリのパス: `~/.zy/bin/`
+  - データベース/ファイル/プラグイン/ログパス: `~/.config/zyfun/`
+  - バイナリパス: `~/.zy/bin/`
 - **Windows**:
   - arm64/x64アーキテクチャ用インストーラーを提供
-  - データベース/ファイル/プラグイン/ログのパス: `%USERPROFILE%\AppData\Roaming\zyfun\`
-  - バイナリのパス: `%USERPROFILE%\.zy\bin\`
+  - データベース/ファイル/プラグイン/ログパス: `%USERPROFILE%\AppData\Roaming\zyfun\`
+  - バイナリパス: `%USERPROFILE%\.zy\bin\`
   <!-- - **OpenHarmony**:
   - arm64/x64アーキテクチャ用インストーラーを提供
-  - データベース/ファイル/プラグイン/ログのパス: `/data/storage/zyfun/base/files/log`
-  - バイナリのパス: `~/.zy/bin/`-->
+  - データベース/ファイル/プラグイン/ログパス: `/data/storage/zyfun/base/files/log`
+  - バイナリパス: `~/.zy/bin/`-->
 
-## 🛠️ ダウンロード・インストール
+## 🛠️ ダウンロードとインストール
 
-> **最新リリース版のダウンロード**: [GitHub Releasesページ](https://github.com/Hiram-Wong/ZyPlayer/releases)にアクセスしてください
+> **最新リリース版ダウンロード**: [GitHub Releasesページ](https://github.com/Hiram-Wong/ZyPlayer/releases) から入手
 
-> **最新開発版のダウンロード**: [GitHub Actionsページ](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml)にアクセスしてください。Githubアカウントへのログインが必要です
+> **最新開発版ダウンロード**: [GitHub Actionsページ](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml) から入手、Githubアカウントでログインが必要
 
-### MacOS インストール後に「ファイルが破損しています」と表示される場合
+### MacOSでインストール後に「ファイルが破損しています」と表示される場合
 
 ```bash
 sudo spctl --master-disable
@@ -127,7 +123,7 @@ sudo xattr -cr /Applications/zyfun.app
 > --no-sandboxなしでrootとして実行することはサポートされていません
 
 ```bash
-./文件名.AppImage --no-sandbox
+./zyfun.AppImage --no-sandbox
 ```
 
 > dlopen()：libfuse.so.2 の読み込みエラー
@@ -142,9 +138,9 @@ sudo apt-get install libfuse2
 xhost +
 ```
 
-### Linux debインストール失敗
+### Linux debパッケージのインストール失敗
 
-> パッケージ libnss3-1d がインストールされていません
+> パッケージ libnss3-1d はインストールされていません
 
 ```bash
 sudo apt-get install libnss3-1d
@@ -154,6 +150,21 @@ sudo apt-get install libnss3-1d
 
 ```bash
 sudo apt-get install libxss1
+```
+
+### Linux rpmパッケージのインストール失敗
+
+> 依存関係のチェックに失敗しました libXScrnSaverが必要です
+
+```bash
+sudo yum install epel-release
+sudo yum install libXScrnSaver
+```
+
+> 依存関係のチェックに失敗しました xdg-utils が必要です
+
+```bash
+sudo yum install xdg-utils
 ```
 
 ## 📚 データ構造
@@ -446,6 +457,6 @@ sudo apt-get install libxss1
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-01
 
 ---

@@ -38,7 +38,6 @@
 </p>
 
 <div align="center">
-
 [![][github-release-shield]][github-release-link]
 [![][github-nightly-shield]][github-nightly-link]
 [![][github-license-shield]][github-license-link]
@@ -65,57 +64,54 @@
 
 # Pengantar Perangkat Lunak
 
-zyfun adalah manajer media lintas platform yang gratis, sangat sederhana, dan serbaguna, untuk mengelola semua jenis sumber daya T1-T4 dalam satu tempat, dengan pemutar multi-core bawaan yang bisa berganti-ganti secara fleksibel. Dilengkapi tombol bos eksklusif, satu klik untuk mode siluman agar kerja diam-diam tanpa khawatir. Temukan dunia melalui menonton!
+zyfun adalah manajer multimedia lintas platform yang gratis, minimalis, dan serba bisa, mengelola semua jenis sumber daya T1-T4 secara terpadu, dengan pemutar multi-inti bawaan yang dapat diganti sesuka hati. Tombol Boss eksklusif, satu klik untuk mode sembunyi, bebas khawatir saat "curi waktu". Temukan dunia melalui tontonan!
 
 <details>
 <summary>Klik untuk melihat tangkapan layar perangkat lunak</summary>
 
-|                            Film & TV (Beranda)                   |                            Film & TV (Pencarian)                 |
-| :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-| ![影视-首页](https://s2.loli.net/2024/07/20/T8diRvA1q2QaJmP.png) | ![影视-搜索](https://s2.loli.net/2024/07/20/utwCUsVG6c7ShRJ.png) |
-|                            Film & TV (Pemutaran)                 |                            Parsing (Beranda)                     |
-| ![影视播放](https://s2.loli.net/2024/07/20/DNFBu3LphASROVy.png)  | ![解析-首页](https://s2.loli.net/2024/07/20/JZANVebW4EHOU7I.png) |
-|                            Live (Beranda)                        |                            Live (Pemutaran)                      |
-| ![直播-首页](https://s2.loli.net/2024/07/20/ucxSw3nR2EahG59.png) | ![直播-播放](https://s2.loli.net/2024/07/20/jYEFc6NOwtdWJBV.png) |
-|                             Riwayat                              |                               Pengaturan                          |
-| ![Riwayat](https://s2.loli.net/2024/07/20/DiYsx4fbcH3KU6T.png)  |   ![Pengaturan](https://s2.loli.net/2024/07/20/QeaDxZ2IYCFoVki.png)    |
+|                  Film/Serial                |                    Live                  |
+| :-----------------------------------------: | :--------------------------------------: |
+|  ![影视](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-film.png)   | ![直播](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-live.png) |
+|                 **Riwayat**                 |                 **Putar**                |
+| ![历史](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-history.png) | ![播放](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-play.png) |
 
 </details>
 
+
 ## 🌴 Catatan Penting
 
-- Hanya dirilis di Github, jangan tertipu; para admin harap tidak mempromosikan atau menarik pengguna ke software ini.
-- Sangat menganjurkan untuk menonton secara legal, software ini hanya sebagai alat pemutar, tidak terlibat dalam penyimpanan atau distribusi sumber daya.
-- Hanya untuk keperluan pembelajaran dan diskusi pribadi, harap uninstall dalam 24 jam, jangan digunakan untuk tujuan komersial.
-- Awalnya berasal dari [ZY-Player](https://github.com/Hunlongyu/ZY-Player), ikon didesain oleh @fourbeauty.
-- Sebelum mulai menggunakan, harap baca dan setujui perjanjian pengguna, serta pastikan mematuhi ketentuan terkait.
+- Hanya dirilis di Github ini, jangan mudah tertipu; mohon kepada para admin untuk tidak mempromosikan atau menarik pengguna ke perangkat lunak ini.
+- Sangat menganjurkan menonton secara legal, perangkat lunak ini hanya sebagai alat pemutar, tidak terlibat dalam penyimpanan atau distribusi sumber daya.
+- Hanya untuk pembelajaran dan pertukaran pribadi, harap hapus dalam 24 jam, jangan digunakan untuk tujuan komersial.
+- Berasal dari [ZY-Player](https://github.com/Hunlongyu/ZY-Player), ikon dirancang oleh @fourbeauty.
+- Sebelum mulai menggunakan, harap baca dengan seksama dan setujui perjanjian pengguna, pastikan mematuhi peraturan terkait.
 
 ## 💻 Penjelasan Lintas Platform
 
 - **MacOS**:
-  - Tersedia paket instalasi arm64 (chip Apple) / x64 (chip Intel)
-  - Path Database/Berkas/Plugin/Log: `~/Library/Application Support/zyfun/`
-  - Path Binary: `~/.zy/bin/`
+  - Menyediakan paket instalasi arsitektur arm64 (chip Apple)/x64 (chip Intel)
+  - Jalur Database/Berkas/Plugin/Log: `~/Library/Application Support/zyfun/`
+  - Jalur biner: `~/.zy/bin/`
 - **Linux**:
-  - Tersedia paket instalasi image/deb arm64/x64
-  - Path Database/Berkas/Plugin/Log: `~/.config/zyfun/`
-  - Path Binary: `~/.zy/bin/`
+  - Menyediakan paket instalasi-image/deb arsitektur arm64/x64
+  - Jalur Database/Berkas/Plugin/Log: `~/.config/zyfun/`
+  - Jalur biner: `~/.zy/bin/`
 - **Windows**:
-  - Tersedia paket instalasi arm64/x64
-  - Path Database/Berkas/Plugin/Log: `%USERPROFILE%\AppData\Roaming\zyfun\`
-  - Path Binary: `%USERPROFILE%\.zy\bin\`
+  - Menyediakan paket instalasi arsitektur arm64/x64
+  - Jalur Database/Berkas/Plugin/Log: `%USERPROFILE%\AppData\Roaming\zyfun\`
+  - Jalur biner: `%USERPROFILE%\.zy\bin\`
   <!-- - **OpenHarmony**:
-  - Tersedia paket instalasi arm64/x64
-  - Path Database/Berkas/Plugin/Log: `/data/storage/zyfun/base/files/log`
-  - Path Binary: `~/.zy/bin/`-->
+  - Menyediakan paket instalasi arsitektur arm64/x64
+  - Jalur Database/Berkas/Plugin/Log: `/data/storage/zyfun/base/files/log`
+  - Jalur biner: `~/.zy/bin/`-->
 
-## 🛠️ Instalasi & Unduh
+## 🛠️ Unduh & Instalasi
 
-> **Unduh rilis terbaru**: Kunjungi [Halaman Rilis GitHub](https://github.com/Hiram-Wong/ZyPlayer/releases) untuk mendapatkan
+> **Unduhan versi rilis terbaru**: Kunjungi [Halaman Rilis GitHub](https://github.com/Hiram-Wong/ZyPlayer/releases) untuk mendapatkan
 
-> **Unduh versi pengembangan terbaru**: Kunjungi [Halaman Actions GitHub](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml) untuk mendapatkan, wajib login akun Github
+> **Unduhan versi pengembangan terbaru**: Kunjungi [Halaman GitHub Actions](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml) untuk mendapatkan, perlu login akun Github
 
-### Setelah instalasi di MacOS, muncul peringatan "File rusak"
+### Setelah instalasi MacOS, muncul peringatan "File Rusak"
 
 ```bash
 sudo spctl --master-disable
@@ -127,7 +123,7 @@ sudo xattr -cr /Applications/zyfun.app
 > Menjalankan sebagai root tanpa --no-sandbox tidak didukung
 
 ```bash
-./文件名.AppImage --no-sandbox
+./zyfun.AppImage --no-sandbox
 ```
 
 > dlopen(): kesalahan saat memuat libfuse.so.2
@@ -142,7 +138,7 @@ sudo apt-get install libfuse2
 xhost +
 ```
 
-### Instalasi deb Linux gagal
+### Kegagalan Instalasi Paket deb Linux
 
 > Paket libnss3-1d tidak terpasang
 
@@ -154,6 +150,21 @@ sudo apt-get install libnss3-1d
 
 ```bash
 sudo apt-get install libxss1
+```
+
+### Instalasi paket rpm Linux gagal
+
+> Pemeriksaan dependensi gagal libXScrnSaver diperlukan
+
+```bash
+sudo yum install epel-release
+sudo yum install libXScrnSaver
+```
+
+> Pemeriksaan dependensi gagal xdg-utils diperlukan
+
+```bash
+sudo yum install xdg-utils
 ```
 
 ## 📚 Struktur Data
@@ -446,6 +457,6 @@ Berikut adalah beberapa cara Anda dapat berkontribusi:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-01
 
 ---

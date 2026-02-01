@@ -1,0 +1,479 @@
+[
+  {
+    "Id": 1,
+    "Content": "# River Poker Solver\n\nThis repository builds a no-limit Texas hold'em river subgame solver, starting with Kuhn and Leduc poker for validation. Core algorithms include CFR, CFR+, external-sampling MCCFR, Fictitious Play, and DCFR. Python is the reference implementation; C++ targets performance.\n\n## Repository Layout\n\n- `python/` reference implementation (algorithms, games, CLI tooling).\n- `cpp/` optimized C++ river solver.\n\nContributor guide: see `AGENTS.md`.\n\n## Quick Start\n\nPython (Kuhn/Leduc):\n",
+    "ContentSha": "S/1s+VvcBw2WwIjgYSHZpOKNVVgbkrm3lONjbIOzYE8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# リバーポーカーソルバー\n\nこのリポジトリは、ノーリミットテキサスホールデムのリバーサブゲームソルバーを構築しており、検証のためにクーンポーカーとルーダックポーカーから開始します。コアアルゴリズムにはCFR、CFR+、外部サンプリングMCCFR、フィクティシャスプレイ、DCFRが含まれます。Pythonはリファレンス実装であり、C++はパフォーマンスを目指しています。\n\n## リポジトリ構成\n\n- `python/` リファレンス実装（アルゴリズム、ゲーム、CLIツール）。\n- `cpp/` 最適化されたC++リバーソルバー。\n\nコントリビューターガイド：`AGENTS.md`を参照してください。\n\n## クイックスタート\n\nPython（クーン／ルーダック）：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZJUGM7LAr+Lf2fgawLB4rM29JjCr0/sm/8I/o2dysIU=",
+        "originContent": "# River Poker Solver",
+        "translatedContent": "# リバーポーカーソルバー"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "34CJO7ikBn9Fzgo/zJkcBX9WDlXmqZw1Wck0K+a871M=",
+        "originContent": "This repository builds a no-limit Texas hold'em river subgame solver, starting with Kuhn and Leduc poker for validation. Core algorithms include CFR, CFR+, external-sampling MCCFR, Fictitious Play, and DCFR. Python is the reference implementation; C++ targets performance.",
+        "translatedContent": "このリポジトリは、ノーリミットテキサスホールデムのリバーサブゲームソルバーを構築しており、検証のためにクーンポーカーとルーダックポーカーから開始します。コアアルゴリズムにはCFR、CFR+、外部サンプリングMCCFR、フィクティシャスプレイ、DCFRが含まれます。Pythonはリファレンス実装であり、C++はパフォーマンスを目指しています。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "9kut1W+z0TDa+ktk0pnzMAKA1+KzcSJT+TtzWkuJ8TA=",
+        "originContent": "## Repository Layout",
+        "translatedContent": "## リポジトリ構成"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "QVvpC2kH16d6H4iC0vuu0jcCbifkYthH2aHZEmar3Lw=",
+        "originContent": "- `python/` reference implementation (algorithms, games, CLI tooling).",
+        "translatedContent": "- `python/` リファレンス実装（アルゴリズム、ゲーム、CLIツール）。"
+      },
+      {
+        "row": 8,
+        "rowsha": "en6iTs01J+Fl9bC0QRrbb3MwOxY/zle5F5h0PGP4Z/w=",
+        "originContent": "- `cpp/` optimized C++ river solver.",
+        "translatedContent": "- `cpp/` 最適化されたC++リバーソルバー。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "fhFTimtyuDyBF9hjy5vKa5PSlDYo+zWjK+MatoSDki4=",
+        "originContent": "Contributor guide: see `AGENTS.md`.",
+        "translatedContent": "コントリビューターガイド：`AGENTS.md`を参照してください。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## クイックスタート"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "G+Q1F+yrTv6xndwGHVgtEbJgN43A3ydpAU5T+1Z9MyM=",
+        "originContent": "Python (Kuhn/Leduc):",
+        "translatedContent": "Python（クーン／ルーダック）："
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\nPYTHONPATH=python/src python -m cli.run_exploitability --game kuhn --algo cfr\n```",
+    "ContentSha": "1po7grbNK7qmuu8kpYWXvXWshPml4lwxmPnJKbs7mWo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nPYTHONPATH=python/src python -m cli.run_exploitability --game kuhn --algo cfr\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "cZfDmx1taK8xTjT+TfJP/sWaNI/uCGY9dgiCKWZ/X18=",
+        "originContent": "PYTHONPATH=python/src python -m cli.run_exploitability --game kuhn --algo cfr",
+        "translatedContent": "PYTHONPATH=python/src python -m cli.run_exploitability --game kuhn --algo cfr"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nPython (river defaults):\n",
+    "ContentSha": "IIouBFkB4y5w5MjTolDD0qN8/rnE90QL5yKYEoZzRtU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nPython（リバーのデフォルト）：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "LwTDPmH7eQkRyvD8vRiN3P3gF1Q6AnFxJcgbAL3wvH0=",
+        "originContent": "Python (river defaults):",
+        "translatedContent": "Python（リバーのデフォルト）："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh\nPYTHONPATH=python/src python -m cli.run_river_exploitability --algo cfr+\n```",
+    "ContentSha": "uFEiQAvUhw0Z33mrekeeKrj/8YpSSXZ5mAMw0IgkruI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nPYTHONPATH=python/src python -m cli.run_river_exploitability --algo cfr+\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "VSlQpro00XiZXYYXZ5Q5RV0bYinqz8uYwi/Z5UJxFCM=",
+        "originContent": "PYTHONPATH=python/src python -m cli.run_river_exploitability --algo cfr+",
+        "translatedContent": "PYTHONPATH=python/src python -m cli.run_river_exploitability --algo cfr+"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nOptimized C++ (river defaults):\n",
+    "ContentSha": "VJ02vKvunYXDYO/dYEnOlqYAcWM01zWdIYuYC5Px93o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n最適化された C++（river デフォルト）：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iJuW7WjJB+6orn/deABC/UjYoBqdveKQOLiJnXRxYRM=",
+        "originContent": "Optimized C++ (river defaults):",
+        "translatedContent": "最適化された C++（river デフォルト）："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```sh\ncmake -S cpp -B cpp/build\ncmake --build cpp/build -j\n./cpp/build/river_solver_optimized --algo cfr+ --iters 2000\n```",
+    "ContentSha": "yp0KcQhZIkOGhpgfpgm2CRSwFvVFzqc4+kT0eTv2cLM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ncmake -S cpp -B cpp/build\ncmake --build cpp/build -j\n./cpp/build/river_solver_optimized --algo cfr+ --iters 2000\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "nB+/FAGdHv292jdEW+U36i4QznBALEHv8fE9wEWzfLo=",
+        "originContent": "cmake -S cpp -B cpp/build",
+        "translatedContent": "cmake -S cpp -B cpp/build"
+      },
+      {
+        "row": 3,
+        "rowsha": "EBul9dfCQC39yITE+SPb+qAMMyfaPxHm/YO/L+sSCCs=",
+        "originContent": "cmake --build cpp/build -j",
+        "translatedContent": "cmake --build cpp/build -j"
+      },
+      {
+        "row": 4,
+        "rowsha": "2cNEM30uRAKu7fEKVZjhsfqpVk72f7U77crHQbzOXPY=",
+        "originContent": "./cpp/build/river_solver_optimized --algo cfr+ --iters 2000",
+        "translatedContent": "./cpp/build/river_solver_optimized --algo cfr+ --iters 2000"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## Subgame JSON Format\n\nGUI exports a JSON file that both C++ solvers can load with `--config`. Key fields:\n",
+    "ContentSha": "EEfVarnBl9iNFoHDayr33QjW6x67pZVjofev1DqKw/8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## サブゲームJSONフォーマット\n\nGUIは、C++ソルバーの両方が`--config`で読み込めるJSONファイルをエクスポートします。主なフィールド：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "YeaQaxDcSB7Henxlr+x0aADLwGB1aBwoN0YcpIALmFc=",
+        "originContent": "## Subgame JSON Format",
+        "translatedContent": "## サブゲームJSONフォーマット"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "7ywvoyh2zTJOe9S3PVlBRVRf9fzshV9Hy40VG7RI1ac=",
+        "originContent": "GUI exports a JSON file that both C++ solvers can load with `--config`. Key fields:",
+        "translatedContent": "GUIは、C++ソルバーの両方が`--config`で読み込めるJSONファイルをエクスポートします。主なフィールド："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```json\n{\n  \"board\": [\"Ks\", \"Th\", \"7s\", \"4d\", \"2s\"],\n  \"pot\": 1000,\n  \"stack\": 9500,\n  \"bet_sizes\": [1.0],\n  \"include_all_in\": true,\n  \"max_raises\": 1000,\n  \"players\": [\n    {\"hands\": [\"AsKd\", \"...\"], \"weights\": [1.0, \"...\"]},\n    {\"hands\": [\"AsKd\", \"...\"], \"weights\": [1.0, \"...\"]}\n  ]\n}\n```",
+    "ContentSha": "T7mz/ktNuwzV8lRu4Ka7B6IhHSjIrO1sJuHaA+8pigQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"board\": [\"Ks\", \"Th\", \"7s\", \"4d\", \"2s\"],\n  \"pot\": 1000,\n  \"stack\": 9500,\n  \"bet_sizes\": [1.0],\n  \"include_all_in\": true,\n  \"max_raises\": 1000,\n  \"players\": [\n    {\"hands\": [\"AsKd\", \"...\"], \"weights\": [1.0, \"...\"]},\n    {\"hands\": [\"AsKd\", \"...\"], \"weights\": [1.0, \"...\"]}\n  ]\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "OYdoCYijtMpVUi3/IvPej4szSFaZagGzzdW21+olyKA=",
+        "originContent": "  \"board\": [\"Ks\", \"Th\", \"7s\", \"4d\", \"2s\"],",
+        "translatedContent": "  \"board\": [\"Ks\", \"Th\", \"7s\", \"4d\", \"2s\"],"
+      },
+      {
+        "row": 4,
+        "rowsha": "IlNGQYUVFjm6NZB8UBw0zlU+Gr4LejYMh5e9CEv7BME=",
+        "originContent": "  \"pot\": 1000,",
+        "translatedContent": "  \"pot\": 1000,"
+      },
+      {
+        "row": 5,
+        "rowsha": "OIFyWRnL5oHptivZ3Q5pTqBqnx/8ahwK8n1bxNCf558=",
+        "originContent": "  \"stack\": 9500,",
+        "translatedContent": "  \"stack\": 9500,"
+      },
+      {
+        "row": 6,
+        "rowsha": "7U/wzOqqVingLOuTheaiFQZ5SEmbYpD0muQis+8aNHw=",
+        "originContent": "  \"bet_sizes\": [1.0],",
+        "translatedContent": "  \"bet_sizes\": [1.0],"
+      },
+      {
+        "row": 7,
+        "rowsha": "yL3UUzOe59XKKcns8OYg76TQlB1ptoHOQbeAielS/dk=",
+        "originContent": "  \"include_all_in\": true,",
+        "translatedContent": "  \"include_all_in\": true,"
+      },
+      {
+        "row": 8,
+        "rowsha": "zpYfP5h+YpT8l7/C5ZfQ5dkSN3B7NlLWf86opb0R6UI=",
+        "originContent": "  \"max_raises\": 1000,",
+        "translatedContent": "  \"max_raises\": 1000,"
+      },
+      {
+        "row": 9,
+        "rowsha": "lvW6WYNdZlb4Iy7FVK+q5oz92AOJklAOzJ04K2+JgBE=",
+        "originContent": "  \"players\": [",
+        "translatedContent": "  \"players\": ["
+      },
+      {
+        "row": 10,
+        "rowsha": "nyuUqEBeVLMDL0PnqYm6LQj1Hkcgtowl03GkscfYZqE=",
+        "originContent": "    {\"hands\": [\"AsKd\", \"...\"], \"weights\": [1.0, \"...\"]},",
+        "translatedContent": "    {\"hands\": [\"AsKd\", \"...\"], \"weights\": [1.0, \"...\"]},"
+      },
+      {
+        "row": 11,
+        "rowsha": "3Qni5OeF5WAZHiauIXddqLanSUMTmGuKXJ6i3sTv0no=",
+        "originContent": "    {\"hands\": [\"AsKd\", \"...\"], \"weights\": [1.0, \"...\"]}",
+        "translatedContent": "    {\"hands\": [\"AsKd\", \"...\"], \"weights\": [1.0, \"...\"]}"
+      },
+      {
+        "row": 12,
+        "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
+        "originContent": "  ]",
+        "translatedContent": "  ]"
+      },
+      {
+        "row": 13,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nAdvanced sizing arrays (`oop_first_bets`, `ip_first_bets`, `oop_first_raises`, `ip_first_raises`, `oop_next_raises`,\n`ip_next_raises`) are optional and default to `bet_sizes` when omitted.\n\n## Notes\n\n- Defaults use a uniform range, board `Ks Th 7s 4d 2s`, pot 1000, stacks 9500, and bet sizes `0.5, 1.0` with all-in enabled.\n- For subgames saved from the GUI, pass `--config path/to/subgame.json`.\n",
+    "ContentSha": "arB78xEkVoELyJfffozoimDct5oMcRtBrUmn4gwtrAw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n高度なサイズ配列（`oop_first_bets`、`ip_first_bets`、`oop_first_raises`、`ip_first_raises`、`oop_next_raises`、\n`ip_next_raises`）はオプションで、省略した場合は `bet_sizes` がデフォルトとなります。\n\n## 注意事項\n\n- デフォルトは均一なレンジ、ボードは `Ks Th 7s 4d 2s`、ポットは1000、スタックは9500、ベットサイズは `0.5, 1.0` でオールインが有効です。\n- GUIから保存したサブゲームの場合は、`--config path/to/subgame.json` を指定してください。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "nJFBpTXxnITo6Ns9tUy08er0U5hgLwG03D5FK3kmxjo=",
+        "originContent": "Advanced sizing arrays (`oop_first_bets`, `ip_first_bets`, `oop_first_raises`, `ip_first_raises`, `oop_next_raises`,",
+        "translatedContent": "高度なサイズ配列（`oop_first_bets`、`ip_first_bets`、`oop_first_raises`、`ip_first_raises`、`oop_next_raises`、"
+      },
+      {
+        "row": 3,
+        "rowsha": "kpQ5XyV6ukcs/dQN2UFR+LeMPhHqscFWra/yfOAipoE=",
+        "originContent": "`ip_next_raises`) are optional and default to `bet_sizes` when omitted.",
+        "translatedContent": "`ip_next_raises`）はオプションで、省略した場合は `bet_sizes` がデフォルトとなります。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Y+E+h7N40ehfg46tJn25AgwUV7ERijfgr5+1+XYUT0s=",
+        "originContent": "## Notes",
+        "translatedContent": "## 注意事項"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "KfDZPpT5N5FBP3rjCcxUddKyYBR7xKGXdDOhNbeeIlk=",
+        "originContent": "- Defaults use a uniform range, board `Ks Th 7s 4d 2s`, pot 1000, stacks 9500, and bet sizes `0.5, 1.0` with all-in enabled.",
+        "translatedContent": "- デフォルトは均一なレンジ、ボードは `Ks Th 7s 4d 2s`、ポットは1000、スタックは9500、ベットサイズは `0.5, 1.0` でオールインが有効です。"
+      },
+      {
+        "row": 8,
+        "rowsha": "szmNx9C7R0bayCKhTlwWIeG0BXJvlUXsKybUIJ1If+o=",
+        "originContent": "- For subgames saved from the GUI, pass `--config path/to/subgame.json`.",
+        "translatedContent": "- GUIから保存したサブゲームの場合は、`--config path/to/subgame.json` を指定してください。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

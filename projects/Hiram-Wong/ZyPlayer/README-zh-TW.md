@@ -65,29 +65,25 @@
 
 # 軟體介紹
 
-zyfun 是一款免費、極簡、全能的跨平台影音管家，一站式管理 T1-T4 全類型資源，內建多核心播放器隨心切換。獨家老板鍵，一鍵隱身摸魚無憂。用觀影發現世界！
+zyfun 是一款免費、極簡、全能的跨平台影音管家，一站式管理 T1-T4 全類型資源，內建多核播放器隨心切換。獨家老闆鍵，一鍵隱身摸魚無憂。用觀影發現世界！
 
 <details>
 <summary>展開查看軟體截圖</summary>
 
-|                            影視(首頁)                            |                            影視(搜尋)                            |
-| :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-| ![影視-首页](https://s2.loli.net/2024/07/20/T8diRvA1q2QaJmP.png) | ![影視-搜尋](https://s2.loli.net/2024/07/20/utwCUsVG6c7ShRJ.png) |
-|                            影視(播放)                            |                            解析(首頁)                            |
-| ![影視播放](https://s2.loli.net/2024/07/20/DNFBu3LphASROVy.png)  | ![解析-首页](https://s2.loli.net/2024/07/20/JZANVebW4EHOU7I.png) |
-|                            直播(首頁)                            |                            直播(播放)                            |
-| ![直播-首页](https://s2.loli.net/2024/07/20/ucxSw3nR2EahG59.png) | ![直播-播放](https://s2.loli.net/2024/07/20/jYEFc6NOwtdWJBV.png) |
-|                             歷史記錄                             |                               設定                               |
-| ![歷史記錄](https://s2.loli.net/2024/07/20/DiYsx4fbcH3KU6T.png)  |   ![設定](https://s2.loli.net/2024/07/20/QeaDxZ2IYCFoVki.png)    |
+|                    影視                     |                   直播                   |
+| :-----------------------------------------: | :--------------------------------------: |
+|  ![影視](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-film.png)   | ![直播](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-live.png) |
+|                  **歷史**                   |                 **播放**                 |
+| ![歷史](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-history.png) | ![播放](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-play.png) |
 
 </details>
 
 ## 🌴 注意事項
 
 - 僅此Github發布，請勿上當受騙；請各管理者不要宣傳及引流本軟體。
-- 強烈倡導合法觀影，本軟體僅作為播放工具，不涉及資源存儲或分發。
+- 強烈倡導合法觀影，本軟體僅作為播放工具，不涉及資源儲存或分發。
 - 僅供個人學習交流之用，24小時內請自覺卸載，勿作商業用途。
-- 前身來源於[ZY-Player](https://github.com/Hunlongyu/ZY-Player)，圖示由@fourbeauty設計。
+- 前身來源於[ZY-Player](https://github.com/Hunlongyu/ZY-Player)，圖標由@fourbeauty設計。
 - 在開始使用前，請務必詳讀並同意用戶協議，確保遵守相關規定。
 
 ## 💻 跨平台說明
@@ -95,23 +91,23 @@ zyfun 是一款免費、極簡、全能的跨平台影音管家，一站式管�
 - **MacOS**:
   - 提供 arm64(蘋果晶片)/x64(英特爾晶片)架構安裝包
   - 資料庫/檔案/插件/日誌 路徑: `~/Library/Application Support/zyfun/`
-  - 二進位 路徑: `~/.zy/bin/`
+  - 執行檔 路徑: `~/.zy/bin/`
 - **Linux**:
   - 提供 arm64/x64架構-image/deb安裝包
   - 資料庫/檔案/插件/日誌 路徑: `~/.config/zyfun/`
-  - 二進位 路徑: `~/.zy/bin/`
+  - 執行檔 路徑: `~/.zy/bin/`
 - **Windows**:
   - 提供 arm64/x64架構安裝包
   - 資料庫/檔案/插件/日誌 路徑: `%USERPROFILE%\AppData\Roaming\zyfun\`
-  - 二進位 路徑: `%USERPROFILE%\.zy\bin\`
+  - 執行檔 路徑: `%USERPROFILE%\.zy\bin\`
   <!-- - **OpenHarmony**:
   - 提供 arm64/x64架構安裝包
   - 資料庫/檔案/插件/日誌 路徑: `/data/storage/zyfun/base/files/log`
-  - 二進位 路徑: `~/.zy/bin/`-->
+  - 執行檔 路徑: `~/.zy/bin/`-->
 
 ## 🛠️ 下載安裝
 
-> **最新發布版下載**: 請前往 [GitHub Releases頁面](https://github.com/Hiram-Wong/ZyPlayer/releases) 取得
+> **最新發佈版下載**: 請前往 [GitHub Releases頁面](https://github.com/Hiram-Wong/ZyPlayer/releases) 取得
 
 > **最新開發版下載**: 請前往 [GitHub Actions頁面](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml) 取得，需登入Github帳號
 
@@ -127,7 +123,7 @@ sudo xattr -cr /Applications/zyfun.app
 > 以 root 身份運行但未加上 --no-sandbox 不被支援
 
 ```bash
-./文件名.AppImage --no-sandbox
+./zyfun.AppImage --no-sandbox
 ```
 
 > dlopen()：錯誤載入 libfuse.so.2
@@ -142,9 +138,9 @@ sudo apt-get install libfuse2
 xhost +
 ```
 
-### Linux deb安裝失敗
+### Linux deb包安裝失敗
 
-> 未安裝套件 libnss3-1d
+> 套件 libnss3-1d 未安裝
 
 ```bash
 sudo apt-get install libnss3-1d
@@ -154,6 +150,21 @@ sudo apt-get install libnss3-1d
 
 ```bash
 sudo apt-get install libxss1
+```
+
+### Linux rpm套件安裝失敗
+
+> 相依性檢查失敗，需要 libXScrnSaver
+
+```bash
+sudo yum install epel-release
+sudo yum install libXScrnSaver
+```
+
+> 相依性檢查失敗，需安裝 xdg-utils
+
+```bash
+sudo yum install xdg-utils
 ```
 
 ## 📚 資料結構
@@ -446,6 +457,6 @@ sudo apt-get install libxss1
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-01
 
 ---

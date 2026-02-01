@@ -65,57 +65,53 @@
 
 # Software Introductie
 
-zyfun is een gratis, uiterst eenvoudige en alles-in-één cross-platform media manager, waarmee je T1-T4 bronnen van alle typen in één keer kunt beheren. Met een ingebouwde multi-core speler kun je eenvoudig schakelen. Unieke baas-toets voor directe privacy; ongestoord werken en kijken. Ontdek de wereld door films te kijken!
+zyfun is een gratis, uiterst eenvoudige en alles-in-één cross-platform mediabeheerder, waarmee je T1-T4 bronnen van elk type op één plek beheert. Voorzien van ingebouwde multi-core speler voor eenvoudig schakelen. Unieke Boss Key voor directe onzichtbaarheid, zodat je ongestoord kunt multitasken. Ontdek de wereld via films!
 
 <details>
 <summary>Bekijk software screenshots</summary>
 
-|                            Video (Home)                          |                            Video (Zoeken)                        |
-| :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-| ![影视-首页](https://s2.loli.net/2024/07/20/T8diRvA1q2QaJmP.png) | ![影视-搜索](https://s2.loli.net/2024/07/20/utwCUsVG6c7ShRJ.png) |
-|                            Video (Afspelen)                      |                            Parser (Home)                        |
-| ![影视播放](https://s2.loli.net/2024/07/20/DNFBu3LphASROVy.png)  | ![解析-首页](https://s2.loli.net/2024/07/20/JZANVebW4EHOU7I.png) |
-|                            Live (Home)                           |                            Live (Afspelen)                      |
-| ![直播-首页](https://s2.loli.net/2024/07/20/ucxSw3nR2EahG59.png) | ![直播-播放](https://s2.loli.net/2024/07/20/jYEFc6NOwtdWJBV.png) |
-|                             Geschiedenis                         |                               Instellingen                       |
-| ![Geschiedenis](https://s2.loli.net/2024/07/20/DiYsx4fbcH3KU6T.png)  |   ![Instellingen](https://s2.loli.net/2024/07/20/QeaDxZ2IYCFoVki.png)    |
+|                     Films                    |                 Live tv                  |
+| :-----------------------------------------: | :--------------------------------------: |
+|  ![Films](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-film.png)   | ![Live tv](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-live.png) |
+|                 **Geschiedenis**             |                 **Afspelen**             |
+| ![Geschiedenis](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-history.png) | ![Afspelen](https://raw.githubusercontent.com/Hiram-Wong/ZyPlayer/main/docs/assets/images/app-play.png) |
 
 </details>
 
 ## 🌴 Opmerkingen
 
-- Alleen uitgebracht via Github, wees alert op oplichting; beheerders gelieve deze software niet te promoten of verkeer naar zich toe te trekken.
-- Sterk pleidooi voor legaal kijken, deze software dient alleen als afspeeltool en omvat geen opslag of distributie van bronnen.
-- Alleen bedoeld voor persoonlijk leren en uitwisseling, verwijder a.u.b. binnen 24 uur, niet voor commercieel gebruik.
-- Oorsprong van [ZY-Player](https://github.com/Hunlongyu/ZY-Player), pictogrammen ontworpen door @fourbeauty.
-- Lees en accepteer a.u.b. de gebruikersovereenkomst zorgvuldig voor gebruik om naleving van de regels te waarborgen.
+- Alleen uitgebracht via Github, wees op uw hoede voor oplichting; beheerders worden verzocht deze software niet te promoten of te verspreiden.
+- Sterk pleiten voor legaal kijken, deze software dient uitsluitend als afspeeltool en is niet betrokken bij opslag of distributie van bronnen.
+- Enkel bedoeld voor persoonlijk leren en uitwisseling, verwijder alstublieft binnen 24 uur, niet voor commercieel gebruik.
+- Voortgekomen uit [ZY-Player](https://github.com/Hunlongyu/ZY-Player), pictogram ontworpen door @fourbeauty.
+- Lees en ga akkoord met de gebruikersovereenkomst voordat u begint, en zorg dat u zich aan de regels houdt.
 
-## 💻 Platformonafhankelijke uitleg
+## 💻 Platformoverzicht
 
 - **MacOS**:
-  - Installatiepakketten voor arm64 (Apple-chip)/x64 (Intel-chip) beschikbaar
+  - Installatiepakketten beschikbaar voor arm64 (Apple-chip)/x64 (Intel-chip) architecturen
   - Database/bestanden/plugins/logs pad: `~/Library/Application Support/zyfun/`
-  - Binaire bestanden pad: `~/.zy/bin/`
+  - Binair bestand pad: `~/.zy/bin/`
 - **Linux**:
-  - Image/deb-installatiepakketten voor arm64/x64 beschikbaar
+  - Image/deb installatiepakketten beschikbaar voor arm64/x64 architecturen
   - Database/bestanden/plugins/logs pad: `~/.config/zyfun/`
-  - Binaire bestanden pad: `~/.zy/bin/`
+  - Binair bestand pad: `~/.zy/bin/`
 - **Windows**:
-  - Installatiepakketten voor arm64/x64 beschikbaar
+  - Installatiepakketten beschikbaar voor arm64/x64 architecturen
   - Database/bestanden/plugins/logs pad: `%USERPROFILE%\AppData\Roaming\zyfun\`
-  - Binaire bestanden pad: `%USERPROFILE%\.zy\bin\`
+  - Binair bestand pad: `%USERPROFILE%\.zy\bin\`
   <!-- - **OpenHarmony**:
-  - Installatiepakketten voor arm64/x64 beschikbaar
+  - Installatiepakketten beschikbaar voor arm64/x64 architecturen
   - Database/bestanden/plugins/logs pad: `/data/storage/zyfun/base/files/log`
-  - Binaire bestanden pad: `~/.zy/bin/`-->
+  - Binair bestand pad: `~/.zy/bin/`-->
 
-## 🛠️ Download en installatie
+## 🛠️ Downloaden en installeren
 
-> **Download nieuwste releaseversie**: Ga naar [GitHub Releases-pagina](https://github.com/Hiram-Wong/ZyPlayer/releases) om te downloaden
+> **Download laatste release**: Bezoek de [GitHub Releases pagina](https://github.com/Hiram-Wong/ZyPlayer/releases) om deze te verkrijgen
 
-> **Download nieuwste ontwikkelversie**: Ga naar [GitHub Actions-pagina](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml), inloggen op Github-account vereist
+> **Download laatste ontwikkelversie**: Bezoek de [GitHub Actions pagina](https://github.com/Hiram-Wong/ZyPlayer/actions/workflows/nightly-build.yml) om deze te verkrijgen, inloggen op Github-account vereist
 
-### Na installatie op MacOS verschijnt melding "Bestand is beschadigd"
+### MacOS: Na installatie verschijnt melding "Bestand is beschadigd"
 
 ```bash
 sudo spctl --master-disable
@@ -127,7 +123,7 @@ sudo xattr -cr /Applications/zyfun.app
 > Uitvoeren als root zonder --no-sandbox wordt niet ondersteund
 
 ```bash
-./文件名.AppImage --no-sandbox
+./zyfun.AppImage --no-sandbox
 ```
 
 > dlopen(): fout bij het laden van libfuse.so.2
@@ -142,7 +138,7 @@ sudo apt-get install libfuse2
 xhost +
 ```
 
-### Linux deb-installatie mislukt
+### Linux deb-pakketinstallatie mislukt
 
 > Pakket libnss3-1d is niet geïnstalleerd
 
@@ -154,6 +150,21 @@ sudo apt-get install libnss3-1d
 
 ```bash
 sudo apt-get install libxss1
+```
+
+### Linux rpm-pakketinstallatie mislukt
+
+> Afhankelijkheidscontrole mislukt libXScrnSaver is vereist
+
+```bash
+sudo yum install epel-release
+sudo yum install libXScrnSaver
+```
+
+> Afhankelijkheidscontrole mislukt xdg-utils is vereist
+
+```bash
+sudo yum install xdg-utils
 ```
 
 ## 📚 Datastructuur
@@ -446,6 +457,6 @@ Hier zijn enkele manieren waarop u kunt bijdragen:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-01
 
 ---
