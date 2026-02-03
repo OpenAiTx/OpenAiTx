@@ -1,0 +1,215 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Как перенести музыку из Вконтакте (ВК) в Яндекс Музыку\n\nЭкспорт своего плейлиста из ВК в текстовый файл и импорт в яндекс музыку.\nСкрипт может сработать и не в своих плейлистах.\n",
+    "ContentSha": "MCtV8LcxnboHklmBWCWRMEkh3gFiE9mWv26W0pA8sgI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# How to transfer music from VKontakte (VK) to Yandex Music\n\nExport your playlist from VK to a text file and import it into Yandex Music.\nThe script may also work with playlists that are not your own.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cpCm6jXOwY9eMwuAcCXGHMnu7+SF1o42IPiyDvJYmWY=",
+        "originContent": "# Как перенести музыку из Вконтакте (ВК) в Яндекс Музыку",
+        "translatedContent": "# How to transfer music from VKontakte (VK) to Yandex Music"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "AOuVBNhlebLOcw0ZWySogU/QOa3vwwL2150/oNW3Ejs=",
+        "originContent": "Экспорт своего плейлиста из ВК в текстовый файл и импорт в яндекс музыку.",
+        "translatedContent": "Export your playlist from VK to a text file and import it into Yandex Music."
+      },
+      {
+        "row": 4,
+        "rowsha": "P04pPTv0lzod5dVlqH6+fgPGoDCa67hC6kJOE0IPgqk=",
+        "originContent": "Скрипт может сработать и не в своих плейлистах.",
+        "translatedContent": "The script may also work with playlists that are not your own."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```quote\nСтраница импорта в яндекс музыке поменялась на https://music.yandex.ru/newimport\nТеперь там вроде можно импортировать через ВК сразу, не проверял.\n```",
+    "ContentSha": "ogcTm+Di6W5YhmU+hRQ+vMVR8ijlIkGIm9UuYxdg+kU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```quote\nСтраница импорта в яндекс музыке поменялась на https://music.yandex.ru/newimport\nТеперь там вроде можно импортировать через ВК сразу, не проверял.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5y/rdcj3YUIhEaeriARyV/AzFjqStBvw4Mv2ryqQzJM=",
+        "originContent": "```quote",
+        "translatedContent": "```quote"
+      },
+      {
+        "row": 2,
+        "rowsha": "InuBDfBZvDxDytOFNhrsqoM7Kj0gyB97MoVHj/zH0H8=",
+        "originContent": "Страница импорта в яндекс музыке поменялась на https://music.yandex.ru/newimport",
+        "translatedContent": "Страница импорта в яндекс музыке поменялась на https://music.yandex.ru/newimport"
+      },
+      {
+        "row": 3,
+        "rowsha": "Umc9+3NIxgjIWZzjh90pzlTb0HHEFweMeRx+MGngft8=",
+        "originContent": "Теперь там вроде можно импортировать через ВК сразу, не проверял.",
+        "translatedContent": "Теперь там вроде можно импортировать через ВК сразу, не проверял."
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Экспорт музыки ВК в текстовый файл\n\nОткрыть в ВК страницу со своей музыкой, нажать `F12`.\n\nСкопировать скрипт со страницы\nhttps://raw.githubusercontent.com/fivemru/export-vk-playlist-to-file/main/chrome-snippet.js\nвставить его в консоль на странице ВК, и нажать `Enter`.\n\n*Скрипт проскроллит страницу до конца, чтобы прогрузился весь список и сохранит в файл `vk-playlist.txt`*\n\n__Скрины:__\n![image](https://user-images.githubusercontent.com/30273470/131132113-f00dc4d0-4bf1-4e96-be4f-5c22ef640695.png)\n\nСписок песен в файле\n\n![image](https://user-images.githubusercontent.com/30273470/131132412-d9f8453f-babd-4d9d-b439-84a9df2ec586.png)\n\nГотово.\n",
+    "ContentSha": "h2Ga1z6d37C/XS7lo6H2bMUHxXwcGxevVbTjECg8zxA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Export VK Music to a Text File\n\nOpen your VK music page, press `F12`.\n\nCopy the script from the page\nhttps://raw.githubusercontent.com/fivemru/export-vk-playlist-to-file/main/chrome-snippet.js\npaste it into the console on the VK page, and press `Enter`.\n\n*The script will scroll the page to the end to load the entire list and save it to the file `vk-playlist.txt`*\n\n__Screenshots:__\n![image](https://user-images.githubusercontent.com/30273470/131132113-f00dc4d0-4bf1-4e96-be4f-5c22ef640695.png)\n\nSong list in the file\n\n![image](https://user-images.githubusercontent.com/30273470/131132412-d9f8453f-babd-4d9d-b439-84a9df2ec586.png)\n\nDone.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "JEIb2YmkD/uuiZCgS+atxCkEqIdZkcqRgwMTydV27Uo=",
+        "originContent": "## Экспорт музыки ВК в текстовый файл",
+        "translatedContent": "## Export VK Music to a Text File"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "7XyorQchBjeG3ERBGmeK6g5J9/xcFEFu65WMZr7nSD8=",
+        "originContent": "Открыть в ВК страницу со своей музыкой, нажать `F12`.",
+        "translatedContent": "Open your VK music page, press `F12`."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "2JEICxExj0rBGA6dTikfeENRGddLVev/BlE5RAeD1N8=",
+        "originContent": "Скопировать скрипт со страницы",
+        "translatedContent": "Copy the script from the page"
+      },
+      {
+        "row": 7,
+        "rowsha": "VurNK+NANGim1UItqTr5AufTqXevzBNqT/JxZ3zGhRo=",
+        "originContent": "https://raw.githubusercontent.com/fivemru/export-vk-playlist-to-file/main/chrome-snippet.js",
+        "translatedContent": "https://raw.githubusercontent.com/fivemru/export-vk-playlist-to-file/main/chrome-snippet.js"
+      },
+      {
+        "row": 8,
+        "rowsha": "hipeuzfVYqbJor0LoMMfc6S9e1VVUoSI8iYclY6TATQ=",
+        "originContent": "вставить его в консоль на странице ВК, и нажать `Enter`.",
+        "translatedContent": "paste it into the console on the VK page, and press `Enter`."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "3JGTxqfQ3ZB+4QxTFzNB6eoCSwfOuFa2VjBHD576SiQ=",
+        "originContent": "*Скрипт проскроллит страницу до конца, чтобы прогрузился весь список и сохранит в файл `vk-playlist.txt`*",
+        "translatedContent": "*The script will scroll the page to the end to load the entire list and save it to the file `vk-playlist.txt`*"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "PAAKO2VpfVtaGzoZEVzn66Fbs/GwS1c0TyeiRqSiH18=",
+        "originContent": "__Скрины:__",
+        "translatedContent": "__Screenshots:__"
+      },
+      {
+        "row": 13,
+        "rowsha": "TMKOM0ZRYXDjDbz06xbRFTjUZDHbyG05P6u7rl62/D0=",
+        "originContent": "![image](https://user-images.githubusercontent.com/30273470/131132113-f00dc4d0-4bf1-4e96-be4f-5c22ef640695.png)",
+        "translatedContent": "![image](https://user-images.githubusercontent.com/30273470/131132113-f00dc4d0-4bf1-4e96-be4f-5c22ef640695.png)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "4a6e/tofz6eSZnf/APo1YuBaO4U3NpkoLEjpqdr7AD4=",
+        "originContent": "Список песен в файле",
+        "translatedContent": "Song list in the file"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "cchRfnECKidaChdzAvKLd6T8vYwTiXqEDvoHBv2z/jE=",
+        "originContent": "![image](https://user-images.githubusercontent.com/30273470/131132412-d9f8453f-babd-4d9d-b439-84a9df2ec586.png)",
+        "translatedContent": "![image](https://user-images.githubusercontent.com/30273470/131132412-d9f8453f-babd-4d9d-b439-84a9df2ec586.png)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "EscREihHyMi0WPaov8PqHCiGRVRbY5wLhz94GPimG4w=",
+        "originContent": "Готово.",
+        "translatedContent": "Done."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
