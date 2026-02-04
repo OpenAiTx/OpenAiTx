@@ -112,19 +112,19 @@ pkg install python -y
 python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 ```
 # ट्यूटोरियल वीडियो
-[![यूट्यूब पर चलाएँ](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
+[![यूट्यूब पर देखें](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
 
 # [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)
 
 # जानकारी
 
-**🚀 डार्ट संस्करण: 𒁍 2.7.0-dev.2.1 ➢ 3.10.7**
+**🚀 डार्ट संस्करण: 𒁍 2.7.0-dev.2.1 ➢ 3.10.8**
 
-**🚀 फ्लटर संस्करण: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.6**
+**🚀 फ्लटर संस्करण: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.9**
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-04
 
 ---

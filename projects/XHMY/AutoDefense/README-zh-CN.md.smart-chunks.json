@@ -1,0 +1,1173 @@
+[
+  {
+    "Id": 1,
+    "Content": "# AutoDefense: Multi-Agent LLM Defense against Jailbreak Attacks\n\n[**Blog**](https://microsoft.github.io/autogen/0.2/blog/2024/03/11/AutoDefense/Defending%20LLMs%20Against%20Jailbreak%20Attacks%20with%20AutoDefense/)\n\n## Installation\n",
+    "ContentSha": "ZZk4MKpie+cQNZNy9dopw0mkum8k82yTVqCZP7q7OVw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# AutoDefense：多智能体大语言模型防护越狱攻击\n\n[**博客**](https://microsoft.github.io/autogen/0.2/blog/2024/03/11/AutoDefense/Defending%20LLMs%20Against%20Jailbreak%20Attacks%20with%20AutoDefense/)\n\n## 安装\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "YduSZ9JkqiAqnruH1T+c3Tm/3NTQ9SMCVFC+SVrEawg=",
+        "originContent": "# AutoDefense: Multi-Agent LLM Defense against Jailbreak Attacks",
+        "translatedContent": "# AutoDefense：多智能体大语言模型防护越狱攻击"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Z2vynpDNZe2C2zi+uWZ/huDuzYBG3vJBkL/Hd6iedAI=",
+        "originContent": "[**Blog**](https://microsoft.github.io/autogen/0.2/blog/2024/03/11/AutoDefense/Defending%20LLMs%20Against%20Jailbreak%20Attacks%20with%20AutoDefense/)",
+        "translatedContent": "[**博客**](https://microsoft.github.io/autogen/0.2/blog/2024/03/11/AutoDefense/Defending%20LLMs%20Against%20Jailbreak%20Attacks%20with%20AutoDefense/)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\npip install vllm autogen pandas retry openai\n```",
+    "ContentSha": "8UvwmC8Rj7lT4mzLqbCYTpwHR+v+kfPM3znpeb0bn8k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install vllm autogen pandas retry openai\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "xiUqjxo6leHfLTP9OWDaCtyLtAtuG6Z8F8FUd3l67U4=",
+        "originContent": "pip install vllm autogen pandas retry openai",
+        "translatedContent": "pip install vllm autogen pandas retry openai"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Prepare Inference Service Using [vLLM](https://docs.vllm.ai/)\n\nvLLM provides an OpenAI-compatible API server with efficient inference and built-in load balancing across multiple GPUs.\n\n### Start vLLM Server\n\nStart the vLLM server with your desired model. For multi-GPU setups, use `--data-parallel-size` to enable automatic load balancing:\n\n**Single GPU:**",
+    "ContentSha": "X6lvmfkUB3QVQDR9SliPJKgKMgnHvwIMrx91Ut4nq9o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 使用 [vLLM](https://docs.vllm.ai/) 准备推理服务\n\nvLLM 提供了一个兼容 OpenAI 的 API 服务器，具有效率高的推理能力和内置的多 GPU 负载均衡功能。\n\n### 启动 vLLM 服务器\n\n使用您所需的模型启动 vLLM 服务器。对于多 GPU 配置，使用 `--data-parallel-size` 启用自动负载均衡：\n\n**单 GPU：**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "BSnsaG+eNAshcn2iPQpee7MSWjCSYDbQzbzDpmmiZo4=",
+        "originContent": "## Prepare Inference Service Using [vLLM](https://docs.vllm.ai/)",
+        "translatedContent": "## 使用 [vLLM](https://docs.vllm.ai/) 准备推理服务"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "sZn0webOQ45j0rIK6dUdfAe1YfMVmbr90Cryb7aXQmI=",
+        "originContent": "vLLM provides an OpenAI-compatible API server with efficient inference and built-in load balancing across multiple GPUs.",
+        "translatedContent": "vLLM 提供了一个兼容 OpenAI 的 API 服务器，具有效率高的推理能力和内置的多 GPU 负载均衡功能。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "1k7hKZ4yRzC/jvS6BHCxnfEBWTMBwphz+2y2ikLmg00=",
+        "originContent": "### Start vLLM Server",
+        "translatedContent": "### 启动 vLLM 服务器"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "/GP//8y7wnwz3EHex7b4MzIigC8u0Jmjk8/fYYYRxL8=",
+        "originContent": "Start the vLLM server with your desired model. For multi-GPU setups, use `--data-parallel-size` to enable automatic load balancing:",
+        "translatedContent": "使用您所需的模型启动 vLLM 服务器。对于多 GPU 配置，使用 `--data-parallel-size` 启用自动负载均衡："
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "LZJOj90EG36P14hRAujmGH6G9xcfEp27HEjoA6VX0fM=",
+        "originContent": "**Single GPU:**",
+        "translatedContent": "**单 GPU：**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nvllm serve Qwen/Qwen3-1.7B --port 8000\n```",
+    "ContentSha": "y9gCCFMWS6mVgScyZKm9KJGc6TxFlFFH03lEuJ+FwGc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nvllm serve Qwen/Qwen3-1.7B --port 8000\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "jYv9Cej4oJz/xPhpLvkbcTfk0wABozk5fUjzyyDoIdM=",
+        "originContent": "vllm serve Qwen/Qwen3-1.7B --port 8000",
+        "translatedContent": "vllm serve Qwen/Qwen3-1.7B --port 8000"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n**Multiple GPUs (e.g., 2 GPUs with data parallelism):**",
+    "ContentSha": "H/NKeNAP+SY3ziEUpUnxlOzYHdXw0xcxIpseG+xozow=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**多GPU（例如，使用数据并行的2个GPU）：**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "qo+YtZDspIwK66q+3FInroke3rrvblXXFnGtuM7qiko=",
+        "originContent": "**Multiple GPUs (e.g., 2 GPUs with data parallelism):**",
+        "translatedContent": "**多GPU（例如，使用数据并行的2个GPU）：**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nvllm serve Qwen/Qwen3-1.7B --port 8000 --data-parallel-size 2\n```",
+    "ContentSha": "0KXZfX0BmEoGrPc3tWj7Pxb8bQoBIwDzL12fh/FzJGo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nvllm serve Qwen/Qwen3-1.7B --port 8000 --data-parallel-size 2\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "TroQGRt4wC9Am66b2mLs9fOH4KtlghlI0TAIgdSC9NM=",
+        "originContent": "vllm serve Qwen/Qwen3-1.7B --port 8000 --data-parallel-size 2",
+        "translatedContent": "vllm serve Qwen/Qwen3-1.7B --port 8000 --data-parallel-size 2"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n**With tensor parallelism for larger models:**",
+    "ContentSha": "SNUwCcVA5FQy7UpA0GU6uQcqyr1dG5Nt6i6/KGi2GVA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**对于更大型模型的张量并行：**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "6WvxRznrLi+y0jYvYQsiPe1JW2Yr9NxrDVgt4IcR36Q=",
+        "originContent": "**With tensor parallelism for larger models:**",
+        "translatedContent": "**对于更大型模型的张量并行：**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nvllm serve <your-large-model> --port 8000 --tensor-parallel-size 4\n```",
+    "ContentSha": "y45EBfY2tI0THTcUEoA22BFnYHIo187o690eKZUVWZQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nvllm serve <your-large-model> --port 8000 --tensor-parallel-size 4\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "kek7coHS+ikcr9dFS5ey7857MONzbPVvLH0mmRjPj00=",
+        "originContent": "vllm serve <your-large-model> --port 8000 --tensor-parallel-size 4",
+        "translatedContent": "vllm serve <your-large-model> --port 8000 --tensor-parallel-size 4"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n**Combined tensor and data parallelism (8 GPUs, 2-way TP × 4-way DP):**",
+    "ContentSha": "hpq1P+HmJ8JDzanoCQ50EyXX8aE8uNJtPgfD+0fpHZg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**组合张量并行和数据并行（8个GPU，2路张量并行 × 4路数据并行）：**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "FLAvNQnU5QGPc7GiImr8ZczoT6P5afDGL7cnP0Ctqm4=",
+        "originContent": "**Combined tensor and data parallelism (8 GPUs, 2-way TP × 4-way DP):**",
+        "translatedContent": "**组合张量并行和数据并行（8个GPU，2路张量并行 × 4路数据并行）：**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\nvllm serve <your-large-model> --port 8000 --tensor-parallel-size 2 --data-parallel-size 4\n```",
+    "ContentSha": "Enbjc4fpG6IS/rfdRMeEGgYEjXemAA2hVTQZgEm8O/k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nvllm serve <your-large-model> --port 8000 --tensor-parallel-size 2 --data-parallel-size 4\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "BImUmqudOjRaGD9LXG/4eJbGDgB778SVFxp+rCLzutA=",
+        "originContent": "vllm serve <your-large-model> --port 8000 --tensor-parallel-size 2 --data-parallel-size 4",
+        "translatedContent": "vllm serve <your-large-model> --port 8000 --tensor-parallel-size 2 --data-parallel-size 4"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nFor more details on data parallel deployment with internal load balancing, see the [vLLM documentation](https://docs.vllm.ai/en/latest/serving/data_parallel_deployment/).\n\n### Verify the Server\n\nYou can verify the server is running by checking the models endpoint:\n",
+    "ContentSha": "7AIHcAuxdlgxuA0ZXQu/2vg/X/CEjKo+kAPOZnZxqZ8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n有关带有内部负载均衡的数据并行部署的更多详细信息，请参阅[vLLM 文档](https://docs.vllm.ai/en/latest/serving/data_parallel_deployment/)。\n\n### 验证服务器\n\n您可以通过检查模型端点来验证服务器是否正在运行：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "P4ZCV8JmKywCbt9zA3g/1gJ5ivv3qYHqiqR+lMwsrd0=",
+        "originContent": "For more details on data parallel deployment with internal load balancing, see the [vLLM documentation](https://docs.vllm.ai/en/latest/serving/data_parallel_deployment/).",
+        "translatedContent": "有关带有内部负载均衡的数据并行部署的更多详细信息，请参阅[vLLM 文档](https://docs.vllm.ai/en/latest/serving/data_parallel_deployment/)。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "NROpe7iBR2nwF/TogOZE42lEJaNeY0IvaoFyH6Z4n0Y=",
+        "originContent": "### Verify the Server",
+        "translatedContent": "### 验证服务器"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "hN4JWJtKTJEGRUB80cZunU+SOmynqTBKUNHWlQ5c0SI=",
+        "originContent": "You can verify the server is running by checking the models endpoint:",
+        "translatedContent": "您可以通过检查模型端点来验证服务器是否正在运行："
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\ncurl http://localhost:8000/v1/models\n```",
+    "ContentSha": "NoWMgehkOT9ooYryKNHkk3nwv6YeJGKA7jPqZwknpEI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl http://localhost:8000/v1/models\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "gv/bGdDfZ5TQL72P1ua9Cf1qDQzXENlRonLkq1ZKcGY=",
+        "originContent": "curl http://localhost:8000/v1/models",
+        "translatedContent": "curl http://localhost:8000/v1/models"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## Response Generation\n\nThe responses are generated by the target model served by vLLM (default: `Qwen/Qwen3-1.7B`). Make sure your vLLM server is running before executing the following command.\n\n### Attack Prompts (Harmful)\n",
+    "ContentSha": "0m/mSGtL2jDIk3Qb97x21fn5deZYlBt3Q7s6ePFF6rQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 响应生成\n\n响应由 vLLM 提供服务的目标模型生成（默认：`Qwen/Qwen3-1.7B`）。请确保在执行以下命令前，vLLM 服务器已启动。\n\n### 攻击提示（有害）\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "wpTja7r5GUrQ0OWcunK63Myzuv9RHwYu/SmSiz8OPNE=",
+        "originContent": "## Response Generation",
+        "translatedContent": "## 响应生成"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "53iKMOmp3PHB4AlDAoQLfIcrcFWyajf3Myx1AG02/kg=",
+        "originContent": "The responses are generated by the target model served by vLLM (default: `Qwen/Qwen3-1.7B`). Make sure your vLLM server is running before executing the following command.",
+        "translatedContent": "响应由 vLLM 提供服务的目标模型生成（默认：`Qwen/Qwen3-1.7B`）。请确保在执行以下命令前，vLLM 服务器已启动。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "iWZ7YdWdRu3Pwucvx510VjDabkoOkbFX+vKah3WqjSg=",
+        "originContent": "### Attack Prompts (Harmful)",
+        "translatedContent": "### 攻击提示（有害）"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\npython attack/attack.py --model Qwen/Qwen3-1.7B --host 127.0.0.1 --port 8000\n```",
+    "ContentSha": "dsmTGj3CCZO6bpDvYcwFpoo3MHsmCoRK7vanSSybmZw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython attack/attack.py --model Qwen/Qwen3-1.7B --host 127.0.0.1 --port 8000\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "d2r1pyeWrTGAvv398QFAQqX7yFxqa2IQEPVMxLVXGrA=",
+        "originContent": "python attack/attack.py --model Qwen/Qwen3-1.7B --host 127.0.0.1 --port 8000",
+        "translatedContent": "python attack/attack.py --model Qwen/Qwen3-1.7B --host 127.0.0.1 --port 8000"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nThis command will generate responses using an attack prompt template (default: `--template v1`) loaded from `data/prompt/attack_prompt_template.json`.\nTo run multiple repetitions, invoke the script multiple times and vary `--output-suffix` and/or `--cache-seed`.\n\n### Safe Prompts (Benign)\n\nTo generate responses for safe/benign prompts (used for false positive evaluation):\n",
+    "ContentSha": "zweRYRo0vZ9G1HmnIrtuagqM4k/l9lSjwjyreRfWifY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n此命令将使用从 `data/prompt/attack_prompt_template.json` 加载的攻击提示模板（默认：`--template v1`）生成响应。  \n要运行多次重复，请多次调用脚本并更改 `--output-suffix` 和/或 `--cache-seed`。  \n\n### 安全提示（良性）  \n\n要为安全/良性提示生成响应（用于误报评估）：  \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "eUnGSe2/MY5h2YyLOX+Ga/gf4UtpUwbl4v7K5pVtcUU=",
+        "originContent": "This command will generate responses using an attack prompt template (default: `--template v1`) loaded from `data/prompt/attack_prompt_template.json`.",
+        "translatedContent": "此命令将使用从 `data/prompt/attack_prompt_template.json` 加载的攻击提示模板（默认：`--template v1`）生成响应。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "TFqHlpOfzMHhX5++5KedMFRsBeEyYZA+54ZQ46kKeLs=",
+        "originContent": "To run multiple repetitions, invoke the script multiple times and vary `--output-suffix` and/or `--cache-seed`.",
+        "translatedContent": "要运行多次重复，请多次调用脚本并更改 `--output-suffix` 和/或 `--cache-seed`。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "f9fwrsEKPr+2oBg36hzAsWL22xxPZeWk7E+qQ78dryc=",
+        "originContent": "### Safe Prompts (Benign)",
+        "translatedContent": "### 安全提示（良性）  "
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "pScF2oe1KraxiHYaIZebjOV4+LGFMXCynB+T2AdLRx4=",
+        "originContent": "To generate responses for safe/benign prompts (used for false positive evaluation):",
+        "translatedContent": "要为安全/良性提示生成响应（用于误报评估）：  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\npython attack/attack.py \\\n    --model Qwen/Qwen3-1.7B \\\n    --template placeholder \\\n    --prompts data/prompt/safe_prompts.json \\\n    --output-prefix safe\n```",
+    "ContentSha": "Ut5hYMvgWUzGmEjXq4cgmbRft6cyUhIRYGhOA0/wlNw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython attack/attack.py \\\n    --model Qwen/Qwen3-1.7B \\\n    --template placeholder \\\n    --prompts data/prompt/safe_prompts.json \\\n    --output-prefix safe\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZFSX9DaLU7q5PKtY4P0Go+HIzAxhnWYWtqzI1FIbBdM=",
+        "originContent": "python attack/attack.py \\",
+        "translatedContent": "python attack/attack.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "j4OtDecBJvv6ki1WS+MxW0fv+Gr0Jd/aai3ghkVMQR4=",
+        "originContent": "    --model Qwen/Qwen3-1.7B \\",
+        "translatedContent": "    --model Qwen/Qwen3-1.7B \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "zdtIDqjDYt2qHVtL+Phc+kn/oBwCDiwrX835I2GXsnU=",
+        "originContent": "    --template placeholder \\",
+        "translatedContent": "    --template placeholder \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "oD98koKGegORXXLfQuroUOoV4BAytpgrG5fBsdQFhzg=",
+        "originContent": "    --prompts data/prompt/safe_prompts.json \\",
+        "translatedContent": "    --prompts data/prompt/safe_prompts.json \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "ZYOx2FtVtUbOYHWZQ5nqWwGsc2H3KVW2w3LXRMruoJU=",
+        "originContent": "    --output-prefix safe",
+        "translatedContent": "    --output-prefix safe"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nThe `placeholder` template passes prompts through without any attack framing, while `v1` wraps prompts with jailbreak instructions.\n\n## Run Defense Experiments\n\nThe following command runs the experiments of 1-Agent, 2-Agent, and 3-Agent defense. The `--chat-file` should point to the harmful outputs generated by `attack/attack.py` (by default saved under `data/harmful_output/<model_dir>/`, e.g. `data/harmful_output/Qwen-Qwen3-1.7B/attack-dan_0.json`).\n",
+    "ContentSha": "2tYgrL7lbBzkYLtzmcJt0kvmNibOzVMB5MBVWtpJsz8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n`placeholder` 模板直接传递提示词，不包含任何攻击框架，而 `v1` 则用越狱指令包装提示词。\n\n## 运行防御实验\n\n以下命令运行 1-Agent、2-Agent 和 3-Agent 防御实验。`--chat-file` 应指向由 `attack/attack.py` 生成的有害输出（默认保存在 `data/harmful_output/<model_dir>/` 下，例如 `data/harmful_output/Qwen-Qwen3-1.7B/attack-dan_0.json`）。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "G8ZzSxuAuUPmS1RdT6oolr2iXsk7Fh4chcDtwbxswxw=",
+        "originContent": "The `placeholder` template passes prompts through without any attack framing, while `v1` wraps prompts with jailbreak instructions.",
+        "translatedContent": "`placeholder` 模板直接传递提示词，不包含任何攻击框架，而 `v1` 则用越狱指令包装提示词。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "d2t1nvFEsexgE4WbpHi3pifpacslBtmVpU49yX9mxq8=",
+        "originContent": "## Run Defense Experiments",
+        "translatedContent": "## 运行防御实验"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Bbe6MVrdgPxtbt9FVt/tHA0IqONhZK3MmjK4OPxQK/A=",
+        "originContent": "The following command runs the experiments of 1-Agent, 2-Agent, and 3-Agent defense. The `--chat-file` should point to the harmful outputs generated by `attack/attack.py` (by default saved under `data/harmful_output/<model_dir>/`, e.g. `data/harmful_output/Qwen-Qwen3-1.7B/attack-dan_0.json`).",
+        "translatedContent": "以下命令运行 1-Agent、2-Agent 和 3-Agent 防御实验。`--chat-file` 应指向由 `attack/attack.py` 生成的有害输出（默认保存在 `data/harmful_output/<model_dir>/` 下，例如 `data/harmful_output/Qwen-Qwen3-1.7B/attack-dan_0.json`）。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```bash\nexport AUTOGEN_USE_DOCKER=0\n\npython defense/run_defense_exp.py \\\n  --model Qwen/Qwen3-1.7B \\\n  --chat-file data/harmful_output/Qwen-Qwen3-1.7B/attack-dan_0.json\n```",
+    "ContentSha": "JtpdOVS9i8nCS7LG53BYyxxqKjbrahYFJvBH/uD81kw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nexport AUTOGEN_USE_DOCKER=0\n\npython defense/run_defense_exp.py \\\n  --model Qwen/Qwen3-1.7B \\\n  --chat-file data/harmful_output/Qwen-Qwen3-1.7B/attack-dan_0.json\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "L8xraWs+Xsk4UTT0eI7e5Kawa7JIeOJgg4kgr0jNtK0=",
+        "originContent": "export AUTOGEN_USE_DOCKER=0",
+        "translatedContent": "export AUTOGEN_USE_DOCKER=0"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "PRZNW4FSi4s92M7wtrOgw/i12wWdAgkcA4FUw+3v40U=",
+        "originContent": "python defense/run_defense_exp.py \\",
+        "translatedContent": "python defense/run_defense_exp.py \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "rdSjIaEnvA4fxOrr1zBxr7SvYoFHjOMFxii3q/r2Lso=",
+        "originContent": "  --model Qwen/Qwen3-1.7B \\",
+        "translatedContent": "  --model Qwen/Qwen3-1.7B \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "y0Y7FK059DEFp+/gDzaQ/2/rGosxtUi4KJmYc8E9sE4=",
+        "originContent": "  --chat-file data/harmful_output/Qwen-Qwen3-1.7B/attack-dan_0.json",
+        "translatedContent": "  --chat-file data/harmful_output/Qwen-Qwen3-1.7B/attack-dan_0.json"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n### Command Line Arguments\n\n| Argument | Description | Default |\n|----------|-------------|---------|\n| `--model` | Target model served by vLLM | `Qwen/Qwen3-1.7B` |\n| `--chat-file` | Path to the chat file with harmful outputs | Required |\n| `--port` | Port where vLLM server is running | `8000` |\n| `--host` | Hostname of the vLLM server | `127.0.0.1` |\n| `--output-dir` | Output directory | `data/defense_output/<model_dir>` |\n| `--output-suffix` | Suffix for output directory | `\"\"` |\n| `--strategies` | Defense strategies to run | `ex-2 ex-3 ex-cot` |\n| `--workers` | Number of parallel workers | `128` |\n| `--frequency_penalty` | Frequency penalty for generation | `0.0` |\n| `--presence_penalty` | Presence penalty for generation | `0.0` |\n| `--temperature` | Temperature for generation | `0.7` |\n\nAfter finishing the defense experiment, the output will appear in `data/defense_output/<model_dir>/` (e.g. `data/defense_output/Qwen-Qwen3-1.7B/`).\n\n## GPT Evaluation (paper uses GPT-4)\n\nEvaluating harmful output defense:\n",
+    "ContentSha": "7n9RhY22YywQwcY9rgfTRxXlNjwKAzPEdJr0h1CELLk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 命令行参数\n\n| 参数 | 说明 | 默认值 |\n|----------|-------------|---------|\n| `--model` | vLLM 服务的目标模型 | `Qwen/Qwen3-1.7B` |\n| `--chat-file` | 含有有害输出的聊天文件路径 | 必填 |\n| `--port` | vLLM 服务器运行的端口 | `8000` |\n| `--host` | vLLM 服务器的主机名 | `127.0.0.1` |\n| `--output-dir` | 输出目录 | `data/defense_output/<model_dir>` |\n| `--output-suffix` | 输出目录的后缀 | `\"\"` |\n| `--strategies` | 运行的防御策略 | `ex-2 ex-3 ex-cot` |\n| `--workers` | 并行工作线程数 | `128` |\n| `--frequency_penalty` | 生成时的频率惩罚 | `0.0` |\n| `--presence_penalty` | 生成时的存在惩罚 | `0.0` |\n| `--temperature` | 生成时的温度 | `0.7` |\n\n完成防御实验后，输出将出现在 `data/defense_output/<model_dir>/`（例如 `data/defense_output/Qwen-Qwen3-1.7B/`）。\n\n## GPT 评估（论文使用 GPT-4）\n\n评估有害输出防御：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PNDWaFnuKY18HZpDq3GKchiJ5rAx0uYEThELtL7kBr8=",
+        "originContent": "### Command Line Arguments",
+        "translatedContent": "### 命令行参数"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "nEK5CVFTHwExYtQ0oKadakboRv0qJpr/7/RxXF+8AcU=",
+        "originContent": "| Argument | Description | Default |",
+        "translatedContent": "| 参数 | 说明 | 默认值 |"
+      },
+      {
+        "row": 5,
+        "rowsha": "DVr/Dm1EyBfNVX8hj0lOlp3ivmaKGBnRdp7HSMQMDM8=",
+        "originContent": "|----------|-------------|---------|",
+        "translatedContent": "|----------|-------------|---------|"
+      },
+      {
+        "row": 6,
+        "rowsha": "wWi//JeGHHz5Hhbfx86i0oi+3FlBC+dugQb2Fz+Au/o=",
+        "originContent": "| `--model` | Target model served by vLLM | `Qwen/Qwen3-1.7B` |",
+        "translatedContent": "| `--model` | vLLM 服务的目标模型 | `Qwen/Qwen3-1.7B` |"
+      },
+      {
+        "row": 7,
+        "rowsha": "ea5Hava/T5Uw+v2tyuoc3engqMbFy46XJpoz507SXCg=",
+        "originContent": "| `--chat-file` | Path to the chat file with harmful outputs | Required |",
+        "translatedContent": "| `--chat-file` | 含有有害输出的聊天文件路径 | 必填 |"
+      },
+      {
+        "row": 8,
+        "rowsha": "rgeYOBtADckov6gPuOuRwpzEdpLcKVtkQ1TlA5AAtMU=",
+        "originContent": "| `--port` | Port where vLLM server is running | `8000` |",
+        "translatedContent": "| `--port` | vLLM 服务器运行的端口 | `8000` |"
+      },
+      {
+        "row": 9,
+        "rowsha": "QRtef2gDSysltgZQ81d863728x1AHnTFq7YXoD98ZJQ=",
+        "originContent": "| `--host` | Hostname of the vLLM server | `127.0.0.1` |",
+        "translatedContent": "| `--host` | vLLM 服务器的主机名 | `127.0.0.1` |"
+      },
+      {
+        "row": 10,
+        "rowsha": "Kg9V8aK+hwkxJORYu2ssOLlGrernS5W9FnlZI2V6S0c=",
+        "originContent": "| `--output-dir` | Output directory | `data/defense_output/<model_dir>` |",
+        "translatedContent": "| `--output-dir` | 输出目录 | `data/defense_output/<model_dir>` |"
+      },
+      {
+        "row": 11,
+        "rowsha": "BJweKXdk7pKm5fAMUgzt/JNKBQsw2HP4oaTagLFW3cM=",
+        "originContent": "| `--output-suffix` | Suffix for output directory | `\"\"` |",
+        "translatedContent": "| `--output-suffix` | 输出目录的后缀 | `\"\"` |"
+      },
+      {
+        "row": 12,
+        "rowsha": "gchg4m/5FwpKdhLahKe86+eSU9K2/eyOULZWXelyH0s=",
+        "originContent": "| `--strategies` | Defense strategies to run | `ex-2 ex-3 ex-cot` |",
+        "translatedContent": "| `--strategies` | 运行的防御策略 | `ex-2 ex-3 ex-cot` |"
+      },
+      {
+        "row": 13,
+        "rowsha": "U+2bvLQhISvOGXDru/LfWjiGl/RiGrqVqAPRvE0WRic=",
+        "originContent": "| `--workers` | Number of parallel workers | `128` |",
+        "translatedContent": "| `--workers` | 并行工作线程数 | `128` |"
+      },
+      {
+        "row": 14,
+        "rowsha": "vg4Uajw88YmpbBLZMbxWfKPKV+axjSuLGiDQEwP71z0=",
+        "originContent": "| `--frequency_penalty` | Frequency penalty for generation | `0.0` |",
+        "translatedContent": "| `--frequency_penalty` | 生成时的频率惩罚 | `0.0` |"
+      },
+      {
+        "row": 15,
+        "rowsha": "UZhEaNRq6Hj7OTOOHIoKby3zKP0M9Kc1RjsxUF5pwwI=",
+        "originContent": "| `--presence_penalty` | Presence penalty for generation | `0.0` |",
+        "translatedContent": "| `--presence_penalty` | 生成时的存在惩罚 | `0.0` |"
+      },
+      {
+        "row": 16,
+        "rowsha": "zkss+gASXExG7Z1xt8wkEK6QMCIDnsKq+DDLhlu3jrU=",
+        "originContent": "| `--temperature` | Temperature for generation | `0.7` |",
+        "translatedContent": "| `--temperature` | 生成时的温度 | `0.7` |"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "ArGbewFf4B6xYaSUobIBZQQvzW9S4+852+8CnOzbxnQ=",
+        "originContent": "After finishing the defense experiment, the output will appear in `data/defense_output/<model_dir>/` (e.g. `data/defense_output/Qwen-Qwen3-1.7B/`).",
+        "translatedContent": "完成防御实验后，输出将出现在 `data/defense_output/<model_dir>/`（例如 `data/defense_output/Qwen-Qwen3-1.7B/`）。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "ulORJI9JL/Xt1xife2+232i+OsHhb7nBhwy4HJ8jN+s=",
+        "originContent": "## GPT Evaluation (paper uses GPT-4)",
+        "translatedContent": "## GPT 评估（论文使用 GPT-4）"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "Me9ZOGIRhmVu8mKvkTXX5yKzo+a5IE6TSCPHAets2ug=",
+        "originContent": "Evaluating harmful output defense:",
+        "translatedContent": "评估有害输出防御："
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```bash\npython evaluator/gpt4_evaluator.py \\\n--defense_output_dir data/defense_output/Qwen-Qwen3-1.7B \\\n--ori_prompt_file_name prompt_dan.json\n```",
+    "ContentSha": "AcDO3NfayAImOjEOukxsBtwU0QMenp53VYVpowXC94I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython evaluator/gpt4_evaluator.py \\\n--defense_output_dir data/defense_output/Qwen-Qwen3-1.7B \\\n--ori_prompt_file_name prompt_dan.json\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "UpkkmYOIaJVZeBLQwIbdK+s8OU+VYPbBfyBRjrcFqIw=",
+        "originContent": "python evaluator/gpt4_evaluator.py \\",
+        "translatedContent": "python evaluator/gpt4_evaluator.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "C5NDnEndyfGxQ2VEZKDb0S8PhUVw/+LhHR2NoK1A5aw=",
+        "originContent": "--defense_output_dir data/defense_output/Qwen-Qwen3-1.7B \\",
+        "translatedContent": "--defense_output_dir data/defense_output/Qwen-Qwen3-1.7B \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "l39zxGWCEu/sJMWAFY609/ftgg+IYcIp9XcCNIIzGYg=",
+        "originContent": "--ori_prompt_file_name prompt_dan.json",
+        "translatedContent": "--ori_prompt_file_name prompt_dan.json"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\nAfter finishing the evaluation, the output will appear in the `data/defense_output/Qwen-Qwen3-1.7B/asr.csv`.\nThere will be also a `score` value appearing for each defense output in the output `json` file.\n`evaluator/gpt4_evaluator.py` uses a GPT model as the evaluator (the original paper uses GPT-4). Set your OpenAI credentials via environment variables (or CLI flags), and you can swap the evaluator to a newer GPT model (e.g., GPT-5) via `--model`.\n",
+    "ContentSha": "gVyDNH4WSsRvbTdOL8UzXTmZb2AsiHwjCS+YB/Z8Mj0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "完成评估后，输出将出现在 `data/defense_output/Qwen-Qwen3-1.7B/asr.csv` 中。  \n输出的 `json` 文件中，每个防御输出也会出现一个 `score` 值。  \n`evaluator/gpt4_evaluator.py` 使用 GPT 模型作为评估器（原论文使用的是 GPT-4）。  \n通过环境变量（或命令行参数）设置您的 OpenAI 凭据，您也可以通过 `--model` 将评估器替换为更新的 GPT 模型（例如，GPT-5）。  \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "完成评估后，输出将出现在 `data/defense_output/Qwen-Qwen3-1.7B/asr.csv` 中。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "OCIcZv2QQ3OTcM8Z+Ns/M05vutUNAIc1CJPJ90C0W+4=",
+        "originContent": "After finishing the evaluation, the output will appear in the `data/defense_output/Qwen-Qwen3-1.7B/asr.csv`.",
+        "translatedContent": "输出的 `json` 文件中，每个防御输出也会出现一个 `score` 值。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "BEqOsWywWVifIxLBl4eTFL7Br1R9SG61eNZpbP1oWPE=",
+        "originContent": "There will be also a `score` value appearing for each defense output in the output `json` file.",
+        "translatedContent": "`evaluator/gpt4_evaluator.py` 使用 GPT 模型作为评估器（原论文使用的是 GPT-4）。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "ITXiTSoIwmy/NsmxJzfNztTn0d7bX0n663MntkbtrUE=",
+        "originContent": "`evaluator/gpt4_evaluator.py` uses a GPT model as the evaluator (the original paper uses GPT-4). Set your OpenAI credentials via environment variables (or CLI flags), and you can swap the evaluator to a newer GPT model (e.g., GPT-5) via `--model`.",
+        "translatedContent": "通过环境变量（或命令行参数）设置您的 OpenAI 凭据，您也可以通过 `--model` 将评估器替换为更新的 GPT 模型（例如，GPT-5）。  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```bash\nexport OPENAI_API_KEY=...\n# optional (only if you use an OpenAI-compatible endpoint):\n# export OPENAI_BASE_URL=...\n\npython evaluator/gpt4_evaluator.py \\\n  --defense_output_dir data/defense_output/Qwen-Qwen3-1.7B \\\n  --ori_prompt_file_name prompt_dan.json \\\n  --model gpt-4-1106-preview\n```",
+    "ContentSha": "NbzQCi4xG8FXFtzyJxCU8VpHH1sQe1xweN+DUsOXODQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nexport OPENAI_API_KEY=...\n# optional (only if you use an OpenAI-compatible endpoint):\n# export OPENAI_BASE_URL=...\n\npython evaluator/gpt4_evaluator.py \\\n  --defense_output_dir data/defense_output/Qwen-Qwen3-1.7B \\\n  --ori_prompt_file_name prompt_dan.json \\\n  --model gpt-4-1106-preview\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "D/ERicmfWG+XSePNK0r1tQG0DEg7aP/+Bm2CkoCOW4w=",
+        "originContent": "export OPENAI_API_KEY=...",
+        "translatedContent": "export OPENAI_API_KEY=..."
+      },
+      {
+        "row": 3,
+        "rowsha": "wbdaNQmpGora0tNyiWEqhiNY9m1Jm+NzjqDvv4kfJ2w=",
+        "originContent": "# optional (only if you use an OpenAI-compatible endpoint):",
+        "translatedContent": "# optional (only if you use an OpenAI-compatible endpoint):"
+      },
+      {
+        "row": 4,
+        "rowsha": "w23kW64I5pt8Uoz65arWZ4WgpJxV7cOql2D37apcINY=",
+        "originContent": "# export OPENAI_BASE_URL=...",
+        "translatedContent": "# export OPENAI_BASE_URL=..."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "UpkkmYOIaJVZeBLQwIbdK+s8OU+VYPbBfyBRjrcFqIw=",
+        "originContent": "python evaluator/gpt4_evaluator.py \\",
+        "translatedContent": "python evaluator/gpt4_evaluator.py \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "pJcuqiRZzIhtr9k0yZ2kVPZJNRA+KewRQpwFCUhikHA=",
+        "originContent": "  --defense_output_dir data/defense_output/Qwen-Qwen3-1.7B \\",
+        "translatedContent": "  --defense_output_dir data/defense_output/Qwen-Qwen3-1.7B \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "rNhBWavQseKpZ9j3t/5eOdfX+uC5vr5NfEEq7W2kpro=",
+        "originContent": "  --ori_prompt_file_name prompt_dan.json \\",
+        "translatedContent": "  --ori_prompt_file_name prompt_dan.json \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "6wjV4j5C1lOwze+8JwhD6mJ+qXlHkqfLpoVWwQ7lJQE=",
+        "originContent": "  --model gpt-4-1106-preview",
+        "translatedContent": "  --model gpt-4-1106-preview"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\nGPT-based evaluation can be costly; we enable caching to avoid repeated evaluation.\n\nFor safe response evaluation, there is an efficient way without using GPT-4. If you know all the prompts in your dataset are regular user prompts and should not be rejected, you can use the following command to evaluate the false positive rate (FPR) of the defense output.\n",
+    "ContentSha": "ODDO71Pz+xrBc3tPBFBG693RTGOeNrTgOpmfHL0fEp0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "基于GPT的评估可能成本较高；我们启用缓存以避免重复评估。\n\n对于安全响应评估，有一种无需使用GPT-4的高效方法。如果您知道数据集中所有提示都是常规用户提示且不应被拒绝，您可以使用以下命令评估防御输出的误报率（FPR）。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "基于GPT的评估可能成本较高；我们启用缓存以避免重复评估。"
+      },
+      {
+        "row": 2,
+        "rowsha": "uiat0DS5lfaxAxxqtPmFs7PrrQlAni2f0ohiS/8yOp8=",
+        "originContent": "GPT-based evaluation can be costly; we enable caching to avoid repeated evaluation.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "对于安全响应评估，有一种无需使用GPT-4的高效方法。如果您知道数据集中所有提示都是常规用户提示且不应被拒绝，您可以使用以下命令评估防御输出的误报率（FPR）。"
+      },
+      {
+        "row": 4,
+        "rowsha": "rg+9db3Yrt9xVng1NL8bzyi5M8S3so+bD5X1zd6ncdg=",
+        "originContent": "For safe response evaluation, there is an efficient way without using GPT-4. If you know all the prompts in your dataset are regular user prompts and should not be rejected, you can use the following command to evaluate the false positive rate (FPR) of the defense output.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```bash\npython evaluator/evaluate_safe.py\n```",
+    "ContentSha": "Opn2UcR01CPehqYO70Uw+5fVexPgG0X3bK+OOcCKsVY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython evaluator/evaluate_safe.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "CETsmTAeujZ0e++aks565hMBcJjdcDgewghXlBPKpw4=",
+        "originContent": "python evaluator/evaluate_safe.py",
+        "translatedContent": "python evaluator/evaluate_safe.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\nThis will find all output folders in `data/defense_output` that contain the keyword `-safe` and evaluate the false positive rate (FPR).\nThe FPR will be saved in the `data/defense_output/defense_fp.csv` file.\n",
+    "ContentSha": "dpV8rkFnn6Ca/q+fagwNycLWYsvEDWy54DC0+F71L5U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n这将查找 `data/defense_output` 中所有包含关键词 `-safe` 的输出文件夹，并评估误报率（FPR）。\n误报率将保存在 `data/defense_output/defense_fp.csv` 文件中。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "nS1y9XDOVMWoPsRTZA7M5FPWcP6FllXZKyU1nOSr07U=",
+        "originContent": "This will find all output folders in `data/defense_output` that contain the keyword `-safe` and evaluate the false positive rate (FPR).",
+        "translatedContent": "这将查找 `data/defense_output` 中所有包含关键词 `-safe` 的输出文件夹，并评估误报率（FPR）。"
+      },
+      {
+        "row": 3,
+        "rowsha": "dgNBB4T7xRJIfma53XRcDgEw056La3q2GOWYPp4vwcI=",
+        "originContent": "The FPR will be saved in the `data/defense_output/defense_fp.csv` file.",
+        "translatedContent": "误报率将保存在 `data/defense_output/defense_fp.csv` 文件中。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

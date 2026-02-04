@@ -1,0 +1,1082 @@
+[
+  {
+    "row": 1,
+    "rowsha": "5blKxjclrpV9Lcu79uZFzDzgMzkfhez31R6xwl3OvCQ=",
+    "originContent": "# ZigTUI",
+    "translatedContent": "# ZigTUI"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "vxJ24uJZ48US9l7MowNJEY0+lWE6Kr3yifFMJue8oCA=",
+    "originContent": "Cross-platform TUI library for Zig, inspired by [Ratatui](https://github.com/ratatui/ratatui).",
+    "translatedContent": "跨平台的 Zig TUI 库，灵感来自 [Ratatui](https://github.com/ratatui/ratatui)。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "KICv4d6NoUNXdiNX0dWo6IID00n0OaIapFJSxSI2QzM=",
+    "originContent": "![ZigTUI Dashboard](https://raw.githubusercontent.com/adxdits/zigtui/master/dashboard.gif)",
+    "translatedContent": "![ZigTUI 仪表盘](https://raw.githubusercontent.com/adxdits/zigtui/master/dashboard.gif)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 特性"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "J/CFqHmTvVj6xzLgohYWrkYmBY3OLf+Sbg3hH5qKHhA=",
+    "originContent": "- **Cross-platform** — Windows, Linux, macOS",
+    "translatedContent": "- **跨平台** — Windows、Linux、macOS"
+  },
+  {
+    "row": 10,
+    "rowsha": "3gNkVHEvfct9xOicU4nFoztDshWTaf3NFhGLLSFuNSU=",
+    "originContent": "- **Efficient rendering** — Cell-based diffing, only redraws what changed",
+    "translatedContent": "- **高效渲染** — 基于单元格的差异比较，只重绘变更部分"
+  },
+  {
+    "row": 11,
+    "rowsha": "dqWh7hIVVQVu/WS+Z00HyoygF0ElGdF1mNmdU0TI0CA=",
+    "originContent": "- **Widgets** — Block, Paragraph, List, Gauge, Table",
+    "translatedContent": "- **组件** — 块、段落、列表、进度条、表格"
+  },
+  {
+    "row": 12,
+    "rowsha": "GymhrWe9y2pJczpdmicPS1kAtYjsockk9ZDpRaikEVA=",
+    "originContent": "- **15 built-in themes** — Nord, Dracula, Gruvbox, Catppuccin, Tokyo Night...",
+    "translatedContent": "- **15 种内置主题** — Nord、Dracula、Gruvbox、Catppuccin、Tokyo Night..."
+  },
+  {
+    "row": 13,
+    "rowsha": "qGEapE4uD69W+Rnl5nOxPzfRh0EggSONxlgNFUVF8Eg=",
+    "originContent": "- **Kitty Graphics Protocol** — Display images (with Unicode fallback)",
+    "translatedContent": "- **Kitty 图形协议** — 显示图像（支持 Unicode 回退）"
+  },
+  {
+    "row": 14,
+    "rowsha": "SX5geZF9+TlWVxPIqEYAxo6su+NylGBSfDGbowcHksU=",
+    "originContent": "- **No hidden allocations** — Explicit memory management",
+    "translatedContent": "- **无隐藏分配** — 显式内存管理"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": "## 要求"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "Rp6q8SzMhIOcbzdkxE8cGuGqrHFdTwgen0EmCF5QWsU=",
+    "originContent": "- Zig 0.15.0+",
+    "translatedContent": "- Zig 0.15.0+"
+  },
+  {
+    "row": 19,
+    "rowsha": "Y2a/Mw7GdPxVHZ5Dn+xVbrtDgfT/WgONwxAVSR9mF9s=",
+    "originContent": "- Windows 10+ / Linux / macOS",
+    "translatedContent": "- Windows 10+ / Linux / macOS"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 24,
+    "rowsha": "T7nZ5fmfj/BzzKTs7R7IAj3JvnREFxSsCnJdKAPd+ms=",
+    "originContent": "zig fetch --save git+https://github.com/adxdits/zigtui.git",
+    "translatedContent": "zig fetch --save git+https://github.com/adxdits/zigtui.git"
+  },
+  {
+    "row": 25,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "b2JvnMTHm4SPkM8DTP6Nyd0KZsN/zkuQ1QIETk5S40A=",
+    "originContent": "```zig",
+    "translatedContent": "```zig"
+  },
+  {
+    "row": 28,
+    "rowsha": "ke8Y+CCTMwzVXGagBKZiHidJvUCzlUadCGYbdVFPuw4=",
+    "originContent": "// build.zig",
+    "translatedContent": "// build.zig"
+  },
+  {
+    "row": 29,
+    "rowsha": "JdeITm9GiAsXM4VQvAJvb4hv+civV6TBykZ0ipNQc64=",
+    "originContent": "const zigtui = b.dependency(\"zigtui\", .{ .target = target, .optimize = optimize });",
+    "translatedContent": "const zigtui = b.dependency(\"zigtui\", .{ .target = target, .optimize = optimize });"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "uLHS8pLemh3tuvC0ddQKXlhgeR9c7KnAVxxAcfCm2iE=",
+    "originContent": "const exe = b.addExecutable(.{",
+    "translatedContent": "const exe = b.addExecutable(.{"
+  },
+  {
+    "row": 32,
+    "rowsha": "Yxs6Q/kCH5YnwG3TxxQYBSCx/eNruQvk/OKKT+RLRPU=",
+    "originContent": "    .name = \"myapp\",",
+    "translatedContent": "    .name = \"myapp\","
+  },
+  {
+    "row": 33,
+    "rowsha": "30Trmf0Odc1qO3/ZMoaP18ERMj9XhyJZSTjvSH9wptg=",
+    "originContent": "    .root_module = b.createModule(.{",
+    "translatedContent": "    .root_module = b.createModule(.{"
+  },
+  {
+    "row": 34,
+    "rowsha": "RhykhOAlYmEQ9FFUOUOe1l/Tck65HmZgeglaA72bTmk=",
+    "originContent": "        .root_source_file = b.path(\"src/main.zig\"),",
+    "translatedContent": "        .root_source_file = b.path(\"src/main.zig\"),"
+  },
+  {
+    "row": 35,
+    "rowsha": "VBx0gm7xAtrkSLylBAEqmuMeUZn/uITQoSYFbfq8Sts=",
+    "originContent": "        .target = target,",
+    "translatedContent": "        .target = target,"
+  },
+  {
+    "row": 36,
+    "rowsha": "PCk5Rd6dTqK3PYue1QLNbdRb9mQeCREOMqdaQOc6KVc=",
+    "originContent": "        .optimize = optimize,",
+    "translatedContent": "        .optimize = optimize,"
+  },
+  {
+    "row": 37,
+    "rowsha": "7WDJ/ULwoh/0R9N+p8VHCUH45pi8UIXRFEB1vQz04PE=",
+    "originContent": "        .imports = &.{",
+    "translatedContent": "        .imports = &.{"
+  },
+  {
+    "row": 38,
+    "rowsha": "fUsAFRl5YMesbSDM7Wg4t03kOyQROV2W4B1HzaVukyI=",
+    "originContent": "            .{ .name = \"zigtui\", .module = zigtui.module(\"zigtui\") },",
+    "translatedContent": "            .{ .name = \"zigtui\", .module = zigtui.module(\"zigtui\") },"
+  },
+  {
+    "row": 39,
+    "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+    "originContent": "        },",
+    "translatedContent": "        },"
+  },
+  {
+    "row": 40,
+    "rowsha": "IDY8H84q0W3iMAsgCGggJ1TJIMyTqMKPxACM1e4EE50=",
+    "originContent": "    }),",
+    "translatedContent": "    }),"
+  },
+  {
+    "row": 41,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 45,
+    "rowsha": "KXSvgJCBa2Y7Oh+ezmoY5KuMRBynl2Dc9gRRW64OHFE=",
+    "originContent": "<summary>Alternative: Git submodule</summary>",
+    "translatedContent": "<summary>替代方案：Git 子模块</summary>"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 48,
+    "rowsha": "aTld6kGmECZvcVe2fdubZTALJPfe+3Dkil0DLsOzwYI=",
+    "originContent": "git submodule add https://github.com/adxdits/zigtui.git libs/zigtui",
+    "translatedContent": "git submodule add https://github.com/adxdits/zigtui.git libs/zigtui"
+  },
+  {
+    "row": 49,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "b2JvnMTHm4SPkM8DTP6Nyd0KZsN/zkuQ1QIETk5S40A=",
+    "originContent": "```zig",
+    "translatedContent": "```zig"
+  },
+  {
+    "row": 52,
+    "rowsha": "4hsOJIHr/bT6cGnil5UuEB4Af5Ez+aLXt8MZ4eZOnV4=",
+    "originContent": "const zigtui_module = b.addModule(\"zigtui\", .{",
+    "translatedContent": "const zigtui_module = b.addModule(\"zigtui\", .{"
+  },
+  {
+    "row": 53,
+    "rowsha": "zPd+hlzoiDIOKgoynjVEQaoftU2krbk7Qs+gUgGNRyQ=",
+    "originContent": "    .root_source_file = b.path(\"libs/zigtui/src/lib.zig\"),",
+    "translatedContent": "    .root_source_file = b.path(\"libs/zigtui/src/lib.zig\"),"
+  },
+  {
+    "row": 54,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 55,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 56,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## 快速开始"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "b2JvnMTHm4SPkM8DTP6Nyd0KZsN/zkuQ1QIETk5S40A=",
+    "originContent": "```zig",
+    "translatedContent": "```zig"
+  },
+  {
+    "row": 61,
+    "rowsha": "HUToO2vrh6g2zKx6k5Nk8P4WFOWPAlc7/ArnTjPaBqo=",
+    "originContent": "const std = @import(\"std\");",
+    "translatedContent": "const std = @import(\"std\");"
+  },
+  {
+    "row": 62,
+    "rowsha": "pRK2Uaufi0lIqi+YZJvPFiLW9udXHOU2YMyg6+YkQ0U=",
+    "originContent": "const tui = @import(\"zigtui\");",
+    "translatedContent": "const tui = @import(\"zigtui\");"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "d0NOt8UwO/wE/ScPBZ6Jz879M90Asz0jVaYvUcqv/QU=",
+    "originContent": "pub fn main() !void {",
+    "translatedContent": "pub fn main() !void {"
+  },
+  {
+    "row": 65,
+    "rowsha": "Il+ZPsxh7HgNdAoDMScs3P7D3pO3T+ZHxKdiIjErI9U=",
+    "originContent": "    var gpa = std.heap.GeneralPurposeAllocator(.{}){};",
+    "translatedContent": "    var gpa = std.heap.GeneralPurposeAllocator(.{}){};"
+  },
+  {
+    "row": 66,
+    "rowsha": "EZhIj+kwjon/J2Fq1QIjSsCK3SxXrzGAvOq6jBWibW0=",
+    "originContent": "    defer _ = gpa.deinit();",
+    "translatedContent": "    defer _ = gpa.deinit();"
+  },
+  {
+    "row": 67,
+    "rowsha": "m/gDDscNhJ/bujuhkL7qcLZC9fZZD2ycQ1RcqQh5peg=",
+    "originContent": "    const allocator = gpa.allocator();",
+    "translatedContent": "    const allocator = gpa.allocator();"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "qzwTvww+vKyqwD6fCWsDZr65gyeu04aFABYkN5UYIro=",
+    "originContent": "    var backend = try tui.backend.init(allocator);",
+    "translatedContent": "    var backend = try tui.backend.init(allocator);"
+  },
+  {
+    "row": 70,
+    "rowsha": "jtZcDKfMPynW6h54CP/HruTAnNpINRFFndTcWvpg5zI=",
+    "originContent": "    defer backend.deinit();",
+    "translatedContent": "    defer backend.deinit();"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "mRetpB6bs/udD93Euq2da4eXo8O75MjzIevi4cRC+xg=",
+    "originContent": "    var terminal = try tui.terminal.Terminal.init(allocator, backend.interface());",
+    "translatedContent": "    var terminal = try tui.terminal.Terminal.init(allocator, backend.interface());"
+  },
+  {
+    "row": 73,
+    "rowsha": "qTg5M1GEFT+1SjEtOcBVQrbxne7fpfHGwLw4PwMoeHw=",
+    "originContent": "    defer terminal.deinit();",
+    "translatedContent": "    defer terminal.deinit();"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "azqaFH3K5else+QOlsxXj8POVIoXSWM4Z4/irvxaYlo=",
+    "originContent": "    try terminal.hideCursor();",
+    "translatedContent": "    try terminal.hideCursor();"
+  },
+  {
+    "row": 76,
+    "rowsha": "/e9grfaVGM9PGtp0dsMp3utDMvTmDcfqtag9DjFlyxk=",
+    "originContent": "    defer terminal.showCursor() catch {};",
+    "translatedContent": "    defer terminal.showCursor() catch {};"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "qGwVZnGHRj3BmqydCGwR7YCZhZVrCHgxhSITIasM1jY=",
+    "originContent": "    var running = true;",
+    "translatedContent": "    var running = true;"
+  },
+  {
+    "row": 79,
+    "rowsha": "RlBKsJtHEkCe6zPQNvhkWo5s2ukEbHL02NIJV9eB3Dg=",
+    "originContent": "    while (running) {",
+    "translatedContent": "    while (running) {"
+  },
+  {
+    "row": 80,
+    "rowsha": "aujvjMxaL2TgqQ4iejoaUnf3P0274drAt/o8lgjTKLg=",
+    "originContent": "        const event = try backend.interface().pollEvent(100);",
+    "translatedContent": "        const event = try backend.interface().pollEvent(100);"
+  },
+  {
+    "row": 81,
+    "rowsha": "jMGme/Typ07wjRPhBhB4EU5FdFZ1wNFBOyM/G9qrOJA=",
+    "originContent": "        if (event == .key) {",
+    "translatedContent": "        if (event == .key) {"
+  },
+  {
+    "row": 82,
+    "rowsha": "G6CG80UADarL2naSS+vYUISJOQstvd6Lx/KrVnCkzG0=",
+    "originContent": "            if (event.key.code == .esc or (event.key.code == .char and event.key.code.char == 'q'))",
+    "translatedContent": "            if (event.key.code == .esc or (event.key.code == .char and event.key.code.char == 'q'))"
+  },
+  {
+    "row": 83,
+    "rowsha": "s53S5dTqX3LASL1wDwmnGyjr72sLWsw7IBuDfwLKwl8=",
+    "originContent": "                running = false;",
+    "translatedContent": "                running = false;"
+  },
+  {
+    "row": 84,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "VUghZNDktrR7p7ABYjEL3HauOGy22bgSEFpuHxrYNJU=",
+    "originContent": "        try terminal.draw({}, struct {",
+    "translatedContent": "        try terminal.draw({}, struct {"
+  },
+  {
+    "row": 87,
+    "rowsha": "+RvB6sgQL3bPNTNLsb534vUH9yM8ekijh80uMt/fpJU=",
+    "originContent": "            fn render(_: void, buf: *tui.render.Buffer) !void {",
+    "translatedContent": "            fn render(_: void, buf: *tui.render.Buffer) !void {"
+  },
+  {
+    "row": 88,
+    "rowsha": "P/kSVUmYzx3jf7VxkpB4axD7eHOhksQtPMxMomTb8Fk=",
+    "originContent": "                tui.widgets.Block{",
+    "translatedContent": "                tui.widgets.Block{"
+  },
+  {
+    "row": 89,
+    "rowsha": "MD7THV3bP5EdHm2JHrSn4HDLmiZRT6zB9AaD/gPi5PY=",
+    "originContent": "                    .title = \"Hello ZigTUI — press 'q' to quit\",",
+    "translatedContent": "                    .title = \"Hello ZigTUI — press 'q' to quit\","
+  },
+  {
+    "row": 90,
+    "rowsha": "Q4wqvfsvWtk4hxzG981Z1KD18LlWIr2q67rGzJDuaWY=",
+    "originContent": "                    .borders = tui.widgets.Borders.all(),",
+    "translatedContent": "                    .borders = tui.widgets.Borders.all(),"
+  },
+  {
+    "row": 91,
+    "rowsha": "16qD8xMEQNH8WjHsq/1m6GrwggNpm5sfr4VYXnhp2SA=",
+    "originContent": "                    .border_style = .{ .fg = .cyan },",
+    "translatedContent": "                    .border_style = .{ .fg = .cyan },"
+  },
+  {
+    "row": 92,
+    "rowsha": "eisDaqZHI4qbmMGzUxFN3caMSYrEZP0s+u85BCkVe6A=",
+    "originContent": "                }.render(buf.getArea(), buf);",
+    "translatedContent": "                }.render(buf.getArea(), buf);"
+  },
+  {
+    "row": 93,
+    "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+    "originContent": "            }",
+    "translatedContent": "            }"
+  },
+  {
+    "row": 94,
+    "rowsha": "yysxNE3BaydBDDot2PpVzKmP41coZ8mZvFTeNF0IIog=",
+    "originContent": "        }.render);",
+    "translatedContent": "        }.render);"
+  },
+  {
+    "row": 95,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 96,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 97,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "RsVQID+n8L1ez0+kXDBaIIgiCJx/TawkO30tSvMqoBk=",
+    "originContent": "## Widgets",
+    "translatedContent": "## 小部件"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "b2JvnMTHm4SPkM8DTP6Nyd0KZsN/zkuQ1QIETk5S40A=",
+    "originContent": "```zig",
+    "translatedContent": "```zig"
+  },
+  {
+    "row": 102,
+    "rowsha": "OOfTuBY+8/Z3DcD7xqBbiHUYf656i+W1n/B9siN2214=",
+    "originContent": "// Block — container with border/title",
+    "translatedContent": "// Block — container with border/title"
+  },
+  {
+    "row": 103,
+    "rowsha": "mL2VNBcVWb46oB9AugtiqqYJCWHoHKmcPkdRvwWNFc0=",
+    "originContent": "tui.widgets.Block{ .title = \"Panel\", .borders = tui.widgets.Borders.all() }",
+    "translatedContent": "tui.widgets.Block{ .title = \"Panel\", .borders = tui.widgets.Borders.all() }"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "zsp3lnb37YceFreYVa5dFJfbLahkqW2k3bcE5mqjTYU=",
+    "originContent": "// Paragraph — text display",
+    "translatedContent": "// Paragraph — text display"
+  },
+  {
+    "row": 106,
+    "rowsha": "wvfb2NlgC/Ix/tWE0IhwCdreChj6vC8ICc2vt/iVXPc=",
+    "originContent": "tui.widgets.Paragraph{ .text = \"Hello!\", .wrap = true }",
+    "translatedContent": "tui.widgets.Paragraph{ .text = \"Hello!\", .wrap = true }"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "d7I9pvKRkK7fSru7P+mh9Sk9P9WSSanTaZ2tQ2ZEc5Y=",
+    "originContent": "// List — scrollable items",
+    "translatedContent": "// List — scrollable items"
+  },
+  {
+    "row": 109,
+    "rowsha": "4CuuFL8fmb416EGzr69tq8jwfIYjrPl7efd4URrYz0w=",
+    "originContent": "tui.widgets.List{ .items = &items, .selected = 0, .highlight_style = .{ .bg = .blue } }",
+    "translatedContent": "tui.widgets.List{ .items = &items, .selected = 0, .highlight_style = .{ .bg = .blue } }"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "BR/3nq3CMei3/FTd/BxvFPxQh9KsLWI6djrUm6L2lTE=",
+    "originContent": "// Gauge — progress bar",
+    "translatedContent": "// Gauge — progress bar"
+  },
+  {
+    "row": 112,
+    "rowsha": "nIGp5G3kjbMt5KVDVucI8D5UhNSVo6W/T37ektTmVIo=",
+    "originContent": "tui.widgets.Gauge{ .ratio = 0.75, .label = \"75%\" }",
+    "translatedContent": "tui.widgets.Gauge{ .ratio = 0.75, .label = \"75%\" }"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "sZGlBOqjPjyXgz0aXmcwia1zMSQJFs2y/EhrUWNR5QU=",
+    "originContent": "// Table — tabular data",
+    "translatedContent": "// Table — tabular data"
+  },
+  {
+    "row": 115,
+    "rowsha": "GvdFVcz+NmzVqNiSPUCDpNDlmR4R5z2gztepQjH6cHE=",
+    "originContent": "tui.widgets.Table{ .header = &columns, .rows = &rows }",
+    "translatedContent": "tui.widgets.Table{ .header = &columns, .rows = &rows }"
+  },
+  {
+    "row": 116,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "CHq86WjI/DJQ9RfWZNIWGULulkJ2OgnOX+DsFD/uuaY=",
+    "originContent": "## Themes",
+    "translatedContent": "## Themes"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "b3q5TQobg8NVdOdpgQfompZ6s04ZjzLQgrRhqLVS76Q=",
+    "originContent": "![Themes](https://raw.githubusercontent.com/adxdits/zigtui/master/theme.gif)",
+    "translatedContent": "![Themes](https://raw.githubusercontent.com/adxdits/zigtui/master/theme.gif)"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "b2JvnMTHm4SPkM8DTP6Nyd0KZsN/zkuQ1QIETk5S40A=",
+    "originContent": "```zig",
+    "translatedContent": "```zig"
+  },
+  {
+    "row": 123,
+    "rowsha": "/yBQhiF391L7H80j72cIZYD/KMppttrnz02l3CV4YBg=",
+    "originContent": "const theme = tui.themes.catppuccin_mocha;",
+    "translatedContent": "const theme = tui.themes.catppuccin_mocha;"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "Q7CONZjtl2vptH8HG/303jpOzJQFiARQRZNBRZDk0oc=",
+    "originContent": "tui.widgets.Block{",
+    "translatedContent": "tui.widgets.Block{"
+  },
+  {
+    "row": 126,
+    "rowsha": "7XkVd3A3pkuonmBrHibStObtMbZcuTt5kEf0Ys934GI=",
+    "originContent": "    .title = \"Dashboard\",",
+    "translatedContent": "    .title = \"Dashboard\","
+  },
+  {
+    "row": 127,
+    "rowsha": "IwgndOer7PV1ADAlTrgK9RwwNmZFpXc5gdijDymJkUw=",
+    "originContent": "    .style = theme.baseStyle(),",
+    "translatedContent": "    .style = theme.baseStyle(),"
+  },
+  {
+    "row": 128,
+    "rowsha": "2U9xxm3AUOJciCYr6Qew7zmUgkl5kfOOLj69pJFcEYM=",
+    "originContent": "    .border_style = theme.borderFocusedStyle(),",
+    "translatedContent": "    .border_style = theme.borderFocusedStyle(),"
+  },
+  {
+    "row": 129,
+    "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+    "originContent": "};",
+    "translatedContent": "};"
+  },
+  {
+    "row": 130,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "AevHSPY4gh3V3G+E3vxB4yxJdgB76LmshGQCDdV6Un8=",
+    "originContent": "**Available:** `default`, `nord`, `dracula`, `monokai`, `gruvbox_dark`, `gruvbox_light`, `solarized_dark`, `solarized_light`, `tokyo_night`, `catppuccin_mocha`, `catppuccin_latte`, `one_dark`, `cyberpunk`, `matrix`, `high_contrast`",
+    "translatedContent": "**可用主题：** `default`，`nord`，`dracula`，`monokai`，`gruvbox_dark`，`gruvbox_light`，`solarized_dark`，`solarized_light`，`tokyo_night`，`catppuccin_mocha`，`catppuccin_latte`，`one_dark`，`cyberpunk`，`matrix`，`high_contrast`"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "pCx+M3Ked67btnWnsNn01xe9Lhhg1/CyZIAP8M0hE5U=",
+    "originContent": "Run `zig build run-themes` to preview all themes.",
+    "translatedContent": "运行 `zig build run-themes` 以预览所有主题。"
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+    "originContent": "## Examples",
+    "translatedContent": "## 示例"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 139,
+    "rowsha": "+eL9Qi4L85I12BET8TNZ6dHQIJevn2WF/aoPJLJd3lo=",
+    "originContent": "zig build run-dashboard   # System monitor demo",
+    "translatedContent": "zig build run-dashboard   # System monitor demo"
+  },
+  {
+    "row": 140,
+    "rowsha": "0hinuAeuFqX5uBnoJ2sgpMHQJq8tdHCIBRMXc3zCVsM=",
+    "originContent": "zig build run-kitty       # Image display demo  ",
+    "translatedContent": "zig build run-kitty       # Image display demo  "
+  },
+  {
+    "row": 141,
+    "rowsha": "VQ6UbQ4a8MgO11Ix04lhJTMxot4w6ED8cq7fM4xxdlI=",
+    "originContent": "zig build run-themes      # Theme showcase",
+    "translatedContent": "zig build run-themes      # Theme showcase"
+  },
+  {
+    "row": 142,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "Cy6/4hnZj/eSQ/JZct4iA4hvUt82d2Rv0eK8/wjYI/0=",
+    "originContent": "## Kitty Graphics",
+    "translatedContent": "## Kitty 图形"
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "GOquIc1JkUdrrSyN4NfGRD0z21pdauC0K5CGmZyN1wA=",
+    "originContent": "Display images in terminals that support the [Kitty Graphics Protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/). Falls back to Unicode blocks automatically.",
+    "translatedContent": "在支持 [Kitty 图形协议](https://sw.kovidgoyal.net/kitty/graphics-protocol/) 的终端中显示图像。自动回退到 Unicode 块。"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "b2JvnMTHm4SPkM8DTP6Nyd0KZsN/zkuQ1QIETk5S40A=",
+    "originContent": "```zig",
+    "translatedContent": "```zig"
+  },
+  {
+    "row": 149,
+    "rowsha": "uvSrTmHKxrbbVoCL1xjkof4xoU67sChdYJxKdqiEqm4=",
+    "originContent": "var gfx = tui.Graphics.init(allocator);",
+    "translatedContent": "var gfx = tui.Graphics.init(allocator);"
+  },
+  {
+    "row": 150,
+    "rowsha": "i6BWpqkwMnCs6JUu5z76JUJbltyAdqtAAx3EX5+DxRY=",
+    "originContent": "defer gfx.deinit();",
+    "translatedContent": "defer gfx.deinit();"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "wQ1dPW5xmHdRbJ8tR//HzinV9f0fQYNgXwco4fL6U/U=",
+    "originContent": "var bmp = try tui.graphics.bmp.loadFile(allocator, \"image.bmp\");",
+    "translatedContent": "var bmp = try tui.graphics.bmp.loadFile(allocator, \"image.bmp\");"
+  },
+  {
+    "row": 153,
+    "rowsha": "lR8jF1m0MSklRggytNMXVQai2e6aVdxW2incM3tS5hM=",
+    "originContent": "const image = tui.Image{ .data = bmp.data, .width = bmp.width, .height = bmp.height, .format = .rgba };",
+    "translatedContent": "const image = tui.Image{ .data = bmp.data, .width = bmp.width, .height = bmp.height, .format = .rgba };"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "F44ie2yjszs+IGpbEyLXrW3dE+j3avDxG8I1/fZnRXg=",
+    "originContent": "if (gfx.supportsImages()) {",
+    "translatedContent": "if (gfx.supportsImages()) {"
+  },
+  {
+    "row": 156,
+    "rowsha": "AvuiUBHV+z3A98AQznWDxEtpRP0ddN6EC6vPVBNVheM=",
+    "originContent": "    if (try gfx.drawImage(image, .{ .x = 0, .y = 0 })) |seq| try backend.write(seq);",
+    "translatedContent": "    if (try gfx.drawImage(image, .{ .x = 0, .y = 0 })) |seq| try backend.write(seq);"
+  },
+  {
+    "row": 157,
+    "rowsha": "mFBF8cBXio0Uhu8/bX1VO6Q8PJKJhy9T5YFaqhzIFxA=",
+    "originContent": "} else {",
+    "translatedContent": "} else {"
+  },
+  {
+    "row": 158,
+    "rowsha": "n8l20b5KARVUrTQtPJwblZY++4IP7sWoGD4ADObklD8=",
+    "originContent": "    gfx.renderImageToBuffer(image, buffer, area); // Unicode fallback",
+    "translatedContent": "    gfx.renderImageToBuffer(image, buffer, area); // Unicode fallback"
+  },
+  {
+    "row": 159,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 160,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "t1FftQ15mvOZ8QQ4jcAmoOqCdrdu6FlKTpp96088faA=",
+    "originContent": "**Supported:** Kitty, WezTerm, foot, Konsole (partial)  ",
+    "translatedContent": "**支持：** Kitty、WezTerm、foot、Konsole（部分支持）  "
+  },
+  {
+    "row": 163,
+    "rowsha": "nKNUYrTtnrFznVhWqkNxekzXoCnlP4HbX03/uX7KN1I=",
+    "originContent": "**Fallback:** Windows Terminal, iTerm2, Terminal.app",
+    "translatedContent": "**备用：** Windows Terminal、iTerm2、Terminal.app"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "OPrmm6f4GDGUFZTHm3BqmRxfO/Wz9GrkUsClwCqXVNI=",
+    "originContent": "## Platform Support",
+    "translatedContent": "## 平台支持"
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "hjeI9OrcKHtsPOKgTnwiopxxce/rWdHiW+XqNxm4PHQ=",
+    "originContent": "| Platform | Terminal | Notes |",
+    "translatedContent": "| 平台 | 终端 | 说明 |"
+  },
+  {
+    "row": 168,
+    "rowsha": "kOiUSlY0nXyDbuESIL8UIIl7Hh0LyDWsMTGN0coDoaY=",
+    "originContent": "|----------|----------|-------|",
+    "translatedContent": "|----------|----------|-------|"
+  },
+  {
+    "row": 169,
+    "rowsha": "PZSsY6KLWSWShoD49/j1nnMCRpiFbiiqoeSgWq3TNoM=",
+    "originContent": "| Windows 10+ | Windows Terminal, WezTerm | Native Console API |",
+    "translatedContent": "| Windows 10及以上 | Windows Terminal、WezTerm | 原生控制台API |"
+  },
+  {
+    "row": 170,
+    "rowsha": "3GsPo8bMLKhd8yAyTa8VNKlogSl1/FQjcn0NLjFDKlA=",
+    "originContent": "| Linux | Any ANSI-compatible | POSIX termios |",
+    "translatedContent": "| Linux | 任何兼容ANSI的终端 | POSIX termios |"
+  },
+  {
+    "row": 171,
+    "rowsha": "be1nrVwx/z9OOoHN0DGukGdMkrOtqno2cWal9wE1UcI=",
+    "originContent": "| macOS | Kitty, WezTerm, Terminal.app | POSIX termios |",
+    "translatedContent": "| macOS | Kitty、WezTerm、Terminal.app | POSIX termios |"
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## 许可证"
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+    "originContent": "MIT",
+    "translatedContent": "MIT"
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## 贡献"
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "a/wytT2T6mged6f6iMyrEVutFjTMg9/5YAc8E6FVZEE=",
+    "originContent": "Issues and PRs welcome.",
+    "translatedContent": "欢迎提交问题和拉取请求。"
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

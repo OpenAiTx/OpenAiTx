@@ -1,0 +1,848 @@
+[
+  {
+    "row": 1,
+    "rowsha": "YduSZ9JkqiAqnruH1T+c3Tm/3NTQ9SMCVFC+SVrEawg=",
+    "originContent": "# AutoDefense: Multi-Agent LLM Defense against Jailbreak Attacks",
+    "translatedContent": "# AutoDefense: Multi-Agent LLM Defense against Jailbreak Attacks"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "Z2vynpDNZe2C2zi+uWZ/huDuzYBG3vJBkL/Hd6iedAI=",
+    "originContent": "[**Blog**](https://microsoft.github.io/autogen/0.2/blog/2024/03/11/AutoDefense/Defending%20LLMs%20Against%20Jailbreak%20Attacks%20with%20AutoDefense/)",
+    "translatedContent": "[**Blog**](https://microsoft.github.io/autogen/0.2/blog/2024/03/11/AutoDefense/Defending%20LLMs%20Against%20Jailbreak%20Attacks%20with%20AutoDefense/)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 8,
+    "rowsha": "xiUqjxo6leHfLTP9OWDaCtyLtAtuG6Z8F8FUd3l67U4=",
+    "originContent": "pip install vllm autogen pandas retry openai",
+    "translatedContent": "pip install vllm autogen pandas retry openai"
+  },
+  {
+    "row": 9,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "BSnsaG+eNAshcn2iPQpee7MSWjCSYDbQzbzDpmmiZo4=",
+    "originContent": "## Prepare Inference Service Using [vLLM](https://docs.vllm.ai/)",
+    "translatedContent": "## Prepare Inference Service Using [vLLM](https://docs.vllm.ai/)"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "sZn0webOQ45j0rIK6dUdfAe1YfMVmbr90Cryb7aXQmI=",
+    "originContent": "vLLM provides an OpenAI-compatible API server with efficient inference and built-in load balancing across multiple GPUs.",
+    "translatedContent": "vLLM provides an OpenAI-compatible API server with efficient inference and built-in load balancing across multiple GPUs."
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "1k7hKZ4yRzC/jvS6BHCxnfEBWTMBwphz+2y2ikLmg00=",
+    "originContent": "### Start vLLM Server",
+    "translatedContent": "### Start vLLM Server"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "/GP//8y7wnwz3EHex7b4MzIigC8u0Jmjk8/fYYYRxL8=",
+    "originContent": "Start the vLLM server with your desired model. For multi-GPU setups, use `--data-parallel-size` to enable automatic load balancing:",
+    "translatedContent": "Start the vLLM server with your desired model. For multi-GPU setups, use `--data-parallel-size` to enable automatic load balancing:"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "LZJOj90EG36P14hRAujmGH6G9xcfEp27HEjoA6VX0fM=",
+    "originContent": "**Single GPU:**",
+    "translatedContent": "**Single GPU:**"
+  },
+  {
+    "row": 20,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 21,
+    "rowsha": "jYv9Cej4oJz/xPhpLvkbcTfk0wABozk5fUjzyyDoIdM=",
+    "originContent": "vllm serve Qwen/Qwen3-1.7B --port 8000",
+    "translatedContent": "vllm serve Qwen/Qwen3-1.7B --port 8000"
+  },
+  {
+    "row": 22,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "qo+YtZDspIwK66q+3FInroke3rrvblXXFnGtuM7qiko=",
+    "originContent": "**Multiple GPUs (e.g., 2 GPUs with data parallelism):**",
+    "translatedContent": "**Multiple GPUs (e.g., 2 GPUs with data parallelism):**"
+  },
+  {
+    "row": 25,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 26,
+    "rowsha": "TroQGRt4wC9Am66b2mLs9fOH4KtlghlI0TAIgdSC9NM=",
+    "originContent": "vllm serve Qwen/Qwen3-1.7B --port 8000 --data-parallel-size 2",
+    "translatedContent": "vllm serve Qwen/Qwen3-1.7B --port 8000 --data-parallel-size 2"
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**With tensor parallelism for larger models:**"
+  },
+  {
+    "row": 29,
+    "rowsha": "6WvxRznrLi+y0jYvYQsiPe1JW2Yr9NxrDVgt4IcR36Q=",
+    "originContent": "**With tensor parallelism for larger models:**",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 31,
+    "rowsha": "kek7coHS+ikcr9dFS5ey7857MONzbPVvLH0mmRjPj00=",
+    "originContent": "vllm serve <your-large-model> --port 8000 --tensor-parallel-size 4",
+    "translatedContent": "vllm serve <your-large-model> --port 8000 --tensor-parallel-size 4"
+  },
+  {
+    "row": 32,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "FLAvNQnU5QGPc7GiImr8ZczoT6P5afDGL7cnP0Ctqm4=",
+    "originContent": "**Combined tensor and data parallelism (8 GPUs, 2-way TP × 4-way DP):**",
+    "translatedContent": "**Combined tensor and data parallelism (8 GPUs, 2-way TP × 4-way DP):**"
+  },
+  {
+    "row": 35,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 36,
+    "rowsha": "BImUmqudOjRaGD9LXG/4eJbGDgB778SVFxp+rCLzutA=",
+    "originContent": "vllm serve <your-large-model> --port 8000 --tensor-parallel-size 2 --data-parallel-size 4",
+    "translatedContent": "vllm serve <your-large-model> --port 8000 --tensor-parallel-size 2 --data-parallel-size 4"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "P4ZCV8JmKywCbt9zA3g/1gJ5ivv3qYHqiqR+lMwsrd0=",
+    "originContent": "For more details on data parallel deployment with internal load balancing, see the [vLLM documentation](https://docs.vllm.ai/en/latest/serving/data_parallel_deployment/).",
+    "translatedContent": "For more details on data parallel deployment with internal load balancing, see the [vLLM documentation](https://docs.vllm.ai/en/latest/serving/data_parallel_deployment/)."
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "NROpe7iBR2nwF/TogOZE42lEJaNeY0IvaoFyH6Z4n0Y=",
+    "originContent": "### Verify the Server",
+    "translatedContent": "### Verify the Server"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "hN4JWJtKTJEGRUB80cZunU+SOmynqTBKUNHWlQ5c0SI=",
+    "originContent": "You can verify the server is running by checking the models endpoint:",
+    "translatedContent": "You can verify the server is running by checking the models endpoint:"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 46,
+    "rowsha": "gv/bGdDfZ5TQL72P1ua9Cf1qDQzXENlRonLkq1ZKcGY=",
+    "originContent": "curl http://localhost:8000/v1/models",
+    "translatedContent": "curl http://localhost:8000/v1/models"
+  },
+  {
+    "row": 47,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "wpTja7r5GUrQ0OWcunK63Myzuv9RHwYu/SmSiz8OPNE=",
+    "originContent": "## Response Generation",
+    "translatedContent": "## Response Generation"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "53iKMOmp3PHB4AlDAoQLfIcrcFWyajf3Myx1AG02/kg=",
+    "originContent": "The responses are generated by the target model served by vLLM (default: `Qwen/Qwen3-1.7B`). Make sure your vLLM server is running before executing the following command.",
+    "translatedContent": "The responses are generated by the target model served by vLLM (default: `Qwen/Qwen3-1.7B`). Make sure your vLLM server is running before executing the following command."
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "iWZ7YdWdRu3Pwucvx510VjDabkoOkbFX+vKah3WqjSg=",
+    "originContent": "### Attack Prompts (Harmful)",
+    "translatedContent": "### Attack Prompts (Harmful)"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 56,
+    "rowsha": "d2r1pyeWrTGAvv398QFAQqX7yFxqa2IQEPVMxLVXGrA=",
+    "originContent": "python attack/attack.py --model Qwen/Qwen3-1.7B --host 127.0.0.1 --port 8000",
+    "translatedContent": "python attack/attack.py --model Qwen/Qwen3-1.7B --host 127.0.0.1 --port 8000"
+  },
+  {
+    "row": 57,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "eUnGSe2/MY5h2YyLOX+Ga/gf4UtpUwbl4v7K5pVtcUU=",
+    "originContent": "This command will generate responses using an attack prompt template (default: `--template v1`) loaded from `data/prompt/attack_prompt_template.json`.",
+    "translatedContent": "This command will generate responses using an attack prompt template (default: `--template v1`) loaded from `data/prompt/attack_prompt_template.json`."
+  },
+  {
+    "row": 60,
+    "rowsha": "TFqHlpOfzMHhX5++5KedMFRsBeEyYZA+54ZQ46kKeLs=",
+    "originContent": "To run multiple repetitions, invoke the script multiple times and vary `--output-suffix` and/or `--cache-seed`.",
+    "translatedContent": "To run multiple repetitions, invoke the script multiple times and vary `--output-suffix` and/or `--cache-seed`."
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "f9fwrsEKPr+2oBg36hzAsWL22xxPZeWk7E+qQ78dryc=",
+    "originContent": "### Safe Prompts (Benign)",
+    "translatedContent": "### Safe Prompts (Benign)"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "pScF2oe1KraxiHYaIZebjOV4+LGFMXCynB+T2AdLRx4=",
+    "originContent": "To generate responses for safe/benign prompts (used for false positive evaluation):",
+    "translatedContent": "To generate responses for safe/benign prompts (used for false positive evaluation):"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 67,
+    "rowsha": "ZFSX9DaLU7q5PKtY4P0Go+HIzAxhnWYWtqzI1FIbBdM=",
+    "originContent": "python attack/attack.py \\",
+    "translatedContent": "python attack/attack.py \\"
+  },
+  {
+    "row": 68,
+    "rowsha": "j4OtDecBJvv6ki1WS+MxW0fv+Gr0Jd/aai3ghkVMQR4=",
+    "originContent": "    --model Qwen/Qwen3-1.7B \\",
+    "translatedContent": "    --model Qwen/Qwen3-1.7B \\"
+  },
+  {
+    "row": 69,
+    "rowsha": "zdtIDqjDYt2qHVtL+Phc+kn/oBwCDiwrX835I2GXsnU=",
+    "originContent": "    --template placeholder \\",
+    "translatedContent": "    --template placeholder \\"
+  },
+  {
+    "row": 70,
+    "rowsha": "oD98koKGegORXXLfQuroUOoV4BAytpgrG5fBsdQFhzg=",
+    "originContent": "    --prompts data/prompt/safe_prompts.json \\",
+    "translatedContent": "    --prompts data/prompt/safe_prompts.json \\"
+  },
+  {
+    "row": 71,
+    "rowsha": "ZYOx2FtVtUbOYHWZQ5nqWwGsc2H3KVW2w3LXRMruoJU=",
+    "originContent": "    --output-prefix safe",
+    "translatedContent": "    --output-prefix safe"
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "G8ZzSxuAuUPmS1RdT6oolr2iXsk7Fh4chcDtwbxswxw=",
+    "originContent": "The `placeholder` template passes prompts through without any attack framing, while `v1` wraps prompts with jailbreak instructions.",
+    "translatedContent": "The `placeholder` template passes prompts through without any attack framing, while `v1` wraps prompts with jailbreak instructions."
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "d2t1nvFEsexgE4WbpHi3pifpacslBtmVpU49yX9mxq8=",
+    "originContent": "## Run Defense Experiments",
+    "translatedContent": "## Run Defense Experiments"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "Bbe6MVrdgPxtbt9FVt/tHA0IqONhZK3MmjK4OPxQK/A=",
+    "originContent": "The following command runs the experiments of 1-Agent, 2-Agent, and 3-Agent defense. The `--chat-file` should point to the harmful outputs generated by `attack/attack.py` (by default saved under `data/harmful_output/<model_dir>/`, e.g. `data/harmful_output/Qwen-Qwen3-1.7B/attack-dan_0.json`).",
+    "translatedContent": "The following command runs the experiments of 1-Agent, 2-Agent, and 3-Agent defense. The `--chat-file` should point to the harmful outputs generated by `attack/attack.py` (by default saved under `data/harmful_output/<model_dir>/`, e.g. `data/harmful_output/Qwen-Qwen3-1.7B/attack-dan_0.json`)."
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 81,
+    "rowsha": "L8xraWs+Xsk4UTT0eI7e5Kawa7JIeOJgg4kgr0jNtK0=",
+    "originContent": "export AUTOGEN_USE_DOCKER=0",
+    "translatedContent": "export AUTOGEN_USE_DOCKER=0"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "PRZNW4FSi4s92M7wtrOgw/i12wWdAgkcA4FUw+3v40U=",
+    "originContent": "python defense/run_defense_exp.py \\",
+    "translatedContent": "python defense/run_defense_exp.py \\"
+  },
+  {
+    "row": 84,
+    "rowsha": "rdSjIaEnvA4fxOrr1zBxr7SvYoFHjOMFxii3q/r2Lso=",
+    "originContent": "  --model Qwen/Qwen3-1.7B \\",
+    "translatedContent": "  --model Qwen/Qwen3-1.7B \\"
+  },
+  {
+    "row": 85,
+    "rowsha": "y0Y7FK059DEFp+/gDzaQ/2/rGosxtUi4KJmYc8E9sE4=",
+    "originContent": "  --chat-file data/harmful_output/Qwen-Qwen3-1.7B/attack-dan_0.json",
+    "translatedContent": "  --chat-file data/harmful_output/Qwen-Qwen3-1.7B/attack-dan_0.json"
+  },
+  {
+    "row": 86,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "PNDWaFnuKY18HZpDq3GKchiJ5rAx0uYEThELtL7kBr8=",
+    "originContent": "### Command Line Arguments",
+    "translatedContent": "### Command Line Arguments"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "nEK5CVFTHwExYtQ0oKadakboRv0qJpr/7/RxXF+8AcU=",
+    "originContent": "| Argument | Description | Default |",
+    "translatedContent": "| Argument | Description | Default |"
+  },
+  {
+    "row": 91,
+    "rowsha": "DVr/Dm1EyBfNVX8hj0lOlp3ivmaKGBnRdp7HSMQMDM8=",
+    "originContent": "|----------|-------------|---------|",
+    "translatedContent": "|----------|-------------|---------|"
+  },
+  {
+    "row": 92,
+    "rowsha": "wWi//JeGHHz5Hhbfx86i0oi+3FlBC+dugQb2Fz+Au/o=",
+    "originContent": "| `--model` | Target model served by vLLM | `Qwen/Qwen3-1.7B` |",
+    "translatedContent": "| `--model` | Target model served by vLLM | `Qwen/Qwen3-1.7B` |"
+  },
+  {
+    "row": 93,
+    "rowsha": "ea5Hava/T5Uw+v2tyuoc3engqMbFy46XJpoz507SXCg=",
+    "originContent": "| `--chat-file` | Path to the chat file with harmful outputs | Required |",
+    "translatedContent": "| `--chat-file` | Path to the chat file with harmful outputs | Required |"
+  },
+  {
+    "row": 94,
+    "rowsha": "rgeYOBtADckov6gPuOuRwpzEdpLcKVtkQ1TlA5AAtMU=",
+    "originContent": "| `--port` | Port where vLLM server is running | `8000` |",
+    "translatedContent": "| `--port` | Port where vLLM server is running | `8000` |"
+  },
+  {
+    "row": 95,
+    "rowsha": "QRtef2gDSysltgZQ81d863728x1AHnTFq7YXoD98ZJQ=",
+    "originContent": "| `--host` | Hostname of the vLLM server | `127.0.0.1` |",
+    "translatedContent": "| `--host` | Hostname of the vLLM server | `127.0.0.1` |"
+  },
+  {
+    "row": 96,
+    "rowsha": "Kg9V8aK+hwkxJORYu2ssOLlGrernS5W9FnlZI2V6S0c=",
+    "originContent": "| `--output-dir` | Output directory | `data/defense_output/<model_dir>` |",
+    "translatedContent": "| `--output-dir` | Output directory | `data/defense_output/<model_dir>` |"
+  },
+  {
+    "row": 97,
+    "rowsha": "BJweKXdk7pKm5fAMUgzt/JNKBQsw2HP4oaTagLFW3cM=",
+    "originContent": "| `--output-suffix` | Suffix for output directory | `\"\"` |",
+    "translatedContent": "| `--output-suffix` | Suffix for output directory | `\"\"` |"
+  },
+  {
+    "row": 98,
+    "rowsha": "gchg4m/5FwpKdhLahKe86+eSU9K2/eyOULZWXelyH0s=",
+    "originContent": "| `--strategies` | Defense strategies to run | `ex-2 ex-3 ex-cot` |",
+    "translatedContent": "| `--strategies` | Defense strategies to run | `ex-2 ex-3 ex-cot` |"
+  },
+  {
+    "row": 99,
+    "rowsha": "U+2bvLQhISvOGXDru/LfWjiGl/RiGrqVqAPRvE0WRic=",
+    "originContent": "| `--workers` | Number of parallel workers | `128` |",
+    "translatedContent": "| `--workers` | Number of parallel workers | `128` |"
+  },
+  {
+    "row": 100,
+    "rowsha": "vg4Uajw88YmpbBLZMbxWfKPKV+axjSuLGiDQEwP71z0=",
+    "originContent": "| `--frequency_penalty` | Frequency penalty for generation | `0.0` |",
+    "translatedContent": "| `--frequency_penalty` | Frequency penalty for generation | `0.0` |"
+  },
+  {
+    "row": 101,
+    "rowsha": "UZhEaNRq6Hj7OTOOHIoKby3zKP0M9Kc1RjsxUF5pwwI=",
+    "originContent": "| `--presence_penalty` | Presence penalty for generation | `0.0` |",
+    "translatedContent": "| `--presence_penalty` | Presence penalty for generation | `0.0` |"
+  },
+  {
+    "row": 102,
+    "rowsha": "zkss+gASXExG7Z1xt8wkEK6QMCIDnsKq+DDLhlu3jrU=",
+    "originContent": "| `--temperature` | Temperature for generation | `0.7` |",
+    "translatedContent": "| `--temperature` | Temperature for generation | `0.7` |"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "ArGbewFf4B6xYaSUobIBZQQvzW9S4+852+8CnOzbxnQ=",
+    "originContent": "After finishing the defense experiment, the output will appear in `data/defense_output/<model_dir>/` (e.g. `data/defense_output/Qwen-Qwen3-1.7B/`).",
+    "translatedContent": "After finishing the defense experiment, the output will appear in `data/defense_output/<model_dir>/` (e.g. `data/defense_output/Qwen-Qwen3-1.7B/`)."
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "ulORJI9JL/Xt1xife2+232i+OsHhb7nBhwy4HJ8jN+s=",
+    "originContent": "## GPT Evaluation (paper uses GPT-4)",
+    "translatedContent": "## GPT Evaluation (paper uses GPT-4)"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "Me9ZOGIRhmVu8mKvkTXX5yKzo+a5IE6TSCPHAets2ug=",
+    "originContent": "Evaluating harmful output defense:",
+    "translatedContent": "Evaluating harmful output defense:"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 111,
+    "rowsha": "UpkkmYOIaJVZeBLQwIbdK+s8OU+VYPbBfyBRjrcFqIw=",
+    "originContent": "python evaluator/gpt4_evaluator.py \\",
+    "translatedContent": "python evaluator/gpt4_evaluator.py \\"
+  },
+  {
+    "row": 112,
+    "rowsha": "C5NDnEndyfGxQ2VEZKDb0S8PhUVw/+LhHR2NoK1A5aw=",
+    "originContent": "--defense_output_dir data/defense_output/Qwen-Qwen3-1.7B \\",
+    "translatedContent": "--defense_output_dir data/defense_output/Qwen-Qwen3-1.7B \\"
+  },
+  {
+    "row": 113,
+    "rowsha": "l39zxGWCEu/sJMWAFY609/ftgg+IYcIp9XcCNIIzGYg=",
+    "originContent": "--ori_prompt_file_name prompt_dan.json",
+    "translatedContent": "--ori_prompt_file_name prompt_dan.json"
+  },
+  {
+    "row": 114,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "OCIcZv2QQ3OTcM8Z+Ns/M05vutUNAIc1CJPJ90C0W+4=",
+    "originContent": "After finishing the evaluation, the output will appear in the `data/defense_output/Qwen-Qwen3-1.7B/asr.csv`.",
+    "translatedContent": "After finishing the evaluation, the output will appear in the `data/defense_output/Qwen-Qwen3-1.7B/asr.csv`."
+  },
+  {
+    "row": 117,
+    "rowsha": "BEqOsWywWVifIxLBl4eTFL7Br1R9SG61eNZpbP1oWPE=",
+    "originContent": "There will be also a `score` value appearing for each defense output in the output `json` file.",
+    "translatedContent": "There will be also a `score` value appearing for each defense output in the output `json` file."
+  },
+  {
+    "row": 118,
+    "rowsha": "ITXiTSoIwmy/NsmxJzfNztTn0d7bX0n663MntkbtrUE=",
+    "originContent": "`evaluator/gpt4_evaluator.py` uses a GPT model as the evaluator (the original paper uses GPT-4). Set your OpenAI credentials via environment variables (or CLI flags), and you can swap the evaluator to a newer GPT model (e.g., GPT-5) via `--model`.",
+    "translatedContent": "`evaluator/gpt4_evaluator.py` uses a GPT model as the evaluator (the original paper uses GPT-4). Set your OpenAI credentials via environment variables (or CLI flags), and you can swap the evaluator to a newer GPT model (e.g., GPT-5) via `--model`."
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 121,
+    "rowsha": "D/ERicmfWG+XSePNK0r1tQG0DEg7aP/+Bm2CkoCOW4w=",
+    "originContent": "export OPENAI_API_KEY=...",
+    "translatedContent": "export OPENAI_API_KEY=..."
+  },
+  {
+    "row": 122,
+    "rowsha": "wbdaNQmpGora0tNyiWEqhiNY9m1Jm+NzjqDvv4kfJ2w=",
+    "originContent": "# optional (only if you use an OpenAI-compatible endpoint):",
+    "translatedContent": "# optional (only if you use an OpenAI-compatible endpoint):"
+  },
+  {
+    "row": 123,
+    "rowsha": "w23kW64I5pt8Uoz65arWZ4WgpJxV7cOql2D37apcINY=",
+    "originContent": "# export OPENAI_BASE_URL=...",
+    "translatedContent": "# export OPENAI_BASE_URL=..."
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "UpkkmYOIaJVZeBLQwIbdK+s8OU+VYPbBfyBRjrcFqIw=",
+    "originContent": "python evaluator/gpt4_evaluator.py \\",
+    "translatedContent": "python evaluator/gpt4_evaluator.py \\"
+  },
+  {
+    "row": 126,
+    "rowsha": "pJcuqiRZzIhtr9k0yZ2kVPZJNRA+KewRQpwFCUhikHA=",
+    "originContent": "  --defense_output_dir data/defense_output/Qwen-Qwen3-1.7B \\",
+    "translatedContent": "  --defense_output_dir data/defense_output/Qwen-Qwen3-1.7B \\"
+  },
+  {
+    "row": 127,
+    "rowsha": "rNhBWavQseKpZ9j3t/5eOdfX+uC5vr5NfEEq7W2kpro=",
+    "originContent": "  --ori_prompt_file_name prompt_dan.json \\",
+    "translatedContent": "  --ori_prompt_file_name prompt_dan.json \\"
+  },
+  {
+    "row": 128,
+    "rowsha": "6wjV4j5C1lOwze+8JwhD6mJ+qXlHkqfLpoVWwQ7lJQE=",
+    "originContent": "  --model gpt-4-1106-preview",
+    "translatedContent": "  --model gpt-4-1106-preview"
+  },
+  {
+    "row": 129,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "uiat0DS5lfaxAxxqtPmFs7PrrQlAni2f0ohiS/8yOp8=",
+    "originContent": "GPT-based evaluation can be costly; we enable caching to avoid repeated evaluation.",
+    "translatedContent": "GPT-based evaluation can be costly; we enable caching to avoid repeated evaluation."
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "rg+9db3Yrt9xVng1NL8bzyi5M8S3so+bD5X1zd6ncdg=",
+    "originContent": "For safe response evaluation, there is an efficient way without using GPT-4. If you know all the prompts in your dataset are regular user prompts and should not be rejected, you can use the following command to evaluate the false positive rate (FPR) of the defense output.",
+    "translatedContent": "For safe response evaluation, there is an efficient way without using GPT-4. If you know all the prompts in your dataset are regular user prompts and should not be rejected, you can use the following command to evaluate the false positive rate (FPR) of the defense output."
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 136,
+    "rowsha": "CETsmTAeujZ0e++aks565hMBcJjdcDgewghXlBPKpw4=",
+    "originContent": "python evaluator/evaluate_safe.py",
+    "translatedContent": "python evaluator/evaluate_safe.py"
+  },
+  {
+    "row": 137,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "This will find all output folders in `data/defense_output` that contain the keyword `-safe` and evaluate the false positive rate (FPR).  "
+  },
+  {
+    "row": 139,
+    "rowsha": "nS1y9XDOVMWoPsRTZA7M5FPWcP6FllXZKyU1nOSr07U=",
+    "originContent": "This will find all output folders in `data/defense_output` that contain the keyword `-safe` and evaluate the false positive rate (FPR).",
+    "translatedContent": "The FPR will be saved in the `data/defense_output/defense_fp.csv` file."
+  },
+  {
+    "row": 140,
+    "rowsha": "dgNBB4T7xRJIfma53XRcDgEw056La3q2GOWYPp4vwcI=",
+    "originContent": "The FPR will be saved in the `data/defense_output/defense_fp.csv` file.",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

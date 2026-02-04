@@ -118,13 +118,13 @@ python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 
 # ข้อมูล
 
-**🚀 เวอร์ชัน Dart: 𒁍 2.7.0-dev.2.1 ➢ 3.10.7**
+**🚀 Dart เวอร์ชัน: 𒁍 2.7.0-dev.2.1 ➢ 3.10.8**
 
-**🚀 เวอร์ชัน Flutter: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.6**
+**🚀 Flutter เวอร์ชัน: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.9**
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-04
 
 ---
