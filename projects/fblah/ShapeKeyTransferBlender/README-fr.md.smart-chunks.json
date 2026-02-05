@@ -1,0 +1,382 @@
+[
+  {
+    "Id": 1,
+    "Content": "## Shape Key Tools for Blender\n<!-- BADGES/ -->\n<span class=\"badge-blenderartists\"><a href=\"https://blenderartists.org/t/free-shape-key-transfer-addon\" title=\"Link to Blender Artists forum post\"><img src=\"https://img.shields.io/badge/Blender-Artists-orange.svg?logo=blender&longCache=true&style=popout-square\" alt=\"Blender Artists Forum Post\" /></a></span>\n<span class=\"badge-discord\"><a href=\"https://discord.gg/CmgdEvw\" title=\"Join on discord\"><img src=\"https://img.shields.io/badge/Discord-Join-768ADC.svg?logo=discord&longCache=true&style=popout-square\" alt=\"Discord server button\" /></a></span>\n<span class=\"badge-youtube\"><a href=\"https://www.youtube.com/watch?v=-zBlaedkkVs\" title=\"Watch Tutorial on Youtube\"><img src=\"https://img.shields.io/badge/Tutorial-Video-F40000.svg?logo=youtube&longCache=true&style=popout-square\" alt=\"Youtube Tutorial\" /></a></span>\n\nShape Key Transfer for Blender 2.93\n\nUse this addon to easily transfer shape keys between meshes of different topology.\n\nPlace both the meshes at origin and overlap them at the location you want the destination mesh to copy shape keys of the source mesh.\n\nThis addon was initially created to copy shape keys from ManuelBastioniLab Character to other meshes, but can be used in any situation.\n\nThis addon is based on the code within this [StackoverFlow post](https://blender.stackexchange.com/questions/119836/scripting-transferring-shape-keys-between-different-meshes/119867#119867) made by me.\n\nThe addon will be under Tools -> Shape Key Tools\n\nYou can exclude shape keys also.\n\nUse Increment Radius to increase the number of vertices from the source mesh which affect the destination mesh.\n\nWhen Use Closest Vertex is off it will average the locations of all nearby vertices within the Increment Radius.\n\n#### Fewer vertices in the source mesh will make the operation run faster.\n\n##\n\n### Features:\n\n- Transfer Shape Keys between meshes of different topologies\n\n- Manage what shape keys are transferred by adding exclusions\n\n- Copy all shape key names of a mesh to clipboard\n\n### Example Use Cases:\n\n- Copy shape keys from face to moustache or eyebrow hair cards.\n",
+    "ContentSha": "3R5GkVumi1DBGDl1Bnp2rEKzE4v4raxG5qOT7zrL2VE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Outils de Shape Key pour Blender\n<!-- BADGES/ -->\n<span class=\"badge-blenderartists\"><a href=\"https://blenderartists.org/t/free-shape-key-transfer-addon\" title=\"Lien vers le post du forum Blender Artists\"><img src=\"https://img.shields.io/badge/Blender-Artists-orange.svg?logo=blender&longCache=true&style=popout-square\" alt=\"Post du forum Blender Artists\" /></a></span>\n<span class=\"badge-discord\"><a href=\"https://discord.gg/CmgdEvw\" title=\"Rejoindre sur discord\"><img src=\"https://img.shields.io/badge/Discord-Join-768ADC.svg?logo=discord&longCache=true&style=popout-square\" alt=\"Bouton serveur Discord\" /></a></span>\n<span class=\"badge-youtube\"><a href=\"https://www.youtube.com/watch?v=-zBlaedkkVs\" title=\"Regarder le tutoriel sur Youtube\"><img src=\"https://img.shields.io/badge/Tutorial-Video-F40000.svg?logo=youtube&longCache=true&style=popout-square\" alt=\"Tutoriel Youtube\" /></a></span>\n\nTransfert de Shape Key pour Blender 2.93\n\nUtilisez cet addon pour transférer facilement les shape keys entre des maillages de topologies différentes.\n\nPlacez les deux maillages à l’origine et superposez-les à l’endroit où vous souhaitez que le maillage destination copie les shape keys du maillage source.\n\nCet addon a été initialement créé pour copier les shape keys du personnage ManuelBastioniLab vers d’autres maillages, mais peut être utilisé dans toute situation.\n\nCet addon est basé sur le code contenu dans ce [post Stackoverflow](https://blender.stackexchange.com/questions/119836/scripting-transferring-shape-keys-between-different-meshes/119867#119867) réalisé par moi.\n\nL’addon sera accessible sous Outils -> Outils de Shape Key\n\nVous pouvez aussi exclure des shape keys.\n\nUtilisez Rayon d’Incrément pour augmenter le nombre de sommets du maillage source qui affectent le maillage destination.\n\nQuand Utiliser le Sommet le Plus Proche est désactivé, il fera la moyenne des positions de tous les sommets proches dans le Rayon d’Incrément.\n\n#### Moins de sommets dans le maillage source rendra l’opération plus rapide.\n\n##\n\n### Fonctionnalités :\n\n- Transférer des Shape Keys entre des maillages de topologies différentes\n\n- Gérer les shape keys transférées en ajoutant des exclusions\n\n- Copier tous les noms de shape keys d’un maillage dans le presse-papiers\n\n### Exemples d’utilisation :\n\n- Copier les shape keys du visage vers les cartes de cheveux pour moustache ou sourcils.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "q5988dksMf7y+oVYYwiROkg4zpIRt1qAsiqBXfq63oM=",
+        "originContent": "## Shape Key Tools for Blender",
+        "translatedContent": "## Outils de Shape Key pour Blender"
+      },
+      {
+        "row": 2,
+        "rowsha": "wG+6/U9SD3JRGIseqAW9I92ccLSuvULr4vn0XA+jBSo=",
+        "originContent": "<!-- BADGES/ -->",
+        "translatedContent": "<!-- BADGES/ -->"
+      },
+      {
+        "row": 3,
+        "rowsha": "J7xLTVPgnw++8AGwEYtjfczJVdZfnHWc6vy2M0vI5Yw=",
+        "originContent": "<span class=\"badge-blenderartists\"><a href=\"https://blenderartists.org/t/free-shape-key-transfer-addon\" title=\"Link to Blender Artists forum post\"><img src=\"https://img.shields.io/badge/Blender-Artists-orange.svg?logo=blender&longCache=true&style=popout-square\" alt=\"Blender Artists Forum Post\" /></a></span>",
+        "translatedContent": "<span class=\"badge-blenderartists\"><a href=\"https://blenderartists.org/t/free-shape-key-transfer-addon\" title=\"Lien vers le post du forum Blender Artists\"><img src=\"https://img.shields.io/badge/Blender-Artists-orange.svg?logo=blender&longCache=true&style=popout-square\" alt=\"Post du forum Blender Artists\" /></a></span>"
+      },
+      {
+        "row": 4,
+        "rowsha": "qGrlVcriL39iYDrhPyMh9UlLbxcnTP/1pGlZqxuMasc=",
+        "originContent": "<span class=\"badge-discord\"><a href=\"https://discord.gg/CmgdEvw\" title=\"Join on discord\"><img src=\"https://img.shields.io/badge/Discord-Join-768ADC.svg?logo=discord&longCache=true&style=popout-square\" alt=\"Discord server button\" /></a></span>",
+        "translatedContent": "<span class=\"badge-discord\"><a href=\"https://discord.gg/CmgdEvw\" title=\"Rejoindre sur discord\"><img src=\"https://img.shields.io/badge/Discord-Join-768ADC.svg?logo=discord&longCache=true&style=popout-square\" alt=\"Bouton serveur Discord\" /></a></span>"
+      },
+      {
+        "row": 5,
+        "rowsha": "4/HAaoF6diE5ZvzYAIso5GXDFAu5PriM1OawjBsEG9I=",
+        "originContent": "<span class=\"badge-youtube\"><a href=\"https://www.youtube.com/watch?v=-zBlaedkkVs\" title=\"Watch Tutorial on Youtube\"><img src=\"https://img.shields.io/badge/Tutorial-Video-F40000.svg?logo=youtube&longCache=true&style=popout-square\" alt=\"Youtube Tutorial\" /></a></span>",
+        "translatedContent": "<span class=\"badge-youtube\"><a href=\"https://www.youtube.com/watch?v=-zBlaedkkVs\" title=\"Regarder le tutoriel sur Youtube\"><img src=\"https://img.shields.io/badge/Tutorial-Video-F40000.svg?logo=youtube&longCache=true&style=popout-square\" alt=\"Tutoriel Youtube\" /></a></span>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "FpnQWzKkQq5issAQxaB4TnSEyDKFW55wq2vg/aaEN+g=",
+        "originContent": "Shape Key Transfer for Blender 2.93",
+        "translatedContent": "Transfert de Shape Key pour Blender 2.93"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "wo52Dm9Ff3dHpVMQLfRvpih/ofq1rHIqLMR6xuan57w=",
+        "originContent": "Use this addon to easily transfer shape keys between meshes of different topology.",
+        "translatedContent": "Utilisez cet addon pour transférer facilement les shape keys entre des maillages de topologies différentes."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Dad74hCiZhTLFEVdL3BPxoGxv9K7T65XYYQYck/sXak=",
+        "originContent": "Place both the meshes at origin and overlap them at the location you want the destination mesh to copy shape keys of the source mesh.",
+        "translatedContent": "Placez les deux maillages à l’origine et superposez-les à l’endroit où vous souhaitez que le maillage destination copie les shape keys du maillage source."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "AXRgc5spODkKfjVq97/mvz7khoMOeH6jIZl2NYVmyw8=",
+        "originContent": "This addon was initially created to copy shape keys from ManuelBastioniLab Character to other meshes, but can be used in any situation.",
+        "translatedContent": "Cet addon a été initialement créé pour copier les shape keys du personnage ManuelBastioniLab vers d’autres maillages, mais peut être utilisé dans toute situation."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "xSOmso3quB+WtOaewUni543WiLj9zZR0q86Y49djA3w=",
+        "originContent": "This addon is based on the code within this [StackoverFlow post](https://blender.stackexchange.com/questions/119836/scripting-transferring-shape-keys-between-different-meshes/119867#119867) made by me.",
+        "translatedContent": "Cet addon est basé sur le code contenu dans ce [post Stackoverflow](https://blender.stackexchange.com/questions/119836/scripting-transferring-shape-keys-between-different-meshes/119867#119867) réalisé par moi."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "7/NXkwa0QMVFRJ+O75IbTif62K/9mqLwkXWlIKi2K7Q=",
+        "originContent": "The addon will be under Tools -> Shape Key Tools",
+        "translatedContent": "L’addon sera accessible sous Outils -> Outils de Shape Key"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "lUMJ58CfzTSzDStr9iykO0sSDD3s266P6r8Hnr+AAeU=",
+        "originContent": "You can exclude shape keys also.",
+        "translatedContent": "Vous pouvez aussi exclure des shape keys."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Q2a51UoqBs0Q6TelbpEnRYytmnd6FRvJOs6qeDeOhH4=",
+        "originContent": "Use Increment Radius to increase the number of vertices from the source mesh which affect the destination mesh.",
+        "translatedContent": "Utilisez Rayon d’Incrément pour augmenter le nombre de sommets du maillage source qui affectent le maillage destination."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "qLkxhVFzwk5y5jeIX248xTbX6TNkmX4JbkhmaKR6IMc=",
+        "originContent": "When Use Closest Vertex is off it will average the locations of all nearby vertices within the Increment Radius.",
+        "translatedContent": "Quand Utiliser le Sommet le Plus Proche est désactivé, il fera la moyenne des positions de tous les sommets proches dans le Rayon d’Incrément."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "Oy+NAlrqi7KF0dg7VR6tMx37jM5A17aCpGFR55q0CF0=",
+        "originContent": "#### Fewer vertices in the source mesh will make the operation run faster.",
+        "translatedContent": "#### Moins de sommets dans le maillage source rendra l’opération plus rapide."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "dqcfvvioM5/Lyv+Mmq37hcg0vDzAwHBppeuy7qPZDWg=",
+        "originContent": "##",
+        "translatedContent": "##"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "MZk/c5x3o23vnmscarz2jumbFWy1ibIZ5zoI4nKFfMw=",
+        "originContent": "### Features:",
+        "translatedContent": "### Fonctionnalités :"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "hfA42znpP0jRVUF2iIEyZ+wgsFV6zfQtg0uYPBCHBgs=",
+        "originContent": "- Transfer Shape Keys between meshes of different topologies",
+        "translatedContent": "- Transférer des Shape Keys entre des maillages de topologies différentes"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "qi2VXxit6M7w6kWQgLFatfSlMMrDLE5hLCu6RHf46RM=",
+        "originContent": "- Manage what shape keys are transferred by adding exclusions",
+        "translatedContent": "- Gérer les shape keys transférées en ajoutant des exclusions"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "an+RpwbP16B+lDDqTufLy1fPkbvAHJNMfxMQzLofHUs=",
+        "originContent": "- Copy all shape key names of a mesh to clipboard",
+        "translatedContent": "- Copier tous les noms de shape keys d’un maillage dans le presse-papiers"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "1Kw9yyWbw4Yu0q/K+hUeg0RIUe6nxhfCnxKUvJBXVeM=",
+        "originContent": "### Example Use Cases:",
+        "translatedContent": "### Exemples d’utilisation :"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "g3CRZr4+yG2wJnLW2IGGd4KFiatzUoR20FylZTOh2Bk=",
+        "originContent": "- Copy shape keys from face to moustache or eyebrow hair cards.",
+        "translatedContent": "- Copier les shape keys du visage vers les cartes de cheveux pour moustache ou sourcils."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- Copy shape keys from base mesh to LOD.\n\n##\n\n### Note:\nSometimes it is good to duplicate the source mesh and remove the vertices you feel may not be required to affect the destination mesh. \n\nOne example incase of a moustache and a face: Duplicate the face and delete all the vertices except the ones around the lips which are most likely to influence the moustache and use the resulting mesh as source to copy shape keys to your destination moustache hair cards or mesh.\n\nWill be adding more functionality to this addon if required. You can also delete all shape keys in a mesh easily with this tool.\n\n##\n\n### License:\n\nShape Key Transfer Addon for Blender - Copyright (C) 2018 Ajit Christopher D'Monte\n\nAll python files are released under GNU General Public License 3.\n",
+    "ContentSha": "QbfNImkZ+JgOkcLIqDuGTkkpkNgdvS8zYFXjLXmspE4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Copier les clés de forme du maillage de base vers le LOD.\n\n##\n\n### Note :\nIl est parfois utile de dupliquer le maillage source et de supprimer les vertices que vous estimez ne pas devoir influencer le maillage de destination.\n\nUn exemple dans le cas d’une moustache et d’un visage : dupliquez le visage et supprimez tous les vertices sauf ceux autour des lèvres qui sont les plus susceptibles d’influencer la moustache, puis utilisez le maillage résultant comme source pour copier les clés de forme vers vos cartes de cheveux moustache ou maillage de destination.\n\nPlus de fonctionnalités seront ajoutées à cet addon si nécessaire. Vous pouvez également supprimer facilement toutes les clés de forme d’un maillage avec cet outil.\n\n##\n\n### Licence :\n\nAddon de transfert de clés de forme pour Blender - Copyright (C) 2018 Ajit Christopher D'Monte\n\nTous les fichiers python sont publiés sous licence GNU General Public License 3.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "nnierlIj2NruOKGdMv25ERAfVycCKBkH6vWwUNSA0l4=",
+        "originContent": "- Copy shape keys from base mesh to LOD.",
+        "translatedContent": "- Copier les clés de forme du maillage de base vers le LOD."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "dqcfvvioM5/Lyv+Mmq37hcg0vDzAwHBppeuy7qPZDWg=",
+        "originContent": "##",
+        "translatedContent": "##"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "OZ110lkKpUCNJU/mXU+7KVVYIuXeDMjiZy3sbYSiG7w=",
+        "originContent": "### Note:",
+        "translatedContent": "### Note :"
+      },
+      {
+        "row": 6,
+        "rowsha": "Mdp94+8wju+w6nZ2hvuVLOZ3pdllXHCbubSvv5Na56U=",
+        "originContent": "Sometimes it is good to duplicate the source mesh and remove the vertices you feel may not be required to affect the destination mesh. ",
+        "translatedContent": "Il est parfois utile de dupliquer le maillage source et de supprimer les vertices que vous estimez ne pas devoir influencer le maillage de destination."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "pD2OgP+iOOLAbsriffqlpy0heA1N1x7HJRVWvTwxoag=",
+        "originContent": "One example incase of a moustache and a face: Duplicate the face and delete all the vertices except the ones around the lips which are most likely to influence the moustache and use the resulting mesh as source to copy shape keys to your destination moustache hair cards or mesh.",
+        "translatedContent": "Un exemple dans le cas d’une moustache et d’un visage : dupliquez le visage et supprimez tous les vertices sauf ceux autour des lèvres qui sont les plus susceptibles d’influencer la moustache, puis utilisez le maillage résultant comme source pour copier les clés de forme vers vos cartes de cheveux moustache ou maillage de destination."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "HI7akdzKyoAf3sziGUJ/7EASYl0hpDPDdg6l+uOJWlM=",
+        "originContent": "Will be adding more functionality to this addon if required. You can also delete all shape keys in a mesh easily with this tool.",
+        "translatedContent": "Plus de fonctionnalités seront ajoutées à cet addon si nécessaire. Vous pouvez également supprimer facilement toutes les clés de forme d’un maillage avec cet outil."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "dqcfvvioM5/Lyv+Mmq37hcg0vDzAwHBppeuy7qPZDWg=",
+        "originContent": "##",
+        "translatedContent": "##"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "nfidwJqCQjMGAc2omPSpSeUp+DLuUQaKqr3hSYnzF9g=",
+        "originContent": "### License:",
+        "translatedContent": "### Licence :"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "MDdbrb78jmf+rEw9QlOHuaDw67/vWu4tNKZ2X5ODiA8=",
+        "originContent": "Shape Key Transfer Addon for Blender - Copyright (C) 2018 Ajit Christopher D'Monte",
+        "translatedContent": "Addon de transfert de clés de forme pour Blender - Copyright (C) 2018 Ajit Christopher D'Monte"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "f2oFGFYEyQ+TNrAzDnKnSzcbYHV33Y2JGyxe3REXumE=",
+        "originContent": "All python files are released under GNU General Public License 3.",
+        "translatedContent": "Tous les fichiers python sont publiés sous licence GNU General Public License 3."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

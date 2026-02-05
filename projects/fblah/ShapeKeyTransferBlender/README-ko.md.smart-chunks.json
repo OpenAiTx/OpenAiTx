@@ -1,0 +1,382 @@
+[
+  {
+    "Id": 1,
+    "Content": "## Shape Key Tools for Blender\n<!-- BADGES/ -->\n<span class=\"badge-blenderartists\"><a href=\"https://blenderartists.org/t/free-shape-key-transfer-addon\" title=\"Link to Blender Artists forum post\"><img src=\"https://img.shields.io/badge/Blender-Artists-orange.svg?logo=blender&longCache=true&style=popout-square\" alt=\"Blender Artists Forum Post\" /></a></span>\n<span class=\"badge-discord\"><a href=\"https://discord.gg/CmgdEvw\" title=\"Join on discord\"><img src=\"https://img.shields.io/badge/Discord-Join-768ADC.svg?logo=discord&longCache=true&style=popout-square\" alt=\"Discord server button\" /></a></span>\n<span class=\"badge-youtube\"><a href=\"https://www.youtube.com/watch?v=-zBlaedkkVs\" title=\"Watch Tutorial on Youtube\"><img src=\"https://img.shields.io/badge/Tutorial-Video-F40000.svg?logo=youtube&longCache=true&style=popout-square\" alt=\"Youtube Tutorial\" /></a></span>\n\nShape Key Transfer for Blender 2.93\n\nUse this addon to easily transfer shape keys between meshes of different topology.\n\nPlace both the meshes at origin and overlap them at the location you want the destination mesh to copy shape keys of the source mesh.\n\nThis addon was initially created to copy shape keys from ManuelBastioniLab Character to other meshes, but can be used in any situation.\n\nThis addon is based on the code within this [StackoverFlow post](https://blender.stackexchange.com/questions/119836/scripting-transferring-shape-keys-between-different-meshes/119867#119867) made by me.\n\nThe addon will be under Tools -> Shape Key Tools\n\nYou can exclude shape keys also.\n\nUse Increment Radius to increase the number of vertices from the source mesh which affect the destination mesh.\n\nWhen Use Closest Vertex is off it will average the locations of all nearby vertices within the Increment Radius.\n\n#### Fewer vertices in the source mesh will make the operation run faster.\n\n##\n\n### Features:\n\n- Transfer Shape Keys between meshes of different topologies\n\n- Manage what shape keys are transferred by adding exclusions\n\n- Copy all shape key names of a mesh to clipboard\n\n### Example Use Cases:\n\n- Copy shape keys from face to moustache or eyebrow hair cards.\n",
+    "ContentSha": "3R5GkVumi1DBGDl1Bnp2rEKzE4v4raxG5qOT7zrL2VE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Blender용 쉐이프 키 도구\n<!-- BADGES/ -->\n<span class=\"badge-blenderartists\"><a href=\"https://blenderartists.org/t/free-shape-key-transfer-addon\" title=\"Blender Artists 포럼 게시물 링크\"><img src=\"https://img.shields.io/badge/Blender-Artists-orange.svg?logo=blender&longCache=true&style=popout-square\" alt=\"Blender Artists Forum Post\" /></a></span>\n<span class=\"badge-discord\"><a href=\"https://discord.gg/CmgdEvw\" title=\"디스코드 참여하기\"><img src=\"https://img.shields.io/badge/Discord-Join-768ADC.svg?logo=discord&longCache=true&style=popout-square\" alt=\"Discord server button\" /></a></span>\n<span class=\"badge-youtube\"><a href=\"https://www.youtube.com/watch?v=-zBlaedkkVs\" title=\"유튜브 튜토리얼 보기\"><img src=\"https://img.shields.io/badge/Tutorial-Video-F40000.svg?logo=youtube&longCache=true&style=popout-square\" alt=\"Youtube Tutorial\" /></a></span>\n\nBlender 2.93용 쉐이프 키 전송\n\n이 애드온을 사용하여 서로 다른 토폴로지의 메쉬 간에 쉐이프 키를 쉽게 전송할 수 있습니다.\n\n두 메쉬를 원점에 배치하고 복사하려는 소스 메쉬의 쉐이프 키를 대상 메쉬가 복사할 위치에 겹치게 놓으세요.\n\n이 애드온은 처음에는 ManuelBastioniLab 캐릭터에서 다른 메쉬로 쉐이프 키를 복사하기 위해 만들어졌지만, 어떤 상황에서도 사용할 수 있습니다.\n\n이 애드온은 제가 만든 [StackoverFlow 게시물](https://blender.stackexchange.com/questions/119836/scripting-transferring-shape-keys-between-different-meshes/119867#119867)의 코드를 기반으로 합니다.\n\n애드온은 도구 -> 쉐이프 키 도구 아래에 위치합니다.\n\n쉐이프 키를 제외할 수도 있습니다.\n\n증가 반경(Increment Radius)을 사용하여 대상 메쉬에 영향을 미치는 소스 메쉬의 정점 수를 늘릴 수 있습니다.\n\n가장 가까운 정점 사용(Use Closest Vertex)이 꺼져 있으면 증가 반경 내 모든 인근 정점 위치의 평균을 냅니다.\n\n#### 소스 메쉬의 정점 수가 적을수록 작업이 더 빠르게 진행됩니다.\n\n##\n\n### 기능:\n\n- 서로 다른 토폴로지의 메쉬 간 쉐이프 키 전송\n\n- 제외할 쉐이프 키를 추가하여 전송할 키 관리\n\n- 메쉬의 모든 쉐이프 키 이름을 클립보드에 복사\n\n### 사용 예시:\n\n- 얼굴에서 콧수염 또는 눈썹 헤어 카드로 쉐이프 키 복사하기\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "q5988dksMf7y+oVYYwiROkg4zpIRt1qAsiqBXfq63oM=",
+        "originContent": "## Shape Key Tools for Blender",
+        "translatedContent": "## Blender용 쉐이프 키 도구"
+      },
+      {
+        "row": 2,
+        "rowsha": "wG+6/U9SD3JRGIseqAW9I92ccLSuvULr4vn0XA+jBSo=",
+        "originContent": "<!-- BADGES/ -->",
+        "translatedContent": "<!-- BADGES/ -->"
+      },
+      {
+        "row": 3,
+        "rowsha": "J7xLTVPgnw++8AGwEYtjfczJVdZfnHWc6vy2M0vI5Yw=",
+        "originContent": "<span class=\"badge-blenderartists\"><a href=\"https://blenderartists.org/t/free-shape-key-transfer-addon\" title=\"Link to Blender Artists forum post\"><img src=\"https://img.shields.io/badge/Blender-Artists-orange.svg?logo=blender&longCache=true&style=popout-square\" alt=\"Blender Artists Forum Post\" /></a></span>",
+        "translatedContent": "<span class=\"badge-blenderartists\"><a href=\"https://blenderartists.org/t/free-shape-key-transfer-addon\" title=\"Blender Artists 포럼 게시물 링크\"><img src=\"https://img.shields.io/badge/Blender-Artists-orange.svg?logo=blender&longCache=true&style=popout-square\" alt=\"Blender Artists Forum Post\" /></a></span>"
+      },
+      {
+        "row": 4,
+        "rowsha": "qGrlVcriL39iYDrhPyMh9UlLbxcnTP/1pGlZqxuMasc=",
+        "originContent": "<span class=\"badge-discord\"><a href=\"https://discord.gg/CmgdEvw\" title=\"Join on discord\"><img src=\"https://img.shields.io/badge/Discord-Join-768ADC.svg?logo=discord&longCache=true&style=popout-square\" alt=\"Discord server button\" /></a></span>",
+        "translatedContent": "<span class=\"badge-discord\"><a href=\"https://discord.gg/CmgdEvw\" title=\"디스코드 참여하기\"><img src=\"https://img.shields.io/badge/Discord-Join-768ADC.svg?logo=discord&longCache=true&style=popout-square\" alt=\"Discord server button\" /></a></span>"
+      },
+      {
+        "row": 5,
+        "rowsha": "4/HAaoF6diE5ZvzYAIso5GXDFAu5PriM1OawjBsEG9I=",
+        "originContent": "<span class=\"badge-youtube\"><a href=\"https://www.youtube.com/watch?v=-zBlaedkkVs\" title=\"Watch Tutorial on Youtube\"><img src=\"https://img.shields.io/badge/Tutorial-Video-F40000.svg?logo=youtube&longCache=true&style=popout-square\" alt=\"Youtube Tutorial\" /></a></span>",
+        "translatedContent": "<span class=\"badge-youtube\"><a href=\"https://www.youtube.com/watch?v=-zBlaedkkVs\" title=\"유튜브 튜토리얼 보기\"><img src=\"https://img.shields.io/badge/Tutorial-Video-F40000.svg?logo=youtube&longCache=true&style=popout-square\" alt=\"Youtube Tutorial\" /></a></span>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "FpnQWzKkQq5issAQxaB4TnSEyDKFW55wq2vg/aaEN+g=",
+        "originContent": "Shape Key Transfer for Blender 2.93",
+        "translatedContent": "Blender 2.93용 쉐이프 키 전송"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "wo52Dm9Ff3dHpVMQLfRvpih/ofq1rHIqLMR6xuan57w=",
+        "originContent": "Use this addon to easily transfer shape keys between meshes of different topology.",
+        "translatedContent": "이 애드온을 사용하여 서로 다른 토폴로지의 메쉬 간에 쉐이프 키를 쉽게 전송할 수 있습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Dad74hCiZhTLFEVdL3BPxoGxv9K7T65XYYQYck/sXak=",
+        "originContent": "Place both the meshes at origin and overlap them at the location you want the destination mesh to copy shape keys of the source mesh.",
+        "translatedContent": "두 메쉬를 원점에 배치하고 복사하려는 소스 메쉬의 쉐이프 키를 대상 메쉬가 복사할 위치에 겹치게 놓으세요."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "AXRgc5spODkKfjVq97/mvz7khoMOeH6jIZl2NYVmyw8=",
+        "originContent": "This addon was initially created to copy shape keys from ManuelBastioniLab Character to other meshes, but can be used in any situation.",
+        "translatedContent": "이 애드온은 처음에는 ManuelBastioniLab 캐릭터에서 다른 메쉬로 쉐이프 키를 복사하기 위해 만들어졌지만, 어떤 상황에서도 사용할 수 있습니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "xSOmso3quB+WtOaewUni543WiLj9zZR0q86Y49djA3w=",
+        "originContent": "This addon is based on the code within this [StackoverFlow post](https://blender.stackexchange.com/questions/119836/scripting-transferring-shape-keys-between-different-meshes/119867#119867) made by me.",
+        "translatedContent": "이 애드온은 제가 만든 [StackoverFlow 게시물](https://blender.stackexchange.com/questions/119836/scripting-transferring-shape-keys-between-different-meshes/119867#119867)의 코드를 기반으로 합니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "7/NXkwa0QMVFRJ+O75IbTif62K/9mqLwkXWlIKi2K7Q=",
+        "originContent": "The addon will be under Tools -> Shape Key Tools",
+        "translatedContent": "애드온은 도구 -> 쉐이프 키 도구 아래에 위치합니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "lUMJ58CfzTSzDStr9iykO0sSDD3s266P6r8Hnr+AAeU=",
+        "originContent": "You can exclude shape keys also.",
+        "translatedContent": "쉐이프 키를 제외할 수도 있습니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Q2a51UoqBs0Q6TelbpEnRYytmnd6FRvJOs6qeDeOhH4=",
+        "originContent": "Use Increment Radius to increase the number of vertices from the source mesh which affect the destination mesh.",
+        "translatedContent": "증가 반경(Increment Radius)을 사용하여 대상 메쉬에 영향을 미치는 소스 메쉬의 정점 수를 늘릴 수 있습니다."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "qLkxhVFzwk5y5jeIX248xTbX6TNkmX4JbkhmaKR6IMc=",
+        "originContent": "When Use Closest Vertex is off it will average the locations of all nearby vertices within the Increment Radius.",
+        "translatedContent": "가장 가까운 정점 사용(Use Closest Vertex)이 꺼져 있으면 증가 반경 내 모든 인근 정점 위치의 평균을 냅니다."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "Oy+NAlrqi7KF0dg7VR6tMx37jM5A17aCpGFR55q0CF0=",
+        "originContent": "#### Fewer vertices in the source mesh will make the operation run faster.",
+        "translatedContent": "#### 소스 메쉬의 정점 수가 적을수록 작업이 더 빠르게 진행됩니다."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "dqcfvvioM5/Lyv+Mmq37hcg0vDzAwHBppeuy7qPZDWg=",
+        "originContent": "##",
+        "translatedContent": "##"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "MZk/c5x3o23vnmscarz2jumbFWy1ibIZ5zoI4nKFfMw=",
+        "originContent": "### Features:",
+        "translatedContent": "### 기능:"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "hfA42znpP0jRVUF2iIEyZ+wgsFV6zfQtg0uYPBCHBgs=",
+        "originContent": "- Transfer Shape Keys between meshes of different topologies",
+        "translatedContent": "- 서로 다른 토폴로지의 메쉬 간 쉐이프 키 전송"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "qi2VXxit6M7w6kWQgLFatfSlMMrDLE5hLCu6RHf46RM=",
+        "originContent": "- Manage what shape keys are transferred by adding exclusions",
+        "translatedContent": "- 제외할 쉐이프 키를 추가하여 전송할 키 관리"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "an+RpwbP16B+lDDqTufLy1fPkbvAHJNMfxMQzLofHUs=",
+        "originContent": "- Copy all shape key names of a mesh to clipboard",
+        "translatedContent": "- 메쉬의 모든 쉐이프 키 이름을 클립보드에 복사"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "1Kw9yyWbw4Yu0q/K+hUeg0RIUe6nxhfCnxKUvJBXVeM=",
+        "originContent": "### Example Use Cases:",
+        "translatedContent": "### 사용 예시:"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "g3CRZr4+yG2wJnLW2IGGd4KFiatzUoR20FylZTOh2Bk=",
+        "originContent": "- Copy shape keys from face to moustache or eyebrow hair cards.",
+        "translatedContent": "- 얼굴에서 콧수염 또는 눈썹 헤어 카드로 쉐이프 키 복사하기"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- Copy shape keys from base mesh to LOD.\n\n##\n\n### Note:\nSometimes it is good to duplicate the source mesh and remove the vertices you feel may not be required to affect the destination mesh. \n\nOne example incase of a moustache and a face: Duplicate the face and delete all the vertices except the ones around the lips which are most likely to influence the moustache and use the resulting mesh as source to copy shape keys to your destination moustache hair cards or mesh.\n\nWill be adding more functionality to this addon if required. You can also delete all shape keys in a mesh easily with this tool.\n\n##\n\n### License:\n\nShape Key Transfer Addon for Blender - Copyright (C) 2018 Ajit Christopher D'Monte\n\nAll python files are released under GNU General Public License 3.\n",
+    "ContentSha": "QbfNImkZ+JgOkcLIqDuGTkkpkNgdvS8zYFXjLXmspE4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 기본 메시에서 LOD로 쉐이프 키 복사.\n\n##\n\n### 참고:\n때때로 소스 메시를 복제하고 목적지 메시 영향에 필요 없을 것으로 생각되는 정점들을 제거하는 것이 좋습니다.\n\n예를 들어 콧수염과 얼굴의 경우: 얼굴을 복제한 뒤 입 주변 정점만 남기고 나머지 정점들을 삭제합니다. 입 주변 정점들은 콧수염에 가장 영향을 줄 가능성이 높으므로, 이렇게 생성된 메시를 소스로 사용해 쉐이프 키를 목적지 콧수염 헤어 카드나 메시로 복사합니다.\n\n필요 시 이 애드온에 더 많은 기능을 추가할 예정입니다. 이 도구로 메시 내 모든 쉐이프 키를 쉽게 삭제할 수도 있습니다.\n\n##\n\n### 라이선스:\n\nBlender용 쉐이프 키 전송 애드온 - 저작권 (C) 2018 Ajit Christopher D'Monte\n\n모든 파이썬 파일은 GNU 일반 공중 사용 허가서 3에 따라 배포됩니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "nnierlIj2NruOKGdMv25ERAfVycCKBkH6vWwUNSA0l4=",
+        "originContent": "- Copy shape keys from base mesh to LOD.",
+        "translatedContent": "- 기본 메시에서 LOD로 쉐이프 키 복사."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "dqcfvvioM5/Lyv+Mmq37hcg0vDzAwHBppeuy7qPZDWg=",
+        "originContent": "##",
+        "translatedContent": "##"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "OZ110lkKpUCNJU/mXU+7KVVYIuXeDMjiZy3sbYSiG7w=",
+        "originContent": "### Note:",
+        "translatedContent": "### 참고:"
+      },
+      {
+        "row": 6,
+        "rowsha": "Mdp94+8wju+w6nZ2hvuVLOZ3pdllXHCbubSvv5Na56U=",
+        "originContent": "Sometimes it is good to duplicate the source mesh and remove the vertices you feel may not be required to affect the destination mesh. ",
+        "translatedContent": "때때로 소스 메시를 복제하고 목적지 메시 영향에 필요 없을 것으로 생각되는 정점들을 제거하는 것이 좋습니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "pD2OgP+iOOLAbsriffqlpy0heA1N1x7HJRVWvTwxoag=",
+        "originContent": "One example incase of a moustache and a face: Duplicate the face and delete all the vertices except the ones around the lips which are most likely to influence the moustache and use the resulting mesh as source to copy shape keys to your destination moustache hair cards or mesh.",
+        "translatedContent": "예를 들어 콧수염과 얼굴의 경우: 얼굴을 복제한 뒤 입 주변 정점만 남기고 나머지 정점들을 삭제합니다. 입 주변 정점들은 콧수염에 가장 영향을 줄 가능성이 높으므로, 이렇게 생성된 메시를 소스로 사용해 쉐이프 키를 목적지 콧수염 헤어 카드나 메시로 복사합니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "HI7akdzKyoAf3sziGUJ/7EASYl0hpDPDdg6l+uOJWlM=",
+        "originContent": "Will be adding more functionality to this addon if required. You can also delete all shape keys in a mesh easily with this tool.",
+        "translatedContent": "필요 시 이 애드온에 더 많은 기능을 추가할 예정입니다. 이 도구로 메시 내 모든 쉐이프 키를 쉽게 삭제할 수도 있습니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "dqcfvvioM5/Lyv+Mmq37hcg0vDzAwHBppeuy7qPZDWg=",
+        "originContent": "##",
+        "translatedContent": "##"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "nfidwJqCQjMGAc2omPSpSeUp+DLuUQaKqr3hSYnzF9g=",
+        "originContent": "### License:",
+        "translatedContent": "### 라이선스:"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "MDdbrb78jmf+rEw9QlOHuaDw67/vWu4tNKZ2X5ODiA8=",
+        "originContent": "Shape Key Transfer Addon for Blender - Copyright (C) 2018 Ajit Christopher D'Monte",
+        "translatedContent": "Blender용 쉐이프 키 전송 애드온 - 저작권 (C) 2018 Ajit Christopher D'Monte"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "f2oFGFYEyQ+TNrAzDnKnSzcbYHV33Y2JGyxe3REXumE=",
+        "originContent": "All python files are released under GNU General Public License 3.",
+        "translatedContent": "모든 파이썬 파일은 GNU 일반 공중 사용 허가서 3에 따라 배포됩니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

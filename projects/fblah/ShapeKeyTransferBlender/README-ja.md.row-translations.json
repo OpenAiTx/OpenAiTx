@@ -1,0 +1,356 @@
+[
+  {
+    "row": 1,
+    "rowsha": "q5988dksMf7y+oVYYwiROkg4zpIRt1qAsiqBXfq63oM=",
+    "originContent": "## Shape Key Tools for Blender",
+    "translatedContent": "## Blender用シェイプキー ツール"
+  },
+  {
+    "row": 2,
+    "rowsha": "wG+6/U9SD3JRGIseqAW9I92ccLSuvULr4vn0XA+jBSo=",
+    "originContent": "<!-- BADGES/ -->",
+    "translatedContent": "<!-- BADGES/ -->"
+  },
+  {
+    "row": 3,
+    "rowsha": "J7xLTVPgnw++8AGwEYtjfczJVdZfnHWc6vy2M0vI5Yw=",
+    "originContent": "<span class=\"badge-blenderartists\"><a href=\"https://blenderartists.org/t/free-shape-key-transfer-addon\" title=\"Link to Blender Artists forum post\"><img src=\"https://img.shields.io/badge/Blender-Artists-orange.svg?logo=blender&longCache=true&style=popout-square\" alt=\"Blender Artists Forum Post\" /></a></span>",
+    "translatedContent": "<span class=\"badge-blenderartists\"><a href=\"https://blenderartists.org/t/free-shape-key-transfer-addon\" title=\"Blender Artistsフォーラム投稿へのリンク\"><img src=\"https://img.shields.io/badge/Blender-Artists-orange.svg?logo=blender&longCache=true&style=popout-square\" alt=\"Blender Artistsフォーラム投稿\" /></a></span>"
+  },
+  {
+    "row": 4,
+    "rowsha": "qGrlVcriL39iYDrhPyMh9UlLbxcnTP/1pGlZqxuMasc=",
+    "originContent": "<span class=\"badge-discord\"><a href=\"https://discord.gg/CmgdEvw\" title=\"Join on discord\"><img src=\"https://img.shields.io/badge/Discord-Join-768ADC.svg?logo=discord&longCache=true&style=popout-square\" alt=\"Discord server button\" /></a></span>",
+    "translatedContent": "<span class=\"badge-discord\"><a href=\"https://discord.gg/CmgdEvw\" title=\"Discordに参加\"><img src=\"https://img.shields.io/badge/Discord-Join-768ADC.svg?logo=discord&longCache=true&style=popout-square\" alt=\"Discordサーバーボタン\" /></a></span>"
+  },
+  {
+    "row": 5,
+    "rowsha": "4/HAaoF6diE5ZvzYAIso5GXDFAu5PriM1OawjBsEG9I=",
+    "originContent": "<span class=\"badge-youtube\"><a href=\"https://www.youtube.com/watch?v=-zBlaedkkVs\" title=\"Watch Tutorial on Youtube\"><img src=\"https://img.shields.io/badge/Tutorial-Video-F40000.svg?logo=youtube&longCache=true&style=popout-square\" alt=\"Youtube Tutorial\" /></a></span>",
+    "translatedContent": "<span class=\"badge-youtube\"><a href=\"https://www.youtube.com/watch?v=-zBlaedkkVs\" title=\"Youtubeでチュートリアルを見る\"><img src=\"https://img.shields.io/badge/Tutorial-Video-F40000.svg?logo=youtube&longCache=true&style=popout-square\" alt=\"Youtubeチュートリアル\" /></a></span>"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "FpnQWzKkQq5issAQxaB4TnSEyDKFW55wq2vg/aaEN+g=",
+    "originContent": "Shape Key Transfer for Blender 2.93",
+    "translatedContent": "Blender 2.93用シェイプキー転送"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "wo52Dm9Ff3dHpVMQLfRvpih/ofq1rHIqLMR6xuan57w=",
+    "originContent": "Use this addon to easily transfer shape keys between meshes of different topology.",
+    "translatedContent": "このアドオンを使うと、異なるトポロジーのメッシュ間でシェイプキーを簡単に転送できます。"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "Dad74hCiZhTLFEVdL3BPxoGxv9K7T65XYYQYck/sXak=",
+    "originContent": "Place both the meshes at origin and overlap them at the location you want the destination mesh to copy shape keys of the source mesh.",
+    "translatedContent": "両方のメッシュを原点に配置し、転送先メッシュが転送元メッシュのシェイプキーをコピーしたい位置で重ねます。"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "AXRgc5spODkKfjVq97/mvz7khoMOeH6jIZl2NYVmyw8=",
+    "originContent": "This addon was initially created to copy shape keys from ManuelBastioniLab Character to other meshes, but can be used in any situation.",
+    "translatedContent": "このアドオンは元々ManuelBastioniLabキャラクターから他のメッシュにシェイプキーをコピーするために作成されましたが、あらゆる状況で使用できます。"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "xSOmso3quB+WtOaewUni543WiLj9zZR0q86Y49djA3w=",
+    "originContent": "This addon is based on the code within this [StackoverFlow post](https://blender.stackexchange.com/questions/119836/scripting-transferring-shape-keys-between-different-meshes/119867#119867) made by me.",
+    "translatedContent": "このアドオンは私が作成したこの[StackoverFlow投稿](https://blender.stackexchange.com/questions/119836/scripting-transferring-shape-keys-between-different-meshes/119867#119867)のコードに基づいています。"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "7/NXkwa0QMVFRJ+O75IbTif62K/9mqLwkXWlIKi2K7Q=",
+    "originContent": "The addon will be under Tools -> Shape Key Tools",
+    "translatedContent": "アドオンは「ツール」 -> 「シェイプキー ツール」の下にあります。"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "lUMJ58CfzTSzDStr9iykO0sSDD3s266P6r8Hnr+AAeU=",
+    "originContent": "You can exclude shape keys also.",
+    "translatedContent": "シェイプキーの除外も可能です。"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "Q2a51UoqBs0Q6TelbpEnRYytmnd6FRvJOs6qeDeOhH4=",
+    "originContent": "Use Increment Radius to increase the number of vertices from the source mesh which affect the destination mesh.",
+    "translatedContent": "「Increment Radius」を使うと、転送元メッシュから転送先メッシュに影響を与える頂点数を増やせます。"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "qLkxhVFzwk5y5jeIX248xTbX6TNkmX4JbkhmaKR6IMc=",
+    "originContent": "When Use Closest Vertex is off it will average the locations of all nearby vertices within the Increment Radius.",
+    "translatedContent": "「Use Closest Vertex」がオフの場合、Increment Radius内のすべての近隣頂点の位置を平均化します。"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "Oy+NAlrqi7KF0dg7VR6tMx37jM5A17aCpGFR55q0CF0=",
+    "originContent": "#### Fewer vertices in the source mesh will make the operation run faster.",
+    "translatedContent": "#### 転送元メッシュの頂点数が少ないほど処理は高速になります。"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "dqcfvvioM5/Lyv+Mmq37hcg0vDzAwHBppeuy7qPZDWg=",
+    "originContent": "##",
+    "translatedContent": "##"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "MZk/c5x3o23vnmscarz2jumbFWy1ibIZ5zoI4nKFfMw=",
+    "originContent": "### Features:",
+    "translatedContent": "### 特徴："
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "hfA42znpP0jRVUF2iIEyZ+wgsFV6zfQtg0uYPBCHBgs=",
+    "originContent": "- Transfer Shape Keys between meshes of different topologies",
+    "translatedContent": "- 異なるトポロジーのメッシュ間でシェイプキーを転送"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "qi2VXxit6M7w6kWQgLFatfSlMMrDLE5hLCu6RHf46RM=",
+    "originContent": "- Manage what shape keys are transferred by adding exclusions",
+    "translatedContent": "- 除外リストを追加して転送するシェイプキーを管理"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "an+RpwbP16B+lDDqTufLy1fPkbvAHJNMfxMQzLofHUs=",
+    "originContent": "- Copy all shape key names of a mesh to clipboard",
+    "translatedContent": "- メッシュのすべてのシェイプキー名をクリップボードにコピー"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "1Kw9yyWbw4Yu0q/K+hUeg0RIUe6nxhfCnxKUvJBXVeM=",
+    "originContent": "### Example Use Cases:",
+    "translatedContent": "### 使用例："
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "g3CRZr4+yG2wJnLW2IGGd4KFiatzUoR20FylZTOh2Bk=",
+    "originContent": "- Copy shape keys from face to moustache or eyebrow hair cards.",
+    "translatedContent": "- 顔のシェイプキーを口ひげや眉毛のヘアカードにコピーする。"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "nnierlIj2NruOKGdMv25ERAfVycCKBkH6vWwUNSA0l4=",
+    "originContent": "- Copy shape keys from base mesh to LOD.",
+    "translatedContent": "- ベースメッシュからLODへシェイプキーをコピーします。"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "dqcfvvioM5/Lyv+Mmq37hcg0vDzAwHBppeuy7qPZDWg=",
+    "originContent": "##",
+    "translatedContent": "##"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "OZ110lkKpUCNJU/mXU+7KVVYIuXeDMjiZy3sbYSiG7w=",
+    "originContent": "### Note:",
+    "translatedContent": "### 注意："
+  },
+  {
+    "row": 46,
+    "rowsha": "Mdp94+8wju+w6nZ2hvuVLOZ3pdllXHCbubSvv5Na56U=",
+    "originContent": "Sometimes it is good to duplicate the source mesh and remove the vertices you feel may not be required to affect the destination mesh. ",
+    "translatedContent": "場合によっては、ソースメッシュを複製し、目的のメッシュに影響を与えないと思われる頂点を削除することが有効です。"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "pD2OgP+iOOLAbsriffqlpy0heA1N1x7HJRVWvTwxoag=",
+    "originContent": "One example incase of a moustache and a face: Duplicate the face and delete all the vertices except the ones around the lips which are most likely to influence the moustache and use the resulting mesh as source to copy shape keys to your destination moustache hair cards or mesh.",
+    "translatedContent": "例えば、口ひげと顔の場合：顔を複製し、口ひげに影響を与える可能性が高い唇周辺の頂点以外をすべて削除し、その結果得られたメッシュをソースとしてシェイプキーを目的の口ひげヘアカードやメッシュにコピーします。"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "HI7akdzKyoAf3sziGUJ/7EASYl0hpDPDdg6l+uOJWlM=",
+    "originContent": "Will be adding more functionality to this addon if required. You can also delete all shape keys in a mesh easily with this tool.",
+    "translatedContent": "必要に応じて、このアドオンにさらに機能を追加する予定です。このツールを使えば、メッシュ内のすべてのシェイプキーを簡単に削除することもできます。"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "dqcfvvioM5/Lyv+Mmq37hcg0vDzAwHBppeuy7qPZDWg=",
+    "originContent": "##",
+    "translatedContent": "##"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "nfidwJqCQjMGAc2omPSpSeUp+DLuUQaKqr3hSYnzF9g=",
+    "originContent": "### License:",
+    "translatedContent": "### ライセンス："
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "MDdbrb78jmf+rEw9QlOHuaDw67/vWu4tNKZ2X5ODiA8=",
+    "originContent": "Shape Key Transfer Addon for Blender - Copyright (C) 2018 Ajit Christopher D'Monte",
+    "translatedContent": "Blender用シェイプキー転送アドオン - 著作権 (C) 2018 Ajit Christopher D'Monte"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "f2oFGFYEyQ+TNrAzDnKnSzcbYHV33Y2JGyxe3REXumE=",
+    "originContent": "All python files are released under GNU General Public License 3.",
+    "translatedContent": "すべてのPythonファイルはGNU General Public License 3の下でリリースされています。"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

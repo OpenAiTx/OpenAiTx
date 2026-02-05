@@ -1,0 +1,356 @@
+[
+  {
+    "row": 1,
+    "rowsha": "q5988dksMf7y+oVYYwiROkg4zpIRt1qAsiqBXfq63oM=",
+    "originContent": "## Shape Key Tools for Blender",
+    "translatedContent": "## Herramientas de Shape Key para Blender"
+  },
+  {
+    "row": 2,
+    "rowsha": "wG+6/U9SD3JRGIseqAW9I92ccLSuvULr4vn0XA+jBSo=",
+    "originContent": "<!-- BADGES/ -->",
+    "translatedContent": "<!-- BADGES/ -->"
+  },
+  {
+    "row": 3,
+    "rowsha": "J7xLTVPgnw++8AGwEYtjfczJVdZfnHWc6vy2M0vI5Yw=",
+    "originContent": "<span class=\"badge-blenderartists\"><a href=\"https://blenderartists.org/t/free-shape-key-transfer-addon\" title=\"Link to Blender Artists forum post\"><img src=\"https://img.shields.io/badge/Blender-Artists-orange.svg?logo=blender&longCache=true&style=popout-square\" alt=\"Blender Artists Forum Post\" /></a></span>",
+    "translatedContent": "<span class=\"badge-blenderartists\"><a href=\"https://blenderartists.org/t/free-shape-key-transfer-addon\" title=\"Enlace al post en el foro Blender Artists\"><img src=\"https://img.shields.io/badge/Blender-Artists-orange.svg?logo=blender&longCache=true&style=popout-square\" alt=\"Post en el foro Blender Artists\" /></a></span>"
+  },
+  {
+    "row": 4,
+    "rowsha": "qGrlVcriL39iYDrhPyMh9UlLbxcnTP/1pGlZqxuMasc=",
+    "originContent": "<span class=\"badge-discord\"><a href=\"https://discord.gg/CmgdEvw\" title=\"Join on discord\"><img src=\"https://img.shields.io/badge/Discord-Join-768ADC.svg?logo=discord&longCache=true&style=popout-square\" alt=\"Discord server button\" /></a></span>",
+    "translatedContent": "<span class=\"badge-discord\"><a href=\"https://discord.gg/CmgdEvw\" title=\"Únete en discord\"><img src=\"https://img.shields.io/badge/Discord-Join-768ADC.svg?logo=discord&longCache=true&style=popout-square\" alt=\"Botón del servidor de Discord\" /></a></span>"
+  },
+  {
+    "row": 5,
+    "rowsha": "4/HAaoF6diE5ZvzYAIso5GXDFAu5PriM1OawjBsEG9I=",
+    "originContent": "<span class=\"badge-youtube\"><a href=\"https://www.youtube.com/watch?v=-zBlaedkkVs\" title=\"Watch Tutorial on Youtube\"><img src=\"https://img.shields.io/badge/Tutorial-Video-F40000.svg?logo=youtube&longCache=true&style=popout-square\" alt=\"Youtube Tutorial\" /></a></span>",
+    "translatedContent": "<span class=\"badge-youtube\"><a href=\"https://www.youtube.com/watch?v=-zBlaedkkVs\" title=\"Ver tutorial en Youtube\"><img src=\"https://img.shields.io/badge/Tutorial-Video-F40000.svg?logo=youtube&longCache=true&style=popout-square\" alt=\"Tutorial en Youtube\" /></a></span>"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "FpnQWzKkQq5issAQxaB4TnSEyDKFW55wq2vg/aaEN+g=",
+    "originContent": "Shape Key Transfer for Blender 2.93",
+    "translatedContent": "Shape Key Transfer para Blender 2.93"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "wo52Dm9Ff3dHpVMQLfRvpih/ofq1rHIqLMR6xuan57w=",
+    "originContent": "Use this addon to easily transfer shape keys between meshes of different topology.",
+    "translatedContent": "Usa este addon para transferir fácilmente shape keys entre mallas con topologías diferentes."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "Dad74hCiZhTLFEVdL3BPxoGxv9K7T65XYYQYck/sXak=",
+    "originContent": "Place both the meshes at origin and overlap them at the location you want the destination mesh to copy shape keys of the source mesh.",
+    "translatedContent": "Coloca ambas mallas en el origen y superpónlas en la ubicación donde quieres que la malla destino copie las shape keys de la malla fuente."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "AXRgc5spODkKfjVq97/mvz7khoMOeH6jIZl2NYVmyw8=",
+    "originContent": "This addon was initially created to copy shape keys from ManuelBastioniLab Character to other meshes, but can be used in any situation.",
+    "translatedContent": "Este addon fue creado inicialmente para copiar shape keys del personaje ManuelBastioniLab a otras mallas, pero puede usarse en cualquier situación."
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "xSOmso3quB+WtOaewUni543WiLj9zZR0q86Y49djA3w=",
+    "originContent": "This addon is based on the code within this [StackoverFlow post](https://blender.stackexchange.com/questions/119836/scripting-transferring-shape-keys-between-different-meshes/119867#119867) made by me.",
+    "translatedContent": "Este addon está basado en el código dentro de este [post de StackoverFlow](https://blender.stackexchange.com/questions/119836/scripting-transferring-shape-keys-between-different-meshes/119867#119867) hecho por mí."
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "7/NXkwa0QMVFRJ+O75IbTif62K/9mqLwkXWlIKi2K7Q=",
+    "originContent": "The addon will be under Tools -> Shape Key Tools",
+    "translatedContent": "El addon estará en Herramientas -> Herramientas de Shape Key"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "lUMJ58CfzTSzDStr9iykO0sSDD3s266P6r8Hnr+AAeU=",
+    "originContent": "You can exclude shape keys also.",
+    "translatedContent": "También puedes excluir shape keys."
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "Q2a51UoqBs0Q6TelbpEnRYytmnd6FRvJOs6qeDeOhH4=",
+    "originContent": "Use Increment Radius to increase the number of vertices from the source mesh which affect the destination mesh.",
+    "translatedContent": "Usa Increment Radius para aumentar el número de vértices de la malla fuente que afectan a la malla destino."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "qLkxhVFzwk5y5jeIX248xTbX6TNkmX4JbkhmaKR6IMc=",
+    "originContent": "When Use Closest Vertex is off it will average the locations of all nearby vertices within the Increment Radius.",
+    "translatedContent": "Cuando Use Closest Vertex está desactivado promediará las posiciones de todos los vértices cercanos dentro del Increment Radius."
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "Oy+NAlrqi7KF0dg7VR6tMx37jM5A17aCpGFR55q0CF0=",
+    "originContent": "#### Fewer vertices in the source mesh will make the operation run faster.",
+    "translatedContent": "#### Menos vértices en la malla fuente harán que la operación sea más rápida."
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "dqcfvvioM5/Lyv+Mmq37hcg0vDzAwHBppeuy7qPZDWg=",
+    "originContent": "##",
+    "translatedContent": "##"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "MZk/c5x3o23vnmscarz2jumbFWy1ibIZ5zoI4nKFfMw=",
+    "originContent": "### Features:",
+    "translatedContent": "### Características:"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "hfA42znpP0jRVUF2iIEyZ+wgsFV6zfQtg0uYPBCHBgs=",
+    "originContent": "- Transfer Shape Keys between meshes of different topologies",
+    "translatedContent": "- Transferir Shape Keys entre mallas con topologías diferentes"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "qi2VXxit6M7w6kWQgLFatfSlMMrDLE5hLCu6RHf46RM=",
+    "originContent": "- Manage what shape keys are transferred by adding exclusions",
+    "translatedContent": "- Gestionar qué shape keys se transfieren añadiendo exclusiones"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "an+RpwbP16B+lDDqTufLy1fPkbvAHJNMfxMQzLofHUs=",
+    "originContent": "- Copy all shape key names of a mesh to clipboard",
+    "translatedContent": "- Copiar todos los nombres de shape keys de una malla al portapapeles"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "1Kw9yyWbw4Yu0q/K+hUeg0RIUe6nxhfCnxKUvJBXVeM=",
+    "originContent": "### Example Use Cases:",
+    "translatedContent": "### Casos de uso de ejemplo:"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "g3CRZr4+yG2wJnLW2IGGd4KFiatzUoR20FylZTOh2Bk=",
+    "originContent": "- Copy shape keys from face to moustache or eyebrow hair cards.",
+    "translatedContent": "- Copiar shape keys de la cara a tarjetas de bigote o cejas."
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "nnierlIj2NruOKGdMv25ERAfVycCKBkH6vWwUNSA0l4=",
+    "originContent": "- Copy shape keys from base mesh to LOD.",
+    "translatedContent": "- Copiar las shape keys de la malla base al LOD."
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "dqcfvvioM5/Lyv+Mmq37hcg0vDzAwHBppeuy7qPZDWg=",
+    "originContent": "##",
+    "translatedContent": "##"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "OZ110lkKpUCNJU/mXU+7KVVYIuXeDMjiZy3sbYSiG7w=",
+    "originContent": "### Note:",
+    "translatedContent": "### Nota:"
+  },
+  {
+    "row": 46,
+    "rowsha": "Mdp94+8wju+w6nZ2hvuVLOZ3pdllXHCbubSvv5Na56U=",
+    "originContent": "Sometimes it is good to duplicate the source mesh and remove the vertices you feel may not be required to affect the destination mesh. ",
+    "translatedContent": "A veces es bueno duplicar la malla fuente y eliminar los vértices que consideres que no son necesarios para afectar la malla destino."
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "pD2OgP+iOOLAbsriffqlpy0heA1N1x7HJRVWvTwxoag=",
+    "originContent": "One example incase of a moustache and a face: Duplicate the face and delete all the vertices except the ones around the lips which are most likely to influence the moustache and use the resulting mesh as source to copy shape keys to your destination moustache hair cards or mesh.",
+    "translatedContent": "Un ejemplo en caso de un bigote y una cara: Duplica la cara y elimina todos los vértices excepto los que están alrededor de los labios, que son los que probablemente influirán en el bigote, y usa la malla resultante como fuente para copiar las shape keys a tus tarjetas de cabello de bigote o malla destino."
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "HI7akdzKyoAf3sziGUJ/7EASYl0hpDPDdg6l+uOJWlM=",
+    "originContent": "Will be adding more functionality to this addon if required. You can also delete all shape keys in a mesh easily with this tool.",
+    "translatedContent": "Se añadirá más funcionalidad a este addon si es necesario. También puedes eliminar todas las shape keys en una malla fácilmente con esta herramienta."
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "dqcfvvioM5/Lyv+Mmq37hcg0vDzAwHBppeuy7qPZDWg=",
+    "originContent": "##",
+    "translatedContent": "##"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "nfidwJqCQjMGAc2omPSpSeUp+DLuUQaKqr3hSYnzF9g=",
+    "originContent": "### License:",
+    "translatedContent": "### Licencia:"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "MDdbrb78jmf+rEw9QlOHuaDw67/vWu4tNKZ2X5ODiA8=",
+    "originContent": "Shape Key Transfer Addon for Blender - Copyright (C) 2018 Ajit Christopher D'Monte",
+    "translatedContent": "Addon de Transferencia de Shape Keys para Blender - Copyright (C) 2018 Ajit Christopher D'Monte"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "f2oFGFYEyQ+TNrAzDnKnSzcbYHV33Y2JGyxe3REXumE=",
+    "originContent": "All python files are released under GNU General Public License 3.",
+    "translatedContent": "Todos los archivos python se publican bajo la Licencia Pública General GNU 3."
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
