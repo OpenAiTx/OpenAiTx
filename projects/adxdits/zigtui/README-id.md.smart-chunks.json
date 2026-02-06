@@ -1,0 +1,1534 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# ZigTUI\n\nCross-platform TUI library for Zig, inspired by [Ratatui](https://github.com/ratatui/ratatui).\n\n![ZigTUI Dashboard](https://raw.githubusercontent.com/adxdits/zigtui/master/dashboard.gif)\n\n## Features\n",
+    "ContentSha": "/3xnRoryCj+uFX3R8/FHaWTATfVSsZuJKXVIW8kDe2o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Bahasa</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# ZigTUI\n\nPerpustakaan TUI lintas platform untuk Zig, terinspirasi oleh [Ratatui](https://github.com/ratatui/ratatui).\n\n![Dasbor ZigTUI](https://raw.githubusercontent.com/adxdits/zigtui/master/dashboard.gif)\n\n## Fitur\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Bahasa</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "U2EZOfPrgCSrnPE9HqvUcdbA4FursQ5eeuiOD5kuxaY=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "B/72iudXNtCg6hMmy6tNh6sFiaHKlaUOc+SuwPv/JdY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "ldMN0ikkTpgh43YsmDeZ2cQLAGO1tF3N/r63DF7cP34=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "3fEs/4pHrxxAJXFvL3fqqGZEgOhUDslh+NM6XVtWmHk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "gnZiff7i8LtQt7OjirXqEnQFnWMHxXNe1YW2kXK0z4E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "rZz7EFQ0XrrlC9e5cTGwVbmmmsK7JlqJFzGzwVMv9HE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "WwFwLI9XYgMs2t5MQb36gxdc14BlhHHtmpvUCER91bM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "iwBiBnMu82DnavWrJXpaccYqzZ88lD5pwDlDyjtOaag=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "VbfcPa+8ZdvIQ3XZVxOGA4N6q8zli/RzzcmE0LGseuU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "StSAAqHUQ14bju8gzZvFfNq4kyfZqDI+2ZhyVWHv30o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "4CucvYM/Pua9z/r/syMZ0hCUuGnai+6H6O7JyLop8EQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "LBeITyjZiMpKIj1EYTtT9JWlsfczvsWrWfRL7TMZMvM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "FqFYCcITNCBKmd6KtcHImxJSpEV3WwDu2tZAdCdGOhg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "Tqo1YYww7SoVB/A0H1Y9bT60pP+oQ0wNiWwTpfgSaNY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "oBqkirl33QALftpABorAOepOgBQPso3UBGWvNQORASY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "sjymK580y95AYt+wxMEN8p5U64EnbmzapnASwHSbtys=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "f3Bin/s9ttS73vmvBQ4bbEpePI8O2lPKexYVZvOcAuc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "G7HHqUsWZ8E+W1u8J8EFjdCGQyFKidB4Sci3EwlTKfM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "GoJODmSBnliTrhJXo++X49MAm3cI+JDthaOoN/WM1pk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "UWyg69wCREhKPxMAPZ8t8A29Ug+FKcjBXzCp5QxgP/s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "KnzM+dHTr+4Z3PlEmdssWysPrs0alZyP9r0ETMiqolo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=adxdits&project=zigtui&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "5blKxjclrpV9Lcu79uZFzDzgMzkfhez31R6xwl3OvCQ=",
+        "originContent": "# ZigTUI",
+        "translatedContent": "# ZigTUI"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "vxJ24uJZ48US9l7MowNJEY0+lWE6Kr3yifFMJue8oCA=",
+        "originContent": "Cross-platform TUI library for Zig, inspired by [Ratatui](https://github.com/ratatui/ratatui).",
+        "translatedContent": "Perpustakaan TUI lintas platform untuk Zig, terinspirasi oleh [Ratatui](https://github.com/ratatui/ratatui)."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "KICv4d6NoUNXdiNX0dWo6IID00n0OaIapFJSxSI2QzM=",
+        "originContent": "![ZigTUI Dashboard](https://raw.githubusercontent.com/adxdits/zigtui/master/dashboard.gif)",
+        "translatedContent": "![Dasbor ZigTUI](https://raw.githubusercontent.com/adxdits/zigtui/master/dashboard.gif)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Fitur"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- **Cross-platform** — Windows, Linux, macOS\n- **Efficient rendering** — Cell-based diffing, only redraws what changed\n- **Widgets** — Block, Paragraph, List, Gauge, Table\n- **15 built-in themes** — Nord, Dracula, Gruvbox, Catppuccin, Tokyo Night...\n- **Kitty Graphics Protocol** — Display images (with Unicode fallback)\n- **No hidden allocations** — Explicit memory management\n\n## Requirements\n\n- Zig 0.15.0+\n- Windows 10+ / Linux / macOS\n\n## Installation\n",
+    "ContentSha": "PGTreHXoZUJcPAsbT+4J5HACNtqVkNPeRvmX/tVPJ7g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **Lintas platform** — Windows, Linux, macOS\n- **Rendering efisien** — Diffing berbasis sel, hanya menggambar ulang yang berubah\n- **Widget** — Blok, Paragraf, Daftar, Pengukur, Tabel\n- **15 tema bawaan** — Nord, Dracula, Gruvbox, Catppuccin, Tokyo Night...\n- **Kitty Graphics Protocol** — Menampilkan gambar (dengan fallback Unicode)\n- **Tanpa alokasi tersembunyi** — Manajemen memori eksplisit\n\n## Persyaratan\n\n- Zig 0.15.0+\n- Windows 10+ / Linux / macOS\n\n## Instalasi\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "J/CFqHmTvVj6xzLgohYWrkYmBY3OLf+Sbg3hH5qKHhA=",
+        "originContent": "- **Cross-platform** — Windows, Linux, macOS",
+        "translatedContent": "- **Lintas platform** — Windows, Linux, macOS"
+      },
+      {
+        "row": 2,
+        "rowsha": "3gNkVHEvfct9xOicU4nFoztDshWTaf3NFhGLLSFuNSU=",
+        "originContent": "- **Efficient rendering** — Cell-based diffing, only redraws what changed",
+        "translatedContent": "- **Rendering efisien** — Diffing berbasis sel, hanya menggambar ulang yang berubah"
+      },
+      {
+        "row": 3,
+        "rowsha": "dqWh7hIVVQVu/WS+Z00HyoygF0ElGdF1mNmdU0TI0CA=",
+        "originContent": "- **Widgets** — Block, Paragraph, List, Gauge, Table",
+        "translatedContent": "- **Widget** — Blok, Paragraf, Daftar, Pengukur, Tabel"
+      },
+      {
+        "row": 4,
+        "rowsha": "GymhrWe9y2pJczpdmicPS1kAtYjsockk9ZDpRaikEVA=",
+        "originContent": "- **15 built-in themes** — Nord, Dracula, Gruvbox, Catppuccin, Tokyo Night...",
+        "translatedContent": "- **15 tema bawaan** — Nord, Dracula, Gruvbox, Catppuccin, Tokyo Night..."
+      },
+      {
+        "row": 5,
+        "rowsha": "qGEapE4uD69W+Rnl5nOxPzfRh0EggSONxlgNFUVF8Eg=",
+        "originContent": "- **Kitty Graphics Protocol** — Display images (with Unicode fallback)",
+        "translatedContent": "- **Kitty Graphics Protocol** — Menampilkan gambar (dengan fallback Unicode)"
+      },
+      {
+        "row": 6,
+        "rowsha": "SX5geZF9+TlWVxPIqEYAxo6su+NylGBSfDGbowcHksU=",
+        "originContent": "- **No hidden allocations** — Explicit memory management",
+        "translatedContent": "- **Tanpa alokasi tersembunyi** — Manajemen memori eksplisit"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## Persyaratan"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Rp6q8SzMhIOcbzdkxE8cGuGqrHFdTwgen0EmCF5QWsU=",
+        "originContent": "- Zig 0.15.0+",
+        "translatedContent": "- Zig 0.15.0+"
+      },
+      {
+        "row": 11,
+        "rowsha": "Y2a/Mw7GdPxVHZ5Dn+xVbrtDgfT/WgONwxAVSR9mF9s=",
+        "originContent": "- Windows 10+ / Linux / macOS",
+        "translatedContent": "- Windows 10+ / Linux / macOS"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Instalasi"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\nzig fetch --save git+https://github.com/adxdits/zigtui.git\n```",
+    "ContentSha": "8sZ8F9/COxkSY0MgIfjiod0xGaM3+1Z7m/2/6LVdmxY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nzig fetch --save git+https://github.com/adxdits/zigtui.git\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "T7nZ5fmfj/BzzKTs7R7IAj3JvnREFxSsCnJdKAPd+ms=",
+        "originContent": "zig fetch --save git+https://github.com/adxdits/zigtui.git",
+        "translatedContent": "zig fetch --save git+https://github.com/adxdits/zigtui.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```zig\n// build.zig\nconst zigtui = b.dependency(\"zigtui\", .{ .target = target, .optimize = optimize });\n\nconst exe = b.addExecutable(.{\n    .name = \"myapp\",\n    .root_module = b.createModule(.{\n        .root_source_file = b.path(\"src/main.zig\"),\n        .target = target,\n        .optimize = optimize,\n        .imports = &.{\n            .{ .name = \"zigtui\", .module = zigtui.module(\"zigtui\") },\n        },\n    }),\n});\n```",
+    "ContentSha": "zmCwNbo2+oisRJ+3aJogLUFJjfodcuk1IgZJHT+xV5A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```zig\n// build.zig\nconst zigtui = b.dependency(\"zigtui\", .{ .target = target, .optimize = optimize });\n\nconst exe = b.addExecutable(.{\n    .name = \"myapp\",\n    .root_module = b.createModule(.{\n        .root_source_file = b.path(\"src/main.zig\"),\n        .target = target,\n        .optimize = optimize,\n        .imports = &.{\n            .{ .name = \"zigtui\", .module = zigtui.module(\"zigtui\") },\n        },\n    }),\n});\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "b2JvnMTHm4SPkM8DTP6Nyd0KZsN/zkuQ1QIETk5S40A=",
+        "originContent": "```zig",
+        "translatedContent": "```zig"
+      },
+      {
+        "row": 2,
+        "rowsha": "ke8Y+CCTMwzVXGagBKZiHidJvUCzlUadCGYbdVFPuw4=",
+        "originContent": "// build.zig",
+        "translatedContent": "// build.zig"
+      },
+      {
+        "row": 3,
+        "rowsha": "JdeITm9GiAsXM4VQvAJvb4hv+civV6TBykZ0ipNQc64=",
+        "originContent": "const zigtui = b.dependency(\"zigtui\", .{ .target = target, .optimize = optimize });",
+        "translatedContent": "const zigtui = b.dependency(\"zigtui\", .{ .target = target, .optimize = optimize });"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "uLHS8pLemh3tuvC0ddQKXlhgeR9c7KnAVxxAcfCm2iE=",
+        "originContent": "const exe = b.addExecutable(.{",
+        "translatedContent": "const exe = b.addExecutable(.{"
+      },
+      {
+        "row": 6,
+        "rowsha": "Yxs6Q/kCH5YnwG3TxxQYBSCx/eNruQvk/OKKT+RLRPU=",
+        "originContent": "    .name = \"myapp\",",
+        "translatedContent": "    .name = \"myapp\","
+      },
+      {
+        "row": 7,
+        "rowsha": "30Trmf0Odc1qO3/ZMoaP18ERMj9XhyJZSTjvSH9wptg=",
+        "originContent": "    .root_module = b.createModule(.{",
+        "translatedContent": "    .root_module = b.createModule(.{"
+      },
+      {
+        "row": 8,
+        "rowsha": "RhykhOAlYmEQ9FFUOUOe1l/Tck65HmZgeglaA72bTmk=",
+        "originContent": "        .root_source_file = b.path(\"src/main.zig\"),",
+        "translatedContent": "        .root_source_file = b.path(\"src/main.zig\"),"
+      },
+      {
+        "row": 9,
+        "rowsha": "VBx0gm7xAtrkSLylBAEqmuMeUZn/uITQoSYFbfq8Sts=",
+        "originContent": "        .target = target,",
+        "translatedContent": "        .target = target,"
+      },
+      {
+        "row": 10,
+        "rowsha": "PCk5Rd6dTqK3PYue1QLNbdRb9mQeCREOMqdaQOc6KVc=",
+        "originContent": "        .optimize = optimize,",
+        "translatedContent": "        .optimize = optimize,"
+      },
+      {
+        "row": 11,
+        "rowsha": "7WDJ/ULwoh/0R9N+p8VHCUH45pi8UIXRFEB1vQz04PE=",
+        "originContent": "        .imports = &.{",
+        "translatedContent": "        .imports = &.{"
+      },
+      {
+        "row": 12,
+        "rowsha": "fUsAFRl5YMesbSDM7Wg4t03kOyQROV2W4B1HzaVukyI=",
+        "originContent": "            .{ .name = \"zigtui\", .module = zigtui.module(\"zigtui\") },",
+        "translatedContent": "            .{ .name = \"zigtui\", .module = zigtui.module(\"zigtui\") },"
+      },
+      {
+        "row": 13,
+        "rowsha": "Vev0I6JA3QMGP90IK+NqJ8jUIp+xXKTLNc812UNIYGY=",
+        "originContent": "        },",
+        "translatedContent": "        },"
+      },
+      {
+        "row": 14,
+        "rowsha": "IDY8H84q0W3iMAsgCGggJ1TJIMyTqMKPxACM1e4EE50=",
+        "originContent": "    }),",
+        "translatedContent": "    }),"
+      },
+      {
+        "row": 15,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n<details>\n<summary>Alternative: Git submodule</summary>\n",
+    "ContentSha": "4T34ygG+Gyn8346L7j4J13qGfqD8YjK85ktufOqky24=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n<details>\n<summary>Alternatif: Git submodule</summary>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "KXSvgJCBa2Y7Oh+ezmoY5KuMRBynl2Dc9gRRW64OHFE=",
+        "originContent": "<summary>Alternative: Git submodule</summary>",
+        "translatedContent": "<summary>Alternatif: Git submodule</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bash\ngit submodule add https://github.com/adxdits/zigtui.git libs/zigtui\n```",
+    "ContentSha": "LPNm81V2XuRkPQY9TB7LFBvHoIn6687D7Pvw/fK38lI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit submodule add https://github.com/adxdits/zigtui.git libs/zigtui\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "aTld6kGmECZvcVe2fdubZTALJPfe+3Dkil0DLsOzwYI=",
+        "originContent": "git submodule add https://github.com/adxdits/zigtui.git libs/zigtui",
+        "translatedContent": "git submodule add https://github.com/adxdits/zigtui.git libs/zigtui"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```zig\nconst zigtui_module = b.addModule(\"zigtui\", .{\n    .root_source_file = b.path(\"libs/zigtui/src/lib.zig\"),\n});\n```",
+    "ContentSha": "1tTaDGX+uzt6zxANbL53inKqeST9aFXbpWR+NAYb6yA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```zig\nconst zigtui_module = b.addModule(\"zigtui\", .{\n    .root_source_file = b.path(\"libs/zigtui/src/lib.zig\"),\n});\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "b2JvnMTHm4SPkM8DTP6Nyd0KZsN/zkuQ1QIETk5S40A=",
+        "originContent": "```zig",
+        "translatedContent": "```zig"
+      },
+      {
+        "row": 2,
+        "rowsha": "4hsOJIHr/bT6cGnil5UuEB4Af5Ez+aLXt8MZ4eZOnV4=",
+        "originContent": "const zigtui_module = b.addModule(\"zigtui\", .{",
+        "translatedContent": "const zigtui_module = b.addModule(\"zigtui\", .{"
+      },
+      {
+        "row": 3,
+        "rowsha": "zPd+hlzoiDIOKgoynjVEQaoftU2krbk7Qs+gUgGNRyQ=",
+        "originContent": "    .root_source_file = b.path(\"libs/zigtui/src/lib.zig\"),",
+        "translatedContent": "    .root_source_file = b.path(\"libs/zigtui/src/lib.zig\"),"
+      },
+      {
+        "row": 4,
+        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+        "originContent": "});",
+        "translatedContent": "});"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "</details>\n\n## Quick Start\n",
+    "ContentSha": "Xy1nOXIvLID05SF/GQn1bimbk8Bdyrs4b3C7q6u+b8c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "</details>\n\n## Mulai Cepat\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## Mulai Cepat"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```zig\nconst std = @import(\"std\");\nconst tui = @import(\"zigtui\");\n\npub fn main() !void {\n    var gpa = std.heap.GeneralPurposeAllocator(.{}){};\n    defer _ = gpa.deinit();\n    const allocator = gpa.allocator();\n\n    var backend = try tui.backend.init(allocator);\n    defer backend.deinit();\n\n    var terminal = try tui.terminal.Terminal.init(allocator, backend.interface());\n    defer terminal.deinit();\n\n    try terminal.hideCursor();\n    defer terminal.showCursor() catch {};\n\n    var running = true;\n    while (running) {\n        const event = try backend.interface().pollEvent(100);\n        if (event == .key) {\n            if (event.key.code == .esc or (event.key.code == .char and event.key.code.char == 'q'))\n                running = false;\n        }\n\n        try terminal.draw({}, struct {\n            fn render(_: void, buf: *tui.render.Buffer) !void {\n                tui.widgets.Block{\n                    .title = \"Hello ZigTUI — press 'q' to quit\",\n                    .borders = tui.widgets.Borders.all(),\n                    .border_style = .{ .fg = .cyan },\n                }.render(buf.getArea(), buf);\n            }\n        }.render);\n    }\n}\n```",
+    "ContentSha": "KVO3juCR2BDWCxZTtJcym0KYj3ZLj/W5omLTAgdXkdg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```zig\nconst std = @import(\"std\");\nconst tui = @import(\"zigtui\");\n\npub fn main() !void {\n    var gpa = std.heap.GeneralPurposeAllocator(.{}){};\n    defer _ = gpa.deinit();\n    const allocator = gpa.allocator();\n\n    var backend = try tui.backend.init(allocator);\n    defer backend.deinit();\n\n    var terminal = try tui.terminal.Terminal.init(allocator, backend.interface());\n    defer terminal.deinit();\n\n    try terminal.hideCursor();\n    defer terminal.showCursor() catch {};\n\n    var running = true;\n    while (running) {\n        const event = try backend.interface().pollEvent(100);\n        if (event == .key) {\n            if (event.key.code == .esc or (event.key.code == .char and event.key.code.char == 'q'))\n                running = false;\n        }\n\n        try terminal.draw({}, struct {\n            fn render(_: void, buf: *tui.render.Buffer) !void {\n                tui.widgets.Block{\n                    .title = \"Hello ZigTUI — press 'q' to quit\",\n                    .borders = tui.widgets.Borders.all(),\n                    .border_style = .{ .fg = .cyan },\n                }.render(buf.getArea(), buf);\n            }\n        }.render);\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "b2JvnMTHm4SPkM8DTP6Nyd0KZsN/zkuQ1QIETk5S40A=",
+        "originContent": "```zig",
+        "translatedContent": "```zig"
+      },
+      {
+        "row": 2,
+        "rowsha": "HUToO2vrh6g2zKx6k5Nk8P4WFOWPAlc7/ArnTjPaBqo=",
+        "originContent": "const std = @import(\"std\");",
+        "translatedContent": "const std = @import(\"std\");"
+      },
+      {
+        "row": 3,
+        "rowsha": "pRK2Uaufi0lIqi+YZJvPFiLW9udXHOU2YMyg6+YkQ0U=",
+        "originContent": "const tui = @import(\"zigtui\");",
+        "translatedContent": "const tui = @import(\"zigtui\");"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "d0NOt8UwO/wE/ScPBZ6Jz879M90Asz0jVaYvUcqv/QU=",
+        "originContent": "pub fn main() !void {",
+        "translatedContent": "pub fn main() !void {"
+      },
+      {
+        "row": 6,
+        "rowsha": "Il+ZPsxh7HgNdAoDMScs3P7D3pO3T+ZHxKdiIjErI9U=",
+        "originContent": "    var gpa = std.heap.GeneralPurposeAllocator(.{}){};",
+        "translatedContent": "    var gpa = std.heap.GeneralPurposeAllocator(.{}){};"
+      },
+      {
+        "row": 7,
+        "rowsha": "EZhIj+kwjon/J2Fq1QIjSsCK3SxXrzGAvOq6jBWibW0=",
+        "originContent": "    defer _ = gpa.deinit();",
+        "translatedContent": "    defer _ = gpa.deinit();"
+      },
+      {
+        "row": 8,
+        "rowsha": "m/gDDscNhJ/bujuhkL7qcLZC9fZZD2ycQ1RcqQh5peg=",
+        "originContent": "    const allocator = gpa.allocator();",
+        "translatedContent": "    const allocator = gpa.allocator();"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "qzwTvww+vKyqwD6fCWsDZr65gyeu04aFABYkN5UYIro=",
+        "originContent": "    var backend = try tui.backend.init(allocator);",
+        "translatedContent": "    var backend = try tui.backend.init(allocator);"
+      },
+      {
+        "row": 11,
+        "rowsha": "jtZcDKfMPynW6h54CP/HruTAnNpINRFFndTcWvpg5zI=",
+        "originContent": "    defer backend.deinit();",
+        "translatedContent": "    defer backend.deinit();"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "mRetpB6bs/udD93Euq2da4eXo8O75MjzIevi4cRC+xg=",
+        "originContent": "    var terminal = try tui.terminal.Terminal.init(allocator, backend.interface());",
+        "translatedContent": "    var terminal = try tui.terminal.Terminal.init(allocator, backend.interface());"
+      },
+      {
+        "row": 14,
+        "rowsha": "qTg5M1GEFT+1SjEtOcBVQrbxne7fpfHGwLw4PwMoeHw=",
+        "originContent": "    defer terminal.deinit();",
+        "translatedContent": "    defer terminal.deinit();"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "azqaFH3K5else+QOlsxXj8POVIoXSWM4Z4/irvxaYlo=",
+        "originContent": "    try terminal.hideCursor();",
+        "translatedContent": "    try terminal.hideCursor();"
+      },
+      {
+        "row": 17,
+        "rowsha": "/e9grfaVGM9PGtp0dsMp3utDMvTmDcfqtag9DjFlyxk=",
+        "originContent": "    defer terminal.showCursor() catch {};",
+        "translatedContent": "    defer terminal.showCursor() catch {};"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "qGwVZnGHRj3BmqydCGwR7YCZhZVrCHgxhSITIasM1jY=",
+        "originContent": "    var running = true;",
+        "translatedContent": "    var running = true;"
+      },
+      {
+        "row": 20,
+        "rowsha": "RlBKsJtHEkCe6zPQNvhkWo5s2ukEbHL02NIJV9eB3Dg=",
+        "originContent": "    while (running) {",
+        "translatedContent": "    while (running) {"
+      },
+      {
+        "row": 21,
+        "rowsha": "aujvjMxaL2TgqQ4iejoaUnf3P0274drAt/o8lgjTKLg=",
+        "originContent": "        const event = try backend.interface().pollEvent(100);",
+        "translatedContent": "        const event = try backend.interface().pollEvent(100);"
+      },
+      {
+        "row": 22,
+        "rowsha": "jMGme/Typ07wjRPhBhB4EU5FdFZ1wNFBOyM/G9qrOJA=",
+        "originContent": "        if (event == .key) {",
+        "translatedContent": "        if (event == .key) {"
+      },
+      {
+        "row": 23,
+        "rowsha": "G6CG80UADarL2naSS+vYUISJOQstvd6Lx/KrVnCkzG0=",
+        "originContent": "            if (event.key.code == .esc or (event.key.code == .char and event.key.code.char == 'q'))",
+        "translatedContent": "            if (event.key.code == .esc or (event.key.code == .char and event.key.code.char == 'q'))"
+      },
+      {
+        "row": 24,
+        "rowsha": "s53S5dTqX3LASL1wDwmnGyjr72sLWsw7IBuDfwLKwl8=",
+        "originContent": "                running = false;",
+        "translatedContent": "                running = false;"
+      },
+      {
+        "row": 25,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "VUghZNDktrR7p7ABYjEL3HauOGy22bgSEFpuHxrYNJU=",
+        "originContent": "        try terminal.draw({}, struct {",
+        "translatedContent": "        try terminal.draw({}, struct {"
+      },
+      {
+        "row": 28,
+        "rowsha": "+RvB6sgQL3bPNTNLsb534vUH9yM8ekijh80uMt/fpJU=",
+        "originContent": "            fn render(_: void, buf: *tui.render.Buffer) !void {",
+        "translatedContent": "            fn render(_: void, buf: *tui.render.Buffer) !void {"
+      },
+      {
+        "row": 29,
+        "rowsha": "P/kSVUmYzx3jf7VxkpB4axD7eHOhksQtPMxMomTb8Fk=",
+        "originContent": "                tui.widgets.Block{",
+        "translatedContent": "                tui.widgets.Block{"
+      },
+      {
+        "row": 30,
+        "rowsha": "MD7THV3bP5EdHm2JHrSn4HDLmiZRT6zB9AaD/gPi5PY=",
+        "originContent": "                    .title = \"Hello ZigTUI — press 'q' to quit\",",
+        "translatedContent": "                    .title = \"Hello ZigTUI — press 'q' to quit\","
+      },
+      {
+        "row": 31,
+        "rowsha": "Q4wqvfsvWtk4hxzG981Z1KD18LlWIr2q67rGzJDuaWY=",
+        "originContent": "                    .borders = tui.widgets.Borders.all(),",
+        "translatedContent": "                    .borders = tui.widgets.Borders.all(),"
+      },
+      {
+        "row": 32,
+        "rowsha": "16qD8xMEQNH8WjHsq/1m6GrwggNpm5sfr4VYXnhp2SA=",
+        "originContent": "                    .border_style = .{ .fg = .cyan },",
+        "translatedContent": "                    .border_style = .{ .fg = .cyan },"
+      },
+      {
+        "row": 33,
+        "rowsha": "eisDaqZHI4qbmMGzUxFN3caMSYrEZP0s+u85BCkVe6A=",
+        "originContent": "                }.render(buf.getArea(), buf);",
+        "translatedContent": "                }.render(buf.getArea(), buf);"
+      },
+      {
+        "row": 34,
+        "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+        "originContent": "            }",
+        "translatedContent": "            }"
+      },
+      {
+        "row": 35,
+        "rowsha": "yysxNE3BaydBDDot2PpVzKmP41coZ8mZvFTeNF0IIog=",
+        "originContent": "        }.render);",
+        "translatedContent": "        }.render);"
+      },
+      {
+        "row": 36,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 37,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 38,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n## Widgets\n",
+    "ContentSha": "yIs9AtQ1hRTEheZt+U5CQIO2gORYHU1XIqbTxXcDCIQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Widget\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "RsVQID+n8L1ez0+kXDBaIIgiCJx/TawkO30tSvMqoBk=",
+        "originContent": "## Widgets",
+        "translatedContent": "## Widget"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```zig\n// Block — container with border/title\ntui.widgets.Block{ .title = \"Panel\", .borders = tui.widgets.Borders.all() }\n\n// Paragraph — text display\ntui.widgets.Paragraph{ .text = \"Hello!\", .wrap = true }\n\n// List — scrollable items\ntui.widgets.List{ .items = &items, .selected = 0, .highlight_style = .{ .bg = .blue } }\n\n// Gauge — progress bar\ntui.widgets.Gauge{ .ratio = 0.75, .label = \"75%\" }\n\n// Table — tabular data\ntui.widgets.Table{ .header = &columns, .rows = &rows }\n```",
+    "ContentSha": "x96SGRPhwqnUul4fmrOqNkzqbwpYLnHMyQwcmU9jgN8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```zig\n// Block — container with border/title\ntui.widgets.Block{ .title = \"Panel\", .borders = tui.widgets.Borders.all() }\n\n// Paragraph — text display\ntui.widgets.Paragraph{ .text = \"Hello!\", .wrap = true }\n\n// List — scrollable items\ntui.widgets.List{ .items = &items, .selected = 0, .highlight_style = .{ .bg = .blue } }\n\n// Gauge — progress bar\ntui.widgets.Gauge{ .ratio = 0.75, .label = \"75%\" }\n\n// Table — tabular data\ntui.widgets.Table{ .header = &columns, .rows = &rows }\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "b2JvnMTHm4SPkM8DTP6Nyd0KZsN/zkuQ1QIETk5S40A=",
+        "originContent": "```zig",
+        "translatedContent": "```zig"
+      },
+      {
+        "row": 2,
+        "rowsha": "OOfTuBY+8/Z3DcD7xqBbiHUYf656i+W1n/B9siN2214=",
+        "originContent": "// Block — container with border/title",
+        "translatedContent": "// Block — container with border/title"
+      },
+      {
+        "row": 3,
+        "rowsha": "mL2VNBcVWb46oB9AugtiqqYJCWHoHKmcPkdRvwWNFc0=",
+        "originContent": "tui.widgets.Block{ .title = \"Panel\", .borders = tui.widgets.Borders.all() }",
+        "translatedContent": "tui.widgets.Block{ .title = \"Panel\", .borders = tui.widgets.Borders.all() }"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "zsp3lnb37YceFreYVa5dFJfbLahkqW2k3bcE5mqjTYU=",
+        "originContent": "// Paragraph — text display",
+        "translatedContent": "// Paragraph — text display"
+      },
+      {
+        "row": 6,
+        "rowsha": "wvfb2NlgC/Ix/tWE0IhwCdreChj6vC8ICc2vt/iVXPc=",
+        "originContent": "tui.widgets.Paragraph{ .text = \"Hello!\", .wrap = true }",
+        "translatedContent": "tui.widgets.Paragraph{ .text = \"Hello!\", .wrap = true }"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "d7I9pvKRkK7fSru7P+mh9Sk9P9WSSanTaZ2tQ2ZEc5Y=",
+        "originContent": "// List — scrollable items",
+        "translatedContent": "// List — scrollable items"
+      },
+      {
+        "row": 9,
+        "rowsha": "4CuuFL8fmb416EGzr69tq8jwfIYjrPl7efd4URrYz0w=",
+        "originContent": "tui.widgets.List{ .items = &items, .selected = 0, .highlight_style = .{ .bg = .blue } }",
+        "translatedContent": "tui.widgets.List{ .items = &items, .selected = 0, .highlight_style = .{ .bg = .blue } }"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "BR/3nq3CMei3/FTd/BxvFPxQh9KsLWI6djrUm6L2lTE=",
+        "originContent": "// Gauge — progress bar",
+        "translatedContent": "// Gauge — progress bar"
+      },
+      {
+        "row": 12,
+        "rowsha": "nIGp5G3kjbMt5KVDVucI8D5UhNSVo6W/T37ektTmVIo=",
+        "originContent": "tui.widgets.Gauge{ .ratio = 0.75, .label = \"75%\" }",
+        "translatedContent": "tui.widgets.Gauge{ .ratio = 0.75, .label = \"75%\" }"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "sZGlBOqjPjyXgz0aXmcwia1zMSQJFs2y/EhrUWNR5QU=",
+        "originContent": "// Table — tabular data",
+        "translatedContent": "// Table — tabular data"
+      },
+      {
+        "row": 15,
+        "rowsha": "GvdFVcz+NmzVqNiSPUCDpNDlmR4R5z2gztepQjH6cHE=",
+        "originContent": "tui.widgets.Table{ .header = &columns, .rows = &rows }",
+        "translatedContent": "tui.widgets.Table{ .header = &columns, .rows = &rows }"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n## Themes\n\n![Themes](https://raw.githubusercontent.com/adxdits/zigtui/master/theme.gif)\n",
+    "ContentSha": "PoYaPfguVWE6V5sbefyxFouZYt1ehEprpGXNgN4KPDs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Themes\n\n![Themes](https://raw.githubusercontent.com/adxdits/zigtui/master/theme.gif)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "CHq86WjI/DJQ9RfWZNIWGULulkJ2OgnOX+DsFD/uuaY=",
+        "originContent": "## Themes",
+        "translatedContent": "## Themes"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "b3q5TQobg8NVdOdpgQfompZ6s04ZjzLQgrRhqLVS76Q=",
+        "originContent": "![Themes](https://raw.githubusercontent.com/adxdits/zigtui/master/theme.gif)",
+        "translatedContent": "![Themes](https://raw.githubusercontent.com/adxdits/zigtui/master/theme.gif)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```zig\nconst theme = tui.themes.catppuccin_mocha;\n\ntui.widgets.Block{\n    .title = \"Dashboard\",\n    .style = theme.baseStyle(),\n    .border_style = theme.borderFocusedStyle(),\n};\n```",
+    "ContentSha": "Xaun1zK0bAePIPMpWDCOrG+w82/f55g2KMAsRVb3xF0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```zig\nconst theme = tui.themes.catppuccin_mocha;\n\ntui.widgets.Block{\n    .title = \"Dashboard\",\n    .style = theme.baseStyle(),\n    .border_style = theme.borderFocusedStyle(),\n};\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "b2JvnMTHm4SPkM8DTP6Nyd0KZsN/zkuQ1QIETk5S40A=",
+        "originContent": "```zig",
+        "translatedContent": "```zig"
+      },
+      {
+        "row": 2,
+        "rowsha": "/yBQhiF391L7H80j72cIZYD/KMppttrnz02l3CV4YBg=",
+        "originContent": "const theme = tui.themes.catppuccin_mocha;",
+        "translatedContent": "const theme = tui.themes.catppuccin_mocha;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Q7CONZjtl2vptH8HG/303jpOzJQFiARQRZNBRZDk0oc=",
+        "originContent": "tui.widgets.Block{",
+        "translatedContent": "tui.widgets.Block{"
+      },
+      {
+        "row": 5,
+        "rowsha": "7XkVd3A3pkuonmBrHibStObtMbZcuTt5kEf0Ys934GI=",
+        "originContent": "    .title = \"Dashboard\",",
+        "translatedContent": "    .title = \"Dashboard\","
+      },
+      {
+        "row": 6,
+        "rowsha": "IwgndOer7PV1ADAlTrgK9RwwNmZFpXc5gdijDymJkUw=",
+        "originContent": "    .style = theme.baseStyle(),",
+        "translatedContent": "    .style = theme.baseStyle(),"
+      },
+      {
+        "row": 7,
+        "rowsha": "2U9xxm3AUOJciCYr6Qew7zmUgkl5kfOOLj69pJFcEYM=",
+        "originContent": "    .border_style = theme.borderFocusedStyle(),",
+        "translatedContent": "    .border_style = theme.borderFocusedStyle(),"
+      },
+      {
+        "row": 8,
+        "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+        "originContent": "};",
+        "translatedContent": "};"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n**Available:** `default`, `nord`, `dracula`, `monokai`, `gruvbox_dark`, `gruvbox_light`, `solarized_dark`, `solarized_light`, `tokyo_night`, `catppuccin_mocha`, `catppuccin_latte`, `one_dark`, `cyberpunk`, `matrix`, `high_contrast`\n\nRun `zig build run-themes` to preview all themes.\n\n## Examples\n",
+    "ContentSha": "1jpoU5NXEaXRkX9MgTGLb1Xl6EJSnDCJ1kPta8KlK3Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Tersedia:** `default`, `nord`, `dracula`, `monokai`, `gruvbox_dark`, `gruvbox_light`, `solarized_dark`, `solarized_light`, `tokyo_night`, `catppuccin_mocha`, `catppuccin_latte`, `one_dark`, `cyberpunk`, `matrix`, `high_contrast`\n\nJalankan `zig build run-themes` untuk melihat semua tema.\n\n## Contoh\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "AevHSPY4gh3V3G+E3vxB4yxJdgB76LmshGQCDdV6Un8=",
+        "originContent": "**Available:** `default`, `nord`, `dracula`, `monokai`, `gruvbox_dark`, `gruvbox_light`, `solarized_dark`, `solarized_light`, `tokyo_night`, `catppuccin_mocha`, `catppuccin_latte`, `one_dark`, `cyberpunk`, `matrix`, `high_contrast`",
+        "translatedContent": "**Tersedia:** `default`, `nord`, `dracula`, `monokai`, `gruvbox_dark`, `gruvbox_light`, `solarized_dark`, `solarized_light`, `tokyo_night`, `catppuccin_mocha`, `catppuccin_latte`, `one_dark`, `cyberpunk`, `matrix`, `high_contrast`"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "pCx+M3Ked67btnWnsNn01xe9Lhhg1/CyZIAP8M0hE5U=",
+        "originContent": "Run `zig build run-themes` to preview all themes.",
+        "translatedContent": "Jalankan `zig build run-themes` untuk melihat semua tema."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+        "originContent": "## Examples",
+        "translatedContent": "## Contoh"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```bash\nzig build run-dashboard   # System monitor demo\nzig build run-kitty       # Image display demo  \nzig build run-themes      # Theme showcase\n```",
+    "ContentSha": "Whd/zM1kXmybzfGlqQbicVwHBXhbsHtpJTsViLyZJSM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nzig build run-dashboard   # System monitor demo\nzig build run-kitty       # Image display demo  \nzig build run-themes      # Theme showcase\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "+eL9Qi4L85I12BET8TNZ6dHQIJevn2WF/aoPJLJd3lo=",
+        "originContent": "zig build run-dashboard   # System monitor demo",
+        "translatedContent": "zig build run-dashboard   # System monitor demo"
+      },
+      {
+        "row": 3,
+        "rowsha": "0hinuAeuFqX5uBnoJ2sgpMHQJq8tdHCIBRMXc3zCVsM=",
+        "originContent": "zig build run-kitty       # Image display demo  ",
+        "translatedContent": "zig build run-kitty       # Image display demo  "
+      },
+      {
+        "row": 4,
+        "rowsha": "VQ6UbQ4a8MgO11Ix04lhJTMxot4w6ED8cq7fM4xxdlI=",
+        "originContent": "zig build run-themes      # Theme showcase",
+        "translatedContent": "zig build run-themes      # Theme showcase"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n## Kitty Graphics\n\nDisplay images in terminals that support the [Kitty Graphics Protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/). Falls back to Unicode blocks automatically.\n",
+    "ContentSha": "Iz5rUq9DetlLrZHuk0wKCc+4SpOXmM5A9KbkSZFDLBE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Grafik Kitty\n\nMenampilkan gambar di terminal yang mendukung [Protokol Grafik Kitty](https://sw.kovidgoyal.net/kitty/graphics-protocol/). Secara otomatis beralih ke blok Unicode jika diperlukan.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Cy6/4hnZj/eSQ/JZct4iA4hvUt82d2Rv0eK8/wjYI/0=",
+        "originContent": "## Kitty Graphics",
+        "translatedContent": "## Grafik Kitty"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "GOquIc1JkUdrrSyN4NfGRD0z21pdauC0K5CGmZyN1wA=",
+        "originContent": "Display images in terminals that support the [Kitty Graphics Protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/). Falls back to Unicode blocks automatically.",
+        "translatedContent": "Menampilkan gambar di terminal yang mendukung [Protokol Grafik Kitty](https://sw.kovidgoyal.net/kitty/graphics-protocol/). Secara otomatis beralih ke blok Unicode jika diperlukan."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "```zig\nvar gfx = tui.Graphics.init(allocator);\ndefer gfx.deinit();\n\nvar bmp = try tui.graphics.bmp.loadFile(allocator, \"image.bmp\");\nconst image = tui.Image{ .data = bmp.data, .width = bmp.width, .height = bmp.height, .format = .rgba };\n\nif (gfx.supportsImages()) {\n    if (try gfx.drawImage(image, .{ .x = 0, .y = 0 })) |seq| try backend.write(seq);\n} else {\n    gfx.renderImageToBuffer(image, buffer, area); // Unicode fallback\n}\n```",
+    "ContentSha": "yZOQkcY1srdKknL2KQ0/fYbLbi5NivyO2qqGEM3A1Dc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```zig\nvar gfx = tui.Graphics.init(allocator);\ndefer gfx.deinit();\n\nvar bmp = try tui.graphics.bmp.loadFile(allocator, \"image.bmp\");\nconst image = tui.Image{ .data = bmp.data, .width = bmp.width, .height = bmp.height, .format = .rgba };\n\nif (gfx.supportsImages()) {\n    if (try gfx.drawImage(image, .{ .x = 0, .y = 0 })) |seq| try backend.write(seq);\n} else {\n    gfx.renderImageToBuffer(image, buffer, area); // Unicode fallback\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "b2JvnMTHm4SPkM8DTP6Nyd0KZsN/zkuQ1QIETk5S40A=",
+        "originContent": "```zig",
+        "translatedContent": "```zig"
+      },
+      {
+        "row": 2,
+        "rowsha": "uvSrTmHKxrbbVoCL1xjkof4xoU67sChdYJxKdqiEqm4=",
+        "originContent": "var gfx = tui.Graphics.init(allocator);",
+        "translatedContent": "var gfx = tui.Graphics.init(allocator);"
+      },
+      {
+        "row": 3,
+        "rowsha": "i6BWpqkwMnCs6JUu5z76JUJbltyAdqtAAx3EX5+DxRY=",
+        "originContent": "defer gfx.deinit();",
+        "translatedContent": "defer gfx.deinit();"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "wQ1dPW5xmHdRbJ8tR//HzinV9f0fQYNgXwco4fL6U/U=",
+        "originContent": "var bmp = try tui.graphics.bmp.loadFile(allocator, \"image.bmp\");",
+        "translatedContent": "var bmp = try tui.graphics.bmp.loadFile(allocator, \"image.bmp\");"
+      },
+      {
+        "row": 6,
+        "rowsha": "lR8jF1m0MSklRggytNMXVQai2e6aVdxW2incM3tS5hM=",
+        "originContent": "const image = tui.Image{ .data = bmp.data, .width = bmp.width, .height = bmp.height, .format = .rgba };",
+        "translatedContent": "const image = tui.Image{ .data = bmp.data, .width = bmp.width, .height = bmp.height, .format = .rgba };"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "F44ie2yjszs+IGpbEyLXrW3dE+j3avDxG8I1/fZnRXg=",
+        "originContent": "if (gfx.supportsImages()) {",
+        "translatedContent": "if (gfx.supportsImages()) {"
+      },
+      {
+        "row": 9,
+        "rowsha": "AvuiUBHV+z3A98AQznWDxEtpRP0ddN6EC6vPVBNVheM=",
+        "originContent": "    if (try gfx.drawImage(image, .{ .x = 0, .y = 0 })) |seq| try backend.write(seq);",
+        "translatedContent": "    if (try gfx.drawImage(image, .{ .x = 0, .y = 0 })) |seq| try backend.write(seq);"
+      },
+      {
+        "row": 10,
+        "rowsha": "mFBF8cBXio0Uhu8/bX1VO6Q8PJKJhy9T5YFaqhzIFxA=",
+        "originContent": "} else {",
+        "translatedContent": "} else {"
+      },
+      {
+        "row": 11,
+        "rowsha": "n8l20b5KARVUrTQtPJwblZY++4IP7sWoGD4ADObklD8=",
+        "originContent": "    gfx.renderImageToBuffer(image, buffer, area); // Unicode fallback",
+        "translatedContent": "    gfx.renderImageToBuffer(image, buffer, area); // Unicode fallback"
+      },
+      {
+        "row": 12,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\n**Supported:** Kitty, WezTerm, foot, Konsole (partial)  \n**Fallback:** Windows Terminal, iTerm2, Terminal.app\n\n## Platform Support\n\n| Platform | Terminal | Notes |\n|----------|----------|-------|\n| Windows 10+ | Windows Terminal, WezTerm | Native Console API |\n| Linux | Any ANSI-compatible | POSIX termios |\n| macOS | Kitty, WezTerm, Terminal.app | POSIX termios |\n\n## License\n\nMIT\n\n## Contributing\n\nIssues and PRs welcome.\n",
+    "ContentSha": "5JG7arUYfZ8rlhTwNZ8vl4OfXNfyPzu2CODualZ+kYc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Didukung:** Kitty, WezTerm, foot, Konsole (sebagian)  \n**Cadangan:** Windows Terminal, iTerm2, Terminal.app\n\n## Dukungan Platform\n\n| Platform | Terminal | Catatan |\n|----------|----------|---------|\n| Windows 10+ | Windows Terminal, WezTerm | Native Console API |\n| Linux | Terminal kompatibel ANSI apa saja | POSIX termios |\n| macOS | Kitty, WezTerm, Terminal.app | POSIX termios |\n\n## Lisensi\n\nMIT\n\n## Kontribusi\n\nIsu dan PR dipersilakan.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "t1FftQ15mvOZ8QQ4jcAmoOqCdrdu6FlKTpp96088faA=",
+        "originContent": "**Supported:** Kitty, WezTerm, foot, Konsole (partial)  ",
+        "translatedContent": "**Didukung:** Kitty, WezTerm, foot, Konsole (sebagian)  "
+      },
+      {
+        "row": 3,
+        "rowsha": "nKNUYrTtnrFznVhWqkNxekzXoCnlP4HbX03/uX7KN1I=",
+        "originContent": "**Fallback:** Windows Terminal, iTerm2, Terminal.app",
+        "translatedContent": "**Cadangan:** Windows Terminal, iTerm2, Terminal.app"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "OPrmm6f4GDGUFZTHm3BqmRxfO/Wz9GrkUsClwCqXVNI=",
+        "originContent": "## Platform Support",
+        "translatedContent": "## Dukungan Platform"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "hjeI9OrcKHtsPOKgTnwiopxxce/rWdHiW+XqNxm4PHQ=",
+        "originContent": "| Platform | Terminal | Notes |",
+        "translatedContent": "| Platform | Terminal | Catatan |"
+      },
+      {
+        "row": 8,
+        "rowsha": "kOiUSlY0nXyDbuESIL8UIIl7Hh0LyDWsMTGN0coDoaY=",
+        "originContent": "|----------|----------|-------|",
+        "translatedContent": "|----------|----------|---------|"
+      },
+      {
+        "row": 9,
+        "rowsha": "PZSsY6KLWSWShoD49/j1nnMCRpiFbiiqoeSgWq3TNoM=",
+        "originContent": "| Windows 10+ | Windows Terminal, WezTerm | Native Console API |",
+        "translatedContent": "| Windows 10+ | Windows Terminal, WezTerm | Native Console API |"
+      },
+      {
+        "row": 10,
+        "rowsha": "3GsPo8bMLKhd8yAyTa8VNKlogSl1/FQjcn0NLjFDKlA=",
+        "originContent": "| Linux | Any ANSI-compatible | POSIX termios |",
+        "translatedContent": "| Linux | Terminal kompatibel ANSI apa saja | POSIX termios |"
+      },
+      {
+        "row": 11,
+        "rowsha": "be1nrVwx/z9OOoHN0DGukGdMkrOtqno2cWal9wE1UcI=",
+        "originContent": "| macOS | Kitty, WezTerm, Terminal.app | POSIX termios |",
+        "translatedContent": "| macOS | Kitty, WezTerm, Terminal.app | POSIX termios |"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Lisensi"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
+        "originContent": "MIT",
+        "translatedContent": "MIT"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Kontribusi"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "a/wytT2T6mged6f6iMyrEVutFjTMg9/5YAc8E6FVZEE=",
+        "originContent": "Issues and PRs welcome.",
+        "translatedContent": "Isu dan PR dipersilakan."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

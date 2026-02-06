@@ -1,0 +1,1148 @@
+[
+  {
+    "row": 1,
+    "rowsha": "ktG7czwh2na0OqpKfaZ38oOuKRzQUySiAGOJVQM5VGM=",
+    "originContent": "# Jib",
+    "translatedContent": "# Jib"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "hRgAoCmOYDZ4VcN4dNkwAV9y3It8r57iGO3YX0J75pk=",
+    "originContent": "*A Julia implementation of Interactive Brokers API*",
+    "translatedContent": "*A Julia implementation of Interactive Brokers API*"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "8TLZNkh7UKFWNJKJkZorYh+w/lu6LcXQ+aQm6z8miOQ=",
+    "originContent": "`Jib` is a native [Julia](https://julialang.org/) client that implements",
+    "translatedContent": "`Jib` is a native [Julia](https://julialang.org/) client that implements"
+  },
+  {
+    "row": 6,
+    "rowsha": "J3bRUJy63il4RMXUvwy4ADg0SA6i1xoK1a/bOmtRbhE=",
+    "originContent": "[Interactive Brokers](https://www.interactivebrokers.com/) API to communicate",
+    "translatedContent": "[Interactive Brokers](https://www.interactivebrokers.com/) API to communicate"
+  },
+  {
+    "row": 7,
+    "rowsha": "Xy2vIHnmdQHt86KA/t3B7XRxJmilUD42cqdwZRdHmDw=",
+    "originContent": "with TWS or IBGateway.",
+    "translatedContent": "with TWS or IBGateway."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "a9PbdUEf17OZ90JrDiMPJxJxu88uKFv02AAFW9t5hng=",
+    "originContent": "It aims to be feature complete, however it does not support legacy versions.",
+    "translatedContent": "It aims to be feature complete, however it does not support legacy versions."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "6xc1WJCqNOPCJoGxlRsu2XknH5VqKGJYQ1lIpReoTc4=",
+    "originContent": "It is noteworthy to mention that the official IB API has recently adopted",
+    "translatedContent": "It is noteworthy to mention that the official IB API has recently adopted"
+  },
+  {
+    "row": 12,
+    "rowsha": "kCVxGRuhJXDKlpm57me2aPIn6JKStwWX4wrz+hADWTc=",
+    "originContent": "Protocol Buffers as the underlying wire format, replacing the legacy custom protocol.",
+    "translatedContent": "Protocol Buffers as the underlying wire format, replacing the legacy custom protocol."
+  },
+  {
+    "row": 13,
+    "rowsha": "s7jTA18H7qw+dNnyPcVysXoUtGN/7rxmDmutahBqWpw=",
+    "originContent": "This package followed suit and support for the latter has been dropped.",
+    "translatedContent": "This package followed suit and support for the latter has been dropped."
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "+OjtwEJquBuu0Z+uuO1dn6vwS9Wb3FRcARBhJgVZYd0=",
+    "originContent": "Currently, only API versions `v213+` are supported, which translates to",
+    "translatedContent": "Currently, only API versions `v213+` are supported, which translates to"
+  },
+  {
+    "row": 16,
+    "rowsha": "u2CyuVLO9DDxWjcKaOu/XszAl7lbnWoKxegT9GydGwY=",
+    "originContent": "TWS version `10.40` or later.",
+    "translatedContent": "TWS version `10.40` or later."
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "C7l9tjzGAJ0BGuScJ6005zHAQ067pagcwxsdwK5naDs=",
+    "originContent": "The package design follows the official C++/Java",
+    "translatedContent": "The package design follows the official C++/Java"
+  },
+  {
+    "row": 19,
+    "rowsha": "rNGP4nuquUC53PzZFrweGYraA2akzsE+CDkUn1ees98=",
+    "originContent": "[IB API](https://interactivebrokers.github.io/tws-api/),",
+    "translatedContent": "[IB API](https://interactivebrokers.github.io/tws-api/),"
+  },
+  {
+    "row": 20,
+    "rowsha": "o5vkEhTXMxravVXjj0uCvyayCyoXjCwV4JKUlGak6ZE=",
+    "originContent": "which is based on an asynchronous communication model over TCP.",
+    "translatedContent": "which is based on an asynchronous communication model over TCP."
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 23,
+    "rowsha": "8k6cr8bkMat0HQ3a8ReBd2B4FCCwLvqXIGQ5iPgwU6c=",
+    "originContent": "To install from GitHub:",
+    "translatedContent": "To install from GitHub:"
+  },
+  {
+    "row": 24,
+    "rowsha": "WhKoBLSyNZEf/q1zy0PHgpls11zIKk6yxTT1B2asf6A=",
+    "originContent": "```julia",
+    "translatedContent": "```julia"
+  },
+  {
+    "row": 25,
+    "rowsha": "0rK3rVuxzozwvUXGTNX2cl9tX32qqMiif5v2j0qK73c=",
+    "originContent": "] add https://github.com/lbilli/Jib.jl",
+    "translatedContent": "] add https://github.com/lbilli/Jib.jl"
+  },
+  {
+    "row": 26,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Usage"
+  },
+  {
+    "row": 28,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "The user interacts mainly with these two objects:"
+  },
+  {
+    "row": 29,
+    "rowsha": "H5IpC/jdGaSBQSpl0wtqmXf5zr3B75OWaV9whlT9nlU=",
+    "originContent": "The user interacts mainly with these two objects:",
+    "translatedContent": "- `Connection`: a handle holding a connection to the server"
+  },
+  {
+    "row": 30,
+    "rowsha": "0GNuEn2pt4min7oe6fKi9JXSjr/89bWRB+oKe3GqVQ4=",
+    "originContent": "- `Connection`: a handle holding a connection to the server",
+    "translatedContent": "- `Wrapper`: a container for the callbacks that are invoked"
+  },
+  {
+    "row": 31,
+    "rowsha": "UuVmlouw9B6r4fU4T+f01NvQ58/dSy4b11btZUtPDVw=",
+    "originContent": "- `Wrapper`: a container for the callbacks that are invoked",
+    "translatedContent": "   when the server responses are processed."
+  },
+  {
+    "row": 32,
+    "rowsha": "JD82fFzHUW1Z2wBxi7MKw/e+mVo8mHwHlPmrNl1ytR0=",
+    "originContent": "   when the server responses are processed.",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Other data structures, such as `Contract` and `Order`, are implemented as Julia `struct`"
+  },
+  {
+    "row": 34,
+    "rowsha": "wNIOWG8Hgh31YDvJuJF3dop55bjUny5bJd6y9G6w+ik=",
+    "originContent": "Other data structures, such as `Contract` and `Order`, are implemented as Julia `struct`",
+    "translatedContent": "and mirror the respective classes in the official IB API."
+  },
+  {
+    "row": 35,
+    "rowsha": "PgUXNdqfX2KEfTdaQVdQPkq5JYi2QuWgiv/aD+ERiFk=",
+    "originContent": "and mirror the respective classes in the official IB API.",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "A complete minimal working example is shown."
+  },
+  {
+    "row": 37,
+    "rowsha": "h9fUNl75BNCSNoKmMdrwr5GwwcE/ix/V/lYo32o4nOo=",
+    "originContent": "A complete minimal working example is shown.",
+    "translatedContent": "For this code to work, an instance of IB TWS or IBGateway needs to be running"
+  },
+  {
+    "row": 38,
+    "rowsha": "yp8RbihIxZpzaOoHaBNEiJYW/4H1TwgrjCTHnx51pdQ=",
+    "originContent": "For this code to work, an instance of IB TWS or IBGateway needs to be running",
+    "translatedContent": "on the local machine and listening on port `4002`."
+  },
+  {
+    "row": 39,
+    "rowsha": "s5Jaf/07jDGb/wsquG2PyT2RURXFRewDWgBTWh6lWjU=",
+    "originContent": "on the local machine and listening on port `4002`.",
+    "translatedContent": "**Note:** _demo_ or _paper_ account recommended!! :smirk:"
+  },
+  {
+    "row": 40,
+    "rowsha": "uJna/LB5smmmwzlyp6l50EM8pJ7T18UjKG0thGqHoc4=",
+    "originContent": "**Note:** _demo_ or _paper_ account recommended!! :smirk:",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "WhKoBLSyNZEf/q1zy0PHgpls11zIKk6yxTT1B2asf6A=",
+    "originContent": "```julia",
+    "translatedContent": "```julia"
+  },
+  {
+    "row": 42,
+    "rowsha": "9N1dgP9ZXu2Od5WJVdKSFzvgSj+RRYRymSdOashzo4A=",
+    "originContent": "using Jib",
+    "translatedContent": "using Jib"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "QnMinS26CA59c2+UACzkc+64/XtvFJoc5n+j8pYhUH0=",
+    "originContent": "wrap = Jib.Wrapper(",
+    "translatedContent": "wrap = Jib.Wrapper("
+  },
+  {
+    "row": 45,
+    "rowsha": "3KYi5IMcP72B3w+0KjtVxM56cjkr7Yhu3j7SKg6VrzY=",
+    "originContent": "         # Customized methods go here",
+    "translatedContent": "         # Customized methods go here"
+  },
+  {
+    "row": 46,
+    "rowsha": "Pah4sGH+yapuAsVszSzk9OustBnkn4ZlpuYJGSPhDjk=",
+    "originContent": "         error= (id, errorTime, errorCode, errorString, advancedOrderRejectJson) ->",
+    "translatedContent": "         error= (id, errorTime, errorCode, errorString, advancedOrderRejectJson) ->"
+  },
+  {
+    "row": 47,
+    "rowsha": "bS96hkVxzzeDpW0MqtzL5O+IBy5Sdu2zzLO01jIOa/g=",
+    "originContent": "                  println(\"Error: $(something(id, \"NA\")) $errorTime $errorCode $errorString $advancedOrderRejectJson\"),",
+    "translatedContent": "                  println(\"Error: $(something(id, \"NA\")) $errorTime $errorCode $errorString $advancedOrderRejectJson\"),"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "6553zPh6Bvzkl5IvLrtzdxJeEgLrXfFJtTGD53G2J5M=",
+    "originContent": "         nextValidId= (orderId) -> println(\"Next OrderId: $orderId\"),",
+    "translatedContent": "         nextValidId= (orderId) -> println(\"Next OrderId: $orderId\"),"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "iVxZyFLEelgnKyJG6wv0QBhnFiGmG/lY16Wl/dcL+64=",
+    "originContent": "         managedAccounts= (accountsList) -> println(\"Managed Accounts: $accountsList\")",
+    "translatedContent": "         managedAccounts= (accountsList) -> println(\"Managed Accounts: $accountsList\")"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "DJSB5OfP3sZCdFXMtSjhDbMUdE6+cdBTg8taMzz7QE8=",
+    "originContent": "         # more method overrides can go here...",
+    "translatedContent": "         # more method overrides can go here..."
+  },
+  {
+    "row": 54,
+    "rowsha": "4phjFrevEEFooy8wm6Oy4f/VIxkxd5ZX8qfux21Kmps=",
+    "originContent": "       );",
+    "translatedContent": "       );"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "w5gcUFLcOVdxQAd0wr2hM1H9gSuJmF6Nj17KIiUTgBs=",
+    "originContent": "# Connect to the server with clientId = 1",
+    "translatedContent": "# Connect to the server with clientId = 1"
+  },
+  {
+    "row": 57,
+    "rowsha": "TIojXQLh6Aw04PtVaDqFnBw6ZWtBS6RT0biIDR3g6Hk=",
+    "originContent": "ib = Jib.connect(4002, 1);",
+    "translatedContent": "ib = Jib.connect(4002, 1);"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "oM7f0QnoaNoqvnaUcZhC5bHs+Oz+jwk5zxxRnZ1zSNo=",
+    "originContent": "# Start a background Task to process the server responses",
+    "translatedContent": "# Start a background Task to process the server responses"
+  },
+  {
+    "row": 60,
+    "rowsha": "gIeMiVcxEoHmJt885mkbdE+093/dSXfhICKYD8ldTYY=",
+    "originContent": "Jib.start_reader(ib, wrap);",
+    "translatedContent": "Jib.start_reader(ib, wrap);"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "y7lpqgzK+QDHveqTDd3Oko16JV7o9sIVM61y2tc2PvA=",
+    "originContent": "# Define contract",
+    "translatedContent": "# Define contract"
+  },
+  {
+    "row": 63,
+    "rowsha": "b1uQp+w8BuZBtUBDXVVs/NpBTsOZKzh69qt11vcMqWk=",
+    "originContent": "contract = Jib.Contract(symbol=\"GOOG\",",
+    "translatedContent": "contract = Jib.Contract(symbol=\"GOOG\","
+  },
+  {
+    "row": 64,
+    "rowsha": "fw1kC3ZW+N6S1o3Ycc+eGX2BLy+SeC8RaPieBMCHRH8=",
+    "originContent": "                        secType=\"STK\",",
+    "translatedContent": "                        secType=\"STK\","
+  },
+  {
+    "row": 65,
+    "rowsha": "29JiZXjJSM0DOdU2FXQkTNfLU8Gt1cZbAejns5cSkT4=",
+    "originContent": "                        exchange=\"SMART\",",
+    "translatedContent": "                        exchange=\"SMART\","
+  },
+  {
+    "row": 66,
+    "rowsha": "e0pqb1TVwXwN7/BB/4T5oO2sWgx1DEGoHJexjythmZo=",
+    "originContent": "                        currency=\"USD\");",
+    "translatedContent": "                        currency=\"USD\");"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "hmmfRrsW0FdtzUoS7EXNYtHxFiua0z7McGBs5WlvoMc=",
+    "originContent": "# Define order",
+    "translatedContent": "# Define order"
+  },
+  {
+    "row": 69,
+    "rowsha": "1a+dIUNqPki/LkvsOZbLT5r6Pb3Cpmj9kusexEB1Ie8=",
+    "originContent": "order = Jib.Order();",
+    "translatedContent": "order = Jib.Order();"
+  },
+  {
+    "row": 70,
+    "rowsha": "RILwxLo41XrPJVvQ9SMUYTeupLSRYqlKqDENCnY6BfI=",
+    "originContent": "order.action        = \"BUY\"",
+    "translatedContent": "order.action        = \"BUY\""
+  },
+  {
+    "row": 71,
+    "rowsha": "iUqe+AsoXKGvdDAGNNkdwmhC8ZO+Vy6LumvQVML+QEc=",
+    "originContent": "order.totalQuantity = 10",
+    "translatedContent": "order.totalQuantity = 10"
+  },
+  {
+    "row": 72,
+    "rowsha": "Wx6C5dlVMiWqtL2dFa9wHMfWM1MIk1hpQ0IbBnixuBg=",
+    "originContent": "order.orderType     = \"LMT\"",
+    "translatedContent": "order.orderType     = \"LMT\""
+  },
+  {
+    "row": 73,
+    "rowsha": "d+aB8NElH/x+NwXL/4B3oE0My9XuRAqsOknQqTYW574=",
+    "originContent": "order.lmtPrice      = 100",
+    "translatedContent": "order.lmtPrice      = 100"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "sGOFODjijwVJMoqqJBhEdTZ4T6w6iIXMrrjMVfz6R3A=",
+    "originContent": "orderId = 1    # Should match whatever is returned by the server",
+    "translatedContent": "orderId = 1    # Should match whatever is returned by the server"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "YzP2VoPXbhPJn9ym+Zpv5eeUvRuuzaidkmG2ofqKBXs=",
+    "originContent": "# Send order",
+    "translatedContent": "# Send order"
+  },
+  {
+    "row": 78,
+    "rowsha": "fDIaaUfyNEy7KoJOu7V+HxMNQJ3Rk21d4OyRRn0v/Lw=",
+    "originContent": "Jib.placeOrder(ib, orderId, contract, order)",
+    "translatedContent": "Jib.placeOrder(ib, orderId, contract, order)"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "I8gnXl8hvys7n5Fbs3yEz1+w2rWAxacItz8M4/cv0iQ=",
+    "originContent": "# Disconnect",
+    "translatedContent": "# Disconnect"
+  },
+  {
+    "row": 81,
+    "rowsha": "hWahm+KJS84F64YHOb6DNVn3ez1ikXUUyohg2CptS+4=",
+    "originContent": "Jib.disconnect(ib)",
+    "translatedContent": "Jib.disconnect(ib)"
+  },
+  {
+    "row": 82,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "ceQUtIWf4oS1dm7OrZ2uPe+JjGfDDkCeLQu4p6OvGBU=",
+    "originContent": "#### Foreground vs. Background Processing",
+    "translatedContent": "#### Foreground vs. Background Processing"
+  },
+  {
+    "row": 85,
+    "rowsha": "CeQZlzhQmuFdJiYJyMZezFY97yeWOKTSsLMBgWRPhWE=",
+    "originContent": "It is possible to process the server responses either within the main process",
+    "translatedContent": "It is possible to process the server responses either within the main process"
+  },
+  {
+    "row": 86,
+    "rowsha": "603+5QJ2DA4tRkWpO38Wzr6QGR9edRWUm3e8BLzIpx0=",
+    "originContent": "or in a separate background `Task`:",
+    "translatedContent": "or in a separate background `Task`:"
+  },
+  {
+    "row": 87,
+    "rowsha": "rceiiEZFHFw/NORZYkfBeDRSOM3RWItV0JuE4Ivm0uU=",
+    "originContent": "- **foreground processing** is triggered by invoking `Jib.check_all(ib, wrap)`.",
+    "translatedContent": "- **foreground processing** is triggered by invoking `Jib.check_all(ib, wrap)`."
+  },
+  {
+    "row": 88,
+    "rowsha": "LV5kc0pJm84aAdJD+y7Cx3nIkuV57hZRLDcFUz6+5w0=",
+    "originContent": "  It is the user's responsibility to call it on a **regular basis**,",
+    "translatedContent": "  It is the user's responsibility to call it on a **regular basis**,"
+  },
+  {
+    "row": 89,
+    "rowsha": "mPp0oscq8wVfE+Hxxqn8SwiDXEgn42Cpwc7PVgldzY8=",
+    "originContent": "  especially when data are streaming in.",
+    "translatedContent": "  especially when data are streaming in."
+  },
+  {
+    "row": 90,
+    "rowsha": "INm5FZWeM/hepc8YVY0qqr8fjvIv71joGD/72SrxEs4=",
+    "originContent": "- **background processing** is started by `Jib.start_reader(ib, wrap)`.",
+    "translatedContent": "- **background processing** is started by `Jib.start_reader(ib, wrap)`."
+  },
+  {
+    "row": 91,
+    "rowsha": "YCBRQiyZpritMOuHVWiQLPAfaUik4pMYiRP9CKLpS7s=",
+    "originContent": "  A separate `Task` is started in the background, which monitors the connection and processes",
+    "translatedContent": "  A separate `Task` is started in the background, which monitors the connection and processes"
+  },
+  {
+    "row": 92,
+    "rowsha": "lhLacP7MNep7pQlcHk3qnDPTvU8V+F4//1IzGCdwRMA=",
+    "originContent": "  the responses as they arrive.",
+    "translatedContent": "  the responses as they arrive."
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "O8/CT5HMl5+TWYoNVFPG9yobZfy4XUTx0odD1eGXREk=",
+    "originContent": "To avoid undesired effects, the two approaches should not be mixed together",
+    "translatedContent": "To avoid undesired effects, the two approaches should not be mixed together"
+  },
+  {
+    "row": 95,
+    "rowsha": "W8nLwwFtnGIhC4VVqtk0lNpgNthElPVfJWQKqcmHpkU=",
+    "originContent": "on the same connection.",
+    "translatedContent": "on the same connection."
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "lkotcbsiQBTW/ZHw7Fb+ExmghWmuQ2maaczMQXD+XU4=",
+    "originContent": "## Implementation Details",
+    "translatedContent": "## Implementation Details"
+  },
+  {
+    "row": 98,
+    "rowsha": "LdSTlix7iKnIwtRZO/mZTNZewIzWNUF5T5nTS1OO7z8=",
+    "originContent": "The package does not export any name, therefore any functions",
+    "translatedContent": "The package does not export any name, therefore any functions"
+  },
+  {
+    "row": 99,
+    "rowsha": "D6aOSdJ9u/RSVq666un+8Xm6PkOPKulcJvK/Tc2z5oc=",
+    "originContent": "or types described here need to be prefixed by `Jib.*`.",
+    "translatedContent": "or types described here need to be prefixed by `Jib.*`."
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "ykeD0T2FyxRnPIdyvnGefWL6o9wj9AT35hSm4jvAhSo=",
+    "originContent": "As Julia is not an object-oriented language, the functionality of the IB",
+    "translatedContent": "As Julia is not an object-oriented language, the functionality of the IB"
+  },
+  {
+    "row": 102,
+    "rowsha": "ETwnYV4DxYASumpFi6c2zdLg4VSUSGGf/j5+sBR/dng=",
+    "originContent": "`EClient` class is provided here by regular functions. In particular:",
+    "translatedContent": "`EClient` class is provided here by regular functions. In particular:"
+  },
+  {
+    "row": 103,
+    "rowsha": "BS+3m+2vX8fnEhD0ag1aJlKvMCNiysT8cWMWJOqG4NQ=",
+    "originContent": "- `connect(port, clientId, connectOptions)`: establish a connection and return",
+    "translatedContent": "- `connect(port, clientId, connectOptions)`: establish a connection and return"
+  },
+  {
+    "row": 104,
+    "rowsha": "p8gCyr3qiRiR4grQwJA2VPW6FIllMyc4en1Y/bsNyIM=",
+    "originContent": "  a `Connection` object.",
+    "translatedContent": "  a `Connection` object."
+  },
+  {
+    "row": 105,
+    "rowsha": "hWjpwYIbxJqrr1l9KFpUMsmR11nK8XykX1rGhCIJxhE=",
+    "originContent": "- `disconnect(::Connection)`: terminate the connection.",
+    "translatedContent": "- `disconnect(::Connection)`: terminate the connection."
+  },
+  {
+    "row": 106,
+    "rowsha": "PpSv+xlxjO/ksoZeKTqKj9NHUUENTPm6YC9ti+Bqzcg=",
+    "originContent": "- `check_all(::Connection, ::Wrapper)`: process available responses, **not blocking**.",
+    "translatedContent": "- `check_all(::Connection, ::Wrapper)`: process available responses, **not blocking**."
+  },
+  {
+    "row": 107,
+    "rowsha": "VKN7cNsmnwY6C3OnfHtUsZER6dK+mtHAfkeajKFOZjk=",
+    "originContent": "  Return the number of messages processed. **Needs to be called regularly!**",
+    "translatedContent": "  Return the number of messages processed. **Needs to be called regularly!**"
+  },
+  {
+    "row": 108,
+    "rowsha": "tK8JOctU/HRYIeV9q9x38quFqCN+zgMIoGU3G5tW9aI=",
+    "originContent": "- `start_reader(::Connection, ::Wrapper)`: start a `Task` for background processing.",
+    "translatedContent": "- `start_reader(::Connection, ::Wrapper)`: start a `Task` for background processing."
+  },
+  {
+    "row": 109,
+    "rowsha": "ht7scOYIuQQZYyMwq+zqlDlXZi7y42Iy8Gh+lc/lmZE=",
+    "originContent": "- methods that send specific requests to the server.",
+    "translatedContent": "- methods that send specific requests to the server."
+  },
+  {
+    "row": 110,
+    "rowsha": "M+Twit1+RtS6ARJfBoeKeZ+0+rWoFjyg+pI6y9IfPsQ=",
+    "originContent": "  Refer to the official IB `EClient` class documentation for further details and method signatures.",
+    "translatedContent": "  Refer to the official IB `EClient` class documentation for further details and method signatures."
+  },
+  {
+    "row": 111,
+    "rowsha": "NPeLFQL/ayuzA5sgvEwlvmB060BOsdulkMGyWNLqzS8=",
+    "originContent": "  The only caveat is to remember to pass a `Connection` as first argument: _e.g._",
+    "translatedContent": "  The only caveat is to remember to pass a `Connection` as first argument: _e.g._"
+  },
+  {
+    "row": 112,
+    "rowsha": "+RrOHRExatSX0Fg0maC+gNXsMbSwAL4IvjXG9I0PU7k=",
+    "originContent": "  `reqContractDetails(ib::Connection, reqId:Int, contract::Contract)`",
+    "translatedContent": "  `reqContractDetails(ib::Connection, reqId:Int, contract::Contract)`"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "wECrh/fKz0n9auFr65U0VHKnooiYfcg53KSXt5Nm1z8=",
+    "originContent": "#### [`Wrapper`](https://raw.githubusercontent.com/lbilli/Jib.jl/master/src/wrapper.jl)",
+    "translatedContent": "#### [`Wrapper`](https://raw.githubusercontent.com/lbilli/Jib.jl/master/src/wrapper.jl)"
+  },
+  {
+    "row": 115,
+    "rowsha": "MjtdPotYPkq3lOjUx7cq46BZCcVQzTAOIKudomjk/E4=",
+    "originContent": "Like the official IB `EWrapper` class, this `struct` holds the callbacks",
+    "translatedContent": "Like the official IB `EWrapper` class, this `struct` holds the callbacks"
+  },
+  {
+    "row": 116,
+    "rowsha": "ovNnt6wwxU7XUCuJq8x6qlCFXorcuozmU9hF3+qYfKk=",
+    "originContent": "that are dispatched when responses are processed.",
+    "translatedContent": "that are dispatched when responses are processed."
+  },
+  {
+    "row": 117,
+    "rowsha": "Z6eiKaQwrl7xZbZ4vXVcOcDoj0R2/EMHYOV9K37KnHc=",
+    "originContent": "The user provides the callback definitions as keyword arguments",
+    "translatedContent": "The user provides the callback definitions as keyword arguments"
+  },
+  {
+    "row": 118,
+    "rowsha": "wwTm8J4zEyGhHQ8G6xTw2hbOyoaa17gjGADrsTv+oio=",
+    "originContent": "in the constructor, as shown [above](#usage), and/or by setting",
+    "translatedContent": "in the constructor, as shown [above](#usage), and/or by setting"
+  },
+  {
+    "row": 119,
+    "rowsha": "MDHw4yqFiaBsdnN5sk/1eT2F4+cH5/qtDEtDxAO56ts=",
+    "originContent": "the property of an existing instance.",
+    "translatedContent": "the property of an existing instance."
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "X06B/PPpfa5/j1YQas1bjq6iDH4/7H1jkdWB7H2+EDQ=",
+    "originContent": "A more comprehensive example is provided by [`simple_wrap()`](https://raw.githubusercontent.com/lbilli/Jib.jl/master/src/wrapper.jl#L130),",
+    "translatedContent": "A more comprehensive example is provided by [`simple_wrap()`](https://raw.githubusercontent.com/lbilli/Jib.jl/master/src/wrapper.jl#L130),"
+  },
+  {
+    "row": 122,
+    "rowsha": "attXAdQ3B29jsz5l3hA/SoJX2s5nZzTYb/ZSTuzKkIc=",
+    "originContent": "which is used like this:",
+    "translatedContent": "which is used like this:"
+  },
+  {
+    "row": 123,
+    "rowsha": "WhKoBLSyNZEf/q1zy0PHgpls11zIKk6yxTT1B2asf6A=",
+    "originContent": "```julia",
+    "translatedContent": "```julia"
+  },
+  {
+    "row": 124,
+    "rowsha": "1FZbfcjnpYBx2V/5Ixxw81LHMcXz83qZTWBuEKE+GSE=",
+    "originContent": "using Jib: Jib, Contract, reqContractDetails, simple_wrap, start_reader",
+    "translatedContent": "using Jib: Jib, Contract, reqContractDetails, simple_wrap, start_reader"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "Q2BTuKHPMjoFGqZtghR65kf7/Rj4YegnAxd32+yxlF4=",
+    "originContent": "data, wrap = simple_wrap();",
+    "translatedContent": "data, wrap = simple_wrap();"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "TIojXQLh6Aw04PtVaDqFnBw6ZWtBS6RT0biIDR3g6Hk=",
+    "originContent": "ib = Jib.connect(4002, 1);",
+    "translatedContent": "ib = Jib.connect(4002, 1);"
+  },
+  {
+    "row": 129,
+    "rowsha": "UAHaFq76UjjttXPNf9eeSvsHaJ4x0UQ5KV4iE1pWGqA=",
+    "originContent": "start_reader(ib, wrap);",
+    "translatedContent": "start_reader(ib, wrap);"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "HIdLFJkPTZ0khHa0KV1WJWFPItBEMsMv9rSSPFxOSUM=",
+    "originContent": "reqContractDetails(ib, 99, Contract(conId=208813720, exchange=\"SMART\"))",
+    "translatedContent": "reqContractDetails(ib, 99, Contract(conId=208813720, exchange=\"SMART\"))"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "5PG6HKh2rKQjTFknpMqmMJPKteRbOyh8TcoEhVF+ycg=",
+    "originContent": "# Wait for the response and then access the \"ContractDetails\" result:",
+    "translatedContent": "# Wait for the response and then access the \"ContractDetails\" result:"
+  },
+  {
+    "row": 134,
+    "rowsha": "/MxMOtNQfcTSr2KJ3VyUadsDL8i6CnATp0zBah2/zr0=",
+    "originContent": "data[:cd]",
+    "translatedContent": "data[:cd]"
+  },
+  {
+    "row": 135,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 136,
+    "rowsha": "ISc4GZE54QiDmursjI4T1gAR1WE+zPL61j68dBhIJkk=",
+    "originContent": "Thanks to closures, `data` (a `Dict` in this case) is accessible by all",
+    "translatedContent": "Thanks to closures, `data` (a `Dict` in this case) is accessible by all"
+  },
+  {
+    "row": 137,
+    "rowsha": "DjfsOvkOEC7/mvkYK+EVCBOtgs/DHi1I/5nuc6Zqmac=",
+    "originContent": "`wrap` methods as well as the main program. This is one way to",
+    "translatedContent": "`wrap` methods as well as the main program. This is one way to"
+  },
+  {
+    "row": 138,
+    "rowsha": "Q2hdqoq55UHpb2aKa6lXQ3ouaq/H8Gyrwk+/l9BObCs=",
+    "originContent": "propagate incoming data to different parts of the program.",
+    "translatedContent": "propagate incoming data to different parts of the program."
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "3xSPQXnBkS13RsbVseCZb1NioQhRwqGCSKzTSBPjd3M=",
+    "originContent": "For more details about callback definitions and signatures,",
+    "translatedContent": "For more details about callback definitions and signatures,"
+  },
+  {
+    "row": 141,
+    "rowsha": "TuUoZdBtA/qdnsl/GIm2w95JVbRO9ADzDBZ23CoW60k=",
+    "originContent": "refer to the official IB `EWrapper` class documentation.",
+    "translatedContent": "refer to the official IB `EWrapper` class documentation."
+  },
+  {
+    "row": 142,
+    "rowsha": "F3nUxrAlxlNPgQ8WmVli5z3BGx2ayqzeV47ePO0/N3M=",
+    "originContent": "As reference, the exact signatures used in this package",
+    "translatedContent": "As reference, the exact signatures used in this package"
+  },
+  {
+    "row": 143,
+    "rowsha": "UbAepIbgHVJX5mI55Z7+ZmrgCvI9VbVRXJEFRsBgj9o=",
+    "originContent": "are found [here](https://raw.githubusercontent.com/lbilli/Jib.jl/master/data/wrapper_signatures.jl).",
+    "translatedContent": "are found [here](https://raw.githubusercontent.com/lbilli/Jib.jl/master/data/wrapper_signatures.jl)."
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "Y+E+h7N40ehfg46tJn25AgwUV7ERijfgr5+1+XYUT0s=",
+    "originContent": "## Notes",
+    "translatedContent": "## Notes"
+  },
+  {
+    "row": 146,
+    "rowsha": "tmdb2wbYN5N64663o5OsY8EeteFUo20lbiFwpe7TngI=",
+    "originContent": "Callbacks are generally invoked with arguments and types matching the signatures",
+    "translatedContent": "Callbacks are generally invoked with arguments and types matching the signatures"
+  },
+  {
+    "row": 147,
+    "rowsha": "YGIs5RxVqy29siSPBgplzkOjKxXvxXfTChveItehr2M=",
+    "originContent": "as described in the official documentation.",
+    "translatedContent": "as described in the official documentation."
+  },
+  {
+    "row": 148,
+    "rowsha": "I9ZGGHX3oP2rMl+NYiysXObbIacT7Ft5+LZUtzlTxog=",
+    "originContent": "However, there are few exceptions:",
+    "translatedContent": "However, there are few exceptions:"
+  },
+  {
+    "row": 149,
+    "rowsha": "h1S0dZT/N5gj92P7wt7NaSkuCxStWaDHBRxFBQR2Z9I=",
+    "originContent": "- `tickPrice()` has an extra `size::Float64` argument,",
+    "translatedContent": "- `tickPrice()` has an extra `size::Float64` argument,"
+  },
+  {
+    "row": 150,
+    "rowsha": "3PBdJ2AgizAI/SfWUO0Io6WnLhtOFAn54kMnQJe1Nj8=",
+    "originContent": "  which is meaningful only when `TickType ∈ {BID, ASK, LAST}`.",
+    "translatedContent": "  which is meaningful only when `TickType ∈ {BID, ASK, LAST}`."
+  },
+  {
+    "row": 151,
+    "rowsha": "xrbbjhZKXUe/awhN/xOoig/eMB7NcLl1kUdArv730Gs=",
+    "originContent": "  In these cases, the official IB API fires an extra `tickSize()` event instead.",
+    "translatedContent": "  In these cases, the official IB API fires an extra `tickSize()` event instead."
+  },
+  {
+    "row": 152,
+    "rowsha": "pgaCH6jFXBNZJS0JC+hPxR056igYL2wLUqH7N553A0g=",
+    "originContent": "- `historicalData()` is invoked only once per request,",
+    "translatedContent": "- `historicalData()` is invoked only once per request,"
+  },
+  {
+    "row": 153,
+    "rowsha": "t98staHB3Vi7jSF7FjuP129E1dj2Yp51+gedXbuHXdY=",
+    "originContent": "  presenting all the historical data as a single `Vector{Bar}`,",
+    "translatedContent": "  presenting all the historical data as a single `Vector{Bar}`,"
+  },
+  {
+    "row": 154,
+    "rowsha": "VKqlqD3POrfEaQCg1kSYrcsUH3llddKjHl2W7XmBOis=",
+    "originContent": "  whereas the official IB API invokes it row-by-row.",
+    "translatedContent": "  whereas the official IB API invokes it row-by-row."
+  },
+  {
+    "row": 155,
+    "rowsha": "fjkFB8R5+SDwm3FL+OhFawnasJjoEskBU4VVrOdKntI=",
+    "originContent": "- `scannerData()` is similarly invoked once per request with a `Vector{ScannerDataElement}`",
+    "translatedContent": "- `scannerData()` is similarly invoked once per request with a `Vector{ScannerDataElement}`"
+  },
+  {
+    "row": 156,
+    "rowsha": "Iu9LjRRAlRUzpBBoUH/BznjE+sGFbB+t91yadPMKSck=",
+    "originContent": "  as argument. Consequently, `scannerDataEnd()` is redundant and",
+    "translatedContent": "  as argument. Consequently, `scannerDataEnd()` is redundant and"
+  },
+  {
+    "row": 157,
+    "rowsha": "Auyvit9YmA78Cl94irANjk3JnEdEsR0thMDCcopH7bg=",
+    "originContent": "  it is **not** used in this package.",
+    "translatedContent": "  it is **not** used in this package."
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "A2Qtn8hFXrVcDEREOa4bz1Ix9XSQCjWe1Sol8V5XY/k=",
+    "originContent": "These modifications make it possible to establish the rule:",
+    "translatedContent": "These modifications make it possible to establish the rule:"
+  },
+  {
+    "row": 160,
+    "rowsha": "FKv3sl3/KjG8DJljb5Hl5ET+UlrxFN+a0mQBs+jruvM=",
+    "originContent": "_one callback per server response_.",
+    "translatedContent": "_one callback per server response_."
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "TuU1cFCMcXVzpptII4iv19yObyja5a4UkNj9chw9QDg=",
+    "originContent": "#### Missing Values",
+    "translatedContent": "#### Missing Values"
+  },
+  {
+    "row": 163,
+    "rowsha": "YAj6rPZqO0dZyvCjoJ3HAHYQKJ0U5hmZyJGPgbkAqk4=",
+    "originContent": "Occasionally, for numerical types, there is the need to represent",
+    "translatedContent": "Occasionally, for numerical types, there is the need to represent"
+  },
+  {
+    "row": 164,
+    "rowsha": "LYAeN3m89m6OvfY1XBcTdxAVACZ+yDkX2vTMDpApXv0=",
+    "originContent": "the lack of a value.",
+    "translatedContent": "the lack of a value."
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "VcCR3NwcHHz1uSHjH9x7isN6MaXFQFKRpK7C4gADswI=",
+    "originContent": "IB API does not have a uniform solution across the board, but rather",
+    "translatedContent": "IB API does not have a uniform solution across the board, but rather"
+  },
+  {
+    "row": 167,
+    "rowsha": "f70q0qn3+fxlUqVRVUT5EnsIAiRh7H7yM54szeAyKvM=",
+    "originContent": "it adopts a variety of sentinel values.",
+    "translatedContent": "it adopts a variety of sentinel values."
+  },
+  {
+    "row": 168,
+    "rowsha": "o9kciVtDlmhdn894xU/82CLDnPtCvx+e0BceWqBfSbM=",
+    "originContent": "They can be either the plain `0` or the largest representable value",
+    "translatedContent": "They can be either the plain `0` or the largest representable value"
+  },
+  {
+    "row": 169,
+    "rowsha": "gFsJyNH5PQfjUddUHXtwDqHlOHzUsXQokl+ply5Hcvg=",
+    "originContent": "of a given type such as `2147483647` and `9223372036854775807`",
+    "translatedContent": "of a given type such as `2147483647` and `9223372036854775807`"
+  },
+  {
+    "row": 170,
+    "rowsha": "adABEdwmasfWU0xoOvyMTUm/mv60phpS8k+NipDRr2c=",
+    "originContent": "for 32- and 64-bit integers respectively or `1.7976931348623157E308`",
+    "translatedContent": "for 32- and 64-bit integers respectively or `1.7976931348623157E308`"
+  },
+  {
+    "row": 171,
+    "rowsha": "mqLfiv1b9tPLifLxmLuIOSQg0F3w1GzUJ8B0pccvYRc=",
+    "originContent": "for 64-bit floating point.",
+    "translatedContent": "for 64-bit floating point."
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "iHTiFHe3ASELRSE0ECHmiojSw7mfN43b2bXvQgc2Uxs=",
+    "originContent": "This package makes an effort to use Julia built-in `Nothing`",
+    "translatedContent": "This package makes an effort to use Julia built-in `Nothing`"
+  },
+  {
+    "row": 174,
+    "rowsha": "5iR/WDnY2RLYwkfX09VpkmWSCj67rg/6mGo9npxBhjk=",
+    "originContent": "in all circumstances.",
+    "translatedContent": "in all circumstances."
+  },
+  {
+    "row": 175,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "iMjK231fZMVSGBlYNCGB6KB8PGtDUDy+fU+2liK8WT8=",
+    "originContent": "#### Data Structures",
+    "translatedContent": "#### Data Structures"
+  },
+  {
+    "row": 177,
+    "rowsha": "yHTncW4di/AYzxoVV9jW8b2dGlhRU40GFE4emAmFIN0=",
+    "originContent": "Other classes that mainly hold data are also replicated.",
+    "translatedContent": "Other classes that mainly hold data are also replicated."
+  },
+  {
+    "row": 178,
+    "rowsha": "xthwiAQDhUr2c2eqn6jClKyAi+m8rsoJLSUT+tELMi0=",
+    "originContent": "They are implemented as Julia `struct` or `mutable struct` with names,",
+    "translatedContent": "They are implemented as Julia `struct` or `mutable struct` with names,"
+  },
+  {
+    "row": 179,
+    "rowsha": "++KLUVZ0EWh2INYtDNFqwkrnzZnMz3IcPXsWTgoFwsw=",
+    "originContent": "types and default values matching the IB API counterparts: _e.g._",
+    "translatedContent": "types and default values matching the IB API counterparts: _e.g._"
+  },
+  {
+    "row": 180,
+    "rowsha": "nbpEh4FpDnXC6HsexbY3KSaHmrZMgglt7YRrDSA81+0=",
+    "originContent": "`Contract`, `Order`, `ComboLeg`, `ExecutionFilter`, `ScannerSubscription`",
+    "translatedContent": "`Contract`, `Order`, `ComboLeg`, `ExecutionFilter`, `ScannerSubscription`"
+  },
+  {
+    "row": 181,
+    "rowsha": "UtO2tT9UQcOqR47WCaIO264Sr5OM3uLyOViraYfomXU=",
+    "originContent": "and `Condition*`.",
+    "translatedContent": "and `Condition*`."
+  },
+  {
+    "row": 182,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 183,
+    "rowsha": "Tv3YPWiapxw0f5ifz/nuyhiWX3QM73LLjS6/Uz8Sxa4=",
+    "originContent": "`TagValueList` are implemented as Julia `NamedTuple`.",
+    "translatedContent": "`TagValueList` are implemented as Julia `NamedTuple`."
+  },
+  {
+    "row": 184,
+    "rowsha": "T01SETCnGlvVwgJ6uFKwFTKYOM2jYgX2GyAR/UC8kdo=",
+    "originContent": "Wherever a TagValue is needed, something like this can be used:",
+    "translatedContent": "Wherever a TagValue is needed, something like this can be used:"
+  },
+  {
+    "row": 185,
+    "rowsha": "WhKoBLSyNZEf/q1zy0PHgpls11zIKk6yxTT1B2asf6A=",
+    "originContent": "```julia",
+    "translatedContent": "```julia"
+  },
+  {
+    "row": 186,
+    "rowsha": "gmYpjql9C0RM3xqUB9PJ831q4aoHkly/pbEwoYKkciI=",
+    "originContent": "tagvaluelist = (tag1=\"value1\", tag2=\"value2\")",
+    "translatedContent": "tagvaluelist = (tag1=\"value1\", tag2=\"value2\")"
+  },
+  {
+    "row": 187,
+    "rowsha": "8OeXTyXgSz41d45KOLc3HgAGpjJG7K0qBsDNsku+TWY=",
+    "originContent": "# or, in case of an empty list:",
+    "translatedContent": "# or, in case of an empty list:"
+  },
+  {
+    "row": 188,
+    "rowsha": "Q0OLUMN/oP5R0uoZTiWBUV6vl6gByXR3ge7nzn6uTCE=",
+    "originContent": "emptylist = (;)",
+    "translatedContent": "emptylist = (;)"
+  },
+  {
+    "row": 189,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 190,
+    "rowsha": "MKO4aKcSLQXpmpd0Mk7jugJF5Sg6p4lFNbYLaox1ED0=",
+    "originContent": "Values don't need to be of type `String`. `Int` and `Float64` are also allowed.",
+    "translatedContent": "Values don't need to be of type `String`. `Int` and `Float64` are also allowed."
+  },
+  {
+    "row": 191,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

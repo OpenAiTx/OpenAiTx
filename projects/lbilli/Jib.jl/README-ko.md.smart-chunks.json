@@ -1,0 +1,1278 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Jib\n\n*A Julia implementation of Interactive Brokers API*\n\n`Jib` is a native [Julia](https://julialang.org/) client that implements\n[Interactive Brokers](https://www.interactivebrokers.com/) API to communicate\nwith TWS or IBGateway.\n\nIt aims to be feature complete, however it does not support legacy versions.\n\nIt is noteworthy to mention that the official IB API has recently adopted\nProtocol Buffers as the underlying wire format, replacing the legacy custom protocol.\nThis package followed suit and support for the latter has been dropped.\n\nCurrently, only API versions `v213+` are supported, which translates to\nTWS version `10.40` or later.\n\nThe package design follows the official C++/Java\n[IB API](https://interactivebrokers.github.io/tws-api/),\nwhich is based on an asynchronous communication model over TCP.\n\n## Installation\nTo install from GitHub:",
+    "ContentSha": "Ju+ci1Mnp8O4lFcnEwBugL4Si4H2aGW9OFZZwyCyWsg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Jib\n\n*Interactive Brokers API의 Julia 구현체*\n\n`Jib`는 TWS 또는 IBGateway와 통신하기 위해\n[Interactive Brokers](https://www.interactivebrokers.com/) API를 구현한\n네이티브 [Julia](https://julialang.org/) 클라이언트입니다.\n\n기능적으로 완전함을 목표로 하지만, 레거시 버전은 지원하지 않습니다.\n\n공식 IB API가 최근 프로토콜 버퍼(Protocol Buffers)를 기본 전송 형식으로 채택하여\n기존의 커스텀 프로토콜을 대체했다는 점도 주목할 만합니다.\n이 패키지도 이를 따라 후자를 지원하지 않게 되었습니다.\n\n현재는 API 버전 `v213+`만 지원하며, 이는\nTWS 버전 `10.40` 이상에 해당합니다.\n\n패키지 설계는 비동기 통신 모델을 기반으로 하는 공식 C++/Java\n[IB API](https://interactivebrokers.github.io/tws-api/)를 따릅니다.\n\n## 설치\nGitHub에서 설치하려면:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ktG7czwh2na0OqpKfaZ38oOuKRzQUySiAGOJVQM5VGM=",
+        "originContent": "# Jib",
+        "translatedContent": "# Jib"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "hRgAoCmOYDZ4VcN4dNkwAV9y3It8r57iGO3YX0J75pk=",
+        "originContent": "*A Julia implementation of Interactive Brokers API*",
+        "translatedContent": "*Interactive Brokers API의 Julia 구현체*"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "8TLZNkh7UKFWNJKJkZorYh+w/lu6LcXQ+aQm6z8miOQ=",
+        "originContent": "`Jib` is a native [Julia](https://julialang.org/) client that implements",
+        "translatedContent": "`Jib`는 TWS 또는 IBGateway와 통신하기 위해"
+      },
+      {
+        "row": 6,
+        "rowsha": "J3bRUJy63il4RMXUvwy4ADg0SA6i1xoK1a/bOmtRbhE=",
+        "originContent": "[Interactive Brokers](https://www.interactivebrokers.com/) API to communicate",
+        "translatedContent": "[Interactive Brokers](https://www.interactivebrokers.com/) API를 구현한"
+      },
+      {
+        "row": 7,
+        "rowsha": "Xy2vIHnmdQHt86KA/t3B7XRxJmilUD42cqdwZRdHmDw=",
+        "originContent": "with TWS or IBGateway.",
+        "translatedContent": "네이티브 [Julia](https://julialang.org/) 클라이언트입니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "a9PbdUEf17OZ90JrDiMPJxJxu88uKFv02AAFW9t5hng=",
+        "originContent": "It aims to be feature complete, however it does not support legacy versions.",
+        "translatedContent": "기능적으로 완전함을 목표로 하지만, 레거시 버전은 지원하지 않습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "6xc1WJCqNOPCJoGxlRsu2XknH5VqKGJYQ1lIpReoTc4=",
+        "originContent": "It is noteworthy to mention that the official IB API has recently adopted",
+        "translatedContent": "공식 IB API가 최근 프로토콜 버퍼(Protocol Buffers)를 기본 전송 형식으로 채택하여"
+      },
+      {
+        "row": 12,
+        "rowsha": "kCVxGRuhJXDKlpm57me2aPIn6JKStwWX4wrz+hADWTc=",
+        "originContent": "Protocol Buffers as the underlying wire format, replacing the legacy custom protocol.",
+        "translatedContent": "기존의 커스텀 프로토콜을 대체했다는 점도 주목할 만합니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "s7jTA18H7qw+dNnyPcVysXoUtGN/7rxmDmutahBqWpw=",
+        "originContent": "This package followed suit and support for the latter has been dropped.",
+        "translatedContent": "이 패키지도 이를 따라 후자를 지원하지 않게 되었습니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "+OjtwEJquBuu0Z+uuO1dn6vwS9Wb3FRcARBhJgVZYd0=",
+        "originContent": "Currently, only API versions `v213+` are supported, which translates to",
+        "translatedContent": "현재는 API 버전 `v213+`만 지원하며, 이는"
+      },
+      {
+        "row": 16,
+        "rowsha": "u2CyuVLO9DDxWjcKaOu/XszAl7lbnWoKxegT9GydGwY=",
+        "originContent": "TWS version `10.40` or later.",
+        "translatedContent": "TWS 버전 `10.40` 이상에 해당합니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "C7l9tjzGAJ0BGuScJ6005zHAQ067pagcwxsdwK5naDs=",
+        "originContent": "The package design follows the official C++/Java",
+        "translatedContent": "패키지 설계는 비동기 통신 모델을 기반으로 하는 공식 C++/Java"
+      },
+      {
+        "row": 19,
+        "rowsha": "rNGP4nuquUC53PzZFrweGYraA2akzsE+CDkUn1ees98=",
+        "originContent": "[IB API](https://interactivebrokers.github.io/tws-api/),",
+        "translatedContent": "[IB API](https://interactivebrokers.github.io/tws-api/)를 따릅니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "o5vkEhTXMxravVXjj0uCvyayCyoXjCwV4JKUlGak6ZE=",
+        "originContent": "which is based on an asynchronous communication model over TCP.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 22,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "GitHub에서 설치하려면:"
+      },
+      {
+        "row": 23,
+        "rowsha": "8k6cr8bkMat0HQ3a8ReBd2B4FCCwLvqXIGQ5iPgwU6c=",
+        "originContent": "To install from GitHub:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```julia\n] add https://github.com/lbilli/Jib.jl\n```",
+    "ContentSha": "xYrLqVgpX9p7ch4Di4ck0BM8l5EvIsCH/av+8XHeZTY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```julia\n] add https://github.com/lbilli/Jib.jl\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WhKoBLSyNZEf/q1zy0PHgpls11zIKk6yxTT1B2asf6A=",
+        "originContent": "```julia",
+        "translatedContent": "```julia"
+      },
+      {
+        "row": 2,
+        "rowsha": "0rK3rVuxzozwvUXGTNX2cl9tX32qqMiif5v2j0qK73c=",
+        "originContent": "] add https://github.com/lbilli/Jib.jl",
+        "translatedContent": "] add https://github.com/lbilli/Jib.jl"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Usage\nThe user interacts mainly with these two objects:\n- `Connection`: a handle holding a connection to the server\n- `Wrapper`: a container for the callbacks that are invoked\n   when the server responses are processed.\n\nOther data structures, such as `Contract` and `Order`, are implemented as Julia `struct`\nand mirror the respective classes in the official IB API.\n\nA complete minimal working example is shown.\nFor this code to work, an instance of IB TWS or IBGateway needs to be running\non the local machine and listening on port `4002`.\n**Note:** _demo_ or _paper_ account recommended!! :smirk:",
+    "ContentSha": "LheELAd4TJlbObzjHJSlWF0QGmmpqY3Ypk3ZBT2y2Nk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 사용법\n사용자는 주로 이 두 객체와 상호작용합니다:\n- `Connection`: 서버와의 연결을 유지하는 핸들\n- `Wrapper`: 서버 응답이 처리될 때 호출되는 콜백을 담는 컨테이너\n\n`Contract` 및 `Order`와 같은 다른 데이터 구조체는 Julia `struct`로 구현되어 있으며\n공식 IB API의 해당 클래스와 동일하게 설계되었습니다.\n\n완전한 최소 작동 예제가 제시됩니다.\n이 코드가 작동하려면 로컬 머신에서 IB TWS 또는 IBGateway 인스턴스가 실행 중이어야 하며\n포트 `4002`를 수신 대기해야 합니다.\n**참고:** _데모_ 또는 _페이퍼_ 계정 사용을 권장합니다!! :smirk:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "사용자는 주로 이 두 객체와 상호작용합니다:"
+      },
+      {
+        "row": 3,
+        "rowsha": "H5IpC/jdGaSBQSpl0wtqmXf5zr3B75OWaV9whlT9nlU=",
+        "originContent": "The user interacts mainly with these two objects:",
+        "translatedContent": "- `Connection`: 서버와의 연결을 유지하는 핸들"
+      },
+      {
+        "row": 4,
+        "rowsha": "0GNuEn2pt4min7oe6fKi9JXSjr/89bWRB+oKe3GqVQ4=",
+        "originContent": "- `Connection`: a handle holding a connection to the server",
+        "translatedContent": "- `Wrapper`: 서버 응답이 처리될 때 호출되는 콜백을 담는 컨테이너"
+      },
+      {
+        "row": 5,
+        "rowsha": "UuVmlouw9B6r4fU4T+f01NvQ58/dSy4b11btZUtPDVw=",
+        "originContent": "- `Wrapper`: a container for the callbacks that are invoked",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "JD82fFzHUW1Z2wBxi7MKw/e+mVo8mHwHlPmrNl1ytR0=",
+        "originContent": "   when the server responses are processed.",
+        "translatedContent": "`Contract` 및 `Order`와 같은 다른 데이터 구조체는 Julia `struct`로 구현되어 있으며"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "공식 IB API의 해당 클래스와 동일하게 설계되었습니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "wNIOWG8Hgh31YDvJuJF3dop55bjUny5bJd6y9G6w+ik=",
+        "originContent": "Other data structures, such as `Contract` and `Order`, are implemented as Julia `struct`",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "PgUXNdqfX2KEfTdaQVdQPkq5JYi2QuWgiv/aD+ERiFk=",
+        "originContent": "and mirror the respective classes in the official IB API.",
+        "translatedContent": "완전한 최소 작동 예제가 제시됩니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 코드가 작동하려면 로컬 머신에서 IB TWS 또는 IBGateway 인스턴스가 실행 중이어야 하며"
+      },
+      {
+        "row": 11,
+        "rowsha": "h9fUNl75BNCSNoKmMdrwr5GwwcE/ix/V/lYo32o4nOo=",
+        "originContent": "A complete minimal working example is shown.",
+        "translatedContent": "포트 `4002`를 수신 대기해야 합니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "yp8RbihIxZpzaOoHaBNEiJYW/4H1TwgrjCTHnx51pdQ=",
+        "originContent": "For this code to work, an instance of IB TWS or IBGateway needs to be running",
+        "translatedContent": "**참고:** _데모_ 또는 _페이퍼_ 계정 사용을 권장합니다!! :smirk:"
+      },
+      {
+        "row": 13,
+        "rowsha": "s5Jaf/07jDGb/wsquG2PyT2RURXFRewDWgBTWh6lWjU=",
+        "originContent": "on the local machine and listening on port `4002`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "uJna/LB5smmmwzlyp6l50EM8pJ7T18UjKG0thGqHoc4=",
+        "originContent": "**Note:** _demo_ or _paper_ account recommended!! :smirk:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```julia\nusing Jib\n\nwrap = Jib.Wrapper(\n         # Customized methods go here\n         error= (id, errorTime, errorCode, errorString, advancedOrderRejectJson) ->\n                  println(\"Error: $(something(id, \"NA\")) $errorTime $errorCode $errorString $advancedOrderRejectJson\"),\n\n         nextValidId= (orderId) -> println(\"Next OrderId: $orderId\"),\n\n         managedAccounts= (accountsList) -> println(\"Managed Accounts: $accountsList\")\n\n         # more method overrides can go here...\n       );\n\n# Connect to the server with clientId = 1\nib = Jib.connect(4002, 1);\n\n# Start a background Task to process the server responses\nJib.start_reader(ib, wrap);\n\n# Define contract\ncontract = Jib.Contract(symbol=\"GOOG\",\n                        secType=\"STK\",\n                        exchange=\"SMART\",\n                        currency=\"USD\");\n\n# Define order\norder = Jib.Order();\norder.action        = \"BUY\"\norder.totalQuantity = 10\norder.orderType     = \"LMT\"\norder.lmtPrice      = 100\n\norderId = 1    # Should match whatever is returned by the server\n\n# Send order\nJib.placeOrder(ib, orderId, contract, order)\n\n# Disconnect\nJib.disconnect(ib)\n```",
+    "ContentSha": "99PBXmSfTkruWEZcuWr8LlZaKnjoEGESIUsamSYbPYY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```julia\nusing Jib\n\nwrap = Jib.Wrapper(\n         # Customized methods go here\n         error= (id, errorTime, errorCode, errorString, advancedOrderRejectJson) ->\n                  println(\"Error: $(something(id, \"NA\")) $errorTime $errorCode $errorString $advancedOrderRejectJson\"),\n\n         nextValidId= (orderId) -> println(\"Next OrderId: $orderId\"),\n\n         managedAccounts= (accountsList) -> println(\"Managed Accounts: $accountsList\")\n\n         # more method overrides can go here...\n       );\n\n# Connect to the server with clientId = 1\nib = Jib.connect(4002, 1);\n\n# Start a background Task to process the server responses\nJib.start_reader(ib, wrap);\n\n# Define contract\ncontract = Jib.Contract(symbol=\"GOOG\",\n                        secType=\"STK\",\n                        exchange=\"SMART\",\n                        currency=\"USD\");\n\n# Define order\norder = Jib.Order();\norder.action        = \"BUY\"\norder.totalQuantity = 10\norder.orderType     = \"LMT\"\norder.lmtPrice      = 100\n\norderId = 1    # Should match whatever is returned by the server\n\n# Send order\nJib.placeOrder(ib, orderId, contract, order)\n\n# Disconnect\nJib.disconnect(ib)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WhKoBLSyNZEf/q1zy0PHgpls11zIKk6yxTT1B2asf6A=",
+        "originContent": "```julia",
+        "translatedContent": "```julia"
+      },
+      {
+        "row": 2,
+        "rowsha": "9N1dgP9ZXu2Od5WJVdKSFzvgSj+RRYRymSdOashzo4A=",
+        "originContent": "using Jib",
+        "translatedContent": "using Jib"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "QnMinS26CA59c2+UACzkc+64/XtvFJoc5n+j8pYhUH0=",
+        "originContent": "wrap = Jib.Wrapper(",
+        "translatedContent": "wrap = Jib.Wrapper("
+      },
+      {
+        "row": 5,
+        "rowsha": "3KYi5IMcP72B3w+0KjtVxM56cjkr7Yhu3j7SKg6VrzY=",
+        "originContent": "         # Customized methods go here",
+        "translatedContent": "         # Customized methods go here"
+      },
+      {
+        "row": 6,
+        "rowsha": "Pah4sGH+yapuAsVszSzk9OustBnkn4ZlpuYJGSPhDjk=",
+        "originContent": "         error= (id, errorTime, errorCode, errorString, advancedOrderRejectJson) ->",
+        "translatedContent": "         error= (id, errorTime, errorCode, errorString, advancedOrderRejectJson) ->"
+      },
+      {
+        "row": 7,
+        "rowsha": "bS96hkVxzzeDpW0MqtzL5O+IBy5Sdu2zzLO01jIOa/g=",
+        "originContent": "                  println(\"Error: $(something(id, \"NA\")) $errorTime $errorCode $errorString $advancedOrderRejectJson\"),",
+        "translatedContent": "                  println(\"Error: $(something(id, \"NA\")) $errorTime $errorCode $errorString $advancedOrderRejectJson\"),"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "6553zPh6Bvzkl5IvLrtzdxJeEgLrXfFJtTGD53G2J5M=",
+        "originContent": "         nextValidId= (orderId) -> println(\"Next OrderId: $orderId\"),",
+        "translatedContent": "         nextValidId= (orderId) -> println(\"Next OrderId: $orderId\"),"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "iVxZyFLEelgnKyJG6wv0QBhnFiGmG/lY16Wl/dcL+64=",
+        "originContent": "         managedAccounts= (accountsList) -> println(\"Managed Accounts: $accountsList\")",
+        "translatedContent": "         managedAccounts= (accountsList) -> println(\"Managed Accounts: $accountsList\")"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "DJSB5OfP3sZCdFXMtSjhDbMUdE6+cdBTg8taMzz7QE8=",
+        "originContent": "         # more method overrides can go here...",
+        "translatedContent": "         # more method overrides can go here..."
+      },
+      {
+        "row": 14,
+        "rowsha": "4phjFrevEEFooy8wm6Oy4f/VIxkxd5ZX8qfux21Kmps=",
+        "originContent": "       );",
+        "translatedContent": "       );"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "w5gcUFLcOVdxQAd0wr2hM1H9gSuJmF6Nj17KIiUTgBs=",
+        "originContent": "# Connect to the server with clientId = 1",
+        "translatedContent": "# Connect to the server with clientId = 1"
+      },
+      {
+        "row": 17,
+        "rowsha": "TIojXQLh6Aw04PtVaDqFnBw6ZWtBS6RT0biIDR3g6Hk=",
+        "originContent": "ib = Jib.connect(4002, 1);",
+        "translatedContent": "ib = Jib.connect(4002, 1);"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "oM7f0QnoaNoqvnaUcZhC5bHs+Oz+jwk5zxxRnZ1zSNo=",
+        "originContent": "# Start a background Task to process the server responses",
+        "translatedContent": "# Start a background Task to process the server responses"
+      },
+      {
+        "row": 20,
+        "rowsha": "gIeMiVcxEoHmJt885mkbdE+093/dSXfhICKYD8ldTYY=",
+        "originContent": "Jib.start_reader(ib, wrap);",
+        "translatedContent": "Jib.start_reader(ib, wrap);"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "y7lpqgzK+QDHveqTDd3Oko16JV7o9sIVM61y2tc2PvA=",
+        "originContent": "# Define contract",
+        "translatedContent": "# Define contract"
+      },
+      {
+        "row": 23,
+        "rowsha": "b1uQp+w8BuZBtUBDXVVs/NpBTsOZKzh69qt11vcMqWk=",
+        "originContent": "contract = Jib.Contract(symbol=\"GOOG\",",
+        "translatedContent": "contract = Jib.Contract(symbol=\"GOOG\","
+      },
+      {
+        "row": 24,
+        "rowsha": "fw1kC3ZW+N6S1o3Ycc+eGX2BLy+SeC8RaPieBMCHRH8=",
+        "originContent": "                        secType=\"STK\",",
+        "translatedContent": "                        secType=\"STK\","
+      },
+      {
+        "row": 25,
+        "rowsha": "29JiZXjJSM0DOdU2FXQkTNfLU8Gt1cZbAejns5cSkT4=",
+        "originContent": "                        exchange=\"SMART\",",
+        "translatedContent": "                        exchange=\"SMART\","
+      },
+      {
+        "row": 26,
+        "rowsha": "e0pqb1TVwXwN7/BB/4T5oO2sWgx1DEGoHJexjythmZo=",
+        "originContent": "                        currency=\"USD\");",
+        "translatedContent": "                        currency=\"USD\");"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "hmmfRrsW0FdtzUoS7EXNYtHxFiua0z7McGBs5WlvoMc=",
+        "originContent": "# Define order",
+        "translatedContent": "# Define order"
+      },
+      {
+        "row": 29,
+        "rowsha": "1a+dIUNqPki/LkvsOZbLT5r6Pb3Cpmj9kusexEB1Ie8=",
+        "originContent": "order = Jib.Order();",
+        "translatedContent": "order = Jib.Order();"
+      },
+      {
+        "row": 30,
+        "rowsha": "RILwxLo41XrPJVvQ9SMUYTeupLSRYqlKqDENCnY6BfI=",
+        "originContent": "order.action        = \"BUY\"",
+        "translatedContent": "order.action        = \"BUY\""
+      },
+      {
+        "row": 31,
+        "rowsha": "iUqe+AsoXKGvdDAGNNkdwmhC8ZO+Vy6LumvQVML+QEc=",
+        "originContent": "order.totalQuantity = 10",
+        "translatedContent": "order.totalQuantity = 10"
+      },
+      {
+        "row": 32,
+        "rowsha": "Wx6C5dlVMiWqtL2dFa9wHMfWM1MIk1hpQ0IbBnixuBg=",
+        "originContent": "order.orderType     = \"LMT\"",
+        "translatedContent": "order.orderType     = \"LMT\""
+      },
+      {
+        "row": 33,
+        "rowsha": "d+aB8NElH/x+NwXL/4B3oE0My9XuRAqsOknQqTYW574=",
+        "originContent": "order.lmtPrice      = 100",
+        "translatedContent": "order.lmtPrice      = 100"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "sGOFODjijwVJMoqqJBhEdTZ4T6w6iIXMrrjMVfz6R3A=",
+        "originContent": "orderId = 1    # Should match whatever is returned by the server",
+        "translatedContent": "orderId = 1    # Should match whatever is returned by the server"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "YzP2VoPXbhPJn9ym+Zpv5eeUvRuuzaidkmG2ofqKBXs=",
+        "originContent": "# Send order",
+        "translatedContent": "# Send order"
+      },
+      {
+        "row": 38,
+        "rowsha": "fDIaaUfyNEy7KoJOu7V+HxMNQJ3Rk21d4OyRRn0v/Lw=",
+        "originContent": "Jib.placeOrder(ib, orderId, contract, order)",
+        "translatedContent": "Jib.placeOrder(ib, orderId, contract, order)"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "I8gnXl8hvys7n5Fbs3yEz1+w2rWAxacItz8M4/cv0iQ=",
+        "originContent": "# Disconnect",
+        "translatedContent": "# Disconnect"
+      },
+      {
+        "row": 41,
+        "rowsha": "hWahm+KJS84F64YHOb6DNVn3ez1ikXUUyohg2CptS+4=",
+        "originContent": "Jib.disconnect(ib)",
+        "translatedContent": "Jib.disconnect(ib)"
+      },
+      {
+        "row": 42,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n#### Foreground vs. Background Processing\nIt is possible to process the server responses either within the main process\nor in a separate background `Task`:\n- **foreground processing** is triggered by invoking `Jib.check_all(ib, wrap)`.\n  It is the user's responsibility to call it on a **regular basis**,\n  especially when data are streaming in.\n- **background processing** is started by `Jib.start_reader(ib, wrap)`.\n  A separate `Task` is started in the background, which monitors the connection and processes\n  the responses as they arrive.\n\nTo avoid undesired effects, the two approaches should not be mixed together\non the same connection.\n\n## Implementation Details\nThe package does not export any name, therefore any functions\nor types described here need to be prefixed by `Jib.*`.\n\nAs Julia is not an object-oriented language, the functionality of the IB\n`EClient` class is provided here by regular functions. In particular:\n- `connect(port, clientId, connectOptions)`: establish a connection and return\n  a `Connection` object.\n- `disconnect(::Connection)`: terminate the connection.\n- `check_all(::Connection, ::Wrapper)`: process available responses, **not blocking**.\n  Return the number of messages processed. **Needs to be called regularly!**\n- `start_reader(::Connection, ::Wrapper)`: start a `Task` for background processing.\n- methods that send specific requests to the server.\n  Refer to the official IB `EClient` class documentation for further details and method signatures.\n  The only caveat is to remember to pass a `Connection` as first argument: _e.g._\n  `reqContractDetails(ib::Connection, reqId:Int, contract::Contract)`\n\n#### [`Wrapper`](https://raw.githubusercontent.com/lbilli/Jib.jl/master/src/wrapper.jl)\nLike the official IB `EWrapper` class, this `struct` holds the callbacks\nthat are dispatched when responses are processed.\nThe user provides the callback definitions as keyword arguments\nin the constructor, as shown [above](#usage), and/or by setting\nthe property of an existing instance.\n\nA more comprehensive example is provided by [`simple_wrap()`](https://raw.githubusercontent.com/lbilli/Jib.jl/master/src/wrapper.jl#L130),\nwhich is used like this:",
+    "ContentSha": "cQFZHYtANwngEnnx8I8EKs9Orwi3jMCdEaKRGaC57p4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### 전경 처리 vs. 배경 처리  \n서버 응답을 메인 프로세스 내에서 처리하거나  \n별도의 배경 `Task`에서 처리할 수 있습니다:  \n- **전경 처리**는 `Jib.check_all(ib, wrap)`을 호출하여 트리거됩니다.  \n  특히 데이터가 스트리밍될 때 **정기적으로** 호출하는 것은 사용자 책임입니다.  \n- **배경 처리**는 `Jib.start_reader(ib, wrap)`에 의해 시작됩니다.  \n  별도의 `Task`가 배경에서 시작되어 연결을 모니터링하고  \n  응답이 도착하면 처리합니다.  \n  \n원하지 않는 효과를 피하기 위해 같은 연결에서 두 접근 방식을 혼용하지 않아야 합니다.  \n  \n## 구현 세부사항  \n이 패키지는 어떤 이름도 내보내지 않으므로, 여기서 설명하는 함수나  \n타입은 모두 `Jib.*` 접두어를 붙여야 합니다.  \n  \nJulia는 객체지향 언어가 아니므로, IB의 `EClient` 클래스 기능은  \n일반 함수로 제공됩니다. 특히:  \n- `connect(port, clientId, connectOptions)`: 연결을 설정하고  \n  `Connection` 객체를 반환합니다.  \n- `disconnect(::Connection)`: 연결을 종료합니다.  \n- `check_all(::Connection, ::Wrapper)`: 사용 가능한 응답을 처리하며, **블로킹하지 않습니다.**  \n  처리한 메시지 개수를 반환합니다. **정기적으로 호출해야 합니다!**  \n- `start_reader(::Connection, ::Wrapper)`: 배경 처리를 위한 `Task`를 시작합니다.  \n- 서버에 특정 요청을 보내는 메서드들.  \n  자세한 내용과 메서드 시그니처는 공식 IB `EClient` 클래스 문서를 참조하세요.  \n  유의할 점은 첫 번째 인자로 `Connection`을 전달해야 한다는 것입니다: _예를 들어_  \n  `reqContractDetails(ib::Connection, reqId:Int, contract::Contract)`  \n  \n#### [`Wrapper`](https://raw.githubusercontent.com/lbilli/Jib.jl/master/src/wrapper.jl)  \n공식 IB `EWrapper` 클래스처럼, 이 `struct`는  \n응답이 처리될 때 호출되는 콜백들을 보유합니다.  \n사용자는 생성자에서 키워드 인수로 콜백 정의를 제공하거나  \n기존 인스턴스의 프로퍼티를 설정하여 정의할 수 있습니다.  \n  \n더 포괄적인 예시는 [`simple_wrap()`](https://raw.githubusercontent.com/lbilli/Jib.jl/master/src/wrapper.jl#L130)  \n에서 제공하며, 다음과 같이 사용됩니다:\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 전경 처리 vs. 배경 처리  "
+      },
+      {
+        "row": 2,
+        "rowsha": "ceQUtIWf4oS1dm7OrZ2uPe+JjGfDDkCeLQu4p6OvGBU=",
+        "originContent": "#### Foreground vs. Background Processing",
+        "translatedContent": "서버 응답을 메인 프로세스 내에서 처리하거나  "
+      },
+      {
+        "row": 3,
+        "rowsha": "CeQZlzhQmuFdJiYJyMZezFY97yeWOKTSsLMBgWRPhWE=",
+        "originContent": "It is possible to process the server responses either within the main process",
+        "translatedContent": "별도의 배경 `Task`에서 처리할 수 있습니다:  "
+      },
+      {
+        "row": 4,
+        "rowsha": "603+5QJ2DA4tRkWpO38Wzr6QGR9edRWUm3e8BLzIpx0=",
+        "originContent": "or in a separate background `Task`:",
+        "translatedContent": "- **전경 처리**는 `Jib.check_all(ib, wrap)`을 호출하여 트리거됩니다.  "
+      },
+      {
+        "row": 5,
+        "rowsha": "rceiiEZFHFw/NORZYkfBeDRSOM3RWItV0JuE4Ivm0uU=",
+        "originContent": "- **foreground processing** is triggered by invoking `Jib.check_all(ib, wrap)`.",
+        "translatedContent": "  특히 데이터가 스트리밍될 때 **정기적으로** 호출하는 것은 사용자 책임입니다.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "LV5kc0pJm84aAdJD+y7Cx3nIkuV57hZRLDcFUz6+5w0=",
+        "originContent": "  It is the user's responsibility to call it on a **regular basis**,",
+        "translatedContent": "- **배경 처리**는 `Jib.start_reader(ib, wrap)`에 의해 시작됩니다.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "mPp0oscq8wVfE+Hxxqn8SwiDXEgn42Cpwc7PVgldzY8=",
+        "originContent": "  especially when data are streaming in.",
+        "translatedContent": "  별도의 `Task`가 배경에서 시작되어 연결을 모니터링하고  "
+      },
+      {
+        "row": 8,
+        "rowsha": "INm5FZWeM/hepc8YVY0qqr8fjvIv71joGD/72SrxEs4=",
+        "originContent": "- **background processing** is started by `Jib.start_reader(ib, wrap)`.",
+        "translatedContent": "  응답이 도착하면 처리합니다.  "
+      },
+      {
+        "row": 9,
+        "rowsha": "YCBRQiyZpritMOuHVWiQLPAfaUik4pMYiRP9CKLpS7s=",
+        "originContent": "  A separate `Task` is started in the background, which monitors the connection and processes",
+        "translatedContent": "  "
+      },
+      {
+        "row": 10,
+        "rowsha": "lhLacP7MNep7pQlcHk3qnDPTvU8V+F4//1IzGCdwRMA=",
+        "originContent": "  the responses as they arrive.",
+        "translatedContent": "원하지 않는 효과를 피하기 위해 같은 연결에서 두 접근 방식을 혼용하지 않아야 합니다.  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  "
+      },
+      {
+        "row": 12,
+        "rowsha": "O8/CT5HMl5+TWYoNVFPG9yobZfy4XUTx0odD1eGXREk=",
+        "originContent": "To avoid undesired effects, the two approaches should not be mixed together",
+        "translatedContent": "## 구현 세부사항  "
+      },
+      {
+        "row": 13,
+        "rowsha": "W8nLwwFtnGIhC4VVqtk0lNpgNthElPVfJWQKqcmHpkU=",
+        "originContent": "on the same connection.",
+        "translatedContent": "이 패키지는 어떤 이름도 내보내지 않으므로, 여기서 설명하는 함수나  "
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "타입은 모두 `Jib.*` 접두어를 붙여야 합니다.  "
+      },
+      {
+        "row": 15,
+        "rowsha": "lkotcbsiQBTW/ZHw7Fb+ExmghWmuQ2maaczMQXD+XU4=",
+        "originContent": "## Implementation Details",
+        "translatedContent": "  "
+      },
+      {
+        "row": 16,
+        "rowsha": "LdSTlix7iKnIwtRZO/mZTNZewIzWNUF5T5nTS1OO7z8=",
+        "originContent": "The package does not export any name, therefore any functions",
+        "translatedContent": "Julia는 객체지향 언어가 아니므로, IB의 `EClient` 클래스 기능은  "
+      },
+      {
+        "row": 17,
+        "rowsha": "D6aOSdJ9u/RSVq666un+8Xm6PkOPKulcJvK/Tc2z5oc=",
+        "originContent": "or types described here need to be prefixed by `Jib.*`.",
+        "translatedContent": "일반 함수로 제공됩니다. 특히:  "
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `connect(port, clientId, connectOptions)`: 연결을 설정하고  "
+      },
+      {
+        "row": 19,
+        "rowsha": "ykeD0T2FyxRnPIdyvnGefWL6o9wj9AT35hSm4jvAhSo=",
+        "originContent": "As Julia is not an object-oriented language, the functionality of the IB",
+        "translatedContent": "  `Connection` 객체를 반환합니다.  "
+      },
+      {
+        "row": 20,
+        "rowsha": "ETwnYV4DxYASumpFi6c2zdLg4VSUSGGf/j5+sBR/dng=",
+        "originContent": "`EClient` class is provided here by regular functions. In particular:",
+        "translatedContent": "- `disconnect(::Connection)`: 연결을 종료합니다.  "
+      },
+      {
+        "row": 21,
+        "rowsha": "BS+3m+2vX8fnEhD0ag1aJlKvMCNiysT8cWMWJOqG4NQ=",
+        "originContent": "- `connect(port, clientId, connectOptions)`: establish a connection and return",
+        "translatedContent": "- `check_all(::Connection, ::Wrapper)`: 사용 가능한 응답을 처리하며, **블로킹하지 않습니다.**  "
+      },
+      {
+        "row": 22,
+        "rowsha": "p8gCyr3qiRiR4grQwJA2VPW6FIllMyc4en1Y/bsNyIM=",
+        "originContent": "  a `Connection` object.",
+        "translatedContent": "  처리한 메시지 개수를 반환합니다. **정기적으로 호출해야 합니다!**  "
+      },
+      {
+        "row": 23,
+        "rowsha": "hWjpwYIbxJqrr1l9KFpUMsmR11nK8XykX1rGhCIJxhE=",
+        "originContent": "- `disconnect(::Connection)`: terminate the connection.",
+        "translatedContent": "- `start_reader(::Connection, ::Wrapper)`: 배경 처리를 위한 `Task`를 시작합니다.  "
+      },
+      {
+        "row": 24,
+        "rowsha": "PpSv+xlxjO/ksoZeKTqKj9NHUUENTPm6YC9ti+Bqzcg=",
+        "originContent": "- `check_all(::Connection, ::Wrapper)`: process available responses, **not blocking**.",
+        "translatedContent": "- 서버에 특정 요청을 보내는 메서드들.  "
+      },
+      {
+        "row": 25,
+        "rowsha": "VKN7cNsmnwY6C3OnfHtUsZER6dK+mtHAfkeajKFOZjk=",
+        "originContent": "  Return the number of messages processed. **Needs to be called regularly!**",
+        "translatedContent": "  자세한 내용과 메서드 시그니처는 공식 IB `EClient` 클래스 문서를 참조하세요.  "
+      },
+      {
+        "row": 26,
+        "rowsha": "tK8JOctU/HRYIeV9q9x38quFqCN+zgMIoGU3G5tW9aI=",
+        "originContent": "- `start_reader(::Connection, ::Wrapper)`: start a `Task` for background processing.",
+        "translatedContent": "  유의할 점은 첫 번째 인자로 `Connection`을 전달해야 한다는 것입니다: _예를 들어_  "
+      },
+      {
+        "row": 27,
+        "rowsha": "ht7scOYIuQQZYyMwq+zqlDlXZi7y42Iy8Gh+lc/lmZE=",
+        "originContent": "- methods that send specific requests to the server.",
+        "translatedContent": "  `reqContractDetails(ib::Connection, reqId:Int, contract::Contract)`  "
+      },
+      {
+        "row": 28,
+        "rowsha": "M+Twit1+RtS6ARJfBoeKeZ+0+rWoFjyg+pI6y9IfPsQ=",
+        "originContent": "  Refer to the official IB `EClient` class documentation for further details and method signatures.",
+        "translatedContent": "  "
+      },
+      {
+        "row": 29,
+        "rowsha": "NPeLFQL/ayuzA5sgvEwlvmB060BOsdulkMGyWNLqzS8=",
+        "originContent": "  The only caveat is to remember to pass a `Connection` as first argument: _e.g._",
+        "translatedContent": "#### [`Wrapper`](https://raw.githubusercontent.com/lbilli/Jib.jl/master/src/wrapper.jl)  "
+      },
+      {
+        "row": 30,
+        "rowsha": "+RrOHRExatSX0Fg0maC+gNXsMbSwAL4IvjXG9I0PU7k=",
+        "originContent": "  `reqContractDetails(ib::Connection, reqId:Int, contract::Contract)`",
+        "translatedContent": "공식 IB `EWrapper` 클래스처럼, 이 `struct`는  "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "응답이 처리될 때 호출되는 콜백들을 보유합니다.  "
+      },
+      {
+        "row": 32,
+        "rowsha": "wECrh/fKz0n9auFr65U0VHKnooiYfcg53KSXt5Nm1z8=",
+        "originContent": "#### [`Wrapper`](https://raw.githubusercontent.com/lbilli/Jib.jl/master/src/wrapper.jl)",
+        "translatedContent": "사용자는 생성자에서 키워드 인수로 콜백 정의를 제공하거나  "
+      },
+      {
+        "row": 33,
+        "rowsha": "MjtdPotYPkq3lOjUx7cq46BZCcVQzTAOIKudomjk/E4=",
+        "originContent": "Like the official IB `EWrapper` class, this `struct` holds the callbacks",
+        "translatedContent": "기존 인스턴스의 프로퍼티를 설정하여 정의할 수 있습니다.  "
+      },
+      {
+        "row": 34,
+        "rowsha": "ovNnt6wwxU7XUCuJq8x6qlCFXorcuozmU9hF3+qYfKk=",
+        "originContent": "that are dispatched when responses are processed.",
+        "translatedContent": "  "
+      },
+      {
+        "row": 35,
+        "rowsha": "Z6eiKaQwrl7xZbZ4vXVcOcDoj0R2/EMHYOV9K37KnHc=",
+        "originContent": "The user provides the callback definitions as keyword arguments",
+        "translatedContent": "더 포괄적인 예시는 [`simple_wrap()`](https://raw.githubusercontent.com/lbilli/Jib.jl/master/src/wrapper.jl#L130)  "
+      },
+      {
+        "row": 36,
+        "rowsha": "wwTm8J4zEyGhHQ8G6xTw2hbOyoaa17gjGADrsTv+oio=",
+        "originContent": "in the constructor, as shown [above](#usage), and/or by setting",
+        "translatedContent": "에서 제공하며, 다음과 같이 사용됩니다:"
+      },
+      {
+        "row": 37,
+        "rowsha": "MDHw4yqFiaBsdnN5sk/1eT2F4+cH5/qtDEtDxAO56ts=",
+        "originContent": "the property of an existing instance.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "X06B/PPpfa5/j1YQas1bjq6iDH4/7H1jkdWB7H2+EDQ=",
+        "originContent": "A more comprehensive example is provided by [`simple_wrap()`](https://raw.githubusercontent.com/lbilli/Jib.jl/master/src/wrapper.jl#L130),",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "attXAdQ3B29jsz5l3hA/SoJX2s5nZzTYb/ZSTuzKkIc=",
+        "originContent": "which is used like this:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```julia\nusing Jib: Jib, Contract, reqContractDetails, simple_wrap, start_reader\n\ndata, wrap = simple_wrap();\n\nib = Jib.connect(4002, 1);\nstart_reader(ib, wrap);\n\nreqContractDetails(ib, 99, Contract(conId=208813720, exchange=\"SMART\"))\n\n# Wait for the response and then access the \"ContractDetails\" result:\ndata[:cd]\n```",
+    "ContentSha": "sVuFA5sxvcot4a96yklqXKR+sePN6aP8WwUsVivEZno=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```julia\nusing Jib: Jib, Contract, reqContractDetails, simple_wrap, start_reader\n\ndata, wrap = simple_wrap();\n\nib = Jib.connect(4002, 1);\nstart_reader(ib, wrap);\n\nreqContractDetails(ib, 99, Contract(conId=208813720, exchange=\"SMART\"))\n\n# Wait for the response and then access the \"ContractDetails\" result:\ndata[:cd]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WhKoBLSyNZEf/q1zy0PHgpls11zIKk6yxTT1B2asf6A=",
+        "originContent": "```julia",
+        "translatedContent": "```julia"
+      },
+      {
+        "row": 2,
+        "rowsha": "1FZbfcjnpYBx2V/5Ixxw81LHMcXz83qZTWBuEKE+GSE=",
+        "originContent": "using Jib: Jib, Contract, reqContractDetails, simple_wrap, start_reader",
+        "translatedContent": "using Jib: Jib, Contract, reqContractDetails, simple_wrap, start_reader"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Q2BTuKHPMjoFGqZtghR65kf7/Rj4YegnAxd32+yxlF4=",
+        "originContent": "data, wrap = simple_wrap();",
+        "translatedContent": "data, wrap = simple_wrap();"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "TIojXQLh6Aw04PtVaDqFnBw6ZWtBS6RT0biIDR3g6Hk=",
+        "originContent": "ib = Jib.connect(4002, 1);",
+        "translatedContent": "ib = Jib.connect(4002, 1);"
+      },
+      {
+        "row": 7,
+        "rowsha": "UAHaFq76UjjttXPNf9eeSvsHaJ4x0UQ5KV4iE1pWGqA=",
+        "originContent": "start_reader(ib, wrap);",
+        "translatedContent": "start_reader(ib, wrap);"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "HIdLFJkPTZ0khHa0KV1WJWFPItBEMsMv9rSSPFxOSUM=",
+        "originContent": "reqContractDetails(ib, 99, Contract(conId=208813720, exchange=\"SMART\"))",
+        "translatedContent": "reqContractDetails(ib, 99, Contract(conId=208813720, exchange=\"SMART\"))"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "5PG6HKh2rKQjTFknpMqmMJPKteRbOyh8TcoEhVF+ycg=",
+        "originContent": "# Wait for the response and then access the \"ContractDetails\" result:",
+        "translatedContent": "# Wait for the response and then access the \"ContractDetails\" result:"
+      },
+      {
+        "row": 12,
+        "rowsha": "/MxMOtNQfcTSr2KJ3VyUadsDL8i6CnATp0zBah2/zr0=",
+        "originContent": "data[:cd]",
+        "translatedContent": "data[:cd]"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "Thanks to closures, `data` (a `Dict` in this case) is accessible by all\n`wrap` methods as well as the main program. This is one way to\npropagate incoming data to different parts of the program.\n\nFor more details about callback definitions and signatures,\nrefer to the official IB `EWrapper` class documentation.\nAs reference, the exact signatures used in this package\nare found [here](https://raw.githubusercontent.com/lbilli/Jib.jl/master/data/wrapper_signatures.jl).\n\n## Notes\nCallbacks are generally invoked with arguments and types matching the signatures\nas described in the official documentation.\nHowever, there are few exceptions:\n- `tickPrice()` has an extra `size::Float64` argument,\n  which is meaningful only when `TickType ∈ {BID, ASK, LAST}`.\n  In these cases, the official IB API fires an extra `tickSize()` event instead.\n- `historicalData()` is invoked only once per request,\n  presenting all the historical data as a single `Vector{Bar}`,\n  whereas the official IB API invokes it row-by-row.\n- `scannerData()` is similarly invoked once per request with a `Vector{ScannerDataElement}`\n  as argument. Consequently, `scannerDataEnd()` is redundant and\n  it is **not** used in this package.\n\nThese modifications make it possible to establish the rule:\n_one callback per server response_.\n\n#### Missing Values\nOccasionally, for numerical types, there is the need to represent\nthe lack of a value.\n\nIB API does not have a uniform solution across the board, but rather\nit adopts a variety of sentinel values.\nThey can be either the plain `0` or the largest representable value\nof a given type such as `2147483647` and `9223372036854775807`\nfor 32- and 64-bit integers respectively or `1.7976931348623157E308`\nfor 64-bit floating point.\n\nThis package makes an effort to use Julia built-in `Nothing`\nin all circumstances.\n",
+    "ContentSha": "iLIwkk3/1fx/D7MV5nAo+J+fldKaQ6AL1/4XDAkjtwM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "클로저 덕분에 `data`(이 경우 `Dict`)는 모든 `wrap` 메서드와 메인 프로그램에서 접근할 수 있습니다.  \n이는 들어오는 데이터를 프로그램의 다양한 부분으로 전파하는 한 가지 방법입니다.  \n\n콜백 정의 및 서명에 대한 자세한 내용은 공식 IB `EWrapper` 클래스 문서를 참조하세요.  \n참고로, 이 패키지에서 사용되는 정확한 서명은  \n[여기](https://raw.githubusercontent.com/lbilli/Jib.jl/master/data/wrapper_signatures.jl)에서 확인할 수 있습니다.  \n\n## 참고 사항  \n콜백은 일반적으로 공식 문서에 기술된 서명과 일치하는 인수 및 타입으로 호출됩니다.  \n하지만 몇 가지 예외가 있습니다:  \n- `tickPrice()`는 추가 `size::Float64` 인수를 가지며,  \n  이는 `TickType ∈ {BID, ASK, LAST}`일 때만 의미가 있습니다.  \n  이 경우 공식 IB API는 대신 추가 `tickSize()` 이벤트를 발생시킵니다.  \n- `historicalData()`는 요청당 한 번만 호출되며,  \n  모든 히스토리 데이터를 단일 `Vector{Bar}`로 제공합니다.  \n  반면 공식 IB API는 데이터를 행 단위로 호출합니다.  \n- `scannerData()` 역시 요청당 한 번 호출되며, 인수로 `Vector{ScannerDataElement}`를 받습니다.  \n  따라서 `scannerDataEnd()`는 중복되어 이 패키지에서는 **사용하지 않습니다**.  \n\n이러한 변경사항은 다음 규칙을 확립할 수 있게 합니다:  \n_서버 응답당 하나의 콜백_.  \n\n#### 누락된 값  \n가끔 수치형 타입에서 값이 없음을 표현해야 할 필요가 있습니다.  \n\nIB API는 일관된 해결책이 없으며,  \n다양한 센티넬 값을 사용합니다.  \n이는 단순한 `0`이거나, 주어진 타입의 최대 표현 가능한 값일 수 있습니다.  \n예를 들어 32비트 및 64비트 정수의 경우 각각 `2147483647` 및 `9223372036854775807`,  \n64비트 부동소수점의 경우 `1.7976931348623157E308` 등이 있습니다.  \n\n이 패키지는 모든 상황에서 Julia 내장 `Nothing`을 사용하려 노력합니다.\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ISc4GZE54QiDmursjI4T1gAR1WE+zPL61j68dBhIJkk=",
+        "originContent": "Thanks to closures, `data` (a `Dict` in this case) is accessible by all",
+        "translatedContent": "클로저 덕분에 `data`(이 경우 `Dict`)는 모든 `wrap` 메서드와 메인 프로그램에서 접근할 수 있습니다.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "DjfsOvkOEC7/mvkYK+EVCBOtgs/DHi1I/5nuc6Zqmac=",
+        "originContent": "`wrap` methods as well as the main program. This is one way to",
+        "translatedContent": "이는 들어오는 데이터를 프로그램의 다양한 부분으로 전파하는 한 가지 방법입니다.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "Q2hdqoq55UHpb2aKa6lXQ3ouaq/H8Gyrwk+/l9BObCs=",
+        "originContent": "propagate incoming data to different parts of the program.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "콜백 정의 및 서명에 대한 자세한 내용은 공식 IB `EWrapper` 클래스 문서를 참조하세요.  "
+      },
+      {
+        "row": 5,
+        "rowsha": "3xSPQXnBkS13RsbVseCZb1NioQhRwqGCSKzTSBPjd3M=",
+        "originContent": "For more details about callback definitions and signatures,",
+        "translatedContent": "참고로, 이 패키지에서 사용되는 정확한 서명은  "
+      },
+      {
+        "row": 6,
+        "rowsha": "TuUoZdBtA/qdnsl/GIm2w95JVbRO9ADzDBZ23CoW60k=",
+        "originContent": "refer to the official IB `EWrapper` class documentation.",
+        "translatedContent": "[여기](https://raw.githubusercontent.com/lbilli/Jib.jl/master/data/wrapper_signatures.jl)에서 확인할 수 있습니다.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "F3nUxrAlxlNPgQ8WmVli5z3BGx2ayqzeV47ePO0/N3M=",
+        "originContent": "As reference, the exact signatures used in this package",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "UbAepIbgHVJX5mI55Z7+ZmrgCvI9VbVRXJEFRsBgj9o=",
+        "originContent": "are found [here](https://raw.githubusercontent.com/lbilli/Jib.jl/master/data/wrapper_signatures.jl).",
+        "translatedContent": "## 참고 사항  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "콜백은 일반적으로 공식 문서에 기술된 서명과 일치하는 인수 및 타입으로 호출됩니다.  "
+      },
+      {
+        "row": 10,
+        "rowsha": "Y+E+h7N40ehfg46tJn25AgwUV7ERijfgr5+1+XYUT0s=",
+        "originContent": "## Notes",
+        "translatedContent": "하지만 몇 가지 예외가 있습니다:  "
+      },
+      {
+        "row": 11,
+        "rowsha": "tmdb2wbYN5N64663o5OsY8EeteFUo20lbiFwpe7TngI=",
+        "originContent": "Callbacks are generally invoked with arguments and types matching the signatures",
+        "translatedContent": "- `tickPrice()`는 추가 `size::Float64` 인수를 가지며,  "
+      },
+      {
+        "row": 12,
+        "rowsha": "YGIs5RxVqy29siSPBgplzkOjKxXvxXfTChveItehr2M=",
+        "originContent": "as described in the official documentation.",
+        "translatedContent": "  이는 `TickType ∈ {BID, ASK, LAST}`일 때만 의미가 있습니다.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "I9ZGGHX3oP2rMl+NYiysXObbIacT7Ft5+LZUtzlTxog=",
+        "originContent": "However, there are few exceptions:",
+        "translatedContent": "  이 경우 공식 IB API는 대신 추가 `tickSize()` 이벤트를 발생시킵니다.  "
+      },
+      {
+        "row": 14,
+        "rowsha": "h1S0dZT/N5gj92P7wt7NaSkuCxStWaDHBRxFBQR2Z9I=",
+        "originContent": "- `tickPrice()` has an extra `size::Float64` argument,",
+        "translatedContent": "- `historicalData()`는 요청당 한 번만 호출되며,  "
+      },
+      {
+        "row": 15,
+        "rowsha": "3PBdJ2AgizAI/SfWUO0Io6WnLhtOFAn54kMnQJe1Nj8=",
+        "originContent": "  which is meaningful only when `TickType ∈ {BID, ASK, LAST}`.",
+        "translatedContent": "  모든 히스토리 데이터를 단일 `Vector{Bar}`로 제공합니다.  "
+      },
+      {
+        "row": 16,
+        "rowsha": "xrbbjhZKXUe/awhN/xOoig/eMB7NcLl1kUdArv730Gs=",
+        "originContent": "  In these cases, the official IB API fires an extra `tickSize()` event instead.",
+        "translatedContent": "  반면 공식 IB API는 데이터를 행 단위로 호출합니다.  "
+      },
+      {
+        "row": 17,
+        "rowsha": "pgaCH6jFXBNZJS0JC+hPxR056igYL2wLUqH7N553A0g=",
+        "originContent": "- `historicalData()` is invoked only once per request,",
+        "translatedContent": "- `scannerData()` 역시 요청당 한 번 호출되며, 인수로 `Vector{ScannerDataElement}`를 받습니다.  "
+      },
+      {
+        "row": 18,
+        "rowsha": "t98staHB3Vi7jSF7FjuP129E1dj2Yp51+gedXbuHXdY=",
+        "originContent": "  presenting all the historical data as a single `Vector{Bar}`,",
+        "translatedContent": "  따라서 `scannerDataEnd()`는 중복되어 이 패키지에서는 **사용하지 않습니다**.  "
+      },
+      {
+        "row": 19,
+        "rowsha": "VKqlqD3POrfEaQCg1kSYrcsUH3llddKjHl2W7XmBOis=",
+        "originContent": "  whereas the official IB API invokes it row-by-row.",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "fjkFB8R5+SDwm3FL+OhFawnasJjoEskBU4VVrOdKntI=",
+        "originContent": "- `scannerData()` is similarly invoked once per request with a `Vector{ScannerDataElement}`",
+        "translatedContent": "이러한 변경사항은 다음 규칙을 확립할 수 있게 합니다:  "
+      },
+      {
+        "row": 21,
+        "rowsha": "Iu9LjRRAlRUzpBBoUH/BznjE+sGFbB+t91yadPMKSck=",
+        "originContent": "  as argument. Consequently, `scannerDataEnd()` is redundant and",
+        "translatedContent": "_서버 응답당 하나의 콜백_.  "
+      },
+      {
+        "row": 22,
+        "rowsha": "Auyvit9YmA78Cl94irANjk3JnEdEsR0thMDCcopH7bg=",
+        "originContent": "  it is **not** used in this package.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 누락된 값  "
+      },
+      {
+        "row": 24,
+        "rowsha": "A2Qtn8hFXrVcDEREOa4bz1Ix9XSQCjWe1Sol8V5XY/k=",
+        "originContent": "These modifications make it possible to establish the rule:",
+        "translatedContent": "가끔 수치형 타입에서 값이 없음을 표현해야 할 필요가 있습니다.  "
+      },
+      {
+        "row": 25,
+        "rowsha": "FKv3sl3/KjG8DJljb5Hl5ET+UlrxFN+a0mQBs+jruvM=",
+        "originContent": "_one callback per server response_.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "IB API는 일관된 해결책이 없으며,  "
+      },
+      {
+        "row": 27,
+        "rowsha": "TuU1cFCMcXVzpptII4iv19yObyja5a4UkNj9chw9QDg=",
+        "originContent": "#### Missing Values",
+        "translatedContent": "다양한 센티넬 값을 사용합니다.  "
+      },
+      {
+        "row": 28,
+        "rowsha": "YAj6rPZqO0dZyvCjoJ3HAHYQKJ0U5hmZyJGPgbkAqk4=",
+        "originContent": "Occasionally, for numerical types, there is the need to represent",
+        "translatedContent": "이는 단순한 `0`이거나, 주어진 타입의 최대 표현 가능한 값일 수 있습니다.  "
+      },
+      {
+        "row": 29,
+        "rowsha": "LYAeN3m89m6OvfY1XBcTdxAVACZ+yDkX2vTMDpApXv0=",
+        "originContent": "the lack of a value.",
+        "translatedContent": "예를 들어 32비트 및 64비트 정수의 경우 각각 `2147483647` 및 `9223372036854775807`,  "
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "64비트 부동소수점의 경우 `1.7976931348623157E308` 등이 있습니다.  "
+      },
+      {
+        "row": 31,
+        "rowsha": "VcCR3NwcHHz1uSHjH9x7isN6MaXFQFKRpK7C4gADswI=",
+        "originContent": "IB API does not have a uniform solution across the board, but rather",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "f70q0qn3+fxlUqVRVUT5EnsIAiRh7H7yM54szeAyKvM=",
+        "originContent": "it adopts a variety of sentinel values.",
+        "translatedContent": "이 패키지는 모든 상황에서 Julia 내장 `Nothing`을 사용하려 노력합니다."
+      },
+      {
+        "row": 33,
+        "rowsha": "o9kciVtDlmhdn894xU/82CLDnPtCvx+e0BceWqBfSbM=",
+        "originContent": "They can be either the plain `0` or the largest representable value",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "gFsJyNH5PQfjUddUHXtwDqHlOHzUsXQokl+ply5Hcvg=",
+        "originContent": "of a given type such as `2147483647` and `9223372036854775807`",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "adABEdwmasfWU0xoOvyMTUm/mv60phpS8k+NipDRr2c=",
+        "originContent": "for 32- and 64-bit integers respectively or `1.7976931348623157E308`",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "mqLfiv1b9tPLifLxmLuIOSQg0F3w1GzUJ8B0pccvYRc=",
+        "originContent": "for 64-bit floating point.",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "iHTiFHe3ASELRSE0ECHmiojSw7mfN43b2bXvQgc2Uxs=",
+        "originContent": "This package makes an effort to use Julia built-in `Nothing`",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "5iR/WDnY2RLYwkfX09VpkmWSCj67rg/6mGo9npxBhjk=",
+        "originContent": "in all circumstances.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "#### Data Structures\nOther classes that mainly hold data are also replicated.\nThey are implemented as Julia `struct` or `mutable struct` with names,\ntypes and default values matching the IB API counterparts: _e.g._\n`Contract`, `Order`, `ComboLeg`, `ExecutionFilter`, `ScannerSubscription`\nand `Condition*`.\n\n`TagValueList` are implemented as Julia `NamedTuple`.\nWherever a TagValue is needed, something like this can be used:",
+    "ContentSha": "XuWnzsr9LrxFmlAdJXiTPDpGZsdDmbtLq2gZz4d6KBQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### 데이터 구조\n주로 데이터를 보유하는 다른 클래스들도 복제됩니다.\n이들은 IB API 대응물과 이름, 타입, 기본값이 일치하도록 Julia `struct` 또는 `mutable struct`로 구현됩니다: _예를 들어_ `Contract`, `Order`, `ComboLeg`, `ExecutionFilter`, `ScannerSubscription` 및 `Condition*` 등이 있습니다.\n\n`TagValueList`는 Julia `NamedTuple`로 구현됩니다.\nTagValue가 필요한 곳에서는 다음과 같은 것을 사용할 수 있습니다:\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "iMjK231fZMVSGBlYNCGB6KB8PGtDUDy+fU+2liK8WT8=",
+        "originContent": "#### Data Structures",
+        "translatedContent": "#### 데이터 구조"
+      },
+      {
+        "row": 2,
+        "rowsha": "yHTncW4di/AYzxoVV9jW8b2dGlhRU40GFE4emAmFIN0=",
+        "originContent": "Other classes that mainly hold data are also replicated.",
+        "translatedContent": "주로 데이터를 보유하는 다른 클래스들도 복제됩니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "xthwiAQDhUr2c2eqn6jClKyAi+m8rsoJLSUT+tELMi0=",
+        "originContent": "They are implemented as Julia `struct` or `mutable struct` with names,",
+        "translatedContent": "이들은 IB API 대응물과 이름, 타입, 기본값이 일치하도록 Julia `struct` 또는 `mutable struct`로 구현됩니다: _예를 들어_ `Contract`, `Order`, `ComboLeg`, `ExecutionFilter`, `ScannerSubscription` 및 `Condition*` 등이 있습니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "++KLUVZ0EWh2INYtDNFqwkrnzZnMz3IcPXsWTgoFwsw=",
+        "originContent": "types and default values matching the IB API counterparts: _e.g._",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "nbpEh4FpDnXC6HsexbY3KSaHmrZMgglt7YRrDSA81+0=",
+        "originContent": "`Contract`, `Order`, `ComboLeg`, `ExecutionFilter`, `ScannerSubscription`",
+        "translatedContent": "`TagValueList`는 Julia `NamedTuple`로 구현됩니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "UtO2tT9UQcOqR47WCaIO264Sr5OM3uLyOViraYfomXU=",
+        "originContent": "and `Condition*`.",
+        "translatedContent": "TagValue가 필요한 곳에서는 다음과 같은 것을 사용할 수 있습니다:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Tv3YPWiapxw0f5ifz/nuyhiWX3QM73LLjS6/Uz8Sxa4=",
+        "originContent": "`TagValueList` are implemented as Julia `NamedTuple`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "T01SETCnGlvVwgJ6uFKwFTKYOM2jYgX2GyAR/UC8kdo=",
+        "originContent": "Wherever a TagValue is needed, something like this can be used:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```julia\ntagvaluelist = (tag1=\"value1\", tag2=\"value2\")\n# or, in case of an empty list:\nemptylist = (;)\n```",
+    "ContentSha": "fKHhYKQtEnHhl9Qju/w/TnAzgb09LpXbBlDFrW4NLrY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```julia\ntagvaluelist = (tag1=\"value1\", tag2=\"value2\")\n# or, in case of an empty list:\nemptylist = (;)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WhKoBLSyNZEf/q1zy0PHgpls11zIKk6yxTT1B2asf6A=",
+        "originContent": "```julia",
+        "translatedContent": "```julia"
+      },
+      {
+        "row": 2,
+        "rowsha": "gmYpjql9C0RM3xqUB9PJ831q4aoHkly/pbEwoYKkciI=",
+        "originContent": "tagvaluelist = (tag1=\"value1\", tag2=\"value2\")",
+        "translatedContent": "tagvaluelist = (tag1=\"value1\", tag2=\"value2\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "8OeXTyXgSz41d45KOLc3HgAGpjJG7K0qBsDNsku+TWY=",
+        "originContent": "# or, in case of an empty list:",
+        "translatedContent": "# or, in case of an empty list:"
+      },
+      {
+        "row": 4,
+        "rowsha": "Q0OLUMN/oP5R0uoZTiWBUV6vl6gByXR3ge7nzn6uTCE=",
+        "originContent": "emptylist = (;)",
+        "translatedContent": "emptylist = (;)"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "Values don't need to be of type `String`. `Int` and `Float64` are also allowed.\n",
+    "ContentSha": "T3KMSeNVV5e9SgOO1R/BzR5dnpE2ca0qdlUTiluXZhw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "값은 `String` 타입일 필요가 없습니다. `Int`와 `Float64`도 허용됩니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "MKO4aKcSLQXpmpd0Mk7jugJF5Sg6p4lFNbYLaox1ED0=",
+        "originContent": "Values don't need to be of type `String`. `Int` and `Float64` are also allowed.",
+        "translatedContent": "값은 `String` 타입일 필요가 없습니다. `Int`와 `Float64`도 허용됩니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

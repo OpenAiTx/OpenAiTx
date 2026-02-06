@@ -1,0 +1,364 @@
+[
+  {
+    "Id": 1,
+    "Content": "# unused-task-warning\nWhen using dependency injection and async-await pattern it is possible to end up with an interface with a method that returns a Task. If this interface method is used in a synchronous method there is a likelihood that it will erroneously be run as a fire and forget method (which will not trigger inbuilt warning CS4014). In this situation this analyser generates a warning.\n\nCan both be used as a Visual Studio extension or preferably as a project analyser available from NuGet.\n\nExample:\n\n\tusing System.Threading.Tasks;\n\n\tnamespace AsyncAwaitProblem\n\t{\n\t\tpublic interface ICallee\n\t\t{\n\t\t\tbool ProblemSolved { get; }\n\t\t\tTask SolveProblemAsync();\n\t\t}\n\n\t\tpublic class Callee : ICallee\n\t\t{\n\t\t\tpublic bool ProblemSolved { get; set; }\n\n\t\t\tpublic async Task SolveProblemAsync()\n\t\t\t{\n\t\t\t\tawait Task.Delay(10);\n\t\t\t\tProblemSolved = true;\n\t\t\t}\n\t\t}\n\t\t\n\t\tpublic class Caller\n\t\t{\n\t\t\tpublic bool DoCall()\n\t\t\t{\n\t\t\t\tICallee xxx = new Callee();\n\t\n\t\t\t\t// This analyser will give a warning at the following line\n\t\t\t\txxx.SolveProblemAsync(); // This is most likely an undesired fire and forget. \n\t\n\t\t\t\treturn xxx.ProblemSolved; // Will return false - we expected it to return true\n\t\t\t}\n\t\t}",
+    "ContentSha": "ACsvAcIP4A5cbCFSPtvBEQ1IAu7nhu8+tAJxI/6PAqo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# unused-task-warning\n의존성 주입과 async-await 패턴을 사용할 때, Task를 반환하는 메서드를 가진 인터페이스가 생길 수 있습니다. 이 인터페이스 메서드가 동기 메서드 내에서 사용되면, 내장 경고 CS4014를 발생시키지 않는 fire and forget 방식으로 잘못 실행될 가능성이 있습니다. 이 경우 이 분석기는 경고를 생성합니다.\n\n둘 다 Visual Studio 확장으로 사용 가능하며, NuGet에서 제공되는 프로젝트 분석기로 사용하는 것이 더 바람직합니다.\n\n예제:\n\n\tusing System.Threading.Tasks;\n\n\tnamespace AsyncAwaitProblem\n\t{\n\t\tpublic interface ICallee\n\t\t{\n\t\t\tbool ProblemSolved { get; }\n\t\t\tTask SolveProblemAsync();\n\t\t}\n\n\t\tpublic class Callee : ICallee\n\t\t{\n\t\t\tpublic bool ProblemSolved { get; set; }\n\n\t\t\tpublic async Task SolveProblemAsync()\n\t\t\t{\n\t\t\t\tawait Task.Delay(10);\n\t\t\t\tProblemSolved = true;\n\t\t\t}\n\t\t}\n\t\t\n\t\tpublic class Caller\n\t\t{\n\t\t\tpublic bool DoCall()\n\t\t\t{\n\t\t\t\tICallee xxx = new Callee();\n\t\n\t\t\t\t// 이 분석기는 다음 줄에서 경고를 표시합니다.\n\t\t\t\txxx.SolveProblemAsync(); // 이것은 아마도 원치 않는 fire and forget일 것입니다.\n\t\n\t\t\t\treturn xxx.ProblemSolved; // false를 반환하며, true를 기대했습니다.\n\t\t\t}\n\t\t}",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "mnQu0DZa/DRUYEWrsqFHBrahy0BksGFAoMYgL1LaKmQ=",
+        "originContent": "# unused-task-warning",
+        "translatedContent": "# unused-task-warning"
+      },
+      {
+        "row": 2,
+        "rowsha": "ucSVkIWzU8uqQ70qiMJxff+uX4FVBZHKDym+ge2KNfc=",
+        "originContent": "When using dependency injection and async-await pattern it is possible to end up with an interface with a method that returns a Task. If this interface method is used in a synchronous method there is a likelihood that it will erroneously be run as a fire and forget method (which will not trigger inbuilt warning CS4014). In this situation this analyser generates a warning.",
+        "translatedContent": "의존성 주입과 async-await 패턴을 사용할 때, Task를 반환하는 메서드를 가진 인터페이스가 생길 수 있습니다. 이 인터페이스 메서드가 동기 메서드 내에서 사용되면, 내장 경고 CS4014를 발생시키지 않는 fire and forget 방식으로 잘못 실행될 가능성이 있습니다. 이 경우 이 분석기는 경고를 생성합니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "GEHdqbA4uPh6SUtx+YGm/DvHx3GEW/cJssjPxJUvwRo=",
+        "originContent": "Can both be used as a Visual Studio extension or preferably as a project analyser available from NuGet.",
+        "translatedContent": "둘 다 Visual Studio 확장으로 사용 가능하며, NuGet에서 제공되는 프로젝트 분석기로 사용하는 것이 더 바람직합니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "예제:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "38St90k8xpz3OCDosDXiu7NBqNe4fUsV4TvyR4Iy9ts=",
+        "originContent": "\tusing System.Threading.Tasks;",
+        "translatedContent": "\tusing System.Threading.Tasks;"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "F4/SPCRJnstOk1PONZJpp5X9wJ9phYDFgi6KRHnXhcY=",
+        "originContent": "\tnamespace AsyncAwaitProblem",
+        "translatedContent": "\tnamespace AsyncAwaitProblem"
+      },
+      {
+        "row": 11,
+        "rowsha": "BLJ76osRU0xszqc4/BAddiCzyRV2bF0XEgfStvT/u0w=",
+        "originContent": "\t{",
+        "translatedContent": "\t{"
+      },
+      {
+        "row": 12,
+        "rowsha": "knHCjqQ5/3pXVuDlgzzJLadWZcto1PUGo4Irsrieh70=",
+        "originContent": "\t\tpublic interface ICallee",
+        "translatedContent": "\t\tpublic interface ICallee"
+      },
+      {
+        "row": 13,
+        "rowsha": "OnYzZ9AXIXknN6C/29pWzUz3AP4yIY7dRI2zdsKPcLQ=",
+        "originContent": "\t\t{",
+        "translatedContent": "\t\t{"
+      },
+      {
+        "row": 14,
+        "rowsha": "d5/5k80PtW95QJ79PJCqcmi0O2Ud7cmOXgpBjieSyHo=",
+        "originContent": "\t\t\tbool ProblemSolved { get; }",
+        "translatedContent": "\t\t\tbool ProblemSolved { get; }"
+      },
+      {
+        "row": 15,
+        "rowsha": "0fGrK0fr02ZD4hokuDyrwAHa3jkC48ok2DQaPIU49aA=",
+        "originContent": "\t\t\tTask SolveProblemAsync();",
+        "translatedContent": "\t\t\tTask SolveProblemAsync();"
+      },
+      {
+        "row": 16,
+        "rowsha": "NxO7/XbcqsGm2DFtxbjivMr0tH8sdn+VOvLtZTY+ySU=",
+        "originContent": "\t\t}",
+        "translatedContent": "\t\t}"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "vcAu4OmOZoplJGIPV+Gl2QVZux4/UIt91leidVAknDw=",
+        "originContent": "\t\tpublic class Callee : ICallee",
+        "translatedContent": "\t\tpublic class Callee : ICallee"
+      },
+      {
+        "row": 19,
+        "rowsha": "OnYzZ9AXIXknN6C/29pWzUz3AP4yIY7dRI2zdsKPcLQ=",
+        "originContent": "\t\t{",
+        "translatedContent": "\t\t{"
+      },
+      {
+        "row": 20,
+        "rowsha": "WA4wV03vhJz2DTgs30SEIzQcmZRlitZdBRNPb/FqY9Q=",
+        "originContent": "\t\t\tpublic bool ProblemSolved { get; set; }",
+        "translatedContent": "\t\t\tpublic bool ProblemSolved { get; set; }"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "vkf2x/Sxxm9ti5WtlsNKTmA7X+RVU3kI5Bywz2VBST8=",
+        "originContent": "\t\t\tpublic async Task SolveProblemAsync()",
+        "translatedContent": "\t\t\tpublic async Task SolveProblemAsync()"
+      },
+      {
+        "row": 23,
+        "rowsha": "INuBRPawbvG7j+SLCSCKQkxF943upC0aTQ49UWP6rF8=",
+        "originContent": "\t\t\t{",
+        "translatedContent": "\t\t\t{"
+      },
+      {
+        "row": 24,
+        "rowsha": "LBOG2Xabl5Uk3sXa9cnZ1vLpJpt4QI3cwsEY7I/0iSc=",
+        "originContent": "\t\t\t\tawait Task.Delay(10);",
+        "translatedContent": "\t\t\t\tawait Task.Delay(10);"
+      },
+      {
+        "row": 25,
+        "rowsha": "NxTIxWyWwSiyxBIjkBNO72OmEqsRjoxK5oZR2/jbWRM=",
+        "originContent": "\t\t\t\tProblemSolved = true;",
+        "translatedContent": "\t\t\t\tProblemSolved = true;"
+      },
+      {
+        "row": 26,
+        "rowsha": "T/rvzIHbEv58URpAy1BIKsSq+K/GLJbCU9RgNvREppY=",
+        "originContent": "\t\t\t}",
+        "translatedContent": "\t\t\t}"
+      },
+      {
+        "row": 27,
+        "rowsha": "NxO7/XbcqsGm2DFtxbjivMr0tH8sdn+VOvLtZTY+ySU=",
+        "originContent": "\t\t}",
+        "translatedContent": "\t\t}"
+      },
+      {
+        "row": 28,
+        "rowsha": "MWCUJilzJb2yjIarPO7tSjxDiWZzP9YbiuoA7osjt7w=",
+        "originContent": "\t\t",
+        "translatedContent": "\t\t"
+      },
+      {
+        "row": 29,
+        "rowsha": "rTyKD/YdYiPIB6bjC3+SSRqcezw1v2rt3xBhN7edESA=",
+        "originContent": "\t\tpublic class Caller",
+        "translatedContent": "\t\tpublic class Caller"
+      },
+      {
+        "row": 30,
+        "rowsha": "OnYzZ9AXIXknN6C/29pWzUz3AP4yIY7dRI2zdsKPcLQ=",
+        "originContent": "\t\t{",
+        "translatedContent": "\t\t{"
+      },
+      {
+        "row": 31,
+        "rowsha": "29eNIrTwyNcJ9RowYlzZsqMSb5Bau6j5odoeAn3eGtA=",
+        "originContent": "\t\t\tpublic bool DoCall()",
+        "translatedContent": "\t\t\tpublic bool DoCall()"
+      },
+      {
+        "row": 32,
+        "rowsha": "INuBRPawbvG7j+SLCSCKQkxF943upC0aTQ49UWP6rF8=",
+        "originContent": "\t\t\t{",
+        "translatedContent": "\t\t\t{"
+      },
+      {
+        "row": 33,
+        "rowsha": "W82INbZXhObIs99Pz3/a2mF/VEM+VnXtTLNvNrEdxfQ=",
+        "originContent": "\t\t\t\tICallee xxx = new Callee();",
+        "translatedContent": "\t\t\t\tICallee xxx = new Callee();"
+      },
+      {
+        "row": 34,
+        "rowsha": "K0w0L1Qz6+WRodp34BPRtyR1Vi1IV43Ki4S6xmUcPLk=",
+        "originContent": "\t",
+        "translatedContent": "\t"
+      },
+      {
+        "row": 35,
+        "rowsha": "a+Hqf8/pehbxn/gzZfeczJ+2MnC2XXBfSzU4CM9ogWc=",
+        "originContent": "\t\t\t\t// This analyser will give a warning at the following line",
+        "translatedContent": "\t\t\t\t// 이 분석기는 다음 줄에서 경고를 표시합니다."
+      },
+      {
+        "row": 36,
+        "rowsha": "l+X9SPAdGLn1yaR5BRBf2KicrTqifry7tvdOcqWxyMg=",
+        "originContent": "\t\t\t\txxx.SolveProblemAsync(); // This is most likely an undesired fire and forget. ",
+        "translatedContent": "\t\t\t\txxx.SolveProblemAsync(); // 이것은 아마도 원치 않는 fire and forget일 것입니다."
+      },
+      {
+        "row": 37,
+        "rowsha": "K0w0L1Qz6+WRodp34BPRtyR1Vi1IV43Ki4S6xmUcPLk=",
+        "originContent": "\t",
+        "translatedContent": "\t"
+      },
+      {
+        "row": 38,
+        "rowsha": "yWJyJ8r2LWtQ7oP3g9dcJOg1Ui8TxrBDgtcPS9czOdo=",
+        "originContent": "\t\t\t\treturn xxx.ProblemSolved; // Will return false - we expected it to return true",
+        "translatedContent": "\t\t\t\treturn xxx.ProblemSolved; // false를 반환하며, true를 기대했습니다."
+      },
+      {
+        "row": 39,
+        "rowsha": "T/rvzIHbEv58URpAy1BIKsSq+K/GLJbCU9RgNvREppY=",
+        "originContent": "\t\t\t}",
+        "translatedContent": "\t\t\t}"
+      },
+      {
+        "row": 40,
+        "rowsha": "NxO7/XbcqsGm2DFtxbjivMr0tH8sdn+VOvLtZTY+ySU=",
+        "originContent": "\t\t}",
+        "translatedContent": "\t\t}"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\t}\n\n\nNote that this analyser currently only checks for current known awaitable types (ex. types `Task`, `ValueTask` and `ConfiguredTaskAwaitable` (the type returned when using the `ConfigureAwait` method)). If another ['Awaitable'](https://blogs.msdn.microsoft.com/pfxteam/2011/01/13/await-anything/) type is returned this analyser will not give the warning. This might be fixed in a future version.\n\nAvailable from NuGet here: https://www.nuget.org/packages/Lindhart.Analyser.MissingAwaitWarning/\n\nAvailable from Visual Studio marketplace here: https://marketplace.visualstudio.com/items?itemName=Lindhart.missingAwaitWarning#overview\n\nFor information on how to use analyzers check here: https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019\n\n## Changelog\n\n3.2.0 No longer analyzes generated code files (ex. files containing `<auto-generated>` are now ignored).\n\n3.1.0 Begun writing changelog. Including symbols and source in package. ",
+    "ContentSha": "lkE3SgssrHFglR0RuzvLshiSMd3sTx9qkG0EsvxkdPM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\t}\n\n\n이 분석기는 현재 알려진 대기 가능한 유형(예: `Task`, `ValueTask` 및 `ConfigureAwait` 메서드 사용 시 반환되는 `ConfiguredTaskAwaitable` 유형)만 검사합니다. 다른 ['Awaitable'](https://blogs.msdn.microsoft.com/pfxteam/2011/01/13/await-anything/) 유형이 반환되면 이 분석기는 경고를 표시하지 않습니다. 이는 향후 버전에서 수정될 수 있습니다.\n\nNuGet에서 사용 가능: https://www.nuget.org/packages/Lindhart.Analyser.MissingAwaitWarning/\n\nVisual Studio 마켓플레이스에서 사용 가능: https://marketplace.visualstudio.com/items?itemName=Lindhart.missingAwaitWarning#overview\n\n분석기 사용 방법에 대한 정보는 여기에서 확인하세요: https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019\n\n## 변경 로그\n\n3.2.0 생성된 코드 파일(예: `<auto-generated>`가 포함된 파일)을 더 이상 분석하지 않음.\n\n3.1.0 변경 로그 작성 시작. 패키지에 심볼 및 소스 포함.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oyo7txIUhevLwaK2r1hczF9qTEvB6ZeRH824leZpJhE=",
+        "originContent": "\t}",
+        "translatedContent": "\t}"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ELJ0M413JXlrsr/OZba70zM+MG5Y+/dMTx17n130YTo=",
+        "originContent": "Note that this analyser currently only checks for current known awaitable types (ex. types `Task`, `ValueTask` and `ConfiguredTaskAwaitable` (the type returned when using the `ConfigureAwait` method)). If another ['Awaitable'](https://blogs.msdn.microsoft.com/pfxteam/2011/01/13/await-anything/) type is returned this analyser will not give the warning. This might be fixed in a future version.",
+        "translatedContent": "이 분석기는 현재 알려진 대기 가능한 유형(예: `Task`, `ValueTask` 및 `ConfigureAwait` 메서드 사용 시 반환되는 `ConfiguredTaskAwaitable` 유형)만 검사합니다. 다른 ['Awaitable'](https://blogs.msdn.microsoft.com/pfxteam/2011/01/13/await-anything/) 유형이 반환되면 이 분석기는 경고를 표시하지 않습니다. 이는 향후 버전에서 수정될 수 있습니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Sbke3+A6aSnJbvGhb/vqaGgTS+CG7cXrHpYMDF8ybVk=",
+        "originContent": "Available from NuGet here: https://www.nuget.org/packages/Lindhart.Analyser.MissingAwaitWarning/",
+        "translatedContent": "NuGet에서 사용 가능: https://www.nuget.org/packages/Lindhart.Analyser.MissingAwaitWarning/"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "IbLluZK/I350yOwDgqgSMZSax+hFs8KDnqZCJL9Hpd4=",
+        "originContent": "Available from Visual Studio marketplace here: https://marketplace.visualstudio.com/items?itemName=Lindhart.missingAwaitWarning#overview",
+        "translatedContent": "Visual Studio 마켓플레이스에서 사용 가능: https://marketplace.visualstudio.com/items?itemName=Lindhart.missingAwaitWarning#overview"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "fkZ3SNCnCvkGqGCZGHxJ54BRQ5CPqswG1ZNsWP5W1ts=",
+        "originContent": "For information on how to use analyzers check here: https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019",
+        "translatedContent": "분석기 사용 방법에 대한 정보는 여기에서 확인하세요: https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "sZNBxWTOjK92d5uVdMmWULuGrk66hbr3n+TVP60yreM=",
+        "originContent": "## Changelog",
+        "translatedContent": "## 변경 로그"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "LOhe0ZuufN3EKbI82Yz/r+fnpU1INvOJM7Dhl1PqZZY=",
+        "originContent": "3.2.0 No longer analyzes generated code files (ex. files containing `<auto-generated>` are now ignored).",
+        "translatedContent": "3.2.0 생성된 코드 파일(예: `<auto-generated>`가 포함된 파일)을 더 이상 분석하지 않음."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "wIBvrX6oMLq9yPi4s+n4EYaHzgJG7s4aRspSjGRp10Y=",
+        "originContent": "3.1.0 Begun writing changelog. Including symbols and source in package. ",
+        "translatedContent": "3.1.0 변경 로그 작성 시작. 패키지에 심볼 및 소스 포함."
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
