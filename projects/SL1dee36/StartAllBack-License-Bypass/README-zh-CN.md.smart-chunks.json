@@ -1,0 +1,237 @@
+[
+  {
+    "Id": 1,
+    "Content": "##  StartAllBack License Bypass | Crack Support\n\nThis Python script attempts to bypass the license requirement for the StartAllBack application by modifying registry entries. \n\n**Please be aware that:**\n\n* **This script is not officially endorsed or supported by StartAllBack developers.**\n* **Using this script may violate the terms of service of StartAllBack.**\n* **Modifying system registry entries can have unintended consequences and may lead to instability or data loss.**\n* **StartAllBack may detect and disable the bypass, potentially requiring manual intervention to restore functionality.**\n* **The script provides no guarantee of successful bypass or long-term functionality.**\n\n**How it works:**\n\nThe script attempts to locate a registry key within the ` HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\CLSID ` branch.  It identifies keys without subkeys and modifies the last modification date of these keys. This modification, however, might be detected and reversed by StartAllBack.\n\n**Using the script:**\n\n1. **Download the script:** Save the Python code as a ` .py ` file or [download compiled programm](https://github.com/SL1dee36/StartAllBack-License-Bypass/releases/tag/StartAllBack-License-Bypass-1.0) ` .exe `.\n2. **Run as administrator:** Right-click the script and select \"Run as administrator\" for successful registry modifications.\n3. **Execute the script:** Run the script. It will search for and modify the relevant registry keys.\n4. **Restart Explorer:** After successful modification, restart Windows Explorer (e.g., by pressing Ctrl+Shift+Esc, navigating to \"File\", and selecting \"Exit\").\n\n**If you are using SABPATCHER.py (Permanent license. Must be repeated when updating.):**\n1. **Open PowerShell as an administrator and enter:**  ` taskkill /f /im explorer.exe ` This will kill the environment process and you will not need additional permission.\nDo not open anything else. Only the console should be open! \n\n2. **Run ` python DISK:\\path_to_executable_file\\SABPATCHER.py `** If it does not work the first time, repeat step 1 twice, then step 2.\n\n**Alternatives:**\n\nInstead of using this script, consider purchasing a license for StartAllBack to support the developers and ensure legitimate use of the software.\n\n**Disclaimer:**\n\nThis description is provided for informational purposes only. The author is not responsible for any damage or consequences arising from using this script. \n",
+    "ContentSha": "caCi2bWyyz03cXCOGqB+30f6W+AAuG/wbXGZ5LTqmDw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## StartAllBack 许可证绕过 | 破解支持\n\n此 Python 脚本尝试通过修改注册表项来绕过 StartAllBack 应用程序的许可证要求。\n\n**请注意：**\n\n* **此脚本未获得 StartAllBack 开发者的官方认可或支持。**\n* **使用此脚本可能违反 StartAllBack 的服务条款。**\n* **修改系统注册表项可能导致意外后果，甚至引起系统不稳定或数据丢失。**\n* **StartAllBack 可能检测并禁用绕过功能，可能需要手动干预以恢复功能。**\n* **此脚本不保证绕过成功或长期有效。**\n\n**工作原理：**\n\n脚本尝试定位 `HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\CLSID` 分支中的注册表键。它识别没有子键的键并修改这些键的最后修改日期。然而，此修改可能会被 StartAllBack 发现并恢复。\n\n**使用脚本：**\n\n1. **下载脚本：** 将 Python 代码保存为 `.py` 文件，或[下载编译后的程序](https://github.com/SL1dee36/StartAllBack-License-Bypass/releases/tag/StartAllBack-License-Bypass-1.0) `.exe`。\n2. **以管理员身份运行：** 右键点击脚本，选择“以管理员身份运行”以成功修改注册表。\n3. **执行脚本：** 运行脚本。它将搜索并修改相关的注册表键。\n4. **重启资源管理器：** 修改成功后，重启 Windows 资源管理器（例如，按 Ctrl+Shift+Esc，点击“文件”，选择“退出”）。\n\n**如果使用 SABPATCHER.py（永久许可证，更新时需重复操作）：**  \n1. **以管理员身份打开 PowerShell 并输入：** `taskkill /f /im explorer.exe` 该命令将终止环境进程，无需额外权限。  \n不要打开其他程序，只保留控制台窗口！  \n\n2. **运行 `python DISK:\\path_to_executable_file\\SABPATCHER.py`** 如果第一次运行无效，重复步骤 1 两次，然后再执行步骤 2。\n\n**替代方案：**\n\n考虑购买 StartAllBack 许可证以支持开发者并确保软件的合法使用，而非使用此脚本。\n\n**免责声明：**\n\n本说明仅供参考。作者不对使用此脚本产生的任何损害或后果负责。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RJgZ7iylhTDadBqZzbJqlm2HzE4XT+syGnxQnkfBKdk=",
+        "originContent": "##  StartAllBack License Bypass | Crack Support",
+        "translatedContent": "## StartAllBack 许可证绕过 | 破解支持"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "UPAflGM5/mYSY6O7JJEQpLhf+TUhT3ua8cNxn1b/Mrs=",
+        "originContent": "This Python script attempts to bypass the license requirement for the StartAllBack application by modifying registry entries. ",
+        "translatedContent": "此 Python 脚本尝试通过修改注册表项来绕过 StartAllBack 应用程序的许可证要求。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yRqIL4ZuuMGCEMCf9crbPzFW6zHrsVgNYN3YyWf1Z4k=",
+        "originContent": "**Please be aware that:**",
+        "translatedContent": "**请注意：**"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "thy5EWrYWWNqyw+pnDokhF+1Fg5Qtyr74DBh5TTx99A=",
+        "originContent": "* **This script is not officially endorsed or supported by StartAllBack developers.**",
+        "translatedContent": "* **此脚本未获得 StartAllBack 开发者的官方认可或支持。**"
+      },
+      {
+        "row": 8,
+        "rowsha": "YziRQ49JE6mp1to+N6wVZTtgv6G8xXsDu+JIPrpcWDA=",
+        "originContent": "* **Using this script may violate the terms of service of StartAllBack.**",
+        "translatedContent": "* **使用此脚本可能违反 StartAllBack 的服务条款。**"
+      },
+      {
+        "row": 9,
+        "rowsha": "RVqky12dM/ryq3D7b5ZRbs9Zw3q5vY0EW+uC9+yJCvQ=",
+        "originContent": "* **Modifying system registry entries can have unintended consequences and may lead to instability or data loss.**",
+        "translatedContent": "* **修改系统注册表项可能导致意外后果，甚至引起系统不稳定或数据丢失。**"
+      },
+      {
+        "row": 10,
+        "rowsha": "nS5cqJuTzCp6N17ow561jHnB6Jn9k+d/z0j7r51IhMg=",
+        "originContent": "* **StartAllBack may detect and disable the bypass, potentially requiring manual intervention to restore functionality.**",
+        "translatedContent": "* **StartAllBack 可能检测并禁用绕过功能，可能需要手动干预以恢复功能。**"
+      },
+      {
+        "row": 11,
+        "rowsha": "xkmTz1oyEdwYFEStlunsbtcE00TruZp2uqIOgY0sZKU=",
+        "originContent": "* **The script provides no guarantee of successful bypass or long-term functionality.**",
+        "translatedContent": "* **此脚本不保证绕过成功或长期有效。**"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "7ePfMIwOrvJMBAQg1EWO8NQQ8GnIvRLk7o3up025OOQ=",
+        "originContent": "**How it works:**",
+        "translatedContent": "**工作原理：**"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "eRW2hAb1JH4yn7qLT0IukNAVwFmI451g2vVBjgGacSQ=",
+        "originContent": "The script attempts to locate a registry key within the ` HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\CLSID ` branch.  It identifies keys without subkeys and modifies the last modification date of these keys. This modification, however, might be detected and reversed by StartAllBack.",
+        "translatedContent": "脚本尝试定位 `HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\CLSID` 分支中的注册表键。它识别没有子键的键并修改这些键的最后修改日期。然而，此修改可能会被 StartAllBack 发现并恢复。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "Ld/KNNeymbP0C7No3jtXR8q4WnV4Lx+rVV1+PQf9RMw=",
+        "originContent": "**Using the script:**",
+        "translatedContent": "**使用脚本：**"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "dqDc2eQyjYjsEhK9EWRgRCaex3vzTNXKlS+BQEzWQus=",
+        "originContent": "1. **Download the script:** Save the Python code as a ` .py ` file or [download compiled programm](https://github.com/SL1dee36/StartAllBack-License-Bypass/releases/tag/StartAllBack-License-Bypass-1.0) ` .exe `.",
+        "translatedContent": "1. **下载脚本：** 将 Python 代码保存为 `.py` 文件，或[下载编译后的程序](https://github.com/SL1dee36/StartAllBack-License-Bypass/releases/tag/StartAllBack-License-Bypass-1.0) `.exe`。"
+      },
+      {
+        "row": 20,
+        "rowsha": "nkqnvlhG5THZt53AxVRRtosJf1Go4gx32x/KQlQEWOY=",
+        "originContent": "2. **Run as administrator:** Right-click the script and select \"Run as administrator\" for successful registry modifications.",
+        "translatedContent": "2. **以管理员身份运行：** 右键点击脚本，选择“以管理员身份运行”以成功修改注册表。"
+      },
+      {
+        "row": 21,
+        "rowsha": "8Umls5T6qYMxJm0my7lzc7s3wt2kC/0Bz3JofJgm3FI=",
+        "originContent": "3. **Execute the script:** Run the script. It will search for and modify the relevant registry keys.",
+        "translatedContent": "3. **执行脚本：** 运行脚本。它将搜索并修改相关的注册表键。"
+      },
+      {
+        "row": 22,
+        "rowsha": "fHCWrC6qKN8V8SaFsZ5yLPZr45OEgi9CvyxdNsp0qIk=",
+        "originContent": "4. **Restart Explorer:** After successful modification, restart Windows Explorer (e.g., by pressing Ctrl+Shift+Esc, navigating to \"File\", and selecting \"Exit\").",
+        "translatedContent": "4. **重启资源管理器：** 修改成功后，重启 Windows 资源管理器（例如，按 Ctrl+Shift+Esc，点击“文件”，选择“退出”）。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "cnaNbYjNkgqN8tymO9HXQmREEynqz2Lsq7ga9VGg1l4=",
+        "originContent": "**If you are using SABPATCHER.py (Permanent license. Must be repeated when updating.):**",
+        "translatedContent": "**如果使用 SABPATCHER.py（永久许可证，更新时需重复操作）：**  "
+      },
+      {
+        "row": 25,
+        "rowsha": "m6AJTwNfbH3PRIG4QOvBSbIYiOK4PM/GZL/jVl7AHV0=",
+        "originContent": "1. **Open PowerShell as an administrator and enter:**  ` taskkill /f /im explorer.exe ` This will kill the environment process and you will not need additional permission.",
+        "translatedContent": "1. **以管理员身份打开 PowerShell 并输入：** `taskkill /f /im explorer.exe` 该命令将终止环境进程，无需额外权限。  "
+      },
+      {
+        "row": 26,
+        "rowsha": "ieSViJHK5OelHPLyHyJ/zDzragmDexad8ltNQYjkL0o=",
+        "originContent": "Do not open anything else. Only the console should be open! ",
+        "translatedContent": "不要打开其他程序，只保留控制台窗口！  "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "YGFziL7S2VotKVmoy6WtYItzlhwRNr8I9eqhBC+hARc=",
+        "originContent": "2. **Run ` python DISK:\\path_to_executable_file\\SABPATCHER.py `** If it does not work the first time, repeat step 1 twice, then step 2.",
+        "translatedContent": "2. **运行 `python DISK:\\path_to_executable_file\\SABPATCHER.py`** 如果第一次运行无效，重复步骤 1 两次，然后再执行步骤 2。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "SBNXgZJ72Qw7qAA2dwbnUCaLtyg0ZV+iQ8THe3535AM=",
+        "originContent": "**Alternatives:**",
+        "translatedContent": "**替代方案：**"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "SDJ61mx/ueU1H/TCiZ/SDYdUo8jvw0o5sz4iPDJK+20=",
+        "originContent": "Instead of using this script, consider purchasing a license for StartAllBack to support the developers and ensure legitimate use of the software.",
+        "translatedContent": "考虑购买 StartAllBack 许可证以支持开发者并确保软件的合法使用，而非使用此脚本。"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "uXQiu3dquNsVUEexra3aoaspi1pman7o2UK0wUpy8Rk=",
+        "originContent": "**Disclaimer:**",
+        "translatedContent": "**免责声明：**"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "9J7LjQoJmc4AMjayUYoWbxEdXvvXhX+3doFUD1g5k48=",
+        "originContent": "This description is provided for informational purposes only. The author is not responsible for any damage or consequences arising from using this script. ",
+        "translatedContent": "本说明仅供参考。作者不对使用此脚本产生的任何损害或后果负责。"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

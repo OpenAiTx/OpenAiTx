@@ -1,0 +1,237 @@
+[
+  {
+    "Id": 1,
+    "Content": "##  StartAllBack License Bypass | Crack Support\n\nThis Python script attempts to bypass the license requirement for the StartAllBack application by modifying registry entries. \n\n**Please be aware that:**\n\n* **This script is not officially endorsed or supported by StartAllBack developers.**\n* **Using this script may violate the terms of service of StartAllBack.**\n* **Modifying system registry entries can have unintended consequences and may lead to instability or data loss.**\n* **StartAllBack may detect and disable the bypass, potentially requiring manual intervention to restore functionality.**\n* **The script provides no guarantee of successful bypass or long-term functionality.**\n\n**How it works:**\n\nThe script attempts to locate a registry key within the ` HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\CLSID ` branch.  It identifies keys without subkeys and modifies the last modification date of these keys. This modification, however, might be detected and reversed by StartAllBack.\n\n**Using the script:**\n\n1. **Download the script:** Save the Python code as a ` .py ` file or [download compiled programm](https://github.com/SL1dee36/StartAllBack-License-Bypass/releases/tag/StartAllBack-License-Bypass-1.0) ` .exe `.\n2. **Run as administrator:** Right-click the script and select \"Run as administrator\" for successful registry modifications.\n3. **Execute the script:** Run the script. It will search for and modify the relevant registry keys.\n4. **Restart Explorer:** After successful modification, restart Windows Explorer (e.g., by pressing Ctrl+Shift+Esc, navigating to \"File\", and selecting \"Exit\").\n\n**If you are using SABPATCHER.py (Permanent license. Must be repeated when updating.):**\n1. **Open PowerShell as an administrator and enter:**  ` taskkill /f /im explorer.exe ` This will kill the environment process and you will not need additional permission.\nDo not open anything else. Only the console should be open! \n\n2. **Run ` python DISK:\\path_to_executable_file\\SABPATCHER.py `** If it does not work the first time, repeat step 1 twice, then step 2.\n\n**Alternatives:**\n\nInstead of using this script, consider purchasing a license for StartAllBack to support the developers and ensure legitimate use of the software.\n\n**Disclaimer:**\n\nThis description is provided for informational purposes only. The author is not responsible for any damage or consequences arising from using this script. \n",
+    "ContentSha": "caCi2bWyyz03cXCOGqB+30f6W+AAuG/wbXGZ5LTqmDw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## StartAllBack ライセンスバイパス | クラックサポート\n\nこのPythonスクリプトは、StartAllBackアプリケーションのライセンス要件を回避するためにレジストリエントリを変更しようとします。\n\n**ご注意ください：**\n\n* **このスクリプトはStartAllBack開発者によって公式に承認またはサポートされていません。**\n* **このスクリプトの使用はStartAllBackの利用規約に違反する可能性があります。**\n* **システムのレジストリエントリを変更すると、予期しない結果を招き、不安定やデータ損失の原因となる場合があります。**\n* **StartAllBackはバイパスを検出し無効化する可能性があり、機能回復には手動操作が必要になる場合があります。**\n* **スクリプトは成功したバイパスや長期的な機能保証を提供しません。**\n\n**動作原理：**\n\nスクリプトは `HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\CLSID` ブランチ内のレジストリキーを探します。サブキーを持たないキーを特定し、それらのキーの最終更新日時を変更します。ただし、この変更はStartAllBackによって検出されて元に戻される可能性があります。\n\n**スクリプトの使用方法：**\n\n1. **スクリプトをダウンロード：** Pythonコードを ` .py ` ファイルとして保存するか、[コンパイル済みプログラムをダウンロード](https://github.com/SL1dee36/StartAllBack-License-Bypass/releases/tag/StartAllBack-License-Bypass-1.0) して ` .exe ` を使用してください。\n2. **管理者権限で実行：** スクリプトを右クリックし「管理者として実行」を選択して、レジストリ変更を成功させます。\n3. **スクリプトを実行：** スクリプトを実行すると、該当するレジストリキーを検索して変更します。\n4. **エクスプローラーを再起動：** 変更成功後、Windowsエクスプローラーを再起動してください（例：Ctrl+Shift+Escを押し、「ファイル」から「終了」を選択）。\n\n**SABPATCHER.py（永久ライセンス、更新時に繰り返し実行が必要）を使用する場合：**\n1. **管理者としてPowerShellを開き、以下を入力：** `taskkill /f /im explorer.exe` これで環境プロセスが終了し、追加の権限は不要です。\n他のものを開かないでください。コンソールのみを開いてください！\n\n2. **`python DISK:\\path_to_executable_file\\SABPATCHER.py` を実行します。** 最初にうまくいかない場合は、手順1を2回繰り返し、その後手順2を行ってください。\n\n**代替案：**\n\nこのスクリプトを使用する代わりに、StartAllBackのライセンスを購入して開発者を支援し、正当なソフトウェア利用を推奨します。\n\n**免責事項：**\n\n本説明は情報提供のみを目的としています。著者は本スクリプトの使用による損害や結果について責任を負いません。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RJgZ7iylhTDadBqZzbJqlm2HzE4XT+syGnxQnkfBKdk=",
+        "originContent": "##  StartAllBack License Bypass | Crack Support",
+        "translatedContent": "## StartAllBack ライセンスバイパス | クラックサポート"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "UPAflGM5/mYSY6O7JJEQpLhf+TUhT3ua8cNxn1b/Mrs=",
+        "originContent": "This Python script attempts to bypass the license requirement for the StartAllBack application by modifying registry entries. ",
+        "translatedContent": "このPythonスクリプトは、StartAllBackアプリケーションのライセンス要件を回避するためにレジストリエントリを変更しようとします。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yRqIL4ZuuMGCEMCf9crbPzFW6zHrsVgNYN3YyWf1Z4k=",
+        "originContent": "**Please be aware that:**",
+        "translatedContent": "**ご注意ください：**"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "thy5EWrYWWNqyw+pnDokhF+1Fg5Qtyr74DBh5TTx99A=",
+        "originContent": "* **This script is not officially endorsed or supported by StartAllBack developers.**",
+        "translatedContent": "* **このスクリプトはStartAllBack開発者によって公式に承認またはサポートされていません。**"
+      },
+      {
+        "row": 8,
+        "rowsha": "YziRQ49JE6mp1to+N6wVZTtgv6G8xXsDu+JIPrpcWDA=",
+        "originContent": "* **Using this script may violate the terms of service of StartAllBack.**",
+        "translatedContent": "* **このスクリプトの使用はStartAllBackの利用規約に違反する可能性があります。**"
+      },
+      {
+        "row": 9,
+        "rowsha": "RVqky12dM/ryq3D7b5ZRbs9Zw3q5vY0EW+uC9+yJCvQ=",
+        "originContent": "* **Modifying system registry entries can have unintended consequences and may lead to instability or data loss.**",
+        "translatedContent": "* **システムのレジストリエントリを変更すると、予期しない結果を招き、不安定やデータ損失の原因となる場合があります。**"
+      },
+      {
+        "row": 10,
+        "rowsha": "nS5cqJuTzCp6N17ow561jHnB6Jn9k+d/z0j7r51IhMg=",
+        "originContent": "* **StartAllBack may detect and disable the bypass, potentially requiring manual intervention to restore functionality.**",
+        "translatedContent": "* **StartAllBackはバイパスを検出し無効化する可能性があり、機能回復には手動操作が必要になる場合があります。**"
+      },
+      {
+        "row": 11,
+        "rowsha": "xkmTz1oyEdwYFEStlunsbtcE00TruZp2uqIOgY0sZKU=",
+        "originContent": "* **The script provides no guarantee of successful bypass or long-term functionality.**",
+        "translatedContent": "* **スクリプトは成功したバイパスや長期的な機能保証を提供しません。**"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "7ePfMIwOrvJMBAQg1EWO8NQQ8GnIvRLk7o3up025OOQ=",
+        "originContent": "**How it works:**",
+        "translatedContent": "**動作原理：**"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "eRW2hAb1JH4yn7qLT0IukNAVwFmI451g2vVBjgGacSQ=",
+        "originContent": "The script attempts to locate a registry key within the ` HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\CLSID ` branch.  It identifies keys without subkeys and modifies the last modification date of these keys. This modification, however, might be detected and reversed by StartAllBack.",
+        "translatedContent": "スクリプトは `HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\CLSID` ブランチ内のレジストリキーを探します。サブキーを持たないキーを特定し、それらのキーの最終更新日時を変更します。ただし、この変更はStartAllBackによって検出されて元に戻される可能性があります。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "Ld/KNNeymbP0C7No3jtXR8q4WnV4Lx+rVV1+PQf9RMw=",
+        "originContent": "**Using the script:**",
+        "translatedContent": "**スクリプトの使用方法：**"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "dqDc2eQyjYjsEhK9EWRgRCaex3vzTNXKlS+BQEzWQus=",
+        "originContent": "1. **Download the script:** Save the Python code as a ` .py ` file or [download compiled programm](https://github.com/SL1dee36/StartAllBack-License-Bypass/releases/tag/StartAllBack-License-Bypass-1.0) ` .exe `.",
+        "translatedContent": "1. **スクリプトをダウンロード：** Pythonコードを ` .py ` ファイルとして保存するか、[コンパイル済みプログラムをダウンロード](https://github.com/SL1dee36/StartAllBack-License-Bypass/releases/tag/StartAllBack-License-Bypass-1.0) して ` .exe ` を使用してください。"
+      },
+      {
+        "row": 20,
+        "rowsha": "nkqnvlhG5THZt53AxVRRtosJf1Go4gx32x/KQlQEWOY=",
+        "originContent": "2. **Run as administrator:** Right-click the script and select \"Run as administrator\" for successful registry modifications.",
+        "translatedContent": "2. **管理者権限で実行：** スクリプトを右クリックし「管理者として実行」を選択して、レジストリ変更を成功させます。"
+      },
+      {
+        "row": 21,
+        "rowsha": "8Umls5T6qYMxJm0my7lzc7s3wt2kC/0Bz3JofJgm3FI=",
+        "originContent": "3. **Execute the script:** Run the script. It will search for and modify the relevant registry keys.",
+        "translatedContent": "3. **スクリプトを実行：** スクリプトを実行すると、該当するレジストリキーを検索して変更します。"
+      },
+      {
+        "row": 22,
+        "rowsha": "fHCWrC6qKN8V8SaFsZ5yLPZr45OEgi9CvyxdNsp0qIk=",
+        "originContent": "4. **Restart Explorer:** After successful modification, restart Windows Explorer (e.g., by pressing Ctrl+Shift+Esc, navigating to \"File\", and selecting \"Exit\").",
+        "translatedContent": "4. **エクスプローラーを再起動：** 変更成功後、Windowsエクスプローラーを再起動してください（例：Ctrl+Shift+Escを押し、「ファイル」から「終了」を選択）。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "cnaNbYjNkgqN8tymO9HXQmREEynqz2Lsq7ga9VGg1l4=",
+        "originContent": "**If you are using SABPATCHER.py (Permanent license. Must be repeated when updating.):**",
+        "translatedContent": "**SABPATCHER.py（永久ライセンス、更新時に繰り返し実行が必要）を使用する場合：**"
+      },
+      {
+        "row": 25,
+        "rowsha": "m6AJTwNfbH3PRIG4QOvBSbIYiOK4PM/GZL/jVl7AHV0=",
+        "originContent": "1. **Open PowerShell as an administrator and enter:**  ` taskkill /f /im explorer.exe ` This will kill the environment process and you will not need additional permission.",
+        "translatedContent": "1. **管理者としてPowerShellを開き、以下を入力：** `taskkill /f /im explorer.exe` これで環境プロセスが終了し、追加の権限は不要です。"
+      },
+      {
+        "row": 26,
+        "rowsha": "ieSViJHK5OelHPLyHyJ/zDzragmDexad8ltNQYjkL0o=",
+        "originContent": "Do not open anything else. Only the console should be open! ",
+        "translatedContent": "他のものを開かないでください。コンソールのみを開いてください！"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "YGFziL7S2VotKVmoy6WtYItzlhwRNr8I9eqhBC+hARc=",
+        "originContent": "2. **Run ` python DISK:\\path_to_executable_file\\SABPATCHER.py `** If it does not work the first time, repeat step 1 twice, then step 2.",
+        "translatedContent": "2. **`python DISK:\\path_to_executable_file\\SABPATCHER.py` を実行します。** 最初にうまくいかない場合は、手順1を2回繰り返し、その後手順2を行ってください。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "SBNXgZJ72Qw7qAA2dwbnUCaLtyg0ZV+iQ8THe3535AM=",
+        "originContent": "**Alternatives:**",
+        "translatedContent": "**代替案：**"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "SDJ61mx/ueU1H/TCiZ/SDYdUo8jvw0o5sz4iPDJK+20=",
+        "originContent": "Instead of using this script, consider purchasing a license for StartAllBack to support the developers and ensure legitimate use of the software.",
+        "translatedContent": "このスクリプトを使用する代わりに、StartAllBackのライセンスを購入して開発者を支援し、正当なソフトウェア利用を推奨します。"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "uXQiu3dquNsVUEexra3aoaspi1pman7o2UK0wUpy8Rk=",
+        "originContent": "**Disclaimer:**",
+        "translatedContent": "**免責事項：**"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "9J7LjQoJmc4AMjayUYoWbxEdXvvXhX+3doFUD1g5k48=",
+        "originContent": "This description is provided for informational purposes only. The author is not responsible for any damage or consequences arising from using this script. ",
+        "translatedContent": "本説明は情報提供のみを目的としています。著者は本スクリプトの使用による損害や結果について責任を負いません。"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
