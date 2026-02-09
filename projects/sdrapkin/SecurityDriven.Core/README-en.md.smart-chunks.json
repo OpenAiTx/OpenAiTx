@@ -1,0 +1,1183 @@
+[
+  {
+    "Id": 1,
+    "Content": "# **CryptoRandom** [![GitHub Actions](https://github.com/sdrapkin/SecurityDriven.Core/workflows/.NET%20CI/badge.svg)](https://github.com/sdrapkin/SecurityDriven.Core/actions) [![NuGet](https://img.shields.io/nuget/v/CryptoRandom.svg)](https://www.nuget.org/packages/CryptoRandom/)\n\n### by [Stan Drapkin](https://github.com/sdrapkin/)\n\n## **CryptoRandom** : Random\n\n* **.NET Random done right**\n* [Fast], [Thread-safe], [Cryptographically strong]: choose 3\n* Subclasses and replaces `System.Random`\n* Also replaces `System.Security.Cryptography.RandomNumberGenerator` ([link](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.randomnumbergenerator))\n* `CryptoRandom` is (unlike `System.Random`):\n\t* **Fast** (much faster than `Random` or `RandomNumberGenerator`)\n\t* **Thread-safe** (all APIs)\n\t* **Cryptographically strong** (seeded or unseeded)\n* Implements [Fast-Key-Erasure](https://blog.cr.yp.to/20170723-random.html) RNG for seeded `CryptoRandom`\n* Produces *the same* sequence of seeded `CryptoRandom` values on *all* .NET versions (unlike `Random`)\n* Wraps `RandomNumberGenerator` for unseeded (with additional smarts)\n* Provides *backtracking resistance*: internal state cannot be used to recover the output\n* Achieves ~1.3cpb (cycles-per-byte) performance, similar to [AES-NI](https://en.wikipedia.org/wiki/AES_instruction_set)\n* Scales per-CPU/Core\n* Example: `CryptoRandom.NextGuid()` vs. `Guid.NewGuid()` [BenchmarkDotNet]:\n\t* 4~5x faster on Windows-x64\n\t* 5~30x faster on Linux-x64\n\t* 4~5x faster on Linux-ARM64 (AWS Graviton-2)\n* Built for .NET 5.0+ and 6.0+\n* Extensive test coverage & correctness validation (110+ tests)\n\t* CI runs on Linux-latest & Windows-latest for .NET 5/6/7/8/9/10\n\n---\n## **CryptoRandom API**:\n* All APIs of `System.Random` ([link](https://docs.microsoft.com/en-us/dotnet/api/system.random))\n* `CryptoRandom.Shared` static shared instance for convenience (thread-safe of course)\n* Seeded constructors:\n\t* `CryptoRandom(ReadOnlySpan<byte> seedKey)`\n\t* `CryptoRandom(int Seed)` (just like seeded `Random` ctor)\n* `byte[] NextBytes(int count)`\n* `Guid NextGuid()`\n\t* 5x (500%) faster than `Guid.NewGuid()` on Windows\n\t* 15x (1500%) faster than `Guid.NewGuid()` on Linux\n\t* 128 random bits, instead of 122",
+    "ContentSha": "GGEgU9aK3bSgnbClOJpoU9ZIhi9J8iq4xGHa+8Hfdkw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# **CryptoRandom** [![GitHub Actions](https://github.com/sdrapkin/SecurityDriven.Core/workflows/.NET%20CI/badge.svg)](https://github.com/sdrapkin/SecurityDriven.Core/actions) [![NuGet](https://img.shields.io/nuget/v/CryptoRandom.svg)](https://www.nuget.org/packages/CryptoRandom/)\n\n### by [Stan Drapkin](https://github.com/sdrapkin/)\n\n## **CryptoRandom** : Random\n\n* **.NET Random done right**\n* [Fast], [Thread-safe], [Cryptographically strong]: choose 3\n* Subclasses and replaces `System.Random`\n* Also replaces `System.Security.Cryptography.RandomNumberGenerator` ([link](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.randomnumbergenerator))\n* `CryptoRandom` is (unlike `System.Random`):\n\t* **Fast** (much faster than `Random` or `RandomNumberGenerator`)\n\t* **Thread-safe** (all APIs)\n\t* **Cryptographically strong** (seeded or unseeded)\n* Implements [Fast-Key-Erasure](https://blog.cr.yp.to/20170723-random.html) RNG for seeded `CryptoRandom`\n* Produces *the same* sequence of seeded `CryptoRandom` values on *all* .NET versions (unlike `Random`)\n* Wraps `RandomNumberGenerator` for unseeded (with additional smarts)\n* Provides *backtracking resistance*: internal state cannot be used to recover the output\n* Achieves ~1.3cpb (cycles-per-byte) performance, similar to [AES-NI](https://en.wikipedia.org/wiki/AES_instruction_set)\n* Scales per-CPU/Core\n* Example: `CryptoRandom.NextGuid()` vs. `Guid.NewGuid()` [BenchmarkDotNet]:\n\t* 4~5x faster on Windows-x64\n\t* 5~30x faster on Linux-x64\n\t* 4~5x faster on Linux-ARM64 (AWS Graviton-2)\n* Built for .NET 5.0+ and 6.0+\n* Extensive test coverage & correctness validation (110+ tests)\n\t* CI runs on Linux-latest & Windows-latest for .NET 5/6/7/8/9/10\n\n---\n## **CryptoRandom API**:\n* All APIs of `System.Random` ([link](https://docs.microsoft.com/en-us/dotnet/api/system.random))\n* `CryptoRandom.Shared` static shared instance for convenience (thread-safe of course)\n* Seeded constructors:\n\t* `CryptoRandom(ReadOnlySpan<byte> seedKey)`\n\t* `CryptoRandom(int Seed)` (just like seeded `Random` ctor)\n* `byte[] NextBytes(int count)`\n* `Guid NextGuid()`\n\t* 5x (500%) faster than `Guid.NewGuid()` on Windows\n\t* 15x (1500%) faster than `Guid.NewGuid()` on Linux\n\t* 128 random bits, instead of 122",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UQAzd/00E+9ibvvJ3nc+2Yz3ilSVVRiGcq/yBFWHJfY=",
+        "originContent": "# **CryptoRandom** [![GitHub Actions](https://github.com/sdrapkin/SecurityDriven.Core/workflows/.NET%20CI/badge.svg)](https://github.com/sdrapkin/SecurityDriven.Core/actions) [![NuGet](https://img.shields.io/nuget/v/CryptoRandom.svg)](https://www.nuget.org/packages/CryptoRandom/)",
+        "translatedContent": "# **CryptoRandom** [![GitHub Actions](https://github.com/sdrapkin/SecurityDriven.Core/workflows/.NET%20CI/badge.svg)](https://github.com/sdrapkin/SecurityDriven.Core/actions) [![NuGet](https://img.shields.io/nuget/v/CryptoRandom.svg)](https://www.nuget.org/packages/CryptoRandom/)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "QuZhVL6b5fglLg+JMPn2/dSefC/kcrc/qPj9NL5PutY=",
+        "originContent": "### by [Stan Drapkin](https://github.com/sdrapkin/)",
+        "translatedContent": "### by [Stan Drapkin](https://github.com/sdrapkin/)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "OODPH185e0nMR9NUkIx0N+oYdW8jypXpT94MyC7HAcc=",
+        "originContent": "## **CryptoRandom** : Random",
+        "translatedContent": "## **CryptoRandom** : Random"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "2CQfcGImZ1zURPHuzk2GZ0X+vSbpHYayLWRVrazXnx4=",
+        "originContent": "* **.NET Random done right**",
+        "translatedContent": "* **.NET Random done right**"
+      },
+      {
+        "row": 8,
+        "rowsha": "rDFivi42DC3Ko/qujr8Q1Vme/V4GgPKtUalrv2I/7Ls=",
+        "originContent": "* [Fast], [Thread-safe], [Cryptographically strong]: choose 3",
+        "translatedContent": "* [Fast], [Thread-safe], [Cryptographically strong]: choose 3"
+      },
+      {
+        "row": 9,
+        "rowsha": "iESLYuU5J5atIQoRG0/g72zyeaDckrip7aWRTssV3Sg=",
+        "originContent": "* Subclasses and replaces `System.Random`",
+        "translatedContent": "* Subclasses and replaces `System.Random`"
+      },
+      {
+        "row": 10,
+        "rowsha": "adSqQJNoarCzfXntE31ouQ8GrgUlEUygQxcxEkYJUQg=",
+        "originContent": "* Also replaces `System.Security.Cryptography.RandomNumberGenerator` ([link](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.randomnumbergenerator))",
+        "translatedContent": "* Also replaces `System.Security.Cryptography.RandomNumberGenerator` ([link](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.randomnumbergenerator))"
+      },
+      {
+        "row": 11,
+        "rowsha": "3Pr5ln9YRh9ihTPE1Z919oLf8LYfbMi3bB++p11iT+k=",
+        "originContent": "* `CryptoRandom` is (unlike `System.Random`):",
+        "translatedContent": "* `CryptoRandom` is (unlike `System.Random`):"
+      },
+      {
+        "row": 12,
+        "rowsha": "5IyMD70i5EyNKLmnp1XaXCObX+L867JrEhhtIvIOMKA=",
+        "originContent": "\t* **Fast** (much faster than `Random` or `RandomNumberGenerator`)",
+        "translatedContent": "\t* **Fast** (much faster than `Random` or `RandomNumberGenerator`)"
+      },
+      {
+        "row": 13,
+        "rowsha": "/+wyu5Y+l9fVqljaSChYYerdyATbJul9/hVV/3jSDF8=",
+        "originContent": "\t* **Thread-safe** (all APIs)",
+        "translatedContent": "\t* **Thread-safe** (all APIs)"
+      },
+      {
+        "row": 14,
+        "rowsha": "/PoGWeE9tPypgspGTVYd69LkUklA5utxp9WvpY73u3s=",
+        "originContent": "\t* **Cryptographically strong** (seeded or unseeded)",
+        "translatedContent": "\t* **Cryptographically strong** (seeded or unseeded)"
+      },
+      {
+        "row": 15,
+        "rowsha": "Jj45/8i/hTVPeMEjH549YEwMM/RbQ2YIhhYsJsLIUaU=",
+        "originContent": "* Implements [Fast-Key-Erasure](https://blog.cr.yp.to/20170723-random.html) RNG for seeded `CryptoRandom`",
+        "translatedContent": "* Implements [Fast-Key-Erasure](https://blog.cr.yp.to/20170723-random.html) RNG for seeded `CryptoRandom`"
+      },
+      {
+        "row": 16,
+        "rowsha": "ifD4Kijh6TJ17TNU+XDMBvk3wxpvJqIAN3nYpM9vggo=",
+        "originContent": "* Produces *the same* sequence of seeded `CryptoRandom` values on *all* .NET versions (unlike `Random`)",
+        "translatedContent": "* Produces *the same* sequence of seeded `CryptoRandom` values on *all* .NET versions (unlike `Random`)"
+      },
+      {
+        "row": 17,
+        "rowsha": "LFY/6BxUartQG8M0ZSr4/3WkWuinPM9wPphzr7A/Qd4=",
+        "originContent": "* Wraps `RandomNumberGenerator` for unseeded (with additional smarts)",
+        "translatedContent": "* Wraps `RandomNumberGenerator` for unseeded (with additional smarts)"
+      },
+      {
+        "row": 18,
+        "rowsha": "kCObO46t7NqDM2ePTt6G25sw32sNOE8b9ZXw2Z+1HFQ=",
+        "originContent": "* Provides *backtracking resistance*: internal state cannot be used to recover the output",
+        "translatedContent": "* Provides *backtracking resistance*: internal state cannot be used to recover the output"
+      },
+      {
+        "row": 19,
+        "rowsha": "1xGe6X1RMwTjWSSMxZz6tWvKyoOr/QJWlnpEN5hjyME=",
+        "originContent": "* Achieves ~1.3cpb (cycles-per-byte) performance, similar to [AES-NI](https://en.wikipedia.org/wiki/AES_instruction_set)",
+        "translatedContent": "* Achieves ~1.3cpb (cycles-per-byte) performance, similar to [AES-NI](https://en.wikipedia.org/wiki/AES_instruction_set)"
+      },
+      {
+        "row": 20,
+        "rowsha": "DFfL9vYDCAXdfOw8Dk2xiVRyUtDt+ccoyZmrcLMktss=",
+        "originContent": "* Scales per-CPU/Core",
+        "translatedContent": "* Scales per-CPU/Core"
+      },
+      {
+        "row": 21,
+        "rowsha": "kISTH5lvFQTgamKB41TD+at6BnxWJlGz3UyvUemywh0=",
+        "originContent": "* Example: `CryptoRandom.NextGuid()` vs. `Guid.NewGuid()` [BenchmarkDotNet]:",
+        "translatedContent": "* Example: `CryptoRandom.NextGuid()` vs. `Guid.NewGuid()` [BenchmarkDotNet]:"
+      },
+      {
+        "row": 22,
+        "rowsha": "ls+xYGiZgG+Q8HD0g6F0k1b+pSaUnXwc1SQvB+N4Yac=",
+        "originContent": "\t* 4~5x faster on Windows-x64",
+        "translatedContent": "\t* 4~5x faster on Windows-x64"
+      },
+      {
+        "row": 23,
+        "rowsha": "FDolkoJ27O5AG2tnJKfW+syXwXYzzhrYx5954vC737k=",
+        "originContent": "\t* 5~30x faster on Linux-x64",
+        "translatedContent": "\t* 5~30x faster on Linux-x64"
+      },
+      {
+        "row": 24,
+        "rowsha": "5rf452r1wYQ//FWTQZrzb7A8Idw7tJ5Xdisqhn5sDIs=",
+        "originContent": "\t* 4~5x faster on Linux-ARM64 (AWS Graviton-2)",
+        "translatedContent": "\t* 4~5x faster on Linux-ARM64 (AWS Graviton-2)"
+      },
+      {
+        "row": 25,
+        "rowsha": "bEVJOx+k6ya4Xq6RN8e22QWMu76MZ0+MClsWMHz+Jyg=",
+        "originContent": "* Built for .NET 5.0+ and 6.0+",
+        "translatedContent": "* Built for .NET 5.0+ and 6.0+"
+      },
+      {
+        "row": 26,
+        "rowsha": "8ZMH+hzA2pBpnUkHm0aKhRyYiaIK3DQ4YIzWhZiBOjg=",
+        "originContent": "* Extensive test coverage & correctness validation (110+ tests)",
+        "translatedContent": "* Extensive test coverage & correctness validation (110+ tests)"
+      },
+      {
+        "row": 27,
+        "rowsha": "CnJ0QUhL1l/tGfviIzUFsS6CiPRv5YfqbmdCqelIPjo=",
+        "originContent": "\t* CI runs on Linux-latest & Windows-latest for .NET 5/6/7/8/9/10",
+        "translatedContent": "\t* CI runs on Linux-latest & Windows-latest for .NET 5/6/7/8/9/10"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 30,
+        "rowsha": "PJwY8MqrWjOaGejV5HRgtWvCGAfQ62pXvWPC+58MSIM=",
+        "originContent": "## **CryptoRandom API**:",
+        "translatedContent": "## **CryptoRandom API**:"
+      },
+      {
+        "row": 31,
+        "rowsha": "HCruqCoamWAuol7Jufi/iXSjqsvNZl+rhmOY9FCA9eM=",
+        "originContent": "* All APIs of `System.Random` ([link](https://docs.microsoft.com/en-us/dotnet/api/system.random))",
+        "translatedContent": "* All APIs of `System.Random` ([link](https://docs.microsoft.com/en-us/dotnet/api/system.random))"
+      },
+      {
+        "row": 32,
+        "rowsha": "uJt8klKhmtq3OBV7NYqMUG/TVmWgrjxVJAz48setB5M=",
+        "originContent": "* `CryptoRandom.Shared` static shared instance for convenience (thread-safe of course)",
+        "translatedContent": "* `CryptoRandom.Shared` static shared instance for convenience (thread-safe of course)"
+      },
+      {
+        "row": 33,
+        "rowsha": "IHkFArwOUdbigH9vbFlk71Iore59L5edmBUfx7IrHGE=",
+        "originContent": "* Seeded constructors:",
+        "translatedContent": "* Seeded constructors:"
+      },
+      {
+        "row": 34,
+        "rowsha": "kChOMDxz/YQ4LFuJLeVWJ5+b6KsfHmF/YFcXqDWR4n4=",
+        "originContent": "\t* `CryptoRandom(ReadOnlySpan<byte> seedKey)`",
+        "translatedContent": "\t* `CryptoRandom(ReadOnlySpan<byte> seedKey)`"
+      },
+      {
+        "row": 35,
+        "rowsha": "fQtV914xF2pNso2BAa62BC+9LmHKAHjec0ibs8seiW0=",
+        "originContent": "\t* `CryptoRandom(int Seed)` (just like seeded `Random` ctor)",
+        "translatedContent": "\t* `CryptoRandom(int Seed)` (just like seeded `Random` ctor)"
+      },
+      {
+        "row": 36,
+        "rowsha": "nETu2dUc9Kdb2Ra4pbohs3TiIR6SXWteG557qmgl18o=",
+        "originContent": "* `byte[] NextBytes(int count)`",
+        "translatedContent": "* `byte[] NextBytes(int count)`"
+      },
+      {
+        "row": 37,
+        "rowsha": "GMK9yoPk3E/hkWz+GcLLe91bRr6dwl/WbOHFVDubwhI=",
+        "originContent": "* `Guid NextGuid()`",
+        "translatedContent": "* `Guid NextGuid()`"
+      },
+      {
+        "row": 38,
+        "rowsha": "vtm+rhqAIIomiYVYxQvxe8nfYr4lje9GBjBho71bgcc=",
+        "originContent": "\t* 5x (500%) faster than `Guid.NewGuid()` on Windows",
+        "translatedContent": "\t* 5x (500%) faster than `Guid.NewGuid()` on Windows"
+      },
+      {
+        "row": 39,
+        "rowsha": "E0hX3hGebNlA1LnAfx+2RT3HjvxFfg/jh1lBmmHzGp8=",
+        "originContent": "\t* 15x (1500%) faster than `Guid.NewGuid()` on Linux",
+        "translatedContent": "\t* 15x (1500%) faster than `Guid.NewGuid()` on Linux"
+      },
+      {
+        "row": 40,
+        "rowsha": "pybnYvcQa/P34uh/lP+tcfu7L0QlbFMFeUrbysRvBbA=",
+        "originContent": "\t* 128 random bits, instead of 122",
+        "translatedContent": "\t* 128 random bits, instead of 122"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "* `Guid SqlServerGuid()`\n\t* Returns new Guid well-suited to be used as a SQL-Server clustered key\n\t* Guid structure is `[8 random bytes][8 bytes of SQL-Server-ordered DateTime.UtcNow]`\n\t* Each Guid should be sequential within 100-nanoseconds `UtcNow` precision limits\n\t* 64-bit entropy for reasonable unguessability and protection against online brute-force attacks\n\t* ~15% faster than `Guid.NewGuid()`\n* `long NextInt64()`\n* `long NextInt64(long maxValue)`\n* `long NextInt64(long minValue, long maxValue)`\n* Random `struct` 's (make sure you know what you're doing):\n\t* `void Next<T>(ref T @struct) where T : unmanaged`\n\t* `T Next<T>() where T : unmanaged`\n---\n## **Utils API** (`SecurityDriven.Core.Utils`):\n* `static Span<byte> AsSpan<T>(ref T @struct) where T : unmanaged`\n\t* Casts unmanaged struct T as equivalent `Span<byte>`\n* `static ref T AsStruct<T>(Span<byte> span) where T : unmanaged`\n\t* Casts `Span<byte>` as equivalent unmanaged struct T\n* `int StructSizer<T>.Size`\n\t* Returns byte-size of struct T\n\n---\n## **Quick benchmark**:",
+    "ContentSha": "d8xIN1R6nqHofhQI7xK0pqsul7dDZK0PiJbxnQHuyjE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* `Guid SqlServerGuid()`\n\t* Returns new Guid well-suited to be used as a SQL-Server clustered key\n\t* Guid structure is `[8 random bytes][8 bytes of SQL-Server-ordered DateTime.UtcNow]`\n\t* Each Guid should be sequential within 100-nanoseconds `UtcNow` precision limits\n\t* 64-bit entropy for reasonable unguessability and protection against online brute-force attacks\n\t* ~15% faster than `Guid.NewGuid()`\n* `long NextInt64()`\n* `long NextInt64(long maxValue)`\n* `long NextInt64(long minValue, long maxValue)`\n* Random `struct`'s (make sure you know what you're doing):\n\t* `void Next<T>(ref T @struct) where T : unmanaged`\n\t* `T Next<T>() where T : unmanaged`\n---\n## **Utils API** (`SecurityDriven.Core.Utils`):\n* `static Span<byte> AsSpan<T>(ref T @struct) where T : unmanaged`\n\t* Casts unmanaged struct T as equivalent `Span<byte>`\n* `static ref T AsStruct<T>(Span<byte> span) where T : unmanaged`\n\t* Casts `Span<byte>` as equivalent unmanaged struct T\n* `int StructSizer<T>.Size`\n\t* Returns byte-size of struct T\n\n---\n## **Quick benchmark**:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qJmnRmDrl/hvEfyJmO2rVR8JXkdTYefxkDqt2Ji60Ks=",
+        "originContent": "* `Guid SqlServerGuid()`",
+        "translatedContent": "* `Guid SqlServerGuid()`"
+      },
+      {
+        "row": 2,
+        "rowsha": "K0SrRYED5EzTE0hukUmffz4LcYmibecR0ABnPsL42Fw=",
+        "originContent": "\t* Returns new Guid well-suited to be used as a SQL-Server clustered key",
+        "translatedContent": "\t* Returns new Guid well-suited to be used as a SQL-Server clustered key"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ae3TYmk0RI1JEZpx9C2KnYPUq7FyfjsxL3NtRIzWVMY=",
+        "originContent": "\t* Guid structure is `[8 random bytes][8 bytes of SQL-Server-ordered DateTime.UtcNow]`",
+        "translatedContent": "\t* Guid structure is `[8 random bytes][8 bytes of SQL-Server-ordered DateTime.UtcNow]`"
+      },
+      {
+        "row": 4,
+        "rowsha": "93zNYkvhk6929NAyJHyswz48R4fp71gBrRb3TpJkbOo=",
+        "originContent": "\t* Each Guid should be sequential within 100-nanoseconds `UtcNow` precision limits",
+        "translatedContent": "\t* Each Guid should be sequential within 100-nanoseconds `UtcNow` precision limits"
+      },
+      {
+        "row": 5,
+        "rowsha": "tc9oWl/bRj77KpGEFkGa9fbKHbTb64Ql3satl4zMF1Y=",
+        "originContent": "\t* 64-bit entropy for reasonable unguessability and protection against online brute-force attacks",
+        "translatedContent": "\t* 64-bit entropy for reasonable unguessability and protection against online brute-force attacks"
+      },
+      {
+        "row": 6,
+        "rowsha": "tfW3a3yz8eJl2O70SFS4Dw/HZ5e0PtpZygLUOtVxzS8=",
+        "originContent": "\t* ~15% faster than `Guid.NewGuid()`",
+        "translatedContent": "\t* ~15% faster than `Guid.NewGuid()`"
+      },
+      {
+        "row": 7,
+        "rowsha": "Kct+TExDh/Yee2Qv+rM/GnVjKHqyd0SrkdsIcdI2ZAk=",
+        "originContent": "* `long NextInt64()`",
+        "translatedContent": "* `long NextInt64()`"
+      },
+      {
+        "row": 8,
+        "rowsha": "JGjbVclWDhOj+I4zLKW8WqTCf9v8HWNiugR8dlkuBDo=",
+        "originContent": "* `long NextInt64(long maxValue)`",
+        "translatedContent": "* `long NextInt64(long maxValue)`"
+      },
+      {
+        "row": 9,
+        "rowsha": "v5+TPi2TqPENALsevAEp/iVQ7Vlwz27FnHLwmjgnYzw=",
+        "originContent": "* `long NextInt64(long minValue, long maxValue)`",
+        "translatedContent": "* `long NextInt64(long minValue, long maxValue)`"
+      },
+      {
+        "row": 10,
+        "rowsha": "Vf7jLia5nfHW8yyn62APo8DLrZvdcg0vrzm4463A3ls=",
+        "originContent": "* Random `struct` 's (make sure you know what you're doing):",
+        "translatedContent": "* Random `struct`'s (make sure you know what you're doing):"
+      },
+      {
+        "row": 11,
+        "rowsha": "PQtwwerx0lbNuvZNHqhBdLqNDFalTNlHxFPEg9A7R6Y=",
+        "originContent": "\t* `void Next<T>(ref T @struct) where T : unmanaged`",
+        "translatedContent": "\t* `void Next<T>(ref T @struct) where T : unmanaged`"
+      },
+      {
+        "row": 12,
+        "rowsha": "mtZfU5/X7KqN9m9/65Q5JOu40EzQ/hDYGAoCDHk+5Is=",
+        "originContent": "\t* `T Next<T>() where T : unmanaged`",
+        "translatedContent": "\t* `T Next<T>() where T : unmanaged`"
+      },
+      {
+        "row": 13,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 14,
+        "rowsha": "jFITnamASCgZonpqSrKwcfqf6oMirAwDYtR8hB6pV+A=",
+        "originContent": "## **Utils API** (`SecurityDriven.Core.Utils`):",
+        "translatedContent": "## **Utils API** (`SecurityDriven.Core.Utils`):"
+      },
+      {
+        "row": 15,
+        "rowsha": "elAqM9hGBVeZDIuGNNS6/EqfYk1wy6RR/TGNX3OQlbI=",
+        "originContent": "* `static Span<byte> AsSpan<T>(ref T @struct) where T : unmanaged`",
+        "translatedContent": "* `static Span<byte> AsSpan<T>(ref T @struct) where T : unmanaged`"
+      },
+      {
+        "row": 16,
+        "rowsha": "UGWhuP7eosPJifutlESDYmuL54bZ6yl6NACzcFCmyz4=",
+        "originContent": "\t* Casts unmanaged struct T as equivalent `Span<byte>`",
+        "translatedContent": "\t* Casts unmanaged struct T as equivalent `Span<byte>`"
+      },
+      {
+        "row": 17,
+        "rowsha": "PYy4cBCcKJH3yUxGSb37Kwc/8T4hnMiVXDcv7XnO3fU=",
+        "originContent": "* `static ref T AsStruct<T>(Span<byte> span) where T : unmanaged`",
+        "translatedContent": "* `static ref T AsStruct<T>(Span<byte> span) where T : unmanaged`"
+      },
+      {
+        "row": 18,
+        "rowsha": "f+FRK0KpgQJSJi0PYpc49+aEubguYWQcjskRIZOibNQ=",
+        "originContent": "\t* Casts `Span<byte>` as equivalent unmanaged struct T",
+        "translatedContent": "\t* Casts `Span<byte>` as equivalent unmanaged struct T"
+      },
+      {
+        "row": 19,
+        "rowsha": "gsWn+hsVvr6klCOr3RjoGpQPKoFpRV3nt2IFfKbKcz8=",
+        "originContent": "* `int StructSizer<T>.Size`",
+        "translatedContent": "* `int StructSizer<T>.Size`"
+      },
+      {
+        "row": 20,
+        "rowsha": "CP+aT/BYtAATH2ZFbUuP3EWJFOe0oWPif/UFWy1DZ9I=",
+        "originContent": "\t* Returns byte-size of struct T",
+        "translatedContent": "\t* Returns byte-size of struct T"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 23,
+        "rowsha": "0pN7WTe3T24G3kMIh1PDzUIQwO6PkP5P4lGlky0rrEE=",
+        "originContent": "## **Quick benchmark**:",
+        "translatedContent": "## **Quick benchmark**:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```csharp\nusing SecurityDriven.Core;\nusing System;\nusing System.Diagnostics;\nusing System.Runtime.InteropServices;\nusing System.Threading.Tasks;\n\nConsole.WriteLine($\"[{RuntimeInformation.FrameworkDescription}]\");\nStopwatch sw1 = new(), sw2 = new();\nconst long ITER = 100_000_000, REPS = 5;\n\nfor (int i = 0; i++ < REPS;)\n{\n    sw1.Restart();\n    Parallel.For(0, ITER, static i => CryptoRandom.Shared.NextGuid());\n    sw1.Stop();\n    Console.WriteLine($\"{sw1.Elapsed} cryptoRandom.NextGuid()\");\n\n    sw2.Restart();\n    Parallel.For(0, ITER, static i => Guid.NewGuid());\n    sw2.Stop();\n\n    var ratio = sw2.Elapsed / sw1.Elapsed;\n    Console.WriteLine($\"{sw2.Elapsed} Guid.NewGuid() [{ratio:N2}x slower]\");\n}\n```",
+    "ContentSha": "QwuZkry0uSuWmFlksBYXPmX2BsJqZh4cNFZyW7F6pAc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```csharp\nusing SecurityDriven.Core;\nusing System;\nusing System.Diagnostics;\nusing System.Runtime.InteropServices;\nusing System.Threading.Tasks;\n\nConsole.WriteLine($\"[{RuntimeInformation.FrameworkDescription}]\");\nStopwatch sw1 = new(), sw2 = new();\nconst long ITER = 100_000_000, REPS = 5;\n\nfor (int i = 0; i++ < REPS;)\n{\n    sw1.Restart();\n    Parallel.For(0, ITER, static i => CryptoRandom.Shared.NextGuid());\n    sw1.Stop();\n    Console.WriteLine($\"{sw1.Elapsed} cryptoRandom.NextGuid()\");\n\n    sw2.Restart();\n    Parallel.For(0, ITER, static i => Guid.NewGuid());\n    sw2.Stop();\n\n    var ratio = sw2.Elapsed / sw1.Elapsed;\n    Console.WriteLine($\"{sw2.Elapsed} Guid.NewGuid() [{ratio:N2}x slower]\");\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+        "originContent": "```csharp",
+        "translatedContent": "```csharp"
+      },
+      {
+        "row": 2,
+        "rowsha": "sz9FP06koeFXt9KMUZCvYe6oGiT68Rb2Ud8s3e6j1GE=",
+        "originContent": "using SecurityDriven.Core;",
+        "translatedContent": "using SecurityDriven.Core;"
+      },
+      {
+        "row": 3,
+        "rowsha": "9iIyn3F8dQ/8j+DECcZvpzMQiA3xL/vlnkxhiUyC+Xk=",
+        "originContent": "using System;",
+        "translatedContent": "using System;"
+      },
+      {
+        "row": 4,
+        "rowsha": "+1T05uA1ZUekJxbptpAdZcGp7oLzHLCyfs5oR6h848I=",
+        "originContent": "using System.Diagnostics;",
+        "translatedContent": "using System.Diagnostics;"
+      },
+      {
+        "row": 5,
+        "rowsha": "5j3SS21C/pfd1GuAOmLFmnxBHk5R1CxrU2FXib6ICoY=",
+        "originContent": "using System.Runtime.InteropServices;",
+        "translatedContent": "using System.Runtime.InteropServices;"
+      },
+      {
+        "row": 6,
+        "rowsha": "JCPJo47NGGWEwNkCRdVHMXNxHpCXLPc/c2jCJjSPkXo=",
+        "originContent": "using System.Threading.Tasks;",
+        "translatedContent": "using System.Threading.Tasks;"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "KUq+zzx+qJnyajRc5SuvydpD6Sf16sM9TTckrzWz8IU=",
+        "originContent": "Console.WriteLine($\"[{RuntimeInformation.FrameworkDescription}]\");",
+        "translatedContent": "Console.WriteLine($\"[{RuntimeInformation.FrameworkDescription}]\");"
+      },
+      {
+        "row": 9,
+        "rowsha": "POat84oONHY73zrsX5QVlvZkTP626ov1osDN6wxoEcI=",
+        "originContent": "Stopwatch sw1 = new(), sw2 = new();",
+        "translatedContent": "Stopwatch sw1 = new(), sw2 = new();"
+      },
+      {
+        "row": 10,
+        "rowsha": "1buYp/rdTcT3bYztwQLKQN+EjNTOqST72FaRrXYFvaI=",
+        "originContent": "const long ITER = 100_000_000, REPS = 5;",
+        "translatedContent": "const long ITER = 100_000_000, REPS = 5;"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "3uwzMqZIua/i2uXvkgtXnIcsEpBXDVNAlFQjYl0cfbE=",
+        "originContent": "for (int i = 0; i++ < REPS;)",
+        "translatedContent": "for (int i = 0; i++ < REPS;)"
+      },
+      {
+        "row": 13,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 14,
+        "rowsha": "xKrkNUGz78xsjPXUs1zeGWuKKVIpAKKmF7u0YDgZ0sQ=",
+        "originContent": "    sw1.Restart();",
+        "translatedContent": "    sw1.Restart();"
+      },
+      {
+        "row": 15,
+        "rowsha": "6OP/2PR511e2LZAEf9CyUhd6FhVh4vrvKIamf5pGIgg=",
+        "originContent": "    Parallel.For(0, ITER, static i => CryptoRandom.Shared.NextGuid());",
+        "translatedContent": "    Parallel.For(0, ITER, static i => CryptoRandom.Shared.NextGuid());"
+      },
+      {
+        "row": 16,
+        "rowsha": "ZorKCDUsIOsRXFcmYM3Mfz5HnYI859TZEksoCHLfltw=",
+        "originContent": "    sw1.Stop();",
+        "translatedContent": "    sw1.Stop();"
+      },
+      {
+        "row": 17,
+        "rowsha": "HeoGKoMEii/oksPwjHhjvpZ7sVOxCnwHAEzAzktU2WQ=",
+        "originContent": "    Console.WriteLine($\"{sw1.Elapsed} cryptoRandom.NextGuid()\");",
+        "translatedContent": "    Console.WriteLine($\"{sw1.Elapsed} cryptoRandom.NextGuid()\");"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "H8ndXqO/QBKvKPF+o5A83ARATy/Gt93CFePKfJIac64=",
+        "originContent": "    sw2.Restart();",
+        "translatedContent": "    sw2.Restart();"
+      },
+      {
+        "row": 20,
+        "rowsha": "WOpoRsY+hoRA85wlPr9zVqpU0BZxkN8Fry+gVHQlmO8=",
+        "originContent": "    Parallel.For(0, ITER, static i => Guid.NewGuid());",
+        "translatedContent": "    Parallel.For(0, ITER, static i => Guid.NewGuid());"
+      },
+      {
+        "row": 21,
+        "rowsha": "2NIXbO2KbJt43PBduvMS5KvejlyN9I9zESk0wTfDY+s=",
+        "originContent": "    sw2.Stop();",
+        "translatedContent": "    sw2.Stop();"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "HcOZvILKxN/aDBeoIEZsWpwpdVDo1C6yrFtbF8NOBso=",
+        "originContent": "    var ratio = sw2.Elapsed / sw1.Elapsed;",
+        "translatedContent": "    var ratio = sw2.Elapsed / sw1.Elapsed;"
+      },
+      {
+        "row": 24,
+        "rowsha": "niqn1k2vlQ+kx02wUa/2sFaB0rkZdRrO6RUIi6Vd8ds=",
+        "originContent": "    Console.WriteLine($\"{sw2.Elapsed} Guid.NewGuid() [{ratio:N2}x slower]\");",
+        "translatedContent": "    Console.WriteLine($\"{sw2.Elapsed} Guid.NewGuid() [{ratio:N2}x slower]\");"
+      },
+      {
+        "row": 25,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 26,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "```csharp\nOutput:\n[.NET 6.0.0-rc.1.21451.13]\n00:00:00.5486513 cryptoRandom.NextGuid()\n00:00:02.0587652 Guid.NewGuid() [3.75x slower]\n00:00:00.4117180 cryptoRandom.NextGuid()\n00:00:02.0485556 Guid.NewGuid() [4.98x slower]\n00:00:00.4103378 cryptoRandom.NextGuid()\n00:00:02.0534771 Guid.NewGuid() [5.00x slower]\n00:00:00.4100701 cryptoRandom.NextGuid()\n00:00:02.0823213 Guid.NewGuid() [5.08x slower]\n00:00:00.4017192 cryptoRandom.NextGuid()\n00:00:02.0488105 Guid.NewGuid() [5.10x slower]\n```",
+    "ContentSha": "0LUqij2IJ/447fZp6KQ2KP+FvzDrbxQJdmyYQYsbatk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```csharp\nOutput:\n[.NET 6.0.0-rc.1.21451.13]\n00:00:00.5486513 cryptoRandom.NextGuid()\n00:00:02.0587652 Guid.NewGuid() [3.75x slower]\n00:00:00.4117180 cryptoRandom.NextGuid()\n00:00:02.0485556 Guid.NewGuid() [4.98x slower]\n00:00:00.4103378 cryptoRandom.NextGuid()\n00:00:02.0534771 Guid.NewGuid() [5.00x slower]\n00:00:00.4100701 cryptoRandom.NextGuid()\n00:00:02.0823213 Guid.NewGuid() [5.08x slower]\n00:00:00.4017192 cryptoRandom.NextGuid()\n00:00:02.0488105 Guid.NewGuid() [5.10x slower]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+        "originContent": "```csharp",
+        "translatedContent": "```csharp"
+      },
+      {
+        "row": 2,
+        "rowsha": "RX9JV6+EKlJRz7cZAjTmpvwwwctp17nQhrSznIn4qwY=",
+        "originContent": "Output:",
+        "translatedContent": "Output:"
+      },
+      {
+        "row": 3,
+        "rowsha": "G4jkyoL78JcxNgpro0MUbm2AHGn+B1tY0K0uolieNoY=",
+        "originContent": "[.NET 6.0.0-rc.1.21451.13]",
+        "translatedContent": "[.NET 6.0.0-rc.1.21451.13]"
+      },
+      {
+        "row": 4,
+        "rowsha": "LVlDDr76ZxLDNrZ/ABB2zuQ7gIhg5kl2oasJsGmZLg8=",
+        "originContent": "00:00:00.5486513 cryptoRandom.NextGuid()",
+        "translatedContent": "00:00:00.5486513 cryptoRandom.NextGuid()"
+      },
+      {
+        "row": 5,
+        "rowsha": "1aYzWAB1OFG5LUCeyb3yywcxm0LPukRp3+iyAcgKZz0=",
+        "originContent": "00:00:02.0587652 Guid.NewGuid() [3.75x slower]",
+        "translatedContent": "00:00:02.0587652 Guid.NewGuid() [3.75x slower]"
+      },
+      {
+        "row": 6,
+        "rowsha": "PvsyhcadMHKIrGzond5wywlctukPtqaIUZvuFJ0yL7E=",
+        "originContent": "00:00:00.4117180 cryptoRandom.NextGuid()",
+        "translatedContent": "00:00:00.4117180 cryptoRandom.NextGuid()"
+      },
+      {
+        "row": 7,
+        "rowsha": "tea3CvkO8e24srRvIL8zUBAw5YhTQFGLQdc+ONmX+es=",
+        "originContent": "00:00:02.0485556 Guid.NewGuid() [4.98x slower]",
+        "translatedContent": "00:00:02.0485556 Guid.NewGuid() [4.98x slower]"
+      },
+      {
+        "row": 8,
+        "rowsha": "p5krHs2V/+v9y4T6A8P81gsQK7JEyXDMOhIdwyFjgTU=",
+        "originContent": "00:00:00.4103378 cryptoRandom.NextGuid()",
+        "translatedContent": "00:00:00.4103378 cryptoRandom.NextGuid()"
+      },
+      {
+        "row": 9,
+        "rowsha": "HpsRtDQWmoWuhUxEsK6vw3/IAeGTdXF4lDrWFcr4gRU=",
+        "originContent": "00:00:02.0534771 Guid.NewGuid() [5.00x slower]",
+        "translatedContent": "00:00:02.0534771 Guid.NewGuid() [5.00x slower]"
+      },
+      {
+        "row": 10,
+        "rowsha": "5nAiaS8DUdpFtTASj3DfY6XGmlEmiyliUIxZ3/QWwGg=",
+        "originContent": "00:00:00.4100701 cryptoRandom.NextGuid()",
+        "translatedContent": "00:00:00.4100701 cryptoRandom.NextGuid()"
+      },
+      {
+        "row": 11,
+        "rowsha": "hgey0jOeOitfkuBfpTNsi6edLdw3BH0KuYRnKlLsvUE=",
+        "originContent": "00:00:02.0823213 Guid.NewGuid() [5.08x slower]",
+        "translatedContent": "00:00:02.0823213 Guid.NewGuid() [5.08x slower]"
+      },
+      {
+        "row": 12,
+        "rowsha": "VqoicHB4yWaNZlh+iPzaCpfY9IOT07nEFYP1OO693u0=",
+        "originContent": "00:00:00.4017192 cryptoRandom.NextGuid()",
+        "translatedContent": "00:00:00.4017192 cryptoRandom.NextGuid()"
+      },
+      {
+        "row": 13,
+        "rowsha": "cxJcaSOlv1eXhVv/Fm7QNAn1eLLi09DGPWSB3MtNg60=",
+        "originContent": "00:00:02.0488105 Guid.NewGuid() [5.10x slower]",
+        "translatedContent": "00:00:02.0488105 Guid.NewGuid() [5.10x slower]"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "---\n## **What's wrong with `Random` and `RandomNumberGenerator`**?\n* `Random` is slow and not thread-safe (fails miserably and silently on concurrent access)\n* `Random` is incorrectly implemented:",
+    "ContentSha": "HAWPgK9a92psrwOd7hVa6aYx9b3e0pLCYQ5BcHSqSxU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n## **What's wrong with `Random` and `RandomNumberGenerator`**?\n* `Random` is slow and not thread-safe (fails miserably and silently on concurrent access)\n* `Random` is incorrectly implemented:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 2,
+        "rowsha": "zdpo74LC2+J8MQDSGbjrAv/wukqaszDMBknkAVZmWY8=",
+        "originContent": "## **What's wrong with `Random` and `RandomNumberGenerator`**?",
+        "translatedContent": "## **What's wrong with `Random` and `RandomNumberGenerator`**?"
+      },
+      {
+        "row": 3,
+        "rowsha": "kcEFynubGF9pWOPevq700w1y/G/i9HzOv/KAyBn1nXM=",
+        "originContent": "* `Random` is slow and not thread-safe (fails miserably and silently on concurrent access)",
+        "translatedContent": "* `Random` is slow and not thread-safe (fails miserably and silently on concurrent access)"
+      },
+      {
+        "row": 4,
+        "rowsha": "a3C0i4zhX7ob9Of5ddX1/9g4n8Uwlp1+AXGeci7584E=",
+        "originContent": "* `Random` is incorrectly implemented:",
+        "translatedContent": "* `Random` is incorrectly implemented:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```csharp\nRandom r = new Random(); // new CryptoRandom();\nconst int mod = 2;\nint[] hist = new int[mod];\nfor (int i = 0; i < 10000000; i++)\n{\n\tint num = r.Next(0x55555555);\n\tint num2 = num % 2;\n\t++hist[num2];\n}\nfor (int i = 0; i < mod; i++)\n\tConsole.WriteLine($\"{i}: {hist[i]}\");\n// Run this on .NET 5 or below. Surprised? Now change to CryptoRandom\n// Fails on .NET 6 if you use seeded \"new Random(seed)\"\n```",
+    "ContentSha": "39fXxgK8tcz7w22l+EyhNeS3dWdQjxjxfHy/DouSOs0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```csharp\nRandom r = new Random(); // new CryptoRandom();\nconst int mod = 2;\nint[] hist = new int[mod];\nfor (int i = 0; i < 10000000; i++)\n{\n\tint num = r.Next(0x55555555);\n\tint num2 = num % 2;\n\t++hist[num2];\n}\nfor (int i = 0; i < mod; i++)\n\tConsole.WriteLine($\"{i}: {hist[i]}\");\n// Run this on .NET 5 or below. Surprised? Now change to CryptoRandom\n// Fails on .NET 6 if you use seeded \"new Random(seed)\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+        "originContent": "```csharp",
+        "translatedContent": "```csharp"
+      },
+      {
+        "row": 2,
+        "rowsha": "L8YyXWEByj9D18iCnQnwI0EWjZK/VLwliZAvcg42Ldg=",
+        "originContent": "Random r = new Random(); // new CryptoRandom();",
+        "translatedContent": "Random r = new Random(); // new CryptoRandom();"
+      },
+      {
+        "row": 3,
+        "rowsha": "1qqoL/GXVFpbplTdI9b29XLqbxTUzVDPAQpNfG9VAy4=",
+        "originContent": "const int mod = 2;",
+        "translatedContent": "const int mod = 2;"
+      },
+      {
+        "row": 4,
+        "rowsha": "0D8qk+O+0CU91JUBgt4dCfKjXIB47t9QXKzKj2kTn50=",
+        "originContent": "int[] hist = new int[mod];",
+        "translatedContent": "int[] hist = new int[mod];"
+      },
+      {
+        "row": 5,
+        "rowsha": "mgcd8pptkTcO3ANjHrzgfYcFrpwXlvURjW1N+xewOVw=",
+        "originContent": "for (int i = 0; i < 10000000; i++)",
+        "translatedContent": "for (int i = 0; i < 10000000; i++)"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 7,
+        "rowsha": "3CZrqRpMulGepGQPr425PLUqNvryrTEXh3f45vn0KhU=",
+        "originContent": "\tint num = r.Next(0x55555555);",
+        "translatedContent": "\tint num = r.Next(0x55555555);"
+      },
+      {
+        "row": 8,
+        "rowsha": "UBhfHiQutFE10ZcTOlzMsMcOTplsQVHOJKVb35cL1zQ=",
+        "originContent": "\tint num2 = num % 2;",
+        "translatedContent": "\tint num2 = num % 2;"
+      },
+      {
+        "row": 9,
+        "rowsha": "LWoU7D/1t5nrFsv/rkTKcgkGD86mBzwZ0ZNFCQFfGJw=",
+        "originContent": "\t++hist[num2];",
+        "translatedContent": "\t++hist[num2];"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "yDIKeozrD2e8pqIQuv9EKhvm/K+HD8LFDtoD2Cwme8E=",
+        "originContent": "for (int i = 0; i < mod; i++)",
+        "translatedContent": "for (int i = 0; i < mod; i++)"
+      },
+      {
+        "row": 12,
+        "rowsha": "JqHsBc1QGeU9nb29BSnCG8Rsltb1VSvfFksVnuyjpF0=",
+        "originContent": "\tConsole.WriteLine($\"{i}: {hist[i]}\");",
+        "translatedContent": "\tConsole.WriteLine($\"{i}: {hist[i]}\");"
+      },
+      {
+        "row": 13,
+        "rowsha": "h0+qm/x+2x6fJ3Hi5yVnRrvtgcqENCWS57CMdvBYIeM=",
+        "originContent": "// Run this on .NET 5 or below. Surprised? Now change to CryptoRandom",
+        "translatedContent": "// Run this on .NET 5 or below. Surprised? Now change to CryptoRandom"
+      },
+      {
+        "row": 14,
+        "rowsha": "vsv31aOygH3vULGtVs4+8WhI0MLbumgB0GMTFbiitlo=",
+        "originContent": "// Fails on .NET 6 if you use seeded \"new Random(seed)\"",
+        "translatedContent": "// Fails on .NET 6 if you use seeded \"new Random(seed)\""
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "* `Random`/.NET 6 unseeded is fast (new algorithm), with a safe `.Shared` property, but instances are not thread-safe\n* `Random`/.NET 6 seeded falls back to legacy slow non-thread-safe .NET algorithm\n* Neither `Random` implementation aims for cryptographically-strong results\n* `RandomNumberGenerator` can be much faster with intelligent wrapping and more useful `Random` API\n\n---\n## **Throughput (single-threaded) .NET 6:**",
+    "ContentSha": "MCrHC8s6kI+blTGt6rkMDQaPxF6zKhm6Y1UZxPEfz7Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* `Random`/.NET 6 unseeded is fast (new algorithm), with a safe `.Shared` property, but instances are not thread-safe  \n* `Random`/.NET 6 seeded falls back to legacy slow non-thread-safe .NET algorithm  \n* Neither `Random` implementation aims for cryptographically-strong results  \n* `RandomNumberGenerator` can be much faster with intelligent wrapping and more useful `Random` API  \n\n---  \n## **Throughput (single-threaded) .NET 6:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "KNOwylBf8nl2ctoCXzksynqWskVNne4pQMHyibl6aXo=",
+        "originContent": "* `Random`/.NET 6 unseeded is fast (new algorithm), with a safe `.Shared` property, but instances are not thread-safe",
+        "translatedContent": "* `Random`/.NET 6 unseeded is fast (new algorithm), with a safe `.Shared` property, but instances are not thread-safe  "
+      },
+      {
+        "row": 2,
+        "rowsha": "6r2UavX4qSEsM3DipowHpKUMBy8sX66ou4YH4UdmdLA=",
+        "originContent": "* `Random`/.NET 6 seeded falls back to legacy slow non-thread-safe .NET algorithm",
+        "translatedContent": "* `Random`/.NET 6 seeded falls back to legacy slow non-thread-safe .NET algorithm  "
+      },
+      {
+        "row": 3,
+        "rowsha": "xu13Ohm2d2hYwT8SgDB0aDx6w8Q3siaXyJ2dZAv7Jsc=",
+        "originContent": "* Neither `Random` implementation aims for cryptographically-strong results",
+        "translatedContent": "* Neither `Random` implementation aims for cryptographically-strong results  "
+      },
+      {
+        "row": 4,
+        "rowsha": "FSzfI/6hbHnsL1ddSIMSzXXdM/DZ6AEKASGVzwCKqME=",
+        "originContent": "* `RandomNumberGenerator` can be much faster with intelligent wrapping and more useful `Random` API",
+        "translatedContent": "* `RandomNumberGenerator` can be much faster with intelligent wrapping and more useful `Random` API  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---  "
+      },
+      {
+        "row": 7,
+        "rowsha": "u7Ek/aKwo7jTQddOKzkgB460QW/tZ1i9VmP3JMb2QC4=",
+        "originContent": "## **Throughput (single-threaded) .NET 6:**",
+        "translatedContent": "## **Throughput (single-threaded) .NET 6:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```csharp\nBenchmarkDotNet=v0.13.1, OS=Windows 10.0.19042.1165 (20H2/October2020Update)\nIntel Core i7-10510U CPU 1.80GHz, 1 CPU, 8 logical and 4 physical cores\n.NET SDK=6.0.100-preview.7.21379.14\n  [Host] : .NET 6.0.0 (6.0.21.37719), X64 RyuJIT\n```",
+    "ContentSha": "JY1/4c29hoiHChAPNdyvw2xDmYmeEaxxeEAQzdZ5SvM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```csharp\nBenchmarkDotNet=v0.13.1, OS=Windows 10.0.19042.1165 (20H2/October2020Update)\nIntel Core i7-10510U CPU 1.80GHz, 1 CPU, 8 logical and 4 physical cores\n.NET SDK=6.0.100-preview.7.21379.14\n  [Host] : .NET 6.0.0 (6.0.21.37719), X64 RyuJIT\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+        "originContent": "```csharp",
+        "translatedContent": "```csharp"
+      },
+      {
+        "row": 2,
+        "rowsha": "8JO1Ew2OpF9zRDwYtR6gv9XLafLM3fFZceFWVc9bSzo=",
+        "originContent": "BenchmarkDotNet=v0.13.1, OS=Windows 10.0.19042.1165 (20H2/October2020Update)",
+        "translatedContent": "BenchmarkDotNet=v0.13.1, OS=Windows 10.0.19042.1165 (20H2/October2020Update)"
+      },
+      {
+        "row": 3,
+        "rowsha": "twrizzuea3FuG8VYvVj8aACEMosCZsADHLpYUB5pgQM=",
+        "originContent": "Intel Core i7-10510U CPU 1.80GHz, 1 CPU, 8 logical and 4 physical cores",
+        "translatedContent": "Intel Core i7-10510U CPU 1.80GHz, 1 CPU, 8 logical and 4 physical cores"
+      },
+      {
+        "row": 4,
+        "rowsha": "BJQ5klPqDnkNN3A7rssjzDSHYRypxm9tHA1yTAN6ZOU=",
+        "originContent": ".NET SDK=6.0.100-preview.7.21379.14",
+        "translatedContent": ".NET SDK=6.0.100-preview.7.21379.14"
+      },
+      {
+        "row": 5,
+        "rowsha": "hzfjgtDMtAqs9WJ2UskmvtXjuUDe7N1vbNAlbGqFo/k=",
+        "originContent": "  [Host] : .NET 6.0.0 (6.0.21.37719), X64 RyuJIT",
+        "translatedContent": "  [Host] : .NET 6.0.0 (6.0.21.37719), X64 RyuJIT"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "|             Method | BYTES |         Mean |       Error |     StdDev | Ratio | RatioSD | Throughput |\n|------------------- |------ |-------------:|------------:|-----------:|------:|--------:|-----------:|\n|       SystemRandom |    32 |     7.483 μs |   0.2714 μs |  0.0149 μs |  0.21 |    0.00 | 4,176 MB/s |\n| SystemSharedRandom |    32 |    13.197 μs |   3.3861 μs |  0.1856 μs |  0.38 |    0.00 | 2,368 MB/s |\n| SeededSystemRandom |    32 |   261.568 μs |  12.8670 μs |  0.7053 μs |  7.46 |    0.04 |   119 MB/s |\n|       CryptoRandom |    32 |    35.083 μs |   1.6305 μs |  0.0894 μs |  1.00 |    0.00 |   891 MB/s |\n| SeededCryptoRandom |    32 |    27.551 μs |   0.9383 μs |  0.0514 μs |  0.79 |    0.00 | 1,134 MB/s |\n|           RNG_Fill |    32 |   106.507 μs |  14.8172 μs |  0.8122 μs |  3.04 |    0.02 |   293 MB/s |\n|                    |       |              |             |            |       |         |            |\n|       SystemRandom |  1024 |   132.600 μs |   4.5819 μs |  0.2511 μs |  0.35 |    0.00 | 7,541 MB/s |\n| SystemSharedRandom |  1024 |   139.345 μs |  28.1093 μs |  1.5408 μs |  0.37 |    0.00 | 7,176 MB/s |\n| SeededSystemRandom |  1024 | 8,260.379 μs | 265.3543 μs | 14.5450 μs | 21.79 |    0.01 |   121 MB/s |\n|       CryptoRandom |  1024 |   379.137 μs |   8.8802 μs |  0.4868 μs |  1.00 |    0.00 | 2,638 MB/s |\n| SeededCryptoRandom |  1024 |   320.513 μs |  21.3931 μs |  1.1726 μs |  0.85 |    0.00 | 3,120 MB/s |\n|           RNG_Fill |  1024 |   447.914 μs |  15.4506 μs |  0.8469 μs |  1.18 |    0.00 | 2,233 MB/s |\n\n## **Throughput (single-threaded) .NET 5:**",
+    "ContentSha": "js8ktuX9P4E/gUdC7rXu9+ESwPl/J6Gj2f8yyaeAfps=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "|             Method | BYTES |         Mean |       Error |     StdDev | Ratio | RatioSD | Throughput |\n|------------------- |------ |-------------:|------------:|-----------:|------:|--------:|-----------:|\n|       SystemRandom |    32 |     7.483 μs |   0.2714 μs |  0.0149 μs |  0.21 |    0.00 | 4,176 MB/s |\n| SystemSharedRandom |    32 |    13.197 μs |   3.3861 μs |  0.1856 μs |  0.38 |    0.00 | 2,368 MB/s |\n| SeededSystemRandom |    32 |   261.568 μs |  12.8670 μs |  0.7053 μs |  7.46 |    0.04 |   119 MB/s |\n|       CryptoRandom |    32 |    35.083 μs |   1.6305 μs |  0.0894 μs |  1.00 |    0.00 |   891 MB/s |\n| SeededCryptoRandom |    32 |    27.551 μs |   0.9383 μs |  0.0514 μs |  0.79 |    0.00 | 1,134 MB/s |\n|           RNG_Fill |    32 |   106.507 μs |  14.8172 μs |  0.8122 μs |  3.04 |    0.02 |   293 MB/s |\n|                    |       |              |             |            |       |         |            |\n|       SystemRandom |  1024 |   132.600 μs |   4.5819 μs |  0.2511 μs |  0.35 |    0.00 | 7,541 MB/s |\n| SystemSharedRandom |  1024 |   139.345 μs |  28.1093 μs |  1.5408 μs |  0.37 |    0.00 | 7,176 MB/s |\n| SeededSystemRandom |  1024 | 8,260.379 μs | 265.3543 μs | 14.5450 μs | 21.79 |    0.01 |   121 MB/s |\n|       CryptoRandom |  1024 |   379.137 μs |   8.8802 μs |  0.4868 μs |  1.00 |    0.00 | 2,638 MB/s |\n| SeededCryptoRandom |  1024 |   320.513 μs |  21.3931 μs |  1.1726 μs |  0.85 |    0.00 | 3,120 MB/s |\n|           RNG_Fill |  1024 |   447.914 μs |  15.4506 μs |  0.8469 μs |  1.18 |    0.00 | 2,233 MB/s |\n\n## **Throughput (single-threaded) .NET 5:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "G+FC0wuiTRBH54DJq6KPx8DlQV5/ggarYd7ZRwA3oAQ=",
+        "originContent": "|             Method | BYTES |         Mean |       Error |     StdDev | Ratio | RatioSD | Throughput |",
+        "translatedContent": "|             Method | BYTES |         Mean |       Error |     StdDev | Ratio | RatioSD | Throughput |"
+      },
+      {
+        "row": 2,
+        "rowsha": "Hf9W0yZgX20mb08P5Yqlmfpay9VSxNNREYT/4HX199c=",
+        "originContent": "|------------------- |------ |-------------:|------------:|-----------:|------:|--------:|-----------:|",
+        "translatedContent": "|------------------- |------ |-------------:|------------:|-----------:|------:|--------:|-----------:|"
+      },
+      {
+        "row": 3,
+        "rowsha": "63OPhUQqbM9VtKuQm+hs/Fd9VncW2JJl4rGyAhTSoDw=",
+        "originContent": "|       SystemRandom |    32 |     7.483 μs |   0.2714 μs |  0.0149 μs |  0.21 |    0.00 | 4,176 MB/s |",
+        "translatedContent": "|       SystemRandom |    32 |     7.483 μs |   0.2714 μs |  0.0149 μs |  0.21 |    0.00 | 4,176 MB/s |"
+      },
+      {
+        "row": 4,
+        "rowsha": "2/tygkGESAJKQ3h+5rpb36BJ7rKUtsVfi9wBTOd1a1I=",
+        "originContent": "| SystemSharedRandom |    32 |    13.197 μs |   3.3861 μs |  0.1856 μs |  0.38 |    0.00 | 2,368 MB/s |",
+        "translatedContent": "| SystemSharedRandom |    32 |    13.197 μs |   3.3861 μs |  0.1856 μs |  0.38 |    0.00 | 2,368 MB/s |"
+      },
+      {
+        "row": 5,
+        "rowsha": "D4ZQzgcWAQBOag7dtEtAmMsUzbHCTzgPGcZwz1LZLO4=",
+        "originContent": "| SeededSystemRandom |    32 |   261.568 μs |  12.8670 μs |  0.7053 μs |  7.46 |    0.04 |   119 MB/s |",
+        "translatedContent": "| SeededSystemRandom |    32 |   261.568 μs |  12.8670 μs |  0.7053 μs |  7.46 |    0.04 |   119 MB/s |"
+      },
+      {
+        "row": 6,
+        "rowsha": "IgKa17Hzs/uHM3FEJtIg7cIq+TQaXdcKo0FIeNhXcsM=",
+        "originContent": "|       CryptoRandom |    32 |    35.083 μs |   1.6305 μs |  0.0894 μs |  1.00 |    0.00 |   891 MB/s |",
+        "translatedContent": "|       CryptoRandom |    32 |    35.083 μs |   1.6305 μs |  0.0894 μs |  1.00 |    0.00 |   891 MB/s |"
+      },
+      {
+        "row": 7,
+        "rowsha": "68NbIzvoJePD3ZWmKZXnTcEQzRd29mqNqvmsQuehgHY=",
+        "originContent": "| SeededCryptoRandom |    32 |    27.551 μs |   0.9383 μs |  0.0514 μs |  0.79 |    0.00 | 1,134 MB/s |",
+        "translatedContent": "| SeededCryptoRandom |    32 |    27.551 μs |   0.9383 μs |  0.0514 μs |  0.79 |    0.00 | 1,134 MB/s |"
+      },
+      {
+        "row": 8,
+        "rowsha": "jC2OnKJul7v90byNv37dmNj3OLxfZAPreWgSKoTxEwU=",
+        "originContent": "|           RNG_Fill |    32 |   106.507 μs |  14.8172 μs |  0.8122 μs |  3.04 |    0.02 |   293 MB/s |",
+        "translatedContent": "|           RNG_Fill |    32 |   106.507 μs |  14.8172 μs |  0.8122 μs |  3.04 |    0.02 |   293 MB/s |"
+      },
+      {
+        "row": 9,
+        "rowsha": "v2fRIx2hzpwBVD3qaf4y9y6ebNA+50kKST/RXRCweXU=",
+        "originContent": "|                    |       |              |             |            |       |         |            |",
+        "translatedContent": "|                    |       |              |             |            |       |         |            |"
+      },
+      {
+        "row": 10,
+        "rowsha": "SjK4NslZloQwLjWC6xIjWoImTFHwoteufnJNhibQRkk=",
+        "originContent": "|       SystemRandom |  1024 |   132.600 μs |   4.5819 μs |  0.2511 μs |  0.35 |    0.00 | 7,541 MB/s |",
+        "translatedContent": "|       SystemRandom |  1024 |   132.600 μs |   4.5819 μs |  0.2511 μs |  0.35 |    0.00 | 7,541 MB/s |"
+      },
+      {
+        "row": 11,
+        "rowsha": "QecmGqHgENOI9U5tWI0abfOmIupW5EMzgauBnS3WqYw=",
+        "originContent": "| SystemSharedRandom |  1024 |   139.345 μs |  28.1093 μs |  1.5408 μs |  0.37 |    0.00 | 7,176 MB/s |",
+        "translatedContent": "| SystemSharedRandom |  1024 |   139.345 μs |  28.1093 μs |  1.5408 μs |  0.37 |    0.00 | 7,176 MB/s |"
+      },
+      {
+        "row": 12,
+        "rowsha": "B65Jf3Za/tqLkuxr+ZI2xFPlhC/NUBAb4Xkdc1jVB2g=",
+        "originContent": "| SeededSystemRandom |  1024 | 8,260.379 μs | 265.3543 μs | 14.5450 μs | 21.79 |    0.01 |   121 MB/s |",
+        "translatedContent": "| SeededSystemRandom |  1024 | 8,260.379 μs | 265.3543 μs | 14.5450 μs | 21.79 |    0.01 |   121 MB/s |"
+      },
+      {
+        "row": 13,
+        "rowsha": "qvG13blVFV8vEDKQKbOIDJ9O1J8Ai0E+31dF1MjlfTA=",
+        "originContent": "|       CryptoRandom |  1024 |   379.137 μs |   8.8802 μs |  0.4868 μs |  1.00 |    0.00 | 2,638 MB/s |",
+        "translatedContent": "|       CryptoRandom |  1024 |   379.137 μs |   8.8802 μs |  0.4868 μs |  1.00 |    0.00 | 2,638 MB/s |"
+      },
+      {
+        "row": 14,
+        "rowsha": "x+2Bqq4FCgBvV0Mgo2SjA17dYjIBj/5ijKgn/agf0fo=",
+        "originContent": "| SeededCryptoRandom |  1024 |   320.513 μs |  21.3931 μs |  1.1726 μs |  0.85 |    0.00 | 3,120 MB/s |",
+        "translatedContent": "| SeededCryptoRandom |  1024 |   320.513 μs |  21.3931 μs |  1.1726 μs |  0.85 |    0.00 | 3,120 MB/s |"
+      },
+      {
+        "row": 15,
+        "rowsha": "JmAzIP7lZGmopb7vBGANf4WR56ynxt2qb4lkhlkFjKk=",
+        "originContent": "|           RNG_Fill |  1024 |   447.914 μs |  15.4506 μs |  0.8469 μs |  1.18 |    0.00 | 2,233 MB/s |",
+        "translatedContent": "|           RNG_Fill |  1024 |   447.914 μs |  15.4506 μs |  0.8469 μs |  1.18 |    0.00 | 2,233 MB/s |"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "FPgkXAIJFQGwFVnFIqPJKgMqNNKaNeR+cKYNBnsSZ2A=",
+        "originContent": "## **Throughput (single-threaded) .NET 5:**",
+        "translatedContent": "## **Throughput (single-threaded) .NET 5:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```csharp\nBenchmarkDotNet=v0.13.1, OS=Windows 10.0.19042.1165 (20H2/October2020Update)\nIntel Core i7-10510U CPU 1.80GHz, 1 CPU, 8 logical and 4 physical cores\n.NET SDK=6.0.100-preview.7.21379.14\n  [Host] : .NET 5.0.9 (5.0.921.35908), X64 RyuJIT\n```",
+    "ContentSha": "MxccHz+8lWzH8n34H3955l7sMt1qr7zYTQmBM2Xko9s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```csharp\nBenchmarkDotNet=v0.13.1, OS=Windows 10.0.19042.1165 (20H2/October2020Update)\nIntel Core i7-10510U CPU 1.80GHz, 1 CPU, 8 logical and 4 physical cores\n.NET SDK=6.0.100-preview.7.21379.14\n  [Host] : .NET 5.0.9 (5.0.921.35908), X64 RyuJIT\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DTYjJUoTRRqUO0UnUYV/AGNkCT3MDXXS9Vynilr5bGs=",
+        "originContent": "```csharp",
+        "translatedContent": "```csharp"
+      },
+      {
+        "row": 2,
+        "rowsha": "8JO1Ew2OpF9zRDwYtR6gv9XLafLM3fFZceFWVc9bSzo=",
+        "originContent": "BenchmarkDotNet=v0.13.1, OS=Windows 10.0.19042.1165 (20H2/October2020Update)",
+        "translatedContent": "BenchmarkDotNet=v0.13.1, OS=Windows 10.0.19042.1165 (20H2/October2020Update)"
+      },
+      {
+        "row": 3,
+        "rowsha": "twrizzuea3FuG8VYvVj8aACEMosCZsADHLpYUB5pgQM=",
+        "originContent": "Intel Core i7-10510U CPU 1.80GHz, 1 CPU, 8 logical and 4 physical cores",
+        "translatedContent": "Intel Core i7-10510U CPU 1.80GHz, 1 CPU, 8 logical and 4 physical cores"
+      },
+      {
+        "row": 4,
+        "rowsha": "BJQ5klPqDnkNN3A7rssjzDSHYRypxm9tHA1yTAN6ZOU=",
+        "originContent": ".NET SDK=6.0.100-preview.7.21379.14",
+        "translatedContent": ".NET SDK=6.0.100-preview.7.21379.14"
+      },
+      {
+        "row": 5,
+        "rowsha": "ASATnoS5mxibgnoUjy0Gxdntc5pyn1MUvFMzJ+3A6m4=",
+        "originContent": "  [Host] : .NET 5.0.9 (5.0.921.35908), X64 RyuJIT",
+        "translatedContent": "  [Host] : .NET 5.0.9 (5.0.921.35908), X64 RyuJIT"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "|             Method | BYTES |        Mean |      Error |    StdDev | Ratio | RatioSD | Throughput |\n|------------------- |------ |------------:|-----------:|----------:|------:|--------:|-----------:|\n|       SystemRandom |    32 |   252.89 μs |  53.609 μs |  2.938 μs |  7.30 |    0.09 |   124 MB/s |\n| SeededSystemRandom |    32 |   259.82 μs |   3.966 μs |  0.217 μs |  7.50 |    0.03 |   120 MB/s |\n|       CryptoRandom |    32 |    34.66 μs |   2.193 μs |  0.120 μs |  1.00 |    0.00 |   902 MB/s |\n| SeededCryptoRandom |    32 |    26.71 μs |   3.703 μs |  0.203 μs |  0.77 |    0.01 | 1,170 MB/s |\n|           RNG_Fill |    32 |   105.98 μs |   9.724 μs |  0.533 μs |  3.06 |    0.02 |   295 MB/s |\n|                    |       |             |            |           |       |         |            |\n|       SystemRandom |  1024 | 8,403.73 μs | 510.750 μs | 27.996 μs | 22.35 |    0.06 |   119 MB/s |\n| SeededSystemRandom |  1024 | 8,262.47 μs | 721.788 μs | 39.564 μs | 21.98 |    0.13 |   121 MB/s |\n|       CryptoRandom |  1024 |   375.98 μs |   8.603 μs |  0.472 μs |  1.00 |    0.00 | 2,660 MB/s |\n| SeededCryptoRandom |  1024 |   318.11 μs | 219.420 μs | 12.027 μs |  0.85 |    0.03 | 3,144 MB/s |\n|           RNG_Fill |  1024 |   450.76 μs |  32.919 μs |  1.804 μs |  1.20 |    0.00 | 2,218 MB/s |\n\n",
+    "ContentSha": "74/0OQpyHpsgSNaG/h2HAHhT0Z+jV8uv9Wtfqe+eerI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "|             Method | BYTES |        Mean |      Error |    StdDev | Ratio | RatioSD | Throughput |\n|------------------- |------ |------------:|-----------:|----------:|------:|--------:|-----------:|\n|       SystemRandom |    32 |   252.89 μs |  53.609 μs |  2.938 μs |  7.30 |    0.09 |   124 MB/s |\n| SeededSystemRandom |    32 |   259.82 μs |   3.966 μs |  0.217 μs |  7.50 |    0.03 |   120 MB/s |\n|       CryptoRandom |    32 |    34.66 μs |   2.193 μs |  0.120 μs |  1.00 |    0.00 |   902 MB/s |\n| SeededCryptoRandom |    32 |    26.71 μs |   3.703 μs |  0.203 μs |  0.77 |    0.01 | 1,170 MB/s |\n|           RNG_Fill |    32 |   105.98 μs |   9.724 μs |  0.533 μs |  3.06 |    0.02 |   295 MB/s |\n|                    |       |             |            |           |       |         |            |\n|       SystemRandom |  1024 | 8,403.73 μs | 510.750 μs | 27.996 μs | 22.35 |    0.06 |   119 MB/s |\n| SeededSystemRandom |  1024 | 8,262.47 μs | 721.788 μs | 39.564 μs | 21.98 |    0.13 |   121 MB/s |\n|       CryptoRandom |  1024 |   375.98 μs |   8.603 μs |  0.472 μs |  1.00 |    0.00 | 2,660 MB/s |\n| SeededCryptoRandom |  1024 |   318.11 μs | 219.420 μs | 12.027 μs |  0.85 |    0.03 | 3,144 MB/s |\n|           RNG_Fill |  1024 |   450.76 μs |  32.919 μs |  1.804 μs |  1.20 |    0.00 | 2,218 MB/s |\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tIZ1NVXDgX1OrIQxC7ibF+RdcoQWJ5Qct0apUh5lGfQ=",
+        "originContent": "|             Method | BYTES |        Mean |      Error |    StdDev | Ratio | RatioSD | Throughput |",
+        "translatedContent": "|             Method | BYTES |        Mean |      Error |    StdDev | Ratio | RatioSD | Throughput |"
+      },
+      {
+        "row": 2,
+        "rowsha": "Xfp53TiIFbFXj3Y77QHoh0GUwCTXiB/KqcsLs+ADkOo=",
+        "originContent": "|------------------- |------ |------------:|-----------:|----------:|------:|--------:|-----------:|",
+        "translatedContent": "|------------------- |------ |------------:|-----------:|----------:|------:|--------:|-----------:|"
+      },
+      {
+        "row": 3,
+        "rowsha": "DTRG3k/eJVABEvsu9pk7gUjUM31hePiwdTc1wQrkBgA=",
+        "originContent": "|       SystemRandom |    32 |   252.89 μs |  53.609 μs |  2.938 μs |  7.30 |    0.09 |   124 MB/s |",
+        "translatedContent": "|       SystemRandom |    32 |   252.89 μs |  53.609 μs |  2.938 μs |  7.30 |    0.09 |   124 MB/s |"
+      },
+      {
+        "row": 4,
+        "rowsha": "gdEzgvNIuwir3ViPQrxwcH5V/kyZiEKl3lYvPG716mM=",
+        "originContent": "| SeededSystemRandom |    32 |   259.82 μs |   3.966 μs |  0.217 μs |  7.50 |    0.03 |   120 MB/s |",
+        "translatedContent": "| SeededSystemRandom |    32 |   259.82 μs |   3.966 μs |  0.217 μs |  7.50 |    0.03 |   120 MB/s |"
+      },
+      {
+        "row": 5,
+        "rowsha": "EeBUKd1olYyfL05t7UGKwUoCfcqj7W3VctOiHkj/KeM=",
+        "originContent": "|       CryptoRandom |    32 |    34.66 μs |   2.193 μs |  0.120 μs |  1.00 |    0.00 |   902 MB/s |",
+        "translatedContent": "|       CryptoRandom |    32 |    34.66 μs |   2.193 μs |  0.120 μs |  1.00 |    0.00 |   902 MB/s |"
+      },
+      {
+        "row": 6,
+        "rowsha": "g6zn/rPkaPryDluZQGFNO74qvZ9m9SniUltyGLD2yuY=",
+        "originContent": "| SeededCryptoRandom |    32 |    26.71 μs |   3.703 μs |  0.203 μs |  0.77 |    0.01 | 1,170 MB/s |",
+        "translatedContent": "| SeededCryptoRandom |    32 |    26.71 μs |   3.703 μs |  0.203 μs |  0.77 |    0.01 | 1,170 MB/s |"
+      },
+      {
+        "row": 7,
+        "rowsha": "k1p7R7VhFix7KewsHsHMmwCtWlJDYgVhz45q6jUePo0=",
+        "originContent": "|           RNG_Fill |    32 |   105.98 μs |   9.724 μs |  0.533 μs |  3.06 |    0.02 |   295 MB/s |",
+        "translatedContent": "|           RNG_Fill |    32 |   105.98 μs |   9.724 μs |  0.533 μs |  3.06 |    0.02 |   295 MB/s |"
+      },
+      {
+        "row": 8,
+        "rowsha": "gp4RccaI1Jd2eBu63LI/r2RpGUTByVrMwfAMGr5qTQw=",
+        "originContent": "|                    |       |             |            |           |       |         |            |",
+        "translatedContent": "|                    |       |             |            |           |       |         |            |"
+      },
+      {
+        "row": 9,
+        "rowsha": "Y4rmRQk8TvQUqntwMWrDbPvNWueNuFz3pMF+fsDRDQs=",
+        "originContent": "|       SystemRandom |  1024 | 8,403.73 μs | 510.750 μs | 27.996 μs | 22.35 |    0.06 |   119 MB/s |",
+        "translatedContent": "|       SystemRandom |  1024 | 8,403.73 μs | 510.750 μs | 27.996 μs | 22.35 |    0.06 |   119 MB/s |"
+      },
+      {
+        "row": 10,
+        "rowsha": "Odn1qE0qvG2C5O40aKn0bGjp60cYe7xMaWTLWeqlCMI=",
+        "originContent": "| SeededSystemRandom |  1024 | 8,262.47 μs | 721.788 μs | 39.564 μs | 21.98 |    0.13 |   121 MB/s |",
+        "translatedContent": "| SeededSystemRandom |  1024 | 8,262.47 μs | 721.788 μs | 39.564 μs | 21.98 |    0.13 |   121 MB/s |"
+      },
+      {
+        "row": 11,
+        "rowsha": "Y9hWL7dDTcGBHqxujFb3lQhfypc+qfBXxsPwR4Ya8zQ=",
+        "originContent": "|       CryptoRandom |  1024 |   375.98 μs |   8.603 μs |  0.472 μs |  1.00 |    0.00 | 2,660 MB/s |",
+        "translatedContent": "|       CryptoRandom |  1024 |   375.98 μs |   8.603 μs |  0.472 μs |  1.00 |    0.00 | 2,660 MB/s |"
+      },
+      {
+        "row": 12,
+        "rowsha": "BW6CtrOYjibvk7tRrhM+l3lmyDmupT4S6qzzgUEDv5s=",
+        "originContent": "| SeededCryptoRandom |  1024 |   318.11 μs | 219.420 μs | 12.027 μs |  0.85 |    0.03 | 3,144 MB/s |",
+        "translatedContent": "| SeededCryptoRandom |  1024 |   318.11 μs | 219.420 μs | 12.027 μs |  0.85 |    0.03 | 3,144 MB/s |"
+      },
+      {
+        "row": 13,
+        "rowsha": "/nNDFKFnWIX8m0Sb+DDI8ri8ChR8nZNBjw2GheyIrIw=",
+        "originContent": "|           RNG_Fill |  1024 |   450.76 μs |  32.919 μs |  1.804 μs |  1.20 |    0.00 | 2,218 MB/s |",
+        "translatedContent": "|           RNG_Fill |  1024 |   450.76 μs |  32.919 μs |  1.804 μs |  1.20 |    0.00 | 2,218 MB/s |"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

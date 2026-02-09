@@ -1,0 +1,404 @@
+[
+  {
+    "row": 1,
+    "rowsha": "a4zzPsG4iKCuyUdL7lYjovLV6atCjyVoMAw5vPpiOtU=",
+    "originContent": "# Bevy fluent",
+    "translatedContent": "# Bevy fluent"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "S6MxRoejKylCvZe9WYncq/V0g6E/qlYXe70qLthSau0=",
+    "originContent": "[![crates.io](https://img.shields.io/crates/v/bevy_fluent.svg)](https://crates.io/crates/bevy_fluent)",
+    "translatedContent": "[![crates.io](https://img.shields.io/crates/v/bevy_fluent.svg)](https://crates.io/crates/bevy_fluent)"
+  },
+  {
+    "row": 4,
+    "rowsha": "R/CXxaN6oraehMtr4yhzRQSrBf/GTV9sGIhC4ToyWC8=",
+    "originContent": "[![docs.rs](https://docs.rs/bevy_fluent/badge.svg)](https://docs.rs/bevy_fluent)",
+    "translatedContent": "[![docs.rs](https://docs.rs/bevy_fluent/badge.svg)](https://docs.rs/bevy_fluent)"
+  },
+  {
+    "row": 5,
+    "rowsha": "28/vU5c01NxrMkd9s3O1HXHNkBVmxAVp6E3YbaourBQ=",
+    "originContent": "[![license](https://img.shields.io/crates/l/bevy_fluent)](#license)",
+    "translatedContent": "[![license](https://img.shields.io/crates/l/bevy_fluent)](#license)"
+  },
+  {
+    "row": 6,
+    "rowsha": "XiPr6yHB0bsdnMuK7lGXV1R6tx4/BiTwo5TVme3LRZU=",
+    "originContent": "[![ci](https://github.com/kgv/bevy_fluent/workflows/ci/badge.svg)](https://github.com/kgv/bevy_fluent/actions)",
+    "translatedContent": "[![ci](https://github.com/kgv/bevy_fluent/workflows/ci/badge.svg)](https://github.com/kgv/bevy_fluent/actions)"
+  },
+  {
+    "row": 7,
+    "rowsha": "Jj4VF+PIO7swOWxC5uDnSitCFh2YVTDZjD05LNE+jnU=",
+    "originContent": "[![bevy tracking](https://img.shields.io/badge/bevy%20tracking-main-yellow)](https://github.com/bevyengine/bevy/blob/master/docs/plugins_guidelines.md#master-branch-tracking)",
+    "translatedContent": "[![bevy tracking](https://img.shields.io/badge/bevy%20tracking-main-yellow)](https://github.com/bevyengine/bevy/blob/master/docs/plugins_guidelines.md#master-branch-tracking)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "kKl3j1gnn3oEspMSpsvx3xJPPOMlZSv3PlHdQWlaE/w=",
+    "originContent": "[Bevy][bevy] plugin for localization using [Fluent][fluent].",
+    "translatedContent": "[Bevy][bevy] plugin para localización usando [Fluent][fluent]."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+    "originContent": "## Documentation",
+    "translatedContent": "## Documentación"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "Krf+9G99SksX3CwIcstqf8eKt8zMbpTwqUmpy/gboTM=",
+    "originContent": "[English 🇺🇸](https://raw.githubusercontent.com/kgv/bevy_fluent/main/doc/en-US.md) | [Русский 🇷🇺](https://raw.githubusercontent.com/kgv/bevy_fluent/main/doc/ru-RU.md)",
+    "translatedContent": "[English 🇺🇸](https://raw.githubusercontent.com/kgv/bevy_fluent/main/doc/en-US.md) | [Русский 🇷🇺](https://raw.githubusercontent.com/kgv/bevy_fluent/main/doc/ru-RU.md)"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "bniRnJr7ceMBzfcL+FkhP2ag0Z7DVAMGwc+a3IjDY50=",
+    "originContent": "## Version",
+    "translatedContent": "## Versión"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "4xHak203u89CmykS6fHJ8uzNwNVoF1DBpqjJ4u5iIHE=",
+    "originContent": "| bevy | bevy_fluent |",
+    "translatedContent": "| bevy | bevy_fluent |"
+  },
+  {
+    "row": 18,
+    "rowsha": "RhF3j6b0SbptHVIMPaxRS9GraW+MubumRJBPNTZN3kg=",
+    "originContent": "| ---- | ----------- |",
+    "translatedContent": "| ---- | ----------- |"
+  },
+  {
+    "row": 19,
+    "rowsha": "yr0upiwUeM1D0lsQzDnT5C1JD58mG8XIBkXKcKIYXNk=",
+    "originContent": "| 0.17 | 0.13        |",
+    "translatedContent": "| 0.17 | 0.13        |"
+  },
+  {
+    "row": 20,
+    "rowsha": "3BPGOkYbzwU8VnCcEbcpxOM/UjCSUjWMMUZSf6iwyCY=",
+    "originContent": "| 0.16 | 0.12        |",
+    "translatedContent": "| 0.16 | 0.12        |"
+  },
+  {
+    "row": 21,
+    "rowsha": "KTpqNp5XDxEA/CQHPXfCH4PdxFsa7cR0Il7agf/LWas=",
+    "originContent": "| 0.15 | 0.11        |",
+    "translatedContent": "| 0.15 | 0.11        |"
+  },
+  {
+    "row": 22,
+    "rowsha": "+mKGguUIGCOdQsK5Z7q3x2niEIqxtQkM99JOCUIsMEU=",
+    "originContent": "| 0.14 | 0.10        |",
+    "translatedContent": "| 0.14 | 0.10        |"
+  },
+  {
+    "row": 23,
+    "rowsha": "kUW5/vbf9L0ELD5t7uIykr+ni0Ulk/SbsZVSumMKzdM=",
+    "originContent": "| 0.13 | 0.9         |",
+    "translatedContent": "| 0.13 | 0.9         |"
+  },
+  {
+    "row": 24,
+    "rowsha": "4hmGpi4C5pn3aUmyGF+9TQc9hlH4k/yQfmHT1527cKc=",
+    "originContent": "| 0.12 | 0.8         |",
+    "translatedContent": "| 0.12 | 0.8         |"
+  },
+  {
+    "row": 25,
+    "rowsha": "SZgmMvI5YAqmNGI9ZE0OodHMCZ9mNc3khHJqrGqH6DY=",
+    "originContent": "| 0.11 | 0.7         |",
+    "translatedContent": "| 0.11 | 0.7         |"
+  },
+  {
+    "row": 26,
+    "rowsha": "riAeo2HOgLDxYP42cXzLerJknIS9a/w9tIYwlF/JqgE=",
+    "originContent": "| 0.10 | 0.6         |",
+    "translatedContent": "| 0.10 | 0.6         |"
+  },
+  {
+    "row": 27,
+    "rowsha": "wh0Bn/nqIMHMGe5Cqdme2luKrs5MpMI5ZLY+Gxaxasg=",
+    "originContent": "| 0.9  | 0.5         |",
+    "translatedContent": "| 0.9  | 0.5         |"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "DytDg2t9s0rrKtZdLcGxlJUzayqL2B0aTmzBDsGAeFs=",
+    "originContent": "## See Also",
+    "translatedContent": "## Véase también"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "S1pIe7F5GVug0Qau7Wa2LRIpeGcrvoZ9JehQ8EqWigI=",
+    "originContent": "- [Bevy][bevy] ❤️",
+    "translatedContent": "- [Bevy][bevy] ❤️"
+  },
+  {
+    "row": 32,
+    "rowsha": "e4j5h2D9CKwGZrXh8ia5mVej+x1cS4wQOWgmzoM9EBo=",
+    "originContent": "- [Bevy localisation plugin issue][bevy-localisation-plugin-issue]",
+    "translatedContent": "- [Bevy localisation plugin issue][bevy-localisation-plugin-issue]"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "WW9BYqUvMVsq0PpT/TCidp0CpB7XQ5EjeQlm7uTOtc0=",
+    "originContent": "***",
+    "translatedContent": "***"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "keQhkrz/xNTerrsRDwJcp1/XRi+zLbXGaSY3A2SoIwE=",
+    "originContent": "- [Fluent][fluent]",
+    "translatedContent": "- [Fluent][fluent]"
+  },
+  {
+    "row": 37,
+    "rowsha": "1zP1q6YVC72t8PQmL5PDPru4foLvMvOaf1ofVCZiymg=",
+    "originContent": "- [Fluent fallback][fluent-fallback]",
+    "translatedContent": "- [Fluent fallback][fluent-fallback]"
+  },
+  {
+    "row": 38,
+    "rowsha": "H26rWUKrHPf+6EzJICvKPDaJ02VYdj/d2hVou2EZWhU=",
+    "originContent": "- [Fluent language negotiation][fluent-langneg]",
+    "translatedContent": "- [Fluent language negotiation][fluent-langneg]"
+  },
+  {
+    "row": 39,
+    "rowsha": "8WYOCIxRjhH6GMsHO/6PC3I59mZnQhcC+zdQpWT+DA8=",
+    "originContent": "- [Fluent message format 2.0][fluent-message-format-2.0]",
+    "translatedContent": "- [Fluent message format 2.0][fluent-message-format-2.0]"
+  },
+  {
+    "row": 40,
+    "rowsha": "xeQTq8OX3RI5susyok7jvwyWWJ18Q8vPBU8DzKZ+BUA=",
+    "originContent": "- [Fluent resource manager][fluent-resmgr]",
+    "translatedContent": "- [Fluent resource manager][fluent-resmgr]"
+  },
+  {
+    "row": 41,
+    "rowsha": "wzKqkX6md+UEHtCUGpvcfL4NO1BRj3k/zszVKqVIy0Y=",
+    "originContent": "- [L10nRegistry][l10nregistry]",
+    "translatedContent": "- [L10nRegistry][l10nregistry]"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "WW9BYqUvMVsq0PpT/TCidp0CpB7XQ5EjeQlm7uTOtc0=",
+    "originContent": "***",
+    "translatedContent": "***"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "SprKcNZPTBtqC2boJQjHsdZFImX8/G1oB/CJm7tmCB4=",
+    "originContent": "- [Locales](https://github.com/unicode-org/cldr-json/blob/master/cldr-json/cldr-core/availableLocales.json)",
+    "translatedContent": "- [Locales](https://github.com/unicode-org/cldr-json/blob/master/cldr-json/cldr-core/availableLocales.json)"
+  },
+  {
+    "row": 46,
+    "rowsha": "/IjERcGp8/1qHNNThqFu+AmGp/uYaECR1pZB6almpIM=",
+    "originContent": "- [Unicode Language Identifier][unicode-language-identifier]",
+    "translatedContent": "- [Identificador de idioma Unicode][unicode-language-identifier]"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "BHN7Vxn6BS10bne3kMIvIGTiJ0OCJ4jlMSt40sCEryU=",
+    "originContent": "## Dedication",
+    "translatedContent": "## Dedicación"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "CnShB0xScJ5ePYkvN4LtDajCmCcGYjBZLtY/tde1Zgs=",
+    "originContent": "Thanks to my little sister Anny ❤️ the world's best linguist and the most",
+    "translatedContent": "Gracias a mi hermanita Anny ❤️ la mejor lingüista del mundo y la hermana más"
+  },
+  {
+    "row": 51,
+    "rowsha": "oNUX10AsmRlNmS6j3nZq5QwJ9ypjgpAREEWcwEx9/P0=",
+    "originContent": "wonderful sister.",
+    "translatedContent": "maravillosa."
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "hTJT2AI/tMEl9dIVoVIYYqqfLlrZ7rbJzdex3CL7Ebw=",
+    "originContent": "[bevy]: https://github.com/bevyengine/bevy",
+    "translatedContent": "[bevy]: https://github.com/bevyengine/bevy"
+  },
+  {
+    "row": 54,
+    "rowsha": "enh2dXMgXtLvf5/o2M+B0Wff0Ln32RslX/XMG2VDlOg=",
+    "originContent": "[bevy-localisation-plugin-issue]: https://github.com/bevyengine/bevy/issues/461",
+    "translatedContent": "[bevy-localisation-plugin-issue]: https://github.com/bevyengine/bevy/issues/461"
+  },
+  {
+    "row": 55,
+    "rowsha": "NeL9C22woPcsViDoBsRzlNEWe/a39qkVgb/KdFQeH/4=",
+    "originContent": "[fluent]: https://github.com/projectfluent/fluent-rs",
+    "translatedContent": "[fluent]: https://github.com/projectfluent/fluent-rs"
+  },
+  {
+    "row": 56,
+    "rowsha": "TROjtMiWz9qnFO6YId2sTR58mRYTDwhdys4FzV/CzEU=",
+    "originContent": "[fluent-fallback]: https://github.com/projectfluent/fluent-rs/tree/master/fluent-fallback",
+    "translatedContent": "[fluent-fallback]: https://github.com/projectfluent/fluent-rs/tree/master/fluent-fallback"
+  },
+  {
+    "row": 57,
+    "rowsha": "hAflxM96yr5Ymi85tbI4/LIYC6MrnKjYCz5DjeFy1pc=",
+    "originContent": "[fluent-langneg]: https://github.com/projectfluent/fluent-langneg-rs",
+    "translatedContent": "[fluent-langneg]: https://github.com/projectfluent/fluent-langneg-rs"
+  },
+  {
+    "row": 58,
+    "rowsha": "lL7EgFgqU0XOdL6VPMrZnzqRJyYERYUFFHoMzGDipVI=",
+    "originContent": "[fluent-message-format-2.0]: https://github.com/zbraniecki/message-format-2.0-rs",
+    "translatedContent": "[fluent-message-format-2.0]: https://github.com/zbraniecki/message-format-2.0-rs"
+  },
+  {
+    "row": 59,
+    "rowsha": "lR8HgaOu9L3CB1I2y4tZy7MF8N1NmVGdqtKYvCjlggI=",
+    "originContent": "[fluent-resmgr]: https://github.com/projectfluent/fluent-rs/tree/master/fluent-resmgr",
+    "translatedContent": "[fluent-resmgr]: https://github.com/projectfluent/fluent-rs/tree/master/fluent-resmgr"
+  },
+  {
+    "row": 60,
+    "rowsha": "6UljXmxqTojyiRSI4Sc8rrFHCbrB2NG4WDIgS9ecipw=",
+    "originContent": "[l10nregistry]: https://github.com/zbraniecki/l10nregistry-rs",
+    "translatedContent": "[l10nregistry]: https://github.com/zbraniecki/l10nregistry-rs"
+  },
+  {
+    "row": 61,
+    "rowsha": "aWI6ucnZ8O26gfawWU2fpkc91jyU58pack4bHKUsDsU=",
+    "originContent": "[unicode-language-identifier]: http://unicode.org/reports/tr35/#Unicode_language_identifier",
+    "translatedContent": "[unicode-language-identifier]: http://unicode.org/reports/tr35/#Unicode_language_identifier"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "BMN/edv4dSHbZCjPXX6r8rAOAh+3GSHgIn1C7EVJjnU=",
+    "originContent": "[unic-locale]: https://docs.rs/unic-locale/0.9.0/unic_locale/index.html",
+    "translatedContent": "[unic-locale]: https://docs.rs/unic-locale/0.9.0/unic_locale/index.html"
+  },
+  {
+    "row": 64,
+    "rowsha": "rnbcZ82DYYdtnFnjIbf9Si8kMfqVt8BG4Urxh0GMJmo=",
+    "originContent": "[language-tags]: https://www.w3.org/International/questions/qa-choosing-language-tags.ru",
+    "translatedContent": "[language-tags]: https://www.w3.org/International/questions/qa-choosing-language-tags.ru"
+  },
+  {
+    "row": 65,
+    "rowsha": "cBCT6AB+sQLTxlcw/T0QMZVLvjgeVTMhAlkr+YM7zts=",
+    "originContent": "[language-subtag-lookup]: https://r12a.github.io/app-subtags",
+    "translatedContent": "[language-subtag-lookup]: https://r12a.github.io/app-subtags"
+  },
+  {
+    "row": 66,
+    "rowsha": "AX5KtrepnSSAQW7ZlWZEnauJmz9MTqrxDNhlXxDDOzE=",
+    "originContent": "[iana-language-subtag-registry]: http://www.iana.org/assignments/language-subtag-registry",
+    "translatedContent": "[iana-language-subtag-registry]: http://www.iana.org/assignments/language-subtag-registry"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
