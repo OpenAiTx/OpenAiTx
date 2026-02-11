@@ -1,0 +1,1019 @@
+[
+  {
+    "Id": 1,
+    "Content": "English | [中文](https://raw.githubusercontent.com/biiiiiigmonster/hasin/laravel-v12/./README-CN.md)\n\n<div align=\"center\">\n\n# LARAVEL HASIN\n\n[![Latest Version on Packagist](https://img.shields.io/packagist/v/biiiiiigmonster/hasin.svg?style=flat-square)](https://packagist.org/packages/biiiiiigmonster/hasin)\n[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/biiiiiigmonster/hasin/run-tests.yml?branch=master&label=tests&style=flat-square)](https://github.com/biiiiiigmonster/hasin/actions?query=workflow%3Arun-tests+branch%3Amaster)\n[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/biiiiiigmonster/hasin/fix-php-code-style-issues.yml?branch=master&label=code%20style&style=flat-square)](https://github.com/biiiiiigmonster/hasin/actions?query=workflow%3A\"Fix+PHP+code+style+issues\"+branch%3Amaster)\n[![Coverage Status](https://coveralls.io/repos/github/biiiiiigmonster/hasin/badge.svg?branch=master)](https://coveralls.io/github/biiiiiigmonster/hasin?branch=master)\n[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/biiiiiigmonster/hasin.svg?label=Scrutinizer&style=flat-square)](https://scrutinizer-ci.com/g/biiiiiigmonster/hasin/)\n[![Total Downloads](https://img.shields.io/packagist/dt/biiiiiigmonster/hasin.svg?style=flat-square)](https://packagist.org/packages/biiiiiigmonster/hasin)\n\n</div>\n\nThe `hasin` is composer package based on `where in` syntax to query the relationship of `laravel ORM`, which can replace `has` based on `where exists` syntax in some business scenarios to obtain higher performance.\n\n# Installation\n| Laravel Version | Install command                                     |\n|-----------------|-----------------------------------------------------|\n| Laravel 12      | ``` composer require biiiiiigmonster/hasin:^5.0 ``` |\n| Laravel 11      | ``` composer require biiiiiigmonster/hasin:^4.0 ``` |\n| Laravel 10      | ``` composer require biiiiiigmonster/hasin:^3.0 ``` |\n| Laravel 9       | ``` composer require biiiiiigmonster/hasin:^2.0 ``` |\n| Laravel 5.5 ~ 8 | ``` composer require biiiiiigmonster/hasin:^1.0 ``` |\n\n# Introductions\n\nThe relationship of `laravel ORM` is very powerful, and the query `has` based on the relationship also provides us with many flexible calling methods. However, in some cases, `has` is implemented with **where exists** syntax.\n\nFor example:",
+    "ContentSha": "Ja8AwcMCfoH6t6cC+HHjIF63LYbga4zt81gnYKnGFDA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "English | [中文](https://raw.githubusercontent.com/biiiiiigmonster/hasin/laravel-v12/./README-CN.md)\n\n<div align=\"center\">\n\n# LARAVEL HASIN\n\n[![Latest Version on Packagist](https://img.shields.io/packagist/v/biiiiiigmonster/hasin.svg?style=flat-square)](https://packagist.org/packages/biiiiiigmonster/hasin)\n[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/biiiiiigmonster/hasin/run-tests.yml?branch=master&label=tests&style=flat-square)](https://github.com/biiiiiigmonster/hasin/actions?query=workflow%3Arun-tests+branch%3Amaster)\n[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/biiiiiigmonster/hasin/fix-php-code-style-issues.yml?branch=master&label=code%20style&style=flat-square)](https://github.com/biiiiiigmonster/hasin/actions?query=workflow%3A\"Fix+PHP+code+style+issues\"+branch%3Amaster)\n[![Coverage Status](https://coveralls.io/repos/github/biiiiiigmonster/hasin/badge.svg?branch=master)](https://coveralls.io/github/biiiiiigmonster/hasin?branch=master)\n[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/biiiiiigmonster/hasin.svg?label=Scrutinizer&style=flat-square)](https://scrutinizer-ci.com/g/biiiiiigmonster/hasin/)\n[![Total Downloads](https://img.shields.io/packagist/dt/biiiiiigmonster/hasin.svg?style=flat-square)](https://packagist.org/packages/biiiiiigmonster/hasin)\n\n</div>\n\nLe package `hasin` est un package composer basé sur la syntaxe `where in` pour interroger la relation de l’`ORM Laravel`, qui peut remplacer `has` basé sur la syntaxe `where exists` dans certains scénarios métier afin d’obtenir de meilleures performances.\n\n# Installation\n| Version de Laravel | Commande d’installation                                |\n|--------------------|-------------------------------------------------------|\n| Laravel 12         | ``` composer require biiiiiigmonster/hasin:^5.0 ```  |\n| Laravel 11         | ``` composer require biiiiiigmonster/hasin:^4.0 ```  |\n| Laravel 10         | ``` composer require biiiiiigmonster/hasin:^3.0 ```  |\n| Laravel 9          | ``` composer require biiiiiigmonster/hasin:^2.0 ```  |\n| Laravel 5.5 ~ 8    | ``` composer require biiiiiigmonster/hasin:^1.0 ```  |\n\n# Présentations\n\nLa relation de l’`ORM Laravel` est très puissante, et la requête `has` basée sur la relation nous offre aussi de nombreuses méthodes d’appel flexibles. Cependant, dans certains cas, `has` est implémenté avec la syntaxe **where exists**.\n\nPar exemple :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QVIf8UpzjeVP4ogHIqOcj8VgstibPJ1/j0zkc2AVM4A=",
+        "originContent": "English | [中文](https://raw.githubusercontent.com/biiiiiigmonster/hasin/laravel-v12/./README-CN.md)",
+        "translatedContent": "English | [中文](https://raw.githubusercontent.com/biiiiiigmonster/hasin/laravel-v12/./README-CN.md)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "EXd+icrv8Zuei8YDnsO5IbhzQtICrLmGoSIXL+64GtQ=",
+        "originContent": "# LARAVEL HASIN",
+        "translatedContent": "# LARAVEL HASIN"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "8ZTM5AHFUgz2Jq+A0WWg5Eg+JhFgZsYy8cLz6wjUfVU=",
+        "originContent": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/biiiiiigmonster/hasin.svg?style=flat-square)](https://packagist.org/packages/biiiiiigmonster/hasin)",
+        "translatedContent": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/biiiiiigmonster/hasin.svg?style=flat-square)](https://packagist.org/packages/biiiiiigmonster/hasin)"
+      },
+      {
+        "row": 8,
+        "rowsha": "zbPNmE0qgJjShUnEuQ4i2OtMJudcMiT86RAyslDzZ9M=",
+        "originContent": "[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/biiiiiigmonster/hasin/run-tests.yml?branch=master&label=tests&style=flat-square)](https://github.com/biiiiiigmonster/hasin/actions?query=workflow%3Arun-tests+branch%3Amaster)",
+        "translatedContent": "[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/biiiiiigmonster/hasin/run-tests.yml?branch=master&label=tests&style=flat-square)](https://github.com/biiiiiigmonster/hasin/actions?query=workflow%3Arun-tests+branch%3Amaster)"
+      },
+      {
+        "row": 9,
+        "rowsha": "wkZaXHFtX2QSg4US1kafFA6MnfZuLZSU9uOgI2aHLv8=",
+        "originContent": "[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/biiiiiigmonster/hasin/fix-php-code-style-issues.yml?branch=master&label=code%20style&style=flat-square)](https://github.com/biiiiiigmonster/hasin/actions?query=workflow%3A\"Fix+PHP+code+style+issues\"+branch%3Amaster)",
+        "translatedContent": "[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/biiiiiigmonster/hasin/fix-php-code-style-issues.yml?branch=master&label=code%20style&style=flat-square)](https://github.com/biiiiiigmonster/hasin/actions?query=workflow%3A\"Fix+PHP+code+style+issues\"+branch%3Amaster)"
+      },
+      {
+        "row": 10,
+        "rowsha": "Ex6b8kg3DdcruTgLZfejjRY6j4npXLD8y4qodL6AUqs=",
+        "originContent": "[![Coverage Status](https://coveralls.io/repos/github/biiiiiigmonster/hasin/badge.svg?branch=master)](https://coveralls.io/github/biiiiiigmonster/hasin?branch=master)",
+        "translatedContent": "[![Coverage Status](https://coveralls.io/repos/github/biiiiiigmonster/hasin/badge.svg?branch=master)](https://coveralls.io/github/biiiiiigmonster/hasin?branch=master)"
+      },
+      {
+        "row": 11,
+        "rowsha": "77X19o9PzqKCdRz/t+kNOcCNMHWK+SV3BrRZxnk8A+k=",
+        "originContent": "[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/biiiiiigmonster/hasin.svg?label=Scrutinizer&style=flat-square)](https://scrutinizer-ci.com/g/biiiiiigmonster/hasin/)",
+        "translatedContent": "[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/biiiiiigmonster/hasin.svg?label=Scrutinizer&style=flat-square)](https://scrutinizer-ci.com/g/biiiiiigmonster/hasin/)"
+      },
+      {
+        "row": 12,
+        "rowsha": "gK/vj8C5bEbg8iCqfkOEngyB8rzm5KSnoT5r0jLfjVs=",
+        "originContent": "[![Total Downloads](https://img.shields.io/packagist/dt/biiiiiigmonster/hasin.svg?style=flat-square)](https://packagist.org/packages/biiiiiigmonster/hasin)",
+        "translatedContent": "[![Total Downloads](https://img.shields.io/packagist/dt/biiiiiigmonster/hasin.svg?style=flat-square)](https://packagist.org/packages/biiiiiigmonster/hasin)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "vnbvoVzBJP4P3yg7t8fyVbBYvc0ETdB7hcb5vpJRjKI=",
+        "originContent": "The `hasin` is composer package based on `where in` syntax to query the relationship of `laravel ORM`, which can replace `has` based on `where exists` syntax in some business scenarios to obtain higher performance.",
+        "translatedContent": "Le package `hasin` est un package composer basé sur la syntaxe `where in` pour interroger la relation de l’`ORM Laravel`, qui peut remplacer `has` basé sur la syntaxe `where exists` dans certains scénarios métier afin d’obtenir de meilleures performances."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "oEvHgiQZPffZY71LXkD7wBebC/0+TjyYxWZNyVCJCpU=",
+        "originContent": "# Installation",
+        "translatedContent": "# Installation"
+      },
+      {
+        "row": 19,
+        "rowsha": "yiJA9+ufeSYBYssvf+19fXfxEgVnEXXbr51zI006G6g=",
+        "originContent": "| Laravel Version | Install command                                     |",
+        "translatedContent": "| Version de Laravel | Commande d’installation                                |"
+      },
+      {
+        "row": 20,
+        "rowsha": "YqKkg7jSjmJTmf6pba9jYwf5qPrGH37r6r9acjnEVHo=",
+        "originContent": "|-----------------|-----------------------------------------------------|",
+        "translatedContent": "|--------------------|-------------------------------------------------------|"
+      },
+      {
+        "row": 21,
+        "rowsha": "TEBtByrFW4GnrOcozkqRZ8VNHuB5WVOQ3yIfA7X9sVI=",
+        "originContent": "| Laravel 12      | ``` composer require biiiiiigmonster/hasin:^5.0 ``` |",
+        "translatedContent": "| Laravel 12         | ``` composer require biiiiiigmonster/hasin:^5.0 ```  |"
+      },
+      {
+        "row": 22,
+        "rowsha": "koHWM6Y3jRmFvfunq8ojNgr4pVKo8a1mz1koO8m1Ees=",
+        "originContent": "| Laravel 11      | ``` composer require biiiiiigmonster/hasin:^4.0 ``` |",
+        "translatedContent": "| Laravel 11         | ``` composer require biiiiiigmonster/hasin:^4.0 ```  |"
+      },
+      {
+        "row": 23,
+        "rowsha": "/08zjs0H0PsaWYyipJw631LdbackN8dBdlxuSDArC3A=",
+        "originContent": "| Laravel 10      | ``` composer require biiiiiigmonster/hasin:^3.0 ``` |",
+        "translatedContent": "| Laravel 10         | ``` composer require biiiiiigmonster/hasin:^3.0 ```  |"
+      },
+      {
+        "row": 24,
+        "rowsha": "wzDskAdTw2nh6A4gDBKLd79+kiw5d5TYpxpHNBnirv4=",
+        "originContent": "| Laravel 9       | ``` composer require biiiiiigmonster/hasin:^2.0 ``` |",
+        "translatedContent": "| Laravel 9          | ``` composer require biiiiiigmonster/hasin:^2.0 ```  |"
+      },
+      {
+        "row": 25,
+        "rowsha": "zqy96WqUiTY9luaKeskJt1JMgbSmPeSFse6X2XnC9Gg=",
+        "originContent": "| Laravel 5.5 ~ 8 | ``` composer require biiiiiigmonster/hasin:^1.0 ``` |",
+        "translatedContent": "| Laravel 5.5 ~ 8    | ``` composer require biiiiiigmonster/hasin:^1.0 ```  |"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "xY/Z+CuZyXl4W9HFg2gLNgyR7rBKG/p5/HbJCu+L8f0=",
+        "originContent": "# Introductions",
+        "translatedContent": "# Présentations"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "iVQLlwRxfFaRq8nb/NWVl5B/s/0nVqkxNr+MQwdqSPw=",
+        "originContent": "The relationship of `laravel ORM` is very powerful, and the query `has` based on the relationship also provides us with many flexible calling methods. However, in some cases, `has` is implemented with **where exists** syntax.",
+        "translatedContent": "La relation de l’`ORM Laravel` est très puissante, et la requête `has` basée sur la relation nous offre aussi de nombreuses méthodes d’appel flexibles. Cependant, dans certains cas, `has` est implémenté avec la syntaxe **where exists**."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "ZSdEoqsolUu6/XgP12wVwr1VdZRTL5B/EOrRmJcnr5U=",
+        "originContent": "For example:",
+        "translatedContent": "Par exemple :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```php\n// User hasMany Post\nUser::has('posts')->get();\n```",
+    "ContentSha": "JEyth2lRIwj6sOikkDKZT5Ky0DxRHZFnLk6c83SyQvc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n// User hasMany Post\nUser::has('posts')->get();\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "xi0x7oOjq6cJEiCaqk+18Dwfh9J8YADsV4D7rQ0oEUo=",
+        "originContent": "// User hasMany Post",
+        "translatedContent": "// User hasMany Post"
+      },
+      {
+        "row": 3,
+        "rowsha": "XtA3KCpVfEBrdW31PTmtVBU7NCwGA+KBxVmJLwfDmUQ=",
+        "originContent": "User::has('posts')->get();",
+        "translatedContent": "User::has('posts')->get();"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "#### `select * from users where exists (select * from posts where users.id = posts.user_id)`\n> 'exists' is a loop to the external table, and then queries the internal table (subQuery) every time. Because the index used for the query of the internal table (the internal table is efficient, so it can be used as a large table), and how much of the external table needs to be traversed, it is inevitable (try to use a small table), so the use of exists for the large internal table can speed up the efficiency.\n\nWhen the **User** table has a large amount of data, there will be performance problems, so the **where in** syntax will greatly improve the performance.\n\n#### `select * from users where users.id in (select posts.user_id from posts)`\n> 'in' is to hash connect the appearance and inner table, first query the inner table, then match the result of the inner table with the appearance, and use the index for the outer table (the appearance is efficient, and large tables can be used). Most of the inner tables need to be queried, which is inevitable. Therefore, using 'in' with large appearance can speed up the efficiency.\n\nTherefore, the use of `has(hasMorph)` or `hasIn(hasMorphIn)` in code should be determined by **data size**\n",
+    "ContentSha": "Ydsg8H1LErSWbUNOIoo0rH0lZUxN31lk8EI/qMw9ZQA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### `select * from users where exists (select * from posts where users.id = posts.user_id)`\n> 'exists' est une boucle vers la table externe, puis interroge la table interne (sous-requête) à chaque fois. Parce que l'index utilisé pour la requête de la table interne (la table interne est efficace, donc elle peut être utilisée comme une grande table), et combien de la table externe doit être parcourue, c'est inévitable (essayez d'utiliser une petite table), donc l'utilisation de exists pour la grande table interne peut accélérer l'efficacité.\n\nLorsque la table **User** contient une grande quantité de données, il y aura des problèmes de performance, donc la syntaxe **where in** améliorera grandement les performances.\n\n#### `select * from users where users.id in (select posts.user_id from posts)`\n> 'in' est une connexion par hachage entre la table externe et la table interne, on interroge d'abord la table interne, puis on fait correspondre le résultat de la table interne avec la table externe, et on utilise l'index pour la table externe (la table externe est efficace, et de grandes tables peuvent être utilisées). La plupart des tables internes doivent être interrogées, ce qui est inévitable. Par conséquent, l'utilisation de 'in' avec une grande table externe peut accélérer l'efficacité.\n\nPar conséquent, l'utilisation de `has(hasMorph)` ou `hasIn(hasMorphIn)` dans le code doit être déterminée en fonction de la **taille des données**.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "JSQGIMn4r6KBz+765BQpFIpyGAiPZGQBYhQxjbm36Vk=",
+        "originContent": "#### `select * from users where exists (select * from posts where users.id = posts.user_id)`",
+        "translatedContent": "#### `select * from users where exists (select * from posts where users.id = posts.user_id)`"
+      },
+      {
+        "row": 2,
+        "rowsha": "2KkGH0MoDywXu56hu2Oa5EtzUwQMp70J2R/QAR62JDE=",
+        "originContent": "> 'exists' is a loop to the external table, and then queries the internal table (subQuery) every time. Because the index used for the query of the internal table (the internal table is efficient, so it can be used as a large table), and how much of the external table needs to be traversed, it is inevitable (try to use a small table), so the use of exists for the large internal table can speed up the efficiency.",
+        "translatedContent": "> 'exists' est une boucle vers la table externe, puis interroge la table interne (sous-requête) à chaque fois. Parce que l'index utilisé pour la requête de la table interne (la table interne est efficace, donc elle peut être utilisée comme une grande table), et combien de la table externe doit être parcourue, c'est inévitable (essayez d'utiliser une petite table), donc l'utilisation de exists pour la grande table interne peut accélérer l'efficacité."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "b9AJH+6C4cMml11g3Bzdj+Xz6+Ga7krnSXh6EYA3FCo=",
+        "originContent": "When the **User** table has a large amount of data, there will be performance problems, so the **where in** syntax will greatly improve the performance.",
+        "translatedContent": "Lorsque la table **User** contient une grande quantité de données, il y aura des problèmes de performance, donc la syntaxe **where in** améliorera grandement les performances."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "CgY2PPINRvFdBKUW3pcORESiZkOcdkycRSWn7EUIyso=",
+        "originContent": "#### `select * from users where users.id in (select posts.user_id from posts)`",
+        "translatedContent": "#### `select * from users where users.id in (select posts.user_id from posts)`"
+      },
+      {
+        "row": 7,
+        "rowsha": "XGNdgGSWdDLP/J64eXWxAmNRGASA6u/Ie/lrYgBGwo0=",
+        "originContent": "> 'in' is to hash connect the appearance and inner table, first query the inner table, then match the result of the inner table with the appearance, and use the index for the outer table (the appearance is efficient, and large tables can be used). Most of the inner tables need to be queried, which is inevitable. Therefore, using 'in' with large appearance can speed up the efficiency.",
+        "translatedContent": "> 'in' est une connexion par hachage entre la table externe et la table interne, on interroge d'abord la table interne, puis on fait correspondre le résultat de la table interne avec la table externe, et on utilise l'index pour la table externe (la table externe est efficace, et de grandes tables peuvent être utilisées). La plupart des tables internes doivent être interrogées, ce qui est inévitable. Par conséquent, l'utilisation de 'in' avec une grande table externe peut accélérer l'efficacité."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "jTK6lX3gOdGM0/2/PPBczChX2ubS6TP92BGtMt+zoWQ=",
+        "originContent": "Therefore, the use of `has(hasMorph)` or `hasIn(hasMorphIn)` in code should be determined by **data size**",
+        "translatedContent": "Par conséquent, l'utilisation de `has(hasMorph)` ou `hasIn(hasMorphIn)` dans le code doit être déterminée en fonction de la **taille des données**."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```php\n/**\n * SQL:\n * \n * select * from `users` \n * where exists \n *   ( \n *      select * from `posts` \n *      where `users`.`id` = `posts`.`user_id` \n *   ) \n * limit 10 offset 0\n */\n$users = User::has('posts')->paginate(10);\n\n/**\n * SQL:\n * \n * select * from `users` \n * where `users`.`id` in  \n *   ( \n *      select `posts`.`user_id` from `posts` \n *   ) \n * limit 10 offset 0\n */\n$users = User::hasIn('posts')->paginate(10);\n```",
+    "ContentSha": "eLWeQukJA4oaCukq4sxMD8FPLmeApL5mWVjBNVmAOIQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n/**\n * SQL:\n * \n * select * from `users` \n * where exists \n *   ( \n *      select * from `posts` \n *      where `users`.`id` = `posts`.`user_id` \n *   ) \n * limit 10 offset 0\n */\n$users = User::has('posts')->paginate(10);\n\n/**\n * SQL:\n * \n * select * from `users` \n * where `users`.`id` in  \n *   ( \n *      select `posts`.`user_id` from `posts` \n *   ) \n * limit 10 offset 0\n */\n$users = User::hasIn('posts')->paginate(10);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "jWSjDZ3hUbZJAGodmHEDesVkmrYWLqXX/XfFT+0HsVU=",
+        "originContent": "/**",
+        "translatedContent": "/**"
+      },
+      {
+        "row": 3,
+        "rowsha": "hymzpz3z9WS8f4cAlmWIWnXyTEyh9UAeLShdXzLqNHY=",
+        "originContent": " * SQL:",
+        "translatedContent": " * SQL:"
+      },
+      {
+        "row": 4,
+        "rowsha": "NLsf6iVV6sXxVDqxCsVxDRzNXufAA4r0n+ONUDZjVj0=",
+        "originContent": " * ",
+        "translatedContent": " * "
+      },
+      {
+        "row": 5,
+        "rowsha": "f7g3Hu+iCWi7Tw/1Ia90SG9S42/BnWVFCMMb3jqy2t8=",
+        "originContent": " * select * from `users` ",
+        "translatedContent": " * select * from `users` "
+      },
+      {
+        "row": 6,
+        "rowsha": "GYrmcSJBEQ9uoTBP/Bd4LU+ZYP8mYYSV/zWmtp02cns=",
+        "originContent": " * where exists ",
+        "translatedContent": " * where exists "
+      },
+      {
+        "row": 7,
+        "rowsha": "WAbefc/RQhF2jBfsgnBNyEsX6U3MMNpHtewZ+ci7kTo=",
+        "originContent": " *   ( ",
+        "translatedContent": " *   ( "
+      },
+      {
+        "row": 8,
+        "rowsha": "5wL8svs7oR8WeHJQjlHUukFZM3NwY26CIyWHW6I13U8=",
+        "originContent": " *      select * from `posts` ",
+        "translatedContent": " *      select * from `posts` "
+      },
+      {
+        "row": 9,
+        "rowsha": "u+cZJgC0ROzDkwYZlPOooghgagrsuYVHZP6eWn/U/CM=",
+        "originContent": " *      where `users`.`id` = `posts`.`user_id` ",
+        "translatedContent": " *      where `users`.`id` = `posts`.`user_id` "
+      },
+      {
+        "row": 10,
+        "rowsha": "YkgGe7bGNx2Kb9u2BYoO4WQVsNbvAVtsdAN9xzYZBYU=",
+        "originContent": " *   ) ",
+        "translatedContent": " *   ) "
+      },
+      {
+        "row": 11,
+        "rowsha": "uCOpzyG+EGhtSWYf5/ZN5jGX/NHXDtggnceIej+2NpI=",
+        "originContent": " * limit 10 offset 0",
+        "translatedContent": " * limit 10 offset 0"
+      },
+      {
+        "row": 12,
+        "rowsha": "UzqfEVVyDl7A7soCH4wmGvTKyNM08SuFbyyPOUGixhE=",
+        "originContent": " */",
+        "translatedContent": " */"
+      },
+      {
+        "row": 13,
+        "rowsha": "xAYes0QpOoVgZGCR1b+6rm9OTHPMGTQje8h3Shp3b6w=",
+        "originContent": "$users = User::has('posts')->paginate(10);",
+        "translatedContent": "$users = User::has('posts')->paginate(10);"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "jWSjDZ3hUbZJAGodmHEDesVkmrYWLqXX/XfFT+0HsVU=",
+        "originContent": "/**",
+        "translatedContent": "/**"
+      },
+      {
+        "row": 16,
+        "rowsha": "hymzpz3z9WS8f4cAlmWIWnXyTEyh9UAeLShdXzLqNHY=",
+        "originContent": " * SQL:",
+        "translatedContent": " * SQL:"
+      },
+      {
+        "row": 17,
+        "rowsha": "NLsf6iVV6sXxVDqxCsVxDRzNXufAA4r0n+ONUDZjVj0=",
+        "originContent": " * ",
+        "translatedContent": " * "
+      },
+      {
+        "row": 18,
+        "rowsha": "f7g3Hu+iCWi7Tw/1Ia90SG9S42/BnWVFCMMb3jqy2t8=",
+        "originContent": " * select * from `users` ",
+        "translatedContent": " * select * from `users` "
+      },
+      {
+        "row": 19,
+        "rowsha": "53tvLh4jz/zPYMgxjj5FypOTj8oRZ5WzuKB0ZQG4xJg=",
+        "originContent": " * where `users`.`id` in  ",
+        "translatedContent": " * where `users`.`id` in  "
+      },
+      {
+        "row": 20,
+        "rowsha": "WAbefc/RQhF2jBfsgnBNyEsX6U3MMNpHtewZ+ci7kTo=",
+        "originContent": " *   ( ",
+        "translatedContent": " *   ( "
+      },
+      {
+        "row": 21,
+        "rowsha": "XyGeYAiJfEO/Jbs9XQCKCwjvg+Pk+tOW30W36tAWBEk=",
+        "originContent": " *      select `posts`.`user_id` from `posts` ",
+        "translatedContent": " *      select `posts`.`user_id` from `posts` "
+      },
+      {
+        "row": 22,
+        "rowsha": "YkgGe7bGNx2Kb9u2BYoO4WQVsNbvAVtsdAN9xzYZBYU=",
+        "originContent": " *   ) ",
+        "translatedContent": " *   ) "
+      },
+      {
+        "row": 23,
+        "rowsha": "uCOpzyG+EGhtSWYf5/ZN5jGX/NHXDtggnceIej+2NpI=",
+        "originContent": " * limit 10 offset 0",
+        "translatedContent": " * limit 10 offset 0"
+      },
+      {
+        "row": 24,
+        "rowsha": "UzqfEVVyDl7A7soCH4wmGvTKyNM08SuFbyyPOUGixhE=",
+        "originContent": " */",
+        "translatedContent": " */"
+      },
+      {
+        "row": 25,
+        "rowsha": "QBfDwFiA7gylDPE7fhZzG/X2gEThALEH9rQZC1rTPBY=",
+        "originContent": "$users = User::hasIn('posts')->paginate(10);",
+        "translatedContent": "$users = User::hasIn('posts')->paginate(10);"
+      },
+      {
+        "row": 26,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n# Usage example\n\n`hasIn(hasMorphIn)` supports all `Relations` in `laravel ORM`. The call mode and internal implementation are completely consistent with `has(hasMorph)` of the framework.\n\n> hasIn\n",
+    "ContentSha": "J9usYn+tcwwW3DM+2+voehszuJy0COjkSeFLu/GKxi4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# Exemple d'utilisation\n\n`hasIn(hasMorphIn)` prend en charge toutes les `Relations` dans `laravel ORM`. Le mode d'appel et l'implémentation interne sont entièrement cohérents avec `has(hasMorph)` du framework.\n\n> hasIn\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "16Vk09I5A1E0rrSE+RODwlRBXEZLShriVinIMih0UEo=",
+        "originContent": "# Usage example",
+        "translatedContent": "# Exemple d'utilisation"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "pUE4/qfMnZZxfSmLSUOnRB2wfuG+WW6daEx+3ry99Ug=",
+        "originContent": "`hasIn(hasMorphIn)` supports all `Relations` in `laravel ORM`. The call mode and internal implementation are completely consistent with `has(hasMorph)` of the framework.",
+        "translatedContent": "`hasIn(hasMorphIn)` prend en charge toutes les `Relations` dans `laravel ORM`. Le mode d'appel et l'implémentation interne sont entièrement cohérents avec `has(hasMorph)` du framework."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ho3YsPnOrfC73ZFIbzruUypDtnMR63MDkUWi+72LXqQ=",
+        "originContent": "> hasIn",
+        "translatedContent": "> hasIn"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```php\n// hasIn\nUser::hasIn('posts')->get();\n\n// orHasIn\nUser::where('age', '>', 18)->orHasIn('posts')->get();\n\n// doesntHaveIn\nUser::doesntHaveIn('posts')->get();\n\n// orDoesntHaveIn\nUser::where('age', '>', 18)->orDoesntHaveIn('posts')->get();\n```",
+    "ContentSha": "ia0XfgDyCcpuyrJwgq+uBcSZV5hDiKIhY1NjYOGNJDE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n// hasIn\nUser::hasIn('posts')->get();\n\n// orHasIn\nUser::where('age', '>', 18)->orHasIn('posts')->get();\n\n// doesntHaveIn\nUser::doesntHaveIn('posts')->get();\n\n// orDoesntHaveIn\nUser::where('age', '>', 18)->orDoesntHaveIn('posts')->get();\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "P9wXt9uooFfT2eKp3A1hbRnD3bl0+wBneYUpWQ2sp6k=",
+        "originContent": "// hasIn",
+        "translatedContent": "// hasIn"
+      },
+      {
+        "row": 3,
+        "rowsha": "v+hhs3lbcsGiMVBXjC6hCajKRRdbm6iM6FG8WpOixVg=",
+        "originContent": "User::hasIn('posts')->get();",
+        "translatedContent": "User::hasIn('posts')->get();"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "UJn0TwPLS1z4cZAc66L6WNOBgI47ZRY79HLhU7qCIsM=",
+        "originContent": "// orHasIn",
+        "translatedContent": "// orHasIn"
+      },
+      {
+        "row": 6,
+        "rowsha": "AF9K3s4PvZoH7S27gH8j/PrakrhoBZl0n4P25NoBaxQ=",
+        "originContent": "User::where('age', '>', 18)->orHasIn('posts')->get();",
+        "translatedContent": "User::where('age', '>', 18)->orHasIn('posts')->get();"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "SY4wwjx2fAFIqlyNVr2P3kc18FmnDESh1zBQrCULcPc=",
+        "originContent": "// doesntHaveIn",
+        "translatedContent": "// doesntHaveIn"
+      },
+      {
+        "row": 9,
+        "rowsha": "9UO+1in4AFeGI7rvBpLpm31IYqvvcxwaXeBNEoYfATw=",
+        "originContent": "User::doesntHaveIn('posts')->get();",
+        "translatedContent": "User::doesntHaveIn('posts')->get();"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "BoboSuS9chKCaLTUb5CO+pcGlqtKfCCP05W+FSVSw3k=",
+        "originContent": "// orDoesntHaveIn",
+        "translatedContent": "// orDoesntHaveIn"
+      },
+      {
+        "row": 12,
+        "rowsha": "W8lVxMRC3wPCszIZ9P3pDcFVTLbNycdBhFG1vY0Pj48=",
+        "originContent": "User::where('age', '>', 18)->orDoesntHaveIn('posts')->get();",
+        "translatedContent": "User::where('age', '>', 18)->orDoesntHaveIn('posts')->get();"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n> whereHasIn\n",
+    "ContentSha": "Am9mL8zDmTTPTWwM7ZGEYEk+gSSZYRj3+Wr+O+ubhfs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> whereHasIn\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> whereHasIn"
+      },
+      {
+        "row": 2,
+        "rowsha": "+3bZG9Frzl1O/hb5ykMQXBNxgAv4TywCrEzcaMMdHp4=",
+        "originContent": "> whereHasIn",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```php\n// whereHasIn\nUser::whereHasIn('posts', function ($query) {\n    $query->where('votes', '>', 10);\n})->get();\n\n// orWhereHasIn\nUser::where('age', '>', 18)->orWhereHasIn('posts', function ($query) {\n    $query->where('votes', '>', 10);\n})->get();\n\n// whereDoesntHaveIn\nUser::whereDoesntHaveIn('posts', function ($query) {\n    $query->where('votes', '>', 10);\n})->get();\n\n// orWhereDoesntHaveIn\nUser::where('age', '>', 18)->orWhereDoesntHaveIn('posts', function ($query) {\n    $query->where('votes', '>', 10);\n})->get();\n```",
+    "ContentSha": "h56py39ylcV9uT8mgKm2ewMrSqmJxSUBNVV63kFL5gw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n// whereHasIn\nUser::whereHasIn('posts', function ($query) {\n    $query->where('votes', '>', 10);\n})->get();\n\n// orWhereHasIn\nUser::where('age', '>', 18)->orWhereHasIn('posts', function ($query) {\n    $query->where('votes', '>', 10);\n})->get();\n\n// whereDoesntHaveIn\nUser::whereDoesntHaveIn('posts', function ($query) {\n    $query->where('votes', '>', 10);\n})->get();\n\n// orWhereDoesntHaveIn\nUser::where('age', '>', 18)->orWhereDoesntHaveIn('posts', function ($query) {\n    $query->where('votes', '>', 10);\n})->get();\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "iXEF1dghi5Ln37IAR3RqQUdzlP+kpDUlbdVtYSfMXxk=",
+        "originContent": "// whereHasIn",
+        "translatedContent": "// whereHasIn"
+      },
+      {
+        "row": 3,
+        "rowsha": "lT+i+ddNoxquCq1T3dNvFqGBR+QTQj8lep5wDh2F/io=",
+        "originContent": "User::whereHasIn('posts', function ($query) {",
+        "translatedContent": "User::whereHasIn('posts', function ($query) {"
+      },
+      {
+        "row": 4,
+        "rowsha": "jOjN09qNSs9eflYR9AaCeh/bKVuTB/ZL5oEai4DrcBs=",
+        "originContent": "    $query->where('votes', '>', 10);",
+        "translatedContent": "    $query->where('votes', '>', 10);"
+      },
+      {
+        "row": 5,
+        "rowsha": "zynZpGtg0bGdtMD69cGMsY0OasMwfA1i1HgxRnSmBJw=",
+        "originContent": "})->get();",
+        "translatedContent": "})->get();"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Bzw0ggrbCBoK6mviY4ejYy3OyjwGxhRQ9zs9PvhNc0s=",
+        "originContent": "// orWhereHasIn",
+        "translatedContent": "// orWhereHasIn"
+      },
+      {
+        "row": 8,
+        "rowsha": "mJRf/JetPTH1N99MbNNDtg4EhjyRE9PIkMHWy2HiID8=",
+        "originContent": "User::where('age', '>', 18)->orWhereHasIn('posts', function ($query) {",
+        "translatedContent": "User::where('age', '>', 18)->orWhereHasIn('posts', function ($query) {"
+      },
+      {
+        "row": 9,
+        "rowsha": "jOjN09qNSs9eflYR9AaCeh/bKVuTB/ZL5oEai4DrcBs=",
+        "originContent": "    $query->where('votes', '>', 10);",
+        "translatedContent": "    $query->where('votes', '>', 10);"
+      },
+      {
+        "row": 10,
+        "rowsha": "zynZpGtg0bGdtMD69cGMsY0OasMwfA1i1HgxRnSmBJw=",
+        "originContent": "})->get();",
+        "translatedContent": "})->get();"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "6fhR0cGwM4eNEH8UmN6SFfGrjASrD/bKuFCapAy8ZIo=",
+        "originContent": "// whereDoesntHaveIn",
+        "translatedContent": "// whereDoesntHaveIn"
+      },
+      {
+        "row": 13,
+        "rowsha": "SYRwBLZiLOTj65upDIamXoKHdA5r6tZIJnYAo1jJ+YQ=",
+        "originContent": "User::whereDoesntHaveIn('posts', function ($query) {",
+        "translatedContent": "User::whereDoesntHaveIn('posts', function ($query) {"
+      },
+      {
+        "row": 14,
+        "rowsha": "jOjN09qNSs9eflYR9AaCeh/bKVuTB/ZL5oEai4DrcBs=",
+        "originContent": "    $query->where('votes', '>', 10);",
+        "translatedContent": "    $query->where('votes', '>', 10);"
+      },
+      {
+        "row": 15,
+        "rowsha": "zynZpGtg0bGdtMD69cGMsY0OasMwfA1i1HgxRnSmBJw=",
+        "originContent": "})->get();",
+        "translatedContent": "})->get();"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "iQGYkxMptIAoTi5oakVckUOK1HElFCZk9/2mBh1TDPQ=",
+        "originContent": "// orWhereDoesntHaveIn",
+        "translatedContent": "// orWhereDoesntHaveIn"
+      },
+      {
+        "row": 18,
+        "rowsha": "l1Mv0FRNB5va3SGY0c90fhO4Wn6AbyVlLX04YMNPTqU=",
+        "originContent": "User::where('age', '>', 18)->orWhereDoesntHaveIn('posts', function ($query) {",
+        "translatedContent": "User::where('age', '>', 18)->orWhereDoesntHaveIn('posts', function ($query) {"
+      },
+      {
+        "row": 19,
+        "rowsha": "jOjN09qNSs9eflYR9AaCeh/bKVuTB/ZL5oEai4DrcBs=",
+        "originContent": "    $query->where('votes', '>', 10);",
+        "translatedContent": "    $query->where('votes', '>', 10);"
+      },
+      {
+        "row": 20,
+        "rowsha": "zynZpGtg0bGdtMD69cGMsY0OasMwfA1i1HgxRnSmBJw=",
+        "originContent": "})->get();",
+        "translatedContent": "})->get();"
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n> hasMorphIn\n",
+    "ContentSha": "g7r4e60mr/WSBe6bu83dob9YuLz/O/gdx3ehIK/535g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> aMorphIn\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ICfM004/XNJi5TQL8xu8rq5HjeiJ6C9XBcluwHV0T9s=",
+        "originContent": "> hasMorphIn",
+        "translatedContent": "> aMorphIn"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```php\nImage::hasMorphIn('imageable', [Post::class, Comment::class])->get();\n```",
+    "ContentSha": "gToao+TWiY9FeJIg4n/wFJgICah6Xbyn0xjNSujpqNg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nImage::hasMorphIn('imageable', [Post::class, Comment::class])->get();\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "m8Uzvh4kJSGWG/RnIX7UinxsY9LFEdlR7lGNK7I/UYY=",
+        "originContent": "Image::hasMorphIn('imageable', [Post::class, Comment::class])->get();",
+        "translatedContent": "Image::hasMorphIn('imageable', [Post::class, Comment::class])->get();"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### Nested Relation\n",
+    "ContentSha": "t0h8GagtWMk7xFdG8YkjZ/D2JMG3OW4KHec/R+IpwU4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Relation Imbriquée\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "QrG4YFvuDVcAzNAPS+wg96moOeyMqujwQIVYzcV0WxY=",
+        "originContent": "### Nested Relation",
+        "translatedContent": "### Relation Imbriquée"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```php\nUser::hasIn('posts.comments')->get();\n```",
+    "ContentSha": "6n6O6Mqe7mtm1H/pVncQXF72QcvfCOLMbigWGtSm2AM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nUser::hasIn('posts.comments')->get();\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "44uWXBFrz6sqPsWRJJs9YZRxnsybwqxFZSKMhAsUVl4=",
+        "originContent": "User::hasIn('posts.comments')->get();",
+        "translatedContent": "User::hasIn('posts.comments')->get();"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n# Testing",
+    "ContentSha": "bAynlc1ov+6eqKiuAn/xixbZSbNFtNMizNqONRIhj9s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# Test",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "bOhsoNvyF1rAtScyUtejmRi01HguyW+3e/onO1Mn3T8=",
+        "originContent": "# Testing",
+        "translatedContent": "# Test"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\ncomposer test\n```",
+    "ContentSha": "nCNn/JSHdXtlM8BILO0Z5JjhUvpwm4IRlcC4iMvzYwI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncomposer test\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "TQpJg0Y4jeHihx2OaV13YyXDzqsumcxfpluaJG+8wHo=",
+        "originContent": "composer test",
+        "translatedContent": "composer test"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": ">**Tips**: before testing, you need to configure your database connection in the `phpunit.xml.dist`.\n\n# License\n[MIT](./LICENSE)\n",
+    "ContentSha": "MdIKLIrPnZ3OR52WWkSr+QE0nHsoYxYBMwuImB/O77o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": ">**Conseils** : avant de tester, vous devez configurer votre connexion à la base de données dans le fichier `phpunit.xml.dist`.\n\n# Licence\n[MIT](./LICENSE)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "egtkYb/XA6MlADaCxw3eW5AXPsOzFsPsWzm4/juvvsw=",
+        "originContent": ">**Tips**: before testing, you need to configure your database connection in the `phpunit.xml.dist`.",
+        "translatedContent": ">**Conseils** : avant de tester, vous devez configurer votre connexion à la base de données dans le fichier `phpunit.xml.dist`."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "7Qo8+NblMV+ve9U8YJCAOSzx5hR1PsQgmN0TGjFj2ls=",
+        "originContent": "# License",
+        "translatedContent": "# Licence"
+      },
+      {
+        "row": 4,
+        "rowsha": "/ke6dgdIwJmQ+G/WHRcyMrZdmc2pljCBAwycPqmX6n0=",
+        "originContent": "[MIT](./LICENSE)",
+        "translatedContent": "[MIT](./LICENSE)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
