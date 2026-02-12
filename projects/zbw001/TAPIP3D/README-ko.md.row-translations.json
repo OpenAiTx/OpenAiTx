@@ -1,0 +1,950 @@
+[
+  {
+    "row": 1,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "/LZUHI7BVPwOO6qTU/BQb7YUBby/7cD+mvwKppFxb3w=",
+    "originContent": "# TAPIP3D: Tracking Any Point in Persistent 3D Geometry",
+    "translatedContent": "# TAPIP3D: 영속적인 3D 기하학에서 임의의 점 추적하기"
+  },
+  {
+    "row": 4,
+    "rowsha": "vjUTKP47MTnpzGqBROT5dwVA4q0m1YOmCBC2U2/J0/A=",
+    "originContent": "<a href=\"https://arxiv.org/abs/2504.14717\"><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'></a>",
+    "translatedContent": "<a href=\"https://arxiv.org/abs/2504.14717\"><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'></a>"
+  },
+  {
+    "row": 5,
+    "rowsha": "RQTYdrroTF+dB9zSTJmYAniy1XidSkOrJ/v0UDaW0Vo=",
+    "originContent": "<a href='https://tapip3d.github.io'><img src='https://img.shields.io/badge/Project_Page-Website-green?logo=googlechrome&logoColor=white' alt='Project Page'></a>",
+    "translatedContent": "<a href='https://tapip3d.github.io'><img src='https://img.shields.io/badge/Project_Page-Website-green?logo=googlechrome&logoColor=white' alt='Project Page'></a>"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "F+VH0IJQDEg3byccViajjpB327/Ea0bfJnk4z9oXMzI=",
+    "originContent": "[Bowei Zhang](https://scholar.google.com/citations?user=tYH72AYAAAAJ)<sup>1,2</sup>*, [Lei Ke](https://www.kelei.site/)<sup>1</sup>\\*, [Adam W. Harley](https://adamharley.com/)<sup>3</sup>, [Katerina Fragkiadaki](https://www.cs.cmu.edu/~katef/)<sup>1</sup>",
+    "translatedContent": "[Bowei Zhang](https://scholar.google.com/citations?user=tYH72AYAAAAJ)<sup>1,2</sup>*, [Lei Ke](https://www.kelei.site/)<sup>1</sup>\\*, [Adam W. Harley](https://adamharley.com/)<sup>3</sup>, [Katerina Fragkiadaki](https://www.cs.cmu.edu/~katef/)<sup>1</sup>"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "yP44p3qnFOCi/06Moc0KL/WVWa6r3gtUBMrPOr0B6E0=",
+    "originContent": "<sup>1</sup>Carnegie Mellon University   &nbsp;  <sup>2</sup>Peking University &nbsp;  <sup>3</sup>Stanford University",
+    "translatedContent": "<sup>1</sup>카네기 멜론 대학교   &nbsp;  <sup>2</sup>베이징 대학교 &nbsp;  <sup>3</sup>스탠포드 대학교"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "gMXKQWndYodissDbGKOQjMiCeI/32FQ/7JWgievipWU=",
+    "originContent": "**NeurIPS 2025**",
+    "translatedContent": "**NeurIPS 2025**"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "e+of7DSbn0+RcRjI2hXCNfUQZ5fuonjF3zZ0gk97N8E=",
+    "originContent": "\\* Equal Contribution",
+    "translatedContent": "\\* 동등 기여"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "V9teupedhaBHmj2yWdVVu3djfBQF2BjI7QKuDl1XPa0=",
+    "originContent": "<!-- <a href='https://huggingface.co/spaces/your-username/project'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Live_Demo-blue'></a> -->",
+    "translatedContent": "<!-- <a href='https://huggingface.co/spaces/your-username/project'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Live_Demo-blue'></a> -->"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "RvHMGiB4+hoW4HsQZKRwBTvlCrL9jd0Elpuq2NnBFN0=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/zbw001/TAPIP3D/main/./media/teaser1.gif\" width=\"100%\" alt=\"TAPIP3D overview\">",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/zbw001/TAPIP3D/main/./media/teaser1.gif\" width=\"100%\" alt=\"TAPIP3D 개요\">"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "+pqpYTausZQOoFIxnh1SbBRWgkVG44F+tzhEyqL3aGc=",
+    "originContent": "### 🚀 News",
+    "translatedContent": "### 🚀 뉴스"
+  },
+  {
+    "row": 25,
+    "rowsha": "EJzSF5YzfESuA0OJIlTIO2fHXt2XdmvrSgOtxl6ZZJo=",
+    "originContent": "- **(2025.12.28)** 🔥 We have updated the **Training** and **Evaluation** code! Check out the new sections below.",
+    "translatedContent": "- **(2025.12.28)** 🔥 **학습(Training)** 및 **평가(Evaluation)** 코드를 업데이트했습니다! 아래의 새로운 섹션을 확인하세요."
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+    "originContent": "## Overview",
+    "translatedContent": "## 개요"
+  },
+  {
+    "row": 28,
+    "rowsha": "fjiLwilLSyMbAoV7Y/iS1XGrkO78FHw1B8NkUtsbgn0=",
+    "originContent": "**TAPIP3D** is a method for long-term **feed-forward** 3D point tracking in monocular RGB and RGB-D video sequences. It introduces a 3D feature cloud representation that lifts image features into a persistent world coordinate space, canceling out camera motion and enabling accurate trajectory estimation across frames.",
+    "translatedContent": "**TAPIP3D**는 단안 RGB 및 RGB-D 비디오 시퀀스에서 장기 **피드포워드(feed-forward)** 3D 점 추적을 위한 방법입니다. 이미지 특징을 영속적인 월드 좌표 공간으로 변환하는 3D 특징 클라우드 표현을 도입하여 카메라 움직임을 상쇄하고 프레임 간 정확한 궤적 추정을 가능하게 합니다."
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "r0XeJM7V5mSetDPiTkUhiriljj9rpdpIYh/Gp0XCtRk=",
+    "originContent": "We provide a detailed [video illustration](https://neurips.cc/virtual/2025/loc/san-diego/poster/117634#:~:text=Within%20this%20stabilized%203D%20representation,trained%20checkpoints%20will%20be%20public.) of our TAPIP3D.",
+    "translatedContent": "TAPIP3D에 대한 자세한 [비디오 설명](https://neurips.cc/virtual/2025/loc/san-diego/poster/117634#:~:text=Within%20this%20stabilized%203D%20representation,trained%20checkpoints%20will%20be%20public.)을 제공합니다."
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 33,
+    "rowsha": "6K/6fwS3VEHqxeRQ8/+5NjPF1kMiT3bmn6fmZNm53o0=",
+    "originContent": "### Installing dependencies",
+    "translatedContent": "### 의존성 설치"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "w+mr1i6ZGpHiQChm9PVt0By3K4bIrR++30iBZzReet4=",
+    "originContent": "1. Prepare the environment",
+    "translatedContent": "1. 환경을 준비하세요"
+  },
+  {
+    "row": 36,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 37,
+    "rowsha": "BTunv0Lm1SrTs8HzpidZqZG+t+WZNF9q3/lWgLaUHh8=",
+    "originContent": "conda create -n tapip3d python=3.10",
+    "translatedContent": "conda create -n tapip3d python=3.10"
+  },
+  {
+    "row": 38,
+    "rowsha": "p/jdQNS+cPNibrvT0V/6KYkiVVP+RC6zDpwPeVv0vps=",
+    "originContent": "conda activate tapip3d",
+    "translatedContent": "conda activate tapip3d"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "bFCZ5Z3oZza+xyEIOGtYuGiNybGFYGP6bjuFRzWqsSc=",
+    "originContent": "pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 \"xformers>=0.0.27\" --index-url https://download.pytorch.org/whl/cu124",
+    "translatedContent": "pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 \"xformers>=0.0.27\" --index-url https://download.pytorch.org/whl/cu124"
+  },
+  {
+    "row": 41,
+    "rowsha": "PIcuqrfAu6HP3H0bCsKUnbnuamSufsDJ3bK1fLMM8sg=",
+    "originContent": "pip install torch-scatter -f https://data.pyg.org/whl/torch-2.4.1+cu124.html",
+    "translatedContent": "pip install torch-scatter -f https://data.pyg.org/whl/torch-2.4.1+cu124.html"
+  },
+  {
+    "row": 42,
+    "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+    "originContent": "pip install -r requirements.txt",
+    "translatedContent": "pip install -r requirements.txt"
+  },
+  {
+    "row": 43,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "pILYl4BeceDzYqctDWpIzVjcqLbLIRrniVn02mBZrZo=",
+    "originContent": "2. Compile pointops2",
+    "translatedContent": "2. pointops2 컴파일하기"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 48,
+    "rowsha": "TtU76HeyaoG8CFO4a0KeMtGfi6/KnSCjSocSAbLzP+E=",
+    "originContent": "cd third_party/pointops2",
+    "translatedContent": "cd third_party/pointops2"
+  },
+  {
+    "row": 49,
+    "rowsha": "bIz8GJNygw/luX+p2StPgYs9dCmUcPAHkxOAatIFEtQ=",
+    "originContent": "LIBRARY_PATH=$CONDA_PREFIX/lib:$LIBRARY_PATH python setup.py install",
+    "translatedContent": "LIBRARY_PATH=$CONDA_PREFIX/lib:$LIBRARY_PATH python setup.py install"
+  },
+  {
+    "row": 50,
+    "rowsha": "AXl1r7R6XAAK2dSQ3eoCI6z0J2TVFfJLcs1JNhjaPvs=",
+    "originContent": "cd ../..",
+    "translatedContent": "cd ../.."
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "1W40OG/5L8DXGFVeX1quNK2Wk7GKimQyTvcAdW7miVo=",
+    "originContent": "3. Compile megasam",
+    "translatedContent": "3. megasam 컴파일하기"
+  },
+  {
+    "row": 54,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 55,
+    "rowsha": "SBS24PQqtxeIoJ53Z6U3sMNOS6llhs3Tb1grqxlNJds=",
+    "originContent": "cd third_party/megasam/base",
+    "translatedContent": "cd third_party/megasam/base"
+  },
+  {
+    "row": 56,
+    "rowsha": "bIz8GJNygw/luX+p2StPgYs9dCmUcPAHkxOAatIFEtQ=",
+    "originContent": "LIBRARY_PATH=$CONDA_PREFIX/lib:$LIBRARY_PATH python setup.py install",
+    "translatedContent": "LIBRARY_PATH=$CONDA_PREFIX/lib:$LIBRARY_PATH python setup.py install"
+  },
+  {
+    "row": 57,
+    "rowsha": "TKUOPQRgKVIIk42csV3sn7QOgqlfHMU06CcO5pqk6zc=",
+    "originContent": "cd ../../..",
+    "translatedContent": "cd ../../.."
+  },
+  {
+    "row": 58,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 체크포인트 다운로드"
+  },
+  {
+    "row": 60,
+    "rowsha": "Y5VjPeaM3QaN37EfWw9AprDy6dJsiJ5nn7DeblD4WVQ=",
+    "originContent": "### Downloading checkpoints",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "TAPIP3D 모델 체크포인트를 [여기](https://huggingface.co/zbww/tapip3d/resolve/main/tapip3d_final.pth)에서 다운로드하여 `checkpoints/tapip3d_final.pth`에 저장하세요."
+  },
+  {
+    "row": 62,
+    "rowsha": "Mmbt/1ZcJFKbJLEOP9oG8mhYgEbltpIQ/pQC4cHHUiA=",
+    "originContent": "Download our TAPIP3D model checkpoint [here](https://huggingface.co/zbww/tapip3d/resolve/main/tapip3d_final.pth) to `checkpoints/tapip3d_final.pth`",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "단안 비디오에서 TAPIP3D를 실행하려면 MegaSAM을 실행하기 위해 다음 체크포인트들을 수동으로 준비해야 합니다:"
+  },
+  {
+    "row": 64,
+    "rowsha": "Duzt2fatd/k6xnx3mHArS0SUq4ihjHfTT5dppY+dTgM=",
+    "originContent": "If you want to run TAPIP3D on monocular videos, you need to prepare the following checkpoints manually to run MegaSAM:",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. [여기](https://huggingface.co/spaces/LiheYoung/Depth-Anything/resolve/main/checkpoints/depth_anything_vitl14.pth)에서 DepthAnything V1 체크포인트를 다운로드하여 `third_party/megasam/Depth-Anything/checkpoints/depth_anything_vitl14.pth`에 넣으세요."
+  },
+  {
+    "row": 66,
+    "rowsha": "bP8eGJRkPAvwlM/twJdVBxBgyY6HOij8yBHPzCiM5gU=",
+    "originContent": "1. Download the DepthAnything V1 checkpoint from [here](https://huggingface.co/spaces/LiheYoung/Depth-Anything/resolve/main/checkpoints/depth_anything_vitl14.pth) and put it to `third_party/megasam/Depth-Anything/checkpoints/depth_anything_vitl14.pth`",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. [여기](https://drive.google.com/drive/folders/1sWDsfuZ3Up38EUQt7-JDTT1HcGHuJgvT)에서 RAFT 체크포인트를 다운로드하여 `third_party/megasam/cvd_opt/raft-things.pth`에 넣으세요."
+  },
+  {
+    "row": 68,
+    "rowsha": "viRif2xQqWIM2TeAThb2mNNS4Lpur4INEukPWRqJOJ4=",
+    "originContent": "2. Download the RAFT checkpoint from [here](https://drive.google.com/drive/folders/1sWDsfuZ3Up38EUQt7-JDTT1HcGHuJgvT) and put it to `third_party/megasam/cvd_opt/raft-things.pth`",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "또한, [MoGe](https://wangrc.site/MoGePage/)와 [UniDepth](https://github.com/lpiccinelli-eth/UniDepth.git) 체크포인트는 데모 실행 시 자동으로 다운로드됩니다. 네트워크 연결이 가능한지 확인하세요."
+  },
+  {
+    "row": 70,
+    "rowsha": "nQ4I1wxgmivmqCfzXufLrJ35XhCSf1rcnOrmxq+8aII=",
+    "originContent": "Additionally, the checkpoints of [MoGe](https://wangrc.site/MoGePage/) and [UniDepth](https://github.com/lpiccinelli-eth/UniDepth.git) will be downloaded automatically when running the demo. Please make sure your network connection is available.",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 데모 사용법"
+  },
+  {
+    "row": 72,
+    "rowsha": "yqR7HrL2DV2mE27BvYwMt2X8Pao3Ki8Z2VU1yM+Vjr8=",
+    "originContent": "## Demo Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "간단한 데모 스크립트 `inference.py`와 `demo_inputs/` 디렉터리에 위치한 샘플 입력 데이터를 제공합니다."
+  },
+  {
+    "row": 74,
+    "rowsha": "+Jdm3NSNcLhYj/DSWJmOiqUYtG/loSBlqPILq5aKqxQ=",
+    "originContent": "We provide a simple demo script `inference.py`, along with sample input data located in the `demo_inputs/` directory.",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "스크립트는 입력으로 `.mp4` 비디오 파일 또는 `.npz` 파일을 받습니다. `.npz` 파일을 제공할 경우 다음 형식을 따라야 합니다:"
+  },
+  {
+    "row": 76,
+    "rowsha": "nCbw0XC9JGJk0aOArtoHSu00RHZLu80kxMb1p4Y6csw=",
+    "originContent": "The script accepts as input either an `.mp4` video file or an `.npz` file. If providing an `.npz` file, it should follow the following format:",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `video`: (T, H, W, 3) 형태의 배열, dtype: uint8"
+  },
+  {
+    "row": 78,
+    "rowsha": "3U505PRJcHTQPq0wnH/rUQ4iYgveP60ju1bFiMtHA7w=",
+    "originContent": "- `video`: array of shape (T, H, W, 3), dtype: uint8",
+    "translatedContent": "- `depths` (선택적): (T, H, W) 형태의 배열, dtype: float32"
+  },
+  {
+    "row": 79,
+    "rowsha": "CtIed39EQLPccAcSPHaM/BFmu9QWoZL40qezuoPOEqQ=",
+    "originContent": "- `depths` (optional): array of shape (T, H, W), dtype: float32",
+    "translatedContent": "- `intrinsics` (선택적): (T, 3, 3) 형태의 배열, dtype: float32"
+  },
+  {
+    "row": 80,
+    "rowsha": "+vPNvjKnWENJgMzHVmj5/O+8iqhdWAFmgHmEF3v2OA0=",
+    "originContent": "- `intrinsics` (optional): array of shape (T, 3, 3), dtype: float32",
+    "translatedContent": "- `extrinsics` (선택적): (T, 4, 4) 형태의 배열, dtype: float32"
+  },
+  {
+    "row": 81,
+    "rowsha": "zUoClG4YbjKIgLJqtS/ryFH7KBOaiRT1hOpR566iJ7A=",
+    "originContent": "- `extrinsics` (optional): array of shape (T, 4, 4), dtype: float32",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "데모 목적상, 스크립트는 첫 번째 프레임에서 32x32 격자의 점들을 쿼리로 사용합니다."
+  },
+  {
+    "row": 83,
+    "rowsha": "nPi+9pzEOuPK9Gt6aaygJGvILQUeNI9SBeC6E66fDj0=",
+    "originContent": "For demonstration purposes, the script uses a 32x32 grid of points at the first frame as queries.",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 단안 비디오 추론"
+  },
+  {
+    "row": 86,
+    "rowsha": "rs7FjN32Q8NVHDj/p9HO6ZtwvJfdtUiCeOF8EjWtWsE=",
+    "originContent": "### Inference with Monocular Video",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`--input_path`로 비디오를 제공하면, 스크립트는 먼저 [MegaSAM](https://github.com/mega-sam/mega-sam)과 [MoGe](https://wangrc.site/MoGePage/)를 사용하여 깊이 맵과 카메라 파라미터를 추정합니다. 이후 모델은 전역 프레임 내에서 이 입력을 처리합니다."
+  },
+  {
+    "row": 88,
+    "rowsha": "ObDSQqGD6JZ0owTCMx55OU5E51FWL/3oQnjc21czRqM=",
+    "originContent": "By providing an video as `--input_path`, the script first runs [MegaSAM](https://github.com/mega-sam/mega-sam) with [MoGe](https://wangrc.site/MoGePage/) to estimate depth maps and camera parameters. Subsequently, the model will process these inputs within the global frame.",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**데모 1**"
+  },
+  {
+    "row": 90,
+    "rowsha": "6s3xeSYSazWzEIdeAeLiBi2iFrEhmb6gsumGgKUX9Ok=",
+    "originContent": "**Demo 1**",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/zbw001/TAPIP3D/main/./media/demo1.gif\" width=\"100%\" alt=\"Demo 1\">"
+  },
+  {
+    "row": 92,
+    "rowsha": "HjIY6PS8DMN2UHsdjhG5TsGZcNFl+U0EKexvqs/H9Q4=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/zbw001/TAPIP3D/main/./media/demo1.gif\" width=\"100%\" alt=\"Demo 1\">",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "추론을 실행하려면:"
+  },
+  {
+    "row": 94,
+    "rowsha": "jqWax6RmnC13A1ABOmpxjC1mgCZtXeF5csTfpVvw7Do=",
+    "originContent": "To run inference:",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 97,
+    "rowsha": "q1z2DLxKDxoFJaaSRf53GrNbJo6hAzAdyIZcwsUlIbE=",
+    "originContent": "python inference.py --input_path demo_inputs/sheep.mp4 --checkpoint checkpoints/tapip3d_final.pth --resolution_factor 2",
+    "translatedContent": "python inference.py --input_path demo_inputs/sheep.mp4 --checkpoint checkpoints/tapip3d_final.pth --resolution_factor 2"
+  },
+  {
+    "row": 98,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "TsLS31CRcEwkagqnQEqDZo0KXTojsVJ4yoYBPsXFsm8=",
+    "originContent": "An npz file will be saved to `outputs/inference/`. To visualize the results:",
+    "translatedContent": "npz 파일이 `outputs/inference/`에 저장됩니다. 결과를 시각화하려면:"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 103,
+    "rowsha": "C6Ecb+bepqbhH2Itf3jHOXribcUBZmwfpdmNx5XJPKI=",
+    "originContent": "python visualize.py <result_npz_path>",
+    "translatedContent": "python visualize.py <result_npz_path>"
+  },
+  {
+    "row": 104,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "ppthSCx/vvdsb0LRbIPUxOe8V9/UrSJtYjp2MZH+waA=",
+    "originContent": "**Demo 2**",
+    "translatedContent": "**Demo 2**"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "/2Ij6Nj+8Pp6aHiOTT7UvY7fWs4wF+P7ScFMUpYUBb0=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/zbw001/TAPIP3D/main/./media/demo2.gif\" width=\"100%\" alt=\"Demo 2\">",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/zbw001/TAPIP3D/main/./media/demo2.gif\" width=\"100%\" alt=\"Demo 2\">"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 111,
+    "rowsha": "CEbr7MQICZEdmke54gIs9+qHcLnY3bENQQg2w1eVAPg=",
+    "originContent": "python inference.py --input_path demo_inputs/pstudio.mp4 --checkpoint checkpoints/tapip3d_final.pth --resolution_factor 2",
+    "translatedContent": "python inference.py --input_path demo_inputs/pstudio.mp4 --checkpoint checkpoints/tapip3d_final.pth --resolution_factor 2"
+  },
+  {
+    "row": 112,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "tnASQ9UmE1ZQxGrduFH58c19yP+mkv0CI6bY9f5vECo=",
+    "originContent": "**Inference with Known Depths and Camera Parameters**",
+    "translatedContent": "**알려진 깊이 및 카메라 매개변수를 사용한 추론**"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "CuCrURxBucdFnROemnC3ZrmA3+oSpU2l5vuonR0b50I=",
+    "originContent": "If an `.npz` file containing all four keys (`rgb`, `depths`, `intrinsics`, `extrinsics`) is provided, the model will operate in an aligned global frame, generating point trajectories in world coordinates.",
+    "translatedContent": "네 가지 키(`rgb`, `depths`, `intrinsics`, `extrinsics`)가 모두 포함된 `.npz` 파일이 제공되면, 모델은 정렬된 전역 좌표계에서 작동하여 세계 좌표계로 점 궤적을 생성합니다.  "
+  },
+  {
+    "row": 117,
+    "rowsha": "AUE14B8LiarA/ltlKpTCruKZcOeYSyEhGpEt1Qo2zuw=",
+    "originContent": "We provide one example `.npz` file at [here](https://huggingface.co/zbww/tapip3d/resolve/main/demo_inputs/dexycb.npz?download=true) and please put it in the `demo_inputs/` directory.",
+    "translatedContent": "예제 `.npz` 파일 하나를 [여기](https://huggingface.co/zbww/tapip3d/resolve/main/demo_inputs/dexycb.npz?download=true)에서 제공하며, `demo_inputs/` 디렉터리에 넣어주세요."
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "yXtLkVCJPXde/fqPCy+h99F8wkdxhgPVJAT502b3kJI=",
+    "originContent": "**Demo 3**",
+    "translatedContent": "**데모 3**"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "vylJy10t0HjVdIg26EdtgWn0g6qVQPAgZ6sHudhFHnA=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/zbw001/TAPIP3D/main/./media/demo3.gif\" width=\"100%\" alt=\"Demo 3\">",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/zbw001/TAPIP3D/main/./media/demo3.gif\" width=\"100%\" alt=\"Demo 3\">"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 124,
+    "rowsha": "3uik2ac7bwlx/TZNKF2S9eRGB9YZm2RicC8SqCannzE=",
+    "originContent": "python inference.py --input_path demo_inputs/dexycb.npz --checkpoint checkpoints/tapip3d_final.pth --resolution_factor 2",
+    "translatedContent": "python inference.py --input_path demo_inputs/dexycb.npz --checkpoint checkpoints/tapip3d_final.pth --resolution_factor 2"
+  },
+  {
+    "row": 125,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "4fZ7hGHwu1wPO2j9gb67cLfxO70a58lzjuzzryUCDTg=",
+    "originContent": "## Training and Evaluation",
+    "translatedContent": "## 교육 및 평가"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "t9HUog7UA4z4Dz9LTItB/5z1ummJ7m/53Qzh7B9knJE=",
+    "originContent": "### 1. Dataset Preparation",
+    "translatedContent": "### 1. 데이터셋 준비"
+  },
+  {
+    "row": 130,
+    "rowsha": "w5JSZNBwY/b3CQ5kqxNRNdmSwEdCe5U6EPEFZslXGag=",
+    "originContent": "Please refer to [DATASET.md](https://raw.githubusercontent.com/zbw001/TAPIP3D/main/DATASET.md) for instructions on preparing datasets for both training and evaluation.",
+    "translatedContent": "학습 및 평가를 위한 데이터셋 준비 방법은 [DATASET.md](https://raw.githubusercontent.com/zbw001/TAPIP3D/main/DATASET.md)를 참조하세요."
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "KiPH/5qmvObd+9EEF7ES3ronPIu+oduhqwiCu7S66xY=",
+    "originContent": "### 2. Training",
+    "translatedContent": "### 2. 학습"
+  },
+  {
+    "row": 133,
+    "rowsha": "9vJFtAcAfITiieV9reW5z46vpdgXEHED3kpHw4JS5lQ=",
+    "originContent": "To start training, run:",
+    "translatedContent": "학습을 시작하려면 다음 명령어를 실행하세요:"
+  },
+  {
+    "row": 134,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 135,
+    "rowsha": "WLUgIKpjnBgdfmCPxKmhBgq8k7QJ5AHuL0ZK/s/7mNo=",
+    "originContent": "bash scripts/train.sh",
+    "translatedContent": "bash scripts/train.sh"
+  },
+  {
+    "row": 136,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 137,
+    "rowsha": "/Z498hz4FsaU1LHS0ACZCQTY65yy3bZsYEkVZu+AedA=",
+    "originContent": "- `experiment_name`: The run name shown on **WandB**.",
+    "translatedContent": "- `experiment_name`: **WandB**에 표시되는 실행 이름입니다."
+  },
+  {
+    "row": 138,
+    "rowsha": "dB0AwrdOm0F54EgiFk85zxky7d9UWnbgGpxij8Vq550=",
+    "originContent": "- `experiment_id`: A unique identifier. Re-running with the same `experiment_id` will **automatically resume** training from the latest checkpoint.",
+    "translatedContent": "- `experiment_id`: 고유 식별자입니다. 동일한 `experiment_id`로 재실행하면 **가장 최근 체크포인트에서 자동으로** 훈련이 재개됩니다."
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "P1xK7x9+0XOkxSlRsno2oCjUn0tfg7SmFaV8IrWtQOs=",
+    "originContent": "### 3. Evaluation",
+    "translatedContent": "### 3. 평가"
+  },
+  {
+    "row": 141,
+    "rowsha": "hHupixQS7BNryFhpi6hb+jJspFOxt1DZ4RHZ5TlkErU=",
+    "originContent": "To evaluate a checkpoint, run:",
+    "translatedContent": "체크포인트를 평가하려면 다음을 실행하세요:"
+  },
+  {
+    "row": 142,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 143,
+    "rowsha": "OOpFDRlGbaY2Wlg3mfLz+m3gMfDKIKvMqOV2S9X+4QM=",
+    "originContent": "bash scripts/eval.sh",
+    "translatedContent": "bash scripts/eval.sh"
+  },
+  {
+    "row": 144,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 145,
+    "rowsha": "XQM10co3tz2vprU/vOfeZIhUrWj4z0fCw2ZeqVr18BQ=",
+    "originContent": "You can specify the model to evaluate by modifying the `checkpoint` variable in `scripts/eval.sh`.",
+    "translatedContent": "`checkpoint` 변수를 `scripts/eval.sh`에서 수정하여 평가할 모델을 지정할 수 있습니다."
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+    "originContent": "## Citation",
+    "translatedContent": "## 인용"
+  },
+  {
+    "row": 148,
+    "rowsha": "eRNW5VRk8qTkjyP8/ItnOEa2EHrArG+AfUC2RojtG/E=",
+    "originContent": "If you find this project useful, please consider citing:",
+    "translatedContent": "이 프로젝트가 유용하다면, 인용을 고려해 주세요:"
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 151,
+    "rowsha": "YaWeOOKL5tmJ9qbO2AuSBCYKoVxxCHjoSKIgiM4ri0Q=",
+    "originContent": "@article{tapip3d,",
+    "translatedContent": "@article{tapip3d,"
+  },
+  {
+    "row": 152,
+    "rowsha": "mvkO7y4Kzt26RX1NkqtaVD0NCkXoNVClRWOkSJwVTYs=",
+    "originContent": "  title={TAPIP3D: Tracking Any Point in Persistent 3D Geometry},",
+    "translatedContent": "  title={TAPIP3D: Tracking Any Point in Persistent 3D Geometry},"
+  },
+  {
+    "row": 153,
+    "rowsha": "HjZZANqkZusGi/OtbC6YitrfUVtkpF1kCcTNGT8MpCA=",
+    "originContent": "  author={Zhang, Bowei and Ke, Lei and Harley, Adam W and Fragkiadaki, Katerina},",
+    "translatedContent": "  author={Zhang, Bowei and Ke, Lei and Harley, Adam W and Fragkiadaki, Katerina},"
+  },
+  {
+    "row": 154,
+    "rowsha": "/ctC/dF/GJ/ITE4yyYXo/LK9U+3d2qocjA3er5pQw+w=",
+    "originContent": "  journal={arXiv preprint arXiv:2504.14717},",
+    "translatedContent": "  journal={arXiv preprint arXiv:2504.14717},"
+  },
+  {
+    "row": 155,
+    "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+    "originContent": "  year={2025}",
+    "translatedContent": "  year={2025}"
+  },
+  {
+    "row": 156,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 157,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
