@@ -1,0 +1,527 @@
+[
+  {
+    "Id": 1,
+    "Content": "# BiliAnalysis\n\n[![Stars](https://img.shields.io/github/stars/mmyo456/BiliAnalysis?style=flat-square)](https://github.com/mmyo456/BiliAnalysis/stargazers)\n[![License](https://img.shields.io/github/license/mmyo456/BiliAnalysis?style=flat-square)](https://github.com/mmyo456/BiliAnalysis/blob/main/LICENSE)\n[![Release](https://img.shields.io/github/v/release/mmyo456/BiliAnalysis?style=flat-square)](https://github.com/mmyo456/BiliAnalysis/releases/latest)\n\n**轻量 · 简洁 · 开源 · 模块化**\n\n获取哔哩哔哩视频和直播直链的油猴脚本与浏览器扩展。\n\n## 功能特性\n\n- 支持视频和直播间解析\n- 提供本地解析和云端解析\n- 右键菜单快速复制直链\n- 模块化设计，按需安装\n\n## 版本选择\n\n| 版本 | 解析方式 | 说明 |\n| :--- | :--- | :--- |\n| **BiliCloudAnalysis** | 云端 (推荐) | 稳定可靠，解决 1080P+ 解析问题 |\n| BiliAnalysis | 本地 | 速度快，但部分高清视频可能失败 |\n| BiliRoomAnalysis | 本地 | 直播间专用 |\n| 右键解析插件 | 浏览器扩展 | 同云端版，无需油猴 |\n\n## 快速安装\n\n### 油猴脚本\n\n1. 安装 [Tampermonkey](https://www.tampermonkey.net/)\n2. 点击下方链接安装脚本\n\n| 脚本 | GitHub | 国内镜像 |\n| :--- | :--- | :--- |\n| 视频云解析 (推荐) | [安装](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis.user.js) | [安装](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis.user.js) |\n| 视频云解析1| [安装](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis_1.user.js) | [安装](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis_1.user.js) |\n| 本地解析 | [安装](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliAnalysis.user.js) | [安装](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliAnalysis.user.js) |\n| 直播间解析 | [安装](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliRoomAnalysis.user.js) | [安装](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliRoomAnalysis.user.js) |\n",
+    "ContentSha": "h8UWuEK7CRSvVRD4hhY92SJ85WMrOexUIEhtNoIK/hY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# BiliAnalysis\n\n[![Stars](https://img.shields.io/github/stars/mmyo456/BiliAnalysis?style=flat-square)](https://github.com/mmyo456/BiliAnalysis/stargazers)\n[![License](https://img.shields.io/github/license/mmyo456/BiliAnalysis?style=flat-square)](https://github.com/mmyo456/BiliAnalysis/blob/main/LICENSE)\n[![Release](https://img.shields.io/github/v/release/mmyo456/BiliAnalysis?style=flat-square)](https://github.com/mmyo456/BiliAnalysis/releases/latest)\n\n**경량 · 간결 · 오픈소스 · 모듈화**\n\n비리비리 영상과 라이브 스트림 직접 링크를 획득하는 유저스크립트 및 브라우저 확장 프로그램입니다.\n\n## 기능 특징\n\n- 영상과 라이브룸 분석 지원\n- 로컬 분석 및 클라우드 분석 제공\n- 우클릭 메뉴로 직접 링크 빠른 복사\n- 모듈화 설계, 필요에 따라 설치 가능\n\n## 버전 선택\n\n| 버전 | 분석 방식 | 설명 |\n| :--- | :--- | :--- |\n| **BiliCloudAnalysis** | 클라우드 (추천) | 안정적이며 1080P+ 분석 문제 해결 |\n| BiliAnalysis | 로컬 | 속도 빠르나 일부 고화질 영상 실패 가능 |\n| BiliRoomAnalysis | 로컬 | 라이브룸 전용 |\n| 우클릭 분석 플러그인 | 브라우저 확장 | 클라우드 버전과 동일, 유저스크립트 불필요 |\n\n## 빠른 설치\n\n### 유저스크립트\n\n1. [Tampermonkey](https://www.tampermonkey.net/) 설치\n2. 아래 링크 클릭하여 스크립트 설치\n\n| 스크립트 | GitHub | 국내 미러 |\n| :--- | :--- | :--- |\n| 영상 클라우드 분석 (추천) | [설치](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis.user.js) | [설치](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis.user.js) |\n| 영상 클라우드 분석1 | [설치](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis_1.user.js) | [설치](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis_1.user.js) |\n| 로컬 분석 | [설치](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliAnalysis.user.js) | [설치](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliAnalysis.user.js) |\n| 라이브룸 분석 | [설치](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliRoomAnalysis.user.js) | [설치](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliRoomAnalysis.user.js) |\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UUK9j5j1jcMtCHWyeNDEraWciGXiVo9yTDfGw2+4/M4=",
+        "originContent": "# BiliAnalysis",
+        "translatedContent": "# BiliAnalysis"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "bChvypxySpaNF4CuCWcm60l38JtHcoOHDRWGF/Cet/M=",
+        "originContent": "[![Stars](https://img.shields.io/github/stars/mmyo456/BiliAnalysis?style=flat-square)](https://github.com/mmyo456/BiliAnalysis/stargazers)",
+        "translatedContent": "[![Stars](https://img.shields.io/github/stars/mmyo456/BiliAnalysis?style=flat-square)](https://github.com/mmyo456/BiliAnalysis/stargazers)"
+      },
+      {
+        "row": 4,
+        "rowsha": "cK/Ppz0CBnNBYqxbjEEAnzcwRkrq2HRzd/cGs2MqDw0=",
+        "originContent": "[![License](https://img.shields.io/github/license/mmyo456/BiliAnalysis?style=flat-square)](https://github.com/mmyo456/BiliAnalysis/blob/main/LICENSE)",
+        "translatedContent": "[![License](https://img.shields.io/github/license/mmyo456/BiliAnalysis?style=flat-square)](https://github.com/mmyo456/BiliAnalysis/blob/main/LICENSE)"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bC/qNvzvzwpNzpbGhtSy9DfiyRZ828BS2C6DwhmyDI=",
+        "originContent": "[![Release](https://img.shields.io/github/v/release/mmyo456/BiliAnalysis?style=flat-square)](https://github.com/mmyo456/BiliAnalysis/releases/latest)",
+        "translatedContent": "[![Release](https://img.shields.io/github/v/release/mmyo456/BiliAnalysis?style=flat-square)](https://github.com/mmyo456/BiliAnalysis/releases/latest)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "sNnlgrBuzOzf75afEhZol0mJcFWa4T770a3bG+YiGSE=",
+        "originContent": "**轻量 · 简洁 · 开源 · 模块化**",
+        "translatedContent": "**경량 · 간결 · 오픈소스 · 모듈화**"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ujN2LmNqQO6Ut8YJ8Xdel/9fN+EVVkDuaTp7/rVc7O0=",
+        "originContent": "获取哔哩哔哩视频和直播直链的油猴脚本与浏览器扩展。",
+        "translatedContent": "비리비리 영상과 라이브 스트림 직접 링크를 획득하는 유저스크립트 및 브라우저 확장 프로그램입니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "hcZsKlpSPkTFpH/QegoKHGVWmJDSH48IDfZVw6T3YEk=",
+        "originContent": "## 功能特性",
+        "translatedContent": "## 기능 특징"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "aeORVWES346E1kWvpMl6CgEn5IPJPMgSdEm4TPxnBq4=",
+        "originContent": "- 支持视频和直播间解析",
+        "translatedContent": "- 영상과 라이브룸 분석 지원"
+      },
+      {
+        "row": 14,
+        "rowsha": "u615A12ol/Il/3Mvozvmltqs/7QAq5C+9ungJIcwcP4=",
+        "originContent": "- 提供本地解析和云端解析",
+        "translatedContent": "- 로컬 분석 및 클라우드 분석 제공"
+      },
+      {
+        "row": 15,
+        "rowsha": "Ew+ZvUp3VyvG50aHBhW/BKioiaNRpNww17u7dVCbfZM=",
+        "originContent": "- 右键菜单快速复制直链",
+        "translatedContent": "- 우클릭 메뉴로 직접 링크 빠른 복사"
+      },
+      {
+        "row": 16,
+        "rowsha": "XKJafY8NmqiJ7Hno7gcfxelxD5rfMZ2DZlC/kNsNMsY=",
+        "originContent": "- 模块化设计，按需安装",
+        "translatedContent": "- 모듈화 설계, 필요에 따라 설치 가능"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "C4rJTXJSR/lpvNdQR35823C9Qrx85Gquw5KHHTTcI0o=",
+        "originContent": "## 版本选择",
+        "translatedContent": "## 버전 선택"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "aqXduouaAvp4YqGuo3FSTyeEH1aPU69aq7AVmdK2JyA=",
+        "originContent": "| 版本 | 解析方式 | 说明 |",
+        "translatedContent": "| 버전 | 분석 방식 | 설명 |"
+      },
+      {
+        "row": 21,
+        "rowsha": "stnc1f/F1LLCBfoGiwD3azhaiHRfUnewUsNgzlFxs8o=",
+        "originContent": "| :--- | :--- | :--- |",
+        "translatedContent": "| :--- | :--- | :--- |"
+      },
+      {
+        "row": 22,
+        "rowsha": "DYQSee4UrWC+8kcqtH3rfnqHSc14e2q3kBqqAvhr30c=",
+        "originContent": "| **BiliCloudAnalysis** | 云端 (推荐) | 稳定可靠，解决 1080P+ 解析问题 |",
+        "translatedContent": "| **BiliCloudAnalysis** | 클라우드 (추천) | 안정적이며 1080P+ 분석 문제 해결 |"
+      },
+      {
+        "row": 23,
+        "rowsha": "48rQc3j/Ga3BUDINdhxp4uWEHsLYeHgBt4zjBz8xoYk=",
+        "originContent": "| BiliAnalysis | 本地 | 速度快，但部分高清视频可能失败 |",
+        "translatedContent": "| BiliAnalysis | 로컬 | 속도 빠르나 일부 고화질 영상 실패 가능 |"
+      },
+      {
+        "row": 24,
+        "rowsha": "nxn50+Vd8k/TgDi/LeLpzHR/vH+n/8oW8eBBVxPiqXM=",
+        "originContent": "| BiliRoomAnalysis | 本地 | 直播间专用 |",
+        "translatedContent": "| BiliRoomAnalysis | 로컬 | 라이브룸 전용 |"
+      },
+      {
+        "row": 25,
+        "rowsha": "2x+cragSZ78OIBJBTUwNVTV61o9HY1tPtCtXEOe+x78=",
+        "originContent": "| 右键解析插件 | 浏览器扩展 | 同云端版，无需油猴 |",
+        "translatedContent": "| 우클릭 분석 플러그인 | 브라우저 확장 | 클라우드 버전과 동일, 유저스크립트 불필요 |"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "dYQaAQIUfN01RUBCtB95R9urncl7XLthqkNmTtQoJi0=",
+        "originContent": "## 快速安装",
+        "translatedContent": "## 빠른 설치"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "8w20yh52zOBRt1tTjMKFrEbMfFYh/xAT9FSssKoplZM=",
+        "originContent": "### 油猴脚本",
+        "translatedContent": "### 유저스크립트"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "bqDlonylLv1cxj6MfOU4NX4xNrstyFHIDXyVnuqyvY4=",
+        "originContent": "1. 安装 [Tampermonkey](https://www.tampermonkey.net/)",
+        "translatedContent": "1. [Tampermonkey](https://www.tampermonkey.net/) 설치"
+      },
+      {
+        "row": 32,
+        "rowsha": "0OqoBiPe+PuxbyruDWtavVWdInzkNbvMFz6Ig0WVC9I=",
+        "originContent": "2. 点击下方链接安装脚本",
+        "translatedContent": "2. 아래 링크 클릭하여 스크립트 설치"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "Mgaw/Q28apHd/YqDpeE9N0itflIapnboTKUWFRMkzR0=",
+        "originContent": "| 脚本 | GitHub | 国内镜像 |",
+        "translatedContent": "| 스크립트 | GitHub | 국내 미러 |"
+      },
+      {
+        "row": 35,
+        "rowsha": "stnc1f/F1LLCBfoGiwD3azhaiHRfUnewUsNgzlFxs8o=",
+        "originContent": "| :--- | :--- | :--- |",
+        "translatedContent": "| :--- | :--- | :--- |"
+      },
+      {
+        "row": 36,
+        "rowsha": "/vfeHAyIy8U63kSbnHfoVYoZmkePHssmGEoENJ4pBrM=",
+        "originContent": "| 视频云解析 (推荐) | [安装](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis.user.js) | [安装](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis.user.js) |",
+        "translatedContent": "| 영상 클라우드 분석 (추천) | [설치](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis.user.js) | [설치](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis.user.js) |"
+      },
+      {
+        "row": 37,
+        "rowsha": "dTJlTfuHVHjRc58E1hA9ZOn/08vI1HpCZjrkCWyX+Eo=",
+        "originContent": "| 视频云解析1| [安装](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis_1.user.js) | [安装](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis_1.user.js) |",
+        "translatedContent": "| 영상 클라우드 분석1 | [설치](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis_1.user.js) | [설치](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliCloudAnalysis_1.user.js) |"
+      },
+      {
+        "row": 38,
+        "rowsha": "GgwEngsq4GgSwPugwahV1Q3KaMFr1cUEF0S3F6NrmaM=",
+        "originContent": "| 本地解析 | [安装](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliAnalysis.user.js) | [安装](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliAnalysis.user.js) |",
+        "translatedContent": "| 로컬 분석 | [설치](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliAnalysis.user.js) | [설치](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliAnalysis.user.js) |"
+      },
+      {
+        "row": 39,
+        "rowsha": "zyyozC1lI1i3J/7pCxoXc09iI5jwqpnoLyeHkP/4k+Q=",
+        "originContent": "| 直播间解析 | [安装](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliRoomAnalysis.user.js) | [安装](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliRoomAnalysis.user.js) |",
+        "translatedContent": "| 라이브룸 분석 | [설치](https://raw.githubusercontent.com/mmyo456/BiliAnalysis/main/BiliRoomAnalysis.user.js) | [설치](https://raw.gitmirror.com/mmyo456/BiliAnalysis/main/BiliRoomAnalysis.user.js) |"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "### 浏览器扩展\n\n1. 下载 `右键解析插件.zip` 并解压\n2. 浏览器扩展页面开启\"开发者模式\"\n3. 加载已解压的扩展程序\n4. 详见 [Edge 扩展加载教程](https://learn.microsoft.com/zh-cn/microsoft-edge/extensions-chromium/getting-started/extension-sideloading)\n \n效果如图\n\n<img src=\"https://github.com/mmyo456/BiliAnalysis/assets/70092715/27911680-9d0f-4f84-b849-22165381f6fa\" alt=\"QQ截图20230909142830\" width=\"400\"> <br>\n\n## 使用方法\n\n在哔哩哔哩网站的视频标题上右键，选择\"视频解析\"即可获取直链。\n\n> **重要提示**：云解析依赖公共服务器，请勿滥用。如在 VRChat 世界或网站中使用，请保留原作者信息。\n\n## 支持项目\n\n云解析服务需要服务器成本，如果觉得有帮助，欢迎 [赞助支持](https://www.ouo.chat/sponsor)。\n\n## 鸣谢\n\n- [91VRChat](https://www.91vrchat.com/) - 提供云解析资源与思路\n- [ouo.chat](https://ouo.chat/) - 提供云解析服务资源\n- [BiliBili-JX](https://github.com/gujimy/BiliBili-JX) - 提供的代码参考\n\n## Contributors 贡献者  \n特别感谢所有为本项目提供帮助的人员：  \n<a href=\"https://github.com/mmyo456/BiliAnalysis/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=mmyo456/BiliAnalysis\" />\n</a>\n\n## 许可证\n\n[MIT License](https://github.com/mmyo456/BiliAnalysis/blob/main/LICENSE)\n\n## Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=mmyo456/BiliAnalysis&type=Date)](https://star-history.com/#mmyo456/BiliAnalysis&Date)",
+    "ContentSha": "ctZMAs+3L70u1tD/fBgqq0K9H0j7GaGJ0cRVt+oli6g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 브라우저 확장 프로그램\n\n1. `우클릭 분석 플러그인.zip` 다운로드 후 압축 해제\n2. 브라우저 확장 프로그램 페이지에서 \"개발자 모드\" 활성화\n3. 압축 해제한 확장 프로그램 불러오기\n4. 자세한 내용은 [Edge 확장 프로그램 불러오기 튜토리얼](https://learn.microsoft.com/zh-cn/microsoft-edge/extensions-chromium/getting-started/extension-sideloading) 참조\n \n효과는 아래 이미지와 같습니다\n\n<img src=\"https://github.com/mmyo456/BiliAnalysis/assets/70092715/27911680-9d0f-4f84-b849-22165381f6fa\" alt=\"QQ截图20230909142830\" width=\"400\"> <br>\n\n## 사용 방법\n\n비리비리 사이트의 동영상 제목에서 우클릭 후 \"동영상 분석\" 선택하면 직접 링크를 얻을 수 있습니다.\n\n> **중요 알림**: 클라우드 분석은 공용 서버에 의존하므로 과도한 사용을 삼가주세요. VRChat 월드나 웹사이트에서 사용할 경우 원작자 정보를 반드시 남겨주세요.\n\n## 지원 프로젝트\n\n클라우드 분석 서비스는 서버 비용이 발생합니다. 도움이 되셨다면 [후원하기](https://www.ouo.chat/sponsor)를 환영합니다.\n\n## 감사의 말\n\n- [91VRChat](https://www.91vrchat.com/) - 클라우드 분석 자원 및 아이디어 제공\n- [ouo.chat](https://ouo.chat/) - 클라우드 분석 서비스 자원 제공\n- [BiliBili-JX](https://github.com/gujimy/BiliBili-JX) - 참고한 코드 제공\n\n## Contributors 기여자  \n본 프로젝트에 도움을 주신 모든 분들께 특별히 감사드립니다:  \n<a href=\"https://github.com/mmyo456/BiliAnalysis/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=mmyo456/BiliAnalysis\" />\n</a>\n\n## 라이선스\n\n[MIT 라이선스](https://github.com/mmyo456/BiliAnalysis/blob/main/LICENSE)\n\n## Star History\n\n[![Star History 차트](https://api.star-history.com/svg?repos=mmyo456/BiliAnalysis&type=Date)](https://star-history.com/#mmyo456/BiliAnalysis&Date)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rOBmnl0zXYuz3gMzkr5D6o7rA++2j3p/GjQoID9d6rk=",
+        "originContent": "### 浏览器扩展",
+        "translatedContent": "### 브라우저 확장 프로그램"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "XhRI8z9a5vMQUI41LLvsAyjjaQMBicBlrCoRIqQ/8bY=",
+        "originContent": "1. 下载 `右键解析插件.zip` 并解压",
+        "translatedContent": "1. `우클릭 분석 플러그인.zip` 다운로드 후 압축 해제"
+      },
+      {
+        "row": 4,
+        "rowsha": "tnntCAL5ajOK1hWH5hm7OLDQs0H1MMlUayw50jcjdPs=",
+        "originContent": "2. 浏览器扩展页面开启\"开发者模式\"",
+        "translatedContent": "2. 브라우저 확장 프로그램 페이지에서 \"개발자 모드\" 활성화"
+      },
+      {
+        "row": 5,
+        "rowsha": "1e9na4xjTia0tU8V0Maa+xlsifH32Tpoapk7WT8IssQ=",
+        "originContent": "3. 加载已解压的扩展程序",
+        "translatedContent": "3. 압축 해제한 확장 프로그램 불러오기"
+      },
+      {
+        "row": 6,
+        "rowsha": "MtySjcQxRmF5XsRlukQCnps6C0ZZhZDPhIUIgZTreoU=",
+        "originContent": "4. 详见 [Edge 扩展加载教程](https://learn.microsoft.com/zh-cn/microsoft-edge/extensions-chromium/getting-started/extension-sideloading)",
+        "translatedContent": "4. 자세한 내용은 [Edge 확장 프로그램 불러오기 튜토리얼](https://learn.microsoft.com/zh-cn/microsoft-edge/extensions-chromium/getting-started/extension-sideloading) 참조"
+      },
+      {
+        "row": 7,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": " "
+      },
+      {
+        "row": 8,
+        "rowsha": "eMKqEcyXIwYFXR8uBXv9RRZJWAvPTVK7D5rGsfjMSM4=",
+        "originContent": "效果如图",
+        "translatedContent": "효과는 아래 이미지와 같습니다"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "p/2PCgFFF+UUkq20NB1O5QJ9tNsK+EYnBVPVMbf2QHc=",
+        "originContent": "<img src=\"https://github.com/mmyo456/BiliAnalysis/assets/70092715/27911680-9d0f-4f84-b849-22165381f6fa\" alt=\"QQ截图20230909142830\" width=\"400\"> <br>",
+        "translatedContent": "<img src=\"https://github.com/mmyo456/BiliAnalysis/assets/70092715/27911680-9d0f-4f84-b849-22165381f6fa\" alt=\"QQ截图20230909142830\" width=\"400\"> <br>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "6MQVJlN8pzS/JKFAmEsF+fGPpVBhkqKXd7kJyIXtGEg=",
+        "originContent": "## 使用方法",
+        "translatedContent": "## 사용 방법"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "UFKQI4sYDuhQVFA1ZZBkmkrTLoaA03YOmVi95fyfDuQ=",
+        "originContent": "在哔哩哔哩网站的视频标题上右键，选择\"视频解析\"即可获取直链。",
+        "translatedContent": "비리비리 사이트의 동영상 제목에서 우클릭 후 \"동영상 분석\" 선택하면 직접 링크를 얻을 수 있습니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "qZW2kBBjWzLrZVWtLX1wkqc69KWW91TxbkBkWcI16OA=",
+        "originContent": "> **重要提示**：云解析依赖公共服务器，请勿滥用。如在 VRChat 世界或网站中使用，请保留原作者信息。",
+        "translatedContent": "> **중요 알림**: 클라우드 분석은 공용 서버에 의존하므로 과도한 사용을 삼가주세요. VRChat 월드나 웹사이트에서 사용할 경우 원작자 정보를 반드시 남겨주세요."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "Lhy/y8fWDZITp9vPFe/30q6Wl/RlfDwpz3ptxHvgr70=",
+        "originContent": "## 支持项目",
+        "translatedContent": "## 지원 프로젝트"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Wu7V+xaIvrkHzNTTSlPA66tXfjDrXN+AEB40kOTV4jM=",
+        "originContent": "云解析服务需要服务器成本，如果觉得有帮助，欢迎 [赞助支持](https://www.ouo.chat/sponsor)。",
+        "translatedContent": "클라우드 분석 서비스는 서버 비용이 발생합니다. 도움이 되셨다면 [후원하기](https://www.ouo.chat/sponsor)를 환영합니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "hJYUDZbTWz113hCglxe1m5lviyUCnfs+dMuPiR5Q5Og=",
+        "originContent": "## 鸣谢",
+        "translatedContent": "## 감사의 말"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "Tc+8nbNVxse+18ZpHB+aab+kAgUgGhRfrfQ3JZBq5Ig=",
+        "originContent": "- [91VRChat](https://www.91vrchat.com/) - 提供云解析资源与思路",
+        "translatedContent": "- [91VRChat](https://www.91vrchat.com/) - 클라우드 분석 자원 및 아이디어 제공"
+      },
+      {
+        "row": 25,
+        "rowsha": "cJtzxU4qArRnLNqL74nS+/cW1comduSoU9L46i13gmY=",
+        "originContent": "- [ouo.chat](https://ouo.chat/) - 提供云解析服务资源",
+        "translatedContent": "- [ouo.chat](https://ouo.chat/) - 클라우드 분석 서비스 자원 제공"
+      },
+      {
+        "row": 26,
+        "rowsha": "x2mAxnAh/59s//1KgYPFKWjuoG/qzzu65EH2fzKi9SA=",
+        "originContent": "- [BiliBili-JX](https://github.com/gujimy/BiliBili-JX) - 提供的代码参考",
+        "translatedContent": "- [BiliBili-JX](https://github.com/gujimy/BiliBili-JX) - 참고한 코드 제공"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "dbxXBLd8ffZssCxZrSh6mFk5G+wBkuL4A4wB65ouQxs=",
+        "originContent": "## Contributors 贡献者  ",
+        "translatedContent": "## Contributors 기여자  "
+      },
+      {
+        "row": 29,
+        "rowsha": "1RJJ/mbg7K9vqyrj/kZ0bZOqnwxDcYfYnxMyq//a6Rk=",
+        "originContent": "特别感谢所有为本项目提供帮助的人员：  ",
+        "translatedContent": "본 프로젝트에 도움을 주신 모든 분들께 특별히 감사드립니다:  "
+      },
+      {
+        "row": 30,
+        "rowsha": "twxNj4WXb01+piDQxj+cvXJtedKNwHlZXNiOEJva0rY=",
+        "originContent": "<a href=\"https://github.com/mmyo456/BiliAnalysis/graphs/contributors\">",
+        "translatedContent": "<a href=\"https://github.com/mmyo456/BiliAnalysis/graphs/contributors\">"
+      },
+      {
+        "row": 31,
+        "rowsha": "6UMTsF7JIfdW9skMs8OvVM+yk1p4maqpmaWnkR22ZnE=",
+        "originContent": "  <img src=\"https://contrib.rocks/image?repo=mmyo456/BiliAnalysis\" />",
+        "translatedContent": "  <img src=\"https://contrib.rocks/image?repo=mmyo456/BiliAnalysis\" />"
+      },
+      {
+        "row": 32,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "l9mHJhM0bkQldVQ8sqfWeieeIFtAwhD/P/KiVcLUJww=",
+        "originContent": "## 许可证",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "rdRT9ipi4IsGbcymUqSvNq9c6pnm5GEm5G9BdfSxsJ0=",
+        "originContent": "[MIT License](https://github.com/mmyo456/BiliAnalysis/blob/main/LICENSE)",
+        "translatedContent": "[MIT 라이선스](https://github.com/mmyo456/BiliAnalysis/blob/main/LICENSE)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+        "originContent": "## Star History",
+        "translatedContent": "## Star History"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "kpNz1bDgiGPkrxDZxSDN+uWzIWQtYKzKQn45k10Ep8g=",
+        "originContent": "[![Star History Chart](https://api.star-history.com/svg?repos=mmyo456/BiliAnalysis&type=Date)](https://star-history.com/#mmyo456/BiliAnalysis&Date)",
+        "translatedContent": "[![Star History 차트](https://api.star-history.com/svg?repos=mmyo456/BiliAnalysis&type=Date)](https://star-history.com/#mmyo456/BiliAnalysis&Date)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
