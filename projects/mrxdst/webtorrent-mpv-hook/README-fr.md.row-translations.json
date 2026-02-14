@@ -1,0 +1,464 @@
+[
+  {
+    "row": 1,
+    "rowsha": "ZX3t91P/8hxGZ79ss2dBBrV98F8+SOMtYjX19tkWkD8=",
+    "originContent": "![mpv streaming a torrent](https://github.com/mrxdst/webtorrent-mpv-hook/raw/master/.github/poster.png)",
+    "translatedContent": "![mpv diffusion d’un torrent](https://github.com/mrxdst/webtorrent-mpv-hook/raw/master/.github/poster.png)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "rGVSixyBF3H8g34AlqZLMv4NwxO4mIyghPsaePm6QQ4=",
+    "originContent": "# webtorrent-mpv-hook",
+    "translatedContent": "# webtorrent-mpv-hook"
+  },
+  {
+    "row": 4,
+    "rowsha": "LU1szhaMzh4oS1bOs5iEuUIShYj4WU2zexfuoZLnkbY=",
+    "originContent": "[![npm](https://img.shields.io/npm/v/webtorrent-mpv-hook)](https://www.npmjs.com/package/webtorrent-mpv-hook)",
+    "translatedContent": "[![npm](https://img.shields.io/npm/v/webtorrent-mpv-hook)](https://www.npmjs.com/package/webtorrent-mpv-hook)"
+  },
+  {
+    "row": 5,
+    "rowsha": "SxeqwqPrw2Q5ajwbFgs7quNbsmEsun8hACeIkpNQ7BY=",
+    "originContent": "[![mpv](https://img.shields.io/badge/mpv-v0.41.0-blue)](https://mpv.io/)",
+    "translatedContent": "[![mpv](https://img.shields.io/badge/mpv-v0.41.0-blue)](https://mpv.io/)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "YiruV4ETo94SBCe70UmUhZdKNDvCfnSm03ccvTUfJ+E=",
+    "originContent": "Adds a hook that allows mpv to stream torrents using [webtorrent](https://github.com/webtorrent/webtorrent).  ",
+    "translatedContent": "Ajoute un hook qui permet à mpv de diffuser des torrents en utilisant [webtorrent](https://github.com/webtorrent/webtorrent).  "
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+    "originContent": "## Prerequisites",
+    "translatedContent": "## Prérequis"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "MZ4WcdwVJeKeFYp/5Iqef1lNj2UpE0GLoqXTukVzm4c=",
+    "originContent": "* node.js",
+    "translatedContent": "* node.js"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+    "originContent": "## Install",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "4OxrnaHtQg8eX+GA70ilGGBHKr+nzLj4xLCI0Z54QuU=",
+    "originContent": "1. `npm install --global webtorrent-mpv-hook`",
+    "translatedContent": "1. `npm install --global webtorrent-mpv-hook`"
+  },
+  {
+    "row": 17,
+    "rowsha": "oZM49CFjxfquHZkjRSBsZVEBOAYlcREXXjGfSd+0hXk=",
+    "originContent": "2. You need to symlink a script file to your mpv scripts folder.  ",
+    "translatedContent": "2. Vous devez créer un lien symbolique vers un fichier script dans votre dossier de scripts mpv.  "
+  },
+  {
+    "row": 18,
+    "rowsha": "L8CjqAP6Go19iNuI0iKHDGNNX2jtMA+Dn6M+neDsDmU=",
+    "originContent": "   Run `webtorrent-mpv-hook` for instructions.  ",
+    "translatedContent": "   Exécutez `webtorrent-mpv-hook` pour les instructions.  "
+  },
+  {
+    "row": 19,
+    "rowsha": "tSoa8uJo11HS7ZAp9mxi/2Ts3nyC37DyyAyCC7Pbo+4=",
+    "originContent": "   You only need to do this once.",
+    "translatedContent": "   Vous n’avez besoin de le faire qu’une seule fois."
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "EK0mrha164/ISvL3y8uTc8WN60F2UKAhS5SE0Ua8D0E=",
+    "originContent": "For linux installation without sudo you can try [this](https://github.com/mrxdst/webtorrent-mpv-hook/issues/44).",
+    "translatedContent": "Pour une installation sous Linux sans sudo, vous pouvez essayer [cela](https://github.com/mrxdst/webtorrent-mpv-hook/issues/44)."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "BF/46ruj4mU2t/XD4k43I/rGc3KhLnfj7oELzHlmoqY=",
+    "originContent": "## Update",
+    "translatedContent": "## Mise à jour"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "HqmAyFgyuVIeIGz0cil5ckApQ1nYCB3HHqvmQzZIYMA=",
+    "originContent": "`npm update --global webtorrent-mpv-hook`",
+    "translatedContent": "`npm update --global webtorrent-mpv-hook`"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Utilisation"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "PhFOWz6ssuRk9ygYVbwdnoaoloSlCZYqrJ7SeNQaXEk=",
+    "originContent": "`mpv <torrent-id>`",
+    "translatedContent": "`mpv <torrent-id>`"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "HQzbUvTCbU3Qu9Jw74edx4jYjpKTutvZlG+oA7SUZB4=",
+    "originContent": "Where `torrent-id` is one of:",
+    "translatedContent": "Où `torrent-id` est l’un des suivants :"
+  },
+  {
+    "row": 32,
+    "rowsha": "KiUWeHgGbdfwTIN6ioIwH20jsMtP8pdsCKnvs/r+JaE=",
+    "originContent": "* magnet link",
+    "translatedContent": "* lien magnet"
+  },
+  {
+    "row": 33,
+    "rowsha": "gAaPJBqREKVC2efc6+P2NxyRe0OcFqhKSxiyyuXAqRc=",
+    "originContent": "* info-hash",
+    "translatedContent": "* info-hash"
+  },
+  {
+    "row": 34,
+    "rowsha": "oRH3UB8KkLeURZBADEtcZpk6TZP2XzHuZMuqFpmr4/c=",
+    "originContent": "* path or url to `.torrent` file",
+    "translatedContent": "* chemin ou URL vers un fichier `.torrent`"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "uvIJqm85byHpX4Z+tK0dL3pJLx76GbjpTr4co9ceLog=",
+    "originContent": "An overlay will be shown with info/progress. It will be closed automatically when playback starts.  ",
+    "translatedContent": "Une superposition s’affichera avec les informations/progrès. Elle se fermera automatiquement lorsque la lecture commence.  "
+  },
+  {
+    "row": 37,
+    "rowsha": "1BUr+Km3LMLC7Ed8n1bCrDVjfR9D+BFRdm+cL1YgH2E=",
+    "originContent": "It can also be toggled manually with `p` (default).",
+    "translatedContent": "Elle peut également être activée ou désactivée manuellement avec `p` (par défaut)."
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "Jb560CU83ZgKmkvHutoGm0MiQTRL74FdnXoXjGRfXu8=",
+    "originContent": "> Multi-file torrents are opened as a playlist.",
+    "translatedContent": "> Les torrents multi-fichiers sont ouverts comme une liste de lecture."
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": "## Configuration"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "CWdZDxmqosa2kzB3rT192ZMeFxXTLPs16dENaRQGdY0=",
+    "originContent": "Default values are shown below.",
+    "translatedContent": "Les valeurs par défaut sont indiquées ci-dessous."
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "2fBls290SLXLr6DaU8F2Hv+rG+1dMWfjaM36Vd9o3M8=",
+    "originContent": "### `input.conf`",
+    "translatedContent": "### `input.conf`"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "7PCY8L4UWp+PfU5H31sdGaZpAbtkbTtzEqdEtnP5FVU=",
+    "originContent": "```properties",
+    "translatedContent": "```properties"
+  },
+  {
+    "row": 48,
+    "rowsha": "6Q9dcVIq925FCXSmjVdI193SXBqWeC6inru/F89v2xc=",
+    "originContent": "# Toggles info/progress overlay.",
+    "translatedContent": "# Toggles info/progress overlay."
+  },
+  {
+    "row": 49,
+    "rowsha": "TOaASdIsPDWq9XCqQ8U9QDIrPjgM6tNp3m+i2gdjpqM=",
+    "originContent": "p script-binding webtorrent/toggle-info",
+    "translatedContent": "p script-binding webtorrent/toggle-info"
+  },
+  {
+    "row": 50,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "E/yLz2ssy3y5NaJ5bsY4j+t8PgiqssxgUhmEUuq0hU8=",
+    "originContent": "### `script-opts/webtorrent.conf`",
+    "translatedContent": "### `script-opts/webtorrent.conf`"
+  },
+  {
+    "row": 53,
+    "rowsha": "7PCY8L4UWp+PfU5H31sdGaZpAbtkbTtzEqdEtnP5FVU=",
+    "originContent": "```properties",
+    "translatedContent": "```properties"
+  },
+  {
+    "row": 54,
+    "rowsha": "jBx2wkc7j84G1IMF79WY4nrQwCwg7kGI5eomjDPQsMA=",
+    "originContent": "# Path to save downloaded files in. Can be set to \"memory\" to store all files in RAM.",
+    "translatedContent": "# Path to save downloaded files in. Can be set to \"memory\" to store all files in RAM."
+  },
+  {
+    "row": 55,
+    "rowsha": "x4Yf0gdLSJnUp0+OETNRKmeaE0Hpk/H2nLC2ECzef8o=",
+    "originContent": "path=./",
+    "translatedContent": "path=./"
+  },
+  {
+    "row": 56,
+    "rowsha": "s7o8v6YBaizcKImWhWdgQ8KstOGy0PUuKka9+pvNPBQ=",
+    "originContent": "# Maximum number of connections.",
+    "translatedContent": "# Maximum number of connections."
+  },
+  {
+    "row": 57,
+    "rowsha": "uGwUOXrKg48Jhe0RImGDX6loCvzGTO7ILnzykifGXj8=",
+    "originContent": "maxConns=100",
+    "translatedContent": "maxConns=100"
+  },
+  {
+    "row": 58,
+    "rowsha": "rZptcllV+s66B80wL+2W7gNy0SrKYbxk4CrPNmKPwoE=",
+    "originContent": "# Port to use for webtorrent web-server.",
+    "translatedContent": "# Port to use for webtorrent web-server."
+  },
+  {
+    "row": 59,
+    "rowsha": "KYJ0B1Ae+75DaVdpjWAcahYUwoYoa1RvELq/kuzOjt0=",
+    "originContent": "# If it's already in use a random port will be chosen instead.",
+    "translatedContent": "# If it's already in use a random port will be chosen instead."
+  },
+  {
+    "row": 60,
+    "rowsha": "o1/H8w/VOtpE+PyslvCGREKKAsrGjekbXXrDEdOAh/s=",
+    "originContent": "port=8888",
+    "translatedContent": "port=8888"
+  },
+  {
+    "row": 61,
+    "rowsha": "8ijhkl1SdC9E9lzn9hlxyPzAwg0yAHQz170NW7qlEaU=",
+    "originContent": "# Enable μTP support.",
+    "translatedContent": "# Enable μTP support."
+  },
+  {
+    "row": 62,
+    "rowsha": "Ul3GwhHYPAA5cwoU/t7VflotgQhkGeJ+Ijx1rum3K80=",
+    "originContent": "utp=yes",
+    "translatedContent": "utp=yes"
+  },
+  {
+    "row": 63,
+    "rowsha": "qxniTWMhi4vAxcZbyAdGeKJdrLhwH4ltSfjNqnScZAY=",
+    "originContent": "# Enable DHT.",
+    "translatedContent": "# Enable DHT."
+  },
+  {
+    "row": 64,
+    "rowsha": "VWRdnGTtxd5TY+/kpXLRIbrx5ywwbIHxYCbhY2vMWcs=",
+    "originContent": "dht=yes",
+    "translatedContent": "dht=yes"
+  },
+  {
+    "row": 65,
+    "rowsha": "iLNI6b4lJ0OtPqpz1i67j2qDCNwZe2n2Ok1P3DcF8VE=",
+    "originContent": "# Enable local service discovery.",
+    "translatedContent": "# Enable local service discovery."
+  },
+  {
+    "row": 66,
+    "rowsha": "VHNDop539M05iaOVNYfsQqmefz0oo3PUTE/X0IGXPSg=",
+    "originContent": "lsd=yes",
+    "translatedContent": "lsd=yes"
+  },
+  {
+    "row": 67,
+    "rowsha": "U/aS/anDL96UCQylJOXlhPn/oIu5rDcPShYSPBqUOJg=",
+    "originContent": "# Download speed limit in bytes/sec.",
+    "translatedContent": "# Download speed limit in bytes/sec."
+  },
+  {
+    "row": 68,
+    "rowsha": "dnd+JDQjiLFbftYOWUhSTk/P5Uw8YFbrhkd35rdqJOA=",
+    "originContent": "downloadLimit=-1",
+    "translatedContent": "downloadLimit=-1"
+  },
+  {
+    "row": 69,
+    "rowsha": "+AcAqzQ++yz6ouf+ZtFKaAzQjtMUinutXAWTXAyU8gc=",
+    "originContent": "# Upload speed limit in bytes/sec.",
+    "translatedContent": "# Upload speed limit in bytes/sec."
+  },
+  {
+    "row": 70,
+    "rowsha": "SMmI70IIky/CPJ4KN+ysaICTbCLNT97RusKYj5UeMqY=",
+    "originContent": "uploadLimit=-1",
+    "translatedContent": "uploadLimit=-1"
+  },
+  {
+    "row": 71,
+    "rowsha": "/1KH38m8uUPgCSgZnYRq+rX1u6t5Scnc5BQVAqhNMMY=",
+    "originContent": "# Specify the node command to use.",
+    "translatedContent": "# Specify the node command to use."
+  },
+  {
+    "row": 72,
+    "rowsha": "+eDfB4DMNxTUNrty9D2MCt6qwvU0Xys/PUOdFh/o304=",
+    "originContent": "# Usefull if the command is called nodejs on your system.",
+    "translatedContent": "# Usefull if the command is called nodejs on your system."
+  },
+  {
+    "row": 73,
+    "rowsha": "Kys4qiXB97oCVY8szIsygvWa/8/VOqRkve8A0RiS70w=",
+    "originContent": "node_path=node",
+    "translatedContent": "node_path=node"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "pPcnHnurGc7a7Z3phqhN6iWejxWYxxMDmSEyp2Enocg=",
+    "originContent": "# The same text style options as in stats.conf is also available.",
+    "translatedContent": "# The same text style options as in stats.conf is also available."
+  },
+  {
+    "row": 76,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
