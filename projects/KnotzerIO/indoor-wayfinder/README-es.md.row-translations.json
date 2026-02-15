@@ -1,0 +1,752 @@
+[
+  {
+    "row": 1,
+    "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+    "originContent": "> [!TIP]",
+    "translatedContent": "> [!TIP]  "
+  },
+  {
+    "row": 2,
+    "rowsha": "PD2vHgRyMWqkW2bkDWqiFpQzt+MsKFDIQuZFat/Pdhk=",
+    "originContent": "> Looking for a more advanced indoor navigation solution?",
+    "translatedContent": "> ¿Buscas una solución de navegación interior más avanzada?  "
+  },
+  {
+    "row": 3,
+    "rowsha": "y6rX8Q5L9fYm8Q7FpeJdc6hUrkaS3XI5xF6QwsO0ycM=",
+    "originContent": "> Try [OpenIndoorMaps](https://github.com/openindoormap/openindoormaps) - featuring map editing, 3D views, and outdoor map integration.",
+    "translatedContent": "> Prueba [OpenIndoorMaps](https://github.com/openindoormap/openindoormaps) - con edición de mapas, vistas 3D e integración de mapas exteriores."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "z63yLvYKbxXwWvoU1At59BNdFSHuphfiYpjbUVuqa84=",
+    "originContent": "# Pathpal: Web-Based Indoor Wayfinder",
+    "translatedContent": "# Pathpal: Navegador Interior Basado en Web"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "VRSP8yahHPhrHhq8BQS7eQQ5jxA55eD968VONqYQjEg=",
+    "originContent": "Pathpal is an innovative web application designed to revolutionize indoor navigation. Using interactive maps and efficient pathfinding algorithms, it offers an intuitive solution for navigating complex indoor spaces.",
+    "translatedContent": "Pathpal es una innovadora aplicación web diseñada para revolucionar la navegación interior. Utilizando mapas interactivos y algoritmos eficientes de búsqueda de rutas, ofrece una solución intuitiva para navegar en espacios interiores complejos.  "
+  },
+  {
+    "row": 8,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>  "
+  },
+  {
+    "row": 9,
+    "rowsha": "Y8XyD4F627GGWoCMTelHg4mbUnLyaxDoP/4Zj7fQUv4=",
+    "originContent": "**Demo:** [Visit Pathpal](https://indoor-wayfinder.vercel.app)",
+    "translatedContent": "**Demo:** [Visitar Pathpal](https://indoor-wayfinder.vercel.app)"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "cbq1Be3Ci1CJssKrv61893hYU6Vzd6FZBq+SGmvmAo0=",
+    "originContent": "## Table of Content:",
+    "translatedContent": "## Tabla de Contenido:"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "CaQc7F6I7nQlmUfOwwXoHyTMRr0bpSCj/aBk7lbKcpo=",
+    "originContent": "- [Pathpal: Web-Based Indoor Wayfinder](#pathpal-web-based-indoor-wayfinder)",
+    "translatedContent": "- [Pathpal: Navegador Interior Basado en Web](#pathpal-web-based-indoor-wayfinder)  "
+  },
+  {
+    "row": 14,
+    "rowsha": "cmsdLYdaJyzstciY/tJvKPq2c5yFHUzm+8lLkvZ0Je4=",
+    "originContent": "  - [Table of Content:](#table-of-content)",
+    "translatedContent": "  - [Tabla de Contenido:](#table-of-content)  "
+  },
+  {
+    "row": 15,
+    "rowsha": "DGegMDE5238bXt8OuR2o/7bEE/6ITjp/3vSDL9W03kI=",
+    "originContent": "  - [About The App](#about-the-app)",
+    "translatedContent": "  - [Sobre la Aplicación](#about-the-app)  "
+  },
+  {
+    "row": 16,
+    "rowsha": "/nCPBT4N+9gvoR7SdsIqAPat1VEYeDTKOR0qbBX2rN8=",
+    "originContent": "  - [Screenshots](#screenshots)",
+    "translatedContent": "  - [Capturas de Pantalla](#screenshots)  "
+  },
+  {
+    "row": 17,
+    "rowsha": "aK8lYBnpyafmISH7fzx+QjoSVuXQsnPirI+aywY8fak=",
+    "originContent": "  - [Features](#features)",
+    "translatedContent": "  - [Características](#features)  "
+  },
+  {
+    "row": 18,
+    "rowsha": "OB5n/gaXUgJaMBbGcdyZ/1cfYuvVmnav9zz1+Q7UXyQ=",
+    "originContent": "  - [Technologies](#technologies)",
+    "translatedContent": "  - [Tecnologías](#technologies)  "
+  },
+  {
+    "row": 19,
+    "rowsha": "1IzTI0hskCYvo9HJhYHgWqZblZIeTY2VtCB+pcD/yF8=",
+    "originContent": "  - [Setup](#setup)",
+    "translatedContent": "  - [Configuración](#setup)  "
+  },
+  {
+    "row": 20,
+    "rowsha": "3GHNVKATuzv8wZHGBZABrV0xYg1vmee9M/JGMZR4ntk=",
+    "originContent": "  - [Technical Insights](#technical-insights)",
+    "translatedContent": "  - [Aspectos Técnicos](#technical-insights)  "
+  },
+  {
+    "row": 21,
+    "rowsha": "5EnCfqs2lIrYrncev/JcMoth+W+3zol7dKI4CFpLsmw=",
+    "originContent": "    - [Map Technology](#map-technology)",
+    "translatedContent": "    - [Tecnología del Mapa](#map-technology)  "
+  },
+  {
+    "row": 22,
+    "rowsha": "ALQugpSEdtaMzw7delbmjOLju2ZYiM82mLU/ihrZ3NM=",
+    "originContent": "    - [Pathfinding](#pathfinding)",
+    "translatedContent": "    - [Búsqueda de Rutas](#pathfinding)  "
+  },
+  {
+    "row": 23,
+    "rowsha": "4QQItpNKQ6xDqm0ArzUgbQhkwnt/GXcK6ia7asGP67Y=",
+    "originContent": "    - [Core Map Technology](#core-map-technology)",
+    "translatedContent": "    - [Tecnología Central del Mapa](#core-map-technology)  "
+  },
+  {
+    "row": 24,
+    "rowsha": "THAhwjLBSM6lYaQ12BTIHrXz3S+OO2KcJ+sP6qBIiww=",
+    "originContent": "    - [Path Drawing and Wayfinding](#path-drawing-and-wayfinding)",
+    "translatedContent": "    - [Dibujo de Rutas y Navegación](#path-drawing-and-wayfinding)  "
+  },
+  {
+    "row": 25,
+    "rowsha": "KvqnmslscniUab8xozmLFroKkwMeXtEM6IU3SEmVqe4=",
+    "originContent": "    - [Customizing the Map](#customizing-the-map)",
+    "translatedContent": "    - [Personalización del Mapa](#customizing-the-map)  "
+  },
+  {
+    "row": 26,
+    "rowsha": "EZk7IhXikqjkp9sRijfZnt8bit3CNgbhS0oeqgB91no=",
+    "originContent": "  - [Credits](#credits)",
+    "translatedContent": "  - [Créditos](#credits)  "
+  },
+  {
+    "row": 27,
+    "rowsha": "ikRfoUqa7j3zIaj06SdhEO4mwiVcXyC1Qg5B2hWse+I=",
+    "originContent": "  - [License](#license)",
+    "translatedContent": "  - [Licencia](#license)"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "DI3UpJtc2EjFo860MLU8oxfLCbaLxOKsf9Hp8V+TUMQ=",
+    "originContent": "## About The App",
+    "translatedContent": "## Sobre la Aplicación"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "ybWvDAwQbPd8N8tCUOhMSW7M46WhI057Pu+zGdiSz5s=",
+    "originContent": "This project is a variation of my diploma project, focusing on an interactive map for indoor wayfinding and navigation. It features an interactive SVG map and utilizes the Dijkstra algorithm to calculate the shortest path to points of interest (POIs). Originally, the application experimented with indoor positioning using BLE technology, but due to ithe experimental nature of the Bluetooth Web API, it has been omitted in this variation.",
+    "translatedContent": "Este proyecto es una variación de mi proyecto de diploma, centrado en un mapa interactivo para la navegación interior. Cuenta con un mapa SVG interactivo y utiliza el algoritmo de Dijkstra para calcular la ruta más corta hacia puntos de interés (POIs). Originalmente, la aplicación experimentó con posicionamiento interior usando tecnología BLE, pero debido a la naturaleza experimental de la API Web Bluetooth, ha sido omitida en esta variación."
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "HCzHYBecdJTpYaMaw+p9/ycks2Jt/DmgNQCeydNnGY8=",
+    "originContent": "> [!WARNING]  ",
+    "translatedContent": "> [!WARNING]  "
+  },
+  {
+    "row": 34,
+    "rowsha": "8zMCXV8yYKAVEbuPRHXkLznQJCquAZQ1zYbQIGD3xQc=",
+    "originContent": "> The backend of this project has been removed. All data are stored in a JSON file. This project is a prototype and should not be used for production purposes. Please check out my new project [OpenIndoorMaps](https://github.com/yourusername/OpenIndoorMaps) for a more comprehensive solution.",
+    "translatedContent": "> El backend de este proyecto ha sido eliminado. Todos los datos se almacenan en un archivo JSON. Este proyecto es un prototipo y no debe usarse para fines de producción. Por favor, consulta mi nuevo proyecto [OpenIndoorMaps](https://github.com/yourusername/OpenIndoorMaps) para una solución más completa."
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "CrQ1XO/et1agLOmJnlaLYfcfQdvL77gCZWQqAUysVwM=",
+    "originContent": "## Screenshots",
+    "translatedContent": "## Capturas de Pantalla"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "lrcjRoVQ4DvkDx2jcRbQrjEmLSGwmhoSIcsDPMDqoGY=",
+    "originContent": "<table style=\"border-radius: 10px;  border: 1px solid gray;\">",
+    "translatedContent": "<table style=\"border-radius: 10px;  border: 1px solid gray;\">  "
+  },
+  {
+    "row": 39,
+    "rowsha": "sodCV6+quzdGXr8PihndToUBRpEHNU/BGpPge9M6jmw=",
+    "originContent": "  <tr >",
+    "translatedContent": "  <tr >  "
+  },
+  {
+    "row": 40,
+    "rowsha": "vg6IChHK0x56vyRlhEkqaKtEb1AXuH9+qS075hbiUOA=",
+    "originContent": "    <td align=\"center\"><img src=\"https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/indoor-map-details.png\"/></td>",
+    "translatedContent": "    <td align=\"center\"><img src=\"https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/indoor-map-details.png\"/></td>"
+  },
+  {
+    "row": 41,
+    "rowsha": "mQwYJYj3opmhT78JWZla/xHKYrIWUQuB6p+SH5CUnlg=",
+    "originContent": "   <td align=\"center\"><h3 >Displaying Object Information on Click</h3></td>",
+    "translatedContent": "   <td align=\"center\"><h3 >Mostrar Información del Objeto al Hacer Clic</h3></td>"
+  },
+  {
+    "row": 42,
+    "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+    "originContent": "  </tr>",
+    "translatedContent": "  </tr>"
+  },
+  {
+    "row": 43,
+    "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+    "originContent": "    <tr>",
+    "translatedContent": "    <tr>"
+  },
+  {
+    "row": 44,
+    "rowsha": "6YKH2NSY6V+cbGx8BNsZQlQXv3v0KVuvytliBbYb8zY=",
+    "originContent": "    <td align=\"center\"><img src=\"https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/indoor-wayfinding.png\"/></td>",
+    "translatedContent": "    <td align=\"center\"><img src=\"https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/indoor-wayfinding.png\"/></td>"
+  },
+  {
+    "row": 45,
+    "rowsha": "Gy1Y3EWP5mcDPhlQtFndDZ0ldoE2Z7qwJScHP1z85Kk=",
+    "originContent": "    <td align=\"center\"><h3>Demonstration of Shortest Path Calculation</h3></td>",
+    "translatedContent": "    <td align=\"center\"><h3>Demostración del Cálculo de la Ruta Más Corta</h3></td>"
+  },
+  {
+    "row": 46,
+    "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+    "originContent": "  </tr>",
+    "translatedContent": "  </tr>"
+  },
+  {
+    "row": 47,
+    "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+    "originContent": "</table>",
+    "translatedContent": "</table>"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Características"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "8pqd8zcB6eFx/ugVt8Pe84T12v5JX4WvxKXuy20HXbM=",
+    "originContent": "- **Interactive SVG Maps**: Navigate complex indoor spaces with ease.",
+    "translatedContent": "- **Mapas SVG Interactivos**: Navega con facilidad por espacios interiores complejos."
+  },
+  {
+    "row": 52,
+    "rowsha": "OA1XTjax03MMauxRL+kUogvZGkmS0nN3r4OwesSWtyw=",
+    "originContent": "- **Dijkstra Pathfinding**: Calculates the shortest path to your destination.",
+    "translatedContent": "- **Búsqueda de Ruta con Dijkstra**: Calcula la ruta más corta a tu destino."
+  },
+  {
+    "row": 53,
+    "rowsha": "ILU4scNU+k0b/qN1HoCJTU9q9SrfrAPPjUBwfb0es+A=",
+    "originContent": "- **Responsive Design**: Optimized for any device and screen size.",
+    "translatedContent": "- **Diseño Responsivo**: Optimizado para cualquier dispositivo y tamaño de pantalla."
+  },
+  {
+    "row": 54,
+    "rowsha": "sClsNLSJquUI6fyF0fNYQuVOQ67hhXkhXLHuhCv0yRI=",
+    "originContent": "- **Customizable POIs**: Edit names and categories of points of interest.",
+    "translatedContent": "- **POIs Personalizables**: Edita nombres y categorías de puntos de interés."
+  },
+  {
+    "row": 55,
+    "rowsha": "z9kLz4VkokKIRo+NBz+6XWeJ/VxIHNpYICy1elXsQ6g=",
+    "originContent": "- **Pinch-to-Zoom**: Effortlessly zoom in and out on maps with touch gestures.",
+    "translatedContent": "- **Zoom con Pellizco**: Acércate y aléjate fácilmente en los mapas con gestos táctiles."
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "8F3iiDGZOfkbUmWreBWg6jAbmrN3dmmDPu+obW5GkU4=",
+    "originContent": "## Technologies",
+    "translatedContent": "## Tecnologías"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "xwDKfJbLjvsDLgsQOe/u2HyDPDQzJJEe3DK9QXac7YU=",
+    "originContent": "Pathpal is built with the latest web technologies for speed, efficiency, and adaptability:",
+    "translatedContent": "Pathpal está construido con las últimas tecnologías web para velocidad, eficiencia y adaptabilidad:"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "YMc0xpZ5VlBC75W7el/j8SMAsdioYpgFxRLxMJtjKxA=",
+    "originContent": "- React",
+    "translatedContent": "- React"
+  },
+  {
+    "row": 62,
+    "rowsha": "qtmd5ElVDdOM2nAl67Nkv0PRZXs3cWVc9WttNUV3QME=",
+    "originContent": "- Vite",
+    "translatedContent": "- Vite"
+  },
+  {
+    "row": 63,
+    "rowsha": "Rc0yZcrFyniQWeKsNnHo80KEhJZhXraNzOML8o1Qe1M=",
+    "originContent": "- TypeScript",
+    "translatedContent": "- TypeScript"
+  },
+  {
+    "row": 64,
+    "rowsha": "7PAFusXnZlVJXgUjTZ108weMT9I21PCTQ8Zj4PcKO6c=",
+    "originContent": "- TailwindCSS",
+    "translatedContent": "- TailwindCSS"
+  },
+  {
+    "row": 65,
+    "rowsha": "YZ3SktL09C+bTOJ/9cJIK6ybozyP7lBYcLZLlw4u9JM=",
+    "originContent": "- SVG",
+    "translatedContent": "- SVG"
+  },
+  {
+    "row": 66,
+    "rowsha": "XemGhMpfTyWF2I4G1pIA4gRM2irKZEXlAqpCKjT8Zy0=",
+    "originContent": "- Dijkstra's Algorithm",
+    "translatedContent": "- Algoritmo de Dijkstra"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+    "originContent": "## Setup",
+    "translatedContent": "## Configuración"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "Su5WptGWJXV2gEqDffXkYdg7v59Zngd2QvPWI2sKyoM=",
+    "originContent": "Follow these steps to get the project up and running:",
+    "translatedContent": "Sigue estos pasos para poner el proyecto en marcha:"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "qE6QdwVT9PUlW9tqBL/y6tO8/OS+5Bfo92Ia754ujhc=",
+    "originContent": "1. **Clone the Repository**: Use your preferred Git client to clone this repository to your local machine.",
+    "translatedContent": "1. **Clona el Repositorio**: Usa tu cliente Git preferido para clonar este repositorio en tu máquina local."
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "RA0sEUIBKAde8f/ETVmEDRxpKhiE5ZRxo9HKgltwTAE=",
+    "originContent": "2. **Install Node.js**: This project requires Node.js. If you don't have Node.js version 21 installed, you can download and install it from [nodejs.org](https://nodejs.org/).",
+    "translatedContent": "2. **Instala Node.js**: Este proyecto requiere Node.js. Si no tienes instalada la versión 21 de Node.js, puedes descargarla e instalarla desde [nodejs.org](https://nodejs.org/)."
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "ajXQVoUE6b4pKYmH1OAsbrr+Ylk9BKycpWBBAnB5CIs=",
+    "originContent": "3. **Install Dependencies**: Navigate to the project directory in your terminal and run the following command to install the necessary dependencies:",
+    "translatedContent": "3. **Instala las Dependencias**: Navega al directorio del proyecto en tu terminal y ejecuta el siguiente comando para instalar las dependencias necesarias:"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 79,
+    "rowsha": "vL8BhPjyB/zDBV86sjJRWERo3LQsvb84xA8TswysvN0=",
+    "originContent": "   npm install",
+    "translatedContent": "   npm install"
+  },
+  {
+    "row": 80,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "wsXx2ccoF9Wif6ngv/i8LpgE+5tdft2QMl/27rftb6s=",
+    "originContent": "4. **Start the Application**: Once the dependencies are installed, you can start the application by running the following command in your terminal:",
+    "translatedContent": "4. **Iniciar la Aplicación**: Una vez que las dependencias estén instaladas, puedes iniciar la aplicación ejecutando el siguiente comando en tu terminal:"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 85,
+    "rowsha": "jpTVQEQJssgEMpBk9yv3LDrV/THaMODy0a1aLMkysrU=",
+    "originContent": "   npm run dev",
+    "translatedContent": "   npm run dev"
+  },
+  {
+    "row": 86,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Después de ejecutar estos comandos, su navegador web predeterminado debería abrirse automáticamente y navegar a `localhost:5173`, donde podrá ver la aplicación en ejecución."
+  },
+  {
+    "row": 88,
+    "rowsha": "qTrABtChQ86Y+2EXSWeEwp8AntWg36FDVXJbf4B2e9w=",
+    "originContent": "After running these commands, your default web browser should automatically open and navigate to `localhost:5173`, where you can see the running application.",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Perspectivas Técnicas"
+  },
+  {
+    "row": 90,
+    "rowsha": "YgoBrN2+KgZ2qHj5vG5qVpB8V1VrEyipKSSqfKnB/ic=",
+    "originContent": "## Technical Insights",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Tecnología del Mapa"
+  },
+  {
+    "row": 92,
+    "rowsha": "/68vYgeAHdF9b2x5KReN4N83xIkgK+ReEun15GA0jZE=",
+    "originContent": "### Map Technology",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **Formato SVG**: El mapa es principalmente SVG por su flexibilidad y capacidades interactivas, ideal para una navegación detallada."
+  },
+  {
+    "row": 94,
+    "rowsha": "glNrbKdGZv16Cx0UwHbHu1RlD3f01pQoOJk12Tu6c4w=",
+    "originContent": "- **SVG Format**: The map is primarily SVG for its flexibility and interactive capabilities, ideal for detailed navigation.",
+    "translatedContent": "- **Soporte de Formatos de Imagen**: Soporta varios formatos como PNG y JPEG para fondos de mapa, con funciones interactivas mejor adaptadas para SVG."
+  },
+  {
+    "row": 95,
+    "rowsha": "oyMPXrfOahBNqRApJKC3mRQ2dvKIGFn8FB+uljHMSrE=",
+    "originContent": "- **Image Format Support**: Supports various formats like PNG and JPEG for map backgrounds, with interactive features best suited for SVG.",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Búsqueda de Rutas"
+  },
+  {
+    "row": 97,
+    "rowsha": "+XKaiiXmcQZJ5Slqpvy19SeD2Ivonrm4LR11aOhdA0E=",
+    "originContent": "### Pathfinding",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **Definición de Rutas**: Los caminos dentro del mapa representan rutas navegables, esenciales para que el algoritmo de Dijkstra calcule rutas eficientes."
+  },
+  {
+    "row": 99,
+    "rowsha": "zIGb4whoAKTLcx4Po5SxG84Yf/SP/DhHIRIhTkfyX4A=",
+    "originContent": "- **Routes Definition**: Paths within the map represent navigable routes, essential for the Dijkstra algorithm to calculate efficient paths.",
+    "translatedContent": "- **Algoritmo de Dijkstra**: Garantiza una navegación precisa y rápida entre los Puntos de Interés."
+  },
+  {
+    "row": 100,
+    "rowsha": "WcipxPlaS9JJ54OqtFCPmzrBkS2e7x4bxxDXwptGhLw=",
+    "originContent": "- **Dijkstra Algorithm**: Ensures accurate and swift navigation between POIs.",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Tecnología Principal del Mapa"
+  },
+  {
+    "row": 102,
+    "rowsha": "hXk6sklEik828An2nVbtTrrDAPt8bOmwARtXDM+/lXY=",
+    "originContent": "### Core Map Technology",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **SVG como Formato Predeterminado**: La aplicación utiliza principalmente un archivo SVG (Gráficos Vectoriales Escalables) para el mapa debido a su escalabilidad y facilidad de manipulación. Los SVG permiten una representación interactiva y dinámica de espacios interiores, haciéndolos ideales para rutas de navegación detalladas."
+  },
+  {
+    "row": 104,
+    "rowsha": "t0s9B8QRR+J2bpib9d10Pkfg5dIrxDaPDM6M/BbPDwg=",
+    "originContent": "- **SVG as the Default Format**: The application primarily uses an SVG (Scalable Vector Graphics) file for the map due to its scalability and ease of manipulation. SVGs allow for interactive and dynamic rendering of indoor spaces, making them ideal for detailed navigation paths.",
+    "translatedContent": "- **Soporte para Varios Formatos de Imagen**: Aunque SVG es el predeterminado, el sistema está diseñado para acomodar cualquier formato de imagen (p. ej., PNG, JPEG) como fondo del mapa. Esta flexibilidad asegura que los desarrolladores puedan usar planos o mapas existentes sin necesidad de convertirlos a SVG. Sin embargo, las funciones interactivas y de navegación principales están optimizadas para SVG."
+  },
+  {
+    "row": 105,
+    "rowsha": "iLz9gJY63HpfRUh521qNEppuJCTrRvrSv0PntVrs9oQ=",
+    "originContent": "- **Support for Various Image Formats**: While SVG is the default, the system is designed to accommodate any image format (e.g., PNG, JPEG) as a map background. This flexibility ensures that developers can use existing floor plans or maps without needing to convert them to SVG. However, the primary interactive and navigational features are optimized for SVG.",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Dibujo de Rutas y Orientación"
+  },
+  {
+    "row": 107,
+    "rowsha": "tJ74VYe1TOwhu23haNaiyoWXr5Z8rzdpf7KX84QJ3sQ=",
+    "originContent": "### Path Drawing and Wayfinding",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **Dibujo de Rutas**: Para que la navegación funcione, las rutas deben estar definidas dentro del mapa. Estas rutas representan caminos transitables y son cruciales para el algoritmo de orientación. En archivos SVG, las rutas pueden dibujarse y editarse directamente, permitiendo un control preciso sobre las rutas de navegación."
+  },
+  {
+    "row": 109,
+    "rowsha": "zki2uMdyxgsfpmMCXQ2tywWn7FVA6rpF0/vx5EOlWio=",
+    "originContent": "- **Path Drawing**: For navigation to function, paths must be defined within the map. These paths represent walkable routes and are crucial for the wayfinding algorithm. In SVG files, paths can be drawn and edited directly, allowing for precise control over navigation routes.",
+    "translatedContent": "- **Algoritmo de Orientación**: La aplicación utiliza el algoritmo de Dijkstra para calcular la ruta más corta entre puntos de interés (POIs) en el mapa. Este algoritmo opera sobre la red de rutas dibujadas en el mapa, asegurando una navegación eficiente y precisa."
+  },
+  {
+    "row": 110,
+    "rowsha": "vRJwwpubfCMiMwzDerV0KooG14Skfzz9MK1U/54Cwck=",
+    "originContent": "- **Wayfinding Algorithm**: The application utilizes the Dijkstra algorithm for calculating the shortest path between points of interest (POIs) on the map. This algorithm operates on the network of paths drawn on the map, ensuring efficient and accurate navigation.",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Personalización del Mapa"
+  },
+  {
+    "row": 112,
+    "rowsha": "LEqOEB/zlhNtAsfmn5ASU6loMO0mLdlEh+pM90iiIL8=",
+    "originContent": "### Customizing the Map",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **Herramientas de Edición**: Los desarrolladores tienen la opción de utilizar herramientas de edición de gráficos vectoriales como Adobe Illustrator o Boxy SVG para modificar el mapa SVG. Esta modificación puede involucrar la actualización de diseños, añadir o eliminar Puntos de Interés (POIs) y ajustar rutas. Consulte la captura de pantalla a continuación para ver un ejemplo de edición de mapa usando Boxy SVG. Para convertir SVG a JSX, [Transform Tools](https://transform.tools/) puede ser un recurso útil."
+  },
+  {
+    "row": 114,
+    "rowsha": "2ATT/Kp8uThHNM6uGWx38osx4FHQeqvWg8rEgYGAzJk=",
+    "originContent": "- **Editing Tools**: Developers have the option to utilize vector graphic editing tools such as Adobe Illustrator or Boxy SVG for modifying the SVG map. This modification can involve updating layouts, adding or removing Points of Interest (POIs), and adjusting paths. Refer to the screenshot below to see an example of map editing using Boxy SVG. For converting SVG to JSX, [Transform Tools](https://transform.tools/) can be a useful resource.",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![Ejemplo de Edición de IndoorMap](https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/map-editing-preview.png)"
+  },
+  {
+    "row": 116,
+    "rowsha": "xyE5rmgWWa0ajXGO1/qTNpXN1TcbhW8wtO6YcEMHab8=",
+    "originContent": "![IndoorMap Editing Example](https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/map-editing-preview.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Créditos"
+  },
+  {
+    "row": 118,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Este proyecto fue inspirado por mi trabajo de diploma y significativamente influenciado por el apoyo de mentores, compañeros y recursos como la [app de pathfinding de maciejb2k](https://github.com/maciejb2k/pathfinding_app)."
+  },
+  {
+    "row": 120,
+    "rowsha": "GpYji5N0rZQcqjpSDFHmLqxvFjGiX9q9Jvsdc7ewSxY=",
+    "originContent": "This project was inspired by my diploma work and significantly influenced by the support of mentors, peers, and resources like [maciejb2k's pathfinding app](https://github.com/maciejb2k/pathfinding_app).",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Licencia"
+  },
+  {
+    "row": 122,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Pathpal es un proyecto de código abierto bajo la Licencia MIT. ¡Se agradecen contribuciones y comentarios!"
+  },
+  {
+    "row": 124,
+    "rowsha": "n6uQeXm4K6iOKPlh8DMii4dIy3MwfUYpglvPGpUBKIo=",
+    "originContent": "Pathpal is open-sourced under the MIT License. Contributions and feedback are welcome!",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

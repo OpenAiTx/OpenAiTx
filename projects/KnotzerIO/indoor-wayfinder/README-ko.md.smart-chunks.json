@@ -1,0 +1,830 @@
+[
+  {
+    "Id": 1,
+    "Content": "> [!TIP]\n> Looking for a more advanced indoor navigation solution?\n> Try [OpenIndoorMaps](https://github.com/openindoormap/openindoormaps) - featuring map editing, 3D views, and outdoor map integration.\n\n# Pathpal: Web-Based Indoor Wayfinder\n\nPathpal is an innovative web application designed to revolutionize indoor navigation. Using interactive maps and efficient pathfinding algorithms, it offers an intuitive solution for navigating complex indoor spaces.\n<br>\n**Demo:** [Visit Pathpal](https://indoor-wayfinder.vercel.app)\n\n## Table of Content:\n\n- [Pathpal: Web-Based Indoor Wayfinder](#pathpal-web-based-indoor-wayfinder)\n  - [Table of Content:](#table-of-content)\n  - [About The App](#about-the-app)\n  - [Screenshots](#screenshots)\n  - [Features](#features)\n  - [Technologies](#technologies)\n  - [Setup](#setup)\n  - [Technical Insights](#technical-insights)\n    - [Map Technology](#map-technology)\n    - [Pathfinding](#pathfinding)\n    - [Core Map Technology](#core-map-technology)\n    - [Path Drawing and Wayfinding](#path-drawing-and-wayfinding)\n    - [Customizing the Map](#customizing-the-map)\n  - [Credits](#credits)\n  - [License](#license)\n\n## About The App\n\nThis project is a variation of my diploma project, focusing on an interactive map for indoor wayfinding and navigation. It features an interactive SVG map and utilizes the Dijkstra algorithm to calculate the shortest path to points of interest (POIs). Originally, the application experimented with indoor positioning using BLE technology, but due to ithe experimental nature of the Bluetooth Web API, it has been omitted in this variation.\n\n> [!WARNING]  \n> The backend of this project has been removed. All data are stored in a JSON file. This project is a prototype and should not be used for production purposes. Please check out my new project [OpenIndoorMaps](https://github.com/yourusername/OpenIndoorMaps) for a more comprehensive solution.\n\n## Screenshots\n\n<table style=\"border-radius: 10px;  border: 1px solid gray;\">\n  <tr >\n    <td align=\"center\"><img src=\"https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/indoor-map-details.png\"/></td>",
+    "ContentSha": "RjN6Wh5rMSznpzNPC8ph1PeCjO19NUIkrpSDpyongY8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> [!TIP]  \n> 더 발전된 실내 내비게이션 솔루션을 찾고 계신가요?  \n> 지도 편집, 3D 뷰, 실외 지도 통합 기능을 제공하는 [OpenIndoorMaps](https://github.com/openindoormap/openindoormaps)를 사용해 보세요.\n\n# Pathpal: 웹 기반 실내 길찾기\n\nPathpal은 실내 내비게이션을 혁신적으로 변화시키기 위해 설계된 혁신적인 웹 애플리케이션입니다. 인터랙티브 지도와 효율적인 경로 탐색 알고리즘을 사용하여 복잡한 실내 공간을 직관적으로 탐색할 수 있는 솔루션을 제공합니다.  \n<br>  \n**데모:** [Pathpal 방문하기](https://indoor-wayfinder.vercel.app)\n\n## 목차:\n\n- [Pathpal: 웹 기반 실내 길찾기](#pathpal-웹-기반-실내-길찾기)  \n  - [목차:](#목차)  \n  - [앱 소개](#앱-소개)  \n  - [스크린샷](#스크린샷)  \n  - [기능](#기능)  \n  - [기술 스택](#기술-스택)  \n  - [설치 방법](#설치-방법)  \n  - [기술적 인사이트](#기술적-인사이트)  \n    - [지도 기술](#지도-기술)  \n    - [경로 탐색](#경로-탐색)  \n    - [핵심 지도 기술](#핵심-지도-기술)  \n    - [경로 그리기 및 길찾기](#경로-그리기-및-길찾기)  \n    - [지도 커스터마이징](#지도-커스터마이징)  \n  - [기여자](#기여자)  \n  - [라이선스](#라이선스)\n\n## 앱 소개\n\n이 프로젝트는 인터랙티브 실내 길찾기 및 내비게이션을 위한 인터랙티브 SVG 지도와 다익스트라 알고리즘을 활용하여 관심 지점(POI)까지 최단 경로를 계산하는 졸업 프로젝트 변형판입니다. 원래 애플리케이션은 BLE 기술을 활용한 실내 위치 측정을 실험했으나, Bluetooth Web API의 실험적 특성으로 인해 이번 변형판에서는 제외되었습니다.\n\n> [!WARNING]  \n> 본 프로젝트의 백엔드는 제거되었습니다. 모든 데이터는 JSON 파일에 저장됩니다. 이 프로젝트는 프로토타입이며 상용 목적으로 사용해서는 안 됩니다. 보다 종합적인 솔루션은 제 새로운 프로젝트 [OpenIndoorMaps](https://github.com/yourusername/OpenIndoorMaps)를 확인해 주세요.\n\n## 스크린샷\n\n<table style=\"border-radius: 10px;  border: 1px solid gray;\">  \n  <tr >  \n    <td align=\"center\"><img src=\"https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/indoor-map-details.png\"/></td>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+        "originContent": "> [!TIP]",
+        "translatedContent": "> [!TIP]  "
+      },
+      {
+        "row": 2,
+        "rowsha": "PD2vHgRyMWqkW2bkDWqiFpQzt+MsKFDIQuZFat/Pdhk=",
+        "originContent": "> Looking for a more advanced indoor navigation solution?",
+        "translatedContent": "> 더 발전된 실내 내비게이션 솔루션을 찾고 계신가요?  "
+      },
+      {
+        "row": 3,
+        "rowsha": "y6rX8Q5L9fYm8Q7FpeJdc6hUrkaS3XI5xF6QwsO0ycM=",
+        "originContent": "> Try [OpenIndoorMaps](https://github.com/openindoormap/openindoormaps) - featuring map editing, 3D views, and outdoor map integration.",
+        "translatedContent": "> 지도 편집, 3D 뷰, 실외 지도 통합 기능을 제공하는 [OpenIndoorMaps](https://github.com/openindoormap/openindoormaps)를 사용해 보세요."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "z63yLvYKbxXwWvoU1At59BNdFSHuphfiYpjbUVuqa84=",
+        "originContent": "# Pathpal: Web-Based Indoor Wayfinder",
+        "translatedContent": "# Pathpal: 웹 기반 실내 길찾기"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "VRSP8yahHPhrHhq8BQS7eQQ5jxA55eD968VONqYQjEg=",
+        "originContent": "Pathpal is an innovative web application designed to revolutionize indoor navigation. Using interactive maps and efficient pathfinding algorithms, it offers an intuitive solution for navigating complex indoor spaces.",
+        "translatedContent": "Pathpal은 실내 내비게이션을 혁신적으로 변화시키기 위해 설계된 혁신적인 웹 애플리케이션입니다. 인터랙티브 지도와 효율적인 경로 탐색 알고리즘을 사용하여 복잡한 실내 공간을 직관적으로 탐색할 수 있는 솔루션을 제공합니다.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>  "
+      },
+      {
+        "row": 9,
+        "rowsha": "Y8XyD4F627GGWoCMTelHg4mbUnLyaxDoP/4Zj7fQUv4=",
+        "originContent": "**Demo:** [Visit Pathpal](https://indoor-wayfinder.vercel.app)",
+        "translatedContent": "**데모:** [Pathpal 방문하기](https://indoor-wayfinder.vercel.app)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "cbq1Be3Ci1CJssKrv61893hYU6Vzd6FZBq+SGmvmAo0=",
+        "originContent": "## Table of Content:",
+        "translatedContent": "## 목차:"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "CaQc7F6I7nQlmUfOwwXoHyTMRr0bpSCj/aBk7lbKcpo=",
+        "originContent": "- [Pathpal: Web-Based Indoor Wayfinder](#pathpal-web-based-indoor-wayfinder)",
+        "translatedContent": "- [Pathpal: 웹 기반 실내 길찾기](#pathpal-웹-기반-실내-길찾기)  "
+      },
+      {
+        "row": 14,
+        "rowsha": "cmsdLYdaJyzstciY/tJvKPq2c5yFHUzm+8lLkvZ0Je4=",
+        "originContent": "  - [Table of Content:](#table-of-content)",
+        "translatedContent": "  - [목차:](#목차)  "
+      },
+      {
+        "row": 15,
+        "rowsha": "DGegMDE5238bXt8OuR2o/7bEE/6ITjp/3vSDL9W03kI=",
+        "originContent": "  - [About The App](#about-the-app)",
+        "translatedContent": "  - [앱 소개](#앱-소개)  "
+      },
+      {
+        "row": 16,
+        "rowsha": "/nCPBT4N+9gvoR7SdsIqAPat1VEYeDTKOR0qbBX2rN8=",
+        "originContent": "  - [Screenshots](#screenshots)",
+        "translatedContent": "  - [스크린샷](#스크린샷)  "
+      },
+      {
+        "row": 17,
+        "rowsha": "aK8lYBnpyafmISH7fzx+QjoSVuXQsnPirI+aywY8fak=",
+        "originContent": "  - [Features](#features)",
+        "translatedContent": "  - [기능](#기능)  "
+      },
+      {
+        "row": 18,
+        "rowsha": "OB5n/gaXUgJaMBbGcdyZ/1cfYuvVmnav9zz1+Q7UXyQ=",
+        "originContent": "  - [Technologies](#technologies)",
+        "translatedContent": "  - [기술 스택](#기술-스택)  "
+      },
+      {
+        "row": 19,
+        "rowsha": "1IzTI0hskCYvo9HJhYHgWqZblZIeTY2VtCB+pcD/yF8=",
+        "originContent": "  - [Setup](#setup)",
+        "translatedContent": "  - [설치 방법](#설치-방법)  "
+      },
+      {
+        "row": 20,
+        "rowsha": "3GHNVKATuzv8wZHGBZABrV0xYg1vmee9M/JGMZR4ntk=",
+        "originContent": "  - [Technical Insights](#technical-insights)",
+        "translatedContent": "  - [기술적 인사이트](#기술적-인사이트)  "
+      },
+      {
+        "row": 21,
+        "rowsha": "5EnCfqs2lIrYrncev/JcMoth+W+3zol7dKI4CFpLsmw=",
+        "originContent": "    - [Map Technology](#map-technology)",
+        "translatedContent": "    - [지도 기술](#지도-기술)  "
+      },
+      {
+        "row": 22,
+        "rowsha": "ALQugpSEdtaMzw7delbmjOLju2ZYiM82mLU/ihrZ3NM=",
+        "originContent": "    - [Pathfinding](#pathfinding)",
+        "translatedContent": "    - [경로 탐색](#경로-탐색)  "
+      },
+      {
+        "row": 23,
+        "rowsha": "4QQItpNKQ6xDqm0ArzUgbQhkwnt/GXcK6ia7asGP67Y=",
+        "originContent": "    - [Core Map Technology](#core-map-technology)",
+        "translatedContent": "    - [핵심 지도 기술](#핵심-지도-기술)  "
+      },
+      {
+        "row": 24,
+        "rowsha": "THAhwjLBSM6lYaQ12BTIHrXz3S+OO2KcJ+sP6qBIiww=",
+        "originContent": "    - [Path Drawing and Wayfinding](#path-drawing-and-wayfinding)",
+        "translatedContent": "    - [경로 그리기 및 길찾기](#경로-그리기-및-길찾기)  "
+      },
+      {
+        "row": 25,
+        "rowsha": "KvqnmslscniUab8xozmLFroKkwMeXtEM6IU3SEmVqe4=",
+        "originContent": "    - [Customizing the Map](#customizing-the-map)",
+        "translatedContent": "    - [지도 커스터마이징](#지도-커스터마이징)  "
+      },
+      {
+        "row": 26,
+        "rowsha": "EZk7IhXikqjkp9sRijfZnt8bit3CNgbhS0oeqgB91no=",
+        "originContent": "  - [Credits](#credits)",
+        "translatedContent": "  - [기여자](#기여자)  "
+      },
+      {
+        "row": 27,
+        "rowsha": "ikRfoUqa7j3zIaj06SdhEO4mwiVcXyC1Qg5B2hWse+I=",
+        "originContent": "  - [License](#license)",
+        "translatedContent": "  - [라이선스](#라이선스)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "DI3UpJtc2EjFo860MLU8oxfLCbaLxOKsf9Hp8V+TUMQ=",
+        "originContent": "## About The App",
+        "translatedContent": "## 앱 소개"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "ybWvDAwQbPd8N8tCUOhMSW7M46WhI057Pu+zGdiSz5s=",
+        "originContent": "This project is a variation of my diploma project, focusing on an interactive map for indoor wayfinding and navigation. It features an interactive SVG map and utilizes the Dijkstra algorithm to calculate the shortest path to points of interest (POIs). Originally, the application experimented with indoor positioning using BLE technology, but due to ithe experimental nature of the Bluetooth Web API, it has been omitted in this variation.",
+        "translatedContent": "이 프로젝트는 인터랙티브 실내 길찾기 및 내비게이션을 위한 인터랙티브 SVG 지도와 다익스트라 알고리즘을 활용하여 관심 지점(POI)까지 최단 경로를 계산하는 졸업 프로젝트 변형판입니다. 원래 애플리케이션은 BLE 기술을 활용한 실내 위치 측정을 실험했으나, Bluetooth Web API의 실험적 특성으로 인해 이번 변형판에서는 제외되었습니다."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "HCzHYBecdJTpYaMaw+p9/ycks2Jt/DmgNQCeydNnGY8=",
+        "originContent": "> [!WARNING]  ",
+        "translatedContent": "> [!WARNING]  "
+      },
+      {
+        "row": 34,
+        "rowsha": "8zMCXV8yYKAVEbuPRHXkLznQJCquAZQ1zYbQIGD3xQc=",
+        "originContent": "> The backend of this project has been removed. All data are stored in a JSON file. This project is a prototype and should not be used for production purposes. Please check out my new project [OpenIndoorMaps](https://github.com/yourusername/OpenIndoorMaps) for a more comprehensive solution.",
+        "translatedContent": "> 본 프로젝트의 백엔드는 제거되었습니다. 모든 데이터는 JSON 파일에 저장됩니다. 이 프로젝트는 프로토타입이며 상용 목적으로 사용해서는 안 됩니다. 보다 종합적인 솔루션은 제 새로운 프로젝트 [OpenIndoorMaps](https://github.com/yourusername/OpenIndoorMaps)를 확인해 주세요."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "CrQ1XO/et1agLOmJnlaLYfcfQdvL77gCZWQqAUysVwM=",
+        "originContent": "## Screenshots",
+        "translatedContent": "## 스크린샷"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "lrcjRoVQ4DvkDx2jcRbQrjEmLSGwmhoSIcsDPMDqoGY=",
+        "originContent": "<table style=\"border-radius: 10px;  border: 1px solid gray;\">",
+        "translatedContent": "<table style=\"border-radius: 10px;  border: 1px solid gray;\">  "
+      },
+      {
+        "row": 39,
+        "rowsha": "sodCV6+quzdGXr8PihndToUBRpEHNU/BGpPge9M6jmw=",
+        "originContent": "  <tr >",
+        "translatedContent": "  <tr >  "
+      },
+      {
+        "row": 40,
+        "rowsha": "vg6IChHK0x56vyRlhEkqaKtEb1AXuH9+qS075hbiUOA=",
+        "originContent": "    <td align=\"center\"><img src=\"https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/indoor-map-details.png\"/></td>",
+        "translatedContent": "    <td align=\"center\"><img src=\"https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/indoor-map-details.png\"/></td>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "   <td align=\"center\"><h3 >Displaying Object Information on Click</h3></td>\n  </tr>\n    <tr>\n    <td align=\"center\"><img src=\"https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/indoor-wayfinding.png\"/></td>\n    <td align=\"center\"><h3>Demonstration of Shortest Path Calculation</h3></td>\n  </tr>\n</table>\n\n## Features\n\n- **Interactive SVG Maps**: Navigate complex indoor spaces with ease.\n- **Dijkstra Pathfinding**: Calculates the shortest path to your destination.\n- **Responsive Design**: Optimized for any device and screen size.\n- **Customizable POIs**: Edit names and categories of points of interest.\n- **Pinch-to-Zoom**: Effortlessly zoom in and out on maps with touch gestures.\n\n## Technologies\n\nPathpal is built with the latest web technologies for speed, efficiency, and adaptability:\n\n- React\n- Vite\n- TypeScript\n- TailwindCSS\n- SVG\n- Dijkstra's Algorithm\n\n## Setup\n\nFollow these steps to get the project up and running:\n\n1. **Clone the Repository**: Use your preferred Git client to clone this repository to your local machine.\n\n2. **Install Node.js**: This project requires Node.js. If you don't have Node.js version 21 installed, you can download and install it from [nodejs.org](https://nodejs.org/).\n\n3. **Install Dependencies**: Navigate to the project directory in your terminal and run the following command to install the necessary dependencies:\n",
+    "ContentSha": "XaB1tf9F/1fWbBdohN7sqGDzDz/hLzkRLi3l7NyDZsI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   <td align=\"center\"><h3 >클릭 시 객체 정보 표시</h3></td>\n  </tr>\n    <tr>\n    <td align=\"center\"><img src=\"https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/indoor-wayfinding.png\"/></td>\n    <td align=\"center\"><h3>최단 경로 계산 시연</h3></td>\n  </tr>\n</table>\n\n## 기능\n\n- **인터랙티브 SVG 지도**: 복잡한 실내 공간을 쉽게 탐색할 수 있습니다.\n- **다익스트라 경로 탐색**: 목적지까지 최단 경로를 계산합니다.\n- **반응형 디자인**: 모든 기기와 화면 크기에 최적화되어 있습니다.\n- **사용자 지정 POI**: 관심 지점의 이름과 카테고리를 편집할 수 있습니다.\n- **핀치 투 줌**: 터치 제스처로 지도를 손쉽게 확대 및 축소할 수 있습니다.\n\n## 기술 스택\n\nPathpal은 속도, 효율성 및 적응성을 위해 최신 웹 기술로 구축되었습니다:\n\n- React\n- Vite\n- TypeScript\n- TailwindCSS\n- SVG\n- 다익스트라 알고리즘\n\n## 설치 방법\n\n프로젝트를 실행하려면 다음 단계를 따르세요:\n\n1. **레포지토리 복제**: 선호하는 Git 클라이언트를 사용하여 이 레포지토리를 로컬 머신에 복제하세요.\n\n2. **Node.js 설치**: 이 프로젝트는 Node.js가 필요합니다. Node.js 버전 21이 설치되어 있지 않은 경우 [nodejs.org](https://nodejs.org/)에서 다운로드하여 설치할 수 있습니다.\n\n3. **의존성 설치**: 터미널에서 프로젝트 디렉터리로 이동한 후 다음 명령어를 실행하여 필요한 의존성을 설치하세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "mQwYJYj3opmhT78JWZla/xHKYrIWUQuB6p+SH5CUnlg=",
+        "originContent": "   <td align=\"center\"><h3 >Displaying Object Information on Click</h3></td>",
+        "translatedContent": "   <td align=\"center\"><h3 >클릭 시 객체 정보 표시</h3></td>"
+      },
+      {
+        "row": 2,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 3,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 4,
+        "rowsha": "6YKH2NSY6V+cbGx8BNsZQlQXv3v0KVuvytliBbYb8zY=",
+        "originContent": "    <td align=\"center\"><img src=\"https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/indoor-wayfinding.png\"/></td>",
+        "translatedContent": "    <td align=\"center\"><img src=\"https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/indoor-wayfinding.png\"/></td>"
+      },
+      {
+        "row": 5,
+        "rowsha": "Gy1Y3EWP5mcDPhlQtFndDZ0ldoE2Z7qwJScHP1z85Kk=",
+        "originContent": "    <td align=\"center\"><h3>Demonstration of Shortest Path Calculation</h3></td>",
+        "translatedContent": "    <td align=\"center\"><h3>최단 경로 계산 시연</h3></td>"
+      },
+      {
+        "row": 6,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 7,
+        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+        "originContent": "</table>",
+        "translatedContent": "</table>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "8pqd8zcB6eFx/ugVt8Pe84T12v5JX4WvxKXuy20HXbM=",
+        "originContent": "- **Interactive SVG Maps**: Navigate complex indoor spaces with ease.",
+        "translatedContent": "- **인터랙티브 SVG 지도**: 복잡한 실내 공간을 쉽게 탐색할 수 있습니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "OA1XTjax03MMauxRL+kUogvZGkmS0nN3r4OwesSWtyw=",
+        "originContent": "- **Dijkstra Pathfinding**: Calculates the shortest path to your destination.",
+        "translatedContent": "- **다익스트라 경로 탐색**: 목적지까지 최단 경로를 계산합니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "ILU4scNU+k0b/qN1HoCJTU9q9SrfrAPPjUBwfb0es+A=",
+        "originContent": "- **Responsive Design**: Optimized for any device and screen size.",
+        "translatedContent": "- **반응형 디자인**: 모든 기기와 화면 크기에 최적화되어 있습니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "sClsNLSJquUI6fyF0fNYQuVOQ67hhXkhXLHuhCv0yRI=",
+        "originContent": "- **Customizable POIs**: Edit names and categories of points of interest.",
+        "translatedContent": "- **사용자 지정 POI**: 관심 지점의 이름과 카테고리를 편집할 수 있습니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "z9kLz4VkokKIRo+NBz+6XWeJ/VxIHNpYICy1elXsQ6g=",
+        "originContent": "- **Pinch-to-Zoom**: Effortlessly zoom in and out on maps with touch gestures.",
+        "translatedContent": "- **핀치 투 줌**: 터치 제스처로 지도를 손쉽게 확대 및 축소할 수 있습니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "8F3iiDGZOfkbUmWreBWg6jAbmrN3dmmDPu+obW5GkU4=",
+        "originContent": "## Technologies",
+        "translatedContent": "## 기술 스택"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "xwDKfJbLjvsDLgsQOe/u2HyDPDQzJJEe3DK9QXac7YU=",
+        "originContent": "Pathpal is built with the latest web technologies for speed, efficiency, and adaptability:",
+        "translatedContent": "Pathpal은 속도, 효율성 및 적응성을 위해 최신 웹 기술로 구축되었습니다:"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "YMc0xpZ5VlBC75W7el/j8SMAsdioYpgFxRLxMJtjKxA=",
+        "originContent": "- React",
+        "translatedContent": "- React"
+      },
+      {
+        "row": 22,
+        "rowsha": "qtmd5ElVDdOM2nAl67Nkv0PRZXs3cWVc9WttNUV3QME=",
+        "originContent": "- Vite",
+        "translatedContent": "- Vite"
+      },
+      {
+        "row": 23,
+        "rowsha": "Rc0yZcrFyniQWeKsNnHo80KEhJZhXraNzOML8o1Qe1M=",
+        "originContent": "- TypeScript",
+        "translatedContent": "- TypeScript"
+      },
+      {
+        "row": 24,
+        "rowsha": "7PAFusXnZlVJXgUjTZ108weMT9I21PCTQ8Zj4PcKO6c=",
+        "originContent": "- TailwindCSS",
+        "translatedContent": "- TailwindCSS"
+      },
+      {
+        "row": 25,
+        "rowsha": "YZ3SktL09C+bTOJ/9cJIK6ybozyP7lBYcLZLlw4u9JM=",
+        "originContent": "- SVG",
+        "translatedContent": "- SVG"
+      },
+      {
+        "row": 26,
+        "rowsha": "XemGhMpfTyWF2I4G1pIA4gRM2irKZEXlAqpCKjT8Zy0=",
+        "originContent": "- Dijkstra's Algorithm",
+        "translatedContent": "- 다익스트라 알고리즘"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+        "originContent": "## Setup",
+        "translatedContent": "## 설치 방법"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "Su5WptGWJXV2gEqDffXkYdg7v59Zngd2QvPWI2sKyoM=",
+        "originContent": "Follow these steps to get the project up and running:",
+        "translatedContent": "프로젝트를 실행하려면 다음 단계를 따르세요:"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "qE6QdwVT9PUlW9tqBL/y6tO8/OS+5Bfo92Ia754ujhc=",
+        "originContent": "1. **Clone the Repository**: Use your preferred Git client to clone this repository to your local machine.",
+        "translatedContent": "1. **레포지토리 복제**: 선호하는 Git 클라이언트를 사용하여 이 레포지토리를 로컬 머신에 복제하세요."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "RA0sEUIBKAde8f/ETVmEDRxpKhiE5ZRxo9HKgltwTAE=",
+        "originContent": "2. **Install Node.js**: This project requires Node.js. If you don't have Node.js version 21 installed, you can download and install it from [nodejs.org](https://nodejs.org/).",
+        "translatedContent": "2. **Node.js 설치**: 이 프로젝트는 Node.js가 필요합니다. Node.js 버전 21이 설치되어 있지 않은 경우 [nodejs.org](https://nodejs.org/)에서 다운로드하여 설치할 수 있습니다."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "ajXQVoUE6b4pKYmH1OAsbrr+Ylk9BKycpWBBAnB5CIs=",
+        "originContent": "3. **Install Dependencies**: Navigate to the project directory in your terminal and run the following command to install the necessary dependencies:",
+        "translatedContent": "3. **의존성 설치**: 터미널에서 프로젝트 디렉터리로 이동한 후 다음 명령어를 실행하여 필요한 의존성을 설치하세요:"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "   ```bash\n   npm install\n   ```",
+    "ContentSha": "96Rm5WrnzxYutorOrn4fzgzNs/nxnmAl/lHT/7c+Uo8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   npm install\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "vL8BhPjyB/zDBV86sjJRWERo3LQsvb84xA8TswysvN0=",
+        "originContent": "   npm install",
+        "translatedContent": "   npm install"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n4. **Start the Application**: Once the dependencies are installed, you can start the application by running the following command in your terminal:\n",
+    "ContentSha": "o2DCwN1+ncQ0PetTnug98IlJEKhmJPHAWHtZ4mg94W0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. **애플리케이션 시작하기**: 종속 항목이 설치되면 터미널에서 다음 명령어를 실행하여 애플리케이션을 시작할 수 있습니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. **애플리케이션 시작하기**: 종속 항목이 설치되면 터미널에서 다음 명령어를 실행하여 애플리케이션을 시작할 수 있습니다:"
+      },
+      {
+        "row": 2,
+        "rowsha": "wsXx2ccoF9Wif6ngv/i8LpgE+5tdft2QMl/27rftb6s=",
+        "originContent": "4. **Start the Application**: Once the dependencies are installed, you can start the application by running the following command in your terminal:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "   ```bash\n   npm run dev\n   ```",
+    "ContentSha": "hxMxVZE7XJcRcdD9LExnMIWAhYx13oAbCrERMHLHKtc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   npm run dev\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "jpTVQEQJssgEMpBk9yv3LDrV/THaMODy0a1aLMkysrU=",
+        "originContent": "   npm run dev",
+        "translatedContent": "   npm run dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\nAfter running these commands, your default web browser should automatically open and navigate to `localhost:5173`, where you can see the running application.\n\n## Technical Insights\n\n### Map Technology\n\n- **SVG Format**: The map is primarily SVG for its flexibility and interactive capabilities, ideal for detailed navigation.\n- **Image Format Support**: Supports various formats like PNG and JPEG for map backgrounds, with interactive features best suited for SVG.\n\n### Pathfinding\n\n- **Routes Definition**: Paths within the map represent navigable routes, essential for the Dijkstra algorithm to calculate efficient paths.\n- **Dijkstra Algorithm**: Ensures accurate and swift navigation between POIs.\n\n### Core Map Technology\n\n- **SVG as the Default Format**: The application primarily uses an SVG (Scalable Vector Graphics) file for the map due to its scalability and ease of manipulation. SVGs allow for interactive and dynamic rendering of indoor spaces, making them ideal for detailed navigation paths.\n- **Support for Various Image Formats**: While SVG is the default, the system is designed to accommodate any image format (e.g., PNG, JPEG) as a map background. This flexibility ensures that developers can use existing floor plans or maps without needing to convert them to SVG. However, the primary interactive and navigational features are optimized for SVG.\n\n### Path Drawing and Wayfinding\n\n- **Path Drawing**: For navigation to function, paths must be defined within the map. These paths represent walkable routes and are crucial for the wayfinding algorithm. In SVG files, paths can be drawn and edited directly, allowing for precise control over navigation routes.\n- **Wayfinding Algorithm**: The application utilizes the Dijkstra algorithm for calculating the shortest path between points of interest (POIs) on the map. This algorithm operates on the network of paths drawn on the map, ensuring efficient and accurate navigation.\n\n### Customizing the Map\n\n- **Editing Tools**: Developers have the option to utilize vector graphic editing tools such as Adobe Illustrator or Boxy SVG for modifying the SVG map. This modification can involve updating layouts, adding or removing Points of Interest (POIs), and adjusting paths. Refer to the screenshot below to see an example of map editing using Boxy SVG. For converting SVG to JSX, [Transform Tools](https://transform.tools/) can be a useful resource.\n\n![IndoorMap Editing Example](https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/map-editing-preview.png)\n\n## Credits\n\nThis project was inspired by my diploma work and significantly influenced by the support of mentors, peers, and resources like [maciejb2k's pathfinding app](https://github.com/maciejb2k/pathfinding_app).\n\n## License\n\nPathpal is open-sourced under the MIT License. Contributions and feedback are welcome!\n",
+    "ContentSha": "4YFsqvEP0d2PIWqGLQhbAy8hIRfC7HLBIZ7gppNDSvg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "이 명령어들을 실행한 후, 기본 웹 브라우저가 자동으로 열리며 `localhost:5173`으로 이동하여 실행 중인 애플리케이션을 확인할 수 있습니다.\n\n## 기술적 통찰\n\n### 지도 기술\n\n- **SVG 포맷**: 지도는 주로 SVG 형식을 사용하며, 유연성과 상호작용 기능이 뛰어나 상세한 내비게이션에 적합합니다.\n- **이미지 포맷 지원**: PNG 및 JPEG와 같은 다양한 포맷을 지도 배경으로 지원하며, 상호작용 기능은 SVG에 가장 적합합니다.\n\n### 경로 탐색\n\n- **경로 정의**: 지도 내 경로는 이동 가능한 루트를 나타내며, Dijkstra 알고리즘이 효율적인 경로를 계산하는 데 필수적입니다.\n- **Dijkstra 알고리즘**: POI 간의 정확하고 신속한 내비게이션을 보장합니다.\n\n### 핵심 지도 기술\n\n- **기본 포맷으로서의 SVG**: 이 애플리케이션은 확장성과 조작 용이성 때문에 주로 SVG(Scalable Vector Graphics) 파일을 지도에 사용합니다. SVG는 실내 공간을 인터랙티브하고 동적으로 렌더링할 수 있어 상세한 내비게이션 경로에 이상적입니다.\n- **다양한 이미지 포맷 지원**: 기본은 SVG이지만, 시스템은 PNG, JPEG 등 어떤 이미지 포맷도 지도 배경으로 사용할 수 있도록 설계되었습니다. 이 유연성 덕분에 개발자는 기존 평면도나 지도를 SVG로 변환하지 않고도 사용할 수 있습니다. 다만 주요 상호작용 및 내비게이션 기능은 SVG에 최적화되어 있습니다.\n\n### 경로 그리기 및 길찾기\n\n- **경로 그리기**: 내비게이션이 작동하려면 지도 내에 경로가 정의되어야 합니다. 이 경로는 보행 가능한 루트를 나타내며, 길찾기 알고리즘에 매우 중요합니다. SVG 파일에서는 경로를 직접 그리거나 편집할 수 있어 내비게이션 경로를 정밀하게 제어할 수 있습니다.\n- **길찾기 알고리즘**: 이 애플리케이션은 지도 내 관심 지점(POI) 간 최단 경로 계산을 위해 Dijkstra 알고리즘을 사용합니다. 이 알고리즘은 지도에 그려진 경로 네트워크를 기반으로 효율적이고 정확한 내비게이션을 보장합니다.\n\n### 지도 커스터마이징\n\n- **편집 도구**: 개발자는 Adobe Illustrator나 Boxy SVG와 같은 벡터 그래픽 편집 도구를 사용해 SVG 지도를 수정할 수 있습니다. 이 수정 작업은 레이아웃 업데이트, 관심 지점(POI) 추가/삭제, 경로 조정 등을 포함할 수 있습니다. 아래 스크린샷에서 Boxy SVG를 사용한 지도 편집 예시를 확인하세요. SVG를 JSX로 변환할 때는 [Transform Tools](https://transform.tools/)가 유용한 리소스입니다.\n\n![IndoorMap Editing Example](https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/map-editing-preview.png)\n\n## 크레딧\n\n이 프로젝트는 제 졸업 작품에서 영감을 받았으며, 멘토, 동료 그리고 [maciejb2k의 경로 탐색 앱](https://github.com/maciejb2k/pathfinding_app)과 같은 자료들의 지원에 크게 영향을 받았습니다.\n\n## 라이선스\n\nPathpal은 MIT 라이선스 하에 오픈 소스로 공개되어 있습니다. 기여와 피드백을 환영합니다!\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 명령어들을 실행한 후, 기본 웹 브라우저가 자동으로 열리며 `localhost:5173`으로 이동하여 실행 중인 애플리케이션을 확인할 수 있습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "qTrABtChQ86Y+2EXSWeEwp8AntWg36FDVXJbf4B2e9w=",
+        "originContent": "After running these commands, your default web browser should automatically open and navigate to `localhost:5173`, where you can see the running application.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 기술적 통찰"
+      },
+      {
+        "row": 4,
+        "rowsha": "YgoBrN2+KgZ2qHj5vG5qVpB8V1VrEyipKSSqfKnB/ic=",
+        "originContent": "## Technical Insights",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 지도 기술"
+      },
+      {
+        "row": 6,
+        "rowsha": "/68vYgeAHdF9b2x5KReN4N83xIkgK+ReEun15GA0jZE=",
+        "originContent": "### Map Technology",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **SVG 포맷**: 지도는 주로 SVG 형식을 사용하며, 유연성과 상호작용 기능이 뛰어나 상세한 내비게이션에 적합합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "glNrbKdGZv16Cx0UwHbHu1RlD3f01pQoOJk12Tu6c4w=",
+        "originContent": "- **SVG Format**: The map is primarily SVG for its flexibility and interactive capabilities, ideal for detailed navigation.",
+        "translatedContent": "- **이미지 포맷 지원**: PNG 및 JPEG와 같은 다양한 포맷을 지도 배경으로 지원하며, 상호작용 기능은 SVG에 가장 적합합니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "oyMPXrfOahBNqRApJKC3mRQ2dvKIGFn8FB+uljHMSrE=",
+        "originContent": "- **Image Format Support**: Supports various formats like PNG and JPEG for map backgrounds, with interactive features best suited for SVG.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 경로 탐색"
+      },
+      {
+        "row": 11,
+        "rowsha": "+XKaiiXmcQZJ5Slqpvy19SeD2Ivonrm4LR11aOhdA0E=",
+        "originContent": "### Pathfinding",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **경로 정의**: 지도 내 경로는 이동 가능한 루트를 나타내며, Dijkstra 알고리즘이 효율적인 경로를 계산하는 데 필수적입니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "zIGb4whoAKTLcx4Po5SxG84Yf/SP/DhHIRIhTkfyX4A=",
+        "originContent": "- **Routes Definition**: Paths within the map represent navigable routes, essential for the Dijkstra algorithm to calculate efficient paths.",
+        "translatedContent": "- **Dijkstra 알고리즘**: POI 간의 정확하고 신속한 내비게이션을 보장합니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "WcipxPlaS9JJ54OqtFCPmzrBkS2e7x4bxxDXwptGhLw=",
+        "originContent": "- **Dijkstra Algorithm**: Ensures accurate and swift navigation between POIs.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 핵심 지도 기술"
+      },
+      {
+        "row": 16,
+        "rowsha": "hXk6sklEik828An2nVbtTrrDAPt8bOmwARtXDM+/lXY=",
+        "originContent": "### Core Map Technology",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **기본 포맷으로서의 SVG**: 이 애플리케이션은 확장성과 조작 용이성 때문에 주로 SVG(Scalable Vector Graphics) 파일을 지도에 사용합니다. SVG는 실내 공간을 인터랙티브하고 동적으로 렌더링할 수 있어 상세한 내비게이션 경로에 이상적입니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "t0s9B8QRR+J2bpib9d10Pkfg5dIrxDaPDM6M/BbPDwg=",
+        "originContent": "- **SVG as the Default Format**: The application primarily uses an SVG (Scalable Vector Graphics) file for the map due to its scalability and ease of manipulation. SVGs allow for interactive and dynamic rendering of indoor spaces, making them ideal for detailed navigation paths.",
+        "translatedContent": "- **다양한 이미지 포맷 지원**: 기본은 SVG이지만, 시스템은 PNG, JPEG 등 어떤 이미지 포맷도 지도 배경으로 사용할 수 있도록 설계되었습니다. 이 유연성 덕분에 개발자는 기존 평면도나 지도를 SVG로 변환하지 않고도 사용할 수 있습니다. 다만 주요 상호작용 및 내비게이션 기능은 SVG에 최적화되어 있습니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "iLz9gJY63HpfRUh521qNEppuJCTrRvrSv0PntVrs9oQ=",
+        "originContent": "- **Support for Various Image Formats**: While SVG is the default, the system is designed to accommodate any image format (e.g., PNG, JPEG) as a map background. This flexibility ensures that developers can use existing floor plans or maps without needing to convert them to SVG. However, the primary interactive and navigational features are optimized for SVG.",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 경로 그리기 및 길찾기"
+      },
+      {
+        "row": 21,
+        "rowsha": "tJ74VYe1TOwhu23haNaiyoWXr5Z8rzdpf7KX84QJ3sQ=",
+        "originContent": "### Path Drawing and Wayfinding",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **경로 그리기**: 내비게이션이 작동하려면 지도 내에 경로가 정의되어야 합니다. 이 경로는 보행 가능한 루트를 나타내며, 길찾기 알고리즘에 매우 중요합니다. SVG 파일에서는 경로를 직접 그리거나 편집할 수 있어 내비게이션 경로를 정밀하게 제어할 수 있습니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "zki2uMdyxgsfpmMCXQ2tywWn7FVA6rpF0/vx5EOlWio=",
+        "originContent": "- **Path Drawing**: For navigation to function, paths must be defined within the map. These paths represent walkable routes and are crucial for the wayfinding algorithm. In SVG files, paths can be drawn and edited directly, allowing for precise control over navigation routes.",
+        "translatedContent": "- **길찾기 알고리즘**: 이 애플리케이션은 지도 내 관심 지점(POI) 간 최단 경로 계산을 위해 Dijkstra 알고리즘을 사용합니다. 이 알고리즘은 지도에 그려진 경로 네트워크를 기반으로 효율적이고 정확한 내비게이션을 보장합니다."
+      },
+      {
+        "row": 24,
+        "rowsha": "vRJwwpubfCMiMwzDerV0KooG14Skfzz9MK1U/54Cwck=",
+        "originContent": "- **Wayfinding Algorithm**: The application utilizes the Dijkstra algorithm for calculating the shortest path between points of interest (POIs) on the map. This algorithm operates on the network of paths drawn on the map, ensuring efficient and accurate navigation.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 지도 커스터마이징"
+      },
+      {
+        "row": 26,
+        "rowsha": "LEqOEB/zlhNtAsfmn5ASU6loMO0mLdlEh+pM90iiIL8=",
+        "originContent": "### Customizing the Map",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **편집 도구**: 개발자는 Adobe Illustrator나 Boxy SVG와 같은 벡터 그래픽 편집 도구를 사용해 SVG 지도를 수정할 수 있습니다. 이 수정 작업은 레이아웃 업데이트, 관심 지점(POI) 추가/삭제, 경로 조정 등을 포함할 수 있습니다. 아래 스크린샷에서 Boxy SVG를 사용한 지도 편집 예시를 확인하세요. SVG를 JSX로 변환할 때는 [Transform Tools](https://transform.tools/)가 유용한 리소스입니다."
+      },
+      {
+        "row": 28,
+        "rowsha": "2ATT/Kp8uThHNM6uGWx38osx4FHQeqvWg8rEgYGAzJk=",
+        "originContent": "- **Editing Tools**: Developers have the option to utilize vector graphic editing tools such as Adobe Illustrator or Boxy SVG for modifying the SVG map. This modification can involve updating layouts, adding or removing Points of Interest (POIs), and adjusting paths. Refer to the screenshot below to see an example of map editing using Boxy SVG. For converting SVG to JSX, [Transform Tools](https://transform.tools/) can be a useful resource.",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![IndoorMap Editing Example](https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/map-editing-preview.png)"
+      },
+      {
+        "row": 30,
+        "rowsha": "xyE5rmgWWa0ajXGO1/qTNpXN1TcbhW8wtO6YcEMHab8=",
+        "originContent": "![IndoorMap Editing Example](https://raw.githubusercontent.com/KnotzerIO/indoor-wayfinder/main/media/map-editing-preview.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 크레딧"
+      },
+      {
+        "row": 32,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 프로젝트는 제 졸업 작품에서 영감을 받았으며, 멘토, 동료 그리고 [maciejb2k의 경로 탐색 앱](https://github.com/maciejb2k/pathfinding_app)과 같은 자료들의 지원에 크게 영향을 받았습니다."
+      },
+      {
+        "row": 34,
+        "rowsha": "GpYji5N0rZQcqjpSDFHmLqxvFjGiX9q9Jvsdc7ewSxY=",
+        "originContent": "This project was inspired by my diploma work and significantly influenced by the support of mentors, peers, and resources like [maciejb2k's pathfinding app](https://github.com/maciejb2k/pathfinding_app).",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 36,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Pathpal은 MIT 라이선스 하에 오픈 소스로 공개되어 있습니다. 기여와 피드백을 환영합니다!"
+      },
+      {
+        "row": 38,
+        "rowsha": "n6uQeXm4K6iOKPlh8DMii4dIy3MwfUYpglvPGpUBKIo=",
+        "originContent": "Pathpal is open-sourced under the MIT License. Contributions and feedback are welcome!",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

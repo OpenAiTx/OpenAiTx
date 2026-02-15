@@ -1,0 +1,1441 @@
+[
+  {
+    "Id": 1,
+    "Content": "## 🛡️ LoLTrackGuard: Detecting Scripted Behavior in LoL\n\n**LoLTrackGuard** is a lightweight system for detecting suspicious mouse behavior in *League of Legends* gameplay videos. It combines YOLOv8-based cursor detection with an LSTM autoencoder to identify anomalies in cursor movement patterns — no game logs or invasive tools required.\n\n- 🎯 Input: 1080p 30FPS gameplay video\n- 🖱️ Step 1: Detect cursor positions using a trained YOLO model\n- 📐 Step 2: Extract and normalize motion features (velocity, acceleration, etc.)\n- 🧠 Step 3: Feed into LSTM autoencoder to score anomalies\n- 📊 Output: CSV with per-second anomaly scores\n\nTrained on real pro player data, LoLTrackGuard offers a non-intrusive way to flag potential automation behavior in gameplay footage.\n\n---\n\n## 📁 Project Structure\n",
+    "ContentSha": "Xcm5wTFznQ5lcPrNkufc+K1VNQI/LA8On0e73pQvSNQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🛡️ LoLTrackGuard：检测英雄联盟中的脚本行为\n\n**LoLTrackGuard** 是一个轻量级系统，用于检测《英雄联盟》游戏视频中可疑的鼠标行为。它结合了基于 YOLOv8 的光标检测和 LSTM 自编码器，以识别光标移动模式中的异常——无需游戏日志或侵入式工具。\n\n- 🎯 输入：1080p 30FPS 游戏视频\n- 🖱️ 第一步：使用训练好的 YOLO 模型检测光标位置\n- 📐 第二步：提取并归一化运动特征（速度，加速度等）\n- 🧠 第三步：输入 LSTM 自编码器以评分异常\n- 📊 输出：带有每秒异常评分的 CSV 文件\n\nLoLTrackGuard 基于真实职业选手数据训练，提供了一种非侵入式的方法来标记游戏录像中潜在的自动化行为。\n\n---\n\n## 📁 项目结构\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "FHy7wvhlwQIrBd4PCAkGMMryoON2ch0djvF2MYASnCM=",
+        "originContent": "## 🛡️ LoLTrackGuard: Detecting Scripted Behavior in LoL",
+        "translatedContent": "## 🛡️ LoLTrackGuard：检测英雄联盟中的脚本行为"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "AB6oiocGCImxmjn6ZRV73Det7U+blw5sZ/pW0d/e8Hc=",
+        "originContent": "**LoLTrackGuard** is a lightweight system for detecting suspicious mouse behavior in *League of Legends* gameplay videos. It combines YOLOv8-based cursor detection with an LSTM autoencoder to identify anomalies in cursor movement patterns — no game logs or invasive tools required.",
+        "translatedContent": "**LoLTrackGuard** 是一个轻量级系统，用于检测《英雄联盟》游戏视频中可疑的鼠标行为。它结合了基于 YOLOv8 的光标检测和 LSTM 自编码器，以识别光标移动模式中的异常——无需游戏日志或侵入式工具。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "uKzrt20CbJ7MG+/oEYe+2ENbkk61iJLCBtTVau/ZW8I=",
+        "originContent": "- 🎯 Input: 1080p 30FPS gameplay video",
+        "translatedContent": "- 🎯 输入：1080p 30FPS 游戏视频"
+      },
+      {
+        "row": 6,
+        "rowsha": "P8HTfgAkAO7zUpL/cRQt/wFM59brNMd5DjUavDSKJFY=",
+        "originContent": "- 🖱️ Step 1: Detect cursor positions using a trained YOLO model",
+        "translatedContent": "- 🖱️ 第一步：使用训练好的 YOLO 模型检测光标位置"
+      },
+      {
+        "row": 7,
+        "rowsha": "rRguw6+6h8iCgCWuAO9Nj6jU9TmnxsKu4Qpu1ZU3c5M=",
+        "originContent": "- 📐 Step 2: Extract and normalize motion features (velocity, acceleration, etc.)",
+        "translatedContent": "- 📐 第二步：提取并归一化运动特征（速度，加速度等）"
+      },
+      {
+        "row": 8,
+        "rowsha": "HXvqUaemewdmfz3YiEJQunZ2qq9ACah0HrA54jaZD2g=",
+        "originContent": "- 🧠 Step 3: Feed into LSTM autoencoder to score anomalies",
+        "translatedContent": "- 🧠 第三步：输入 LSTM 自编码器以评分异常"
+      },
+      {
+        "row": 9,
+        "rowsha": "IazUEJ2q21KOCcJTAM9pnkMefAM4jxCvjQmpDld8tqI=",
+        "originContent": "- 📊 Output: CSV with per-second anomaly scores",
+        "translatedContent": "- 📊 输出：带有每秒异常评分的 CSV 文件"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "dcz9GWZudh6m2YyEqjtTsmBkjPn1GaYE9Z+EZDU2dhw=",
+        "originContent": "Trained on real pro player data, LoLTrackGuard offers a non-intrusive way to flag potential automation behavior in gameplay footage.",
+        "translatedContent": "LoLTrackGuard 基于真实职业选手数据训练，提供了一种非侵入式的方法来标记游戏录像中潜在的自动化行为。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "J+2kA+i8tz3LjivQ0RcsUzCYWvN2UHGcYExXmtR1Hsk=",
+        "originContent": "## 📁 Project Structure",
+        "translatedContent": "## 📁 项目结构"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nLoLTrackGuard-MAIN/\n├── cursor_templates/                # Cursor icon PNGs with transparency (for FakeDataGenerator)\n├── extension/                       # C++/CUDA Acceleration Module\n│   ├── setup.py                     # Build script\n│   └── src/                         # C++ and CUDA source files\n├── model/                           # Trained LSTM models for anomaly detection\n│   ├── detection_model.keras        # Default trained LSTM model\n│   ├── detection_model2.keras       # Alternate model versions\n│   └── detection_model3.keras\n├── mouse_positions/                # Output CSVs from cursorDetector with raw mouse position data\n├── pipeline/                       # Core logic scripts\n│   ├── analyzer.py                 # Runs analysis using a trained model\n│   ├── cursorDetector.py          # Detects cursor in videos using YOLO and outputs CSV\n│   ├── cursorDetector_accelerated.py # High-Performance version (C++/Numba)\n│   ├── dataModifier.py            # Extracts motion features and normalizes them\n│   └── modelTrainer.py            # Trains LSTM anomaly detection model\n├── utils/                          # Resource files and utility scripts\n│   ├── cursorDetector_x.pt        # Primary YOLOv8 model for cursor detection\n│   ├── FakeDataGenerator.py       # Script to generate synthetic training data for YOLO\n│   └── universal_scaler.joblib    # Saved standardizer for feature normalization\n├── train_pipeline.py               # Full training pipeline: from video to trained model\n├── analyze_pipeline.py             # Full analysis pipeline: from video to anomaly scores\n├── requirements.txt                # Python dependencies\n└── README.md                       # Project documentation\n```",
+    "ContentSha": "X2uXy1lGEcMHmw7lWnAWEk17rm0ObzyjtN6A2z03UYU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nLoLTrackGuard-MAIN/\n├── cursor_templates/                # Cursor icon PNGs with transparency (for FakeDataGenerator)\n├── extension/                       # C++/CUDA Acceleration Module\n│   ├── setup.py                     # Build script\n│   └── src/                         # C++ and CUDA source files\n├── model/                           # Trained LSTM models for anomaly detection\n│   ├── detection_model.keras        # Default trained LSTM model\n│   ├── detection_model2.keras       # Alternate model versions\n│   └── detection_model3.keras\n├── mouse_positions/                # Output CSVs from cursorDetector with raw mouse position data\n├── pipeline/                       # Core logic scripts\n│   ├── analyzer.py                 # Runs analysis using a trained model\n│   ├── cursorDetector.py          # Detects cursor in videos using YOLO and outputs CSV\n│   ├── cursorDetector_accelerated.py # High-Performance version (C++/Numba)\n│   ├── dataModifier.py            # Extracts motion features and normalizes them\n│   └── modelTrainer.py            # Trains LSTM anomaly detection model\n├── utils/                          # Resource files and utility scripts\n│   ├── cursorDetector_x.pt        # Primary YOLOv8 model for cursor detection\n│   ├── FakeDataGenerator.py       # Script to generate synthetic training data for YOLO\n│   └── universal_scaler.joblib    # Saved standardizer for feature normalization\n├── train_pipeline.py               # Full training pipeline: from video to trained model\n├── analyze_pipeline.py             # Full analysis pipeline: from video to anomaly scores\n├── requirements.txt                # Python dependencies\n└── README.md                       # Project documentation\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "kLeDd3kafZpHYvZO4McCuy7WY5NGkxQLmiXrJ5dzjFE=",
+        "originContent": "LoLTrackGuard-MAIN/",
+        "translatedContent": "LoLTrackGuard-MAIN/"
+      },
+      {
+        "row": 3,
+        "rowsha": "Sn+MQvKHac6CkBTzfe/US2ttsMZGCtkduwZo3tYSRLE=",
+        "originContent": "├── cursor_templates/                # Cursor icon PNGs with transparency (for FakeDataGenerator)",
+        "translatedContent": "├── cursor_templates/                # Cursor icon PNGs with transparency (for FakeDataGenerator)"
+      },
+      {
+        "row": 4,
+        "rowsha": "GgRcnX1Ggyqtf07yLr1adEivBslbOZHJGhH5zj2A+M4=",
+        "originContent": "├── extension/                       # C++/CUDA Acceleration Module",
+        "translatedContent": "├── extension/                       # C++/CUDA Acceleration Module"
+      },
+      {
+        "row": 5,
+        "rowsha": "O7FXGuPM25M2Q9XSya5jhYxDZZBf71XGcWJBnftQKgk=",
+        "originContent": "│   ├── setup.py                     # Build script",
+        "translatedContent": "│   ├── setup.py                     # Build script"
+      },
+      {
+        "row": 6,
+        "rowsha": "5/j4p7dBM9b0VpY00QCroLU8fa+OnNF8hr5iG+8YwXk=",
+        "originContent": "│   └── src/                         # C++ and CUDA source files",
+        "translatedContent": "│   └── src/                         # C++ and CUDA source files"
+      },
+      {
+        "row": 7,
+        "rowsha": "6IXJL9+Lr8DUEoG71FAI7kDwg2/8uhodGTz3QT350g8=",
+        "originContent": "├── model/                           # Trained LSTM models for anomaly detection",
+        "translatedContent": "├── model/                           # Trained LSTM models for anomaly detection"
+      },
+      {
+        "row": 8,
+        "rowsha": "GBQG9P3ACMs+iCNb7qHRSDsxIaGIld4lDbbD7VMkaMo=",
+        "originContent": "│   ├── detection_model.keras        # Default trained LSTM model",
+        "translatedContent": "│   ├── detection_model.keras        # Default trained LSTM model"
+      },
+      {
+        "row": 9,
+        "rowsha": "++eIYXHV7BW98vA2Sf/KsbaGLC+YZtzNw4h1Sxt2pcc=",
+        "originContent": "│   ├── detection_model2.keras       # Alternate model versions",
+        "translatedContent": "│   ├── detection_model2.keras       # Alternate model versions"
+      },
+      {
+        "row": 10,
+        "rowsha": "Yl+J0Ntmqz7AhitazKN6X2OOd5tL1BiEhbn8LDOQ9NY=",
+        "originContent": "│   └── detection_model3.keras",
+        "translatedContent": "│   └── detection_model3.keras"
+      },
+      {
+        "row": 11,
+        "rowsha": "g395uoPEq1FCyHFlvYUjf7R5NrM/smI0ts7wH8k8v8U=",
+        "originContent": "├── mouse_positions/                # Output CSVs from cursorDetector with raw mouse position data",
+        "translatedContent": "├── mouse_positions/                # Output CSVs from cursorDetector with raw mouse position data"
+      },
+      {
+        "row": 12,
+        "rowsha": "7FUtvGTpUGvcfZbPuiypI7YaIMuhxGIPaX2cBbdPthw=",
+        "originContent": "├── pipeline/                       # Core logic scripts",
+        "translatedContent": "├── pipeline/                       # Core logic scripts"
+      },
+      {
+        "row": 13,
+        "rowsha": "UNnX6S0xz9qRhVIHt1erB/PT2PrUUIEeU8NSUxdGMGc=",
+        "originContent": "│   ├── analyzer.py                 # Runs analysis using a trained model",
+        "translatedContent": "│   ├── analyzer.py                 # Runs analysis using a trained model"
+      },
+      {
+        "row": 14,
+        "rowsha": "Zemawfuo6nVtsKLoG4xY8b9bXQPjWfofZG1lwpCECq0=",
+        "originContent": "│   ├── cursorDetector.py          # Detects cursor in videos using YOLO and outputs CSV",
+        "translatedContent": "│   ├── cursorDetector.py          # Detects cursor in videos using YOLO and outputs CSV"
+      },
+      {
+        "row": 15,
+        "rowsha": "sa6iKSkdXrn+Aw0LdoPfxNfumXARO3OE+qGTYeMH+Hg=",
+        "originContent": "│   ├── cursorDetector_accelerated.py # High-Performance version (C++/Numba)",
+        "translatedContent": "│   ├── cursorDetector_accelerated.py # High-Performance version (C++/Numba)"
+      },
+      {
+        "row": 16,
+        "rowsha": "Gxop+Zkxp0vt65PGvF5Wm5EBGavf+G2pAcqlWeEzcFo=",
+        "originContent": "│   ├── dataModifier.py            # Extracts motion features and normalizes them",
+        "translatedContent": "│   ├── dataModifier.py            # Extracts motion features and normalizes them"
+      },
+      {
+        "row": 17,
+        "rowsha": "jE1sJsg1/O+y6d+YGvD0ntDyOPG2ggIqak4uiiSI744=",
+        "originContent": "│   └── modelTrainer.py            # Trains LSTM anomaly detection model",
+        "translatedContent": "│   └── modelTrainer.py            # Trains LSTM anomaly detection model"
+      },
+      {
+        "row": 18,
+        "rowsha": "S+FyiF9i2viLEMxHqq0jziT5uwqJuE7cCm9FaXDvMHE=",
+        "originContent": "├── utils/                          # Resource files and utility scripts",
+        "translatedContent": "├── utils/                          # Resource files and utility scripts"
+      },
+      {
+        "row": 19,
+        "rowsha": "WpMHSNyPcCmO0d/0LrDs3x2HWy2S4999hjfImpSgdzk=",
+        "originContent": "│   ├── cursorDetector_x.pt        # Primary YOLOv8 model for cursor detection",
+        "translatedContent": "│   ├── cursorDetector_x.pt        # Primary YOLOv8 model for cursor detection"
+      },
+      {
+        "row": 20,
+        "rowsha": "etcYiTSom8KF5eHERMUGz5uPs+Q3AajdpG/Z13yQUdA=",
+        "originContent": "│   ├── FakeDataGenerator.py       # Script to generate synthetic training data for YOLO",
+        "translatedContent": "│   ├── FakeDataGenerator.py       # Script to generate synthetic training data for YOLO"
+      },
+      {
+        "row": 21,
+        "rowsha": "PiQc3KSmOfM34sCeK7mIU+1xTo5lcKXnn68RVfb2j20=",
+        "originContent": "│   └── universal_scaler.joblib    # Saved standardizer for feature normalization",
+        "translatedContent": "│   └── universal_scaler.joblib    # Saved standardizer for feature normalization"
+      },
+      {
+        "row": 22,
+        "rowsha": "jAdUQPV4a4ViQk8mlo8hJIaJ+rDiW283igtO0lH7M7c=",
+        "originContent": "├── train_pipeline.py               # Full training pipeline: from video to trained model",
+        "translatedContent": "├── train_pipeline.py               # Full training pipeline: from video to trained model"
+      },
+      {
+        "row": 23,
+        "rowsha": "EYfp8NJFGAInSfjAKENaJs8YlhsRCbQWLiHN/Ktc4ms=",
+        "originContent": "├── analyze_pipeline.py             # Full analysis pipeline: from video to anomaly scores",
+        "translatedContent": "├── analyze_pipeline.py             # Full analysis pipeline: from video to anomaly scores"
+      },
+      {
+        "row": 24,
+        "rowsha": "L0a+P2zCRGGBy027WgaIohDTIL7IEcs1Ct3o6FrZ/x8=",
+        "originContent": "├── requirements.txt                # Python dependencies",
+        "translatedContent": "├── requirements.txt                # Python dependencies"
+      },
+      {
+        "row": 25,
+        "rowsha": "CWPucRkYK64L58W2JDn8i8+9pDBgtDMTytHSHpTIxNk=",
+        "originContent": "└── README.md                       # Project documentation",
+        "translatedContent": "└── README.md                       # Project documentation"
+      },
+      {
+        "row": 26,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n---\n\n## ⚙️ Project Setup\n\n### 1. Install Git LFS (for large model files)\n",
+    "ContentSha": "8rn7+Nt4LvLowM2OEfTmYTGjMq8CcGP3HfgohGrBQts=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## ⚙️ Project Setup\n\n### 1. Install Git LFS (for large model files)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "RIB5S1AqNffjezZKDx10RnQWt2icR/3o05qBj8YUzzQ=",
+        "originContent": "## ⚙️ Project Setup",
+        "translatedContent": "## ⚙️ Project Setup"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "wEnmXv+KxiS/+7gEvTT7BqtvRHOs47D1mPBtyoao+ic=",
+        "originContent": "### 1. Install Git LFS (for large model files)",
+        "translatedContent": "### 1. Install Git LFS (for large model files)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n# Install Git LFS from: https://git-lfs.github.com/\ngit lfs install\n```",
+    "ContentSha": "ed8VSb5J0IpPBzNnsLbMFf3K9mUlORS7Xfv/CVGKz7Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Install Git LFS from: https://git-lfs.github.com/\ngit lfs install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "tRRYcIsAAx1n3a8m2qxTJIMiNjA3K+sHhEHkv+Z+jac=",
+        "originContent": "# Install Git LFS from: https://git-lfs.github.com/",
+        "translatedContent": "# Install Git LFS from: https://git-lfs.github.com/"
+      },
+      {
+        "row": 3,
+        "rowsha": "clodLDXAiqjPHky4IWGjF9+WRBhuO6qdi8htIa3E0U0=",
+        "originContent": "git lfs install",
+        "translatedContent": "git lfs install"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### 2. Install dependencies\n",
+    "ContentSha": "8QIQKrMfrnOQpfa7xuGIKq7Fh/MY7OzKYG3LYvj004g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 2. 安装依赖项\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "20K8OonLAcw5FcsD8JTtLxCsXwap5KSjv9uWPVtHlkU=",
+        "originContent": "### 2. Install dependencies",
+        "translatedContent": "### 2. 安装依赖项"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\npip install -r requirements.txt\n```",
+    "ContentSha": "TxMa9uJC0PmBOnm3/TRl4YDLNvSwCWaRNjyXpFhndHU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n---\n\n## 🔍 How to Use: Analysis Pipeline (`analyze_pipeline.py`)\n\n### 🎯 Purpose\n\nDetect anomalies in mouse movement from gameplay recordings using a pre-trained model.\n\n> ⚠️ **Important:** Your input video **must be in 1080p 30 FPS** to ensure proper cursor detection and feature alignment.\n\n### 🚀 Run\n",
+    "ContentSha": "Mi+ZtdaKofKzgg7SLjyarkGj+RXZnN2LF4tOGq1y4qo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 🔍 使用方法：分析流程（`analyze_pipeline.py`）\n\n### 🎯 目的\n\n使用预训练模型检测游戏录制中的鼠标移动异常。\n\n> ⚠️ **重要提示：** 您的输入视频**必须是1080p 30 FPS**，以确保光标检测和特征对齐的准确性。\n\n### 🚀 运行\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "RTKfFafRn7uMuOkOwGTR46gkZz5u7ZA20zpX7ZDGgMQ=",
+        "originContent": "## 🔍 How to Use: Analysis Pipeline (`analyze_pipeline.py`)",
+        "translatedContent": "## 🔍 使用方法：分析流程（`analyze_pipeline.py`）"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "RRuC/v22/eVKgKz8tEhgW7Sv8e+a9D87A4WLcm9RQEQ=",
+        "originContent": "### 🎯 Purpose",
+        "translatedContent": "### 🎯 目的"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Bb9dHsGMVRxbM4Jk28qC/C0UWUirdsn6KKR6Pq1t5Kc=",
+        "originContent": "Detect anomalies in mouse movement from gameplay recordings using a pre-trained model.",
+        "translatedContent": "使用预训练模型检测游戏录制中的鼠标移动异常。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "6G/0qGzjqLKvUY0G9uJUXswL2NJFV1GbHFU6VZqKDe8=",
+        "originContent": "> ⚠️ **Important:** Your input video **must be in 1080p 30 FPS** to ensure proper cursor detection and feature alignment.",
+        "translatedContent": "> ⚠️ **重要提示：** 您的输入视频**必须是1080p 30 FPS**，以确保光标检测和特征对齐的准确性。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "O/vNMjW8zsSHshBegFLU7/+zpQIcY6N9fdC1wqvGk8s=",
+        "originContent": "### 🚀 Run",
+        "translatedContent": "### 🚀 运行"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\npython analyze_pipeline.py\n```",
+    "ContentSha": "XY47lYL5lkBTT0pDzoDyihePhFbsa6V6ewYr1wAldco=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython analyze_pipeline.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "at7iulGlinOeV7snXhWZMIVl6PxCDAZpOMQqzG1xlXI=",
+        "originContent": "python analyze_pipeline.py",
+        "translatedContent": "python analyze_pipeline.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### 📊 Flow\n",
+    "ContentSha": "MT0q944sBxYxkDct6OhaLSYsVHihysn8XeC6kSsuQrA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 📊 流程\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Rf48lmHptiyUwUifLyM+dK2QnIYL2m4ntwIDIMufU1Q=",
+        "originContent": "### 📊 Flow",
+        "translatedContent": "### 📊 流程"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\n1. Select a video file (e.g. MP4 screen recording with visible cursor)\n2. Run YOLOv8 to detect and record mouse positions (X, Y, time)\n3. Automatically extract movement features (velocity, acceleration, etc.)\n4. Apply the pre-trained scaler to normalize features\n5. Feed sequences into LSTM autoencoder\n6. Calculate reconstruction error for each 1-second action\n7. Save anomaly scores to CSV\n```",
+    "ContentSha": "ibnIjGN0YJ0PsXh5ggBu6foFZ4T3bhRy6g0WLrNpklc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n1. Select a video file (e.g. MP4 screen recording with visible cursor)\n2. Run YOLOv8 to detect and record mouse positions (X, Y, time)\n3. Automatically extract movement features (velocity, acceleration, etc.)\n4. Apply the pre-trained scaler to normalize features\n5. Feed sequences into LSTM autoencoder\n6. Calculate reconstruction error for each 1-second action\n7. Save anomaly scores to CSV\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "MtpoEgxw8wfSkqTUnhAzXTR6fJnQVlkNwEcwgGU+0pg=",
+        "originContent": "1. Select a video file (e.g. MP4 screen recording with visible cursor)",
+        "translatedContent": "1. Select a video file (e.g. MP4 screen recording with visible cursor)"
+      },
+      {
+        "row": 3,
+        "rowsha": "1m6x/31fHt12zg39vRB1MdUUjAd+cR/pbjJkxksNOGA=",
+        "originContent": "2. Run YOLOv8 to detect and record mouse positions (X, Y, time)",
+        "translatedContent": "2. Run YOLOv8 to detect and record mouse positions (X, Y, time)"
+      },
+      {
+        "row": 4,
+        "rowsha": "t63mAV9MyCWn1Bq6aqd9BTsIvC2a3krYymZ6+gl8eWQ=",
+        "originContent": "3. Automatically extract movement features (velocity, acceleration, etc.)",
+        "translatedContent": "3. Automatically extract movement features (velocity, acceleration, etc.)"
+      },
+      {
+        "row": 5,
+        "rowsha": "5/qbh7wQo6It79nQhgZ32WwU2BQH+DabiykU5+I87wQ=",
+        "originContent": "4. Apply the pre-trained scaler to normalize features",
+        "translatedContent": "4. Apply the pre-trained scaler to normalize features"
+      },
+      {
+        "row": 6,
+        "rowsha": "xl3ALk5akTd6YTheBGjE6Vh2oteDurR8DxlfopovY30=",
+        "originContent": "5. Feed sequences into LSTM autoencoder",
+        "translatedContent": "5. Feed sequences into LSTM autoencoder"
+      },
+      {
+        "row": 7,
+        "rowsha": "LGOFAVx6IOPwkm/bcdTnaIcqCs3E2hQAd5WYOKXhsj4=",
+        "originContent": "6. Calculate reconstruction error for each 1-second action",
+        "translatedContent": "6. Calculate reconstruction error for each 1-second action"
+      },
+      {
+        "row": 8,
+        "rowsha": "GODaBp6uSeCDKLTJA/fQpYuTD2Ty6v+tu4Go4JIjRNo=",
+        "originContent": "7. Save anomaly scores to CSV",
+        "translatedContent": "7. Save anomaly scores to CSV"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### 📂 Output\n\n- `analysis_results/`: Contains CSV files listing the reconstruction error per action  \n- Each row corresponds to a 1-second sequence (30 frames), indicating anomaly level\n\n\n## 🧠 Train Your Own Model\n\nIf you want to train your own LSTM autoencoder model:\n\n1. Use `pipeline/dataModifier.py` to extract features from your raw mouse position CSV files.\n2. Use `utils/universal_scaler.joblib` to normalize the feature vectors.\n3. Use `pipleline/modelTrainer.py` to train a new model on the processed sequences.\n\n> 💡 **Tip**: Make sure your input videos are consistently in **1080p 30 FPS**.\n\n---\n\n## 🧪 How This Works\n\n### 1. Cursor Detection via YOLOv8 and Synthetic Data\n\n**Why Cursor?**\nThe goal of this project is to analyze first-person gameplay footage from streamers or content creators. Compared to character behavior, mouse cursor trajectories provide a more direct and reliable signal for detecting potential scripting.\n\nCollected **mouse pointer** files and **replays of games** as backgrounds\n\nUsed `FakeDataGenerator.py` to generate over **70,000 labeled synthetic images**:\n- Each frame is overlaid with a randomly selected cursor template\n- Cursor size, brightness, saturation, and global blur are randomized\n\nThese noisy but labeled images were then used to train a **YOLOv8-based object detection model** capable of detecting mouse positions in real gameplay videos.\n\n### 🖼️ Figure 1: Cursor Detection Example\n![cursor detection example](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/1.png)\n---\n\n### 2. Behavioral Modeling via LSTM Autoencoder\n",
+    "ContentSha": "WnsM8Xpm7ORLkPCQpfxqnb3vUoTxuj7v6igu0DJYNME=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 📂 输出\n\n- `analysis_results/`：包含每个动作的重建误差的 CSV 文件  \n- 每行对应一个 1 秒序列（30 帧），表示异常程度\n\n\n## 🧠 训练你自己的模型\n\n如果你想训练自己的 LSTM 自编码器模型：\n\n1. 使用 `pipeline/dataModifier.py` 从原始鼠标位置 CSV 文件中提取特征。\n2. 使用 `utils/universal_scaler.joblib` 对特征向量进行归一化。\n3. 使用 `pipleline/modelTrainer.py` 在处理后的序列上训练新模型。\n\n> 💡 **提示**：确保你输入的视频统一为 **1080p 30 FPS**。\n\n---\n\n## 🧪 工作原理\n\n### 1. 通过 YOLOv8 和合成数据进行光标检测\n\n**为什么选择光标？**  \n本项目的目标是分析主播或内容创作者的第一人称游戏画面。相比角色行为，鼠标光标轨迹提供了更直接、更可靠的信号来检测潜在的脚本行为。\n\n收集了 **鼠标指针** 文件和用作背景的 **游戏录像**\n\n使用 `FakeDataGenerator.py` 生成了超过 **70,000 张带标签的合成图像**：  \n- 每帧叠加一个随机选取的光标模板  \n- 光标大小、亮度、饱和度和全局模糊均随机化\n\n这些带噪声但带标签的图像被用于训练基于 **YOLOv8 的目标检测模型**，能够检测真实游戏视频中的鼠标位置。\n\n### 🖼️ 图 1：光标检测示例\n![cursor detection example](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/1.png)\n---\n\n### 2. 通过 LSTM 自编码器进行行为建模\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lu8rfvw2+NBSrjL2RsdosIkXE1N+7F+qx9OCC1eymEY=",
+        "originContent": "### 📂 Output",
+        "translatedContent": "### 📂 输出"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ayUrDrJTKZcOH4q86sB94xPzY258HF+AMDYQsWB1lB8=",
+        "originContent": "- `analysis_results/`: Contains CSV files listing the reconstruction error per action  ",
+        "translatedContent": "- `analysis_results/`：包含每个动作的重建误差的 CSV 文件  "
+      },
+      {
+        "row": 5,
+        "rowsha": "ZWdGFdbyVRCYATxx/zphil5WfFpp79MTY7Ym5I5w7Mw=",
+        "originContent": "- Each row corresponds to a 1-second sequence (30 frames), indicating anomaly level",
+        "translatedContent": "- 每行对应一个 1 秒序列（30 帧），表示异常程度"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "ed3P2hw+bgNNOcM0XzvQ2EWTF5GgUHb1q3AAYf8DKK4=",
+        "originContent": "## 🧠 Train Your Own Model",
+        "translatedContent": "## 🧠 训练你自己的模型"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "xjFbvIvjOh+ZlfTxAL71VBeR0MnXFSpRMVBL+lv6HUM=",
+        "originContent": "If you want to train your own LSTM autoencoder model:",
+        "translatedContent": "如果你想训练自己的 LSTM 自编码器模型："
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "abdYsI1xtrxyjAcE1aePC7M4W4AaTZNdIJ6qY8b7EBs=",
+        "originContent": "1. Use `pipeline/dataModifier.py` to extract features from your raw mouse position CSV files.",
+        "translatedContent": "1. 使用 `pipeline/dataModifier.py` 从原始鼠标位置 CSV 文件中提取特征。"
+      },
+      {
+        "row": 13,
+        "rowsha": "xoR9hBVvEzU5OGak2z8jFwzr2F9yukTA+d6VFwtNtVw=",
+        "originContent": "2. Use `utils/universal_scaler.joblib` to normalize the feature vectors.",
+        "translatedContent": "2. 使用 `utils/universal_scaler.joblib` 对特征向量进行归一化。"
+      },
+      {
+        "row": 14,
+        "rowsha": "D7boF42Bem6EuLBnxYjmVJPaMAI68ckNc7FqxrdOmo4=",
+        "originContent": "3. Use `pipleline/modelTrainer.py` to train a new model on the processed sequences.",
+        "translatedContent": "3. 使用 `pipleline/modelTrainer.py` 在处理后的序列上训练新模型。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "qM8PxJXkrs2MJhDopCuTn9bhn8J/idIEN2u3nQTQyLk=",
+        "originContent": "> 💡 **Tip**: Make sure your input videos are consistently in **1080p 30 FPS**.",
+        "translatedContent": "> 💡 **提示**：确保你输入的视频统一为 **1080p 30 FPS**。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "jeFsC2E68XwuWszv/SQsEU4k6g3INimVVIVqpnMEvfM=",
+        "originContent": "## 🧪 How This Works",
+        "translatedContent": "## 🧪 工作原理"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "UrR7B6TW47BjRx8J3PEF3TSfpjv5rzRtHX0zo7kVjJI=",
+        "originContent": "### 1. Cursor Detection via YOLOv8 and Synthetic Data",
+        "translatedContent": "### 1. 通过 YOLOv8 和合成数据进行光标检测"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "aKzXxZy8SJIuiDGxoK0HaNFu2SdHM9ajXVfvNhr344I=",
+        "originContent": "**Why Cursor?**",
+        "translatedContent": "**为什么选择光标？**  "
+      },
+      {
+        "row": 25,
+        "rowsha": "K5Gtv91LeuvZFz0aadcC/iVGCs1s+vb5q2e+UTLUYYA=",
+        "originContent": "The goal of this project is to analyze first-person gameplay footage from streamers or content creators. Compared to character behavior, mouse cursor trajectories provide a more direct and reliable signal for detecting potential scripting.",
+        "translatedContent": "本项目的目标是分析主播或内容创作者的第一人称游戏画面。相比角色行为，鼠标光标轨迹提供了更直接、更可靠的信号来检测潜在的脚本行为。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "vgJI+jZ0J0I+dIhMDX5rET/1ZBqH42N0pvI9tk+ux7M=",
+        "originContent": "Collected **mouse pointer** files and **replays of games** as backgrounds",
+        "translatedContent": "收集了 **鼠标指针** 文件和用作背景的 **游戏录像**"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "Bg4sygFpPAdW3ii7+dH6M6XXJReGsm845O5+FxmANOk=",
+        "originContent": "Used `FakeDataGenerator.py` to generate over **70,000 labeled synthetic images**:",
+        "translatedContent": "使用 `FakeDataGenerator.py` 生成了超过 **70,000 张带标签的合成图像**：  "
+      },
+      {
+        "row": 30,
+        "rowsha": "X7TJm2n46PGxWaZAl4YSdUcmBXhZC9cCWMUFMSeFNBg=",
+        "originContent": "- Each frame is overlaid with a randomly selected cursor template",
+        "translatedContent": "- 每帧叠加一个随机选取的光标模板  "
+      },
+      {
+        "row": 31,
+        "rowsha": "0Hvo1OpgZwt7ITaDA0LhlqP1lLBeCcc+Vv7rzOWftng=",
+        "originContent": "- Cursor size, brightness, saturation, and global blur are randomized",
+        "translatedContent": "- 光标大小、亮度、饱和度和全局模糊均随机化"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "i43fAZRniYUqniNjrO6wflYST9WoCarDXDaHeygO5rk=",
+        "originContent": "These noisy but labeled images were then used to train a **YOLOv8-based object detection model** capable of detecting mouse positions in real gameplay videos.",
+        "translatedContent": "这些带噪声但带标签的图像被用于训练基于 **YOLOv8 的目标检测模型**，能够检测真实游戏视频中的鼠标位置。"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "BsQ8aN7S67BTUnrqBq/OIwKchOujgHXKopvsGcHsJVM=",
+        "originContent": "### 🖼️ Figure 1: Cursor Detection Example",
+        "translatedContent": "### 🖼️ 图 1：光标检测示例"
+      },
+      {
+        "row": 36,
+        "rowsha": "PpmWM8f1imcYg/bsDn1FCMeD9sDe9hSu56x4ogb4nPg=",
+        "originContent": "![cursor detection example](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/1.png)",
+        "translatedContent": "![cursor detection example](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/1.png)"
+      },
+      {
+        "row": 37,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "24AeAAuRzxNeNN3W0hV7fMU+pJgD4WqI8rk4SmDaLkk=",
+        "originContent": "### 2. Behavioral Modeling via LSTM Autoencoder",
+        "translatedContent": "### 2. 通过 LSTM 自编码器进行行为建模"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "To avoid subjective judgment in identifying cheaters, use an **LSTM autoencoder** trained purely on **verified human data** (non-cheating matches).\n\nThe model learns to reconstruct **normal human mouse movement patterns**. During inference, it flags any sequences with high **reconstruction error** as potential anomalies, without requiring manual rule definitions.\n\n### 🧠 Figure 2: LSTM Autoencoder Diagram\n![LSTM](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/2.png)\n\n---\n\n### 3. Feature Engineering with Real Pro Player Data\n\nCollected **50 first-person replays from professional LoL players**, extracting over **1.5 million mouse movements**.\n\nThe raw cursor coordinates are processed using `dataModifier.py`, which:\n- Extracts engineered features from raw (X, Y) data\n- Replaces absolute timestamps with time deltas\n- Computes per-frame velocity, acceleration (X/Y), angular velocity, and movement distance\n- Applies `universal_scaler.joblib` for normalization\n\nThe movements are segmented into **sequences of 30 steps each** (1 second of motion at 30 FPS), representing atomic user actions.\n\nThese 500,000+ action sequences are fed into the LSTM for training.\n\n---\n\n### 4. Result Evaluation via Reconstruction Error\n\nAfter running the full analysis pipeline, the `analyzer.py` script processes the extracted feature sequences using the trained LSTM autoencoder.\n\nFor each action (a 1-second sequence of mouse movement), the model calculates a **reconstruction error**:\n\n- **Low error** → behavior is similar to learned human patterns\n- **High error** → behavior is abnormal and potentially scripted or assisted\n\nThis allows for quantitative, objective evaluation of suspicious gameplay behavior.\n\nThe results are saved to `analysis_results/` as CSV files, where each row corresponds to one detected action with its associated anomaly score.\n\n### 🎮 Figure 3: Pro Player Mouse Movement (Unseen During Training)\n![Pro Player Data (Unseen During Training](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/3.png)",
+    "ContentSha": "7uoMZTptPJ5ctpsPp/x/fwvI+nEIfEPowfNfjK5xUss=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "为了避免在识别作弊者时产生主观判断，使用纯粹基于**经过验证的人类数据**（非作弊比赛）训练的**LSTM自编码器**。\n\n该模型学习重构**正常的人类鼠标移动模式**。在推断阶段，任何具有较高**重构误差**的序列都会被标记为潜在异常，无需手动定义规则。\n\n### 🧠 图2：LSTM自编码器示意图\n![LSTM](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/2.png)\n\n---\n\n### 3. 使用真实职业玩家数据进行特征工程\n\n收集了**50个职业英雄联盟玩家的第一人称重放**，提取了超过**150万次鼠标移动**。\n\n通过`dataModifier.py`处理原始光标坐标，具体包括：\n- 从原始（X，Y）数据中提取工程特征\n- 用时间增量替代绝对时间戳\n- 计算每帧的速度、加速度（X/Y）、角速度和移动距离\n- 使用`universal_scaler.joblib`进行归一化\n\n这些移动被分割成**每段30步的序列**（以30帧/秒计为1秒的动作），代表原子用户操作。\n\n这超过50万的动作序列被输入LSTM进行训练。\n\n---\n\n### 4. 通过重构误差进行结果评估\n\n运行完整分析流程后，`analyzer.py`脚本使用训练好的LSTM自编码器处理提取的特征序列。\n\n对于每个动作（一秒钟的鼠标移动序列），模型计算一个**重构误差**：\n\n- **低误差** → 行为与学习到的人类模式相似\n- **高误差** → 行为异常，可能是脚本或辅助行为\n\n这允许对可疑游戏行为进行定量、客观的评估。\n\n结果保存为CSV文件，存放在`analysis_results/`目录中，每行对应一个检测到的动作及其相关异常分数。\n\n### 🎮 图3：职业玩家鼠标移动（训练期间未见数据）\n![Pro Player Data (Unseen During Training](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/3.png)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "x5C8L3L/MyJt9sA2N8fwCnrTpANnrm2DYotGe6l2eBM=",
+        "originContent": "To avoid subjective judgment in identifying cheaters, use an **LSTM autoencoder** trained purely on **verified human data** (non-cheating matches).",
+        "translatedContent": "为了避免在识别作弊者时产生主观判断，使用纯粹基于**经过验证的人类数据**（非作弊比赛）训练的**LSTM自编码器**。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "bSEEZKHeiz3trt4TGe/YthaiCiOZZIuLUarneebgTBg=",
+        "originContent": "The model learns to reconstruct **normal human mouse movement patterns**. During inference, it flags any sequences with high **reconstruction error** as potential anomalies, without requiring manual rule definitions.",
+        "translatedContent": "该模型学习重构**正常的人类鼠标移动模式**。在推断阶段，任何具有较高**重构误差**的序列都会被标记为潜在异常，无需手动定义规则。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "b6WR7Stxrq5C05yGaH8j9IwMuGLUiuI154lZQxfqLuo=",
+        "originContent": "### 🧠 Figure 2: LSTM Autoencoder Diagram",
+        "translatedContent": "### 🧠 图2：LSTM自编码器示意图"
+      },
+      {
+        "row": 6,
+        "rowsha": "rsyAUMTSdoVudIs86UQD8/pK3D2URb9p2loMrNH16VY=",
+        "originContent": "![LSTM](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/2.png)",
+        "translatedContent": "![LSTM](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/2.png)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "9d0y8BrDPGPGV8U5Kon+hLSZgMPUD7QaHtt0PME8Ie4=",
+        "originContent": "### 3. Feature Engineering with Real Pro Player Data",
+        "translatedContent": "### 3. 使用真实职业玩家数据进行特征工程"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "puo6qQR2WzqtnJu7NXtCbFOoX8v0aSflVSQooG8lvlc=",
+        "originContent": "Collected **50 first-person replays from professional LoL players**, extracting over **1.5 million mouse movements**.",
+        "translatedContent": "收集了**50个职业英雄联盟玩家的第一人称重放**，提取了超过**150万次鼠标移动**。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "/bANSfjWB4bOxBrecqOfLiAXq3a0KUpA4lm2InQ899I=",
+        "originContent": "The raw cursor coordinates are processed using `dataModifier.py`, which:",
+        "translatedContent": "通过`dataModifier.py`处理原始光标坐标，具体包括："
+      },
+      {
+        "row": 15,
+        "rowsha": "q3s+t+Ya2it0P0KsYJ629bQZL19n6bvL2n7lbnP2gTI=",
+        "originContent": "- Extracts engineered features from raw (X, Y) data",
+        "translatedContent": "- 从原始（X，Y）数据中提取工程特征"
+      },
+      {
+        "row": 16,
+        "rowsha": "W1ulH9OOPGAevC2ugMc276UlT/fr/N+1ujutTiqZ8Q4=",
+        "originContent": "- Replaces absolute timestamps with time deltas",
+        "translatedContent": "- 用时间增量替代绝对时间戳"
+      },
+      {
+        "row": 17,
+        "rowsha": "S4roaC2oEwOjSORbAivWgipYCLxx+QeYsOxyawdpCnE=",
+        "originContent": "- Computes per-frame velocity, acceleration (X/Y), angular velocity, and movement distance",
+        "translatedContent": "- 计算每帧的速度、加速度（X/Y）、角速度和移动距离"
+      },
+      {
+        "row": 18,
+        "rowsha": "J/TKlh7lZ/oDb9Ld4uisAoYz7fXxnYYKTfTIfnBBh2I=",
+        "originContent": "- Applies `universal_scaler.joblib` for normalization",
+        "translatedContent": "- 使用`universal_scaler.joblib`进行归一化"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "xWIitJS/xE8nq3S3JY5vedOiXpdo4g4VADBDie15rWg=",
+        "originContent": "The movements are segmented into **sequences of 30 steps each** (1 second of motion at 30 FPS), representing atomic user actions.",
+        "translatedContent": "这些移动被分割成**每段30步的序列**（以30帧/秒计为1秒的动作），代表原子用户操作。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "fUjgyha16OsiqKmbfLSmJ2bW9s2EW7OCjDdhzG6O9g8=",
+        "originContent": "These 500,000+ action sequences are fed into the LSTM for training.",
+        "translatedContent": "这超过50万的动作序列被输入LSTM进行训练。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "AM8gHBgCjt0lJcmWTes0xCtXw7bxtxZXQOqQsYkkkS4=",
+        "originContent": "### 4. Result Evaluation via Reconstruction Error",
+        "translatedContent": "### 4. 通过重构误差进行结果评估"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "hmZwB8ou9AJvmIW191BPcgRmun1EfcNDp4xYJw77sFA=",
+        "originContent": "After running the full analysis pipeline, the `analyzer.py` script processes the extracted feature sequences using the trained LSTM autoencoder.",
+        "translatedContent": "运行完整分析流程后，`analyzer.py`脚本使用训练好的LSTM自编码器处理提取的特征序列。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "/0tTCBxlc1Dbg2qMEvHy0SUF2XVOKFhLSe+xcZyevcc=",
+        "originContent": "For each action (a 1-second sequence of mouse movement), the model calculates a **reconstruction error**:",
+        "translatedContent": "对于每个动作（一秒钟的鼠标移动序列），模型计算一个**重构误差**："
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "L+PvkIwk/68Jsz3JSILZ4iV4X0LLx6Mn8C3J6IVd7c8=",
+        "originContent": "- **Low error** → behavior is similar to learned human patterns",
+        "translatedContent": "- **低误差** → 行为与学习到的人类模式相似"
+      },
+      {
+        "row": 33,
+        "rowsha": "XeHDzBqi31ZdBJSKUM3cNeh2BQAHJwGxiq7fdodquZk=",
+        "originContent": "- **High error** → behavior is abnormal and potentially scripted or assisted",
+        "translatedContent": "- **高误差** → 行为异常，可能是脚本或辅助行为"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "etKjyPMuZNEm6UomcmaLPkYWFBm8/CXeaP4ESnvtUdo=",
+        "originContent": "This allows for quantitative, objective evaluation of suspicious gameplay behavior.",
+        "translatedContent": "这允许对可疑游戏行为进行定量、客观的评估。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "d5VtU9taZdJnJxHk91i/G129244BQipE3GjdIPYVIl0=",
+        "originContent": "The results are saved to `analysis_results/` as CSV files, where each row corresponds to one detected action with its associated anomaly score.",
+        "translatedContent": "结果保存为CSV文件，存放在`analysis_results/`目录中，每行对应一个检测到的动作及其相关异常分数。"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "1PXM4Gde2WiR6y8VAEduAaQD96mAuJxdnqHQpzKNaXQ=",
+        "originContent": "### 🎮 Figure 3: Pro Player Mouse Movement (Unseen During Training)",
+        "translatedContent": "### 🎮 图3：职业玩家鼠标移动（训练期间未见数据）"
+      },
+      {
+        "row": 40,
+        "rowsha": "5KWJT4s26udfRnYh1s7Z+XEJKKXsSqCNfcUzMni75vw=",
+        "originContent": "![Pro Player Data (Unseen During Training](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/3.png)",
+        "translatedContent": "![Pro Player Data (Unseen During Training](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/3.png)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "\n### 👤 Figure 4: Regular Player Mouse Movement\n![Regular Player Data](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/4.png)\n\n### ⚠️ Figure 5: Suspicious Gameplay Mouse Movement\n![Suspicious Gameplay Data](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/5.png)\n\n---\n\n## 🚀 High-Performance Mode (C++/CUDA)\n\nLoLTrackGuard now includes an accelerated processing pipeline.\n\n### Features\n- **Hybrid Acceleration**: Automatically uses `Numba` (JIT CUDA) and `Threading` if the C++ extension is not compiled.\n- **Async Video Decoding**: Decouples reading from inference.\n- **Custom CUDA Kernels**: Pre-processing filters to highlight cursor candidates.\n\n### Setup (Optional C++ Extension)\nFor maximum performance, you can compile the native C++ extension:\n\n1. Ensure `CUDA Toolkit` and `Visual Studio` (MSVC) are installed.\n2. Configure OpenCV paths in `extension/setup.py`.\n3. Run:",
+    "ContentSha": "UNd4YtS8Iwn64PsHenSEyJSFmAeWFOvN3G+ChpE+818=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 👤 图4：普通玩家鼠标移动\n![普通玩家数据](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/4.png)\n\n### ⚠️ 图5：可疑游戏鼠标移动\n![可疑游戏数据](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/5.png)\n\n---\n\n## 🚀 高性能模式（C++/CUDA）\n\nLoLTrackGuard 现已包含加速处理管线。\n\n### 特性\n- **混合加速**：如果未编译 C++ 扩展，自动使用 `Numba`（JIT CUDA）和 `Threading`。\n- **异步视频解码**：解耦读取与推理。\n- **自定义 CUDA 内核**：预处理滤波器以突出显示光标候选。\n\n### 安装（可选 C++ 扩展）\n为获得最大性能，可编译本地 C++ 扩展：\n\n1. 确保已安装 `CUDA Toolkit` 和 `Visual Studio`（MSVC）。\n2. 在 `extension/setup.py` 中配置 OpenCV 路径。\n3. 运行：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "9JVyNiauRvk51fU7CFz0NaZEQXIEi4DoupH+9+AJBhk=",
+        "originContent": "### 👤 Figure 4: Regular Player Mouse Movement",
+        "translatedContent": "### 👤 图4：普通玩家鼠标移动"
+      },
+      {
+        "row": 3,
+        "rowsha": "fZT2GVQ3Tb4yQhQVIPk0BsrqHVOfPpgKWsn9KxXKHgc=",
+        "originContent": "![Regular Player Data](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/4.png)",
+        "translatedContent": "![普通玩家数据](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/4.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "VCdl2IuIR78tL+ThWQL9oxgclHJ/XQnaZVdEZ+ENV5A=",
+        "originContent": "### ⚠️ Figure 5: Suspicious Gameplay Mouse Movement",
+        "translatedContent": "### ⚠️ 图5：可疑游戏鼠标移动"
+      },
+      {
+        "row": 6,
+        "rowsha": "5U3vLx8Pt/6w/e/vuAdPJ0H1v1GT4CvtzAM5AOoN7WY=",
+        "originContent": "![Suspicious Gameplay Data](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/5.png)",
+        "translatedContent": "![可疑游戏数据](https://raw.githubusercontent.com/WYKwong/LoLTrackGuard/main/utils/img/5.png)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "rsF27iKO8Rp+pZuUQNzrxPBiZ8fC5dmJ37FVaBQ9Yh0=",
+        "originContent": "## 🚀 High-Performance Mode (C++/CUDA)",
+        "translatedContent": "## 🚀 高性能模式（C++/CUDA）"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "BpfW9KJIivLmdbxP5tgbXemrdRgqoFuux7f6S2y5/pU=",
+        "originContent": "LoLTrackGuard now includes an accelerated processing pipeline.",
+        "translatedContent": "LoLTrackGuard 现已包含加速处理管线。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "Va7ER4dHPfmt1CvLSeep2AEpy33nUzxb+6qMZz++7BQ=",
+        "originContent": "### Features",
+        "translatedContent": "### 特性"
+      },
+      {
+        "row": 15,
+        "rowsha": "0WrsnafnIQGePTJs0i27mjjupVk+v7JHaZWcaR6Usgo=",
+        "originContent": "- **Hybrid Acceleration**: Automatically uses `Numba` (JIT CUDA) and `Threading` if the C++ extension is not compiled.",
+        "translatedContent": "- **混合加速**：如果未编译 C++ 扩展，自动使用 `Numba`（JIT CUDA）和 `Threading`。"
+      },
+      {
+        "row": 16,
+        "rowsha": "AePqIo8pVMFkghEfhy3BulTy6JJiCIF6ZL5MLCy3bHE=",
+        "originContent": "- **Async Video Decoding**: Decouples reading from inference.",
+        "translatedContent": "- **异步视频解码**：解耦读取与推理。"
+      },
+      {
+        "row": 17,
+        "rowsha": "9vzhU0hbxVF6lbyRnQtA2QLEg/65/GibTilcof++3dQ=",
+        "originContent": "- **Custom CUDA Kernels**: Pre-processing filters to highlight cursor candidates.",
+        "translatedContent": "- **自定义 CUDA 内核**：预处理滤波器以突出显示光标候选。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "cDf2b8nc/Lf1T3ng/LJjGHTvUP/0tIMcYR9f5LfSW98=",
+        "originContent": "### Setup (Optional C++ Extension)",
+        "translatedContent": "### 安装（可选 C++ 扩展）"
+      },
+      {
+        "row": 20,
+        "rowsha": "QStodibSu9WZMtywS9WZVqLDNjTOnFSprUVZrsRAEtA=",
+        "originContent": "For maximum performance, you can compile the native C++ extension:",
+        "translatedContent": "为获得最大性能，可编译本地 C++ 扩展："
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "7ZY6biaDT6CbitsgeoF2TEsLPfY7glioD8LHf+VMIys=",
+        "originContent": "1. Ensure `CUDA Toolkit` and `Visual Studio` (MSVC) are installed.",
+        "translatedContent": "1. 确保已安装 `CUDA Toolkit` 和 `Visual Studio`（MSVC）。"
+      },
+      {
+        "row": 23,
+        "rowsha": "1blqIKa7Hywxv1kECYi1Iq7pXhbiIqIttPwDdF7qHqE=",
+        "originContent": "2. Configure OpenCV paths in `extension/setup.py`.",
+        "translatedContent": "2. 在 `extension/setup.py` 中配置 OpenCV 路径。"
+      },
+      {
+        "row": 24,
+        "rowsha": "jHf/ZRZhaVkGJLLcmTEZ7iAC66+6jrJCaMLHeFgJzs4=",
+        "originContent": "3. Run:",
+        "translatedContent": "3. 运行："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "   ```bash\n   cd extension\n   python setup.py install\n   cd ..\n   ```",
+    "ContentSha": "kO/cm//ssW5kzZKjKCPMYakxn5EsEi9YG/1xMaAy1GM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   cd extension\n   python setup.py install\n   cd ..\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "3drS/gE10ADseAT6RQoCw7zahzWTiXumhhdR4XPix3k=",
+        "originContent": "   cd extension",
+        "translatedContent": "   cd extension"
+      },
+      {
+        "row": 3,
+        "rowsha": "K+q+7C4b2J2dShrGPYSxmT9NXTlZ5dl5KbrFeyshpr4=",
+        "originContent": "   python setup.py install",
+        "translatedContent": "   python setup.py install"
+      },
+      {
+        "row": 4,
+        "rowsha": "JoWwP4WteHHexWba7F89aEAJe3+viaaH/YXLXCBz534=",
+        "originContent": "   cd ..",
+        "translatedContent": "   cd .."
+      },
+      {
+        "row": 5,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n### Usage\nRun the accelerated detector:",
+    "ContentSha": "xTNGmdpYSMcdfevw7lq296D74oAdc4j2d3XlGB03bQA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 用法\n运行加速检测器：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+        "originContent": "### Usage",
+        "translatedContent": "### 用法"
+      },
+      {
+        "row": 3,
+        "rowsha": "khBC8Y3VCBgDhS3Xwe6fT6nm1R5no78G4H5CjvzBRMM=",
+        "originContent": "Run the accelerated detector:",
+        "translatedContent": "运行加速检测器："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\npython pipeline/cursorDetector_accelerated.py\n```",
+    "ContentSha": "tpLLUqCThZVkY3SgP47bOKs7qULKKIeU1ReRZY81Z80=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython pipeline/cursorDetector_accelerated.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "d1c3BcL1GpOOsA2nL10vKiS/KHdNBzxNjhZ9ybLHRC0=",
+        "originContent": "python pipeline/cursorDetector_accelerated.py",
+        "translatedContent": "python pipeline/cursorDetector_accelerated.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
