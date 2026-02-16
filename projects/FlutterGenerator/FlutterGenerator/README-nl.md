@@ -23,11 +23,12 @@
         | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=fa">Perzisch</a>
         | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=tr">Turks</a>
         | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=vi">Vietnamees</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=id">Bahasa Indonesisch</a>
         | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=as">অসমীয়া</
       </div>
     </div>
   </details>
+
 </div>
 
 # FlutterGenerator Installatie
@@ -111,20 +112,20 @@ apt upgrade
 pkg install python -y
 python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 ```
-# Tutorialvideo
+# Tutorial Video
 [![Afspelen op Youtube](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
 
 # [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)
 
 # Info
 
-**🚀 Dart-versie: 𒁍 2.7.0-dev.2.1 ➢ 3.10.8**
+**🚀 Dart Versie: 𒁍 2.7.0-dev.2.1 ➢ 3.11.0**
 
-**🚀 Flutter-versie: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.9**
+**🚀 Flutter Versie: 𒁍 v1.12.13+hotfix.5 ➢ 3.41.0**
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
 
 ---

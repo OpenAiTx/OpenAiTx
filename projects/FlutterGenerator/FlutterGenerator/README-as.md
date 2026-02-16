@@ -4,36 +4,37 @@
     <summary >🌐 ভাষা</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=en">ইংৰাজী</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=zh-CN">সৰল চীনী</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=zh-TW">জটিল চীনী</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=ja">জাপানী</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=ko">কোৰিয়ান</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=hi">হিন্দী</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=th">থাই</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=fr">ফ্ৰেঞ্চ</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=de">জার্মান</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=es">স্পেনিছ</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=it">ইটালিয়ান</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=ru">ৰাছিয়ান</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=pt">পৰ্তুগীজ</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=nl">ডাচ</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=pl">পোলিশ</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=ar">আৰবী</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=fa">ফাৰ্ছী</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=tr">তুৰ্কি</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=vi">ভিয়েটনামী</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=id">ইণ্ডোনেছিয়ান</a>
+        <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=id">Bahasa Indonesia</a>
         | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=as">অসমীয়া</
       </div>
     </div>
   </details>
+
 </div>
 
 # FlutterGenerator স্থাপন
 
-1. [GitHub Releases](https://github.com/FlutterGenerator/FlutterGenerator/releases) ৰ পৰা PY (fwGenerator.py) ডাউনলোড আৰু ইনষ্টল কৰক
-2. Termux ডাউনলোড কৰক আৰু fwGenerator.py চলাও, তাৰপিছত ফাইলটো কপি কৰি আপোনাৰ Gihab ত নামসহ আপল'ড কৰক।
+1. [GitHub Releases](https://github.com/FlutterGenerator/FlutterGenerator/releases) ৰ পৰা PY (fwGenerator.py) ডাউনলোড আৰু স্থাপন কৰক
+2. Termux ডাউনলোড কৰক আৰু fwGenerator.py চলাও, তাৰপাছত ফাইলটো কপি কৰক আৰু আপোনাৰ Github-ত নাম সহ আপলোড কৰক.
 ```
 .github/workflows
 ```
@@ -112,19 +113,19 @@ pkg install python -y
 python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 ```
 # টিউটোৰিয়েল ভিডিঅ'
-[![ইউটিউবত চলাও](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
+[![ইউটিউবত চাওক](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
 
 # [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)
 
 # তথ্য
 
-**🚀 Dart সংস্কৰণ: 𒁍 2.7.0-dev.2.1 ➢ 3.10.8**
+**🚀 ডাৰ্ট সংস্কৰণ: 𒁍 2.7.0-dev.2.1 ➢ 3.11.0**
 
-**🚀 Flutter সংস্কৰণ: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.9**
+**🚀 ফ্লাটাৰ সংস্কৰণ: 𒁍 v1.12.13+hotfix.5 ➢ 3.41.0**
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
 
 ---

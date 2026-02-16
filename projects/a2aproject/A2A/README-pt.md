@@ -45,42 +45,53 @@
   </div>
 </div>
 
-**Um protocolo aberto que permite comunicação e interoperabilidade entre aplicações agênticas opacas.**
+**Um protocolo aberto que permite comunicação e interoperabilidade entre aplicações agenticas opacas.**
 
-O protocolo Agent2Agent (A2A) aborda um desafio crítico no cenário de IA: possibilitar que agentes de IA generativos, construídos em diferentes frameworks por diversas empresas e executados em servidores separados, possam se comunicar e colaborar de forma eficaz – como agentes, não apenas como ferramentas. O objetivo do A2A é fornecer uma linguagem comum para agentes, promovendo um ecossistema de IA mais interconectado, poderoso e inovador.
+O protocolo Agent2Agent (A2A) aborda um desafio crítico no cenário de IA: permitir que agentes de IA generativos, construídos em diferentes frameworks por empresas distintas e executados em servidores separados, possam se comunicar e colaborar efetivamente — como agentes, não apenas como ferramentas. O A2A visa fornecer uma linguagem comum para agentes, promovendo um ecossistema de IA mais interconectado, poderoso e inovador.
 
-Com o A2A, os agentes podem:
+Com o A2A, agentes podem:
 
 - Descobrir as capacidades uns dos outros.
 - Negociar modalidades de interação (texto, formulários, mídia).
 - Colaborar com segurança em tarefas de longa duração.
 - Operar sem expor seu estado interno, memória ou ferramentas.
 
-## Vídeo de Introdução ao A2A
+## Curso DeepLearning.AI
 
-[![Vídeo de Introdução ao A2A](https://img.youtube.com/vi/Fbr_Solax1w/hqdefault.jpg)](https://goo.gle/a2a-video)
+[![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)
 
-## Por que o A2A?
+Participe deste curso rápido sobre [A2A: O Protocolo Agent2Agent](https://goo.gle/dlai-a2a), desenvolvido em parceria com Google Cloud e IBM Research, ministrado por [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini) e [Sandi Besen](https://github.com/sandijean90).
 
-À medida que os agentes de IA se tornam mais comuns, sua capacidade de interoperar é crucial para construir aplicações complexas e multifuncionais. O A2A tem como objetivo:
+**O que você vai aprender:**
 
-- **Quebrar Barreiras:** Conectar agentes de diferentes ecossistemas.
-- **Permitir Colaboração Complexa:** Permitir que agentes especializados trabalhem juntos em tarefas que um único agente não conseguiria resolver sozinho.
-- **Promover Padrões Abertos:** Estimular uma abordagem orientada pela comunidade para a comunicação entre agentes, incentivando inovação e ampla adoção.
-- **Preservar Opacidade:** Permitir que agentes colaborem sem precisar compartilhar memória interna, lógica proprietária ou implementações específicas de ferramentas, aumentando a segurança e protegendo a propriedade intelectual.
+- **Torne agentes compatíveis com A2A:** Exponha agentes construídos com frameworks como Google ADK, LangGraph ou BeeAI como servidores A2A.
+- **Conecte agentes:** Crie clientes A2A do zero ou usando integrações para conectar a agentes compatíveis com A2A.
+- **Orquestre fluxos de trabalho:** Construa fluxos de trabalho sequenciais e hierárquicos de agentes compatíveis com A2A.
+- **Sistemas multiagentes:** Desenvolva um sistema de saúde multiagente usando diferentes frameworks e veja como o A2A possibilita a colaboração.
+- **A2A e MCP:** Aprenda como o A2A complementa o MCP permitindo que agentes colaborem entre si.
 
-### Principais Características
+## Por que A2A?
 
-- **Comunicação Padronizada:** JSON-RPC 2.0 sobre HTTP(S).
+À medida que agentes de IA se tornam mais presentes, sua capacidade de interoperar é crucial para construir aplicações complexas e multifuncionais. O A2A visa:
+
+- **Quebrar Silos:** Conectar agentes entre diferentes ecossistemas.
+- **Permitir Colaboração Complexa:** Permitir que agentes especializados trabalhem juntos em tarefas que um agente único não conseguiria resolver sozinho.
+- **Promover Padrões Abertos:** Incentivar uma abordagem comunitária para comunicação entre agentes, promovendo inovação e ampla adoção.
+- **Preservar Opacidade:** Permitir que agentes colaborem sem a necessidade de compartilhar memória interna, lógica proprietária ou implementações específicas de ferramentas, aumentando a segurança e protegendo a propriedade intelectual.
+
+### Principais Funcionalidades
+
+- **Comunicação Padronizada:** JSON-RPC 2.0 via HTTP(S).
 - **Descoberta de Agentes:** Por meio de "Cartões de Agente" detalhando capacidades e informações de conexão.
 - **Interação Flexível:** Suporta requisição/resposta síncrona, streaming (SSE) e notificações push assíncronas.
 - **Troca Rica de Dados:** Manipula texto, arquivos e dados JSON estruturados.
 - **Pronto para Empresas:** Projetado com foco em segurança, autenticação e observabilidade.
 
 ## Primeiros Passos
+
 - 📚 **Explore a Documentação:** Visite o [Site de Documentação do Protocolo Agent2Agent](https://a2a-protocol.org) para uma visão completa, especificação do protocolo, tutoriais e guias.
 - 📝 **Veja a Especificação:** [Especificação do Protocolo A2A](https://a2a-protocol.org/latest/specification/)
-- Use os SDKs:
+- Utilize os SDKs:
     - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`
     - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`
     - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`
@@ -90,36 +101,35 @@ Com o A2A, os agentes podem:
 
 ## Contribuindo
 
-Agradecemos contribuições da comunidade para aprimorar e evoluir o protocolo A2A!
+Recebemos contribuições da comunidade para aprimorar e evoluir o protocolo A2A!
 
-- **Perguntas & Discussões:** Participe das nossas [Discussões no GitHub](https://github.com/a2aproject/A2A/discussions).
+- **Perguntas & Discussões:** Participe de nossas [Discussões no GitHub](https://github.com/a2aproject/A2A/discussions).
 - **Problemas & Feedback:** Relate problemas ou sugira melhorias via [Issues do GitHub](https://github.com/a2aproject/A2A/issues).
-- **Guia de Contribuição:** Veja nosso [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) para detalhes sobre como contribuir.
-- **Feedback Privado:** Use este [Formulário do Google](https://goo.gle/a2a-feedback).
-- **Programa de Parceiros:** Clientes Google Cloud podem entrar no programa de parceiros através deste [formulário](https://goo.gle/a2a-partner).
+- **Guia de Contribuição:** Veja nosso [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) para saber como contribuir.
+- **Feedback Privado:** Use este [Formulário Google](https://goo.gle/a2a-feedback).
+- **Programa de Parceiros:** Clientes do Google Cloud podem aderir ao programa de parceiros através deste [formulário](https://goo.gle/a2a-partner).
 
 ## O que vem a seguir
 
 ### Melhorias no Protocolo
 
-- **Descoberta de Agentes:**
-    - Formalizar a inclusão de esquemas de autorização e credenciais opcionais diretamente no `AgentCard`.
+- **Descoberta de Agente:**
+    - Formalizar inclusão de esquemas de autorização e credenciais opcionais diretamente no `AgentCard`.
 - **Colaboração entre Agentes:**
-    - Investigar um método `QuerySkill()` para verificar dinamicamente habilidades não suportadas ou não antecipadas.
+    - Investigar um método `QuerySkill()` para verificar dinamicamente habilidades não suportadas ou inesperadas.
 - **Ciclo de Vida da Tarefa & UX:**
-    - Suporte à negociação dinâmica de UX _dentro_ de uma tarefa (ex.: agente adicionando áudio/vídeo durante a conversa).
+    - Suporte para negociação dinâmica de UX _dentro_ de uma tarefa (por exemplo, agente adicionando áudio/vídeo durante a conversa).
 - **Métodos do Cliente & Transporte:**
-    - Explorar extensão de suporte a métodos iniciados pelo cliente (além do gerenciamento de tarefas).
-    - Melhorias na confiabilidade do streaming e nos mecanismos de notificação push.
+    - Explorar a ampliação do suporte para métodos iniciados pelo cliente (além do gerenciamento de tarefas).
+    - Melhorias na confiabilidade de streaming e mecanismos de notificações push.
 
 ## Sobre
 
-O Protocolo A2A é um projeto open source sob a Linux Foundation, contribuído pelo Google. É licenciado sob a [Licença Apache 2.0](LICENSE) e aberto a contribuições da comunidade.
-
+O Protocolo A2A é um projeto open source sob a Linux Foundation, contribuído pelo Google. Ele é licenciado sob a [Licença Apache 2.0](LICENSE) e está aberto a contribuições da comunidade.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
 
 ---

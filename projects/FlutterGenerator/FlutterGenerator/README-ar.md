@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 اللغة</summary>
@@ -28,12 +27,14 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # تثبيت FlutterGenerator
 
 1. قم بتنزيل وتثبيت ملف PY (fwGenerator.py) من [إصدارات GitHub](https://github.com/FlutterGenerator/FlutterGenerator/releases)
-2. قم بتنزيل تطبيق Termux وتشغيل fwGenerator.py ثم انسخ الملف وقم بتحميله إلى حسابك في Github بالاسم المطلوب.
+2. قم بتنزيل Termux وشغّل fwGenerator.py وانسخ الملف وقم برفعه إلى GitHub الخاص بك بالاسم.
+
 ```
 .github/workflows
 ```
@@ -118,13 +119,13 @@ python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 
 # معلومات
 
-**🚀 إصدار دارت: 𒁍 2.7.0-dev.2.1 ➢ 3.10.8**
+**🚀 إصدار دارت: 𒁍 2.7.0-dev.2.1 ➢ 3.11.0**
 
-**🚀 إصدار فلاتر: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.9**
+**🚀 إصدار فلاتر: 𒁍 v1.12.13+hotfix.5 ➢ 3.41.0**
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
 
 ---

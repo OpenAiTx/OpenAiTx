@@ -28,12 +28,13 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # FlutterGenerator 설치
 
-1. [GitHub Releases](https://github.com/FlutterGenerator/FlutterGenerator/releases)에서 PY(fwGenerator.py)를 다운로드하여 설치합니다.
-2. Termux를 다운로드한 후 fwGenerator.py를 실행하고 파일을 복사하여 이름을 지정해 Gihab에 업로드합니다.
+1. [GitHub Releases](https://github.com/FlutterGenerator/FlutterGenerator/releases)에서 PY(fwGenerator.py)를 다운로드하고 설치하세요.
+2. Termux를 다운로드하여 fwGenerator.py를 실행한 후 파일을 복사해 원하는 이름으로 Gihab에 업로드하세요.
 ```
 .github/workflows
 ```
@@ -112,19 +113,19 @@ pkg install python -y
 python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 ```
 # 튜토리얼 비디오
-[![유튜브에서 재생](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
+[![유튜브에서 재생하기](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
 
 # [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)
 
 # 정보
 
-**🚀 Dart 버전: 𒁍 2.7.0-dev.2.1 ➢ 3.10.8**
+**🚀 Dart 버전: 𒁍 2.7.0-dev.2.1 ➢ 3.11.0**
 
-**🚀 Flutter 버전: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.9**
+**🚀 Flutter 버전: 𒁍 v1.12.13+hotfix.5 ➢ 3.41.0**
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
 
 ---

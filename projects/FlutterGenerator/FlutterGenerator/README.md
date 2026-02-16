@@ -28,6 +28,7 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # FlutterGenerator Installation
@@ -118,6 +119,6 @@ python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 
 # Info
 
-**🚀 Dart Version: 𒁍 2.7.0-dev.2.1 ➢ 3.10.8**
+**🚀 Dart Version: 𒁍 2.7.0-dev.2.1 ➢ 3.11.0**
 
-**🚀 Flutter Version: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.9**
+**🚀 Flutter Version: 𒁍 v1.12.13+hotfix.5 ➢ 3.41.0**

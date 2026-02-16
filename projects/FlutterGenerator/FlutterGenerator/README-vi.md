@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Ngôn ngữ</summary>
@@ -28,12 +27,14 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # Cài đặt FlutterGenerator
 
-1. Tải xuống và cài đặt tập tin PY (fwGenerator.py) từ [GitHub Releases](https://github.com/FlutterGenerator/FlutterGenerator/releases)
-2. Tải Termux và chạy fwGenerator.py rồi sao chép tập tin và tải lên Github của bạn với tên đã đặt.
+1. Tải xuống và cài đặt tệp PY (fwGenerator.py) từ [GitHub Releases](https://github.com/FlutterGenerator/FlutterGenerator/releases)
+2. Tải Termux và chạy fwGenerator.py, sao chép tệp và tải nó lên Gihab với tên bạn đặt.
+
 ```
 .github/workflows
 ```
@@ -111,20 +112,20 @@ apt upgrade
 pkg install python -y
 python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 ```
-# Video Hướng Dẫn
-[![Phát trên Youtube](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
+# Video hướng dẫn
+[![Xem trên Youtube](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
 
 # [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)
 
-# Thông Tin
+# Thông tin
 
-**🚀 Phiên bản Dart: 𒁍 2.7.0-dev.2.1 ➢ 3.10.8**
+**🚀 Phiên bản Dart: 𒁍 2.7.0-dev.2.1 ➢ 3.11.0**
 
-**🚀 Phiên bản Flutter: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.9**
+**🚀 Phiên bản Flutter: 𒁍 v1.12.13+hotfix.5 ➢ 3.41.0**
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
 
 ---

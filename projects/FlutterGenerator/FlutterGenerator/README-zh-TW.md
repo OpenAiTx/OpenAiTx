@@ -5,7 +5,7 @@
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=zh-CN">簡體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=ko">한국어</a>
@@ -28,12 +28,13 @@
       </div>
     </div>
   </details>
+
 </div>
 
-# FlutterGenerator 安裝說明
+# FlutterGenerator 安裝指南
 
 1. 從 [GitHub Releases](https://github.com/FlutterGenerator/FlutterGenerator/releases) 下載並安裝 PY（fwGenerator.py）
-2. 下載 Termux 並執行 fwGenerator.py，然後將檔案複製並以上傳至你的 Gihab，並命名。
+2. 下載 Termux，運行 fwGenerator.py，並將檔案複製後以上傳至你的 Gihab 並命名。
 ```
 .github/workflows
 ```
@@ -112,19 +113,19 @@ pkg install python -y
 python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 ```
 # 教學影片
-[![在 Youtube 上播放](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
+[![在 Youtube 播放](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
 
 # [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)
 
 # 資訊
 
-**🚀 Dart 版本：𒁍 2.7.0-dev.2.1 ➢ 3.10.8**
+**🚀 Dart 版本：𒁍 2.7.0-dev.2.1 ➢ 3.11.0**
 
-**🚀 Flutter 版本：𒁍 v1.12.13+hotfix.5 ➢ 3.38.9**
+**🚀 Flutter 版本：𒁍 v1.12.13+hotfix.5 ➢ 3.41.0**
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
 
 ---

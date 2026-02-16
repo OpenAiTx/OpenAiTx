@@ -45,81 +45,91 @@
   </div>
 </div>
 
-**不透明なエージェント型アプリケーション間の通信と相互運用性を実現するオープンプロトコル。**
+**ブラックボックス型のエージェントアプリケーション間の通信と相互運用性を可能にするオープンプロトコルです。**
 
-Agent2Agent (A2A) プロトコルは、AI分野における重要な課題：異なる企業が異なるフレームワークで構築し、別々のサーバー上で稼働している生成AIエージェント同士が、ツールとしてだけでなくエージェントとして効果的に通信・協働できることを解決します。A2Aはエージェント同士の共通言語を提供し、より相互接続され、強力で革新的なAIエコシステムを促進します。
+Agent2Agent (A2A) プロトコルは、AI分野における重大な課題、すなわち異なる企業が異なるフレームワークで構築し、別々のサーバーで稼働している生成AIエージェント同士が、単なるツールではなくエージェントとして効果的に通信・協調できるようにする問題に取り組みます。A2Aは、エージェントの共通言語を提供し、より相互接続された、強力で革新的なAIエコシステムの実現を目指します。
 
-A2Aにより、エージェントは次のことが可能になります：
+A2Aを利用することで、エージェントは以下が可能となります：
 
-- お互いの能力を発見する。
-- インタラクションの形式（テキスト、フォーム、メディア）を交渉する。
-- 長期間にわたるタスクを安全に協働する。
-- 内部状態、メモリ、ツールを公開せずに運用する。
+- 相互の能力を発見する。
+- インタラクションのモダリティ（テキスト、フォーム、メディア）を交渉する。
+- 長期に渡るタスクを安全に協業する。
+- 内部状態、メモリ、ツールを公開せずに動作する。
 
-## A2A紹介動画
+## DeepLearning.AI 講座
 
-[![A2A紹介動画](https://img.youtube.com/vi/Fbr_Solax1w/hqdefault.jpg)](https://goo.gle/a2a-video)
+[![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)
 
-## なぜA2Aなのか？
+[Google Cloud](https://goo.gle/dlai-a2a)とIBM Researchとのパートナーシップで構築され、[Holt Skinner](https://github.com/holtskinner)、[Ivan Nardini](https://github.com/inardini)、[Sandi Besen](https://github.com/sandijean90)によって教えられる短期講座[A2A: The Agent2Agent Protocol](https://goo.gle/dlai-a2a)にご参加ください。
 
-AIエージェントが普及するにつれ、相互運用性が複雑で多機能なアプリケーションを構築するために重要となっています。A2Aの目的は：
+**この講座で学べること：**
 
-- **サイロの解消:** 異なるエコシステム間でエージェントを接続。
-- **複雑な協働の実現:** 単一のエージェントでは対処できないタスクを専門エージェント同士で協力して解決。
-- **オープン標準の推進:** エージェント通信のコミュニティ主導型アプローチを促進し、イノベーションと広範な採用を促す。
-- **不透明性の保持:** 内部メモリや独自ロジック、特定ツールの実装を開示せずに協働できることで、セキュリティや知的財産を保護。
+- **エージェントをA2A準拠にする:** Google ADK、LangGraph、BeeAIなどのフレームワークで構築したエージェントをA2Aサーバーとして公開する方法。
+- **エージェントを接続する:** A2A準拠のエージェントに接続するためのA2Aクライアントをゼロから、または統合を用いて作成する方法。
+- **ワークフローをオーケストレーション:** A2A準拠エージェントの逐次的・階層的ワークフローを構築する方法。
+- **マルチエージェントシステム:** 異なるフレームワークを使った医療分野のマルチエージェントシステムを構築し、A2Aがどのように協調を実現するかを学ぶ。
+- **A2AとMCP:** A2AがMCPを補完し、エージェント同士の協調を可能にする仕組みを理解する。
+
+## なぜA2Aか？
+
+AIエージェントが普及する中で、相互運用性は複雑で多機能なアプリケーションを構築する上で不可欠です。A2Aの目的は以下の通りです：
+
+- **サイロ化の打破:** 異なるエコシステムにまたがるエージェントを接続。
+- **複雑な協調を実現:** 専門的なエージェント同士が、単一エージェントでは対応できないタスクを協力して処理できるようにする。
+- **オープンスタンダードの推進:** エージェント間通信のコミュニティ主導型アプローチを促進し、イノベーションと幅広い採用を促す。
+- **ブラックボックス性の維持:** 内部メモリや独自ロジック、特定のツール実装を共有せずに協調できるようにし、セキュリティや知的財産を保護する。
 
 ### 主な特徴
 
-- **標準化された通信:** HTTP(S)上のJSON-RPC 2.0。
-- **エージェント発見:** 機能や接続情報を記載した「Agent Card」で実現。
-- **柔軟なインタラクション:** 同期型リクエスト/レスポンス、ストリーミング（SSE）、非同期プッシュ通知に対応。
-- **豊富なデータ交換:** テキスト、ファイル、構造化JSONデータのやり取りが可能。
-- **エンタープライズ対応:** セキュリティ、認証、可観測性を重視した設計。
+- **標準化された通信:** JSON-RPC 2.0 を HTTP(S) 上で使用。
+- **エージェント発見:** 「エージェントカード」による能力と接続情報の詳細。
+- **柔軟なインタラクション:** 同期リクエスト/レスポンス、ストリーミング（SSE）、非同期プッシュ通知をサポート。
+- **豊富なデータ交換:** テキスト、ファイル、構造化JSONデータを処理。
+- **エンタープライズ対応:** セキュリティ、認証、可観測性を考慮して設計。
 
 ## はじめに
-- 📚 **ドキュメントを参照:** [Agent2Agentプロトコルドキュメントサイト](https://a2a-protocol.org)で、完全な概要、プロトコル仕様、チュートリアル、ガイドをご覧ください。
-- 📝 **仕様を閲覧:** [A2Aプロトコル仕様](https://a2a-protocol.org/latest/specification/)
-- SDKを使用する:
+
+- 📚 **ドキュメントを探索:** [Agent2Agent Protocol Documentation Site](https://a2a-protocol.org) で概要、プロトコル仕様、チュートリアル、ガイドを参照。
+- 📝 **仕様書を見る:** [A2A Protocol Specification](https://a2a-protocol.org/latest/specification/)
+- SDKを利用する:
     - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`
     - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`
     - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`
-    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) mavenを使用
-    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) [NuGet](https://www.nuget.org/packages/A2A)を使用 `dotnet add package A2A`
-- 🎬 [サンプル](https://github.com/a2aproject/a2a-samples)を利用してA2Aの動作を確認できます
+    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) mavenを利用
+    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) [NuGet](https://www.nuget.org/packages/A2A) を利用 `dotnet add package A2A`
+- 🎬 [サンプル](https://github.com/a2aproject/a2a-samples)でA2Aの動作を確認
 
 ## コントリビューション
 
-A2Aプロトコルの向上と進化のため、コミュニティからの貢献を歓迎します！
+A2Aプロトコルの向上や進化のため、コミュニティの貢献を歓迎します！
 
-- **質問とディスカッション:** [GitHub Discussions](https://github.com/a2aproject/A2A/discussions)にご参加ください。
-- **課題とフィードバック:** [GitHub Issues](https://github.com/a2aproject/A2A/issues)から課題報告や改善提案をお願いします。
-- **コントリビューションガイド:** [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md)で詳細をご確認ください。
-- **プライベートフィードバック:** [Googleフォーム](https://goo.gle/a2a-feedback)をご利用ください。
-- **パートナープログラム:** Google Cloudのお客様は[フォーム](https://goo.gle/a2a-partner)からパートナープログラムに参加できます。
+- **質問・議論:** [GitHub Discussions](https://github.com/a2aproject/A2A/discussions) に参加。
+- **課題・フィードバック:** [GitHub Issues](https://github.com/a2aproject/A2A/issues) で課題報告や改善提案。
+- **コントリビューションガイド:** [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) で詳細を確認。
+- **プライベートフィードバック:** [Googleフォーム](https://goo.gle/a2a-feedback)を利用。
+- **パートナープログラム:** Google Cloud顧客は [フォーム](https://goo.gle/a2a-partner) から参加可能。
 
-## 次のステップ
+## 次の展開
 
-### プロトコル拡張
+### プロトコル強化
 
 - **エージェント発見:**
-    - 認可方式やオプション資格情報を`AgentCard`内に正式に含めることを検討します。
-- **エージェント協働:**
-    - 未対応または予期しないスキルの動的確認のため`QuerySkill()`メソッドの検討。
-- **タスクライフサイクル & UX:**
-    - タスク内での動的UXネゴシエーションのサポート（例：会話中にエージェントが音声/映像を追加）。
-- **クライアントメソッド & トランスポート:**
-    - タスク管理以外のクライアント主導メソッド拡張を検討。
-    - ストリーミングの信頼性とプッシュ通知機構の改善。
+    - 認可方式やオプション認証情報を `AgentCard` に正式に含めることを検討。
+- **エージェント協調:**
+    - 未対応または予期しないスキルを動的に確認する `QuerySkill()` メソッドの検討。
+- **タスクライフサイクルとUX:**
+    - タスク内での動的なUXネゴシエーションのサポート（例：エージェントが会話中に音声/ビデオを追加）。
+- **クライアントメソッドとトランスポート：**
+    - クライアント主導のメソッド（タスク管理以外）への対応拡張の検討。
+    - ストリーミングの信頼性向上およびプッシュ通知メカニズムの改善。
 
 ## 概要
 
-A2AプロトコルはLinux Foundationのオープンソースプロジェクトで、Googleによって提供されています。[Apache License 2.0](LICENSE)でライセンスされており、コミュニティからの貢献を受け付けています。
-
+A2Aプロトコルは、GoogleによってLinux Foundationに寄贈されたオープンソースプロジェクトです。[Apache License 2.0](LICENSE)の下でライセンスされており、コミュニティからの貢献を受け付けています。
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
 
 ---

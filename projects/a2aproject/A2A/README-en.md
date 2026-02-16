@@ -47,35 +47,45 @@
 
 **An open protocol enabling communication and interoperability between opaque agentic applications.**
 
-The Agent2Agent (A2A) protocol tackles a key challenge in the AI field: allowing gen AI agents, developed on various frameworks by different companies and running on separate servers, to communicate and collaborate efficiently—as agents, not merely as tools. A2A seeks to provide a unified language for agents, encouraging a more interconnected, capable, and innovative AI ecosystem.
+The Agent2Agent (A2A) protocol addresses a critical challenge in the AI landscape: enabling generative AI agents, built on diverse frameworks by different companies running on separate servers, to communicate and collaborate effectively—as agents, not just as tools. A2A aims to provide a common language for agents, fostering a more interconnected, powerful, and innovative AI ecosystem.
 
 With A2A, agents can:
 
 - Discover each other's capabilities.
 - Negotiate interaction modalities (text, forms, media).
-- Collaborate securely on long-running tasks.
+- Securely collaborate on long-running tasks.
 - Operate without exposing their internal state, memory, or tools.
 
-## Intro to A2A Video
+## DeepLearning.AI Course
 
-[![A2A Intro Video](https://img.youtube.com/vi/Fbr_Solax1w/hqdefault.jpg)](https://goo.gle/a2a-video)
+[![A2A DeepLearning.AI](https://img.youtube.com/vi/4gYm0Rp7VHc/maxresdefault.jpg)](https://goo.gle/dlai-a2a)
+
+Join this short course on [A2A: The Agent2Agent Protocol](https://goo.gle/dlai-a2a), built in partnership with Google Cloud and IBM Research, and taught by [Holt Skinner](https://github.com/holtskinner), [Ivan Nardini](https://github.com/inardini), and [Sandi Besen](https://github.com/sandijean90).
+
+**What you'll learn:**
+
+- **Make agents A2A-compliant:** Expose agents built with frameworks like Google ADK, LangGraph, or BeeAI as A2A servers.
+- **Connect agents:** Create A2A clients from scratch or using integrations to connect to A2A-compliant agents.
+- **Orchestrate workflows:** Build sequential and hierarchical workflows of A2A-compliant agents.
+- **Multi-agent systems:** Build a healthcare multi-agent system using different frameworks and see how A2A enables collaboration.
+- **A2A and MCP:** Learn how A2A complements MCP by enabling agents to collaborate with each other.
 
 ## Why A2A?
 
-As AI agents become more widespread, their ability to interoperate is vital for developing complex, multifunctional applications. A2A aims to:
+As AI agents become more prevalent, their ability to interoperate is crucial for building complex, multi-functional applications. A2A aims to:
 
 - **Break Down Silos:** Connect agents across different ecosystems.
-- **Enable Complex Collaboration:** Let specialized agents collaborate on tasks beyond the capabilities of a single agent.
-- **Promote Open Standards:** Support a community-driven approach to agent communication, spurring innovation and broad adoption.
-- **Preserve Opacity:** Enable agents to work together without revealing internal memory, proprietary logic, or specific tool details, strengthening security and safeguarding intellectual property.
+- **Enable Complex Collaboration:** Allow specialized agents to work together on tasks that a single agent cannot handle alone.
+- **Promote Open Standards:** Foster a community-driven approach to agent communication, encouraging innovation and broad adoption.
+- **Preserve Opacity:** Allow agents to collaborate without needing to share internal memory, proprietary logic, or specific tool implementations, enhancing security and protecting intellectual property.
 
 ### Key Features
 
 - **Standardized Communication:** JSON-RPC 2.0 over HTTP(S).
-- **Agent Discovery:** Through "Agent Cards" describing capabilities and connection details.
+- **Agent Discovery:** Via "Agent Cards" detailing capabilities and connection info.
 - **Flexible Interaction:** Supports synchronous request/response, streaming (SSE), and asynchronous push notifications.
-- **Rich Data Exchange:** Supports text, files, and structured JSON data.
-- **Enterprise-Ready:** Built with security, authentication, and observability in mind.
+- **Rich Data Exchange:** Handles text, files, and structured JSON data.
+- **Enterprise-Ready:** Designed with security, authentication, and observability in mind.
 
 ## Getting Started
 
@@ -120,6 +130,6 @@ The A2A Protocol is an open source project under the Linux Foundation, contribut
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
 
 ---

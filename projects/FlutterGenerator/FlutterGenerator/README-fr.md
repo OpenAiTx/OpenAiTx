@@ -28,12 +28,13 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # Installation de FlutterGenerator
 
 1. Téléchargez et installez le fichier PY (fwGenerator.py) depuis [GitHub Releases](https://github.com/FlutterGenerator/FlutterGenerator/releases)
-2. Téléchargez Termux, exécutez fwGenerator.py, puis copiez le fichier et téléchargez-le sur votre Github en le renommant.
+2. Téléchargez Termux, exécutez fwGenerator.py, copiez le fichier et téléchargez-le sur votre Github avec le nom.
 ```
 .github/workflows
 ```
@@ -111,20 +112,20 @@ apt upgrade
 pkg install python -y
 python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 ```
-# Vidéo Tutoriel
+# Vidéo tutorielle
 [![Regarder sur Youtube](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
 
 # [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)
 
 # Infos
 
-**🚀 Version de Dart : 𒁍 2.7.0-dev.2.1 ➢ 3.10.8**
+**🚀 Version de Dart : 𒁍 2.7.0-dev.2.1 ➢ 3.11.0**
 
-**🚀 Version de Flutter : 𒁍 v1.12.13+hotfix.5 ➢ 3.38.9**
+**🚀 Version de Flutter : 𒁍 v1.12.13+hotfix.5 ➢ 3.41.0**
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
 
 ---

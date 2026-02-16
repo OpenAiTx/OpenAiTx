@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 زبان</summary>
@@ -28,12 +27,14 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # نصب FlutterGenerator
 
 1. فایل PY (fwGenerator.py) را از [انتشارهای گیت‌هاب](https://github.com/FlutterGenerator/FlutterGenerator/releases) دانلود و نصب کنید.
-2. اپلیکیشن Termux را دانلود کنید و fwGenerator.py را اجرا کرده و فایل را کپی کنید و با نام دلخواه در گیت‌هاب خود آپلود نمایید.
+2. ترموکس را دانلود کنید، fwGenerator.py را اجرا کنید، فایل را کپی کنید و آن را با نام مورد نظر به گیت‌هاب خود بارگذاری نمایید.
+
 ```
 .github/workflows
 ```
@@ -111,20 +112,20 @@ apt upgrade
 pkg install python -y
 python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 ```
-# ویدیو آموزشی
+# ویدیوی آموزشی
 [![پخش در یوتیوب](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
 
 # [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)
 
 # اطلاعات
 
-**🚀 نسخه Dart: 𒁍 2.7.0-dev.2.1 ➢ 3.10.8**
+**🚀 نسخه دارت: 𒁍 2.7.0-dev.2.1 ➢ 3.11.0**
 
-**🚀 نسخه Flutter: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.9**
+**🚀 نسخه فلاتر: 𒁍 v1.12.13+hotfix.5 ➢ 3.41.0**
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
 
 ---

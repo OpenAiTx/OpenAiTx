@@ -1,0 +1,1504 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Run Ollama, Stable Diffusion and Automatic Speech Recognition with your Intel Arc GPU\n\n[[Blog](https://blog.eleiton.dev/posts/llm-and-genai-in-docker/)]\n\nEffortlessly deploy a Docker-based solution that uses [Open WebUI](https://github.com/open-webui/open-webui) as your user-friendly \nAI Interface and [Ollama](https://github.com/ollama/ollama) for integrating Large Language Models (LLM).\n\nAdditionally, you can run [ComfyUI](https://github.com/comfyanonymous/ComfyUI) or [SD.Next](https://github.com/vladmandic/sdnext) docker containers to \nstreamline Stable Diffusion capabilities.\n\nYou can also run an optional docker container with [OpenAI Whisper](https://github.com/openai/whisper) to perform Automatic Speech Recognition (ASR) tasks.\n\nAll these containers have been optimized for Intel Arc Series GPUs on Linux systems by using [Intel® Extension for PyTorch](https://github.com/intel/intel-extension-for-pytorch).\n\n![screenshot](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/open-webui.png)\n\n## Services\n1. Ollama  \n   * Runs llama.cpp and Ollama with IPEX-LLM on your Linux computer with Intel Arc GPU.  \n   * Built following the guidelines from [Intel](https://github.com/intel/ipex-llm/blob/main/docs/mddocs/DockerGuides/README.md).  \n   * Uses the official [Intel ipex-llm docker image](https://hub.docker.com/r/intelanalytics/ipex-llm-inference-cpp-xpu) as the base container.\n   * Uses the latest versions of required packages, prioritizing cutting-edge features over stability.  \n   * Exposes port `11434` for connecting other tools to your Ollama service.\n\n2. Open WebUI  \n   * Uses the official distribution of Open WebUI.  \n   * `WEBUI_AUTH` is turned off for authentication-free usage.  \n   * `ENABLE_OPENAI_API` and `ENABLE_OLLAMA_API` flags are set to off and on, respectively, allowing interactions via Ollama only.\n   * `ENABLE_IMAGE_GENERATION` is set to true, allowing you to generate images from the UI.\n   * `IMAGE_GENERATION_ENGINE` is set to automatic1111 (SD.Next is compatible).\n\n3. ComfyUI\n   * The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.\n   * Uses as the base container the official [Intel® Extension for PyTorch](https://pytorch-extension.intel.com/installation?platform=gpu)\n\n4. SD.Next\n   * All-in-one for AI generative image based on Automatic1111\n   * Uses as the base container the official [Intel® Extension for PyTorch](https://pytorch-extension.intel.com/installation?platform=gpu)\n   * Uses a customized version of the SD.Next [docker file](https://github.com/vladmandic/sdnext/blob/dev/configs/Dockerfile.ipex), making it compatible with the Intel Extension for Pytorch image.\n",
+    "ContentSha": "9CULPwc+lAkYj60CNZ58s1YQeMp2pO716jXhmp09rE8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 使用您的英特尔Arc GPU运行Ollama、Stable Diffusion和自动语音识别\n\n[[博客](https://blog.eleiton.dev/posts/llm-and-genai-in-docker/)]\n\n轻松部署基于Docker的解决方案，使用[Open WebUI](https://github.com/open-webui/open-webui)作为用户友好的  \nAI界面，使用[Ollama](https://github.com/ollama/ollama)集成大型语言模型（LLM）。\n\n此外，您还可以运行[ComfyUI](https://github.com/comfyanonymous/ComfyUI)或[SD.Next](https://github.com/vladmandic/sdnext)的docker容器，  \n以简化Stable Diffusion功能。\n\n您还可以运行一个可选的docker容器，使用[OpenAI Whisper](https://github.com/openai/whisper)执行自动语音识别（ASR）任务。\n\n所有这些容器均通过使用[Intel® Extension for PyTorch](https://github.com/intel/intel-extension-for-pytorch)  \n针对Linux系统上的英特尔Arc系列GPU进行了优化。\n\n![截图](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/open-webui.png)\n\n## 服务\n1. Ollama  \n   * 在搭载英特尔Arc GPU的Linux电脑上运行llama.cpp和Ollama，配合IPEX-LLM。  \n   * 按照[Intel](https://github.com/intel/ipex-llm/blob/main/docs/mddocs/DockerGuides/README.md)的指南构建。  \n   * 以官方[Intel ipex-llm docker镜像](https://hub.docker.com/r/intelanalytics/ipex-llm-inference-cpp-xpu)作为基础容器。  \n   * 使用所需包的最新版本，优先采用前沿功能而非稳定性。  \n   * 开放端口`11434`，供其他工具连接您的Ollama服务。\n\n2. Open WebUI  \n   * 使用Open WebUI的官方发行版。  \n   * `WEBUI_AUTH`关闭，实现免认证使用。  \n   * `ENABLE_OPENAI_API`和`ENABLE_OLLAMA_API`标志分别设置为关闭和开启，仅允许通过Ollama交互。  \n   * `ENABLE_IMAGE_GENERATION`设置为true，允许您从UI生成图像。  \n   * `IMAGE_GENERATION_ENGINE`设置为automatic1111（兼容SD.Next）。\n\n3. ComfyUI  \n   * 功能最强大且模块化的扩散模型GUI、API及后端，具有图形/节点接口。  \n   * 以官方[Intel® Extension for PyTorch](https://pytorch-extension.intel.com/installation?platform=gpu)作为基础容器。\n\n4. SD.Next  \n   * 基于Automatic1111的全能AI生成图像解决方案。  \n   * 以官方[Intel® Extension for PyTorch](https://pytorch-extension.intel.com/installation?platform=gpu)作为基础容器。  \n   * 使用定制版本的SD.Next[Dockerfile](https://github.com/vladmandic/sdnext/blob/dev/configs/Dockerfile.ipex)，  \n     使其兼容Intel Extension for Pytorch镜像。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8tqg+nH0eOdd9vv4n4iMNeFy9Mj9ME/m7Dil0P4pD1w=",
+        "originContent": "# Run Ollama, Stable Diffusion and Automatic Speech Recognition with your Intel Arc GPU",
+        "translatedContent": "# 使用您的英特尔Arc GPU运行Ollama、Stable Diffusion和自动语音识别"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "9sewKG9Eltlz4DOkjzrN0I2V9R7izi066GQoP0G+1VE=",
+        "originContent": "[[Blog](https://blog.eleiton.dev/posts/llm-and-genai-in-docker/)]",
+        "translatedContent": "[[博客](https://blog.eleiton.dev/posts/llm-and-genai-in-docker/)]"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "aNgXYi3ZGhzuxMu3OIQffRBdrwxqoIW7Gv2XmRQAJK4=",
+        "originContent": "Effortlessly deploy a Docker-based solution that uses [Open WebUI](https://github.com/open-webui/open-webui) as your user-friendly ",
+        "translatedContent": "轻松部署基于Docker的解决方案，使用[Open WebUI](https://github.com/open-webui/open-webui)作为用户友好的  "
+      },
+      {
+        "row": 6,
+        "rowsha": "mkhLfgSpJH0vaIidhCs+nhZuPYDdWyqsb0uQyLjQ1Zc=",
+        "originContent": "AI Interface and [Ollama](https://github.com/ollama/ollama) for integrating Large Language Models (LLM).",
+        "translatedContent": "AI界面，使用[Ollama](https://github.com/ollama/ollama)集成大型语言模型（LLM）。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "0HtmV07QuoFxDG/AOfruNgx++u0+7E0p/s7cmSogFKk=",
+        "originContent": "Additionally, you can run [ComfyUI](https://github.com/comfyanonymous/ComfyUI) or [SD.Next](https://github.com/vladmandic/sdnext) docker containers to ",
+        "translatedContent": "此外，您还可以运行[ComfyUI](https://github.com/comfyanonymous/ComfyUI)或[SD.Next](https://github.com/vladmandic/sdnext)的docker容器，  "
+      },
+      {
+        "row": 9,
+        "rowsha": "zi7zCOkElmHeHcEDglVkNf6FeSCXU9gjT+FIuBWfheM=",
+        "originContent": "streamline Stable Diffusion capabilities.",
+        "translatedContent": "以简化Stable Diffusion功能。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ZFNZ0b6O74FfbkN3bpaQpwhpH7OQrMBiQwpYycbLLGo=",
+        "originContent": "You can also run an optional docker container with [OpenAI Whisper](https://github.com/openai/whisper) to perform Automatic Speech Recognition (ASR) tasks.",
+        "translatedContent": "您还可以运行一个可选的docker容器，使用[OpenAI Whisper](https://github.com/openai/whisper)执行自动语音识别（ASR）任务。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "nUW/2h2N//aLtkk5GZ+GrHIUrb7ZDBcyF6h8yT3Rv50=",
+        "originContent": "All these containers have been optimized for Intel Arc Series GPUs on Linux systems by using [Intel® Extension for PyTorch](https://github.com/intel/intel-extension-for-pytorch).",
+        "translatedContent": "所有这些容器均通过使用[Intel® Extension for PyTorch](https://github.com/intel/intel-extension-for-pytorch)  "
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "针对Linux系统上的英特尔Arc系列GPU进行了优化。"
+      },
+      {
+        "row": 15,
+        "rowsha": "hA0odY6RYG9mPsvvinH811g3exQeTjB+na6Q+TPr1v8=",
+        "originContent": "![screenshot](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/open-webui.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![截图](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/open-webui.png)"
+      },
+      {
+        "row": 17,
+        "rowsha": "dSOarue8Yl8uzlWnXN9UcniN+Z6Flv9tSobhCgyrx1Y=",
+        "originContent": "## Services",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "/HUATMLe3AAZzVHwCRsKaW2zDfYCp+aLSMDJCuYAu2Y=",
+        "originContent": "1. Ollama  ",
+        "translatedContent": "## 服务"
+      },
+      {
+        "row": 19,
+        "rowsha": "c/181fIAiN0LhJXMOPEc+KSy14LvJUpZO/0lz1S8B7Q=",
+        "originContent": "   * Runs llama.cpp and Ollama with IPEX-LLM on your Linux computer with Intel Arc GPU.  ",
+        "translatedContent": "1. Ollama  "
+      },
+      {
+        "row": 20,
+        "rowsha": "1j1ND59tFLqRCXaU7OXJH2O3CJE/U5IZt5rpWFtc+dw=",
+        "originContent": "   * Built following the guidelines from [Intel](https://github.com/intel/ipex-llm/blob/main/docs/mddocs/DockerGuides/README.md).  ",
+        "translatedContent": "   * 在搭载英特尔Arc GPU的Linux电脑上运行llama.cpp和Ollama，配合IPEX-LLM。  "
+      },
+      {
+        "row": 21,
+        "rowsha": "GK5GsFaXP2b6auwPlPvCU/pgHHVYXQlyIZU8K/IXiEs=",
+        "originContent": "   * Uses the official [Intel ipex-llm docker image](https://hub.docker.com/r/intelanalytics/ipex-llm-inference-cpp-xpu) as the base container.",
+        "translatedContent": "   * 按照[Intel](https://github.com/intel/ipex-llm/blob/main/docs/mddocs/DockerGuides/README.md)的指南构建。  "
+      },
+      {
+        "row": 22,
+        "rowsha": "FwuIuLgepdA4lzUw49OahjvE5QYKm2vquY1f9HeP2Ow=",
+        "originContent": "   * Uses the latest versions of required packages, prioritizing cutting-edge features over stability.  ",
+        "translatedContent": "   * 以官方[Intel ipex-llm docker镜像](https://hub.docker.com/r/intelanalytics/ipex-llm-inference-cpp-xpu)作为基础容器。  "
+      },
+      {
+        "row": 23,
+        "rowsha": "63pcEcH9kGlTg77p5KKgL13Venqm1VT6Fju1IzOuNAk=",
+        "originContent": "   * Exposes port `11434` for connecting other tools to your Ollama service.",
+        "translatedContent": "   * 使用所需包的最新版本，优先采用前沿功能而非稳定性。  "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "   * 开放端口`11434`，供其他工具连接您的Ollama服务。"
+      },
+      {
+        "row": 25,
+        "rowsha": "2XROav3hGQ4+E+l7tM5YTsJJrnGRLzBIMAJwZ7vnkrQ=",
+        "originContent": "2. Open WebUI  ",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "AywVfKPWdEw9Xf8i0G9ChezJ/WJgD1Kdy+kcMPePsHU=",
+        "originContent": "   * Uses the official distribution of Open WebUI.  ",
+        "translatedContent": "2. Open WebUI  "
+      },
+      {
+        "row": 27,
+        "rowsha": "ezKTmV+rw6BWmwYHWXJ/yuwfrtz1UTgdcenySLkaLD4=",
+        "originContent": "   * `WEBUI_AUTH` is turned off for authentication-free usage.  ",
+        "translatedContent": "   * 使用Open WebUI的官方发行版。  "
+      },
+      {
+        "row": 28,
+        "rowsha": "61d6h5YDOjR0BMiuPv4z2620R4ApK/+vqxSQDrkD7Eg=",
+        "originContent": "   * `ENABLE_OPENAI_API` and `ENABLE_OLLAMA_API` flags are set to off and on, respectively, allowing interactions via Ollama only.",
+        "translatedContent": "   * `WEBUI_AUTH`关闭，实现免认证使用。  "
+      },
+      {
+        "row": 29,
+        "rowsha": "aQPyGZe2bVUm8duQH26+WO/iVNDX+WhLfW2gx2yN8W4=",
+        "originContent": "   * `ENABLE_IMAGE_GENERATION` is set to true, allowing you to generate images from the UI.",
+        "translatedContent": "   * `ENABLE_OPENAI_API`和`ENABLE_OLLAMA_API`标志分别设置为关闭和开启，仅允许通过Ollama交互。  "
+      },
+      {
+        "row": 30,
+        "rowsha": "zINW9A/lcBke3w4Ol3hnAaOFUC1x0L1k72Y1gp4h0xU=",
+        "originContent": "   * `IMAGE_GENERATION_ENGINE` is set to automatic1111 (SD.Next is compatible).",
+        "translatedContent": "   * `ENABLE_IMAGE_GENERATION`设置为true，允许您从UI生成图像。  "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "   * `IMAGE_GENERATION_ENGINE`设置为automatic1111（兼容SD.Next）。"
+      },
+      {
+        "row": 32,
+        "rowsha": "otBMkQfn37LepAbM7go1y5V1v34oLfIG7XOoni6NsIw=",
+        "originContent": "3. ComfyUI",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "lPjdhUq1XODRrNC86VnaLgY6P7yBg7gHn4j1dLsgcsQ=",
+        "originContent": "   * The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+        "translatedContent": "3. ComfyUI  "
+      },
+      {
+        "row": 34,
+        "rowsha": "nMVB+vyA665KrlXXFwms+1WXp5wcMmWZupZ/eEpIc6g=",
+        "originContent": "   * Uses as the base container the official [Intel® Extension for PyTorch](https://pytorch-extension.intel.com/installation?platform=gpu)",
+        "translatedContent": "   * 功能最强大且模块化的扩散模型GUI、API及后端，具有图形/节点接口。  "
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "   * 以官方[Intel® Extension for PyTorch](https://pytorch-extension.intel.com/installation?platform=gpu)作为基础容器。"
+      },
+      {
+        "row": 36,
+        "rowsha": "/7t6P/Q2lkbx9dY6+gxzi7FhVflulBAl50iJ9mO9mGE=",
+        "originContent": "4. SD.Next",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "ROZMao2WQPrLoSii42lTEJ2bfUej2OgsCnmYBN96djg=",
+        "originContent": "   * All-in-one for AI generative image based on Automatic1111",
+        "translatedContent": "4. SD.Next  "
+      },
+      {
+        "row": 38,
+        "rowsha": "nMVB+vyA665KrlXXFwms+1WXp5wcMmWZupZ/eEpIc6g=",
+        "originContent": "   * Uses as the base container the official [Intel® Extension for PyTorch](https://pytorch-extension.intel.com/installation?platform=gpu)",
+        "translatedContent": "   * 基于Automatic1111的全能AI生成图像解决方案。  "
+      },
+      {
+        "row": 39,
+        "rowsha": "ViCY86sMvPrKvMCW/2s0+N+CC5ZgLiwmJAsWQpzbgQc=",
+        "originContent": "   * Uses a customized version of the SD.Next [docker file](https://github.com/vladmandic/sdnext/blob/dev/configs/Dockerfile.ipex), making it compatible with the Intel Extension for Pytorch image.",
+        "translatedContent": "   * 以官方[Intel® Extension for PyTorch](https://pytorch-extension.intel.com/installation?platform=gpu)作为基础容器。  "
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "   * 使用定制版本的SD.Next[Dockerfile](https://github.com/vladmandic/sdnext/blob/dev/configs/Dockerfile.ipex)，  "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "5. OpenAI Whisper\n   * Robust Speech Recognition via Large-Scale Weak Supervision\n   * Uses as the base container the official [Intel® Extension for PyTorch](* Uses as the base container the official [Intel® Extension for PyTorch](https://pytorch-extension.intel.com/installation?platform=gpu)\n\n## Setup\nRun the following commands to start your Ollama instance with Open WebUI",
+    "ContentSha": "OKU3PjVk9b3dCPmzmwK2D8zWp+QhkSae5rpOj5++FE8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "5. OpenAI Whisper\n   * 通过大规模弱监督实现的强大语音识别\n   * 以官方 [Intel® PyTorch 扩展](https://pytorch-extension.intel.com/installation?platform=gpu) 作为基础容器\n\n## 设置\n运行以下命令以启动带有 Open WebUI 的 Ollama 实例",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "lzUM4jazujVETvu8QbrW4KhYAkKHWKo3YxEQ6GdLhbg=",
+        "originContent": "5. OpenAI Whisper",
+        "translatedContent": "5. OpenAI Whisper"
+      },
+      {
+        "row": 2,
+        "rowsha": "rLvnUS4/SOqjWk2RdM4bhC4VAeiCbs6lhsFD3eHhrrA=",
+        "originContent": "   * Robust Speech Recognition via Large-Scale Weak Supervision",
+        "translatedContent": "   * 通过大规模弱监督实现的强大语音识别"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZJTNJPxKFmO8Wa5jlkPoY33whEsSw/3y4GMAvz9bswQ=",
+        "originContent": "   * Uses as the base container the official [Intel® Extension for PyTorch](* Uses as the base container the official [Intel® Extension for PyTorch](https://pytorch-extension.intel.com/installation?platform=gpu)",
+        "translatedContent": "   * 以官方 [Intel® PyTorch 扩展](https://pytorch-extension.intel.com/installation?platform=gpu) 作为基础容器"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+        "originContent": "## Setup",
+        "translatedContent": "## 设置"
+      },
+      {
+        "row": 6,
+        "rowsha": "8YdzgzNClssgwCtjrXrn9UGRMYrY1MlA9WYbFMR1r0c=",
+        "originContent": "Run the following commands to start your Ollama instance with Open WebUI",
+        "translatedContent": "运行以下命令以启动带有 Open WebUI 的 Ollama 实例"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\n$ git clone https://github.com/eleiton/ollama-intel-arc.git\n$ cd ollama-intel-arc\n$ podman compose up\n```",
+    "ContentSha": "pE/CPaVcAQAr3zanapLICvKf8v52aDWnt/0l1czw1zc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ git clone https://github.com/eleiton/ollama-intel-arc.git\n$ cd ollama-intel-arc\n$ podman compose up\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "SW0aqYzcMSYZjBguQBKJWJwKROmAug949MvPT4lflpY=",
+        "originContent": "$ git clone https://github.com/eleiton/ollama-intel-arc.git",
+        "translatedContent": "$ git clone https://github.com/eleiton/ollama-intel-arc.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "YkhBS5xwaQs7QtB9AvUPFJkncKt4IO8DvcirX4pipsg=",
+        "originContent": "$ cd ollama-intel-arc",
+        "translatedContent": "$ cd ollama-intel-arc"
+      },
+      {
+        "row": 4,
+        "rowsha": "20RKJEDr41V4NYjmEU0Z/BW9cOM4cCb4AmyjMV/OzLI=",
+        "originContent": "$ podman compose up",
+        "translatedContent": "$ podman compose up"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nAdditionally, if you want to run one or more of the image generation tools, run these command in a different terminal:\n\nFor ComfyUI",
+    "ContentSha": "UjvwhguaMjeZ3hqzsYFrAB6/li8cVWvYmFDHBlr9Ca4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "另外，如果您想运行一个或多个图像生成工具，请在另一个终端运行以下命令：\n\n对于 ComfyUI\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "另外，如果您想运行一个或多个图像生成工具，请在另一个终端运行以下命令："
+      },
+      {
+        "row": 2,
+        "rowsha": "bJnGFRahNAw5TtRTROgAZh6O8lG0H6nCqjpI36qOzTA=",
+        "originContent": "Additionally, if you want to run one or more of the image generation tools, run these command in a different terminal:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "对于 ComfyUI"
+      },
+      {
+        "row": 4,
+        "rowsha": "Zt2X0XaxncCVSMHYLy2QxyppzaA0ETdSbHn+YZNF83A=",
+        "originContent": "For ComfyUI",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\n$ podman compose -f docker-compose.comfyui.yml up\n```",
+    "ContentSha": "zE794TsPO+6qU/LkRd0J1/SACEblOPwvUwD7XxNPbWU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ podman compose -f docker-compose.comfyui.yml up\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "+TcCgm5ot+Y1UOqUYbuBFcnCStiMs6mKS2t3TXyAtw0=",
+        "originContent": "$ podman compose -f docker-compose.comfyui.yml up",
+        "translatedContent": "$ podman compose -f docker-compose.comfyui.yml up"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\nFor SD.Next",
+    "ContentSha": "f+AMGzkWWohF0LeqBUVvmysYNO/fsHcSeQRykt9fobE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "对于 SD.Next\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "对于 SD.Next"
+      },
+      {
+        "row": 2,
+        "rowsha": "xsC6o4l9231kyBs8c68D5WF0OAbIwLkAwJh9aXauGT0=",
+        "originContent": "For SD.Next",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bash\n$ podman compose -f docker-compose.sdnext.yml up\n```",
+    "ContentSha": "ocxPCfBXS3Rsdp71pBJI20lpvR5+L5KVlGKS0KU6m4w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ podman compose -f docker-compose.sdnext.yml up\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "GAqJZ+GMW55PoWwRGcQK2t+yusEeZkZufjnl8xHQEPs=",
+        "originContent": "$ podman compose -f docker-compose.sdnext.yml up",
+        "translatedContent": "$ podman compose -f docker-compose.sdnext.yml up"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\nIf you want to run Whisper for automatic speech recognition, run this command in a different terminal:",
+    "ContentSha": "ujWZBE2zOgZcxZKHM5fnoUEwRzJpdBS3GnxIDcZAtQA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n如果您想运行 Whisper 进行自动语音识别，请在另一个终端运行此命令：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yO3339CEDyTwhRFs/LiF+ugM8ihFLNsyecf32n+2oHo=",
+        "originContent": "If you want to run Whisper for automatic speech recognition, run this command in a different terminal:",
+        "translatedContent": "如果您想运行 Whisper 进行自动语音识别，请在另一个终端运行此命令："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```bash\n$ podman compose -f docker-compose.whisper.yml up\n```",
+    "ContentSha": "nSnv0Er0JtLdy+LwMl3Nh/SeGGC3DisOK/5FO7bQJ3s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ podman compose -f docker-compose.whisper.yml up\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "FVUsmSjH8yCUuokry+xx+tDpLays6KcdaS7dAlzSc90=",
+        "originContent": "$ podman compose -f docker-compose.whisper.yml up",
+        "translatedContent": "$ podman compose -f docker-compose.whisper.yml up"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n## Validate\nRun the following command to verify your Ollama instance is up and running",
+    "ContentSha": "6v23/6q7VOqncSOs53+ZbDUAo59FEi4QNe0fjEhg8qE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 验证\n运行以下命令以确认您的 Ollama 实例正在运行",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jMX1mCbohZPZ5S68F37Ap1ZAcNrvB7p7msUnf68nqhk=",
+        "originContent": "## Validate",
+        "translatedContent": "## 验证"
+      },
+      {
+        "row": 3,
+        "rowsha": "BWW7M7N3CUio7QdRM8o+2u5A1FmlqB8LukQGLAkHso8=",
+        "originContent": "Run the following command to verify your Ollama instance is up and running",
+        "translatedContent": "运行以下命令以确认您的 Ollama 实例正在运行"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```bash\n$ curl http://localhost:11434/\nOllama is running\n```",
+    "ContentSha": "4YA+Ckdqgp6fBnoJSHHGNq3VIobqVLkqU9utMxajkjo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ curl http://localhost:11434/\nOllama is running\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "uq1ihTOZINL9nyIzwPQZocTI5qDO6jZctYvlJ3EtYoQ=",
+        "originContent": "$ curl http://localhost:11434/",
+        "translatedContent": "$ curl http://localhost:11434/"
+      },
+      {
+        "row": 3,
+        "rowsha": "r+oWh5m2vNsllnakGyEbx872f/T/CdMejJ5HdEnqqK8=",
+        "originContent": "Ollama is running",
+        "translatedContent": "Ollama is running"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "When using Open WebUI, you should see this partial output in your console, indicating your arc gpu was detected",
+    "ContentSha": "YF5xMo5G9j9SdpGdo2EDPaAChfQQbAUvgGv2iBFtMsg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "使用 Open WebUI 时，您应该在控制台中看到此部分输出，表示已检测到您的 Arc GPU",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "YF5xMo5G9j9SdpGdo2EDPaAChfQQbAUvgGv2iBFtMsg=",
+        "originContent": "When using Open WebUI, you should see this partial output in your console, indicating your arc gpu was detected",
+        "translatedContent": "使用 Open WebUI 时，您应该在控制台中看到此部分输出，表示已检测到您的 Arc GPU"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```bash\n[ollama-intel-arc] | Found 1 SYCL devices:\n[ollama-intel-arc] | |  |                   |                                       |       |Max    |        |Max  |Global |                     |\n[ollama-intel-arc] | |  |                   |                                       |       |compute|Max work|sub  |mem    |                     |\n[ollama-intel-arc] | |ID|        Device Type|                                   Name|Version|units  |group   |group|size   |       Driver version|\n[ollama-intel-arc] | |--|-------------------|---------------------------------------|-------|-------|--------|-----|-------|---------------------|\n[ollama-intel-arc] | | 0| [level_zero:gpu:0]|                     Intel Arc Graphics|  12.71|    128|    1024|   32| 62400M|         1.6.32224+14|\n```",
+    "ContentSha": "X57h4pEt8SoaZet/jNWdGnApOvd2K+ur5vGrS+Q20oM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n[ollama-intel-arc] | Found 1 SYCL devices:\n[ollama-intel-arc] | |  |                   |                                       |       |Max    |        |Max  |Global |                     |\n[ollama-intel-arc] | |  |                   |                                       |       |compute|Max work|sub  |mem    |                     |\n[ollama-intel-arc] | |ID|        Device Type|                                   Name|Version|units  |group   |group|size   |       Driver version|\n[ollama-intel-arc] | |--|-------------------|---------------------------------------|-------|-------|--------|-----|-------|---------------------|\n[ollama-intel-arc] | | 0| [level_zero:gpu:0]|                     Intel Arc Graphics|  12.71|    128|    1024|   32| 62400M|         1.6.32224+14|\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "20+9UXkqQUJhsA7vuAaNp95rV1oUtc3Dl0f+23T/mXc=",
+        "originContent": "[ollama-intel-arc] | Found 1 SYCL devices:",
+        "translatedContent": "[ollama-intel-arc] | Found 1 SYCL devices:"
+      },
+      {
+        "row": 3,
+        "rowsha": "cCysZ/bKhf9QJ8JqsprR3uwyDn8MuTLefK/wxuryLUQ=",
+        "originContent": "[ollama-intel-arc] | |  |                   |                                       |       |Max    |        |Max  |Global |                     |",
+        "translatedContent": "[ollama-intel-arc] | |  |                   |                                       |       |Max    |        |Max  |Global |                     |"
+      },
+      {
+        "row": 4,
+        "rowsha": "F2yUMT1QkC3ckQW/ieRWNZ+Qy1Fe0gmD3wPzc77SKeM=",
+        "originContent": "[ollama-intel-arc] | |  |                   |                                       |       |compute|Max work|sub  |mem    |                     |",
+        "translatedContent": "[ollama-intel-arc] | |  |                   |                                       |       |compute|Max work|sub  |mem    |                     |"
+      },
+      {
+        "row": 5,
+        "rowsha": "jN6QLvfIaQbn48eNb/5yqwF5zZUS36Zumle9beXWa+k=",
+        "originContent": "[ollama-intel-arc] | |ID|        Device Type|                                   Name|Version|units  |group   |group|size   |       Driver version|",
+        "translatedContent": "[ollama-intel-arc] | |ID|        Device Type|                                   Name|Version|units  |group   |group|size   |       Driver version|"
+      },
+      {
+        "row": 6,
+        "rowsha": "SW8wAe9hX3ehmR7C6N+Tpl7gE0QDFybgmbOwRxlavhQ=",
+        "originContent": "[ollama-intel-arc] | |--|-------------------|---------------------------------------|-------|-------|--------|-----|-------|---------------------|",
+        "translatedContent": "[ollama-intel-arc] | |--|-------------------|---------------------------------------|-------|-------|--------|-----|-------|---------------------|"
+      },
+      {
+        "row": 7,
+        "rowsha": "PQJsE3lupFJSYrwxdRARUjz9C+D6bIiw6x74wHuUmTI=",
+        "originContent": "[ollama-intel-arc] | | 0| [level_zero:gpu:0]|                     Intel Arc Graphics|  12.71|    128|    1024|   32| 62400M|         1.6.32224+14|",
+        "translatedContent": "[ollama-intel-arc] | | 0| [level_zero:gpu:0]|                     Intel Arc Graphics|  12.71|    128|    1024|   32| 62400M|         1.6.32224+14|"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n## Using Image Generation\n* Open your web browser to http://localhost:7860 to access the SD.Next web page.\n* For the purposes of this demonstration, we'll use the [DreamShaper](https://civitai.com/models/4384/dreamshaper) model.\n* Follow these steps:\n* Download the  `dreamshaper_8` model by clicking on its image (1).\n* Wait for it to download (~2GB in size) and then select it in the dropbox (2).\n* (Optional) If you want to stay in the SD.Next UI, feel free to explore (3).\n![screenshot](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/sd.next.png)\n* For more information on using SD.Next, refer to the official [documentation](https://vladmandic.github.io/sdnext-docs/).\n* Open your web browser to http://localhost:4040 to access the Open WebUI web page.\n* Go to the administrator [settings](http://localhost:4040/admin/settings) page.\n* Go to the Image section (1)\n* Make sure all settings look good, and validate them pressing the refresh button (2)\n* (Optional) Save any changes if you made them. (3)\n![screenshot](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/open-webui-settings.png)\n* For more information on using Open WebUI, refer to the official [documentation](https://docs.openwebui.com/)\n* That's it, go back to Open WebUI main page and start chatting.  Make sure to select the `Image` button to indicate you want to generate Images.\n![screenshot](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/open-webui-chat.png)\n\n## Using Automatic Speech Recognition\n* This is an example of a command to transcribe audio files:",
+    "ContentSha": "syTFxVlHBWZqiDLN05DciSXzu8ApyIMG7zgQVzwTj60=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 使用图像生成\n* 打开您的网页浏览器，访问 http://localhost:7860 以进入 SD.Next 网页。\n* 在本演示中，我们将使用 [DreamShaper](https://civitai.com/models/4384/dreamshaper) 模型。\n* 按照以下步骤操作：\n* 通过点击其图片下载 `dreamshaper_8` 模型（1）。\n* 等待下载完成（约 2GB 大小），然后在下拉框中选择它（2）。\n* （可选）如果您想停留在 SD.Next 界面，可以自由探索（3）。\n![screenshot](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/sd.next.png)\n* 有关使用 SD.Next 的更多信息，请参阅官方[文档](https://vladmandic.github.io/sdnext-docs/)。\n* 打开您的网页浏览器，访问 http://localhost:4040 以进入 Open WebUI 网页。\n* 进入管理员[设置](http://localhost:4040/admin/settings)页面。\n* 进入图像部分（1）\n* 确保所有设置正确无误，然后点击刷新按钮验证（2）\n* （可选）如果您进行了更改，请保存它们。（3）\n![screenshot](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/open-webui-settings.png)\n* 有关使用 Open WebUI 的更多信息，请参阅官方[文档](https://docs.openwebui.com/)\n* 完成后，返回 Open WebUI 主页面并开始聊天。确保选择 `Image` 按钮以表示您想生成图像。\n![screenshot](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/open-webui-chat.png)\n\n## 使用自动语音识别\n* 这是一个转录音频文件的命令示例：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "93GGEU75xpyu/n9P164JKeWatnDdDSQsglQyejPMPA8=",
+        "originContent": "## Using Image Generation",
+        "translatedContent": "## 使用图像生成"
+      },
+      {
+        "row": 3,
+        "rowsha": "tgBXaNVU1tlHQI58JCLMoNTOPwKeO13gP3vcbzswdTk=",
+        "originContent": "* Open your web browser to http://localhost:7860 to access the SD.Next web page.",
+        "translatedContent": "* 打开您的网页浏览器，访问 http://localhost:7860 以进入 SD.Next 网页。"
+      },
+      {
+        "row": 4,
+        "rowsha": "cW8vWW0Is4EIuT29vc4ltQwj8rf5PNyj5B+UF0iYUBU=",
+        "originContent": "* For the purposes of this demonstration, we'll use the [DreamShaper](https://civitai.com/models/4384/dreamshaper) model.",
+        "translatedContent": "* 在本演示中，我们将使用 [DreamShaper](https://civitai.com/models/4384/dreamshaper) 模型。"
+      },
+      {
+        "row": 5,
+        "rowsha": "DwUU1H+r9hyseavO6X2SVyjg8J7KKkuuVHIBXodkDBc=",
+        "originContent": "* Follow these steps:",
+        "translatedContent": "* 按照以下步骤操作："
+      },
+      {
+        "row": 6,
+        "rowsha": "ab4yQdNrf9vtlhK12YmDu8OC9T80AOaD6Bsl2gK+K/g=",
+        "originContent": "* Download the  `dreamshaper_8` model by clicking on its image (1).",
+        "translatedContent": "* 通过点击其图片下载 `dreamshaper_8` 模型（1）。"
+      },
+      {
+        "row": 7,
+        "rowsha": "1LJ/XNLHFA6N0SFMOaZT/Yg0h7hVy1fLPZxEfZlWo6c=",
+        "originContent": "* Wait for it to download (~2GB in size) and then select it in the dropbox (2).",
+        "translatedContent": "* 等待下载完成（约 2GB 大小），然后在下拉框中选择它（2）。"
+      },
+      {
+        "row": 8,
+        "rowsha": "wpwiKP7pMNzPhu21HYJHaaQC+T3YgvFe+kMD9Y8v+pM=",
+        "originContent": "* (Optional) If you want to stay in the SD.Next UI, feel free to explore (3).",
+        "translatedContent": "* （可选）如果您想停留在 SD.Next 界面，可以自由探索（3）。"
+      },
+      {
+        "row": 9,
+        "rowsha": "pDsFIh/YZ2+pSoU744SKNVJfiEPvCBTzUfMAdsJgCJI=",
+        "originContent": "![screenshot](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/sd.next.png)",
+        "translatedContent": "![screenshot](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/sd.next.png)"
+      },
+      {
+        "row": 10,
+        "rowsha": "l20prqdtiO6RvuuNwLEN1bmpep1ionHA6DtvborNDSI=",
+        "originContent": "* For more information on using SD.Next, refer to the official [documentation](https://vladmandic.github.io/sdnext-docs/).",
+        "translatedContent": "* 有关使用 SD.Next 的更多信息，请参阅官方[文档](https://vladmandic.github.io/sdnext-docs/)。"
+      },
+      {
+        "row": 11,
+        "rowsha": "FNqZMrLG3t8hFmOuWVPm2DtdT1heVrbr1flX1oNm4cw=",
+        "originContent": "* Open your web browser to http://localhost:4040 to access the Open WebUI web page.",
+        "translatedContent": "* 打开您的网页浏览器，访问 http://localhost:4040 以进入 Open WebUI 网页。"
+      },
+      {
+        "row": 12,
+        "rowsha": "N2aGW6eXlmqh7Dylj3SGKYIMW88qBmlQhsZ+vCM3MNI=",
+        "originContent": "* Go to the administrator [settings](http://localhost:4040/admin/settings) page.",
+        "translatedContent": "* 进入管理员[设置](http://localhost:4040/admin/settings)页面。"
+      },
+      {
+        "row": 13,
+        "rowsha": "PvIggbEzse/Cx369g9CCQMHbGj/JJTQnVUerg0VHeXw=",
+        "originContent": "* Go to the Image section (1)",
+        "translatedContent": "* 进入图像部分（1）"
+      },
+      {
+        "row": 14,
+        "rowsha": "KxoqEn1ge43ug0v+Jb2jTMInXcKtDC1iZEkUQG2gL1w=",
+        "originContent": "* Make sure all settings look good, and validate them pressing the refresh button (2)",
+        "translatedContent": "* 确保所有设置正确无误，然后点击刷新按钮验证（2）"
+      },
+      {
+        "row": 15,
+        "rowsha": "OUt9CV4L+/bJti+bqouvDqMuA6xcnQ2tISvFNnJJCLE=",
+        "originContent": "* (Optional) Save any changes if you made them. (3)",
+        "translatedContent": "* （可选）如果您进行了更改，请保存它们。（3）"
+      },
+      {
+        "row": 16,
+        "rowsha": "SmyRGfCx7KJmYJ2HEYqq1Sg1fwouNtfw1/GSAvaoYh8=",
+        "originContent": "![screenshot](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/open-webui-settings.png)",
+        "translatedContent": "![screenshot](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/open-webui-settings.png)"
+      },
+      {
+        "row": 17,
+        "rowsha": "/9mqoJWt8cutC35gWaiEAY5BkWmcw80HAJ7zs7zDlaM=",
+        "originContent": "* For more information on using Open WebUI, refer to the official [documentation](https://docs.openwebui.com/)",
+        "translatedContent": "* 有关使用 Open WebUI 的更多信息，请参阅官方[文档](https://docs.openwebui.com/)"
+      },
+      {
+        "row": 18,
+        "rowsha": "wKBHSuG4rHfqQB2eBooq5DlFMrQunm9ShwOjJjTLBHY=",
+        "originContent": "* That's it, go back to Open WebUI main page and start chatting.  Make sure to select the `Image` button to indicate you want to generate Images.",
+        "translatedContent": "* 完成后，返回 Open WebUI 主页面并开始聊天。确保选择 `Image` 按钮以表示您想生成图像。"
+      },
+      {
+        "row": 19,
+        "rowsha": "mvRKSRfEDEQgcLx5I7eWMdCGMPoMEQkgbYzXxlUzvSQ=",
+        "originContent": "![screenshot](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/open-webui-chat.png)",
+        "translatedContent": "![screenshot](https://raw.githubusercontent.com/eleiton/ollama-intel-arc/main/resources/open-webui-chat.png)"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Y0v0orJM4KmuiGzGw8HgIwGLOiBNCscq5uRj4MrFqB8=",
+        "originContent": "## Using Automatic Speech Recognition",
+        "translatedContent": "## 使用自动语音识别"
+      },
+      {
+        "row": 22,
+        "rowsha": "ChsqnZbPotUpAIZBWAW0s5Urkf4/Yh2szalyFQmW6KA=",
+        "originContent": "* This is an example of a command to transcribe audio files:",
+        "translatedContent": "* 这是一个转录音频文件的命令示例："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```bash\n  podman exec -it  whisper-ipex whisper https://www.lightbulblanguages.co.uk/resources/ge-audio/hobbies-ge.mp3 --device xpu --model small --language German --task transcribe\n```",
+    "ContentSha": "5hUzpWj7SjN4/zrIQMQAZnoiCpJet9NVoq+68K3chaU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n  podman exec -it  whisper-ipex whisper https://www.lightbulblanguages.co.uk/resources/ge-audio/hobbies-ge.mp3 --device xpu --model small --language German --task transcribe\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "gwyDmmXSXsbdYbU1MrzILirjkHoNiPjkW6gAg2PBgpg=",
+        "originContent": "  podman exec -it  whisper-ipex whisper https://www.lightbulblanguages.co.uk/resources/ge-audio/hobbies-ge.mp3 --device xpu --model small --language German --task transcribe",
+        "translatedContent": "  podman exec -it  whisper-ipex whisper https://www.lightbulblanguages.co.uk/resources/ge-audio/hobbies-ge.mp3 --device xpu --model small --language German --task transcribe"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "* Response:",
+    "ContentSha": "TJecguvoz5Lokq5iE1LvzDmJLfiO5c3s/ilS0xPet4k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* 响应：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "TJecguvoz5Lokq5iE1LvzDmJLfiO5c3s/ilS0xPet4k=",
+        "originContent": "* Response:",
+        "translatedContent": "* 响应："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```bash\n  [00:00.000 --> 00:08.000]  Ich habe viele Hobbys. In meiner Freizeit mache ich sehr gerne Sport, wie zum Beispiel Wasserball oder Radfahren.\n  [00:08.000 --> 00:13.000]  Außerdem lese ich gerne und lerne auch gerne Fremdsprachen.\n  [00:13.000 --> 00:19.000]  Ich gehe gerne ins Kino, höre gerne Musik und treffe mich mit meinen Freunden.\n  [00:19.000 --> 00:22.000]  Früher habe ich auch viel Basketball gespielt.\n  [00:22.000 --> 00:26.000]  Im Frühling und im Sommer werde ich viele Radtouren machen.\n  [00:26.000 --> 00:29.000]  Außerdem werde ich viel schwimmen gehen.\n  [00:29.000 --> 00:33.000]  Am liebsten würde ich das natürlich im Meer machen.\n```",
+    "ContentSha": "Ie5bCdmbWU2b/VmqD2nlIVzuvk7jlTKEELiRSLa0TQI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n  [00:00.000 --> 00:08.000]  Ich habe viele Hobbys. In meiner Freizeit mache ich sehr gerne Sport, wie zum Beispiel Wasserball oder Radfahren.\n  [00:08.000 --> 00:13.000]  Außerdem lese ich gerne und lerne auch gerne Fremdsprachen.\n  [00:13.000 --> 00:19.000]  Ich gehe gerne ins Kino, höre gerne Musik und treffe mich mit meinen Freunden.\n  [00:19.000 --> 00:22.000]  Früher habe ich auch viel Basketball gespielt.\n  [00:22.000 --> 00:26.000]  Im Frühling und im Sommer werde ich viele Radtouren machen.\n  [00:26.000 --> 00:29.000]  Außerdem werde ich viel schwimmen gehen.\n  [00:29.000 --> 00:33.000]  Am liebsten würde ich das natürlich im Meer machen.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "SksWFZwdqjXgTs5gCntw8la96KPQw1dEKQ2zsyJ6GRE=",
+        "originContent": "  [00:00.000 --> 00:08.000]  Ich habe viele Hobbys. In meiner Freizeit mache ich sehr gerne Sport, wie zum Beispiel Wasserball oder Radfahren.",
+        "translatedContent": "  [00:00.000 --> 00:08.000]  Ich habe viele Hobbys. In meiner Freizeit mache ich sehr gerne Sport, wie zum Beispiel Wasserball oder Radfahren."
+      },
+      {
+        "row": 3,
+        "rowsha": "iZSN7v6NqmducDnteoWnYrlNfZCnNq2nUiZO1mp5/GQ=",
+        "originContent": "  [00:08.000 --> 00:13.000]  Außerdem lese ich gerne und lerne auch gerne Fremdsprachen.",
+        "translatedContent": "  [00:08.000 --> 00:13.000]  Außerdem lese ich gerne und lerne auch gerne Fremdsprachen."
+      },
+      {
+        "row": 4,
+        "rowsha": "nQo4xz73ZXx/58N5fvUGyT31A5/bgveivyUVTdeCKGA=",
+        "originContent": "  [00:13.000 --> 00:19.000]  Ich gehe gerne ins Kino, höre gerne Musik und treffe mich mit meinen Freunden.",
+        "translatedContent": "  [00:13.000 --> 00:19.000]  Ich gehe gerne ins Kino, höre gerne Musik und treffe mich mit meinen Freunden."
+      },
+      {
+        "row": 5,
+        "rowsha": "cfhfiUuxUfYb3IUy9Xef/R/rTQB4cxlT3wDY33Uri1U=",
+        "originContent": "  [00:19.000 --> 00:22.000]  Früher habe ich auch viel Basketball gespielt.",
+        "translatedContent": "  [00:19.000 --> 00:22.000]  Früher habe ich auch viel Basketball gespielt."
+      },
+      {
+        "row": 6,
+        "rowsha": "D3hz97kWgbq4L6A0+Er6XeSsG4CVCyFE0vhqOELf/tw=",
+        "originContent": "  [00:22.000 --> 00:26.000]  Im Frühling und im Sommer werde ich viele Radtouren machen.",
+        "translatedContent": "  [00:22.000 --> 00:26.000]  Im Frühling und im Sommer werde ich viele Radtouren machen."
+      },
+      {
+        "row": 7,
+        "rowsha": "oO+ZrRYZpiqfg392INS8wrONKTfK8ECVrVZHr+9mymo=",
+        "originContent": "  [00:26.000 --> 00:29.000]  Außerdem werde ich viel schwimmen gehen.",
+        "translatedContent": "  [00:26.000 --> 00:29.000]  Außerdem werde ich viel schwimmen gehen."
+      },
+      {
+        "row": 8,
+        "rowsha": "dGXg/bLqp+kL6olFzQfajyW9heCRpF8fSOejiHTybLM=",
+        "originContent": "  [00:29.000 --> 00:33.000]  Am liebsten würde ich das natürlich im Meer machen.",
+        "translatedContent": "  [00:29.000 --> 00:33.000]  Am liebsten würde ich das natürlich im Meer machen."
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "* This is an example of a command to translate audio files:",
+    "ContentSha": "XOdNzZI3kcfR8kbzzk1w6pxkC4I3a8+uc0hwRdjN/fw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* 这是一个翻译音频文件的命令示例：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "XOdNzZI3kcfR8kbzzk1w6pxkC4I3a8+uc0hwRdjN/fw=",
+        "originContent": "* This is an example of a command to translate audio files:",
+        "translatedContent": "* 这是一个翻译音频文件的命令示例："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "```bash\n  podman exec -it  whisper-ipex whisper https://www.lightbulblanguages.co.uk/resources/ge-audio/hobbies-ge.mp3 --device xpu --model small --language German --task translate\n```",
+    "ContentSha": "L9+lf17whUhqYYOwRXufQjrpyx6Md18WKbFPgedf/mA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n  podman exec -it  whisper-ipex whisper https://www.lightbulblanguages.co.uk/resources/ge-audio/hobbies-ge.mp3 --device xpu --model small --language German --task translate\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "axe513OgXc2H1OduvWm4glv5A+XS5LqO2loXYkx9vWU=",
+        "originContent": "  podman exec -it  whisper-ipex whisper https://www.lightbulblanguages.co.uk/resources/ge-audio/hobbies-ge.mp3 --device xpu --model small --language German --task translate",
+        "translatedContent": "  podman exec -it  whisper-ipex whisper https://www.lightbulblanguages.co.uk/resources/ge-audio/hobbies-ge.mp3 --device xpu --model small --language German --task translate"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "* Response:",
+    "ContentSha": "TJecguvoz5Lokq5iE1LvzDmJLfiO5c3s/ilS0xPet4k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* 响应：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "TJecguvoz5Lokq5iE1LvzDmJLfiO5c3s/ilS0xPet4k=",
+        "originContent": "* Response:",
+        "translatedContent": "* 响应："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "```bash\n  [00:00.000 --> 00:02.000]  I have a lot of hobbies.\n  [00:02.000 --> 00:05.000]  In my free time I like to do sports,\n  [00:05.000 --> 00:08.000]  such as water ball or cycling.\n  [00:08.000 --> 00:10.000]  Besides, I like to read\n  [00:10.000 --> 00:13.000]  and also like to learn foreign languages.\n  [00:13.000 --> 00:15.000]  I like to go to the cinema,\n  [00:15.000 --> 00:16.000]  like to listen to music\n  [00:16.000 --> 00:19.000]  and meet my friends.\n  [00:19.000 --> 00:22.000]  I used to play a lot of basketball.\n  [00:22.000 --> 00:26.000]  In spring and summer I will do a lot of cycling tours.\n  [00:26.000 --> 00:29.000]  Besides, I will go swimming a lot.\n  [00:29.000 --> 00:33.000]  Of course, I would prefer to do this in the sea.\n```",
+    "ContentSha": "WENrMtDPDg89bGzYc/vbMBHnPiaa5nXYroBIBE59LPo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n  [00:00.000 --> 00:02.000]  I have a lot of hobbies.\n  [00:02.000 --> 00:05.000]  In my free time I like to do sports,\n  [00:05.000 --> 00:08.000]  such as water ball or cycling.\n  [00:08.000 --> 00:10.000]  Besides, I like to read\n  [00:10.000 --> 00:13.000]  and also like to learn foreign languages.\n  [00:13.000 --> 00:15.000]  I like to go to the cinema,\n  [00:15.000 --> 00:16.000]  like to listen to music\n  [00:16.000 --> 00:19.000]  and meet my friends.\n  [00:19.000 --> 00:22.000]  I used to play a lot of basketball.\n  [00:22.000 --> 00:26.000]  In spring and summer I will do a lot of cycling tours.\n  [00:26.000 --> 00:29.000]  Besides, I will go swimming a lot.\n  [00:29.000 --> 00:33.000]  Of course, I would prefer to do this in the sea.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "bHDUzZqGxU3EJNyqa2YjeJ9AF89tnIRl3WjCXy6NdwI=",
+        "originContent": "  [00:00.000 --> 00:02.000]  I have a lot of hobbies.",
+        "translatedContent": "  [00:00.000 --> 00:02.000]  I have a lot of hobbies."
+      },
+      {
+        "row": 3,
+        "rowsha": "nfDRJRzctRAqD3z0aiInDpFauWb1455eYWKb7k+ksdo=",
+        "originContent": "  [00:02.000 --> 00:05.000]  In my free time I like to do sports,",
+        "translatedContent": "  [00:02.000 --> 00:05.000]  In my free time I like to do sports,"
+      },
+      {
+        "row": 4,
+        "rowsha": "hWp3ug+A3vnFuh2byTJki2XE8C8UqOVJv1WmvPr4F3s=",
+        "originContent": "  [00:05.000 --> 00:08.000]  such as water ball or cycling.",
+        "translatedContent": "  [00:05.000 --> 00:08.000]  such as water ball or cycling."
+      },
+      {
+        "row": 5,
+        "rowsha": "xom18iIAtM+9ZmdN0RmazjVBz94TwHDDb2rRSjO00no=",
+        "originContent": "  [00:08.000 --> 00:10.000]  Besides, I like to read",
+        "translatedContent": "  [00:08.000 --> 00:10.000]  Besides, I like to read"
+      },
+      {
+        "row": 6,
+        "rowsha": "hb31isOlKGITGz8fp0KVpA6jl0bJFZzBy/9UQuAXfGE=",
+        "originContent": "  [00:10.000 --> 00:13.000]  and also like to learn foreign languages.",
+        "translatedContent": "  [00:10.000 --> 00:13.000]  and also like to learn foreign languages."
+      },
+      {
+        "row": 7,
+        "rowsha": "KEhetDaKj7yoMvlLMXWFOYfklICIVA6m1roH9wBDc+k=",
+        "originContent": "  [00:13.000 --> 00:15.000]  I like to go to the cinema,",
+        "translatedContent": "  [00:13.000 --> 00:15.000]  I like to go to the cinema,"
+      },
+      {
+        "row": 8,
+        "rowsha": "kN8ZcyG2Iv6JYmJBLjkmhKKJ7JswRvH+rXmXhIaOnhE=",
+        "originContent": "  [00:15.000 --> 00:16.000]  like to listen to music",
+        "translatedContent": "  [00:15.000 --> 00:16.000]  like to listen to music"
+      },
+      {
+        "row": 9,
+        "rowsha": "CZTns8cuic0jgOdz33f0rUG8yhaX7z1oCApDangfF3A=",
+        "originContent": "  [00:16.000 --> 00:19.000]  and meet my friends.",
+        "translatedContent": "  [00:16.000 --> 00:19.000]  and meet my friends."
+      },
+      {
+        "row": 10,
+        "rowsha": "oe1ZndZWGfqiFwUWnMeL1E70kADq7+H6/9Y5o988D4I=",
+        "originContent": "  [00:19.000 --> 00:22.000]  I used to play a lot of basketball.",
+        "translatedContent": "  [00:19.000 --> 00:22.000]  I used to play a lot of basketball."
+      },
+      {
+        "row": 11,
+        "rowsha": "PhpEPdmQ2NvsQP+wM7CyQs/vU90bxUoFcEP7NhXPjMM=",
+        "originContent": "  [00:22.000 --> 00:26.000]  In spring and summer I will do a lot of cycling tours.",
+        "translatedContent": "  [00:22.000 --> 00:26.000]  In spring and summer I will do a lot of cycling tours."
+      },
+      {
+        "row": 12,
+        "rowsha": "S3MVeEE850NNisARNWyKvhDktAy/3q/Z8hL26T/5dlQ=",
+        "originContent": "  [00:26.000 --> 00:29.000]  Besides, I will go swimming a lot.",
+        "translatedContent": "  [00:26.000 --> 00:29.000]  Besides, I will go swimming a lot."
+      },
+      {
+        "row": 13,
+        "rowsha": "MsIQDNlxHZJ9A9L/+SoPUX8vCKcMR/CQ9Z+Y3Afe0wI=",
+        "originContent": "  [00:29.000 --> 00:33.000]  Of course, I would prefer to do this in the sea.",
+        "translatedContent": "  [00:29.000 --> 00:33.000]  Of course, I would prefer to do this in the sea."
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "* To use your own audio files instead of web files, place them in the `~/whisper-files` folder and access them like this:",
+    "ContentSha": "6IXAykIeqN6ImEKNemUS+gwtUnETP540F8Zvq75kVBU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* 要使用您自己的音频文件而不是网络文件，请将它们放置在 `~/whisper-files` 文件夹中，并像这样访问：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXAykIeqN6ImEKNemUS+gwtUnETP540F8Zvq75kVBU=",
+        "originContent": "* To use your own audio files instead of web files, place them in the `~/whisper-files` folder and access them like this:",
+        "translatedContent": "* 要使用您自己的音频文件而不是网络文件，请将它们放置在 `~/whisper-files` 文件夹中，并像这样访问："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "```bash\n  podman exec -it  whisper-ipex whisper YOUR_FILE_NAME.mp3 --device xpu --model small --task translate\n```",
+    "ContentSha": "jB+a17V329bBFN44HuNMsKoixEWuvootM7L44uuuns4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n  podman exec -it  whisper-ipex whisper YOUR_FILE_NAME.mp3 --device xpu --model small --task translate\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "l84F3Ezx6MmimCp56xjnZLuZlk76OVhkuOiNeM9PXio=",
+        "originContent": "  podman exec -it  whisper-ipex whisper YOUR_FILE_NAME.mp3 --device xpu --model small --task translate",
+        "translatedContent": "  podman exec -it  whisper-ipex whisper YOUR_FILE_NAME.mp3 --device xpu --model small --task translate"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 24,
+    "Content": "\n## Updating the containers\nIf there are new updates in the [ipex-llm-inference-cpp-xpu](https://hub.docker.com/r/intelanalytics/ipex-llm-inference-cpp-xpu) docker Image or in the Open WebUI docker Image, you may want to update your containers, to stay up to date.\n\nBefore any updates, be sure to stop your containers",
+    "ContentSha": "XhHVJK2mESjTboOtj41ujD3yqphXemdBppMsah2v2fk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 更新容器\n如果 [ipex-llm-inference-cpp-xpu](https://hub.docker.com/r/intelanalytics/ipex-llm-inference-cpp-xpu) Docker 镜像或 Open WebUI Docker 镜像有新的更新，您可能需要更新您的容器，以保持最新状态。\n\n在进行任何更新之前，请确保停止您的容器",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1zuAx2r2cc7nP3X0/y26955JfE573GX6vj9ULt13k1Q=",
+        "originContent": "## Updating the containers",
+        "translatedContent": "## 更新容器"
+      },
+      {
+        "row": 3,
+        "rowsha": "9Gs+iAbZT9oDdVK76GqmMCngNZsatTX3uX/xmKakodU=",
+        "originContent": "If there are new updates in the [ipex-llm-inference-cpp-xpu](https://hub.docker.com/r/intelanalytics/ipex-llm-inference-cpp-xpu) docker Image or in the Open WebUI docker Image, you may want to update your containers, to stay up to date.",
+        "translatedContent": "如果 [ipex-llm-inference-cpp-xpu](https://hub.docker.com/r/intelanalytics/ipex-llm-inference-cpp-xpu) Docker 镜像或 Open WebUI Docker 镜像有新的更新，您可能需要更新您的容器，以保持最新状态。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "bajKajzHD8SCWf3KwGBaKWq/3w3xkh66pzfIxqV0Geg=",
+        "originContent": "Before any updates, be sure to stop your containers",
+        "translatedContent": "在进行任何更新之前，请确保停止您的容器"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 25,
+    "Content": "```bash\n$ podman compose down \n```",
+    "ContentSha": "CHvmgNXZ2D4QskPSpNs1oKGy8MwTVu42cDGOWf02dGE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ podman compose down \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "iahokBSp7b+dQ3eqyj47W1V+3aleu1gQ5u5NOcabSl8=",
+        "originContent": "$ podman compose down ",
+        "translatedContent": "$ podman compose down "
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 26,
+    "Content": "\nThen just run a pull command to retrieve the `latest` images.",
+    "ContentSha": "HU0lM+bcJn1g+ERWcCDJdJ3BUpYDgd1k0FdSNKfwpNk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "然后只需运行拉取命令以获取`latest`镜像。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "然后只需运行拉取命令以获取`latest`镜像。"
+      },
+      {
+        "row": 2,
+        "rowsha": "F+lTZqe7dVC6vIGxujEOV8CMjcVa8Nu2SwYBsgcNxdk=",
+        "originContent": "Then just run a pull command to retrieve the `latest` images.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 27,
+    "Content": "```bash\n$ podman compose pull\n```",
+    "ContentSha": "Ngdof4r2ddZhCk9ljO0fyacFNM6rnyviEy6KK5yzfX0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ podman compose pull\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "YuOwe7iVXO8R6PrhugkQiCm+p+7y/b2raja3vqQSiXI=",
+        "originContent": "$ podman compose pull",
+        "translatedContent": "$ podman compose pull"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 28,
+    "Content": "\n\nAfter that, you can run compose up to start your services again.",
+    "ContentSha": "OWkQLlNws6uML1zmRkcnWBOtUgwkDFFYKto2i82vqSk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n\n之后，您可以运行 compose up 来重新启动您的服务。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "onYuCxGfkJ5VgB2ooOaiMq3bRdqB8YaXLV6Oq/+8Bec=",
+        "originContent": "After that, you can run compose up to start your services again.",
+        "translatedContent": "之后，您可以运行 compose up 来重新启动您的服务。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 29,
+    "Content": "```bash\n$ podman compose up\n```",
+    "ContentSha": "v60z17n/ur5RHpul5XaB63JI68ZysHGDMMK3FRYbM4Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ podman compose up\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "20RKJEDr41V4NYjmEU0Z/BW9cOM4cCb4AmyjMV/OzLI=",
+        "originContent": "$ podman compose up",
+        "translatedContent": "$ podman compose up"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 30,
+    "Content": "\n## Manually connecting to your Ollama container\nYou can connect directly to your Ollama container by running these commands:\n",
+    "ContentSha": "cMAl9xcLnHlWQNQW2VIRAiEMQID0Ym/47Rke1XNXFzw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 手动连接到您的 Ollama 容器\n您可以通过运行以下命令直接连接到您的 Ollama 容器：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "OsXTR580CM+hr6mrSG0etIE9J0Du8l6Hbswg+qDDwEI=",
+        "originContent": "## Manually connecting to your Ollama container",
+        "translatedContent": "## 手动连接到您的 Ollama 容器"
+      },
+      {
+        "row": 3,
+        "rowsha": "iBrsxf+wssCarpp/g9su0dtuTOa3nMT3NuRlaGBVFGU=",
+        "originContent": "You can connect directly to your Ollama container by running these commands:",
+        "translatedContent": "您可以通过运行以下命令直接连接到您的 Ollama 容器："
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 31,
+    "Content": "```bash\n$ podman exec -it ollama-intel-arc /bin/bash\n$ /llm/ollama/ollama -v\n```",
+    "ContentSha": "TpeLdYgiJVH1yyk6vnfouAyJf5g1d77bLbGHKInbki0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ podman exec -it ollama-intel-arc /bin/bash\n$ /llm/ollama/ollama -v\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "SJ9QNge5O6fH7ziAmLdt3aklkSYM6AKH+qlWpbtq+oo=",
+        "originContent": "$ podman exec -it ollama-intel-arc /bin/bash",
+        "translatedContent": "$ podman exec -it ollama-intel-arc /bin/bash"
+      },
+      {
+        "row": 3,
+        "rowsha": "WhPw5ZZjBe0tSYegS/be+L9XMnaIemoTyYFKNjPRSsg=",
+        "originContent": "$ /llm/ollama/ollama -v",
+        "translatedContent": "$ /llm/ollama/ollama -v"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 32,
+    "Content": "\n## My development environment:\n* Core Ultra 7 155H\n* Intel® Arc™ Graphics (Meteor Lake-P)\n* Fedora 41\n\n## References \n* [Open WebUI documentation](https://docs.openwebui.com/)\n* [Docker - Intel ipex-llm tags](https://hub.docker.com/r/intelanalytics/ipex-llm-serving-xpu/tags)\n* [Docker - Intel extension for pytorch](https://hub.docker.com/r/intel/intel-extension-for-pytorch/tags)\n* [GitHub - Intel ipex-llm tags](https://github.com/intel/ipex-llm/tags)\n* [GitHub - Intel extension for pytorch](https://github.com/intel/intel-extension-for-pytorch/tags)",
+    "ContentSha": "LR08anzqqADBd8BSjYYMJF9ojMRso0ot2FnLe2FeBYY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 我的开发环境：\n* Core Ultra 7 155H\n* Intel® Arc™ 显卡（Meteor Lake-P）\n* Fedora 41\n\n## 参考资料\n* [Open WebUI 文档](https://docs.openwebui.com/)\n* [Docker - Intel ipex-llm 标签](https://hub.docker.com/r/intelanalytics/ipex-llm-serving-xpu/tags)\n* [Docker - Intel pytorch 扩展](https://hub.docker.com/r/intel/intel-extension-for-pytorch/tags)\n* [GitHub - Intel ipex-llm 标签](https://github.com/intel/ipex-llm/tags)\n* [GitHub - Intel pytorch 扩展](https://github.com/intel/intel-extension-for-pytorch/tags)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "YoERZVoyIgAAMHRqii8QLqQrkjrWGdA0PsjrXwgKaMk=",
+        "originContent": "## My development environment:",
+        "translatedContent": "## 我的开发环境："
+      },
+      {
+        "row": 3,
+        "rowsha": "bJ0OLw6kePrpLee2AGn+6+B42UZgOJlrYtp6eYJRY3M=",
+        "originContent": "* Core Ultra 7 155H",
+        "translatedContent": "* Core Ultra 7 155H"
+      },
+      {
+        "row": 4,
+        "rowsha": "JvMfACxqMTusQfFy+LxYZ0Shan8sEsgJWS6B/yBzuaA=",
+        "originContent": "* Intel® Arc™ Graphics (Meteor Lake-P)",
+        "translatedContent": "* Intel® Arc™ 显卡（Meteor Lake-P）"
+      },
+      {
+        "row": 5,
+        "rowsha": "EDSuCvHaytRl6PcY8Kh85N+/xtmjawplt4IowG6wBvw=",
+        "originContent": "* Fedora 41",
+        "translatedContent": "* Fedora 41"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "7CAJQ8h/Ig3BXYSMak6Udoiwa3JY1pWya058dX6SevE=",
+        "originContent": "## References ",
+        "translatedContent": "## 参考资料"
+      },
+      {
+        "row": 8,
+        "rowsha": "YijYPM2xrpyvVZHiqH3S4BV0D0ogbE+xHScVyw8a2Uc=",
+        "originContent": "* [Open WebUI documentation](https://docs.openwebui.com/)",
+        "translatedContent": "* [Open WebUI 文档](https://docs.openwebui.com/)"
+      },
+      {
+        "row": 9,
+        "rowsha": "bqqGNjv5DyYVxEX1vv4QGICz1ynFfgloGt1bqXpf3MM=",
+        "originContent": "* [Docker - Intel ipex-llm tags](https://hub.docker.com/r/intelanalytics/ipex-llm-serving-xpu/tags)",
+        "translatedContent": "* [Docker - Intel ipex-llm 标签](https://hub.docker.com/r/intelanalytics/ipex-llm-serving-xpu/tags)"
+      },
+      {
+        "row": 10,
+        "rowsha": "OZl0LkXDSfPhKzYNCxaP86pKOEfHqUfTznTHr5/sCbg=",
+        "originContent": "* [Docker - Intel extension for pytorch](https://hub.docker.com/r/intel/intel-extension-for-pytorch/tags)",
+        "translatedContent": "* [Docker - Intel pytorch 扩展](https://hub.docker.com/r/intel/intel-extension-for-pytorch/tags)"
+      },
+      {
+        "row": 11,
+        "rowsha": "JkYWytVAt7rcATeKZdYak9s5d4JUlh6f4aWLfdqVzPU=",
+        "originContent": "* [GitHub - Intel ipex-llm tags](https://github.com/intel/ipex-llm/tags)",
+        "translatedContent": "* [GitHub - Intel ipex-llm 标签](https://github.com/intel/ipex-llm/tags)"
+      },
+      {
+        "row": 12,
+        "rowsha": "bGke14YwQaVEL5PYTJRijmdd5cjqw3DWULRHDBxOnvo=",
+        "originContent": "* [GitHub - Intel extension for pytorch](https://github.com/intel/intel-extension-for-pytorch/tags)",
+        "translatedContent": "* [GitHub - Intel pytorch 扩展](https://github.com/intel/intel-extension-for-pytorch/tags)"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -28,12 +28,13 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # FlutterGenerator Installation
 
 1. Download and install the PY (fwGenerator.py) from [GitHub Releases](https://github.com/FlutterGenerator/FlutterGenerator/releases)
-2. Download Termux and run fwGenerator.py and copy the file and upload it to your Gihab with the name.
+2. Download Termux, run fwGenerator.py, copy the file, and upload it to your Github with the name.
 ```
 .github/workflows
 ```
@@ -118,13 +119,13 @@ python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 
 # Info
 
-**🚀 Dart Version: 𒁍 2.7.0-dev.2.1 ➢ 3.10.8**
+**🚀 Dart Version: 𒁍 2.7.0-dev.2.1 ➢ 3.11.0**
 
-**🚀 Flutter Version: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.9**
+**🚀 Flutter Version: 𒁍 v1.12.13+hotfix.5 ➢ 3.41.0**
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
 
 ---
