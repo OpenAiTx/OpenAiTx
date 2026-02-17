@@ -117,13 +117,13 @@
     "row": 20,
     "rowsha": "qR/iuiQWsQ7j83o7cAhbO3yM99qEPz8jw9z3H616J9o=",
     "originContent": "Please note that before your evaluation process, when Docker loads the databases, errors may occasionally occur due to environment inconsistency (these will not terminate the process but will appear in the Docker logs). As a result, some databases may fail to load properly, leading to empty databases. This will cause the evaluation results to be abnormally low.  ",
-    "translatedContent": "Xin lưu ý rằng trước khi quá trình đánh giá bắt đầu, khi Docker tải các cơ sở dữ liệu, đôi khi có thể xảy ra lỗi do môi trường không nhất quán (những lỗi này sẽ không kết thúc quá trình nhưng sẽ xuất hiện trong nhật ký Docker). Do đó, một số cơ sở dữ liệu có thể không tải đúng cách, dẫn đến cơ sở dữ liệu trống. Điều này sẽ khiến kết quả đánh giá thấp bất thường.  "
+    "translatedContent": "Xin lưu ý rằng trước quá trình đánh giá, khi Docker tải các cơ sở dữ liệu, đôi khi có thể xảy ra lỗi do môi trường không đồng nhất (những lỗi này sẽ không làm dừng quá trình nhưng sẽ xuất hiện trong nhật ký Docker). Kết quả là một số cơ sở dữ liệu có thể không tải đúng, dẫn đến cơ sở dữ liệu trống. Điều này sẽ khiến kết quả đánh giá thấp bất thường.  "
   },
   {
     "row": 21,
     "rowsha": "j3WE+j5u8Ng3SBgrMG35Bm6kDWNOXEnVhxpRhR2BM9w=",
     "originContent": "👉 Therefore, we strongly recommend checking the Docker logs for any errors **before running the evaluation** and verifying that all databases have been successfully loaded.",
-    "translatedContent": "👉 Vì vậy, chúng tôi khuyến nghị mạnh mẽ kiểm tra nhật ký Docker để phát hiện lỗi **trước khi chạy đánh giá** và xác minh rằng tất cả các cơ sở dữ liệu đã được tải thành công."
+    "translatedContent": "👉 Do đó, chúng tôi khuyến nghị mạnh mẽ kiểm tra nhật ký Docker để phát hiện lỗi **trước khi chạy đánh giá** và xác minh rằng tất cả các cơ sở dữ liệu đã được tải thành công."
   },
   {
     "row": 22,
@@ -135,7 +135,7 @@
     "row": 23,
     "rowsha": "KZY6Bs9wH08P6UdsDB5l8Z8KG67bCsVs1bNYgNPcdj8=",
     "originContent": "👉 We have updated the **Submission Guidelines**, where the customized agent scaffolds are supported. Please feel free to take a look at our detailed submission guidelines [here](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true).",
-    "translatedContent": "👉 Chúng tôi đã cập nhật **Hướng dẫn Nộp bài**, trong đó hỗ trợ bộ khung tác nhân tùy chỉnh. Vui lòng xem hướng dẫn nộp bài chi tiết tại [đây](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true)."
+    "translatedContent": "👉 Chúng tôi đã cập nhật **Hướng dẫn Nộp bài**, trong đó hỗ trợ khung đại lý tùy chỉnh. Vui lòng xem hướng dẫn nộp bài chi tiết của chúng tôi [ở đây](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true)."
   },
   {
     "row": 24,
@@ -157,9 +157,9 @@
   },
   {
     "row": 27,
-    "rowsha": "Z1U72G8iUw35F0VXT/QQ4hHQgL/nwD4xFuSMH8lzboc=",
-    "originContent": "- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.",
-    "translatedContent": "- [2025-11-06] 🐛 **Sửa lỗi** & 🐳 **Cập nhật Docker**: Đã cập nhật phiên bản sqlglot lên 26.16.4 để sửa lỗi trình phân tích cú pháp SQL không phân tích chính xác cho trình mô phỏng người dùng. Bạn có thể khắc phục bằng cách cài đặt lại bằng `pip install sqlglot==26.16.4` trong môi trường `bird_interact_eval`. Hình ảnh `bird_interact_eval` cũng đã được cập nhật, bạn cũng có thể tải về và tạo lại container `bird_interact_eval`."
+    "rowsha": "reJG5vUvGg3VLe761fXkWTV0AFcCTZQSTJylxcqjU54=",
+    "originContent": "- [2026-02-08] 🔥🔥🔥 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** has beed accepted at **ICLR 2026 (Oral)**! See you in Rio 🇧🇷!  ",
+    "translatedContent": "- [2026-02-08] 🔥🔥🔥 **[Bài báo Bird-Interact](https://huggingface.co/papers/2510.05318)** của chúng tôi đã được chấp nhận tại **ICLR 2026 (Oral)**! Hẹn gặp ở Rio 🇧🇷!  "
   },
   {
     "row": 28,
@@ -169,9 +169,9 @@
   },
   {
     "row": 29,
-    "rowsha": "lMr4RDYFItZ9CRw58CMm96RH+m1TG6qtPaypnv8airE=",
-    "originContent": "- [2025-10-21] 🐳 **Docker update**: We added the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually!",
-    "translatedContent": "- [2025-10-21] 🐳 **Cập nhật Docker**: Chúng tôi đã thêm Docker cho môi trường Full DB. Và đã đẩy 3 hình ảnh Docker (Base/Full DB Env và môi trường đánh giá cho cả `a-Interact` và `c-Interact`) lên Docker Hub để thuận tiện cho việc thiết lập môi trường. Không cần tải DB dumps và xây dựng hình ảnh thủ công!"
+    "rowsha": "Z1U72G8iUw35F0VXT/QQ4hHQgL/nwD4xFuSMH8lzboc=",
+    "originContent": "- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.",
+    "translatedContent": "- [2025-11-06] 🐛 **Sửa lỗi** & 🐳 **Cập nhật Docker**: Cập nhật phiên bản sqlglot lên 26.16.4 để sửa lỗi trình phân tích cú pháp SQL không phân tích đúng SQL cho trình mô phỏng người dùng. Bạn có thể sửa bằng cách cài đặt lại `pip install sqlglot==26.16.4` trong môi trường `bird_interact_eval`. Hình ảnh `bird_interact_eval` cũng đã được cập nhật, bạn cũng có thể kéo về và tạo lại container `bird_interact_eval`."
   },
   {
     "row": 30,
@@ -181,417 +181,417 @@
   },
   {
     "row": 31,
-    "rowsha": "1Idw1dJinQ5ViE9XSo3nl6paFvPhRHLVF82HX7wrKMQ=",
-    "originContent": "- [2025-10-08] 📝 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** is now publicly available!  ",
-    "translatedContent": "- [2025-10-08] 📝 **[Bài báo Bird-Interact](https://huggingface.co/papers/2510.05318)** của chúng tôi hiện đã được công khai!  "
+    "rowsha": "lMr4RDYFItZ9CRw58CMm96RH+m1TG6qtPaypnv8airE=",
+    "originContent": "- [2025-10-21] 🐳 **Docker update**: We added the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually!",
+    "translatedContent": "- [2025-10-21] 🐳 **Cập nhật Docker**: Chúng tôi đã thêm docker cho Full DB Env. Và đã đẩy 3 hình ảnh docker (Base/Full DB Env và môi trường đánh giá cho cả `a-Interact` và `c-Interact`) lên Docker Hub để thuận tiện cho việc thiết lập môi trường. Không cần tải DB dumps và xây dựng hình ảnh thủ công nữa!"
   },
   {
     "row": 32,
-    "rowsha": "CyhZ3V3Xw21cqVgFeKohnC9M+zgHFv7iAcLiXcj7GyI=",
-    "originContent": "  It presents the full details, methodology, and evaluation of our interactive text-to-SQL benchmark.  ",
-    "translatedContent": "  Bài báo trình bày đầy đủ chi tiết, phương pháp và đánh giá về bộ benchmark tương tác text-to-SQL.  "
-  },
-  {
-    "row": 33,
-    "rowsha": "5LLNJEctcvyORsxcmNT01K5A7hUbbXe73EKwGwkOgMI=",
-    "originContent": "  👉 Check it out and know more about the ideas behind [BIRD-Interact](https://bird-interact.github.io/).",
-    "translatedContent": "  👉 Xem ngay để hiểu rõ hơn về ý tưởng của [BIRD-Interact](https://bird-interact.github.io/)."
-  },
-  {
-    "row": 34,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 33,
+    "rowsha": "1Idw1dJinQ5ViE9XSo3nl6paFvPhRHLVF82HX7wrKMQ=",
+    "originContent": "- [2025-10-08] 📝 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** is now publicly available!  ",
+    "translatedContent": "- [2025-10-08] 📝 **[Bài báo Bird-Interact](https://huggingface.co/papers/2510.05318)** của chúng tôi hiện đã công khai!  "
+  },
+  {
+    "row": 34,
+    "rowsha": "CyhZ3V3Xw21cqVgFeKohnC9M+zgHFv7iAcLiXcj7GyI=",
+    "originContent": "  It presents the full details, methodology, and evaluation of our interactive text-to-SQL benchmark.  ",
+    "translatedContent": "  Bài báo trình bày đầy đủ chi tiết, phương pháp và đánh giá về benchmark text-to-SQL tương tác.  "
+  },
+  {
     "row": 35,
-    "rowsha": "p8U7kXBDyt7dTwl5nGd41SRQeVKq/0RgaX0XX6TqnW4=",
-    "originContent": "- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  ",
-    "translatedContent": "- [2025-08-26] 🚀 Chúng tôi vui mừng thông báo ra mắt bộ **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  "
+    "rowsha": "5LLNJEctcvyORsxcmNT01K5A7hUbbXe73EKwGwkOgMI=",
+    "originContent": "  👉 Check it out and know more about the ideas behind [BIRD-Interact](https://bird-interact.github.io/).",
+    "translatedContent": "  👉 Xem ngay và tìm hiểu thêm về ý tưởng đằng sau [BIRD-Interact](https://bird-interact.github.io/)."
   },
   {
     "row": 36,
-    "rowsha": "cZRLL0Cl1abpLmEsXUNPMa1FqgTG/AiR4Rta4dhhpzk=",
-    "originContent": "It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  ",
-    "translatedContent": "Đây là bộ dữ liệu khó — các mô hình LLM tốt nhất chỉ đạt tỷ lệ thành công **16.33%**, chỉ **10.0%** ở phần `c-interact` và `a-interact`.  "
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 37,
+    "rowsha": "p8U7kXBDyt7dTwl5nGd41SRQeVKq/0RgaX0XX6TqnW4=",
+    "originContent": "- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  ",
+    "translatedContent": "- [2025-08-26] 🚀 Chúng tôi vui mừng thông báo phát hành bộ **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  "
+  },
+  {
+    "row": 38,
+    "rowsha": "cZRLL0Cl1abpLmEsXUNPMa1FqgTG/AiR4Rta4dhhpzk=",
+    "originContent": "It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  ",
+    "translatedContent": "Đây là bộ khó — các LLM tốt nhất chỉ đạt tỷ lệ thành công **16.33%**, với chỉ **10.0%** ở phần `c-interact` và `a-interact`.  "
+  },
+  {
+    "row": 39,
     "rowsha": "uTh0Lj92DZu8zFDeupB/DHZqDkNrQJVNtDYmELxeRQg=",
     "originContent": "👉 For more details, please visit our [project website](https://bird-interact.github.io/).",
     "translatedContent": "👉 Để biết thêm chi tiết, vui lòng truy cập [website dự án](https://bird-interact.github.io/)."
   },
   {
-    "row": 38,
+    "row": 40,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 39,
+    "row": 41,
     "rowsha": "njQxscmq+qoQRPFHu4zV50Xh0Om7eNBkzAW8d5sodrI=",
     "originContent": "- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  ",
-    "translatedContent": "- [2025-08-26] 📬 Chúng tôi sẽ gửi **Ground Truth & Test cases** tới danh sách email trong tuần này.  "
-  },
-  {
-    "row": 40,
-    "rowsha": "HwzWO9mNhKPLTQfQ12WsbYV1MagdQY+HJT7EgFcBByA=",
-    "originContent": "If you want early access, please send an email as instructed on the site for an **automatic download**.  ",
-    "translatedContent": "Nếu bạn muốn truy cập sớm, hãy gửi email theo hướng dẫn trên trang để **tải tự động**.  "
-  },
-  {
-    "row": 41,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "- [2025-08-26] 💾 Ngoài ra, chúng tôi cũng đã phát hành phiên bản SQLite của **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** để thuận tiện hơn cho nghiên cứu cục bộ.  "
+    "translatedContent": "- [2025-08-26] 📬 Chúng tôi sẽ gửi **Ground Truth & Test cases** tới danh sách gửi thư của mình trong tuần này.  "
   },
   {
     "row": 42,
-    "rowsha": "PdfleL4UEb/TpBvwZuRBaqVEtkXfwgIc/mpYLMRWtyc=",
-    "originContent": "- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  ",
-    "translatedContent": "Phiên bản đầy đủ **LiveSQLBench-Base** và **-Large** sẽ sớm ra mắt!"
+    "rowsha": "HwzWO9mNhKPLTQfQ12WsbYV1MagdQY+HJT7EgFcBByA=",
+    "originContent": "If you want early access, please send an email as instructed on the site for an **automatic download**.  ",
+    "translatedContent": "Nếu bạn muốn truy cập sớm, vui lòng gửi email theo hướng dẫn trên trang để được **tải về tự động**.  "
   },
   {
     "row": 43,
-    "rowsha": "VxoqSMB6TpN2zObl1GDfFf/otbnzKtVIHirvSq2F8zI=",
-    "originContent": "The full **LiveSQLBench-Base** and **-Large** versions are coming soon!",
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
     "translatedContent": ""
   },
   {
     "row": 44,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "- [2025-08-22] **Sửa lỗi**: Trong mã nguồn Bird-Interact-Agent, chúng tôi đã khắc phục một lỗi khiến khi đánh giá SQL giai đoạn 2, SQL giai đoạn 1 được lưu trữ không thể thực thi thành công, dẫn đến tỷ lệ thành công của Giai đoạn 2 thấp hơn. Lỗi này chỉ ảnh hưởng đến các tác vụ mà sql giai đoạn 1 thực hiện một số thao tác trên cơ sở dữ liệu, ví dụ như CREATE table, v.v."
+    "rowsha": "PdfleL4UEb/TpBvwZuRBaqVEtkXfwgIc/mpYLMRWtyc=",
+    "originContent": "- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  ",
+    "translatedContent": "- [2025-08-26] 💾 Ngoài ra, chúng tôi cũng đã phát hành phiên bản SQLite của **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** để thuận tiện cho nghiên cứu cục bộ.  "
   },
   {
     "row": 45,
-    "rowsha": "73VPSBicTOvoCvqOPfsvXHp4/SFquVX6NiITz3mxcnk=",
-    "originContent": "- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
-    "translatedContent": ""
+    "rowsha": "VxoqSMB6TpN2zObl1GDfFf/otbnzKtVIHirvSq2F8zI=",
+    "originContent": "The full **LiveSQLBench-Base** and **-Large** versions are coming soon!",
+    "translatedContent": "Phiên bản đầy đủ **LiveSQLBench-Base** và **-Large** sẽ ra mắt sớm!"
   },
   {
     "row": 46,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "## 🧸 Tổng quan"
+    "translatedContent": ""
   },
   {
     "row": 47,
-    "rowsha": "QhSpt0Gs7Alk+veU+/7r5eBWjEmUPNckehpOkHHTFfY=",
-    "originContent": "## 🧸 Overview",
-    "translatedContent": ""
+    "rowsha": "73VPSBicTOvoCvqOPfsvXHp4/SFquVX6NiITz3mxcnk=",
+    "originContent": "- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
+    "translatedContent": "- [2025-08-22] **Sửa lỗi**: Trong mã Bird-Interact-Agent, chúng tôi đã sửa một lỗi khiến khi đánh giá phase-2 SQL, câu lệnh phase-1 SQL lưu trữ không thực thi được thành công, dẫn đến tỷ lệ thành công phase-2 thấp hơn. Lỗi này chỉ ảnh hưởng đến các tác vụ mà phase1 sql thực hiện một số thao tác trên cơ sở dữ liệu, ví dụ như CREATE table, v.v."
   },
   {
     "row": 48,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "BIRD-INTERACT, một bộ đánh giá text-to-SQL tương tác, **tái định nghĩa việc đánh giá Text-to-SQL qua lăng kính các tương tác động**."
+    "translatedContent": ""
   },
   {
     "row": 49,
-    "rowsha": "9U1B81vOnyeDPKlxb6O3XC4FXh0hbLXH8V57gCGlb0Q=",
-    "originContent": "BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.",
-    "translatedContent": "Môi trường kết hợp một cơ sở tri thức phân cấp, tài liệu cơ sở dữ liệu và một trình mô phỏng người dùng dựa trên chức năng để tái tạo môi trường doanh nghiệp thực tế với đầy đủ thao tác **CRUD**."
+    "rowsha": "QhSpt0Gs7Alk+veU+/7r5eBWjEmUPNckehpOkHHTFfY=",
+    "originContent": "## 🧸 Overview",
+    "translatedContent": "## 🧸 Tổng quan"
   },
   {
     "row": 50,
-    "rowsha": "84g83RdosxtgIw+gRwhL1ror9irKd50meUk3EOxrDGA=",
-    "originContent": "The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.",
-    "translatedContent": "Nó cung cấp hai chế độ kiểm thử khắt khe: (1) **Tương tác hội thoại** bị động và (2) **Tương tác chủ động kiểu Agentic**, bao gồm 600 tác vụ được chú thích như Business Intelligence (BI), thao tác CRUD, v.v., mỗi tác vụ đều có các ca kiểm thử thực thi."
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 51,
-    "rowsha": "9KzX3dvnS81NZYRZ9Lky7nqmWEbBkaBCTMs8AamBzSA=",
-    "originContent": "It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.",
-    "translatedContent": "Các đánh giá điển hình kích hoạt từ 1.968-5.496 lượt tương tác giữa mô hình và trình mô phỏng người dùng, trong khi các mô hình suy luận hiện đại chỉ giải được **≈24%** và **≈18%** tác vụ, nhấn mạnh độ khó của bộ đánh giá này."
+    "rowsha": "9U1B81vOnyeDPKlxb6O3XC4FXh0hbLXH8V57gCGlb0Q=",
+    "originContent": "BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.",
+    "translatedContent": "BIRD-INTERACT, một bộ đánh giá text-to-SQL tương tác, **định nghĩa lại việc đánh giá Text-to-SQL qua lăng kính tương tác động**."
   },
   {
     "row": 52,
-    "rowsha": "mpc5AeXDAHxdj52GwIefEDRc0bpXki0gsoYNYWijI0c=",
-    "originContent": "Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.",
-    "translatedContent": ""
+    "rowsha": "84g83RdosxtgIw+gRwhL1ror9irKd50meUk3EOxrDGA=",
+    "originContent": "The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.",
+    "translatedContent": "Môi trường kết hợp cơ sở tri thức phân cấp, tài liệu cơ sở dữ liệu và trình mô phỏng người dùng dựa trên chức năng để tái tạo môi trường doanh nghiệp thực với đầy đủ các thao tác **CRUD**."
   },
   {
     "row": 53,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "<p align=\"center\">"
+    "rowsha": "9KzX3dvnS81NZYRZ9Lky7nqmWEbBkaBCTMs8AamBzSA=",
+    "originContent": "It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.",
+    "translatedContent": "Nó cung cấp hai chế độ kiểm thử nghiêm ngặt: (1) **Tương tác hội thoại** bị động và (2) **Tương tác chủ động** dạng agent, bao quát 600 tác vụ đã được gán nhãn bao gồm Business Intelligence (BI), thao tác CRUD và nhiều hơn nữa, mỗi tác vụ đều có test case thực thi được."
   },
   {
     "row": 54,
-    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
-    "originContent": "<p align=\"center\">",
-    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" "
+    "rowsha": "mpc5AeXDAHxdj52GwIefEDRc0bpXki0gsoYNYWijI0c=",
+    "originContent": "Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.",
+    "translatedContent": "Các đánh giá điển hình kích hoạt 1.968-5.496 lượt tương tác giữa mô hình và trình mô phỏng người dùng, trong khi các mô hình suy luận hiện đại chỉ giải quyết được **≈24%** và **≈18%** tác vụ, nhấn mạnh độ khó của bộ đánh giá này."
   },
   {
     "row": 55,
-    "rowsha": "75rx/bZj6j98j3RNS6gpBC2JCE4XvCP27x7SUM1Pp/k=",
-    "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" ",
-    "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 56,
-    "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
-    "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
-    "translatedContent": "</p>"
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
   },
   {
     "row": 57,
-    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-    "originContent": "</p>",
-    "translatedContent": ""
+    "rowsha": "75rx/bZj6j98j3RNS6gpBC2JCE4XvCP27x7SUM1Pp/k=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" ",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" "
   },
   {
     "row": 58,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "### ✅ Hai chế độ đánh giá"
+    "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
+    "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
+    "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
   },
   {
     "row": 59,
-    "rowsha": "a+eobES8Y0aPdgWyMeEskYpAfe5mRRebAHJzTW4BWXY=",
-    "originContent": "### ✅ Two Evaluation Modes",
-    "translatedContent": ""
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
   },
   {
     "row": 60,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "BIRD-INTERACT hỗ trợ hai chế độ đánh giá như đã nêu trên:"
+    "translatedContent": ""
   },
   {
     "row": 61,
-    "rowsha": "rQgxc4D2aLnRS+OWIF63LnqSZtF255KZkRId/tY989s=",
-    "originContent": "BIRD-INTERACT supports two evaluation modes as mentioned above:",
-    "translatedContent": ""
+    "rowsha": "a+eobES8Y0aPdgWyMeEskYpAfe5mRRebAHJzTW4BWXY=",
+    "originContent": "### ✅ Two Evaluation Modes",
+    "translatedContent": "### ✅ Hai chế độ đánh giá"
   },
   {
     "row": 62,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "   - **c-Interact**: Tương tác hội thoại, là chế độ bị động và luồng công việc cố định. Mã nguồn và thông tin chi tiết có trong `bird_interact_conv`."
+    "translatedContent": ""
   },
   {
     "row": 63,
-    "rowsha": "doLQcF2moo95fuQb//rTr1wBmz+PRVTsyIDgCDLJCr0=",
-    "originContent": "   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.",
-    "translatedContent": "   - **a-Interact**: Tương tác chủ động kiểu Agentic, là chế độ chủ động nhập vai nơi luồng công việc động và do mô hình dẫn dắt. Mã nguồn và thông tin chi tiết có trong `bird_interact_agent`."
+    "rowsha": "rQgxc4D2aLnRS+OWIF63LnqSZtF255KZkRId/tY989s=",
+    "originContent": "BIRD-INTERACT supports two evaluation modes as mentioned above:",
+    "translatedContent": "BIRD-INTERACT hỗ trợ hai chế độ đánh giá như đã đề cập ở trên:"
   },
   {
     "row": 64,
-    "rowsha": "DPbnNKRyhiwaDJCP/LcyBaIbe1AFeT6wnnTq78NCOrw=",
-    "originContent": "   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.",
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
     "translatedContent": ""
   },
   {
     "row": 65,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "doLQcF2moo95fuQb//rTr1wBmz+PRVTsyIDgCDLJCr0=",
+    "originContent": "   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.",
+    "translatedContent": "   - **c-Interact**: Tương tác hội thoại, đây là chế độ bị động với quy trình cố định. Mã nguồn và thông tin chi tiết có thể tìm thấy tại `bird_interact_conv`."
   },
   {
     "row": 66,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "### 🐣 Phiên bản rút gọn"
+    "rowsha": "DPbnNKRyhiwaDJCP/LcyBaIbe1AFeT6wnnTq78NCOrw=",
+    "originContent": "   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.",
+    "translatedContent": "   - **a-Interact**: Tương tác chủ động dạng agent, là chế độ chủ động với quy trình động và được dẫn dắt bởi các mô hình. Mã nguồn và thông tin chi tiết có thể tìm thấy tại `bird_interact_agent`."
   },
   {
     "row": 67,
-    "rowsha": "q5RzZ4z97zBrs0+Wz0A587XCSPhq1czDbEhkpV+/69A=",
-    "originContent": "### 🐣 Lite Version",
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
     "translatedContent": ""
   },
   {
     "row": 68,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Chúng tôi phát hành phiên bản rút gọn của BIRD-INTERACT, `bird-interact-lite-exp`, bao gồm 270 tác vụ thực tế chất lượng cao dành riêng cho PostgreSQL. Đây là điểm bắt đầu tốt để thử nghiệm nhanh."
+    "translatedContent": ""
   },
   {
     "row": 69,
-    "rowsha": "2CBSzGJ6FluIx3SWGBCAVjhuaYkr5V5Oouf6TjmieCI=",
-    "originContent": "We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. ",
-    "translatedContent": ""
+    "rowsha": "q5RzZ4z97zBrs0+Wz0A587XCSPhq1czDbEhkpV+/69A=",
+    "originContent": "### 🐣 Lite Version",
+    "translatedContent": "### 🐣 Phiên bản rút gọn"
   },
   {
     "row": 70,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "### 🦜 Phiên bản đầy đủ"
+    "translatedContent": ""
   },
   {
     "row": 71,
-    "rowsha": "4NEf5b/8pW3NO+wyiruRc0fUjzemeI1cDyHO3LSPcQ8=",
-    "originContent": "### 🦜 Full Version",
-    "translatedContent": ""
+    "rowsha": "2CBSzGJ6FluIx3SWGBCAVjhuaYkr5V5Oouf6TjmieCI=",
+    "originContent": "We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. ",
+    "translatedContent": "Chúng tôi phát hành bản rút gọn của BIRD-INTERACT, `bird-interact-lite-exp`, bao gồm 270 tác vụ thực tế chất lượng cao dành riêng cho PostgreSQL. Đây là điểm khởi đầu tốt để thử nghiệm nhanh."
   },
   {
     "row": 72,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Phiên bản đầy đủ của BIRD-INTERACT, `bird-interact-full`, là bộ đánh giá toàn diện bao gồm 600 tác vụ cho PostgreSQL. Nó bao phủ nhiều loại thao tác SQL và truy vấn người dùng. Phiên bản đầy đủ sẽ ra mắt sớm."
+    "translatedContent": ""
   },
   {
     "row": 73,
-    "rowsha": "qxVDafA3gAj2+/1PZQ/Sh9MVXNARM4e0D2YJ1qokJO8=",
-    "originContent": "The full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.",
-    "translatedContent": ""
+    "rowsha": "4NEf5b/8pW3NO+wyiruRc0fUjzemeI1cDyHO3LSPcQ8=",
+    "originContent": "### 🦜 Full Version",
+    "translatedContent": "### 🦜 Phiên bản đầy đủ"
   },
   {
     "row": 74,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "### Kết quả hiệu năng mô hình trên BIRD-INTERACT-FULL"
+    "translatedContent": ""
   },
   {
     "row": 75,
-    "rowsha": "e1fVIRnf5DJBlNl7U6EoyQI0eVJkYgfI3rTGBDoYd2M=",
-    "originContent": "### Model Performance Results on BIRD-INTERACT-FULL",
-    "translatedContent": ""
+    "rowsha": "qxVDafA3gAj2+/1PZQ/Sh9MVXNARM4e0D2YJ1qokJO8=",
+    "originContent": "The full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.",
+    "translatedContent": "Phiên bản đầy đủ của BIRD-INTERACT, `bird-interact-full`, là bộ đánh giá toàn diện bao gồm 600 tác vụ cho PostgreSQL. Nó bao phủ nhiều thao tác SQL và truy vấn người dùng. Phiên bản đầy đủ sẽ ra mắt sớm."
   },
   {
     "row": 76,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "#### 1. Hiệu năng **c-Interact Text-to-SQL**"
-  },
-  {
-    "row": 77,
-    "rowsha": "R2z5Tn93qsANHvoKru7vIhL4TbniwafDJfbyihPd/Ug=",
-    "originContent": "#### 1. **c-Interact Text-to-SQL** Performance",
-    "translatedContent": "| Hạng | Tên mô hình        | Phần thưởng chuẩn hóa | Chi phí TB (USD)/Tác vụ | Cấp độ              |"
-  },
-  {
-    "row": 78,
-    "rowsha": "Jq9h6d3xn5I7dko6pYZ1kyE7T6AkdSWLxen/zAFM3fQ=",
-    "originContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level              |",
-    "translatedContent": "|:----:|:-------------------|:---------------------:|:------------------------:|:--------------------:|"
-  },
-  {
-    "row": 79,
-    "rowsha": "qk5BEHvGn26A4xMQOUxlM81RNWe62xncRk4IjTUEgFk=",
-    "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|",
-    "translatedContent": "| 1    | Gemini-2.5-Pro     | 20.92                 | $0.04                    | 🏆 Chat Xuất sắc    |"
-  },
-  {
-    "row": 80,
-    "rowsha": "niovxHIv8QBH9Vb49dzVyYEQLTFso9bR0DXVaoZc0Tc=",
-    "originContent": "| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 Excellent Chat  |",
     "translatedContent": ""
   },
   {
-    "row": 81,
-    "rowsha": "efdWY6XZofU3BTXM7X1QSU3bodDl2zUs6qXYgYo/lDQ=",
-    "originContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 Excellent Chat  |",
-    "translatedContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 Chat xuất sắc    |"
+    "row": 77,
+    "rowsha": "e1fVIRnf5DJBlNl7U6EoyQI0eVJkYgfI3rTGBDoYd2M=",
+    "originContent": "### Model Performance Results on BIRD-INTERACT-FULL",
+    "translatedContent": "### Kết quả hiệu năng mô hình trên BIRD-INTERACT-FULL"
   },
   {
-    "row": 82,
-    "rowsha": "nviRDKmcMgsryACogpf/kuPovN+vvfQZ7jOR25fdTZs=",
-    "originContent": "| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 Good Chat       |",
-    "translatedContent": "| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 Chat tốt         |"
-  },
-  {
-    "row": 83,
-    "rowsha": "RvN9yOCl1wRxaTwNu/KOntIycX4eUDfB5hhxokbPVMk=",
-    "originContent": "| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 Good Chat       |",
-    "translatedContent": "| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 Chat tốt         |"
-  },
-  {
-    "row": 84,
-    "rowsha": "XnrIVaEU6JsLcBVIdTctBZgL3b5qOsvnbLFzA/dVvuc=",
-    "originContent": "| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ Standard        |",
-    "translatedContent": "| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ Tiêu chuẩn        |"
-  },
-  {
-    "row": 85,
-    "rowsha": "i38LlBHIyjGbWdptOTFVCVg9koB64mcJiF+2JcIiv8M=",
-    "originContent": "| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ Standard        |",
-    "translatedContent": "| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ Tiêu chuẩn        |"
-  },
-  {
-    "row": 86,
-    "rowsha": "YfmrCm2i7EZR0ehYI/xncYwVmDUeNwVfSh2xtrrWf0g=",
-    "originContent": "| 7    | GPT-5              | 12.58             | $0.08               | ⚪ Basic           |",
-    "translatedContent": "| 7    | GPT-5              | 12.58             | $0.08               | ⚪ Cơ bản            |"
-  },
-  {
-    "row": 87,
+    "row": 78,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 79,
+    "rowsha": "R2z5Tn93qsANHvoKru7vIhL4TbniwafDJfbyihPd/Ug=",
+    "originContent": "#### 1. **c-Interact Text-to-SQL** Performance",
+    "translatedContent": "#### 1. **Hiệu năng c-Interact Text-to-SQL**"
+  },
+  {
+    "row": 80,
+    "rowsha": "Jq9h6d3xn5I7dko6pYZ1kyE7T6AkdSWLxen/zAFM3fQ=",
+    "originContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level              |",
+    "translatedContent": "| Hạng | Tên mô hình        | Normalized Reward | Chi phí TB (USD)/Tác vụ | Cấp độ              |"
+  },
+  {
+    "row": 81,
+    "rowsha": "qk5BEHvGn26A4xMQOUxlM81RNWe62xncRk4IjTUEgFk=",
+    "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|",
+    "translatedContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|"
+  },
+  {
+    "row": 82,
+    "rowsha": "niovxHIv8QBH9Vb49dzVyYEQLTFso9bR0DXVaoZc0Tc=",
+    "originContent": "| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 Excellent Chat  |",
+    "translatedContent": "| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 Trò chuyện xuất sắc  |"
+  },
+  {
+    "row": 83,
+    "rowsha": "efdWY6XZofU3BTXM7X1QSU3bodDl2zUs6qXYgYo/lDQ=",
+    "originContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 Excellent Chat  |",
+    "translatedContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 Trò chuyện xuất sắc  |"
+  },
+  {
+    "row": 84,
+    "rowsha": "nviRDKmcMgsryACogpf/kuPovN+vvfQZ7jOR25fdTZs=",
+    "originContent": "| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 Good Chat       |",
+    "translatedContent": "| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 Trò chuyện tốt       |"
+  },
+  {
+    "row": 85,
+    "rowsha": "RvN9yOCl1wRxaTwNu/KOntIycX4eUDfB5hhxokbPVMk=",
+    "originContent": "| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 Good Chat       |",
+    "translatedContent": "| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 Trò chuyện tốt       |"
+  },
+  {
+    "row": 86,
+    "rowsha": "XnrIVaEU6JsLcBVIdTctBZgL3b5qOsvnbLFzA/dVvuc=",
+    "originContent": "| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ Standard        |",
+    "translatedContent": "| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ Tiêu chuẩn           |"
+  },
+  {
+    "row": 87,
+    "rowsha": "i38LlBHIyjGbWdptOTFVCVg9koB64mcJiF+2JcIiv8M=",
+    "originContent": "| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ Standard        |",
+    "translatedContent": "| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ Tiêu chuẩn           |"
+  },
+  {
     "row": 88,
+    "rowsha": "YfmrCm2i7EZR0ehYI/xncYwVmDUeNwVfSh2xtrrWf0g=",
+    "originContent": "| 7    | GPT-5              | 12.58             | $0.08               | ⚪ Basic           |",
+    "translatedContent": "| 7    | GPT-5              | 12.58             | $0.08               | ⚪ Cơ bản               |"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
     "rowsha": "Tqql2jza5bb6QlmVOGBB9geprkhJKPZ1jY96SFwnhVQ=",
     "originContent": "#### 2. **a-Interact Text-to-SQL** Performance",
     "translatedContent": "#### 2. **Hiệu suất a-Interact Text-to-SQL**"
   },
   {
-    "row": 89,
+    "row": 91,
     "rowsha": "0k1L/YlMi6EJx2r9l/+p0/MoPxfokyl2yBuqVKYHrvc=",
     "originContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level                    |",
-    "translatedContent": "| Hạng | Tên Mô Hình        | Thưởng Chuẩn Hóa  | Chi Phí TB (USD)/Tác vụ | Cấp độ                     |"
-  },
-  {
-    "row": 90,
-    "rowsha": "Nj7icDShMepIyOwnKPfnjIUuMT7zkHPHYxjVXL2S9PU=",
-    "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|",
-    "translatedContent": "|:----:|:-------------------|:-----------------:|:-----------------------:|:--------------------------:|"
-  },
-  {
-    "row": 91,
-    "rowsha": "HPUqjETPdas09RgDiB02Y5JusE3mBlNYD8nz+Dx7c74=",
-    "originContent": "| 1    | GPT-5              | 25.52             | $0.24               | 🏆 Excellent Interaction |",
-    "translatedContent": "| 1    | GPT-5              | 25.52             | $0.24                   | 🏆 Tương tác xuất sắc      |"
+    "translatedContent": "| Xếp hạng | Tên mô hình         | Phần thưởng Chuẩn hóa | Chi phí TB (USD)/Tác vụ | Cấp độ                      |"
   },
   {
     "row": 92,
-    "rowsha": "bMQ3A+A1VULUzBWGbNnUcN0XlHUVtuXIr4V4Jz8vwVc=",
-    "originContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 Excellent Interaction |",
-    "translatedContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51                   | 🏆 Tương tác xuất sắc      |"
+    "rowsha": "Nj7icDShMepIyOwnKPfnjIUuMT7zkHPHYxjVXL2S9PU=",
+    "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|",
+    "translatedContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|"
   },
   {
     "row": 93,
-    "rowsha": "rGnh3lbAUKn9WmgeJfVg6KftnPVmhopzlz9DWoXVIXE=",
-    "originContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 Good Interaction      |",
-    "translatedContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60                   | 💎 Tương tác tốt           |"
+    "rowsha": "HPUqjETPdas09RgDiB02Y5JusE3mBlNYD8nz+Dx7c74=",
+    "originContent": "| 1    | GPT-5              | 25.52             | $0.24               | 🏆 Excellent Interaction |",
+    "translatedContent": "| 1    | GPT-5              | 25.52             | $0.24               | 🏆 Tương tác xuất sắc     |"
   },
   {
     "row": 94,
-    "rowsha": "4j/e+hmJNdDkZIiDoN6zuuevmfNQ0LZbddfDB7qMFQo=",
-    "originContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 Good Interaction      |",
-    "translatedContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22                   | 💎 Tương tác tốt           |"
+    "rowsha": "bMQ3A+A1VULUzBWGbNnUcN0XlHUVtuXIr4V4Jz8vwVc=",
+    "originContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 Excellent Interaction |",
+    "translatedContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 Tương tác xuất sắc     |"
   },
   {
     "row": 95,
-    "rowsha": "Qat+3srGhiJLNyet0Hc4k2JCHILQ8OY4Styi9pEkXmE=",
-    "originContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ Standard              |",
-    "translatedContent": "| 5    | O3-Mini            | 16.43             | $0.06                   | ✨ Tiêu chuẩn              |"
+    "rowsha": "rGnh3lbAUKn9WmgeJfVg6KftnPVmhopzlz9DWoXVIXE=",
+    "originContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 Good Interaction      |",
+    "translatedContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 Tương tác tốt          |"
   },
   {
     "row": 96,
-    "rowsha": "J8+i15WAOqjKWwsNKKoZQtRjkMj9kns+HaUE16WPSaY=",
-    "originContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ Standard              |",
-    "translatedContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06                   | ✨ Tiêu chuẩn              |"
+    "rowsha": "4j/e+hmJNdDkZIiDoN6zuuevmfNQ0LZbddfDB7qMFQo=",
+    "originContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 Good Interaction      |",
+    "translatedContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 Tương tác tốt          |"
   },
   {
     "row": 97,
-    "rowsha": "cAR/cpPakbQWvBq/RxtLIJ5sSCyZ8d5CpAtjqa0S1L8=",
-    "originContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ Basic                 |",
-    "translatedContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07                   | ⚪ Cơ bản                  |"
+    "rowsha": "Qat+3srGhiJLNyet0Hc4k2JCHILQ8OY4Styi9pEkXmE=",
+    "originContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ Standard              |",
+    "translatedContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ Tiêu chuẩn              |"
   },
   {
     "row": 98,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "J8+i15WAOqjKWwsNKKoZQtRjkMj9kns+HaUE16WPSaY=",
+    "originContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ Standard              |",
+    "translatedContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ Tiêu chuẩn              |"
   },
   {
     "row": 99,
-    "rowsha": "+Jpw7DNyX62i16RieTingm/y9I/fbyKt3QION65wVVM=",
-    "originContent": "> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.",
-    "translatedContent": "> \\* Tham số Ngân sách: Ngân sách Khởi tạo/Ngân sách Kiên nhẫn Người dùng, đo bằng đơn vị tiền ảo *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Xem chi tiết tại [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)."
+    "rowsha": "cAR/cpPakbQWvBq/RxtLIJ5sSCyZ8d5CpAtjqa0S1L8=",
+    "originContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ Basic                 |",
+    "translatedContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ Cơ bản                  |"
   },
   {
     "row": 100,
@@ -601,9 +601,9 @@
   },
   {
     "row": 101,
-    "rowsha": "5u3FiJW4Jxe5q1dPL28qg/MUDpTFWL7rKBi3H4FV4ns=",
-    "originContent": "### Interaction-Time Scaling (ITS)",
-    "translatedContent": "### Quy mô Thời gian Tương tác (ITS)"
+    "rowsha": "+Jpw7DNyX62i16RieTingm/y9I/fbyKt3QION65wVVM=",
+    "originContent": "> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.",
+    "translatedContent": "> \\* Thông số ngân sách: Ngân sách khởi đầu/Ngân sách kiên nhẫn người dùng, được đo bằng đơn vị tiền ảo *bird-coin* <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Xem chi tiết tại [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)."
   },
   {
     "row": 102,
@@ -613,9 +613,9 @@
   },
   {
     "row": 103,
-    "rowsha": "NwBIsVzW+kYLShpJ6rffKZncWEjgGCQhf/Ih+5DLlLU=",
-    "originContent": "Interaction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.",
-    "translatedContent": "Quy mô Thời gian Tương tác (ITS) chỉ khả năng của mô hình trong việc liên tục cải thiện hiệu suất cuối cùng thông qua các lượt tương tác nhiều lần. Khi hiệu suất tương tác này vượt qua hiệu suất lý tưởng của mô hình với tác vụ đã chỉ định đầy đủ, không mơ hồ, ta nói rằng nó thỏa mãn **định luật ITS**. Khi sự kiên nhẫn của người dùng tăng lên và số lượt tương tác tích lũy, hiệu suất tiếp tục cải thiện, thể hiện rằng mô hình có thể duy trì giao tiếp hiệu quả qua các đoạn hội thoại kéo dài. Hiện tại, chỉ có claude-3-7-sonnet thỏa mãn định luật ITS."
+    "rowsha": "5u3FiJW4Jxe5q1dPL28qg/MUDpTFWL7rKBi3H4FV4ns=",
+    "originContent": "### Interaction-Time Scaling (ITS)",
+    "translatedContent": "### Quy mô Thời gian Tương tác (ITS)"
   },
   {
     "row": 104,
@@ -625,39 +625,39 @@
   },
   {
     "row": 105,
-    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
-    "originContent": "<p align=\"center\">",
-    "translatedContent": "<p align=\"center\">"
+    "rowsha": "NwBIsVzW+kYLShpJ6rffKZncWEjgGCQhf/Ih+5DLlLU=",
+    "originContent": "Interaction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.",
+    "translatedContent": "Quy mô Thời gian Tương tác (ITS) đề cập đến khả năng của mô hình trong việc liên tục nâng cao hiệu suất cuối cùng thông qua các vòng tương tác đa lượt. Khi hiệu suất tương tác này vượt qua hiệu suất lý tưởng của mô hình trong một tác vụ đơn lẻ, rõ ràng, không mơ hồ, chúng tôi cho rằng mô hình đáp ứng **định luật ITS**. Khi sự kiên nhẫn của người dùng tăng và số lượt tương tác tích lũy, hiệu suất tiếp tục được cải thiện, chứng tỏ mô hình có thể duy trì giao tiếp hiệu quả trong đối thoại kéo dài. Hiện tại, chúng tôi chỉ phát hiện claude-3-7-sonnet đáp ứng định luật ITS."
   },
   {
     "row": 106,
-    "rowsha": "TW0AIFALwgyvJujlCuN+wyzJWtuuF1VkgusDlug821c=",
-    "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" ",
-    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" "
-  },
-  {
-    "row": 107,
-    "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
-    "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
-    "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
-  },
-  {
-    "row": 108,
-    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-    "originContent": "</p>",
-    "translatedContent": "</p>"
-  },
-  {
-    "row": 109,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 107,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 108,
+    "rowsha": "TW0AIFALwgyvJujlCuN+wyzJWtuuF1VkgusDlug821c=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" ",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" "
+  },
+  {
+    "row": 109,
+    "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
+    "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
+    "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
+  },
+  {
     "row": 110,
-    "rowsha": "GRA0o2JYSxg8X2purzLLk9Zt8XnGE8h4/VlGeFmnX9M=",
-    "originContent": "## Environment Setup",
-    "translatedContent": "## Thiết lập Môi trường"
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
   },
   {
     "row": 111,
@@ -667,21 +667,21 @@
   },
   {
     "row": 112,
-    "rowsha": "tDbEdv5pYPB1U4PN122epOKraa/YbzS/P35WOUd0B4g=",
-    "originContent": "1. Run Docker containers for bird-interact-lite database, bird-interact-full database, and evaluation environment:",
-    "translatedContent": "1. Chạy các container Docker cho cơ sở dữ liệu bird-interact-lite, cơ sở dữ liệu bird-interact-full, và môi trường đánh giá:"
+    "rowsha": "GRA0o2JYSxg8X2purzLLk9Zt8XnGE8h4/VlGeFmnX9M=",
+    "originContent": "## Environment Setup",
+    "translatedContent": "## Cài đặt môi trường"
   },
   {
     "row": 113,
-    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
-    "originContent": "  ",
-    "translatedContent": "  "
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 114,
-    "rowsha": "4mfOdzHzqWZKB8ryaBS2m9y2OzM2DrTzHMY36nSzYxw=",
-    "originContent": "  > If you just want to evaluate on `bird-interact-lite`, you could comment out the [`postgresql_full` service](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) in `docker-compose.yml` to speed up the environment setup.",
-    "translatedContent": "  > Nếu bạn chỉ muốn đánh giá trên `bird-interact-lite`, bạn có thể comment dịch vụ [`postgresql_full`](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) trong `docker-compose.yml` để tăng tốc thiết lập môi trường."
+    "rowsha": "tDbEdv5pYPB1U4PN122epOKraa/YbzS/P35WOUd0B4g=",
+    "originContent": "1. Run Docker containers for bird-interact-lite database, bird-interact-full database, and evaluation environment:",
+    "translatedContent": "1. Chạy các container Docker cho cơ sở dữ liệu bird-interact-lite, cơ sở dữ liệu bird-interact-full, và môi trường đánh giá:"
   },
   {
     "row": 115,
@@ -691,992 +691,194 @@
   },
   {
     "row": 116,
+    "rowsha": "4mfOdzHzqWZKB8ryaBS2m9y2OzM2DrTzHMY36nSzYxw=",
+    "originContent": "  > If you just want to evaluate on `bird-interact-lite`, you could comment out the [`postgresql_full` service](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) in `docker-compose.yml` to speed up the environment setup.",
+    "translatedContent": "  > Nếu bạn chỉ muốn đánh giá trên `bird-interact-lite`, bạn có thể comment dịch vụ [`postgresql_full`](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) trong `docker-compose.yml` để tăng tốc quá trình cài đặt môi trường."
+  },
+  {
+    "row": 117,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 118,
     "rowsha": "cZZ1ihyKvQOGnE8KvasnKgESAfFl1bO6WjZnSt9gOKs=",
     "originContent": "  Start the environment by running: ",
     "translatedContent": "  Khởi động môi trường bằng lệnh:"
   },
   {
-    "row": 117,
-    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
-    "originContent": "   ```bash",
-    "translatedContent": "   ```bash"
-  },
-  {
-    "row": 118,
-    "rowsha": "U3ltaq2LINnerA+cgI4837KcE1zxlYemiI0UKBQ/ecA=",
-    "originContent": "   cd env",
-    "translatedContent": "   cd env"
-  },
-  {
     "row": 119,
-    "rowsha": "hyxNUszpDhmg/N+pnaVRgi1DzodiEumtCXw1lW+HWWw=",
-    "originContent": "   docker compose pull ",
-    "translatedContent": "   docker compose pull "
+    "rowsha": "GE0AusEadGNk/GYr/BF/88UKsGyopy2r8aCnyXHh4HI=",
+    "originContent": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; and **c-interact** can be found in `./bird_interact_conv/README.md`.",
+    "translatedContent": "Chi tiết về cách chạy **a-interact** có thể được tìm thấy ở `./bird_interact_agent/README.md`; và **c-interact** có thể được tìm thấy ở `./bird_interact_conv/README.md`."
   },
   {
     "row": 120,
-    "rowsha": "9f7Bg6s7+R8vc+jX0UtoCdNeymWtgTPNHduPQ0XKIAY=",
-    "originContent": "   docker compose up -d",
-    "translatedContent": "   docker compose up -d"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 121,
-    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-    "originContent": "   ```",
-    "translatedContent": "   ```"
-  },
-  {
-    "row": 122,
-    "rowsha": "Ly/IrPAFAn3uKza++BPZTAd086bJ1IPCkQCTUtNXeiw=",
-    "originContent": "   Wait for several minutes for database initialization. ",
-    "translatedContent": "   Chờ vài phút để khởi tạo cơ sở dữ liệu."
-  },
-  {
-    "row": 123,
-    "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
-    "originContent": "   ",
-    "translatedContent": ""
-  },
-  {
-    "row": 124,
-    "rowsha": "LtLQ52ciYbU2lNXAp8si/E/9a15aPy/PQtg+5Dtma/A=",
-    "originContent": "  You could track the building progress by:",
-    "translatedContent": "  Bạn có thể theo dõi tiến trình xây dựng bằng cách:"
-  },
-  {
-    "row": 125,
-    "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
-    "originContent": "  ```bash",
-    "translatedContent": "  ```bash"
-  },
-  {
-    "row": 126,
-    "rowsha": "Gzaj8K70+kXEP86K2XMlasaUYr60SHb9nGVYlk3sszI=",
-    "originContent": "  docker compose logs -f --tail=100 bird_interact_postgresql_full # or bird_interact_postgresql for bird-interact-lite",
-    "translatedContent": "  docker compose logs -f --tail=100 bird_interact_postgresql_full # or bird_interact_postgresql for bird-interact-lite"
-  },
-  {
-    "row": 127,
-    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
-    "originContent": "  ```",
-    "translatedContent": "  ```"
-  },
-  {
-    "row": 128,
-    "rowsha": "9dMqFiVFLsKj3QDXnHtdxThNO8tA/dcT4rLLKRiRRVY=",
-    "originContent": "  If finished, you should see the logs without errors like:",
-    "translatedContent": "  Nếu hoàn thành, bạn sẽ thấy các bản ghi mà không có lỗi như sau:"
-  },
-  {
-    "row": 129,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 130,
-    "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
-    "originContent": "  ```bash",
-    "translatedContent": "  ```bash"
-  },
-  {
-    "row": 131,
-    "rowsha": "1EQDohcscz6P/a4QJ51MKHEHcq+pwxOkh/CBXPuplHc=",
-    "originContent": "  bird_interact_postgresql_full  | 2025-10-28 17:58:30.413 HKT [1] LOG:  database system is ready to accept connection",
-    "translatedContent": "  bird_interact_postgresql_full  | 2025-10-28 17:58:30.413 HKT [1] LOG:  database system is ready to accept connection"
-  },
-  {
-    "row": 132,
-    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
-    "originContent": "  ```",
-    "translatedContent": "  ```"
-  },
-  {
-    "row": 133,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "  "
-  },
-  {
-    "row": 134,
-    "rowsha": "+WcvbdksEYjxoI/aFJa7fBUYo29s5YW2e0foiEZ/dVw=",
-    "originContent": "  If you have created containers before and want to recreate it, you could run the following command:",
-    "translatedContent": "  Nếu bạn đã tạo các container trước đó và muốn tạo lại chúng, bạn có thể chạy lệnh sau:"
-  },
-  {
-    "row": 135,
-    "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
-    "originContent": "  ```bash",
-    "translatedContent": "  ```bash"
-  },
-  {
-    "row": 136,
-    "rowsha": "8Lng9rCm574eQ0gKMJ2E+s+ZMg0WYUW3VSQhwxuu724=",
-    "originContent": "  docker compose down -v # this cmd removes the containers and the volumes",
-    "translatedContent": "  docker compose down -v # this cmd removes the containers and the volumes"
-  },
-  {
-    "row": 137,
-    "rowsha": "PinryHJHMZCdOfCREtCKT2ZQ6CoJeYuD0PJnmtuJLaU=",
-    "originContent": "  docker compose pull   # pull the latest images from Docker Hub",
-    "translatedContent": "  docker compose pull   # pull the latest images from Docker Hub"
-  },
-  {
-    "row": 138,
-    "rowsha": "1Llf+NnUnsPK6bcc9G4qnDLFCWZ5vOzodkXu8Rkr4TY=",
-    "originContent": "  docker compose up -d --force-recreate # build and start the containers again. --force-recreate means force the recreation of the containers. ",
-    "translatedContent": "  docker compose up -d --force-recreate # build and start the containers again. --force-recreate means force the recreation of the containers. "
-  },
-  {
-    "row": 139,
-    "rowsha": "xSONhNmohTtUTBJlVDeHnkxP6dq5aAJpsQ3xYtcBbnU=",
-    "originContent": "  # Or `docker compose up -d --force-recreate bird_interact_eval` to only recreate the bird_interact_eval container about evalution code environment.",
-    "translatedContent": "  # Or `docker compose up -d --force-recreate bird_interact_eval` to only recreate the bird_interact_eval container about evalution code environment."
-  },
-  {
-    "row": 140,
-    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
-    "originContent": "  ```",
-    "translatedContent": "  ```"
-  },
-  {
-    "row": 141,
-    "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
-    "originContent": "   ",
-    "translatedContent": "   "
-  },
-  {
-    "row": 142,
-    "rowsha": "4M5kZAmlVsVt+urBYkq2QCQjY2DbxmcGHf/YUwQHGLI=",
-    "originContent": "   This runs 3 containers using prebuilt images from Docker Hub:",
-    "translatedContent": "   Điều này chạy 3 container sử dụng các ảnh dựng sẵn từ Docker Hub:"
-  },
-  {
-    "row": 143,
-    "rowsha": "3ixpdxJKQklNCqApUIAHHoB4Ze4LXDsWiLrVJOd2bEM=",
-    "originContent": "   - `bird_interact_postgresql`: PostgreSQL database for bird-interact-lite",
-    "translatedContent": "   - `bird_interact_postgresql`: Cơ sở dữ liệu PostgreSQL cho bird-interact-lite"
-  },
-  {
-    "row": 144,
-    "rowsha": "QdgvgrxXxHmjL8P8hxj4aydiqiflOZw7cD/iqMyuWEA=",
-    "originContent": "   - `bird_interact_postgresql_full`: PostgreSQL database for bird-interact-full",
-    "translatedContent": "   - `bird_interact_postgresql_full`: Cơ sở dữ liệu PostgreSQL cho bird-interact-full"
-  },
-  {
-    "row": 145,
-    "rowsha": "VgmiPQo1AsNlHr0xv4Of47wb133Le1rmPacH/iuNx3M=",
-    "originContent": "   - `bird_interact_eval`: Evaluation environment for both `a-Interact` and `c-Interact`.",
-    "translatedContent": "   - `bird_interact_eval`: Môi trường đánh giá cho cả `a-Interact` và `c-Interact`."
-  },
-  {
-    "row": 146,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 147,
-    "rowsha": "ShgcHeV72Lpsqcx9K5NXrNXVIQzk5Frb4LlH8h0bqn0=",
-    "originContent": "   Now, you could start the evaluation environment by executing the following command:",
-    "translatedContent": "   Bây giờ, bạn có thể khởi động môi trường đánh giá bằng cách thực hiện lệnh sau:"
-  },
-  {
-    "row": 148,
-    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
-    "originContent": "   ```bash",
-    "translatedContent": "   ```bash"
-  },
-  {
-    "row": 149,
-    "rowsha": "/vnAjMS38NIpMbPy0/lj9v3TLnWMbWc5EtiZgAh/pLk=",
-    "originContent": "   docker compose exec bird_interact_eval bash",
-    "translatedContent": "   docker compose exec bird_interact_eval bash"
-  },
-  {
-    "row": 150,
-    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-    "originContent": "   ```",
-    "translatedContent": "   ```"
-  },
-  {
-    "row": 151,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "2. (Tùy chọn) Tự xây dựng môi trường (nếu bạn muốn xây dựng các image từ đầu):"
-  },
-  {
-    "row": 152,
-    "rowsha": "Sj3qMbCU7COMnEAM7Ur8nPVSECWImmUL/AZIo80GawM=",
-    "originContent": "2. (Optional) Build the environment manually (if you want to build the images from scratch): ",
-    "translatedContent": "   - Tải về các file dump của cơ sở dữ liệu"
-  },
-  {
-    "row": 153,
-    "rowsha": "u+FbE9BaxuM1P2PdO+Wwq1w+duwYpbOowLCV8fGCikA=",
-    "originContent": "   - Downdload the database dumps ",
-    "translatedContent": "      - [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view). Giải nén và đổi tên thành `env/postgre_table_dumps`."
-  },
-  {
-    "row": 154,
-    "rowsha": "dS9j2PGDd8FlWohUadau7ipBoAqsgkBQNSgJfdLp+uQ=",
-    "originContent": "      - [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view). Unzip and rename it as `env/postgre_table_dumps`.",
-    "translatedContent": "      - [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view). Giải nén và đổi tên thành `env/postgre_table_dumps_full`."
-  },
-  {
-    "row": 155,
-    "rowsha": "MS6ev81fW9YpkD2OsMMMDGDiwvQt+T3xgFcgKTHyixE=",
-    "originContent": "      - [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view). Unzip and rename it as `env/postgre_table_dumps_full`.",
-    "translatedContent": "   - Tự xây dựng môi trường bằng cách chạy `docker-compose.build.yml`."
-  },
-  {
-    "row": 156,
-    "rowsha": "UFMzJLWvT+3LyQwYSVoUVjrHHcQ4nsp7voUlczEl7Jw=",
-    "originContent": "   - Build the environment manually by running `docker-compose.build.yml`.",
-    "translatedContent": ""
-  },
-  {
-    "row": 157,
-    "rowsha": "cgwU1WWWUnVu2wjH/olriyRC8O3IDsmgiNsj9RCdxNE=",
-    "originContent": "      ```bash",
-    "translatedContent": "      ```bash"
-  },
-  {
-    "row": 158,
-    "rowsha": "QcEIBeM9tCFahNkCLhCDKFel6PKio37wlNOf0v3GU8E=",
-    "originContent": "      cd env/",
-    "translatedContent": "      cd env/"
-  },
-  {
-    "row": 159,
-    "rowsha": "GqOhbL+oZiNq5f5fDmZf5g4S+lbrTR9pJViK2x9xKH0=",
-    "originContent": "      docker compose -f docker-compose.build.yml build",
-    "translatedContent": "      docker compose -f docker-compose.build.yml build"
-  },
-  {
-    "row": 160,
-    "rowsha": "mTd654VMDRq90h6KQiadFoKbLVoMJ5JZZu8Mj1lIw+g=",
-    "originContent": "      docker compose -f docker-compose.build.yml up -d",
-    "translatedContent": "      docker compose -f docker-compose.build.yml up -d"
-  },
-  {
-    "row": 161,
-    "rowsha": "L06uJbFXUSpUClSu3YVZlcwHcTjFCtIkegjROI4ejcg=",
-    "originContent": "      ```",
-    "translatedContent": "      ```"
-  },
-  {
-    "row": 162,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 163,
-    "rowsha": "4SqAqzazX3VebCW2mww6a98h8XSeL1+onQNbnYeqmJk=",
-    "originContent": "3. (Recommended) Check the database containers are built and running successfully.",
-    "translatedContent": "3. (Khuyến nghị) Kiểm tra các container cơ sở dữ liệu đã được xây dựng và chạy thành công."
-  },
-  {
-    "row": 164,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 165,
-    "rowsha": "8w4PROJih/T0lmaU5RuThvtId9uw675raE1+8Bt6Su0=",
-    "originContent": "-  Print the container build logs to ensure that the databases are built successfully without errors:",
-    "translatedContent": "- In nhật ký xây dựng container để đảm bảo rằng các cơ sở dữ liệu đã được xây dựng thành công mà không có lỗi:"
-  },
-  {
-    "row": 166,
-    "rowsha": "eE6FDe3OjZGnB8wleXcskoCR7B7EPBI8SIiUIych0C4=",
-    "originContent": "   ```bash ",
-    "translatedContent": "   ```bash "
-  },
-  {
-    "row": 167,
-    "rowsha": "1dIS/wirUc+OLthEaPL1zskQfe80ipN1TYfSALnjHaI=",
-    "originContent": "   docker logs bird_interact_postgresql > build_bird_interact_postgresql.log 2>&1",
-    "translatedContent": "   docker logs bird_interact_postgresql > build_bird_interact_postgresql.log 2>&1"
-  },
-  {
-    "row": 168,
-    "rowsha": "76lGKDoD1uL7TkE++/WALMVjeP8dDKD+ja7Mn4s7FYM=",
-    "originContent": "   docker logs bird_interact_postgresql_full > build_bird_interact_postgresql_full.log 2>&1",
-    "translatedContent": "   docker logs bird_interact_postgresql_full > build_bird_interact_postgresql_full.log 2>&1"
-  },
-  {
-    "row": 169,
-    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-    "originContent": "   ```",
-    "translatedContent": "   ```"
-  },
-  {
-    "row": 170,
-    "rowsha": "yLAVOsVc8GaejHyPG2wTavLRMfsztsUunQODsxCD0Fk=",
-    "originContent": "   If errors occur, `\"Errors occurred during import:\"` will be printed in the log files.",
-    "translatedContent": "   Nếu xảy ra lỗi, `\"Đã xảy ra lỗi trong quá trình nhập:\"` sẽ được in ra trong các tập tin nhật ký."
-  },
-  {
-    "row": 171,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 172,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 173,
-    "rowsha": "VryFr49N8BcPjcseI7aTvJHTbHH9N6cFzzEupkVvCw0=",
-    "originContent": "-  Check if the database containers are in good shape.",
-    "translatedContent": "-  Kiểm tra xem các container cơ sở dữ liệu có đang hoạt động tốt không."
-  },
-  {
-    "row": 174,
-    "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
-    "originContent": "   ",
-    "translatedContent": "   "
-  },
-  {
-    "row": 175,
-    "rowsha": "m459FGfAT8oHRqV1n6otnnoqkmYcUf4Moc7lHxd1eQU=",
-    "originContent": "   Use our provided Python script to verify database metadata:",
-    "translatedContent": "   Sử dụng script Python do chúng tôi cung cấp để xác minh siêu dữ liệu cơ sở dữ liệu:"
-  },
-  {
-    "row": 176,
-    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
-    "originContent": "   ```bash",
-    "translatedContent": "   ```bash"
-  },
-  {
-    "row": 177,
-    "rowsha": "/vnAjMS38NIpMbPy0/lj9v3TLnWMbWc5EtiZgAh/pLk=",
-    "originContent": "   docker compose exec bird_interact_eval bash",
-    "translatedContent": "   docker compose exec bird_interact_eval bash"
-  },
-  {
-    "row": 178,
-    "rowsha": "rrvTznkA+90ei+XE8dZMW0BOBbGJ6DPqoMdTHH4fAQI=",
-    "originContent": "   cd /app/env",
-    "translatedContent": "   cd /app/env"
-  },
-  {
-    "row": 179,
-    "rowsha": "cBLabG9X6hg22wTEwqpWwsn522jLmW2MIMxV7TRM1CQ=",
-    "originContent": "   python check_db_metadata.py --host bird_interact_postgresql",
-    "translatedContent": "   python check_db_metadata.py --host bird_interact_postgresql"
-  },
-  {
-    "row": 180,
-    "rowsha": "9AmZ2vbnyrxUAxzlDHzGpMZ1W3vN0doqj+5CtYLFp1M=",
-    "originContent": "   python check_db_metadata.py --host bird_interact_postgresql_full",
-    "translatedContent": "   python check_db_metadata.py --host bird_interact_postgresql_full"
-  },
-  {
-    "row": 181,
-    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-    "originContent": "   ```",
-    "translatedContent": "   ```"
-  },
-  {
-    "row": 182,
-    "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
-    "originContent": "   ",
-    "translatedContent": "   "
-  },
-  {
-    "row": 183,
-    "rowsha": "B5pSKtG/+9GMzzpOYnLe7qrK6mhxroVzNZXAMDLU7hw=",
-    "originContent": "   Expected results:",
-    "translatedContent": "   Kết quả mong đợi:"
-  },
-  {
-    "row": 184,
-    "rowsha": "FkBt4PLZIutayIU1YZJtJRqONA4bkIfhbQ275Yq+F5s=",
-    "originContent": "   - **bird-interact-lite**: ",
-    "translatedContent": "   - **bird-interact-lite**: "
-  },
-  {
-    "row": 185,
-    "rowsha": "5NWsT0Fd8R2v0vCGbwQKqvSwN3EhM1t4XrItZ4IyQq0=",
-    "originContent": "     - 📈 Total Databases: 18",
-    "translatedContent": "     - 📈 Tổng số Cơ sở dữ liệu: 18"
-  },
-  {
-    "row": 186,
-    "rowsha": "GxkB9TjFkjTTX7ePGuhRqlpSlH6sSUyesgmiaEDNM4s=",
-    "originContent": "     - 📋 Total Tables: 175",
-    "translatedContent": "     - 📋 Tổng số Bảng: 175"
-  },
-  {
-    "row": 187,
-    "rowsha": "64NK/0JFIHOBULGy3WKnKPHhEkS+4lQrhVtsfO6n7LA=",
-    "originContent": "     - 🔢 Total Columns: 2286",
-    "translatedContent": "     - 🔢 Tổng số Cột: 2286"
-  },
-  {
-    "row": 188,
-    "rowsha": "vp0WOneltYTksEwVArBR77uaVP0nMGm65qwAyAYgQYQ=",
-    "originContent": "     - 📈 Avg Rows per Table: 1,038.48",
-    "translatedContent": "     - 📈 Số hàng trung bình mỗi bảng: 1.038,48"
-  },
-  {
-    "row": 189,
-    "rowsha": "smSM6RGIjqKiM6lSQbAwIbd+5ZvegnsC6Md/+O+p92o=",
-    "originContent": "     - 💾 Total Size: 207.15 MB (around)",
-    "translatedContent": "     - 💾 Tổng dung lượng: 207,15 MB (ước lượng)"
-  },
-  {
-    "row": 190,
-    "rowsha": "q97PZFA/39lTNwJk+iElAfEJ8GvYoZqsb0ikWfAPV0w=",
-    "originContent": "   - **bird-interact-full**: ",
-    "translatedContent": "   - **bird-interact-full**: "
-  },
-  {
-    "row": 191,
-    "rowsha": "RdvWgS8iUhAiF5quZdhTZBus0/m4rU7nqPh3LoKZ6x8=",
-    "originContent": "     - 📈 Total Databases: 22",
-    "translatedContent": "     - 📈 Tổng số Cơ sở dữ liệu: 22"
-  },
-  {
-    "row": 192,
-    "rowsha": "Mxos3+6xN1g+Da5EobFbmY/eHApVkRRmfEF2OW4RH3A=",
-    "originContent": "     - 📋 Total Tables: 244",
-    "translatedContent": "     - 📋 Tổng số Bảng: 244"
-  },
-  {
-    "row": 193,
-    "rowsha": "1PoYS/otqkIuh9Jz/geFtvrHFHStUi2+8NE+UMA9K8A=",
-    "originContent": "     - 🔢 Total Columns: 2011",
-    "translatedContent": "     - 🔢 Tổng số Cột: 2011"
-  },
-  {
-    "row": 194,
-    "rowsha": "4EW0pGD4/KBIHDsNlFvK+POLaGR09I9BWl5eGftNlwE=",
-    "originContent": "     - 📈 Avg Rows per Table: 1,121.19",
-    "translatedContent": "     - 📈 Số hàng trung bình mỗi bảng: 1.121,19"
-  },
-  {
-    "row": 195,
-    "rowsha": "b5bo53OBUMszCF5iwS5PzApDi4vHki5mOoloknRFcgk=",
-    "originContent": "     - 💾 Total Size: 272.00 MB (around)",
-    "translatedContent": "     - 💾 Tổng dung lượng: 272,00 MB (ước lượng)"
-  },
-  {
-    "row": 196,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 197,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 198,
-    "rowsha": "+k7Ca++d5jxjDrqQWYaSmQV+QrsPLeOVDWwp4LEOnLg=",
-    "originContent": "## 📦 Dataset Details",
-    "translatedContent": "## 📦 Chi tiết Bộ dữ liệu"
-  },
-  {
-    "row": 199,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 200,
-    "rowsha": "0CAgopT4uCrcP2XugQo54SQ7+3o6EmaZDPuISb7ZpYs=",
-    "originContent": "### Dataset Description",
-    "translatedContent": "### Mô tả Bộ dữ liệu"
-  },
-  {
-    "row": 201,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 202,
-    "rowsha": "pkqV5xWW8I11T7Zl8mUQKLCjeKF4+mgKL0ur0oD13wg=",
-    "originContent": "- **Database:** The complete PostgreSQL database can be download from [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) and [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view).",
-    "translatedContent": "- **Cơ sở dữ liệu:** Toàn bộ cơ sở dữ liệu PostgreSQL có thể tải về từ [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) và [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view)."
-  },
-  {
-    "row": 203,
-    "rowsha": "Rg/lq5RTpV9VpKctp3slYhtbuoFhbkfaorRPygzg6Gk=",
-    "originContent": "- **data:** Each data instance contain the following main parts:",
-    "translatedContent": "- **data:** Mỗi trường hợp dữ liệu chứa các phần chính sau:"
-  },
-  {
-    "row": 204,
-    "rowsha": "oeZ/uzqCsA5VNpsUV6Q5FUwcPz5hnWM75+LkGTHBx5Y=",
-    "originContent": "   - `selected_database`: The name of the database.  ",
-    "translatedContent": "   - `selected_database`: Tên cơ sở dữ liệu.  "
-  },
-  {
-    "row": 205,
-    "rowsha": "oPNVshV/MIPpyhRk3j2Nxvx6eiSjlh78678fwhXHkyY=",
-    "originContent": "   - `query`: The unambiguous user query.  ",
-    "translatedContent": "   - `query`: Truy vấn người dùng rõ ràng.  "
-  },
-  {
-    "row": 206,
-    "rowsha": "FCnlkL1lk997F3W0Z2i178PvvixkNotyQ/PDUSEBG3I=",
-    "originContent": "   - `amb_user_query`: The user query with injected ambiguities.",
-    "translatedContent": "   - `amb_user_query`: Truy vấn người dùng đã được chèn sự mơ hồ."
-  },
-  {
-    "row": 207,
-    "rowsha": "dwSIKvWoOZ0bAk3/MuxBQZx+roDRkZ8De8Z9EV1g+YE=",
-    "originContent": "   - `user_query_ambiguity`: The ambiguities injected into the user query.",
-    "translatedContent": "   - `user_query_ambiguity`: Những điểm mơ hồ được thêm vào truy vấn người dùng."
-  },
-  {
-    "row": 208,
-    "rowsha": "2uIaqS3MsNEQQa0yxeGCprcga3iAl7rbNcCeOhVqcms=",
-    "originContent": "   - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.",
-    "translatedContent": "   - `non_critical_ambiguity`: Sự mơ hồ không quan trọng như thứ tự, giới hạn, v.v."
-  },
-  {
-    "row": 209,
-    "rowsha": "jcfQ3RBzqQ5IoWI85TqetWQboWoj/TWcS2YjEGz1euw=",
-    "originContent": "   - `knowledge_ambiguity`: The ambiguities created by masked external knowledges. ",
-    "translatedContent": "   - `knowledge_ambiguity`: Sự mơ hồ do giấu kiến thức bên ngoài. "
-  },
-  {
-    "row": 210,
-    "rowsha": "/i3/thp7p1thZ/xCsBw3OHgDabXZMsKgumrhx3ZwzjQ=",
-    "originContent": "   - `sol_sql`: The ground truth SQL solution.  ",
-    "translatedContent": "   - `sol_sql`: Giải pháp SQL chuẩn xác.  "
-  },
-  {
-    "row": 211,
-    "rowsha": "c+FiZvziVNHQ0BSlQNBGyAERMve99Hh3QFKIpYMnmY4=",
-    "originContent": "   - `preprocess_sql`: SQL queries to run before executing the solution or prediction.  ",
-    "translatedContent": "   - `preprocess_sql`: Các truy vấn SQL chạy trước khi thực hiện giải pháp hoặc dự đoán.  "
-  },
-  {
-    "row": 212,
-    "rowsha": "xRrHhJsIZKbVIUl3a4LFJeid+TCYKXtGm2FO2voDCJA=",
-    "originContent": "   - `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  ",
-    "translatedContent": "   - `clean_up_sql`: Các truy vấn SQL chạy sau các trường hợp kiểm thử để hoàn tác các thay đổi đã thực hiện trên cơ sở dữ liệu.  "
-  },
-  {
-    "row": 213,
-    "rowsha": "AN8KsW9EANalz2xbGaJpzkDyz8Piw1aD8GW5coktVLI=",
-    "originContent": "   - `test_cases`: A set of test cases to validate the predicted corrected SQL.",
-    "translatedContent": "   - `test_cases`: Tập hợp các trường hợp kiểm thử để xác thực SQL dự đoán đã được chỉnh sửa."
-  },
-  {
-    "row": 214,
-    "rowsha": "CJy/lmct2AT3OvidWiH5FLxFjM+3NIuJGemuO6IO3/I=",
-    "originContent": "   - `follow_up`: The labeled follow up questions.",
-    "translatedContent": "   - `follow_up`: Các câu hỏi tiếp theo đã được gán nhãn."
-  },
-  {
-    "row": 215,
-    "rowsha": "rUHKXvHeVB4UqqvGBnj9yJY3C0rN/Oz3IsSbOVCSOLE=",
-    "originContent": "   - `external_knowledge`: The external knowledge related to the specific task.",
-    "translatedContent": "   - `external_knowledge`: Kiến thức bên ngoài liên quan đến nhiệm vụ cụ thể."
-  },
-  {
-    "row": 216,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 217,
-    "rowsha": "hQpiCMxX9dK0D0byHCQ4cUtoa8tKtWMoWCxcRBrGSks=",
-    "originContent": "- **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.",
-    "translatedContent": "- **evaluation:** Mã đánh giá có sẵn tại thư mục [`./evaluation`](./evaluation)."
-  },
-  {
-    "row": 218,
-    "rowsha": "v59KK3oH49UautE6oU56wvhU8e75NEkRJddOGbaFnyo=",
-    "originContent": "- **Curated by:** BIRD Team & Google Cloud",
-    "translatedContent": "- **Được tuyển chọn bởi:** Đội BIRD & Google Cloud"
-  },
-  {
-    "row": 219,
-    "rowsha": "1/kQI3qUNugGt6yUagQdmVhx1FDPb1fFeNnmxrbHjpM=",
-    "originContent": "- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)",
-    "translatedContent": "- **Giấy phép:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
-  },
-  {
-    "row": 220,
-    "rowsha": "EQ6KhGw1snJI5U6ZFWIjj/IpN04AkABGwoqpo5JQnkQ=",
-    "originContent": "- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)",
-    "translatedContent": "- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)"
-  },
-  {
-    "row": 221,
-    "rowsha": "vVdKpLdFOgQhWrr5eGgnZXRxhU35Ld9YaV7jChDE8u4=",
-    "originContent": "  and [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full)",
-    "translatedContent": "  và [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full)"
-  },
-  {
-    "row": 222,
-    "rowsha": "JBijDrvexJ1GfbKj7poT//NH5iCfI6XH57cOWOG6jQc=",
-    "originContent": "### Dataset Uses",
-    "translatedContent": "### Sử dụng Bộ Dữ Liệu"
-  },
-  {
-    "row": 223,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 224,
-    "rowsha": "XHdAwjxf4l6iSAmLupTaOJFamV5zkfFP+w/3HJJzmV8=",
-    "originContent": "To avoid data leakage by auto-crawling, we do not include GT solution sqls and test cases along with data.",
-    "translatedContent": "Để tránh rò rỉ dữ liệu do tự động thu thập, chúng tôi không bao gồm các sql giải pháp GT và các trường hợp kiểm thử cùng với dữ liệu."
-  },
-  {
-    "row": 225,
-    "rowsha": "yj3h6xfq5OIYHB811iMWmk5hnKOticHw6+uOgjiBtMM=",
-    "originContent": "please email [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) with the tag `[bird-interact-lite GT&Test Cases]` or `[bird-interact-full GT&Test Cases]` in the title for ground truth and test cases for the bird-interact-lite or bird-interact-full dataset, which will be sent automatically.",
-    "translatedContent": "vui lòng gửi email tới [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) với tiêu đề chứa thẻ `[bird-interact-lite GT&Test Cases]` hoặc `[bird-interact-full GT&Test Cases]` để nhận bộ dữ liệu ground truth và các trường hợp kiểm thử cho bộ dữ liệu bird-interact-lite hoặc bird-interact-full, sẽ được gửi tự động."
-  },
-  {
-    "row": 226,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 227,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 228,
-    "rowsha": "WdQ407T6c5a3XzwNoRQeOzF4njZ+rycE37AgTjebWf0=",
-    "originContent": "### Combine the public data with the ground truth and test cases",
-    "translatedContent": "### Kết hợp dữ liệu công khai với ground truth và các trường hợp kiểm thử"
-  },
-  {
-    "row": 229,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 230,
-    "rowsha": "FQo/ITTkFB2//G1CTHQj5j8320KVLTylVx0AUBjZkl4=",
-    "originContent": "Then use the following script to combine the public data with the ground truth and test cases:",
-    "translatedContent": "Sau đó sử dụng đoạn script sau để kết hợp dữ liệu công khai với ground truth và các trường hợp kiểm thử:"
-  },
-  {
-    "row": 231,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 232,
-    "rowsha": "tWGRBHxHavZE4Eqq9dp32q9r4luRp8mS6FW6lMoJauM=",
-    "originContent": "Take the full version as an example:",
-    "translatedContent": "Lấy phiên bản đầy đủ làm ví dụ:"
-  },
-  {
-    "row": 233,
-    "rowsha": "E8rgr8XRlP4vdzVEbOeEHQJtU8KLy/AgzXXgUNgSygM=",
-    "originContent": "(1) Run:",
-    "translatedContent": "(1) Chạy:"
-  },
-  {
-    "row": 234,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 235,
-    "rowsha": "jlfeIG9FERK+MoGtRQdFycdolDTyg34LSMkJ3b/ZbIs=",
-    "originContent": "python combine_public_with_gt.py /path/to/bird-interact-full/bird_interact_data.jsonl /path/to/bird_interact_full_gt_kg_testcases_08022.jsonl /path/to/bird_interact_data.jsonl  # bird_interact_full_gt_kg_testcases_08022.jsonl is the data of ground-truth fields, which is obtained by emailing us.",
-    "translatedContent": "python combine_public_with_gt.py /path/to/bird-interact-full/bird_interact_data.jsonl /path/to/bird_interact_full_gt_kg_testcases_08022.jsonl /path/to/bird_interact_data.jsonl  # bird_interact_full_gt_kg_testcases_08022.jsonl is the data of ground-truth fields, which is obtained by emailing us."
-  },
-  {
-    "row": 236,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 237,
-    "rowsha": "ma6goUt6uh8kKIeoZwOwegiIHUArJE/lC0isVscF6js=",
-    "originContent": "This will create a new file at `/path/to/bird_interact_data.jsonl` with the combined data. ",
-    "translatedContent": "Điều này sẽ tạo một tệp mới tại `/path/to/bird_interact_data.jsonl` với dữ liệu đã được kết hợp."
-  },
-  {
-    "row": 238,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 239,
-    "rowsha": "Xuyxtg4VyQM3rEIQkrDE8bHYB6lLi/o+46TBc2C41Wo=",
-    "originContent": "(2) Then replace the original public data with the combined data:",
-    "translatedContent": "(2) Sau đó thay thế dữ liệu công khai gốc bằng dữ liệu đã kết hợp:"
-  },
-  {
-    "row": 240,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 241,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 242,
-    "rowsha": "HVDYyPDhnNmEoPMherIbvYo3jbS3UGo7OtVgOJmObuM=",
-    "originContent": "cp /path/to/bird_interact_data.jsonl /path/to/bird-interact-full/bird_interact_data.jsonl",
-    "translatedContent": "cp /path/to/bird_interact_data.jsonl /path/to/bird-interact-full/bird_interact_data.jsonl"
-  },
-  {
-    "row": 243,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 244,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 245,
-    "rowsha": "nR7aZmEAdpzWKl/GCMyf45AbVlGmkZcMKyCVSiT0E2c=",
-    "originContent": "Same for the other versions: bird-interact-lite, mini version, etc. Just set correct paths for the public data and the ground truth and test cases, and then replace the public data with the combined data.",
-    "translatedContent": "Tương tự cho các phiên bản khác: bird-interact-lite, phiên bản mini, v.v. Chỉ cần đặt đúng đường dẫn cho dữ liệu công khai, dữ liệu thực tế và các trường hợp kiểm thử, sau đó thay thế dữ liệu công khai bằng dữ liệu đã kết hợp."
-  },
-  {
-    "row": 246,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 247,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 248,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 249,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 250,
-    "rowsha": "IROdTOtya22/xNwBA21bawIEiQ79tzz8+FTSeqo+zAQ=",
-    "originContent": "<!-- ### Use the Dataset from HuggingFace",
-    "translatedContent": "<!-- ### Sử dụng Bộ Dữ Liệu từ HuggingFace"
-  },
-  {
-    "row": 251,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 252,
-    "rowsha": "uKk3AJCcLznW9aT+voL6Iz4vZXP4iQl853lhxWPZvrY=",
-    "originContent": "You can download the dataset from HuggingFace using the following command:",
-    "translatedContent": "Bạn có thể tải bộ dữ liệu từ HuggingFace bằng lệnh sau:"
-  },
-  {
-    "row": 253,
-    "rowsha": "GE0AusEadGNk/GYr/BF/88UKsGyopy2r8aCnyXHh4HI=",
-    "originContent": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; and **c-interact** can be found in `./bird_interact_conv/README.md`.",
-    "translatedContent": "Thông tin chi tiết về cách chạy **a-interact** có thể được tìm thấy tại `./bird_interact_agent/README.md`; và **c-interact** tại `./bird_interact_conv/README.md`."
-  },
-  {
-    "row": 254,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 255,
     "rowsha": "f6chlfSVENLsNAyFyteH0qZqANkTbg9qD38E3rR7+l4=",
     "originContent": "## 📋 Todo Lists",
     "translatedContent": "## 📋 Danh sách việc cần làm"
   },
   {
-    "row": 256,
+    "row": 122,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 257,
+    "row": 123,
     "rowsha": "EL1NQH2bug6G0ymI/d6FG7PFV2GnkPXixeKmwZPR78w=",
     "originContent": "- [x] Release lite version, bird-interact-lite (270).",
     "translatedContent": "- [x] Phát hành phiên bản nhẹ, bird-interact-lite (270)."
   },
   {
-    "row": 258,
+    "row": 124,
     "rowsha": "hKBdzfGYA7Z4jZ++QUac0jtKAk4XdrT5WpTUG30vQPQ=",
     "originContent": "- [x] Release conversational version, bird-interact-conv.",
     "translatedContent": "- [x] Phát hành phiên bản hội thoại, bird-interact-conv."
   },
   {
-    "row": 259,
+    "row": 125,
     "rowsha": "WfzwLUQQqs71qDxmOxFIOr3TUazlzzHDkM2e4UDJDn8=",
     "originContent": "- [x] Release agent version, bird-interact-agent.",
     "translatedContent": "- [x] Phát hành phiên bản agent, bird-interact-agent."
   },
   {
-    "row": 260,
+    "row": 126,
     "rowsha": "tfR+oV/Tx2mEPN6r3D2jkGwWZXobjbuEMudF9OxNLv0=",
     "originContent": "- [x] Release Full bird-interact-full (600).",
-    "translatedContent": "- [x] Phát hành phiên bản đầy đủ bird-interact-full (600)."
+    "translatedContent": "- [x] Phát hành đầy đủ bird-interact-full (600)."
   },
   {
-    "row": 261,
+    "row": 127,
     "rowsha": "vFAJSKqY7icL0MP2UvbRlITQrKGIlzdRt4TZvsoGFb0=",
     "originContent": "- [ ] SFT / RL an User Simulator",
-    "translatedContent": "- [ ] SFT / RL một Bộ giả lập Người dùng"
+    "translatedContent": "- [ ] SFT / RL một Trình mô phỏng Người dùng"
   },
   {
-    "row": 262,
+    "row": 128,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 263,
+    "row": 129,
     "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
     "originContent": "## Acknowledgement",
-    "translatedContent": "## Lời cảm ơn"
+    "translatedContent": "## Ghi nhận"
   },
   {
-    "row": 264,
+    "row": 130,
     "rowsha": "m2QkSisvveyCZX6DzbZF2v3cmidtsWxZeJ2QRiUaFs4=",
     "originContent": "We would like to express our sincere gratitude to **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, and Professor **Shinji Watanabe** for their fruitful discussions and valuable insights that helped improve this project.",
-    "translatedContent": "Chúng tôi xin bày tỏ lòng biết ơn sâu sắc tới **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, và Giáo sư **Shinji Watanabe** vì những trao đổi bổ ích và đóng góp giá trị giúp cải thiện dự án này."
+    "translatedContent": "Chúng tôi xin bày tỏ lòng biết ơn chân thành tới **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, và Giáo sư **Shinji Watanabe** vì những cuộc thảo luận hiệu quả và những ý kiến quý giá đã giúp cải thiện dự án này."
   },
   {
-    "row": 265,
+    "row": 131,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 266,
+    "row": 132,
     "rowsha": "mhQeFc5wMr+mccgqoEwgaSGTbadrwRv17Z+l5irQ6EI=",
     "originContent": "## Created By:",
     "translatedContent": "## Được tạo bởi:"
   },
   {
-    "row": 267,
+    "row": 133,
     "rowsha": "BcslIbMQUwitDZ/R23YsQQIVge1FMTXdOH6FqEchx/I=",
     "originContent": "BIRD Team & Google Cloud",
     "translatedContent": "Nhóm BIRD & Google Cloud"
   },
   {
-    "row": 268,
+    "row": 134,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 269,
+    "row": 135,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 270,
+    "row": 136,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 271,
+    "row": 137,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 272,
+    "row": 138,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 273,
+    "row": 139,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 274,
+    "row": 140,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 275,
+    "row": 141,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 276,
+    "row": 142,
     "rowsha": "Yy1L+liWEPiygBFNsm9+4WmZQmi0NpcYvH+ZHWiB74A=",
     "originContent": "## Change Log",
     "translatedContent": "## Nhật ký thay đổi"
   },
   {
-    "row": 277,
+    "row": 143,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 278,
+    "row": 144,
     "rowsha": "Z1U72G8iUw35F0VXT/QQ4hHQgL/nwD4xFuSMH8lzboc=",
     "originContent": "- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.",
-    "translatedContent": "- [2025-11-06] 🐛 **Sửa lỗi** & 🐳 **Cập nhật Docker**: Cập nhật phiên bản sqlglot lên 26.16.4 để sửa lỗi bộ phân tích cú pháp SQL không thể phân tích cú pháp SQL đúng cho bộ giả lập người dùng. Bạn có thể sửa lỗi này bằng cách cài đặt lại bằng lệnh `pip install sqlglot==26.16.4` trong môi trường `bird_interact_eval`. Ảnh `bird_interact_eval` cũng đã được cập nhật, bạn cũng có thể kéo về và tạo lại container `bird_interact_eval`."
+    "translatedContent": "- [2025-11-06] 🐛 **Sửa lỗi** & 🐳 **Cập nhật Docker**: Cập nhật phiên bản sqlglot lên 26.16.4 để sửa lỗi trình phân tích cú pháp SQL không thể phân tích đúng SQL cho trình mô phỏng người dùng. Bạn có thể sửa lỗi này bằng cách cài đặt lại bằng `pip install sqlglot==26.16.4` trong môi trường `bird_interact_eval`. Hình ảnh `bird_interact_eval` cũng đã được cập nhật, bạn cũng có thể pull về và tạo lại container `bird_interact_eval`."
   },
   {
-    "row": 279,
+    "row": 145,
     "rowsha": "AOso64cmDJc8FxEExtaKElXz++MYq2Lc8TtifY/dAWY=",
     "originContent": "- [2025-10-21] 🐳 **Docker update**: Add the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually! Please pull the latest images from Docker Hub and recreates the containers, e.g. using `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`.",
-    "translatedContent": "- [2025-10-21] 🐳 **Cập nhật Docker**: Thêm docker cho Môi trường CSDL Đầy đủ. Và chúng tôi đã đẩy 3 ảnh docker (Cơ sở/Môi trường CSDL Đầy đủ và môi trường đánh giá cho cả `a-Interact` và `c-Interact`) lên Docker Hub để thuận tiện cho việc thiết lập môi trường. Không cần tải về bản dump CSDL và tự build ảnh! Vui lòng kéo về các ảnh mới nhất từ Docker Hub và tạo lại các container, ví dụ sử dụng `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`."
+    "translatedContent": "- [2025-10-21] 🐳 **Cập nhật Docker**: Thêm docker cho môi trường Full DB. Và chúng tôi đã đẩy 3 hình ảnh docker (Base/Full DB Env và môi trường đánh giá cho cả `a-Interact` và `c-Interact`) lên Docker Hub để thuận tiện cho việc thiết lập môi trường. Không cần tải DB dumps hoặc tự build hình ảnh! Hãy pull các hình ảnh mới nhất từ Docker Hub và tạo lại các container, ví dụ sử dụng `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`."
   },
   {
-    "row": 280,
+    "row": 146,
     "rowsha": "H6Zyonsv0aL1AyBf5xeZKrbsY19tVfLl445zOVlMBJc=",
     "originContent": "- [2025-08-22]  🐛 **Bug Fix**: Fix the bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
-    "translatedContent": "- [2025-08-22]  🐛 **Sửa lỗi**: Sửa lỗi khi đánh giá SQL phase-2, câu lệnh SQL phase-1 được lưu không thực thi thành công, dẫn đến tỷ lệ thành công phase-2 thấp hơn. Lỗi này chỉ ảnh hưởng đến các tác vụ mà phase1 sql thực hiện một số thao tác trên cơ sở dữ liệu, ví dụ như CREATE table, v.v."
+    "translatedContent": "- [2025-08-22]  🐛 **Sửa lỗi**: Sửa lỗi khi đánh giá phase-2 SQL, phase-1 SQL lưu trữ không thể thực thi thành công, dẫn đến tỷ lệ thành công của Phase-2 thấp hơn. Lỗi này chỉ ảnh hưởng tới những tác vụ mà phase1 sql thực hiện một số thao tác trên cơ sở dữ liệu, ví dụ CREATE table, v.v."
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   }
 ]

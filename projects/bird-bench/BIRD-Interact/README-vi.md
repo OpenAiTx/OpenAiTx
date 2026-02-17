@@ -57,38 +57,41 @@
 </div>
 
 ## ⚠️ Thông báo  
-Xin lưu ý rằng trước khi quá trình đánh giá bắt đầu, khi Docker tải các cơ sở dữ liệu, đôi khi có thể xảy ra lỗi do môi trường không nhất quán (những lỗi này sẽ không kết thúc quá trình nhưng sẽ xuất hiện trong nhật ký Docker). Do đó, một số cơ sở dữ liệu có thể không tải đúng cách, dẫn đến cơ sở dữ liệu trống. Điều này sẽ khiến kết quả đánh giá thấp bất thường.  
-👉 Vì vậy, chúng tôi khuyến nghị mạnh mẽ kiểm tra nhật ký Docker để phát hiện lỗi **trước khi chạy đánh giá** và xác minh rằng tất cả các cơ sở dữ liệu đã được tải thành công.
+Xin lưu ý rằng trước quá trình đánh giá, khi Docker tải các cơ sở dữ liệu, đôi khi có thể xảy ra lỗi do môi trường không đồng nhất (những lỗi này sẽ không làm dừng quá trình nhưng sẽ xuất hiện trong nhật ký Docker). Kết quả là một số cơ sở dữ liệu có thể không tải đúng, dẫn đến cơ sở dữ liệu trống. Điều này sẽ khiến kết quả đánh giá thấp bất thường.  
+👉 Do đó, chúng tôi khuyến nghị mạnh mẽ kiểm tra nhật ký Docker để phát hiện lỗi **trước khi chạy đánh giá** và xác minh rằng tất cả các cơ sở dữ liệu đã được tải thành công.
 
-👉 Chúng tôi đã cập nhật **Hướng dẫn Nộp bài**, trong đó hỗ trợ bộ khung tác nhân tùy chỉnh. Vui lòng xem hướng dẫn nộp bài chi tiết tại [đây](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true).
+👉 Chúng tôi đã cập nhật **Hướng dẫn Nộp bài**, trong đó hỗ trợ khung đại lý tùy chỉnh. Vui lòng xem hướng dẫn nộp bài chi tiết của chúng tôi [ở đây](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true).
 
 ## 📰 Tin tức
 
-- [2025-11-06] 🐛 **Sửa lỗi** & 🐳 **Cập nhật Docker**: Đã cập nhật phiên bản sqlglot lên 26.16.4 để sửa lỗi trình phân tích cú pháp SQL không phân tích chính xác cho trình mô phỏng người dùng. Bạn có thể khắc phục bằng cách cài đặt lại bằng `pip install sqlglot==26.16.4` trong môi trường `bird_interact_eval`. Hình ảnh `bird_interact_eval` cũng đã được cập nhật, bạn cũng có thể tải về và tạo lại container `bird_interact_eval`.
+- [2026-02-08] 🔥🔥🔥 **[Bài báo Bird-Interact](https://huggingface.co/papers/2510.05318)** của chúng tôi đã được chấp nhận tại **ICLR 2026 (Oral)**! Hẹn gặp ở Rio 🇧🇷!  
 
-- [2025-10-21] 🐳 **Cập nhật Docker**: Chúng tôi đã thêm Docker cho môi trường Full DB. Và đã đẩy 3 hình ảnh Docker (Base/Full DB Env và môi trường đánh giá cho cả `a-Interact` và `c-Interact`) lên Docker Hub để thuận tiện cho việc thiết lập môi trường. Không cần tải DB dumps và xây dựng hình ảnh thủ công!
+- [2025-11-06] 🐛 **Sửa lỗi** & 🐳 **Cập nhật Docker**: Cập nhật phiên bản sqlglot lên 26.16.4 để sửa lỗi trình phân tích cú pháp SQL không phân tích đúng SQL cho trình mô phỏng người dùng. Bạn có thể sửa bằng cách cài đặt lại `pip install sqlglot==26.16.4` trong môi trường `bird_interact_eval`. Hình ảnh `bird_interact_eval` cũng đã được cập nhật, bạn cũng có thể kéo về và tạo lại container `bird_interact_eval`.
 
-- [2025-10-08] 📝 **[Bài báo Bird-Interact](https://huggingface.co/papers/2510.05318)** của chúng tôi hiện đã được công khai!  
-  Bài báo trình bày đầy đủ chi tiết, phương pháp và đánh giá về bộ benchmark tương tác text-to-SQL.  
-  👉 Xem ngay để hiểu rõ hơn về ý tưởng của [BIRD-Interact](https://bird-interact.github.io/).
+- [2025-10-21] 🐳 **Cập nhật Docker**: Chúng tôi đã thêm docker cho Full DB Env. Và đã đẩy 3 hình ảnh docker (Base/Full DB Env và môi trường đánh giá cho cả `a-Interact` và `c-Interact`) lên Docker Hub để thuận tiện cho việc thiết lập môi trường. Không cần tải DB dumps và xây dựng hình ảnh thủ công nữa!
 
-- [2025-08-26] 🚀 Chúng tôi vui mừng thông báo ra mắt bộ **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  
-Đây là bộ dữ liệu khó — các mô hình LLM tốt nhất chỉ đạt tỷ lệ thành công **16.33%**, chỉ **10.0%** ở phần `c-interact` và `a-interact`.  
+- [2025-10-08] 📝 **[Bài báo Bird-Interact](https://huggingface.co/papers/2510.05318)** của chúng tôi hiện đã công khai!  
+  Bài báo trình bày đầy đủ chi tiết, phương pháp và đánh giá về benchmark text-to-SQL tương tác.  
+  👉 Xem ngay và tìm hiểu thêm về ý tưởng đằng sau [BIRD-Interact](https://bird-interact.github.io/).
+
+- [2025-08-26] 🚀 Chúng tôi vui mừng thông báo phát hành bộ **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  
+Đây là bộ khó — các LLM tốt nhất chỉ đạt tỷ lệ thành công **16.33%**, với chỉ **10.0%** ở phần `c-interact` và `a-interact`.  
 👉 Để biết thêm chi tiết, vui lòng truy cập [website dự án](https://bird-interact.github.io/).
 
-- [2025-08-26] 📬 Chúng tôi sẽ gửi **Ground Truth & Test cases** tới danh sách email trong tuần này.  
-Nếu bạn muốn truy cập sớm, hãy gửi email theo hướng dẫn trên trang để **tải tự động**.  
-- [2025-08-26] 💾 Ngoài ra, chúng tôi cũng đã phát hành phiên bản SQLite của **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** để thuận tiện hơn cho nghiên cứu cục bộ.  
-Phiên bản đầy đủ **LiveSQLBench-Base** và **-Large** sẽ sớm ra mắt!
+- [2025-08-26] 📬 Chúng tôi sẽ gửi **Ground Truth & Test cases** tới danh sách gửi thư của mình trong tuần này.  
+Nếu bạn muốn truy cập sớm, vui lòng gửi email theo hướng dẫn trên trang để được **tải về tự động**.  
 
-- [2025-08-22] **Sửa lỗi**: Trong mã nguồn Bird-Interact-Agent, chúng tôi đã khắc phục một lỗi khiến khi đánh giá SQL giai đoạn 2, SQL giai đoạn 1 được lưu trữ không thể thực thi thành công, dẫn đến tỷ lệ thành công của Giai đoạn 2 thấp hơn. Lỗi này chỉ ảnh hưởng đến các tác vụ mà sql giai đoạn 1 thực hiện một số thao tác trên cơ sở dữ liệu, ví dụ như CREATE table, v.v.
+- [2025-08-26] 💾 Ngoài ra, chúng tôi cũng đã phát hành phiên bản SQLite của **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** để thuận tiện cho nghiên cứu cục bộ.  
+Phiên bản đầy đủ **LiveSQLBench-Base** và **-Large** sẽ ra mắt sớm!
+
+- [2025-08-22] **Sửa lỗi**: Trong mã Bird-Interact-Agent, chúng tôi đã sửa một lỗi khiến khi đánh giá phase-2 SQL, câu lệnh phase-1 SQL lưu trữ không thực thi được thành công, dẫn đến tỷ lệ thành công phase-2 thấp hơn. Lỗi này chỉ ảnh hưởng đến các tác vụ mà phase1 sql thực hiện một số thao tác trên cơ sở dữ liệu, ví dụ như CREATE table, v.v.
 
 ## 🧸 Tổng quan
 
-BIRD-INTERACT, một bộ đánh giá text-to-SQL tương tác, **tái định nghĩa việc đánh giá Text-to-SQL qua lăng kính các tương tác động**.
-Môi trường kết hợp một cơ sở tri thức phân cấp, tài liệu cơ sở dữ liệu và một trình mô phỏng người dùng dựa trên chức năng để tái tạo môi trường doanh nghiệp thực tế với đầy đủ thao tác **CRUD**.
-Nó cung cấp hai chế độ kiểm thử khắt khe: (1) **Tương tác hội thoại** bị động và (2) **Tương tác chủ động kiểu Agentic**, bao gồm 600 tác vụ được chú thích như Business Intelligence (BI), thao tác CRUD, v.v., mỗi tác vụ đều có các ca kiểm thử thực thi.
-Các đánh giá điển hình kích hoạt từ 1.968-5.496 lượt tương tác giữa mô hình và trình mô phỏng người dùng, trong khi các mô hình suy luận hiện đại chỉ giải được **≈24%** và **≈18%** tác vụ, nhấn mạnh độ khó của bộ đánh giá này.
+BIRD-INTERACT, một bộ đánh giá text-to-SQL tương tác, **định nghĩa lại việc đánh giá Text-to-SQL qua lăng kính tương tác động**.
+Môi trường kết hợp cơ sở tri thức phân cấp, tài liệu cơ sở dữ liệu và trình mô phỏng người dùng dựa trên chức năng để tái tạo môi trường doanh nghiệp thực với đầy đủ các thao tác **CRUD**.
+Nó cung cấp hai chế độ kiểm thử nghiêm ngặt: (1) **Tương tác hội thoại** bị động và (2) **Tương tác chủ động** dạng agent, bao quát 600 tác vụ đã được gán nhãn bao gồm Business Intelligence (BI), thao tác CRUD và nhiều hơn nữa, mỗi tác vụ đều có test case thực thi được.
+Các đánh giá điển hình kích hoạt 1.968-5.496 lượt tương tác giữa mô hình và trình mô phỏng người dùng, trong khi các mô hình suy luận hiện đại chỉ giải quyết được **≈24%** và **≈18%** tác vụ, nhấn mạnh độ khó của bộ đánh giá này.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png" 
@@ -97,61 +100,60 @@ Các đánh giá điển hình kích hoạt từ 1.968-5.496 lượt tương tá
 
 ### ✅ Hai chế độ đánh giá
 
-BIRD-INTERACT hỗ trợ hai chế độ đánh giá như đã nêu trên:
+BIRD-INTERACT hỗ trợ hai chế độ đánh giá như đã đề cập ở trên:
 
-   - **c-Interact**: Tương tác hội thoại, là chế độ bị động và luồng công việc cố định. Mã nguồn và thông tin chi tiết có trong `bird_interact_conv`.
-   - **a-Interact**: Tương tác chủ động kiểu Agentic, là chế độ chủ động nhập vai nơi luồng công việc động và do mô hình dẫn dắt. Mã nguồn và thông tin chi tiết có trong `bird_interact_agent`.
+   - **c-Interact**: Tương tác hội thoại, đây là chế độ bị động với quy trình cố định. Mã nguồn và thông tin chi tiết có thể tìm thấy tại `bird_interact_conv`.
+   - **a-Interact**: Tương tác chủ động dạng agent, là chế độ chủ động với quy trình động và được dẫn dắt bởi các mô hình. Mã nguồn và thông tin chi tiết có thể tìm thấy tại `bird_interact_agent`.
 
 
 ### 🐣 Phiên bản rút gọn
 
-Chúng tôi phát hành phiên bản rút gọn của BIRD-INTERACT, `bird-interact-lite-exp`, bao gồm 270 tác vụ thực tế chất lượng cao dành riêng cho PostgreSQL. Đây là điểm bắt đầu tốt để thử nghiệm nhanh.
+Chúng tôi phát hành bản rút gọn của BIRD-INTERACT, `bird-interact-lite-exp`, bao gồm 270 tác vụ thực tế chất lượng cao dành riêng cho PostgreSQL. Đây là điểm khởi đầu tốt để thử nghiệm nhanh.
 
 ### 🦜 Phiên bản đầy đủ
 
-Phiên bản đầy đủ của BIRD-INTERACT, `bird-interact-full`, là bộ đánh giá toàn diện bao gồm 600 tác vụ cho PostgreSQL. Nó bao phủ nhiều loại thao tác SQL và truy vấn người dùng. Phiên bản đầy đủ sẽ ra mắt sớm.
+Phiên bản đầy đủ của BIRD-INTERACT, `bird-interact-full`, là bộ đánh giá toàn diện bao gồm 600 tác vụ cho PostgreSQL. Nó bao phủ nhiều thao tác SQL và truy vấn người dùng. Phiên bản đầy đủ sẽ ra mắt sớm.
 
 ### Kết quả hiệu năng mô hình trên BIRD-INTERACT-FULL
 
-#### 1. Hiệu năng **c-Interact Text-to-SQL**
-| Hạng | Tên mô hình        | Phần thưởng chuẩn hóa | Chi phí TB (USD)/Tác vụ | Cấp độ              |
-|:----:|:-------------------|:---------------------:|:------------------------:|:--------------------:|
-| 1    | Gemini-2.5-Pro     | 20.92                 | $0.04                    | 🏆 Chat Xuất sắc    |
-
-| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 Chat xuất sắc    |
-| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 Chat tốt         |
-| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 Chat tốt         |
-| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ Tiêu chuẩn        |
-| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ Tiêu chuẩn        |
-| 7    | GPT-5              | 12.58             | $0.08               | ⚪ Cơ bản            |
+#### 1. **Hiệu năng c-Interact Text-to-SQL**
+| Hạng | Tên mô hình        | Normalized Reward | Chi phí TB (USD)/Tác vụ | Cấp độ              |
+|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|
+| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 Trò chuyện xuất sắc  |
+| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 Trò chuyện xuất sắc  |
+| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 Trò chuyện tốt       |
+| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 Trò chuyện tốt       |
+| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ Tiêu chuẩn           |
+| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ Tiêu chuẩn           |
+| 7    | GPT-5              | 12.58             | $0.08               | ⚪ Cơ bản               |
 
 #### 2. **Hiệu suất a-Interact Text-to-SQL**
-| Hạng | Tên Mô Hình        | Thưởng Chuẩn Hóa  | Chi Phí TB (USD)/Tác vụ | Cấp độ                     |
-|:----:|:-------------------|:-----------------:|:-----------------------:|:--------------------------:|
-| 1    | GPT-5              | 25.52             | $0.24                   | 🏆 Tương tác xuất sắc      |
-| 2    | Claude-Sonnet-4    | 23.28             | $0.51                   | 🏆 Tương tác xuất sắc      |
-| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60                   | 💎 Tương tác tốt           |
-| 4    | Gemini-2.5-Pro     | 17.33             | $0.22                   | 💎 Tương tác tốt           |
-| 5    | O3-Mini            | 16.43             | $0.06                   | ✨ Tiêu chuẩn              |
-| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06                   | ✨ Tiêu chuẩn              |
-| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07                   | ⚪ Cơ bản                  |
+| Xếp hạng | Tên mô hình         | Phần thưởng Chuẩn hóa | Chi phí TB (USD)/Tác vụ | Cấp độ                      |
+|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|
+| 1    | GPT-5              | 25.52             | $0.24               | 🏆 Tương tác xuất sắc     |
+| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 Tương tác xuất sắc     |
+| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 Tương tác tốt          |
+| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 Tương tác tốt          |
+| 5    | O3-Mini            | 16.43             | $0.06               | ✨ Tiêu chuẩn              |
+| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ Tiêu chuẩn              |
+| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ Cơ bản                  |
 
-> \* Tham số Ngân sách: Ngân sách Khởi tạo/Ngân sách Kiên nhẫn Người dùng, đo bằng đơn vị tiền ảo *bird-coin*s <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;">. Xem chi tiết tại [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting).
+> \* Thông số ngân sách: Ngân sách khởi đầu/Ngân sách kiên nhẫn người dùng, được đo bằng đơn vị tiền ảo *bird-coin* <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;">. Xem chi tiết tại [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting).
 
 ### Quy mô Thời gian Tương tác (ITS)
 
-Quy mô Thời gian Tương tác (ITS) chỉ khả năng của mô hình trong việc liên tục cải thiện hiệu suất cuối cùng thông qua các lượt tương tác nhiều lần. Khi hiệu suất tương tác này vượt qua hiệu suất lý tưởng của mô hình với tác vụ đã chỉ định đầy đủ, không mơ hồ, ta nói rằng nó thỏa mãn **định luật ITS**. Khi sự kiên nhẫn của người dùng tăng lên và số lượt tương tác tích lũy, hiệu suất tiếp tục cải thiện, thể hiện rằng mô hình có thể duy trì giao tiếp hiệu quả qua các đoạn hội thoại kéo dài. Hiện tại, chỉ có claude-3-7-sonnet thỏa mãn định luật ITS.
+Quy mô Thời gian Tương tác (ITS) đề cập đến khả năng của mô hình trong việc liên tục nâng cao hiệu suất cuối cùng thông qua các vòng tương tác đa lượt. Khi hiệu suất tương tác này vượt qua hiệu suất lý tưởng của mô hình trong một tác vụ đơn lẻ, rõ ràng, không mơ hồ, chúng tôi cho rằng mô hình đáp ứng **định luật ITS**. Khi sự kiên nhẫn của người dùng tăng và số lượt tương tác tích lũy, hiệu suất tiếp tục được cải thiện, chứng tỏ mô hình có thể duy trì giao tiếp hiệu quả trong đối thoại kéo dài. Hiện tại, chúng tôi chỉ phát hiện claude-3-7-sonnet đáp ứng định luật ITS.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png" 
        style="width: 100%; min-width: 100px; display: block; margin: auto; ">
 </p>
 
-## Thiết lập Môi trường
+## Cài đặt môi trường
 
 1. Chạy các container Docker cho cơ sở dữ liệu bird-interact-lite, cơ sở dữ liệu bird-interact-full, và môi trường đánh giá:
   
-  > Nếu bạn chỉ muốn đánh giá trên `bird-interact-lite`, bạn có thể comment dịch vụ [`postgresql_full`](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) trong `docker-compose.yml` để tăng tốc thiết lập môi trường.
+  > Nếu bạn chỉ muốn đánh giá trên `bird-interact-lite`, bạn có thể comment dịch vụ [`postgresql_full`](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) trong `docker-compose.yml` để tăng tốc quá trình cài đặt môi trường.
   
   Khởi động môi trường bằng lệnh:
    ```bash
@@ -331,18 +333,18 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-Thông tin chi tiết về cách chạy **a-interact** có thể được tìm thấy tại `./bird_interact_agent/README.md`; và **c-interact** tại `./bird_interact_conv/README.md`.
+Chi tiết về cách chạy **a-interact** có thể được tìm thấy ở `./bird_interact_agent/README.md`; và **c-interact** có thể được tìm thấy ở `./bird_interact_conv/README.md`.
 
 ## 📋 Danh sách việc cần làm
 
 - [x] Phát hành phiên bản nhẹ, bird-interact-lite (270).
 - [x] Phát hành phiên bản hội thoại, bird-interact-conv.
 - [x] Phát hành phiên bản agent, bird-interact-agent.
-- [x] Phát hành phiên bản đầy đủ bird-interact-full (600).
-- [ ] SFT / RL một Bộ giả lập Người dùng
+- [x] Phát hành đầy đủ bird-interact-full (600).
+- [ ] SFT / RL một Trình mô phỏng Người dùng
 
-## Lời cảm ơn
-Chúng tôi xin bày tỏ lòng biết ơn sâu sắc tới **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, và Giáo sư **Shinji Watanabe** vì những trao đổi bổ ích và đóng góp giá trị giúp cải thiện dự án này.
+## Ghi nhận
+Chúng tôi xin bày tỏ lòng biết ơn chân thành tới **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, và Giáo sư **Shinji Watanabe** vì những cuộc thảo luận hiệu quả và những ý kiến quý giá đã giúp cải thiện dự án này.
 
 ## Được tạo bởi:
 Nhóm BIRD & Google Cloud
@@ -356,12 +358,13 @@ Nhóm BIRD & Google Cloud
 
 ## Nhật ký thay đổi
 
-- [2025-11-06] 🐛 **Sửa lỗi** & 🐳 **Cập nhật Docker**: Cập nhật phiên bản sqlglot lên 26.16.4 để sửa lỗi bộ phân tích cú pháp SQL không thể phân tích cú pháp SQL đúng cho bộ giả lập người dùng. Bạn có thể sửa lỗi này bằng cách cài đặt lại bằng lệnh `pip install sqlglot==26.16.4` trong môi trường `bird_interact_eval`. Ảnh `bird_interact_eval` cũng đã được cập nhật, bạn cũng có thể kéo về và tạo lại container `bird_interact_eval`.
-- [2025-10-21] 🐳 **Cập nhật Docker**: Thêm docker cho Môi trường CSDL Đầy đủ. Và chúng tôi đã đẩy 3 ảnh docker (Cơ sở/Môi trường CSDL Đầy đủ và môi trường đánh giá cho cả `a-Interact` và `c-Interact`) lên Docker Hub để thuận tiện cho việc thiết lập môi trường. Không cần tải về bản dump CSDL và tự build ảnh! Vui lòng kéo về các ảnh mới nhất từ Docker Hub và tạo lại các container, ví dụ sử dụng `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`.
-- [2025-08-22]  🐛 **Sửa lỗi**: Sửa lỗi khi đánh giá SQL phase-2, câu lệnh SQL phase-1 được lưu không thực thi thành công, dẫn đến tỷ lệ thành công phase-2 thấp hơn. Lỗi này chỉ ảnh hưởng đến các tác vụ mà phase1 sql thực hiện một số thao tác trên cơ sở dữ liệu, ví dụ như CREATE table, v.v.
+- [2025-11-06] 🐛 **Sửa lỗi** & 🐳 **Cập nhật Docker**: Cập nhật phiên bản sqlglot lên 26.16.4 để sửa lỗi trình phân tích cú pháp SQL không thể phân tích đúng SQL cho trình mô phỏng người dùng. Bạn có thể sửa lỗi này bằng cách cài đặt lại bằng `pip install sqlglot==26.16.4` trong môi trường `bird_interact_eval`. Hình ảnh `bird_interact_eval` cũng đã được cập nhật, bạn cũng có thể pull về và tạo lại container `bird_interact_eval`.
+- [2025-10-21] 🐳 **Cập nhật Docker**: Thêm docker cho môi trường Full DB. Và chúng tôi đã đẩy 3 hình ảnh docker (Base/Full DB Env và môi trường đánh giá cho cả `a-Interact` và `c-Interact`) lên Docker Hub để thuận tiện cho việc thiết lập môi trường. Không cần tải DB dumps hoặc tự build hình ảnh! Hãy pull các hình ảnh mới nhất từ Docker Hub và tạo lại các container, ví dụ sử dụng `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`.
+- [2025-08-22]  🐛 **Sửa lỗi**: Sửa lỗi khi đánh giá phase-2 SQL, phase-1 SQL lưu trữ không thể thực thi thành công, dẫn đến tỷ lệ thành công của Phase-2 thấp hơn. Lỗi này chỉ ảnh hưởng tới những tác vụ mà phase1 sql thực hiện một số thao tác trên cơ sở dữ liệu, ví dụ CREATE table, v.v.
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-17
 
 ---

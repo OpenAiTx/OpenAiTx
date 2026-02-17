@@ -1,0 +1,170 @@
+[
+  {
+    "row": 1,
+    "rowsha": "EcnTfUBgd1raV7SzWKGNQOGp3vlm9LJZcB3tqD6bCFo=",
+    "originContent": "## An easy way to create a document library for your project",
+    "translatedContent": "## 为您的项目创建文档库的简便方法"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "fNEktdSsO1pjJOcKpkxunqcnp5t2mvkWLnqEM+FtjJc=",
+    "originContent": "Demo: [https://easydocs.codeandmedia.com/](https://easydocs.codeandmedia.com/)",
+    "translatedContent": "演示：[https://easydocs.codeandmedia.com/](https://easydocs.codeandmedia.com/)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "f+LoAsOFo7VHb9ONkd/EAG0jicYxODV8Gq2BFluMWK0=",
+    "originContent": "This theme for [Zola](https://getzola.org) (static site engine) helps you build and publish your project docs easily and fast. Zola is just one binary that outputs html-pages and additional static assets after building your docs written in Markdown. Thus, you can take the theme, your md-files, Zola and gain flexible and simple website for documentation. ",
+    "translatedContent": "此主题适用于 [Zola](https://getzola.org)（静态网站引擎），帮助您轻松快速地构建和发布项目文档。Zola 是一个二进制文件，构建您用 Markdown 编写的文档后输出 html 页面和额外的静态资源。因此，您可以使用该主题、您的 md 文件和 Zola，获得一个灵活且简单的文档网站。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "suf26N4efK5SOh54YkFUL7QogmZdZGXJ5DEorU/quMU=",
+    "originContent": "### Step-by-step",
+    "translatedContent": "### 逐步指南"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "Wy3P3vqNO/Dd+wsgKTzTJIocHpDAOogmvelr4ve9n10=",
+    "originContent": "As you may have heard Zola is quite flexible :) So, the scenario below is one of hundreds possible ways to make things done, feel free to find your best. Also, Zola provides their own mechanism to install and use themes, see [the docs](https://www.getzola.org/documentation/themes/installing-and-using-themes/). ",
+    "translatedContent": "如您所知，Zola 非常灵活 :) 下面的方案只是众多实现方式中的一种，欢迎自由探索最佳方案。此外，Zola 提供了自己的主题安装和使用机制，详见[文档](https://www.getzola.org/documentation/themes/installing-and-using-themes/)。"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "FSl/bvLiPSruh2MELKqe3WgQQJZGmKWmqEX9JJ74ius=",
+    "originContent": "1. Fork the repo and replace demo-content inside content folder with yours. But take a look to _index.md files. It contains `title` and when you want to have anchor right of your headers add `insert_anchor_links = \"right\"` to each index. `theme.toml`, screenshot and readme may be deleted too. ",
+    "translatedContent": "1. Fork 仓库并用您的内容替换 content 文件夹内的 demo-content。但请查看 _index.md 文件。它包含 `title`，如果您想让标题右侧出现锚点，请在每个 index 中添加 `insert_anchor_links = \"right\"`。`theme.toml`、截图和 readme 文件也可以删除。"
+  },
+  {
+    "row": 12,
+    "rowsha": "TnOE7SJSICYLbh2I9eMSNZ60qEaWBEUmyRyl3fakCjk=",
+    "originContent": "2. Inside `config.toml` change URL and title on your own. In extra section you can specify path to your GitHub API for version below the logo on nav, favicon and logo itself. Or just remove the lines if you don't need it. Also, you can configure or turn on some additional settings related to Zola. [Specification is here](https://www.getzola.org/documentation/getting-started/configuration/).",
+    "translatedContent": "2. 在 `config.toml` 中修改 URL 和标题。在 extra 部分您可以指定 GitHub API 路径，用于导航栏 logo 下方的版本信息、favicon 和 logo 本身。或者如果不需要，可以删除这些行。同时，您也可以配置或启用与 Zola 相关的其他设置。[规格说明见此处](https://www.getzola.org/documentation/getting-started/configuration/)。"
+  },
+  {
+    "row": 13,
+    "rowsha": "pVadu4KfLmJ3Ktyuyi6R8KTAosB7iWPOorJVC6nL8NI=",
+    "originContent": "3. In sass/_variables.scss you may change font, color or background if you want.",
+    "translatedContent": "3. 在 sass/_variables.scss 中，您可以根据需要更改字体、颜色或背景。"
+  },
+  {
+    "row": 14,
+    "rowsha": "yvCzNlGCBCat1FnVURX1v07w0I8WeR8ksVDSUmfHfUs=",
+    "originContent": "4. Almost done. Now, you should decide how you want to build and where will be hosted your website. You can build it locally and upload to somewhere. Or build in GitHub Actions and host on GitHub Pages / Netlify / CloudFlare Pages / AnyS3CloudStorage. [Howto for GitHub Pages](https://www.getzola.org/documentation/deployment/github-pages/). [My example](https://github.com/o365hq/o365hq.com/blob/main/.github/workflows/main.yml) of GitHub workflow with 2-steps build (the first checks for links and spelling errors, the second uploads to Azure). [Dockerfile](https://github.com/codeandmedia/zola_docsascode_theme/blob/master/Dockerfile) to make Docker image.",
+    "translatedContent": "4. 几乎完成。现在，您需要决定如何构建以及网站将托管在哪里。您可以本地构建后上传到某处，或者使用 GitHub Actions 构建并托管在 GitHub Pages / Netlify / CloudFlare Pages / 任意 S3 云存储中。[GitHub Pages 使用指南](https://www.getzola.org/documentation/deployment/github-pages/)。[我的示例](https://github.com/o365hq/o365hq.com/blob/main/.github/workflows/main.yml)是一个 GitHub 工作流，包含两步构建（第一步检查链接和拼写错误，第二步上传至 Azure）。[Dockerfile](https://github.com/codeandmedia/zola_docsascode_theme/blob/master/Dockerfile) 用于制作 Docker 镜像。"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "sGhvj6hnO1umRO69Avohyc+sa29+t3nVKrMKszHRv7I=",
+    "originContent": "## Provided configurations options",
+    "translatedContent": "## 提供的配置选项"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "pO+Pw5AtVGvlsqeUvfZV7WHC6hXDBn7ju36Pb4R6hNQ=",
+    "originContent": "These options can be configured in the `extra` section of the [config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml).",
+    "translatedContent": "这些选项可在 [config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml) 的 `extra` 部分进行配置。  "
+  },
+  {
+    "row": 19,
+    "rowsha": "X6VJBsKCrHhsuXSrup2amYZjS/nkk7CXYkaA+unLkFs=",
+    "originContent": "If any are not present it has the same behaviour as the default which is shown in the starter [config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml).",
+    "translatedContent": "如果未设置，则行为与起始 [config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml) 中的默认值相同。"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "BOjos8ksJ0VJaY2gVF34cOb9t2ROh+dgOfElMd1V97g=",
+    "originContent": "- **easydocs_logo_always_clickable** controls if the logo is always clickable. By default the logo is only clickable if you are not on the home page. If this is enabled it will make the logo clickable when you are on the home page as well. Thus on the home page it will basically just refresh the page as it will take you to the same page.",
+    "translatedContent": "- **easydocs_logo_always_clickable** 控制 logo 是否始终可点击。默认情况下，只有不在首页时 logo 才可点击。如果启用此项，首页的 logo 也将可点击，点击时实际上是刷新当前页面，因为会跳转到同一页面。"
+  },
+  {
+    "row": 22,
+    "rowsha": "LYKPHaFOfsOReCKWJf3kqsU4bX6h23VfpHniHfddfm0=",
+    "originContent": "- **easydocs_uglyurls** provides support for offline sites that do not use a webserver. If set to true links in the nav are generated with the full path indcluding `index.html`. This functionality was  insired by [Abridge theme](https://www.getzola.org/themes/abridge/). Note that for this to work it also requries the base URL to be set to the local folder where the site will be stored eg. `base_url = file:///home/user/mysite/public/`. Therefore this is not portable and only works with a specific local folder, but does not require a webserver to navigate the site.",
+    "translatedContent": "- **easydocs_uglyurls** 支持不使用 Web 服务器的离线站点。如果设置为 true，导航中的链接将生成包含完整路径和 `index.html` 的链接。此功能灵感来自 [Abridge 主题](https://www.getzola.org/themes/abridge/)。注意，此功能要求 base URL 设置为站点存储的本地文件夹路径，例如 `base_url = file:///home/user/mysite/public/`。因此该配置不可移植，只能在特定本地文件夹使用，但无需 Web 服务器即可浏览站点。"
+  },
+  {
+    "row": 23,
+    "rowsha": "TBuInyjhEbDj0GemaceQxx79knQoN3G1PF/7c8GsCLI=",
+    "originContent": "- **easydocs_heading_threshold** controls minimum number of headings needed on a page before the headings show in the navigation on the left. Defaults to 5. Can be used for example to always show headings on each page by setting it to 1.",
+    "translatedContent": "- **easydocs_heading_threshold** 控制页面中显示导航栏左侧标题的最小标题数量。默认为 5。例如，将此值设为 1 可始终在每个页面显示标题。"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "ss4U/W8t43xyVDos6RZaQtVUReUDIxonu9zwEJWXC64=",
+    "originContent": "Enjoy your docs!",
+    "translatedContent": "祝您使用文档愉快！"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "jT00Im0RYhE2IxMxxGGR3YjoENJzdL+2joT/wDB9eIw=",
+    "originContent": "* _Icons: [Office UI Fabric Icons](https://uifabricicons.azurewebsites.net/)_",
+    "translatedContent": "* _图标：[Office UI Fabric Icons](https://uifabricicons.azurewebsites.net/)_"
+  },
+  {
+    "row": 28,
+    "rowsha": "WT0NtIpIjRCP83GnlUtYTx+pkD3bp237WZ4k0R/P/y0=",
+    "originContent": "* _Copy-code-button: [Aaron Luna](https://aaronluna.dev/blog/add-copy-button-to-code-blocks-hugo-chroma/)_",
+    "translatedContent": "* _复制代码按钮：[Aaron Luna](https://aaronluna.dev/blog/add-copy-button-to-code-blocks-hugo-chroma/)_"
+  }
+]

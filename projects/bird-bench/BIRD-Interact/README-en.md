@@ -64,13 +64,15 @@ Please note that before your evaluation process, when Docker loads the databases
 
 ## 📰 News
 
-- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.
+- [2026-02-08] 🔥🔥🔥 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** has been accepted at **ICLR 2026 (Oral)**! See you in Rio 🇧🇷!  
 
-- [2025-10-21] 🐳 **Docker update**: We added the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually!
+- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Updated the sqlglot version to 26.16.4 to fix the bug where the SQL parser could not correctly parse SQL for the user simulator. You can fix this by reinstalling it with `pip install sqlglot==26.16.4` in the `bird_interact_eval` environment. The `bird_interact_eval` image has also been updated, so you can pull it and recreate the `bird_interact_eval` container.
+
+- [2025-10-21] 🐳 **Docker update**: We have added Docker for Full DB Env. And we have pushed 3 Docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate environment setup. No need to download DB dumps and build images manually!
 
 - [2025-10-08] 📝 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** is now publicly available!  
   It presents the full details, methodology, and evaluation of our interactive text-to-SQL benchmark.  
-  👉 Check it out and know more about the ideas behind [BIRD-Interact](https://bird-interact.github.io/).
+  👉 Check it out and learn more about the ideas behind [BIRD-Interact](https://bird-interact.github.io/).
 
 - [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  
 It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  
@@ -360,8 +362,9 @@ BIRD Team & Google Cloud
 - [2025-10-21] 🐳 **Docker update**: Add the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually! Please pull the latest images from Docker Hub and recreates the containers, e.g. using `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`.
 - [2025-08-22]  🐛 **Bug Fix**: Fix the bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-17
 
 ---

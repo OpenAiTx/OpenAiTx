@@ -57,39 +57,41 @@
 </div>
 
 ## ⚠️ 공지  
-평가를 시작하기 전에, Docker가 데이터베이스를 로드할 때 환경 불일치로 인해 오류가 간헐적으로 발생할 수 있습니다(이 오류들은 프로세스를 종료하지 않지만 Docker 로그에 나타납니다). 그 결과 일부 데이터베이스가 제대로 로드되지 않아 비어 있는 데이터베이스가 생길 수 있습니다. 이로 인해 평가 결과가 비정상적으로 낮게 나올 수 있습니다.  
-👉 따라서, **평가를 실행하기 전에** Docker 로그에서 오류를 반드시 확인하고 모든 데이터베이스가 성공적으로 로드되었는지 검증할 것을 강력히 권장합니다.
+Docker가 데이터베이스를 로드하는 동안 환경 불일치로 인해 가끔 오류가 발생할 수 있습니다(이 오류는 프로세스를 중단시키지 않지만 Docker 로그에 표시됩니다). 그 결과 일부 데이터베이스가 정상적으로 로드되지 않아 빈 데이터베이스가 생성될 수 있습니다. 이로 인해 평가 결과가 비정상적으로 낮게 나올 수 있습니다.  
+👉 따라서 **평가를 실행하기 전**에 Docker 로그에서 오류가 있는지 확인하고, 모든 데이터베이스가 정상적으로 로드되었는지 반드시 검증하실 것을 강력히 권장합니다.
 
-👉 **제출 가이드라인**이 업데이트되었으며, 커스텀 에이전트 스캐폴드도 지원됩니다. 자세한 제출 가이드라인은 [여기](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true)에서 확인하실 수 있습니다.
+👉 **제출 가이드라인**이 업데이트되어 맞춤형 에이전트 스캐폴드가 지원됩니다. 자세한 제출 가이드라인은 [여기](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true)에서 확인하실 수 있습니다.
 
 ## 📰 뉴스
 
-- [2025-11-06] 🐛 **버그 수정** & 🐳 **Docker 업데이트**: sqlglot 버전을 26.16.4로 업데이트하여 사용자 시뮬레이터에서 SQL 파서를 제대로 파싱하지 못하던 버그를 수정했습니다. `bird_interact_eval` 환경에서 `pip install sqlglot==26.16.4`로 재설치하면 해결할 수 있습니다. `bird_interact_eval` 이미지도 업데이트되었으니, 이미지를 새로 받아서 `bird_interact_eval` 컨테이너를 재생성해 주세요.
+- [2026-02-08] 🔥🔥🔥 저희 **[Bird-Interact 논문](https://huggingface.co/papers/2510.05318)**이 **ICLR 2026 (Oral)**에 채택되었습니다! 리우에서 만나요 🇧🇷!  
 
-- [2025-10-21] 🐳 **Docker 업데이트**: Full DB Env용 도커를 추가했습니다. 환경 구축을 쉽게 할 수 있도록 (Base/Full DB Env 및 `a-Interact`와 `c-Interact` 평가 환경) 총 3개의 도커 이미지를 Docker Hub에 배포했습니다. DB 덤프를 직접 다운로드하고 이미지를 수동으로 구축할 필요가 없습니다!
+- [2025-11-06] 🐛 **버그 수정** & 🐳 **Docker 업데이트**: 사용자 시뮬레이터에서 SQL 파서를 올바르게 해석하지 못하는 버그를 수정하기 위해 sqlglot 버전을 26.16.4로 업데이트했습니다. `bird_interact_eval` 환경에서 `pip install sqlglot==26.16.4`로 재설치하시면 해결됩니다. `bird_interact_eval` 이미지도 업데이트되었으니, 이미지를 다시 받아서 컨테이너를 재생성하실 수 있습니다.
 
-- [2025-10-08] 📝 우리의 **[Bird-Interact 논문](https://huggingface.co/papers/2510.05318)**이 공개되었습니다!  
-  인터랙티브 텍스트-투-SQL 벤치마크의 전체 세부 정보, 방법론, 평가를 담고 있습니다.  
-  👉 [BIRD-Interact](https://bird-interact.github.io/)의 아이디어와 자세한 내용을 확인해보세요.
+- [2025-10-21] 🐳 **Docker 업데이트**: Full DB Env용 도커를 추가했습니다. Base/Full DB Env 및 `a-Interact`, `c-Interact` 평가 환경용 3가지 도커 이미지를 Docker Hub에 업로드하여 환경 설정이 쉬워졌습니다. 이제 DB 덤프를 직접 다운로드하거나 이미지를 수동으로 빌드할 필요가 없습니다!
 
-- [2025-08-26] 🚀 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** 세트 출시를 발표하게 되어 기쁩니다!  
-이 세트는 매우 어려운 과제로, 최고 성능의 LLM도 **16.33%** 성공률, `c-interact` 및 `a-interact`에서는 겨우 **10.0%** 성공률을 기록하고 있습니다.  
-👉 자세한 내용은 [프로젝트 웹사이트](https://bird-interact.github.io/)를 참고해 주세요.
+- [2025-10-08] 📝 저희 **[Bird-Interact 논문](https://huggingface.co/papers/2510.05318)**이 공개되었습니다!  
+  본 논문은 인터랙티브 텍스트-투-SQL 벤치마크의 전체 세부사항, 방법론, 평가를 다룹니다.  
+  👉 [BIRD-Interact](https://bird-interact.github.io/)의 아이디어를 더 알고 싶으시다면 확인해보세요.
 
-- [2025-08-26] 📬 이번 주에 **Ground Truth & Test cases**를 메일링 리스트로 발송할 예정입니다.  
-빠른 접근을 원하시면, 사이트 안내에 따라 이메일을 보내주시면 **자동 다운로드**를 이용하실 수 있습니다.  
+- [2025-08-26] 🚀 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** 세트 출시를 알리게 되어 기쁩니다!  
+매우 까다로운 데이터셋으로, 최고의 LLM도 **16.33%** 성공률, `c-interact` 및 `a-interact` 부분에서는 단 **10.0%** 성공률을 보이고 있습니다.  
+👉 더 자세한 내용은 [프로젝트 웹사이트](https://bird-interact.github.io/)를 방문하세요.
 
-- [2025-08-26] 💾 참고로, 보다 손쉬운 로컬 연구를 위해 **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)**의 SQLite 버전도 출시되었습니다.  
-전체 **LiveSQLBench-Base** 및 **-Large** 버전은 곧 출시될 예정입니다!
+- [2025-08-26] 📬 이번 주에는 **Ground Truth & Test cases**를 메일링 리스트에 발송할 예정입니다.  
+조기 접근을 원하시면, 사이트에 안내된 대로 이메일을 보내 **자동 다운로드**를 받으시기 바랍니다.  
 
-- [2025-08-22] **버그 수정**: Bird-Interact-Agent 코드에서, Phase-2 SQL 평가 시 저장된 Phase-1 SQL이 정상적으로 실행되지 않아 Phase-2 성공률이 낮아지는 버그를 수정했습니다. 이 버그는 오직 phase1 sql이 데이터베이스에서 CREATE table 등 일부 작업을 수행하는 경우에만 영향을 미칩니다.
+- [2025-08-26] 💾 또 다른 소식으로, 로컬 연구를 위해 **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)**의 SQLite 버전을 출시했습니다.  
+전체 버전인 **LiveSQLBench-Base**와 **-Large**는 곧 출시될 예정입니다!
+
+- [2025-08-22] **버그 수정**: Bird-Interact-Agent 코드에서 phase-2 SQL을 평가할 때 저장된 phase-1 SQL이 성공적으로 실행되지 않아 Phase-2의 성공률이 낮아지는 버그를 수정했습니다. 이 버그는 phase1 sql이 데이터베이스에서 CREATE table 등 작업을 수행하는 경우에만 영향을 미칩니다.
 
 ## 🧸 개요
 
-BIRD-INTERACT는 상호작용형 텍스트-투-SQL 벤치마크로, **동적 상호작용 관점에서 Text-to-SQL 평가를 재구상**합니다.
-이 환경은 계층적 지식베이스, 데이터베이스 문서, 함수 기반 사용자 시뮬레이터를 결합하여 실제 기업 환경의 **CRUD** 연산을 재현합니다.
-두 가지 엄격한 테스트 모드: (1) 수동 **대화형 상호작용**과 (2) 능동 **에이전트형 상호작용**을 제공하며, 600개의 주석 처리된 비즈니스 인텔리전스(BI), CRUD 연산 등 각종 업무를 실행 가능한 테스트 케이스로 보호합니다.
-일반 평가에서는 모델과 사용자 시뮬레이터 간에 1,968~5,496번의 상호작용이 발생하며, 최신 추론 모델은 현재 **≈24%** 및 **≈18%**의 작업만 해결하여 벤치마크의 난이도를 보여줍니다.
+BIRD-INTERACT는 대화형 text-to-SQL 벤치마크로, **동적 상호작용 관점에서 Text-to-SQL 평가를 새롭게 정의합니다**.
+이 환경은 계층적 지식 베이스, 데이터베이스 문서화, 함수 기반 사용자 시뮬레이터를 결합하여 실제 기업 환경에서 전체 **CRUD** 작업을 재현합니다.
+2가지 엄격한 테스트 모드가 제공됩니다: (1) 패시브 **대화형 상호작용**과 (2) 액티브 **에이전트 상호작용**으로, 각각 실행 가능한 테스트 케이스가 포함된 600개의 주석 작업(BI, CRUD 등)을 포함합니다.
+일반적인 평가는 모델과 사용자 시뮬레이터 간 1,968~5,496회의 상호작용 턴을 유발하며, 최신 추론 모델도 **약 24%** 및 **약 18%**의 작업만 해결해 이 벤치마크의 도전적 난이도를 보여줍니다.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png" 
@@ -100,47 +102,47 @@ BIRD-INTERACT는 상호작용형 텍스트-투-SQL 벤치마크로, **동적 상
 
 BIRD-INTERACT는 위에서 언급한 두 가지 평가 모드를 지원합니다:
 
-   - **c-Interact**: 대화형 상호작용으로, 수동 모드이며 워크플로우가 고정되어 있습니다. 코드와 상세 정보는 `bird_interact_conv`에서 확인할 수 있습니다.
-   - **a-Interact**: 에이전트형 상호작용으로, 모델이 주도하는 능동적이고 동적인 워크플로우입니다. 코드와 상세 정보는 `bird_interact_agent`에서 확인할 수 있습니다.
-
+   - **c-Interact**: 대화형 상호작용(패시브 모드)으로, 워크플로우가 고정되어 있습니다. 코드와 자세한 정보는 `bird_interact_conv`에서 확인할 수 있습니다.
+   - **a-Interact**: 에이전트 상호작용(액티브 모드)으로, 워크플로우가 동적으로 모델에 의해 주도됩니다. 코드와 자세한 정보는 `bird_interact_agent`에서 확인할 수 있습니다.
 
 ### 🐣 라이트 버전
 
-BIRD-INTERACT의 라이트 버전인 `bird-interact-lite-exp`를 출시합니다. 이 버전은 PostgreSQL용으로 270개의 고품질 실제 업무 과제를 포함하며, 빠른 실험에 적합합니다.
+PostgreSQL 전용으로 270개의 고품질 실제 작업이 포함된 BIRD-INTERACT의 라이트 버전인 `bird-interact-lite-exp`를 출시합니다. 빠른 실험을 위한 좋은 시작점입니다.
 
-### 🦜 풀 버전
+### 🦜 전체 버전
 
-BIRD-INTERACT의 풀 버전인 `bird-interact-full`은 PostgreSQL용 600개 과제가 포함된 종합 벤치마크입니다. 다양한 SQL 연산과 사용자 질의를 다루며, 곧 출시될 예정입니다.
+`bird-interact-full` 전체 버전은 PostgreSQL용 600개의 작업을 포함하는 종합 벤치마크입니다. 다양한 SQL 작업과 사용자 질의를 다루며, 전체 버전은 곧 출시될 예정입니다.
 
-### BIRD-INTERACT-FULL의 모델 성능 결과
+### BIRD-INTERACT-FULL에서의 모델 성능 결과
 
 #### 1. **c-Interact Text-to-SQL** 성능
-| 순위 | 모델명              | 정규화 보상         | 평균 비용 (USD)/과제 | 레벨                |
-|:----:|:-------------------|:-------------------:|:-------------------:|:-------------------:|
-| 1    | Gemini-2.5-Pro     | 20.92               | $0.04               | 🏆 우수 챗          |
-| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 우수한 채팅    |
-| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 좋은 채팅      |
-| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 좋은 채팅      |
-| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ 표준           |
-| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ 표준           |
-| 7    | GPT-5              | 12.58             | $0.08               | ⚪ 기본           |
+| 순위 | 모델명           | 정규화 보상        | 평균 비용(USD)/작업 | 수준               |
+
+|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|
+| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 우수한 채팅      |
+| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 우수한 채팅      |
+| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 좋은 채팅        |
+| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 좋은 채팅        |
+| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ 표준             |
+| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ 표준             |
+| 7    | GPT-5              | 12.58             | $0.08               | ⚪ 기본             |
 
 #### 2. **a-Interact Text-to-SQL** 성능
-| 순위 | 모델 이름           | 정규화 보상        | 평균 비용(USD)/작업   | 수준                        |
-|:----:|:-------------------|:-----------------:|:-------------------:|:---------------------------:|
-| 1    | GPT-5              | 25.52             | $0.24               | 🏆 우수한 상호작용          |
-| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 우수한 상호작용          |
-| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 좋은 상호작용            |
-| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 좋은 상호작용            |
-| 5    | O3-Mini            | 16.43             | $0.06               | ✨ 표준                     |
-| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ 표준                     |
-| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ 기본                     |
+| Rank | 모델명               | 정규화된 리워드     | 평균 비용 (USD)/작업   | 등급                      |
+|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|
+| 1    | GPT-5              | 25.52             | $0.24               | 🏆 우수한 상호작용        |
+| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 우수한 상호작용        |
+| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 좋은 상호작용          |
+| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 좋은 상호작용          |
+| 5    | O3-Mini            | 16.43             | $0.06               | ✨ 표준                   |
+| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ 표준                   |
+| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ 기본                   |
 
-> \* 예산 파라미터: 시작 예산/사용자 인내심 예산, 자체 가상화폐 *bird-coin* <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;">로 측정됩니다. 자세한 내용은 [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) 를 참고하세요.
+> \* 예산 파라미터: 시작 예산/사용자 인내심 예산, 자체 가상화폐 *bird-coin* <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;"> 으로 측정합니다. 자세한 내용은 [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) 를 참고하세요.
 
 ### 상호작용 시간 스케일링(ITS)
 
-상호작용 시간 스케일링(ITS)은 모델이 다중 턴 상호작용을 통해 최종 성능을 지속적으로 높일 수 있는 능력을 의미합니다. 이 상호작용 성능이 모델의 이상화된 단일 턴 성능(완전히 명확한 작업에서)을 초과할 때, **ITS 법칙**을 만족한다고 합니다. 사용자의 인내심이 높아지고 상호작용 턴이 쌓일수록 성능이 계속 향상되어, 모델이 장기간 대화에서도 효과적인 소통을 지속할 수 있음을 보여줍니다. 현재 claude-3-7-sonnet만 ITS 법칙을 만족하는 것으로 확인됩니다.
+상호작용 시간 스케일링(ITS)은 모델이 다중 턴 상호작용을 통해 최종 성능을 지속적으로 향상시킬 수 있는 능력을 의미합니다. 이 상호작용적 성능이 명확하게 지정된 단일 턴 작업에서의 모델의 이상적 성능을 능가할 때, 우리는 **ITS 법칙**을 만족한다고 말합니다. 사용자의 인내심이 커지고 상호작용 턴이 누적될수록 성능이 계속 향상되어, 모델이 장기간의 대화에서도 효과적으로 소통할 수 있음을 보여줍니다. 현재 claude-3-7-sonnet만이 ITS 법칙을 만족하는 것으로 확인되었습니다.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png" 
@@ -149,11 +151,11 @@ BIRD-INTERACT의 풀 버전인 `bird-interact-full`은 PostgreSQL용 600개 과�
 
 ## 환경 설정
 
-1. bird-interact-lite 데이터베이스, bird-interact-full 데이터베이스 및 평가 환경에 대해 Docker 컨테이너를 실행합니다:
+1. bird-interact-lite 데이터베이스, bird-interact-full 데이터베이스, 평가 환경을 위한 도커 컨테이너를 실행합니다:
   
-  > `bird-interact-lite`만 평가하려는 경우, 환경 설정 속도를 높이기 위해 `docker-compose.yml`에서 [`postgresql_full` 서비스](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31)를 주석 처리할 수 있습니다.
+  > `bird-interact-lite`에서만 평가하고 싶다면, 환경 설정 속도를 높이기 위해 `docker-compose.yml` 파일에서 [`postgresql_full` 서비스](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31)를 주석 처리할 수 있습니다.
   
-  다음 명령어로 환경을 시작하세요:
+  환경을 시작하려면 다음을 실행하세요:
    ```bash
    cd env
    docker compose pull 
@@ -331,20 +333,20 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-**a-interact** 실행에 관한 자세한 내용은 `./bird_interact_agent/README.md`에서 확인할 수 있으며, **c-interact**에 대한 내용은 `./bird_interact_conv/README.md`에서 확인할 수 있습니다.
+**a-interact** 실행에 대한 자세한 내용은 `./bird_interact_agent/README.md`에서 확인할 수 있으며, **c-interact**는 `./bird_interact_conv/README.md`에서 확인할 수 있습니다.
 
 ## 📋 할 일 목록
 
-- [x] 라이트 버전 릴리스, bird-interact-lite (270).
-- [x] 대화형 버전 릴리스, bird-interact-conv.
-- [x] 에이전트 버전 릴리스, bird-interact-agent.
-- [x] 전체 버전 릴리스, bird-interact-full (600).
+- [x] 라이트 버전 bird-interact-lite (270) 공개.
+- [x] 대화형 버전 bird-interact-conv 공개.
+- [x] 에이전트 버전 bird-interact-agent 공개.
+- [x] 전체 버전 bird-interact-full (600) 공개.
 - [ ] SFT / RL 사용자 시뮬레이터
 
-## 감사의 글
-본 프로젝트의 발전에 도움이 된 풍부한 토론과 귀중한 조언을 아끼지 않은 **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi** 그리고 **Shinji Watanabe** 교수님께 진심으로 감사의 뜻을 전합니다.
+## 감사의 말씀
+본 프로젝트의 발전에 기여해 주신 **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi** 그리고 **Shinji Watanabe** 교수님께 진심으로 감사드립니다.
 
-## 제작:
+## 제작자:
 BIRD 팀 & Google Cloud
 
 
@@ -356,12 +358,13 @@ BIRD 팀 & Google Cloud
 
 ## 변경 로그
 
-- [2025-11-06] 🐛 **버그 수정** & 🐳 **도커 업데이트**: 사용자 시뮬레이터용 SQL 파서를 올바르게 파싱하지 못하는 버그를 수정하기 위해 sqlglot 버전을 26.16.4로 업데이트했습니다. `bird_interact_eval` 환경에서 `pip install sqlglot==26.16.4`로 재설치하면 해결할 수 있습니다. `bird_interact_eval` 이미지도 업데이트되었으니, 이미지를 풀하고 `bird_interact_eval` 컨테이너를 재생성할 수 있습니다.
-- [2025-10-21] 🐳 **도커 업데이트**: 전체 DB 환경용 도커 추가. Base/Full DB Env와 `a-Interact`, `c-Interact` 평가 환경 등 3개의 도커 이미지를 Docker Hub에 업로드하여 환경 설정을 쉽게 했습니다. DB 덤프 다운로드 및 이미지 직접 빌드가 필요 없습니다! Docker Hub에서 최신 이미지를 풀하고, 예를 들어 `docker compose down -v && docker compose pull && docker compose up -d --force-recreate` 명령으로 컨테이너를 재생성하세요.
-- [2025-08-22]  🐛 **버그 수정**: phase-2 SQL 평가 시 저장된 phase-1 SQL이 제대로 실행되지 않아 phase-2 성공률이 낮아지는 버그를 수정했습니다. 이 버그는 phase1 sql에서 데이터베이스에 CREATE table 등 작업을 수행하는 과제에만 영향을 미칩니다.
+- [2025-11-06] 🐛 **버그 수정** & 🐳 **도커 업데이트**: 사용자 시뮬레이터에서 sql 파서가 SQL을 올바르게 파싱하지 못하는 버그를 수정하기 위해 sqlglot 버전을 26.16.4로 업데이트했습니다. `bird_interact_eval` 환경에서 `pip install sqlglot==26.16.4`로 재설치하면 수정할 수 있습니다. `bird_interact_eval` 이미지도 업데이트되어, 이미지를 pull한 후 컨테이너를 새로 생성하면 됩니다.
+- [2025-10-21] 🐳 **도커 업데이트**: Full DB Env용 도커 추가. Base/Full DB Env 및 `a-Interact`와 `c-Interact` 평가 환경 등 3개의 도커 이미지를 Docker Hub에 업로드하여 환경 구축을 용이하게 했습니다. DB 덤프를 다운로드하거나 이미지를 수동으로 빌드할 필요가 없습니다! Docker Hub에서 최신 이미지를 pull하고 컨테이너를 다시 생성하세요. 예: `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`.
+- [2025-08-22]  🐛 **버그 수정**: phase-2 SQL 평가 시 저장된 phase-1 SQL이 성공적으로 실행되지 않아 Phase-2 성공률이 낮아지는 버그를 수정했습니다. 이 버그는 주로 phase1 sql이 데이터베이스에서 CREATE table 등 작업을 수행하는 작업에만 영향을 미칩니다.
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-17
 
 ---

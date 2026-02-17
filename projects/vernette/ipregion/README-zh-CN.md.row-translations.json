@@ -1,0 +1,554 @@
+[
+  {
+    "row": 1,
+    "rowsha": "7Z/EgftksZWh1hbYsMpao81AxxAtqeO0a3xQbneBNME=",
+    "originContent": "# ipregion",
+    "translatedContent": "# ipregion"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "lxa0fXA72ja4sbKYpXF3C5q767QYetVXuq20/aNnOrI=",
+    "originContent": "![image](https://i.imgur.com/CRxBuVR.gif)",
+    "translatedContent": "![image](https://i.imgur.com/CRxBuVR.gif)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "UDspK66W91EYH6DY06w3v20nUhZeMcZYvGzk3owp72I=",
+    "originContent": "### Download and run locally",
+    "translatedContent": "### 下载并本地运行"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 10,
+    "rowsha": "XYIQhtOyaVXcBeO/1PCap1Qcy+mfQDMXFrYEaZ5APeo=",
+    "originContent": "wget -O ipregion.sh https://ipregion.vrnt.xyz",
+    "translatedContent": "wget -O ipregion.sh https://ipregion.vrnt.xyz"
+  },
+  {
+    "row": 11,
+    "rowsha": "lpz+UoqEgO5meLEffZhH0ygzctuGGk/627QL80cYxQQ=",
+    "originContent": "chmod +x ipregion.sh",
+    "translatedContent": "chmod +x ipregion.sh"
+  },
+  {
+    "row": 12,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "u7Q6k5AkdmL04AFnjgix4xOfI9hAZhOofmee3NmOx8o=",
+    "originContent": "### Run directly from GitHub",
+    "translatedContent": "### 直接从 GitHub 运行"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 17,
+    "rowsha": "IegsrE4taQnm7dE7moYj0RlqL2YnNCEv3KenNW0Ycls=",
+    "originContent": "bash <(wget -qO- https://ipregion.vrnt.xyz)",
+    "translatedContent": "bash <(wget -qO- https://ipregion.vrnt.xyz)"
+  },
+  {
+    "row": 18,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "rJkp0SR6AFuVEobhFmXJXexK+tjY3K/G58vFhiH70GA=",
+    "originContent": "### Docker",
+    "translatedContent": "### Docker"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "rQITyy3eav94Yok4KcuE4yYksd4qszC7CmQcEg+qHWs=",
+    "originContent": "#### Run the container for IPv4 (default Docker bridge network)",
+    "translatedContent": "#### 运行 IPv4 容器（默认 Docker 桥接网络）"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "BJOmGfb0kdbmlKG2lj/oBleul3lc7ph4zHLnC0pd4C4=",
+    "originContent": "This runs your IP geolocation check using IPv4 only, without requiring host network mode:",
+    "translatedContent": "这将仅使用 IPv4 运行您的 IP 地理位置检查，无需主机网络模式："
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 27,
+    "rowsha": "0aMtFwObvT/0UNKC4qnvuKTktnWZaka6XqiFKCADPRY=",
+    "originContent": "docker run --rm vernette/ipregion:latest",
+    "translatedContent": "docker run --rm vernette/ipregion:latest"
+  },
+  {
+    "row": 28,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "您可以根据需要附加额外的脚本选项，例如："
+  },
+  {
+    "row": 30,
+    "rowsha": "Cf+MdN9/TuVKXv9T3yyGJlbA4W1uDyjgp5jhDmm855o=",
+    "originContent": "You can append additional script options as needed, for example:",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 33,
+    "rowsha": "BvYqdB3v2NkRBDxfPWCpFeRG6FHV2j2ihNhbqLuomf0=",
+    "originContent": "docker run --rm vernette/ipregion:latest --group geoip",
+    "translatedContent": "docker run --rm vernette/ipregion:latest --group geoip"
+  },
+  {
+    "row": 34,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "AHv6uG8sUBtp4Vdi/JlLQVAzif5+9SwRBpDb9jLe32o=",
+    "originContent": "#### Run the container with host networking (for IPv4 & IPv6 or custom interface)",
+    "translatedContent": "#### 使用主机网络运行容器（适用于 IPv4 和 IPv6 或自定义接口）"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "fVBK3L7RoWre6xaR5ZiSHg+WR+BrZiCLP5YNBS6s5d8=",
+    "originContent": "To access both IPv4 and IPv6 on the host real network interfaces, or to specify a custom network interface (e.g., eth1), use Docker host network mode:",
+    "translatedContent": "要访问主机真实网络接口上的 IPv4 和 IPv6，或指定自定义网络接口（例如 eth1），请使用 Docker 主机网络模式："
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 41,
+    "rowsha": "vKrEnDer8tAlLnNfGjs7gOWDl3eDPfyT9C+ZmPaf5Vs=",
+    "originContent": "docker run --rm --network=host vernette/ipregion:latest",
+    "translatedContent": "docker run --rm --network=host vernette/ipregion:latest"
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 45,
+    "rowsha": "N7J3D8eqKOGfE383pSQjPVMg1HLwdYtaPLtCYAYVyjQ=",
+    "originContent": "docker run --rm --network=host vernette/ipregion:latest --interface eth1",
+    "translatedContent": "docker run --rm --network=host vernette/ipregion:latest --interface eth1"
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+    "originContent": "> [!NOTE]",
+    "translatedContent": "> [!注意]"
+  },
+  {
+    "row": 49,
+    "rowsha": "ZVRqwdP3s4sj/34ohZ0WiirCFIvmVwQ3RzzdkWceIEg=",
+    "originContent": "> When using `--network=host`, the container shares the host network stack, which reduces network isolation but enables full access to interfaces. Without `--network=host`, the container uses Docker bridge network, which may not expose IPv6 or allow interface selection",
+    "translatedContent": "> 使用 `--network=host` 时，容器共享主机网络栈，这减少了网络隔离但允许完全访问接口。没有 `--network=host` 时，容器使用 Docker 桥接网络，可能不支持 IPv6 或允许接口选择"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 功能"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "3JZycWg+PZmapK+/sNCBY5W/TFrnwfZfIOnJYP9NiJM=",
+    "originContent": "- Multiple GeoIP APIs and web services (YouTube, Netflix, ChatGPT, Spotify, etc.)",
+    "translatedContent": "- 多个 GeoIP API 和网络服务（YouTube、Netflix、ChatGPT、Spotify 等）"
+  },
+  {
+    "row": 54,
+    "rowsha": "oKzi3gE9p0RLEFiUaKqa+GHj5Zc31xDsN8juSJUfgzM=",
+    "originContent": "- IPv4/IPv6 support with SOCKS5 proxy and custom network interface",
+    "translatedContent": "- 支持 IPv4/IPv6，带 SOCKS5 代理和自定义网络接口"
+  },
+  {
+    "row": 55,
+    "rowsha": "eH0VeocDJmUHqRIIlLHkGpYABNg1uT+T83+EYerOPkk=",
+    "originContent": "- JSON output and color-coded tables",
+    "translatedContent": "- JSON 输出和带颜色编码的表格"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "1GG6RzhUQg6MWK7hzadJlvIKgJovz9zWw6FnPT8QVK0=",
+    "originContent": "## Dependencies",
+    "translatedContent": "## 依赖项"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "F8icBSqRrLqx8F8rVTm+WqB7mf63C3lbbWfW/j3xHGU=",
+    "originContent": "- bash",
+    "translatedContent": "- bash"
+  },
+  {
+    "row": 60,
+    "rowsha": "f/BL0kMRqKJTNaREwRM59+G/L64d8mnuN+Yiv5jDirs=",
+    "originContent": "- curl",
+    "translatedContent": "- curl"
+  },
+  {
+    "row": 61,
+    "rowsha": "RHqk68DOK1HtYHWpho4SKpz9O+wHCUvnHZvYtGTFDfs=",
+    "originContent": "- jq",
+    "translatedContent": "- jq"
+  },
+  {
+    "row": 62,
+    "rowsha": "8u27WCpVxWfO4HG/EeVv9eXFtL4hQ9gZkULS5AD1m3M=",
+    "originContent": "- util-linux/bsdmainutils",
+    "translatedContent": "- util-linux/bsdmainutils"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "BPRenWOhQM7CzvuqEFWpQbx21f22wLouha8UGh8nwdQ=",
+    "originContent": "## Key Options",
+    "translatedContent": "## 关键选项"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 67,
+    "rowsha": "GmpFmLVXE1GChc9HHeV1/NvCB+mZA45TdcIA4Aop/t0=",
+    "originContent": "./ipregion.sh --help # Show all options",
+    "translatedContent": "./ipregion.sh --help # Show all options"
+  },
+  {
+    "row": 68,
+    "rowsha": "685TLFjfvKLYHfBxyrDaPBzloBkvDZBMhjVQcLxuolI=",
+    "originContent": "./ipregion.sh --group primary # GeoIP services only",
+    "translatedContent": "./ipregion.sh --group primary # GeoIP services only"
+  },
+  {
+    "row": 69,
+    "rowsha": "IeJysQWBeFv2N8H1SVF5BjRE39op9Cr99ObuvTs9Nkc=",
+    "originContent": "./ipregion.sh --group custom # Popular websites only",
+    "translatedContent": "./ipregion.sh --group custom # Popular websites only"
+  },
+  {
+    "row": 70,
+    "rowsha": "ELx+UZ8VJ1Yqca0anOr48HMJAOn4wUASbwcBxXbrAsU=",
+    "originContent": "./ipregion.sh --ipv4 # IPv4 only",
+    "translatedContent": "./ipregion.sh --ipv4 # IPv4 only"
+  },
+  {
+    "row": 71,
+    "rowsha": "jY7I1tA5xX9FOnfc3eoYPlceyQkUiBgtOxgv0A08yDI=",
+    "originContent": "./ipregion.sh --ipv6 # IPv6 only",
+    "translatedContent": "./ipregion.sh --ipv6 # IPv6 only"
+  },
+  {
+    "row": 72,
+    "rowsha": "vhfPhHacOA6eWPnKeQkR5O+1xZiQUmHztNosVElojT0=",
+    "originContent": "./ipregion.sh --proxy 127.0.0.1:1080 # Use SOCKS5 proxy",
+    "translatedContent": "./ipregion.sh --proxy 127.0.0.1:1080 # Use SOCKS5 proxy"
+  },
+  {
+    "row": 73,
+    "rowsha": "GWXhG/ObeTsOrLb1TOZHYZ99EIh6/A//aBpYLw0Sios=",
+    "originContent": "./ipregion.sh --json # JSON output",
+    "translatedContent": "./ipregion.sh --json # JSON output"
+  },
+  {
+    "row": 74,
+    "rowsha": "H/QINJXS5MwnwG6FAs82bBeLux2p2wnJaPBi2YCQDo4=",
+    "originContent": "./ipregion.sh --debug # Debug mode",
+    "translatedContent": "./ipregion.sh --debug # Debug mode"
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "所有选项均可组合使用。"
+  },
+  {
+    "row": 77,
+    "rowsha": "D5MP0zLrscYmWamljZGukqsyOJE6048a2OCTLQr3G48=",
+    "originContent": "All options can be combined.",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 国家代码"
+  },
+  {
+    "row": 79,
+    "rowsha": "5rjGcAxU9gtjIzBTFx1nnOb+77rJn7KVb5QdFs1F82w=",
+    "originContent": "## Country codes",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "脚本输出的国家代码采用 ISO 3166-1 alpha-2 格式（例如，RU、US、DE）。"
+  },
+  {
+    "row": 81,
+    "rowsha": "RpxMpV+lj4qUmZUTyLzMtdL6HRAQdpgn7EQf8s+QrPQ=",
+    "originContent": "The script outputs country codes in ISO 3166-1 alpha-2 format (e.g., RU, US, DE).",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "您可以在官方 ISO 网站查询任何国家代码的含义：[https://www.iso.org/obp/ui/#search/code/](https://www.iso.org/obp/ui/#search/code/)"
+  },
+  {
+    "row": 83,
+    "rowsha": "Zzy6lkN/T+mP8j43wHgPNlsfUgeup/76dNnUK0iRELU=",
+    "originContent": "You can look up the meaning of any country code at the official ISO website: [https://www.iso.org/obp/ui/#search/code/](https://www.iso.org/obp/ui/#search/code/)",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "只需在搜索框中输入代码，即可获得完整的国家名称。"
+  },
+  {
+    "row": 85,
+    "rowsha": "AkApDLRUDVs/1Sg++gQpxlYfZPWHzyshtsA12inp99M=",
+    "originContent": "Just enter the code in the search box to get the full country name.",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 贡献"
+  },
+  {
+    "row": 87,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "欢迎贡献！欢迎提交拉取请求以添加新服务或改进脚本功能。"
+  },
+  {
+    "row": 89,
+    "rowsha": "jvAB1voaazTtTlhP9KS1Qz/0qEZqbWo1Z1wVkp5Bd64=",
+    "originContent": "Contributions are welcome! Feel free to submit pull requests to add new services or improve the script’s functionality.",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![Star History Chart](https://api.star-history.com/svg?repos=vernette/ipregion&type=Date)"
+  },
+  {
+    "row": 91,
+    "rowsha": "0P/Vgpuuzw9olVRn8CiUVc9gFU6MG1pbSGQBoOeAkwo=",
+    "originContent": "![Star History Chart](https://api.star-history.com/svg?repos=vernette/ipregion&type=Date)",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

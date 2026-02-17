@@ -1,0 +1,183 @@
+[
+  {
+    "Id": 1,
+    "Content": "## An easy way to create a document library for your project\n\nDemo: [https://easydocs.codeandmedia.com/](https://easydocs.codeandmedia.com/)\n\nThis theme for [Zola](https://getzola.org) (static site engine) helps you build and publish your project docs easily and fast. Zola is just one binary that outputs html-pages and additional static assets after building your docs written in Markdown. Thus, you can take the theme, your md-files, Zola and gain flexible and simple website for documentation. \n\n### Step-by-step\n\nAs you may have heard Zola is quite flexible :) So, the scenario below is one of hundreds possible ways to make things done, feel free to find your best. Also, Zola provides their own mechanism to install and use themes, see [the docs](https://www.getzola.org/documentation/themes/installing-and-using-themes/). \n\n1. Fork the repo and replace demo-content inside content folder with yours. But take a look to _index.md files. It contains `title` and when you want to have anchor right of your headers add `insert_anchor_links = \"right\"` to each index. `theme.toml`, screenshot and readme may be deleted too. \n2. Inside `config.toml` change URL and title on your own. In extra section you can specify path to your GitHub API for version below the logo on nav, favicon and logo itself. Or just remove the lines if you don't need it. Also, you can configure or turn on some additional settings related to Zola. [Specification is here](https://www.getzola.org/documentation/getting-started/configuration/).\n3. In sass/_variables.scss you may change font, color or background if you want.\n4. Almost done. Now, you should decide how you want to build and where will be hosted your website. You can build it locally and upload to somewhere. Or build in GitHub Actions and host on GitHub Pages / Netlify / CloudFlare Pages / AnyS3CloudStorage. [Howto for GitHub Pages](https://www.getzola.org/documentation/deployment/github-pages/). [My example](https://github.com/o365hq/o365hq.com/blob/main/.github/workflows/main.yml) of GitHub workflow with 2-steps build (the first checks for links and spelling errors, the second uploads to Azure). [Dockerfile](https://github.com/codeandmedia/zola_docsascode_theme/blob/master/Dockerfile) to make Docker image.\n\n## Provided configurations options\n\nThese options can be configured in the `extra` section of the [config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml).\nIf any are not present it has the same behaviour as the default which is shown in the starter [config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml).\n\n- **easydocs_logo_always_clickable** controls if the logo is always clickable. By default the logo is only clickable if you are not on the home page. If this is enabled it will make the logo clickable when you are on the home page as well. Thus on the home page it will basically just refresh the page as it will take you to the same page.\n- **easydocs_uglyurls** provides support for offline sites that do not use a webserver. If set to true links in the nav are generated with the full path indcluding `index.html`. This functionality was  insired by [Abridge theme](https://www.getzola.org/themes/abridge/). Note that for this to work it also requries the base URL to be set to the local folder where the site will be stored eg. `base_url = file:///home/user/mysite/public/`. Therefore this is not portable and only works with a specific local folder, but does not require a webserver to navigate the site.\n- **easydocs_heading_threshold** controls minimum number of headings needed on a page before the headings show in the navigation on the left. Defaults to 5. Can be used for example to always show headings on each page by setting it to 1.\n\nEnjoy your docs!\n\n* _Icons: [Office UI Fabric Icons](https://uifabricicons.azurewebsites.net/)_\n* _Copy-code-button: [Aaron Luna](https://aaronluna.dev/blog/add-copy-button-to-code-blocks-hugo-chroma/)_",
+    "ContentSha": "afWTvQpHJvnu7gYuXITyl0qIAFFq3DfzeI6/6ibb+c4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Un moyen simple de créer une bibliothèque de documents pour votre projet\n\nDémo : [https://easydocs.codeandmedia.com/](https://easydocs.codeandmedia.com/)\n\nCe thème pour [Zola](https://getzola.org) (moteur de site statique) vous aide à construire et publier facilement et rapidement la documentation de votre projet. Zola est un seul binaire qui génère des pages html et des ressources statiques additionnelles après avoir compilé vos docs écrits en Markdown. Ainsi, vous pouvez prendre le thème, vos fichiers md, Zola et obtenir un site web flexible et simple pour la documentation.\n\n### Étape par étape\n\nComme vous l’avez peut-être entendu, Zola est assez flexible :) Donc, le scénario ci-dessous est l’une des centaines de manières possibles de faire les choses, n’hésitez pas à trouver la vôtre. Aussi, Zola propose son propre mécanisme pour installer et utiliser des thèmes, voir [la documentation](https://www.getzola.org/documentation/themes/installing-and-using-themes/).\n\n1. Forkez le dépôt et remplacez le contenu de démonstration dans le dossier content par le vôtre. Mais regardez les fichiers _index.md. Ils contiennent `title` et si vous souhaitez avoir une ancre à droite de vos en-têtes, ajoutez `insert_anchor_links = \"right\"` à chaque index. `theme.toml`, la capture d’écran et le readme peuvent aussi être supprimés.\n2. Dans `config.toml` changez l’URL et le titre par les vôtres. Dans la section extra, vous pouvez spécifier le chemin vers votre API GitHub pour la version sous le logo dans la navigation, le favicon et le logo lui-même. Ou simplement supprimez ces lignes si vous n’en avez pas besoin. Vous pouvez aussi configurer ou activer certains réglages supplémentaires liés à Zola. [La spécification est ici](https://www.getzola.org/documentation/getting-started/configuration/).\n3. Dans sass/_variables.scss vous pouvez changer la police, la couleur ou le fond si vous le souhaitez.\n4. Presque fini. Maintenant, vous devez décider comment construire et où héberger votre site web. Vous pouvez le construire localement et le télécharger quelque part. Ou construire dans GitHub Actions et héberger sur GitHub Pages / Netlify / CloudFlare Pages / AnyS3CloudStorage. [Comment faire pour GitHub Pages](https://www.getzola.org/documentation/deployment/github-pages/). [Mon exemple](https://github.com/o365hq/o365hq.com/blob/main/.github/workflows/main.yml) de workflow GitHub avec construction en 2 étapes (la première vérifie les liens et les fautes d’orthographe, la deuxième télécharge sur Azure). [Dockerfile](https://github.com/codeandmedia/zola_docsascode_theme/blob/master/Dockerfile) pour créer une image Docker.\n\n## Options de configuration fournies\n\nCes options peuvent être configurées dans la section `extra` du [config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml).  \nSi elles ne sont pas présentes, le comportement par défaut est celui montré dans le [config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml) de démarrage.\n\n- **easydocs_logo_always_clickable** contrôle si le logo est toujours cliquable. Par défaut, le logo est cliquable uniquement si vous n’êtes pas sur la page d’accueil. Si activé, cela rendra le logo cliquable même sur la page d’accueil. Ainsi, sur la page d’accueil, cela rafraîchira simplement la page car elle vous ramènera à la même page.\n- **easydocs_uglyurls** fournit un support pour les sites hors ligne qui n’utilisent pas de serveur web. Si réglé à true, les liens dans la navigation sont générés avec le chemin complet incluant `index.html`. Cette fonctionnalité est inspirée par le [thème Abridge](https://www.getzola.org/themes/abridge/). Notez que pour que cela fonctionne, il faut aussi que l’URL de base soit définie sur le dossier local où le site sera stocké, par exemple `base_url = file:///home/user/mysite/public/`. Par conséquent, ce n’est pas portable et ne fonctionne qu’avec un dossier local spécifique, mais ne nécessite pas de serveur web pour naviguer sur le site.\n- **easydocs_heading_threshold** contrôle le nombre minimum de titres nécessaires sur une page avant que les titres apparaissent dans la navigation à gauche. Par défaut à 5. Peut être utilisé, par exemple, pour toujours afficher les titres sur chaque page en le réglant à 1.\n\nProfitez de votre documentation !\n\n* _Icônes : [Office UI Fabric Icons](https://uifabricicons.azurewebsites.net/)_\n* _Bouton copier-coller : [Aaron Luna](https://aaronluna.dev/blog/add-copy-button-to-code-blocks-hugo-chroma/)_",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EcnTfUBgd1raV7SzWKGNQOGp3vlm9LJZcB3tqD6bCFo=",
+        "originContent": "## An easy way to create a document library for your project",
+        "translatedContent": "## Un moyen simple de créer une bibliothèque de documents pour votre projet"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "fNEktdSsO1pjJOcKpkxunqcnp5t2mvkWLnqEM+FtjJc=",
+        "originContent": "Demo: [https://easydocs.codeandmedia.com/](https://easydocs.codeandmedia.com/)",
+        "translatedContent": "Démo : [https://easydocs.codeandmedia.com/](https://easydocs.codeandmedia.com/)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "f+LoAsOFo7VHb9ONkd/EAG0jicYxODV8Gq2BFluMWK0=",
+        "originContent": "This theme for [Zola](https://getzola.org) (static site engine) helps you build and publish your project docs easily and fast. Zola is just one binary that outputs html-pages and additional static assets after building your docs written in Markdown. Thus, you can take the theme, your md-files, Zola and gain flexible and simple website for documentation. ",
+        "translatedContent": "Ce thème pour [Zola](https://getzola.org) (moteur de site statique) vous aide à construire et publier facilement et rapidement la documentation de votre projet. Zola est un seul binaire qui génère des pages html et des ressources statiques additionnelles après avoir compilé vos docs écrits en Markdown. Ainsi, vous pouvez prendre le thème, vos fichiers md, Zola et obtenir un site web flexible et simple pour la documentation."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "suf26N4efK5SOh54YkFUL7QogmZdZGXJ5DEorU/quMU=",
+        "originContent": "### Step-by-step",
+        "translatedContent": "### Étape par étape"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Wy3P3vqNO/Dd+wsgKTzTJIocHpDAOogmvelr4ve9n10=",
+        "originContent": "As you may have heard Zola is quite flexible :) So, the scenario below is one of hundreds possible ways to make things done, feel free to find your best. Also, Zola provides their own mechanism to install and use themes, see [the docs](https://www.getzola.org/documentation/themes/installing-and-using-themes/). ",
+        "translatedContent": "Comme vous l’avez peut-être entendu, Zola est assez flexible :) Donc, le scénario ci-dessous est l’une des centaines de manières possibles de faire les choses, n’hésitez pas à trouver la vôtre. Aussi, Zola propose son propre mécanisme pour installer et utiliser des thèmes, voir [la documentation](https://www.getzola.org/documentation/themes/installing-and-using-themes/)."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "FSl/bvLiPSruh2MELKqe3WgQQJZGmKWmqEX9JJ74ius=",
+        "originContent": "1. Fork the repo and replace demo-content inside content folder with yours. But take a look to _index.md files. It contains `title` and when you want to have anchor right of your headers add `insert_anchor_links = \"right\"` to each index. `theme.toml`, screenshot and readme may be deleted too. ",
+        "translatedContent": "1. Forkez le dépôt et remplacez le contenu de démonstration dans le dossier content par le vôtre. Mais regardez les fichiers _index.md. Ils contiennent `title` et si vous souhaitez avoir une ancre à droite de vos en-têtes, ajoutez `insert_anchor_links = \"right\"` à chaque index. `theme.toml`, la capture d’écran et le readme peuvent aussi être supprimés."
+      },
+      {
+        "row": 12,
+        "rowsha": "TnOE7SJSICYLbh2I9eMSNZ60qEaWBEUmyRyl3fakCjk=",
+        "originContent": "2. Inside `config.toml` change URL and title on your own. In extra section you can specify path to your GitHub API for version below the logo on nav, favicon and logo itself. Or just remove the lines if you don't need it. Also, you can configure or turn on some additional settings related to Zola. [Specification is here](https://www.getzola.org/documentation/getting-started/configuration/).",
+        "translatedContent": "2. Dans `config.toml` changez l’URL et le titre par les vôtres. Dans la section extra, vous pouvez spécifier le chemin vers votre API GitHub pour la version sous le logo dans la navigation, le favicon et le logo lui-même. Ou simplement supprimez ces lignes si vous n’en avez pas besoin. Vous pouvez aussi configurer ou activer certains réglages supplémentaires liés à Zola. [La spécification est ici](https://www.getzola.org/documentation/getting-started/configuration/)."
+      },
+      {
+        "row": 13,
+        "rowsha": "pVadu4KfLmJ3Ktyuyi6R8KTAosB7iWPOorJVC6nL8NI=",
+        "originContent": "3. In sass/_variables.scss you may change font, color or background if you want.",
+        "translatedContent": "3. Dans sass/_variables.scss vous pouvez changer la police, la couleur ou le fond si vous le souhaitez."
+      },
+      {
+        "row": 14,
+        "rowsha": "yvCzNlGCBCat1FnVURX1v07w0I8WeR8ksVDSUmfHfUs=",
+        "originContent": "4. Almost done. Now, you should decide how you want to build and where will be hosted your website. You can build it locally and upload to somewhere. Or build in GitHub Actions and host on GitHub Pages / Netlify / CloudFlare Pages / AnyS3CloudStorage. [Howto for GitHub Pages](https://www.getzola.org/documentation/deployment/github-pages/). [My example](https://github.com/o365hq/o365hq.com/blob/main/.github/workflows/main.yml) of GitHub workflow with 2-steps build (the first checks for links and spelling errors, the second uploads to Azure). [Dockerfile](https://github.com/codeandmedia/zola_docsascode_theme/blob/master/Dockerfile) to make Docker image.",
+        "translatedContent": "4. Presque fini. Maintenant, vous devez décider comment construire et où héberger votre site web. Vous pouvez le construire localement et le télécharger quelque part. Ou construire dans GitHub Actions et héberger sur GitHub Pages / Netlify / CloudFlare Pages / AnyS3CloudStorage. [Comment faire pour GitHub Pages](https://www.getzola.org/documentation/deployment/github-pages/). [Mon exemple](https://github.com/o365hq/o365hq.com/blob/main/.github/workflows/main.yml) de workflow GitHub avec construction en 2 étapes (la première vérifie les liens et les fautes d’orthographe, la deuxième télécharge sur Azure). [Dockerfile](https://github.com/codeandmedia/zola_docsascode_theme/blob/master/Dockerfile) pour créer une image Docker."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "sGhvj6hnO1umRO69Avohyc+sa29+t3nVKrMKszHRv7I=",
+        "originContent": "## Provided configurations options",
+        "translatedContent": "## Options de configuration fournies"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "pO+Pw5AtVGvlsqeUvfZV7WHC6hXDBn7ju36Pb4R6hNQ=",
+        "originContent": "These options can be configured in the `extra` section of the [config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml).",
+        "translatedContent": "Ces options peuvent être configurées dans la section `extra` du [config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml).  "
+      },
+      {
+        "row": 19,
+        "rowsha": "X6VJBsKCrHhsuXSrup2amYZjS/nkk7CXYkaA+unLkFs=",
+        "originContent": "If any are not present it has the same behaviour as the default which is shown in the starter [config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml).",
+        "translatedContent": "Si elles ne sont pas présentes, le comportement par défaut est celui montré dans le [config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml) de démarrage."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "BOjos8ksJ0VJaY2gVF34cOb9t2ROh+dgOfElMd1V97g=",
+        "originContent": "- **easydocs_logo_always_clickable** controls if the logo is always clickable. By default the logo is only clickable if you are not on the home page. If this is enabled it will make the logo clickable when you are on the home page as well. Thus on the home page it will basically just refresh the page as it will take you to the same page.",
+        "translatedContent": "- **easydocs_logo_always_clickable** contrôle si le logo est toujours cliquable. Par défaut, le logo est cliquable uniquement si vous n’êtes pas sur la page d’accueil. Si activé, cela rendra le logo cliquable même sur la page d’accueil. Ainsi, sur la page d’accueil, cela rafraîchira simplement la page car elle vous ramènera à la même page."
+      },
+      {
+        "row": 22,
+        "rowsha": "LYKPHaFOfsOReCKWJf3kqsU4bX6h23VfpHniHfddfm0=",
+        "originContent": "- **easydocs_uglyurls** provides support for offline sites that do not use a webserver. If set to true links in the nav are generated with the full path indcluding `index.html`. This functionality was  insired by [Abridge theme](https://www.getzola.org/themes/abridge/). Note that for this to work it also requries the base URL to be set to the local folder where the site will be stored eg. `base_url = file:///home/user/mysite/public/`. Therefore this is not portable and only works with a specific local folder, but does not require a webserver to navigate the site.",
+        "translatedContent": "- **easydocs_uglyurls** fournit un support pour les sites hors ligne qui n’utilisent pas de serveur web. Si réglé à true, les liens dans la navigation sont générés avec le chemin complet incluant `index.html`. Cette fonctionnalité est inspirée par le [thème Abridge](https://www.getzola.org/themes/abridge/). Notez que pour que cela fonctionne, il faut aussi que l’URL de base soit définie sur le dossier local où le site sera stocké, par exemple `base_url = file:///home/user/mysite/public/`. Par conséquent, ce n’est pas portable et ne fonctionne qu’avec un dossier local spécifique, mais ne nécessite pas de serveur web pour naviguer sur le site."
+      },
+      {
+        "row": 23,
+        "rowsha": "TBuInyjhEbDj0GemaceQxx79knQoN3G1PF/7c8GsCLI=",
+        "originContent": "- **easydocs_heading_threshold** controls minimum number of headings needed on a page before the headings show in the navigation on the left. Defaults to 5. Can be used for example to always show headings on each page by setting it to 1.",
+        "translatedContent": "- **easydocs_heading_threshold** contrôle le nombre minimum de titres nécessaires sur une page avant que les titres apparaissent dans la navigation à gauche. Par défaut à 5. Peut être utilisé, par exemple, pour toujours afficher les titres sur chaque page en le réglant à 1."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "ss4U/W8t43xyVDos6RZaQtVUReUDIxonu9zwEJWXC64=",
+        "originContent": "Enjoy your docs!",
+        "translatedContent": "Profitez de votre documentation !"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "jT00Im0RYhE2IxMxxGGR3YjoENJzdL+2joT/wDB9eIw=",
+        "originContent": "* _Icons: [Office UI Fabric Icons](https://uifabricicons.azurewebsites.net/)_",
+        "translatedContent": "* _Icônes : [Office UI Fabric Icons](https://uifabricicons.azurewebsites.net/)_"
+      },
+      {
+        "row": 28,
+        "rowsha": "WT0NtIpIjRCP83GnlUtYTx+pkD3bp237WZ4k0R/P/y0=",
+        "originContent": "* _Copy-code-button: [Aaron Luna](https://aaronluna.dev/blog/add-copy-button-to-code-blocks-hugo-chroma/)_",
+        "translatedContent": "* _Bouton copier-coller : [Aaron Luna](https://aaronluna.dev/blog/add-copy-button-to-code-blocks-hugo-chroma/)_"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -40,10 +40,10 @@
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
   <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
-    <img src="https://img.shields.io/badge/License-CC%20By%20SA%204.0-orange.svg" alt="License">
+    <img src="https://img.shields.io/badge/License-CC%20By%20SA%204.0-orange.svg" alt="Licenza">
   </a>
   <a href="https://bird-interact.github.io/">
-    <img src="https://img.shields.io/badge/Leaderboard-2025-28a745.svg" alt="Leaderboard">
+    <img src="https://img.shields.io/badge/Leaderboard-2025-28a745.svg" alt="Classifica">
   </a>
   <a href="https://huggingface.co/datasets/birdsql/bird-interact-lite/tree/main">
     <img src="https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg" alt="HuggingFace">
@@ -57,39 +57,41 @@
 </div>
 
 ## ⚠️ Annuncio  
-Si prega di notare che prima del processo di valutazione, quando Docker carica i database, occasionalmente possono verificarsi errori a causa di incoerenze nell'ambiente (questi non interromperanno il processo ma appariranno nei log di Docker). Di conseguenza, alcuni database potrebbero non caricarsi correttamente, risultando in database vuoti. Questo causerà risultati di valutazione anormalmente bassi.  
-👉 Pertanto, raccomandiamo vivamente di controllare i log di Docker per eventuali errori **prima di eseguire la valutazione** e verificare che tutti i database siano stati caricati correttamente.
+Si prega di notare che prima del processo di valutazione, durante il caricamento dei database da parte di Docker, possono occasionalmente verificarsi errori dovuti a inconsistenze dell'ambiente (questi non termineranno il processo ma appariranno nei log di Docker). Di conseguenza, alcuni database potrebbero non caricarsi correttamente, risultando vuoti. Questo comporterà risultati di valutazione anormalmente bassi.  
+👉 Pertanto, consigliamo vivamente di controllare i log di Docker per eventuali errori **prima di eseguire la valutazione** e di verificare che tutti i database siano stati caricati con successo.
 
-👉 Abbiamo aggiornato le **Linee guida per l'invio**, ora sono supportati gli scaffolding agent personalizzati. Sentitevi liberi di consultare le nostre linee guida dettagliate per l'invio [qui](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true).
+👉 Abbiamo aggiornato le **Linee Guida per la Sottomissione**, dove ora sono supportati gli scaffolds agent personalizzati. Sentitevi liberi di consultare le nostre linee guida dettagliate per la sottomissione [qui](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true).
 
 ## 📰 Novità
 
-- [2025-11-06] 🐛 **Correzione Bug** & 🐳 **Aggiornamento Docker**: Aggiornata la versione di sqlglot alla 26.16.4 per risolvere il bug che impediva al parser sql di analizzare correttamente le SQL per il simulatore utente. Puoi risolvere questo reinstallando il pacchetto con `pip install sqlglot==26.16.4` nell'ambiente `bird_interact_eval`. L'immagine `bird_interact_eval` è stata aggiornata, quindi puoi anche scaricarla e ricreare il container `bird_interact_eval`.
+- [2026-02-08] 🔥🔥🔥 Il nostro **[articolo Bird-Interact](https://huggingface.co/papers/2510.05318)** è stato accettato all’**ICLR 2026 (Oral)**! Ci vediamo a Rio 🇧🇷!  
 
-- [2025-10-21] 🐳 **Aggiornamento Docker**: Abbiamo aggiunto il docker per Full DB Env. E abbiamo caricato 3 immagini docker (Base/Full DB Env e l'ambiente di valutazione sia per `a-Interact` che per `c-Interact`) su Docker Hub per facilitare la configurazione dell'ambiente. Non serve scaricare manualmente i dump dei DB e costruire le immagini!
+- [2025-11-06] 🐛 **Correzione bug** & 🐳 **Aggiornamento Docker**: Aggiornata la versione di sqlglot a 26.16.4 per correggere il bug che impediva al parser SQL di analizzare correttamente le query nella simulazione utente. Puoi risolvere reinstallando con `pip install sqlglot==26.16.4` nell’ambiente `bird_interact_eval`. L’immagine `bird_interact_eval` è stata aggiornata, quindi puoi anche scaricarla e ricreare il container `bird_interact_eval`.
 
-- [2025-10-08] 📝 Il nostro **[articolo Bird-Interact](https://huggingface.co/papers/2510.05318)** è ora disponibile pubblicamente!  
+- [2025-10-21] 🐳 **Aggiornamento Docker**: Abbiamo aggiunto il docker per il Full DB Env. E abbiamo caricato 3 immagini docker (Base/Full DB Env e ambiente di valutazione sia per `a-Interact` che `c-Interact`) su Docker Hub per facilitare la configurazione dell’ambiente. Non è più necessario scaricare i dump dei DB e costruire manualmente le immagini!
+
+- [2025-10-08] 📝 Il nostro **[articolo Bird-Interact](https://huggingface.co/papers/2510.05318)** è ora pubblicamente disponibile!  
   Presenta tutti i dettagli, la metodologia e la valutazione del nostro benchmark interattivo text-to-SQL.  
-  👉 Scopri di più sulle idee dietro [BIRD-Interact](https://bird-interact.github.io/).
+  👉 Dai un’occhiata per scoprire di più sulle idee dietro [BIRD-Interact](https://bird-interact.github.io/).
 
 - [2025-08-26] 🚀 Siamo entusiasti di annunciare il rilascio del set **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  
-È davvero impegnativo — i migliori LLM raggiungono solo un **16.33%** di successo, con appena **10.0%** sulle sezioni `c-interact` e `a-interact`.  
+È impegnativo — i migliori LLM raggiungono solo il **16,33%** di successo, con appena il **10,0%** sulle porzioni `c-interact` e `a-interact`.  
 👉 Per maggiori dettagli, visita il nostro [sito del progetto](https://bird-interact.github.io/).
 
-- [2025-08-26] 📬 Invieremo questa settimana la **Ground Truth & Test cases** alla nostra mailing list.  
+- [2025-08-26] 📬 Questa settimana invieremo i **Ground Truth & Test cases** alla nostra mailing list.  
 Se desideri l'accesso anticipato, invia un'email come indicato sul sito per un **download automatico**.  
 
 - [2025-08-26] 💾 Inoltre, abbiamo rilasciato una versione SQLite di **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** per facilitare la ricerca locale.  
 Le versioni complete **LiveSQLBench-Base** e **-Large** arriveranno presto!
 
-- [2025-08-22] **Correzione Bug**: Nel codice Bird-Interact-Agent, abbiamo risolto un bug che, durante la valutazione della fase-2 SQL, impediva l'esecuzione corretta della SQL della fase-1 memorizzata, portando a un tasso di successo inferiore nella Fase-2. Questo bug riguarda solo quei compiti in cui la sql della fase1 esegue alcune operazioni sul database, ad esempio CREATE table, ecc.
+- [2025-08-22] **Correzione Bug**: Nel codice Bird-Interact-Agent, abbiamo corretto un bug che durante la valutazione della fase-2 SQL, la SQL della fase-1 memorizzata non poteva essere eseguita con successo, portando a un tasso di successo inferiore della Fase-2. Questo bug riguarda solo quei task in cui la sql della fase1 esegue alcune operazioni sul database, ad esempio CREATE table, ecc.
 
 ## 🧸 Panoramica
 
 BIRD-INTERACT, un benchmark interattivo text-to-SQL, **re-immagina la valutazione Text-to-SQL attraverso la lente delle interazioni dinamiche**.
-L'ambiente combina una base di conoscenza gerarchica, documentazione del database e un simulatore utente basato su funzioni per ricreare ambienti aziendali autentici su tutte le operazioni **CRUD**.
-Offre due rigorose modalità di test: (1) **Interazione Conversazionale** passiva e (2) **Interazione Agentica** attiva, coprendo 600 compiti annotati tra cui Business Intelligence (BI), operazioni CRUD, ecc., ciascuno protetto da casi di test eseguibili.
-Le valutazioni tipiche generano da 1.968 a 5.496 turni di interazione tra modello e simulatore utente, mentre i modelli di ragionamento all'avanguardia risolvono attualmente solo **≈24%** e **≈18%** dei compiti, evidenziando la sfida del benchmark.
+L'ambiente combina una knowledge base gerarchica, documentazione del database e un simulatore utente guidato da funzioni per ricreare ambienti aziendali autentici su tutte le operazioni **CRUD**.
+Offre due rigorose modalità di test: (1) **Conversational Interaction** passiva e (2) **Agentic Interaction** attiva, coprendo 600 task annotati tra cui Business Intelligence (BI), operazioni CRUD ecc., ciascuno protetto da test case eseguibili.
+Le valutazioni tipiche attivano 1.968-5.496 turni di interazione tra modello e simulatore utente, mentre i modelli di ragionamento all'avanguardia attualmente risolvono solo **≈24%** e **≈18%** dei task, sottolineando la sfida del benchmark.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png" 
@@ -98,62 +100,62 @@ Le valutazioni tipiche generano da 1.968 a 5.496 turni di interazione tra modell
 
 ### ✅ Due Modalità di Valutazione
 
-BIRD-INTERACT supporta due modalità di valutazione come sopra menzionato:
+BIRD-INTERACT supporta due modalità di valutazione come menzionato sopra:
 
-   - **c-Interact**: Interazione Conversazionale che è una modalità passiva con flusso di lavoro fisso. Il codice e le informazioni dettagliate sono disponibili in `bird_interact_conv`.
-   - **a-Interact**: Interazione Agentica che è una modalità attiva incarnata dove il flusso di lavoro è dinamico e guidato dai modelli. Il codice e le informazioni dettagliate sono disponibili in `bird_interact_agent`.
+   - **c-Interact**: Conversational Interaction che è una modalità passiva e il flusso di lavoro è fisso. Il codice e le informazioni dettagliate sono disponibili in `bird_interact_conv`.
+   - **a-Interact**: Agentic Interaction che è una modalità attiva incarnata in cui il flusso di lavoro è dinamico e guidato dai modelli. Il codice e le informazioni dettagliate sono disponibili in `bird_interact_agent`.
 
 
 ### 🐣 Versione Lite
 
-Stiamo rilasciando una versione lite di BIRD-INTERACT, `bird-interact-lite-exp`, che include 270 compiti reali di alta qualità specificamente per PostgreSQL. È un buon punto di partenza per rapidi esperimenti. 
+Stiamo rilasciando una versione lite di BIRD-INTERACT, `bird-interact-lite-exp`, che include 270 task reali di alta qualità specifici per PostgreSQL. È un buon punto di partenza per sperimentazioni rapide. 
 
 ### 🦜 Versione Completa
 
-La versione completa di BIRD-INTERACT, `bird-interact-full`, è un benchmark completo che include 600 compiti per PostgreSQL. Copre un'ampia gamma di operazioni SQL e richieste utente. La versione completa arriverà presto.
+La versione completa di BIRD-INTERACT, `bird-interact-full`, è un benchmark completo che include 600 task per PostgreSQL. Copre un'ampia gamma di operazioni SQL e query utente. La versione completa sarà disponibile a breve.
 
 ### Risultati delle Prestazioni dei Modelli su BIRD-INTERACT-FULL
 
-#### 1. **Prestazioni c-Interact Text-to-SQL**
-| Rank | Nome Modello        | Ricompensa Normalizzata | Costo Medio (USD)/Compito | Livello             |
-|:----:|:-------------------|:----------------------:|:-------------------------:|:-------------------:|
-| 1    | Gemini-2.5-Pro     | 20.92                  | $0.04                     | 🏆 Chat Eccellente  |
-| 2    | O3-Mini            | 20,27             | $0,07               | 🏆 Chat Eccellente  |
-| 3    | Claude-Sonnet-4    | 18,35             | $0,29               | 💎 Chat Buona       |
-| 4    | Qwen-3-Coder-480B  | 17,75             | $0,11               | 💎 Chat Buona       |
-| 5    | Deepseek-Chat-V3.1 | 15,15             | $0,12               | ✨ Standard         |
-| 6    | Claude-Sonnet-3.7  | 13,87             | $0,29               | ✨ Standard         |
-| 7    | GPT-5              | 12,58             | $0,08               | ⚪ Base             |
+#### 1. **c-Interact Text-to-SQL** Prestazioni
+| Rank | Nome Modello         | Normalized Reward | Costo Medio (USD)/Task | Livello              |
+|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|
+| 1    | Gemini-2.5-Pro     | 20,92             | $0,04               | 🏆 Chat Eccellente |
+| 2    | O3-Mini            | 20,27             | $0,07               | 🏆 Chat Eccellente |
+| 3    | Claude-Sonnet-4    | 18,35             | $0,29               | 💎 Chat Buono      |
+| 4    | Qwen-3-Coder-480B  | 17,75             | $0,11               | 💎 Chat Buono      |
+| 5    | Deepseek-Chat-V3.1 | 15,15             | $0,12               | ✨ Standard        |
+| 6    | Claude-Sonnet-3.7  | 13,87             | $0,29               | ✨ Standard        |
+| 7    | GPT-5              | 12,58             | $0,08               | ⚪ Base            |
 
 #### 2. **a-Interact Text-to-SQL** Prestazioni
-| Pos. | Nome Modello       | Ricompensa Norm.  | Costo Medio (USD)/Task | Livello                    |
-|:----:|:-------------------|:-----------------:|:----------------------:|:--------------------------:|
-| 1    | GPT-5              | 25,52             | $0,24                  | 🏆 Interazione Eccellente  |
-| 2    | Claude-Sonnet-4    | 23,28             | $0,51                  | 🏆 Interazione Eccellente  |
-| 3    | Claude-Sonnet-3.7  | 17,45             | $0,60                  | 💎 Interazione Buona       |
-| 4    | Gemini-2.5-Pro     | 17,33             | $0,22                  | 💎 Interazione Buona       |
-| 5    | O3-Mini            | 16,43             | $0,06                  | ✨ Standard                |
-| 6    | Deepseek-Chat-V3.1 | 13,47             | $0,06                  | ✨ Standard                |
-| 7    | Qwen-3-Coder-480B  | 10,58             | $0,07                  | ⚪ Base                    |
+| Rank | Nome Modello       | Ricompensa Norm.  | Costo Medio (USD)/Task | Livello                   |
+|:----:|:-------------------|:-----------------:|:----------------------:|:-------------------------:|
+| 1    | GPT-5              | 25,52             | $0,24                  | 🏆 Interazione Eccellente |
+| 2    | Claude-Sonnet-4    | 23,28             | $0,51                  | 🏆 Interazione Eccellente |
+| 3    | Claude-Sonnet-3.7  | 17,45             | $0,60                  | 💎 Buona Interazione      |
+| 4    | Gemini-2.5-Pro     | 17,33             | $0,22                  | 💎 Buona Interazione      |
+| 5    | O3-Mini            | 16,43             | $0,06                  | ✨ Standard               |
+| 6    | Deepseek-Chat-V3.1 | 13,47             | $0,06                  | ✨ Standard               |
+| 7    | Qwen-3-Coder-480B  | 10,58             | $0,07                  | ⚪ Base                   |
 
-> \* Parametri di Budget: Budget Iniziale/Budget di Pazienza Utente, misurati tramite la nostra valuta virtuale *bird-coin*s <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;">. Consulta [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) per maggiori dettagli.
+> \* Parametri di Budget: Budget Iniziale/Budget di Pazienza Utente, misurato nella nostra valuta virtuale *bird-coin*s <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;">. Consulta [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) per maggiori dettagli.
 
 ### Interaction-Time Scaling (ITS)
 
-Interaction-Time Scaling (ITS) si riferisce alla capacità di un modello di aumentare continuamente la propria performance finale tramite interazioni multi-turno. Quando questa performance interattiva supera la performance idealizzata single-turn su un task completamente specificato e non ambiguo, si dice che soddisfa la **legge ITS**. All’aumentare della pazienza dell’utente e del numero di turni d’interazione, le prestazioni continuano a migliorare, dimostrando che il modello può mantenere una comunicazione efficace in un dialogo esteso. Attualmente, solo claude-3-7-sonnet risulta soddisfare la legge ITS.
+Interaction-Time Scaling (ITS) si riferisce alla capacità di un modello di aumentare continuamente la sua prestazione finale tramite interazioni multi-turno. Quando questa prestazione interattiva supera quella idealizzata a turno singolo su un task completamente specificato e non ambiguo, diciamo che soddisfa la **legge ITS**. All'aumentare della pazienza dell'utente e del numero di turni di interazione, la prestazione continua a migliorare, dimostrando che il modello può mantenere una comunicazione efficace su dialoghi estesi. Attualmente, solo claude-3-7-sonnet soddisfa la legge ITS.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png" 
        style="width: 100%; min-width: 100px; display: block; margin: auto; ">
 </p>
 
-## Setup dell’Ambiente
+## Configurazione dell'Ambiente
 
-1. Esegui i container Docker per il database bird-interact-lite, il database bird-interact-full e l’ambiente di valutazione:
+1. Avvia i container Docker per il database bird-interact-lite, il database bird-interact-full e l'ambiente di valutazione:
   
-  > Se vuoi solo valutare su `bird-interact-lite`, puoi commentare il servizio [`postgresql_full`](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) in `docker-compose.yml` per velocizzare il setup dell’ambiente.
+  > Se vuoi solo valutare su `bird-interact-lite`, puoi commentare il servizio [`postgresql_full`](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) in `docker-compose.yml` per velocizzare la configurazione dell'ambiente.
   
-  Avvia l’ambiente eseguendo:
+  Avvia l'ambiente eseguendo:
    ```bash
    cd env
    docker compose pull 
@@ -331,21 +333,21 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-I dettagli su come eseguire **a-interact** si trovano in `./bird_interact_agent/README.md`; mentre **c-interact** si trovano in `./bird_interact_conv/README.md`.
+I dettagli su come eseguire **a-interact** si trovano in `./bird_interact_agent/README.md`; e **c-interact** si trovano in `./bird_interact_conv/README.md`.
 
 ## 📋 Liste delle cose da fare
 
-- [x] Rilasciare la versione lite, bird-interact-lite (270).
-- [x] Rilasciare la versione conversazionale, bird-interact-conv.
-- [x] Rilasciare la versione agent, bird-interact-agent.
-- [x] Rilasciare la versione completa bird-interact-full (600).
+- [x] Rilascia la versione lite, bird-interact-lite (270).
+- [x] Rilascia la versione conversazionale, bird-interact-conv.
+- [x] Rilascia la versione agent, bird-interact-agent.
+- [x] Rilascia la versione completa bird-interact-full (600).
 - [ ] SFT / RL un Simulatore Utente
 
-## Riconoscimenti
-Desideriamo esprimere la nostra sincera gratitudine a **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, e al Professore **Shinji Watanabe** per le loro fruttuose discussioni e preziose intuizioni che hanno contribuito a migliorare questo progetto.
+## Ringraziamenti
+Vorremmo esprimere la nostra sincera gratitudine a **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi** e al Professore **Shinji Watanabe** per le loro proficue discussioni e preziosi suggerimenti che hanno contribuito a migliorare questo progetto.
 
 ## Creato da:
-Team BIRD & Google Cloud
+BIRD Team & Google Cloud
 
 
 
@@ -356,12 +358,13 @@ Team BIRD & Google Cloud
 
 ## Registro delle modifiche
 
-- [2025-11-06] 🐛 **Correzione bug** & 🐳 **Aggiornamento Docker**: Aggiornata la versione di sqlglot a 26.16.4 per correggere il bug che impediva al parser SQL di interpretare correttamente le query SQL per il simulatore utente. È possibile risolvere il problema reinstallando tramite `pip install sqlglot==26.16.4` nell'ambiente `bird_interact_eval`. Anche l'immagine `bird_interact_eval` è stata aggiornata, quindi è possibile scaricarla e ricreare il container `bird_interact_eval`.
-- [2025-10-21] 🐳 **Aggiornamento Docker**: Aggiunto il docker per Full DB Env. Abbiamo pubblicato 3 immagini docker (Base/Full DB Env e l'ambiente di valutazione per entrambi `a-Interact` e `c-Interact`) su Docker Hub per facilitare la configurazione dell'ambiente. Non è necessario scaricare i dump del DB e costruire manualmente le immagini! Si prega di scaricare le ultime immagini da Docker Hub e ricreare i container, ad esempio usando `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`.
-- [2025-08-22]  🐛 **Correzione bug**: Corretto il bug per cui, durante la valutazione della fase-2 SQL, la query SQL della fase-1 memorizzata non veniva eseguita correttamente, portando a un tasso di successo inferiore nella fase-2. Questo bug riguarda solo i task in cui la sql della fase1 esegue alcune operazioni sul database, ad esempio CREATE table, ecc.
+- [2025-11-06] 🐛 **Correzione Bug** & 🐳 **Aggiornamento Docker**: Aggiornata la versione di sqlglot a 26.16.4 per risolvere il bug che impediva al parser SQL di interpretare correttamente le query per il simulatore utente. Puoi risolvere questo problema reinstallando con `pip install sqlglot==26.16.4` nell'ambiente `bird_interact_eval`. Anche l'immagine `bird_interact_eval` è aggiornata, quindi puoi scaricarla e ricreare il container `bird_interact_eval`.
+- [2025-10-21] 🐳 **Aggiornamento Docker**: Aggiunto il docker per Full DB Env. Sono state caricate 3 immagini docker (Base/Full DB Env e l'ambiente di valutazione per `a-Interact` e `c-Interact`) su Docker Hub per facilitare la configurazione dell'ambiente. Non è necessario scaricare i dump del DB e costruire manualmente le immagini! Scarica le ultime immagini da Docker Hub e ricrea i container, ad esempio usando `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`.
+- [2025-08-22]  🐛 **Correzione Bug**: Risolto il bug che, durante la valutazione delle SQL di fase-2, impediva l'esecuzione delle SQL di fase-1 memorizzate, portando a un tasso di successo inferiore della fase-2. Questo bug riguarda solo i task in cui la SQL di fase1 esegue alcune operazioni sul database, ad esempio CREATE table, ecc.
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-17
 
 ---

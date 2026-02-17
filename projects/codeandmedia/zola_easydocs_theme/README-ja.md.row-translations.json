@@ -1,0 +1,170 @@
+[
+  {
+    "row": 1,
+    "rowsha": "EcnTfUBgd1raV7SzWKGNQOGp3vlm9LJZcB3tqD6bCFo=",
+    "originContent": "## An easy way to create a document library for your project",
+    "translatedContent": "## プロジェクトのドキュメントライブラリを簡単に作成する方法"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "fNEktdSsO1pjJOcKpkxunqcnp5t2mvkWLnqEM+FtjJc=",
+    "originContent": "Demo: [https://easydocs.codeandmedia.com/](https://easydocs.codeandmedia.com/)",
+    "translatedContent": "デモ: [https://easydocs.codeandmedia.com/](https://easydocs.codeandmedia.com/)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "f+LoAsOFo7VHb9ONkd/EAG0jicYxODV8Gq2BFluMWK0=",
+    "originContent": "This theme for [Zola](https://getzola.org) (static site engine) helps you build and publish your project docs easily and fast. Zola is just one binary that outputs html-pages and additional static assets after building your docs written in Markdown. Thus, you can take the theme, your md-files, Zola and gain flexible and simple website for documentation. ",
+    "translatedContent": "このテーマは [Zola](https://getzola.org)（静的サイトエンジン）用で、プロジェクトのドキュメントを簡単かつ迅速に構築・公開するのに役立ちます。Zolaは単一のバイナリで、Markdownで書かれたドキュメントをビルドするとHTMLページと追加の静的アセットを出力します。つまり、このテーマ、mdファイル、Zolaを組み合わせることで、柔軟かつシンプルなドキュメント用ウェブサイトを作成できます。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "suf26N4efK5SOh54YkFUL7QogmZdZGXJ5DEorU/quMU=",
+    "originContent": "### Step-by-step",
+    "translatedContent": "### ステップバイステップ"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "Wy3P3vqNO/Dd+wsgKTzTJIocHpDAOogmvelr4ve9n10=",
+    "originContent": "As you may have heard Zola is quite flexible :) So, the scenario below is one of hundreds possible ways to make things done, feel free to find your best. Also, Zola provides their own mechanism to install and use themes, see [the docs](https://www.getzola.org/documentation/themes/installing-and-using-themes/). ",
+    "translatedContent": "ご存知かもしれませんが、Zolaは非常に柔軟です :) したがって、以下のシナリオは数百の可能な方法のうちの一例であり、ご自身に最適な方法を見つけてください。また、Zolaは独自のテーマインストールおよび使用機構を提供しています。詳細は[ドキュメント](https://www.getzola.org/documentation/themes/installing-and-using-themes/)をご覧ください。"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "FSl/bvLiPSruh2MELKqe3WgQQJZGmKWmqEX9JJ74ius=",
+    "originContent": "1. Fork the repo and replace demo-content inside content folder with yours. But take a look to _index.md files. It contains `title` and when you want to have anchor right of your headers add `insert_anchor_links = \"right\"` to each index. `theme.toml`, screenshot and readme may be deleted too. ",
+    "translatedContent": "1. リポジトリをフォークし、contentフォルダー内のデモコンテンツを自分のものに置き換えます。ただし、_index.mdファイルを確認してください。これには`title`が含まれており、見出しの右側にアンカーを表示したい場合は、各indexに`insert_anchor_links = \"right\"`を追加します。`theme.toml`、スクリーンショット、readmeも削除して構いません。"
+  },
+  {
+    "row": 12,
+    "rowsha": "TnOE7SJSICYLbh2I9eMSNZ60qEaWBEUmyRyl3fakCjk=",
+    "originContent": "2. Inside `config.toml` change URL and title on your own. In extra section you can specify path to your GitHub API for version below the logo on nav, favicon and logo itself. Or just remove the lines if you don't need it. Also, you can configure or turn on some additional settings related to Zola. [Specification is here](https://www.getzola.org/documentation/getting-started/configuration/).",
+    "translatedContent": "2. `config.toml`内のURLとタイトルを自分用に変更します。extraセクションでは、ナビゲーションのロゴ下に表示されるバージョン用のGitHub APIパス、favicon、ロゴそのものを指定できます。不要であれば行を削除してください。また、Zolaに関連する追加設定を構成または有効化できます。[仕様はこちら](https://www.getzola.org/documentation/getting-started/configuration/)。"
+  },
+  {
+    "row": 13,
+    "rowsha": "pVadu4KfLmJ3Ktyuyi6R8KTAosB7iWPOorJVC6nL8NI=",
+    "originContent": "3. In sass/_variables.scss you may change font, color or background if you want.",
+    "translatedContent": "3. sass/_variables.scssでフォント、色、背景を変更することも可能です。"
+  },
+  {
+    "row": 14,
+    "rowsha": "yvCzNlGCBCat1FnVURX1v07w0I8WeR8ksVDSUmfHfUs=",
+    "originContent": "4. Almost done. Now, you should decide how you want to build and where will be hosted your website. You can build it locally and upload to somewhere. Or build in GitHub Actions and host on GitHub Pages / Netlify / CloudFlare Pages / AnyS3CloudStorage. [Howto for GitHub Pages](https://www.getzola.org/documentation/deployment/github-pages/). [My example](https://github.com/o365hq/o365hq.com/blob/main/.github/workflows/main.yml) of GitHub workflow with 2-steps build (the first checks for links and spelling errors, the second uploads to Azure). [Dockerfile](https://github.com/codeandmedia/zola_docsascode_theme/blob/master/Dockerfile) to make Docker image.",
+    "translatedContent": "4. ほぼ完了です。次に、どのようにビルドし、どこにウェブサイトをホストするかを決定してください。ローカルでビルドしてどこかにアップロードすることも、GitHub ActionsでビルドしてGitHub Pages / Netlify / CloudFlare Pages / AnyS3CloudStorageでホストすることもできます。[GitHub Pagesの方法](https://www.getzola.org/documentation/deployment/github-pages/)。[私の例](https://github.com/o365hq/o365hq.com/blob/main/.github/workflows/main.yml)は2段階ビルドのGitHubワークフローです（最初はリンクとスペルチェック、次にAzureへアップロード）。[Dockerfile](https://github.com/codeandmedia/zola_docsascode_theme/blob/master/Dockerfile)でDockerイメージを作成可能。"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "sGhvj6hnO1umRO69Avohyc+sa29+t3nVKrMKszHRv7I=",
+    "originContent": "## Provided configurations options",
+    "translatedContent": "## 提供される設定オプション"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "pO+Pw5AtVGvlsqeUvfZV7WHC6hXDBn7ju36Pb4R6hNQ=",
+    "originContent": "These options can be configured in the `extra` section of the [config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml).",
+    "translatedContent": "これらのオプションは[config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml)の`extra`セクションで設定可能です。"
+  },
+  {
+    "row": 19,
+    "rowsha": "X6VJBsKCrHhsuXSrup2amYZjS/nkk7CXYkaA+unLkFs=",
+    "originContent": "If any are not present it has the same behaviour as the default which is shown in the starter [config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml).",
+    "translatedContent": "存在しない場合は、スターターの[config.toml](https://raw.githubusercontent.com/codeandmedia/zola_easydocs_theme/master/config.toml)に示されるデフォルトの動作と同じになります。"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "BOjos8ksJ0VJaY2gVF34cOb9t2ROh+dgOfElMd1V97g=",
+    "originContent": "- **easydocs_logo_always_clickable** controls if the logo is always clickable. By default the logo is only clickable if you are not on the home page. If this is enabled it will make the logo clickable when you are on the home page as well. Thus on the home page it will basically just refresh the page as it will take you to the same page.",
+    "translatedContent": "- **easydocs_logo_always_clickable** はロゴが常にクリック可能かを制御します。デフォルトでは、ホームページ以外のときのみロゴはクリック可能です。これを有効にすると、ホームページでもロゴがクリック可能になり、ホームページ上では基本的にページをリロードする動作になります。"
+  },
+  {
+    "row": 22,
+    "rowsha": "LYKPHaFOfsOReCKWJf3kqsU4bX6h23VfpHniHfddfm0=",
+    "originContent": "- **easydocs_uglyurls** provides support for offline sites that do not use a webserver. If set to true links in the nav are generated with the full path indcluding `index.html`. This functionality was  insired by [Abridge theme](https://www.getzola.org/themes/abridge/). Note that for this to work it also requries the base URL to be set to the local folder where the site will be stored eg. `base_url = file:///home/user/mysite/public/`. Therefore this is not portable and only works with a specific local folder, but does not require a webserver to navigate the site.",
+    "translatedContent": "- **easydocs_uglyurls** はウェブサーバーを使わないオフラインサイトをサポートします。trueに設定するとナビのリンクは`index.html`を含む完全なパスで生成されます。この機能は[Abridgeテーマ](https://www.getzola.org/themes/abridge/)に触発されました。これを機能させるには、base URLをサイトを保存するローカルフォルダ（例：`base_url = file:///home/user/mysite/public/`）に設定する必要があります。したがって、これはポータブルではなく特定のローカルフォルダでのみ動作しますが、ウェブサーバーを必要としません。"
+  },
+  {
+    "row": 23,
+    "rowsha": "TBuInyjhEbDj0GemaceQxx79knQoN3G1PF/7c8GsCLI=",
+    "originContent": "- **easydocs_heading_threshold** controls minimum number of headings needed on a page before the headings show in the navigation on the left. Defaults to 5. Can be used for example to always show headings on each page by setting it to 1.",
+    "translatedContent": "- **easydocs_heading_threshold** はページに表示される見出しの最小数を制御し、その数未満の場合は左側のナビゲーションに見出しが表示されません。デフォルトは5です。例えば常に各ページで見出しを表示したい場合は1に設定します。"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "ss4U/W8t43xyVDos6RZaQtVUReUDIxonu9zwEJWXC64=",
+    "originContent": "Enjoy your docs!",
+    "translatedContent": "ドキュメントをお楽しみください！"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "jT00Im0RYhE2IxMxxGGR3YjoENJzdL+2joT/wDB9eIw=",
+    "originContent": "* _Icons: [Office UI Fabric Icons](https://uifabricicons.azurewebsites.net/)_",
+    "translatedContent": "* _アイコン: [Office UI Fabric Icons](https://uifabricicons.azurewebsites.net/)_"
+  },
+  {
+    "row": 28,
+    "rowsha": "WT0NtIpIjRCP83GnlUtYTx+pkD3bp237WZ4k0R/P/y0=",
+    "originContent": "* _Copy-code-button: [Aaron Luna](https://aaronluna.dev/blog/add-copy-button-to-code-blocks-hugo-chroma/)_",
+    "translatedContent": "* _コピーコードボタン: [Aaron Luna](https://aaronluna.dev/blog/add-copy-button-to-code-blocks-hugo-chroma/)_"
+  }
+]
