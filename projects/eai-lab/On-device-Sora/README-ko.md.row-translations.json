@@ -1,0 +1,536 @@
+[
+  {
+    "row": 1,
+    "rowsha": "g2rrvimbtEJyouvldLNxjN1GFochpyOPeo4DrbLGsYE=",
+    "originContent": "# [arXiv] On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices",
+    "translatedContent": "# [arXiv] 온-디바이스 소라: 모바일 기기를 위한 확산 기반 텍스트-투-비디오 생성 구현"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "yzLNBoFKHSWfXe06LC6ZujWDk+vWHSKTUfW0XZ4fRkY=",
+    "originContent": "* Code is based on implementation of [Open-Sora](https://github.com/hpcaitech/Open-Sora)",
+    "translatedContent": "* 코드는 [Open-Sora](https://github.com/hpcaitech/Open-Sora) 구현을 기반으로 합니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "7Mdd0QbD0Hs+WJjpdN9lJRyWtd/Q1Jk0XRHp84El1rw=",
+    "originContent": "**Paper**: https://arxiv.org/abs/2502.04363",
+    "translatedContent": "**논문**: https://arxiv.org/abs/2502.04363"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "sSCRUU7QPNqK6UIV3CFIki98v+eCcaDznWklh8uO9B4=",
+    "originContent": "Code implementation of  [arXiv] On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices.",
+    "translatedContent": "[arXiv] 온-디바이스 소라: 모바일 기기를 위한 확산 기반 텍스트-투-비디오 생성 구현의 코드 구현입니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "yH8XrUYDfyVhXE+mlGgNxwo2e/YiTZWaldbygg7Elao=",
+    "originContent": "Base code referred ->",
+    "translatedContent": "참고한 기본 코드 ->"
+  },
+  {
+    "row": 9,
+    "rowsha": "atd14p82Q/VSE29dZyFKhFbB4mgSgSVNugpYv/p0G/8=",
+    "originContent": "Open-Sora : Democratizing Efficient Video Production for All ",
+    "translatedContent": "Open-Sora : 모두를 위한 효율적인 비디오 제작 민주화"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "11PvuraB+k2oJHDZqDscIC3lj5L9SY53omnBFjvEcUs=",
+    "originContent": "## Introduction",
+    "translatedContent": "## 소개"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "nM7obat8x5sHmi4BAJ7hUdtgpGAkwnWAKg5nYe+Iyb8=",
+    "originContent": "This repository provides code for *On-device Sora*, which is an open-sourced implementation of paper named *On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices*. ",
+    "translatedContent": "이 저장소는 *On-device Sora*의 코드를 제공합니다. 이는 *On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices* 라는 논문의 오픈 소스 구현체입니다."
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 온-디바이스 소라"
+  },
+  {
+    "row": 16,
+    "rowsha": "Ba797RyFsl9KQ2XWkvy8eyvEH9CygEZNO2K1RtlroZk=",
+    "originContent": "### On-Device Sora",
+    "translatedContent": "*On-device Sora*는 Linear Proportional Leap (LPL), Temporal Dimension Token Merging (TDTM), 그리고 Concurrent Inference with Dynamic Loading (CI-DL)을 적용하여 iPhone 15 Pro에서 효율적인 비디오 생성을 가능하게 합니다."
+  },
+  {
+    "row": 17,
+    "rowsha": "uGEzXMW9srNLOFiCRRnU/SPRtXrtC3zcEwsXPS22kGg=",
+    "originContent": "*On-device Sora* applies Linear Proportional Leap (LPL), Temporal Dimension Token Merging (TDTM), and Concurrent Inference with Dynamic Loading (CI-DL) to enable efficient video generation on the iPhone 15 Pro.",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![On-Device_Sora](https://raw.githubusercontent.com/eai-lab/On-device-Sora/main/./Figures/overview.jpg)"
+  },
+  {
+    "row": 19,
+    "rowsha": "cxQnGdR3u10tvolSW8L0cHMv7nIcfpyxHuP+QtHaN68=",
+    "originContent": "![On-Device_Sora](https://raw.githubusercontent.com/eai-lab/On-device-Sora/main/./Figures/overview.jpg)",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 오픈-소라"
+  },
+  {
+    "row": 21,
+    "rowsha": "3Icb3M+QYCSdlm2ZkfLX+GZamuz++B3tJys4DnLJyQg=",
+    "originContent": "### Open-Sora",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[Open-Sora](https://github.com/hpcaitech/Open-Sora)는 온-디바이스 소라의 베이스라인 모델로, 비디오 생성을 위한 오픈 소스 프로젝트이며 텍스트 입력을 기반으로 영상을 생성할 수 있는 T2V 확산 모델입니다."
+  },
+  {
+    "row": 23,
+    "rowsha": "PcswmoUBamsoPoBEa+DmVb9tVyqW0H3xkhw3KSoyIcs=",
+    "originContent": "[Open-Sora](https://github.com/hpcaitech/Open-Sora) is a baseline model of On-Device Sora, an open-source project for video generation, and a T2V Diffusion model that can produce videos based on text input.",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 온-디바이스 소라를 위한 각 모델의 MLPackage 변환 방법"
+  },
+  {
+    "row": 25,
+    "rowsha": "7+Me+4NatX2s1ebzzN8oQj6eyv5cYZzv/xScPWNbOus=",
+    "originContent": "## How to convert each model to MLPackage for On-device Sora",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 패키지 의존성"
+  },
+  {
+    "row": 27,
+    "rowsha": "kXdUyIfB4KnwJgXcm6+94QrPELgPOb9s67FqRlnVLyI=",
+    "originContent": "## Package Dependencies",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 의존성"
+  },
+  {
+    "row": 29,
+    "rowsha": "CRlbmGG9nUuq3zDhSAhyIaoYlk9qfo+crLkOHv54Uww=",
+    "originContent": "### Dependency ",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 31,
+    "rowsha": "4bKVDCJIkEIiRAYsDDj7/wQVGTgmxycPXy6ODMSGqUw=",
+    "originContent": "cd Device_conversion",
+    "translatedContent": "cd Device_conversion"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "l3h29JB0YbDGlnpnYSJn3LLyjIPKdeFpnhspcKZdMsY=",
+    "originContent": "conda create -n convert python=3.10",
+    "translatedContent": "conda create -n convert python=3.10"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "vqGg/F/tYRGuP3z5h5tl9oaTj/VOkC9OZmb9D/Uxfj8=",
+    "originContent": "conda activate convert",
+    "translatedContent": "conda activate convert"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "hrh/pSp+T8OqrnurskKVhh2nca67JodDkUohoAx7puc=",
+    "originContent": "pip install -r requirements/requirements-convert.txt",
+    "translatedContent": "pip install -r requirements/requirements-convert.txt"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "CuxHq5ohdO/LL4JLszNpXnKCAgIkWdz7ARXq/86ciBk=",
+    "originContent": "pip install -v .",
+    "translatedContent": "pip install -v ."
+  },
+  {
+    "row": 40,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "fNcaeno5QW/+n/XHsCgzvMjXudUFt95Hfi4baoKzVVs=",
+    "originContent": "## Converting",
+    "translatedContent": "## 변환"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "iZ+x7CEGTH5ZavYaSgDYCxrZ2VYz6u0AFqT4ScY3BUw=",
+    "originContent": "### T5 Converting",
+    "translatedContent": "### T5 변환"
+  },
+  {
+    "row": 45,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 46,
+    "rowsha": "6zGhgV3TrxhJkF9tbPMX05oVqV2d/nWF9s/99ID+2hk=",
+    "originContent": "cd t5",
+    "translatedContent": "cd t5"
+  },
+  {
+    "row": 47,
+    "rowsha": "7g4cmCl5bvCZeDgjJ/N1m1ELJfB0VQbJkrdofHbAwZQ=",
+    "originContent": "python3 export-t5.py",
+    "translatedContent": "python3 export-t5.py"
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "1isL30GqHhsxpxTISt/VOxdBUEaVrGb+vvDXCRB000Y=",
+    "originContent": "### STDiT Convering",
+    "translatedContent": "### STDiT 커버링"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "CkK0uPq+4grCSInp7L+05cqTiiEUcUiN/2j9ZKLw6SU=",
+    "originContent": "cd stdit3",
+    "translatedContent": "cd stdit3"
+  },
+  {
+    "row": 53,
+    "rowsha": "YbCJm1/mtDNEEhQv3Z0sRqwjyxhSkalFroG5vJMa9aE=",
+    "originContent": "python3 export-stdit3.py",
+    "translatedContent": "python3 export-stdit3.py"
+  },
+  {
+    "row": 54,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### VAE 변환"
+  },
+  {
+    "row": 56,
+    "rowsha": "oU7jLd98Rz0S6zcQV/ywdR8R5EI5Ce96+kgSWNkbBrs=",
+    "originContent": "### VAE Converting",
+    "translatedContent": "`export-vae-spatial.py`를 실행할 때 `Fatal Python error: PyEval_SaveThread`라는 오류가 발생할 수 있습니다."
+  },
+  {
+    "row": 57,
+    "rowsha": "O6jHmgPwGwz2dkkmw3MNPTQHAxn2C2wR50nF4wkvPVc=",
+    "originContent": "When you run `export-vae-spatial.py`, There are some error that is `Fatal Python error: PyEval_SaveThread`.",
+    "translatedContent": "이 오류를 해결하려면 각 VAE 부분에 대해 한 개의 코드 블록만 실행해야 합니다. 나머지는 주석 처리하세요."
+  },
+  {
+    "row": 58,
+    "rowsha": "Om7thJI0bY1oL/OULiJdpL80UWf9+PI/j7mkaRJYHV4=",
+    "originContent": "To address this error, you should only run one code block for each VAE part. Comment out the rest.",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "OW4k3lH7f+Qfk5r6e3HdusY1u0dBHK+VICECTtfjdwg=",
+    "originContent": "cd vae",
+    "translatedContent": "cd vae"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "nz+CwSZYgwfHSoMiVKuO+O/AUPYdwmI+2PiyES4IQ2U=",
+    "originContent": "# for vae's temporal part",
+    "translatedContent": "# for vae's temporal part"
+  },
+  {
+    "row": 64,
+    "rowsha": "riIrBDOiEZd1O0O7KEuIz4puGimwv3zDSbSCRxJYI/k=",
+    "originContent": "python3 export-vae-temporal.py",
+    "translatedContent": "python3 export-vae-temporal.py"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "1xYujtP0YQnJLFGMuf9fw/yzkSvDyLiq6n5t/r2HNPE=",
+    "originContent": "# for vae's spatial part",
+    "translatedContent": "# for vae's spatial part"
+  },
+  {
+    "row": 67,
+    "rowsha": "vzWtFirgS+8F5IO8yBAL8krX3lN4JXJU//EonIVcsSA=",
+    "originContent": "python3 export-vae-spatial.py",
+    "translatedContent": "python3 export-vae-spatial.py"
+  },
+  {
+    "row": 68,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "yJlGQKI3p2nVYC1uqNa6eKPSIzUW38uRiGu0PspqvUU=",
+    "originContent": "## How to Use",
+    "translatedContent": "## 사용 방법"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "n+o/UskOE36sPdiVrg+g7GE9yRsWOD2QQ147gAiassE=",
+    "originContent": "### Required",
+    "translatedContent": "### 필수 사항"
+  },
+  {
+    "row": 73,
+    "rowsha": "HUH+UetsuUukHViF/Yw36AfuG72r9XGcBjl4VY+OZ2s=",
+    "originContent": "* Mac device for xcode",
+    "translatedContent": "* xcode용 Mac 기기"
+  },
+  {
+    "row": 74,
+    "rowsha": "6RC0+XorJjnx5DMJ3Z7fypWDLX/Ro6Qr8hLilZc/DOY=",
+    "originContent": "* Apple Account to build and launch the app",
+    "translatedContent": "* 앱 빌드 및 실행을 위한 Apple 계정"
+  },
+  {
+    "row": 75,
+    "rowsha": "UBVq0kkVL2q2W8yUolN/R+pfBI2Ngy+ZIV4XIbdn8Ww=",
+    "originContent": "* iPhone: over iPhone 15 pro",
+    "translatedContent": "* iPhone: iPhone 15 pro 이상"
+  },
+  {
+    "row": 76,
+    "rowsha": "zk0m1EdX9hyASU73o02IN7OsvlGe8yOI2Uo6vf6rFM8=",
+    "originContent": "* iOS version: over 18",
+    "translatedContent": "* iOS 버전: 18 이상"
+  },
+  {
+    "row": 77,
+    "rowsha": "uwWWz5rR3IUpF5QWHxwMzTw0giMf75hSyjsy6tM+Spo=",
+    "originContent": "* All MLPackage (T5, STDiT, VAE)",
+    "translatedContent": "* 모든 MLPackage (T5, STDiT, VAE)"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "Kphz2mCrgMCgY5Daek5nj+0nbaBItI4jtBGih0vBdm8=",
+    "originContent": "### Download converted MLPackage (if you don't want to convert each model to MLPackage)",
+    "translatedContent": "### 변환된 MLPackage 다운로드 (각 모델을 MLPackage로 변환하고 싶지 않은 경우)"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "66PJBeXB+syMrkoPxSNKqpft2a0Q03VXG9NqxZLPfIU=",
+    "originContent": "You can download and use the converted models from the following link. [[Download](https://drive.google.com/drive/folders/1L6pVi3KmyLygR_pvKofRL-21adKsEb4p?usp=sharing)]",
+    "translatedContent": "아래 링크에서 변환된 모델을 다운로드하여 사용할 수 있습니다. [[다운로드](https://drive.google.com/drive/folders/1L6pVi3KmyLygR_pvKofRL-21adKsEb4p?usp=sharing)]"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "UFh60KPcNqfFYelvSZBOwN3axdjeng/Psb6nNnoVwmg=",
+    "originContent": "### Run the app",
+    "translatedContent": "### 앱 실행"
+  },
+  {
+    "row": 84,
+    "rowsha": "2izRPe6GePyUCXTm0oJSIZhDnxLnPII+T5JRw4u7OlM=",
+    "originContent": "* Implement xcode project by clicking On-device/On-device-Sora.xcodeproj",
+    "translatedContent": "* On-device/On-device-Sora.xcodeproj를 클릭하여 xcode 프로젝트 구현"
+  },
+  {
+    "row": 85,
+    "rowsha": "GV0nXEjLZqH8CFgsi54Pb0W8hPDcyNtAM0ESYrxMBEE=",
+    "originContent": "* Change the Team (None -> Your Apple account) in TARGETS/Signing&Capabilities",
+    "translatedContent": "* TARGETS/Signing&Capabilities에서 팀 변경 (None -> 본인 Apple 계정)"
+  },
+  {
+    "row": 86,
+    "rowsha": "56DeIJrTW7cSYhhSHE9zOEwnfegPBsXJ6ha5DA0RHL8=",
+    "originContent": "* Launch the app",
+    "translatedContent": "* 앱 실행"
+  },
+  {
+    "row": 87,
+    "rowsha": "qX4+gEctLtzlHg/v0EsIEc7Bk33l+7z6ruQ+ngR/zQw=",
+    "originContent": "### Example artifacts",
+    "translatedContent": "### 예제 아티팩트"
+  },
+  {
+    "row": 88,
+    "rowsha": "J1PYr+TpbjXesCdfUig/myLfMYxYWGCFWJmmNIBYj2Y=",
+    "originContent": "![On-device-Sora-Example1](https://raw.githubusercontent.com/eai-lab/On-device-Sora/main/./Figures/On-device-Sora-Example1.gif)",
+    "translatedContent": "![On-device-Sora-Example1](https://raw.githubusercontent.com/eai-lab/On-device-Sora/main/./Figures/On-device-Sora-Example1.gif)"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

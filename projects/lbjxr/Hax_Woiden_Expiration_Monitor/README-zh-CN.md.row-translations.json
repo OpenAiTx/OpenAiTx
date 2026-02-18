@@ -1,0 +1,650 @@
+[
+  {
+    "row": 1,
+    "rowsha": "eDSZ1RRudIJ43GTe0sd/Ybi7/qyGSZzJF+HGE/81sOU=",
+    "originContent": "# Telegram Bot + HAX 数据监控脚本",
+    "translatedContent": "# Telegram Bot + HAX 数据监控脚本"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "VQ9mNl7EpNnmQ/930unbqBdY3VPStUMKEGkEFuO01M0=",
+    "originContent": "这是一个用于 Telegram Bot 管理和 HAX.CO.ID 数据中心监控的组合型项目，支持 **Docker 部署** 和 **服务器后台运行** 两种模式。",
+    "translatedContent": "这是一个用于 Telegram Bot 管理和 HAX.CO.ID 数据中心监控的组合型项目，支持 **Docker 部署** 和 **服务器后台运行** 两种模式。  "
+  },
+  {
+    "row": 4,
+    "rowsha": "FwhXmsy+jZ4wNGPRBxw+zb4/ReatsWNuBILX9Xa4Rq8=",
+    "originContent": "项目原始代码是tg群友（名字ez ez）提供的（大佬，有什么问题请私聊我，考虑个人隐私暂不贴出来大佬tg账号），直接运行报错，我利用chatgpt修改和完善了一下，目前运行正常。",
+    "translatedContent": "项目原始代码是tg群友（名字ez ez）提供的（大佬，有什么问题请私聊我，考虑个人隐私暂不贴出来大佬tg账号），直接运行报错，我利用chatgpt修改和完善了一下，目前运行正常。"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "EDo6Ufx75Z87UsqyMNdyc2m3fwZaB+wBruVAQ8Pqzx4=",
+    "originContent": "## 📦 功能简介",
+    "translatedContent": "## 📦 功能简介"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "GWLNMzuF0agth1N79CBX33to71h1jXPOjrADEiGn8V8=",
+    "originContent": "- 🤖 `bot.py`：一个使用 `python-telegram-bot` 实现的 Telegram Bot，支持交互式功能（如按钮、命令、回调）。",
+    "translatedContent": "- 🤖 `bot.py`：一个使用 `python-telegram-bot` 实现的 Telegram Bot，支持交互式功能（如按钮、命令、回调）。  "
+  },
+  {
+    "row": 11,
+    "rowsha": "jfoMvxb89q9q4u1AXny7qcvplkITfzjz6Ls13kwxzQo=",
+    "originContent": "- 📡 `hax.py`：每 60 秒抓取 [https://hax.co.id/data-center/](https://hax.co.id/data-center/) 数据中心状态，。",
+    "translatedContent": "- 📡 `hax.py`：每 60 秒抓取 [https://hax.co.id/data-center/](https://hax.co.id/data-center/) 数据中心状态，。  "
+  },
+  {
+    "row": 12,
+    "rowsha": "UgRjw4ehKWbtsBRDoNIH5CP0m4fcH3P2Dm5Okm/m4dA=",
+    "originContent": "- 🔁 支持后台自动运行（适配 Linux VPS）",
+    "translatedContent": "- 🔁 支持后台自动运行（适配 Linux VPS）  "
+  },
+  {
+    "row": 13,
+    "rowsha": "mlHA8V95e+pX/gDxllLOBuB5NUHHFSxHIzJfsNFyyr8=",
+    "originContent": "- 🐳 提供 Docker 镜像构建脚本",
+    "translatedContent": "- 🐳 提供 Docker 镜像构建脚本  "
+  },
+  {
+    "row": 14,
+    "rowsha": "PARhQ1uIuthe6OMBWULkhHzMZPIUi5TlrjMCOKE5/Ko=",
+    "originContent": "- 📜 自动检查并安装 Python3 环境（服务器模式）",
+    "translatedContent": "- 📜 自动检查并安装 Python3 环境（服务器模式）  "
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "0G1hf8W9lZzNvc+B095RJQw9uxX9+6rRKUWxbDmMPso=",
+    "originContent": "## 📂 项目结构",
+    "translatedContent": "## 📂 项目结构"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 22,
+    "rowsha": "MI4jHvzS2Fp9YsmzmnrtfvcoTRCatXMn+N3FunOoiUY=",
+    "originContent": "project/                 # 自行创建一个文件夹存放项目文件，名称随意，英文命名",
+    "translatedContent": "project/                 # 自行创建一个文件夹存放项目文件，名称随意，英文命名"
+  },
+  {
+    "row": 23,
+    "rowsha": "GJQCHGF358Dpa54P71IctcTD06p6nP2kXkv/+UWQirk=",
+    "originContent": "├── bot.py               # Telegram Bot 主程序",
+    "translatedContent": "├── bot.py               # Telegram Bot 主程序"
+  },
+  {
+    "row": 24,
+    "rowsha": "TgMwhHXUaSXRvSxvSgQiTrmMb/ORem3UjgoqH3XZCtA=",
+    "originContent": "├── hax.py               # HAX 数据中心监控脚本",
+    "translatedContent": "├── hax.py               # HAX 数据中心监控脚本"
+  },
+  {
+    "row": 25,
+    "rowsha": "K04lQ/qJ0+wRL/IfTiuaZZCwPqM2SmDh7d+lmjrodFk=",
+    "originContent": "├── requirements.txt     # 所有依赖声明",
+    "translatedContent": "├── requirements.txt     # 所有依赖声明"
+  },
+  {
+    "row": 26,
+    "rowsha": "T3zFgFMH9uWUWN8gzvZQwUruMLJAUkauhmp6EZoumQg=",
+    "originContent": "├── Dockerfile           # Docker 镜像定义",
+    "translatedContent": "├── Dockerfile           # Docker 镜像定义"
+  },
+  {
+    "row": 27,
+    "rowsha": "vlWtx8MVJnDqDbAp2FY917rWyNsB+SQbbF9iSj10DVQ=",
+    "originContent": "├── run_docker.sh        # 一键 Docker 构建 + 启动脚本",
+    "translatedContent": "├── run_docker.sh        # 一键 Docker 构建 + 启动脚本"
+  },
+  {
+    "row": 28,
+    "rowsha": "bQZRZbvWMwbyqx8aRfqQa7SvMIUZN2rAyQ/NICd0XYw=",
+    "originContent": "├── run_server.sh        # 一键后台运行（非 Docker）",
+    "translatedContent": "├── run_server.sh        # 一键后台运行（非 Docker）"
+  },
+  {
+    "row": 29,
+    "rowsha": "uMvU11CkXTS8/aWP5DjUbyhxhfHk7yTJJ6XYowaWE78=",
+    "originContent": "└── logs/                # 自动生成日志文件目录",
+    "translatedContent": "└── logs/                # 自动生成日志文件目录"
+  },
+  {
+    "row": 30,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🖥️ 运行方式一：普通服务器后台运行"
+  },
+  {
+    "row": 33,
+    "rowsha": "M7yKPw11GxSV/dipcpzTI/n2MeLkREccWneInudhH/E=",
+    "originContent": "## 🖥️ 运行方式一：普通服务器后台运行",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ✅ 前提"
+  },
+  {
+    "row": 35,
+    "rowsha": "YJeMpzlvHy30rptOA4BSPqR3OSwpzrxkXsOYnwStmyM=",
+    "originContent": "### ✅ 前提",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 适用于 Ubuntu / Debian / CentOS 等主流服务器"
+  },
+  {
+    "row": 37,
+    "rowsha": "rjjD8ZZCIkHgesyLwUuH3Ha4+GA4QHiFfTuFMHKdkJU=",
+    "originContent": "- 适用于 Ubuntu / Debian / CentOS 等主流服务器",
+    "translatedContent": "- Python 3 环境（可自动安装）"
+  },
+  {
+    "row": 38,
+    "rowsha": "f4lW3jjgEonY5Pw9PVR6QenEwMsiYtkjyc5TIhZ/BGQ=",
+    "originContent": "- Python 3 环境（可自动安装）",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ▶️ 一键运行"
+  },
+  {
+    "row": 40,
+    "rowsha": "UguNzEITXgla511cPOaK3SWZk/q/5MHUKjGj2Kh/RMg=",
+    "originContent": "### ▶️ 一键运行",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 43,
+    "rowsha": "bFoorQpOwaeVEF1Fd+BM7+sTYJ/BG2UGEI1UBwZ4eEE=",
+    "originContent": "chmod +x run_server.sh",
+    "translatedContent": "chmod +x run_server.sh"
+  },
+  {
+    "row": 44,
+    "rowsha": "NRAloKXA/+EWkdkuxmNyKbIdttS1ajmJd4bpqw5OioI=",
+    "originContent": "./run_server.sh",
+    "translatedContent": "./run_server.sh"
+  },
+  {
+    "row": 45,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "首次运行将："
+  },
+  {
+    "row": 47,
+    "rowsha": "DxDW2aorcTU3MkcT8ry3M0rE1zQ5aTjfDtwM9NYxks0=",
+    "originContent": "首次运行将：",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 检查系统是否安装 `python3` / `pip3`"
+  },
+  {
+    "row": 49,
+    "rowsha": "yENoe6QmwHhIUAO8NtAia0Ko2qVqH9PQKdGp2Bcwuos=",
+    "originContent": "- 检查系统是否安装 `python3` / `pip3`",
+    "translatedContent": "- 自动安装 `requirements.txt` 依赖"
+  },
+  {
+    "row": 50,
+    "rowsha": "cVPd6UaL5sQZKiCyQGZcoVVLN2CS9ZBvfbvPFT66Xq8=",
+    "originContent": "- 自动安装 `requirements.txt` 依赖",
+    "translatedContent": "- 启动你选择的脚本于后台（使用 `nohup`）"
+  },
+  {
+    "row": 51,
+    "rowsha": "lFGADQXVocuYgnT7DhD83Bev58YGTIXJ+tqJMSCaqTs=",
+    "originContent": "- 启动你选择的脚本于后台（使用 `nohup`）",
+    "translatedContent": "- 输出日志至 `logs/` 目录"
+  },
+  {
+    "row": 52,
+    "rowsha": "6TVIyNLLpe18ag4qq7pa+jAbkZcailAbV9tkGhcNcv8=",
+    "originContent": "- 输出日志至 `logs/` 目录",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 📄 查看日志"
+  },
+  {
+    "row": 54,
+    "rowsha": "BAuxtz+eF8+YHnlhLIjuPkkJjz51ak4DItMDdevVPbo=",
+    "originContent": "### 📄 查看日志",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 57,
+    "rowsha": "0ape/4XEaTI7HC3A8+oRAaSX6ZMaMCz94k8kBHiZQ9I=",
+    "originContent": "tail -f logs/bot.log     # 查看 Telegram Bot 日志",
+    "translatedContent": "tail -f logs/bot.log     # 查看 Telegram Bot 日志"
+  },
+  {
+    "row": 58,
+    "rowsha": "DKDUp3hNG1rNoWdUo6JUfk1p5aJL33kdycNP16BJZjk=",
+    "originContent": "tail -f logs/hax.log     # 查看 HAX 监控日志",
+    "translatedContent": "tail -f logs/hax.log     # 查看 HAX 监控日志"
+  },
+  {
+    "row": 59,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "mfFu8BTf1fwAPXBdkBrpuYsXna6k7tsDU77IWi/Si/k=",
+    "originContent": "### ❌ 停止进程",
+    "translatedContent": "### ❌ 停止进程"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 64,
+    "rowsha": "gmrDnLwzIMG8sEmoDVhYWB3D+hA+5gMz/tWqvv342Ko=",
+    "originContent": "pkill -f bot.py",
+    "translatedContent": "pkill -f bot.py"
+  },
+  {
+    "row": 65,
+    "rowsha": "bI20IDjPQ5byrfieChGdnVn2ghnqrUtHl84ptaUB+to=",
+    "originContent": "pkill -f hax.py",
+    "translatedContent": "pkill -f hax.py"
+  },
+  {
+    "row": 66,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "Ulm20eRCTo3RggLDHgtgapxFiZc/T4WYGkv1P+KM+NU=",
+    "originContent": "## 🐳 运行方式二：Docker 模式",
+    "translatedContent": "## 🐳 运行方式二：Docker 模式"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "rQk24aJhYgms0CavNyJ2MdlYpvMsTNY0IgjKxggehuo=",
+    "originContent": "### 🔧 构建镜像并运行",
+    "translatedContent": "### 🔧 构建镜像并运行"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 75,
+    "rowsha": "5EW0O47ZagDW+rJa9nQT8PSAH9erFUSlWBPnV0v/8oY=",
+    "originContent": "chmod +x run_docker.sh",
+    "translatedContent": "chmod +x run_docker.sh"
+  },
+  {
+    "row": 76,
+    "rowsha": "LNLnVroF6s/HHj3YN5HTU7+N5Mcv28HHUwt6P1rGmj0=",
+    "originContent": "./run_docker.sh",
+    "translatedContent": "./run_docker.sh"
+  },
+  {
+    "row": 77,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "nd/c9kVGGBCNcsb6ZLL766+kc9k06W3MOJj6kLsM13I=",
+    "originContent": "你可以选择运行：",
+    "translatedContent": "你可以选择运行："
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "hcEEm5ysASzmtv3CNDkbdc22XOuq4tyRQlC0LC4ysPQ=",
+    "originContent": "- `bot.py`（Telegram Bot）",
+    "translatedContent": "- `bot.py`（Telegram 机器人）"
+  },
+  {
+    "row": 82,
+    "rowsha": "902QN0YiSE0H/Fj9RlWIcIYG6WjaRzN44dpYGnf8EU4=",
+    "originContent": "- `hax.py`（HAX 监控）",
+    "translatedContent": "- `hax.py`（HAX 监控）"
+  },
+  {
+    "row": 83,
+    "rowsha": "8decbY+VfaE61d+1bvKvlAsIC/Fx9J+fj3I/oEPXN2I=",
+    "originContent": "- '同时启动 bot.py 和 hax.py 脚本...'",
+    "translatedContent": "- '同时启动 bot.py 和 hax.py 脚本...'"
+  },
+  {
+    "row": 84,
+    "rowsha": "MaacHTtPOpll+wLGdBP6Tk2eA3mscg+HB5GjOVAiGb0=",
+    "originContent": "- 任意一个都可在容器中独立运行",
+    "translatedContent": "- 任意一个都可在容器中独立运行"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "6tXxww09Vful+bOfYGyRiYhQzSGfpw/FWkuVSn4STf4=",
+    "originContent": "## 📌 依赖库",
+    "translatedContent": "## 📌 依赖库"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "81/undg1kse/YicVc3FpA1KAfKi7ulug9JWQszgfKdE=",
+    "originContent": "- `requests`",
+    "translatedContent": "- `requests`"
+  },
+  {
+    "row": 93,
+    "rowsha": "NElE0gz0EHA5MCl2TKcXQUGFBjesmqjdYNDUOOgGzeI=",
+    "originContent": "- `beautifulsoup4`",
+    "translatedContent": "- `beautifulsoup4`"
+  },
+  {
+    "row": 94,
+    "rowsha": "M0txz3UZ1zkABFH8c/rWffQ2Z7yjSPgFiX8iBeEj7wg=",
+    "originContent": "- `lxml`",
+    "translatedContent": "- `lxml`"
+  },
+  {
+    "row": 95,
+    "rowsha": "1EF+A4LAtmVMNp+VvDFNU18IMdOsXJpEFGKFBe7WRGI=",
+    "originContent": "- `python-telegram-bot[job-queue]>=20.0`",
+    "translatedContent": "- `python-telegram-bot[job-queue]>=20.0`"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "VipfhMbHCIVIypHxVbQd6HYWb21VoD314mJeCdLlEmI=",
+    "originContent": "安装方式：",
+    "translatedContent": "安装方式："
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 100,
+    "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+    "originContent": "pip install -r requirements.txt",
+    "translatedContent": "pip install -r requirements.txt"
+  },
+  {
+    "row": 101,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "ybvGlKFIDX9pEL4oT6pqpsaYSQZR/IJH5lbzHPJLJH4=",
+    "originContent": "## 📬 联系方式",
+    "translatedContent": "## 📬 联系方式"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "YbqP4r/qSi5uYsNGo33jWUcYyxwawuSPR8CZ/wrX+Ng=",
+    "originContent": "欢迎 issue 或 PR，有建议请提！随缘回复",
+    "translatedContent": "欢迎 issue 或 PR，有建议请提！随缘回复"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

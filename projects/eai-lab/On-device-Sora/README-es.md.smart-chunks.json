@@ -1,0 +1,653 @@
+[
+  {
+    "Id": 1,
+    "Content": "# [arXiv] On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices\n\n* Code is based on implementation of [Open-Sora](https://github.com/hpcaitech/Open-Sora)\n\n**Paper**: https://arxiv.org/abs/2502.04363\n\nCode implementation of  [arXiv] On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices.\nBase code referred ->\nOpen-Sora : Democratizing Efficient Video Production for All \n\n## Introduction\n\nThis repository provides code for *On-device Sora*, which is an open-sourced implementation of paper named *On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices*. \n\n\n### On-Device Sora\n*On-device Sora* applies Linear Proportional Leap (LPL), Temporal Dimension Token Merging (TDTM), and Concurrent Inference with Dynamic Loading (CI-DL) to enable efficient video generation on the iPhone 15 Pro.\n\n![On-Device_Sora](https://raw.githubusercontent.com/eai-lab/On-device-Sora/main/./Figures/overview.jpg)\n\n### Open-Sora\n\n[Open-Sora](https://github.com/hpcaitech/Open-Sora) is a baseline model of On-Device Sora, an open-source project for video generation, and a T2V Diffusion model that can produce videos based on text input.\n\n## How to convert each model to MLPackage for On-device Sora\n\n## Package Dependencies\n\n### Dependency ",
+    "ContentSha": "4hP/Zwhxr29U9r9bn+slWMl+dJs2NNncgJHmBrGTfF4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# [arXiv] On-device Sora: Habilitando la Generación de Video a partir de Texto Basada en Difusión para Dispositivos Móviles\n\n* El código se basa en la implementación de [Open-Sora](https://github.com/hpcaitech/Open-Sora)\n\n**Artículo**: https://arxiv.org/abs/2502.04363\n\nImplementación del código de [arXiv] On-device Sora: Habilitando la Generación de Video a partir de Texto Basada en Difusión para Dispositivos Móviles.\nCódigo base referido ->\nOpen-Sora : Democratizando la Producción Eficiente de Video para Todos\n\n## Introducción\n\nEste repositorio proporciona código para *On-device Sora*, que es una implementación de código abierto del artículo llamado *On-device Sora: Habilitando la Generación de Video a partir de Texto Basada en Difusión para Dispositivos Móviles*.\n\n### On-Device Sora\n*On-device Sora* aplica Linear Proportional Leap (LPL), Temporal Dimension Token Merging (TDTM) y Concurrent Inference with Dynamic Loading (CI-DL) para permitir la generación eficiente de video en el iPhone 15 Pro.\n\n![On-Device_Sora](https://raw.githubusercontent.com/eai-lab/On-device-Sora/main/./Figures/overview.jpg)\n\n### Open-Sora\n\n[Open-Sora](https://github.com/hpcaitech/Open-Sora) es un modelo base de On-Device Sora, un proyecto de código abierto para generación de video, y un modelo de difusión T2V que puede producir videos basados en entrada de texto.\n\n## Cómo convertir cada modelo a MLPackage para On-device Sora\n\n## Dependencias del Paquete\n\n### Dependencias\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "g2rrvimbtEJyouvldLNxjN1GFochpyOPeo4DrbLGsYE=",
+        "originContent": "# [arXiv] On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices",
+        "translatedContent": "# [arXiv] On-device Sora: Habilitando la Generación de Video a partir de Texto Basada en Difusión para Dispositivos Móviles"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "yzLNBoFKHSWfXe06LC6ZujWDk+vWHSKTUfW0XZ4fRkY=",
+        "originContent": "* Code is based on implementation of [Open-Sora](https://github.com/hpcaitech/Open-Sora)",
+        "translatedContent": "* El código se basa en la implementación de [Open-Sora](https://github.com/hpcaitech/Open-Sora)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "7Mdd0QbD0Hs+WJjpdN9lJRyWtd/Q1Jk0XRHp84El1rw=",
+        "originContent": "**Paper**: https://arxiv.org/abs/2502.04363",
+        "translatedContent": "**Artículo**: https://arxiv.org/abs/2502.04363"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "sSCRUU7QPNqK6UIV3CFIki98v+eCcaDznWklh8uO9B4=",
+        "originContent": "Code implementation of  [arXiv] On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices.",
+        "translatedContent": "Implementación del código de [arXiv] On-device Sora: Habilitando la Generación de Video a partir de Texto Basada en Difusión para Dispositivos Móviles."
+      },
+      {
+        "row": 8,
+        "rowsha": "yH8XrUYDfyVhXE+mlGgNxwo2e/YiTZWaldbygg7Elao=",
+        "originContent": "Base code referred ->",
+        "translatedContent": "Código base referido ->"
+      },
+      {
+        "row": 9,
+        "rowsha": "atd14p82Q/VSE29dZyFKhFbB4mgSgSVNugpYv/p0G/8=",
+        "originContent": "Open-Sora : Democratizing Efficient Video Production for All ",
+        "translatedContent": "Open-Sora : Democratizando la Producción Eficiente de Video para Todos"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "11PvuraB+k2oJHDZqDscIC3lj5L9SY53omnBFjvEcUs=",
+        "originContent": "## Introduction",
+        "translatedContent": "## Introducción"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "nM7obat8x5sHmi4BAJ7hUdtgpGAkwnWAKg5nYe+Iyb8=",
+        "originContent": "This repository provides code for *On-device Sora*, which is an open-sourced implementation of paper named *On-device Sora: Enabling Diffusion-Based Text-to-Video Generation for Mobile Devices*. ",
+        "translatedContent": "Este repositorio proporciona código para *On-device Sora*, que es una implementación de código abierto del artículo llamado *On-device Sora: Habilitando la Generación de Video a partir de Texto Basada en Difusión para Dispositivos Móviles*."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### On-Device Sora"
+      },
+      {
+        "row": 16,
+        "rowsha": "Ba797RyFsl9KQ2XWkvy8eyvEH9CygEZNO2K1RtlroZk=",
+        "originContent": "### On-Device Sora",
+        "translatedContent": "*On-device Sora* aplica Linear Proportional Leap (LPL), Temporal Dimension Token Merging (TDTM) y Concurrent Inference with Dynamic Loading (CI-DL) para permitir la generación eficiente de video en el iPhone 15 Pro."
+      },
+      {
+        "row": 17,
+        "rowsha": "uGEzXMW9srNLOFiCRRnU/SPRtXrtC3zcEwsXPS22kGg=",
+        "originContent": "*On-device Sora* applies Linear Proportional Leap (LPL), Temporal Dimension Token Merging (TDTM), and Concurrent Inference with Dynamic Loading (CI-DL) to enable efficient video generation on the iPhone 15 Pro.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![On-Device_Sora](https://raw.githubusercontent.com/eai-lab/On-device-Sora/main/./Figures/overview.jpg)"
+      },
+      {
+        "row": 19,
+        "rowsha": "cxQnGdR3u10tvolSW8L0cHMv7nIcfpyxHuP+QtHaN68=",
+        "originContent": "![On-Device_Sora](https://raw.githubusercontent.com/eai-lab/On-device-Sora/main/./Figures/overview.jpg)",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Open-Sora"
+      },
+      {
+        "row": 21,
+        "rowsha": "3Icb3M+QYCSdlm2ZkfLX+GZamuz++B3tJys4DnLJyQg=",
+        "originContent": "### Open-Sora",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[Open-Sora](https://github.com/hpcaitech/Open-Sora) es un modelo base de On-Device Sora, un proyecto de código abierto para generación de video, y un modelo de difusión T2V que puede producir videos basados en entrada de texto."
+      },
+      {
+        "row": 23,
+        "rowsha": "PcswmoUBamsoPoBEa+DmVb9tVyqW0H3xkhw3KSoyIcs=",
+        "originContent": "[Open-Sora](https://github.com/hpcaitech/Open-Sora) is a baseline model of On-Device Sora, an open-source project for video generation, and a T2V Diffusion model that can produce videos based on text input.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Cómo convertir cada modelo a MLPackage para On-device Sora"
+      },
+      {
+        "row": 25,
+        "rowsha": "7+Me+4NatX2s1ebzzN8oQj6eyv5cYZzv/xScPWNbOus=",
+        "originContent": "## How to convert each model to MLPackage for On-device Sora",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Dependencias del Paquete"
+      },
+      {
+        "row": 27,
+        "rowsha": "kXdUyIfB4KnwJgXcm6+94QrPELgPOb9s67FqRlnVLyI=",
+        "originContent": "## Package Dependencies",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Dependencias"
+      },
+      {
+        "row": 29,
+        "rowsha": "CRlbmGG9nUuq3zDhSAhyIaoYlk9qfo+crLkOHv54Uww=",
+        "originContent": "### Dependency ",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\ncd Device_conversion\n\nconda create -n convert python=3.10\n\nconda activate convert\n\npip install -r requirements/requirements-convert.txt\n\npip install -v .\n```",
+    "ContentSha": "qzgwtD972zlZ4mbtV+Ki2GiXGnd5PdpMhmK7Nt7rY4s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncd Device_conversion\n\nconda create -n convert python=3.10\n\nconda activate convert\n\npip install -r requirements/requirements-convert.txt\n\npip install -v .\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "4bKVDCJIkEIiRAYsDDj7/wQVGTgmxycPXy6ODMSGqUw=",
+        "originContent": "cd Device_conversion",
+        "translatedContent": "cd Device_conversion"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "l3h29JB0YbDGlnpnYSJn3LLyjIPKdeFpnhspcKZdMsY=",
+        "originContent": "conda create -n convert python=3.10",
+        "translatedContent": "conda create -n convert python=3.10"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "vqGg/F/tYRGuP3z5h5tl9oaTj/VOkC9OZmb9D/Uxfj8=",
+        "originContent": "conda activate convert",
+        "translatedContent": "conda activate convert"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "hrh/pSp+T8OqrnurskKVhh2nca67JodDkUohoAx7puc=",
+        "originContent": "pip install -r requirements/requirements-convert.txt",
+        "translatedContent": "pip install -r requirements/requirements-convert.txt"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "CuxHq5ohdO/LL4JLszNpXnKCAgIkWdz7ARXq/86ciBk=",
+        "originContent": "pip install -v .",
+        "translatedContent": "pip install -v ."
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Converting\n\n### T5 Converting",
+    "ContentSha": "bMu1++H3OKr8PwGOPB0bmKVYNdytHt7tSxjzZgBs+xY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Conversión\n\n### Conversión T5",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "fNcaeno5QW/+n/XHsCgzvMjXudUFt95Hfi4baoKzVVs=",
+        "originContent": "## Converting",
+        "translatedContent": "## Conversión"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "iZ+x7CEGTH5ZavYaSgDYCxrZ2VYz6u0AFqT4ScY3BUw=",
+        "originContent": "### T5 Converting",
+        "translatedContent": "### Conversión T5"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\ncd t5\npython3 export-t5.py\n```",
+    "ContentSha": "/hzHai4VkKRBlBGFXZNqLgUYbjAB11OLDUH79bMGo2I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncd t5\npython3 export-t5.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "6zGhgV3TrxhJkF9tbPMX05oVqV2d/nWF9s/99ID+2hk=",
+        "originContent": "cd t5",
+        "translatedContent": "cd t5"
+      },
+      {
+        "row": 3,
+        "rowsha": "7g4cmCl5bvCZeDgjJ/N1m1ELJfB0VQbJkrdofHbAwZQ=",
+        "originContent": "python3 export-t5.py",
+        "translatedContent": "python3 export-t5.py"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### STDiT Convering",
+    "ContentSha": "F7i7HHPI9BaWIgxsIjYe29H62GXuq5Hj1zbXDUgTxuA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Cubierta STDiT",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1isL30GqHhsxpxTISt/VOxdBUEaVrGb+vvDXCRB000Y=",
+        "originContent": "### STDiT Convering",
+        "translatedContent": "### Cubierta STDiT"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\ncd stdit3\npython3 export-stdit3.py\n```",
+    "ContentSha": "umVugd5jPaGKzIKok7GCWLg/JZrCD9yu1UzBcE+3bck=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncd stdit3\npython3 export-stdit3.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "CkK0uPq+4grCSInp7L+05cqTiiEUcUiN/2j9ZKLw6SU=",
+        "originContent": "cd stdit3",
+        "translatedContent": "cd stdit3"
+      },
+      {
+        "row": 3,
+        "rowsha": "YbCJm1/mtDNEEhQv3Z0sRqwjyxhSkalFroG5vJMa9aE=",
+        "originContent": "python3 export-stdit3.py",
+        "translatedContent": "python3 export-stdit3.py"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### VAE Converting\nWhen you run `export-vae-spatial.py`, There are some error that is `Fatal Python error: PyEval_SaveThread`.\nTo address this error, you should only run one code block for each VAE part. Comment out the rest.\n",
+    "ContentSha": "twC5hjcskU0PCPZtk63MOt5QD6uw2UuSC6Ecere7AqU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Conversión de VAE\nCuando ejecutes `export-vae-spatial.py`, puede aparecer un error que dice `Fatal Python error: PyEval_SaveThread`.\nPara solucionar este error, debes ejecutar solo un bloque de código para cada parte del VAE. Comenta el resto.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "oU7jLd98Rz0S6zcQV/ywdR8R5EI5Ce96+kgSWNkbBrs=",
+        "originContent": "### VAE Converting",
+        "translatedContent": "### Conversión de VAE"
+      },
+      {
+        "row": 3,
+        "rowsha": "O6jHmgPwGwz2dkkmw3MNPTQHAxn2C2wR50nF4wkvPVc=",
+        "originContent": "When you run `export-vae-spatial.py`, There are some error that is `Fatal Python error: PyEval_SaveThread`.",
+        "translatedContent": "Cuando ejecutes `export-vae-spatial.py`, puede aparecer un error que dice `Fatal Python error: PyEval_SaveThread`."
+      },
+      {
+        "row": 4,
+        "rowsha": "Om7thJI0bY1oL/OULiJdpL80UWf9+PI/j7mkaRJYHV4=",
+        "originContent": "To address this error, you should only run one code block for each VAE part. Comment out the rest.",
+        "translatedContent": "Para solucionar este error, debes ejecutar solo un bloque de código para cada parte del VAE. Comenta el resto."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\ncd vae\n\n# for vae's temporal part\npython3 export-vae-temporal.py\n\n# for vae's spatial part\npython3 export-vae-spatial.py\n```",
+    "ContentSha": "Y1nTSf/n/JK0uwkEnqFyFfjl7n6Er70Frd+2HL1fcJk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncd vae\n\n# for vae's temporal part\npython3 export-vae-temporal.py\n\n# for vae's spatial part\npython3 export-vae-spatial.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "OW4k3lH7f+Qfk5r6e3HdusY1u0dBHK+VICECTtfjdwg=",
+        "originContent": "cd vae",
+        "translatedContent": "cd vae"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "nz+CwSZYgwfHSoMiVKuO+O/AUPYdwmI+2PiyES4IQ2U=",
+        "originContent": "# for vae's temporal part",
+        "translatedContent": "# for vae's temporal part"
+      },
+      {
+        "row": 5,
+        "rowsha": "riIrBDOiEZd1O0O7KEuIz4puGimwv3zDSbSCRxJYI/k=",
+        "originContent": "python3 export-vae-temporal.py",
+        "translatedContent": "python3 export-vae-temporal.py"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "1xYujtP0YQnJLFGMuf9fw/yzkSvDyLiq6n5t/r2HNPE=",
+        "originContent": "# for vae's spatial part",
+        "translatedContent": "# for vae's spatial part"
+      },
+      {
+        "row": 8,
+        "rowsha": "vzWtFirgS+8F5IO8yBAL8krX3lN4JXJU//EonIVcsSA=",
+        "originContent": "python3 export-vae-spatial.py",
+        "translatedContent": "python3 export-vae-spatial.py"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## How to Use\n\n### Required\n* Mac device for xcode\n* Apple Account to build and launch the app\n* iPhone: over iPhone 15 pro\n* iOS version: over 18\n* All MLPackage (T5, STDiT, VAE)\n\n### Download converted MLPackage (if you don't want to convert each model to MLPackage)\n\nYou can download and use the converted models from the following link. [[Download](https://drive.google.com/drive/folders/1L6pVi3KmyLygR_pvKofRL-21adKsEb4p?usp=sharing)]\n\n### Run the app\n* Implement xcode project by clicking On-device/On-device-Sora.xcodeproj\n* Change the Team (None -> Your Apple account) in TARGETS/Signing&Capabilities\n* Launch the app\n### Example artifacts\n![On-device-Sora-Example1](https://raw.githubusercontent.com/eai-lab/On-device-Sora/main/./Figures/On-device-Sora-Example1.gif)\n",
+    "ContentSha": "Cf02kiE+zGO7N59EreEE5I19MWISeHQfnAHooQ8Xf00=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Cómo usar\n\n### Requisitos\n* Dispositivo Mac para xcode\n* Cuenta Apple para compilar y lanzar la app\n* iPhone: iPhone 15 pro o superior\n* Versión iOS: 18 o superior\n* Todos los MLPackage (T5, STDiT, VAE)\n\n### Descargar MLPackage convertido (si no quieres convertir cada modelo a MLPackage)\n\nPuedes descargar y usar los modelos convertidos desde el siguiente enlace. [[Descargar](https://drive.google.com/drive/folders/1L6pVi3KmyLygR_pvKofRL-21adKsEb4p?usp=sharing)]\n\n### Ejecutar la app\n* Implementa el proyecto xcode haciendo clic en On-device/On-device-Sora.xcodeproj\n* Cambia el Equipo (Ninguno -> Tu cuenta Apple) en TARGETS/Signing&Capabilities\n* Lanza la app\n### Ejemplo de artefactos\n![On-device-Sora-Example1](https://raw.githubusercontent.com/eai-lab/On-device-Sora/main/./Figures/On-device-Sora-Example1.gif)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yJlGQKI3p2nVYC1uqNa6eKPSIzUW38uRiGu0PspqvUU=",
+        "originContent": "## How to Use",
+        "translatedContent": "## Cómo usar"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "n+o/UskOE36sPdiVrg+g7GE9yRsWOD2QQ147gAiassE=",
+        "originContent": "### Required",
+        "translatedContent": "### Requisitos"
+      },
+      {
+        "row": 5,
+        "rowsha": "HUH+UetsuUukHViF/Yw36AfuG72r9XGcBjl4VY+OZ2s=",
+        "originContent": "* Mac device for xcode",
+        "translatedContent": "* Dispositivo Mac para xcode"
+      },
+      {
+        "row": 6,
+        "rowsha": "6RC0+XorJjnx5DMJ3Z7fypWDLX/Ro6Qr8hLilZc/DOY=",
+        "originContent": "* Apple Account to build and launch the app",
+        "translatedContent": "* Cuenta Apple para compilar y lanzar la app"
+      },
+      {
+        "row": 7,
+        "rowsha": "UBVq0kkVL2q2W8yUolN/R+pfBI2Ngy+ZIV4XIbdn8Ww=",
+        "originContent": "* iPhone: over iPhone 15 pro",
+        "translatedContent": "* iPhone: iPhone 15 pro o superior"
+      },
+      {
+        "row": 8,
+        "rowsha": "zk0m1EdX9hyASU73o02IN7OsvlGe8yOI2Uo6vf6rFM8=",
+        "originContent": "* iOS version: over 18",
+        "translatedContent": "* Versión iOS: 18 o superior"
+      },
+      {
+        "row": 9,
+        "rowsha": "uwWWz5rR3IUpF5QWHxwMzTw0giMf75hSyjsy6tM+Spo=",
+        "originContent": "* All MLPackage (T5, STDiT, VAE)",
+        "translatedContent": "* Todos los MLPackage (T5, STDiT, VAE)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Kphz2mCrgMCgY5Daek5nj+0nbaBItI4jtBGih0vBdm8=",
+        "originContent": "### Download converted MLPackage (if you don't want to convert each model to MLPackage)",
+        "translatedContent": "### Descargar MLPackage convertido (si no quieres convertir cada modelo a MLPackage)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "66PJBeXB+syMrkoPxSNKqpft2a0Q03VXG9NqxZLPfIU=",
+        "originContent": "You can download and use the converted models from the following link. [[Download](https://drive.google.com/drive/folders/1L6pVi3KmyLygR_pvKofRL-21adKsEb4p?usp=sharing)]",
+        "translatedContent": "Puedes descargar y usar los modelos convertidos desde el siguiente enlace. [[Descargar](https://drive.google.com/drive/folders/1L6pVi3KmyLygR_pvKofRL-21adKsEb4p?usp=sharing)]"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "UFh60KPcNqfFYelvSZBOwN3axdjeng/Psb6nNnoVwmg=",
+        "originContent": "### Run the app",
+        "translatedContent": "### Ejecutar la app"
+      },
+      {
+        "row": 16,
+        "rowsha": "2izRPe6GePyUCXTm0oJSIZhDnxLnPII+T5JRw4u7OlM=",
+        "originContent": "* Implement xcode project by clicking On-device/On-device-Sora.xcodeproj",
+        "translatedContent": "* Implementa el proyecto xcode haciendo clic en On-device/On-device-Sora.xcodeproj"
+      },
+      {
+        "row": 17,
+        "rowsha": "GV0nXEjLZqH8CFgsi54Pb0W8hPDcyNtAM0ESYrxMBEE=",
+        "originContent": "* Change the Team (None -> Your Apple account) in TARGETS/Signing&Capabilities",
+        "translatedContent": "* Cambia el Equipo (Ninguno -> Tu cuenta Apple) en TARGETS/Signing&Capabilities"
+      },
+      {
+        "row": 18,
+        "rowsha": "56DeIJrTW7cSYhhSHE9zOEwnfegPBsXJ6ha5DA0RHL8=",
+        "originContent": "* Launch the app",
+        "translatedContent": "* Lanza la app"
+      },
+      {
+        "row": 19,
+        "rowsha": "qX4+gEctLtzlHg/v0EsIEc7Bk33l+7z6ruQ+ngR/zQw=",
+        "originContent": "### Example artifacts",
+        "translatedContent": "### Ejemplo de artefactos"
+      },
+      {
+        "row": 20,
+        "rowsha": "J1PYr+TpbjXesCdfUig/myLfMYxYWGCFWJmmNIBYj2Y=",
+        "originContent": "![On-device-Sora-Example1](https://raw.githubusercontent.com/eai-lab/On-device-Sora/main/./Figures/On-device-Sora-Example1.gif)",
+        "translatedContent": "![On-device-Sora-Example1](https://raw.githubusercontent.com/eai-lab/On-device-Sora/main/./Figures/On-device-Sora-Example1.gif)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

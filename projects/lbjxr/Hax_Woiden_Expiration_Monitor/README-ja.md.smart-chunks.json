@@ -1,0 +1,819 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Telegram Bot + HAX 数据监控脚本\n\n这是一个用于 Telegram Bot 管理和 HAX.CO.ID 数据中心监控的组合型项目，支持 **Docker 部署** 和 **服务器后台运行** 两种模式。\n项目原始代码是tg群友（名字ez ez）提供的（大佬，有什么问题请私聊我，考虑个人隐私暂不贴出来大佬tg账号），直接运行报错，我利用chatgpt修改和完善了一下，目前运行正常。\n\n---\n\n## 📦 功能简介\n\n- 🤖 `bot.py`：一个使用 `python-telegram-bot` 实现的 Telegram Bot，支持交互式功能（如按钮、命令、回调）。\n- 📡 `hax.py`：每 60 秒抓取 [https://hax.co.id/data-center/](https://hax.co.id/data-center/) 数据中心状态，。\n- 🔁 支持后台自动运行（适配 Linux VPS）\n- 🐳 提供 Docker 镜像构建脚本\n- 📜 自动检查并安装 Python3 环境（服务器模式）\n\n---\n\n\n## 📂 项目结构\n",
+    "ContentSha": "tsn5BYXmziNqul29v96GZ+CKLrHHhm44BprQ7EP+y8g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Telegram Bot + HAX データ監視スクリプト\n\nこれは Telegram Bot 管理と HAX.CO.ID データセンター監視の統合プロジェクトで、**Docker デプロイ** と **サーバーバックグラウンド実行** の両モードをサポートします。  \nプロジェクトの元コードはtgグループの友人（名前は ez ez）から提供されました（作者、問題があれば個別に連絡してください。プライバシー保護のため、作者のtgアカウントはここに記載していません）、直接実行するとエラーが出たため、chatgptで修正・改善し、現在は正常に動作しています。\n\n---\n\n## 📦 機能概要\n\n- 🤖 `bot.py`：`python-telegram-bot` を使って実装された Telegram Bot。ボタンやコマンド、コールバックなどの対話機能をサポート。\n- 📡 `hax.py`：60秒ごとに [https://hax.co.id/data-center/](https://hax.co.id/data-center/) のデータセンターの状態を取得。\n- 🔁 バックグラウンドでの自動実行をサポート（Linux VPS対応）\n- 🐳 Dockerイメージ構築スクリプトを提供\n- 📜 Python3環境の自動チェックおよびインストール（サーバーモード）\n\n---\n\n\n## 📂 プロジェクト構成\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "eDSZ1RRudIJ43GTe0sd/Ybi7/qyGSZzJF+HGE/81sOU=",
+        "originContent": "# Telegram Bot + HAX 数据监控脚本",
+        "translatedContent": "# Telegram Bot + HAX データ監視スクリプト"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "VQ9mNl7EpNnmQ/930unbqBdY3VPStUMKEGkEFuO01M0=",
+        "originContent": "这是一个用于 Telegram Bot 管理和 HAX.CO.ID 数据中心监控的组合型项目，支持 **Docker 部署** 和 **服务器后台运行** 两种模式。",
+        "translatedContent": "これは Telegram Bot 管理と HAX.CO.ID データセンター監視の統合プロジェクトで、**Docker デプロイ** と **サーバーバックグラウンド実行** の両モードをサポートします。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "FwhXmsy+jZ4wNGPRBxw+zb4/ReatsWNuBILX9Xa4Rq8=",
+        "originContent": "项目原始代码是tg群友（名字ez ez）提供的（大佬，有什么问题请私聊我，考虑个人隐私暂不贴出来大佬tg账号），直接运行报错，我利用chatgpt修改和完善了一下，目前运行正常。",
+        "translatedContent": "プロジェクトの元コードはtgグループの友人（名前は ez ez）から提供されました（作者、問題があれば個別に連絡してください。プライバシー保護のため、作者のtgアカウントはここに記載していません）、直接実行するとエラーが出たため、chatgptで修正・改善し、現在は正常に動作しています。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "EDo6Ufx75Z87UsqyMNdyc2m3fwZaB+wBruVAQ8Pqzx4=",
+        "originContent": "## 📦 功能简介",
+        "translatedContent": "## 📦 機能概要"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "GWLNMzuF0agth1N79CBX33to71h1jXPOjrADEiGn8V8=",
+        "originContent": "- 🤖 `bot.py`：一个使用 `python-telegram-bot` 实现的 Telegram Bot，支持交互式功能（如按钮、命令、回调）。",
+        "translatedContent": "- 🤖 `bot.py`：`python-telegram-bot` を使って実装された Telegram Bot。ボタンやコマンド、コールバックなどの対話機能をサポート。"
+      },
+      {
+        "row": 11,
+        "rowsha": "jfoMvxb89q9q4u1AXny7qcvplkITfzjz6Ls13kwxzQo=",
+        "originContent": "- 📡 `hax.py`：每 60 秒抓取 [https://hax.co.id/data-center/](https://hax.co.id/data-center/) 数据中心状态，。",
+        "translatedContent": "- 📡 `hax.py`：60秒ごとに [https://hax.co.id/data-center/](https://hax.co.id/data-center/) のデータセンターの状態を取得。"
+      },
+      {
+        "row": 12,
+        "rowsha": "UgRjw4ehKWbtsBRDoNIH5CP0m4fcH3P2Dm5Okm/m4dA=",
+        "originContent": "- 🔁 支持后台自动运行（适配 Linux VPS）",
+        "translatedContent": "- 🔁 バックグラウンドでの自動実行をサポート（Linux VPS対応）"
+      },
+      {
+        "row": 13,
+        "rowsha": "mlHA8V95e+pX/gDxllLOBuB5NUHHFSxHIzJfsNFyyr8=",
+        "originContent": "- 🐳 提供 Docker 镜像构建脚本",
+        "translatedContent": "- 🐳 Dockerイメージ構築スクリプトを提供"
+      },
+      {
+        "row": 14,
+        "rowsha": "PARhQ1uIuthe6OMBWULkhHzMZPIUi5TlrjMCOKE5/Ko=",
+        "originContent": "- 📜 自动检查并安装 Python3 环境（服务器模式）",
+        "translatedContent": "- 📜 Python3環境の自動チェックおよびインストール（サーバーモード）"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "0G1hf8W9lZzNvc+B095RJQw9uxX9+6rRKUWxbDmMPso=",
+        "originContent": "## 📂 项目结构",
+        "translatedContent": "## 📂 プロジェクト構成"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\nproject/                 # 自行创建一个文件夹存放项目文件，名称随意，英文命名\n├── bot.py               # Telegram Bot 主程序\n├── hax.py               # HAX 数据中心监控脚本\n├── requirements.txt     # 所有依赖声明\n├── Dockerfile           # Docker 镜像定义\n├── run_docker.sh        # 一键 Docker 构建 + 启动脚本\n├── run_server.sh        # 一键后台运行（非 Docker）\n└── logs/                # 自动生成日志文件目录\n```",
+    "ContentSha": "s9nUh5c4uUAYxV8HCiPLStjtb+CEGe2zF4eaVq2KWKE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nproject/                 # 自行创建一个文件夹存放项目文件，名称随意，英文命名\n├── bot.py               # Telegram Bot 主程序\n├── hax.py               # HAX 数据中心监控脚本\n├── requirements.txt     # 所有依赖声明\n├── Dockerfile           # Docker 镜像定义\n├── run_docker.sh        # 一键 Docker 构建 + 启动脚本\n├── run_server.sh        # 一键后台运行（非 Docker）\n└── logs/                # 自动生成日志文件目录\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "MI4jHvzS2Fp9YsmzmnrtfvcoTRCatXMn+N3FunOoiUY=",
+        "originContent": "project/                 # 自行创建一个文件夹存放项目文件，名称随意，英文命名",
+        "translatedContent": "project/                 # 自行创建一个文件夹存放项目文件，名称随意，英文命名"
+      },
+      {
+        "row": 3,
+        "rowsha": "GJQCHGF358Dpa54P71IctcTD06p6nP2kXkv/+UWQirk=",
+        "originContent": "├── bot.py               # Telegram Bot 主程序",
+        "translatedContent": "├── bot.py               # Telegram Bot 主程序"
+      },
+      {
+        "row": 4,
+        "rowsha": "TgMwhHXUaSXRvSxvSgQiTrmMb/ORem3UjgoqH3XZCtA=",
+        "originContent": "├── hax.py               # HAX 数据中心监控脚本",
+        "translatedContent": "├── hax.py               # HAX 数据中心监控脚本"
+      },
+      {
+        "row": 5,
+        "rowsha": "K04lQ/qJ0+wRL/IfTiuaZZCwPqM2SmDh7d+lmjrodFk=",
+        "originContent": "├── requirements.txt     # 所有依赖声明",
+        "translatedContent": "├── requirements.txt     # 所有依赖声明"
+      },
+      {
+        "row": 6,
+        "rowsha": "T3zFgFMH9uWUWN8gzvZQwUruMLJAUkauhmp6EZoumQg=",
+        "originContent": "├── Dockerfile           # Docker 镜像定义",
+        "translatedContent": "├── Dockerfile           # Docker 镜像定义"
+      },
+      {
+        "row": 7,
+        "rowsha": "vlWtx8MVJnDqDbAp2FY917rWyNsB+SQbbF9iSj10DVQ=",
+        "originContent": "├── run_docker.sh        # 一键 Docker 构建 + 启动脚本",
+        "translatedContent": "├── run_docker.sh        # 一键 Docker 构建 + 启动脚本"
+      },
+      {
+        "row": 8,
+        "rowsha": "bQZRZbvWMwbyqx8aRfqQa7SvMIUZN2rAyQ/NICd0XYw=",
+        "originContent": "├── run_server.sh        # 一键后台运行（非 Docker）",
+        "translatedContent": "├── run_server.sh        # 一键后台运行（非 Docker）"
+      },
+      {
+        "row": 9,
+        "rowsha": "uMvU11CkXTS8/aWP5DjUbyhxhfHk7yTJJ6XYowaWE78=",
+        "originContent": "└── logs/                # 自动生成日志文件目录",
+        "translatedContent": "└── logs/                # 自动生成日志文件目录"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n\n## 🖥️ 运行方式一：普通服务器后台运行\n\n### ✅ 前提\n\n- 适用于 Ubuntu / Debian / CentOS 等主流服务器\n- Python 3 环境（可自动安装）\n\n### ▶️ 一键运行\n",
+    "ContentSha": "dAKXHm0vvAqceiow9H/lgrMTQpaYw7AZMRsCWRFhYMg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🖥️ 実行方法１：通常サーバーのバックグラウンド実行\n\n### ✅ 前提条件\n\n- Ubuntu / Debian / CentOS などの主要サーバーに対応\n- Python 3 環境（自動インストール可能）\n\n### ▶️ ワンクリック実行\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🖥️ 実行方法１：通常サーバーのバックグラウンド実行"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "M7yKPw11GxSV/dipcpzTI/n2MeLkREccWneInudhH/E=",
+        "originContent": "## 🖥️ 运行方式一：普通服务器后台运行",
+        "translatedContent": "### ✅ 前提条件"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "YJeMpzlvHy30rptOA4BSPqR3OSwpzrxkXsOYnwStmyM=",
+        "originContent": "### ✅ 前提",
+        "translatedContent": "- Ubuntu / Debian / CentOS などの主要サーバーに対応"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Python 3 環境（自動インストール可能）"
+      },
+      {
+        "row": 7,
+        "rowsha": "rjjD8ZZCIkHgesyLwUuH3Ha4+GA4QHiFfTuFMHKdkJU=",
+        "originContent": "- 适用于 Ubuntu / Debian / CentOS 等主流服务器",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "f4lW3jjgEonY5Pw9PVR6QenEwMsiYtkjyc5TIhZ/BGQ=",
+        "originContent": "- Python 3 环境（可自动安装）",
+        "translatedContent": "### ▶️ ワンクリック実行"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "UguNzEITXgla511cPOaK3SWZk/q/5MHUKjGj2Kh/RMg=",
+        "originContent": "### ▶️ 一键运行",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nchmod +x run_server.sh\n./run_server.sh\n```",
+    "ContentSha": "dhZbIz7OPTgOZFd/mn2hBcYyNieHX4FRdQT3GkEHINA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nchmod +x run_server.sh\n./run_server.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "bFoorQpOwaeVEF1Fd+BM7+sTYJ/BG2UGEI1UBwZ4eEE=",
+        "originContent": "chmod +x run_server.sh",
+        "translatedContent": "chmod +x run_server.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "NRAloKXA/+EWkdkuxmNyKbIdttS1ajmJd4bpqw5OioI=",
+        "originContent": "./run_server.sh",
+        "translatedContent": "./run_server.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n首次运行将：\n\n- 检查系统是否安装 `python3` / `pip3`\n- 自动安装 `requirements.txt` 依赖\n- 启动你选择的脚本于后台（使用 `nohup`）\n- 输出日志至 `logs/` 目录\n\n### 📄 查看日志\n",
+    "ContentSha": "b9UM4W9ThRLXUQlwHpAqYl9vSUgi4EYztV+BAvGcVUk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n初回実行時に以下を行います：\n\n- システムに `python3` / `pip3` がインストールされているか確認します\n- `requirements.txt` の依存関係を自動的にインストールします\n- 選択したスクリプトをバックグラウンドで起動します（`nohup` を使用）\n- ログを `logs/` ディレクトリに出力します\n\n### 📄 ログを見る\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "DxDW2aorcTU3MkcT8ry3M0rE1zQ5aTjfDtwM9NYxks0=",
+        "originContent": "首次运行将：",
+        "translatedContent": "初回実行時に以下を行います："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yENoe6QmwHhIUAO8NtAia0Ko2qVqH9PQKdGp2Bcwuos=",
+        "originContent": "- 检查系统是否安装 `python3` / `pip3`",
+        "translatedContent": "- システムに `python3` / `pip3` がインストールされているか確認します"
+      },
+      {
+        "row": 5,
+        "rowsha": "cVPd6UaL5sQZKiCyQGZcoVVLN2CS9ZBvfbvPFT66Xq8=",
+        "originContent": "- 自动安装 `requirements.txt` 依赖",
+        "translatedContent": "- `requirements.txt` の依存関係を自動的にインストールします"
+      },
+      {
+        "row": 6,
+        "rowsha": "lFGADQXVocuYgnT7DhD83Bev58YGTIXJ+tqJMSCaqTs=",
+        "originContent": "- 启动你选择的脚本于后台（使用 `nohup`）",
+        "translatedContent": "- 選択したスクリプトをバックグラウンドで起動します（`nohup` を使用）"
+      },
+      {
+        "row": 7,
+        "rowsha": "6TVIyNLLpe18ag4qq7pa+jAbkZcailAbV9tkGhcNcv8=",
+        "originContent": "- 输出日志至 `logs/` 目录",
+        "translatedContent": "- ログを `logs/` ディレクトリに出力します"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "BAuxtz+eF8+YHnlhLIjuPkkJjz51ak4DItMDdevVPbo=",
+        "originContent": "### 📄 查看日志",
+        "translatedContent": "### 📄 ログを見る"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\ntail -f logs/bot.log     # 查看 Telegram Bot 日志\ntail -f logs/hax.log     # 查看 HAX 监控日志\n```",
+    "ContentSha": "MJDnkuRwszp/sqr/95HcUvRjT8a8RJNRJNR7gLTa2Qo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ntail -f logs/bot.log     # 查看 Telegram Bot 日志\ntail -f logs/hax.log     # 查看 HAX 监控日志\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "0ape/4XEaTI7HC3A8+oRAaSX6ZMaMCz94k8kBHiZQ9I=",
+        "originContent": "tail -f logs/bot.log     # 查看 Telegram Bot 日志",
+        "translatedContent": "tail -f logs/bot.log     # 查看 Telegram Bot 日志"
+      },
+      {
+        "row": 3,
+        "rowsha": "DKDUp3hNG1rNoWdUo6JUfk1p5aJL33kdycNP16BJZjk=",
+        "originContent": "tail -f logs/hax.log     # 查看 HAX 监控日志",
+        "translatedContent": "tail -f logs/hax.log     # 查看 HAX 监控日志"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### ❌ 停止进程\n",
+    "ContentSha": "LQB74Wy8HrTYictovwAwEA1yEUeaRz4i0Rre5ouCCck=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### ❌ プロセスの停止\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ❌ プロセスの停止"
+      },
+      {
+        "row": 2,
+        "rowsha": "mfFu8BTf1fwAPXBdkBrpuYsXna6k7tsDU77IWi/Si/k=",
+        "originContent": "### ❌ 停止进程",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\npkill -f bot.py\npkill -f hax.py\n```",
+    "ContentSha": "A8yD+nvAfWED2tSeDEOxSC8DpPlFexLbMmwXrtiG5xY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npkill -f bot.py\npkill -f hax.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "gmrDnLwzIMG8sEmoDVhYWB3D+hA+5gMz/tWqvv342Ko=",
+        "originContent": "pkill -f bot.py",
+        "translatedContent": "pkill -f bot.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "bI20IDjPQ5byrfieChGdnVn2ghnqrUtHl84ptaUB+to=",
+        "originContent": "pkill -f hax.py",
+        "translatedContent": "pkill -f hax.py"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n---\n\n## 🐳 运行方式二：Docker 模式\n\n### 🔧 构建镜像并运行\n",
+    "ContentSha": "LDGzn5ccYld5IjQMlwDBcg43ArpakyFJxPJHsiwA4ZI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 🐳 运行方式二：Docker 模式\n\n### 🔧 构建镜像并运行\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Ulm20eRCTo3RggLDHgtgapxFiZc/T4WYGkv1P+KM+NU=",
+        "originContent": "## 🐳 运行方式二：Docker 模式",
+        "translatedContent": "## 🐳 运行方式二：Docker 模式"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "rQk24aJhYgms0CavNyJ2MdlYpvMsTNY0IgjKxggehuo=",
+        "originContent": "### 🔧 构建镜像并运行",
+        "translatedContent": "### 🔧 构建镜像并运行"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\nchmod +x run_docker.sh\n./run_docker.sh\n```",
+    "ContentSha": "VTvius56yo50UmUGWxA9BPWYETUxfFyFpTXgF8+T/OE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nchmod +x run_docker.sh\n./run_docker.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "5EW0O47ZagDW+rJa9nQT8PSAH9erFUSlWBPnV0v/8oY=",
+        "originContent": "chmod +x run_docker.sh",
+        "translatedContent": "chmod +x run_docker.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "LNLnVroF6s/HHj3YN5HTU7+N5Mcv28HHUwt6P1rGmj0=",
+        "originContent": "./run_docker.sh",
+        "translatedContent": "./run_docker.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n你可以选择运行：\n\n- `bot.py`（Telegram Bot）\n- `hax.py`（HAX 监控）\n- '同时启动 bot.py 和 hax.py 脚本...'\n- 任意一个都可在容器中独立运行\n\n---\n\n---\n\n## 📌 依赖库\n\n- `requests`\n- `beautifulsoup4`\n- `lxml`\n- `python-telegram-bot[job-queue]>=20.0`\n\n安装方式：\n",
+    "ContentSha": "e2eM3RxO1/iIN/QxsQDNa1fH2kKpkmgQ8OhkS13PIIw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nあなたは次のいずれかを実行できます：\n\n- `bot.py`（Telegramボット）\n- `hax.py`（HAX監視）\n- 'bot.py と hax.py の両方のスクリプトを同時に起動...'\n- どれでもコンテナ内で独立して実行可能\n\n---\n\n---\n\n## 📌 依存ライブラリ\n\n- `requests`\n- `beautifulsoup4`\n- `lxml`\n- `python-telegram-bot[job-queue]>=20.0`\n\nインストール方法：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "nd/c9kVGGBCNcsb6ZLL766+kc9k06W3MOJj6kLsM13I=",
+        "originContent": "你可以选择运行：",
+        "translatedContent": "あなたは次のいずれかを実行できます："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "hcEEm5ysASzmtv3CNDkbdc22XOuq4tyRQlC0LC4ysPQ=",
+        "originContent": "- `bot.py`（Telegram Bot）",
+        "translatedContent": "- `bot.py`（Telegramボット）"
+      },
+      {
+        "row": 5,
+        "rowsha": "902QN0YiSE0H/Fj9RlWIcIYG6WjaRzN44dpYGnf8EU4=",
+        "originContent": "- `hax.py`（HAX 监控）",
+        "translatedContent": "- `hax.py`（HAX監視）"
+      },
+      {
+        "row": 6,
+        "rowsha": "8decbY+VfaE61d+1bvKvlAsIC/Fx9J+fj3I/oEPXN2I=",
+        "originContent": "- '同时启动 bot.py 和 hax.py 脚本...'",
+        "translatedContent": "- 'bot.py と hax.py の両方のスクリプトを同時に起動...'"
+      },
+      {
+        "row": 7,
+        "rowsha": "MaacHTtPOpll+wLGdBP6Tk2eA3mscg+HB5GjOVAiGb0=",
+        "originContent": "- 任意一个都可在容器中独立运行",
+        "translatedContent": "- どれでもコンテナ内で独立して実行可能"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "6tXxww09Vful+bOfYGyRiYhQzSGfpw/FWkuVSn4STf4=",
+        "originContent": "## 📌 依赖库",
+        "translatedContent": "## 📌 依存ライブラリ"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "81/undg1kse/YicVc3FpA1KAfKi7ulug9JWQszgfKdE=",
+        "originContent": "- `requests`",
+        "translatedContent": "- `requests`"
+      },
+      {
+        "row": 16,
+        "rowsha": "NElE0gz0EHA5MCl2TKcXQUGFBjesmqjdYNDUOOgGzeI=",
+        "originContent": "- `beautifulsoup4`",
+        "translatedContent": "- `beautifulsoup4`"
+      },
+      {
+        "row": 17,
+        "rowsha": "M0txz3UZ1zkABFH8c/rWffQ2Z7yjSPgFiX8iBeEj7wg=",
+        "originContent": "- `lxml`",
+        "translatedContent": "- `lxml`"
+      },
+      {
+        "row": 18,
+        "rowsha": "1EF+A4LAtmVMNp+VvDFNU18IMdOsXJpEFGKFBe7WRGI=",
+        "originContent": "- `python-telegram-bot[job-queue]>=20.0`",
+        "translatedContent": "- `python-telegram-bot[job-queue]>=20.0`"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "VipfhMbHCIVIypHxVbQd6HYWb21VoD314mJeCdLlEmI=",
+        "originContent": "安装方式：",
+        "translatedContent": "インストール方法："
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\npip install -r requirements.txt\n```",
+    "ContentSha": "TxMa9uJC0PmBOnm3/TRl4YDLNvSwCWaRNjyXpFhndHU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n---\n\n## 📬 联系方式\n\n欢迎 issue 或 PR，有建议请提！随缘回复\n",
+    "ContentSha": "EXkWrxuT+nr/Q+GHtVm95j0lJDOooQb9cpXT+iMBUxo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 📬 联系方式\n\n欢迎 issue 或 PR，有建议请提！随缘回复\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ybvGlKFIDX9pEL4oT6pqpsaYSQZR/IJH5lbzHPJLJH4=",
+        "originContent": "## 📬 联系方式",
+        "translatedContent": "## 📬 联系方式"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "YbqP4r/qSi5uYsNGo33jWUcYyxwawuSPR8CZ/wrX+Ng=",
+        "originContent": "欢迎 issue 或 PR，有建议请提！随缘回复",
+        "translatedContent": "欢迎 issue 或 PR，有建议请提！随缘回复"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
