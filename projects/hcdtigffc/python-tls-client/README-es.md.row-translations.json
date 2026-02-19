@@ -1,0 +1,788 @@
+[
+  {
+    "row": 1,
+    "rowsha": "zxWIc3R4keOjO03AMQO0hKt8iiXtoLhh2zLwbRFt33E=",
+    "originContent": "# Python-TLS-Client",
+    "translatedContent": "# Python-TLS-Client"
+  },
+  {
+    "row": 2,
+    "rowsha": "SxsWlwEz2Mg3JDnTt/17yT0J+jTzczRBMoQKTI39sxk=",
+    "originContent": "Python-TLS-Client is an advanced HTTP library based on requests and tls-client.",
+    "translatedContent": "Python-TLS-Client es una biblioteca HTTP avanzada basada en requests y tls-client."
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "oEvHgiQZPffZY71LXkD7wBebC/0+TjyYxWZNyVCJCpU=",
+    "originContent": "# Installation",
+    "translatedContent": "# Instalación"
+  },
+  {
+    "row": 5,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 6,
+    "rowsha": "7EaCFSNa3F5StJmlIQoP48dr+m19349KoxoJW/qmftU=",
+    "originContent": "pip install tls-client",
+    "translatedContent": "pip install tls-client"
+  },
+  {
+    "row": 7,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "QRzcQigYV+R2VwW2ijMnxeHu/2trsZO3XiVZjkwvogM=",
+    "originContent": "# Examples",
+    "translatedContent": "# Ejemplos"
+  },
+  {
+    "row": 10,
+    "rowsha": "YlPsPKgh1afC9jj08hyf0eIgBU+Hsa0dLPhRjs9KmpY=",
+    "originContent": "The syntax is inspired by [requests](https://github.com/psf/requests), so its very similar and there are only very few things that are different.",
+    "translatedContent": "La sintaxis está inspirada en [requests](https://github.com/psf/requests), por lo que es muy similar y hay muy pocas cosas que son diferentes."
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "5sVkMYfvAsCzcyoxU5Z+MRfG28ghtqmcXJ2bkbI/rIE=",
+    "originContent": "Example 1 - Preset:",
+    "translatedContent": "Ejemplo 1 - Preajuste:"
+  },
+  {
+    "row": 13,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 14,
+    "rowsha": "bMwXCx9tgsFWWkLCIVyCNiDHT7VTA8K91fOYLKWzJSU=",
+    "originContent": "import tls_client",
+    "translatedContent": "import tls_client"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "Rfp/P+lRuVMtsMGvmA9vpT5zruMpQwRbge4dGiHUlR4=",
+    "originContent": "# You can also use the following as `client_identifier`:",
+    "translatedContent": "# You can also use the following as `client_identifier`:"
+  },
+  {
+    "row": 17,
+    "rowsha": "naqDDPp2FEfsbd3gl5BK+dwrDbXrD5nOYcI+2ZnpMQ8=",
+    "originContent": "# Chrome --> chrome_103, chrome_104, chrome_105, chrome_106, chrome_107, chrome_108, chrome109, Chrome110,",
+    "translatedContent": "# Chrome --> chrome_103, chrome_104, chrome_105, chrome_106, chrome_107, chrome_108, chrome109, Chrome110,"
+  },
+  {
+    "row": 18,
+    "rowsha": "nhvbKVE+U1Tk5X5wigCl/yIccifmUSrjzEJXx81p0BU=",
+    "originContent": "#            chrome111, chrome112, chrome_116_PSK, chrome_116_PSK_PQ, chrome_117, chrome_120",
+    "translatedContent": "#            chrome111, chrome112, chrome_116_PSK, chrome_116_PSK_PQ, chrome_117, chrome_120"
+  },
+  {
+    "row": 19,
+    "rowsha": "KTyru6ydT41oCSlAAvufiA6Clgl8Ldr1BiqQXTocLHU=",
+    "originContent": "# Firefox --> firefox_102, firefox_104, firefox108, Firefox110, firefox_117, firefox_120",
+    "translatedContent": "# Firefox --> firefox_102, firefox_104, firefox108, Firefox110, firefox_117, firefox_120"
+  },
+  {
+    "row": 20,
+    "rowsha": "005Zghlp9i2LDYrHVkrP3MujgB433yS3Cz8e2t4NZz4=",
+    "originContent": "# Opera --> opera_89, opera_90",
+    "translatedContent": "# Opera --> opera_89, opera_90"
+  },
+  {
+    "row": 21,
+    "rowsha": "0Ae8wFlYYp+eHLfQNE4Ybb4t03qWiM7N/Tr8AiZrUfg=",
+    "originContent": "# Safari --> safari_15_3, safari_15_6_1, safari_16_0",
+    "translatedContent": "# Safari --> safari_15_3, safari_15_6_1, safari_16_0"
+  },
+  {
+    "row": 22,
+    "rowsha": "nd/ys67dovd3txDh4bjoiBu7Ro4+gPKFAYCH80tdjko=",
+    "originContent": "# iOS --> safari_ios_15_5, safari_ios_15_6, safari_ios_16_0",
+    "translatedContent": "# iOS --> safari_ios_15_5, safari_ios_15_6, safari_ios_16_0"
+  },
+  {
+    "row": 23,
+    "rowsha": "remYcqTqi5mvSHnBTO0Jak1tw1jGhcBZWMlG3AdR+AA=",
+    "originContent": "# iPadOS --> safari_ios_15_6",
+    "translatedContent": "# iPadOS --> safari_ios_15_6"
+  },
+  {
+    "row": 24,
+    "rowsha": "BIev12jymwoKuEfb2LKSJU0L72ecilIkuOiB8tUnp4c=",
+    "originContent": "# Android --> okhttp4_android_7, okhttp4_android_8, okhttp4_android_9, okhttp4_android_10, okhttp4_android_11,",
+    "translatedContent": "# Android --> okhttp4_android_7, okhttp4_android_8, okhttp4_android_9, okhttp4_android_10, okhttp4_android_11,"
+  },
+  {
+    "row": 25,
+    "rowsha": "EPi5NKTc5mWn293k8R5wzL/qgfWSeL7KkKH5zwQEMc0=",
+    "originContent": "#             okhttp4_android_12, okhttp4_android_13",
+    "translatedContent": "#             okhttp4_android_12, okhttp4_android_13"
+  },
+  {
+    "row": 26,
+    "rowsha": "M0NZuQ7+112l8K2h1eayVvSmvQrufrOcD5AYKgIf/Is=",
+    "originContent": "#",
+    "translatedContent": "#"
+  },
+  {
+    "row": 27,
+    "rowsha": "ZvcRRo3ohSHszPw7LoyJEK2R3WtSpF89IjE68arHLic=",
+    "originContent": "# more client identifiers can be found in settings.py",
+    "translatedContent": "# more client identifiers can be found in settings.py"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "VYGv8otKDys9IPauXTwxQugOkkkVsFIZJD5AFPENm7E=",
+    "originContent": "session = tls_client.Session(",
+    "translatedContent": "session = tls_client.Session("
+  },
+  {
+    "row": 30,
+    "rowsha": "kdVEF2qmlemeY6QtCnLoBFYJi1h5UPGlhOGzCOK3sAE=",
+    "originContent": "    client_identifier=\"chrome112\",",
+    "translatedContent": "    client_identifier=\"chrome112\","
+  },
+  {
+    "row": 31,
+    "rowsha": "cLjmD7YoxqzYuklrFkV45713fnF9sFOsabxCjFo5UZ8=",
+    "originContent": "    random_tls_extension_order=True",
+    "translatedContent": "    random_tls_extension_order=True"
+  },
+  {
+    "row": 32,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "m0YJ4ki7C28gGMmmHB4nysBWijapbl41EGBlQiK9r3M=",
+    "originContent": "res = session.get(",
+    "translatedContent": "res = session.get("
+  },
+  {
+    "row": 35,
+    "rowsha": "REMoe4IlMDAYJws8XbVGn7B5ljks353U3BL3FY2YvXg=",
+    "originContent": "    \"https://www.example.com/\",",
+    "translatedContent": "    \"https://www.example.com/\","
+  },
+  {
+    "row": 36,
+    "rowsha": "NEW3Bzeru3lE6XQe/O0NLLWw6hZ9I3HU2pxrnL+ERXQ=",
+    "originContent": "    headers={",
+    "translatedContent": "    headers={"
+  },
+  {
+    "row": 37,
+    "rowsha": "VFjAdU1fBrushgcMUnRRDA0QYrZ5Lajcp4nlR7uuNuM=",
+    "originContent": "        \"key1\": \"value1\",",
+    "translatedContent": "        \"key1\": \"value1\","
+  },
+  {
+    "row": 38,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 39,
+    "rowsha": "BcqzWCN2y9cPHVw4MMFWb8xNVeZ1CGoweBCdGXGXc0w=",
+    "originContent": "    proxy=\"http://user:password@host:port\"",
+    "translatedContent": "    proxy=\"http://user:password@host:port\""
+  },
+  {
+    "row": 40,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 41,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "jqKagkD42V7Dz8dYBpbMZxlXgQkk9Hvtg+/nJLrEJ98=",
+    "originContent": "Example 2 - Custom:",
+    "translatedContent": "Ejemplo 2 - Personalizado:"
+  },
+  {
+    "row": 44,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 45,
+    "rowsha": "bMwXCx9tgsFWWkLCIVyCNiDHT7VTA8K91fOYLKWzJSU=",
+    "originContent": "import tls_client",
+    "translatedContent": "import tls_client"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "VYGv8otKDys9IPauXTwxQugOkkkVsFIZJD5AFPENm7E=",
+    "originContent": "session = tls_client.Session(",
+    "translatedContent": "session = tls_client.Session("
+  },
+  {
+    "row": 48,
+    "rowsha": "FoFLYArSmfREHiQ6wDCyiM57Wy6BvjhvTXmHKX680xw=",
+    "originContent": "    ja3_string=\"771,4865-4866-4867-49195-49199-49196-49200-52393-52392-49171-49172-156-157-47-53,0-23-65281-10-11-35-16-5-13-18-51-45-43-27-17513,29-23-24,0\",",
+    "translatedContent": "    ja3_string=\"771,4865-4866-4867-49195-49199-49196-49200-52393-52392-49171-49172-156-157-47-53,0-23-65281-10-11-35-16-5-13-18-51-45-43-27-17513,29-23-24,0\","
+  },
+  {
+    "row": 49,
+    "rowsha": "T783QqSHI6kjafU+tkTsaK/SZX2cdlfjGU/veoLbD7o=",
+    "originContent": "    h2_settings={",
+    "translatedContent": "    h2_settings={"
+  },
+  {
+    "row": 50,
+    "rowsha": "cfJ8zpdyxen8L8Rwyot5Ei9/Lly9dU06rxRlf+N1fyE=",
+    "originContent": "        \"HEADER_TABLE_SIZE\": 65536,",
+    "translatedContent": "        \"HEADER_TABLE_SIZE\": 65536,"
+  },
+  {
+    "row": 51,
+    "rowsha": "qlkAF2K+qErqvIE97hUUaq0nAp/Oj74ITwZh0U5EwpM=",
+    "originContent": "        \"MAX_CONCURRENT_STREAMS\": 1000,",
+    "translatedContent": "        \"MAX_CONCURRENT_STREAMS\": 1000,"
+  },
+  {
+    "row": 52,
+    "rowsha": "PRqNRB/okw25Tg8Ft+uSYgH51eGMikCeLgPW576De04=",
+    "originContent": "        \"INITIAL_WINDOW_SIZE\": 6291456,",
+    "translatedContent": "        \"INITIAL_WINDOW_SIZE\": 6291456,"
+  },
+  {
+    "row": 53,
+    "rowsha": "Af39FP8sdaNthdcSZaeV4Y4p1A309zXwubGOaehkaBo=",
+    "originContent": "        \"MAX_HEADER_LIST_SIZE\": 262144",
+    "translatedContent": "        \"MAX_HEADER_LIST_SIZE\": 262144"
+  },
+  {
+    "row": 54,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 55,
+    "rowsha": "Ngf87PqDvK7ceq1jfn+DyTAmOgRKa1RUk2YEz6MFVrw=",
+    "originContent": "    h2_settings_order=[",
+    "translatedContent": "    h2_settings_order=["
+  },
+  {
+    "row": 56,
+    "rowsha": "avS5rUkMSM5DifqSJOadoXVpvUT0BBFhK+f0kzI1MtI=",
+    "originContent": "        \"HEADER_TABLE_SIZE\",",
+    "translatedContent": "        \"HEADER_TABLE_SIZE\","
+  },
+  {
+    "row": 57,
+    "rowsha": "5jBzqIfeh57TEQP1W74DNjNBXbCtuqt6gKtFK9DIeBQ=",
+    "originContent": "        \"MAX_CONCURRENT_STREAMS\",",
+    "translatedContent": "        \"MAX_CONCURRENT_STREAMS\","
+  },
+  {
+    "row": 58,
+    "rowsha": "QXjCGjlyDEzErjflI0a711Gc4YnWdb4+UIg985jkrzU=",
+    "originContent": "        \"INITIAL_WINDOW_SIZE\",",
+    "translatedContent": "        \"INITIAL_WINDOW_SIZE\","
+  },
+  {
+    "row": 59,
+    "rowsha": "BSBj6RCNWsKTJvSnnzSP5Kfq7qwmS+LRlkSImQxo2h0=",
+    "originContent": "        \"MAX_HEADER_LIST_SIZE\"",
+    "translatedContent": "        \"MAX_HEADER_LIST_SIZE\""
+  },
+  {
+    "row": 60,
+    "rowsha": "/4y2mDluE/6gPlOuW99X51DJh7tetngAemmeBkzB+FY=",
+    "originContent": "    ],",
+    "translatedContent": "    ],"
+  },
+  {
+    "row": 61,
+    "rowsha": "Imbip5qNpDB1TNZqAoPCWF0lhDFjMjusmvJbTz0sCOM=",
+    "originContent": "    supported_signature_algorithms=[",
+    "translatedContent": "    supported_signature_algorithms=["
+  },
+  {
+    "row": 62,
+    "rowsha": "YIOZeyFn6iszFrmH8W1v0GdC5YX6OqF3c2xuauutTWM=",
+    "originContent": "        \"ECDSAWithP256AndSHA256\",",
+    "translatedContent": "        \"ECDSAWithP256AndSHA256\","
+  },
+  {
+    "row": 63,
+    "rowsha": "nO+fcXgwlV67nNEgv3gpc0QpBx/4CvbddI/3ilSIZZU=",
+    "originContent": "        \"PSSWithSHA256\",",
+    "translatedContent": "        \"PSSWithSHA256\","
+  },
+  {
+    "row": 64,
+    "rowsha": "i3wAI5vj1IxW+xGvxw+P4ScBLWcvlQFQeiWKdq1n7Ac=",
+    "originContent": "        \"PKCS1WithSHA256\",",
+    "translatedContent": "        \"PKCS1WithSHA256\","
+  },
+  {
+    "row": 65,
+    "rowsha": "PjlnQS164w6pICssX65WdKrEcPwOrwBXiHp8rn+nvTY=",
+    "originContent": "        \"ECDSAWithP384AndSHA384\",",
+    "translatedContent": "        \"ECDSAWithP384AndSHA384\","
+  },
+  {
+    "row": 66,
+    "rowsha": "0MIMNmyjnkjzYACiy14CuNTgCgqxScTK3X04ASRYJ8c=",
+    "originContent": "        \"PSSWithSHA384\",",
+    "translatedContent": "        \"PSSWithSHA384\","
+  },
+  {
+    "row": 67,
+    "rowsha": "YlerIr+LnKgb8HG4pHevDkzq6UKiIWodElCcRs8z1rk=",
+    "originContent": "        \"PKCS1WithSHA384\",",
+    "translatedContent": "        \"PKCS1WithSHA384\","
+  },
+  {
+    "row": 68,
+    "rowsha": "ML3eDuWqMDxksL/SsIg+Eaf9cQqgbzXWTe/4q1C3c3U=",
+    "originContent": "        \"PSSWithSHA512\",",
+    "translatedContent": "        \"PSSWithSHA512\","
+  },
+  {
+    "row": 69,
+    "rowsha": "4aYxWIDCz7ukk3uDnTIR0y91cs4aEsRhE9z3CPo0BEQ=",
+    "originContent": "        \"PKCS1WithSHA512\",",
+    "translatedContent": "        \"PKCS1WithSHA512\","
+  },
+  {
+    "row": 70,
+    "rowsha": "/4y2mDluE/6gPlOuW99X51DJh7tetngAemmeBkzB+FY=",
+    "originContent": "    ],",
+    "translatedContent": "    ],"
+  },
+  {
+    "row": 71,
+    "rowsha": "RZ6wXcVEYwgOTXi0wRkr2d1lNWIZn/IQUOsVB1gcsJU=",
+    "originContent": "    supported_versions=[\"GREASE\", \"1.3\", \"1.2\"],",
+    "translatedContent": "    supported_versions=[\"GREASE\", \"1.3\", \"1.2\"],"
+  },
+  {
+    "row": 72,
+    "rowsha": "XPFdw/f+8QtvaVPkyEjoQSj+dD5WkbzVFmsxq2ZE1aw=",
+    "originContent": "    key_share_curves=[\"GREASE\", \"X25519\"],",
+    "translatedContent": "    key_share_curves=[\"GREASE\", \"X25519\"],"
+  },
+  {
+    "row": 73,
+    "rowsha": "mWDROVPGaDPWqpwT79Q2cYh0/mwfHKjsMbCCb7S9Ico=",
+    "originContent": "    cert_compression_algo=\"brotli\",",
+    "translatedContent": "    cert_compression_algo=\"brotli\","
+  },
+  {
+    "row": 74,
+    "rowsha": "2YnsKZ/Ax3CEw8rI6TiaK2sJqFZsO0ZiBwRBp4h9V2g=",
+    "originContent": "    pseudo_header_order=[",
+    "translatedContent": "    pseudo_header_order=["
+  },
+  {
+    "row": 75,
+    "rowsha": "MQ2eXH6FKO04J/Hw2PDtZnK+HF3hGPEdiAMMvgkMrkU=",
+    "originContent": "        \":method\",",
+    "translatedContent": "        \":method\","
+  },
+  {
+    "row": 76,
+    "rowsha": "oz/88uYN1v8coPnpkdCJ6SFMd1va70nGUPGoSDiB0Dk=",
+    "originContent": "        \":authority\",",
+    "translatedContent": "        \":authority\","
+  },
+  {
+    "row": 77,
+    "rowsha": "4kcOfBHorLGf5ueP6+JCArJDzNrNmLU5era9S5pPaQc=",
+    "originContent": "        \":scheme\",",
+    "translatedContent": "        \":scheme\","
+  },
+  {
+    "row": 78,
+    "rowsha": "ekzmDpiaf267Wjc8MwMCzhAs6qH4MoGBzcadP+nAO8A=",
+    "originContent": "        \":path\"",
+    "translatedContent": "        \":path\""
+  },
+  {
+    "row": 79,
+    "rowsha": "/4y2mDluE/6gPlOuW99X51DJh7tetngAemmeBkzB+FY=",
+    "originContent": "    ],",
+    "translatedContent": "    ],"
+  },
+  {
+    "row": 80,
+    "rowsha": "VPrxOPzE+xK5g+Ibecj+4aH7yDVtAy11C9mjsd1B+tw=",
+    "originContent": "    connection_flow=15663105,",
+    "translatedContent": "    connection_flow=15663105,"
+  },
+  {
+    "row": 81,
+    "rowsha": "9/T/nYo0hKCyJI8uvXA/F5I33Kqg0IzDNPSXqhl9Vn8=",
+    "originContent": "    header_order=[",
+    "translatedContent": "    header_order=["
+  },
+  {
+    "row": 82,
+    "rowsha": "K/ODBr2Z8dOqZUKXXOyvWFtw+qANAcU4C7wGOyNuck8=",
+    "originContent": "        \"accept\",",
+    "translatedContent": "        \"accept\","
+  },
+  {
+    "row": 83,
+    "rowsha": "n3tlzwocBVwfzOYY7GuL27hTqbJ2Xbh6rHs6VwdZHIs=",
+    "originContent": "        \"user-agent\",",
+    "translatedContent": "        \"user-agent\","
+  },
+  {
+    "row": 84,
+    "rowsha": "5V/dJJ2LC8dT/ninHpMty8gGja6Tz+JPUmdF18kOQj8=",
+    "originContent": "        \"accept-encoding\",",
+    "translatedContent": "        \"accept-encoding\","
+  },
+  {
+    "row": 85,
+    "rowsha": "8h7ZiMSfW3xhbT1KjhKhLLiaeeqAEpiAswGsCuvoO6k=",
+    "originContent": "        \"accept-language\"",
+    "translatedContent": "        \"accept-language\""
+  },
+  {
+    "row": 86,
+    "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+    "originContent": "    ]",
+    "translatedContent": "    ]"
+  },
+  {
+    "row": 87,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "DtClFrgsUkeQ57XUz3ZZfAXvEmGqs4sing51h70i1w0=",
+    "originContent": "res = session.post(",
+    "translatedContent": "res = session.post("
+  },
+  {
+    "row": 90,
+    "rowsha": "REMoe4IlMDAYJws8XbVGn7B5ljks353U3BL3FY2YvXg=",
+    "originContent": "    \"https://www.example.com/\",",
+    "translatedContent": "    \"https://www.example.com/\","
+  },
+  {
+    "row": 91,
+    "rowsha": "NEW3Bzeru3lE6XQe/O0NLLWw6hZ9I3HU2pxrnL+ERXQ=",
+    "originContent": "    headers={",
+    "translatedContent": "    headers={"
+  },
+  {
+    "row": 92,
+    "rowsha": "VFjAdU1fBrushgcMUnRRDA0QYrZ5Lajcp4nlR7uuNuM=",
+    "originContent": "        \"key1\": \"value1\",",
+    "translatedContent": "        \"key1\": \"value1\","
+  },
+  {
+    "row": 93,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 94,
+    "rowsha": "0aQiOfSXAQm0LQqmaMTcJqn/iMXA0NEb/qrTorLND+w=",
+    "originContent": "    json={",
+    "translatedContent": "    json={"
+  },
+  {
+    "row": 95,
+    "rowsha": "Y0GLsscCfdKVjhNeQtoFhB7F6D66snJCP1SzrQhDj3E=",
+    "originContent": "        \"key1\": \"key2\"",
+    "translatedContent": "        \"key1\": \"key2\""
+  },
+  {
+    "row": 96,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 97,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 98,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "YEe3ap0jCKJulIqyWBO97Gu3V8mxl4VVT2+gPSVsiqU=",
+    "originContent": "# Pyinstaller / Pyarmor",
+    "translatedContent": "# Pyinstaller / Pyarmor"
+  },
+  {
+    "row": 101,
+    "rowsha": "ssOqpSBkibkaqReOlaKh3Lh96Kf+OtlnWFLOdeVjIjM=",
+    "originContent": "**If you want to pack the library with Pyinstaller or Pyarmor, make sure to add this to your command:**",
+    "translatedContent": "**Si deseas empaquetar la biblioteca con Pyinstaller o Pyarmor, asegúrate de agregar esto a tu comando:**"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "GxAEP5beaHrjDK8PATnbeSkh/v+p+tsLM06TVtSEq8c=",
+    "originContent": "Linux - Ubuntu / x86:",
+    "translatedContent": "Linux - Ubuntu / x86:"
+  },
+  {
+    "row": 104,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 105,
+    "rowsha": "lbDGt+Cly41LQYV1Ya/AiQPeYDhp2woShAGM6jRN0J4=",
+    "originContent": "--add-binary '{path_to_library}/tls_client/dependencies/tls-client-x86.so:tls_client/dependencies'",
+    "translatedContent": "--add-binary '{path_to_library}/tls_client/dependencies/tls-client-x86.so:tls_client/dependencies'"
+  },
+  {
+    "row": 106,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "UTByn+gxS7f7xrZci/llfDsB7zEkm8TDx3plviC67Es=",
+    "originContent": "Linux Alpine / AMD64:",
+    "translatedContent": "Linux Alpine / AMD64:"
+  },
+  {
+    "row": 109,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 110,
+    "rowsha": "uBtxEdd+auop3Acw1VfZr10zTeRK9oeqEbdjiJfnEQc=",
+    "originContent": "--add-binary '{path_to_library}/tls_client/dependencies/tls-client-amd64.so:tls_client/dependencies'",
+    "translatedContent": "--add-binary '{path_to_library}/tls_client/dependencies/tls-client-amd64.so:tls_client/dependencies'"
+  },
+  {
+    "row": 111,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MacOS M1 y versiones anteriores:"
+  },
+  {
+    "row": 113,
+    "rowsha": "1G/iog0xh0L7PAVntOwLYyMvHmXsUBm+KSF9cnxzsSc=",
+    "originContent": "MacOS M1 and older:",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 115,
+    "rowsha": "1ODnncjDpxOPtwU8A9uMJpxFnVuBXgWo8AZF/WMdoV4=",
+    "originContent": "--add-binary '{path_to_library}/tls_client/dependencies/tls-client-x86.dylib:tls_client/dependencies'",
+    "translatedContent": "--add-binary '{path_to_library}/tls_client/dependencies/tls-client-x86.dylib:tls_client/dependencies'"
+  },
+  {
+    "row": 116,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "dFzxcMiYZuwRD3htHc4GDhQe0k4wJha8BpYovVJeyTo=",
+    "originContent": "MacOS M2:",
+    "translatedContent": "MacOS M2:"
+  },
+  {
+    "row": 119,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 120,
+    "rowsha": "Qsb0V1Z13HBwuCGCR/sPK3Jj/SxGOGt6YGw1nbPYQb0=",
+    "originContent": "--add-binary '{path_to_library}/tls_client/dependencies/tls-client-arm64.dylib:tls_client/dependencies'",
+    "translatedContent": "--add-binary '{path_to_library}/tls_client/dependencies/tls-client-arm64.dylib:tls_client/dependencies'"
+  },
+  {
+    "row": 121,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Windows:"
+  },
+  {
+    "row": 123,
+    "rowsha": "/bp1A+IJ7QLTY6muuse/kee2Wfx8mti0/ccXvIsTY0s=",
+    "originContent": "Windows:",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 125,
+    "rowsha": "l5/uQWwafIcsfdfvKFAVBffvYfYwl0OpivqRWJ//pi4=",
+    "originContent": "--add-binary '{path_to_library}/tls_client/dependencies/tls-client-64.dll;tls_client/dependencies'",
+    "translatedContent": "--add-binary '{path_to_library}/tls_client/dependencies/tls-client-64.dll;tls_client/dependencies'"
+  },
+  {
+    "row": 126,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "2npJotIzfjK/tLvt0MeunwScmmdsCPCGbZn6ZNMP2+c=",
+    "originContent": "# Acknowledgements",
+    "translatedContent": "# Agradecimientos"
+  },
+  {
+    "row": 129,
+    "rowsha": "Iwq7f7etRPV6oDaPYSadx088YK2QzIfZKI3GS/zKKHA=",
+    "originContent": "Big shout out to [Bogdanfinn](https://github.com/bogdanfinn) for open sourcing his [tls-client](https://github.com/bogdanfinn/tls-client) in Golang.",
+    "translatedContent": "Un gran reconocimiento a [Bogdanfinn](https://github.com/bogdanfinn) por publicar como código abierto su [tls-client](https://github.com/bogdanfinn/tls-client) en Golang."
+  },
+  {
+    "row": 130,
+    "rowsha": "blzs5ASILfHBWeGyq0+Hbqr5u7LSuFc6rva2gZ35kzg=",
+    "originContent": "Also I wanted to keep the syntax as similar as possible to [requests](https://github.com/psf/requests), as most people use it and are familiar with it!",
+    "translatedContent": "También quería mantener la sintaxis lo más parecida posible a [requests](https://github.com/psf/requests), ya que la mayoría de la gente la usa y la conoce."
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
