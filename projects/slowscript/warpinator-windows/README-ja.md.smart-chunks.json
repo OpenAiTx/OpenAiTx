@@ -1,0 +1,237 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Warpinator for Windows (unofficial)\n\nThis is an unofficial reimplementation of Linux Mint's file sharing tool [Warpinator](https://github.com/linuxmint/warpinator) for Windows 7 and newer.\n\nTransfer files between Linux, Windows and Android devices\n\n## ⚠️ Warning: Fake/malicious website\n\n`http://warpinator.com` is a fake website, potentially malicious!\n\nDo **NOT** download or run any software from it!\n\nWe do not know who maintains it. See [notice from the Linux Mint team](https://github.com/linuxmint/warpinator?tab=readme-ov-file#%EF%B8%8F-warning-fakemalicious-website).\n\n## Download\nNow available on the [Releases](https://github.com/slowscript/warpinator-windows/releases) page\n\nAlternatively can be installed via winget:  \n`winget install slowscript.Warpinator`\n\n## Building\nRequires .NET SDK 4.7.2\n\nBuild with Visual Studio\n\n### Screenshot\n![screenshot](https://raw.githubusercontent.com/slowscript/warpinator-windows/master/screenshot.png)\n\n## Translating\nYou will need a recent version of Visual Studio\n1) Create a new Resource file in the Resources folder called Strings.xx.resx where xx is code of the language you are translating to\n2) Copy the entire table from Strings.resx and translate the values. Comments are only for context\n3) Open Controls\\TransferPanel, Form1, SettingsForm and TransferFrom in designer and repeat 4-6 on each of them\n4) Select the toplevel element (whole window) and under Properties switch Language to your language\n5) Select controls with text on them (buttons, labels, menus) and translate their \"Text\" property. You don't need to translate obvious placeholders that will be replaced at runtime. Can be verified by simply running the application (green play arrow in toolbar). Also, two buttons on TransferPanel are hidden below the other two.\n6) You can also move and resize the controls to fit the new strings and it will only affect the currently selected language\n",
+    "ContentSha": "YFWB4QIMb4I8Gk2KABxehGx9tD4065Hx/6qvaWbxyjs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Windows用Warpinator（非公式）\n\nこれはLinux Mintのファイル共有ツール[Warpinator](https://github.com/linuxmint/warpinator)の非公式なWindows 7以降向け再実装です。\n\nLinux、Windows、Androidデバイス間でファイルを転送します\n\n## ⚠️ 警告：偽の悪意のあるウェブサイト\n\n`http://warpinator.com`は偽のウェブサイトで、悪意がある可能性があります！\n\nそこからソフトウェアをダウンロードしたり実行したりしないでください！\n\n誰が管理しているか不明です。[Linux Mintチームからの注意](https://github.com/linuxmint/warpinator?tab=readme-ov-file#%EF%B8%8F-warning-fakemalicious-website)を参照してください。\n\n## ダウンロード\n現在は[Releases](https://github.com/slowscript/warpinator-windows/releases)ページで入手可能です\n\nまたはwinget経由でインストール可能です：  \n`winget install slowscript.Warpinator`\n\n## ビルド\n.NET SDK 4.7.2が必要です\n\nVisual Studioでビルドしてください\n\n### スクリーンショット\n![screenshot](https://raw.githubusercontent.com/slowscript/warpinator-windows/master/screenshot.png)\n\n## 翻訳\n最新のVisual Studioが必要です\n1) ResourcesフォルダにStrings.xx.resxという名前の新しいリソースファイルを作成します。xxは翻訳する言語のコードです\n2) Strings.resxからテーブル全体をコピーし、値を翻訳します。コメントは文脈のためのものです\n3) Controls\\TransferPanel、Form1、SettingsForm、TransferFromをデザイナーで開き、それぞれで4〜6を繰り返します\n4) 最上位要素（ウィンドウ全体）を選択し、プロパティのLanguageを翻訳言語に切り替えます\n5) テキストがあるコントロール（ボタン、ラベル、メニュー）を選択して「Text」プロパティを翻訳します。実行時に置き換えられる明らかなプレースホルダーは翻訳不要です。アプリケーションを実行して（ツールバーの緑の再生矢印）確認できます。また、TransferPanelの2つのボタンは他の2つの下に隠れています\n6) 新しい文字列に合わせてコントロールの移動やサイズ変更も可能で、選択中の言語にのみ影響します\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "PgwmHms19YWM+EVv23eOD8S1SBwmrmeMo0txdIvaDEo=",
+        "originContent": "# Warpinator for Windows (unofficial)",
+        "translatedContent": "# Windows用Warpinator（非公式）"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "wSskivcvThvn8SVSKfxZV8vN85haXS7/TYiH7H0XsHQ=",
+        "originContent": "This is an unofficial reimplementation of Linux Mint's file sharing tool [Warpinator](https://github.com/linuxmint/warpinator) for Windows 7 and newer.",
+        "translatedContent": "これはLinux Mintのファイル共有ツール[Warpinator](https://github.com/linuxmint/warpinator)の非公式なWindows 7以降向け再実装です。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "SoUOsARpZVFBWbPicbgN1YKCwDpgEVQpMg1BJVyYLbk=",
+        "originContent": "Transfer files between Linux, Windows and Android devices",
+        "translatedContent": "Linux、Windows、Androidデバイス間でファイルを転送します"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "4fBbqxB300sjETQrsXD6sHkmx5HHDJ/HOq/6jwaPlgo=",
+        "originContent": "## ⚠️ Warning: Fake/malicious website",
+        "translatedContent": "## ⚠️ 警告：偽の悪意のあるウェブサイト"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "EcLkxLXrSCbEzvaWspcrI+1+Ag7La+Jli6vHBHaLk50=",
+        "originContent": "`http://warpinator.com` is a fake website, potentially malicious!",
+        "translatedContent": "`http://warpinator.com`は偽のウェブサイトで、悪意がある可能性があります！"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "qa9GBJYvkZ2gEr1rPgUB1XCOPt6saHaigrUsTgdkRqM=",
+        "originContent": "Do **NOT** download or run any software from it!",
+        "translatedContent": "そこからソフトウェアをダウンロードしたり実行したりしないでください！"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "8pun7eGYkfCk7LLWRcsZuHFD8tgNgg1dS8tQAcVU0Mw=",
+        "originContent": "We do not know who maintains it. See [notice from the Linux Mint team](https://github.com/linuxmint/warpinator?tab=readme-ov-file#%EF%B8%8F-warning-fakemalicious-website).",
+        "translatedContent": "誰が管理しているか不明です。[Linux Mintチームからの注意](https://github.com/linuxmint/warpinator?tab=readme-ov-file#%EF%B8%8F-warning-fakemalicious-website)を参照してください。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "QthUtrLFJhAm9mK+lb9STCileImPtOmEdm/neA89axg=",
+        "originContent": "## Download",
+        "translatedContent": "## ダウンロード"
+      },
+      {
+        "row": 16,
+        "rowsha": "0Yqt7wDKwEiHzAnCITpdb7xiipEkwSLpQ1nU4uTCeeY=",
+        "originContent": "Now available on the [Releases](https://github.com/slowscript/warpinator-windows/releases) page",
+        "translatedContent": "現在は[Releases](https://github.com/slowscript/warpinator-windows/releases)ページで入手可能です"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "gLo7B9fjc5alkElvcnV/3x3aYb4n9nxW1QVqU+9vfmM=",
+        "originContent": "Alternatively can be installed via winget:  ",
+        "translatedContent": "またはwinget経由でインストール可能です：  "
+      },
+      {
+        "row": 19,
+        "rowsha": "lA4LYZwtg5jgUpGNBRqklPzoJhCXyFXuFb3Qm+1j/5g=",
+        "originContent": "`winget install slowscript.Warpinator`",
+        "translatedContent": "`winget install slowscript.Warpinator`"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "7yG6yJKPL5cg9brIizwUDQZkeD/r3QuaAXwB7XbI5xs=",
+        "originContent": "## Building",
+        "translatedContent": "## ビルド"
+      },
+      {
+        "row": 22,
+        "rowsha": "ibSxoYqUmcwgTOTqLmFFGgsQTQgiMCRtGfcQA8OTDvk=",
+        "originContent": "Requires .NET SDK 4.7.2",
+        "translatedContent": ".NET SDK 4.7.2が必要です"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "fQ0eV9J2i9GSbdNUpGF1pYhq45TgstQ22MIwrzARatk=",
+        "originContent": "Build with Visual Studio",
+        "translatedContent": "Visual Studioでビルドしてください"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "JslLpbZtbUdkIEUGGSiGLGIz4D5UFtuv6QLc7HmnK3I=",
+        "originContent": "### Screenshot",
+        "translatedContent": "### スクリーンショット"
+      },
+      {
+        "row": 27,
+        "rowsha": "LTi0ChTSMV66KN8F2hJkvvFtysXNspthtZosje9ArOE=",
+        "originContent": "![screenshot](https://raw.githubusercontent.com/slowscript/warpinator-windows/master/screenshot.png)",
+        "translatedContent": "![screenshot](https://raw.githubusercontent.com/slowscript/warpinator-windows/master/screenshot.png)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "KFzY+ZKLNkdus78AzVxcddiRk3FnbQBYKOJ2w8nbQ6M=",
+        "originContent": "## Translating",
+        "translatedContent": "## 翻訳"
+      },
+      {
+        "row": 30,
+        "rowsha": "K7DMQt7fUzJEld7Q0nXC4I9illUBqTvHEo8cxyjjuoo=",
+        "originContent": "You will need a recent version of Visual Studio",
+        "translatedContent": "最新のVisual Studioが必要です"
+      },
+      {
+        "row": 31,
+        "rowsha": "kZlwNKC5FzIIfB+h8QTuov6ZkR9ivYXjSpLzCdwHlzE=",
+        "originContent": "1) Create a new Resource file in the Resources folder called Strings.xx.resx where xx is code of the language you are translating to",
+        "translatedContent": "1) ResourcesフォルダにStrings.xx.resxという名前の新しいリソースファイルを作成します。xxは翻訳する言語のコードです"
+      },
+      {
+        "row": 32,
+        "rowsha": "qd5y2QZgbVD6VKqL2ucubg+eG9w2+pYtRimrnkjTNPA=",
+        "originContent": "2) Copy the entire table from Strings.resx and translate the values. Comments are only for context",
+        "translatedContent": "2) Strings.resxからテーブル全体をコピーし、値を翻訳します。コメントは文脈のためのものです"
+      },
+      {
+        "row": 33,
+        "rowsha": "8D7DeIOnTLHvg46RpEtJozeZooH6y0Zu6WhIX2kq9WI=",
+        "originContent": "3) Open Controls\\TransferPanel, Form1, SettingsForm and TransferFrom in designer and repeat 4-6 on each of them",
+        "translatedContent": "3) Controls\\TransferPanel、Form1、SettingsForm、TransferFromをデザイナーで開き、それぞれで4〜6を繰り返します"
+      },
+      {
+        "row": 34,
+        "rowsha": "rBuoqR650iRvExWWacpivylRZg9hcEmls63hY+5l8/Q=",
+        "originContent": "4) Select the toplevel element (whole window) and under Properties switch Language to your language",
+        "translatedContent": "4) 最上位要素（ウィンドウ全体）を選択し、プロパティのLanguageを翻訳言語に切り替えます"
+      },
+      {
+        "row": 35,
+        "rowsha": "xGs3bPf1xCTrTxFeFd9o6LZaCsPrnRD7qdCziEHA/sM=",
+        "originContent": "5) Select controls with text on them (buttons, labels, menus) and translate their \"Text\" property. You don't need to translate obvious placeholders that will be replaced at runtime. Can be verified by simply running the application (green play arrow in toolbar). Also, two buttons on TransferPanel are hidden below the other two.",
+        "translatedContent": "5) テキストがあるコントロール（ボタン、ラベル、メニュー）を選択して「Text」プロパティを翻訳します。実行時に置き換えられる明らかなプレースホルダーは翻訳不要です。アプリケーションを実行して（ツールバーの緑の再生矢印）確認できます。また、TransferPanelの2つのボタンは他の2つの下に隠れています"
+      },
+      {
+        "row": 36,
+        "rowsha": "/zIzxl0rldSIFnnjZG9NorGHSdX7IHQ5qYsBEE5ZFPU=",
+        "originContent": "6) You can also move and resize the controls to fit the new strings and it will only affect the currently selected language",
+        "translatedContent": "6) 新しい文字列に合わせてコントロールの移動やサイズ変更も可能で、選択中の言語にのみ影響します"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

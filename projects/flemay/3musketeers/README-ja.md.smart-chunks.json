@@ -1,0 +1,1969 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 3 Musketeers\n\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/flemay/3musketeers/main/src/assets/logo/hero-v2.svg\" width=\"300\">\n\n**Test, build, and deploy your apps from anywhere, the same way!**\n\n[![Build Status][linkGitHubActionsProjectBadge]][linkGitHubActionsProject]\n[![License][linkLicenseBadge]][linkLicense]\n\n</div>\n\n<details>\n  <summary>Table of Contents</summary>\n\n<!-- START doctoc generated TOC please keep comment here to allow auto update -->\n<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->\n\n- [Overview](#overview)\n- [3 Musketeers website](#3-musketeers-website)\n  - [Prerequisites](#prerequisites)\n  - [Development](#development)\n  - [Deployment](#deployment)\n    - [0. Cloudflare account ID and API token](#0-cloudflare-account-id-and-api-token)\n    - [1. Envfile](#1-envfile)\n    - [2. Create](#2-create)\n    - [3. Deploy](#3-deploy)\n    - [4. Delete](#4-delete)\n  - [CI/CD](#cicd)\n  - [Visual elements](#visual-elements)\n- [Contributing](#contributing)\n- [License](#license)\n\n<!-- END doctoc generated TOC please keep comment here to allow auto update -->\n\n</details>\n\n## Overview\n\n<!-- Part of src/content/docs/about/what-is-3musketeers.md -->",
+    "ContentSha": "CZY7KbgY8oKwcvD3Rt08vX26PRcGhdHgFjKeGMJ9/Hc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 3ムスケティアーズ\n\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/flemay/3musketeers/main/src/assets/logo/hero-v2.svg\" width=\"300\">\n\n**どこからでも同じ方法でアプリをテスト、ビルド、デプロイ！**\n\n[![ビルドステータス][linkGitHubActionsProjectBadge]][linkGitHubActionsProject]\n[![ライセンス][linkLicenseBadge]][linkLicense]\n\n</div>\n\n<details>\n  <summary>目次</summary>\n\n<!-- START doctoc generated TOC please keep comment here to allow auto update -->\n<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->\n\n- [概要](#overview)\n- [3ムスケティアーズのウェブサイト](#3-musketeers-website)\n  - [前提条件](#prerequisites)\n  - [開発](#development)\n  - [デプロイ](#deployment)\n    - [0. CloudflareアカウントIDとAPIトークン](#0-cloudflare-account-id-and-api-token)\n    - [1. Envファイル](#1-envfile)\n    - [2. 作成](#2-create)\n    - [3. デプロイ](#3-deploy)\n    - [4. 削除](#4-delete)\n  - [CI/CD](#cicd)\n  - [ビジュアル要素](#visual-elements)\n- [貢献](#contributing)\n- [ライセンス](#license)\n\n<!-- END doctoc generated TOC please keep comment here to allow auto update -->\n\n</details>\n\n## 概要\n\n<!-- Part of src/content/docs/about/what-is-3musketeers.md -->",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "SyJ5evFk8iJYrxRPY9QamOlR2/b+IWGODBccjcTErDQ=",
+        "originContent": "# 3 Musketeers",
+        "translatedContent": "# 3ムスケティアーズ"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "hy1HqeN1ZJVD3k+nqNwffzKu3rlutTGLWh4o0WZL9YA=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/flemay/3musketeers/main/src/assets/logo/hero-v2.svg\" width=\"300\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/flemay/3musketeers/main/src/assets/logo/hero-v2.svg\" width=\"300\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ruKUtcZ9kAX+SZ6z46ieFcTq0/cCyYu9sSRh69Igl0k=",
+        "originContent": "**Test, build, and deploy your apps from anywhere, the same way!**",
+        "translatedContent": "**どこからでも同じ方法でアプリをテスト、ビルド、デプロイ！**"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "2KzDfhB3FRp7rH2XNgAErFLiVeguTnJy80liso26wWY=",
+        "originContent": "[![Build Status][linkGitHubActionsProjectBadge]][linkGitHubActionsProject]",
+        "translatedContent": "[![ビルドステータス][linkGitHubActionsProjectBadge]][linkGitHubActionsProject]"
+      },
+      {
+        "row": 9,
+        "rowsha": "c7JF6QfaBVvhsQqpp9EKGup0YvzlTzWBf+4LM0WxMnc=",
+        "originContent": "[![License][linkLicenseBadge]][linkLicense]",
+        "translatedContent": "[![ライセンス][linkLicenseBadge]][linkLicense]"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 14,
+        "rowsha": "ZeSjMBT9XH3eKyYNoCyZmzDobjETB7QNXKOY5J0veZ8=",
+        "originContent": "  <summary>Table of Contents</summary>",
+        "translatedContent": "  <summary>目次</summary>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "K2PIDFJxzUrLinTnmWTVH+Go7P9fZREqQAcf3xPrnvs=",
+        "originContent": "<!-- START doctoc generated TOC please keep comment here to allow auto update -->",
+        "translatedContent": "<!-- START doctoc generated TOC please keep comment here to allow auto update -->"
+      },
+      {
+        "row": 17,
+        "rowsha": "qAF2Sr53diuwhvPKlQXx4bWt2huPlXJFEDfjBHQpDeA=",
+        "originContent": "<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->",
+        "translatedContent": "<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "BK4fM7xar6bP05e2X+OiD5DweDUqlOIUPOvDgu9rItI=",
+        "originContent": "- [Overview](#overview)",
+        "translatedContent": "- [概要](#overview)"
+      },
+      {
+        "row": 20,
+        "rowsha": "4o04z+/IfahModRm/jv60PX7b4EiTUdaKtMqx4A8bSQ=",
+        "originContent": "- [3 Musketeers website](#3-musketeers-website)",
+        "translatedContent": "- [3ムスケティアーズのウェブサイト](#3-musketeers-website)"
+      },
+      {
+        "row": 21,
+        "rowsha": "7Snjmke0JcwPWLQ1sVLxe5VvbK9AKtjPJb6RAOQKe3Q=",
+        "originContent": "  - [Prerequisites](#prerequisites)",
+        "translatedContent": "  - [前提条件](#prerequisites)"
+      },
+      {
+        "row": 22,
+        "rowsha": "u5vXgM0wVvF0WBaU8XRjgf6Zy3Kf8OJaCyRo7ZjbqfI=",
+        "originContent": "  - [Development](#development)",
+        "translatedContent": "  - [開発](#development)"
+      },
+      {
+        "row": 23,
+        "rowsha": "nNQ+bv/Tbrk8sare6g+nazo+M21xHx5dO7bCRv8p610=",
+        "originContent": "  - [Deployment](#deployment)",
+        "translatedContent": "  - [デプロイ](#deployment)"
+      },
+      {
+        "row": 24,
+        "rowsha": "nnoNPZuIZ0b+CYCAinUVvl51vJaKsNSYKz99ajn+uiU=",
+        "originContent": "    - [0. Cloudflare account ID and API token](#0-cloudflare-account-id-and-api-token)",
+        "translatedContent": "    - [0. CloudflareアカウントIDとAPIトークン](#0-cloudflare-account-id-and-api-token)"
+      },
+      {
+        "row": 25,
+        "rowsha": "G9fleEgSZtUMlRwW0LkIZJOfWDbLkmlLsdCF/wLOQIk=",
+        "originContent": "    - [1. Envfile](#1-envfile)",
+        "translatedContent": "    - [1. Envファイル](#1-envfile)"
+      },
+      {
+        "row": 26,
+        "rowsha": "btisUbUGaaEyDGP32Jc2rN5qsgIJlXT3/wSPXJIViNU=",
+        "originContent": "    - [2. Create](#2-create)",
+        "translatedContent": "    - [2. 作成](#2-create)"
+      },
+      {
+        "row": 27,
+        "rowsha": "ir1iQMnjckoXczUaEmcf5ezeSSr/yqvqmlU66CDoc4Q=",
+        "originContent": "    - [3. Deploy](#3-deploy)",
+        "translatedContent": "    - [3. デプロイ](#3-deploy)"
+      },
+      {
+        "row": 28,
+        "rowsha": "619+iOYRVI6LMg2lLLrp16Gsgj06pQpRMWC83t+IYu4=",
+        "originContent": "    - [4. Delete](#4-delete)",
+        "translatedContent": "    - [4. 削除](#4-delete)"
+      },
+      {
+        "row": 29,
+        "rowsha": "/DyetP6a2oEWePTq/J5/48wX8vnjhtiLi13NxMzNzI0=",
+        "originContent": "  - [CI/CD](#cicd)",
+        "translatedContent": "  - [CI/CD](#cicd)"
+      },
+      {
+        "row": 30,
+        "rowsha": "mMcsnn1Cywaz5OXnu6byCwvhhKNkPM0MPE2VadhGg0Q=",
+        "originContent": "  - [Visual elements](#visual-elements)",
+        "translatedContent": "  - [ビジュアル要素](#visual-elements)"
+      },
+      {
+        "row": 31,
+        "rowsha": "46o9OlXCA1a4tZeh7IEuTh2QUV2OtRFcI4YWidxNwmU=",
+        "originContent": "- [Contributing](#contributing)",
+        "translatedContent": "- [貢献](#contributing)"
+      },
+      {
+        "row": 32,
+        "rowsha": "aiElU+9O/5KGvOFd7CcJXGSaQL0/8Fg5sGxP7wVVzv4=",
+        "originContent": "- [License](#license)",
+        "translatedContent": "- [ライセンス](#license)"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "OSzyvJMJvS9CriLtV2S1kAug/losjKugM/fo7pSVIB0=",
+        "originContent": "<!-- END doctoc generated TOC please keep comment here to allow auto update -->",
+        "translatedContent": "<!-- END doctoc generated TOC please keep comment here to allow auto update -->"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": "## 概要"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "LVkbKC0CEAk6KXhSzpGqNmCetucmSBsh5LitAH8+YJo=",
+        "originContent": "<!-- Part of src/content/docs/about/what-is-3musketeers.md -->",
+        "translatedContent": "<!-- Part of src/content/docs/about/what-is-3musketeers.md -->"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\nThe 3 Musketeers is a pattern for developing software in a repeatable and\nconsistent manner. It leverages Make as an orchestration tool to test, build,\nrun, and deploy applications using Docker and Docker Compose. The Make and\nDocker/Compose commands for each application are maintained as part of the\napplication’s source code and are invoked in the same way whether run locally or\non a CI/CD server.\n\n> [!NOTE]\n> To learn more, please visit the [official website][link3Musketeers].\n\n## 3 Musketeers website\n\nThis repository is the [3 Musketeers website][link3Musketeers] built with\n[Astro Starlight][linkAstroStarlight]. This section explains how to develop,\ntest, and deploy using the 3 Musketeers methodology.\n\n### Prerequisites\n\n- [Docker](https://www.docker.com/)\n- [Compose](https://docs.docker.com/compose/)\n- [Make](https://www.gnu.org/software/make/)\n- [Cloudflare][linkCloudflarePages] account\n\n### Development\n",
+    "ContentSha": "4aIx1VWuEErTV6Y0DIm57yXWzkx4a5j8MnYTFahyyMY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3ムスケティアは、ソフトウェアを繰り返しかつ一貫して開発するためのパターンです。  \nMakeをオーケストレーションツールとして活用し、DockerおよびDocker Composeを使用してアプリケーションのテスト、ビルド、実行、デプロイを行います。  \n各アプリケーションのMakeおよびDocker/Composeコマンドはアプリケーションのソースコードの一部として管理されており、ローカルまたはCI/CDサーバーで実行する場合でも同じ方法で呼び出されます。  \n\n> [!NOTE]  \n> 詳細については、[公式ウェブサイト][link3Musketeers]をご覧ください。  \n\n## 3ムスケティアのウェブサイト  \n\nこのリポジトリは、[Astro Starlight][linkAstroStarlight]で構築された[3ムスケティアのウェブサイト][link3Musketeers]です。  \nこのセクションでは、3ムスケティアの手法を用いた開発、テスト、デプロイ方法について説明します。  \n\n### 前提条件  \n\n- [Docker](https://www.docker.com/)  \n- [Compose](https://docs.docker.com/compose/)  \n- [Make](https://www.gnu.org/software/make/)  \n- [Cloudflare][linkCloudflarePages]アカウント  \n\n### 開発  \n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3ムスケティアは、ソフトウェアを繰り返しかつ一貫して開発するためのパターンです。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "9h6iILd6yKbKkyuHIqMzyJ4z+YAZbIdgpalyIICcN0w=",
+        "originContent": "The 3 Musketeers is a pattern for developing software in a repeatable and",
+        "translatedContent": "Makeをオーケストレーションツールとして活用し、DockerおよびDocker Composeを使用してアプリケーションのテスト、ビルド、実行、デプロイを行います。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "L62OFAEJ84ZUbpdAjoel2SOs7yh1EBJnpWVplCSLekA=",
+        "originContent": "consistent manner. It leverages Make as an orchestration tool to test, build,",
+        "translatedContent": "各アプリケーションのMakeおよびDocker/Composeコマンドはアプリケーションのソースコードの一部として管理されており、ローカルまたはCI/CDサーバーで実行する場合でも同じ方法で呼び出されます。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "m1R7Jz1o/9VuaLw3+vt8dzxtoFn5ZK6DfYRLMgv2tEw=",
+        "originContent": "run, and deploy applications using Docker and Docker Compose. The Make and",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "g6ddUzW7HFxuyRsujmB0gB+y7iJxyMi3CuBlSyDIRw4=",
+        "originContent": "Docker/Compose commands for each application are maintained as part of the",
+        "translatedContent": "> [!NOTE]  "
+      },
+      {
+        "row": 6,
+        "rowsha": "7kRJOhd2L91VNb1ytgBLaMnNgoNKJDOhqFHDOvKB0zk=",
+        "originContent": "application’s source code and are invoked in the same way whether run locally or",
+        "translatedContent": "> 詳細については、[公式ウェブサイト][link3Musketeers]をご覧ください。  "
+      },
+      {
+        "row": 7,
+        "rowsha": "dAzcTJBo/0XAmqNBNIO3aK++ZAHhzwdtFxrmP8Hokzc=",
+        "originContent": "on a CI/CD server.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 3ムスケティアのウェブサイト  "
+      },
+      {
+        "row": 9,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "AkLiiWv7qeq+Et8GZz7dG/PPj2+hAAjy4dCnKCOHDZY=",
+        "originContent": "> To learn more, please visit the [official website][link3Musketeers].",
+        "translatedContent": "このリポジトリは、[Astro Starlight][linkAstroStarlight]で構築された[3ムスケティアのウェブサイト][link3Musketeers]です。  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "このセクションでは、3ムスケティアの手法を用いた開発、テスト、デプロイ方法について説明します。  "
+      },
+      {
+        "row": 12,
+        "rowsha": "vueCJKbId8aFhNfauM0W3XAabXlg1G4euG6DnKQMoow=",
+        "originContent": "## 3 Musketeers website",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 前提条件  "
+      },
+      {
+        "row": 14,
+        "rowsha": "p1HHMg14B2N/RmeftxLZZsYVgtaB/ysKRn3CQFrCMlQ=",
+        "originContent": "This repository is the [3 Musketeers website][link3Musketeers] built with",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "Zm93r22aUprEOHflahxoja/aMZApnjeQz1qJZ7nYtTY=",
+        "originContent": "[Astro Starlight][linkAstroStarlight]. This section explains how to develop,",
+        "translatedContent": "- [Docker](https://www.docker.com/)  "
+      },
+      {
+        "row": 16,
+        "rowsha": "Q03SlxByHlJb8wnD1ZiPTAJN+uA7yTiHdz8/szGMImo=",
+        "originContent": "test, and deploy using the 3 Musketeers methodology.",
+        "translatedContent": "- [Compose](https://docs.docker.com/compose/)  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Make](https://www.gnu.org/software/make/)  "
+      },
+      {
+        "row": 18,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "- [Cloudflare][linkCloudflarePages]アカウント  "
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "+Vgue1KfSvgfaFADVCZgf61NGa9YeFpP8yVceUUM5Fk=",
+        "originContent": "- [Docker](https://www.docker.com/)",
+        "translatedContent": "### 開発  "
+      },
+      {
+        "row": 21,
+        "rowsha": "dDIo5CgUdgX0ne/4ayDZKiWwzUDKLezdbJamQ/PfC38=",
+        "originContent": "- [Compose](https://docs.docker.com/compose/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "l47SODPZrp6IlFwq783MixEioJD2/4fKmoPAyKGbp2s=",
+        "originContent": "- [Make](https://www.gnu.org/software/make/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "TtUAeigvMhaxo3QvbjTDKyQsr2S1aEq3jpQUiRVMTYc=",
+        "originContent": "- [Cloudflare][linkCloudflarePages] account",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "x04EB7BlvMSKobvvwbPlJfxbjTla+pt6AhDspqW/UFU=",
+        "originContent": "### Development",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\n# Create a .env file\nmake envfile ENVFILE=env.example\n# Install dependencies\nmake deps copyDepsToHost\n\n# Format and check\nmake fmt check\n\n# Start Astro server for local development\nmake dev\n# Wait till the message 'dev-1  | 20:13:41 watching for file changes...' appears\n# Access the website in your browser at http://127.0.0.1:4321/\n# \\<ctrl-c\\> to stop\n\n# Build static site\nmake build\n\n# Serve static site for local development\nmake previewDev\n# Access the website in your browser at http://127.0.0.1:4321/\n# \\<ctrl-c\\> to stop\n\n# Serve static website in the background\nmake preview\n\n# Test static website\nmake testPreview\n\n# Clean\nmake clean\n```",
+    "ContentSha": "sD3trAZqpiXyUrR8zfK6aBa9Zr7ulh9LLwb5j6jtqFc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Create a .env file\nmake envfile ENVFILE=env.example\n# Install dependencies\nmake deps copyDepsToHost\n\n# Format and check\nmake fmt check\n\n# Start Astro server for local development\nmake dev\n# Wait till the message 'dev-1  | 20:13:41 watching for file changes...' appears\n# Access the website in your browser at http://127.0.0.1:4321/\n# \\<ctrl-c\\> to stop\n\n# Build static site\nmake build\n\n# Serve static site for local development\nmake previewDev\n# Access the website in your browser at http://127.0.0.1:4321/\n# \\<ctrl-c\\> to stop\n\n# Serve static website in the background\nmake preview\n\n# Test static website\nmake testPreview\n\n# Clean\nmake clean\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZS+9l+Jc72LzfiDWk4GtW10nIy6HFB3WIRp8adjhguA=",
+        "originContent": "# Create a .env file",
+        "translatedContent": "# Create a .env file"
+      },
+      {
+        "row": 3,
+        "rowsha": "jR8JtbOSi6B9ogyr+sxhiC2Ehv0wf7CY/VpMHYp0OHU=",
+        "originContent": "make envfile ENVFILE=env.example",
+        "translatedContent": "make envfile ENVFILE=env.example"
+      },
+      {
+        "row": 4,
+        "rowsha": "eZl+L3vwMSfnhJPApyjgp5MAN3lox2CikfYeIVqDi7M=",
+        "originContent": "# Install dependencies",
+        "translatedContent": "# Install dependencies"
+      },
+      {
+        "row": 5,
+        "rowsha": "WjSo2hJ642gAFDUiagEoB6bcZd9myHWfGNFpQfaXA6I=",
+        "originContent": "make deps copyDepsToHost",
+        "translatedContent": "make deps copyDepsToHost"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "8NpY3d6nZCx3fQg75hH9XvpKvNGVj/WS0DdyiWaJdmI=",
+        "originContent": "# Format and check",
+        "translatedContent": "# Format and check"
+      },
+      {
+        "row": 8,
+        "rowsha": "duNr96/PB5ynqF69dJtvOpftRnuvPGvZT5z7SjimM3Y=",
+        "originContent": "make fmt check",
+        "translatedContent": "make fmt check"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "EW2XEarO42STUYKeDEnB1/pPFrkBCI7oXzwMsRKMBHM=",
+        "originContent": "# Start Astro server for local development",
+        "translatedContent": "# Start Astro server for local development"
+      },
+      {
+        "row": 11,
+        "rowsha": "NIRGWRn9VbM0wVbol2C6d4iBEvMQBS3qiVscBN1qnQk=",
+        "originContent": "make dev",
+        "translatedContent": "make dev"
+      },
+      {
+        "row": 12,
+        "rowsha": "X29rNq+vY0/QsRMcCDis4f0yRAALJsBcPQSRJA9WbG8=",
+        "originContent": "# Wait till the message 'dev-1  | 20:13:41 watching for file changes...' appears",
+        "translatedContent": "# Wait till the message 'dev-1  | 20:13:41 watching for file changes...' appears"
+      },
+      {
+        "row": 13,
+        "rowsha": "tqsc13PEO0UD5NJwIAwKYunB7MUruf5XRjZqeVGys5Y=",
+        "originContent": "# Access the website in your browser at http://127.0.0.1:4321/",
+        "translatedContent": "# Access the website in your browser at http://127.0.0.1:4321/"
+      },
+      {
+        "row": 14,
+        "rowsha": "Ze0p0rLMXwNEmkyjoPG62XkwFBsoJDJ8iW+V0oAJWDM=",
+        "originContent": "# \\<ctrl-c\\> to stop",
+        "translatedContent": "# \\<ctrl-c\\> to stop"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "JLUPYrJ6PKV/7qLW5XzHMOhcIEU7r+Sb9OAsPTrxZhY=",
+        "originContent": "# Build static site",
+        "translatedContent": "# Build static site"
+      },
+      {
+        "row": 17,
+        "rowsha": "0RIeNfp62rFw/h7ktiJuS9UFlTXiTcR2fxvyti2Vc5k=",
+        "originContent": "make build",
+        "translatedContent": "make build"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "k3EnagSVqBLvmNa8gTlwKeLd1BHgdu9h25WU/DT/r9I=",
+        "originContent": "# Serve static site for local development",
+        "translatedContent": "# Serve static site for local development"
+      },
+      {
+        "row": 20,
+        "rowsha": "tMUOTibp1z26FxPSb+RWkeOqY7JqYQ0Xm3N7AKeHmig=",
+        "originContent": "make previewDev",
+        "translatedContent": "make previewDev"
+      },
+      {
+        "row": 21,
+        "rowsha": "tqsc13PEO0UD5NJwIAwKYunB7MUruf5XRjZqeVGys5Y=",
+        "originContent": "# Access the website in your browser at http://127.0.0.1:4321/",
+        "translatedContent": "# Access the website in your browser at http://127.0.0.1:4321/"
+      },
+      {
+        "row": 22,
+        "rowsha": "Ze0p0rLMXwNEmkyjoPG62XkwFBsoJDJ8iW+V0oAJWDM=",
+        "originContent": "# \\<ctrl-c\\> to stop",
+        "translatedContent": "# \\<ctrl-c\\> to stop"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "f5cXO8Ji/lI9Y03bWZZlILsF7Ok0lBDWowZSBUcXnMw=",
+        "originContent": "# Serve static website in the background",
+        "translatedContent": "# Serve static website in the background"
+      },
+      {
+        "row": 25,
+        "rowsha": "Y41gfbEE/I2AbjCj6GiEZeTwdX3gDQvIprhc/9Wx0bo=",
+        "originContent": "make preview",
+        "translatedContent": "make preview"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "gAiMKmDU8csHDSCXbVD5a2K3TjtB1ORzABbU0Ut/eUg=",
+        "originContent": "# Test static website",
+        "translatedContent": "# Test static website"
+      },
+      {
+        "row": 28,
+        "rowsha": "Pyd5vd9ckT6il4OBdO80J4ELKo25YSGOf3m9FO3mVec=",
+        "originContent": "make testPreview",
+        "translatedContent": "make testPreview"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "kv5+OUhBHIJKrne3Qmcw0vRCxz+KOZJnLEo0YmxIXME=",
+        "originContent": "# Clean",
+        "translatedContent": "# Clean"
+      },
+      {
+        "row": 31,
+        "rowsha": "Prc3rATA+n4FY4RbvpRil/l9A/EkTRtMD6VJb6T+nZI=",
+        "originContent": "make clean",
+        "translatedContent": "make clean"
+      },
+      {
+        "row": 32,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n### Deployment\n\nThe 3 Musketeers website is deployed to [Cloudflare Pages][linkCloudflarePages].\nThis section shows how to create, deploy, and delete a Pages project using\n[Wrangler CLI][linkCloudflareWranglerCLI]. This is handy for previewing new\nchanges.\n\nGiven build, test and deployment are going to be done with GitHub Actions, this\nsection follows the [Direct Upload][linkCloudflareDirectUpload] and\n[Run Wrangler in CI/CD][linkCloudflareWranglerCICD] directives.\n\n> [!NOTE]\n> This section requires the static site to be have been generated with\n> `make build`\n\n#### 0. Cloudflare account ID and API token\n\nTo interact with Cloudflare Pages with Wrangler CLI, Cloudflare account ID and\nAPI token are required.\n\n1. Account ID: [Find account and zone IDs][linkCloudflareFindAccountAndZoneIDs]\n1. API token\n   1. [Create API token][linkCloudflareCreateAPIToken]\n   1. Use `Edit Cloudflare Workers` template\n   1. Update the `Token name`\n   1. Permissions:\n      1. Account - Cloudflare Pages - Edit\n      1. Remove other permissions\n   1. Include your account\n   1. Set a short-lived TTL\n   1. Click `Continue to summary`\n1. These values will be used in the following section `1. Envfile`\n\n#### 1. Envfile\n\nThe following sections use the values from the file `.env`. Create file `.env`\n(based on `env.template`) with the correct values.\n\nExample:",
+    "ContentSha": "M0ul8qukfQ/KBKuFnhDxCh/W4WQpXcZqZS4TxbvHK7M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### デプロイメント\n\n3ムスケティアーズのウェブサイトは[Cloudflare Pages][linkCloudflarePages]にデプロイされています。  \nこのセクションでは、[Wrangler CLI][linkCloudflareWranglerCLI]を使用してPagesプロジェクトを作成、デプロイ、削除する方法を示します。  \nこれは新しい変更をプレビューするのに便利です。\n\nビルド、テスト、デプロイはGitHub Actionsで行われるため、  \nこのセクションでは[Direct Upload][linkCloudflareDirectUpload]と  \n[Run Wrangler in CI/CD][linkCloudflareWranglerCICD]の指示に従います。\n\n> [!NOTE]\n> このセクションでは静的サイトが\n> `make build`で生成されている必要があります\n\n#### 0. CloudflareアカウントIDとAPIトークン\n\nWrangler CLIを使用してCloudflare Pagesとやり取りするには、CloudflareアカウントIDと  \nAPIトークンが必要です。\n\n1. アカウントID: [アカウントとゾーンIDの確認][linkCloudflareFindAccountAndZoneIDs]  \n1. APIトークン  \n   1. [APIトークンの作成][linkCloudflareCreateAPIToken]  \n   1. `Edit Cloudflare Workers`テンプレートを使用  \n   1. `Token name`を更新  \n   1. 権限:  \n      1. アカウント - Cloudflare Pages - 編集  \n      1. 他の権限は削除  \n   1. ご自身のアカウントを含める  \n   1. 短期間のTTLを設定  \n   1. `Continue to summary`をクリック  \n1. これらの値は次のセクション`1. Envfile`で使用されます\n\n#### 1. Envfile\n\n以下のセクションでは`.env`ファイルの値を使用します。正しい値で`.env`ファイルを  \n（`env.template`を基に）作成してください。\n\n例：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### デプロイメント"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ti8bb6/MZ7s0COAblP4OdWi+Pa9XyI5TCy+wd+FCv/w=",
+        "originContent": "### Deployment",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3ムスケティアーズのウェブサイトは[Cloudflare Pages][linkCloudflarePages]にデプロイされています。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "7qY8HURRQX3u4j0ALpQ82NVj+zbmtSK6tZJZSn4uSj0=",
+        "originContent": "The 3 Musketeers website is deployed to [Cloudflare Pages][linkCloudflarePages].",
+        "translatedContent": "このセクションでは、[Wrangler CLI][linkCloudflareWranglerCLI]を使用してPagesプロジェクトを作成、デプロイ、削除する方法を示します。  "
+      },
+      {
+        "row": 5,
+        "rowsha": "oDwUjcmubzRax4ELkHKXx33qSRwzmG1ECUsBehe7HE0=",
+        "originContent": "This section shows how to create, deploy, and delete a Pages project using",
+        "translatedContent": "これは新しい変更をプレビューするのに便利です。"
+      },
+      {
+        "row": 6,
+        "rowsha": "QNCA2Q+j6Fp6bjxUveX4oJsZ52Z5i7IF/gdWj+CK2t8=",
+        "originContent": "[Wrangler CLI][linkCloudflareWranglerCLI]. This is handy for previewing new",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "0+2n1+1EtLQ/y/pvg/b603DJ5g7iYSavsgGnWwm3jzQ=",
+        "originContent": "changes.",
+        "translatedContent": "ビルド、テスト、デプロイはGitHub Actionsで行われるため、  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "このセクションでは[Direct Upload][linkCloudflareDirectUpload]と  "
+      },
+      {
+        "row": 9,
+        "rowsha": "+ro2o0H5To9T23ybcEJuGrMp6FNI7MqQpebVjYoeAiA=",
+        "originContent": "Given build, test and deployment are going to be done with GitHub Actions, this",
+        "translatedContent": "[Run Wrangler in CI/CD][linkCloudflareWranglerCICD]の指示に従います。"
+      },
+      {
+        "row": 10,
+        "rowsha": "qWowMxjt84Vr+AVZ8reeQmOE0cs3rpRh2ZksYcov/uY=",
+        "originContent": "section follows the [Direct Upload][linkCloudflareDirectUpload] and",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "B26+YZ05VBkbJtEt1rDKDvplEIm2eG3tqi8JlFQF8jw=",
+        "originContent": "[Run Wrangler in CI/CD][linkCloudflareWranglerCICD] directives.",
+        "translatedContent": "> [!NOTE]"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> このセクションでは静的サイトが"
+      },
+      {
+        "row": 13,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> `make build`で生成されている必要があります"
+      },
+      {
+        "row": 14,
+        "rowsha": "pn4Cb8/v4fLM/nos3OcyKa59qV1H6YL1mVPi8zjdr6s=",
+        "originContent": "> This section requires the static site to be have been generated with",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "LnIwfsT4l0SCM9gi6tV8HdX2rfe8u1qwzGLSSzJTMeE=",
+        "originContent": "> `make build`",
+        "translatedContent": "#### 0. CloudflareアカウントIDとAPIトークン"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "+urntqCA87omRY71rIBDCJ2IncCp9gwnWfqDjBJzL70=",
+        "originContent": "#### 0. Cloudflare account ID and API token",
+        "translatedContent": "Wrangler CLIを使用してCloudflare Pagesとやり取りするには、CloudflareアカウントIDと  "
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "APIトークンが必要です。"
+      },
+      {
+        "row": 19,
+        "rowsha": "r0GfQrITaOdjabwpH1QcDYOSPF3vnJVb8K9Z1VPoqiY=",
+        "originContent": "To interact with Cloudflare Pages with Wrangler CLI, Cloudflare account ID and",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "V6u1NKFwuHo9k4W6hFatE7h+KwGfPM/MGp+gIVgPEZc=",
+        "originContent": "API token are required.",
+        "translatedContent": "1. アカウントID: [アカウントとゾーンIDの確認][linkCloudflareFindAccountAndZoneIDs]  "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. APIトークン  "
+      },
+      {
+        "row": 22,
+        "rowsha": "ODxcS3XBsNHX6n7BQN++x+25DArE6Krkd1IJJ/eUpcY=",
+        "originContent": "1. Account ID: [Find account and zone IDs][linkCloudflareFindAccountAndZoneIDs]",
+        "translatedContent": "   1. [APIトークンの作成][linkCloudflareCreateAPIToken]  "
+      },
+      {
+        "row": 23,
+        "rowsha": "3o+rS7lfmLQAIp6gBPYMQe+ZCfULLYAAx7pJif/mAGM=",
+        "originContent": "1. API token",
+        "translatedContent": "   1. `Edit Cloudflare Workers`テンプレートを使用  "
+      },
+      {
+        "row": 24,
+        "rowsha": "71HFUXuJk8zcXjd1lkntKsoM+jahphNJS3+QPQHrMUY=",
+        "originContent": "   1. [Create API token][linkCloudflareCreateAPIToken]",
+        "translatedContent": "   1. `Token name`を更新  "
+      },
+      {
+        "row": 25,
+        "rowsha": "c0sRwwVBFwBxBUSJLA1lP7oCDCUSszz7qUUvi48tCF8=",
+        "originContent": "   1. Use `Edit Cloudflare Workers` template",
+        "translatedContent": "   1. 権限:  "
+      },
+      {
+        "row": 26,
+        "rowsha": "sT56m+makyyhyXMRJqgXNh2OGmeBQzRamHAo7Ru2JPE=",
+        "originContent": "   1. Update the `Token name`",
+        "translatedContent": "      1. アカウント - Cloudflare Pages - 編集  "
+      },
+      {
+        "row": 27,
+        "rowsha": "PcqhW2g7/Z4r9SYJ+zGNZp4qosCXQPUjkbAQYaSACLA=",
+        "originContent": "   1. Permissions:",
+        "translatedContent": "      1. 他の権限は削除  "
+      },
+      {
+        "row": 28,
+        "rowsha": "R3lUf8QYt34+LpzELy8tvkK4VRQctwKR8wZBNjxjAz4=",
+        "originContent": "      1. Account - Cloudflare Pages - Edit",
+        "translatedContent": "   1. ご自身のアカウントを含める  "
+      },
+      {
+        "row": 29,
+        "rowsha": "lBzR/8XVv2GEAGYRZJyBhS5PlY2rloZhR/62XAUBtu0=",
+        "originContent": "      1. Remove other permissions",
+        "translatedContent": "   1. 短期間のTTLを設定  "
+      },
+      {
+        "row": 30,
+        "rowsha": "rsPQ4A6w/8IQXNkSUJ4+Cuk40PRnRKXWLzHQA8LEPhA=",
+        "originContent": "   1. Include your account",
+        "translatedContent": "   1. `Continue to summary`をクリック  "
+      },
+      {
+        "row": 31,
+        "rowsha": "2NIV7Voe/e+kiMyA7GKMUUx1zj+LD21SeTyFjkTe9C0=",
+        "originContent": "   1. Set a short-lived TTL",
+        "translatedContent": "1. これらの値は次のセクション`1. Envfile`で使用されます"
+      },
+      {
+        "row": 32,
+        "rowsha": "SIcvjZdV/SxUT7ctM0crYyAW3jTj3xKeXLZPJ2De1Z4=",
+        "originContent": "   1. Click `Continue to summary`",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "fX4KVsU+0Q03PRaxB8GNbqZm2jgNX5gtN5ZFdQEXnbI=",
+        "originContent": "1. These values will be used in the following section `1. Envfile`",
+        "translatedContent": "#### 1. Envfile"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "5uIP3bYmjRonDN5PDNMiS1qsNfzzkeN7HjRezJvyzsA=",
+        "originContent": "#### 1. Envfile",
+        "translatedContent": "以下のセクションでは`.env`ファイルの値を使用します。正しい値で`.env`ファイルを  "
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "（`env.template`を基に）作成してください。"
+      },
+      {
+        "row": 37,
+        "rowsha": "Dx3lRH771A35aNVLxiC5iKGpKyzqnNJ+kf3Gm6j/SDE=",
+        "originContent": "The following sections use the values from the file `.env`. Create file `.env`",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "0uQ8yF1kZQ+EW4blmgq4Xex/UCzGKgGuNMBs7IRYwBY=",
+        "originContent": "(based on `env.template`) with the correct values.",
+        "translatedContent": "例："
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# .env\nENV_CLOUDFLARE_BRANCH_NAME=main\nENV_CLOUDFLARE_PROJECT_NAME=random-project-name\nENV_SECRET_CLOUDFLARE_ACCOUNT_ID=id-from-previous-section\nENV_SECRET_CLOUDFLARE_API_TOKEN=token-from-previous-section\n```",
+    "ContentSha": "8C7+N+nO/mxHkW6bKtZEArC/IsA8S61fh5lvOpQ9ImU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# .env\nENV_CLOUDFLARE_BRANCH_NAME=main\nENV_CLOUDFLARE_PROJECT_NAME=random-project-name\nENV_SECRET_CLOUDFLARE_ACCOUNT_ID=id-from-previous-section\nENV_SECRET_CLOUDFLARE_API_TOKEN=token-from-previous-section\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "zK/WlJbDxlfOuPB9jJV3xqYugKBe+cMRAebE4BnCeXQ=",
+        "originContent": "# .env",
+        "translatedContent": "# .env"
+      },
+      {
+        "row": 3,
+        "rowsha": "8s1LEgrRXdiAvDk5MdaJ2VKNVvAzAVCRWuBF+Vf4upQ=",
+        "originContent": "ENV_CLOUDFLARE_BRANCH_NAME=main",
+        "translatedContent": "ENV_CLOUDFLARE_BRANCH_NAME=main"
+      },
+      {
+        "row": 4,
+        "rowsha": "YoMKPMaxxR0Yw67kEyfvkuGVIgwDb1qo6gfJBF42XgE=",
+        "originContent": "ENV_CLOUDFLARE_PROJECT_NAME=random-project-name",
+        "translatedContent": "ENV_CLOUDFLARE_PROJECT_NAME=random-project-name"
+      },
+      {
+        "row": 5,
+        "rowsha": "ARoRdKaTsIwIl5tewOPQ6vKV9Mmx5OzJt8Q2RrLx1i0=",
+        "originContent": "ENV_SECRET_CLOUDFLARE_ACCOUNT_ID=id-from-previous-section",
+        "translatedContent": "ENV_SECRET_CLOUDFLARE_ACCOUNT_ID=id-from-previous-section"
+      },
+      {
+        "row": 6,
+        "rowsha": "wI9rq/cPu6YLXRuon4auZlR8lBsJL8R6bsfdxStRvvY=",
+        "originContent": "ENV_SECRET_CLOUDFLARE_API_TOKEN=token-from-previous-section",
+        "translatedContent": "ENV_SECRET_CLOUDFLARE_API_TOKEN=token-from-previous-section"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nVerify:\n",
+    "ContentSha": "XsmaRnih106CyOq4l0YTzyQ2xqShkJ59wYq6Fn6rGlg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "検証：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "検証："
+      },
+      {
+        "row": 2,
+        "rowsha": "DH3vmPYhBX9knwgfxL3QWpHEBbz3ddwcvyMk1d05P6Y=",
+        "originContent": "Verify:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nmake shell\n# Check the env vars are correctly set\nenv | grep ENV_\n# List current projects on CloudFlare\ndeno task deploy:list\nexit\n```",
+    "ContentSha": "9/mMM1IkCUxtPlWNjj41NrjnpUMiCxBeayd0/4JY1QU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nmake shell\n# Check the env vars are correctly set\nenv | grep ENV_\n# List current projects on CloudFlare\ndeno task deploy:list\nexit\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "RW6FiY5eT06HsM49Ar/00Yq9oABid5obml/c2v+sU/0=",
+        "originContent": "make shell",
+        "translatedContent": "make shell"
+      },
+      {
+        "row": 3,
+        "rowsha": "XrkDZ491NZW6sXwCbH4utqf7CFKwVAc29OkoEPGp8OA=",
+        "originContent": "# Check the env vars are correctly set",
+        "translatedContent": "# Check the env vars are correctly set"
+      },
+      {
+        "row": 4,
+        "rowsha": "vleGX1t62Wqyx0oYpfXOanFQ1Bp3gPI4X/hlwAssLMw=",
+        "originContent": "env | grep ENV_",
+        "translatedContent": "env | grep ENV_"
+      },
+      {
+        "row": 5,
+        "rowsha": "E7WcT3Jog0afzWaF8LNyhWeKzOgS6u6FGUwUYybQmvk=",
+        "originContent": "# List current projects on CloudFlare",
+        "translatedContent": "# List current projects on CloudFlare"
+      },
+      {
+        "row": 6,
+        "rowsha": "0zwQpCUYzbhDji8kSEdghwK/C78ljE9qpe+KiE7arx8=",
+        "originContent": "deno task deploy:list",
+        "translatedContent": "deno task deploy:list"
+      },
+      {
+        "row": 7,
+        "rowsha": "5ZaJnxFLUWJAIyXfsx/ap5L6vtcYYoM2zHo1ok846qk=",
+        "originContent": "exit",
+        "translatedContent": "exit"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n#### 2. Create\n\nThis section creates a new Pages project. This step is only needed if\n`ENV_CLOUDFLARE_PROJECT_NAME` wasn't listed in step `1. Envfile`.\n",
+    "ContentSha": "bAUfS/4WO13Bn05DgVIg+/rJcHjvPLqMM7ghNYrb+Ho=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### 2. 作成\n\nこのセクションでは新しいPagesプロジェクトを作成します。このステップは\n`ENV_CLOUDFLARE_PROJECT_NAME`がステップ`1. Envfile`に記載されていなかった場合のみ必要です。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 2. 作成"
+      },
+      {
+        "row": 2,
+        "rowsha": "H6/BIY91ZxWXrsK5KT23a0Hqke6ODp7PFPHGswkjvmE=",
+        "originContent": "#### 2. Create",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "このセクションでは新しいPagesプロジェクトを作成します。このステップは"
+      },
+      {
+        "row": 4,
+        "rowsha": "QyzIi90RaoSVQty+i0AsngMl3IZbkyB3GZdMrzHTe7o=",
+        "originContent": "This section creates a new Pages project. This step is only needed if",
+        "translatedContent": "`ENV_CLOUDFLARE_PROJECT_NAME`がステップ`1. Envfile`に記載されていなかった場合のみ必要です。"
+      },
+      {
+        "row": 5,
+        "rowsha": "ovO3ybg1bzhjrYBHD2PrIOxfJDgWGnSQRThhG3HKoeY=",
+        "originContent": "`ENV_CLOUDFLARE_PROJECT_NAME` wasn't listed in step `1. Envfile`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\nmake shell\n# Create a new project\ndeno task deploy:create\n# The new project and its domain should be listed\ndeno task deploy:list\n# Project is empty which should not be hosted\ncurl -I https://${ENV_CLOUDFLARE_PROJECT_NAME}.pages.dev\n#HTTP/2 522\n#...\n# Exit the container\nexit\n```",
+    "ContentSha": "wkPl55KXKDuEsR/V9wgwtgBPMAOiVkZgLhwh/KDD8pQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nmake shell\n# Create a new project\ndeno task deploy:create\n# The new project and its domain should be listed\ndeno task deploy:list\n# Project is empty which should not be hosted\ncurl -I https://${ENV_CLOUDFLARE_PROJECT_NAME}.pages.dev\n#HTTP/2 522\n#...\n# Exit the container\nexit\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "RW6FiY5eT06HsM49Ar/00Yq9oABid5obml/c2v+sU/0=",
+        "originContent": "make shell",
+        "translatedContent": "make shell"
+      },
+      {
+        "row": 3,
+        "rowsha": "JvxBUGIBwRHJzIT6gtULJ6ZcMNedTmXkjOgcJipER+s=",
+        "originContent": "# Create a new project",
+        "translatedContent": "# Create a new project"
+      },
+      {
+        "row": 4,
+        "rowsha": "1dkg9voznAAkovp2clcXaNm9I7MqJzyK18EWrHZQlNY=",
+        "originContent": "deno task deploy:create",
+        "translatedContent": "deno task deploy:create"
+      },
+      {
+        "row": 5,
+        "rowsha": "/63y8++aszavMS/S+NaljyJlB1zQ7HnrjRRBlvU/LiQ=",
+        "originContent": "# The new project and its domain should be listed",
+        "translatedContent": "# The new project and its domain should be listed"
+      },
+      {
+        "row": 6,
+        "rowsha": "0zwQpCUYzbhDji8kSEdghwK/C78ljE9qpe+KiE7arx8=",
+        "originContent": "deno task deploy:list",
+        "translatedContent": "deno task deploy:list"
+      },
+      {
+        "row": 7,
+        "rowsha": "dsxbl2pGLSMHdB7fZjfcTjA5xebIMTCd0kAsHbAAYPo=",
+        "originContent": "# Project is empty which should not be hosted",
+        "translatedContent": "# Project is empty which should not be hosted"
+      },
+      {
+        "row": 8,
+        "rowsha": "Zhq7sLnWz9dyccuNI7HWXGQQ+GCxluXWBuTLoCwsbJk=",
+        "originContent": "curl -I https://${ENV_CLOUDFLARE_PROJECT_NAME}.pages.dev",
+        "translatedContent": "curl -I https://${ENV_CLOUDFLARE_PROJECT_NAME}.pages.dev"
+      },
+      {
+        "row": 9,
+        "rowsha": "hxCfblcK7ftKGPHkUAV+y36+IpTX4E+o9wclSes5yC0=",
+        "originContent": "#HTTP/2 522",
+        "translatedContent": "#HTTP/2 522"
+      },
+      {
+        "row": 10,
+        "rowsha": "ZJfMdXb+ObSx5VZ6wiiUl8b1nzTTLjXdCQdrY0VtYVY=",
+        "originContent": "#...",
+        "translatedContent": "#..."
+      },
+      {
+        "row": 11,
+        "rowsha": "0/h7DBsFVoIji7VYaKTFmdvUJLfOzsumhQHoaWcvLlk=",
+        "originContent": "# Exit the container",
+        "translatedContent": "# Exit the container"
+      },
+      {
+        "row": 12,
+        "rowsha": "5ZaJnxFLUWJAIyXfsx/ap5L6vtcYYoM2zHo1ok846qk=",
+        "originContent": "exit",
+        "translatedContent": "exit"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n#### 3. Deploy\n\nThis section deploys the website to an existing Cloudflare Pages project.\n",
+    "ContentSha": "9lj/uv9jRSvXR8UNVN1IbQpqs1pCHYMGBbYPr+dliP4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### 3. デプロイ\n\nこのセクションでは、既存のCloudflare Pagesプロジェクトにウェブサイトをデプロイします。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KysV0OO4e+RtGLLmahF4oIwdzpo7UqcjQDFd7iazt+s=",
+        "originContent": "#### 3. Deploy",
+        "translatedContent": "#### 3. デプロイ"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "31pezUfjqCoVgNif2c3DVY6p9v9mD+pZJ6u++Z9xFEQ=",
+        "originContent": "This section deploys the website to an existing Cloudflare Pages project.",
+        "translatedContent": "このセクションでは、既存のCloudflare Pagesプロジェクトにウェブサイトをデプロイします。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\nmake shell\n# Deploy the files to the project\ndeno task deploy\n# Project is no longer empty!\ncurl -I https://${ENV_CLOUDFLARE_PROJECT_NAME}.pages.dev\n#HTTP/2 200\n#...\n# Exit the container\nexit\n```",
+    "ContentSha": "Qe1SXS8M0laNlxSQ1ZZa3DbTWPVyspHxWvjIxvMVI2I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nmake shell\n# Deploy the files to the project\ndeno task deploy\n# Project is no longer empty!\ncurl -I https://${ENV_CLOUDFLARE_PROJECT_NAME}.pages.dev\n#HTTP/2 200\n#...\n# Exit the container\nexit\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "RW6FiY5eT06HsM49Ar/00Yq9oABid5obml/c2v+sU/0=",
+        "originContent": "make shell",
+        "translatedContent": "make shell"
+      },
+      {
+        "row": 3,
+        "rowsha": "Aiqmmv1yksMxdARIidd0LThzKG0MgR3qg/GxNSzWWEw=",
+        "originContent": "# Deploy the files to the project",
+        "translatedContent": "# Deploy the files to the project"
+      },
+      {
+        "row": 4,
+        "rowsha": "/yQ4l7M0ATyL0BcTI1z9OZ7vj6v9iDmrDb7+jl58wRg=",
+        "originContent": "deno task deploy",
+        "translatedContent": "deno task deploy"
+      },
+      {
+        "row": 5,
+        "rowsha": "Op2MS6NxNR1ynrAz26sTiBDqhHOoE+DaXwVapdHAoFw=",
+        "originContent": "# Project is no longer empty!",
+        "translatedContent": "# Project is no longer empty!"
+      },
+      {
+        "row": 6,
+        "rowsha": "Zhq7sLnWz9dyccuNI7HWXGQQ+GCxluXWBuTLoCwsbJk=",
+        "originContent": "curl -I https://${ENV_CLOUDFLARE_PROJECT_NAME}.pages.dev",
+        "translatedContent": "curl -I https://${ENV_CLOUDFLARE_PROJECT_NAME}.pages.dev"
+      },
+      {
+        "row": 7,
+        "rowsha": "O9yg0T8rRrHMoAGVxgkMJYU4rHB8Ejk/vL3ebxx/LB8=",
+        "originContent": "#HTTP/2 200",
+        "translatedContent": "#HTTP/2 200"
+      },
+      {
+        "row": 8,
+        "rowsha": "ZJfMdXb+ObSx5VZ6wiiUl8b1nzTTLjXdCQdrY0VtYVY=",
+        "originContent": "#...",
+        "translatedContent": "#..."
+      },
+      {
+        "row": 9,
+        "rowsha": "0/h7DBsFVoIji7VYaKTFmdvUJLfOzsumhQHoaWcvLlk=",
+        "originContent": "# Exit the container",
+        "translatedContent": "# Exit the container"
+      },
+      {
+        "row": 10,
+        "rowsha": "5ZaJnxFLUWJAIyXfsx/ap5L6vtcYYoM2zHo1ok846qk=",
+        "originContent": "exit",
+        "translatedContent": "exit"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nNote: `make deploy` can also be used.\n\n#### 4. Delete\n\nThis section shows how to delete a Cloudflare Pages project.\n",
+    "ContentSha": "FtLVokZTXG4nc/4cTM1Aa3BEQcsCruO3CwW9TcPrUt8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n注：`make deploy`も使用可能です。\n\n#### 4. 削除\n\nこのセクションでは、Cloudflare Pagesプロジェクトの削除方法を示します。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "xVNaazJ6M9No9rmfdJ8GcI8eZZK7XLwv/34lPqa/63Y=",
+        "originContent": "Note: `make deploy` can also be used.",
+        "translatedContent": "注：`make deploy`も使用可能です。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Ys8eutTsou3WNDyBBIKtNcsGwUQCJY2Q1IdinBGxBLw=",
+        "originContent": "#### 4. Delete",
+        "translatedContent": "#### 4. 削除"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ZVWJ2U7gSUfDVvhRpbyLzVVtNKdh4xHSPKKkzB76NO8=",
+        "originContent": "This section shows how to delete a Cloudflare Pages project.",
+        "translatedContent": "このセクションでは、Cloudflare Pagesプロジェクトの削除方法を示します。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\nmake shell\ndeno task deploy:delete\n#? Are you sure you want to delete \"<ENV_CLOUDFLARE_PROJECT_NAME>\"? This action cannot be undone. › y\n# Check the project is no longer listed\ndeno task deploy:list\nexit\n```",
+    "ContentSha": "6xvbJJjyucgrCNt7ghHFwk1D+6nvprbq96pIJBA4QVg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nmake shell\ndeno task deploy:delete\n#? Are you sure you want to delete \"<ENV_CLOUDFLARE_PROJECT_NAME>\"? This action cannot be undone. › y\n# Check the project is no longer listed\ndeno task deploy:list\nexit\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "RW6FiY5eT06HsM49Ar/00Yq9oABid5obml/c2v+sU/0=",
+        "originContent": "make shell",
+        "translatedContent": "make shell"
+      },
+      {
+        "row": 3,
+        "rowsha": "lBpyDDg37HSdkoLcfk2KJZLb+d+l7LgYPJS+wFMZW+k=",
+        "originContent": "deno task deploy:delete",
+        "translatedContent": "deno task deploy:delete"
+      },
+      {
+        "row": 4,
+        "rowsha": "cY5K7dymmp3wG++FOcsfqJKE4t0dHzutxzmjneRiMAw=",
+        "originContent": "#? Are you sure you want to delete \"<ENV_CLOUDFLARE_PROJECT_NAME>\"? This action cannot be undone. › y",
+        "translatedContent": "#? Are you sure you want to delete \"<ENV_CLOUDFLARE_PROJECT_NAME>\"? This action cannot be undone. › y"
+      },
+      {
+        "row": 5,
+        "rowsha": "6AWPWURUla8pJbg/6vZWA/4lvm5eUbFJ/mdSqAueAt8=",
+        "originContent": "# Check the project is no longer listed",
+        "translatedContent": "# Check the project is no longer listed"
+      },
+      {
+        "row": 6,
+        "rowsha": "0zwQpCUYzbhDji8kSEdghwK/C78ljE9qpe+KiE7arx8=",
+        "originContent": "deno task deploy:list",
+        "translatedContent": "deno task deploy:list"
+      },
+      {
+        "row": 7,
+        "rowsha": "5ZaJnxFLUWJAIyXfsx/ap5L6vtcYYoM2zHo1ok846qk=",
+        "originContent": "exit",
+        "translatedContent": "exit"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n> [!IMPORTANT]\n> The CloudFlare token created in section\n> `0. Cloudflare account ID and API token` can be deleted\n\n### CI/CD\n\n[GitHub Actions][linkGitHubActions] is used to test PRs and deploy changes made\nto `main` branch to Cloudflare Pages.\n\n- A dedicated Cloudflare API token has been created for Github Actions\n- Environment variables required for deploying to Cloudflare Pages are set as\n  [variables][linkGitHubActionsVariables] and\n  [secrets][linkGitHubActionsSecrets] in GitHub Actions\n- The GitHub Actions workflows follow the 3 Musketeers pattern\n\n### Visual elements\n\n- 3 Musketeers logo\n  - Created by me with [Procreate][linkProcreate] and Vectornator\n    - Neat tools used are `offset path` and `mask objects`\n  - 2048px by 2048px SVG image\n  - Images are in folder `./src/assets/logo/`\n- Favicon\n  - Source image is an exported png format of the logo\n  - Use the website [favicon.io][linkFaviconio]\n  - The generated content is in `./public/favicon_io`\n  - Instructions to copy HTML `<link>` tags into the `<head>` was set in\n    `./astro.config.mjs`\n- Social media preview\n  - This is for displaying preview of the website on Twitter, Facebook, GitHub,\n    etc\n  - Created a new vector image 1280x640px with the scale down logo at the center\n    - The size is suggested by GitHub in General settings\n  - According to [artegence article][linkArtegenceArticle], the ideal image that\n    works on different social platforms\n    - Is 1200x630px\n    - Has the logo (630x630) centered\n    - Use png format (very high quality and transparency)\n    - Use jpg format (high quality and very good size compression)",
+    "ContentSha": "Bbg8mm5D+QMNScfPqRHsrr6Mr8Ph6KzxC+Q8BTjQQqs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> [!重要]\n> セクション\n> `0. CloudflareアカウントIDとAPIトークン`で作成したCloudFlareトークンは削除可能です\n\n### CI/CD\n\n[GitHub Actions][linkGitHubActions] はPRのテストおよび\n`main` ブランチの変更をCloudflare Pagesにデプロイするために使用されています。\n\n- GitHub Actions専用のCloudflare APIトークンが作成されています\n- Cloudflare Pagesへのデプロイに必要な環境変数は\n  GitHub Actionsの[variables][linkGitHubActionsVariables]および\n  [secrets][linkGitHubActionsSecrets]に設定されています\n- GitHub Actionsのワークフローは3 Musketeersパターンに従っています\n\n### ビジュアル要素\n\n- 3 Musketeersロゴ\n  - 私が[Procreate][linkProcreate]とVectornatorで作成\n    - 使用した便利なツールは`offset path`と`mask objects`\n  - 2048px×2048pxのSVG画像\n  - 画像は`./src/assets/logo/`フォルダにあります\n- ファビコン\n  - 元画像はロゴのpng形式の書き出し\n  - [favicon.io][linkFaviconio]のウェブサイトを使用\n  - 生成されたコンテンツは`./public/favicon_io`にあります\n  - HTMLの`<link>`タグを`<head>`にコピーする手順は\n    `./astro.config.mjs`に設定されています\n- ソーシャルメディアプレビュー\n  - Twitter、Facebook、GitHubなどでウェブサイトのプレビューを表示するためのもの\n  - 新しく1280x640pxのベクター画像を作成し、中央に縮小したロゴを配置\n    - サイズはGitHubのGeneral設定で推奨されているもの\n  - [artegence記事][linkArtegenceArticle]によると、異なるソーシャルプラットフォームで機能する理想的な画像は\n    - 1200x630pxである\n    - ロゴ（630x630）が中央に配置されている\n    - png形式を使用（非常に高品質で透過あり）\n    - jpg形式を使用（高品質で非常に良いサイズ圧縮）\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "qv0XWtvfGjlacbeo5zWUZHv7PDKhmVRgLu9tBYXFnKs=",
+        "originContent": "> [!IMPORTANT]",
+        "translatedContent": "> [!重要]"
+      },
+      {
+        "row": 3,
+        "rowsha": "30lbj3d/pP/mvI6JIyL3uLm5nZg8VzJOLVkReDf/2VM=",
+        "originContent": "> The CloudFlare token created in section",
+        "translatedContent": "> セクション"
+      },
+      {
+        "row": 4,
+        "rowsha": "+jmVutNHwGrsnun/E2qX4e1btW4tWCi1dvf8GelrNQw=",
+        "originContent": "> `0. Cloudflare account ID and API token` can be deleted",
+        "translatedContent": "> `0. CloudflareアカウントIDとAPIトークン`で作成したCloudFlareトークンは削除可能です"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "gQd3k0QoVZTfeotBdzTPqyREVvKNypqNAk4K8jNrw9k=",
+        "originContent": "### CI/CD",
+        "translatedContent": "### CI/CD"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "xxWMwGyKwt3XfI5Zm/khz6eLeCeKPR7HA/joWqM90qY=",
+        "originContent": "[GitHub Actions][linkGitHubActions] is used to test PRs and deploy changes made",
+        "translatedContent": "[GitHub Actions][linkGitHubActions] はPRのテストおよび"
+      },
+      {
+        "row": 9,
+        "rowsha": "EiRslsYPTbOBBTNuShtdBFmLRomIbOW/K4ZtEHYc0w0=",
+        "originContent": "to `main` branch to Cloudflare Pages.",
+        "translatedContent": "`main` ブランチの変更をCloudflare Pagesにデプロイするために使用されています。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "WNBinA16OGVx3z3JE19QvoXUZ41MGsCGFmuTRfdi/F0=",
+        "originContent": "- A dedicated Cloudflare API token has been created for Github Actions",
+        "translatedContent": "- GitHub Actions専用のCloudflare APIトークンが作成されています"
+      },
+      {
+        "row": 12,
+        "rowsha": "rI5M+12t07K3fjbdxgmoLcP9LEWdvRYLLBESaWVGFMM=",
+        "originContent": "- Environment variables required for deploying to Cloudflare Pages are set as",
+        "translatedContent": "- Cloudflare Pagesへのデプロイに必要な環境変数は"
+      },
+      {
+        "row": 13,
+        "rowsha": "98EAszAcbrEU2HbuLLeTBETom9B/s+Gcz66G//5G+Yw=",
+        "originContent": "  [variables][linkGitHubActionsVariables] and",
+        "translatedContent": "  GitHub Actionsの[variables][linkGitHubActionsVariables]および"
+      },
+      {
+        "row": 14,
+        "rowsha": "33Wv6P8P6aeTxtG+lLXk1XK4K7hxXfIwf07dzw/XUmA=",
+        "originContent": "  [secrets][linkGitHubActionsSecrets] in GitHub Actions",
+        "translatedContent": "  [secrets][linkGitHubActionsSecrets]に設定されています"
+      },
+      {
+        "row": 15,
+        "rowsha": "oBAmrk++Me4jtwBhdpT5Loy2rcU7cmFVF6HpMqzLEIA=",
+        "originContent": "- The GitHub Actions workflows follow the 3 Musketeers pattern",
+        "translatedContent": "- GitHub Actionsのワークフローは3 Musketeersパターンに従っています"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "t5ksG4geKe5wHnUXivP8Lsosg7OG4MQtt11Tz0AcYwM=",
+        "originContent": "### Visual elements",
+        "translatedContent": "### ビジュアル要素"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "YPCpra4wX4Yiua5SbC6/Ev95qQM0g4iOXq0ROtN9qjg=",
+        "originContent": "- 3 Musketeers logo",
+        "translatedContent": "- 3 Musketeersロゴ"
+      },
+      {
+        "row": 20,
+        "rowsha": "bte5vBym3vJ70bpJkRLqrCH70CoSk+sEtdhl7Ba+28w=",
+        "originContent": "  - Created by me with [Procreate][linkProcreate] and Vectornator",
+        "translatedContent": "  - 私が[Procreate][linkProcreate]とVectornatorで作成"
+      },
+      {
+        "row": 21,
+        "rowsha": "NQLcV2dg8U+2Yju57r4kkOa724egNyEEahki6CLELN8=",
+        "originContent": "    - Neat tools used are `offset path` and `mask objects`",
+        "translatedContent": "    - 使用した便利なツールは`offset path`と`mask objects`"
+      },
+      {
+        "row": 22,
+        "rowsha": "o2VpXJ/kkUPPcZgoa+djxs4DAGP3VBxvVubJc5YLWU4=",
+        "originContent": "  - 2048px by 2048px SVG image",
+        "translatedContent": "  - 2048px×2048pxのSVG画像"
+      },
+      {
+        "row": 23,
+        "rowsha": "plc+Lkbg7WDKmHp0fUZQn7B59AWtCUwg7y+dB41ssDs=",
+        "originContent": "  - Images are in folder `./src/assets/logo/`",
+        "translatedContent": "  - 画像は`./src/assets/logo/`フォルダにあります"
+      },
+      {
+        "row": 24,
+        "rowsha": "D17djCOD2te8sbTF2AX0dRylNLt0jTf+brpttfVQ3ok=",
+        "originContent": "- Favicon",
+        "translatedContent": "- ファビコン"
+      },
+      {
+        "row": 25,
+        "rowsha": "H/KApapGqDTN/YB8zzC/utZUOHifS4THjc1pVkETSa0=",
+        "originContent": "  - Source image is an exported png format of the logo",
+        "translatedContent": "  - 元画像はロゴのpng形式の書き出し"
+      },
+      {
+        "row": 26,
+        "rowsha": "oE4bOyj82avKkC4MApnMfEiZwM5xfcnTV3bAkURUWc8=",
+        "originContent": "  - Use the website [favicon.io][linkFaviconio]",
+        "translatedContent": "  - [favicon.io][linkFaviconio]のウェブサイトを使用"
+      },
+      {
+        "row": 27,
+        "rowsha": "EyPcCiZa5nDMs0b2tdMo9WgWShJth4EsBHqqsj9Ed1Y=",
+        "originContent": "  - The generated content is in `./public/favicon_io`",
+        "translatedContent": "  - 生成されたコンテンツは`./public/favicon_io`にあります"
+      },
+      {
+        "row": 28,
+        "rowsha": "Fb+Md9gdz0mqkoMZcXufK+QJM/ZI1I7452K2LNPWvJs=",
+        "originContent": "  - Instructions to copy HTML `<link>` tags into the `<head>` was set in",
+        "translatedContent": "  - HTMLの`<link>`タグを`<head>`にコピーする手順は"
+      },
+      {
+        "row": 29,
+        "rowsha": "mhVLjf92QG2m/0F+gPW0uumM6DeNq3R+xeBff0fy9rc=",
+        "originContent": "    `./astro.config.mjs`",
+        "translatedContent": "    `./astro.config.mjs`に設定されています"
+      },
+      {
+        "row": 30,
+        "rowsha": "csU+gAKzOgrCPUuNJKtMtNKUKCtaI2EOQF4I2aBF+Kc=",
+        "originContent": "- Social media preview",
+        "translatedContent": "- ソーシャルメディアプレビュー"
+      },
+      {
+        "row": 31,
+        "rowsha": "Auph3RY+RejDX36AC1lrnFXMvHP4FUxZB9mgTcwFoIY=",
+        "originContent": "  - This is for displaying preview of the website on Twitter, Facebook, GitHub,",
+        "translatedContent": "  - Twitter、Facebook、GitHubなどでウェブサイトのプレビューを表示するためのもの"
+      },
+      {
+        "row": 32,
+        "rowsha": "fDsjLHxXdcosgzC3EQ2VPLxcY5Kx3N17iSzOgGcev1M=",
+        "originContent": "    etc",
+        "translatedContent": "  - 新しく1280x640pxのベクター画像を作成し、中央に縮小したロゴを配置"
+      },
+      {
+        "row": 33,
+        "rowsha": "bLXoJNNZ4bDTerQx2xQKZN64jxiIygnHBf0U7AqLkHw=",
+        "originContent": "  - Created a new vector image 1280x640px with the scale down logo at the center",
+        "translatedContent": "    - サイズはGitHubのGeneral設定で推奨されているもの"
+      },
+      {
+        "row": 34,
+        "rowsha": "yncNfX5MNQLYdjGFSLiF1zRvkF4uAYtjmfq45advOwA=",
+        "originContent": "    - The size is suggested by GitHub in General settings",
+        "translatedContent": "  - [artegence記事][linkArtegenceArticle]によると、異なるソーシャルプラットフォームで機能する理想的な画像は"
+      },
+      {
+        "row": 35,
+        "rowsha": "DD9/zUWSdWziEJWo49cUZY9Y//OkSBxPrw13cePHvJk=",
+        "originContent": "  - According to [artegence article][linkArtegenceArticle], the ideal image that",
+        "translatedContent": "    - 1200x630pxである"
+      },
+      {
+        "row": 36,
+        "rowsha": "ku+bgJEHslEOFU8XwvGWwIFIBOs1jpU2tX24yH7HU8A=",
+        "originContent": "    works on different social platforms",
+        "translatedContent": "    - ロゴ（630x630）が中央に配置されている"
+      },
+      {
+        "row": 37,
+        "rowsha": "s3OZOleQel/JIBzPTuOdLB1/8pcB9DTLqimePYeFaKU=",
+        "originContent": "    - Is 1200x630px",
+        "translatedContent": "    - png形式を使用（非常に高品質で透過あり）"
+      },
+      {
+        "row": 38,
+        "rowsha": "yChY2RH6JcxxtGkJYt314p8y1nxBNj9M7YbRuKELiXA=",
+        "originContent": "    - Has the logo (630x630) centered",
+        "translatedContent": "    - jpg形式を使用（高品質で非常に良いサイズ圧縮）"
+      },
+      {
+        "row": 39,
+        "rowsha": "RAau82Wi64RHiAdyGaUUGR9DGCwrqX0wuRF43tOEYYg=",
+        "originContent": "    - Use png format (very high quality and transparency)",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "7fEqlYms4IpXJWzBDXjZtE7dpxPvQj4Za6ZvSoFsnvE=",
+        "originContent": "    - Use jpg format (high quality and very good size compression)",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "  - The social image is also set in the general settings of the repository\n  - Astro Startlight sets all of the `<meta>` tags in the `<head>` section\n- Diagrams\n  - [Mermaid][linkMermaid] is used to generate diagrams\n  - All diagrams are in the directory [diagrams](diagrams)\n- The [demo][linkDemo] was generated by [charmbracelet/vhs][linkVHS]\n\n## Contributing\n\n[CONTRIBUTING.md](https://raw.githubusercontent.com/flemay/3musketeers/main/CONTRIBUTING.md)\n\nThanks goes to [contributors][linkContributors].\n\n## License\n\n[MIT][linkLicense]\n\n[link3Musketeers]: https://3musketeers.pages.dev\n[linkArtegenceArticle]: https://artegence.com/blog/social-media-tags-guide-part-2-preparing-a-perfect-image-for-the-ogimage-tag/\n[linkAstroStarlight]: https://starlight.astro.build/\n[linkCloudflareCreateAPIToken]: https://dash.cloudflare.com/profile/api-tokens\n[linkCloudflareDirectUpload]: https://developers.cloudflare.com/pages/get-started/direct-upload/\n[linkCloudflareFindAccountAndZoneIDs]: https://developers.cloudflare.com/fundamentals/setup/find-account-and-zone-ids/\n[linkCloudflarePages]: https://pages.cloudflare.com/\n[linkCloudflareWranglerCICD]: https://developers.cloudflare.com/workers/wrangler/ci-cd/\n[linkCloudflareWranglerCLI]: https://developers.cloudflare.com/workers/wrangler/\n[linkCompose]: https://docs.docker.com/compose\n[linkContributors]: CONTRIBUTORS\n[linkDemo]: demo\n[linkDocker]: https://www.docker.com\n[linkFaviconio]: https://favicon.io\n[linkGitHubActions]: https://github.com/features/actions\n[linkGitHubActionsProject]: https://github.com/flemay/3musketeers/actions\n[linkGitHubActionsProjectBadge]: https://img.shields.io/github/actions/workflow/status/flemay/3musketeers/deploy.yml?style=for-the-badge&logo=github\n[linkGitHubActionsSecrets]: https://docs.github.com/en/actions/security-guides/encrypted-secrets\n[linkGitHubActionsVariables]: https://docs.github.com/en/actions/learn-github-actions/variables\n[linkLicense]: LICENSE\n[linkLicenseBadge]: https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge\n[linkMake]: https://www.gnu.org/software/make\n[linkMermaid]: https://mermaid.js.org/",
+    "ContentSha": "M1C0sHPT6mem6rPnjGMKF/cbr+47BJa5S4zwRC1f3kQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - ソーシャルイメージはリポジトリの一般設定でも設定されています\n  - Astro Starlight は `<head>` セクション内のすべての `<meta>` タグを設定します\n- 図表\n  - [Mermaid][linkMermaid] は図表の生成に使用されています\n  - すべての図表はディレクトリ [diagrams](diagrams) にあります\n- [demo][linkDemo] は [charmbracelet/vhs][linkVHS] によって生成されました\n\n## 貢献\n\n[CONTRIBUTING.md](https://raw.githubusercontent.com/flemay/3musketeers/main/CONTRIBUTING.md)\n\n感謝は [contributors][linkContributors] に送ります。\n\n## ライセンス\n\n[MIT][linkLicense]\n\n[link3Musketeers]: https://3musketeers.pages.dev\n[linkArtegenceArticle]: https://artegence.com/blog/social-media-tags-guide-part-2-preparing-a-perfect-image-for-the-ogimage-tag/\n[linkAstroStarlight]: https://starlight.astro.build/\n[linkCloudflareCreateAPIToken]: https://dash.cloudflare.com/profile/api-tokens\n[linkCloudflareDirectUpload]: https://developers.cloudflare.com/pages/get-started/direct-upload/\n[linkCloudflareFindAccountAndZoneIDs]: https://developers.cloudflare.com/fundamentals/setup/find-account-and-zone-ids/\n[linkCloudflarePages]: https://pages.cloudflare.com/\n[linkCloudflareWranglerCICD]: https://developers.cloudflare.com/workers/wrangler/ci-cd/\n[linkCloudflareWranglerCLI]: https://developers.cloudflare.com/workers/wrangler/\n[linkCompose]: https://docs.docker.com/compose\n[linkContributors]: CONTRIBUTORS\n[linkDemo]: demo\n[linkDocker]: https://www.docker.com\n[linkFaviconio]: https://favicon.io\n[linkGitHubActions]: https://github.com/features/actions\n[linkGitHubActionsProject]: https://github.com/flemay/3musketeers/actions\n[linkGitHubActionsProjectBadge]: https://img.shields.io/github/actions/workflow/status/flemay/3musketeers/deploy.yml?style=for-the-badge&logo=github\n[linkGitHubActionsSecrets]: https://docs.github.com/en/actions/security-guides/encrypted-secrets\n[linkGitHubActionsVariables]: https://docs.github.com/en/actions/learn-github-actions/variables\n[linkLicense]: LICENSE\n[linkLicenseBadge]: https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge\n[linkMake]: https://www.gnu.org/software/make\n[linkMermaid]: https://mermaid.js.org/",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "TvFrUU7Zzs+4aDnxW3f8lRz7EfyjFe7DfhlHGO9SjyM=",
+        "originContent": "  - The social image is also set in the general settings of the repository",
+        "translatedContent": "  - ソーシャルイメージはリポジトリの一般設定でも設定されています"
+      },
+      {
+        "row": 2,
+        "rowsha": "6RBLQYZmzgIInZHk2a3HowLFtm7PhTRDrQUFVjslCo4=",
+        "originContent": "  - Astro Startlight sets all of the `<meta>` tags in the `<head>` section",
+        "translatedContent": "  - Astro Starlight は `<head>` セクション内のすべての `<meta>` タグを設定します"
+      },
+      {
+        "row": 3,
+        "rowsha": "4m8eA2aDfzRdqdv9vbn5Ng2fLCmCPUzpKrYhVvWDXA8=",
+        "originContent": "- Diagrams",
+        "translatedContent": "- 図表"
+      },
+      {
+        "row": 4,
+        "rowsha": "uXh5rS0xV4CVZDTzo5B8DuHA0sISPO6ntwXhDkxX9Aw=",
+        "originContent": "  - [Mermaid][linkMermaid] is used to generate diagrams",
+        "translatedContent": "  - [Mermaid][linkMermaid] は図表の生成に使用されています"
+      },
+      {
+        "row": 5,
+        "rowsha": "EQovNUs7XYOPuENxwHmj8UsSqEmhFstt0pxtELsq9pc=",
+        "originContent": "  - All diagrams are in the directory [diagrams](diagrams)",
+        "translatedContent": "  - すべての図表はディレクトリ [diagrams](diagrams) にあります"
+      },
+      {
+        "row": 6,
+        "rowsha": "ITxSzb8LnaiVHlOMbA5XCJ4sghcuyNSFVB7/UQ8vunc=",
+        "originContent": "- The [demo][linkDemo] was generated by [charmbracelet/vhs][linkVHS]",
+        "translatedContent": "- [demo][linkDemo] は [charmbracelet/vhs][linkVHS] によって生成されました"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 貢献"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "8PpAtE7wQyzGIWPP6jm6zqPBtlDRIUf05luZsYkQV0s=",
+        "originContent": "[CONTRIBUTING.md](https://raw.githubusercontent.com/flemay/3musketeers/main/CONTRIBUTING.md)",
+        "translatedContent": "[CONTRIBUTING.md](https://raw.githubusercontent.com/flemay/3musketeers/main/CONTRIBUTING.md)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "0AzDE6+0t1h1vJKgNco39A2dJ9lY3uFVaKkjPCSBmis=",
+        "originContent": "Thanks goes to [contributors][linkContributors].",
+        "translatedContent": "感謝は [contributors][linkContributors] に送ります。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Vjh+/NF84LcdVIcgsGj7hYTKWXh5g1kRW2i3+Ioq+bA=",
+        "originContent": "[MIT][linkLicense]",
+        "translatedContent": "[MIT][linkLicense]"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "J9FXCIbDYS062ZjwxZaZJrqvMGUo0nUBBeYuXf686rY=",
+        "originContent": "[link3Musketeers]: https://3musketeers.pages.dev",
+        "translatedContent": "[link3Musketeers]: https://3musketeers.pages.dev"
+      },
+      {
+        "row": 19,
+        "rowsha": "y7xTO8UzyyX1GHZV/MeXQFydZvZ2RpwD7REadVHNoUs=",
+        "originContent": "[linkArtegenceArticle]: https://artegence.com/blog/social-media-tags-guide-part-2-preparing-a-perfect-image-for-the-ogimage-tag/",
+        "translatedContent": "[linkArtegenceArticle]: https://artegence.com/blog/social-media-tags-guide-part-2-preparing-a-perfect-image-for-the-ogimage-tag/"
+      },
+      {
+        "row": 20,
+        "rowsha": "xciJKx83zCxMklYsthCWuu/UKbYl00pjk3aYn8ONq7Q=",
+        "originContent": "[linkAstroStarlight]: https://starlight.astro.build/",
+        "translatedContent": "[linkAstroStarlight]: https://starlight.astro.build/"
+      },
+      {
+        "row": 21,
+        "rowsha": "v+eOLwugxl3WK+rbpRkaf69lN4EFODr3/hLh7Yxw/Ck=",
+        "originContent": "[linkCloudflareCreateAPIToken]: https://dash.cloudflare.com/profile/api-tokens",
+        "translatedContent": "[linkCloudflareCreateAPIToken]: https://dash.cloudflare.com/profile/api-tokens"
+      },
+      {
+        "row": 22,
+        "rowsha": "Us2DijLE0GBowmVLl/NuQKG8TjWP535GrLjnDtF9HDw=",
+        "originContent": "[linkCloudflareDirectUpload]: https://developers.cloudflare.com/pages/get-started/direct-upload/",
+        "translatedContent": "[linkCloudflareDirectUpload]: https://developers.cloudflare.com/pages/get-started/direct-upload/"
+      },
+      {
+        "row": 23,
+        "rowsha": "LEjPfSK6d44doa9qCbYnTwaXr1vFMFVdSVXAMhdUKCo=",
+        "originContent": "[linkCloudflareFindAccountAndZoneIDs]: https://developers.cloudflare.com/fundamentals/setup/find-account-and-zone-ids/",
+        "translatedContent": "[linkCloudflareFindAccountAndZoneIDs]: https://developers.cloudflare.com/fundamentals/setup/find-account-and-zone-ids/"
+      },
+      {
+        "row": 24,
+        "rowsha": "m+RuoOQA7MvvqyjfkiZFbrGnRliJ4sOL7fxntJWcM/Y=",
+        "originContent": "[linkCloudflarePages]: https://pages.cloudflare.com/",
+        "translatedContent": "[linkCloudflarePages]: https://pages.cloudflare.com/"
+      },
+      {
+        "row": 25,
+        "rowsha": "vfkEHRBJ8cJx6Ci0s2KPrAKW37y8l5KaPKr9qOIqmxU=",
+        "originContent": "[linkCloudflareWranglerCICD]: https://developers.cloudflare.com/workers/wrangler/ci-cd/",
+        "translatedContent": "[linkCloudflareWranglerCICD]: https://developers.cloudflare.com/workers/wrangler/ci-cd/"
+      },
+      {
+        "row": 26,
+        "rowsha": "1pJLjggID0BPRUPEeQ8J1R5eBJioW7k/cZTSd3rQ5/g=",
+        "originContent": "[linkCloudflareWranglerCLI]: https://developers.cloudflare.com/workers/wrangler/",
+        "translatedContent": "[linkCloudflareWranglerCLI]: https://developers.cloudflare.com/workers/wrangler/"
+      },
+      {
+        "row": 27,
+        "rowsha": "Ar+UnS42SBKWmg3qv7mJUZRcgKQlTpJx0sTAR76u4Fg=",
+        "originContent": "[linkCompose]: https://docs.docker.com/compose",
+        "translatedContent": "[linkCompose]: https://docs.docker.com/compose"
+      },
+      {
+        "row": 28,
+        "rowsha": "SOvWV5MoFuJidM57lc4rLbLLCgGcyez3vlfVnf9EGuA=",
+        "originContent": "[linkContributors]: CONTRIBUTORS",
+        "translatedContent": "[linkContributors]: CONTRIBUTORS"
+      },
+      {
+        "row": 29,
+        "rowsha": "HG/Y+sxDWbfawsMX+NjmocdwJLK/1Zz2UxXybZOPMF0=",
+        "originContent": "[linkDemo]: demo",
+        "translatedContent": "[linkDemo]: demo"
+      },
+      {
+        "row": 30,
+        "rowsha": "eGgIEtNDGDPQ+2dVT3X8j1ys0ErjHcigXz/n9YvJyDk=",
+        "originContent": "[linkDocker]: https://www.docker.com",
+        "translatedContent": "[linkDocker]: https://www.docker.com"
+      },
+      {
+        "row": 31,
+        "rowsha": "Bn0/e6FcAGmgPeYL4CgqKQSg4qf88NtoUuJtCooEUak=",
+        "originContent": "[linkFaviconio]: https://favicon.io",
+        "translatedContent": "[linkFaviconio]: https://favicon.io"
+      },
+      {
+        "row": 32,
+        "rowsha": "kHwBFuB0STerO0tdwChseLrirhajMXVtX0Ab2MTxIS0=",
+        "originContent": "[linkGitHubActions]: https://github.com/features/actions",
+        "translatedContent": "[linkGitHubActions]: https://github.com/features/actions"
+      },
+      {
+        "row": 33,
+        "rowsha": "gnsxDgM0sXCSuV8K8y+Ei6ppuF8pJ0lD8UqcroGpmmw=",
+        "originContent": "[linkGitHubActionsProject]: https://github.com/flemay/3musketeers/actions",
+        "translatedContent": "[linkGitHubActionsProject]: https://github.com/flemay/3musketeers/actions"
+      },
+      {
+        "row": 34,
+        "rowsha": "N4My7ifd8jlZnn5wmwxivaQr6w+HtVRntJxYUhQts20=",
+        "originContent": "[linkGitHubActionsProjectBadge]: https://img.shields.io/github/actions/workflow/status/flemay/3musketeers/deploy.yml?style=for-the-badge&logo=github",
+        "translatedContent": "[linkGitHubActionsProjectBadge]: https://img.shields.io/github/actions/workflow/status/flemay/3musketeers/deploy.yml?style=for-the-badge&logo=github"
+      },
+      {
+        "row": 35,
+        "rowsha": "q8MpWIcoRgdyw6K2RA6EdpcDr1paSUEHXCTFpxnn5KY=",
+        "originContent": "[linkGitHubActionsSecrets]: https://docs.github.com/en/actions/security-guides/encrypted-secrets",
+        "translatedContent": "[linkGitHubActionsSecrets]: https://docs.github.com/en/actions/security-guides/encrypted-secrets"
+      },
+      {
+        "row": 36,
+        "rowsha": "qc5QKUJYA0IcOxhTn8VVi8ZimoES1+gH3ox7BOujbRQ=",
+        "originContent": "[linkGitHubActionsVariables]: https://docs.github.com/en/actions/learn-github-actions/variables",
+        "translatedContent": "[linkGitHubActionsVariables]: https://docs.github.com/en/actions/learn-github-actions/variables"
+      },
+      {
+        "row": 37,
+        "rowsha": "S8DDwrn+OiCRxJxeCpWz9VsvlqN8z8ClwxgxzdwaNKA=",
+        "originContent": "[linkLicense]: LICENSE",
+        "translatedContent": "[linkLicense]: LICENSE"
+      },
+      {
+        "row": 38,
+        "rowsha": "g42P+9r7qxKjEeGeYV4c0cFIyAwyHcSBO+W4n+yZn0A=",
+        "originContent": "[linkLicenseBadge]: https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge",
+        "translatedContent": "[linkLicenseBadge]: https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge"
+      },
+      {
+        "row": 39,
+        "rowsha": "K16NNedb43SXQqeBFPEH+0Z71uy5Fc/vmLBBMhpqdGw=",
+        "originContent": "[linkMake]: https://www.gnu.org/software/make",
+        "translatedContent": "[linkMake]: https://www.gnu.org/software/make"
+      },
+      {
+        "row": 40,
+        "rowsha": "t2bkC1Qb9VfHMmRK03PDdS3omQhyDKX9sMzj3n18GBE=",
+        "originContent": "[linkMermaid]: https://mermaid.js.org/",
+        "translatedContent": "[linkMermaid]: https://mermaid.js.org/"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "[linkPatternOverview]: ./docs/guide/assets/diagrams-overview.svg\n[linkProcreate]: https://procreate.art/\n[linkVHS]: https://github.com/charmbracelet/vhs\n",
+    "ContentSha": "lrHisYenVa1yFAv6CeoqPXHXXfGsrteqJ9vz+yyVZ64=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[linkPatternOverview]: ./docs/guide/assets/diagrams-overview.svg\n[linkProcreate]: https://procreate.art/\n[linkVHS]: https://github.com/charmbracelet/vhs\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "G+9e1sa1CE9YmM5SrgS+LicVPzbL5wAMuIEtxINokrU=",
+        "originContent": "[linkPatternOverview]: ./docs/guide/assets/diagrams-overview.svg",
+        "translatedContent": "[linkPatternOverview]: ./docs/guide/assets/diagrams-overview.svg"
+      },
+      {
+        "row": 2,
+        "rowsha": "+xZXZC3U7l7+zPTjkGaCPwTZvCP1hg6qUkLvHgs3W6k=",
+        "originContent": "[linkProcreate]: https://procreate.art/",
+        "translatedContent": "[linkProcreate]: https://procreate.art/"
+      },
+      {
+        "row": 3,
+        "rowsha": "/mJawBrfGRn3PW3iDx+w8Qb2ZrdaKB0ZE4wjjFh6xPQ=",
+        "originContent": "[linkVHS]: https://github.com/charmbracelet/vhs",
+        "translatedContent": "[linkVHS]: https://github.com/charmbracelet/vhs"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
