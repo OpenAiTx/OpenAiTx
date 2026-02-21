@@ -1,0 +1,512 @@
+[
+  {
+    "row": 1,
+    "rowsha": "t49pxdmxkKjzc8PkSbWB4fW5vmbI0psONs7Oow1lmc8=",
+    "originContent": "# DROID Sim Evaluation",
+    "translatedContent": "# DROID Sim 评估"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "K1k0ksdYruT6X/qsAeyHRIJlXAS1wzjv8ivfVqTNlYk=",
+    "originContent": "This repository contains scripts for evaluating DROID policies in a simple ISAAC Sim environment.",
+    "translatedContent": "该仓库包含用于在简单的 ISAAC Sim 环境中评估 DROID 策略的脚本。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "c3suC3VPNS/1pK3Hl1pqszURsEPHGWrAKEWpRCf/N3I=",
+    "originContent": "Here is an example rollout of a pi0-FAST-DROID policy:",
+    "translatedContent": "以下是 pi0-FAST-DROID 策略的示例演示："
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "O8aVVP1Y3TQL5L4ALroW2x7Z7etNhSuhXMMTPpg/auw=",
+    "originContent": "Scene 1",
+    "translatedContent": "场景 1"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "3do/1i09+5U2tBkL6eVfuR3HnN8FZ2a/y++WFxUu8Rk=",
+    "originContent": "![Scene 1](https://raw.githubusercontent.com/arhanjain/sim-evals/main/./docs/scene1.gif)",
+    "translatedContent": "![场景 1](https://raw.githubusercontent.com/arhanjain/sim-evals/main/./docs/scene1.gif)"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "9xiOM1hGsuuaT8pN2ktLM4yWO2OUmKn/6oi8D5WvFvQ=",
+    "originContent": "Scene 2",
+    "translatedContent": "场景 2"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "eNlELsm4QPiYBfuJydGMk/TefMQ4UdjxdmqyRKGbIUg=",
+    "originContent": "![Scene 2](https://raw.githubusercontent.com/arhanjain/sim-evals/main/./docs/scene2.gif)",
+    "translatedContent": "![场景 2](https://raw.githubusercontent.com/arhanjain/sim-evals/main/./docs/scene2.gif)"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "W3uVBBQ+EuSl6skRpLr9FBINn7p455U/gn2BqsAAaR4=",
+    "originContent": "Scene 3",
+    "translatedContent": "场景 3"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "FEU4TKKl0CIJWm1C4OrB5d2HBlswo1/t1FbR3PGxV0w=",
+    "originContent": "![Scene 3](https://raw.githubusercontent.com/arhanjain/sim-evals/main/./docs/scene3.gif)",
+    "translatedContent": "![场景 3](https://raw.githubusercontent.com/arhanjain/sim-evals/main/./docs/scene3.gif)"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "7/eXNw0SE5LR/FWuKd34sAP2xbl7L3fCb6EJkqBE0Ko=",
+    "originContent": "The simulation is tuned to work *zero-shot* with DROID policies trained on the real-world DROID dataset, so no separate simulation data is required.",
+    "translatedContent": "该仿真被调整为与在真实世界 DROID 数据集上训练的 DROID 策略实现*零次学习*，因此无需单独的仿真数据。"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "2IULdzaPPq0+ve2BdCIXv+CSNXRnxk/qxjm1bnMqEjU=",
+    "originContent": "**Note:** The current simulator works best for policies trained with *joint position* action space (and *not* joint velocity control). We provide examples for evaluating pi0-FAST-DROID policies trained with joint position control below.",
+    "translatedContent": "**注意：** 当前模拟器最适合用于使用*关节位置*动作空间（而非*关节速度控制*）训练的策略。我们下面提供了使用关节位置控制训练的 pi0-FAST-DROID 策略评估示例。"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "nshiBFV7Ln3ICUX6qlbM2ZKIlURUE07UWfKu/yHbzQA=",
+    "originContent": "Clone the repo",
+    "translatedContent": "克隆仓库"
+  },
+  {
+    "row": 27,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 28,
+    "rowsha": "u69l178T3Xmpr3MDXrk0TsdTDoXKpt+Qfgat+L0BYDo=",
+    "originContent": "git clone --recurse-submodules git@github.com:arhanjain/sim-evals.git",
+    "translatedContent": "git clone --recurse-submodules git@github.com:arhanjain/sim-evals.git"
+  },
+  {
+    "row": 29,
+    "rowsha": "mQV1XIGCIZCRZGs1NyGbGETNW9rMgITZjI5sAsRoa/A=",
+    "originContent": "cd sim-evals",
+    "translatedContent": "cd sim-evals"
+  },
+  {
+    "row": 30,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "h26OTmIriLQAI0iZBDQc3vAwULtrKS0ae4vgZ3yNRyA=",
+    "originContent": "Install uv (see: https://github.com/astral-sh/uv#installation)",
+    "translatedContent": "安装 uv（参见：https://github.com/astral-sh/uv#installation）"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "DS113zYfIogWko40D2pldBxXeR9tRnwSuShvsFGUQfc=",
+    "originContent": "For example (Linux/macOS):",
+    "translatedContent": "例如（Linux/macOS）："
+  },
+  {
+    "row": 35,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 36,
+    "rowsha": "SXf4WaG2g4WedAyrS5IzaiqEJ/gfMyYBMoSjDOk27yI=",
+    "originContent": "curl -LsSf https://astral.sh/uv/install.sh | sh",
+    "translatedContent": "curl -LsSf https://astral.sh/uv/install.sh | sh"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "lpzBkZDUMsFQvPSHu/vEbXz3Qk0qvd9OhiUYJumW17c=",
+    "originContent": "Create and activate virtual environment",
+    "translatedContent": "创建并激活虚拟环境"
+  },
+  {
+    "row": 40,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 41,
+    "rowsha": "6IUt3swb9NwCpg2AB8+2bWbPmZ9skvhon0N/15abJBU=",
+    "originContent": "uv sync",
+    "translatedContent": "uv sync"
+  },
+  {
+    "row": 42,
+    "rowsha": "RDUaxA18s/pXqQvQov8NDg+Q3PTeDJ8ytJ0PGX0egwA=",
+    "originContent": "source .venv/bin/activate",
+    "translatedContent": "source .venv/bin/activate"
+  },
+  {
+    "row": 43,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## 快速开始"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "lPoy/9zuU0D7sYZJd4reuyNxHkW2jwazIVsJ5QXh/OQ=",
+    "originContent": "First, make sure you download the simulation assets into the root of this directory",
+    "translatedContent": "首先，确保将模拟资源下载到此目录的根目录中"
+  },
+  {
+    "row": 48,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 49,
+    "rowsha": "BTsqkAIjIbkTJK7GeT018ert8/vFyJLAgbz516KR3pQ=",
+    "originContent": "uvx hf download owhan/DROID-sim-environments --repo-type dataset --local-dir assets",
+    "translatedContent": "uvx hf download owhan/DROID-sim-environments --repo-type dataset --local-dir assets"
+  },
+  {
+    "row": 50,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "JAkvvfNQzzv0EZXFuZGp//l8sJk/7ZK/bPen2eYwKwE=",
+    "originContent": "Then, in a separate terminal, launch the policy server on `localhost:8000`. ",
+    "translatedContent": "然后，在另一个终端上，在 `localhost:8000` 启动策略服务器。  "
+  },
+  {
+    "row": 53,
+    "rowsha": "hNFcNdlcEexq685kAhwbOWYxOdQE85xKKgsu7aqN/gc=",
+    "originContent": "For example, to launch a pi0-FAST-DROID policy (with joint position control),",
+    "translatedContent": "例如，要启动一个 pi0-FAST-DROID 策略（带关节位置控制），  "
+  },
+  {
+    "row": 54,
+    "rowsha": "m024amktylrx+oVspZz/hBWAErDdl5C7OoxeQ6h9Lbc=",
+    "originContent": "checkout [openpi](https://github.com/Physical-Intelligence/openpi) and use the `polaris` configs ",
+    "translatedContent": "请查看 [openpi](https://github.com/Physical-Intelligence/openpi) 并使用 `polaris` 配置文件  "
+  },
+  {
+    "row": 55,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 56,
+    "rowsha": "W5INUfT6dmjyFH9Bi9da5ghmG4YRaR7gHtYsRFRaO7M=",
+    "originContent": "XLA_PYTHON_CLIENT_MEM_FRACTION=0.5 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi05_droid_jointpos_polaris --policy.dir=gs://openpi-assets/checkpoints/pi05_droid_jointpos",
+    "translatedContent": "XLA_PYTHON_CLIENT_MEM_FRACTION=0.5 uv run scripts/serve_policy.py policy:checkpoint --policy.config=pi05_droid_jointpos_polaris --policy.dir=gs://openpi-assets/checkpoints/pi05_droid_jointpos"
+  },
+  {
+    "row": 57,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "ZS8U6Ju5xpyFI9Bv/4JvpIQw53YTr0XFwV9//asyKKo=",
+    "originContent": "**Note**: We set `XLA_PYTHON_CLIENT_MEM_FRACTION=0.5` to avoid JAX hogging all the GPU memory (incase Isaac Sim is using the same GPU).",
+    "translatedContent": "**注意**：我们设置了 `XLA_PYTHON_CLIENT_MEM_FRACTION=0.5`，以避免 JAX 独占所有 GPU 内存（以防 Isaac Sim 使用相同的 GPU）。"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "sQVZ++PmKL/4r5VsKiKQNMFCf0YcuSQlJJ60nCiJZKE=",
+    "originContent": "Finally, run the evaluation script:",
+    "translatedContent": "最后，运行评估脚本："
+  },
+  {
+    "row": 62,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 63,
+    "rowsha": "9wvM6NSJkCWzQ6MrpGvHmyrnENarJ0482ZxsF08mL1I=",
+    "originContent": "python run_eval.py --episodes [INT] --scene [INT] --headless",
+    "translatedContent": "python run_eval.py --episodes [INT] --scene [INT] --headless"
+  },
+  {
+    "row": 64,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "/frvgVMC8+b7+pvADlLFRzRfq/XltuSdZvfTDW3y64E=",
+    "originContent": "## Minimal Example",
+    "translatedContent": "## 最小示例"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 69,
+    "rowsha": "lOAji1/HxijcpSi4T4iUU9DcfXskf4xmr9pjdYcR7KA=",
+    "originContent": "env_cfg.set_scene(scene) # pass scene integer",
+    "translatedContent": "env_cfg.set_scene(scene) # pass scene integer"
+  },
+  {
+    "row": 70,
+    "rowsha": "yRVcLLYpkZJxNk445IMCUfvS8YNpz5xNusGLqInulxo=",
+    "originContent": "env = gym.make(\"DROID\", cfg=env_cfg)",
+    "translatedContent": "env = gym.make(\"DROID\", cfg=env_cfg)"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "Eu8HiOLtKOQbBIKLZ/aCz7zqKGCpHicVNE+pQXS/uG4=",
+    "originContent": "obs, _ = env.reset()",
+    "translatedContent": "obs, _ = env.reset()"
+  },
+  {
+    "row": 73,
+    "rowsha": "vOIE/6nXG7/ha2e8uD7SuhMMbCGECGN+q5WAzzEGyBk=",
+    "originContent": "obs, _ = env.reset() # need second render cycle to get correctly loaded materials",
+    "translatedContent": "obs, _ = env.reset() # need second render cycle to get correctly loaded materials"
+  },
+  {
+    "row": 74,
+    "rowsha": "6P2JdS3KIksZvOS2aiMXVpS/F2v9pi1faT1MIBlnoTg=",
+    "originContent": "client = # Your policy of choice",
+    "translatedContent": "client = # Your policy of choice"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "Zn9DFh1h2ec46MTqUWr8haqJKMiEwrdrYK9n8sRHKSA=",
+    "originContent": "max_steps = env.env.max_episode_length",
+    "translatedContent": "max_steps = env.env.max_episode_length"
+  },
+  {
+    "row": 77,
+    "rowsha": "K3NsvtfLF3gqYlbfynznF0IcqE2ss9AP/UZqBfZsAW4=",
+    "originContent": "for _ in tqdm(range(max_steps), desc=f\"Episode\"):",
+    "translatedContent": "for _ in tqdm(range(max_steps), desc=f\"Episode\"):"
+  },
+  {
+    "row": 78,
+    "rowsha": "yegkecN9b0p8OVllv+E9RCHnMx2UniMQ5VrSTyIuYuA=",
+    "originContent": "    action = client.infer(obs, INSTRUCTION) # calling inference on your policy",
+    "translatedContent": "    action = client.infer(obs, INSTRUCTION) # calling inference on your policy"
+  },
+  {
+    "row": 79,
+    "rowsha": "BhNs3141mWXOH9bwH1C5OVg/ihrMfcIch9U8rd5Nj9Y=",
+    "originContent": "    action = torch.tensor(ret[\"action\"])[None]",
+    "translatedContent": "    action = torch.tensor(ret[\"action\"])[None]"
+  },
+  {
+    "row": 80,
+    "rowsha": "4RxWBu133yiGOaSgI8PMXJ1O+cu1uL+2gBtAZnucisM=",
+    "originContent": "    obs, _, term, trunc, _ = env.step(action)",
+    "translatedContent": "    obs, _, term, trunc, _ = env.step(action)"
+  },
+  {
+    "row": 81,
+    "rowsha": "TBk0ymFTMpM9p7WdUfIwhulK8I4TyTetSI+57dovDL8=",
+    "originContent": "    if term or trunc:",
+    "translatedContent": "    if term or trunc:"
+  },
+  {
+    "row": 82,
+    "rowsha": "efdHDS9rhvzRhwNI/aH5Otls2QRyDz7XttGf/lpo4zU=",
+    "originContent": "        break",
+    "translatedContent": "        break"
+  },
+  {
+    "row": 83,
+    "rowsha": "ZGhH7lMA7nF1p0LXvFXu3Oyz0sZrIUonV35DhvTNcv8=",
+    "originContent": "env.close()",
+    "translatedContent": "env.close()"
+  },
+  {
+    "row": 84,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
