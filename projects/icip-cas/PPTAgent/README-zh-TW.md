@@ -1,29 +1,30 @@
+
 <div align="right">
   <details>
     <summary >🌐 語言</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-CN">簡體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=as">অসমীয়া</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ko">韓國語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi">印地語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=th">泰語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fr">法語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=de">德語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=es">西班牙語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=it">義大利語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ru">俄語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pt">葡萄牙語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=nl">荷蘭語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pl">波蘭語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar">阿拉伯語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fa">波斯語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=tr">土耳其語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=vi">越南語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=id">印尼語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=as">阿薩姆語</a>
       </div>
     </div>
   </details>
@@ -36,35 +37,34 @@
 https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
 
 ## 📫 聯絡方式
-> 本倉庫的主要貢獻者是一位預計於 2026 年畢業的碩士研究生，目前正積極尋找工作機會。歡迎聯繫合作或職涯機會。
-
+> 此倉庫的主要貢獻者為2026年畢業的碩士研究生，歡迎聯繫合作或尋求機會。
 >
-> 本倉庫的主要貢獻者是一名 2026 屆碩士畢業生，目前正在尋找工作機會，歡迎聯繫。
+> 本倉庫的主要貢獻者是一名 2026 屆碩士畢業生，歡迎聯繫合作或交流機會。
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
 </div>
 
 ## 📅 最新消息
-- [2026/01]：我們已支援自由格式與模板生成，PPTX 匯出及離線模式！同時新增上下文管理以避免內容溢出。
-- [2025/12]：🔥 V2 發布，重磅升級——深度研究整合、自由視覺設計、自主資產創建、文本生成圖像、以及帶沙盒的代理環境與 20+ 工具。
-- [2025/09]：🛠️ 新增 MCP 伺服器支援——參見 [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) 以獲取配置詳情
-- [2025/09]：🚀 V2 發布，重磅升級——詳見 [版本說明](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0)
-- [2025/08]：🎉 論文被 **EMNLP 2025** 接收！
-- [2025/05]：✨ V1 發布，具備核心功能並達成 🌟 GitHub 星標破千！——詳見 [版本說明](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0)
-- [2025/01]：🔓 開源代碼庫，實驗性代碼存檔於 [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
+- [2026/01]: 現已支援自由格式和範本產生，支援 PPTX 匯出及離線模式！新增上下文管理以避免上下文溢出。
+- [2025/12]: 🔥 發布 V2，帶來重大改進——深度研究整合、自由格式視覺設計、自主資產創建、文本轉圖像生成，以及具備沙盒和 20+ 工具的代理環境。
+- [2025/09]: 🛠️ 新增 MCP 伺服器支援——請參閱 [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) 了解配置細節
+- [2025/09]: 🚀 發布 v2，帶來重大改進——詳情請參閱 [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0)
+- [2025/08]: 🎉 論文被 **EMNLP 2025** 錄用！
+- [2025/05]: ✨ 發布 v1，具備核心功能及 🌟 突破：GitHub 星標突破 1,000！詳情請參閱 [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0)
+- [2025/01]: 🔓 開源代碼庫，實驗性代碼已存檔於 [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
 
 ## 📖 使用說明
 
 > [!IMPORTANT]
-> 1. 所有這些 API 金鑰、配置與服務皆為**必需**。
-> 2. 代理骨幹推薦：研究代理建議使用 Claude，設計代理建議使用 Gemini。GLM-4.7 也是開源模型中的不錯選擇。
-> 3. 支援離線模式（功能有限，詳見下方離線設定）。
+> 1. 所有這些 API 金鑰、配置和服務均為**必需**。
+> 2. 代理主幹推薦：研究代理建議使用 Claude，設計代理建議使用 Gemini。開源模型中，GLM-4.7 也是不錯的選擇。
+> 3. 支援離線模式，功能有限（詳見下方離線配置）。
+
 
 ### 1. 環境配置
 
-- **創建配置文件**（於項目根目錄執行）：
-
+- **建立配置檔案**（於專案根目錄）：
 
   ```bash
   cp deeppresenter/deeppresenter/config.yaml.example deeppresenter/deeppresenter/config.yaml
@@ -94,7 +94,8 @@ https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
 - **在本地運行**：
 
   ```bash
-  pip install -e deeppresenter
+  cd deeppresenter
+  pip install -e .
   playwright install-deps
   playwright install chromium
   npm install
@@ -228,6 +229,6 @@ If you find this project helpful, please use the following to cite it:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-22
 
 ---

@@ -37,28 +37,28 @@
 https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
 
 ## 📫 Kontak
-> Kontributor utama repo ini adalah mahasiswa magister yang akan lulus tahun 2026, saat ini sedang mencari pekerjaan. Jangan ragu untuk menghubungi untuk kolaborasi atau peluang kerja.
+> Kontributor utama repo ini adalah mahasiswa Magister yang akan lulus pada tahun 2026, silakan hubungi untuk kolaborasi atau peluang.
 >
-> Kontributor utama repositori ini adalah seorang mahasiswa pascasarjana angkatan 2026, sedang mencari pekerjaan, silakan hubungi.
+> Kontributor utama dalam repositori ini adalah seorang mahasiswa magister yang akan lulus pada tahun 2026, silakan hubungi untuk peluang kolaborasi atau diskusi.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
 </div>
 
 ## 📅 Berita
-- [2026/01]: Kami mendukung ekspor PPTX untuk pembuatan bebas dan template, mode offline kini tersedia! Manajemen konteks ditambahkan untuk mencegah kelebihan konteks.
-- [2025/12]: 🔥 Versi V2 dirilis dengan peningkatan besar - Integrasi Riset Mendalam, Desain Visual Bebas, Pembuatan Aset Otonom, Generasi Teks-ke-Gambar, dan Lingkungan Agen dengan sandbox & 20+ alat.
+- [2026/01]: Kami mendukung ekspor PPTX untuk generasi bebas dan berbasis template, mode offline kini tersedia! Manajemen konteks ditambahkan untuk menghindari kelebihan konteks.
+- [2025/12]: 🔥 Versi V2 dirilis dengan peningkatan besar - Integrasi Riset Mendalam, Desain Visual Bebas, Pembuatan Aset Mandiri, Generasi Teks-ke-Gambar, dan Lingkungan Agen dengan sandbox & lebih dari 20 alat.
 - [2025/09]: 🛠️ Dukungan server MCP ditambahkan - lihat [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) untuk detail konfigurasi
-- [2025/09]: 🚀 Versi v2 dirilis dengan peningkatan besar - lihat [catatan rilis](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) untuk detail
-- [2025/08]: 🎉 Makalah diterima di **EMNLP 2025**!
-- [2025/05]: ✨ Versi v1 dirilis dengan fungsionalitas inti dan 🌟 terobosan: mencapai 1.000 bintang di GitHub! - lihat [catatan rilis](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) untuk detail
-- [2025/01]: 🔓 Kode sumber dibuka, dengan kode eksperimen diarsipkan pada [rilis eksperimen](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
+- [2025/09]: 🚀 Versi v2 dirilis dengan peningkatan besar - lihat [catatan rilis](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) untuk detailnya
+- [2025/08]: 🎉 Paper diterima di **EMNLP 2025**!
+- [2025/05]: ✨ Versi v1 dirilis dengan fitur inti dan 🌟 terobosan: mencapai 1.000 bintang di GitHub! - lihat [catatan rilis](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) untuk detailnya
+- [2025/01]: 🔓 Kode sumber dibuka, dengan kode eksperimental diarsipkan di [rilis eksperimen](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
 
 ## 📖 Penggunaan
 
 > [!PENTING]
 > 1. Semua kunci API, konfigurasi, dan layanan ini **wajib**.
-> 2. Rekomendasi Backbone Agen: Gunakan Claude untuk Agen Riset dan Gemini untuk Agen Desain. GLM-4.7 juga merupakan pilihan baik untuk model open-source.
+> 2. Rekomendasi Backbone Agen: Gunakan Claude untuk Agen Riset dan Gemini untuk Agen Desain. GLM-4.7 juga pilihan baik pada model open-source.
 > 3. Mode offline didukung dengan kemampuan terbatas (lihat Pengaturan Offline di bawah).
 
 
@@ -94,7 +94,8 @@ Bangun image docker: `docker compose build`
 - **Menjalankan secara lokal**:
 
   ```bash
-  pip install -e deeppresenter
+  cd deeppresenter
+  pip install -e .
   playwright install-deps
   playwright install chromium
   npm install
@@ -228,6 +229,6 @@ If you find this project helpful, please use the following to cite it:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-22
 
 ---

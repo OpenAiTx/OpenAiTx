@@ -37,16 +37,16 @@
 https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
 
 ## 📫 Contact
-> The primary contributor to this repository is a Master's student graduating in 2026, currently seeking employment. Please feel free to reach out for collaboration or job opportunities.
+> The main contributor of this repo is a Master's student graduating in 2026, feel free to reach out for collaboration or opportunities.
 >
-> The main contributor to this repository is a graduate student of the class of 2026 and is currently seeking employment. Feel free to get in touch.
+> The main contributor to this repository is a master's graduate of the class of 2026. Feel free to contact for collaboration or exchange opportunities.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
 </div>
 
 ## 📅 News
-- [2026/01]: We support freeform and template generation with PPTX export and offline mode now! Context management has been added to prevent context overflow.
+- [2026/01]: We support freeform and template generation, PPTX export, and offline mode now! Context management added to prevent context overflow.
 - [2025/12]: 🔥 Released V2 with major improvements - Deep Research Integration, Free-Form Visual Design, Autonomous Asset Creation, Text-to-Image Generation, and Agent Environment with sandbox & 20+ tools.
 - [2025/09]: 🛠️ MCP server support added - see [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) for configuration details
 - [2025/09]: 🚀 Released v2 with major improvements - see [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) for details
@@ -58,7 +58,7 @@ https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
 
 > [!IMPORTANT]
 > 1. All these API keys, configurations, and services are **required**.
-> 2. Agent Backbone Recommendation: Use Claude for the Research Agent and Gemini for the Design Agent. GLM-4.7 is also a good choice among open-source models.
+> 2. Agent Backbone Recommendation: Use Claude for the Research Agent and Gemini for the Design Agent. GLM-4.7 is also a good choice in open-source models.
 > 3. Offline mode is supported with limited capabilities (see Offline Setup below).
 
 
@@ -94,7 +94,8 @@ Build docker images: `docker compose build`
 - **Running locally**:
 
   ```bash
-  pip install -e deeppresenter
+  cd deeppresenter
+  pip install -e .
   playwright install-deps
   playwright install chromium
   npm install
@@ -228,6 +229,6 @@ If you find this project helpful, please use the following to cite it:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-22
 
 ---

@@ -37,34 +37,34 @@
 https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
 
 ## 📫 Kontakt
-> Der Hauptbeitragende dieses Repositories ist ein Masterstudent, der 2026 seinen Abschluss macht und sich derzeit auf dem Arbeitsmarkt befindet. Zögern Sie nicht, ihn für eine Zusammenarbeit oder Jobangebote zu kontaktieren.
+> Der Hauptbeitragende dieses Repositories ist ein Masterstudent mit Abschluss 2026. Für Zusammenarbeit oder Möglichkeiten können Sie sich gerne melden.
 >
-> Die Hauptbeitragende dieses Repositories ist ein Master-Absolvent des Jahrgangs 2026 und derzeit auf Jobsuche – Kontakt willkommen.
+> Hauptbeitragender dieses Repositories ist ein Master-Absolvent des Jahrgangs 2026. Kontaktieren Sie uns gerne für Kooperations- oder Austauschmöglichkeiten.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
 </div>
 
 ## 📅 Neuigkeiten
-- [2026/01]: Wir unterstützen jetzt Freiform- und Vorlagengenerierung, PPTX-Export und Offlinemodus! Kontextverwaltung wurde hinzugefügt, um Kontextüberläufe zu vermeiden.
-- [2025/12]: 🔥 V2 mit wichtigen Verbesserungen veröffentlicht – Tiefe Forschungsintegration, Freiform-Visualdesign, autonome Asset-Erstellung, Text-zu-Bild-Generierung und Agenten-Umgebung mit Sandbox & 20+ Tools.
-- [2025/09]: 🛠️ Unterstützung für MCP-Server hinzugefügt – siehe [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) für Konfigurationsdetails
-- [2025/09]: 🚀 v2 mit wichtigen Verbesserungen veröffentlicht – siehe [Release Notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) für Details
+- [2026/01]: Wir unterstützen nun Freeform- und Vorlagengenerierung mit PPTX-Export und Offline-Modus! Kontextverwaltung wurde hinzugefügt, um Kontextüberläufe zu vermeiden.
+- [2025/12]: 🔥 Version 2 mit großen Verbesserungen veröffentlicht – Tiefe Forschungsintegration, Freiform-Visual-Design, autonome Asset-Erstellung, Text-zu-Bild-Generierung und Agentenumgebung mit Sandbox & 20+ Tools.
+- [2025/09]: 🛠️ MCP-Server-Support hinzugefügt – siehe [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) für Konfigurationsdetails
+- [2025/09]: 🚀 Version 2 mit großen Verbesserungen veröffentlicht – Details siehe [Release Notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0)
 - [2025/08]: 🎉 Paper angenommen bei **EMNLP 2025**!
-- [2025/05]: ✨ v1 mit Kernfunktionalität veröffentlicht und 🌟 Durchbruch: 1.000 Sterne auf GitHub erreicht! – siehe [Release Notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) für Details
-- [2025/01]: 🔓 Quellcode veröffentlicht, experimenteller Code archiviert unter [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
+- [2025/05]: ✨ Version 1 mit Kernfunktionalität und 🌟 Durchbruch: 1.000 Sterne auf GitHub erreicht! – Details siehe [Release Notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0)
+- [2025/01]: 🔓 Codebasis als Open Source veröffentlicht, experimenteller Code archiviert bei [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
 
 ## 📖 Verwendung
 
 > [!WICHTIG]
-> 1. Alle diese API-Schlüssel, Konfigurationen und Dienste sind **erforderlich**.
-> 2. Empfehlung für den Agent-Backbone: Verwenden Sie Claude für den Research Agent und Gemini für den Design Agent. GLM-4.7 ist auch eine gute Wahl bei Open-Source-Modellen.
-> 3. Offlinemodus wird mit eingeschränkten Funktionen unterstützt (siehe Offline-Setup unten).
+> 1. Alle diese API-Keys, Konfigurationen und Dienste sind **erforderlich**.
+> 2. Empfehlung Agent-Backbone: Verwenden Sie Claude für den Research Agent und Gemini für den Design Agent. GLM-4.7 ist ebenfalls eine gute Wahl bei Open-Source-Modellen.
+> 3. Offline-Modus wird mit eingeschränkten Funktionen unterstützt (siehe Offline-Setup unten).
 
 
 ### 1. Umgebungskonfiguration
 
-- **Konfigurationsdateien erstellen** (vom Projektstamm aus):
+- **Konfigurationsdateien erstellen** (ausgehend vom Projektstamm):
 
   ```bash
   cp deeppresenter/deeppresenter/config.yaml.example deeppresenter/deeppresenter/config.yaml
@@ -94,7 +94,8 @@ Docker-Images bauen: `docker compose build`
 - **Lokal ausführen**:
 
   ```bash
-  pip install -e deeppresenter
+  cd deeppresenter
+  pip install -e .
   playwright install-deps
   playwright install chromium
   npm install
@@ -228,6 +229,6 @@ If you find this project helpful, please use the following to cite it:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-22
 
 ---

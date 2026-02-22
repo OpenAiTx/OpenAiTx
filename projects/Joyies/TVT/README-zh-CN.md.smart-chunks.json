@@ -1,0 +1,1277 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n<h2>Fine-structure Preserved Real-world Image Super-resolution via Transfer VAE Training</h2>\n\n🚩 Accepted by ICCV2025\n\n[Qiaosi Yi](https://dblp.org/pid/249/8335.html)<sup>1,2</sup>\n| [Shuai Li](https://scholar.google.com/citations?hl=zh-CN&user=Bd73ldQAAAAJ)<sup>1</sup>\n| [Rongyuan Wu](https://scholar.google.com/citations?user=A-U8zE8AAAAJ&hl=zh-CN)<sup>1,2</sup>\n| [Lingchen Sun](https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=ZCDjTn8AAAAJ)<sup>1,2</sup>\n| [Yuhui Wu](https://dblp.org/pid/41/915-1.html)<sup>1,2</sup>\n| [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang)<sup>1,2</sup>\n\n<sup>1</sup>The Hong Kong Polytechnic University, <sup>2</sup>OPPO Research Institute\n</div>\n\n[![](https://img.shields.io/badge/ArXiv%20-Paper-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/pdf/2507.20291)&nbsp; [![weights](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-model%20weights-blue)](https://huggingface.co/Joypop/TVTSR/tree/main)\n\n\n## ⏰ Update\n- **2025.7.29**: Paper is released on [ArXiv](https://arxiv.org/pdf/2507.20291).\n- **2025.7.28**: The training code and testing code are released.\n- **2025.7.24**: The repo is released.\n\n:star: If TVT is helpful to your images or projects, please help star this repo. Thanks! :hugs:\n\n### TODO \n- [x] Release the code for inference.\n- [x] Update the code for training.\n- [ ] fp16 VAED4.\n\n\n## ⚙ Dependencies and Installation",
+    "ContentSha": "5IfBK8I9em6G8cEfsRTlCD2FPoh2xZ4Y8mlxN1l4xqs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n<h2>通过迁移VAE训练实现细节保留的真实世界图像超分辨率</h2>\n\n🚩 已被ICCV2025接受\n\n[易巧思](https://dblp.org/pid/249/8335.html)<sup>1,2</sup>\n| [李帅](https://scholar.google.com/citations?hl=zh-CN&user=Bd73ldQAAAAJ)<sup>1</sup>\n| [吴荣元](https://scholar.google.com/citations?user=A-U8zE8AAAAJ&hl=zh-CN)<sup>1,2</sup>\n| [孙凌辰](https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=ZCDjTn8AAAAJ)<sup>1,2</sup>\n| [吴宇辉](https://dblp.org/pid/41/915-1.html)<sup>1,2</sup>\n| [张磊](https://www4.comp.polyu.edu.hk/~cslzhang)<sup>1,2</sup>\n\n<sup>1</sup>香港理工大学, <sup>2</sup>OPPO研究院\n</div>\n\n[![](https://img.shields.io/badge/ArXiv%20-Paper-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/pdf/2507.20291)&nbsp; [![weights](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-model%20weights-blue)](https://huggingface.co/Joypop/TVTSR/tree/main)\n\n\n## ⏰ 更新\n- **2025.7.29**：论文已发布于[ArXiv](https://arxiv.org/pdf/2507.20291)。\n- **2025.7.28**：训练代码和测试代码已发布。\n- **2025.7.24**：仓库已发布。\n\n:star: 如果TVT对您的图像或项目有帮助，请帮忙给这个仓库点个星。谢谢！:hugs:\n\n### 待办事项 \n- [x] 发布推理代码。\n- [x] 更新训练代码。\n- [ ] fp16 VAED4。\n\n\n## ⚙ 依赖和安装",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "6cBPGVstzOLNLRWjcDJ989SERX2Vhyfb+QQLGQGAYsw=",
+        "originContent": "<h2>Fine-structure Preserved Real-world Image Super-resolution via Transfer VAE Training</h2>",
+        "translatedContent": "<h2>通过迁移VAE训练实现细节保留的真实世界图像超分辨率</h2>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "dsliboGfa4YN/8FCvqiUy+rqjbdUchCJ3s9B6TfV3nU=",
+        "originContent": "🚩 Accepted by ICCV2025",
+        "translatedContent": "🚩 已被ICCV2025接受"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "gukhTbkmRMDegs/ZGVmplKj6AdcVFVs2zPTEAcfeSOs=",
+        "originContent": "[Qiaosi Yi](https://dblp.org/pid/249/8335.html)<sup>1,2</sup>",
+        "translatedContent": "[易巧思](https://dblp.org/pid/249/8335.html)<sup>1,2</sup>"
+      },
+      {
+        "row": 7,
+        "rowsha": "tt7hAwJM3+/x70YPAC2mKxVTTA8K1ldQmCuX6EYSOFU=",
+        "originContent": "| [Shuai Li](https://scholar.google.com/citations?hl=zh-CN&user=Bd73ldQAAAAJ)<sup>1</sup>",
+        "translatedContent": "| [李帅](https://scholar.google.com/citations?hl=zh-CN&user=Bd73ldQAAAAJ)<sup>1</sup>"
+      },
+      {
+        "row": 8,
+        "rowsha": "G3ThT5q+DTBZ3C8iXM1UlNfH0iYl1cYEEr7YgiHHmBs=",
+        "originContent": "| [Rongyuan Wu](https://scholar.google.com/citations?user=A-U8zE8AAAAJ&hl=zh-CN)<sup>1,2</sup>",
+        "translatedContent": "| [吴荣元](https://scholar.google.com/citations?user=A-U8zE8AAAAJ&hl=zh-CN)<sup>1,2</sup>"
+      },
+      {
+        "row": 9,
+        "rowsha": "XiXDxb3q0G64wZL7Afm0uhG5Llcmvp0M0hiXqd8paLo=",
+        "originContent": "| [Lingchen Sun](https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=ZCDjTn8AAAAJ)<sup>1,2</sup>",
+        "translatedContent": "| [孙凌辰](https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=ZCDjTn8AAAAJ)<sup>1,2</sup>"
+      },
+      {
+        "row": 10,
+        "rowsha": "gZd9tw6W+qqRltmwOYuhIt6zjtSc0DmoosO2QaYj2+Q=",
+        "originContent": "| [Yuhui Wu](https://dblp.org/pid/41/915-1.html)<sup>1,2</sup>",
+        "translatedContent": "| [吴宇辉](https://dblp.org/pid/41/915-1.html)<sup>1,2</sup>"
+      },
+      {
+        "row": 11,
+        "rowsha": "4CggUrs8Ntij4Q1cJUc8YC1hYec4CwCxZLbvUA+EZ30=",
+        "originContent": "| [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang)<sup>1,2</sup>",
+        "translatedContent": "| [张磊](https://www4.comp.polyu.edu.hk/~cslzhang)<sup>1,2</sup>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "1Mrb9kB98LID/K1lubECm/dQyK5wi8WVnQZ6yIjFT5o=",
+        "originContent": "<sup>1</sup>The Hong Kong Polytechnic University, <sup>2</sup>OPPO Research Institute",
+        "translatedContent": "<sup>1</sup>香港理工大学, <sup>2</sup>OPPO研究院"
+      },
+      {
+        "row": 14,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "9hzTDn3ceBZxIZKGP3QezXhp2t0OiOZIorx7eqWYgRA=",
+        "originContent": "[![](https://img.shields.io/badge/ArXiv%20-Paper-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/pdf/2507.20291)&nbsp; [![weights](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-model%20weights-blue)](https://huggingface.co/Joypop/TVTSR/tree/main)",
+        "translatedContent": "[![](https://img.shields.io/badge/ArXiv%20-Paper-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/pdf/2507.20291)&nbsp; [![weights](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-model%20weights-blue)](https://huggingface.co/Joypop/TVTSR/tree/main)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "QpZ4wTZdcjhipwhd2o7iMkMo4yLcyXCMM6utHR3mVWE=",
+        "originContent": "## ⏰ Update",
+        "translatedContent": "## ⏰ 更新"
+      },
+      {
+        "row": 20,
+        "rowsha": "h6Vd64Zk2mMMkiK8kwu3clZGKEDEuYneuuFipQJwCZ4=",
+        "originContent": "- **2025.7.29**: Paper is released on [ArXiv](https://arxiv.org/pdf/2507.20291).",
+        "translatedContent": "- **2025.7.29**：论文已发布于[ArXiv](https://arxiv.org/pdf/2507.20291)。"
+      },
+      {
+        "row": 21,
+        "rowsha": "uUkO7q43W6aV7WWo/MUzPyscvtbcL/KhsG1wvc7rChg=",
+        "originContent": "- **2025.7.28**: The training code and testing code are released.",
+        "translatedContent": "- **2025.7.28**：训练代码和测试代码已发布。"
+      },
+      {
+        "row": 22,
+        "rowsha": "/aMrOK/I9MtAhRXhgdSyR6uDaEJ26RTjFq9k49gJhxQ=",
+        "originContent": "- **2025.7.24**: The repo is released.",
+        "translatedContent": "- **2025.7.24**：仓库已发布。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "UCL6XjYHzl5Wk9qaesZPmyxp5+8UlowK98SiDbI363k=",
+        "originContent": ":star: If TVT is helpful to your images or projects, please help star this repo. Thanks! :hugs:",
+        "translatedContent": ":star: 如果TVT对您的图像或项目有帮助，请帮忙给这个仓库点个星。谢谢！:hugs:"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "CHtdqThgqZHfz8YrbrjUm/M84sjO+DiE6Ru9RaP45cw=",
+        "originContent": "### TODO ",
+        "translatedContent": "### 待办事项 "
+      },
+      {
+        "row": 27,
+        "rowsha": "+8MghGmaHABpW9kl7RVV6GDMPILwF9haXuQU73xTW3g=",
+        "originContent": "- [x] Release the code for inference.",
+        "translatedContent": "- [x] 发布推理代码。"
+      },
+      {
+        "row": 28,
+        "rowsha": "e2QMvtB2FoC5VggF9gVh7PXoZ0pgL8vkP7XzQVd5DYk=",
+        "originContent": "- [x] Update the code for training.",
+        "translatedContent": "- [x] 更新训练代码。"
+      },
+      {
+        "row": 29,
+        "rowsha": "u6wPS0yFfwiJV5jwxMr9L64iX6DAlYUETofirbktFLM=",
+        "originContent": "- [ ] fp16 VAED4.",
+        "translatedContent": "- [ ] fp16 VAED4。"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "AmO1LYehEaTqiHNZTgS45TkS4bLHA5iClb+sVsM0FBs=",
+        "originContent": "## ⚙ Dependencies and Installation",
+        "translatedContent": "## ⚙ 依赖和安装"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```shell\n## git clone this repository\ngit clone https://github.com/Joyies/TVT.git\ncd TVT\n\n\n# create an environment\nconda create -n TVT python=3.10\nconda activate TVT\npip install --upgrade pip\npip install -r requirements.txt\n```",
+    "ContentSha": "3MFtTRRVFa2aJ4AWv5dik/5RriukqsKvOftw9FcFLNY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n## git clone this repository\ngit clone https://github.com/Joyies/TVT.git\ncd TVT\n\n\n# create an environment\nconda create -n TVT python=3.10\nconda activate TVT\npip install --upgrade pip\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "DzfKtDklRQVJx8+WQQJ5wW8zwPz2VKgLpjgam2e4Klo=",
+        "originContent": "## git clone this repository",
+        "translatedContent": "## git clone this repository"
+      },
+      {
+        "row": 3,
+        "rowsha": "X71FWqSHL+rSfK849pUk+1/aUEeXk1eSSphiLYzdSw0=",
+        "originContent": "git clone https://github.com/Joyies/TVT.git",
+        "translatedContent": "git clone https://github.com/Joyies/TVT.git"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtXH9RuhTBnm+dMMJGam+MlbOy7d4L8IeGGPK/QhEnc=",
+        "originContent": "cd TVT",
+        "translatedContent": "cd TVT"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "473cpjszPkAgwbztwlhYWDVZGiGoPasjsfC9ljv8eGg=",
+        "originContent": "# create an environment",
+        "translatedContent": "# create an environment"
+      },
+      {
+        "row": 8,
+        "rowsha": "JqSNPlP1Vo3XnnG/pB4LCpjiep9W4qAK7mo86jMWpiU=",
+        "originContent": "conda create -n TVT python=3.10",
+        "translatedContent": "conda create -n TVT python=3.10"
+      },
+      {
+        "row": 9,
+        "rowsha": "478wbTmm4x+YHD5vkakIpWGWvC5Bfa5BZMH1p7KsQ4o=",
+        "originContent": "conda activate TVT",
+        "translatedContent": "conda activate TVT"
+      },
+      {
+        "row": 10,
+        "rowsha": "4HeOXyfmyX7wD0EclkMirgRrNQ+Zcno14B5zcF529Ls=",
+        "originContent": "pip install --upgrade pip",
+        "translatedContent": "pip install --upgrade pip"
+      },
+      {
+        "row": 11,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## 🏂 Quick Inference\n\n### Real-world Image Super-resolution\n\n#### Step 1: Download the pretrained models\n- Download the pretrained SD-2.1-base models from [![weights](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-SD%202.1%20Base-blue)](https://huggingface.co/Joypop/stable-diffusion-2-1-base)&nbsp;\n- Download the model weights ([VAED4](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), [TVT model](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), [TVTUNet](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), [DAPE](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), and [RAM](https://huggingface.co/Joypop/TVTSR/tree/main/ckp)) from [![weights](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-model%20weights-blue)](https://huggingface.co/Joypop/TVTSR/tree/main)&nbsp; and put the model weights in the `ckp/`:\n\n#### Step 2: Prepare testing data and run testing command \nYou can modify input_path and output_path to run testing command. The input_path is the path of the test image and the output_path is the path where the output images are saved.",
+    "ContentSha": "BHEExVhxbBm+LXfLMqtwsQdIc9CHAOZG8Y9kmCmVOB8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🏂 快速推理\n\n### 真实世界图像超分辨率\n\n#### 第1步：下载预训练模型\n- 从[![weights](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-SD%202.1%20Base-blue)](https://huggingface.co/Joypop/stable-diffusion-2-1-base)&nbsp;下载预训练的SD-2.1-base模型\n- 从[![weights](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-model%20weights-blue)](https://huggingface.co/Joypop/TVTSR/tree/main)&nbsp;下载模型权重([VAED4](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), [TVT模型](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), [TVTUNet](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), [DAPE](https://huggingface.co/Joypop/TVTSR/tree/main/ckp)，和 [RAM](https://huggingface.co/Joypop/TVTSR/tree/main/ckp))，并将模型权重放入 `ckp/` 文件夹：\n\n#### 第2步：准备测试数据并运行测试命令\n您可以修改 input_path 和 output_path 来运行测试命令。input_path 是测试图像的路径，output_path 是输出图像保存的路径。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "2IymlnmWMHJwRTJ/PYgXu+cPQVQVVZT3Gyoiz5q0/o4=",
+        "originContent": "## 🏂 Quick Inference",
+        "translatedContent": "## 🏂 快速推理"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "9i6BPLqM4bWRgfHtGD6LKBneUHaopeK5IQvJYJLRbsE=",
+        "originContent": "### Real-world Image Super-resolution",
+        "translatedContent": "### 真实世界图像超分辨率"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "hnm9PRqlQdKLDJ3toi+14ITtu5DAKcew/0vfaTpiyjU=",
+        "originContent": "#### Step 1: Download the pretrained models",
+        "translatedContent": "#### 第1步：下载预训练模型"
+      },
+      {
+        "row": 7,
+        "rowsha": "fYisdbDNgifD5I8GIEWAunP4u4uTeO1DnKgtoUGmftg=",
+        "originContent": "- Download the pretrained SD-2.1-base models from [![weights](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-SD%202.1%20Base-blue)](https://huggingface.co/Joypop/stable-diffusion-2-1-base)&nbsp;",
+        "translatedContent": "- 从[![weights](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-SD%202.1%20Base-blue)](https://huggingface.co/Joypop/stable-diffusion-2-1-base)&nbsp;下载预训练的SD-2.1-base模型"
+      },
+      {
+        "row": 8,
+        "rowsha": "R/bSTjrZtOyEqFpiuvgjPE6v4SX5VcEk00TMitYS2h8=",
+        "originContent": "- Download the model weights ([VAED4](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), [TVT model](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), [TVTUNet](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), [DAPE](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), and [RAM](https://huggingface.co/Joypop/TVTSR/tree/main/ckp)) from [![weights](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-model%20weights-blue)](https://huggingface.co/Joypop/TVTSR/tree/main)&nbsp; and put the model weights in the `ckp/`:",
+        "translatedContent": "- 从[![weights](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-model%20weights-blue)](https://huggingface.co/Joypop/TVTSR/tree/main)&nbsp;下载模型权重([VAED4](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), [TVT模型](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), [TVTUNet](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), [DAPE](https://huggingface.co/Joypop/TVTSR/tree/main/ckp)，和 [RAM](https://huggingface.co/Joypop/TVTSR/tree/main/ckp))，并将模型权重放入 `ckp/` 文件夹："
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "oORagj5E61ShQFXcGRFwy4jglWSpEKf7Fg3BzFJ9dgQ=",
+        "originContent": "#### Step 2: Prepare testing data and run testing command ",
+        "translatedContent": "#### 第2步：准备测试数据并运行测试命令"
+      },
+      {
+        "row": 11,
+        "rowsha": "si9B7ju64A/OOGkKUB73FtAWHSqcSBFMN4LhRv/h/2U=",
+        "originContent": "You can modify input_path and output_path to run testing command. The input_path is the path of the test image and the output_path is the path where the output images are saved.",
+        "translatedContent": "您可以修改 input_path 和 output_path 来运行测试命令。input_path 是测试图像的路径，output_path 是输出图像保存的路径。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\npython TVT/inferences/inference.py \\\n--input_image input_path \\\n--output_dir output_path \\\n--pretrained_path ckp/model_TVT.pkl \\\n--pretrained_model_name_or_path stabilityai/stable-diffusion-2-1-base \\\n--pretrained_unet_path ckp/TVTUNet \\\n--vae4d_path ckp/vae.ckpt \\\n--ram_ft_path ckp/DAPE.pth \\\n--negprompt 'dotted, noise, blur, lowres, smooth' \\\n--prompt 'clean, high-resolution, 8k' \\\n--upscale 4 \\\n--time_step 1\n```",
+    "ContentSha": "qrd4s8+PgRmNDgNhXFzSsg5Xa77yl1L9wy86CFS1bjQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython TVT/inferences/inference.py \\\n--input_image input_path \\\n--output_dir output_path \\\n--pretrained_path ckp/model_TVT.pkl \\\n--pretrained_model_name_or_path stabilityai/stable-diffusion-2-1-base \\\n--pretrained_unet_path ckp/TVTUNet \\\n--vae4d_path ckp/vae.ckpt \\\n--ram_ft_path ckp/DAPE.pth \\\n--negprompt 'dotted, noise, blur, lowres, smooth' \\\n--prompt 'clean, high-resolution, 8k' \\\n--upscale 4 \\\n--time_step 1\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "pWBhW8M23I0vhk2l23chiK3B6uyF/gM0ubi3VsHsiYY=",
+        "originContent": "python TVT/inferences/inference.py \\",
+        "translatedContent": "python TVT/inferences/inference.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "JHR2PDJCb+VOQGAkNqcCtQayuJiSRmOmyA89bJkOcSQ=",
+        "originContent": "--input_image input_path \\",
+        "translatedContent": "--input_image input_path \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "e/8ZulLVt2WBGLLRA6F+v/Lcq47pBkDAhCqVBmQkl9s=",
+        "originContent": "--output_dir output_path \\",
+        "translatedContent": "--output_dir output_path \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "xEmX/SIKaex528/h3F+6eroYLwQCnjhb0LuznZyjy9k=",
+        "originContent": "--pretrained_path ckp/model_TVT.pkl \\",
+        "translatedContent": "--pretrained_path ckp/model_TVT.pkl \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "Cw8VEK7K0m3tPHjcR/gXAggGpSmmFHa9Wi+lZmE1gE4=",
+        "originContent": "--pretrained_model_name_or_path stabilityai/stable-diffusion-2-1-base \\",
+        "translatedContent": "--pretrained_model_name_or_path stabilityai/stable-diffusion-2-1-base \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "2RyG+8N/9ZoSL//IcWZfjCLidxokLiIV/mo5NAF1Qe8=",
+        "originContent": "--pretrained_unet_path ckp/TVTUNet \\",
+        "translatedContent": "--pretrained_unet_path ckp/TVTUNet \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "RUK3IATD+z6DcPcSFs4HTiPHmId2rc6u6MwNT2iNUwg=",
+        "originContent": "--vae4d_path ckp/vae.ckpt \\",
+        "translatedContent": "--vae4d_path ckp/vae.ckpt \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "PyDzfJVHHg9aczVwTdhJL2aKN6/NIk+a1k38R/tjKR0=",
+        "originContent": "--ram_ft_path ckp/DAPE.pth \\",
+        "translatedContent": "--ram_ft_path ckp/DAPE.pth \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "lqBM+HjsQQbyKMlDXV7GUHy8M7Qq6lAaeKiLKIRaVEs=",
+        "originContent": "--negprompt 'dotted, noise, blur, lowres, smooth' \\",
+        "translatedContent": "--negprompt 'dotted, noise, blur, lowres, smooth' \\"
+      },
+      {
+        "row": 11,
+        "rowsha": "4kEa0vfpL9vS4i4AcgGN8Vzj4Q7LQHco8bjdzJsClOM=",
+        "originContent": "--prompt 'clean, high-resolution, 8k' \\",
+        "translatedContent": "--prompt 'clean, high-resolution, 8k' \\"
+      },
+      {
+        "row": 12,
+        "rowsha": "XqZH9xd+4MQyFM2TWpT0/ZIO2RF8+In8QIbBDTauVKU=",
+        "originContent": "--upscale 4 \\",
+        "translatedContent": "--upscale 4 \\"
+      },
+      {
+        "row": 13,
+        "rowsha": "AdsCk0+/hgyXgacW2p6HCtGtjDxT3vyfRfoVo4uKT2g=",
+        "originContent": "--time_step 1",
+        "translatedContent": "--time_step 1"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "or ",
+    "ContentSha": "8dEJDWTRfIIynqsywcuYmX/EtZKSl9M8iZGXOt6bOnU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "or ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8dEJDWTRfIIynqsywcuYmX/EtZKSl9M8iZGXOt6bOnU=",
+        "originContent": "or ",
+        "translatedContent": "or "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nbash scripts/test/test_realsr.sh\n```",
+    "ContentSha": "yvEjb+uGk/8da/b4SMAPCVBuULcOsp+oTb+AOcgQLhk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nbash scripts/test/test_realsr.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZBA3nqqD7Vds/p7t2AAesgfrRjcA5/VheSW4sai1RuQ=",
+        "originContent": "bash scripts/test/test_realsr.sh",
+        "translatedContent": "bash scripts/test/test_realsr.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "We also provide the tile code to save the GPU memory for inference. You can run the running command and change the tile size and stride according to the VRAM of your device.",
+    "ContentSha": "epaEsnDeANDl/bIBq9btByLT6jzIBNFSZmoKNg3fXUc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "我们还提供了切片代码以节省推理时的GPU内存。您可以运行该命令，并根据设备的显存调整切片大小和步幅。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "epaEsnDeANDl/bIBq9btByLT6jzIBNFSZmoKNg3fXUc=",
+        "originContent": "We also provide the tile code to save the GPU memory for inference. You can run the running command and change the tile size and stride according to the VRAM of your device.",
+        "translatedContent": "我们还提供了切片代码以节省推理时的GPU内存。您可以运行该命令，并根据设备的显存调整切片大小和步幅。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\npython TVT/inferences/inference_tile.py \\\n--input_image input_path \\\n--output_dir output_path \\\n--pretrained_path ckp/model_TVT.pkl \\\n--pretrained_model_name_or_path stabilityai/stable-diffusion-2-1-base \\\n--pretrained_unet_path ckp/TVTUNet \\\n--vae4d_path ckp/vae.ckpt \\\n--ram_ft_path ckp/DAPE.pth \\\n--negprompt 'dotted, noise, blur, lowres, smooth' \\\n--prompt 'clean, high-resolution, 8k' \\\n--upscale 4 \\\n--time_step 1 \\\n--tiled_size 96 \\\n--tiled_overlap 32\n```",
+    "ContentSha": "Z+B3mbPIP+ByDl+pMZbdEZjkb2GzTFS9E3AMu+cdGlo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython TVT/inferences/inference_tile.py \\\n--input_image input_path \\\n--output_dir output_path \\\n--pretrained_path ckp/model_TVT.pkl \\\n--pretrained_model_name_or_path stabilityai/stable-diffusion-2-1-base \\\n--pretrained_unet_path ckp/TVTUNet \\\n--vae4d_path ckp/vae.ckpt \\\n--ram_ft_path ckp/DAPE.pth \\\n--negprompt 'dotted, noise, blur, lowres, smooth' \\\n--prompt 'clean, high-resolution, 8k' \\\n--upscale 4 \\\n--time_step 1 \\\n--tiled_size 96 \\\n--tiled_overlap 32\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "A/6fyFONhvlSJFCOcAfOtEBtvZrYzrJFnUBnrH4VvHQ=",
+        "originContent": "python TVT/inferences/inference_tile.py \\",
+        "translatedContent": "python TVT/inferences/inference_tile.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "JHR2PDJCb+VOQGAkNqcCtQayuJiSRmOmyA89bJkOcSQ=",
+        "originContent": "--input_image input_path \\",
+        "translatedContent": "--input_image input_path \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "e/8ZulLVt2WBGLLRA6F+v/Lcq47pBkDAhCqVBmQkl9s=",
+        "originContent": "--output_dir output_path \\",
+        "translatedContent": "--output_dir output_path \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "xEmX/SIKaex528/h3F+6eroYLwQCnjhb0LuznZyjy9k=",
+        "originContent": "--pretrained_path ckp/model_TVT.pkl \\",
+        "translatedContent": "--pretrained_path ckp/model_TVT.pkl \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "Cw8VEK7K0m3tPHjcR/gXAggGpSmmFHa9Wi+lZmE1gE4=",
+        "originContent": "--pretrained_model_name_or_path stabilityai/stable-diffusion-2-1-base \\",
+        "translatedContent": "--pretrained_model_name_or_path stabilityai/stable-diffusion-2-1-base \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "2RyG+8N/9ZoSL//IcWZfjCLidxokLiIV/mo5NAF1Qe8=",
+        "originContent": "--pretrained_unet_path ckp/TVTUNet \\",
+        "translatedContent": "--pretrained_unet_path ckp/TVTUNet \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "RUK3IATD+z6DcPcSFs4HTiPHmId2rc6u6MwNT2iNUwg=",
+        "originContent": "--vae4d_path ckp/vae.ckpt \\",
+        "translatedContent": "--vae4d_path ckp/vae.ckpt \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "PyDzfJVHHg9aczVwTdhJL2aKN6/NIk+a1k38R/tjKR0=",
+        "originContent": "--ram_ft_path ckp/DAPE.pth \\",
+        "translatedContent": "--ram_ft_path ckp/DAPE.pth \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "lqBM+HjsQQbyKMlDXV7GUHy8M7Qq6lAaeKiLKIRaVEs=",
+        "originContent": "--negprompt 'dotted, noise, blur, lowres, smooth' \\",
+        "translatedContent": "--negprompt 'dotted, noise, blur, lowres, smooth' \\"
+      },
+      {
+        "row": 11,
+        "rowsha": "4kEa0vfpL9vS4i4AcgGN8Vzj4Q7LQHco8bjdzJsClOM=",
+        "originContent": "--prompt 'clean, high-resolution, 8k' \\",
+        "translatedContent": "--prompt 'clean, high-resolution, 8k' \\"
+      },
+      {
+        "row": 12,
+        "rowsha": "XqZH9xd+4MQyFM2TWpT0/ZIO2RF8+In8QIbBDTauVKU=",
+        "originContent": "--upscale 4 \\",
+        "translatedContent": "--upscale 4 \\"
+      },
+      {
+        "row": 13,
+        "rowsha": "F8yXCSBgq+StIh36TiZacOh0vbncZxpAHsxMiYAdVSE=",
+        "originContent": "--time_step 1 \\",
+        "translatedContent": "--time_step 1 \\"
+      },
+      {
+        "row": 14,
+        "rowsha": "kTlsl+LeLhDhdvzl6xjfrumjLnjIc5rRV+Phf3iRmtE=",
+        "originContent": "--tiled_size 96 \\",
+        "translatedContent": "--tiled_size 96 \\"
+      },
+      {
+        "row": 15,
+        "rowsha": "eeaAhhlGjswenMG3HP9WHaT610LlyJ+loIB9a2yXsvY=",
+        "originContent": "--tiled_overlap 32",
+        "translatedContent": "--tiled_overlap 32"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## 🚄 Training Phase\n\n### Train VAED4 on the OpenImage dataset and LSDIR dataset.\n#### Step1: Prepare training data\nDownload the [OpenImage dataset](https://storage.googleapis.com/openimages/web/index.html) and [LSIDR dataset](https://github.com/ofsoundof/LSDIR). For each image in the LSDIR dataset, crop multiple 512×512 image patches using a sliding window with a stride of 64 pixels;\n\n#### Step2: Train VAED4\nThe [LDM code](https://github.com/CompVis/latent-diffusion) is used to train VAED4. \n\n\n### Train TVTSR on the Real-ISR datasets\n#### Step1: Prepare training data\n\nDownload the [LSIDR dataset](https://github.com/ofsoundof/LSDIR) and the first 10k [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset). Subsequently, perform data augmentation on the training dataset. Specifically, for each image in the LSDIR dataset, crop multiple 512×512 image patches using a sliding window with a stride of 64 pixels; for the FFHQ dataset, directly resize all images to 512×512.\n\n#### Step2: Train Real-ISR Model\n\n1. Download [VAED4](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), [TVTUNet](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), and [RAM](https://huggingface.co/Joypop/TVTSR/tree/main/ckp) models, and put these models into `ckp/`. \n\n2. Start training.",
+    "ContentSha": "d9aP+MgF20izK1TzAcyJedcFu+M1VsmTC8t+n3Mcevw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🚄 训练阶段\n\n### 在 OpenImage 数据集和 LSDIR 数据集上训练 VAED4。\n#### 第一步：准备训练数据\n下载 [OpenImage 数据集](https://storage.googleapis.com/openimages/web/index.html) 和 [LSIDR 数据集](https://github.com/ofsoundof/LSDIR)。对于 LSDIR 数据集中的每张图像，使用步长为64像素的滑动窗口裁剪多个512×512的图像块；\n\n#### 第二步：训练 VAED4\n使用 [LDM 代码](https://github.com/CompVis/latent-diffusion) 来训练 VAED4。 \n\n\n### 在 Real-ISR 数据集上训练 TVTSR\n#### 第一步：准备训练数据\n\n下载 [LSIDR 数据集](https://github.com/ofsoundof/LSDIR) 和前 1 万张 [FFHQ 数据集](https://github.com/NVlabs/ffhq-dataset)。随后对训练数据集进行数据增强。具体来说，对于 LSDIR 数据集中的每张图像，使用步长为64像素的滑动窗口裁剪多个512×512的图像块；对于 FFHQ 数据集，直接将所有图像调整为512×512。\n\n#### 第二步：训练 Real-ISR 模型\n\n1. 下载 [VAED4](https://huggingface.co/Joypop/TVTSR/tree/main/ckp)、[TVTUNet](https://huggingface.co/Joypop/TVTSR/tree/main/ckp) 和 [RAM](https://huggingface.co/Joypop/TVTSR/tree/main/ckp) 模型，并将这些模型放入 `ckp/` 文件夹中。\n\n2. 开始训练。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "nigHfrcndVq4mepko2lS3NE/gVdBZYnmyIARqqqXdBI=",
+        "originContent": "## 🚄 Training Phase",
+        "translatedContent": "## 🚄 训练阶段"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "EJOCSleObYJR0C5IVPqtl8flDSe8lqWJW2jsngBkC6c=",
+        "originContent": "### Train VAED4 on the OpenImage dataset and LSDIR dataset.",
+        "translatedContent": "### 在 OpenImage 数据集和 LSDIR 数据集上训练 VAED4。"
+      },
+      {
+        "row": 5,
+        "rowsha": "gaq7Ge4Q+a7x+GAeEkHQ/xLyNCUZtfc6HK3GdVnZO5Q=",
+        "originContent": "#### Step1: Prepare training data",
+        "translatedContent": "#### 第一步：准备训练数据"
+      },
+      {
+        "row": 6,
+        "rowsha": "bpxpH49ypdN33hrA324Z7JxrW4Px3FFZENWUrV1dFgg=",
+        "originContent": "Download the [OpenImage dataset](https://storage.googleapis.com/openimages/web/index.html) and [LSIDR dataset](https://github.com/ofsoundof/LSDIR). For each image in the LSDIR dataset, crop multiple 512×512 image patches using a sliding window with a stride of 64 pixels;",
+        "translatedContent": "下载 [OpenImage 数据集](https://storage.googleapis.com/openimages/web/index.html) 和 [LSIDR 数据集](https://github.com/ofsoundof/LSDIR)。对于 LSDIR 数据集中的每张图像，使用步长为64像素的滑动窗口裁剪多个512×512的图像块；"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "edvgQXOPsDeiVBmv3SNWw1rBLS2eMa5NlCmQSNSdmYM=",
+        "originContent": "#### Step2: Train VAED4",
+        "translatedContent": "#### 第二步：训练 VAED4"
+      },
+      {
+        "row": 9,
+        "rowsha": "sfs3NBTZ0bFmYEx1yEboR9mg9CghMvFNfFtuOBnXGoY=",
+        "originContent": "The [LDM code](https://github.com/CompVis/latent-diffusion) is used to train VAED4. ",
+        "translatedContent": "使用 [LDM 代码](https://github.com/CompVis/latent-diffusion) 来训练 VAED4。 "
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "0GQTgQzMxDxcXklSKVk8xzmuFe48LlC/wUrM0uo7rOw=",
+        "originContent": "### Train TVTSR on the Real-ISR datasets",
+        "translatedContent": "### 在 Real-ISR 数据集上训练 TVTSR"
+      },
+      {
+        "row": 13,
+        "rowsha": "gaq7Ge4Q+a7x+GAeEkHQ/xLyNCUZtfc6HK3GdVnZO5Q=",
+        "originContent": "#### Step1: Prepare training data",
+        "translatedContent": "#### 第一步：准备训练数据"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "5D0vsansVjaBg2QcSor7Y1xHnp16+gpf1hVRvK05xVA=",
+        "originContent": "Download the [LSIDR dataset](https://github.com/ofsoundof/LSDIR) and the first 10k [FFHQ dataset](https://github.com/NVlabs/ffhq-dataset). Subsequently, perform data augmentation on the training dataset. Specifically, for each image in the LSDIR dataset, crop multiple 512×512 image patches using a sliding window with a stride of 64 pixels; for the FFHQ dataset, directly resize all images to 512×512.",
+        "translatedContent": "下载 [LSIDR 数据集](https://github.com/ofsoundof/LSDIR) 和前 1 万张 [FFHQ 数据集](https://github.com/NVlabs/ffhq-dataset)。随后对训练数据集进行数据增强。具体来说，对于 LSDIR 数据集中的每张图像，使用步长为64像素的滑动窗口裁剪多个512×512的图像块；对于 FFHQ 数据集，直接将所有图像调整为512×512。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "emAkizfBEQ+OSZ7vLvlY2yk9kFlXMpgPR6yPQoYz/58=",
+        "originContent": "#### Step2: Train Real-ISR Model",
+        "translatedContent": "#### 第二步：训练 Real-ISR 模型"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "M+02ZI40IfnSm1CWOlMF7e2af0vBBH1C4EcETJzB63Q=",
+        "originContent": "1. Download [VAED4](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), [TVTUNet](https://huggingface.co/Joypop/TVTSR/tree/main/ckp), and [RAM](https://huggingface.co/Joypop/TVTSR/tree/main/ckp) models, and put these models into `ckp/`. ",
+        "translatedContent": "1. 下载 [VAED4](https://huggingface.co/Joypop/TVTSR/tree/main/ckp)、[TVTUNet](https://huggingface.co/Joypop/TVTSR/tree/main/ckp) 和 [RAM](https://huggingface.co/Joypop/TVTSR/tree/main/ckp) 模型，并将这些模型放入 `ckp/` 文件夹中。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "jaiNeO7fMmtm9yLA2Gb7hx6qqQDp4grfZCMKexjo/5M=",
+        "originContent": "2. Start training.",
+        "translatedContent": "2. 开始训练。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "    ```shell\n   accelerate launch --gpu_ids=0,1,2,3, --num_processes=4 TVT/train_TVTSR/train.py \\\n    --pretrained_model_name_or_path=\"stabilityai/stable-diffusion-2-1-base\" \\\n    --pretrained_model_name_or_path_vsd=\"stabilityai/stable-diffusion-2-1-base\" \\\n    --pretrained_unet_path='ckp/TVTUNet' \\\n    --vae4d_path='ckp/vae.ckpt' \\\n    --dataset_folder=\"data_path\" \\\n    --testdataset_folder=\"test_path\" \\\n    --resolution=512 \\\n    --learning_rate=5e-5 \\\n    --train_batch_size=2 \\\n    --gradient_accumulation_steps=2 \\\n    --enable_xformers_memory_efficient_attention \\\n    --eval_freq 500 \\\n    --checkpointing_steps 500 \\\n    --mixed_precision='fp16' \\\n    --report_to \"tensorboard\" \\\n    --output_dir=\"output_path\" \\\n    --lora_rank_unet_vsd=4 \\\n    --lora_rank_unet=4 \\\n    --lambda_lpips=2 \\\n    --lambda_l2=1 \\\n    --lambda_vsd=1 \\\n    --lambda_vsd_lora=1 \\\n    --min_dm_step_ratio=0.25 \\\n    --max_dm_step_ratio=0.75 \\\n    --use_vae_encode_lora \\\n    --align_method=\"adain\" \\\n    --use_online_deg \\\n    --deg_file_path=\"params_TVT.yml\" \\\n    --negative_prompt='painting, oil painting, illustration, drawing, art, sketch, oil painting, cartoon, CG Style, 3D render, unreal engine, blurring, dirty, messy, worst quality, low quality, frames, watermark, signature, jpeg artifacts, deformed, lowres, over-smooth' \\\n    --test_image_prep='no_resize' \\\n    --time_step=1 \\\n    --tracker_project_name \"experiment_track_name\"\n    ```",
+    "ContentSha": "oXGsC8uRtvY3Ox+SSTo0u1vp2+bertQjVWWywcb14NA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```shell\n   accelerate launch --gpu_ids=0,1,2,3, --num_processes=4 TVT/train_TVTSR/train.py \\\n    --pretrained_model_name_or_path=\"stabilityai/stable-diffusion-2-1-base\" \\\n    --pretrained_model_name_or_path_vsd=\"stabilityai/stable-diffusion-2-1-base\" \\\n    --pretrained_unet_path='ckp/TVTUNet' \\\n    --vae4d_path='ckp/vae.ckpt' \\\n    --dataset_folder=\"data_path\" \\\n    --testdataset_folder=\"test_path\" \\\n    --resolution=512 \\\n    --learning_rate=5e-5 \\\n    --train_batch_size=2 \\\n    --gradient_accumulation_steps=2 \\\n    --enable_xformers_memory_efficient_attention \\\n    --eval_freq 500 \\\n    --checkpointing_steps 500 \\\n    --mixed_precision='fp16' \\\n    --report_to \"tensorboard\" \\\n    --output_dir=\"output_path\" \\\n    --lora_rank_unet_vsd=4 \\\n    --lora_rank_unet=4 \\\n    --lambda_lpips=2 \\\n    --lambda_l2=1 \\\n    --lambda_vsd=1 \\\n    --lambda_vsd_lora=1 \\\n    --min_dm_step_ratio=0.25 \\\n    --max_dm_step_ratio=0.75 \\\n    --use_vae_encode_lora \\\n    --align_method=\"adain\" \\\n    --use_online_deg \\\n    --deg_file_path=\"params_TVT.yml\" \\\n    --negative_prompt='painting, oil painting, illustration, drawing, art, sketch, oil painting, cartoon, CG Style, 3D render, unreal engine, blurring, dirty, messy, worst quality, low quality, frames, watermark, signature, jpeg artifacts, deformed, lowres, over-smooth' \\\n    --test_image_prep='no_resize' \\\n    --time_step=1 \\\n    --tracker_project_name \"experiment_track_name\"\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
+        "originContent": "    ```shell",
+        "translatedContent": "    ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "1HDyHyWgD67BBuhxVWNhlq7P/jqpOUqh8X0UPu+6584=",
+        "originContent": "   accelerate launch --gpu_ids=0,1,2,3, --num_processes=4 TVT/train_TVTSR/train.py \\",
+        "translatedContent": "   accelerate launch --gpu_ids=0,1,2,3, --num_processes=4 TVT/train_TVTSR/train.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "7yWRKYqJ8zIVLvCaV0HNtkLXFVBK7yWhQbrSPYPlZLg=",
+        "originContent": "    --pretrained_model_name_or_path=\"stabilityai/stable-diffusion-2-1-base\" \\",
+        "translatedContent": "    --pretrained_model_name_or_path=\"stabilityai/stable-diffusion-2-1-base\" \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "2+4bzP3JoRh6YyrQ/yTzFud+pVmIeYdLtP+azpz40ec=",
+        "originContent": "    --pretrained_model_name_or_path_vsd=\"stabilityai/stable-diffusion-2-1-base\" \\",
+        "translatedContent": "    --pretrained_model_name_or_path_vsd=\"stabilityai/stable-diffusion-2-1-base\" \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "K7KmSnHen8QiGHALWkvQK3aR1hLXHr6t8/1pym5aZbo=",
+        "originContent": "    --pretrained_unet_path='ckp/TVTUNet' \\",
+        "translatedContent": "    --pretrained_unet_path='ckp/TVTUNet' \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "HKH6TbnxNaFTDsIj+c4U0FwQF64BZDc2FQqHwbbbUxU=",
+        "originContent": "    --vae4d_path='ckp/vae.ckpt' \\",
+        "translatedContent": "    --vae4d_path='ckp/vae.ckpt' \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "bxBBD211/SAOKrNEbnOxOVaiYq/xnTfkZkQ4ntoVqJ4=",
+        "originContent": "    --dataset_folder=\"data_path\" \\",
+        "translatedContent": "    --dataset_folder=\"data_path\" \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "mrR5ACZdPLjPkMzZERkVV2ZZP/n7idzwelfV921Wrhs=",
+        "originContent": "    --testdataset_folder=\"test_path\" \\",
+        "translatedContent": "    --testdataset_folder=\"test_path\" \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "7bymvXrUrsQx5iuPiY4BPzaaqZOdKsM+B5v+N7dZ4Nk=",
+        "originContent": "    --resolution=512 \\",
+        "translatedContent": "    --resolution=512 \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "KNN0iuFyxu2bAPV9H6K+k4NVVWMqvNonCvw9QkLpUUs=",
+        "originContent": "    --learning_rate=5e-5 \\",
+        "translatedContent": "    --learning_rate=5e-5 \\"
+      },
+      {
+        "row": 11,
+        "rowsha": "l6fTQIt1v94uv7q0C950LJdIScG6x4BLxHVMUEcxLPU=",
+        "originContent": "    --train_batch_size=2 \\",
+        "translatedContent": "    --train_batch_size=2 \\"
+      },
+      {
+        "row": 12,
+        "rowsha": "+Z7MXRBaODjdsVsWe5ErWJBBUAPQyuD5TafzgSRajQk=",
+        "originContent": "    --gradient_accumulation_steps=2 \\",
+        "translatedContent": "    --gradient_accumulation_steps=2 \\"
+      },
+      {
+        "row": 13,
+        "rowsha": "umcYzBi69YLTBTTLOrxRUx1br8cfvIRtl08E42IWDVM=",
+        "originContent": "    --enable_xformers_memory_efficient_attention \\",
+        "translatedContent": "    --enable_xformers_memory_efficient_attention \\"
+      },
+      {
+        "row": 14,
+        "rowsha": "28Npe29ST3Yj+TpGrMZTcPia/AP6GW3iiFmC0fLN5jI=",
+        "originContent": "    --eval_freq 500 \\",
+        "translatedContent": "    --eval_freq 500 \\"
+      },
+      {
+        "row": 15,
+        "rowsha": "fVj0WPn/HLkbJmiQm6WYSwn+/33RgpPICVA6pgx1aVM=",
+        "originContent": "    --checkpointing_steps 500 \\",
+        "translatedContent": "    --checkpointing_steps 500 \\"
+      },
+      {
+        "row": 16,
+        "rowsha": "37oN0vZloss6Su25aNygOHmwnPY3zmQXmoSbKnhbAzE=",
+        "originContent": "    --mixed_precision='fp16' \\",
+        "translatedContent": "    --mixed_precision='fp16' \\"
+      },
+      {
+        "row": 17,
+        "rowsha": "icyKFCD+simzzPK1ie811GAMoQwGHDYH55pNAdGBSnA=",
+        "originContent": "    --report_to \"tensorboard\" \\",
+        "translatedContent": "    --report_to \"tensorboard\" \\"
+      },
+      {
+        "row": 18,
+        "rowsha": "wUFVlp0SLNN5pRGgkdn0Zz0MRL7ZpDD4tBYVucAyvM0=",
+        "originContent": "    --output_dir=\"output_path\" \\",
+        "translatedContent": "    --output_dir=\"output_path\" \\"
+      },
+      {
+        "row": 19,
+        "rowsha": "akVR/DvfHYqrZ/61ToWJ+jOYCDFtFDRn6032jQ5AU3w=",
+        "originContent": "    --lora_rank_unet_vsd=4 \\",
+        "translatedContent": "    --lora_rank_unet_vsd=4 \\"
+      },
+      {
+        "row": 20,
+        "rowsha": "UzinhoAahsL5KdP3N5aFLI86dT8bqJ9BRdWHpA+lcAE=",
+        "originContent": "    --lora_rank_unet=4 \\",
+        "translatedContent": "    --lora_rank_unet=4 \\"
+      },
+      {
+        "row": 21,
+        "rowsha": "/kw9Smyu1sPCjBuer+o0NX3uUp+CtABClviJSOn48so=",
+        "originContent": "    --lambda_lpips=2 \\",
+        "translatedContent": "    --lambda_lpips=2 \\"
+      },
+      {
+        "row": 22,
+        "rowsha": "nzKw721vs3hIy3S1S0FR6VsQ2cd+TfvE+4Ab4tIEGUU=",
+        "originContent": "    --lambda_l2=1 \\",
+        "translatedContent": "    --lambda_l2=1 \\"
+      },
+      {
+        "row": 23,
+        "rowsha": "Pb0rLYpJEE/5iTuIo4hjWAJxCzHgxtStqtatrhbtMAw=",
+        "originContent": "    --lambda_vsd=1 \\",
+        "translatedContent": "    --lambda_vsd=1 \\"
+      },
+      {
+        "row": 24,
+        "rowsha": "qfvtkPv1PsDyeTV+N1T/Gx14pi9lHO6+O+xXOfmjKkI=",
+        "originContent": "    --lambda_vsd_lora=1 \\",
+        "translatedContent": "    --lambda_vsd_lora=1 \\"
+      },
+      {
+        "row": 25,
+        "rowsha": "kVFYLhZLzfdSJ8vpGM9UD5V6Oam5A9jldCNm+wYJzx8=",
+        "originContent": "    --min_dm_step_ratio=0.25 \\",
+        "translatedContent": "    --min_dm_step_ratio=0.25 \\"
+      },
+      {
+        "row": 26,
+        "rowsha": "cSjcNlCG7eB0pWxtVYiIu0+B4J8ltsAdUYLqBZ5AAsY=",
+        "originContent": "    --max_dm_step_ratio=0.75 \\",
+        "translatedContent": "    --max_dm_step_ratio=0.75 \\"
+      },
+      {
+        "row": 27,
+        "rowsha": "nVm0rHdukMKSEHUis4DoO4fXlJCpIVWocKWS4HXZhUs=",
+        "originContent": "    --use_vae_encode_lora \\",
+        "translatedContent": "    --use_vae_encode_lora \\"
+      },
+      {
+        "row": 28,
+        "rowsha": "gVZTSXmpoLYTSlvBOFt7sSniyMcIetsbAVknPbrJuEY=",
+        "originContent": "    --align_method=\"adain\" \\",
+        "translatedContent": "    --align_method=\"adain\" \\"
+      },
+      {
+        "row": 29,
+        "rowsha": "WFF3r0lkk4KFOmMqhPIfC0krUJeQ3B/tnYryXRd7lAw=",
+        "originContent": "    --use_online_deg \\",
+        "translatedContent": "    --use_online_deg \\"
+      },
+      {
+        "row": 30,
+        "rowsha": "ZwZ+4QtZGz1ufqlmHvJHJt+JGGdQoCOzxzXyX93/D8w=",
+        "originContent": "    --deg_file_path=\"params_TVT.yml\" \\",
+        "translatedContent": "    --deg_file_path=\"params_TVT.yml\" \\"
+      },
+      {
+        "row": 31,
+        "rowsha": "uyroDHhnbEm/6qEOK1as8xoClTr2rGYITZkPTwmjdP4=",
+        "originContent": "    --negative_prompt='painting, oil painting, illustration, drawing, art, sketch, oil painting, cartoon, CG Style, 3D render, unreal engine, blurring, dirty, messy, worst quality, low quality, frames, watermark, signature, jpeg artifacts, deformed, lowres, over-smooth' \\",
+        "translatedContent": "    --negative_prompt='painting, oil painting, illustration, drawing, art, sketch, oil painting, cartoon, CG Style, 3D render, unreal engine, blurring, dirty, messy, worst quality, low quality, frames, watermark, signature, jpeg artifacts, deformed, lowres, over-smooth' \\"
+      },
+      {
+        "row": 32,
+        "rowsha": "RT4AW7sk6bHIvJor0Z1Jk7BCR6tfxBTofGMUS1HvncM=",
+        "originContent": "    --test_image_prep='no_resize' \\",
+        "translatedContent": "    --test_image_prep='no_resize' \\"
+      },
+      {
+        "row": 33,
+        "rowsha": "DFRe0IL+Uo1qe8kRPUS4NE3Coe6+b8svcQXAxcMvS3w=",
+        "originContent": "    --time_step=1 \\",
+        "translatedContent": "    --time_step=1 \\"
+      },
+      {
+        "row": 34,
+        "rowsha": "WUi1vACOtqBPdUMmS+W3feF8j0cFx1nDU/xznlWl6Yk=",
+        "originContent": "    --tracker_project_name \"experiment_track_name\"",
+        "translatedContent": "    --tracker_project_name \"experiment_track_name\""
+      },
+      {
+        "row": 35,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "    or",
+    "ContentSha": "RMW1jr+aRc9IHW65pzY2wI/HU39x+aMCcgsds4wHfOU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    or",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RMW1jr+aRc9IHW65pzY2wI/HU39x+aMCcgsds4wHfOU=",
+        "originContent": "    or",
+        "translatedContent": "    or"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "    ```shell\n   bash scripts/train/train.sh\n    ```",
+    "ContentSha": "TLilx6UmvJiWCKgziNquAFack0+Rzr3tJaYjG4s4VLw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```shell\n   bash scripts/train/train.sh\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EBNgZD2BV45ccLI2WMmxred9nrfZ698QuuxWJ+Enp58=",
+        "originContent": "    ```shell",
+        "translatedContent": "    ```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "U6uoUGLcHUsMV96GlCEisWOmMV7+Vldkd2KuzEBmopI=",
+        "originContent": "   bash scripts/train/train.sh",
+        "translatedContent": "   bash scripts/train/train.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## 🔗 Citations\nIf our code helps your research or work, please consider citing our paper.\nThe following are BibTeX references:\n",
+    "ContentSha": "Fvv547fzp5VtnFrcJg3hT5+Q/3YM4IB3cj5vNPAj2gI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🔗 引用\n如果我们的代码对您的研究或工作有所帮助，请考虑引用我们的论文。\n以下是BibTeX引用格式：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "W53/HuCmxcmXo4g956mY92G5Oed5ar9TCMXNJMGh6yU=",
+        "originContent": "## 🔗 Citations",
+        "translatedContent": "## 🔗 引用"
+      },
+      {
+        "row": 3,
+        "rowsha": "sVXyLZobQ1pa2l0XFt3CXnmcRr7pfEo+fXT7hb0XC8U=",
+        "originContent": "If our code helps your research or work, please consider citing our paper.",
+        "translatedContent": "如果我们的代码对您的研究或工作有所帮助，请考虑引用我们的论文。"
+      },
+      {
+        "row": 4,
+        "rowsha": "qdAMTn9yAiKLEkyUMoxL4Xi2apuZdaNs26svGpqCTig=",
+        "originContent": "The following are BibTeX references:",
+        "translatedContent": "以下是BibTeX引用格式："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```\n@article{yi2025fine,\n  title={Fine-structure Preserved Real-world Image Super-resolution via Transfer VAE Training},\n  author={Yi, Qiaosi and Li, Shuai and Wu, Rongyuan and Sun, Lingchen and Wu, Yuhui and Zhang, Lei},\n  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},\n  year={2025}\n}\n```",
+    "ContentSha": "rhx+eqRWCXoY9YaJdigOBTCiu9tM73zkYZBKVKj7Woc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n@article{yi2025fine,\n  title={Fine-structure Preserved Real-world Image Super-resolution via Transfer VAE Training},\n  author={Yi, Qiaosi and Li, Shuai and Wu, Rongyuan and Sun, Lingchen and Wu, Yuhui and Zhang, Lei},\n  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},\n  year={2025}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "dwGZAA1my5rwQDs5z8yNCSifp4wS4NtXQfydFLwgl44=",
+        "originContent": "@article{yi2025fine,",
+        "translatedContent": "@article{yi2025fine,"
+      },
+      {
+        "row": 3,
+        "rowsha": "IVHWOJomeo7TBrsKzDdoYR541x4f4g4Jy6UkaJ1Mgao=",
+        "originContent": "  title={Fine-structure Preserved Real-world Image Super-resolution via Transfer VAE Training},",
+        "translatedContent": "  title={Fine-structure Preserved Real-world Image Super-resolution via Transfer VAE Training},"
+      },
+      {
+        "row": 4,
+        "rowsha": "N84y5FJqpqRsyy7LMCP2M/RkCkEeILtxzmec3pZhzxg=",
+        "originContent": "  author={Yi, Qiaosi and Li, Shuai and Wu, Rongyuan and Sun, Lingchen and Wu, Yuhui and Zhang, Lei},",
+        "translatedContent": "  author={Yi, Qiaosi and Li, Shuai and Wu, Rongyuan and Sun, Lingchen and Wu, Yuhui and Zhang, Lei},"
+      },
+      {
+        "row": 5,
+        "rowsha": "50Vv4SzRNVlp49J+EP/XiSE4XecbWKOxADjVYU1isAI=",
+        "originContent": "  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},",
+        "translatedContent": "  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},"
+      },
+      {
+        "row": 6,
+        "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+        "originContent": "  year={2025}",
+        "translatedContent": "  year={2025}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n## ©️ License\nThis project is released under the [Apache 2.0 license](LICENSE).\n\n## 📧 Contact\nIf you have any questions, please contact: qiaosiyijoyies@gmail.com\n\n## Acknowledgement\nThis project is based on [diffusers](https://github.com/huggingface/diffusers), [LDM](https://github.com/CompVis/latent-diffusion), [OSEDiff](https://github.com/cswry/OSEDiff) and [PiSA-SR](https://github.com/csslc/PiSA-SR). Thanks for the awesome work. \n\n<details>\n<summary>statistics</summary>\n\n![visitors](https://visitor-badge.laobi.icu/badge?page_id=Joyies/TVT)\n\n</details>\n",
+    "ContentSha": "laTy8BZ9ZQIOsRIk0O/i985Yh7cd/3P21x++bI4tfwI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## ©️ 许可证\n本项目采用[Apache 2.0 许可证](LICENSE)发布。\n\n## 📧 联系方式\n如有任何疑问，请联系：qiaosiyijoyies@gmail.com\n\n## 致谢\n本项目基于[diffusers](https://github.com/huggingface/diffusers)、[LDM](https://github.com/CompVis/latent-diffusion)、[OSEDiff](https://github.com/cswry/OSEDiff)和[PiSA-SR](https://github.com/csslc/PiSA-SR)。感谢这些出色的工作。\n\n<details>\n<summary>统计信息</summary>\n\n![访客](https://visitor-badge.laobi.icu/badge?page_id=Joyies/TVT)\n\n</details>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "S6uDR19gcHME0jqddvbwcBY/5thNYxMoypI25eeQEJ8=",
+        "originContent": "## ©️ License",
+        "translatedContent": "## ©️ 许可证"
+      },
+      {
+        "row": 3,
+        "rowsha": "C4t5YUrOYhqqw9uBHREPdMFAfegedU9rhWEccFdWUUg=",
+        "originContent": "This project is released under the [Apache 2.0 license](LICENSE).",
+        "translatedContent": "本项目采用[Apache 2.0 许可证](LICENSE)发布。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "9XM9zLdHzI7rLQpxWwSAIpta/O8ZZ3JUA/iWlKatt1U=",
+        "originContent": "## 📧 Contact",
+        "translatedContent": "## 📧 联系方式"
+      },
+      {
+        "row": 6,
+        "rowsha": "EC5mgcXstElzJEvr62jodocs6cpR0QFGBzbS4tm18Rw=",
+        "originContent": "If you have any questions, please contact: qiaosiyijoyies@gmail.com",
+        "translatedContent": "如有任何疑问，请联系：qiaosiyijoyies@gmail.com"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+        "originContent": "## Acknowledgement",
+        "translatedContent": "## 致谢"
+      },
+      {
+        "row": 9,
+        "rowsha": "/7bd130ux5s4DyZnscSIUH2MGlyq6jp2JbL5DZPiXFc=",
+        "originContent": "This project is based on [diffusers](https://github.com/huggingface/diffusers), [LDM](https://github.com/CompVis/latent-diffusion), [OSEDiff](https://github.com/cswry/OSEDiff) and [PiSA-SR](https://github.com/csslc/PiSA-SR). Thanks for the awesome work. ",
+        "translatedContent": "本项目基于[diffusers](https://github.com/huggingface/diffusers)、[LDM](https://github.com/CompVis/latent-diffusion)、[OSEDiff](https://github.com/cswry/OSEDiff)和[PiSA-SR](https://github.com/csslc/PiSA-SR)。感谢这些出色的工作。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 12,
+        "rowsha": "YM7qNc/Ug5G1uxH7EZz8US0V3U93L4Km/wZXZ9vS9YA=",
+        "originContent": "<summary>statistics</summary>",
+        "translatedContent": "<summary>统计信息</summary>"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "rIR+Rd7OX7X0RTT75F2h77tH7jmfQ7K9bL+beRv9MV0=",
+        "originContent": "![visitors](https://visitor-badge.laobi.icu/badge?page_id=Joyies/TVT)",
+        "translatedContent": "![访客](https://visitor-badge.laobi.icu/badge?page_id=Joyies/TVT)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

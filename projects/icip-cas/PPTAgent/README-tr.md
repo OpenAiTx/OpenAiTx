@@ -37,34 +37,34 @@
 https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
 
 ## 📫 İletişim
-> Bu repoda ana katkıda bulunan, 2026 yılında mezun olacak bir yüksek lisans öğrencisidir ve şu anda iş aramaktadır. İş birliği veya iş fırsatları için rahatça iletişime geçebilirsiniz.
+> Bu depo'nun ana katkıcısı 2026 yılında mezun olacak bir yüksek lisans öğrencisidir, iş birliği veya fırsatlar için iletişime geçmekten çekinmeyin.
 >
-> Bu depo'nun ana katkıcısı 2026 mezunu bir yüksek lisans öğrencisidir ve iş aramaktadır, iletişime geçebilirsiniz.
+> Bu deposunun başlıca katkıcısı 2026 mezunu bir yüksek lisans öğrencisidir, iş birliği ya da iletişim fırsatları için iletişime geçebilirsiniz.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
 </div>
 
 ## 📅 Haberler
-- [2026/01]: Serbest biçimli ve şablon üretimi için PPTX dışa aktarımı ve çevrimdışı mod desteği geldi! Bağlam taşmasını önlemek için bağlam yönetimi eklendi.
-- [2025/12]: 🔥 V2 yayımlandı - Derin Araştırma Entegrasyonu, Serbest Biçimli Görsel Tasarım, Otonom Varlık Oluşturma, Metinden Görsele Üretim ve 20+ araçlı sandbox ile Ajan Ortamı gibi büyük geliştirmeler içerir.
-- [2025/09]: 🛠️ MCP sunucu desteği eklendi - yapılandırma ayrıntıları için [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) bağlantısına bakın
-- [2025/09]: 🚀 v2 yayımlandı - ayrıntılar için [sürüm notlarına](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) bakın
-- [2025/08]: 🎉 Makale **EMNLP 2025**'te kabul edildi!
-- [2025/05]: ✨ V1 yayımlandı ve 🌟 çekirdek işlevsellik ile dönüm noktası: GitHub'da 1.000 yıldız! - ayrıntılar için [sürüm notlarına](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) bakın
-- [2025/01]: 🔓 Kod tabanı açık kaynak yapıldı, deneysel kod [deneysel sürümde](https://github.com/icip-cas/PPTAgent/releases/tag/experiment) arşivlendi
+- [2026/01]: Serbest biçimli ve şablon oluşturma için PPTX dışa aktarma, çevrimdışı mod şimdi destekleniyor! Bağlam taşmasını önlemek için bağlam yönetimi eklendi.
+- [2025/12]: 🔥 Büyük iyileştirmelerle V2 yayımlandı - Derin Araştırma Entegrasyonu, Serbest Biçimli Görsel Tasarım, Otonom Varlık Oluşturma, Metinden Görsele Üretim ve sandbox & 20+ araç ile Ajan Ortamı.
+- [2025/09]: 🛠️ MCP sunucu desteği eklendi - yapılandırma detayları için [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) adresine bakınız
+- [2025/09]: 🚀 Büyük iyileştirmelerle v2 yayımlandı - detaylar için [sürüm notları](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) adresine bakınız
+- [2025/08]: 🎉 Makalemiz **EMNLP 2025**’te kabul edildi!
+- [2025/05]: ✨ Çekirdek işlevselliğiyle v1 yayımlandı ve 🌟 dönüm noktası: GitHub’da 1.000 yıldız! - detaylar için [sürüm notları](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) adresine bakınız
+- [2025/01]: 🔓 Kod tabanı açık kaynaklandı, deneysel kod [deneysel sürümde](https://github.com/icip-cas/PPTAgent/releases/tag/experiment) arşivlendi
 
 ## 📖 Kullanım
 
-> [!ÖNEMLİ]
-> 1. Tüm bu API anahtarları, yapılandırmalar ve servisler **gereklidir**.
-> 2. Ajan Omurgası Tavsiyesi: Araştırma Ajanı için Claude'u, Tasarım Ajanı için Gemini'yi kullanın. GLM-4.7 açık kaynak modellerde iyi bir tercihtir.
-> 3. Çevrimdışı mod sınırlı yeteneklerle desteklenmektedir (aşağıdaki Çevrimdışı Kuruluma bakınız).
+> [!IMPORTANT]
+> 1. Tüm bu API anahtarları, yapılandırmalar ve servisler **zorunludur**.
+> 2. Ajan Omurgası Tavsiyesi: Araştırma Ajanı için Claude, Tasarım Ajanı için Gemini kullanın. GLM-4.7 de açık kaynak modellerde iyi bir seçenektir.
+> 3. Sınırlı yeteneklerle çevrimdışı mod desteklenmektedir (aşağıda Çevrimdışı Kurulum bölümüne bakınız).
 
 
 ### 1. Ortam Yapılandırması
 
-- **Yapılandırma dosyalarını oluşturun** (proje kök dizininden):
+- **Yapılandırma dosyalarını oluşturun** (proje kökünden):
 
   ```bash
   cp deeppresenter/deeppresenter/config.yaml.example deeppresenter/deeppresenter/config.yaml
@@ -94,7 +94,8 @@ Docker imajlarını oluşturun: `docker compose build`
 - **Yerelde çalıştırma**:
 
   ```bash
-  pip install -e deeppresenter
+  cd deeppresenter
+  pip install -e .
   playwright install-deps
   playwright install chromium
   npm install
@@ -228,6 +229,6 @@ If you find this project helpful, please use the following to cite it:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-22
 
 ---

@@ -37,34 +37,34 @@
 https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
 
 ## 📫 联系方式
-> 本仓库的主要贡献者是一名预计2026年毕业的硕士生，目前正在求职中。欢迎联系合作或推荐工作机会。
+> 本仓库的主要贡献者为一名预计2026年毕业的硕士研究生，欢迎联系合作或交流机会。
 >
-> 本仓库的主要贡献者是一名 2026 届硕士毕业生，正在求职中，欢迎联系。
+> 本仓库的主要贡献者是一名 2026 届硕士毕业生，欢迎联系合作或交流机会。
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
 </div>
 
-## 📅 新闻
-- [2026/01]: 我们已支持自由格式和模板生成的 PPTX 导出，以及离线模式！新增上下文管理以避免上下文溢出。
-- [2025/12]: 🔥 V2 版本发布，重大升级 —— 深度研究集成、自由视觉设计、自主素材生成、文本转图像生成、Agent 环境沙盒与 20+ 工具。
-- [2025/09]: 🛠️ 新增 MCP 服务器支持 —— 见 [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) 获取配置详情
-- [2025/09]: 🚀 V2 版本发布，重大改进 —— 见 [发布说明](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) 了解详情
+## 📅 新闻动态
+- [2026/01]: 我们支持自由格式和模板生成的 PPTX 导出、离线模式现已上线！新增上下文管理以避免上下文溢出。
+- [2025/12]: 🔥 发布 V2 重大升级——深度科研集成、自由视觉设计、自主素材生成、文本转图片、支持沙盒和 20+ 工具的 Agent 环境。
+- [2025/09]: 🛠️ 新增 MCP 服务器支持——配置详见 [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-)
+- [2025/09]: 🚀 发布 v2 重大升级——详情参见 [发布说明](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0)
 - [2025/08]: 🎉 论文被 **EMNLP 2025** 录用！
-- [2025/05]: ✨ V1 版本发布，核心功能上线，🌟 突破：GitHub 获得 1,000 星 —— 见 [发布说明](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) 获取详情
-- [2025/01]: 🔓 代码开源，实验性代码已归档于 [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
+- [2025/05]: ✨ 发布 v1，具备核心功能，并🌟突破：GitHub 达到 1,000 星！详见 [发布说明](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0)
+- [2025/01]: 🔓 代码开源，实验代码已归档于 [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
 
-## 📖 使用方法
+## 📖 用法
 
 > [!重要]
-> 1. 所有这些 API Key、配置和服务都是**必需**的。
-> 2. Agent 主体推荐：研究 Agent 用 Claude，设计 Agent 用 Gemini。开源模型中 GLM-4.7 也是不错选择。
-> 3. 支持离线模式，功能有限（见下方离线设置）。
+> 1. 所有这些 API 密钥、配置和服务都是**必需**的。
+> 2. Agent 主体建议：科研 Agent 使用 Claude，设计 Agent 使用 Gemini。GLM-4.7 也是开源模型中的不错选择。
+> 3. 支持离线模式，功能有限（详见下文离线配置）。
+
 
 ### 1. 环境配置
 
-- **创建配置文件**（项目根目录下）：
-
+- **创建配置文件**（在项目根目录下）：
 
   ```bash
   cp deeppresenter/deeppresenter/config.yaml.example deeppresenter/deeppresenter/config.yaml
@@ -94,7 +94,8 @@ https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
 - **本地运行**：
 
   ```bash
-  pip install -e deeppresenter
+  cd deeppresenter
+  pip install -e .
   playwright install-deps
   playwright install chromium
   npm install
@@ -228,6 +229,6 @@ If you find this project helpful, please use the following to cite it:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-22
 
 ---

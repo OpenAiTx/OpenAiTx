@@ -37,32 +37,32 @@
 https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
 
 ## 📫 Contact
-> Le principal contributeur de ce dépôt est un étudiant en Master qui obtiendra son diplôme en 2026, actuellement à la recherche d'un emploi. N'hésitez pas à le contacter pour toute collaboration ou opportunité professionnelle.
+> Le principal contributeur de ce dépôt est un étudiant en Master qui sera diplômé en 2026. N'hésitez pas à le contacter pour toute collaboration ou opportunité.
 >
-> Le principal contributeur de ce dépôt est un étudiant en master diplômé en 2026, actuellement à la recherche d'un emploi, n'hésitez pas à le contacter.
+> Le principal contributeur de ce dépôt est un étudiant diplômé en master promotion 2026, vous êtes invité à prendre contact pour toute opportunité de collaboration ou d'échange.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
 </div>
 
-## 📅 Nouvelles
-- [2026/01] : Nous supportons désormais l’export PPTX pour la génération libre et par modèle, ainsi qu’un mode hors ligne ! La gestion de contexte a été ajoutée pour éviter les débordements de contexte.
-- [2025/12] : 🔥 Sortie de la V2 avec des améliorations majeures – Intégration de recherche approfondie, conception visuelle libre, création autonome d’actifs, génération texte-vers-image et environnement agent avec sandbox & plus de 20 outils.
-- [2025/09] : 🛠️ Prise en charge du serveur MCP ajoutée – voir [Serveur MCP](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) pour les détails de configuration
-- [2025/09] : 🚀 Sortie de la v2 avec des améliorations majeures – voir [notes de version](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) pour plus de détails
+## 📅 Actualités
+- [2026/01] : Nous prenons en charge la génération en mode libre et par modèle, export PPTX, et désormais le mode hors ligne ! La gestion du contexte est ajoutée pour éviter le débordement du contexte.
+- [2025/12] : 🔥 Version V2 publiée avec des améliorations majeures - Intégration avancée de recherche, conception visuelle libre, création autonome d'actifs, génération texte-vers-image, et environnement d'agent avec sandbox & plus de 20 outils.
+- [2025/09] : 🛠️ Support du serveur MCP ajouté - voir [Serveur MCP](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) pour les détails de configuration
+- [2025/09] : 🚀 Version v2 publiée avec des améliorations majeures - voir [notes de version](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) pour plus de détails
 - [2025/08] : 🎉 Article accepté à **EMNLP 2025** !
-- [2025/05] : ✨ Sortie de la v1 avec les fonctionnalités principales et 🌟 avancée remarquable : 1 000 étoiles atteintes sur GitHub ! – voir [notes de version](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) pour plus de détails
-- [2025/01] : 🔓 Mise en open source du code, avec archivage du code expérimental à [release expérimentale](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
+- [2025/05] : ✨ Version v1 publiée avec les fonctionnalités principales et 🌟 avancée : 1 000 étoiles atteintes sur GitHub ! - voir [notes de version](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) pour plus de détails
+- [2025/01] : 🔓 Code source ouvert, avec code expérimental archivé sur [release expérimental](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
 
 ## 📖 Utilisation
 
 > [!IMPORTANT]
 > 1. Toutes ces clés API, configurations et services sont **obligatoires**.
-> 2. Recommandation pour l’Agent Backbone : utilisez Claude pour l’Agent de Recherche et Gemini pour l’Agent de Conception. GLM-4.7 est aussi un bon choix parmi les modèles open-source.
-> 3. Le mode hors ligne est pris en charge avec des capacités limitées (voir la configuration hors ligne ci-dessous).
+> 2. Recommandation d'agent principal : Utilisez Claude pour l'agent de recherche et Gemini pour l'agent de design. GLM-4.7 est également un bon choix parmi les modèles open source.
+> 3. Le mode hors ligne est pris en charge avec des capacités limitées (voir Installation hors ligne ci-dessous).
 
 
-### 1. Configuration de l’environnement
+### 1. Configuration de l'environnement
 
 - **Créer les fichiers de configuration** (depuis la racine du projet) :
 
@@ -94,7 +94,8 @@ Construisez les images docker : `docker compose build`
 - **Exécution en local** :
 
   ```bash
-  pip install -e deeppresenter
+  cd deeppresenter
+  pip install -e .
   playwright install-deps
   playwright install chromium
   npm install
@@ -228,6 +229,6 @@ If you find this project helpful, please use the following to cite it:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-22
 
 ---

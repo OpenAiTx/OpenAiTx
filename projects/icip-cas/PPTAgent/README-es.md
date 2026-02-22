@@ -37,29 +37,29 @@
 https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
 
 ## 📫 Contacto
-> El principal colaborador de este repositorio es un estudiante de maestría que se graduará en 2026, actualmente en búsqueda de empleo. No dude en ponerse en contacto para colaboraciones u oportunidades laborales.
+> El principal colaborador de este repositorio es un estudiante de maestría que se graduará en 2026, no dude en contactarlo para colaboración u oportunidades.
 >
-> El principal colaborador de este repositorio es un estudiante de maestría de la generación 2026, actualmente en búsqueda de empleo. ¡No dude en contactarlo!
+> El principal contribuyente de este repositorio es un estudiante de maestría que se graduará en 2026. Se invita a contactarlo para oportunidades de colaboración o intercambio.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
 </div>
 
-## 📅 Novedades
-- [2026/01]: ¡Ahora soportamos exportación de PPTX en generación libre y por plantilla, y modo offline! Se añadió gestión de contexto para evitar desbordamientos.
-- [2025/12]: 🔥 Lanzada la V2 con grandes mejoras: Integración profunda de investigación, diseño visual libre, creación autónoma de recursos, generación de texto a imagen y entorno Agente con sandbox y más de 20 herramientas.
-- [2025/09]: 🛠️ Añadido soporte para servidor MCP - vea [Servidor MCP](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) para detalles de configuración
-- [2025/09]: 🚀 Lanzada la v2 con grandes mejoras - vea [notas de lanzamiento](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) para más información
+## 📅 Noticias
+- [2026/01]: ¡Ahora soportamos exportación PPTX para generación libre y por plantilla, y modo offline! Se ha añadido gestión de contexto para evitar desbordamiento de contexto.
+- [2025/12]: 🔥 Lanzado V2 con mejoras importantes - Integración profunda de investigación, diseño visual libre, creación autónoma de recursos, generación de texto a imagen y entorno de agentes con sandbox y más de 20 herramientas.
+- [2025/09]: 🛠️ Añadido soporte para servidor MCP - ver [Servidor MCP](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) para detalles de configuración
+- [2025/09]: 🚀 Lanzado v2 con mejoras importantes - ver [notas de la versión](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) para detalles
 - [2025/08]: 🎉 ¡Artículo aceptado en **EMNLP 2025**!
-- [2025/05]: ✨ Lanzada la v1 con funcionalidad principal y 🌟 hito: ¡1,000 estrellas en GitHub! - vea [notas de lanzamiento](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) para detalles
+- [2025/05]: ✨ Lanzado v1 con funcionalidad principal y 🌟 avance: ¡alcanzamos 1,000 estrellas en GitHub! - ver [notas de la versión](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) para detalles
 - [2025/01]: 🔓 Código fuente liberado, con código experimental archivado en [lanzamiento experimental](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
 
 ## 📖 Uso
 
 > [!IMPORTANTE]
-> 1. Todas estas claves API, configuraciones y servicios son **obligatorios**.
-> 2. Recomendación de backbone de agente: Use Claude para el Agente de Investigación y Gemini para el Agente de Diseño. GLM-4.7 también es una buena opción entre los modelos de código abierto.
-> 3. El modo offline es compatible con capacidades limitadas (vea Configuración Offline más abajo).
+> 1. Todas estas claves API, configuraciones y servicios son **requeridos**.
+> 2. Recomendación de agente principal: Use Claude para el agente de investigación y Gemini para el agente de diseño. GLM-4.7 también es una buena opción en modelos open-source.
+> 3. El modo offline está soportado con capacidades limitadas (ver configuración offline abajo).
 
 
 ### 1. Configuración del entorno
@@ -94,7 +94,8 @@ Construye las imágenes de docker: `docker compose build`
 - **Ejecución local**:
 
   ```bash
-  pip install -e deeppresenter
+  cd deeppresenter
+  pip install -e .
   playwright install-deps
   playwright install chromium
   npm install
@@ -228,6 +229,6 @@ If you find this project helpful, please use the following to cite it:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-22
 
 ---

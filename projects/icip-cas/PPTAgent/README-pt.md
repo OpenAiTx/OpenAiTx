@@ -36,33 +36,33 @@
 https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
 
 ## 📫 Contato
-> O principal colaborador deste repositório é um estudante de mestrado que se formará em 2026 e atualmente está buscando oportunidades de trabalho. Fique à vontade para entrar em contato para colaboração ou oportunidades de emprego.
+> O principal contribuidor deste repositório é um estudante de mestrado com graduação prevista para 2026, fique à vontade para entrar em contato para colaboração ou oportunidades.
 
 >
-> O principal colaborador deste repositório é um estudante de mestrado da turma de 2026, atualmente em busca de emprego. Contato é bem-vindo.
+> O principal colaborador deste repositório é um estudante de mestrado da turma de 2026. Contato para oportunidades de cooperação ou intercâmbio é bem-vindo.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
 </div>
 
-## 📅 Notícias
-- [2026/01]: Agora suportamos geração livre e por modelo, exportação para PPTX e modo offline! Gerenciamento de contexto adicionado para evitar estouro de contexto.
-- [2025/12]: 🔥 Lançado V2 com grandes melhorias - Integração Profunda de Pesquisa, Design Visual Livre, Criação Autônoma de Ativos, Geração de Texto para Imagem e Ambiente de Agente com sandbox & mais de 20 ferramentas.
-- [2025/09]: 🛠️ Suporte ao servidor MCP adicionado - veja [Servidor MCP](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) para detalhes de configuração
-- [2025/09]: 🚀 Lançada v2 com grandes melhorias - veja [notas de lançamento](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) para detalhes
-- [2025/08]: 🎉 Artigo aceito para **EMNLP 2025**!
-- [2025/05]: ✨ Lançada v1 com funcionalidade principal e 🌟 marco: atingimos 1.000 estrelas no GitHub! - veja [notas de lançamento](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) para detalhes
-- [2025/01]: 🔓 Código-fonte aberto, com código experimental arquivado em [lançamento experimental](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
+## 📅 Novidades
+- [2026/01]: Agora suportamos geração livre e por modelo com exportação para PPTX, modo offline! Gerenciamento de contexto adicionado para evitar excesso de contexto.
+- [2025/12]: 🔥 Versão V2 lançada com grandes melhorias - Integração Profunda de Pesquisa, Design Visual Livre, Criação Autônoma de Ativos, Geração de Texto para Imagem e Ambiente de Agente com sandbox e mais de 20 ferramentas.
+- [2025/09]: 🛠️ Suporte ao servidor MCP adicionado - veja [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) para detalhes de configuração
+- [2025/09]: 🚀 Versão v2 lançada com grandes melhorias - veja [notas de lançamento](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) para detalhes
+- [2025/08]: 🎉 Artigo aceito na **EMNLP 2025**!
+- [2025/05]: ✨ Versão v1 lançada com funcionalidade principal e 🌟 marco: 1.000 estrelas no GitHub! - veja [notas de lançamento](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) para detalhes
+- [2025/01]: 🔓 Código aberto publicado, com código experimental arquivado em [lançamento experimental](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
 
 ## 📖 Uso
 
 > [!IMPORTANTE]
 > 1. Todas essas chaves de API, configurações e serviços são **obrigatórios**.
-> 2. Recomendação de Backbone de Agente: Use Claude para o Agente de Pesquisa e Gemini para o Agente de Design. GLM-4.7 também é uma boa opção entre os modelos open-source.
-> 3. O modo offline é suportado com funcionalidades limitadas (veja Configuração Offline abaixo).
+> 2. Recomendação de Backbone de Agente: Use Claude para o Agente de Pesquisa e Gemini para o Agente de Design. GLM-4.7 também é uma boa escolha entre modelos open-source.
+> 3. O modo offline é suportado com capacidades limitadas (veja Configuração Offline abaixo).
 
 
-### 1. Configuração de Ambiente
+### 1. Configuração do Ambiente
 
 - **Crie arquivos de configuração** (a partir da raiz do projeto):
 
@@ -94,7 +94,8 @@ Construa as imagens docker: `docker compose build`
 - **Executando localmente**:
 
   ```bash
-  pip install -e deeppresenter
+  cd deeppresenter
+  pip install -e .
   playwright install-deps
   playwright install chromium
   npm install
@@ -228,6 +229,6 @@ If you find this project helpful, please use the following to cite it:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-22
 
 ---

@@ -37,34 +37,34 @@
 https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
 
 ## 📫 Liên hệ
-> Người đóng góp chính cho kho lưu trữ này là một sinh viên Thạc sĩ sẽ tốt nghiệp vào năm 2026, hiện đang tìm kiếm việc làm. Vui lòng liên hệ để hợp tác hoặc có cơ hội việc làm.
+> Người đóng góp chính của kho lưu trữ này là một sinh viên cao học sẽ tốt nghiệp vào năm 2026, hãy thoải mái liên hệ để hợp tác hoặc tìm kiếm cơ hội.
 >
-> Các thành viên đóng góp chính của kho lưu trữ này là một sinh viên tốt nghiệp thạc sĩ năm 2026, hiện đang tìm việc, vui lòng liên hệ.
+> Người đóng góp chính của kho lưu trữ này là một sinh viên tốt nghiệp thạc sĩ năm 2026, hoan nghênh liên hệ hợp tác hoặc trao đổi cơ hội.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
 </div>
 
 ## 📅 Tin tức
-- [2026/01]: Đã hỗ trợ xuất PPTX với chế độ tự do và mẫu, chế độ offline đã có! Quản lý ngữ cảnh được bổ sung để tránh tràn ngữ cảnh.
-- [2025/12]: 🔥 Phát hành V2 với cải tiến lớn - Tích hợp nghiên cứu sâu, thiết kế hình ảnh tự do, tạo tài sản tự động, chuyển văn bản thành hình ảnh và môi trường Agent với sandbox & hơn 20 công cụ.
-- [2025/09]: 🛠️ Đã thêm hỗ trợ máy chủ MCP - xem [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) để biết chi tiết cấu hình
-- [2025/09]: 🚀 Phát hành v2 với cải tiến lớn - xem [ghi chú phát hành](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) để biết chi tiết
-- [2025/08]: 🎉 Bài báo đã được chấp nhận tại **EMNLP 2025**!
+- [2026/01]: Hỗ trợ xuất PPTX cho chế độ tự do và mẫu, đã có chế độ ngoại tuyến! Đã thêm quản lý ngữ cảnh để tránh tràn ngữ cảnh.
+- [2025/12]: 🔥 Phát hành V2 với các cải tiến lớn - Tích hợp nghiên cứu sâu, Thiết kế trực quan tự do, Tạo tài sản tự động, Sinh ảnh từ văn bản và Môi trường Agent với sandbox & hơn 20 công cụ.
+- [2025/09]: 🛠️ Đã thêm hỗ trợ máy chủ MCP - xem [Máy chủ MCP](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) để biết chi tiết cấu hình
+- [2025/09]: 🚀 Phát hành v2 với các cải tiến lớn - xem [ghi chú phát hành](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) để biết chi tiết
+- [2025/08]: 🎉 Bài báo được chấp nhận tại **EMNLP 2025**!
 - [2025/05]: ✨ Phát hành v1 với tính năng cốt lõi và 🌟 đột phá: đạt 1.000 sao trên GitHub! - xem [ghi chú phát hành](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) để biết chi tiết
-- [2025/01]: 🔓 Mã nguồn đã được mở, với mã thử nghiệm lưu trữ tại [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
+- [2025/01]: 🔓 Mã nguồn được mở, mã thử nghiệm được lưu trữ tại [phát hành thử nghiệm](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
 
 ## 📖 Hướng dẫn sử dụng
 
 > [!QUAN TRỌNG]
 > 1. Tất cả các khóa API, cấu hình và dịch vụ này là **bắt buộc**.
-> 2. Khuyến nghị Agent Backbone: Sử dụng Claude cho Research Agent và Gemini cho Design Agent. GLM-4.7 cũng là lựa chọn tốt trong mô hình mã nguồn mở.
-> 3. Chế độ offline được hỗ trợ với chức năng giới hạn (xem hướng dẫn Offline bên dưới).
+> 2. Khuyến nghị Backbone Agent: Dùng Claude cho Research Agent và Gemini cho Design Agent. GLM-4.7 cũng là lựa chọn tốt trong các mô hình mã nguồn mở.
+> 3. Đã hỗ trợ chế độ ngoại tuyến với các chức năng giới hạn (xem Cài đặt ngoại tuyến bên dưới).
 
 
 ### 1. Cấu hình môi trường
 
-- **Tạo các file cấu hình** (từ thư mục gốc dự án):
+- **Tạo các tệp cấu hình** (từ thư mục gốc dự án):
 
   ```bash
   cp deeppresenter/deeppresenter/config.yaml.example deeppresenter/deeppresenter/config.yaml
@@ -94,7 +94,8 @@ Xây dựng các image docker: `docker compose build`
 - **Chạy cục bộ**:
 
   ```bash
-  pip install -e deeppresenter
+  cd deeppresenter
+  pip install -e .
   playwright install-deps
   playwright install chromium
   npm install
@@ -228,6 +229,6 @@ If you find this project helpful, please use the following to cite it:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-22
 
 ---

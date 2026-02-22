@@ -4,26 +4,26 @@
     <summary >🌐 Taal</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=en">English</a>
+        <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=en">Engels</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ja">Japans</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ko">Koreaans</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=th">Thais</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fr">Frans</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=de">Duits</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=es">Spaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=it">Italiaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ru">Russisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pt">Portugees</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pl">Pools</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar">العربية</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=tr">Turks</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=vi">Vietnamees</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=id">Indonesisch</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=as">অসমীয়া</a>
       </div>
     </div>
@@ -37,34 +37,34 @@
 https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
 
 ## 📫 Contact
-> De belangrijkste bijdrager aan deze repo is een masterstudent die afstudeert in 2026 en momenteel op zoek is naar werk. Neem gerust contact op voor samenwerking of vacatures.
+> De belangrijkste bijdrager van deze repository is een masterstudent die afstudeert in 2026. Neem gerust contact op voor samenwerking of mogelijkheden.
 >
-> De belangrijkste bijdrager aan deze repository is een masterstudent die in 2026 afstudeert en momenteel op zoek is naar een baan. Neem gerust contact op.
+> De belangrijkste bijdrager aan deze repository is een masterstudent die in 2026 afstudeert. Neem gerust contact op voor samenwerking of uitwisseling van ideeën.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
 </div>
 
 ## 📅 Nieuws
-- [2026/01]: We ondersteunen nu exporteren naar PPTX vanuit freeform en sjabloongeneratie, en offline modus! Contextbeheer toegevoegd om context-overloop te voorkomen.
-- [2025/12]: 🔥 V2 uitgebracht met grote verbeteringen - Diepe onderzoeksintegratie, Vrije vormgeving, Autonome asset-creatie, Tekst-naar-beeld generatie, en Agent-omgeving met sandbox en 20+ tools.
+- [2026/01]: We ondersteunen nu vrije vorm en sjabloongeneratie, inclusief PPTX-export en offline modus! Contextbeheer toegevoegd om context-overloop te voorkomen.
+- [2025/12]: 🔥 V2 uitgebracht met grote verbeteringen - Diepe Onderzoeksintegratie, Vrije Vorm Visueel Ontwerp, Autonome Asset Creatie, Tekst-naar-beeld Generatie en Agent-omgeving met sandbox & meer dan 20 tools.
 - [2025/09]: 🛠️ MCP-serverondersteuning toegevoegd - zie [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) voor configuratiedetails
-- [2025/09]: 🚀 V2 uitgebracht met grote verbeteringen - zie [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) voor details
-- [2025/08]: 🎉 Paper geaccepteerd voor **EMNLP 2025**!
-- [2025/05]: ✨ V1 uitgebracht met kernfunctionaliteit en 🌟 doorbraak: 1.000 sterren bereikt op GitHub! - zie [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) voor details
-- [2025/01]: 🔓 Codebase open-source gemaakt, experimentele code gearchiveerd bij [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
+- [2025/09]: 🚀 V2 uitgebracht met grote verbeteringen - zie [releasenotes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) voor details
+- [2025/08]: 🎉 Paper geaccepteerd bij **EMNLP 2025**!
+- [2025/05]: ✨ V1 uitgebracht met kernfunctionaliteit en 🌟 doorbraak: 1.000 sterren op GitHub bereikt! - zie [releasenotes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) voor details
+- [2025/01]: 🔓 Codebase open source gemaakt, met experimentele code gearchiveerd bij [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
 
 ## 📖 Gebruik
 
-> [!IMPORTANT]
-> 1. Al deze API-sleutels, configuraties en services zijn **vereist**.
-> 2. Aanbeveling Agent Backbone: Gebruik Claude voor de Research Agent en Gemini voor de Design Agent. GLM-4.7 is ook een goede keuze bij open-source modellen.
-> 3. Offline modus wordt ondersteund met beperkte mogelijkheden (zie Offline Setup hieronder).
+> [!BELANGRIJK]
+> 1. Al deze API-sleutels, configuraties en diensten zijn **vereist**.
+> 2. Aanbevolen Agent-backbone: Gebruik Claude voor de Research Agent en Gemini voor de Design Agent. GLM-4.7 is ook een goede keuze bij open-sourcemodellen.
+> 3. Offline modus wordt ondersteund met beperkte functionaliteit (zie Offline Setup hieronder).
 
 
 ### 1. Omgevingsconfiguratie
 
-- **Maak configuratiebestanden aan** (vanaf de projectroot):
+- **Maak configuratiebestanden aan** (vanaf de hoofdmap van het project):
 
   ```bash
   cp deeppresenter/deeppresenter/config.yaml.example deeppresenter/deeppresenter/config.yaml
@@ -94,7 +94,8 @@ Bouw docker-images: `docker compose build`
 - **Lokaal uitvoeren**:
 
   ```bash
-  pip install -e deeppresenter
+  cd deeppresenter
+  pip install -e .
   playwright install-deps
   playwright install chromium
   npm install
@@ -228,6 +229,6 @@ If you find this project helpful, please use the following to cite it:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-22
 
 ---
