@@ -1,505 +1,505 @@
 [
   {
     "Id": 1,
-    "Content": "# Chocolatey-for-wine\n\nChocolatey packagemanager automatic installer in wine, handy to install quickly programs in wine (and subsequently find bugs in wine ;) )  \nFor some bugs workarounds are added like for Visual Studio Community 2022 and nodejs, see further on.  \n\nAs I was bored during lock-down I wrote a custom winetricks(.ps1) with verbs I find handy. Just do 'winetricks' to see them.\nFor some verbs a full restart of wine is needed (due to recent wine changes). You'll see a messagebox and the session will be ended. Just start powershell again and retry the verb. If this is done once, it won't be needed anymore for any verb.  \n\nExample:  \n\n'winetricks vs22_interactiveinstaller'  ( --> session will be ended)  \n\ndo 'wine powershell'  \n\ndo 'winetricks vs22_interactiveinstaller'  \n\n\n(BTW via 'winetricks vs22_interactive_installer' you can install select what to install via the Visual Studio 2022 installer; 'winetricks vs22_interactive_installer' now got me in ten minutes into the main program (selected Desktop development with C++)).\n\nInstall :\n- Download and unzip the release zip-file and do 'wine ChoCinstaller_0.5c.751.exe' (takes about a minute to complete)\n\nOptional:\n- Run the installer like 'wine ChoCinstaller_0.5a.751.exe /s' , then the install files (like Powershell*.msi and dotnet48) are saved in \n  MyDocuments and they don't need to be downloaded again if you create a new prefix)\nOptional:\n- Run the installer like 'wine ChoCinstaller_0.5a.751.exe /q' to prevent the automatic launch of the powershell window (so install only). \n\nOptional:\n- Check if things went well: \"choco install chromium\" and  \"start chrome.exe (--no-sandbox not needed anymore as of wine-8,4)\" \n\n![Screenshot from 2022-08-26 12-31-18](https://user-images.githubusercontent.com/26839562/186885380-d5a617c4-9cf4-4831-a475-2bd85a3b5784.png)\nAbout PowerShell:\n\nTip: Chocolatey usually installs the latest version of a program, which might reveal new wine bugs. You might have more luck with an older version of the software.  \nExample:  \n\nchoco search --exact microsoft-edge --all (--> list all versions)  \n\nchoco install microsoft-edge --version --version='135.0.3179.98'",
-    "ContentSha": "NYMv+KA8SVYhc0a43m73EBM/af1nioZGKH4reN5Cuac=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Chocolatey-for-wine\n\nChocolatey packagemanager automatic installer in wine, handy to install quickly programs in wine (and subsequently find bugs in wine ;) )  \nFor some bugs workarounds are added like for Visual Studio Community 2022 and nodejs, see further on.  \n\nAs I was bored during lock-down I wrote a custom winetricks(.ps1) with verbs I find handy. Just do 'winetricks' to see them.\nFor some verbs a full restart of wine is needed (due to recent wine changes). You'll see a messagebox and the session will be ended. Just start powershell again and retry the verb. If this is done once, it won't be needed anymore for any verb.  \n",
+    "ContentSha": "mS0iKZrRBA41K7eDtuaNFVnuovmhCW3bs2MA4XoYmgc=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# Chocolatey-for-wine\n\nChocolatey 包管理器在 wine 中的自动安装器，方便快速安装 wine 中的程序（并随后发现 wine 中的错误 ;)）  \n对于某些错误，添加了如 Visual Studio Community 2022 和 nodejs 的解决方法，详见后文。  \n\n因为在封锁期间无聊，我写了一个自定义的 winetricks(.ps1)，包含我觉得方便的命令。只需运行 'winetricks' 即可查看。  \n对于某些命令，需要完全重启 wine（由于最近的 wine 变更）。你会看到一个消息框，当前会话将结束。只需重新启动 powershell 并重试该命令。完成一次后，其他命令就不再需要了。  \n\n示例：  \n\n'winetricks vs22_interactiveinstaller'  （--> 会结束会话）  \n\n运行 'wine powershell'  \n\n再运行 'winetricks vs22_interactiveinstaller'  \n\n\n（顺便说一句，通过 'winetricks vs22_interactive_installer' 你可以选择通过 Visual Studio 2022 安装程序安装内容；‘winetricks vs22_interactive_installer’ 让我十分钟内进入主程序（选择了使用 C++ 的桌面开发））。\n\n安装：  \n- 下载并解压发行版 zip 文件，然后运行 'wine ChoCinstaller_0.5c.751.exe'（大约需要一分钟完成）\n\n可选：  \n- 运行安装程序，如 'wine ChoCinstaller_0.5a.751.exe /s'，安装文件（如 Powershell*.msi 和 dotnet48）会保存在  \n  我的文档中，创建新前缀时无需再次下载）  \n可选：  \n- 运行安装程序，如 'wine ChoCinstaller_0.5a.751.exe /q'，防止自动启动 powershell 窗口（仅安装）\n\n可选：  \n- 检查是否安装成功：\"choco install chromium\" 和 \"start chrome.exe (--no-sandbox 在 wine-8.4 之后不再需要)\"  \n\n![Screenshot from 2022-08-26 12-31-18](https://user-images.githubusercontent.com/26839562/186885380-d5a617c4-9cf4-4831-a475-2bd85a3b5784.png)  \n关于 PowerShell：\n\n提示：Chocolatey 通常安装程序的最新版本，可能会暴露新的 wine 错误。你使用旧版本的软件可能更顺利。  \n示例：  \n\nchoco search --exact microsoft-edge --all （--> 列出所有版本）  \n\nchoco install microsoft-edge --version --version='135.0.3179.98'",
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 语言</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Chocolatey-for-wine\n\nChocolatey 包管理器在 wine 中的自动安装器，方便在 wine 中快速安装程序（并随之发现 wine 中的 bug ;) ）  \n针对某些 bug 加入了修复方法，如 Visual Studio Community 2022 和 nodejs，详见后文。  \n\n在封锁期间无聊时，我编写了一个自定义 winetricks(.ps1)，添加了我觉得实用的动词。只需执行 'winetricks' 即可查看它们。\n对于某些动词，由于最近 wine 的变更，需要完全重启 wine。你会看到一个消息框，当前会话将被结束。只需重新启动 powershell 并重试该动词。如果操作过一次，则之后任何动词都无需再次重启。  \n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "3DO3AgGc/7viU5YyZpB8RiuVjziHlZIfcP5Lp2dNfvE=",
-        "originContent": "# Chocolatey-for-wine",
-        "translatedContent": "# Chocolatey-for-wine"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
       },
       {
         "row": 3,
-        "rowsha": "ZZpMsWh4U0ug7aZIqfyoFj+6VyBtZYNi6gF9rLJ9Q9c=",
-        "originContent": "Chocolatey packagemanager automatic installer in wine, handy to install quickly programs in wine (and subsequently find bugs in wine ;) )  ",
-        "translatedContent": "Chocolatey 包管理器在 wine 中的自动安装器，方便快速安装 wine 中的程序（并随后发现 wine 中的错误 ;)）  "
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 语言</summary>"
       },
       {
         "row": 4,
-        "rowsha": "HmQhP2mubqzu0sEMutQKvyANyIPnhjLRLJKJ4jH0AUI=",
-        "originContent": "For some bugs workarounds are added like for Visual Studio Community 2022 and nodejs, see further on.  ",
-        "translatedContent": "对于某些错误，添加了如 Visual Studio Community 2022 和 nodejs 的解决方法，详见后文。  "
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
       },
       {
         "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
       },
       {
         "row": 6,
-        "rowsha": "suaJJS06wCeVL/bqMSCMZGJ+ZkBdwYXCGaxx/ONW4xs=",
-        "originContent": "As I was bored during lock-down I wrote a custom winetricks(.ps1) with verbs I find handy. Just do 'winetricks' to see them.",
-        "translatedContent": "因为在封锁期间无聊，我写了一个自定义的 winetricks(.ps1)，包含我觉得方便的命令。只需运行 'winetricks' 即可查看。  "
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=en\">English</a>"
       },
       {
         "row": 7,
-        "rowsha": "57Ya1iSz9N007imgkIO1rwcf9BnK5V6pz4wbacs2RRk=",
-        "originContent": "For some verbs a full restart of wine is needed (due to recent wine changes). You'll see a messagebox and the session will be ended. Just start powershell again and retry the verb. If this is done once, it won't be needed anymore for any verb.  ",
-        "translatedContent": "对于某些命令，需要完全重启 wine（由于最近的 wine 变更）。你会看到一个消息框，当前会话将结束。只需重新启动 powershell 并重试该命令。完成一次后，其他命令就不再需要了。  "
+        "rowsha": "gMyUN54pAX2QVG2IV2m0o+DwNfwLFfKFo6nViSm1wso=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=zh-CN\">简体中文</a>"
       },
       {
         "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "sN9dmc36hBPNnm4FGJU9ekcNfrKDkdFGumBBigrhVuQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=zh-TW\">繁體中文</a>"
       },
       {
         "row": 9,
-        "rowsha": "317dAzH70mcDLpmGCVvQrk7QSeW0Mv6je5W24CCREvY=",
-        "originContent": "Example:  ",
-        "translatedContent": "示例：  "
+        "rowsha": "HX+83ZV9VNLxicHZgcquNFh2fWK6ebErqG5YsWBTY48=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ja\">日本語</a>"
       },
       {
         "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "ttPHVW7qJfs6Ik7hLp9hGXVw2d/KpMH1DtUW1c/0/m4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ko\">한국어</a>"
       },
       {
         "row": 11,
-        "rowsha": "vKOcYblFejE+tzpbJhnYBh8tsviHNyKFwiwPJm2ah9w=",
-        "originContent": "'winetricks vs22_interactiveinstaller'  ( --> session will be ended)  ",
-        "translatedContent": "'winetricks vs22_interactiveinstaller'  （--> 会结束会话）  "
+        "rowsha": "hvkyRS7NmyhwaAi5j+q7wZDNW9AONg6pUvV5l804YvM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=hi\">हिन्दी</a>"
       },
       {
         "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "rRgJIWZvY4bxzrmTjVDjHN8fNCpnGf0ddoED6Q0yhy4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=th\">ไทย</a>"
       },
       {
         "row": 13,
-        "rowsha": "dvwLn74YfFYnNdC4Qvm87q+o2osnAZTDp7KzgkCckOw=",
-        "originContent": "do 'wine powershell'  ",
-        "translatedContent": "运行 'wine powershell'  "
+        "rowsha": "OHOYAyPYFKiXq7qzDANSlOPeRnL12QP034b9Cqo6wmI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=fr\">Français</a>"
       },
       {
         "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "ed14TtqesvF+HDyHF1NfX8jV4q4q97z/EaERdTzKcn0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=de\">Deutsch</a>"
       },
       {
         "row": 15,
-        "rowsha": "vJFYgib35Ed9Wfh9SRXAqrg18G4d+0q0l0feK7J3a8U=",
-        "originContent": "do 'winetricks vs22_interactiveinstaller'  ",
-        "translatedContent": "再运行 'winetricks vs22_interactiveinstaller'  "
+        "rowsha": "WQEwpdbCrEziqN6rYy9ancrsK+RLDahuaUHip2pg9Dw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=es\">Español</a>"
       },
       {
         "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "UwCvBb6Pk8WN4aHqQj/N8DD3dGrG+MzykCmyrUHlE4I=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=it\">Italiano</a>"
       },
       {
         "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "QL7mcGJL/+UKuFcCWGq+3m/d4YzcYAAob+3013aQxSQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ru\">Русский</a>"
       },
       {
         "row": 18,
-        "rowsha": "HUyWIWSDvlBJ0Dx7R4Mr7aHitFyibAFuN63bPOvXLr4=",
-        "originContent": "(BTW via 'winetricks vs22_interactive_installer' you can install select what to install via the Visual Studio 2022 installer; 'winetricks vs22_interactive_installer' now got me in ten minutes into the main program (selected Desktop development with C++)).",
-        "translatedContent": "（顺便说一句，通过 'winetricks vs22_interactive_installer' 你可以选择通过 Visual Studio 2022 安装程序安装内容；‘winetricks vs22_interactive_installer’ 让我十分钟内进入主程序（选择了使用 C++ 的桌面开发））。"
+        "rowsha": "zqFmZ5E/WvIhq3umovkhJ23r3Ikb4hbANurdBLvRANs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=pt\">Português</a>"
       },
       {
         "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "TiE0N6SxUtwR9IZ4aLYIkfum36GR4I4W779dREMxAUs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=nl\">Nederlands</a>"
       },
       {
         "row": 20,
-        "rowsha": "Z9ZZH77tvDxIv8EqM4zxw2cpbF8JXiGYSLut630Ufcc=",
-        "originContent": "Install :",
-        "translatedContent": "安装：  "
+        "rowsha": "WCfWgyG1vJ7F7hXtg0A3n6hiItxH0lKGgLmtSCo0Qyo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=pl\">Polski</a>"
       },
       {
         "row": 21,
-        "rowsha": "7Zf6xBWSLaZ+RdtbCRLzQbRtEFKQ+I4VPfd8JFpAbvA=",
-        "originContent": "- Download and unzip the release zip-file and do 'wine ChoCinstaller_0.5c.751.exe' (takes about a minute to complete)",
-        "translatedContent": "- 下载并解压发行版 zip 文件，然后运行 'wine ChoCinstaller_0.5c.751.exe'（大约需要一分钟完成）"
+        "rowsha": "WK9gDSCgAgh1NQp1QGgMVXR6r+3dfa9PfCL1rr/s5DI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ar\">العربية</a>"
       },
       {
         "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "4GFKJ+i1Bjed2gXUnUoz9Yc203+Zx+ckOFdex9U7Qx8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=fa\">فارسی</a>"
       },
       {
         "row": 23,
-        "rowsha": "pzkN3t2OiV/NFLpzJbe0AIzWE9SSTfpL3XU1WTj/TXg=",
-        "originContent": "Optional:",
-        "translatedContent": "可选：  "
+        "rowsha": "OLI7Ree2RXSLsYiWiYUSzph2FuASEdKC44RJs8jHklk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=tr\">Türkçe</a>"
       },
       {
         "row": 24,
-        "rowsha": "3OCTRr6zjDTWHQPcr6pFJvWqySU0lGA5cxSRP5pqsX0=",
-        "originContent": "- Run the installer like 'wine ChoCinstaller_0.5a.751.exe /s' , then the install files (like Powershell*.msi and dotnet48) are saved in ",
-        "translatedContent": "- 运行安装程序，如 'wine ChoCinstaller_0.5a.751.exe /s'，安装文件（如 Powershell*.msi 和 dotnet48）会保存在  "
+        "rowsha": "dn/jTSVPvx5OraDLneiTsDx5FnGjOcvqVVjveVzqhTY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=vi\">Tiếng Việt</a>"
       },
       {
         "row": 25,
-        "rowsha": "4/pY48xjSSQP/qKw+XQRN2pZWbjT4bjgEwMyCxaQglU=",
-        "originContent": "  MyDocuments and they don't need to be downloaded again if you create a new prefix)",
-        "translatedContent": "  我的文档中，创建新前缀时无需再次下载）  "
+        "rowsha": "ZsxhmLF5GlrxJg5XP3dUFDsDOAHhWbe51t/Bvjycm/E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=id\">Bahasa Indonesia</a>"
       },
       {
         "row": 26,
-        "rowsha": "pzkN3t2OiV/NFLpzJbe0AIzWE9SSTfpL3XU1WTj/TXg=",
-        "originContent": "Optional:",
-        "translatedContent": "可选：  "
+        "rowsha": "I3A2Rqhrr/a3xVLR8wREjFh9netGul6CuKwhU0Auiys=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=as\">অসমীয়া</"
       },
       {
         "row": 27,
-        "rowsha": "Q4p+X+UxSvaFtBejf2OXRjz4NC6GXA8xznY5pN+udu8=",
-        "originContent": "- Run the installer like 'wine ChoCinstaller_0.5a.751.exe /q' to prevent the automatic launch of the powershell window (so install only). ",
-        "translatedContent": "- 运行安装程序，如 'wine ChoCinstaller_0.5a.751.exe /q'，防止自动启动 powershell 窗口（仅安装）"
+        "rowsha": "m/saRD6mqJlOk+V5+wtWgqlQZ3kdliTvtO2GgpfuSXg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=as\">অসমীয়া</",
+        "translatedContent": "      </div>"
       },
       {
         "row": 28,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
       },
       {
         "row": 29,
-        "rowsha": "pzkN3t2OiV/NFLpzJbe0AIzWE9SSTfpL3XU1WTj/TXg=",
-        "originContent": "Optional:",
-        "translatedContent": "可选：  "
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
       },
       {
         "row": 30,
-        "rowsha": "pEUB9eVHFMi06lo5vBNeIMaKUiCJLFlremREa8E8Y9Y=",
-        "originContent": "- Check if things went well: \"choco install chromium\" and  \"start chrome.exe (--no-sandbox not needed anymore as of wine-8,4)\" ",
-        "translatedContent": "- 检查是否安装成功：\"choco install chromium\" 和 \"start chrome.exe (--no-sandbox 在 wine-8.4 之后不再需要)\"  "
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
       },
       {
         "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
         "translatedContent": ""
       },
       {
         "row": 32,
-        "rowsha": "r7kWvuGGp11mJ2Y5CZN7dz6hlHICUCwj4uc9PUyeFck=",
-        "originContent": "![Screenshot from 2022-08-26 12-31-18](https://user-images.githubusercontent.com/26839562/186885380-d5a617c4-9cf4-4831-a475-2bd85a3b5784.png)",
-        "translatedContent": "![Screenshot from 2022-08-26 12-31-18](https://user-images.githubusercontent.com/26839562/186885380-d5a617c4-9cf4-4831-a475-2bd85a3b5784.png)  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# Chocolatey-for-wine"
       },
       {
         "row": 33,
-        "rowsha": "Hu7Ox+KIYmJkdOdy382F6V6U6dY/5lceJCAovjvhBY4=",
-        "originContent": "About PowerShell:",
-        "translatedContent": "关于 PowerShell："
+        "rowsha": "3DO3AgGc/7viU5YyZpB8RiuVjziHlZIfcP5Lp2dNfvE=",
+        "originContent": "# Chocolatey-for-wine",
+        "translatedContent": ""
       },
       {
         "row": 34,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": ""
+        "translatedContent": "Chocolatey 包管理器在 wine 中的自动安装器，方便在 wine 中快速安装程序（并随之发现 wine 中的 bug ;) ）  "
       },
       {
         "row": 35,
-        "rowsha": "0Pg/bqe5GRwGho6kAf4ZZuCSBdT2xTuLuk5w3V5hX3w=",
-        "originContent": "Tip: Chocolatey usually installs the latest version of a program, which might reveal new wine bugs. You might have more luck with an older version of the software.  ",
-        "translatedContent": "提示：Chocolatey 通常安装程序的最新版本，可能会暴露新的 wine 错误。你使用旧版本的软件可能更顺利。  "
+        "rowsha": "ZZpMsWh4U0ug7aZIqfyoFj+6VyBtZYNi6gF9rLJ9Q9c=",
+        "originContent": "Chocolatey packagemanager automatic installer in wine, handy to install quickly programs in wine (and subsequently find bugs in wine ;) )  ",
+        "translatedContent": "针对某些 bug 加入了修复方法，如 Visual Studio Community 2022 和 nodejs，详见后文。  "
       },
       {
         "row": 36,
-        "rowsha": "317dAzH70mcDLpmGCVvQrk7QSeW0Mv6je5W24CCREvY=",
-        "originContent": "Example:  ",
-        "translatedContent": "示例：  "
+        "rowsha": "HmQhP2mubqzu0sEMutQKvyANyIPnhjLRLJKJ4jH0AUI=",
+        "originContent": "For some bugs workarounds are added like for Visual Studio Community 2022 and nodejs, see further on.  ",
+        "translatedContent": ""
       },
       {
         "row": 37,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": ""
+        "translatedContent": "在封锁期间无聊时，我编写了一个自定义 winetricks(.ps1)，添加了我觉得实用的动词。只需执行 'winetricks' 即可查看它们。"
       },
       {
         "row": 38,
-        "rowsha": "Uzg0JqlGRbbnTR0pTBsncogLZLpEjQ7hbA5vfSx4ong=",
-        "originContent": "choco search --exact microsoft-edge --all (--> list all versions)  ",
-        "translatedContent": "choco search --exact microsoft-edge --all （--> 列出所有版本）  "
+        "rowsha": "suaJJS06wCeVL/bqMSCMZGJ+ZkBdwYXCGaxx/ONW4xs=",
+        "originContent": "As I was bored during lock-down I wrote a custom winetricks(.ps1) with verbs I find handy. Just do 'winetricks' to see them.",
+        "translatedContent": "对于某些动词，由于最近 wine 的变更，需要完全重启 wine。你会看到一个消息框，当前会话将被结束。只需重新启动 powershell 并重试该动词。如果操作过一次，则之后任何动词都无需再次重启。  "
       },
       {
         "row": 39,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "57Ya1iSz9N007imgkIO1rwcf9BnK5V6pz4wbacs2RRk=",
+        "originContent": "For some verbs a full restart of wine is needed (due to recent wine changes). You'll see a messagebox and the session will be ended. Just start powershell again and retry the verb. If this is done once, it won't be needed anymore for any verb.  ",
         "translatedContent": ""
       },
       {
         "row": 40,
-        "rowsha": "NpDiyDEngnRXJQ8JuzNfwsosZTnGPSrdMgto2Y3fHwM=",
-        "originContent": "choco install microsoft-edge --version --version='135.0.3179.98'",
-        "translatedContent": "choco install microsoft-edge --version --version='135.0.3179.98'"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "\nGeneral info:\n\n- 'wine powershell.exe' starts the PowerShell-Core console.\n\n \nAbout ConEmu:\n\nConEmu console suffers from a few wine-bugs:\n  - Ctrl^C to quit a program that doesn't return to the console doesn`t work. Use Shift^Ctrl^C instead.\n  - Selecting text in the ConEmu window (for copy/paste) doesn't highlight the selection. Included is a very sad hack       against recent wine versions that works around this, so highlighting should just work now.\n   \nAbout winetricks(.ps1):\n\n- If you don't call it ('winetricks' in powershell-console) , nothing gets downloaded so no overhead there. \n- A lot of verbs (like powershell 5.1) need a few essential files to extract stuff from msu packages. Installing these essential files requires first huge downloads , and  takes lots of time during 1st time usage. But after things are cached it goes quickly . For example if you might wanna try 'winetricks ps51' first, it will take about  approx. 15 minutes. Some other verbs might take 5 minutes on first time usage. But after you called a verb once this nuisance is gone.\n- Files are cached in directory MyDocuments. If you call all verbs it'll take about 800 MB there.\n- Hopefully some better 64-bit support for various verbs.\n- Possibility to extract a file and (try) install from an msu file. Do 'winetricks install_dll_from_msu' to see how.\n- A rudimentary Powershell 5.1.\n- experimental dotnet481 installation, and dotnet35 (might be needed by apps not satisfied with current dotnet48 installation).\n- Autotab-completion. Note: while using multiple verbs from command line they have to be seperated by a comma\n  from now on (this is how powershell handles multiple arguments)\n  So 'winetricks riched20 gdiplus' won't work anymore, use 'winetricks riched20,gdiplus' instead\n- Some programs fail to install/run when you try them via Chocolatey due to wine-bugs. I added a few workarounds in winetricks for them, see below.\n- Special verbs (winetricks vs19, vs22 and vs22_interactive_installer) to install working Visual Studio Community 2019 and 2022 (see screenshot, >10 mins to install and requires approx. 10GB!, after install start devenv.exe from directory c:\\Program\\ Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE/)\n  ![screenshot](https://github.com/PietJankbal/Chocolatey-for-wine/assets/26839562/d576a619-c752-4eb1-81c2-6f6b66b50ff6)\n- Special verb to get access to various unix commands like grep,sed, file, less, curl etc. etc. (winetricks git.portable, Disclaimer: some commands do not yet work due to wine bugs\n- Also included a few powershell scripts adapted from codesnippets found on the internet:\n    - How to embed an exe in a powershell script via Invoke-ReflectivePEInjection (the exe won't show up in tasklist).\n    - How to make fancy messageboxes\n    - Convert a powershell script (ps1) into an exe.\n    - And a few other\n \n     \nAbout system programs:\n\nFeature is added to replace simple system programs like for example setx.exe by a function in\nc:\\\\Program Files\\Powershell\\7\\profile.ps1. Or add system programs that are missing like getmac.exe.\nIf programs fail because of insufficient mature or missing system programs one could write a ",
-    "ContentSha": "5xhqAHv8ORizy5MBXi2HtH6+ZKBHyvEaj1OziUguVEw=",
+    "Content": "Example:  \n\n'winetricks vs22_interactiveinstaller'  ( --> session will be ended)  \n\ndo 'wine powershell'  \n\ndo 'winetricks vs22_interactiveinstaller'  \n\n\n(BTW via 'winetricks vs22_interactive_installer' you can install select what to install via the Visual Studio 2022 installer; 'winetricks vs22_interactive_installer' now got me in ten minutes into the main program (selected Desktop development with C++)).\n\nInstall :\n- Download and unzip the release zip-file and do 'wine ChoCinstaller_0.5c.751.exe' (takes about a minute to complete)\n\nOptional:\n- Run the installer like 'wine ChoCinstaller_0.5a.751.exe /s' , then the install files (like Powershell*.msi and dotnet48) are saved in \n  MyDocuments and they don't need to be downloaded again if you create a new prefix)\nOptional:\n- Run the installer like 'wine ChoCinstaller_0.5a.751.exe /q' to prevent the automatic launch of the powershell window (so install only). \n\nOptional:\n- Check if things went well: \"choco install chromium\" and  \"start chrome.exe (--no-sandbox not needed anymore as of wine-8,4)\" \n\n![Screenshot from 2022-08-26 12-31-18](https://user-images.githubusercontent.com/26839562/186885380-d5a617c4-9cf4-4831-a475-2bd85a3b5784.png)\nAbout PowerShell:\n\nTip: Chocolatey usually installs the latest version of a program, which might reveal new wine bugs. You might have more luck with an older version of the software.  \nExample:  \n\nchoco search --exact microsoft-edge --all (--> list all versions)  \n\nchoco install microsoft-edge --version --version='135.0.3179.98'\n\nGeneral info:\n\n- 'wine powershell.exe' starts the PowerShell-Core console.\n\n \nAbout ConEmu:\n",
+    "ContentSha": "ku17/Bezbaaqx9Mdq351RFRBNGOqamMQqyyxVakBYgc=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "通用信息：\n\n- 使用 'wine powershell.exe' 启动 PowerShell-Core 控制台。\n\n \n关于 ConEmu：\n\nConEmu 控制台存在一些 wine 的缺陷：\n  - Ctrl^C 退出不会返回控制台的程序不起作用。请改用 Shift^Ctrl^C。\n  - 在 ConEmu 窗口中选择文本（用于复制/粘贴）不会高亮显示选择内容。包含了一个针对最近 wine 版本的非常糟糕的解决方法，绕过了此问题，因此现在高亮显示应该能正常工作。\n   \n关于 winetricks(.ps1)：\n\n- 如果不调用它（在 powershell 控制台中运行 'winetricks'），则不会下载任何内容，因此不会产生额外开销。\n- 许多命令（如 powershell 5.1）需要一些必备文件来解压 msu 包。安装这些必备文件首先需要大量下载，并且在首次使用时耗时较长。但缓存完成后执行速度很快。例如，如果你想先试试 'winetricks ps51'，大约需要 15 分钟。其他某些命令首次使用可能需要 5 分钟。但调用过一次命令后，这种麻烦就消失了。\n- 文件缓存目录在 MyDocuments 中。如果调用所有命令，缓存大约占用 800 MB。\n- 希望能支持更多命令的 64 位版本。\n- 支持从 msu 文件中提取文件并（尝试）安装。执行 'winetricks install_dll_from_msu' 查看用法。\n- 一个简陋的 Powershell 5.1。\n- 实验性的 dotnet481 安装，以及 dotnet35（可能某些应用不满足当前的 dotnet48 安装需求）。\n- 自动制表符补全。注意：从现在起，命令行中使用多个命令时必须用逗号分隔（这是 powershell 处理多个参数的方式）。\n  因此 'winetricks riched20 gdiplus' 不再有效，改用 'winetricks riched20,gdiplus'。\n- 由于 wine 缺陷，一些程序通过 Chocolatey 安装/运行失败。我在 winetricks 中添加了一些解决方法，见下文。\n- 特殊命令（winetricks vs19、vs22 和 vs22_interactive_installer）用于安装可用的 Visual Studio Community 2019 和 2022（见截图，安装时间超过 10 分钟，约需 10GB 空间！安装后从目录 c:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\ 运行 devenv.exe）\n  ![screenshot](https://github.com/PietJankbal/Chocolatey-for-wine/assets/26839562/d576a619-c752-4eb1-81c2-6f6b66b50ff6)\n- 特殊命令用于访问各种 unix 命令如 grep、sed、file、less、curl 等（winetricks git.portable，免责声明：部分命令因 wine 缺陷尚不可用）。\n- 还包括一些从网上代码片段改编的 powershell 脚本：\n    - 如何通过 Invoke-ReflectivePEInjection 在 powershell 脚本中嵌入 exe（该 exe 不会出现在任务列表中）。\n    - 如何制作花哨的消息框。\n    - 将 powershell 脚本（ps1）转换为 exe。\n    - 以及其他一些脚本。\n \n     \n关于系统程序：\n\n新增功能，用于替换简单的系统程序，例如用 c:\\\\Program Files\\Powershell\\7\\profile.ps1 中的函数替代 setx.exe，或者添加缺失的系统程序如 getmac.exe。\n如果程序因系统程序不成熟或缺失而失败，可以编写一个 \n\n\n",
+    "Translation": "示例：\n\n“winetricks vs22_interactiveinstaller”（--> 会结束当前会话）\n\n执行 “wine powershell”\n\n执行 “winetricks vs22_interactiveinstaller”\n\n（顺便说一句，通过 “winetricks vs22_interactive_installer” 可以通过 Visual Studio 2022 安装程序选择要安装的内容；“winetricks vs22_interactive_installer” 现在让我在十分钟内进入主程序（选择了 C++ 桌面开发））。\n\n安装：\n- 下载并解压发布版 zip 文件，然后执行 “wine ChoCinstaller_0.5c.751.exe”（完成约需一分钟）\n\n可选：\n- 以 “wine ChoCinstaller_0.5a.751.exe /s” 方式运行安装程序，此时安装文件（如 Powershell*.msi 和 dotnet48）会保存在\n  我的文档里，如果你创建新前缀，则无需再次下载这些文件\n可选：\n- 以 “wine ChoCinstaller_0.5a.751.exe /q” 方式运行安装程序，以防止自动启动 powershell 窗口（仅安装）。\n\n可选：\n- 检查是否安装成功：“choco install chromium” 和 “start chrome.exe（自 wine-8.4 起不再需要 --no-sandbox）”\n\n![Screenshot from 2022-08-26 12-31-18](https://user-images.githubusercontent.com/26839562/186885380-d5a617c4-9cf4-4831-a475-2bd85a3b5784.png)\n关于 PowerShell：\n\n提示：Chocolatey 通常会安装程序的最新版本，这可能会暴露新的 wine bug。你可能会在旧版本软件上更顺利。\n示例：\n\nchoco search --exact microsoft-edge --all（--> 列出所有版本）\n\nchoco install microsoft-edge --version --version='135.0.3179.98'\n\n一般信息：\n\n- “wine powershell.exe” 启动 PowerShell-Core 控制台。\n\n \n关于 ConEmu：\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "通用信息："
+        "rowsha": "317dAzH70mcDLpmGCVvQrk7QSeW0Mv6je5W24CCREvY=",
+        "originContent": "Example:  ",
+        "translatedContent": "示例："
       },
       {
         "row": 2,
-        "rowsha": "d33BvMy+zUA5eUhqxOBXIKa70Ry9w1Kk1WI6qS/X/e0=",
-        "originContent": "General info:",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- 使用 'wine powershell.exe' 启动 PowerShell-Core 控制台。"
+        "rowsha": "vKOcYblFejE+tzpbJhnYBh8tsviHNyKFwiwPJm2ah9w=",
+        "originContent": "'winetricks vs22_interactiveinstaller'  ( --> session will be ended)  ",
+        "translatedContent": "“winetricks vs22_interactiveinstaller”（--> 会结束当前会话）"
       },
       {
         "row": 4,
-        "rowsha": "oFrbfR5KazIwiY6U/dM3ECk7mhpQcJPGdLC8EAqwVoc=",
-        "originContent": "- 'wine powershell.exe' starts the PowerShell-Core console.",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": " "
+        "rowsha": "dvwLn74YfFYnNdC4Qvm87q+o2osnAZTDp7KzgkCckOw=",
+        "originContent": "do 'wine powershell'  ",
+        "translatedContent": "执行 “wine powershell”"
       },
       {
         "row": 6,
-        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
-        "originContent": " ",
-        "translatedContent": "关于 ConEmu："
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 7,
-        "rowsha": "scRMOdfWvTR/lP/mxXpLdFR9iwT4PSafwe1Yq9eGunA=",
-        "originContent": "About ConEmu:",
-        "translatedContent": ""
+        "rowsha": "vJFYgib35Ed9Wfh9SRXAqrg18G4d+0q0l0feK7J3a8U=",
+        "originContent": "do 'winetricks vs22_interactiveinstaller'  ",
+        "translatedContent": "执行 “winetricks vs22_interactiveinstaller”"
       },
       {
         "row": 8,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "ConEmu 控制台存在一些 wine 的缺陷："
+        "translatedContent": ""
       },
       {
         "row": 9,
-        "rowsha": "pOHTkmefPrTIBn92LHUJ+n4QVbH22ucmZm1HA51GVqs=",
-        "originContent": "ConEmu console suffers from a few wine-bugs:",
-        "translatedContent": "  - Ctrl^C 退出不会返回控制台的程序不起作用。请改用 Shift^Ctrl^C。"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "（顺便说一句，通过 “winetricks vs22_interactive_installer” 可以通过 Visual Studio 2022 安装程序选择要安装的内容；“winetricks vs22_interactive_installer” 现在让我在十分钟内进入主程序（选择了 C++ 桌面开发））。"
       },
       {
         "row": 10,
-        "rowsha": "emNd9jplfyykX6bOKsrpBSR6R8nsd6oxvvpdbzOsuEY=",
-        "originContent": "  - Ctrl^C to quit a program that doesn't return to the console doesn`t work. Use Shift^Ctrl^C instead.",
-        "translatedContent": "  - 在 ConEmu 窗口中选择文本（用于复制/粘贴）不会高亮显示选择内容。包含了一个针对最近 wine 版本的非常糟糕的解决方法，绕过了此问题，因此现在高亮显示应该能正常工作。"
+        "rowsha": "HUyWIWSDvlBJ0Dx7R4Mr7aHitFyibAFuN63bPOvXLr4=",
+        "originContent": "(BTW via 'winetricks vs22_interactive_installer' you can install select what to install via the Visual Studio 2022 installer; 'winetricks vs22_interactive_installer' now got me in ten minutes into the main program (selected Desktop development with C++)).",
+        "translatedContent": ""
       },
       {
         "row": 11,
-        "rowsha": "1eRABPi6RrHIUmNu/busOAWf6I3B9ElXqWS7Nf+So8Y=",
-        "originContent": "  - Selecting text in the ConEmu window (for copy/paste) doesn't highlight the selection. Included is a very sad hack       against recent wine versions that works around this, so highlighting should just work now.",
-        "translatedContent": "   "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "安装："
       },
       {
         "row": 12,
-        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
-        "originContent": "   ",
-        "translatedContent": "关于 winetricks(.ps1)："
+        "rowsha": "Z9ZZH77tvDxIv8EqM4zxw2cpbF8JXiGYSLut630Ufcc=",
+        "originContent": "Install :",
+        "translatedContent": "- 下载并解压发布版 zip 文件，然后执行 “wine ChoCinstaller_0.5c.751.exe”（完成约需一分钟）"
       },
       {
         "row": 13,
-        "rowsha": "jKTm8HK7CuMmIxkEAV2N3sWNQXoMpg4VPFhNseSho38=",
-        "originContent": "About winetricks(.ps1):",
+        "rowsha": "7Zf6xBWSLaZ+RdtbCRLzQbRtEFKQ+I4VPfd8JFpAbvA=",
+        "originContent": "- Download and unzip the release zip-file and do 'wine ChoCinstaller_0.5c.751.exe' (takes about a minute to complete)",
         "translatedContent": ""
       },
       {
         "row": 14,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "- 如果不调用它（在 powershell 控制台中运行 'winetricks'），则不会下载任何内容，因此不会产生额外开销。"
+        "translatedContent": "可选："
       },
       {
         "row": 15,
-        "rowsha": "SuoF1/zyLLyHOCUdB6QQPYyDAnPT7D2hyVtuf9St4F8=",
-        "originContent": "- If you don't call it ('winetricks' in powershell-console) , nothing gets downloaded so no overhead there. ",
-        "translatedContent": "- 许多命令（如 powershell 5.1）需要一些必备文件来解压 msu 包。安装这些必备文件首先需要大量下载，并且在首次使用时耗时较长。但缓存完成后执行速度很快。例如，如果你想先试试 'winetricks ps51'，大约需要 15 分钟。其他某些命令首次使用可能需要 5 分钟。但调用过一次命令后，这种麻烦就消失了。"
+        "rowsha": "pzkN3t2OiV/NFLpzJbe0AIzWE9SSTfpL3XU1WTj/TXg=",
+        "originContent": "Optional:",
+        "translatedContent": "- 以 “wine ChoCinstaller_0.5a.751.exe /s” 方式运行安装程序，此时安装文件（如 Powershell*.msi 和 dotnet48）会保存在"
       },
       {
         "row": 16,
-        "rowsha": "FOgn1DI/omJCVS0D5c+SjZx0ErEg33wmo+6LiRdY038=",
-        "originContent": "- A lot of verbs (like powershell 5.1) need a few essential files to extract stuff from msu packages. Installing these essential files requires first huge downloads , and  takes lots of time during 1st time usage. But after things are cached it goes quickly . For example if you might wanna try 'winetricks ps51' first, it will take about  approx. 15 minutes. Some other verbs might take 5 minutes on first time usage. But after you called a verb once this nuisance is gone.",
-        "translatedContent": "- 文件缓存目录在 MyDocuments 中。如果调用所有命令，缓存大约占用 800 MB。"
+        "rowsha": "3OCTRr6zjDTWHQPcr6pFJvWqySU0lGA5cxSRP5pqsX0=",
+        "originContent": "- Run the installer like 'wine ChoCinstaller_0.5a.751.exe /s' , then the install files (like Powershell*.msi and dotnet48) are saved in ",
+        "translatedContent": "  我的文档里，如果你创建新前缀，则无需再次下载这些文件"
       },
       {
         "row": 17,
-        "rowsha": "pePS2Y6apX6sdrqccqUdcmrKoNFdbRUA1jt71DmqABA=",
-        "originContent": "- Files are cached in directory MyDocuments. If you call all verbs it'll take about 800 MB there.",
-        "translatedContent": "- 希望能支持更多命令的 64 位版本。"
+        "rowsha": "4/pY48xjSSQP/qKw+XQRN2pZWbjT4bjgEwMyCxaQglU=",
+        "originContent": "  MyDocuments and they don't need to be downloaded again if you create a new prefix)",
+        "translatedContent": "可选："
       },
       {
         "row": 18,
-        "rowsha": "5EdrfgDlSS0bMYok4MfpaRMESce2QJdWLdoDAr0IQRc=",
-        "originContent": "- Hopefully some better 64-bit support for various verbs.",
-        "translatedContent": "- 支持从 msu 文件中提取文件并（尝试）安装。执行 'winetricks install_dll_from_msu' 查看用法。"
+        "rowsha": "pzkN3t2OiV/NFLpzJbe0AIzWE9SSTfpL3XU1WTj/TXg=",
+        "originContent": "Optional:",
+        "translatedContent": "- 以 “wine ChoCinstaller_0.5a.751.exe /q” 方式运行安装程序，以防止自动启动 powershell 窗口（仅安装）。"
       },
       {
         "row": 19,
-        "rowsha": "8xL5CBh7tpsWMvHSxKvr/uStzw7Fq1OQPbre5TCIhmI=",
-        "originContent": "- Possibility to extract a file and (try) install from an msu file. Do 'winetricks install_dll_from_msu' to see how.",
-        "translatedContent": "- 一个简陋的 Powershell 5.1。"
-      },
-      {
-        "row": 20,
-        "rowsha": "e7tFqlQS8dviVpmZahz37Xs0qKA2vzHY6AuamdSPWs0=",
-        "originContent": "- A rudimentary Powershell 5.1.",
-        "translatedContent": "- 实验性的 dotnet481 安装，以及 dotnet35（可能某些应用不满足当前的 dotnet48 安装需求）。"
-      },
-      {
-        "row": 21,
-        "rowsha": "Xi0aCeZCFR+HRrLITmAO79Jf0MslCpo+9B8NYJtKaeQ=",
-        "originContent": "- experimental dotnet481 installation, and dotnet35 (might be needed by apps not satisfied with current dotnet48 installation).",
-        "translatedContent": "- 自动制表符补全。注意：从现在起，命令行中使用多个命令时必须用逗号分隔（这是 powershell 处理多个参数的方式）。"
-      },
-      {
-        "row": 22,
-        "rowsha": "K8JPbBa0aEWrIb0E0pPYAB3h8JobjeDY8NMmDMWOd8A=",
-        "originContent": "- Autotab-completion. Note: while using multiple verbs from command line they have to be seperated by a comma",
-        "translatedContent": "  因此 'winetricks riched20 gdiplus' 不再有效，改用 'winetricks riched20,gdiplus'。"
-      },
-      {
-        "row": 23,
-        "rowsha": "LPfC6Jvm0Yz8svGYIlu3Tz+GpMiZbAJHhm7LdPU99OY=",
-        "originContent": "  from now on (this is how powershell handles multiple arguments)",
-        "translatedContent": "- 由于 wine 缺陷，一些程序通过 Chocolatey 安装/运行失败。我在 winetricks 中添加了一些解决方法，见下文。"
-      },
-      {
-        "row": 24,
-        "rowsha": "yeDARbOHvC4aG+OfECvDNPBNUeNDLO2ZyTUfLxsf9M8=",
-        "originContent": "  So 'winetricks riched20 gdiplus' won't work anymore, use 'winetricks riched20,gdiplus' instead",
-        "translatedContent": "- 特殊命令（winetricks vs19、vs22 和 vs22_interactive_installer）用于安装可用的 Visual Studio Community 2019 和 2022（见截图，安装时间超过 10 分钟，约需 10GB 空间！安装后从目录 c:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\ 运行 devenv.exe）"
-      },
-      {
-        "row": 25,
-        "rowsha": "ZyDlvUh2QFRgpgGsMSfpgjnrf7x/X7zEajpdjoFNmj8=",
-        "originContent": "- Some programs fail to install/run when you try them via Chocolatey due to wine-bugs. I added a few workarounds in winetricks for them, see below.",
-        "translatedContent": "  ![screenshot](https://github.com/PietJankbal/Chocolatey-for-wine/assets/26839562/d576a619-c752-4eb1-81c2-6f6b66b50ff6)"
-      },
-      {
-        "row": 26,
-        "rowsha": "3yqV0UCH4PE/6jtvnu1BtESS55VwyTxlAcACx7B8DGU=",
-        "originContent": "- Special verbs (winetricks vs19, vs22 and vs22_interactive_installer) to install working Visual Studio Community 2019 and 2022 (see screenshot, >10 mins to install and requires approx. 10GB!, after install start devenv.exe from directory c:\\Program\\ Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE/)",
-        "translatedContent": "- 特殊命令用于访问各种 unix 命令如 grep、sed、file、less、curl 等（winetricks git.portable，免责声明：部分命令因 wine 缺陷尚不可用）。"
-      },
-      {
-        "row": 27,
-        "rowsha": "qtXiMEWtstctuQQAgLop9nJADZmd25ae7W40w7ApUh8=",
-        "originContent": "  ![screenshot](https://github.com/PietJankbal/Chocolatey-for-wine/assets/26839562/d576a619-c752-4eb1-81c2-6f6b66b50ff6)",
-        "translatedContent": "- 还包括一些从网上代码片段改编的 powershell 脚本："
-      },
-      {
-        "row": 28,
-        "rowsha": "/GjD8saONTMtC2tlH4cX0mwjjv7ftsxgLTKSL2O9K3k=",
-        "originContent": "- Special verb to get access to various unix commands like grep,sed, file, less, curl etc. etc. (winetricks git.portable, Disclaimer: some commands do not yet work due to wine bugs",
-        "translatedContent": "    - 如何通过 Invoke-ReflectivePEInjection 在 powershell 脚本中嵌入 exe（该 exe 不会出现在任务列表中）。"
-      },
-      {
-        "row": 29,
-        "rowsha": "LLTQ08maFhHOBgVvTCJpu5DO/WG8W1OV8OWA5iL2V3k=",
-        "originContent": "- Also included a few powershell scripts adapted from codesnippets found on the internet:",
-        "translatedContent": "    - 如何制作花哨的消息框。"
-      },
-      {
-        "row": 30,
-        "rowsha": "YBWK69aSyr1QY9TYkLgT1PYpefUXY42kc1L2F6fU+W0=",
-        "originContent": "    - How to embed an exe in a powershell script via Invoke-ReflectivePEInjection (the exe won't show up in tasklist).",
-        "translatedContent": "    - 将 powershell 脚本（ps1）转换为 exe。"
-      },
-      {
-        "row": 31,
-        "rowsha": "4M31Ohv7NJFA+1c4cIpWHdlgmWvcw+3X5ARh8tcaGrE=",
-        "originContent": "    - How to make fancy messageboxes",
-        "translatedContent": "    - 以及其他一些脚本。"
-      },
-      {
-        "row": 32,
-        "rowsha": "XhEdfTKyRvTmyv2IDNaQ4DwsPjEukyqZKqVSVApL3ZA=",
-        "originContent": "    - Convert a powershell script (ps1) into an exe.",
-        "translatedContent": " "
-      },
-      {
-        "row": 33,
-        "rowsha": "Kr5Cv6CZqwXfEyqCWZCgvsbH1tYa9ZYIohhTLqQ9GXo=",
-        "originContent": "    - And a few other",
-        "translatedContent": "     "
-      },
-      {
-        "row": 34,
-        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
-        "originContent": " ",
-        "translatedContent": "关于系统程序："
-      },
-      {
-        "row": 35,
-        "rowsha": "eHmYHU8iao8BkdNnMMByBdel/xx4D8qbL5BfJSZM9jY=",
-        "originContent": "     ",
+        "rowsha": "Q4p+X+UxSvaFtBejf2OXRjz4NC6GXA8xznY5pN+udu8=",
+        "originContent": "- Run the installer like 'wine ChoCinstaller_0.5a.751.exe /q' to prevent the automatic launch of the powershell window (so install only). ",
         "translatedContent": ""
       },
       {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "可选："
+      },
+      {
+        "row": 21,
+        "rowsha": "pzkN3t2OiV/NFLpzJbe0AIzWE9SSTfpL3XU1WTj/TXg=",
+        "originContent": "Optional:",
+        "translatedContent": "- 检查是否安装成功：“choco install chromium” 和 “start chrome.exe（自 wine-8.4 起不再需要 --no-sandbox）”"
+      },
+      {
+        "row": 22,
+        "rowsha": "pEUB9eVHFMi06lo5vBNeIMaKUiCJLFlremREa8E8Y9Y=",
+        "originContent": "- Check if things went well: \"choco install chromium\" and  \"start chrome.exe (--no-sandbox not needed anymore as of wine-8,4)\" ",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![Screenshot from 2022-08-26 12-31-18](https://user-images.githubusercontent.com/26839562/186885380-d5a617c4-9cf4-4831-a475-2bd85a3b5784.png)"
+      },
+      {
+        "row": 24,
+        "rowsha": "r7kWvuGGp11mJ2Y5CZN7dz6hlHICUCwj4uc9PUyeFck=",
+        "originContent": "![Screenshot from 2022-08-26 12-31-18](https://user-images.githubusercontent.com/26839562/186885380-d5a617c4-9cf4-4831-a475-2bd85a3b5784.png)",
+        "translatedContent": "关于 PowerShell："
+      },
+      {
+        "row": 25,
+        "rowsha": "Hu7Ox+KIYmJkdOdy382F6V6U6dY/5lceJCAovjvhBY4=",
+        "originContent": "About PowerShell:",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "提示：Chocolatey 通常会安装程序的最新版本，这可能会暴露新的 wine bug。你可能会在旧版本软件上更顺利。"
+      },
+      {
+        "row": 27,
+        "rowsha": "0Pg/bqe5GRwGho6kAf4ZZuCSBdT2xTuLuk5w3V5hX3w=",
+        "originContent": "Tip: Chocolatey usually installs the latest version of a program, which might reveal new wine bugs. You might have more luck with an older version of the software.  ",
+        "translatedContent": "示例："
+      },
+      {
+        "row": 28,
+        "rowsha": "317dAzH70mcDLpmGCVvQrk7QSeW0Mv6je5W24CCREvY=",
+        "originContent": "Example:  ",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "choco search --exact microsoft-edge --all（--> 列出所有版本）"
+      },
+      {
+        "row": 30,
+        "rowsha": "Uzg0JqlGRbbnTR0pTBsncogLZLpEjQ7hbA5vfSx4ong=",
+        "originContent": "choco search --exact microsoft-edge --all (--> list all versions)  ",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "choco install microsoft-edge --version --version='135.0.3179.98'"
+      },
+      {
+        "row": 32,
+        "rowsha": "NpDiyDEngnRXJQ8JuzNfwsosZTnGPSrdMgto2Y3fHwM=",
+        "originContent": "choco install microsoft-edge --version --version='135.0.3179.98'",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "一般信息："
+      },
+      {
+        "row": 34,
+        "rowsha": "d33BvMy+zUA5eUhqxOBXIKa70Ry9w1Kk1WI6qS/X/e0=",
+        "originContent": "General info:",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- “wine powershell.exe” 启动 PowerShell-Core 控制台。"
+      },
+      {
         "row": 36,
-        "rowsha": "t0kxEw6Vc9QBsjT3sUwrp5q4xIMpaqckgm/XXrNwoFw=",
-        "originContent": "About system programs:",
-        "translatedContent": "新增功能，用于替换简单的系统程序，例如用 c:\\\\Program Files\\Powershell\\7\\profile.ps1 中的函数替代 setx.exe，或者添加缺失的系统程序如 getmac.exe。"
+        "rowsha": "oFrbfR5KazIwiY6U/dM3ECk7mhpQcJPGdLC8EAqwVoc=",
+        "originContent": "- 'wine powershell.exe' starts the PowerShell-Core console.",
+        "translatedContent": ""
       },
       {
         "row": 37,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "如果程序因系统程序不成熟或缺失而失败，可以编写一个 "
+        "translatedContent": " "
       },
       {
         "row": 38,
-        "rowsha": "rt3ItOHlaOT9v/ODC6k5nmcli4M9vWLOVvkQ+bqB/eE=",
-        "originContent": "Feature is added to replace simple system programs like for example setx.exe by a function in",
-        "translatedContent": ""
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": "关于 ConEmu："
       },
       {
         "row": 39,
-        "rowsha": "OJGecXF+zdxRY2eo2wQL+BrArFtJbrwokiXD3FIA5C0=",
-        "originContent": "c:\\\\Program Files\\Powershell\\7\\profile.ps1. Or add system programs that are missing like getmac.exe.",
+        "rowsha": "scRMOdfWvTR/lP/mxXpLdFR9iwT4PSafwe1Yq9eGunA=",
+        "originContent": "About ConEmu:",
         "translatedContent": ""
       },
       {
         "row": 40,
-        "rowsha": "Q2nHm/bPcjVs/19JAdHG0TEkfkDytCb4T8NYKvlKbXs=",
-        "originContent": "If programs fail because of insufficient mature or missing system programs one could write a ",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       }
     ],
@@ -507,136 +507,341 @@
   },
   {
     "Id": 3,
-    "Content": "function to return whatever the program expects. \nLike in profile.ps1 I added (amongst others) a wmic.exe that supports a bit more options,\nand a basic setx.exe.\nOr you could just manipulate the arguments passed to the system program. See profile.ps1 and choc_install.ps1.\nNo garantuee this works for more complex programs as well... \n \nNotes:\n\n  - Do NOT use on existing wineprefix, only on fresh new created prefix! The installer just stupidly installs dotnet48 itsself and messes with registrykeys.\n    If you have any dotnet version already installed with regular winetricks.sh, it will likely fail, and even if it succeeds, you'll likely end up with a broken prefix.\n    If you need to install stuff with regular winetricks.sh for programs, do NOT use any of the dotnet* verbs. \n    BTW 'Arial' and 'd3dcompiler_47' verbs are already installed by default.\n  - WINEARCH=win32 is _not_ supported!\n  - Updating from a previous version is for now not (yet) supported, maybe later\n\nCompile:\n  - If you want to compile yourself instead of downloading binaries: see compilation instructions in mainv1.c and installer.c \n  - Then copy choc_install.ps1 into the same directory\n  - Then do 'wine ChoCinstaller_0.5a.735.exe'\n  \n",
-    "ContentSha": "XvJmKMcM2XTcrfw3qr5cTKq9dJ6BmN08NRTq1tYZXHw=",
+    "Content": "ConEmu console suffers from a few wine-bugs:\n  - Ctrl^C to quit a program that doesn't return to the console doesn`t work. Use Shift^Ctrl^C instead.\n  - Selecting text in the ConEmu window (for copy/paste) doesn't highlight the selection. Included is a very sad hack       against recent wine versions that works around this, so highlighting should just work now.\n   \nAbout winetricks(.ps1):\n\n- If you don't call it ('winetricks' in powershell-console) , nothing gets downloaded so no overhead there. \n- A lot of verbs (like powershell 5.1) need a few essential files to extract stuff from msu packages. Installing these essential files requires first huge downloads , and  takes lots of time during 1st time usage. But after things are cached it goes quickly . For example if you might wanna try 'winetricks ps51' first, it will take about  approx. 15 minutes. Some other verbs might take 5 minutes on first time usage. But after you called a verb once this nuisance is gone.\n- Files are cached in directory MyDocuments. If you call all verbs it'll take about 800 MB there.\n- Hopefully some better 64-bit support for various verbs.\n- Possibility to extract a file and (try) install from an msu file. Do 'winetricks install_dll_from_msu' to see how.\n- A rudimentary Powershell 5.1.\n- experimental dotnet481 installation, and dotnet35 (might be needed by apps not satisfied with current dotnet48 installation).\n- Autotab-completion. Note: while using multiple verbs from command line they have to be seperated by a comma\n  from now on (this is how powershell handles multiple arguments)\n  So 'winetricks riched20 gdiplus' won't work anymore, use 'winetricks riched20,gdiplus' instead\n- Some programs fail to install/run when you try them via Chocolatey due to wine-bugs. I added a few workarounds in winetricks for them, see below.\n- Special verbs (winetricks vs19, vs22 and vs22_interactive_installer) to install working Visual Studio Community 2019 and 2022 (see screenshot, >10 mins to install and requires approx. 10GB!, after install start devenv.exe from directory c:\\Program\\ Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE/)\n  ![screenshot](https://github.com/PietJankbal/Chocolatey-for-wine/assets/26839562/d576a619-c752-4eb1-81c2-6f6b66b50ff6)\n- Special verb to get access to various unix commands like grep,sed, file, less, curl etc. etc. (winetricks git.portable, Disclaimer: some commands do not yet work due to wine bugs\n- Also included a few powershell scripts adapted from codesnippets found on the internet:\n    - How to embed an exe in a powershell script via Invoke-ReflectivePEInjection (the exe won't show up in tasklist).\n    - How to make fancy messageboxes\n    - Convert a powershell script (ps1) into an exe.\n    - And a few other\n \n     \nAbout system programs:\n\nFeature is added to replace simple system programs like for example setx.exe by a function in\nc:\\\\Program Files\\Powershell\\7\\profile.ps1. Or add system programs that are missing like getmac.exe.\nIf programs fail because of insufficient mature or missing system programs one could write a \nfunction to return whatever the program expects. \nLike in profile.ps1 I added (amongst others) a wmic.exe that supports a bit more options,\nand a basic setx.exe.\nOr you could just manipulate the arguments passed to the system program. See profile.ps1 and choc_install.ps1.\nNo garantuee this works for more complex programs as well... \n \nNotes:\n",
+    "ContentSha": "1s1GDAOLGZlCnzJ6mt7cw9s57C2dvyh9MHSMUYnvZc0=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "function 返回程序所期望的内容。  \n就像在 profile.ps1 中我添加了（除其他之外）一个支持更多选项的 wmic.exe，  \n以及一个基本的 setx.exe。  \n或者你也可以直接操作传递给系统程序的参数。参见 profile.ps1 和 choc_install.ps1。  \n不能保证这对更复杂的程序也有效……  \n \n注意事项：  \n\n  - 不要在已有的 wineprefix 上使用，只能在新创建的前缀上使用！安装程序只是傻乎乎地自己安装 dotnet48 并且搞乱注册表键。  \n    如果你已经用常规的 winetricks.sh 安装了任何版本的 dotnet，安装很可能会失败，即使成功，你也可能最终得到一个损坏的前缀。  \n    如果你需要用常规 winetricks.sh 安装程序所需的东西，千万不要使用任何 dotnet* 动词。  \n    顺便说一句，'Arial' 和 'd3dcompiler_47' 动词默认已安装。  \n  - 不支持 WINEARCH=win32！  \n  - 目前不支持从先前版本更新，也许以后会支持  \n\n编译：  \n  - 如果你想自己编译而不是下载二进制文件：请参阅 mainv1.c 和 installer.c 中的编译说明  \n  - 然后将 choc_install.ps1 复制到同一目录  \n  - 然后运行 'wine ChoCinstaller_0.5a.735.exe'\n\n",
+    "Translation": "ConEmu 控制台存在一些 wine-bugs：\n  - Ctrl^C 退出一个无法返回控制台的程序时无效。请使用 Shift^Ctrl^C 替代。\n  - 在 ConEmu 窗口选择文本（用于复制/粘贴）不会高亮显示选中内容。这里包含了一个非常悲伤的 hack，针对近期 wine 版本可以解决这个问题，所以现在高亮应该可以正常工作了。\n   \n关于 winetricks(.ps1)：\n\n- 如果你没有调用它（在 powershell 控制台输入 'winetricks'），则不会下载任何内容，因此不会有额外负担。\n- 很多动词（如 powershell 5.1）需要一些必要文件来从 msu 包中提取内容。安装这些必需文件第一次需要大规模下载，并且耗时很长。但内容缓存后就会很快。例如你可以先尝试 'winetricks ps51'，大约需要 15 分钟。其他动词首次使用可能需要 5 分钟。调用一次动词后这种麻烦就没了。\n- 文件缓存于 MyDocuments 目录。如果调用所有动词，总共大约占用 800 MB。\n- 希望未来对各种动词能有更好的 64 位支持。\n- 可以提取文件并（尝试）从 msu 文件安装。执行 'winetricks install_dll_from_msu' 查看方法。\n- 一个基础版的 Powershell 5.1。\n- 实验性的 dotnet481 安装和 dotnet35（可能是某些不满足于当前 dotnet48 安装的应用需要）。\n- 自动 tab 补全。注意：在命令行使用多个动词时，现在必须用逗号分隔（powershell 处理多个参数就是这样）\n  所以 'winetricks riched20 gdiplus' 不再有效，请使用 'winetricks riched20,gdiplus' 替代\n- 某些程序通过 Chocolatey 尝试安装/运行时会因 wine-bugs 失败。我在 winetricks 中为它们加入了一些解决办法，见下文。\n- 特殊动词（winetricks vs19, vs22 和 vs22_interactive_installer）可安装可用的 Visual Studio Community 2019 和 2022（见截图，安装需 >10 分钟且约 10GB！安装后在目录 c:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE/ 启动 devenv.exe）\n  ![截图](https://github.com/PietJankbal/Chocolatey-for-wine/assets/26839562/d576a619-c752-4eb1-81c2-6f6b66b50ff6)\n- 特殊动词可访问各种 unix 命令如 grep, sed, file, less, curl 等等（winetricks git.portable，免责声明：部分命令因 wine bug 还无法使用）\n- 还包含一些从互联网代码片段改编的 powershell 脚本：\n    - 如何通过 Invoke-ReflectivePEInjection 在 powershell 脚本中嵌入 exe（该 exe 不会出现在任务列表中）。\n    - 如何制作炫酷消息框\n    - 将 powershell 脚本（ps1）转换为 exe。\n    - 以及其他几个脚本\n \n     \n关于系统程序：\n\n添加了替换简单系统程序功能，比如将 setx.exe 替换为\nc:\\\\Program Files\\Powershell\\7\\profile.ps1 中的函数。或者添加缺失的系统程序，如 getmac.exe。\n如果程序因系统程序不成熟或缺失而失败，可以编写\n函数返回程序期望的内容。\n例如在 profile.ps1 中我添加了（还有其他）一个支持更多选项的 wmic.exe，\n以及一个基础版 setx.exe。\n或者可以直接操作传递给系统程序的参数。参见 profile.ps1 和 choc_install.ps1。\n不能保证复杂程序也能正常工作……\n \n注意事项：\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "dgaq/ck0fB1ho/mn78C+6AvxPFFV8m/VMyJ3xS9crn8=",
-        "originContent": "function to return whatever the program expects. ",
-        "translatedContent": "function 返回程序所期望的内容。  "
+        "rowsha": "pOHTkmefPrTIBn92LHUJ+n4QVbH22ucmZm1HA51GVqs=",
+        "originContent": "ConEmu console suffers from a few wine-bugs:",
+        "translatedContent": "ConEmu 控制台存在一些 wine-bugs："
       },
       {
         "row": 2,
-        "rowsha": "sSmiYHn/SkQq1dJ4/SJG2rExBreo+KY0zus2u5vbDpk=",
-        "originContent": "Like in profile.ps1 I added (amongst others) a wmic.exe that supports a bit more options,",
-        "translatedContent": "就像在 profile.ps1 中我添加了（除其他之外）一个支持更多选项的 wmic.exe，  "
+        "rowsha": "emNd9jplfyykX6bOKsrpBSR6R8nsd6oxvvpdbzOsuEY=",
+        "originContent": "  - Ctrl^C to quit a program that doesn't return to the console doesn`t work. Use Shift^Ctrl^C instead.",
+        "translatedContent": "  - Ctrl^C 退出一个无法返回控制台的程序时无效。请使用 Shift^Ctrl^C 替代。"
       },
       {
         "row": 3,
-        "rowsha": "BcedUgcb0K6VNKwT2/NTduR9/s21a/eDsEJkuBGRNYs=",
-        "originContent": "and a basic setx.exe.",
-        "translatedContent": "以及一个基本的 setx.exe。  "
+        "rowsha": "1eRABPi6RrHIUmNu/busOAWf6I3B9ElXqWS7Nf+So8Y=",
+        "originContent": "  - Selecting text in the ConEmu window (for copy/paste) doesn't highlight the selection. Included is a very sad hack       against recent wine versions that works around this, so highlighting should just work now.",
+        "translatedContent": "  - 在 ConEmu 窗口选择文本（用于复制/粘贴）不会高亮显示选中内容。这里包含了一个非常悲伤的 hack，针对近期 wine 版本可以解决这个问题，所以现在高亮应该可以正常工作了。"
       },
       {
         "row": 4,
-        "rowsha": "9/DOQfZWxZiVrdaA8skc+9RJRL90ccsCcDKKVocwIA4=",
-        "originContent": "Or you could just manipulate the arguments passed to the system program. See profile.ps1 and choc_install.ps1.",
-        "translatedContent": "或者你也可以直接操作传递给系统程序的参数。参见 profile.ps1 和 choc_install.ps1。  "
+        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+        "originContent": "   ",
+        "translatedContent": "   "
       },
       {
         "row": 5,
-        "rowsha": "SQXc75DX4B6W+5tT6Jcm/Vk0ZlNFmU0s7ezFyJWhsKA=",
-        "originContent": "No garantuee this works for more complex programs as well... ",
-        "translatedContent": "不能保证这对更复杂的程序也有效……  "
+        "rowsha": "jKTm8HK7CuMmIxkEAV2N3sWNQXoMpg4VPFhNseSho38=",
+        "originContent": "About winetricks(.ps1):",
+        "translatedContent": "关于 winetricks(.ps1)："
       },
       {
         "row": 6,
-        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
-        "originContent": " ",
-        "translatedContent": " "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 7,
-        "rowsha": "2k9+pY2WOxowK3a4+lVwGQEGxnO5zyl1RouMrqXic4Q=",
-        "originContent": "Notes:",
-        "translatedContent": "注意事项：  "
+        "rowsha": "SuoF1/zyLLyHOCUdB6QQPYyDAnPT7D2hyVtuf9St4F8=",
+        "originContent": "- If you don't call it ('winetricks' in powershell-console) , nothing gets downloaded so no overhead there. ",
+        "translatedContent": "- 如果你没有调用它（在 powershell 控制台输入 'winetricks'），则不会下载任何内容，因此不会有额外负担。"
       },
       {
         "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "FOgn1DI/omJCVS0D5c+SjZx0ErEg33wmo+6LiRdY038=",
+        "originContent": "- A lot of verbs (like powershell 5.1) need a few essential files to extract stuff from msu packages. Installing these essential files requires first huge downloads , and  takes lots of time during 1st time usage. But after things are cached it goes quickly . For example if you might wanna try 'winetricks ps51' first, it will take about  approx. 15 minutes. Some other verbs might take 5 minutes on first time usage. But after you called a verb once this nuisance is gone.",
+        "translatedContent": "- 很多动词（如 powershell 5.1）需要一些必要文件来从 msu 包中提取内容。安装这些必需文件第一次需要大规模下载，并且耗时很长。但内容缓存后就会很快。例如你可以先尝试 'winetricks ps51'，大约需要 15 分钟。其他动词首次使用可能需要 5 分钟。调用一次动词后这种麻烦就没了。"
       },
       {
         "row": 9,
-        "rowsha": "1TQiBEms8kuwfw+HizbdYzk3B8akVYcR95gPSwEtYdY=",
-        "originContent": "  - Do NOT use on existing wineprefix, only on fresh new created prefix! The installer just stupidly installs dotnet48 itsself and messes with registrykeys.",
-        "translatedContent": "  - 不要在已有的 wineprefix 上使用，只能在新创建的前缀上使用！安装程序只是傻乎乎地自己安装 dotnet48 并且搞乱注册表键。  "
+        "rowsha": "pePS2Y6apX6sdrqccqUdcmrKoNFdbRUA1jt71DmqABA=",
+        "originContent": "- Files are cached in directory MyDocuments. If you call all verbs it'll take about 800 MB there.",
+        "translatedContent": "- 文件缓存于 MyDocuments 目录。如果调用所有动词，总共大约占用 800 MB。"
       },
       {
         "row": 10,
-        "rowsha": "Ec6BbZYMK7I0YYLQ9Vk1R7ku0p+ku+FamPQT2UBlUME=",
-        "originContent": "    If you have any dotnet version already installed with regular winetricks.sh, it will likely fail, and even if it succeeds, you'll likely end up with a broken prefix.",
-        "translatedContent": "    如果你已经用常规的 winetricks.sh 安装了任何版本的 dotnet，安装很可能会失败，即使成功，你也可能最终得到一个损坏的前缀。  "
+        "rowsha": "5EdrfgDlSS0bMYok4MfpaRMESce2QJdWLdoDAr0IQRc=",
+        "originContent": "- Hopefully some better 64-bit support for various verbs.",
+        "translatedContent": "- 希望未来对各种动词能有更好的 64 位支持。"
       },
       {
         "row": 11,
-        "rowsha": "rMtHds//bu+1BopKsxs42ryjviNFuJYngyvrO2VemZc=",
-        "originContent": "    If you need to install stuff with regular winetricks.sh for programs, do NOT use any of the dotnet* verbs. ",
-        "translatedContent": "    如果你需要用常规 winetricks.sh 安装程序所需的东西，千万不要使用任何 dotnet* 动词。  "
+        "rowsha": "8xL5CBh7tpsWMvHSxKvr/uStzw7Fq1OQPbre5TCIhmI=",
+        "originContent": "- Possibility to extract a file and (try) install from an msu file. Do 'winetricks install_dll_from_msu' to see how.",
+        "translatedContent": "- 可以提取文件并（尝试）从 msu 文件安装。执行 'winetricks install_dll_from_msu' 查看方法。"
       },
       {
         "row": 12,
-        "rowsha": "5MV5XsM93quURSpHYZwojnmG4A5oIDMI6V1+YOTFmrs=",
-        "originContent": "    BTW 'Arial' and 'd3dcompiler_47' verbs are already installed by default.",
-        "translatedContent": "    顺便说一句，'Arial' 和 'd3dcompiler_47' 动词默认已安装。  "
+        "rowsha": "e7tFqlQS8dviVpmZahz37Xs0qKA2vzHY6AuamdSPWs0=",
+        "originContent": "- A rudimentary Powershell 5.1.",
+        "translatedContent": "- 一个基础版的 Powershell 5.1。"
       },
       {
         "row": 13,
-        "rowsha": "RRB2WT7zJ5ThGTybVmy2rH0NUDr8ABJqEyIA7dv2T+Q=",
-        "originContent": "  - WINEARCH=win32 is _not_ supported!",
-        "translatedContent": "  - 不支持 WINEARCH=win32！  "
+        "rowsha": "Xi0aCeZCFR+HRrLITmAO79Jf0MslCpo+9B8NYJtKaeQ=",
+        "originContent": "- experimental dotnet481 installation, and dotnet35 (might be needed by apps not satisfied with current dotnet48 installation).",
+        "translatedContent": "- 实验性的 dotnet481 安装和 dotnet35（可能是某些不满足于当前 dotnet48 安装的应用需要）。"
       },
       {
         "row": 14,
-        "rowsha": "QySXLWMgF5SnnE51h9r+cAGX07L4AVwZJZr5D4g+lOc=",
-        "originContent": "  - Updating from a previous version is for now not (yet) supported, maybe later",
-        "translatedContent": "  - 目前不支持从先前版本更新，也许以后会支持  "
+        "rowsha": "K8JPbBa0aEWrIb0E0pPYAB3h8JobjeDY8NMmDMWOd8A=",
+        "originContent": "- Autotab-completion. Note: while using multiple verbs from command line they have to be seperated by a comma",
+        "translatedContent": "- 自动 tab 补全。注意：在命令行使用多个动词时，现在必须用逗号分隔（powershell 处理多个参数就是这样）"
       },
       {
         "row": 15,
+        "rowsha": "LPfC6Jvm0Yz8svGYIlu3Tz+GpMiZbAJHhm7LdPU99OY=",
+        "originContent": "  from now on (this is how powershell handles multiple arguments)",
+        "translatedContent": "  所以 'winetricks riched20 gdiplus' 不再有效，请使用 'winetricks riched20,gdiplus' 替代"
+      },
+      {
+        "row": 16,
+        "rowsha": "yeDARbOHvC4aG+OfECvDNPBNUeNDLO2ZyTUfLxsf9M8=",
+        "originContent": "  So 'winetricks riched20 gdiplus' won't work anymore, use 'winetricks riched20,gdiplus' instead",
+        "translatedContent": "- 某些程序通过 Chocolatey 尝试安装/运行时会因 wine-bugs 失败。我在 winetricks 中为它们加入了一些解决办法，见下文。"
+      },
+      {
+        "row": 17,
+        "rowsha": "ZyDlvUh2QFRgpgGsMSfpgjnrf7x/X7zEajpdjoFNmj8=",
+        "originContent": "- Some programs fail to install/run when you try them via Chocolatey due to wine-bugs. I added a few workarounds in winetricks for them, see below.",
+        "translatedContent": "- 特殊动词（winetricks vs19, vs22 和 vs22_interactive_installer）可安装可用的 Visual Studio Community 2019 和 2022（见截图，安装需 >10 分钟且约 10GB！安装后在目录 c:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE/ 启动 devenv.exe）"
+      },
+      {
+        "row": 18,
+        "rowsha": "3yqV0UCH4PE/6jtvnu1BtESS55VwyTxlAcACx7B8DGU=",
+        "originContent": "- Special verbs (winetricks vs19, vs22 and vs22_interactive_installer) to install working Visual Studio Community 2019 and 2022 (see screenshot, >10 mins to install and requires approx. 10GB!, after install start devenv.exe from directory c:\\Program\\ Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE/)",
+        "translatedContent": "  ![截图](https://github.com/PietJankbal/Chocolatey-for-wine/assets/26839562/d576a619-c752-4eb1-81c2-6f6b66b50ff6)"
+      },
+      {
+        "row": 19,
+        "rowsha": "qtXiMEWtstctuQQAgLop9nJADZmd25ae7W40w7ApUh8=",
+        "originContent": "  ![screenshot](https://github.com/PietJankbal/Chocolatey-for-wine/assets/26839562/d576a619-c752-4eb1-81c2-6f6b66b50ff6)",
+        "translatedContent": "- 特殊动词可访问各种 unix 命令如 grep, sed, file, less, curl 等等（winetricks git.portable，免责声明：部分命令因 wine bug 还无法使用）"
+      },
+      {
+        "row": 20,
+        "rowsha": "/GjD8saONTMtC2tlH4cX0mwjjv7ftsxgLTKSL2O9K3k=",
+        "originContent": "- Special verb to get access to various unix commands like grep,sed, file, less, curl etc. etc. (winetricks git.portable, Disclaimer: some commands do not yet work due to wine bugs",
+        "translatedContent": "- 还包含一些从互联网代码片段改编的 powershell 脚本："
+      },
+      {
+        "row": 21,
+        "rowsha": "LLTQ08maFhHOBgVvTCJpu5DO/WG8W1OV8OWA5iL2V3k=",
+        "originContent": "- Also included a few powershell scripts adapted from codesnippets found on the internet:",
+        "translatedContent": "    - 如何通过 Invoke-ReflectivePEInjection 在 powershell 脚本中嵌入 exe（该 exe 不会出现在任务列表中）。"
+      },
+      {
+        "row": 22,
+        "rowsha": "YBWK69aSyr1QY9TYkLgT1PYpefUXY42kc1L2F6fU+W0=",
+        "originContent": "    - How to embed an exe in a powershell script via Invoke-ReflectivePEInjection (the exe won't show up in tasklist).",
+        "translatedContent": "    - 如何制作炫酷消息框"
+      },
+      {
+        "row": 23,
+        "rowsha": "4M31Ohv7NJFA+1c4cIpWHdlgmWvcw+3X5ARh8tcaGrE=",
+        "originContent": "    - How to make fancy messageboxes",
+        "translatedContent": "    - 将 powershell 脚本（ps1）转换为 exe。"
+      },
+      {
+        "row": 24,
+        "rowsha": "XhEdfTKyRvTmyv2IDNaQ4DwsPjEukyqZKqVSVApL3ZA=",
+        "originContent": "    - Convert a powershell script (ps1) into an exe.",
+        "translatedContent": "    - 以及其他几个脚本"
+      },
+      {
+        "row": 25,
+        "rowsha": "Kr5Cv6CZqwXfEyqCWZCgvsbH1tYa9ZYIohhTLqQ9GXo=",
+        "originContent": "    - And a few other",
+        "translatedContent": " "
+      },
+      {
+        "row": 26,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": "     "
+      },
+      {
+        "row": 27,
+        "rowsha": "eHmYHU8iao8BkdNnMMByBdel/xx4D8qbL5BfJSZM9jY=",
+        "originContent": "     ",
+        "translatedContent": "关于系统程序："
+      },
+      {
+        "row": 28,
+        "rowsha": "t0kxEw6Vc9QBsjT3sUwrp5q4xIMpaqckgm/XXrNwoFw=",
+        "originContent": "About system programs:",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "添加了替换简单系统程序功能，比如将 setx.exe 替换为"
+      },
+      {
+        "row": 30,
+        "rowsha": "rt3ItOHlaOT9v/ODC6k5nmcli4M9vWLOVvkQ+bqB/eE=",
+        "originContent": "Feature is added to replace simple system programs like for example setx.exe by a function in",
+        "translatedContent": "c:\\\\Program Files\\Powershell\\7\\profile.ps1 中的函数。或者添加缺失的系统程序，如 getmac.exe。"
+      },
+      {
+        "row": 31,
+        "rowsha": "OJGecXF+zdxRY2eo2wQL+BrArFtJbrwokiXD3FIA5C0=",
+        "originContent": "c:\\\\Program Files\\Powershell\\7\\profile.ps1. Or add system programs that are missing like getmac.exe.",
+        "translatedContent": "如果程序因系统程序不成熟或缺失而失败，可以编写"
+      },
+      {
+        "row": 32,
+        "rowsha": "Q2nHm/bPcjVs/19JAdHG0TEkfkDytCb4T8NYKvlKbXs=",
+        "originContent": "If programs fail because of insufficient mature or missing system programs one could write a ",
+        "translatedContent": "函数返回程序期望的内容。"
+      },
+      {
+        "row": 33,
+        "rowsha": "dgaq/ck0fB1ho/mn78C+6AvxPFFV8m/VMyJ3xS9crn8=",
+        "originContent": "function to return whatever the program expects. ",
+        "translatedContent": "例如在 profile.ps1 中我添加了（还有其他）一个支持更多选项的 wmic.exe，"
+      },
+      {
+        "row": 34,
+        "rowsha": "sSmiYHn/SkQq1dJ4/SJG2rExBreo+KY0zus2u5vbDpk=",
+        "originContent": "Like in profile.ps1 I added (amongst others) a wmic.exe that supports a bit more options,",
+        "translatedContent": "以及一个基础版 setx.exe。"
+      },
+      {
+        "row": 35,
+        "rowsha": "BcedUgcb0K6VNKwT2/NTduR9/s21a/eDsEJkuBGRNYs=",
+        "originContent": "and a basic setx.exe.",
+        "translatedContent": "或者可以直接操作传递给系统程序的参数。参见 profile.ps1 和 choc_install.ps1。"
+      },
+      {
+        "row": 36,
+        "rowsha": "9/DOQfZWxZiVrdaA8skc+9RJRL90ccsCcDKKVocwIA4=",
+        "originContent": "Or you could just manipulate the arguments passed to the system program. See profile.ps1 and choc_install.ps1.",
+        "translatedContent": "不能保证复杂程序也能正常工作……"
+      },
+      {
+        "row": 37,
+        "rowsha": "SQXc75DX4B6W+5tT6Jcm/Vk0ZlNFmU0s7ezFyJWhsKA=",
+        "originContent": "No garantuee this works for more complex programs as well... ",
+        "translatedContent": " "
+      },
+      {
+        "row": 38,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": "注意事项："
+      },
+      {
+        "row": 39,
+        "rowsha": "2k9+pY2WOxowK3a4+lVwGQEGxnO5zyl1RouMrqXic4Q=",
+        "originContent": "Notes:",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "  - Do NOT use on existing wineprefix, only on fresh new created prefix! The installer just stupidly installs dotnet48 itsself and messes with registrykeys.\n    If you have any dotnet version already installed with regular winetricks.sh, it will likely fail, and even if it succeeds, you'll likely end up with a broken prefix.\n    If you need to install stuff with regular winetricks.sh for programs, do NOT use any of the dotnet* verbs. \n    BTW 'Arial' and 'd3dcompiler_47' verbs are already installed by default.\n  - WINEARCH=win32 is _not_ supported!\n  - Updating from a previous version is for now not (yet) supported, maybe later\n\nCompile:\n  - If you want to compile yourself instead of downloading binaries: see compilation instructions in mainv1.c and installer.c \n  - Then copy choc_install.ps1 into the same directory\n  - Then do 'wine ChoCinstaller_0.5a.735.exe'\n  \n",
+    "ContentSha": "080y+hQyAInGq5c2jzQdAzQF4Jv00TDssCTVnCbjdUM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - 不要在已有的 wineprefix 上使用，只能在全新创建的 prefix 上使用！安装程序只是简单地自行安装 dotnet48，并且会修改注册表键值。\n    如果你已经通过常规的 winetricks.sh 安装过任何 dotnet 版本，很可能会失败，即使成功，也很可能会导致 prefix 损坏。\n    如果你需要为程序通过常规 winetricks.sh 安装内容，请不要使用任何 dotnet* 动作。\n    顺便说一句，‘Arial’ 和 ‘d3dcompiler_47’ 动作已经默认安装。\n  - 不支持 WINEARCH=win32！\n  - 目前不支持从之前的版本进行升级，或许以后会支持\n\n编译：\n  - 如果你想自行编译而不是下载二进制文件：请参见 mainv1.c 和 installer.c 中的编译说明\n  - 然后将 choc_install.ps1 复制到同一目录\n  - 然后运行 ‘wine ChoCinstaller_0.5a.735.exe’\n  \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "1TQiBEms8kuwfw+HizbdYzk3B8akVYcR95gPSwEtYdY=",
+        "originContent": "  - Do NOT use on existing wineprefix, only on fresh new created prefix! The installer just stupidly installs dotnet48 itsself and messes with registrykeys.",
+        "translatedContent": "  - 不要在已有的 wineprefix 上使用，只能在全新创建的 prefix 上使用！安装程序只是简单地自行安装 dotnet48，并且会修改注册表键值。"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ec6BbZYMK7I0YYLQ9Vk1R7ku0p+ku+FamPQT2UBlUME=",
+        "originContent": "    If you have any dotnet version already installed with regular winetricks.sh, it will likely fail, and even if it succeeds, you'll likely end up with a broken prefix.",
+        "translatedContent": "    如果你已经通过常规的 winetricks.sh 安装过任何 dotnet 版本，很可能会失败，即使成功，也很可能会导致 prefix 损坏。"
+      },
+      {
+        "row": 3,
+        "rowsha": "rMtHds//bu+1BopKsxs42ryjviNFuJYngyvrO2VemZc=",
+        "originContent": "    If you need to install stuff with regular winetricks.sh for programs, do NOT use any of the dotnet* verbs. ",
+        "translatedContent": "    如果你需要为程序通过常规 winetricks.sh 安装内容，请不要使用任何 dotnet* 动作。"
+      },
+      {
+        "row": 4,
+        "rowsha": "5MV5XsM93quURSpHYZwojnmG4A5oIDMI6V1+YOTFmrs=",
+        "originContent": "    BTW 'Arial' and 'd3dcompiler_47' verbs are already installed by default.",
+        "translatedContent": "    顺便说一句，‘Arial’ 和 ‘d3dcompiler_47’ 动作已经默认安装。"
+      },
+      {
+        "row": 5,
+        "rowsha": "RRB2WT7zJ5ThGTybVmy2rH0NUDr8ABJqEyIA7dv2T+Q=",
+        "originContent": "  - WINEARCH=win32 is _not_ supported!",
+        "translatedContent": "  - 不支持 WINEARCH=win32！"
+      },
+      {
+        "row": 6,
+        "rowsha": "QySXLWMgF5SnnE51h9r+cAGX07L4AVwZJZr5D4g+lOc=",
+        "originContent": "  - Updating from a previous version is for now not (yet) supported, maybe later",
+        "translatedContent": "  - 目前不支持从之前的版本进行升级，或许以后会支持"
+      },
+      {
+        "row": 7,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 16,
+        "row": 8,
         "rowsha": "RQKeoRpfxpY6QrYigKxzMUuWVKNoYNETjEv5D95gDsM=",
         "originContent": "Compile:",
-        "translatedContent": "编译：  "
+        "translatedContent": "编译："
       },
       {
-        "row": 17,
+        "row": 9,
         "rowsha": "DMkqBnbKoC7a+tKq+drMTWeLH1u8WZfb1mvU/tjlulE=",
         "originContent": "  - If you want to compile yourself instead of downloading binaries: see compilation instructions in mainv1.c and installer.c ",
-        "translatedContent": "  - 如果你想自己编译而不是下载二进制文件：请参阅 mainv1.c 和 installer.c 中的编译说明  "
+        "translatedContent": "  - 如果你想自行编译而不是下载二进制文件：请参见 mainv1.c 和 installer.c 中的编译说明"
       },
       {
-        "row": 18,
+        "row": 10,
         "rowsha": "4IHJD6DfHtL2LwouILcf77sIrM4qnYsfgzrccooEoUA=",
         "originContent": "  - Then copy choc_install.ps1 into the same directory",
-        "translatedContent": "  - 然后将 choc_install.ps1 复制到同一目录  "
+        "translatedContent": "  - 然后将 choc_install.ps1 复制到同一目录"
       },
       {
-        "row": 19,
+        "row": 11,
         "rowsha": "4N/rqOjjWGBJ32nhZAfItywFhSdibpff6J70jNV7Lbo=",
         "originContent": "  - Then do 'wine ChoCinstaller_0.5a.735.exe'",
-        "translatedContent": "  - 然后运行 'wine ChoCinstaller_0.5a.735.exe'"
+        "translatedContent": "  - 然后运行 ‘wine ChoCinstaller_0.5a.735.exe’"
       },
       {
-        "row": 20,
+        "row": 12,
         "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
         "originContent": "  ",
-        "translatedContent": ""
+        "translatedContent": "  "
       },
       {
-        "row": 21,
+        "row": 13,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

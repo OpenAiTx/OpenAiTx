@@ -1,0 +1,662 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Chrome Debloat\n\nA tool to generate policies for Chromium-based browsers (Chrome, Brave, and Edge) that disable unnecessary features, telemetry, and bloatware while enabling some quality-of-life improvements.\n\n## Features\n\n- Attempts to disable telemetry and usage reporting\n- Removes unnecessary features and pre-installed bloatware\n- Blocks promotional content and unnecessary UI elements\n- Maintains browser functionality while reducing resource usage\n- Pre-configures essential extensions:\n  - uBlock Origin\n  - Cookie AutoDelete\n  - Don't f*** with paste\n  - I still don't care about cookies\n  - SponsorBlock\n  - BlockTube\n  - BlankTab\n  - Decentraleyes\n\n### Supported Browsers\n\n| Browser | Windows | macOS | Linux |\n|---------|---------|-------|-------|\n| Google Chrome | ✅ | ✅ | ✅ |\n| Microsoft Edge | ✅ | ✅ | ✅ |\n| Brave | ✅ | ✅ | ✅ |\n\n## Quick Start\n\n### Windows\n1.  Download the `.reg` file for your browser from [`generated/windows/`](./generated/windows/).\n2.  Open the downloaded `.reg` file to add the settings to the Windows Registry.\n3.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".\n\n### macOS\n1.  Download the `.mobileconfig` file for your browser from [`generated/macos/`](./generated/macos/).\n2.  Open the downloaded `.mobileconfig` file to start the profile installation.\n3.  Go to `System Settings` > `Privacy & Security` > `Profiles` and approve the new profile.\n4.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".",
+    "ContentSha": "spwrCAdDy/+fKT7yzhWYq4c4ydcH4hF+wr7dXDWYJKg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 크롬 디블로트\n\nChromium 기반 브라우저(Chrome, Brave, Edge)를 위한 정책을 생성하는 도구로, 불필요한 기능, 텔레메트리 및 불필요한 소프트웨어를 비활성화하고 일부 편의 기능을 활성화합니다.\n\n## 기능\n\n- 텔레메트리 및 사용 보고 비활성화 시도\n- 불필요한 기능 및 사전 설치된 불필요한 소프트웨어 제거\n- 홍보 콘텐츠 및 불필요한 UI 요소 차단\n- 브라우저 기능을 유지하면서 자원 사용량 감소\n- 필수 확장 프로그램 사전 구성:\n  - uBlock Origin\n  - Cookie AutoDelete\n  - Don't f*** with paste\n  - I still don't care about cookies\n  - SponsorBlock\n  - BlockTube\n  - BlankTab\n  - Decentraleyes\n\n### 지원되는 브라우저\n\n| 브라우저 | 윈도우 | macOS | 리눅스 |\n|---------|---------|-------|-------|\n| 구글 크롬 | ✅ | ✅ | ✅ |\n| 마이크로소프트 엣지 | ✅ | ✅ | ✅ |\n| 브레이브 | ✅ | ✅ | ✅ |\n\n## 빠른 시작\n\n### 윈도우\n1.  [`generated/windows/`](./generated/windows/)에서 브라우저용 `.reg` 파일을 다운로드합니다.\n2.  다운로드한 `.reg` 파일을 열어 Windows 레지스트리에 설정을 추가합니다.\n3.  브라우저를 재시작하거나 `chrome://policy` (또는 `edge://policy`, `brave://policy`)로 이동하여 \"정책 다시 불러오기\"를 클릭합니다.\n\n### macOS\n1.  [`generated/macos/`](./generated/macos/)에서 브라우저용 `.mobileconfig` 파일을 다운로드합니다.\n2.  다운로드한 `.mobileconfig` 파일을 열어 프로필 설치를 시작합니다.\n3.  `시스템 설정` > `개인 정보 및 보안` > `프로필`로 이동하여 새 프로필을 승인합니다.\n4.  브라우저를 재시작하거나 `chrome://policy` (또는 `edge://policy`, `brave://policy`)로 이동하여 \"정책 다시 불러오기\"를 클릭합니다.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7ZxQZ3V2Q+wsACR22wMKtCnSXqQ4r50xk+apPpFm8Mc=",
+        "originContent": "# Chrome Debloat",
+        "translatedContent": "# 크롬 디블로트"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "f0Yws5trY+7zY9yhWe7zBVd56M5smOAt/i7gJ+3H1eU=",
+        "originContent": "A tool to generate policies for Chromium-based browsers (Chrome, Brave, and Edge) that disable unnecessary features, telemetry, and bloatware while enabling some quality-of-life improvements.",
+        "translatedContent": "Chromium 기반 브라우저(Chrome, Brave, Edge)를 위한 정책을 생성하는 도구로, 불필요한 기능, 텔레메트리 및 불필요한 소프트웨어를 비활성화하고 일부 편의 기능을 활성화합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "eopwCWT3ptqeo3fDOw00w0uNAjxXoTfyf6OiSekgJgk=",
+        "originContent": "- Attempts to disable telemetry and usage reporting",
+        "translatedContent": "- 텔레메트리 및 사용 보고 비활성화 시도"
+      },
+      {
+        "row": 8,
+        "rowsha": "DdLr6IdmHXBMAxeV56zaMUefjx/eHe0JYoE4OyEVdgk=",
+        "originContent": "- Removes unnecessary features and pre-installed bloatware",
+        "translatedContent": "- 불필요한 기능 및 사전 설치된 불필요한 소프트웨어 제거"
+      },
+      {
+        "row": 9,
+        "rowsha": "d42NBq0+bBVVyqRduSIfOEKtKbRED+aWmiSir+3jr14=",
+        "originContent": "- Blocks promotional content and unnecessary UI elements",
+        "translatedContent": "- 홍보 콘텐츠 및 불필요한 UI 요소 차단"
+      },
+      {
+        "row": 10,
+        "rowsha": "6z0y72+qZQ9Lv+lMYNQamMf9Nd42s56lhMcnp5oCpvg=",
+        "originContent": "- Maintains browser functionality while reducing resource usage",
+        "translatedContent": "- 브라우저 기능을 유지하면서 자원 사용량 감소"
+      },
+      {
+        "row": 11,
+        "rowsha": "o7MNodiVdokZUXm8sklkKsmcMOG5xcxVBhilfEC1JjI=",
+        "originContent": "- Pre-configures essential extensions:",
+        "translatedContent": "- 필수 확장 프로그램 사전 구성:"
+      },
+      {
+        "row": 12,
+        "rowsha": "JOjZeq9v1yCh77HIqldfEJ2AraNDZJdsriWpZKOIov4=",
+        "originContent": "  - uBlock Origin",
+        "translatedContent": "  - uBlock Origin"
+      },
+      {
+        "row": 13,
+        "rowsha": "Ut0jmU7Lr9311Q/5CBZxVDGzoWxb9FITeG8bzEjUWX4=",
+        "originContent": "  - Cookie AutoDelete",
+        "translatedContent": "  - Cookie AutoDelete"
+      },
+      {
+        "row": 14,
+        "rowsha": "3VfaCzM2eUh11UbgHjda6V1ZACh3iRO/uHdnYopinUI=",
+        "originContent": "  - Don't f*** with paste",
+        "translatedContent": "  - Don't f*** with paste"
+      },
+      {
+        "row": 15,
+        "rowsha": "s7CcoqUKU2pI0nySw3wok0Wul3Bs0EGvllrcm+I08jM=",
+        "originContent": "  - I still don't care about cookies",
+        "translatedContent": "  - I still don't care about cookies"
+      },
+      {
+        "row": 16,
+        "rowsha": "7svwxtWrCylvxU4fBVzyGx/9BJgYhhtfTi5M1RNdsQM=",
+        "originContent": "  - SponsorBlock",
+        "translatedContent": "  - SponsorBlock"
+      },
+      {
+        "row": 17,
+        "rowsha": "lwGdsPbSgUTZGjkmJBwvNaYFW+54qy2miGHsp9znJn0=",
+        "originContent": "  - BlockTube",
+        "translatedContent": "  - BlockTube"
+      },
+      {
+        "row": 18,
+        "rowsha": "Q63KaeWLfBS6QL9TNhCIM/PmNvWTRbZRP5BqxK9Pdi8=",
+        "originContent": "  - BlankTab",
+        "translatedContent": "  - BlankTab"
+      },
+      {
+        "row": 19,
+        "rowsha": "6V+SEQZa+HTPGdrPznWuatYRUvfQVEJnqgQLnXMIWzA=",
+        "originContent": "  - Decentraleyes",
+        "translatedContent": "  - Decentraleyes"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "TNdxSGLXHFi2qg9EzN/bqWhNusNvf8079Tdg8iE5Tw4=",
+        "originContent": "### Supported Browsers",
+        "translatedContent": "### 지원되는 브라우저"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "LsYumq1LFg/dld4JTGG9MOUU8Tl+CBf/CR/N+MtdCVE=",
+        "originContent": "| Browser | Windows | macOS | Linux |",
+        "translatedContent": "| 브라우저 | 윈도우 | macOS | 리눅스 |"
+      },
+      {
+        "row": 24,
+        "rowsha": "TErqh8pdels89N10AHgGO73mhvTvboCldGixqtuFL4Y=",
+        "originContent": "|---------|---------|-------|-------|",
+        "translatedContent": "|---------|---------|-------|-------|"
+      },
+      {
+        "row": 25,
+        "rowsha": "hwzjBMYiT5aHfs+cqwWnDyfBSE4OB3Y5+zjFroecpnU=",
+        "originContent": "| Google Chrome | ✅ | ✅ | ✅ |",
+        "translatedContent": "| 구글 크롬 | ✅ | ✅ | ✅ |"
+      },
+      {
+        "row": 26,
+        "rowsha": "+DBqCkERsNBUjjnOo4AoPOANOhoJQSQv7qY0oKujiXg=",
+        "originContent": "| Microsoft Edge | ✅ | ✅ | ✅ |",
+        "translatedContent": "| 마이크로소프트 엣지 | ✅ | ✅ | ✅ |"
+      },
+      {
+        "row": 27,
+        "rowsha": "/OzLgCIwOucQ+HWmRgRcj0Z/6hb8U9UeFPRl3dyDrMs=",
+        "originContent": "| Brave | ✅ | ✅ | ✅ |",
+        "translatedContent": "| 브레이브 | ✅ | ✅ | ✅ |"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## 빠른 시작"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": "### 윈도우"
+      },
+      {
+        "row": 32,
+        "rowsha": "T8ZUTrtUGx6bqM5DSr8wmTkBZCA3bjLqwXxYeWkY6+c=",
+        "originContent": "1.  Download the `.reg` file for your browser from [`generated/windows/`](./generated/windows/).",
+        "translatedContent": "1.  [`generated/windows/`](./generated/windows/)에서 브라우저용 `.reg` 파일을 다운로드합니다."
+      },
+      {
+        "row": 33,
+        "rowsha": "vZQEhjIxY+9Kp4yVVEa271WMlIQKe4FGZGsSrU9l7e8=",
+        "originContent": "2.  Open the downloaded `.reg` file to add the settings to the Windows Registry.",
+        "translatedContent": "2.  다운로드한 `.reg` 파일을 열어 Windows 레지스트리에 설정을 추가합니다."
+      },
+      {
+        "row": 34,
+        "rowsha": "t4YhzX7+/Wix7dYmM+bOBsgGF98rDQHbJ4mm1nhm/KI=",
+        "originContent": "3.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".",
+        "translatedContent": "3.  브라우저를 재시작하거나 `chrome://policy` (또는 `edge://policy`, `brave://policy`)로 이동하여 \"정책 다시 불러오기\"를 클릭합니다."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "IOz6D23yxKVaZDi62cZaiowUVIuAS1nmW/2UxanscU8=",
+        "originContent": "### macOS",
+        "translatedContent": "### macOS"
+      },
+      {
+        "row": 37,
+        "rowsha": "zHb0nF5zAAGLWejHEMg47ofrQ5gwEsSNnaJhl5xrPbw=",
+        "originContent": "1.  Download the `.mobileconfig` file for your browser from [`generated/macos/`](./generated/macos/).",
+        "translatedContent": "1.  [`generated/macos/`](./generated/macos/)에서 브라우저용 `.mobileconfig` 파일을 다운로드합니다."
+      },
+      {
+        "row": 38,
+        "rowsha": "GWHG5IWyQ03BuFVKU9nqDZGf27W2SZzmTk5Hv1Pm6AA=",
+        "originContent": "2.  Open the downloaded `.mobileconfig` file to start the profile installation.",
+        "translatedContent": "2.  다운로드한 `.mobileconfig` 파일을 열어 프로필 설치를 시작합니다."
+      },
+      {
+        "row": 39,
+        "rowsha": "bE79valF6DP08zdps0b7f563b8lcswGfTSGixrIh7ms=",
+        "originContent": "3.  Go to `System Settings` > `Privacy & Security` > `Profiles` and approve the new profile.",
+        "translatedContent": "3.  `시스템 설정` > `개인 정보 및 보안` > `프로필`로 이동하여 새 프로필을 승인합니다."
+      },
+      {
+        "row": 40,
+        "rowsha": "4zyIM0GVeH3TFC4uEfyiPYiRa8audbB5Bufl06oLSnE=",
+        "originContent": "4.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".",
+        "translatedContent": "4.  브라우저를 재시작하거나 `chrome://policy` (또는 `edge://policy`, `brave://policy`)로 이동하여 \"정책 다시 불러오기\"를 클릭합니다."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n### Linux\n1.  Download the `.json` file for your browser from [`generated/linux/`](./generated/linux/).\n2.  Move the downloaded file to the correct policy directory (create it if needed):\n    *   **Chrome:** `/etc/opt/chrome/policies/managed/chrome.json`\n    *   **Edge:** `/etc/opt/edge/policies/managed/edge.json`\n    *   **Brave:** `/etc/brave/policies/managed/brave.json`\n    *   *Note: You might need `sudo` rights to do this.*\n3.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".\n\n## Custom Configuration\n\nIf you want to customize the policies:\n\n1. Clone this repository\n2. Install dependencies:",
+    "ContentSha": "TZQaMgse4cEobM2Y5xcQdsk7t9ZOFZV20Ivzrd64qpM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 리눅스\n1.  브라우저에 해당하는 `.json` 파일을 [`generated/linux/`](./generated/linux/)에서 다운로드합니다.\n2.  다운로드한 파일을 올바른 정책 디렉토리로 이동합니다 (필요시 생성):\n    *   **크롬:** `/etc/opt/chrome/policies/managed/chrome.json`\n    *   **엣지:** `/etc/opt/edge/policies/managed/edge.json`\n    *   **브레이브:** `/etc/brave/policies/managed/brave.json`\n    *   *참고: 이 작업을 위해 `sudo` 권한이 필요할 수 있습니다.*\n3.  브라우저를 재시작하거나 `chrome://policy` (또는 `edge://policy`, `brave://policy`)로 이동하여 \"정책 다시 불러오기\"를 클릭합니다.\n\n## 사용자 정의 구성\n\n정책을 사용자 정의하려면:\n\n1. 이 저장소를 클론합니다\n2. 의존성을 설치합니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 리눅스"
+      },
+      {
+        "row": 2,
+        "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+        "originContent": "### Linux",
+        "translatedContent": "1.  브라우저에 해당하는 `.json` 파일을 [`generated/linux/`](./generated/linux/)에서 다운로드합니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "AoxeYHUEHnoy4vF9IFHGU65O/N1Bcf53op0OoZImLPE=",
+        "originContent": "1.  Download the `.json` file for your browser from [`generated/linux/`](./generated/linux/).",
+        "translatedContent": "2.  다운로드한 파일을 올바른 정책 디렉토리로 이동합니다 (필요시 생성):"
+      },
+      {
+        "row": 4,
+        "rowsha": "kEdjaH/Ea/o0AAbHgo8hT6LuX4b5EShu2Af+zZVZAHQ=",
+        "originContent": "2.  Move the downloaded file to the correct policy directory (create it if needed):",
+        "translatedContent": "    *   **크롬:** `/etc/opt/chrome/policies/managed/chrome.json`"
+      },
+      {
+        "row": 5,
+        "rowsha": "tD6ofUYNqoYkndmjyz48vrCkztA67edGEnv5kKmIspc=",
+        "originContent": "    *   **Chrome:** `/etc/opt/chrome/policies/managed/chrome.json`",
+        "translatedContent": "    *   **엣지:** `/etc/opt/edge/policies/managed/edge.json`"
+      },
+      {
+        "row": 6,
+        "rowsha": "l+dw4HeGmODe+vmDvdN3a+HxW6UGsYND9eMzWe0zA+Q=",
+        "originContent": "    *   **Edge:** `/etc/opt/edge/policies/managed/edge.json`",
+        "translatedContent": "    *   **브레이브:** `/etc/brave/policies/managed/brave.json`"
+      },
+      {
+        "row": 7,
+        "rowsha": "hQlXkZICuDGyL8vXTk1JX10UgXKi34VWPxd6vo38a5I=",
+        "originContent": "    *   **Brave:** `/etc/brave/policies/managed/brave.json`",
+        "translatedContent": "    *   *참고: 이 작업을 위해 `sudo` 권한이 필요할 수 있습니다.*"
+      },
+      {
+        "row": 8,
+        "rowsha": "oNa29vXyEzMszoE8bjyEvaubhepHqZvvu/TTWoNsQZ4=",
+        "originContent": "    *   *Note: You might need `sudo` rights to do this.*",
+        "translatedContent": "3.  브라우저를 재시작하거나 `chrome://policy` (또는 `edge://policy`, `brave://policy`)로 이동하여 \"정책 다시 불러오기\"를 클릭합니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "t4YhzX7+/Wix7dYmM+bOBsgGF98rDQHbJ4mm1nhm/KI=",
+        "originContent": "3.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 사용자 정의 구성"
+      },
+      {
+        "row": 11,
+        "rowsha": "QtINMKRyzuub/FjfD60PaAIs5mZfLjhCXSPxpa6RGcg=",
+        "originContent": "## Custom Configuration",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "정책을 사용자 정의하려면:"
+      },
+      {
+        "row": 13,
+        "rowsha": "BgqOQJg7uHQ2lFKWfgP9o/OP34ToaX6G5wsGwsM0q48=",
+        "originContent": "If you want to customize the policies:",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 이 저장소를 클론합니다"
+      },
+      {
+        "row": 15,
+        "rowsha": "uQ/hpcsn+PKWI4+EsW0FFWPUwIPmR5RTRYfs5fij3hE=",
+        "originContent": "1. Clone this repository",
+        "translatedContent": "2. 의존성을 설치합니다:"
+      },
+      {
+        "row": 16,
+        "rowsha": "ksJZLSOlzyNqFrMTkpmMOmHTn1mDIM8A+zSqlEvTL7E=",
+        "originContent": "2. Install dependencies:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "   ```bash\n   uv sync\n   ```",
+    "ContentSha": "5FqRds8TwW9u9XteS39MqO/98Ew01ITPZkRgzxYoa5w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   uv sync\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "JeDuJqDgqS79aDfjLUf+pJxliVBUfNa7cF12AJ7o/1M=",
+        "originContent": "   uv sync",
+        "translatedContent": "   uv sync"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "3. Modify `policies.yaml` according to your needs\n4. Generate new configuration files:",
+    "ContentSha": "zJU2+6iLH7UkWAg2cX5S/w6MCfbhK6PMC2YD4tUjySE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. 필요에 따라 `policies.yaml` 파일을 수정하세요  \n4. 새 구성 파일을 생성하세요:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "19QOWGmZpVFysarr29JTbRJLKDh6UIV3FkXpS2K9/bM=",
+        "originContent": "3. Modify `policies.yaml` according to your needs",
+        "translatedContent": "3. 필요에 따라 `policies.yaml` 파일을 수정하세요  "
+      },
+      {
+        "row": 2,
+        "rowsha": "YgDhjZzPSPg1b65a7QedD9ZSnSo4mHm0yLBRYS0elTA=",
+        "originContent": "4. Generate new configuration files:",
+        "translatedContent": "4. 새 구성 파일을 생성하세요:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "   ```bash\n   uv run main.py\n   ```",
+    "ContentSha": "9IwpabT3YVNhdy2KQTZpZXmqCxIQTSBTWyDhwXS3Uh4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   uv run main.py\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "uwT7U3+OZiqzmlQeUqEPZgeEw3wDIUcsTeS3BrY98Sc=",
+        "originContent": "   uv run main.py",
+        "translatedContent": "   uv run main.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "5. Find the generated files in `generated/` directory\n\n\n### Uninstalling Policies\n\n**Windows:**\n1.  Navigate to the [`uninstall/windows/`](./uninstall/) directory in this repository.\n2.  Run the `.reg` file corresponding to your browser (e.g., `uninstall_chrome.reg`). This will remove the registry keys added during installation.\n3.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".\n\n**macOS:**\n1.  Go to `System Settings` > `Privacy & Security` > `Profiles`.\n2.  Select the profile associated with your browser (e.g., \"Chrome Debloat Policies\").\n3.  Click the '-' (minus) button to remove the profile.\n4.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".\n\n**Linux:**\n1.  Remove the policy JSON file from the browser-specific directory (you might need `sudo` rights):\n    *   **Chrome:** `sudo rm /etc/opt/chrome/policies/managed/chrome.json`\n    *   **Edge:** `sudo rm /etc/opt/edge/policies/managed/edge.json`\n    *   **Brave:** `sudo rm /etc/brave/policies/managed/brave.json`\n2.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".\n\n## Policy Documentation\n\n- [Chrome Enterprise Policies](https://chromeenterprise.google/policies/)\n- [Brave Policies](https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy)\n- [Microsoft Edge Policies](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies)\n\n## License\n\n[Apache 2.0](./LICENSE)\n",
+    "ContentSha": "oe750rN5gqFktEbX9JxvYk55B/5nnQ4P3aLpdj5IDR8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "5. `generated/` 디렉터리에서 생성된 파일을 찾으세요\n\n\n### 정책 제거\n\n**Windows:**\n1.  이 저장소의 [`uninstall/windows/`](./uninstall/) 디렉터리로 이동합니다.\n2.  사용 중인 브라우저에 해당하는 `.reg` 파일(예: `uninstall_chrome.reg`)을 실행합니다. 이렇게 하면 설치 중 추가된 레지스트리 키가 제거됩니다.\n3.  브라우저를 재시작하거나 `chrome://policy` (또는 `edge://policy`, `brave://policy`)로 이동해 \"Reload policies\"를 클릭합니다.\n\n**macOS:**\n1.  `시스템 설정` > `개인정보 보호 및 보안` > `프로파일`로 이동합니다.\n2.  브라우저와 관련된 프로파일을 선택합니다(예: \"Chrome Debloat Policies\").\n3.  '-' (빼기) 버튼을 클릭하여 프로파일을 제거합니다.\n4.  브라우저를 재시작하거나 `chrome://policy` (또는 `edge://policy`, `brave://policy`)로 이동해 \"Reload policies\"를 클릭합니다.\n\n**Linux:**\n1.  브라우저별 디렉터리에서 정책 JSON 파일을 제거합니다(권한이 필요할 수 있음):\n    *   **Chrome:** `sudo rm /etc/opt/chrome/policies/managed/chrome.json`\n    *   **Edge:** `sudo rm /etc/opt/edge/policies/managed/edge.json`\n    *   **Brave:** `sudo rm /etc/brave/policies/managed/brave.json`\n2.  브라우저를 재시작하거나 `chrome://policy` (또는 `edge://policy`, `brave://policy`)로 이동해 \"Reload policies\"를 클릭합니다.\n\n## 정책 문서\n\n- [Chrome Enterprise Policies](https://chromeenterprise.google/policies/)\n- [Brave Policies](https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy)\n- [Microsoft Edge Policies](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies)\n\n## 라이선스\n\n[Apache 2.0](./LICENSE)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "lA56k+C2D7t0U5SSWGu42S7ARxXsCgQb7d/S60qgtzY=",
+        "originContent": "5. Find the generated files in `generated/` directory",
+        "translatedContent": "5. `generated/` 디렉터리에서 생성된 파일을 찾으세요"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "TdwVtUQAFjhO/LPIVuMMrPdUZ0u1YRVXUtVRQRKBh6s=",
+        "originContent": "### Uninstalling Policies",
+        "translatedContent": "### 정책 제거"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "LFk+g+V2WPlICBhGWxJSPfTasEZGmHzN3su3w4PcIZo=",
+        "originContent": "**Windows:**",
+        "translatedContent": "**Windows:**"
+      },
+      {
+        "row": 7,
+        "rowsha": "qKZrDmFBeCz/oUxOU5C2R3LsBK0Rey8x0BclsyXwpQs=",
+        "originContent": "1.  Navigate to the [`uninstall/windows/`](./uninstall/) directory in this repository.",
+        "translatedContent": "1.  이 저장소의 [`uninstall/windows/`](./uninstall/) 디렉터리로 이동합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "au5QLrfsIXLtlw5u5jpX5bbvS5UrK3Vy0Vo6JvFH1do=",
+        "originContent": "2.  Run the `.reg` file corresponding to your browser (e.g., `uninstall_chrome.reg`). This will remove the registry keys added during installation.",
+        "translatedContent": "2.  사용 중인 브라우저에 해당하는 `.reg` 파일(예: `uninstall_chrome.reg`)을 실행합니다. 이렇게 하면 설치 중 추가된 레지스트리 키가 제거됩니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "t4YhzX7+/Wix7dYmM+bOBsgGF98rDQHbJ4mm1nhm/KI=",
+        "originContent": "3.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".",
+        "translatedContent": "3.  브라우저를 재시작하거나 `chrome://policy` (또는 `edge://policy`, `brave://policy`)로 이동해 \"Reload policies\"를 클릭합니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "zy+Ct/bURnPCq93aONIQWUR7NqwdRo7Pts5razCUUSg=",
+        "originContent": "**macOS:**",
+        "translatedContent": "**macOS:**"
+      },
+      {
+        "row": 12,
+        "rowsha": "aJWowdLMjO4pJ3ZFXYUpaPO6m51mOjhauaL/oqUKhvY=",
+        "originContent": "1.  Go to `System Settings` > `Privacy & Security` > `Profiles`.",
+        "translatedContent": "1.  `시스템 설정` > `개인정보 보호 및 보안` > `프로파일`로 이동합니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "Iib/gPvdKoN+FDAQXvaDeF4KT5nY4yd5dYX+FruiPTQ=",
+        "originContent": "2.  Select the profile associated with your browser (e.g., \"Chrome Debloat Policies\").",
+        "translatedContent": "2.  브라우저와 관련된 프로파일을 선택합니다(예: \"Chrome Debloat Policies\")."
+      },
+      {
+        "row": 14,
+        "rowsha": "ycKz9miHgkHq8n7pIRAve4Dnai4UUFB6lUwxkpy4620=",
+        "originContent": "3.  Click the '-' (minus) button to remove the profile.",
+        "translatedContent": "3.  '-' (빼기) 버튼을 클릭하여 프로파일을 제거합니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "4zyIM0GVeH3TFC4uEfyiPYiRa8audbB5Bufl06oLSnE=",
+        "originContent": "4.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".",
+        "translatedContent": "4.  브라우저를 재시작하거나 `chrome://policy` (또는 `edge://policy`, `brave://policy`)로 이동해 \"Reload policies\"를 클릭합니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "KoKXrEO/KXIAQMje6gNzdAM05n/GIRz6HTUwu9OZDGc=",
+        "originContent": "**Linux:**",
+        "translatedContent": "**Linux:**"
+      },
+      {
+        "row": 18,
+        "rowsha": "8/QYMg4l1aXfWOEp52ybQ1mlsZKThvCUyPdYNferLqI=",
+        "originContent": "1.  Remove the policy JSON file from the browser-specific directory (you might need `sudo` rights):",
+        "translatedContent": "1.  브라우저별 디렉터리에서 정책 JSON 파일을 제거합니다(권한이 필요할 수 있음):"
+      },
+      {
+        "row": 19,
+        "rowsha": "moE3ePBfsb+VBDjlhq9/E/w+D54mMlImMNx1OR9XlW0=",
+        "originContent": "    *   **Chrome:** `sudo rm /etc/opt/chrome/policies/managed/chrome.json`",
+        "translatedContent": "    *   **Chrome:** `sudo rm /etc/opt/chrome/policies/managed/chrome.json`"
+      },
+      {
+        "row": 20,
+        "rowsha": "YHe4RTeqSWXAf/Zx9PVO55G3XLuUtWUxn8nwK0470t0=",
+        "originContent": "    *   **Edge:** `sudo rm /etc/opt/edge/policies/managed/edge.json`",
+        "translatedContent": "    *   **Edge:** `sudo rm /etc/opt/edge/policies/managed/edge.json`"
+      },
+      {
+        "row": 21,
+        "rowsha": "d+X99L7+Qvr+C1w+25GSZYmw2NLG0OljWu0xKkwJ4no=",
+        "originContent": "    *   **Brave:** `sudo rm /etc/brave/policies/managed/brave.json`",
+        "translatedContent": "    *   **Brave:** `sudo rm /etc/brave/policies/managed/brave.json`"
+      },
+      {
+        "row": 22,
+        "rowsha": "muRIo8P//OTJfDLNEs5N0rbtBQZ4aINlwJGwXv7AZ5Y=",
+        "originContent": "2.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".",
+        "translatedContent": "2.  브라우저를 재시작하거나 `chrome://policy` (또는 `edge://policy`, `brave://policy`)로 이동해 \"Reload policies\"를 클릭합니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "ew6WkiUPbkF/DF0JwHEwHxGdNMF9wWnMyOLmJEHkjvE=",
+        "originContent": "## Policy Documentation",
+        "translatedContent": "## 정책 문서"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "XTtpvRXYohYBNwayR6KZ6HhmrSRwwDbDHLxHtyKvOL4=",
+        "originContent": "- [Chrome Enterprise Policies](https://chromeenterprise.google/policies/)",
+        "translatedContent": "- [Chrome Enterprise Policies](https://chromeenterprise.google/policies/)"
+      },
+      {
+        "row": 27,
+        "rowsha": "HaH4aPA13XCBQK/55CGQbeL90n8qtELjJLG373pjTKs=",
+        "originContent": "- [Brave Policies](https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy)",
+        "translatedContent": "- [Brave Policies](https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy)"
+      },
+      {
+        "row": 28,
+        "rowsha": "w95tSgWPO9zmlYjPLhSgcGZtpXcCaD0+lOs2FDmlR60=",
+        "originContent": "- [Microsoft Edge Policies](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies)",
+        "translatedContent": "- [Microsoft Edge Policies](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies)"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "2BrncedlidcekgtbowNT6UZRbt7uIK9duAlAs1H4Z4g=",
+        "originContent": "[Apache 2.0](./LICENSE)",
+        "translatedContent": "[Apache 2.0](./LICENSE)"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

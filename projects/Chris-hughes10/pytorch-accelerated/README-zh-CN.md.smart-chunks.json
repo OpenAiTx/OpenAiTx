@@ -1,0 +1,1114 @@
+[
+  {
+    "Id": 1,
+    "Content": "# pytorch-accelerated\n\n`pytorch-accelerated` is a lightweight library designed to accelerate the process of training PyTorch models\n by providing a minimal, but extensible training loop - encapsulated in a single `Trainer` \nobject - which is flexible enough to handle the majority of use cases, and capable of utilizing different hardware\n options with no code changes required.\n \n`pytorch-accelerated` offers a streamlined feature set, and places a huge emphasis on **simplicity** and **transparency**,\nto enable users to understand exactly what is going on under the hood, but without having to write and maintain the boilerplate themselves!\n   \nThe key features are:\n- A simple and contained, but easily customisable, training loop, which should work out of the box in straightforward cases;\n behaviour can be customised using inheritance and/or callbacks.\n- Handles device placement, mixed-precision, DeepSpeed integration, multi-GPU and distributed training with no code changes.\n- Uses pure PyTorch components, with no additional modifications or wrappers, and easily interoperates\n with other popular libraries such as [timm](https://github.com/rwightman/pytorch-image-models), \n [transformers](https://huggingface.co/transformers/) and [torchmetrics](https://torchmetrics.readthedocs.io/en/latest/).\n- A small, streamlined API ensures that there is a minimal learning curve for existing PyTorch users.\n\nSignificant effort has been taken to ensure that every part of the library - both internal and external components - is as clear and simple as possible, \nmaking it easy to customise, debug and understand exactly what is going on behind the scenes at each step; most of the \nbehaviour of the trainer is contained in a single class! \nIn the spirit of Python, nothing is hidden and everything is accessible.\n\n`pytorch-accelerated` is proudly and transparently built on top of \n[Hugging Face Accelerate](https://github.com/huggingface/accelerate), which is responsible for the \nmovement of data between devices and launching of training configurations. When customizing the trainer, or launching\ntraining, users are encouraged to consult the [Accelerate documentation](https://huggingface.co/docs/accelerate/) \nto understand all available options; Accelerate provides convenient functions for operations such gathering tensors \nand gradient clipping, usage of which can be seen in the `pytorch-accelerated` \n[examples](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples) folder! \n\nTo learn more about the motivations behind this library, along with a detailed getting started guide, check out [this blog post](https://medium.com/@chris.p.hughes10/introducing-pytorch-accelerated-6ba99530608c?source=friends_link&sk=868c2d2ec5229fdea42877c0bf82b968).\n\n## Installation\n\n`pytorch-accelerated` can be installed from pip using the following command:",
+    "ContentSha": "as+KCUJILEEASTKArGeKbFP8DPUNjte7lbrdJ8Drbek=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# pytorch-accelerated\n\n`pytorch-accelerated` 是一个轻量级库，旨在通过提供一个简洁但可扩展的训练循环来加速 PyTorch 模型的训练过程——封装在单个 `Trainer` 对象中——该对象足够灵活，可处理大多数用例，并且能够利用不同的硬件选项，无需更改代码。\n\n`pytorch-accelerated` 提供了精简的功能集，并非常强调 **简单性** 和 **透明性**，使用户能够准确了解底层发生的情况，而无需自己编写和维护样板代码！\n\n主要特性包括：\n- 一个简单且封闭，但易于定制的训练循环，在简单场景下开箱即用；行为可以通过继承和/或回调进行定制。\n- 处理设备放置、混合精度、DeepSpeed 集成、多 GPU 及分布式训练，无需更改代码。\n- 使用纯 PyTorch 组件，无需额外修改或包装，并且能轻松与其他流行库如 [timm](https://github.com/rwightman/pytorch-image-models)、[transformers](https://huggingface.co/transformers/) 和 [torchmetrics](https://torchmetrics.readthedocs.io/en/latest/) 互操作。\n- 小巧精简的 API 确保现有 PyTorch 用户的学习曲线极低。\n\n投入了大量精力确保库的每个部分——包括内部和外部组件——都尽可能清晰简单，便于定制、调试，并准确理解每一步背后的实际操作；训练器的大部分行为都包含在一个类中！\n秉承 Python 精神，所有内容都不隐藏，全部可访问。\n\n`pytorch-accelerated` 自豪且透明地构建在 [Hugging Face Accelerate](https://github.com/huggingface/accelerate) 之上，后者负责设备间数据移动和训练配置的启动。在定制训练器或启动训练时，建议用户查阅 [Accelerate 文档](https://huggingface.co/docs/accelerate/) 以了解所有可用选项；Accelerate 提供了便捷的函数用于如张量收集和梯度裁剪等操作，其使用示例可见于 `pytorch-accelerated` 的 [examples](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples) 文件夹！\n\n想了解更多关于该库的动机及详细入门指南，请查看[这篇博客文章](https://medium.com/@chris.p.hughes10/introducing-pytorch-accelerated-6ba99530608c?source=friends_link&sk=868c2d2ec5229fdea42877c0bf82b968)。\n\n## 安装\n\n`pytorch-accelerated` 可通过 pip 使用以下命令安装：\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ovo2hAoRL04j7OWgQniaVNvDKJsuOI0WYj/jcn//3TY=",
+        "originContent": "# pytorch-accelerated",
+        "translatedContent": "# pytorch-accelerated"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "V1+fC0KmDrHhr28o2TvxNMFheNhgFmzJ5L1oPXfAV4I=",
+        "originContent": "`pytorch-accelerated` is a lightweight library designed to accelerate the process of training PyTorch models",
+        "translatedContent": "`pytorch-accelerated` 是一个轻量级库，旨在通过提供一个简洁但可扩展的训练循环来加速 PyTorch 模型的训练过程——封装在单个 `Trainer` 对象中——该对象足够灵活，可处理大多数用例，并且能够利用不同的硬件选项，无需更改代码。"
+      },
+      {
+        "row": 4,
+        "rowsha": "eT4onK20NEf4wVfWei3oCVbTPWbTamGt+TMt4kSmW38=",
+        "originContent": " by providing a minimal, but extensible training loop - encapsulated in a single `Trainer` ",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "MfIE3rH27rKv8Xu+nGR2+60NMM3iPDEp+aDqstGOyNg=",
+        "originContent": "object - which is flexible enough to handle the majority of use cases, and capable of utilizing different hardware",
+        "translatedContent": "`pytorch-accelerated` 提供了精简的功能集，并非常强调 **简单性** 和 **透明性**，使用户能够准确了解底层发生的情况，而无需自己编写和维护样板代码！"
+      },
+      {
+        "row": 6,
+        "rowsha": "3Nk33pJiSpyEKwlcABLxbnmpZ8H+jIUVasYZRACbQ8I=",
+        "originContent": " options with no code changes required.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": "主要特性包括："
+      },
+      {
+        "row": 8,
+        "rowsha": "MhFfYMQIm+m+qz49IEBvjf0M3uBe/lPgf4qBzThbR6o=",
+        "originContent": "`pytorch-accelerated` offers a streamlined feature set, and places a huge emphasis on **simplicity** and **transparency**,",
+        "translatedContent": "- 一个简单且封闭，但易于定制的训练循环，在简单场景下开箱即用；行为可以通过继承和/或回调进行定制。"
+      },
+      {
+        "row": 9,
+        "rowsha": "ssbGgmAymNRugCm8+IzwVJuAxPQfG5XBYYvLbi2qPy4=",
+        "originContent": "to enable users to understand exactly what is going on under the hood, but without having to write and maintain the boilerplate themselves!",
+        "translatedContent": "- 处理设备放置、混合精度、DeepSpeed 集成、多 GPU 及分布式训练，无需更改代码。"
+      },
+      {
+        "row": 10,
+        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+        "originContent": "   ",
+        "translatedContent": "- 使用纯 PyTorch 组件，无需额外修改或包装，并且能轻松与其他流行库如 [timm](https://github.com/rwightman/pytorch-image-models)、[transformers](https://huggingface.co/transformers/) 和 [torchmetrics](https://torchmetrics.readthedocs.io/en/latest/) 互操作。"
+      },
+      {
+        "row": 11,
+        "rowsha": "1y6u9cnEFXjEhfkhf1X3ko1hgLUQJF757V+ghWVCnog=",
+        "originContent": "The key features are:",
+        "translatedContent": "- 小巧精简的 API 确保现有 PyTorch 用户的学习曲线极低。"
+      },
+      {
+        "row": 12,
+        "rowsha": "IPLfpwj4ziOBALCB6gmlvasLPprBg6FSDZYvqU38l5I=",
+        "originContent": "- A simple and contained, but easily customisable, training loop, which should work out of the box in straightforward cases;",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "f2KREYooaFiTMUE05+AkmiwAL5/l2dp0432IMwxUDJI=",
+        "originContent": " behaviour can be customised using inheritance and/or callbacks.",
+        "translatedContent": "投入了大量精力确保库的每个部分——包括内部和外部组件——都尽可能清晰简单，便于定制、调试，并准确理解每一步背后的实际操作；训练器的大部分行为都包含在一个类中！"
+      },
+      {
+        "row": 14,
+        "rowsha": "2Z/JXmfKSpjCDzHZj24T+tI43Z0cphdj6HhL7mg0hMw=",
+        "originContent": "- Handles device placement, mixed-precision, DeepSpeed integration, multi-GPU and distributed training with no code changes.",
+        "translatedContent": "秉承 Python 精神，所有内容都不隐藏，全部可访问。"
+      },
+      {
+        "row": 15,
+        "rowsha": "DVrYrWOy6ErnqrdPWRadTk3BxAFgn1/mJb7L+bJBzuo=",
+        "originContent": "- Uses pure PyTorch components, with no additional modifications or wrappers, and easily interoperates",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "owB5chi1658CL4G41Ngm7UZjpwjddDULbF1xOMUSB+k=",
+        "originContent": " with other popular libraries such as [timm](https://github.com/rwightman/pytorch-image-models), ",
+        "translatedContent": "`pytorch-accelerated` 自豪且透明地构建在 [Hugging Face Accelerate](https://github.com/huggingface/accelerate) 之上，后者负责设备间数据移动和训练配置的启动。在定制训练器或启动训练时，建议用户查阅 [Accelerate 文档](https://huggingface.co/docs/accelerate/) 以了解所有可用选项；Accelerate 提供了便捷的函数用于如张量收集和梯度裁剪等操作，其使用示例可见于 `pytorch-accelerated` 的 [examples](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples) 文件夹！"
+      },
+      {
+        "row": 17,
+        "rowsha": "5KvCb1FfhuvudzyMJBV7DnEnRyyfbaE/ab4o84YSmY8=",
+        "originContent": " [transformers](https://huggingface.co/transformers/) and [torchmetrics](https://torchmetrics.readthedocs.io/en/latest/).",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "Hx8VUAJX5ZJfKR5dwC5uJwx+VSCFrsmz1nIAD8RGig0=",
+        "originContent": "- A small, streamlined API ensures that there is a minimal learning curve for existing PyTorch users.",
+        "translatedContent": "想了解更多关于该库的动机及详细入门指南，请查看[这篇博客文章](https://medium.com/@chris.p.hughes10/introducing-pytorch-accelerated-6ba99530608c?source=friends_link&sk=868c2d2ec5229fdea42877c0bf82b968)。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "0l19uHsKgEjT+pCdrxMKHYSx44lrp9AUfWYedNtkYJ4=",
+        "originContent": "Significant effort has been taken to ensure that every part of the library - both internal and external components - is as clear and simple as possible, ",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 21,
+        "rowsha": "tQ6xs3eWRJcAugV9IMVI9ZFiTHzm8ldxy/FlFZi599Q=",
+        "originContent": "making it easy to customise, debug and understand exactly what is going on behind the scenes at each step; most of the ",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "U8Lk3fDthAY3IGsatV12CyVScv+fFq1/4/V8MOP4fnU=",
+        "originContent": "behaviour of the trainer is contained in a single class! ",
+        "translatedContent": "`pytorch-accelerated` 可通过 pip 使用以下命令安装："
+      },
+      {
+        "row": 23,
+        "rowsha": "/whT4AQ96kipZjAixx9mjEXUBxoDqhpzoiVqIj0Xc9A=",
+        "originContent": "In the spirit of Python, nothing is hidden and everything is accessible.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "+Ma+mBydO/gjIEj0ghgpfwb3C7rwk53ieeVaKdYVm0Y=",
+        "originContent": "`pytorch-accelerated` is proudly and transparently built on top of ",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "8RTBfFcoxZcsTCebatDy+K8dea2HJ4Dnr3tUlZJm7sc=",
+        "originContent": "[Hugging Face Accelerate](https://github.com/huggingface/accelerate), which is responsible for the ",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "KWrzvit2RSs9e5cHQ9Qx7INZE7vbHBmXDoawmsK7iaI=",
+        "originContent": "movement of data between devices and launching of training configurations. When customizing the trainer, or launching",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "QWTWCntKbU2aiDIRaMLSqJTWlVhjDLRrc78xXyC9vTk=",
+        "originContent": "training, users are encouraged to consult the [Accelerate documentation](https://huggingface.co/docs/accelerate/) ",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "0Ke2gK6hpdOZQgkCoikqWYJuC0qf6bicptb8LM4REWI=",
+        "originContent": "to understand all available options; Accelerate provides convenient functions for operations such gathering tensors ",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "Z+jDiWJvnT7/mxCgM+w8fqEp8rYgk89xmk3yzecuaHQ=",
+        "originContent": "and gradient clipping, usage of which can be seen in the `pytorch-accelerated` ",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "5EzPSPzfhWTdL39BvPRnvvqvzzeF+wMYOCUzaQE11s8=",
+        "originContent": "[examples](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples) folder! ",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "o1hUUqvNT5RQBJ3IouYH941prDc7w09T8cYYT4AqFvs=",
+        "originContent": "To learn more about the motivations behind this library, along with a detailed getting started guide, check out [this blog post](https://medium.com/@chris.p.hughes10/introducing-pytorch-accelerated-6ba99530608c?source=friends_link&sk=868c2d2ec5229fdea42877c0bf82b968).",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "mrQka787Ih5R3WLU0/Ljk4A51DEgUo8QGfvkUZmCvhY=",
+        "originContent": "`pytorch-accelerated` can be installed from pip using the following command:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\npip install pytorch-accelerated\n```",
+    "ContentSha": "ZnNgJ/nz2P77SvZTYBc33IuNzMJd0jANMQtHeL5bJJI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npip install pytorch-accelerated\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "n9YT+tx34gJP9kbDZBeKSRQHMp/TkEKWxss4F2HJVjE=",
+        "originContent": "pip install pytorch-accelerated",
+        "translatedContent": "pip install pytorch-accelerated"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nTo make the package as slim as possible, the packages required to run the examples are not included by default. To include these packages, you can use the following command:",
+    "ContentSha": "sAgNNj8U2N8S4Z0z+JjmBI/VRyEdyr9gxmq/7O2h15s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "为了使软件包尽可能精简，运行示例所需的软件包默认不包括在内。要包含这些软件包，您可以使用以下命令：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "为了使软件包尽可能精简，运行示例所需的软件包默认不包括在内。要包含这些软件包，您可以使用以下命令："
+      },
+      {
+        "row": 2,
+        "rowsha": "jO+jn3Bc7zlinK90TN1y3l5Kv/22Nl27rq0JidUj+iw=",
+        "originContent": "To make the package as slim as possible, the packages required to run the examples are not included by default. To include these packages, you can use the following command:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\npip install pytorch-accelerated[examples]\n```",
+    "ContentSha": "OKZf7EaXdDdphOru+mZj1vm/34POonzhRRmcH3RFD+k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npip install pytorch-accelerated[examples]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "bGOlVS7OeFa/j13Zn73L9LxT2AXQ3Nu4x4zV48rVRns=",
+        "originContent": "pip install pytorch-accelerated[examples]",
+        "translatedContent": "pip install pytorch-accelerated[examples]"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Quickstart\n\nTo get started, simply import and use the pytorch-accelerated `Trainer` ,as demonstrated in the following snippet,\nand then launch training using the \n[accelerate CLI](https://huggingface.co/docs/accelerate/quicktour.html#launching-your-distributed-script)\ndescribed below.\n",
+    "ContentSha": "EvwZFNiwRJaSw5NDTn+12KIeTQwtrpp16PegIEAzmqA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 快速开始\n\n要开始，只需导入并使用pytorch加速的`Trainer`，如下面的代码片段所示，\n然后使用下面描述的\n[accelerate CLI](https://huggingface.co/docs/accelerate/quicktour.html#launching-your-distributed-script)\n启动训练。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "669wyUjie7v+j/aS3COPBDwvFiQ8FK2vMv9hGy+oUHE=",
+        "originContent": "## Quickstart",
+        "translatedContent": "## 快速开始"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "FXPPA/46Bk4bxc4dRSnZYeU4rWOCAinWJUAktx9a6JU=",
+        "originContent": "To get started, simply import and use the pytorch-accelerated `Trainer` ,as demonstrated in the following snippet,",
+        "translatedContent": "要开始，只需导入并使用pytorch加速的`Trainer`，如下面的代码片段所示，"
+      },
+      {
+        "row": 5,
+        "rowsha": "Y8Hh6KYCZbP6764NSIFdFwUySS0YzA6bg/f0xQqHFcA=",
+        "originContent": "and then launch training using the ",
+        "translatedContent": "然后使用下面描述的"
+      },
+      {
+        "row": 6,
+        "rowsha": "meziQOx0xrAyOfxbYf1+8JhLC3JSPPOZ7BflmmC/vzc=",
+        "originContent": "[accelerate CLI](https://huggingface.co/docs/accelerate/quicktour.html#launching-your-distributed-script)",
+        "translatedContent": "[accelerate CLI](https://huggingface.co/docs/accelerate/quicktour.html#launching-your-distributed-script)"
+      },
+      {
+        "row": 7,
+        "rowsha": "CHmwY8gzl2qJhRKDUSCh7WwFCtJVygr9RU8fjBGeFO4=",
+        "originContent": "described below.",
+        "translatedContent": "启动训练。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```python\n# examples/core/train_mnist.py\nimport os\n\nfrom torch import nn, optim\nfrom torch.utils.data import random_split\nfrom torchvision import transforms\nfrom torchvision.datasets import MNIST\n\nfrom pytorch_accelerated import Trainer\n\nclass MNISTModel(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.main = nn.Sequential(\n            nn.Linear(in_features=784, out_features=128),\n            nn.ReLU(),\n            nn.Linear(in_features=128, out_features=64),\n            nn.ReLU(),\n            nn.Linear(in_features=64, out_features=10),\n        )\n\n    def forward(self, input):\n        return self.main(input.view(input.shape[0], -1))\n\ndef main():\n    dataset = MNIST(os.getcwd(), download=True, transform=transforms.ToTensor())\n    train_dataset, validation_dataset, test_dataset = random_split(dataset, [50000, 5000, 5000])\n    model = MNISTModel()\n    optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)\n    loss_func = nn.CrossEntropyLoss()\n\n    trainer = Trainer(\n            model,\n            loss_func=loss_func,\n            optimizer=optimizer,\n    )\n\n    trainer.train(\n        train_dataset=train_dataset,\n        eval_dataset=validation_dataset,\n        num_epochs=8,\n        per_device_batch_size=32,\n    )\n\n    trainer.evaluate(\n        dataset=test_dataset,\n        per_device_batch_size=64,\n    )\n    \nif __name__ == \"__main__\":\n    main()\n```",
+    "ContentSha": "bv7OiKBzLLU70Q4tGxwc/P7bYmTXRA02BosGXYu8oO4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\n# examples/core/train_mnist.py\nimport os\n\nfrom torch import nn, optim\nfrom torch.utils.data import random_split\nfrom torchvision import transforms\nfrom torchvision.datasets import MNIST\n\nfrom pytorch_accelerated import Trainer\n\nclass MNISTModel(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.main = nn.Sequential(\n            nn.Linear(in_features=784, out_features=128),\n            nn.ReLU(),\n            nn.Linear(in_features=128, out_features=64),\n            nn.ReLU(),\n            nn.Linear(in_features=64, out_features=10),\n        )\n\n    def forward(self, input):\n        return self.main(input.view(input.shape[0], -1))\n\ndef main():\n    dataset = MNIST(os.getcwd(), download=True, transform=transforms.ToTensor())\n    train_dataset, validation_dataset, test_dataset = random_split(dataset, [50000, 5000, 5000])\n    model = MNISTModel()\n    optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)\n    loss_func = nn.CrossEntropyLoss()\n\n    trainer = Trainer(\n            model,\n            loss_func=loss_func,\n            optimizer=optimizer,\n    )\n\n    trainer.train(\n        train_dataset=train_dataset,\n        eval_dataset=validation_dataset,\n        num_epochs=8,\n        per_device_batch_size=32,\n    )\n\n    trainer.evaluate(\n        dataset=test_dataset,\n        per_device_batch_size=64,\n    )\n    \nif __name__ == \"__main__\":\n    main()\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "6Lw7Esky5ZWWb3SgXsHozEZGNvsm6B7mZ04cawU1GOQ=",
+        "originContent": "# examples/core/train_mnist.py",
+        "translatedContent": "# examples/core/train_mnist.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "3iq63oMsjjUKG9yYz82x4gKsR0nF/FGkqXDUFza231w=",
+        "originContent": "import os",
+        "translatedContent": "import os"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "VVRMw0U+wdxCOG6J7aj+nIPMi9HI5n7OvxNioBzBr2w=",
+        "originContent": "from torch import nn, optim",
+        "translatedContent": "from torch import nn, optim"
+      },
+      {
+        "row": 6,
+        "rowsha": "zrVwVzixOtUXnSjJ6b442wNna0P9zdxdG3vx7bJTCsY=",
+        "originContent": "from torch.utils.data import random_split",
+        "translatedContent": "from torch.utils.data import random_split"
+      },
+      {
+        "row": 7,
+        "rowsha": "uTsuYkTWESinayd3+fhdu34YsgDF1KbAU8TH9rf+vAM=",
+        "originContent": "from torchvision import transforms",
+        "translatedContent": "from torchvision import transforms"
+      },
+      {
+        "row": 8,
+        "rowsha": "7INuIL3yujCM9tDB8g3iYzZa9liyrLohIQByWUUBnvU=",
+        "originContent": "from torchvision.datasets import MNIST",
+        "translatedContent": "from torchvision.datasets import MNIST"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "c9BOKaCUtG7TAu8lb7qHouuARSP4kWqX1HFOZOvnGJg=",
+        "originContent": "from pytorch_accelerated import Trainer",
+        "translatedContent": "from pytorch_accelerated import Trainer"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "TCplszS8IQu1MKAdh6bIiUMFhDbMXRLJzftFGdwsUcM=",
+        "originContent": "class MNISTModel(nn.Module):",
+        "translatedContent": "class MNISTModel(nn.Module):"
+      },
+      {
+        "row": 13,
+        "rowsha": "XO9tQbyupXsQiyohbv1fnjEpnD3g/5FyxWupvijHR88=",
+        "originContent": "    def __init__(self):",
+        "translatedContent": "    def __init__(self):"
+      },
+      {
+        "row": 14,
+        "rowsha": "87OsgbX8Y/JUlpR4Nt8dZBP0U+Jl5MSmreC72sir844=",
+        "originContent": "        super().__init__()",
+        "translatedContent": "        super().__init__()"
+      },
+      {
+        "row": 15,
+        "rowsha": "7o9X5cERiIVZj2uKZ+dTFrzZr9iQU2CvrXLu2BIA/Qs=",
+        "originContent": "        self.main = nn.Sequential(",
+        "translatedContent": "        self.main = nn.Sequential("
+      },
+      {
+        "row": 16,
+        "rowsha": "tb13PAVg1lexl4Zmha8mqADHVIwsgC1+wCEVbzmzejU=",
+        "originContent": "            nn.Linear(in_features=784, out_features=128),",
+        "translatedContent": "            nn.Linear(in_features=784, out_features=128),"
+      },
+      {
+        "row": 17,
+        "rowsha": "YEa3BFHxn20hWW0NtX9788tPoe6I0yZEuc0eWvFjl0E=",
+        "originContent": "            nn.ReLU(),",
+        "translatedContent": "            nn.ReLU(),"
+      },
+      {
+        "row": 18,
+        "rowsha": "w6ksCeOwg0ml6j1g2tFXWDwdUm9/DRjn2eHzmpd/JBA=",
+        "originContent": "            nn.Linear(in_features=128, out_features=64),",
+        "translatedContent": "            nn.Linear(in_features=128, out_features=64),"
+      },
+      {
+        "row": 19,
+        "rowsha": "YEa3BFHxn20hWW0NtX9788tPoe6I0yZEuc0eWvFjl0E=",
+        "originContent": "            nn.ReLU(),",
+        "translatedContent": "            nn.ReLU(),"
+      },
+      {
+        "row": 20,
+        "rowsha": "uE7JZmlqLu6Rlicz0+aBObcwUZM4EFEMdEBSjUjKMV0=",
+        "originContent": "            nn.Linear(in_features=64, out_features=10),",
+        "translatedContent": "            nn.Linear(in_features=64, out_features=10),"
+      },
+      {
+        "row": 21,
+        "rowsha": "qzjo1midRSsRUHKP4UDpYDctWoenaIz1GwPwmWYIuEI=",
+        "originContent": "        )",
+        "translatedContent": "        )"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "ZdmO8aL6I/PA3NS1lLqqz4AwwHrpHDG/k1pVaN435y8=",
+        "originContent": "    def forward(self, input):",
+        "translatedContent": "    def forward(self, input):"
+      },
+      {
+        "row": 24,
+        "rowsha": "F7Yn1qevP9d5auyLozHErjoCagDPp5VEQgf6cbpYmzs=",
+        "originContent": "        return self.main(input.view(input.shape[0], -1))",
+        "translatedContent": "        return self.main(input.view(input.shape[0], -1))"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "LExbDr7T3ptXSjdXkDVx6/DcrsZ2T5+NJFzgdAphkyE=",
+        "originContent": "def main():",
+        "translatedContent": "def main():"
+      },
+      {
+        "row": 27,
+        "rowsha": "O9mazDpiFk6FCpshVmS7Xm1/g0u8DynShzMZh1x5x3w=",
+        "originContent": "    dataset = MNIST(os.getcwd(), download=True, transform=transforms.ToTensor())",
+        "translatedContent": "    dataset = MNIST(os.getcwd(), download=True, transform=transforms.ToTensor())"
+      },
+      {
+        "row": 28,
+        "rowsha": "qokfG3qhZ8wtCqICyp1vDxn++UZEb2LMr7tjX7PuIL4=",
+        "originContent": "    train_dataset, validation_dataset, test_dataset = random_split(dataset, [50000, 5000, 5000])",
+        "translatedContent": "    train_dataset, validation_dataset, test_dataset = random_split(dataset, [50000, 5000, 5000])"
+      },
+      {
+        "row": 29,
+        "rowsha": "4xsVY+033E8x3z6qXFEcC/VVDm95qPQjjz/JNorjX1U=",
+        "originContent": "    model = MNISTModel()",
+        "translatedContent": "    model = MNISTModel()"
+      },
+      {
+        "row": 30,
+        "rowsha": "9CeHyy8Pkc5OQhkboql8k4OQQw/zRV6aYYrmOSmF4sA=",
+        "originContent": "    optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)",
+        "translatedContent": "    optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)"
+      },
+      {
+        "row": 31,
+        "rowsha": "Mf7P21H7u9um2Ey34qH7jZV8D2ggZmYPQPUIQcNBnk8=",
+        "originContent": "    loss_func = nn.CrossEntropyLoss()",
+        "translatedContent": "    loss_func = nn.CrossEntropyLoss()"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "3DpZUgmouKHd1QY52V7Nj4M/OMKLL+Qmj+Ew/OzRMCw=",
+        "originContent": "    trainer = Trainer(",
+        "translatedContent": "    trainer = Trainer("
+      },
+      {
+        "row": 34,
+        "rowsha": "eOrcDzVjSEcszbdlNodWX0otjvsuDST0nRXLP5iOKT4=",
+        "originContent": "            model,",
+        "translatedContent": "            model,"
+      },
+      {
+        "row": 35,
+        "rowsha": "1ijUagD2u1s5LT6SdGl4sn9prmjW+MY9oUnHl3HhyXo=",
+        "originContent": "            loss_func=loss_func,",
+        "translatedContent": "            loss_func=loss_func,"
+      },
+      {
+        "row": 36,
+        "rowsha": "+ikxxKjdxvKZsU5z9niqH7z646WQYq6gWCJMhTDGFHY=",
+        "originContent": "            optimizer=optimizer,",
+        "translatedContent": "            optimizer=optimizer,"
+      },
+      {
+        "row": 37,
+        "rowsha": "/xlEZ1LDPBgeqSMqeVvv8VvD/u3SpYCHs/XDPuti6ZI=",
+        "originContent": "    )",
+        "translatedContent": "    )"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "rrWte8zpQWfnxFoKyNfupqhpVFlS9GZnFs1uVOcwjMQ=",
+        "originContent": "    trainer.train(",
+        "translatedContent": "    trainer.train("
+      },
+      {
+        "row": 40,
+        "rowsha": "G8XyyXp85rPwJIDUI53Q2wOkaOyh/8LMBfpZ2oPdTt0=",
+        "originContent": "        train_dataset=train_dataset,",
+        "translatedContent": "        train_dataset=train_dataset,"
+      },
+      {
+        "row": 41,
+        "rowsha": "pFV8OplvhOKM20VUYcG0sPuxWVHl2GaUjkShQIL9Ivk=",
+        "originContent": "        eval_dataset=validation_dataset,",
+        "translatedContent": "        eval_dataset=validation_dataset,"
+      },
+      {
+        "row": 42,
+        "rowsha": "uwmUsoBYXfG4P5gCRpsw2lfOJVGZFpQSVJ+GGqaummo=",
+        "originContent": "        num_epochs=8,",
+        "translatedContent": "        num_epochs=8,"
+      },
+      {
+        "row": 43,
+        "rowsha": "rVJ0Is/AwSG57joCSTwo9NXX+hFsjILe3Q/3fyDunAs=",
+        "originContent": "        per_device_batch_size=32,",
+        "translatedContent": "        per_device_batch_size=32,"
+      },
+      {
+        "row": 44,
+        "rowsha": "/xlEZ1LDPBgeqSMqeVvv8VvD/u3SpYCHs/XDPuti6ZI=",
+        "originContent": "    )",
+        "translatedContent": "    )"
+      },
+      {
+        "row": 45,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 46,
+        "rowsha": "4UzitdWVtJkSvLk9bAxJyfK14yGHWU7AeXgJM3O+fsM=",
+        "originContent": "    trainer.evaluate(",
+        "translatedContent": "    trainer.evaluate("
+      },
+      {
+        "row": 47,
+        "rowsha": "oeQPEfYNmjILCMbrJe7qu2gtD4xKVj12V8IgefNb2AA=",
+        "originContent": "        dataset=test_dataset,",
+        "translatedContent": "        dataset=test_dataset,"
+      },
+      {
+        "row": 48,
+        "rowsha": "bPxSakvj1WBCWOKsiwkiE0jnzWJ4DFx3Gm8kcqlbk8g=",
+        "originContent": "        per_device_batch_size=64,",
+        "translatedContent": "        per_device_batch_size=64,"
+      },
+      {
+        "row": 49,
+        "rowsha": "/xlEZ1LDPBgeqSMqeVvv8VvD/u3SpYCHs/XDPuti6ZI=",
+        "originContent": "    )",
+        "translatedContent": "    )"
+      },
+      {
+        "row": 50,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 51,
+        "rowsha": "NBKAnBz0LXNDBHy6akl1hPpsRoc34u8/xEPhEhFEfqU=",
+        "originContent": "if __name__ == \"__main__\":",
+        "translatedContent": "if __name__ == \"__main__\":"
+      },
+      {
+        "row": 52,
+        "rowsha": "qqFohMOyLy3uy+SE+Rv6l29e+EuzX1qpWQYKozrr42c=",
+        "originContent": "    main()",
+        "translatedContent": "    main()"
+      },
+      {
+        "row": 53,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nTo launch training using the [accelerate CLI](https://huggingface.co/docs/accelerate/quicktour.html#launching-your-distributed-script)\n, on your machine(s), run:\n\n` accelerate config --config_file accelerate_config.yaml`\n\nand answer the questions asked. This will generate a config file that will be used to properly set the default options when doing\n\n`accelerate launch --config_file accelerate_config.yaml train.py [--training-args]`\n\n*Note*: Using the [accelerate CLI](https://huggingface.co/docs/accelerate/quicktour.html#launching-your-distributed-script) is completely optional, training can also be launched in the usual way using:\n\n`python train.py` / `python -m torch.distributed ...`\n\ndepending on your infrastructure configuration, for users who would like to maintain a more fine-grained control \nover the launch command.\n\nMore complex training examples can be seen in the examples folder \n[here](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples). \n\nAlternatively, if you would rather understand the core concepts first, this can be found in the [documentation](https://pytorch-accelerated.readthedocs.io/en/latest/).\n\n## Usage\n\n### Who is pytorch-accelerated aimed at?\n\n- Users that are familiar with PyTorch but would like to avoid having to write the common training loop boilerplate\nto focus on the interesting parts of the training loop.\n- Users who like, and are comfortable with, selecting and creating their own models, loss functions, optimizers and datasets.\n- Users who value a simple and streamlined feature set, where the behaviour is easy to debug, understand, and reason about!\n\n### When shouldn't I use pytorch-accelerated?\n\n- If you are looking for an end-to-end solution, encompassing everything from loading data to inference,\n  which helps you to select a model, optimizer or loss function, you would probably be better suited to\n  [fastai](https://github.com/fastai/fastai). `pytorch-accelerated` focuses only on the training process, with all other\n  concerns being left to the responsibility of the user.\n- If you would like to write the entire training loop yourself, just without all of the device management headaches, \nyou would probably be best suited to using [Accelerate](https://github.com/huggingface/accelerate) directly! Whilst it\nis possible to customize every part of the `Trainer`, the training loop is fundamentally broken up into a number of ",
+    "ContentSha": "bnsMOVn0+travAMOp2mypFimkbJLHUhHrIn6M8VVL1Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "要使用[accelerate CLI](https://huggingface.co/docs/accelerate/quicktour.html#launching-your-distributed-script)启动训练，\n在你的机器上运行：\n\n` accelerate config --config_file accelerate_config.yaml`\n\n并回答所提出的问题。这将生成一个配置文件，用于在执行\n\n`accelerate launch --config_file accelerate_config.yaml train.py [--training-args]`\n\n时正确设置默认选项。\n\n*注意*：使用[accelerate CLI](https://huggingface.co/docs/accelerate/quicktour.html#launching-your-distributed-script)是完全可选的，训练也可以通过以下常规方式启动：\n\n`python train.py` / `python -m torch.distributed ...`\n\n这取决于你的基础设施配置，适合希望对启动命令进行更细粒度控制的用户。\n\n更复杂的训练示例可以在示例文件夹中查看\n[这里](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples)。\n\n或者，如果你更愿意先了解核心概念，可以在[文档](https://pytorch-accelerated.readthedocs.io/en/latest/)中找到。\n\n## 使用说明\n\n### pytorch-accelerated的目标用户是谁？\n\n- 熟悉PyTorch但希望避免编写常见训练循环样板代码，以便专注于训练循环有趣部分的用户。\n- 喜欢并且擅长选择和创建自己的模型、损失函数、优化器和数据集的用户。\n- 重视简单且精简的功能集，行为易于调试、理解和推理的用户！\n\n### 什么时候不应该使用pytorch-accelerated？\n\n- 如果你正在寻找一套端到端的解决方案，涵盖从数据加载到推理的所有环节，\n  并帮助你选择模型、优化器或损失函数，你可能更适合使用\n  [fastai](https://github.com/fastai/fastai)。`pytorch-accelerated`仅专注于训练过程，其他所有\n  方面由用户自行负责。\n- 如果你想自己编写整个训练循环，只是不想处理所有设备管理的头疼问题，\n你可能更适合直接使用[Accelerate](https://github.com/huggingface/accelerate)！虽然可以自定义`Trainer`的每个部分，训练循环本质上被拆分为多个\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "要使用[accelerate CLI](https://huggingface.co/docs/accelerate/quicktour.html#launching-your-distributed-script)启动训练，"
+      },
+      {
+        "row": 2,
+        "rowsha": "cBgV8jtDmI0lZaei+kkqyLUsw3vtnIEkepe1DhzI3CQ=",
+        "originContent": "To launch training using the [accelerate CLI](https://huggingface.co/docs/accelerate/quicktour.html#launching-your-distributed-script)",
+        "translatedContent": "在你的机器上运行："
+      },
+      {
+        "row": 3,
+        "rowsha": "//52t2X0/GAffv8p/YFuqE7a2iTaK+OWpHHCwcPj9Ew=",
+        "originContent": ", on your machine(s), run:",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "` accelerate config --config_file accelerate_config.yaml`"
+      },
+      {
+        "row": 5,
+        "rowsha": "xMyghhwD22DyEaKLaZPxFG/t4WxoW2gvYEBeZBhGUrA=",
+        "originContent": "` accelerate config --config_file accelerate_config.yaml`",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "并回答所提出的问题。这将生成一个配置文件，用于在执行"
+      },
+      {
+        "row": 7,
+        "rowsha": "D9fDhdXJ3c6ftV3OvPfvUU0Ak3jk5qNcwZLKr3vetRg=",
+        "originContent": "and answer the questions asked. This will generate a config file that will be used to properly set the default options when doing",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`accelerate launch --config_file accelerate_config.yaml train.py [--training-args]`"
+      },
+      {
+        "row": 9,
+        "rowsha": "fV5mu11o7Wk3nuxzPVlj3nSAllOdNx3wFHQzDdB8ZqA=",
+        "originContent": "`accelerate launch --config_file accelerate_config.yaml train.py [--training-args]`",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "时正确设置默认选项。"
+      },
+      {
+        "row": 11,
+        "rowsha": "9anQv8Osaq89VZlXYU+EjmeIdkTO+yvgeqdM0KT6ox4=",
+        "originContent": "*Note*: Using the [accelerate CLI](https://huggingface.co/docs/accelerate/quicktour.html#launching-your-distributed-script) is completely optional, training can also be launched in the usual way using:",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*注意*：使用[accelerate CLI](https://huggingface.co/docs/accelerate/quicktour.html#launching-your-distributed-script)是完全可选的，训练也可以通过以下常规方式启动："
+      },
+      {
+        "row": 13,
+        "rowsha": "VBQdIxpImJyGWnLSCbbE/Jdj1s3vJEw0INjB2E2YipY=",
+        "originContent": "`python train.py` / `python -m torch.distributed ...`",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`python train.py` / `python -m torch.distributed ...`"
+      },
+      {
+        "row": 15,
+        "rowsha": "TSzcjQ4i7FPzeuRdnlAgiLNABDZIr+tzc8N6plOCln4=",
+        "originContent": "depending on your infrastructure configuration, for users who would like to maintain a more fine-grained control ",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "iH1JYEZajWPW18SkVGBHpP6CplOzgBTnv4p1r5jhHlk=",
+        "originContent": "over the launch command.",
+        "translatedContent": "这取决于你的基础设施配置，适合希望对启动命令进行更细粒度控制的用户。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "BzSIMbL2VrZR3fx9yufz+yu2VLMnJ1AGMMIfFQmVPpU=",
+        "originContent": "More complex training examples can be seen in the examples folder ",
+        "translatedContent": "更复杂的训练示例可以在示例文件夹中查看"
+      },
+      {
+        "row": 19,
+        "rowsha": "LlA7nkcs+OcUtoQeVBwSgtIFY6ZnQjhWQ79bstptdqk=",
+        "originContent": "[here](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples). ",
+        "translatedContent": "[这里](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples)。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "nATEsDYzxWHGCkIh5ot1l1w0zsKsNKDmjIK5iVU2gNE=",
+        "originContent": "Alternatively, if you would rather understand the core concepts first, this can be found in the [documentation](https://pytorch-accelerated.readthedocs.io/en/latest/).",
+        "translatedContent": "或者，如果你更愿意先了解核心概念，可以在[文档](https://pytorch-accelerated.readthedocs.io/en/latest/)中找到。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用说明"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "aPCgsS7pZc3u1beChLjTF84mahX1ZzDN24tM3bLtaXc=",
+        "originContent": "### Who is pytorch-accelerated aimed at?",
+        "translatedContent": "### pytorch-accelerated的目标用户是谁？"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "GUoiLRrOGAPaF/DmKo5Fu2I22VIQOjPD6PJbRkhwEzw=",
+        "originContent": "- Users that are familiar with PyTorch but would like to avoid having to write the common training loop boilerplate",
+        "translatedContent": "- 熟悉PyTorch但希望避免编写常见训练循环样板代码，以便专注于训练循环有趣部分的用户。"
+      },
+      {
+        "row": 28,
+        "rowsha": "RqaYuSNTL40qidcm3m97wU/0+JRECLhdNvH168XH9bw=",
+        "originContent": "to focus on the interesting parts of the training loop.",
+        "translatedContent": "- 喜欢并且擅长选择和创建自己的模型、损失函数、优化器和数据集的用户。"
+      },
+      {
+        "row": 29,
+        "rowsha": "GWkiFmTntkkcLCEOFmvvbSYKHJw2LAIRtpfNqfPwobs=",
+        "originContent": "- Users who like, and are comfortable with, selecting and creating their own models, loss functions, optimizers and datasets.",
+        "translatedContent": "- 重视简单且精简的功能集，行为易于调试、理解和推理的用户！"
+      },
+      {
+        "row": 30,
+        "rowsha": "A2eVfDPxqVXX8RW54zctjC16NDumEZmxLPfa2syiobM=",
+        "originContent": "- Users who value a simple and streamlined feature set, where the behaviour is easy to debug, understand, and reason about!",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 什么时候不应该使用pytorch-accelerated？"
+      },
+      {
+        "row": 32,
+        "rowsha": "G/wAaxzIW7c/TZeGH7znNPX5Hf3rXj0iqPyYRx6tBls=",
+        "originContent": "### When shouldn't I use pytorch-accelerated?",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 如果你正在寻找一套端到端的解决方案，涵盖从数据加载到推理的所有环节，"
+      },
+      {
+        "row": 34,
+        "rowsha": "N8zxf86rs/AVVZTHtCKkbNQHotPFiUMtoSkCOBJ0AeA=",
+        "originContent": "- If you are looking for an end-to-end solution, encompassing everything from loading data to inference,",
+        "translatedContent": "  并帮助你选择模型、优化器或损失函数，你可能更适合使用"
+      },
+      {
+        "row": 35,
+        "rowsha": "E1nNzOSwQraMhlPCk3OEp85OuB58OCpp7bbzu+yvuFw=",
+        "originContent": "  which helps you to select a model, optimizer or loss function, you would probably be better suited to",
+        "translatedContent": "  [fastai](https://github.com/fastai/fastai)。`pytorch-accelerated`仅专注于训练过程，其他所有"
+      },
+      {
+        "row": 36,
+        "rowsha": "6gLtCx3fsfbjNrwLU1W3AcwmE9FH0NaTbcuELYFp5SA=",
+        "originContent": "  [fastai](https://github.com/fastai/fastai). `pytorch-accelerated` focuses only on the training process, with all other",
+        "translatedContent": "  方面由用户自行负责。"
+      },
+      {
+        "row": 37,
+        "rowsha": "hsz8boNiVFVzBywfRw0epw2e2gMSpjNJ1Qk3bBzsfhA=",
+        "originContent": "  concerns being left to the responsibility of the user.",
+        "translatedContent": "- 如果你想自己编写整个训练循环，只是不想处理所有设备管理的头疼问题，"
+      },
+      {
+        "row": 38,
+        "rowsha": "vEG+rHep1GGWF+gVHh0zgAYRpQIYG3MZlho7/s3/mdw=",
+        "originContent": "- If you would like to write the entire training loop yourself, just without all of the device management headaches, ",
+        "translatedContent": "你可能更适合直接使用[Accelerate](https://github.com/huggingface/accelerate)！虽然可以自定义`Trainer`的每个部分，训练循环本质上被拆分为多个"
+      },
+      {
+        "row": 39,
+        "rowsha": "f9ngQxS8QH/5VGPpTD+9HuBPo4HfvKVi0Bv6Gikimwg=",
+        "originContent": "you would probably be best suited to using [Accelerate](https://github.com/huggingface/accelerate) directly! Whilst it",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "2qj5ZBBgpisyD7wxH2kMuZB5YjMhl2EA5OUJ8S9i54o=",
+        "originContent": "is possible to customize every part of the `Trainer`, the training loop is fundamentally broken up into a number of ",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "different methods that you would have to override. But, before you go, is writing those `for` loops really important \nenough to warrant starting from scratch *again* 😉.\n- If you are working on a custom, highly complex, use case which does not fit the patterns of usual training loops\nand want to squeeze out every last bit of performance on your chosen hardware, you are probably best off sticking\n with vanilla PyTorch; any high-level API becomes an overhead in highly specialized cases!\n\n\n## Acknowledgements\n\nMany aspects behind the design and features of `pytorch-accelerated` were greatly inspired by a number of excellent \nlibraries and frameworks such as [fastai](https://github.com/fastai/fastai), [timm](https://github.com/rwightman/pytorch-image-models), \n[PyTorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning) and [Hugging Face Accelerate](https://github.com/huggingface/accelerate). Each of these tools \nhave made an enormous impact on both this library and the machine learning community, and their influence can not be \nstated enough!\n\n`pytorch-accelerated` has taken only inspiration from these tools, and all of the functionality contained has been implemented\n from scratch in a way that benefits this library. The only exceptions to this are some of the scripts in the \n [examples](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples)\n folder in which existing resources were taken and modified in order to showcase the features of `pytorch-accelerated`;\n these cases are clearly marked, with acknowledgement being given to the original authors.\n \n",
+    "ContentSha": "yAPUAy31Lm7EmynexVatuVsTgMAV36ObD1Na2ZJyWPk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "不同的方法你可能需要重写。但是，在你开始之前，编写那些 `for` 循环真的重要到值得*再次*从头开始写吗😉。\n- 如果你正在处理一个自定义的、高度复杂的用例，不符合通常训练循环的模式，\n并且想要在你选择的硬件上榨取每一丝性能，那么你最好坚持使用原生 PyTorch；任何高级 API 在高度专业化的情况下都会成为负担！\n\n\n## 致谢\n\n`pytorch-accelerated` 的设计和功能的许多方面都深受一些优秀库和框架的启发，比如 [fastai](https://github.com/fastai/fastai)、[timm](https://github.com/rwightman/pytorch-image-models)、\n[PyTorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning) 和 [Hugging Face Accelerate](https://github.com/huggingface/accelerate)。这些工具\n对本库和机器学习社区都产生了巨大影响，其影响力不可言喻！\n\n`pytorch-accelerated` 只是从这些工具中汲取灵感，所有包含的功能都是从零开始实现的，以适应本库的需求。唯一的例外是\n[examples](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples)\n文件夹中的一些脚本，这些脚本采用并修改了现有资源以展示 `pytorch-accelerated` 的功能；\n这些情况都有明确标记，并对原作者给予了致谢。\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jvheMHsElhzV2VQoTFTmbtlYVHCAu5C657028drFzc0=",
+        "originContent": "different methods that you would have to override. But, before you go, is writing those `for` loops really important ",
+        "translatedContent": "不同的方法你可能需要重写。但是，在你开始之前，编写那些 `for` 循环真的重要到值得*再次*从头开始写吗😉。"
+      },
+      {
+        "row": 2,
+        "rowsha": "cxZK5Rq/e3k95bd7M5K1Y4AXtYZFzCEod23PHjoYG3A=",
+        "originContent": "enough to warrant starting from scratch *again* 😉.",
+        "translatedContent": "- 如果你正在处理一个自定义的、高度复杂的用例，不符合通常训练循环的模式，"
+      },
+      {
+        "row": 3,
+        "rowsha": "ydZXg5+3dZXq0sSZIR4WqxQ8OSuO4fMOhMGG2o9Nmyw=",
+        "originContent": "- If you are working on a custom, highly complex, use case which does not fit the patterns of usual training loops",
+        "translatedContent": "并且想要在你选择的硬件上榨取每一丝性能，那么你最好坚持使用原生 PyTorch；任何高级 API 在高度专业化的情况下都会成为负担！"
+      },
+      {
+        "row": 4,
+        "rowsha": "rTfHlTB0x3LVZyuAnCALFHULzcBt17erh2R5hFw8nGc=",
+        "originContent": "and want to squeeze out every last bit of performance on your chosen hardware, you are probably best off sticking",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "z/OtWxKBLL4J+d9uJAqlI4yLKvzVRWMLqMRmYnKbyZA=",
+        "originContent": " with vanilla PyTorch; any high-level API becomes an overhead in highly specialized cases!",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 致谢"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+        "originContent": "## Acknowledgements",
+        "translatedContent": "`pytorch-accelerated` 的设计和功能的许多方面都深受一些优秀库和框架的启发，比如 [fastai](https://github.com/fastai/fastai)、[timm](https://github.com/rwightman/pytorch-image-models)、"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[PyTorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning) 和 [Hugging Face Accelerate](https://github.com/huggingface/accelerate)。这些工具"
+      },
+      {
+        "row": 10,
+        "rowsha": "IVqgXuOVXXRwHYoiRFfw7MEH6/Kc76VRVbKp+7KAERM=",
+        "originContent": "Many aspects behind the design and features of `pytorch-accelerated` were greatly inspired by a number of excellent ",
+        "translatedContent": "对本库和机器学习社区都产生了巨大影响，其影响力不可言喻！"
+      },
+      {
+        "row": 11,
+        "rowsha": "Doe+Pk6cLgvjNxya9EiWuOlK0VolUS4chfE12I42x2g=",
+        "originContent": "libraries and frameworks such as [fastai](https://github.com/fastai/fastai), [timm](https://github.com/rwightman/pytorch-image-models), ",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "2ZpBrkgrKPQZ5LdokOyNMIBrm0pT1eBuCOMOrdcgp0g=",
+        "originContent": "[PyTorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning) and [Hugging Face Accelerate](https://github.com/huggingface/accelerate). Each of these tools ",
+        "translatedContent": "`pytorch-accelerated` 只是从这些工具中汲取灵感，所有包含的功能都是从零开始实现的，以适应本库的需求。唯一的例外是"
+      },
+      {
+        "row": 13,
+        "rowsha": "acF62rTnylnWm3ZYqi+NUFx14pE4yxRjbgjlI5p5a40=",
+        "originContent": "have made an enormous impact on both this library and the machine learning community, and their influence can not be ",
+        "translatedContent": "[examples](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples)"
+      },
+      {
+        "row": 14,
+        "rowsha": "lDxmWICChOmbmVRyD815dHmRovndZd+NaYBs95YD1lo=",
+        "originContent": "stated enough!",
+        "translatedContent": "文件夹中的一些脚本，这些脚本采用并修改了现有资源以展示 `pytorch-accelerated` 的功能；"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "这些情况都有明确标记，并对原作者给予了致谢。"
+      },
+      {
+        "row": 16,
+        "rowsha": "nHy7c+wQfq0poEMPLPy5cvv/VIl7CCI7v35DNG0odN4=",
+        "originContent": "`pytorch-accelerated` has taken only inspiration from these tools, and all of the functionality contained has been implemented",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "bF2XPk4tqlMPmAGR+umtggIGTwqul2rJpU1mxjpQ1ao=",
+        "originContent": " from scratch in a way that benefits this library. The only exceptions to this are some of the scripts in the ",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "NZIc4SM91SAq7BTi/YSEqI6ylhDBonDvo9T07+ccRS0=",
+        "originContent": " [examples](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples)",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "zhDB+/fXckLDPujZJu/bi2ASFNoVkoyjf87QT6YkLtM=",
+        "originContent": " folder in which existing resources were taken and modified in order to showcase the features of `pytorch-accelerated`;",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "7V1KvFiUtTM6icKAduWTlASxe9xUXpLeUYx8XBSsYtU=",
+        "originContent": " these cases are clearly marked, with acknowledgement being given to the original authors.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

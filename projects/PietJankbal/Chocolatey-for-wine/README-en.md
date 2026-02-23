@@ -1,10 +1,42 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=PietJankbal&project=Chocolatey-for-wine&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Chocolatey-for-wine
 
-Chocolatey package manager automatic installer in wine, handy to quickly install programs in wine (and subsequently find bugs in wine ;) )  
-For some bugs workarounds are added like for Visual Studio Community 2022 and nodejs, see further on.  
+Chocolatey package manager automatic installer in wine, convenient for quickly installing programs in wine (and subsequently finding bugs in wine ;) )  
+Some bug workarounds are included, such as for Visual Studio Community 2022 and nodejs, see further below.  
 
-As I was bored during lock-down I wrote a custom winetricks(.ps1) with verbs I find handy. Just do 'winetricks' to see them.  
-For some verbs a full restart of wine is needed (due to recent wine changes). You'll see a messagebox and the session will be ended. Just start powershell again and retry the verb. If this is done once, it won't be needed anymore for any verb.  
+During lock-down, out of boredom, I wrote a custom winetricks(.ps1) with verbs I find useful. Just run 'winetricks' to see them.
+For some verbs, a full restart of wine is required (due to recent wine changes). You'll see a message box and the session will be terminated. Simply start powershell again and retry the verb. If this is done once, it won't be needed again for any verb.  
 
 Example:  
 
@@ -15,24 +47,24 @@ do 'wine powershell'
 do 'winetricks vs22_interactiveinstaller'  
 
 
-(BTW via 'winetricks vs22_interactive_installer' you can install select what to install via the Visual Studio 2022 installer; 'winetricks vs22_interactive_installer' now got me in ten minutes into the main program (selected Desktop development with C++)).
+(By the way, with 'winetricks vs22_interactive_installer' you can choose what to install via the Visual Studio 2022 installer; 'winetricks vs22_interactive_installer' now got me into the main program within ten minutes (selected Desktop development with C++)).
 
-Install :  
-- Download and unzip the release zip-file and do 'wine ChoCinstaller_0.5c.751.exe' (takes about a minute to complete)
+Install :
+- Download and unzip the release zip-file and run 'wine ChoCinstaller_0.5c.751.exe' (takes about a minute to complete)
 
-Optional:  
-- Run the installer like 'wine ChoCinstaller_0.5a.751.exe /s' , then the install files (like Powershell*.msi and dotnet48) are saved in  
-  MyDocuments and they don't need to be downloaded again if you create a new prefix)  
-Optional:  
-- Run the installer like 'wine ChoCinstaller_0.5a.751.exe /q' to prevent the automatic launch of the powershell window (so install only).  
+Optional:
+- Run the installer like 'wine ChoCinstaller_0.5a.751.exe /s', then the install files (such as Powershell*.msi and dotnet48) are saved in
+  MyDocuments and you won’t need to download them again if you create a new prefix)
+Optional:
+- Run the installer like 'wine ChoCinstaller_0.5a.751.exe /q' to prevent the automatic launch of the PowerShell window (so install only).
 
-Optional:  
-- Check if things went well: "choco install chromium" and  "start chrome.exe (--no-sandbox not needed anymore as of wine-8,4)"  
+Optional:
+- Check if everything went well: "choco install chromium" and "start chrome.exe (--no-sandbox is no longer needed as of wine-8.4)"
 
-![Screenshot from 2022-08-26 12-31-18](https://user-images.githubusercontent.com/26839562/186885380-d5a617c4-9cf4-4831-a475-2bd85a3b5784.png)  
-About PowerShell:  
+![Screenshot from 2022-08-26 12-31-18](https://user-images.githubusercontent.com/26839562/186885380-d5a617c4-9cf4-4831-a475-2bd85a3b5784.png)
+About PowerShell:
 
-Tip: Chocolatey usually installs the latest version of a program, which might reveal new wine bugs. You might have more luck with an older version of the software.  
+Tip: Chocolatey usually installs the latest version of a program, which might expose new wine bugs. You might have better luck with an older version of the software.  
 Example:  
 
 choco search --exact microsoft-edge --all (--> list all versions)  
@@ -82,26 +114,26 @@ function to return whatever the program expects.
 Like in profile.ps1 I added (amongst others) a wmic.exe that supports a bit more options,
 and a basic setx.exe.
 Or you could just manipulate the arguments passed to the system program. See profile.ps1 and choc_install.ps1.
-No guarantee this works for more complex programs as well... 
+No garantuee this works for more complex programs as well... 
  
 Notes:
 
-  - Do NOT use on existing wineprefix, only on fresh new created prefix! The installer just stupidly installs dotnet48 itself and messes with registry keys.
-    If you have any dotnet version already installed with regular winetricks.sh, it will likely fail, and even if it succeeds, you'll likely end up with a broken prefix.
-    If you need to install stuff with regular winetricks.sh for programs, do NOT use any of the dotnet* verbs. 
-    BTW 'Arial' and 'd3dcompiler_47' verbs are already installed by default.
+  - Do NOT use on an existing wineprefix, only on a freshly created new prefix! The installer simply installs dotnet48 itself and modifies registry keys.
+    If you already have any dotnet version installed using the regular winetricks.sh, it will likely fail, and even if it succeeds, you'll probably end up with a broken prefix.
+    If you need to install things with the regular winetricks.sh for programs, do NOT use any of the dotnet* verbs.
+    BTW, the 'Arial' and 'd3dcompiler_47' verbs are already installed by default.
   - WINEARCH=win32 is _not_ supported!
-  - Updating from a previous version is for now not (yet) supported, maybe later
+  - Updating from a previous version is currently not (yet) supported, maybe later
 
 Compile:
-  - If you want to compile yourself instead of downloading binaries: see compilation instructions in mainv1.c and installer.c 
+  - If you want to compile it yourself instead of downloading binaries: see the compilation instructions in mainv1.c and installer.c
   - Then copy choc_install.ps1 into the same directory
-  - Then do 'wine ChoCinstaller_0.5a.735.exe'
+  - Then run 'wine ChoCinstaller_0.5a.735.exe'
   
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-03
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-23
 
 ---

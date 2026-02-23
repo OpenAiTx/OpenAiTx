@@ -1,0 +1,584 @@
+[
+  {
+    "row": 1,
+    "rowsha": "7ZxQZ3V2Q+wsACR22wMKtCnSXqQ4r50xk+apPpFm8Mc=",
+    "originContent": "# Chrome Debloat",
+    "translatedContent": "# Chrome Debloat"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "f0Yws5trY+7zY9yhWe7zBVd56M5smOAt/i7gJ+3H1eU=",
+    "originContent": "A tool to generate policies for Chromium-based browsers (Chrome, Brave, and Edge) that disable unnecessary features, telemetry, and bloatware while enabling some quality-of-life improvements.",
+    "translatedContent": "Chromiumベースのブラウザ（Chrome、Brave、Edge）向けに、不要な機能、テレメトリー、不要なソフトウェアを無効化し、一部の利便性向上機能を有効化するポリシーを生成するツール。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Features"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "eopwCWT3ptqeo3fDOw00w0uNAjxXoTfyf6OiSekgJgk=",
+    "originContent": "- Attempts to disable telemetry and usage reporting",
+    "translatedContent": "- テレメトリーと使用状況レポートの無効化を試みる"
+  },
+  {
+    "row": 8,
+    "rowsha": "DdLr6IdmHXBMAxeV56zaMUefjx/eHe0JYoE4OyEVdgk=",
+    "originContent": "- Removes unnecessary features and pre-installed bloatware",
+    "translatedContent": "- 不要な機能とプリインストールされた不要なソフトウェアを削除"
+  },
+  {
+    "row": 9,
+    "rowsha": "d42NBq0+bBVVyqRduSIfOEKtKbRED+aWmiSir+3jr14=",
+    "originContent": "- Blocks promotional content and unnecessary UI elements",
+    "translatedContent": "- プロモーションコンテンツと不要なUI要素をブロック"
+  },
+  {
+    "row": 10,
+    "rowsha": "6z0y72+qZQ9Lv+lMYNQamMf9Nd42s56lhMcnp5oCpvg=",
+    "originContent": "- Maintains browser functionality while reducing resource usage",
+    "translatedContent": "- ブラウザの機能を維持しつつリソース使用量を削減"
+  },
+  {
+    "row": 11,
+    "rowsha": "o7MNodiVdokZUXm8sklkKsmcMOG5xcxVBhilfEC1JjI=",
+    "originContent": "- Pre-configures essential extensions:",
+    "translatedContent": "- 必須拡張機能を事前設定："
+  },
+  {
+    "row": 12,
+    "rowsha": "JOjZeq9v1yCh77HIqldfEJ2AraNDZJdsriWpZKOIov4=",
+    "originContent": "  - uBlock Origin",
+    "translatedContent": "  - uBlock Origin"
+  },
+  {
+    "row": 13,
+    "rowsha": "Ut0jmU7Lr9311Q/5CBZxVDGzoWxb9FITeG8bzEjUWX4=",
+    "originContent": "  - Cookie AutoDelete",
+    "translatedContent": "  - Cookie AutoDelete"
+  },
+  {
+    "row": 14,
+    "rowsha": "3VfaCzM2eUh11UbgHjda6V1ZACh3iRO/uHdnYopinUI=",
+    "originContent": "  - Don't f*** with paste",
+    "translatedContent": "  - Don't f*** with paste"
+  },
+  {
+    "row": 15,
+    "rowsha": "s7CcoqUKU2pI0nySw3wok0Wul3Bs0EGvllrcm+I08jM=",
+    "originContent": "  - I still don't care about cookies",
+    "translatedContent": "  - I still don't care about cookies"
+  },
+  {
+    "row": 16,
+    "rowsha": "7svwxtWrCylvxU4fBVzyGx/9BJgYhhtfTi5M1RNdsQM=",
+    "originContent": "  - SponsorBlock",
+    "translatedContent": "  - SponsorBlock"
+  },
+  {
+    "row": 17,
+    "rowsha": "lwGdsPbSgUTZGjkmJBwvNaYFW+54qy2miGHsp9znJn0=",
+    "originContent": "  - BlockTube",
+    "translatedContent": "  - BlockTube"
+  },
+  {
+    "row": 18,
+    "rowsha": "Q63KaeWLfBS6QL9TNhCIM/PmNvWTRbZRP5BqxK9Pdi8=",
+    "originContent": "  - BlankTab",
+    "translatedContent": "  - BlankTab"
+  },
+  {
+    "row": 19,
+    "rowsha": "6V+SEQZa+HTPGdrPznWuatYRUvfQVEJnqgQLnXMIWzA=",
+    "originContent": "  - Decentraleyes",
+    "translatedContent": "  - Decentraleyes"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "TNdxSGLXHFi2qg9EzN/bqWhNusNvf8079Tdg8iE5Tw4=",
+    "originContent": "### Supported Browsers",
+    "translatedContent": "### Supported Browsers"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "LsYumq1LFg/dld4JTGG9MOUU8Tl+CBf/CR/N+MtdCVE=",
+    "originContent": "| Browser | Windows | macOS | Linux |",
+    "translatedContent": "| ブラウザ | Windows | macOS | Linux |"
+  },
+  {
+    "row": 24,
+    "rowsha": "TErqh8pdels89N10AHgGO73mhvTvboCldGixqtuFL4Y=",
+    "originContent": "|---------|---------|-------|-------|",
+    "translatedContent": "|---------|---------|-------|-------|"
+  },
+  {
+    "row": 25,
+    "rowsha": "hwzjBMYiT5aHfs+cqwWnDyfBSE4OB3Y5+zjFroecpnU=",
+    "originContent": "| Google Chrome | ✅ | ✅ | ✅ |",
+    "translatedContent": "| Google Chrome | ✅ | ✅ | ✅ |"
+  },
+  {
+    "row": 26,
+    "rowsha": "+DBqCkERsNBUjjnOo4AoPOANOhoJQSQv7qY0oKujiXg=",
+    "originContent": "| Microsoft Edge | ✅ | ✅ | ✅ |",
+    "translatedContent": "| Microsoft Edge | ✅ | ✅ | ✅ |"
+  },
+  {
+    "row": 27,
+    "rowsha": "/OzLgCIwOucQ+HWmRgRcj0Z/6hb8U9UeFPRl3dyDrMs=",
+    "originContent": "| Brave | ✅ | ✅ | ✅ |",
+    "translatedContent": "| Brave | ✅ | ✅ | ✅ |"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## Quick Start"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+    "originContent": "### Windows",
+    "translatedContent": "### Windows"
+  },
+  {
+    "row": 32,
+    "rowsha": "T8ZUTrtUGx6bqM5DSr8wmTkBZCA3bjLqwXxYeWkY6+c=",
+    "originContent": "1.  Download the `.reg` file for your browser from [`generated/windows/`](./generated/windows/).",
+    "translatedContent": "1.  ブラウザ用の `.reg` ファイルを [`generated/windows/`](./generated/windows/) からダウンロードします。"
+  },
+  {
+    "row": 33,
+    "rowsha": "vZQEhjIxY+9Kp4yVVEa271WMlIQKe4FGZGsSrU9l7e8=",
+    "originContent": "2.  Open the downloaded `.reg` file to add the settings to the Windows Registry.",
+    "translatedContent": "2.  ダウンロードした `.reg` ファイルを開き、Windowsレジストリに設定を追加します。"
+  },
+  {
+    "row": 34,
+    "rowsha": "t4YhzX7+/Wix7dYmM+bOBsgGF98rDQHbJ4mm1nhm/KI=",
+    "originContent": "3.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".",
+    "translatedContent": "3.  ブラウザを再起動するか、`chrome://policy`（または `edge://policy`、`brave://policy`）にアクセスして「ポリシーを再読み込み」をクリックします。"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "IOz6D23yxKVaZDi62cZaiowUVIuAS1nmW/2UxanscU8=",
+    "originContent": "### macOS",
+    "translatedContent": "### macOS"
+  },
+  {
+    "row": 37,
+    "rowsha": "zHb0nF5zAAGLWejHEMg47ofrQ5gwEsSNnaJhl5xrPbw=",
+    "originContent": "1.  Download the `.mobileconfig` file for your browser from [`generated/macos/`](./generated/macos/).",
+    "translatedContent": "1.  ブラウザ用の `.mobileconfig` ファイルを [`generated/macos/`](./generated/macos/) からダウンロードします。"
+  },
+  {
+    "row": 38,
+    "rowsha": "GWHG5IWyQ03BuFVKU9nqDZGf27W2SZzmTk5Hv1Pm6AA=",
+    "originContent": "2.  Open the downloaded `.mobileconfig` file to start the profile installation.",
+    "translatedContent": "2.  ダウンロードした `.mobileconfig` ファイルを開き、プロファイルのインストールを開始します。"
+  },
+  {
+    "row": 39,
+    "rowsha": "bE79valF6DP08zdps0b7f563b8lcswGfTSGixrIh7ms=",
+    "originContent": "3.  Go to `System Settings` > `Privacy & Security` > `Profiles` and approve the new profile.",
+    "translatedContent": "3.  「システム設定」>「プライバシーとセキュリティ」>「プロファイル」に移動し、新しいプロファイルを承認します。"
+  },
+  {
+    "row": 40,
+    "rowsha": "4zyIM0GVeH3TFC4uEfyiPYiRa8audbB5Bufl06oLSnE=",
+    "originContent": "4.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".",
+    "translatedContent": "4.  ブラウザを再起動するか、`chrome://policy`（または `edge://policy`、`brave://policy`）にアクセスして「ポリシーを再読み込み」をクリックします。"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Linux"
+  },
+  {
+    "row": 42,
+    "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+    "originContent": "### Linux",
+    "translatedContent": "1.  ブラウザ用の `.json` ファイルを [`generated/linux/`](./generated/linux/) からダウンロードします。"
+  },
+  {
+    "row": 43,
+    "rowsha": "AoxeYHUEHnoy4vF9IFHGU65O/N1Bcf53op0OoZImLPE=",
+    "originContent": "1.  Download the `.json` file for your browser from [`generated/linux/`](./generated/linux/).",
+    "translatedContent": "2.  ダウンロードしたファイルを正しいポリシーディレクトリに移動します（必要に応じて作成してください）："
+  },
+  {
+    "row": 44,
+    "rowsha": "kEdjaH/Ea/o0AAbHgo8hT6LuX4b5EShu2Af+zZVZAHQ=",
+    "originContent": "2.  Move the downloaded file to the correct policy directory (create it if needed):",
+    "translatedContent": "    *   **Chrome:** `/etc/opt/chrome/policies/managed/chrome.json`"
+  },
+  {
+    "row": 45,
+    "rowsha": "tD6ofUYNqoYkndmjyz48vrCkztA67edGEnv5kKmIspc=",
+    "originContent": "    *   **Chrome:** `/etc/opt/chrome/policies/managed/chrome.json`",
+    "translatedContent": "    *   **Edge:** `/etc/opt/edge/policies/managed/edge.json`"
+  },
+  {
+    "row": 46,
+    "rowsha": "l+dw4HeGmODe+vmDvdN3a+HxW6UGsYND9eMzWe0zA+Q=",
+    "originContent": "    *   **Edge:** `/etc/opt/edge/policies/managed/edge.json`",
+    "translatedContent": "    *   **Brave:** `/etc/brave/policies/managed/brave.json`"
+  },
+  {
+    "row": 47,
+    "rowsha": "hQlXkZICuDGyL8vXTk1JX10UgXKi34VWPxd6vo38a5I=",
+    "originContent": "    *   **Brave:** `/etc/brave/policies/managed/brave.json`",
+    "translatedContent": "    *   *注意: これを行うには `sudo` 権限が必要な場合があります。*"
+  },
+  {
+    "row": 48,
+    "rowsha": "oNa29vXyEzMszoE8bjyEvaubhepHqZvvu/TTWoNsQZ4=",
+    "originContent": "    *   *Note: You might need `sudo` rights to do this.*",
+    "translatedContent": "3.  ブラウザを再起動するか、`chrome://policy`（または `edge://policy`、`brave://policy`）にアクセスして「ポリシーの再読み込み」をクリックします。"
+  },
+  {
+    "row": 49,
+    "rowsha": "t4YhzX7+/Wix7dYmM+bOBsgGF98rDQHbJ4mm1nhm/KI=",
+    "originContent": "3.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## カスタム設定"
+  },
+  {
+    "row": 51,
+    "rowsha": "QtINMKRyzuub/FjfD60PaAIs5mZfLjhCXSPxpa6RGcg=",
+    "originContent": "## Custom Configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ポリシーをカスタマイズしたい場合："
+  },
+  {
+    "row": 53,
+    "rowsha": "BgqOQJg7uHQ2lFKWfgP9o/OP34ToaX6G5wsGwsM0q48=",
+    "originContent": "If you want to customize the policies:",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. このリポジトリをクローンします"
+  },
+  {
+    "row": 55,
+    "rowsha": "uQ/hpcsn+PKWI4+EsW0FFWPUwIPmR5RTRYfs5fij3hE=",
+    "originContent": "1. Clone this repository",
+    "translatedContent": "2. 依存関係をインストールします："
+  },
+  {
+    "row": 56,
+    "rowsha": "ksJZLSOlzyNqFrMTkpmMOmHTn1mDIM8A+zSqlEvTL7E=",
+    "originContent": "2. Install dependencies:",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 58,
+    "rowsha": "JeDuJqDgqS79aDfjLUf+pJxliVBUfNa7cF12AJ7o/1M=",
+    "originContent": "   uv sync",
+    "translatedContent": "   uv sync"
+  },
+  {
+    "row": 59,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 60,
+    "rowsha": "19QOWGmZpVFysarr29JTbRJLKDh6UIV3FkXpS2K9/bM=",
+    "originContent": "3. Modify `policies.yaml` according to your needs",
+    "translatedContent": "3. 必要に応じて `policies.yaml` を修正してください  "
+  },
+  {
+    "row": 61,
+    "rowsha": "YgDhjZzPSPg1b65a7QedD9ZSnSo4mHm0yLBRYS0elTA=",
+    "originContent": "4. Generate new configuration files:",
+    "translatedContent": "4. 新しい設定ファイルを生成します:"
+  },
+  {
+    "row": 62,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 63,
+    "rowsha": "uwT7U3+OZiqzmlQeUqEPZgeEw3wDIUcsTeS3BrY98Sc=",
+    "originContent": "   uv run main.py",
+    "translatedContent": "   uv run main.py"
+  },
+  {
+    "row": 64,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 65,
+    "rowsha": "lA56k+C2D7t0U5SSWGu42S7ARxXsCgQb7d/S60qgtzY=",
+    "originContent": "5. Find the generated files in `generated/` directory",
+    "translatedContent": "5. 生成されたファイルは `generated/` ディレクトリにあります"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "TdwVtUQAFjhO/LPIVuMMrPdUZ0u1YRVXUtVRQRKBh6s=",
+    "originContent": "### Uninstalling Policies",
+    "translatedContent": "### ポリシーのアンインストール"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "LFk+g+V2WPlICBhGWxJSPfTasEZGmHzN3su3w4PcIZo=",
+    "originContent": "**Windows:**",
+    "translatedContent": "**Windows:**"
+  },
+  {
+    "row": 71,
+    "rowsha": "qKZrDmFBeCz/oUxOU5C2R3LsBK0Rey8x0BclsyXwpQs=",
+    "originContent": "1.  Navigate to the [`uninstall/windows/`](./uninstall/) directory in this repository.",
+    "translatedContent": "1.  このリポジトリの [`uninstall/windows/`](./uninstall/) ディレクトリに移動します。"
+  },
+  {
+    "row": 72,
+    "rowsha": "au5QLrfsIXLtlw5u5jpX5bbvS5UrK3Vy0Vo6JvFH1do=",
+    "originContent": "2.  Run the `.reg` file corresponding to your browser (e.g., `uninstall_chrome.reg`). This will remove the registry keys added during installation.",
+    "translatedContent": "2.  ブラウザに対応する `.reg` ファイル（例：`uninstall_chrome.reg`）を実行します。これによりインストール時に追加されたレジストリキーが削除されます。"
+  },
+  {
+    "row": 73,
+    "rowsha": "t4YhzX7+/Wix7dYmM+bOBsgGF98rDQHbJ4mm1nhm/KI=",
+    "originContent": "3.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".",
+    "translatedContent": "3.  ブラウザを再起動するか、`chrome://policy`（または `edge://policy`、`brave://policy`）にアクセスして「ポリシーの再読み込み」をクリックします。"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "zy+Ct/bURnPCq93aONIQWUR7NqwdRo7Pts5razCUUSg=",
+    "originContent": "**macOS:**",
+    "translatedContent": "**macOS:**"
+  },
+  {
+    "row": 76,
+    "rowsha": "aJWowdLMjO4pJ3ZFXYUpaPO6m51mOjhauaL/oqUKhvY=",
+    "originContent": "1.  Go to `System Settings` > `Privacy & Security` > `Profiles`.",
+    "translatedContent": "1.  「システム設定」＞「プライバシーとセキュリティ」＞「プロファイル」に移動します。"
+  },
+  {
+    "row": 77,
+    "rowsha": "Iib/gPvdKoN+FDAQXvaDeF4KT5nY4yd5dYX+FruiPTQ=",
+    "originContent": "2.  Select the profile associated with your browser (e.g., \"Chrome Debloat Policies\").",
+    "translatedContent": "2.  ブラウザに関連付けられたプロファイル（例：「Chrome Debloat Policies」）を選択します。"
+  },
+  {
+    "row": 78,
+    "rowsha": "ycKz9miHgkHq8n7pIRAve4Dnai4UUFB6lUwxkpy4620=",
+    "originContent": "3.  Click the '-' (minus) button to remove the profile.",
+    "translatedContent": "3.  「-」（マイナス）ボタンをクリックしてプロファイルを削除します。"
+  },
+  {
+    "row": 79,
+    "rowsha": "4zyIM0GVeH3TFC4uEfyiPYiRa8audbB5Bufl06oLSnE=",
+    "originContent": "4.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".",
+    "translatedContent": "4.  ブラウザを再起動するか、`chrome://policy`（または `edge://policy`、`brave://policy`）にアクセスして「ポリシーの再読み込み」をクリックします。"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "KoKXrEO/KXIAQMje6gNzdAM05n/GIRz6HTUwu9OZDGc=",
+    "originContent": "**Linux:**",
+    "translatedContent": "**Linux:**"
+  },
+  {
+    "row": 82,
+    "rowsha": "8/QYMg4l1aXfWOEp52ybQ1mlsZKThvCUyPdYNferLqI=",
+    "originContent": "1.  Remove the policy JSON file from the browser-specific directory (you might need `sudo` rights):",
+    "translatedContent": "1.  ブラウザ固有のディレクトリからポリシーの JSON ファイルを削除します（`sudo` 権限が必要な場合があります）："
+  },
+  {
+    "row": 83,
+    "rowsha": "moE3ePBfsb+VBDjlhq9/E/w+D54mMlImMNx1OR9XlW0=",
+    "originContent": "    *   **Chrome:** `sudo rm /etc/opt/chrome/policies/managed/chrome.json`",
+    "translatedContent": "    *   **Chrome:** `sudo rm /etc/opt/chrome/policies/managed/chrome.json`"
+  },
+  {
+    "row": 84,
+    "rowsha": "YHe4RTeqSWXAf/Zx9PVO55G3XLuUtWUxn8nwK0470t0=",
+    "originContent": "    *   **Edge:** `sudo rm /etc/opt/edge/policies/managed/edge.json`",
+    "translatedContent": "    *   **Edge:** `sudo rm /etc/opt/edge/policies/managed/edge.json`"
+  },
+  {
+    "row": 85,
+    "rowsha": "d+X99L7+Qvr+C1w+25GSZYmw2NLG0OljWu0xKkwJ4no=",
+    "originContent": "    *   **Brave:** `sudo rm /etc/brave/policies/managed/brave.json`",
+    "translatedContent": "    *   **Brave:** `sudo rm /etc/brave/policies/managed/brave.json`"
+  },
+  {
+    "row": 86,
+    "rowsha": "muRIo8P//OTJfDLNEs5N0rbtBQZ4aINlwJGwXv7AZ5Y=",
+    "originContent": "2.  Restart your browser or go to `chrome://policy` (or `edge://policy`, `brave://policy`) and click \"Reload policies\".",
+    "translatedContent": "2.  ブラウザを再起動するか、`chrome://policy`（または `edge://policy`、`brave://policy`）にアクセスして「ポリシーの再読み込み」をクリックします。"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "ew6WkiUPbkF/DF0JwHEwHxGdNMF9wWnMyOLmJEHkjvE=",
+    "originContent": "## Policy Documentation",
+    "translatedContent": "## ポリシー ドキュメント"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "XTtpvRXYohYBNwayR6KZ6HhmrSRwwDbDHLxHtyKvOL4=",
+    "originContent": "- [Chrome Enterprise Policies](https://chromeenterprise.google/policies/)",
+    "translatedContent": "- [Chrome Enterprise ポリシー](https://chromeenterprise.google/policies/)"
+  },
+  {
+    "row": 91,
+    "rowsha": "HaH4aPA13XCBQK/55CGQbeL90n8qtELjJLG373pjTKs=",
+    "originContent": "- [Brave Policies](https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy)",
+    "translatedContent": "- [Brave ポリシー](https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy)"
+  },
+  {
+    "row": 92,
+    "rowsha": "w95tSgWPO9zmlYjPLhSgcGZtpXcCaD0+lOs2FDmlR60=",
+    "originContent": "- [Microsoft Edge Policies](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies)",
+    "translatedContent": "- [Microsoft Edge ポリシー](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies)"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## ライセンス"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "2BrncedlidcekgtbowNT6UZRbt7uIK9duAlAs1H4Z4g=",
+    "originContent": "[Apache 2.0](./LICENSE)",
+    "translatedContent": "[Apache 2.0](./LICENSE)"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
