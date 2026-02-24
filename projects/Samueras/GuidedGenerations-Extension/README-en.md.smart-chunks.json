@@ -1,0 +1,966 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Guided Generations Extension for SillyTavern\n\nThis extension brings the full power of the original \"Guided Generations\" Quick Reply set to SillyTavern as a native extension. It provides modular, context-aware tools for shaping, refining, and guiding AI responses—ideal for roleplay, story, and character-driven chats. All features are accessible via intuitive buttons and menus integrated into the SillyTavern UI.\n\nSee [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md) for code-level documentation.\n\n---\n\n## Table of Contents\n- [Features](#features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Settings](#settings)\n- [Troubleshooting](#troubleshooting)\n- [License](#license)\n- [Contributing](#contributing)\n\n---\n\n## Features\n\n### 🐕 Guided Response\n*Inject instructions before the AI replies.*\n- Type instructions and press 🐕.\n- Your instructions guide the next AI response.\n- [Video Example](https://youtube.com/shorts/yxdtbF3NxW4?feature=share)\n\n### 👈 Guided Swipe\n*Regenerate the last AI message with new guidance.*\n- Enter new instructions and press 👈 to generate a new swipe.\n- Only available if the last message is from the AI.\n- [Video Example](https://youtube.com/shorts/GRQ9l_8K6-Y?feature=share)\n\n### Impersonation (1st: 👤, 2nd: 👥, 3rd: 🗣️)\n*Expand outlines into rich, in-character narratives.*\n- Enter a brief outline, select perspective (toggle in settings), and press the corresponding button (👤/👥/🗣️).\n- Your outline is expanded into a full message from the chosen viewpoint.\n- Can be hidden or displayed individually per settings. 1st Person is displayed by default.\n- Video Examples:\n  - [1st Person](https://youtube.com/shorts/FT5gv3d2kE4?feature=share)",
+    "ContentSha": "Byb4TGDM3PVDMliZZDujxEp0aFmxuZQ1kmC5TbD75c4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Guided Generations Extension for SillyTavern\n\nThis extension brings the full power of the original \"Guided Generations\" Quick Reply set to SillyTavern as a native extension. It provides modular, context-aware tools for shaping, refining, and guiding AI responses—ideal for roleplay, story, and character-driven chats. All features are accessible via intuitive buttons and menus integrated into the SillyTavern UI.\n\nSee [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md) for code-level documentation.\n\n---\n\n## Table of Contents\n- [Features](#features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Settings](#settings)\n- [Troubleshooting](#troubleshooting)\n- [License](#license)\n- [Contributing](#contributing)\n\n---\n\n## Features\n\n### 🐕 Guided Response\n*Inject instructions before the AI replies.*\n- Type instructions and press 🐕.\n- Your instructions guide the next AI response.\n- [Video Example](https://youtube.com/shorts/yxdtbF3NxW4?feature=share)\n\n### 👈 Guided Swipe\n*Regenerate the last AI message with new guidance.*\n- Enter new instructions and press 👈 to generate a new swipe.\n- Only available if the last message is from the AI.\n- [Video Example](https://youtube.com/shorts/GRQ9l_8K6-Y?feature=share)\n\n### Impersonation (1st: 👤, 2nd: 👥, 3rd: 🗣️)\n*Expand outlines into rich, in-character narratives.*\n- Enter a brief outline, select perspective (toggle in settings), and press the corresponding button (👤/👥/🗣️).\n- Your outline is expanded into a full message from the chosen viewpoint.\n- Can be hidden or displayed individually per settings. 1st Person is displayed by default.\n- Video Examples:\n  - [1st Person](https://youtube.com/shorts/FT5gv3d2kE4?feature=share)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "zHCUbSH0tpb8Lh5fP6TEHHMdhYv7fnpcxwFtaElDXDo=",
+        "originContent": "# Guided Generations Extension for SillyTavern",
+        "translatedContent": "# Guided Generations Extension for SillyTavern"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "jcbUhwPi4s0ZSItRxicUWmwaP8KQrpw0KMgNLg+ygBM=",
+        "originContent": "This extension brings the full power of the original \"Guided Generations\" Quick Reply set to SillyTavern as a native extension. It provides modular, context-aware tools for shaping, refining, and guiding AI responses—ideal for roleplay, story, and character-driven chats. All features are accessible via intuitive buttons and menus integrated into the SillyTavern UI.",
+        "translatedContent": "This extension brings the full power of the original \"Guided Generations\" Quick Reply set to SillyTavern as a native extension. It provides modular, context-aware tools for shaping, refining, and guiding AI responses—ideal for roleplay, story, and character-driven chats. All features are accessible via intuitive buttons and menus integrated into the SillyTavern UI."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "3HZuNzMQluGQOkRNitRAkWVGIFpqIML6rbz/4tyFHB0=",
+        "originContent": "See [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md) for code-level documentation.",
+        "translatedContent": "See [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md) for code-level documentation."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## Table of Contents"
+      },
+      {
+        "row": 10,
+        "rowsha": "BI+Zz2NbZ0AX7YgD9EjinH4VCYulypQnBww5RTqTSDI=",
+        "originContent": "- [Features](#features)",
+        "translatedContent": "- [Features](#features)"
+      },
+      {
+        "row": 11,
+        "rowsha": "Wl12oCRmfvQwHCfuvjGuhBK05j+rCEJcS20CJyqXCVA=",
+        "originContent": "- [Installation](#installation)",
+        "translatedContent": "- [Installation](#installation)"
+      },
+      {
+        "row": 12,
+        "rowsha": "ANDaZUJ7DId7BvvcAsl+TYu9Nvfj6L56tZfZOUbQDoo=",
+        "originContent": "- [Usage](#usage)",
+        "translatedContent": "- [Usage](#usage)"
+      },
+      {
+        "row": 13,
+        "rowsha": "jdY9NxXrnBwQu0W9VyGPhENZI+DLcAfSurUBmW3CX5A=",
+        "originContent": "- [Settings](#settings)",
+        "translatedContent": "- [Settings](#settings)"
+      },
+      {
+        "row": 14,
+        "rowsha": "1g7haVJrQFN756lloz3r1vHinMdQvyk8HwnlqBq0B7c=",
+        "originContent": "- [Troubleshooting](#troubleshooting)",
+        "translatedContent": "- [Troubleshooting](#troubleshooting)"
+      },
+      {
+        "row": 15,
+        "rowsha": "aiElU+9O/5KGvOFd7CcJXGSaQL0/8Fg5sGxP7wVVzv4=",
+        "originContent": "- [License](#license)",
+        "translatedContent": "- [License](#license)"
+      },
+      {
+        "row": 16,
+        "rowsha": "46o9OlXCA1a4tZeh7IEuTh2QUV2OtRFcI4YWidxNwmU=",
+        "originContent": "- [Contributing](#contributing)",
+        "translatedContent": "- [Contributing](#contributing)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Features"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "P7UGkDLcvLrztEaTfS7ZItvRBmj5TLknGNBppDbOZR0=",
+        "originContent": "### 🐕 Guided Response",
+        "translatedContent": "### 🐕 Guided Response"
+      },
+      {
+        "row": 23,
+        "rowsha": "1C/9mUp69eEvMFyOO5BIsUEUbWHXWQwKrIcdQFShZSU=",
+        "originContent": "*Inject instructions before the AI replies.*",
+        "translatedContent": "*Inject instructions before the AI replies.*"
+      },
+      {
+        "row": 24,
+        "rowsha": "bbVS2gP4hR6cwSpyOYHzGqFts/mmQ+5e5dqJ6XW84Ro=",
+        "originContent": "- Type instructions and press 🐕.",
+        "translatedContent": "- Type instructions and press 🐕."
+      },
+      {
+        "row": 25,
+        "rowsha": "qBlCKk+rTijB5MGY+bp9D3mJrxwPT8DlOOWnpESEL1c=",
+        "originContent": "- Your instructions guide the next AI response.",
+        "translatedContent": "- Your instructions guide the next AI response."
+      },
+      {
+        "row": 26,
+        "rowsha": "MDUQXrN90mfjlGJsr2tv/641Rou0IbAjirapotUk45g=",
+        "originContent": "- [Video Example](https://youtube.com/shorts/yxdtbF3NxW4?feature=share)",
+        "translatedContent": "- [Video Example](https://youtube.com/shorts/yxdtbF3NxW4?feature=share)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "9o9CUQzhljO6uBhXRtBcQOJranZ/0WyhTJm+ic7xdgk=",
+        "originContent": "### 👈 Guided Swipe",
+        "translatedContent": "### 👈 Guided Swipe"
+      },
+      {
+        "row": 29,
+        "rowsha": "A6d5r8IwAhxrgK0krbpM1cSUgdUIkGD+fr/ac1Nvf2U=",
+        "originContent": "*Regenerate the last AI message with new guidance.*",
+        "translatedContent": "*Regenerate the last AI message with new guidance.*"
+      },
+      {
+        "row": 30,
+        "rowsha": "nrXMLiirwW31a4mElrE0NSw88Kz9mhkSveixtJpYtMo=",
+        "originContent": "- Enter new instructions and press 👈 to generate a new swipe.",
+        "translatedContent": "- Enter new instructions and press 👈 to generate a new swipe."
+      },
+      {
+        "row": 31,
+        "rowsha": "JAXH8u3ilElnxlIDR64muo+2WW2yvwDdtrE7LlckLqI=",
+        "originContent": "- Only available if the last message is from the AI.",
+        "translatedContent": "- Only available if the last message is from the AI."
+      },
+      {
+        "row": 32,
+        "rowsha": "0e3uOi7OzJx44jugYrUzWPplcUTKmcCMGfEIRo124Bs=",
+        "originContent": "- [Video Example](https://youtube.com/shorts/GRQ9l_8K6-Y?feature=share)",
+        "translatedContent": "- [Video Example](https://youtube.com/shorts/GRQ9l_8K6-Y?feature=share)"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "MJPzUhrSwEG0fYJn66xAg8TLO2pVbnPyA2Lg40zdpCk=",
+        "originContent": "### Impersonation (1st: 👤, 2nd: 👥, 3rd: 🗣️)",
+        "translatedContent": "### Impersonation (1st: 👤, 2nd: 👥, 3rd: 🗣️)"
+      },
+      {
+        "row": 35,
+        "rowsha": "JMP0XrpM1JVPp4EStZZVJfDKymcvjUMXC4yt5oDUiHA=",
+        "originContent": "*Expand outlines into rich, in-character narratives.*",
+        "translatedContent": "*Expand outlines into rich, in-character narratives.*"
+      },
+      {
+        "row": 36,
+        "rowsha": "nvweOoSzFOPvleG7iHd09VKLJVGdWZKuWbvU+SbB634=",
+        "originContent": "- Enter a brief outline, select perspective (toggle in settings), and press the corresponding button (👤/👥/🗣️).",
+        "translatedContent": "- Enter a brief outline, select perspective (toggle in settings), and press the corresponding button (👤/👥/🗣️)."
+      },
+      {
+        "row": 37,
+        "rowsha": "ACjWPg5LceuLbjBN5RBbPce8WBQT13AU1Ds13qbNfXw=",
+        "originContent": "- Your outline is expanded into a full message from the chosen viewpoint.",
+        "translatedContent": "- Your outline is expanded into a full message from the chosen viewpoint."
+      },
+      {
+        "row": 38,
+        "rowsha": "4RHLycSXCmkXaRVFLB0Rz2EDR49yOxgLmDdEO4zJ2Nc=",
+        "originContent": "- Can be hidden or displayed individually per settings. 1st Person is displayed by default.",
+        "translatedContent": "- Can be hidden or displayed individually per settings. 1st Person is displayed by default."
+      },
+      {
+        "row": 39,
+        "rowsha": "2PWvn98PtGkUvWR39zKNq60mpvoCpA7WZ65LJwjIL0g=",
+        "originContent": "- Video Examples:",
+        "translatedContent": "- Video Examples:"
+      },
+      {
+        "row": 40,
+        "rowsha": "maBSBgHkqXtrmdKflEwe7RKu4PCQxm20Ku0T4KT32Fw=",
+        "originContent": "  - [1st Person](https://youtube.com/shorts/FT5gv3d2kE4?feature=share)",
+        "translatedContent": "  - [1st Person](https://youtube.com/shorts/FT5gv3d2kE4?feature=share)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "  - [2nd Person](https://youtube.com/shorts/80l12LrtBpQ?feature=share)\n  - [3rd Person](https://youtube.com/shorts/wWka-1URLPg?feature=share)\n\n### 📖 Persistent Guides Menu\n*Manage persistent scenario context.*\n- Click the 📖 button to open the persistent guides menu.\n- Select a guide type (see below) to generate or manage context.\n\n**Guide Types:**\n  - 🗺️ Situational: Generate context from recent chat or user focus.\n  - 🧠 Thinking: Generate character thoughts (auto-trigger optional).\n  - 👕 Clothes: Describe character outfits (auto-trigger optional).\n  - 🧍 State: Detail character positions/status (auto-trigger optional).\n  - 📜 Rules: Define or update in-story rules.\n  - ➕ Custom: Inject user-defined context.\n\n**Management Actions:**\n  - ✏️ Edit Guides: Modify existing guide injections via popup.\n  - 👁️ Show Guides: Display all active guides.\n  - 🗑️ Flush Guides: Remove selected or all guides.\n- Auto-trigger for Thinking, Clothes, and State can be toggled in settings.\n\n### 🔖 Tools Menu\n*Access additional utilities*\n  - **🔧 Corrections:** Edit the last AI message with targeted instructions.\n  - **✅ Spellchecker:** Polish your input for grammar, punctuation, and flow.\n  - **✈️ Simple Send:** Send input as a user message without triggering a model response.\n  - **🖋️ Edit Intros:** Rewrite or transform introductory messages on demand.\n  - **↩️ Input Recovery:** Restore previously cleared input.\n\n---\n\n## Installation\n\n1. **Install the Extension:**\n   - In the Extensionmanager click on Install Extension and enter https://github.com/Samueras/GuidedGenerations-Extension/ as the GITHUB\n\n\n---\n",
+    "ContentSha": "c7KWiNIDczHNai4wosaENMAEzLunSVV6suWYytKG9Ns=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - [2nd Person](https://youtube.com/shorts/80l12LrtBpQ?feature=share)\n  - [3rd Person](https://youtube.com/shorts/wWka-1URLPg?feature=share)\n\n### 📖 Persistent Guides Menu\n*Manage persistent scenario context.*\n- Click the 📖 button to open the persistent guides menu.\n- Select a guide type (see below) to generate or manage context.\n\n**Guide Types:**\n  - 🗺️ Situational: Generate context from recent chat or user focus.\n  - 🧠 Thinking: Generate character thoughts (auto-trigger optional).\n  - 👕 Clothes: Describe character outfits (auto-trigger optional).\n  - 🧍 State: Detail character positions/status (auto-trigger optional).\n  - 📜 Rules: Define or update in-story rules.\n  - ➕ Custom: Inject user-defined context.\n\n**Management Actions:**\n  - ✏️ Edit Guides: Modify existing guide injections via popup.\n  - 👁️ Show Guides: Display all active guides.\n  - 🗑️ Flush Guides: Remove selected or all guides.\n- Auto-trigger for Thinking, Clothes, and State can be toggled in settings.\n\n### 🔖 Tools Menu\n*Access additional utilities*\n  - **🔧 Corrections:** Edit the last AI message with targeted instructions.\n  - **✅ Spellchecker:** Polish your input for grammar, punctuation, and flow.\n  - **✈️ Simple Send:** Send input as a user message without triggering a model response.\n  - **🖋️ Edit Intros:** Rewrite or transform introductory messages on demand.\n  - **↩️ Input Recovery:** Restore previously cleared input.\n\n---\n\n## Installation\n\n1. **Install the Extension:**\n   - In the Extension manager click on Install Extension and enter https://github.com/Samueras/GuidedGenerations-Extension/ as the GITHUB\n\n\n---\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+bC+m4K7ht9TBjZHuMZHWa5bTZp9Wg7vmOPAhCmXkt0=",
+        "originContent": "  - [2nd Person](https://youtube.com/shorts/80l12LrtBpQ?feature=share)",
+        "translatedContent": "  - [2nd Person](https://youtube.com/shorts/80l12LrtBpQ?feature=share)"
+      },
+      {
+        "row": 2,
+        "rowsha": "Heu/YOksUd0J3S9ZI7KHToG7b0/zIdWdlD8hvxtluAg=",
+        "originContent": "  - [3rd Person](https://youtube.com/shorts/wWka-1URLPg?feature=share)",
+        "translatedContent": "  - [3rd Person](https://youtube.com/shorts/wWka-1URLPg?feature=share)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "MV0j9LxmSmWzWRXWAswSh3dgCB4EUZWxmnkY6PB4TGY=",
+        "originContent": "### 📖 Persistent Guides Menu",
+        "translatedContent": "### 📖 Persistent Guides Menu"
+      },
+      {
+        "row": 5,
+        "rowsha": "9IFrEOOd97r9BuRXc4lt5od+wHo0e2sd/7gFtXeCA10=",
+        "originContent": "*Manage persistent scenario context.*",
+        "translatedContent": "*Manage persistent scenario context.*"
+      },
+      {
+        "row": 6,
+        "rowsha": "DbaEyCFT5vxoSn8mXxp+34S8dtJjRh8Mihc1ipORYco=",
+        "originContent": "- Click the 📖 button to open the persistent guides menu.",
+        "translatedContent": "- Click the 📖 button to open the persistent guides menu."
+      },
+      {
+        "row": 7,
+        "rowsha": "JoXQ2eXVY9A4r4KDArtjwOsrD8slyvmJC/4O3vxfoH8=",
+        "originContent": "- Select a guide type (see below) to generate or manage context.",
+        "translatedContent": "- Select a guide type (see below) to generate or manage context."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "TxgfT+gGdgPNVXTuJiEmd0Y4JOU3EfF+0kuhvf68QBI=",
+        "originContent": "**Guide Types:**",
+        "translatedContent": "**Guide Types:**"
+      },
+      {
+        "row": 10,
+        "rowsha": "BB2hIipbo1uTnA+1K9uqak8I9FmyrTVzy5LOdpkAfcQ=",
+        "originContent": "  - 🗺️ Situational: Generate context from recent chat or user focus.",
+        "translatedContent": "  - 🗺️ Situational: Generate context from recent chat or user focus."
+      },
+      {
+        "row": 11,
+        "rowsha": "Bstz4TnXlvusrJ+QJ0yy3HlqQYNt5RrWjUgSPsW3hvQ=",
+        "originContent": "  - 🧠 Thinking: Generate character thoughts (auto-trigger optional).",
+        "translatedContent": "  - 🧠 Thinking: Generate character thoughts (auto-trigger optional)."
+      },
+      {
+        "row": 12,
+        "rowsha": "TQ+AdXUA7bRVTpgFdzZ5gJyF4K9ndQJSsiJK/r9o8BQ=",
+        "originContent": "  - 👕 Clothes: Describe character outfits (auto-trigger optional).",
+        "translatedContent": "  - 👕 Clothes: Describe character outfits (auto-trigger optional)."
+      },
+      {
+        "row": 13,
+        "rowsha": "40Cx1fMck1GGavmJLcutF/sLcRGIU76CaAF8Gm76zfE=",
+        "originContent": "  - 🧍 State: Detail character positions/status (auto-trigger optional).",
+        "translatedContent": "  - 🧍 State: Detail character positions/status (auto-trigger optional)."
+      },
+      {
+        "row": 14,
+        "rowsha": "+V8kVyL5yc8J6FxtwJjlaWVyY4o6OOFTz99qYG36NJo=",
+        "originContent": "  - 📜 Rules: Define or update in-story rules.",
+        "translatedContent": "  - 📜 Rules: Define or update in-story rules."
+      },
+      {
+        "row": 15,
+        "rowsha": "6cvMkOPfTIv0zWNzNUYgNXxgs1HHM9NvaluI5HgunbA=",
+        "originContent": "  - ➕ Custom: Inject user-defined context.",
+        "translatedContent": "  - ➕ Custom: Inject user-defined context."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "XYqwO+6AaG5IWMEVxGj2lvWLyz5OBFNEFWAMKrfaccA=",
+        "originContent": "**Management Actions:**",
+        "translatedContent": "**Management Actions:**"
+      },
+      {
+        "row": 18,
+        "rowsha": "KeC8wjGNVQvm0dPCPUcfmQ2y0v2yntsStFyudYPqqQ4=",
+        "originContent": "  - ✏️ Edit Guides: Modify existing guide injections via popup.",
+        "translatedContent": "  - ✏️ Edit Guides: Modify existing guide injections via popup."
+      },
+      {
+        "row": 19,
+        "rowsha": "Z/IyA/N7Vx3pZOnspKHUe4fHNFkUKMc91jfSoyXgSUw=",
+        "originContent": "  - 👁️ Show Guides: Display all active guides.",
+        "translatedContent": "  - 👁️ Show Guides: Display all active guides."
+      },
+      {
+        "row": 20,
+        "rowsha": "AVML3qwagfUtFeQqQePGkCnAg9UqBBcxnS2zJ8IljuA=",
+        "originContent": "  - 🗑️ Flush Guides: Remove selected or all guides.",
+        "translatedContent": "  - 🗑️ Flush Guides: Remove selected or all guides."
+      },
+      {
+        "row": 21,
+        "rowsha": "iTWPOwFY1S4QNpXMiHFvj6a9mY1FlaInJgbOHd5CmeM=",
+        "originContent": "- Auto-trigger for Thinking, Clothes, and State can be toggled in settings.",
+        "translatedContent": "- Auto-trigger for Thinking, Clothes, and State can be toggled in settings."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "q4IcYyjdn3G9VfaXdcFeeXKfovwvnfY3ClYGI/e8A8Q=",
+        "originContent": "### 🔖 Tools Menu",
+        "translatedContent": "### 🔖 Tools Menu"
+      },
+      {
+        "row": 24,
+        "rowsha": "l2uk7vYRl+M/tjh7BwdggA0twHIs0HlHa7JYnUHxk2Y=",
+        "originContent": "*Access additional utilities*",
+        "translatedContent": "*Access additional utilities*"
+      },
+      {
+        "row": 25,
+        "rowsha": "KGQ0lE+Stp45uBVQYSrmcNoMkgKr5XF0nk0uCVrjmoM=",
+        "originContent": "  - **🔧 Corrections:** Edit the last AI message with targeted instructions.",
+        "translatedContent": "  - **🔧 Corrections:** Edit the last AI message with targeted instructions."
+      },
+      {
+        "row": 26,
+        "rowsha": "3CrwjaMEn/zlU3r97iNgyelIZiNpbARfV/d8mkuY99k=",
+        "originContent": "  - **✅ Spellchecker:** Polish your input for grammar, punctuation, and flow.",
+        "translatedContent": "  - **✅ Spellchecker:** Polish your input for grammar, punctuation, and flow."
+      },
+      {
+        "row": 27,
+        "rowsha": "uFM/TOmZc9sQPDqMxNuYM0OdvjaJlvPS9JOXcWcpQB8=",
+        "originContent": "  - **✈️ Simple Send:** Send input as a user message without triggering a model response.",
+        "translatedContent": "  - **✈️ Simple Send:** Send input as a user message without triggering a model response."
+      },
+      {
+        "row": 28,
+        "rowsha": "hDGB7FBMGkWexh9pQlPC2wYjFSPLYsoVwBx7142/Hdw=",
+        "originContent": "  - **🖋️ Edit Intros:** Rewrite or transform introductory messages on demand.",
+        "translatedContent": "  - **🖋️ Edit Intros:** Rewrite or transform introductory messages on demand."
+      },
+      {
+        "row": 29,
+        "rowsha": "z+zt4sTJiQBgsEHpLpM3C95vOjzksl8j2bn3CyVO5EY=",
+        "originContent": "  - **↩️ Input Recovery:** Restore previously cleared input.",
+        "translatedContent": "  - **↩️ Input Recovery:** Restore previously cleared input."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "9Na1rasU4E42qOVjPVAi8hphGk2m7nXyc4C0L5bMo0g=",
+        "originContent": "1. **Install the Extension:**",
+        "translatedContent": "1. **Install the Extension:**"
+      },
+      {
+        "row": 36,
+        "rowsha": "8siqh5CpzjqgwCP7Bb2OApcGjEqKmSkKIn4bfwyuTi0=",
+        "originContent": "   - In the Extensionmanager click on Install Extension and enter https://github.com/Samueras/GuidedGenerations-Extension/ as the GITHUB",
+        "translatedContent": "   - In the Extension manager click on Install Extension and enter https://github.com/Samueras/GuidedGenerations-Extension/ as the GITHUB"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "## Usage\n\n- All main features appear as buttons next to the send button or in the left-side gear menu.\n- Hover tooltips and context menus provide guidance and quick access to advanced features.\n- See in-app settings for feature toggles and auto-guide configuration.\n- For full technical details, see [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md).\n\n---\n\n## ⚙️ Settings\n\nAll extension settings are managed via SillyTavern’s Extension Settings panel:\n\n- **Auto-Trigger**: toggle automatic execution of:\n  - Thinking Guide\n  - State Guide\n  - Clothes Guide\n\n- **Buttons Visibility**: show or hide action buttons:\n  - 1st Person Impersonation (👤)\n  - 2nd Person Impersonation (👥)\n  - 3rd Person Impersonation (🗣️)\n  - Guided Response (🐕)\n  - Guided Swipe (👈)\n  - Persistent Guides Menu (📖)\n\n- **Injection Role**: select the role (`system`, `assistant`, or `user`) used when injecting instructions.\n\n- **Debug Mode**: when enabled, shows detailed debug information in the browser console. Useful for troubleshooting but can clutter the console during normal use.\n\n- **Presets**: for each guide/tool (Clothes, State, Thinking, Situational, Rules, Custom, Corrections, Spellchecker, Edit Intros, Impersonation 1st/2nd/3rd), choose any SillyTavern preset. Before running a guide/tool, the extension will switch to that preset (and its configured API/model), execute the action, then restore your previous preset—allowing different models per guide.\n\n- **Prompt Overrides**: customize the raw prompt template for each guide/tool. Use `{{input}}` for your input text and other placeholders as supported. Overrides apply to:\n  - Clothes Guide Prompt\n  - State Guide Prompt\n  - Thinking Guide Prompt\n  - Situational Guide Prompt\n  - Rules Guide Prompt\n  - Corrections Prompt\n  - Spellchecker Prompt",
+    "ContentSha": "wnOwsCTnB9m6lnobk5DA4XjGQt1LedQoFW9UK9BXnZA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Usage\n\n- All main features appear as buttons next to the send button or in the left-side gear menu.\n- Hover tooltips and context menus provide guidance and quick access to advanced features.\n- See in-app settings for feature toggles and auto-guide configuration.\n- For full technical details, see [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md).\n\n---\n\n## ⚙️ Settings\n\nAll extension settings are managed via SillyTavern’s Extension Settings panel:\n\n- **Auto-Trigger**: toggle automatic execution of:\n  - Thinking Guide\n  - State Guide\n  - Clothes Guide\n\n- **Buttons Visibility**: show or hide action buttons:\n  - 1st Person Impersonation (👤)\n  - 2nd Person Impersonation (👥)\n  - 3rd Person Impersonation (🗣️)\n  - Guided Response (🐕)\n  - Guided Swipe (👈)\n  - Persistent Guides Menu (📖)\n\n- **Injection Role**: select the role (`system`, `assistant`, or `user`) used when injecting instructions.\n\n- **Debug Mode**: when enabled, shows detailed debug information in the browser console. Useful for troubleshooting but can clutter the console during normal use.\n\n- **Presets**: for each guide/tool (Clothes, State, Thinking, Situational, Rules, Custom, Corrections, Spellchecker, Edit Intros, Impersonation 1st/2nd/3rd), choose any SillyTavern preset. Before running a guide/tool, the extension will switch to that preset (and its configured API/model), execute the action, then restore your previous preset—allowing different models per guide.\n\n- **Prompt Overrides**: customize the raw prompt template for each guide/tool. Use `{{input}}` for your input text and other placeholders as supported. Overrides apply to:\n  - Clothes Guide Prompt\n  - State Guide Prompt\n  - Thinking Guide Prompt\n  - Situational Guide Prompt\n  - Rules Guide Prompt\n  - Corrections Prompt\n  - Spellchecker Prompt",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Usage"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "T3IHRu2tzMKHkRYKPo+Rb0JHs076hxXwEtbas5S8gBE=",
+        "originContent": "- All main features appear as buttons next to the send button or in the left-side gear menu.",
+        "translatedContent": "- All main features appear as buttons next to the send button or in the left-side gear menu."
+      },
+      {
+        "row": 4,
+        "rowsha": "lVGeDEnb4/QOuufpEc0ect9sHM8U1d+ySCovip4umuQ=",
+        "originContent": "- Hover tooltips and context menus provide guidance and quick access to advanced features.",
+        "translatedContent": "- Hover tooltips and context menus provide guidance and quick access to advanced features."
+      },
+      {
+        "row": 5,
+        "rowsha": "38jp3t+77aXlfhQk+PhCZwyqulHKfroijfEcwgt4BGc=",
+        "originContent": "- See in-app settings for feature toggles and auto-guide configuration.",
+        "translatedContent": "- See in-app settings for feature toggles and auto-guide configuration."
+      },
+      {
+        "row": 6,
+        "rowsha": "2b+CAr70XujNgyMHP/RE3+kzZsXP00w3AShybY2L0AI=",
+        "originContent": "- For full technical details, see [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md).",
+        "translatedContent": "- For full technical details, see [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md)."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "r6Bssne+bHm0rsbmdO4G7vjYz4Cqr6bJmrbfwLjIHbo=",
+        "originContent": "## ⚙️ Settings",
+        "translatedContent": "## ⚙️ Settings"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "KCMrTg3rhoBEY+1DuR6pvhd6AgcYLrkTyeVHoxjF/7w=",
+        "originContent": "All extension settings are managed via SillyTavern’s Extension Settings panel:",
+        "translatedContent": "All extension settings are managed via SillyTavern’s Extension Settings panel:"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "P3Vl8jnMap+lFBG4eHxjaprBcaWhG0uIq0Mp5vbC3vE=",
+        "originContent": "- **Auto-Trigger**: toggle automatic execution of:",
+        "translatedContent": "- **Auto-Trigger**: toggle automatic execution of:"
+      },
+      {
+        "row": 15,
+        "rowsha": "rvc20pk6UVU6bLFyNKX/Y0JVndB1e/oL+Ln8BYzB4tI=",
+        "originContent": "  - Thinking Guide",
+        "translatedContent": "  - Thinking Guide"
+      },
+      {
+        "row": 16,
+        "rowsha": "OY02YcBOydGCypPnfHnb44QenQfEQJti/Lb93zDgNFo=",
+        "originContent": "  - State Guide",
+        "translatedContent": "  - State Guide"
+      },
+      {
+        "row": 17,
+        "rowsha": "zQ2fVGKq5XT7nWbugQEzu6b0wzsrQboMYQ0UAKmVAh8=",
+        "originContent": "  - Clothes Guide",
+        "translatedContent": "  - Clothes Guide"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "FASSslwla0y44AfeuZEvBQEKDoJ9f8YYQPvpBzU2C5g=",
+        "originContent": "- **Buttons Visibility**: show or hide action buttons:",
+        "translatedContent": "- **Buttons Visibility**: show or hide action buttons:"
+      },
+      {
+        "row": 20,
+        "rowsha": "UEi5wLEPE1+6h2ObnuPpTA3P+920SlsVSQwBpqzgFB0=",
+        "originContent": "  - 1st Person Impersonation (👤)",
+        "translatedContent": "  - 1st Person Impersonation (👤)"
+      },
+      {
+        "row": 21,
+        "rowsha": "k61gcylxtsekLMmO98E0lBtqRmqHRPiMUO8SgLR7wJI=",
+        "originContent": "  - 2nd Person Impersonation (👥)",
+        "translatedContent": "  - 2nd Person Impersonation (👥)"
+      },
+      {
+        "row": 22,
+        "rowsha": "ahf/Y7hPXtyhU8A7EUoRnES8dxCwOsI80QDKLHRXM7Q=",
+        "originContent": "  - 3rd Person Impersonation (🗣️)",
+        "translatedContent": "  - 3rd Person Impersonation (🗣️)"
+      },
+      {
+        "row": 23,
+        "rowsha": "FNxfprbEr6Od7pGgIxf2wLZOQuiGPrze8yAck/ayWwE=",
+        "originContent": "  - Guided Response (🐕)",
+        "translatedContent": "  - Guided Response (🐕)"
+      },
+      {
+        "row": 24,
+        "rowsha": "hJGMpOMtaegxDkmsLXPF5tzgxhWkVTiKT8NxM3dp9tg=",
+        "originContent": "  - Guided Swipe (👈)",
+        "translatedContent": "  - Guided Swipe (👈)"
+      },
+      {
+        "row": 25,
+        "rowsha": "B9xO4uQV8dxVGI5OIiXiZKzR4bOFKfc9L8wC/Jc/HWM=",
+        "originContent": "  - Persistent Guides Menu (📖)",
+        "translatedContent": "  - Persistent Guides Menu (📖)"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "BQWxRT3Wy10L7DKeBYixwuAul6MCak8l2YVfWCZhyBA=",
+        "originContent": "- **Injection Role**: select the role (`system`, `assistant`, or `user`) used when injecting instructions.",
+        "translatedContent": "- **Injection Role**: select the role (`system`, `assistant`, or `user`) used when injecting instructions."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "S+O4LGKwI9w5FmlLOZwXmENDaorORCiqGQr6VRCeDM0=",
+        "originContent": "- **Debug Mode**: when enabled, shows detailed debug information in the browser console. Useful for troubleshooting but can clutter the console during normal use.",
+        "translatedContent": "- **Debug Mode**: when enabled, shows detailed debug information in the browser console. Useful for troubleshooting but can clutter the console during normal use."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "pOX8wpKFLHQUcvqAbgqdl66E7gNrWhaZZ78IKOEd8B4=",
+        "originContent": "- **Presets**: for each guide/tool (Clothes, State, Thinking, Situational, Rules, Custom, Corrections, Spellchecker, Edit Intros, Impersonation 1st/2nd/3rd), choose any SillyTavern preset. Before running a guide/tool, the extension will switch to that preset (and its configured API/model), execute the action, then restore your previous preset—allowing different models per guide.",
+        "translatedContent": "- **Presets**: for each guide/tool (Clothes, State, Thinking, Situational, Rules, Custom, Corrections, Spellchecker, Edit Intros, Impersonation 1st/2nd/3rd), choose any SillyTavern preset. Before running a guide/tool, the extension will switch to that preset (and its configured API/model), execute the action, then restore your previous preset—allowing different models per guide."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "NFL6BAnhfhsTGfhf87M5SvK+4f+drCJGsUM05Db9J1I=",
+        "originContent": "- **Prompt Overrides**: customize the raw prompt template for each guide/tool. Use `{{input}}` for your input text and other placeholders as supported. Overrides apply to:",
+        "translatedContent": "- **Prompt Overrides**: customize the raw prompt template for each guide/tool. Use `{{input}}` for your input text and other placeholders as supported. Overrides apply to:"
+      },
+      {
+        "row": 34,
+        "rowsha": "qjYM61yYNRv0NakZj0J/PnYRboXX0cHdNKOZFT2+j3I=",
+        "originContent": "  - Clothes Guide Prompt",
+        "translatedContent": "  - Clothes Guide Prompt"
+      },
+      {
+        "row": 35,
+        "rowsha": "AYV258DJRYA1DDmZRYNbmpu4Rqra8jHe1c4EzKN/DW0=",
+        "originContent": "  - State Guide Prompt",
+        "translatedContent": "  - State Guide Prompt"
+      },
+      {
+        "row": 36,
+        "rowsha": "atJkyM1+o3tXhiNJ6sU82juJb7zhgE+fAyjKyQny58Y=",
+        "originContent": "  - Thinking Guide Prompt",
+        "translatedContent": "  - Thinking Guide Prompt"
+      },
+      {
+        "row": 37,
+        "rowsha": "GWT5DIqs49r6LOoUIuRmFHjTqPIkRig8tSf9Jeyj+g0=",
+        "originContent": "  - Situational Guide Prompt",
+        "translatedContent": "  - Situational Guide Prompt"
+      },
+      {
+        "row": 38,
+        "rowsha": "VHrfWc4K7qOTNWaOpS0skuQ754ZCNeQJ6nLk8lHBgzw=",
+        "originContent": "  - Rules Guide Prompt",
+        "translatedContent": "  - Rules Guide Prompt"
+      },
+      {
+        "row": 39,
+        "rowsha": "nO2HhhbOXYHGaWx5NIOsw+Wj6w8EocqXMgEN4g/irZk=",
+        "originContent": "  - Corrections Prompt",
+        "translatedContent": "  - Corrections Prompt"
+      },
+      {
+        "row": 40,
+        "rowsha": "r73fm0yS/CnDy8GFLL6RbbJDyrxcFjJF55d/RBfXEyk=",
+        "originContent": "  - Spellchecker Prompt",
+        "translatedContent": "  - Spellchecker Prompt"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "  - Impersonate 1st/2nd/3rd Person Prompts\n  - Guided Response Prompt\n  - Guided Swipe Prompt\n\n---\n\n## Troubleshooting\n\n- **Missing Buttons:** Ensure SillyTavern is up to date (v1.12.9+) and LALib is installed/enabled.\n- **Context Menus Not Appearing:** Try switching chats or re-adding the extension in the Quick Replies menu.\n- **Other Issues:** Restart SillyTavern, check for updates, and consult the [SillyTavern documentation](https://github.com/SillyTavern/SillyTavern).\n\n---\n\n## License\n\nThis project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.\n\n---\n\n## Contributing\n\nContributions are welcome! Submit pull requests or open issues for improvements, features, or documentation. For questions or feedback, open an issue in this repository.\n\n---\n\n## ❤️ Support the Project\n\nIf you find this extension helpful, please consider supporting my work:\n\n- [☕ Buy me a coffee on Ko-fi](https://ko-fi.com/samueras)\n",
+    "ContentSha": "nSFaoulytoiKzNdEefeNF7L4c1f9cfTGH3u5KIg5W1k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - Impersonate 1st/2nd/3rd Person Prompts\n  - Guided Response Prompt\n  - Guided Swipe Prompt\n\n---\n\n## Troubleshooting\n\n- **Missing Buttons:** Ensure SillyTavern is up to date (v1.12.9+) and LALib is installed/enabled.\n- **Context Menus Not Appearing:** Try switching chats or re-adding the extension in the Quick Replies menu.\n- **Other Issues:** Restart SillyTavern, check for updates, and consult the [SillyTavern documentation](https://github.com/SillyTavern/SillyTavern).\n\n---\n\n## License\n\nThis project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.\n\n---\n\n## Contributing\n\nContributions are welcome! Submit pull requests or open issues for improvements, features, or documentation. For questions or feedback, open an issue in this repository.\n\n---\n\n## ❤️ Support the Project\n\nIf you find this extension helpful, please consider supporting my work:\n\n- [☕ Buy me a coffee on Ko-fi](https://ko-fi.com/samueras)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cvMbS40I0B5kjfdyV0P05l6ZL5I4WeBMtsH1ETrY/V8=",
+        "originContent": "  - Impersonate 1st/2nd/3rd Person Prompts",
+        "translatedContent": "  - Impersonate 1st/2nd/3rd Person Prompts"
+      },
+      {
+        "row": 2,
+        "rowsha": "nvId1sh1gMjvXQ/7fHxTyu2Putf1RGrkt0SGjPyuHvU=",
+        "originContent": "  - Guided Response Prompt",
+        "translatedContent": "  - Guided Response Prompt"
+      },
+      {
+        "row": 3,
+        "rowsha": "43S2qV8Op5Du97KEC4ibIhWz9ze4DYLBROt2w4/nyXM=",
+        "originContent": "  - Guided Swipe Prompt",
+        "translatedContent": "  - Guided Swipe Prompt"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+        "originContent": "## Troubleshooting",
+        "translatedContent": "## Troubleshooting"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "dXDUoP09pfZ8hpvi0NZPA4HDtk6RLfy4ULRIyjWqoSw=",
+        "originContent": "- **Missing Buttons:** Ensure SillyTavern is up to date (v1.12.9+) and LALib is installed/enabled.",
+        "translatedContent": "- **Missing Buttons:** Ensure SillyTavern is up to date (v1.12.9+) and LALib is installed/enabled."
+      },
+      {
+        "row": 10,
+        "rowsha": "Fq5unqoNTmGTZyI5fx6Ph4kt3q08vYL+dpPw5Hk0f0Y=",
+        "originContent": "- **Context Menus Not Appearing:** Try switching chats or re-adding the extension in the Quick Replies menu.",
+        "translatedContent": "- **Context Menus Not Appearing:** Try switching chats or re-adding the extension in the Quick Replies menu."
+      },
+      {
+        "row": 11,
+        "rowsha": "el+DvS7ESdcYmghwWVcr+ezvKthfuWt9rZVpa90jJ94=",
+        "originContent": "- **Other Issues:** Restart SillyTavern, check for updates, and consult the [SillyTavern documentation](https://github.com/SillyTavern/SillyTavern).",
+        "translatedContent": "- **Other Issues:** Restart SillyTavern, check for updates, and consult the [SillyTavern documentation](https://github.com/SillyTavern/SillyTavern)."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## License"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "sHQz5O51Jaddxl6UuhIbMeiQ0UYcrKplk4kSP2r7tw0=",
+        "originContent": "This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.",
+        "translatedContent": "This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Contributing"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "lI1fCNAwuhXNgFJnrjI938c26U7clxK792LbEfEcA1Q=",
+        "originContent": "Contributions are welcome! Submit pull requests or open issues for improvements, features, or documentation. For questions or feedback, open an issue in this repository.",
+        "translatedContent": "Contributions are welcome! Submit pull requests or open issues for improvements, features, or documentation. For questions or feedback, open an issue in this repository."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "Sz01sCDINCgT4bD+aXSBB40/jihTNWJhkTwkBYaIMJQ=",
+        "originContent": "## ❤️ Support the Project",
+        "translatedContent": "## ❤️ Support the Project"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "8OWyu2AWA6M/kEQ/cnNOgPrxzdlnA4PXcMqtJPxUDvI=",
+        "originContent": "If you find this extension helpful, please consider supporting my work:",
+        "translatedContent": "If you find this extension helpful, please consider supporting my work:"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "YIfQgGRDyW48kHkRBG4gRCKRX3GPBzuLebILSYOTFP0=",
+        "originContent": "- [☕ Buy me a coffee on Ko-fi](https://ko-fi.com/samueras)",
+        "translatedContent": "- [☕ Buy me a coffee on Ko-fi](https://ko-fi.com/samueras)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,966 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Guided Generations Extension for SillyTavern\n\nThis extension brings the full power of the original \"Guided Generations\" Quick Reply set to SillyTavern as a native extension. It provides modular, context-aware tools for shaping, refining, and guiding AI responses—ideal for roleplay, story, and character-driven chats. All features are accessible via intuitive buttons and menus integrated into the SillyTavern UI.\n\nSee [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md) for code-level documentation.\n\n---\n\n## Table of Contents\n- [Features](#features)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Settings](#settings)\n- [Troubleshooting](#troubleshooting)\n- [License](#license)\n- [Contributing](#contributing)\n\n---\n\n## Features\n\n### 🐕 Guided Response\n*Inject instructions before the AI replies.*\n- Type instructions and press 🐕.\n- Your instructions guide the next AI response.\n- [Video Example](https://youtube.com/shorts/yxdtbF3NxW4?feature=share)\n\n### 👈 Guided Swipe\n*Regenerate the last AI message with new guidance.*\n- Enter new instructions and press 👈 to generate a new swipe.\n- Only available if the last message is from the AI.\n- [Video Example](https://youtube.com/shorts/GRQ9l_8K6-Y?feature=share)\n\n### Impersonation (1st: 👤, 2nd: 👥, 3rd: 🗣️)\n*Expand outlines into rich, in-character narratives.*\n- Enter a brief outline, select perspective (toggle in settings), and press the corresponding button (👤/👥/🗣️).\n- Your outline is expanded into a full message from the chosen viewpoint.\n- Can be hidden or displayed individually per settings. 1st Person is displayed by default.\n- Video Examples:\n  - [1st Person](https://youtube.com/shorts/FT5gv3d2kE4?feature=share)",
+    "ContentSha": "Byb4TGDM3PVDMliZZDujxEp0aFmxuZQ1kmC5TbD75c4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# SillyTavern용 Guided Generations 확장\n\n이 확장은 원본 \"Guided Generations\" 빠른 응답 세트의 모든 기능을 SillyTavern에 네이티브 확장으로 제공합니다. 역할극, 스토리, 캐릭터 중심 대화에 이상적인 모듈식, 상황 인식 도구로 AI 응답을 형성, 다듬고 안내할 수 있습니다. 모든 기능은 SillyTavern UI에 통합된 직관적인 버튼과 메뉴를 통해 접근할 수 있습니다.\n\n코드 수준 문서는 [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md)를 참조하세요.\n\n---\n\n## 목차\n- [기능](#features)\n- [설치](#installation)\n- [사용법](#usage)\n- [설정](#settings)\n- [문제 해결](#troubleshooting)\n- [라이선스](#license)\n- [기여하기](#contributing)\n\n---\n\n## 기능\n\n### 🐕 안내된 응답\n*AI가 답변하기 전에 지침을 주입합니다.*\n- 지침을 입력하고 🐕 버튼을 누르세요.\n- 입력한 지침이 다음 AI 응답을 안내합니다.\n- [영상 예시](https://youtube.com/shorts/yxdtbF3NxW4?feature=share)\n\n### 👈 안내된 스와이프\n*새로운 지침으로 마지막 AI 메시지를 재생성합니다.*\n- 새 지침을 입력하고 👈 버튼을 눌러 새 스와이프를 생성하세요.\n- 마지막 메시지가 AI의 메시지인 경우에만 사용 가능합니다.\n- [영상 예시](https://youtube.com/shorts/GRQ9l_8K6-Y?feature=share)\n\n### 역할 대행 (1인칭: 👤, 2인칭: 👥, 3인칭: 🗣️)\n*개요를 풍부하고 캐릭터에 맞는 내러티브로 확장합니다.*\n- 간단한 개요를 입력하고, 관점을 선택한 후(설정에서 전환 가능) 해당 버튼(👤/👥/🗣️)을 누르세요.\n- 선택한 시점에서 전체 메시지로 개요가 확장됩니다.\n- 설정에 따라 개별적으로 숨기거나 표시할 수 있습니다. 1인칭은 기본 표시됩니다.\n- 영상 예시:\n  - [1인칭](https://youtube.com/shorts/FT5gv3d2kE4?feature=share)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "zHCUbSH0tpb8Lh5fP6TEHHMdhYv7fnpcxwFtaElDXDo=",
+        "originContent": "# Guided Generations Extension for SillyTavern",
+        "translatedContent": "# SillyTavern용 Guided Generations 확장"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "jcbUhwPi4s0ZSItRxicUWmwaP8KQrpw0KMgNLg+ygBM=",
+        "originContent": "This extension brings the full power of the original \"Guided Generations\" Quick Reply set to SillyTavern as a native extension. It provides modular, context-aware tools for shaping, refining, and guiding AI responses—ideal for roleplay, story, and character-driven chats. All features are accessible via intuitive buttons and menus integrated into the SillyTavern UI.",
+        "translatedContent": "이 확장은 원본 \"Guided Generations\" 빠른 응답 세트의 모든 기능을 SillyTavern에 네이티브 확장으로 제공합니다. 역할극, 스토리, 캐릭터 중심 대화에 이상적인 모듈식, 상황 인식 도구로 AI 응답을 형성, 다듬고 안내할 수 있습니다. 모든 기능은 SillyTavern UI에 통합된 직관적인 버튼과 메뉴를 통해 접근할 수 있습니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "3HZuNzMQluGQOkRNitRAkWVGIFpqIML6rbz/4tyFHB0=",
+        "originContent": "See [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md) for code-level documentation.",
+        "translatedContent": "코드 수준 문서는 [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md)를 참조하세요."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## 목차"
+      },
+      {
+        "row": 10,
+        "rowsha": "BI+Zz2NbZ0AX7YgD9EjinH4VCYulypQnBww5RTqTSDI=",
+        "originContent": "- [Features](#features)",
+        "translatedContent": "- [기능](#features)"
+      },
+      {
+        "row": 11,
+        "rowsha": "Wl12oCRmfvQwHCfuvjGuhBK05j+rCEJcS20CJyqXCVA=",
+        "originContent": "- [Installation](#installation)",
+        "translatedContent": "- [설치](#installation)"
+      },
+      {
+        "row": 12,
+        "rowsha": "ANDaZUJ7DId7BvvcAsl+TYu9Nvfj6L56tZfZOUbQDoo=",
+        "originContent": "- [Usage](#usage)",
+        "translatedContent": "- [사용법](#usage)"
+      },
+      {
+        "row": 13,
+        "rowsha": "jdY9NxXrnBwQu0W9VyGPhENZI+DLcAfSurUBmW3CX5A=",
+        "originContent": "- [Settings](#settings)",
+        "translatedContent": "- [설정](#settings)"
+      },
+      {
+        "row": 14,
+        "rowsha": "1g7haVJrQFN756lloz3r1vHinMdQvyk8HwnlqBq0B7c=",
+        "originContent": "- [Troubleshooting](#troubleshooting)",
+        "translatedContent": "- [문제 해결](#troubleshooting)"
+      },
+      {
+        "row": 15,
+        "rowsha": "aiElU+9O/5KGvOFd7CcJXGSaQL0/8Fg5sGxP7wVVzv4=",
+        "originContent": "- [License](#license)",
+        "translatedContent": "- [라이선스](#license)"
+      },
+      {
+        "row": 16,
+        "rowsha": "46o9OlXCA1a4tZeh7IEuTh2QUV2OtRFcI4YWidxNwmU=",
+        "originContent": "- [Contributing](#contributing)",
+        "translatedContent": "- [기여하기](#contributing)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "P7UGkDLcvLrztEaTfS7ZItvRBmj5TLknGNBppDbOZR0=",
+        "originContent": "### 🐕 Guided Response",
+        "translatedContent": "### 🐕 안내된 응답"
+      },
+      {
+        "row": 23,
+        "rowsha": "1C/9mUp69eEvMFyOO5BIsUEUbWHXWQwKrIcdQFShZSU=",
+        "originContent": "*Inject instructions before the AI replies.*",
+        "translatedContent": "*AI가 답변하기 전에 지침을 주입합니다.*"
+      },
+      {
+        "row": 24,
+        "rowsha": "bbVS2gP4hR6cwSpyOYHzGqFts/mmQ+5e5dqJ6XW84Ro=",
+        "originContent": "- Type instructions and press 🐕.",
+        "translatedContent": "- 지침을 입력하고 🐕 버튼을 누르세요."
+      },
+      {
+        "row": 25,
+        "rowsha": "qBlCKk+rTijB5MGY+bp9D3mJrxwPT8DlOOWnpESEL1c=",
+        "originContent": "- Your instructions guide the next AI response.",
+        "translatedContent": "- 입력한 지침이 다음 AI 응답을 안내합니다."
+      },
+      {
+        "row": 26,
+        "rowsha": "MDUQXrN90mfjlGJsr2tv/641Rou0IbAjirapotUk45g=",
+        "originContent": "- [Video Example](https://youtube.com/shorts/yxdtbF3NxW4?feature=share)",
+        "translatedContent": "- [영상 예시](https://youtube.com/shorts/yxdtbF3NxW4?feature=share)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "9o9CUQzhljO6uBhXRtBcQOJranZ/0WyhTJm+ic7xdgk=",
+        "originContent": "### 👈 Guided Swipe",
+        "translatedContent": "### 👈 안내된 스와이프"
+      },
+      {
+        "row": 29,
+        "rowsha": "A6d5r8IwAhxrgK0krbpM1cSUgdUIkGD+fr/ac1Nvf2U=",
+        "originContent": "*Regenerate the last AI message with new guidance.*",
+        "translatedContent": "*새로운 지침으로 마지막 AI 메시지를 재생성합니다.*"
+      },
+      {
+        "row": 30,
+        "rowsha": "nrXMLiirwW31a4mElrE0NSw88Kz9mhkSveixtJpYtMo=",
+        "originContent": "- Enter new instructions and press 👈 to generate a new swipe.",
+        "translatedContent": "- 새 지침을 입력하고 👈 버튼을 눌러 새 스와이프를 생성하세요."
+      },
+      {
+        "row": 31,
+        "rowsha": "JAXH8u3ilElnxlIDR64muo+2WW2yvwDdtrE7LlckLqI=",
+        "originContent": "- Only available if the last message is from the AI.",
+        "translatedContent": "- 마지막 메시지가 AI의 메시지인 경우에만 사용 가능합니다."
+      },
+      {
+        "row": 32,
+        "rowsha": "0e3uOi7OzJx44jugYrUzWPplcUTKmcCMGfEIRo124Bs=",
+        "originContent": "- [Video Example](https://youtube.com/shorts/GRQ9l_8K6-Y?feature=share)",
+        "translatedContent": "- [영상 예시](https://youtube.com/shorts/GRQ9l_8K6-Y?feature=share)"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "MJPzUhrSwEG0fYJn66xAg8TLO2pVbnPyA2Lg40zdpCk=",
+        "originContent": "### Impersonation (1st: 👤, 2nd: 👥, 3rd: 🗣️)",
+        "translatedContent": "### 역할 대행 (1인칭: 👤, 2인칭: 👥, 3인칭: 🗣️)"
+      },
+      {
+        "row": 35,
+        "rowsha": "JMP0XrpM1JVPp4EStZZVJfDKymcvjUMXC4yt5oDUiHA=",
+        "originContent": "*Expand outlines into rich, in-character narratives.*",
+        "translatedContent": "*개요를 풍부하고 캐릭터에 맞는 내러티브로 확장합니다.*"
+      },
+      {
+        "row": 36,
+        "rowsha": "nvweOoSzFOPvleG7iHd09VKLJVGdWZKuWbvU+SbB634=",
+        "originContent": "- Enter a brief outline, select perspective (toggle in settings), and press the corresponding button (👤/👥/🗣️).",
+        "translatedContent": "- 간단한 개요를 입력하고, 관점을 선택한 후(설정에서 전환 가능) 해당 버튼(👤/👥/🗣️)을 누르세요."
+      },
+      {
+        "row": 37,
+        "rowsha": "ACjWPg5LceuLbjBN5RBbPce8WBQT13AU1Ds13qbNfXw=",
+        "originContent": "- Your outline is expanded into a full message from the chosen viewpoint.",
+        "translatedContent": "- 선택한 시점에서 전체 메시지로 개요가 확장됩니다."
+      },
+      {
+        "row": 38,
+        "rowsha": "4RHLycSXCmkXaRVFLB0Rz2EDR49yOxgLmDdEO4zJ2Nc=",
+        "originContent": "- Can be hidden or displayed individually per settings. 1st Person is displayed by default.",
+        "translatedContent": "- 설정에 따라 개별적으로 숨기거나 표시할 수 있습니다. 1인칭은 기본 표시됩니다."
+      },
+      {
+        "row": 39,
+        "rowsha": "2PWvn98PtGkUvWR39zKNq60mpvoCpA7WZ65LJwjIL0g=",
+        "originContent": "- Video Examples:",
+        "translatedContent": "- 영상 예시:"
+      },
+      {
+        "row": 40,
+        "rowsha": "maBSBgHkqXtrmdKflEwe7RKu4PCQxm20Ku0T4KT32Fw=",
+        "originContent": "  - [1st Person](https://youtube.com/shorts/FT5gv3d2kE4?feature=share)",
+        "translatedContent": "  - [1인칭](https://youtube.com/shorts/FT5gv3d2kE4?feature=share)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "  - [2nd Person](https://youtube.com/shorts/80l12LrtBpQ?feature=share)\n  - [3rd Person](https://youtube.com/shorts/wWka-1URLPg?feature=share)\n\n### 📖 Persistent Guides Menu\n*Manage persistent scenario context.*\n- Click the 📖 button to open the persistent guides menu.\n- Select a guide type (see below) to generate or manage context.\n\n**Guide Types:**\n  - 🗺️ Situational: Generate context from recent chat or user focus.\n  - 🧠 Thinking: Generate character thoughts (auto-trigger optional).\n  - 👕 Clothes: Describe character outfits (auto-trigger optional).\n  - 🧍 State: Detail character positions/status (auto-trigger optional).\n  - 📜 Rules: Define or update in-story rules.\n  - ➕ Custom: Inject user-defined context.\n\n**Management Actions:**\n  - ✏️ Edit Guides: Modify existing guide injections via popup.\n  - 👁️ Show Guides: Display all active guides.\n  - 🗑️ Flush Guides: Remove selected or all guides.\n- Auto-trigger for Thinking, Clothes, and State can be toggled in settings.\n\n### 🔖 Tools Menu\n*Access additional utilities*\n  - **🔧 Corrections:** Edit the last AI message with targeted instructions.\n  - **✅ Spellchecker:** Polish your input for grammar, punctuation, and flow.\n  - **✈️ Simple Send:** Send input as a user message without triggering a model response.\n  - **🖋️ Edit Intros:** Rewrite or transform introductory messages on demand.\n  - **↩️ Input Recovery:** Restore previously cleared input.\n\n---\n\n## Installation\n\n1. **Install the Extension:**\n   - In the Extensionmanager click on Install Extension and enter https://github.com/Samueras/GuidedGenerations-Extension/ as the GITHUB\n\n\n---\n",
+    "ContentSha": "c7KWiNIDczHNai4wosaENMAEzLunSVV6suWYytKG9Ns=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - [2인칭](https://youtube.com/shorts/80l12LrtBpQ?feature=share)\n  - [3인칭](https://youtube.com/shorts/wWka-1URLPg?feature=share)\n\n### 📖 지속 가이드 메뉴\n*지속적인 시나리오 컨텍스트 관리.*\n- 📖 버튼을 클릭하여 지속 가이드 메뉴를 엽니다.\n- 가이드 유형(아래 참조)을 선택하여 컨텍스트를 생성하거나 관리합니다.\n\n**가이드 유형:**\n  - 🗺️ 상황별: 최근 채팅 또는 사용자 집중에서 컨텍스트 생성.\n  - 🧠 생각: 캐릭터 생각 생성 (자동 트리거 선택 가능).\n  - 👕 옷차림: 캐릭터 복장 설명 (자동 트리거 선택 가능).\n  - 🧍 상태: 캐릭터 위치/상태 상세 설명 (자동 트리거 선택 가능).\n  - 📜 규칙: 이야기 내 규칙 정의 또는 업데이트.\n  - ➕ 사용자 정의: 사용자 지정 컨텍스트 주입.\n\n**관리 작업:**\n  - ✏️ 가이드 편집: 팝업을 통해 기존 가이드 주입 수정.\n  - 👁️ 가이드 표시: 활성 가이드 모두 표시.\n  - 🗑️ 가이드 삭제: 선택한 가이드 또는 모두 제거.\n- 생각, 옷차림, 상태의 자동 트리거는 설정에서 전환 가능.\n\n### 🔖 도구 메뉴\n*추가 유틸리티 접근*\n  - **🔧 수정:** 마지막 AI 메시지를 목표 지침으로 편집.\n  - **✅ 맞춤법 검사:** 문법, 구두점, 흐름 교정.\n  - **✈️ 간단 전송:** 모델 응답 없이 사용자 메시지로 입력 전송.\n  - **🖋️ 소개 편집:** 요청 시 소개 메시지 재작성 또는 변환.\n  - **↩️ 입력 복구:** 이전에 지운 입력 복원.\n\n---\n\n## 설치\n\n1. **확장 프로그램 설치:**\n   - 확장 관리자에서 확장 설치를 클릭하고 https://github.com/Samueras/GuidedGenerations-Extension/ 를 GITHUB로 입력\n\n\n---\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+bC+m4K7ht9TBjZHuMZHWa5bTZp9Wg7vmOPAhCmXkt0=",
+        "originContent": "  - [2nd Person](https://youtube.com/shorts/80l12LrtBpQ?feature=share)",
+        "translatedContent": "  - [2인칭](https://youtube.com/shorts/80l12LrtBpQ?feature=share)"
+      },
+      {
+        "row": 2,
+        "rowsha": "Heu/YOksUd0J3S9ZI7KHToG7b0/zIdWdlD8hvxtluAg=",
+        "originContent": "  - [3rd Person](https://youtube.com/shorts/wWka-1URLPg?feature=share)",
+        "translatedContent": "  - [3인칭](https://youtube.com/shorts/wWka-1URLPg?feature=share)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "MV0j9LxmSmWzWRXWAswSh3dgCB4EUZWxmnkY6PB4TGY=",
+        "originContent": "### 📖 Persistent Guides Menu",
+        "translatedContent": "### 📖 지속 가이드 메뉴"
+      },
+      {
+        "row": 5,
+        "rowsha": "9IFrEOOd97r9BuRXc4lt5od+wHo0e2sd/7gFtXeCA10=",
+        "originContent": "*Manage persistent scenario context.*",
+        "translatedContent": "*지속적인 시나리오 컨텍스트 관리.*"
+      },
+      {
+        "row": 6,
+        "rowsha": "DbaEyCFT5vxoSn8mXxp+34S8dtJjRh8Mihc1ipORYco=",
+        "originContent": "- Click the 📖 button to open the persistent guides menu.",
+        "translatedContent": "- 📖 버튼을 클릭하여 지속 가이드 메뉴를 엽니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "JoXQ2eXVY9A4r4KDArtjwOsrD8slyvmJC/4O3vxfoH8=",
+        "originContent": "- Select a guide type (see below) to generate or manage context.",
+        "translatedContent": "- 가이드 유형(아래 참조)을 선택하여 컨텍스트를 생성하거나 관리합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "TxgfT+gGdgPNVXTuJiEmd0Y4JOU3EfF+0kuhvf68QBI=",
+        "originContent": "**Guide Types:**",
+        "translatedContent": "**가이드 유형:**"
+      },
+      {
+        "row": 10,
+        "rowsha": "BB2hIipbo1uTnA+1K9uqak8I9FmyrTVzy5LOdpkAfcQ=",
+        "originContent": "  - 🗺️ Situational: Generate context from recent chat or user focus.",
+        "translatedContent": "  - 🗺️ 상황별: 최근 채팅 또는 사용자 집중에서 컨텍스트 생성."
+      },
+      {
+        "row": 11,
+        "rowsha": "Bstz4TnXlvusrJ+QJ0yy3HlqQYNt5RrWjUgSPsW3hvQ=",
+        "originContent": "  - 🧠 Thinking: Generate character thoughts (auto-trigger optional).",
+        "translatedContent": "  - 🧠 생각: 캐릭터 생각 생성 (자동 트리거 선택 가능)."
+      },
+      {
+        "row": 12,
+        "rowsha": "TQ+AdXUA7bRVTpgFdzZ5gJyF4K9ndQJSsiJK/r9o8BQ=",
+        "originContent": "  - 👕 Clothes: Describe character outfits (auto-trigger optional).",
+        "translatedContent": "  - 👕 옷차림: 캐릭터 복장 설명 (자동 트리거 선택 가능)."
+      },
+      {
+        "row": 13,
+        "rowsha": "40Cx1fMck1GGavmJLcutF/sLcRGIU76CaAF8Gm76zfE=",
+        "originContent": "  - 🧍 State: Detail character positions/status (auto-trigger optional).",
+        "translatedContent": "  - 🧍 상태: 캐릭터 위치/상태 상세 설명 (자동 트리거 선택 가능)."
+      },
+      {
+        "row": 14,
+        "rowsha": "+V8kVyL5yc8J6FxtwJjlaWVyY4o6OOFTz99qYG36NJo=",
+        "originContent": "  - 📜 Rules: Define or update in-story rules.",
+        "translatedContent": "  - 📜 규칙: 이야기 내 규칙 정의 또는 업데이트."
+      },
+      {
+        "row": 15,
+        "rowsha": "6cvMkOPfTIv0zWNzNUYgNXxgs1HHM9NvaluI5HgunbA=",
+        "originContent": "  - ➕ Custom: Inject user-defined context.",
+        "translatedContent": "  - ➕ 사용자 정의: 사용자 지정 컨텍스트 주입."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "XYqwO+6AaG5IWMEVxGj2lvWLyz5OBFNEFWAMKrfaccA=",
+        "originContent": "**Management Actions:**",
+        "translatedContent": "**관리 작업:**"
+      },
+      {
+        "row": 18,
+        "rowsha": "KeC8wjGNVQvm0dPCPUcfmQ2y0v2yntsStFyudYPqqQ4=",
+        "originContent": "  - ✏️ Edit Guides: Modify existing guide injections via popup.",
+        "translatedContent": "  - ✏️ 가이드 편집: 팝업을 통해 기존 가이드 주입 수정."
+      },
+      {
+        "row": 19,
+        "rowsha": "Z/IyA/N7Vx3pZOnspKHUe4fHNFkUKMc91jfSoyXgSUw=",
+        "originContent": "  - 👁️ Show Guides: Display all active guides.",
+        "translatedContent": "  - 👁️ 가이드 표시: 활성 가이드 모두 표시."
+      },
+      {
+        "row": 20,
+        "rowsha": "AVML3qwagfUtFeQqQePGkCnAg9UqBBcxnS2zJ8IljuA=",
+        "originContent": "  - 🗑️ Flush Guides: Remove selected or all guides.",
+        "translatedContent": "  - 🗑️ 가이드 삭제: 선택한 가이드 또는 모두 제거."
+      },
+      {
+        "row": 21,
+        "rowsha": "iTWPOwFY1S4QNpXMiHFvj6a9mY1FlaInJgbOHd5CmeM=",
+        "originContent": "- Auto-trigger for Thinking, Clothes, and State can be toggled in settings.",
+        "translatedContent": "- 생각, 옷차림, 상태의 자동 트리거는 설정에서 전환 가능."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "q4IcYyjdn3G9VfaXdcFeeXKfovwvnfY3ClYGI/e8A8Q=",
+        "originContent": "### 🔖 Tools Menu",
+        "translatedContent": "### 🔖 도구 메뉴"
+      },
+      {
+        "row": 24,
+        "rowsha": "l2uk7vYRl+M/tjh7BwdggA0twHIs0HlHa7JYnUHxk2Y=",
+        "originContent": "*Access additional utilities*",
+        "translatedContent": "*추가 유틸리티 접근*"
+      },
+      {
+        "row": 25,
+        "rowsha": "KGQ0lE+Stp45uBVQYSrmcNoMkgKr5XF0nk0uCVrjmoM=",
+        "originContent": "  - **🔧 Corrections:** Edit the last AI message with targeted instructions.",
+        "translatedContent": "  - **🔧 수정:** 마지막 AI 메시지를 목표 지침으로 편집."
+      },
+      {
+        "row": 26,
+        "rowsha": "3CrwjaMEn/zlU3r97iNgyelIZiNpbARfV/d8mkuY99k=",
+        "originContent": "  - **✅ Spellchecker:** Polish your input for grammar, punctuation, and flow.",
+        "translatedContent": "  - **✅ 맞춤법 검사:** 문법, 구두점, 흐름 교정."
+      },
+      {
+        "row": 27,
+        "rowsha": "uFM/TOmZc9sQPDqMxNuYM0OdvjaJlvPS9JOXcWcpQB8=",
+        "originContent": "  - **✈️ Simple Send:** Send input as a user message without triggering a model response.",
+        "translatedContent": "  - **✈️ 간단 전송:** 모델 응답 없이 사용자 메시지로 입력 전송."
+      },
+      {
+        "row": 28,
+        "rowsha": "hDGB7FBMGkWexh9pQlPC2wYjFSPLYsoVwBx7142/Hdw=",
+        "originContent": "  - **🖋️ Edit Intros:** Rewrite or transform introductory messages on demand.",
+        "translatedContent": "  - **🖋️ 소개 편집:** 요청 시 소개 메시지 재작성 또는 변환."
+      },
+      {
+        "row": 29,
+        "rowsha": "z+zt4sTJiQBgsEHpLpM3C95vOjzksl8j2bn3CyVO5EY=",
+        "originContent": "  - **↩️ Input Recovery:** Restore previously cleared input.",
+        "translatedContent": "  - **↩️ 입력 복구:** 이전에 지운 입력 복원."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "9Na1rasU4E42qOVjPVAi8hphGk2m7nXyc4C0L5bMo0g=",
+        "originContent": "1. **Install the Extension:**",
+        "translatedContent": "1. **확장 프로그램 설치:**"
+      },
+      {
+        "row": 36,
+        "rowsha": "8siqh5CpzjqgwCP7Bb2OApcGjEqKmSkKIn4bfwyuTi0=",
+        "originContent": "   - In the Extensionmanager click on Install Extension and enter https://github.com/Samueras/GuidedGenerations-Extension/ as the GITHUB",
+        "translatedContent": "   - 확장 관리자에서 확장 설치를 클릭하고 https://github.com/Samueras/GuidedGenerations-Extension/ 를 GITHUB로 입력"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "## Usage\n\n- All main features appear as buttons next to the send button or in the left-side gear menu.\n- Hover tooltips and context menus provide guidance and quick access to advanced features.\n- See in-app settings for feature toggles and auto-guide configuration.\n- For full technical details, see [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md).\n\n---\n\n## ⚙️ Settings\n\nAll extension settings are managed via SillyTavern’s Extension Settings panel:\n\n- **Auto-Trigger**: toggle automatic execution of:\n  - Thinking Guide\n  - State Guide\n  - Clothes Guide\n\n- **Buttons Visibility**: show or hide action buttons:\n  - 1st Person Impersonation (👤)\n  - 2nd Person Impersonation (👥)\n  - 3rd Person Impersonation (🗣️)\n  - Guided Response (🐕)\n  - Guided Swipe (👈)\n  - Persistent Guides Menu (📖)\n\n- **Injection Role**: select the role (`system`, `assistant`, or `user`) used when injecting instructions.\n\n- **Debug Mode**: when enabled, shows detailed debug information in the browser console. Useful for troubleshooting but can clutter the console during normal use.\n\n- **Presets**: for each guide/tool (Clothes, State, Thinking, Situational, Rules, Custom, Corrections, Spellchecker, Edit Intros, Impersonation 1st/2nd/3rd), choose any SillyTavern preset. Before running a guide/tool, the extension will switch to that preset (and its configured API/model), execute the action, then restore your previous preset—allowing different models per guide.\n\n- **Prompt Overrides**: customize the raw prompt template for each guide/tool. Use `{{input}}` for your input text and other placeholders as supported. Overrides apply to:\n  - Clothes Guide Prompt\n  - State Guide Prompt\n  - Thinking Guide Prompt\n  - Situational Guide Prompt\n  - Rules Guide Prompt\n  - Corrections Prompt\n  - Spellchecker Prompt",
+    "ContentSha": "wnOwsCTnB9m6lnobk5DA4XjGQt1LedQoFW9UK9BXnZA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 사용법\n\n- 모든 주요 기능은 전송 버튼 옆 또는 왼쪽 기어 메뉴에 버튼으로 표시됩니다.\n- 툴팁과 컨텍스트 메뉴는 안내와 고급 기능에 빠른 접근을 제공합니다.\n- 기능 토글 및 자동 안내 구성은 앱 내 설정을 참조하세요.\n- 전체 기술 세부사항은 [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md)를 참조하세요.\n\n---\n\n## ⚙️ 설정\n\n모든 확장 설정은 SillyTavern의 확장 설정 패널에서 관리됩니다:\n\n- **자동 실행**: 다음의 자동 실행을 토글합니다:\n  - 사고 안내\n  - 상태 안내\n  - 의상 안내\n\n- **버튼 표시**: 액션 버튼 표시 또는 숨기기:\n  - 1인칭 흉내내기 (👤)\n  - 2인칭 흉내내기 (👥)\n  - 3인칭 흉내내기 (🗣️)\n  - 안내 응답 (🐕)\n  - 안내 스와이프 (👈)\n  - 지속 안내 메뉴 (📖)\n\n- **주입 역할**: 지침 주입 시 사용할 역할 (`system`, `assistant`, 또는 `user`) 선택.\n\n- **디버그 모드**: 활성화 시 브라우저 콘솔에 상세 디버그 정보를 표시. 문제 해결에 유용하지만 일반 사용 시 콘솔이 복잡해질 수 있음.\n\n- **프리셋**: 각 안내/도구(의상, 상태, 사고, 상황, 규칙, 커스텀, 수정, 맞춤법 검사, 소개 편집, 1/2/3인칭 흉내내기)에 대해 원하는 SillyTavern 프리셋 선택. 안내/도구 실행 전 해당 프리셋(및 구성된 API/모델)으로 전환 후 작업 수행, 이후 이전 프리셋 복원—안내별로 다른 모델 사용 가능.\n\n- **프롬프트 재정의**: 각 안내/도구의 원본 프롬프트 템플릿을 맞춤 설정. `{{input}}`은 입력 텍스트, 기타 지원되는 플레이스홀더 사용 가능. 재정의는 다음에 적용:\n  - 의상 안내 프롬프트\n  - 상태 안내 프롬프트\n  - 사고 안내 프롬프트\n  - 상황 안내 프롬프트\n  - 규칙 안내 프롬프트\n  - 수정 프롬프트\n  - 맞춤법 검사 프롬프트",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "T3IHRu2tzMKHkRYKPo+Rb0JHs076hxXwEtbas5S8gBE=",
+        "originContent": "- All main features appear as buttons next to the send button or in the left-side gear menu.",
+        "translatedContent": "- 모든 주요 기능은 전송 버튼 옆 또는 왼쪽 기어 메뉴에 버튼으로 표시됩니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "lVGeDEnb4/QOuufpEc0ect9sHM8U1d+ySCovip4umuQ=",
+        "originContent": "- Hover tooltips and context menus provide guidance and quick access to advanced features.",
+        "translatedContent": "- 툴팁과 컨텍스트 메뉴는 안내와 고급 기능에 빠른 접근을 제공합니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "38jp3t+77aXlfhQk+PhCZwyqulHKfroijfEcwgt4BGc=",
+        "originContent": "- See in-app settings for feature toggles and auto-guide configuration.",
+        "translatedContent": "- 기능 토글 및 자동 안내 구성은 앱 내 설정을 참조하세요."
+      },
+      {
+        "row": 6,
+        "rowsha": "2b+CAr70XujNgyMHP/RE3+kzZsXP00w3AShybY2L0AI=",
+        "originContent": "- For full technical details, see [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md).",
+        "translatedContent": "- 전체 기술 세부사항은 [`JSDoc.md`](https://raw.githubusercontent.com/Samueras/GuidedGenerations-Extension/main/./JSDoc.md)를 참조하세요."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "r6Bssne+bHm0rsbmdO4G7vjYz4Cqr6bJmrbfwLjIHbo=",
+        "originContent": "## ⚙️ Settings",
+        "translatedContent": "## ⚙️ 설정"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "KCMrTg3rhoBEY+1DuR6pvhd6AgcYLrkTyeVHoxjF/7w=",
+        "originContent": "All extension settings are managed via SillyTavern’s Extension Settings panel:",
+        "translatedContent": "모든 확장 설정은 SillyTavern의 확장 설정 패널에서 관리됩니다:"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "P3Vl8jnMap+lFBG4eHxjaprBcaWhG0uIq0Mp5vbC3vE=",
+        "originContent": "- **Auto-Trigger**: toggle automatic execution of:",
+        "translatedContent": "- **자동 실행**: 다음의 자동 실행을 토글합니다:"
+      },
+      {
+        "row": 15,
+        "rowsha": "rvc20pk6UVU6bLFyNKX/Y0JVndB1e/oL+Ln8BYzB4tI=",
+        "originContent": "  - Thinking Guide",
+        "translatedContent": "  - 사고 안내"
+      },
+      {
+        "row": 16,
+        "rowsha": "OY02YcBOydGCypPnfHnb44QenQfEQJti/Lb93zDgNFo=",
+        "originContent": "  - State Guide",
+        "translatedContent": "  - 상태 안내"
+      },
+      {
+        "row": 17,
+        "rowsha": "zQ2fVGKq5XT7nWbugQEzu6b0wzsrQboMYQ0UAKmVAh8=",
+        "originContent": "  - Clothes Guide",
+        "translatedContent": "  - 의상 안내"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "FASSslwla0y44AfeuZEvBQEKDoJ9f8YYQPvpBzU2C5g=",
+        "originContent": "- **Buttons Visibility**: show or hide action buttons:",
+        "translatedContent": "- **버튼 표시**: 액션 버튼 표시 또는 숨기기:"
+      },
+      {
+        "row": 20,
+        "rowsha": "UEi5wLEPE1+6h2ObnuPpTA3P+920SlsVSQwBpqzgFB0=",
+        "originContent": "  - 1st Person Impersonation (👤)",
+        "translatedContent": "  - 1인칭 흉내내기 (👤)"
+      },
+      {
+        "row": 21,
+        "rowsha": "k61gcylxtsekLMmO98E0lBtqRmqHRPiMUO8SgLR7wJI=",
+        "originContent": "  - 2nd Person Impersonation (👥)",
+        "translatedContent": "  - 2인칭 흉내내기 (👥)"
+      },
+      {
+        "row": 22,
+        "rowsha": "ahf/Y7hPXtyhU8A7EUoRnES8dxCwOsI80QDKLHRXM7Q=",
+        "originContent": "  - 3rd Person Impersonation (🗣️)",
+        "translatedContent": "  - 3인칭 흉내내기 (🗣️)"
+      },
+      {
+        "row": 23,
+        "rowsha": "FNxfprbEr6Od7pGgIxf2wLZOQuiGPrze8yAck/ayWwE=",
+        "originContent": "  - Guided Response (🐕)",
+        "translatedContent": "  - 안내 응답 (🐕)"
+      },
+      {
+        "row": 24,
+        "rowsha": "hJGMpOMtaegxDkmsLXPF5tzgxhWkVTiKT8NxM3dp9tg=",
+        "originContent": "  - Guided Swipe (👈)",
+        "translatedContent": "  - 안내 스와이프 (👈)"
+      },
+      {
+        "row": 25,
+        "rowsha": "B9xO4uQV8dxVGI5OIiXiZKzR4bOFKfc9L8wC/Jc/HWM=",
+        "originContent": "  - Persistent Guides Menu (📖)",
+        "translatedContent": "  - 지속 안내 메뉴 (📖)"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "BQWxRT3Wy10L7DKeBYixwuAul6MCak8l2YVfWCZhyBA=",
+        "originContent": "- **Injection Role**: select the role (`system`, `assistant`, or `user`) used when injecting instructions.",
+        "translatedContent": "- **주입 역할**: 지침 주입 시 사용할 역할 (`system`, `assistant`, 또는 `user`) 선택."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "S+O4LGKwI9w5FmlLOZwXmENDaorORCiqGQr6VRCeDM0=",
+        "originContent": "- **Debug Mode**: when enabled, shows detailed debug information in the browser console. Useful for troubleshooting but can clutter the console during normal use.",
+        "translatedContent": "- **디버그 모드**: 활성화 시 브라우저 콘솔에 상세 디버그 정보를 표시. 문제 해결에 유용하지만 일반 사용 시 콘솔이 복잡해질 수 있음."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "pOX8wpKFLHQUcvqAbgqdl66E7gNrWhaZZ78IKOEd8B4=",
+        "originContent": "- **Presets**: for each guide/tool (Clothes, State, Thinking, Situational, Rules, Custom, Corrections, Spellchecker, Edit Intros, Impersonation 1st/2nd/3rd), choose any SillyTavern preset. Before running a guide/tool, the extension will switch to that preset (and its configured API/model), execute the action, then restore your previous preset—allowing different models per guide.",
+        "translatedContent": "- **프리셋**: 각 안내/도구(의상, 상태, 사고, 상황, 규칙, 커스텀, 수정, 맞춤법 검사, 소개 편집, 1/2/3인칭 흉내내기)에 대해 원하는 SillyTavern 프리셋 선택. 안내/도구 실행 전 해당 프리셋(및 구성된 API/모델)으로 전환 후 작업 수행, 이후 이전 프리셋 복원—안내별로 다른 모델 사용 가능."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "NFL6BAnhfhsTGfhf87M5SvK+4f+drCJGsUM05Db9J1I=",
+        "originContent": "- **Prompt Overrides**: customize the raw prompt template for each guide/tool. Use `{{input}}` for your input text and other placeholders as supported. Overrides apply to:",
+        "translatedContent": "- **프롬프트 재정의**: 각 안내/도구의 원본 프롬프트 템플릿을 맞춤 설정. `{{input}}`은 입력 텍스트, 기타 지원되는 플레이스홀더 사용 가능. 재정의는 다음에 적용:"
+      },
+      {
+        "row": 34,
+        "rowsha": "qjYM61yYNRv0NakZj0J/PnYRboXX0cHdNKOZFT2+j3I=",
+        "originContent": "  - Clothes Guide Prompt",
+        "translatedContent": "  - 의상 안내 프롬프트"
+      },
+      {
+        "row": 35,
+        "rowsha": "AYV258DJRYA1DDmZRYNbmpu4Rqra8jHe1c4EzKN/DW0=",
+        "originContent": "  - State Guide Prompt",
+        "translatedContent": "  - 상태 안내 프롬프트"
+      },
+      {
+        "row": 36,
+        "rowsha": "atJkyM1+o3tXhiNJ6sU82juJb7zhgE+fAyjKyQny58Y=",
+        "originContent": "  - Thinking Guide Prompt",
+        "translatedContent": "  - 사고 안내 프롬프트"
+      },
+      {
+        "row": 37,
+        "rowsha": "GWT5DIqs49r6LOoUIuRmFHjTqPIkRig8tSf9Jeyj+g0=",
+        "originContent": "  - Situational Guide Prompt",
+        "translatedContent": "  - 상황 안내 프롬프트"
+      },
+      {
+        "row": 38,
+        "rowsha": "VHrfWc4K7qOTNWaOpS0skuQ754ZCNeQJ6nLk8lHBgzw=",
+        "originContent": "  - Rules Guide Prompt",
+        "translatedContent": "  - 규칙 안내 프롬프트"
+      },
+      {
+        "row": 39,
+        "rowsha": "nO2HhhbOXYHGaWx5NIOsw+Wj6w8EocqXMgEN4g/irZk=",
+        "originContent": "  - Corrections Prompt",
+        "translatedContent": "  - 수정 프롬프트"
+      },
+      {
+        "row": 40,
+        "rowsha": "r73fm0yS/CnDy8GFLL6RbbJDyrxcFjJF55d/RBfXEyk=",
+        "originContent": "  - Spellchecker Prompt",
+        "translatedContent": "  - 맞춤법 검사 프롬프트"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "  - Impersonate 1st/2nd/3rd Person Prompts\n  - Guided Response Prompt\n  - Guided Swipe Prompt\n\n---\n\n## Troubleshooting\n\n- **Missing Buttons:** Ensure SillyTavern is up to date (v1.12.9+) and LALib is installed/enabled.\n- **Context Menus Not Appearing:** Try switching chats or re-adding the extension in the Quick Replies menu.\n- **Other Issues:** Restart SillyTavern, check for updates, and consult the [SillyTavern documentation](https://github.com/SillyTavern/SillyTavern).\n\n---\n\n## License\n\nThis project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.\n\n---\n\n## Contributing\n\nContributions are welcome! Submit pull requests or open issues for improvements, features, or documentation. For questions or feedback, open an issue in this repository.\n\n---\n\n## ❤️ Support the Project\n\nIf you find this extension helpful, please consider supporting my work:\n\n- [☕ Buy me a coffee on Ko-fi](https://ko-fi.com/samueras)\n",
+    "ContentSha": "nSFaoulytoiKzNdEefeNF7L4c1f9cfTGH3u5KIg5W1k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - 1인칭/2인칭/3인칭 프롬프트 흉내내기\n  - 가이드 응답 프롬프트\n  - 가이드 스와이프 프롬프트\n\n---\n\n## 문제 해결\n\n- **버튼이 보이지 않을 때:** SillyTavern이 최신 버전(v1.12.9 이상)인지, LALib가 설치되고 활성화되어 있는지 확인하세요.\n- **컨텍스트 메뉴가 나타나지 않을 때:** 채팅을 전환하거나 빠른 응답 메뉴에서 확장 기능을 다시 추가해 보세요.\n- **기타 문제:** SillyTavern을 재시작하고, 업데이트가 있는지 확인하며, [SillyTavern 문서](https://github.com/SillyTavern/SillyTavern)를 참고하세요.\n\n---\n\n## 라이선스\n\n이 프로젝트는 GNU 일반 공중 사용 허가서 v3.0에 따라 라이선스가 부여됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.\n\n---\n\n## 기여\n\n기여를 환영합니다! 개선 사항, 기능 추가 또는 문서 관련하여 풀 리퀘스트를 제출하거나 이슈를 열어 주세요. 질문이나 피드백이 있으면 이 저장소에 이슈를 열어 주세요.\n\n---\n\n## ❤️ 프로젝트 지원하기\n\n이 확장 기능이 도움이 되었다면, 제 작업을 지원해 주세요:\n\n- [☕ Ko-fi에서 커피 한 잔 사기](https://ko-fi.com/samueras)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cvMbS40I0B5kjfdyV0P05l6ZL5I4WeBMtsH1ETrY/V8=",
+        "originContent": "  - Impersonate 1st/2nd/3rd Person Prompts",
+        "translatedContent": "  - 1인칭/2인칭/3인칭 프롬프트 흉내내기"
+      },
+      {
+        "row": 2,
+        "rowsha": "nvId1sh1gMjvXQ/7fHxTyu2Putf1RGrkt0SGjPyuHvU=",
+        "originContent": "  - Guided Response Prompt",
+        "translatedContent": "  - 가이드 응답 프롬프트"
+      },
+      {
+        "row": 3,
+        "rowsha": "43S2qV8Op5Du97KEC4ibIhWz9ze4DYLBROt2w4/nyXM=",
+        "originContent": "  - Guided Swipe Prompt",
+        "translatedContent": "  - 가이드 스와이프 프롬프트"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+        "originContent": "## Troubleshooting",
+        "translatedContent": "## 문제 해결"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "dXDUoP09pfZ8hpvi0NZPA4HDtk6RLfy4ULRIyjWqoSw=",
+        "originContent": "- **Missing Buttons:** Ensure SillyTavern is up to date (v1.12.9+) and LALib is installed/enabled.",
+        "translatedContent": "- **버튼이 보이지 않을 때:** SillyTavern이 최신 버전(v1.12.9 이상)인지, LALib가 설치되고 활성화되어 있는지 확인하세요."
+      },
+      {
+        "row": 10,
+        "rowsha": "Fq5unqoNTmGTZyI5fx6Ph4kt3q08vYL+dpPw5Hk0f0Y=",
+        "originContent": "- **Context Menus Not Appearing:** Try switching chats or re-adding the extension in the Quick Replies menu.",
+        "translatedContent": "- **컨텍스트 메뉴가 나타나지 않을 때:** 채팅을 전환하거나 빠른 응답 메뉴에서 확장 기능을 다시 추가해 보세요."
+      },
+      {
+        "row": 11,
+        "rowsha": "el+DvS7ESdcYmghwWVcr+ezvKthfuWt9rZVpa90jJ94=",
+        "originContent": "- **Other Issues:** Restart SillyTavern, check for updates, and consult the [SillyTavern documentation](https://github.com/SillyTavern/SillyTavern).",
+        "translatedContent": "- **기타 문제:** SillyTavern을 재시작하고, 업데이트가 있는지 확인하며, [SillyTavern 문서](https://github.com/SillyTavern/SillyTavern)를 참고하세요."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "sHQz5O51Jaddxl6UuhIbMeiQ0UYcrKplk4kSP2r7tw0=",
+        "originContent": "This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.",
+        "translatedContent": "이 프로젝트는 GNU 일반 공중 사용 허가서 v3.0에 따라 라이선스가 부여됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 기여"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "lI1fCNAwuhXNgFJnrjI938c26U7clxK792LbEfEcA1Q=",
+        "originContent": "Contributions are welcome! Submit pull requests or open issues for improvements, features, or documentation. For questions or feedback, open an issue in this repository.",
+        "translatedContent": "기여를 환영합니다! 개선 사항, 기능 추가 또는 문서 관련하여 풀 리퀘스트를 제출하거나 이슈를 열어 주세요. 질문이나 피드백이 있으면 이 저장소에 이슈를 열어 주세요."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "Sz01sCDINCgT4bD+aXSBB40/jihTNWJhkTwkBYaIMJQ=",
+        "originContent": "## ❤️ Support the Project",
+        "translatedContent": "## ❤️ 프로젝트 지원하기"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "8OWyu2AWA6M/kEQ/cnNOgPrxzdlnA4PXcMqtJPxUDvI=",
+        "originContent": "If you find this extension helpful, please consider supporting my work:",
+        "translatedContent": "이 확장 기능이 도움이 되었다면, 제 작업을 지원해 주세요:"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "YIfQgGRDyW48kHkRBG4gRCKRX3GPBzuLebILSYOTFP0=",
+        "originContent": "- [☕ Buy me a coffee on Ko-fi](https://ko-fi.com/samueras)",
+        "translatedContent": "- [☕ Ko-fi에서 커피 한 잔 사기](https://ko-fi.com/samueras)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
