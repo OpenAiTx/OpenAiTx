@@ -1,0 +1,1176 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🐋 Qwen Image Integrated KSampler\n\n[![GitHub](https://img.shields.io/badge/GitHub-luguoli-orange)](https://github.com/luguoli)\n[![ComfyUI](https://img.shields.io/badge/ComfyUI-CustomNode-blue)](https://github.com/comfyanonymous/ComfyUI)\n\n[English](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/README-en.md) | **[简体中文](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/README-zh.md)**\n\nQwenImageIntegratedKSampler\n\nThis is an integrated ComfyUI Qwen-Image image generation sampler node,support Z-Image. Compared to using the official KSampler, it eliminates the messy wiring, supports both text-to-image and image-to-image generation, solves the offset issues of the official nodes, and integrates prompt input box, automatic image scaling, automatic memory/vRAM cleanup, batch generation, automatic saving and other comprehensive optimization features, so mom no longer has to worry about my messy wiring~~~~\n\n#### If this project helps you, please give it a ⭐Star — it lets me know there are humans out there using it!\n\n## 🏆 Features\n\n### 🎨 Supported Generation Modes\n- **Z-Image**: Support Z-Image Model\n- **Text-to-Image**: Generate images from text prompts\n- **Image-to-Image**: Generate based on reference images, image editing, supports up to 5 images\n\n### ⚡ Advanced Optimizations\n- **Optimize Offset Issues**: Solves the offset issues of official nodes, and better follows instructions\n- **Integrated Sampling Algorithm (AuraFlow)**: Integrates Sampling Algorithm (AuraFlow) node, no additional wiring needed\n- **CFGNorm Integration**: Integrates CFGNorm node, no additional wiring needed\n\n### 🖼️ Image Processing\n- **Integrated Prompt Input Box**: Integrates prompt input box, no additional wiring needed\n- **Multiple Reference Images**: Supports up to 5 reference images for conditional generation\n- **Automatic Image Scaling**: Maintains aspect ratio while resizing to target dimensions\n\n- **Support ControlNet Control**: Additional connection to [🐋 Qwen ControlNet Integrated Loader] for pose, depth and other controls\n\n### 🔧 Productivity Enhancement\n- **Batch Generation**: Generate multiple images in a single operation\n- **Automatic VRAM Cleanup**: Automatic cleanup options for GPU/VRAM memory\n- **Automatic RAM Cleanup**: Automatic cleanup options for RAM memory\n- **Automatic Save Results**: Automatically save generated result images to specified folder\n- **Completion Sound Notification**: Play audio reminder after generation completes\n\n## 🍧 Comparison Display",
+    "ContentSha": "uebgRvNNUsQUsvSH/Rzi//iAYGmg5oXahsoHYwxmeGY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🐋 Qwen 이미지 통합 KSampler\n\n[![GitHub](https://img.shields.io/badge/GitHub-luguoli-orange)](https://github.com/luguoli)\n[![ComfyUI](https://img.shields.io/badge/ComfyUI-CustomNode-blue)](https://github.com/comfyanonymous/ComfyUI)\n\n[English](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/README-en.md) | **[简体中文](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/README-zh.md)**\n\nQwenImageIntegratedKSampler\n\n이것은 ComfyUI Qwen-Image 이미지 생성 샘플러 노드의 통합 버전으로, Z-Image를 지원합니다. 공식 KSampler 사용과 비교하여 복잡한 배선을 없애고, 텍스트-이미지 및 이미지-이미지 생성을 모두 지원하며, 공식 노드의 오프셋 문제를 해결하고, 프롬프트 입력 상자 통합, 자동 이미지 크기 조정, 자동 메모리/VRAM 정리, 배치 생성, 자동 저장 등 포괄적인 최적화 기능을 통합하여 엄마가 내 복잡한 배선 걱정을 더 이상 하지 않도록 했습니다~~~~\n\n#### 이 프로젝트가 도움이 되셨다면, ⭐Star를 눌러주세요 — 사용자가 있음을 알 수 있습니다!\n\n## 🏆 기능\n\n### 🎨 지원 생성 모드\n- **Z-Image**: Z-Image 모델 지원\n- **텍스트-이미지**: 텍스트 프롬프트로부터 이미지 생성\n- **이미지-이미지**: 참조 이미지를 기반으로 생성, 이미지 편집, 최대 5장 이미지 지원\n\n### ⚡ 고급 최적화\n- **오프셋 문제 최적화**: 공식 노드의 오프셋 문제 해결, 명령어 준수 향상\n- **통합 샘플링 알고리즘 (AuraFlow)**: 샘플링 알고리즘 (AuraFlow) 노드 통합, 추가 배선 불필요\n- **CFGNorm 통합**: CFGNorm 노드 통합, 추가 배선 불필요\n\n### 🖼️ 이미지 처리\n- **통합 프롬프트 입력 상자**: 프롬프트 입력 상자 통합, 추가 배선 불필요\n- **다중 참조 이미지**: 조건 생성용 최대 5장 참조 이미지 지원\n- **자동 이미지 크기 조정**: 목표 치수에 맞춰 종횡비 유지하며 크기 조정\n\n- **ControlNet 제어 지원**: 포즈, 깊이 등 제어를 위한 [🐋 Qwen ControlNet 통합 로더] 추가 연결 지원\n\n### 🔧 생산성 향상\n- **배치 생성**: 한 번에 여러 이미지 생성\n- **자동 VRAM 정리**: GPU/VRAM 메모리 자동 정리 옵션\n- **자동 RAM 정리**: RAM 메모리 자동 정리 옵션\n- **자동 결과 저장**: 생성된 결과 이미지 자동 지정 폴더 저장\n- **완료 음성 알림**: 생성 완료 후 음성 알림 재생\n\n## 🍧 비교 표시",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+wKKEiJwtnddZyJEfFIEq+uG77NWqMkm6tzqEXLheak=",
+        "originContent": "# 🐋 Qwen Image Integrated KSampler",
+        "translatedContent": "# 🐋 Qwen 이미지 통합 KSampler"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "BAJQUCMRDVm7L9idKY/swbwKxDPE9tx+8HF7FAEiNdE=",
+        "originContent": "[![GitHub](https://img.shields.io/badge/GitHub-luguoli-orange)](https://github.com/luguoli)",
+        "translatedContent": "[![GitHub](https://img.shields.io/badge/GitHub-luguoli-orange)](https://github.com/luguoli)"
+      },
+      {
+        "row": 4,
+        "rowsha": "vuEOOBWi/L6rGr+dD2+Jtoqj+Vs2FRKRlIR1695VHyg=",
+        "originContent": "[![ComfyUI](https://img.shields.io/badge/ComfyUI-CustomNode-blue)](https://github.com/comfyanonymous/ComfyUI)",
+        "translatedContent": "[![ComfyUI](https://img.shields.io/badge/ComfyUI-CustomNode-blue)](https://github.com/comfyanonymous/ComfyUI)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "TPhvQnDL+agiX6vBJ1n33hfonoEhbwJFayBKQORs9d4=",
+        "originContent": "[English](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/README-en.md) | **[简体中文](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/README-zh.md)**",
+        "translatedContent": "[English](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/README-en.md) | **[简体中文](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/README-zh.md)**"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "75snfREX/qgTDTXG7DDRQvvzSQ9YE5C5RlvD3JxH/ZY=",
+        "originContent": "QwenImageIntegratedKSampler",
+        "translatedContent": "QwenImageIntegratedKSampler"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "CAGu/Yex76foqtxopajMgH+ezlWL+fiJplx9N7cipXU=",
+        "originContent": "This is an integrated ComfyUI Qwen-Image image generation sampler node,support Z-Image. Compared to using the official KSampler, it eliminates the messy wiring, supports both text-to-image and image-to-image generation, solves the offset issues of the official nodes, and integrates prompt input box, automatic image scaling, automatic memory/vRAM cleanup, batch generation, automatic saving and other comprehensive optimization features, so mom no longer has to worry about my messy wiring~~~~",
+        "translatedContent": "이것은 ComfyUI Qwen-Image 이미지 생성 샘플러 노드의 통합 버전으로, Z-Image를 지원합니다. 공식 KSampler 사용과 비교하여 복잡한 배선을 없애고, 텍스트-이미지 및 이미지-이미지 생성을 모두 지원하며, 공식 노드의 오프셋 문제를 해결하고, 프롬프트 입력 상자 통합, 자동 이미지 크기 조정, 자동 메모리/VRAM 정리, 배치 생성, 자동 저장 등 포괄적인 최적화 기능을 통합하여 엄마가 내 복잡한 배선 걱정을 더 이상 하지 않도록 했습니다~~~~"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "cp1mEIVBDuitty/v2eJLvBYrfcT4yBhgSInYTyVqv08=",
+        "originContent": "#### If this project helps you, please give it a ⭐Star — it lets me know there are humans out there using it!",
+        "translatedContent": "#### 이 프로젝트가 도움이 되셨다면, ⭐Star를 눌러주세요 — 사용자가 있음을 알 수 있습니다!"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "T9iYRQFtJmQHWXa5BpQyrLpxHCtDiOOUvOUN5EzT+9A=",
+        "originContent": "## 🏆 Features",
+        "translatedContent": "## 🏆 기능"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "4Ku4eLqzISjvMNwfyCdKKQmUcnEkQDV2cFHcdXgHG7k=",
+        "originContent": "### 🎨 Supported Generation Modes",
+        "translatedContent": "### 🎨 지원 생성 모드"
+      },
+      {
+        "row": 17,
+        "rowsha": "0kJuls0qKVAhENQ6ockK1WXwmuNwKwWS8/WbPC26JRE=",
+        "originContent": "- **Z-Image**: Support Z-Image Model",
+        "translatedContent": "- **Z-Image**: Z-Image 모델 지원"
+      },
+      {
+        "row": 18,
+        "rowsha": "R76PxnimGZukDKeJNe6EZt5quJxTY/8GHTnxKCOUgqo=",
+        "originContent": "- **Text-to-Image**: Generate images from text prompts",
+        "translatedContent": "- **텍스트-이미지**: 텍스트 프롬프트로부터 이미지 생성"
+      },
+      {
+        "row": 19,
+        "rowsha": "KGu912mcnmVTPC/RPE2RqnffB+SEBagSy8Wwzm8Am0c=",
+        "originContent": "- **Image-to-Image**: Generate based on reference images, image editing, supports up to 5 images",
+        "translatedContent": "- **이미지-이미지**: 참조 이미지를 기반으로 생성, 이미지 편집, 최대 5장 이미지 지원"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "h/sikXUXTfZor56o2GV08U1erMUH2wENrZ7VkQfF2J4=",
+        "originContent": "### ⚡ Advanced Optimizations",
+        "translatedContent": "### ⚡ 고급 최적화"
+      },
+      {
+        "row": 22,
+        "rowsha": "o83HIla6PMh+KAGc036Y3qU4qCu0L07jIBYXywEm0D8=",
+        "originContent": "- **Optimize Offset Issues**: Solves the offset issues of official nodes, and better follows instructions",
+        "translatedContent": "- **오프셋 문제 최적화**: 공식 노드의 오프셋 문제 해결, 명령어 준수 향상"
+      },
+      {
+        "row": 23,
+        "rowsha": "5U7v4nfpCp174UG8PPPLS2rb5CANZbw+NDtJReNI2ew=",
+        "originContent": "- **Integrated Sampling Algorithm (AuraFlow)**: Integrates Sampling Algorithm (AuraFlow) node, no additional wiring needed",
+        "translatedContent": "- **통합 샘플링 알고리즘 (AuraFlow)**: 샘플링 알고리즘 (AuraFlow) 노드 통합, 추가 배선 불필요"
+      },
+      {
+        "row": 24,
+        "rowsha": "+gQH/ivieKaw4V2F+yGt39PjPGofT7jJKf0Hm95UX2g=",
+        "originContent": "- **CFGNorm Integration**: Integrates CFGNorm node, no additional wiring needed",
+        "translatedContent": "- **CFGNorm 통합**: CFGNorm 노드 통합, 추가 배선 불필요"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "FxYFoY0YL2z2GdMfuNyuh7DzrXFt6bcFgHJ8K676u4w=",
+        "originContent": "### 🖼️ Image Processing",
+        "translatedContent": "### 🖼️ 이미지 처리"
+      },
+      {
+        "row": 27,
+        "rowsha": "wAjerkeamhr6N0QTnY5oeyLzx3QG6kKXofv0bDA4LpU=",
+        "originContent": "- **Integrated Prompt Input Box**: Integrates prompt input box, no additional wiring needed",
+        "translatedContent": "- **통합 프롬프트 입력 상자**: 프롬프트 입력 상자 통합, 추가 배선 불필요"
+      },
+      {
+        "row": 28,
+        "rowsha": "5R29asIaSFLQw5wxx9rp61QbJrlNLiWLrvD1z1hX1ec=",
+        "originContent": "- **Multiple Reference Images**: Supports up to 5 reference images for conditional generation",
+        "translatedContent": "- **다중 참조 이미지**: 조건 생성용 최대 5장 참조 이미지 지원"
+      },
+      {
+        "row": 29,
+        "rowsha": "uCTBhO0WlKwmSRwnYG3yEl5HFYH7ZMgE191yHxZ1qjc=",
+        "originContent": "- **Automatic Image Scaling**: Maintains aspect ratio while resizing to target dimensions",
+        "translatedContent": "- **자동 이미지 크기 조정**: 목표 치수에 맞춰 종횡비 유지하며 크기 조정"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "7Am4Pw0tjz0VyR4eSMbO3kCea8vrlo4GeuVruIlvuqQ=",
+        "originContent": "- **Support ControlNet Control**: Additional connection to [🐋 Qwen ControlNet Integrated Loader] for pose, depth and other controls",
+        "translatedContent": "- **ControlNet 제어 지원**: 포즈, 깊이 등 제어를 위한 [🐋 Qwen ControlNet 통합 로더] 추가 연결 지원"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "AqfsSQAIAB627wq5VMGWoj4uL4b6dK9UyX2aAI9bfD0=",
+        "originContent": "### 🔧 Productivity Enhancement",
+        "translatedContent": "### 🔧 생산성 향상"
+      },
+      {
+        "row": 34,
+        "rowsha": "eEZdJ6vc+g439twImY9SmKqtOMeV+jzvSRaTH1zR808=",
+        "originContent": "- **Batch Generation**: Generate multiple images in a single operation",
+        "translatedContent": "- **배치 생성**: 한 번에 여러 이미지 생성"
+      },
+      {
+        "row": 35,
+        "rowsha": "RMP5rkoHt4cc0tZ8hMJj/InXtWuNF9JI4hz7vUebbsE=",
+        "originContent": "- **Automatic VRAM Cleanup**: Automatic cleanup options for GPU/VRAM memory",
+        "translatedContent": "- **자동 VRAM 정리**: GPU/VRAM 메모리 자동 정리 옵션"
+      },
+      {
+        "row": 36,
+        "rowsha": "z8szCwAEc86lh3zfU1ncXQvBhJDN0W1AXm2s0lA91oQ=",
+        "originContent": "- **Automatic RAM Cleanup**: Automatic cleanup options for RAM memory",
+        "translatedContent": "- **자동 RAM 정리**: RAM 메모리 자동 정리 옵션"
+      },
+      {
+        "row": 37,
+        "rowsha": "SFWp3kb5ATBH9SaPgkJ7Utm71vWavSICZzfksB4GE9w=",
+        "originContent": "- **Automatic Save Results**: Automatically save generated result images to specified folder",
+        "translatedContent": "- **자동 결과 저장**: 생성된 결과 이미지 자동 지정 폴더 저장"
+      },
+      {
+        "row": 38,
+        "rowsha": "rDaYLobdg/JUpCRbKMjqSA1W2hqn0M/WGEeDnlYMa38=",
+        "originContent": "- **Completion Sound Notification**: Play audio reminder after generation completes",
+        "translatedContent": "- **완료 음성 알림**: 생성 완료 후 음성 알림 재생"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "Hy8C3IUBNs/qd6HExCkwpqsuxZDU8vbuIoTFLg2KxvU=",
+        "originContent": "## 🍧 Comparison Display",
+        "translatedContent": "## 🍧 비교 표시"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "### 🔄 Workflow Complexity Comparison\n- **❌ Workflow without using [Qwen Image Integrated KSampler] (complicated, too many nodes, too many wires)**\n![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/1-1-en.png)\n- **✅ Workflow using [Qwen Image Integrated KSampler] (extremely simple, single node done, almost no wires)**\n![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/1-2-en.png)\n\n### 🖼️ Generated Image Effect Comparison\n- **❌ Workflow without using [Qwen Image Integrated KSampler] (obvious offset, scaling)**\n![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/2-1.png)\n- **✅ Workflow using [Qwen Image Integrated KSampler] (completely no offset, scaling)**\n![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/2-2.png)\n\n## 📦 Installation Method\n\n### Method 1: Via ComfyUI Manager (Recommended)\n1. Open ComfyUI Manager in the ComfyUI interface\n2. Search for \"ComfyUI-Qwen-Image-Integrated-KSampler\"\n3. Click Install\n\n### Method 2: Manual Installation\n1. Navigate to your ComfyUI custom nodes directory:",
+    "ContentSha": "iXtYuL7hJ+rBQeg8cqSRwJQs/tnQaKA2auaSK45VWCU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 🔄 워크플로우 복잡도 비교\n- **❌ [Qwen Image Integrated KSampler] 미사용 워크플로우 (복잡함, 노드 및 와이어 과다)**\n![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/1-1-en.png)\n- **✅ [Qwen Image Integrated KSampler] 사용 워크플로우 (매우 간단, 단일 노드 완료, 거의 와이어 없음)**\n![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/1-2-en.png)\n\n### 🖼️ 생성된 이미지 효과 비교\n- **❌ [Qwen Image Integrated KSampler] 미사용 워크플로우 (명백한 오프셋, 스케일링)**\n![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/2-1.png)\n- **✅ [Qwen Image Integrated KSampler] 사용 워크플로우 (완전한 무 오프셋, 스케일링)**\n![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/2-2.png)\n\n## 📦 설치 방법\n\n### 방법 1: ComfyUI 매니저를 통한 설치 (추천)\n1. ComfyUI 인터페이스에서 ComfyUI 매니저를 엽니다\n2. \"ComfyUI-Qwen-Image-Integrated-KSampler\"를 검색합니다\n3. 설치를 클릭합니다\n\n### 방법 2: 수동 설치\n1. ComfyUI 사용자 정의 노드 디렉터리로 이동합니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o98sBP+VNGHBf+282w8G9ZlmrrCkrWaAzrKzIXSkvBY=",
+        "originContent": "### 🔄 Workflow Complexity Comparison",
+        "translatedContent": "### 🔄 워크플로우 복잡도 비교"
+      },
+      {
+        "row": 2,
+        "rowsha": "fNDI+1CBa5zlGMkKlzRNuMUxIf5p65KPIeu69L6MSj4=",
+        "originContent": "- **❌ Workflow without using [Qwen Image Integrated KSampler] (complicated, too many nodes, too many wires)**",
+        "translatedContent": "- **❌ [Qwen Image Integrated KSampler] 미사용 워크플로우 (복잡함, 노드 및 와이어 과다)**"
+      },
+      {
+        "row": 3,
+        "rowsha": "9Ddegy7XxFYq6ZGUAU78wVTN294W+lvxhoMpzLyFiD0=",
+        "originContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/1-1-en.png)",
+        "translatedContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/1-1-en.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "uAeqSG14DCeFgbs9g/phs+ze+C/se+H0KFgAf+eyc+4=",
+        "originContent": "- **✅ Workflow using [Qwen Image Integrated KSampler] (extremely simple, single node done, almost no wires)**",
+        "translatedContent": "- **✅ [Qwen Image Integrated KSampler] 사용 워크플로우 (매우 간단, 단일 노드 완료, 거의 와이어 없음)**"
+      },
+      {
+        "row": 5,
+        "rowsha": "k+7j01/60i4KNrRhTABpXtMkNUjUYGebqDDo4GN7Hbw=",
+        "originContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/1-2-en.png)",
+        "translatedContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/1-2-en.png)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Gs0yeLvniXCykJlghixyNpk/02U4tG+CLe7SdefUfsY=",
+        "originContent": "### 🖼️ Generated Image Effect Comparison",
+        "translatedContent": "### 🖼️ 생성된 이미지 효과 비교"
+      },
+      {
+        "row": 8,
+        "rowsha": "LnUrKgVihwValBVTdZUPvTiNdGFU7ENWCQTwsPKZNtE=",
+        "originContent": "- **❌ Workflow without using [Qwen Image Integrated KSampler] (obvious offset, scaling)**",
+        "translatedContent": "- **❌ [Qwen Image Integrated KSampler] 미사용 워크플로우 (명백한 오프셋, 스케일링)**"
+      },
+      {
+        "row": 9,
+        "rowsha": "0sm2GBENpGn3XMZrQx1tSEFL6lc1RGhHWbvNPF1DDhc=",
+        "originContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/2-1.png)",
+        "translatedContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/2-1.png)"
+      },
+      {
+        "row": 10,
+        "rowsha": "/13aqdP4aXm6Fw7yOvpOzstPbnRSMKQRD4Qm09Z6n/g=",
+        "originContent": "- **✅ Workflow using [Qwen Image Integrated KSampler] (completely no offset, scaling)**",
+        "translatedContent": "- **✅ [Qwen Image Integrated KSampler] 사용 워크플로우 (완전한 무 오프셋, 스케일링)**"
+      },
+      {
+        "row": 11,
+        "rowsha": "x6TAptUyG8gdCoNUJ5kO4vvRlOz0DWKG4nRqzEP79ck=",
+        "originContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/2-2.png)",
+        "translatedContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/2-2.png)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "avtxb6ywjdBM++5a61KdKHbhLOIxwbNVAxpSF0xIEME=",
+        "originContent": "## 📦 Installation Method",
+        "translatedContent": "## 📦 설치 방법"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "i6I4Lap2dyIXEmimnaAdkEiRsC7gNaXeUP5u2AWLC78=",
+        "originContent": "### Method 1: Via ComfyUI Manager (Recommended)",
+        "translatedContent": "### 방법 1: ComfyUI 매니저를 통한 설치 (추천)"
+      },
+      {
+        "row": 16,
+        "rowsha": "gGD2OoC5XVBXfbBGfy0HlKL+SDbG3baeOB8QcsHvG0c=",
+        "originContent": "1. Open ComfyUI Manager in the ComfyUI interface",
+        "translatedContent": "1. ComfyUI 인터페이스에서 ComfyUI 매니저를 엽니다"
+      },
+      {
+        "row": 17,
+        "rowsha": "oQveaDHIZKSinLFgRaaxvIwAnpUqI6bzHOQjo58DwOs=",
+        "originContent": "2. Search for \"ComfyUI-Qwen-Image-Integrated-KSampler\"",
+        "translatedContent": "2. \"ComfyUI-Qwen-Image-Integrated-KSampler\"를 검색합니다"
+      },
+      {
+        "row": 18,
+        "rowsha": "DifPCY1FWE3NpF9WOVekxvTkOtl4YoIA5IaCV8lc+Ws=",
+        "originContent": "3. Click Install",
+        "translatedContent": "3. 설치를 클릭합니다"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "ld3KJ4+q01Oy07tuT3jy9sMRk1hh9eN6XVnUHeSNqVE=",
+        "originContent": "### Method 2: Manual Installation",
+        "translatedContent": "### 방법 2: 수동 설치"
+      },
+      {
+        "row": 21,
+        "rowsha": "tu8rKLVecFSadlfoH2mS/9hR3PlSQJyas6iUMuekpG8=",
+        "originContent": "1. Navigate to your ComfyUI custom nodes directory:",
+        "translatedContent": "1. ComfyUI 사용자 정의 노드 디렉터리로 이동합니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "   ```bash\n   cd /path/to/ComfyUI/custom_nodes\n   ```",
+    "ContentSha": "Ss3yjL72s/rIn3Wa4O3ojg6kWu/bgy+qIyit6FEmF8E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   cd /path/to/ComfyUI/custom_nodes\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ca24MC7Gs136N1CrqEHk3noaZqdIhhxetgpmYOVgvAI=",
+        "originContent": "   cd /path/to/ComfyUI/custom_nodes",
+        "translatedContent": "   cd /path/to/ComfyUI/custom_nodes"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n2. Clone the repository:",
+    "ContentSha": "D3NDhl3tGyZVdTjaEkzRwBTDFBYWtRaLVsEL6VDfUGo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. 저장소를 복제합니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. 저장소를 복제합니다:"
+      },
+      {
+        "row": 2,
+        "rowsha": "QF+kKiV6TwtplPiKhgbXCDmJuW24ZbE324psytXilfg=",
+        "originContent": "2. Clone the repository:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "   ```bash\n   git clone https://github.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler.git\n   or gitee repository:\n   git clone https://gitee.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler.git\n   ```",
+    "ContentSha": "OhRumXBxZ6X0iVwLP64R0Nr1zDLQKL4lUcZoCEcZorY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   git clone https://github.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler.git\n   or gitee repository:\n   git clone https://gitee.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler.git\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "dpLK/dV397LmhKEEgVAU0HBnxwIGNoAwwIJKCUvdlgY=",
+        "originContent": "   git clone https://github.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler.git",
+        "translatedContent": "   git clone https://github.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "ej734LfiESdUuhvTJx5ke1gfSaxKGPLd4V7O/QmcNuI=",
+        "originContent": "   or gitee repository:",
+        "translatedContent": "   or gitee repository:"
+      },
+      {
+        "row": 4,
+        "rowsha": "MDcdk35z1XBLkEWaCCqmkLglxTqnEyefuRnlIB8Sc/A=",
+        "originContent": "   git clone https://gitee.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler.git",
+        "translatedContent": "   git clone https://gitee.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler.git"
+      },
+      {
+        "row": 5,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n3. Install dependencies:",
+    "ContentSha": "sKE50oa4Ih2uaGMNqke2DOdANtnMvXLwsnfq4Xr6d4c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n3. 종속성 설치:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "DFP9/08O+LZbieoKJaoqW1+0Bt1hyigCB/gI8O3Np5I=",
+        "originContent": "3. Install dependencies:",
+        "translatedContent": "3. 종속성 설치:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "   ```bash\n   pip install -r requirements.txt\n   ```",
+    "ContentSha": "vPTEjA7vB1Y6ZmRn9OrxWVvD+PlIgnmo/9sRb/u1wbg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   pip install -r requirements.txt\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "gtki7VrXs9PZiEAYN9eZp74oLBFOSDhTkGvRXMnXkAc=",
+        "originContent": "   pip install -r requirements.txt",
+        "translatedContent": "   pip install -r requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n4. Restart ComfyUI\n\n## 🚀 Usage Method\n\n### [Workflow Example](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/workflow_example.json)\n\n### Basic Text-to-Image Generation\n\n1. Add the \"🐋 Qwen Image Integrated KSampler\" node to the workflow\n2. Set `generation_mode` to \"text-to-image\"\n3. Connect required inputs:\n   - Model (🤖 Model)\n   - CLIP (🟡 Clip)\n   - VAE (🎨 Vae)\n4. Enter positive and negative prompts\n5. Set width and height (required for text-to-image)\n6. Configure sampling parameters (steps, CFG, sampler, scheduler)\n7. Execute the workflow\n\n### Image-to-Image Generation\n\n1. Add the node to the workflow\n2. Set `generation_mode` to \"image-to-image\"\n3. Connect at least one reference image (🖼️ Image1)\n4. Optionally add up to 4 other reference images\n5. Enter positive/negative prompts and instructions\n6. Set target width/height for scaling (optional)\n7. Configure other parameters as needed\n8. Execute the workflow\n\n### ControlNet Control\n\n1. Add the [🐋 Qwen ControlNet Integrated Loader] node, connect to [📦 ControlNet Data]\n\n2. Connect pose, depth control images\n\n3. Select ControlNet model, set control type and strength\n\n4. Execute the workflow",
+    "ContentSha": "xxAUs5kz3QlgtcjByVev1/8YS4aJoCEi9yF0ilj5XQw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "4. ComfyUI 재시작\n\n## 🚀 사용 방법\n\n### [워크플로우 예제](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/workflow_example.json)\n\n### 기본 텍스트-투-이미지 생성\n\n1. 워크플로우에 \"🐋 Qwen Image Integrated KSampler\" 노드 추가\n2. `generation_mode`를 \"text-to-image\"로 설정\n3. 필수 입력 연결:\n   - 모델 (🤖 Model)\n   - CLIP (🟡 Clip)\n   - VAE (🎨 Vae)\n4. 긍정 및 부정 프롬프트 입력\n5. 너비 및 높이 설정 (텍스트-투-이미지에 필요)\n6. 샘플링 매개변수 설정 (스텝, CFG, 샘플러, 스케줄러)\n7. 워크플로우 실행\n\n### 이미지-투-이미지 생성\n\n1. 워크플로우에 노드 추가\n2. `generation_mode`를 \"image-to-image\"로 설정\n3. 최소 한 개의 참조 이미지 연결 (🖼️ Image1)\n4. 선택적으로 최대 4개의 추가 참조 이미지 추가\n5. 긍정/부정 프롬프트 및 지시사항 입력\n6. 스케일링을 위한 목표 너비/높이 설정 (선택 사항)\n7. 필요에 따라 기타 매개변수 설정\n8. 워크플로우 실행\n\n### ControlNet 제어\n\n1. [🐋 Qwen ControlNet Integrated Loader] 노드 추가, [📦 ControlNet Data]에 연결\n\n2. 포즈, 깊이 제어 이미지 연결\n\n3. ControlNet 모델 선택, 제어 유형 및 강도 설정\n\n4. 워크플로우 실행\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. ComfyUI 재시작"
+      },
+      {
+        "row": 2,
+        "rowsha": "4dRDWc/8ETd1pcNsq//i+FiCF3zcXrKsZF76AvX/tgU=",
+        "originContent": "4. Restart ComfyUI",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🚀 사용 방법"
+      },
+      {
+        "row": 4,
+        "rowsha": "sgcpEvb0hXBWKytHcrB5oLalQ0mWL60sz87zELnombU=",
+        "originContent": "## 🚀 Usage Method",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### [워크플로우 예제](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/workflow_example.json)"
+      },
+      {
+        "row": 6,
+        "rowsha": "T0xXXTWzC1pblDtoRtPjtcH59i2H1NbLOCdK6YlEeS8=",
+        "originContent": "### [Workflow Example](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/workflow_example.json)",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 기본 텍스트-투-이미지 생성"
+      },
+      {
+        "row": 8,
+        "rowsha": "P1bDWlpA50R72+h6VuV9HogJptV1Oym3hB5uInt5FFI=",
+        "originContent": "### Basic Text-to-Image Generation",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 워크플로우에 \"🐋 Qwen Image Integrated KSampler\" 노드 추가"
+      },
+      {
+        "row": 10,
+        "rowsha": "hv2U42NaGMhTLR8CNLso/JXQPr+i+RNv28sHfVG1Omo=",
+        "originContent": "1. Add the \"🐋 Qwen Image Integrated KSampler\" node to the workflow",
+        "translatedContent": "2. `generation_mode`를 \"text-to-image\"로 설정"
+      },
+      {
+        "row": 11,
+        "rowsha": "AR7rLoH5Nrk6ZFQ/o0N/TzBEq1YCqdZdKLRJx3VFkLw=",
+        "originContent": "2. Set `generation_mode` to \"text-to-image\"",
+        "translatedContent": "3. 필수 입력 연결:"
+      },
+      {
+        "row": 12,
+        "rowsha": "UU1+EZgWCMU+KFnnXFXCJRGgDgvhLMJe5nDtS9ZDd8I=",
+        "originContent": "3. Connect required inputs:",
+        "translatedContent": "   - 모델 (🤖 Model)"
+      },
+      {
+        "row": 13,
+        "rowsha": "BQDfCG1/670j8TF0cTPLHT2lEnVnCJrpP8bBz5Je2v4=",
+        "originContent": "   - Model (🤖 Model)",
+        "translatedContent": "   - CLIP (🟡 Clip)"
+      },
+      {
+        "row": 14,
+        "rowsha": "/ze3nuw2chQleUheFkPe0Jd03sQvFIhOfVK2IBpaLoo=",
+        "originContent": "   - CLIP (🟡 Clip)",
+        "translatedContent": "   - VAE (🎨 Vae)"
+      },
+      {
+        "row": 15,
+        "rowsha": "xArQgeUsHe/jscjzTZOgGCGn1Rl6h+296T4iVqptsgc=",
+        "originContent": "   - VAE (🎨 Vae)",
+        "translatedContent": "4. 긍정 및 부정 프롬프트 입력"
+      },
+      {
+        "row": 16,
+        "rowsha": "PONjKnV5KeVBZuJPGEsdtuJ6sXDZodIbZ6NbnSgGV1I=",
+        "originContent": "4. Enter positive and negative prompts",
+        "translatedContent": "5. 너비 및 높이 설정 (텍스트-투-이미지에 필요)"
+      },
+      {
+        "row": 17,
+        "rowsha": "nOuDKBMwntKjooEbokbOmyM+L/9LvrDI9o1BYi5f6Fk=",
+        "originContent": "5. Set width and height (required for text-to-image)",
+        "translatedContent": "6. 샘플링 매개변수 설정 (스텝, CFG, 샘플러, 스케줄러)"
+      },
+      {
+        "row": 18,
+        "rowsha": "p3ps6Io+HQNTPfMekmC0y0tC3OAJgb+nNyTP4YtZ0VQ=",
+        "originContent": "6. Configure sampling parameters (steps, CFG, sampler, scheduler)",
+        "translatedContent": "7. 워크플로우 실행"
+      },
+      {
+        "row": 19,
+        "rowsha": "4NNNzpKTL7YzXh+oBk1H5Ter23ZPWUwt/VsV6d2NrVQ=",
+        "originContent": "7. Execute the workflow",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 이미지-투-이미지 생성"
+      },
+      {
+        "row": 21,
+        "rowsha": "5J7PActpVrEgvjBBzkOhPkFYMSGAppgOnQhRC9qRUfs=",
+        "originContent": "### Image-to-Image Generation",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 워크플로우에 노드 추가"
+      },
+      {
+        "row": 23,
+        "rowsha": "JWBT/rkNihYdNBWqBHtwgmnkPk5xlVFa737xkzBni/c=",
+        "originContent": "1. Add the node to the workflow",
+        "translatedContent": "2. `generation_mode`를 \"image-to-image\"로 설정"
+      },
+      {
+        "row": 24,
+        "rowsha": "nlk+PFrMERenkrWPdI/PM8eXMlUnAa9Hs3M2RWYyzlA=",
+        "originContent": "2. Set `generation_mode` to \"image-to-image\"",
+        "translatedContent": "3. 최소 한 개의 참조 이미지 연결 (🖼️ Image1)"
+      },
+      {
+        "row": 25,
+        "rowsha": "fsuSQyJgHIATw+WRoBaP+x6bpohGC+WeEapn9lVRScc=",
+        "originContent": "3. Connect at least one reference image (🖼️ Image1)",
+        "translatedContent": "4. 선택적으로 최대 4개의 추가 참조 이미지 추가"
+      },
+      {
+        "row": 26,
+        "rowsha": "ZMDuwUS6L8uXSP29yGx4R9F22Vf8goHS/qOywaQgqLU=",
+        "originContent": "4. Optionally add up to 4 other reference images",
+        "translatedContent": "5. 긍정/부정 프롬프트 및 지시사항 입력"
+      },
+      {
+        "row": 27,
+        "rowsha": "trFhUH75JHH/2US6zqLYtw0n1V00aZ9JLTJfkAemN7U=",
+        "originContent": "5. Enter positive/negative prompts and instructions",
+        "translatedContent": "6. 스케일링을 위한 목표 너비/높이 설정 (선택 사항)"
+      },
+      {
+        "row": 28,
+        "rowsha": "Vd4sZ2R4OTwi15B3IHJKH0ki9CXYzt7Lu/Ppq9otxTo=",
+        "originContent": "6. Set target width/height for scaling (optional)",
+        "translatedContent": "7. 필요에 따라 기타 매개변수 설정"
+      },
+      {
+        "row": 29,
+        "rowsha": "ch3p0Pza6VwD92tG/WYNVc/dk7s54NKCVhXsZ4MAnvM=",
+        "originContent": "7. Configure other parameters as needed",
+        "translatedContent": "8. 워크플로우 실행"
+      },
+      {
+        "row": 30,
+        "rowsha": "Am8Z6j2/c3k9o3DmmHJuw42IYy2El04lCm7EUwk/3b8=",
+        "originContent": "8. Execute the workflow",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ControlNet 제어"
+      },
+      {
+        "row": 32,
+        "rowsha": "/mBWL+EGe3CBksAnjTpDfsDXMw00SrWVEujEAE9W2Oc=",
+        "originContent": "### ControlNet Control",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. [🐋 Qwen ControlNet Integrated Loader] 노드 추가, [📦 ControlNet Data]에 연결"
+      },
+      {
+        "row": 34,
+        "rowsha": "R3EK7n0FbwMYbrSTAZo2e5Ud6WQBIoWrQ3/g8btAqi8=",
+        "originContent": "1. Add the [🐋 Qwen ControlNet Integrated Loader] node, connect to [📦 ControlNet Data]",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. 포즈, 깊이 제어 이미지 연결"
+      },
+      {
+        "row": 36,
+        "rowsha": "aDLHyRFz4v4H74FntPVXQPlSQa+RXgqF5htCajE/RLI=",
+        "originContent": "2. Connect pose, depth control images",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. ControlNet 모델 선택, 제어 유형 및 강도 설정"
+      },
+      {
+        "row": 38,
+        "rowsha": "WSVOMrUIFYFdva7XV0MHurZkoB6CgaitBuEO8Dbmtzc=",
+        "originContent": "3. Select ControlNet model, set control type and strength",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. 워크플로우 실행"
+      },
+      {
+        "row": 40,
+        "rowsha": "fKFwrhUZuCTOYc2SgvaW8beOTnhsym+H0fXoU3WFXNg=",
+        "originContent": "4. Execute the workflow",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "\n![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/3-en.png)\n\n### Advanced Features\n\n- **Memory Management**: Enable GPU/CPU cleanup options to improve resource efficiency\n- **Batch Processing**: Set batch_size > 1 for multiple image generation\n- **Auto-Save**: Specify output folder for automatic saving\n- **AuraFlow Tuning**: Adjust auraflow_shift to balance speed and quality\n- **CFG Enhancement**: Stabilizer for CFG\n\n## ⚠️ Notes\n\n### 📝 Usage Requirements\n- **Text-to-Image Mode**: Must set width (Width) and height (Height), these are required parameters\n- **Image-to-Image Mode**: Must provide at least one reference image (Image1), supports up to 5 reference images (Image1-Image5)\n\n### 🎛️ Parameter Setting Suggestions\n- **Batch Size**: Choose between 1-10, adjust according to GPU memory, recommend starting testing from 1\n- **Resolution (Width/Height)**: Must be multiples of 8, range 0-16384, recommend starting testing from lower resolutions (like 512x512)\n- **Sampling Steps**: Qwen models recommend 4-20 steps, too high may increase computation time but not necessarily improve quality\n- **CFG Value**: Range 0-100, default 1.0, recommend 1.0-7.0 range\n- **Denoise Strength**: Range 0-1, default 1.0, can lower appropriately in image-to-image mode\n- **AuraFlow Shift**: Range 0-100, default 3.0, used to balance generation speed and quality\n- **CFG Normalization Strength**: Range 0-100, default 1.0, stabilizer for CFG\n\n### 🔧 Image Processing\n- **Automatic Scaling**: Text-to-image must input width and height parameters, image-to-image fills in to auto-scale reference images while maintaining aspect ratio, setting either width or height to 0 disables scaling\n- **Reference Image Order**: Supports up to 5 reference images, processed in order Image1-Image5, Image1 is the main image\n- **Image Format**: Supports standard image input formats, automatically handles batch dimensions\n\n### 💾 Memory Management\n- **GPU Memory Cleanup**: Enable enable_clean_gpu_memory option, automatically clean VRAM before/after generation\n- **CPU Memory Cleanup**: Enable enable_clean_cpu_memory_after_finish, clean RAM after generation completes (including file cache, processes, dynamic libraries)\n- For continuous large-scale generation, it is recommended to always enable memory cleanup options to prevent memory overflow\n\n### 💾 Auto-Save\n- **Output Folder**: Set auto_save_output_folder to enable auto-save function, leave blank to disable, supports absolute and relative paths\n- **File Naming**: output_filename_prefix custom prefix, default \"auto_save\"\n- Save format is PNG, filename includes seed and batch number (e.g.: auto_save_123456_00000.png)",
+    "ContentSha": "73PHrtFrgSyJFUJJzeeMpEfz0v4A/EPuSlKwAetrexI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/3-en.png)\n\n### 고급 기능\n\n- **메모리 관리**: GPU/CPU 정리 옵션을 활성화하여 자원 효율성 향상\n- **배치 처리**: batch_size > 1 설정 시 다중 이미지 생성 가능\n- **자동 저장**: 출력 폴더 지정 시 자동 저장 기능 활성화\n- **AuraFlow 조정**: auraflow_shift 값을 조절하여 속도와 품질 균형 맞춤\n- **CFG 향상**: CFG 안정화 기능 제공\n\n## ⚠️ 주의사항\n\n### 📝 사용 요구사항\n- **텍스트-이미지 모드**: 너비(Width)와 높이(Height)를 반드시 설정해야 하며, 필수 매개변수임\n- **이미지-이미지 모드**: 최소 1개의 참조 이미지(Image1)를 제공해야 하며, 최대 5개 참조 이미지(Image1-Image5) 지원\n\n### 🎛️ 매개변수 설정 권장사항\n- **배치 크기**: 1-10 사이 선택, GPU 메모리에 따라 조정, 테스트는 1부터 시작 권장\n- **해상도(너비/높이)**: 8의 배수여야 하며, 범위는 0-16384, 낮은 해상도(예: 512x512)부터 테스트 권장\n- **샘플링 단계**: Qwen 모델은 4-20단계 권장, 너무 높으면 계산 시간이 길어지지만 품질 향상과는 무관\n- **CFG 값**: 0-100 범위, 기본값 1.0, 1.0-7.0 범위 권장\n- **노이즈 제거 강도**: 0-1 범위, 기본값 1.0, 이미지-이미지 모드에서는 적절히 낮출 수 있음\n- **AuraFlow Shift**: 0-100 범위, 기본값 3.0, 생성 속도와 품질 균형 조절용\n- **CFG 정규화 강도**: 0-100 범위, 기본값 1.0, CFG 안정화용\n\n### 🔧 이미지 처리\n- **자동 스케일링**: 텍스트-이미지 모드에서는 너비와 높이 입력 필수, 이미지-이미지 모드는 참조 이미지 비율 유지하며 자동 스케일링, 너비 또는 높이를 0으로 설정하면 스케일링 비활성화\n- **참조 이미지 순서**: 최대 5개 참조 이미지 지원, Image1-Image5 순서로 처리, Image1이 주 이미지\n- **이미지 형식**: 표준 이미지 입력 형식 지원, 배치 차원 자동 처리\n\n### 💾 메모리 관리\n- **GPU 메모리 정리**: enable_clean_gpu_memory 옵션 활성화 시 생성 전후 VRAM 자동 정리\n- **CPU 메모리 정리**: enable_clean_cpu_memory_after_finish 옵션 활성화 시 생성 완료 후 RAM 정리 (파일 캐시, 프로세스, 동적 라이브러리 포함)\n- 대규모 연속 생성 시 메모리 오버플로우 방지를 위해 항상 메모리 정리 옵션 활성화 권장\n\n### 💾 자동 저장\n- **출력 폴더**: auto_save_output_folder 설정 시 자동 저장 기능 활성화, 비워두면 비활성, 절대경로 및 상대경로 지원\n- **파일명 지정**: output_filename_prefix 사용자 지정 접두사, 기본값 \"auto_save\"\n- 저장 형식은 PNG이며, 파일명에 시드와 배치 번호 포함 (예: auto_save_123456_00000.png)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/3-en.png)"
+      },
+      {
+        "row": 2,
+        "rowsha": "qaAOYUnSbMvOMMP7SGi2r+jOv8F+M3TZtECc25guki4=",
+        "originContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/3-en.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 고급 기능"
+      },
+      {
+        "row": 4,
+        "rowsha": "xnHitdIO9d0SDZkghNHxKpusVGYql/gV1f6ZKaUAwZ0=",
+        "originContent": "### Advanced Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **메모리 관리**: GPU/CPU 정리 옵션을 활성화하여 자원 효율성 향상"
+      },
+      {
+        "row": 6,
+        "rowsha": "hzBzAt3tsiqlFfZPqtlNOut0k91htFtoujpoJZ2o7Ow=",
+        "originContent": "- **Memory Management**: Enable GPU/CPU cleanup options to improve resource efficiency",
+        "translatedContent": "- **배치 처리**: batch_size > 1 설정 시 다중 이미지 생성 가능"
+      },
+      {
+        "row": 7,
+        "rowsha": "Ivrp4IENvmwfAy1k1cf/f79C1xg5AwUpNZbheF7CCX0=",
+        "originContent": "- **Batch Processing**: Set batch_size > 1 for multiple image generation",
+        "translatedContent": "- **자동 저장**: 출력 폴더 지정 시 자동 저장 기능 활성화"
+      },
+      {
+        "row": 8,
+        "rowsha": "GLsLveY6LiDsvQiVhsGXEfZHhY6DMpiezdQQ8nu3RXM=",
+        "originContent": "- **Auto-Save**: Specify output folder for automatic saving",
+        "translatedContent": "- **AuraFlow 조정**: auraflow_shift 값을 조절하여 속도와 품질 균형 맞춤"
+      },
+      {
+        "row": 9,
+        "rowsha": "mkKkcudhcju+aQxg1ngc5SPx4YcMW9uzUdRSWavUBXk=",
+        "originContent": "- **AuraFlow Tuning**: Adjust auraflow_shift to balance speed and quality",
+        "translatedContent": "- **CFG 향상**: CFG 안정화 기능 제공"
+      },
+      {
+        "row": 10,
+        "rowsha": "QbzB3vigIMxaG9LdK2v/a8nJ4vsVgRvjLWefHORbHKM=",
+        "originContent": "- **CFG Enhancement**: Stabilizer for CFG",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ⚠️ 주의사항"
+      },
+      {
+        "row": 12,
+        "rowsha": "eNKmT4+uQEhnN0Y2J+jq/M00P+YStyUP7g/4vDEPYoQ=",
+        "originContent": "## ⚠️ Notes",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 📝 사용 요구사항"
+      },
+      {
+        "row": 14,
+        "rowsha": "+tel8yMKzaeYVgcZr6LyCAHeTc2CWsl49R8KXabX6gU=",
+        "originContent": "### 📝 Usage Requirements",
+        "translatedContent": "- **텍스트-이미지 모드**: 너비(Width)와 높이(Height)를 반드시 설정해야 하며, 필수 매개변수임"
+      },
+      {
+        "row": 15,
+        "rowsha": "v9v8osa9KNY/UdWcp0qDg5JrKXNx+quzP0/BsZ4qtJM=",
+        "originContent": "- **Text-to-Image Mode**: Must set width (Width) and height (Height), these are required parameters",
+        "translatedContent": "- **이미지-이미지 모드**: 최소 1개의 참조 이미지(Image1)를 제공해야 하며, 최대 5개 참조 이미지(Image1-Image5) 지원"
+      },
+      {
+        "row": 16,
+        "rowsha": "sqIK6DBzkj/Oh5nGXSP3DVTHOIQ8wCzqlljSN7xEjAc=",
+        "originContent": "- **Image-to-Image Mode**: Must provide at least one reference image (Image1), supports up to 5 reference images (Image1-Image5)",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 🎛️ 매개변수 설정 권장사항"
+      },
+      {
+        "row": 18,
+        "rowsha": "giykyAUzDnsWIpnaI7S1zYQgwpyGQd3/HoKfxfYbgWg=",
+        "originContent": "### 🎛️ Parameter Setting Suggestions",
+        "translatedContent": "- **배치 크기**: 1-10 사이 선택, GPU 메모리에 따라 조정, 테스트는 1부터 시작 권장"
+      },
+      {
+        "row": 19,
+        "rowsha": "cfEKWmwWGkgHCZK4Nmmvp0WWRwyK4JIjqNbJIpgfxnU=",
+        "originContent": "- **Batch Size**: Choose between 1-10, adjust according to GPU memory, recommend starting testing from 1",
+        "translatedContent": "- **해상도(너비/높이)**: 8의 배수여야 하며, 범위는 0-16384, 낮은 해상도(예: 512x512)부터 테스트 권장"
+      },
+      {
+        "row": 20,
+        "rowsha": "oyxo+uwpON8uWPA36efFbX7WGtOyC4+0eY7ayr4qOPY=",
+        "originContent": "- **Resolution (Width/Height)**: Must be multiples of 8, range 0-16384, recommend starting testing from lower resolutions (like 512x512)",
+        "translatedContent": "- **샘플링 단계**: Qwen 모델은 4-20단계 권장, 너무 높으면 계산 시간이 길어지지만 품질 향상과는 무관"
+      },
+      {
+        "row": 21,
+        "rowsha": "Xb/Owry9AE28ywZX0vQqloOiIH1i6f91NznZ8WkpyWA=",
+        "originContent": "- **Sampling Steps**: Qwen models recommend 4-20 steps, too high may increase computation time but not necessarily improve quality",
+        "translatedContent": "- **CFG 값**: 0-100 범위, 기본값 1.0, 1.0-7.0 범위 권장"
+      },
+      {
+        "row": 22,
+        "rowsha": "IHtVxcP1NVJnUcnET6P1mXTddtGvuL8vwS5LxGM0e3o=",
+        "originContent": "- **CFG Value**: Range 0-100, default 1.0, recommend 1.0-7.0 range",
+        "translatedContent": "- **노이즈 제거 강도**: 0-1 범위, 기본값 1.0, 이미지-이미지 모드에서는 적절히 낮출 수 있음"
+      },
+      {
+        "row": 23,
+        "rowsha": "evnN7SUhF+scroQ7+grMXsqUYrm8utYiVDPaKnc3QpA=",
+        "originContent": "- **Denoise Strength**: Range 0-1, default 1.0, can lower appropriately in image-to-image mode",
+        "translatedContent": "- **AuraFlow Shift**: 0-100 범위, 기본값 3.0, 생성 속도와 품질 균형 조절용"
+      },
+      {
+        "row": 24,
+        "rowsha": "O3bMow1ILb3pCoZuMofDk8b6cMY+iuh++Wwnvx4Dh+s=",
+        "originContent": "- **AuraFlow Shift**: Range 0-100, default 3.0, used to balance generation speed and quality",
+        "translatedContent": "- **CFG 정규화 강도**: 0-100 범위, 기본값 1.0, CFG 안정화용"
+      },
+      {
+        "row": 25,
+        "rowsha": "Lvarz1KXn454UqtToa5PvTHoA9EBGeN5gopMrP/IVqs=",
+        "originContent": "- **CFG Normalization Strength**: Range 0-100, default 1.0, stabilizer for CFG",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 🔧 이미지 처리"
+      },
+      {
+        "row": 27,
+        "rowsha": "poWCcsH4eqpp9+68uYzzcsndPFzxFCGUZ8Ibzf61TF0=",
+        "originContent": "### 🔧 Image Processing",
+        "translatedContent": "- **자동 스케일링**: 텍스트-이미지 모드에서는 너비와 높이 입력 필수, 이미지-이미지 모드는 참조 이미지 비율 유지하며 자동 스케일링, 너비 또는 높이를 0으로 설정하면 스케일링 비활성화"
+      },
+      {
+        "row": 28,
+        "rowsha": "GRjzulVVs9Lm+2gTirshIY/Yb4rRaY/2fCpiVKJWfxI=",
+        "originContent": "- **Automatic Scaling**: Text-to-image must input width and height parameters, image-to-image fills in to auto-scale reference images while maintaining aspect ratio, setting either width or height to 0 disables scaling",
+        "translatedContent": "- **참조 이미지 순서**: 최대 5개 참조 이미지 지원, Image1-Image5 순서로 처리, Image1이 주 이미지"
+      },
+      {
+        "row": 29,
+        "rowsha": "Z6aSppT6pJjJMn4N20cP7k6tagD+DvvL5kUbNQCaCiM=",
+        "originContent": "- **Reference Image Order**: Supports up to 5 reference images, processed in order Image1-Image5, Image1 is the main image",
+        "translatedContent": "- **이미지 형식**: 표준 이미지 입력 형식 지원, 배치 차원 자동 처리"
+      },
+      {
+        "row": 30,
+        "rowsha": "4oBAYIgHvpCMjjZ0eTnhXknV75BjCdHg/McZFeC7tX4=",
+        "originContent": "- **Image Format**: Supports standard image input formats, automatically handles batch dimensions",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 💾 메모리 관리"
+      },
+      {
+        "row": 32,
+        "rowsha": "oUjr2sjJ5Ql7H3cNv+MB4QRZo5zoIeTBn3prqmHNWQ8=",
+        "originContent": "### 💾 Memory Management",
+        "translatedContent": "- **GPU 메모리 정리**: enable_clean_gpu_memory 옵션 활성화 시 생성 전후 VRAM 자동 정리"
+      },
+      {
+        "row": 33,
+        "rowsha": "1vM8Ro2jMKI1w8bx+v0VpP2NC6Ac0FLSA6XUshJl6AE=",
+        "originContent": "- **GPU Memory Cleanup**: Enable enable_clean_gpu_memory option, automatically clean VRAM before/after generation",
+        "translatedContent": "- **CPU 메모리 정리**: enable_clean_cpu_memory_after_finish 옵션 활성화 시 생성 완료 후 RAM 정리 (파일 캐시, 프로세스, 동적 라이브러리 포함)"
+      },
+      {
+        "row": 34,
+        "rowsha": "udwn+G9Fsjpc1y/n2XGyefXN3OvzY1NB3S6CKmwEYWQ=",
+        "originContent": "- **CPU Memory Cleanup**: Enable enable_clean_cpu_memory_after_finish, clean RAM after generation completes (including file cache, processes, dynamic libraries)",
+        "translatedContent": "- 대규모 연속 생성 시 메모리 오버플로우 방지를 위해 항상 메모리 정리 옵션 활성화 권장"
+      },
+      {
+        "row": 35,
+        "rowsha": "Q/NXbgDjapCtZvA83iynOs9RPBnVnLIuCfx/Rh1HlE8=",
+        "originContent": "- For continuous large-scale generation, it is recommended to always enable memory cleanup options to prevent memory overflow",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 💾 자동 저장"
+      },
+      {
+        "row": 37,
+        "rowsha": "w0sBxMKLqn4VALR9r332Bu5yJNQdbP52iAxDMjUjoOo=",
+        "originContent": "### 💾 Auto-Save",
+        "translatedContent": "- **출력 폴더**: auto_save_output_folder 설정 시 자동 저장 기능 활성화, 비워두면 비활성, 절대경로 및 상대경로 지원"
+      },
+      {
+        "row": 38,
+        "rowsha": "MltuuqL9q7attleABAlP+/AEmcqTIfzcGpLVec6/5LE=",
+        "originContent": "- **Output Folder**: Set auto_save_output_folder to enable auto-save function, leave blank to disable, supports absolute and relative paths",
+        "translatedContent": "- **파일명 지정**: output_filename_prefix 사용자 지정 접두사, 기본값 \"auto_save\""
+      },
+      {
+        "row": 39,
+        "rowsha": "iMI8aCGI+1TDfSbZIxBWhzhCMCi57FADL3mfg+zIxzs=",
+        "originContent": "- **File Naming**: output_filename_prefix custom prefix, default \"auto_save\"",
+        "translatedContent": "- 저장 형식은 PNG이며, 파일명에 시드와 배치 번호 포함 (예: auto_save_123456_00000.png)"
+      },
+      {
+        "row": 40,
+        "rowsha": "X5ni7ZaBdOHMdqZ7KJFoV8bLHsHGttJrSqfoJRig0bI=",
+        "originContent": "- Save format is PNG, filename includes seed and batch number (e.g.: auto_save_123456_00000.png)",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "\n### 🔊 Notification Function\n- **Sound Notification**: Only supported on Windows systems\n\n## 📝 Update Records\n### v1.0.6:\n- **Added Localization Script:** Starting from ComfyUI v0.3.68, Chinese language files became invalid. Added automatic localization script, double-click [自动汉化节点.bat] and restart ComfyUI, requires installing ComfyUI-DD-Translation plugin\n\n\n## 📞 Contact for Special Customization 📞\n- Author: @luguoli（墙上的向日葵）\n- Author Email: luguoli@vip.qq.com\n\n\n---\n\n**Made with ❤️ for the ComfyUI community**\n",
+    "ContentSha": "QqLVoqK6riM38RzXtq0aiTbaXkiZQxxWC/PYqqg17ns=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 🔊 알림 기능\n- **사운드 알림**: 윈도우 시스템에서만 지원됨\n\n## 📝 업데이트 기록\n### v1.0.6:\n- **로컬라이제이션 스크립트 추가:** ComfyUI v0.3.68부터 중국어 언어 파일이 무효화됨. 자동 로컬라이제이션 스크립트 추가, [自动汉化节点.bat]를 더블 클릭하고 ComfyUI를 재시작하세요, ComfyUI-DD-Translation 플러그인 설치 필요\n\n\n## 📞 특수 맞춤 문의 📞\n- 작성자: @luguoli（벽에 붙은 해바라기）\n- 작성자 이메일: luguoli@vip.qq.com\n\n\n---\n\n**ComfyUI 커뮤니티를 위해 ❤️로 제작됨**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 🔊 알림 기능"
+      },
+      {
+        "row": 2,
+        "rowsha": "Y+LJ39cLwiUH2MIYZ8EM1tuvH54wd1uTvsU9zIJNPBo=",
+        "originContent": "### 🔊 Notification Function",
+        "translatedContent": "- **사운드 알림**: 윈도우 시스템에서만 지원됨"
+      },
+      {
+        "row": 3,
+        "rowsha": "QjNNSrWtjH25MzTfgyePbl44kXMSVYOHSwOjFcU+YcI=",
+        "originContent": "- **Sound Notification**: Only supported on Windows systems",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📝 업데이트 기록"
+      },
+      {
+        "row": 5,
+        "rowsha": "eB2ocEkB7FiJnTJmsiP7My9aWKY7P99JhDqqwA/9F2A=",
+        "originContent": "## 📝 Update Records",
+        "translatedContent": "### v1.0.6:"
+      },
+      {
+        "row": 6,
+        "rowsha": "wALhyFff8OclOt/Jt7wTeemEzJ1o2C9qmFqRm8rK7iQ=",
+        "originContent": "### v1.0.6:",
+        "translatedContent": "- **로컬라이제이션 스크립트 추가:** ComfyUI v0.3.68부터 중국어 언어 파일이 무효화됨. 자동 로컬라이제이션 스크립트 추가, [自动汉化节点.bat]를 더블 클릭하고 ComfyUI를 재시작하세요, ComfyUI-DD-Translation 플러그인 설치 필요"
+      },
+      {
+        "row": 7,
+        "rowsha": "3Kexl4BCnKjYue0Qoom6xKBO9/rIbY9P9bFe9j/cZ5w=",
+        "originContent": "- **Added Localization Script:** Starting from ComfyUI v0.3.68, Chinese language files became invalid. Added automatic localization script, double-click [自动汉化节点.bat] and restart ComfyUI, requires installing ComfyUI-DD-Translation plugin",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📞 특수 맞춤 문의 📞"
+      },
+      {
+        "row": 10,
+        "rowsha": "Y0Imll46MstIylXn/ggyFZ97DucTgK/wRp+SZNuZGaw=",
+        "originContent": "## 📞 Contact for Special Customization 📞",
+        "translatedContent": "- 작성자: @luguoli（벽에 붙은 해바라기）"
+      },
+      {
+        "row": 11,
+        "rowsha": "w2s8Albl+cY50YOR4nxTaot2W0uLW//ZcrcHitGPDrs=",
+        "originContent": "- Author: @luguoli（墙上的向日葵）",
+        "translatedContent": "- 작성자 이메일: luguoli@vip.qq.com"
+      },
+      {
+        "row": 12,
+        "rowsha": "AVV7XQrxjrYtAVIXaSpbDZJfKQJ95jbBRUzwVp53Yko=",
+        "originContent": "- Author Email: luguoli@vip.qq.com",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 15,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**ComfyUI 커뮤니티를 위해 ❤️로 제작됨**"
+      },
+      {
+        "row": 17,
+        "rowsha": "hnWVD1HeCbpAh9gAR6h0oWyHSPBPiWcezDdgOOpetFI=",
+        "originContent": "**Made with ❤️ for the ComfyUI community**",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

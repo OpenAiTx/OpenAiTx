@@ -1,0 +1,1046 @@
+[
+  {
+    "row": 1,
+    "rowsha": "+wKKEiJwtnddZyJEfFIEq+uG77NWqMkm6tzqEXLheak=",
+    "originContent": "# 🐋 Qwen Image Integrated KSampler",
+    "translatedContent": "# 🐋 Qwen 图像集成 KSampler"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "BAJQUCMRDVm7L9idKY/swbwKxDPE9tx+8HF7FAEiNdE=",
+    "originContent": "[![GitHub](https://img.shields.io/badge/GitHub-luguoli-orange)](https://github.com/luguoli)",
+    "translatedContent": "[![GitHub](https://img.shields.io/badge/GitHub-luguoli-orange)](https://github.com/luguoli)"
+  },
+  {
+    "row": 4,
+    "rowsha": "vuEOOBWi/L6rGr+dD2+Jtoqj+Vs2FRKRlIR1695VHyg=",
+    "originContent": "[![ComfyUI](https://img.shields.io/badge/ComfyUI-CustomNode-blue)](https://github.com/comfyanonymous/ComfyUI)",
+    "translatedContent": "[![ComfyUI](https://img.shields.io/badge/ComfyUI-CustomNode-blue)](https://github.com/comfyanonymous/ComfyUI)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "TPhvQnDL+agiX6vBJ1n33hfonoEhbwJFayBKQORs9d4=",
+    "originContent": "[English](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/README-en.md) | **[简体中文](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/README-zh.md)**",
+    "translatedContent": "[English](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/README-en.md) | **[简体中文](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/README-zh.md)**"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "75snfREX/qgTDTXG7DDRQvvzSQ9YE5C5RlvD3JxH/ZY=",
+    "originContent": "QwenImageIntegratedKSampler",
+    "translatedContent": "QwenImageIntegratedKSampler"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "CAGu/Yex76foqtxopajMgH+ezlWL+fiJplx9N7cipXU=",
+    "originContent": "This is an integrated ComfyUI Qwen-Image image generation sampler node,support Z-Image. Compared to using the official KSampler, it eliminates the messy wiring, supports both text-to-image and image-to-image generation, solves the offset issues of the official nodes, and integrates prompt input box, automatic image scaling, automatic memory/vRAM cleanup, batch generation, automatic saving and other comprehensive optimization features, so mom no longer has to worry about my messy wiring~~~~",
+    "translatedContent": "这是一个集成的 ComfyUI Qwen-Image 图像生成采样节点，支持 Z-Image。相比官方 KSampler，消除了繁杂的连线，支持文本到图像和图像到图像生成，解决了官方节点的偏移问题，集成了提示词输入框、自动图像缩放、自动内存/显存清理、批量生成、自动保存等多项综合优化功能，妈妈再也不用担心我乱接线了~~~~"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "cp1mEIVBDuitty/v2eJLvBYrfcT4yBhgSInYTyVqv08=",
+    "originContent": "#### If this project helps you, please give it a ⭐Star — it lets me know there are humans out there using it!",
+    "translatedContent": "#### 如果本项目对你有帮助，请给它一个 ⭐Star — 这让我知道有人在使用它！"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "T9iYRQFtJmQHWXa5BpQyrLpxHCtDiOOUvOUN5EzT+9A=",
+    "originContent": "## 🏆 Features",
+    "translatedContent": "## 🏆 功能特点"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "4Ku4eLqzISjvMNwfyCdKKQmUcnEkQDV2cFHcdXgHG7k=",
+    "originContent": "### 🎨 Supported Generation Modes",
+    "translatedContent": "### 🎨 支持的生成模式"
+  },
+  {
+    "row": 17,
+    "rowsha": "0kJuls0qKVAhENQ6ockK1WXwmuNwKwWS8/WbPC26JRE=",
+    "originContent": "- **Z-Image**: Support Z-Image Model",
+    "translatedContent": "- **Z-Image**：支持 Z-Image 模型"
+  },
+  {
+    "row": 18,
+    "rowsha": "R76PxnimGZukDKeJNe6EZt5quJxTY/8GHTnxKCOUgqo=",
+    "originContent": "- **Text-to-Image**: Generate images from text prompts",
+    "translatedContent": "- **文本到图像**：根据文本提示生成图像"
+  },
+  {
+    "row": 19,
+    "rowsha": "KGu912mcnmVTPC/RPE2RqnffB+SEBagSy8Wwzm8Am0c=",
+    "originContent": "- **Image-to-Image**: Generate based on reference images, image editing, supports up to 5 images",
+    "translatedContent": "- **图像到图像**：基于参考图像生成，图像编辑，支持最多5张图像"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "h/sikXUXTfZor56o2GV08U1erMUH2wENrZ7VkQfF2J4=",
+    "originContent": "### ⚡ Advanced Optimizations",
+    "translatedContent": "### ⚡ 高级优化"
+  },
+  {
+    "row": 22,
+    "rowsha": "o83HIla6PMh+KAGc036Y3qU4qCu0L07jIBYXywEm0D8=",
+    "originContent": "- **Optimize Offset Issues**: Solves the offset issues of official nodes, and better follows instructions",
+    "translatedContent": "- **优化偏移问题**：解决官方节点偏移问题，更好地遵循指令"
+  },
+  {
+    "row": 23,
+    "rowsha": "5U7v4nfpCp174UG8PPPLS2rb5CANZbw+NDtJReNI2ew=",
+    "originContent": "- **Integrated Sampling Algorithm (AuraFlow)**: Integrates Sampling Algorithm (AuraFlow) node, no additional wiring needed",
+    "translatedContent": "- **集成采样算法（AuraFlow）**：集成采样算法（AuraFlow）节点，无需额外连线"
+  },
+  {
+    "row": 24,
+    "rowsha": "+gQH/ivieKaw4V2F+yGt39PjPGofT7jJKf0Hm95UX2g=",
+    "originContent": "- **CFGNorm Integration**: Integrates CFGNorm node, no additional wiring needed",
+    "translatedContent": "- **集成 CFGNorm**：集成 CFGNorm 节点，无需额外连线"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "FxYFoY0YL2z2GdMfuNyuh7DzrXFt6bcFgHJ8K676u4w=",
+    "originContent": "### 🖼️ Image Processing",
+    "translatedContent": "### 🖼️ 图像处理"
+  },
+  {
+    "row": 27,
+    "rowsha": "wAjerkeamhr6N0QTnY5oeyLzx3QG6kKXofv0bDA4LpU=",
+    "originContent": "- **Integrated Prompt Input Box**: Integrates prompt input box, no additional wiring needed",
+    "translatedContent": "- **集成提示词输入框**：集成提示词输入框，无需额外连线"
+  },
+  {
+    "row": 28,
+    "rowsha": "5R29asIaSFLQw5wxx9rp61QbJrlNLiWLrvD1z1hX1ec=",
+    "originContent": "- **Multiple Reference Images**: Supports up to 5 reference images for conditional generation",
+    "translatedContent": "- **多参考图像支持**：支持最多5张参考图像进行条件生成"
+  },
+  {
+    "row": 29,
+    "rowsha": "uCTBhO0WlKwmSRwnYG3yEl5HFYH7ZMgE191yHxZ1qjc=",
+    "originContent": "- **Automatic Image Scaling**: Maintains aspect ratio while resizing to target dimensions",
+    "translatedContent": "- **自动图像缩放**：保持宽高比的同时缩放到目标尺寸"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "7Am4Pw0tjz0VyR4eSMbO3kCea8vrlo4GeuVruIlvuqQ=",
+    "originContent": "- **Support ControlNet Control**: Additional connection to [🐋 Qwen ControlNet Integrated Loader] for pose, depth and other controls",
+    "translatedContent": "- **支持 ControlNet 控制**：额外连接到 [🐋 Qwen ControlNet 集成加载器] 以控制姿势、深度等"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "AqfsSQAIAB627wq5VMGWoj4uL4b6dK9UyX2aAI9bfD0=",
+    "originContent": "### 🔧 Productivity Enhancement",
+    "translatedContent": "### 🔧 生产力提升"
+  },
+  {
+    "row": 34,
+    "rowsha": "eEZdJ6vc+g439twImY9SmKqtOMeV+jzvSRaTH1zR808=",
+    "originContent": "- **Batch Generation**: Generate multiple images in a single operation",
+    "translatedContent": "- **批量生成**：一次操作生成多张图像"
+  },
+  {
+    "row": 35,
+    "rowsha": "RMP5rkoHt4cc0tZ8hMJj/InXtWuNF9JI4hz7vUebbsE=",
+    "originContent": "- **Automatic VRAM Cleanup**: Automatic cleanup options for GPU/VRAM memory",
+    "translatedContent": "- **自动显存清理**：自动清理 GPU/显存内存选项"
+  },
+  {
+    "row": 36,
+    "rowsha": "z8szCwAEc86lh3zfU1ncXQvBhJDN0W1AXm2s0lA91oQ=",
+    "originContent": "- **Automatic RAM Cleanup**: Automatic cleanup options for RAM memory",
+    "translatedContent": "- **自动内存清理**：自动清理 RAM 内存选项"
+  },
+  {
+    "row": 37,
+    "rowsha": "SFWp3kb5ATBH9SaPgkJ7Utm71vWavSICZzfksB4GE9w=",
+    "originContent": "- **Automatic Save Results**: Automatically save generated result images to specified folder",
+    "translatedContent": "- **自动保存结果**：自动将生成结果图像保存到指定文件夹"
+  },
+  {
+    "row": 38,
+    "rowsha": "rDaYLobdg/JUpCRbKMjqSA1W2hqn0M/WGEeDnlYMa38=",
+    "originContent": "- **Completion Sound Notification**: Play audio reminder after generation completes",
+    "translatedContent": "- **完成音效提醒**：生成完成后播放音频提醒"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "Hy8C3IUBNs/qd6HExCkwpqsuxZDU8vbuIoTFLg2KxvU=",
+    "originContent": "## 🍧 Comparison Display",
+    "translatedContent": "## 🍧 对比展示"
+  },
+  {
+    "row": 41,
+    "rowsha": "o98sBP+VNGHBf+282w8G9ZlmrrCkrWaAzrKzIXSkvBY=",
+    "originContent": "### 🔄 Workflow Complexity Comparison",
+    "translatedContent": "### 🔄 工作流程复杂度比较"
+  },
+  {
+    "row": 42,
+    "rowsha": "fNDI+1CBa5zlGMkKlzRNuMUxIf5p65KPIeu69L6MSj4=",
+    "originContent": "- **❌ Workflow without using [Qwen Image Integrated KSampler] (complicated, too many nodes, too many wires)**",
+    "translatedContent": "- **❌ 未使用 [Qwen Image Integrated KSampler] 的工作流程（复杂，节点过多，连线过多）**"
+  },
+  {
+    "row": 43,
+    "rowsha": "9Ddegy7XxFYq6ZGUAU78wVTN294W+lvxhoMpzLyFiD0=",
+    "originContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/1-1-en.png)",
+    "translatedContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/1-1-en.png)"
+  },
+  {
+    "row": 44,
+    "rowsha": "uAeqSG14DCeFgbs9g/phs+ze+C/se+H0KFgAf+eyc+4=",
+    "originContent": "- **✅ Workflow using [Qwen Image Integrated KSampler] (extremely simple, single node done, almost no wires)**",
+    "translatedContent": "- **✅ 使用 [Qwen Image Integrated KSampler] 的工作流程（极其简单，单节点完成，几乎无连线）**"
+  },
+  {
+    "row": 45,
+    "rowsha": "k+7j01/60i4KNrRhTABpXtMkNUjUYGebqDDo4GN7Hbw=",
+    "originContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/1-2-en.png)",
+    "translatedContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/1-2-en.png)"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "Gs0yeLvniXCykJlghixyNpk/02U4tG+CLe7SdefUfsY=",
+    "originContent": "### 🖼️ Generated Image Effect Comparison",
+    "translatedContent": "### 🖼️ 生成图像效果比较"
+  },
+  {
+    "row": 48,
+    "rowsha": "LnUrKgVihwValBVTdZUPvTiNdGFU7ENWCQTwsPKZNtE=",
+    "originContent": "- **❌ Workflow without using [Qwen Image Integrated KSampler] (obvious offset, scaling)**",
+    "translatedContent": "- **❌ 未使用 [Qwen Image Integrated KSampler] 的工作流程（明显偏移，缩放）**"
+  },
+  {
+    "row": 49,
+    "rowsha": "0sm2GBENpGn3XMZrQx1tSEFL6lc1RGhHWbvNPF1DDhc=",
+    "originContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/2-1.png)",
+    "translatedContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/2-1.png)"
+  },
+  {
+    "row": 50,
+    "rowsha": "/13aqdP4aXm6Fw7yOvpOzstPbnRSMKQRD4Qm09Z6n/g=",
+    "originContent": "- **✅ Workflow using [Qwen Image Integrated KSampler] (completely no offset, scaling)**",
+    "translatedContent": "- **✅ 使用 [Qwen Image Integrated KSampler] 的工作流程（完全无偏移，缩放）**"
+  },
+  {
+    "row": 51,
+    "rowsha": "x6TAptUyG8gdCoNUJ5kO4vvRlOz0DWKG4nRqzEP79ck=",
+    "originContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/2-2.png)",
+    "translatedContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/2-2.png)"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "avtxb6ywjdBM++5a61KdKHbhLOIxwbNVAxpSF0xIEME=",
+    "originContent": "## 📦 Installation Method",
+    "translatedContent": "## 📦 安装方法"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "i6I4Lap2dyIXEmimnaAdkEiRsC7gNaXeUP5u2AWLC78=",
+    "originContent": "### Method 1: Via ComfyUI Manager (Recommended)",
+    "translatedContent": "### 方法一：通过 ComfyUI Manager（推荐）"
+  },
+  {
+    "row": 56,
+    "rowsha": "gGD2OoC5XVBXfbBGfy0HlKL+SDbG3baeOB8QcsHvG0c=",
+    "originContent": "1. Open ComfyUI Manager in the ComfyUI interface",
+    "translatedContent": "1. 在 ComfyUI 界面打开 ComfyUI Manager"
+  },
+  {
+    "row": 57,
+    "rowsha": "oQveaDHIZKSinLFgRaaxvIwAnpUqI6bzHOQjo58DwOs=",
+    "originContent": "2. Search for \"ComfyUI-Qwen-Image-Integrated-KSampler\"",
+    "translatedContent": "2. 搜索 “ComfyUI-Qwen-Image-Integrated-KSampler”"
+  },
+  {
+    "row": 58,
+    "rowsha": "DifPCY1FWE3NpF9WOVekxvTkOtl4YoIA5IaCV8lc+Ws=",
+    "originContent": "3. Click Install",
+    "translatedContent": "3. 点击安装"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "ld3KJ4+q01Oy07tuT3jy9sMRk1hh9eN6XVnUHeSNqVE=",
+    "originContent": "### Method 2: Manual Installation",
+    "translatedContent": "### 方法二：手动安装"
+  },
+  {
+    "row": 61,
+    "rowsha": "tu8rKLVecFSadlfoH2mS/9hR3PlSQJyas6iUMuekpG8=",
+    "originContent": "1. Navigate to your ComfyUI custom nodes directory:",
+    "translatedContent": "1. 进入你的 ComfyUI 自定义节点目录："
+  },
+  {
+    "row": 62,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 63,
+    "rowsha": "ca24MC7Gs136N1CrqEHk3noaZqdIhhxetgpmYOVgvAI=",
+    "originContent": "   cd /path/to/ComfyUI/custom_nodes",
+    "translatedContent": "   cd /path/to/ComfyUI/custom_nodes"
+  },
+  {
+    "row": 64,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "QF+kKiV6TwtplPiKhgbXCDmJuW24ZbE324psytXilfg=",
+    "originContent": "2. Clone the repository:",
+    "translatedContent": "2. 克隆仓库："
+  },
+  {
+    "row": 67,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 68,
+    "rowsha": "dpLK/dV397LmhKEEgVAU0HBnxwIGNoAwwIJKCUvdlgY=",
+    "originContent": "   git clone https://github.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler.git",
+    "translatedContent": "   git clone https://github.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler.git"
+  },
+  {
+    "row": 69,
+    "rowsha": "ej734LfiESdUuhvTJx5ke1gfSaxKGPLd4V7O/QmcNuI=",
+    "originContent": "   or gitee repository:",
+    "translatedContent": "   or gitee repository:"
+  },
+  {
+    "row": 70,
+    "rowsha": "MDcdk35z1XBLkEWaCCqmkLglxTqnEyefuRnlIB8Sc/A=",
+    "originContent": "   git clone https://gitee.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler.git",
+    "translatedContent": "   git clone https://gitee.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler.git"
+  },
+  {
+    "row": 71,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "DFP9/08O+LZbieoKJaoqW1+0Bt1hyigCB/gI8O3Np5I=",
+    "originContent": "3. Install dependencies:",
+    "translatedContent": "3. 安装依赖项："
+  },
+  {
+    "row": 74,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 75,
+    "rowsha": "gtki7VrXs9PZiEAYN9eZp74oLBFOSDhTkGvRXMnXkAc=",
+    "originContent": "   pip install -r requirements.txt",
+    "translatedContent": "   pip install -r requirements.txt"
+  },
+  {
+    "row": 76,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "4. 重启 ComfyUI"
+  },
+  {
+    "row": 78,
+    "rowsha": "4dRDWc/8ETd1pcNsq//i+FiCF3zcXrKsZF76AvX/tgU=",
+    "originContent": "4. Restart ComfyUI",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🚀 使用方法"
+  },
+  {
+    "row": 80,
+    "rowsha": "sgcpEvb0hXBWKytHcrB5oLalQ0mWL60sz87zELnombU=",
+    "originContent": "## 🚀 Usage Method",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### [工作流示例](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/workflow_example.json)"
+  },
+  {
+    "row": 82,
+    "rowsha": "T0xXXTWzC1pblDtoRtPjtcH59i2H1NbLOCdK6YlEeS8=",
+    "originContent": "### [Workflow Example](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/workflow_example.json)",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 基本文本到图像生成"
+  },
+  {
+    "row": 84,
+    "rowsha": "P1bDWlpA50R72+h6VuV9HogJptV1Oym3hB5uInt5FFI=",
+    "originContent": "### Basic Text-to-Image Generation",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 将“🐋 Qwen 图像集成 KSampler”节点添加到工作流中"
+  },
+  {
+    "row": 86,
+    "rowsha": "hv2U42NaGMhTLR8CNLso/JXQPr+i+RNv28sHfVG1Omo=",
+    "originContent": "1. Add the \"🐋 Qwen Image Integrated KSampler\" node to the workflow",
+    "translatedContent": "2. 将 `generation_mode` 设置为“text-to-image”"
+  },
+  {
+    "row": 87,
+    "rowsha": "AR7rLoH5Nrk6ZFQ/o0N/TzBEq1YCqdZdKLRJx3VFkLw=",
+    "originContent": "2. Set `generation_mode` to \"text-to-image\"",
+    "translatedContent": "3. 连接所需输入："
+  },
+  {
+    "row": 88,
+    "rowsha": "UU1+EZgWCMU+KFnnXFXCJRGgDgvhLMJe5nDtS9ZDd8I=",
+    "originContent": "3. Connect required inputs:",
+    "translatedContent": "   - 模型 (🤖 Model)"
+  },
+  {
+    "row": 89,
+    "rowsha": "BQDfCG1/670j8TF0cTPLHT2lEnVnCJrpP8bBz5Je2v4=",
+    "originContent": "   - Model (🤖 Model)",
+    "translatedContent": "   - CLIP (🟡 Clip)"
+  },
+  {
+    "row": 90,
+    "rowsha": "/ze3nuw2chQleUheFkPe0Jd03sQvFIhOfVK2IBpaLoo=",
+    "originContent": "   - CLIP (🟡 Clip)",
+    "translatedContent": "   - VAE (🎨 Vae)"
+  },
+  {
+    "row": 91,
+    "rowsha": "xArQgeUsHe/jscjzTZOgGCGn1Rl6h+296T4iVqptsgc=",
+    "originContent": "   - VAE (🎨 Vae)",
+    "translatedContent": "4. 输入正向和负向提示词"
+  },
+  {
+    "row": 92,
+    "rowsha": "PONjKnV5KeVBZuJPGEsdtuJ6sXDZodIbZ6NbnSgGV1I=",
+    "originContent": "4. Enter positive and negative prompts",
+    "translatedContent": "5. 设置宽度和高度（文本到图像必需）"
+  },
+  {
+    "row": 93,
+    "rowsha": "nOuDKBMwntKjooEbokbOmyM+L/9LvrDI9o1BYi5f6Fk=",
+    "originContent": "5. Set width and height (required for text-to-image)",
+    "translatedContent": "6. 配置采样参数（步数，CFG，采样器，调度器）"
+  },
+  {
+    "row": 94,
+    "rowsha": "p3ps6Io+HQNTPfMekmC0y0tC3OAJgb+nNyTP4YtZ0VQ=",
+    "originContent": "6. Configure sampling parameters (steps, CFG, sampler, scheduler)",
+    "translatedContent": "7. 执行工作流"
+  },
+  {
+    "row": 95,
+    "rowsha": "4NNNzpKTL7YzXh+oBk1H5Ter23ZPWUwt/VsV6d2NrVQ=",
+    "originContent": "7. Execute the workflow",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 图像到图像生成"
+  },
+  {
+    "row": 97,
+    "rowsha": "5J7PActpVrEgvjBBzkOhPkFYMSGAppgOnQhRC9qRUfs=",
+    "originContent": "### Image-to-Image Generation",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 将节点添加到工作流中"
+  },
+  {
+    "row": 99,
+    "rowsha": "JWBT/rkNihYdNBWqBHtwgmnkPk5xlVFa737xkzBni/c=",
+    "originContent": "1. Add the node to the workflow",
+    "translatedContent": "2. 将 `generation_mode` 设置为“image-to-image”"
+  },
+  {
+    "row": 100,
+    "rowsha": "nlk+PFrMERenkrWPdI/PM8eXMlUnAa9Hs3M2RWYyzlA=",
+    "originContent": "2. Set `generation_mode` to \"image-to-image\"",
+    "translatedContent": "3. 连接至少一张参考图像（🖼️ Image1）"
+  },
+  {
+    "row": 101,
+    "rowsha": "fsuSQyJgHIATw+WRoBaP+x6bpohGC+WeEapn9lVRScc=",
+    "originContent": "3. Connect at least one reference image (🖼️ Image1)",
+    "translatedContent": "4. 可选添加最多 4 张其他参考图像"
+  },
+  {
+    "row": 102,
+    "rowsha": "ZMDuwUS6L8uXSP29yGx4R9F22Vf8goHS/qOywaQgqLU=",
+    "originContent": "4. Optionally add up to 4 other reference images",
+    "translatedContent": "5. 输入正向/负向提示词和说明"
+  },
+  {
+    "row": 103,
+    "rowsha": "trFhUH75JHH/2US6zqLYtw0n1V00aZ9JLTJfkAemN7U=",
+    "originContent": "5. Enter positive/negative prompts and instructions",
+    "translatedContent": "6. 设置目标宽度/高度进行缩放（可选）"
+  },
+  {
+    "row": 104,
+    "rowsha": "Vd4sZ2R4OTwi15B3IHJKH0ki9CXYzt7Lu/Ppq9otxTo=",
+    "originContent": "6. Set target width/height for scaling (optional)",
+    "translatedContent": "7. 根据需要配置其他参数"
+  },
+  {
+    "row": 105,
+    "rowsha": "ch3p0Pza6VwD92tG/WYNVc/dk7s54NKCVhXsZ4MAnvM=",
+    "originContent": "7. Configure other parameters as needed",
+    "translatedContent": "8. 执行工作流"
+  },
+  {
+    "row": 106,
+    "rowsha": "Am8Z6j2/c3k9o3DmmHJuw42IYy2El04lCm7EUwk/3b8=",
+    "originContent": "8. Execute the workflow",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ControlNet 控制"
+  },
+  {
+    "row": 108,
+    "rowsha": "/mBWL+EGe3CBksAnjTpDfsDXMw00SrWVEujEAE9W2Oc=",
+    "originContent": "### ControlNet Control",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 添加 [🐋 Qwen ControlNet 集成加载器] 节点，连接到 [📦 ControlNet 数据]"
+  },
+  {
+    "row": 110,
+    "rowsha": "R3EK7n0FbwMYbrSTAZo2e5Ud6WQBIoWrQ3/g8btAqi8=",
+    "originContent": "1. Add the [🐋 Qwen ControlNet Integrated Loader] node, connect to [📦 ControlNet Data]",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. 连接姿态、深度控制图像"
+  },
+  {
+    "row": 112,
+    "rowsha": "aDLHyRFz4v4H74FntPVXQPlSQa+RXgqF5htCajE/RLI=",
+    "originContent": "2. Connect pose, depth control images",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. 选择 ControlNet 模型，设置控制类型和强度"
+  },
+  {
+    "row": 114,
+    "rowsha": "WSVOMrUIFYFdva7XV0MHurZkoB6CgaitBuEO8Dbmtzc=",
+    "originContent": "3. Select ControlNet model, set control type and strength",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "4. 执行工作流"
+  },
+  {
+    "row": 116,
+    "rowsha": "fKFwrhUZuCTOYc2SgvaW8beOTnhsym+H0fXoU3WFXNg=",
+    "originContent": "4. Execute the workflow",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/3-en.png)"
+  },
+  {
+    "row": 118,
+    "rowsha": "qaAOYUnSbMvOMMP7SGi2r+jOv8F+M3TZtECc25guki4=",
+    "originContent": "![alt text](https://raw.githubusercontent.com/luguoli/ComfyUI-Qwen-Image-Integrated-KSampler/main/images/3-en.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 高级功能"
+  },
+  {
+    "row": 120,
+    "rowsha": "xnHitdIO9d0SDZkghNHxKpusVGYql/gV1f6ZKaUAwZ0=",
+    "originContent": "### Advanced Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **内存管理**：启用 GPU/CPU 清理选项以提升资源效率"
+  },
+  {
+    "row": 122,
+    "rowsha": "hzBzAt3tsiqlFfZPqtlNOut0k91htFtoujpoJZ2o7Ow=",
+    "originContent": "- **Memory Management**: Enable GPU/CPU cleanup options to improve resource efficiency",
+    "translatedContent": "- **批处理**：将 batch_size 设置为大于1以生成多张图像"
+  },
+  {
+    "row": 123,
+    "rowsha": "Ivrp4IENvmwfAy1k1cf/f79C1xg5AwUpNZbheF7CCX0=",
+    "originContent": "- **Batch Processing**: Set batch_size > 1 for multiple image generation",
+    "translatedContent": "- **自动保存**：指定输出文件夹以实现自动保存"
+  },
+  {
+    "row": 124,
+    "rowsha": "GLsLveY6LiDsvQiVhsGXEfZHhY6DMpiezdQQ8nu3RXM=",
+    "originContent": "- **Auto-Save**: Specify output folder for automatic saving",
+    "translatedContent": "- **AuraFlow 调节**：调整 auraflow_shift 以平衡速度与质量"
+  },
+  {
+    "row": 125,
+    "rowsha": "mkKkcudhcju+aQxg1ngc5SPx4YcMW9uzUdRSWavUBXk=",
+    "originContent": "- **AuraFlow Tuning**: Adjust auraflow_shift to balance speed and quality",
+    "translatedContent": "- **CFG 增强**：CFG 稳定器"
+  },
+  {
+    "row": 126,
+    "rowsha": "QbzB3vigIMxaG9LdK2v/a8nJ4vsVgRvjLWefHORbHKM=",
+    "originContent": "- **CFG Enhancement**: Stabilizer for CFG",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ⚠️ 注意事项"
+  },
+  {
+    "row": 128,
+    "rowsha": "eNKmT4+uQEhnN0Y2J+jq/M00P+YStyUP7g/4vDEPYoQ=",
+    "originContent": "## ⚠️ Notes",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 📝 使用要求"
+  },
+  {
+    "row": 130,
+    "rowsha": "+tel8yMKzaeYVgcZr6LyCAHeTc2CWsl49R8KXabX6gU=",
+    "originContent": "### 📝 Usage Requirements",
+    "translatedContent": "- **文本生成图像模式**：必须设置宽度（Width）和高度（Height），这是必填参数"
+  },
+  {
+    "row": 131,
+    "rowsha": "v9v8osa9KNY/UdWcp0qDg5JrKXNx+quzP0/BsZ4qtJM=",
+    "originContent": "- **Text-to-Image Mode**: Must set width (Width) and height (Height), these are required parameters",
+    "translatedContent": "- **图像生成图像模式**：必须至少提供一张参考图像（Image1），最多支持5张参考图像（Image1-Image5）"
+  },
+  {
+    "row": 132,
+    "rowsha": "sqIK6DBzkj/Oh5nGXSP3DVTHOIQ8wCzqlljSN7xEjAc=",
+    "originContent": "- **Image-to-Image Mode**: Must provide at least one reference image (Image1), supports up to 5 reference images (Image1-Image5)",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 🎛️ 参数设置建议"
+  },
+  {
+    "row": 134,
+    "rowsha": "giykyAUzDnsWIpnaI7S1zYQgwpyGQd3/HoKfxfYbgWg=",
+    "originContent": "### 🎛️ Parameter Setting Suggestions",
+    "translatedContent": "- **批量大小**：选择 1-10，根据 GPU 内存调整，建议从1开始测试"
+  },
+  {
+    "row": 135,
+    "rowsha": "cfEKWmwWGkgHCZK4Nmmvp0WWRwyK4JIjqNbJIpgfxnU=",
+    "originContent": "- **Batch Size**: Choose between 1-10, adjust according to GPU memory, recommend starting testing from 1",
+    "translatedContent": "- **分辨率（宽度/高度）**：必须是8的倍数，范围0-16384，建议从较低分辨率（如512x512）开始测试"
+  },
+  {
+    "row": 136,
+    "rowsha": "oyxo+uwpON8uWPA36efFbX7WGtOyC4+0eY7ayr4qOPY=",
+    "originContent": "- **Resolution (Width/Height)**: Must be multiples of 8, range 0-16384, recommend starting testing from lower resolutions (like 512x512)",
+    "translatedContent": "- **采样步数**：Qwen模型推荐4-20步，过高可能增加计算时间但不一定提升质量"
+  },
+  {
+    "row": 137,
+    "rowsha": "Xb/Owry9AE28ywZX0vQqloOiIH1i6f91NznZ8WkpyWA=",
+    "originContent": "- **Sampling Steps**: Qwen models recommend 4-20 steps, too high may increase computation time but not necessarily improve quality",
+    "translatedContent": "- **CFG值**：范围0-100，默认1.0，建议在1.0-7.0范围内"
+  },
+  {
+    "row": 138,
+    "rowsha": "IHtVxcP1NVJnUcnET6P1mXTddtGvuL8vwS5LxGM0e3o=",
+    "originContent": "- **CFG Value**: Range 0-100, default 1.0, recommend 1.0-7.0 range",
+    "translatedContent": "- **去噪强度**：范围0-1，默认1.0，图像生成图像模式下可适当降低"
+  },
+  {
+    "row": 139,
+    "rowsha": "evnN7SUhF+scroQ7+grMXsqUYrm8utYiVDPaKnc3QpA=",
+    "originContent": "- **Denoise Strength**: Range 0-1, default 1.0, can lower appropriately in image-to-image mode",
+    "translatedContent": "- **AuraFlow Shift**：范围0-100，默认3.0，用于平衡生成速度和质量"
+  },
+  {
+    "row": 140,
+    "rowsha": "O3bMow1ILb3pCoZuMofDk8b6cMY+iuh++Wwnvx4Dh+s=",
+    "originContent": "- **AuraFlow Shift**: Range 0-100, default 3.0, used to balance generation speed and quality",
+    "translatedContent": "- **CFG归一化强度**：范围0-100，默认1.0，CFG的稳定器"
+  },
+  {
+    "row": 141,
+    "rowsha": "Lvarz1KXn454UqtToa5PvTHoA9EBGeN5gopMrP/IVqs=",
+    "originContent": "- **CFG Normalization Strength**: Range 0-100, default 1.0, stabilizer for CFG",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 🔧 图像处理"
+  },
+  {
+    "row": 143,
+    "rowsha": "poWCcsH4eqpp9+68uYzzcsndPFzxFCGUZ8Ibzf61TF0=",
+    "originContent": "### 🔧 Image Processing",
+    "translatedContent": "- **自动缩放**：文本生成图像必须输入宽度和高度参数，图像生成图像时自动缩放参考图像并保持长宽比，设置宽度或高度为0则禁用缩放"
+  },
+  {
+    "row": 144,
+    "rowsha": "GRjzulVVs9Lm+2gTirshIY/Yb4rRaY/2fCpiVKJWfxI=",
+    "originContent": "- **Automatic Scaling**: Text-to-image must input width and height parameters, image-to-image fills in to auto-scale reference images while maintaining aspect ratio, setting either width or height to 0 disables scaling",
+    "translatedContent": "- **参考图像顺序**：支持最多5张参考图像，按顺序处理 Image1-Image5，Image1为主图像"
+  },
+  {
+    "row": 145,
+    "rowsha": "Z6aSppT6pJjJMn4N20cP7k6tagD+DvvL5kUbNQCaCiM=",
+    "originContent": "- **Reference Image Order**: Supports up to 5 reference images, processed in order Image1-Image5, Image1 is the main image",
+    "translatedContent": "- **图像格式**：支持标准图像输入格式，自动处理批量维度"
+  },
+  {
+    "row": 146,
+    "rowsha": "4oBAYIgHvpCMjjZ0eTnhXknV75BjCdHg/McZFeC7tX4=",
+    "originContent": "- **Image Format**: Supports standard image input formats, automatically handles batch dimensions",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 💾 内存管理"
+  },
+  {
+    "row": 148,
+    "rowsha": "oUjr2sjJ5Ql7H3cNv+MB4QRZo5zoIeTBn3prqmHNWQ8=",
+    "originContent": "### 💾 Memory Management",
+    "translatedContent": "- **GPU内存清理**：启用 enable_clean_gpu_memory 选项，自动在生成前后清理显存"
+  },
+  {
+    "row": 149,
+    "rowsha": "1vM8Ro2jMKI1w8bx+v0VpP2NC6Ac0FLSA6XUshJl6AE=",
+    "originContent": "- **GPU Memory Cleanup**: Enable enable_clean_gpu_memory option, automatically clean VRAM before/after generation",
+    "translatedContent": "- **CPU内存清理**：启用 enable_clean_cpu_memory_after_finish，生成完成后清理内存（包括文件缓存、进程、动态库）"
+  },
+  {
+    "row": 150,
+    "rowsha": "udwn+G9Fsjpc1y/n2XGyefXN3OvzY1NB3S6CKmwEYWQ=",
+    "originContent": "- **CPU Memory Cleanup**: Enable enable_clean_cpu_memory_after_finish, clean RAM after generation completes (including file cache, processes, dynamic libraries)",
+    "translatedContent": "- 对于持续的大规模生成，建议始终开启内存清理选项以防止内存溢出"
+  },
+  {
+    "row": 151,
+    "rowsha": "Q/NXbgDjapCtZvA83iynOs9RPBnVnLIuCfx/Rh1HlE8=",
+    "originContent": "- For continuous large-scale generation, it is recommended to always enable memory cleanup options to prevent memory overflow",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 💾 自动保存"
+  },
+  {
+    "row": 153,
+    "rowsha": "w0sBxMKLqn4VALR9r332Bu5yJNQdbP52iAxDMjUjoOo=",
+    "originContent": "### 💾 Auto-Save",
+    "translatedContent": "- **输出文件夹**：设置 auto_save_output_folder 启用自动保存功能，留空则禁用，支持绝对路径和相对路径"
+  },
+  {
+    "row": 154,
+    "rowsha": "MltuuqL9q7attleABAlP+/AEmcqTIfzcGpLVec6/5LE=",
+    "originContent": "- **Output Folder**: Set auto_save_output_folder to enable auto-save function, leave blank to disable, supports absolute and relative paths",
+    "translatedContent": "- **文件命名**：output_filename_prefix 自定义前缀，默认“auto_save”"
+  },
+  {
+    "row": 155,
+    "rowsha": "iMI8aCGI+1TDfSbZIxBWhzhCMCi57FADL3mfg+zIxzs=",
+    "originContent": "- **File Naming**: output_filename_prefix custom prefix, default \"auto_save\"",
+    "translatedContent": "- 保存格式为 PNG，文件名包含种子和批次号（如：auto_save_123456_00000.png）"
+  },
+  {
+    "row": 156,
+    "rowsha": "X5ni7ZaBdOHMdqZ7KJFoV8bLHsHGttJrSqfoJRig0bI=",
+    "originContent": "- Save format is PNG, filename includes seed and batch number (e.g.: auto_save_123456_00000.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "Y+LJ39cLwiUH2MIYZ8EM1tuvH54wd1uTvsU9zIJNPBo=",
+    "originContent": "### 🔊 Notification Function",
+    "translatedContent": "### 🔊 通知功能"
+  },
+  {
+    "row": 159,
+    "rowsha": "QjNNSrWtjH25MzTfgyePbl44kXMSVYOHSwOjFcU+YcI=",
+    "originContent": "- **Sound Notification**: Only supported on Windows systems",
+    "translatedContent": "- **声音通知**：仅支持Windows系统"
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "eB2ocEkB7FiJnTJmsiP7My9aWKY7P99JhDqqwA/9F2A=",
+    "originContent": "## 📝 Update Records",
+    "translatedContent": "## 📝 更新记录"
+  },
+  {
+    "row": 162,
+    "rowsha": "wALhyFff8OclOt/Jt7wTeemEzJ1o2C9qmFqRm8rK7iQ=",
+    "originContent": "### v1.0.6:",
+    "translatedContent": "### v1.0.6:"
+  },
+  {
+    "row": 163,
+    "rowsha": "3Kexl4BCnKjYue0Qoom6xKBO9/rIbY9P9bFe9j/cZ5w=",
+    "originContent": "- **Added Localization Script:** Starting from ComfyUI v0.3.68, Chinese language files became invalid. Added automatic localization script, double-click [自动汉化节点.bat] and restart ComfyUI, requires installing ComfyUI-DD-Translation plugin",
+    "translatedContent": "- **新增本地化脚本：** 从ComfyUI v0.3.68开始，中文语言文件失效。新增自动汉化脚本，双击[自动汉化节点.bat]并重启ComfyUI，需安装ComfyUI-DD-Translation插件"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "Y0Imll46MstIylXn/ggyFZ97DucTgK/wRp+SZNuZGaw=",
+    "originContent": "## 📞 Contact for Special Customization 📞",
+    "translatedContent": "## 📞 特殊定制联系方式 📞"
+  },
+  {
+    "row": 167,
+    "rowsha": "w2s8Albl+cY50YOR4nxTaot2W0uLW//ZcrcHitGPDrs=",
+    "originContent": "- Author: @luguoli（墙上的向日葵）",
+    "translatedContent": "- 作者：@luguoli（墙上的向日葵）"
+  },
+  {
+    "row": 168,
+    "rowsha": "AVV7XQrxjrYtAVIXaSpbDZJfKQJ95jbBRUzwVp53Yko=",
+    "originContent": "- Author Email: luguoli@vip.qq.com",
+    "translatedContent": "- 作者邮箱：luguoli@vip.qq.com"
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "hnWVD1HeCbpAh9gAR6h0oWyHSPBPiWcezDdgOOpetFI=",
+    "originContent": "**Made with ❤️ for the ComfyUI community**",
+    "translatedContent": "**为ComfyUI社区倾心制作 ❤️**"
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
