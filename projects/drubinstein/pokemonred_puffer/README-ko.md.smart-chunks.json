@@ -1,0 +1,939 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Pokemon Red (RL Edition)\n\n![Tests](https://github.com/thatguy11325/pokemonred_puffer/actions/workflows/workflow.yml/badge.svg)\n\nThis repo is designed as a library to be used for Pokemon Red RL development. It contains some convenience functions that should not be used in a library setting and should be forked. In the future, those convenience functions will be migrated so no forking is needed.\n\n## Quickstart\n\n### Installation\n\nTo install the library you can either\n\n1. Clone the repo to your local machine and install it.\n2. Fork the repo and clone your fork to your local machine.\n\nFor example,\n",
+    "ContentSha": "XrFRMQxTa1AI4b2GWrXpolMTg447WVZ3FcOBhrrX54E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 포켓몬 레드 (RL 에디션)\n\n![테스트](https://github.com/thatguy11325/pokemonred_puffer/actions/workflows/workflow.yml/badge.svg)\n\n이 저장소는 포켓몬 레드 RL 개발에 사용될 라이브러리로 설계되었습니다. 여기에는 라이브러리 환경에서는 사용하지 말아야 할 편의 함수들이 포함되어 있으며, 포크해서 사용해야 합니다. 앞으로는 이러한 편의 함수들이 마이그레이션되어 포크가 필요 없게 될 예정입니다.\n\n## 빠른 시작\n\n### 설치\n\n라이브러리를 설치하려면 다음 중 하나를 선택할 수 있습니다.\n\n1. 저장소를 로컬 머신에 클론하고 설치합니다.\n2. 저장소를 포크한 후 포크한 저장소를 로컬 머신에 클론합니다.\n\n예를 들어,\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "SEHh2w9u3TyYCYKae5p2+xof0ub+X6vqTUQ5SIxPJJs=",
+        "originContent": "# Pokemon Red (RL Edition)",
+        "translatedContent": "# 포켓몬 레드 (RL 에디션)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "gRQysQORwWc9E7eoycd+3t7Qb3+G/+Al5d2+bjbfIWg=",
+        "originContent": "![Tests](https://github.com/thatguy11325/pokemonred_puffer/actions/workflows/workflow.yml/badge.svg)",
+        "translatedContent": "![테스트](https://github.com/thatguy11325/pokemonred_puffer/actions/workflows/workflow.yml/badge.svg)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "fb/nNCrmFJvPbHoTyCBJxyD1OAdlkJnVPynmjL3fKzE=",
+        "originContent": "This repo is designed as a library to be used for Pokemon Red RL development. It contains some convenience functions that should not be used in a library setting and should be forked. In the future, those convenience functions will be migrated so no forking is needed.",
+        "translatedContent": "이 저장소는 포켓몬 레드 RL 개발에 사용될 라이브러리로 설계되었습니다. 여기에는 라이브러리 환경에서는 사용하지 말아야 할 편의 함수들이 포함되어 있으며, 포크해서 사용해야 합니다. 앞으로는 이러한 편의 함수들이 마이그레이션되어 포크가 필요 없게 될 예정입니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "669wyUjie7v+j/aS3COPBDwvFiQ8FK2vMv9hGy+oUHE=",
+        "originContent": "## Quickstart",
+        "translatedContent": "## 빠른 시작"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### 설치"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "8YO97bqVsl8UHG/0BeLdBNS8U+ugqngQMUkR8Z1zNlk=",
+        "originContent": "To install the library you can either",
+        "translatedContent": "라이브러리를 설치하려면 다음 중 하나를 선택할 수 있습니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "A2XU/BsCLqgSPclrhRD6kXAgAr1OhPWUzeP8xXV87RU=",
+        "originContent": "1. Clone the repo to your local machine and install it.",
+        "translatedContent": "1. 저장소를 로컬 머신에 클론하고 설치합니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "9RB/8sv93DpGOjIRjhNkk93mQJTAfeqWUKIWB3L40bA=",
+        "originContent": "2. Fork the repo and clone your fork to your local machine.",
+        "translatedContent": "2. 저장소를 포크한 후 포크한 저장소를 로컬 머신에 클론합니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "dNLZUagnq3//Va3Rge4Tw1lHNiccArJ96djPo1G4jvc=",
+        "originContent": "For example,",
+        "translatedContent": "예를 들어,"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\npip3 install -e . \n```",
+    "ContentSha": "SmJQFQd2gpiqAaLcYxUpO13XHsIpU/ShD5HxQlcCD78=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npip3 install -e . \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "JVBD2eofj11DmkEOmobsIW1liefnWkEHSF2BiUGo5q4=",
+        "originContent": "pip3 install -e . ",
+        "translatedContent": "pip3 install -e . "
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Running\n\nBelow are commands that use default arguments in some cases. Please run `python3 -m pokemonred_puffer.train --help` if you are unsure how to use the commandline actions associated with this repo. Some commands may not have been tested recently so please make an issue if you have one. \n\nAfter installation you can start training by running:\n",
+    "ContentSha": "lvR17WWVLoqOLQZbR3ZzURdY3Ml7Jm+FsE02bRJunVw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 실행\n\n아래는 경우에 따라 기본 인수를 사용하는 명령어입니다. 이 저장소와 관련된 명령줄 작업 사용법이 확실하지 않은 경우 `python3 -m pokemonred_puffer.train --help`를 실행해 주세요. 일부 명령어는 최근에 테스트되지 않았을 수 있으니 문제가 있으면 이슈를 남겨 주세요.\n\n설치 후에는 다음 명령어로 학습을 시작할 수 있습니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 실행"
+      },
+      {
+        "row": 2,
+        "rowsha": "5iPSR1DDKtPdTS5aRELEMPZT/b5NWuopRq5oAhD3zc4=",
+        "originContent": "### Running",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "아래는 경우에 따라 기본 인수를 사용하는 명령어입니다. 이 저장소와 관련된 명령줄 작업 사용법이 확실하지 않은 경우 `python3 -m pokemonred_puffer.train --help`를 실행해 주세요. 일부 명령어는 최근에 테스트되지 않았을 수 있으니 문제가 있으면 이슈를 남겨 주세요."
+      },
+      {
+        "row": 4,
+        "rowsha": "wlK1Q+jc/aoBPiOjJnoBuqISZqoy59WuIiOo0UhxV3U=",
+        "originContent": "Below are commands that use default arguments in some cases. Please run `python3 -m pokemonred_puffer.train --help` if you are unsure how to use the commandline actions associated with this repo. Some commands may not have been tested recently so please make an issue if you have one. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "설치 후에는 다음 명령어로 학습을 시작할 수 있습니다:"
+      },
+      {
+        "row": 6,
+        "rowsha": "RzF99zhZS7207tWEjZNqKHkH2ezzT3+Kx1B1hCG1Hag=",
+        "originContent": "After installation you can start training by running:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh\n# Run before training to test what num_envs value you should use\npython3 -m pokemonred_puffer.train autotune\n# Default\npython3 -m pokemonred_puffer.train train\n```",
+    "ContentSha": "+HxVCCFeMXER6SBld+uLNNlWaqTj0lv6wjGIkpaINDE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n# Run before training to test what num_envs value you should use\npython3 -m pokemonred_puffer.train autotune\n# Default\npython3 -m pokemonred_puffer.train train\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "FAHI9PUpcMO5n2kEmWjuz+Wl7Af3oalmO409iSPQj1E=",
+        "originContent": "# Run before training to test what num_envs value you should use",
+        "translatedContent": "# Run before training to test what num_envs value you should use"
+      },
+      {
+        "row": 3,
+        "rowsha": "Q8XeCGcGpcNu7q6g5x5kA4+7QlzLtRVNGeSU5721VdM=",
+        "originContent": "python3 -m pokemonred_puffer.train autotune",
+        "translatedContent": "python3 -m pokemonred_puffer.train autotune"
+      },
+      {
+        "row": 4,
+        "rowsha": "DVeJq19v4lM7hsVlGJllXAicpUI6SHdg6nckhVG7rMU=",
+        "originContent": "# Default",
+        "translatedContent": "# Default"
+      },
+      {
+        "row": 5,
+        "rowsha": "+ELr2R/dEpRuJP4oPbJnHbSr0/3Vc6WYLGE+CNLDiu0=",
+        "originContent": "python3 -m pokemonred_puffer.train train",
+        "translatedContent": "python3 -m pokemonred_puffer.train train"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Multinode Hyperparameter Sweeps (in progress)\n\nIf you want to run hyperparameter sweeps, you can do so by installing related packages and launching two commands:\n",
+    "ContentSha": "mZ4h9J1NKtltXQzoFa70eqwKgBeaSSqL3C7LdpZNnHI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 멀티노드 하이퍼파라미터 스윕 (진행 중)\n\n하이퍼파라미터 스윕을 실행하려면 관련 패키지를 설치하고 두 개의 명령어를 실행하면 됩니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "f0XAs+pbYQ1uILv7eDxKr9uQpyRiS66847v0wdEtgg0=",
+        "originContent": "### Multinode Hyperparameter Sweeps (in progress)",
+        "translatedContent": "### 멀티노드 하이퍼파라미터 스윕 (진행 중)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "OkGMYdG60YoP7t+ihGLu6yuD3FLdfGxD6/vmS3grzBQ=",
+        "originContent": "If you want to run hyperparameter sweeps, you can do so by installing related packages and launching two commands:",
+        "translatedContent": "하이퍼파라미터 스윕을 실행하려면 관련 패키지를 설치하고 두 개의 명령어를 실행하면 됩니다:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```sh\npip3 install -e '.[sweep]'\npython3 -m pokemonred_puffer.sweep launch-sweep\npython3 -m pokemonred_puffer.sweep launch-agent <sweep-id>\n```",
+    "ContentSha": "sNTEWX279BBaoVYYidcwiK7DgBT895+exvQlihRh3do=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npip3 install -e '.[sweep]'\npython3 -m pokemonred_puffer.sweep launch-sweep\npython3 -m pokemonred_puffer.sweep launch-agent <sweep-id>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "PHDOYiRrR7xQLTcN1E47uJsUvohX8BGte6gUbFrV0Os=",
+        "originContent": "pip3 install -e '.[sweep]'",
+        "translatedContent": "pip3 install -e '.[sweep]'"
+      },
+      {
+        "row": 3,
+        "rowsha": "BLiOsaPCfCV5vb6Lej4R+cDvaTtMJixsEVHZIJJu9Zk=",
+        "originContent": "python3 -m pokemonred_puffer.sweep launch-sweep",
+        "translatedContent": "python3 -m pokemonred_puffer.sweep launch-sweep"
+      },
+      {
+        "row": 4,
+        "rowsha": "UA/EzvoxoB/W/SLplutXF9EwTqd+d0o5VKbfU1lmwqw=",
+        "originContent": "python3 -m pokemonred_puffer.sweep launch-agent <sweep-id>",
+        "translatedContent": "python3 -m pokemonred_puffer.sweep launch-agent <sweep-id>"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nThe sweep id will be printed when launching the sweep. To resume a sweep, you can relaunch your sweep with\n",
+    "ContentSha": "v1PtnyhgyrtsejOX6NVPIf2EXnH5bonIvxxE5XCjqrU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "스윕 ID는 스윕을 시작할 때 출력됩니다. 스윕을 재개하려면 다음과 같이 스윕을 다시 실행할 수 있습니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "스윕 ID는 스윕을 시작할 때 출력됩니다. 스윕을 재개하려면 다음과 같이 스윕을 다시 실행할 수 있습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "zwXgPVr6Qoh2EqWcSXg0SXC3ANJ8f3nmL190D3+F6Bo=",
+        "originContent": "The sweep id will be printed when launching the sweep. To resume a sweep, you can relaunch your sweep with",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```sh\npython3 -m pokemonred_puffer.sweep launch-sweep --sweep-id <sweep-id>\n```",
+    "ContentSha": "/OL/NRsj52TXPyID2EpvqCWNN7g1Xlf3KAa4ZAbImR8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npython3 -m pokemonred_puffer.sweep launch-sweep --sweep-id <sweep-id>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "573tvL3XWKTR30cvs9PoaWS3Q+m5dNSUDiSrerhIYgA=",
+        "originContent": "python3 -m pokemonred_puffer.sweep launch-sweep --sweep-id <sweep-id>",
+        "translatedContent": "python3 -m pokemonred_puffer.sweep launch-sweep --sweep-id <sweep-id>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nThe sweeps can be configured with a sweep configuration (defaulted to `sweep-config.yaml`) and base configuration (defaulted to `config.yaml`). The hyperparamter sweep sets bounds using the sweep config and centers the hyperparamters at paramters in the base config. To learn more about the hyperparamter algorithm, you can visit [Imbue's CARBS repo](https://github.com/imbue-ai/carbs/tree/main).\n\nN.B. Currently single node sweeps are not supported. If this is a desired feature, please make an issue.\n\n### Modifying for Training\n\nSo you have a run going, but you want to mess with it, what do you do?\n\nYou have a few options:\n\n1. Start altering parameters in `config.yaml`\n2. Start modifying the code directly (more on that later).\n3. Use this repo as a library and make your own wrappers.\n\n### Debugging\nIf you want to test your changes you can run \n",
+    "ContentSha": "mg/ujdHDBfRPJ8gWZVsPFgFkaTZ3p0sgQqI5/kPwdOk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "스윕은 스윕 구성(기본값은 `sweep-config.yaml`)과 기본 구성(기본값은 `config.yaml`)으로 설정할 수 있습니다. 하이퍼파라미터 스윕은 스윕 구성을 사용하여 범위를 설정하고 하이퍼파라미터를 기본 구성의 파라미터를 중심으로 설정합니다. 하이퍼파라미터 알고리즘에 대해 더 알고 싶다면 [Imbue의 CARBS 저장소](https://github.com/imbue-ai/carbs/tree/main)를 방문하세요.\n\n참고: 현재 단일 노드 스윕은 지원되지 않습니다. 이 기능이 필요하다면 이슈를 만들어 주세요.\n\n### 학습을 위한 수정\n\n실행 중인 작업이 있는데 변경하고 싶다면, 어떻게 해야 할까요?\n\n몇 가지 옵션이 있습니다:\n\n1. `config.yaml`에서 파라미터를 변경하기 시작합니다.\n2. 코드를 직접 수정하기 시작합니다(나중에 자세히 다룹니다).\n3. 이 저장소를 라이브러리로 사용하고 자신만의 래퍼를 만듭니다.\n\n### 디버깅\n변경 사항을 테스트하고 싶다면 다음을 실행할 수 있습니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "스윕은 스윕 구성(기본값은 `sweep-config.yaml`)과 기본 구성(기본값은 `config.yaml`)으로 설정할 수 있습니다. 하이퍼파라미터 스윕은 스윕 구성을 사용하여 범위를 설정하고 하이퍼파라미터를 기본 구성의 파라미터를 중심으로 설정합니다. 하이퍼파라미터 알고리즘에 대해 더 알고 싶다면 [Imbue의 CARBS 저장소](https://github.com/imbue-ai/carbs/tree/main)를 방문하세요."
+      },
+      {
+        "row": 2,
+        "rowsha": "iFZaxlX+6Z+XJcwNsBhpW1c6qHWSIYmreTJe1bOcktg=",
+        "originContent": "The sweeps can be configured with a sweep configuration (defaulted to `sweep-config.yaml`) and base configuration (defaulted to `config.yaml`). The hyperparamter sweep sets bounds using the sweep config and centers the hyperparamters at paramters in the base config. To learn more about the hyperparamter algorithm, you can visit [Imbue's CARBS repo](https://github.com/imbue-ai/carbs/tree/main).",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "참고: 현재 단일 노드 스윕은 지원되지 않습니다. 이 기능이 필요하다면 이슈를 만들어 주세요."
+      },
+      {
+        "row": 4,
+        "rowsha": "PSirSquvpWfXkl3kmP1xXYnmEv5vxv7tROezjeiIiv8=",
+        "originContent": "N.B. Currently single node sweeps are not supported. If this is a desired feature, please make an issue.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 학습을 위한 수정"
+      },
+      {
+        "row": 6,
+        "rowsha": "i8/gMC5WmMK3as6q2uuCp+JoDb9YYPxnWL/mh7py57A=",
+        "originContent": "### Modifying for Training",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "실행 중인 작업이 있는데 변경하고 싶다면, 어떻게 해야 할까요?"
+      },
+      {
+        "row": 8,
+        "rowsha": "gjLK7CBweSTuh3SAR+lnJOI6fCgv3Tluk8SNpA/smEI=",
+        "originContent": "So you have a run going, but you want to mess with it, what do you do?",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "몇 가지 옵션이 있습니다:"
+      },
+      {
+        "row": 10,
+        "rowsha": "lZjSkP+yRMtkgzVCMCA2SGIBhBIwPOPq7LoK5KnSjLY=",
+        "originContent": "You have a few options:",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. `config.yaml`에서 파라미터를 변경하기 시작합니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "lxLVVoOyH2iozk/g8Vzk7jSqYSkCNmL8VBYA7riXfA0=",
+        "originContent": "1. Start altering parameters in `config.yaml`",
+        "translatedContent": "2. 코드를 직접 수정하기 시작합니다(나중에 자세히 다룹니다)."
+      },
+      {
+        "row": 13,
+        "rowsha": "Jx2cXIdPeqFcgEpC4t8qq4ZScD3ApxIEKn3oq5/aSW0=",
+        "originContent": "2. Start modifying the code directly (more on that later).",
+        "translatedContent": "3. 이 저장소를 라이브러리로 사용하고 자신만의 래퍼를 만듭니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "3iM7PdeUu+tffLtbe5YF1NCOW874bTW3SJRGY8NHj4c=",
+        "originContent": "3. Use this repo as a library and make your own wrappers.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 디버깅"
+      },
+      {
+        "row": 16,
+        "rowsha": "TIX/JOwnwkQe58ppe2noaO2wkOzmMkMGI6BWWBThor0=",
+        "originContent": "### Debugging",
+        "translatedContent": "변경 사항을 테스트하고 싶다면 다음을 실행할 수 있습니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "Gf8TeFiuuYUpJYBruzUpI6V1gD9G+U/0E9n/AJJZqkc=",
+        "originContent": "If you want to test your changes you can run ",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```sh\npython3 -m pokemonred_puffer.train --config config.yaml --debug\n```",
+    "ContentSha": "QvVSASIOIlvBdVyulRRZEsxat2J0a9JwCeV3BSyUg04=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npython3 -m pokemonred_puffer.train --config config.yaml --debug\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Htw3yrVaBA8XKaVz1uOZ/L5TWuD2lpDWOLkLPB2gPB4=",
+        "originContent": "python3 -m pokemonred_puffer.train --config config.yaml --debug",
+        "translatedContent": "python3 -m pokemonred_puffer.train --config config.yaml --debug"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nIn emergency cases, it is advised to remove the `send_input` function calls from `environment.py` so you can test the rewards on your own schedule and not the model's.\n\n## Directory Structure\n\nThis repo is intended to eventually be used as a library. All source files should be under the `pokemonred_puffer` directory. If you want to add a module with a `__main__`, feel free to, but under the `pokemonred_puffer` directory. Afterwards, you should be to run your main with `python3 -m pokemonred_puffer.<your-module>`\n\nWithin the `pokemonred_puffer` directory there are the following files and directories:\n\n- `policies`: A directory for different policies to run the model with.\n- `rewards`: A directory of `gym.Env` classes that keep track of rewards for a `RedGymEnv` (gym environment for Pokemon Red) object\n- `wrappers`: A directory of wrappers that you may want to use, e.g. logging to the [Pokemon Red Map Visualizer](https://pwhiddy.github.io/pokerl-map-viz/).\n- `cleanrl_puffer.py` - Responsible for running the actual training logic\n- `environment.py` - The core logic of the Pokemon Red Gym Environment.\n- `eval.py` - For generating visualizations for logging during training.\n- `kanto_map_dsv.png` - A high resolution map of the Kanto region.\n- `train.py` - A script and entrypoint to start training with.\n\n## Making Changes\n\nFor simple changes, you can update `config.yaml` directly. `config.yaml` has a few important rules. For `wrappers`, `rewards` and `policies`, the wrapper, reward or policy _must_ be keyed by `module_name.class_name`. These sections can hold multiple types of `wrappers`, `rewards` or `policies`. The general layout is `label : arguments for the class`. This is until a better way with less indirection is figured out.\n\n### Adding Wrappers\n\nTo add wrappers, add a new class that inherits from `gym.Wrapper` to the `wrappers` directory. Then update the `wrappers` section of `config.yaml`. The wrappers wrap the base environment in order, from top to bottom. The wrappers list is _not_ keyed by the class path. It is a unique name that distinguishes the collection of wrappers.\n\n### Adding Rewards\n\nTo add rewards, add a new class to the `rewards` directory. Then update the `rewards` section of `config.yaml`. A reward section is keyed by the class path.\n\n### Adding Policies\n\nTo add policies, add a new class to the `policies` directory. Then update the `policies` section of `config.yaml`. A policy section is keyed by the class path. It is assumed that a recurrent policy will live in the same module as the policy it wraps.\n\n## Development\n\nThis repo uses [pre-commit](https://pre-commit.com/) to enforce formatting and linting. For development, please install this repo with:\n",
+    "ContentSha": "psAgh8lDYf7gvbPUzmjhxmQdUzQuBvm0r4EeEGuUtHA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "비상 상황에서는 `environment.py`에서 `send_input` 함수 호출을 제거하는 것이 권장됩니다. 이렇게 하면 모델의 일정에 맞추지 않고 직접 보상을 테스트할 수 있습니다.\n\n## 디렉토리 구조\n\n이 저장소는 궁극적으로 라이브러리로 사용될 예정입니다. 모든 소스 파일은 `pokemonred_puffer` 디렉토리 아래에 있어야 합니다. `__main__`이 포함된 모듈을 추가하고 싶다면 자유롭게 추가하되, 반드시 `pokemonred_puffer` 디렉토리 내에 두어야 합니다. 이후에는 `python3 -m pokemonred_puffer.<your-module>` 명령어로 메인을 실행할 수 있어야 합니다.\n\n`pokemonred_puffer` 디렉토리 내에는 다음과 같은 파일과 디렉토리가 있습니다:\n\n- `policies`: 모델을 실행할 때 사용할 다양한 정책들이 있는 디렉토리입니다.\n- `rewards`: `RedGymEnv` (포켓몬 레드용 gym 환경) 객체의 보상을 추적하는 `gym.Env` 클래스들이 있는 디렉토리입니다.\n- `wrappers`: 사용하고자 하는 래퍼들이 있는 디렉토리로, 예를 들어 [Pokemon Red Map Visualizer](https://pwhiddy.github.io/pokerl-map-viz/)에 로그를 남기는 래퍼 등이 있습니다.\n- `cleanrl_puffer.py` - 실제 학습 로직을 실행하는 책임이 있는 파일입니다.\n- `environment.py` - 포켓몬 레드 Gym 환경의 핵심 로직입니다.\n- `eval.py` - 학습 중 로그용 시각화를 생성하는 파일입니다.\n- `kanto_map_dsv.png` - 칸토 지역의 고해상도 지도입니다.\n- `train.py` - 학습을 시작하는 스크립트 및 진입점입니다.\n\n## 변경 사항 만들기\n\n간단한 변경 사항은 `config.yaml`을 직접 수정할 수 있습니다. `config.yaml`에는 몇 가지 중요한 규칙이 있습니다. `wrappers`, `rewards`, `policies`의 경우, 래퍼, 보상, 정책은 반드시 `module_name.class_name` 키로 지정되어야 합니다. 이 섹션들은 여러 종류의 `wrappers`, `rewards`, `policies`를 포함할 수 있습니다. 일반적인 구조는 `label : 클래스에 대한 인자` 형태입니다. 더 나은 간접 참조 방식이 마련될 때까지 이 방식을 사용합니다.\n\n### 래퍼 추가하기\n\n래퍼를 추가하려면 `gym.Wrapper`를 상속하는 새 클래스를 `wrappers` 디렉토리에 추가합니다. 그 다음 `config.yaml`의 `wrappers` 섹션을 업데이트합니다. 래퍼들은 기본 환경을 위에서 아래 순서로 감쌉니다. 래퍼 목록은 클래스 경로로 키가 지정되지 않습니다. 래퍼 컬렉션을 구별하는 고유 이름입니다.\n\n### 보상 추가하기\n\n보상을 추가하려면 `rewards` 디렉토리에 새 클래스를 추가합니다. 그 다음 `config.yaml`의 `rewards` 섹션을 업데이트합니다. 보상 섹션은 클래스 경로로 키가 지정됩니다.\n\n### 정책 추가하기\n\n정책을 추가하려면 `policies` 디렉토리에 새 클래스를 추가합니다. 그 다음 `config.yaml`의 `policies` 섹션을 업데이트합니다. 정책 섹션은 클래스 경로로 키가 지정됩니다. 순환 정책은 감싸는 정책과 같은 모듈에 존재한다고 가정합니다.\n\n## 개발\n\n이 저장소는 [pre-commit](https://pre-commit.com/)을 사용하여 포맷과 린트를 강제합니다. 개발을 위해서는 다음 명령어로 이 저장소를 설치하세요:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "비상 상황에서는 `environment.py`에서 `send_input` 함수 호출을 제거하는 것이 권장됩니다. 이렇게 하면 모델의 일정에 맞추지 않고 직접 보상을 테스트할 수 있습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "wiEswVya1Ud3Jm7O9l4F+UxVDd5jZPW2ZzFPRCY3czc=",
+        "originContent": "In emergency cases, it is advised to remove the `send_input` function calls from `environment.py` so you can test the rewards on your own schedule and not the model's.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 디렉토리 구조"
+      },
+      {
+        "row": 4,
+        "rowsha": "rgjrZ4YwB4fIfl8DPgsfcwvUK/SelWVY/I8Yfq3qHPo=",
+        "originContent": "## Directory Structure",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 저장소는 궁극적으로 라이브러리로 사용될 예정입니다. 모든 소스 파일은 `pokemonred_puffer` 디렉토리 아래에 있어야 합니다. `__main__`이 포함된 모듈을 추가하고 싶다면 자유롭게 추가하되, 반드시 `pokemonred_puffer` 디렉토리 내에 두어야 합니다. 이후에는 `python3 -m pokemonred_puffer.<your-module>` 명령어로 메인을 실행할 수 있어야 합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "eO5yJqAr7g8IH2VLYQGk1pef3l2NbCJKD03Nv1wnk0w=",
+        "originContent": "This repo is intended to eventually be used as a library. All source files should be under the `pokemonred_puffer` directory. If you want to add a module with a `__main__`, feel free to, but under the `pokemonred_puffer` directory. Afterwards, you should be to run your main with `python3 -m pokemonred_puffer.<your-module>`",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`pokemonred_puffer` 디렉토리 내에는 다음과 같은 파일과 디렉토리가 있습니다:"
+      },
+      {
+        "row": 8,
+        "rowsha": "I0oIRkvMV2A62SYVgw82kNAOSH/V5bKPGyN67tazX8U=",
+        "originContent": "Within the `pokemonred_puffer` directory there are the following files and directories:",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `policies`: 모델을 실행할 때 사용할 다양한 정책들이 있는 디렉토리입니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "ihgZ+6NbVvLt93h8q9PAq9pXoSCCzoGi9yiM9t6prDk=",
+        "originContent": "- `policies`: A directory for different policies to run the model with.",
+        "translatedContent": "- `rewards`: `RedGymEnv` (포켓몬 레드용 gym 환경) 객체의 보상을 추적하는 `gym.Env` 클래스들이 있는 디렉토리입니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "5XUfoNhUu8ykJBgCiBcf8QNSvl04tc5Jl9ypJOqerVM=",
+        "originContent": "- `rewards`: A directory of `gym.Env` classes that keep track of rewards for a `RedGymEnv` (gym environment for Pokemon Red) object",
+        "translatedContent": "- `wrappers`: 사용하고자 하는 래퍼들이 있는 디렉토리로, 예를 들어 [Pokemon Red Map Visualizer](https://pwhiddy.github.io/pokerl-map-viz/)에 로그를 남기는 래퍼 등이 있습니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "NrHwxs4XfwE3jwWgDh37m8nePGs7b+3RIfwDAyTQW1U=",
+        "originContent": "- `wrappers`: A directory of wrappers that you may want to use, e.g. logging to the [Pokemon Red Map Visualizer](https://pwhiddy.github.io/pokerl-map-viz/).",
+        "translatedContent": "- `cleanrl_puffer.py` - 실제 학습 로직을 실행하는 책임이 있는 파일입니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "VmQS3ykgnDUIUikBeFnpV3VkZC5wzsMx6BRBaoYAfFQ=",
+        "originContent": "- `cleanrl_puffer.py` - Responsible for running the actual training logic",
+        "translatedContent": "- `environment.py` - 포켓몬 레드 Gym 환경의 핵심 로직입니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "a0020MWm2QhcKxUwr343VgP5MeaPaPHeosEJYcSPQcY=",
+        "originContent": "- `environment.py` - The core logic of the Pokemon Red Gym Environment.",
+        "translatedContent": "- `eval.py` - 학습 중 로그용 시각화를 생성하는 파일입니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "tlNp4na/cQOB1kqCRKI58w5iivwZRPZAAQ1pw7eqm/c=",
+        "originContent": "- `eval.py` - For generating visualizations for logging during training.",
+        "translatedContent": "- `kanto_map_dsv.png` - 칸토 지역의 고해상도 지도입니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "1hjIfj5ZXbc6I7hI79Cm5VV3HbW+Gc+TjI70wEYe4Ec=",
+        "originContent": "- `kanto_map_dsv.png` - A high resolution map of the Kanto region.",
+        "translatedContent": "- `train.py` - 학습을 시작하는 스크립트 및 진입점입니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "yxrZFauUrtdPhw1jWwdkjKdjgN2Mn3JOd0J2/CmjvbQ=",
+        "originContent": "- `train.py` - A script and entrypoint to start training with.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 변경 사항 만들기"
+      },
+      {
+        "row": 19,
+        "rowsha": "r8Nz/EWLmlad3W48yYSxAs7+oy9IgobVIQX01zln75w=",
+        "originContent": "## Making Changes",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "간단한 변경 사항은 `config.yaml`을 직접 수정할 수 있습니다. `config.yaml`에는 몇 가지 중요한 규칙이 있습니다. `wrappers`, `rewards`, `policies`의 경우, 래퍼, 보상, 정책은 반드시 `module_name.class_name` 키로 지정되어야 합니다. 이 섹션들은 여러 종류의 `wrappers`, `rewards`, `policies`를 포함할 수 있습니다. 일반적인 구조는 `label : 클래스에 대한 인자` 형태입니다. 더 나은 간접 참조 방식이 마련될 때까지 이 방식을 사용합니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "huFXvKhlXyUzVn8qdBuF/1nC1q1ujg7YN0jXdigWWu0=",
+        "originContent": "For simple changes, you can update `config.yaml` directly. `config.yaml` has a few important rules. For `wrappers`, `rewards` and `policies`, the wrapper, reward or policy _must_ be keyed by `module_name.class_name`. These sections can hold multiple types of `wrappers`, `rewards` or `policies`. The general layout is `label : arguments for the class`. This is until a better way with less indirection is figured out.",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 래퍼 추가하기"
+      },
+      {
+        "row": 23,
+        "rowsha": "v9w+EXu+Zv5AswqjoUjok3xsp/mXRymfJtFsr+7XO6U=",
+        "originContent": "### Adding Wrappers",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "래퍼를 추가하려면 `gym.Wrapper`를 상속하는 새 클래스를 `wrappers` 디렉토리에 추가합니다. 그 다음 `config.yaml`의 `wrappers` 섹션을 업데이트합니다. 래퍼들은 기본 환경을 위에서 아래 순서로 감쌉니다. 래퍼 목록은 클래스 경로로 키가 지정되지 않습니다. 래퍼 컬렉션을 구별하는 고유 이름입니다."
+      },
+      {
+        "row": 25,
+        "rowsha": "PzDthpKTQTVGR+dSIdE9d2PpUYYIW2WN95Rb7ZMjpKc=",
+        "originContent": "To add wrappers, add a new class that inherits from `gym.Wrapper` to the `wrappers` directory. Then update the `wrappers` section of `config.yaml`. The wrappers wrap the base environment in order, from top to bottom. The wrappers list is _not_ keyed by the class path. It is a unique name that distinguishes the collection of wrappers.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 보상 추가하기"
+      },
+      {
+        "row": 27,
+        "rowsha": "V0RhrZQPOdof5mQEz2i/0ABKjdFjqcJvRQq/oBnxQT4=",
+        "originContent": "### Adding Rewards",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "보상을 추가하려면 `rewards` 디렉토리에 새 클래스를 추가합니다. 그 다음 `config.yaml`의 `rewards` 섹션을 업데이트합니다. 보상 섹션은 클래스 경로로 키가 지정됩니다."
+      },
+      {
+        "row": 29,
+        "rowsha": "48nWJbKIOnvbqU4bRfp1jwLb+18GfeSMZCuZXSQ9fRw=",
+        "originContent": "To add rewards, add a new class to the `rewards` directory. Then update the `rewards` section of `config.yaml`. A reward section is keyed by the class path.",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 정책 추가하기"
+      },
+      {
+        "row": 31,
+        "rowsha": "ew13bO68GdxXdqe0d5eUWvd0UbuCo/lh5vFueL7vUPY=",
+        "originContent": "### Adding Policies",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "정책을 추가하려면 `policies` 디렉토리에 새 클래스를 추가합니다. 그 다음 `config.yaml`의 `policies` 섹션을 업데이트합니다. 정책 섹션은 클래스 경로로 키가 지정됩니다. 순환 정책은 감싸는 정책과 같은 모듈에 존재한다고 가정합니다."
+      },
+      {
+        "row": 33,
+        "rowsha": "Ck07tzf5hej+wVhX7gMmkAXfEbAl2IRmqA4FGQAGcrE=",
+        "originContent": "To add policies, add a new class to the `policies` directory. Then update the `policies` section of `config.yaml`. A policy section is keyed by the class path. It is assumed that a recurrent policy will live in the same module as the policy it wraps.",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 개발"
+      },
+      {
+        "row": 35,
+        "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+        "originContent": "## Development",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 저장소는 [pre-commit](https://pre-commit.com/)을 사용하여 포맷과 린트를 강제합니다. 개발을 위해서는 다음 명령어로 이 저장소를 설치하세요:"
+      },
+      {
+        "row": 37,
+        "rowsha": "Pvjjeuez11PPvvn1hXZ4z5JppRqfwLjJVh1OM+J4lDw=",
+        "originContent": "This repo uses [pre-commit](https://pre-commit.com/) to enforce formatting and linting. For development, please install this repo with:",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```sh\npip3 install -e '.[dev]'\npre-commit install\n```",
+    "ContentSha": "ivBeqMmNlJ+9C960yg8lH4Na/OytMwvbV9yN+kvRnPc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npip3 install -e '.[dev]'\npre-commit install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "dnwavyES3C/9z80O1Z06ls2x3DRgA5ZuhiTlXCOZksQ=",
+        "originContent": "pip3 install -e '.[dev]'",
+        "translatedContent": "pip3 install -e '.[dev]'"
+      },
+      {
+        "row": 3,
+        "rowsha": "OJR6Yb314t0VFIAvt+rwX2cW9jIS5k0SbWgXke8iyDk=",
+        "originContent": "pre-commit install",
+        "translatedContent": "pre-commit install"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nFor any changes, please submit a PR.\n\n## Authors\n\n[David Rubinstein](https://github.com/drubinstein), [Keelan Donovan](https://github.com/leanke), [Daniel Addis](https://github.com/xinpw8), Kyoung Whan Choe, [Joseph Suarez](https://puffer.ai/), [Peter Whidden](https://peterwhidden.webflow.io/)\n\n<a href=\"https://star-history.com/#drubinstein/pokemonred_puffer&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date\" />\n   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date\" />\n </picture>\n</a>\n\n[![](https://raw.githubusercontent.com/drubinstein/pokemonred_puffer/main/assets/puffer.png)](https://puffer.ai)",
+    "ContentSha": "mFD83bKIwrM89LzFnie/yzOv7itwJ2WCoeAA1zeqcb8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "변경 사항이 있을 경우 PR을 제출해 주세요.\n\n## 저자\n\n[David Rubinstein](https://github.com/drubinstein), [Keelan Donovan](https://github.com/leanke), [Daniel Addis](https://github.com/xinpw8), 최경환, [Joseph Suarez](https://puffer.ai/), [Peter Whidden](https://peterwhidden.webflow.io/)\n\n<a href=\"https://star-history.com/#drubinstein/pokemonred_puffer&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date\" />\n   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date\" />\n </picture>\n</a>\n\n[![](https://raw.githubusercontent.com/drubinstein/pokemonred_puffer/main/assets/puffer.png)](https://puffer.ai)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "변경 사항이 있을 경우 PR을 제출해 주세요."
+      },
+      {
+        "row": 2,
+        "rowsha": "vPaTSRiSFfITNCSpUDMf5K4Jmhz0XKq6W8Cd3LBCmNM=",
+        "originContent": "For any changes, please submit a PR.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 저자"
+      },
+      {
+        "row": 4,
+        "rowsha": "xAEAjdxaH3zS0qJMnwyV5upZRvTUIZsG6RFpNeohsls=",
+        "originContent": "## Authors",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[David Rubinstein](https://github.com/drubinstein), [Keelan Donovan](https://github.com/leanke), [Daniel Addis](https://github.com/xinpw8), 최경환, [Joseph Suarez](https://puffer.ai/), [Peter Whidden](https://peterwhidden.webflow.io/)"
+      },
+      {
+        "row": 6,
+        "rowsha": "InQXdz0ptYI6EgT79aBKVo/a49MAzBGlTZAjJeQ8bQA=",
+        "originContent": "[David Rubinstein](https://github.com/drubinstein), [Keelan Donovan](https://github.com/leanke), [Daniel Addis](https://github.com/xinpw8), Kyoung Whan Choe, [Joseph Suarez](https://puffer.ai/), [Peter Whidden](https://peterwhidden.webflow.io/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<a href=\"https://star-history.com/#drubinstein/pokemonred_puffer&Date\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "yeqq+QXSAY3FXtAP/0ULn+4pHgJb6dCwNnjSLZOrG3U=",
+        "originContent": "<a href=\"https://star-history.com/#drubinstein/pokemonred_puffer&Date\">",
+        "translatedContent": " <picture>"
+      },
+      {
+        "row": 9,
+        "rowsha": "TFdaG2cyM78Bclocz/GopuysT4bztU94JJRzBZs2Vn0=",
+        "originContent": " <picture>",
+        "translatedContent": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date&theme=dark\" />"
+      },
+      {
+        "row": 10,
+        "rowsha": "7pysCziPbuSXK1VoGwasVF41NweEQBObQaO9HF3qV9c=",
+        "originContent": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date&theme=dark\" />",
+        "translatedContent": "   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date\" />"
+      },
+      {
+        "row": 11,
+        "rowsha": "EwT93i2lYkp5t8NCIHXPjAzxDQlV9WwyDdR0IaftyMw=",
+        "originContent": "   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date\" />",
+        "translatedContent": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date\" />"
+      },
+      {
+        "row": 12,
+        "rowsha": "1W4WA9HkRjTmoKzNuxFH4k9qSKlR3FrkcdGcTueKCBo=",
+        "originContent": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date\" />",
+        "translatedContent": " </picture>"
+      },
+      {
+        "row": 13,
+        "rowsha": "hmjVHkUZVe2T5TOA6gV3253XP4pU7SxFtUBDpd9akPA=",
+        "originContent": " </picture>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[![](https://raw.githubusercontent.com/drubinstein/pokemonred_puffer/main/assets/puffer.png)](https://puffer.ai)"
+      },
+      {
+        "row": 16,
+        "rowsha": "LOGhoKbzJBwOMKRTl1JpY/0p0m0PBhy0rcM0HTF1ye4=",
+        "originContent": "[![](https://raw.githubusercontent.com/drubinstein/pokemonred_puffer/main/assets/puffer.png)](https://puffer.ai)",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,770 @@
+[
+  {
+    "row": 1,
+    "rowsha": "SEHh2w9u3TyYCYKae5p2+xof0ub+X6vqTUQ5SIxPJJs=",
+    "originContent": "# Pokemon Red (RL Edition)",
+    "translatedContent": "# Pokemon Red (RL 版)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "gRQysQORwWc9E7eoycd+3t7Qb3+G/+Al5d2+bjbfIWg=",
+    "originContent": "![Tests](https://github.com/thatguy11325/pokemonred_puffer/actions/workflows/workflow.yml/badge.svg)",
+    "translatedContent": "![测试](https://github.com/thatguy11325/pokemonred_puffer/actions/workflows/workflow.yml/badge.svg)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "fb/nNCrmFJvPbHoTyCBJxyD1OAdlkJnVPynmjL3fKzE=",
+    "originContent": "This repo is designed as a library to be used for Pokemon Red RL development. It contains some convenience functions that should not be used in a library setting and should be forked. In the future, those convenience functions will be migrated so no forking is needed.",
+    "translatedContent": "该仓库设计为用于 Pokemon Red RL 开发的库。它包含一些不应在库环境中使用的便利函数，建议进行分叉。未来，这些便利函数将被迁移，以避免需要分叉。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "669wyUjie7v+j/aS3COPBDwvFiQ8FK2vMv9hGy+oUHE=",
+    "originContent": "## Quickstart",
+    "translatedContent": "## 快速开始"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+    "originContent": "### Installation",
+    "translatedContent": "### 安装"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "8YO97bqVsl8UHG/0BeLdBNS8U+ugqngQMUkR8Z1zNlk=",
+    "originContent": "To install the library you can either",
+    "translatedContent": "安装该库，你可以选择"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "A2XU/BsCLqgSPclrhRD6kXAgAr1OhPWUzeP8xXV87RU=",
+    "originContent": "1. Clone the repo to your local machine and install it.",
+    "translatedContent": "1. 将仓库克隆到本地机器并安装。"
+  },
+  {
+    "row": 14,
+    "rowsha": "9RB/8sv93DpGOjIRjhNkk93mQJTAfeqWUKIWB3L40bA=",
+    "originContent": "2. Fork the repo and clone your fork to your local machine.",
+    "translatedContent": "2. 分叉仓库并将你的分叉克隆到本地机器。"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "dNLZUagnq3//Va3Rge4Tw1lHNiccArJ96djPo1G4jvc=",
+    "originContent": "For example,",
+    "translatedContent": "例如，"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 19,
+    "rowsha": "JVBD2eofj11DmkEOmobsIW1liefnWkEHSF2BiUGo5q4=",
+    "originContent": "pip3 install -e . ",
+    "translatedContent": "pip3 install -e . "
+  },
+  {
+    "row": 20,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "5iPSR1DDKtPdTS5aRELEMPZT/b5NWuopRq5oAhD3zc4=",
+    "originContent": "### Running",
+    "translatedContent": "### 运行"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "wlK1Q+jc/aoBPiOjJnoBuqISZqoy59WuIiOo0UhxV3U=",
+    "originContent": "Below are commands that use default arguments in some cases. Please run `python3 -m pokemonred_puffer.train --help` if you are unsure how to use the commandline actions associated with this repo. Some commands may not have been tested recently so please make an issue if you have one. ",
+    "translatedContent": "以下命令在某些情况下使用默认参数。如果您不确定如何使用与此仓库关联的命令行操作，请运行 `python3 -m pokemonred_puffer.train --help`。部分命令可能近期未经过测试，如有问题请提出 issue。"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "RzF99zhZS7207tWEjZNqKHkH2ezzT3+Kx1B1hCG1Hag=",
+    "originContent": "After installation you can start training by running:",
+    "translatedContent": "安装完成后，您可以通过运行以下命令开始训练："
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 29,
+    "rowsha": "FAHI9PUpcMO5n2kEmWjuz+Wl7Af3oalmO409iSPQj1E=",
+    "originContent": "# Run before training to test what num_envs value you should use",
+    "translatedContent": "# Run before training to test what num_envs value you should use"
+  },
+  {
+    "row": 30,
+    "rowsha": "Q8XeCGcGpcNu7q6g5x5kA4+7QlzLtRVNGeSU5721VdM=",
+    "originContent": "python3 -m pokemonred_puffer.train autotune",
+    "translatedContent": "python3 -m pokemonred_puffer.train autotune"
+  },
+  {
+    "row": 31,
+    "rowsha": "DVeJq19v4lM7hsVlGJllXAicpUI6SHdg6nckhVG7rMU=",
+    "originContent": "# Default",
+    "translatedContent": "# Default"
+  },
+  {
+    "row": 32,
+    "rowsha": "+ELr2R/dEpRuJP4oPbJnHbSr0/3Vc6WYLGE+CNLDiu0=",
+    "originContent": "python3 -m pokemonred_puffer.train train",
+    "translatedContent": "python3 -m pokemonred_puffer.train train"
+  },
+  {
+    "row": 33,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "f0XAs+pbYQ1uILv7eDxKr9uQpyRiS66847v0wdEtgg0=",
+    "originContent": "### Multinode Hyperparameter Sweeps (in progress)",
+    "translatedContent": "### 多节点超参数搜索（进行中）"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "OkGMYdG60YoP7t+ihGLu6yuD3FLdfGxD6/vmS3grzBQ=",
+    "originContent": "If you want to run hyperparameter sweeps, you can do so by installing related packages and launching two commands:",
+    "translatedContent": "如果您想运行超参数搜索，可以通过安装相关软件包并启动两个命令来实现："
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 40,
+    "rowsha": "PHDOYiRrR7xQLTcN1E47uJsUvohX8BGte6gUbFrV0Os=",
+    "originContent": "pip3 install -e '.[sweep]'",
+    "translatedContent": "pip3 install -e '.[sweep]'"
+  },
+  {
+    "row": 41,
+    "rowsha": "BLiOsaPCfCV5vb6Lej4R+cDvaTtMJixsEVHZIJJu9Zk=",
+    "originContent": "python3 -m pokemonred_puffer.sweep launch-sweep",
+    "translatedContent": "python3 -m pokemonred_puffer.sweep launch-sweep"
+  },
+  {
+    "row": 42,
+    "rowsha": "UA/EzvoxoB/W/SLplutXF9EwTqd+d0o5VKbfU1lmwqw=",
+    "originContent": "python3 -m pokemonred_puffer.sweep launch-agent <sweep-id>",
+    "translatedContent": "python3 -m pokemonred_puffer.sweep launch-agent <sweep-id>"
+  },
+  {
+    "row": 43,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "在启动扫描时会打印扫描ID。要恢复扫描，您可以重新启动您的扫描，使用  "
+  },
+  {
+    "row": 45,
+    "rowsha": "zwXgPVr6Qoh2EqWcSXg0SXC3ANJ8f3nmL190D3+F6Bo=",
+    "originContent": "The sweep id will be printed when launching the sweep. To resume a sweep, you can relaunch your sweep with",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 48,
+    "rowsha": "573tvL3XWKTR30cvs9PoaWS3Q+m5dNSUDiSrerhIYgA=",
+    "originContent": "python3 -m pokemonred_puffer.sweep launch-sweep --sweep-id <sweep-id>",
+    "translatedContent": "python3 -m pokemonred_puffer.sweep launch-sweep --sweep-id <sweep-id>"
+  },
+  {
+    "row": 49,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "iFZaxlX+6Z+XJcwNsBhpW1c6qHWSIYmreTJe1bOcktg=",
+    "originContent": "The sweeps can be configured with a sweep configuration (defaulted to `sweep-config.yaml`) and base configuration (defaulted to `config.yaml`). The hyperparamter sweep sets bounds using the sweep config and centers the hyperparamters at paramters in the base config. To learn more about the hyperparamter algorithm, you can visit [Imbue's CARBS repo](https://github.com/imbue-ai/carbs/tree/main).",
+    "translatedContent": "扫描可以通过扫描配置（默认为 `sweep-config.yaml`）和基础配置（默认为 `config.yaml`）进行配置。超参数扫描使用扫描配置设置边界，并将超参数以基础配置中的参数为中心。要了解更多关于超参数算法的信息，可以访问 [Imbue 的 CARBS 仓库](https://github.com/imbue-ai/carbs/tree/main)。"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "PSirSquvpWfXkl3kmP1xXYnmEv5vxv7tROezjeiIiv8=",
+    "originContent": "N.B. Currently single node sweeps are not supported. If this is a desired feature, please make an issue.",
+    "translatedContent": "注意：目前不支持单节点扫描。如果这是一个需要的功能，请提交问题。"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "i8/gMC5WmMK3as6q2uuCp+JoDb9YYPxnWL/mh7py57A=",
+    "originContent": "### Modifying for Training",
+    "translatedContent": "### 训练时的修改"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "gjLK7CBweSTuh3SAR+lnJOI6fCgv3Tluk8SNpA/smEI=",
+    "originContent": "So you have a run going, but you want to mess with it, what do you do?",
+    "translatedContent": "所以你已经有一个运行了，但你想对其进行调整，该怎么办？"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "lZjSkP+yRMtkgzVCMCA2SGIBhBIwPOPq7LoK5KnSjLY=",
+    "originContent": "You have a few options:",
+    "translatedContent": "你有几个选项："
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "lxLVVoOyH2iozk/g8Vzk7jSqYSkCNmL8VBYA7riXfA0=",
+    "originContent": "1. Start altering parameters in `config.yaml`",
+    "translatedContent": "1. 开始修改 `config.yaml` 中的参数"
+  },
+  {
+    "row": 62,
+    "rowsha": "Jx2cXIdPeqFcgEpC4t8qq4ZScD3ApxIEKn3oq5/aSW0=",
+    "originContent": "2. Start modifying the code directly (more on that later).",
+    "translatedContent": "2. 直接开始修改代码（稍后详细介绍）。"
+  },
+  {
+    "row": 63,
+    "rowsha": "3iM7PdeUu+tffLtbe5YF1NCOW874bTW3SJRGY8NHj4c=",
+    "originContent": "3. Use this repo as a library and make your own wrappers.",
+    "translatedContent": "3. 将此仓库作为库使用，并制作你自己的封装。"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "TIX/JOwnwkQe58ppe2noaO2wkOzmMkMGI6BWWBThor0=",
+    "originContent": "### Debugging",
+    "translatedContent": "### 调试"
+  },
+  {
+    "row": 66,
+    "rowsha": "Gf8TeFiuuYUpJYBruzUpI6V1gD9G+U/0E9n/AJJZqkc=",
+    "originContent": "If you want to test your changes you can run ",
+    "translatedContent": "如果你想测试你的更改，你可以运行 "
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 69,
+    "rowsha": "Htw3yrVaBA8XKaVz1uOZ/L5TWuD2lpDWOLkLPB2gPB4=",
+    "originContent": "python3 -m pokemonred_puffer.train --config config.yaml --debug",
+    "translatedContent": "python3 -m pokemonred_puffer.train --config config.yaml --debug"
+  },
+  {
+    "row": 70,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "在紧急情况下，建议从 `environment.py` 中移除 `send_input` 函数调用，这样你可以按照自己的时间测试奖励，而不是模型的时间。"
+  },
+  {
+    "row": 72,
+    "rowsha": "wiEswVya1Ud3Jm7O9l4F+UxVDd5jZPW2ZzFPRCY3czc=",
+    "originContent": "In emergency cases, it is advised to remove the `send_input` function calls from `environment.py` so you can test the rewards on your own schedule and not the model's.",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 目录结构"
+  },
+  {
+    "row": 74,
+    "rowsha": "rgjrZ4YwB4fIfl8DPgsfcwvUK/SelWVY/I8Yfq3qHPo=",
+    "originContent": "## Directory Structure",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "该仓库最终旨在用作一个库。所有源文件应位于 `pokemonred_puffer` 目录下。如果你想添加带有 `__main__` 的模块，可以，但必须在 `pokemonred_puffer` 目录下。之后，你应该能够通过 `python3 -m pokemonred_puffer.<your-module>` 来运行你的主程序。"
+  },
+  {
+    "row": 76,
+    "rowsha": "eO5yJqAr7g8IH2VLYQGk1pef3l2NbCJKD03Nv1wnk0w=",
+    "originContent": "This repo is intended to eventually be used as a library. All source files should be under the `pokemonred_puffer` directory. If you want to add a module with a `__main__`, feel free to, but under the `pokemonred_puffer` directory. Afterwards, you should be to run your main with `python3 -m pokemonred_puffer.<your-module>`",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "在 `pokemonred_puffer` 目录中，有以下文件和目录："
+  },
+  {
+    "row": 78,
+    "rowsha": "I0oIRkvMV2A62SYVgw82kNAOSH/V5bKPGyN67tazX8U=",
+    "originContent": "Within the `pokemonred_puffer` directory there are the following files and directories:",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `policies`：用于运行模型的不同策略目录。"
+  },
+  {
+    "row": 80,
+    "rowsha": "ihgZ+6NbVvLt93h8q9PAq9pXoSCCzoGi9yiM9t6prDk=",
+    "originContent": "- `policies`: A directory for different policies to run the model with.",
+    "translatedContent": "- `rewards`：包含为 `RedGymEnv`（宝可梦红版的 gym 环境）对象跟踪奖励的 `gym.Env` 类的目录。"
+  },
+  {
+    "row": 81,
+    "rowsha": "5XUfoNhUu8ykJBgCiBcf8QNSvl04tc5Jl9ypJOqerVM=",
+    "originContent": "- `rewards`: A directory of `gym.Env` classes that keep track of rewards for a `RedGymEnv` (gym environment for Pokemon Red) object",
+    "translatedContent": "- `wrappers`：你可能想使用的包装器目录，例如，日志记录到 [Pokemon Red Map Visualizer](https://pwhiddy.github.io/pokerl-map-viz/)。"
+  },
+  {
+    "row": 82,
+    "rowsha": "NrHwxs4XfwE3jwWgDh37m8nePGs7b+3RIfwDAyTQW1U=",
+    "originContent": "- `wrappers`: A directory of wrappers that you may want to use, e.g. logging to the [Pokemon Red Map Visualizer](https://pwhiddy.github.io/pokerl-map-viz/).",
+    "translatedContent": "- `cleanrl_puffer.py` - 负责实际训练逻辑的运行。"
+  },
+  {
+    "row": 83,
+    "rowsha": "VmQS3ykgnDUIUikBeFnpV3VkZC5wzsMx6BRBaoYAfFQ=",
+    "originContent": "- `cleanrl_puffer.py` - Responsible for running the actual training logic",
+    "translatedContent": "- `environment.py` - 宝可梦红版 Gym 环境的核心逻辑。"
+  },
+  {
+    "row": 84,
+    "rowsha": "a0020MWm2QhcKxUwr343VgP5MeaPaPHeosEJYcSPQcY=",
+    "originContent": "- `environment.py` - The core logic of the Pokemon Red Gym Environment.",
+    "translatedContent": "- `eval.py` - 用于训练过程中生成日志可视化。"
+  },
+  {
+    "row": 85,
+    "rowsha": "tlNp4na/cQOB1kqCRKI58w5iivwZRPZAAQ1pw7eqm/c=",
+    "originContent": "- `eval.py` - For generating visualizations for logging during training.",
+    "translatedContent": "- `kanto_map_dsv.png` - 关东地区的高清地图。"
+  },
+  {
+    "row": 86,
+    "rowsha": "1hjIfj5ZXbc6I7hI79Cm5VV3HbW+Gc+TjI70wEYe4Ec=",
+    "originContent": "- `kanto_map_dsv.png` - A high resolution map of the Kanto region.",
+    "translatedContent": "- `train.py` - 启动训练的脚本和入口。"
+  },
+  {
+    "row": 87,
+    "rowsha": "yxrZFauUrtdPhw1jWwdkjKdjgN2Mn3JOd0J2/CmjvbQ=",
+    "originContent": "- `train.py` - A script and entrypoint to start training with.",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 变更说明"
+  },
+  {
+    "row": 89,
+    "rowsha": "r8Nz/EWLmlad3W48yYSxAs7+oy9IgobVIQX01zln75w=",
+    "originContent": "## Making Changes",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "对于简单的更改，你可以直接更新 `config.yaml`。`config.yaml` 有几个重要规则。对于 `wrappers`、`rewards` 和 `policies`，包装器、奖励或策略 _必须_ 以 `module_name.class_name` 作为键。这些部分可以包含多种类型的 `wrappers`、`rewards` 或 `policies`。其通用布局为 `label : 类的参数`。这是在找到更少间接性更好方法之前的暂用方案。"
+  },
+  {
+    "row": 91,
+    "rowsha": "huFXvKhlXyUzVn8qdBuF/1nC1q1ujg7YN0jXdigWWu0=",
+    "originContent": "For simple changes, you can update `config.yaml` directly. `config.yaml` has a few important rules. For `wrappers`, `rewards` and `policies`, the wrapper, reward or policy _must_ be keyed by `module_name.class_name`. These sections can hold multiple types of `wrappers`, `rewards` or `policies`. The general layout is `label : arguments for the class`. This is until a better way with less indirection is figured out.",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 添加包装器"
+  },
+  {
+    "row": 93,
+    "rowsha": "v9w+EXu+Zv5AswqjoUjok3xsp/mXRymfJtFsr+7XO6U=",
+    "originContent": "### Adding Wrappers",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "要添加包装器，在 `wrappers` 目录下添加一个继承自 `gym.Wrapper` 的新类。然后更新 `config.yaml` 中的 `wrappers` 部分。包装器按顺序从上到下包裹基础环境。包装器列表 _不是_ 以类路径为键，而是一个唯一名称，用于区分包装器集合。"
+  },
+  {
+    "row": 95,
+    "rowsha": "PzDthpKTQTVGR+dSIdE9d2PpUYYIW2WN95Rb7ZMjpKc=",
+    "originContent": "To add wrappers, add a new class that inherits from `gym.Wrapper` to the `wrappers` directory. Then update the `wrappers` section of `config.yaml`. The wrappers wrap the base environment in order, from top to bottom. The wrappers list is _not_ keyed by the class path. It is a unique name that distinguishes the collection of wrappers.",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 添加奖励"
+  },
+  {
+    "row": 97,
+    "rowsha": "V0RhrZQPOdof5mQEz2i/0ABKjdFjqcJvRQq/oBnxQT4=",
+    "originContent": "### Adding Rewards",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "要添加奖励，在 `rewards` 目录下添加一个新类。然后更新 `config.yaml` 中的 `rewards` 部分。奖励部分以类路径为键。"
+  },
+  {
+    "row": 99,
+    "rowsha": "48nWJbKIOnvbqU4bRfp1jwLb+18GfeSMZCuZXSQ9fRw=",
+    "originContent": "To add rewards, add a new class to the `rewards` directory. Then update the `rewards` section of `config.yaml`. A reward section is keyed by the class path.",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 添加策略"
+  },
+  {
+    "row": 101,
+    "rowsha": "ew13bO68GdxXdqe0d5eUWvd0UbuCo/lh5vFueL7vUPY=",
+    "originContent": "### Adding Policies",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "要添加策略，在 `policies` 目录下添加一个新类。然后更新 `config.yaml` 中的 `policies` 部分。策略部分以类路径为键。假定循环策略将与它所包装的策略位于同一模块中。"
+  },
+  {
+    "row": 103,
+    "rowsha": "Ck07tzf5hej+wVhX7gMmkAXfEbAl2IRmqA4FGQAGcrE=",
+    "originContent": "To add policies, add a new class to the `policies` directory. Then update the `policies` section of `config.yaml`. A policy section is keyed by the class path. It is assumed that a recurrent policy will live in the same module as the policy it wraps.",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 开发"
+  },
+  {
+    "row": 105,
+    "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+    "originContent": "## Development",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "该仓库使用 [pre-commit](https://pre-commit.com/) 来强制执行格式和代码检查。开发时，请安装此仓库："
+  },
+  {
+    "row": 107,
+    "rowsha": "Pvjjeuez11PPvvn1hXZ4z5JppRqfwLjJVh1OM+J4lDw=",
+    "originContent": "This repo uses [pre-commit](https://pre-commit.com/) to enforce formatting and linting. For development, please install this repo with:",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 110,
+    "rowsha": "dnwavyES3C/9z80O1Z06ls2x3DRgA5ZuhiTlXCOZksQ=",
+    "originContent": "pip3 install -e '.[dev]'",
+    "translatedContent": "pip3 install -e '.[dev]'"
+  },
+  {
+    "row": 111,
+    "rowsha": "OJR6Yb314t0VFIAvt+rwX2cW9jIS5k0SbWgXke8iyDk=",
+    "originContent": "pre-commit install",
+    "translatedContent": "pre-commit install"
+  },
+  {
+    "row": 112,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如有任何更改，请提交 PR。"
+  },
+  {
+    "row": 114,
+    "rowsha": "vPaTSRiSFfITNCSpUDMf5K4Jmhz0XKq6W8Cd3LBCmNM=",
+    "originContent": "For any changes, please submit a PR.",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 作者"
+  },
+  {
+    "row": 116,
+    "rowsha": "xAEAjdxaH3zS0qJMnwyV5upZRvTUIZsG6RFpNeohsls=",
+    "originContent": "## Authors",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[David Rubinstein](https://github.com/drubinstein), [Keelan Donovan](https://github.com/leanke), [Daniel Addis](https://github.com/xinpw8), Kyoung Whan Choe, [Joseph Suarez](https://puffer.ai/), [Peter Whidden](https://peterwhidden.webflow.io/)"
+  },
+  {
+    "row": 118,
+    "rowsha": "InQXdz0ptYI6EgT79aBKVo/a49MAzBGlTZAjJeQ8bQA=",
+    "originContent": "[David Rubinstein](https://github.com/drubinstein), [Keelan Donovan](https://github.com/leanke), [Daniel Addis](https://github.com/xinpw8), Kyoung Whan Choe, [Joseph Suarez](https://puffer.ai/), [Peter Whidden](https://peterwhidden.webflow.io/)",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<a href=\"https://star-history.com/#drubinstein/pokemonred_puffer&Date\">"
+  },
+  {
+    "row": 120,
+    "rowsha": "yeqq+QXSAY3FXtAP/0ULn+4pHgJb6dCwNnjSLZOrG3U=",
+    "originContent": "<a href=\"https://star-history.com/#drubinstein/pokemonred_puffer&Date\">",
+    "translatedContent": " <picture>"
+  },
+  {
+    "row": 121,
+    "rowsha": "TFdaG2cyM78Bclocz/GopuysT4bztU94JJRzBZs2Vn0=",
+    "originContent": " <picture>",
+    "translatedContent": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date&theme=dark\" />"
+  },
+  {
+    "row": 122,
+    "rowsha": "7pysCziPbuSXK1VoGwasVF41NweEQBObQaO9HF3qV9c=",
+    "originContent": "   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date&theme=dark\" />",
+    "translatedContent": "   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date\" />"
+  },
+  {
+    "row": 123,
+    "rowsha": "EwT93i2lYkp5t8NCIHXPjAzxDQlV9WwyDdR0IaftyMw=",
+    "originContent": "   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date\" />",
+    "translatedContent": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date\" />"
+  },
+  {
+    "row": 124,
+    "rowsha": "1W4WA9HkRjTmoKzNuxFH4k9qSKlR3FrkcdGcTueKCBo=",
+    "originContent": "   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=drubinstein/pokemonred_puffer&type=Date\" />",
+    "translatedContent": " </picture>"
+  },
+  {
+    "row": 125,
+    "rowsha": "hmjVHkUZVe2T5TOA6gV3253XP4pU7SxFtUBDpd9akPA=",
+    "originContent": " </picture>",
+    "translatedContent": "</a>"
+  },
+  {
+    "row": 126,
+    "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+    "originContent": "</a>",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[![](https://raw.githubusercontent.com/drubinstein/pokemonred_puffer/main/assets/puffer.png)](https://puffer.ai)"
+  },
+  {
+    "row": 128,
+    "rowsha": "LOGhoKbzJBwOMKRTl1JpY/0p0m0PBhy0rcM0HTF1ye4=",
+    "originContent": "[![](https://raw.githubusercontent.com/drubinstein/pokemonred_puffer/main/assets/puffer.png)](https://puffer.ai)",
+    "translatedContent": ""
+  }
+]
