@@ -1,0 +1,260 @@
+[
+  {
+    "row": 1,
+    "rowsha": "bE7XDtEX5OyMQpBz0xoFFsEG9kr4WPGkb9DvddAciP4=",
+    "originContent": "# Cobalt Strike Linux Beacon",
+    "translatedContent": "# Cobalt Strike Linux Beacon"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "2ORNZvsMJl/SNErCf8TPqNhyfxtJO9Z4h9dyJ6Ketus=",
+    "originContent": "A proof-of-concept custom Linux Beacon written in C that communicates with the Cobalt Strike teamserver using the HTTP/S protocol.",
+    "translatedContent": "Un Beacon Linux personnalisé proof-of-concept écrit en C qui communique avec le serveur d'équipe Cobalt Strike en utilisant le protocole HTTP/S."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "wXRqdKtnuQrW5bCxfvp9iM3U/jhOQFrNJjvZSS7bE4Q=",
+    "originContent": "The goal of this project isn't to be a fully featured implant, nor is it limited to just Linux. It is to show that it is possible to make custom implants for Cobalt Strike for any platform. The only requirement is communicating with the teamserver correctly.",
+    "translatedContent": "L'objectif de ce projet n'est pas d'être un implant complet, ni d'être limité à Linux uniquement. Il s'agit de démontrer qu'il est possible de créer des implants personnalisés pour Cobalt Strike sur n'importe quelle plateforme. La seule exigence est de communiquer correctement avec le serveur d'équipe."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "ddB4Pm+zkWxnVT2Kd+8COZKU97T3zvaCxGucvo+QppY=",
+    "originContent": "With custom implants you can define custom behavior, add new features, support different platforms and file types, apply obfuscation at compile time, and more. The possibilities are endless.",
+    "translatedContent": "Avec des implants personnalisés, vous pouvez définir un comportement personnalisé, ajouter de nouvelles fonctionnalités, prendre en charge différentes plateformes et types de fichiers, appliquer de l'obfuscation à la compilation, et plus encore. Les possibilités sont infinies."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "PT5o6lhmL/stbHbcXVsgzD8cbLeAVxlluiI7GfBGSpg=",
+    "originContent": "Hopefully one day Cobalt Strike will officially support developing custom Beacons by adding more documentation and quality of life features.",
+    "translatedContent": "Espérons qu'un jour Cobalt Strike supportera officiellement le développement de Beacons personnalisés en ajoutant plus de documentation et des fonctionnalités facilitant la vie."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Fonctionnalités"
+  },
+  {
+    "row": 13,
+    "rowsha": "htFJ4u0N3RWsVWM8bNOfYeUFqcUmEj0F9E01EtNjx3w=",
+    "originContent": "- HTTP/S listener support (default C2 profile)",
+    "translatedContent": "- Support du listener HTTP/S (profil C2 par défaut)"
+  },
+  {
+    "row": 14,
+    "rowsha": "4U/uooGn5HZc/ShaxGNBYer84LWFCv+QQakas4gbCyg=",
+    "originContent": "- Contains some built-in commands: `sleep`, `cd`, `pwd`, `shell`, `ls`, `exit`, `upload`, `download`",
+    "translatedContent": "- Contient quelques commandes intégrées : `sleep`, `cd`, `pwd`, `shell`, `ls`, `exit`, `upload`, `download`"
+  },
+  {
+    "row": 15,
+    "rowsha": "jtz4EHPEVNrsA9n8peAIpTe1VqK3FRerVotjcGpdjuY=",
+    "originContent": "- Linux BOF execution using TrustedSec's ELFLoader. Supports both TrustedSec & Outflank BOFs",
+    "translatedContent": "- Exécution Linux BOF utilisant ELFLoader de TrustedSec. Supporte les BOFs TrustedSec & Outflank"
+  },
+  {
+    "row": 16,
+    "rowsha": "H/IZ+xlUc/1hZVvur1CXcTxacDs0FydsdEeMHEobATo=",
+    "originContent": "- SOCKS proxy",
+    "translatedContent": "- Proxy SOCKS"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+    "originContent": "## Demo",
+    "translatedContent": "## Démo"
+  },
+  {
+    "row": 19,
+    "rowsha": "WQXK7ATmFiqGOlah26Xs/XMSRB9ObJyPXGOLlVuGeX4=",
+    "originContent": "Generating payloads with the Aggressor Script",
+    "translatedContent": "Génération de payloads avec le script Aggressor"
+  },
+  {
+    "row": 20,
+    "rowsha": "PP+PjyN5j6LPeHHz4B8K++H48KoqU2WoilCArgb4Hd4=",
+    "originContent": "![Linux Beacon Payload Generation](https://raw.githubusercontent.com/EricEsquivel/CobaltStrike-Linux-Beacon/main/demo/generate_payloads.gif)",
+    "translatedContent": "![Génération de payloads Linux Beacon](https://raw.githubusercontent.com/EricEsquivel/CobaltStrike-Linux-Beacon/main/demo/generate_payloads.gif)"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "2weR78cqVdS+tNMPapwPKGZbmq6ovDi8Ch06u1pNPIU=",
+    "originContent": "Running commands & BOFs in the Linux Beacon",
+    "translatedContent": "Exécution de commandes & BOFs dans le Linux Beacon"
+  },
+  {
+    "row": 23,
+    "rowsha": "lNOtwj8nrRuyW46z0rPUdtmxuNMqQDpaM0frpeovfF0=",
+    "originContent": "![Linux Beacon Commands Demo](https://raw.githubusercontent.com/EricEsquivel/CobaltStrike-Linux-Beacon/main/demo/commands.gif)",
+    "translatedContent": "![Démo des commandes Linux Beacon](https://raw.githubusercontent.com/EricEsquivel/CobaltStrike-Linux-Beacon/main/demo/commands.gif)"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+    "originContent": "## Setup",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 26,
+    "rowsha": "s9GOCDwNEX3szPMzXZQ9/whtv5KY6Xvt5tLH8vhDJHI=",
+    "originContent": "You can view the setup steps in the [SETUP](https://raw.githubusercontent.com/EricEsquivel/CobaltStrike-Linux-Beacon/main/SETUP.md) file.",
+    "translatedContent": "Vous pouvez consulter les étapes d'installation dans le fichier [SETUP](https://raw.githubusercontent.com/EricEsquivel/CobaltStrike-Linux-Beacon/main/SETUP.md)."
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "UOO8Fv2Q4Gd0I3S2PlCa266jO2hKjmPVJtFIHmBuPpc=",
+    "originContent": "## Special Thanks",
+    "translatedContent": "## Remerciements spéciaux"
+  },
+  {
+    "row": 29,
+    "rowsha": "IbPFaLhrXhWWab4oDDJieqPTQzSCT26uHdOyji27GCY=",
+    "originContent": "Thank you to [Kyle Avery](https://x.com/kyleavery) for your help with integrating BOF execution and testing out the implant.",
+    "translatedContent": "Merci à [Kyle Avery](https://x.com/kyleavery) pour son aide à l'intégration de l'exécution BOF et aux tests de l'implant."
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "yNJQpLaoNZft0oeS8/uiW8J+XsXC8xgLx1Lkq++flNI=",
+    "originContent": "## Future goals",
+    "translatedContent": "## Objectifs futurs"
+  },
+  {
+    "row": 32,
+    "rowsha": "jpY588X/apFQgxyRXS0/qVHuWghWREed0ZzfL7WjTvQ=",
+    "originContent": "* Add support for custom C2 profiles",
+    "translatedContent": "* Ajouter le support des profils C2 personnalisés"
+  },
+  {
+    "row": 33,
+    "rowsha": "m0Gthj+TTLIiN3NR87Z+lREtZkVSpAESMwZhMgMVkCY=",
+    "originContent": "* Add TCP listener + connect functionality",
+    "translatedContent": "* Ajouter un listener TCP + fonctionnalité de connexion"
+  },
+  {
+    "row": 34,
+    "rowsha": "r6poAZZBz5JVw3H7Ag55wp5pA9HTxrXBACjaBlkUPQQ=",
+    "originContent": "* Continue fixing bugs",
+    "translatedContent": "* Continuer à corriger les bugs"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "dcYhHej4lR6AN9ECiePl0Bd7ihcrWTNFAGtbQqjgjg4=",
+    "originContent": "## Resources",
+    "translatedContent": "## Ressources"
+  },
+  {
+    "row": 37,
+    "rowsha": "XBYtjGaOQHxCTCoRKa30irx2BSwYxw7r+SzBhk+tLFo=",
+    "originContent": "- Cobalt Strike (wow!)",
+    "translatedContent": "- Cobalt Strike (wow !)"
+  },
+  {
+    "row": 38,
+    "rowsha": "w2yyzG3qlGgUO+Qkhi0m1kxdjX9JEQeZS2EuZ0IXmZo=",
+    "originContent": "- [TrustedSec's ELFLoader & BOFs](https://github.com/trustedsec/ELFLoader)",
+    "translatedContent": "- [ELFLoader & BOFs de TrustedSec](https://github.com/trustedsec/ELFLoader)"
+  },
+  {
+    "row": 39,
+    "rowsha": "3MpZw2L7Axw5eYxQBdfxoiix/XliuU9oXaFhwj2eUUI=",
+    "originContent": "- [Outflank's BOFs](https://github.com/outflanknl/nix_bof_template)",
+    "translatedContent": "- [BOFs d'Outflank](https://github.com/outflanknl/nix_bof_template)"
+  },
+  {
+    "row": 40,
+    "rowsha": "15xb2DSu1etaAKqA1ZsA/QpPueLyxtCqlgySyrIRBLA=",
+    "originContent": "- [PaloAltoNetworks Unit42](https://unit42.paloaltonetworks.com/cobalt-strike-metadata-encryption-decryption/)",
+    "translatedContent": "- [PaloAltoNetworks Unit42](https://unit42.paloaltonetworks.com/cobalt-strike-metadata-encryption-decryption/)"
+  },
+  {
+    "row": 41,
+    "rowsha": "gKFbfy5yYGV2ryHuG5XANd0sNeyzTsc+djv8ct04hgM=",
+    "originContent": "- [SANS ISC](https://isc.sans.edu/diary/27968)",
+    "translatedContent": "- [SANS ISC](https://isc.sans.edu/diary/27968)"
+  },
+  {
+    "row": 42,
+    "rowsha": "FsV9JE1xmJ2aFd/VioFZzCfDbuum3UFqWYE8wUKmFRo=",
+    "originContent": "- [cs-decrypt-metadata-py](https://blog.didierstevens.com/2021/10/22/new-tool-cs-decrypt-metadata-py/)",
+    "translatedContent": "- [cs-decrypt-metadata-py](https://blog.didierstevens.com/2021/10/22/new-tool-cs-decrypt-metadata-py/)"
+  },
+  {
+    "row": 43,
+    "rowsha": "HzBD2+dxvEPnN7EDVFR41wBmF29iN5QlRTJ85Wab8sk=",
+    "originContent": "- [SentinelOne CobaltStrikeParser](https://github.com/Sentinel-One/CobaltStrikeParser)",
+    "translatedContent": "- [SentinelOne CobaltStrikeParser](https://github.com/Sentinel-One/CobaltStrikeParser)"
+  }
+]

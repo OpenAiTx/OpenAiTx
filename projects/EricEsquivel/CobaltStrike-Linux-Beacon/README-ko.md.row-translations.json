@@ -1,0 +1,260 @@
+[
+  {
+    "row": 1,
+    "rowsha": "bE7XDtEX5OyMQpBz0xoFFsEG9kr4WPGkb9DvddAciP4=",
+    "originContent": "# Cobalt Strike Linux Beacon",
+    "translatedContent": "# 코발트 스트라이크 리눅스 비콘"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "2ORNZvsMJl/SNErCf8TPqNhyfxtJO9Z4h9dyJ6Ketus=",
+    "originContent": "A proof-of-concept custom Linux Beacon written in C that communicates with the Cobalt Strike teamserver using the HTTP/S protocol.",
+    "translatedContent": "C로 작성된 개념 증명용 맞춤형 리눅스 비콘으로, HTTP/S 프로토콜을 사용하여 코발트 스트라이크 팀서버와 통신합니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "wXRqdKtnuQrW5bCxfvp9iM3U/jhOQFrNJjvZSS7bE4Q=",
+    "originContent": "The goal of this project isn't to be a fully featured implant, nor is it limited to just Linux. It is to show that it is possible to make custom implants for Cobalt Strike for any platform. The only requirement is communicating with the teamserver correctly.",
+    "translatedContent": "이 프로젝트의 목표는 완전한 기능을 갖춘 임플란트가 되는 것이 아니며, 리눅스에만 국한되지도 않습니다. 코발트 스트라이크를 위한 맞춤형 임플란트를 어떤 플랫폼에서도 만들 수 있다는 것을 보여주는 것입니다. 유일한 요구 사항은 팀서버와 올바르게 통신하는 것입니다."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "ddB4Pm+zkWxnVT2Kd+8COZKU97T3zvaCxGucvo+QppY=",
+    "originContent": "With custom implants you can define custom behavior, add new features, support different platforms and file types, apply obfuscation at compile time, and more. The possibilities are endless.",
+    "translatedContent": "맞춤형 임플란트를 사용하면 맞춤 동작 정의, 새로운 기능 추가, 다양한 플랫폼 및 파일 형식 지원, 컴파일 시 난독화 적용 등 무한한 가능성이 있습니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "PT5o6lhmL/stbHbcXVsgzD8cbLeAVxlluiI7GfBGSpg=",
+    "originContent": "Hopefully one day Cobalt Strike will officially support developing custom Beacons by adding more documentation and quality of life features.",
+    "translatedContent": "언젠가 코발트 스트라이크가 공식적으로 맞춤형 비콘 개발을 지원하여 더 많은 문서와 사용 편의 기능을 추가하길 희망합니다."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 기능"
+  },
+  {
+    "row": 13,
+    "rowsha": "htFJ4u0N3RWsVWM8bNOfYeUFqcUmEj0F9E01EtNjx3w=",
+    "originContent": "- HTTP/S listener support (default C2 profile)",
+    "translatedContent": "- HTTP/S 리스너 지원 (기본 C2 프로필)"
+  },
+  {
+    "row": 14,
+    "rowsha": "4U/uooGn5HZc/ShaxGNBYer84LWFCv+QQakas4gbCyg=",
+    "originContent": "- Contains some built-in commands: `sleep`, `cd`, `pwd`, `shell`, `ls`, `exit`, `upload`, `download`",
+    "translatedContent": "- 내장 명령어 포함: `sleep`, `cd`, `pwd`, `shell`, `ls`, `exit`, `upload`, `download`"
+  },
+  {
+    "row": 15,
+    "rowsha": "jtz4EHPEVNrsA9n8peAIpTe1VqK3FRerVotjcGpdjuY=",
+    "originContent": "- Linux BOF execution using TrustedSec's ELFLoader. Supports both TrustedSec & Outflank BOFs",
+    "translatedContent": "- TrustedSec의 ELFLoader를 사용한 리눅스 BOF 실행. TrustedSec 및 Outflank BOF 모두 지원"
+  },
+  {
+    "row": 16,
+    "rowsha": "H/IZ+xlUc/1hZVvur1CXcTxacDs0FydsdEeMHEobATo=",
+    "originContent": "- SOCKS proxy",
+    "translatedContent": "- SOCKS 프록시"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+    "originContent": "## Demo",
+    "translatedContent": "## 데모"
+  },
+  {
+    "row": 19,
+    "rowsha": "WQXK7ATmFiqGOlah26Xs/XMSRB9ObJyPXGOLlVuGeX4=",
+    "originContent": "Generating payloads with the Aggressor Script",
+    "translatedContent": "Aggressor 스크립트로 페이로드 생성"
+  },
+  {
+    "row": 20,
+    "rowsha": "PP+PjyN5j6LPeHHz4B8K++H48KoqU2WoilCArgb4Hd4=",
+    "originContent": "![Linux Beacon Payload Generation](https://raw.githubusercontent.com/EricEsquivel/CobaltStrike-Linux-Beacon/main/demo/generate_payloads.gif)",
+    "translatedContent": "![리눅스 비콘 페이로드 생성](https://raw.githubusercontent.com/EricEsquivel/CobaltStrike-Linux-Beacon/main/demo/generate_payloads.gif)"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "2weR78cqVdS+tNMPapwPKGZbmq6ovDi8Ch06u1pNPIU=",
+    "originContent": "Running commands & BOFs in the Linux Beacon",
+    "translatedContent": "리눅스 비콘에서 명령어 및 BOF 실행"
+  },
+  {
+    "row": 23,
+    "rowsha": "lNOtwj8nrRuyW46z0rPUdtmxuNMqQDpaM0frpeovfF0=",
+    "originContent": "![Linux Beacon Commands Demo](https://raw.githubusercontent.com/EricEsquivel/CobaltStrike-Linux-Beacon/main/demo/commands.gif)",
+    "translatedContent": "![리눅스 비콘 명령어 데모](https://raw.githubusercontent.com/EricEsquivel/CobaltStrike-Linux-Beacon/main/demo/commands.gif)"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+    "originContent": "## Setup",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 26,
+    "rowsha": "s9GOCDwNEX3szPMzXZQ9/whtv5KY6Xvt5tLH8vhDJHI=",
+    "originContent": "You can view the setup steps in the [SETUP](https://raw.githubusercontent.com/EricEsquivel/CobaltStrike-Linux-Beacon/main/SETUP.md) file.",
+    "translatedContent": "[SETUP](https://raw.githubusercontent.com/EricEsquivel/CobaltStrike-Linux-Beacon/main/SETUP.md) 파일에서 설치 단계를 확인할 수 있습니다."
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "UOO8Fv2Q4Gd0I3S2PlCa266jO2hKjmPVJtFIHmBuPpc=",
+    "originContent": "## Special Thanks",
+    "translatedContent": "## 특별 감사"
+  },
+  {
+    "row": 29,
+    "rowsha": "IbPFaLhrXhWWab4oDDJieqPTQzSCT26uHdOyji27GCY=",
+    "originContent": "Thank you to [Kyle Avery](https://x.com/kyleavery) for your help with integrating BOF execution and testing out the implant.",
+    "translatedContent": "BOF 실행 통합과 임플란트 테스트에 도움을 주신 [Kyle Avery](https://x.com/kyleavery)께 감사드립니다."
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "yNJQpLaoNZft0oeS8/uiW8J+XsXC8xgLx1Lkq++flNI=",
+    "originContent": "## Future goals",
+    "translatedContent": "## 향후 목표"
+  },
+  {
+    "row": 32,
+    "rowsha": "jpY588X/apFQgxyRXS0/qVHuWghWREed0ZzfL7WjTvQ=",
+    "originContent": "* Add support for custom C2 profiles",
+    "translatedContent": "* 맞춤형 C2 프로필 지원 추가"
+  },
+  {
+    "row": 33,
+    "rowsha": "m0Gthj+TTLIiN3NR87Z+lREtZkVSpAESMwZhMgMVkCY=",
+    "originContent": "* Add TCP listener + connect functionality",
+    "translatedContent": "* TCP 리스너 및 연결 기능 추가"
+  },
+  {
+    "row": 34,
+    "rowsha": "r6poAZZBz5JVw3H7Ag55wp5pA9HTxrXBACjaBlkUPQQ=",
+    "originContent": "* Continue fixing bugs",
+    "translatedContent": "* 버그 수정 지속"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "dcYhHej4lR6AN9ECiePl0Bd7ihcrWTNFAGtbQqjgjg4=",
+    "originContent": "## Resources",
+    "translatedContent": "## 자료"
+  },
+  {
+    "row": 37,
+    "rowsha": "XBYtjGaOQHxCTCoRKa30irx2BSwYxw7r+SzBhk+tLFo=",
+    "originContent": "- Cobalt Strike (wow!)",
+    "translatedContent": "- 코발트 스트라이크 (와우!)"
+  },
+  {
+    "row": 38,
+    "rowsha": "w2yyzG3qlGgUO+Qkhi0m1kxdjX9JEQeZS2EuZ0IXmZo=",
+    "originContent": "- [TrustedSec's ELFLoader & BOFs](https://github.com/trustedsec/ELFLoader)",
+    "translatedContent": "- [TrustedSec의 ELFLoader 및 BOF](https://github.com/trustedsec/ELFLoader)"
+  },
+  {
+    "row": 39,
+    "rowsha": "3MpZw2L7Axw5eYxQBdfxoiix/XliuU9oXaFhwj2eUUI=",
+    "originContent": "- [Outflank's BOFs](https://github.com/outflanknl/nix_bof_template)",
+    "translatedContent": "- [Outflank의 BOF](https://github.com/outflanknl/nix_bof_template)"
+  },
+  {
+    "row": 40,
+    "rowsha": "15xb2DSu1etaAKqA1ZsA/QpPueLyxtCqlgySyrIRBLA=",
+    "originContent": "- [PaloAltoNetworks Unit42](https://unit42.paloaltonetworks.com/cobalt-strike-metadata-encryption-decryption/)",
+    "translatedContent": "- [PaloAltoNetworks Unit42](https://unit42.paloaltonetworks.com/cobalt-strike-metadata-encryption-decryption/)"
+  },
+  {
+    "row": 41,
+    "rowsha": "gKFbfy5yYGV2ryHuG5XANd0sNeyzTsc+djv8ct04hgM=",
+    "originContent": "- [SANS ISC](https://isc.sans.edu/diary/27968)",
+    "translatedContent": "- [SANS ISC](https://isc.sans.edu/diary/27968)"
+  },
+  {
+    "row": 42,
+    "rowsha": "FsV9JE1xmJ2aFd/VioFZzCfDbuum3UFqWYE8wUKmFRo=",
+    "originContent": "- [cs-decrypt-metadata-py](https://blog.didierstevens.com/2021/10/22/new-tool-cs-decrypt-metadata-py/)",
+    "translatedContent": "- [cs-decrypt-metadata-py](https://blog.didierstevens.com/2021/10/22/new-tool-cs-decrypt-metadata-py/)"
+  },
+  {
+    "row": 43,
+    "rowsha": "HzBD2+dxvEPnN7EDVFR41wBmF29iN5QlRTJ85Wab8sk=",
+    "originContent": "- [SentinelOne CobaltStrikeParser](https://github.com/Sentinel-One/CobaltStrikeParser)",
+    "translatedContent": "- [SentinelOne CobaltStrikeParser](https://github.com/Sentinel-One/CobaltStrikeParser)"
+  }
+]

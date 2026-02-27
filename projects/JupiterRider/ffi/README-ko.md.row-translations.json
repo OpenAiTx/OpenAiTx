@@ -1,0 +1,968 @@
+[
+  {
+    "row": 1,
+    "rowsha": "wx9Aohj45lBQ7YXMvd4d8A8aI2QduhC87E+rPQwJoZU=",
+    "originContent": "# ffi",
+    "translatedContent": "# ffi"
+  },
+  {
+    "row": 2,
+    "rowsha": "jWvFjUp9J983Mp9UfSwiSfDnpjHgPbjyfa2FI1ABhp4=",
+    "originContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/ffi.svg)](https://pkg.go.dev/github.com/jupiterrider/ffi)",
+    "translatedContent": "[![Go Reference](https://pkg.go.dev/badge/github.com/jupiterrider/ffi.svg)](https://pkg.go.dev/github.com/jupiterrider/ffi)"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "QAan8K6KyYmS8iVVHGDwyDKZGUxkCPRK+X5QN76lLaA=",
+    "originContent": "A purego binding for libffi.",
+    "translatedContent": "libffi를 위한 purego 바인딩입니다."
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "uKuwUCsuXqvz0Yl74DBEIZj2NHk8HWO1zmscwbQAXzQ=",
+    "originContent": "## Purpose",
+    "translatedContent": "## 목적"
+  },
+  {
+    "row": 7,
+    "rowsha": "BuOYtS79zvRoJXR9FawljwUoK9FQ005MmjL6RDWR7c0=",
+    "originContent": "You can use [purego](https://github.com/ebitengine/purego) to call C code without cgo. ffi provides extra functionality (e.g. passing and returning structs by value).",
+    "translatedContent": "[cgo 없이](https://github.com/ebitengine/purego) C 코드를 호출하기 위해 purego를 사용할 수 있습니다. ffi는 추가 기능(예: 값으로 구조체 전달 및 반환)을 제공합니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "6sopxKWOnxhko6osm81v1gjTyG1ucAmFbSbTA69/e+A=",
+    "originContent": "## Supported OS/Architecture",
+    "translatedContent": "## 지원 OS/아키텍처"
+  },
+  {
+    "row": 10,
+    "rowsha": "tS6FwC0skIH31kiB2UHq9Wcvk8NOebadTJbho7sfvV4=",
+    "originContent": "- darwin/amd64",
+    "translatedContent": "- darwin/amd64"
+  },
+  {
+    "row": 11,
+    "rowsha": "jTRJRJe1HYeM+wWBQnjzDowYnwMum/ACrwkM+OFC8eo=",
+    "originContent": "- darwin/arm64",
+    "translatedContent": "- darwin/arm64"
+  },
+  {
+    "row": 12,
+    "rowsha": "jGRtBA8FETLO4+pZ1IoebNEY9TbhOo8w9YLK/NNfbzo=",
+    "originContent": "- freebsd/amd64",
+    "translatedContent": "- freebsd/amd64"
+  },
+  {
+    "row": 13,
+    "rowsha": "ZnD2y003JjU3KreQc0oDn95Ugxaz2s+6+m/meSFSHWs=",
+    "originContent": "- freebsd/arm64",
+    "translatedContent": "- freebsd/arm64"
+  },
+  {
+    "row": 14,
+    "rowsha": "EPTDHPEwYVM8G9eEnIrvQWAv2TSVWL60OvEFewSLXNI=",
+    "originContent": "- linux/amd64",
+    "translatedContent": "- linux/amd64"
+  },
+  {
+    "row": 15,
+    "rowsha": "TPICEuVAJxR4B+FyavXR72aDOye5FcLd0tG5CWlL2Oo=",
+    "originContent": "- linux/arm64",
+    "translatedContent": "- linux/arm64"
+  },
+  {
+    "row": 16,
+    "rowsha": "BQwy8s0G8lfVaoWS62wQo5Fa6UdpPm0PnViIfYv0Z3c=",
+    "originContent": "- linux/riscv64",
+    "translatedContent": "- linux/riscv64"
+  },
+  {
+    "row": 17,
+    "rowsha": "V1ZjMZG7WF08m9Y5mppA7oXaImsC5bOhaJHQdZx3++A=",
+    "originContent": "- windows/amd64",
+    "translatedContent": "- windows/amd64"
+  },
+  {
+    "row": 18,
+    "rowsha": "4qzCkdF7fRGTDM6oh4p+rn1t4LIfk3ncqIXCj8j4DGc=",
+    "originContent": "- windows/arm64",
+    "translatedContent": "- windows/arm64"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "2VuXUEAwXB8RkyP6iZ0vljjBY9IXZnzEaLf4e8uwzdc=",
+    "originContent": "## Software Requirements",
+    "translatedContent": "## 소프트웨어 요구사항"
+  },
+  {
+    "row": 21,
+    "rowsha": "BxGomEg0+5cCVYDp73171ck/hKZ0lARxyVD+ZfBAtuc=",
+    "originContent": "[libffi](https://github.com/libffi/libffi) is preinstalled on most distributions, because it also is a dependency of Python and Ruby. If not, you can install it explicitly:",
+    "translatedContent": "[libffi](https://github.com/libffi/libffi)는 Python과 Ruby의 의존성이기 때문에 대부분의 배포판에 사전 설치되어 있습니다. 설치되어 있지 않다면 명시적으로 설치할 수 있습니다:"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "RQFrN56R8SItWveUdvw3XJmmo6YZk0kQVJGKa+yl2Zc=",
+    "originContent": "### Arch Linux",
+    "translatedContent": "### Arch Linux"
+  },
+  {
+    "row": 24,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 25,
+    "rowsha": "EzOxEPXckJInAQ3XR0Oa2G11o8z62713HVQdQJjC2cM=",
+    "originContent": "sudo pacman -S libffi",
+    "translatedContent": "sudo pacman -S libffi"
+  },
+  {
+    "row": 26,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 데비안, 우분투"
+  },
+  {
+    "row": 28,
+    "rowsha": "ISjP/VcXJCurEPQ2hCsIHZSzHdLdy0VdU7GgrUiopuc=",
+    "originContent": "### Debian, Ubuntu",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 30,
+    "rowsha": "IVmiti98aTJQX5ZV3zhl8ePJ9Oxb5uvpwwS+odmNmTo=",
+    "originContent": "sudo apt install libffi8",
+    "translatedContent": "sudo apt install libffi8"
+  },
+  {
+    "row": 31,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "Q7sIquKRJY/RgGZ6WMDs3AUm+HpfAPhwvJzrNC3btko=",
+    "originContent": "### Fedora",
+    "translatedContent": "### 페도라"
+  },
+  {
+    "row": 34,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 35,
+    "rowsha": "IszGe51Vxt3AC8GvvuLjC+9rTmpyBuKCjVDpV5SZ6eE=",
+    "originContent": "sudo dnf install libffi",
+    "translatedContent": "sudo dnf install libffi"
+  },
+  {
+    "row": 36,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "L5f7gM20Hsv4ymiU38h5ZsIVqXpc17gTLYg8YP9yVCM=",
+    "originContent": "### FreeBSD",
+    "translatedContent": "### FreeBSD"
+  },
+  {
+    "row": 39,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 40,
+    "rowsha": "Z49cjNY7Xzt8RtqLtgZYiJhr4VcL4Mp7m96QjqCkhpY=",
+    "originContent": "pkg install libffi",
+    "translatedContent": "pkg install libffi"
+  },
+  {
+    "row": 41,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 42,
+    "rowsha": "ymt/yQM1/CcyKOQZuUYojBBhh1ciYm2q8b9TjqUctnY=",
+    "originContent": "Note: Use this `-gcflags=\"github.com/ebitengine/purego/internal/fakecgo=-std\"` build flag when cross compiling or having CGO_ENABLED set to 0 (FreeBSD only).",
+    "translatedContent": "참고: 교차 컴파일 시 또는 CGO_ENABLED가 0으로 설정된 경우(FreeBSD 전용) 이 `-gcflags=\"github.com/ebitengine/purego/internal/fakecgo=-std\"` 빌드 플래그를 사용하세요."
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+    "originContent": "### Windows",
+    "translatedContent": "### Windows"
+  },
+  {
+    "row": 45,
+    "rowsha": "HbwgWCimZEcbZuZwyl8DtJ9XAX4wPVgl3jxjdqFnmg4=",
+    "originContent": "The AMD64 version of libffi is already embedded into this library and gets extracted and loaded at runtime. This feature can be disabled by using the build tag `ffi_no_embed` or the environment variable `FFI_NO_EMBED=1`.",
+    "translatedContent": "libffi의 AMD64 버전은 이미 이 라이브러리에 내장되어 있으며 런타임에 추출되어 로드됩니다. 이 기능은 빌드 태그 `ffi_no_embed` 또는 환경 변수 `FFI_NO_EMBED=1`을 사용하여 비활성화할 수 있습니다."
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "IOz6D23yxKVaZDi62cZaiowUVIuAS1nmW/2UxanscU8=",
+    "originContent": "### macOS",
+    "translatedContent": "### macOS"
+  },
+  {
+    "row": 48,
+    "rowsha": "59drf/UoiaMvVLb1FA3x+NH9s1ku3Fcb/LBgs3GYNm4=",
+    "originContent": "No further requirements. The libffi binaries are embedded as well.",
+    "translatedContent": "추가 요구 사항이 없습니다. libffi 바이너리도 함께 내장되어 있습니다."
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+    "originContent": "## Examples",
+    "translatedContent": "## 예제"
+  },
+  {
+    "row": 51,
+    "rowsha": "N+jCDzc+GBoF/uhvEjE49rWLYVdiRaIDpC4VGglE/vo=",
+    "originContent": "In this example we create our own library, which consists of two type definitions and one function:",
+    "translatedContent": "이 예제에서는 두 개의 타입 정의와 하나의 함수로 구성된 자체 라이브러리를 만듭니다:"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "RuuC/BIfzzGWnoOVe3nWvvgovSvOfHCkhlSCEmKmxuI=",
+    "originContent": "```c",
+    "translatedContent": "```c"
+  },
+  {
+    "row": 54,
+    "rowsha": "5e/AJEEyXUIXzKIdIxQOgvFup3J9a7dgWW4fTS2nr0k=",
+    "originContent": "#include <stdbool.h>",
+    "translatedContent": "#include <stdbool.h>"
+  },
+  {
+    "row": 55,
+    "rowsha": "q6S157YNJYGXONIx7U2QNHEUnQHXSCr1t/wW8gCj9dg=",
+    "originContent": "#include <string.h>",
+    "translatedContent": "#include <string.h>"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "uBhPdrCStkM4xQaNHePSiGlBsvJR4qL2k/8r3n5a6aA=",
+    "originContent": "typedef enum {",
+    "translatedContent": "typedef enum {"
+  },
+  {
+    "row": 58,
+    "rowsha": "LdHn8sHEe8rElq6stjJi5z0QsvoYuITZxFSN9XyPOzE=",
+    "originContent": "    GROCERIES,",
+    "translatedContent": "    GROCERIES,"
+  },
+  {
+    "row": 59,
+    "rowsha": "fO3z2HvEhyvz4KTiNmjuSBrXYTlKUVbzmboyqgab5AU=",
+    "originContent": "    HOUSEHOLD,",
+    "translatedContent": "    HOUSEHOLD,"
+  },
+  {
+    "row": 60,
+    "rowsha": "xQK3wkjBR5OBaClBux/ijdwZuslNoEsQRmatokfmB9c=",
+    "originContent": "    BEAUTY",
+    "translatedContent": "    BEAUTY"
+  },
+  {
+    "row": 61,
+    "rowsha": "yQQoR0C0XyW0lPuy/rGUyx6QrU/oShwkrne6V6QyJZ4=",
+    "originContent": "} Category;",
+    "translatedContent": "} Category;"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "26fGFHJzcQYHKPsAYxPV+0lIgXnYVqX6K+fZ/SWZ9ao=",
+    "originContent": "typedef struct {",
+    "translatedContent": "typedef struct {"
+  },
+  {
+    "row": 64,
+    "rowsha": "WGKCwg0tvFelT/r+Apvr5giOF0FNe/Up3dBVTTnGKJY=",
+    "originContent": "    const char *name;",
+    "translatedContent": "    const char *name;"
+  },
+  {
+    "row": 65,
+    "rowsha": "DbChw4XkM4ExOIKn4T9Oj7Sooj5s8NBcxJD9lYcvab4=",
+    "originContent": "    double price;",
+    "translatedContent": "    double price;"
+  },
+  {
+    "row": 66,
+    "rowsha": "V2ZuBMITYKCjzLs9tjc08st5qYikqXnkjznpXpSe+gM=",
+    "originContent": "    Category category;",
+    "translatedContent": "    Category category;"
+  },
+  {
+    "row": 67,
+    "rowsha": "3gQBZ18vYdHDNHDZKiRKVmY6dRBOLO3xACM+NyTx/RA=",
+    "originContent": "} Item;",
+    "translatedContent": "} Item;"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "1apmzaOD0pr2YLnPu7kAbTpKH1yPEngkAyQBsUm2s6g=",
+    "originContent": "bool IsItemValid(Item item)",
+    "translatedContent": "bool IsItemValid(Item item)"
+  },
+  {
+    "row": 70,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 71,
+    "rowsha": "1d/P7a3i1rCTBPWAoAL/LElGse3Kqff8yvz92i8hDbQ=",
+    "originContent": "    if (!item.name || strlen(item.name) == 0)",
+    "translatedContent": "    if (!item.name || strlen(item.name) == 0)"
+  },
+  {
+    "row": 72,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 73,
+    "rowsha": "o47xwOyqooDLabO5h1jewGTQUv1PnAwBRTqrxFt60n0=",
+    "originContent": "        return false;",
+    "translatedContent": "        return false;"
+  },
+  {
+    "row": 74,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "l+RCOwssuzStATb+yYILnkqjIVIXuKBsiqq/neBb+G0=",
+    "originContent": "    if (item.price < 0)",
+    "translatedContent": "    if (item.price < 0)"
+  },
+  {
+    "row": 77,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 78,
+    "rowsha": "o47xwOyqooDLabO5h1jewGTQUv1PnAwBRTqrxFt60n0=",
+    "originContent": "        return false;",
+    "translatedContent": "        return false;"
+  },
+  {
+    "row": 79,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "3LWehV0XW+5ZNdCFLbjK6Xt24F1aESFQo9dSf25O9lE=",
+    "originContent": "    if (item.category > BEAUTY)",
+    "translatedContent": "    if (item.category > BEAUTY)"
+  },
+  {
+    "row": 82,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 83,
+    "rowsha": "o47xwOyqooDLabO5h1jewGTQUv1PnAwBRTqrxFt60n0=",
+    "originContent": "        return false;",
+    "translatedContent": "        return false;"
+  },
+  {
+    "row": 84,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "ZlVcDTcOe+cpyA9LLTpqSggdAeKUrvXOm3iZKnwP4sc=",
+    "originContent": "    return true;",
+    "translatedContent": "    return true;"
+  },
+  {
+    "row": 87,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 88,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "RzM2VYim5R/rAEcD7wVEh67hOqAMYdbJb8jbiRQbGCM=",
+    "originContent": "Compile the code into a shared library:",
+    "translatedContent": "코드를 공유 라이브러리로 컴파일하십시오:"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 93,
+    "rowsha": "O7XQeoEgsA3OCxhVqGylZGyv40UzZ4xfNzDTbqOZwSg=",
+    "originContent": "gcc -shared -o libitem.so -fPIC item.c",
+    "translatedContent": "gcc -shared -o libitem.so -fPIC item.c"
+  },
+  {
+    "row": 94,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "M3NIM7C+jXNc3BJylLsLkujQ23r3xcpjukBfx7rDPPU=",
+    "originContent": "The consuming Go code:",
+    "translatedContent": "소비하는 Go 코드:"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "nKOzW0HImgMzMnopVWqdRkm+h3NFQeQBhtFZ7OctJ6k=",
+    "originContent": "```golang",
+    "translatedContent": "```golang"
+  },
+  {
+    "row": 99,
+    "rowsha": "UShDhV/MkqUcgQsbWOBzHAHqyaaiPBV7+gKq1x7f++c=",
+    "originContent": "package main",
+    "translatedContent": "package main"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "0NrstaoCAUE7YHmPS6R4dGEAwhf7+jXw9blKepsV2RQ=",
+    "originContent": "import (",
+    "translatedContent": "import ("
+  },
+  {
+    "row": 102,
+    "rowsha": "bxiNYRyQDQHSapG1SO1UL5xAESbBBT8fhvlHgBYqeG4=",
+    "originContent": "\t\"fmt\"",
+    "translatedContent": "\t\"fmt\""
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "BvEnLG8Ui9jGKvzHCZI/VQrv0+zyDT37sjAoIFWTybU=",
+    "originContent": "\t\"github.com/jupiterrider/ffi\"",
+    "translatedContent": "\t\"github.com/jupiterrider/ffi\""
+  },
+  {
+    "row": 105,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "2jBxwfMRjWoBk5a78ldklm3UbFd1oZX44RqIOP2EukQ=",
+    "originContent": "type Category uint32",
+    "translatedContent": "type Category uint32"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "3Ps15R9wkUBr75w6nsmsNXphxtyrRRr1ZM0Q4EC2eF0=",
+    "originContent": "const (",
+    "translatedContent": "const ("
+  },
+  {
+    "row": 110,
+    "rowsha": "2Jybp7krQKuufHj7rkL2uzn+J/XBxAK0X8AiYjZJ6H0=",
+    "originContent": "\tGroceries Category = iota",
+    "translatedContent": "\tGroceries Category = iota"
+  },
+  {
+    "row": 111,
+    "rowsha": "5B4arurqmWX0Hj8nsHfREMDIfzTwx+BV2+pd4DY8hbc=",
+    "originContent": "\tHousehold",
+    "translatedContent": "\tHousehold"
+  },
+  {
+    "row": 112,
+    "rowsha": "8zzZG0IuugFroyWhIlk92cKp2EhwE1o7sl5/dr5490U=",
+    "originContent": "\tBeauty",
+    "translatedContent": "\tBeauty"
+  },
+  {
+    "row": 113,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "yQNIdi96vp5czTwB0otZrZS63L1cZDGrX2p34cn9NmQ=",
+    "originContent": "type Item struct {",
+    "translatedContent": "type Item struct {"
+  },
+  {
+    "row": 116,
+    "rowsha": "3lSj08qjnlnbjeYFkGCv5rd7qmBprgQKwgfF33cjpaY=",
+    "originContent": "\tName     *byte",
+    "translatedContent": "\tName     *byte"
+  },
+  {
+    "row": 117,
+    "rowsha": "2i1wkPUeWEv9zo26BaDupCrLG9clxl/yyDQHNQRVymo=",
+    "originContent": "\tPrice    float64",
+    "translatedContent": "\tPrice    float64"
+  },
+  {
+    "row": 118,
+    "rowsha": "4B75+NAZXLFwVHLiq/3Beu/503hR+GNa8fcuU2V5/5U=",
+    "originContent": "\tCategory Category",
+    "translatedContent": "\tCategory Category"
+  },
+  {
+    "row": 119,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "477XskFGOI6HtL1vgLCndqbEY9HpnF/1YFeYnaoIPXA=",
+    "originContent": "func main() {",
+    "translatedContent": "func main() {"
+  },
+  {
+    "row": 122,
+    "rowsha": "jcidticiOaZeEYvdEwpHLZ8ESb0GP3+JF8b1k/D3R74=",
+    "originContent": "\t// load the library",
+    "translatedContent": "\t// load the library"
+  },
+  {
+    "row": 123,
+    "rowsha": "GBijMhOf01rKnJEj/Ed0wcteZq2AfKQ1qay6nsIGBAk=",
+    "originContent": "\tlib, err := ffi.Load(\"./libitem.so\")",
+    "translatedContent": "\tlib, err := ffi.Load(\"./libitem.so\")"
+  },
+  {
+    "row": 124,
+    "rowsha": "x/IMSHRvGaXXh8qjse35VN2mqKwXNmWLuSKJQ+SpPh4=",
+    "originContent": "\tif err != nil {",
+    "translatedContent": "\tif err != nil {"
+  },
+  {
+    "row": 125,
+    "rowsha": "OVHnFXWFKhAKjmwfimzyN936TfqiZ3MJcllmJtQ8+p0=",
+    "originContent": "\t\tpanic(err)",
+    "translatedContent": "\t\tpanic(err)"
+  },
+  {
+    "row": 126,
+    "rowsha": "oyo7txIUhevLwaK2r1hczF9qTEvB6ZeRH824leZpJhE=",
+    "originContent": "\t}",
+    "translatedContent": "\t}"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "aHkIhePz+EUJfF/C6atE4tIjR2CJa5kmQ2mRBDO7HR4=",
+    "originContent": "\t// create a new ffi.Type which defines the fields of the Item struct",
+    "translatedContent": "\t// create a new ffi.Type which defines the fields of the Item struct"
+  },
+  {
+    "row": 129,
+    "rowsha": "2jgg0J3x8dw88WfAqcTFFBI4+I+VRc8ZoylJsHbV7Sg=",
+    "originContent": "\ttypeItem := ffi.NewType(&ffi.TypePointer, &ffi.TypeDouble, &ffi.TypeUint32)",
+    "translatedContent": "\ttypeItem := ffi.NewType(&ffi.TypePointer, &ffi.TypeDouble, &ffi.TypeUint32)"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "pecRbcMUz8Q9fmNIJelENR9y9tMlPtGG8DE1Q6002+0=",
+    "originContent": "\t// get the IsItemValid function and describe its signature",
+    "translatedContent": "\t// get the IsItemValid function and describe its signature"
+  },
+  {
+    "row": 132,
+    "rowsha": "tAZT70HvJvh8egZdtCllRrmh2q4qLMJmpbA78SOLp2g=",
+    "originContent": "\t// (for bool we use ffi.TypeUint8)",
+    "translatedContent": "\t// (for bool we use ffi.TypeUint8)"
+  },
+  {
+    "row": 133,
+    "rowsha": "VN6OYeTuhhDQGjsNNsfJON7bwXtq9nLCba+C8KgenCc=",
+    "originContent": "\tisItemValid, err := lib.Prep(\"IsItemValid\", &ffi.TypeUint8, &typeItem)",
+    "translatedContent": "\tisItemValid, err := lib.Prep(\"IsItemValid\", &ffi.TypeUint8, &typeItem)"
+  },
+  {
+    "row": 134,
+    "rowsha": "x/IMSHRvGaXXh8qjse35VN2mqKwXNmWLuSKJQ+SpPh4=",
+    "originContent": "\tif err != nil {",
+    "translatedContent": "\tif err != nil {"
+  },
+  {
+    "row": 135,
+    "rowsha": "OVHnFXWFKhAKjmwfimzyN936TfqiZ3MJcllmJtQ8+p0=",
+    "originContent": "\t\tpanic(err)",
+    "translatedContent": "\t\tpanic(err)"
+  },
+  {
+    "row": 136,
+    "rowsha": "oyo7txIUhevLwaK2r1hczF9qTEvB6ZeRH824leZpJhE=",
+    "originContent": "\t}",
+    "translatedContent": "\t}"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "e6ELPf/+Jez8Pzl2x1O+OI0H5/gbhFHaqowmV+K1zi0=",
+    "originContent": "\tvar item Item",
+    "translatedContent": "\tvar item Item"
+  },
+  {
+    "row": 139,
+    "rowsha": "wBJYequm80sfQRJgGpPHiDUZO0uTd2HFvicING5JNpo=",
+    "originContent": "\t// strings are null-terminated and converted into a byte pointer",
+    "translatedContent": "\t// strings are null-terminated and converted into a byte pointer"
+  },
+  {
+    "row": 140,
+    "rowsha": "apVrfb9d4u1VaMiGV6TtjBikIO+8D/+lmcTkLyUQpdU=",
+    "originContent": "\titem.Name = &[]byte(\"Apple\\x00\")[0]",
+    "translatedContent": "\titem.Name = &[]byte(\"Apple\\x00\")[0]"
+  },
+  {
+    "row": 141,
+    "rowsha": "1TZPTpiHQtxiWBNR4e8EbnPTCq2xKQSJt9DcLq3JpBs=",
+    "originContent": "\titem.Price = 0.22",
+    "translatedContent": "\titem.Price = 0.22"
+  },
+  {
+    "row": 142,
+    "rowsha": "FJZhPmeeLr8y+C9pQOb0dvaDHOg3fMvA51cfWm3jE9g=",
+    "originContent": "\titem.Category = Groceries",
+    "translatedContent": "\titem.Category = Groceries"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "O87OigObf0tq4vJlABSRL0HgZkVEkl8IKvjbflxHKFg=",
+    "originContent": "\t// the return value is stored in a 64-bit integer type, because libffi",
+    "translatedContent": "\t// the return value is stored in a 64-bit integer type, because libffi"
+  },
+  {
+    "row": 145,
+    "rowsha": "DNp8nFwPD0ZXgypfJd2Z3F45qXcfEQq03LsVtcGUr04=",
+    "originContent": "\t// cannot handle smaller integer types as return value",
+    "translatedContent": "\t// cannot handle smaller integer types as return value"
+  },
+  {
+    "row": 146,
+    "rowsha": "fb6FXtIBPeCetu6s2OOoMKzmP2yzcoEfGNGx4IoCOFs=",
+    "originContent": "\tvar result ffi.Arg",
+    "translatedContent": "\tvar result ffi.Arg"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "OVj+M9LRAVCrDXwB7dcOLls1vflUnd/WQ+MfDRBZ8kY=",
+    "originContent": "\t// call the C function",
+    "translatedContent": "\t// call the C function"
+  },
+  {
+    "row": 149,
+    "rowsha": "OlnOoT2eM2V116ID34lsbZIT28GOeChSINXYen07dOM=",
+    "originContent": "\t// (keep in mind that you have to pass pointers and not the values themselves)",
+    "translatedContent": "\t// (keep in mind that you have to pass pointers and not the values themselves)"
+  },
+  {
+    "row": 150,
+    "rowsha": "V0XKNKft7grjnhNAPcrPz/yG8Qa73hSrkdFKdhWKQ2o=",
+    "originContent": "\tisItemValid.Call(&result, &item)",
+    "translatedContent": "\tisItemValid.Call(&result, &item)"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "E+89zAlo5f5dQvJW9ZI9XtNgmaO3PpbT2nqrDfsslEA=",
+    "originContent": "\tif result.Bool() {",
+    "translatedContent": "\tif result.Bool() {"
+  },
+  {
+    "row": 153,
+    "rowsha": "/JhmA6rJHWyl2sS9bpzN2w6R7eMXSoAmKyB7YfZtLK8=",
+    "originContent": "\t\tfmt.Println(\"Item is valid!\")",
+    "translatedContent": "\t\tfmt.Println(\"Item is valid!\")"
+  },
+  {
+    "row": 154,
+    "rowsha": "rWU2DqTt3MT2bqMWcOdTZ0wZNLdPRskP6pABe5PFhYQ=",
+    "originContent": "\t} else {",
+    "translatedContent": "\t} else {"
+  },
+  {
+    "row": 155,
+    "rowsha": "f0pDbWwrd9FwyxaxQOjQhLZlMewmVxrW/kkR4aPUiRE=",
+    "originContent": "\t\tfmt.Println(\"Item is not valid!\")",
+    "translatedContent": "\t\tfmt.Println(\"Item is not valid!\")"
+  },
+  {
+    "row": 156,
+    "rowsha": "oyo7txIUhevLwaK2r1hczF9qTEvB6ZeRH824leZpJhE=",
+    "originContent": "\t}",
+    "translatedContent": "\t}"
+  },
+  {
+    "row": 157,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 158,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "f35/vSIldDMorcDj9i0W+3EvcNSCfLVfEI22GIBqOzM=",
+    "originContent": "You can find more examples inside the [examples](examples) folder of this repository.",
+    "translatedContent": "이 저장소의 [examples](examples) 폴더 안에서 더 많은 예제를 찾을 수 있습니다."
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
