@@ -1,38 +1,70 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # pytorch-accelerated
 
-`pytorch-accelerated` 是一个轻量级库，旨在通过提供一个简洁但可扩展的训练循环来加速 PyTorch 模型的训练过程——封装在单个 `Trainer` 对象中——该对象足够灵活，可处理大多数用例，并且能够利用不同的硬件选项，无需更改代码。
+`pytorch-accelerated` 是一个轻量级库，旨在通过提供一个最小但可扩展的训练循环来加速 PyTorch 模型的训练过程
+ 该训练循环封装在一个单独的 `Trainer` 对象中，灵活性足以满足大多数使用场景，并能在无需修改代码的情况下利用不同的硬件
+ 选项。
+ 
+`pytorch-accelerated` 提供精简的功能集，并极为强调 **简单性** 和 **透明性**，
 
-`pytorch-accelerated` 提供了精简的功能集，并非常强调 **简单性** 和 **透明性**，使用户能够准确了解底层发生的情况，而无需自己编写和维护样板代码！
+让用户能够准确了解底层发生了什么，但无需自己编写和维护模板代码！
 
-主要特性包括：
-- 一个简单且封闭，但易于定制的训练循环，在简单场景下开箱即用；行为可以通过继承和/或回调进行定制。
-- 处理设备放置、混合精度、DeepSpeed 集成、多 GPU 及分布式训练，无需更改代码。
-- 使用纯 PyTorch 组件，无需额外修改或包装，并且能轻松与其他流行库如 [timm](https://github.com/rwightman/pytorch-image-models)、[transformers](https://huggingface.co/transformers/) 和 [torchmetrics](https://torchmetrics.readthedocs.io/en/latest/) 互操作。
-- 小巧精简的 API 确保现有 PyTorch 用户的学习曲线极低。
+主要特点包括：
+- 一个简单且独立，但易于定制的训练循环，能够在简单场景下开箱即用；
+ 其行为可通过继承和/或回调进行定制。
+- 处理设备分配、混合精度、DeepSpeed 集成、多 GPU 和分布式训练，无需更改代码。
+- 使用纯 PyTorch 组件，无需额外修改或包装，并能轻松与其他流行库如 [timm](https://github.com/rwightman/pytorch-image-models)、 
+ [transformers](https://huggingface.co/transformers/) 以及 [torchmetrics](https://torchmetrics.readthedocs.io/en/latest/) 互操作。
+- 精简的小型 API 确保现有 PyTorch 用户的学习曲线最小化。
 
-投入了大量精力确保库的每个部分——包括内部和外部组件——都尽可能清晰简单，便于定制、调试，并准确理解每一步背后的实际操作；训练器的大部分行为都包含在一个类中！
-秉承 Python 精神，所有内容都不隐藏，全部可访问。
+我们付出了大量努力，确保库的每个部分——包括内部和外部组件——都尽可能清晰和简单，
+便于定制、调试和准确理解每一步背后的具体运行机制；训练器的大部分行为都封装在一个类中！
+秉承 Python 精神，没有任何隐藏，所有内容都可访问。
 
-`pytorch-accelerated` 自豪且透明地构建在 [Hugging Face Accelerate](https://github.com/huggingface/accelerate) 之上，后者负责设备间数据移动和训练配置的启动。在定制训练器或启动训练时，建议用户查阅 [Accelerate 文档](https://huggingface.co/docs/accelerate/) 以了解所有可用选项；Accelerate 提供了便捷的函数用于如张量收集和梯度裁剪等操作，其使用示例可见于 `pytorch-accelerated` 的 [examples](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples) 文件夹！
+`pytorch-accelerated` 自豪而透明地构建在 
+[Hugging Face Accelerate](https://github.com/huggingface/accelerate) 之上，后者负责
+数据在设备间的移动和训练配置的启动。当自定义训练器或启动
+训练时，建议用户查阅 [Accelerate 文档](https://huggingface.co/docs/accelerate/)
+以了解所有可用选项；Accelerate 提供了诸如收集张量和梯度裁剪等便捷函数，
+其使用示例可在 `pytorch-accelerated` 的
+[examples](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples) 文件夹中找到！
 
-想了解更多关于该库的动机及详细入门指南，请查看[这篇博客文章](https://medium.com/@chris.p.hughes10/introducing-pytorch-accelerated-6ba99530608c?source=friends_link&sk=868c2d2ec5229fdea42877c0bf82b968)。
+想要了解本库背后的动机以及详细的入门指南，请参阅[这篇博客文章](https://medium.com/@chris.p.hughes10/introducing-pytorch-accelerated-6ba99530608c?source=friends_link&sk=868c2d2ec5229fdea42877c0bf82b968)。
 
 ## 安装
 
-`pytorch-accelerated` 可通过 pip 使用以下命令安装：
-
-
-
-
-
-
-
-
-
-
-
-
-
+可以通过以下命令从 pip 安装 `pytorch-accelerated`：
 
 
 ```
@@ -169,6 +201,6 @@ if __name__ == "__main__":
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-28
 
 ---

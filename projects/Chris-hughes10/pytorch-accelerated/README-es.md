@@ -1,36 +1,68 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # pytorch-accelerated
 
-`pytorch-accelerated` es una biblioteca ligera diseñada para acelerar el proceso de entrenamiento de modelos PyTorch
-proporcionando un bucle de entrenamiento mínimo pero extensible - encapsulado en un solo objeto `Trainer` -
+`pytorch-accelerated` es una librería ligera diseñada para acelerar el proceso de entrenamiento de modelos en PyTorch
+proporcionando un ciclo de entrenamiento mínimo, pero extensible, encapsulado en un único objeto `Trainer`
 que es lo suficientemente flexible para manejar la mayoría de los casos de uso, y capaz de utilizar diferentes opciones de hardware
-sin necesidad de cambios en el código.
-
-`pytorch-accelerated` ofrece un conjunto de características simplificado, y pone un gran énfasis en la **simplicidad** y **transparencia**,
-para permitir a los usuarios entender exactamente qué está ocurriendo bajo el capó, pero sin tener que escribir y mantener el código repetitivo ellos mismos.
-
+sin necesidad de realizar cambios en el código.
+ 
+`pytorch-accelerated` ofrece un conjunto de características optimizado y pone un gran énfasis en la **simplicidad** y la **transparencia**,
+para permitir a los usuarios entender exactamente lo que sucede bajo el capó, ¡pero sin tener que escribir y mantener el código repetitivo ellos mismos!
+   
 Las características clave son:
-- Un bucle de entrenamiento simple y contenido, pero fácilmente personalizable, que debería funcionar desde el primer momento en casos sencillos;
- el comportamiento puede personalizarse usando herencia y/o callbacks.
+- Un bucle de entrenamiento simple y contenido, pero fácilmente personalizable, que debería funcionar directamente en casos sencillos;
+  el comportamiento puede personalizarse usando herencia y/o callbacks.
 - Maneja la asignación de dispositivos, precisión mixta, integración con DeepSpeed, entrenamiento multi-GPU y distribuido sin cambios en el código.
-- Utiliza componentes puros de PyTorch, sin modificaciones ni envoltorios adicionales, y se interoperabiliza fácilmente
- con otras bibliotecas populares como [timm](https://github.com/rwightman/pytorch-image-models),
- [transformers](https://huggingface.co/transformers/) y [torchmetrics](https://torchmetrics.readthedocs.io/en/latest/).
-- Una API pequeña y simplificada asegura que la curva de aprendizaje sea mínima para usuarios existentes de PyTorch.
+- Utiliza componentes puros de PyTorch, sin modificaciones o envoltorios adicionales, e interoperan fácilmente
+  con otras bibliotecas populares como [timm](https://github.com/rwightman/pytorch-image-models),
+  [transformers](https://huggingface.co/transformers/) y [torchmetrics](https://torchmetrics.readthedocs.io/en/latest/).
+- Una API pequeña y simplificada asegura una curva de aprendizaje mínima para usuarios existentes de PyTorch.
 
-Se ha realizado un esfuerzo significativo para asegurar que cada parte de la biblioteca - tanto componentes internos como externos - sea lo más clara y simple posible,
-facilitando la personalización, depuración y comprensión exacta de lo que está pasando tras bambalinas en cada paso; la mayor parte del
-comportamiento del entrenador está contenido en una sola clase.
+Se ha hecho un esfuerzo significativo para garantizar que cada parte de la biblioteca, tanto los componentes internos como externos, sean lo más claros y simples posible,
+lo que facilita la personalización, depuración y comprensión exacta de lo que sucede tras bambalinas en cada paso; ¡la mayor parte del
+comportamiento del entrenador está contenido en una sola clase!
 En el espíritu de Python, nada está oculto y todo es accesible.
 
-`pytorch-accelerated` está orgullosamente y transparentemente construido sobre
-[Hugging Face Accelerate](https://github.com/huggingface/accelerate), que es responsable del
-movimiento de datos entre dispositivos y el lanzamiento de configuraciones de entrenamiento. Al personalizar el entrenador o iniciar
-el entrenamiento, se anima a los usuarios a consultar la [documentación de Accelerate](https://huggingface.co/docs/accelerate/)
-para entender todas las opciones disponibles; Accelerate provee funciones convenientes para operaciones como la recolección de tensores
-y el recorte de gradientes, cuyo uso puede verse en la carpeta de
+`pytorch-accelerated` está orgullosa y transparentemente construida sobre
+[Hugging Face Accelerate](https://github.com/huggingface/accelerate), que se encarga del
+movimiento de datos entre dispositivos y el lanzamiento de configuraciones de entrenamiento. Al personalizar el entrenador o lanzar
+el entrenamiento, se recomienda a los usuarios consultar la [documentación de Accelerate](https://huggingface.co/docs/accelerate/)
+para entender todas las opciones disponibles; Accelerate proporciona funciones convenientes para operaciones como recopilación de tensores
+y recorte de gradientes, cuyo uso puede verse en la carpeta de
 [ejemplos](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples) de `pytorch-accelerated`!
 
-Para aprender más sobre las motivaciones detrás de esta biblioteca, junto con una guía detallada para comenzar, revisa [este artículo de blog](https://medium.com/@chris.p.hughes10/introducing-pytorch-accelerated-6ba99530608c?source=friends_link&sk=868c2d2ec5229fdea42877c0bf82b968).
+Para saber más sobre las motivaciones detrás de esta biblioteca, junto con una guía detallada de inicio, consulta [esta entrada de blog](https://medium.com/@chris.p.hughes10/introducing-pytorch-accelerated-6ba99530608c?source=friends_link&sk=868c2d2ec5229fdea42877c0bf82b968).
 
 ## Instalación
 
@@ -169,6 +201,6 @@ estos casos están claramente marcados, dando reconocimiento a los autores origi
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-28
 
 ---

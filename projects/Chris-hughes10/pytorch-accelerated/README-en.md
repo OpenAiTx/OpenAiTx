@@ -1,38 +1,70 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 # pytorch-accelerated
 
-`pytorch-accelerated` is a lightweight library designed to accelerate the process of training PyTorch models  
-by providing a minimal, but extensible training loop - encapsulated in a single `Trainer`  
-object - which is flexible enough to handle the majority of use cases, and capable of utilizing different hardware  
-options with no code changes required.  
+`pytorch-accelerated` is a lightweight library designed to accelerate the process of training PyTorch models
+ by providing a minimal, but extensible training loop - encapsulated in a single `Trainer` 
+object - which is flexible enough to handle the majority of use cases, and capable of utilizing different hardware
+ options with no code changes required.
  
-`pytorch-accelerated` offers a streamlined feature set, and places a huge emphasis on **simplicity** and **transparency**,  
-to enable users to understand exactly what is going on under the hood, but without having to write and maintain the boilerplate themselves!  
-   
-The key features are:  
-- A simple and contained, but easily customisable, training loop, which should work out of the box in straightforward cases;  
- behaviour can be customised using inheritance and/or callbacks.  
-- Handles device placement, mixed-precision, DeepSpeed integration, multi-GPU and distributed training with no code changes.  
-- Uses pure PyTorch components, with no additional modifications or wrappers, and easily interoperates  
- with other popular libraries such as [timm](https://github.com/rwightman/pytorch-image-models),  
- [transformers](https://huggingface.co/transformers/) and [torchmetrics](https://torchmetrics.readthedocs.io/en/latest/).  
-- A small, streamlined API ensures that there is a minimal learning curve for existing PyTorch users.  
+`pytorch-accelerated` offers a streamlined feature set, and places a huge emphasis on **simplicity** and **transparency**,
+to enable users to understand exactly what is going on under the hood, but without having to write and maintain the boilerplate themselves!
 
-Significant effort has been taken to ensure that every part of the library - both internal and external components - is as clear and simple as possible,  
-making it easy to customise, debug and understand exactly what is going on behind the scenes at each step; most of the  
-behaviour of the trainer is contained in a single class!  
-In the spirit of Python, nothing is hidden and everything is accessible.  
+The key features are:
+- A simple and contained, but easily customizable, training loop, which should work out of the box in straightforward cases;
+  behaviour can be customized using inheritance and/or callbacks.
+- Handles device placement, mixed-precision, DeepSpeed integration, multi-GPU and distributed training with no code changes.
+- Uses pure PyTorch components, with no additional modifications or wrappers, and easily interoperates
+  with other popular libraries such as [timm](https://github.com/rwightman/pytorch-image-models),
+  [transformers](https://huggingface.co/transformers/) and [torchmetrics](https://torchmetrics.readthedocs.io/en/latest/).
+- A small, streamlined API ensures that there is a minimal learning curve for existing PyTorch users.
 
-`pytorch-accelerated` is proudly and transparently built on top of  
-[Hugging Face Accelerate](https://github.com/huggingface/accelerate), which is responsible for the  
-movement of data between devices and launching of training configurations. When customizing the trainer, or launching  
-training, users are encouraged to consult the [Accelerate documentation](https://huggingface.co/docs/accelerate/)  
-to understand all available options; Accelerate provides convenient functions for operations such gathering tensors  
-and gradient clipping, usage of which can be seen in the `pytorch-accelerated`  
-[examples](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples) folder!  
+Significant effort has been taken to ensure that every part of the library - both internal and external components - is as clear and simple as possible,
+making it easy to customize, debug and understand exactly what is going on behind the scenes at each step; most of the
+behaviour of the trainer is contained in a single class!
+In the spirit of Python, nothing is hidden and everything is accessible.
 
-To learn more about the motivations behind this library, along with a detailed getting started guide, check out [this blog post](https://medium.com/@chris.p.hughes10/introducing-pytorch-accelerated-6ba99530608c?source=friends_link&sk=868c2d2ec5229fdea42877c0bf82b968).  
+`pytorch-accelerated` is proudly and transparently built on top of
+[Hugging Face Accelerate](https://github.com/huggingface/accelerate), which is responsible for the
+movement of data between devices and launching of training configurations. When customizing the trainer, or launching
+training, users are encouraged to consult the [Accelerate documentation](https://huggingface.co/docs/accelerate/)
+to understand all available options; Accelerate provides convenient functions for operations such as gathering tensors
+and gradient clipping, usage of which can be seen in the `pytorch-accelerated`
+[examples](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples) folder!
 
-## Installation  
+To learn more about the motivations behind this library, along with a detailed getting started guide, check out [this blog post](https://medium.com/@chris.p.hughes10/introducing-pytorch-accelerated-6ba99530608c?source=friends_link&sk=868c2d2ec5229fdea42877c0bf82b968).
+
+## Installation
 
 `pytorch-accelerated` can be installed from pip using the following command:
 ```
@@ -169,6 +201,6 @@ stated enough!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-28
 
 ---

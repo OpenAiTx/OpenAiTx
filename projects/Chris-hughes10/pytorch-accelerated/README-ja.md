@@ -1,40 +1,72 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Chris-hughes10&project=pytorch-accelerated&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # pytorch-accelerated
 
-`pytorch-accelerated` は、PyTorchモデルのトレーニングプロセスを加速するために設計された軽量ライブラリで、
-最小限ながら拡張可能なトレーニングループを提供します - それは単一の `Trainer` 
-オブジェクトにカプセル化されており、多くのユースケースに対応可能で、コード変更なしで異なるハードウェア
-オプションを利用できる柔軟性を持っています。
- 
-`pytorch-accelerated` は洗練された機能セットを提供し、**シンプルさ**と**透明性**を強く重視しており、
-ユーザーが内部で何が起きているかを正確に理解できるようにしつつ、自分でボイラープレートコードを書いて維持する必要をなくします！
+`pytorch-accelerated` は、PyTorch モデルのトレーニングプロセスを加速するために設計された軽量ライブラリです。
+最小限でありながら拡張可能なトレーニングループを提供し、単一の `Trainer` オブジェクトにカプセル化されています。これにより、多くのユースケースに柔軟に対応でき、コードの変更なしで異なるハードウェアオプションを利用することが可能です。
+
+`pytorch-accelerated` は、機能をスリム化し、**シンプルさ** と **透明性** を最重視しています。
+
+
+ユーザーが自分でボイラープレートを書くことなく、内部で何が起こっているのかを正確に理解できるようにするためです！
    
 主な特徴は以下の通りです：
-- シンプルで完結した、しかし簡単にカスタマイズ可能なトレーニングループ。単純なケースではすぐに使える；
- 振る舞いは継承やコールバックを用いてカスタマイズ可能です。
-- デバイス配置、混合精度、DeepSpeed統合、マルチGPUおよび分散トレーニングをコード変更なしで処理します。
-- 純粋なPyTorchコンポーネントを使用し、追加の修正やラッパーはなく、[timm](https://github.com/rwightman/pytorch-image-models)、 
- [transformers](https://huggingface.co/transformers/)、[torchmetrics](https://torchmetrics.readthedocs.io/en/latest/) などの他の人気ライブラリと簡単に連携可能です。
-- 小規模で洗練されたAPIにより、既存のPyTorchユーザーにとって学習コストが最小限です。
+- シンプルで完結しつつも簡単にカスタマイズ可能なトレーニングループを提供し、単純なケースではそのまま動作します。
+  継承やコールバックを使用して動作をカスタマイズできます。
+- デバイスの配置、混合精度、DeepSpeed統合、マルチGPUおよび分散トレーニングをコード変更なしで処理します。
+- 純粋なPyTorchコンポーネントのみを使用し、追加の修正やラッパーは不要で、[timm](https://github.com/rwightman/pytorch-image-models)、
+  [transformers](https://huggingface.co/transformers/)や[torchmetrics](https://torchmetrics.readthedocs.io/en/latest/)などの
+  他の人気ライブラリとも簡単に相互運用できます。
+- 小規模で洗練されたAPIにより、既存のPyTorchユーザーにとって学習コストが最小限に抑えられます。
 
-ライブラリのあらゆる部分 - 内部および外部のコンポーネントの両方 - が可能な限り明確かつシンプルになるように多大な努力が払われており、 
-カスタマイズやデバッグが容易で、各ステップの裏側で何が起きているかを正確に理解できます；トレーナーの
-動作の大部分は単一のクラスに収められています！
-Pythonの精神に則り、何も隠されておらず全てにアクセス可能です。
+ライブラリのすべての部分――内部・外部コンポーネントともに――ができる限り明確かつシンプルであるよう、かなりの労力をかけて設計されています。
+そのため、カスタマイズやデバッグが容易で、各ステップで内部的に何が起こっているのか正確に理解できます。トレーナーの大部分の挙動は
+単一のクラスに集約されています！
+Pythonの精神に則り、何も隠されず、すべてアクセス可能です。
 
-`pytorch-accelerated` は誇りを持って透明に 
-[Hugging Face Accelerate](https://github.com/huggingface/accelerate) の上に構築されており、これは
-デバイス間のデータ移動やトレーニング設定の起動を担当しています。トレーナーをカスタマイズしたり
-トレーニングを開始する際は、利用可能なすべてのオプションを理解するために [Accelerateのドキュメント](https://huggingface.co/docs/accelerate/) を参照することが推奨されます；
-Accelerate はテンソルの集約や勾配クリッピングなどの便利な関数を提供しており、その使用例は `pytorch-accelerated` の
-[examples](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples) フォルダで見ることができます！
+`pytorch-accelerated`は、
+[Hugging Face Accelerate](https://github.com/huggingface/accelerate)の上に
+誇りを持って、かつ透明性をもって構築されています。Accelerateは、デバイス間のデータ移動やトレーニング構成の起動を担当します。トレーナーのカスタマイズや
+トレーニングの起動時には、[Accelerateのドキュメント](https://huggingface.co/docs/accelerate/)を
+参照し、利用可能なすべてのオプションを理解することを推奨します。Accelerateにはテンソルの集約や
+勾配クリッピングなどの便利な関数があり、`pytorch-accelerated`の
+[examples](https://github.com/Chris-hughes10/pytorch-accelerated/tree/main/examples)フォルダでその使用例を見ることができます！
 
-このライブラリの動機や詳細な入門ガイドについては、[このブログ記事](https://medium.com/@chris.p.hughes10/introducing-pytorch-accelerated-6ba99530608c?source=friends_link&sk=868c2d2ec5229fdea42877c0bf82b968) をご覧ください。
+このライブラリの動機や、詳しいスタートガイドについては、[こちらのブログ記事](https://medium.com/@chris.p.hughes10/introducing-pytorch-accelerated-6ba99530608c?source=friends_link&sk=868c2d2ec5229fdea42877c0bf82b968)をご覧ください。
 
 ## インストール
 
-`pytorch-accelerated` は以下のコマンドでpipからインストールできます：
-
-
+`pytorch-accelerated`は以下のコマンドでpipからインストールできます：
 ```
 pip install pytorch-accelerated
 ```
@@ -169,6 +201,6 @@ if __name__ == "__main__":
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-28
 
 ---
