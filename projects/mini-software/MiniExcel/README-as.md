@@ -745,17 +745,15 @@ var value = new Dictionary<string, object>()
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
 
+#### ৩. জটিল ডাটা ভৰ্তি
 
+> টিপ্পনী: বহু শ্বীট সমৰ্থন কৰে আৰু একে ভেৰিয়েবল ব্যৱহাৰ কৰে
 
-#### 3. Complex Data Fill
-
-> Note: Support multi-sheets and using same varible
-
-Template:
+টেমপ্লেট:
 
 ![image](https://user-images.githubusercontent.com/12729184/114565255-acf0da00-9ca3-11eb-8a7f-8131b2265ae8.png)
 
-Result:
+ফলাফল:
 
 ![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
 
@@ -1063,7 +1061,7 @@ public class Dto
 }
 ```
 
-ক'ড
+কোড
 
 ```csharp
 var value = new Dto[] {
@@ -1105,10 +1103,9 @@ public class Dto
 ```
 
 
+#### ৫. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
-#### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
-
-Since 1.24.0, system supports System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
+১.২৪.০ৰ পৰা, প্ৰণালীই System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute সমৰ্থন কৰে
 
 ```C#
 public class TestIssueI4TXGTDto
@@ -1822,16 +1819,45 @@ foreach (var sheetInfo in sheets)
 }
 ```
 
+#### প্ৰ. টেমপ্লেটৰ সহায়ত ডাটা কেনেকৈ আড়লৈ (বাওঁ-ৰৈ) পূৰণ কৰিব পাৰি?
 
-#### প্ৰশ্ন: Count ব্যৱহাৰ কৰিলে সকলো ডাটা মেম'ৰিত ল'ড হ'ব নেকি?
+উঃ MiniExcel টেমপ্লেট সংগ্ৰহ ৰেণ্ডাৰিং তলফাললৈ (ওপৰ-তল) বিস্তৃত হয়। আড়লৈ (বাওঁ-ৰৈ) পূৰণ এতিয়ালৈকে সমৰ্থিত নহয় (চাওক https://github.com/mini-software/MiniExcel/issues/619)।
 
-নহয়, চিত্ৰ পৰীক্ষাত ১ নিযুত শাৰী*১০টা কলামৰ ডাটা আছে, সৰ্বাধিক মেম'ৰি ব্যৱহাৰ <৬০MB, আৰু ইয়াত ১৩.৬৫ ছেকেণ্ড সময় লাগে
+আপুনি যদি কেৱল চূড়ান্ত বিন্যাসটো বিচাৰে, আপোনাৰ ডাটাটো এখন মেট্ৰিক্সত ৰূপান্তৰ কৰক আৰু `printHeader: false` ব্যৱহাৰ কৰি এক্সপৰ্ট কৰক:
+
+```csharp
+var employees = new[]
+{
+    new { Name = "Name1", Department = "Department1", City = "City1", Country = "Country1" },
+    new { Name = "Name2", Department = "Department2", City = "City2", Country = "Country2" },
+    new { Name = "Name3", Department = "Department3", City = "City3", Country = "Country3" },
+};
+
+var table = new DataTable();
+table.Columns.Add("A");
+for (var i = 0; i < employees.Length; i++)
+    table.Columns.Add($"B{i + 1}");
+
+table.Rows.Add(new object[] { "Name" }.Concat(employees.Select(e => (object)e.Name)).ToArray());
+table.Rows.Add(new object[] { "Department" }.Concat(employees.Select(e => (object)e.Department)).ToArray());
+table.Rows.Add(new object[] { "City" }.Concat(employees.Select(e => (object)e.City)).ToArray());
+table.Rows.Add(new object[] { "Country" }.Concat(employees.Select(e => (object)e.Country)).ToArray());
+
+MiniExcel.SaveAs(path, table, printHeader: false);
+```
+
+যদি আপুনি ষ্টাইলিংৰ বাবে এটা টেমপ্লেট ব্যৱহাৰ কৰিব লাগিলে, এটা বিকল্প হ'ল স্কেলাৰ প্লেসহোল্ডাৰ (যেনে `{{Name_1}}`, `{{Name_2}}` ...) ব্যৱহাৰ কৰা আৰু এটা ডিক্সনাৰী পূৰণ কৰা (ই এটা স্থিৰ সর্বাধিক কলামৰ সংখ্যা প্ৰয়োজন কৰে)।
+
+#### প্ৰ. Count ব্যৱহাৰ কৰিলে সকলো ডেটা মেমৰিত লোড হব নে?
+
+নহয়, ইমেজ টেষ্টত ১ মিলিয়ন শাৰী*১০ কলামৰ ডেটা আছে, সর্বাধিক মেমৰি ব্যৱহাৰ <৬০MB, আৰু ইয়াত ১৩.৬৫ ছেকেণ্ড সময় লাগে।
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
-#### প্ৰশ্ন: Query কেনেকৈ পূৰ্ণাংক সূচক ব্যৱহাৰ কৰে?
+#### প্ৰ. Query কেনেকৈ ইণ্টিজাৰ ইণ্ডেক্স ব্যৱহাৰ কৰে?
 
-Query-ৰ ডিফ'ল্ট সূচক হৈছে ষ্ট্ৰিং Key: A,B,C.... যদি আপুনি সংখ্যাগত সূচকলৈ সলনি কৰিব বিচাৰে, তেন্তে অনুগ্ৰহ কৰি তলত দিয়া পদ্ধতি সৃষ্টি কৰক ৰূপান্তৰ কৰাৰ বাবে
+Query-ৰ ডিফল্ট ইণ্ডেক্স হৈছে ষ্ট্ৰিং Key: A,B,C.... যদি আপুনি সংখ্যাত্মক ইণ্ডেক্সত সলনি কৰিব বিচাৰে, তেন্তে অনুগ্ৰহ কৰি তলত দিয়া পদ্ধতি সৃষ্টি কৰক।
+
 
 ```csharp
 void Main()
@@ -2002,6 +2028,6 @@ Link https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
 
 ---

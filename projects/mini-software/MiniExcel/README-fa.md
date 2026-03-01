@@ -753,20 +753,18 @@ var value = new Dictionary<string, object>()
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
-#### 3. پرکردن داده‌های پیچیده
 
-> توجه: پشتیبانی از چندین شیت و استفاده از متغیر یکسان
+#### 3. تکمیل داده‌های پیچیده
+
+> توجه: پشتیبانی از چند شیت و استفاده از همان متغیر
 
 قالب:
 
-![image](https://user-images.githubusercontent.com/12729184/114565255-acf0da00-9ca3-11eb-8a7f-8131b2265ae8.png)
+![تصویر](https://user-images.githubusercontent.com/12729184/114565255-acf0da00-9ca3-11eb-8a7f-8131b2265ae8.png)
 
 نتیجه:
 
-![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
-
-
-
+![تصویر](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
 
 ```csharp
 // 1. By POCO
@@ -1116,12 +1114,9 @@ public class Dto
 ```
 
 
-
-
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
-از نسخه 1.24.0، سیستم از System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute پشتیبانی می‌کند.
-
+از نسخه 1.24.0، سیستم از System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute پشتیبانی می‌کند
 
 ```C#
 public class TestIssueI4TXGTDto
@@ -1843,15 +1838,44 @@ foreach (var sheetInfo in sheets)
     Console.WriteLine($"sheet state : {sheetInfo.State} "); // sheet visibility state - visible / hidden
 }
 ```
-#### س. آیا استفاده از Count تمام داده‌ها را به حافظه بارگذاری می‌کند؟
 
-خیر، تست تصویر دارای ۱ میلیون ردیف * ۱۰ ستون داده است، بیشترین استفاده از حافظه کمتر از ۶۰ مگابایت بوده و زمان اجرا ۱۳.۶۵ ثانیه است
+#### س. چگونه داده‌ها را به صورت افقی (چپ به راست) با قالب‌ها پر کنیم؟
+
+ج. رندرینگ مجموعه قالب‌های MiniExcel به صورت عمودی (از بالا به پایین) گسترش می‌یابد. پر کردن افقی (چپ به راست) هنوز پشتیبانی نمی‌شود (به https://github.com/mini-software/MiniExcel/issues/619 مراجعه کنید).
+
+اگر فقط به چیدمان نهایی نیاز دارید، داده‌های خود را به یک ماتریس تبدیل کنید و آن را با `printHeader: false` صادر کنید:
+
+```csharp
+var employees = new[]
+{
+    new { Name = "Name1", Department = "Department1", City = "City1", Country = "Country1" },
+    new { Name = "Name2", Department = "Department2", City = "City2", Country = "Country2" },
+    new { Name = "Name3", Department = "Department3", City = "City3", Country = "Country3" },
+};
+
+var table = new DataTable();
+table.Columns.Add("A");
+for (var i = 0; i < employees.Length; i++)
+    table.Columns.Add($"B{i + 1}");
+
+table.Rows.Add(new object[] { "Name" }.Concat(employees.Select(e => (object)e.Name)).ToArray());
+table.Rows.Add(new object[] { "Department" }.Concat(employees.Select(e => (object)e.Department)).ToArray());
+table.Rows.Add(new object[] { "City" }.Concat(employees.Select(e => (object)e.City)).ToArray());
+table.Rows.Add(new object[] { "Country" }.Concat(employees.Select(e => (object)e.Country)).ToArray());
+
+MiniExcel.SaveAs(path, table, printHeader: false);
+```
+اگر لازم است برای سبک‌دهی از یک قالب استفاده کنید، یک گزینه استفاده از جایگزین‌های اسکالر (مانند `{{Name_1}}`, `{{Name_2}}` ...) و پر کردن یک دیکشنری است (نیاز به تعداد ستون‌های ثابت دارد).
+
+#### س. آیا استفاده از Count همه داده‌ها را به حافظه بارگذاری می‌کند؟
+
+خیر، تست تصویر دارای ۱ میلیون سطر * ۱۰ ستون داده است، حداکثر استفاده حافظه <۶۰ مگابایت است و ۱۳.۶۵ ثانیه زمان می‌برد
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
 #### س. Query چگونه از ایندکس عددی استفاده می‌کند؟
 
-ایندکس پیش‌فرض Query، کلید رشته‌ای است: A,B,C.... اگر می‌خواهید به ایندکس عددی تغییر دهید، لطفاً متد زیر را برای تبدیل ایجاد کنید
+ایندکس پیش‌فرض Query کلید رشته‌ای است: A,B,C.... اگر می‌خواهید به ایندکس عددی تغییر دهید، لطفاً روش زیر را برای تبدیل ایجاد کنید
 
 
 
@@ -2032,6 +2056,6 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
 
 ---

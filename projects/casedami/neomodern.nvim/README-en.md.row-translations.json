@@ -1,0 +1,1418 @@
+[
+  {
+    "row": 1,
+    "rowsha": "0wEhs7bE/WYBxdAjzUyuDEI0O2ha7XuTYcnj6V8JJYA=",
+    "originContent": "# <p align=\"center\"> *NEOMODERN*.nvim </p>",
+    "translatedContent": "# <p align=\"center\"> *NEOMODERN*.nvim </p>"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 4,
+    "rowsha": "o2ZaLeRvTn2PKkbRDQJfC+jsTlE4qx8Ocxr0w5VeaQA=",
+    "originContent": "modern — simple — unintrusive",
+    "translatedContent": "modern — simple — unintrusive"
+  },
+  {
+    "row": 5,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 8,
+    "rowsha": "GY33dyvk03qVu42j5NCYpS/DtNkh2ttReUqHmMtZoZ4=",
+    "originContent": "<img src=\"https://img.shields.io/github/v/tag/cdmill/neomodern.nvim?style=flat&label=RELEASE&labelColor=%23212123&color=%238a88db\" />",
+    "translatedContent": "<img src=\"https://img.shields.io/github/v/tag/cdmill/neomodern.nvim?style=flat&label=RELEASE&labelColor=%23212123&color=%238a88db\" />"
+  },
+  {
+    "row": 9,
+    "rowsha": "C+izedynmSgIznN4SYxioDxN/fALUlHWSAcMSIzz1xs=",
+    "originContent": "<img src=\"https://img.shields.io/badge/BUILT_WITH_LUA-blue?style=flat&color=%23629da3\" />",
+    "translatedContent": "<img src=\"https://img.shields.io/badge/BUILT_WITH_LUA-blue?style=flat&color=%23629da3\" />"
+  },
+  {
+    "row": 10,
+    "rowsha": "5Yj1/XJkHT2eqG/y7GJdp6RSBU3BaPJlsu6Xd1mEW0c=",
+    "originContent": "<img src=\"https://img.shields.io/badge/NEOVIM-0.9-blue?style=flat&logo=Neovim&labelColor=%23212123&color=%238a88db\" />",
+    "translatedContent": "<img src=\"https://img.shields.io/badge/NEOVIM-0.9-blue?style=flat&logo=Neovim&labelColor=%23212123&color=%238a88db\" />"
+  },
+  {
+    "row": 11,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+    "originContent": "## Table of Contents",
+    "translatedContent": "## Table of Contents"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "szeUMzObFmInYxsCoVbn/VVKtyDdOBQ09zhIyfjN3rU=",
+    "originContent": "- [Gallery](#gallery)",
+    "translatedContent": "- [Gallery](#gallery)"
+  },
+  {
+    "row": 16,
+    "rowsha": "Wl12oCRmfvQwHCfuvjGuhBK05j+rCEJcS20CJyqXCVA=",
+    "originContent": "- [Installation](#installation)",
+    "translatedContent": "- [Installation](#installation)"
+  },
+  {
+    "row": 17,
+    "rowsha": "CMDXxvgYRLE9tGhh0i56JO4QvwIQJhFMEjLEiYa+0Wc=",
+    "originContent": "- [Configuration](#configuration)",
+    "translatedContent": "- [Configuration](#configuration)"
+  },
+  {
+    "row": 18,
+    "rowsha": "Um+rVEPbpNeCbhxLfNQFPP3LkzdkQe9oHVtB7dMexCI=",
+    "originContent": "- [Customization](#customization)",
+    "translatedContent": "- [Customization](#customization)"
+  },
+  {
+    "row": 19,
+    "rowsha": "fH5blNs5340dgFnlmehDfX1z8jJc+12S3hxVuC1QcPo=",
+    "originContent": "- [Recipes](#recipes)",
+    "translatedContent": "- [Recipes](#recipes)"
+  },
+  {
+    "row": 20,
+    "rowsha": "46o9OlXCA1a4tZeh7IEuTh2QUV2OtRFcI4YWidxNwmU=",
+    "originContent": "- [Contributing](#contributing)",
+    "translatedContent": "- [Contributing](#contributing)"
+  },
+  {
+    "row": 21,
+    "rowsha": "yf/mpi+N9z6O7iaW9xzLTy5knXhz23MlT40gCVF9D8A=",
+    "originContent": "- [Inspiration](inspiration)",
+    "translatedContent": "- [Inspiration](inspiration)"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "yaNTtAGNeGRhcmIbpGHVi5Z6gFvYeZ1kLDSy+agqc3U=",
+    "originContent": "## Gallery",
+    "translatedContent": "## Gallery"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "lSNrmifReIkGgGGhHCXBKBN07+Ziqhg5NVM+Rl5nmII=",
+    "originContent": "### 🌚 MOON",
+    "translatedContent": "### 🌚 MOON"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "CpoCmkCblrQTmuZhSTt0TEIaMYphzkXbd4jMMMP/pn0=",
+    "originContent": "A dark, spacy theme inspired by the colors of the moon",
+    "translatedContent": "A dark, spacy theme inspired by the colors of the moon"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+    "originContent": "<details open>",
+    "translatedContent": "<details open>"
+  },
+  {
+    "row": 30,
+    "rowsha": "QxDa1H/e3hil4NqjMd3ss9FqBCuZM6+TALdrlJJx27o=",
+    "originContent": "<summary>Dark Variant</summary>",
+    "translatedContent": "<summary>Dark Variant</summary>"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "C4QMkhQ3VPH4YZXHZF9sR1qKywS5aPyGoAUpNb+wy1s=",
+    "originContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/moon-dark.png)",
+    "translatedContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/moon-dark.png)"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "FxxFXBCJ3rdSKgp9o1puECf4kaSWwsBMxaBTChp75v0=",
+    "originContent": "<details closed>",
+    "translatedContent": "<details closed>"
+  },
+  {
+    "row": 37,
+    "rowsha": "ZuTVxHdY+s1d24X7YHbyau9DYif/yM368U1EmceB8pQ=",
+    "originContent": "<summary>Light Variant</summary>",
+    "translatedContent": "<summary>Light Variant</summary>"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "3rOOM1aGUBJEJlH3pSTY2V6goZxxYN2O9XRS7A1IqJE=",
+    "originContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/moon-light.png)",
+    "translatedContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/moon-light.png)"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "EyP6zmEb5sapj1V/t2Qhc1tGBdbziIE3LMo8QUOoen8=",
+    "originContent": "### ❄️ *ICECLIMBER*",
+    "translatedContent": "### ❄️ *ICECLIMBER*"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "QXNuSm0k1yYT8dzyID6ngtcP+/RfVi+c0I5d/aGfxrM=",
+    "originContent": "A theme with colors inspired from Nintendo's Ice Climbers characters",
+    "translatedContent": "A theme with colors inspired by Nintendo's Ice Climbers characters"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+    "originContent": "<details open>",
+    "translatedContent": "<details open>"
+  },
+  {
+    "row": 48,
+    "rowsha": "QxDa1H/e3hil4NqjMd3ss9FqBCuZM6+TALdrlJJx27o=",
+    "originContent": "<summary>Dark Variant</summary>",
+    "translatedContent": "<summary>Dark Variant</summary>"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "jxryYP249h8OtoLNOxpSB6kQxb1k4WxQUNOyqq9vuEU=",
+    "originContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/iceclimber-dark.png)",
+    "translatedContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/iceclimber-dark.png)"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "FxxFXBCJ3rdSKgp9o1puECf4kaSWwsBMxaBTChp75v0=",
+    "originContent": "<details closed>",
+    "translatedContent": "<details closed>"
+  },
+  {
+    "row": 55,
+    "rowsha": "ZuTVxHdY+s1d24X7YHbyau9DYif/yM368U1EmceB8pQ=",
+    "originContent": "<summary>Light Variant</summary>",
+    "translatedContent": "<summary>Light Variant</summary>"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "J+4Fzg4N8Bz4rwMi2QU+oP4Jg01tMZyZk6uyPwfz5gY=",
+    "originContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/iceclimber-light.png)",
+    "translatedContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/iceclimber-light.png)"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "Ujzvgv93VkLhr9CM3/EsnM8rL/UUoaKQr0mNytK+OT4=",
+    "originContent": "### 🌱 *GYOKURO*",
+    "translatedContent": "### 🌱 *GYOKURO*"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "TZISst1TE5NfwdLik84xXdBPbQVLS21ns+PuvqkovMk=",
+    "originContent": "A fresh green tea inspired theme",
+    "translatedContent": "A fresh green tea inspired theme"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+    "originContent": "<details open>",
+    "translatedContent": "<details open>"
+  },
+  {
+    "row": 66,
+    "rowsha": "QxDa1H/e3hil4NqjMd3ss9FqBCuZM6+TALdrlJJx27o=",
+    "originContent": "<summary>Dark Variant</summary>",
+    "translatedContent": "<summary>Dark Variant</summary>"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "aztkm3tWjstyF+34n9xOZjuyO7N75RlXQBhHku/HXKA=",
+    "originContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/gyokuro-dark.png)",
+    "translatedContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/gyokuro-dark.png)"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "FxxFXBCJ3rdSKgp9o1puECf4kaSWwsBMxaBTChp75v0=",
+    "originContent": "<details closed>",
+    "translatedContent": "<details closed>"
+  },
+  {
+    "row": 73,
+    "rowsha": "ZuTVxHdY+s1d24X7YHbyau9DYif/yM368U1EmceB8pQ=",
+    "originContent": "<summary>Light Variant</summary>",
+    "translatedContent": "<summary>Light Variant</summary>"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "FjG1xP99QGwKydCSb0XZehECUIx24kGBMz1LXUtgQtM=",
+    "originContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/gyokuro-light.png)",
+    "translatedContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/gyokuro-light.png)"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "ZTDOcnQ+Q/27ODTDgQSxWma+vFVS82zvGboiYGfQ7YY=",
+    "originContent": "### 🍂 *HOJICHA*",
+    "translatedContent": "### 🍂 *HOJICHA*"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "NoX9WSLAXLqhbIwU8SfxjCi4QCjCZGCKX4vBF7fSnWg=",
+    "originContent": "A roasted green tea inspired theme",
+    "translatedContent": "A roasted green tea inspired theme"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+    "originContent": "<details open>",
+    "translatedContent": "<details open>"
+  },
+  {
+    "row": 84,
+    "rowsha": "QxDa1H/e3hil4NqjMd3ss9FqBCuZM6+TALdrlJJx27o=",
+    "originContent": "<summary>Dark Variant</summary>",
+    "translatedContent": "<summary>Dark Variant</summary>"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "75gC1DDq6Rm8fHaIq/x+K/RxER+ai4oVJtFt90x1UFU=",
+    "originContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/hojicha-dark.png)",
+    "translatedContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/hojicha-dark.png)"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "FxxFXBCJ3rdSKgp9o1puECf4kaSWwsBMxaBTChp75v0=",
+    "originContent": "<details closed>",
+    "translatedContent": "<details closed>"
+  },
+  {
+    "row": 91,
+    "rowsha": "ZuTVxHdY+s1d24X7YHbyau9DYif/yM368U1EmceB8pQ=",
+    "originContent": "<summary>Light Variant</summary>",
+    "translatedContent": "<summary>Light Variant</summary>"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "OxJKA3bdWdW7zMSWJId3jz1IdO0ew6JnUANl3fJmMvY=",
+    "originContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/hojicha-light.png)",
+    "translatedContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/hojicha-light.png)"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "cK/Pfgjgprh7bLhg3+Y1Pq8/namRwxr7a3U+iM1Fgg0=",
+    "originContent": "### 🌷 *ROSEPRIME*",
+    "translatedContent": "### 🌷 *ROSEPRIME*"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "WVRJX3F/JHAnMMHJNOB5jW3OkIDy/PdNfN8IMSLcUt4=",
+    "originContent": "Inspired by [ThePrimeagen's](https://github.com/ThePrimeagen) use of the [Rosé-Pine](https://github.com/rose-pine/neovim) theme",
+    "translatedContent": "Inspired by [ThePrimeagen's](https://github.com/ThePrimeagen) use of the [Rosé-Pine](https://github.com/rose-pine/neovim) theme"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+    "originContent": "<details open>",
+    "translatedContent": "<details open>"
+  },
+  {
+    "row": 102,
+    "rowsha": "QxDa1H/e3hil4NqjMd3ss9FqBCuZM6+TALdrlJJx27o=",
+    "originContent": "<summary>Dark Variant</summary>",
+    "translatedContent": "<summary>Dark Variant</summary>"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "xOCu92MFJNVarqIVtOVwqaNcHnRtuQxLDAv2FcZku6E=",
+    "originContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/roseprime-dark.png)",
+    "translatedContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/roseprime-dark.png)"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "FxxFXBCJ3rdSKgp9o1puECf4kaSWwsBMxaBTChp75v0=",
+    "originContent": "<details closed>",
+    "translatedContent": "<details closed>"
+  },
+  {
+    "row": 109,
+    "rowsha": "ZuTVxHdY+s1d24X7YHbyau9DYif/yM368U1EmceB8pQ=",
+    "originContent": "<summary>Light Variant</summary>",
+    "translatedContent": "<summary>Light Variant</summary>"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "kgFow+Royw52d4nCKosKRIdflXObz+QbHAJWgh2EO00=",
+    "originContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/roseprime-light.png)",
+    "translatedContent": "![image](https://github.com/cdmill/neomodern.nvim/blob/assets/roseprime-light.png)"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "XbBsJv51o7P9RhtBVCc8eww5lDTHKS8/fbproKBY5jE=",
+    "originContent": "Using vim.pack:",
+    "translatedContent": "Using vim.pack:"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 120,
+    "rowsha": "uuY65HfRmxbkuoelChmtqv8yrnOUjbiRV84i6w1xEY0=",
+    "originContent": "vim.pack.add({\"https://github.com/casedami/neomodern.nvim\"})",
+    "translatedContent": "vim.pack.add({\"https://github.com/casedami/neomodern.nvim\"})"
+  },
+  {
+    "row": 121,
+    "rowsha": "lF34VFEpBFOrAKLEInI+BjPQzA/r8vG+GclIJnCiA/4=",
+    "originContent": "require(\"neomodern\").setup({",
+    "translatedContent": "require(\"neomodern\").setup({"
+  },
+  {
+    "row": 122,
+    "rowsha": "jnHTzV6Pe3RewfMBgN6o+WjXw5pRNbZkADfMuenDVSQ=",
+    "originContent": "-- optional configuration",
+    "translatedContent": "-- optional configuration"
+  },
+  {
+    "row": 123,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 124,
+    "rowsha": "Hf0RE9/A5Ij+e1l2jK7/ioL3sz/I90VihAZbg6+D59A=",
+    "originContent": "require(\"neomodern\").load()",
+    "translatedContent": "require(\"neomodern\").load()"
+  },
+  {
+    "row": 125,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "D4TKXymxPmAFwoNjEcd88ZakaRzCUvzgkw66BvhQrD8=",
+    "originContent": "Note, you only need to call setup if you are overriding any default opts. If",
+    "translatedContent": "Note, you only need to call setup if you are overriding any default opts. If  "
+  },
+  {
+    "row": 128,
+    "rowsha": "CLGs+74d6H0fMJ0mzBGs8b5GLsdUJKQlyQDCbLETDFA=",
+    "originContent": "you are only using it to set the theme, you could use the following instead:",
+    "translatedContent": "you are only using it to set the theme, you could use the following instead:  "
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 131,
+    "rowsha": "uuY65HfRmxbkuoelChmtqv8yrnOUjbiRV84i6w1xEY0=",
+    "originContent": "vim.pack.add({\"https://github.com/casedami/neomodern.nvim\"})",
+    "translatedContent": "vim.pack.add({\"https://github.com/casedami/neomodern.nvim\"})"
+  },
+  {
+    "row": 132,
+    "rowsha": "pMQix3rlnGrJ/3Ix0GZsrIR1mXtTgtkN25ZL/2JsiM0=",
+    "originContent": "require(\"neomodern\").load(\"iceclimber\")",
+    "translatedContent": "require(\"neomodern\").load(\"iceclimber\")"
+  },
+  {
+    "row": 133,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": "## Configuration"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "H29nfvn0whdY88IWMlT2w+A17ySfgrx401lHZhHN684=",
+    "originContent": "There are 5 themes included, each with a light and dark variant.",
+    "translatedContent": "There are 5 themes included, each with a light and dark variant."
+  },
+  {
+    "row": 138,
+    "rowsha": "gDu+BPn7vDjSyViAU1msy8JULaNXEjXHyO5skfXc7Ag=",
+    "originContent": "The light theme is used when `vim.o.background = \"light\"`.",
+    "translatedContent": "The light theme is used when `vim.o.background = \"light\"`."
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "vjDUvWxH9xs21dZUVicnZNcbwb+/VMO+Jq8ninWyu0Y=",
+    "originContent": "Default options are given below:",
+    "translatedContent": "Default options are given below:"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 143,
+    "rowsha": "lF34VFEpBFOrAKLEInI+BjPQzA/r8vG+GclIJnCiA/4=",
+    "originContent": "require(\"neomodern\").setup({",
+    "translatedContent": "require(\"neomodern\").setup({"
+  },
+  {
+    "row": 144,
+    "rowsha": "cP8xV4xPWcYgpxEb6WreFASr25Ji5fvZJa852MSbxGE=",
+    "originContent": "  -- 'default' default background",
+    "translatedContent": "  -- 'default' default background"
+  },
+  {
+    "row": 145,
+    "rowsha": "OTTOGOW7cjTJPNVowZWxIuZw1e4T6F8Ch+LNClYnOE0=",
+    "originContent": "  -- 'alt' darker background",
+    "translatedContent": "  -- 'alt' darker background"
+  },
+  {
+    "row": 146,
+    "rowsha": "H5EWUMTslfwaj+c2RvAVWDW2d+8ZQCaELyHJ0PFYzLA=",
+    "originContent": "  -- 'transparent' background is not set",
+    "translatedContent": "  -- 'transparent' background is not set"
+  },
+  {
+    "row": 147,
+    "rowsha": "V4aum0HPOIIEYg1hXPhXecHm1Ku5N6eetL20LkMAw6E=",
+    "originContent": "  bg = \"default\",",
+    "translatedContent": "  bg = \"default\","
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "+8GG1/zekX5C4J2KZujOxKRtT+hOY86FaDtg8cKShSs=",
+    "originContent": "  theme = \"moon\", -- 'moon' | 'iceclimber' | 'gyokuro' | 'hojicha' | 'roseprime'",
+    "translatedContent": "  theme = \"moon\", -- 'moon' | 'iceclimber' | 'gyokuro' | 'hojicha' | 'roseprime'"
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "LEqWS6wyBjn40BJONLaD9UhceF2IfEOSUwaCUpa9wHA=",
+    "originContent": "  gutter = {",
+    "translatedContent": "  gutter = {"
+  },
+  {
+    "row": 152,
+    "rowsha": "dZZvUYj0eQWTy3wnZWWa+ufTgdClu7hx9oTBT1kDy4U=",
+    "originContent": "    cursorline = false, -- highlight the cursorline in the gutter",
+    "translatedContent": "    cursorline = false, -- highlight the cursorline in the gutter"
+  },
+  {
+    "row": 153,
+    "rowsha": "XCcwrZO6P8kpC5S1uxZFS5tIcyg9z1eUxHR4TkHkXdo=",
+    "originContent": "    dark = false, -- highlight gutter darker than the Normal bg",
+    "translatedContent": "    dark = false, -- highlight gutter darker than the Normal bg"
+  },
+  {
+    "row": 154,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "MqB47OEjtOlLH7UZviH7oXbKQMmLALTtA7ybAHePPPA=",
+    "originContent": "  diagnostics = {",
+    "translatedContent": "  diagnostics = {"
+  },
+  {
+    "row": 157,
+    "rowsha": "UDyuX/DXAOWSKDFjjJpoXZCalE8evfkc3wa5igQ0lYc=",
+    "originContent": "    darker = true, -- use darker colors for diagnostics",
+    "translatedContent": "    darker = true, -- use darker colors for diagnostics"
+  },
+  {
+    "row": 158,
+    "rowsha": "BVQSmpveLH+i7EAxAnZertSdkIRjbolLjwXpwUMWv/A=",
+    "originContent": "    undercurl = true, -- use undercurl for diagnostics",
+    "translatedContent": "    undercurl = true, -- use undercurl for diagnostics"
+  },
+  {
+    "row": 159,
+    "rowsha": "kn9y2boWO+Fy/b/uXAu77/MhukclCEv6v/qpoda67xs=",
+    "originContent": "    background = true, -- use a background color for diagnostics",
+    "translatedContent": "    background = true, -- use a background color for diagnostics"
+  },
+  {
+    "row": 160,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "RC3sEHGI2OVAkZNwXtiudpz8b1OVfWryZAKDBKsDnIw=",
+    "originContent": "  -- override colors, see #Customization below",
+    "translatedContent": "  -- override colors, see #Customization below"
+  },
+  {
+    "row": 163,
+    "rowsha": "Z7w8xBdSf3Jv0ySbzzHmN8/hOq4vUV8u2xQTgln9bHE=",
+    "originContent": "  overrides = {",
+    "translatedContent": "  overrides = {"
+  },
+  {
+    "row": 164,
+    "rowsha": "JqAJttyIQToi6X97Txn18sqyEsTeytBbLGR+1s4R9aw=",
+    "originContent": "    default = {},",
+    "translatedContent": "    default = {},"
+  },
+  {
+    "row": 165,
+    "rowsha": "12mtNo0lBU87YwW2j22qEnP5gGRY2taGNQ9Pyh6Oa/4=",
+    "originContent": "    hlgroups = {}",
+    "translatedContent": "    hlgroups = {}"
+  },
+  {
+    "row": 166,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 167,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 168,
+    "rowsha": "VWqDljrNtE7V7xs58lN68u0ba86wQPq/sC/Ooj93vF8=",
+    "originContent": "-- Call `load` after `setup`",
+    "translatedContent": "-- Call `load` after `setup`"
+  },
+  {
+    "row": 169,
+    "rowsha": "Hf0RE9/A5Ij+e1l2jK7/ioL3sz/I90VihAZbg6+D59A=",
+    "originContent": "require(\"neomodern\").load()",
+    "translatedContent": "require(\"neomodern\").load()"
+  },
+  {
+    "row": 170,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "NbXdfMRtb11iLupQ1YASvOsf4ftWXSzwVw1p9cWrf+4=",
+    "originContent": "## Customization",
+    "translatedContent": "## Customization"
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "dQ6mKBFXs8Im/I9I1RH0BjLxAtSnlCwPgjhZm9Z8AFI=",
+    "originContent": "Neomodern supports user-defined color overrides. The user can either override",
+    "translatedContent": "Neomodern supports user-defined color overrides. The user can either override"
+  },
+  {
+    "row": 175,
+    "rowsha": "XUBxinu+taDeNXw2GVQdVicH600udMRSiWYNdynFMsQ=",
+    "originContent": "the default colors or alter the highlights of a specific highlight group. When",
+    "translatedContent": "the default colors or alter the highlights of a specific highlight group. When"
+  },
+  {
+    "row": 176,
+    "rowsha": "DVh+7xYHdzFnZFahpelPN4S1gY5iQAYlOisE0ygRBpE=",
+    "originContent": "overriding highlight groups, use neomodern's colors by prefixing the color name",
+    "translatedContent": "overriding highlight groups, use neomodern's colors by prefixing the color name"
+  },
+  {
+    "row": 177,
+    "rowsha": "nujnxT2JK3Aci54Kmne5xigB5QdvxD90nWGKhde90l4=",
+    "originContent": "with a dollar sign (e.g. `$keyword`). See `:h highlight-args` and `:h",
+    "translatedContent": "with a dollar sign (e.g. `$keyword`). See `:h highlight-args` and `:h"
+  },
+  {
+    "row": 178,
+    "rowsha": "45VW4vGtsdx7Z63Zl5ifS5Kij8bd4uzFTjzXMHya2P8=",
+    "originContent": "neomodern-types` for expected args, default color names, etc.",
+    "translatedContent": "neomodern-types` for expected args, default color names, etc."
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 180,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 181,
+    "rowsha": "PD6neyunzlhFeF3jWKoSI23Gp49EjYcECfiTjbiBnZU=",
+    "originContent": "require(\"neomodern\").setup {",
+    "translatedContent": "require(\"neomodern\").setup {"
+  },
+  {
+    "row": 182,
+    "rowsha": "Z7w8xBdSf3Jv0ySbzzHmN8/hOq4vUV8u2xQTgln9bHE=",
+    "originContent": "  overrides = {",
+    "translatedContent": "  overrides = {"
+  },
+  {
+    "row": 183,
+    "rowsha": "XCRZ7Do+4kB1BRCFHdllqHKE1lISjbDN/wJKmxV/T5I=",
+    "originContent": "    default = {",
+    "translatedContent": "    default = {"
+  },
+  {
+    "row": 184,
+    "rowsha": "cAlLQ56rolm1fWKKeW7S78v3YLlXtnkaKn2vy1PGH2Y=",
+    "originContent": "      keyword = '#817faf', -- redefine neomodern's `keyword` color",
+    "translatedContent": "      keyword = '#817faf', -- redefine neomodern's `keyword` color"
+  },
+  {
+    "row": 185,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 186,
+    "rowsha": "WTeahzotPpclm6MiUPng9mQB9u4KUaKtnswvoDMY9fw=",
+    "originContent": "    hlgroups = {",
+    "translatedContent": "    hlgroups = {"
+  },
+  {
+    "row": 187,
+    "rowsha": "jZASArxOOipAWvGuM4xZ7bokkQc3zE5ZdOAcw4s4hc0=",
+    "originContent": "      [\"@keyword.return\"] = { gui = 'italic' },",
+    "translatedContent": "      [\"@keyword.return\"] = { gui = 'italic' },"
+  },
+  {
+    "row": 188,
+    "rowsha": "fLQuNhO6ThpoBZLs5P+8WSSqSsTj13jLyPQgPmzi/6A=",
+    "originContent": "      [\"@keyword\"] = { guifg = \"$keyword\", gui = 'bold' },",
+    "translatedContent": "      [\"@keyword\"] = { guifg = \"$keyword\", gui = 'bold' },"
+  },
+  {
+    "row": 189,
+    "rowsha": "wurfUBIv9uiu0r0uQx4+ApyHsq+8g8X+WgqvYQzij7Y=",
+    "originContent": "      [\"@function\"] = { guibg = \"#ffffff\" },",
+    "translatedContent": "      [\"@function\"] = { guibg = \"#ffffff\" },"
+  },
+  {
+    "row": 190,
+    "rowsha": "vaCYpELvgSVtpMbovPIzb8e/iFt/Lpc2A97q6iPD8wo=",
+    "originContent": "      [\"String\"] = { link = \"Todo\" },",
+    "translatedContent": "      [\"String\"] = { link = \"Todo\" },"
+  },
+  {
+    "row": 191,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 192,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 193,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 194,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 195,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "vjGW8qwDZe6FLbZlZvFLsGdH/Q5tuDIMEXhwe9Nac2M=",
+    "originContent": "## Recipes",
+    "translatedContent": "## Recipes"
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "XAZ+eHiJwlyGj9csPEmb2DaD4Iz+ReqBWDv0yyXI2i8=",
+    "originContent": "### Prefer Treesitter Highlights",
+    "translatedContent": "### Prefer Treesitter Highlights"
+  },
+  {
+    "row": 199,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 200,
+    "rowsha": "2Jss6iSgy/bFTfqIzhv5yBfhxT3YBcZGULIxfs7FFfA=",
+    "originContent": "If you would prefer to bias the highlights towards treesitter (rather than",
+    "translatedContent": "If you would prefer to bias the highlights towards treesitter (rather than"
+  },
+  {
+    "row": 201,
+    "rowsha": "Bf+zgL4VZwJw2arNZmO/fPKhGTyb3dSi2s9/p0k4GAc=",
+    "originContent": "lsp-semantic highlights), use this somewhere in your config:",
+    "translatedContent": "lsp-semantic highlights), use this somewhere in your config:"
+  },
+  {
+    "row": 202,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 204,
+    "rowsha": "WJfC3ZE1qqYKrKK/JLMlUrBzBh7PiiJ5ltYnQPLPCK8=",
+    "originContent": "vim.highlight.priorities.semantic_tokens = 95",
+    "translatedContent": "vim.highlight.priorities.semantic_tokens = 95"
+  },
+  {
+    "row": 205,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 206,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 207,
+    "rowsha": "yKsfeAeCmsQwDa4lq/iLsWQrOcGymKyuyXvrLdPdTxo=",
+    "originContent": "### Keymap to Swap Between Light/Dark variants",
+    "translatedContent": "### Keymap to Swap Between Light/Dark variants"
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 209,
+    "rowsha": "UE1pN/j/3rNlARfdf8ivjhue+LuNdulmECbDLu4MwmA=",
+    "originContent": "Neomodern uses `vim.opt.background` to decide which variant to load, so to",
+    "translatedContent": "Neomodern uses `vim.opt.background` to decide which variant to load, so to"
+  },
+  {
+    "row": 210,
+    "rowsha": "WktvzWs5ySykKwGZlREM8MRKLzGGbYzOkJ2xghVTxmE=",
+    "originContent": "toggle between variants simply toggle `vim.opt.background`.",
+    "translatedContent": "toggle between variants simply toggle `vim.opt.background`."
+  },
+  {
+    "row": 211,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 212,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 213,
+    "rowsha": "/olMtiHO9oPjxxUS4hsJIaSJTq7ZIPrpt+1lBSvHH/Y=",
+    "originContent": "vim.keymap.set(\"n\", \"<leader>uc\", function()",
+    "translatedContent": "vim.keymap.set(\"n\", \"<leader>uc\", function()"
+  },
+  {
+    "row": 214,
+    "rowsha": "fkCmCYH9+RACRd43+KCXIDCpBsOZii4mLulz1opcnVc=",
+    "originContent": "    if vim.opt.background == \"light\" then",
+    "translatedContent": "    if vim.opt.background == \"light\" then"
+  },
+  {
+    "row": 215,
+    "rowsha": "vJOeeRG0soY1N1ZCxA7kQ2XgXXh44ZLKZO4TG/d0FZ0=",
+    "originContent": "        vim.opt.background = \"dark\"",
+    "translatedContent": "        vim.opt.background = \"dark\""
+  },
+  {
+    "row": 216,
+    "rowsha": "iPM8jv/IoKBEZd5ZTIcRvi77BQQNWEbEcdoFvDxivQI=",
+    "originContent": "    else",
+    "translatedContent": "    else"
+  },
+  {
+    "row": 217,
+    "rowsha": "HQ+p8nKisXbEx1aEzcm+0JjNT2EKQn2xnOIVTqdK9Rs=",
+    "originContent": "        vim.opt.background = \"light\"",
+    "translatedContent": "        vim.opt.background = \"light\""
+  },
+  {
+    "row": 218,
+    "rowsha": "gvoVxHL5c5ZCFTBleU4mILUDJKIFcP+s+BQjx5nYXiw=",
+    "originContent": "    end",
+    "translatedContent": "    end"
+  },
+  {
+    "row": 219,
+    "rowsha": "GWcyuQkEo+Dd9bbilknvQj0rOaiFxF7h7r5kBOLC9aQ=",
+    "originContent": "end, { desc = \"Toggle between light/dark mode\" })",
+    "translatedContent": "end, { desc = \"Toggle between light/dark mode\" })"
+  },
+  {
+    "row": 220,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 221,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 222,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## Contributing"
+  },
+  {
+    "row": 223,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 224,
+    "rowsha": "8XJCVIX57Vs6gVXFUpf4KIQnQq0Q+h3rpo0gMTTR6wA=",
+    "originContent": "If you are wanting support for a plugin or an extra please open an issue or",
+    "translatedContent": "If you want support for a plugin or an extra, please open an issue or"
+  },
+  {
+    "row": 225,
+    "rowsha": "Nn1oh2LzMkCyvHv4GPB3MceErp1R4ZLp3Cl0glB/whc=",
+    "originContent": "submit a PR.",
+    "translatedContent": "submit a PR."
+  },
+  {
+    "row": 226,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 227,
+    "rowsha": "NaJRDrVHctxosI47MxFQQk/pZoxStY0e5VA/kyOO268=",
+    "originContent": "## Inspiration",
+    "translatedContent": "## Inspiration"
+  },
+  {
+    "row": 228,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 229,
+    "rowsha": "BaFxv7njAO7I43UZdCDvfyt+dz3W1WmNdzN6uBCmPUI=",
+    "originContent": "- [OneDark.nvim](https://github.com/navarasu/onedark.nvim)",
+    "translatedContent": "- [OneDark.nvim](https://github.com/navarasu/onedark.nvim)"
+  },
+  {
+    "row": 230,
+    "rowsha": "A8M1CAetylRGeQxix5YT9LImI6N+xI8q/N6qJJDyFe4=",
+    "originContent": "- [Bamboo.nvim](https://github.com/ribru17/bamboo.nvim)",
+    "translatedContent": "- [Bamboo.nvim](https://github.com/ribru17/bamboo.nvim)"
+  },
+  {
+    "row": 231,
+    "rowsha": "q9SJC0r9DggQGTp03H0gFFDJHz+NUz0eW81B5BL2MYk=",
+    "originContent": "- [Catppuccin](https://github.com/catppuccin/nvim)",
+    "translatedContent": "- [Catppuccin](https://github.com/catppuccin/nvim)"
+  },
+  {
+    "row": 232,
+    "rowsha": "+2ZenDOuerwhqF56wJTg5EHdJ+MYdsTRuY0DYHpyueY=",
+    "originContent": "- [Everforest](https://github.com/sainnhe/everforest)",
+    "translatedContent": "- [Everforest](https://github.com/sainnhe/everforest)"
+  },
+  {
+    "row": 233,
+    "rowsha": "G8h+kT4Gxavm4Wp8MdoElALT2gBf9WWDIuZC3u/+S0k=",
+    "originContent": "- [Rosé-Pine](https://github.com/rose-pine/neovim)",
+    "translatedContent": "- [Rosé-Pine](https://github.com/rose-pine/neovim)"
+  },
+  {
+    "row": 234,
+    "rowsha": "Wlisxpmb8ynvZPeuNF9IfHVZAnLl1BNHw5tYbzmsXoo=",
+    "originContent": "- [TokyoNight](https://github.com/folke/tokyonight.nvim)",
+    "translatedContent": "- [TokyoNight](https://github.com/folke/tokyonight.nvim)"
+  },
+  {
+    "row": 235,
+    "rowsha": "Ml72vrGzCbdwNH/5qYWKDanp52Ipn++wQOYcpQZzmmg=",
+    "originContent": "- [No Clown Fiesta](https://github.com/aktersnurra/no-clown-fiesta.nvim)",
+    "translatedContent": "- [No Clown Fiesta](https://github.com/aktersnurra/no-clown-fiesta.nvim)"
+  },
+  {
+    "row": 236,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

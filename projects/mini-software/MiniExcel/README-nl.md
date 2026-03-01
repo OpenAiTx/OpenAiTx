@@ -748,9 +748,10 @@ var value = new Dictionary<string, object>()
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
-#### 3. Complexe Gegevensvulling
 
-> Opmerking: Ondersteunt meerdere tabbladen en het gebruik van dezelfde variabele
+#### 3. Complexe Gegevensinvoer
+
+> Opmerking: Ondersteunt meerdere tabbladen en gebruik van dezelfde variabele
 
 Sjabloon:
 
@@ -759,9 +760,6 @@ Sjabloon:
 Resultaat:
 
 ![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
-
-
-
 
 ```csharp
 // 1. By POCO
@@ -1109,12 +1107,11 @@ public class Dto
     public string Name { get; set; }
 }
 ```
+
+
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
-Sinds 1.24.0 ondersteunt het systeem System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
-
-
-
+Sinds versie 1.24.0 ondersteunt het systeem System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 ```C#
 public class TestIssueI4TXGTDto
@@ -1831,15 +1828,44 @@ foreach (var sheetInfo in sheets)
     Console.WriteLine($"sheet state : {sheetInfo.State} "); // sheet visibility state - visible / hidden
 }
 ```
-#### V. Zal het gebruik van Count alle gegevens in het geheugen laden?
 
-Nee, de afbeeldingstest heeft 1 miljoen rijen * 10 kolommen aan data, het maximale geheugengebruik is <60MB, en het duurt 13,65 seconden
+#### V. Hoe vul je gegevens horizontaal (van links naar rechts) in met sjablonen?
+
+A. De MiniExcel-sjabloonverzameling wordt verticaal (van boven naar beneden) uitgebreid. Horizontale (van links naar rechts) invulling wordt nog niet ondersteund (zie https://github.com/mini-software/MiniExcel/issues/619).
+
+Als je alleen de uiteindelijke lay-out nodig hebt, transponeer dan je gegevens naar een matrix en exporteer deze met `printHeader: false`:
+
+```csharp
+var employees = new[]
+{
+    new { Name = "Name1", Department = "Department1", City = "City1", Country = "Country1" },
+    new { Name = "Name2", Department = "Department2", City = "City2", Country = "Country2" },
+    new { Name = "Name3", Department = "Department3", City = "City3", Country = "Country3" },
+};
+
+var table = new DataTable();
+table.Columns.Add("A");
+for (var i = 0; i < employees.Length; i++)
+    table.Columns.Add($"B{i + 1}");
+
+table.Rows.Add(new object[] { "Name" }.Concat(employees.Select(e => (object)e.Name)).ToArray());
+table.Rows.Add(new object[] { "Department" }.Concat(employees.Select(e => (object)e.Department)).ToArray());
+table.Rows.Add(new object[] { "City" }.Concat(employees.Select(e => (object)e.City)).ToArray());
+table.Rows.Add(new object[] { "Country" }.Concat(employees.Select(e => (object)e.Country)).ToArray());
+
+MiniExcel.SaveAs(path, table, printHeader: false);
+```
+Als je een sjabloon moet gebruiken voor opmaak, is een optie om scalare placeholders te gebruiken (bijv. `{{Name_1}}`, `{{Name_2}}` ...) en een dictionary in te vullen (vereist een vast maximaal aantal kolommen).
+
+#### V. Wordt bij gebruik van Count alle data in het geheugen geladen?
+
+Nee, de beeldtest bevat 1 miljoen rijen*10 kolommen data, het maximale geheugengebruik is <60MB en het duurt 13,65 seconden
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
 #### V. Hoe gebruikt Query gehele getal indexen?
 
-De standaardindex van Query is de string Key: A,B,C.... Als u wilt overschakelen naar een numerieke index, maak dan de volgende methode aan om te converteren
+De standaardindex van Query is de string Key: A,B,C.... Als je wilt veranderen naar een numerieke index, maak dan de volgende methode aan om te converteren
 
 
 
@@ -2018,6 +2044,6 @@ Link https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
 
 ---

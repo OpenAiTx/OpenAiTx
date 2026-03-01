@@ -46,9 +46,11 @@
 
 
 # 赞助声明
-本项目由[ZMTO](https://console.vtexs.com/?affid=12967)的「开源项目免费 VPS计划」提供算力支持。
+本项目由[ZMTO](https://console.zmto.com/?affid=1593)的「开源项目免费 VPS计划」提供算力支持。
 感谢 ZMTO 对开源社区的支持！
 
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+感谢 DartNode 对开源社区的支持！
 
 ---------------
 
@@ -71,6 +73,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
 
 ---

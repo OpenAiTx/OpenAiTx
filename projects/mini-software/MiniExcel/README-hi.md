@@ -748,6 +748,7 @@ var value = new Dictionary<string, object>()
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
+
 #### 3. जटिल डेटा भरना
 
 > नोट: मल्टी-शीट्स का समर्थन करता है और एक ही वेरिएबल का उपयोग करता है
@@ -759,9 +760,6 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 परिणाम:
 
 ![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
-
-
-
 
 ```csharp
 // 1. By POCO
@@ -1111,12 +1109,9 @@ public class Dto
 ```
 
 
-
-
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 संस्करण 1.24.0 से, सिस्टम System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute का समर्थन करता है
-
 
 ```C#
 public class TestIssueI4TXGTDto
@@ -1831,15 +1826,44 @@ foreach (var sheetInfo in sheets)
     Console.WriteLine($"sheet state : {sheetInfo.State} "); // sheet visibility state - visible / hidden
 }
 ```
-#### प्रश्न: क्या Count का उपयोग करने से सारा डेटा मेमोरी में लोड हो जाएगा?
 
-नहीं, इमेज टेस्ट में 1 मिलियन पंक्तियाँ * 10 कॉलम का डेटा है, अधिकतम मेमोरी उपयोग <60MB है, और इसमें 13.65 सेकंड लगते हैं
+#### प्रश्न. टेम्प्लेट के साथ डेटा को क्षैतिज (बाएँ से दाएँ) कैसे भरें?
+
+उत्तर: MiniExcel टेम्प्लेट संग्रह रेंडरिंग लंबवत (ऊपर से नीचे) विस्तार करती है। क्षैतिज (बाएँ से दाएँ) भरना अभी समर्थित नहीं है (देखें https://github.com/mini-software/MiniExcel/issues/619)।
+
+यदि आपको केवल अंतिम लेआउट चाहिए, तो अपने डेटा को मैट्रिक्स में ट्रांसपोज करें और उसे `printHeader: false` के साथ एक्सपोर्ट करें:
+
+```csharp
+var employees = new[]
+{
+    new { Name = "Name1", Department = "Department1", City = "City1", Country = "Country1" },
+    new { Name = "Name2", Department = "Department2", City = "City2", Country = "Country2" },
+    new { Name = "Name3", Department = "Department3", City = "City3", Country = "Country3" },
+};
+
+var table = new DataTable();
+table.Columns.Add("A");
+for (var i = 0; i < employees.Length; i++)
+    table.Columns.Add($"B{i + 1}");
+
+table.Rows.Add(new object[] { "Name" }.Concat(employees.Select(e => (object)e.Name)).ToArray());
+table.Rows.Add(new object[] { "Department" }.Concat(employees.Select(e => (object)e.Department)).ToArray());
+table.Rows.Add(new object[] { "City" }.Concat(employees.Select(e => (object)e.City)).ToArray());
+table.Rows.Add(new object[] { "Country" }.Concat(employees.Select(e => (object)e.Country)).ToArray());
+
+MiniExcel.SaveAs(path, table, printHeader: false);
+```
+यदि आपको स्टाइलिंग के लिए एक टेम्पलेट का उपयोग करना आवश्यक है, तो एक विकल्प है स्केलर प्लेसहोल्डर्स (जैसे `{{Name_1}}`, `{{Name_2}}` ...) का उपयोग करना और एक शब्दकोश भरना (जिसके लिए अधिकतम कॉलमों की एक निश्चित संख्या आवश्यक होती है)।
+
+#### प्रश्न: क्या Count का उपयोग करने पर सभी डेटा मेमोरी में लोड हो जाएगा?
+
+नहीं, इमेज टेस्ट में 1 मिलियन पंक्तियाँ*10 कॉलम का डेटा है, अधिकतम मेमोरी उपयोग <60MB है, और इसमें 13.65 सेकंड लगते हैं
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
-#### प्रश्न: Query में पूर्णांक इंडेक्स का उपयोग कैसे करें?
+#### प्रश्न: Query में integer index का उपयोग कैसे करें?
 
-Query का डिफ़ॉल्ट इंडेक्स स्ट्रिंग Key होता है: A,B,C.... यदि आप इसे संख्यात्मक इंडेक्स में बदलना चाहते हैं, तो कृपया निम्नलिखित विधि बनाएं ताकि इसे कन्वर्ट किया जा सके
+Query का डिफ़ॉल्ट इंडेक्स string Key है: A,B,C.... यदि आप इसे संख्यात्मक इंडेक्स में बदलना चाहते हैं, तो कृपया निम्नलिखित विधि बनाएं ताकि कन्वर्ट किया जा सके
 
 
 
@@ -2018,6 +2042,6 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
 
 ---

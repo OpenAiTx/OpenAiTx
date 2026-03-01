@@ -753,12 +753,9 @@ var value = new Dictionary<string, object>()
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
 
-
-
-
 #### 3. تعبئة البيانات المعقدة
 
-> ملاحظة: يدعم جداول متعددة واستخدام نفس المتغير
+> ملاحظة: يدعم تعدد الأوراق واستخدام نفس المتغير
 
 القالب:
 
@@ -767,7 +764,6 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 النتيجة:
 
 ![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
-
 
 ```csharp
 // 1. By POCO
@@ -1117,12 +1113,9 @@ public class Dto
 ```
 
 
-
-
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 منذ الإصدار 1.24.0، يدعم النظام System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
-
 
 ```C#
 public class TestIssueI4TXGTDto
@@ -1841,17 +1834,46 @@ foreach (var sheetInfo in sheets)
     Console.WriteLine($"sheet state : {sheetInfo.State} "); // sheet visibility state - visible / hidden
 }
 ```
-#### س. هل استخدام Count سيؤدي إلى تحميل جميع البيانات في الذاكرة؟
 
-لا، اختبار الصورة يحتوي على مليون صف * 10 أعمدة من البيانات، وأقصى استخدام للذاكرة هو أقل من 60 ميجابايت، ويستغرق 13.65 ثانية
+#### س. كيف يمكن تعبئة البيانات أفقيًا (من اليسار إلى اليمين) باستخدام القوالب؟
+
+ج. عرض قوالب MiniExcel يتمدد عموديًا (من الأعلى إلى الأسفل). التعبئة الأفقية (من اليسار إلى اليمين) غير مدعومة حتى الآن (انظر https://github.com/mini-software/MiniExcel/issues/619).
+
+إذا كنت بحاجة فقط إلى الشكل النهائي، قم بتحويل بياناتك إلى مصفوفة وصدّرها مع `printHeader: false`:
+
+```csharp
+var employees = new[]
+{
+    new { Name = "Name1", Department = "Department1", City = "City1", Country = "Country1" },
+    new { Name = "Name2", Department = "Department2", City = "City2", Country = "Country2" },
+    new { Name = "Name3", Department = "Department3", City = "City3", Country = "Country3" },
+};
+
+var table = new DataTable();
+table.Columns.Add("A");
+for (var i = 0; i < employees.Length; i++)
+    table.Columns.Add($"B{i + 1}");
+
+table.Rows.Add(new object[] { "Name" }.Concat(employees.Select(e => (object)e.Name)).ToArray());
+table.Rows.Add(new object[] { "Department" }.Concat(employees.Select(e => (object)e.Department)).ToArray());
+table.Rows.Add(new object[] { "City" }.Concat(employees.Select(e => (object)e.City)).ToArray());
+table.Rows.Add(new object[] { "Country" }.Concat(employees.Select(e => (object)e.Country)).ToArray());
+
+MiniExcel.SaveAs(path, table, printHeader: false);
+```
+إذا كان لا بد من استخدام قالب للتنسيق، فإن أحد الخيارات هو استخدام عناصر نائبة عددية (مثل `{{Name_1}}`, `{{Name_2}}` ...) وملء قاموس (يتطلب عدد أعمدة ثابت كحد أقصى).
+
+
+
+#### س. هل استخدام Count سيحمّل جميع البيانات في الذاكرة؟
+
+لا، اختبار الصورة يحتوي على مليون صف * 10 أعمدة من البيانات، وأقصى استخدام للذاكرة أقل من 60 ميجابايت، ويستغرق 13.65 ثانية
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
-#### س. كيف يستخدم الاستعلام الفهارس الرقمية؟
+#### س. كيف تستخدم Query الفهارس الرقمية؟
 
-الفهرس الافتراضي في الاستعلام هو مفتاح نصي: A,B,C.... إذا كنت تريد تغييره إلى فهرس رقمي، يرجى إنشاء الطريقة التالية للتحويل
-
-
+الفهرس الافتراضي في Query هو المفتاح النصي: A,B,C.... إذا كنت تريد التغيير إلى فهرس رقمي، يرجى إنشاء الطريقة التالية للتحويل
 
 ```csharp
 void Main()
@@ -2030,6 +2052,6 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
 
 ---

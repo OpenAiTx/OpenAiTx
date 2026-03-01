@@ -755,9 +755,10 @@ var value = new Dictionary<string, object>()
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
+
 #### 3. 複雜資料填充
 
-> 注意：支援多工作表並使用相同變數
+> 注意：支援多工作表及相同變數使用
 
 範本：
 
@@ -766,9 +767,6 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 結果：
 
 ![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
-
-
-
 
 ```csharp
 // 1. By POCO
@@ -1122,12 +1120,9 @@ public class Dto
 ```
 
 
-
-
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
-自 1.24.0 版本起，系統支援 System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
-
+自從 1.24.0 版本開始，系統支援 System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 ```C#
 public class TestIssueI4TXGTDto
@@ -1846,15 +1841,44 @@ foreach (var sheetInfo in sheets)
     Console.WriteLine($"sheet state : {sheetInfo.State} "); // sheet visibility state - visible / hidden
 }
 ```
-#### Q. 使用 Count 會將所有資料載入記憶體嗎？
 
-不會，影像測試有 1 百萬行*10 列的資料，最大記憶體用量小於 60MB，耗時 13.65 秒
+#### 問：如何使用範本將資料水平（由左至右）填充？
+
+答：MiniExcel 範本集合渲染是垂直展開（由上到下）。目前尚未支援水平（由左至右）填充（請參見 https://github.com/mini-software/MiniExcel/issues/619）。
+
+如果您只需要最終的版面配置，請將您的資料轉置為矩陣，並使用 `printHeader: false` 進行匯出：
+
+```csharp
+var employees = new[]
+{
+    new { Name = "Name1", Department = "Department1", City = "City1", Country = "Country1" },
+    new { Name = "Name2", Department = "Department2", City = "City2", Country = "Country2" },
+    new { Name = "Name3", Department = "Department3", City = "City3", Country = "Country3" },
+};
+
+var table = new DataTable();
+table.Columns.Add("A");
+for (var i = 0; i < employees.Length; i++)
+    table.Columns.Add($"B{i + 1}");
+
+table.Rows.Add(new object[] { "Name" }.Concat(employees.Select(e => (object)e.Name)).ToArray());
+table.Rows.Add(new object[] { "Department" }.Concat(employees.Select(e => (object)e.Department)).ToArray());
+table.Rows.Add(new object[] { "City" }.Concat(employees.Select(e => (object)e.City)).ToArray());
+table.Rows.Add(new object[] { "Country" }.Concat(employees.Select(e => (object)e.Country)).ToArray());
+
+MiniExcel.SaveAs(path, table, printHeader: false);
+```
+如果你必須使用範本來進行樣式設計，一個選擇是使用純量佔位符（例如 `{{Name_1}}`、`{{Name_2}}` ...），並填充一個字典（需要固定最大欄位數）。
+
+#### 問：Count 是否會將所有資料載入記憶體？
+
+不會，影像測試有 100 萬列*10 欄的資料，最大記憶體使用量 <60MB，耗時 13.65 秒
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
-#### Q. Query 如何使用整數索引？
+#### 問：Query 如何使用整數索引？
 
-Query 的預設索引是字串 Key: A,B,C.... 如果要改為數字索引，請建立以下方法進行轉換
+Query 的預設索引是字串 Key：A,B,C.... 若要改為數字索引，請建立以下方法進行轉換
 
 
 
@@ -2035,6 +2059,6 @@ public static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useH
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
 
 ---

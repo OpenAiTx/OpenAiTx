@@ -749,9 +749,10 @@ var value = new Dictionary<string, object>()
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
-#### 3. 複雑なデータの埋め込み
 
-> 注意: 複数シートをサポートし、同じ変数を使用可能
+#### 3. 複雑なデータの入力
+
+> 注意: 複数シートのサポートおよび同じ変数の使用
 
 テンプレート:
 
@@ -760,9 +761,6 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 結果:
 
 ![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
-
-
-
 
 ```csharp
 // 1. By POCO
@@ -1110,12 +1108,11 @@ public class Dto
     public string Name { get; set; }
 }
 ```
+
+
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
-バージョン1.24.0以降、システムはSystem.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttributeをサポートします。
-
-
-
+バージョン1.24.0以降、システムはSystem.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttributeをサポートしています
 
 ```C#
 public class TestIssueI4TXGTDto
@@ -1838,15 +1835,44 @@ foreach (var sheetInfo in sheets)
     Console.WriteLine($"sheet state : {sheetInfo.State} "); // sheet visibility state - visible / hidden
 }
 ```
-#### Q. Countを使用するとすべてのデータがメモリにロードされますか？
 
-いいえ、イメージテストは100万行×10列のデータで、最大メモリ使用量は60MB未満、所要時間は13.65秒です
+#### Q. テンプレートを使ってデータを横方向（左から右へ）に入力する方法は？
+
+A. MiniExcelのテンプレートコレクションレンダリングは縦方向（上から下へ）に展開されます。横方向（左から右へ）の入力はまだ対応していません（詳細は https://github.com/mini-software/MiniExcel/issues/619 を参照）。
+
+最終的なレイアウトだけが必要な場合は、データを行列に転置して `printHeader: false` でエクスポートしてください。
+
+```csharp
+var employees = new[]
+{
+    new { Name = "Name1", Department = "Department1", City = "City1", Country = "Country1" },
+    new { Name = "Name2", Department = "Department2", City = "City2", Country = "Country2" },
+    new { Name = "Name3", Department = "Department3", City = "City3", Country = "Country3" },
+};
+
+var table = new DataTable();
+table.Columns.Add("A");
+for (var i = 0; i < employees.Length; i++)
+    table.Columns.Add($"B{i + 1}");
+
+table.Rows.Add(new object[] { "Name" }.Concat(employees.Select(e => (object)e.Name)).ToArray());
+table.Rows.Add(new object[] { "Department" }.Concat(employees.Select(e => (object)e.Department)).ToArray());
+table.Rows.Add(new object[] { "City" }.Concat(employees.Select(e => (object)e.City)).ToArray());
+table.Rows.Add(new object[] { "Country" }.Concat(employees.Select(e => (object)e.Country)).ToArray());
+
+MiniExcel.SaveAs(path, table, printHeader: false);
+```
+スタイリングのためにテンプレートを使用する必要がある場合、1つの方法としてスカラープレースホルダー（例：`{{Name_1}}`, `{{Name_2}}` ...）を使用し、辞書を埋める方法があります（固定された最大列数が必要です）。
+
+#### Q. Countを使用すると全データがメモリにロードされますか？
+
+いいえ、画像テストには100万行×10列のデータがあり、最大メモリ使用量は60MB未満で、13.65秒かかります。
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
-#### Q. Queryはどのように整数インデックスを使用しますか？
+#### Q. Queryで整数インデックスを使うには？
 
-Queryのデフォルトインデックスは文字列キー：A,B,C...です。数値インデックスに変更したい場合は、以下のメソッドを作成して変換してください
+Queryのデフォルトインデックスは文字列Key（A,B,C...）です。数値インデックスに変更したい場合は、以下のメソッドを作成して変換してください。
 
 
 
@@ -2023,6 +2049,6 @@ Streamクラスを使用して、ファイル作成のロジックをカスタ�
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
 
 ---

@@ -752,9 +752,10 @@ var value = new Dictionary<string, object>()
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
+
 #### 3. Complex Data Fill
 
-> Note: Supports multiple sheets and using the same variable
+> Note: Support multi-sheets and using same variable
 
 Template:
 
@@ -763,9 +764,6 @@ Template:
 Result:
 
 ![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
-
-
-
 
 ```csharp
 // 1. By POCO
@@ -1115,12 +1113,9 @@ public class Dto
 ```
 
 
-
-
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 Since version 1.24.0, the system supports System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
-
 
 ```C#
 public class TestIssueI4TXGTDto
@@ -1844,17 +1839,46 @@ foreach (var sheetInfo in sheets)
     Console.WriteLine($"sheet state : {sheetInfo.State} "); // sheet visibility state - visible / hidden
 }
 ```
-#### Q. Whether using Count will load all data into memory?
 
-No, in the image test with 1 million rows * 10 columns of data, the peak memory usage is <60MB, and it takes 13.65 seconds.
+#### Q. How to fill data horizontally (left-to-right) with templates?
+
+A. MiniExcel template collection rendering expands vertically (top-to-bottom). Horizontal (left-to-right) fill isn't supported yet (see https://github.com/mini-software/MiniExcel/issues/619).
+
+If you just need the final layout, transpose your data into a matrix and export it with `printHeader: false`:
+
+```csharp
+var employees = new[]
+{
+    new { Name = "Name1", Department = "Department1", City = "City1", Country = "Country1" },
+    new { Name = "Name2", Department = "Department2", City = "City2", Country = "Country2" },
+    new { Name = "Name3", Department = "Department3", City = "City3", Country = "Country3" },
+};
+
+var table = new DataTable();
+table.Columns.Add("A");
+for (var i = 0; i < employees.Length; i++)
+    table.Columns.Add($"B{i + 1}");
+
+table.Rows.Add(new object[] { "Name" }.Concat(employees.Select(e => (object)e.Name)).ToArray());
+table.Rows.Add(new object[] { "Department" }.Concat(employees.Select(e => (object)e.Department)).ToArray());
+table.Rows.Add(new object[] { "City" }.Concat(employees.Select(e => (object)e.City)).ToArray());
+table.Rows.Add(new object[] { "Country" }.Concat(employees.Select(e => (object)e.Country)).ToArray());
+
+MiniExcel.SaveAs(path, table, printHeader: false);
+```
+
+If you must use a template for styling, one option is to use scalar placeholders (e.g. `{{Name_1}}`, `{{Name_2}}` ...) and fill a dictionary (requires a fixed maximum number of columns).
+
+
+#### Q. Will using Count load all data into memory?
+
+No, the image test contains 1 million rows*10 columns of data, the maximum memory usage is <60MB, and it takes 13.65 seconds
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
 #### Q. How does Query use integer indexes?
 
-The default index of Query is the string Key: A,B,C.... If you want to switch to numeric indexes, please create the following method for conversion.
-
-
+The default index for Query is the string Key: A,B,C.... If you want to switch to numeric index, please create the following method to convert
 
 ```csharp
 void Main()
@@ -2033,6 +2057,6 @@ Link https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
 
 ---

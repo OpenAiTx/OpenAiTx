@@ -746,9 +746,10 @@ var value = new Dictionary<string, object>()
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
+
 #### 3. Compilazione Dati Complessi
 
-> Nota: Supporta più fogli e utilizzo della stessa variabile
+> Nota: Supporta multi-fogli e utilizzo della stessa variabile
 
 Template:
 
@@ -757,9 +758,6 @@ Template:
 Risultato:
 
 ![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
-
-
-
 
 ```csharp
 // 1. By POCO
@@ -1107,12 +1105,11 @@ public class Dto
     public string Name { get; set; }
 }
 ```
+
+
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 Dalla versione 1.24.0, il sistema supporta System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
-
-
-
 
 ```C#
 public class TestIssueI4TXGTDto
@@ -1829,17 +1826,46 @@ foreach (var sheetInfo in sheets)
     Console.WriteLine($"sheet state : {sheetInfo.State} "); // sheet visibility state - visible / hidden
 }
 ```
-#### D. L'utilizzo di Count caricherà tutti i dati in memoria?
 
-No, il test sull'immagine ha 1 milione di righe * 10 colonne di dati, l'utilizzo massimo della memoria è <60MB e ci vogliono 13,65 secondi
+#### D. Come compilare i dati orizzontalmente (da sinistra a destra) con i modelli?
+
+R. Il rendering della raccolta di modelli MiniExcel si espande verticalmente (dall'alto verso il basso). Il riempimento orizzontale (da sinistra a destra) non è ancora supportato (vedi https://github.com/mini-software/MiniExcel/issues/619).
+
+Se ti serve solo il layout finale, trasponi i tuoi dati in una matrice ed esportali con `printHeader: false`:
+
+```csharp
+var employees = new[]
+{
+    new { Name = "Name1", Department = "Department1", City = "City1", Country = "Country1" },
+    new { Name = "Name2", Department = "Department2", City = "City2", Country = "Country2" },
+    new { Name = "Name3", Department = "Department3", City = "City3", Country = "Country3" },
+};
+
+var table = new DataTable();
+table.Columns.Add("A");
+for (var i = 0; i < employees.Length; i++)
+    table.Columns.Add($"B{i + 1}");
+
+table.Rows.Add(new object[] { "Name" }.Concat(employees.Select(e => (object)e.Name)).ToArray());
+table.Rows.Add(new object[] { "Department" }.Concat(employees.Select(e => (object)e.Department)).ToArray());
+table.Rows.Add(new object[] { "City" }.Concat(employees.Select(e => (object)e.City)).ToArray());
+table.Rows.Add(new object[] { "Country" }.Concat(employees.Select(e => (object)e.Country)).ToArray());
+
+MiniExcel.SaveAs(path, table, printHeader: false);
+```
+
+Se devi utilizzare un template per lo stile, una opzione è usare segnaposto scalari (ad es. `{{Name_1}}`, `{{Name_2}}` ...) e riempire un dizionario (richiede un numero massimo fisso di colonne).
+
+
+#### D. L'utilizzo di Count carica tutti i dati in memoria?
+
+No, il test con immagini ha 1 milione di righe*10 colonne di dati, l'utilizzo massimo della memoria è <60MB e impiega 13,65 secondi
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
-#### D. Come utilizza Query gli indici interi?
+#### D. Come Query utilizza indici interi?
 
-L'indice predefinito di Query è la chiave stringa: A,B,C.... Se si desidera passare a un indice numerico, creare il seguente metodo di conversione
-
-
+L'indice predefinito di Query è la chiave stringa: A,B,C.... Se vuoi cambiare ad un indice numerico, crea il seguente metodo per convertire
 
 ```csharp
 void Main()
@@ -2018,6 +2044,6 @@ Link https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
 
 ---

@@ -748,9 +748,10 @@ var value = new Dictionary<string, object>()
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
-#### 3. Remplissage de Données Complexes
 
-> Remarque : Prend en charge les multi-feuilles et l’utilisation de la même variable
+#### 3. Remplissage de données complexes
+
+> Remarque : Prise en charge des feuilles multiples et utilisation de la même variable
 
 Modèle :
 
@@ -759,9 +760,6 @@ Modèle :
 Résultat :
 
 ![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
-
-
-
 
 ```csharp
 // 1. By POCO
@@ -1115,12 +1113,9 @@ public class Dto
 ```
 
 
-
-
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 Depuis la version 1.24.0, le système prend en charge System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
-
 
 ```C#
 public class TestIssueI4TXGTDto
@@ -1833,17 +1828,46 @@ foreach (var sheetInfo in sheets)
     Console.WriteLine($"sheet state : {sheetInfo.State} "); // sheet visibility state - visible / hidden
 }
 ```
-#### Q. Est-ce que l'utilisation de Count charge toutes les données en mémoire ?
 
-Non, le test d'image contient 1 million de lignes * 10 colonnes de données, l'utilisation maximale de la mémoire est <60 Mo, et cela prend 13,65 secondes
+#### Q. Comment remplir des données horizontalement (de gauche à droite) avec des modèles ?
+
+R. Le rendu de collection de modèles MiniExcel s'étend verticalement (de haut en bas). Le remplissage horizontal (de gauche à droite) n'est pas encore pris en charge (voir https://github.com/mini-software/MiniExcel/issues/619).
+
+Si vous avez simplement besoin de la disposition finale, transposez vos données en une matrice et exportez-la avec `printHeader: false` :
+
+```csharp
+var employees = new[]
+{
+    new { Name = "Name1", Department = "Department1", City = "City1", Country = "Country1" },
+    new { Name = "Name2", Department = "Department2", City = "City2", Country = "Country2" },
+    new { Name = "Name3", Department = "Department3", City = "City3", Country = "Country3" },
+};
+
+var table = new DataTable();
+table.Columns.Add("A");
+for (var i = 0; i < employees.Length; i++)
+    table.Columns.Add($"B{i + 1}");
+
+table.Rows.Add(new object[] { "Name" }.Concat(employees.Select(e => (object)e.Name)).ToArray());
+table.Rows.Add(new object[] { "Department" }.Concat(employees.Select(e => (object)e.Department)).ToArray());
+table.Rows.Add(new object[] { "City" }.Concat(employees.Select(e => (object)e.City)).ToArray());
+table.Rows.Add(new object[] { "Country" }.Concat(employees.Select(e => (object)e.Country)).ToArray());
+
+MiniExcel.SaveAs(path, table, printHeader: false);
+```
+
+Si vous devez utiliser un modèle pour le style, une option consiste à utiliser des espaces réservés scalaires (par exemple `{{Name_1}}`, `{{Name_2}}` ...) et à remplir un dictionnaire (nécessite un nombre fixe maximum de colonnes).
+
+
+#### Q. Est-ce que l’utilisation de Count chargera toutes les données en mémoire ?
+
+Non, le test sur l'image comporte 1 million de lignes*10 colonnes de données, l’utilisation maximale de la mémoire est <60 Mo, et cela prend 13,65 secondes
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
-#### Q. Comment Query utilise-t-il les index entiers ?
+#### Q. Comment Query utilise-t-il des index entiers ?
 
-L'index par défaut de Query est la clé chaîne de caractères : A,B,C.... Si vous souhaitez passer à un index numérique, veuillez créer la méthode suivante pour convertir
-
-
+L’index par défaut de Query est la clé chaîne : A,B,C.... Si vous souhaitez passer à un index numérique, veuillez créer la méthode suivante pour convertir
 
 ```csharp
 void Main()
@@ -2018,6 +2042,6 @@ Lien https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
 
 ---

@@ -1,0 +1,890 @@
+[
+  {
+    "row": 1,
+    "rowsha": "FM96WaK2X5LOYQ44vHKYSIR3tdQwl315vjgXsEdYod4=",
+    "originContent": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/dev.b3nedikt.viewpump/viewpump/badge.svg)](https://maven-badges.herokuapp.com/maven-central/dev.b3nedikt.viewpump/viewpump)",
+    "translatedContent": "[![Maven Central](https://maven-badges.herokuapp.com/maven-central/dev.b3nedikt.viewpump/viewpump/badge.svg)](https://maven-badges.herokuapp.com/maven-central/dev.b3nedikt.viewpump/viewpump)"
+  },
+  {
+    "row": 2,
+    "rowsha": "fIgUamSgl/06QPpQDCK1PKE+B0UeS1SfinYP4ulwUH0=",
+    "originContent": "[![Documentation](https://javadoc.io/badge2/dev.b3nedikt.viewpump/viewpump/javadoc.svg)](https://javadoc.io/doc/dev.b3nedikt.viewpump/viewpump)",
+    "translatedContent": "[![Documentation](https://javadoc.io/badge2/dev.b3nedikt.viewpump/viewpump/javadoc.svg)](https://javadoc.io/doc/dev.b3nedikt.viewpump/viewpump)"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "HBdMFpubwS4UV/1AWNcVd8n+3d9IiTF4F9RPtfsSOOY=",
+    "originContent": "# ViewPump 4.0.15",
+    "translatedContent": "# ViewPump 4.0.15"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "kgYUJq+EKP5xtk1qcjydhXmjQJPrD4GIKvomWOaoIjs=",
+    "originContent": "View inflation you can intercept using an API of pre/post-inflation interceptors.",
+    "translatedContent": "通过预加载/后加载拦截器的API，您可以拦截视图膨胀。"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "eetlngBf9IRRYZknBdo+Zo5q71Wk5hbFmnHDAzfrtps=",
+    "originContent": "## Getting started",
+    "translatedContent": "## 快速开始"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "cXFo35hNMXwiDNU1qsfhoHw0aNbYSS1rPpdmNvmgkBE=",
+    "originContent": "### Dependency",
+    "translatedContent": "### 依赖"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "4kdR2DLrKofFm67MxIjgER0SdVDqVx+tRHdHM3pFa3M=",
+    "originContent": "Include the dependencies:",
+    "translatedContent": "包含以下依赖："
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "g+Aw4cPfqPDCPTiCNsZQbUB3bA7JGQHvl59DgSeEmNM=",
+    "originContent": "```groovy",
+    "translatedContent": "```groovy"
+  },
+  {
+    "row": 15,
+    "rowsha": "YiU0BYrj6/iCE+VQzVtTmQYPeT0yaMuVWxaQJ1+t/zA=",
+    "originContent": "dependencies {",
+    "translatedContent": "dependencies {"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "QREfolDYtFMf3KmNTyzc7xcrqGMA18mXbhCt5mZ8R8I=",
+    "originContent": "    implementation 'androidx.appcompat:appcompat:1.5.1'",
+    "translatedContent": "    implementation 'androidx.appcompat:appcompat:1.5.1'"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "0m8dARe6uTmvLOz0eiulLeS31DHFo6kpw2v3tSjR3/Q=",
+    "originContent": "    implementation 'dev.b3nedikt.viewpump:viewpump:4.0.15'",
+    "translatedContent": "    implementation 'dev.b3nedikt.viewpump:viewpump:4.0.15'"
+  },
+  {
+    "row": 20,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 21,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+    "originContent": "### Usage",
+    "translatedContent": "### 用法"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "V0ttAdhSBR2FT4c9MPsfkemb7qMS48W2961enTJYnPI=",
+    "originContent": "Define your interceptor. Below is a somewhat arbitrary example of a post-inflation interceptor that prefixes the text in a TextView.",
+    "translatedContent": "定义你的拦截器。下面是一个比较随意的示例，展示了一个在膨胀后拦截的拦截器，它会给 TextView 中的文本添加前缀。"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 28,
+    "rowsha": "VRk3eycz7u7IqQLtI3MTWBWBkCEW/C8EvBevbqEqAQA=",
+    "originContent": "public class TextUpdatingInterceptor implements Interceptor {",
+    "translatedContent": "public class TextUpdatingInterceptor implements Interceptor {"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "8bnWyviDcngko/FflxlThelDdYJ3M/u9uSjnOs458kM=",
+    "originContent": "  @Override",
+    "translatedContent": "  @Override"
+  },
+  {
+    "row": 31,
+    "rowsha": "Vpl8ozq32WqV89SP1IU6HyE/QGmATnAotKgKTkSV3ko=",
+    "originContent": "  public InflateResult intercept(Chain chain) {",
+    "translatedContent": "  public InflateResult intercept(Chain chain) {"
+  },
+  {
+    "row": 32,
+    "rowsha": "TQW1nBxoj3ESeXBmnFzUuaBSSkvWluaMrbmJn9iIS+o=",
+    "originContent": "    InflateResult result = chain.proceed(chain.request());",
+    "translatedContent": "    InflateResult result = chain.proceed(chain.request());"
+  },
+  {
+    "row": 33,
+    "rowsha": "1CG9SV5dJ4Ouy+xmFgyMCd2brG4LJXVKUdOFsQrmU+k=",
+    "originContent": "    if (result.view() instanceof TextView) {",
+    "translatedContent": "    if (result.view() instanceof TextView) {"
+  },
+  {
+    "row": 34,
+    "rowsha": "qT+q+vs9JupcO72yICLDZBDtjrcAiSH6Ah2lTMOnsyg=",
+    "originContent": "      // Do something to result.view()",
+    "translatedContent": "      // Do something to result.view()"
+  },
+  {
+    "row": 35,
+    "rowsha": "dcvnPZIvsNGWeizGGlEXZTct9Ldss7IniZ1B/2UL3ZA=",
+    "originContent": "      // You have access to result.context() and result.attrs()",
+    "translatedContent": "      // You have access to result.context() and result.attrs()"
+  },
+  {
+    "row": 36,
+    "rowsha": "VBO5ldrVyM2Lx5LjUq/lYnj25nN2EznXsZDdhGZOfew=",
+    "originContent": "      TextView textView = (TextView) result.view();",
+    "translatedContent": "      TextView textView = (TextView) result.view();"
+  },
+  {
+    "row": 37,
+    "rowsha": "/JfV+83ZrY1B+3Vd4cGDymzZ9RWAazNGSL3zl2TBVms=",
+    "originContent": "      textView.setText(\"[Prefix] \" + textView.getText());",
+    "translatedContent": "      textView.setText(\"[Prefix] \" + textView.getText());"
+  },
+  {
+    "row": 38,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 39,
+    "rowsha": "sur2JiHEtKazRo9MzthHNi3iFAiLkjp75ajfbzdiMic=",
+    "originContent": "    return result;",
+    "translatedContent": "    return result;"
+  },
+  {
+    "row": 40,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 41,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "以下是一个预膨胀拦截器的示例，当布局的 XML 中定义了 TextView 时，它会返回一个 CustomTextView。"
+  },
+  {
+    "row": 44,
+    "rowsha": "pn0TTkvkxGbh2HgD7XFvxSB15CM4G9DivwHZxZ9LZVo=",
+    "originContent": "Below is an example of a pre-inflation interceptor that returns a CustomTextView when a TextView was defined in the layout's XML.",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 47,
+    "rowsha": "95Xi+IpfFiTPnK0b7eIdqoGTPdFxcAH368e/8REKmM8=",
+    "originContent": "public class CustomTextViewInterceptor implements Interceptor {",
+    "translatedContent": "public class CustomTextViewInterceptor implements Interceptor {"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "BpjI+IrNeZogt3x4vHCrXiS9sad7d6Kd1IhUi6H0xXU=",
+    "originContent": "  @NotNull",
+    "translatedContent": "  @NotNull"
+  },
+  {
+    "row": 50,
+    "rowsha": "8bnWyviDcngko/FflxlThelDdYJ3M/u9uSjnOs458kM=",
+    "originContent": "  @Override",
+    "translatedContent": "  @Override"
+  },
+  {
+    "row": 51,
+    "rowsha": "Vpl8ozq32WqV89SP1IU6HyE/QGmATnAotKgKTkSV3ko=",
+    "originContent": "  public InflateResult intercept(Chain chain) {",
+    "translatedContent": "  public InflateResult intercept(Chain chain) {"
+  },
+  {
+    "row": 52,
+    "rowsha": "tIKef1N7f/ohJhNHLRS4e3KmGxS6he7I64GSXXzgI6U=",
+    "originContent": "    InflateRequest request = chain.request();",
+    "translatedContent": "    InflateRequest request = chain.request();"
+  },
+  {
+    "row": 53,
+    "rowsha": "vBqx4vPkx8eQn/bxs0k2qtMASUCYJIyBhYbbEVfD7V4=",
+    "originContent": "    View view = inflateView(",
+    "translatedContent": "    View view = inflateView("
+  },
+  {
+    "row": 54,
+    "rowsha": "6bL3MmkDJCJa67DcoKsnFGpfNIeoeuIGnjz6O8nzpNw=",
+    "originContent": "      request.getName(),",
+    "translatedContent": "      request.getName(),"
+  },
+  {
+    "row": 55,
+    "rowsha": "Pj0xzfoooMIe9JuT9ecY8lTkmz9OtOfm20PTOUF8i2c=",
+    "originContent": "      request.getContext(),",
+    "translatedContent": "      request.getContext(),"
+  },
+  {
+    "row": 56,
+    "rowsha": "FLMlMV7ltQDs9wUEJuEtdvMbIEKeSX5vtHGidFGULCw=",
+    "originContent": "      request.getAttrs()",
+    "translatedContent": "      request.getAttrs()"
+  },
+  {
+    "row": 57,
+    "rowsha": "Z2lMElzKjKCmJyXf71joUm6rTSJ2l9cz8FUpXZAfx3I=",
+    "originContent": "    );",
+    "translatedContent": "    );"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "hMMJTd4mtuq1Jw48/6dfOttlaLPAjVq7QcPvK5GPzpQ=",
+    "originContent": "    if (view != null) {",
+    "translatedContent": "    if (view != null) {"
+  },
+  {
+    "row": 60,
+    "rowsha": "FEMbzmTTltG2J+MMYnQ5SVPS/qX3sxHHT39uoIaerAE=",
+    "originContent": "      return new InflateResult(",
+    "translatedContent": "      return new InflateResult("
+  },
+  {
+    "row": 61,
+    "rowsha": "i7eevAAH+Y3OAZzYp2zyVgIg2F1DYjd4QAfqkjaIm88=",
+    "originContent": "        view,",
+    "translatedContent": "        view,"
+  },
+  {
+    "row": 62,
+    "rowsha": "U0XJvAsu96Wmc8JIn91HdU2RYaTQP+lLkIYVl0Yb6Q8=",
+    "originContent": "        request.getName(),",
+    "translatedContent": "        request.getName(),"
+  },
+  {
+    "row": 63,
+    "rowsha": "sDt5rkw1Hseg78pkm15brsV+SsDndQwdrhIq4R28tik=",
+    "originContent": "        request.getContext(),",
+    "translatedContent": "        request.getContext(),"
+  },
+  {
+    "row": 64,
+    "rowsha": "F+ZGG1z0EPUnD2ezcWDhckRNuHofyqv6+bkY8uayNS0=",
+    "originContent": "        request.getAttrs()",
+    "translatedContent": "        request.getAttrs()"
+  },
+  {
+    "row": 65,
+    "rowsha": "yV8xpEaBG0an/jQgYsHexMKIk93vT6bw+q8rwZR5WG4=",
+    "originContent": "      );",
+    "translatedContent": "      );"
+  },
+  {
+    "row": 66,
+    "rowsha": "1iXXq0O88YnGJrVGefga2st0aG+9pfvcLwJpmYyV0ls=",
+    "originContent": "    } else {",
+    "translatedContent": "    } else {"
+  },
+  {
+    "row": 67,
+    "rowsha": "A0fIPN2EtiLoQPRkhzD2o3YqTlsPZ+cSrqcJ3e+tRC4=",
+    "originContent": "      return chain.proceed(request);",
+    "translatedContent": "      return chain.proceed(request);"
+  },
+  {
+    "row": 68,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 69,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "i5/OhLHjKoAnfwanLic//91/IAuiyJvzg1d9L6M5kdg=",
+    "originContent": "  @Nullable",
+    "translatedContent": "  @Nullable"
+  },
+  {
+    "row": 72,
+    "rowsha": "zm0OsTOau3Hm82x1dN9LCQyf+f6IOWKi82wDc8o4w7k=",
+    "originContent": "  private View inflateView(String name, Context context, AttributeSet attrs) {",
+    "translatedContent": "  private View inflateView(String name, Context context, AttributeSet attrs) {"
+  },
+  {
+    "row": 73,
+    "rowsha": "aJXORzNzZv4/ugbHObsZd2G4NOYAD09At+oQdA+KnL8=",
+    "originContent": "    if (\"TextView\".equals(name)) {",
+    "translatedContent": "    if (\"TextView\".equals(name)) {"
+  },
+  {
+    "row": 74,
+    "rowsha": "mutYzkBkwp6IyFopMxcRQSy3AfQT/ZAdwDdylxB+9Tw=",
+    "originContent": "      return new CustomTextView(context, attrs);",
+    "translatedContent": "      return new CustomTextView(context, attrs);"
+  },
+  {
+    "row": 75,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 76,
+    "rowsha": "NsHNG+HURRx25dU4zmtPkZM2R6lRvIgdLfFf9gCdsgM=",
+    "originContent": "    return null;",
+    "translatedContent": "    return null;"
+  },
+  {
+    "row": 77,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 78,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 79,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+    "originContent": "### Installation",
+    "translatedContent": "### 安装"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "mvhqD5fWXj6cse2o5Tb75YJ1hzqLElCaA8GHTpNbOiA=",
+    "originContent": "Add your interceptors to the `ViewPump.builder()`, in your `Application` class in the `#onCreate()` method and `init` the `ViewPump`. The order of the interceptors is important since they form the interceptor chain of requests and results.",
+    "translatedContent": "在你的 `Application` 类的 `#onCreate()` 方法中，将拦截器添加到 `ViewPump.builder()`，并初始化 `ViewPump`。拦截器的顺序很重要，因为它们组成了请求和结果的拦截链。"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "TaeheDAnqf85vEaZ68FksZsfm5Qm4B8OuvPd3kuyu4E=",
+    "originContent": "An interceptor may choose to return a programmatically instantiated view rather than letting the default inflation occur, in which case interceptors added after it will be skipped. For this reason, it is better to add your post-inflation interceptors before the pre-inflation interceptors",
+    "translatedContent": "拦截器可以选择返回一个程序化实例化的视图，而不是让默认的布局膨胀发生，这种情况下，后添加的拦截器将被跳过。基于此原因，最好先添加后膨胀拦截器，再添加前膨胀拦截器。"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 88,
+    "rowsha": "OGawxg4fUcccTTzUaAfbuaYpWbNJ+g0cC7PG68zjXNY=",
+    "originContent": "@Override",
+    "translatedContent": "@Override"
+  },
+  {
+    "row": 89,
+    "rowsha": "R1NO/bXT3TNk4bF84Q+8q5xAutjJw50MhtE4Er4s6JU=",
+    "originContent": "public void onCreate() {",
+    "translatedContent": "public void onCreate() {"
+  },
+  {
+    "row": 90,
+    "rowsha": "Jx90XCJN5WlQ0MxTldQb825n/JX2glC05SLJpN90v0M=",
+    "originContent": "    super.onCreate();",
+    "translatedContent": "    super.onCreate();"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "BLjroyTo3igdOXFwD0j8YmZGzxVJHttukm/bTidcjRQ=",
+    "originContent": "    ViewPump.init(new TextUpdatingInterceptor(), new CustomTextViewInterceptor());",
+    "translatedContent": "    ViewPump.init(new TextUpdatingInterceptor(), new CustomTextViewInterceptor());"
+  },
+  {
+    "row": 93,
+    "rowsha": "WeoEbHUjJkzR0qo19E5kH8HpgDd9hF+6ORjoK+VxrsY=",
+    "originContent": "    //....",
+    "translatedContent": "    //...."
+  },
+  {
+    "row": 94,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 95,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "6ObqEPRMTF4XQta4lR1WdrEGzrCOb/26GiSVLHmTZLg=",
+    "originContent": "### Inject into Context",
+    "translatedContent": "### 注入上下文"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "oOI+4OFKnAcKIrxr90C+pqxkJ0l+dgR+u6SyOV7Zipc=",
+    "originContent": "Add the following to your base activitiy:",
+    "translatedContent": "将以下内容添加到您的基础活动中："
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 102,
+    "rowsha": "9tU/FWgk5oWiYjmo03IGZ2NhsBIEx84Ez1hvaGPYMrY=",
+    "originContent": "public class MainActivity extends AppCompatActivity {",
+    "translatedContent": "public class MainActivity extends AppCompatActivity {"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "gicaUf2HW3rV/3rXkRZ0D0Yi5EVXxOKmrVv+BnuuIaI=",
+    "originContent": "    private AppCompatDelegate appCompatDelegate = null;",
+    "translatedContent": "    private AppCompatDelegate appCompatDelegate = null;"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+    "originContent": "    ...",
+    "translatedContent": "    ..."
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "DlgtB7XuOjxYLmOKlmw7cMHCfFfU3Lh5os84OODyMQs=",
+    "originContent": "    @NonNull",
+    "translatedContent": "    @NonNull"
+  },
+  {
+    "row": 109,
+    "rowsha": "2Ts/KC7ilQacjczK/0gDUxn8r7pJ+aGG0lmfLTT3wYA=",
+    "originContent": "    @Override",
+    "translatedContent": "    @Override"
+  },
+  {
+    "row": 110,
+    "rowsha": "8qfXc1e02WIayDPsruSPlMQ36jgs/40Qd0OiALgw5Bc=",
+    "originContent": "    public AppCompatDelegate getDelegate() {",
+    "translatedContent": "    public AppCompatDelegate getDelegate() {"
+  },
+  {
+    "row": 111,
+    "rowsha": "BFuwAafdA+ouLOo8FF34kK4FpaGHvJArpnkrPk11Zsw=",
+    "originContent": "        if (appCompatDelegate == null) {",
+    "translatedContent": "        if (appCompatDelegate == null) {"
+  },
+  {
+    "row": 112,
+    "rowsha": "b57iiPWSqVbBWkMZoiSXe99nPqrXSLxgCRiMAGjODZg=",
+    "originContent": "            appCompatDelegate = new ViewPumpAppCompatDelegate(",
+    "translatedContent": "            appCompatDelegate = new ViewPumpAppCompatDelegate("
+  },
+  {
+    "row": 113,
+    "rowsha": "vrwzrfbe3akogefjjLY3iWCDrdXin1rkGCxuZTwn/pU=",
+    "originContent": "                    super.getDelegate(),",
+    "translatedContent": "                    super.getDelegate(),"
+  },
+  {
+    "row": 114,
+    "rowsha": "YF/WIc2GzgIPQ9j597WJwdPVkHHezGfbWXGuk6x8m5M=",
+    "originContent": "                    this",
+    "translatedContent": "                    this"
+  },
+  {
+    "row": 115,
+    "rowsha": "TP8Q3DEGchm51Vip29yFq2ARapMUfh7WtjTaIXt6tXc=",
+    "originContent": "            );",
+    "translatedContent": "            );"
+  },
+  {
+    "row": 116,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 117,
+    "rowsha": "f2PXyiIpgAESLKzrMtZXXGvfKwjIybdaowHEjmANy/o=",
+    "originContent": "        return appCompatDelegate;",
+    "translatedContent": "        return appCompatDelegate;"
+  },
+  {
+    "row": 118,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 119,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 120,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "5uDRNFkthdMUGduOJgjikXsiXPZyVHyfXe1h6SqNJ4w=",
+    "originContent": "For practical examples see my libraries [Restring](https://github.com/B3nedikt/restring) or [AppLocale](https://github.com/B3nedikt/AppLocale).",
+    "translatedContent": "有关实际示例，请参阅我的库 [Restring](https://github.com/B3nedikt/restring) 或 [AppLocale](https://github.com/B3nedikt/AppLocale)。"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "H8Qxhgk8A9lbT9hEgtOT3mfd4LzTg9uUKhUji1lq6TE=",
+    "originContent": "## Collaborators",
+    "translatedContent": "## 合作者"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "LgqhvPb6rSQTEO/oPGzGUR/aluyrJTM9R2Si+LwL/Y0=",
+    "originContent": "This library was originally created by:",
+    "translatedContent": "此库最初由以下人员创建："
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "iSfzBCUbfqj3JB7ISa0wEsV0pF3PjZuGFX/oVgHhIMo=",
+    "originContent": "- [@jbarr21](https://github.com/jbarr21)",
+    "translatedContent": "- [@jbarr21](https://github.com/jbarr21)"
+  },
+  {
+    "row": 129,
+    "rowsha": "QXYkh/spDIyCmSCLidcaUfTEMvLgmgNwe7Otjm/zB30=",
+    "originContent": "- [@chrisjenx](https://github.com/chrisjenx)",
+    "translatedContent": "- [@chrisjenx](https://github.com/chrisjenx)"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "IdR2ZPdceqBXjWNCGE6ZjedhyBENerNIso7iFv+ELQM=",
+    "originContent": "My fork has nearly all the code changed though and has a slightly different API.",
+    "translatedContent": "不过我的分支几乎更改了所有代码，并且具有稍微不同的 API。"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "gdK3QSqMoWSB3WcRe9yBHo1PWA4izcd1SSzknkmm28A=",
+    "originContent": "## Licence",
+    "translatedContent": "## 许可证"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "SILdfKU2F3FrvG0kBKQyglrYkuViAJSmVhAJKo7BEaU=",
+    "originContent": "    Copyright 2017 InflationX & Contributors",
+    "translatedContent": "    版权所有 2017 InflationX 及其贡献者"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "7+PbWum3FkEfD9DDYOj7M6kYcxU46nhCqKRjvyM3xKc=",
+    "originContent": "    Licensed under the Apache License, Version 2.0 (the \"License\");",
+    "translatedContent": "    根据 Apache 许可证 2.0 版本（“许可证”）授权；"
+  },
+  {
+    "row": 138,
+    "rowsha": "sJEKzTSN722KI6tQEFawGdGKhk9uJ/vKnv//EZcFa5g=",
+    "originContent": "    you may not use this file except in compliance with the License.",
+    "translatedContent": "    您不得使用此文件，除非符合许可证。"
+  },
+  {
+    "row": 139,
+    "rowsha": "wH1Nqx+khfTadw0ySYFudDnRcm+L3pE/Gcm8GHEaT0o=",
+    "originContent": "    You may obtain a copy of the License at",
+    "translatedContent": "    您可以在以下地址获得许可证副本："
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "tDT6ThN9XIMokzrLeM+mc5uXiIP26w6Zdobz8x5zW7I=",
+    "originContent": "        http://www.apache.org/licenses/LICENSE-2.0",
+    "translatedContent": "        http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "JIpjO0w54xL/9wYDandBdKIVuD4ryhVsKCegYaviIy8=",
+    "originContent": "    Unless required by applicable law or agreed to in writing, software",
+    "translatedContent": "    除非适用法律要求或书面同意，否则按“原样”分发软件，"
+  },
+  {
+    "row": 144,
+    "rowsha": "kyLJoFyzLLNPgA4f90gouTDU8NgYIzmAHmPzC0rCEV4=",
+    "originContent": "    distributed under the License is distributed on an \"AS IS\" BASIS,",
+    "translatedContent": "    不附带任何明示或暗示的保证或条件。"
+  },
+  {
+    "row": 145,
+    "rowsha": "SvZ4EzOUdNxPz4TjAFIaKdKFe1+HNja/Jhg8HIfL7ik=",
+    "originContent": "    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+    "translatedContent": "    请参阅许可证以了解管理权限和限制的具体语言。"
+  },
+  {
+    "row": 146,
+    "rowsha": "a1OaSn895pbIIiSz+8eNKd7envz7z/+OjROWXOyem9M=",
+    "originContent": "    See the License for the specific language governing permissions and",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "BxgQVtkPqJyUUk8rtyLA5SwrgKIToKOPD7YSP5qwEL8=",
+    "originContent": "    limitations under the License.",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

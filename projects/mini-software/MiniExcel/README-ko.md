@@ -749,12 +749,9 @@ var value = new Dictionary<string, object>()
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
 
-
-
-
 #### 3. 복잡한 데이터 채우기
 
-> 참고: 다중 시트 지원 및 동일 변수 사용
+> 참고: 다중 시트 지원 및 동일 변수 사용 가능
 
 템플릿:
 
@@ -763,7 +760,6 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 결과:
 
 ![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
-
 
 ```csharp
 // 1. By POCO
@@ -1117,12 +1113,9 @@ public class Dto
 ```
 
 
-
-
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
-1.24.0 버전부터 시스템은 System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute를 지원합니다.
-
+1.24.0부터 시스템은 System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute를 지원합니다.
 
 ```C#
 public class TestIssueI4TXGTDto
@@ -1845,17 +1838,46 @@ foreach (var sheetInfo in sheets)
     Console.WriteLine($"sheet state : {sheetInfo.State} "); // sheet visibility state - visible / hidden
 }
 ```
-#### Q. Count를 사용하면 모든 데이터가 메모리에 로드되나요?
 
-아니요, 이미지 테스트에는 1백만 행*10열의 데이터가 있으며, 최대 메모리 사용량은 <60MB이고, 소요 시간은 13.65초입니다.
+#### Q. 템플릿으로 데이터를 수평(왼쪽에서 오른쪽)으로 채우려면 어떻게 해야 하나요?
+
+A. MiniExcel 템플릿 컬렉션 렌더링은 수직(위에서 아래)으로 확장됩니다. 수평(왼쪽에서 오른쪽) 채우기는 아직 지원되지 않습니다(참고: https://github.com/mini-software/MiniExcel/issues/619).
+
+최종 레이아웃만 필요하다면, 데이터를 행렬로 전치한 후 `printHeader: false` 옵션으로 내보내세요:
+
+```csharp
+var employees = new[]
+{
+    new { Name = "Name1", Department = "Department1", City = "City1", Country = "Country1" },
+    new { Name = "Name2", Department = "Department2", City = "City2", Country = "Country2" },
+    new { Name = "Name3", Department = "Department3", City = "City3", Country = "Country3" },
+};
+
+var table = new DataTable();
+table.Columns.Add("A");
+for (var i = 0; i < employees.Length; i++)
+    table.Columns.Add($"B{i + 1}");
+
+table.Rows.Add(new object[] { "Name" }.Concat(employees.Select(e => (object)e.Name)).ToArray());
+table.Rows.Add(new object[] { "Department" }.Concat(employees.Select(e => (object)e.Department)).ToArray());
+table.Rows.Add(new object[] { "City" }.Concat(employees.Select(e => (object)e.City)).ToArray());
+table.Rows.Add(new object[] { "Country" }.Concat(employees.Select(e => (object)e.Country)).ToArray());
+
+MiniExcel.SaveAs(path, table, printHeader: false);
+```
+스타일링을 위해 템플릿을 반드시 사용해야 한다면, 하나의 방법은 스칼라 플레이스홀더(예: `{{Name_1}}`, `{{Name_2}}` ...)를 사용하고 딕셔너리를 채우는 것입니다(고정된 최대 열 수가 필요함).
+
+
+
+#### Q. Count를 사용하면 모든 데이터가 메모리로 로드됩니까?
+
+아니요, 이미지 테스트는 1백만 행*10열의 데이터로 최대 메모리 사용량은 <60MB이고, 13.65초가 소요됩니다.
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
-#### Q. Query에서 정수 인덱스를 어떻게 사용하나요?
+#### Q. Query는 정수 인덱스를 어떻게 사용하나요?
 
-Query의 기본 인덱스는 문자열 Key: A,B,C...입니다. 숫자 인덱스로 변경하려면, 변환을 위한 다음 메서드를 생성하세요.
-
-
+Query의 기본 인덱스는 문자열 Key: A,B,C...입니다. 숫자 인덱스로 변경하려면 다음 메서드를 생성하여 변환하세요.
 
 ```csharp
 void Main()
@@ -2034,6 +2056,6 @@ Stream 클래스를 사용하여 파일 생성 로직을 직접 구현하세요.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
 
 ---

@@ -746,9 +746,10 @@ var value = new Dictionary<string, object>()
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
+
 #### 3. Komplexe Datenausfüllung
 
-> Hinweis: Unterstützt mehrere Tabellenblätter und die Verwendung derselben Variable
+> Hinweis: Unterstützt mehrere Tabellenblätter und die Verwendung derselben Variablen
 
 Vorlage:
 
@@ -757,9 +758,6 @@ Vorlage:
 Ergebnis:
 
 ![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
-
-
-
 
 ```csharp
 // 1. By POCO
@@ -1107,12 +1105,11 @@ public class Dto
     public string Name { get; set; }
 }
 ```
+
+
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
 Seit Version 1.24.0 unterstützt das System System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
-
-
-
 
 ```C#
 public class TestIssueI4TXGTDto
@@ -1829,17 +1826,46 @@ foreach (var sheetInfo in sheets)
     Console.WriteLine($"sheet state : {sheetInfo.State} "); // sheet visibility state - visible / hidden
 }
 ```
-#### F. Lädt die Verwendung von Count alle Daten in den Speicher?
 
-Nein, der Bildtest enthält 1 Million Zeilen * 10 Spalten Daten, die maximale Speichernutzung beträgt <60MB und es dauert 13,65 Sekunden
+#### F. Wie füllt man Daten horizontal (von links nach rechts) mit Vorlagen?
+
+A. Die MiniExcel-Vorlagensammlung wird vertikal (von oben nach unten) erweitert. Eine horizontale (von links nach rechts) Befüllung wird bisher nicht unterstützt (siehe https://github.com/mini-software/MiniExcel/issues/619).
+
+Wenn Sie nur das Endlayout benötigen, transponieren Sie Ihre Daten in eine Matrix und exportieren Sie diese mit `printHeader: false`:
+
+```csharp
+var employees = new[]
+{
+    new { Name = "Name1", Department = "Department1", City = "City1", Country = "Country1" },
+    new { Name = "Name2", Department = "Department2", City = "City2", Country = "Country2" },
+    new { Name = "Name3", Department = "Department3", City = "City3", Country = "Country3" },
+};
+
+var table = new DataTable();
+table.Columns.Add("A");
+for (var i = 0; i < employees.Length; i++)
+    table.Columns.Add($"B{i + 1}");
+
+table.Rows.Add(new object[] { "Name" }.Concat(employees.Select(e => (object)e.Name)).ToArray());
+table.Rows.Add(new object[] { "Department" }.Concat(employees.Select(e => (object)e.Department)).ToArray());
+table.Rows.Add(new object[] { "City" }.Concat(employees.Select(e => (object)e.City)).ToArray());
+table.Rows.Add(new object[] { "Country" }.Concat(employees.Select(e => (object)e.Country)).ToArray());
+
+MiniExcel.SaveAs(path, table, printHeader: false);
+```
+
+Wenn Sie eine Vorlage für das Styling verwenden müssen, besteht eine Möglichkeit darin, skalare Platzhalter zu verwenden (z.B. `{{Name_1}}`, `{{Name_2}}` ...) und ein Dictionary auszufüllen (erfordert eine feste maximale Anzahl von Spalten).
+
+
+#### F. Wird durch die Verwendung von Count sämtlicher Daten in den Speicher geladen?
+
+Nein, der Bildtest hat 1 Million Zeilen * 10 Spalten Daten, die maximale Speicherauslastung beträgt <60MB und es dauert 13,65 Sekunden
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
 #### F. Wie verwendet Query ganzzahlige Indizes?
 
-Der Standardindex von Query ist der Zeichenfolgen-Key: A,B,C.... Wenn Sie auf numerische Indizes umstellen möchten, erstellen Sie bitte die folgende Methode zur Umwandlung
-
-
+Der Standardindex von Query ist der Zeichenfolgen-Schlüssel: A,B,C.... Wenn Sie auf numerische Indizes umstellen möchten, erstellen Sie bitte die folgende Methode zur Umwandlung
 
 ```csharp
 void Main()
@@ -2016,6 +2042,6 @@ Link https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
 
 ---

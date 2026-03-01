@@ -750,9 +750,10 @@ var value = new Dictionary<string, object>()
 };
 MiniExcel.SaveAsByTemplate(path, templatePath, value);
 ```
+
 #### 3. Karmaşık Veri Doldurma
 
-> Not: Çoklu sayfa desteği ve aynı değişkenin kullanılması
+> Not: Çoklu sayfaları ve aynı değişkenin kullanılmasını destekler
 
 Şablon:
 
@@ -761,9 +762,6 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 Sonuç:
 
 ![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)
-
-
-
 
 ```csharp
 // 1. By POCO
@@ -1113,12 +1111,9 @@ public class Dto
 ```
 
 
-
-
 #### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute
 
-1.24.0'dan itibaren, sistem System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute desteğini sağlar.
-
+1.24.0 sürümünden itibaren, sistem System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute desteği sunmaktadır.
 
 ```C#
 public class TestIssueI4TXGTDto
@@ -1833,17 +1828,46 @@ foreach (var sheetInfo in sheets)
     Console.WriteLine($"sheet state : {sheetInfo.State} "); // sheet visibility state - visible / hidden
 }
 ```
-#### S. Count kullanmak tüm verileri belleğe yükler mi?
 
-Hayır, görsel testte 1 milyon satır*10 sütun veri var, maksimum bellek kullanımı <60MB ve 13,65 saniye sürüyor
+#### S. Verileri şablonlarla yatay olarak (soldan sağa) nasıl doldurabilirim?
+
+C. MiniExcel şablon koleksiyonu işleme dikey olarak (yukarıdan aşağıya) genişler. Yatay (soldan sağa) doldurma henüz desteklenmemektedir (bakınız https://github.com/mini-software/MiniExcel/issues/619).
+
+Sadece son düzeni istiyorsanız, verilerinizi bir matrise dönüştürüp `printHeader: false` ile dışa aktarabilirsiniz:
+
+```csharp
+var employees = new[]
+{
+    new { Name = "Name1", Department = "Department1", City = "City1", Country = "Country1" },
+    new { Name = "Name2", Department = "Department2", City = "City2", Country = "Country2" },
+    new { Name = "Name3", Department = "Department3", City = "City3", Country = "Country3" },
+};
+
+var table = new DataTable();
+table.Columns.Add("A");
+for (var i = 0; i < employees.Length; i++)
+    table.Columns.Add($"B{i + 1}");
+
+table.Rows.Add(new object[] { "Name" }.Concat(employees.Select(e => (object)e.Name)).ToArray());
+table.Rows.Add(new object[] { "Department" }.Concat(employees.Select(e => (object)e.Department)).ToArray());
+table.Rows.Add(new object[] { "City" }.Concat(employees.Select(e => (object)e.City)).ToArray());
+table.Rows.Add(new object[] { "Country" }.Concat(employees.Select(e => (object)e.Country)).ToArray());
+
+MiniExcel.SaveAs(path, table, printHeader: false);
+```
+
+Stil vermek için bir şablon kullanmanız gerekiyorsa, bir seçenek olarak skaler yer tutucular (ör. `{{Name_1}}`, `{{Name_2}}` ...) kullanabilir ve bir sözlük doldurabilirsiniz (sabit maksimum sütun sayısı gerektirir).
+
+
+#### S. Count kullanılırsa tüm veriler belleğe mi yüklenir?
+
+Hayır, görsel testinde 1 milyon satır*10 sütun veri var, maksimum bellek kullanımı <60MB ve 13,65 saniye sürüyor
 
 ![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)
 
-#### S. Query nasıl tamsayı indeksleri kullanır?
+#### S. Query tam sayı indekslerini nasıl kullanır?
 
-Query'nin varsayılan indeksi string Anahtar: A,B,C.... Eğer sayısal indeks kullanmak istiyorsanız, lütfen aşağıdaki yöntemi oluşturarak dönüştürün
-
-
+Query'nin varsayılan indeksi dize Anahtarıdır: A,B,C.... Sayısal indekse geçmek istiyorsanız, lütfen dönüştürmek için aşağıdaki yöntemi oluşturun
 
 ```csharp
 void Main()
@@ -2020,6 +2044,6 @@ Bağlantı https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-01
 
 ---
