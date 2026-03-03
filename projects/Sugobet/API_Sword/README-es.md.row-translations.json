@@ -1,0 +1,926 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Xdnl4EckqI/K9zPZrQJIXh3Fa9DWEzEixY72asHNReQ=",
+    "originContent": "[\\[EN-ReadMe\\]](https://github.com/Sugobet/API_Sword/blob/main/%5BEN%5D-README.md) <------ please read this",
+    "translatedContent": "[\\[EN-ReadMe\\]](https://github.com/Sugobet/API_Sword/blob/main/%5BEN%5D-README.md) <------ por favor lea esto"
+  },
+  {
+    "row": 2,
+    "rowsha": "Rp9a0/DK6NH4CbDd4n9QFzqyeAdypCRfskwnx3dxjJw=",
+    "originContent": "# 微信公众号：APT250",
+    "translatedContent": "# WeChat Public Account: APT250"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "uLsOC0vLA0q0bbmORSA22IL17OgoZ+AhDt3fEKBXqCI=",
+    "originContent": "## 秉着开源至上、交流学习的原则，API剑将于两周后（9月7日后）开源并同时上架Burp官方插件商店BApp Store，方便大家日后更新和使用，目前正在又官方进行代码审核中，相信不久后便能上线BApp Store",
+    "translatedContent": "## Siguiendo el principio de código abierto y aprendizaje colaborativo, API Sword se abrirá al público y se publicará en la tienda oficial de plugins de Burp BApp Store dentro de dos semanas (después del 7 de septiembre), para facilitar futuras actualizaciones y uso. Actualmente está en revisión de código oficial, creemos que pronto estará disponible en BApp Store."
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "bUxa/dX3xOZ+GmtZqj+tAgl2iWikmiaKIZBWMJ2BY7Y=",
+    "originContent": "# [burp新经典插件] API剑 -  全自动深度 收集各种响应中的API接口",
+    "translatedContent": "# [Nuevo plugin clásico para burp] API Sword - Recolección profunda automática de APIs en diversas respuestas"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "IES7Zi+95itSdkunJTga5NHRkmIBP8OfeQPJCA1S07A=",
+    "originContent": "jar包在release，之后上架burp官方插件商店后也可从商店下载",
+    "translatedContent": "El paquete jar está en release, y después de publicarse en la tienda oficial de plugins de burp también podrá descargarse desde la tienda."
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "lLyE3+u9pYjxYbL9TbfaTtwJFX+M0BvfpWNoWY3iiIc=",
+    "originContent": "## 前言",
+    "translatedContent": "## Prefacio"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "mC82v4czYngb4o2wD9MV/AK/vSnuOaqi+ujmLEuIg5Q=",
+    "originContent": "这个插件结合了我近期的工作内容和此前我的4万美刀赏金微软账户漏洞api的部分经验，",
+    "translatedContent": "Este plugin combina mi trabajo reciente y parte de mi experiencia previa con el premio de 40,000 dólares por vulnerabilidades en cuentas de Microsoft API."
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "olkMPC6NCZbqnXTlTduo493oDkv/DBDbcETopYoguoA=",
+    "originContent": "API剑开发者利用API剑已多次在项目上获得成果及通用0day，拥有此工具后，我再也没有手动从任何js里痛苦的查找任何接口、路径及参数。",
+    "translatedContent": "Los desarrolladores de API Sword han logrado resultados y 0days genéricos en proyectos usando API Sword. Con esta herramienta, ya no necesito buscar manualmente interfaces, rutas o parámetros en ningún js de forma dolorosa."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "feGkkGJ/5Mn+sJQ2F6IaLNvR8oDfa4+zNSF7nGTEnIk=",
+    "originContent": "![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/388ed286aff845ce8863640b37d4636e.png)",
+    "translatedContent": "![Inserte aquí la descripción de la imagen](https://i-blog.csdnimg.cn/direct/388ed286aff845ce8863640b37d4636e.png)"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "va2z/hul4TvHbezDdO/mxmrUcJwlePQP2pC9YyNsIrc=",
+    "originContent": "与众多JS Finder、URLFinder等比较火热的相关js、api挖掘工具类似，它们是非常优秀的工具，**而API剑凭借burp的特点而获得能力和优势。**",
+    "translatedContent": "Similar a muchas herramientas populares como JS Finder, URLFinder y otras para extracción de js y api, que son excelentes herramientas, **API Sword se beneficia y destaca gracias a las características de burp.**"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "B1Zs8wFdpzlxPivIidp8VVcXmYnDM8M8nVEZ7XP0oKU=",
+    "originContent": "插件主页面截图：",
+    "translatedContent": "Captura de pantalla de la página principal del plugin:"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "GPJFqsRXiWyybPkLX8KXCGriHAzPBCqeDSTfeQa80Ok=",
+    "originContent": "<img width=\"3020\" height=\"1582\" alt=\"image\" src=\"https://github.com/user-attachments/assets/e1677009-917b-4e90-a5e8-ccd067263d6e\" />",
+    "translatedContent": "<img width=\"3020\" height=\"1582\" alt=\"image\" src=\"https://github.com/user-attachments/assets/e1677009-917b-4e90-a5e8-ccd067263d6e\" />"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "TBDHbHX3cxqE0iNuTCiUznjY3mk1KVrQ/4XU8ownXZ4=",
+    "originContent": "## API剑的主要功能",
+    "translatedContent": "## Funciones principales de API Sword"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "Knu1l5YWqq6UAuN7JWj2J8dtaEXo2JM3B7+hERVmo04=",
+    "originContent": "API剑 全自动防环路，从各种响应里提取指定范围内的api和js文件，然后递归深度提取api，主动请求api、js等有价值文件",
+    "translatedContent": "API Sword previene bucles, extrae automáticamente APIs y archivos js dentro del rango especificado desde diversas respuestas, luego extrae recursivamente APIs en profundidad, solicitando activamente APIs, js y otros archivos valiosos."
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "nNrv62m6VtcufMwfzlw94szAVO2Qi7A9ob6gRnAI1aI=",
+    "originContent": "api结果所见即所得，右边的窗口显示api的来源js，可以立刻从js里面获得api的参数信息，然后burp再ctrl + r一键过去测",
+    "translatedContent": "Los resultados de las APIs son WYSIWYG, la ventana derecha muestra el js fuente de la API, donde se pueden obtener al instante los parámetros de la API, luego burp permite probar rápidamente con ctrl + r."
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "kODDfP5QlwLIzQxq1GRSiFtRam5CY10UwvGJlWroVDM=",
+    "originContent": "它没有想象的那么复杂，API剑做的事情更多是为我们**减少了大量重复耗时且无趣的js、api、api参数搜寻工作。**",
+    "translatedContent": "No es tan complejo como parece, API Sword principalmente **reduce mucho el trabajo repetitivo, tedioso y que consume tiempo de búsqueda de js, api y parámetros de api.**"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "AHbfdt4pK7wmhl6OHmSZTOABarj+vwjQCR/QDADtomc=",
+    "originContent": "1. API剑捕获经过burp的范围内的流量，并从**http响应中提取绝大多数link**",
+    "translatedContent": "1. API Sword captura el tráfico dentro del rango de burp y extrae la mayoría de los enlaces de las respuestas http."
+  },
+  {
+    "row": 33,
+    "rowsha": "1Ro8QRxJQebQUViD+T8g68bDPTMzusO0sabkaFrn+DQ=",
+    "originContent": "2. API剑将对上一步提取的任意链接、路径进行清洗，并由**API剑判断后对API、JS等主动发起GET、POST请求**",
+    "translatedContent": "2. API Sword limpia cualquier enlace o ruta extraída en el paso anterior, y con su juicio propio realiza solicitudes GET o POST activas a APIs, JS, etc."
+  },
+  {
+    "row": 34,
+    "rowsha": "4Zo3Ua1NxoHPcEDpV0KZN75ir0PGxjZJIx9zJO6A3YY=",
+    "originContent": "3. API剑对上一步主动请求的响应进一步的处理，继续从响应中提取信息，并重复上一步的动作，**API剑具有防环路功能，无需担心死循环请求问题**",
+    "translatedContent": "3. API Sword procesa las respuestas de estas solicitudes activas, extrae más información y repite el paso anterior. **API Sword tiene prevención de bucles para evitar solicitudes en ciclo infinito.**"
+  },
+  {
+    "row": 35,
+    "rowsha": "CMo4+QLzCR0sp69NaaEMCN+ePv/F6WTsGmyxYYWDmf4=",
+    "originContent": "4. API剑对所有符合条件的API请求、响应，以及该API接口来源的js文件响应，全部推送到API剑的burp GUI中",
+    "translatedContent": "4. API Sword envía todas las solicitudes y respuestas API que cumplen condiciones, así como las respuestas de los archivos js fuente, al GUI de burp de API Sword."
+  },
+  {
+    "row": 36,
+    "rowsha": "mKRT37gg3UlH91zJbc1QmU0i5JQ5eTS/8c+TDjP88bM=",
+    "originContent": "5. API剑自动将所有相关请求添加至burp的target sitemap中，**您可在target的sitemap的分析等功能中尽情享受API剑带来的果实**",
+    "translatedContent": "5. API Sword añade automáticamente todas las solicitudes relacionadas al sitemap de burp target, **donde podrá disfrutar plenamente de los frutos que API Sword ofrece en funciones como análisis del sitemap.**"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "VpkiVttlFiUpIHVEVddcq799spvfL7cCZS0ffdw4OX0=",
+    "originContent": "用户只需要启用API剑并设置一个“合理的范围”，接着在浏览器中继续点击web系统的各种功能，让所有流量经过burp，最终交给API剑做分析处理，API剑将会向您返回您想要的恶魔果实。",
+    "translatedContent": "El usuario solo debe habilitar API Sword y definir un \"rango razonable\", luego seguir navegando y usando las funciones del sistema web en el navegador para que todo el tráfico pase por burp y sea analizado por API Sword, que le devolverá los frutos demoníacos que desea."
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "osmOx7z8ukRfxfgeas0go45Yz31zA38vDe8gM8U8Kpk=",
+    "originContent": "**考虑到opsec等操作安全风险，目前API剑不会主动fuzz参数，如果后续有需求再额外添加作为可选功能。**",
+    "translatedContent": "**Por motivos de opsec y seguridad, actualmente API Sword no realiza fuzzing activo de parámetros; si se requiere, se añadirá como función opcional en el futuro.**"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "stNlydvGk6VQrIDThLum5Ll2iRaY6ov/JpLpST5Mc3U=",
+    "originContent": "## 如何使用？",
+    "translatedContent": "## ¿Cómo usar?"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "Cg6xvHazgaIuUBs6TRvDJdnOGwoJUopNrP9EzSdjkWo=",
+    "originContent": "`注意：插件需要运行在2024.7版本以上的burpsuite；（对于低于2024.7的版本，则需要手动在插件的settings页面将“是否使用原headers”功能关闭）`",
+    "translatedContent": "`Nota: el plugin debe ejecutarse en Burp Suite versión 2024.7 o superior; (para versiones inferiores a 2024.7, es necesario desactivar manualmente la función \"usar headers originales\" en la página de configuración del plugin)`"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "OzMkUMs78CZ6X/czEev8LcYRaW+2YH3bONtUiZUihkE=",
+    "originContent": "API剑的使用非常的简单，",
+    "translatedContent": "El uso de API Sword es muy sencillo,"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "opDqQla3AslO7pb5jYDSJ0b7TFLINn3mWcC27ERA7LU=",
+    "originContent": "1. 将插件安装至burp 2024以后的版本，确保插件无任何报错",
+    "translatedContent": "1. Instale el plugin en versiones de Burp posteriores a 2024, asegurándose de que no haya errores en el plugin"
+  },
+  {
+    "row": 49,
+    "rowsha": "/DyMYcq0FAxO5I8Itq9ksMf1k9eGAAaUZEmRn5bODwg=",
+    "originContent": "2. 为插件设置Scope",
+    "translatedContent": "2. Configure el Scope para el plugin"
+  },
+  {
+    "row": 50,
+    "rowsha": "wVHAmbnPOqpWGKPWC0TRecCGB8qsV+fQyWmfCRIgh0o=",
+    "originContent": "3. 打开浏览器确保浏览器的流量会通过burp",
+    "translatedContent": "3. Abra el navegador y asegúrese de que el tráfico pase a través de Burp"
+  },
+  {
+    "row": 51,
+    "rowsha": "tTSu/Exs0eJAbq+50TAls1wwdGxZ2+TN0KaBR7vbDF0=",
+    "originContent": "4. 进入目标网站，点击和测试任何在网站中看到的一切",
+    "translatedContent": "4. Ingrese al sitio objetivo, haga clic y pruebe todo lo que vea en el sitio"
+  },
+  {
+    "row": 52,
+    "rowsha": "cgngZ4JXNQgw92U9qT8CZ+itchQ9XfGVR319RLn/cZc=",
+    "originContent": "5. 过一段时间后，从API剑的Sitemap检查果实",
+    "translatedContent": "5. Después de un tiempo, revise los resultados desde el Sitemap de API Sword"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "j61v+zqF8iq6x29GpvkSHLJlO5b6vhQ40gcwRHBm/Rs=",
+    "originContent": "## API剑的设置",
+    "translatedContent": "## Configuración de API Sword"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "ZL15/592grsz1qhinZuAg4NQb/zOyfxiLFJrhEmYHPI=",
+    "originContent": "在Scope选项卡中，我们可以设置范围，范围可以是url、域名、ip",
+    "translatedContent": "En la pestaña Scope, podemos configurar el alcance, que puede ser URL, dominio o IP"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "xy2UYKwKqjQfyPcem1dzwe8M48tGzMxfN6dPoJ1yd9o=",
+    "originContent": "<img width=\"1946\" height=\"1068\" alt=\"image\" src=\"https://github.com/user-attachments/assets/945d1e66-9d1a-4c59-920c-3fadacbeeb4f\" />",
+    "translatedContent": "<img width=\"1946\" height=\"1068\" alt=\"image\" src=\"https://github.com/user-attachments/assets/945d1e66-9d1a-4c59-920c-3fadacbeeb4f\" />"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "Y5bHq97E0CiEK5qri/SlfB+J2Hzm8s9yUz+LVT6duwY=",
+    "originContent": "这个范围特别重要，建议谨慎考虑，否则容易扫到外太空去。",
+    "translatedContent": "Este alcance es especialmente importante, se recomienda considerarlo con cuidado, de lo contrario podría terminar escaneando el espacio exterior."
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "a/l8e14s0qaQdUdQ7O4kxYpjmMxVI4fI/83Rf/3gvkA=",
+    "originContent": "设置好范围后我们再看Setting选项卡",
+    "translatedContent": "Después de configurar el alcance, veamos la pestaña Setting"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "coimbSyKMfAhkBoRKL6GrBAc40dbfaPdPXqc/7DKytU=",
+    "originContent": "<img width=\"3018\" height=\"1338\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4e67c07f-0e37-470c-881e-fa234632d30b\" />",
+    "translatedContent": "<img width=\"3018\" height=\"1338\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4e67c07f-0e37-470c-881e-fa234632d30b\" />"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "sNFNyMQlX4DvhmjXbbztCGqZiEMHdUh4QLD4Iqd5LJs=",
+    "originContent": "1. 允许主动对API请求",
+    "translatedContent": "1. Permitir solicitudes activas a la API"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "yO4hP4fKLU+6xQjI+n0jiVTNchbnd6tbpTiPYtyJyds=",
+    "originContent": "这个选项默认开，不建议关，否则API剑无法更深层提取数据",
+    "translatedContent": "Esta opción está activada por defecto, no se recomienda desactivarla, de lo contrario API Sword no podrá extraer datos en profundidad"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "GRZv12tfi/gYG93wvDE3H2Oz+h39VgcBv4eRLrmrlrk=",
+    "originContent": "2. 是否使用原headers",
+    "translatedContent": "2. Usar headers originales"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "qGoeXhPb7qVEnvDFNLTHim2JrPcNNlPcBQcvnZ3zfYY=",
+    "originContent": "默认开，如果想专门测试未授权api接口，可以把这个选项关掉，关掉后不会携带任何cookie或session等信息",
+    "translatedContent": "Activado por defecto, si desea probar específicamente APIs no autorizadas, puede desactivar esta opción; al desactivarla no se enviarán cookies ni información de sesión"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "L8VUJ3zvcWzRTHolc1/BRWUB2MEaRF/DSvZiRr/X/f4=",
+    "originContent": "3. 立即停止发送所有请求",
+    "translatedContent": "3. Detener inmediatamente el envío de todas las solicitudes"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "9VYFz2K0F/eci5zwgPqVkuBWKEqm7HBo8D3rudGnVI8=",
+    "originContent": "默认关，避免遇到突发情况想暂停，用来刹车的，建议搭配第一个选项一起使用",
+    "translatedContent": "Desactivado por defecto, sirve para pausar en caso de emergencia, se recomienda usar junto con la primera opción"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "wOEhNCFUo99z2XglfdL7rbqvW0ZnXBfZyHb6kAFa5kE=",
+    "originContent": "4. 清除当前SiteMap所有数据",
+    "translatedContent": "4. Borrar todos los datos actuales del SiteMap"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "FeV0GzrCIb4xH8M3mFqmKQrq2NVBLQ0uJHiQkqZWp+I=",
+    "originContent": "这个按钮用于清除API剑的Site Map中的所有站点数据",
+    "translatedContent": "Este botón se utiliza para eliminar todos los datos de sitios en el Site Map de API Sword"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "H6bnyS9+CU6Ql7131v7gxuUVMdWyU+4bQZrUZv8P888=",
+    "originContent": "![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d7e8eca0e2994a65b9bae2abb8554e69.png)",
+    "translatedContent": "![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d7e8eca0e2994a65b9bae2abb8554e69.png)"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "E/oqZabZJxikQ5tKjgo5v4hLGMG6j2RolLwt77UYZ7E=",
+    "originContent": "5. 启用主动http请求速率",
+    "translatedContent": "5. Habilitar la tasa de solicitud HTTP activa"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "w+qOQjtC6yikfwdHO5OFQgdKUTOEcUdOUAXUiljZI3g=",
+    "originContent": "限制每个请求的间隔时间",
+    "translatedContent": "Limitar el intervalo de tiempo entre cada solicitud"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "83bdSqaBvuZX3zz8NhjQ8g6Ipf6JdeQwQjXZan024vM=",
+    "originContent": "6. 是否在主动请求时额外添加自定义路径请求",
+    "translatedContent": "6. ¿Agregar rutas personalizadas adicionales en solicitudes activas?"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "nvHU6nDZuPKBzRJfviY6VbrT3EoV8vYfkrIzH+1WLiI=",
+    "originContent": "启用该选项后，API剑会在拼接前为主URL添加指定的自定义路径后再进行拼接",
+    "translatedContent": "Al activar esta opción, API Jian añadirá la ruta personalizada especificada antes de concatenar con la URL principal"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "HDQNKjHxuj1feDb1gHdwoaC5Fq9K8oKXtjbG2XngWqs=",
+    "originContent": "7. 过滤掉非200的自定义响应码",
+    "translatedContent": "7. Filtrar códigos de respuesta personalizados distintos de 200"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "eeZI+Yn+rJ+taYBN+Xy1krdBPTOOzPWi00WGQDTn6Ro=",
+    "originContent": "8. 允许API剑主动从响应中寻找baseURL并主动对baseURL进行路径拼接",
+    "translatedContent": "8. Permitir que API Jian busque activamente la baseURL en la respuesta y realice la concatenación de rutas en baseURL"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "vngELelBu+RDFLzHCo6104HF5ljPBz1G3NgBY5oFJdg=",
+    "originContent": "9. 添加自定义header字段：（自动覆盖已有的header字段）",
+    "translatedContent": "9. Añadir campos de encabezado personalizados: (sobrescribe automáticamente los campos de encabezado existentes)"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "tpkkz1kEseENexjYZpAm//SAV+EvSq9LMDh3B/hCE1g=",
+    "originContent": "10. 启用绕过危险接口访问(接口包含字符串则跳过)",
+    "translatedContent": "10. Habilitar eludir acceso a interfaces peligrosas (se omite si la interfaz contiene ciertas cadenas)"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "M4JGO7X5psyRbrUgzW2OToRAkfvYpDgC0OlB0S+0HP0=",
+    "originContent": "11. 保存范围及所有设置",
+    "translatedContent": "11. Guardar alcance y todas las configuraciones"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "6jz9RKt6/rqZ94eVlmQQ9SWgnJeHMscsqg5dO5YKRgo=",
+    "originContent": "12. 是否在API接口后、参数前额外添加自定义路径",
+    "translatedContent": "12. ¿Agregar rutas personalizadas adicionales después de la interfaz API y antes de los parámetros?"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "eVUiG/BqC+0pKDjmcSHo3vvq4g+SpeVtCo6JJfGo370=",
+    "originContent": "13. 线程数量控制",
+    "translatedContent": "13. Control de cantidad de hilos"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "kBMi0mSsH0kz1xvNPaEUBIhtgGJiL5w1zz2StERxS9k=",
+    "originContent": "其它设置待开发和完善，如有任何想法建议和问题，可通过github上提issue反馈",
+    "translatedContent": "Otras configuraciones están en desarrollo y mejora, si tiene alguna idea, sugerencia o problema, puede reportarlo mediante un issue en GitHub"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "o+tqsH1fCLlhMg9UDYmADjok1B4e+CyPWPxG2TB2bwk=",
+    "originContent": "## 致谢",
+    "translatedContent": "## Agradecimientos"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "FUVBmIz7+1mm2qyVGEA/wJAMg+G4SpxKwZ8GO1DVdu4=",
+    "originContent": "感谢 `Microsoft`",
+    "translatedContent": "Gracias a `Microsoft`"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "b0I4DtM3pXgxE0ZMyWd5rET4Zjt2kjSp+gQvZbTQoz8=",
+    "originContent": "感谢 我的`绿盟导师`",
+    "translatedContent": "Gracias a mi `mentor de NSFOCUS`"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "YWdOaViHdncKbm383CWMYPIniEmm0LhwzyWKSVc/LIo=",
+    "originContent": "感谢 ` mil1ln`",
+    "translatedContent": "Gracias a `mil1ln`"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "RME3rhaqZ9kspt3OPa6ZXgfXgSRT9MJ6Hs7xUPNsx7Y=",
+    "originContent": "感谢 `探姬`",
+    "translatedContent": "Gracias a `探姬`"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "hpdfZsVPTUwJIMl++AeVSIbM4Ldod7z2HXOeL7of9sQ=",
+    "originContent": "感谢 所有在测试阶段为API剑提供宝贵意见和反馈的所有人",
+    "translatedContent": "Gracias a todos los que han brindado valiosas opiniones y comentarios durante la fase de prueba de API Jian"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "P1bBMf8Ew/z4PPMaBI86LdiRKn5MqnK2Nm0vohDWO+A=",
+    "originContent": "感谢以上所有人为API剑提供的一切支持！",
+    "translatedContent": "¡Gracias a todos los anteriores por todo el apoyo brindado a API Jian!"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## TODO"
+  },
+  {
+    "row": 122,
+    "rowsha": "9BLUDKwF41c3H3chgITZX6+GIbUGQvr0NT8MtLsceMw=",
+    "originContent": "## TODO",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. Recoger una camiseta polo de Meihua K ⬛️  "
+  },
+  {
+    "row": 124,
+    "rowsha": "15DxU/q+4bKKTDSa9zY5KYTUoKEp/1cX/fp6yG0q3Fg=",
+    "originContent": "1. 收集一件梅花K的polo衫 ⬛️",
+    "translatedContent": "2. Añadir ruta base url opcional para fuzz ✅  "
+  },
+  {
+    "row": 125,
+    "rowsha": "S4R8+BIEnO2ghXLDQqQL4kKUPd7ujej5iFfFZ/clp0U=",
+    "originContent": "2. 添加可选的base url路径fuzz ✅",
+    "translatedContent": "3. Añadir filtrado personalizado de códigos de respuesta ✅  "
+  },
+  {
+    "row": 126,
+    "rowsha": "8JKTCiH8EY81MITGwYMqlr5bvnqFQY71oFnpwxbJFd0=",
+    "originContent": "3. 添加自定义响应码过滤 ✅",
+    "translatedContent": "4. Añadir opción de ruta base personalizada al hacer solicitudes activas con API Sword ✅  "
+  },
+  {
+    "row": 127,
+    "rowsha": "hlsKUFlxMdmYuTX1vM56UfPUzgb9v1pHw6A9EQlEOmQ=",
+    "originContent": "4. 添加API剑主动请求时，添加自定义base路径的选项 ✅",
+    "translatedContent": "5. Optimizar la estrategia de coincidencia, desbloqueando el rendimiento del API Sword en un 80% ✅  "
+  },
+  {
+    "row": 128,
+    "rowsha": "TJHUNDXRGxQvOou9Py+O3QrzcbolH17x2as5c6SJcIQ=",
+    "originContent": "5. 优化了匹配策略，解锁API剑性能80% ✅",
+    "translatedContent": "6. Optimización de solicitudes activas de API Sword para evitar acceder a APIs peligrosas ✅  "
+  },
+  {
+    "row": 129,
+    "rowsha": "rs5IZubb7PmISZBHqWDrl41ewL+haQsbw+m5UCnZWNM=",
+    "originContent": "6. API剑主动请求优化，避免访问危险api ✅",
+    "translatedContent": "7. Solucionar el problema de que el header por defecto de Burp no incluya el campo CT ✅  "
+  },
+  {
+    "row": 130,
+    "rowsha": "KN/AMv1HLyizLrVGNVHiGI+VEH5lCZluMq1Un2JhFn4=",
+    "originContent": "7. 解决burp默认header不携带CT字段的问题 ✅",
+    "translatedContent": "8. Optimizar el ancho de las etiquetas en la tabla de respuestas ✅  "
+  },
+  {
+    "row": 131,
+    "rowsha": "AksXbDAIhGt9uoWpqepBqrg3dlN64XOhY2qVzuOVAR8=",
+    "originContent": "8. 优化响应table的tags宽度 ✅",
+    "translatedContent": "9. Corregir el parpadeo de la UI del sitemap ✅  "
+  },
+  {
+    "row": 132,
+    "rowsha": "ZkknyqFc5m5rO1uMEJgub+Si/0ZBY7tBY4HQ1YAcfD0=",
+    "originContent": "9. 修复sitemap的ui闪烁问题 ✅",
+    "translatedContent": "10. Añadir función opcional de cabeceras de solicitud personalizadas ✅  "
+  },
+  {
+    "row": 133,
+    "rowsha": "T3mjYrFhl3A6BHDdsSrYf1ooW26xiM6+w9CJgCqL4jM=",
+    "originContent": "10. 添加自定义请求头可选功能 ✅",
+    "translatedContent": "11. Añadir ordenación automática de etiquetas en la lista de respuestas ✅  "
+  },
+  {
+    "row": 134,
+    "rowsha": "2qNr8iIYi98qvF+EH7ay6ob32MDNv/EncEGjCw/KEwE=",
+    "originContent": "11. 添加响应列表的tags自动排序 ✅",
+    "translatedContent": "12. Optimizar la estrategia de coincidencia ✅  "
+  },
+  {
+    "row": 135,
+    "rowsha": "9XRTvLtwl0Rg3Ev8q4M+Ca1RHCa7ChodZ5be38ZyAfg=",
+    "originContent": "12. 优化匹配策略 ✅",
+    "translatedContent": "13. Optimizar bloques de código ⬛️  "
+  },
+  {
+    "row": 136,
+    "rowsha": "83ELaJXI5c6eqEblq6kRa2+9gNf3zCMArYLgVXtEnXE=",
+    "originContent": "13. 优化代码块 ⬛️",
+    "translatedContent": "14. Registrar el manejo al desinstalar Burp ✅  "
+  },
+  {
+    "row": 137,
+    "rowsha": "icBoeTsFTh0X8ys4N64e4yDtuz6jn/bOleJXMJOlVuM=",
+    "originContent": "14. 注册burp卸载处理 ✅",
+    "translatedContent": "15. Añadir comentarios de código bilingües chino-inglés en todo el código ⬛️  "
+  },
+  {
+    "row": 138,
+    "rowsha": "HB413EHK79l03BgeIxs/UotfykS8gUlFgV0N1ZsuWPE=",
+    "originContent": "15. 全代码添加中英双语可阅读代码注释 ⬛️",
+    "translatedContent": "16. Añadir función de cambio bilingüe chino-inglés en la GUI ✅  "
+  },
+  {
+    "row": 139,
+    "rowsha": "hSZjJuLUqeGPNTWjWm1T13h+zw+snQR88mgcY2gEKKw=",
+    "originContent": "16. gui添加中英双语切换功能 ✅",
+    "translatedContent": "17. Optimizar problemas de bloqueo y renderizado en Burp causados por la UI ✅  "
+  },
+  {
+    "row": 140,
+    "rowsha": "OcHqECB354+uOp92eczR/WJZM4IKzQVOSPKmW7vaDTg=",
+    "originContent": "17. 优化ui造成burp卡顿、渲染问题 ✅",
+    "translatedContent": "18. Añadir función para guardar el alcance y configuración ✅  "
+  },
+  {
+    "row": 141,
+    "rowsha": "ug6JhYAZe/P7LhmbuZQOeNySmi2pdNhXOcadk6lTfuo=",
+    "originContent": "18. 添加保存范围和配置的功能 ✅",
+    "translatedContent": "19. Añadir función de velocidad para solicitudes HTTP activas ✅  "
+  },
+  {
+    "row": 142,
+    "rowsha": "4cnnn7c7rmESpVPCGEBfarGp2/ccRph+ityG4Xz/6Yo=",
+    "originContent": "19. 添加主动http请求速率功能 ✅",
+    "translatedContent": "20. Añadir función de multihilo ✅  "
+  },
+  {
+    "row": 143,
+    "rowsha": "LIIXN9RGHRM/CvJCZlm22UU6h2wJIva2OU/wdofLrRI=",
+    "originContent": "20. 添加多线程功能 ✅",
+    "translatedContent": "21. Añadir función de ruta personalizada después de la interfaz y antes de los parámetros ✅  "
+  },
+  {
+    "row": 144,
+    "rowsha": "iVMdB9fBlX336wh0+d9UU13KftPnckYaiauD4V71nZc=",
+    "originContent": "21. 添加接口后、参数前的自定义路径功能 ✅",
+    "translatedContent": "22. Reparación urgente del fallo en la lógica anti-bucle causado por multihilo ✅  "
+  },
+  {
+    "row": 145,
+    "rowsha": "7Ix5jUcNxArDzVPpQYW1OfIIyikJ7lshYoDnqGMRg+0=",
+    "originContent": "22. 紧急修复因多线程导致防环逻辑失效问题 ✅",
+    "translatedContent": "23. Corregir error de visualización en ordenación automática ✅  "
+  },
+  {
+    "row": 146,
+    "rowsha": "79jK0JurBeAG23uiIVv8vAuXbRD1OoQouT7LterczUI=",
+    "originContent": "23. 修复自动排序存在显示出错问题 ✅",
+    "translatedContent": "24. Optimizar la UI de la lista de APIs, al insertar datos, las teclas de dirección ya no interrumpen la acción ✅  "
+  },
+  {
+    "row": 147,
+    "rowsha": "xQ/YmHJ2vPP6y4PQDs9pl6xL802+f96MOky7HCv2H44=",
+    "originContent": "24. 优化API列表的UI，插入数据时，方向键不再会被打断施法 ✅",
+    "translatedContent": "25. Reparar completamente el bug que causaba fallo en la lógica anti-bucle debido a multihilo ✅  "
+  },
+  {
+    "row": 148,
+    "rowsha": "BXaNsat84l42376WmDBowTUV6WiXySrBlZ5C0e0T+AA=",
+    "originContent": "25. 彻底修复因多线程导致防环逻辑依然失效的bug ✅",
+    "translatedContent": "26. Añadir filtros ✅  "
+  },
+  {
+    "row": 149,
+    "rowsha": "+lcw8KR/CE3s1YNgkbdbUqydxKTb2fZJlr2DqFlrhJc=",
+    "originContent": "26. 添加过滤器 ✅",
+    "translatedContent": "27. Añadir funciones para expandir nodos y contraer todos los nodos ✅  "
+  },
+  {
+    "row": 150,
+    "rowsha": "2DhSBQbCYpGeReePK+lI24Wz1PvFkUFckHur80Kq4BU=",
+    "originContent": "27. 添加展开节点、收起所有节点 ✅",
+    "translatedContent": "28. Optimizar función para limpiar el sitemap ✅  "
+  },
+  {
+    "row": 151,
+    "rowsha": "tVb/vafcUJGKOIT7ZN5w3SqF8/+w6/CrwRxj4bVSMc8=",
+    "originContent": "28. 清空site map功能优化 ✅",
+    "translatedContent": "29. Optimizar lógica de concatenación de JS en CDN/cross-site para usar referer como baseUrl ✅  "
+  },
+  {
+    "row": 152,
+    "rowsha": "QxgyiZDnP/9lGs6NHGmjCB/yO0MRSBOq528MxVs2CTA=",
+    "originContent": "29. 优化cdn｜跨站点中的js拼接逻辑，使其通过referer作为baseUrl ✅",
+    "translatedContent": "30. Añadir función de escaneo manual; el escaneo manual añadirá automáticamente el host al alcance: clic derecho en el cuerpo de una solicitud en Burp -> Extensión -> API Sword -> API Scan ✅"
+  },
+  {
+    "row": 153,
+    "rowsha": "5ml+lwsD0+tlGcnzh5paOO5ULv4oJ81aVGxDZxECj/w=",
+    "originContent": "30. 添加手动扫描功能，手动扫描会自动添加host到范围列表：burp中对某个请求体进行鼠标右键 -> 扩展 -> API Sword -> API Scan ✅",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

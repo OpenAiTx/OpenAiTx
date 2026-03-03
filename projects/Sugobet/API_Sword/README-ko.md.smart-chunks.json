@@ -1,0 +1,978 @@
+[
+  {
+    "Id": 1,
+    "Content": "[\\[EN-ReadMe\\]](https://github.com/Sugobet/API_Sword/blob/main/%5BEN%5D-README.md) <------ please read this\n# 微信公众号：APT250\n\n## 秉着开源至上、交流学习的原则，API剑将于两周后（9月7日后）开源并同时上架Burp官方插件商店BApp Store，方便大家日后更新和使用，目前正在又官方进行代码审核中，相信不久后便能上线BApp Store\n\n# [burp新经典插件] API剑 -  全自动深度 收集各种响应中的API接口\n\njar包在release，之后上架burp官方插件商店后也可从商店下载\n\n## 前言\n\n这个插件结合了我近期的工作内容和此前我的4万美刀赏金微软账户漏洞api的部分经验，\n\nAPI剑开发者利用API剑已多次在项目上获得成果及通用0day，拥有此工具后，我再也没有手动从任何js里痛苦的查找任何接口、路径及参数。\n\n![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/388ed286aff845ce8863640b37d4636e.png)\n\n与众多JS Finder、URLFinder等比较火热的相关js、api挖掘工具类似，它们是非常优秀的工具，**而API剑凭借burp的特点而获得能力和优势。**\n\n插件主页面截图：\n\n<img width=\"3020\" height=\"1582\" alt=\"image\" src=\"https://github.com/user-attachments/assets/e1677009-917b-4e90-a5e8-ccd067263d6e\" />\n\n## API剑的主要功能\n\nAPI剑 全自动防环路，从各种响应里提取指定范围内的api和js文件，然后递归深度提取api，主动请求api、js等有价值文件\n\napi结果所见即所得，右边的窗口显示api的来源js，可以立刻从js里面获得api的参数信息，然后burp再ctrl + r一键过去测\n\n它没有想象的那么复杂，API剑做的事情更多是为我们**减少了大量重复耗时且无趣的js、api、api参数搜寻工作。**\n\n1. API剑捕获经过burp的范围内的流量，并从**http响应中提取绝大多数link**\n2. API剑将对上一步提取的任意链接、路径进行清洗，并由**API剑判断后对API、JS等主动发起GET、POST请求**\n3. API剑对上一步主动请求的响应进一步的处理，继续从响应中提取信息，并重复上一步的动作，**API剑具有防环路功能，无需担心死循环请求问题**\n4. API剑对所有符合条件的API请求、响应，以及该API接口来源的js文件响应，全部推送到API剑的burp GUI中\n5. API剑自动将所有相关请求添加至burp的target sitemap中，**您可在target的sitemap的分析等功能中尽情享受API剑带来的果实**\n\n用户只需要启用API剑并设置一个“合理的范围”，接着在浏览器中继续点击web系统的各种功能，让所有流量经过burp，最终交给API剑做分析处理，API剑将会向您返回您想要的恶魔果实。\n\n**考虑到opsec等操作安全风险，目前API剑不会主动fuzz参数，如果后续有需求再额外添加作为可选功能。**",
+    "ContentSha": "GHjieJ5u6HpEIwyf7pQDFgWezxEV4RbbNbTI/z2WId4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[\\[EN-ReadMe\\]](https://github.com/Sugobet/API_Sword/blob/main/%5BEN%5D-README.md) <------ 이것을 읽어주세요\n# 微信公众号：APT250\n\n## 오픈소스 우선, 소통과 학습의 원칙에 따라, API검은 2주 후(9월 7일 이후) 오픈소스 공개 및 동시에 Burp 공식 플러그인 스토어 BApp Store에 등록될 예정이며, 앞으로 업데이트 및 사용이 편리하도록 준비 중입니다. 현재 공식 심사를 받고 있으며 곧 BApp Store에 출시될 것으로 기대합니다.\n\n# [burp 신 고전 플러그인] API검 - 완전 자동 심층 수집 다양한 응답 내 API 인터페이스\n\njar 파일은 릴리즈에 있으며, 이후 burp 공식 플러그인 스토어에 등록되면 스토어에서 다운로드할 수 있습니다.\n\n## 서문\n\n이 플러그인은 최근 제 작업 내용과 이전에 제가 4만 달러 현상금의 마이크로소프트 계정 취약점 API 경험을 일부 결합한 것입니다.\n\nAPI검 개발자는 API검을 사용하여 여러 프로젝트에서 성과와 범용 0day를 다수 획득했으며, 이 도구를 가진 후로는 더 이상 수동으로 어떤 js에서든 고통스럽게 인터페이스, 경로 및 매개변수를 찾지 않습니다.\n\n![여기에 이미지 설명 삽입](https://i-blog.csdnimg.cn/direct/388ed286aff845ce8863640b37d4636e.png)\n\n많은 JS Finder, URLFinder 등 인기 있는 관련 js, api 탐색 도구와 유사하게, 이들은 매우 훌륭한 도구이며, **API검은 burp의 특징을 통해 능력과 장점을 얻었습니다.**\n\n플러그인 메인 페이지 스크린샷:\n\n<img width=\"3020\" height=\"1582\" alt=\"image\" src=\"https://github.com/user-attachments/assets/e1677009-917b-4e90-a5e8-ccd067263d6e\" />\n\n## API검의 주요 기능\n\nAPI검은 완전 자동 루프 방지 기능을 갖추고, 다양한 응답에서 지정 범위 내의 api와 js 파일을 추출한 후 재귀적으로 심층 api를 추출하며, api, js 등 가치 있는 파일에 대해 능동적으로 요청을 수행합니다.\n\napi 결과는 있는 그대로 보여지며, 오른쪽 창은 api의 출처인 js를 표시하여 즉시 js에서 api 매개변수 정보를 얻을 수 있고, burp에서 Ctrl + R로 바로 테스트할 수 있습니다.\n\n생각만큼 복잡하지 않으며, API검이 하는 일은 우리를 위해 **많은 반복적이고 시간이 많이 걸리며 지루한 js, api, api 매개변수 탐색 작업을 크게 줄여줍니다.**\n\n1. API검은 burp를 거치는 범위 내 트래픽을 캡처하고, **http 응답에서 대다수 링크를 추출합니다.**\n2. API검은 1단계에서 추출한 임의의 링크, 경로를 정제하며, **API검 판단 후 API, JS 등에 대해 능동적으로 GET, POST 요청을 수행합니다.**\n3. API검은 2단계 능동 요청의 응답을 추가 처리하여 응답에서 계속 정보를 추출하고 2단계 동작을 반복합니다. **API검은 루프 방지 기능이 있어 무한 요청 문제 걱정이 없습니다.**\n4. API검은 조건에 맞는 모든 API 요청, 응답 및 해당 API 인터페이스 출처인 js 파일 응답을 API검의 burp GUI로 모두 전송합니다.\n5. API검은 모든 관련 요청을 자동으로 burp의 target sitemap에 추가하며, **target sitemap의 분석 등 기능에서 API검이 가져다주는 성과를 마음껏 누릴 수 있습니다.**\n\n사용자는 단지 API검을 활성화하고 “합리적인 범위”를 설정한 뒤, 브라우저에서 웹 시스템의 다양한 기능을 계속 클릭하며 모든 트래픽이 burp를 통과하도록 하면 최종적으로 API검이 분석 및 처리하여 원하는 악마의 열매를 돌려줍니다.\n\n**opsec 등 운영 보안 위험을 고려하여, 현재 API검은 매개변수를 능동적으로 fuzz하지 않으며, 이후 필요 시 옵션 기능으로 추가할 예정입니다.**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Xdnl4EckqI/K9zPZrQJIXh3Fa9DWEzEixY72asHNReQ=",
+        "originContent": "[\\[EN-ReadMe\\]](https://github.com/Sugobet/API_Sword/blob/main/%5BEN%5D-README.md) <------ please read this",
+        "translatedContent": "[\\[EN-ReadMe\\]](https://github.com/Sugobet/API_Sword/blob/main/%5BEN%5D-README.md) <------ 이것을 읽어주세요"
+      },
+      {
+        "row": 2,
+        "rowsha": "Rp9a0/DK6NH4CbDd4n9QFzqyeAdypCRfskwnx3dxjJw=",
+        "originContent": "# 微信公众号：APT250",
+        "translatedContent": "# 微信公众号：APT250"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "uLsOC0vLA0q0bbmORSA22IL17OgoZ+AhDt3fEKBXqCI=",
+        "originContent": "## 秉着开源至上、交流学习的原则，API剑将于两周后（9月7日后）开源并同时上架Burp官方插件商店BApp Store，方便大家日后更新和使用，目前正在又官方进行代码审核中，相信不久后便能上线BApp Store",
+        "translatedContent": "## 오픈소스 우선, 소통과 학습의 원칙에 따라, API검은 2주 후(9월 7일 이후) 오픈소스 공개 및 동시에 Burp 공식 플러그인 스토어 BApp Store에 등록될 예정이며, 앞으로 업데이트 및 사용이 편리하도록 준비 중입니다. 현재 공식 심사를 받고 있으며 곧 BApp Store에 출시될 것으로 기대합니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "bUxa/dX3xOZ+GmtZqj+tAgl2iWikmiaKIZBWMJ2BY7Y=",
+        "originContent": "# [burp新经典插件] API剑 -  全自动深度 收集各种响应中的API接口",
+        "translatedContent": "# [burp 신 고전 플러그인] API검 - 완전 자동 심층 수집 다양한 응답 내 API 인터페이스"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "IES7Zi+95itSdkunJTga5NHRkmIBP8OfeQPJCA1S07A=",
+        "originContent": "jar包在release，之后上架burp官方插件商店后也可从商店下载",
+        "translatedContent": "jar 파일은 릴리즈에 있으며, 이후 burp 공식 플러그인 스토어에 등록되면 스토어에서 다운로드할 수 있습니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "lLyE3+u9pYjxYbL9TbfaTtwJFX+M0BvfpWNoWY3iiIc=",
+        "originContent": "## 前言",
+        "translatedContent": "## 서문"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "mC82v4czYngb4o2wD9MV/AK/vSnuOaqi+ujmLEuIg5Q=",
+        "originContent": "这个插件结合了我近期的工作内容和此前我的4万美刀赏金微软账户漏洞api的部分经验，",
+        "translatedContent": "이 플러그인은 최근 제 작업 내용과 이전에 제가 4만 달러 현상금의 마이크로소프트 계정 취약점 API 경험을 일부 결합한 것입니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "olkMPC6NCZbqnXTlTduo493oDkv/DBDbcETopYoguoA=",
+        "originContent": "API剑开发者利用API剑已多次在项目上获得成果及通用0day，拥有此工具后，我再也没有手动从任何js里痛苦的查找任何接口、路径及参数。",
+        "translatedContent": "API검 개발자는 API검을 사용하여 여러 프로젝트에서 성과와 범용 0day를 다수 획득했으며, 이 도구를 가진 후로는 더 이상 수동으로 어떤 js에서든 고통스럽게 인터페이스, 경로 및 매개변수를 찾지 않습니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "feGkkGJ/5Mn+sJQ2F6IaLNvR8oDfa4+zNSF7nGTEnIk=",
+        "originContent": "![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/388ed286aff845ce8863640b37d4636e.png)",
+        "translatedContent": "![여기에 이미지 설명 삽입](https://i-blog.csdnimg.cn/direct/388ed286aff845ce8863640b37d4636e.png)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "va2z/hul4TvHbezDdO/mxmrUcJwlePQP2pC9YyNsIrc=",
+        "originContent": "与众多JS Finder、URLFinder等比较火热的相关js、api挖掘工具类似，它们是非常优秀的工具，**而API剑凭借burp的特点而获得能力和优势。**",
+        "translatedContent": "많은 JS Finder, URLFinder 등 인기 있는 관련 js, api 탐색 도구와 유사하게, 이들은 매우 훌륭한 도구이며, **API검은 burp의 특징을 통해 능력과 장점을 얻었습니다.**"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "B1Zs8wFdpzlxPivIidp8VVcXmYnDM8M8nVEZ7XP0oKU=",
+        "originContent": "插件主页面截图：",
+        "translatedContent": "플러그인 메인 페이지 스크린샷:"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "GPJFqsRXiWyybPkLX8KXCGriHAzPBCqeDSTfeQa80Ok=",
+        "originContent": "<img width=\"3020\" height=\"1582\" alt=\"image\" src=\"https://github.com/user-attachments/assets/e1677009-917b-4e90-a5e8-ccd067263d6e\" />",
+        "translatedContent": "<img width=\"3020\" height=\"1582\" alt=\"image\" src=\"https://github.com/user-attachments/assets/e1677009-917b-4e90-a5e8-ccd067263d6e\" />"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "TBDHbHX3cxqE0iNuTCiUznjY3mk1KVrQ/4XU8ownXZ4=",
+        "originContent": "## API剑的主要功能",
+        "translatedContent": "## API검의 주요 기능"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "Knu1l5YWqq6UAuN7JWj2J8dtaEXo2JM3B7+hERVmo04=",
+        "originContent": "API剑 全自动防环路，从各种响应里提取指定范围内的api和js文件，然后递归深度提取api，主动请求api、js等有价值文件",
+        "translatedContent": "API검은 완전 자동 루프 방지 기능을 갖추고, 다양한 응답에서 지정 범위 내의 api와 js 파일을 추출한 후 재귀적으로 심층 api를 추출하며, api, js 등 가치 있는 파일에 대해 능동적으로 요청을 수행합니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "nNrv62m6VtcufMwfzlw94szAVO2Qi7A9ob6gRnAI1aI=",
+        "originContent": "api结果所见即所得，右边的窗口显示api的来源js，可以立刻从js里面获得api的参数信息，然后burp再ctrl + r一键过去测",
+        "translatedContent": "api 결과는 있는 그대로 보여지며, 오른쪽 창은 api의 출처인 js를 표시하여 즉시 js에서 api 매개변수 정보를 얻을 수 있고, burp에서 Ctrl + R로 바로 테스트할 수 있습니다."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "kODDfP5QlwLIzQxq1GRSiFtRam5CY10UwvGJlWroVDM=",
+        "originContent": "它没有想象的那么复杂，API剑做的事情更多是为我们**减少了大量重复耗时且无趣的js、api、api参数搜寻工作。**",
+        "translatedContent": "생각만큼 복잡하지 않으며, API검이 하는 일은 우리를 위해 **많은 반복적이고 시간이 많이 걸리며 지루한 js, api, api 매개변수 탐색 작업을 크게 줄여줍니다.**"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "AHbfdt4pK7wmhl6OHmSZTOABarj+vwjQCR/QDADtomc=",
+        "originContent": "1. API剑捕获经过burp的范围内的流量，并从**http响应中提取绝大多数link**",
+        "translatedContent": "1. API검은 burp를 거치는 범위 내 트래픽을 캡처하고, **http 응답에서 대다수 링크를 추출합니다.**"
+      },
+      {
+        "row": 33,
+        "rowsha": "1Ro8QRxJQebQUViD+T8g68bDPTMzusO0sabkaFrn+DQ=",
+        "originContent": "2. API剑将对上一步提取的任意链接、路径进行清洗，并由**API剑判断后对API、JS等主动发起GET、POST请求**",
+        "translatedContent": "2. API검은 1단계에서 추출한 임의의 링크, 경로를 정제하며, **API검 판단 후 API, JS 등에 대해 능동적으로 GET, POST 요청을 수행합니다.**"
+      },
+      {
+        "row": 34,
+        "rowsha": "4Zo3Ua1NxoHPcEDpV0KZN75ir0PGxjZJIx9zJO6A3YY=",
+        "originContent": "3. API剑对上一步主动请求的响应进一步的处理，继续从响应中提取信息，并重复上一步的动作，**API剑具有防环路功能，无需担心死循环请求问题**",
+        "translatedContent": "3. API검은 2단계 능동 요청의 응답을 추가 처리하여 응답에서 계속 정보를 추출하고 2단계 동작을 반복합니다. **API검은 루프 방지 기능이 있어 무한 요청 문제 걱정이 없습니다.**"
+      },
+      {
+        "row": 35,
+        "rowsha": "CMo4+QLzCR0sp69NaaEMCN+ePv/F6WTsGmyxYYWDmf4=",
+        "originContent": "4. API剑对所有符合条件的API请求、响应，以及该API接口来源的js文件响应，全部推送到API剑的burp GUI中",
+        "translatedContent": "4. API검은 조건에 맞는 모든 API 요청, 응답 및 해당 API 인터페이스 출처인 js 파일 응답을 API검의 burp GUI로 모두 전송합니다."
+      },
+      {
+        "row": 36,
+        "rowsha": "mKRT37gg3UlH91zJbc1QmU0i5JQ5eTS/8c+TDjP88bM=",
+        "originContent": "5. API剑自动将所有相关请求添加至burp的target sitemap中，**您可在target的sitemap的分析等功能中尽情享受API剑带来的果实**",
+        "translatedContent": "5. API검은 모든 관련 요청을 자동으로 burp의 target sitemap에 추가하며, **target sitemap의 분석 등 기능에서 API검이 가져다주는 성과를 마음껏 누릴 수 있습니다.**"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "VpkiVttlFiUpIHVEVddcq799spvfL7cCZS0ffdw4OX0=",
+        "originContent": "用户只需要启用API剑并设置一个“合理的范围”，接着在浏览器中继续点击web系统的各种功能，让所有流量经过burp，最终交给API剑做分析处理，API剑将会向您返回您想要的恶魔果实。",
+        "translatedContent": "사용자는 단지 API검을 활성화하고 “합리적인 범위”를 설정한 뒤, 브라우저에서 웹 시스템의 다양한 기능을 계속 클릭하며 모든 트래픽이 burp를 통과하도록 하면 최종적으로 API검이 분석 및 처리하여 원하는 악마의 열매를 돌려줍니다."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "osmOx7z8ukRfxfgeas0go45Yz31zA38vDe8gM8U8Kpk=",
+        "originContent": "**考虑到opsec等操作安全风险，目前API剑不会主动fuzz参数，如果后续有需求再额外添加作为可选功能。**",
+        "translatedContent": "**opsec 등 운영 보안 위험을 고려하여, 현재 API검은 매개변수를 능동적으로 fuzz하지 않으며, 이후 필요 시 옵션 기능으로 추가할 예정입니다.**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n## 如何使用？\n\n`注意：插件需要运行在2024.7版本以上的burpsuite；（对于低于2024.7的版本，则需要手动在插件的settings页面将“是否使用原headers”功能关闭）`\n\nAPI剑的使用非常的简单，\n\n1. 将插件安装至burp 2024以后的版本，确保插件无任何报错\n2. 为插件设置Scope\n3. 打开浏览器确保浏览器的流量会通过burp\n4. 进入目标网站，点击和测试任何在网站中看到的一切\n5. 过一段时间后，从API剑的Sitemap检查果实\n\n## API剑的设置\n\n在Scope选项卡中，我们可以设置范围，范围可以是url、域名、ip\n\n<img width=\"1946\" height=\"1068\" alt=\"image\" src=\"https://github.com/user-attachments/assets/945d1e66-9d1a-4c59-920c-3fadacbeeb4f\" />\n\n这个范围特别重要，建议谨慎考虑，否则容易扫到外太空去。\n\n设置好范围后我们再看Setting选项卡\n\n<img width=\"3018\" height=\"1338\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4e67c07f-0e37-470c-881e-fa234632d30b\" />\n\n1. 允许主动对API请求\n\n这个选项默认开，不建议关，否则API剑无法更深层提取数据\n\n2. 是否使用原headers\n\n默认开，如果想专门测试未授权api接口，可以把这个选项关掉，关掉后不会携带任何cookie或session等信息\n\n3. 立即停止发送所有请求\n\n默认关，避免遇到突发情况想暂停，用来刹车的，建议搭配第一个选项一起使用\n\n4. 清除当前SiteMap所有数据\n\n这个按钮用于清除API剑的Site Map中的所有站点数据",
+    "ContentSha": "1fW9Zu2FJTikk5nPAfdD61ZAvqzFkJ6gGTdmX8kCWO4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 어떻게 사용하나요?\n\n`주의: 플러그인은 2024.7 버전 이상의 burpsuite에서 실행되어야 합니다; (2024.7 미만 버전의 경우 플러그인 설정 페이지에서 \"원본 헤더 사용 여부\" 기능을 수동으로 비활성화해야 합니다)`\n\nAPI 검의 사용법은 매우 간단합니다,\n\n1. 플러그인을 burp 2024 이후 버전에 설치하고, 플러그인에 오류가 없는지 확인합니다\n2. 플러그인의 Scope를 설정합니다\n3. 브라우저를 열어 브라우저 트래픽이 burp를 통해 흐르는지 확인합니다\n4. 대상 웹사이트에 접속하여 사이트 내에서 보이는 모든 항목을 클릭하고 테스트합니다\n5. 일정 시간이 지난 후 API 검의 SiteMap에서 결과를 확인합니다\n\n## API 검 설정\n\nScope 탭에서 범위를 설정할 수 있습니다. 범위는 url, 도메인, ip가 될 수 있습니다\n\n<img width=\"1946\" height=\"1068\" alt=\"image\" src=\"https://github.com/user-attachments/assets/945d1e66-9d1a-4c59-920c-3fadacbeeb4f\" />\n\n이 범위는 매우 중요하므로 신중하게 설정하는 것이 좋습니다. 그렇지 않으면 외부 영역까지 스캔할 수 있습니다.\n\n범위를 설정한 후 Setting 탭을 봅니다\n\n<img width=\"3018\" height=\"1338\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4e67c07f-0e37-470c-881e-fa234632d30b\" />\n\n1. API 요청에 대해 적극 허용\n\n이 옵션은 기본적으로 켜져 있으며, 끄는 것을 권장하지 않습니다. 그렇지 않으면 API 검이 더 깊이 데이터를 추출할 수 없습니다\n\n2. 원본 headers 사용 여부\n\n기본적으로 켜져 있습니다. 미인가 API 인터페이스를 별도로 테스트하려면 이 옵션을 끌 수 있습니다. 끄면 쿠키나 세션 등의 정보가 포함되지 않습니다\n\n3. 모든 요청 즉시 중지\n\n기본적으로 꺼져 있으며, 갑작스러운 상황에서 일시 정지가 필요할 때 사용하는 브레이크 기능입니다. 첫 번째 옵션과 함께 사용하는 것이 권장됩니다\n\n4. 현재 SiteMap 모든 데이터 삭제\n\n이 버튼은 API 검의 Site Map에 있는 모든 사이트 데이터를 삭제하는 데 사용됩니다\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 어떻게 사용하나요?"
+      },
+      {
+        "row": 2,
+        "rowsha": "stNlydvGk6VQrIDThLum5Ll2iRaY6ov/JpLpST5Mc3U=",
+        "originContent": "## 如何使用？",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`주의: 플러그인은 2024.7 버전 이상의 burpsuite에서 실행되어야 합니다; (2024.7 미만 버전의 경우 플러그인 설정 페이지에서 \"원본 헤더 사용 여부\" 기능을 수동으로 비활성화해야 합니다)`"
+      },
+      {
+        "row": 4,
+        "rowsha": "Cg6xvHazgaIuUBs6TRvDJdnOGwoJUopNrP9EzSdjkWo=",
+        "originContent": "`注意：插件需要运行在2024.7版本以上的burpsuite；（对于低于2024.7的版本，则需要手动在插件的settings页面将“是否使用原headers”功能关闭）`",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "API 검의 사용법은 매우 간단합니다,"
+      },
+      {
+        "row": 6,
+        "rowsha": "OzMkUMs78CZ6X/czEev8LcYRaW+2YH3bONtUiZUihkE=",
+        "originContent": "API剑的使用非常的简单，",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 플러그인을 burp 2024 이후 버전에 설치하고, 플러그인에 오류가 없는지 확인합니다"
+      },
+      {
+        "row": 8,
+        "rowsha": "opDqQla3AslO7pb5jYDSJ0b7TFLINn3mWcC27ERA7LU=",
+        "originContent": "1. 将插件安装至burp 2024以后的版本，确保插件无任何报错",
+        "translatedContent": "2. 플러그인의 Scope를 설정합니다"
+      },
+      {
+        "row": 9,
+        "rowsha": "/DyMYcq0FAxO5I8Itq9ksMf1k9eGAAaUZEmRn5bODwg=",
+        "originContent": "2. 为插件设置Scope",
+        "translatedContent": "3. 브라우저를 열어 브라우저 트래픽이 burp를 통해 흐르는지 확인합니다"
+      },
+      {
+        "row": 10,
+        "rowsha": "wVHAmbnPOqpWGKPWC0TRecCGB8qsV+fQyWmfCRIgh0o=",
+        "originContent": "3. 打开浏览器确保浏览器的流量会通过burp",
+        "translatedContent": "4. 대상 웹사이트에 접속하여 사이트 내에서 보이는 모든 항목을 클릭하고 테스트합니다"
+      },
+      {
+        "row": 11,
+        "rowsha": "tTSu/Exs0eJAbq+50TAls1wwdGxZ2+TN0KaBR7vbDF0=",
+        "originContent": "4. 进入目标网站，点击和测试任何在网站中看到的一切",
+        "translatedContent": "5. 일정 시간이 지난 후 API 검의 SiteMap에서 결과를 확인합니다"
+      },
+      {
+        "row": 12,
+        "rowsha": "cgngZ4JXNQgw92U9qT8CZ+itchQ9XfGVR319RLn/cZc=",
+        "originContent": "5. 过一段时间后，从API剑的Sitemap检查果实",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## API 검 설정"
+      },
+      {
+        "row": 14,
+        "rowsha": "j61v+zqF8iq6x29GpvkSHLJlO5b6vhQ40gcwRHBm/Rs=",
+        "originContent": "## API剑的设置",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Scope 탭에서 범위를 설정할 수 있습니다. 범위는 url, 도메인, ip가 될 수 있습니다"
+      },
+      {
+        "row": 16,
+        "rowsha": "ZL15/592grsz1qhinZuAg4NQb/zOyfxiLFJrhEmYHPI=",
+        "originContent": "在Scope选项卡中，我们可以设置范围，范围可以是url、域名、ip",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<img width=\"1946\" height=\"1068\" alt=\"image\" src=\"https://github.com/user-attachments/assets/945d1e66-9d1a-4c59-920c-3fadacbeeb4f\" />"
+      },
+      {
+        "row": 18,
+        "rowsha": "xy2UYKwKqjQfyPcem1dzwe8M48tGzMxfN6dPoJ1yd9o=",
+        "originContent": "<img width=\"1946\" height=\"1068\" alt=\"image\" src=\"https://github.com/user-attachments/assets/945d1e66-9d1a-4c59-920c-3fadacbeeb4f\" />",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 범위는 매우 중요하므로 신중하게 설정하는 것이 좋습니다. 그렇지 않으면 외부 영역까지 스캔할 수 있습니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "Y5bHq97E0CiEK5qri/SlfB+J2Hzm8s9yUz+LVT6duwY=",
+        "originContent": "这个范围特别重要，建议谨慎考虑，否则容易扫到外太空去。",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "범위를 설정한 후 Setting 탭을 봅니다"
+      },
+      {
+        "row": 22,
+        "rowsha": "a/l8e14s0qaQdUdQ7O4kxYpjmMxVI4fI/83Rf/3gvkA=",
+        "originContent": "设置好范围后我们再看Setting选项卡",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<img width=\"3018\" height=\"1338\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4e67c07f-0e37-470c-881e-fa234632d30b\" />"
+      },
+      {
+        "row": 24,
+        "rowsha": "coimbSyKMfAhkBoRKL6GrBAc40dbfaPdPXqc/7DKytU=",
+        "originContent": "<img width=\"3018\" height=\"1338\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4e67c07f-0e37-470c-881e-fa234632d30b\" />",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. API 요청에 대해 적극 허용"
+      },
+      {
+        "row": 26,
+        "rowsha": "sNFNyMQlX4DvhmjXbbztCGqZiEMHdUh4QLD4Iqd5LJs=",
+        "originContent": "1. 允许主动对API请求",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 옵션은 기본적으로 켜져 있으며, 끄는 것을 권장하지 않습니다. 그렇지 않으면 API 검이 더 깊이 데이터를 추출할 수 없습니다"
+      },
+      {
+        "row": 28,
+        "rowsha": "yO4hP4fKLU+6xQjI+n0jiVTNchbnd6tbpTiPYtyJyds=",
+        "originContent": "这个选项默认开，不建议关，否则API剑无法更深层提取数据",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. 원본 headers 사용 여부"
+      },
+      {
+        "row": 30,
+        "rowsha": "GRZv12tfi/gYG93wvDE3H2Oz+h39VgcBv4eRLrmrlrk=",
+        "originContent": "2. 是否使用原headers",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "기본적으로 켜져 있습니다. 미인가 API 인터페이스를 별도로 테스트하려면 이 옵션을 끌 수 있습니다. 끄면 쿠키나 세션 등의 정보가 포함되지 않습니다"
+      },
+      {
+        "row": 32,
+        "rowsha": "qGoeXhPb7qVEnvDFNLTHim2JrPcNNlPcBQcvnZ3zfYY=",
+        "originContent": "默认开，如果想专门测试未授权api接口，可以把这个选项关掉，关掉后不会携带任何cookie或session等信息",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. 모든 요청 즉시 중지"
+      },
+      {
+        "row": 34,
+        "rowsha": "L8VUJ3zvcWzRTHolc1/BRWUB2MEaRF/DSvZiRr/X/f4=",
+        "originContent": "3. 立即停止发送所有请求",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "기본적으로 꺼져 있으며, 갑작스러운 상황에서 일시 정지가 필요할 때 사용하는 브레이크 기능입니다. 첫 번째 옵션과 함께 사용하는 것이 권장됩니다"
+      },
+      {
+        "row": 36,
+        "rowsha": "9VYFz2K0F/eci5zwgPqVkuBWKEqm7HBo8D3rudGnVI8=",
+        "originContent": "默认关，避免遇到突发情况想暂停，用来刹车的，建议搭配第一个选项一起使用",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. 현재 SiteMap 모든 데이터 삭제"
+      },
+      {
+        "row": 38,
+        "rowsha": "wOEhNCFUo99z2XglfdL7rbqvW0ZnXBfZyHb6kAFa5kE=",
+        "originContent": "4. 清除当前SiteMap所有数据",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 버튼은 API 검의 Site Map에 있는 모든 사이트 데이터를 삭제하는 데 사용됩니다"
+      },
+      {
+        "row": 40,
+        "rowsha": "FeV0GzrCIb4xH8M3mFqmKQrq2NVBLQ0uJHiQkqZWp+I=",
+        "originContent": "这个按钮用于清除API剑的Site Map中的所有站点数据",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d7e8eca0e2994a65b9bae2abb8554e69.png)\n\n5. 启用主动http请求速率\n\n限制每个请求的间隔时间\n\n6. 是否在主动请求时额外添加自定义路径请求\n\n启用该选项后，API剑会在拼接前为主URL添加指定的自定义路径后再进行拼接\n\n7. 过滤掉非200的自定义响应码\n\n8. 允许API剑主动从响应中寻找baseURL并主动对baseURL进行路径拼接\n\n9. 添加自定义header字段：（自动覆盖已有的header字段）\n\n10. 启用绕过危险接口访问(接口包含字符串则跳过)\n\n11. 保存范围及所有设置\n\n12. 是否在API接口后、参数前额外添加自定义路径\n\n13. 线程数量控制\n\n其它设置待开发和完善，如有任何想法建议和问题，可通过github上提issue反馈\n\n## 致谢\n\n感谢 `Microsoft`\n\n感谢 我的`绿盟导师`\n\n感谢 ` mil1ln`\n\n感谢 `探姬`\n\n感谢 所有在测试阶段为API剑提供宝贵意见和反馈的所有人\n\n感谢以上所有人为API剑提供的一切支持！",
+    "ContentSha": "vQvbtvcYhnwBe/46czFcIY6A+DPJ7dt4y7UK/auqIic=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d7e8eca0e2994a65b9bae2abb8554e69.png)\n\n5. 활성 HTTP 요청 속도 설정\n\n각 요청 간 간격 시간 제한\n\n6. 활성 요청 시 추가로 사용자 정의 경로 요청 추가 여부\n\n이 옵션을 활성화하면 API 검은 기본 URL에 지정된 사용자 정의 경로를 추가한 후에 연결함\n\n7. 200이 아닌 사용자 정의 응답 코드 필터링\n\n8. API 검이 응답에서 baseURL을 적극적으로 찾아 baseURL 경로 연결 수행 허용\n\n9. 사용자 정의 헤더 필드 추가: (기존 헤더 필드를 자동 덮어씀)\n\n10. 위험한 인터페이스 접근 우회 활성화 (인터페이스에 문자열 포함 시 건너뜀)\n\n11. 범위 및 모든 설정 저장\n\n12. API 인터페이스 뒤, 매개변수 앞에 사용자 정의 경로 추가 여부\n\n13. 스레드 수 제어\n\n기타 설정은 개발 및 개선 중이며, 아이디어나 제안, 문제는 github 이슈로 피드백 가능\n\n## 감사의 말씀\n\n`Microsoft`에 감사드립니다\n\n나의 `녹명 멘토`에 감사드립니다\n\n`mil1ln`에 감사드립니다\n\n`탐희`에 감사드립니다\n\n테스트 단계에서 API 검에 소중한 의견과 피드백을 제공해주신 모든 분들께 감사드립니다\n\n위 모든 분들께서 API 검에 제공해주신 모든 지원에 감사드립니다!",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "H6bnyS9+CU6Ql7131v7gxuUVMdWyU+4bQZrUZv8P888=",
+        "originContent": "![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d7e8eca0e2994a65b9bae2abb8554e69.png)",
+        "translatedContent": "![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d7e8eca0e2994a65b9bae2abb8554e69.png)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "E/oqZabZJxikQ5tKjgo5v4hLGMG6j2RolLwt77UYZ7E=",
+        "originContent": "5. 启用主动http请求速率",
+        "translatedContent": "5. 활성 HTTP 요청 속도 설정"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "w+qOQjtC6yikfwdHO5OFQgdKUTOEcUdOUAXUiljZI3g=",
+        "originContent": "限制每个请求的间隔时间",
+        "translatedContent": "각 요청 간 간격 시간 제한"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "83bdSqaBvuZX3zz8NhjQ8g6Ipf6JdeQwQjXZan024vM=",
+        "originContent": "6. 是否在主动请求时额外添加自定义路径请求",
+        "translatedContent": "6. 활성 요청 시 추가로 사용자 정의 경로 요청 추가 여부"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "nvHU6nDZuPKBzRJfviY6VbrT3EoV8vYfkrIzH+1WLiI=",
+        "originContent": "启用该选项后，API剑会在拼接前为主URL添加指定的自定义路径后再进行拼接",
+        "translatedContent": "이 옵션을 활성화하면 API 검은 기본 URL에 지정된 사용자 정의 경로를 추가한 후에 연결함"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "HDQNKjHxuj1feDb1gHdwoaC5Fq9K8oKXtjbG2XngWqs=",
+        "originContent": "7. 过滤掉非200的自定义响应码",
+        "translatedContent": "7. 200이 아닌 사용자 정의 응답 코드 필터링"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "eeZI+Yn+rJ+taYBN+Xy1krdBPTOOzPWi00WGQDTn6Ro=",
+        "originContent": "8. 允许API剑主动从响应中寻找baseURL并主动对baseURL进行路径拼接",
+        "translatedContent": "8. API 검이 응답에서 baseURL을 적극적으로 찾아 baseURL 경로 연결 수행 허용"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "vngELelBu+RDFLzHCo6104HF5ljPBz1G3NgBY5oFJdg=",
+        "originContent": "9. 添加自定义header字段：（自动覆盖已有的header字段）",
+        "translatedContent": "9. 사용자 정의 헤더 필드 추가: (기존 헤더 필드를 자동 덮어씀)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "tpkkz1kEseENexjYZpAm//SAV+EvSq9LMDh3B/hCE1g=",
+        "originContent": "10. 启用绕过危险接口访问(接口包含字符串则跳过)",
+        "translatedContent": "10. 위험한 인터페이스 접근 우회 활성화 (인터페이스에 문자열 포함 시 건너뜀)"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "M4JGO7X5psyRbrUgzW2OToRAkfvYpDgC0OlB0S+0HP0=",
+        "originContent": "11. 保存范围及所有设置",
+        "translatedContent": "11. 범위 및 모든 설정 저장"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "6jz9RKt6/rqZ94eVlmQQ9SWgnJeHMscsqg5dO5YKRgo=",
+        "originContent": "12. 是否在API接口后、参数前额外添加自定义路径",
+        "translatedContent": "12. API 인터페이스 뒤, 매개변수 앞에 사용자 정의 경로 추가 여부"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "eVUiG/BqC+0pKDjmcSHo3vvq4g+SpeVtCo6JJfGo370=",
+        "originContent": "13. 线程数量控制",
+        "translatedContent": "13. 스레드 수 제어"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "kBMi0mSsH0kz1xvNPaEUBIhtgGJiL5w1zz2StERxS9k=",
+        "originContent": "其它设置待开发和完善，如有任何想法建议和问题，可通过github上提issue反馈",
+        "translatedContent": "기타 설정은 개발 및 개선 중이며, 아이디어나 제안, 문제는 github 이슈로 피드백 가능"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "o+tqsH1fCLlhMg9UDYmADjok1B4e+CyPWPxG2TB2bwk=",
+        "originContent": "## 致谢",
+        "translatedContent": "## 감사의 말씀"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "FUVBmIz7+1mm2qyVGEA/wJAMg+G4SpxKwZ8GO1DVdu4=",
+        "originContent": "感谢 `Microsoft`",
+        "translatedContent": "`Microsoft`에 감사드립니다"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "b0I4DtM3pXgxE0ZMyWd5rET4Zjt2kjSp+gQvZbTQoz8=",
+        "originContent": "感谢 我的`绿盟导师`",
+        "translatedContent": "나의 `녹명 멘토`에 감사드립니다"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "YWdOaViHdncKbm383CWMYPIniEmm0LhwzyWKSVc/LIo=",
+        "originContent": "感谢 ` mil1ln`",
+        "translatedContent": "`mil1ln`에 감사드립니다"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "RME3rhaqZ9kspt3OPa6ZXgfXgSRT9MJ6Hs7xUPNsx7Y=",
+        "originContent": "感谢 `探姬`",
+        "translatedContent": "`탐희`에 감사드립니다"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "hpdfZsVPTUwJIMl++AeVSIbM4Ldod7z2HXOeL7of9sQ=",
+        "originContent": "感谢 所有在测试阶段为API剑提供宝贵意见和反馈的所有人",
+        "translatedContent": "테스트 단계에서 API 검에 소중한 의견과 피드백을 제공해주신 모든 분들께 감사드립니다"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "P1bBMf8Ew/z4PPMaBI86LdiRKn5MqnK2Nm0vohDWO+A=",
+        "originContent": "感谢以上所有人为API剑提供的一切支持！",
+        "translatedContent": "위 모든 분들께서 API 검에 제공해주신 모든 지원에 감사드립니다!"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "\n## TODO\n\n1. 收集一件梅花K的polo衫 ⬛️\n2. 添加可选的base url路径fuzz ✅\n3. 添加自定义响应码过滤 ✅\n4. 添加API剑主动请求时，添加自定义base路径的选项 ✅\n5. 优化了匹配策略，解锁API剑性能80% ✅\n6. API剑主动请求优化，避免访问危险api ✅\n7. 解决burp默认header不携带CT字段的问题 ✅\n8. 优化响应table的tags宽度 ✅\n9. 修复sitemap的ui闪烁问题 ✅\n10. 添加自定义请求头可选功能 ✅\n11. 添加响应列表的tags自动排序 ✅\n12. 优化匹配策略 ✅\n13. 优化代码块 ⬛️\n14. 注册burp卸载处理 ✅\n15. 全代码添加中英双语可阅读代码注释 ⬛️\n16. gui添加中英双语切换功能 ✅\n17. 优化ui造成burp卡顿、渲染问题 ✅\n18. 添加保存范围和配置的功能 ✅\n19. 添加主动http请求速率功能 ✅\n20. 添加多线程功能 ✅\n21. 添加接口后、参数前的自定义路径功能 ✅\n22. 紧急修复因多线程导致防环逻辑失效问题 ✅\n23. 修复自动排序存在显示出错问题 ✅\n24. 优化API列表的UI，插入数据时，方向键不再会被打断施法 ✅\n25. 彻底修复因多线程导致防环逻辑依然失效的bug ✅\n26. 添加过滤器 ✅\n27. 添加展开节点、收起所有节点 ✅\n28. 清空site map功能优化 ✅\n29. 优化cdn｜跨站点中的js拼接逻辑，使其通过referer作为baseUrl ✅\n30. 添加手动扫描功能，手动扫描会自动添加host到范围列表：burp中对某个请求体进行鼠标右键 -> 扩展 -> API Sword -> API Scan ✅\n",
+    "ContentSha": "uKAqvnQLrIISl2AZLwV20WyRDS3/kDsIUe8agXv3/Ew=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## TODO\n\n1. 매화K 폴로 셔츠 한 벌 수집 ⬛️  \n2. 선택 가능한 base url 경로 퍼즈 추가 ✅  \n3. 사용자 정의 응답 코드 필터링 추가 ✅  \n4. API 검主动 요청 시 사용자 정의 base 경로 옵션 추가 ✅  \n5. 매칭 전략 최적화, API 검 성능 80% 향상 ✅  \n6. API 검主动 요청 최적화, 위험한 API 접근 방지 ✅  \n7. burp 기본 헤더에 CT 필드 미포함 문제 해결 ✅  \n8. 응답 테이블의 태그 너비 최적화 ✅  \n9. 사이트맵 UI 깜빡임 문제 수정 ✅  \n10. 사용자 정의 요청 헤더 선택 기능 추가 ✅  \n11. 응답 목록의 태그 자동 정렬 추가 ✅  \n12. 매칭 전략 최적화 ✅  \n13. 코드 블록 최적화 ⬛️  \n14. burp 종료 처리 등록 ✅  \n15. 전체 코드에 한영 이중 언어 주석 추가 ⬛️  \n16. GUI에 한영 이중 언어 전환 기능 추가 ✅  \n17. UI로 인한 burp 지연 및 렌더링 문제 최적화 ✅  \n18. 범위 및 설정 저장 기능 추가 ✅  \n19.主动 HTTP 요청 속도 기능 추가 ✅  \n20. 멀티스레드 기능 추가 ✅  \n21. 인터페이스 뒤, 매개변수 앞의 사용자 정의 경로 기능 추가 ✅  \n22. 멀티스레드로 인한 무한 루프 방지 로직 오류 긴급 수정 ✅  \n23. 자동 정렬 표시 오류 문제 수정 ✅  \n24. API 목록 UI 최적화, 데이터 삽입 시 방향키 입력 중단 방지 ✅  \n25. 멀티스레드로 인한 무한 루프 방지 로직 오류 완전 수정 ✅  \n26. 필터 추가 ✅  \n27. 노드 확장 및 전체 노드 접기 기능 추가 ✅  \n28. 사이트맵 초기화 기능 최적화 ✅  \n29. CDN｜크로스 사이트 JS 연결 로직 최적화, referer를 baseUrl로 사용 ✅  \n30. 수동 스캔 기능 추가, 수동 스캔 시 호스트가 범위 목록에 자동 추가: burp에서 요청 본문 우클릭 -> 확장 -> API Sword -> API Scan ✅\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## TODO"
+      },
+      {
+        "row": 2,
+        "rowsha": "9BLUDKwF41c3H3chgITZX6+GIbUGQvr0NT8MtLsceMw=",
+        "originContent": "## TODO",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 매화K 폴로 셔츠 한 벌 수집 ⬛️  "
+      },
+      {
+        "row": 4,
+        "rowsha": "15DxU/q+4bKKTDSa9zY5KYTUoKEp/1cX/fp6yG0q3Fg=",
+        "originContent": "1. 收集一件梅花K的polo衫 ⬛️",
+        "translatedContent": "2. 선택 가능한 base url 경로 퍼즈 추가 ✅  "
+      },
+      {
+        "row": 5,
+        "rowsha": "S4R8+BIEnO2ghXLDQqQL4kKUPd7ujej5iFfFZ/clp0U=",
+        "originContent": "2. 添加可选的base url路径fuzz ✅",
+        "translatedContent": "3. 사용자 정의 응답 코드 필터링 추가 ✅  "
+      },
+      {
+        "row": 6,
+        "rowsha": "8JKTCiH8EY81MITGwYMqlr5bvnqFQY71oFnpwxbJFd0=",
+        "originContent": "3. 添加自定义响应码过滤 ✅",
+        "translatedContent": "4. API 검主动 요청 시 사용자 정의 base 경로 옵션 추가 ✅  "
+      },
+      {
+        "row": 7,
+        "rowsha": "hlsKUFlxMdmYuTX1vM56UfPUzgb9v1pHw6A9EQlEOmQ=",
+        "originContent": "4. 添加API剑主动请求时，添加自定义base路径的选项 ✅",
+        "translatedContent": "5. 매칭 전략 최적화, API 검 성능 80% 향상 ✅  "
+      },
+      {
+        "row": 8,
+        "rowsha": "TJHUNDXRGxQvOou9Py+O3QrzcbolH17x2as5c6SJcIQ=",
+        "originContent": "5. 优化了匹配策略，解锁API剑性能80% ✅",
+        "translatedContent": "6. API 검主动 요청 최적화, 위험한 API 접근 방지 ✅  "
+      },
+      {
+        "row": 9,
+        "rowsha": "rs5IZubb7PmISZBHqWDrl41ewL+haQsbw+m5UCnZWNM=",
+        "originContent": "6. API剑主动请求优化，避免访问危险api ✅",
+        "translatedContent": "7. burp 기본 헤더에 CT 필드 미포함 문제 해결 ✅  "
+      },
+      {
+        "row": 10,
+        "rowsha": "KN/AMv1HLyizLrVGNVHiGI+VEH5lCZluMq1Un2JhFn4=",
+        "originContent": "7. 解决burp默认header不携带CT字段的问题 ✅",
+        "translatedContent": "8. 응답 테이블의 태그 너비 최적화 ✅  "
+      },
+      {
+        "row": 11,
+        "rowsha": "AksXbDAIhGt9uoWpqepBqrg3dlN64XOhY2qVzuOVAR8=",
+        "originContent": "8. 优化响应table的tags宽度 ✅",
+        "translatedContent": "9. 사이트맵 UI 깜빡임 문제 수정 ✅  "
+      },
+      {
+        "row": 12,
+        "rowsha": "ZkknyqFc5m5rO1uMEJgub+Si/0ZBY7tBY4HQ1YAcfD0=",
+        "originContent": "9. 修复sitemap的ui闪烁问题 ✅",
+        "translatedContent": "10. 사용자 정의 요청 헤더 선택 기능 추가 ✅  "
+      },
+      {
+        "row": 13,
+        "rowsha": "T3mjYrFhl3A6BHDdsSrYf1ooW26xiM6+w9CJgCqL4jM=",
+        "originContent": "10. 添加自定义请求头可选功能 ✅",
+        "translatedContent": "11. 응답 목록의 태그 자동 정렬 추가 ✅  "
+      },
+      {
+        "row": 14,
+        "rowsha": "2qNr8iIYi98qvF+EH7ay6ob32MDNv/EncEGjCw/KEwE=",
+        "originContent": "11. 添加响应列表的tags自动排序 ✅",
+        "translatedContent": "12. 매칭 전략 최적화 ✅  "
+      },
+      {
+        "row": 15,
+        "rowsha": "9XRTvLtwl0Rg3Ev8q4M+Ca1RHCa7ChodZ5be38ZyAfg=",
+        "originContent": "12. 优化匹配策略 ✅",
+        "translatedContent": "13. 코드 블록 최적화 ⬛️  "
+      },
+      {
+        "row": 16,
+        "rowsha": "83ELaJXI5c6eqEblq6kRa2+9gNf3zCMArYLgVXtEnXE=",
+        "originContent": "13. 优化代码块 ⬛️",
+        "translatedContent": "14. burp 종료 처리 등록 ✅  "
+      },
+      {
+        "row": 17,
+        "rowsha": "icBoeTsFTh0X8ys4N64e4yDtuz6jn/bOleJXMJOlVuM=",
+        "originContent": "14. 注册burp卸载处理 ✅",
+        "translatedContent": "15. 전체 코드에 한영 이중 언어 주석 추가 ⬛️  "
+      },
+      {
+        "row": 18,
+        "rowsha": "HB413EHK79l03BgeIxs/UotfykS8gUlFgV0N1ZsuWPE=",
+        "originContent": "15. 全代码添加中英双语可阅读代码注释 ⬛️",
+        "translatedContent": "16. GUI에 한영 이중 언어 전환 기능 추가 ✅  "
+      },
+      {
+        "row": 19,
+        "rowsha": "hSZjJuLUqeGPNTWjWm1T13h+zw+snQR88mgcY2gEKKw=",
+        "originContent": "16. gui添加中英双语切换功能 ✅",
+        "translatedContent": "17. UI로 인한 burp 지연 및 렌더링 문제 최적화 ✅  "
+      },
+      {
+        "row": 20,
+        "rowsha": "OcHqECB354+uOp92eczR/WJZM4IKzQVOSPKmW7vaDTg=",
+        "originContent": "17. 优化ui造成burp卡顿、渲染问题 ✅",
+        "translatedContent": "18. 범위 및 설정 저장 기능 추가 ✅  "
+      },
+      {
+        "row": 21,
+        "rowsha": "ug6JhYAZe/P7LhmbuZQOeNySmi2pdNhXOcadk6lTfuo=",
+        "originContent": "18. 添加保存范围和配置的功能 ✅",
+        "translatedContent": "19.主动 HTTP 요청 속도 기능 추가 ✅  "
+      },
+      {
+        "row": 22,
+        "rowsha": "4cnnn7c7rmESpVPCGEBfarGp2/ccRph+ityG4Xz/6Yo=",
+        "originContent": "19. 添加主动http请求速率功能 ✅",
+        "translatedContent": "20. 멀티스레드 기능 추가 ✅  "
+      },
+      {
+        "row": 23,
+        "rowsha": "LIIXN9RGHRM/CvJCZlm22UU6h2wJIva2OU/wdofLrRI=",
+        "originContent": "20. 添加多线程功能 ✅",
+        "translatedContent": "21. 인터페이스 뒤, 매개변수 앞의 사용자 정의 경로 기능 추가 ✅  "
+      },
+      {
+        "row": 24,
+        "rowsha": "iVMdB9fBlX336wh0+d9UU13KftPnckYaiauD4V71nZc=",
+        "originContent": "21. 添加接口后、参数前的自定义路径功能 ✅",
+        "translatedContent": "22. 멀티스레드로 인한 무한 루프 방지 로직 오류 긴급 수정 ✅  "
+      },
+      {
+        "row": 25,
+        "rowsha": "7Ix5jUcNxArDzVPpQYW1OfIIyikJ7lshYoDnqGMRg+0=",
+        "originContent": "22. 紧急修复因多线程导致防环逻辑失效问题 ✅",
+        "translatedContent": "23. 자동 정렬 표시 오류 문제 수정 ✅  "
+      },
+      {
+        "row": 26,
+        "rowsha": "79jK0JurBeAG23uiIVv8vAuXbRD1OoQouT7LterczUI=",
+        "originContent": "23. 修复自动排序存在显示出错问题 ✅",
+        "translatedContent": "24. API 목록 UI 최적화, 데이터 삽입 시 방향키 입력 중단 방지 ✅  "
+      },
+      {
+        "row": 27,
+        "rowsha": "xQ/YmHJ2vPP6y4PQDs9pl6xL802+f96MOky7HCv2H44=",
+        "originContent": "24. 优化API列表的UI，插入数据时，方向键不再会被打断施法 ✅",
+        "translatedContent": "25. 멀티스레드로 인한 무한 루프 방지 로직 오류 완전 수정 ✅  "
+      },
+      {
+        "row": 28,
+        "rowsha": "BXaNsat84l42376WmDBowTUV6WiXySrBlZ5C0e0T+AA=",
+        "originContent": "25. 彻底修复因多线程导致防环逻辑依然失效的bug ✅",
+        "translatedContent": "26. 필터 추가 ✅  "
+      },
+      {
+        "row": 29,
+        "rowsha": "+lcw8KR/CE3s1YNgkbdbUqydxKTb2fZJlr2DqFlrhJc=",
+        "originContent": "26. 添加过滤器 ✅",
+        "translatedContent": "27. 노드 확장 및 전체 노드 접기 기능 추가 ✅  "
+      },
+      {
+        "row": 30,
+        "rowsha": "2DhSBQbCYpGeReePK+lI24Wz1PvFkUFckHur80Kq4BU=",
+        "originContent": "27. 添加展开节点、收起所有节点 ✅",
+        "translatedContent": "28. 사이트맵 초기화 기능 최적화 ✅  "
+      },
+      {
+        "row": 31,
+        "rowsha": "tVb/vafcUJGKOIT7ZN5w3SqF8/+w6/CrwRxj4bVSMc8=",
+        "originContent": "28. 清空site map功能优化 ✅",
+        "translatedContent": "29. CDN｜크로스 사이트 JS 연결 로직 최적화, referer를 baseUrl로 사용 ✅  "
+      },
+      {
+        "row": 32,
+        "rowsha": "QxgyiZDnP/9lGs6NHGmjCB/yO0MRSBOq528MxVs2CTA=",
+        "originContent": "29. 优化cdn｜跨站点中的js拼接逻辑，使其通过referer作为baseUrl ✅",
+        "translatedContent": "30. 수동 스캔 기능 추가, 수동 스캔 시 호스트가 범위 목록에 자동 추가: burp에서 요청 본문 우클릭 -> 확장 -> API Sword -> API Scan ✅"
+      },
+      {
+        "row": 33,
+        "rowsha": "5ml+lwsD0+tlGcnzh5paOO5ULv4oJ81aVGxDZxECj/w=",
+        "originContent": "30. 添加手动扫描功能，手动扫描会自动添加host到范围列表：burp中对某个请求体进行鼠标右键 -> 扩展 -> API Sword -> API Scan ✅",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

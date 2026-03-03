@@ -1,0 +1,794 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\" width=\"100%\">\n<a href=\"https://github.com/mlange-42/ark\">\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/mlange-42/ark/refs/heads/main/docs/static/images/ark-logo-text-dark.svg\">\n  <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/mlange-42/ark/refs/heads/main/docs/static/images/ark-logo-text-light.svg\">\n  <img alt=\"Ark Logo\" src=\"https://raw.githubusercontent.com/mlange-42/ark/refs/heads/main/docs/static/images/ark-logo-text-light.svg\">\n</picture>\n</a>\n\n[![Test status](https://img.shields.io/github/actions/workflow/status/mlange-42/ark/tests.yml?branch=main&label=Tests&logo=github)](https://github.com/mlange-42/ark/actions/workflows/tests.yml)\n[![codecov](https://codecov.io/github/mlange-42/ark/graph/badge.svg?token=YMYMFN2ESZ)](https://codecov.io/github/mlange-42/ark)\n[![Go Report Card](https://goreportcard.com/badge/github.com/mlange-42/ark)](https://goreportcard.com/report/github.com/mlange-42/ark)\n[![User Guide](https://img.shields.io/badge/user_guide-%23007D9C?logo=go&logoColor=white&labelColor=gray)](https://mlange-42.github.io/ark/)\n[![Go Reference](https://img.shields.io/badge/reference-%23007D9C?logo=go&logoColor=white&labelColor=gray)](https://pkg.go.dev/github.com/mlange-42/ark)\n[![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/mlange-42/ark)\n[![DOI:10.5281/zenodo.14994239](https://img.shields.io/badge/10.5281%2Fzenodo.14994239-blue?label=doi)](https://doi.org/10.5281/zenodo.14994239)\n[![MIT license](https://img.shields.io/badge/MIT-brightgreen?label=license)](https://github.com/mlange-42/ark/blob/main/LICENSE-MIT)\n[![Apache 2.0 license](https://img.shields.io/badge/Apache%202.0-brightgreen?label=license)](https://github.com/mlange-42/ark/blob/main/LICENSE-APACHE)\n[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)\n\nArk is an archetype-based [Entity Component System](https://en.wikipedia.org/wiki/Entity_component_system) (ECS) for [Go](https://go.dev/).\n\n&mdash;&mdash;\n\n[Features](#features) &nbsp; &bull; &nbsp; [Installation](#installation) &nbsp; &bull; &nbsp; [Usage](#usage) &nbsp; &bull; &nbsp; [Tools](#tools)\n</div>\n\n## Features\n\n- Designed for performance and highly optimized. See the [Benchmarks](https://mlange-42.github.io/ark/benchmarks/).\n- Well-documented, type-safe [API](https://pkg.go.dev/github.com/mlange-42/ark), and a comprehensive [User guide](https://mlange-42.github.io/ark/).\n- [Entity relationships](https://mlange-42.github.io/ark/relations/) as a first-class feature.\n- Extensible [event system](https://mlange-42.github.io/ark/events/) with filtering and custom event types.\n- Fast [batch operations](https://mlange-42.github.io/ark/batch/) for mass manipulation.\n- No systems. Just queries. Use your own structure (or the [Tools](https://github.com/mlange-42/ark#tools)).\n- World serialization and deserialization with [ark-serde](https://github.com/mlange-42/ark-serde).\n- Zero [dependencies](https://github.com/mlange-42/ark/blob/main/go.mod), 100% [test coverage](https://app.codecov.io/github/mlange-42/ark).\n\n## Installation\n",
+    "ContentSha": "D65ZudYB0y6FjOPR51Gl52QBMCZu74I8lGeMqrKofbw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\" width=\"100%\">\n<a href=\"https://github.com/mlange-42/ark\">\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/mlange-42/ark/refs/heads/main/docs/static/images/ark-logo-text-dark.svg\">\n  <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/mlange-42/ark/refs/heads/main/docs/static/images/ark-logo-text-light.svg\">\n  <img alt=\"Ark Logo\" src=\"https://raw.githubusercontent.com/mlange-42/ark/refs/heads/main/docs/static/images/ark-logo-text-light.svg\">\n</picture>\n</a>\n\n[![Test status](https://img.shields.io/github/actions/workflow/status/mlange-42/ark/tests.yml?branch=main&label=Tests&logo=github)](https://github.com/mlange-42/ark/actions/workflows/tests.yml)\n[![codecov](https://codecov.io/github/mlange-42/ark/graph/badge.svg?token=YMYMFN2ESZ)](https://codecov.io/github/mlange-42/ark)\n[![Go Report Card](https://goreportcard.com/badge/github.com/mlange-42/ark)](https://goreportcard.com/report/github.com/mlange-42/ark)\n[![User Guide](https://img.shields.io/badge/user_guide-%23007D9C?logo=go&logoColor=white&labelColor=gray)](https://mlange-42.github.io/ark/)\n[![Go Reference](https://img.shields.io/badge/reference-%23007D9C?logo=go&logoColor=white&labelColor=gray)](https://pkg.go.dev/github.com/mlange-42/ark)\n[![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/mlange-42/ark)\n[![DOI:10.5281/zenodo.14994239](https://img.shields.io/badge/10.5281%2Fzenodo.14994239-blue?label=doi)](https://doi.org/10.5281/zenodo.14994239)\n[![MIT license](https://img.shields.io/badge/MIT-brightgreen?label=license)](https://github.com/mlange-42/ark/blob/main/LICENSE-MIT)\n[![Apache 2.0 license](https://img.shields.io/badge/Apache%202.0-brightgreen?label=license)](https://github.com/mlange-42/ark/blob/main/LICENSE-APACHE)\n[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)\n\nArk is an archetype-based [Entity Component System](https://en.wikipedia.org/wiki/Entity_component_system) (ECS) for [Go](https://go.dev/).\n\n&mdash;&mdash;\n\n[Features](#features) &nbsp; &bull; &nbsp; [Installation](#installation) &nbsp; &bull; &nbsp; [Usage](#usage) &nbsp; &bull; &nbsp; [Tools](#tools)\n</div>\n\n## Features\n\n- Designed for performance and highly optimized. See the [Benchmarks](https://mlange-42.github.io/ark/benchmarks/).\n- Well-documented, type-safe [API](https://pkg.go.dev/github.com/mlange-42/ark), and a comprehensive [User guide](https://mlange-42.github.io/ark/).\n- [Entity relationships](https://mlange-42.github.io/ark/relations/) as a first-class feature.\n- Extensible [event system](https://mlange-42.github.io/ark/events/) with filtering and custom event types.\n- Fast [batch operations](https://mlange-42.github.io/ark/batch/) for mass manipulation.\n- No systems. Just queries. Use your own structure (or the [Tools](https://github.com/mlange-42/ark#tools)).\n- World serialization and deserialization with [ark-serde](https://github.com/mlange-42/ark-serde).\n- Zero [dependencies](https://github.com/mlange-42/ark/blob/main/go.mod), 100% [test coverage](https://app.codecov.io/github/mlange-42/ark).\n\n## Installation\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "eUUDcBNJBcO5e7kB47sL7qxLAfLijHb4PslrJoEfzo0=",
+        "originContent": "<div align=\"center\" width=\"100%\">",
+        "translatedContent": "<div align=\"center\" width=\"100%\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "NmIPgeuDMr/nzWgQbqObfjjEeL/GPZLFJ6MWY8hRiAc=",
+        "originContent": "<a href=\"https://github.com/mlange-42/ark\">",
+        "translatedContent": "<a href=\"https://github.com/mlange-42/ark\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "e/EMiq0wEwC6z5ypRmro6x+Ln2VwaUIirlhG4tMgm/E=",
+        "originContent": "<picture>",
+        "translatedContent": "<picture>"
+      },
+      {
+        "row": 4,
+        "rowsha": "XWG2c7VxV2ommWVlxf3AsEjIJfV/fVyxON5YS9g/e0Y=",
+        "originContent": "  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/mlange-42/ark/refs/heads/main/docs/static/images/ark-logo-text-dark.svg\">",
+        "translatedContent": "  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/mlange-42/ark/refs/heads/main/docs/static/images/ark-logo-text-dark.svg\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "AwEY9U46ia13NIcY8Nazeh1qDZIo5l3XVnTrEATZ/HY=",
+        "originContent": "  <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/mlange-42/ark/refs/heads/main/docs/static/images/ark-logo-text-light.svg\">",
+        "translatedContent": "  <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/mlange-42/ark/refs/heads/main/docs/static/images/ark-logo-text-light.svg\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "vUGQ3YGAaPocyAJJ2KfW8twKB4oDiJVzBNO1pa28ziM=",
+        "originContent": "  <img alt=\"Ark Logo\" src=\"https://raw.githubusercontent.com/mlange-42/ark/refs/heads/main/docs/static/images/ark-logo-text-light.svg\">",
+        "translatedContent": "  <img alt=\"Ark Logo\" src=\"https://raw.githubusercontent.com/mlange-42/ark/refs/heads/main/docs/static/images/ark-logo-text-light.svg\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "hZTTctF/RX64iDLXMWyPifafmJmLfZFAnCkn7yHq8HU=",
+        "originContent": "</picture>",
+        "translatedContent": "</picture>"
+      },
+      {
+        "row": 8,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "hghNfKh6EyrbmIiyydIEldKLHSB7glQDsf+SR0RPf2k=",
+        "originContent": "[![Test status](https://img.shields.io/github/actions/workflow/status/mlange-42/ark/tests.yml?branch=main&label=Tests&logo=github)](https://github.com/mlange-42/ark/actions/workflows/tests.yml)",
+        "translatedContent": "[![Test status](https://img.shields.io/github/actions/workflow/status/mlange-42/ark/tests.yml?branch=main&label=Tests&logo=github)](https://github.com/mlange-42/ark/actions/workflows/tests.yml)"
+      },
+      {
+        "row": 11,
+        "rowsha": "c8nK93HZYy6DeHH6x3zl+qsWxYlaVfmqmHrgjXQ/YNU=",
+        "originContent": "[![codecov](https://codecov.io/github/mlange-42/ark/graph/badge.svg?token=YMYMFN2ESZ)](https://codecov.io/github/mlange-42/ark)",
+        "translatedContent": "[![codecov](https://codecov.io/github/mlange-42/ark/graph/badge.svg?token=YMYMFN2ESZ)](https://codecov.io/github/mlange-42/ark)"
+      },
+      {
+        "row": 12,
+        "rowsha": "7S19B2ZtaLJcUoV9+bOx1WDcRbGkEDgeG64YDme7NFw=",
+        "originContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/mlange-42/ark)](https://goreportcard.com/report/github.com/mlange-42/ark)",
+        "translatedContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/mlange-42/ark)](https://goreportcard.com/report/github.com/mlange-42/ark)"
+      },
+      {
+        "row": 13,
+        "rowsha": "kb64O02TyxG9BGSvRSWw0V5PoJAyXWigr5/uexPzzOg=",
+        "originContent": "[![User Guide](https://img.shields.io/badge/user_guide-%23007D9C?logo=go&logoColor=white&labelColor=gray)](https://mlange-42.github.io/ark/)",
+        "translatedContent": "[![User Guide](https://img.shields.io/badge/user_guide-%23007D9C?logo=go&logoColor=white&labelColor=gray)](https://mlange-42.github.io/ark/)"
+      },
+      {
+        "row": 14,
+        "rowsha": "c9wZlHGaCz0j/1CYOvKbxIR1QC8C8FEnxVN94eYpd1Q=",
+        "originContent": "[![Go Reference](https://img.shields.io/badge/reference-%23007D9C?logo=go&logoColor=white&labelColor=gray)](https://pkg.go.dev/github.com/mlange-42/ark)",
+        "translatedContent": "[![Go Reference](https://img.shields.io/badge/reference-%23007D9C?logo=go&logoColor=white&labelColor=gray)](https://pkg.go.dev/github.com/mlange-42/ark)"
+      },
+      {
+        "row": 15,
+        "rowsha": "Q+w8FlikogzV5okOAD+IYaDPdNY2Li7EfJ5UVjFefYI=",
+        "originContent": "[![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/mlange-42/ark)",
+        "translatedContent": "[![GitHub](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/mlange-42/ark)"
+      },
+      {
+        "row": 16,
+        "rowsha": "rJMzkKAqq65rOwY/+gYXJCxV1i8iJVQq0j3mme5eVXU=",
+        "originContent": "[![DOI:10.5281/zenodo.14994239](https://img.shields.io/badge/10.5281%2Fzenodo.14994239-blue?label=doi)](https://doi.org/10.5281/zenodo.14994239)",
+        "translatedContent": "[![DOI:10.5281/zenodo.14994239](https://img.shields.io/badge/10.5281%2Fzenodo.14994239-blue?label=doi)](https://doi.org/10.5281/zenodo.14994239)"
+      },
+      {
+        "row": 17,
+        "rowsha": "8qRWogVeckHzck4Qyarz6RIuxVeck0JLE6p0tBivGJE=",
+        "originContent": "[![MIT license](https://img.shields.io/badge/MIT-brightgreen?label=license)](https://github.com/mlange-42/ark/blob/main/LICENSE-MIT)",
+        "translatedContent": "[![MIT license](https://img.shields.io/badge/MIT-brightgreen?label=license)](https://github.com/mlange-42/ark/blob/main/LICENSE-MIT)"
+      },
+      {
+        "row": 18,
+        "rowsha": "+6WA0G9uX4Pz4PjBNJ5c+jSj70oS1ZuLs4esV0brMyI=",
+        "originContent": "[![Apache 2.0 license](https://img.shields.io/badge/Apache%202.0-brightgreen?label=license)](https://github.com/mlange-42/ark/blob/main/LICENSE-APACHE)",
+        "translatedContent": "[![Apache 2.0 license](https://img.shields.io/badge/Apache%202.0-brightgreen?label=license)](https://github.com/mlange-42/ark/blob/main/LICENSE-APACHE)"
+      },
+      {
+        "row": 19,
+        "rowsha": "f4FifrOlRugwb2G4bgS5JQxym6u2mWrSxGTHPclYwp8=",
+        "originContent": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)",
+        "translatedContent": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "/EFMomoaQj+dfHIS/DtlqBgjJFheiAuIjq4PZyX7ivc=",
+        "originContent": "Ark is an archetype-based [Entity Component System](https://en.wikipedia.org/wiki/Entity_component_system) (ECS) for [Go](https://go.dev/).",
+        "translatedContent": "Ark is an archetype-based [Entity Component System](https://en.wikipedia.org/wiki/Entity_component_system) (ECS) for [Go](https://go.dev/)."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "yvIarBxMuV0qIk99W1jJEt12A2X0uygdObmsmIKCn4E=",
+        "originContent": "&mdash;&mdash;",
+        "translatedContent": "&mdash;&mdash;"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "EsXKLm1e8sKu0bR7FqpvG/yqP1XA0dK5H0TzdFJNDIA=",
+        "originContent": "[Features](#features) &nbsp; &bull; &nbsp; [Installation](#installation) &nbsp; &bull; &nbsp; [Usage](#usage) &nbsp; &bull; &nbsp; [Tools](#tools)",
+        "translatedContent": "[Features](#features) &nbsp; &bull; &nbsp; [Installation](#installation) &nbsp; &bull; &nbsp; [Usage](#usage) &nbsp; &bull; &nbsp; [Tools](#tools)"
+      },
+      {
+        "row": 26,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Features"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "VvVYqkkEJxVOykf+/oAykYwpFXmP/BVqt2Z8E4i5Diw=",
+        "originContent": "- Designed for performance and highly optimized. See the [Benchmarks](https://mlange-42.github.io/ark/benchmarks/).",
+        "translatedContent": "- Designed for performance and highly optimized. See the [Benchmarks](https://mlange-42.github.io/ark/benchmarks/)."
+      },
+      {
+        "row": 31,
+        "rowsha": "jwuZM87kx7FUNCd9WapwPIvhZLQuAJmmkL2noXcJZYI=",
+        "originContent": "- Well-documented, type-safe [API](https://pkg.go.dev/github.com/mlange-42/ark), and a comprehensive [User guide](https://mlange-42.github.io/ark/).",
+        "translatedContent": "- Well-documented, type-safe [API](https://pkg.go.dev/github.com/mlange-42/ark), and a comprehensive [User guide](https://mlange-42.github.io/ark/)."
+      },
+      {
+        "row": 32,
+        "rowsha": "kDFmrcK+0hNBeE3IdZPKF3Z01T/MnAK9v2tnKp800kY=",
+        "originContent": "- [Entity relationships](https://mlange-42.github.io/ark/relations/) as a first-class feature.",
+        "translatedContent": "- [Entity relationships](https://mlange-42.github.io/ark/relations/) as a first-class feature."
+      },
+      {
+        "row": 33,
+        "rowsha": "xOYSC19qHWJ+RMRSYYznT3dWco15aHeGptqQZeKvrok=",
+        "originContent": "- Extensible [event system](https://mlange-42.github.io/ark/events/) with filtering and custom event types.",
+        "translatedContent": "- Extensible [event system](https://mlange-42.github.io/ark/events/) with filtering and custom event types."
+      },
+      {
+        "row": 34,
+        "rowsha": "3JDHifRmnQcwmhFMwnomI+haAVbcT0f+ac4I0RuvqLY=",
+        "originContent": "- Fast [batch operations](https://mlange-42.github.io/ark/batch/) for mass manipulation.",
+        "translatedContent": "- Fast [batch operations](https://mlange-42.github.io/ark/batch/) for mass manipulation."
+      },
+      {
+        "row": 35,
+        "rowsha": "p+gyh1In0OCIQ6OlsOLm+bVkoDL21nWiXG8QfZ+NsOY=",
+        "originContent": "- No systems. Just queries. Use your own structure (or the [Tools](https://github.com/mlange-42/ark#tools)).",
+        "translatedContent": "- No systems. Just queries. Use your own structure (or the [Tools](https://github.com/mlange-42/ark#tools))."
+      },
+      {
+        "row": 36,
+        "rowsha": "HwsoTMX9DEwJLQDCkPt1XGUDAXSgWsGsYoMjg1E95s8=",
+        "originContent": "- World serialization and deserialization with [ark-serde](https://github.com/mlange-42/ark-serde).",
+        "translatedContent": "- World serialization and deserialization with [ark-serde](https://github.com/mlange-42/ark-serde)."
+      },
+      {
+        "row": 37,
+        "rowsha": "qrThR3Aw183cA4Fw/HBPaO1KxPsxOjtpx5UUMzX9myI=",
+        "originContent": "- Zero [dependencies](https://github.com/mlange-42/ark/blob/main/go.mod), 100% [test coverage](https://app.codecov.io/github/mlange-42/ark).",
+        "translatedContent": "- Zero [dependencies](https://github.com/mlange-42/ark/blob/main/go.mod), 100% [test coverage](https://app.codecov.io/github/mlange-42/ark)."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "To use Ark in a Go project, run:\n",
+    "ContentSha": "6VTasBczrp2m6UR6TWMYw+TP1PvfnjfMwr3vLu9Vunk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "To use Ark in a Go project, run:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "aGRkcni+UN/hPUX3D1sbfOjN48DHErjXLBysTHozjXQ=",
+        "originContent": "To use Ark in a Go project, run:",
+        "translatedContent": "To use Ark in a Go project, run:"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```shell\ngo get github.com/mlange-42/ark\n```",
+    "ContentSha": "q4JQFj16m9i91+0zYsmRikReb9r1voKMl06Guf7MbOY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\ngo get github.com/mlange-42/ark\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "vi3leVgJzFS2aoIyWc5wMbheip9wpAN9+0jvwcVEUC8=",
+        "originContent": "go get github.com/mlange-42/ark",
+        "translatedContent": "go get github.com/mlange-42/ark"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## Usage\n\nBelow is the classical Position/Velocity example that every ECS shows in the docs.\n\nSee the [User Guide](https://mlange-42.github.io/ark/), [API docs](https://pkg.go.dev/github.com/mlange-42/ark) and [examples](https://github.com/mlange-42/ark/tree/main/examples) for details.\n",
+    "ContentSha": "cbInavRAMCWeZcfuaf49m8DDKtK+9a3tn+r3lWAkfhA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Usage\n\nBelow is the classical Position/Velocity example that every ECS shows in the docs.\n\nSee the [User Guide](https://mlange-42.github.io/ark/), [API docs](https://pkg.go.dev/github.com/mlange-42/ark) and [examples](https://github.com/mlange-42/ark/tree/main/examples) for details.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Usage"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Og/P9UFAvzbEmJSYgQ19rYILIhzWqRCqjPrRSQr5/Q8=",
+        "originContent": "Below is the classical Position/Velocity example that every ECS shows in the docs.",
+        "translatedContent": "Below is the classical Position/Velocity example that every ECS shows in the docs."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "IPoH+ZL9GpABiroJm1RHenJCp9NmDnLuy7+o4/qsJFQ=",
+        "originContent": "See the [User Guide](https://mlange-42.github.io/ark/), [API docs](https://pkg.go.dev/github.com/mlange-42/ark) and [examples](https://github.com/mlange-42/ark/tree/main/examples) for details.",
+        "translatedContent": "See the [User Guide](https://mlange-42.github.io/ark/), [API docs](https://pkg.go.dev/github.com/mlange-42/ark) and [examples](https://github.com/mlange-42/ark/tree/main/examples) for details."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```go\npackage main\n\nimport (\n\t\"math/rand/v2\"\n\t\"github.com/mlange-42/ark/ecs\"\n)\n\n// Position component\ntype Position struct {\n\tX, Y float64\n}\n\n// Velocity component\ntype Velocity struct {\n\tDX, DY float64\n}\n\nfunc main() {\n\t// Create a new World\n\tworld := ecs.NewWorld()\n\n\t// Create a component mapper\n\t// Save mappers permanently and re-use them for best performance\n\tmapper := ecs.NewMap2[Position, Velocity](world)\n\n\t// Create entities with components\n\tfor range 1000 {\n\t\t_ = mapper.NewEntity(\n\t\t\t&Position{X: rand.Float64() * 100, Y: rand.Float64() * 100},\n\t\t\t&Velocity{DX: rand.NormFloat64(), DY: rand.NormFloat64()},\n\t\t)\n\t}\n\n\t// Create a filter\n\t// Save filters permanently and re-use them for best performance\n\tfilter := ecs.NewFilter2[Position, Velocity](world)\n\n\t// Time loop\n\tfor range 5000 {\n\t\t// Get a fresh query and iterate it\n\t\tquery := filter.Query()\n\t\tfor query.Next() {\n\t\t\t// Component access through the Query\n\t\t\tpos, vel := query.Get()\n\t\t\t// Update component fields\n\t\t\tpos.X += vel.DX\n\t\t\tpos.Y += vel.DY\n\t\t}\n\t}\n}\n```",
+    "ContentSha": "Va85MlgjiE+1jLqqh3OO4cOQyuvedC+BYKkBgVfRNkY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\npackage main\n\nimport (\n\t\"math/rand/v2\"\n\t\"github.com/mlange-42/ark/ecs\"\n)\n\n// Position component\ntype Position struct {\n\tX, Y float64\n}\n\n// Velocity component\ntype Velocity struct {\n\tDX, DY float64\n}\n\nfunc main() {\n\t// Create a new World\n\tworld := ecs.NewWorld()\n\n\t// Create a component mapper\n\t// Save mappers permanently and re-use them for best performance\n\tmapper := ecs.NewMap2[Position, Velocity](world)\n\n\t// Create entities with components\n\tfor range 1000 {\n\t\t_ = mapper.NewEntity(\n\t\t\t&Position{X: rand.Float64() * 100, Y: rand.Float64() * 100},\n\t\t\t&Velocity{DX: rand.NormFloat64(), DY: rand.NormFloat64()},\n\t\t)\n\t}\n\n\t// Create a filter\n\t// Save filters permanently and re-use them for best performance\n\tfilter := ecs.NewFilter2[Position, Velocity](world)\n\n\t// Time loop\n\tfor range 5000 {\n\t\t// Get a fresh query and iterate it\n\t\tquery := filter.Query()\n\t\tfor query.Next() {\n\t\t\t// Component access through the Query\n\t\t\tpos, vel := query.Get()\n\t\t\t// Update component fields\n\t\t\tpos.X += vel.DX\n\t\t\tpos.Y += vel.DY\n\t\t}\n\t}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "UShDhV/MkqUcgQsbWOBzHAHqyaaiPBV7+gKq1x7f++c=",
+        "originContent": "package main",
+        "translatedContent": "package main"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0NrstaoCAUE7YHmPS6R4dGEAwhf7+jXw9blKepsV2RQ=",
+        "originContent": "import (",
+        "translatedContent": "import ("
+      },
+      {
+        "row": 5,
+        "rowsha": "ZwhGH+jAnTwGpHID45/thkctYj05P18ELJ/Nf0X3RL0=",
+        "originContent": "\t\"math/rand/v2\"",
+        "translatedContent": "\t\"math/rand/v2\""
+      },
+      {
+        "row": 6,
+        "rowsha": "Em6w96dBhgCsCvIX2bZX1nE+u+vLr4okKPuK+snhVLE=",
+        "originContent": "\t\"github.com/mlange-42/ark/ecs\"",
+        "translatedContent": "\t\"github.com/mlange-42/ark/ecs\""
+      },
+      {
+        "row": 7,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "XvwRqVlrJ5VVVmBqTkG9T6WT1ULNdRvXmSG2wYpbI9s=",
+        "originContent": "// Position component",
+        "translatedContent": "// Position component"
+      },
+      {
+        "row": 10,
+        "rowsha": "ySicubALoTEizGu5MSIIFs3NvMGlEN7VE5GcTMFz7EE=",
+        "originContent": "type Position struct {",
+        "translatedContent": "type Position struct {"
+      },
+      {
+        "row": 11,
+        "rowsha": "gzP0AvOECtxpnHcgxUOeRgCBgzqkq+SzkgUyJJpfRAc=",
+        "originContent": "\tX, Y float64",
+        "translatedContent": "\tX, Y float64"
+      },
+      {
+        "row": 12,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "FvTpzfWbNTynnFMGJjBGq5Aw90HDHJ0FtlSg+r8vV3U=",
+        "originContent": "// Velocity component",
+        "translatedContent": "// Velocity component"
+      },
+      {
+        "row": 15,
+        "rowsha": "yFFDyZz24nRcV/5fcf3RUn8qJsHY/jlKYnhOJAnYaCk=",
+        "originContent": "type Velocity struct {",
+        "translatedContent": "type Velocity struct {"
+      },
+      {
+        "row": 16,
+        "rowsha": "Uozy9v/PgclTZ2tpttCTtVCNTZgHh7aocT3t+Z2Wttg=",
+        "originContent": "\tDX, DY float64",
+        "translatedContent": "\tDX, DY float64"
+      },
+      {
+        "row": 17,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "477XskFGOI6HtL1vgLCndqbEY9HpnF/1YFeYnaoIPXA=",
+        "originContent": "func main() {",
+        "translatedContent": "func main() {"
+      },
+      {
+        "row": 20,
+        "rowsha": "+UpRB0Tw97SV1crWiveyDlKUjmR+ZIE3FGnTFvvesHc=",
+        "originContent": "\t// Create a new World",
+        "translatedContent": "\t// Create a new World"
+      },
+      {
+        "row": 21,
+        "rowsha": "pa+FE8zb06AmIqT055szIlXkndtMkwJpNb9DjANgtgU=",
+        "originContent": "\tworld := ecs.NewWorld()",
+        "translatedContent": "\tworld := ecs.NewWorld()"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "gCp+OzPTlXKtx0zyfBUGZYl5znSxjh7jXS7djNnGqgU=",
+        "originContent": "\t// Create a component mapper",
+        "translatedContent": "\t// Create a component mapper"
+      },
+      {
+        "row": 24,
+        "rowsha": "WZDobYwzlSXVwe0kWKKI96GiLNh8QfwREqQBP7TJkaY=",
+        "originContent": "\t// Save mappers permanently and re-use them for best performance",
+        "translatedContent": "\t// Save mappers permanently and re-use them for best performance"
+      },
+      {
+        "row": 25,
+        "rowsha": "WNFJVHAlb9bGOlfFD96lgqV2cT+1tetk1kwy5v2VvKs=",
+        "originContent": "\tmapper := ecs.NewMap2[Position, Velocity](world)",
+        "translatedContent": "\tmapper := ecs.NewMap2[Position, Velocity](world)"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "gB7K/exLTjZx+mVjj8iIdeqye65HRZDDbo9RD9ydAVE=",
+        "originContent": "\t// Create entities with components",
+        "translatedContent": "\t// Create entities with components"
+      },
+      {
+        "row": 28,
+        "rowsha": "2QKiKVoRwvbp6J6btxqHlqmisd96MUtqSVclmoe0V2w=",
+        "originContent": "\tfor range 1000 {",
+        "translatedContent": "\tfor range 1000 {"
+      },
+      {
+        "row": 29,
+        "rowsha": "xYo18OEgC5RcTeA7vdH8AiVDPGjkrW4F76sl7daW1V8=",
+        "originContent": "\t\t_ = mapper.NewEntity(",
+        "translatedContent": "\t\t_ = mapper.NewEntity("
+      },
+      {
+        "row": 30,
+        "rowsha": "Is9CuQQ8oxNri+pUSHzn7Zji1s6k41VJut0DUkR7xdQ=",
+        "originContent": "\t\t\t&Position{X: rand.Float64() * 100, Y: rand.Float64() * 100},",
+        "translatedContent": "\t\t\t&Position{X: rand.Float64() * 100, Y: rand.Float64() * 100},"
+      },
+      {
+        "row": 31,
+        "rowsha": "MtPheISg2H26iybCNvLEthoWtMAt+DYucdzuuHTwfWE=",
+        "originContent": "\t\t\t&Velocity{DX: rand.NormFloat64(), DY: rand.NormFloat64()},",
+        "translatedContent": "\t\t\t&Velocity{DX: rand.NormFloat64(), DY: rand.NormFloat64()},"
+      },
+      {
+        "row": 32,
+        "rowsha": "wDQoWNlsUHS4ebED3WA8lb3Cu8RWHCfSD172epAM+o4=",
+        "originContent": "\t\t)",
+        "translatedContent": "\t\t)"
+      },
+      {
+        "row": 33,
+        "rowsha": "oyo7txIUhevLwaK2r1hczF9qTEvB6ZeRH824leZpJhE=",
+        "originContent": "\t}",
+        "translatedContent": "\t}"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "73iKOb544JwjRctacuExk1zHCfrLa+Vitck7gvOOWm4=",
+        "originContent": "\t// Create a filter",
+        "translatedContent": "\t// Create a filter"
+      },
+      {
+        "row": 36,
+        "rowsha": "WuisMA0lMrPCBtT/FMQE63dy5fLISjRM0rlPMa4M2uE=",
+        "originContent": "\t// Save filters permanently and re-use them for best performance",
+        "translatedContent": "\t// Save filters permanently and re-use them for best performance"
+      },
+      {
+        "row": 37,
+        "rowsha": "tPwYuVxsKtBGXCCPUSdLgW5p5l1iWPnbKVgFmSS1UjM=",
+        "originContent": "\tfilter := ecs.NewFilter2[Position, Velocity](world)",
+        "translatedContent": "\tfilter := ecs.NewFilter2[Position, Velocity](world)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "BT6Yrk0PnzAN2tOPzmDTHoRuA8m0XKa0b7nrjV/4BuI=",
+        "originContent": "\t// Time loop",
+        "translatedContent": "\t// Time loop"
+      },
+      {
+        "row": 40,
+        "rowsha": "SP5zpcMdeif4uN/F39g8Q2mU7GWHfJYsQDLL4kCJIbI=",
+        "originContent": "\tfor range 5000 {",
+        "translatedContent": "\tfor range 5000 {"
+      },
+      {
+        "row": 41,
+        "rowsha": "NG917FQz0OGEYpH45Xog+iXomfA+7yM7ZuImj32MHPM=",
+        "originContent": "\t\t// Get a fresh query and iterate it",
+        "translatedContent": "\t\t// Get a fresh query and iterate it"
+      },
+      {
+        "row": 42,
+        "rowsha": "tsgflYtV66/WTLhJWdhhbrgNYTYuWFn3duZjrKx5ieI=",
+        "originContent": "\t\tquery := filter.Query()",
+        "translatedContent": "\t\tquery := filter.Query()"
+      },
+      {
+        "row": 43,
+        "rowsha": "lj6PfD2y4pr8VI/UfTsuKCe64s2sZbFMaTA+ZlKnQOo=",
+        "originContent": "\t\tfor query.Next() {",
+        "translatedContent": "\t\tfor query.Next() {"
+      },
+      {
+        "row": 44,
+        "rowsha": "jVXWmBkrLXhak+uP3+zyhxYfr+IEh4q5WbEKo4v0rlY=",
+        "originContent": "\t\t\t// Component access through the Query",
+        "translatedContent": "\t\t\t// Component access through the Query"
+      },
+      {
+        "row": 45,
+        "rowsha": "jhHiI9D3j9mT4jDIVJJsjSGbo3yWmo1pK+dmmtJT6MU=",
+        "originContent": "\t\t\tpos, vel := query.Get()",
+        "translatedContent": "\t\t\tpos, vel := query.Get()"
+      },
+      {
+        "row": 46,
+        "rowsha": "nJhpmKyy8fAIm7Vn2HCi44QOkCqhOjw4Vf48PKINudE=",
+        "originContent": "\t\t\t// Update component fields",
+        "translatedContent": "\t\t\t// Update component fields"
+      },
+      {
+        "row": 47,
+        "rowsha": "H7jMMgR7b0Cx28gaT0R59QO3WL/Mb5mgT2DFEngIhUs=",
+        "originContent": "\t\t\tpos.X += vel.DX",
+        "translatedContent": "\t\t\tpos.X += vel.DX"
+      },
+      {
+        "row": 48,
+        "rowsha": "KqbjNRjk61UUwm30x0yiX114xcSDpQOYeq8TIgD40kA=",
+        "originContent": "\t\t\tpos.Y += vel.DY",
+        "translatedContent": "\t\t\tpos.Y += vel.DY"
+      },
+      {
+        "row": 49,
+        "rowsha": "NxO7/XbcqsGm2DFtxbjivMr0tH8sdn+VOvLtZTY+ySU=",
+        "originContent": "\t\t}",
+        "translatedContent": "\t\t}"
+      },
+      {
+        "row": 50,
+        "rowsha": "oyo7txIUhevLwaK2r1hczF9qTEvB6ZeRH824leZpJhE=",
+        "originContent": "\t}",
+        "translatedContent": "\t}"
+      },
+      {
+        "row": 51,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 52,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n## Tools\n\n- [ark-serde](https://github.com/mlange-42/ark-serde) provides JSON serialization and deserialization for Ark's World.\n- [ark-tools](https://github.com/mlange-42/ark-tools) provides systems, a scheduler, and other useful stuff for Ark.\n- [ark-pixel](https://github.com/mlange-42/ark-pixel) provides OpenGL graphics and live plots via the [Pixel](https://github.com/gopxl/pixel) game engine.\n\n## Cite as\n\nLange, M. & contributors (2025): Ark &ndash; An archetype-based Entity Component System for Go. DOI: [10.5281/zenodo.14994239](https://doi.org/10.5281/zenodo.14994239),  GitHub repository: https://github.com/mlange-42/ark\n\n## License\n\nArk and all its sources and documentation are distributed under the [MIT license](./LICENSE-MIT) and the [Apache 2.0 license](./LICENSE-APACHE), as your options.\n",
+    "ContentSha": "7lmCukB4q0wtjp6y5FKWOBXfO+TW3xuKHJEhRYUIKkU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Tools\n\n- [ark-serde](https://github.com/mlange-42/ark-serde) provides JSON serialization and deserialization for Ark's World.\n- [ark-tools](https://github.com/mlange-42/ark-tools) provides systems, a scheduler, and other useful stuff for Ark.\n- [ark-pixel](https://github.com/mlange-42/ark-pixel) provides OpenGL graphics and live plots via the [Pixel](https://github.com/gopxl/pixel) game engine.\n\n## Cite as\n\nLange, M. & contributors (2025): Ark &ndash; An archetype-based Entity Component System for Go. DOI: [10.5281/zenodo.14994239](https://doi.org/10.5281/zenodo.14994239),  GitHub repository: https://github.com/mlange-42/ark\n\n## License\n\nArk and all its sources and documentation are distributed under the [MIT license](./LICENSE-MIT) and the [Apache 2.0 license](./LICENSE-APACHE), as your options.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "CydzS0b79+8mTX3P9FBaCLh3NxcUH6yHLsxNHGhspUw=",
+        "originContent": "## Tools",
+        "translatedContent": "## Tools"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "aqN8TGvQsH5hKo4EO5Y4k0bXTY0Z7asNH35DOK2LTp8=",
+        "originContent": "- [ark-serde](https://github.com/mlange-42/ark-serde) provides JSON serialization and deserialization for Ark's World.",
+        "translatedContent": "- [ark-serde](https://github.com/mlange-42/ark-serde) provides JSON serialization and deserialization for Ark's World."
+      },
+      {
+        "row": 5,
+        "rowsha": "+9h0O8YKY9k56eTdWKGh6KlRRJNQwWXf4QkeTUH0vEo=",
+        "originContent": "- [ark-tools](https://github.com/mlange-42/ark-tools) provides systems, a scheduler, and other useful stuff for Ark.",
+        "translatedContent": "- [ark-tools](https://github.com/mlange-42/ark-tools) provides systems, a scheduler, and other useful stuff for Ark."
+      },
+      {
+        "row": 6,
+        "rowsha": "dAwCzCZAHlaaWKj1CLSetlyiF0MUsAYGeYRIVH3E6zw=",
+        "originContent": "- [ark-pixel](https://github.com/mlange-42/ark-pixel) provides OpenGL graphics and live plots via the [Pixel](https://github.com/gopxl/pixel) game engine.",
+        "translatedContent": "- [ark-pixel](https://github.com/mlange-42/ark-pixel) provides OpenGL graphics and live plots via the [Pixel](https://github.com/gopxl/pixel) game engine."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "bW7BvwhLcQhxnCvYubEVZOhZlta8Yx5Z94BFwW1dtws=",
+        "originContent": "## Cite as",
+        "translatedContent": "## Cite as"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "7kc8UtsAXjusqpHXoFVjIwd3abLgTBMsFgCDOqHUZNg=",
+        "originContent": "Lange, M. & contributors (2025): Ark &ndash; An archetype-based Entity Component System for Go. DOI: [10.5281/zenodo.14994239](https://doi.org/10.5281/zenodo.14994239),  GitHub repository: https://github.com/mlange-42/ark",
+        "translatedContent": "Lange, M. & contributors (2025): Ark &ndash; An archetype-based Entity Component System for Go. DOI: [10.5281/zenodo.14994239](https://doi.org/10.5281/zenodo.14994239),  GitHub repository: https://github.com/mlange-42/ark"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## License"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "H9aL6Z+uCYssiHVDg1Htc3wzT5PzA9O0CQxDHKHl59w=",
+        "originContent": "Ark and all its sources and documentation are distributed under the [MIT license](./LICENSE-MIT) and the [Apache 2.0 license](./LICENSE-APACHE), as your options.",
+        "translatedContent": "Ark and all its sources and documentation are distributed under the [MIT license](./LICENSE-MIT) and the [Apache 2.0 license](./LICENSE-APACHE), as your options."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

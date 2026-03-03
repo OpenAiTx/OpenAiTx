@@ -1,32 +1,10 @@
 <div align="right">
   <details>
-    <summary >🌐 Language</summary>
-    <div>
-      <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-TW">繁體中文</a> 
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=as">हिन्दी</a> 
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=th">ไทย</a> 
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ar">العربية</a>
-        | <a href="#" title="Coming soon">فارسی (coming soon)</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=vi">Tiếng Việt</a>
-        | <a href="#" title="Coming soon">Bahasa Indonesia (coming soon)</a>
+<summary>🌐 Language</summary>
 
-      </div>
-    </div>
-  </details>
+[English](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=en) | [简体中文](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN) | [繁體中文](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-TW) | [日本語](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja) | [한국어](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko) | [हिन्दी](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=hi) | [ไทย](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=th) | [Français](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fr) | [Deutsch](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=de) | [Español](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=es) | [Italiano](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=it) | [Русский](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ru) | [Português](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pt) | [Nederlands](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=nl) | [Polski](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pl) | [العربية](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ar) | [فارسی](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fa) | [Türkçe](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=tr) | [Tiếng Việt](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=id) | [অসমীয়া](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=as)
+
+</details>
 </div>
 
 
@@ -42,8 +20,26 @@ v1 built on [Phi 1.5 by Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
 v2 built on llamaforcausallm
 
-[Hugging Face Link](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+[Hugging Face Link](https://huggingface.co/collections/haykgrigorian/timecapsulellm-1800-1875-london)
 
+## Research Status
+This project was initiated and developed independently.
+
+It is currently conducted under academic supervision, with an affiliated research collaboration at Muhlenberg College.
+
+## Citation
+
+If you use this dataset or model in academic work, please cite:
+
+```bibtex
+@misc{london_llm_1800,
+  author = {Grigorian, Hayk and Yaghoobian, Hamed},
+  title = {Historic London English (1800–1875)},
+  year = {2025},
+  publisher = {Hugging Face},
+  howpublished = {\url{https://huggingface.co/datasets/postgrammar/london-llm-1800}}
+}
+```
 
 ##  Model Behavior & Limitations
 
@@ -52,7 +48,7 @@ v2 built on llamaforcausallm
 Early prompts show the model responding with 1800's language and behavior. 
 Example: Prompt: "Who art Henry?" and it replied "I know that man, I have did not a black, the storm." 
 
-![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - No mention of modern concepts  
 - Mostly era-accurate vocabulary  
@@ -65,7 +61,7 @@ A significant improvement over v0.
 - Still high factual hallucination rate  
 - OCR noise (“Digitized by Google”) still present in outputs
 
-![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
@@ -103,14 +99,22 @@ PROMPT:Charles Darwin
 
 Charles DarwinECCEMACY. Sir, — The following case is interesting to me : — I was in London a fortnight, and was much affected with an attack of rheumatism. The first attack of rheumatism was a week before I saw you, and the second when I saw you, and the third when I saw you, and the third in the same time. The second attack of gout, however, was not accompanied by any febrile symptoms, but was accompanied with an increased flow of urine, and with a more copious discharge of urine. The third attack was an hour after I saw you, and was succeeded by a return of a paroxysm of gout, and a more rapid return of the gout. The fourth attack was also accompanied by a fever, but was not always accompanied by any febrile symptoms. The third attack of gout was a fortnight after you had been ill, and the fourth was followed by a paroxysm of gout. The fourth attack was a fortnight after you were attacked, and was accompanied by a sense
 
+### **v2**
+
+Trained using a 90GB (112GB tokenized) dataset
+Trained to 182K steps 
+
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
+
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
 
 ##  Datasets
 
 ### **v2**
 
-- 90GB of 1800-1875 London texts
+- 90GB(raw) of 1800-1875 London texts
 - 136,344 documents
-- The full 90GB is not avalaible yet as it hasn't been tokenized but you can find a 15GB sample here: https://huggingface.co/datasets/haykgrigorian/TimeCapsuleLLM-London-1800-1875-v2-15GB
+- The full tokenized dataset is now available here: https://huggingface.co/datasets/postgrammar/london-llm-1800
 
  ### Bias Stats 
   ![Pronoun bias](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
@@ -161,7 +165,8 @@ Dataset sizes:
 - v0: ~187MB
 - v0.5: ~435MB 
 - v1: ~6.25GB 
-- v2mini-eval1: 15GB
+- v2mini-eval1: 15GB(sample from v2's 90GB)
+- v2: 90GB
 
 ## How large are the models ?
 
@@ -173,19 +178,41 @@ v1: 700M Parameters
 
 v2mini-eval1: 300M Parameters
 
-# Training Specs ? 
+v2mini-eval2: 200M Parameters
 
-# v0/v0.5
+v2: 1.2B Parameters
+
+## Training Specs ? 
+
+### v0/v0.5
 GPU: Geforce rtx 4060
 CPU: i5-13400F 
 Ram: 16GB DDR5.
 
-# v1
+### v1
 GPU: A100 SXM rented
 
-# v2mini-eval1
-
+### v2mini-eval1/eval2
 GPU: A100 SXM rented
+
+### v2
+GPU: H100 SXM rented
+
+## Acknowledgements
+
+I would like to thank [Dr. Hamed Yaghoobian](https://hamedyaghoobian.com) for academic supervision, guidance on research framing and evaluation, and for assistance with tokenizer training and dataset preparation for the v2 release. His feedback and experience were instrumental in refining the presentation of this work.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

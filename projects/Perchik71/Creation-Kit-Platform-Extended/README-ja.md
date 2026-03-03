@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 言語</summary>
@@ -27,65 +28,70 @@
       </div>
     </div>
   </details>
+
 </div>
 
 <p align="center">
   <img src="https://github.com/Perchik71/Creation-Kit-Platform-Extended/blob/master/Resources/logo.png" alt="Creation Kit Platform Extended" border="0" width="400px">
 </p>
 <p align="center">
-  Bethesda社のCreation Kit向けの改造、強化、およびリバースエンジニアリングリソースのコレクションです。
+  Bethesda社のCreation Kit向けの修正、拡張、リバースエンジニアリングされたリソースのコレクションです。
 </p>
 
 # 説明
-
-**CKPE** は、**Bethesda** の Creation Kit エディタに多数の修正と改善を加える共有ソースの強力なプラットフォームであり、**Skyrim Special Edition**、**Fallout 4**、**Starfield** などのゲームにエディタサポートを提供します。[SSE CKFixes](https://github.com/Nukem9/skyrimse-test)、[SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest)、[FO4 CKFixes](https://github.com/Perchik71/Fallout4Test) プロジェクト、さらに著者 **perchik71** による [Unicode patch for SSE CK 1.5.73](https://github.com/Perchik71/usse_test) の後継でもあります。  
+**CKPE** は共有ソースの強力なプラットフォームで、**Bethesda** の Creation Kit エディターに多数の修正と改善を加え、**Skyrim Special Edition**、**Fallout 4**、**Starfield** などのゲームのエディターサポートを含みます。[SSE CKFixes](https://github.com/Nukem9/skyrimse-test)、[SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest)、[FO4 CKFixes](https://github.com/Perchik71/Fallout4Test) の後継プロジェクトであり、著者 **perchik71** の原点である [Unicode patch for SSE CK 1.5.73](https://github.com/Perchik71/usse_test) も含まれます。  
 
 [Wiki](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki) ページ  
 
 # 依存関係
-[toml11](https://github.com/ToruNiina/toml11) （`ToruNiina` 他）  
-[Zydis](https://github.com/zyantific/zydis.git) （`zyantifi` 他）  
-[zipper](https://github.com/kuba--/zip.git) （`kuba--`）  
-[libdeflate](https://github.com/ebiggers/libdeflate.git) （`ebiggers` 他）  
-[xbyak](https://github.com/herumi/xbyak.git) （`herumi` 他）  
-[DirectXTex](https://github.com/microsoft/DirectXTex.git) （`microsoft`）  
-[jDialogs](https://github.com/Perchik71/jDialogs.git) （`perchik71` *再帰的*）
+[toml11](https://github.com/ToruNiina/toml11)（`ToruNiina` 他）  
+[Zydis](https://github.com/zyantific/zydis.git)（`zyantifi` 他）  
+[zipper](https://github.com/kuba--/zip.git)（`kuba--`）  
+[libdeflate](https://github.com/ebiggers/libdeflate.git)（`ebiggers` 他）  
+[xbyak](https://github.com/herumi/xbyak.git)（`herumi` 他）  
+[DirectXTex](https://github.com/microsoft/DirectXTex.git)（`microsoft`）  
+[jDialogs](https://github.com/Perchik71/jDialogs.git)（`perchik71`、*再帰的*）
 
 # インストール
+>[!重要]
+>通常版または noavx2 版のリリース？  
+>ご利用の CPU が avx2 をサポートしているか Steam で確認してください。Steam を開き、左上のヘルプメニューにカーソルを合わせて「システム情報」を選択し、「AVX2」で検索します。  
+>サポートされている場合は通常版を選択してください。  
+>サポートされていない場合は noavx2 版を選択してください。  
 ### 新規インストール
-[対応ゲーム](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief)をダウンロードし、Creation Kit をインストールしてください。  
-ご利用のゲーム用の **CKPE** [最新リリース](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) をダウンロードしてください。  
+[サポート対象ゲーム](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief) をダウンロードし、Creation Kit をインストールします。  
+お使いのゲーム用の **CKPE** の[最新リリース](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) をダウンロードします。  
 すべての内容をゲームディレクトリに展開し、**ckpe_loader.exe** が **CreationKit.exe** と同じフォルダにあることを確認してください。
 ### アップデート
-ご利用のゲーム用の **CKPE** [最新リリース](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) をダウンロードしてください。  
+お使いのゲーム用の **CKPE** の[最新リリース](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) をダウンロードします。  
 すべての内容をゲームディレクトリに展開し、**ckpe_loader.exe** が **CreationKit.exe** と同じフォルダにあることを確認してください。  
-すべてのファイルの置き換えに同意してください。
+すべてのファイルの上書きに同意してください。
 ### コンパイル
-通常のユーザーは、まだリリースされていない最新機能にアクセスする場合のみこの方法が必要です。  
-**`Visual Studio 2022`** 以降でプロジェクトを開きます。**`Release`** モードまたは **`Release-NoAVX2`** でビルドしてください。  
-ビルドした出力ファイルをゲームディレクトリに移動し、**ckpe_loader.exe** が **CreationKit.exe** と同じフォルダにあることを確認してください。  
-古いファイルの置き換えを求められた場合は、すべての置き換えに同意してください。
-### 自動ビルド (Beta)
-ご利用のゲーム用の **CKPE** [最新コミットビルド](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) をダウンロードしてください。  
+通常のユーザーは未公開の最新機能にアクセスする場合のみこの方法が必要です。  
+**`Visual Studio 2022`** 以降でプロジェクトを開きます。**`Release`** モードまたは **`Release-NoAVX2`** でビルドします。  
+その後、ビルド出力をゲームディレクトリに移動し、**ckpe_loader.exe** が **CreationKit.exe** と同じフォルダにあることを確認してください。  
+古いファイルの上書きを求められた場合は、すべて上書きに同意してください。
+### 自動ビルド（ベータ）
+お使いのゲーム用の **CKPE** の[最新コミットビルド](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) をダウンロードします。  
 すべての内容をゲームディレクトリに展開し、**ckpe_loader.exe** が **CreationKit.exe** と同じフォルダにあることを確認してください。  
-発生する可能性のあるエラー。
+発生しうるエラー。
 
 # クレジット
-[Nukem9](https://github.com/Nukem9) （実験的機能やハッシュ等、多大な貢献）  
-[adzm](https://github.com/adzm) （あなたの仕事に感謝します。[実現](https://github.com/adzm/win32-custom-menubar-aero-theme)してくださったことは、私がずっとやりたかったことです）  
-[yak3d](https://github.com/yak3d) （ワークフローの開発および Starfield 最新版サポートへの貢献）  
-[Dio-Kyrie](https://github.com/Dio-Kyrie) （readme のデザインに感謝します）  
+[Nukem9](https://github.com/Nukem9)（実験的機能やハッシュ等、非常に有用）
+[adzm](https://github.com/adzm) （あなたの仕事に本当に感謝しています。あなたが[成し遂げた](https://github.com/adzm/win32-custom-menubar-aero-theme)ことは、私が長い間やりたかったことです）  
+[yak3d](https://github.com/yak3d) （ワークフローの貢献と開発、最新のStarfieldサポートのため）  
+[DioKyrie-Git](https://github.com/DioKyrie-Git) （readmeのデザインのため）  
 
 # ライセンス
-v0.6（コミット [9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11)）以降、本プロジェクトは [LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html) でライセンスされています。 <br />
-初期バージョンは [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) によってライセンスされています。<br />
+v0.6（コミット[9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11)）以降、本プロジェクトは[LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html)でライセンスされています。<br />
+初期バージョンは[GPLv3](https://www.gnu.org/licenses/gpl-3.0.html)でライセンスされています。<br />
 Copyright © 2023-2025 aka perchik71. All rights reserved. <br />
-ファイル `Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak` には独自のライセンスされていないファイルが含まれています。同様に、`d3dcompiler\*.*` 内のファイルにも適用されます。<br />
-依存関係はそれぞれのライセンスの下で提供されています。
+`Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak`ファイルには、専有および非ライセンスファイルが含まれています。同様に、`d3dcompiler\*.*`内のファイルも該当します。<br />
+依存関係はそれぞれのライセンスに従います。
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-03
 
 ---

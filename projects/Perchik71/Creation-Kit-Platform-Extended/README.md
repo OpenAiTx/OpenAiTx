@@ -28,6 +28,7 @@
       </div>
     </div>
   </details>
+
 </div>
 
 <p align="center">
@@ -52,6 +53,11 @@
 [jDialogs](https://github.com/Perchik71/jDialogs.git) by `perchik71` *(recursive)*
 
 # Install
+>[!IMPORTANT]
+>Regular of noavx2 release?  
+>Check with Steam if your CPU support avx2. Open Steam, in left corner hover over help menu select System Information and search for AVX2.  
+>If it is supported go with regular release  
+>If it is not, go with noavx2 release  
 ### Fresh Install
 Download any [supported game](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief) and install Creation Kit.  
 Download [latest release](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) of **CKPE** for your game.  
@@ -74,7 +80,7 @@ Possible errors.
 [Nukem9](https://github.com/Nukem9) (for experimental functions, hash and so on, very useful)  
 [adzm](https://github.com/adzm) (I really appreciate your work, you have [done](https://github.com/adzm/win32-custom-menubar-aero-theme) what I have long wanted to do myself)  
 [yak3d](https://github.com/yak3d) (For the contribution and development of workflow and support newest Starfield)  
-[Dio-Kyrie](https://github.com/Dio-Kyrie) (For the design of the readme)  
+[DioKyrie-Git](https://github.com/DioKyrie-Git) (For the design of the readme)  
 
 # License
 Starting with the v0.6 (commit [9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11)) project is licensed by [LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html). <br />

@@ -1,114 +1,119 @@
 <div align="right">
   <details>
-    <summary >🌐 زبان</summary>
-    <div>
-      <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=en">انگلیسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-TW">繁體中文</a> 
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja">ژاپنی</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko">کره‌ای</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=as">هندی</a> 
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=th">تایلندی</a> 
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fr">فرانسوی</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=de">آلمانی</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=es">اسپانیایی</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=it">ایتالیایی</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ru">روسی</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pt">پرتغالی</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=nl">هلندی</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pl">لهستانی</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ar">عربی</a>
-        | <a href="#" title="Coming soon">فارسی (به زودی)</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=tr">ترکی</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=vi">ویتنامی</a>
-        | <a href="#" title="Coming soon">اندونزیایی (به زودی)</a>
+<summary>🌐 زبان</summary>
 
-      </div>
-    </div>
-  </details>
+[English](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=en) | [简体中文](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN) | [繁體中文](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-TW) | [日本語](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja) | [한국어](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko) | [हिन्दी](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=hi) | [ไทย](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=th) | [Français](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fr) | [Deutsch](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=de) | [Español](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=es) | [Italiano](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=it) | [Русский](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ru) | [Português](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pt) | [Nederlands](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=nl) | [Polski](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pl) | [العربية](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ar) | [فارسی](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fa) | [Türkçe](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=tr) | [Tiếng Việt](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=id) | [অসমীয়া](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=as)
+</details>
 </div>
 
 
-# تایم‌کپسول LLM
+# تایم‌کپسول ال‌ال‌ام
 
-*یک مدل زبانی که **از پایه** و منحصراً بر اساس داده‌های مکان‌ها و دوره‌های زمانی خاص آموزش دیده تا سوگیری‌های مدرن را کاهش داده و لحن، واژگان و جهان‌بینی همان عصر را بازآفرینی کند.*
+*یک مدل زبانی که **از پایه** تنها بر اساس داده‌های مکان‌ها و دوره‌های زمانی خاص آموزش دیده تا تعصبات مدرن را کاهش دهد و صدای، واژگان و جهان‌بینی آن دوران را بازنمایی کند.*
 
-تصور کنید اگر یک مدل هوش مصنوعی فقط نقش تاریخی بازی نمی‌کرد بلکه واقعاً تاریخی بود.
+تصور کنید اگر یک مدل هوش مصنوعی فقط تظاهر به تاریخی بودن نمی‌کرد، بلکه واقعا تاریخی بود.
 
-نسخه‌های v0 و v0.5 با استفاده از [nanoGPT اثر آندری کارپاتی](https://github.com/karpathy/nanoGPT) ساخته شده‌اند. اسکریپت‌های اصلی آموزش و معماری مدل متعلق به اوست.
+نسخه v0 و v0.5 بر پایه [nanoGPT از آندری کارپاتی](https://github.com/karpathy/nanoGPT) ساخته شده‌اند. اسکریپت‌های اصلی آموزش و معماری مدل، کار اوست.
 
-نسخه v1 بر پایه [Phi 1.5 توسط مایکروسافت](https://huggingface.co/microsoft/phi-1_5) ساخته شده است
+نسخه v1 بر پایه [Phi 1.5 از مایکروسافت](https://huggingface.co/microsoft/phi-1_5) ساخته شده است.
 
-نسخه v2 بر پایه llamaforcausallm ساخته شده است
+نسخه v2 بر پایه llamaforcausallm ساخته شده است.
 
-[لینک Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+[لینک Hugging Face](https://huggingface.co/collections/haykgrigorian/timecapsulellm-1800-1875-london)
 
+## وضعیت پژوهش
+این پروژه به طور مستقل آغاز و توسعه یافته است.
+
+در حال حاضر تحت نظارت دانشگاهی و با همکاری پژوهشی وابسته به کالج مولنبرگ انجام می‌شود.
+
+## استناد
+
+اگر از این پایگاه داده یا مدل در کارهای علمی استفاده می‌کنید، لطفاً به شکل زیر ارجاع دهید:
+
+
+```bibtex
+@misc{london_llm_1800,
+  author = {Grigorian, Hayk and Yaghoobian, Hamed},
+  title = {Historic London English (1800–1875)},
+  year = {2025},
+  publisher = {Hugging Face},
+  howpublished = {\url{https://huggingface.co/datasets/postgrammar/london-llm-1800}}
+}
+```
 
 ## رفتار مدل و محدودیت‌ها
 
 ### **v0**  
 
-در دستورات اولیه، مدل با زبان و رفتار قرن نوزدهم پاسخ می‌دهد.  
-مثال: دستور: "Henry کیست؟" و پاسخ داد: "من آن مرد را می‌شناسم، من نکرده‌ام سیاه، طوفان." 
+در ابتدای کار، مدل با زبان و رفتار قرن ۱۸۰۰ پاسخ می‌دهد.  
+نمونه: درخواست: "چه کسی هنری است؟" و پاسخ داد: "من آن مرد را می‌شناسم، من کاری نکردم، طوفان."  
 
-![نمونه خروجی TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![نمونه خروجی TimeCapsuleLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- هیچ اشاره‌ای به مفاهیم مدرن  
-- عمدتاً واژگان متناسب با دوره تاریخی  
-- جملات عمدتاً نامفهوم (قابل انتظار به خاطر داده آموزشی ~187MB)
+- هیچ اشاره‌ای به مفاهیم مدرن ندارد  
+- عمدتاً واژگان دقیق دوره تاریخی  
+- جملات عمدتاً بی‌معنی (با توجه به داده‌های آموزشی ~۱۸۷MB قابل انتظار است)
 
 ### **v0.5** 
 
-پیشرفت قابل توجه نسبت به v0.  
-- سبک نگارش ویکتوریایی، نقطه‌گذاری صحیح، جملات عمدتاً دستوری  
-- هنوز نرخ هذیان‌گویی اطلاعاتی بالا  
-- نویز OCR («Digitized by Google») همچنان در خروجی‌ها دیده می‌شود
+پیشرفتی قابل توجه نسبت به v0.  
+- سبک نگارش ویکتوریایی، نشانه‌گذاری صحیح، جملات عمدتاً دستوری  
+- هنوز نرخ بالای توهمات واقعی  
+- نویز OCR ("Digitized by Google") هنوز در خروجی‌ها وجود دارد
 
-![نمونه خروجی TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![نمونه خروجی TimeCapsuleLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-اولین مدلی که می‌تواند یک رویداد تاریخی واقعی را به یک شخصیت واقعی از دیتاست متصل کند.
+اولین مدل که توانست یک رویداد تاریخی واقعی را با یک شخصیت واقعی از مجموعه داده‌ها مرتبط کند.
 
-مثال: دستور: "سال ۱۸۳۴ میلادی بود" 
+نمونه: درخواست: "سال ۱۸۳۴ میلادی بود"
 
-خروجی: "سال ۱۸۳۴ میلادی بود و خیابان‌های لندن پر از اعتراض و طومار شده بود. علت، چنان که بسیاری نقل کردند، محدود به راه خصوصی نبود، بلکه همان روز در روز لرد پالمرستون نیز مطرح شد، عموم بیانیه کوتاهی از مشکلاتی که روز قانون به آن رسیده دریافت خواهند کرد. جای تاسف است که رویدادهای حاضر در تاریخ جهان روشن است و در نتیجه شناخته خواهد شد. درست نیست که همان مردانی که نخستین بار انجیل را در اورشلیم مستقر کردند، چنین سابقه گسترده و جالبی از رفاه و رونق داشته باشند" 
+خروجی: "سال ۱۸۳۴ میلادی بود و خیابان‌های لندن پر از اعتراض و دادخواست بود. علت، همانطور که بسیاری نقل کردند، به طور خصوصی مطرح نشد، بلکه همان روز توسط لرد پالمرستون پیگیری شد و مردم بیانیه کوتاهی از مشکلاتی که قانون به آن‌ها رسیده دریافت خواهند کرد. بسیار جای تأسف دارد که وقایع فعلی در تاریخ جهان روشن است و در نتیجه شناخته خواهد شد. درست نیست که همان کسانی که اولین بار انجیل را در اورشلیم منتشر کردند، باید چنین رکورد گسترده و جالبی از رونق و شکوفایی داشته باشند."
 
-ابتدا فکر می‌کردم شاید به طور تصادفی در همان سال اعتراضی رخ داده باشد اما به این نگاه کنید: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+در ابتدا تصور کردم که اعتراض به طور اتفاقی همان سال رخ داده است اما به این تصویر توجه کنید: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-آموزش دیده با نمونه‌ای ۱۵ گیگابایتی از دیتاست ۹۰ گیگابایتی نسخه v2.
-مدل فقط تا ۱۰ هزار گام آموزش داده شده است.
+با استفاده از نمونه‌ای ۱۵GB از مجموعه داده ۹۰GB نسخه v2 آموزش داده شده است.
+مدل فقط تا ۱۰ هزار گام آموزش دیده است.
 
-مشکلی در توکنیزاسیون وجود داشت که باعث شد خروجی به این شکل باشد:
+مشکلی در توکنایزیشن وجود داشت که باعث شد خروجی به این صورت باشد:
 
-درخواست:
 چارلز دیکنز کیست؟
+
 
 
 W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
 اصلاح‌شده:
 
-"چارلز دیکنز کیست؟ آیا آثار بیشتری از برانگیختگی عالی او در نمایشنامه‌هایش، در مزرعه شرکت بزرگ وجود دارد؟ هنوز چه چیزی باید از جک پیکت نقل کنم؟ آیا نمی‌دانید که آنها نوعی تاخت‌وتاز، یا بریدن سینه‌هایشان بودند، یا چه کاری باید انجام می‌شد در زمانی که جکسون از پنجره نگاه می‌کرد؟ موفقیت یک انگلیسی چیست، و آن چیزی که پسرش هنوز برای من کشف نکرده است، تا بتوان چنین وزنی را به انجام رساند؟ آیا تا به حال گذری به جاده قدیمی داشته‌اید، یا به نسیم لنگر در پای قایقمان، که باید ما را ترک کنید؟ واقعیت این است که چه باد از دشت در شب شنبه یا ظهر، یا تا شمال، یا غیر از آن برخیزد یا نه، ما مجبور خواهیم بود مانعی عظیم را توصیف کنیم، با همان اثراتی که اکنون وجود دارد. حداقل در این وضعیت، گفتن اینکه ما آن اتاق را ترک کرده‌ایم، چندان زیاد نیست. فکر می‌کنم سه نسخه در «پانصد نسخه» وجود دارد که باید به آنها اشاره شود، به عنوان اولین شماره خوانندگان ما که مایلند...[به]..."
+"چارلز دیکنز کیست؟ آیا این اثر بیشتر از آثار فوق‌العاده و برانگیزاننده‌اش در نمایشنامه‌ها یا در مزرعه شرکت بزرگ است؟ هنوز چه چیزی باید از جک پیکت نقل کنم؟ آیا نمی‌دانید که آن‌ها نوعی تاخت‌وتاز یا اره کردن سینه‌های خود بودند، یا چه باید کرد زمانی که جکسون از پنجره نگاه می‌کرد؟ موفقیت یک انگلیسی چیست، و چیزی که پسرش هنوز برای من کشف نکرده است، که به واسطه آن بتوان چنین وزنی را به انجام رساند؟ آیا تا به حال راهی به جاده قدیمی باز کرده‌اید، یا تا نسیم لنگر در پای قایق ما، که باید ما را ترک کنید؟ واقعیت این است که چه باد از دشت در شب شنبه یا ظهر، یا تا شمال یا به گونه‌ای دیگر بلند شود یا نه، ما ناچار خواهیم بود مانعی سهمگین را توصیف کنیم، با همان اثراتی که اکنون هست. دست‌کم در این وضعیت نمی‌توان گفت که ما آن اتاق را ترک نکرده‌ایم. معتقدم سه نسخه در «پانصدبرابر» وجود دارد که باید به آن‌ها اشاره شود، به عنوان اولین شماره از خوانندگان ما که مایل‌اند...[ا]..."
 
 ### **v2mini-eval2**
 
-با استفاده از همان نمونه ۱۵ گیگابایتی که برای آموزش eval1 استفاده شده بود، آموزش داده شده است.
-مدل دوباره فقط تا ۱۰ هزار مرحله آموزش دیده است.
+با استفاده از همان نمونه ۱۵ گیگابایتی که برای آموزش eval1 استفاده شد، آموزش داده شده است.
+مدل دوباره فقط تا ۱۰ هزار گام آموزش دیده است.
 
 پرامپت: چارلز داروین
 
-چارلز داروینECCEMACY. آقا، — مورد زیر برای من جالب است: — من دو هفته در لندن بودم و به شدت دچار حمله روماتیسم شدم. اولین حمله روماتیسم یک هفته قبل از دیدار با شما بود، و دومین زمانی که شما را دیدم، و سومین نیز زمانی که شما را دیدم، و سومین در همان زمان. با این حال، دومین حمله نقرس با هیچ علامت تب همراه نبود، اما با افزایش جریان ادرار و دفع بیشتر ادرار همراه بود. سومین حمله یک ساعت پس از دیدار با شما بود و با بازگشت حمله نقرس و بازگشت سریع‌تر نقرس دنبال شد. چهارمین حمله نیز با تب همراه بود اما همیشه با هیچ علامت تب همراه نبود. سومین حمله نقرس دو هفته پس از بیمار شدن شما بود و چهارمین با حمله نقرس دنبال شد. چهارمین حمله دو هفته پس از حمله به شما بود و با حس
-
-##  داده‌کاوی‌ها
+چارلز داروینECCEMACY. آقا، — مورد زیر برای من جالب است: — من دو هفته در لندن بودم و به شدت دچار حمله روماتیسم شدم. اولین حمله روماتیسم یک هفته پیش از دیدار با شما بود، و دومی زمانی که شما را دیدم، و سومی نیز همزمان با آن بود. دومین حمله نقرس اما با هیچ‌گونه علائم تب همراه نبود، اما با افزایش جریان ادرار و تخلیه بیشتر ادرار همراه بود. سومین حمله یک ساعت پس از دیدار با شما رخ داد و با بازگشت حمله‌ای از نقرس و بازگشتی سریع‌تر از نقرس همراه بود. چهارمین حمله نیز با تب همراه بود اما همیشه با علائم تب همراه نبود. سومین حمله نقرس دو هفته پس از بیماری شما بود و چهارمی با حمله‌ای از نقرس دنبال شد. چهارمین حمله دو هفته پس از حمله به شما بود و با احساسی همراه بود
 
 ### **v2**
 
-- ۹۰ گیگابایت متون لندن ۱۸۰۰-۱۸۷۵
+با استفاده از یک مجموعه داده ۹۰ گیگابایتی (۱۱۲ گیگابایت توکنیزه شده) آموزش دیده است
+تا ۱۸۲ هزار گام آموزش داده شده است
+
+![نمونه خروجی TimeCapsuleLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
+
+![نمونه خروجی TimeCapsuleLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
+
+##  مجموعه‌داده‌ها
+
+### **v2**
+
+- ۹۰ گیگابایت (خام) از متون لندن در سال‌های ۱۸۰۰ تا ۱۸۷۵
 - ۱۳۶,۳۴۴ سند
-- کل ۹۰ گیگابایت هنوز در دسترس نیست زیرا هنوز توکنیزه نشده اما نمونه ۱۵ گیگابایتی را می‌توانید در اینجا بیابید: https://huggingface.co/datasets/haykgrigorian/TimeCapsuleLLM-London-1800-1875-v2-15GB
+- کل مجموعه داده توکنیزه شده اکنون اینجا در دسترس است: https://huggingface.co/datasets/postgrammar/london-llm-1800
 
  ### آمار سوگیری 
   ![سوگیری ضمیر](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
@@ -120,72 +125,94 @@ W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring ,
 برای اطلاعات بیشتر به [گزارش سوگیری v2](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) مراجعه کنید.
 
 
-## نحوه استفاده
+## چگونه استفاده کنیم
 
-این پروژه عمدتاً بر گردآوری داده‌های تاریخی، آماده‌سازی آن برای آموزش و ساخت توکنایزر تمرکز دارد. من قرار نیست فرآیند کامل آموزش LLM را پوشش دهم، برای آن به nanoGPT توسط آندری کارپاتی مراجعه کنید.
+این پروژه عمدتاً بر جمع‌آوری داده‌های تاریخی، آماده‌سازی آن برای آموزش و ساخت توکنایزر تمرکز دارد. من فرآیند کامل آموزش LLM را پوشش نمی‌دهم، برای آن به nanoGPT نوشته‌ی Andrej Karpathy مراجعه کنید.
 
 ### مرحله ۱: جمع‌آوری و آماده‌سازی متون تاریخی
 
-- جمع‌آوری فایل‌های .txt از کتاب‌ها، اسناد و غیره در دامنه عمومی از دوره زمانی انتخابی شما (مثلاً لندن ۱۸۰۰-۱۸۵۰)
+- فایل‌های .txt کتاب‌ها، اسناد و غیره را از حوزه عمومی و دوره زمانی مورد نظر خود جمع‌آوری کنید (مثلاً لندن ۱۸۰۰-۱۸۵۰)
+- آن‌ها را در پنجره زمانی/مکانی انتخابی خود نگه دارید
+- فایل‌های متنی را با اسکریپت یا به صورت دستی پاک‌سازی کنید، سربرگ/پاورقی‌های پروژه گوتنبرگ، حاشیه‌نویسی‌های مدرن یا خطاهای OCR را حذف نمایید.
 
+### مرحله ۲: ساخت توکنایزر سفارشی
 
-- آن‌ها را در بازه زمانی/مکانی انتخاب‌شده خود نگه دارید  
-- فایل‌های متنی را با استفاده از اسکریپت یا حذف دستی سرصفحه/پاصفحه‌های پروژه گوتنبرگ، حاشیه‌نویسی‌های مدرن یا مواردی مانند خطاهای OCR پاک‌سازی کنید.
+- train_tokenizer.py یا train_tokenizer_hf.py را روی داده‌های پاک شده اجرا کنید.
+- این کار vocab.json و merges.txt را به شما می‌دهد.
+- این فایل‌ها واژگان و قوانین ادغام مدل شما را تعریف می‌کنند.
 
-### مرحله ۲: ساخت یک توکنایزر سفارشی
+### مرحله ۳: آموزش مدل شما
 
-- train_tokenizer.py یا train_tokenizer_hf.py را روی داده‌های پاک‌شده اجرا کنید.
-- این کار به شما vocab.json و merges.txt را می‌دهد.
-- این فایل‌ها واژگان و قواعد ادغام را برای مدل شما تعریف می‌کنند.
+- برای فرآیند آموزش یا مستندات معماری انتخابی، به [nanoGPT نوشته‌ی Andrej Karpathy](https://github.com/karpathy/nanoGPT) مراجعه کنید.
 
-### مرحله ۳: مدل خود را آموزش دهید
+# سوالات متداول
 
-- برای فرآیند آموزش به [nanoGPT اثر آندری کارپاتی](https://github.com/karpathy/nanoGPT) یا مستندات معماری انتخابی خود مراجعه کنید.
+## آموزش انتخابی زمانی چیست؟
 
-# پرسش‌های متداول
+آموزش انتخابی زمانی (STT) رویکردی در یادگیری ماشین است که تمام داده‌های آموزشی به طور خاص در یک دوره تاریخی معین گردآوری می‌شوند. این کار برای مدل‌سازی زبان و دانش آن عصر بدون تأثیر مفاهیم مدرن انجام می‌شود. مثلاً مدل فعلی من (v0.5) فقط با داده‌های ۱۸۰۰-۱۸۷۵ آموزش دیده، از ابتدا آموزش داده شده و نه به صورت fine-tune؛ بنابراین خروجی آن سبک زبانی و زمینه تاریخی همان دوره را منعکس می‌کند.
 
-## آموزش زمانی انتخابی چیست؟
+## چرا فقط از fine-tuning یا LoRA استفاده نمی‌کنید؟
 
-آموزش زمانی انتخابی (STT) یک روش یادگیری ماشین است که در آن تمام داده‌های آموزشی به طور خاص انتخاب می‌شوند تا در یک بازه تاریخی خاص قرار بگیرند. این کار برای مدل‌سازی زبان و دانش آن دوره بدون تأثیر مفاهیم مدرن انجام می‌شود. برای مثال، مدل فعلی من (v0.5) فقط بر اساس داده‌های ۱۸۰۰-۱۸۷۵ آموزش دیده است، و از ابتدا آموزش داده شده تا خروجی آن بازتاب‌دهنده سبک زبانی و زمینه تاریخی آن زمان باشد.
+در این پروژه هدفم ساخت مدل زبانی است که از سوگیری مدرن دور باشد. اگر چیزی مثل GPT-2 را fine-tune کنم، آن قبلاً آموزش دیده و آن اطلاعات از بین نمی‌رود. اگر از ابتدا آموزش بدهم، مدل زبانی فقط واقعاً قدیمی خواهد بود و تظاهر نمی‌کند. هدف فعلی این پروژه ساخت مدلی است که فقط با دانش کتاب‌های لندن ۱۸۰۰ تا ۱۸۷۵ استدلال کند.
 
-## چرا فقط از فاین‌تیون یا LoRA استفاده نمی‌کنید؟
+## چه نوع داده‌هایی برای آموزش استفاده کردید؟
 
-برای این پروژه من تلاش می‌کنم یک مدل زبانی بسازم که تحت تأثیر سوگیری‌های مدرن نباشد. اگر چیزی مثل GPT-2 را فاین‌تیون کنم، آن مدل قبلاً آموزش دیده و آن اطلاعات از بین نمی‌رود. اگر از ابتدا آموزش دهم، مدل زبانی تظاهر به قدیمی بودن نمی‌کند، بلکه واقعاً قدیمی خواهد بود. هدف فعلی این پروژه ساخت مدلی است که فقط با استفاده از دانش کتاب‌های لندن منتشر شده بین ۱۸۰۰ تا ۱۸۷۵ استدلال کند.
-
-## چه نوع داده‌ای برای آموزش استفاده کردید؟
-
-من از کتاب‌ها، اسناد حقوقی، روزنامه‌ها و نوشته‌های دیگر از لندن ۱۸۰۰–۱۸۷۵ استفاده کردم. لیستی که پیوند داده‌ام (برای v0) حدود ۲۰۰ مورد دارد اما برای اولین آموزش فقط از ۵۰ فایل با حجم ~۱۸۷ مگابایت استفاده کردم. می‌توانید لیست اسناد را مشاهده کنید:
+من از کتاب‌ها، اسناد حقوقی، روزنامه‌ها و نوشته‌های دیگر لندن ۱۸۰۰–۱۸۷۵ استفاده کردم. لیستی که پیوند داده‌ام (برای v0) حدود ۲۰۰ مورد دارد اما برای اولین آموزش فقط ۵۰ فایل حدود ~۱۸۷ مگابایت استفاده کردم. می‌توانید لیست اسناد را مشاهده کنید:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
-اندازه دیتاست‌ها:
+اندازه‌های دیتاست:
 - v0: ~۱۸۷MB
-- v0.5: ~۴۳۵MB 
-- v1: ~۶.۲۵GB 
-- v2mini-eval1: ۱۵GB
+- v0.5: ~۴۳۵MB
+- v1: ~۶.۲۵GB
 
-## مدل‌ها چقدر بزرگ هستند؟
+- v2mini-eval1: ۱۵ گیگابایت (نمونه‌ای از ۹۰ گیگابایت v2)
+- v2: ۹۰ گیگابایت
+
+## اندازه مدل‌ها چقدر است؟
 
 v0: ۱۶ میلیون پارامتر
 
 v0.5: ۱۲۳ میلیون پارامتر
 
-v1: 700M Parameters
+v1: ۷۰۰ میلیون پارامتر
 
-v2mini-eval1: 300M Parameters
+v2mini-eval1: ۳۰۰ میلیون پارامتر
 
-# Training Specs ? 
+v2mini-eval2: ۲۰۰ میلیون پارامتر
 
-# v0/v0.5
-GPU: Geforce rtx 4060
-CPU: i5-13400F 
-Ram: 16GB DDR5.
+v2: ۱.۲ میلیارد پارامتر
 
-# v1
-GPU: A100 SXM rented
+## مشخصات آموزش؟
 
-# v2mini-eval1
+### v0/v0.5
+کارت گرافیک: Geforce RTX 4060
+پردازنده: i5-13400F
+رم: ۱۶ گیگابایت DDR5.
 
-GPU: A100 SXM rented
+### v1
+کارت گرافیک: اجاره‌ای A100 SXM
+
+### v2mini-eval1/eval2
+کارت گرافیک: اجاره‌ای A100 SXM
+
+### v2
+کارت گرافیک: اجاره‌ای H100 SXM
+
+## تشکر و قدردانی
+
+مایلم از [دکتر حامد یغوبیان](https://hamedyaghoobian.com) بابت نظارت علمی، راهنمایی در چارچوب‌بندی پژوهش و ارزیابی، و همچنین کمک در آموزش توکنایزر و آماده‌سازی دیتاست برای انتشار v2 تشکر کنم. بازخورد و تجربیات ایشان نقش اساسی در بهبود ارائه این کار داشت.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -218,6 +245,6 @@ GPU: A100 SXM rented
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-03
 
 ---

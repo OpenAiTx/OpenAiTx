@@ -28,6 +28,7 @@
       </div>
     </div>
   </details>
+
 </div>
 
 <p align="center">
@@ -38,54 +39,59 @@
 </p>
 
 # Deskripsi
-**CKPE** adalah platform sumber bersama yang kuat yang membuat banyak perbaikan dan peningkatan pada editor Creation Kit dari **Bethesda**, termasuk dukungan editor untuk game seperti **Skyrim Special Edition**, **Fallout 4**, **Starfield**, merupakan penerus dari proyek [SSE CKFixes](https://github.com/Nukem9/skyrimse-test), [SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest), [FO4 CKFixes](https://github.com/Perchik71/Fallout4Test), juga [Unicode patch untuk SSE CK 1.5.73](https://github.com/Perchik71/usse_test) yang menjadi awal mula untuk penulis **perchik71**.  
+**CKPE** adalah platform sumber terbuka yang kuat yang membuat banyak perbaikan dan peningkatan pada editor Creation Kit dari **Bethesda**, mencakup dukungan editor untuk game seperti **Skyrim Special Edition**, **Fallout 4**, **Starfield**, merupakan penerus dari proyek [SSE CKFixes](https://github.com/Nukem9/skyrimse-test), [SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest), [FO4 CKFixes](https://github.com/Perchik71/Fallout4Test), serta [Unicode patch for SSE CK 1.5.73](https://github.com/Perchik71/usse_test) yang menjadi awal semuanya bagi penulis **perchik71**.  
 
 Halaman [Wiki](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki)  
 
-# Dependensi
+# Ketergantungan
 [toml11](https://github.com/ToruNiina/toml11) oleh `ToruNiina` dan lainnya  
 [Zydis](https://github.com/zyantific/zydis.git) oleh `zyantifi` dan lainnya  
 [zipper](https://github.com/kuba--/zip.git) oleh `kuba--`  
 [libdeflate](https://github.com/ebiggers/libdeflate.git) oleh `ebiggers` dan lainnya  
-[xbyak](https://github.com/herumi/xbyak.git) oleh `herumi` dan lainnya  
+[xbyak](https://github.com/herumi/xbyak.git) oleh `herumi` dan lainnya    
 [DirectXTex](https://github.com/microsoft/DirectXTex.git) oleh `microsoft`  
 [jDialogs](https://github.com/Perchik71/jDialogs.git) oleh `perchik71` *(rekursif)*
 
 # Instalasi
+>[!PENTING]
+>Rilis reguler atau noavx2?  
+>Periksa dengan Steam apakah CPU Anda mendukung avx2. Buka Steam, di pojok kiri arahkan ke menu bantuan lalu pilih Informasi Sistem dan cari AVX2.  
+>Jika didukung gunakan rilis reguler  
+>Jika tidak, gunakan rilis noavx2  
 ### Instalasi Baru
-Unduh [game yang didukung](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief) dan instal Creation Kit.  
-Unduh [rilis terbaru](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) **CKPE** untuk game Anda.  
+Unduh [game yang didukung](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief) lalu instal Creation Kit.  
+Unduh [rilis terbaru](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) dari **CKPE** untuk game Anda.  
 Ekstrak semua konten ke direktori game, sehingga **ckpe_loader.exe** berada di folder yang sama dengan **CreationKit.exe**.
 ### Pembaruan
-Unduh [rilis terbaru](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) **CKPE** untuk game Anda.  
+Unduh [rilis terbaru](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) dari **CKPE** untuk game Anda.  
 Ekstrak semua konten ke direktori game, sehingga **ckpe_loader.exe** berada di folder yang sama dengan **CreationKit.exe**.  
 Setujui untuk mengganti semua file.
 ### Kompilasi
-Pengguna biasa hanya memerlukan metode ini untuk mengakses fitur terbaru yang belum dirilis.  
+Pengguna reguler hanya membutuhkan metode ini untuk mengakses fitur terbaru yang belum dirilis.  
 Buka proyek di **`Visual Studio 2022`** atau lebih baru. Build proyek dalam mode **`Release`** atau **`Release-NoAVX2`**.  
-Kemudian pindahkan output build Anda ke direktori game, sehingga **ckpe_loader.exe** berada di folder yang sama dengan **CreationKit.exe**.  
-Jika Anda diminta untuk mengganti file lama, setujui untuk menggantinya semua.
-### Otomatisasi Build (Beta)
-Unduh [build commit terbaru](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) **CKPE** untuk game Anda.  
+Kemudian pindahkan hasil build Anda ke direktori game, sehingga **ckpe_loader.exe** berada di folder yang sama dengan **CreationKit.exe**.  
+Jika diminta untuk mengganti file lama setujui untuk mengganti semua.
+### Otomatisasi build (Beta)
+Unduh [build commit terbaru](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) dari **CKPE** untuk game Anda.  
 Ekstrak semua konten ke direktori game, sehingga **ckpe_loader.exe** berada di folder yang sama dengan **CreationKit.exe**.  
 Kemungkinan error.
 
 # Kredit
-[Nukem9](https://github.com/Nukem9) (untuk fungsi eksperimental, hash dan lain-lain, sangat berguna)  
+[Nukem9](https://github.com/Nukem9) (untuk fungsi eksperimental, hash, dan lain-lain, sangat berguna)  
 [adzm](https://github.com/adzm) (Saya sangat menghargai karya Anda, Anda telah [melakukan](https://github.com/adzm/win32-custom-menubar-aero-theme) apa yang sudah lama ingin saya lakukan sendiri)  
-[yak3d](https://github.com/yak3d) (Atas kontribusi dan pengembangan workflow serta dukungan Starfield terbaru)  
-[Dio-Kyrie](https://github.com/Dio-Kyrie) (Untuk desain readme)  
+[yak3d](https://github.com/yak3d) (Untuk kontribusi dan pengembangan alur kerja serta dukungan Starfield terbaru)  
+[DioKyrie-Git](https://github.com/DioKyrie-Git) (Untuk desain readme)  
 
 # Lisensi
 Mulai dari v0.6 (commit [9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11)) proyek ini dilisensikan dengan [LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html). <br />
-Versi awal dilisensikan oleh [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) <br />
-Hak Cipta © 2023-2025 aka perchik71. Semua hak dilindungi. <br />
-File `Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak` berisi file berpemilik dan tidak berlisensi; hal yang sama berlaku untuk file di `d3dcompiler\*.*`. <br />
+Versi awal dilisensikan dengan [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) <br />
+Hak Cipta © 2023-2025 aka perchik71. Seluruh hak cipta dilindungi undang-undang. <br />
+Berkas `Stuffs\FO4\CreationKitPlatformExtended_FO4_Resources.pak` berisi file-file hak milik dan tidak berlisensi; hal yang sama berlaku untuk file di `d3dcompiler\*.*`. <br />
 Dependensi berada di bawah lisensi masing-masing. 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-03
 
 ---

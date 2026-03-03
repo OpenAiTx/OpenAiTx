@@ -1,48 +1,45 @@
 <div align="right">
   <details>
-    <summary >🌐 Ngôn ngữ</summary>
-    <div>
-      <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-TW">繁體中文</a> 
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=as">हिन्दी</a> 
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=th">ไทย</a> 
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ar">العربية</a>
-        | <a href="#" title="Coming soon">فارسی (coming soon)</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=vi">Tiếng Việt</a>
-        | <a href="#" title="Coming soon">Bahasa Indonesia (coming soon)</a>
+<summary>🌐 Ngôn ngữ</summary>
 
-      </div>
-    </div>
-  </details>
+[English](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=en) | [简体中文](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN) | [繁體中文](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-TW) | [日本語](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja) | [한국어](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko) | [हिन्दी](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=hi) | [ไทย](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=th) | [Français](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fr) | [Deutsch](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=de) | [Español](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=es) | [Italiano](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=it) | [Русский](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ru) | [Português](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pt) | [Nederlands](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=nl) | [Polski](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pl) | [العربية](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ar) | [فارسی](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fa) | [Türkçe](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=tr) | [Tiếng Việt](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=id) | [অসমীয়া](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=as)
+</details>
 </div>
 
 
 # TimeCapsule LLM
 
-*Một mô hình ngôn ngữ được huấn luyện **từ đầu** chỉ dựa trên dữ liệu từ những địa điểm và thời kỳ nhất định nhằm giảm thiên vị hiện đại và mô phỏng giọng điệu, từ vựng, cũng như thế giới quan của thời đại đó.*
+*Một mô hình ngôn ngữ được huấn luyện **từ đầu** chỉ trên dữ liệu từ các địa điểm và giai đoạn thời gian nhất định để giảm thiên vị hiện đại và mô phỏng lại giọng nói, từ vựng và thế giới quan của thời đại đó.*
 
 Hãy tưởng tượng nếu một mô hình AI không chỉ giả vờ là lịch sử mà thực sự là như vậy.
 
-v0 và v0.5 được xây dựng dựa trên [nanoGPT của Andrej Karpathy](https://github.com/karpathy/nanoGPT) Các tập lệnh huấn luyện cốt lõi và kiến trúc mô hình là công trình của ông ấy. 
+v0 và v0.5 được xây dựng dựa trên [nanoGPT của Andrej Karpathy](https://github.com/karpathy/nanoGPT) Các tập lệnh huấn luyện cốt lõi và kiến trúc mô hình là công trình của ông.
 
-v1 được xây dựng trên [Phi 1.5 của Microsoft](https://huggingface.co/microsoft/phi-1_5)
+v1 được xây dựng dựa trên [Phi 1.5 của Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
-v2 được xây dựng trên llamaforcausallm
+v2 được xây dựng dựa trên llamaforcausallm
 
-[Liên kết Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+[Liên kết Hugging Face](https://huggingface.co/collections/haykgrigorian/timecapsulellm-1800-1875-london)
+
+## Tình trạng nghiên cứu
+Dự án này được khởi xướng và phát triển độc lập.
+
+Hiện tại đang được tiến hành dưới sự giám sát học thuật, với sự hợp tác nghiên cứu liên kết tại Muhlenberg College.
+
+## Trích dẫn
+
+Nếu bạn sử dụng bộ dữ liệu hoặc mô hình này trong các công trình học thuật, xin hãy trích dẫn:
+
+
+```bibtex
+@misc{london_llm_1800,
+  author = {Grigorian, Hayk and Yaghoobian, Hamed},
+  title = {Historic London English (1800–1875)},
+  year = {2025},
+  publisher = {Hugging Face},
+  howpublished = {\url{https://huggingface.co/datasets/postgrammar/london-llm-1800}}
+}
+```
 
 ##  Hành Vi & Giới Hạn Của Mô Hình
 
@@ -51,141 +48,171 @@ v2 được xây dựng trên llamaforcausallm
 Các prompt ban đầu cho thấy mô hình phản hồi bằng ngôn ngữ và hành vi của những năm 1800. 
 Ví dụ: Prompt: "Who art Henry?" và nó trả lời "I know that man, I have did not a black, the storm." 
 
-![Kết quả mẫu của TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- Không đề cập đến các khái niệm hiện đại  
-- Chủ yếu dùng từ vựng chuẩn theo thời kỳ  
-- Câu văn phần lớn không mạch lạc (đúng với dữ liệu huấn luyện khoảng ~187MB)
+- Không đề cập tới khái niệm hiện đại  
+- Chủ yếu sử dụng từ vựng chính xác của thời kỳ  
+- Câu văn phần lớn không mạch lạc (điều này được dự đoán với dữ liệu huấn luyện ~187MB)
 
 ### **v0.5** 
 
-Cải tiến đáng kể so với v0.  
-- Phong cách viết thời Victoria, dấu câu chuẩn, câu văn phần lớn đúng ngữ pháp  
-- Tỷ lệ sai lệch thực tế vẫn cao  
-- Nhiễu OCR (“Digitized by Google”) vẫn xuất hiện trong kết quả
+Cải thiện rõ rệt so với v0.  
+- Văn phong thời Victoria, dấu câu đúng, câu phần lớn đúng ngữ pháp  
+- Tỷ lệ bịa đặt thông tin vẫn cao  
+- Nhiễu OCR (“Digitized by Google”) vẫn còn trong đầu ra
 
-![Kết quả mẫu của TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-Mô hình đầu tiên ghi nhớ và kết nối một sự kiện lịch sử thực tế với một nhân vật có trong bộ dữ liệu.
+Mô hình đầu tiên nhớ và liên kết một sự kiện lịch sử thực với một nhân vật thực trong bộ dữ liệu.
 
 Ví dụ: Prompt: "It was the year of our Lord 1834" 
 
 Kết quả: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-Ban đầu tôi nghĩ rằng có thể có một cuộc biểu tình tình cờ diễn ra cùng năm đó nhưng hãy xem qua hình này: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+Lúc đầu tôi cho rằng một cuộc biểu tình có thể tình cờ diễn ra cùng năm nhưng hãy xem điều này: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
+Huấn luyện bằng mẫu 15GB từ bộ dữ liệu 90GB của v2.
+Mô hình chỉ được huấn luyện đến 10K bước.
 
-Được huấn luyện bằng mẫu 15GB từ bộ dữ liệu 90GB của v2.
-Mô hình chỉ được huấn luyện đến 10.000 bước.
+Có một vấn đề với tokenization khiến đầu ra trông như thế này:
 
-Có một vấn đề với việc mã hóa token khiến đầu ra trông như sau:
-
-YÊU CẦU:
 Charles Dickens là ai?
 
 
+
 W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
+
 Đã chỉnh sửa:
 
-"Charles Dickens là ai? Liệu tác phẩm đó có phải là sự khuấy động xuất sắc hơn nữa của ông, trong các vở kịch của ông, tại nông trại của Công ty Lớn không? Tôi còn phải trích dẫn gì từ Jack Pickett? Bạn không biết rằng họ là một loài phi nước đại, hoặc cưa ngực họ, hoặc phải làm gì vào thời điểm Jackson đang nhìn qua cửa sổ? Thành công của một người Anh là gì, và điều mà con trai ông ta chưa phát hiện ra với tôi, qua đó thực hiện được một trọng lượng như vậy? Bạn đã bao giờ đi qua con đường cũ, hoặc tới một làn gió neo đậu ở chân thuyền của chúng tôi, nơi bạn phải rời chúng tôi chưa? Thực tế là, dù gió có nổi lên từ đồng bằng vào đêm thứ Bảy hay giữa trưa, hoặc đến từ phương bắc, hoặc khác đi, chúng tôi sẽ buộc phải mô tả một rào cản đáng gờm, với cùng những hiệu ứng như hiện tại. Trong tình huống này, ít nhất, không quá lời khi nói rằng chúng tôi đã rời khỏi căn phòng đó. Tôi tin rằng có ba bản sao trong 'Năm Trăm lần,' để tham khảo, như số đầu tiên của độc giả chúng tôi mong muốn t[o]..."
+"Charles Dickens là ai? Tác phẩm đó có mang nhiều nét tuyệt vời lay động trong các vở kịch của ông, tại nông trại của Đại Công Ty không? Tôi còn phải trích dẫn gì từ Jack Pickett? Bạn không biết rằng họ là một loài phi nước đại, hay vỗ ngực họ, hoặc phải làm gì vào lúc Jackson đang nhìn qua cửa sổ? Thành công của một người Anh là gì, và mà con trai ông ấy chưa khám phá cho tôi, để thực hiện một trọng lượng như vậy? Bạn đã từng đi qua con đường cũ, hoặc đến một làn gió neo ở chân thuyền của chúng tôi, nơi bạn phải rời bỏ chúng tôi? Thực tế là, dù gió có nổi lên từ đồng bằng vào tối thứ Bảy hay giữa trưa, hoặc đến phía bắc, hoặc cách khác, chúng ta sẽ buộc phải mô tả một rào cản đáng sợ, với những hiệu ứng giống như hiện tại. Trong hoàn cảnh này, ít nhất, không quá lời khi nói rằng chúng ta đã rời khỏi căn phòng đó. Tôi tin rằng có ba bản sao trong 'Năm Trăm Lần,' để tham khảo, là số đầu tiên của độc giả chúng ta muốn t[...]..."
 
 ### **v2mini-eval2**
 
-Được huấn luyện sử dụng cùng mẫu 15GB đã dùng để huấn luyện eval1.
-Mô hình lại được huấn luyện tới 10K bước mà thôi.
+Được huấn luyện bằng mẫu 15GB giống như đã dùng để huấn luyện eval1.
+Mô hình lại được huấn luyện chỉ đến 10K bước.
 
-PROMPT:Charles Darwin
+PROMPT: Charles Darwin
 
-Charles DarwinECCEMACY. Thưa ngài, — Trường hợp sau đây khiến tôi quan tâm : — Tôi đã ở London hai tuần, và bị ảnh hưởng nhiều bởi một cơn thấp khớp. Cơn thấp khớp đầu tiên xảy ra một tuần trước khi tôi gặp ngài, và cơn thứ hai khi tôi gặp ngài, và cơn thứ ba khi tôi gặp ngài, và cơn thứ ba trong cùng thời gian đó. Tuy nhiên, cơn gút thứ hai không kèm theo triệu chứng sốt nào, mà lại kèm theo lượng nước tiểu tăng, và lượng nước tiểu bài tiết nhiều hơn. Cơn thứ ba xuất hiện một giờ sau khi tôi gặp ngài, và tiếp sau đó là một đợt tái phát gút, và một lần trở lại nhanh hơn của bệnh gút. Cơn thứ tư cũng kèm theo sốt, nhưng không phải lúc nào cũng có triệu chứng sốt. Cơn gút thứ ba là hai tuần sau khi ngài bị bệnh, và cơn thứ tư tiếp theo một đợt tái phát gút. Cơn thứ tư là hai tuần sau khi ngài bị tấn công, và kèm theo cảm giác
-
-##  Bộ dữ liệu
+Charles DarwinECCEMACY. Thưa ngài, — Trường hợp sau đây rất thú vị đối với tôi: — Tôi ở London hai tuần, và bị ảnh hưởng khá nhiều bởi một cơn đau thấp khớp. Đợt đau thấp khớp đầu tiên xảy ra một tuần trước khi tôi gặp ngài, đợt thứ hai khi tôi gặp ngài, đợt thứ ba cũng khi tôi gặp ngài, và đợt thứ ba trong cùng thời điểm. Tuy nhiên, đợt đau gout thứ hai không kèm triệu chứng sốt, nhưng lại có lượng nước tiểu tăng lên và có sự bài tiết nước tiểu nhiều hơn. Đợt thứ ba xảy ra một giờ sau khi tôi gặp ngài, và tiếp theo là một đợt tái phát cơn gout, và cơn gout trở lại nhanh hơn. Đợt thứ tư cũng kèm theo sốt, nhưng không phải lúc nào cũng có triệu chứng sốt. Đợt đau gout thứ ba xảy ra hai tuần sau khi ngài bị bệnh, và đợt thứ tư là sau một đợt tái phát gout. Đợt thứ tư xảy ra hai tuần sau khi ngài bị tấn công, và kèm theo cảm giác
 
 ### **v2**
 
-- 90GB văn bản London giai đoạn 1800-1875
+Được huấn luyện bằng bộ dữ liệu 90GB (112GB đã mã hóa)
+Huấn luyện đến 182K bước
+
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
+
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
+
+##  Bộ Dữ liệu
+
+### **v2**
+
+- 90GB (thô) các văn bản London giai đoạn 1800-1875
 - 136.344 tài liệu
-- Toàn bộ 90GB hiện chưa có sẵn vì chưa được mã hóa, nhưng bạn có thể tìm một mẫu 15GB tại đây: https://huggingface.co/datasets/haykgrigorian/TimeCapsuleLLM-London-1800-1875-v2-15GB
+- Bộ dữ liệu đã mã hóa đầy đủ hiện đã có tại: https://huggingface.co/datasets/postgrammar/london-llm-1800
 
- ### Thống kê thiên lệch 
-  ![Thiên lệch đại từ nhân xưng](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
+ ### Thống kê Định kiến
+  ![Định kiến đại từ](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
 
-  ![Thiên lệch địa lý](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/geographic_bias.png)
+  ![Định kiến địa lý](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/geographic_bias.png)
 
-  ![Thiên lệch thời gian](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/temporal_bias.png)
+  ![Định kiến thời gian](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/temporal_bias.png)
 
-Xem [báo cáo thiên lệch v2](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) để biết thêm thông tin.
+Tham khảo [báo cáo định kiến v2](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) để biết thêm thông tin.
 
+## Hướng Dẫn Sử Dụng
 
-## Hướng dẫn sử dụng
+Dự án này chủ yếu tập trung vào việc tuyển chọn dữ liệu lịch sử, chuẩn bị dữ liệu cho huấn luyện và xây dựng một tokenizer. Tôi sẽ không đề cập đến toàn bộ quy trình huấn luyện LLM, để biết chi tiết hãy tham khảo nanoGPT của Andrej Karpathy.
 
-Dự án này tập trung chủ yếu vào việc thu thập dữ liệu lịch sử, chuẩn bị dữ liệu cho huấn luyện và xây dựng một bộ mã hóa từ vựng. Tôi sẽ không đề cập đến toàn bộ quy trình huấn luyện LLM, cho điều đó hãy tham khảo nanoGPT của Andrej Karpathy.
+### Bước 1: Thu Thập và Chuẩn Bị Văn Bản Lịch Sử
 
-### Bước 1: Thu thập và chuẩn bị văn bản lịch sử 
+- Thu thập các file .txt của sách, tài liệu, v.v. thuộc phạm vi công cộng từ giai đoạn bạn chọn (ví dụ: London 1800-1850) 
+- Đảm bảo chúng nằm trong khung thời gian/địa điểm bạn chọn  
+- Làm sạch các file văn bản bằng script hoặc thủ công loại bỏ đầu/cuối từ Project Gutenberg, chú thích hiện đại hoặc các lỗi như nhận dạng ký tự quang học (OCR).
 
-- Thu thập các tệp .txt của sách, tài liệu miền công cộng, v.v. từ khoảng thời gian bạn chọn (ví dụ: London 1800-1850)
+### Bước 2: Xây Dựng Tokenizer Tùy Chỉnh
 
+- Chạy train_tokenizer.py hoặc train_tokenizer_hf.py trên dữ liệu đã làm sạch.
+- Kết quả bạn sẽ có vocab.json và merges.txt
+- Các file này định nghĩa từ vựng và quy tắc trộn cho mô hình của bạn
 
-- Giữ chúng trong khung thời gian/địa điểm bạn đã chọn  
-- Làm sạch các tệp văn bản bằng script hoặc thủ công loại bỏ tiêu đề/chân trang từ Project Gutenberg, chú thích hiện đại hoặc các lỗi như OCR.
+### Bước 3: Huấn Luyện Mô Hình Của Bạn
 
-### Bước 2: Xây dựng Bộ phân tách Token tùy chỉnh
+- Tham khảo [nanoGPT của Andrej Karpathy](https://github.com/karpathy/nanoGPT) để biết quy trình huấn luyện hoặc tài liệu của kiến trúc bạn chọn.
 
-- Chạy train_tokenizer.py hoặc train_tokenizer_hf.py trên dữ liệu đã được làm sạch.
-- Điều này sẽ tạo ra vocab.json và merges.txt
-- Các tệp này xác định từ vựng và quy tắc hợp nhất cho mô hình của bạn
+# Câu Hỏi Thường Gặp
 
-### Bước 3: Huấn luyện Mô hình của bạn 
+## Selective Temporal Training là gì?
 
-- Tham khảo [nanoGPT của Andrej Karpathy](https://github.com/karpathy/nanoGPT) cho quy trình huấn luyện hoặc tài liệu kiến trúc bạn chọn.
-
-# Câu hỏi thường gặp
-
-## Đào tạo theo thời kỳ chọn lọc là gì?
-
-Đào tạo theo thời kỳ chọn lọc (Selective Temporal Training - STT) là một phương pháp học máy trong đó tất cả dữ liệu huấn luyện được chọn lọc để nằm trong một giai đoạn lịch sử cụ thể. Việc này được thực hiện để mô phỏng ngôn ngữ và tri thức của thời kỳ đó mà không bị ảnh hưởng bởi các khái niệm hiện đại. Ví dụ, mô hình hiện tại tôi có (v0.5) được huấn luyện độc quyền trên dữ liệu từ 1800-1875, không phải tinh chỉnh mà huấn luyện từ đầu nên cho ra kết quả phản ánh đúng phong cách ngôn ngữ và bối cảnh lịch sử của thời kỳ đó.
+Selective Temporal Training (STT) là một phương pháp học máy, trong đó tất cả dữ liệu huấn luyện đều được tuyển chọn để nằm trong một giai đoạn lịch sử cụ thể. Việc này nhằm mô phỏng ngôn ngữ và tri thức của thời kỳ đó mà không bị ảnh hưởng bởi các khái niệm hiện đại. Ví dụ, mô hình hiện tại tôi có (v0.5) được huấn luyện hoàn toàn từ dữ liệu giai đoạn 1800-1875, không phải tinh chỉnh mà huấn luyện từ đầu nên kết quả phản ánh phong cách ngôn ngữ và bối cảnh lịch sử của thời kỳ đó.
 
 ## Tại sao không chỉ dùng fine-tuning hoặc LoRA?
 
-Với dự án này tôi muốn tạo ra một mô hình ngôn ngữ không bị ảnh hưởng bởi thành kiến hiện đại. Nếu tôi fine-tune thứ gì đó như GPT-2, nó đã được huấn luyện trước và thông tin đó sẽ không mất đi. Nếu tôi huấn luyện từ đầu, mô hình ngôn ngữ sẽ không giả vờ là cổ điển, mà thực sự sẽ là như vậy. Mục tiêu hiện tại là tạo ra một mô hình có thể suy luận hoàn toàn dựa trên kiến thức từ các sách London xuất bản giai đoạn 1800 đến 1875.
+Trong dự án này tôi muốn tạo ra một mô hình ngôn ngữ không bị ảnh hưởng bởi thành kiến hiện đại. Nếu tôi fine-tune một mô hình như GPT-2, nó đã được huấn luyện trước và thông tin đó sẽ không mất đi. Nếu tôi huấn luyện từ đầu thì mô hình ngôn ngữ sẽ không “giả vờ” là cổ, mà thực sự như vậy. Mục tiêu hiện tại của dự án là tạo ra một thứ có thể suy luận chỉ dựa trên tri thức từ sách London xuất bản giai đoạn 1800 đến 1875.
 
-## Bạn đã dùng loại dữ liệu nào để huấn luyện?
+## Bạn đã sử dụng loại dữ liệu nào để huấn luyện?
 
-Tôi sử dụng sách, tài liệu pháp lý, báo chí và các bài viết khác từ London giai đoạn 1800–1875. Danh sách tôi đã liên kết (cho v0) có khoảng 200 nhưng cho lần huấn luyện đầu tiên tôi chỉ dùng 50 tệp khoảng ~187 MB. Bạn có thể xem danh sách tài liệu tại:
+Tôi sử dụng sách, tài liệu pháp lý, báo chí và các văn bản khác từ London giai đoạn 1800–1875. Danh sách tôi liên kết (cho v0) có khoảng 200 tài liệu nhưng lần đầu huấn luyện tôi chỉ dùng 50 file khoảng ~187 MB. Bạn có thể xem danh sách tài liệu tại:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
 Kích thước bộ dữ liệu:
 - v0: ~187MB
 - v0.5: ~435MB 
 - v1: ~6.25GB 
-- v2mini-eval1: 15GB
 
-## Kích thước các mô hình là bao nhiêu?
+- v2mini-eval1: 15GB(mẫu từ 90GB của v2)
+- v2: 90GB
 
-v0: 16 triệu tham số
+## Kích thước mô hình là bao nhiêu?
 
-v0.5: 123 triệu tham số
+v0: 16M Tham số
 
-v1: 700M Parameters
+v0.5: 123M Tham số
 
-v2mini-eval1: 300M Parameters
+v1: 700M Tham số
 
-# Training Specs ? 
+v2mini-eval1: 300M Tham số
 
-# v0/v0.5
+v2mini-eval2: 200M Tham số
+
+v2: 1.2B Tham số
+
+## Thông số huấn luyện?
+
+### v0/v0.5
 GPU: Geforce rtx 4060
 CPU: i5-13400F 
 Ram: 16GB DDR5.
 
-# v1
-GPU: A100 SXM rented
+### v1
+GPU: A100 SXM thuê
 
-# v2mini-eval1
+### v2mini-eval1/eval2
+GPU: A100 SXM thuê
 
-GPU: A100 SXM rented
+### v2
+GPU: H100 SXM thuê
+
+## Lời cảm ơn
+
+Tôi xin cảm ơn [TS. Hamed Yaghoobian](https://hamedyaghoobian.com) vì đã hướng dẫn học thuật, chỉ dẫn về khung nghiên cứu và đánh giá, cũng như hỗ trợ huấn luyện tokenizer và chuẩn bị bộ dữ liệu cho bản phát hành v2. Phản hồi và kinh nghiệm của ông rất quan trọng trong việc hoàn thiện cách trình bày công trình này.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -218,6 +245,6 @@ GPU: A100 SXM rented
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-03
 
 ---

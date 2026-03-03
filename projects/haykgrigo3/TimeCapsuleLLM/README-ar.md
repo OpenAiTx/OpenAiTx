@@ -1,191 +1,218 @@
 <div align="right">
   <details>
-    <summary >🌐 اللغة</summary>
-    <div>
-      <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-TW">繁體中文</a> 
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=as">हिन्दी</a> 
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=th">ไทย</a> 
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ar">العربية</a>
-        | <a href="#" title="قريباً">فارسی (قريباً)</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=vi">Tiếng Việt</a>
-        | <a href="#" title="قريباً">Bahasa Indonesia (قريباً)</a>
+<summary>🌐 اللغة</summary>
 
-      </div>
-    </div>
-  </details>
+[English](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=en) | [简体中文](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN) | [繁體中文](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-TW) | [日本語](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja) | [한국어](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko) | [हिन्दी](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=hi) | [ไทย](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=th) | [Français](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fr) | [Deutsch](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=de) | [Español](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=es) | [Italiano](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=it) | [Русский](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ru) | [Português](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pt) | [Nederlands](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=nl) | [Polski](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pl) | [العربية](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ar) | [فارسی](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fa) | [Türkçe](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=tr) | [Tiếng Việt](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=id) | [অসমীয়া](https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=as)
+</details>
 </div>
 
 
 # TimeCapsule LLM
 
-*نموذج لغوي تم تدريبه **من الصفر** حصرياً على بيانات من أماكن وفترات زمنية معينة للحد من التحيز العصري وتقليد صوت ومفردات ورؤية العصر.*
+*نموذج لغوي تم تدريبه **من البداية** حصريًا على بيانات من أماكن وفترات زمنية معينة لتقليل الانحياز الحديث ومحاكاة الصوت والمفردات والرؤية العالمية للعصر.*
 
-تخيل لو أن نموذج الذكاء الاصطناعي لم يكن يتظاهر فقط بأنه تاريخي، بل كان كذلك فعلاً.
+تخيل لو أن نموذج الذكاء الاصطناعي لم يكن فقط يتظاهر بأنه تاريخي بل كان كذلك فعلاً.
 
-تم بناء الإصدار v0 وv0.5 على [nanoGPT بواسطة Andrej Karpathy](https://github.com/karpathy/nanoGPT) نصوص التدريب الأساسية وبنية النموذج هي من عمله.
+الإصدار v0 و v0.5 مبنيان على [nanoGPT من Andrej Karpathy](https://github.com/karpathy/nanoGPT) نصوص التدريب الأساسية والهندسة المعمارية للنموذج هي من عمله.
 
-v1 مبني على [Phi 1.5 من مايكروسوفت](https://huggingface.co/microsoft/phi-1_5)
+الإصدار v1 مبني على [Phi 1.5 من Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
-v2 مبني على llamaforcausallm
+الإصدار v2 مبني على llamaforcausallm
 
-[رابط Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+[رابط Hugging Face](https://huggingface.co/collections/haykgrigorian/timecapsulellm-1800-1875-london)
 
+## حالة البحث
+تم بدء وتطوير هذا المشروع بشكل مستقل.
+
+يُجرى حاليًا تحت إشراف أكاديمي، مع تعاون بحثي تابع في كلية Muhlenberg.
+
+## الاقتباس
+
+إذا استخدمت هذه المجموعة أو النموذج في عمل أكاديمي، يرجى الاقتباس:
+
+
+```bibtex
+@misc{london_llm_1800,
+  author = {Grigorian, Hayk and Yaghoobian, Hamed},
+  title = {Historic London English (1800–1875)},
+  year = {2025},
+  publisher = {Hugging Face},
+  howpublished = {\url{https://huggingface.co/datasets/postgrammar/london-llm-1800}}
+}
+```
 
 ##  سلوك النموذج والقيود
 
-### **v0**  
+### **الإصدار 0**  
 
-العينات المبكرة أظهرت استجابة النموذج بلغة وسلوك القرن التاسع عشر.
-مثال: السؤال: "من هو هنري؟" وأجاب: "أعرف هذا الرجل، لم أفعل شيئًا أسودًا، العاصفة."
+تُظهر المحفزات المبكرة أن النموذج يرد بلغة وسلوك القرن التاسع عشر.  
+مثال: المحفز: "من هو هنري؟" فكان الرد: "أعرف ذلك الرجل، لم أفعل سوادًا، العاصفة."  
 
-![مخرجات نموذج TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- لا ذكر للمفاهيم الحديثة  
-- مفردات دقيقة لعصرها في الغالب  
-- الجمل غالبًا غير مترابطة (متوقع لبيانات تدريب ~187 ميغابايت)
+- لا يوجد ذكر للمفاهيم الحديثة  
+- المفردات في الغالب دقيقة للعصر  
+- الجمل في الغالب غير مترابطة (متوقع لبيانات تدريب بحجم ~187 ميغابايت)
 
-### **v0.5**
+### **الإصدار 0.5** 
 
-تحسن كبير مقارنة بالإصدار v0.
-- أسلوب كتابة فيكتوري، علامات ترقيم مناسبة، جمل سليمة نحويًا في الغالب  
-- لا زال هناك معدل عالٍ من الهلوسة الواقعية  
-- ضوضاء OCR ("Digitized by Google") ما زالت تظهر في النتائج
+تحسن ملحوظ مقارنة بالإصدار 0.  
+- أسلوب كتابة فيكتوري، علامات ترقيم صحيحة، جمل في الغالب سليمة قواعديًا  
+- لا يزال معدل الهلوسة الواقعية مرتفعًا  
+- لا تزال ضوضاء OCR ("Digitized by Google") تظهر في المخرجات
 
-![مخرجات نموذج TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![TimeCapsuleLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
-### **v1**
+### **الإصدار 1**
 
-أول نموذج يستدعي ويربط حدثًا تاريخيًا حقيقيًا مع شخصية فعلية من مجموعة البيانات.
+أول نموذج يسترجع ويربط حدثًا تاريخيًا حقيقيًا مع شخصية فعلية من مجموعة البيانات.
 
-مثال: السؤال: "كان عام 1834 للميلاد"
+مثال: المحفز: "كان ذلك في سنة ربنا 1834" 
 
-الناتج: "كان عام 1834 للميلاد وكانت شوارع لندن مليئة بالاحتجاجات والعرائض. والسبب، كما ذكر كثيرون، لم يكن مرتبطًا بالخصوصية، لكن تم اتخاذ نفس اليوم في يوم اللورد بالمرستون، وسيتلقى الجمهور بيانًا موجزًا عن الصعوبات التي وصلت إليها قوانين اليوم. إنه لأمر مؤسف جدًا أن الأحداث الجارية في تاريخ العالم واضحة، وبالتالي ستُعرف. ليس صحيحًا أن الرجال الذين استقروا أولاً في الإنجيل في القدس يجب أن يكون لديهم سجل واسع ومثير للاهتمام عن الازدهار والرخاء"
+المخرجات: "كان ذلك في سنة ربنا 1834 وكانت شوارع لندن مليئة بالاحتجاج والعريضة. السبب، كما ذكر كثيرون، لم يكن محصورًا في المجال الخاص، بل تم تناوله في نفس اليوم في يوم اللورد بالمرستون، وسيتلقى الجمهور بيانًا موجزًا عن الصعوبات التي بلغها يوم القانون. إنه لأمر مؤسف للغاية أن الأحداث الحالية في تاريخ العالم واضحة، وبالتالي ستُعرف. ليس صحيحًا أن الرجال الذين استقروا أولًا في الإنجيل في أورشليم لديهم سجل واسع ومثير للاهتمام عن الازدهار والازدهار" 
 
-في البداية افترضت أن احتجاجًا ربما حدث بالصدفة في نفس السنة، ولكن انظر إلى هذا: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+بدايةً ظننت أن احتجاجًا ربما حدث صدفة في نفس السنة لكن ألق نظرة على هذا: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
-### **v2mini-eval1**
-تم التدريب باستخدام عينة بحجم 15 جيجابايت من مجموعة بيانات الإصدار الثاني التي تبلغ 90 جيجابايت.
-تم تدريب النموذج حتى 10 آلاف خطوة فقط.
+### **الإصدار 2 ميني-تقييم1**
 
-كانت هناك مشكلة في الترميز تسبب في ظهور المخرجات بهذا الشكل:
+تم التدريب باستخدام عينة 15GB من مجموعة بيانات الإصدار 2 بحجم 90GB.
+تم تدريب النموذج لـ 10,000 خطوة فقط.
 
-المطالبة:
+حدثت مشكلة في الترميز تسببت في أن تكون المخرجات بهذا الشكل:
+
 من هو تشارلز ديكنز؟
 
 
 
 W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
-مصَحح:
 
-"من هو تشارلز ديكنز؟ هل يعمل بذلك بشكل أكثر إثارة في مسرحياته، في مزرعة الشركة الكبرى؟ ما الذي لم أقتبسه بعد من جاك بيكيت؟ ألا تعلم أنهم كانوا نوعًا من الجري السريع، أو نشر صدورهم، أو ما الذي كان يجب فعله في الوقت الذي كان فيه جاكسون ينظر من النافذة؟ ما هو نجاح الإنجليزي، والذي لم يكتشفه ابنه لي بعد، والذي من خلاله يمكن تحقيق مثل هذا العبء؟ هل سبق لك أن عبرت الطريق القديم، أو إلى نسيم المرسى عند قدم قاربنا، والذي يجب عليك أن تتركنا عنده؟ الواقع هو، أنه سواء ارتفعت الرياح من السهل مساء السبت أو في الظهيرة، أو حتى الشمال، أو غير ذلك، سنضطر لوصف حاجز هائل، مع نفس التأثيرات كما هي الآن. في هذا الوضع، على الأقل، ليس من المبالغة القول أننا تركنا تلك الغرفة. أعتقد أن هناك ثلاث نسخ في 'خمسمئة ضعف'، يمكن الرجوع إليها، كأول عدد من قرائنا الذين يرغبون ف[ـ]..."
+مصَحَّح:
+
+"من هو تشارلز ديكنز؟ هل يُعد ذلك من أعماله الممتازة والمحركة للمشاعر، في مسرحياته، في مزرعة الشركة العظمى؟ ماذا علي أن أقتبس بعد من جاك بيكيت؟ ألا تعلم أنهم كانوا نوعًا من الجري السريع، أو نشر صدورهم، أو ماذا كان يجب أن يفعل في الوقت الذي كان فيه جاكسون ينظر من النافذة؟ ما هو نجاح الإنجليزي، والذي لم يكتشفه ابنه لي بعد، حتى يحقق مثل هذا الثقل؟ هل سبق وأن دخلت الطريق القديم، أو إلى نسيم المرساة عند أسفل قاربنا، والذي يجب أن تتركنا فيه؟ الحقيقة هي، سواء ارتفعت الرياح من السهل ليلة السبت أو الظهيرة، أو حتى الشمال، أو غير ذلك، سنضطر لوصف حاجز هائل، بنفس آثار الحالة الحالية. في هذا الوضع، على الأقل، ليس من المبالغة القول إننا تركنا تلك الغرفة. أعتقد أن هناك ثلاث نسخ في "خمس مئة ضعف"، يمكن الرجوع إليها، كأول عدد من قرائنا الذين يرغبون فـ[ـي]..."
 
 ### **v2mini-eval2**
 
-تم التدريب باستخدام نفس العينة بحجم 15 غيغابايت المستخدمة في تدريب eval1.
-النموذج تم تدريبه مجددًا حتى 10,000 خطوة فقط.
+تم تدريبه باستخدام نفس عينة 15 جيجابايت المستخدمة لتدريب eval1.
+النموذج تم تدريبه مرة أخرى حتى 10 آلاف خطوة فقط.
 
-المُحَفِّز: تشارلز داروين
+المُطلَب: تشارلز داروين
 
-تشارلز داروينECCEMACY. سيدي، — الحالة التالية تهمني: — كنت في لندن لمدة أسبوعين، وتأثرت كثيرًا بنوبة من الروماتيزم. كانت أول نوبة روماتيزم قبل أسبوع من رؤيتك، والثانية عندما رأيتك، والثالثة عندما رأيتك، والثالثة في نفس الوقت. لكن النوبة الثانية من النقرس لم تكن مصحوبة بأي أعراض حمى، بل صاحبها زيادة في تدفق البول، وتفريغ أكثر غزارة للبول. النوبة الثالثة جاءت بعد ساعة من رؤيتك، وتبعتها عودة نوبة من النقرس، وعودة أسرع للنقرس. النوبة الرابعة صاحبتها أيضًا حمى، لكنها لم تكن دائمًا مصحوبة بأي أعراض حمى. النوبة الثالثة من النقرس كانت بعد أسبوعين من مرضك، والرابعة تبعتها نوبة من النقرس. النوبة الرابعة جاءت بعد أسبوعين من إصابتك، وصاحبتها إحساس
+تشارلز داروين ECCEMACY. سيدي، — الحالة التالية تهمني: — كنت في لندن أسبوعين، وتأثرت كثيرًا بنوبة روماتيزم. كانت أول نوبة روماتيزم قبل أن أراك بأسبوع، والثانية عندما رأيتك، والثالثة عندما رأيتك، والثالثة في نفس الوقت. لكن النوبة الثانية من النقرس لم تكن مصحوبة بأي أعراض حمى، بل كانت مصحوبة بزيادة تدفق البول، وإفراز أكثر غزارة للبول. كانت النوبة الثالثة بعد ساعة من رؤيتك، وتبعتها عودة نوبة من النقرس، وعودة أسرع للنقرس. أما النوبة الرابعة فصاحبتها حمى، لكنها لم تكن دائمًا مصحوبة بأعراض حمى. كانت النوبة الثالثة من النقرس بعد أسبوعين من مرضك، وتبعت النوبة الرابعة نوبة من النقرس. أما النوبة الرابعة فكانت بعد أسبوعين من إصابتك، وصاحبتها شعور
+
+### **v2**
+
+تم تدريبه باستخدام مجموعة بيانات 90 جيجابايت (112 جيجابايت بعد الترميز)
+تم تدريبه حتى 182 ألف خطوة
+
+![عينة إخراج TimeCapsuleLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output1.png)
+
+![عينة إخراج TimeCapsuleLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2/v2output2.png)
 
 ## مجموعات البيانات
 
 ### **v2**
 
-- 90 غيغابايت من نصوص لندن بين 1800-1875
-- 136,344 وثيقة
-- لم تتوفر الـ 90 غيغابايت كاملة بعد لأنها لم تُحوّل إلى رموز بعد، لكن يمكنك إيجاد عينة 15 غيغابايت هنا: https://huggingface.co/datasets/haykgrigorian/TimeCapsuleLLM-London-1800-1875-v2-15GB
+- 90 جيجابايت (خام) من نصوص لندن بين 1800-1875
+- 136,344 مستندًا
+- مجموعة البيانات الكاملة بعد الترميز متاحة الآن هنا: https://huggingface.co/datasets/postgrammar/london-llm-1800
 
- ### إحصائيات التحيز 
+ ### إحصاءات التحيز
   ![تحيز الضمائر](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
 
   ![التحيز الجغرافي](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/geographic_bias.png)
 
   ![التحيز الزمني](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/temporal_bias.png)
 
-يرجى الرجوع إلى [تقرير تحيز v2](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) لمزيد من المعلومات.
+يرجى الرجوع إلى [تقرير التحيز v2](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) لمزيد من المعلومات.
+
 
 ## كيفية الاستخدام
 
-يركز هذا المشروع بشكل أساسي على تنسيق البيانات التاريخية، وتجهيزها للتدريب وبناء محلل الرموز tokenizer. لن أغطي هنا عملية تدريب LLM الكاملة، لذلك راجع nanoGPT بواسطة أندريه كارباثي.
+يركز هذا المشروع بشكل أساسي على تنظيم البيانات التاريخية، وتجهيزها للتدريب وبناء محلل الكلمات (tokenizer). لن أتناول عملية تدريب نموذج اللغة الكبير كاملة، لهذا يُرجى الرجوع إلى nanoGPT بواسطة Andrej Karpathy.
 
 ### الخطوة 1: جمع وتحضير النصوص التاريخية
 
-- جمع ملفات .txt من الكتب، الوثائق، وغيرها من المصادر المتاحة للاستخدام العام من الفترة الزمنية التي تختارها (مثل لندن 1800-1850)
+- اجمع ملفات .txt لكتب أو مستندات أو غيرها من الفترة الزمنية التي تختارها (مثلاً: لندن 1800-1850)
+- احتفظ بها ضمن الإطار الزمني/المكاني الذي اخترته
+- قم بتنظيف ملفات النصوص باستخدام نص برمجي أو أزل يدوياً رؤوس/ذيول مشروع غوتنبرغ، أو الشروحات الحديثة أو أخطاء التعرف البصري على الحروف.
 
+### الخطوة 2: بناء محلل كلمات مخصص
 
+- شغّل train_tokenizer.py أو train_tokenizer_hf.py على البيانات المنظفة.
+- سينتج عن ذلك vocab.json و merges.txt
+- هذه الملفات تعرّف المفردات وقواعد الدمج لنموذجك
 
-- احتفظ بها ضمن نافذة الوقت/المكان التي اخترتها  
-- نظف ملفات النصوص باستخدام برنامج نصي أو قم بإزالة الرؤوس/التذييلات يدوياً من مشروع غوتنبرغ، أو التعليقات الحديثة أو أشياء مثل أخطاء OCR.
+### الخطوة 3: درّب نموذجك
 
-### الخطوة 2: بناء محلل رموز مخصص
-
-- شغل train_tokenizer.py أو train_tokenizer_hf.py على البيانات المنظفة.
-- سيعطيك ذلك vocab.json و merges.txt
-- هذه الملفات تحدد المفردات وقواعد الدمج لنموذجك
-
-### الخطوة 3: درب نموذجك 
-
-- ارجع إلى [nanoGPT بواسطة Andrej Karpathy](https://github.com/karpathy/nanoGPT) لعملية التدريب أو وثائق البنية التي اخترتها.
+- راجع [nanoGPT بواسطة Andrej Karpathy](https://github.com/karpathy/nanoGPT) لعملية التدريب أو وثائق البنية التي تختارها.
 
 # الأسئلة الشائعة
 
-## ما هو التدريب الزمني الانتقائي ؟
+## ما هو التدريب الزمني الانتقائي؟
 
-التدريب الزمني الانتقائي (STT) هو منهجية تعلم آلي حيث يتم اختيار كل بيانات التدريب لتندرج ضمن فترة زمنية تاريخية محددة. يتم ذلك من أجل نمذجة اللغة والمعرفة لتلك الحقبة دون التأثر بالمفاهيم الحديثة. على سبيل المثال، النموذج الحالي (v0.5) تم تدريبه حصرياً على بيانات من 1800-1875، ولم يتم تحسينه بل تم تدريبه من الصفر، مما أدى إلى إنتاج يعكس الأسلوب اللغوي والسياق التاريخي لتلك الفترة.
+التدريب الزمني الانتقائي (STT) هو منهجية تعلم آلي يتم فيها انتقاء جميع بيانات التدريب بحيث تقع ضمن فترة زمنية تاريخية محددة. يُجرى ذلك بهدف نمذجة اللغة والمعرفة الخاصة بتلك الحقبة دون تأثير من المفاهيم الحديثة. على سبيل المثال، النموذج الحالي الذي أملكه (الإصدار 0.5) مدرّب على بيانات حصرية من 1800-1875، لم يتم تحسينه بل دُرّب من البداية مما يجعل المخرجات تعكس الأسلوب اللغوي والسياق التاريخي لتلك الفترة.
 
-## لماذا لا تستخدم فقط الضبط الدقيق أو LoRA؟
+## لماذا لا تستخدم فقط التخصيص الدقيق أو LoRA؟
 
-لهذا المشروع أحاول إنشاء نموذج لغة غير متأثر بالانحياز الحديث. إذا قمت بضبط شيء مثل GPT-2، فهو مدرب مسبقاً بالفعل وهذه المعلومات لن تختفي. إذا دربت من الصفر، لن يتظاهر نموذج اللغة بأنه قديم، بل سيكون كذلك فعلاً. الهدف لهذا المشروع الآن هو إنشاء شيء يمكنه الاستنتاج حصرياً باستخدام المعرفة من كتب لندن المنشورة بين 1800 و 1875.
+في هذا المشروع أحاول إنشاء نموذج لغوي غير متأثر بالانحيازات الحديثة. إذا قمت بتخصيص نموذج مثل GPT-2، فهو مدرّب مسبقاً ولن تختفي هذه المعلومات. إذا دربت من الصفر، لن يدّعي النموذج أنه قديم، بل سيكون كذلك فعلاً. الهدف حالياً هو إنشاء شيء يمكنه الاستدلال باستخدام المعرفة فقط من كتب لندن المنشورة بين 1800 و1875.
 
-## ما نوع البيانات التي استخدمتها للتدريب؟
+## ما نوع البيانات التي استخدمتها في التدريب؟
 
-أستخدم كتباً، وثائق قانونية، صحفاً، وكتابات أخرى من لندن بين 1800–1875. القائمة التي ربطتها (لـ v0) تحتوي على حوالي 200 ملف لكن للتدريب الأول استخدمت فقط 50 ملفاً بحجم ~187 ميغابايت. يمكنك عرض قائمة الوثائق هنا:
+أستخدم كتباً، مستندات قانونية، صحفاً، وكتابات أخرى من لندن بين 1800–1875. القائمة التي أرفقتها (للإصدار 0) فيها حوالي 200، لكن في أول تدريب استخدمت فقط 50 ملفاً بحجم يقارب ~187 ميغابايت. يمكنك مشاهدة قائمة المستندات:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
-أحجام قواعد البيانات:
-- v0: ~187 ميغابايت
-- v0.5: ~435 ميغابايت 
-- v1: ~6.25 غيغابايت 
-- v2mini-eval1: 15 غيغابايت
+أحجام مجموعات البيانات:
+- الإصدار 0: ~187 ميغابايت
+- الإصدار 0.5: ~435 ميغابايت
+- الإصدار 1: ~6.25 غيغابايت
+- v2mini-eval1: 15 جيجابايت (عينة من 90 جيجابايت الخاصة بـ v2)
+- v2: 90 جيجابايت
 
-## ما هو حجم النماذج ؟
+## ما هو حجم النماذج؟
 
-v0: 16 مليون معامل
+v0: 16 مليون معلمة
 
-v0.5 123 مليون معامل
+v0.5: 123 مليون معلمة
 
-v1: 700M Parameters
+v1: 700 مليون معلمة
 
-v2mini-eval1: 300M Parameters
+v2mini-eval1: 300 مليون معلمة
 
-# Training Specs ? 
+v2mini-eval2: 200 مليون معلمة
 
-# v0/v0.5
-GPU: Geforce rtx 4060
-CPU: i5-13400F 
-Ram: 16GB DDR5.
+v2: 1.2 مليار معلمة
 
-# v1
-GPU: A100 SXM rented
+## مواصفات التدريب؟
 
-# v2mini-eval1
+### v0/v0.5
+بطاقة الرسومات: Geforce rtx 4060
+المعالج: i5-13400F
+الذاكرة العشوائية: 16 جيجابايت DDR5.
 
-GPU: A100 SXM rented
+### v1
+بطاقة الرسومات: A100 SXM مستأجرة
+
+### v2mini-eval1/eval2
+بطاقة الرسومات: A100 SXM مستأجرة
+
+### v2
+بطاقة الرسومات: H100 SXM مستأجرة
+
+## الشكر والتقدير
+
+أود أن أشكر [د. حامد ياغوبيان](https://hamedyaghoobian.com) على الإشراف الأكاديمي، وتوجيهه في صياغة البحث والتقييم، ولمساعدته في تدريب أداة تقسيم الكلمات وتحضير مجموعة البيانات لإصدار v2. كانت ملاحظاته وخبرته حاسمة في تحسين عرض هذا العمل.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -218,6 +245,6 @@ GPU: A100 SXM rented
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-03
 
 ---
