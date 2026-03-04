@@ -1,0 +1,2453 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🎭 Orchestration Plugin for Claude Code\n\n> _Like N8N in Claude Code_\n\n### If you like the project, consider ⭐ it!<br/>\n\n## **Multi-agent workflow orchestration.** Chain AI agents to automate complex tasks using natural language or declarative syntax.\n\n[![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-blue)](https://claude.com/claude-code)\n[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)\n\n---\n\n## Installation\n\n### 1. Add Plugin Marketplace\n\nFirst, add the orchestration marketplace to your Claude Code:\n",
+    "ContentSha": "s0EtTJBF9O4NEQCzkEgI50djnLf9B3ai4R350AECEbY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🎭 Claude Code용 오케스트레이션 플러그인\n\n> _Claude Code의 N8N과 같음_\n\n### 프로젝트가 마음에 드시면, ⭐을 눌러주세요!<br/>\n\n## **멀티 에이전트 워크플로우 오케스트레이션.** 자연어 또는 선언적 구문을 사용하여 AI 에이전트들을 연결해 복잡한 작업을 자동화하세요.\n\n[![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-blue)](https://claude.com/claude-code)\n[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)\n\n---\n\n## 설치\n\n### 1. 플러그인 마켓플레이스 추가\n\n먼저, Claude Code에 오케스트레이션 마켓플레이스를 추가하세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "sYUlcg9z1ftx/zMRIdu1oLJhmGemX10qiSf3jPztlEw=",
+        "originContent": "# 🎭 Orchestration Plugin for Claude Code",
+        "translatedContent": "# 🎭 Claude Code용 오케스트레이션 플러그인"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "bO15iPsyvOLk6KIG28eNAC8FeK8SSIiO9aW7FYuLr4c=",
+        "originContent": "> _Like N8N in Claude Code_",
+        "translatedContent": "> _Claude Code의 N8N과 같음_"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "BGh1tQaUrEOu6D39U6uai1e8JcrQJ/dPhObdbSw6oQk=",
+        "originContent": "### If you like the project, consider ⭐ it!<br/>",
+        "translatedContent": "### 프로젝트가 마음에 드시면, ⭐을 눌러주세요!<br/>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "JS6IHyMnQdsKDGoi2m1lrav1cbX4liR+TvQeJWv+eZw=",
+        "originContent": "## **Multi-agent workflow orchestration.** Chain AI agents to automate complex tasks using natural language or declarative syntax.",
+        "translatedContent": "## **멀티 에이전트 워크플로우 오케스트레이션.** 자연어 또는 선언적 구문을 사용하여 AI 에이전트들을 연결해 복잡한 작업을 자동화하세요."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "7JBSuPqWVpvD0BRw39uGpD8XkpKddHLXIWl068Xzpzo=",
+        "originContent": "[![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-blue)](https://claude.com/claude-code)",
+        "translatedContent": "[![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-blue)](https://claude.com/claude-code)"
+      },
+      {
+        "row": 10,
+        "rowsha": "kSN/lVg4465n921BK4v/CtBglwiX1WcqYsRNS0P42Lk=",
+        "originContent": "[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)",
+        "translatedContent": "[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "VItW6OuZkO3d/VA8GT2LN2ITKG637dohnINqGRJSNjQ=",
+        "originContent": "### 1. Add Plugin Marketplace",
+        "translatedContent": "### 1. 플러그인 마켓플레이스 추가"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "RJphe5/ovYfMz5Y/a8yuE39u7aSfmw5T68BzluLN0xM=",
+        "originContent": "First, add the orchestration marketplace to your Claude Code:",
+        "translatedContent": "먼저, Claude Code에 오케스트레이션 마켓플레이스를 추가하세요:"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\n/plugin marketplace add mbruhler/claude-orchestration\n```",
+    "ContentSha": "Y5Xr9Ht5J8RT1eQmJnHTQvNktSt1Fu1Gg2WgTfjUeqc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n/plugin marketplace add mbruhler/claude-orchestration\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ILjuavabKNisXD+kfNp1qDYmD/OG8sg0BzAkO9CaS9o=",
+        "originContent": "/plugin marketplace add mbruhler/claude-orchestration",
+        "translatedContent": "/plugin marketplace add mbruhler/claude-orchestration"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### 2. Install the Plugin\n",
+    "ContentSha": "Yti5fbXb1qYEpFwq1slyq5D3V0jyANIplmKi0oU528Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 2. 플러그인 설치\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "kWndKjFc/5xmxPofW5drsfueRWL7HgmDMllL+70pqOY=",
+        "originContent": "### 2. Install the Plugin",
+        "translatedContent": "### 2. 플러그인 설치"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n/plugin install orchestration@mbruhler\n```",
+    "ContentSha": "PWBjLrf7o3qynquawr+HtVmKqIopr1V0ZrYngQ+t9X4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n/plugin install orchestration@mbruhler\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "TnRwXgy1/SxhuGp1vxS0r6guc1R7oXnH0pkXtVC9QEs=",
+        "originContent": "/plugin install orchestration@mbruhler",
+        "translatedContent": "/plugin install orchestration@mbruhler"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nOr use the interactive menu:\n",
+    "ContentSha": "dllLPT24kyzjHbv7vJ6+kmt+Sb8NsngG18+mL3L+8bI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n또는 대화형 메뉴를 사용하세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "G+U0sZiXu1R8gqxSXp+KmgRwTI3kre/rUr0fLlCT/m0=",
+        "originContent": "Or use the interactive menu:",
+        "translatedContent": "또는 대화형 메뉴를 사용하세요:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n/plugin\n```",
+    "ContentSha": "IQ0jC7AvQZL7af75qVbotdjexcVkO7npYGW+w7CZBnk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n/plugin\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "BA0l2/ouQvUQUULJAZPnmIVHjAcxDHfNvMpiJ7iz8uM=",
+        "originContent": "/plugin",
+        "translatedContent": "/plugin"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nThen select **\"Browse Plugins\"** → find **orchestration** → **Install**\n\n### 3. Verify Installation\n\nCheck that the plugin is installed:\n",
+    "ContentSha": "5DYIroTbHvmc8+7adHCfTZtz7Y7kKo3paIAWMSqI8Zk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "그런 다음 **\"플러그인 찾아보기\"** → **orchestration** 검색 → **설치** 선택\n\n### 3. 설치 확인\n\n플러그인이 설치되었는지 확인:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "그런 다음 **\"플러그인 찾아보기\"** → **orchestration** 검색 → **설치** 선택"
+      },
+      {
+        "row": 2,
+        "rowsha": "gn/UgeOKtwOPVNO9su7vsEcVrWlHPXpRP//Lg2ps558=",
+        "originContent": "Then select **\"Browse Plugins\"** → find **orchestration** → **Install**",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 3. 설치 확인"
+      },
+      {
+        "row": 4,
+        "rowsha": "MCsXphJuFJlegF/f0nUPY2RAhivFX6w5CqpgbhkTsCc=",
+        "originContent": "### 3. Verify Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "플러그인이 설치되었는지 확인:"
+      },
+      {
+        "row": 6,
+        "rowsha": "iDlLryJZQXsY2ZbxtHr2JN9+XVlgNcdoqN6rrnzODfA=",
+        "originContent": "Check that the plugin is installed:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\n/help\n```",
+    "ContentSha": "Bk1/xbf/1ESTLDp3bQKGX66u/GcGxOtExvh8ys7Ntpg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n/help\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "xroFPIJ7xdCnaTf9cqYFK7lzgBzE5LLc7qUZ+Pp77HA=",
+        "originContent": "/help",
+        "translatedContent": "/help"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nYou should see orchestration commands like `/orchestration:menu`, `/orchestration:init`, etc.\n\n---\n\n## Quick Start\n\n### 0. Import Your Custom Agents (Optional)",
+    "ContentSha": "7fokSlwVeEwapfyQLZkMxWdcWWhJ853zu96yMwgOUTY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "오케스트레이션 명령어로 `/orchestration:menu`, `/orchestration:init` 등을 볼 수 있습니다.\n\n---\n\n## 빠른 시작\n\n### 0. 사용자 지정 에이전트 가져오기 (선택 사항)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "오케스트레이션 명령어로 `/orchestration:menu`, `/orchestration:init` 등을 볼 수 있습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "2oyH5XnAXOC4JFAVb5h85ET4j6h5nSRcxwUhoMHBdLI=",
+        "originContent": "You should see orchestration commands like `/orchestration:menu`, `/orchestration:init`, etc.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 4,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 빠른 시작"
+      },
+      {
+        "row": 6,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 0. 사용자 지정 에이전트 가져오기 (선택 사항)"
+      },
+      {
+        "row": 8,
+        "rowsha": "ZdfJlepvTN4JMrGyKFnSgZEDkdyWjbnJ34ikgn7q95o=",
+        "originContent": "### 0. Import Your Custom Agents (Optional)",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\n/orchestration:init\n```",
+    "ContentSha": "XkEuPQk2537n/ytjYJpvzikVl8qCus4lOeJwsDMeG7I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n/orchestration:init\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "tatgeFKhxX73CTy3LiGG9KQPLznmailel9cRLmOREkk=",
+        "originContent": "/orchestration:init",
+        "translatedContent": "/orchestration:init"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nImport your custom agents from `~/.claude/agents/` into the orchestration plugin.\n\n**Example:**",
+    "ContentSha": "o+2o5vq0FHVJB7J1Gs8/6iM+m4an2MLmQ+fpwW2J1RQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n사용자 지정 에이전트를 `~/.claude/agents/`에서 오케스트레이션 플러그인으로 가져옵니다.\n\n**예시:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "pH+PykRX7tb2mx19BNMzipt0TFaq68adFDsvuf7wvXc=",
+        "originContent": "Import your custom agents from `~/.claude/agents/` into the orchestration plugin.",
+        "translatedContent": "사용자 지정 에이전트를 `~/.claude/agents/`에서 오케스트레이션 플러그인으로 가져옵니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "fP4bnCe7+qhcgDDajGMIv4obksa4WSdUp3hExEbpci0=",
+        "originContent": "**Example:**",
+        "translatedContent": "**예시:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\n/orchestration:init\n→ Select agents to import\n→ Agents become available as expert-code-implementer, etc. and the plugin can create workflows using them\n```",
+    "ContentSha": "Zs3c/RAi+PpYf4MLff/J6pPsrZVpvWDS3V5RbPTyb4o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n/orchestration:init\n→ Select agents to import\n→ Agents become available as expert-code-implementer, etc. and the plugin can create workflows using them\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "tatgeFKhxX73CTy3LiGG9KQPLznmailel9cRLmOREkk=",
+        "originContent": "/orchestration:init",
+        "translatedContent": "/orchestration:init"
+      },
+      {
+        "row": 3,
+        "rowsha": "MEZfpDsQqkMPXlEiXfcsEmVKSJtdp0nbdS83GaosKCk=",
+        "originContent": "→ Select agents to import",
+        "translatedContent": "→ Select agents to import"
+      },
+      {
+        "row": 4,
+        "rowsha": "G21Ew9ZcztL9DRZ+TmvfTUIe9GqSpjTMScDDF6who6g=",
+        "originContent": "→ Agents become available as expert-code-implementer, etc. and the plugin can create workflows using them",
+        "translatedContent": "→ Agents become available as expert-code-implementer, etc. and the plugin can create workflows using them"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### 1. Natural Language",
+    "ContentSha": "BlwC3WrRCEOA/OkLtYB2/pXwxrQ1fGMcvOXJqCr95T4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 1. 자연어",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "LkDwVDmiEbR4zug/qeaPDY3Q+iH70YKbfhpTZsplAI4=",
+        "originContent": "### 1. Natural Language",
+        "translatedContent": "### 1. 자연어"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```\n\"Create a workflow that fetches 10 Reddit posts about startups,\nanalyzes competition, and shows a ratings table\"\n```",
+    "ContentSha": "xRG7eqaENVabJ6NJ0SKxpm4gQDo6TSDI5C+XR5miWZo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\"Create a workflow that fetches 10 Reddit posts about startups,\nanalyzes competition, and shows a ratings table\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "gVdV1P/ZcNRWjL/nCtAdqSsr5rdO1q/T8xTALyLHsuw=",
+        "originContent": "\"Create a workflow that fetches 10 Reddit posts about startups,",
+        "translatedContent": "\"Create a workflow that fetches 10 Reddit posts about startups,"
+      },
+      {
+        "row": 3,
+        "rowsha": "+5dk5gWP4r767UGML2beSNFpJamtRa7Oa9hUUI8rc5I=",
+        "originContent": "analyzes competition, and shows a ratings table\"",
+        "translatedContent": "analyzes competition, and shows a ratings table\""
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nThe plugin:\n- ✅ Creates necessary temp scripts (Python/Node.js)\n- ✅ Guides you through clickable questions\n- ✅ Generates and executes optimized workflow\n- ✅ Returns formatted results\n\n### 2. Direct Syntax",
+    "ContentSha": "/7NDFzNXzvnKs8qOyvBNBO9PewVAaLx4gmzh0Udwgv8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "플러그인:\n- ✅ 필요한 임시 스크립트 생성 (Python/Node.js)\n- ✅ 클릭 가능한 질문으로 안내\n- ✅ 최적화된 워크플로우 생성 및 실행\n- ✅ 형식화된 결과 반환\n\n### 2. 직접 구문\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "플러그인:"
+      },
+      {
+        "row": 2,
+        "rowsha": "F1v3UT0/snxYKx64T3bTjTXQZlICIPZRrDUXdGo22Js=",
+        "originContent": "The plugin:",
+        "translatedContent": "- ✅ 필요한 임시 스크립트 생성 (Python/Node.js)"
+      },
+      {
+        "row": 3,
+        "rowsha": "Eq0H1qqtaHyHmJ+tIGKR3OpvrT/1CyU6l/2/lUyVPFA=",
+        "originContent": "- ✅ Creates necessary temp scripts (Python/Node.js)",
+        "translatedContent": "- ✅ 클릭 가능한 질문으로 안내"
+      },
+      {
+        "row": 4,
+        "rowsha": "USqJ02X0CbPNPnfo2/tVKZrFHmDJPem0Z3eWqJmYckI=",
+        "originContent": "- ✅ Guides you through clickable questions",
+        "translatedContent": "- ✅ 최적화된 워크플로우 생성 및 실행"
+      },
+      {
+        "row": 5,
+        "rowsha": "sQQ1G2LaBu6wsiMOFvT6dpOvBbJQuEVb3ZrvEnuvBrs=",
+        "originContent": "- ✅ Generates and executes optimized workflow",
+        "translatedContent": "- ✅ 형식화된 결과 반환"
+      },
+      {
+        "row": 6,
+        "rowsha": "6WUj7wgiXHo2Ed8F7fQz8uKj4sxJq8PfUdkfT2h+OM0=",
+        "originContent": "- ✅ Returns formatted results",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 2. 직접 구문"
+      },
+      {
+        "row": 8,
+        "rowsha": "gC9+a6q7Wf7h48YF/hLlkO6lxCUvglNMbSWc74J4gsg=",
+        "originContent": "### 2. Direct Syntax",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```flow\n# Parallel bug investigation\n[\n  Explore:\"Find related code\":code ||\n  general-purpose:\"Check recent changes\":changes ||\n  general-purpose:\"Search similar issues\":similar\n] ->\ngeneral-purpose:\"Identify root cause from {code}, {changes}, {similar}\":analysis ->\n@review:\"Approve fix?\" ->\ngeneral-purpose:\"Implement fix and run tests\":fix ->\ngeneral-purpose:\"Commit changes with detailed message\"\n```",
+    "ContentSha": "K7iTolhzB3kHzoT0APcS7i/9Cw6H0AUjg2Kbyzp1DNY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```flow\n# Parallel bug investigation\n[\n  Explore:\"Find related code\":code ||\n  general-purpose:\"Check recent changes\":changes ||\n  general-purpose:\"Search similar issues\":similar\n] ->\ngeneral-purpose:\"Identify root cause from {code}, {changes}, {similar}\":analysis ->\n@review:\"Approve fix?\" ->\ngeneral-purpose:\"Implement fix and run tests\":fix ->\ngeneral-purpose:\"Commit changes with detailed message\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "aB5Sil5m7MOPGJp+ls9cxbMgFdL8Vv/VKWma02bQS94=",
+        "originContent": "```flow",
+        "translatedContent": "```flow"
+      },
+      {
+        "row": 2,
+        "rowsha": "2fzjixweNApT5Hq3q40j9tMixRfLm/AaFraP9o0eiMI=",
+        "originContent": "# Parallel bug investigation",
+        "translatedContent": "# Parallel bug investigation"
+      },
+      {
+        "row": 3,
+        "rowsha": "JFhDq++ecufvrDATiplL9jAefh19cEKjPULoY9JjiBE=",
+        "originContent": "[",
+        "translatedContent": "["
+      },
+      {
+        "row": 4,
+        "rowsha": "9b91aJ1N/MO6kONAlDtuL08QgNvZ9BxvF+TSuAK3M2E=",
+        "originContent": "  Explore:\"Find related code\":code ||",
+        "translatedContent": "  Explore:\"Find related code\":code ||"
+      },
+      {
+        "row": 5,
+        "rowsha": "rw4+wwWSIIkEEz1FvFKiyK1vKdCzoU05nEhC39D4nDw=",
+        "originContent": "  general-purpose:\"Check recent changes\":changes ||",
+        "translatedContent": "  general-purpose:\"Check recent changes\":changes ||"
+      },
+      {
+        "row": 6,
+        "rowsha": "QB7iMIuYIXQeqtQB9rKtaJan8o7jzpEhCSnZ9yQqFfc=",
+        "originContent": "  general-purpose:\"Search similar issues\":similar",
+        "translatedContent": "  general-purpose:\"Search similar issues\":similar"
+      },
+      {
+        "row": 7,
+        "rowsha": "8jm7yvX9USNoR1XBIlfLgQSGfL+lgjuJFA1XIbs8r9Q=",
+        "originContent": "] ->",
+        "translatedContent": "] ->"
+      },
+      {
+        "row": 8,
+        "rowsha": "3INlrDMjNBUhmpEXln7BVxNnPZbv0/WDWOqkVbwugt0=",
+        "originContent": "general-purpose:\"Identify root cause from {code}, {changes}, {similar}\":analysis ->",
+        "translatedContent": "general-purpose:\"Identify root cause from {code}, {changes}, {similar}\":analysis ->"
+      },
+      {
+        "row": 9,
+        "rowsha": "CJAaDUyWIS1BEXmyYgwlHEoMWAw/50Dha2cF7A/5pnw=",
+        "originContent": "@review:\"Approve fix?\" ->",
+        "translatedContent": "@review:\"Approve fix?\" ->"
+      },
+      {
+        "row": 10,
+        "rowsha": "azTeGgZd73Npt+5SpYXKD8067PoPAOemYN1C8c1r5mc=",
+        "originContent": "general-purpose:\"Implement fix and run tests\":fix ->",
+        "translatedContent": "general-purpose:\"Implement fix and run tests\":fix ->"
+      },
+      {
+        "row": 11,
+        "rowsha": "hguEAz98RRcWhmkZI+O9Li7LVQ1H1UixATBHymgSqn4=",
+        "originContent": "general-purpose:\"Commit changes with detailed message\"",
+        "translatedContent": "general-purpose:\"Commit changes with detailed message\""
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### 3. Templates",
+    "ContentSha": "dSP/iJqnF+fRy3c1DyXNGJ10iqw7TcColcbVzDmrGps=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 3. 템플릿",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "dVsHjqTz60Q7yU+9tUuNHVz7NSmOfKeYVLlMRhDzvDQ=",
+        "originContent": "### 3. Templates",
+        "translatedContent": "### 3. 템플릿"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```\n\"Use the TDD implementation template\"\n```",
+    "ContentSha": "hsczKIsjblLZci1R31gqtEX9zcW9oFnTTYpxpdW+CL0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\"Use the TDD implementation template\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "vy5Olm2x5m272c+YkNu1j8HneoaahZwhi2ludWvuNKw=",
+        "originContent": "\"Use the TDD implementation template\"",
+        "translatedContent": "\"Use the TDD implementation template\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n---\n\n## Core Features\n\n### Flow Control",
+    "ContentSha": "vEAH7XvBLo/t5oCLhg6AdbG4myiCmx+hOHfxEcWCUCU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 핵심 기능\n\n### 흐름 제어",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "WVf4b7oPiloMhGfUEdpGDGrt4Gysb1sXIrUavFTl+N0=",
+        "originContent": "## Core Features",
+        "translatedContent": "## 핵심 기능"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "5sjYD14jUdiWQBIoO5Na2EcYplcWqg09/L+xUW5DlTA=",
+        "originContent": "### Flow Control",
+        "translatedContent": "### 흐름 제어"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```flow\n# Sequential\nstep1 -> step2 -> step3\n\n# Parallel\n[task1 || task2 || task3]\n\n# Conditional\ntest -> (if passed)~> deploy\n     -> (if failed)~> rollback\n```",
+    "ContentSha": "jeUZH5pX7AmMs7hrQ9p6oa1uJ74F9/AWZM6IJogb1EE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```flow\n# Sequential\nstep1 -> step2 -> step3\n\n# Parallel\n[task1 || task2 || task3]\n\n# Conditional\ntest -> (if passed)~> deploy\n     -> (if failed)~> rollback\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "aB5Sil5m7MOPGJp+ls9cxbMgFdL8Vv/VKWma02bQS94=",
+        "originContent": "```flow",
+        "translatedContent": "```flow"
+      },
+      {
+        "row": 2,
+        "rowsha": "kNLkMSGIQGXSv+ceTxxl0AqdainL1dGlu9uCK5AaHk4=",
+        "originContent": "# Sequential",
+        "translatedContent": "# Sequential"
+      },
+      {
+        "row": 3,
+        "rowsha": "vQljxuY5FjDUGNyFyFP7Nw3Q5gYRS4VNr+qw0psDEPg=",
+        "originContent": "step1 -> step2 -> step3",
+        "translatedContent": "step1 -> step2 -> step3"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "llSXKExRXqfPWINGWVcd+lFMQLW+siwVy8boiAnP4tw=",
+        "originContent": "# Parallel",
+        "translatedContent": "# Parallel"
+      },
+      {
+        "row": 6,
+        "rowsha": "X2jjgJVf6b+g0RzrFfFTcgzt8RUKjca9aw6njXCXNOs=",
+        "originContent": "[task1 || task2 || task3]",
+        "translatedContent": "[task1 || task2 || task3]"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "rGimbp4elT+jL1hQ4k1KFm/gYcPxkL34oNP56k6P/74=",
+        "originContent": "# Conditional",
+        "translatedContent": "# Conditional"
+      },
+      {
+        "row": 9,
+        "rowsha": "vFRpbNdgR5csRZsacp74Qg9/sfag3dtRB+hIhutUByQ=",
+        "originContent": "test -> (if passed)~> deploy",
+        "translatedContent": "test -> (if passed)~> deploy"
+      },
+      {
+        "row": 10,
+        "rowsha": "Qbib2Eu1YW36Mc3BG7q4Q8ByS2OTAGoJSJlRoXFJYx0=",
+        "originContent": "     -> (if failed)~> rollback",
+        "translatedContent": "     -> (if failed)~> rollback"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n### Auto Temp Scripts\nAutomatically creates Python/Node.js scripts for:\n- 🌐 Web scraping (BeautifulSoup, Selenium)\n- 📡 APIs (Reddit, Twitter, GitHub)\n- 📊 Data processing (pandas, NumPy)\n- 🗄️ Database queries\n\n### Manual Checkpoints",
+    "ContentSha": "UzDZxy5RGXoqg+iNnhF0JN02pxbklY7IlZ9Nxi8CWA4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 자동 온도 스크립트\n다음 용도의 Python/Node.js 스크립트를 자동 생성합니다:\n- 🌐 웹 스크래핑 (BeautifulSoup, Selenium)\n- 📡 API (Reddit, Twitter, GitHub)\n- 📊 데이터 처리 (pandas, NumPy)\n- 🗄️ 데이터베이스 쿼리\n\n### 수동 점검 지점",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "o8ElVoL1FNtbjiVAH6AQCzRkrCSUqH09F2JlOE6cSiE=",
+        "originContent": "### Auto Temp Scripts",
+        "translatedContent": "### 자동 온도 스크립트"
+      },
+      {
+        "row": 3,
+        "rowsha": "zQbEZy7VrQlrRt3A1Lc4e8h/OhWrtrlV0JGVTCTBiIs=",
+        "originContent": "Automatically creates Python/Node.js scripts for:",
+        "translatedContent": "다음 용도의 Python/Node.js 스크립트를 자동 생성합니다:"
+      },
+      {
+        "row": 4,
+        "rowsha": "CSn83BBcwDTIUEQrVumbhfyG+/9KVNO3aCwh1Hpe1SM=",
+        "originContent": "- 🌐 Web scraping (BeautifulSoup, Selenium)",
+        "translatedContent": "- 🌐 웹 스크래핑 (BeautifulSoup, Selenium)"
+      },
+      {
+        "row": 5,
+        "rowsha": "uFDL8VboyX30R2iSAEeSnyHl243E0LYitN/Gnl7aCbs=",
+        "originContent": "- 📡 APIs (Reddit, Twitter, GitHub)",
+        "translatedContent": "- 📡 API (Reddit, Twitter, GitHub)"
+      },
+      {
+        "row": 6,
+        "rowsha": "01ipj7kG+eF+H+vG2ZFf9YVbC3alESjslU6rr2vXy9M=",
+        "originContent": "- 📊 Data processing (pandas, NumPy)",
+        "translatedContent": "- 📊 데이터 처리 (pandas, NumPy)"
+      },
+      {
+        "row": 7,
+        "rowsha": "fE18K0PeS1+3oVFO6IT4GywZhLs3vkr5c5P0YzF8XM0=",
+        "originContent": "- 🗄️ Database queries",
+        "translatedContent": "- 🗄️ 데이터베이스 쿼리"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "1boe7Rk1uabd2YManxxK5FaK1XdTB8ppPXEnc5ExnA8=",
+        "originContent": "### Manual Checkpoints",
+        "translatedContent": "### 수동 점검 지점"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```flow\nbuild:\"Compile app\" ->\n@review:\"Check output. Continue?\" ->\ndeploy:\"Deploy to production\"\n```",
+    "ContentSha": "BaxpinjNUFnQhfdAYvMPYl7oWkei6B/+6rbwZ2kv1LE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```flow\nbuild:\"Compile app\" ->\n@review:\"Check output. Continue?\" ->\ndeploy:\"Deploy to production\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "aB5Sil5m7MOPGJp+ls9cxbMgFdL8Vv/VKWma02bQS94=",
+        "originContent": "```flow",
+        "translatedContent": "```flow"
+      },
+      {
+        "row": 2,
+        "rowsha": "MmeVcbf9MVdj4TE1gO9XrtfL864XuownWBrz4pN/W/Q=",
+        "originContent": "build:\"Compile app\" ->",
+        "translatedContent": "build:\"Compile app\" ->"
+      },
+      {
+        "row": 3,
+        "rowsha": "2ZpTJfoi+zf9XLwCryw1iSnrQs+LB1cd9LaYimmxi7s=",
+        "originContent": "@review:\"Check output. Continue?\" ->",
+        "translatedContent": "@review:\"Check output. Continue?\" ->"
+      },
+      {
+        "row": 4,
+        "rowsha": "+OryiavenXiVonv/Z4K5ofo5chxfOS8bsnJi4xKvdD0=",
+        "originContent": "deploy:\"Deploy to production\"",
+        "translatedContent": "deploy:\"Deploy to production\""
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n### Visual Progress",
+    "ContentSha": "I8nSKKXa5E5ZIR1m/aSoHO2RgbLwit/I9znGh/M7RP4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 시각적 진행 상황",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Gc0YAtA0sHYiVQXRO0L6QoIGaYHNMz17WIHcTP+80iU=",
+        "originContent": "### Visual Progress",
+        "translatedContent": "### 시각적 진행 상황"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```\n╔════════════════════════════════════╗\n║  TDD Implementation                ║\n╠════════════════════════════════════╣\n║    [Write Test] ●                  ║\n║         │                          ║\n║    [Implement] ○                   ║\n║         │                          ║\n║    [@Review] ○                     ║\n╠════════════════════════════════════╣\n║ Status: Writing test...            ║\n╚════════════════════════════════════╝\n```",
+    "ContentSha": "VO2Sz/4M4TXF+eudDpGh9ev0fHMdLnngJvLprfMujL4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n╔════════════════════════════════════╗\n║  TDD Implementation                ║\n╠════════════════════════════════════╣\n║    [Write Test] ●                  ║\n║         │                          ║\n║    [Implement] ○                   ║\n║         │                          ║\n║    [@Review] ○                     ║\n╠════════════════════════════════════╣\n║ Status: Writing test...            ║\n╚════════════════════════════════════╝\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "xwRsAAIUe3wmQsrSkaISp0iG3xRDNFgt0MYHwrNVPHk=",
+        "originContent": "╔════════════════════════════════════╗",
+        "translatedContent": "╔════════════════════════════════════╗"
+      },
+      {
+        "row": 3,
+        "rowsha": "3V4ynQreZ0DfPzNNNytIz8tfD/H+rldE9BGHRoGc4UI=",
+        "originContent": "║  TDD Implementation                ║",
+        "translatedContent": "║  TDD Implementation                ║"
+      },
+      {
+        "row": 4,
+        "rowsha": "qqGl56q0RPXjCVfxJWB1JaxPbpUlN96U/NeILLhQAiU=",
+        "originContent": "╠════════════════════════════════════╣",
+        "translatedContent": "╠════════════════════════════════════╣"
+      },
+      {
+        "row": 5,
+        "rowsha": "VUTHb9pZaMv3OXEszrApqx6aYkWvcPFbZlataKBOU1s=",
+        "originContent": "║    [Write Test] ●                  ║",
+        "translatedContent": "║    [Write Test] ●                  ║"
+      },
+      {
+        "row": 6,
+        "rowsha": "hNkSW1gNOYkT0ueYdgK1WN44nA2Hww/5P3X6rRu29gw=",
+        "originContent": "║         │                          ║",
+        "translatedContent": "║         │                          ║"
+      },
+      {
+        "row": 7,
+        "rowsha": "MFvS1oATyO82UajIGwlnH5Ca5sg5gauVKmqraribBf0=",
+        "originContent": "║    [Implement] ○                   ║",
+        "translatedContent": "║    [Implement] ○                   ║"
+      },
+      {
+        "row": 8,
+        "rowsha": "hNkSW1gNOYkT0ueYdgK1WN44nA2Hww/5P3X6rRu29gw=",
+        "originContent": "║         │                          ║",
+        "translatedContent": "║         │                          ║"
+      },
+      {
+        "row": 9,
+        "rowsha": "B1D0z7JLAOFNQXkyuf3RV07Fzp82c2LIXVcSh7qVVfk=",
+        "originContent": "║    [@Review] ○                     ║",
+        "translatedContent": "║    [@Review] ○                     ║"
+      },
+      {
+        "row": 10,
+        "rowsha": "qqGl56q0RPXjCVfxJWB1JaxPbpUlN96U/NeILLhQAiU=",
+        "originContent": "╠════════════════════════════════════╣",
+        "translatedContent": "╠════════════════════════════════════╣"
+      },
+      {
+        "row": 11,
+        "rowsha": "O3Jhnaotnl0k/xB0qI8PkldDV5WxAV9zLXCaRsk6dA0=",
+        "originContent": "║ Status: Writing test...            ║",
+        "translatedContent": "║ Status: Writing test...            ║"
+      },
+      {
+        "row": 12,
+        "rowsha": "pAH+oK9cGs0Hh851MutgDJFDiUHIXjYmarAv2zpqMWg=",
+        "originContent": "╚════════════════════════════════════╝",
+        "translatedContent": "╚════════════════════════════════════╝"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n---\n\n## Syntax Reference\n\n| Syntax | Meaning | Example |\n|--------|---------|---------|\n| `->` | Sequential | `step1 -> step2` |\n| `||` | Parallel | `[step1 \\|\\| step2]` |\n| `~>` | Conditional | `(if passed)~> next` |\n| `@label` | Checkpoint | `@review-code` |\n| `:var` | Capture output | `analyze:\"task\":result` |\n| `{var}` | Use variable | `\"Process {result}\"` |\n| `$agent` | Temp agent | `$scanner:\"Scan\"` |\n\n---\n\n## Built-in Agents\n\n- **Explore** - Fast codebase exploration and search\n- **Plan** - Planning and breaking down tasks\n- **general-purpose** - Versatile agent for complex multi-step tasks\n\n---\n\n## Examples\n\n### Reddit Startup Analyzer",
+    "ContentSha": "2q0soO1BA64HK43aPTMl4f4YP9LEv/GGKhm/jxj7U24=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 문법 참조\n\n| 문법 | 의미 | 예제 |\n|--------|---------|---------|\n| `->` | 순차적 | `step1 -> step2` |\n| `||` | 병렬 | `[step1 \\|\\| step2]` |\n| `~>` | 조건부 | `(if passed)~> next` |\n| `@label` | 체크포인트 | `@review-code` |\n| `:var` | 출력 캡처 | `analyze:\"task\":result` |\n| `{var}` | 변수 사용 | `\"Process {result}\"` |\n| `$agent` | 임시 에이전트 | `$scanner:\"Scan\"` |\n\n---\n\n## 내장 에이전트\n\n- **Explore** - 빠른 코드베이스 탐색 및 검색\n- **Plan** - 계획 수립 및 작업 분해\n- **general-purpose** - 복잡한 다단계 작업을 위한 다목적 에이전트\n\n---\n\n## 예제\n\n### Reddit 스타트업 분석기",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Gymye3PIuER81pkxgBNINI8MNQrEey+Ra7vg6dldXxw=",
+        "originContent": "## Syntax Reference",
+        "translatedContent": "## 문법 참조"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "WGpOlsF0lDolwl3kjkbLXkePPEsw7GveJx2vyj+241o=",
+        "originContent": "| Syntax | Meaning | Example |",
+        "translatedContent": "| 문법 | 의미 | 예제 |"
+      },
+      {
+        "row": 7,
+        "rowsha": "7GuVjl4afINozlHwpJx/fc2SPw1z7K/42CvvaAA9XcY=",
+        "originContent": "|--------|---------|---------|",
+        "translatedContent": "|--------|---------|---------|"
+      },
+      {
+        "row": 8,
+        "rowsha": "M0tm9nZd6alAoE4pbnbQBKoKlexFhzcaL2o8YmYl+ZI=",
+        "originContent": "| `->` | Sequential | `step1 -> step2` |",
+        "translatedContent": "| `->` | 순차적 | `step1 -> step2` |"
+      },
+      {
+        "row": 9,
+        "rowsha": "V5wJGimxCG9peesr2lbfSgbCvlcfge9v3Jm3GlG5BQI=",
+        "originContent": "| `||` | Parallel | `[step1 \\|\\| step2]` |",
+        "translatedContent": "| `||` | 병렬 | `[step1 \\|\\| step2]` |"
+      },
+      {
+        "row": 10,
+        "rowsha": "2hoIft/RCLa4LyNvwNGh4bXqlfhIqP5Vw4oZuKHRmIc=",
+        "originContent": "| `~>` | Conditional | `(if passed)~> next` |",
+        "translatedContent": "| `~>` | 조건부 | `(if passed)~> next` |"
+      },
+      {
+        "row": 11,
+        "rowsha": "sAsR5u6udawgCkb6mOP0O04qeWzi5Q4I5DtYiwLYeTw=",
+        "originContent": "| `@label` | Checkpoint | `@review-code` |",
+        "translatedContent": "| `@label` | 체크포인트 | `@review-code` |"
+      },
+      {
+        "row": 12,
+        "rowsha": "THyAD2XEyXzvpXY678spx3mn6iNGuoq1a+XVZgTlVEc=",
+        "originContent": "| `:var` | Capture output | `analyze:\"task\":result` |",
+        "translatedContent": "| `:var` | 출력 캡처 | `analyze:\"task\":result` |"
+      },
+      {
+        "row": 13,
+        "rowsha": "TIOexFreOfXKdh3OULMKX8MynFkMgNLlgB480gOFe5c=",
+        "originContent": "| `{var}` | Use variable | `\"Process {result}\"` |",
+        "translatedContent": "| `{var}` | 변수 사용 | `\"Process {result}\"` |"
+      },
+      {
+        "row": 14,
+        "rowsha": "RRjb9c8du0L7YD4yF/rpNBUuyyo48Tq5bZFTGwF85J0=",
+        "originContent": "| `$agent` | Temp agent | `$scanner:\"Scan\"` |",
+        "translatedContent": "| `$agent` | 임시 에이전트 | `$scanner:\"Scan\"` |"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "/x7ta/bs33SrvrbH3MB7THE9KvjuzvGKdWe7eoUxO20=",
+        "originContent": "## Built-in Agents",
+        "translatedContent": "## 내장 에이전트"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "ie7vuxiSsq67YziBHFtn7aMS8Yws0SS5xG5fZ+v80rI=",
+        "originContent": "- **Explore** - Fast codebase exploration and search",
+        "translatedContent": "- **Explore** - 빠른 코드베이스 탐색 및 검색"
+      },
+      {
+        "row": 21,
+        "rowsha": "R9ClS/50/alStX0xgL6S7AhvgR9jYxgqsEcW8ffP6Xg=",
+        "originContent": "- **Plan** - Planning and breaking down tasks",
+        "translatedContent": "- **Plan** - 계획 수립 및 작업 분해"
+      },
+      {
+        "row": 22,
+        "rowsha": "dV7sglooL+tWMPJ+sZnzN/SYw/Bz5WGWPvh5fh6mTfE=",
+        "originContent": "- **general-purpose** - Versatile agent for complex multi-step tasks",
+        "translatedContent": "- **general-purpose** - 복잡한 다단계 작업을 위한 다목적 에이전트"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+        "originContent": "## Examples",
+        "translatedContent": "## 예제"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "FNMizZONgxm1IYV0cOuqKKaAb7nhnV5gADYPp5deeYg=",
+        "originContent": "### Reddit Startup Analyzer",
+        "translatedContent": "### Reddit 스타트업 분석기"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```flow\ngeneral-purpose:\"Create Python PRAW script to fetch 10 r/startups posts.\n                 Return JSON with title, url, description\":posts ->\n\n[\n  general-purpose:\"Research competition for post {posts[0]}\":a1 ||\n  general-purpose:\"Research competition for post {posts[1]}\":a2 ||\n  # ... parallel analyses\n] ->\n\ngeneral-purpose:\"Rate ideas (1-10) on competition, market, feasibility.\n                 Create markdown table\":ratings ->\n\n@review:\"Review {ratings}. Ban any?\" ->\n\ngeneral-purpose:\"Generate top 3 opportunities summary\"\n```",
+    "ContentSha": "4Lb37z/s//+583zCZvO/2KFZf83X2LEA50GrWSlSTKc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```flow\ngeneral-purpose:\"Create Python PRAW script to fetch 10 r/startups posts.\n                 Return JSON with title, url, description\":posts ->\n\n[\n  general-purpose:\"Research competition for post {posts[0]}\":a1 ||\n  general-purpose:\"Research competition for post {posts[1]}\":a2 ||\n  # ... parallel analyses\n] ->\n\ngeneral-purpose:\"Rate ideas (1-10) on competition, market, feasibility.\n                 Create markdown table\":ratings ->\n\n@review:\"Review {ratings}. Ban any?\" ->\n\ngeneral-purpose:\"Generate top 3 opportunities summary\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "aB5Sil5m7MOPGJp+ls9cxbMgFdL8Vv/VKWma02bQS94=",
+        "originContent": "```flow",
+        "translatedContent": "```flow"
+      },
+      {
+        "row": 2,
+        "rowsha": "7/YltGeEfiE21wKCrHwfyG2wDSAVPVtPvjAZ8c4HbqE=",
+        "originContent": "general-purpose:\"Create Python PRAW script to fetch 10 r/startups posts.",
+        "translatedContent": "general-purpose:\"Create Python PRAW script to fetch 10 r/startups posts."
+      },
+      {
+        "row": 3,
+        "rowsha": "rxGBDQQLEacHFWKrWHftpwWBNMKT2Yr4t4vElrlSJNg=",
+        "originContent": "                 Return JSON with title, url, description\":posts ->",
+        "translatedContent": "                 Return JSON with title, url, description\":posts ->"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "JFhDq++ecufvrDATiplL9jAefh19cEKjPULoY9JjiBE=",
+        "originContent": "[",
+        "translatedContent": "["
+      },
+      {
+        "row": 6,
+        "rowsha": "04LbQg78uOiGY96ixVHaigPOg5hyOYdKTZ0vZc8l7Qs=",
+        "originContent": "  general-purpose:\"Research competition for post {posts[0]}\":a1 ||",
+        "translatedContent": "  general-purpose:\"Research competition for post {posts[0]}\":a1 ||"
+      },
+      {
+        "row": 7,
+        "rowsha": "9fkuMRwXdvn0MlPEVpKnxWS5W/yYraRAng0p2Ji13Q8=",
+        "originContent": "  general-purpose:\"Research competition for post {posts[1]}\":a2 ||",
+        "translatedContent": "  general-purpose:\"Research competition for post {posts[1]}\":a2 ||"
+      },
+      {
+        "row": 8,
+        "rowsha": "LmPYo1eqWiIEQjK8KCp5qkKGSXDJOHFXOPuXOPywlIc=",
+        "originContent": "  # ... parallel analyses",
+        "translatedContent": "  # ... parallel analyses"
+      },
+      {
+        "row": 9,
+        "rowsha": "8jm7yvX9USNoR1XBIlfLgQSGfL+lgjuJFA1XIbs8r9Q=",
+        "originContent": "] ->",
+        "translatedContent": "] ->"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "y4NxZM9EYw9JU9DS1EeXqamZ562HBVT0Ws5pGhkTI8s=",
+        "originContent": "general-purpose:\"Rate ideas (1-10) on competition, market, feasibility.",
+        "translatedContent": "general-purpose:\"Rate ideas (1-10) on competition, market, feasibility."
+      },
+      {
+        "row": 12,
+        "rowsha": "4Yuw95BCuf9I6XUlYnrWpOi8lFITmtwKLwW6WHvhNmU=",
+        "originContent": "                 Create markdown table\":ratings ->",
+        "translatedContent": "                 Create markdown table\":ratings ->"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "G/F6RjLlo0lcLNkE293HYac4q6cFx8p3ljg94GTUELU=",
+        "originContent": "@review:\"Review {ratings}. Ban any?\" ->",
+        "translatedContent": "@review:\"Review {ratings}. Ban any?\" ->"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "JULcS6lD/sobySzOjlBJJE9KsoncvItN+A3Got/FdQE=",
+        "originContent": "general-purpose:\"Generate top 3 opportunities summary\"",
+        "translatedContent": "general-purpose:\"Generate top 3 opportunities summary\""
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n### TDD Implementation",
+    "ContentSha": "nBrsEJE3ylWPJB54SDCSxKUVrl7Gz0SpBrrjf/iRIMI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### TDD 구현",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "BbB2ydxspke05Nr4t9losm5C9q8Mc+usRDmMjzPFO7M=",
+        "originContent": "### TDD Implementation",
+        "translatedContent": "### TDD 구현"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```flow\n# RED: Write failing test\ngeneral-purpose:\"Write failing test for the feature\":test ->\ngeneral-purpose:\"Run test suite - verify it fails\":red_result ->\n@review-coverage:\"Test coverage sufficient?\" ->\n\n# GREEN: Minimal implementation\ngeneral-purpose:\"Write minimal code to pass the test\":impl ->\ngeneral-purpose:\"Run test suite - verify it passes\":green_result ->\n@review:\"Code quality OK?\" ->\n\n# REFACTOR: Clean up\ngeneral-purpose:\"Refactor code and add documentation\":refactored ->\ngeneral-purpose:\"Final test run and commit\"\n```",
+    "ContentSha": "08xEGJW2IfSLqRaYKa5OikFVDxCUQhk/dSXUJwoyQJ0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```flow\n# RED: Write failing test\ngeneral-purpose:\"Write failing test for the feature\":test ->\ngeneral-purpose:\"Run test suite - verify it fails\":red_result ->\n@review-coverage:\"Test coverage sufficient?\" ->\n\n# GREEN: Minimal implementation\ngeneral-purpose:\"Write minimal code to pass the test\":impl ->\ngeneral-purpose:\"Run test suite - verify it passes\":green_result ->\n@review:\"Code quality OK?\" ->\n\n# REFACTOR: Clean up\ngeneral-purpose:\"Refactor code and add documentation\":refactored ->\ngeneral-purpose:\"Final test run and commit\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "aB5Sil5m7MOPGJp+ls9cxbMgFdL8Vv/VKWma02bQS94=",
+        "originContent": "```flow",
+        "translatedContent": "```flow"
+      },
+      {
+        "row": 2,
+        "rowsha": "G3zT0F4NRWmojIiXxxhHLUr4ASYhwx1WkqFwMLbVlf8=",
+        "originContent": "# RED: Write failing test",
+        "translatedContent": "# RED: Write failing test"
+      },
+      {
+        "row": 3,
+        "rowsha": "9XkNsBiFl6i45sIsyCzHKfYdxk/L2/9TQayitGpjveQ=",
+        "originContent": "general-purpose:\"Write failing test for the feature\":test ->",
+        "translatedContent": "general-purpose:\"Write failing test for the feature\":test ->"
+      },
+      {
+        "row": 4,
+        "rowsha": "3Bx1WCiMPc4TtFsQyA7XH4sNEjWLD6QwEPrQNIEUzGM=",
+        "originContent": "general-purpose:\"Run test suite - verify it fails\":red_result ->",
+        "translatedContent": "general-purpose:\"Run test suite - verify it fails\":red_result ->"
+      },
+      {
+        "row": 5,
+        "rowsha": "yve1O2n8viE0QaaNE5OWAiyawDaZVJr+pqtntUBnTF8=",
+        "originContent": "@review-coverage:\"Test coverage sufficient?\" ->",
+        "translatedContent": "@review-coverage:\"Test coverage sufficient?\" ->"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "rV2qwAdX8VeE2QMCbnou5Ts8uPxktCThhYdldOaIYSc=",
+        "originContent": "# GREEN: Minimal implementation",
+        "translatedContent": "# GREEN: Minimal implementation"
+      },
+      {
+        "row": 8,
+        "rowsha": "CriCZCKZNpilLxV6Do4u8cku9Scj5hsjlgrigftyTMk=",
+        "originContent": "general-purpose:\"Write minimal code to pass the test\":impl ->",
+        "translatedContent": "general-purpose:\"Write minimal code to pass the test\":impl ->"
+      },
+      {
+        "row": 9,
+        "rowsha": "HxKa+ghQpq1ZhiQBTThlE5M/2YJ7M+uHhoEoW1TnbMU=",
+        "originContent": "general-purpose:\"Run test suite - verify it passes\":green_result ->",
+        "translatedContent": "general-purpose:\"Run test suite - verify it passes\":green_result ->"
+      },
+      {
+        "row": 10,
+        "rowsha": "b/F6UY+0OlJaCxByb0NLqgOHBlhbQZbXQBZt4uGGtdo=",
+        "originContent": "@review:\"Code quality OK?\" ->",
+        "translatedContent": "@review:\"Code quality OK?\" ->"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "3Ey8acF91gICJQJiNKy/YFfDrPCQWgMbGh4qzQNaeYI=",
+        "originContent": "# REFACTOR: Clean up",
+        "translatedContent": "# REFACTOR: Clean up"
+      },
+      {
+        "row": 13,
+        "rowsha": "H060usyy7lcLmHRwlaRSCPkh6MoMPZexq1xd1UP/PQw=",
+        "originContent": "general-purpose:\"Refactor code and add documentation\":refactored ->",
+        "translatedContent": "general-purpose:\"Refactor code and add documentation\":refactored ->"
+      },
+      {
+        "row": 14,
+        "rowsha": "RbdtL7eo0JELS2TY1+XFajvgABncrQcNMg5hMlh62wI=",
+        "originContent": "general-purpose:\"Final test run and commit\"",
+        "translatedContent": "general-purpose:\"Final test run and commit\""
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n### Bug Investigation",
+    "ContentSha": "tBgvIqurMkags3PMkTXTs4BemrwkBGBrzgtMCk/ugCc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 버그 조사",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "dWrXyuiwEk3NPIGsRELylaW7tP1KxCzHrCEITwEPx0c=",
+        "originContent": "### Bug Investigation",
+        "translatedContent": "### 버그 조사"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "```flow\n# Parallel investigation\n[\n  Explore:\"Find error pattern in codebase\":code ||\n  general-purpose:\"Analyze error logs\":logs ||\n  general-purpose:\"Check recent commits\":commits ||\n  general-purpose:\"Search for similar bugs\":known\n] ->\n\n# Diagnosis\ngeneral-purpose:\"Identify root cause from {code}, {logs}, {commits}, {known}\":cause ->\n@review:\"Diagnosis correct?\" ->\n\n# Fix with testing\ngeneral-purpose:\"Write regression test for the bug\":test ->\ngeneral-purpose:\"Implement fix\":fix ->\n\n# Verification\n[\n  general-purpose:\"Run regression test\" ||\n  general-purpose:\"Run full test suite\" ||\n  general-purpose:\"Perform smoke test\"\n] ->\n\n@review:\"Approve deployment?\" ->\ngeneral-purpose:\"Commit with detailed bug fix message\"\n```",
+    "ContentSha": "nfj59Yli+5j/a2pRzS/j39n0UmX0DUi8qxhrAi/Ec8E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```flow\n# Parallel investigation\n[\n  Explore:\"Find error pattern in codebase\":code ||\n  general-purpose:\"Analyze error logs\":logs ||\n  general-purpose:\"Check recent commits\":commits ||\n  general-purpose:\"Search for similar bugs\":known\n] ->\n\n# Diagnosis\ngeneral-purpose:\"Identify root cause from {code}, {logs}, {commits}, {known}\":cause ->\n@review:\"Diagnosis correct?\" ->\n\n# Fix with testing\ngeneral-purpose:\"Write regression test for the bug\":test ->\ngeneral-purpose:\"Implement fix\":fix ->\n\n# Verification\n[\n  general-purpose:\"Run regression test\" ||\n  general-purpose:\"Run full test suite\" ||\n  general-purpose:\"Perform smoke test\"\n] ->\n\n@review:\"Approve deployment?\" ->\ngeneral-purpose:\"Commit with detailed bug fix message\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "aB5Sil5m7MOPGJp+ls9cxbMgFdL8Vv/VKWma02bQS94=",
+        "originContent": "```flow",
+        "translatedContent": "```flow"
+      },
+      {
+        "row": 2,
+        "rowsha": "7ou1Wwri1TpPoa81FI7ADeKyZqSy2Kuirk8qFpSJq3w=",
+        "originContent": "# Parallel investigation",
+        "translatedContent": "# Parallel investigation"
+      },
+      {
+        "row": 3,
+        "rowsha": "JFhDq++ecufvrDATiplL9jAefh19cEKjPULoY9JjiBE=",
+        "originContent": "[",
+        "translatedContent": "["
+      },
+      {
+        "row": 4,
+        "rowsha": "rAaGPlHmlvrMW9rxxPdKdWE7o06DOVJV3O1HDzmL6nc=",
+        "originContent": "  Explore:\"Find error pattern in codebase\":code ||",
+        "translatedContent": "  Explore:\"Find error pattern in codebase\":code ||"
+      },
+      {
+        "row": 5,
+        "rowsha": "/455Hy0vA5WVH4NJcCOxatC4+Zo8cfQRQw05MT3o+Fc=",
+        "originContent": "  general-purpose:\"Analyze error logs\":logs ||",
+        "translatedContent": "  general-purpose:\"Analyze error logs\":logs ||"
+      },
+      {
+        "row": 6,
+        "rowsha": "CZHat4OukqxxKA0Mdoyusv4a/NWl3b73Pw4lOP7EwtY=",
+        "originContent": "  general-purpose:\"Check recent commits\":commits ||",
+        "translatedContent": "  general-purpose:\"Check recent commits\":commits ||"
+      },
+      {
+        "row": 7,
+        "rowsha": "l0O+3pJh58k8c4h3YK0ce00DvCI61lSJ5fA3mzHZozc=",
+        "originContent": "  general-purpose:\"Search for similar bugs\":known",
+        "translatedContent": "  general-purpose:\"Search for similar bugs\":known"
+      },
+      {
+        "row": 8,
+        "rowsha": "8jm7yvX9USNoR1XBIlfLgQSGfL+lgjuJFA1XIbs8r9Q=",
+        "originContent": "] ->",
+        "translatedContent": "] ->"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "43WEF+bc+1H90T+r5xnGDNUsrmaZTw3l+hlHgBNLsNQ=",
+        "originContent": "# Diagnosis",
+        "translatedContent": "# Diagnosis"
+      },
+      {
+        "row": 11,
+        "rowsha": "R68ayogWXHpl2g2uHC2A2ZpmqtooykPf55CELHKcS04=",
+        "originContent": "general-purpose:\"Identify root cause from {code}, {logs}, {commits}, {known}\":cause ->",
+        "translatedContent": "general-purpose:\"Identify root cause from {code}, {logs}, {commits}, {known}\":cause ->"
+      },
+      {
+        "row": 12,
+        "rowsha": "kvra7cEOE/NV/RcP05oz4LR8PgGqKPTB694K3BmAcv4=",
+        "originContent": "@review:\"Diagnosis correct?\" ->",
+        "translatedContent": "@review:\"Diagnosis correct?\" ->"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "wdfwb66g/b4m12XGouZjgIwPG0qgNLCmWJuexeew7d4=",
+        "originContent": "# Fix with testing",
+        "translatedContent": "# Fix with testing"
+      },
+      {
+        "row": 15,
+        "rowsha": "suWkyrYUJK5F3TOIlKsozPdNnkEeOBprOHCcaTH+LfU=",
+        "originContent": "general-purpose:\"Write regression test for the bug\":test ->",
+        "translatedContent": "general-purpose:\"Write regression test for the bug\":test ->"
+      },
+      {
+        "row": 16,
+        "rowsha": "jSMQekBkYIiDVr+AqHE6M8A6q3nfWecz8mXfju+PIjo=",
+        "originContent": "general-purpose:\"Implement fix\":fix ->",
+        "translatedContent": "general-purpose:\"Implement fix\":fix ->"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "JbNsLklKM5Z+juqqqoZ07Mm5zUS3c60hhsnLbSaeUzY=",
+        "originContent": "# Verification",
+        "translatedContent": "# Verification"
+      },
+      {
+        "row": 19,
+        "rowsha": "JFhDq++ecufvrDATiplL9jAefh19cEKjPULoY9JjiBE=",
+        "originContent": "[",
+        "translatedContent": "["
+      },
+      {
+        "row": 20,
+        "rowsha": "uRQVUvLAX6AfmHB7Owkd2LjrrrBf4JrZ9OEyZcvT1yw=",
+        "originContent": "  general-purpose:\"Run regression test\" ||",
+        "translatedContent": "  general-purpose:\"Run regression test\" ||"
+      },
+      {
+        "row": 21,
+        "rowsha": "lcbsWefbgqaiTZjXDv4dkKoTvHfRJi99pGT9A/PB/Ws=",
+        "originContent": "  general-purpose:\"Run full test suite\" ||",
+        "translatedContent": "  general-purpose:\"Run full test suite\" ||"
+      },
+      {
+        "row": 22,
+        "rowsha": "y5F0IOo4uH3DAxeLqiJZcLBqCHezWJG4o0j1No8wGsk=",
+        "originContent": "  general-purpose:\"Perform smoke test\"",
+        "translatedContent": "  general-purpose:\"Perform smoke test\""
+      },
+      {
+        "row": 23,
+        "rowsha": "8jm7yvX9USNoR1XBIlfLgQSGfL+lgjuJFA1XIbs8r9Q=",
+        "originContent": "] ->",
+        "translatedContent": "] ->"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "LL09fwUOtmFaoaeW7n6k+HlmK2C+5uIwcZVD4xZMwdU=",
+        "originContent": "@review:\"Approve deployment?\" ->",
+        "translatedContent": "@review:\"Approve deployment?\" ->"
+      },
+      {
+        "row": 26,
+        "rowsha": "YRchVfp3fJlm5QnN+8JSkFaZngUhZ/5DUiEgZpYu1wc=",
+        "originContent": "general-purpose:\"Commit with detailed bug fix message\"",
+        "translatedContent": "general-purpose:\"Commit with detailed bug fix message\""
+      },
+      {
+        "row": 27,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "\n---\n\n## Project Structure\n",
+    "ContentSha": "mkQJ5vLbsWqAb52h7T6FzUywtMkwDQxSUOzcQ0nC7EA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## Project Structure\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "fgyvOUxAVQzAAJBynGYLLFVgQh7X0IXOshtNb9Ky0Sw=",
+        "originContent": "## Project Structure",
+        "translatedContent": "## Project Structure"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 32,
+    "Content": "```\norchestration/\n├── skills/              # Auto-activating skills\n│   ├── creating-workflows/\n│   ├── executing-workflows/\n│   ├── managing-agents/\n│   ├── managing-temp-scripts/\n│   ├── designing-syntax/\n│   ├── debugging-workflows/\n│   └── using-templates/\n├── agents/              # Permanent agents\n├── temp-agents/         # Ephemeral (auto-cleaned)\n├── temp-scripts/        # Generated scripts\n├── examples/            # Templates (.flow)\n└── docs/                # Documentation\n```",
+    "ContentSha": "MgFI1GIoFeDhYJHDqyKK9P1PS3Loky+XsfkXNOPZSks=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\norchestration/\n├── skills/              # Auto-activating skills\n│   ├── creating-workflows/\n│   ├── executing-workflows/\n│   ├── managing-agents/\n│   ├── managing-temp-scripts/\n│   ├── designing-syntax/\n│   ├── debugging-workflows/\n│   └── using-templates/\n├── agents/              # Permanent agents\n├── temp-agents/         # Ephemeral (auto-cleaned)\n├── temp-scripts/        # Generated scripts\n├── examples/            # Templates (.flow)\n└── docs/                # Documentation\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "hhjIakv3Z+gseh7qCZgXswjO7YZeBYx8KOTLnAZkAZw=",
+        "originContent": "orchestration/",
+        "translatedContent": "orchestration/"
+      },
+      {
+        "row": 3,
+        "rowsha": "JUtuTvojcS4AuDwjMsP31Tnb869YN64daesgMcKFcR0=",
+        "originContent": "├── skills/              # Auto-activating skills",
+        "translatedContent": "├── skills/              # Auto-activating skills"
+      },
+      {
+        "row": 4,
+        "rowsha": "BJ07+r2xcfH+11TG30cB5n0onjzzyRedT3nz7dCOtPU=",
+        "originContent": "│   ├── creating-workflows/",
+        "translatedContent": "│   ├── creating-workflows/"
+      },
+      {
+        "row": 5,
+        "rowsha": "0WD5U/sYoHegTEmD5AwltBFvKVIzZCAfFj0mSOTo/Zo=",
+        "originContent": "│   ├── executing-workflows/",
+        "translatedContent": "│   ├── executing-workflows/"
+      },
+      {
+        "row": 6,
+        "rowsha": "5alSpbCxzgRmWp1LNsV8kIC2oyZHmeG23iqLI2EThI8=",
+        "originContent": "│   ├── managing-agents/",
+        "translatedContent": "│   ├── managing-agents/"
+      },
+      {
+        "row": 7,
+        "rowsha": "Q/sb4/YRD2DoG9s9rU0SCy8SD75VONFkCdjVg0PJTdU=",
+        "originContent": "│   ├── managing-temp-scripts/",
+        "translatedContent": "│   ├── managing-temp-scripts/"
+      },
+      {
+        "row": 8,
+        "rowsha": "Jv4dEPVZ3tKvIWSfffhyLjJUP9LaXqlB9osfnNwm7LM=",
+        "originContent": "│   ├── designing-syntax/",
+        "translatedContent": "│   ├── designing-syntax/"
+      },
+      {
+        "row": 9,
+        "rowsha": "31Yo1D4c1c6CyvOfTUWidS/5LjlI6izkY8bTAHAzOIw=",
+        "originContent": "│   ├── debugging-workflows/",
+        "translatedContent": "│   ├── debugging-workflows/"
+      },
+      {
+        "row": 10,
+        "rowsha": "ghVNhDVzLFhzknEJtOKZL1fpJAK3JlJT0BrwJHDcGK4=",
+        "originContent": "│   └── using-templates/",
+        "translatedContent": "│   └── using-templates/"
+      },
+      {
+        "row": 11,
+        "rowsha": "6T/w34qlzMi+bOU0W+Jdju1H2IHCUAm4HXMabFy1ffc=",
+        "originContent": "├── agents/              # Permanent agents",
+        "translatedContent": "├── agents/              # Permanent agents"
+      },
+      {
+        "row": 12,
+        "rowsha": "Zq06WKqfZGkB8hbjvgnkuLWhMk0+ZEPkqa8OYByluL8=",
+        "originContent": "├── temp-agents/         # Ephemeral (auto-cleaned)",
+        "translatedContent": "├── temp-agents/         # Ephemeral (auto-cleaned)"
+      },
+      {
+        "row": 13,
+        "rowsha": "hDuEJEovQq3wJey4rlaSSijSio4sjRHduUaJNlSbShs=",
+        "originContent": "├── temp-scripts/        # Generated scripts",
+        "translatedContent": "├── temp-scripts/        # Generated scripts"
+      },
+      {
+        "row": 14,
+        "rowsha": "UK8Yhhr3NMTA+sVXzXPt0ghyucdoEiK/2ML2/bQx5eI=",
+        "originContent": "├── examples/            # Templates (.flow)",
+        "translatedContent": "├── examples/            # Templates (.flow)"
+      },
+      {
+        "row": 15,
+        "rowsha": "HZVqwrDxNOw09ANgtsnY3xm1YFy64oz4o/bTAI9yQmg=",
+        "originContent": "└── docs/                # Documentation",
+        "translatedContent": "└── docs/                # Documentation"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 33,
+    "Content": "\n---\n\n## Advanced\n\n### Standalone Execution",
+    "ContentSha": "1Bbb6x1oDJfEQ09OpZQhXaanFv3Hpm1kTH137yictgA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 고급\n\n### 독립 실행",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "E9wx5czRuWv5y9zyxyjUMrA3b8YCVs2PyragIVQMFvA=",
+        "originContent": "## Advanced",
+        "translatedContent": "## 고급"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "vMDR1ms0gPpWn5cClP1RoWyh0oMLukbv143a6HPYxcw=",
+        "originContent": "### Standalone Execution",
+        "translatedContent": "### 독립 실행"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 34,
+    "Content": "```bash\n# Headless (no checkpoints)\nclaude -p \"Execute @examples/tdd-implementation.flow\"\n\n# With parameters\nclaude -p \"/orchestration:run $(cat workflow.flow)\" \\\n  --output-format json\n```",
+    "ContentSha": "hmY0OTmZe8oWpt3IP8b3uaXUf1/cjyrOQSyO02BqeCA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Headless (no checkpoints)\nclaude -p \"Execute @examples/tdd-implementation.flow\"\n\n# With parameters\nclaude -p \"/orchestration:run $(cat workflow.flow)\" \\\n  --output-format json\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "yr7yIXocmW7DBRd/adfcFfIYultzQ447gh1ZPnrADK8=",
+        "originContent": "# Headless (no checkpoints)",
+        "translatedContent": "# Headless (no checkpoints)"
+      },
+      {
+        "row": 3,
+        "rowsha": "cHGumEfhyzGOGv+TBV6Ov2Nh+eKDcesN7z8ie4rDfgs=",
+        "originContent": "claude -p \"Execute @examples/tdd-implementation.flow\"",
+        "translatedContent": "claude -p \"Execute @examples/tdd-implementation.flow\""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "v2K+enymmP0gMiDLVuMYICqOL4hB//kBiFo4likxnbI=",
+        "originContent": "# With parameters",
+        "translatedContent": "# With parameters"
+      },
+      {
+        "row": 6,
+        "rowsha": "vgXupaDCppxnCXu0BraDqRnDMG7oW9Hm2y5f9qRudMU=",
+        "originContent": "claude -p \"/orchestration:run $(cat workflow.flow)\" \\",
+        "translatedContent": "claude -p \"/orchestration:run $(cat workflow.flow)\" \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "QpmBnjQL9XqBoJkyu9vxFIS475OeuoRqSEuVSQZNAW8=",
+        "originContent": "  --output-format json",
+        "translatedContent": "  --output-format json"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 35,
+    "Content": "\n### Agent Promotion",
+    "ContentSha": "b3TzOpDfgv20lyvbCgkVlmhRVVQftP2gcm4SAEigbPU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 에이전트 프로모션",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "R03/ph0eLn/9Jun3JjJLaXaWslTsllwBLDnIM+Wiqp4=",
+        "originContent": "### Agent Promotion",
+        "translatedContent": "### 에이전트 프로모션"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 36,
+    "Content": "```\nWorkflow complete!\n\nTemp agents: security-scanner, api-wrapper\n\nSave as permanent?\n[Save all] [Save security-scanner] [Delete all]\n```",
+    "ContentSha": "tzSEsMDrPBpwR2FLsCDzVCTLTyiSF5Kmj3gWvanXvS8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nWorkflow complete!\n\nTemp agents: security-scanner, api-wrapper\n\nSave as permanent?\n[Save all] [Save security-scanner] [Delete all]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "sZkw2O6sgqFWfjHswP0KubvQWgUh2nVV48Z/Qikk3I8=",
+        "originContent": "Workflow complete!",
+        "translatedContent": "Workflow complete!"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "wrns17DsKI/t+vtdTGbgwusTHp7BH6annb50Els0qGQ=",
+        "originContent": "Temp agents: security-scanner, api-wrapper",
+        "translatedContent": "Temp agents: security-scanner, api-wrapper"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "CENaY12GOJ7IP28wiLiCbj0L8WrQGOgU8uXQJVtdgzw=",
+        "originContent": "Save as permanent?",
+        "translatedContent": "Save as permanent?"
+      },
+      {
+        "row": 7,
+        "rowsha": "585ITzh0E9ya5ISq48Vjsq+Gd4AQVSpNb+9tjW0BUoE=",
+        "originContent": "[Save all] [Save security-scanner] [Delete all]",
+        "translatedContent": "[Save all] [Save security-scanner] [Delete all]"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 37,
+    "Content": "\n### Template Parameters",
+    "ContentSha": "mMzU56IInWCZO2O7J9Xn5yU+hebnfiFl8nF59fk9cPY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 템플릿 매개변수",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "h2S6r9Pu6HGDDFP8kg+Wkpi8kzKYE6HJRPfWV4FQHqs=",
+        "originContent": "### Template Parameters",
+        "translatedContent": "### 템플릿 매개변수"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 38,
+    "Content": "```yaml\n---\nname: api-integration\nparameters:\n  - API_URL: \"https://api.example.com\"\n  - NUM_ITEMS: 10\n---\n\nworkflow: |\n  general-purpose:\"Fetch {{NUM_ITEMS}} from {{API_URL}}\":data ->\n  general-purpose:\"Format results\":output\n```",
+    "ContentSha": "IgC65bKmzEcLiQY3jXVvz4RDM+GPLHsmQ47Iro1W9Dw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\n---\nname: api-integration\nparameters:\n  - API_URL: \"https://api.example.com\"\n  - NUM_ITEMS: 10\n---\n\nworkflow: |\n  general-purpose:\"Fetch {{NUM_ITEMS}} from {{API_URL}}\":data ->\n  general-purpose:\"Format results\":output\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "XQ7fRwn23qjIvtJEzi3u+M989sQ0xR6/OLlT77Fc5hY=",
+        "originContent": "name: api-integration",
+        "translatedContent": "name: api-integration"
+      },
+      {
+        "row": 4,
+        "rowsha": "FM6qmezeZmZao/m1oOpd2cbBphQ6BFh928j0VkCW5Dk=",
+        "originContent": "parameters:",
+        "translatedContent": "parameters:"
+      },
+      {
+        "row": 5,
+        "rowsha": "BQSS9hC9f1QHyrdVf4vY2LaA1eB86UBew/mmUdCM66g=",
+        "originContent": "  - API_URL: \"https://api.example.com\"",
+        "translatedContent": "  - API_URL: \"https://api.example.com\""
+      },
+      {
+        "row": 6,
+        "rowsha": "/cbSkaUjmK7birglJTVZ1lZoQkwnSq+JkWZ6kvFok3o=",
+        "originContent": "  - NUM_ITEMS: 10",
+        "translatedContent": "  - NUM_ITEMS: 10"
+      },
+      {
+        "row": 7,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "EwuT7P7umArr3RLnN83My3SHncuANIOLaX5lNc8/x/s=",
+        "originContent": "workflow: |",
+        "translatedContent": "workflow: |"
+      },
+      {
+        "row": 10,
+        "rowsha": "NdbP4YAb8i7pq+hpPJ0+bkW2V+L/qK4XDYr2qK4eESE=",
+        "originContent": "  general-purpose:\"Fetch {{NUM_ITEMS}} from {{API_URL}}\":data ->",
+        "translatedContent": "  general-purpose:\"Fetch {{NUM_ITEMS}} from {{API_URL}}\":data ->"
+      },
+      {
+        "row": 11,
+        "rowsha": "ou2OZzW5U+9wFTHU4mEUuszjqoD7O/+3wZbdbjqlz18=",
+        "originContent": "  general-purpose:\"Format results\":output",
+        "translatedContent": "  general-purpose:\"Format results\":output"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 39,
+    "Content": "\n---\n\n## Troubleshooting\n\n**Workflow hangs**\n→ Checkpoint requires user response or remove for headless\n\n**Temp script fails**\n→ Check `temp-scripts/` for generated file\n→ Verify API credentials and dependencies\n\n**Agent not found**\n→ Built-in: exact names (Explore, general-purpose)\n→ Plugin: use `orchestration:` prefix\n→ Temp: use `$` prefix\n\n## Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=mbruhler/claude-orchestration&type=date&legend=top-left)](https://www.star-history.com/#mbruhler/claude-orchestration&type=date&legend=top-left)\n\n---\n\n## Support\n\n- 📖 [Documentation](docs/)\n- 💬 [Discussions](https://github.com/anthropics/orchestration/discussions)\n- 🐛 [Issues](https://github.com/anthropics/orchestration/issues)\n\n---\n\n**MIT License** | Built for Claude Code community\n",
+    "ContentSha": "kXVx/cArRC6QiGPWTaGHMRn/LMzu7zuGeFPrxt5xWn8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 문제 해결\n\n**워크플로우 중단**\n→ 체크포인트가 사용자 응답을 요구하거나 무인 모드에서는 제거 필요\n\n**임시 스크립트 실패**\n→ 생성된 파일은 `temp-scripts/` 확인\n→ API 자격 증명 및 종속성 확인\n\n**에이전트가 발견되지 않음**\n→ 내장: 정확한 이름 사용 (Explore, 범용)\n→ 플러그인: `orchestration:` 접두사 사용\n→ 임시: `$` 접두사 사용\n\n## 스타 히스토리\n\n[![Star History Chart](https://api.star-history.com/svg?repos=mbruhler/claude-orchestration&type=date&legend=top-left)](https://www.star-history.com/#mbruhler/claude-orchestration&type=date&legend=top-left)\n\n---\n\n## 지원\n\n- 📖 [문서](docs/)\n- 💬 [토론](https://github.com/anthropics/orchestration/discussions)\n- 🐛 [이슈](https://github.com/anthropics/orchestration/issues)\n\n---\n\n**MIT 라이선스** | Claude Code 커뮤니티를 위해 제작됨\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+        "originContent": "## Troubleshooting",
+        "translatedContent": "## 문제 해결"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "iDmHT9ve/7Q6o9iHiRT5xdxeoyzxZXqmDJZvGi8Wqe0=",
+        "originContent": "**Workflow hangs**",
+        "translatedContent": "**워크플로우 중단**"
+      },
+      {
+        "row": 7,
+        "rowsha": "twmo5NapQYZPLT5MXMqpk/kTrYMD7OZhqagPK6KCENA=",
+        "originContent": "→ Checkpoint requires user response or remove for headless",
+        "translatedContent": "→ 체크포인트가 사용자 응답을 요구하거나 무인 모드에서는 제거 필요"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "AtQa+BQ6/FTGBsMNcoOSWVbaOjekuu8++3PHsKp3/CM=",
+        "originContent": "**Temp script fails**",
+        "translatedContent": "**임시 스크립트 실패**"
+      },
+      {
+        "row": 10,
+        "rowsha": "gLA+GMUFNCtg9KT/oscNzc0BTjvzwmJRH3UJ6qv50vU=",
+        "originContent": "→ Check `temp-scripts/` for generated file",
+        "translatedContent": "→ 생성된 파일은 `temp-scripts/` 확인"
+      },
+      {
+        "row": 11,
+        "rowsha": "MI7Wmm8Ft3JNbVvnwLvSU2COv5TCU+XAzyUfCfCbf58=",
+        "originContent": "→ Verify API credentials and dependencies",
+        "translatedContent": "→ API 자격 증명 및 종속성 확인"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "iRJzx74sN/J+HusdZtpisHdHIB9rrvHD6jwYs7N8WO4=",
+        "originContent": "**Agent not found**",
+        "translatedContent": "**에이전트가 발견되지 않음**"
+      },
+      {
+        "row": 14,
+        "rowsha": "UgkgHPod14BYLZ4AT6OQ/v8Cp6oSZlBMR0KkThOxZm4=",
+        "originContent": "→ Built-in: exact names (Explore, general-purpose)",
+        "translatedContent": "→ 내장: 정확한 이름 사용 (Explore, 범용)"
+      },
+      {
+        "row": 15,
+        "rowsha": "SdAhdFvlVhgqgQHOpE7KS+FqdbT+OKznI6Bnn1CcgTk=",
+        "originContent": "→ Plugin: use `orchestration:` prefix",
+        "translatedContent": "→ 플러그인: `orchestration:` 접두사 사용"
+      },
+      {
+        "row": 16,
+        "rowsha": "Nu07WET9yOa299br7pjAFC+V6aEBDS1rnHAoZYjFroU=",
+        "originContent": "→ Temp: use `$` prefix",
+        "translatedContent": "→ 임시: `$` 접두사 사용"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+        "originContent": "## Star History",
+        "translatedContent": "## 스타 히스토리"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Cd/D8H1pQ9CmaSdmtVdXv/dtQT/6oE1nCdYEmzHYBC0=",
+        "originContent": "[![Star History Chart](https://api.star-history.com/svg?repos=mbruhler/claude-orchestration&type=date&legend=top-left)](https://www.star-history.com/#mbruhler/claude-orchestration&type=date&legend=top-left)",
+        "translatedContent": "[![Star History Chart](https://api.star-history.com/svg?repos=mbruhler/claude-orchestration&type=date&legend=top-left)](https://www.star-history.com/#mbruhler/claude-orchestration&type=date&legend=top-left)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "IomX/Z8fZRvFPjDCjVVFhdA00U2wXcfNBs9BCtGX13M=",
+        "originContent": "## Support",
+        "translatedContent": "## 지원"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "5gktpt7ecVnFZuWpRDTzPDvqkswIEj1x42LCGyCDaS0=",
+        "originContent": "- 📖 [Documentation](docs/)",
+        "translatedContent": "- 📖 [문서](docs/)"
+      },
+      {
+        "row": 27,
+        "rowsha": "kXHYJgr7f5Hdl3B01T4K7pORGxTuDuJkICzixZ+aXXc=",
+        "originContent": "- 💬 [Discussions](https://github.com/anthropics/orchestration/discussions)",
+        "translatedContent": "- 💬 [토론](https://github.com/anthropics/orchestration/discussions)"
+      },
+      {
+        "row": 28,
+        "rowsha": "Ut/1WsmNzNU4z7Iu7IlG3KiLT0stTrQS2xMzYOVWfwg=",
+        "originContent": "- 🐛 [Issues](https://github.com/anthropics/orchestration/issues)",
+        "translatedContent": "- 🐛 [이슈](https://github.com/anthropics/orchestration/issues)"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "tOVIwF8imEcmO6r10DTKgJ+d0ASmsYIffaJjzj7DXIM=",
+        "originContent": "**MIT License** | Built for Claude Code community",
+        "translatedContent": "**MIT 라이선스** | Claude Code 커뮤니티를 위해 제작됨"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
