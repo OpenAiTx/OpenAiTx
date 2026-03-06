@@ -1,37 +1,290 @@
 [
   {
     "Id": 1,
-    "Content": "Auto bind Python from CC++\n===================\n\n> 一个足够简单易用并且可配置的用于从C/C++代码自动绑定为Python代码并生成whl包的工程\n\n> 本项目克隆于:\nhttps://github.com/Neutree/c_cpp_project_framework\n并且编译代码部分与原仓库保持一致\n\n> pybind11自动绑定部分参考代码:\nhttps://github.com/sipeed/MaixPy/tree/main/components/maix\n\n\n## 快速上手\n\n* 1.克隆本仓库,进入/examples/demo目录\n使用python project.py menuconfig进入图形界面配置编译工具链以及是打包whl文件\n![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image.png)\n> 其中x86对应为本机编译,arm64对应为MaixCam2编译,RISCV64对应为MaiCam/Pro编译\n![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image-1.png)\n* 2.写一个C/C++函数,以及hpp头文件,需要以whl包为文件名,方便自动识别:",
-    "ContentSha": "Aino/rwx5LL638F3NHTDi+dPFZq1UTRbqLKkdN8YqOs=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\nAuto bind Python from CC++\n===================\n\n> 一个足够简单易用并且可配置的用于从C/C++代码自动绑定为Python代码并生成whl包的工程\n\n> 本项目克隆于:\nhttps://github.com/Neutree/c_cpp_project_framework\n并且编译代码部分与原仓库保持一致",
+    "ContentSha": "ex+MgiARKUnYfWCbFOci/Io6YcMe7WBHFRfTxaENKqs=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "CC++からPythonへの自動バインド\n===================\n\n> C/C++コードからPythonコードへ自動的にバインドし、whlパッケージを生成するための十分にシンプルで使いやすく設定可能なプロジェクト\n\n> 本プロジェクトは以下からクローンしています:\nhttps://github.com/Neutree/c_cpp_project_framework\nまた、コンパイルコード部分は元リポジトリと一致しています\n\n> pybind11自動バインド部分の参考コード:\nhttps://github.com/sipeed/MaixPy/tree/main/components/maix\n\n\n## クイックスタート\n\n* 1.本リポジトリをクローンし、/examples/demoディレクトリに移動\npython project.py menuconfigを使用してグラフィカルインターフェースを開き、コンパイルツールチェーンやwhlファイルのパッケージ化を設定\n![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image.png)\n> ここでx86はローカルマシンでのコンパイルを指し、arm64はMaixCam2向けのコンパイル、RISCV64はMaiCam/Pro向けのコンパイルを指します\n![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image-1.png)\n* 2.C/C++関数とhppヘッダーファイルを書く。whlパッケージ名と同じ名前にすることで自動認識を容易にする:",
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 言語</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\nAuto bind Python from CC++\n===================\n\n> C/C++ コードを Python コードに自動バインドし、whl パッケージを生成するための、十分にシンプルで使いやすく、かつ設定可能なプロジェクト\n\n> 本プロジェクトは下記からクローンされています:\nhttps://github.com/Neutree/c_cpp_project_framework\nそして、ビルド部分のコードは元のリポジトリと同一です\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "F+KmLKaE2jFG2Do9yNx2tOCz8mam128B5vHQ7wePJMo=",
-        "originContent": "Auto bind Python from CC++",
-        "translatedContent": "CC++からPythonへの自動バインド"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 2,
-        "rowsha": "eqRbxwaGxfDxi19zarr2Ka8MFRUgzRt4G+yXNYyg638=",
-        "originContent": "===================",
-        "translatedContent": "==================="
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
       },
       {
         "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 言語</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=en\">English</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "404j76KAgaZCBZ6j7HberduAlVPBZyUHllv31GgpQcg=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "2QpJpXmj+hgvK8DPeV05Ejzo566SpS6Y19ej2MQ/95M=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "O0TAiXoNXmR1MfS7Ehz2knB9NGGbVwc6BxOa7oLQKFU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "FbPCtLkgfkcGtwJw0pgvq/If+pyUWY1A6MCZIzT1zYM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "lwJxZeD96L+G+sk/v/Vk/F4bDnzxDf+8Aka8n2CL8uk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "DByWEsK5uYQ0/54woMkAX5GBCBF2huEzW1Jjr/uFy8E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "i9sA3LF3tf62X3qhfxmJfM1HHqq+oZtyjtWKzwcbVvA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=fr\">Français</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "mPzSZehqUflLOyz4TZc6YYNPOGXV3n1l/TqLofn3eOQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "cjKMmWWEf4PSrvhY5ZM79TkicouK/K8woRNsuZGFwH4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=es\">Español</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "i5Tpq5hFbNSQCLNW2CG6+cRJRvulGIHoxdrD7mAaFeA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "jdFx9zpGmSicS3nFnvLuN/tN4loDpHHnz6jkF090/0E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "3/WDLTgZpknPqVL7WAfEUB9CEphkZ454RKom7l31BXw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=pt\">Português</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "yKpz8u+NAb1USTVnzdU+jZJ9wQpQwYVAXVCjMW4kCV0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "ujv7Lpb7b7UpWP36cLd+H5wa9nk0nMp0MOe1yIgwTws=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "7ycfMjPdWtRXsyvvqxLwPny+iML8iTPDJXuPR3RpQU4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "fvinQqjNm18CzBLH+ZenRtsuBV4tZ+DM6Q3Eps3h8Vo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "98OkpVbRrwzeVPRMFAdA/UlemFDd/t+219QJPJddXiI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "5Z8k7VZGUD9Nfjwo/fMTuv0bbInVuykEZPmhgUQWIvA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "lvMnniMcORVizAa9zsA7eoY/gQ5EJhfXq5Rt6C1KmD4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "YSi8p6StEZxRMlulB9OOY63TgX1W6dqjOO8VOOB1Rx8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 27,
+        "rowsha": "oTMuj6hIzvSzoweoyeoAg5E3wF7qqCmh+NMHCQZEeKI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=as\">অসমীয়া</",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Auto bind Python from CC++"
+      },
+      {
+        "row": 33,
+        "rowsha": "F+KmLKaE2jFG2Do9yNx2tOCz8mam128B5vHQ7wePJMo=",
+        "originContent": "Auto bind Python from CC++",
+        "translatedContent": "==================="
+      },
+      {
+        "row": 34,
+        "rowsha": "eqRbxwaGxfDxi19zarr2Ka8MFRUgzRt4G+yXNYyg638=",
+        "originContent": "===================",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> C/C++ コードを Python コードに自動バインドし、whl パッケージを生成するための、十分にシンプルで使いやすく、かつ設定可能なプロジェクト"
+      },
+      {
+        "row": 36,
+        "rowsha": "8g//qPQONhjiBycLEwJobYU2pv3BxPB4S8m/ZtgL6So=",
+        "originContent": "> 一个足够简单易用并且可配置的用于从C/C++代码自动绑定为Python代码并生成whl包的工程",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> 本プロジェクトは下記からクローンされています:"
+      },
+      {
+        "row": 38,
+        "rowsha": "R2a2kwnR5iIJ7hHgbLe2larakDFTjxILdzA8gkcqkjQ=",
+        "originContent": "> 本项目克隆于:",
+        "translatedContent": "https://github.com/Neutree/c_cpp_project_framework"
+      },
+      {
+        "row": 39,
+        "rowsha": "ez5ZYvh0ri5X9AOlJq4eSc0XlaZB5g8elYkRTKyaYCU=",
+        "originContent": "https://github.com/Neutree/c_cpp_project_framework",
+        "translatedContent": "そして、ビルド部分のコードは元のリポジトリと同一です"
+      },
+      {
+        "row": 40,
+        "rowsha": "zSEALpfg4caOdqcVQwsJDFglvybF0d9Jmhfd38NFIiA=",
+        "originContent": "并且编译代码部分与原仓库保持一致",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n> pybind11自动绑定部分参考代码:\nhttps://github.com/sipeed/MaixPy/tree/main/components/maix\n\n\n## 快速上手\n\n* 1.克隆本仓库,进入/examples/demo目录\n使用python project.py menuconfig进入图形界面配置编译工具链以及是打包whl文件\n![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image.png)\n> 其中x86对应为本机编译,arm64对应为MaixCam2编译,RISCV64对应为MaiCam/Pro编译\n![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image-1.png)\n* 2.写一个C/C++函数,以及hpp头文件,需要以whl包为文件名,方便自动识别:",
+    "ContentSha": "3UkktCez6obICAxupy0SMLt/9FYL03VZuaJtUG+fg2M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> pybind11自動バインディングの参考コード：\nhttps://github.com/sipeed/MaixPy/tree/main/components/maix\n\n\n## クイックスタート\n\n* 1.本リポジトリをクローンし、/examples/demoディレクトリに移動\npython project.py menuconfig を使用して、GUIでビルドツールチェーンやwhlファイルのパッケージ化を設定\n![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image.png)\n> x86はローカルマシン用、arm64はMaixCam2用、RISCV64はMaiCam/Pro用のビルドに対応\n![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image-1.png)\n* 2.C/C++関数とhppヘッダファイルを書き、whlパッケージ名と同じファイル名にすることで自動認識を容易にする：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 2,
+        "rowsha": "kY55GY+CKEzzMZrk/2W+pxuXFEZsfs0pMf7l1MIfsxg=",
+        "originContent": "> pybind11自动绑定部分参考代码:",
+        "translatedContent": "> pybind11自動バインディングの参考コード："
+      },
+      {
+        "row": 3,
+        "rowsha": "/KvaJL0UtHLIDHpKInezfOoQzqunrj4siM8tInBFk3A=",
+        "originContent": "https://github.com/sipeed/MaixPy/tree/main/components/maix",
+        "translatedContent": "https://github.com/sipeed/MaixPy/tree/main/components/maix"
+      },
+      {
         "row": 4,
-        "rowsha": "8g//qPQONhjiBycLEwJobYU2pv3BxPB4S8m/ZtgL6So=",
-        "originContent": "> 一个足够简单易用并且可配置的用于从C/C++代码自动绑定为Python代码并生成whl包的工程",
-        "translatedContent": "> C/C++コードからPythonコードへ自動的にバインドし、whlパッケージを生成するための十分にシンプルで使いやすく設定可能なプロジェクト"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 5,
@@ -41,105 +294,57 @@
       },
       {
         "row": 6,
-        "rowsha": "R2a2kwnR5iIJ7hHgbLe2larakDFTjxILdzA8gkcqkjQ=",
-        "originContent": "> 本项目克隆于:",
-        "translatedContent": "> 本プロジェクトは以下からクローンしています:"
-      },
-      {
-        "row": 7,
-        "rowsha": "ez5ZYvh0ri5X9AOlJq4eSc0XlaZB5g8elYkRTKyaYCU=",
-        "originContent": "https://github.com/Neutree/c_cpp_project_framework",
-        "translatedContent": "https://github.com/Neutree/c_cpp_project_framework"
-      },
-      {
-        "row": 8,
-        "rowsha": "zSEALpfg4caOdqcVQwsJDFglvybF0d9Jmhfd38NFIiA=",
-        "originContent": "并且编译代码部分与原仓库保持一致",
-        "translatedContent": "また、コンパイルコード部分は元リポジトリと一致しています"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "kY55GY+CKEzzMZrk/2W+pxuXFEZsfs0pMf7l1MIfsxg=",
-        "originContent": "> pybind11自动绑定部分参考代码:",
-        "translatedContent": "> pybind11自動バインド部分の参考コード:"
-      },
-      {
-        "row": 11,
-        "rowsha": "/KvaJL0UtHLIDHpKInezfOoQzqunrj4siM8tInBFk3A=",
-        "originContent": "https://github.com/sipeed/MaixPy/tree/main/components/maix",
-        "translatedContent": "https://github.com/sipeed/MaixPy/tree/main/components/maix"
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
         "rowsha": "dUvfHzYPieruUm48dvDFP6gzTsnoJ+MA6iWUfDtTEWs=",
         "originContent": "## 快速上手",
         "translatedContent": "## クイックスタート"
       },
       {
-        "row": 15,
+        "row": 7,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 16,
+        "row": 8,
         "rowsha": "L/T53ZhlqB9hc7ygQC7CShbf69q51w2Vety/cvpJ2is=",
         "originContent": "* 1.克隆本仓库,进入/examples/demo目录",
         "translatedContent": "* 1.本リポジトリをクローンし、/examples/demoディレクトリに移動"
       },
       {
-        "row": 17,
+        "row": 9,
         "rowsha": "bkjN7RYpijTLH6Gz+uqfUzJucKG2uMFg1pHC+sVx4HM=",
         "originContent": "使用python project.py menuconfig进入图形界面配置编译工具链以及是打包whl文件",
-        "translatedContent": "python project.py menuconfigを使用してグラフィカルインターフェースを開き、コンパイルツールチェーンやwhlファイルのパッケージ化を設定"
+        "translatedContent": "python project.py menuconfig を使用して、GUIでビルドツールチェーンやwhlファイルのパッケージ化を設定"
       },
       {
-        "row": 18,
+        "row": 10,
         "rowsha": "8OdPUzKs4EQpppWVOFt4kPzuz6+dPmTJ45894CL8YPQ=",
         "originContent": "![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image.png)",
         "translatedContent": "![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image.png)"
       },
       {
-        "row": 19,
+        "row": 11,
         "rowsha": "ahLzL61H7UHNjw0e35XmIzVbXWk3kXwp8bVIe+ryy8I=",
         "originContent": "> 其中x86对应为本机编译,arm64对应为MaixCam2编译,RISCV64对应为MaiCam/Pro编译",
-        "translatedContent": "> ここでx86はローカルマシンでのコンパイルを指し、arm64はMaixCam2向けのコンパイル、RISCV64はMaiCam/Pro向けのコンパイルを指します"
+        "translatedContent": "> x86はローカルマシン用、arm64はMaixCam2用、RISCV64はMaiCam/Pro用のビルドに対応"
       },
       {
-        "row": 20,
+        "row": 12,
         "rowsha": "8i/eydU6dYAowVG/d0b3rgorKO92FTswkz7CfbW2aL0=",
         "originContent": "![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image-1.png)",
         "translatedContent": "![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image-1.png)"
       },
       {
-        "row": 21,
+        "row": 13,
         "rowsha": "e//54dOOksORZsQ/pszkACHJJ21jHntokr/uPeynCuU=",
         "originContent": "* 2.写一个C/C++函数,以及hpp头文件,需要以whl包为文件名,方便自动识别:",
-        "translatedContent": "* 2.C/C++関数とhppヘッダーファイルを書く。whlパッケージ名と同じ名前にすることで自動認識を容易にする:"
+        "translatedContent": "* 2.C/C++関数とhppヘッダファイルを書き、whlパッケージ名と同じファイル名にすることで自動認識を容易にする："
       }
     ],
     "IsCodeBlock": false
   },
   {
-    "Id": 2,
+    "Id": 3,
     "Content": "```C++\nnamespace add::test\n{\n    int add(int a, int b) \n    {\n        return a + b;\n    }\n}\n```",
     "ContentSha": "mmDmP/16smCT1D+zfj+m0dTafMpIU74FD0S8VO3jYNY=",
     "SectionType": "",
@@ -147,66 +352,11 @@
     "EndLine": 0,
     "Translation": "```C++\nnamespace add::test\n{\n    int add(int a, int b) \n    {\n        return a + b;\n    }\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tOehKtrULnbxFhgN5+uK/OSL7aztSF0BiCz+GBtDpvI=",
-        "originContent": "```C++",
-        "translatedContent": "```C++"
-      },
-      {
-        "row": 2,
-        "rowsha": "nO90lVkKtDb6uvB0Rd8S+4YewZDqjOtopGu3X3bAsew=",
-        "originContent": "namespace add::test",
-        "translatedContent": "namespace add::test"
-      },
-      {
-        "row": 3,
-        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-        "originContent": "{",
-        "translatedContent": "{"
-      },
-      {
-        "row": 4,
-        "rowsha": "hmgGKRuhftgnbMQgXSTDaqZxng4DET94pDq2yL/C8Cw=",
-        "originContent": "    int add(int a, int b) ",
-        "translatedContent": "    int add(int a, int b) "
-      },
-      {
-        "row": 5,
-        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
-        "originContent": "    {",
-        "translatedContent": "    {"
-      },
-      {
-        "row": 6,
-        "rowsha": "/IiWUWLF/jEuWOWhDQHVJ0gsUXqpNQMYtLuPSuoVOBw=",
-        "originContent": "        return a + b;",
-        "translatedContent": "        return a + b;"
-      },
-      {
-        "row": 7,
-        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
-        "originContent": "    }",
-        "translatedContent": "    }"
-      },
-      {
-        "row": 8,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 9,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 3,
+    "Id": 4,
     "Content": "为对应的函数写上@modul注释,后面跟上函数路径:",
     "ContentSha": "2s01qaJuGFpyD6hol+mHTQvTZR4NdDfBzSjM6AmxB/4=",
     "SectionType": "",
@@ -214,18 +364,11 @@
     "EndLine": 0,
     "Translation": "対応する関数に@modul注釈を付け、その後に関数パスを記載してください:",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "2s01qaJuGFpyD6hol+mHTQvTZR4NdDfBzSjM6AmxB/4=",
-        "originContent": "为对应的函数写上@modul注释,后面跟上函数路径:",
-        "translatedContent": "対応する関数に@modul注釈を付け、その後に関数パスを記載してください:"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 4,
+    "Id": 5,
     "Content": "```C++\nnamespace add::test\n{\n    /**\n     * My function, add two integer.\n     * @param a arg a, int type\n     * @param b arg b, int type\n     * @return int type, will a + b\n     * @module add.test.add\n     */\n    int add(int a, int b);\n}\n```",
     "ContentSha": "/l7c+f25PcRtwwR3okA0xOhls5bJ9m0Zo288Po4znwQ=",
     "SectionType": "",
@@ -233,90 +376,11 @@
     "EndLine": 0,
     "Translation": "```C++\nnamespace add::test\n{\n    /**\n     * My function, add two integer.\n     * @param a arg a, int type\n     * @param b arg b, int type\n     * @return int type, will a + b\n     * @module add.test.add\n     */\n    int add(int a, int b);\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tOehKtrULnbxFhgN5+uK/OSL7aztSF0BiCz+GBtDpvI=",
-        "originContent": "```C++",
-        "translatedContent": "```C++"
-      },
-      {
-        "row": 2,
-        "rowsha": "nO90lVkKtDb6uvB0Rd8S+4YewZDqjOtopGu3X3bAsew=",
-        "originContent": "namespace add::test",
-        "translatedContent": "namespace add::test"
-      },
-      {
-        "row": 3,
-        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-        "originContent": "{",
-        "translatedContent": "{"
-      },
-      {
-        "row": 4,
-        "rowsha": "CfVgruxMtQ/B/wbF14afQIeO/xobFXwCrwyBZeby3LI=",
-        "originContent": "    /**",
-        "translatedContent": "    /**"
-      },
-      {
-        "row": 5,
-        "rowsha": "mKIgMYaiG6GCf7gZKLujpUWuODH2xgALyhT/PrNRe04=",
-        "originContent": "     * My function, add two integer.",
-        "translatedContent": "     * My function, add two integer."
-      },
-      {
-        "row": 6,
-        "rowsha": "ioa3umewwCZIM/Jt27Ku6gFGDad+ws0ulO4nU99T+yo=",
-        "originContent": "     * @param a arg a, int type",
-        "translatedContent": "     * @param a arg a, int type"
-      },
-      {
-        "row": 7,
-        "rowsha": "RL6psa7ZU6uX2N1kqgWLWe75gfMbFLKZE5PDsd4q4ps=",
-        "originContent": "     * @param b arg b, int type",
-        "translatedContent": "     * @param b arg b, int type"
-      },
-      {
-        "row": 8,
-        "rowsha": "vBE4VZsxhSXMYVe/s9ABoc0kLSqAxmLnhoEJ5BD/hgQ=",
-        "originContent": "     * @return int type, will a + b",
-        "translatedContent": "     * @return int type, will a + b"
-      },
-      {
-        "row": 9,
-        "rowsha": "4uSOfgBm/9ItUDQX00jMrTx/rcfIfiF6oSHTbA/ya8c=",
-        "originContent": "     * @module add.test.add",
-        "translatedContent": "     * @module add.test.add"
-      },
-      {
-        "row": 10,
-        "rowsha": "dwk64juOG0aGuf6drKBwxy/4Oda9htMYRwJQbJPGjVU=",
-        "originContent": "     */",
-        "translatedContent": "     */"
-      },
-      {
-        "row": 11,
-        "rowsha": "rvM98LT6AaU10HF1aVlBQrSVlwUDfScOOvLQuLjlXSw=",
-        "originContent": "    int add(int a, int b);",
-        "translatedContent": "    int add(int a, int b);"
-      },
-      {
-        "row": 12,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 13,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 5,
+    "Id": 6,
     "Content": "其中第一行为函数介绍,@param为参数介绍,@return为返回值介绍(可空)\n如果只需要编译并打包为whl文件则无需修改main.cpp\n使用python project build即可开始编译并打包whl文件\n编译后安装whl后即可在直接直接调用:",
     "ContentSha": "wzsRkrKWRO88Tn87mo82el4ZZqDtgqYUvp/31QtnuPg=",
     "SectionType": "",
@@ -324,36 +388,11 @@
     "EndLine": 0,
     "Translation": "最初の行は関数の説明、@paramはパラメータの説明、@returnは戻り値の説明（省略可能）です  \nwhlファイルとしてコンパイルおよびパッケージングするだけの場合は、main.cppを変更する必要はありません  \npython project buildを使用すると、コンパイルおよびwhlファイルのパッケージングを開始できます  \nコンパイル後にwhlをインストールすると、直接呼び出して使用できます:",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "i7d8OTvEt1cJojh6SxgF46auwRIpQ2Q6yJVM5p1pBMo=",
-        "originContent": "其中第一行为函数介绍,@param为参数介绍,@return为返回值介绍(可空)",
-        "translatedContent": "最初の行は関数の説明、@paramはパラメータの説明、@returnは戻り値の説明（省略可能）です  "
-      },
-      {
-        "row": 2,
-        "rowsha": "afO87wH1t83wToHQ7f0QiIxe/bGlvB0ANAUxUzfoApo=",
-        "originContent": "如果只需要编译并打包为whl文件则无需修改main.cpp",
-        "translatedContent": "whlファイルとしてコンパイルおよびパッケージングするだけの場合は、main.cppを変更する必要はありません  "
-      },
-      {
-        "row": 3,
-        "rowsha": "9xOmrM0lYQyHGqJdt+o1MCqILBeD8bSGIVVC+ob/Fi0=",
-        "originContent": "使用python project build即可开始编译并打包whl文件",
-        "translatedContent": "python project buildを使用すると、コンパイルおよびwhlファイルのパッケージングを開始できます  "
-      },
-      {
-        "row": 4,
-        "rowsha": "UOIhbJ87I0O7bJVTqG9E/ShgnBCVWYkvbkubZuJur2A=",
-        "originContent": "编译后安装whl后即可在直接直接调用:",
-        "translatedContent": "コンパイル後にwhlをインストールすると、直接呼び出して使用できます:"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 6,
+    "Id": 7,
     "Content": "```Python\nimport add\nadd.test.add(1,1)\n```",
     "ContentSha": "u75fEDhs1hk0UTswP88+cmE7QSpXMJTS8ACzV5Rl2UU=",
     "SectionType": "",
@@ -361,36 +400,11 @@
     "EndLine": 0,
     "Translation": "```Python\nimport add\nadd.test.add(1,1)\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "Yl8Bko6uSJYcnFxFI1a7T1QakIxz6aiTuJE8gWx+cls=",
-        "originContent": "```Python",
-        "translatedContent": "```Python"
-      },
-      {
-        "row": 2,
-        "rowsha": "P3tFVxlaf4B13Q4m4ycgSqHYd5FNvjMamkkDG7wHhCw=",
-        "originContent": "import add",
-        "translatedContent": "import add"
-      },
-      {
-        "row": 3,
-        "rowsha": "0VTZhI1qmv9sPkrcEuLVX14RwDuot4QMXkACItXxH7E=",
-        "originContent": "add.test.add(1,1)",
-        "translatedContent": "add.test.add(1,1)"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 7,
+    "Id": 8,
     "Content": "注意:\n-   一个头文件代表一个模块名,表示要import的模块,例如add.hpp对应import add,其模块名必须以add开头\n-   直接运行cpp_bind_python.py可以只生成绑定后的cpp文件,添加--doc DOC参数可以自动从注释生成文档",
     "ContentSha": "RhTKKJ3iSxQjMHmt/PjQ/AHGflDDBiW5rOSf1oCeU2A=",
     "SectionType": "",
@@ -398,26 +412,7 @@
     "EndLine": 0,
     "Translation": "注意:  \n-   1つのヘッダーファイルは1つのモジュール名を表し、インポートするモジュールを示します。例えばadd.hppはimport addに対応し、そのモジュール名はaddで始まる必要があります。  \n-   cpp_bind_python.pyを直接実行すると、バインドされたcppファイルのみが生成されます。--doc DOCパラメータを追加すると、コメントから自動的にドキュメントが生成されます。",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "2y35ovktiedwoYXREa01Ewhsb204GLq4gfA1ovRdjI4=",
-        "originContent": "注意:",
-        "translatedContent": "注意:  "
-      },
-      {
-        "row": 2,
-        "rowsha": "/Lx+Y1JJaXI9kyQvOFOF0VtiGQsoRLbreSaaQhrhuUw=",
-        "originContent": "-   一个头文件代表一个模块名,表示要import的模块,例如add.hpp对应import add,其模块名必须以add开头",
-        "translatedContent": "-   1つのヘッダーファイルは1つのモジュール名を表し、インポートするモジュールを示します。例えばadd.hppはimport addに対応し、そのモジュール名はaddで始まる必要があります。  "
-      },
-      {
-        "row": 3,
-        "rowsha": "4NB/TwdTOdFUm2AxYDiODHuQgmRL3ANuRmHvMYwOaJg=",
-        "originContent": "-   直接运行cpp_bind_python.py可以只生成绑定后的cpp文件,添加--doc DOC参数可以自动从注释生成文档",
-        "translatedContent": "-   cpp_bind_python.pyを直接実行すると、バインドされたcppファイルのみが生成されます。--doc DOCパラメータを追加すると、コメントから自動的にドキュメントが生成されます。"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

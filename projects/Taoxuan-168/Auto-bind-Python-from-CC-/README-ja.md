@@ -1,24 +1,56 @@
-CC++からPythonへの自動バインド
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+Auto bind Python from CC++
 ===================
 
-> C/C++コードからPythonコードへ自動的にバインドし、whlパッケージを生成するための十分にシンプルで使いやすく設定可能なプロジェクト
+> C/C++ コードを Python コードに自動バインドし、whl パッケージを生成するための、十分にシンプルで使いやすく、かつ設定可能なプロジェクト
 
-> 本プロジェクトは以下からクローンしています:
+> 本プロジェクトは下記からクローンされています:
 https://github.com/Neutree/c_cpp_project_framework
-また、コンパイルコード部分は元リポジトリと一致しています
+そして、ビルド部分のコードは元のリポジトリと同一です
 
-> pybind11自動バインド部分の参考コード:
+
+> pybind11自動バインディングの参考コード：
 https://github.com/sipeed/MaixPy/tree/main/components/maix
 
 
 ## クイックスタート
 
 * 1.本リポジトリをクローンし、/examples/demoディレクトリに移動
-python project.py menuconfigを使用してグラフィカルインターフェースを開き、コンパイルツールチェーンやwhlファイルのパッケージ化を設定
+python project.py menuconfig を使用して、GUIでビルドツールチェーンやwhlファイルのパッケージ化を設定
 ![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image.png)
-> ここでx86はローカルマシンでのコンパイルを指し、arm64はMaixCam2向けのコンパイル、RISCV64はMaiCam/Pro向けのコンパイルを指します
+> x86はローカルマシン用、arm64はMaixCam2用、RISCV64はMaiCam/Pro用のビルドに対応
 ![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image-1.png)
-* 2.C/C++関数とhppヘッダーファイルを書く。whlパッケージ名と同じ名前にすることで自動認識を容易にする:
+* 2.C/C++関数とhppヘッダファイルを書き、whlパッケージ名と同じファイル名にすることで自動認識を容易にする：
 ```C++
 namespace add::test
 {
@@ -56,6 +88,6 @@ add.test.add(1,1)
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-06
 
 ---

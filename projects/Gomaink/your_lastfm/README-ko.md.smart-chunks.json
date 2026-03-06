@@ -1,0 +1,682 @@
+[
+  {
+    "Id": 1,
+    "Content": "[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/seuusuario/wakeonweb)\n[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)\n\n# Your LastFM\n\nA containerized Node.js application that synchronizes scrobbles from **Last.fm**, stores them in a local **SQLite** database, and serves a web dashboard.\n\n<img width=\"1718\" height=\"1066\" alt=\"image\" src=\"https://github.com/user-attachments/assets/97d5a9f1-b39a-42ea-9acf-2b4546426a11\" />\n\n---\n\n## Project\n\n**Your LastFM** is a Node.js application designed to **automatically synchronize music scrobbles** from Last.fm. It preserves your listening history in a local SQLite database and serves a web interface for data visualization.\n\nThe project is fully containerized with **Docker**, using an automated entrypoint to handle database initialization and sequential execution (Syncing first, then launching the Web API). It also utilizes **PM2** as a process manager inside the container to ensure the web service remains active and resilient.\n\n## Features\n### Interactive Web Dashboard\n\n- Clean, modern web interface to visualize your music activity.\n\n### Automatic Last.fm Scrobble Synchronization\n\n- Periodically fetches and stores your listening history (scrobbles) from Last.fm.\n- Ensures your data is always up to date without manual intervention.\n\n### Local Music History Database\n\n- Persists all scrobbles in a local SQLite database.\n- Allows fast queries and offline access to historical listening data.\n\n### Recent Scrobbles View\n\n- Displays your most recent tracks.\n- Smart image fallback logic for tracks, albums, and artists.\n\n### Friends Comparison (Compatibility View)\n\n- Compare your music taste with Last.fm friends.",
+    "ContentSha": "EMjvPM3npim4Rmc5NHEgOXGMjHv7JxpdleQgTRs3jPM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/seuusuario/wakeonweb)\n[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)\n\n# Your LastFM\n\n컨테이너화된 Node.js 애플리케이션으로, **Last.fm**에서 스크로블을 동기화하고 이를 로컬 **SQLite** 데이터베이스에 저장하며 웹 대시보드를 제공합니다.\n\n<img width=\"1718\" height=\"1066\" alt=\"image\" src=\"https://github.com/user-attachments/assets/97d5a9f1-b39a-42ea-9acf-2b4546426a11\" />\n\n---\n\n## 프로젝트\n\n**Your LastFM**은 Last.fm에서 음악 스크로블을 **자동으로 동기화**하도록 설계된 Node.js 애플리케이션입니다. 사용자의 청취 기록을 로컬 SQLite 데이터베이스에 저장하고, 데이터 시각화를 위한 웹 인터페이스를 제공합니다.\n\n이 프로젝트는 **Docker**로 완전히 컨테이너화되어 있으며, 데이터베이스 초기화 및 순차적 실행(먼저 동기화, 그 다음 웹 API 실행)을 처리하는 자동화된 엔트리포인트를 사용합니다. 또한 컨테이너 내에서 프로세스 매니저로 **PM2**를 활용하여 웹 서비스가 항상 활성 상태를 유지하고 안정적으로 동작하도록 보장합니다.\n\n## 기능\n### 인터랙티브 웹 대시보드\n\n- 음악 활동을 시각화할 수 있는 깔끔하고 현대적인 웹 인터페이스.\n\n### 자동 Last.fm 스크로블 동기화\n\n- 주기적으로 Last.fm에서 청취 기록(스크로블)을 가져와 저장합니다.\n- 수동 개입 없이 항상 최신 데이터를 유지합니다.\n\n### 로컬 음악 기록 데이터베이스\n\n- 모든 스크로블을 로컬 SQLite 데이터베이스에 저장합니다.\n- 빠른 쿼리와 오프라인 청취 기록 접근을 지원합니다.\n\n### 최근 스크로블 보기\n\n- 가장 최근 재생한 트랙을 표시합니다.\n- 트랙, 앨범, 아티스트에 대한 스마트 이미지 폴백 로직을 제공합니다.\n\n### 친구 비교 (호환성 보기)\n\n- Last.fm 친구들과 음악 취향을 비교할 수 있습니다.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "W+zx0K27/f0IB62sbMWKU5xZ6d4BCLiIJN1OwY3hQmM=",
+        "originContent": "[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/seuusuario/wakeonweb)",
+        "translatedContent": "[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/seuusuario/wakeonweb)"
+      },
+      {
+        "row": 2,
+        "rowsha": "kMO7mVv8sMy2kqBHsaSmrTJjePM3G/OpZJ22HmCaWhg=",
+        "originContent": "[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)",
+        "translatedContent": "[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "6akPQ8kT/gK7ZQxDZm1O9vzl/8I/UZlJuLkKfDWchU0=",
+        "originContent": "# Your LastFM",
+        "translatedContent": "# Your LastFM"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "cr39gg2I05XqVqKipD71Lv+E5QsZsSLS9VHisvImdE4=",
+        "originContent": "A containerized Node.js application that synchronizes scrobbles from **Last.fm**, stores them in a local **SQLite** database, and serves a web dashboard.",
+        "translatedContent": "컨테이너화된 Node.js 애플리케이션으로, **Last.fm**에서 스크로블을 동기화하고 이를 로컬 **SQLite** 데이터베이스에 저장하며 웹 대시보드를 제공합니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "AO5HyVyVU1txLqeBAefQQZer8vKsLa21Z413FijIBU4=",
+        "originContent": "<img width=\"1718\" height=\"1066\" alt=\"image\" src=\"https://github.com/user-attachments/assets/97d5a9f1-b39a-42ea-9acf-2b4546426a11\" />",
+        "translatedContent": "<img width=\"1718\" height=\"1066\" alt=\"image\" src=\"https://github.com/user-attachments/assets/97d5a9f1-b39a-42ea-9acf-2b4546426a11\" />"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "UEyJIRee8FlHazLCwSMkT0fhllnRQyyGszrxan/NdDI=",
+        "originContent": "## Project",
+        "translatedContent": "## 프로젝트"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "fyHd4mYxoJRS8k02u1BvPWQpshaA1DgLAKwM3YBjxYM=",
+        "originContent": "**Your LastFM** is a Node.js application designed to **automatically synchronize music scrobbles** from Last.fm. It preserves your listening history in a local SQLite database and serves a web interface for data visualization.",
+        "translatedContent": "**Your LastFM**은 Last.fm에서 음악 스크로블을 **자동으로 동기화**하도록 설계된 Node.js 애플리케이션입니다. 사용자의 청취 기록을 로컬 SQLite 데이터베이스에 저장하고, 데이터 시각화를 위한 웹 인터페이스를 제공합니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "AWvh0kDqhvKxCinJFN4+7eK2SgQAELfLyxim/Y0gdyE=",
+        "originContent": "The project is fully containerized with **Docker**, using an automated entrypoint to handle database initialization and sequential execution (Syncing first, then launching the Web API). It also utilizes **PM2** as a process manager inside the container to ensure the web service remains active and resilient.",
+        "translatedContent": "이 프로젝트는 **Docker**로 완전히 컨테이너화되어 있으며, 데이터베이스 초기화 및 순차적 실행(먼저 동기화, 그 다음 웹 API 실행)을 처리하는 자동화된 엔트리포인트를 사용합니다. 또한 컨테이너 내에서 프로세스 매니저로 **PM2**를 활용하여 웹 서비스가 항상 활성 상태를 유지하고 안정적으로 동작하도록 보장합니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 19,
+        "rowsha": "Ww5/bT1hhgROJsxSXj/HKxA6DxXytnOXB5OT2E5oKcY=",
+        "originContent": "### Interactive Web Dashboard",
+        "translatedContent": "### 인터랙티브 웹 대시보드"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "CT2HxkRYI04sGazT8aNXk2PHXWRN0B4hTXfZj6awubA=",
+        "originContent": "- Clean, modern web interface to visualize your music activity.",
+        "translatedContent": "- 음악 활동을 시각화할 수 있는 깔끔하고 현대적인 웹 인터페이스."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "UvLxj7riO5qAiUC0iXKZsq8YeiFo+DYO+TwnZ6HI+ZA=",
+        "originContent": "### Automatic Last.fm Scrobble Synchronization",
+        "translatedContent": "### 자동 Last.fm 스크로블 동기화"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "H6K/ErB5uWtb06N/7fHYh9iTWdSPJoFERwPVWGc9PbY=",
+        "originContent": "- Periodically fetches and stores your listening history (scrobbles) from Last.fm.",
+        "translatedContent": "- 주기적으로 Last.fm에서 청취 기록(스크로블)을 가져와 저장합니다."
+      },
+      {
+        "row": 26,
+        "rowsha": "3hPXvkgUAqmxeCgPdzENccVaMXeToT+IQa5GKD+7YBI=",
+        "originContent": "- Ensures your data is always up to date without manual intervention.",
+        "translatedContent": "- 수동 개입 없이 항상 최신 데이터를 유지합니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "ntBiFlqhtWSfX/MtA1J3OBHZq8/kvqhsYDOL3xOA5UQ=",
+        "originContent": "### Local Music History Database",
+        "translatedContent": "### 로컬 음악 기록 데이터베이스"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "s68Ra/3sF6RkIAGw575BF4otSEcc9rIihkRFSve6Kdo=",
+        "originContent": "- Persists all scrobbles in a local SQLite database.",
+        "translatedContent": "- 모든 스크로블을 로컬 SQLite 데이터베이스에 저장합니다."
+      },
+      {
+        "row": 31,
+        "rowsha": "gC9EpaA4EYf2Czos2ssGN2pt49NVaQ0c0BZePvaxNpQ=",
+        "originContent": "- Allows fast queries and offline access to historical listening data.",
+        "translatedContent": "- 빠른 쿼리와 오프라인 청취 기록 접근을 지원합니다."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "IOT2ExHGRZ53tgCyKGbRtaI+XI5JShrbuwHjVtZAIOQ=",
+        "originContent": "### Recent Scrobbles View",
+        "translatedContent": "### 최근 스크로블 보기"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "UxQcCaWeqcAynoDq851szquBA3rnxsKTWd7jb1fETZM=",
+        "originContent": "- Displays your most recent tracks.",
+        "translatedContent": "- 가장 최근 재생한 트랙을 표시합니다."
+      },
+      {
+        "row": 36,
+        "rowsha": "vGS36g0X4ncNDDuRfPH2GxFzVGDRMPnZeUChDtr55qk=",
+        "originContent": "- Smart image fallback logic for tracks, albums, and artists.",
+        "translatedContent": "- 트랙, 앨범, 아티스트에 대한 스마트 이미지 폴백 로직을 제공합니다."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "0I/ovdSqL5jQaybFfaPRKViSRchDeChYnjIUrfnCTb4=",
+        "originContent": "### Friends Comparison (Compatibility View)",
+        "translatedContent": "### 친구 비교 (호환성 보기)"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "OoSkrutn/zk2KkhGN2XLibjbe5zO3sHno36JL7zGq5o=",
+        "originContent": "- Compare your music taste with Last.fm friends.",
+        "translatedContent": "- Last.fm 친구들과 음악 취향을 비교할 수 있습니다."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- Shows compatibility level (Very Low → Super).\n- Displays common top artists, albums, and tracks.\n- Calculates and normalizes compatibility based on real listening data.\n\n### Shareable Music Cards\n\n- Generate dynamic images based on your listening data.\n- Optimized layouts for feed posts and instagram stories (9:16)\n- Built using node-canvas for server-side image rendering.\n\n## Prerequisites\n\n* [Docker](https://docs.docker.com/get-docker/)\n* [Docker Compose](https://docs.docker.com/compose/install/)\n\n## Installation\n\n### Create a `.env` file\n",
+    "ContentSha": "j/NJaUkb1LKq1yLT1o/jGDQjj4AjspZQxQhTQAQQ2II=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 호환성 수준 표시 (매우 낮음 → 최고).\n- 공통 상위 아티스트, 앨범 및 트랙 표시.\n- 실제 청취 데이터를 기반으로 호환성 계산 및 정규화.\n\n### 공유 가능한 음악 카드\n\n- 청취 데이터를 기반으로 동적 이미지 생성.\n- 피드 게시물 및 인스타그램 스토리용 최적화된 레이아웃 (9:16)\n- 서버 측 이미지 렌더링을 위한 node-canvas 사용.\n\n## 필수 조건\n\n* [Docker](https://docs.docker.com/get-docker/)\n* [Docker Compose](https://docs.docker.com/compose/install/)\n\n## 설치\n\n### `.env` 파일 생성하기\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rSvO2puNl2xFnpsRWE0Y2+4POvrTeLbro4IyzVw0niU=",
+        "originContent": "- Shows compatibility level (Very Low → Super).",
+        "translatedContent": "- 호환성 수준 표시 (매우 낮음 → 최고)."
+      },
+      {
+        "row": 2,
+        "rowsha": "Jy90JfdTysZMuItcBuaqdV+duiw5xtD+hE6UaXQjGyE=",
+        "originContent": "- Displays common top artists, albums, and tracks.",
+        "translatedContent": "- 공통 상위 아티스트, 앨범 및 트랙 표시."
+      },
+      {
+        "row": 3,
+        "rowsha": "LbqYFF1GxnCnDeUDnUU29FhdLruZF4m6gFGdmUY0xV0=",
+        "originContent": "- Calculates and normalizes compatibility based on real listening data.",
+        "translatedContent": "- 실제 청취 데이터를 기반으로 호환성 계산 및 정규화."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "7Eu+hK0STSUmDaVQNdc5vmw6NXQWIfq2NDE4RjdoIxc=",
+        "originContent": "### Shareable Music Cards",
+        "translatedContent": "### 공유 가능한 음악 카드"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "sDQ0kVGhVrG+PhlIe4ZD+1EduZl32p14Pjjqk90m75o=",
+        "originContent": "- Generate dynamic images based on your listening data.",
+        "translatedContent": "- 청취 데이터를 기반으로 동적 이미지 생성."
+      },
+      {
+        "row": 8,
+        "rowsha": "WsstKQo29jwmuyGmJvVO5WRljJflBE+BjAOTxa6AYbE=",
+        "originContent": "- Optimized layouts for feed posts and instagram stories (9:16)",
+        "translatedContent": "- 피드 게시물 및 인스타그램 스토리용 최적화된 레이아웃 (9:16)"
+      },
+      {
+        "row": 9,
+        "rowsha": "zeJkdBNvEs9MIz9PaP6uopsouQ0ztSZ4f8Wco8yc/9U=",
+        "originContent": "- Built using node-canvas for server-side image rendering.",
+        "translatedContent": "- 서버 측 이미지 렌더링을 위한 node-canvas 사용."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+        "originContent": "## Prerequisites",
+        "translatedContent": "## 필수 조건"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "yrL0zOCpGC6zmpVFdAWIXA4QHsMskRU6ZfsiCAnKAiQ=",
+        "originContent": "* [Docker](https://docs.docker.com/get-docker/)",
+        "translatedContent": "* [Docker](https://docs.docker.com/get-docker/)"
+      },
+      {
+        "row": 14,
+        "rowsha": "AoGv8K95YdNTGrjddKxJR8gdyxMXhut3QCFXe8kshTE=",
+        "originContent": "* [Docker Compose](https://docs.docker.com/compose/install/)",
+        "translatedContent": "* [Docker Compose](https://docs.docker.com/compose/install/)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "bc3g97eCgXOrGyNYgPmenGbt4dwF2tcursM79WX6rUA=",
+        "originContent": "### Create a `.env` file",
+        "translatedContent": "### `.env` 파일 생성하기"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```env\nLASTFM_API_KEY=your_lastfm_api_key\nLASTFM_USERNAME=your_lastfm_username\n```",
+    "ContentSha": "ai0d9h5ME7ZfGRY0jZuiQs1DSRTHuR1G929vBoWH/gk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```env\nLASTFM_API_KEY=your_lastfm_api_key\nLASTFM_USERNAME=your_lastfm_username\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dbgwbak9HW5TgEbWtR5ZtVRsu2dvkT/Yje52/4cKD48=",
+        "originContent": "```env",
+        "translatedContent": "```env"
+      },
+      {
+        "row": 2,
+        "rowsha": "gLVUG2VtObgjN96dbH/bRT3X+Z/gH80J00XqsxkYx9Y=",
+        "originContent": "LASTFM_API_KEY=your_lastfm_api_key",
+        "translatedContent": "LASTFM_API_KEY=your_lastfm_api_key"
+      },
+      {
+        "row": 3,
+        "rowsha": "tDwQniowLPZoZQ/ZWBOall41kdP6pDZq5MmMQmuzwOc=",
+        "originContent": "LASTFM_USERNAME=your_lastfm_username",
+        "translatedContent": "LASTFM_USERNAME=your_lastfm_username"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nLast.fm: Create an API account [here](https://www.last.fm/api/account/create) to get your API Key.\n\n### Docker Compose\n",
+    "ContentSha": "VlkvS2dYhyPbTy2uBhZAjMOJAKBtfQVFuZorQ4zknwQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Last.fm: API 키를 받으려면 [여기](https://www.last.fm/api/account/create)에서 API 계정을 만드세요.\n\n### Docker Compose\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Last.fm: API 키를 받으려면 [여기](https://www.last.fm/api/account/create)에서 API 계정을 만드세요."
+      },
+      {
+        "row": 2,
+        "rowsha": "6GScdQsDKicDsdOfyasQlhShm+T4WQudJ4moitlAw1g=",
+        "originContent": "Last.fm: Create an API account [here](https://www.last.fm/api/account/create) to get your API Key.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Docker Compose"
+      },
+      {
+        "row": 4,
+        "rowsha": "mHeRlyN3/ar41NP6ofGTgxSTWrRpMVYBvdIUnZmMaAY=",
+        "originContent": "### Docker Compose",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```yml\nservices:\n  your-lastfm:\n    image: gomaink/your-lastfm\n    container_name: your-lastfm\n    ports:\n      - \"1533:1533\"\n    env_file:\n      - .env\n    volumes:\n      - ./data:/app/data\n    restart: unless-stopped\n```",
+    "ContentSha": "verhiVqla/rYTdjHtD94N33Y6g+luPA2rzIEGAjpjjQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yml\nservices:\n  your-lastfm:\n    image: gomaink/your-lastfm\n    container_name: your-lastfm\n    ports:\n      - \"1533:1533\"\n    env_file:\n      - .env\n    volumes:\n      - ./data:/app/data\n    restart: unless-stopped\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6VNIqwd5UaB+zEc8iEtqBBwl4sYpXCRu1rbb2Tb5ApI=",
+        "originContent": "```yml",
+        "translatedContent": "```yml"
+      },
+      {
+        "row": 2,
+        "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
+        "originContent": "services:",
+        "translatedContent": "services:"
+      },
+      {
+        "row": 3,
+        "rowsha": "iOiG+fwPQjiL8OXTZt0gnyy318beQY+zZIMbKRfVdzA=",
+        "originContent": "  your-lastfm:",
+        "translatedContent": "  your-lastfm:"
+      },
+      {
+        "row": 4,
+        "rowsha": "ssLfBP/thnWTecb/CxI3gUNAYCLg9yNYATiQdGFOjA8=",
+        "originContent": "    image: gomaink/your-lastfm",
+        "translatedContent": "    image: gomaink/your-lastfm"
+      },
+      {
+        "row": 5,
+        "rowsha": "9VTyW5lC3jWCvkejnEaEuTyXmcLSWEw65vzLdGpytAQ=",
+        "originContent": "    container_name: your-lastfm",
+        "translatedContent": "    container_name: your-lastfm"
+      },
+      {
+        "row": 6,
+        "rowsha": "zC/pizDWyg3Eifixwj057XWlvpROf11Egbzi6yNsUnM=",
+        "originContent": "    ports:",
+        "translatedContent": "    ports:"
+      },
+      {
+        "row": 7,
+        "rowsha": "2WqTDOpzr0shcyxjNQJWJ7jGBmn+uItNz6gvtriujJY=",
+        "originContent": "      - \"1533:1533\"",
+        "translatedContent": "      - \"1533:1533\""
+      },
+      {
+        "row": 8,
+        "rowsha": "a+saynMzh60Zy/6/TyX+CrZJKo43DIk6HyvzkF9F22Y=",
+        "originContent": "    env_file:",
+        "translatedContent": "    env_file:"
+      },
+      {
+        "row": 9,
+        "rowsha": "pG+WcmDxfNyyYOJwXKWaPErPEqWIkuE6rujIddkdjk8=",
+        "originContent": "      - .env",
+        "translatedContent": "      - .env"
+      },
+      {
+        "row": 10,
+        "rowsha": "1pMKVoreY6K5n87lYgkNRSAOv421w0HqHzH2XFXyySw=",
+        "originContent": "    volumes:",
+        "translatedContent": "    volumes:"
+      },
+      {
+        "row": 11,
+        "rowsha": "Di6szQum/bQ7vE66r/U8S2TmMboZct/YESGDO20cvg0=",
+        "originContent": "      - ./data:/app/data",
+        "translatedContent": "      - ./data:/app/data"
+      },
+      {
+        "row": 12,
+        "rowsha": "oqdQNjD0F32EJ8w6vZoeVMg3BE8Mgh+0Cyujme5MEyg=",
+        "originContent": "    restart: unless-stopped",
+        "translatedContent": "    restart: unless-stopped"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\nOn terminal:\n`docker compose up -d`\n\nThen access:",
+    "ContentSha": "b/dQOgFIsY3DiOa8aU2CTkyubKZEVFFsOeMInaGVHHs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "터미널에서:  \n`docker compose up -d`  \n\n그런 다음 접속:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "터미널에서:  "
+      },
+      {
+        "row": 2,
+        "rowsha": "Q4Zgy9tgyvJ7wyF6wCRZbPixqtvFy6OfJxgfrxcpBeg=",
+        "originContent": "On terminal:",
+        "translatedContent": "`docker compose up -d`  "
+      },
+      {
+        "row": 3,
+        "rowsha": "eK6znwENTkx8tRdN1tCmuWNi+nc4Qs6Tf0r7xjoNIkc=",
+        "originContent": "`docker compose up -d`",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "그런 다음 접속:"
+      },
+      {
+        "row": 5,
+        "rowsha": "WjsYOSUs7xvsqde/7+trLvZL0bt4mguovNKNZB/ZYpE=",
+        "originContent": "Then access:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```\nhttp://localhost:1533\n```",
+    "ContentSha": "8bfSB4qCFKxdGpESFNQpwY161HPFMpVDcA4X3gcmxUo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nhttp://localhost:1533\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "RqbgwzwbF8E5jElckyM+Fs8fVgA0TnP9Rs2gVsWM+wY=",
+        "originContent": "http://localhost:1533",
+        "translatedContent": "http://localhost:1533"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n(or replace `localhost` with your server IP)\n\n## License\n\nThis project is licensed under the MIT License.\n",
+    "ContentSha": "UorV+wDhoUVhIUZZ4U6SoX9pWCTvFU+V8zI74LGUDC0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n(또는 `localhost`를 서버 IP로 교체하세요)\n\n## 라이선스\n\n이 프로젝트는 MIT 라이선스 하에 라이선스가 부여되었습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1y98c/7oNpNHjhTc4g8fOEGAI0bpNZXVvFDplLcDMRA=",
+        "originContent": "(or replace `localhost` with your server IP)",
+        "translatedContent": "(또는 `localhost`를 서버 IP로 교체하세요)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "gtu85hIXUxetDap6Yrt3a4PQb/z5w/vJILgXMQFBqDk=",
+        "originContent": "This project is licensed under the MIT License.",
+        "translatedContent": "이 프로젝트는 MIT 라이선스 하에 라이선스가 부여되었습니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

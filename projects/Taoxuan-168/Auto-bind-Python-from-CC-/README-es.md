@@ -1,24 +1,56 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 Auto bind Python from CC++
 ===================
 
-> Un proyecto lo suficientemente simple, fácil de usar y configurable para enlazar automáticamente código C/C++ a código Python y generar paquetes whl.
+> Un proyecto suficientemente simple, fácil de usar y configurable para vincular automáticamente código de C/C++ a Python y generar un paquete whl
 
 > Este proyecto fue clonado de:
 https://github.com/Neutree/c_cpp_project_framework
-y la parte de compilación del código se mantiene igual que en el repositorio original.
+y la parte de compilación de código se mantiene igual al repositorio original
 
-> Código de referencia para la parte de enlace automático con pybind11:
+> Código de referencia para el enlace automático con pybind11:
 https://github.com/sipeed/MaixPy/tree/main/components/maix
 
 
-## Inicio rápido
+## Guía rápida
 
-* 1. Clona este repositorio, entra en el directorio /examples/demo
-Usa python project.py menuconfig para entrar en la interfaz gráfica y configurar la cadena de herramientas de compilación y si se genera un archivo whl.
+* 1. Clona este repositorio y entra al directorio /examples/demo
+Usa python project.py menuconfig para acceder a la interfaz gráfica y configurar la cadena de herramientas de compilación y si se debe empaquetar el archivo whl.
 ![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image.png)
-> Donde x86 corresponde a compilación en la máquina local, arm64 a compilación para MaixCam2, RISCV64 a compilación para MaiCam/Pro.
+> x86 corresponde a compilación local, arm64 corresponde a compilación para MaixCam2, RISCV64 corresponde a compilación para MaiCam/Pro
 ![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image-1.png)
-* 2. Escribe una función en C/C++ y un archivo de encabezado hpp, que debe tener el mismo nombre que el paquete whl para facilitar el reconocimiento automático:
+* 2. Escribe una función en C/C++ y un archivo de cabecera hpp; el nombre del paquete whl debe coincidir con el nombre del archivo para facilitar la identificación automática:
 ```C++
 namespace add::test
 {
@@ -56,6 +88,6 @@ Nota:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-06
 
 ---

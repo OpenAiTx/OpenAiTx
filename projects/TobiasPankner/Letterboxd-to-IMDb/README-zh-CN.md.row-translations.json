@@ -1,0 +1,812 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Aezu/lFQZbBc+lNb8s6TcF4ilUvXY+PbRlaqS3G+YrQ=",
+    "originContent": "# Letterboxd-to-IMDb",
+    "translatedContent": "# Letterboxd-to-IMDb"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "/915aR6ach/cf+K+3gjSO11pcvHE1N1XfdQkgWDN1v8=",
+    "originContent": "[![GitHub stars](https://img.shields.io/github/stars/TobiasPankner/Letterboxd-to-IMDb.svg?style=social&label=Star)](https://GitHub.com/TobiasPankner/Letterboxd-to-IMDb/stargazers/)",
+    "translatedContent": "[![GitHub stars](https://img.shields.io/github/stars/TobiasPankner/Letterboxd-to-IMDb.svg?style=social&label=Star)](https://GitHub.com/TobiasPankner/Letterboxd-to-IMDb/stargazers/)"
+  },
+  {
+    "row": 4,
+    "rowsha": "VLqsKptEEugcEZdyDGl1ZMEShjH2uALO/gVhKCCSrlU=",
+    "originContent": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3TU2XDBK2JFU4&source=url)",
+    "translatedContent": "[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3TU2XDBK2JFU4&source=url)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "LkonNtZhFUHPWyu6Cn4cETMO6de7OmFiqwZwPbHI/z0=",
+    "originContent": "- [Prerequisites](#prerequisites)",
+    "translatedContent": "- [前提条件](#prerequisites)"
+  },
+  {
+    "row": 7,
+    "rowsha": "PkS07lCGWc7/Cz5F6OGt9VKIr3ldfHqbm81uPvr2G2s=",
+    "originContent": "- [Run the script](#run-the-script)",
+    "translatedContent": "- [运行脚本](#run-the-script)"
+  },
+  {
+    "row": 8,
+    "rowsha": "c79g4QdZwAbQTF36aEpBw9s3nPJ8lO01qrKxqACW4DQ=",
+    "originContent": "- [Getting the IMDb cookie](#getting-the-imdb-cookie)",
+    "translatedContent": "- [获取 IMDb Cookie](#getting-the-imdb-cookie)"
+  },
+  {
+    "row": 9,
+    "rowsha": "AxVML+n4CzOzUvYppKS8AtK4NEGZKpQU9ytsXIQK/Y8=",
+    "originContent": "- [Common use cases](#common-use-cases)",
+    "translatedContent": "- [常见用例](#common-use-cases)"
+  },
+  {
+    "row": 10,
+    "rowsha": "lu4BRbTVej0KgKxA081JMymY6U6Wv10ozw1zcwYo5P0=",
+    "originContent": "- [Command line options](#command-line-options)",
+    "translatedContent": "- [命令行选项](#command-line-options)"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "9VtKgcUjKTRXfRU6AdTR1j3n/NqGtPtoyvalfbqO5BM=",
+    "originContent": "Python script to import your Letterboxd movies into IMDb.  ",
+    "translatedContent": "将您的 Letterboxd 电影导入 IMDb 的 Python 脚本。  "
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "ryg8Kxz1bl2y/eGKkNUV9KLsAsJu5lCvn/otwiVoqqA=",
+    "originContent": "How it works:  ",
+    "translatedContent": "工作原理：  "
+  },
+  {
+    "row": 15,
+    "rowsha": "EPM+FqzvzJWrx6LX3PJO5aVE+85VTfHIBoEYmF+loJ8=",
+    "originContent": "The script first \"visits\" all the Letterboxd links in your zip file and gets the corresponding IMDb page. This way, it can be ensured the correct movie is rated.  ",
+    "translatedContent": "脚本首先“访问”您压缩文件中的所有 Letterboxd 链接，并获取对应的 IMDb 页面。这样可以确保评分的是正确的电影。  "
+  },
+  {
+    "row": 16,
+    "rowsha": "s7bd2EqhU5kODSvBkptGWiDwlTxZd4IOoxTL3OiJhb0=",
+    "originContent": "After that, your cookie is used to authenticate a request to the internal IMDb GraphQL rating API.  ",
+    "translatedContent": "之后，使用您的 Cookie 认证对 IMDb 内部 GraphQL 评分 API 的请求。  "
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "caCUZ2kefmi4M62ll5huBK4sxyFljnwxwrZJ2XEeQeE=",
+    "originContent": "**Video tutorial** on how to use this: <https://www.youtube.com/watch?v=KF7cfdUTEgw>",
+    "translatedContent": "**视频教程** 如何使用此脚本：<https://www.youtube.com/watch?v=KF7cfdUTEgw>"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "7Snhay4Nk5RicT2mPomKIVrFiJZIRe/qtI2UNB0DzfA=",
+    "originContent": "## Run this script online (Python not required)",
+    "translatedContent": "## 在线运行此脚本（无需 Python）"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "m5lxFKvkMZHGucgSS8pZCIOpFbQhqSQF4vi/l5TeSoM=",
+    "originContent": "[![Run Script](https://simple-script.com/api/badge/letterboxd-to-imdb)](https://simple-script.com/app/letterboxd-to-imdb)",
+    "translatedContent": "[![运行脚本](https://simple-script.com/api/badge/letterboxd-to-imdb)](https://simple-script.com/app/letterboxd-to-imdb)"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "U/fSkLibKBS/G413f0qKUhhNuSj1ZNLnYiuIBsMTva4=",
+    "originContent": "## Prerequisites  ",
+    "translatedContent": "## 前提条件  "
+  },
+  {
+    "row": 25,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 26,
+    "rowsha": "5Mh/Z3njS6fMLTkA+cPhe+vwsN1efEIlXFfsy4QnZ+M=",
+    "originContent": "- Python 3 ([Download](https://www.python.org/downloads/))",
+    "translatedContent": "- Python 3 ([下载](https://www.python.org/downloads/))"
+  },
+  {
+    "row": 27,
+    "rowsha": "/mlXQVW38i+UgATTwG6PEbwDNHXYcA3M06UkdifYFCw=",
+    "originContent": "- [Letterboxd](https://letterboxd.com/) Account",
+    "translatedContent": "- [Letterboxd](https://letterboxd.com/) 账户"
+  },
+  {
+    "row": 28,
+    "rowsha": "KCcxqNXMBdDLwba9HVnZAbaI3XBz75dnnIcdGKJPe00=",
+    "originContent": "- [IMDb](https://www.imdb.com/) Account",
+    "translatedContent": "- [IMDb](https://www.imdb.com/) 账户"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "/r2T97q1rSGjmwXrBjcDn5xku+AyRwVlOm/xIUcwu5M=",
+    "originContent": "## Run the script",
+    "translatedContent": "## 运行脚本"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "Ud8z1qz+WC6oDQfDj3u5dGkn1lRMNjERFmR94c0rc/U=",
+    "originContent": " 1. Export your Letterboxd ratings and watchlist ([How to](https://listy.is/help/how-to-export-letterboxd-watchlists-reviews/))",
+    "translatedContent": " 1. 导出您的 Letterboxd 评分和观看列表（[操作方法](https://listy.is/help/how-to-export-letterboxd-watchlists-reviews/)）"
+  },
+  {
+    "row": 33,
+    "rowsha": "4s57IjQsFyAy8O0Gzh9NuaHsF9ERH8Xt+yRg+tR1ImA=",
+    "originContent": " 2. [Get the IMDb cookie](#getting-the-imdb-cookie) and save it as \"cookie.txt\" in the script folder",
+    "translatedContent": " 2. [获取 IMDb Cookie](#getting-the-imdb-cookie) 并保存为脚本文件夹中的 \"cookie.txt\""
+  },
+  {
+    "row": 34,
+    "rowsha": "vpR1w8g9rYuOyMw8/JhwIOYkiBUG6E1ejEf/Qk1OrVM=",
+    "originContent": " 3. Install dependencies: `pip install -r requirements.txt`",
+    "translatedContent": " 3. 安装依赖项：`pip install -r requirements.txt`"
+  },
+  {
+    "row": 35,
+    "rowsha": "M0zPOnh0eDqRQ8Al6elLLAt3pWQfQ0onPZkugDO+Z+w=",
+    "originContent": " 4. Run letterboxd2imdb.py: `python letterboxd2imdb.py -f <YOUR ZIP FILE>.zip`",
+    "translatedContent": " 4. 运行 letterboxd2imdb.py：`python letterboxd2imdb.py -f <您的 ZIP 文件>.zip`"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "YGKF2xJ/oCHO0VEnkj5++FHDnEtaOG0sOtJ1QqN0f7s=",
+    "originContent": "[Common use cases](#common-use-cases)",
+    "translatedContent": "[常见用例](#common-use-cases)"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "rZWlvYr+c/Htohnem9h0N0Ud+lvFhGaGizO6JBmwbU4=",
+    "originContent": "## Getting the IMDb cookie",
+    "translatedContent": "## 获取 IMDb Cookie"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "8RCDRHKE7vRRP+lBBo4L9hVJhYjbsm4icLR8q8K/qkM=",
+    "originContent": "**Treat this cookie like your password!**",
+    "translatedContent": "**请像保护密码一样保护此 Cookie！**"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "2ZjITFIkaAJ9SBwfoMHZABUKbW3VJPzuSlATUkoU+zQ=",
+    "originContent": "  1. Log into your IMDb account",
+    "translatedContent": "  1. 登录您的 IMDb 账户"
+  },
+  {
+    "row": 44,
+    "rowsha": "axb89cKkj6sj9NQvTMHaay+bDEFpiXleNawc3i7NsIs=",
+    "originContent": "  2. Open Chrome dev tools -> Network",
+    "translatedContent": "  2. 打开 Chrome 开发者工具 -> 网络 (Network)"
+  },
+  {
+    "row": 45,
+    "rowsha": "pRobudXf9A/cVk8ms1quyTIkavP8lWJvbdusiKmKi9s=",
+    "originContent": "  3. Filter by Fetch/XHR",
+    "translatedContent": "  3. 筛选 Fetch/XHR"
+  },
+  {
+    "row": 46,
+    "rowsha": "w3FjlgZ3CiF/jjzSuM2SiDsSJibSlIDtmF9mtzil29E=",
+    "originContent": "  4. Refresh the page",
+    "translatedContent": "  4. 刷新页面"
+  },
+  {
+    "row": 47,
+    "rowsha": "HiMbIkQAHhnusP99yZCCE9MXEEyRW8CRmB77UiTzcXA=",
+    "originContent": "  5. Copy the cookie of one of the requests (Right click -> Copy Value)",
+    "translatedContent": "  5. 复制某个请求的 Cookie（右键 -> 复制值）"
+  },
+  {
+    "row": 48,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 49,
+    "rowsha": "bStxxN6aWLNPmFwj0uEBBEFuJrAQinVi20CzoQ4ujyQ=",
+    "originContent": "  ![Example](https://imgur.com/chRo9wj.jpg)  ",
+    "translatedContent": "  ![示例](https://imgur.com/chRo9wj.jpg)  "
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "Iaep0DYbfkgz1XAfMz5G74yf3Shfs89zn5b9JiSYbf0=",
+    "originContent": "## Common use cases",
+    "translatedContent": "## 常见用例"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "ckyIxHaSygnbSBqUayTK1NhPwzqaSuZNBnpy5Rgtsd0=",
+    "originContent": "**Transfer your ratings and watchlist:**  ",
+    "translatedContent": "**转移您的评分和观看列表：**  "
+  },
+  {
+    "row": 54,
+    "rowsha": "POhoGDK0KEp6qeP/Gf24E2/6+hwUOBHKa49QGMjFJ+U=",
+    "originContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -w`",
+    "translatedContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -w`"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "4yLR5oDJZQHLVmvj0aaZX4O6+cPgodH+xKZjsh/NjaM=",
+    "originContent": "**Transfer your watched movies with a rating of 5/10:**  ",
+    "translatedContent": "**转移您评分为 5/10 的已观看电影：**  "
+  },
+  {
+    "row": 57,
+    "rowsha": "jPOLn2SeebmbMvPzXkPnmSvgNxq5VIGHQeieLYTPG7E=",
+    "originContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -r 5`",
+    "translatedContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -r 5`"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "BpQysc5IgSRnIveF2k6rEQlVd1AeTyB+mQmauFukQDQ=",
+    "originContent": "**Create an IMDb list for unrated watched movies:**  ",
+    "translatedContent": "**为未评分的已观看电影创建 IMDb 列表：**  "
+  },
+  {
+    "row": 60,
+    "rowsha": "4Cf3qqHoOJF4Cit/DeFNYEgPZrpp5EKn8T8Dm831N7g=",
+    "originContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -l`",
+    "translatedContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -l`"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "Wy3z1RBRPhJSa0Gp1MslRP3RV8eBU5lKzQyl2m5IuGQ=",
+    "originContent": "**Create a custom-named IMDb list for unrated watched movies:**  ",
+    "translatedContent": "**为未评分的已观看电影创建自定义名称的 IMDb 列表：**  "
+  },
+  {
+    "row": 63,
+    "rowsha": "jMLqMJ617oRFFbbGqYGcun1f3L6mUBN5aEbJN/c9kgo=",
+    "originContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -l --list-name \"My Letterboxd Movies\"`",
+    "translatedContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -l --list-name \"My Letterboxd Movies\"`"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "fwiSscQ7ucrNWyqvvoecv74VdQ4nCG6LS+L5iMOcxm8=",
+    "originContent": "## Command line options",
+    "translatedContent": "## 命令行选项"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 68,
+    "rowsha": "uAw6obJ7jH6SkXbAMSMjpHsPay26AwbSCX5nH3mIvKM=",
+    "originContent": "usage: letterboxd2imdb.py [-h] -f ZIPFILE [-p PARALLEL] [-c] [-r RATING] [-w] [-l] [--list-name LIST_NAME]",
+    "translatedContent": "usage: letterboxd2imdb.py [-h] -f ZIPFILE [-p PARALLEL] [-c] [-r RATING] [-w] [-l] [--list-name LIST_NAME]"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "lZAypqJCLTrUgg+tgQ11n+sVg416zNngW7Dpk6zOq9s=",
+    "originContent": "Imports your Letterboxd ratings and watchlist into IMDb. Can also create custom lists for unrated movies.",
+    "translatedContent": "Imports your Letterboxd ratings and watchlist into IMDb. Can also create custom lists for unrated movies."
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "4iwWc18YSoYXybYLgz9kaORYEHCK/pCNX+rchQjG9dg=",
+    "originContent": "required arguments:",
+    "translatedContent": "required arguments:"
+  },
+  {
+    "row": 73,
+    "rowsha": "y06LUP0xDtSceffsaUmMnvQDqfCPGpDQAnzYhPe3pWQ=",
+    "originContent": "  -f ZIPFILE            The exported zip file from letterboxd",
+    "translatedContent": "  -f ZIPFILE            The exported zip file from letterboxd"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "+lefeE0/Xk6FACkshwxeqmNggFcDxvqzdP2SocZu/es=",
+    "originContent": "options:",
+    "translatedContent": "options:"
+  },
+  {
+    "row": 76,
+    "rowsha": "Oyu3AhN8A0G0Zoh6z/rFKUnhbT8d+SKxzTGxF5pIhN8=",
+    "originContent": "  -h, --help            show this help message and exit",
+    "translatedContent": "  -h, --help            show this help message and exit"
+  },
+  {
+    "row": 77,
+    "rowsha": "O2kLKLCihKda0hE7f96PdaVQX4JRhsUALoMkjAlWQNY=",
+    "originContent": "  -p PARALLEL           Urls to be processed in parallel (valid: 1 to 20)",
+    "translatedContent": "  -p PARALLEL           Urls to be processed in parallel (valid: 1 to 20)"
+  },
+  {
+    "row": 78,
+    "rowsha": "D00b5S85LeyEoc5zLUtkssZOl9I4jUR4w+C7i9jFfw4=",
+    "originContent": "  -c                    Add this flag to disable the history",
+    "translatedContent": "  -c                    Add this flag to disable the history"
+  },
+  {
+    "row": 79,
+    "rowsha": "Ne6sWzTzU3374KmVskyUMf4sRIq5J57Jqe0yp8Mcg7Y=",
+    "originContent": "  -r RATING             The rating to give watched but unrated movies. By default they are ignored (valid: 1 to 10)",
+    "translatedContent": "  -r RATING             The rating to give watched but unrated movies. By default they are ignored (valid: 1 to 10)"
+  },
+  {
+    "row": 80,
+    "rowsha": "Rjrqh9qmTYgq7PkNuLJ6GPrrIczI0N4fVsxj53vup9M=",
+    "originContent": "  -w                    Add this flag to also transfer your watchlist",
+    "translatedContent": "  -w                    Add this flag to also transfer your watchlist"
+  },
+  {
+    "row": 81,
+    "rowsha": "yQaN1B7PF3/HAAK36SeBf7pVaODAXByJ4WioobJBSXg=",
+    "originContent": "  -l                    Create an IMDb list for watched but unrated movies instead of rating them",
+    "translatedContent": "  -l                    Create an IMDb list for watched but unrated movies instead of rating them"
+  },
+  {
+    "row": 82,
+    "rowsha": "bfma5pPjeHlipnUnElwRVwlb5rVQx1uj2r3ZfOiSqss=",
+    "originContent": "  --list-name LIST_NAME Name for the IMDb list to create for unrated movies (default: 'Watched on Letterboxd - Unrated')",
+    "translatedContent": "  --list-name LIST_NAME Name for the IMDb list to create for unrated movies (default: 'Watched on Letterboxd - Unrated')"
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`-p`：如果想加快处理速度可以使用该参数，设置过高可能会导致速率限制。默认值：5  "
+  },
+  {
+    "row": 85,
+    "rowsha": "7tgfN1Y/sb0jlW+skBNkMzqhgGX+5BpI6CtXAVFAobE=",
+    "originContent": "`-p`: Can be used if you want to speed up the process, if you set it too high you might get rate limited. Default: 5  ",
+    "translatedContent": "`-c`：如果历史记录导致问题，可以添加此标志来禁用它。  "
+  },
+  {
+    "row": 86,
+    "rowsha": "C5xDrxzvoo4+t7uktwlZBeBB+niWoOP2w6GSjyGmLFg=",
+    "originContent": "`-c`: If the history is causing problems, you can add this flag to disable it.  ",
+    "translatedContent": "`-r`：用于给已观看但未评分的电影评分。由于 IMDb 没有“仅观看”选项，必须指定一个默认评分  "
+  },
+  {
+    "row": 87,
+    "rowsha": "R22RwW0OlKOL/QpkHnAGSz3T1EljpdsDkzUGBADPn/A=",
+    "originContent": "`-r`: Can be used to rate watched but unrated movies. Because IMDb doesn't have an option to \"just watch\", a default rating has to be specified  ",
+    "translatedContent": "`-w`：用于同时传输你的观看列表  "
+  },
+  {
+    "row": 88,
+    "rowsha": "SclNjRBmN6gdv3qu1U7MzNJ0bOi25D2KSNQ70fGcS7g=",
+    "originContent": "`-w`: Used to also transfer your watchlist  ",
+    "translatedContent": "`-l`：为已观看但未评分的电影创建 IMDb 列表，而不是赋予任意评分。这样可以保持评分数据的整洁，同时跟踪已观看电影。  "
+  },
+  {
+    "row": 89,
+    "rowsha": "rPr4W3j11rjBn0sUTARE/l+eRD2MUhWDOBhqZWIT4X4=",
+    "originContent": "`-l`: Creates an IMDb list for watched but unrated movies instead of assigning them arbitrary ratings. This preserves clean rating data while still tracking watched movies.  ",
+    "translatedContent": "`--list-name`：指定使用 `-l` 选项创建的 IMDb 列表的自定义名称。默认值：\"Watched on Letterboxd - Unrated\"  "
+  },
+  {
+    "row": 90,
+    "rowsha": "I0iBvXkzeBzMBRbmwJ3nrelPSET++NVqvFN1CyYEeso=",
+    "originContent": "`--list-name`: Specifies a custom name for the IMDb list created with the `-l` option. Default: \"Watched on Letterboxd - Unrated\"",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**注意：** `-r` 和 `-l` 选项互斥。你只能给未评分电影赋默认评分（`-r`）或为它们创建列表（`-l`），不能同时使用。  "
+  },
+  {
+    "row": 92,
+    "rowsha": "X/db9nsBbS8SconmVq5wEehMJoZnkeYrz/l9erTcY/U=",
+    "originContent": "**Note:** The `-r` and `-l` options are mutually exclusive. You can either assign default ratings to unrated movies (`-r`) or create a list for them (`-l`), but not both.",
+    "translatedContent": "  "
+  },
+  {
+    "row": 93,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "## 使用示例  "
+  },
+  {
+    "row": 94,
+    "rowsha": "kA3+hp54Hp4eF5+IPsKRCHXOFtU8DZ4MTD1vWkx42xw=",
+    "originContent": "## Usage Examples  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 95,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "**基础导入（仅评分）：**  "
+  },
+  {
+    "row": 96,
+    "rowsha": "aNE5uQQ2W6TZKdjear1GYCfQmPSemzU9uOckppiaqLg=",
+    "originContent": "**Basic import (ratings only):**  ",
+    "translatedContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip`  "
+  },
+  {
+    "row": 97,
+    "rowsha": "smRBz8zqI9yO2PGT845iWIRv8d4uWqyaIHEBTb88e4c=",
+    "originContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip`  ",
+    "translatedContent": "*仅从 Letterboxd 导入你的评分电影。未评分电影将被忽略。*  "
+  },
+  {
+    "row": 98,
+    "rowsha": "Wv8UrLHKux2jO8Xu+cGGlwS19M54oRuC5xXnwBffA90=",
+    "originContent": "*Imports only your rated movies from Letterboxd to IMDb. Unrated movies are ignored.*  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 99,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "**导入评分和观看列表：**  "
+  },
+  {
+    "row": 100,
+    "rowsha": "Y/Ctifz6YEcSRRB90WPGZ03+AlSUmEzg7FR5u41KQ8k=",
+    "originContent": "**Import ratings and watchlist:**  ",
+    "translatedContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -w`  "
+  },
+  {
+    "row": 101,
+    "rowsha": "SzA38IVf26K+zgBFTraBA5swvg6M7/etZ1T1Fl0VINE=",
+    "originContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -w`  ",
+    "translatedContent": "*同时传输你的电影评分和观看列表到 IMDb。*  "
+  },
+  {
+    "row": 102,
+    "rowsha": "GYZrgXBzEaFrH6dG429qOK+l+lOmWSraF/wscAO5oho=",
+    "originContent": "*Transfers both your movie ratings and watchlist from Letterboxd to IMDb.*  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 103,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "**给未评分电影赋默认评分：**  "
+  },
+  {
+    "row": 104,
+    "rowsha": "FTvzhZry0rO23/zYi9EdnDBcR0TFziMpJoLkljXTpOk=",
+    "originContent": "**Give default rating to unrated movies:**  ",
+    "translatedContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -r 7`  "
+  },
+  {
+    "row": 105,
+    "rowsha": "xjlZmIdNmmCPfecmzZDBIUhlwikEvOxXyGfTAlXmR5Y=",
+    "originContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -r 7`  ",
+    "translatedContent": "*导入你的评分并给所有已观看但未评分的电影赋默认评分 7/10。*  "
+  },
+  {
+    "row": 106,
+    "rowsha": "4bCAhhyc6R7ovx51rqwQqRe6RW1cvTKsrUuwXvkCXIk=",
+    "originContent": "*Imports your ratings and gives a default rating of 7/10 to all watched but unrated movies.*  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 107,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "**为未评分电影创建列表：**  "
+  },
+  {
+    "row": 108,
+    "rowsha": "xUyYOXUo1qnkbb3K95PRmN5JT2XYO2Jrrvvyab8Kmug=",
+    "originContent": "**Create a list for unrated movies:**  ",
+    "translatedContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -l`  "
+  },
+  {
+    "row": 109,
+    "rowsha": "z46WL9qb8lRLeGcodrWKnt8eXqVApmLbdw6YkfX0mg8=",
+    "originContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -l`  ",
+    "translatedContent": "*为你已观看但未评分的电影创建名为“Watched on Letterboxd - Unrated”的 IMDb 列表。*  "
+  },
+  {
+    "row": 110,
+    "rowsha": "zjcf4/yMOGp+Nsm/qHyTNk7UvJC5uvq5y0dlC/oO0MU=",
+    "originContent": "*Creates an IMDb list called \"Watched on Letterboxd - Unrated\" for movies you've watched but haven't rated.*  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 111,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "**为未评分电影创建自定义名称列表：**  "
+  },
+  {
+    "row": 112,
+    "rowsha": "KSX3DfasIalTKmcu2TkIDOgRagfYunDMyTwKLLZYPqw=",
+    "originContent": "**Create a custom-named list for unrated movies:**  ",
+    "translatedContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -l --list-name \"My Letterboxd Backlog\"`  "
+  },
+  {
+    "row": 113,
+    "rowsha": "sqPk+aAqhNvo5qxwyMh6+vHX81Zc2BqelHMB8A4hsqQ=",
+    "originContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -l --list-name \"My Letterboxd Backlog\"`  ",
+    "translatedContent": "*为你的未评分已观看电影创建带自定义名称的 IMDb 列表。*  "
+  },
+  {
+    "row": 114,
+    "rowsha": "ABaYw/SkBAFeRq11sE2QKgq7/l92sWhenVIk+DOM57w=",
+    "originContent": "*Creates an IMDb list with a custom name for your unrated watched movies.*  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 115,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "**更高并行度的快速处理：**  "
+  },
+  {
+    "row": 116,
+    "rowsha": "R5DDwxbE74YxPKEPGfIp/R87ZAUJm/fIkX/i6WjX/pk=",
+    "originContent": "**Fast processing with higher parallelization:**  ",
+    "translatedContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -p 15`  "
+  },
+  {
+    "row": 117,
+    "rowsha": "Hz9u3CQrM7mUd2Gm11vKrn35F6AEyqMVi0CU4lDLLb0=",
+    "originContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -p 15`  ",
+    "translatedContent": "*并行处理 15 部电影以加快执行速度（注意速率限制）。*  "
+  },
+  {
+    "row": 118,
+    "rowsha": "R2+leeiOWlUofZlUl+4ZikbKjwldq4ngpmrD/0459iE=",
+    "originContent": "*Processes 15 movies in parallel for faster execution (be careful with rate limiting).*  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 119,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "**自定义设置的完整传输：**  "
+  },
+  {
+    "row": 120,
+    "rowsha": "Np7F9wqy8kTDnBVnaqvQHws0fqOhi6Cv/vgwXpn/elM=",
+    "originContent": "**Complete transfer with custom settings:**  ",
+    "translatedContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -p 10 -r 5 -w`  "
+  },
+  {
+    "row": 121,
+    "rowsha": "ueAtr2pPltZlLFSBuW99Z51tESLi9gwI9fdadRArMcc=",
+    "originContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -p 10 -r 5 -w`  ",
+    "translatedContent": "*快速处理（10 并行），导入评分和观看列表，给未评分电影赋 5/10 评分。*  "
+  },
+  {
+    "row": 122,
+    "rowsha": "enytxJ8Jc1Fwy+Q9ODV14lS0CxorrMy4x1PeKbC23io=",
+    "originContent": "*Fast processing (10 parallel), imports ratings and watchlist, gives 5/10 rating to unrated movies.*  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "Ipn178z6mSJpifCEHAL2ea5Nfk2O4k0SNjMUjlHIDDs=",
+    "originContent": "**Create a custom list with watchlist and fast processing:**  ",
+    "translatedContent": "**创建带有观影列表和快速处理的自定义列表：**  "
+  },
+  {
+    "row": 125,
+    "rowsha": "ilMxYX/l1yVvQoR2uvYay55Q/t1XHoAqvF2z8gU1pa8=",
+    "originContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -p 10 -l --list-name \"My Letterboxd Movies\" -w`  ",
+    "translatedContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -p 10 -l --list-name \"我的 Letterboxd 电影\" -w`  "
+  },
+  {
+    "row": 126,
+    "rowsha": "vgOnr8wqyvXx7ZqdtvTEqbiIu4Y/ADtnHyecTE99FTI=",
+    "originContent": "*Processes quickly, imports watchlist, and creates a custom-named list for unrated movies.*  ",
+    "translatedContent": "*处理速度快，导入观影列表，并为未评分电影创建自定义命名列表。*  "
+  },
+  {
+    "row": 127,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 128,
+    "rowsha": "F9vZ22OIhqMncCwXZtfv2RQ/qAchBOq2Mi3fxNb13QI=",
+    "originContent": "**Disable history (troubleshooting):**  ",
+    "translatedContent": "**禁用历史记录（故障排除）：**  "
+  },
+  {
+    "row": 129,
+    "rowsha": "gZV8lDu87hrt4cTAmOHYq57014skqq2Rwgvha7sLG2Y=",
+    "originContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -c`  ",
+    "translatedContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -c`  "
+  },
+  {
+    "row": 130,
+    "rowsha": "drZOHAxbx1AEiiyhjbKRUwVYAA5rGi4ceJEdjiNk6XE=",
+    "originContent": "*Runs without using the history feature, useful if you're experiencing issues with the history file.*  ",
+    "translatedContent": "*运行时不使用历史记录功能，如果您在使用历史文件时遇到问题，此选项非常有用。*  "
+  },
+  {
+    "row": 131,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 132,
+    "rowsha": "8Htl4qJiqfy/toPV5ip5lNilhfRki/pfVTaywcFevkI=",
+    "originContent": "**Conservative approach (slow but safe):**  ",
+    "translatedContent": "**保守方法（慢但安全）：**  "
+  },
+  {
+    "row": 133,
+    "rowsha": "3P2GLSDc+L6daTdYIqSjT4lDrPdwyCysMjcBYECoyok=",
+    "originContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -p 1 -w`  ",
+    "translatedContent": "`py letterboxd2imdb.py -f .\\letterboxd-user-2022-02-20-16-16-utc.zip -p 1 -w`  "
+  },
+  {
+    "row": 134,
+    "rowsha": "wc8JeC0tSUILXMxhYGiS8CWS2KYjkBzhjKDuCIlC2hw=",
+    "originContent": "*Processes one movie at a time to avoid any rate limiting issues while importing both ratings and watchlist.*",
+    "translatedContent": "*一次处理一部电影，避免在导入评分和观影列表时出现速率限制问题。*"
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

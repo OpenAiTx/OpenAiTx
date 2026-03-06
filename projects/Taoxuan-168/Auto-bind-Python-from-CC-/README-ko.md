@@ -1,24 +1,56 @@
-CC++에서 Python 자동 바인딩
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Taoxuan-168&project=Auto-bind-Python-from-CC-&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+Auto bind Python from CC++
 ===================
 
 > C/C++ 코드에서 Python 코드로 자동 바인딩하고 whl 패키지를 생성하기 위한 충분히 간단하고 사용하기 쉬우며 구성 가능한 프로젝트
 
-> 본 프로젝트는 다음에서 클론되었습니다:
+> 본 프로젝트는 다음에서 포크되었습니다:
 https://github.com/Neutree/c_cpp_project_framework
-그리고 컴파일 코드 부분은 원 저장소와 일치합니다
+그리고 컴파일 코드 부분은 원래 저장소와 동일하게 유지됩니다.
 
-> pybind11 자동 바인딩 부분 참고 코드:
+
+> pybind11 자동 바인딩 참고 코드:
 https://github.com/sipeed/MaixPy/tree/main/components/maix
 
 
 ## 빠른 시작
 
-* 1. 본 저장소를 클론하고 /examples/demo 디렉토리로 이동
-python project.py menuconfig를 사용하여 그래픽 인터페이스에서 컴파일 툴체인 구성 및 whl 파일 패키징 설정
+* 1. 이 저장소를 클론하고, /examples/demo 디렉토리로 이동합니다.
+python project.py menuconfig를 사용하여 그래픽 인터페이스에서 빌드 툴체인과 whl 파일 패키징 여부를 설정합니다.
 ![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image.png)
-> 여기서 x86은 로컬 컴파일, arm64는 MaixCam2 컴파일, RISCV64는 MaiCam/Pro 컴파일에 해당
+> x86은 로컬 컴파일, arm64는 MaixCam2 컴파일, RISCV64는 MaiCam/Pro 컴파일에 해당합니다.
 ![alt text](https://raw.githubusercontent.com/Taoxuan-168/Auto-bind-Python-from-CC-/main/./assets/image-1.png)
-* 2. C/C++ 함수와 hpp 헤더 파일을 작성하며, 파일명은 whl 패키지명과 동일하게 하여 자동 인식 편리:
+* 2. C/C++ 함수를 작성하고 hpp 헤더 파일을 만듭니다. whl 패키지 파일명을 사용하여 자동 인식이 용이하게 해야 합니다.
 ```C++
 namespace add::test
 {
@@ -56,6 +88,6 @@ add.test.add(1,1)
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-06
 
 ---
