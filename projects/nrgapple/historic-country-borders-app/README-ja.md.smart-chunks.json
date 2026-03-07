@@ -1,0 +1,1544 @@
+[
+  {
+    "Id": 1,
+    "Content": "# [Historic Borders](https://historicborders.app/)\n\nVisualize country borders from different times in history (2000 BC-1994)\n\nAs seen on [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/l52krh/an_app_i_made_for_visualizing_country_borders/).\n\n## Screenshot\n\n<img width=\"1023\" alt=\"screen-shot-of-app\" src=\"https://user-images.githubusercontent.com/10817537/175097196-e746778d-241a-4bee-b406-aac294849597.png\">\n\n## Features\n\n### Information Sources\n\nThe app provides country information through two sources:\n\n1. **Wikipedia** (default) - Fetches real-time information from Wikipedia\n2. **AI-powered** - Uses Google Gemini AI to generate country information with historical context\n\nYou can switch between these sources using the toggle button in the footer.\n\n### AI Response Caching\n\nThe app uses **Redis** to cache AI responses for improved performance:\n\n- ⚡ **Instant responses** for previously requested countries/years\n- 💰 **Reduced API costs** - Fewer calls to Google Gemini\n- 🔧 **Smart expiration** - 1-hour cache TTL keeps content fresh\n- 📊 **Analytics tracking** - Cache hit/miss rates in Google Analytics\n\nSee [REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md) for detailed setup instructions.\n\n### AI Feature Analytics\n\nThe app includes comprehensive Google Analytics tracking for the AI feature to understand user engagement and performance:\n\n#### Tracked Events\n\n**Provider Usage:**\n- `toggle_provider` - When users switch between Wikipedia and AI",
+    "ContentSha": "IRU3g1AMyqSDIcMLwP/Ur9HI2FvWF1oqcj6P5JUcXkc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# [Historic Borders](https://historicborders.app/)\n\n異なる歴史時代（紀元前2000年～1994年）の国境を視覚化\n\n[r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/l52krh/an_app_i_made_for_visualizing_country_borders/)で紹介されました。\n\n## スクリーンショット\n\n<img width=\"1023\" alt=\"screen-shot-of-app\" src=\"https://user-images.githubusercontent.com/10817537/175097196-e746778d-241a-4bee-b406-aac294849597.png\">\n\n## 機能\n\n### 情報ソース\n\nアプリは2つの情報ソースから国情報を提供します：\n\n1. **Wikipedia**（デフォルト） - Wikipediaからリアルタイム情報を取得\n2. **AI搭載** - Google Gemini AIを使い、歴史的文脈を含む国情報を生成\n\nフッターのトグルボタンでこれらのソースを切り替え可能です。\n\n### AIレスポンスのキャッシュ\n\nアプリは**Redis**を使ってAIレスポンスをキャッシュし、パフォーマンスを向上させています：\n\n- ⚡ 以前にリクエストされた国や年に対して**即時応答**\n- 💰 **APIコスト削減** - Google Geminiへの呼び出し回数を削減\n- 🔧 **スマートな有効期限** - 1時間のキャッシュTTLで内容を新鮮に保つ\n- 📊 **分析追跡** - Google Analyticsでキャッシュヒット/ミス率を追跡\n\n詳細なセットアップ手順は[REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md)を参照してください。\n\n### AI機能の分析\n\nアプリはAI機能のユーザーエンゲージメントとパフォーマンスを把握するため、Google Analyticsによる包括的な追跡を行っています：\n\n#### 追跡イベント\n\n**プロバイダー利用状況：**\n- `toggle_provider` - ユーザーがWikipediaとAIを切り替えたとき",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fV8zWayuSx97Bkyo7GwUB6sYX7ObtHEJMjUw3yHtGGM=",
+        "originContent": "# [Historic Borders](https://historicborders.app/)",
+        "translatedContent": "# [Historic Borders](https://historicborders.app/)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "HZIu9ufxMOtrcB73kCChLMJxoUr2xP7xhML7+sOggM0=",
+        "originContent": "Visualize country borders from different times in history (2000 BC-1994)",
+        "translatedContent": "異なる歴史時代（紀元前2000年～1994年）の国境を視覚化"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "j0xUocfjAaWp0dX0l1xAZijPuBQNWDxSpc2SzLACjXU=",
+        "originContent": "As seen on [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/l52krh/an_app_i_made_for_visualizing_country_borders/).",
+        "translatedContent": "[r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/l52krh/an_app_i_made_for_visualizing_country_borders/)で紹介されました。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "//9AuIIaXy9mvaAGc/r6mkESt/laTi9ivwat9mNHcs0=",
+        "originContent": "## Screenshot",
+        "translatedContent": "## スクリーンショット"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "wSR8I+bXUXLTCjIEpA2OCxGECMPRDYWykIqhGA7M2l0=",
+        "originContent": "<img width=\"1023\" alt=\"screen-shot-of-app\" src=\"https://user-images.githubusercontent.com/10817537/175097196-e746778d-241a-4bee-b406-aac294849597.png\">",
+        "translatedContent": "<img width=\"1023\" alt=\"screen-shot-of-app\" src=\"https://user-images.githubusercontent.com/10817537/175097196-e746778d-241a-4bee-b406-aac294849597.png\">"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 機能"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "VlPx4rgWfrRsmEvDeQ2rPCuFJsVbS3AkR4rainXscPM=",
+        "originContent": "### Information Sources",
+        "translatedContent": "### 情報ソース"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "CKv77ZWkErxZfu8pa+vR4JOTayRdEu939xaPdKIfn3I=",
+        "originContent": "The app provides country information through two sources:",
+        "translatedContent": "アプリは2つの情報ソースから国情報を提供します："
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "BP1b5oZ70+DC523YhJZeQVoeArPbu9SRrtoeqfmwvMI=",
+        "originContent": "1. **Wikipedia** (default) - Fetches real-time information from Wikipedia",
+        "translatedContent": "1. **Wikipedia**（デフォルト） - Wikipediaからリアルタイム情報を取得"
+      },
+      {
+        "row": 18,
+        "rowsha": "MarqBYLF2dubr7f7E+HHa6uVOgjvLnUFaNWrO3Y39Z8=",
+        "originContent": "2. **AI-powered** - Uses Google Gemini AI to generate country information with historical context",
+        "translatedContent": "2. **AI搭載** - Google Gemini AIを使い、歴史的文脈を含む国情報を生成"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "M0T0zm4LX+FqSjLKIHnBfvT+5Pry0ehuVS6Be6CJMxQ=",
+        "originContent": "You can switch between these sources using the toggle button in the footer.",
+        "translatedContent": "フッターのトグルボタンでこれらのソースを切り替え可能です。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "RmvlWD9AoMy9kvgBW3JqTRMga5rW4df8eTboFFbk8mo=",
+        "originContent": "### AI Response Caching",
+        "translatedContent": "### AIレスポンスのキャッシュ"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "HYr3Z8H6ZicsEPqBzObmbBuKqMd+q8Bkyt96j0EGFO8=",
+        "originContent": "The app uses **Redis** to cache AI responses for improved performance:",
+        "translatedContent": "アプリは**Redis**を使ってAIレスポンスをキャッシュし、パフォーマンスを向上させています："
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "lswHSZIFZ+y2OxOUPsrolM/TU7yP2KAP/0fafjPzT04=",
+        "originContent": "- ⚡ **Instant responses** for previously requested countries/years",
+        "translatedContent": "- ⚡ 以前にリクエストされた国や年に対して**即時応答**"
+      },
+      {
+        "row": 27,
+        "rowsha": "ljtlf/dYI2TndB698LfOPBxz5yBoOkGHudWQKfQhFpI=",
+        "originContent": "- 💰 **Reduced API costs** - Fewer calls to Google Gemini",
+        "translatedContent": "- 💰 **APIコスト削減** - Google Geminiへの呼び出し回数を削減"
+      },
+      {
+        "row": 28,
+        "rowsha": "VuJ6U+tu3xcL2ujNJ10a5YHGOMSOiWCH2+Zq3LJ7pLY=",
+        "originContent": "- 🔧 **Smart expiration** - 1-hour cache TTL keeps content fresh",
+        "translatedContent": "- 🔧 **スマートな有効期限** - 1時間のキャッシュTTLで内容を新鮮に保つ"
+      },
+      {
+        "row": 29,
+        "rowsha": "aJfztSKIRF1k8Pz8YYtoE29kRa87Abb6CBVTtVOQ7oE=",
+        "originContent": "- 📊 **Analytics tracking** - Cache hit/miss rates in Google Analytics",
+        "translatedContent": "- 📊 **分析追跡** - Google Analyticsでキャッシュヒット/ミス率を追跡"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "v27Rnd5EAVTY3RtVr/gS3gsiSgGMHMH128/lFNCBnLo=",
+        "originContent": "See [REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md) for detailed setup instructions.",
+        "translatedContent": "詳細なセットアップ手順は[REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md)を参照してください。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "++h2PfNzTL8iohonmiHz+SeMSMNCecJixKdCXiiIgUc=",
+        "originContent": "### AI Feature Analytics",
+        "translatedContent": "### AI機能の分析"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "qy4YHgzinYU8XsjZbodu+6hrAtTcsLu/mSGdwhnQcTQ=",
+        "originContent": "The app includes comprehensive Google Analytics tracking for the AI feature to understand user engagement and performance:",
+        "translatedContent": "アプリはAI機能のユーザーエンゲージメントとパフォーマンスを把握するため、Google Analyticsによる包括的な追跡を行っています："
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "3eibHmiN++ltwP/nK/gnM4njaTqKb5iLHREBK91UEIQ=",
+        "originContent": "#### Tracked Events",
+        "translatedContent": "#### 追跡イベント"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "L9bughbKRwA0F32Q03TQU78+dMdbdH7E8tchsUqTeyQ=",
+        "originContent": "**Provider Usage:**",
+        "translatedContent": "**プロバイダー利用状況：**"
+      },
+      {
+        "row": 40,
+        "rowsha": "Vq9/h9Ixn3spPqghDB3vuBQk35n7fpsbqslq76Kg2dc=",
+        "originContent": "- `toggle_provider` - When users switch between Wikipedia and AI",
+        "translatedContent": "- `toggle_provider` - ユーザーがWikipediaとAIを切り替えたとき"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- `enable_ai` / `disable_ai` - AI feature activation/deactivation\n- `provider_restored` - When preference is loaded from localStorage\n- `session_provider_active` - Active provider per session\n\n**AI Requests:**\n- `request_initiated` - AI request started\n- `response_success` - Successful AI response\n- `response_time_success` - Response time for successful requests\n- `response_length` - Character count of AI responses\n- `response_word_count` - Word count of AI responses\n- `request_failed` - Failed AI requests\n- `api_error` - API-specific errors with status codes\n- `api_key_missing` - Missing API key events\n\n**Cache Performance:**\n- `cache_hit` - Response served from Redis cache (faster)\n- `cache_miss` - No cached response, API call made\n- `cache_error` - Redis unavailable (fallback to API)\n- `cache_write_success` - Response successfully cached\n- `cache_write_error` - Failed to cache response\n\n**Content Display:**\n- `popup_displayed` - When popups show AI vs Wikipedia content\n- `content_displayed` - Successful content display\n- `content_error_displayed` - Error content shown to users\n- `content_empty_displayed` - Empty/no content scenarios\n- `popup_closed` - User closes information popups\n\n**Performance Metrics:**\n- Response times (success/failure)\n- Content quality metrics (word count, character count)\n- Error rates and types\n- User engagement patterns\n\n#### Analytics Categories\n\nAll AI-related events use the category `\"AI Feature\"` for easy filtering in Google Analytics.\n\n#### Data Privacy\n",
+    "ContentSha": "qnGSw30ir6NsOao3U4d3Jl73iVD8Tin4kV2mtbjk1g0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- `enable_ai` / `disable_ai` - AI機能の有効化／無効化\n- `provider_restored` - localStorageから設定が読み込まれたとき\n- `session_provider_active` - セッションごとのアクティブプロバイダー\n\n**AIリクエスト:**\n- `request_initiated` - AIリクエスト開始\n- `response_success` - AIリクエスト成功\n- `response_time_success` - 成功したリクエストの応答時間\n- `response_length` - AI応答の文字数\n- `response_word_count` - AI応答の単語数\n- `request_failed` - AIリクエスト失敗\n- `api_error` - ステータスコード付きのAPI固有エラー\n- `api_key_missing` - APIキーがないイベント\n\n**キャッシュパフォーマンス:**\n- `cache_hit` - Redisキャッシュからの応答（高速）\n- `cache_miss` - キャッシュなし、API呼び出し実行\n- `cache_error` - Redis利用不可（APIにフォールバック）\n- `cache_write_success` - 応答のキャッシュ成功\n- `cache_write_error` - 応答のキャッシュ失敗\n\n**コンテンツ表示:**\n- `popup_displayed` - AIとWikipediaコンテンツのポップアップ表示時\n- `content_displayed` - コンテンツ表示成功\n- `content_error_displayed` - ユーザーにエラーコンテンツ表示\n- `content_empty_displayed` - 空またはコンテンツなしのシナリオ\n- `popup_closed` - ユーザーが情報ポップアップを閉じた時\n\n**パフォーマンス指標:**\n- 応答時間（成功／失敗）\n- コンテンツ品質指標（単語数、文字数）\n- エラー率と種類\n- ユーザーエンゲージメントパターン\n\n#### 分析カテゴリ\n\nすべてのAI関連イベントは、Googleアナリティクスで簡単にフィルタリングできるようにカテゴリ `\"AI Feature\"` を使用します。\n\n#### データプライバシー\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "MR/JlSNAy0MJpGdxprQJ5WHfTuzuyYRvH7ZA5d/2iCA=",
+        "originContent": "- `enable_ai` / `disable_ai` - AI feature activation/deactivation",
+        "translatedContent": "- `enable_ai` / `disable_ai` - AI機能の有効化／無効化"
+      },
+      {
+        "row": 2,
+        "rowsha": "QtuSV8ZXdUXc+/vaLucjMMeIqJxd2gjJ2DKR/7Egduk=",
+        "originContent": "- `provider_restored` - When preference is loaded from localStorage",
+        "translatedContent": "- `provider_restored` - localStorageから設定が読み込まれたとき"
+      },
+      {
+        "row": 3,
+        "rowsha": "WUuw4wbbCLTqzLUDG03ZKg4EjWqmQeWKfpBHL2ZhYvw=",
+        "originContent": "- `session_provider_active` - Active provider per session",
+        "translatedContent": "- `session_provider_active` - セッションごとのアクティブプロバイダー"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "iUfQJJxEvLKXfz3uUug4jxiDZXN9aPimi6qsnV2qnIc=",
+        "originContent": "**AI Requests:**",
+        "translatedContent": "**AIリクエスト:**"
+      },
+      {
+        "row": 6,
+        "rowsha": "OoA4ZkX70gJ/AIW77Fm6plpLnYgprSEeOlhgbNQPm/g=",
+        "originContent": "- `request_initiated` - AI request started",
+        "translatedContent": "- `request_initiated` - AIリクエスト開始"
+      },
+      {
+        "row": 7,
+        "rowsha": "lkemX/siHlVqc/8IMYk1P729mMVOlq5xjJSF4Unhwi0=",
+        "originContent": "- `response_success` - Successful AI response",
+        "translatedContent": "- `response_success` - AIリクエスト成功"
+      },
+      {
+        "row": 8,
+        "rowsha": "MqbpS+Z32Wb6yxzb1glVYd/Epf8+DIqYnTttQmlnvps=",
+        "originContent": "- `response_time_success` - Response time for successful requests",
+        "translatedContent": "- `response_time_success` - 成功したリクエストの応答時間"
+      },
+      {
+        "row": 9,
+        "rowsha": "u6KLCX/XOVjitYNcDr42PIsPMAakEcbsc0vJJKX/iI4=",
+        "originContent": "- `response_length` - Character count of AI responses",
+        "translatedContent": "- `response_length` - AI応答の文字数"
+      },
+      {
+        "row": 10,
+        "rowsha": "Yw1P3DRqaDc5g6wMRYoCWNtn4gRfiSpvcBaFmuD5BWo=",
+        "originContent": "- `response_word_count` - Word count of AI responses",
+        "translatedContent": "- `response_word_count` - AI応答の単語数"
+      },
+      {
+        "row": 11,
+        "rowsha": "k6ZkxPGxI3jMToc9+xCxzOF820liAq71BQPj8v8LxEw=",
+        "originContent": "- `request_failed` - Failed AI requests",
+        "translatedContent": "- `request_failed` - AIリクエスト失敗"
+      },
+      {
+        "row": 12,
+        "rowsha": "20UXDmFmOA0XBK2knWIoyMocuWepVW/FmWpR1W06Vyk=",
+        "originContent": "- `api_error` - API-specific errors with status codes",
+        "translatedContent": "- `api_error` - ステータスコード付きのAPI固有エラー"
+      },
+      {
+        "row": 13,
+        "rowsha": "jcw+jQW92BiPcxb5PdhjAvFWCbhb1I2QLvTg0/yiFw8=",
+        "originContent": "- `api_key_missing` - Missing API key events",
+        "translatedContent": "- `api_key_missing` - APIキーがないイベント"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "7lRkOC3iMpeyvzYLRat0KI058Ec2Ui/EHraU4eL1aKQ=",
+        "originContent": "**Cache Performance:**",
+        "translatedContent": "**キャッシュパフォーマンス:**"
+      },
+      {
+        "row": 16,
+        "rowsha": "PGYuMmxFSzC0p/W0+qlRefpY9aeIjv+GQXKVL/og0LY=",
+        "originContent": "- `cache_hit` - Response served from Redis cache (faster)",
+        "translatedContent": "- `cache_hit` - Redisキャッシュからの応答（高速）"
+      },
+      {
+        "row": 17,
+        "rowsha": "++egOJNVz1SLH5LLctvuGu+rErz04ybHsQBQ75nRNZw=",
+        "originContent": "- `cache_miss` - No cached response, API call made",
+        "translatedContent": "- `cache_miss` - キャッシュなし、API呼び出し実行"
+      },
+      {
+        "row": 18,
+        "rowsha": "iLRLeYi56FRa/sW+TOlZiVjvQ5U1SL+Evcw0BBfEnAg=",
+        "originContent": "- `cache_error` - Redis unavailable (fallback to API)",
+        "translatedContent": "- `cache_error` - Redis利用不可（APIにフォールバック）"
+      },
+      {
+        "row": 19,
+        "rowsha": "bGbsluO/+hy8FlkvXODsdgWE8/o9cZfMwT3UXFV5f20=",
+        "originContent": "- `cache_write_success` - Response successfully cached",
+        "translatedContent": "- `cache_write_success` - 応答のキャッシュ成功"
+      },
+      {
+        "row": 20,
+        "rowsha": "IORT2BRFp4hRK2ehPurHEoKAMJ1r+hGceyO+cKaQSMo=",
+        "originContent": "- `cache_write_error` - Failed to cache response",
+        "translatedContent": "- `cache_write_error` - 応答のキャッシュ失敗"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "gkfBGXf1twphWAQQyoVv63MoJRIE316st9pRPTFoLv4=",
+        "originContent": "**Content Display:**",
+        "translatedContent": "**コンテンツ表示:**"
+      },
+      {
+        "row": 23,
+        "rowsha": "wn9bZG/rZ1vmhriBRX1co1b0h+u+DG5aXOIV3n3v2/w=",
+        "originContent": "- `popup_displayed` - When popups show AI vs Wikipedia content",
+        "translatedContent": "- `popup_displayed` - AIとWikipediaコンテンツのポップアップ表示時"
+      },
+      {
+        "row": 24,
+        "rowsha": "a+FIeBBsG+qYvWdOTshe7YZlXu37K9pDxJ8Uc0WRcWI=",
+        "originContent": "- `content_displayed` - Successful content display",
+        "translatedContent": "- `content_displayed` - コンテンツ表示成功"
+      },
+      {
+        "row": 25,
+        "rowsha": "v5YWScpxv3hSvKwPovBJi4U0JF3SvdGoNXQda5HHdB4=",
+        "originContent": "- `content_error_displayed` - Error content shown to users",
+        "translatedContent": "- `content_error_displayed` - ユーザーにエラーコンテンツ表示"
+      },
+      {
+        "row": 26,
+        "rowsha": "z48YThDlkg1oGRomCpL+wysHGM76Y5ozzHF91H6L1ak=",
+        "originContent": "- `content_empty_displayed` - Empty/no content scenarios",
+        "translatedContent": "- `content_empty_displayed` - 空またはコンテンツなしのシナリオ"
+      },
+      {
+        "row": 27,
+        "rowsha": "scJRrEPQuKy1kemlAYK3NBHSCROZ0r11Nz9EQSiDDBU=",
+        "originContent": "- `popup_closed` - User closes information popups",
+        "translatedContent": "- `popup_closed` - ユーザーが情報ポップアップを閉じた時"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "ZZQh4khjNI1CoCweO21zS1w8hTmrZyQT8IS9VJO7Xa0=",
+        "originContent": "**Performance Metrics:**",
+        "translatedContent": "**パフォーマンス指標:**"
+      },
+      {
+        "row": 30,
+        "rowsha": "GrJCQWQXccJSrlDVV7bQgScStfXiU6RyQ4Xijuedl7Q=",
+        "originContent": "- Response times (success/failure)",
+        "translatedContent": "- 応答時間（成功／失敗）"
+      },
+      {
+        "row": 31,
+        "rowsha": "0pNNg2bD3AVZsvDgHHOVdfRaUxdcEo/Ug0bI2weT2H4=",
+        "originContent": "- Content quality metrics (word count, character count)",
+        "translatedContent": "- コンテンツ品質指標（単語数、文字数）"
+      },
+      {
+        "row": 32,
+        "rowsha": "bhT7CczZJAz4PTA1KI7BRVV7WTBtMksbmaCgnycNTGo=",
+        "originContent": "- Error rates and types",
+        "translatedContent": "- エラー率と種類"
+      },
+      {
+        "row": 33,
+        "rowsha": "EMLJ/OiX/8v6IaeWoq7mNmm5DmxlRiw+vAxTNkPog0U=",
+        "originContent": "- User engagement patterns",
+        "translatedContent": "- ユーザーエンゲージメントパターン"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "yA+eSdDXa28v5GRlgq+fpGElP3gukYi/m7gdLXnWOyk=",
+        "originContent": "#### Analytics Categories",
+        "translatedContent": "#### 分析カテゴリ"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "NOs2e+TGF0bwu4INcAGtxRcTEqEsWUjDO1jZ1gzzkiA=",
+        "originContent": "All AI-related events use the category `\"AI Feature\"` for easy filtering in Google Analytics.",
+        "translatedContent": "すべてのAI関連イベントは、Googleアナリティクスで簡単にフィルタリングできるようにカテゴリ `\"AI Feature\"` を使用します。"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "SJtjXybLvgIXEBYbBi+Kd2vwFvcmucW/tWUrIbkoeac=",
+        "originContent": "#### Data Privacy",
+        "translatedContent": "#### データプライバシー"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "Analytics tracking is anonymized and focuses on feature usage patterns rather than personal information. No API keys or sensitive data are tracked.\n\n## Setup\n\n### Prerequisites\n\n- Node.js 18+ and yarn\n- Google Gemini API key (free tier available)\n- Google Analytics 4 property (optional, for analytics)\n\n### Installation\n",
+    "ContentSha": "6Qr8lZYbR32LhCmkTe9qXKJV1CVnFir93c1GBja2hrU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "アナリティクストラッキングは匿名化されており、個人情報ではなく機能の使用パターンに焦点を当てています。APIキーや機密データは追跡されません。\n\n## セットアップ\n\n### 前提条件\n\n- Node.js 18+ と yarn\n- Google Gemini APIキー（無料プランあり）\n- Google Analytics 4 プロパティ（任意、分析用）\n\n### インストール\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0aTpd9MPgpBD/oPhs/OIYOGoLAaFVu8qZ5hH3aLz/sc=",
+        "originContent": "Analytics tracking is anonymized and focuses on feature usage patterns rather than personal information. No API keys or sensitive data are tracked.",
+        "translatedContent": "アナリティクストラッキングは匿名化されており、個人情報ではなく機能の使用パターンに焦点を当てています。APIキーや機密データは追跡されません。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+        "originContent": "## Setup",
+        "translatedContent": "## セットアップ"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### 前提条件"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "mZ3IwO27ZGUhISyOGImzCTR8xhqKuNJoB5fALNqKRxs=",
+        "originContent": "- Node.js 18+ and yarn",
+        "translatedContent": "- Node.js 18+ と yarn"
+      },
+      {
+        "row": 8,
+        "rowsha": "W/hoU08lqpAHok5EkhV8Q3Deo9V2mmnp2v9Fa+XR7ig=",
+        "originContent": "- Google Gemini API key (free tier available)",
+        "translatedContent": "- Google Gemini APIキー（無料プランあり）"
+      },
+      {
+        "row": 9,
+        "rowsha": "firGZNurZc1DpKiYT72tavcKIz/7L/EvKPeVNz/hJ58=",
+        "originContent": "- Google Analytics 4 property (optional, for analytics)",
+        "translatedContent": "- Google Analytics 4 プロパティ（任意、分析用）"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### インストール"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ngit clone https://github.com/nrgapple/historic-country-borders-app.git\ncd historic-country-borders-app\nyarn install\n```",
+    "ContentSha": "jPdKDjX5ZS9AxSTgPBH5Ta0BaQJaUT9P5z7Ye6NLDRs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/nrgapple/historic-country-borders-app.git\ncd historic-country-borders-app\nyarn install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "9P9xdWE2R07eOO4gnvAt6j/wKBkcMSunLYnIE8oJA2c=",
+        "originContent": "git clone https://github.com/nrgapple/historic-country-borders-app.git",
+        "translatedContent": "git clone https://github.com/nrgapple/historic-country-borders-app.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "8qedKu2uFuHS30qIbJjPF1T/0ubtz+y1BtDL3cDQ6Io=",
+        "originContent": "cd historic-country-borders-app",
+        "translatedContent": "cd historic-country-borders-app"
+      },
+      {
+        "row": 4,
+        "rowsha": "UWnszpf2bQa9Un4es5vKU4mcLg+R5FPsdH2U31RWLJg=",
+        "originContent": "yarn install",
+        "translatedContent": "yarn install"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Environment Variables\n\nCreate a `.env.local` file:\n",
+    "ContentSha": "j3kw6W4HlH1BZauh3IET1YPGTUCn3Ot//9+0pKjB5Og=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 環境変数\n\n`.env.local` ファイルを作成します:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "z0e1mPGeKrXDpgwT5hpUsqWlMTlzlzBoJvcLaIVPlLI=",
+        "originContent": "### Environment Variables",
+        "translatedContent": "### 環境変数"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "g1KGwcKo5tvkxkAKgF8m5BQ7Dxk5A1hiHAIzTStb1xU=",
+        "originContent": "Create a `.env.local` file:",
+        "translatedContent": "`.env.local` ファイルを作成します:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# Optional for analytics\nNEXT_PUBLIC_GA_FOUR=your_google_analytics_id\n\n# Optional for map features\nNEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_token\n\n# Redis for AI response caching (required for caching)\nREDIS_URL=your_redis_connection_string\n\n# Required for AI features (server-side only)\nGEMINI_API_KEY=your_gemini_api_key_here\n```",
+    "ContentSha": "n7kRMOMlNHnF4nf9CLD2OokNrxW/qYrzUGrtrWUoXho=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Optional for analytics\nNEXT_PUBLIC_GA_FOUR=your_google_analytics_id\n\n# Optional for map features\nNEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_token\n\n# Redis for AI response caching (required for caching)\nREDIS_URL=your_redis_connection_string\n\n# Required for AI features (server-side only)\nGEMINI_API_KEY=your_gemini_api_key_here\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "w6DZ74d2diYVi2E08GvZ58B9pykbfP1qNB+YLZygdJM=",
+        "originContent": "# Optional for analytics",
+        "translatedContent": "# Optional for analytics"
+      },
+      {
+        "row": 3,
+        "rowsha": "iv+UltDRLUTs/XYUSMWXhjdH4CwBKb3mHLZIi9Gnc7w=",
+        "originContent": "NEXT_PUBLIC_GA_FOUR=your_google_analytics_id",
+        "translatedContent": "NEXT_PUBLIC_GA_FOUR=your_google_analytics_id"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "GSjxtDoMR1RwhBzirqqieZ3dUBoi4sVQe9yPHgvHcfo=",
+        "originContent": "# Optional for map features",
+        "translatedContent": "# Optional for map features"
+      },
+      {
+        "row": 6,
+        "rowsha": "fLq7MHo8DYdU7vLaqk5btEF7RQz/hjltUzJLurp0Qwc=",
+        "originContent": "NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_token",
+        "translatedContent": "NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_token"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "r4INSG+5kw773TahYjXcO3HoGROt4SznJy45cxt06vg=",
+        "originContent": "# Redis for AI response caching (required for caching)",
+        "translatedContent": "# Redis for AI response caching (required for caching)"
+      },
+      {
+        "row": 9,
+        "rowsha": "YticqOO72gCmyT47yXniWfwcicpTYSsp9GmHbprLJDg=",
+        "originContent": "REDIS_URL=your_redis_connection_string",
+        "translatedContent": "REDIS_URL=your_redis_connection_string"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "7jkWK+oDC1BsbnWQ07v8P28aOWrujFwP/JAHCbNlvA4=",
+        "originContent": "# Required for AI features (server-side only)",
+        "translatedContent": "# Required for AI features (server-side only)"
+      },
+      {
+        "row": 12,
+        "rowsha": "jN0G1F4ey36xv+lqdGnZsNwj/fIT1fe933690MUaG7A=",
+        "originContent": "GEMINI_API_KEY=your_gemini_api_key_here",
+        "translatedContent": "GEMINI_API_KEY=your_gemini_api_key_here"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Getting API Keys\n\n#### Google Gemini API (Free)\n\n1. Visit [Google AI Studio](https://ai.google.dev/gemini-api/docs/api-key)\n2. Sign in with your Google account\n3. Click **\"Create API Key\"**\n4. Copy the generated key to your `.env.local` file\n\n**Benefits:**\n- ✅ 60 requests per minute (generous free tier)\n- ✅ No credit card required\n- ✅ High-quality AI responses\n- ✅ Excellent historical knowledge\n\n#### Vercel Redis for Caching (Optional but Recommended)\n\n1. Set up Redis on Vercel or any Redis provider\n2. Add the `REDIS_URL` environment variable to your project\n3. See [REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md) for detailed instructions\n\n**Benefits:**\n- ⚡ Instant responses for cached content\n- 💰 Reduces API usage and costs\n- 🔧 Automatic 1-hour cache expiration\n- 📊 Cache performance analytics\n\n#### Google Analytics 4 (Optional)\n\n1. Visit [Google Analytics](https://analytics.google.com/)\n2. Create a new GA4 property\n3. Get your Measurement ID (format: G-XXXXXXXXXX)\n4. Add to your `.env.local` file\n\n### Development\n",
+    "ContentSha": "sN3V4cEi/WEm4jekyvL8SWwAQexqnyhw3eOdo6SbUo4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### APIキーの取得\n\n#### Google Gemini API（無料）\n\n1. [Google AI Studio](https://ai.google.dev/gemini-api/docs/api-key) にアクセス\n2. Googleアカウントでサインイン\n3. **「Create API Key」** をクリック\n4. 生成されたキーを `.env.local` ファイルにコピー\n\n**利点:**\n- ✅ 1分あたり60リクエスト（寛大な無料枠）\n- ✅ クレジットカード不要\n- ✅ 高品質なAI応答\n- ✅ 優れた歴史知識\n\n#### キャッシュ用Vercel Redis（任意だが推奨）\n\n1. Vercelまたは任意のRedisプロバイダーでRedisをセットアップ\n2. プロジェクトに `REDIS_URL` 環境変数を追加\n3. 詳細は [REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md) を参照\n\n**利点:**\n- ⚡ キャッシュされたコンテンツの即時応答\n- 💰 API使用量とコストの削減\n- 🔧 自動で1時間のキャッシュ期限\n- 📊 キャッシュパフォーマンス分析\n\n#### Google Analytics 4（任意）\n\n1. [Google Analytics](https://analytics.google.com/) にアクセス\n2. 新しいGA4プロパティを作成\n3. 計測IDを取得（形式：G-XXXXXXXXXX）\n4. `.env.local` ファイルに追加\n\n### 開発\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### APIキーの取得"
+      },
+      {
+        "row": 2,
+        "rowsha": "L5oSMML2s9f8xOEDhjgfJ4zF4Mr/tdvB+u6DA6ommTg=",
+        "originContent": "### Getting API Keys",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Google Gemini API（無料）"
+      },
+      {
+        "row": 4,
+        "rowsha": "CQN3bUqyEy+LoAksxFNvZkpPZ76VZc/SXA3RUiaZzXE=",
+        "originContent": "#### Google Gemini API (Free)",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. [Google AI Studio](https://ai.google.dev/gemini-api/docs/api-key) にアクセス"
+      },
+      {
+        "row": 6,
+        "rowsha": "m6c2JRjypPK3DXhKxYFzG+zObzmJ6dx1jii72jj60OU=",
+        "originContent": "1. Visit [Google AI Studio](https://ai.google.dev/gemini-api/docs/api-key)",
+        "translatedContent": "2. Googleアカウントでサインイン"
+      },
+      {
+        "row": 7,
+        "rowsha": "u8aj16vAB6esRU5XreddkUzJV6JGXGKFLJQt/Hf98Ao=",
+        "originContent": "2. Sign in with your Google account",
+        "translatedContent": "3. **「Create API Key」** をクリック"
+      },
+      {
+        "row": 8,
+        "rowsha": "yOFpvi+IwmUFVv9gAhYkMacFHaDauPUnjMKu1RmZPX4=",
+        "originContent": "3. Click **\"Create API Key\"**",
+        "translatedContent": "4. 生成されたキーを `.env.local` ファイルにコピー"
+      },
+      {
+        "row": 9,
+        "rowsha": "4TBR938plnBKeZawBREY5/C2cYrUTZcSAL5GHg65vOo=",
+        "originContent": "4. Copy the generated key to your `.env.local` file",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**利点:**"
+      },
+      {
+        "row": 11,
+        "rowsha": "+uVmnRlcdBYJmLGpG6v+Pyk0ziCHDf4F9/gPjynya8Q=",
+        "originContent": "**Benefits:**",
+        "translatedContent": "- ✅ 1分あたり60リクエスト（寛大な無料枠）"
+      },
+      {
+        "row": 12,
+        "rowsha": "LwmQfFdnzJMqa+V+QuTyA6oTwSw2PdZMhZN/JKm+3TA=",
+        "originContent": "- ✅ 60 requests per minute (generous free tier)",
+        "translatedContent": "- ✅ クレジットカード不要"
+      },
+      {
+        "row": 13,
+        "rowsha": "jLZfrttxHWGtqKF8IHOjCBfSFvv+TyWk+iaH4v4DuUo=",
+        "originContent": "- ✅ No credit card required",
+        "translatedContent": "- ✅ 高品質なAI応答"
+      },
+      {
+        "row": 14,
+        "rowsha": "bNarwQgx5+EFluV+wKigfd1AH9LyIf4ya6sBMKH5bhk=",
+        "originContent": "- ✅ High-quality AI responses",
+        "translatedContent": "- ✅ 優れた歴史知識"
+      },
+      {
+        "row": 15,
+        "rowsha": "GLAAUJNEv2/uBK60I9Cc9VFQT+6KUosYfl1OQshq+vw=",
+        "originContent": "- ✅ Excellent historical knowledge",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### キャッシュ用Vercel Redis（任意だが推奨）"
+      },
+      {
+        "row": 17,
+        "rowsha": "HWCXGEgvBNSgiY756vCzihV+wJrp8li3TSKir9Xj0dw=",
+        "originContent": "#### Vercel Redis for Caching (Optional but Recommended)",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Vercelまたは任意のRedisプロバイダーでRedisをセットアップ"
+      },
+      {
+        "row": 19,
+        "rowsha": "ch5YCrSR26LSas4AU4WWuoZqdXRtvRpgrQJD44mHuTU=",
+        "originContent": "1. Set up Redis on Vercel or any Redis provider",
+        "translatedContent": "2. プロジェクトに `REDIS_URL` 環境変数を追加"
+      },
+      {
+        "row": 20,
+        "rowsha": "SWK/08XzrkKFcdaTz43TlPTU5C58ThUvVQCOANUaLO4=",
+        "originContent": "2. Add the `REDIS_URL` environment variable to your project",
+        "translatedContent": "3. 詳細は [REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md) を参照"
+      },
+      {
+        "row": 21,
+        "rowsha": "km0YjgR7VaSh51FvkwkRX6W9eHIeWxZxA8sbhH57cRI=",
+        "originContent": "3. See [REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md) for detailed instructions",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**利点:**"
+      },
+      {
+        "row": 23,
+        "rowsha": "+uVmnRlcdBYJmLGpG6v+Pyk0ziCHDf4F9/gPjynya8Q=",
+        "originContent": "**Benefits:**",
+        "translatedContent": "- ⚡ キャッシュされたコンテンツの即時応答"
+      },
+      {
+        "row": 24,
+        "rowsha": "W0HOQyXx4vDhsqkmXjTcXOcb0PNTspVCpIYoR/IcxJg=",
+        "originContent": "- ⚡ Instant responses for cached content",
+        "translatedContent": "- 💰 API使用量とコストの削減"
+      },
+      {
+        "row": 25,
+        "rowsha": "BOqwS4oDigRGzn85mcqe0XwgCd3dKjZaOvt+xiB+T4Q=",
+        "originContent": "- 💰 Reduces API usage and costs",
+        "translatedContent": "- 🔧 自動で1時間のキャッシュ期限"
+      },
+      {
+        "row": 26,
+        "rowsha": "Y1ckrD9HVD68jkzghDquVKvjfNUyCv8VYh3ymsk18Mk=",
+        "originContent": "- 🔧 Automatic 1-hour cache expiration",
+        "translatedContent": "- 📊 キャッシュパフォーマンス分析"
+      },
+      {
+        "row": 27,
+        "rowsha": "y2dHZiTsjDkrAqPnZHlk0m6uiXphw6qGLpvxOfgkBf4=",
+        "originContent": "- 📊 Cache performance analytics",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Google Analytics 4（任意）"
+      },
+      {
+        "row": 29,
+        "rowsha": "x0FMIsr3mkTtrMWAJxeoDU5UwKllOmc8YoD7l4jVjhI=",
+        "originContent": "#### Google Analytics 4 (Optional)",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. [Google Analytics](https://analytics.google.com/) にアクセス"
+      },
+      {
+        "row": 31,
+        "rowsha": "a7hOxafVy2PMMiM5LuygsqjBZ5VS0CnTFzFjEPd9jjc=",
+        "originContent": "1. Visit [Google Analytics](https://analytics.google.com/)",
+        "translatedContent": "2. 新しいGA4プロパティを作成"
+      },
+      {
+        "row": 32,
+        "rowsha": "IcQontvtFdhcDK1wWMW6TupvhdSH/8k3L0hTakjzCUI=",
+        "originContent": "2. Create a new GA4 property",
+        "translatedContent": "3. 計測IDを取得（形式：G-XXXXXXXXXX）"
+      },
+      {
+        "row": 33,
+        "rowsha": "ls+4Oeyp4e3DVgdZuzjuAYHkxjUtirByaNZ6Kog0+gk=",
+        "originContent": "3. Get your Measurement ID (format: G-XXXXXXXXXX)",
+        "translatedContent": "4. `.env.local` ファイルに追加"
+      },
+      {
+        "row": 34,
+        "rowsha": "YfaRV2NT+XacMVNCL/YKmCC1lipN+YbKDClCCnJdgF4=",
+        "originContent": "4. Add to your `.env.local` file",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 開発"
+      },
+      {
+        "row": 36,
+        "rowsha": "x04EB7BlvMSKobvvwbPlJfxbjTla+pt6AhDspqW/UFU=",
+        "originContent": "### Development",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nyarn dev\n```",
+    "ContentSha": "suElFRR7l3uDH3uyKRgkQiNaSxFStX2IjGfXYum++Ck=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nyarn dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "lM0LT8xyC/N1nmR6dGIgchPO+o/ETNiEEme3ay07B+4=",
+        "originContent": "yarn dev",
+        "translatedContent": "yarn dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nOpen [http://localhost:3000](http://localhost:3000) to view the app.\n\n### Testing\n",
+    "ContentSha": "FZsjJ2cI+heuJ3j1K4U+Gr5wDHcx3nVSEtheDBXOicc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nアプリを見るには [http://localhost:3000](http://localhost:3000) を開いてください。\n\n### テスト\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "MXeLVxBuKJ/S4AYUhKBa6iTshhN8LZ8lONtC4sGVER4=",
+        "originContent": "Open [http://localhost:3000](http://localhost:3000) to view the app.",
+        "translatedContent": "アプリを見るには [http://localhost:3000](http://localhost:3000) を開いてください。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "5gDFo3ZvkOtpBCf1mWI4JGgowepLxssFRC4NJBi3KJY=",
+        "originContent": "### Testing",
+        "translatedContent": "### テスト"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# Run all tests\nyarn test\n\n# Run tests in watch mode\nyarn test:watch\n\n# Run specific test files\nyarn test hooks/__tests__/useAI.test.tsx\n```",
+    "ContentSha": "ux9gFqUpj5Qg1T+gw8lOHx+GQqlT3TlQgf80BmNPowI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Run all tests\nyarn test\n\n# Run tests in watch mode\nyarn test:watch\n\n# Run specific test files\nyarn test hooks/__tests__/useAI.test.tsx\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "G8XO4hflMPkSdQlgMEmAsNnFjaJfHW43zGjr2CL2xk0=",
+        "originContent": "# Run all tests",
+        "translatedContent": "# Run all tests"
+      },
+      {
+        "row": 3,
+        "rowsha": "90LVD8vjCh0u0Zt7cWJRbaSF5uE1GGPZOZyrMgYxpA8=",
+        "originContent": "yarn test",
+        "translatedContent": "yarn test"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "wPik3ODx4Qkjp2fTbhGFAlih5f/xQbYTwWvpw4uq77c=",
+        "originContent": "# Run tests in watch mode",
+        "translatedContent": "# Run tests in watch mode"
+      },
+      {
+        "row": 6,
+        "rowsha": "LujlHOw24lQjbuS0MNKEaET50dQX+fNKsJgyK9VSIyA=",
+        "originContent": "yarn test:watch",
+        "translatedContent": "yarn test:watch"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "vhUsqsV1jf4lQje5PxTuv8cH/Bh9GV4FtGmhQsxBS8w=",
+        "originContent": "# Run specific test files",
+        "translatedContent": "# Run specific test files"
+      },
+      {
+        "row": 9,
+        "rowsha": "HKzynCUlQg2D3VkdE8POVNsUCA6juJAc4Zmv3vhnoU4=",
+        "originContent": "yarn test hooks/__tests__/useAI.test.tsx",
+        "translatedContent": "yarn test hooks/__tests__/useAI.test.tsx"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## AI Feature Troubleshooting\n\n### Common Issues\n\n**\"AI information requires Gemini API key setup\"**\n- Add your Gemini API key to `.env.local`\n- Restart the development server\n- See [GEMINI_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./GEMINI_SETUP.md) for detailed setup\n\n**Slow AI responses**\n- Normal response time: 1-3 seconds\n- Check your internet connection\n- Gemini API has rate limits (60 requests/minute)\n\n**Empty or error responses**\n- Try switching to Wikipedia temporarily\n- Check browser console for detailed error messages\n- Verify your API key is valid\n\n### Analytics Dashboard\n\nTo view AI feature analytics in Google Analytics:\n\n1. Go to **Events** → **All Events**\n2. Filter by **Event Category** = \"AI Feature\"\n3. Key metrics to monitor:\n   - `toggle_provider` - Feature adoption\n   - `response_success` vs `request_failed` - Success rate\n   - `response_time_success` - Performance\n   - `content_displayed` - User engagement\n\n### Performance Monitoring\n\nThe app tracks several performance metrics:\n\n- **Response Times**: Average AI response time vs Wikipedia\n- **Success Rates**: AI request success/failure ratios\n- **Content Quality**: Word count and length of AI responses\n- **User Engagement**: How users interact with AI vs Wikipedia content",
+    "ContentSha": "7/6QV+cpPuBH07R7heGdVIH3RXNUTy2NVsARf1P75aQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## AI機能トラブルシューティング\n\n### よくある問題\n\n**「AI情報にはGemini APIキーの設定が必要です」**\n- Gemini APIキーを`.env.local`に追加してください\n- 開発サーバーを再起動してください\n- 詳細な設定は[GEMINI_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./GEMINI_SETUP.md)を参照してください\n\n**AI応答が遅い**\n- 通常の応答時間：1～3秒\n- インターネット接続を確認してください\n- Gemini APIにはレート制限があります（60リクエスト/分）\n\n**空の応答またはエラー応答**\n- 一時的にWikipediaに切り替えてみてください\n- ブラウザのコンソールで詳細なエラーメッセージを確認してください\n- APIキーが有効かどうかを確認してください\n\n### アナリティクスダッシュボード\n\nGoogle AnalyticsでAI機能の分析を見るには：\n\n1. **Events** → **All Events**に移動\n2. **Event Category** = \"AI Feature\"でフィルター\n3. 監視すべき主要な指標：\n   - `toggle_provider` - 機能の採用状況\n   - `response_success` 対 `request_failed` - 成功率\n   - `response_time_success` - パフォーマンス\n   - `content_displayed` - ユーザーエンゲージメント\n\n### パフォーマンス監視\n\nアプリは複数のパフォーマンス指標を追跡しています：\n\n- **応答時間**：AI応答時間の平均とWikipediaの比較\n- **成功率**：AIリクエストの成功/失敗比率\n- **コンテンツの質**：AI応答の単語数と長さ\n- **ユーザーエンゲージメント**：AIとWikipediaコンテンツのユーザーの関わり方\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## AI機能トラブルシューティング"
+      },
+      {
+        "row": 2,
+        "rowsha": "aiugjbL2Jqj0NLNeqxmWDJqRMsAaew6EJHxxyqAN7Ks=",
+        "originContent": "## AI Feature Troubleshooting",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### よくある問題"
+      },
+      {
+        "row": 4,
+        "rowsha": "RkRAwQVP7sn7/Owemvt8kSXbJ+bqNfpGvNpbr3Nkbgc=",
+        "originContent": "### Common Issues",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**「AI情報にはGemini APIキーの設定が必要です」**"
+      },
+      {
+        "row": 6,
+        "rowsha": "zZ7JBtyc4N9do/cSDG2U+TXO74/XUa2+MpNRGCkzyEA=",
+        "originContent": "**\"AI information requires Gemini API key setup\"**",
+        "translatedContent": "- Gemini APIキーを`.env.local`に追加してください"
+      },
+      {
+        "row": 7,
+        "rowsha": "QiOBMXbEE0lVlWb/DvYCSDzCNltKBvJ852Unphk+snI=",
+        "originContent": "- Add your Gemini API key to `.env.local`",
+        "translatedContent": "- 開発サーバーを再起動してください"
+      },
+      {
+        "row": 8,
+        "rowsha": "OyIk40gYRmF2+2xOvzTYhgGPiFu33Xh6rR8lr5FCCsA=",
+        "originContent": "- Restart the development server",
+        "translatedContent": "- 詳細な設定は[GEMINI_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./GEMINI_SETUP.md)を参照してください"
+      },
+      {
+        "row": 9,
+        "rowsha": "H/X2i7/fie28+1DhigN93BrCu4Lz7+gGwcXr6Gfvey8=",
+        "originContent": "- See [GEMINI_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./GEMINI_SETUP.md) for detailed setup",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**AI応答が遅い**"
+      },
+      {
+        "row": 11,
+        "rowsha": "t7ACl/LWqYnVRnPkfyC8EUjkbdNc9zA6B88+3zvhh5o=",
+        "originContent": "**Slow AI responses**",
+        "translatedContent": "- 通常の応答時間：1～3秒"
+      },
+      {
+        "row": 12,
+        "rowsha": "EVv9a/OB9uUmHOe3XEwp6yP49RJYTa7cK+RPkeX5P4U=",
+        "originContent": "- Normal response time: 1-3 seconds",
+        "translatedContent": "- インターネット接続を確認してください"
+      },
+      {
+        "row": 13,
+        "rowsha": "Ouf/Q3auF2APjd8wsayRprWn53stkFWliWQxrNdvyqY=",
+        "originContent": "- Check your internet connection",
+        "translatedContent": "- Gemini APIにはレート制限があります（60リクエスト/分）"
+      },
+      {
+        "row": 14,
+        "rowsha": "CNgR0HSl5seqYgoD5pyx4pLk8IabB75OKX2MGdSQyYU=",
+        "originContent": "- Gemini API has rate limits (60 requests/minute)",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**空の応答またはエラー応答**"
+      },
+      {
+        "row": 16,
+        "rowsha": "vBey4ayh29VfveOHiXdefqiFeTM0/kEsBHUNR9gr2/o=",
+        "originContent": "**Empty or error responses**",
+        "translatedContent": "- 一時的にWikipediaに切り替えてみてください"
+      },
+      {
+        "row": 17,
+        "rowsha": "5pQ1yLLinLF2F4B7lHhDnrHJtpozUdPv+YgFylGBJUg=",
+        "originContent": "- Try switching to Wikipedia temporarily",
+        "translatedContent": "- ブラウザのコンソールで詳細なエラーメッセージを確認してください"
+      },
+      {
+        "row": 18,
+        "rowsha": "/TeF+q8M6NqjN1DdlQlhmreNaacN+pZDC0p41wtTGs8=",
+        "originContent": "- Check browser console for detailed error messages",
+        "translatedContent": "- APIキーが有効かどうかを確認してください"
+      },
+      {
+        "row": 19,
+        "rowsha": "J7Y0agLYc1ELapsl5AES5xzbkhphCny7pk/mOCygIzw=",
+        "originContent": "- Verify your API key is valid",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### アナリティクスダッシュボード"
+      },
+      {
+        "row": 21,
+        "rowsha": "B8/Y6iiEPOrS9g4XzLF7rDPo6ii7Pm3/gxdmEMGaV/8=",
+        "originContent": "### Analytics Dashboard",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Google AnalyticsでAI機能の分析を見るには："
+      },
+      {
+        "row": 23,
+        "rowsha": "sqS6Bvku080qnVqsTqanNTY6dEG1IWJCGqix5uz81Sk=",
+        "originContent": "To view AI feature analytics in Google Analytics:",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **Events** → **All Events**に移動"
+      },
+      {
+        "row": 25,
+        "rowsha": "nXoMrOXM6uTbgLyrWASVCPGzY7H04bO9dWq8uRemamA=",
+        "originContent": "1. Go to **Events** → **All Events**",
+        "translatedContent": "2. **Event Category** = \"AI Feature\"でフィルター"
+      },
+      {
+        "row": 26,
+        "rowsha": "XE2O7CGik+rpqmp47rQ+vHhb7PnwzMgU78YRGQ829cs=",
+        "originContent": "2. Filter by **Event Category** = \"AI Feature\"",
+        "translatedContent": "3. 監視すべき主要な指標："
+      },
+      {
+        "row": 27,
+        "rowsha": "86Io+MBnUfTyUmXX+nUxuyCMg5G6bGycZx8zZ0xKf/Y=",
+        "originContent": "3. Key metrics to monitor:",
+        "translatedContent": "   - `toggle_provider` - 機能の採用状況"
+      },
+      {
+        "row": 28,
+        "rowsha": "6eK4C+EvOwWinNFT+m49kyAHIYe3PykILqLdJ6tzSVk=",
+        "originContent": "   - `toggle_provider` - Feature adoption",
+        "translatedContent": "   - `response_success` 対 `request_failed` - 成功率"
+      },
+      {
+        "row": 29,
+        "rowsha": "fsEH+hdvbR35yjpTyw0SCd0uKv+KxytZUja09k6solE=",
+        "originContent": "   - `response_success` vs `request_failed` - Success rate",
+        "translatedContent": "   - `response_time_success` - パフォーマンス"
+      },
+      {
+        "row": 30,
+        "rowsha": "XJzHlffKSyArGyv74ONh7IHxadNyBvJGkzGUO0d4gqY=",
+        "originContent": "   - `response_time_success` - Performance",
+        "translatedContent": "   - `content_displayed` - ユーザーエンゲージメント"
+      },
+      {
+        "row": 31,
+        "rowsha": "In9Xarz8anZwIFVMcs1ozVaE5rwJ8bTrlLbWfj8npvs=",
+        "originContent": "   - `content_displayed` - User engagement",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### パフォーマンス監視"
+      },
+      {
+        "row": 33,
+        "rowsha": "ktMLbTZ+cFrGpL9QNPFaNbojgXlPd8rCU+jFxsU/Hik=",
+        "originContent": "### Performance Monitoring",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "アプリは複数のパフォーマンス指標を追跡しています："
+      },
+      {
+        "row": 35,
+        "rowsha": "SXlg+iR2tjQIH0SKMif6gP+PUVIyoiHKFzBuT+CztrU=",
+        "originContent": "The app tracks several performance metrics:",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **応答時間**：AI応答時間の平均とWikipediaの比較"
+      },
+      {
+        "row": 37,
+        "rowsha": "T1ZN1chjfDCF2j02RLLixsHRbfswkH6Q50tF+eW3z/w=",
+        "originContent": "- **Response Times**: Average AI response time vs Wikipedia",
+        "translatedContent": "- **成功率**：AIリクエストの成功/失敗比率"
+      },
+      {
+        "row": 38,
+        "rowsha": "KwXiwFtDVVDMzYZ4n5AoQMN42ra+6HM4srHjeY+jBlU=",
+        "originContent": "- **Success Rates**: AI request success/failure ratios",
+        "translatedContent": "- **コンテンツの質**：AI応答の単語数と長さ"
+      },
+      {
+        "row": 39,
+        "rowsha": "RYA0WNAAY7emaoBY3zfO8TKiE/c1u+gzwrj5k1R89Hs=",
+        "originContent": "- **Content Quality**: Word count and length of AI responses",
+        "translatedContent": "- **ユーザーエンゲージメント**：AIとWikipediaコンテンツのユーザーの関わり方"
+      },
+      {
+        "row": 40,
+        "rowsha": "cColgduL4UgIYhXjMHQVeT99wCGjzpjklWBeEOgkPNY=",
+        "originContent": "- **User Engagement**: How users interact with AI vs Wikipedia content",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "\n## Contributing\n\n1. Fork the repository\n2. Create a feature branch\n3. Make your changes\n4. Add tests for new functionality\n5. Ensure all tests pass\n6. Submit a pull request\n\n## License\n\nMIT License - see [LICENSE](LICENSE) for details.\n\n## Acknowledgments\n\n- Historical border data from [World Historical Gazetteer](https://whgazetteer.org/)\n- AI powered by [Google Gemini](https://ai.google.dev/)\n- Maps powered by [Mapbox](https://www.mapbox.com/)\n- Analytics by [Google Analytics 4](https://analytics.google.com/)\n",
+    "ContentSha": "ZGvs6IhyuBeZwRNz6m2sCRwllq0jELa1ec5RWlbtWIQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 貢献方法\n\n1. リポジトリをフォークする\n2. 機能ブランチを作成する\n3. 変更を加える\n4. 新機能のためのテストを追加する\n5. すべてのテストが通ることを確認する\n6. プルリクエストを提出する\n\n## ライセンス\n\nMITライセンス - 詳細は[LICENSE](LICENSE)を参照してください。\n\n## 謝辞\n\n- 歴史的国境データ提供：[World Historical Gazetteer](https://whgazetteer.org/)\n- AI技術提供：[Google Gemini](https://ai.google.dev/)\n- 地図提供：[Mapbox](https://www.mapbox.com/)\n- アナリティクス提供：[Google Analytics 4](https://analytics.google.com/)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 貢献方法"
+      },
+      {
+        "row": 2,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. リポジトリをフォークする"
+      },
+      {
+        "row": 4,
+        "rowsha": "gKYrfInB5vs8/nXoZ513IRiv+2rnhN0mL7v7OAyCepM=",
+        "originContent": "1. Fork the repository",
+        "translatedContent": "2. 機能ブランチを作成する"
+      },
+      {
+        "row": 5,
+        "rowsha": "zjkMalfFBFdl/fW6/abWk0EDPTi1ZacY0Tz89IHmrrA=",
+        "originContent": "2. Create a feature branch",
+        "translatedContent": "3. 変更を加える"
+      },
+      {
+        "row": 6,
+        "rowsha": "oIeRmHhMC8YR++vfT37Edr7lXiU0nQKQZPZkT6sdMIg=",
+        "originContent": "3. Make your changes",
+        "translatedContent": "4. 新機能のためのテストを追加する"
+      },
+      {
+        "row": 7,
+        "rowsha": "tnr2eaEN+nUZG0uxW2W/eBMRq48vtfDD8iMUob5FHkU=",
+        "originContent": "4. Add tests for new functionality",
+        "translatedContent": "5. すべてのテストが通ることを確認する"
+      },
+      {
+        "row": 8,
+        "rowsha": "6LT1wDDpKiJgCKX3RQjJSw5L0pmbrcZTMTpIy6oa14E=",
+        "originContent": "5. Ensure all tests pass",
+        "translatedContent": "6. プルリクエストを提出する"
+      },
+      {
+        "row": 9,
+        "rowsha": "tFJHV83Gb8yiwqVmx+EnMFcoZrul71eoHrPLcc70TMA=",
+        "originContent": "6. Submit a pull request",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 11,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MITライセンス - 詳細は[LICENSE](LICENSE)を参照してください。"
+      },
+      {
+        "row": 13,
+        "rowsha": "TQbLtlkz/4wk53iQHmCp0/AuJ9wLL4KxIT8/wTVYVTc=",
+        "originContent": "MIT License - see [LICENSE](LICENSE) for details.",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 謝辞"
+      },
+      {
+        "row": 15,
+        "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+        "originContent": "## Acknowledgments",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 歴史的国境データ提供：[World Historical Gazetteer](https://whgazetteer.org/)"
+      },
+      {
+        "row": 17,
+        "rowsha": "/NR/s18qn6mEWZ8mc8HemrRfm8hXb0WVkSHqbyZwEV4=",
+        "originContent": "- Historical border data from [World Historical Gazetteer](https://whgazetteer.org/)",
+        "translatedContent": "- AI技術提供：[Google Gemini](https://ai.google.dev/)"
+      },
+      {
+        "row": 18,
+        "rowsha": "1GzJDDQ+Nq56U9a2dxzKvWI5ov0L1iUb6MS/J3/jEl8=",
+        "originContent": "- AI powered by [Google Gemini](https://ai.google.dev/)",
+        "translatedContent": "- 地図提供：[Mapbox](https://www.mapbox.com/)"
+      },
+      {
+        "row": 19,
+        "rowsha": "t4voedgjsvEZv4+1B3dEqZUoQmZUkMw2agibt1V71a4=",
+        "originContent": "- Maps powered by [Mapbox](https://www.mapbox.com/)",
+        "translatedContent": "- アナリティクス提供：[Google Analytics 4](https://analytics.google.com/)"
+      },
+      {
+        "row": 20,
+        "rowsha": "2oRNp63VwZaso8eqdkILOd2BGzq+gYt06C0c49NPzC8=",
+        "originContent": "- Analytics by [Google Analytics 4](https://analytics.google.com/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

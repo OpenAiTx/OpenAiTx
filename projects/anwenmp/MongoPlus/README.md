@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <p align="center">
   <a href="https://gitee.com/anwena/mongo-plus/blob/master/LICENSE">
     <img src="https://img.shields.io/hexpm/l/plug.svg" alt="License">

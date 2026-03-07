@@ -1,11 +1,43 @@
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <p align="center">
   <a href="https://gitee.com/anwena/mongo-plus/blob/master/LICENSE">
-    <img src="https://img.shields.io/hexpm/l/plug.svg" alt="License">
+    <img src="https://img.shields.io/hexpm/l/plug.svg" alt="ライセンス">
   </a>
 <a href="https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html">
 	<img src="https://img.shields.io/badge/JDK-8-green.svg" alt="jdk-8" />
 </a>
 <a target="_blank" href="https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html">
+
 	<img src="https://img.shields.io/badge/JDK-17-green.svg" alt="jdk-17" />
 </a>
 <a href='https://gitee.com/aizuda/mongo-plus/stargazers'>
@@ -22,53 +54,53 @@
 <img style="width: 200px;display: inline-block;" src="https://raw.githubusercontent.com/anwenmp/MongoPlus/master/logo.png" alt="MongoPlusLogo">
 </p>
 
-### Introduction：
+### イントロダクション：
 
-#### 🔥🔥🔥Use MyBatisPlus style to elegantly operate MongoDB
+#### 🔥🔥🔥MyBatisPlusの方法で、優雅にMongoDBを操作する
   
-* #### Like the wind slipping into the night
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Can be used in conjunction with existing Mongo frameworks, non-intrusive
-* #### Simplify development
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only simple configuration is needed to quickly perform CRUD operations, chain calls are more convenient
+* #### 風のように静かに浸透
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;既存のMongoフレームワークと組み合わせて使用可能、非侵入型
+* #### 開発の簡素化
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;簡単な設定だけで、迅速にCRUD操作ができ、チェーン呼び出しもさらに便利
 
-### Advantages：
+### 特長：
 
-* Non-intrusive: only enhances without changing, introducing it will not affect the existing project, as smooth as silk
-* Low overhead: automatically injects basic CRUD on startup, performance is basically without loss, directly object-oriented operation
-* Powerful CRUD operations: generic Service, most CRUD operations for a single table can be achieved with minimal configuration, plus a powerful condition constructor to meet various usage needs
-* Supports Lambda style calls: through Lambda expressions, convenient to write various query conditions, no need to worry about writing wrong fields
-* Supports automatic primary key generation: supports up to 5 primary key strategies (including distributed unique ID generator - Sequence), freely configurable, perfectly solves primary key issues
-* エンティティクラスなしでの操作をサポート
-* 動的データソースをサポート
-* 論理削除、全集合の更新および削除防止、自動フィルなどの機能をサポート
+* 非侵入型：拡張のみで変更を加えず、導入しても既存プロジェクトへ影響なし、非常にスムーズ
+* 低オーバーヘッド：起動時に基本CURDが自動注入され、性能への影響はほぼなく、直接オブジェクト指向操作
+* 強力なCRUD操作：汎用Service、少ない設定で単一テーブルのほとんどのCRUD操作を実現、強力な条件ビルダーで様々なニーズに対応
+* Lambda形式呼び出し対応：Lambda式で各種検索条件を簡単に記述、フィールドの書き間違いの心配なし
+* 主キー自動生成対応：5種類の主キー戦略（分散型ユニークID生成器-Sequence含む）に対応、自由に設定可能、主キー問題を完璧に解決
+* エンティティクラスなしでも操作可能
+* ダイナミックデータソース対応
+* 論理削除、全件更新・削除防止、自動入力などの機能に対応
 
-### クイック開発
+### 高速開発
 
-MyBatisPlusはMyBatisのように多くのSQL文を書く必要がありません。Mongo-Plusも同様です！
+MyBatisPlusはMyBatisのように多くのSQL文を書く必要がなく、Mongo-Plusも同様です！
 
-### プロジェクトはMurphy Securityに接続済み
-##### 検査レポートを見るにはクリック
-[![Security Status](https://www.murphysec.com/platform3/v31/badge/1810204695353073664.svg)](https://www.murphysec.com/console/report/1810204585500057600/1810204695353073664)
+### プロジェクトはすでにMurphySecに接続されています
+##### クリックして検査レポートを表示
+[![セキュリティステータス](https://www.murphysec.com/platform3/v31/badge/1810204695353073664.svg)](https://www.murphysec.com/console/report/1810204585500057600/1810204695353073664)
 
 ### ドキュメント
 ドキュメントURL： https://mongoplus.com/
 
 ### お問い合わせ
-#### MongoPlusの使用中に質問やアイデア、またはグループチャット参加希望の方はご連絡ください
+#### MongoPlusをご利用中にご質問やご意見、またはグループチャットへの参加をご希望の方はご連絡ください
 #### v：anwen_529
 #### 備考：MongoPlus
 <img src="https://raw.githubusercontent.com/anwenmp/MongoPlus/master/wx.png" alt="微信">
 
-### 参加と貢献
+###  貢献の参加
 
-1.  本リポジトリをStarおよびForkする
-2.  新しいFeat_xxxブランチを作成する
-3.  コードをコミットする
-4.  新しいプルリクエストを作成する
+1.  本リポジトリにStarおよびForkをしてください
+2.  Feat_xxxブランチを新規作成
+3.  コードをコミット
+4.  プルリクエストを新規作成
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-07
 
 ---

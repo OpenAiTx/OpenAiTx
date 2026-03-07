@@ -1,284 +1,537 @@
 [
   {
     "Id": 1,
-    "Content": "<p align=\"center\">\n  <a href=\"https://gitee.com/anwena/mongo-plus/blob/master/LICENSE\">\n    <img src=\"https://img.shields.io/hexpm/l/plug.svg\" alt=\"License\">\n  </a>\n<a href=\"https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html\">\n\t<img src=\"https://img.shields.io/badge/JDK-8-green.svg\" alt=\"jdk-8\" />\n</a>\n<a target=\"_blank\" href=\"https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html\">\n\t<img src=\"https://img.shields.io/badge/JDK-17-green.svg\" alt=\"jdk-17\" />\n</a>\n<a href='https://gitee.com/aizuda/mongo-plus/stargazers'>\n  <img src='https://gitee.com/aizuda/mongo-plus/badge/star.svg?theme=gvp' alt='star'/>\n</a>\n<a href='https://gitee.com/aizuda/mongo-plus/members'>\n  <img src='https://gitee.com/aizuda/mongo-plus/badge/fork.svg?theme=gvp' alt='fork'/>\n</a>\n<a href=\"https://gitcode.com/aizuda/mongo-plus/stargazers\">\n  <img src='https://gitcode.com/aizuda/mongo-plus/star/badge.svg' alt='star'/>\n</a>\n</p>\n<p style=\"text-align: center;\">\n<img style=\"width: 200px;display: inline-block;\" src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/logo.png\" alt=\"MongoPlusLogo\">\n</p>\n\n### 介绍：\n\n#### 🔥🔥🔥使用MyBatisPlus的方式，优雅的操作MongoDB\n  \n* #### 随风潜入夜\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可和现有Mongo框架结合使用，无侵入性\n* #### 简化开发\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只需简单配置，即可快速进行CRUD操作，链式调用更加便捷\n\n### 优点：\n\n* 无侵入：只做增强不做改变，引入它不会对现有工程产生影响，如丝般顺滑\n* 损耗小：启动即会自动注入基本 CURD，性能基本无损耗，直接面向对象操作\n* 强大的 CRUD 操作：通用 Service，仅仅通过少量配置即可实现单表大部分 CRUD 操作，更有强大的条件构造器，满足各类使用需求\n* 支持 Lambda 形式调用：通过 Lambda 表达式，方便的编写各类查询条件，无需再担心字段写错\n* 支持主键自动生成：支持多达 5 种主键策略（内含分布式唯一 ID 生成器 - Sequence），可自由配置，完美解决主键问题",
-    "ContentSha": "JE12Sm7CCeU80NwYxU56tosVfObJDRPWs5OO7+ZWKXk=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n<p align=\"center\">\n  <a href=\"https://gitee.com/anwena/mongo-plus/blob/master/LICENSE\">\n    <img src=\"https://img.shields.io/hexpm/l/plug.svg\" alt=\"License\">\n  </a>\n<a href=\"https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html\">\n\t<img src=\"https://img.shields.io/badge/JDK-8-green.svg\" alt=\"jdk-8\" />\n</a>\n<a target=\"_blank\" href=\"https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html\">",
+    "ContentSha": "q5tDCbrFx213GLLofdeJnrO3OS1zHtsqsWsNZkcruao=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<p align=\"center\">\n  <a href=\"https://gitee.com/anwena/mongo-plus/blob/master/LICENSE\">\n    <img src=\"https://img.shields.io/hexpm/l/plug.svg\" alt=\"License\">\n  </a>\n<a href=\"https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html\">\n\t<img src=\"https://img.shields.io/badge/JDK-8-green.svg\" alt=\"jdk-8\" />\n</a>\n<a target=\"_blank\" href=\"https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html\">\n\t<img src=\"https://img.shields.io/badge/JDK-17-green.svg\" alt=\"jdk-17\" />\n</a>\n<a href='https://gitee.com/aizuda/mongo-plus/stargazers'>\n  <img src='https://gitee.com/aizuda/mongo-plus/badge/star.svg?theme=gvp' alt='star'/>\n</a>\n<a href='https://gitee.com/aizuda/mongo-plus/members'>\n  <img src='https://gitee.com/aizuda/mongo-plus/badge/fork.svg?theme=gvp' alt='fork'/>\n</a>\n<a href=\"https://gitcode.com/aizuda/mongo-plus/stargazers\">\n  <img src='https://gitcode.com/aizuda/mongo-plus/star/badge.svg' alt='star'/>\n</a>\n</p>\n<p style=\"text-align: center;\">\n<img style=\"width: 200px;display: inline-block;\" src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/logo.png\" alt=\"MongoPlusLogo\">\n</p>\n\n### Introduction:\n\n#### 🔥🔥🔥 Use MyBatisPlus style to elegantly operate MongoDB\n  \n* #### Like the wind slipping into the night\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Can be used together with existing Mongo frameworks, non-intrusive\n* #### Simplify development\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Just simple configuration to quickly perform CRUD operations, chain calls are more convenient\n\n### Advantages:\n\n* Non-intrusive: only enhances without changing, introducing it won't affect the existing project, smooth as silk\n* Low overhead: automatically injects basic CRUD on startup, performance is basically unaffected, direct object-oriented operations\n* Powerful CRUD operations: general Service, most single-table CRUD operations can be achieved with minimal configuration, plus a powerful condition builder to meet various usage needs\n* Supports Lambda style calls: write all kinds of query conditions easily via Lambda expressions, no more worries about writing wrong fields\n* Supports automatic primary key generation: supports up to 5 primary key strategies (including distributed unique ID generator - Sequence), freely configurable, perfectly solves primary key issues",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=zh-CN\">Simplified Chinese</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=zh-TW\">Traditional Chinese</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ja\">Japanese</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ko\">Korean</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=hi\">Hindi</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=th\">Thai</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=fr\">French</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=de\">German</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=es\">Spanish</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=it\">Italian</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ru\">Russian</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=pt\">Portuguese</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=nl\">Dutch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=pl\">Polish</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ar\">Arabic</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=fa\">Persian</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=tr\">Turkish</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=vi\">Vietnamese</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=id\">Indonesian</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=as\">Assamese</\n      </div>\n    </div>\n  </details>\n</div>\n\n<p align=\"center\">\n  <a href=\"https://gitee.com/anwena/mongo-plus/blob/master/LICENSE\">\n    <img src=\"https://img.shields.io/hexpm/l/plug.svg\" alt=\"License\">\n  </a>\n<a href=\"https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html\">\n\t<img src=\"https://img.shields.io/badge/JDK-8-green.svg\" alt=\"jdk-8\" />\n</a>\n<a target=\"_blank\" href=\"https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html\">",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Language</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "JUiYyvDqGA0CyCuYqQihRNj8S0kLlUDBsykuVNrXn5o=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "fltUCxvm8FXcmqVWGjyHH7wxvnibEK1dS3+I9X8zh5M=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=zh-CN\">Simplified Chinese</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "sQh8cEbYXg/1USDoxc4v0DTajcD6gt0rmLpzCbWXRaU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=zh-TW\">Traditional Chinese</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "y9uL426jh3HuwqSIhExtPCHJjdxMMmug+sxvSkxkb8k=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ja\">Japanese</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "vOhv7NhMiW1Dtb09a12JXj5cIi820dmYGRWPILkCgws=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ko\">Korean</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "AH2VWXQy6JmyRQuMIE9/FhIMqALwYtMxG59Bd+JmUWY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=hi\">Hindi</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "SYvPSMa/nl5Wm1WhFTz+YXYslJuEDF+LEiIZlcSzp4s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=th\">Thai</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "lsWkA96pOesmD3+hosS5EbNF51phU4K+mkoR+wgp+5g=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=fr\">French</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "azuvybYs34B8ODKh4ZmGzE8eFbCSYDi9IM+OpdO50jM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=de\">German</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "VM6fhP8l+J8PWnl55Mnj2UJ3UNUChOKdjHT8nPoQpGY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=es\">Spanish</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "LJupxnjZCFSci9apPtQXj6j/Z1BNLv9jNP3insIiBcE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=it\">Italian</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "ppQYl0XW7FqLCJI7uUuuR0gR7bDlrk0dxmyYe0RPTJs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ru\">Russian</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "g83aHQcm7x1FnN3lIXsRbTO+/Ax9ognRWK49EClFXro=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=pt\">Portuguese</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "X80eVHdAawY/LP9XS++a58X4RUGMsk3rPHWlc9FBgBI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=nl\">Dutch</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "j2rA4AFvYPIKjtgWZgIBm8U//HcPszBi2yxNes6OvJw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=pl\">Polish</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "AMs+s9yUNixJRRRzWt4Nh/maIcFFiRrkHs5EJ97MwKI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=ar\">Arabic</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "9xuLAiNHKbPTdE81+2J1FWIePEMst1Gyv2d2U6H6P3c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=fa\">Persian</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "24dIc2EY7WVTsflYktWBPWn3CO/oxUDQXEaYj6kP2a4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=tr\">Turkish</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "3vJh0MJ0KJsdJRh/bfH56KymE9UlxugfsSjUk2ERAN0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=vi\">Vietnamese</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "nFas+GFbkaMqipdPCPryUET0dIT1FK0WhS60SqrYdvg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=id\">Indonesian</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "BwhAiELeklIB2iKx6KtfM172e+sw7RP8gfobj6I7mR8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=anwenmp&project=MongoPlus&lang=as\">Assamese</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
         "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
         "originContent": "<p align=\"center\">",
         "translatedContent": "<p align=\"center\">"
       },
       {
-        "row": 2,
+        "row": 34,
         "rowsha": "uARpp3c8+mEzw8+JDIDETlvwqUTEBS/HrBjpAkUOp2E=",
         "originContent": "  <a href=\"https://gitee.com/anwena/mongo-plus/blob/master/LICENSE\">",
         "translatedContent": "  <a href=\"https://gitee.com/anwena/mongo-plus/blob/master/LICENSE\">"
       },
       {
-        "row": 3,
+        "row": 35,
         "rowsha": "nxjaCNhARN9adnO2MU8FiPq0wOwoNa5vc61ZNwheKc4=",
         "originContent": "    <img src=\"https://img.shields.io/hexpm/l/plug.svg\" alt=\"License\">",
         "translatedContent": "    <img src=\"https://img.shields.io/hexpm/l/plug.svg\" alt=\"License\">"
       },
       {
-        "row": 4,
+        "row": 36,
         "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
         "originContent": "  </a>",
         "translatedContent": "  </a>"
       },
       {
-        "row": 5,
+        "row": 37,
         "rowsha": "gB6putaDCP5QXr4w0zf1ujCkaBXh2jEn1HpdGbBuDO8=",
         "originContent": "<a href=\"https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html\">",
         "translatedContent": "<a href=\"https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html\">"
       },
       {
-        "row": 6,
+        "row": 38,
         "rowsha": "XTZzT/VNm75CGr24f5Bh9DwC4iki/sw90PQxp/oDUu0=",
         "originContent": "\t<img src=\"https://img.shields.io/badge/JDK-8-green.svg\" alt=\"jdk-8\" />",
         "translatedContent": "\t<img src=\"https://img.shields.io/badge/JDK-8-green.svg\" alt=\"jdk-8\" />"
       },
       {
-        "row": 7,
-        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
-        "originContent": "</a>",
-        "translatedContent": "</a>"
-      },
-      {
-        "row": 8,
-        "rowsha": "ObcpAKXjqtgk/y48vw9goa1KX44foeifz2VJ0CZZnhE=",
-        "originContent": "<a target=\"_blank\" href=\"https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html\">",
-        "translatedContent": "<a target=\"_blank\" href=\"https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html\">"
-      },
-      {
-        "row": 9,
-        "rowsha": "DJFXQcRcA6OMPPohu1IfoZ/qvMi8D/zWZo4ZKBb8ibs=",
-        "originContent": "\t<img src=\"https://img.shields.io/badge/JDK-17-green.svg\" alt=\"jdk-17\" />",
-        "translatedContent": "\t<img src=\"https://img.shields.io/badge/JDK-17-green.svg\" alt=\"jdk-17\" />"
-      },
-      {
-        "row": 10,
-        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
-        "originContent": "</a>",
-        "translatedContent": "</a>"
-      },
-      {
-        "row": 11,
-        "rowsha": "gay0tj6KVvJPE1472uL9gDaef3YqR3gd//m4Hhn/tM0=",
-        "originContent": "<a href='https://gitee.com/aizuda/mongo-plus/stargazers'>",
-        "translatedContent": "<a href='https://gitee.com/aizuda/mongo-plus/stargazers'>"
-      },
-      {
-        "row": 12,
-        "rowsha": "nrWnMScBVcg74UH3n6T/sM57SFbB/zvzGgiv02nBZKA=",
-        "originContent": "  <img src='https://gitee.com/aizuda/mongo-plus/badge/star.svg?theme=gvp' alt='star'/>",
-        "translatedContent": "  <img src='https://gitee.com/aizuda/mongo-plus/badge/star.svg?theme=gvp' alt='star'/>"
-      },
-      {
-        "row": 13,
-        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
-        "originContent": "</a>",
-        "translatedContent": "</a>"
-      },
-      {
-        "row": 14,
-        "rowsha": "g1J6yZT8VOT83FqA0mT/T2Nnuo2v95lBq68vWZe4dpk=",
-        "originContent": "<a href='https://gitee.com/aizuda/mongo-plus/members'>",
-        "translatedContent": "<a href='https://gitee.com/aizuda/mongo-plus/members'>"
-      },
-      {
-        "row": 15,
-        "rowsha": "QNfN8S8x1ZNzXKUXZgS6cZOiNtMaioukOdjqOZWwI+A=",
-        "originContent": "  <img src='https://gitee.com/aizuda/mongo-plus/badge/fork.svg?theme=gvp' alt='fork'/>",
-        "translatedContent": "  <img src='https://gitee.com/aizuda/mongo-plus/badge/fork.svg?theme=gvp' alt='fork'/>"
-      },
-      {
-        "row": 16,
-        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
-        "originContent": "</a>",
-        "translatedContent": "</a>"
-      },
-      {
-        "row": 17,
-        "rowsha": "aN1NfAwKuiwFtr5Ts+PLSwe3StGvoHxeI5zTPV3DZRg=",
-        "originContent": "<a href=\"https://gitcode.com/aizuda/mongo-plus/stargazers\">",
-        "translatedContent": "<a href=\"https://gitcode.com/aizuda/mongo-plus/stargazers\">"
-      },
-      {
-        "row": 18,
-        "rowsha": "ol/zJkLrxD6t2WoB1sZF3b6FyuKftOjvQsx+ALuPoaA=",
-        "originContent": "  <img src='https://gitcode.com/aizuda/mongo-plus/star/badge.svg' alt='star'/>",
-        "translatedContent": "  <img src='https://gitcode.com/aizuda/mongo-plus/star/badge.svg' alt='star'/>"
-      },
-      {
-        "row": 19,
-        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
-        "originContent": "</a>",
-        "translatedContent": "</a>"
-      },
-      {
-        "row": 20,
-        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-        "originContent": "</p>",
-        "translatedContent": "</p>"
-      },
-      {
-        "row": 21,
-        "rowsha": "HG1QdfzX7G/P1jPZaHWoIHRK/zc3XUeNsjPK/8tUg2E=",
-        "originContent": "<p style=\"text-align: center;\">",
-        "translatedContent": "<p style=\"text-align: center;\">"
-      },
-      {
-        "row": 22,
-        "rowsha": "yqRn8D/lfy4cn+32qKor4a1VWkU74/BnV3p6vx+QIY4=",
-        "originContent": "<img style=\"width: 200px;display: inline-block;\" src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/logo.png\" alt=\"MongoPlusLogo\">",
-        "translatedContent": "<img style=\"width: 200px;display: inline-block;\" src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/logo.png\" alt=\"MongoPlusLogo\">"
-      },
-      {
-        "row": 23,
-        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-        "originContent": "</p>",
-        "translatedContent": "</p>"
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 25,
-        "rowsha": "uZ4WV5Qm1dbKLS1wonDwTPeOs7KYFt32LRF8x2EppMc=",
-        "originContent": "### 介绍：",
-        "translatedContent": "### Introduction:"
-      },
-      {
-        "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 27,
-        "rowsha": "elNrU2WOXHZLUzSxnKHVb/zbIh6Tf3O2pUyRyuwmQl0=",
-        "originContent": "#### 🔥🔥🔥使用MyBatisPlus的方式，优雅的操作MongoDB",
-        "translatedContent": "#### 🔥🔥🔥 Use MyBatisPlus style to elegantly operate MongoDB"
-      },
-      {
-        "row": 28,
-        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
-        "originContent": "  ",
-        "translatedContent": "  "
-      },
-      {
-        "row": 29,
-        "rowsha": "IaCkq9YDSz+O8sNdlOiftnHnwco6b1L3VBMQwiHgJZQ=",
-        "originContent": "* #### 随风潜入夜",
-        "translatedContent": "* #### Like the wind slipping into the night"
-      },
-      {
-        "row": 30,
-        "rowsha": "jjGZfMWrMESSSP0dpCyQOclsFDbz55PZrgxIp3eKiUU=",
-        "originContent": "  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可和现有Mongo框架结合使用，无侵入性",
-        "translatedContent": "  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Can be used together with existing Mongo frameworks, non-intrusive"
-      },
-      {
-        "row": 31,
-        "rowsha": "IkHy0BF5VBVBtp8QzsGisJPLaa9di3p0fQnp9Ohu3vo=",
-        "originContent": "* #### 简化开发",
-        "translatedContent": "* #### Simplify development"
-      },
-      {
-        "row": 32,
-        "rowsha": "A8K8vXWBzr+y/byEn2sR/R6lK3GMDmDE7s2EMS6Ra1s=",
-        "originContent": "  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只需简单配置，即可快速进行CRUD操作，链式调用更加便捷",
-        "translatedContent": "  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Just simple configuration to quickly perform CRUD operations, chain calls are more convenient"
-      },
-      {
-        "row": 33,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 34,
-        "rowsha": "C9brqjx00ahgbzQ5KCVDNCbc884CmCfdksw+AGWkRRI=",
-        "originContent": "### 优点：",
-        "translatedContent": "### Advantages:"
-      },
-      {
-        "row": 35,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 36,
-        "rowsha": "L0YVIHLUPsABRK+u3czSJynskLhL20zG82CLjbmprtA=",
-        "originContent": "* 无侵入：只做增强不做改变，引入它不会对现有工程产生影响，如丝般顺滑",
-        "translatedContent": "* Non-intrusive: only enhances without changing, introducing it won't affect the existing project, smooth as silk"
-      },
-      {
-        "row": 37,
-        "rowsha": "TQYP0qOXEY91O+h+QkSohjm4RgWX8V3RxmPFTjQNvFY=",
-        "originContent": "* 损耗小：启动即会自动注入基本 CURD，性能基本无损耗，直接面向对象操作",
-        "translatedContent": "* Low overhead: automatically injects basic CRUD on startup, performance is basically unaffected, direct object-oriented operations"
-      },
-      {
-        "row": 38,
-        "rowsha": "ZnTGttpQAneTKiow7T307/USEzpf7iGNJiywGv4risA=",
-        "originContent": "* 强大的 CRUD 操作：通用 Service，仅仅通过少量配置即可实现单表大部分 CRUD 操作，更有强大的条件构造器，满足各类使用需求",
-        "translatedContent": "* Powerful CRUD operations: general Service, most single-table CRUD operations can be achieved with minimal configuration, plus a powerful condition builder to meet various usage needs"
-      },
-      {
         "row": 39,
-        "rowsha": "F55UKfQ3EaB0SKS1zRafKg8KjE1yjwjJRRx7PmNvRI0=",
-        "originContent": "* 支持 Lambda 形式调用：通过 Lambda 表达式，方便的编写各类查询条件，无需再担心字段写错",
-        "translatedContent": "* Supports Lambda style calls: write all kinds of query conditions easily via Lambda expressions, no more worries about writing wrong fields"
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
       },
       {
         "row": 40,
-        "rowsha": "Yl53siEoqFoNq8qO31y7qId2Q2R9GarnV7rVluRDbSo=",
-        "originContent": "* 支持主键自动生成：支持多达 5 种主键策略（内含分布式唯一 ID 生成器 - Sequence），可自由配置，完美解决主键问题",
-        "translatedContent": "* Supports automatic primary key generation: supports up to 5 primary key strategies (including distributed unique ID generator - Sequence), freely configurable, perfectly solves primary key issues"
+        "rowsha": "ObcpAKXjqtgk/y48vw9goa1KX44foeifz2VJ0CZZnhE=",
+        "originContent": "<a target=\"_blank\" href=\"https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html\">",
+        "translatedContent": "<a target=\"_blank\" href=\"https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html\">"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "* 支持无实体类情况下的操作\n* 支持动态数据源\n* 支持逻辑删除、防止全集合更新和删除、自动填充等等功能\n\n### 快速开发\n\nMyBatisPlus就是可以不用像MyBatis一样写过多的sql语句，Mongo-Plus也一样！\n\n### 项目已接入墨菲安全\n##### 点击查看检测报告\n[![Security Status](https://www.murphysec.com/platform3/v31/badge/1810204695353073664.svg)](https://www.murphysec.com/console/report/1810204585500057600/1810204695353073664)\n\n### 文档\n文档地址： https://mongoplus.com/\n\n### 联系我们\n#### 在使用MongoPlus的过程中，有任何问题和想法或者加入群聊请联系我\n#### v：anwen_529\n#### 备注：MongoPlus\n<img src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/wx.png\" alt=\"微信\">\n\n###  参与贡献\n\n1.  Star and Fork 本仓库\n2.  新建 Feat_xxx 分支\n3.  提交代码\n4.  新建 Pull Request\n",
-    "ContentSha": "EF2OTEnutbwlKszlJaSnbgSqFm5b7q6mA3U9g1qTkjk=",
+    "Content": "\t<img src=\"https://img.shields.io/badge/JDK-17-green.svg\" alt=\"jdk-17\" />\n</a>\n<a href='https://gitee.com/aizuda/mongo-plus/stargazers'>\n  <img src='https://gitee.com/aizuda/mongo-plus/badge/star.svg?theme=gvp' alt='star'/>\n</a>\n<a href='https://gitee.com/aizuda/mongo-plus/members'>\n  <img src='https://gitee.com/aizuda/mongo-plus/badge/fork.svg?theme=gvp' alt='fork'/>\n</a>\n<a href=\"https://gitcode.com/aizuda/mongo-plus/stargazers\">\n  <img src='https://gitcode.com/aizuda/mongo-plus/star/badge.svg' alt='star'/>\n</a>\n</p>\n<p style=\"text-align: center;\">\n<img style=\"width: 200px;display: inline-block;\" src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/logo.png\" alt=\"MongoPlusLogo\">\n</p>\n\n### 介绍：\n\n#### 🔥🔥🔥使用MyBatisPlus的方式，优雅的操作MongoDB\n  \n* #### 随风潜入夜\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可和现有Mongo框架结合使用，无侵入性\n* #### 简化开发\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只需简单配置，即可快速进行CRUD操作，链式调用更加便捷\n\n### 优点：\n\n* 无侵入：只做增强不做改变，引入它不会对现有工程产生影响，如丝般顺滑\n* 损耗小：启动即会自动注入基本 CURD，性能基本无损耗，直接面向对象操作\n* 强大的 CRUD 操作：通用 Service，仅仅通过少量配置即可实现单表大部分 CRUD 操作，更有强大的条件构造器，满足各类使用需求\n* 支持 Lambda 形式调用：通过 Lambda 表达式，方便的编写各类查询条件，无需再担心字段写错\n* 支持主键自动生成：支持多达 5 种主键策略（内含分布式唯一 ID 生成器 - Sequence），可自由配置，完美解决主键问题\n* 支持无实体类情况下的操作\n* 支持动态数据源\n* 支持逻辑删除、防止全集合更新和删除、自动填充等等功能\n\n### 快速开发\n\nMyBatisPlus就是可以不用像MyBatis一样写过多的sql语句，Mongo-Plus也一样！\n",
+    "ContentSha": "YkjwaUSfNyyqknnut7HfrKAnTjmt2QzJqJ6DlLmuJCI=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "* Supports operations without entity classes  \n* Supports dynamic data sources  \n* Supports logical deletion, prevention of full collection updates and deletions, automatic filling, and other functions  \n\n### Rapid Development  \n\nMyBatisPlus allows you to avoid writing excessive SQL statements like MyBatis, and Mongo-Plus is the same!  \n\n### Project Integrated with Murphy Security  \n##### Click to view the inspection report  \n[![Security Status](https://www.murphysec.com/platform3/v31/badge/1810204695353073664.svg)](https://www.murphysec.com/console/report/1810204585500057600/1810204695353073664)  \n\n### Documentation  \nDocumentation URL: https://mongoplus.com/  \n\n### Contact Us  \n#### If you have any questions or ideas during the use of MongoPlus or want to join the group chat, please contact me  \n#### WeChat: anwen_529  \n#### Note: MongoPlus  \n<img src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/wx.png\" alt=\"WeChat\">  \n\n### Contribution  \n\n1.  Star and Fork this repository  \n2.  Create a Feat_xxx branch  \n3.  Commit your code  \n4.  Create a Pull Request  \n",
+    "Translation": "\t<img src=\"https://img.shields.io/badge/JDK-17-green.svg\" alt=\"jdk-17\" />\n</a>\n<a href='https://gitee.com/aizuda/mongo-plus/stargazers'>\n  <img src='https://gitee.com/aizuda/mongo-plus/badge/star.svg?theme=gvp' alt='star'/>\n</a>\n<a href='https://gitee.com/aizuda/mongo-plus/members'>\n  <img src='https://gitee.com/aizuda/mongo-plus/badge/fork.svg?theme=gvp' alt='fork'/>\n</a>\n<a href=\"https://gitcode.com/aizuda/mongo-plus/stargazers\">\n  <img src='https://gitcode.com/aizuda/mongo-plus/star/badge.svg' alt='star'/>\n</a>\n</p>\n<p style=\"text-align: center;\">\n<img style=\"width: 200px;display: inline-block;\" src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/logo.png\" alt=\"MongoPlusLogo\">\n</p>\n\n### Introduction:\n\n#### 🔥🔥🔥Elegant MongoDB operations using MyBatisPlus style\n  \n* #### Penetrates quietly like the night\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Can be used with existing Mongo frameworks, non-intrusive\n* #### Simplified development\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only simple configuration needed for fast CRUD operations, chain calls are more convenient\n\n### Advantages:\n\n* Non-intrusive: Only enhances, does not change. Introducing it won't affect the existing project, smooth as silk\n* Low overhead: Automatically injects basic CURD on startup, almost no performance loss, direct object-oriented operations\n* Powerful CRUD operations: General Service enables most single-table CRUD operations with minimal configuration, and provides a powerful condition builder to meet various needs\n* Supports Lambda call style: Easily write various query conditions with Lambda expressions, no need to worry about field name errors\n* Supports automatic primary key generation: Supports up to 5 primary key strategies (including distributed unique ID generator - Sequence), freely configurable, perfectly solves primary key issues\n* Supports operations without entity classes\n* Supports dynamic data sources\n* Supports logical deletion, prevents full collection updates and deletions, auto-fill and other features\n\n### Rapid Development\n\nWith MyBatisPlus, you don't need to write excessive SQL like MyBatis, and Mongo-Plus is the same!\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "Q1Q1TKnhrZfqpoPb6ey31TVKRkUs4LVrUC+CkYSVP50=",
-        "originContent": "* 支持无实体类情况下的操作",
-        "translatedContent": "* Supports operations without entity classes  "
+        "rowsha": "DJFXQcRcA6OMPPohu1IfoZ/qvMi8D/zWZo4ZKBb8ibs=",
+        "originContent": "\t<img src=\"https://img.shields.io/badge/JDK-17-green.svg\" alt=\"jdk-17\" />",
+        "translatedContent": "\t<img src=\"https://img.shields.io/badge/JDK-17-green.svg\" alt=\"jdk-17\" />"
       },
       {
         "row": 2,
-        "rowsha": "hxBcnqSzT3YDeS+7Dx7u+elcyau6ODklkI7g/pQVmj0=",
-        "originContent": "* 支持动态数据源",
-        "translatedContent": "* Supports dynamic data sources  "
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
       },
       {
         "row": 3,
+        "rowsha": "gay0tj6KVvJPE1472uL9gDaef3YqR3gd//m4Hhn/tM0=",
+        "originContent": "<a href='https://gitee.com/aizuda/mongo-plus/stargazers'>",
+        "translatedContent": "<a href='https://gitee.com/aizuda/mongo-plus/stargazers'>"
+      },
+      {
+        "row": 4,
+        "rowsha": "nrWnMScBVcg74UH3n6T/sM57SFbB/zvzGgiv02nBZKA=",
+        "originContent": "  <img src='https://gitee.com/aizuda/mongo-plus/badge/star.svg?theme=gvp' alt='star'/>",
+        "translatedContent": "  <img src='https://gitee.com/aizuda/mongo-plus/badge/star.svg?theme=gvp' alt='star'/>"
+      },
+      {
+        "row": 5,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 6,
+        "rowsha": "g1J6yZT8VOT83FqA0mT/T2Nnuo2v95lBq68vWZe4dpk=",
+        "originContent": "<a href='https://gitee.com/aizuda/mongo-plus/members'>",
+        "translatedContent": "<a href='https://gitee.com/aizuda/mongo-plus/members'>"
+      },
+      {
+        "row": 7,
+        "rowsha": "QNfN8S8x1ZNzXKUXZgS6cZOiNtMaioukOdjqOZWwI+A=",
+        "originContent": "  <img src='https://gitee.com/aizuda/mongo-plus/badge/fork.svg?theme=gvp' alt='fork'/>",
+        "translatedContent": "  <img src='https://gitee.com/aizuda/mongo-plus/badge/fork.svg?theme=gvp' alt='fork'/>"
+      },
+      {
+        "row": 8,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "aN1NfAwKuiwFtr5Ts+PLSwe3StGvoHxeI5zTPV3DZRg=",
+        "originContent": "<a href=\"https://gitcode.com/aizuda/mongo-plus/stargazers\">",
+        "translatedContent": "<a href=\"https://gitcode.com/aizuda/mongo-plus/stargazers\">"
+      },
+      {
+        "row": 10,
+        "rowsha": "ol/zJkLrxD6t2WoB1sZF3b6FyuKftOjvQsx+ALuPoaA=",
+        "originContent": "  <img src='https://gitcode.com/aizuda/mongo-plus/star/badge.svg' alt='star'/>",
+        "translatedContent": "  <img src='https://gitcode.com/aizuda/mongo-plus/star/badge.svg' alt='star'/>"
+      },
+      {
+        "row": 11,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 13,
+        "rowsha": "HG1QdfzX7G/P1jPZaHWoIHRK/zc3XUeNsjPK/8tUg2E=",
+        "originContent": "<p style=\"text-align: center;\">",
+        "translatedContent": "<p style=\"text-align: center;\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "yqRn8D/lfy4cn+32qKor4a1VWkU74/BnV3p6vx+QIY4=",
+        "originContent": "<img style=\"width: 200px;display: inline-block;\" src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/logo.png\" alt=\"MongoPlusLogo\">",
+        "translatedContent": "<img style=\"width: 200px;display: inline-block;\" src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/logo.png\" alt=\"MongoPlusLogo\">"
+      },
+      {
+        "row": 15,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "uZ4WV5Qm1dbKLS1wonDwTPeOs7KYFt32LRF8x2EppMc=",
+        "originContent": "### 介绍：",
+        "translatedContent": "### Introduction:"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "elNrU2WOXHZLUzSxnKHVb/zbIh6Tf3O2pUyRyuwmQl0=",
+        "originContent": "#### 🔥🔥🔥使用MyBatisPlus的方式，优雅的操作MongoDB",
+        "translatedContent": "#### 🔥🔥🔥Elegant MongoDB operations using MyBatisPlus style"
+      },
+      {
+        "row": 20,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 21,
+        "rowsha": "IaCkq9YDSz+O8sNdlOiftnHnwco6b1L3VBMQwiHgJZQ=",
+        "originContent": "* #### 随风潜入夜",
+        "translatedContent": "* #### Penetrates quietly like the night"
+      },
+      {
+        "row": 22,
+        "rowsha": "jjGZfMWrMESSSP0dpCyQOclsFDbz55PZrgxIp3eKiUU=",
+        "originContent": "  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可和现有Mongo框架结合使用，无侵入性",
+        "translatedContent": "  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Can be used with existing Mongo frameworks, non-intrusive"
+      },
+      {
+        "row": 23,
+        "rowsha": "IkHy0BF5VBVBtp8QzsGisJPLaa9di3p0fQnp9Ohu3vo=",
+        "originContent": "* #### 简化开发",
+        "translatedContent": "* #### Simplified development"
+      },
+      {
+        "row": 24,
+        "rowsha": "A8K8vXWBzr+y/byEn2sR/R6lK3GMDmDE7s2EMS6Ra1s=",
+        "originContent": "  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只需简单配置，即可快速进行CRUD操作，链式调用更加便捷",
+        "translatedContent": "  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only simple configuration needed for fast CRUD operations, chain calls are more convenient"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "C9brqjx00ahgbzQ5KCVDNCbc884CmCfdksw+AGWkRRI=",
+        "originContent": "### 优点：",
+        "translatedContent": "### Advantages:"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "L0YVIHLUPsABRK+u3czSJynskLhL20zG82CLjbmprtA=",
+        "originContent": "* 无侵入：只做增强不做改变，引入它不会对现有工程产生影响，如丝般顺滑",
+        "translatedContent": "* Non-intrusive: Only enhances, does not change. Introducing it won't affect the existing project, smooth as silk"
+      },
+      {
+        "row": 29,
+        "rowsha": "TQYP0qOXEY91O+h+QkSohjm4RgWX8V3RxmPFTjQNvFY=",
+        "originContent": "* 损耗小：启动即会自动注入基本 CURD，性能基本无损耗，直接面向对象操作",
+        "translatedContent": "* Low overhead: Automatically injects basic CURD on startup, almost no performance loss, direct object-oriented operations"
+      },
+      {
+        "row": 30,
+        "rowsha": "ZnTGttpQAneTKiow7T307/USEzpf7iGNJiywGv4risA=",
+        "originContent": "* 强大的 CRUD 操作：通用 Service，仅仅通过少量配置即可实现单表大部分 CRUD 操作，更有强大的条件构造器，满足各类使用需求",
+        "translatedContent": "* Powerful CRUD operations: General Service enables most single-table CRUD operations with minimal configuration, and provides a powerful condition builder to meet various needs"
+      },
+      {
+        "row": 31,
+        "rowsha": "F55UKfQ3EaB0SKS1zRafKg8KjE1yjwjJRRx7PmNvRI0=",
+        "originContent": "* 支持 Lambda 形式调用：通过 Lambda 表达式，方便的编写各类查询条件，无需再担心字段写错",
+        "translatedContent": "* Supports Lambda call style: Easily write various query conditions with Lambda expressions, no need to worry about field name errors"
+      },
+      {
+        "row": 32,
+        "rowsha": "Yl53siEoqFoNq8qO31y7qId2Q2R9GarnV7rVluRDbSo=",
+        "originContent": "* 支持主键自动生成：支持多达 5 种主键策略（内含分布式唯一 ID 生成器 - Sequence），可自由配置，完美解决主键问题",
+        "translatedContent": "* Supports automatic primary key generation: Supports up to 5 primary key strategies (including distributed unique ID generator - Sequence), freely configurable, perfectly solves primary key issues"
+      },
+      {
+        "row": 33,
+        "rowsha": "Q1Q1TKnhrZfqpoPb6ey31TVKRkUs4LVrUC+CkYSVP50=",
+        "originContent": "* 支持无实体类情况下的操作",
+        "translatedContent": "* Supports operations without entity classes"
+      },
+      {
+        "row": 34,
+        "rowsha": "hxBcnqSzT3YDeS+7Dx7u+elcyau6ODklkI7g/pQVmj0=",
+        "originContent": "* 支持动态数据源",
+        "translatedContent": "* Supports dynamic data sources"
+      },
+      {
+        "row": 35,
         "rowsha": "mm836cQilVL8IWgVLYzDa3DIs2mkhyv5NTkYWiB/pfI=",
         "originContent": "* 支持逻辑删除、防止全集合更新和删除、自动填充等等功能",
-        "translatedContent": "* Supports logical deletion, prevention of full collection updates and deletions, automatic filling, and other functions  "
+        "translatedContent": "* Supports logical deletion, prevents full collection updates and deletions, auto-fill and other features"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "31PdzYSwMuzBuBSr+XMUSQ6E/ewTNmljxbZFKE01w4E=",
+        "originContent": "### 快速开发",
+        "translatedContent": "### Rapid Development"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "h8dvn0DFF8OLYCxzJsHIJ2Swb/bwy0+o02sQflZMErY=",
+        "originContent": "MyBatisPlus就是可以不用像MyBatis一样写过多的sql语句，Mongo-Plus也一样！",
+        "translatedContent": "With MyBatisPlus, you don't need to write excessive SQL like MyBatis, and Mongo-Plus is the same!"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "### 项目已接入墨菲安全\n##### 点击查看检测报告\n[![Security Status](https://www.murphysec.com/platform3/v31/badge/1810204695353073664.svg)](https://www.murphysec.com/console/report/1810204585500057600/1810204695353073664)\n\n### 文档\n文档地址： https://mongoplus.com/\n\n### 联系我们\n#### 在使用MongoPlus的过程中，有任何问题和想法或者加入群聊请联系我\n#### v：anwen_529\n#### 备注：MongoPlus\n<img src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/wx.png\" alt=\"微信\">\n\n###  参与贡献\n\n1.  Star and Fork 本仓库\n2.  新建 Feat_xxx 分支\n3.  提交代码\n4.  新建 Pull Request\n",
+    "ContentSha": "n8abN2udJeqfHor0jrk/a8j9UnC9lZNp8xXyvAwJi6I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Project Integrated with Murphy Security\n##### Click to view the inspection report\n[![Security Status](https://www.murphysec.com/platform3/v31/badge/1810204695353073664.svg)](https://www.murphysec.com/console/report/1810204585500057600/1810204695353073664)\n\n### Documentation\nDocumentation address: https://mongoplus.com/\n\n### Contact Us\n#### If you have any questions or ideas while using MongoPlus or wish to join the group chat, please contact me\n#### WeChat: anwen_529\n#### Note: MongoPlus\n<img src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/wx.png\" alt=\"WeChat\">\n\n###  Participate and Contribute\n\n1.  Star and Fork this repository\n2.  Create a Feat_xxx branch\n3.  Submit code\n4.  Create a Pull Request\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rgKrCWv/g2FoNK8jQyY6w+lev2lsSfOnJQhvA4F8gHY=",
+        "originContent": "### 项目已接入墨菲安全",
+        "translatedContent": "### Project Integrated with Murphy Security"
+      },
+      {
+        "row": 2,
+        "rowsha": "ydmJTzpZyOSIk5XxGMYgPKzHnbXkH8hUFlGyD2M+Rg8=",
+        "originContent": "##### 点击查看检测报告",
+        "translatedContent": "##### Click to view the inspection report"
+      },
+      {
+        "row": 3,
+        "rowsha": "G9xpvJPrE+mh3oLcgzNPyIHokqiXSBpfDHbpe46pTvI=",
+        "originContent": "[![Security Status](https://www.murphysec.com/platform3/v31/badge/1810204695353073664.svg)](https://www.murphysec.com/console/report/1810204585500057600/1810204695353073664)",
+        "translatedContent": "[![Security Status](https://www.murphysec.com/platform3/v31/badge/1810204695353073664.svg)](https://www.murphysec.com/console/report/1810204585500057600/1810204695353073664)"
       },
       {
         "row": 4,
@@ -288,63 +541,63 @@
       },
       {
         "row": 5,
-        "rowsha": "31PdzYSwMuzBuBSr+XMUSQ6E/ewTNmljxbZFKE01w4E=",
-        "originContent": "### 快速开发",
-        "translatedContent": "### Rapid Development  "
+        "rowsha": "11Qc7oSIeKzUH/PGRzCPFkqORzTtb/EbROnYUOITCAw=",
+        "originContent": "### 文档",
+        "translatedContent": "### Documentation"
       },
       {
         "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "fAwIT1TjbI5QnFm0CdGObSpdrGiAtbEDqZoIUm5MhnE=",
+        "originContent": "文档地址： https://mongoplus.com/",
+        "translatedContent": "Documentation address: https://mongoplus.com/"
       },
       {
         "row": 7,
-        "rowsha": "h8dvn0DFF8OLYCxzJsHIJ2Swb/bwy0+o02sQflZMErY=",
-        "originContent": "MyBatisPlus就是可以不用像MyBatis一样写过多的sql语句，Mongo-Plus也一样！",
-        "translatedContent": "MyBatisPlus allows you to avoid writing excessive SQL statements like MyBatis, and Mongo-Plus is the same!  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "nweg4AmSzyDlKdmWPXUUKw+9l9mnsDtogT314571oxU=",
+        "originContent": "### 联系我们",
+        "translatedContent": "### Contact Us"
       },
       {
         "row": 9,
-        "rowsha": "rgKrCWv/g2FoNK8jQyY6w+lev2lsSfOnJQhvA4F8gHY=",
-        "originContent": "### 项目已接入墨菲安全",
-        "translatedContent": "### Project Integrated with Murphy Security  "
+        "rowsha": "iwf3T2q+uATUJC4qoHt29aXgV3FFF4+4Wc/u5MmVslU=",
+        "originContent": "#### 在使用MongoPlus的过程中，有任何问题和想法或者加入群聊请联系我",
+        "translatedContent": "#### If you have any questions or ideas while using MongoPlus or wish to join the group chat, please contact me"
       },
       {
         "row": 10,
-        "rowsha": "ydmJTzpZyOSIk5XxGMYgPKzHnbXkH8hUFlGyD2M+Rg8=",
-        "originContent": "##### 点击查看检测报告",
-        "translatedContent": "##### Click to view the inspection report  "
+        "rowsha": "GZApV+1hSdDVO5uJO4/FavVFkVz5C2+OteeEdNmUhv4=",
+        "originContent": "#### v：anwen_529",
+        "translatedContent": "#### WeChat: anwen_529"
       },
       {
         "row": 11,
-        "rowsha": "G9xpvJPrE+mh3oLcgzNPyIHokqiXSBpfDHbpe46pTvI=",
-        "originContent": "[![Security Status](https://www.murphysec.com/platform3/v31/badge/1810204695353073664.svg)](https://www.murphysec.com/console/report/1810204585500057600/1810204695353073664)",
-        "translatedContent": "[![Security Status](https://www.murphysec.com/platform3/v31/badge/1810204695353073664.svg)](https://www.murphysec.com/console/report/1810204585500057600/1810204695353073664)  "
+        "rowsha": "E+Jm7YkDuumrfOcz/OmB0RNISyBHR5UQ7/FGkd+jnmA=",
+        "originContent": "#### 备注：MongoPlus",
+        "translatedContent": "#### Note: MongoPlus"
       },
       {
         "row": 12,
+        "rowsha": "AlMPIC8djeObYA8PtCDDwYISAzoUi99JgCQg3jnCXIk=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/wx.png\" alt=\"微信\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/wx.png\" alt=\"WeChat\">"
+      },
+      {
+        "row": 13,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 13,
-        "rowsha": "11Qc7oSIeKzUH/PGRzCPFkqORzTtb/EbROnYUOITCAw=",
-        "originContent": "### 文档",
-        "translatedContent": "### Documentation  "
-      },
-      {
         "row": 14,
-        "rowsha": "fAwIT1TjbI5QnFm0CdGObSpdrGiAtbEDqZoIUm5MhnE=",
-        "originContent": "文档地址： https://mongoplus.com/",
-        "translatedContent": "Documentation URL: https://mongoplus.com/  "
+        "rowsha": "BM2Aa8ckFTK4XXePxp7X1T/pyYWuJk6PjyRe20LOaD8=",
+        "originContent": "###  参与贡献",
+        "translatedContent": "###  Participate and Contribute"
       },
       {
         "row": 15,
@@ -354,78 +607,30 @@
       },
       {
         "row": 16,
-        "rowsha": "nweg4AmSzyDlKdmWPXUUKw+9l9mnsDtogT314571oxU=",
-        "originContent": "### 联系我们",
-        "translatedContent": "### Contact Us  "
+        "rowsha": "RH7rTrsx0e9BqF/APLYXLbJpzDayfwRjKW+HxybZv5U=",
+        "originContent": "1.  Star and Fork 本仓库",
+        "translatedContent": "1.  Star and Fork this repository"
       },
       {
         "row": 17,
-        "rowsha": "iwf3T2q+uATUJC4qoHt29aXgV3FFF4+4Wc/u5MmVslU=",
-        "originContent": "#### 在使用MongoPlus的过程中，有任何问题和想法或者加入群聊请联系我",
-        "translatedContent": "#### If you have any questions or ideas during the use of MongoPlus or want to join the group chat, please contact me  "
+        "rowsha": "O7cTrtZtgoj+Skm2smwkzCuzoht7cBxgy5z8g3UeWXs=",
+        "originContent": "2.  新建 Feat_xxx 分支",
+        "translatedContent": "2.  Create a Feat_xxx branch"
       },
       {
         "row": 18,
-        "rowsha": "GZApV+1hSdDVO5uJO4/FavVFkVz5C2+OteeEdNmUhv4=",
-        "originContent": "#### v：anwen_529",
-        "translatedContent": "#### WeChat: anwen_529  "
+        "rowsha": "V9MV9AN2b06nwJu2wi3k/SJ6VR29YaAw8lxXBLp1TBk=",
+        "originContent": "3.  提交代码",
+        "translatedContent": "3.  Submit code"
       },
       {
         "row": 19,
-        "rowsha": "E+Jm7YkDuumrfOcz/OmB0RNISyBHR5UQ7/FGkd+jnmA=",
-        "originContent": "#### 备注：MongoPlus",
-        "translatedContent": "#### Note: MongoPlus  "
+        "rowsha": "CuJ3rxeQvJzB0K/WU5s3lEopmz1W+8ZvJrOn8q6O2Ps=",
+        "originContent": "4.  新建 Pull Request",
+        "translatedContent": "4.  Create a Pull Request"
       },
       {
         "row": 20,
-        "rowsha": "AlMPIC8djeObYA8PtCDDwYISAzoUi99JgCQg3jnCXIk=",
-        "originContent": "<img src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/wx.png\" alt=\"微信\">",
-        "translatedContent": "<img src=\"https://raw.githubusercontent.com/anwenmp/MongoPlus/master/wx.png\" alt=\"WeChat\">  "
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "BM2Aa8ckFTK4XXePxp7X1T/pyYWuJk6PjyRe20LOaD8=",
-        "originContent": "###  参与贡献",
-        "translatedContent": "### Contribution  "
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "RH7rTrsx0e9BqF/APLYXLbJpzDayfwRjKW+HxybZv5U=",
-        "originContent": "1.  Star and Fork 本仓库",
-        "translatedContent": "1.  Star and Fork this repository  "
-      },
-      {
-        "row": 25,
-        "rowsha": "O7cTrtZtgoj+Skm2smwkzCuzoht7cBxgy5z8g3UeWXs=",
-        "originContent": "2.  新建 Feat_xxx 分支",
-        "translatedContent": "2.  Create a Feat_xxx branch  "
-      },
-      {
-        "row": 26,
-        "rowsha": "V9MV9AN2b06nwJu2wi3k/SJ6VR29YaAw8lxXBLp1TBk=",
-        "originContent": "3.  提交代码",
-        "translatedContent": "3.  Commit your code  "
-      },
-      {
-        "row": 27,
-        "rowsha": "CuJ3rxeQvJzB0K/WU5s3lEopmz1W+8ZvJrOn8q6O2Ps=",
-        "originContent": "4.  新建 Pull Request",
-        "translatedContent": "4.  Create a Pull Request  "
-      },
-      {
-        "row": 28,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

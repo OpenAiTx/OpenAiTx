@@ -1,0 +1,1544 @@
+[
+  {
+    "Id": 1,
+    "Content": "# [Historic Borders](https://historicborders.app/)\n\nVisualize country borders from different times in history (2000 BC-1994)\n\nAs seen on [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/l52krh/an_app_i_made_for_visualizing_country_borders/).\n\n## Screenshot\n\n<img width=\"1023\" alt=\"screen-shot-of-app\" src=\"https://user-images.githubusercontent.com/10817537/175097196-e746778d-241a-4bee-b406-aac294849597.png\">\n\n## Features\n\n### Information Sources\n\nThe app provides country information through two sources:\n\n1. **Wikipedia** (default) - Fetches real-time information from Wikipedia\n2. **AI-powered** - Uses Google Gemini AI to generate country information with historical context\n\nYou can switch between these sources using the toggle button in the footer.\n\n### AI Response Caching\n\nThe app uses **Redis** to cache AI responses for improved performance:\n\n- ⚡ **Instant responses** for previously requested countries/years\n- 💰 **Reduced API costs** - Fewer calls to Google Gemini\n- 🔧 **Smart expiration** - 1-hour cache TTL keeps content fresh\n- 📊 **Analytics tracking** - Cache hit/miss rates in Google Analytics\n\nSee [REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md) for detailed setup instructions.\n\n### AI Feature Analytics\n\nThe app includes comprehensive Google Analytics tracking for the AI feature to understand user engagement and performance:\n\n#### Tracked Events\n\n**Provider Usage:**\n- `toggle_provider` - When users switch between Wikipedia and AI",
+    "ContentSha": "IRU3g1AMyqSDIcMLwP/Ur9HI2FvWF1oqcj6P5JUcXkc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# [历史边界](https://historicborders.app/)\n\n可视化不同时期的国家边界（公元前2000年-1994年）\n\n见于 [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/l52krh/an_app_i_made_for_visualizing_country_borders/)。\n\n## 截图\n\n<img width=\"1023\" alt=\"screen-shot-of-app\" src=\"https://user-images.githubusercontent.com/10817537/175097196-e746778d-241a-4bee-b406-aac294849597.png\">\n\n## 功能\n\n### 信息来源\n\n该应用通过两种来源提供国家信息：\n\n1. **维基百科**（默认）- 实时获取维基百科的信息\n2. **AI驱动** - 使用谷歌Gemini AI生成带有历史背景的国家信息\n\n您可以通过页脚的切换按钮在这两种来源之间切换。\n\n### AI响应缓存\n\n该应用使用 **Redis** 缓存AI响应以提升性能：\n\n- ⚡ **即时响应**，针对之前请求的国家/年份\n- 💰 **降低API成本** - 减少调用谷歌Gemini的次数\n- 🔧 **智能过期** - 1小时缓存TTL保持内容新鲜\n- 📊 **分析跟踪** - 在谷歌分析中统计缓存命中/未命中率\n\n详细设置说明见 [REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md)。\n\n### AI功能分析\n\n该应用包含全面的谷歌分析跟踪AI功能，以了解用户参与度和性能：\n\n#### 跟踪事件\n\n**提供者使用情况：**\n- `toggle_provider` - 用户在维基百科和AI之间切换时",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fV8zWayuSx97Bkyo7GwUB6sYX7ObtHEJMjUw3yHtGGM=",
+        "originContent": "# [Historic Borders](https://historicborders.app/)",
+        "translatedContent": "# [历史边界](https://historicborders.app/)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "HZIu9ufxMOtrcB73kCChLMJxoUr2xP7xhML7+sOggM0=",
+        "originContent": "Visualize country borders from different times in history (2000 BC-1994)",
+        "translatedContent": "可视化不同时期的国家边界（公元前2000年-1994年）"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "j0xUocfjAaWp0dX0l1xAZijPuBQNWDxSpc2SzLACjXU=",
+        "originContent": "As seen on [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/l52krh/an_app_i_made_for_visualizing_country_borders/).",
+        "translatedContent": "见于 [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/l52krh/an_app_i_made_for_visualizing_country_borders/)。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "//9AuIIaXy9mvaAGc/r6mkESt/laTi9ivwat9mNHcs0=",
+        "originContent": "## Screenshot",
+        "translatedContent": "## 截图"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "wSR8I+bXUXLTCjIEpA2OCxGECMPRDYWykIqhGA7M2l0=",
+        "originContent": "<img width=\"1023\" alt=\"screen-shot-of-app\" src=\"https://user-images.githubusercontent.com/10817537/175097196-e746778d-241a-4bee-b406-aac294849597.png\">",
+        "translatedContent": "<img width=\"1023\" alt=\"screen-shot-of-app\" src=\"https://user-images.githubusercontent.com/10817537/175097196-e746778d-241a-4bee-b406-aac294849597.png\">"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "VlPx4rgWfrRsmEvDeQ2rPCuFJsVbS3AkR4rainXscPM=",
+        "originContent": "### Information Sources",
+        "translatedContent": "### 信息来源"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "CKv77ZWkErxZfu8pa+vR4JOTayRdEu939xaPdKIfn3I=",
+        "originContent": "The app provides country information through two sources:",
+        "translatedContent": "该应用通过两种来源提供国家信息："
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "BP1b5oZ70+DC523YhJZeQVoeArPbu9SRrtoeqfmwvMI=",
+        "originContent": "1. **Wikipedia** (default) - Fetches real-time information from Wikipedia",
+        "translatedContent": "1. **维基百科**（默认）- 实时获取维基百科的信息"
+      },
+      {
+        "row": 18,
+        "rowsha": "MarqBYLF2dubr7f7E+HHa6uVOgjvLnUFaNWrO3Y39Z8=",
+        "originContent": "2. **AI-powered** - Uses Google Gemini AI to generate country information with historical context",
+        "translatedContent": "2. **AI驱动** - 使用谷歌Gemini AI生成带有历史背景的国家信息"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "M0T0zm4LX+FqSjLKIHnBfvT+5Pry0ehuVS6Be6CJMxQ=",
+        "originContent": "You can switch between these sources using the toggle button in the footer.",
+        "translatedContent": "您可以通过页脚的切换按钮在这两种来源之间切换。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "RmvlWD9AoMy9kvgBW3JqTRMga5rW4df8eTboFFbk8mo=",
+        "originContent": "### AI Response Caching",
+        "translatedContent": "### AI响应缓存"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "HYr3Z8H6ZicsEPqBzObmbBuKqMd+q8Bkyt96j0EGFO8=",
+        "originContent": "The app uses **Redis** to cache AI responses for improved performance:",
+        "translatedContent": "该应用使用 **Redis** 缓存AI响应以提升性能："
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "lswHSZIFZ+y2OxOUPsrolM/TU7yP2KAP/0fafjPzT04=",
+        "originContent": "- ⚡ **Instant responses** for previously requested countries/years",
+        "translatedContent": "- ⚡ **即时响应**，针对之前请求的国家/年份"
+      },
+      {
+        "row": 27,
+        "rowsha": "ljtlf/dYI2TndB698LfOPBxz5yBoOkGHudWQKfQhFpI=",
+        "originContent": "- 💰 **Reduced API costs** - Fewer calls to Google Gemini",
+        "translatedContent": "- 💰 **降低API成本** - 减少调用谷歌Gemini的次数"
+      },
+      {
+        "row": 28,
+        "rowsha": "VuJ6U+tu3xcL2ujNJ10a5YHGOMSOiWCH2+Zq3LJ7pLY=",
+        "originContent": "- 🔧 **Smart expiration** - 1-hour cache TTL keeps content fresh",
+        "translatedContent": "- 🔧 **智能过期** - 1小时缓存TTL保持内容新鲜"
+      },
+      {
+        "row": 29,
+        "rowsha": "aJfztSKIRF1k8Pz8YYtoE29kRa87Abb6CBVTtVOQ7oE=",
+        "originContent": "- 📊 **Analytics tracking** - Cache hit/miss rates in Google Analytics",
+        "translatedContent": "- 📊 **分析跟踪** - 在谷歌分析中统计缓存命中/未命中率"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "v27Rnd5EAVTY3RtVr/gS3gsiSgGMHMH128/lFNCBnLo=",
+        "originContent": "See [REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md) for detailed setup instructions.",
+        "translatedContent": "详细设置说明见 [REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md)。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "++h2PfNzTL8iohonmiHz+SeMSMNCecJixKdCXiiIgUc=",
+        "originContent": "### AI Feature Analytics",
+        "translatedContent": "### AI功能分析"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "qy4YHgzinYU8XsjZbodu+6hrAtTcsLu/mSGdwhnQcTQ=",
+        "originContent": "The app includes comprehensive Google Analytics tracking for the AI feature to understand user engagement and performance:",
+        "translatedContent": "该应用包含全面的谷歌分析跟踪AI功能，以了解用户参与度和性能："
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "3eibHmiN++ltwP/nK/gnM4njaTqKb5iLHREBK91UEIQ=",
+        "originContent": "#### Tracked Events",
+        "translatedContent": "#### 跟踪事件"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "L9bughbKRwA0F32Q03TQU78+dMdbdH7E8tchsUqTeyQ=",
+        "originContent": "**Provider Usage:**",
+        "translatedContent": "**提供者使用情况：**"
+      },
+      {
+        "row": 40,
+        "rowsha": "Vq9/h9Ixn3spPqghDB3vuBQk35n7fpsbqslq76Kg2dc=",
+        "originContent": "- `toggle_provider` - When users switch between Wikipedia and AI",
+        "translatedContent": "- `toggle_provider` - 用户在维基百科和AI之间切换时"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- `enable_ai` / `disable_ai` - AI feature activation/deactivation\n- `provider_restored` - When preference is loaded from localStorage\n- `session_provider_active` - Active provider per session\n\n**AI Requests:**\n- `request_initiated` - AI request started\n- `response_success` - Successful AI response\n- `response_time_success` - Response time for successful requests\n- `response_length` - Character count of AI responses\n- `response_word_count` - Word count of AI responses\n- `request_failed` - Failed AI requests\n- `api_error` - API-specific errors with status codes\n- `api_key_missing` - Missing API key events\n\n**Cache Performance:**\n- `cache_hit` - Response served from Redis cache (faster)\n- `cache_miss` - No cached response, API call made\n- `cache_error` - Redis unavailable (fallback to API)\n- `cache_write_success` - Response successfully cached\n- `cache_write_error` - Failed to cache response\n\n**Content Display:**\n- `popup_displayed` - When popups show AI vs Wikipedia content\n- `content_displayed` - Successful content display\n- `content_error_displayed` - Error content shown to users\n- `content_empty_displayed` - Empty/no content scenarios\n- `popup_closed` - User closes information popups\n\n**Performance Metrics:**\n- Response times (success/failure)\n- Content quality metrics (word count, character count)\n- Error rates and types\n- User engagement patterns\n\n#### Analytics Categories\n\nAll AI-related events use the category `\"AI Feature\"` for easy filtering in Google Analytics.\n\n#### Data Privacy\n",
+    "ContentSha": "qnGSw30ir6NsOao3U4d3Jl73iVD8Tin4kV2mtbjk1g0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- `enable_ai` / `disable_ai` - AI功能启用/禁用  \n- `provider_restored` - 当偏好设置从localStorage加载时  \n- `session_provider_active` - 每个会话的活动提供者  \n\n**AI请求：**  \n- `request_initiated` - AI请求开始  \n- `response_success` - AI响应成功  \n- `response_time_success` - 成功请求的响应时间  \n- `response_length` - AI响应的字符数  \n- `response_word_count` - AI响应的词数  \n- `request_failed` - AI请求失败  \n- `api_error` - 带状态码的API特定错误  \n- `api_key_missing` - 缺失API密钥事件  \n\n**缓存性能：**  \n- `cache_hit` - 从Redis缓存响应（更快）  \n- `cache_miss` - 无缓存响应，发起API调用  \n- `cache_error` - Redis不可用（回退至API）  \n- `cache_write_success` - 响应成功缓存  \n- `cache_write_error` - 缓存响应失败  \n\n**内容展示：**  \n- `popup_displayed` - 弹窗显示AI与维基百科内容时  \n- `content_displayed` - 内容成功展示  \n- `content_error_displayed` - 向用户显示错误内容  \n- `content_empty_displayed` - 空白/无内容场景  \n- `popup_closed` - 用户关闭信息弹窗  \n\n**性能指标：**  \n- 响应时间（成功/失败）  \n- 内容质量指标（词数，字符数）  \n- 错误率及类型  \n- 用户参与模式  \n\n#### 分析类别  \n\n所有AI相关事件均使用类别 `\"AI Feature\"`，方便在Google Analytics中筛选。  \n\n#### 数据隐私\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "MR/JlSNAy0MJpGdxprQJ5WHfTuzuyYRvH7ZA5d/2iCA=",
+        "originContent": "- `enable_ai` / `disable_ai` - AI feature activation/deactivation",
+        "translatedContent": "- `enable_ai` / `disable_ai` - AI功能启用/禁用  "
+      },
+      {
+        "row": 2,
+        "rowsha": "QtuSV8ZXdUXc+/vaLucjMMeIqJxd2gjJ2DKR/7Egduk=",
+        "originContent": "- `provider_restored` - When preference is loaded from localStorage",
+        "translatedContent": "- `provider_restored` - 当偏好设置从localStorage加载时  "
+      },
+      {
+        "row": 3,
+        "rowsha": "WUuw4wbbCLTqzLUDG03ZKg4EjWqmQeWKfpBHL2ZhYvw=",
+        "originContent": "- `session_provider_active` - Active provider per session",
+        "translatedContent": "- `session_provider_active` - 每个会话的活动提供者  "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "iUfQJJxEvLKXfz3uUug4jxiDZXN9aPimi6qsnV2qnIc=",
+        "originContent": "**AI Requests:**",
+        "translatedContent": "**AI请求：**  "
+      },
+      {
+        "row": 6,
+        "rowsha": "OoA4ZkX70gJ/AIW77Fm6plpLnYgprSEeOlhgbNQPm/g=",
+        "originContent": "- `request_initiated` - AI request started",
+        "translatedContent": "- `request_initiated` - AI请求开始  "
+      },
+      {
+        "row": 7,
+        "rowsha": "lkemX/siHlVqc/8IMYk1P729mMVOlq5xjJSF4Unhwi0=",
+        "originContent": "- `response_success` - Successful AI response",
+        "translatedContent": "- `response_success` - AI响应成功  "
+      },
+      {
+        "row": 8,
+        "rowsha": "MqbpS+Z32Wb6yxzb1glVYd/Epf8+DIqYnTttQmlnvps=",
+        "originContent": "- `response_time_success` - Response time for successful requests",
+        "translatedContent": "- `response_time_success` - 成功请求的响应时间  "
+      },
+      {
+        "row": 9,
+        "rowsha": "u6KLCX/XOVjitYNcDr42PIsPMAakEcbsc0vJJKX/iI4=",
+        "originContent": "- `response_length` - Character count of AI responses",
+        "translatedContent": "- `response_length` - AI响应的字符数  "
+      },
+      {
+        "row": 10,
+        "rowsha": "Yw1P3DRqaDc5g6wMRYoCWNtn4gRfiSpvcBaFmuD5BWo=",
+        "originContent": "- `response_word_count` - Word count of AI responses",
+        "translatedContent": "- `response_word_count` - AI响应的词数  "
+      },
+      {
+        "row": 11,
+        "rowsha": "k6ZkxPGxI3jMToc9+xCxzOF820liAq71BQPj8v8LxEw=",
+        "originContent": "- `request_failed` - Failed AI requests",
+        "translatedContent": "- `request_failed` - AI请求失败  "
+      },
+      {
+        "row": 12,
+        "rowsha": "20UXDmFmOA0XBK2knWIoyMocuWepVW/FmWpR1W06Vyk=",
+        "originContent": "- `api_error` - API-specific errors with status codes",
+        "translatedContent": "- `api_error` - 带状态码的API特定错误  "
+      },
+      {
+        "row": 13,
+        "rowsha": "jcw+jQW92BiPcxb5PdhjAvFWCbhb1I2QLvTg0/yiFw8=",
+        "originContent": "- `api_key_missing` - Missing API key events",
+        "translatedContent": "- `api_key_missing` - 缺失API密钥事件  "
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "7lRkOC3iMpeyvzYLRat0KI058Ec2Ui/EHraU4eL1aKQ=",
+        "originContent": "**Cache Performance:**",
+        "translatedContent": "**缓存性能：**  "
+      },
+      {
+        "row": 16,
+        "rowsha": "PGYuMmxFSzC0p/W0+qlRefpY9aeIjv+GQXKVL/og0LY=",
+        "originContent": "- `cache_hit` - Response served from Redis cache (faster)",
+        "translatedContent": "- `cache_hit` - 从Redis缓存响应（更快）  "
+      },
+      {
+        "row": 17,
+        "rowsha": "++egOJNVz1SLH5LLctvuGu+rErz04ybHsQBQ75nRNZw=",
+        "originContent": "- `cache_miss` - No cached response, API call made",
+        "translatedContent": "- `cache_miss` - 无缓存响应，发起API调用  "
+      },
+      {
+        "row": 18,
+        "rowsha": "iLRLeYi56FRa/sW+TOlZiVjvQ5U1SL+Evcw0BBfEnAg=",
+        "originContent": "- `cache_error` - Redis unavailable (fallback to API)",
+        "translatedContent": "- `cache_error` - Redis不可用（回退至API）  "
+      },
+      {
+        "row": 19,
+        "rowsha": "bGbsluO/+hy8FlkvXODsdgWE8/o9cZfMwT3UXFV5f20=",
+        "originContent": "- `cache_write_success` - Response successfully cached",
+        "translatedContent": "- `cache_write_success` - 响应成功缓存  "
+      },
+      {
+        "row": 20,
+        "rowsha": "IORT2BRFp4hRK2ehPurHEoKAMJ1r+hGceyO+cKaQSMo=",
+        "originContent": "- `cache_write_error` - Failed to cache response",
+        "translatedContent": "- `cache_write_error` - 缓存响应失败  "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "gkfBGXf1twphWAQQyoVv63MoJRIE316st9pRPTFoLv4=",
+        "originContent": "**Content Display:**",
+        "translatedContent": "**内容展示：**  "
+      },
+      {
+        "row": 23,
+        "rowsha": "wn9bZG/rZ1vmhriBRX1co1b0h+u+DG5aXOIV3n3v2/w=",
+        "originContent": "- `popup_displayed` - When popups show AI vs Wikipedia content",
+        "translatedContent": "- `popup_displayed` - 弹窗显示AI与维基百科内容时  "
+      },
+      {
+        "row": 24,
+        "rowsha": "a+FIeBBsG+qYvWdOTshe7YZlXu37K9pDxJ8Uc0WRcWI=",
+        "originContent": "- `content_displayed` - Successful content display",
+        "translatedContent": "- `content_displayed` - 内容成功展示  "
+      },
+      {
+        "row": 25,
+        "rowsha": "v5YWScpxv3hSvKwPovBJi4U0JF3SvdGoNXQda5HHdB4=",
+        "originContent": "- `content_error_displayed` - Error content shown to users",
+        "translatedContent": "- `content_error_displayed` - 向用户显示错误内容  "
+      },
+      {
+        "row": 26,
+        "rowsha": "z48YThDlkg1oGRomCpL+wysHGM76Y5ozzHF91H6L1ak=",
+        "originContent": "- `content_empty_displayed` - Empty/no content scenarios",
+        "translatedContent": "- `content_empty_displayed` - 空白/无内容场景  "
+      },
+      {
+        "row": 27,
+        "rowsha": "scJRrEPQuKy1kemlAYK3NBHSCROZ0r11Nz9EQSiDDBU=",
+        "originContent": "- `popup_closed` - User closes information popups",
+        "translatedContent": "- `popup_closed` - 用户关闭信息弹窗  "
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "ZZQh4khjNI1CoCweO21zS1w8hTmrZyQT8IS9VJO7Xa0=",
+        "originContent": "**Performance Metrics:**",
+        "translatedContent": "**性能指标：**  "
+      },
+      {
+        "row": 30,
+        "rowsha": "GrJCQWQXccJSrlDVV7bQgScStfXiU6RyQ4Xijuedl7Q=",
+        "originContent": "- Response times (success/failure)",
+        "translatedContent": "- 响应时间（成功/失败）  "
+      },
+      {
+        "row": 31,
+        "rowsha": "0pNNg2bD3AVZsvDgHHOVdfRaUxdcEo/Ug0bI2weT2H4=",
+        "originContent": "- Content quality metrics (word count, character count)",
+        "translatedContent": "- 内容质量指标（词数，字符数）  "
+      },
+      {
+        "row": 32,
+        "rowsha": "bhT7CczZJAz4PTA1KI7BRVV7WTBtMksbmaCgnycNTGo=",
+        "originContent": "- Error rates and types",
+        "translatedContent": "- 错误率及类型  "
+      },
+      {
+        "row": 33,
+        "rowsha": "EMLJ/OiX/8v6IaeWoq7mNmm5DmxlRiw+vAxTNkPog0U=",
+        "originContent": "- User engagement patterns",
+        "translatedContent": "- 用户参与模式  "
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "yA+eSdDXa28v5GRlgq+fpGElP3gukYi/m7gdLXnWOyk=",
+        "originContent": "#### Analytics Categories",
+        "translatedContent": "#### 分析类别  "
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "NOs2e+TGF0bwu4INcAGtxRcTEqEsWUjDO1jZ1gzzkiA=",
+        "originContent": "All AI-related events use the category `\"AI Feature\"` for easy filtering in Google Analytics.",
+        "translatedContent": "所有AI相关事件均使用类别 `\"AI Feature\"`，方便在Google Analytics中筛选。  "
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "SJtjXybLvgIXEBYbBi+Kd2vwFvcmucW/tWUrIbkoeac=",
+        "originContent": "#### Data Privacy",
+        "translatedContent": "#### 数据隐私"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "Analytics tracking is anonymized and focuses on feature usage patterns rather than personal information. No API keys or sensitive data are tracked.\n\n## Setup\n\n### Prerequisites\n\n- Node.js 18+ and yarn\n- Google Gemini API key (free tier available)\n- Google Analytics 4 property (optional, for analytics)\n\n### Installation\n",
+    "ContentSha": "6Qr8lZYbR32LhCmkTe9qXKJV1CVnFir93c1GBja2hrU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "分析跟踪是匿名的，侧重于功能使用模式而非个人信息。不会跟踪 API 密钥或敏感数据。\n\n## 设置\n\n### 前提条件\n\n- Node.js 18 及以上版本和 yarn\n- Google Gemini API 密钥（提供免费套餐）\n- Google Analytics 4 资源（可选，用于分析）\n\n### 安装\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0aTpd9MPgpBD/oPhs/OIYOGoLAaFVu8qZ5hH3aLz/sc=",
+        "originContent": "Analytics tracking is anonymized and focuses on feature usage patterns rather than personal information. No API keys or sensitive data are tracked.",
+        "translatedContent": "分析跟踪是匿名的，侧重于功能使用模式而非个人信息。不会跟踪 API 密钥或敏感数据。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+        "originContent": "## Setup",
+        "translatedContent": "## 设置"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### 前提条件"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "mZ3IwO27ZGUhISyOGImzCTR8xhqKuNJoB5fALNqKRxs=",
+        "originContent": "- Node.js 18+ and yarn",
+        "translatedContent": "- Node.js 18 及以上版本和 yarn"
+      },
+      {
+        "row": 8,
+        "rowsha": "W/hoU08lqpAHok5EkhV8Q3Deo9V2mmnp2v9Fa+XR7ig=",
+        "originContent": "- Google Gemini API key (free tier available)",
+        "translatedContent": "- Google Gemini API 密钥（提供免费套餐）"
+      },
+      {
+        "row": 9,
+        "rowsha": "firGZNurZc1DpKiYT72tavcKIz/7L/EvKPeVNz/hJ58=",
+        "originContent": "- Google Analytics 4 property (optional, for analytics)",
+        "translatedContent": "- Google Analytics 4 资源（可选，用于分析）"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### 安装"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ngit clone https://github.com/nrgapple/historic-country-borders-app.git\ncd historic-country-borders-app\nyarn install\n```",
+    "ContentSha": "jPdKDjX5ZS9AxSTgPBH5Ta0BaQJaUT9P5z7Ye6NLDRs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/nrgapple/historic-country-borders-app.git\ncd historic-country-borders-app\nyarn install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "9P9xdWE2R07eOO4gnvAt6j/wKBkcMSunLYnIE8oJA2c=",
+        "originContent": "git clone https://github.com/nrgapple/historic-country-borders-app.git",
+        "translatedContent": "git clone https://github.com/nrgapple/historic-country-borders-app.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "8qedKu2uFuHS30qIbJjPF1T/0ubtz+y1BtDL3cDQ6Io=",
+        "originContent": "cd historic-country-borders-app",
+        "translatedContent": "cd historic-country-borders-app"
+      },
+      {
+        "row": 4,
+        "rowsha": "UWnszpf2bQa9Un4es5vKU4mcLg+R5FPsdH2U31RWLJg=",
+        "originContent": "yarn install",
+        "translatedContent": "yarn install"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Environment Variables\n\nCreate a `.env.local` file:\n",
+    "ContentSha": "j3kw6W4HlH1BZauh3IET1YPGTUCn3Ot//9+0pKjB5Og=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 环境变量\n\n创建一个 `.env.local` 文件：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "z0e1mPGeKrXDpgwT5hpUsqWlMTlzlzBoJvcLaIVPlLI=",
+        "originContent": "### Environment Variables",
+        "translatedContent": "### 环境变量"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "g1KGwcKo5tvkxkAKgF8m5BQ7Dxk5A1hiHAIzTStb1xU=",
+        "originContent": "Create a `.env.local` file:",
+        "translatedContent": "创建一个 `.env.local` 文件："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# Optional for analytics\nNEXT_PUBLIC_GA_FOUR=your_google_analytics_id\n\n# Optional for map features\nNEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_token\n\n# Redis for AI response caching (required for caching)\nREDIS_URL=your_redis_connection_string\n\n# Required for AI features (server-side only)\nGEMINI_API_KEY=your_gemini_api_key_here\n```",
+    "ContentSha": "n7kRMOMlNHnF4nf9CLD2OokNrxW/qYrzUGrtrWUoXho=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Optional for analytics\nNEXT_PUBLIC_GA_FOUR=your_google_analytics_id\n\n# Optional for map features\nNEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_token\n\n# Redis for AI response caching (required for caching)\nREDIS_URL=your_redis_connection_string\n\n# Required for AI features (server-side only)\nGEMINI_API_KEY=your_gemini_api_key_here\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "w6DZ74d2diYVi2E08GvZ58B9pykbfP1qNB+YLZygdJM=",
+        "originContent": "# Optional for analytics",
+        "translatedContent": "# Optional for analytics"
+      },
+      {
+        "row": 3,
+        "rowsha": "iv+UltDRLUTs/XYUSMWXhjdH4CwBKb3mHLZIi9Gnc7w=",
+        "originContent": "NEXT_PUBLIC_GA_FOUR=your_google_analytics_id",
+        "translatedContent": "NEXT_PUBLIC_GA_FOUR=your_google_analytics_id"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "GSjxtDoMR1RwhBzirqqieZ3dUBoi4sVQe9yPHgvHcfo=",
+        "originContent": "# Optional for map features",
+        "translatedContent": "# Optional for map features"
+      },
+      {
+        "row": 6,
+        "rowsha": "fLq7MHo8DYdU7vLaqk5btEF7RQz/hjltUzJLurp0Qwc=",
+        "originContent": "NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_token",
+        "translatedContent": "NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=your_mapbox_token"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "r4INSG+5kw773TahYjXcO3HoGROt4SznJy45cxt06vg=",
+        "originContent": "# Redis for AI response caching (required for caching)",
+        "translatedContent": "# Redis for AI response caching (required for caching)"
+      },
+      {
+        "row": 9,
+        "rowsha": "YticqOO72gCmyT47yXniWfwcicpTYSsp9GmHbprLJDg=",
+        "originContent": "REDIS_URL=your_redis_connection_string",
+        "translatedContent": "REDIS_URL=your_redis_connection_string"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "7jkWK+oDC1BsbnWQ07v8P28aOWrujFwP/JAHCbNlvA4=",
+        "originContent": "# Required for AI features (server-side only)",
+        "translatedContent": "# Required for AI features (server-side only)"
+      },
+      {
+        "row": 12,
+        "rowsha": "jN0G1F4ey36xv+lqdGnZsNwj/fIT1fe933690MUaG7A=",
+        "originContent": "GEMINI_API_KEY=your_gemini_api_key_here",
+        "translatedContent": "GEMINI_API_KEY=your_gemini_api_key_here"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Getting API Keys\n\n#### Google Gemini API (Free)\n\n1. Visit [Google AI Studio](https://ai.google.dev/gemini-api/docs/api-key)\n2. Sign in with your Google account\n3. Click **\"Create API Key\"**\n4. Copy the generated key to your `.env.local` file\n\n**Benefits:**\n- ✅ 60 requests per minute (generous free tier)\n- ✅ No credit card required\n- ✅ High-quality AI responses\n- ✅ Excellent historical knowledge\n\n#### Vercel Redis for Caching (Optional but Recommended)\n\n1. Set up Redis on Vercel or any Redis provider\n2. Add the `REDIS_URL` environment variable to your project\n3. See [REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md) for detailed instructions\n\n**Benefits:**\n- ⚡ Instant responses for cached content\n- 💰 Reduces API usage and costs\n- 🔧 Automatic 1-hour cache expiration\n- 📊 Cache performance analytics\n\n#### Google Analytics 4 (Optional)\n\n1. Visit [Google Analytics](https://analytics.google.com/)\n2. Create a new GA4 property\n3. Get your Measurement ID (format: G-XXXXXXXXXX)\n4. Add to your `.env.local` file\n\n### Development\n",
+    "ContentSha": "sN3V4cEi/WEm4jekyvL8SWwAQexqnyhw3eOdo6SbUo4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 获取 API 密钥\n\n#### Google Gemini API（免费）\n\n1. 访问 [Google AI Studio](https://ai.google.dev/gemini-api/docs/api-key)\n2. 使用您的 Google 账号登录\n3. 点击 **“创建 API 密钥”**\n4. 将生成的密钥复制到您的 `.env.local` 文件中\n\n**优点：**\n- ✅ 每分钟 60 次请求（慷慨的免费额度）\n- ✅ 无需信用卡\n- ✅ 高质量的 AI 响应\n- ✅ 优秀的历史知识\n\n#### Vercel Redis 缓存（可选但推荐）\n\n1. 在 Vercel 或任何 Redis 提供商上设置 Redis\n2. 将 `REDIS_URL` 环境变量添加到您的项目中\n3. 详见 [REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md)\n\n**优点：**\n- ⚡ 缓存内容瞬时响应\n- 💰 减少 API 使用和成本\n- 🔧 自动 1 小时缓存过期\n- 📊 缓存性能分析\n\n#### Google Analytics 4（可选）\n\n1. 访问 [Google Analytics](https://analytics.google.com/)\n2. 创建新的 GA4 属性\n3. 获取您的测量 ID（格式：G-XXXXXXXXXX）\n4. 添加到您的 `.env.local` 文件中\n\n### 开发\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 获取 API 密钥"
+      },
+      {
+        "row": 2,
+        "rowsha": "L5oSMML2s9f8xOEDhjgfJ4zF4Mr/tdvB+u6DA6ommTg=",
+        "originContent": "### Getting API Keys",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Google Gemini API（免费）"
+      },
+      {
+        "row": 4,
+        "rowsha": "CQN3bUqyEy+LoAksxFNvZkpPZ76VZc/SXA3RUiaZzXE=",
+        "originContent": "#### Google Gemini API (Free)",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 访问 [Google AI Studio](https://ai.google.dev/gemini-api/docs/api-key)"
+      },
+      {
+        "row": 6,
+        "rowsha": "m6c2JRjypPK3DXhKxYFzG+zObzmJ6dx1jii72jj60OU=",
+        "originContent": "1. Visit [Google AI Studio](https://ai.google.dev/gemini-api/docs/api-key)",
+        "translatedContent": "2. 使用您的 Google 账号登录"
+      },
+      {
+        "row": 7,
+        "rowsha": "u8aj16vAB6esRU5XreddkUzJV6JGXGKFLJQt/Hf98Ao=",
+        "originContent": "2. Sign in with your Google account",
+        "translatedContent": "3. 点击 **“创建 API 密钥”**"
+      },
+      {
+        "row": 8,
+        "rowsha": "yOFpvi+IwmUFVv9gAhYkMacFHaDauPUnjMKu1RmZPX4=",
+        "originContent": "3. Click **\"Create API Key\"**",
+        "translatedContent": "4. 将生成的密钥复制到您的 `.env.local` 文件中"
+      },
+      {
+        "row": 9,
+        "rowsha": "4TBR938plnBKeZawBREY5/C2cYrUTZcSAL5GHg65vOo=",
+        "originContent": "4. Copy the generated key to your `.env.local` file",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**优点：**"
+      },
+      {
+        "row": 11,
+        "rowsha": "+uVmnRlcdBYJmLGpG6v+Pyk0ziCHDf4F9/gPjynya8Q=",
+        "originContent": "**Benefits:**",
+        "translatedContent": "- ✅ 每分钟 60 次请求（慷慨的免费额度）"
+      },
+      {
+        "row": 12,
+        "rowsha": "LwmQfFdnzJMqa+V+QuTyA6oTwSw2PdZMhZN/JKm+3TA=",
+        "originContent": "- ✅ 60 requests per minute (generous free tier)",
+        "translatedContent": "- ✅ 无需信用卡"
+      },
+      {
+        "row": 13,
+        "rowsha": "jLZfrttxHWGtqKF8IHOjCBfSFvv+TyWk+iaH4v4DuUo=",
+        "originContent": "- ✅ No credit card required",
+        "translatedContent": "- ✅ 高质量的 AI 响应"
+      },
+      {
+        "row": 14,
+        "rowsha": "bNarwQgx5+EFluV+wKigfd1AH9LyIf4ya6sBMKH5bhk=",
+        "originContent": "- ✅ High-quality AI responses",
+        "translatedContent": "- ✅ 优秀的历史知识"
+      },
+      {
+        "row": 15,
+        "rowsha": "GLAAUJNEv2/uBK60I9Cc9VFQT+6KUosYfl1OQshq+vw=",
+        "originContent": "- ✅ Excellent historical knowledge",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Vercel Redis 缓存（可选但推荐）"
+      },
+      {
+        "row": 17,
+        "rowsha": "HWCXGEgvBNSgiY756vCzihV+wJrp8li3TSKir9Xj0dw=",
+        "originContent": "#### Vercel Redis for Caching (Optional but Recommended)",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 在 Vercel 或任何 Redis 提供商上设置 Redis"
+      },
+      {
+        "row": 19,
+        "rowsha": "ch5YCrSR26LSas4AU4WWuoZqdXRtvRpgrQJD44mHuTU=",
+        "originContent": "1. Set up Redis on Vercel or any Redis provider",
+        "translatedContent": "2. 将 `REDIS_URL` 环境变量添加到您的项目中"
+      },
+      {
+        "row": 20,
+        "rowsha": "SWK/08XzrkKFcdaTz43TlPTU5C58ThUvVQCOANUaLO4=",
+        "originContent": "2. Add the `REDIS_URL` environment variable to your project",
+        "translatedContent": "3. 详见 [REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md)"
+      },
+      {
+        "row": 21,
+        "rowsha": "km0YjgR7VaSh51FvkwkRX6W9eHIeWxZxA8sbhH57cRI=",
+        "originContent": "3. See [REDIS_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./REDIS_SETUP.md) for detailed instructions",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**优点：**"
+      },
+      {
+        "row": 23,
+        "rowsha": "+uVmnRlcdBYJmLGpG6v+Pyk0ziCHDf4F9/gPjynya8Q=",
+        "originContent": "**Benefits:**",
+        "translatedContent": "- ⚡ 缓存内容瞬时响应"
+      },
+      {
+        "row": 24,
+        "rowsha": "W0HOQyXx4vDhsqkmXjTcXOcb0PNTspVCpIYoR/IcxJg=",
+        "originContent": "- ⚡ Instant responses for cached content",
+        "translatedContent": "- 💰 减少 API 使用和成本"
+      },
+      {
+        "row": 25,
+        "rowsha": "BOqwS4oDigRGzn85mcqe0XwgCd3dKjZaOvt+xiB+T4Q=",
+        "originContent": "- 💰 Reduces API usage and costs",
+        "translatedContent": "- 🔧 自动 1 小时缓存过期"
+      },
+      {
+        "row": 26,
+        "rowsha": "Y1ckrD9HVD68jkzghDquVKvjfNUyCv8VYh3ymsk18Mk=",
+        "originContent": "- 🔧 Automatic 1-hour cache expiration",
+        "translatedContent": "- 📊 缓存性能分析"
+      },
+      {
+        "row": 27,
+        "rowsha": "y2dHZiTsjDkrAqPnZHlk0m6uiXphw6qGLpvxOfgkBf4=",
+        "originContent": "- 📊 Cache performance analytics",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Google Analytics 4（可选）"
+      },
+      {
+        "row": 29,
+        "rowsha": "x0FMIsr3mkTtrMWAJxeoDU5UwKllOmc8YoD7l4jVjhI=",
+        "originContent": "#### Google Analytics 4 (Optional)",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 访问 [Google Analytics](https://analytics.google.com/)"
+      },
+      {
+        "row": 31,
+        "rowsha": "a7hOxafVy2PMMiM5LuygsqjBZ5VS0CnTFzFjEPd9jjc=",
+        "originContent": "1. Visit [Google Analytics](https://analytics.google.com/)",
+        "translatedContent": "2. 创建新的 GA4 属性"
+      },
+      {
+        "row": 32,
+        "rowsha": "IcQontvtFdhcDK1wWMW6TupvhdSH/8k3L0hTakjzCUI=",
+        "originContent": "2. Create a new GA4 property",
+        "translatedContent": "3. 获取您的测量 ID（格式：G-XXXXXXXXXX）"
+      },
+      {
+        "row": 33,
+        "rowsha": "ls+4Oeyp4e3DVgdZuzjuAYHkxjUtirByaNZ6Kog0+gk=",
+        "originContent": "3. Get your Measurement ID (format: G-XXXXXXXXXX)",
+        "translatedContent": "4. 添加到您的 `.env.local` 文件中"
+      },
+      {
+        "row": 34,
+        "rowsha": "YfaRV2NT+XacMVNCL/YKmCC1lipN+YbKDClCCnJdgF4=",
+        "originContent": "4. Add to your `.env.local` file",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 开发"
+      },
+      {
+        "row": 36,
+        "rowsha": "x04EB7BlvMSKobvvwbPlJfxbjTla+pt6AhDspqW/UFU=",
+        "originContent": "### Development",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nyarn dev\n```",
+    "ContentSha": "suElFRR7l3uDH3uyKRgkQiNaSxFStX2IjGfXYum++Ck=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nyarn dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "lM0LT8xyC/N1nmR6dGIgchPO+o/ETNiEEme3ay07B+4=",
+        "originContent": "yarn dev",
+        "translatedContent": "yarn dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nOpen [http://localhost:3000](http://localhost:3000) to view the app.\n\n### Testing\n",
+    "ContentSha": "FZsjJ2cI+heuJ3j1K4U+Gr5wDHcx3nVSEtheDBXOicc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n打开 [http://localhost:3000](http://localhost:3000) 查看应用。\n\n### 测试\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "MXeLVxBuKJ/S4AYUhKBa6iTshhN8LZ8lONtC4sGVER4=",
+        "originContent": "Open [http://localhost:3000](http://localhost:3000) to view the app.",
+        "translatedContent": "打开 [http://localhost:3000](http://localhost:3000) 查看应用。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "5gDFo3ZvkOtpBCf1mWI4JGgowepLxssFRC4NJBi3KJY=",
+        "originContent": "### Testing",
+        "translatedContent": "### 测试"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# Run all tests\nyarn test\n\n# Run tests in watch mode\nyarn test:watch\n\n# Run specific test files\nyarn test hooks/__tests__/useAI.test.tsx\n```",
+    "ContentSha": "ux9gFqUpj5Qg1T+gw8lOHx+GQqlT3TlQgf80BmNPowI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Run all tests\nyarn test\n\n# Run tests in watch mode\nyarn test:watch\n\n# Run specific test files\nyarn test hooks/__tests__/useAI.test.tsx\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "G8XO4hflMPkSdQlgMEmAsNnFjaJfHW43zGjr2CL2xk0=",
+        "originContent": "# Run all tests",
+        "translatedContent": "# Run all tests"
+      },
+      {
+        "row": 3,
+        "rowsha": "90LVD8vjCh0u0Zt7cWJRbaSF5uE1GGPZOZyrMgYxpA8=",
+        "originContent": "yarn test",
+        "translatedContent": "yarn test"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "wPik3ODx4Qkjp2fTbhGFAlih5f/xQbYTwWvpw4uq77c=",
+        "originContent": "# Run tests in watch mode",
+        "translatedContent": "# Run tests in watch mode"
+      },
+      {
+        "row": 6,
+        "rowsha": "LujlHOw24lQjbuS0MNKEaET50dQX+fNKsJgyK9VSIyA=",
+        "originContent": "yarn test:watch",
+        "translatedContent": "yarn test:watch"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "vhUsqsV1jf4lQje5PxTuv8cH/Bh9GV4FtGmhQsxBS8w=",
+        "originContent": "# Run specific test files",
+        "translatedContent": "# Run specific test files"
+      },
+      {
+        "row": 9,
+        "rowsha": "HKzynCUlQg2D3VkdE8POVNsUCA6juJAc4Zmv3vhnoU4=",
+        "originContent": "yarn test hooks/__tests__/useAI.test.tsx",
+        "translatedContent": "yarn test hooks/__tests__/useAI.test.tsx"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## AI Feature Troubleshooting\n\n### Common Issues\n\n**\"AI information requires Gemini API key setup\"**\n- Add your Gemini API key to `.env.local`\n- Restart the development server\n- See [GEMINI_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./GEMINI_SETUP.md) for detailed setup\n\n**Slow AI responses**\n- Normal response time: 1-3 seconds\n- Check your internet connection\n- Gemini API has rate limits (60 requests/minute)\n\n**Empty or error responses**\n- Try switching to Wikipedia temporarily\n- Check browser console for detailed error messages\n- Verify your API key is valid\n\n### Analytics Dashboard\n\nTo view AI feature analytics in Google Analytics:\n\n1. Go to **Events** → **All Events**\n2. Filter by **Event Category** = \"AI Feature\"\n3. Key metrics to monitor:\n   - `toggle_provider` - Feature adoption\n   - `response_success` vs `request_failed` - Success rate\n   - `response_time_success` - Performance\n   - `content_displayed` - User engagement\n\n### Performance Monitoring\n\nThe app tracks several performance metrics:\n\n- **Response Times**: Average AI response time vs Wikipedia\n- **Success Rates**: AI request success/failure ratios\n- **Content Quality**: Word count and length of AI responses\n- **User Engagement**: How users interact with AI vs Wikipedia content",
+    "ContentSha": "7/6QV+cpPuBH07R7heGdVIH3RXNUTy2NVsARf1P75aQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## AI 功能故障排除\n\n### 常见问题\n\n**“AI 信息需要设置 Gemini API 密钥”**\n- 将您的 Gemini API 密钥添加到 `.env.local`\n- 重启开发服务器\n- 详细设置请参见 [GEMINI_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./GEMINI_SETUP.md)\n\n**AI 响应缓慢**\n- 正常响应时间：1-3 秒\n- 检查您的网络连接\n- Gemini API 有速率限制（60 请求/分钟）\n\n**空响应或错误响应**\n- 尝试暂时切换到 Wikipedia\n- 检查浏览器控制台的详细错误信息\n- 验证您的 API 密钥是否有效\n\n### 分析仪表盘\n\n在 Google Analytics 查看 AI 功能分析：\n\n1. 进入 **事件** → **所有事件**\n2. 筛选 **事件类别** = \"AI Feature\"\n3. 关键监控指标：\n   - `toggle_provider` - 功能采纳率\n   - `response_success` 与 `request_failed` - 成功率\n   - `response_time_success` - 性能表现\n   - `content_displayed` - 用户参与度\n\n### 性能监控\n\n应用追踪多个性能指标：\n\n- **响应时间**：AI 响应平均时间与 Wikipedia 比较\n- **成功率**：AI 请求成功/失败比例\n- **内容质量**：AI 响应的字数和长度\n- **用户参与度**：用户如何与 AI 内容与 Wikipedia 内容互动",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "aiugjbL2Jqj0NLNeqxmWDJqRMsAaew6EJHxxyqAN7Ks=",
+        "originContent": "## AI Feature Troubleshooting",
+        "translatedContent": "## AI 功能故障排除"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "RkRAwQVP7sn7/Owemvt8kSXbJ+bqNfpGvNpbr3Nkbgc=",
+        "originContent": "### Common Issues",
+        "translatedContent": "### 常见问题"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "zZ7JBtyc4N9do/cSDG2U+TXO74/XUa2+MpNRGCkzyEA=",
+        "originContent": "**\"AI information requires Gemini API key setup\"**",
+        "translatedContent": "**“AI 信息需要设置 Gemini API 密钥”**"
+      },
+      {
+        "row": 7,
+        "rowsha": "QiOBMXbEE0lVlWb/DvYCSDzCNltKBvJ852Unphk+snI=",
+        "originContent": "- Add your Gemini API key to `.env.local`",
+        "translatedContent": "- 将您的 Gemini API 密钥添加到 `.env.local`"
+      },
+      {
+        "row": 8,
+        "rowsha": "OyIk40gYRmF2+2xOvzTYhgGPiFu33Xh6rR8lr5FCCsA=",
+        "originContent": "- Restart the development server",
+        "translatedContent": "- 重启开发服务器"
+      },
+      {
+        "row": 9,
+        "rowsha": "H/X2i7/fie28+1DhigN93BrCu4Lz7+gGwcXr6Gfvey8=",
+        "originContent": "- See [GEMINI_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./GEMINI_SETUP.md) for detailed setup",
+        "translatedContent": "- 详细设置请参见 [GEMINI_SETUP.md](https://raw.githubusercontent.com/nrgapple/historic-country-borders-app/main/./GEMINI_SETUP.md)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "t7ACl/LWqYnVRnPkfyC8EUjkbdNc9zA6B88+3zvhh5o=",
+        "originContent": "**Slow AI responses**",
+        "translatedContent": "**AI 响应缓慢**"
+      },
+      {
+        "row": 12,
+        "rowsha": "EVv9a/OB9uUmHOe3XEwp6yP49RJYTa7cK+RPkeX5P4U=",
+        "originContent": "- Normal response time: 1-3 seconds",
+        "translatedContent": "- 正常响应时间：1-3 秒"
+      },
+      {
+        "row": 13,
+        "rowsha": "Ouf/Q3auF2APjd8wsayRprWn53stkFWliWQxrNdvyqY=",
+        "originContent": "- Check your internet connection",
+        "translatedContent": "- 检查您的网络连接"
+      },
+      {
+        "row": 14,
+        "rowsha": "CNgR0HSl5seqYgoD5pyx4pLk8IabB75OKX2MGdSQyYU=",
+        "originContent": "- Gemini API has rate limits (60 requests/minute)",
+        "translatedContent": "- Gemini API 有速率限制（60 请求/分钟）"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "vBey4ayh29VfveOHiXdefqiFeTM0/kEsBHUNR9gr2/o=",
+        "originContent": "**Empty or error responses**",
+        "translatedContent": "**空响应或错误响应**"
+      },
+      {
+        "row": 17,
+        "rowsha": "5pQ1yLLinLF2F4B7lHhDnrHJtpozUdPv+YgFylGBJUg=",
+        "originContent": "- Try switching to Wikipedia temporarily",
+        "translatedContent": "- 尝试暂时切换到 Wikipedia"
+      },
+      {
+        "row": 18,
+        "rowsha": "/TeF+q8M6NqjN1DdlQlhmreNaacN+pZDC0p41wtTGs8=",
+        "originContent": "- Check browser console for detailed error messages",
+        "translatedContent": "- 检查浏览器控制台的详细错误信息"
+      },
+      {
+        "row": 19,
+        "rowsha": "J7Y0agLYc1ELapsl5AES5xzbkhphCny7pk/mOCygIzw=",
+        "originContent": "- Verify your API key is valid",
+        "translatedContent": "- 验证您的 API 密钥是否有效"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "B8/Y6iiEPOrS9g4XzLF7rDPo6ii7Pm3/gxdmEMGaV/8=",
+        "originContent": "### Analytics Dashboard",
+        "translatedContent": "### 分析仪表盘"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "sqS6Bvku080qnVqsTqanNTY6dEG1IWJCGqix5uz81Sk=",
+        "originContent": "To view AI feature analytics in Google Analytics:",
+        "translatedContent": "在 Google Analytics 查看 AI 功能分析："
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "nXoMrOXM6uTbgLyrWASVCPGzY7H04bO9dWq8uRemamA=",
+        "originContent": "1. Go to **Events** → **All Events**",
+        "translatedContent": "1. 进入 **事件** → **所有事件**"
+      },
+      {
+        "row": 26,
+        "rowsha": "XE2O7CGik+rpqmp47rQ+vHhb7PnwzMgU78YRGQ829cs=",
+        "originContent": "2. Filter by **Event Category** = \"AI Feature\"",
+        "translatedContent": "2. 筛选 **事件类别** = \"AI Feature\""
+      },
+      {
+        "row": 27,
+        "rowsha": "86Io+MBnUfTyUmXX+nUxuyCMg5G6bGycZx8zZ0xKf/Y=",
+        "originContent": "3. Key metrics to monitor:",
+        "translatedContent": "3. 关键监控指标："
+      },
+      {
+        "row": 28,
+        "rowsha": "6eK4C+EvOwWinNFT+m49kyAHIYe3PykILqLdJ6tzSVk=",
+        "originContent": "   - `toggle_provider` - Feature adoption",
+        "translatedContent": "   - `toggle_provider` - 功能采纳率"
+      },
+      {
+        "row": 29,
+        "rowsha": "fsEH+hdvbR35yjpTyw0SCd0uKv+KxytZUja09k6solE=",
+        "originContent": "   - `response_success` vs `request_failed` - Success rate",
+        "translatedContent": "   - `response_success` 与 `request_failed` - 成功率"
+      },
+      {
+        "row": 30,
+        "rowsha": "XJzHlffKSyArGyv74ONh7IHxadNyBvJGkzGUO0d4gqY=",
+        "originContent": "   - `response_time_success` - Performance",
+        "translatedContent": "   - `response_time_success` - 性能表现"
+      },
+      {
+        "row": 31,
+        "rowsha": "In9Xarz8anZwIFVMcs1ozVaE5rwJ8bTrlLbWfj8npvs=",
+        "originContent": "   - `content_displayed` - User engagement",
+        "translatedContent": "   - `content_displayed` - 用户参与度"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "ktMLbTZ+cFrGpL9QNPFaNbojgXlPd8rCU+jFxsU/Hik=",
+        "originContent": "### Performance Monitoring",
+        "translatedContent": "### 性能监控"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "SXlg+iR2tjQIH0SKMif6gP+PUVIyoiHKFzBuT+CztrU=",
+        "originContent": "The app tracks several performance metrics:",
+        "translatedContent": "应用追踪多个性能指标："
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "T1ZN1chjfDCF2j02RLLixsHRbfswkH6Q50tF+eW3z/w=",
+        "originContent": "- **Response Times**: Average AI response time vs Wikipedia",
+        "translatedContent": "- **响应时间**：AI 响应平均时间与 Wikipedia 比较"
+      },
+      {
+        "row": 38,
+        "rowsha": "KwXiwFtDVVDMzYZ4n5AoQMN42ra+6HM4srHjeY+jBlU=",
+        "originContent": "- **Success Rates**: AI request success/failure ratios",
+        "translatedContent": "- **成功率**：AI 请求成功/失败比例"
+      },
+      {
+        "row": 39,
+        "rowsha": "RYA0WNAAY7emaoBY3zfO8TKiE/c1u+gzwrj5k1R89Hs=",
+        "originContent": "- **Content Quality**: Word count and length of AI responses",
+        "translatedContent": "- **内容质量**：AI 响应的字数和长度"
+      },
+      {
+        "row": 40,
+        "rowsha": "cColgduL4UgIYhXjMHQVeT99wCGjzpjklWBeEOgkPNY=",
+        "originContent": "- **User Engagement**: How users interact with AI vs Wikipedia content",
+        "translatedContent": "- **用户参与度**：用户如何与 AI 内容与 Wikipedia 内容互动"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "\n## Contributing\n\n1. Fork the repository\n2. Create a feature branch\n3. Make your changes\n4. Add tests for new functionality\n5. Ensure all tests pass\n6. Submit a pull request\n\n## License\n\nMIT License - see [LICENSE](LICENSE) for details.\n\n## Acknowledgments\n\n- Historical border data from [World Historical Gazetteer](https://whgazetteer.org/)\n- AI powered by [Google Gemini](https://ai.google.dev/)\n- Maps powered by [Mapbox](https://www.mapbox.com/)\n- Analytics by [Google Analytics 4](https://analytics.google.com/)\n",
+    "ContentSha": "ZGvs6IhyuBeZwRNz6m2sCRwllq0jELa1ec5RWlbtWIQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 贡献指南\n\n1. Fork 本仓库\n2. 创建功能分支\n3. 进行修改\n4. 为新功能添加测试\n5. 确保所有测试通过\n6. 提交拉取请求\n\n## 许可证\n\nMIT 许可证 - 详情请见 [LICENSE](LICENSE)。\n\n## 致谢\n\n- 历史边界数据来自 [World Historical Gazetteer](https://whgazetteer.org/)\n- AI 技术由 [Google Gemini](https://ai.google.dev/) 提供支持\n- 地图由 [Mapbox](https://www.mapbox.com/) 提供支持\n- 分析由 [Google Analytics 4](https://analytics.google.com/) 提供支持\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 贡献指南"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "gKYrfInB5vs8/nXoZ513IRiv+2rnhN0mL7v7OAyCepM=",
+        "originContent": "1. Fork the repository",
+        "translatedContent": "1. Fork 本仓库"
+      },
+      {
+        "row": 5,
+        "rowsha": "zjkMalfFBFdl/fW6/abWk0EDPTi1ZacY0Tz89IHmrrA=",
+        "originContent": "2. Create a feature branch",
+        "translatedContent": "2. 创建功能分支"
+      },
+      {
+        "row": 6,
+        "rowsha": "oIeRmHhMC8YR++vfT37Edr7lXiU0nQKQZPZkT6sdMIg=",
+        "originContent": "3. Make your changes",
+        "translatedContent": "3. 进行修改"
+      },
+      {
+        "row": 7,
+        "rowsha": "tnr2eaEN+nUZG0uxW2W/eBMRq48vtfDD8iMUob5FHkU=",
+        "originContent": "4. Add tests for new functionality",
+        "translatedContent": "4. 为新功能添加测试"
+      },
+      {
+        "row": 8,
+        "rowsha": "6LT1wDDpKiJgCKX3RQjJSw5L0pmbrcZTMTpIy6oa14E=",
+        "originContent": "5. Ensure all tests pass",
+        "translatedContent": "5. 确保所有测试通过"
+      },
+      {
+        "row": 9,
+        "rowsha": "tFJHV83Gb8yiwqVmx+EnMFcoZrul71eoHrPLcc70TMA=",
+        "originContent": "6. Submit a pull request",
+        "translatedContent": "6. 提交拉取请求"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "TQbLtlkz/4wk53iQHmCp0/AuJ9wLL4KxIT8/wTVYVTc=",
+        "originContent": "MIT License - see [LICENSE](LICENSE) for details.",
+        "translatedContent": "MIT 许可证 - 详情请见 [LICENSE](LICENSE)。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+        "originContent": "## Acknowledgments",
+        "translatedContent": "## 致谢"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "/NR/s18qn6mEWZ8mc8HemrRfm8hXb0WVkSHqbyZwEV4=",
+        "originContent": "- Historical border data from [World Historical Gazetteer](https://whgazetteer.org/)",
+        "translatedContent": "- 历史边界数据来自 [World Historical Gazetteer](https://whgazetteer.org/)"
+      },
+      {
+        "row": 18,
+        "rowsha": "1GzJDDQ+Nq56U9a2dxzKvWI5ov0L1iUb6MS/J3/jEl8=",
+        "originContent": "- AI powered by [Google Gemini](https://ai.google.dev/)",
+        "translatedContent": "- AI 技术由 [Google Gemini](https://ai.google.dev/) 提供支持"
+      },
+      {
+        "row": 19,
+        "rowsha": "t4voedgjsvEZv4+1B3dEqZUoQmZUkMw2agibt1V71a4=",
+        "originContent": "- Maps powered by [Mapbox](https://www.mapbox.com/)",
+        "translatedContent": "- 地图由 [Mapbox](https://www.mapbox.com/) 提供支持"
+      },
+      {
+        "row": 20,
+        "rowsha": "2oRNp63VwZaso8eqdkILOd2BGzq+gYt06C0c49NPzC8=",
+        "originContent": "- Analytics by [Google Analytics 4](https://analytics.google.com/)",
+        "translatedContent": "- 分析由 [Google Analytics 4](https://analytics.google.com/) 提供支持"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
