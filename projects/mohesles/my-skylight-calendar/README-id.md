@@ -81,7 +81,7 @@ Perangkat keras yang awalnya saya gunakan dipilih berdasarkan pertimbangan di at
 
 ### 1. Prasyarat (HACS)
 
-Anda harus memasang [HACS](https://hacs.xyz/). Silakan pasang integrasi **Frontend** berikut:
+Anda harus sudah menginstal [HACS](https://hacs.xyz/). Silakan instal integrasi **Frontend** berikut:
 
 * `week-planner-card`
 * `bubble-card`
@@ -91,9 +91,13 @@ Anda harus memasang [HACS](https://hacs.xyz/). Silakan pasang integrasi **Fronte
 * `weather-card`
 * `browser_mod` (Diperlukan agar popup berfungsi)
 * `layout-card` (Diperlukan untuk tampilan Sections)
-* `button-card` (Diperlukan untuk popup penambahan event)
+* `button-card` (Diperlukan untuk popup menambah event)
 
-### 2. Backend (Otaknya)
+*Catatan: Pada Pengaturan → Perangkat & Layanan, pastikan Browser Mod muncul sebagai Integrasi (ubin) dan bukan hanya di bawah HACS. 
+Jika belum ada, klik Tambah Integrasi → Browser Mod dan selesaikan prosesnya, lalu restart HA.
+Menginstal melalui HACS hanya mengunduh file; Anda harus menambahkan integrasi agar HA mendaftarkan tindakan/entitasnya.
+
+### 2. Backend (Otak Sistem)
 
 1. Buka file `configuration.yaml` Anda di Home Assistant.
 2. Pastikan Anda menambahkan baris ini di bawah `homeassistant:` untuk mengaktifkan paket:
@@ -104,51 +108,49 @@ Anda harus memasang [HACS](https://hacs.xyz/). Silakan pasang integrasi **Fronte
    ```
 3. Buat folder bernama `packages` di direktori konfigurasi HA Anda (jika belum ada).
 4. Unduh [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) dari repo ini.
-5. Tempatkan file tersebut di dalam folder `packages/` Anda.
-6. **Restart Home Assistant**.
+5. Cari string [ #<--- UPDATE THIS ENTITY] dan perbarui ID entitas kalender agar sesuai dengan lingkungan Anda. Lihat bagian 3 untuk detail lebih lanjut.
+6. Tempatkan file tersebut di dalam folder `packages/` Anda.
+7. **Restart Home Assistant**.
 
 ### 3. Kalender
 
-Anda dapat menggunakan **Google Calendars** atau **Local Calendars**.
+Anda dapat menggunakan **Google Kalender** atau **Kalender Lokal**.
 
-#### Opsi A: Kalender Lokal (Paling Mudah)
+#### Opsi A: Gunakan Nama Kalender yang Sama (Paling Mudah)
 
-Catatan: Ini belum diuji karena saya hanya menggunakan Google Calendars
 
-1. Buka **Settings > Devices & Services**.
+1. Masuk ke **Settings > Devices & Services**.
 2. Tambahkan integrasi **Local Calendar**.
-3. Buat kalender dengan nama persis: `Alice`, `Bob`, `Charlie`, `Daisy`, `Family`.
+3. Buat kalender dengan nama persis: `calendar1`, `calendar2`, `calendar3`, `calendar4`, `Family`.
     * *Jika Anda menggunakan nama-nama ini, kode akan langsung bekerja!*
 
-#### Opsi B: Google Calendar
+#### Opsi B: Kalender Kustom
 
-1. Buka `packages/family_calendar.yaml`.
-2. Scroll ke skrip `add_google_calendar_event`.
-3. Perbarui `calendar_map` agar menunjuk ke entitas Google Anda yang sebenarnya:
+1. Masuk ke **Settings > Devices & Services**.
+2. Tambahkan integrasi **Local Calendar** atau **Google Calendar**.
+3. Buka **Configuration > Integrations > Local Calendar** atau **Google Calendar** dan pilih "Add Entry"
+4. Untuk setiap entri yang dibuat, dapatkan ID entitas untuk memperbarui file dashboard.yaml.
+5. Buka `dashboard.yaml`.
+6. Cari `# <--- UPDATE THIS ENTITY`.
+7. Perbarui ID entitas sesuai dengan lingkungan Anda
 
-
-    ```yaml
-    calendar_map:
-      "Alice": "calendar.alice_gmail_com"
-      "Bob": "calendar.bob_work_account"
-    ```
 
 #### Mengatur Hari Libur
 
 Sejak pembaruan Home Assistant, Hari Libur sekarang ditambahkan melalui UI:
 
-1. Buka **Pengaturan > Perangkat & Layanan > Tambah Integrasi > Holiday**.
+1. Masuk ke **Settings > Devices & Services > Add Integration > Holiday**.
 2. Pilih negara Anda.
-3. Periksa ID entitas (misal, `calendar.holidays`). Jika berbeda dari default, perbarui di YAML dashboard.
+3. Periksa ID entitas (misalnya, `calendar.holidays`). Jika berbeda dari default, perbarui di YAML dashboard.
 
 ### 4. Dashboard (Tampilan)
 
-1. Buat Tampilan Dashboard baru (Setel Jenis Tampilan ke **Sections**).
-2. Salin kode dari [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml).
-3. **Kustomisasi:**
-   * **Cari & Ganti:** Ganti `person.alice` dengan entitas anggota keluarga Anda yang sebenarnya.
-   * **Cuaca:** Ganti `weather.home` dengan penyedia cuaca Anda.
-   * **Latar Belakang:** Perbarui URL gambar di bagian bawah yaml.
+
+1. Pergi ke **Pengaturan > Dasbor**
+2. Klik **Tambah Dasbor** (Pilih opsi "Dasbor Baru dari Awal" pastikan untuk memilih "Tambahkan ke sidebar").
+3. Pada menu sebelah kiri, pilih dasbor yang baru dibuat dan klik ikon pensil untuk mengeditnya.
+5. Pilih ikon 3 titik dan pilih "Editor konfigurator mentah".
+6. Salin dan tempel kode dari [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml).
 
 ### Langkah 5: Tema (Opsional)
 
@@ -162,24 +164,25 @@ Untuk mendapatkan tampilan font spesifik (Ovo):
    ```
 2. Buat folder bernama `themes` di direktori konfigurasi Anda.
 3. Unduh [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) dan tempatkan di folder tersebut.
-4. Restart Home Assistant.
-5. Buka Profil Anda (Ikon Pengguna di kiri bawah) dan ubah **Tema** menjadi `Skylight`.
+4. Gunakan File Editor dan unggah calbackgrd.png ke folder /www/, yang secara internal diterjemahkan menjadi /local di dashboard.
+5. Restart Home Assistant.
+6. Buka Profil Anda (Ikon Pengguna di kiri bawah) dan ubah **Theme** menjadi `Skylight`.
 CATATAN: Tema ini tidak komprehensif, jadi harap diingat
 
 ---
 
-## 📐 Cara Kerjanya (Di Balik Layar)
+## 📐 Cara Kerja (Di Balik Layar)
 
 ### Logika Filter
 
-`week-planner-card` tidak secara native mendukung penyembunyian kalender tertentu secara langsung. Untuk mengatasinya, saya menggunakan **Input Texts** yang berfungsi sebagai filter Regex.
+`week-planner-card` tidak secara native mendukung penyembunyian kalender tertentu secara langsung. Untuk mengatasinya, saya menggunakan **Input Texts** yang bertindak sebagai filter Regex.
 
-* Ketika Anda mengklik tombol seseorang, filter mereka akan berganti antara `.*` (Tampilkan semua) dan `^$` (Sembunyikan semua).
-* `config-template-card` menyisipkan variabel ini ke dalam kartu kalender secara dinamis.
+* Saat Anda mengklik tombol seseorang, itu akan mengubah filter mereka antara `.*` (Tampilkan semua) dan `^$` (Sembunyikan semua).
+* `config-template-card` secara dinamis menyuntikkan variabel ini ke kartu kalender.
 
-### Skrip Pembuatan Acara
+### Skrip Pembuatan Event
 
-Popup "Tambah Acara" menggunakan satu skrip yang menangani logika untuk beberapa orang dan jenis acara (Sepanjang Hari vs Waktu Tertentu).
+Popup "Add Event" menggunakan satu skrip yang menangani logika untuk banyak orang dan tipe acara (Sepanjang Hari vs Bertime).
 
 
 ```yaml
@@ -205,6 +208,6 @@ Berbicara tentang tampilan, saya awalnya menyarankan yang itu karena sedang disk
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-08
 
 ---

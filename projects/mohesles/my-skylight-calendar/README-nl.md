@@ -89,97 +89,100 @@ Je moet [HACS](https://hacs.xyz/) geïnstalleerd hebben. Installeer de volgende 
 * `card-mod`
 * `better-moment-card`
 * `weather-card`
-* `browser_mod` (Vereist voor het functioneren van pop-ups)
-* `layout-card` (Vereist voor de sectieweergave)
-* `button-card` (Vereist voor de pop-up om een evenement toe te voegen)
+* `browser_mod` (Vereist voor het werken van pop-ups)
+* `layout-card` (Vereist voor het Secties-overzicht)
+* `button-card` (Vereist voor de pop-up om een gebeurtenis toe te voegen)
+
+*Opmerking: In Instellingen → Apparaten & Diensten, zorg ervoor dat Browser Mod als een integratie (tegel) verschijnt en niet alleen onder HACS.
+Als het daar niet staat, klik op Integratie toevoegen → Browser Mod en voltooi het proces, daarna herstart HA.
+Installeren via HACS downloadt alleen bestanden; je moet de integratie toevoegen zodat HA zijn acties/entiteiten registreert.
 
 ### 2. De Backend (Het Brein)
 
 1. Open je `configuration.yaml` bestand in Home Assistant.
-2. Zorg ervoor dat je deze regel hebt toegevoegd onder `homeassistant:` om pakketten in te schakelen:
+2. Zorg dat je deze regel hebt toegevoegd onder `homeassistant:` om pakketten te activeren:
 
    ```yaml
    homeassistant:
      packages: !include_dir_named packages
    ```
-3. Maak een map genaamd `packages` aan in je HA-configuratiemap (als je die nog niet hebt).
-4. Download [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) van deze repository.
-5. Plaats het bestand in je `packages/` map.
-6. **Herstart Home Assistant**.
+3. Maak een map genaamd `packages` in je HA-configuratiemap (als je er nog geen hebt).
+4. Download [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) uit deze repo.
+5. Zoek naar de string [ #<--- UPDATE THIS ENTITY] en werk de kalender-entiteit-ID bij zodat deze overeenkomt met jouw omgeving. Zie sectie 3 voor meer details.
+6. Plaats het bestand in je `packages/` map.
+7. **Herstart Home Assistant**.
 
 ### 3. De Kalenders
 
 Je kunt **Google Kalenders** of **Lokale Kalenders** gebruiken.
 
-#### Optie A: Lokale Kalender (Meest eenvoudig)
+#### Optie A: Kalendernamen Hergebruiken (Eenvoudigst)
 
-Let op: dit is niet getest, aangezien ik uitsluitend Google Kalenders gebruik
 
 1. Ga naar **Instellingen > Apparaten & Diensten**.
 2. Voeg de **Lokale Kalender** integratie toe.
-3. Maak kalenders aan met exact de volgende namen: `Alice`, `Bob`, `Charlie`, `Daisy`, `Family`.
-    * *Als je deze namen gebruikt, werkt de code direct uit de doos!*
+3. Maak kalenders met exact deze namen: `calendar1`, `calendar2`, `calendar3`, `calendar4`, `Family`.
+    * *Als je deze namen gebruikt, werkt de code direct!*
 
-#### Optie B: Google Kalender
+#### Optie B: Aangepaste Kalender
 
-1. Open `packages/family_calendar.yaml`.
-2. Scroll naar het script `add_google_calendar_event`.
-3. Werk de `calendar_map` bij zodat deze naar je echte Google-entiteiten verwijst:
+1. Ga naar **Instellingen > Apparaten & Diensten**.
+2. Voeg de **Lokale Kalender** integratie toe of **Google Calendar**.
+3. Navigeer naar **Configuratie > Integraties > Lokale Kalender** of **Google Calendar** en selecteer "Voeg item toe"
+4. Voor elk aangemaakt item, verkrijg de entiteit-ID om dashboard.yaml bij te werken.
+5. Open `dashboard.yaml`.
+6. Zoek naar `# <--- UPDATE THIS ENTITY`.
+7. Werk de entiteit-ID bij zodat deze overeenkomt met jouw omgeving
 
 
-    ```yaml
-    calendar_map:
-      "Alice": "calendar.alice_gmail_com"
-      "Bob": "calendar.bob_work_account"
-    ```
+#### Vakanties instellen
 
-#### Feestdagen instellen
+Sinds Home Assistant updates worden vakanties nu via de UI toegevoegd:
 
-Sinds de updates van Home Assistant worden feestdagen nu via de UI toegevoegd:
-
-1. Ga naar **Instellingen > Apparaten & Diensten > Integratie toevoegen > Holiday**.
+1. Ga naar **Instellingen > Apparaten & Diensten > Integratie toevoegen > Vakantie**.
 2. Selecteer je land.
-3. Controleer de entity-ID (bijv. `calendar.holidays`). Als deze afwijkt van de standaard, werk deze dan bij in de dashboard YAML.
+3. Controleer de entiteit-ID (bijv. `calendar.holidays`). Als deze afwijkt van de standaard, werk hem bij in de dashboard YAML.
 
-### 4. Het Dashboard (Het Uiterlijk)
+### 4. Het Dashboard (De Look)
 
-1. Maak een nieuw Dashboard View aan (Stel View Type in op **Secties**).
-2. Kopieer de code uit [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml).
-3. **Aanpassen:**
-   * **Zoek & Vervang:** Vervang `person.alice` door je daadwerkelijke gezinsleden.
-   * **Weer:** Vervang `weather.home` door je eigen weerprovider.
-   * **Achtergrond:** Werk de afbeeldings-URL onderaan de yaml bij.
+
+1. Ga naar **Instellingen > Dashboard**
+2. Klik op **Dashboard toevoegen** (Selecteer de optie "Nieuw dashboard vanaf nul" en zorg ervoor dat "Toevoegen aan zijbalk" is geselecteerd).
+3. Selecteer in het linkermenu het nieuw aangemaakte dashboard en klik op het potloodicoon om het te bewerken.
+5. Selecteer het pictogram met de 3 stippen en kies "Raw configurator editor".
+6. Kopieer en plak de code uit [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml).
 
 ### Stap 5: Het Thema (Optioneel)
 
 Om het specifieke lettertype (Ovo) te krijgen:
 
-1. Zorg dat je `configuration.yaml` deze regel bevat onder `frontend:`
+1. Zorg ervoor dat je `configuration.yaml` deze regel onder `frontend:` heeft staan.
 
    ```yaml
    frontend:
      themes: !include_dir_merge_named themes
    ```
 2. Maak een map genaamd `themes` in je configuratiemap.
-3. Download [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) en plaats deze in die map.
-4. Herstart Home Assistant.
-5. Ga naar je Profiel (Gebruikersicoon linksonder) en verander **Thema** naar `Skylight`.
+3. Download [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) en plaats het in die map.
+4. Gebruik de File Editor en upload calbackgrd.png naar de /www/ map, dit vertaalt intern naar /local op het dashboard.
+5. Herstart Home Assistant.
+6. Ga naar je Profiel (Gebruikersicoon linksonder) en verander **Thema** naar `Skylight`.
 OPMERKING: Het thema is niet allesomvattend, houd daar rekening mee
 
 ---
 
-## 📐 Hoe het werkt (onder de motorkap)
+## 📐 Hoe het Werkt (Onder de Motorkap)
 
 ### Filterlogica
 
-De `week-planner-card` ondersteunt niet standaard het verbergen van specifieke agenda's op aanvraag. Om dit op te lossen heb ik **Input Texts** gebruikt die functioneren als Regex-filters.
+De `week-planner-card` ondersteunt niet standaard het verbergen van specifieke kalenders on-the-fly. Om dit op te lossen heb ik **Input Texts** gebruikt die dienen als Regex-filters.
 
-* Wanneer je op de knop van een persoon klikt, schakelt deze hun filter tussen `.*` (Alles tonen) en `^$` (Niets tonen).
+* Wanneer je op de knop van een persoon klikt, schakelt deze hun filter tussen `.*` (Toon alles) en `^$` (Toon niets).
 * `config-template-card` injecteert deze variabelen dynamisch in de kalenderkaart.
 
-### Script voor het aanmaken van gebeurtenissen
+### Event Aanmaakscript
 
-De "Gebeurtenis toevoegen" popup gebruikt één script dat de logica afhandelt voor meerdere personen en gebeurtenistypes (Hele dag versus met tijd).
+Het "Evenement Toevoegen"-popup gebruikt één script dat de logica afhandelt voor meerdere personen en evenementtypes (Hele dag vs Getimed).
 
 
 ```yaml
@@ -205,6 +208,6 @@ Over het scherm gesproken, ik stelde oorspronkelijk dat scherm voor omdat het in
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-08
 
 ---

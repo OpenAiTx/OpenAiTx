@@ -1,0 +1,340 @@
+[
+  {
+    "Id": 1,
+    "Content": "# cq - High-Performance SQL Query Engine for CSV Files\n\n [![Cross-Build and Test (with zig build system)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml/badge.svg)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml)\n\nA lightweight, fast SQL query processor written in C that enables executing SQL queries directly on CSV files without requiring a database. For full documentation, see the /doc directory.\n\n ![cq in action](https://raw.githubusercontent.com/baldimario/cq/main/assets/cq.png)\n\n## Documentation\n\n- Getting Started: `doc/GettingStarted.md`\n- Installation: `doc/Installation.md`\n- Command Line Interface: `doc/CLI.md`\n- **TUI (Terminal User Interface)**: `doc/TUI.md`\n- Architecture: `doc/Architecture.md`\n- Testing: `doc/Testing.md`\n- Roadmap: `doc/Roadmap.md`\n- Contributing: `doc/Contributing.md`\n\n## Quick Start\n\nBuild: `make`\n\n### Command Line\n\nRun a sample query:\n`./build/cq -q \"SELECT name, age FROM 'data.csv' WHERE age > 25\" -p`\n\n### Terminal UI\n\nLaunch interactive TUI:\n`./build/cqtui data/`\n\nFeatures:\n- Browse and open CSV files as tables\n- Execute SQL queries interactively\n- Multi-tab interface for multiple tables\n- Keyboard-driven navigation\n- No external dependencies\n",
+    "ContentSha": "RCKZUgbwXGH/zXYJZ/a1JwvqosFLoUH+nsYWedtRSvA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# cq - 面向CSV文件的高性能SQL查询引擎\n\n [![跨平台构建和测试（使用zig构建系统）](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml/badge.svg)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml)\n\n一个用C语言编写的轻量级、快速的SQL查询处理器，支持直接对CSV文件执行SQL查询，无需数据库。完整文档请参见 /doc 目录。\n\n ![cq 实际运行图](https://raw.githubusercontent.com/baldimario/cq/main/assets/cq.png)\n\n## 文档\n\n- 入门指南：`doc/GettingStarted.md`\n- 安装说明：`doc/Installation.md`\n- 命令行界面：`doc/CLI.md`\n- **TUI（终端用户界面）**：`doc/TUI.md`\n- 架构设计：`doc/Architecture.md`\n- 测试说明：`doc/Testing.md`\n- 路线图：`doc/Roadmap.md`\n- 贡献指南：`doc/Contributing.md`\n\n## 快速开始\n\n构建：`make`\n\n### 命令行\n\n运行示例查询：\n`./build/cq -q \"SELECT name, age FROM 'data.csv' WHERE age > 25\" -p`\n\n### 终端界面\n\n启动交互式TUI：\n`./build/cqtui data/`\n\n功能特点：\n- 浏览并打开CSV文件作为表格\n- 交互式执行SQL查询\n- 多标签界面支持多表操作\n- 键盘驱动的导航\n- 无需外部依赖\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "1xU0y/Wf8vbipztrazdJ4xIj9p4WCJeRfFAdiJs01jc=",
+        "originContent": "# cq - High-Performance SQL Query Engine for CSV Files",
+        "translatedContent": "# cq - 面向CSV文件的高性能SQL查询引擎"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ULG5SKa0x89AG4DAkO913gQy3wcjh2arg4R+y2KwmUo=",
+        "originContent": " [![Cross-Build and Test (with zig build system)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml/badge.svg)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml)",
+        "translatedContent": " [![跨平台构建和测试（使用zig构建系统）](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml/badge.svg)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "2ODI7HytnxIJNKys/2tU6rajztVQVMJfAk6hGAkg2PE=",
+        "originContent": "A lightweight, fast SQL query processor written in C that enables executing SQL queries directly on CSV files without requiring a database. For full documentation, see the /doc directory.",
+        "translatedContent": "一个用C语言编写的轻量级、快速的SQL查询处理器，支持直接对CSV文件执行SQL查询，无需数据库。完整文档请参见 /doc 目录。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Ti6j6O17BGmF9yquq+TELwA+QtstI92ngGRECDTBfkw=",
+        "originContent": " ![cq in action](https://raw.githubusercontent.com/baldimario/cq/main/assets/cq.png)",
+        "translatedContent": " ![cq 实际运行图](https://raw.githubusercontent.com/baldimario/cq/main/assets/cq.png)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": "## 文档"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "1OgcZZzdq/fZAKiJVN7tD6hkzwnuLkMMTAaoI3L+Liw=",
+        "originContent": "- Getting Started: `doc/GettingStarted.md`",
+        "translatedContent": "- 入门指南：`doc/GettingStarted.md`"
+      },
+      {
+        "row": 12,
+        "rowsha": "TnWnuPDZj4eBMOjSlMhU/Jhiwjm8iKT4+/HIh8l6AA8=",
+        "originContent": "- Installation: `doc/Installation.md`",
+        "translatedContent": "- 安装说明：`doc/Installation.md`"
+      },
+      {
+        "row": 13,
+        "rowsha": "Nl0CYN7Lp9Re8+ua2eNSkxbKD4zz9+h+59dM88zJ3oU=",
+        "originContent": "- Command Line Interface: `doc/CLI.md`",
+        "translatedContent": "- 命令行界面：`doc/CLI.md`"
+      },
+      {
+        "row": 14,
+        "rowsha": "Sv7o8WPUJNfVIbXtrIml6sOXHIoEIoPsv+1iqG1rml8=",
+        "originContent": "- **TUI (Terminal User Interface)**: `doc/TUI.md`",
+        "translatedContent": "- **TUI（终端用户界面）**：`doc/TUI.md`"
+      },
+      {
+        "row": 15,
+        "rowsha": "9Uwir2FnIAfjmRnPnzOhEf2Q6ixvIkDQ7VxYodcIdfM=",
+        "originContent": "- Architecture: `doc/Architecture.md`",
+        "translatedContent": "- 架构设计：`doc/Architecture.md`"
+      },
+      {
+        "row": 16,
+        "rowsha": "+MaSra75jcRSnDQOpl396BdzCiDDzDbN/K320xIEuBs=",
+        "originContent": "- Testing: `doc/Testing.md`",
+        "translatedContent": "- 测试说明：`doc/Testing.md`"
+      },
+      {
+        "row": 17,
+        "rowsha": "+3U52HnAA3RsRsoudCjK6i9pAnPPx2Ehr2ewQBa+baU=",
+        "originContent": "- Roadmap: `doc/Roadmap.md`",
+        "translatedContent": "- 路线图：`doc/Roadmap.md`"
+      },
+      {
+        "row": 18,
+        "rowsha": "H6T77O8lhScs67aMOYTsxkNs3mAQzXoHsk3Byg8VUb4=",
+        "originContent": "- Contributing: `doc/Contributing.md`",
+        "translatedContent": "- 贡献指南：`doc/Contributing.md`"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## 快速开始"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "uqp85BjAWWCGwEGto7bBGnLaNjwbtbv8ayU776EXmUY=",
+        "originContent": "Build: `make`",
+        "translatedContent": "构建：`make`"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "JtaVECVO6OfR6Wx0mHN2kWDq14EuV9gT8Ki6u48/DvA=",
+        "originContent": "### Command Line",
+        "translatedContent": "### 命令行"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "TdNS9kK88D8Gvj1wmGSDIw4cgfVbHCKzcCpPO3PVnB8=",
+        "originContent": "Run a sample query:",
+        "translatedContent": "运行示例查询："
+      },
+      {
+        "row": 27,
+        "rowsha": "Z3QLvUSprWVG1lLN7aP9nW8os014LRPdc4ido880dCg=",
+        "originContent": "`./build/cq -q \"SELECT name, age FROM 'data.csv' WHERE age > 25\" -p`",
+        "translatedContent": "`./build/cq -q \"SELECT name, age FROM 'data.csv' WHERE age > 25\" -p`"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "jsggjFdg9lH8JBn8hvfv6FOXN71v48VQ4LM42AXetYc=",
+        "originContent": "### Terminal UI",
+        "translatedContent": "### 终端界面"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "cHmQNDQ/FD+H9P5DIwPBDWAen5HrVu7g+4QucFUI64U=",
+        "originContent": "Launch interactive TUI:",
+        "translatedContent": "启动交互式TUI："
+      },
+      {
+        "row": 32,
+        "rowsha": "vVYThuhlSgpgoQg1C15qP+RSpP+BeUrIH+9+LHh149c=",
+        "originContent": "`./build/cqtui data/`",
+        "translatedContent": "`./build/cqtui data/`"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "e4hgdvJgNoK8Q5OhPPLTjy7Cw+ICPXtZFjlH7tEw0fI=",
+        "originContent": "Features:",
+        "translatedContent": "功能特点："
+      },
+      {
+        "row": 35,
+        "rowsha": "sdsrAAtKztltG22SoO4RXQ8L7Ix16TKVm+iKv3nfgK4=",
+        "originContent": "- Browse and open CSV files as tables",
+        "translatedContent": "- 浏览并打开CSV文件作为表格"
+      },
+      {
+        "row": 36,
+        "rowsha": "JgWqmi6MxYu8rV15546ClQFvp77yQNZktDERUROLhUc=",
+        "originContent": "- Execute SQL queries interactively",
+        "translatedContent": "- 交互式执行SQL查询"
+      },
+      {
+        "row": 37,
+        "rowsha": "IzRyQM1/30w9MytOadhEPrVjOk/3zikvjidQDp/ujTA=",
+        "originContent": "- Multi-tab interface for multiple tables",
+        "translatedContent": "- 多标签界面支持多表操作"
+      },
+      {
+        "row": 38,
+        "rowsha": "btTm0JCeK1E8OQ5hILst4T7xcCFj1R37uy05SYKdcJI=",
+        "originContent": "- Keyboard-driven navigation",
+        "translatedContent": "- 键盘驱动的导航"
+      },
+      {
+        "row": 39,
+        "rowsha": "eqPpjx4xUW1xn5R8+4SYcWRwu6KfaD3jWDbCaTwFw8c=",
+        "originContent": "- No external dependencies",
+        "translatedContent": "- 无需外部依赖"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## Example SQL Files\n\nThe repository includes example SQL under assets/ (example_between.sql, example_aggregation.sql, etc.). See assets/ for details.\n\n## Data & Features Overview\n\n- See the /doc folder for detailed sections on data types, date formats, CSV format, and more.\n\n## License\n\nMIT License. See LICENSE file for details.\n",
+    "ContentSha": "IYEYaTDk46+eUv3fLZMHevlJw/Ap2+vTpQ+R/p7E9VE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 示例 SQL 文件\n\n仓库中包含位于 assets/ 下的示例 SQL（example_between.sql、example_aggregation.sql 等）。详情请参见 assets/。\n\n## 数据与特征概览\n\n- 详见 /doc 文件夹中关于数据类型、日期格式、CSV 格式等的详细章节。\n\n## 许可证\n\nMIT 许可证。详情请参见 LICENSE 文件。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "MWly+fnYrAI6ZXCCF5+ibDmy20dJVJMzkI3E6NCZd/c=",
+        "originContent": "## Example SQL Files",
+        "translatedContent": "## 示例 SQL 文件"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ubrBfiMcheWMHBXpF46Gs0GRUHdO1yea6K+WnALkwZQ=",
+        "originContent": "The repository includes example SQL under assets/ (example_between.sql, example_aggregation.sql, etc.). See assets/ for details.",
+        "translatedContent": "仓库中包含位于 assets/ 下的示例 SQL（example_between.sql、example_aggregation.sql 等）。详情请参见 assets/。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "mEF9IUKLRwf/P1ECSaFo0vAVAxUFQzEJaIkO414oqhg=",
+        "originContent": "## Data & Features Overview",
+        "translatedContent": "## 数据与特征概览"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ZJsxbkKx0oYRNo6gs/LGUf4jJlHFGEv9paqaJxRtcxg=",
+        "originContent": "- See the /doc folder for detailed sections on data types, date formats, CSV format, and more.",
+        "translatedContent": "- 详见 /doc 文件夹中关于数据类型、日期格式、CSV 格式等的详细章节。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "GysNTdsjLyMwfQtMM7Q+DZAXmgr55tWAw2qcNc6L5lE=",
+        "originContent": "MIT License. See LICENSE file for details.",
+        "translatedContent": "MIT 许可证。详情请参见 LICENSE 文件。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

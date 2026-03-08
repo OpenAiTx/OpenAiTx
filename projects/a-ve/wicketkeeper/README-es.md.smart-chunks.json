@@ -1,0 +1,1480 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <a href=\"https://wicketkeeper.io\"><img alt=\"wicketkeeper\" src=\"/assets/hero-repo.png\" width=\"100%\"></a>\n</p>\n\n![Go](https://img.shields.io/badge/Go-1.23-00ADD8?logo=go&logoColor=white)\n![Node.js](https://img.shields.io/badge/Node.js-16+-43853d?logo=node.js&logoColor=white)\n![Express.js](https://img.shields.io/badge/Express.js-4.x-000000?logo=express&logoColor=white)\n![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)\n![Docker](https://img.shields.io/badge/Docker-Supported-2496ED?logo=docker&logoColor=white)\n\nA privacy-friendly, proof-of-work (PoW) captcha system designed to be a user-centric alternative to traditional captchas. Wicketkeeper protects your web forms from simple bots without requiring users to solve frustrating puzzles.\n\nIt achieves this by issuing a small, client-side computational challenge that is easy for a modern device to solve but costly for bots to perform at scale. The system is comprised of a Go backend, an embeddable JavaScript client, and a full-stack demo application.\n\n---\n\n## Table of Contents\n\n- [Features](#features)\n- [How It Works](#how-it-works)\n- [Project Structure](#project-structure)\n- [Getting Started: Full Demo Setup](#getting-started-full-demo-setup)\n  - [Prerequisites](#prerequisites)\n  - [Step 1: Clone the Repository](#step-1-clone-the-repository)\n  - [Step 2: Run the Backend Services](#step-2-run-the-backend-services)\n  - [Step 3: Build the Client Widget](#step-3-build-the-client-widget)\n  - [Step 4: Run the Example Application](#step-4-run-the-example-application)\n- [Usage of Individual Components](#usage-of-individual-components)\n  - [Wicketkeeper Server (Go)](#wicketkeeper-server-go)\n  - [Client Widget (JavaScript)](#client-widget-javascript)\n\n## Features\n\n- **Proof-of-Work Engine:** Replaces visual puzzles with a computational challenge that is easy for users but hard for bots.\n- **Stateless & Secure:** Uses signed JSON Web Tokens (JWTs) for challenge/response cycles, eliminating server-side session state.\n- **Replay Attack Prevention:** Leverages Redis Bloom filters for high-performance, time-windowed prevention of challenge reuse.\n- **Embeddable Client Widget:** A lightweight, dependency-free JavaScript widget that integrates easily into any web form.\n- **Configurable:** Easily adjust PoW difficulty, CORS origins, and ports via environment variables.\n- **Containerized:** Full Docker and Docker Compose support for easy deployment of the backend server and its Redis dependency.\n- **Full-Stack Demo:** Includes a complete Express.js + TypeScript example to demonstrate a real-world integration.",
+    "ContentSha": "y6c3aO1jCsNbphp60fydO7ScilBTVkI38qjKM7hVBb4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n  <a href=\"https://wicketkeeper.io\"><img alt=\"wicketkeeper\" src=\"/assets/hero-repo.png\" width=\"100%\"></a>\n</p>\n\n![Go](https://img.shields.io/badge/Go-1.23-00ADD8?logo=go&logoColor=white)\n![Node.js](https://img.shields.io/badge/Node.js-16+-43853d?logo=node.js&logoColor=white)\n![Express.js](https://img.shields.io/badge/Express.js-4.x-000000?logo=express&logoColor=white)\n![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)\n![Docker](https://img.shields.io/badge/Docker-Supported-2496ED?logo=docker&logoColor=white)\n\nUn sistema captcha basado en prueba de trabajo (PoW) que respeta la privacidad, diseñado para ser una alternativa centrada en el usuario a los captchas tradicionales. Wicketkeeper protege tus formularios web de bots simples sin requerir que los usuarios resuelvan puzzles frustrantes.\n\nLo logra mediante la emisión de un pequeño desafío computacional del lado del cliente que es fácil de resolver para un dispositivo moderno pero costoso para los bots realizar a escala. El sistema está compuesto por un backend en Go, un cliente JavaScript embebible y una aplicación demo full-stack.\n\n---\n\n## Tabla de Contenidos\n\n- [Características](#features)\n- [Cómo Funciona](#how-it-works)\n- [Estructura del Proyecto](#project-structure)\n- [Comenzando: Configuración de la Demo Completa](#getting-started-full-demo-setup)\n  - [Requisitos Previos](#prerequisites)\n  - [Paso 1: Clonar el Repositorio](#step-1-clone-the-repository)\n  - [Paso 2: Ejecutar los Servicios Backend](#step-2-run-the-backend-services)\n  - [Paso 3: Construir el Widget Cliente](#step-3-build-the-client-widget)\n  - [Paso 4: Ejecutar la Aplicación de Ejemplo](#step-4-run-the-example-application)\n- [Uso de Componentes Individuales](#usage-of-individual-components)\n  - [Servidor Wicketkeeper (Go)](#wicketkeeper-server-go)\n  - [Widget Cliente (JavaScript)](#client-widget-javascript)\n\n## Características\n\n- **Motor de Prueba de Trabajo:** Reemplaza puzzles visuales con un desafío computacional que es fácil para los usuarios pero difícil para los bots.\n- **Sin Estado y Seguro:** Usa JSON Web Tokens (JWT) firmados para ciclos de desafío/respuesta, eliminando el estado de sesión en el servidor.\n- **Prevención de Repetición de Ataques:** Utiliza filtros Bloom de Redis para una prevención de reutilización de desafíos de alto rendimiento y basada en ventanas temporales.\n- **Widget Cliente Embebible:** Un widget JavaScript ligero y sin dependencias que se integra fácilmente en cualquier formulario web.\n- **Configurable:** Ajusta fácilmente la dificultad del PoW, orígenes CORS y puertos mediante variables de entorno.\n- **Contenerizado:** Soporte completo para Docker y Docker Compose para un despliegue sencillo del servidor backend y su dependencia Redis.\n- **Demo Full-Stack:** Incluye un ejemplo completo en Express.js + TypeScript para demostrar una integración en un entorno real.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "2uXIcZZp6WRwzDTki3yOEFCrvukTjZ8m2+l46TpGd8I=",
+        "originContent": "  <a href=\"https://wicketkeeper.io\"><img alt=\"wicketkeeper\" src=\"/assets/hero-repo.png\" width=\"100%\"></a>",
+        "translatedContent": "  <a href=\"https://wicketkeeper.io\"><img alt=\"wicketkeeper\" src=\"/assets/hero-repo.png\" width=\"100%\"></a>"
+      },
+      {
+        "row": 3,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "pWPX4YNcbI6neHvpLFtwmy0bqeAHJg7zJDzvqY0AHSY=",
+        "originContent": "![Go](https://img.shields.io/badge/Go-1.23-00ADD8?logo=go&logoColor=white)",
+        "translatedContent": "![Go](https://img.shields.io/badge/Go-1.23-00ADD8?logo=go&logoColor=white)"
+      },
+      {
+        "row": 6,
+        "rowsha": "mf3Xvs4s98sfqOtOiFiFBwoMlGuhBzRmDM9kOogPOdo=",
+        "originContent": "![Node.js](https://img.shields.io/badge/Node.js-16+-43853d?logo=node.js&logoColor=white)",
+        "translatedContent": "![Node.js](https://img.shields.io/badge/Node.js-16+-43853d?logo=node.js&logoColor=white)"
+      },
+      {
+        "row": 7,
+        "rowsha": "dGI4WlFlJXCWJdk8seJMoMO7pFw8zzw5Iw2dn5Q90oA=",
+        "originContent": "![Express.js](https://img.shields.io/badge/Express.js-4.x-000000?logo=express&logoColor=white)",
+        "translatedContent": "![Express.js](https://img.shields.io/badge/Express.js-4.x-000000?logo=express&logoColor=white)"
+      },
+      {
+        "row": 8,
+        "rowsha": "OB0cGaqkvQ77237oFirfC88GDq0DfO3b9Tzsl6RaosI=",
+        "originContent": "![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)",
+        "translatedContent": "![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)"
+      },
+      {
+        "row": 9,
+        "rowsha": "2jdElvITWi59tAhrcFSzFDBQ+sdskDwQylWUKiVyz14=",
+        "originContent": "![Docker](https://img.shields.io/badge/Docker-Supported-2496ED?logo=docker&logoColor=white)",
+        "translatedContent": "![Docker](https://img.shields.io/badge/Docker-Supported-2496ED?logo=docker&logoColor=white)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "VfYFzFv/OzHivfGpTH50G7GmokNO6QropSKq1xg5rGw=",
+        "originContent": "A privacy-friendly, proof-of-work (PoW) captcha system designed to be a user-centric alternative to traditional captchas. Wicketkeeper protects your web forms from simple bots without requiring users to solve frustrating puzzles.",
+        "translatedContent": "Un sistema captcha basado en prueba de trabajo (PoW) que respeta la privacidad, diseñado para ser una alternativa centrada en el usuario a los captchas tradicionales. Wicketkeeper protege tus formularios web de bots simples sin requerir que los usuarios resuelvan puzzles frustrantes."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "l3TTSWkcgBVB6u4DYRYA/usoVYOTDnaMqEjzU6eS5dM=",
+        "originContent": "It achieves this by issuing a small, client-side computational challenge that is easy for a modern device to solve but costly for bots to perform at scale. The system is comprised of a Go backend, an embeddable JavaScript client, and a full-stack demo application.",
+        "translatedContent": "Lo logra mediante la emisión de un pequeño desafío computacional del lado del cliente que es fácil de resolver para un dispositivo moderno pero costoso para los bots realizar a escala. El sistema está compuesto por un backend en Go, un cliente JavaScript embebible y una aplicación demo full-stack."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## Tabla de Contenidos"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "BI+Zz2NbZ0AX7YgD9EjinH4VCYulypQnBww5RTqTSDI=",
+        "originContent": "- [Features](#features)",
+        "translatedContent": "- [Características](#features)"
+      },
+      {
+        "row": 20,
+        "rowsha": "oCj1lf/bWjX62GJreCX+uhOL4qbSdpg/9umLhmSs2zA=",
+        "originContent": "- [How It Works](#how-it-works)",
+        "translatedContent": "- [Cómo Funciona](#how-it-works)"
+      },
+      {
+        "row": 21,
+        "rowsha": "VCDVaOB2zD9MRSUdd8DKKOnfxhY/ACnPPkIy+nwSjN8=",
+        "originContent": "- [Project Structure](#project-structure)",
+        "translatedContent": "- [Estructura del Proyecto](#project-structure)"
+      },
+      {
+        "row": 22,
+        "rowsha": "n1VC8Nl9dsKzs5NU4FiIBJik1mk+Q+K0FRaU4bcSuAs=",
+        "originContent": "- [Getting Started: Full Demo Setup](#getting-started-full-demo-setup)",
+        "translatedContent": "- [Comenzando: Configuración de la Demo Completa](#getting-started-full-demo-setup)"
+      },
+      {
+        "row": 23,
+        "rowsha": "7Snjmke0JcwPWLQ1sVLxe5VvbK9AKtjPJb6RAOQKe3Q=",
+        "originContent": "  - [Prerequisites](#prerequisites)",
+        "translatedContent": "  - [Requisitos Previos](#prerequisites)"
+      },
+      {
+        "row": 24,
+        "rowsha": "dH+qY3u4czd0d2hQi2JfnKY7izIxtvqC59Bpjd5E5/s=",
+        "originContent": "  - [Step 1: Clone the Repository](#step-1-clone-the-repository)",
+        "translatedContent": "  - [Paso 1: Clonar el Repositorio](#step-1-clone-the-repository)"
+      },
+      {
+        "row": 25,
+        "rowsha": "fI+0VmY6WvSGbttfHN9QzqPmqv0vwQihrFi77JWdT40=",
+        "originContent": "  - [Step 2: Run the Backend Services](#step-2-run-the-backend-services)",
+        "translatedContent": "  - [Paso 2: Ejecutar los Servicios Backend](#step-2-run-the-backend-services)"
+      },
+      {
+        "row": 26,
+        "rowsha": "xs7rn4HekcJwaDUvHFemxSlhK3HKTbiRJrUGVMN6bY8=",
+        "originContent": "  - [Step 3: Build the Client Widget](#step-3-build-the-client-widget)",
+        "translatedContent": "  - [Paso 3: Construir el Widget Cliente](#step-3-build-the-client-widget)"
+      },
+      {
+        "row": 27,
+        "rowsha": "rjmLmICsDuOQx0h39ba0YC1xA0kpxvx2Ytm2M8wrhas=",
+        "originContent": "  - [Step 4: Run the Example Application](#step-4-run-the-example-application)",
+        "translatedContent": "  - [Paso 4: Ejecutar la Aplicación de Ejemplo](#step-4-run-the-example-application)"
+      },
+      {
+        "row": 28,
+        "rowsha": "QdiNRI3ceGs59vHq41RJvAyfVjz1ZxWGdjQGHVp9dgI=",
+        "originContent": "- [Usage of Individual Components](#usage-of-individual-components)",
+        "translatedContent": "- [Uso de Componentes Individuales](#usage-of-individual-components)"
+      },
+      {
+        "row": 29,
+        "rowsha": "vWy41dkSIAAyUMQmV/tVFSoruDsoUUngC9+O4l2en3M=",
+        "originContent": "  - [Wicketkeeper Server (Go)](#wicketkeeper-server-go)",
+        "translatedContent": "  - [Servidor Wicketkeeper (Go)](#wicketkeeper-server-go)"
+      },
+      {
+        "row": 30,
+        "rowsha": "LKJ0T432ofvVQYs3mGETPb6k+++cHPEGewByfWaJVZs=",
+        "originContent": "  - [Client Widget (JavaScript)](#client-widget-javascript)",
+        "translatedContent": "  - [Widget Cliente (JavaScript)](#client-widget-javascript)"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Características"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "Stdb/hbXkRgGwTJ/Ryfy6t08X4zYVoOzwmlJUITuh70=",
+        "originContent": "- **Proof-of-Work Engine:** Replaces visual puzzles with a computational challenge that is easy for users but hard for bots.",
+        "translatedContent": "- **Motor de Prueba de Trabajo:** Reemplaza puzzles visuales con un desafío computacional que es fácil para los usuarios pero difícil para los bots."
+      },
+      {
+        "row": 35,
+        "rowsha": "0n1lGD9yR+iAfIEubVja68FyQGZEJaAWzudKPNPgSs4=",
+        "originContent": "- **Stateless & Secure:** Uses signed JSON Web Tokens (JWTs) for challenge/response cycles, eliminating server-side session state.",
+        "translatedContent": "- **Sin Estado y Seguro:** Usa JSON Web Tokens (JWT) firmados para ciclos de desafío/respuesta, eliminando el estado de sesión en el servidor."
+      },
+      {
+        "row": 36,
+        "rowsha": "DorF9QmEgAtPWZTj2+uUYvlIZ/VYM+OiF5hL5s/UBnE=",
+        "originContent": "- **Replay Attack Prevention:** Leverages Redis Bloom filters for high-performance, time-windowed prevention of challenge reuse.",
+        "translatedContent": "- **Prevención de Repetición de Ataques:** Utiliza filtros Bloom de Redis para una prevención de reutilización de desafíos de alto rendimiento y basada en ventanas temporales."
+      },
+      {
+        "row": 37,
+        "rowsha": "tPB6ubZgsBHYBzbij9sT+e1Dvoojx7UhstxuY+L6A7Y=",
+        "originContent": "- **Embeddable Client Widget:** A lightweight, dependency-free JavaScript widget that integrates easily into any web form.",
+        "translatedContent": "- **Widget Cliente Embebible:** Un widget JavaScript ligero y sin dependencias que se integra fácilmente en cualquier formulario web."
+      },
+      {
+        "row": 38,
+        "rowsha": "dSD3S82T8fRZxispJ6nSW4GFsXTd6WiNMdFodAvGTIo=",
+        "originContent": "- **Configurable:** Easily adjust PoW difficulty, CORS origins, and ports via environment variables.",
+        "translatedContent": "- **Configurable:** Ajusta fácilmente la dificultad del PoW, orígenes CORS y puertos mediante variables de entorno."
+      },
+      {
+        "row": 39,
+        "rowsha": "+25g9iH+E9kk+U1zt+BqqZy+ojTobNCBeptttMVI4xE=",
+        "originContent": "- **Containerized:** Full Docker and Docker Compose support for easy deployment of the backend server and its Redis dependency.",
+        "translatedContent": "- **Contenerizado:** Soporte completo para Docker y Docker Compose para un despliegue sencillo del servidor backend y su dependencia Redis."
+      },
+      {
+        "row": 40,
+        "rowsha": "7BdmtcqWr6zj98Xk9lpJYWBw+8crN0+NQcCEGlGCJDM=",
+        "originContent": "- **Full-Stack Demo:** Includes a complete Express.js + TypeScript example to demonstrate a real-world integration.",
+        "translatedContent": "- **Demo Full-Stack:** Incluye un ejemplo completo en Express.js + TypeScript para demostrar una integración en un entorno real."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n## How It Works\n\nThe Wicketkeeper ecosystem involves four main actors: the User's Browser, the Client Widget, your Application Backend, and the Wicketkeeper Server.\n",
+    "ContentSha": "Wt52QK+KWt3Z2egHcSfE6O07YKY/NtzBlIvXQdEkGuY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Cómo Funciona\n\nEl ecosistema Wicketkeeper involucra cuatro actores principales: el Navegador del Usuario, el Widget Cliente, el Backend de su Aplicación y el Servidor Wicketkeeper.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+        "originContent": "## How It Works",
+        "translatedContent": "## Cómo Funciona"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "aPqrPKkLKN8Ng1eWzlWmN9anyqBoCgtzIZCjFHpYp9w=",
+        "originContent": "The Wicketkeeper ecosystem involves four main actors: the User's Browser, the Client Widget, your Application Backend, and the Wicketkeeper Server.",
+        "translatedContent": "El ecosistema Wicketkeeper involucra cuatro actores principales: el Navegador del Usuario, el Widget Cliente, el Backend de su Aplicación y el Servidor Wicketkeeper."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```mermaid\nsequenceDiagram\n    %% define IDs and human-readable labels\n    participant UB as \"User's Browser\"\n    participant CW as \"Client Widget\"\n    participant AB as \"Your App Backend\"\n    participant WKS as \"Wicketkeeper Server\"\n\n    UB->>+CW: User interacts with form\n    CW->>+WKS: GET /v0/challenge\n    WKS-->>-CW: Returns signed JWT (Challenge + Difficulty)\n\n    CW->>CW: Solves Proof-of-Work in-browser\n    Note over CW: Finds a valid nonce/hash pair\n    CW-->>UB: Populates hidden form field with solution\n\n    UB->>+AB: Submits form with solution data\n    AB->>+WKS: POST /v0/siteverify (with solution)\n    WKS->>WKS: Verify JWT, Check PoW hash and Bloom-filter\n    WKS-->>-AB: Returns success/failure\n\n    alt Verification Successful\n        AB->>AB: Process form data (e.g., save comment)\n        AB-->>UB: Show success message\n    else Verification Failed\n        AB-->>UB: Show error message\n    end\n\n```",
+    "ContentSha": "JwNgnR6nW1FLfWOF+yH84fwVKPIND/H4vkk/edMjlxA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```mermaid\nsequenceDiagram\n    %% define IDs and human-readable labels\n    participant UB as \"User's Browser\"\n    participant CW as \"Client Widget\"\n    participant AB as \"Your App Backend\"\n    participant WKS as \"Wicketkeeper Server\"\n\n    UB->>+CW: User interacts with form\n    CW->>+WKS: GET /v0/challenge\n    WKS-->>-CW: Returns signed JWT (Challenge + Difficulty)\n\n    CW->>CW: Solves Proof-of-Work in-browser\n    Note over CW: Finds a valid nonce/hash pair\n    CW-->>UB: Populates hidden form field with solution\n\n    UB->>+AB: Submits form with solution data\n    AB->>+WKS: POST /v0/siteverify (with solution)\n    WKS->>WKS: Verify JWT, Check PoW hash and Bloom-filter\n    WKS-->>-AB: Returns success/failure\n\n    alt Verification Successful\n        AB->>AB: Process form data (e.g., save comment)\n        AB-->>UB: Show success message\n    else Verification Failed\n        AB-->>UB: Show error message\n    end\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RtlHQpG+V59KLQkk05f8+fLlxsq4KdWUwAAs6jH0zbs=",
+        "originContent": "```mermaid",
+        "translatedContent": "```mermaid"
+      },
+      {
+        "row": 2,
+        "rowsha": "U29SrB950JGDYP1CLGrIRn2Ml0cCT/hLy5WYzqhNVWc=",
+        "originContent": "sequenceDiagram",
+        "translatedContent": "sequenceDiagram"
+      },
+      {
+        "row": 3,
+        "rowsha": "6MWnnwdidIm+8VLa/2jZtoV/v8Ru9CmmL2miWwHTJXo=",
+        "originContent": "    %% define IDs and human-readable labels",
+        "translatedContent": "    %% define IDs and human-readable labels"
+      },
+      {
+        "row": 4,
+        "rowsha": "t64o9ZiBF4Bvwz5OlcRLsY9pdeKedfh/MS3Xt5xU+OI=",
+        "originContent": "    participant UB as \"User's Browser\"",
+        "translatedContent": "    participant UB as \"User's Browser\""
+      },
+      {
+        "row": 5,
+        "rowsha": "36Xt61gj6ynBManYT5F0p+9DKPYLhJ+2wz6lcHQuJzE=",
+        "originContent": "    participant CW as \"Client Widget\"",
+        "translatedContent": "    participant CW as \"Client Widget\""
+      },
+      {
+        "row": 6,
+        "rowsha": "7vfDCVKcwBrA1zPEMa5ZSZWGYBGBXSgyTK84+mTypIU=",
+        "originContent": "    participant AB as \"Your App Backend\"",
+        "translatedContent": "    participant AB as \"Your App Backend\""
+      },
+      {
+        "row": 7,
+        "rowsha": "5q0zPnzFsci52UOeHtF967yoXez3EHFN7c+z5uZv1UI=",
+        "originContent": "    participant WKS as \"Wicketkeeper Server\"",
+        "translatedContent": "    participant WKS as \"Wicketkeeper Server\""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "fDwhyDGD4VqoLYJ6/pX52Gc+tuYRh4lAd8nsJ4/hZgU=",
+        "originContent": "    UB->>+CW: User interacts with form",
+        "translatedContent": "    UB->>+CW: User interacts with form"
+      },
+      {
+        "row": 10,
+        "rowsha": "W0akQXzJ/wPC4LKbcdK/GxkOJJDiW50k+duCjg8UJmE=",
+        "originContent": "    CW->>+WKS: GET /v0/challenge",
+        "translatedContent": "    CW->>+WKS: GET /v0/challenge"
+      },
+      {
+        "row": 11,
+        "rowsha": "1NDYcIOYwcoWvuRC3k0NAfTrGdojEWAAGDgnPcYCBP0=",
+        "originContent": "    WKS-->>-CW: Returns signed JWT (Challenge + Difficulty)",
+        "translatedContent": "    WKS-->>-CW: Returns signed JWT (Challenge + Difficulty)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "2SIVSmADTPXtT/vN5hB6fi/5C1/PfC7S+2UVzzFz82A=",
+        "originContent": "    CW->>CW: Solves Proof-of-Work in-browser",
+        "translatedContent": "    CW->>CW: Solves Proof-of-Work in-browser"
+      },
+      {
+        "row": 14,
+        "rowsha": "y2AWxrjE6vh5+H9Ov5YaWE44KyL5ICpH8PaHLB3FUNk=",
+        "originContent": "    Note over CW: Finds a valid nonce/hash pair",
+        "translatedContent": "    Note over CW: Finds a valid nonce/hash pair"
+      },
+      {
+        "row": 15,
+        "rowsha": "dt3JnbfH/nXAS37+TjdijAveAtWhcpGgLdeNsXmGmEQ=",
+        "originContent": "    CW-->>UB: Populates hidden form field with solution",
+        "translatedContent": "    CW-->>UB: Populates hidden form field with solution"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "Spv/59Gk1pevE4wLw+ZSxnohmcYEZmTIL7mkGuYTTPc=",
+        "originContent": "    UB->>+AB: Submits form with solution data",
+        "translatedContent": "    UB->>+AB: Submits form with solution data"
+      },
+      {
+        "row": 18,
+        "rowsha": "aBZfABqtXdPObqNd0kB7ASDlbBCzdVCKvxAF6EFpYlE=",
+        "originContent": "    AB->>+WKS: POST /v0/siteverify (with solution)",
+        "translatedContent": "    AB->>+WKS: POST /v0/siteverify (with solution)"
+      },
+      {
+        "row": 19,
+        "rowsha": "1DP3NCVKQUgmKhSrmLgICz761NuUCLGhJmkHplne7b4=",
+        "originContent": "    WKS->>WKS: Verify JWT, Check PoW hash and Bloom-filter",
+        "translatedContent": "    WKS->>WKS: Verify JWT, Check PoW hash and Bloom-filter"
+      },
+      {
+        "row": 20,
+        "rowsha": "DZ2Ql139rK9MWzC9fLqrY25r9ceha3DDEtD29xfbkrI=",
+        "originContent": "    WKS-->>-AB: Returns success/failure",
+        "translatedContent": "    WKS-->>-AB: Returns success/failure"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "BJqmHt/vy7zdzN6YlmZnr7Ru6n0TLzkQW14+vI8dpaY=",
+        "originContent": "    alt Verification Successful",
+        "translatedContent": "    alt Verification Successful"
+      },
+      {
+        "row": 23,
+        "rowsha": "kbWENaABZJmxiKvGeRXrCslpIfAItEFk1vdiorufkiI=",
+        "originContent": "        AB->>AB: Process form data (e.g., save comment)",
+        "translatedContent": "        AB->>AB: Process form data (e.g., save comment)"
+      },
+      {
+        "row": 24,
+        "rowsha": "xoudc6+iktZmhJgIpzF+Mm17+c7hvtlC0cY25zqknLM=",
+        "originContent": "        AB-->>UB: Show success message",
+        "translatedContent": "        AB-->>UB: Show success message"
+      },
+      {
+        "row": 25,
+        "rowsha": "t39xPwtPeHtDEA5jFqf2bj3dp/Mfk/s3t1gBi1+7yD0=",
+        "originContent": "    else Verification Failed",
+        "translatedContent": "    else Verification Failed"
+      },
+      {
+        "row": 26,
+        "rowsha": "sESzuo//tFO6jsI0LNxXvCM0ItKCIZjKaB03gYKTIVE=",
+        "originContent": "        AB-->>UB: Show error message",
+        "translatedContent": "        AB-->>UB: Show error message"
+      },
+      {
+        "row": 27,
+        "rowsha": "gvoVxHL5c5ZCFTBleU4mILUDJKIFcP+s+BQjx5nYXiw=",
+        "originContent": "    end",
+        "translatedContent": "    end"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n1.  **Challenge Request:** The client widget requests a new PoW challenge from the Wicketkeeper Server.\n2.  **Challenge Issuance:** The server generates a unique challenge, packages it into a signed JWT, and sends it to the client.\n3.  **Proof of Work:** The client's browser (using Web Workers) finds a solution (`nonce`) to the cryptographic puzzle.\n4.  **Form Integration:** The solution is placed into a hidden input field in your web form.\n5.  **Server-Side Verification:** When the user submits the form, your application's backend sends the solution to the Wicketkeeper Server's `/v0/siteverify` endpoint.\n6.  **Validation:** The Wicketkeeper Server validates the JWT signature, the PoW correctness, and checks a Redis Bloom filter to ensure the challenge hasn't been used before. It returns a final success or failure response.\n\n## Project Structure\n\nThe repository is organized into three main components:\n",
+    "ContentSha": "VqN8XxWdAf99W29ynqI2X7ZSj5d9oXG3by97MLQWPMU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "1.  **Solicitud de Desafío:** El widget del cliente solicita un nuevo desafío PoW al Servidor Wicketkeeper.  \n2.  **Emisión del Desafío:** El servidor genera un desafío único, lo empaqueta en un JWT firmado y lo envía al cliente.  \n3.  **Prueba de Trabajo:** El navegador del cliente (usando Web Workers) encuentra una solución (`nonce`) al acertijo criptográfico.  \n4.  **Integración en el Formulario:** La solución se coloca en un campo oculto de entrada en su formulario web.  \n5.  **Verificación del Lado del Servidor:** Cuando el usuario envía el formulario, el backend de su aplicación envía la solución al endpoint `/v0/siteverify` del Servidor Wicketkeeper.  \n6.  **Validación:** El Servidor Wicketkeeper valida la firma del JWT, la corrección del PoW y revisa un filtro Bloom de Redis para asegurar que el desafío no se haya usado antes. Devuelve una respuesta final de éxito o fracaso.  \n\n## Estructura del Proyecto  \n\nEl repositorio está organizado en tres componentes principales:  \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1.  **Solicitud de Desafío:** El widget del cliente solicita un nuevo desafío PoW al Servidor Wicketkeeper.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "/de9t/EJ/qYS50VDPZQLlEnqrxv/1peq7kKghITI5O4=",
+        "originContent": "1.  **Challenge Request:** The client widget requests a new PoW challenge from the Wicketkeeper Server.",
+        "translatedContent": "2.  **Emisión del Desafío:** El servidor genera un desafío único, lo empaqueta en un JWT firmado y lo envía al cliente.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "xd0VuJ6kJteAakVnt/wsWPn1J+4gBmIDxfDcw5/nuIA=",
+        "originContent": "2.  **Challenge Issuance:** The server generates a unique challenge, packages it into a signed JWT, and sends it to the client.",
+        "translatedContent": "3.  **Prueba de Trabajo:** El navegador del cliente (usando Web Workers) encuentra una solución (`nonce`) al acertijo criptográfico.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "LA7ijYMF92kE9x99FTcka3fE5eLbIKbTJW7oWrrydgE=",
+        "originContent": "3.  **Proof of Work:** The client's browser (using Web Workers) finds a solution (`nonce`) to the cryptographic puzzle.",
+        "translatedContent": "4.  **Integración en el Formulario:** La solución se coloca en un campo oculto de entrada en su formulario web.  "
+      },
+      {
+        "row": 5,
+        "rowsha": "tHFKKa9i7LQn2nJWqFiQ4Z9lW+FTZXolyzCWiDhJnns=",
+        "originContent": "4.  **Form Integration:** The solution is placed into a hidden input field in your web form.",
+        "translatedContent": "5.  **Verificación del Lado del Servidor:** Cuando el usuario envía el formulario, el backend de su aplicación envía la solución al endpoint `/v0/siteverify` del Servidor Wicketkeeper.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "2fQFNyn5Z431O3He2O6D/wJtso8q4qpYGubP90XFQt4=",
+        "originContent": "5.  **Server-Side Verification:** When the user submits the form, your application's backend sends the solution to the Wicketkeeper Server's `/v0/siteverify` endpoint.",
+        "translatedContent": "6.  **Validación:** El Servidor Wicketkeeper valida la firma del JWT, la corrección del PoW y revisa un filtro Bloom de Redis para asegurar que el desafío no se haya usado antes. Devuelve una respuesta final de éxito o fracaso.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "3rpoAbfC6OQ5r9nfJGB5hjK+XooT1nd4zODi+CG7wsA=",
+        "originContent": "6.  **Validation:** The Wicketkeeper Server validates the JWT signature, the PoW correctness, and checks a Redis Bloom filter to ensure the challenge hasn't been used before. It returns a final success or failure response.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Estructura del Proyecto  "
+      },
+      {
+        "row": 9,
+        "rowsha": "fgyvOUxAVQzAAJBynGYLLFVgQh7X0IXOshtNb9Ky0Sw=",
+        "originContent": "## Project Structure",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "El repositorio está organizado en tres componentes principales:  "
+      },
+      {
+        "row": 11,
+        "rowsha": "JDUnTMJihckg/KgpxflgSLwytwDnL77xGwvdWacDqyA=",
+        "originContent": "The repository is organized into three main components:",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```\n.\n├── client/          # The frontend JS widget that solves the PoW challenge\n├── server/          # The Go backend that issues and verifies challenges\n├── example/         # A full-stack Express.js demo application\n└── README.md        # This file\n```",
+    "ContentSha": "WvWjOof6kO4yHHKZ3uHcWUlTKzGC9Mbh8So8rGrWizE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n.\n├── client/          # The frontend JS widget that solves the PoW challenge\n├── server/          # The Go backend that issues and verifies challenges\n├── example/         # A full-stack Express.js demo application\n└── README.md        # This file\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "zbTuKuppzGqDMxu+ltwsqpopnSEynvsDNvwCqC4YOag=",
+        "originContent": ".",
+        "translatedContent": "."
+      },
+      {
+        "row": 3,
+        "rowsha": "cD2kqMrJt8MC2M1EUp+q0uOBO7C4cy3RuR+UqJw6o00=",
+        "originContent": "├── client/          # The frontend JS widget that solves the PoW challenge",
+        "translatedContent": "├── client/          # The frontend JS widget that solves the PoW challenge"
+      },
+      {
+        "row": 4,
+        "rowsha": "BKuqydtkdml9UuiYj8Qt0lGhDVOlI2CmJ3THlqNhpwo=",
+        "originContent": "├── server/          # The Go backend that issues and verifies challenges",
+        "translatedContent": "├── server/          # The Go backend that issues and verifies challenges"
+      },
+      {
+        "row": 5,
+        "rowsha": "W/1F0COy4Ekp4dzlzSUymsVp2b0kLPRnYaEhzzl8dfw=",
+        "originContent": "├── example/         # A full-stack Express.js demo application",
+        "translatedContent": "├── example/         # A full-stack Express.js demo application"
+      },
+      {
+        "row": 6,
+        "rowsha": "yzs6oqjQQOlDltJZUbSV2gV0Ak2/pIOe2nssu8WsJFg=",
+        "originContent": "└── README.md        # This file",
+        "translatedContent": "└── README.md        # This file"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n## Getting Started: Full Demo Setup\n\nThis guide will help you run the full Wicketkeeper ecosystem, including the backend server, the client widget, and the example application.\n\n### Prerequisites\n\n- [Go](https://go.dev/doc/install) (v1.23+)\n- [Node.js](https://nodejs.org/) (v16+) and npm\n- [Docker](https://www.docker.com/products/docker-desktop/) and Docker Compose\n\n### Step 1: Clone the Repository\n",
+    "ContentSha": "NwbjWaOt1/1X2gxuT6f/ZkJ3NbEeYDdfJYQYYGyqajA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Comenzando: Configuración completa de la demostración\n\nEsta guía te ayudará a ejecutar todo el ecosistema de Wicketkeeper, incluyendo el servidor backend, el widget cliente y la aplicación de ejemplo.\n\n### Requisitos previos\n\n- [Go](https://go.dev/doc/install) (v1.23+)\n- [Node.js](https://nodejs.org/) (v16+) y npm\n- [Docker](https://www.docker.com/products/docker-desktop/) y Docker Compose\n\n### Paso 1: Clonar el repositorio\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "h2xmdENje9HzjVsGfKh7TgvDpIkkl1clY8gQ/Z/wUGE=",
+        "originContent": "## Getting Started: Full Demo Setup",
+        "translatedContent": "## Comenzando: Configuración completa de la demostración"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "3fmHGUpQmRa2ae4do5UZRNQLJVrG05Pp0ibFDpNEB7Y=",
+        "originContent": "This guide will help you run the full Wicketkeeper ecosystem, including the backend server, the client widget, and the example application.",
+        "translatedContent": "Esta guía te ayudará a ejecutar todo el ecosistema de Wicketkeeper, incluyendo el servidor backend, el widget cliente y la aplicación de ejemplo."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### Requisitos previos"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "DDReE9DIIlxR87b6eRzxgBRqmJ1iJJgpOgk7JXy5iKk=",
+        "originContent": "- [Go](https://go.dev/doc/install) (v1.23+)",
+        "translatedContent": "- [Go](https://go.dev/doc/install) (v1.23+)"
+      },
+      {
+        "row": 9,
+        "rowsha": "VQ62S6EiSqxYjlXpTK1/UmV/Ly20WzgnNZEEECdu7qg=",
+        "originContent": "- [Node.js](https://nodejs.org/) (v16+) and npm",
+        "translatedContent": "- [Node.js](https://nodejs.org/) (v16+) y npm"
+      },
+      {
+        "row": 10,
+        "rowsha": "uW7boCdftpALEEdNAD6W4TJzc2PdnfA1APL3lvbcqkQ=",
+        "originContent": "- [Docker](https://www.docker.com/products/docker-desktop/) and Docker Compose",
+        "translatedContent": "- [Docker](https://www.docker.com/products/docker-desktop/) y Docker Compose"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "4rBdCO2uBoVMXbyQG7+Im0ID87vUyGeAmFq7qW9ovqY=",
+        "originContent": "### Step 1: Clone the Repository",
+        "translatedContent": "### Paso 1: Clonar el repositorio"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bash\ngit clone https://github.com/a-ve/wicketkeeper.git\ncd wicketkeeper\n```",
+    "ContentSha": "3s8XWBmAW8QlS0wtbAebtdvZxpMhHGJpDco/py3uhck=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/a-ve/wicketkeeper.git\ncd wicketkeeper\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "9FL/W77Pz0OYvUvwl4HpafLsxEcOftIb1d8V9KwbTb8=",
+        "originContent": "git clone https://github.com/a-ve/wicketkeeper.git",
+        "translatedContent": "git clone https://github.com/a-ve/wicketkeeper.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "pDZ88qKIBEDInI0dExAsu9Tl3EMNX1/jLJUJAHnF5G0=",
+        "originContent": "cd wicketkeeper",
+        "translatedContent": "cd wicketkeeper"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n### Step 2: Run the Backend Services\n\nThe easiest way to run the Go server and its Redis dependency is with Docker Compose.\n",
+    "ContentSha": "nfaGjrc35kURm5DQ/NEW5hk6986yQZjqUZUfIKSn1no=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Paso 2: Ejecutar los Servicios Backend\n\nLa forma más sencilla de ejecutar el servidor Go y su dependencia Redis es con Docker Compose.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "FtvWL8/H7B0uaqJmD3IjHzt1T+BEO5G/SfT25Gf81ZA=",
+        "originContent": "### Step 2: Run the Backend Services",
+        "translatedContent": "### Paso 2: Ejecutar los Servicios Backend"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "YgqvQvWpphyM6tDsxr4GQi0YYX0WGt6y7TMcn7HLMwc=",
+        "originContent": "The easiest way to run the Go server and its Redis dependency is with Docker Compose.",
+        "translatedContent": "La forma más sencilla de ejecutar el servidor Go y su dependencia Redis es con Docker Compose."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```bash\ncd server/\nmkdir data\ndocker-compose up -d\n```",
+    "ContentSha": "B8kSvCRBed6sk0FfNa9t6PbPNLcnNav1PzK98yOHOnQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd server/\nmkdir data\ndocker-compose up -d\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "q/21RVvku0HxafoGrw7xSGxPFnszzQqEVXQqktYZD5U=",
+        "originContent": "cd server/",
+        "translatedContent": "cd server/"
+      },
+      {
+        "row": 3,
+        "rowsha": "jDhP9NpoxlxdmgPewZBoKU4O9m7zv3vVf0wEZ4wslcQ=",
+        "originContent": "mkdir data",
+        "translatedContent": "mkdir data"
+      },
+      {
+        "row": 4,
+        "rowsha": "GmKC1SWK/ZUqHRly18aVX6jh20ULj0RvyugNeDsD7eA=",
+        "originContent": "docker-compose up -d",
+        "translatedContent": "docker-compose up -d"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\nThis will build and start the `wicketkeeper` Go service on port `8080` and a `redis-stack` container. On the first run, a `wicketkeeper.key` file will be generated in `server/data/`.\n\n### Step 3: Build the Client Widget\n\nThe client widget needs to be compiled into a single JavaScript file.\n",
+    "ContentSha": "SGUiGhBDuWMhFPjKbSOWjNx5lkR4A10xmMUynfwY4i0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEsto construirá y arrancará el servicio Go `wicketkeeper` en el puerto `8080` y un contenedor `redis-stack`. En la primera ejecución, se generará un archivo `wicketkeeper.key` en `server/data/`.\n\n### Paso 3: Construir el Widget del Cliente\n\nEl widget del cliente necesita ser compilado en un solo archivo JavaScript.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "uFtvSiAf02uFaIDohXT4NRehHFR1yw6xWMl2P7wOQZY=",
+        "originContent": "This will build and start the `wicketkeeper` Go service on port `8080` and a `redis-stack` container. On the first run, a `wicketkeeper.key` file will be generated in `server/data/`.",
+        "translatedContent": "Esto construirá y arrancará el servicio Go `wicketkeeper` en el puerto `8080` y un contenedor `redis-stack`. En la primera ejecución, se generará un archivo `wicketkeeper.key` en `server/data/`."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0QPqAM9NPBSXkvsWRjnkRFEH6VT/a0Vs7amwVvYkKPs=",
+        "originContent": "### Step 3: Build the Client Widget",
+        "translatedContent": "### Paso 3: Construir el Widget del Cliente"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "fDVifIwcGXsYXqZFXsMalTKNDk648RfH+gPJyx7JL84=",
+        "originContent": "The client widget needs to be compiled into a single JavaScript file.",
+        "translatedContent": "El widget del cliente necesita ser compilado en un solo archivo JavaScript."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```bash\ncd ../client/\nnpm install\nnpm run build:fast\n```",
+    "ContentSha": "OxHYXgjLfy2uuk3jcjw0jvJSkAdErnlw4t2x5JShVE0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd ../client/\nnpm install\nnpm run build:fast\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "z/Q1VIgNZBwCQbRalbX3SX55O4DAMA4nDwBVXnhK4qw=",
+        "originContent": "cd ../client/",
+        "translatedContent": "cd ../client/"
+      },
+      {
+        "row": 3,
+        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+        "originContent": "npm install",
+        "translatedContent": "npm install"
+      },
+      {
+        "row": 4,
+        "rowsha": "wJ7eZzaAqHyM9MzySvQN7lHaj3qFuRiVJ7hrXjngP9g=",
+        "originContent": "npm run build:fast",
+        "translatedContent": "npm run build:fast"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\nThis creates `client/dist/fast.js`. Now, copy this file to the example application's public directory:\n",
+    "ContentSha": "xs73wne5d5vOUVeUp4wR7CuiN85dkwSSdewNDJowR9A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEsto crea `client/dist/fast.js`. Ahora, copie este archivo al directorio público de la aplicación de ejemplo:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yRpw992z7tYV9WAHAqAO4CTL/+Q6iCPC97Wd3RHPiV0=",
+        "originContent": "This creates `client/dist/fast.js`. Now, copy this file to the example application's public directory:",
+        "translatedContent": "Esto crea `client/dist/fast.js`. Ahora, copie este archivo al directorio público de la aplicación de ejemplo:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```bash\ncp dist/fast.js ../example/public/\n```",
+    "ContentSha": "YyPxo/nVq8eAw9Nk0GejsQH8De9yyn6X2YxetUA+0Ls=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncp dist/fast.js ../example/public/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "bQtc/3lzLEA7HIPfOCPE5ngY2BNf0MPGrwRETEWdFws=",
+        "originContent": "cp dist/fast.js ../example/public/",
+        "translatedContent": "cp dist/fast.js ../example/public/"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n### Step 4: Run the Example Application\n\nThe example is an Express.js server that serves a simple HTML form and handles submissions.\n",
+    "ContentSha": "eAJ1bf1KePY3W/Kfewoq7nCtcKf353YDs3YTmrenj54=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Paso 4: Ejecutar la Aplicación de Ejemplo\n\nEl ejemplo es un servidor Express.js que sirve un formulario HTML simple y maneja envíos.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "j8V0luValghM18DiF7oFWtGJo/ULMmUv0SDAKli5214=",
+        "originContent": "### Step 4: Run the Example Application",
+        "translatedContent": "### Paso 4: Ejecutar la Aplicación de Ejemplo"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ermZv/PdbAe5QLCq8Z0lA9uZTo/qSCU1mADYJfAmRWI=",
+        "originContent": "The example is an Express.js server that serves a simple HTML form and handles submissions.",
+        "translatedContent": "El ejemplo es un servidor Express.js que sirve un formulario HTML simple y maneja envíos."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```bash\ncd ../example/\nnpm install\n\n# Compile the TypeScript code\nnpx tsc\n\n# Start the server\nnode dist/server.js\n```",
+    "ContentSha": "3ITT5HhxkzgIuqxGskD4nSrFyigmKdgKzw2SOZ4TzGk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd ../example/\nnpm install\n\n# Compile the TypeScript code\nnpx tsc\n\n# Start the server\nnode dist/server.js\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "g6qkJf9Unraj+C7S+T0PGGDWwsMkYFnKEMpIEDdObeU=",
+        "originContent": "cd ../example/",
+        "translatedContent": "cd ../example/"
+      },
+      {
+        "row": 3,
+        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+        "originContent": "npm install",
+        "translatedContent": "npm install"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "4uZ5hWfuQauyE8Yczw6QV1zr2/kGW3SEMxMi5MfwMHE=",
+        "originContent": "# Compile the TypeScript code",
+        "translatedContent": "# Compile the TypeScript code"
+      },
+      {
+        "row": 6,
+        "rowsha": "HdwY3nyXqYDNJr99SG8buUPQo8+shW4VQnltgW+Qyhc=",
+        "originContent": "npx tsc",
+        "translatedContent": "npx tsc"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Pd7R4un0RakHVukdQARN7LwXhjKuUmxTkV/REA8YWPs=",
+        "originContent": "# Start the server",
+        "translatedContent": "# Start the server"
+      },
+      {
+        "row": 9,
+        "rowsha": "5YVN6hVzwmn2AT881ZI46c8uWrB3//9fO70J/BIx+EI=",
+        "originContent": "node dist/server.js",
+        "translatedContent": "node dist/server.js"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\nYou should see the output: `🚀 Server listening on http://localhost:8081`.\n\nYou can now navigate to **<http://localhost:8081>** in your browser to see the Wicketkeeper demo in action!\n\n## Usage of Individual Components\n\n### Wicketkeeper Server (Go)\n\nThe server is configured via environment variables. See `server/README.md` for more details.\n\n| Variable           | Description                                                                                                                                                                                            | Default              |\n| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |\n| `LISTEN_PORT`      | The port on which the server will listen.                                                                                                                                                              | `8080`               |\n| `REDIS_ADDR`       | The address of the Redis instance.                                                                                                                                                                     | `127.0.0.1:6379`     |\n| `REDIS_DB`         | Redis database number (0-15). **Note:** Redis Cluster only supports DB 0.                                                                                                                              | `0`                  |\n| `DIFFICULTY`       | Number of leading zeros for the PoW hash. Higher is harder.                                                                                                                                            | `4`                  |\n| `ALLOWED_ORIGINS`  | Comma-separated list of origins for CORS (e.g., `https://domain.com`).                                                                                                                                 | `*`                  |\n| `BASE_PATH`        | Base path for the server. Note: For paths other than `/` you should use `data-challenge-url` when using the client. See [here](https://wicketkeeper.io/components/frontend-widget.html#configuration). | `/`           |\n| `PRIVATE_KEY_PATH` | Path to store the Ed25519 private key. Will be created if it doesn't exist.                                                                                                                            | `./wicketkeeper.key` |\n\n**API Endpoints:**\n\n- `GET /v0/challenge`: Issues a new PoW challenge.\n- `POST /v0/siteverify`: Verifies a solved challenge.\n\n### Client Widget (JavaScript)\n\nThe client is a single JS file (`dist/fast.js` or `dist/slow.js`) that can be included in any HTML page.\n\n**1. Include the Script**\n",
+    "ContentSha": "YmU7R5Jvp4XNTRz5TALrIBGLNtpdu5SVMEuNQEnKdeg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Deberías ver la salida: `🚀 Server listening on http://localhost:8081`.\n\nAhora puedes navegar a **<http://localhost:8081>** en tu navegador para ver la demostración de Wicketkeeper en acción.\n\n## Uso de Componentes Individuales\n\n### Servidor Wicketkeeper (Go)\n\nEl servidor se configura mediante variables de entorno. Consulta `server/README.md` para más detalles.\n\n| Variable           | Descripción                                                                                                                                                                                           | Predeterminado       |\n| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |\n| `LISTEN_PORT`      | El puerto en el que el servidor escuchará.                                                                                                                                                           | `8080`               |\n| `REDIS_ADDR`       | La dirección de la instancia de Redis.                                                                                                                                                              | `127.0.0.1:6379`     |\n| `REDIS_DB`         | Número de base de datos de Redis (0-15). **Nota:** Redis Cluster solo soporta DB 0.                                                                                                                  | `0`                  |\n| `DIFFICULTY`       | Número de ceros iniciales para el hash PoW. Más alto es más difícil.                                                                                                                                 | `4`                  |\n| `ALLOWED_ORIGINS`  | Lista separada por comas de orígenes para CORS (ej., `https://domain.com`).                                                                                                                          | `*`                  |\n| `BASE_PATH`        | Ruta base para el servidor. Nota: Para rutas distintas a `/` debes usar `data-challenge-url` cuando uses el cliente. Ver [aquí](https://wicketkeeper.io/components/frontend-widget.html#configuration). | `/`           |\n| `PRIVATE_KEY_PATH` | Ruta para almacenar la clave privada Ed25519. Se creará si no existe.                                                                                                                                | `./wicketkeeper.key` |\n\n**Endpoints de la API:**\n\n- `GET /v0/challenge`: Emite un nuevo desafío PoW.\n- `POST /v0/siteverify`: Verifica un desafío resuelto.\n\n### Widget Cliente (JavaScript)\n\nEl cliente es un único archivo JS (`dist/fast.js` o `dist/slow.js`) que puede incluirse en cualquier página HTML.\n\n**1. Incluir el Script**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Deberías ver la salida: `🚀 Server listening on http://localhost:8081`."
+      },
+      {
+        "row": 2,
+        "rowsha": "YBkB2IATijGZueiSpUN8z91mgEN26BVlKbgP34ryvDI=",
+        "originContent": "You should see the output: `🚀 Server listening on http://localhost:8081`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Ahora puedes navegar a **<http://localhost:8081>** en tu navegador para ver la demostración de Wicketkeeper en acción."
+      },
+      {
+        "row": 4,
+        "rowsha": "sZ0PokcDfUKKLhVMNzhV2fvUproK6lOtsPR6x5EMppU=",
+        "originContent": "You can now navigate to **<http://localhost:8081>** in your browser to see the Wicketkeeper demo in action!",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Uso de Componentes Individuales"
+      },
+      {
+        "row": 6,
+        "rowsha": "D3f/6840Y44uzUcpBX+FijtEUtTNRwal5DPBewPFR/A=",
+        "originContent": "## Usage of Individual Components",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Servidor Wicketkeeper (Go)"
+      },
+      {
+        "row": 8,
+        "rowsha": "zRTiHIlFh7dXJBCj12NWbopPQcJXr+kICwphi2TnbLg=",
+        "originContent": "### Wicketkeeper Server (Go)",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "El servidor se configura mediante variables de entorno. Consulta `server/README.md` para más detalles."
+      },
+      {
+        "row": 10,
+        "rowsha": "ZORMB0pL4koGnjiKw8CaIkoaMZymbgLtvmop/5lcLVw=",
+        "originContent": "The server is configured via environment variables. See `server/README.md` for more details.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Variable           | Descripción                                                                                                                                                                                           | Predeterminado       |"
+      },
+      {
+        "row": 12,
+        "rowsha": "4RSZe7Uh5ZBmCeNaw2e0toSrVqArwvh8W/5bmwlCr7A=",
+        "originContent": "| Variable           | Description                                                                                                                                                                                            | Default              |",
+        "translatedContent": "| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |"
+      },
+      {
+        "row": 13,
+        "rowsha": "R3SAMqxvdnler0SxnmGvsANnM4P4/mKJMIQcJFmzaeU=",
+        "originContent": "| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |",
+        "translatedContent": "| `LISTEN_PORT`      | El puerto en el que el servidor escuchará.                                                                                                                                                           | `8080`               |"
+      },
+      {
+        "row": 14,
+        "rowsha": "yTbDK+O4To7r3Xz5KqL6uSSMebxGHp9waEFsS6D43O0=",
+        "originContent": "| `LISTEN_PORT`      | The port on which the server will listen.                                                                                                                                                              | `8080`               |",
+        "translatedContent": "| `REDIS_ADDR`       | La dirección de la instancia de Redis.                                                                                                                                                              | `127.0.0.1:6379`     |"
+      },
+      {
+        "row": 15,
+        "rowsha": "Wl6rN9F2eGiFsXgQSWDJVsoThAO8Czw4d/Ml5N9AzHY=",
+        "originContent": "| `REDIS_ADDR`       | The address of the Redis instance.                                                                                                                                                                     | `127.0.0.1:6379`     |",
+        "translatedContent": "| `REDIS_DB`         | Número de base de datos de Redis (0-15). **Nota:** Redis Cluster solo soporta DB 0.                                                                                                                  | `0`                  |"
+      },
+      {
+        "row": 16,
+        "rowsha": "XCX0DOWGs2nDGmEBABG4VKnjxnhQVOC2kvrnfgDPGwM=",
+        "originContent": "| `REDIS_DB`         | Redis database number (0-15). **Note:** Redis Cluster only supports DB 0.                                                                                                                              | `0`                  |",
+        "translatedContent": "| `DIFFICULTY`       | Número de ceros iniciales para el hash PoW. Más alto es más difícil.                                                                                                                                 | `4`                  |"
+      },
+      {
+        "row": 17,
+        "rowsha": "1/mPoXWUqH9eDzz0DLXVNf/uuxtkfX7vaXucyP2oibQ=",
+        "originContent": "| `DIFFICULTY`       | Number of leading zeros for the PoW hash. Higher is harder.                                                                                                                                            | `4`                  |",
+        "translatedContent": "| `ALLOWED_ORIGINS`  | Lista separada por comas de orígenes para CORS (ej., `https://domain.com`).                                                                                                                          | `*`                  |"
+      },
+      {
+        "row": 18,
+        "rowsha": "CoMOIKfPA5RHCEMqdTJeMLkcVh8ojHirJz5DWlxlYyQ=",
+        "originContent": "| `ALLOWED_ORIGINS`  | Comma-separated list of origins for CORS (e.g., `https://domain.com`).                                                                                                                                 | `*`                  |",
+        "translatedContent": "| `BASE_PATH`        | Ruta base para el servidor. Nota: Para rutas distintas a `/` debes usar `data-challenge-url` cuando uses el cliente. Ver [aquí](https://wicketkeeper.io/components/frontend-widget.html#configuration). | `/`           |"
+      },
+      {
+        "row": 19,
+        "rowsha": "TZQumw8cI1vJRZ5JAQyWSdfCbkDfc0UW6/BngQ8Bm84=",
+        "originContent": "| `BASE_PATH`        | Base path for the server. Note: For paths other than `/` you should use `data-challenge-url` when using the client. See [here](https://wicketkeeper.io/components/frontend-widget.html#configuration). | `/`           |",
+        "translatedContent": "| `PRIVATE_KEY_PATH` | Ruta para almacenar la clave privada Ed25519. Se creará si no existe.                                                                                                                                | `./wicketkeeper.key` |"
+      },
+      {
+        "row": 20,
+        "rowsha": "XBVgDyp2jXYJPIXsLvtY4RTLySCf52UtvT/i2scYK58=",
+        "originContent": "| `PRIVATE_KEY_PATH` | Path to store the Ed25519 private key. Will be created if it doesn't exist.                                                                                                                            | `./wicketkeeper.key` |",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Endpoints de la API:**"
+      },
+      {
+        "row": 22,
+        "rowsha": "Xi/qN/es43CLzLDjezOFIHWSPhsKaugo1bKtpPJd5nA=",
+        "originContent": "**API Endpoints:**",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `GET /v0/challenge`: Emite un nuevo desafío PoW."
+      },
+      {
+        "row": 24,
+        "rowsha": "Yr125arrKE7q/gfW5X3beuH4wsRtXCqtkqlE9f43tlc=",
+        "originContent": "- `GET /v0/challenge`: Issues a new PoW challenge.",
+        "translatedContent": "- `POST /v0/siteverify`: Verifica un desafío resuelto."
+      },
+      {
+        "row": 25,
+        "rowsha": "/1C6/A5OYMj+NyxvaFy4skg5febVV01YhQ/etinJnRk=",
+        "originContent": "- `POST /v0/siteverify`: Verifies a solved challenge.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Widget Cliente (JavaScript)"
+      },
+      {
+        "row": 27,
+        "rowsha": "lLbE7qwsesFyua6srD6dB2CnEoGbthZjn5k1/xdL7ls=",
+        "originContent": "### Client Widget (JavaScript)",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "El cliente es un único archivo JS (`dist/fast.js` o `dist/slow.js`) que puede incluirse en cualquier página HTML."
+      },
+      {
+        "row": 29,
+        "rowsha": "xmJBO1hWi3ZyHC5C5uvm8lsWU7Tv+b6qkgm34jWQADI=",
+        "originContent": "The client is a single JS file (`dist/fast.js` or `dist/slow.js`) that can be included in any HTML page.",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**1. Incluir el Script**"
+      },
+      {
+        "row": 31,
+        "rowsha": "mPOMAmsh2YPUIbtmvtUMErkMov/RyyxWg/2b2d5avnk=",
+        "originContent": "**1. Include the Script**",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```html\n<script defer src=\"path/to/fast-or-slow.js\"></script>\n```",
+    "ContentSha": "wKNq5Kn2y4cIm6qsb0LDLu6Sq17/QFjizkIxhlutC44=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<script defer src=\"path/to/fast-or-slow.js\"></script>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "WD/1bKL4MOmBIa3XaTvd77FmHaJnu1nUpOnRIg8FSPg=",
+        "originContent": "<script defer src=\"path/to/fast-or-slow.js\"></script>",
+        "translatedContent": "<script defer src=\"path/to/fast-or-slow.js\"></script>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n**2. Add the Widget to a Form**\n\nThe script automatically initializes any `div` with the class `.wicketkeeper`.\n",
+    "ContentSha": "YLXLvjkhjkQXFLaOEB+smCPRKiCjhWzOa91/VXaUI74=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**2. Agregar el Widget a un Formulario**\n\nEl script inicializa automáticamente cualquier `div` con la clase `.wicketkeeper`.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "0+hsjYG9ZjD1pV5gUWoze2M5lcG/r4pVF/M06ynlbt0=",
+        "originContent": "**2. Add the Widget to a Form**",
+        "translatedContent": "**2. Agregar el Widget a un Formulario**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "G4FMx7Mx5ZBps0LSn+jRu6eN4CCeXWYvKiPvhsKOKSI=",
+        "originContent": "The script automatically initializes any `div` with the class `.wicketkeeper`.",
+        "translatedContent": "El script inicializa automáticamente cualquier `div` con la clase `.wicketkeeper`."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "```html\n<form action=\"/submit\" method=\"POST\">\n  <!-- Other form fields -->\n  <div class=\"wicketkeeper\" data-input-name=\"my_captcha_field\"></div>\n  <button type=\"submit\">Submit</button>\n</form>\n```",
+    "ContentSha": "V0rcrUXcVVMYE7RNj142blSDkpBtNXhePlBSst+870I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<form action=\"/submit\" method=\"POST\">\n  <!-- Other form fields -->\n  <div class=\"wicketkeeper\" data-input-name=\"my_captcha_field\"></div>\n  <button type=\"submit\">Submit</button>\n</form>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "vhREO09Ov3rpcQwXzojcp+OMYrQUl7BaPHwRIA+c7Gg=",
+        "originContent": "<form action=\"/submit\" method=\"POST\">",
+        "translatedContent": "<form action=\"/submit\" method=\"POST\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "d5gWaif4NVE+lWTy35jPqwVXL3iW7toEMylhfDVj8q0=",
+        "originContent": "  <!-- Other form fields -->",
+        "translatedContent": "  <!-- Other form fields -->"
+      },
+      {
+        "row": 4,
+        "rowsha": "0CHriAh8OcG9R/ymA09Ffj7+7pRgJ0Rkcm2J5gKrs3A=",
+        "originContent": "  <div class=\"wicketkeeper\" data-input-name=\"my_captcha_field\"></div>",
+        "translatedContent": "  <div class=\"wicketkeeper\" data-input-name=\"my_captcha_field\"></div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "IEayLLOsOZbUiBgbu1c3tCxQXg5Yd2ohelpmGZmrJH0=",
+        "originContent": "  <button type=\"submit\">Submit</button>",
+        "translatedContent": "  <button type=\"submit\">Submit</button>"
+      },
+      {
+        "row": 6,
+        "rowsha": "4Me7e3Lu7PwHNA9rzlh0F2ri6dE1UdLWpvNAnmbC+Mk=",
+        "originContent": "</form>",
+        "translatedContent": "</form>"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\nThe client can be configured with a custom challenge endpoint during the build step. See `client/README.md` for details.\n",
+    "ContentSha": "UZ6mMpuvZSAYnNsOKbOfcN50rmUu4g4mrEoi8otxBYQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEl cliente puede configurarse con un endpoint de desafío personalizado durante el paso de compilación. Consulte `client/README.md` para más detalles.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cKnNJmp3HzO34aE0b6psucb/Rco2OaR+iq7vWeTxZMk=",
+        "originContent": "The client can be configured with a custom challenge endpoint during the build step. See `client/README.md` for details.",
+        "translatedContent": "El cliente puede configurarse con un endpoint de desafío personalizado durante el paso de compilación. Consulte `client/README.md` para más detalles."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

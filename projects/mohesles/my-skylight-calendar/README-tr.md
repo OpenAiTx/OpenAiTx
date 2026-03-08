@@ -79,9 +79,9 @@ Başlangıçta kullandığım donanımı yukarıda belirttiğim nedenlerle seçt
 
 
 
-### 1. Ön Gereksinimler (HACS)
+### 1. Ön Koşullar (HACS)
 
-[HACS](https://hacs.xyz/) kurulu olmalıdır. Lütfen aşağıdaki **Ön Yüz** entegrasyonlarını yükleyin:
+[HACS](https://hacs.xyz/) yüklü olmalıdır. Lütfen aşağıdaki **Ön Yüz** entegrasyonlarını yükleyin:
 
 * `week-planner-card`
 * `bubble-card`
@@ -91,9 +91,13 @@ Başlangıçta kullandığım donanımı yukarıda belirttiğim nedenlerle seçt
 * `weather-card`
 * `browser_mod` (Açılır pencerelerin çalışması için gereklidir)
 * `layout-card` (Bölümler görünümü için gereklidir)
-* `button-card` (Etkinlik ekleme açılır penceresi için gereklidir)
+* `button-card` (Etkinlik eklemek için açılır pencere gereklidir)
 
-### 2. Arka Uç (Beyin)
+*Not: Ayarlar → Cihazlar & Hizmetler bölümünde Browser Mod'un bir Entegrasyon (karo) olarak göründüğünden emin olun, sadece HACS altında değil. 
+Eğer görünmüyorsa, Entegrasyon Ekle → Browser Mod'a tıklayın ve işlemi tamamlayın, ardından HA'yı yeniden başlatın.
+HACS üzerinden yüklemek sadece dosyaları indirir; entegrasyonu eklemelisiniz ki HA eylemleri/varlıkları kaydetsin.
+
+### 2. Arka Uç (Beyinler)
 
 1. Home Assistant'ta `configuration.yaml` dosyanızı açın.
 2. Paketleri etkinleştirmek için `homeassistant:` altında bu satırın ekli olduğundan emin olun:
@@ -102,57 +106,55 @@ Başlangıçta kullandığım donanımı yukarıda belirttiğim nedenlerle seçt
    homeassistant:
      packages: !include_dir_named packages
    ```
-3. HA yapılandırma dizininizde `packages` adında bir klasör oluşturun (eğer yoksa).
+3. HA yapılandırma dizininizde `packages` adlı bir klasör oluşturun (eğer yoksa).
 4. Bu depodan [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) dosyasını indirin.
-5. Dosyayı `packages/` klasörünüzün içine yerleştirin.
-6. **Home Assistant'ı yeniden başlatın**.
+5. [ #<--- UPDATE THIS ENTITY] ifadesini arayın ve takvim varlık kimliğini kendi ortamınıza uygun olacak şekilde güncelleyin. Daha fazla ayrıntı için bölüm 3'e bakın.
+6. Dosyayı `packages/` klasörünüzün içine yerleştirin.
+7. **Home Assistant'ı yeniden başlatın**.
 
 ### 3. Takvimler
 
-**Google Takvimleri** veya **Yerel Takvimler** kullanabilirsiniz.
+**Google Takvimleri** veya **Yerel Takvimleri** kullanabilirsiniz.
 
-#### Seçenek A: Yerel Takvim (En Kolay)
+#### Seçenek A: Takvim İsimlerini Yeniden Kullanma (En Kolayı)
 
-Not: Sadece Google Takvimleri kullandığım için bu test edilmemiştir
 
 1. **Ayarlar > Cihazlar & Servisler** bölümüne gidin.
 2. **Yerel Takvim** entegrasyonunu ekleyin.
-3. Takvimleri tam olarak şu şekilde adlandırarak oluşturun: `Alice`, `Bob`, `Charlie`, `Daisy`, `Family`.
-    * *Bu isimleri kullanırsanız, kod doğrudan çalışır!*
+3. Takvimleri şu isimlerle oluşturun: `calendar1`, `calendar2`, `calendar3`, `calendar4`, `Family`.
+    * *Bu isimleri kullanırsanız, kod kutudan çıktığı gibi çalışır!*
 
-#### Seçenek B: Google Takvim
+#### Seçenek B: Özel Takvim
 
-1. `packages/family_calendar.yaml` dosyasını açın.
-2. `add_google_calendar_event` betiğine gidin.
-3. `calendar_map` kısmını gerçek Google varlıklarınıza işaret edecek şekilde güncelleyin:
+1. **Ayarlar > Cihazlar & Servisler** bölümüne gidin.
+2. **Yerel Takvim** veya **Google Takvim** entegrasyonunu ekleyin.
+3. **Yapılandırma > Entegrasyonlar > Yerel Takvim** veya **Google Takvim** bölümüne gidin ve "Girdi Ekle"yi seçin
+4. Oluşturulan her giriş için, dashboard.yaml dosyasını güncellemek üzere varlık kimliğini alın.
+5. `dashboard.yaml` dosyasını açın.
+6. `# <--- UPDATE THIS ENTITY` ifadesini arayın.
+7. Ortamınıza uygun varlık kimliğini güncelleyin
 
-
-    ```yaml
-    calendar_map:
-      "Alice": "calendar.alice_gmail_com"
-      "Bob": "calendar.bob_work_account"
-    ```
 
 #### Tatilleri Ayarlama
 
-Home Assistant güncellemelerinden bu yana, Tatiller artık UI üzerinden ekleniyor:
+Home Assistant güncellemeleriyle birlikte, tatiller artık arayüz üzerinden eklenmektedir:
 
 1. **Ayarlar > Cihazlar & Servisler > Entegrasyon Ekle > Tatil** bölümüne gidin.
 2. Ülkenizi seçin.
-3. Varlık kimliğini kontrol edin (örn. `calendar.holidays`). Varsayılandan farklıysa, bunu gösterge tablosu YAML'ında güncelleyin.
+3. Varlık kimliğini kontrol edin (ör. `calendar.holidays`). Varsayılandan farklıysa, dashboard YAML'de bunu güncelleyin.
 
-### 4. Gösterge Tablosu (Görünüm)
+### 4. Gösterge Paneli (Görünüm)
 
-1. Yeni bir Gösterge Tablosu Görünümü oluşturun (Görünüm Tipini **Bölümler** olarak ayarlayın).
-2. Kodu [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml) adresinden kopyalayın.
-3. **Özelleştirin:**
-   * **Ara & Değiştir:** `person.alice` ifadesini gerçek aile üyesi varlıklarınızla değiştirin.
-   * **Hava Durumu:** `weather.home` ifadesini kendi hava durumu sağlayıcınızla değiştirin.
-   * **Arka Plan:** yaml'ın en altındaki görsel URL'sini güncelleyin.
 
-### Adım 5: Tema (İsteğe Bağlı)
+1. **Ayarlar > Gösterge Paneli** bölümüne gidin
+2. **Gösterge Paneli Ekle**'ye tıklayın (Seçenek olarak "Sıfırdan Yeni Gösterge Paneli"ni seçin, "Yan menüye ekle" seçeneğini işaretleyin).
+3. Sol menüden yeni oluşturulan gösterge panelini seçin ve düzenlemek için kalem simgesine tıklayın.
+5. 3 nokta simgesini seçin ve "Ham yapılandırıcı düzenleyici"yi seçin.
+6. [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml) dosyasındaki kodu kopyalayıp yapıştırın.
 
-Belirli yazı tipi görünümünü (Ovo) elde etmek için:
+### Adım 5: Tema (Opsiyonel)
+
+Belirli bir yazı tipi görünümü elde etmek için (Ovo):
 
 1. `configuration.yaml` dosyanızda `frontend:` altında bu satırın olduğundan emin olun:
 
@@ -161,9 +163,10 @@ Belirli yazı tipi görünümünü (Ovo) elde etmek için:
      themes: !include_dir_merge_named themes
    ```
 2. Yapılandırma dizininizde `themes` adında bir klasör oluşturun.
-3. [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) dosyasını indirin ve bu klasöre yerleştirin.
-4. Home Assistant'ı yeniden başlatın.
-5. Profilinize (Sol alt köşedeki Kullanıcı İkonu) gidin ve **Tema**yı `Skylight` olarak değiştirin.
+3. [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) dosyasını indirip bu klasöre yerleştirin.
+4. Dosya Düzenleyicisi'ni kullanarak calbackgrd.png dosyasını /www/ klasörüne yükleyin, bu gösterge panelinde dahili olarak /local olarak çevrilir.
+5. Home Assistant'ı yeniden başlatın.
+6. Profilinize gidin (Sol altta Kullanıcı Simgesi) ve **Tema**'yı `Skylight` olarak değiştirin.
 NOT: Tema kapsamlı değildir, bunu aklınızda bulundurun
 
 ---
@@ -172,14 +175,14 @@ NOT: Tema kapsamlı değildir, bunu aklınızda bulundurun
 
 ### Filtre Mantığı
 
-`week-planner-card` belirli takvimleri anlık olarak gizlemeyi yerel olarak desteklemez. Bunu çözmek için Regex filtresi gibi davranan **Girdi Metinleri** kullandım.
+`week-planner-card` kartı, belirli takvimleri anlık olarak gizlemeyi doğal olarak desteklemez. Bunu çözmek için **Girdi Metinleri**ni Regex filtresi olarak kullandım.
 
-* Bir kişinin butonuna tıkladığınızda, filtresi `.*` (Her şeyi göster) ile `^$` (Hiçbir şey gösterme) arasında geçiş yapar.
-* `config-template-card` bu değişkenleri takvim kartına dinamik olarak enjekte eder.
+* Bir kişiye ait butona tıkladığınızda, filtresi `.*` (Her şeyi göster) ile `^$` (Hiçbir şey gösterme) arasında geçiş yapar.
+* `config-template-card`, bu değişkenleri takvim kartına dinamik olarak enjekte eder.
 
 ### Etkinlik Oluşturma Betiği
 
-"Etkinlik Ekle" açılır penceresi, birden fazla kişi ve etkinlik türü (Tüm Gün vs Zamanlı) için mantığı yöneten tek bir betik kullanır.
+"Etkinlik Ekle" açılır penceresi, birden fazla kişi ve etkinlik türü (Tüm Gün vs Saatli) için mantığı yöneten tek bir betik kullanır.
 
 
 ```yaml
@@ -205,6 +208,6 @@ Ekran hakkında konuşursak, başta bunu önermemin nedeni, Woot'ta indirimde ol
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-08
 
 ---

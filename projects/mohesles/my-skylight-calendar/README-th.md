@@ -81,7 +81,7 @@
 
 ### 1. ข้อกำหนดเบื้องต้น (HACS)
 
-คุณต้องติดตั้ง [HACS](https://hacs.xyz/) แล้ว กรุณาติดตั้งอินทิเกรต **Frontend** ต่อไปนี้:
+คุณต้องติดตั้ง [HACS](https://hacs.xyz/) แล้ว กรุณาติดตั้ง **Frontend** integrations ต่อไปนี้:
 
 * `week-planner-card`
 * `bubble-card`
@@ -89,97 +89,100 @@
 * `card-mod`
 * `better-moment-card`
 * `weather-card`
-* `browser_mod` (จำเป็นสำหรับการทำงานของป๊อปอัป)
+* `browser_mod` (จำเป็นสำหรับการทำงานของป็อปอัพ)
 * `layout-card` (จำเป็นสำหรับมุมมอง Sections)
-* `button-card` (จำเป็นสำหรับป๊อปอัปเพิ่มกิจกรรม)
+* `button-card` (จำเป็นสำหรับป็อปอัพเพื่อเพิ่มกิจกรรม)
 
-### 2. ส่วน Backend (สมองกล)
+*หมายเหตุ: ใน Settings → Devices & Services ให้แน่ใจว่า Browser Mod ปรากฏเป็น Integration (tile) และไม่ใช่แค่ใน HACS เท่านั้น 
+ถ้าไม่พบให้คลิก Add Integration → Browser Mod และดำเนินการตามขั้นตอนให้เสร็จ จากนั้นรีสตาร์ท HA
+การติดตั้งผ่าน HACS จะเป็นเพียงการดาวน์โหลดไฟล์ คุณต้องเพิ่ม Integration เพื่อให้ HA ลงทะเบียนการกระทำ/เอนทิตี
+
+### 2. ส่วน Backend (ส่วนที่เป็นสมอง)
 
 1. เปิดไฟล์ `configuration.yaml` ของคุณใน Home Assistant
-2. ตรวจสอบว่าคุณได้เพิ่มบรรทัดนี้ไว้ภายใต้ `homeassistant:` เพื่อเปิดใช้งานแพ็คเกจ:
+2. ตรวจสอบว่าคุณได้เพิ่มบรรทัดนี้ไว้ใต้ `homeassistant:` เพื่อเปิดใช้งานแพ็คเกจ
 
    ```yaml
    homeassistant:
      packages: !include_dir_named packages
    ```
-3. สร้างโฟลเดอร์ชื่อ `packages` ในไดเรกทอรี config ของ Home Assistant (ถ้าคุณยังไม่มีโฟลเดอร์นี้)
-4. ดาวน์โหลด [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) จากรีโปนี้
-5. วางไฟล์ไว้ในโฟลเดอร์ `packages/` ของคุณ
-6. **รีสตาร์ท Home Assistant**
+3. สร้างโฟลเดอร์ชื่อ `packages` ในไดเรกทอรีการตั้งค่าของ HA ของคุณ (หากยังไม่มี)
+4. ดาวน์โหลด [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) จาก repo นี้
+5. ค้นหาสตริง [ #<--- UPDATE THIS ENTITY] และอัปเดต Calendar entity ID ให้ตรงกับสภาพแวดล้อมของคุณ ดูรายละเอียดเพิ่มเติมในส่วนที่ 3
+6. วางไฟล์ไว้ในโฟลเดอร์ `packages/` ของคุณ
+7. **รีสตาร์ท Home Assistant**
 
 ### 3. ปฏิทิน
 
-คุณสามารถใช้ **Google Calendars** หรือ **Local Calendars** ได้
+คุณสามารถใช้ **Google Calendar** หรือ **Local Calendar**
 
-#### ตัวเลือก A: Local Calendar (ง่ายที่สุด)
+#### ตัวเลือก A: ใช้ชื่อปฏิทินเดิม (ง่ายที่สุด)
 
-หมายเหตุ: ยังไม่ได้ทดสอบ เพราะฉันใช้ Google Calendars เป็นหลัก
-
-1. ไปที่ **การตั้งค่า > อุปกรณ์และบริการ**
+1. ไปที่ **Settings > Devices & Services**
 2. เพิ่มการเชื่อมต่อ **Local Calendar**
-3. สร้างปฏิทินโดยใช้ชื่อดังนี้: `Alice`, `Bob`, `Charlie`, `Daisy`, `Family`
-    * *ถ้าคุณใช้ชื่อเหล่านี้ โค้ดจะใช้งานได้ทันที!*
+3. สร้างปฏิทินโดยใช้ชื่อ: `calendar1`, `calendar2`, `calendar3`, `calendar4`, `Family`
+    * *หากใช้ชื่อเหล่านี้ โค้ดจะทำงานได้ทันที!*
 
-#### ตัวเลือก B: Google Calendar
+#### ตัวเลือก B: ปฏิทินแบบกำหนดเอง
 
-1. เปิดไฟล์ `packages/family_calendar.yaml`
-2. เลื่อนลงไปที่สคริปต์ `add_google_calendar_event`
-3. อัปเดต `calendar_map` ให้ชี้ไปที่เอนทิตี้ Google ของคุณจริง ๆ
-
-
-    ```yaml
-    calendar_map:
-      "Alice": "calendar.alice_gmail_com"
-      "Bob": "calendar.bob_work_account"
-    ```
+1. ไปที่ **Settings > Devices & Services**
+2. เพิ่มการเชื่อมต่อ **Local Calendar** หรือ **Google Calendar**
+3. ไปที่ **Configuration > Integrations > Local Calendar** หรือ **Google Calendar** แล้วเลือก "Add Entry"
+4. สำหรับแต่ละ entry ที่สร้างขึ้น ให้รับ entity ID เพื่ออัปเดตไฟล์ dashboard.yaml
+5. เปิด `dashboard.yaml`
+6. ค้นหา `# <--- UPDATE THIS ENTITY`
+7. อัปเดต entity ID ให้ตรงกับสภาพแวดล้อมของคุณ
 
 #### การตั้งค่าวันหยุด
 
-เนื่องจาก Home Assistant มีการอัปเดต ตอนนี้สามารถเพิ่มวันหยุดผ่าน UI ได้แล้ว:
+เนื่องจาก Home Assistant อัปเดตแล้ว วันหยุดจะถูกเพิ่มผ่าน UI:
 
-1. ไปที่ **การตั้งค่า > อุปกรณ์และบริการ > เพิ่มอินทิเกรชัน > Holiday**.
+1. ไปที่ **Settings > Devices & Services > Add Integration > Holiday**
 2. เลือกประเทศของคุณ
-3. ตรวจสอบ entity ID (เช่น `calendar.holidays`) หากแตกต่างจากค่าดีฟอลต์ ให้อัปเดตใน dashboard YAML
+3. ตรวจสอบ entity ID (เช่น `calendar.holidays`) หากแตกต่างจากค่าเริ่มต้น ให้อัปเดตใน dashboard YAML
 
-### 4. แดชบอร์ด (รูปลักษณ์)
+### 4. แดชบอร์ด (หน้าตา)
 
-1. สร้าง Dashboard View ใหม่ (ตั้งค่า View Type เป็น **Sections**)
-2. คัดลอกรหัสจาก [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml)
-3. **ปรับแต่ง:**
-   * **ค้นหา & แทนที่:** แทนที่ `person.alice` ด้วย entity ของสมาชิกในครอบครัวที่แท้จริงของคุณ
-   * **สภาพอากาศ:** แทนที่ `weather.home` ด้วยผู้ให้บริการสภาพอากาศของคุณ
-   * **พื้นหลัง:** อัปเดต URL รูปภาพที่ด้านล่างของ yaml
 
-### ขั้นตอนที่ 5: ธีม (ตัวเลือกเสริม)
 
-เพื่อให้ได้ลักษณะฟอนต์เฉพาะ (Ovo):
 
-1. ตรวจสอบให้แน่ใจว่า `configuration.yaml` ของคุณมีบรรทัดนี้อยู่ใต้ `frontend:`
+1. ไปที่ **การตั้งค่า > แดชบอร์ด**
+2. คลิกที่ **เพิ่มแดชบอร์ด** (เลือกตัวเลือก "แดชบอร์ดใหม่จากศูนย์" และตรวจสอบให้แน่ใจว่าเลือก "เพิ่มในแถบข้าง")
+3. ที่เมนูด้านซ้าย ให้เลือกแดชบอร์ดที่สร้างใหม่และคลิกที่ไอคอนดินสอเพื่อแก้ไข
+5. เลือกไอคอน 3 จุด และเลือก "ตัวแก้ไขตัวตั้งค่าดิบ"
+6. คัดลอกและวางโค้ดจาก [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml)
+
+### ขั้นตอนที่ 5: ธีม (ไม่จำเป็น)
+
+เพื่อให้ได้รูปแบบฟอนต์เฉพาะ (Ovo):
+
+1. ตรวจสอบว่าไฟล์ `configuration.yaml` ของคุณมีบรรทัดนี้อยู่ใต้ `frontend:`
 
    ```yaml
    frontend:
      themes: !include_dir_merge_named themes
    ```
-2. สร้างโฟลเดอร์ชื่อ `themes` ในไดเรกทอรี config ของคุณ  
-3. ดาวน์โหลด [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) แล้ววางไว้ในโฟลเดอร์นั้น  
-4. รีสตาร์ท Home Assistant  
-5. ไปที่โปรไฟล์ของคุณ (ไอคอนผู้ใช้มุมล่างซ้าย) แล้วเปลี่ยน **Theme** เป็น `Skylight`  
-หมายเหตุ: ธีมนี้ยังไม่ครอบคลุมทั้งหมด โปรดทราบจุดนี้ด้วย  
+2. สร้างโฟลเดอร์ชื่อ `themes` ในไดเรกทอรี config ของคุณ
+3. ดาวน์โหลด [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) และวางไฟล์นี้ไว้ในโฟลเดอร์นั้น
+4. ใช้ File Editor และอัปโหลด calbackgrd.png ไปยังโฟลเดอร์ /www/ ซึ่งจะแปลงเป็น /local บนแดชบอร์ดโดยอัตโนมัติ
+5. รีสตาร์ท Home Assistant
+6. ไปที่โปรไฟล์ของคุณ (ไอคอนผู้ใช้มุมล่างซ้าย) และเปลี่ยน **Theme** เป็น `Skylight`
+หมายเหตุ: ธีมนี้ยังไม่ครอบคลุมทั้งหมด โปรดคำนึงถึงข้อนี้ด้วย
 
----  
+---
 
-## 📐 วิธีทำงาน (เบื้องหลัง)  
+## 📐 วิธีการทำงาน (เบื้องหลัง)
 
-### หลักการกรองข้อมูล  
+### หลักการกรอง
 
-`week-planner-card` ไม่รองรับการซ่อนปฏิทินบางอันแบบทันที ในการแก้ปัญหานี้ ฉันใช้ **Input Texts** ทำหน้าที่เป็นตัวกรอง Regex  
+`week-planner-card` ไม่รองรับการซ่อนปฏิทินเฉพาะแบบทันที เพื่อแก้ไขปัญหานี้ ผมใช้ **Input Texts** ทำหน้าที่เป็นตัวกรอง Regex
 
-* เมื่อคุณคลิกปุ่มของบุคคลหนึ่ง มันจะสลับตัวกรองของเขาระหว่าง `.*` (แสดงทั้งหมด) และ `^$` (ไม่แสดงอะไรเลย)  
-* `config-template-card` จะใส่ตัวแปรเหล่านี้เข้าไปใน calendar card แบบไดนามิก  
+* เมื่อคุณคลิกปุ่มของแต่ละคน จะเป็นการสลับตัวกรองระหว่าง `.*` (แสดงทั้งหมด) และ `^$` (ไม่แสดงอะไรเลย)
+* `config-template-card` จะใส่ตัวแปรเหล่านี้เข้าไปในปฏิทินแบบไดนามิก
 
-### สคริปต์สร้างกิจกรรม  
+### สคริปต์สร้างอีเวนต์
 
-หน้าต่างป็อปอัพ "Add Event" ใช้สคริปต์เดียวที่จัดการลอจิกสำหรับหลายคนและหลายประเภทกิจกรรม (ทั้งวัน หรือ ระบุเวลา)  
+ป๊อปอัป "เพิ่มอีเวนต์" ใช้สคริปต์เดียวที่จัดการตรรกะสำหรับหลายบุคคลและหลายประเภทของอีเวนต์ (ทั้งแบบ All Day และแบบกำหนดเวลา)
 
 
 ```yaml
@@ -205,6 +208,6 @@ choose:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-08
 
 ---

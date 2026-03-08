@@ -90,10 +90,14 @@ Devi avere [HACS](https://hacs.xyz/) installato. Installa le seguenti integrazio
 * `better-moment-card`
 * `weather-card`
 * `browser_mod` (Necessario per il funzionamento dei popup)
-* `layout-card` (Necessario per la visualizzazione delle Sezioni)
-* `button-card` (Necessario per il popup di aggiunta evento)
+* `layout-card` (Necessario per la visualizzazione Sezioni)
+* `button-card` (Necessario per il popup per aggiungere eventi)
 
-### 2. Il Backend (La Mente)
+*Nota: In Impostazioni → Dispositivi e Servizi, assicurati che Browser Mod appaia come Integrazione (tile) e non solo in HACS.
+Se non è presente, clicca su Aggiungi Integrazione → Browser Mod e completa la procedura, poi riavvia HA.
+L’installazione tramite HACS scarica solo i file; devi aggiungere l’integrazione affinché HA registri le sue azioni/entità.
+
+### 2. Il Backend (Il Cervello)
 
 1. Apri il tuo file `configuration.yaml` in Home Assistant.
 2. Assicurati di aver aggiunto questa riga sotto `homeassistant:` per abilitare i pacchetti:
@@ -102,85 +106,84 @@ Devi avere [HACS](https://hacs.xyz/) installato. Installa le seguenti integrazio
    homeassistant:
      packages: !include_dir_named packages
    ```
-
 3. Crea una cartella chiamata `packages` nella directory di configurazione di HA (se non ne hai già una).
 4. Scarica [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) da questo repository.
-5. Metti il file all'interno della tua cartella `packages/`.
-6. **Riavvia Home Assistant**.
+5. Cerca la stringa [ #<--- UPDATE THIS ENTITY] e aggiorna l'ID dell'entità del calendario per adattarlo al tuo ambiente. Consulta la sezione 3 per maggiori dettagli.
+6. Inserisci il file all'interno della cartella `packages/`.
+7. **Riavvia Home Assistant**.
 
 ### 3. I Calendari
 
-Puoi usare **Google Calendars** oppure **Calendari Locali**.
+Puoi utilizzare **Google Calendari** oppure **Calendari Locali**.
 
-#### Opzione A: Calendario Locale (La più semplice)
+#### Opzione A: Riutilizza i Nomi dei Calendari (La più semplice)
 
-Nota: questo non è stato testato dato che uso esclusivamente Google Calendars
 
-1. Vai su **Impostazioni > Dispositivi & Servizi**.
-2. Aggiungi l'integrazione **Local Calendar**.
-3. Crea calendari con questi nomi esatti: `Alice`, `Bob`, `Charlie`, `Daisy`, `Family`.
+1. Vai su **Impostazioni > Dispositivi e Servizi**.
+2. Aggiungi l'integrazione **Calendario Locale**.
+3. Crea calendari con nomi esattamente: `calendar1`, `calendar2`, `calendar3`, `calendar4`, `Family`.
     * *Se usi questi nomi, il codice funziona subito!*
 
-#### Opzione B: Google Calendar
+#### Opzione B: Calendario Personalizzato
 
-1. Apri `packages/family_calendar.yaml`.
-2. Scorri fino allo script `add_google_calendar_event`.
-3. Aggiorna la voce `calendar_map` puntando alle tue vere entità Google:
+1. Vai su **Impostazioni > Dispositivi e Servizi**.
+2. Aggiungi l'integrazione **Calendario Locale** oppure **Google Calendar**.
+3. Vai su **Configurazione > Integrazioni > Calendario Locale** o **Google Calendar** e seleziona "Aggiungi Voce"
+4. Per ogni voce creata, recupera l'ID entità da aggiornare nel file dashboard.yaml.
+5. Apri `dashboard.yaml`.
+6. Cerca `# <--- UPDATE THIS ENTITY`.
+7. Aggiorna l'ID entità in base al tuo ambiente
 
-    ```yaml
-    calendar_map:
-      "Alice": "calendar.alice_gmail_com"
-      "Bob": "calendar.bob_work_account"
-    ```
 
-#### Impostazione delle Festività
+#### Configurazione delle Festività
 
-A seguito degli aggiornamenti di Home Assistant, le festività ora si aggiungono tramite interfaccia grafica:
+Dalle ultime versioni di Home Assistant, le festività vengono aggiunte tramite interfaccia grafica:
 
 1. Vai su **Impostazioni > Dispositivi e Servizi > Aggiungi Integrazione > Holiday**.
 2. Seleziona il tuo paese.
-3. Controlla l'ID dell'entità (es. `calendar.holidays`). Se è diverso da quello predefinito, aggiornalo nello YAML della dashboard.
+3. Controlla l'ID entità (es. `calendar.holidays`). Se è diverso dal valore predefinito, aggiorna il file dashboard YAML.
 
-### 4. La Dashboard (L’Aspetto)
+### 4. La Dashboard (L'Aspetto)
 
-1. Crea una nuova Vista Dashboard (Imposta Tipo Vista su **Sezioni**).
-2. Copia il codice da [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml).
-3. **Personalizza:**
-   * **Cerca & Sostituisci:** Sostituisci `person.alice` con le entità reali dei membri della tua famiglia.
-   * **Meteo:** Sostituisci `weather.home` con il tuo provider meteo.
-   * **Sfondo:** Aggiorna l’URL dell’immagine in fondo allo yaml.
+
+1. Vai su **Impostazioni > Dashboard**
+2. Clicca su **Aggiungi Dashboard** (Seleziona l'opzione "Nuova Dashboard da zero" e assicurati di selezionare "Aggiungi alla barra laterale").
+3. Nel menu a sinistra, seleziona la dashboard appena creata e clicca sull'icona della matita per modificarla.
+5. Seleziona l'icona dei 3 puntini e scegli "Editor configuratore grezzo".
+6. Copia e incolla il codice da [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml).
 
 ### Passaggio 5: Il Tema (Opzionale)
 
-Per ottenere l’aspetto del font specifico (Ovo):
+Per ottenere l'aspetto specifico del font (Ovo):
 
-1. Assicurati che nel tuo `configuration.yaml` sia presente questa riga sotto `frontend:`
+1. Assicurati che il tuo `configuration.yaml` abbia questa riga sotto `frontend:`
 
    ```yaml
    frontend:
      themes: !include_dir_merge_named themes
    ```
-
 2. Crea una cartella chiamata `themes` nella tua directory di configurazione.
 3. Scarica [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) e posizionalo in quella cartella.
-4. Riavvia Home Assistant.
-5. Vai al tuo Profilo (icona utente in basso a sinistra) e cambia il **Tema** in `Skylight`.
-NOTA: Il tema non è esaustivo, quindi tienilo presente
+4. Usa File Editor e carica calbackgrd.png nella cartella /www/, che viene tradotta internamente in /local sulla dashboard.
+5. Riavvia Home Assistant.
+6. Vai al tuo Profilo (Icona Utente in basso a sinistra) e cambia il **Tema** in `Skylight`.
+NOTA: Il tema non è completo, quindi tienilo presente
 
 ---
 
-## 📐 Come Funziona (Dietro le quinte)
+## 📐 Come Funziona (Dietro le Quinte)
 
-### Logica di Filtraggio
+### Logica di Filtro
 
-La `week-planner-card` non supporta nativamente la possibilità di nascondere calendari specifici al volo. Per risolvere questo, ho usato **Input Texts** che agiscono come filtri Regex.
+La `week-planner-card` non supporta nativamente la possibilità di nascondere specifici calendari al volo. Per risolvere questo, ho utilizzato **Input Texts** che agiscono come filtri Regex.
 
-* Quando clicchi sul pulsante di una persona, il filtro viene alternato tra `.*` (Mostra tutto) e `^$` (Non mostra nulla).
-* La `config-template-card` inietta dinamicamente queste variabili nella scheda calendario.
+* Quando fai clic sul pulsante di una persona, il filtro viene commutato tra `.*` (Mostra tutto) e `^$` (Non mostra nulla).
+* `config-template-card` inietta dinamicamente queste variabili nella scheda calendario.
 
 ### Script di Creazione Evento
 
-Il popup "Aggiungi Evento" utilizza un unico script che gestisce la logica per più persone e tipi di evento (Tutto il giorno vs Orario specifico).
+Il popup "Aggiungi Evento" utilizza un unico script che gestisce la logica per più persone e tipi di evento (Tutto il giorno vs Con orario).
+
 
 ```yaml
 # Simplified Logic Example
@@ -205,6 +208,6 @@ Parlando di display, inizialmente ho suggerito quello perché era in offerta su 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-08
 
 ---

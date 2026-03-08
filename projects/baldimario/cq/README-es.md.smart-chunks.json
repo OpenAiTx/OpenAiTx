@@ -1,0 +1,340 @@
+[
+  {
+    "Id": 1,
+    "Content": "# cq - High-Performance SQL Query Engine for CSV Files\n\n [![Cross-Build and Test (with zig build system)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml/badge.svg)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml)\n\nA lightweight, fast SQL query processor written in C that enables executing SQL queries directly on CSV files without requiring a database. For full documentation, see the /doc directory.\n\n ![cq in action](https://raw.githubusercontent.com/baldimario/cq/main/assets/cq.png)\n\n## Documentation\n\n- Getting Started: `doc/GettingStarted.md`\n- Installation: `doc/Installation.md`\n- Command Line Interface: `doc/CLI.md`\n- **TUI (Terminal User Interface)**: `doc/TUI.md`\n- Architecture: `doc/Architecture.md`\n- Testing: `doc/Testing.md`\n- Roadmap: `doc/Roadmap.md`\n- Contributing: `doc/Contributing.md`\n\n## Quick Start\n\nBuild: `make`\n\n### Command Line\n\nRun a sample query:\n`./build/cq -q \"SELECT name, age FROM 'data.csv' WHERE age > 25\" -p`\n\n### Terminal UI\n\nLaunch interactive TUI:\n`./build/cqtui data/`\n\nFeatures:\n- Browse and open CSV files as tables\n- Execute SQL queries interactively\n- Multi-tab interface for multiple tables\n- Keyboard-driven navigation\n- No external dependencies\n",
+    "ContentSha": "RCKZUgbwXGH/zXYJZ/a1JwvqosFLoUH+nsYWedtRSvA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# cq - Motor de Consulta SQL de Alto Rendimiento para Archivos CSV\n\n [![Compilación Cruzada y Pruebas (con el sistema de compilación zig)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml/badge.svg)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml)\n\nUn procesador de consultas SQL ligero y rápido escrito en C que permite ejecutar consultas SQL directamente sobre archivos CSV sin necesidad de una base de datos. Para la documentación completa, consulte el directorio /doc.\n\n ![cq en acción](https://raw.githubusercontent.com/baldimario/cq/main/assets/cq.png)\n\n## Documentación\n\n- Primeros Pasos: `doc/GettingStarted.md`\n- Instalación: `doc/Installation.md`\n- Interfaz de Línea de Comandos: `doc/CLI.md`\n- **TUI (Interfaz de Usuario en Terminal)**: `doc/TUI.md`\n- Arquitectura: `doc/Architecture.md`\n- Pruebas: `doc/Testing.md`\n- Hoja de Ruta: `doc/Roadmap.md`\n- Contribuciones: `doc/Contributing.md`\n\n## Inicio Rápido\n\nConstruir: `make`\n\n### Línea de Comandos\n\nEjecute una consulta de ejemplo:\n`./build/cq -q \"SELECT name, age FROM 'data.csv' WHERE age > 25\" -p`\n\n### Interfaz de Terminal\n\nLanzar TUI interactivo:\n`./build/cqtui data/`\n\nCaracterísticas:\n- Navegar y abrir archivos CSV como tablas\n- Ejecutar consultas SQL de forma interactiva\n- Interfaz de pestañas múltiples para varias tablas\n- Navegación mediante teclado\n- Sin dependencias externas\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "1xU0y/Wf8vbipztrazdJ4xIj9p4WCJeRfFAdiJs01jc=",
+        "originContent": "# cq - High-Performance SQL Query Engine for CSV Files",
+        "translatedContent": "# cq - Motor de Consulta SQL de Alto Rendimiento para Archivos CSV"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ULG5SKa0x89AG4DAkO913gQy3wcjh2arg4R+y2KwmUo=",
+        "originContent": " [![Cross-Build and Test (with zig build system)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml/badge.svg)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml)",
+        "translatedContent": " [![Compilación Cruzada y Pruebas (con el sistema de compilación zig)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml/badge.svg)](https://github.com/baldimario/cq/actions/workflows/build-zig-cross.yml)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "2ODI7HytnxIJNKys/2tU6rajztVQVMJfAk6hGAkg2PE=",
+        "originContent": "A lightweight, fast SQL query processor written in C that enables executing SQL queries directly on CSV files without requiring a database. For full documentation, see the /doc directory.",
+        "translatedContent": "Un procesador de consultas SQL ligero y rápido escrito en C que permite ejecutar consultas SQL directamente sobre archivos CSV sin necesidad de una base de datos. Para la documentación completa, consulte el directorio /doc."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Ti6j6O17BGmF9yquq+TELwA+QtstI92ngGRECDTBfkw=",
+        "originContent": " ![cq in action](https://raw.githubusercontent.com/baldimario/cq/main/assets/cq.png)",
+        "translatedContent": " ![cq en acción](https://raw.githubusercontent.com/baldimario/cq/main/assets/cq.png)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": "## Documentación"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "1OgcZZzdq/fZAKiJVN7tD6hkzwnuLkMMTAaoI3L+Liw=",
+        "originContent": "- Getting Started: `doc/GettingStarted.md`",
+        "translatedContent": "- Primeros Pasos: `doc/GettingStarted.md`"
+      },
+      {
+        "row": 12,
+        "rowsha": "TnWnuPDZj4eBMOjSlMhU/Jhiwjm8iKT4+/HIh8l6AA8=",
+        "originContent": "- Installation: `doc/Installation.md`",
+        "translatedContent": "- Instalación: `doc/Installation.md`"
+      },
+      {
+        "row": 13,
+        "rowsha": "Nl0CYN7Lp9Re8+ua2eNSkxbKD4zz9+h+59dM88zJ3oU=",
+        "originContent": "- Command Line Interface: `doc/CLI.md`",
+        "translatedContent": "- Interfaz de Línea de Comandos: `doc/CLI.md`"
+      },
+      {
+        "row": 14,
+        "rowsha": "Sv7o8WPUJNfVIbXtrIml6sOXHIoEIoPsv+1iqG1rml8=",
+        "originContent": "- **TUI (Terminal User Interface)**: `doc/TUI.md`",
+        "translatedContent": "- **TUI (Interfaz de Usuario en Terminal)**: `doc/TUI.md`"
+      },
+      {
+        "row": 15,
+        "rowsha": "9Uwir2FnIAfjmRnPnzOhEf2Q6ixvIkDQ7VxYodcIdfM=",
+        "originContent": "- Architecture: `doc/Architecture.md`",
+        "translatedContent": "- Arquitectura: `doc/Architecture.md`"
+      },
+      {
+        "row": 16,
+        "rowsha": "+MaSra75jcRSnDQOpl396BdzCiDDzDbN/K320xIEuBs=",
+        "originContent": "- Testing: `doc/Testing.md`",
+        "translatedContent": "- Pruebas: `doc/Testing.md`"
+      },
+      {
+        "row": 17,
+        "rowsha": "+3U52HnAA3RsRsoudCjK6i9pAnPPx2Ehr2ewQBa+baU=",
+        "originContent": "- Roadmap: `doc/Roadmap.md`",
+        "translatedContent": "- Hoja de Ruta: `doc/Roadmap.md`"
+      },
+      {
+        "row": 18,
+        "rowsha": "H6T77O8lhScs67aMOYTsxkNs3mAQzXoHsk3Byg8VUb4=",
+        "originContent": "- Contributing: `doc/Contributing.md`",
+        "translatedContent": "- Contribuciones: `doc/Contributing.md`"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## Inicio Rápido"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "uqp85BjAWWCGwEGto7bBGnLaNjwbtbv8ayU776EXmUY=",
+        "originContent": "Build: `make`",
+        "translatedContent": "Construir: `make`"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "JtaVECVO6OfR6Wx0mHN2kWDq14EuV9gT8Ki6u48/DvA=",
+        "originContent": "### Command Line",
+        "translatedContent": "### Línea de Comandos"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "TdNS9kK88D8Gvj1wmGSDIw4cgfVbHCKzcCpPO3PVnB8=",
+        "originContent": "Run a sample query:",
+        "translatedContent": "Ejecute una consulta de ejemplo:"
+      },
+      {
+        "row": 27,
+        "rowsha": "Z3QLvUSprWVG1lLN7aP9nW8os014LRPdc4ido880dCg=",
+        "originContent": "`./build/cq -q \"SELECT name, age FROM 'data.csv' WHERE age > 25\" -p`",
+        "translatedContent": "`./build/cq -q \"SELECT name, age FROM 'data.csv' WHERE age > 25\" -p`"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "jsggjFdg9lH8JBn8hvfv6FOXN71v48VQ4LM42AXetYc=",
+        "originContent": "### Terminal UI",
+        "translatedContent": "### Interfaz de Terminal"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "cHmQNDQ/FD+H9P5DIwPBDWAen5HrVu7g+4QucFUI64U=",
+        "originContent": "Launch interactive TUI:",
+        "translatedContent": "Lanzar TUI interactivo:"
+      },
+      {
+        "row": 32,
+        "rowsha": "vVYThuhlSgpgoQg1C15qP+RSpP+BeUrIH+9+LHh149c=",
+        "originContent": "`./build/cqtui data/`",
+        "translatedContent": "`./build/cqtui data/`"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "e4hgdvJgNoK8Q5OhPPLTjy7Cw+ICPXtZFjlH7tEw0fI=",
+        "originContent": "Features:",
+        "translatedContent": "Características:"
+      },
+      {
+        "row": 35,
+        "rowsha": "sdsrAAtKztltG22SoO4RXQ8L7Ix16TKVm+iKv3nfgK4=",
+        "originContent": "- Browse and open CSV files as tables",
+        "translatedContent": "- Navegar y abrir archivos CSV como tablas"
+      },
+      {
+        "row": 36,
+        "rowsha": "JgWqmi6MxYu8rV15546ClQFvp77yQNZktDERUROLhUc=",
+        "originContent": "- Execute SQL queries interactively",
+        "translatedContent": "- Ejecutar consultas SQL de forma interactiva"
+      },
+      {
+        "row": 37,
+        "rowsha": "IzRyQM1/30w9MytOadhEPrVjOk/3zikvjidQDp/ujTA=",
+        "originContent": "- Multi-tab interface for multiple tables",
+        "translatedContent": "- Interfaz de pestañas múltiples para varias tablas"
+      },
+      {
+        "row": 38,
+        "rowsha": "btTm0JCeK1E8OQ5hILst4T7xcCFj1R37uy05SYKdcJI=",
+        "originContent": "- Keyboard-driven navigation",
+        "translatedContent": "- Navegación mediante teclado"
+      },
+      {
+        "row": 39,
+        "rowsha": "eqPpjx4xUW1xn5R8+4SYcWRwu6KfaD3jWDbCaTwFw8c=",
+        "originContent": "- No external dependencies",
+        "translatedContent": "- Sin dependencias externas"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## Example SQL Files\n\nThe repository includes example SQL under assets/ (example_between.sql, example_aggregation.sql, etc.). See assets/ for details.\n\n## Data & Features Overview\n\n- See the /doc folder for detailed sections on data types, date formats, CSV format, and more.\n\n## License\n\nMIT License. See LICENSE file for details.\n",
+    "ContentSha": "IYEYaTDk46+eUv3fLZMHevlJw/Ap2+vTpQ+R/p7E9VE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Archivos SQL de Ejemplo\n\nEl repositorio incluye ejemplos de SQL en assets/ (example_between.sql, example_aggregation.sql, etc.). Consulte assets/ para más detalles.\n\n## Resumen de Datos y Características\n\n- Consulte la carpeta /doc para secciones detalladas sobre tipos de datos, formatos de fecha, formato CSV y más.\n\n## Licencia\n\nLicencia MIT. Consulte el archivo LICENSE para más detalles.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "MWly+fnYrAI6ZXCCF5+ibDmy20dJVJMzkI3E6NCZd/c=",
+        "originContent": "## Example SQL Files",
+        "translatedContent": "## Archivos SQL de Ejemplo"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ubrBfiMcheWMHBXpF46Gs0GRUHdO1yea6K+WnALkwZQ=",
+        "originContent": "The repository includes example SQL under assets/ (example_between.sql, example_aggregation.sql, etc.). See assets/ for details.",
+        "translatedContent": "El repositorio incluye ejemplos de SQL en assets/ (example_between.sql, example_aggregation.sql, etc.). Consulte assets/ para más detalles."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "mEF9IUKLRwf/P1ECSaFo0vAVAxUFQzEJaIkO414oqhg=",
+        "originContent": "## Data & Features Overview",
+        "translatedContent": "## Resumen de Datos y Características"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ZJsxbkKx0oYRNo6gs/LGUf4jJlHFGEv9paqaJxRtcxg=",
+        "originContent": "- See the /doc folder for detailed sections on data types, date formats, CSV format, and more.",
+        "translatedContent": "- Consulte la carpeta /doc para secciones detalladas sobre tipos de datos, formatos de fecha, formato CSV y más."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licencia"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "GysNTdsjLyMwfQtMM7Q+DZAXmgr55tWAw2qcNc6L5lE=",
+        "originContent": "MIT License. See LICENSE file for details.",
+        "translatedContent": "Licencia MIT. Consulte el archivo LICENSE para más detalles."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

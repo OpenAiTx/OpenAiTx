@@ -81,7 +81,7 @@
 
 ### 1. 先決條件（HACS）
 
-您必須安裝 [HACS](https://hacs.xyz/)。請安裝以下 **前端** 整合：
+您必須已安裝 [HACS](https://hacs.xyz/)。請安裝以下 **前端** 整合：
 
 * `week-planner-card`
 * `bubble-card`
@@ -89,97 +89,100 @@
 * `card-mod`
 * `better-moment-card`
 * `weather-card`
-* `browser_mod`（彈窗功能所需）
-* `layout-card`（Sections 檢視所需）
-* `button-card`（新增事件彈窗所需）
+* `browser_mod`（彈出視窗功能必需）
+* `layout-card`（Sections 檢視必需）
+* `button-card`（新增事件彈出視窗必需）
+
+*注意：在設定 → 裝置與服務中，請確保 Browser Mod 作為整合（磁磚）出現，而不僅僅是在 HACS 下方。
+如果沒有出現，請點選新增整合 → Browser Mod 並完成流程，然後重新啟動 HA。
+透過 HACS 安裝僅會下載檔案；您必須新增整合，才能讓 HA 註冊其動作／實體。
 
 ### 2. 後端（大腦）
 
-1. 在 Home Assistant 中打開您的 `configuration.yaml` 檔案。
-2. 確認已在 `homeassistant:` 下方加入此行以啟用套件：
+1. 在 Home Assistant 中開啟您的 `configuration.yaml` 檔案。
+2. 請確認您已在 `homeassistant:` 下方新增此行，以啟用套件：
 
    ```yaml
    homeassistant:
      packages: !include_dir_named packages
    ```
-3. 在你的 HA 配置目錄中建立一個名為 `packages` 的資料夾（如果尚未存在）。
-4. 從此儲存庫下載 [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml)。
-5. 將該檔案放入你的 `packages/` 資料夾內。
-6. **重新啟動 Home Assistant**。
+3. 在你的 HA 設定目錄中建立一個名為 `packages` 的資料夾（如果你還沒有的話）。
+4. 從這個存儲庫下載 [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml)。
+5. 搜尋字串 [ #<--- UPDATE THIS ENTITY] 並將行事曆實體 ID 更新為符合你的環境。詳細資訊請參考第 3 節。
+6. 將檔案放入你的 `packages/` 資料夾內。
+7. **重新啟動 Home Assistant**。
 
 ### 3. 行事曆
 
 你可以使用 **Google 行事曆** 或 **本地行事曆**。
 
-#### 選項 A：本地行事曆（最簡單）
+#### 選項 A：重用行事曆名稱（最簡單）
 
-請注意，這是未經測試的，因為我只使用 Google 行事曆
 
 1. 前往 **設定 > 裝置與服務**。
 2. 新增 **本地行事曆** 整合。
-3. 建立名稱完全相符的行事曆：`Alice`、`Bob`、`Charlie`、`Daisy`、`Family`。
-    * *如果你使用這些名稱，程式碼可以直接運作！*
+3. 建立名稱完全為：`calendar1`、`calendar2`、`calendar3`、`calendar4`、`Family` 的行事曆。
+    * *如果你使用這些名稱，程式碼即可直接運作！*
 
-#### 選項 B：Google 行事曆
+#### 選項 B：自訂行事曆
 
-1. 開啟 `packages/family_calendar.yaml`。
-2. 滾動至 `add_google_calendar_event` 腳本。
-3. 更新 `calendar_map` 指向你真正的 Google 實體：
+1. 前往 **設定 > 裝置與服務**。
+2. 新增 **本地行事曆** 整合，或 **Google 行事曆**。
+3. 前往 **設定 > 整合 > 本地行事曆** 或 **Google 行事曆**，並選擇「新增項目」
+4. 為每個建立的項目取得實體 ID，以更新 dashboard.yaml 檔案。
+5. 開啟 `dashboard.yaml`。
+6. 搜尋 `# <--- UPDATE THIS ENTITY`。
+7. 更新符合你環境的實體 ID
 
-
-    ```yaml
-    calendar_map:
-      "Alice": "calendar.alice_gmail_com"
-      "Bob": "calendar.bob_work_account"
-    ```
 
 #### 設定假期
 
-由於 Home Assistant 已更新，假期現在可透過 UI 新增：
+自 Home Assistant 更新後，假期現在可透過 UI 新增：
 
-1. 前往 **設定 > 裝置與服務 > 新增整合 > Holiday**。
+1. 前往 **設定 > 裝置與服務 > 新增整合 > 假期**。
 2. 選擇你的國家。
-3. 檢查實體 ID（例如 `calendar.holidays`）。如果與預設不同，請在 dashboard YAML 內更新。
+3. 檢查實體 ID（例如 `calendar.holidays`）。若與預設不同，請在 dashboard YAML 中更新。
 
-### 4. 控制面板（外觀設定）
+### 4. 儀表板（外觀）
 
-1. 建立新的控制面板檢視（將檢視類型設為 **Sections**）。
-2. 從 [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml) 複製程式碼。
-3. **自訂：**
-   * **搜尋並取代：** 將 `person.alice` 換成你實際的家庭成員實體。
-   * **天氣：** 將 `weather.home` 換成你的天氣提供者。
-   * **背景：** 在 yaml 最底部更新圖片網址。
 
-### 步驟 5：主題（可選）
+1. 前往 **設定 > 儀表板**
+2. 點擊 **新增儀表板**（選擇「全新儀表板」並確保選擇「加入側邊欄」）。
+3. 在左側選單選擇新建立的儀表板，然後點擊鉛筆圖示進行編輯。
+5. 選擇三個點的圖示，然後選擇「原始配置編輯器」。
+6. 複製並貼上來自 [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml) 的程式碼。
 
-如需取得特定字型（Ovo）效果：
+### 步驟五：主題（可選）
 
-1. 請確認你的 `configuration.yaml` 在 `frontend:` 下方有此行：
+若要獲得特定的字型外觀（Ovo）：
+
+1. 確保你的 `configuration.yaml` 在 `frontend:` 下有這一行：
 
    ```yaml
    frontend:
      themes: !include_dir_merge_named themes
    ```
-2. 在你的設定目錄中建立一個名為 `themes` 的資料夾。
-3. 下載 [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) 並將其放入該資料夾中。
-4. 重新啟動 Home Assistant。
-5. 前往你的個人檔案（左下角的使用者圖示）並將 **主題** 更改為 `Skylight`。
-注意：此主題並不全面，請注意這一點
+2. 在你的設定目錄下建立一個名為 `themes` 的資料夾。
+3. 下載 [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) 並放入該資料夾中。
+4. 使用檔案編輯器將 calbackgrd.png 上傳至 /www/ 資料夾，這會在儀表板內部轉換為 /local。
+5. 重新啟動 Home Assistant。
+6. 前往你的個人檔案（左下角的使用者圖示）並將 **主題** 更改為 `Skylight`。
+注意：此主題並非全面性，請留意。
 
 ---
 
-## 📐 運作原理（底層解析）
+## 📐 運作原理（底層說明）
 
 ### 篩選邏輯
 
-`week-planner-card` 本身並不支援即時隱藏特定日曆。為了解決這個問題，我使用了作為 Regex 篩選器的 **Input Texts**。
+`week-planner-card` 原生並不支援即時隱藏特定行事曆。為解決此問題，我使用 **Input Texts** 作為正則過濾器。
 
-* 當你點擊某人的按鈕時，會在 `.*`（顯示全部）和 `^$`（顯示無）之間切換其篩選器。
-* `config-template-card` 會動態地將這些變數注入到日曆卡片中。
+* 當你點擊某人的按鈕時，會在 `.*`（顯示全部）與 `^$`（全部隱藏）之間切換其過濾條件。
+* `config-template-card` 會動態地將這些變數注入至行事曆卡片。
 
-### 事件建立腳本
+### 建立事件腳本
 
-「新增事件」彈窗使用單一腳本，負責處理多個人員及事件類型（全天與定時）。
+「新增事件」的彈出視窗使用單一腳本，負責處理多人與事件類型（整天 vs 定時）的邏輯。
 
 
 ```yaml
@@ -205,6 +208,6 @@ choose:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-08
 
 ---

@@ -1,139 +1,392 @@
 [
   {
     "Id": 1,
-    "Content": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/WtxwNs/BACH/main/tokenpair.png\" width=\"85%\"/>\n  <br><br>\n  <i>Watch how BACH turns raw tokens into structured music—step by step.</i>\n</p>\n\n# BACH: Bar-level AI Composing Helper  \n\n<p align=\"center\">\n  <a href=\"https://arxiv.org/abs/2508.01394\">\n    <img src=\"https://img.shields.io/badge/arXiv-2508.01394-b31b1b.svg\" alt=\"arXiv\"/>\n  </a>\n  <a href=\"https://github.com/WtxwNs/BACH/blob/main/LICENSE\">\n    <img src=\"https://img.shields.io/github/license/WtxwNs/BACH\" alt=\"License\"/>\n  </a>\n  <img src=\"https://img.shields.io/github/repo-size/WtxwNs/BACH\" alt=\"Repo Size\"/>\n  <img src=\"https://img.shields.io/github/stars/WtxwNs/BACH?style=social\" alt=\"Stars\"/>\n</p>\n\n&gt; *\"Via Score to Performance: Efficient Human-Controllable Long Song Generation with Bar-Level Symbolic Notation\"*  \n&gt; ICASSP 2026 Submission – **Pending Review**\n\n---\n\n## 🎼 One-sentence Summary  \nBACH is the first **human-editable**, **bar-level** symbolic song generator:  \nLLM writes lyrics → Transformer emits ABC score → off-the-shelf renderers give **minutes-long, Suno-level** music.  \n**1 B params**, **minute-level** inference, **SOTA open-source**.\n\n---\n\n## 📦 What is inside this repo (preview release)\n| Path | Description |\n|------|-------------|\n| `README.md` | This file |\n| `code/` | inference code |\n| `example.mp3` | an example song |\n| `fig/` | Architecture figure |\n\n---",
-    "ContentSha": "cUm4H77da69VM4gexTcgQCLEs0BNWiPHum3KQxqbi7A=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n\n</div>\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/WtxwNs/BACH/main/tokenpair.png\" width=\"85%\"/>\n  <br><br>\n  <i>Watch how BACH turns raw tokens into structured music—step by step.</i>\n</p>\n\n# BACH: Bar-level AI Composing Helper  ",
+    "ContentSha": "WzniNAq3RerNg61CVWwnG/2iPJmpZbk4wRYIorXrsq0=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/WtxwNs/BACH/main/tokenpair.png\" width=\"85%\"/>\n  <br><br>\n  <i>Mira cómo BACH convierte tokens crudos en música estructurada—paso a paso.</i>\n</p>\n\n# BACH: Asistente de Composición AI a Nivel de Compás  \n\n<p align=\"center\">\n  <a href=\"https://arxiv.org/abs/2508.01394\">\n    <img src=\"https://img.shields.io/badge/arXiv-2508.01394-b31b1b.svg\" alt=\"arXiv\"/>\n  </a>\n  <a href=\"https://github.com/WtxwNs/BACH/blob/main/LICENSE\">\n    <img src=\"https://img.shields.io/github/license/WtxwNs/BACH\" alt=\"Licencia\"/>\n  </a>\n  <img src=\"https://img.shields.io/github/repo-size/WtxwNs/BACH\" alt=\"Tamaño del Repo\"/>\n  <img src=\"https://img.shields.io/github/stars/WtxwNs/BACH?style=social\" alt=\"Estrellas\"/>\n</p>\n\n&gt; *\"De la Partitura a la Interpretación: Generación Eficiente y Controlable por Humanos de Canciones Largas con Notación Simbólica a Nivel de Compás\"*  \n&gt; Envío ICASSP 2026 – **Revisión Pendiente**\n\n---\n\n## 🎼 Resumen en una frase  \nBACH es el primer generador de canciones simbólicas **editable por humanos** y a **nivel de compás**:  \nLLM escribe letras → Transformer emite partitura ABC → renderizadores disponibles producen música **de minutos de duración, al nivel de Suno**.  \n**1 B parámetros**, inferencia a **nivel de minutos**, **SOTA de código abierto**.\n\n---\n\n## 📦 Qué hay dentro de este repositorio (versión previa)\n| Ruta | Descripción |\n|------|-------------|\n| `README.md` | Este archivo |\n| `code/` | código de inferencia |\n| `example.mp3` | una canción de ejemplo |\n| `fig/` | Figura de la arquitectura |\n\n---",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Idioma</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n\n</div>\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/WtxwNs/BACH/main/tokenpair.png\" width=\"85%\"/>\n  <br><br>\n  <i>Mira cómo BACH convierte tokens en bruto en música estructurada—paso a paso.</i>\n</p>\n\n# BACH: Asistente de Composición por IA a Nivel de Compás",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Idioma</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "w8IoxMa011igBHfrr822AQJrXd02OaSv7saOqDLT08Q=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "djN8OvBVOvtZssb9wZ+YRAaAFe3tCyvLWH624KEKWDA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "DeHftkRNsEBNLOBiiTNt1LFcZQc2+8yYJRbXWmMMkW8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "stRtUf1vOOe+1Hyy/5sipO9Sy4SmYheYsW9nkHEdvls=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "dsfjlRJzVCxEqqwqNH3YFYkLD6Ak3NBDmSMxbUoyGyQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "X2094ZpPFGCh7mnUOVj1czTcZ2E7lFskULYY++yvXlo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "PcfcRCf0LiUZg5YoE0DaizcZS84ePhIc/GTWwiV5QKQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "udVcgVNTXDZuvMvkEicBjlKeQDkT/UgmlCSgDCI1O18=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "GQyuNvJEp7GPXlnAj7dxuJkGcrSerTM1G511jrQFL04=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "+n853cDjGGCHfOMmsL+BuuW5X7bnY/75m7RfGevQBWE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "ySbsBowmBQQ2LfuGTM7pb6ouNmKFxHic717CHrPvMP0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "8I3zM6toqHdMAxo17TJDgKfGJX4L7Y/blPR7gcY9aFw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "0wbT81d/4EVcVEg7xHnzFGUkWFnMIcvCJ1TRc1YMl8c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "Hzx5Gq1CRxf6jIZlpG8k5h0OFA8bqpbllC/VojTBFqY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "9Cx/T1cdhUHVoSlF6hwIik+WYibELqYo4Bdzk6XKY20=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "3NlIFdZSYTddnhfE1lg71gcPgIRMfYpN6LeNH4WYx3M=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "PGgjtdQduH5V2Lf2dZ/4686N6WbVmEESy/nefTvwsUA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "IeK9sF9whk+76WoQXxxwTDw3etUTwsqcJl4E2pnB1wQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "Xigrd2J9nSDA4lCwVEsb2ljogjM67S4u7Ow/XC4NY3k=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "ljZdGEFACJMILTl6/reQ/Ww+KZNRkSVWhVDuxkCPoNU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "LogtcmTWVABfcZGHbxmWC6FgCYS/WmBnCr6kTfBViok=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=WtxwNs&project=BACH&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
         "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
         "originContent": "<p align=\"center\">",
         "translatedContent": "<p align=\"center\">"
       },
       {
-        "row": 2,
+        "row": 35,
         "rowsha": "lFJPODnmQ3ZG+ezdXNe0hXSv7OIIRMAYgOQvL/s22lw=",
         "originContent": "  <img src=\"https://raw.githubusercontent.com/WtxwNs/BACH/main/tokenpair.png\" width=\"85%\"/>",
         "translatedContent": "  <img src=\"https://raw.githubusercontent.com/WtxwNs/BACH/main/tokenpair.png\" width=\"85%\"/>"
       },
       {
-        "row": 3,
+        "row": 36,
         "rowsha": "q5HTaHazpO8lcmJHzVM10tWEAbE/cTmYcWL426GnxjU=",
         "originContent": "  <br><br>",
         "translatedContent": "  <br><br>"
       },
       {
-        "row": 4,
+        "row": 37,
         "rowsha": "OTCMsjzpLivutrayt1Tk6Z33CZkcEyWPXwGFJRugNDc=",
         "originContent": "  <i>Watch how BACH turns raw tokens into structured music—step by step.</i>",
-        "translatedContent": "  <i>Mira cómo BACH convierte tokens crudos en música estructurada—paso a paso.</i>"
+        "translatedContent": "  <i>Mira cómo BACH convierte tokens en bruto en música estructurada—paso a paso.</i>"
       },
       {
-        "row": 5,
+        "row": 38,
         "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
         "originContent": "</p>",
         "translatedContent": "</p>"
       },
       {
-        "row": 6,
+        "row": 39,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 7,
+        "row": 40,
         "rowsha": "cdr+M44iGM0WGdb2GrQFDcew1Ur1hhS9tzCR5phYB8U=",
         "originContent": "# BACH: Bar-level AI Composing Helper  ",
-        "translatedContent": "# BACH: Asistente de Composición AI a Nivel de Compás  "
-      },
+        "translatedContent": "# BACH: Asistente de Composición por IA a Nivel de Compás"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n<p align=\"center\">\n  <a href=\"https://arxiv.org/abs/2508.01394\">\n    <img src=\"https://img.shields.io/badge/arXiv-2508.01394-b31b1b.svg\" alt=\"arXiv\"/>\n  </a>\n  <a href=\"https://github.com/WtxwNs/BACH/blob/main/LICENSE\">\n    <img src=\"https://img.shields.io/github/license/WtxwNs/BACH\" alt=\"License\"/>\n  </a>\n  <img src=\"https://img.shields.io/github/repo-size/WtxwNs/BACH\" alt=\"Repo Size\"/>\n  <img src=\"https://img.shields.io/github/stars/WtxwNs/BACH?style=social\" alt=\"Stars\"/>\n</p>\n\n&gt; *\"Via Score to Performance: Efficient Human-Controllable Long Song Generation with Bar-Level Symbolic Notation\"*  \n&gt; ICASSP 2026 Submission – **Accepted**\n\n---\n\n## 🎼 One-sentence Summary  \nBACH is the first **human-editable**, **bar-level** symbolic song generator:  \nLLM writes lyrics → Transformer emits ABC score → off-the-shelf renderers give **minutes-long, Suno-level** music.  \n**1 B params**, **minute-level** inference, **SOTA open-source**.\n\n---\n\n## 📦 What is inside this repo (preview release)\n| Path | Description |\n|------|-------------|\n| `README.md` | This file |\n| `code/` | inference code |\n| `example.mp3` | an example song |\n| `fig/` | Architecture figure |\n\n---\n\n## 🏗️ Model Architecture (one glance)\n\nUser prompt\nQwen3 — lyrics & style tags\nBACH-1B Decoder-Only Transformer\nABC score (Dual-NTP + Chain-of-Score)",
+    "ContentSha": "kDpFd/y+xL4f8jEjsUnEDaeZq+07WScMJSVVbDF5JxM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n<p align=\"center\">\n  <a href=\"https://arxiv.org/abs/2508.01394\">\n    <img src=\"https://img.shields.io/badge/arXiv-2508.01394-b31b1b.svg\" alt=\"arXiv\"/>\n  </a>\n  <a href=\"https://github.com/WtxwNs/BACH/blob/main/LICENSE\">\n    <img src=\"https://img.shields.io/github/license/WtxwNs/BACH\" alt=\"License\"/>\n  </a>\n  <img src=\"https://img.shields.io/github/repo-size/WtxwNs/BACH\" alt=\"Repo Size\"/>\n  <img src=\"https://img.shields.io/github/stars/WtxwNs/BACH?style=social\" alt=\"Stars\"/>\n</p>\n\n&gt; *\"De la partitura al rendimiento: generación eficiente de canciones largas controlable por humanos con notación simbólica a nivel de compás\"*  \n&gt; Envío a ICASSP 2026 – **Aceptado**\n\n---\n\n## 🎼 Resumen en una frase  \nBACH es el primer generador de canciones simbólicas a nivel de compás **editable por humanos**:  \nLLM escribe las letras → Transformer emite partitura ABC → renderizadores estándar producen música de **varios minutos, nivel Suno**.  \n**1 B de parámetros**, inferencia a **nivel de minutos**, **SOTA de código abierto**.\n\n---\n\n## 📦 ¿Qué contiene este repositorio? (lanzamiento preliminar)\n| Ruta | Descripción |\n|------|-------------|\n| `README.md` | Este archivo |\n| `code/` | código de inferencia |\n| `example.mp3` | una canción de ejemplo |\n| `fig/` | Figura de arquitectura |\n\n---\n\n## 🏗️ Arquitectura del modelo (de un vistazo)\n\nSolicitud del usuario  \nQwen3 — letras y etiquetas de estilo  \nBACH-1B Transformer solo decodificador  \nPartitura ABC (Dual-NTP + Chain-of-Score)",
+    "Status": "ok",
+    "RowTranslations": [
       {
-        "row": 8,
+        "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 9,
+        "row": 2,
         "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
         "originContent": "<p align=\"center\">",
         "translatedContent": "<p align=\"center\">"
       },
       {
-        "row": 10,
+        "row": 3,
         "rowsha": "E9Oq9fmIEYLzrhA4ALE4357HmHk7++1Be7BoDALe3Q8=",
         "originContent": "  <a href=\"https://arxiv.org/abs/2508.01394\">",
         "translatedContent": "  <a href=\"https://arxiv.org/abs/2508.01394\">"
       },
       {
-        "row": 11,
+        "row": 4,
         "rowsha": "SXstXsQoByChJam64fxc6yz7G0pC8ENCfYr4GPWKFN8=",
         "originContent": "    <img src=\"https://img.shields.io/badge/arXiv-2508.01394-b31b1b.svg\" alt=\"arXiv\"/>",
         "translatedContent": "    <img src=\"https://img.shields.io/badge/arXiv-2508.01394-b31b1b.svg\" alt=\"arXiv\"/>"
       },
       {
-        "row": 12,
+        "row": 5,
         "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
         "originContent": "  </a>",
         "translatedContent": "  </a>"
       },
       {
-        "row": 13,
+        "row": 6,
         "rowsha": "5DccRUsJ7r5CHQMtJciNIlEel+HeRA2LwkWc7SAYJuo=",
         "originContent": "  <a href=\"https://github.com/WtxwNs/BACH/blob/main/LICENSE\">",
         "translatedContent": "  <a href=\"https://github.com/WtxwNs/BACH/blob/main/LICENSE\">"
       },
       {
-        "row": 14,
+        "row": 7,
         "rowsha": "Upmc4sJj6aUmNQsusfcc17KiqhjutpNf3TOhxocwXC0=",
         "originContent": "    <img src=\"https://img.shields.io/github/license/WtxwNs/BACH\" alt=\"License\"/>",
-        "translatedContent": "    <img src=\"https://img.shields.io/github/license/WtxwNs/BACH\" alt=\"Licencia\"/>"
+        "translatedContent": "    <img src=\"https://img.shields.io/github/license/WtxwNs/BACH\" alt=\"License\"/>"
       },
       {
-        "row": 15,
+        "row": 8,
         "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
         "originContent": "  </a>",
         "translatedContent": "  </a>"
       },
       {
-        "row": 16,
+        "row": 9,
         "rowsha": "oKV/zLXs+DvcP4eLewONSdY5VUgJQYBd/+kmW3ReLUY=",
         "originContent": "  <img src=\"https://img.shields.io/github/repo-size/WtxwNs/BACH\" alt=\"Repo Size\"/>",
-        "translatedContent": "  <img src=\"https://img.shields.io/github/repo-size/WtxwNs/BACH\" alt=\"Tamaño del Repo\"/>"
+        "translatedContent": "  <img src=\"https://img.shields.io/github/repo-size/WtxwNs/BACH\" alt=\"Repo Size\"/>"
       },
       {
-        "row": 17,
+        "row": 10,
         "rowsha": "rUkha81upyob61hHwX2hTX0uCHIuYiw8qoqJ+VINBUY=",
         "originContent": "  <img src=\"https://img.shields.io/github/stars/WtxwNs/BACH?style=social\" alt=\"Stars\"/>",
-        "translatedContent": "  <img src=\"https://img.shields.io/github/stars/WtxwNs/BACH?style=social\" alt=\"Estrellas\"/>"
+        "translatedContent": "  <img src=\"https://img.shields.io/github/stars/WtxwNs/BACH?style=social\" alt=\"Stars\"/>"
       },
       {
-        "row": 18,
+        "row": 11,
         "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
         "originContent": "</p>",
         "translatedContent": "</p>"
       },
       {
-        "row": 19,
+        "row": 12,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 20,
+        "row": 13,
         "rowsha": "6drDFPtQ8YKRFi6zDXQKQNkFV+KIzGSd4t6Ek3hCP20=",
         "originContent": "&gt; *\"Via Score to Performance: Efficient Human-Controllable Long Song Generation with Bar-Level Symbolic Notation\"*  ",
-        "translatedContent": "&gt; *\"De la Partitura a la Interpretación: Generación Eficiente y Controlable por Humanos de Canciones Largas con Notación Simbólica a Nivel de Compás\"*  "
+        "translatedContent": "&gt; *\"De la partitura al rendimiento: generación eficiente de canciones largas controlable por humanos con notación simbólica a nivel de compás\"*  "
+      },
+      {
+        "row": 14,
+        "rowsha": "rEAmRlA0L34qFj+BMIglm50Fl+uNz6wPgEIwgxX85GU=",
+        "originContent": "&gt; ICASSP 2026 Submission – **Accepted**",
+        "translatedContent": "&gt; Envío a ICASSP 2026 – **Aceptado**"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "/PRNClULfdL1UPApN0DWLYth7f+0Q7owqCHtOcPAEog=",
+        "originContent": "## 🎼 One-sentence Summary  ",
+        "translatedContent": "## 🎼 Resumen en una frase  "
+      },
+      {
+        "row": 19,
+        "rowsha": "n/Sc7I2kUtUq3tH86tQhi5o43XrZrFpB+gsHdoro+jk=",
+        "originContent": "BACH is the first **human-editable**, **bar-level** symbolic song generator:  ",
+        "translatedContent": "BACH es el primer generador de canciones simbólicas a nivel de compás **editable por humanos**:  "
+      },
+      {
+        "row": 20,
+        "rowsha": "EiW8fILuMaULDapQ11S2baH+xsUvhjbVzTy4JuW52mw=",
+        "originContent": "LLM writes lyrics → Transformer emits ABC score → off-the-shelf renderers give **minutes-long, Suno-level** music.  ",
+        "translatedContent": "LLM escribe las letras → Transformer emite partitura ABC → renderizadores estándar producen música de **varios minutos, nivel Suno**.  "
       },
       {
         "row": 21,
-        "rowsha": "CcIRyszOD8Hjjfg8uTxA+6aHLH7SPeikd5+Mj/vVWFU=",
-        "originContent": "&gt; ICASSP 2026 Submission – **Pending Review**",
-        "translatedContent": "&gt; Envío ICASSP 2026 – **Revisión Pendiente**"
+        "rowsha": "YjlKPImrzjXsrYaMrNhVyFU2vsSAHIM4cfK6OCwLm8Y=",
+        "originContent": "**1 B params**, **minute-level** inference, **SOTA open-source**.",
+        "translatedContent": "**1 B de parámetros**, inferencia a **nivel de minutos**, **SOTA de código abierto**."
       },
       {
         "row": 22,
@@ -155,166 +408,166 @@
       },
       {
         "row": 25,
-        "rowsha": "/PRNClULfdL1UPApN0DWLYth7f+0Q7owqCHtOcPAEog=",
-        "originContent": "## 🎼 One-sentence Summary  ",
-        "translatedContent": "## 🎼 Resumen en una frase  "
+        "rowsha": "tqL5QnsyRzI61l+qERUlw0K83Wq6e321Z+VS1UfXUMM=",
+        "originContent": "## 📦 What is inside this repo (preview release)",
+        "translatedContent": "## 📦 ¿Qué contiene este repositorio? (lanzamiento preliminar)"
       },
       {
         "row": 26,
-        "rowsha": "n/Sc7I2kUtUq3tH86tQhi5o43XrZrFpB+gsHdoro+jk=",
-        "originContent": "BACH is the first **human-editable**, **bar-level** symbolic song generator:  ",
-        "translatedContent": "BACH es el primer generador de canciones simbólicas **editable por humanos** y a **nivel de compás**:  "
-      },
-      {
-        "row": 27,
-        "rowsha": "EiW8fILuMaULDapQ11S2baH+xsUvhjbVzTy4JuW52mw=",
-        "originContent": "LLM writes lyrics → Transformer emits ABC score → off-the-shelf renderers give **minutes-long, Suno-level** music.  ",
-        "translatedContent": "LLM escribe letras → Transformer emite partitura ABC → renderizadores disponibles producen música **de minutos de duración, al nivel de Suno**.  "
-      },
-      {
-        "row": 28,
-        "rowsha": "YjlKPImrzjXsrYaMrNhVyFU2vsSAHIM4cfK6OCwLm8Y=",
-        "originContent": "**1 B params**, **minute-level** inference, **SOTA open-source**.",
-        "translatedContent": "**1 B parámetros**, inferencia a **nivel de minutos**, **SOTA de código abierto**."
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 30,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 32,
-        "rowsha": "tqL5QnsyRzI61l+qERUlw0K83Wq6e321Z+VS1UfXUMM=",
-        "originContent": "## 📦 What is inside this repo (preview release)",
-        "translatedContent": "## 📦 Qué hay dentro de este repositorio (versión previa)"
-      },
-      {
-        "row": 33,
         "rowsha": "KQuiSWmcjK6S0TijfI/kAKeE59vGWJHBVvMwo0vevz8=",
         "originContent": "| Path | Description |",
         "translatedContent": "| Ruta | Descripción |"
       },
       {
-        "row": 34,
+        "row": 27,
         "rowsha": "E0a5l6U++MKlNLJbXgJB6DSfMfYy1KL1EHjo1imkim0=",
         "originContent": "|------|-------------|",
         "translatedContent": "|------|-------------|"
       },
       {
-        "row": 35,
+        "row": 28,
         "rowsha": "2n6JBR5uADUkKt1L4I9zKqCXgwYF8AdeML8iYOdhGjQ=",
         "originContent": "| `README.md` | This file |",
         "translatedContent": "| `README.md` | Este archivo |"
       },
       {
-        "row": 36,
+        "row": 29,
         "rowsha": "2fjEvg+DdU37o+7NHb5YhrlUoKhd2w1xi93N0owyr+A=",
         "originContent": "| `code/` | inference code |",
         "translatedContent": "| `code/` | código de inferencia |"
       },
       {
-        "row": 37,
+        "row": 30,
         "rowsha": "SBIqxkBRFKab7dMgztqlamV2YqaKC33ymGMmr6NtCpU=",
         "originContent": "| `example.mp3` | an example song |",
         "translatedContent": "| `example.mp3` | una canción de ejemplo |"
       },
       {
-        "row": 38,
+        "row": 31,
         "rowsha": "KePzIrlRvquEJRgoLyw8mAB345tLnr182K3G3RNaK2I=",
         "originContent": "| `fig/` | Architecture figure |",
-        "translatedContent": "| `fig/` | Figura de la arquitectura |"
+        "translatedContent": "| `fig/` | Figura de arquitectura |"
       },
       {
-        "row": 39,
+        "row": 32,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 40,
+        "row": 33,
         "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
         "originContent": "---",
         "translatedContent": "---"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "Gef5sWyQ1KybA26tnXC/vAPw5C9oia7h4+eNn3pTARk=",
+        "originContent": "## 🏗️ Model Architecture (one glance)",
+        "translatedContent": "## 🏗️ Arquitectura del modelo (de un vistazo)"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "kkskk+uJcSJimo9dIjAl+lmPU/YXQYyHyhh5LN82G2s=",
+        "originContent": "User prompt",
+        "translatedContent": "Solicitud del usuario  "
+      },
+      {
+        "row": 38,
+        "rowsha": "0/vUmo7LogOOpAmAJdnjH5MT3qpPWbcX27iYyrGj53k=",
+        "originContent": "Qwen3 — lyrics & style tags",
+        "translatedContent": "Qwen3 — letras y etiquetas de estilo  "
+      },
+      {
+        "row": 39,
+        "rowsha": "YHs0XQE0pe2mnMeqeUqeb9usHGmpqOBQKq5WzsfsQGE=",
+        "originContent": "BACH-1B Decoder-Only Transformer",
+        "translatedContent": "BACH-1B Transformer solo decodificador  "
+      },
+      {
+        "row": 40,
+        "rowsha": "sIInasvMEOFLXcWtBIM8iUR0CPtRg9Bweyf5Uk9QdEI=",
+        "originContent": "ABC score (Dual-NTP + Chain-of-Score)",
+        "translatedContent": "Partitura ABC (Dual-NTP + Chain-of-Score)"
       }
     ],
     "IsCodeBlock": false
   },
   {
-    "Id": 2,
-    "Content": "\n## 🏗️ Model Architecture (one glance)\n\nUser prompt\nQwen3 — lyrics & style tags\nBACH-1B Decoder-Only Transformer\nABC score (Dual-NTP + Chain-of-Score)\nABC → MIDI → FluidSynth + VOCALOID\nStereo mix\n\n\n| Component | Key idea |\n|-----------|----------|\n| **Dual-NTP** | Predict `{vocal_patch, accomp_patch}` jointly every step |\n| **Chain-of-Score** | Section tags `[START:Chorus] ... [END:Chorus]` for long coherence |\n| **Bar-stream patch** | 16-char non-overlapping patches per bar |\n\n---\n\n## 🧪 Quick start (CPU friendly)",
-    "ContentSha": "o6eR2IARHlF0GvoVfQ2luxJFqUhAhXBUC4OETxjsLYY=",
+    "Id": 3,
+    "Content": "ABC → MIDI → FluidSynth + VOCALOID\nStereo mix\n\n\n| Component | Key idea |\n|-----------|----------|\n| **Dual-NTP** | Predict `{vocal_patch, accomp_patch}` jointly every step |\n| **Chain-of-Score** | Section tags `[START:Chorus] ... [END:Chorus]` for long coherence |\n| **Bar-stream patch** | 16-char non-overlapping patches per bar |\n\n---\n\n## 🧪 Quick start (CPU friendly)",
+    "ContentSha": "lXiNDmwnw+WAYemQhfyWw1rhcM5yOyPWzP6voLcTLKw=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "## 🏗️ Arquitectura del modelo (de un vistazo)\n\nEntrada del usuario  \nQwen3 — letras y etiquetas de estilo  \nDecodificador BACH-1B solo Transformer  \nPuntuación ABC (Dual-NTP + Cadena de puntuación)  \nABC → MIDI → FluidSynth + VOCALOID  \nMezcla estéreo  \n\n\n| Componente | Idea clave |\n|------------|------------|\n| **Dual-NTP** | Predecir `{vocal_patch, accomp_patch}` conjuntamente en cada paso |\n| **Cadena de puntuación** | Etiquetas de sección `[START:Chorus] ... [END:Chorus]` para coherencia larga |\n| **Parche bar-stream** | Parches de 16 caracteres no superpuestos por compás |\n\n---\n\n## 🧪 Inicio rápido (amigable con CPU)\n",
+    "Translation": "ABC → MIDI → FluidSynth + VOCALOID\nMezcla estéreo\n\n\n| Componente | Idea clave |\n|------------|------------|\n| **Dual-NTP** | Predecir `{vocal_patch, accomp_patch}` conjuntamente en cada paso |\n| **Chain-of-Score** | Etiquetas de sección `[START:Chorus] ... [END:Chorus]` para coherencia prolongada |\n| **Bar-stream patch** | Parches de 16 caracteres no superpuestos por compás |\n\n---\n\n## 🧪 Inicio rápido (compatible con CPU)",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 🏗️ Arquitectura del modelo (de un vistazo)"
+        "rowsha": "WGOd6mY0dhvUNcxmI1c2AoXqNZsc8Igr8tQMflI/4Z0=",
+        "originContent": "ABC → MIDI → FluidSynth + VOCALOID",
+        "translatedContent": "ABC → MIDI → FluidSynth + VOCALOID"
       },
       {
         "row": 2,
-        "rowsha": "Gef5sWyQ1KybA26tnXC/vAPw5C9oia7h4+eNn3pTARk=",
-        "originContent": "## 🏗️ Model Architecture (one glance)",
-        "translatedContent": ""
+        "rowsha": "SHlWx+PIX/1i9N+VfK8EyPtCMVCjMBE6rky7Rc7XOEk=",
+        "originContent": "Stereo mix",
+        "translatedContent": "Mezcla estéreo"
       },
       {
         "row": 3,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "Entrada del usuario  "
+        "translatedContent": ""
       },
       {
         "row": 4,
-        "rowsha": "kkskk+uJcSJimo9dIjAl+lmPU/YXQYyHyhh5LN82G2s=",
-        "originContent": "User prompt",
-        "translatedContent": "Qwen3 — letras y etiquetas de estilo  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 5,
-        "rowsha": "0/vUmo7LogOOpAmAJdnjH5MT3qpPWbcX27iYyrGj53k=",
-        "originContent": "Qwen3 — lyrics & style tags",
-        "translatedContent": "Decodificador BACH-1B solo Transformer  "
+        "rowsha": "+4i5Vf353gPsGk2CQs4Or3zbebhwnpncy/FLi3IPr4M=",
+        "originContent": "| Component | Key idea |",
+        "translatedContent": "| Componente | Idea clave |"
       },
       {
         "row": 6,
-        "rowsha": "YHs0XQE0pe2mnMeqeUqeb9usHGmpqOBQKq5WzsfsQGE=",
-        "originContent": "BACH-1B Decoder-Only Transformer",
-        "translatedContent": "Puntuación ABC (Dual-NTP + Cadena de puntuación)  "
+        "rowsha": "pPSFJf4Sb2cWfKFsqgrurrP88cvnVz0GQ9lHyCeQ//0=",
+        "originContent": "|-----------|----------|",
+        "translatedContent": "|------------|------------|"
       },
       {
         "row": 7,
-        "rowsha": "sIInasvMEOFLXcWtBIM8iUR0CPtRg9Bweyf5Uk9QdEI=",
-        "originContent": "ABC score (Dual-NTP + Chain-of-Score)",
-        "translatedContent": "ABC → MIDI → FluidSynth + VOCALOID  "
+        "rowsha": "6Jv5LY7ZGbDRzhYVEo3xDxOn78UqCny1dVdiHWwT9qA=",
+        "originContent": "| **Dual-NTP** | Predict `{vocal_patch, accomp_patch}` jointly every step |",
+        "translatedContent": "| **Dual-NTP** | Predecir `{vocal_patch, accomp_patch}` conjuntamente en cada paso |"
       },
       {
         "row": 8,
-        "rowsha": "WGOd6mY0dhvUNcxmI1c2AoXqNZsc8Igr8tQMflI/4Z0=",
-        "originContent": "ABC → MIDI → FluidSynth + VOCALOID",
-        "translatedContent": "Mezcla estéreo  "
+        "rowsha": "mlPUaw+BPPqUc1+WCZy8HCrPzEw6pgxVPx7CzXPL5Xg=",
+        "originContent": "| **Chain-of-Score** | Section tags `[START:Chorus] ... [END:Chorus]` for long coherence |",
+        "translatedContent": "| **Chain-of-Score** | Etiquetas de sección `[START:Chorus] ... [END:Chorus]` para coherencia prolongada |"
       },
       {
         "row": 9,
-        "rowsha": "SHlWx+PIX/1i9N+VfK8EyPtCMVCjMBE6rky7Rc7XOEk=",
-        "originContent": "Stereo mix",
-        "translatedContent": ""
+        "rowsha": "UvhZT2tn0mQ7VbRdiiEYeJFJvKVep5URld2LGLWnkGw=",
+        "originContent": "| **Bar-stream patch** | 16-char non-overlapping patches per bar |",
+        "translatedContent": "| **Bar-stream patch** | Parches de 16 caracteres no superpuestos por compás |"
       },
       {
         "row": 10,
@@ -324,69 +577,27 @@
       },
       {
         "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "| Componente | Idea clave |"
-      },
-      {
-        "row": 12,
-        "rowsha": "+4i5Vf353gPsGk2CQs4Or3zbebhwnpncy/FLi3IPr4M=",
-        "originContent": "| Component | Key idea |",
-        "translatedContent": "|------------|------------|"
-      },
-      {
-        "row": 13,
-        "rowsha": "pPSFJf4Sb2cWfKFsqgrurrP88cvnVz0GQ9lHyCeQ//0=",
-        "originContent": "|-----------|----------|",
-        "translatedContent": "| **Dual-NTP** | Predecir `{vocal_patch, accomp_patch}` conjuntamente en cada paso |"
-      },
-      {
-        "row": 14,
-        "rowsha": "6Jv5LY7ZGbDRzhYVEo3xDxOn78UqCny1dVdiHWwT9qA=",
-        "originContent": "| **Dual-NTP** | Predict `{vocal_patch, accomp_patch}` jointly every step |",
-        "translatedContent": "| **Cadena de puntuación** | Etiquetas de sección `[START:Chorus] ... [END:Chorus]` para coherencia larga |"
-      },
-      {
-        "row": 15,
-        "rowsha": "mlPUaw+BPPqUc1+WCZy8HCrPzEw6pgxVPx7CzXPL5Xg=",
-        "originContent": "| **Chain-of-Score** | Section tags `[START:Chorus] ... [END:Chorus]` for long coherence |",
-        "translatedContent": "| **Parche bar-stream** | Parches de 16 caracteres no superpuestos por compás |"
-      },
-      {
-        "row": 16,
-        "rowsha": "UvhZT2tn0mQ7VbRdiiEYeJFJvKVep5URld2LGLWnkGw=",
-        "originContent": "| **Bar-stream patch** | 16-char non-overlapping patches per bar |",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
         "translatedContent": "---"
       },
       {
-        "row": 18,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
+        "row": 12,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## 🧪 Inicio rápido (amigable con CPU)"
+        "translatedContent": ""
       },
       {
-        "row": 20,
+        "row": 13,
         "rowsha": "790MtFV7thHmcF2HHxCY4P5wo2A9722y0P9bvlHXPEE=",
         "originContent": "## 🧪 Quick start (CPU friendly)",
-        "translatedContent": ""
+        "translatedContent": "## 🧪 Inicio rápido (compatible con CPU)"
       }
     ],
     "IsCodeBlock": false
   },
   {
-    "Id": 3,
+    "Id": 4,
     "Content": "```bash\n# 1. Clone\ngit clone https://github.com/your-github/BACH.git\ncd BACH\n\n# 2. Install\npip install -r requirements.txt        # transformers>=4.41 mido abcpy fluidsynth\n\n# 3. Generate ABC\npython bach/generate.py \\\n    --prompt \"A rainy-day lo-fi hip-hop song about missing the last train\" \\\n    --out_abc demo/rainy_lofi.abc\n\n# 4. Render audio\n```",
     "ContentSha": "piznCe6/DzODGPj1tn/5LP/MIWyAls4A0E8JIdzedZQ=",
     "SectionType": "",
@@ -394,102 +605,11 @@
     "EndLine": 0,
     "Translation": "```bash\n# 1. Clone\ngit clone https://github.com/your-github/BACH.git\ncd BACH\n\n# 2. Install\npip install -r requirements.txt        # transformers>=4.41 mido abcpy fluidsynth\n\n# 3. Generate ABC\npython bach/generate.py \\\n    --prompt \"A rainy-day lo-fi hip-hop song about missing the last train\" \\\n    --out_abc demo/rainy_lofi.abc\n\n# 4. Render audio\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "xHAkYA7BwmMjiPrfx0lhzrGHIqGTez8xcntA0dCqhvY=",
-        "originContent": "# 1. Clone",
-        "translatedContent": "# 1. Clone"
-      },
-      {
-        "row": 3,
-        "rowsha": "OrwQ9zMPqR1xr78DVlsztZsjIBuuMs99X+dTcTt8nAo=",
-        "originContent": "git clone https://github.com/your-github/BACH.git",
-        "translatedContent": "git clone https://github.com/your-github/BACH.git"
-      },
-      {
-        "row": 4,
-        "rowsha": "KAgD8XU6JxY15+yojZfTBHJTgvmfo778ByFK6Z4f+Vo=",
-        "originContent": "cd BACH",
-        "translatedContent": "cd BACH"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "cGFKvu3wG5JVaQ1asUxyTO4I81qcWlJwoMsfbfuj2H8=",
-        "originContent": "# 2. Install",
-        "translatedContent": "# 2. Install"
-      },
-      {
-        "row": 7,
-        "rowsha": "DOIc75Fm4IskijrkMSnGgsuchGlRinVV75aHo5ttywk=",
-        "originContent": "pip install -r requirements.txt        # transformers>=4.41 mido abcpy fluidsynth",
-        "translatedContent": "pip install -r requirements.txt        # transformers>=4.41 mido abcpy fluidsynth"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "svA4tASLHbWv2R5cBnZxzRZgn67zxlHi/kLwYQqvjtk=",
-        "originContent": "# 3. Generate ABC",
-        "translatedContent": "# 3. Generate ABC"
-      },
-      {
-        "row": 10,
-        "rowsha": "mHEXE9KnVCtRFiquS+Xsjxc5edvMRjbx8GTATLeVmc4=",
-        "originContent": "python bach/generate.py \\",
-        "translatedContent": "python bach/generate.py \\"
-      },
-      {
-        "row": 11,
-        "rowsha": "ypUN+YU4veJ7LkJN3HmYAsFFZg/PzkvudmJn3QJLads=",
-        "originContent": "    --prompt \"A rainy-day lo-fi hip-hop song about missing the last train\" \\",
-        "translatedContent": "    --prompt \"A rainy-day lo-fi hip-hop song about missing the last train\" \\"
-      },
-      {
-        "row": 12,
-        "rowsha": "3NmPVXrrMxlyvzgkp9tjOAJ8QxYQw4rp4wS58RY7M/s=",
-        "originContent": "    --out_abc demo/rainy_lofi.abc",
-        "translatedContent": "    --out_abc demo/rainy_lofi.abc"
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "xFVRwFXiqBpqCjx7UClid4D/JkixcHewNinoqxyjmH8=",
-        "originContent": "# 4. Render audio",
-        "translatedContent": "# 4. Render audio"
-      },
-      {
-        "row": 15,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 4,
+    "Id": 5,
     "Content": "\n##  🎧 Listen now\nexample.mp3 is ready for you, it's a whole song. You can compare it with Suno🙂\n\n## Full release upon related paper acceptance\n- Complete training set (ABC + lyrics + structure labels)\n- BACH-1B weights (Transformers format)\n- Training scripts (multiphase + multitask + ICL)\n- Complete Code\n\n## 📎 Citation\nPaper is released on Arxiv, ",
     "ContentSha": "je5o0M49gp3V6H3YOhJj/E9MrLJ81j70iMx0l3+r+0Y=",
     "SectionType": "",
@@ -497,84 +617,11 @@
     "EndLine": 0,
     "Translation": "\n##  🎧 Escuchar ahora\nexample.mp3 está listo para ti, es una canción completa. Puedes compararlo con Suno🙂\n\n## Lanzamiento completo tras la aceptación del artículo relacionado\n- Conjunto de entrenamiento completo (ABC + letras + etiquetas de estructura)\n- Pesos BACH-1B (formato Transformers)\n- Scripts de entrenamiento (multifase + multitarea + ICL)\n- Código completo\n\n## 📎 Citación\nEl artículo está publicado en Arxiv, ",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "iDoo2jeFD2pjtok1ryLtRMquL5XUYkhLc/XJo4aA7EM=",
-        "originContent": "##  🎧 Listen now",
-        "translatedContent": "##  🎧 Escuchar ahora"
-      },
-      {
-        "row": 3,
-        "rowsha": "QxPlrKmezN4PpaVuSSN5Sn2ct3fxMgMaB5N560X7wpI=",
-        "originContent": "example.mp3 is ready for you, it's a whole song. You can compare it with Suno🙂",
-        "translatedContent": "example.mp3 está listo para ti, es una canción completa. Puedes compararlo con Suno🙂"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "D1iEaItXXU+UmcnZbrd/XmUM1memVQHxGdcbr2f7Qys=",
-        "originContent": "## Full release upon related paper acceptance",
-        "translatedContent": "## Lanzamiento completo tras la aceptación del artículo relacionado"
-      },
-      {
-        "row": 6,
-        "rowsha": "T6IXbQe3Qs8InmPgriZFnoedH04jjlX+FXpY6OVnucM=",
-        "originContent": "- Complete training set (ABC + lyrics + structure labels)",
-        "translatedContent": "- Conjunto de entrenamiento completo (ABC + letras + etiquetas de estructura)"
-      },
-      {
-        "row": 7,
-        "rowsha": "6p+lCj8t+9QqbofEBOCcCbu7vJQaSxvvyvfjBusMJY4=",
-        "originContent": "- BACH-1B weights (Transformers format)",
-        "translatedContent": "- Pesos BACH-1B (formato Transformers)"
-      },
-      {
-        "row": 8,
-        "rowsha": "caHqHIbR+6a6fqDhY7wE/SXEYhA3yMGxM7sb0jx0158=",
-        "originContent": "- Training scripts (multiphase + multitask + ICL)",
-        "translatedContent": "- Scripts de entrenamiento (multifase + multitarea + ICL)"
-      },
-      {
-        "row": 9,
-        "rowsha": "iJZnHyOT7vg83J/A1OSBg4JMpyNFnqyKzEvaJA/XwkU=",
-        "originContent": "- Complete Code",
-        "translatedContent": "- Código completo"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "nXj9SuK200NS8SPRk07UquOEn/gfQEG25xdifPtR7yM=",
-        "originContent": "## 📎 Citation",
-        "translatedContent": "## 📎 Citación"
-      },
-      {
-        "row": 12,
-        "rowsha": "hqaInc3cPGtqV/SKG33RhPF1ADDqz90VwaG3MmB8ZgY=",
-        "originContent": "Paper is released on Arxiv, ",
-        "translatedContent": "El artículo está publicado en Arxiv, "
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 5,
+    "Id": 6,
     "Content": "```bibtex\n@misc{wang2025scoreperformanceefficienthumancontrollable,\n      title={Via Score to Performance: Efficient Human-Controllable Long Song Generation with Bar-Level Symbolic Notation}, \n      author={Tongxi Wang and Yang Yu and Qing Wang and Junlang Qian},\n      year={2025},\n      eprint={2508.01394},\n      archivePrefix={arXiv},\n      primaryClass={cs.SD},\n      url={https://arxiv.org/abs/2508.01394}, \n}\n",
     "ContentSha": "G5jjEbIcOjEGbeeoqv8ZN7jbpc/8p235eiH37Hp/0QA=",
     "SectionType": "",
@@ -582,74 +629,7 @@
     "EndLine": 0,
     "Translation": "```bibtex\n@misc{wang2025scoreperformanceefficienthumancontrollable,\n      title={De la Partitura al Rendimiento: Generación Eficiente de Canciones Largas Controlables por Humanos con Notación Simbólica a Nivel de Compás}, \n      author={Tongxi Wang and Yang Yu and Qing Wang and Junlang Qian},\n      year={2025},\n      eprint={2508.01394},\n      archivePrefix={arXiv},\n      primaryClass={cs.SD},\n      url={https://arxiv.org/abs/2508.01394}, \n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
-        "originContent": "```bibtex",
-        "translatedContent": "```bibtex"
-      },
-      {
-        "row": 2,
-        "rowsha": "Oa/x97gKNSzkNrYUZ7cMBZJ45i2o2WDEYy2+EBRFAfU=",
-        "originContent": "@misc{wang2025scoreperformanceefficienthumancontrollable,",
-        "translatedContent": "@misc{wang2025scoreperformanceefficienthumancontrollable,"
-      },
-      {
-        "row": 3,
-        "rowsha": "fOkeCD9z7QrwzCQuZzs5cQKaCmuWxE2gB3LxavcnMjc=",
-        "originContent": "      title={Via Score to Performance: Efficient Human-Controllable Long Song Generation with Bar-Level Symbolic Notation}, ",
-        "translatedContent": "      title={De la Partitura al Rendimiento: Generación Eficiente de Canciones Largas Controlables por Humanos con Notación Simbólica a Nivel de Compás}, "
-      },
-      {
-        "row": 4,
-        "rowsha": "Xgr8ieqlB7Koe9Mg9Ux8yQLnXLBZtkSTjlwnE8IhSW0=",
-        "originContent": "      author={Tongxi Wang and Yang Yu and Qing Wang and Junlang Qian},",
-        "translatedContent": "      author={Tongxi Wang and Yang Yu and Qing Wang and Junlang Qian},"
-      },
-      {
-        "row": 5,
-        "rowsha": "1cuvfM9h03loQfZOlvsx9juVCvU41kevaYb2CnD9Gak=",
-        "originContent": "      year={2025},",
-        "translatedContent": "      year={2025},"
-      },
-      {
-        "row": 6,
-        "rowsha": "joerzHkLx44Ph9B1IAg4VdM9AvOD2BuafJOpwC7QFp8=",
-        "originContent": "      eprint={2508.01394},",
-        "translatedContent": "      eprint={2508.01394},"
-      },
-      {
-        "row": 7,
-        "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
-        "originContent": "      archivePrefix={arXiv},",
-        "translatedContent": "      archivePrefix={arXiv},"
-      },
-      {
-        "row": 8,
-        "rowsha": "m5Iy3DplRulR5bVmlDQZ97AqdNG51jZ3+1ncDbQ7ryc=",
-        "originContent": "      primaryClass={cs.SD},",
-        "translatedContent": "      primaryClass={cs.SD},"
-      },
-      {
-        "row": 9,
-        "rowsha": "zo5I1Y4zk4F29oQ5cX8E9YI+S4/wzrCE270Tfavx0NM=",
-        "originContent": "      url={https://arxiv.org/abs/2508.01394}, ",
-        "translatedContent": "      url={https://arxiv.org/abs/2508.01394}, "
-      },
-      {
-        "row": 10,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

@@ -81,7 +81,7 @@
 
 ### 1. 前提条件（HACS）
 
-你必须已经安装了 [HACS](https://hacs.xyz/)。请安装以下**前端**集成：
+您必须安装 [HACS](https://hacs.xyz/)。请安装以下**前端**集成：
 
 * `week-planner-card`
 * `bubble-card`
@@ -89,97 +89,100 @@
 * `card-mod`
 * `better-moment-card`
 * `weather-card`
-* `browser_mod`（弹窗功能所必需）
-* `layout-card`（Sections 视图所必需）
-* `button-card`（添加事件弹窗所必需）
+* `browser_mod`（弹窗功能所需）
+* `layout-card`（Sections视图所需）
+* `button-card`（添加事件弹窗所需）
 
-### 2. 后端（核心逻辑）
+*注意：在“设置”→“设备与服务”中，确保 Browser Mod 作为集成（磁贴）出现，而不仅仅是在 HACS 下。
+如果没有出现，请点击“添加集成”→“Browser Mod”，完成流程后重启 HA。
+通过 HACS 安装只会下载文件；您必须添加集成，以便 HA 注册其操作/实体。
 
-1. 在 Home Assistant 中打开你的 `configuration.yaml` 文件。
-2. 确保你在 `homeassistant:` 下添加了以下行以启用 packages：
+### 2. 后端（核心部分）
+
+1. 在 Home Assistant 中打开您的 `configuration.yaml` 文件。
+2. 确保在 `homeassistant:` 下添加此行以启用包功能：
 
    ```yaml
    homeassistant:
      packages: !include_dir_named packages
    ```
-3. 在你的 HA 配置目录中创建一个名为 `packages` 的文件夹（如果你还没有的话）。  
-4. 从此仓库下载 [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml)。  
-5. 将该文件放入你的 `packages/` 文件夹中。  
-6. **重启 Home Assistant**。  
+3. 在你的 HA 配置目录下创建一个名为 `packages` 的文件夹（如果还没有的话）。
+4. 从本仓库下载 [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml)。
+5. 搜索字符串 [ #<--- UPDATE THIS ENTITY] 并将日历实体ID更新为与你环境相符的ID。详见第3节。
+6. 将该文件放入你的 `packages/` 文件夹中。
+7. **重启 Home Assistant**。
 
-### 3. 日历  
+### 3. 日历
 
-你可以使用 **Google 日历** 或 **本地日历**。  
+你可以使用 **Google 日历** 或 **本地日历**。
 
-#### 选项 A：本地日历（最简单）  
-
-注意：由于我只使用 Google 日历，此方法未经测试。  
-
-1. 进入 **设置 > 设备与服务**。  
-2. 添加 **本地日历** 集成。  
-3. 创建名为以下名称的日历：`Alice`、`Bob`、`Charlie`、`Daisy`、`Family`。  
-    * *如果你使用这些名称，代码即可开箱即用！*  
-
-#### 选项 B：Google 日历  
-
-1. 打开 `packages/family_calendar.yaml`。  
-2. 滚动到 `add_google_calendar_event` 脚本部分。  
-3. 更新 `calendar_map`，指向你真实的 Google 实体：
+#### 选项A：复用日历名称（最简单）
 
 
-    ```yaml
-    calendar_map:
-      "Alice": "calendar.alice_gmail_com"
-      "Bob": "calendar.bob_work_account"
-    ```
+1. 进入 **设置 > 设备与服务**。
+2. 添加 **本地日历** 集成。
+3. 创建名称完全如下的日历：`calendar1`、`calendar2`、`calendar3`、`calendar4`、`Family`。
+    * *如果你使用这些名称，代码即可直接运行！*
+
+#### 选项B：自定义日历
+
+1. 进入 **设置 > 设备与服务**。
+2. 添加 **本地日历** 集成或 **Google 日历** 集成。
+3. 导航到 **配置 > 集成 > 本地日历** 或 **Google 日历** 并选择“添加条目”
+4. 每创建一个条目，都获取实体ID用于更新 dashboard.yaml 文件。
+5. 打开 `dashboard.yaml`。
+6. 搜索 `# <--- UPDATE THIS ENTITY`。
+7. 更新与你环境相符的实体ID。
+
 
 #### 设置节假日
 
-自从 Home Assistant 更新后，节假日现在通过 UI 添加：
+自 Home Assistant 更新后，节假日现在通过UI添加：
 
-1. 进入 **设置 > 设备与服务 > 添加集成 > 节假日**。
+1. 进入 **设置 > 设备与服务 > 添加集成 > Holiday**。
 2. 选择你的国家。
-3. 检查实体 ID（例如，`calendar.holidays`）。如果与默认不同，请在仪表盘 YAML 中更新。
+3. 检查实体ID（例如 `calendar.holidays`）。如果与默认不同，请在dashboard YAML中更新。
 
-### 4. 仪表盘（外观）
+### 4. 看板（外观）
 
-1. 创建一个新的仪表盘视图（将视图类型设置为 **Sections**）。
-2. 复制 [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml) 中的代码。
-3. **自定义：**
-   * **搜索并替换：** 将 `person.alice` 替换为你实际的家庭成员实体。
-   * **天气：** 将 `weather.home` 替换为你的天气提供者。
-   * **背景：** 更新 yaml 底部的图片 URL。
 
-### 第 5 步：主题（可选）
+1. 进入 **设置 > 仪表盘**
+2. 点击 **添加仪表盘**（选择“从头开始新建仪表盘”，确保选择“添加到侧边栏”）。
+3. 在左侧菜单中，选择新创建的仪表盘并点击铅笔图标进行编辑。
+5. 选择三个点的图标，然后选择“原始配置编辑器”。
+6. 复制并粘贴来自 [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml) 的代码。
 
-要获得特定的字体外观（Ovo）：
+### 步骤5：主题（可选）
 
-1. 确保你的 `configuration.yaml` 在 `frontend:` 下有这一行。
+如需获得特定字体效果（Ovo）：
+
+1. 确保你的 `configuration.yaml` 文件在 `frontend:` 下包含以下内容：
 
    ```yaml
    frontend:
      themes: !include_dir_merge_named themes
    ```
-2. 在您的配置目录中创建一个名为 `themes` 的文件夹。  
-3. 下载 [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) 并将其放入该文件夹。  
-4. 重启 Home Assistant。  
-5. 进入您的个人资料（左下角用户图标），将 **Theme** 更改为 `Skylight`。  
-注意：该主题不全面，请注意这一点。  
+2. 在你的配置目录下创建一个名为 `themes` 的文件夹。
+3. 下载 [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) 并将其放入该文件夹。
+4. 使用文件编辑器将 calbackgrd.png 上传到 /www/ 文件夹，在仪表盘中会自动映射为 /local。
+5. 重启 Home Assistant。
+6. 进入你的个人资料（左下角用户图标），将 **主题** 更改为 `Skylight`。
+注意：该主题并不全面，请注意这一点。
 
----  
+---
 
-## 📐 工作原理（幕后）  
+## 📐 工作原理（底层机制）
 
-### 过滤逻辑  
+### 筛选逻辑
 
-`week-planner-card` 本身不支持动态隐藏特定日历。为了解决这个问题，我使用了作为正则表达式过滤器的 **输入文本**。  
+`week-planner-card` 本身不支持动态隐藏特定日历。为了解决这个问题，我使用了充当正则过滤器的 **Input Texts**。
 
-* 当您点击某个人的按钮时，会在 `.*`（显示所有）和 `^$`（不显示任何内容）之间切换其过滤器。  
-* `config-template-card` 将这些变量动态注入日历卡片中。  
+* 当你点击某个人的按钮时，它会在 `.*`（显示全部）与 `^$`（全部隐藏）之间切换过滤器。
+* `config-template-card` 会动态地将这些变量注入到日历卡片中。
 
-### 事件创建脚本  
+### 事件创建脚本
 
-“添加事件”弹窗使用一个脚本，处理多个人员和事件类型（全天与定时）的逻辑。  
+“添加事件”弹窗使用了一个脚本，能够处理多人的多种事件类型（全天 vs 定时）。
 
 
 ```yaml
@@ -205,6 +208,6 @@ choose:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-08
 
 ---

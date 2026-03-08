@@ -79,9 +79,9 @@ Home Assistant로 DIY 방식을 선택하면 Skylight/Hearth 디스플레이를 
 
 
 
-### 1. 사전 요구 사항 (HACS)
+### 1. 필수 조건 (HACS)
 
-[HACS](https://hacs.xyz/)가 반드시 설치되어 있어야 합니다. 다음 **프론트엔드** 통합을 설치하세요:
+[HACS](https://hacs.xyz/)가 설치되어 있어야 합니다. 다음 **Frontend** 통합을 설치해 주세요:
 
 * `week-planner-card`
 * `bubble-card`
@@ -89,97 +89,100 @@ Home Assistant로 DIY 방식을 선택하면 Skylight/Hearth 디스플레이를 
 * `card-mod`
 * `better-moment-card`
 * `weather-card`
-* `browser_mod` (팝업 기능을 위해 필수)
-* `layout-card` (섹션 뷰를 위해 필수)
-* `button-card` (이벤트 추가 팝업을 위해 필수)
+* `browser_mod` (팝업이 동작하려면 필수)
+* `layout-card` (Sections 뷰에 필수)
+* `button-card` (이벤트 추가 팝업에 필수)
 
-### 2. 백엔드 (브레인 역할)
+*참고: 설정 → 장치 및 서비스에서 Browser Mod가 통합(타일)로 나타나는지 확인하세요. HACS에만 나타나면 안 됩니다.
+없다면 통합 추가 → Browser Mod를 클릭하고 과정을 완료한 후 HA를 재시작하세요.
+HACS로 설치하면 파일만 다운로드됩니다; 통합을 추가해야 HA가 동작/엔터티를 등록합니다.
 
-1. Home Assistant에서 `configuration.yaml` 파일을 여세요.
-2. 패키지 활성화를 위해 `homeassistant:` 아래에 다음 줄이 추가되어 있는지 확인하세요:
+### 2. 백엔드 (두뇌)
+
+1. Home Assistant에서 `configuration.yaml` 파일을 엽니다.
+2. 패키지를 활성화하려면 `homeassistant:` 아래에 이 줄이 추가되어 있는지 확인하세요:
 
    ```yaml
    homeassistant:
      packages: !include_dir_named packages
    ```
-3. HA 구성 디렉토리에 `packages`라는 폴더를 만드세요(없는 경우).
-4. 이 저장소에서 [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml)를 다운로드하세요.
-5. 파일을 `packages/` 폴더 안에 넣으세요.
-6. **Home Assistant를 재시작하세요**.
+3. HA 구성 디렉터리에 `packages`라는 폴더를 만드세요 (만약 없다면 생성).
+4. 이 저장소에서 [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) 파일을 다운로드하세요.
+5. [ #<--- UPDATE THIS ENTITY] 문자열을 검색한 후, 캘린더 엔터티 ID를 자신의 환경에 맞게 수정하세요. 자세한 내용은 3번 섹션을 참조하세요.
+6. 해당 파일을 `packages/` 폴더 안에 넣으세요.
+7. **Home Assistant를 재시작하세요**.
 
-### 3. 캘린더들
+### 3. 캘린더
 
 **Google 캘린더** 또는 **로컬 캘린더**를 사용할 수 있습니다.
 
-#### 옵션 A: 로컬 캘린더 (가장 쉬움)
+#### 옵션 A: 캘린더 이름 재사용 (가장 쉬움)
 
-참고: 저는 Google 캘린더만 사용하기 때문에 테스트되지 않았습니다.
 
-1. **설정 > 기기 및 서비스**로 이동하세요.
+1. **설정 > 장치 및 서비스**로 이동하세요.
 2. **로컬 캘린더** 통합을 추가하세요.
-3. 정확히 `Alice`, `Bob`, `Charlie`, `Daisy`, `Family`라는 이름의 캘린더를 만드세요.
-    * *이 이름들을 사용하면, 코드가 바로 작동합니다!*
+3. 정확히 다음과 같이 캘린더를 생성하세요: `calendar1`, `calendar2`, `calendar3`, `calendar4`, `Family`.
+    * *이 이름을 사용하면, 코드는 바로 작동합니다!*
 
-#### 옵션 B: Google 캘린더
+#### 옵션 B: 사용자 지정 캘린더
 
-1. `packages/family_calendar.yaml`을 여세요.
-2. `add_google_calendar_event` 스크립트로 스크롤하세요.
-3. `calendar_map`을 실제 Google 엔티티에 맞게 업데이트하세요:
+1. **설정 > 장치 및 서비스**로 이동하세요.
+2. **로컬 캘린더** 또는 **Google 캘린더** 통합을 추가하세요.
+3. **설정 > 통합 > 로컬 캘린더** 또는 **Google 캘린더**로 이동 후 "항목 추가"를 선택하세요.
+4. 각 항목을 만들 때, dashboard.yaml 파일을 업데이트할 엔터티 ID를 확인하세요.
+5. `dashboard.yaml` 파일을 여세요.
+6. `# <--- UPDATE THIS ENTITY`를 검색하세요.
+7. 환경에 맞는 엔터티 ID로 업데이트하세요.
 
 
-    ```yaml
-    calendar_map:
-      "Alice": "calendar.alice_gmail_com"
-      "Bob": "calendar.bob_work_account"
-    ```
-#### 휴일 설정
+#### 공휴일 설정
 
-Home Assistant 업데이트 이후로 휴일은 이제 UI를 통해 추가됩니다:
+Home Assistant 업데이트로 인해, 이제 공휴일은 UI를 통해 추가합니다:
 
-1. **설정 > 장치 및 서비스 > 통합 추가 > 휴일**로 이동합니다.
-2. 국가를 선택합니다.
-3. 엔티티 ID(예: `calendar.holidays`)를 확인합니다. 기본값과 다르면 대시보드 YAML에서 업데이트하세요.
+1. **설정 > 장치 및 서비스 > 통합 추가 > 공휴일**로 이동하세요.
+2. 국가를 선택하세요.
+3. 엔터티 ID(예: `calendar.holidays`)를 확인하세요. 기본값과 다르면, 대시보드 YAML에서 업데이트하세요.
 
-### 4. 대시보드 (모양)
+### 4. 대시보드 (디자인)
 
-1. 새 대시보드 뷰를 만듭니다 (뷰 유형을 **섹션**으로 설정).
-2. [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml)에서 코드를 복사합니다.
-3. **사용자 정의:**
-   * **검색 및 바꾸기:** `person.alice`를 실제 가족 구성원 엔티티로 교체하세요.
-   * **날씨:** `weather.home`을 본인의 날씨 제공자로 교체하세요.
-   * **배경:** yaml 하단의 이미지 URL을 업데이트하세요.
+
+1. **설정 > 대시보드**로 이동합니다.
+2. **대시보드 추가**를 클릭합니다 ("새 대시보드 직접 만들기" 옵션을 선택하고 "사이드바에 추가"를 꼭 선택하세요).
+3. 왼쪽 메뉴에서 새로 생성한 대시보드를 선택하고 연필 아이콘을 클릭해 편집합니다.
+5. 점 3개 아이콘을 선택한 후 "원시 구성 에디터"를 선택합니다.
+6. [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml)에서 코드를 복사해 붙여넣습니다.
 
 ### 5단계: 테마 (선택 사항)
 
-특정 폰트 스타일(Ovo)을 적용하려면:
+특정 폰트(Ovo) 스타일을 적용하려면:
 
 1. `configuration.yaml`의 `frontend:` 아래에 다음 줄이 있는지 확인하세요.
-
 
    ```yaml
    frontend:
      themes: !include_dir_merge_named themes
    ```
-2. 구성 디렉터리에 `themes`라는 폴더를 만드세요.  
-3. [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml)을 다운로드하여 해당 폴더에 넣으세요.  
-4. Home Assistant를 재시작하세요.  
-5. 프로필(왼쪽 하단 사용자 아이콘)로 가서 **Theme**을 `Skylight`로 변경하세요.  
-참고: 이 테마는 완전하지 않으니 이 점을 유의하세요.  
+2. 설정 디렉토리에 `themes`라는 폴더를 만듭니다.
+3. [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml)을 다운로드하여 해당 폴더에 넣습니다.
+4. 파일 에디터를 사용하여 calbackgrd.png 파일을 /www/ 폴더에 업로드합니다. 이는 대시보드에서 내부적으로 /local로 변환됩니다.
+5. Home Assistant를 재시작합니다.
+6. 프로필(왼쪽 하단 사용자 아이콘)로 이동하여 **Theme**을 `Skylight`로 변경합니다.
+참고: 테마가 완전하지 않으니 유념하세요.
 
 ---
 
-## 📐 작동 원리 (내부 동작)
+## 📐 작동 방식 (내부 구조)
 
 ### 필터 로직
 
-`week-planner-card`는 특정 캘린더를 실시간으로 숨기는 기능을 기본적으로 지원하지 않습니다. 이를 해결하기 위해 저는 정규식 필터 역할을 하는 **Input Texts**를 사용했습니다.  
+`week-planner-card`는 특정 캘린더를 즉시 숨기는 기능을 기본적으로 지원하지 않습니다. 이를 해결하기 위해 **Input Texts**를 Regex 필터처럼 사용했습니다.
 
-* 사람 버튼을 클릭하면 필터가 `.*` (모두 표시)와 `^$` (아무것도 표시 안 함) 사이를 토글합니다.  
-* `config-template-card`가 이 변수들을 캘린더 카드에 동적으로 주입합니다.  
+* 사람 버튼을 클릭하면 필터가 `.*`(모든 것 표시)와 `^$`(아무것도 표시하지 않음) 사이에서 토글됩니다.
+* `config-template-card`가 이 변수들을 동적으로 캘린더 카드에 주입합니다.
 
 ### 이벤트 생성 스크립트
 
-"이벤트 추가" 팝업은 여러 사람과 이벤트 유형(종일 vs 시간 지정)을 처리하는 단일 스크립트를 사용합니다.
+"이벤트 추가" 팝업은 여러 사람과 이벤트 유형(종일 vs 시간 지정)에 대한 로직을 처리하는 단일 스크립트를 사용합니다.
 
 
 ```yaml
@@ -205,6 +208,6 @@ choose:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-08
 
 ---

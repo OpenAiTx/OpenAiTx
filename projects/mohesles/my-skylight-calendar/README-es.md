@@ -79,7 +79,7 @@ El hardware que usé originalmente lo elegí basado en lo mencionado arriba, ade
 
 
 
-### 1. Prerrequisitos (HACS)
+### 1. Requisitos previos (HACS)
 
 Debes tener [HACS](https://hacs.xyz/) instalado. Por favor, instala las siguientes integraciones de **Frontend**:
 
@@ -89,14 +89,18 @@ Debes tener [HACS](https://hacs.xyz/) instalado. Por favor, instala las siguient
 * `card-mod`
 * `better-moment-card`
 * `weather-card`
-* `browser_mod` (Requerido para que funcionen las ventanas emergentes)
+* `browser_mod` (Requerido para que funcionen los popups)
 * `layout-card` (Requerido para la vista de Secciones)
-* `button-card` (Requerido para la ventana emergente de añadir evento)
+* `button-card` (Requerido para el popup de añadir evento)
+
+*Nota: En Configuración → Dispositivos y Servicios, asegúrate de que Browser Mod aparece como una Integración (azulejo) y no solo bajo HACS.
+Si no está allí, haz clic en Añadir Integración → Browser Mod y completa el flujo, luego reinicia HA.
+Instalar a través de HACS solo descarga archivos; debes añadir la integración para que HA registre sus acciones/entidades.
 
 ### 2. El Backend (El Cerebro)
 
 1. Abre tu archivo `configuration.yaml` en Home Assistant.
-2. Asegúrate de agregar esta línea bajo `homeassistant:` para habilitar paquetes:
+2. Asegúrate de tener esta línea añadida bajo `homeassistant:` para habilitar paquetes:
 
    ```yaml
    homeassistant:
@@ -104,55 +108,53 @@ Debes tener [HACS](https://hacs.xyz/) instalado. Por favor, instala las siguient
    ```
 3. Crea una carpeta llamada `packages` en tu directorio de configuración de HA (si no tienes una).
 4. Descarga [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) de este repositorio.
-5. Coloca el archivo dentro de tu carpeta `packages/`.
-6. **Reinicia Home Assistant**.
+5. Busca la cadena [ #<--- UPDATE THIS ENTITY] y actualiza el ID de la entidad del calendario para que coincida con tu entorno. Consulta la sección 3 para más detalles.
+6. Coloca el archivo dentro de tu carpeta `packages/`.
+7. **Reinicia Home Assistant**.
 
 ### 3. Los Calendarios
 
-Puedes usar **Calendarios de Google** o **Calendarios Locales**.
+Puedes usar **Google Calendars** o **Local Calendars**.
 
-#### Opción A: Calendario Local (Más fácil)
-
-Ten en cuenta que esto no ha sido probado ya que uso exclusivamente Calendarios de Google
-
-1. Ve a **Configuración > Dispositivos y Servicios**.
-2. Añade la integración **Calendario Local**.
-3. Crea calendarios con los nombres exactos: `Alice`, `Bob`, `Charlie`, `Daisy`, `Family`.
-    * *¡Si usas estos nombres, el código funciona directamente!*
-
-#### Opción B: Calendario de Google
-
-1. Abre `packages/family_calendar.yaml`.
-2. Desplázate hasta el script `add_google_calendar_event`.
-3. Actualiza el `calendar_map` para que apunte a tus entidades reales de Google:
+#### Opción A: Reutilizar Nombres de Calendario (Más Fácil)
 
 
-    ```yaml
-    calendar_map:
-      "Alice": "calendar.alice_gmail_com"
-      "Bob": "calendar.bob_work_account"
-    ```
+1. Ve a **Ajustes > Dispositivos y Servicios**.
+2. Añade la integración **Local Calendar**.
+3. Crea calendarios llamados exactamente: `calendar1`, `calendar2`, `calendar3`, `calendar4`, `Family`.
+    * *Si usas estos nombres, ¡el código funciona de inmediato!*
+
+#### Opción B: Calendario Personalizado
+
+1. Ve a **Ajustes > Dispositivos y Servicios**.
+2. Añade la integración **Local Calendar** o **Google Calendar**.
+3. Navega a **Configuración > Integraciones > Local Calendar** o **Google Calendar** y selecciona "Agregar Entrada"
+4. Para cada entrada creada, obtén el ID de la entidad para actualizar el archivo dashboard.yaml.
+5. Abre `dashboard.yaml`.
+6. Busca `# <--- UPDATE THIS ENTITY`.
+7. Actualiza el ID de la entidad para que coincida con tu entorno.
+
 
 #### Configuración de Días Festivos
 
-Desde las actualizaciones de Home Assistant, los Días Festivos ahora se agregan vía la interfaz gráfica:
+Desde las actualizaciones de Home Assistant, los días festivos ahora se agregan desde la interfaz:
 
-1. Ve a **Configuración > Dispositivos y Servicios > Añadir Integración > Día Festivo**.
+1. Ve a **Ajustes > Dispositivos y Servicios > Añadir Integración > Holiday**.
 2. Selecciona tu país.
-3. Verifica el ID de la entidad (por ejemplo, `calendar.holidays`). Si es diferente al predeterminado, actualízalo en el YAML del panel.
+3. Verifica el ID de la entidad (por ejemplo, `calendar.holidays`). Si difiere del predeterminado, actualízalo en el YAML del dashboard.
 
-### 4. El Panel (La Apariencia)
+### 4. El Tablero (El Aspecto)
 
-1. Crea una nueva Vista del Panel (Configura el Tipo de Vista a **Secciones**).
-2. Copia el código desde [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml).
-3. **Personaliza:**
-   * **Buscar y Reemplazar:** Sustituye `person.alice` por las entidades reales de los miembros de tu familia.
-   * **Clima:** Cambia `weather.home` por tu proveedor de clima.
-   * **Fondo:** Actualiza la URL de la imagen en la parte inferior del yaml.
 
-### Paso 5: El Tema (Opcional)
+1. Ve a **Configuración > Panel de control**
+2. Haz clic en **Agregar panel de control** (Selecciona la opción "Nuevo panel de control desde cero" y asegúrate de seleccionar "Agregar a la barra lateral").
+3. En el menú de la izquierda, selecciona el panel de control recién creado y haz clic en el ícono de lápiz para editarlo.
+5. Selecciona el ícono de 3 puntos y elige "Editor de configuración en bruto".
+6. Copia y pega el código desde [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml).
 
-Para obtener la fuente específica (Ovo):
+### Paso 5: El tema (Opcional)
+
+Para obtener el aspecto específico de la fuente (Ovo):
 
 1. Asegúrate de que tu `configuration.yaml` tenga esta línea bajo `frontend:`
 
@@ -160,26 +162,27 @@ Para obtener la fuente específica (Ovo):
    frontend:
      themes: !include_dir_merge_named themes
    ```
-2. Crea una carpeta llamada `themes` en tu directorio de configuración.  
-3. Descarga [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) y colócalo en esa carpeta.  
-4. Reinicia Home Assistant.  
-5. Ve a tu Perfil (Icono de Usuario en la parte inferior izquierda) y cambia el **Tema** a `Skylight`.  
-NOTA: El tema no es completo, tenlo en cuenta  
+2. Crea una carpeta llamada `themes` en tu directorio de configuración.
+3. Descarga [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) y colócala en esa carpeta.
+4. Usa el Editor de Archivos y sube calbackgrd.png a la carpeta /www/, lo que se traduce internamente a /local en el panel.
+5. Reinicia Home Assistant.
+6. Ve a tu Perfil (Icono de usuario abajo a la izquierda) y cambia el **Tema** a `Skylight`.
+NOTA: El tema no es integral, así que tenlo en cuenta.
 
----  
+---
 
-## 📐 Cómo Funciona (Bajo el Capó)  
+## 📐 Cómo Funciona (Por Dentro)
 
-### Lógica del Filtro  
+### Lógica de Filtro
 
-La `week-planner-card` no soporta nativamente ocultar calendarios específicos al vuelo. Para resolver esto, usé **Input Texts** que actúan como filtros Regex.  
+La `week-planner-card` no admite de forma nativa ocultar calendarios específicos en tiempo real. Para solucionar esto, usé **Input Texts** que actúan como filtros Regex.
 
-* Cuando haces clic en el botón de una persona, alterna su filtro entre `.*` (Mostrar todo) y `^$` (No mostrar nada).  
-* `config-template-card` inyecta estas variables en la tarjeta del calendario dinámicamente.  
+* Cuando haces clic en el botón de una persona, alterna su filtro entre `.*` (Mostrar todo) y `^$` (No mostrar nada).
+* `config-template-card` inyecta estas variables en la tarjeta de calendario dinámicamente.
 
-### Script de Creación de Eventos  
+### Script de Creación de Evento
 
-El popup "Agregar Evento" usa un único script que maneja la lógica para múltiples personas y tipos de evento (Todo el día vs Con horario).
+La ventana emergente "Agregar Evento" utiliza un único script que maneja la lógica para múltiples personas y tipos de eventos (Todo el día vs con horario).
 
 
 ```yaml
@@ -205,6 +208,6 @@ Hablando de la pantalla, originalmente sugerí esa porque estaba en oferta en Wo
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-08
 
 ---
