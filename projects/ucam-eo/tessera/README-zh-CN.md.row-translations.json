@@ -1,0 +1,3764 @@
+[
+  {
+    "row": 1,
+    "rowsha": "noT8yvX0fUwTA7MVjLAta2cghEzz5lp7HWvmzjGXynU=",
+    "originContent": "# Temporal Embeddings of Surface Spectra for Earth Representation and Analysis (TESSERA) [CVPR2026]",
+    "translatedContent": "# 地表光谱的时间嵌入用于地球表示与分析（TESSERA）[CVPR2026]"
+  },
+  {
+    "row": 2,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 3,
+    "rowsha": "yrJHKInBzlErln3XZeGb78A82coABbCT1QL/uVGmA3I=",
+    "originContent": "    <a href=\"#readme-top\">",
+    "translatedContent": "    <a href=\"#readme-top\">"
+  },
+  {
+    "row": 4,
+    "rowsha": "4/1WOYA2+VPvWGIyN+gfMggmj0nOQEpvwaOJsegQA0w=",
+    "originContent": "        <img src=\"https://raw.githubusercontent.com/ucam-eo/tessera/alpha_version_1.0/images/banner.png\" alt=\"Banner\">",
+    "translatedContent": "        <img src=\"https://raw.githubusercontent.com/ucam-eo/tessera/alpha_version_1.0/images/banner.png\" alt=\"Banner\">"
+  },
+  {
+    "row": 5,
+    "rowsha": "r52QjIbZf1aIcwCydWRFx1LDX4Vc0bsXMVxnkEUrqHA=",
+    "originContent": "    </a>",
+    "translatedContent": "    </a>"
+  },
+  {
+    "row": 6,
+    "rowsha": "ZPFbJx3yZvqJBY25tkCz/ZttBXrSB5jvuTEtiQ0mcn0=",
+    "originContent": "    <br />",
+    "translatedContent": "    <br />"
+  },
+  {
+    "row": 7,
+    "rowsha": "9NXEf3zy2HDXN00OVcZwMKk/fnudkzZKkxrML/bUL2g=",
+    "originContent": "    <p align=\"center\">",
+    "translatedContent": "    <p align=\"center\">"
+  },
+  {
+    "row": 8,
+    "rowsha": "nTAAMG6xXn9MjlQ6gv5USaF7F4LrYDo6q+sAl9G+tfw=",
+    "originContent": "        <a href=\"https://github.com/FrankFeng-23/btfm_project/issues\">Report Bugs 🛠️</a> &nbsp;&nbsp;•&nbsp;&nbsp;",
+    "translatedContent": "        <a href=\"https://github.com/FrankFeng-23/btfm_project/issues\">报告错误 🛠️</a> &nbsp;&nbsp;•&nbsp;&nbsp;"
+  },
+  {
+    "row": 9,
+    "rowsha": "+r8JWCFtOuWf42voP8S9vESyIsZcAQUxy7jTKy2UQM8=",
+    "originContent": "        <a href=\"https://github.com/FrankFeng-23/btfm_project/issues\">Request Features 💡</a>",
+    "translatedContent": "        <a href=\"https://github.com/FrankFeng-23/btfm_project/issues\">请求功能 💡</a>"
+  },
+  {
+    "row": 10,
+    "rowsha": "/rQRZ9mibGieY1t6hGL4zjA7A6WcR06n++W3pFg56Ko=",
+    "originContent": "    </p>",
+    "translatedContent": "    </p>"
+  },
+  {
+    "row": 11,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "mpyS/v9ERLVw5qlIbAZVg8FjBmMUCjOpC6scem5OG3E=",
+    "originContent": "<!--  ![Version](https://img.shields.io/badge/version-alpha-red) -->",
+    "translatedContent": "<!--  ![Version](https://img.shields.io/badge/version-alpha-red) -->"
+  },
+  {
+    "row": 14,
+    "rowsha": "2gi/4BGpLhweiRqbohF2HlaOD9buH4sBZWkf64gOjjU=",
+    "originContent": "![PyPI version](https://img.shields.io/pypi/v/geotessera?label=PyPI%20version&color=blue)",
+    "translatedContent": "![PyPI version](https://img.shields.io/pypi/v/geotessera?label=PyPI%20version&color=blue)"
+  },
+  {
+    "row": 15,
+    "rowsha": "KqJ71RDhTI1h5aj3o6Xl+X+t6RFOAWK16PTg2pSPXd0=",
+    "originContent": "![License](https://img.shields.io/badge/License-MIT-blue.svg)",
+    "translatedContent": "![License](https://img.shields.io/badge/License-MIT-blue.svg)"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "bxwmLYcZ0DrQrJzLTcdrnOpAYjAMDHNig0ZIqxp3YAU=",
+    "originContent": "# Table of Contents",
+    "translatedContent": "# 目录"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "Ox6XYCjA3RGvCgBqQTe8TeIKpNimwuekkPBn0XqrZTA=",
+    "originContent": "  - Learning about TESSERA",
+    "translatedContent": "  - 了解 TESSERA"
+  },
+  {
+    "row": 21,
+    "rowsha": "112BhKznDWueIFBJLDO6cGZmLVAyLi49EBfhrjXcFzo=",
+    "originContent": "      - [Introduction](#introduction)",
+    "translatedContent": "      - [介绍](#introduction)"
+  },
+  {
+    "row": 22,
+    "rowsha": "ApH8vMR4lPMKPzHUtDsQ2MY9MEtau0Qxe1Zonnr/Dx4=",
+    "originContent": "      - [Papers](#Papers)",
+    "translatedContent": "      - [论文](#Papers)"
+  },
+  {
+    "row": 23,
+    "rowsha": "63moA8Q9IoBZvSOKgt4YPVwMbwomgpoSR2XX7W6X4A0=",
+    "originContent": "      - [Podcast](https://www.satellite-image-deep-learning.com/p/tessera-a-temporal-foundation-model)",
+    "translatedContent": "      - [播客](https://www.satellite-image-deep-learning.com/p/tessera-a-temporal-foundation-model)"
+  },
+  {
+    "row": 24,
+    "rowsha": "qEWhoFBAd1MiE3uFV+ly4bENww3mnzHLlCJepuoDoaI=",
+    "originContent": "      - [Presentations](#presentations)",
+    "translatedContent": "      - [演示](#presentations)"
+  },
+  {
+    "row": 25,
+    "rowsha": "DMD+Yr+pgQPVmy7jBZP9nATxZ5CDn26EdfR1JvM6CbM=",
+    "originContent": "      - [License](#License)",
+    "translatedContent": "      - [许可证](#License)"
+  },
+  {
+    "row": 26,
+    "rowsha": "SkTWQPN6FBjhpitTS2cYg9yEsurEnI5SyY9ic8NDMZk=",
+    "originContent": "  - Using TESSERA",
+    "translatedContent": "  - 使用 TESSERA"
+  },
+  {
+    "row": 27,
+    "rowsha": "W5Vq62UKMkBKsiZd0Ry2Lk0BC8ChLDf9tyR9aiJ+M04=",
+    "originContent": "      - [Acceptable Use Policy](#AUP)",
+    "translatedContent": "      - [可接受使用政策](#AUP)"
+  },
+  {
+    "row": 28,
+    "rowsha": "3ruJGoBQFLXnyPSejUhDvWDp3OZeM4WJqIGTR7YGhNo=",
+    "originContent": "      - [Accessing Precomputed Embeddings](#global-embeddings-access)",
+    "translatedContent": "      - [访问预计算嵌入](#global-embeddings-access)"
+  },
+  {
+    "row": 29,
+    "rowsha": "Cmu8YGAR/1dRCJM8pSkt36wBW2LtjuKyL5ydm1jAjuA=",
+    "originContent": "      - [Creating Your Own Embeddings](#creating-your-own-embeddings)",
+    "translatedContent": "      - [创建您自己的嵌入](#creating-your-own-embeddings)"
+  },
+  {
+    "row": 30,
+    "rowsha": "dwZbRZq6wfl0iMJ1KgNb8HeFy31Aoi9kB4cMAEXC+AI=",
+    "originContent": "      - [Downstream Tasks](#downstream-tasks)",
+    "translatedContent": "      - [下游任务](#downstream-tasks)"
+  },
+  {
+    "row": 31,
+    "rowsha": "6DKiWlug/ZCZb9kvECrvZbLNeJyjE7rFZ4WDb7GwcAY=",
+    "originContent": "      - [TESSERA Users Group](#tessera-users-group)",
+    "translatedContent": "      - [TESSERA 用户组](#tessera-users-group)"
+  },
+  {
+    "row": 32,
+    "rowsha": "8uFIsL8a6h92JCJsqxdI8sxIjnRx54PlsnhlbzhjPxI=",
+    "originContent": "  - Additional information",
+    "translatedContent": "  - 额外信息"
+  },
+  {
+    "row": 33,
+    "rowsha": "sAlsn3I7dknYJzxLBqLGOoY749ZZV8y8oahE5NKlbeE=",
+    "originContent": "      - [Team](#team)",
+    "translatedContent": "      - [团队](#team)"
+  },
+  {
+    "row": 34,
+    "rowsha": "L8DrZpI3zJDZ1E1ZV0wVUceU397l7oNHuvCmJoo9kcA=",
+    "originContent": "      - [Contact](#contact)",
+    "translatedContent": "      - [联系方式](#contact)"
+  },
+  {
+    "row": 35,
+    "rowsha": "v/KoWk0iR9BbrL+m0pC4bNOa27HIW/dapHjGdIzw8T8=",
+    "originContent": "      - [Citation](#citation)",
+    "translatedContent": "      - [引用](#citation)"
+  },
+  {
+    "row": 36,
+    "rowsha": "0EAKtg4krZYy+8mGpoBln0zJwkNWxqmCOukKNFNHSNk=",
+    "originContent": "      - [Acknowledgments](#acknowledgments)",
+    "translatedContent": "      - [致谢](#acknowledgments)"
+  },
+  {
+    "row": 37,
+    "rowsha": "PjorJ/xNQT1P9ny3dB7Xz7qL67cRoWoXuH7SjL98xqQ=",
+    "originContent": "      - [Star History](#star-history)",
+    "translatedContent": "      - [星标历史](#star-history)"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "1Bandcb1ziWwtXOcydK7EZ2AF8PoaP1Ebujf1KgF9VE=",
+    "originContent": "# Learning about TESSERA",
+    "translatedContent": "# 了解 TESSERA"
+  },
+  {
+    "row": 40,
+    "rowsha": "11PvuraB+k2oJHDZqDscIC3lj5L9SY53omnBFjvEcUs=",
+    "originContent": "## Introduction",
+    "translatedContent": "## 介绍"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "卫星遥感支持广泛的下游应用，包括栖息地映射、碳核算以及保护和可持续土地利用策略。然而，卫星时间序列数据庞大且常受云层干扰，使用起来具有挑战性：科学界提取可操作见解的能力往往受限于标注训练数据集的稀缺性以及处理时序数据的计算负担。我们工作的关键见解，来源于 [Dr. Clement Atzberger](https://www.linkedin.com/in/clement-atzberger-8abb8065/)，是通过使用 [Barlow Twins](https://proceedings.mlr.press/v139/zbontar21a/zbontar21a.pdf) 强制对齐来自卫星时间序列两个无云随机样本的自编码器嵌入，可以得到一个代表整个时间序列（包括缺失观测）的嵌入。"
+  },
+  {
+    "row": 42,
+    "rowsha": "amszq3hkid6YGVr+gJQSHPolmsW8tDVK7Tv+1udW1FA=",
+    "originContent": "Satellite remote sensing enables a wide range of downstream applications, including habitat mapping, carbon accounting, and strategies for conservation and sustainable land use. However, satellite time series are voluminous and often cloud-corrupted, making them challenging to use: the scientific community's ability to extract actionable insights is often constrained by the scarcity of labelled training datasets and the computational burden of processing temporal data. The key insight behind our work, due to [Dr. Clement Atzberger](https://www.linkedin.com/in/clement-atzberger-8abb8065/) is that forcing auto-encoder embeddings derived from two cloud-free random samples of satellite time series to align using [Barlow Twins](https://proceedings.mlr.press/v139/zbontar21a/zbontar21a.pdf) results in an embedding that represents the entire time series, including the missing observations.",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "这一思想是 TESSERA 的核心，TESSERA 是一个开放的基础模型，能在全球范围内以10米分辨率保存每像素的光谱-时间信号，形成128维潜在表示。它使用自监督学习来总结海量的地球观测数据。我们将其与五个多样化下游任务中的最先进任务特定模型及其他基础模型进行比较，发现 TESSERA 表现接近或优于这些基线。通过保存传统方法中通常丢失的时间物候信号，TESSERA 能够深入洞察生态系统动态、农业食品系统和环境变化检测。此外，我们的开源实现支持可重复性和可扩展性，而隐私保护设计允许研究人员保持数据主权。"
+  },
+  {
+    "row": 44,
+    "rowsha": "sqCJk9+kKwnoQU16K1X5CMaRmxpJhBGXaMFeONVGRCg=",
+    "originContent": "This idea is the key behind TESSERA, an open foundation model that preserves per-pixel spectral-temporal signals in 128-dimensional latent representations at 10-meter resolution globally. It uses self-supervised learning to summarise petabytes of Earth observation data. We compare our work with state-of-the-art task-specific models and other foundation models in five diverse downstream tasks and find that TESSERA closely matches or outperforms these baselines. By preserving temporal phenological signals that are typically lost in conventional approaches, TESSERA enables new insights into ecosystem dynamics, agricultural food systems, and environmental change detection. Moreover, our open-source implementation supports reproducibility and extensibility, while the privacy-preserving design allows researchers to maintain data sovereignty.",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "据我们所知，TESSERA 在易用性、规模和精度方面前所未有：没有其他基础模型能提供分析即用的输出，且开放、提供基于像素级光谱-时间特征的全球年度10米分辨率覆盖。"
+  },
+  {
+    "row": 46,
+    "rowsha": "6/cGCZ/gKpcbrGcY5ubq472ePgEiVfOBj2lZf2I3bao=",
+    "originContent": "To our knowledge, TESSERA is unprecedented in its ease of use, scale, and accuracy: no other foundation model provides analysis-ready outputs, is open, and provides global, annual coverage at 10m resolution using only spectral-temporal features at pixel level.",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "以下是 TESSERA 表示图的部分可视化结果（使用前三个通道作为RGB）："
+  },
+  {
+    "row": 48,
+    "rowsha": "tQE4PcEvQae05Pjci2MTLnhGCylGiuP/3UfPvwsES2U=",
+    "originContent": "Here are some visualization results of the TESSERA representation map (using the first three channels as RGB):",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![repr_demo](https://raw.githubusercontent.com/ucam-eo/tessera/alpha_version_1.0/images/repr_demo.png)"
+  },
+  {
+    "row": 50,
+    "rowsha": "b6LgU4ZhynbZ9HmRY0C2RSDU6pKIH+460xdAWu06M6E=",
+    "originContent": "![repr_demo](https://raw.githubusercontent.com/ucam-eo/tessera/alpha_version_1.0/images/repr_demo.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 论文"
+  },
+  {
+    "row": 52,
+    "rowsha": "F65gp3WFIWpE8+nq9HS0v9HosH3BKF/EW2CHNTek7vE=",
+    "originContent": "## Papers",
+    "translatedContent": "以下是与 TESSERA 相关的出版物和预印本，按时间顺序列出："
+  },
+  {
+    "row": 53,
+    "rowsha": "VAJ1lQuqVwFpoDULQNk/K+COnCKtdsYTgqousOyRXk4=",
+    "originContent": "Here are publications and preprints related to TESSERA, listed chronologically:",
+    "translatedContent": "* Lisaius, M. C., Blake, A., Keshav, S., & Atzberger, C. (2024). 使用 Barlow Twins 从受云影响的遥感时间序列创建表示。IEEE 应用地球观测与遥感精选期刊, 17, 13162–13168。IEEE 应用地球观测与遥感精选期刊。https://doi.org/10.1109/JSTARS.2024.3426044"
+  },
+  {
+    "row": 54,
+    "rowsha": "RNm0L5VkZ3+r+xULoUJ4iyXgkiXxw0NIJ6LKBymfFNE=",
+    "originContent": "* Lisaius, M. C., Blake, A., Keshav, S., & Atzberger, C. (2024). Using Barlow Twins to Create Representations From Cloud-Corrupted Remote Sensing Time Series. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 17, 13162–13168. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing. https://doi.org/10.1109/JSTARS.2024.3426044",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* Z. Feng, C. Atzberger, S. Jaffer, J. Knezevic, S. Sormunen, R. Young, M.C. Lisaius, M. Immitzer, T. Jackson, J. Ball, D.A. Coomes, A. Madhavapeddy, A. Blake, S. Keshav (2025), [TESSERA：地球表面光谱的时间嵌入表示与分析](https://arxiv.org/abs/2506.20380)，待发表，CVPR 2026。ArXiv 重印本。https://arxiv.org/abs/2506.20380"
+  },
+  {
+    "row": 56,
+    "rowsha": "2Sp5ww0MI+hnJDu3OoiZWRhr4h9vzQ14tDScFWPD6co=",
+    "originContent": "* Z. Feng, C. Atzberger, S. Jaffer, J. Knezevic, S. Sormunen, R. Young, M.C. Lisaius, M. Immitzer, T. Jackson, J. Ball, D.A. Coomes, A. Madhavapeddy, A. Blake, S. Keshav (2025), [TESSERA: Temporal Embeddings of Surface Spectra for Earth Representation and Analysis](https://arxiv.org/abs/2506.20380), To Appear, CVPR 2026. ArXiv reprint. https://arxiv.org/abs/2506.20380",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* Lisaius, M. C., Blake, A., Atzberger, C., & Keshav, S. (2026). 迈向改进的作物类型分类：适合小田块的紧凑嵌入方法。接受发表于2026年国际摄影测量与遥感学会会议论文集。国际摄影测量与遥感学会。"
+  },
+  {
+    "row": 58,
+    "rowsha": "gCz2n6PDncQid+LcqmJUDMe5HWnl7toQ3V0PwuPuLs8=",
+    "originContent": "* Lisaius, M. C., Blake, A., Atzberger, C., & Keshav, S. (2026). Towards improved crop type classification: A compact embedding approach suitable for small fields. Accepted in Proceedings of the ISPRS Conference 2026. International Society for Photogrammetry and Remote Sensing.",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* Z. Feng, C. Atzberger, S. Jaffer, J. Knezevic, S. Sormunen, R. Young, M.C. Lisaius, M. Immitzer, T. Jackson, J. Ball, D.A. Coomes, A. Madhavapeddy, A. Blake, S. Keshav, (2026) [TESSERA 地理空间基础模型在多样环境映射任务中的应用](http://ssrn.com/abstract=6142416)，SSRN 预印本。http://ssrn.com/abstract=6142416"
+  },
+  {
+    "row": 60,
+    "rowsha": "sfhp+LNAdJEQkNRKmUPoixzjcF3Js1hfYG1JHgaAJwQ=",
+    "originContent": "* Z. Feng, C. Atzberger, S. Jaffer, J. Knezevic, S. Sormunen, R. Young, M.C. Lisaius, M. Immitzer, T. Jackson, J. Ball, D.A. Coomes, A. Madhavapeddy, A. Blake, S. Keshav, (2026) [Applications of the TESSERA Geospatial Foundation Model to Diverse Environmental Mapping Tasks](http://ssrn.com/abstract=6142416), SSRN preprint. http://ssrn.com/abstract=6142416",
+    "translatedContent": "  "
+  },
+  {
+    "row": 61,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "* Young, R., & Keshav, S. (2026). 带校准不确定性量化的 GEDI 生物量估计插值，arXiv 预印本。https://doi.org/10.48550/ArXiv.2601.16834"
+  },
+  {
+    "row": 62,
+    "rowsha": "HZHzvI12khWn4rE06RpRCJiBWnQpzW/1QH6U1eZcJmE=",
+    "originContent": "* Young, R., & Keshav, S. (2026). Interpolation of GEDI Biomass Estimates with Calibrated Uncertainty Quantification, arXiv preprint. https://doi.org/10.48550/ArXiv.2601.16834",
+    "translatedContent": "  "
+  },
+  {
+    "row": 63,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "* Lisaius, M. C., Keshav, S., Blake, A., & Atzberger, C. (2026). 基于嵌入的塞内加尔花生盆地作物类型分类（arXiv:2601.16900）。ArXiv 预印本。https://doi.org/10.48550/arXiv.2601.16900"
+  },
+  {
+    "row": 64,
+    "rowsha": "SgTnDvVGyNSWPtiv4l1kSZe1FPuPsPNW8YHYVcoSo1o=",
+    "originContent": "* Lisaius, M. C., Keshav, S., Blake, A., & Atzberger, C. (2026). Embedding-based Crop Type Classification in the Groundnut Basin of Senegal (arXiv:2601.16900). ArXiv preprint. https://doi.org/10.48550/arXiv.2601.16900",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* Ball, J.G.C, Wicklein J.A. , Feng, Z.,  Knezevic, J.,  Jaffer, S., Atzberger, C.,  Dalponte, M., and Coomes, D. 地理空间基础模型实现温带山地森林中高效数据的树种映射，BioArxiv, https://doi.org/10.64898/2026.02.23.707022"
+  },
+  {
+    "row": 66,
+    "rowsha": "OqmJFXcWKfSqdIjKELR/wpKpKjrPVrRIMKwxpKW5JVk=",
+    "originContent": "* Ball, J.G.C, Wicklein J.A. , Feng, Z.,  Knezevic, J.,  Jaffer, S., Atzberger, C.,  Dalponte, M., and Coomes, D. Geospatial foundation models enable data-efficient tree species mapping in temperate montane forests, BioArxiv, https://doi.org/10.64898/2026.02.23.707022",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 演讲"
+  },
+  {
+    "row": 68,
+    "rowsha": "s+liAunsPFUImsJQi0UgSfTbBXkh3Y/06neDBu5q0wc=",
+    "originContent": "## Presentations",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* [TESSERA 在“AI for Good”研讨会中的概述](https://www.youtube.com/live/9yrpwFrwbGY)，Frank Feng，2026年1月22日"
+  },
+  {
+    "row": 70,
+    "rowsha": "ossRRbhbS5Yq+/fzTXKgTU6XSkLl7v4Vr9NdXcU0CKI=",
+    "originContent": "* [TESSERA overview in AI for Good seminar](https://www.youtube.com/live/9yrpwFrwbGY), Frank Feng, Jan 22, 2026",
+    "translatedContent": "* [TESSERA：用于地球表示与分析的预计算FAIR全球像素嵌入](https://www.grss-ieee.org/event/tessera-precomputed-fair-global-pixel-embeddings-for-earth-representation-and-analysis/) IEEE GRSS 讲座，Frank Feng，2025年12月12日"
+  },
+  {
+    "row": 71,
+    "rowsha": "QnfiUWIVgtq+Ec3esIwWkEj26NsDmkXz0LFea69TUug=",
+    "originContent": "* [TESSERA: Precomputed FAIR Global Pixel Embeddings for Earth Representation and Analysis](https://www.grss-ieee.org/event/tessera-precomputed-fair-global-pixel-embeddings-for-earth-representation-and-analysis/) IEEE GRSS Talk, Frank Feng, 12 December, 2025",
+    "translatedContent": "* [CRI快闪演讲两页总结（PPTX）](https://www.dropbox.com/scl/fi/zjo4trov0z2qnmdeitng0/CRI-2slide.pptx?rlkey=5kkojiknt6hdn2zplzlotqnbt&st=ezafh67n&dl=0)，S. Keshav，2025年10月7日"
+  },
+  {
+    "row": 72,
+    "rowsha": "P6r1Q65AKQcxfG7GtG2T1nX1orWoAAZeE1eACKJ0VyY=",
+    "originContent": "* [2-slide summary (PPTX)](https://www.dropbox.com/scl/fi/zjo4trov0z2qnmdeitng0/CRI-2slide.pptx?rlkey=5kkojiknt6hdn2zplzlotqnbt&st=ezafh67n&dl=0) for CRI Flash Talks, S. Keshav, October 7, 2025",
+    "translatedContent": "* 生态学组会议基础模型概述（PPTX），剑桥大学，DAB，James Ball，2025年10月6日"
+  },
+  {
+    "row": 73,
+    "rowsha": "BUqfDUaaI1BiUUItkmfpOErODju0U9JJfqzlABqcHHM=",
+    "originContent": "* Foundation model overview (PPTX) for Ecology Groups meeting, University of Cambridge, DAB, James Ball, October 6, 2025",
+    "translatedContent": "* [重点介绍生态应用的TESSERA概述演讲](https://www.dropbox.com/scl/fi/8xvanw3kk586lp1ld31kd/maryland_talk_slides.pdf?rlkey=osyhtk1kc2pcj81iel0u32lub&st=6kedpwv6&dl=0)（PDF）马里兰大学，Frank Feng，2025年10月1日"
+  },
+  {
+    "row": 74,
+    "rowsha": "Ncg9wpNUJ0gfD5LDmwvnXTTnMDRwLyf3qVRdyB+6hD4=",
+    "originContent": "* [TESSERA overview presentation with a focus on ecological applications](https://www.dropbox.com/scl/fi/8xvanw3kk586lp1ld31kd/maryland_talk_slides.pdf?rlkey=osyhtk1kc2pcj81iel0u32lub&st=6kedpwv6&dl=0) (PDF) University of Maryland, Frank Feng, October 1, 2025",
+    "translatedContent": "* [TESSERA概述演讲](https://www.dropbox.com/scl/fi/0rsq4wkao3c7fgwljd8ec/JCU-tesserav2.pptx?rlkey=ccutcxgwi068c09n20t1yi549&st=13if23b3&dl=0)（PPTX）詹姆斯库克大学，S. Keshav，2025年9月29日"
+  },
+  {
+    "row": 75,
+    "rowsha": "8hM7eLx9xs7zx547yhKoxzs6YtxI0X5zfCGxmIkK4cU=",
+    "originContent": "* [TESSERA overview presentation](https://www.dropbox.com/scl/fi/0rsq4wkao3c7fgwljd8ec/JCU-tesserav2.pptx?rlkey=ccutcxgwi068c09n20t1yi549&st=13if23b3&dl=0) (PPTX) James Cook University, S. Keshav, September 29, 2025",
+    "translatedContent": "* [TESSERA概述演讲](https://www.dropbox.com/scl/fi/1p7nabvlvie8fzyomkx7w/dab_talk_slides.pdf?rlkey=ym3d44o80mbrdkasyzct9kzi5&st=ozvwczs7&dl=0) 剑桥大学，DAB，Frank Feng，2025年5月20日"
+  },
+  {
+    "row": 76,
+    "rowsha": "le+AX1bXN8k3pQhbstAFpZDEb8quGsZcXMKUDgH9v8s=",
+    "originContent": "* [TESSERA overview presentation](https://www.dropbox.com/scl/fi/1p7nabvlvie8fzyomkx7w/dab_talk_slides.pdf?rlkey=ym3d44o80mbrdkasyzct9kzi5&st=ozvwczs7&dl=0) University of Cambridge, DAB, Frank Feng, May 20, 2025",
+    "translatedContent": "* [地球观测自监督学习](https://www.dropbox.com/scl/fi/zjo4trov0z2qnmdeitng0/CRI-2slide.pptx?rlkey=5kkojiknt6hdn2zplzlotqnbt&st=ezafh67n&dl=0)（PPTX）S. Keshav，埃克塞特，2025年4月"
+  },
+  {
+    "row": 77,
+    "rowsha": "Pl2JqotSl/TsiAOmcvIPMHK2wVGWBh/q9mA35rMV3/4=",
+    "originContent": "* [Self-supervised learning for earth observation](https://www.dropbox.com/scl/fi/zjo4trov0z2qnmdeitng0/CRI-2slide.pptx?rlkey=5kkojiknt6hdn2zplzlotqnbt&st=ezafh67n&dl=0) (PPTX) S. Keshav, Exeter, April 2025",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 许可协议"
+  },
+  {
+    "row": 79,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "4K8GLjOSeRW954oBw5uuygDsC14LGfMCi4ouMsit1fU=",
+    "originContent": "TESSERA software is released under the standard MIT license. Embeddings and model weights are released under the [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license: essentially, ",
+    "translatedContent": "TESSERA 软件在标准 MIT 许可证下发布。嵌入和模型权重在 [CC0](https://creativecommons.org/publicdomain/zero/1.0/) 许可证下发布：本质上，它们可以自由用于商业和非商业目的。虽然我们在法律上不要求署名，  "
+  },
+  {
+    "row": 82,
+    "rowsha": "W8zjojRTPjUAINip/bRuBybA3C1RWXNErTFDuMrAEOw=",
+    "originContent": "they can be freely used for both commercial and non-commercial purposes. Although we do not legally require attribution,",
+    "translatedContent": "但我们希望能够得到署名。"
+  },
+  {
+    "row": 83,
+    "rowsha": "oSVbFURWHTSWz6mPJCYFYLU/DRTBd8AYpX15sg9EIDM=",
+    "originContent": "we do request it.",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# 使用 TESSERA"
+  },
+  {
+    "row": 85,
+    "rowsha": "OS9D0/rg5d8ijFffkJsc/c8q8/0VLCa7bAxuu22YDCo=",
+    "originContent": "# Using TESSERA",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<a id=\"global-embeddings-access\"></a>"
+  },
+  {
+    "row": 87,
+    "rowsha": "I05fSagx7J9cIad2lHCq4lqjUdQVQeo0LGgRtPSM8KA=",
+    "originContent": "<a id=\"global-embeddings-access\"></a>",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 使用 GeoTessera 访问嵌入（推荐）"
+  },
+  {
+    "row": 89,
+    "rowsha": "MvR7RowViCRzqwEAGfqLTZVpQVodYYEaBBuSrrK8vds=",
+    "originContent": "## Accessing Embeddings using GeoTessera (recommended)",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "我们已生成了 2024 年全球 10 米分辨率的嵌入。  "
+  },
+  {
+    "row": 91,
+    "rowsha": "PDXCTLNB9n4VZqfRCYggRPwgtTAh9DBUkcCpyAFX2pQ=",
+    "originContent": "We have generated embeddings for the whole globe at 10m resolution for 2024.",
+    "translatedContent": "这些嵌入可以下载并用于下游应用，节省大量计算时间和资源，使用  "
+  },
+  {
+    "row": 92,
+    "rowsha": "cFmKqffJOLqS+spEI1DDhmpFYsRuczxzo+8nR4F14JM=",
+    "originContent": "These can be downloaded and used for downstream applications, saving significant computational time and resources, using ",
+    "translatedContent": "[GeoTessera](https://github.com/ucam-eo/geotessera) 库。  "
+  },
+  {
+    "row": 93,
+    "rowsha": "VzdgfT0aBC/982sSAF+09Y9bQKsV36EAH4b4Uq8pxqg=",
+    "originContent": "the [GeoTessera](https://github.com/ucam-eo/geotessera) library. ",
+    "translatedContent": "我们将逐年向后扩展覆盖范围，直到 2017 年。当前的覆盖地图如下："
+  },
+  {
+    "row": 94,
+    "rowsha": "4+BMV2pyh2afPgNW9lmLCvVJUWDghobfxAdLReSttXU=",
+    "originContent": "We will progressively extending coverage backwards year by year until 2017. The current coverage map is below:",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<img src=\"https://github.com/ucam-eo/tessera-coverage-map/blob/main/map.png\"> "
+  },
+  {
+    "row": 96,
+    "rowsha": "y6xRouAlq6TP0BFQNzy/Et2pWQskHFj+thZY8oKBrC0=",
+    "originContent": "<img src=\"https://github.com/ucam-eo/tessera-coverage-map/blob/main/map.png\"> ",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## TESSERA 用户组"
+  },
+  {
+    "row": 98,
+    "rowsha": "su6m8lNk6tWL5+k7qdKRh6MqS5zOIf9+mTONALQihnU=",
+    "originContent": "## TESSERA Users Group",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "有兴趣的用户欢迎加入我们的 [Zulip](https://eeg.zulipchat.com/login/) 讨论组。"
+  },
+  {
+    "row": 100,
+    "rowsha": "C0C8X3wuKEF16YhBD3FAqMnVv+P6rzyFgQu9x/TbfQw=",
+    "originContent": "Interested users are invited to join our [Zulip](https://eeg.zulipchat.com/login/) discussion groups.",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# 创建您自己的嵌入"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "oQvf4UVg1h6AgoXnpyN+oUdY04Yyv6TkhwaXI4FE24A=",
+    "originContent": "# Creating Your Own Embeddings",
+    "translatedContent": "如果您想使用我们的软件创建自己的嵌入，请按照以下说明操作。请注意，这是一项计算挑战性较大的任务，您需要访问大量计算和存储资源。"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "0C82dezZb/J/ONfceP1iVyrSwEPAph7W9OsNtmo5G8A=",
+    "originContent": "If you would like to use our software to create your own embeddings, please follow the instructions below. Note that this is a comptuationally challenging task and you will need access to significant computational and storage resources. ",
+    "translatedContent": "## 硬件要求"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "4KlSAHwlQ9Ykx27EQF08OAjgNDd/Z9suB4XDdQ1FL9g=",
+    "originContent": "## Hardware Requirements",
+    "translatedContent": "### 1. 存储要求"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "Hha/N0gRqTqpuf8sQNdjGgyzLyItRdCl5IV/ZcWJBEA=",
+    "originContent": "### 1. Storage Requirements",
+    "translatedContent": "运行该流程需要大量存储空间。尽管流程在处理后会清理一些中间文件，但下载的原始 Sentinel-2 和 Sentinel-1 文件仍会占用大量磁盘空间。例如，处理一个 100公里×100公里 区域的 2022 年数据以输出 TESSERA 表征图（10米分辨率）至少需要 1TB 存储空间。"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "N00KDYXnD/mCciviYQU0C2fOaPTN9d5rGOxmow8Fato=",
+    "originContent": "Running this pipeline requires substantial storage space. Although the pipeline cleans up some intermediate files after processing, the downloaded raw Sentinel-2 and Sentinel-1 files will still occupy considerable disk space. For example, processing a 100km×100km area from 2022 to output a TESSERA Representation map (10m resolution) requires at least 1TB of storage.",
+    "translatedContent": "### 2. 内存要求"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "iTP53ym5Zobsw7Y4Bn13R0f+2n21GBs/A/YpQuQKvxE=",
+    "originContent": "### 2. Memory Requirements",
+    "translatedContent": "我们使用预处理数据，最初来自 Microsoft Planetary Computer。但下一代嵌入将使用 ASF DAAC 的 OPERA。无论哪种情况，大部分地理预处理已完成。我们仍建议至少拥有 128GB 内存。"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "ubljw4H703SyBiKMUeYCtIapMFtXcHYAYOOKOb9M1sU=",
+    "originContent": "We use preprocessed data, initially from Microsoft Planetary Computer. However, the next generation of embeddings will use OPERA from ASF DAAC. In either case, most of the geo-preprocessing has been done. Still, we recommend having at least 128GB of RAM.",
+    "translatedContent": "### 3. CPU 和 GPU"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "vEIzWeYm4jenPQa3Dixid1N/OowAxjqAVbx1tvEvP5o=",
+    "originContent": "### 3. CPU and GPU",
+    "translatedContent": "该流程对 CPU 和 GPU 没有严格要求，但更多的 CPU 核心和更强大的 GPU 可以显著加快推断速度。在处理 2022 年 110公里×110公里 区域时，我们的测试使用了 128 核 CPU 和一块 NVIDIA A30 GPU 进行推断（CPU 和 GPU 各负责 50% 的推断），大约用了 10 小时完成。"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "tjAJBGSLQpFcNebyJpGgiRgGMZiRQtQndMtY8PWUjGc=",
+    "originContent": "The pipeline has no strict requirements for CPU and GPU, but more CPU cores and more powerful GPUs can significantly speed up inference. When processing a 110km×110km area from 2022, our tests using a 128-core CPU and a single NVIDIA A30 GPU for inference (CPU and GPU each handling 50% of the inference) took approximately 10 hours to complete.",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "02Bl7PWZBJ7hWuWQ3VEu61JMJ33VouolzsZSclwQbpY=",
+    "originContent": "### 4. Operating System",
+    "translatedContent": "### 4. 操作系统"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "Qm42wbdQXNVOzmu/3d01rB6HqDOWSH9wamtNaKTnz5M=",
+    "originContent": "For the data preprocessing pipeline, we support almost all Linux systems. For Windows, we recommend using WSL. We do not support MacOS at this point.",
+    "translatedContent": "对于数据预处理流程，我们支持几乎所有的 Linux 系统。对于 Windows，我们推荐使用 WSL。目前不支持 MacOS。"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "+3IB0rUQGIsBxFUeHmGEAlU6xo0RpN47EoaPFAPHlVs=",
+    "originContent": "For the model inference part, we have only tested it on Linux and Windows WSL, and they are working.",
+    "translatedContent": "对于模型推理部分，我们仅在 Linux 和 Windows WSL 上进行了测试，且运行正常。"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "JoBHhzNCWQr9VDUDisT6w7lwb2tvnpVT5cFSmIedRbw=",
+    "originContent": "## Data Preprocessing",
+    "translatedContent": "## 数据预处理"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "uq5weyF69sxwFzRI7q6/Lp6CMoTAqnC0Oop0ltUs3LY=",
+    "originContent": "### Overview",
+    "translatedContent": "### 概述"
+  },
+  {
+    "row": 130,
+    "rowsha": "deQWstSaMBgAZrvosamXCnfk3v+QXXFjre/BFy0PzlM=",
+    "originContent": "_**We strongly recommend that you quickly review the entire tutorial before running the pipeline.**_",
+    "translatedContent": "_**强烈建议您在运行流程前快速浏览整个教程。**_"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "32JPeZ+eA3Z2gkSiJ94zD+VJ7q4Uupx6jpFE6OeFq8o=",
+    "originContent": "In this step, we stack a full year of Sentinel-1 and Sentinel-2 data along the time dimension to generate a composite. For Sentinel-2, the composite shape is (T,H,W,B), where T is the number of valid observations in that year, and B is the number of bands (we selected 10 bands). For Sentinel-1, we extracted both ascending and descending orbit data. Taking the ascending orbit as an example, the composite shape is (T',H,W,B'), where T' is the number of valid ascending observations in that year, and B' is 2 because we only obtain VV and VH bands.",
+    "translatedContent": "在此步骤中，我们沿时间维度堆叠整整一年的 Sentinel-1 和 Sentinel-2 数据以生成合成影像。对于 Sentinel-2，合成影像的形状为 (T,H,W,B)，其中 T 是该年有效观测次数，B 是波段数量（我们选取了 10 个波段）。对于 Sentinel-1，我们提取了升轨和降轨数据。以升轨为例，合成影像的形状为 (T',H,W,B')，其中 T' 是该年有效升轨观测次数，B' 为 2，因为我们只获取 VV 和 VH 波段。"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "c8aH5BOcL7pnhnq7xEaTQQOCIjPR5cyQyyQw8A7Gd48=",
+    "originContent": "We initially sourced Sentinel-1 and Sentinel-2 data from Microsoft's Planetary Computer:",
+    "translatedContent": "我们最初的数据来源是微软的 Planetary Computer："
+  },
+  {
+    "row": 135,
+    "rowsha": "0be0hq7GGz/1RFJy6WUJ+01uHSYIjlnb7vfHJ2vlO20=",
+    "originContent": "- Sentinel-1 data source: https://planetarycomputer.microsoft.com/dataset/sentinel-1-rtc",
+    "translatedContent": "- Sentinel-1 数据源：https://planetarycomputer.microsoft.com/dataset/sentinel-1-rtc"
+  },
+  {
+    "row": 136,
+    "rowsha": "RF0U2z8UzdYlqhig+8rn7zE5HV8QNURUYbl1QTPcqEE=",
+    "originContent": "- Sentinel-2 data source: https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a",
+    "translatedContent": "- Sentinel-2 数据源：https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "RONwJRoYldTFwAdCj3BZH+Nm5PoCuBMayegCftY1FvE=",
+    "originContent": "The new generation of embeddings will use OPERA from ASF DAAC: ",
+    "translatedContent": "新一代的嵌入将使用 ASF DAAC 的 OPERA："
+  },
+  {
+    "row": 139,
+    "rowsha": "Py7/ogqgxjh6uSOtDN8jNMwuV6TQ9VTPsqRaQI2dbO8=",
+    "originContent": "- Sentinel-1 data source:  https://registry.opendata.aws/nasa-operal2rtc-s1v1/ ",
+    "translatedContent": "- Sentinel-1 数据源：https://registry.opendata.aws/nasa-operal2rtc-s1v1/"
+  },
+  {
+    "row": 140,
+    "rowsha": "ZP82I31XXM6JGCC57HoPgHyhXxLdmW2JkgAa8HzbFUM=",
+    "originContent": "- Sentinel-2 data source: https://registry.opendata.aws/sentinel-2-l2a-cogs/",
+    "translatedContent": "- Sentinel-2 数据源：https://registry.opendata.aws/sentinel-2-l2a-cogs/"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "biOfl2uTHLpZUmbgIX/oO8kEvtfSvcyfapkHmm3JAzU=",
+    "originContent": "Currently, our pipeline only accepts TIFF format input. The resolution of the input ROI TIFF can vary (e.g., 30m), but the pipeline will **always generate Sentinel-1 and Sentinel-2 outputs at the configured `RESOLUTION`** (default 10m) while keeping the **ROI extent/bounds identical**. For valid ROI areas within the TIFF, the value is 1; otherwise, it's 0. If you only have a shapefile, that's fine too - we provide a `convert_shp_to_tiff.py` script.",
+    "translatedContent": "目前，我们的流程仅接受 TIFF 格式输入。输入 ROI TIFF 的分辨率可以变化（例如 30m），但流程将**始终以配置的 `RESOLUTION`（默认 10m）生成 Sentinel-1 和 Sentinel-2 输出**，同时保持**ROI 范围/边界不变**。TIFF 中有效的 ROI 区域值为 1，否则为 0。如果您只有 shapefile，也没问题——我们提供了 `convert_shp_to_tiff.py` 脚本。"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "H6+p1oYC3lhRnQZT5qm3byNkEx7c5d7UGC7v/UXEDCA=",
+    "originContent": "### Download Source Code",
+    "translatedContent": "### 下载源码"
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "vvZFIkNJTDjR+7KeP+wNNKNJ/SkjGhJGeMYjJggRazk=",
+    "originContent": "First, create an empty working directory:",
+    "translatedContent": "首先，创建一个空的工作目录："
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 149,
+    "rowsha": "Gt6AwbeTgRY+mqDiXpoHs03z2EboY1c7DRBAeACpsKQ=",
+    "originContent": "mkdir tessera_project",
+    "translatedContent": "mkdir tessera_project"
+  },
+  {
+    "row": 150,
+    "rowsha": "ijHiAeQTTdqE9Jl6r2StiHnbbadNOyNExZEInmPq/vU=",
+    "originContent": "cd tessera_project",
+    "translatedContent": "cd tessera_project"
+  },
+  {
+    "row": 151,
+    "rowsha": "b9+urVkNG+0zOHn22mDhMWP5MrnNKoOpsBWKbTZLL1Y=",
+    "originContent": "git clone https://github.com/ucam-eo/tessera.git",
+    "translatedContent": "git clone https://github.com/ucam-eo/tessera.git"
+  },
+  {
+    "row": 152,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "为了简化流水线操作，建议将数据输出目录放置在与 `tessera_infer` 和 `tessera_preprocessing` 同一级别的位置："
+  },
+  {
+    "row": 154,
+    "rowsha": "0JUnyODFF2y93ShihFQO3V/ULT/V8/AmG06ulrzgYQ8=",
+    "originContent": "For easier pipeline operation, we recommend placing the data output directory at the same level as `tessera_infer` and `tessera_preprocessing`:",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 157,
+    "rowsha": "UBCyJrkdU75xqOwdejw0pqMPdgGUKKWJXXvhy5a4fPc=",
+    "originContent": "tessera_project",
+    "translatedContent": "tessera_project"
+  },
+  {
+    "row": 158,
+    "rowsha": "57E0jDhwg9TIKqszfklIUEdtl4v2UGQL8taBJl8a3X4=",
+    "originContent": " ┣ tessera_infer",
+    "translatedContent": " ┣ tessera_infer"
+  },
+  {
+    "row": 159,
+    "rowsha": "dBEKMiKGsQ+5wXuTbDMxBnU15PF6ce+6EUVz8/ZUpsQ=",
+    "originContent": " ┣ tessera_preprocessing",
+    "translatedContent": " ┣ tessera_preprocessing"
+  },
+  {
+    "row": 160,
+    "rowsha": "bgWzyEW8gAGDEyf36NuZjuNSnDqz0/HLHZ5OnWsL2AY=",
+    "originContent": " ┣ my_data",
+    "translatedContent": " ┣ my_data"
+  },
+  {
+    "row": 161,
+    "rowsha": "wHqL2bDkcOUSab7nX6WYDx58iaist8Q8em90zNUH54M=",
+    "originContent": "   ┣ roi.shp (your shapefile)",
+    "translatedContent": "   ┣ roi.shp (your shapefile)"
+  },
+  {
+    "row": 162,
+    "rowsha": "q8pCGCLjTNw9ChhdJuTx/KA+PkYkU6izDeV0j5kXCHI=",
+    "originContent": "   ┗ roi.tiff (we recommend generating this using convert_shp_to_tiff.py)",
+    "translatedContent": "   ┗ roi.tiff (we recommend generating this using convert_shp_to_tiff.py)"
+  },
+  {
+    "row": 163,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "O5yF6+Nblk2VGKBKOZV/nHItKQPPf3Alzxj5TVXxINQ=",
+    "originContent": "The `roi.tiff` can be generated using `convert_shp_to_tiff.py` located in `tessera_preprocessing/convert_shp_to_tiff.py`. To use it, simply specify the path to your shapefile in the main function, and it will output a TIFF with the same name in the same directory.",
+    "translatedContent": "`roi.tiff` 可以使用位于 `tessera_preprocessing/convert_shp_to_tiff.py` 的 `convert_shp_to_tiff.py` 生成。使用时，只需在主函数中指定您的 shapefile 路径，它会在同一目录下输出同名的 TIFF 文件。"
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "XkXFBSWvwGv3PJW1sL2ce0NlR97WwiyW5lGAGWTm/5Y=",
+    "originContent": "⚠️Notice: _If your ROI is relatively large, for example 100 km × 100 km, we strongly recommend pre-splitting the TIFF into smaller sections no larger than 20 km × 20 km. Then process each small TIFF file sequentially in the pipeline. An excessively large ROI may cause issues with backend tile providers_",
+    "translatedContent": "⚠️注意：_如果您的 ROI 较大，例如 100 公里 × 100 公里，我们强烈建议先将 TIFF 预分割成不大于 20 公里 × 20 公里的小块。然后在流水线中依次处理每个小的 TIFF 文件。过大的 ROI 可能会导致后端切片服务出现问题_"
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "QpAMN8VtXFeG0c4homLJxpnbm6zmcLEG8Rgkyi0cQfw=",
+    "originContent": "### Python Environment",
+    "translatedContent": "### Python 环境"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "X5cqUbb5idEtuszuljvIGKKZGnsHZE0LdL1Vz8PWekw=",
+    "originContent": "We need some geographic processing packages (fortunately, we won't be using GDAL, as configuring the environment is a nightmare) and some machine learning packages (PyTorch, but you'll need to install this yourself since the hardware on each computer is different). We've put some common packages in `requirements.txt`, which you can install as follows:",
+    "translatedContent": "我们需要一些地理处理包（幸运的是，我们不使用 GDAL，因为配置环境非常麻烦）和一些机器学习包（PyTorch，但您需要自己安装，因为每台计算机的硬件不同）。我们将一些常用包列在了 `requirements.txt`，您可以按如下方式安装："
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 174,
+    "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+    "originContent": "pip install -r requirements.txt",
+    "translatedContent": "pip install -r requirements.txt"
+  },
+  {
+    "row": 175,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 176,
+    "rowsha": "FTWeECdaAReE7WJjo5BWGdUbHcW1X0Goimyk8+IT8LE=",
+    "originContent": "Note: If you are in a managed environment, you may need to install a venv first, using ",
+    "translatedContent": "注意：如果您处于受管理的环境中，您可能需要先安装一个虚拟环境（venv），使用 "
+  },
+  {
+    "row": 177,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 178,
+    "rowsha": "CuvEvK6f660r3vNcRR9LkpT27GysR3SdD/uU6GxLNCs=",
+    "originContent": "python3 -m venv venv",
+    "translatedContent": "python3 -m venv venv"
+  },
+  {
+    "row": 179,
+    "rowsha": "Grul2uxnILzdPgH94tJsdPQfFgWQ441J3GlyUGVDvs4=",
+    "originContent": "source venv/bin/activate",
+    "translatedContent": "source venv/bin/activate"
+  },
+  {
+    "row": 180,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 181,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 182,
+    "rowsha": "QpyqYFC+Mjwkvm6B9eHm7ofqWdve9nruk31+gQWa/2U=",
+    "originContent": "### Script Configuration",
+    "translatedContent": "### 脚本配置"
+  },
+  {
+    "row": 183,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 184,
+    "rowsha": "9HcT5bBZXtPiVlxwSRsXlKQ1nzYfVMwfDjGPrzeY39Y=",
+    "originContent": "First, navigate to the `tessera_preprocessing` folder:",
+    "translatedContent": "首先，导航到 `tessera_preprocessing` 文件夹："
+  },
+  {
+    "row": 185,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 187,
+    "rowsha": "OdlK67pDqkguf9CInVPDBg66zB+dMJiFdF6WhzpRPAc=",
+    "originContent": "cd tessera_preprocessing",
+    "translatedContent": "cd tessera_preprocessing"
+  },
+  {
+    "row": 188,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 189,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 190,
+    "rowsha": "ZIdp9GrhnlQ94POWyFZncJsOs4tw8zFDfYPFehm4paM=",
+    "originContent": "Then edit the file s1_s2_downloader.sh to point to the ROI TIFF file, the output and temporary directories, and the data source:",
+    "translatedContent": "然后编辑文件 s1_s2_downloader.sh，指向 ROI TIFF 文件、输出和临时目录，以及数据源："
+  },
+  {
+    "row": 191,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 192,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 193,
+    "rowsha": "uk6I8Yg6POaK3+m2pznB8r89DzSehEJ3qPOtH6Y3Q8M=",
+    "originContent": "# === Basic Configuration ===",
+    "translatedContent": "# === Basic Configuration ==="
+  },
+  {
+    "row": 194,
+    "rowsha": "WI8pcc0qKOl10jrU9duu34IMPwf8jAHvK0E3Lm0xqf0=",
+    "originContent": "INPUT_TIFF=\"/absolute/path/to/your/data_dir/roi.tiff\"",
+    "translatedContent": "INPUT_TIFF=\"/absolute/path/to/your/data_dir/roi.tiff\""
+  },
+  {
+    "row": 195,
+    "rowsha": "gYfH4XgMM0qG8cMddIGB02opPicMPnn5aR/OOq+vF7U=",
+    "originContent": "OUT_DIR=\"/absolute/path/to/your/data_dir\"",
+    "translatedContent": "OUT_DIR=\"/absolute/path/to/your/data_dir\""
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 197,
+    "rowsha": "8uiX3nq5sYcdyGArpOElGq1ZK2YuhLFtGTKhSKCKxp0=",
+    "originContent": "export TEMP_DIR=\"/absolute/path/to/your/temp_dir\"     # Temporary file directory",
+    "translatedContent": "export TEMP_DIR=\"/absolute/path/to/your/temp_dir\"     # Temporary file directory"
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "BY8mcLgFduawNS6nDvMGz2FNJR4roJZRIAPi63Us8EU=",
+    "originContent": "mkdir -p \"$OUT_DIR\"",
+    "translatedContent": "mkdir -p \"$OUT_DIR\""
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "MovPoOSZ78kiNh/qdd/HbhRbatDPK1zcWxo4h0YlYkQ=",
+    "originContent": "# Python environment path",
+    "translatedContent": "# Python environment path"
+  },
+  {
+    "row": 202,
+    "rowsha": "y+PiW8rO2WkCNXMCIdGYB0rnSWOgtA398oV2xphQMG8=",
+    "originContent": "PYTHON_ENV=\"/absolute/path/to/your/python_env/bin/python\"",
+    "translatedContent": "PYTHON_ENV=\"/absolute/path/to/your/python_env/bin/python\""
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "b0I7M5lm7Ai+BiOLKJslHhhhRpZ1CH53z1/nPyAU36k=",
+    "originContent": "# === Sentinel-1 & Sentinel-2 Processing Configuration ===",
+    "translatedContent": "# === Sentinel-1 & Sentinel-2 Processing Configuration ==="
+  },
+  {
+    "row": 205,
+    "rowsha": "OhXnz/p2s/UUxft+H2+ZjfHt6GfhYqBHlBaYHqUjkRw=",
+    "originContent": "YEAR=2022 # Range [2017-2025]",
+    "translatedContent": "YEAR=2022 # Range [2017-2025]"
+  },
+  {
+    "row": 206,
+    "rowsha": "sU+1DINpq8qXSHtRFf1cgFRot9fQSRNK01ufHZEGq4o=",
+    "originContent": "RESOLUTION=10.0  # Output resolution (meters). ROI TIFF can be any resolution; extent is preserved.",
+    "translatedContent": "RESOLUTION=10.0  # Output resolution (meters). ROI TIFF can be any resolution; extent is preserved."
+  },
+  {
+    "row": 207,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 208,
+    "rowsha": "9bHIpgtn9U6cHVvNBbOUsJN0xR+Zqp3t2/bQMVtlbOM=",
+    "originContent": "# === Data Source Configuration ===",
+    "translatedContent": "# === Data Source Configuration ==="
+  },
+  {
+    "row": 209,
+    "rowsha": "XdqjTfSMVtlct9viteRZgIrr6l+zDPgsRE0eQCDBYcs=",
+    "originContent": "# mpc: Microsoft Planetary Computer (sentinel-1-rtc, sentinel-2-l2a)",
+    "translatedContent": "# mpc: Microsoft Planetary Computer (sentinel-1-rtc, sentinel-2-l2a)"
+  },
+  {
+    "row": 210,
+    "rowsha": "qxh8tquX58Rv4gqg6tjkr6sfc+ULIlpGQYq9WsgB9tE=",
+    "originContent": "# aws: AWS Open Data backends (S1=OPERA RTC-S1 via ASF/CMR + ASF Earthdata Cloud COGs, S2=Earth-search Sentinel-2 L2A COGs)",
+    "translatedContent": "# aws: AWS Open Data backends (S1=OPERA RTC-S1 via ASF/CMR + ASF Earthdata Cloud COGs, S2=Earth-search Sentinel-2 L2A COGs)"
+  },
+  {
+    "row": 211,
+    "rowsha": "dkEMrRC5NFDQwsU3wf3T4ZxPbFDajENUU1KSJP8rB5g=",
+    "originContent": "DATA_SOURCE=\"mpc\"   # choices: mpc/aws",
+    "translatedContent": "DATA_SOURCE=\"mpc\"   # choices: mpc/aws"
+  },
+  {
+    "row": 212,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 213,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 214,
+    "rowsha": "hhmuhSoKBceQJCcb5tzaxhf7kNQJC8h7/Jpx5xIxCdo=",
+    "originContent": "Note: `RESOLUTION` controls output pixel size. The pipeline keeps the ROI bounds fixed and resamples the ROI mask into the output grid.",
+    "translatedContent": "注意：`RESOLUTION` 控制输出像素大小。管道保持 ROI 边界固定，并将 ROI 掩码重新采样到输出网格。"
+  },
+  {
+    "row": 215,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "RqCfVrQsFjsLtsdsNt1hgZIR7hRsBQ6f30sWida6zTs=",
+    "originContent": "### AWS Credentials (only needed when `DATA_SOURCE=\"aws\"`)",
+    "translatedContent": "### AWS 凭证（仅当 `DATA_SOURCE=\"aws\"` 时需要）"
+  },
+  {
+    "row": 217,
+    "rowsha": "kq2qWC29UTLSVfS6Cp2Xm8AldpomogIEQI5RFM0q398=",
+    "originContent": "Sentinel-2 on Earth-search is public and **does not require credentials**.",
+    "translatedContent": "Earth-search 上的 Sentinel-2 是公开的，**不需要凭证**。"
+  },
+  {
+    "row": 218,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 219,
+    "rowsha": "kq2WG1r/IYXId5X6/k2GvoWt7C9zLGeh0jPoR3TrwJI=",
+    "originContent": "Sentinel-1 OPERA RTC-S1 is accessed via ASF Earthdata Cloud (COG over HTTPS). You need an Earthdata Login token:",
+    "translatedContent": "Sentinel-1 OPERA RTC-S1 通过 ASF Earthdata Cloud 访问（通过 HTTPS 的 COG）。您需要 Earthdata 登录令牌："
+  },
+  {
+    "row": 220,
+    "rowsha": "DWrEkpgxzxQ8ohgAOrzs+hCUNdHO1lJKDFQCmGV0Vng=",
+    "originContent": "- **Create an Earthdata account**: via [NASA Earthdata Login](https://urs.earthdata.nasa.gov/home).",
+    "translatedContent": "- **创建 Earthdata 账户**：通过 [NASA Earthdata 登录](https://urs.earthdata.nasa.gov/home)。"
+  },
+  {
+    "row": 221,
+    "rowsha": "+yOGCRQi39iQo33NiBzYMpEcLjNd8w/n72ysFARH2cI=",
+    "originContent": "- **Approve Application**: After registering your account, you can go to the Applications tab and add Alaska Satellite Facility Data Access to the list of approved applications.",
+    "translatedContent": "- **批准应用程序**：注册账户后，您可以进入“应用程序”标签页，将 Alaska Satellite Facility Data Access 添加到已批准应用程序列表中。"
+  },
+  {
+    "row": 222,
+    "rowsha": "zxbrpFgPFMBLtiD7j6glg3zHc/ofpMEio35GaTLJEwc=",
+    "originContent": "- **Obtain an EDL Bearer token / JWT** by clicking **Generate Token** and store it locally (do not commit it).",
+    "translatedContent": "- **通过点击“生成令牌”获取 EDL Bearer 令牌 / JWT**，并将其本地保存（不要提交）。"
+  },
+  {
+    "row": 223,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 224,
+    "rowsha": "khJ59hcD3qA8arl8IPf7fo2pRYBigduBBTyupNF0mig=",
+    "originContent": "Recommended (simple + explicit):",
+    "translatedContent": "推荐（简单且明确）："
+  },
+  {
+    "row": 225,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 226,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 227,
+    "rowsha": "tJYZhd4ePlVIrDOEyTO7L4B1FIiF2/6mxE9lXO4ypNM=",
+    "originContent": "nano ~/.edl_bearer_token",
+    "translatedContent": "nano ~/.edl_bearer_token"
+  },
+  {
+    "row": 228,
+    "rowsha": "e9/IFu2/SJCOO/9cGtrwqqB+DP1Jmcnn0gqwjQa2krk=",
+    "originContent": "# paste token, save+exit (Ctrl-O Enter, then Ctrl-X)",
+    "translatedContent": "# paste token, save+exit (Ctrl-O Enter, then Ctrl-X)"
+  },
+  {
+    "row": 229,
+    "rowsha": "w42OkPz2JvWs9jFt35cocVt9p8rzTPvXUd+zwFbg7oE=",
+    "originContent": "chmod 600 ~/.edl_bearer_token",
+    "translatedContent": "chmod 600 ~/.edl_bearer_token"
+  },
+  {
+    "row": 230,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 231,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 232,
+    "rowsha": "5hDZJJdDusDok5gy9TjVBdPQX8kvq6HO/+uBBqFFLHQ=",
+    "originContent": "The AWS S1 downloader will use this token to read COGs from ASF Earthdata Cloud.",
+    "translatedContent": "AWS S1 下载器将使用此令牌从 ASF Earthdata Cloud 读取 COG。"
+  },
+  {
+    "row": 233,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 234,
+    "rowsha": "6BLNyeVWRqC1iH6wY7/iZXTfUoXUwBuj0STdhta6NrI=",
+    "originContent": "If you want to retrieve temporary S3 credentials (advanced; usually not required for this pipeline), see ASF guidance:",
+    "translatedContent": "如果您想获取临时 S3 凭证（高级操作；通常此管道不需要），请参阅 ASF 指南："
+  },
+  {
+    "row": 235,
+    "rowsha": "+ewavyYTNAe0IZKtWYgv9icHzuLaGx48JgN6RYoNmxo=",
+    "originContent": "- `https://cumulus.asf.alaska.edu/s3credentialsREADME`",
+    "translatedContent": "- `https://cumulus.asf.alaska.edu/s3credentialsREADME`"
+  },
+  {
+    "row": 236,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 237,
+    "rowsha": "Hh5OM7NLD5TGyZQUshm0gf9Bn9+fSHmcU1gaHl+ZkdY=",
+    "originContent": "Below the above configuration, there are some additional configurations that you can modify according to your computer's performance.",
+    "translatedContent": "在上述配置下方，有一些额外配置，您可以根据计算机性能进行修改。"
+  },
+  {
+    "row": 238,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 239,
+    "rowsha": "bI94FjXeyZBepSsLFqdamuzZRjUHErZ1A+0muYH/o2I=",
+    "originContent": "First, give permission to `s1_s2_downloader.sh`:",
+    "translatedContent": "首先，给予 `s1_s2_downloader.sh` 权限："
+  },
+  {
+    "row": 240,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 241,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 242,
+    "rowsha": "UcMSBo1Suj3iFVC0qbxIWtDGfcKQ2Kihuy8eyOsI2nY=",
+    "originContent": "chmod +x s1_s2_downloader.sh",
+    "translatedContent": "chmod +x s1_s2_downloader.sh"
+  },
+  {
+    "row": 243,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 244,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "然后，我们可以运行："
+  },
+  {
+    "row": 245,
+    "rowsha": "nqvigpeilFxjhB2d5boDMtTz0NWOEfpRefQykOR1U50=",
+    "originContent": "Then, we can run:",
+    "translatedContent": ""
+  },
+  {
+    "row": 246,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 247,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 248,
+    "rowsha": "l0YVKsnV9dbzy0WU7Nha90QjfrjIUbYSZM6gkCBb8xg=",
+    "originContent": "bash s1_s2_downloader.sh",
+    "translatedContent": "bash s1_s2_downloader.sh"
+  },
+  {
+    "row": 249,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 250,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "由于网络状况，处理某些图块可能会超时。我们的脚本包含复杂的超时管理以避免这些问题。但是，有时某些图块仍可能失败。通常再次运行上述命令可以解决此问题。"
+  },
+  {
+    "row": 251,
+    "rowsha": "NcaSZ/spspApjHWRS2xQIjXe57X4cjqNsdbyeksE0tI=",
+    "originContent": "Due to network conditions, processing some tiles may time out. Our script includes sophisticated timeout management to avoid these issues. However, sometimes some tiles may still fail. Running the above command again usually resolves this.",
+    "translatedContent": ""
+  },
+  {
+    "row": 252,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如果所有 Sentinel-1 和 Sentinel-2 数据都正确生成，它们可以沿时间维度堆叠。对于这一步，我们使用两个由 Rust 生成的可执行文件，使其非常快速。你可以打开 `s1_s2_stacker.sh` 并编辑以下内容："
+  },
+  {
+    "row": 253,
+    "rowsha": "c13VEWzCvwh0ozcYa9rCMBhpz+5QtDZ8xjphyqML3w4=",
+    "originContent": "If all Sentinel-1 and Sentinel-2 data are generated correctly, they can be stacked along the time dimension. For this step, we use two Rust-generated executables, making it very fast. You can open `s1_s2_stacker.sh` and edit the following:",
+    "translatedContent": ""
+  },
+  {
+    "row": 254,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 255,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 256,
+    "rowsha": "uk6I8Yg6POaK3+m2pznB8r89DzSehEJ3qPOtH6Y3Q8M=",
+    "originContent": "# === Basic Configuration ===",
+    "translatedContent": "# === Basic Configuration ==="
+  },
+  {
+    "row": 257,
+    "rowsha": "sHu04FSmLUsGlmJ7nmSmqVAw3jmq3V7m2oEwdPLTy5M=",
+    "originContent": "BASE_DIR=\"/absolute/path/to/your/data_dir\"",
+    "translatedContent": "BASE_DIR=\"/absolute/path/to/your/data_dir\""
+  },
+  {
+    "row": 258,
+    "rowsha": "dL2TTYeOZKXz9JWTtvurNa+l/I0LtC1N2mbhbgwEkJM=",
+    "originContent": "OUT_DIR=\"${BASE_DIR}/data_processed\"",
+    "translatedContent": "OUT_DIR=\"${BASE_DIR}/data_processed\""
+  },
+  {
+    "row": 259,
+    "rowsha": "MOxeNSBRYH03j2C6XYH36KxVL06mNlrNDm2xX5xGC/M=",
+    "originContent": "DOWNSAMPLE_RATE=1",
+    "translatedContent": "DOWNSAMPLE_RATE=1"
+  },
+  {
+    "row": 260,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 261,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 262,
+    "rowsha": "Q79YG+t+ReieQ3vIGaSUWSCIkdFHEYiPvfYYQWNjSRY=",
+    "originContent": "Normally, we don't modify `DOWNSAMPLE_RATE`, which keeps it from performing any downsampling during stacking. The `BASE_DIR` in the above snippet is the same as the `OUT_DIR` you modified in `s1_s2_downloader.sh`.",
+    "translatedContent": "通常情况下，我们不会修改 `DOWNSAMPLE_RATE`，这使得它在堆叠过程中不会执行任何下采样。上述代码片段中的 `BASE_DIR` 与您在 `s1_s2_downloader.sh` 中修改的 `OUT_DIR` 是相同的。"
+  },
+  {
+    "row": 263,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 264,
+    "rowsha": "q9InrSB5Z7oGJqZCqvjPcRcU98B9odFSm/pAMMXdWmA=",
+    "originContent": "Similarly, give permission to `s1_s2_stacker.sh`:",
+    "translatedContent": "同样，给予 `s1_s2_stacker.sh` 权限："
+  },
+  {
+    "row": 265,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 266,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 267,
+    "rowsha": "sTgV1833yTOJd3jA3jPsu7oN5k5nYce4rp2ctRPj9pw=",
+    "originContent": "chmod +x s1_s2_stacker.sh",
+    "translatedContent": "chmod +x s1_s2_stacker.sh"
+  },
+  {
+    "row": 268,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 269,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 270,
+    "rowsha": "siV9td8qdtVZi63BMeyT3X6btfAby3uvrFI8BzaTfSQ=",
+    "originContent": "Then you can execute the stacking:",
+    "translatedContent": "然后您可以执行堆叠操作："
+  },
+  {
+    "row": 271,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 272,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 273,
+    "rowsha": "uyL6GSciHwGG291S4F346GBqpzeHFR2T782bKGV9KDE=",
+    "originContent": "bash s1_s2_stacker.sh",
+    "translatedContent": "bash s1_s2_stacker.sh"
+  },
+  {
+    "row": 274,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 275,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "成功后，您将在 `/absolute/path/to/your/data_dir/data_processed` 中获得一些 `.npy` 文件。通常，这些 `.npy` 文件相当大，因此我们将把它们切分成更小、更易管理的单元。"
+  },
+  {
+    "row": 276,
+    "rowsha": "A7hysxib2JN44l+RetNZ9Kc21WXbnZxp5VVP+F7iooY=",
+    "originContent": "After success, you will get some `.npy` files in `/absolute/path/to/your/data_dir/data_processed`. Usually, these `.npy` files are quite large, so we will patchify them into smaller, more manageable units.",
+    "translatedContent": ""
+  },
+  {
+    "row": 277,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "执行："
+  },
+  {
+    "row": 278,
+    "rowsha": "e3jzrvd2LjVL94KfPI92VzbNHR4RY9xEQBPIrv0NAZY=",
+    "originContent": "Execute:",
+    "translatedContent": ""
+  },
+  {
+    "row": 279,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 280,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 281,
+    "rowsha": "JNEO9rXZWYaOfQHUzcQ2iYaqmx6VTT496witWTrzgag=",
+    "originContent": "python dpixel_retiler.py \\",
+    "translatedContent": "python dpixel_retiler.py \\"
+  },
+  {
+    "row": 282,
+    "rowsha": "jeZFOitRrZKfFroWHna8l7qIQus5N6dy6SGRH8ZuYd0=",
+    "originContent": "    --tiff_path /absolute/path/to/your/data_dir/roi.tif \\",
+    "translatedContent": "    --tiff_path /absolute/path/to/your/data_dir/roi.tif \\"
+  },
+  {
+    "row": 283,
+    "rowsha": "khbKfL6Cs738IhtaJKmCYDnV7amxI1AwedNW8Xw6iPc=",
+    "originContent": "    --d_pixel_dir /absolute/path/to/your/data_dir/data_processed \\",
+    "translatedContent": "    --d_pixel_dir /absolute/path/to/your/data_dir/data_processed \\"
+  },
+  {
+    "row": 284,
+    "rowsha": "z+CeNfn5hYUzxbu4EWCFkkeApdKKaEQ31RnIKnefpMQ=",
+    "originContent": "    --patch_size 500 \\",
+    "translatedContent": "    --patch_size 500 \\"
+  },
+  {
+    "row": 285,
+    "rowsha": "DYQffgTTGD5EivYwtj26iGbm8OtsvqCuihV9l9wMRGw=",
+    "originContent": "    --out_dir /absolute/path/to/your/data_dir/retiled_d_pixel \\",
+    "translatedContent": "    --out_dir /absolute/path/to/your/data_dir/retiled_d_pixel \\"
+  },
+  {
+    "row": 286,
+    "rowsha": "8pqjSaR4je1NEe5Z5Ip3GBLEPqM7QHrdPlZK+qo0VyE=",
+    "originContent": "    --num_workers 16 \\",
+    "translatedContent": "    --num_workers 16 \\"
+  },
+  {
+    "row": 287,
+    "rowsha": "CAk6tim+CA8yj1oNUuYQsh0bJs/4SlGzaELUuEk7L+0=",
+    "originContent": "    --overwrite \\",
+    "translatedContent": "    --overwrite \\"
+  },
+  {
+    "row": 288,
+    "rowsha": "Apjkba6/HTxJC5fhirXMk/oRNYdPkfvQcQs6qHHlAKA=",
+    "originContent": "    --block_size 2000",
+    "translatedContent": "    --block_size 2000"
+  },
+  {
+    "row": 289,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 290,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 291,
+    "rowsha": "1xCkj/exktaUCHiNJ1uDNIwafYHVz+JPVQ8MJLKFAiA=",
+    "originContent": "You can change the above `patch_size` and `block_size` yourself. The above configuration is a recommended configuration for a TIFF with a shape of (5000,5000) and a 10m resolution.",
+    "translatedContent": "您可以自行更改上述的 `patch_size` 和 `block_size`。上述配置是针对形状为 (5000,5000) 且分辨率为 10m 的 TIFF 推荐的配置。"
+  },
+  {
+    "row": 292,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 293,
+    "rowsha": "a8+cbThff/7XGRwMUf9ts8jwL7/G3I3Q/R0JfcYtunY=",
+    "originContent": "If the above code runs smoothly, you can get some subfolders in `my_data/retiled_d_pixel`.",
+    "translatedContent": "如果上述代码运行顺利，您可以在 `my_data/retiled_d_pixel` 目录下看到一些子文件夹。"
+  },
+  {
+    "row": 294,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 295,
+    "rowsha": "j+d4sEsHkglrX0Tjjp/MZxDAlAAy2ZbLKDm+KPC/pIw=",
+    "originContent": "## Inference",
+    "translatedContent": "## 推理"
+  },
+  {
+    "row": 296,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 297,
+    "rowsha": "uq5weyF69sxwFzRI7q6/Lp6CMoTAqnC0Oop0ltUs3LY=",
+    "originContent": "### Overview",
+    "translatedContent": "### 概述"
+  },
+  {
+    "row": 298,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 299,
+    "rowsha": "JPrX3pJTO2M9jywf73LYF4wNIVkU1Xwwn7ui1fqBSmI=",
+    "originContent": "Once the data preprocessing is complete, we can start inference. Before proceeding, please check if there are subfolders in the `my_data/retiled_d_pixel` folder like:",
+    "translatedContent": "数据预处理完成后，我们可以开始推理。在继续之前，请检查 `my_data/retiled_d_pixel` 文件夹中是否存在如下子文件夹："
+  },
+  {
+    "row": 300,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 301,
+    "rowsha": "jK2w6o6H96KyA0XwmjBZfQyjB6kx2HkTLHTKgctQXf0=",
+    "originContent": "retiled_d_pixel",
+    "translatedContent": "retiled_d_pixel"
+  },
+  {
+    "row": 302,
+    "rowsha": "C7JCs9JrWaNAYSEH+jUWSgQVkAsaZNa3FFOfLJBVH5A=",
+    "originContent": " ┣ 0_3500_500_4000",
+    "translatedContent": " ┣ 0_3500_500_4000"
+  },
+  {
+    "row": 303,
+    "rowsha": "NjaBunFiHHI+HgdKrkQbfV0+TQ177FxTiuvXe0O577E=",
+    "originContent": " ┣ 0_4000_500_4500",
+    "translatedContent": " ┣ 0_4000_500_4500"
+  },
+  {
+    "row": 304,
+    "rowsha": "24JmJXAt+msYDa1sLuHmr47EqGTvrWpwWAVzu764MQY=",
+    "originContent": " ┣ 0_4500_500_5000",
+    "translatedContent": " ┣ 0_4500_500_5000"
+  },
+  {
+    "row": 305,
+    "rowsha": "yXB73CI6OK2K0fBm/zoRGHG1h2bSJYIijoUS6J4Xs2c=",
+    "originContent": " ┣ 0_5000_500_5500",
+    "translatedContent": " ┣ 0_5000_500_5500"
+  },
+  {
+    "row": 306,
+    "rowsha": "qEF43u4drsdHOkbSQxW2AdNBv7CwgXxwT8s5QOAfuyc=",
+    "originContent": " ┣ 0_5500_500_6000",
+    "translatedContent": " ┣ 0_5500_500_6000"
+  },
+  {
+    "row": 307,
+    "rowsha": "dI4PfIS/kS9RtRJ4pwR/yUphPJRTEEDSMhTb6aDcGXI=",
+    "originContent": " ┣ 0_6000_500_6500",
+    "translatedContent": " ┣ 0_6000_500_6500"
+  },
+  {
+    "row": 308,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 309,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "每个子文件夹应包含以下文件："
+  },
+  {
+    "row": 310,
+    "rowsha": "eV2lU8umLz+Y3Ve3A3qH6G6grcSt/I5qriv/zbe6jCc=",
+    "originContent": "Each subfolder should contain the following files:",
+    "translatedContent": ""
+  },
+  {
+    "row": 311,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 312,
+    "rowsha": "+HFpHHUlO5ikmRSgC6xZ+jBL51P3U4VIPXB9wSxpKdw=",
+    "originContent": "0_3500_500_4000",
+    "translatedContent": "0_3500_500_4000"
+  },
+  {
+    "row": 313,
+    "rowsha": "6axrm+M4rmcW5rZmhKN3C/LYhFUAASgw5KCzfsPTqww=",
+    "originContent": " ┣ bands.npy",
+    "translatedContent": " ┣ bands.npy"
+  },
+  {
+    "row": 314,
+    "rowsha": "R9+ZCd48W6Rg/3Eq/OnXyV3NSL8fDYxO59CI8Ut4zNc=",
+    "originContent": " ┣ doys.npy",
+    "translatedContent": " ┣ doys.npy"
+  },
+  {
+    "row": 315,
+    "rowsha": "tWkubmVnSGt4ipTUVRBDvjcipjxLkij4x4rs+hvArU4=",
+    "originContent": " ┣ masks.npy",
+    "translatedContent": " ┣ masks.npy"
+  },
+  {
+    "row": 316,
+    "rowsha": "sKRTZRd0ai0oWL3SUZrJHdX+iUzEbqmTtW248p2OZBw=",
+    "originContent": " ┣ roi.tiff",
+    "translatedContent": " ┣ roi.tiff"
+  },
+  {
+    "row": 317,
+    "rowsha": "nudnSiyyAWI/o9vwLAgwLy7BG3gv9PtNC/MIb8f0v6g=",
+    "originContent": " ┣ sar_ascending.npy",
+    "translatedContent": " ┣ sar_ascending.npy"
+  },
+  {
+    "row": 318,
+    "rowsha": "/hF0kEaI9ntKEJ5e7Zo1vH/y/AyFkmy56yFIA1MY5hw=",
+    "originContent": " ┣ sar_ascending_doy.npy",
+    "translatedContent": " ┣ sar_ascending_doy.npy"
+  },
+  {
+    "row": 319,
+    "rowsha": "gG1sURyY1ESqaUG8k5wXqLuAxaZggVkhmi1+4QOLD7I=",
+    "originContent": " ┣ sar_descending.npy",
+    "translatedContent": " ┣ sar_descending.npy"
+  },
+  {
+    "row": 320,
+    "rowsha": "AIxI8TcAb2utbQOSjErgyvGgp75WneZh33Wfy4U/1aU=",
+    "originContent": " ┗ sar_descending_doy.npy",
+    "translatedContent": " ┗ sar_descending_doy.npy"
+  },
+  {
+    "row": 321,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 322,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 323,
+    "rowsha": "yNiV4FYeAb4dIkR3bXq8k7wHUBXNEhFkRDXQlLRMdA8=",
+    "originContent": "If these files exist, you can start inference. Otherwise, check if the first step completed successfully.",
+    "translatedContent": "如果这些文件存在，您可以开始推理。否则，请检查第一步是否成功完成。"
+  },
+  {
+    "row": 324,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 325,
+    "rowsha": "l7aujFo23qWQnwurl1v+GOiw6IUP6rcLpymyAU10B0I=",
+    "originContent": "Inference requires PyTorch. Since each system may have slightly different CUDA versions, we can't provide a Docker-encapsulated Python environment like we did for data preprocessing. Fortunately, the Python environment for inference is much simpler to configure than for data preprocessing, as it doesn't use geographic processing packages like GDAL or SNAP.",
+    "translatedContent": "推理需要 PyTorch。由于每个系统的 CUDA 版本可能略有不同，我们无法像数据预处理那样提供 Docker 封装的 Python 环境。幸运的是，推理的 Python 环境比数据预处理更容易配置，因为它不使用像 GDAL 或 SNAP 这样的地理处理包。"
+  },
+  {
+    "row": 326,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 327,
+    "rowsha": "4LyRtkBeDVY3P76m0msh+89jGB9AFKY3bmQYVJmSSYU=",
+    "originContent": "### Pytorch Preparation",
+    "translatedContent": "### Pytorch 准备"
+  },
+  {
+    "row": 328,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 329,
+    "rowsha": "9no9gMOWN0qySlsAacN6yF6ryfoa/eohcj3GqAUeoLM=",
+    "originContent": "If you haven't installed Pytorch, you can refer to the steps below. Otherwise, you can ignore this section.",
+    "translatedContent": "如果您还没有安装 Pytorch，可以参考以下步骤。否则，您可以忽略本节。"
+  },
+  {
+    "row": 330,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 331,
+    "rowsha": "S3DM5k9W4SUtVn1e4dXZL+E/kM1c9buOLr54Am3eQZ0=",
+    "originContent": "First, check your system's CUDA version:",
+    "translatedContent": "首先，检查您的系统 CUDA 版本："
+  },
+  {
+    "row": 332,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 333,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 334,
+    "rowsha": "5kiUHiwDCEVi84a0zzqPDWqjhwrwZY3U4fQ09ZhAWDs=",
+    "originContent": "nvidia-smi",
+    "translatedContent": "nvidia-smi"
+  },
+  {
+    "row": 335,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 336,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 337,
+    "rowsha": "/wyUFJzZTfzm3CZycMExh0LCPXNbhyHUl2hCBcNsTsk=",
+    "originContent": "Then visit https://pytorch.org/ and select the appropriate version to install based on your CUDA version, for example:",
+    "translatedContent": "然后访问 https://pytorch.org/ 并根据您的 CUDA 版本选择适当的版本进行安装，例如："
+  },
+  {
+    "row": 338,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 339,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 340,
+    "rowsha": "OacqK4I2u4iYqDj5srBJ6QTaruW754EaerfDQBwqLrQ=",
+    "originContent": "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128",
+    "translatedContent": "pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128"
+  },
+  {
+    "row": 341,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 342,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 343,
+    "rowsha": "4fhMnW0AlrlI4GlWahNnE7+qa+l8HOgkcVnobWonJN8=",
+    "originContent": "### Model Weight",
+    "translatedContent": "### 模型权重"
+  },
+  {
+    "row": 344,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 345,
+    "rowsha": "iTDm+3IxzyxNiruY/sDvkjkWX3SwMppCGvKI2Dy5NQE=",
+    "originContent": "Next, download the model weights from [Google Drive](https://drive.google.com/drive/folders/18RPptbUkCIgUfw1aMdMeOrFML_ZVMszn?usp=sharing) and place the `.pt` file in the `tessera_infer/checkpoints` directory:",
+    "translatedContent": "接下来，从[Google Drive](https://drive.google.com/drive/folders/18RPptbUkCIgUfw1aMdMeOrFML_ZVMszn?usp=sharing)下载模型权重，并将`.pt`文件放置在`tessera_infer/checkpoints`目录下："
+  },
+  {
+    "row": 346,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 347,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 348,
+    "rowsha": "OoQkE1lcJYLmMHE5jrDA9CnrPwQjOk+zd2q1V5FyYmw=",
+    "originContent": "tessera_infer",
+    "translatedContent": "tessera_infer"
+  },
+  {
+    "row": 349,
+    "rowsha": "MaoKEB5KGYvPu9vdfbiBrMYT8dUZ2WXPQWsvi0BaX2o=",
+    "originContent": " ┗ checkpoints",
+    "translatedContent": " ┗ checkpoints"
+  },
+  {
+    "row": 350,
+    "rowsha": "XqM4Ncw//B7FV+jqmhTTJYBmXOeSp2A6twyrBeBGkl4=",
+    "originContent": "     ┗ best_model_fsdp_20250427_084307.pt",
+    "translatedContent": "     ┗ best_model_fsdp_20250427_084307.pt"
+  },
+  {
+    "row": 351,
+    "rowsha": "6nGUtHH+aVYCZTO++QisIYDicZNEQ0EqGG07xeht0nQ=",
+    "originContent": " ┗ configs",
+    "translatedContent": " ┗ configs"
+  },
+  {
+    "row": 352,
+    "rowsha": "YFnDM9Vsl6XG+Jj6sDilxTDygGpI5hcg7+Rbvll7+Og=",
+    "originContent": " ┗ src",
+    "translatedContent": " ┗ src"
+  },
+  {
+    "row": 353,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 354,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 355,
+    "rowsha": "GKUGNKt0B8lmKUw3nab1ZotANJCvvYrWKmuGBT7o2ro=",
+    "originContent": "_**Note that the checkpoint mentioned above is an early-stage model, which natively generates float32 embeddings. Therefore, this model is not the one used to generate the int8 embeddings in the geotessera library. We will soon deploy the specific checkpoint that was used to create the geotessera embeddings into the full pipeline.**_",
+    "translatedContent": "_**请注意，上述提到的检查点是一个早期模型，原生生成 float32 嵌入。因此，该模型并不是用于在 geotessera 库中生成 int8 嵌入的模型。我们将很快将用于创建 geotessera 嵌入的特定检查点部署到完整流水线中。**_"
+  },
+  {
+    "row": 356,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 357,
+    "rowsha": "6IABdx8UtvCa5Qim98O9C6qPPTgNfZQaDnCBHAWWdEs=",
+    "originContent": "### Configure Bash Script",
+    "translatedContent": "### 配置 Bash 脚本"
+  },
+  {
+    "row": 358,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 359,
+    "rowsha": "Hsn5kAKkFtMzziDNJdY2G6gQ3f9+qph6OnPnHkPisnM=",
+    "originContent": "To simplify inference configuration, we provide `tessera_infer/infer_all_tiles.sh`. You only need to edit a few parameters:",
+    "translatedContent": "为了简化推理配置，我们提供了 `tessera_infer/infer_all_tiles.sh`。您只需编辑几个参数："
+  },
+  {
+    "row": 360,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 361,
+    "rowsha": "/DpAM62brP67pxQTtyp1TfGc+ZvKnAOk+hkdRHzfu4A=",
+    "originContent": "a. Base data directory:",
+    "translatedContent": "a. 基础数据目录："
+  },
+  {
+    "row": 362,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 363,
+    "rowsha": "ttrbHt2ZeqOZ77v4tLLhNRt2NqG0wTK5VE7Jb6/UlTo=",
+    "originContent": "BASE_DATA_DIR=\"your_data_directory\"",
+    "translatedContent": "BASE_DATA_DIR=\"your_data_directory\""
+  },
+  {
+    "row": 364,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 365,
+    "rowsha": "HFe0MIzFhW3oqgsFv+oL1h6KQva2WKb10Wsqr0ulsJY=",
+    "originContent": "This is your data storage folder, the same as `BASE_DATA_DIR` in the previous bash, e.g., `/maps/usr/tessera_project/my_data`",
+    "translatedContent": "这是您的数据存储文件夹，与之前 bash 中的 `BASE_DATA_DIR` 相同，例如，`/maps/usr/tessera_project/my_data`"
+  },
+  {
+    "row": 366,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 367,
+    "rowsha": "0+ugq5WLo2SRVGrXMgqvWzphjAT5KUOW/8CaGezRZ1Q=",
+    "originContent": "b. Python environment:",
+    "translatedContent": "b. Python 环境："
+  },
+  {
+    "row": 368,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 369,
+    "rowsha": "vRFgU3dXB22hvVZYnrCMBakqN0/shknozhz0Jjhp0qc=",
+    "originContent": "export PYTHON_ENV=\"your_python_path\"",
+    "translatedContent": "export PYTHON_ENV=\"your_python_path\""
+  },
+  {
+    "row": 370,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 371,
+    "rowsha": "q4x3UjnBPOvtIpVdsHE/TIFSw3JUeQPO8O35oEO2bI8=",
+    "originContent": "Write the absolute path to your Python environment here, e.g., `/home/user/anaconda3/envs/tessera_env/bin/python`",
+    "translatedContent": "请在此处写出您的 Python 环境的绝对路径，例如，`/home/user/anaconda3/envs/tessera_env/bin/python`"
+  },
+  {
+    "row": 372,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 373,
+    "rowsha": "oSj5OSniPWLqpw8ZuJtufTblHh7bDgTultnX+aorRw4=",
+    "originContent": "c. CPU/GPU split:",
+    "translatedContent": "c. CPU/GPU 分配："
+  },
+  {
+    "row": 374,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 375,
+    "rowsha": "75wJNj5hfk+3Cllpuf1JX12oh/yYbd5jXxZHwLjZtk4=",
+    "originContent": "CPU_GPU_SPLIT=\"1:1\"  # Format: CPU:GPU ratio",
+    "translatedContent": "CPU_GPU_SPLIT=\"1:1\"  # Format: CPU:GPU ratio"
+  },
+  {
+    "row": 376,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 377,
+    "rowsha": "X9vfOmEKzM7T+3RyB37rX/TkIy33Jj5NtAtZ/X+UdTs=",
+    "originContent": "The script supports simultaneous inference using both CPU and GPU. This ratio specifies the proportion of `retiled_patches` each device will handle. Default is 1:1 (even split). For GPU-only inference, set to 0:1.",
+    "translatedContent": "该脚本支持使用 CPU 和 GPU 同时进行推理。该比例指定每个设备将处理的 `retiled_patches` 的比例。默认值为 1:1（均分）。对于仅 GPU 推理，设置为 0:1。"
+  },
+  {
+    "row": 378,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 379,
+    "rowsha": "B6uuZccWj0lyjx3moptOjS36LLrYDN56mkZie67/r+c=",
+    "originContent": "d. CPU Related Settings",
+    "translatedContent": "d. CPU 相关设置"
+  },
+  {
+    "row": 380,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 381,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 382,
+    "rowsha": "s4+3/8gcNheBpTMnVMPodEkcYwZ0PinGu+rb842nbP8=",
+    "originContent": "MAX_CONCURRENT_PROCESSES_CPU=20",
+    "translatedContent": "MAX_CONCURRENT_PROCESSES_CPU=20"
+  },
+  {
+    "row": 383,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 384,
+    "rowsha": "e70IK8fEXFvgP4IkhW6g4wpqnTw/SGIx1cNow+/fick=",
+    "originContent": "Maximum number of CPU processes for tile inference. For example, if set to 20, it will process 20 tiles simultaneously.",
+    "translatedContent": "用于图块推理的最大 CPU 进程数。例如，如果设置为 20，则会同时处理 20 个图块。"
+  },
+  {
+    "row": 385,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 386,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 387,
+    "rowsha": "cJlWH7Q+wyyeHsCbenS3sK0PXFbGs8chXZRNq6ajq5g=",
+    "originContent": "AVAILABLE_CORES=$((TOTAL_CPU_CORES / 2)) # Use 50% of the cores",
+    "translatedContent": "AVAILABLE_CORES=$((TOTAL_CPU_CORES / 2)) # Use 50% of the cores"
+  },
+  {
+    "row": 388,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 389,
+    "rowsha": "v/bVU+oGqFwjfNeIzySZTkY+jqF14+aISgR9Ac0JbNs=",
+    "originContent": "Number of CPU cores to use. Please modify this value if necessary to avoid consuming too many CPU resources!",
+    "translatedContent": "要使用的CPU核心数。如有必要，请修改此值以避免消耗过多的CPU资源！"
+  },
+  {
+    "row": 390,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 391,
+    "rowsha": "5cAC6vbDRQXa7w4796fJMdbak6nWqy3IngyRsYlow2s=",
+    "originContent": "e. GPU Related Settings:",
+    "translatedContent": "e. GPU相关设置："
+  },
+  {
+    "row": 392,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 393,
+    "rowsha": "pJm16DIjERI3s8e+Jg1s85mZoND0xtkfW1GzjSA9MDI=",
+    "originContent": "MAX_CONCURRENT_PROCESSES_GPU=1",
+    "translatedContent": "MAX_CONCURRENT_PROCESSES_GPU=1"
+  },
+  {
+    "row": 394,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 395,
+    "rowsha": "AksGStqfK26r0soRx+8RN3pebqeVVw3V8kstIt0ZTQQ=",
+    "originContent": "Maximum number of GPU processes for inference. If the system has only 1 GPU, set this to 1.",
+    "translatedContent": "推理时的最大 GPU 进程数。如果系统只有 1 个 GPU，请将此设置为 1。"
+  },
+  {
+    "row": 396,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 397,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 398,
+    "rowsha": "ksvT2NneLs1JuS9B0I6FV7IS5cy0MQD54FC37RvO2eQ=",
+    "originContent": "GPU_BATCH_SIZE=1024  # Larger for GPU, if this takes too much memory, reduce it",
+    "translatedContent": "GPU_BATCH_SIZE=1024  # Larger for GPU, if this takes too much memory, reduce it"
+  },
+  {
+    "row": 399,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 400,
+    "rowsha": "yAKD8hagnSI2mE6lyof6MtYG2beLpBC/gj3C3lPq9ks=",
+    "originContent": "Number of samples to process at once during PyTorch inference. If this value consumes too much GPU memory or causes an OOM error on the GPU, please reduce it accordingly.",
+    "translatedContent": "在PyTorch推理过程中一次处理的样本数量。如果该值占用过多GPU内存或导致GPU上的OOM错误，请相应减少。"
+  },
+  {
+    "row": 401,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 402,
+    "rowsha": "qeWZluI4vYpREfXQJXVXrsZsrj5O1jVp3/LQsIfDzCA=",
+    "originContent": "f. Other Settings",
+    "translatedContent": "f. 其他设置"
+  },
+  {
+    "row": 403,
+    "rowsha": "qv3mMwghftx1Q+M0LTSBB062pEohI9ZG4YPVc6kdF6M=",
+    "originContent": "There are other parameters available for configuration. Please adjust them as needed.",
+    "translatedContent": "还有其他可配置参数。请根据需要进行调整。"
+  },
+  {
+    "row": 404,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 405,
+    "rowsha": "zoOt9rtHdCkHCAUUPEAhjeXH9mesPI4TdrWUpYVDdjY=",
+    "originContent": "### Start Inference",
+    "translatedContent": "### 开始推理"
+  },
+  {
+    "row": 406,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 407,
+    "rowsha": "OFeYxqqY71tGINLxVDeeMNWof6E6Kwg1GG+bLTEQJoE=",
+    "originContent": "Once everything is ready, navigate to the `tessera_infer` folder:",
+    "translatedContent": "准备就绪后，导航到 `tessera_infer` 文件夹："
+  },
+  {
+    "row": 408,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 409,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 410,
+    "rowsha": "HkAcjj9X2DkXZ4xq38djRmBTKTl6BKJw6j6mIoWnSSs=",
+    "originContent": "cd tessera_infer",
+    "translatedContent": "cd tessera_infer"
+  },
+  {
+    "row": 411,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 412,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 413,
+    "rowsha": "1ACYzh3Oep3BuTcjyrPNA64Nd9QuqOHVz0OxqXt3skw=",
+    "originContent": "Then give permission to `infer_all_tiles.sh`:",
+    "translatedContent": "然后给予 `infer_all_tiles.sh` 权限："
+  },
+  {
+    "row": 414,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 415,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 416,
+    "rowsha": "k7yc39B3NyCFGO8LwecQSXVWKECHbHsug/48PDyfSLA=",
+    "originContent": "chmod +x infer_all_tiles.sh",
+    "translatedContent": "chmod +x infer_all_tiles.sh"
+  },
+  {
+    "row": 417,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 418,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 419,
+    "rowsha": "avSS8ZsOI8qiY5kU7X/fJpCi9cuMVgV0M4kmxxLfOs0=",
+    "originContent": "Then run it:",
+    "translatedContent": "然后运行它："
+  },
+  {
+    "row": 420,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 421,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 422,
+    "rowsha": "mfefU4ruNYl7uQW668OlcZ7oSnb8IpcItlTVOUgCkaE=",
+    "originContent": "bash infer_all_tiles.sh",
+    "translatedContent": "bash infer_all_tiles.sh"
+  },
+  {
+    "row": 423,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 424,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 425,
+    "rowsha": "8vDB8FvsSwjp9jeCPsb4S+gloTPw4Utbc0NIZj6y/Gs=",
+    "originContent": "If successful, you should see logs like:",
+    "translatedContent": "如果成功，您应该会看到如下日志："
+  },
+  {
+    "row": 426,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 427,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 428,
+    "rowsha": "M4iSIQieGTGlWfgaFJcgVsTF4Y96ps8X/iCmnTUpx5E=",
+    "originContent": "(base) zf281@daintree:/scratch/zf281/tessera_project/tessera_infer$ bash infer_all_tiles.sh",
+    "translatedContent": "(base) zf281@daintree:/scratch/zf281/tessera_project/tessera_infer$ bash infer_all_tiles.sh"
+  },
+  {
+    "row": 429,
+    "rowsha": "2ZMelNJTUgmotNmPD6/z4eYt55j7D+RRY+d9kBngGVE=",
+    "originContent": "[INFO] Total CPU cores: 256, Using: 192",
+    "translatedContent": "[INFO] Total CPU cores: 256, Using: 192"
+  },
+  {
+    "row": 430,
+    "rowsha": "0sBzSvN+/CKY68NoFG8AqT8k4jMT19ykFYKdjfdDIOo=",
+    "originContent": "[INFO] CPU:GPU split ratio = 1:1 (total: 2)",
+    "translatedContent": "[INFO] CPU:GPU split ratio = 1:1 (total: 2)"
+  },
+  {
+    "row": 431,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 432,
+    "rowsha": "ufsMJRAM2P+6uR6W67URwbFUExYUBVBMRts5dLlccDI=",
+    "originContent": "==== SETUP DIRECTORIES ====",
+    "translatedContent": "==== SETUP DIRECTORIES ===="
+  },
+  {
+    "row": 433,
+    "rowsha": "gOGcgLhj6bwkqxGgshswEDXVs5B/VHUPqV6gR4h91IA=",
+    "originContent": "[SUCCESS] Created necessary directories",
+    "translatedContent": "[SUCCESS] Created necessary directories"
+  },
+  {
+    "row": 434,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 435,
+    "rowsha": "EXqJSuRdQU43pS3Q6Hwe3xzyflW1fJXalb166PATYbQ=",
+    "originContent": "==== SCANNING TILES ====",
+    "translatedContent": "==== SCANNING TILES ===="
+  },
+  {
+    "row": 436,
+    "rowsha": "46bzPWFvN5RfsJXIvMGQYD/sNmu8004zZfmwDEBN3GY=",
+    "originContent": "[INFO] Tile directory: /scratch/zf281/jovana/retiled_d_pixel",
+    "translatedContent": "[INFO] Tile directory: /scratch/zf281/jovana/retiled_d_pixel"
+  },
+  {
+    "row": 437,
+    "rowsha": "AIL03wnWorsVpuX37Uwcpur46fGnf5wBkNcQqFRX2OE=",
+    "originContent": "[INFO] Output directory: /scratch/zf281/jovana/representation_retiled",
+    "translatedContent": "[INFO] Output directory: /scratch/zf281/jovana/representation_retiled"
+  },
+  {
+    "row": 438,
+    "rowsha": "H26DVHWtEJNd6Z/+RaAWF78gGIZ+dZd2Kx5NZRb+/z8=",
+    "originContent": "[SUCCESS] Found 226 tiles total",
+    "translatedContent": "[SUCCESS] Found 226 tiles total"
+  },
+  {
+    "row": 439,
+    "rowsha": "ZZtA9bk4q5F/rEqUcu3uezbsAKmC5BGFGgOm9WxBMJI=",
+    "originContent": "[INFO] Sample tiles:",
+    "translatedContent": "[INFO] Sample tiles:"
+  },
+  {
+    "row": 440,
+    "rowsha": "Fic0AThqoIoNMcSU7lMSfyxpElFcaahM12OwAshdEOI=",
+    "originContent": "  - 0_3500_500_4000",
+    "translatedContent": "  - 0_3500_500_4000"
+  },
+  {
+    "row": 441,
+    "rowsha": "H/dmXc96JjQbzNWJ8oqvSgz9ciPM6QETPTEC1VZSbAc=",
+    "originContent": "  - 0_4000_500_4500",
+    "translatedContent": "  - 0_4000_500_4500"
+  },
+  {
+    "row": 442,
+    "rowsha": "ySQYfJjs/4FZkeCuI10lhviLvlS/nlF/pwiSXQBIlGs=",
+    "originContent": "  - 0_4500_500_5000",
+    "translatedContent": "  - 0_4500_500_5000"
+  },
+  {
+    "row": 443,
+    "rowsha": "n7Q1xg1Z6/gzGICuAaB5qQl8aOFmZMl0Zt9rZb54ZnY=",
+    "originContent": "  - ...",
+    "translatedContent": "  - ..."
+  },
+  {
+    "row": 444,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 445,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 446,
+    "rowsha": "D0J3q0C4TvOHf66LyEWiLQ0Nb4mtI23d5cVA4+kbuC4=",
+    "originContent": "At the same time, a `logs` folder will be generated in the `tessera_infer` folder with more detailed logging for each CPU and GPU process.",
+    "translatedContent": "同时，`tessera_infer` 文件夹中将生成一个 `logs` 文件夹，包含每个 CPU 和 GPU 进程的更详细日志。"
+  },
+  {
+    "row": 447,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 448,
+    "rowsha": "LJCwEZ/dDxi1XN2Gg3sOLBr7wclcAA04qleCinJUDrY=",
+    "originContent": "### Stitch Final Representation Map",
+    "translatedContent": "### 拼接最终表示图"
+  },
+  {
+    "row": 449,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 450,
+    "rowsha": "2xnG/ILPVRYSbGI/SVe8A3aAdP7NhLlUzZ3vrTe+zlI=",
+    "originContent": "Inference usually takes a long time, depending on your ROI size and hardware performance. Once completed, you can find many `.npy` files in `my_data/representation_retiled`:",
+    "translatedContent": "推理通常需要较长时间，具体取决于您的 ROI 大小和硬件性能。完成后，您可以在 `my_data/representation_retiled` 中找到许多 `.npy` 文件："
+  },
+  {
+    "row": 451,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 452,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 453,
+    "rowsha": "2dbU3WeVr5fggB7uue6EMOcEJ7/zD+Sm7LC2CDY6r/c=",
+    "originContent": "representation_retiled",
+    "translatedContent": "representation_retiled"
+  },
+  {
+    "row": 454,
+    "rowsha": "Thpn7ctR0VkpIT9IX84lC3wE+ms6USive+QXDzUclB4=",
+    "originContent": " ┣ 0_3500_500_4000.npy",
+    "translatedContent": " ┣ 0_3500_500_4000.npy"
+  },
+  {
+    "row": 455,
+    "rowsha": "tHcQc5+QUSKAL0u4zvr9KZc2VamSq2e5KOtkIq8wIsI=",
+    "originContent": " ┣ 0_4000_500_4500.npy",
+    "translatedContent": " ┣ 0_4000_500_4500.npy"
+  },
+  {
+    "row": 456,
+    "rowsha": "ADZyJ0MvZSELDM78mKY5JXdCvn2YnP3LwJZjK5JazXY=",
+    "originContent": " ┣ 0_4500_500_5000.npy",
+    "translatedContent": " ┣ 0_4500_500_5000.npy"
+  },
+  {
+    "row": 457,
+    "rowsha": "rZiiFQiFPEQ/mHLRFUi15X9j3lyYg2PGsH07JqQR3wQ=",
+    "originContent": " ┣ 0_5000_500_5500.npy",
+    "translatedContent": " ┣ 0_5000_500_5500.npy"
+  },
+  {
+    "row": 458,
+    "rowsha": "tQ6copOqlpuBh7WWfpzuKkXZrrY6VN4USTSj5qDAaRA=",
+    "originContent": " ┣ 0_5500_500_6000.npy",
+    "translatedContent": " ┣ 0_5500_500_6000.npy"
+  },
+  {
+    "row": 459,
+    "rowsha": "zW2Etdq8xrvuFNbtUa23iUqcguoyu8EYkJUNiqW0J+w=",
+    "originContent": " ┣ 0_6000_500_6500.npy",
+    "translatedContent": " ┣ 0_6000_500_6500.npy"
+  },
+  {
+    "row": 460,
+    "rowsha": "BhcbBgQIAqgLZbwTIzL00bTrJT3rdT+GvRMmGZ53zv4=",
+    "originContent": " ┣ 0_6500_500_7000.npy",
+    "translatedContent": " ┣ 0_6500_500_7000.npy"
+  },
+  {
+    "row": 461,
+    "rowsha": "3KEAUN0Ou6iUUQsyalV0kHWe00T9r3ufm3AzkrEHjaQ=",
+    "originContent": " ┣ 0_7000_500_7500.npy",
+    "translatedContent": " ┣ 0_7000_500_7500.npy"
+  },
+  {
+    "row": 462,
+    "rowsha": "JlHcrM3C4EjiGHBgbLzw072B+dYccplEvJZmYuNm9w4=",
+    "originContent": " ┣ 1000_0_1500_500.npy",
+    "translatedContent": " ┣ 1000_0_1500_500.npy"
+  },
+  {
+    "row": 463,
+    "rowsha": "X6mZUuku3+xkUSyJ4wjWXDpUWYQ3ZtWnWBx8FhDu7dA=",
+    "originContent": " ┣ 1000_1000_1500_1500.npy",
+    "translatedContent": " ┣ 1000_1000_1500_1500.npy"
+  },
+  {
+    "row": 464,
+    "rowsha": "OpPU3uX+aKbhETYJz7MJJnUXoseCb6hzEN66zm1j2mg=",
+    "originContent": " ┣ 1000_1500_1500_2000.npy",
+    "translatedContent": " ┣ 1000_1500_1500_2000.npy"
+  },
+  {
+    "row": 465,
+    "rowsha": "+fXPYb9MahmpWa/9+4tVdcd/8xkj+MFi34M44T2oT3o=",
+    "originContent": " ┣ 1000_2000_1500_2500.npy",
+    "translatedContent": " ┣ 1000_2000_1500_2500.npy"
+  },
+  {
+    "row": 466,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 467,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 468,
+    "rowsha": "hwjRUIGbA8E7Z24W0L+aTeuDIh1DrqBkgaYJYA/Mm9k=",
+    "originContent": "The final step is to stitch them together using `tessera_infer/stitch_tiled_representation.py`:",
+    "translatedContent": "最后一步是使用 `tessera_infer/stitch_tiled_representation.py` 将它们拼接在一起："
+  },
+  {
+    "row": 469,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 470,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 471,
+    "rowsha": "nE/OWF95uDsdjkQI3VKeENkpxpIv5i65NjG7MadxKY4=",
+    "originContent": "python stitch_tiled_representation.py \\",
+    "translatedContent": "python stitch_tiled_representation.py \\"
+  },
+  {
+    "row": 472,
+    "rowsha": "UMIZvHe4ilsJxTgeOiONZ6xE7cja3KwWcmSz3M/+leY=",
+    "originContent": "--d_pixel_retiled_path /path/to/d_pixel_retiled \\",
+    "translatedContent": "--d_pixel_retiled_path /path/to/d_pixel_retiled \\"
+  },
+  {
+    "row": 473,
+    "rowsha": "Z8t1p/fXRpnQClQv88mhAy3gbKsxBQzL9hHPb1yhfBU=",
+    "originContent": "--representation_retiled_path /path/to/representation_retiled \\",
+    "translatedContent": "--representation_retiled_path /path/to/representation_retiled \\"
+  },
+  {
+    "row": 474,
+    "rowsha": "xKFyxmCpJj81mYozo+l215ADy6V1A96tTmu95m+aXoM=",
+    "originContent": "--downstream_tiff /path/to/downstream.tiff \\",
+    "translatedContent": "--downstream_tiff /path/to/downstream.tiff \\"
+  },
+  {
+    "row": 475,
+    "rowsha": "XEDg5MOEsOYplwcMQYauqdVCWlGg11uKwNTim1qcH/8=",
+    "originContent": "--out_dir /path/to/output_directory",
+    "translatedContent": "--out_dir /path/to/output_directory"
+  },
+  {
+    "row": 476,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 477,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "例如："
+  },
+  {
+    "row": 478,
+    "rowsha": "ZSdEoqsolUu6/XgP12wVwr1VdZRTL5B/EOrRmJcnr5U=",
+    "originContent": "For example:",
+    "translatedContent": ""
+  },
+  {
+    "row": 479,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 480,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 481,
+    "rowsha": "nE/OWF95uDsdjkQI3VKeENkpxpIv5i65NjG7MadxKY4=",
+    "originContent": "python stitch_tiled_representation.py \\",
+    "translatedContent": "python stitch_tiled_representation.py \\"
+  },
+  {
+    "row": 482,
+    "rowsha": "SLn46Azo3/D8Yl1ZvjRw6AWn1iJ82uTQlgKcFPD/SSo=",
+    "originContent": "--d_pixel_retiled_path /maps/usr/tessera_project/my_data/d_pixel_retiled \\",
+    "translatedContent": "--d_pixel_retiled_path /maps/usr/tessera_project/my_data/d_pixel_retiled \\"
+  },
+  {
+    "row": 483,
+    "rowsha": "0wZOAt2IObEPCXEOg778lAiylrrD4ziqT/qSPnMsiew=",
+    "originContent": "--representation_retiled_path /maps/usr/tessera_project/my_data/representation_retiled \\",
+    "translatedContent": "--representation_retiled_path /maps/usr/tessera_project/my_data/representation_retiled \\"
+  },
+  {
+    "row": 484,
+    "rowsha": "w8uxGRrBgG3g6eHjSmQatW2Nf9qUGwLWksSTgMRKVuA=",
+    "originContent": "--downstream_tiff /maps/usr/tessera_project/my_data/downstream.tiff \\",
+    "translatedContent": "--downstream_tiff /maps/usr/tessera_project/my_data/downstream.tiff \\"
+  },
+  {
+    "row": 485,
+    "rowsha": "0xZkTbFQYtaj0upy/jkAuOXBsFLCM5fKgXXzeQiAnCU=",
+    "originContent": "--out_dir /maps/usr/tessera_project/my_data",
+    "translatedContent": "--out_dir /maps/usr/tessera_project/my_data"
+  },
+  {
+    "row": 486,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 487,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "最终，您将在 `my_data` 目录中获得一个拼接的表示图，形状为 (H,W,128)，其中 H 和 W 与您最初的 `roi.tiff` 相匹配。表示图是一个 NumPy 数组。如果您想将其转换为 TIFF 以便在 QGIS 等软件中查看，可以使用 `tessera_infer/convert_npy2tiff.py` 脚本。只需在主函数中修改为："
+  },
+  {
+    "row": 488,
+    "rowsha": "hBDaaerqGJ7T+jB+gCgnFklhApNdnVGb56WWonQlDLk=",
+    "originContent": "Finally, you'll get a stitched representation map in the `my_data` directory with the shape (H,W,128), where H and W match your initial `roi.tiff`. The representation map is a NumPy array. If you want to convert it to TIFF for viewing in software like QGIS, you can use the `tessera_infer/convert_npy2tiff.py` script. Just modify the main function with:",
+    "translatedContent": ""
+  },
+  {
+    "row": 489,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 490,
+    "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+    "originContent": "```python",
+    "translatedContent": "```python"
+  },
+  {
+    "row": 491,
+    "rowsha": "D8Yb0p+RzKgrK9lSlqHM/luGbJOyJMGYD57TM2+cXyQ=",
+    "originContent": "npy_path = \"/maps/usr/tessera_project/my_data/stitched_representation.npy\"  # Change to the actual npy file path",
+    "translatedContent": "npy_path = \"/maps/usr/tessera_project/my_data/stitched_representation.npy\"  # Change to the actual npy file path"
+  },
+  {
+    "row": 492,
+    "rowsha": "VHFbTVvWWBhUEE1UB15R0Cx5Uk8AaqVBQy7ogBT3WMA=",
+    "originContent": "ref_tiff_path = \"/maps/usr/tessera_project/my_data/roi.tiff\"  # Change to the actual reference tiff file path",
+    "translatedContent": "ref_tiff_path = \"/maps/usr/tessera_project/my_data/roi.tiff\"  # Change to the actual reference tiff file path"
+  },
+  {
+    "row": 493,
+    "rowsha": "OwAG9qFvNxeBFvNTjst8knj8P0vcJcOlbpWeCAgqB6s=",
+    "originContent": "out_dir = \"/maps/usr/tessera_project/my_data/\"  # Change to the actual output directory",
+    "translatedContent": "out_dir = \"/maps/usr/tessera_project/my_data/\"  # Change to the actual output directory"
+  },
+  {
+    "row": 494,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 495,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 496,
+    "rowsha": "RmKkiqu+OQ5tzThF095aq3aytzDE/8fTBvDh0JMdAu8=",
+    "originContent": "## Downstream tasks",
+    "translatedContent": "## 下游任务"
+  },
+  {
+    "row": 497,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 498,
+    "rowsha": "24q9mV4NxGXpLWPJ1UyRTy4YdRGqThumMz7nECYXBb0=",
+    "originContent": "If you want to reproduce the downstream tasks in the paper, you can visit https://github.com/ucam-eo/tessera-downstream-task. There are many examples provided there.",
+    "translatedContent": "如果您想复现论文中的下游任务，可以访问 https://github.com/ucam-eo/tessera-downstream-task。那里提供了许多示例。"
+  },
+  {
+    "row": 499,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 500,
+    "rowsha": "h9FIPyWsnqxj827nZF+k5W41ZtsSs8Qsn8vqSXnaQp8=",
+    "originContent": "# Additional information",
+    "translatedContent": "# 其他信息"
+  },
+  {
+    "row": 501,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 502,
+    "rowsha": "U/QJlf5l2QPvQU5yqqIg3etfnj8PA9RHdACp+44QJcE=",
+    "originContent": "## Team",
+    "translatedContent": "## 团队"
+  },
+  {
+    "row": 503,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 504,
+    "rowsha": "H45Jvht2iuhSB+N+9Rwbdr1SHv+8Wt/wSalVqF2uPBQ=",
+    "originContent": "### Cambridge Faculty",
+    "translatedContent": "### 剑桥教职员工"
+  },
+  {
+    "row": 505,
+    "rowsha": "2o8dDSdIUdh2eLUCfqUKRzJ804c5k/Ts3ahmrQ6bEq4=",
+    "originContent": "* [S. Keshav](https://svr-sk818-web.cl.cam.ac.uk/keshav/wiki/index.php/Main_Page)",
+    "translatedContent": "* [S. Keshav](https://svr-sk818-web.cl.cam.ac.uk/keshav/wiki/index.php/Main_Page)"
+  },
+  {
+    "row": 506,
+    "rowsha": "zhnt5Q8o+iCYGltAjOownlyMHoyMipqeu4ro+5b9JzE=",
+    "originContent": "* [Anil Madhavapeddy](https://anil.recoil.org)",
+    "translatedContent": "* [Anil Madhavapeddy](https://anil.recoil.org)"
+  },
+  {
+    "row": 507,
+    "rowsha": "TzqM/59aN+AldGl5tZZuYTxQ3f6857R2JMxeVdj6Ak4=",
+    "originContent": "* [Sadiq Jaffer](https://toao.com)",
+    "translatedContent": "* [Sadiq Jaffer](https://toao.com)"
+  },
+  {
+    "row": 508,
+    "rowsha": "ePnbEMKhWmPOpcIKvrHjvzZYw2fGaYpvgQYfS1KAHGg=",
+    "originContent": "* [David Coomes](https://www.plantsci.cam.ac.uk/directory/david-coomes)",
+    "translatedContent": "* [David Coomes](https://www.plantsci.cam.ac.uk/directory/david-coomes)"
+  },
+  {
+    "row": 509,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 510,
+    "rowsha": "XtHI4bnOf1k1ZCPh6GcMHUBuEXE3qCOvyNxVJy5UmDY=",
+    "originContent": "### Postdoc",
+    "translatedContent": "### 博士后"
+  },
+  {
+    "row": 511,
+    "rowsha": "B+cIM1ZksjzWLWCja4eiIoQFrv/sPLSPZMm7YbeYuks=",
+    "originContent": "* James Ball",
+    "translatedContent": "* James Ball"
+  },
+  {
+    "row": 512,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 513,
+    "rowsha": "bURmNJ4KQbvxKi+F0biLYyt1LVm9eOT8CnQ2yBd9lHs=",
+    "originContent": "### PhD",
+    "translatedContent": "### 博士生"
+  },
+  {
+    "row": 514,
+    "rowsha": "3SqeNDmKt7H+MUWQAcQUpzWSqeOuzGYGwbvYGmFszXE=",
+    "originContent": "* Madeleine Lisaius",
+    "translatedContent": "* Madeleine Lisaius"
+  },
+  {
+    "row": 515,
+    "rowsha": "+OE35XoDIMyvfLnZDSEFBOyrqjhGQN28MH4OUCbN7Fk=",
+    "originContent": "* Zhengpeng (Frank) Feng",
+    "translatedContent": "* Zhengpeng (Frank) Feng"
+  },
+  {
+    "row": 516,
+    "rowsha": "8/cSsp2YLWqOctZXndoUFvg8AAln7r02ijwU55MsEvE=",
+    "originContent": "* Robin Young",
+    "translatedContent": "* Robin Young"
+  },
+  {
+    "row": 517,
+    "rowsha": "cugrYMaODnO6iDuHnP+DjhrRRNh/ZI++rvNcZP0Cq7k=",
+    "originContent": "* Jovana Knezevic",
+    "translatedContent": "* Jovana Knezevic"
+  },
+  {
+    "row": 518,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 519,
+    "rowsha": "bd2gEpboXEHxoG4bn3i99fpospsyHIPFqhjsEmoTvS0=",
+    "originContent": "### Undergrad",
+    "translatedContent": "### 本科生"
+  },
+  {
+    "row": 520,
+    "rowsha": "dqhkcen4B2dMA/16NO3d3h6XSqh7iMvHQjo9JweTmcU=",
+    "originContent": "* Zejia Yang (Part II student, working with Frank Feng on MAE pretraining of spatial feature extractors)",
+    "translatedContent": "* Zejia Yang（第二阶段学生，与 Frank Feng 合作进行空间特征提取器的 MAE 预训练）"
+  },
+  {
+    "row": 521,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 522,
+    "rowsha": "Ga5spEAr0qIZ0jL28SFGXNcXd7chGvCwtHfp81CnXSM=",
+    "originContent": "### Interns",
+    "translatedContent": "### 实习生"
+  },
+  {
+    "row": 523,
+    "rowsha": "YTY358kzR9u70Iq2BHKdQYUm1UacfsPbnpwqBbLUG2U=",
+    "originContent": "* Kenzy Soror (U. Waterloo, working with Robin Young)",
+    "translatedContent": "* Kenzy Soror（滑铁卢大学，与 Robin Young 合作）"
+  },
+  {
+    "row": 524,
+    "rowsha": "/CIptg+SO6r/jsBVpfUOCqSizuiDxnX7hPtA9EF3dBU=",
+    "originContent": "* Artyom Gabtraupov (U. Waterloo, working with Robin Young)",
+    "translatedContent": "* Artyom Gabtraupov（滑铁卢大学，与 Robin Young 合作）"
+  },
+  {
+    "row": 525,
+    "rowsha": "HJe49bFnI3e53+XfcPNwkYSqiPTXiGIC9uLybSH6kzQ=",
+    "originContent": "* Gabriel Mahler (U. Cambridge, working with Anil Madhavapeddy and Silviu Petrovan on [hedgehog habitats and tracking](https://anil.recoil.org/ideas/hedgehog-mapping))",
+    "translatedContent": "* Gabriel Mahler（剑桥大学，与 Anil Madhavapeddy 和 Silviu Petrovan 合作，研究[刺猬栖息地及追踪](https://anil.recoil.org/ideas/hedgehog-mapping)）"
+  },
+  {
+    "row": 526,
+    "rowsha": "Uk+b36j3xFWFKyzCqq8AjdxeInB5R3Vin+6+rCN7Ugg=",
+    "originContent": "* Leyu Pan (Imperial College, working with Frank Feng on text embeddings generated from OSM)",
+    "translatedContent": "* Leyu Pan（帝国理工学院，与 Frank Feng 合作，基于 OSM 生成文本嵌入）"
+  },
+  {
+    "row": 527,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 528,
+    "rowsha": "yotz8hLWggqN1WDujk+VqCEkE2cBBSidmd53qcr9ua0=",
+    "originContent": "### Collaborators",
+    "translatedContent": "### 合作者"
+  },
+  {
+    "row": 529,
+    "rowsha": "etftuKAxjnKVE8L3cXWYEqks+SGBADsYNt+rQ0PjHqU=",
+    "originContent": "* [Clement Atzberger](https://www.linkedin.com/in/clement-atzberger-8abb8065/?originalSubdomain=at), dClimate Labs",
+    "translatedContent": "* [Clement Atzberger](https://www.linkedin.com/in/clement-atzberger-8abb8065/?originalSubdomain=at)，dClimate Labs"
+  },
+  {
+    "row": 530,
+    "rowsha": "CphDmrVOVjNA2ZxS/W38V/tIObWnpWq37y5dbfiEAjc=",
+    "originContent": "* [Andrew Blake](https://en.wikipedia.org/wiki/Andrew_Blake_(computer_scientist)), Mantle Labs",
+    "translatedContent": "* [Andrew Blake](https://en.wikipedia.org/wiki/Andrew_Blake_(computer_scientist))，Mantle Labs"
+  },
+  {
+    "row": 531,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 532,
+    "rowsha": "N42AKkFH6rWKGehVV7MSiyq1i4r/oqr78LcAOV5AepM=",
+    "originContent": "### Visitors",
+    "translatedContent": "### 访问学者"
+  },
+  {
+    "row": 533,
+    "rowsha": "7f0X+J+352PtnfsDwuXdLY1ht6WY7J9jYNbUTa10RRw=",
+    "originContent": "* Silja Sormunnen, Aalto University, Finland",
+    "translatedContent": "* Silja Sormunnen，芬兰阿尔托大学"
+  },
+  {
+    "row": 534,
+    "rowsha": "9shKSVWs7fDaCJqUScQhD7sglplVJVozHR37MR5YnHE=",
+    "originContent": "* Isabel Mansley (U. Edinburgh, working with David Coomes and Anil Madhavapeddy on [habitat mapping in Scotland](https://anil.recoil.org/ideas/cairngorms-connect-habitats)",
+    "translatedContent": "* Isabel Mansley（爱丁堡大学，与 David Coomes 和 Anil Madhavapeddy 合作，进行[苏格兰栖息地映射](https://anil.recoil.org/ideas/cairngorms-connect-habitats)）"
+  },
+  {
+    "row": 535,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 536,
+    "rowsha": "ZX9nbduzXgvmAaK8yTd+tNgwR7cV79HXV/+xbvL8suw=",
+    "originContent": "## Contact",
+    "translatedContent": "## 联系方式"
+  },
+  {
+    "row": 537,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 538,
+    "rowsha": "z26z1tihPnr7hWdUI3JwkNZulc9+gBoOYsXsm8kshFg=",
+    "originContent": "Please direct your technical questions to Frank Feng (zf281@cam.ac.uk) or ask it on our [Zulip forum](https://eeg.zulipchat.com/login/). Non-technical questions can be sent to Prof. S. Keshav (sk818@cam.ac.uk).",
+    "translatedContent": "请将您的技术问题发送给Frank Feng（zf281@cam.ac.uk）或在我们的[Zulip论坛](https://eeg.zulipchat.com/login/)上提问。非技术性问题可发给S. Keshav教授（sk818@cam.ac.uk）。"
+  },
+  {
+    "row": 539,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 540,
+    "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+    "originContent": "## Citation",
+    "translatedContent": "## 引用"
+  },
+  {
+    "row": 541,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 542,
+    "rowsha": "KTPNOuxGn1SPL+eCxgpjdXBS3Nu2tXsCdCVcXi3Tpd4=",
+    "originContent": "If you use TESSERA in your research, please cite the [arXiv paper](https://arxiv.org/abs/2506.20380):",
+    "translatedContent": "如果您在研究中使用了TESSERA，请引用[arXiv论文](https://arxiv.org/abs/2506.20380)："
+  },
+  {
+    "row": 543,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 544,
+    "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+    "originContent": "```bibtex",
+    "translatedContent": "```bibtex"
+  },
+  {
+    "row": 545,
+    "rowsha": "JLXFr13CWa8W/T8DU4y6k4qsIrY86ddqCPtaJg/nHtM=",
+    "originContent": "@misc{feng2025tesseratemporalembeddingssurface,",
+    "translatedContent": "@misc{feng2025tesseratemporalembeddingssurface,"
+  },
+  {
+    "row": 546,
+    "rowsha": "F88GH7LcTJDnMeSkmL4Krekx4cGrOZzJdgW6VQ2EPJk=",
+    "originContent": "      title={TESSERA: Temporal Embeddings of Surface Spectra for Earth Representation and Analysis}, ",
+    "translatedContent": "      title={TESSERA: Temporal Embeddings of Surface Spectra for Earth Representation and Analysis}, "
+  },
+  {
+    "row": 547,
+    "rowsha": "WqMBXsdEg6QWebZqnIUb43ZbxLUh7XkJwJicjbjQdyA=",
+    "originContent": "      author={Zhengpeng Feng et al.},",
+    "translatedContent": "      author={Zhengpeng Feng et al.},"
+  },
+  {
+    "row": 548,
+    "rowsha": "1cuvfM9h03loQfZOlvsx9juVCvU41kevaYb2CnD9Gak=",
+    "originContent": "      year={2025},",
+    "translatedContent": "      year={2025},"
+  },
+  {
+    "row": 549,
+    "rowsha": "1bmqjE0Nx6ezVtmShkcgNmYPkj4sPtKaJpUujkuNRlg=",
+    "originContent": "      eprint={2506.20380},",
+    "translatedContent": "      eprint={2506.20380},"
+  },
+  {
+    "row": 550,
+    "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
+    "originContent": "      archivePrefix={arXiv},",
+    "translatedContent": "      archivePrefix={arXiv},"
+  },
+  {
+    "row": 551,
+    "rowsha": "b9F4e8a5lbKTxrIivpUmbY+dCDZhUO3+b4qjrHPFk6c=",
+    "originContent": "      primaryClass={cs.LG},",
+    "translatedContent": "      primaryClass={cs.LG},"
+  },
+  {
+    "row": 552,
+    "rowsha": "VwM03WD+uTXCQLarcTBIwsqGh6ZcUM7fGDWnLuRAcmY=",
+    "originContent": "      url={https://arxiv.org/abs/2506.20380}, ",
+    "translatedContent": "      url={https://arxiv.org/abs/2506.20380}, "
+  },
+  {
+    "row": 553,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 554,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 555,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 致谢"
+  },
+  {
+    "row": 556,
+    "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+    "originContent": "## Acknowledgments",
+    "translatedContent": "我们衷心感谢英国研究与创新署（UKRI）及剑桥大学[DAWN](https://www.hpc.cam.ac.uk/d-w-n)超级计算机团队对本项目的大力支持。我们还感谢[AMD](https://www.amd.com/en.html)、[Vultr](https://www.vultr.com/)、[Dirac高性能计算设施](https://dirac.ac.uk)、[微软AI公益实验室](https://www.microsoft.com/en-us/research/group/ai-for-good-research-lab/)、Robert Sansom博士、[dClimate](https://www.dclimate.net/)、以及在其AWS开放数据计划(https://opendata.aws/)下的[亚马逊网络服务（AWS）](https://aws.amazon.com/)的支持。本工作离不开他们的支持、计算资源和技术协助。"
+  },
+  {
+    "row": 557,
+    "rowsha": "fN95Mu22WdZlQSrrTyYRJLIQCC/Lx/XffTfC8U/TlVs=",
+    "originContent": "We would like to express our gratitude to UKRI and the [DAWN](https://www.hpc.cam.ac.uk/d-w-n) supercomputer team at Cambridge, for their generous support in this project. We also acknowledge support from [AMD](https://www.amd.com/en.html),  [Vultr](https://www.vultr.com/), the [Dirac High Performance Computing Facility](https://dirac.ac.uk), [Microsoft AI For Good Lab](https://www.microsoft.com/en-us/research/group/ai-for-good-research-lab/), Dr. Robert Sansom, [dClimate](https://www.dclimate.net/), and [Amazon Web Services (AWS)](https://aws.amazon.com/) under their AWS Open Data program (https://opendata.aws/). This work would not have been possible without their support, computational resources and technical assistance.  ",
+    "translatedContent": ""
+  },
+  {
+    "row": 558,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Star History"
+  },
+  {
+    "row": 559,
+    "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+    "originContent": "## Star History",
+    "translatedContent": "[![Star History Chart](https://api.star-history.com/svg?repos=ucam-eo/tessera&type=Date)](https://www.star-history.com/#ucam-eo/tessera&Date)"
+  },
+  {
+    "row": 560,
+    "rowsha": "o8Prh7y9L4JX4yuwfi86OvkSs7bYx6JTXGy12T+d5MM=",
+    "originContent": "[![Star History Chart](https://api.star-history.com/svg?repos=ucam-eo/tessera&type=Date)](https://www.star-history.com/#ucam-eo/tessera&Date)",
+    "translatedContent": ""
+  },
+  {
+    "row": 561,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## AUP"
+  },
+  {
+    "row": 562,
+    "rowsha": "wbFyHvqupOx3bGoxMmUyqjUBuz8Qf1bVTVBoCN5heuY=",
+    "originContent": "## AUP",
+    "translatedContent": ""
+  },
+  {
+    "row": 563,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### TESSERA 使用条款与伦理指南"
+  },
+  {
+    "row": 564,
+    "rowsha": "UBWOZiKfG1r0+EO6G95az2WeEz3hZjaERdhje5ILxgk=",
+    "originContent": "### TESSERA Terms of Use and Ethical Guidelines",
+    "translatedContent": ""
+  },
+  {
+    "row": 565,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 许可证"
+  },
+  {
+    "row": 566,
+    "rowsha": "yQxCDp1zblVb6PkKhbgZ2Y8kW5iQPeq17cih4/6NsYY=",
+    "originContent": "### License",
+    "translatedContent": ""
+  },
+  {
+    "row": 567,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "TESSERA 数据和嵌入向量在 **知识共享 0 国际许可协议 [CC-0](https://creativecommons.org/public-domain/cc0/)** 下发布。  "
+  },
+  {
+    "row": 568,
+    "rowsha": "3I5QjTUKpJr0OreOH0Ssns+g9tmWPXpnvCwRIe84EGE=",
+    "originContent": "TESSERA data and embeddings are made available under the **Creative Commons 0 International License [CC-0](https://creativecommons.org/public-domain/cc0/)**. ",
+    "translatedContent": "这意味着您可以自由："
+  },
+  {
+    "row": 569,
+    "rowsha": "VOukG3dquEbZjF+Wl+uMPaomoxAJlzvsMtUWj0zKQ9o=",
+    "originContent": "This means you are free to:",
+    "translatedContent": ""
+  },
+  {
+    "row": 570,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* **共享** — 复制并以任何媒介或格式重新分发材料  "
+  },
+  {
+    "row": 571,
+    "rowsha": "gAISRoM8Sdc5ncEEDB41SH/Wa+jlAYhOb6wArLF80IE=",
+    "originContent": "* **Share** — copy and redistribute the material in any medium or format",
+    "translatedContent": "* **改编** — 重新混合、转换并基于材料进行构建，适用于任何目的，甚至商业用途"
+  },
+  {
+    "row": 572,
+    "rowsha": "BYgDIhYKDnt4mRVkyaTu7LGje63v/UKbJcZqmkWisI8=",
+    "originContent": "* **Adapt** — remix, transform, and build upon the material for any purpose, even commercially",
+    "translatedContent": ""
+  },
+  {
+    "row": 573,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 目的与预期用途"
+  },
+  {
+    "row": 574,
+    "rowsha": "/kvTrpvfHzw+WFkPrV3Yi6gQCXFSA3z7xDp/RM30ci0=",
+    "originContent": "### Purpose and Intended Uses",
+    "translatedContent": ""
+  },
+  {
+    "row": 575,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "TESSERA 的开发旨在推动科学研究，支持环境监测、保护、可持续农业及对地球系统的理解。我们设计此工具以实现："
+  },
+  {
+    "row": 576,
+    "rowsha": "W71k/qyuS1vxUm90tiYZsoN9ZLSs9lGMPtd2t4KcLTI=",
+    "originContent": "TESSERA was developed to advance scientific research and support environmental monitoring, conservation, sustainable agriculture, and understanding of Earth systems. We designed this tool to enable:",
+    "translatedContent": ""
+  },
+  {
+    "row": 577,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 科学研究与教育  "
+  },
+  {
+    "row": 578,
+    "rowsha": "ZxiQcWxGZ1yqVoR5VOVodrJdnHBLpNi5XdUneu6sdLQ=",
+    "originContent": "* Scientific research and education",
+    "translatedContent": "* 环境监测与保护  "
+  },
+  {
+    "row": 579,
+    "rowsha": "3BnjgrgXn+OkybMnRpPgjC6x1E+swbt3BiOcPfzdsYc=",
+    "originContent": "* Environmental monitoring and conservation",
+    "translatedContent": "* 农业与粮食安全分析  "
+  },
+  {
+    "row": 580,
+    "rowsha": "HNpZfUyYAym8BeFPW9hXNRJVs2cMgpwUvunRMdT+bbw=",
+    "originContent": "* Agricultural and food security analysis",
+    "translatedContent": "* 气候变化研究与适应规划  "
+  },
+  {
+    "row": 581,
+    "rowsha": "F9mlKCx/8d9iANjy95ncODGjL6dokLPLJ/s7MYojU9I=",
+    "originContent": "* Climate change research and adaptation planning",
+    "translatedContent": "* 可持续土地利用与资源管理  "
+  },
+  {
+    "row": 582,
+    "rowsha": "cWy3NZszwmU9tug480MX9oSsSctWQE4y3Y4Tz7CxxVA=",
+    "originContent": "* Sustainable land use and resource management",
+    "translatedContent": "* 造福社会与环境的公益应用"
+  },
+  {
+    "row": 583,
+    "rowsha": "D1B2z6uI3mvdQGOKcbue1J3Nb+YBHpKTsdaYuUYBbh0=",
+    "originContent": "* Public interest applications that benefit society and the environment",
+    "translatedContent": ""
+  },
+  {
+    "row": 584,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 伦理指南"
+  },
+  {
+    "row": 585,
+    "rowsha": "pnwz4LKjFXF5PyYXk6Snd4iblFwrt5Kt6Il3wCbDyDo=",
+    "originContent": "### Ethical Guidelines",
+    "translatedContent": ""
+  },
+  {
+    "row": 586,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "虽然 CC0 许可证允许广泛使用，我们强烈建议用户考虑其工作的伦理影响。以下伦理指南为建议性内容，不具法律强制力。我们请求用户："
+  },
+  {
+    "row": 587,
+    "rowsha": "D1O9wgCa109IF8KxFHIiF8KpuL5ATn92KCHcstfJAkM=",
+    "originContent": "While the CC0 license permits broad use, we strongly encourage users to consider the ethical implications of their work. These ethical guidelines are advisory and do not impose legally enforceable restrictions. We request that users:",
+    "translatedContent": ""
+  },
+  {
+    "row": 588,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**负责任地行事：**  "
+  },
+  {
+    "row": 589,
+    "rowsha": "tMrKXQ3jeZPGsnMCRW0N70QD6NkBiZnb1cs820BBcrQ=",
+    "originContent": "**Act Responsibly:**",
+    "translatedContent": "* 在分析特定地点时考虑隐私影响  "
+  },
+  {
+    "row": 590,
+    "rowsha": "iKt02+hNwJC2fUfF0/IOQAZCX/BnExGFjmTnO/ypD3w=",
+    "originContent": "* Consider privacy implications when analyzing specific locations",
+    "translatedContent": "* 尊重受影响社区的权利与尊严  "
+  },
+  {
+    "row": 591,
+    "rowsha": "XEnMtzmivNLj0Sr4CGcLXnhCeYzx+BPWRQYH7lo3ZqY=",
+    "originContent": "* Respect the rights and dignity of affected communities",
+    "translatedContent": "* 注意潜在的双重用途问题"
+  },
+  {
+    "row": 592,
+    "rowsha": "wqm0jb5HkoouNvpttGE7ZNkim3gJfXNpjf8maex2D4w=",
+    "originContent": "* Be mindful of potential dual-use concerns",
+    "translatedContent": ""
+  },
+  {
+    "row": 593,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**保持透明：**"
+  },
+  {
+    "row": 594,
+    "rowsha": "Rvau//rxzHlfil/JMYOEwiJzFMpWgauUpNB25CKHTxQ=",
+    "originContent": "**Be Transparent:**",
+    "translatedContent": ""
+  },
+  {
+    "row": 595,
+    "rowsha": "PD9f8LLc1+WLmZFI9NsV3LecKjUF1kx9ciO5PDvXbew=",
+    "originContent": "* Accurately represent the data's characteristics (annual resolution, 10m spatial resolution)",
+    "translatedContent": "* 准确表示数据的特性（年度分辨率，10米空间分辨率）  "
+  },
+  {
+    "row": 596,
+    "rowsha": "9wCLONeP9qa0fIgZrJwZ26oCJEsAxGNzrFlCUO5NAMU=",
+    "originContent": "* Acknowledge limitations in your applications",
+    "translatedContent": "* 承认您应用中的局限性  "
+  },
+  {
+    "row": 597,
+    "rowsha": "9ruQGChYhy8vrzyRwl/tPVcW/kwbsI/ZAKXFAt/6BS8=",
+    "originContent": "* Do not misrepresent TESSERA's capabilities",
+    "translatedContent": "* 不得错误描述TESSERA的能力  "
+  },
+  {
+    "row": 598,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 599,
+    "rowsha": "GLnT18ci0Cago/adv4OHs/RuwwDiMDnvQ54/3p6j1rc=",
+    "originContent": "**Support Positive Impact:**",
+    "translatedContent": "**支持积极影响：**  "
+  },
+  {
+    "row": 600,
+    "rowsha": "dolXSUbPgJ27tlGt1NjMBe16mAzUqVmpqihhz7EQsDc=",
+    "originContent": "* Consider how your work contributes to societal benefit",
+    "translatedContent": "* 考虑您的工作如何促进社会利益  "
+  },
+  {
+    "row": 601,
+    "rowsha": "fsNpIVJZQXO5/nxRQIruUNvfLiMhB7gISJgCY6IrAEE=",
+    "originContent": "* Engage with affected communities when appropriate",
+    "translatedContent": "* 在适当时与受影响社区互动  "
+  },
+  {
+    "row": 602,
+    "rowsha": "j++wsSm5h6QtF2s8Lpp39E3U6klU23iviXeUTVpi2Zw=",
+    "originContent": "* Share findings that advance public knowledge",
+    "translatedContent": "* 分享推进公共知识的发现  "
+  },
+  {
+    "row": 603,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 604,
+    "rowsha": "fh5PsG79TmYl+xL+dl1FEdD9NggUUS9nl2/AtB9ODYA=",
+    "originContent": "### Data Characteristics",
+    "translatedContent": "### 数据特性  "
+  },
+  {
+    "row": 605,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 606,
+    "rowsha": "Zg2EntDP6mrbQfx7pVIRJglrVDHlOWcIxzTqaJlWlGI=",
+    "originContent": "Users should understand that TESSERA provides:",
+    "translatedContent": "用户应理解TESSERA提供：  "
+  },
+  {
+    "row": 607,
+    "rowsha": "F112Nyr0O0JLYmCukV9NfTnKy+5pljIzNHWZldMnTT0=",
+    "originContent": "* **Annual temporal resolution** — data represents yearly summaries, not real-time or high-frequency monitoring",
+    "translatedContent": "* **年度时间分辨率** — 数据表示年度汇总，而非实时或高频监测  "
+  },
+  {
+    "row": 608,
+    "rowsha": "9ArRT4XZJKvfDSS3znhHIZIhF0GpgW0NQPIj8lV0XwE=",
+    "originContent": "* **10-meter spatial resolution** — suitable for landscape-scale analysis",
+    "translatedContent": "* **10米空间分辨率** — 适用于景观尺度分析  "
+  },
+  {
+    "row": 609,
+    "rowsha": "3SOsv2CDNtOY7H1J9kZ37wlVS8AqGRLQNmNM99Zkbq0=",
+    "originContent": "* **Spectral-temporal embeddings** — compressed representations, not raw imagery",
+    "translatedContent": "* **光谱-时间嵌入** — 压缩表示形式，非原始影像  "
+  },
+  {
+    "row": 610,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 611,
+    "rowsha": "rz6Ln3itpRM1+rEcdqsbAMdYM57QuH/7URINu9ik7Kw=",
+    "originContent": "Please accurately represent these characteristics in your work.",
+    "translatedContent": "请在您的工作中准确反映这些特性。  "
+  },
+  {
+    "row": 612,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 613,
+    "rowsha": "B/WbCpYnmfWVQCUugkCNatUkzBAsm9vShd31diRGckk=",
+    "originContent": "### Community Standards",
+    "translatedContent": "### 社区标准  "
+  },
+  {
+    "row": 614,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 615,
+    "rowsha": "SqsgkPu/+pReBo+npx3PPEEgiY/UcmnrRVI+7UPQ0PA=",
+    "originContent": "We encourage responsible use and welcome community feedback. If you have concerns about potential applications or suggestions for improving these guidelines, please contact us.",
+    "translatedContent": "我们鼓励负责任的使用并欢迎社区反馈。如您对潜在应用有疑虑或改进指南的建议，请联系我们。  "
+  },
+  {
+    "row": 616,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 617,
+    "rowsha": "UzVhizgpNwP3iIEs6+leLxABm7Vvimbb/evQcJMHIk8=",
+    "originContent": "We reserve the right to update these guidelines based on community input and emerging considerations, though such updates do not retroactively affect the CC-0 license under which data is released.",
+    "translatedContent": "我们保留根据社区反馈和新出现的考虑因素更新本指南的权利，但此类更新不追溯影响数据发布时所采用的CC-0许可证。  "
+  },
+  {
+    "row": 618,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 619,
+    "rowsha": "ts/0Pa9PSun+7tsaKhZOHWaYTjIatUU4o2X9d87Arec=",
+    "originContent": "### Contact",
+    "translatedContent": "### 联系方式  "
+  },
+  {
+    "row": 620,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 621,
+    "rowsha": "JLE4bWOgAYlEnsJuzx9PTIsQzhPooIBjx1e5TP7hJJI=",
+    "originContent": "For questions or feedback: Email sk818@cam.ac.uk",
+    "translatedContent": "如有问题或反馈，请发送邮件至 sk818@cam.ac.uk  "
+  },
+  {
+    "row": 622,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 623,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---  "
+  },
+  {
+    "row": 624,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 625,
+    "rowsha": "jmK22algr284OAdL15al1ZbJD7OHMgT8sT8QiSX9E/g=",
+    "originContent": "*Last updated: February 25, 2026*",
+    "translatedContent": "*最后更新：2026年2月25日*"
+  },
+  {
+    "row": 626,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 627,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

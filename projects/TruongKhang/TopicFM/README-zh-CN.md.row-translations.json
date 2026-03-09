@@ -1,0 +1,686 @@
+[
+  {
+    "row": 1,
+    "rowsha": "RPW5ZRDLhC4zRPmz3X9jqf7jqg5LI1f67M5hKtUvQmI=",
+    "originContent": "# TopicFM+: Boosting Accuracy and Efficiency of Topic-Assisted Feature Matching ",
+    "translatedContent": "# TopicFM+: 提升主题辅助特征匹配的准确性和效率"
+  },
+  {
+    "row": 2,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "U65Dlz2BKYp7RyyOW4pN0mrsvlkhihqeBcmFrMSKeE8=",
+    "originContent": "This code implements [TopicFM+](https://arxiv.org/abs/2307.00485), which is an extension of [TopicFM](https://arxiv.org/abs/2207.00328). For the implementation of previous version TopicFM, please checkout the `aaai23_ver` branch.",
+    "translatedContent": "本代码实现了[TopicFM+](https://arxiv.org/abs/2307.00485)，这是[TopicFM](https://arxiv.org/abs/2207.00328)的扩展版本。关于之前版本TopicFM的实现，请查看`aaai23_ver`分支。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 需求"
+  },
+  {
+    "row": 6,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "本文中的所有实验均在Ubuntu环境下实现，"
+  },
+  {
+    "row": 8,
+    "rowsha": "X5u9u/28D+DM4kuae/GMGkJS2P00M3X54SKWnOe68JA=",
+    "originContent": "All experiments in this paper are implemented on the Ubuntu environment ",
+    "translatedContent": "NVIDIA驱动版本不低于430.64，CUDA版本为10.1。"
+  },
+  {
+    "row": 9,
+    "rowsha": "Zp1zAtE4qT9139L93mgDsH6/DYw8ZswEuX694SWi9fU=",
+    "originContent": "with a NVIDIA driver of at least 430.64 and CUDA 10.1.",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "首先，通过anaconda创建虚拟环境，如下所示，"
+  },
+  {
+    "row": 11,
+    "rowsha": "r5bppUuJ3lhGPhShPeWKyGscGR1L9ap5QziskK9kbR0=",
+    "originContent": "First, create a virtual environment by anaconda as follows,",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    conda create -n topicfm python=3.8 "
+  },
+  {
+    "row": 13,
+    "rowsha": "WLy+KF1JoqR8Ju2x3o43YQ2Bb6XOsi25DKqcgHd3/eo=",
+    "originContent": "    conda create -n topicfm python=3.8 ",
+    "translatedContent": "    conda activate topicfm"
+  },
+  {
+    "row": 14,
+    "rowsha": "dF1zg2eWagA6UfZuWfJP2CZEdWhAwvXfa/NZmGFYfw8=",
+    "originContent": "    conda activate topicfm",
+    "translatedContent": "    conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=11.3 -c pytorch"
+  },
+  {
+    "row": 15,
+    "rowsha": "p404lZn0d3HAua3yg0UBSYD8zlCxan8Eiq3Tq8jGDkw=",
+    "originContent": "    conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=11.3 -c pytorch",
+    "translatedContent": "    pip install -r requirements.txt"
+  },
+  {
+    "row": 16,
+    "rowsha": "+NKC0vwYQgnTT+HBcUv0fI91TXX3bV2l62ETZ0yRyG8=",
+    "originContent": "    pip install -r requirements.txt",
+    "translatedContent": "    # 使用pip安装任何缺失的包"
+  },
+  {
+    "row": 17,
+    "rowsha": "pwtX+/RAAgqsu97+HoeMbA/G/jPpj9wiwaIrJVEqmwM=",
+    "originContent": "    # using pip to install any missing packages",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 数据准备"
+  },
+  {
+    "row": 19,
+    "rowsha": "xSjOmCEDFN7MYEBiUSPnf9PdweCkj6W3R4t3IXSlwPA=",
+    "originContent": "## Data Preparation",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "所提方法在MegaDepth数据集上进行训练，并在MegaDepth测试集、ScanNet、HPatches、Aachen Day and Night (v1.1)和InLoc数据集上进行评估。"
+  },
+  {
+    "row": 21,
+    "rowsha": "eGqws6u0s/4PjrZadDQH2fhZSQpXb4fRKNxK02bS0Cc=",
+    "originContent": "The proposed method is trained on the MegaDepth dataset and evaluated on the MegaDepth test, ScanNet, HPatches, Aachen Day and Night (v1.1), and InLoc dataset.",
+    "translatedContent": "这些数据集都很大，因此无法包含在本代码中。"
+  },
+  {
+    "row": 22,
+    "rowsha": "51vq7duIbmZ1Hc59vSj13KuGU82DsxblWTjrm2V9fls=",
+    "originContent": "All these datasets are large, so we cannot include them in this code. ",
+    "translatedContent": "以下描述帮助下载这些数据集。"
+  },
+  {
+    "row": 23,
+    "rowsha": "KOLSeKngDEn+OZJDBHjGVG4dKayda6/3q7XDz7ZUTC0=",
+    "originContent": "The following descriptions help download these datasets. ",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### MegaDepth"
+  },
+  {
+    "row": 25,
+    "rowsha": "g/DMF+KFeMn4cXHrq2TllJhWoQBrJbqA8RFV1PvAmpA=",
+    "originContent": "### MegaDepth",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "该数据集用于训练和评估（Li和Snavely 2018）。"
+  },
+  {
+    "row": 27,
+    "rowsha": "D2Gd1fO5DLK6FSfB1iaS/dO4kt+VZ5f1rJfNY4x6YEk=",
+    "originContent": "This dataset is used for both training and evaluation (Li and Snavely 2018). ",
+    "translatedContent": "要在我们的代码中使用该数据集，请遵循[LoFTR的说明](https://github.com/zju3dv/LoFTR/blob/master/docs/TRAINING.md)。"
+  },
+  {
+    "row": 28,
+    "rowsha": "Fes0nP0LNLhAL89JgmrcV3RxDscr2UStjncDW9GWk7w=",
+    "originContent": "To use this dataset with our code, please follow the [instruction of LoFTR](https://github.com/zju3dv/LoFTR/blob/master/docs/TRAINING.md).",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ScanNet"
+  },
+  {
+    "row": 30,
+    "rowsha": "RS6nzWwatIBBzwMYAdXI7hz8/9SIc+2c4wvn1y9TNbQ=",
+    "originContent": "### ScanNet ",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "ntaa6jbmqhuLIUFXYHim2Eb0mZsws2+WagK6cfpb/vo=",
+    "originContent": "We only use 1500 image pairs of ScanNet (Dai et al. 2017) for evaluation. ",
+    "translatedContent": "我们仅使用ScanNet（Dai等人，2017）的1500对图像进行评估。"
+  },
+  {
+    "row": 32,
+    "rowsha": "JB31w9izOylkEx+V8k4p5Wnq30JrK8ZUYsyirPQruRE=",
+    "originContent": "Please download and prepare [test data](https://drive.google.com/drive/folders/1DOcOPZb3-5cWxLqn256AhwUVjBPifhuf) of ScanNet",
+    "translatedContent": "请下载并准备ScanNet的[测试数据](https://drive.google.com/drive/folders/1DOcOPZb3-5cWxLqn256AhwUVjBPifhuf)，"
+  },
+  {
+    "row": 33,
+    "rowsha": "HLpGJrMECB9gcUkBsvU9v+12ADXPXtnO77YvQ/RwbzU=",
+    "originContent": "provided by [LoFTR](https://github.com/zju3dv/LoFTR/blob/master/docs/TRAINING.md).",
+    "translatedContent": "由[LoFTR](https://github.com/zju3dv/LoFTR/blob/master/docs/TRAINING.md)提供。"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "RyMVT8AI38tOz4vO0V79NvmoheEkQCWRArItkq8CyJU=",
+    "originContent": "## Training",
+    "translatedContent": "## 训练"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "E/+PM1xnM6opnFjZ9xVVQX7xbaPnCcHn2s+jJLPAjwU=",
+    "originContent": "To train our model, we recommend using GPU cards as much as possible, and each GPU should be at least 12GB.",
+    "translatedContent": "为了训练我们的模型，建议尽可能使用GPU卡，每块GPU至少12GB。"
+  },
+  {
+    "row": 38,
+    "rowsha": "WOdl+GcZDMKcZdlVFPVGYuiZm4h+oajTyukTZGczrbI=",
+    "originContent": "In our settings, we train on 4 GPUs, each of which is 12GB. ",
+    "translatedContent": "在我们的设置中，使用4块GPU进行训练，每块12GB。"
+  },
+  {
+    "row": 39,
+    "rowsha": "iim8z1xz7dQUWGlBOv971N0cgxYMQvsxOC6UzFm7Qow=",
+    "originContent": "Please setup your hardware environment in `scripts/reproduce_train/outdoor.sh`.",
+    "translatedContent": "请在`scripts/reproduce_train/outdoor.sh`中配置您的硬件环境。"
+  },
+  {
+    "row": 40,
+    "rowsha": "YwVNV1rWvSwOTwek84VKg0s5fN5jBrpiId98j+mGHeg=",
+    "originContent": "Then run this command to start training.",
+    "translatedContent": "然后运行此命令开始训练。"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "Eoi0oSoRKDDxX5w6Y5zmyXwynrEhsu3bZUiCSj9zANo=",
+    "originContent": "    bash scripts/reproduce_train/outdoor.sh <path to the training config file>",
+    "translatedContent": "    bash scripts/reproduce_train/outdoor.sh <训练配置文件的路径>"
+  },
+  {
+    "row": 43,
+    "rowsha": "lUpaL3sq9pNjNHm5cLGqsXxavBgEid21zh/q9gZM37w=",
+    "originContent": "    # for example,",
+    "translatedContent": "    # 例如，"
+  },
+  {
+    "row": 44,
+    "rowsha": "+pecCKN3sTAf3rUchiS5RmVMy4PlBpUI79gIqlSq9lk=",
+    "originContent": "    bash scripts/reproduce_train/outdoor.sh configs/megadepth_train_topicfmfast.py",
+    "translatedContent": "    bash scripts/reproduce_train/outdoor.sh configs/megadepth_train_topicfmfast.py"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "iHttcZLDgkjPMFevL0ImHw5eTdmhyI6gwB+C3ID6S58=",
+    "originContent": " We provided the pretrained models, which were used in the paper ([TopicFM-fast](https://drive.google.com/file/d/1DACWdszttpiCZlk4aazhu0IDWvHkLPZf/view?usp=sharing), [TopicFM+](https://drive.google.com/file/d/1RTZJYrKQ593PBJTdxi9k5C4qZ5lSXnf0/view?usp=sharing))",
+    "translatedContent": " 我们提供了论文中使用的预训练模型（[TopicFM-fast](https://drive.google.com/file/d/1DACWdszttpiCZlk4aazhu0IDWvHkLPZf/view?usp=sharing)，[TopicFM+](https://drive.google.com/file/d/1RTZJYrKQ593PBJTdxi9k5C4qZ5lSXnf0/view?usp=sharing)）"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "Lls8H2uTWGb5aqbRumacEGCmILhDJm7y1QAXsnORtIg=",
+    "originContent": "## Evaluation",
+    "translatedContent": "## 评估"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "0ia+sRHoOocWVMyKfKn8c8/V71X0G+ct3aD1PmLrP+I=",
+    "originContent": "### MegaDepth (relative pose estimation)",
+    "translatedContent": "### MegaDepth（相对位姿估计）"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "OUZZUwqALy+bZDA6UYBVwn/JK2MIgtesKWkrZ1l9ozo=",
+    "originContent": "    bash scripts/reproduce_test/outdoor.sh <path to the config file in the folder configs> <path to pretrained model>",
+    "translatedContent": "    bash scripts/reproduce_test/outdoor.sh <configs文件夹中配置文件的路径> <预训练模型的路径>"
+  },
+  {
+    "row": 53,
+    "rowsha": "QwHSco3MmycmiirWnLSJtBd7bC1fgtxx4UuG3wIq9ec=",
+    "originContent": "    # For example, to evaluate TopicFM-fast ",
+    "translatedContent": "    # 例如，评估TopicFM-fast "
+  },
+  {
+    "row": 54,
+    "rowsha": "Mq6omNUiQRemMvX3Zl5XofsmCIZf+XvLPmwtg8KxAuc=",
+    "originContent": "    bash scripts/reproduce_test/outdoor.sh configs/megadepth_test_topicfmfast.py pretrained/topicfm_fast.ckpt",
+    "translatedContent": "    bash scripts/reproduce_test/outdoor.sh configs/megadepth_test_topicfmfast.py pretrained/topicfm_fast.ckpt"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "nHTJDtd8lNha9UGD0iZKrTCD7o0DH5xNIzpvjjnVLi8=",
+    "originContent": "### ScanNet (relative pose estimation)",
+    "translatedContent": "### ScanNet（相对位姿估计）"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "xakqIm0dB6i3B12VJez0Pkz9vamQQMj7iwE4VknsdOw=",
+    "originContent": "    bash scripts/reproduce_test/indoor.sh <path to the config file in the folder configs> <path to pretrained model>",
+    "translatedContent": "    bash scripts/reproduce_test/indoor.sh <configs文件夹中配置文件的路径> <预训练模型的路径>"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "FGjH7BfTq7y6fut4+2++ov602jsmcsAIpq+lLDquN+w=",
+    "originContent": "### HPatches, Aachen v1.1, InLoc",
+    "translatedContent": "### HPatches, Aachen v1.1, InLoc"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "sRsOuxsq10NKwIn4KyXOq0dkzw93+Lp2pqNda9cwcZM=",
+    "originContent": "To evaluate on these datasets, we integrate our code to the image-matching-toolbox provided by Patch2Pix.",
+    "translatedContent": "要在这些数据集上评估，我们将代码集成到了Patch2Pix提供的image-matching-toolbox中。  "
+  },
+  {
+    "row": 63,
+    "rowsha": "OKx0hSZOZlvaXOuQ0iv7N06+WffBXTxldrkhpbG75qg=",
+    "originContent": "The updated code and detailed evaluations are available [here](https://github.com/TruongKhang/image-matching-toolbox). ",
+    "translatedContent": "更新后的代码和详细评估可在[此处](https://github.com/TruongKhang/image-matching-toolbox)获取。 "
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "RlQV4DhVpBcbggY6tDLpJzEXz3fPRWGmAtNsUE9H/mU=",
+    "originContent": "### Image Matching Challange 2023",
+    "translatedContent": "### 图像匹配挑战赛 2023"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "kcEp8BYNAZ835d50TB/GY2EhEeob2PBNfEFbWr6cmWE=",
+    "originContent": "Our method TopicFM+ achieved a high ranking (silver medal) on the Kaggle IMC2023 [here](https://www.kaggle.com/competitions/image-matching-challenge-2023/leaderboard?tab=public). ",
+    "translatedContent": "我们的方法TopicFM+在Kaggle IMC2023中获得了较高排名（银牌），详情见[这里](https://www.kaggle.com/competitions/image-matching-challenge-2023/leaderboard?tab=public)。 "
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "Cy8OKm3TQ90SIjh7kAS/STapAVgv6Ou1S53hMjnj7XM=",
+    "originContent": "### Efficiency comparison",
+    "translatedContent": "### 效率对比"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "OJSMVHQKNOP1Kvna57RWZRgURTaQKAhupmUFcSKK9oQ=",
+    "originContent": "The efficiency evaluation reported in the paper was measured by averaging runtime of 1500 image pairs of the ScanNet evaluation dataset.",
+    "translatedContent": "论文中报告的效率评估是通过对ScanNet评估数据集中的1500对图像的运行时间取平均得到的。  "
+  },
+  {
+    "row": 72,
+    "rowsha": "OY9Hhn7VKEffAdIWgwp3fPelaOT4fdMzWgLXFJMjNow=",
+    "originContent": "The image size can be changed in `configs/data/scannet_test_topicfmfast.py`",
+    "translatedContent": "图像尺寸可在 `configs/data/scannet_test_topicfmfast.py` 中修改"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "wvR6LQopdenA5LeMBY0IOGY8MFsXzfzCLgteeRC4Lo4=",
+    "originContent": "We computed computational costs in GFLOPs and runtimes in ms for LoFTR, MatchFormer, QuadTree, and AspanFormer. However, this process required minor modification of the code of each method individually. Please contact us if you need evaluations for those methods.",
+    "translatedContent": "我们计算了LoFTR、MatchFormer、QuadTree和AspanFormer的计算开销（GFLOPs）和运行时间（毫秒）。但此过程需要对各方法的代码做少量修改。若需要这些方法的评估结果，请联系我们。"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "ktH/IWkZXBDszdPuXvEF4gDe6CtyA3hO8ec+96ES1DA=",
+    "originContent": "Here, we provide the runtime measurement for our method, TopicFM-fast",
+    "translatedContent": "这里提供我们方法TopicFM-fast的运行时间测量命令"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "/0oW4kxFHfjFfmoi4oa0zqdkBGNvu8CnlL2+X36/2Oo=",
+    "originContent": "    python visualization.py --method topicfmv2 --dataset_name scannet --config_file configs/scannet_test_topicfmfast.py  --measure_time --no_viz",
+    "translatedContent": "    python visualization.py --method topicfmv2 --dataset_name scannet --config_file configs/scannet_test_topicfmfast.py  --measure_time --no_viz"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "CwTqNg20dnND6SGFRKLazOBT1FRjDzuMQgkVWQQ4wM4=",
+    "originContent": "Runtime report at the image resolution of (640, 480) (measured on NVIDIA TITAN V 32GB of Mem.)",
+    "translatedContent": "图像分辨率为 (640, 480) 时的运行时间报告（在NVIDIA TITAN V 32GB显存上测量）"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "|   模型       |    640 x 480   |    1200 x 896    |"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "|:--------------|:--------------:|:----------------:|"
+  },
+  {
+    "row": 83,
+    "rowsha": "O0PzaLGMtvL6lBu7q4R/za9RcOYvcvhOr9duSOsCsKk=",
+    "originContent": "|   Model       |    640 x 480   |    1200 x 896    |",
+    "translatedContent": "| TopicFM-fast  |     56 毫秒    |      346 毫秒    |"
+  },
+  {
+    "row": 84,
+    "rowsha": "EMabdEXgZALPVLMCFd1kaY+JPIWHfMi/YwTxHMPCHYI=",
+    "originContent": "|:--------------|:--------------:|:----------------:|",
+    "translatedContent": "| TopicFM+      |     90 毫秒    |      388 毫秒    |"
+  },
+  {
+    "row": 85,
+    "rowsha": "rcN1zBogMmQEX9woLse8/ug+rSUIybv/VP/3IxHOXY4=",
+    "originContent": "| TopicFM-fast  |     56 ms      |      346 ms      |",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "Ca82wIbEKAtotF1mnXq7giGbualjJWnIwUTMqKX5h3U=",
+    "originContent": "| TopicFM+      |     90 ms      |      388 ms      |",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 引用"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如果您觉得此代码有用，请引用以下文献："
+  },
+  {
+    "row": 89,
+    "rowsha": "STdZdt1kDY2iv63npzDMroU99PW54v6Jcen0Jx2EuyM=",
+    "originContent": "## Citations",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "XAmgby3dMkdBnm7tPBM0hYIbzKboqNDLzFzli/IPsFQ=",
+    "originContent": "If you find this code useful, please cite the following works:",
+    "translatedContent": "    @article{giang2024topicfm+,"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "      title={Topicfm+: 提升主题辅助特征匹配的准确性和效率},"
+  },
+  {
+    "row": 92,
+    "rowsha": "W3fzxaJK4SzqgcFyL4sOUN+0y3KH509s5082UIdPYjw=",
+    "originContent": "    @article{giang2024topicfm+,",
+    "translatedContent": "      author={Giang, Khang Truong 和 Song, Soohwan 以及 Jo, Sungho},"
+  },
+  {
+    "row": 93,
+    "rowsha": "X/FPFRZl2meQi3WnWrAnfis5NBp80R+X6tEpZKkq2+c=",
+    "originContent": "      title={Topicfm+: Boosting accuracy and efficiency of topic-assisted feature matching},",
+    "translatedContent": "      journal={IEEE 图像处理汇刊},"
+  },
+  {
+    "row": 94,
+    "rowsha": "uTVWChgTGPjHe/BQ9wajKqVJPnUaqQWYO0TLUaiNu1w=",
+    "originContent": "      author={Giang, Khang Truong and Song, Soohwan and Jo, Sungho},",
+    "translatedContent": "      year={2024},"
+  },
+  {
+    "row": 95,
+    "rowsha": "yenApbNH0E6rOYQDol3g1Aa5c7zKuwsBRudaKxf2zz4=",
+    "originContent": "      journal={IEEE Transactions on Image Processing},",
+    "translatedContent": "      publisher={IEEE}"
+  },
+  {
+    "row": 96,
+    "rowsha": "uqROWAGDIn5qDkIxkd056RTQ+SbXg6BFb7UhemVNliM=",
+    "originContent": "      year={2024},",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 97,
+    "rowsha": "yIShrDf88diPWtJeFjsb0Wqg5vedssI1UGQToDcrktM=",
+    "originContent": "      publisher={IEEE}",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "或者"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "cXVRejcLXNLmZOP9KcTqnbXOFwWOuXcv4JClSF5J2tY=",
+    "originContent": "or",
+    "translatedContent": "    @inproceedings{giang2023topicfm,"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "        title={TopicFM: 鲁棒且可解释的主题辅助特征匹配},"
+  },
+  {
+    "row": 102,
+    "rowsha": "4f1QF0mtnEoj1teqPrZjUPOEInmF6vSY1nV7tdmyGEI=",
+    "originContent": "    @inproceedings{giang2023topicfm,",
+    "translatedContent": "        author={Giang, Khang Truong 和 Song, Soohwan 以及 Jo, Sungho},"
+  },
+  {
+    "row": 103,
+    "rowsha": "9ghG0I2ucXczggDDsJg5aDChkuTS5ZdICsYQ2csK4d0=",
+    "originContent": "        title={TopicFM: Robust and interpretable topic-assisted feature matching},",
+    "translatedContent": "        booktitle={AAAI 人工智能会议论文集},"
+  },
+  {
+    "row": 104,
+    "rowsha": "rQFhISMKIQx5LusXT1Xo7KYvZ15fZFn1g7JUk6OLZbw=",
+    "originContent": "        author={Giang, Khang Truong and Song, Soohwan and Jo, Sungho},",
+    "translatedContent": "        volume={37},"
+  },
+  {
+    "row": 105,
+    "rowsha": "BQfk2Sos822cV5fmJdp6bvzcJKKBy3KVUfRhkV6l3xA=",
+    "originContent": "        booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},",
+    "translatedContent": "        number={2},"
+  },
+  {
+    "row": 106,
+    "rowsha": "TlC8j7+IeR6DqGGjmeDkgsus82+t0kqa68bhADQh65E=",
+    "originContent": "        volume={37},",
+    "translatedContent": "        pages={2447--2455},"
+  },
+  {
+    "row": 107,
+    "rowsha": "yGxGFkfaSD6VKUJ+lZBTk6Bs0ZXQfYeQvufiGVnQCiQ=",
+    "originContent": "        number={2},",
+    "translatedContent": "        year={2023}"
+  },
+  {
+    "row": 108,
+    "rowsha": "Uz96s4LR/PUMGBcwsT9HSrQtrgJSUi4HD1dQ6liPczQ=",
+    "originContent": "        pages={2447--2455},",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 109,
+    "rowsha": "26q2t46oSh5/1XtFgtLOln49pmfOloUKF2i1DrmEpts=",
+    "originContent": "        year={2023}",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "## 致谢"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "此代码基于 [LoFTR](https://github.com/zju3dv/LoFTR) 构建。我们感谢作者提供的有用源码。"
+  },
+  {
+    "row": 112,
+    "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+    "originContent": "## Acknowledgement",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "8lVK5WTTQvxzFNF4hl9qFI9k9BOWWScQLTVKKfHwwEY=",
+    "originContent": "This code is built based on [LoFTR](https://github.com/zju3dv/LoFTR). We thank the authors for their useful source code.",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

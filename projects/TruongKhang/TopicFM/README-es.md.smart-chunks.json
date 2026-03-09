@@ -1,0 +1,725 @@
+[
+  {
+    "Id": 1,
+    "Content": "# TopicFM+: Boosting Accuracy and Efficiency of Topic-Assisted Feature Matching \n    \nThis code implements [TopicFM+](https://arxiv.org/abs/2307.00485), which is an extension of [TopicFM](https://arxiv.org/abs/2207.00328). For the implementation of previous version TopicFM, please checkout the `aaai23_ver` branch.\n\n\n## Requirements\n\nAll experiments in this paper are implemented on the Ubuntu environment \nwith a NVIDIA driver of at least 430.64 and CUDA 10.1.\n\nFirst, create a virtual environment by anaconda as follows,\n\n    conda create -n topicfm python=3.8 \n    conda activate topicfm\n    conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=11.3 -c pytorch\n    pip install -r requirements.txt\n    # using pip to install any missing packages\n\n## Data Preparation\n\nThe proposed method is trained on the MegaDepth dataset and evaluated on the MegaDepth test, ScanNet, HPatches, Aachen Day and Night (v1.1), and InLoc dataset.\nAll these datasets are large, so we cannot include them in this code. \nThe following descriptions help download these datasets. \n\n### MegaDepth\n\nThis dataset is used for both training and evaluation (Li and Snavely 2018). \nTo use this dataset with our code, please follow the [instruction of LoFTR](https://github.com/zju3dv/LoFTR/blob/master/docs/TRAINING.md).\n\n### ScanNet \nWe only use 1500 image pairs of ScanNet (Dai et al. 2017) for evaluation. \nPlease download and prepare [test data](https://drive.google.com/drive/folders/1DOcOPZb3-5cWxLqn256AhwUVjBPifhuf) of ScanNet\nprovided by [LoFTR](https://github.com/zju3dv/LoFTR/blob/master/docs/TRAINING.md).\n\n## Training\n\nTo train our model, we recommend using GPU cards as much as possible, and each GPU should be at least 12GB.\nIn our settings, we train on 4 GPUs, each of which is 12GB. \nPlease setup your hardware environment in `scripts/reproduce_train/outdoor.sh`.\nThen run this command to start training.",
+    "ContentSha": "LYG1vBw8t10X3Dddi3NSq7BkHXoQygnMkEqvmvrEKGg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# TopicFM+: Mejorando la Precisión y Eficiencia del Emparejamiento de Características Asistido por Tema\n    \nEste código implementa [TopicFM+](https://arxiv.org/abs/2307.00485), que es una extensión de [TopicFM](https://arxiv.org/abs/2207.00328). Para la implementación de la versión anterior TopicFM, por favor consulte la rama `aaai23_ver`.\n\n\n## Requisitos\n\nTodos los experimentos en este artículo se implementan en un entorno Ubuntu \ncon un controlador NVIDIA de al menos 430.64 y CUDA 10.1.\n\nPrimero, cree un entorno virtual con anaconda como sigue,\n\n    conda create -n topicfm python=3.8 \n    conda activate topicfm\n    conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=11.3 -c pytorch\n    pip install -r requirements.txt\n    # usar pip para instalar cualquier paquete que falte\n\n## Preparación de Datos\n\nEl método propuesto se entrena en el conjunto de datos MegaDepth y se evalúa en MegaDepth test, ScanNet, HPatches, Aachen Day and Night (v1.1), y el conjunto de datos InLoc.\nTodos estos conjuntos de datos son grandes, por lo que no podemos incluirlos en este código. \nLas siguientes descripciones ayudan a descargar estos conjuntos de datos. \n\n### MegaDepth\n\nEste conjunto de datos se usa tanto para entrenamiento como para evaluación (Li y Snavely 2018). \nPara usar este conjunto con nuestro código, por favor siga la [instrucción de LoFTR](https://github.com/zju3dv/LoFTR/blob/master/docs/TRAINING.md).\n\n### ScanNet \nSolo usamos 1500 pares de imágenes de ScanNet (Dai et al. 2017) para evaluación. \nPor favor descargue y prepare los [datos de prueba](https://drive.google.com/drive/folders/1DOcOPZb3-5cWxLqn256AhwUVjBPifhuf) de ScanNet\nproporcionados por [LoFTR](https://github.com/zju3dv/LoFTR/blob/master/docs/TRAINING.md).\n\n## Entrenamiento\n\nPara entrenar nuestro modelo, recomendamos usar tarjetas GPU tanto como sea posible, y cada GPU debe tener al menos 12GB.\nEn nuestras configuraciones, entrenamos en 4 GPUs, cada una de 12GB. \nPor favor configure su entorno de hardware en `scripts/reproduce_train/outdoor.sh`.\nLuego ejecute este comando para comenzar el entrenamiento.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RPW5ZRDLhC4zRPmz3X9jqf7jqg5LI1f67M5hKtUvQmI=",
+        "originContent": "# TopicFM+: Boosting Accuracy and Efficiency of Topic-Assisted Feature Matching ",
+        "translatedContent": "# TopicFM+: Mejorando la Precisión y Eficiencia del Emparejamiento de Características Asistido por Tema"
+      },
+      {
+        "row": 2,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 3,
+        "rowsha": "U65Dlz2BKYp7RyyOW4pN0mrsvlkhihqeBcmFrMSKeE8=",
+        "originContent": "This code implements [TopicFM+](https://arxiv.org/abs/2307.00485), which is an extension of [TopicFM](https://arxiv.org/abs/2207.00328). For the implementation of previous version TopicFM, please checkout the `aaai23_ver` branch.",
+        "translatedContent": "Este código implementa [TopicFM+](https://arxiv.org/abs/2307.00485), que es una extensión de [TopicFM](https://arxiv.org/abs/2207.00328). Para la implementación de la versión anterior TopicFM, por favor consulte la rama `aaai23_ver`."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## Requisitos"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "X5u9u/28D+DM4kuae/GMGkJS2P00M3X54SKWnOe68JA=",
+        "originContent": "All experiments in this paper are implemented on the Ubuntu environment ",
+        "translatedContent": "Todos los experimentos en este artículo se implementan en un entorno Ubuntu "
+      },
+      {
+        "row": 9,
+        "rowsha": "Zp1zAtE4qT9139L93mgDsH6/DYw8ZswEuX694SWi9fU=",
+        "originContent": "with a NVIDIA driver of at least 430.64 and CUDA 10.1.",
+        "translatedContent": "con un controlador NVIDIA de al menos 430.64 y CUDA 10.1."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "r5bppUuJ3lhGPhShPeWKyGscGR1L9ap5QziskK9kbR0=",
+        "originContent": "First, create a virtual environment by anaconda as follows,",
+        "translatedContent": "Primero, cree un entorno virtual con anaconda como sigue,"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "WLy+KF1JoqR8Ju2x3o43YQ2Bb6XOsi25DKqcgHd3/eo=",
+        "originContent": "    conda create -n topicfm python=3.8 ",
+        "translatedContent": "    conda create -n topicfm python=3.8 "
+      },
+      {
+        "row": 14,
+        "rowsha": "dF1zg2eWagA6UfZuWfJP2CZEdWhAwvXfa/NZmGFYfw8=",
+        "originContent": "    conda activate topicfm",
+        "translatedContent": "    conda activate topicfm"
+      },
+      {
+        "row": 15,
+        "rowsha": "p404lZn0d3HAua3yg0UBSYD8zlCxan8Eiq3Tq8jGDkw=",
+        "originContent": "    conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=11.3 -c pytorch",
+        "translatedContent": "    conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=11.3 -c pytorch"
+      },
+      {
+        "row": 16,
+        "rowsha": "+NKC0vwYQgnTT+HBcUv0fI91TXX3bV2l62ETZ0yRyG8=",
+        "originContent": "    pip install -r requirements.txt",
+        "translatedContent": "    pip install -r requirements.txt"
+      },
+      {
+        "row": 17,
+        "rowsha": "pwtX+/RAAgqsu97+HoeMbA/G/jPpj9wiwaIrJVEqmwM=",
+        "originContent": "    # using pip to install any missing packages",
+        "translatedContent": "    # usar pip para instalar cualquier paquete que falte"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "xSjOmCEDFN7MYEBiUSPnf9PdweCkj6W3R4t3IXSlwPA=",
+        "originContent": "## Data Preparation",
+        "translatedContent": "## Preparación de Datos"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "eGqws6u0s/4PjrZadDQH2fhZSQpXb4fRKNxK02bS0Cc=",
+        "originContent": "The proposed method is trained on the MegaDepth dataset and evaluated on the MegaDepth test, ScanNet, HPatches, Aachen Day and Night (v1.1), and InLoc dataset.",
+        "translatedContent": "El método propuesto se entrena en el conjunto de datos MegaDepth y se evalúa en MegaDepth test, ScanNet, HPatches, Aachen Day and Night (v1.1), y el conjunto de datos InLoc."
+      },
+      {
+        "row": 22,
+        "rowsha": "51vq7duIbmZ1Hc59vSj13KuGU82DsxblWTjrm2V9fls=",
+        "originContent": "All these datasets are large, so we cannot include them in this code. ",
+        "translatedContent": "Todos estos conjuntos de datos son grandes, por lo que no podemos incluirlos en este código. "
+      },
+      {
+        "row": 23,
+        "rowsha": "KOLSeKngDEn+OZJDBHjGVG4dKayda6/3q7XDz7ZUTC0=",
+        "originContent": "The following descriptions help download these datasets. ",
+        "translatedContent": "Las siguientes descripciones ayudan a descargar estos conjuntos de datos. "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "g/DMF+KFeMn4cXHrq2TllJhWoQBrJbqA8RFV1PvAmpA=",
+        "originContent": "### MegaDepth",
+        "translatedContent": "### MegaDepth"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "D2Gd1fO5DLK6FSfB1iaS/dO4kt+VZ5f1rJfNY4x6YEk=",
+        "originContent": "This dataset is used for both training and evaluation (Li and Snavely 2018). ",
+        "translatedContent": "Este conjunto de datos se usa tanto para entrenamiento como para evaluación (Li y Snavely 2018). "
+      },
+      {
+        "row": 28,
+        "rowsha": "Fes0nP0LNLhAL89JgmrcV3RxDscr2UStjncDW9GWk7w=",
+        "originContent": "To use this dataset with our code, please follow the [instruction of LoFTR](https://github.com/zju3dv/LoFTR/blob/master/docs/TRAINING.md).",
+        "translatedContent": "Para usar este conjunto con nuestro código, por favor siga la [instrucción de LoFTR](https://github.com/zju3dv/LoFTR/blob/master/docs/TRAINING.md)."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "RS6nzWwatIBBzwMYAdXI7hz8/9SIc+2c4wvn1y9TNbQ=",
+        "originContent": "### ScanNet ",
+        "translatedContent": "### ScanNet "
+      },
+      {
+        "row": 31,
+        "rowsha": "ntaa6jbmqhuLIUFXYHim2Eb0mZsws2+WagK6cfpb/vo=",
+        "originContent": "We only use 1500 image pairs of ScanNet (Dai et al. 2017) for evaluation. ",
+        "translatedContent": "Solo usamos 1500 pares de imágenes de ScanNet (Dai et al. 2017) para evaluación. "
+      },
+      {
+        "row": 32,
+        "rowsha": "JB31w9izOylkEx+V8k4p5Wnq30JrK8ZUYsyirPQruRE=",
+        "originContent": "Please download and prepare [test data](https://drive.google.com/drive/folders/1DOcOPZb3-5cWxLqn256AhwUVjBPifhuf) of ScanNet",
+        "translatedContent": "Por favor descargue y prepare los [datos de prueba](https://drive.google.com/drive/folders/1DOcOPZb3-5cWxLqn256AhwUVjBPifhuf) de ScanNet"
+      },
+      {
+        "row": 33,
+        "rowsha": "HLpGJrMECB9gcUkBsvU9v+12ADXPXtnO77YvQ/RwbzU=",
+        "originContent": "provided by [LoFTR](https://github.com/zju3dv/LoFTR/blob/master/docs/TRAINING.md).",
+        "translatedContent": "proporcionados por [LoFTR](https://github.com/zju3dv/LoFTR/blob/master/docs/TRAINING.md)."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "RyMVT8AI38tOz4vO0V79NvmoheEkQCWRArItkq8CyJU=",
+        "originContent": "## Training",
+        "translatedContent": "## Entrenamiento"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "E/+PM1xnM6opnFjZ9xVVQX7xbaPnCcHn2s+jJLPAjwU=",
+        "originContent": "To train our model, we recommend using GPU cards as much as possible, and each GPU should be at least 12GB.",
+        "translatedContent": "Para entrenar nuestro modelo, recomendamos usar tarjetas GPU tanto como sea posible, y cada GPU debe tener al menos 12GB."
+      },
+      {
+        "row": 38,
+        "rowsha": "WOdl+GcZDMKcZdlVFPVGYuiZm4h+oajTyukTZGczrbI=",
+        "originContent": "In our settings, we train on 4 GPUs, each of which is 12GB. ",
+        "translatedContent": "En nuestras configuraciones, entrenamos en 4 GPUs, cada una de 12GB. "
+      },
+      {
+        "row": 39,
+        "rowsha": "iim8z1xz7dQUWGlBOv971N0cgxYMQvsxOC6UzFm7Qow=",
+        "originContent": "Please setup your hardware environment in `scripts/reproduce_train/outdoor.sh`.",
+        "translatedContent": "Por favor configure su entorno de hardware en `scripts/reproduce_train/outdoor.sh`."
+      },
+      {
+        "row": 40,
+        "rowsha": "YwVNV1rWvSwOTwek84VKg0s5fN5jBrpiId98j+mGHeg=",
+        "originContent": "Then run this command to start training.",
+        "translatedContent": "Luego ejecute este comando para comenzar el entrenamiento."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n    bash scripts/reproduce_train/outdoor.sh <path to the training config file>\n    # for example,\n    bash scripts/reproduce_train/outdoor.sh configs/megadepth_train_topicfmfast.py\n\n We provided the pretrained models, which were used in the paper ([TopicFM-fast](https://drive.google.com/file/d/1DACWdszttpiCZlk4aazhu0IDWvHkLPZf/view?usp=sharing), [TopicFM+](https://drive.google.com/file/d/1RTZJYrKQ593PBJTdxi9k5C4qZ5lSXnf0/view?usp=sharing))\n\n## Evaluation\n\n### MegaDepth (relative pose estimation)\n\n    bash scripts/reproduce_test/outdoor.sh <path to the config file in the folder configs> <path to pretrained model>\n    # For example, to evaluate TopicFM-fast \n    bash scripts/reproduce_test/outdoor.sh configs/megadepth_test_topicfmfast.py pretrained/topicfm_fast.ckpt\n\n### ScanNet (relative pose estimation)\n\n    bash scripts/reproduce_test/indoor.sh <path to the config file in the folder configs> <path to pretrained model>\n\n### HPatches, Aachen v1.1, InLoc\n\nTo evaluate on these datasets, we integrate our code to the image-matching-toolbox provided by Patch2Pix.\nThe updated code and detailed evaluations are available [here](https://github.com/TruongKhang/image-matching-toolbox). \n\n### Image Matching Challange 2023\n\nOur method TopicFM+ achieved a high ranking (silver medal) on the Kaggle IMC2023 [here](https://www.kaggle.com/competitions/image-matching-challenge-2023/leaderboard?tab=public). \n\n### Efficiency comparison\n\nThe efficiency evaluation reported in the paper was measured by averaging runtime of 1500 image pairs of the ScanNet evaluation dataset.\nThe image size can be changed in `configs/data/scannet_test_topicfmfast.py`\n\nWe computed computational costs in GFLOPs and runtimes in ms for LoFTR, MatchFormer, QuadTree, and AspanFormer. However, this process required minor modification of the code of each method individually. Please contact us if you need evaluations for those methods.\n\nHere, we provide the runtime measurement for our method, TopicFM-fast\n\n    python visualization.py --method topicfmv2 --dataset_name scannet --config_file configs/scannet_test_topicfmfast.py  --measure_time --no_viz\n\nRuntime report at the image resolution of (640, 480) (measured on NVIDIA TITAN V 32GB of Mem.)",
+    "ContentSha": "75p4zOFs/wHHApAJ96f0VMaoFeaM/8mFfRM9UDw4FBs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n    bash scripts/reproduce_train/outdoor.sh <ruta al archivo de configuración de entrenamiento>\n    # por ejemplo,\n    bash scripts/reproduce_train/outdoor.sh configs/megadepth_train_topicfmfast.py\n\n Proveemos los modelos preentrenados, que fueron usados en el artículo ([TopicFM-fast](https://drive.google.com/file/d/1DACWdszttpiCZlk4aazhu0IDWvHkLPZf/view?usp=sharing), [TopicFM+](https://drive.google.com/file/d/1RTZJYrKQ593PBJTdxi9k5C4qZ5lSXnf0/view?usp=sharing))\n\n## Evaluación\n\n### MegaDepth (estimación de pose relativa)\n\n    bash scripts/reproduce_test/outdoor.sh <ruta al archivo de configuración en la carpeta configs> <ruta al modelo preentrenado>\n    # Por ejemplo, para evaluar TopicFM-fast \n    bash scripts/reproduce_test/outdoor.sh configs/megadepth_test_topicfmfast.py pretrained/topicfm_fast.ckpt\n\n### ScanNet (estimación de pose relativa)\n\n    bash scripts/reproduce_test/indoor.sh <ruta al archivo de configuración en la carpeta configs> <ruta al modelo preentrenado>\n\n### HPatches, Aachen v1.1, InLoc\n\nPara evaluar en estos conjuntos de datos, integramos nuestro código en la caja de herramientas de coincidencia de imágenes proporcionada por Patch2Pix.\nEl código actualizado y evaluaciones detalladas están disponibles [aquí](https://github.com/TruongKhang/image-matching-toolbox). \n\n### Desafío de Coincidencia de Imágenes 2023\n\nNuestro método TopicFM+ logró una alta clasificación (medalla de plata) en el Kaggle IMC2023 [aquí](https://www.kaggle.com/competitions/image-matching-challenge-2023/leaderboard?tab=public). \n\n### Comparación de eficiencia\n\nLa evaluación de eficiencia reportada en el artículo fue medida promediando el tiempo de ejecución de 1500 pares de imágenes del conjunto de datos de evaluación ScanNet.\nEl tamaño de imagen puede cambiarse en `configs/data/scannet_test_topicfmfast.py`\n\nCalculamos los costos computacionales en GFLOPs y tiempos de ejecución en ms para LoFTR, MatchFormer, QuadTree y AspanFormer. Sin embargo, este proceso requirió una modificación menor del código de cada método individualmente. Por favor contáctenos si necesita evaluaciones para esos métodos.\n\nAquí proporcionamos la medición del tiempo de ejecución para nuestro método, TopicFM-fast\n\n    python visualization.py --method topicfmv2 --dataset_name scannet --config_file configs/scannet_test_topicfmfast.py  --measure_time --no_viz\n\nReporte de tiempo de ejecución a la resolución de imagen de (640, 480) (medido en NVIDIA TITAN V 32GB de Mem.)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Eoi0oSoRKDDxX5w6Y5zmyXwynrEhsu3bZUiCSj9zANo=",
+        "originContent": "    bash scripts/reproduce_train/outdoor.sh <path to the training config file>",
+        "translatedContent": "    bash scripts/reproduce_train/outdoor.sh <ruta al archivo de configuración de entrenamiento>"
+      },
+      {
+        "row": 3,
+        "rowsha": "lUpaL3sq9pNjNHm5cLGqsXxavBgEid21zh/q9gZM37w=",
+        "originContent": "    # for example,",
+        "translatedContent": "    # por ejemplo,"
+      },
+      {
+        "row": 4,
+        "rowsha": "+pecCKN3sTAf3rUchiS5RmVMy4PlBpUI79gIqlSq9lk=",
+        "originContent": "    bash scripts/reproduce_train/outdoor.sh configs/megadepth_train_topicfmfast.py",
+        "translatedContent": "    bash scripts/reproduce_train/outdoor.sh configs/megadepth_train_topicfmfast.py"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "iHttcZLDgkjPMFevL0ImHw5eTdmhyI6gwB+C3ID6S58=",
+        "originContent": " We provided the pretrained models, which were used in the paper ([TopicFM-fast](https://drive.google.com/file/d/1DACWdszttpiCZlk4aazhu0IDWvHkLPZf/view?usp=sharing), [TopicFM+](https://drive.google.com/file/d/1RTZJYrKQ593PBJTdxi9k5C4qZ5lSXnf0/view?usp=sharing))",
+        "translatedContent": " Proveemos los modelos preentrenados, que fueron usados en el artículo ([TopicFM-fast](https://drive.google.com/file/d/1DACWdszttpiCZlk4aazhu0IDWvHkLPZf/view?usp=sharing), [TopicFM+](https://drive.google.com/file/d/1RTZJYrKQ593PBJTdxi9k5C4qZ5lSXnf0/view?usp=sharing))"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Lls8H2uTWGb5aqbRumacEGCmILhDJm7y1QAXsnORtIg=",
+        "originContent": "## Evaluation",
+        "translatedContent": "## Evaluación"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "0ia+sRHoOocWVMyKfKn8c8/V71X0G+ct3aD1PmLrP+I=",
+        "originContent": "### MegaDepth (relative pose estimation)",
+        "translatedContent": "### MegaDepth (estimación de pose relativa)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "OUZZUwqALy+bZDA6UYBVwn/JK2MIgtesKWkrZ1l9ozo=",
+        "originContent": "    bash scripts/reproduce_test/outdoor.sh <path to the config file in the folder configs> <path to pretrained model>",
+        "translatedContent": "    bash scripts/reproduce_test/outdoor.sh <ruta al archivo de configuración en la carpeta configs> <ruta al modelo preentrenado>"
+      },
+      {
+        "row": 13,
+        "rowsha": "QwHSco3MmycmiirWnLSJtBd7bC1fgtxx4UuG3wIq9ec=",
+        "originContent": "    # For example, to evaluate TopicFM-fast ",
+        "translatedContent": "    # Por ejemplo, para evaluar TopicFM-fast "
+      },
+      {
+        "row": 14,
+        "rowsha": "Mq6omNUiQRemMvX3Zl5XofsmCIZf+XvLPmwtg8KxAuc=",
+        "originContent": "    bash scripts/reproduce_test/outdoor.sh configs/megadepth_test_topicfmfast.py pretrained/topicfm_fast.ckpt",
+        "translatedContent": "    bash scripts/reproduce_test/outdoor.sh configs/megadepth_test_topicfmfast.py pretrained/topicfm_fast.ckpt"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "nHTJDtd8lNha9UGD0iZKrTCD7o0DH5xNIzpvjjnVLi8=",
+        "originContent": "### ScanNet (relative pose estimation)",
+        "translatedContent": "### ScanNet (estimación de pose relativa)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "xakqIm0dB6i3B12VJez0Pkz9vamQQMj7iwE4VknsdOw=",
+        "originContent": "    bash scripts/reproduce_test/indoor.sh <path to the config file in the folder configs> <path to pretrained model>",
+        "translatedContent": "    bash scripts/reproduce_test/indoor.sh <ruta al archivo de configuración en la carpeta configs> <ruta al modelo preentrenado>"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "FGjH7BfTq7y6fut4+2++ov602jsmcsAIpq+lLDquN+w=",
+        "originContent": "### HPatches, Aachen v1.1, InLoc",
+        "translatedContent": "### HPatches, Aachen v1.1, InLoc"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "sRsOuxsq10NKwIn4KyXOq0dkzw93+Lp2pqNda9cwcZM=",
+        "originContent": "To evaluate on these datasets, we integrate our code to the image-matching-toolbox provided by Patch2Pix.",
+        "translatedContent": "Para evaluar en estos conjuntos de datos, integramos nuestro código en la caja de herramientas de coincidencia de imágenes proporcionada por Patch2Pix."
+      },
+      {
+        "row": 23,
+        "rowsha": "OKx0hSZOZlvaXOuQ0iv7N06+WffBXTxldrkhpbG75qg=",
+        "originContent": "The updated code and detailed evaluations are available [here](https://github.com/TruongKhang/image-matching-toolbox). ",
+        "translatedContent": "El código actualizado y evaluaciones detalladas están disponibles [aquí](https://github.com/TruongKhang/image-matching-toolbox). "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "RlQV4DhVpBcbggY6tDLpJzEXz3fPRWGmAtNsUE9H/mU=",
+        "originContent": "### Image Matching Challange 2023",
+        "translatedContent": "### Desafío de Coincidencia de Imágenes 2023"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "kcEp8BYNAZ835d50TB/GY2EhEeob2PBNfEFbWr6cmWE=",
+        "originContent": "Our method TopicFM+ achieved a high ranking (silver medal) on the Kaggle IMC2023 [here](https://www.kaggle.com/competitions/image-matching-challenge-2023/leaderboard?tab=public). ",
+        "translatedContent": "Nuestro método TopicFM+ logró una alta clasificación (medalla de plata) en el Kaggle IMC2023 [aquí](https://www.kaggle.com/competitions/image-matching-challenge-2023/leaderboard?tab=public). "
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "Cy8OKm3TQ90SIjh7kAS/STapAVgv6Ou1S53hMjnj7XM=",
+        "originContent": "### Efficiency comparison",
+        "translatedContent": "### Comparación de eficiencia"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "OJSMVHQKNOP1Kvna57RWZRgURTaQKAhupmUFcSKK9oQ=",
+        "originContent": "The efficiency evaluation reported in the paper was measured by averaging runtime of 1500 image pairs of the ScanNet evaluation dataset.",
+        "translatedContent": "La evaluación de eficiencia reportada en el artículo fue medida promediando el tiempo de ejecución de 1500 pares de imágenes del conjunto de datos de evaluación ScanNet."
+      },
+      {
+        "row": 32,
+        "rowsha": "OY9Hhn7VKEffAdIWgwp3fPelaOT4fdMzWgLXFJMjNow=",
+        "originContent": "The image size can be changed in `configs/data/scannet_test_topicfmfast.py`",
+        "translatedContent": "El tamaño de imagen puede cambiarse en `configs/data/scannet_test_topicfmfast.py`"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "wvR6LQopdenA5LeMBY0IOGY8MFsXzfzCLgteeRC4Lo4=",
+        "originContent": "We computed computational costs in GFLOPs and runtimes in ms for LoFTR, MatchFormer, QuadTree, and AspanFormer. However, this process required minor modification of the code of each method individually. Please contact us if you need evaluations for those methods.",
+        "translatedContent": "Calculamos los costos computacionales en GFLOPs y tiempos de ejecución en ms para LoFTR, MatchFormer, QuadTree y AspanFormer. Sin embargo, este proceso requirió una modificación menor del código de cada método individualmente. Por favor contáctenos si necesita evaluaciones para esos métodos."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "ktH/IWkZXBDszdPuXvEF4gDe6CtyA3hO8ec+96ES1DA=",
+        "originContent": "Here, we provide the runtime measurement for our method, TopicFM-fast",
+        "translatedContent": "Aquí proporcionamos la medición del tiempo de ejecución para nuestro método, TopicFM-fast"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "/0oW4kxFHfjFfmoi4oa0zqdkBGNvu8CnlL2+X36/2Oo=",
+        "originContent": "    python visualization.py --method topicfmv2 --dataset_name scannet --config_file configs/scannet_test_topicfmfast.py  --measure_time --no_viz",
+        "translatedContent": "    python visualization.py --method topicfmv2 --dataset_name scannet --config_file configs/scannet_test_topicfmfast.py  --measure_time --no_viz"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "CwTqNg20dnND6SGFRKLazOBT1FRjDzuMQgkVWQQ4wM4=",
+        "originContent": "Runtime report at the image resolution of (640, 480) (measured on NVIDIA TITAN V 32GB of Mem.)",
+        "translatedContent": "Reporte de tiempo de ejecución a la resolución de imagen de (640, 480) (medido en NVIDIA TITAN V 32GB de Mem.)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n\n|   Model       |    640 x 480   |    1200 x 896    |\n|:--------------|:--------------:|:----------------:|\n| TopicFM-fast  |     56 ms      |      346 ms      |\n| TopicFM+      |     90 ms      |      388 ms      |\n\n\n## Citations\nIf you find this code useful, please cite the following works:\n\n    @article{giang2024topicfm+,\n      title={Topicfm+: Boosting accuracy and efficiency of topic-assisted feature matching},\n      author={Giang, Khang Truong and Song, Soohwan and Jo, Sungho},\n      journal={IEEE Transactions on Image Processing},\n      year={2024},\n      publisher={IEEE}\n    }\n\nor\n\n    @inproceedings{giang2023topicfm,\n        title={TopicFM: Robust and interpretable topic-assisted feature matching},\n        author={Giang, Khang Truong and Song, Soohwan and Jo, Sungho},\n        booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},\n        volume={37},\n        number={2},\n        pages={2447--2455},\n        year={2023}\n    }\n\n## Acknowledgement\nThis code is built based on [LoFTR](https://github.com/zju3dv/LoFTR). We thank the authors for their useful source code.\n",
+    "ContentSha": "VpgzO2g7pTWvRCzhA8DYQ7PsHJPRr7jwwu7oBLitJMc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n\n|   Modelo      |    640 x 480   |    1200 x 896    |\n|:--------------|:--------------:|:----------------:|\n| TopicFM-fast  |     56 ms      |      346 ms      |\n| TopicFM+      |     90 ms      |      388 ms      |\n\n\n## Citaciones\nSi encuentra este código útil, por favor cite los siguientes trabajos:\n\n    @article{giang2024topicfm+,\n      title={Topicfm+: Mejorando la precisión y eficiencia del emparejamiento de características asistido por temas},\n      author={Giang, Khang Truong y Song, Soohwan y Jo, Sungho},\n      journal={IEEE Transactions on Image Processing},\n      year={2024},\n      publisher={IEEE}\n    }\n\no\n\n    @inproceedings{giang2023topicfm,\n        title={TopicFM: Emparejamiento de características robusto e interpretable asistido por temas},\n        author={Giang, Khang Truong y Song, Soohwan y Jo, Sungho},\n        booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},\n        volume={37},\n        number={2},\n        pages={2447--2455},\n        year={2023}\n    }\n\n## Agradecimientos\nEste código está basado en [LoFTR](https://github.com/zju3dv/LoFTR). Agradecemos a los autores por su código fuente útil.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "O0PzaLGMtvL6lBu7q4R/za9RcOYvcvhOr9duSOsCsKk=",
+        "originContent": "|   Model       |    640 x 480   |    1200 x 896    |",
+        "translatedContent": "|   Modelo      |    640 x 480   |    1200 x 896    |"
+      },
+      {
+        "row": 4,
+        "rowsha": "EMabdEXgZALPVLMCFd1kaY+JPIWHfMi/YwTxHMPCHYI=",
+        "originContent": "|:--------------|:--------------:|:----------------:|",
+        "translatedContent": "|:--------------|:--------------:|:----------------:|"
+      },
+      {
+        "row": 5,
+        "rowsha": "rcN1zBogMmQEX9woLse8/ug+rSUIybv/VP/3IxHOXY4=",
+        "originContent": "| TopicFM-fast  |     56 ms      |      346 ms      |",
+        "translatedContent": "| TopicFM-fast  |     56 ms      |      346 ms      |"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ca82wIbEKAtotF1mnXq7giGbualjJWnIwUTMqKX5h3U=",
+        "originContent": "| TopicFM+      |     90 ms      |      388 ms      |",
+        "translatedContent": "| TopicFM+      |     90 ms      |      388 ms      |"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "STdZdt1kDY2iv63npzDMroU99PW54v6Jcen0Jx2EuyM=",
+        "originContent": "## Citations",
+        "translatedContent": "## Citaciones"
+      },
+      {
+        "row": 10,
+        "rowsha": "XAmgby3dMkdBnm7tPBM0hYIbzKboqNDLzFzli/IPsFQ=",
+        "originContent": "If you find this code useful, please cite the following works:",
+        "translatedContent": "Si encuentra este código útil, por favor cite los siguientes trabajos:"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "W3fzxaJK4SzqgcFyL4sOUN+0y3KH509s5082UIdPYjw=",
+        "originContent": "    @article{giang2024topicfm+,",
+        "translatedContent": "    @article{giang2024topicfm+,"
+      },
+      {
+        "row": 13,
+        "rowsha": "X/FPFRZl2meQi3WnWrAnfis5NBp80R+X6tEpZKkq2+c=",
+        "originContent": "      title={Topicfm+: Boosting accuracy and efficiency of topic-assisted feature matching},",
+        "translatedContent": "      title={Topicfm+: Mejorando la precisión y eficiencia del emparejamiento de características asistido por temas},"
+      },
+      {
+        "row": 14,
+        "rowsha": "uTVWChgTGPjHe/BQ9wajKqVJPnUaqQWYO0TLUaiNu1w=",
+        "originContent": "      author={Giang, Khang Truong and Song, Soohwan and Jo, Sungho},",
+        "translatedContent": "      author={Giang, Khang Truong y Song, Soohwan y Jo, Sungho},"
+      },
+      {
+        "row": 15,
+        "rowsha": "yenApbNH0E6rOYQDol3g1Aa5c7zKuwsBRudaKxf2zz4=",
+        "originContent": "      journal={IEEE Transactions on Image Processing},",
+        "translatedContent": "      journal={IEEE Transactions on Image Processing},"
+      },
+      {
+        "row": 16,
+        "rowsha": "uqROWAGDIn5qDkIxkd056RTQ+SbXg6BFb7UhemVNliM=",
+        "originContent": "      year={2024},",
+        "translatedContent": "      year={2024},"
+      },
+      {
+        "row": 17,
+        "rowsha": "yIShrDf88diPWtJeFjsb0Wqg5vedssI1UGQToDcrktM=",
+        "originContent": "      publisher={IEEE}",
+        "translatedContent": "      publisher={IEEE}"
+      },
+      {
+        "row": 18,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "cXVRejcLXNLmZOP9KcTqnbXOFwWOuXcv4JClSF5J2tY=",
+        "originContent": "or",
+        "translatedContent": "o"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "4f1QF0mtnEoj1teqPrZjUPOEInmF6vSY1nV7tdmyGEI=",
+        "originContent": "    @inproceedings{giang2023topicfm,",
+        "translatedContent": "    @inproceedings{giang2023topicfm,"
+      },
+      {
+        "row": 23,
+        "rowsha": "9ghG0I2ucXczggDDsJg5aDChkuTS5ZdICsYQ2csK4d0=",
+        "originContent": "        title={TopicFM: Robust and interpretable topic-assisted feature matching},",
+        "translatedContent": "        title={TopicFM: Emparejamiento de características robusto e interpretable asistido por temas},"
+      },
+      {
+        "row": 24,
+        "rowsha": "rQFhISMKIQx5LusXT1Xo7KYvZ15fZFn1g7JUk6OLZbw=",
+        "originContent": "        author={Giang, Khang Truong and Song, Soohwan and Jo, Sungho},",
+        "translatedContent": "        author={Giang, Khang Truong y Song, Soohwan y Jo, Sungho},"
+      },
+      {
+        "row": 25,
+        "rowsha": "BQfk2Sos822cV5fmJdp6bvzcJKKBy3KVUfRhkV6l3xA=",
+        "originContent": "        booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},",
+        "translatedContent": "        booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},"
+      },
+      {
+        "row": 26,
+        "rowsha": "TlC8j7+IeR6DqGGjmeDkgsus82+t0kqa68bhADQh65E=",
+        "originContent": "        volume={37},",
+        "translatedContent": "        volume={37},"
+      },
+      {
+        "row": 27,
+        "rowsha": "yGxGFkfaSD6VKUJ+lZBTk6Bs0ZXQfYeQvufiGVnQCiQ=",
+        "originContent": "        number={2},",
+        "translatedContent": "        number={2},"
+      },
+      {
+        "row": 28,
+        "rowsha": "Uz96s4LR/PUMGBcwsT9HSrQtrgJSUi4HD1dQ6liPczQ=",
+        "originContent": "        pages={2447--2455},",
+        "translatedContent": "        pages={2447--2455},"
+      },
+      {
+        "row": 29,
+        "rowsha": "26q2t46oSh5/1XtFgtLOln49pmfOloUKF2i1DrmEpts=",
+        "originContent": "        year={2023}",
+        "translatedContent": "        year={2023}"
+      },
+      {
+        "row": 30,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+        "originContent": "## Acknowledgement",
+        "translatedContent": "## Agradecimientos"
+      },
+      {
+        "row": 33,
+        "rowsha": "8lVK5WTTQvxzFNF4hl9qFI9k9BOWWScQLTVKKfHwwEY=",
+        "originContent": "This code is built based on [LoFTR](https://github.com/zju3dv/LoFTR). We thank the authors for their useful source code.",
+        "translatedContent": "Este código está basado en [LoFTR](https://github.com/zju3dv/LoFTR). Agradecemos a los autores por su código fuente útil."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
