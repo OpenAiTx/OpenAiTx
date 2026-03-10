@@ -1,0 +1,1190 @@
+[
+  {
+    "row": 1,
+    "rowsha": "zAmclDb7kTiTOCYxqpX8dw/lVWNXoTBWF9+lXfErsDk=",
+    "originContent": "# 🏰️ qBittorrent + ProtonVPN (WireGuard) in Docker (macOS)",
+    "translatedContent": "# 🏰️ qBittorrent + ProtonVPN（WireGuard）をDockerで実行（macOS）"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "3tMWtVlWuhUv7pnlzhyM6O6Uok6l16wjCq5OsSxUe3c=",
+    "originContent": "**Securely run qBittorrent in Docker with ProtonVPN (WireGuard) using Gluetun, ensuring full VPN routing and automatic port forwarding for improved torrenting performance.**",
+    "translatedContent": "**Gluetunを使用してProtonVPN（WireGuard）経由でqBittorrentをDocker内で安全に実行し、完全なVPNルーティングと自動ポートフォワーディングを実現してトレントのパフォーマンスを向上させます。**"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "QDDlsDNoERrX55Lb841kPbuuTfr8bO0Fpr5tQHDGdoY=",
+    "originContent": "&#x20;",
+    "translatedContent": "&#x20;"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "K3y6FWK+kB4qszrKBYuolPN7qQxctQ6ifV5HT3hsLco=",
+    "originContent": "## 📌 Table of Contents",
+    "translatedContent": "## 📌 目次"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "hMtkShhieOS6rIzAyWqU1e+XxXRcQRdeZzZYMoTb9dI=",
+    "originContent": "1. [Overview](#overview)",
+    "translatedContent": "1. [概要](#overview)"
+  },
+  {
+    "row": 12,
+    "rowsha": "2N6OxTmyMluMgAcQ272bpv1jFbLyIVQs/3y+YFy2Klc=",
+    "originContent": "2. [Features](#features)",
+    "translatedContent": "2. [特徴](#features)"
+  },
+  {
+    "row": 13,
+    "rowsha": "zq1WNbKNAqpA2z6IU18F4cAb0crIt13gHQOLOUTJtqg=",
+    "originContent": "3. [Prerequisites](#prerequisites)",
+    "translatedContent": "3. [前提条件](#prerequisites)"
+  },
+  {
+    "row": 14,
+    "rowsha": "UdDrl8tbvl75DW6QCfu2CjXB35ubIWzApozPGSsB1fc=",
+    "originContent": "4. [Installation Guide](#installation-guide)",
+    "translatedContent": "4. [インストールガイド](#installation-guide)"
+  },
+  {
+    "row": 15,
+    "rowsha": "Q8xfxT5YTWu85GVSP+8xPwmyVUXLZbvnXp9DpDlN03U=",
+    "originContent": "   - [Install Docker](#install-docker)",
+    "translatedContent": "   - [Dockerのインストール](#install-docker)"
+  },
+  {
+    "row": 16,
+    "rowsha": "9UsiNYKG04bPEVgPrl7OnRk9SzCBGJomYeEb7C2GHNQ=",
+    "originContent": "   - [Clone the Repository](#clone-the-repository)",
+    "translatedContent": "   - [リポジトリのクローン](#clone-the-repository)"
+  },
+  {
+    "row": 17,
+    "rowsha": "bKDmSQ3tWVOnSY6d491R85WI52YxQ6lq8tv2kefrpho=",
+    "originContent": "   - [Set Up the ](#set-up-the-env-file)[`.env`](#set-up-the-env-file)[ File](#set-up-the-env-file)",
+    "translatedContent": "   - [`.env`ファイルの設定](#set-up-the-env-file)"
+  },
+  {
+    "row": 18,
+    "rowsha": "CtVtVNRk9Rj62puL3vlfuPHqKu4t0I3YXbWEQfLkuIs=",
+    "originContent": "   - [Configure Authentication](#configure-authentication)",
+    "translatedContent": "   - [認証の設定](#configure-authentication)"
+  },
+  {
+    "row": 19,
+    "rowsha": "isqX4XiBz1CYYOhaItRQrJ3nLTpkB3Zd4rbh3LrlRzE=",
+    "originContent": "   - [Start the Containers](#start-the-containers)",
+    "translatedContent": "   - [コンテナの起動](#start-the-containers)"
+  },
+  {
+    "row": 20,
+    "rowsha": "ksKtzBk6j+JsczbULgRViVS1D7oSJRHfVRkkglK0E08=",
+    "originContent": "5. [Accessing qBittorrent Web UI](#accessing-qbittorrent-web-ui)",
+    "translatedContent": "5. [qBittorrent Web UIへのアクセス](#accessing-qbittorrent-web-ui)"
+  },
+  {
+    "row": 21,
+    "rowsha": "ZLt3Qd7ooz738jYkxy8eoMrRh8OJp3KcyeJFWsZsqgI=",
+    "originContent": "6. [Security & Best Practices](#security--best-practices)",
+    "translatedContent": "6. [セキュリティとベストプラクティス](#security--best-practices)"
+  },
+  {
+    "row": 22,
+    "rowsha": "zMwtZh/O5Z2iOVrq/Fk3M1Ypd2Ceu3p4/IG+Jg4zT1U=",
+    "originContent": "7. [Troubleshooting](#troubleshooting)",
+    "translatedContent": "7. [トラブルシューティング](#troubleshooting)"
+  },
+  {
+    "row": 23,
+    "rowsha": "fD3hcNoMvgCNbEKuBntSOE1uNtxWkFxdPA44yWAIn+o=",
+    "originContent": "8. [License](#license)",
+    "translatedContent": "8. [ライセンス](#license)"
+  },
+  {
+    "row": 24,
+    "rowsha": "uv6y+DL0XIuvil2JHqWFokgpHAS8eYT3zBAV5v6pjsw=",
+    "originContent": "9. [Contributing](#contributing)",
+    "translatedContent": "9. [貢献](#contributing)"
+  },
+  {
+    "row": 25,
+    "rowsha": "95Q0czCL8PWHBKxMORU1+nsMSEYwgnNGA8FmCNc7a30=",
+    "originContent": "10. [Support & Feedback](#support--feedback)",
+    "translatedContent": "10. [サポートとフィードバック](#support--feedback)"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "2JWkL4sg6ET8Kfv2D1wHeZHU+OTCWKuGWLc6qCLY4gg=",
+    "originContent": "## 🔹 Overview",
+    "translatedContent": "## 🔹 概要"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "Tb17NaEcNrU3rkzx/hJEa3aSCfNk85ovAeIQ6zt+B44=",
+    "originContent": "This setup ensures **qBittorrent only connects through ProtonVPN (WireGuard)** using **Gluetun**, preventing leaks and enhancing security.\\",
+    "translatedContent": "このセットアップは**qBittorrentがProtonVPN（WireGuard）経由のみで接続する**ことを保証し、**Gluetun**を用いてリークを防ぎセキュリティを強化します。\\"
+  },
+  {
+    "row": 32,
+    "rowsha": "OdXkQFgWSAlIQUdKQ+J4uI+AyuMGBNOwJ3CBmCLomoc=",
+    "originContent": "It also **automates port forwarding** for better torrent speeds and **runs everything inside Docker** for easy management.",
+    "translatedContent": "さらに、**ポートフォワーディングを自動化**してトレント速度を向上させ、**すべてをDocker内で実行**することで管理を簡単にします。"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "83kSm5zFE4UksA9vjutv8wpj8G4wg9b8/NZOdokSAQU=",
+    "originContent": "## ✅ Features",
+    "translatedContent": "## ✅ 特徴"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "R2N7W17CHq2GRPll8j2J4/Yk+pmxVIlsxncxq1UfNw8=",
+    "originContent": "- **🔒 VPN-Enforced Torrenting** – No leaks, all traffic runs **inside** the VPN.",
+    "translatedContent": "- **🔒 VPN強制トレント** – リークなし、すべての通信がVPN内で実行されます。"
+  },
+  {
+    "row": 39,
+    "rowsha": "eqo5kEOi8eRTqh4jtlI31MvynSc+Iw+zkyP3W2gR0Kk=",
+    "originContent": "- **⚡ Automatic Port Forwarding** – Ensures better speeds and improved peer connections.",
+    "translatedContent": "- **⚡ 自動ポートフォワーディング** – 速度向上とピア接続の改善を保証します。"
+  },
+  {
+    "row": 40,
+    "rowsha": "mHbtBDS6efB5rkjFQxyQIXUg2rNxpZR/6aUTMsw6Nbo=",
+    "originContent": "- **🌐 Local Web UI Access** – Easily control torrents via [`http://localhost:8080`](http://localhost:8080).",
+    "translatedContent": "- **🌐 ローカルWeb UIアクセス** – [`http://localhost:8080`](http://localhost:8080)から簡単にトレントを管理可能。"
+  },
+  {
+    "row": 41,
+    "rowsha": "x6040NDzGi227KuIk/26kcnSkPvnsA4vY5dvhgZpnks=",
+    "originContent": "- **📺 Fully Containerized** – Uses Docker for easy deployment, updates, and isolation.",
+    "translatedContent": "- **📺 完全コンテナ化** – Dockerを使用して簡単にデプロイ、更新、および分離を実現。"
+  },
+  {
+    "row": 42,
+    "rowsha": "IZOlBPyyhPcI4xGnAqfcA9v6S45H5SVvXjiAnYLQk24=",
+    "originContent": "- **🔄 Resilient Setup** – Containers **auto-restart** if anything crashes.",
+    "translatedContent": "- **🔄 耐障害性のあるセットアップ** – 何かがクラッシュした場合、コンテナは**自動再起動**します。"
+  },
+  {
+    "row": 43,
+    "rowsha": "Xmcc60i8fgcreK+yidVL6kj3tFH+8Ut8La7aZ7QG8so=",
+    "originContent": "- Uses **separate storage** for incomplete and completed torrents",
+    "translatedContent": "- 不完全および完了したトレント用に**別々のストレージ**を使用。"
+  },
+  {
+    "row": 44,
+    "rowsha": "BMphN1pH9639/faoqz0CDQ5iYzZgSxQARNNTNxmquxQ=",
+    "originContent": "- **Automatically updates containers using Watchtower** 🛠️",
+    "translatedContent": "- **Watchtowerを使ったコンテナの自動更新** 🛠️"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "TQWvBY1pXDVqUWfTyOBapDrewV/j5DF+v6d8eIaB5AA=",
+    "originContent": "## 🛠️ Prerequisites",
+    "translatedContent": "## 🛠️ 前提条件"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "QpF2sMxeC3OX0JH/5Pu4oLRkOMYo9Jt1Qm9iHrgu+pM=",
+    "originContent": "- **Docker Desktop** (macOS/Windows/Linux)",
+    "translatedContent": "- **Docker Desktop**（macOS/Windows/Linux）"
+  },
+  {
+    "row": 51,
+    "rowsha": "QCRdAHwpr6+2xnGpjbjOoeMsQvsUVYSk1O8VX4vbUOI=",
+    "originContent": "- **Docker Compose** (bundled with Docker Desktop)",
+    "translatedContent": "- **Docker Compose**（Docker Desktopに同梱）"
+  },
+  {
+    "row": 52,
+    "rowsha": "4YLOb75U/lKAhrnTE4Ix25TVGfDLK6/e1n5eWJeDHqo=",
+    "originContent": "- **ProtonVPN account** (Plus or Visionary required for WireGuard support)",
+    "translatedContent": "- **ProtonVPNアカウント**（WireGuardサポートにはPlusまたはVisionaryが必要）"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "JOZy4TeTzSctiXKa4Nsr+o/2D49nxyOhFlkSesM8bxg=",
+    "originContent": "## 📂 Installation Guide",
+    "translatedContent": "## 📂 インストールガイド"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "CZT9vXx3b14B0m3s92NkatKTOhaO9oZIcJk5zF0kYlI=",
+    "originContent": "### **1️⃣ Install Docker**",
+    "translatedContent": "### **1️⃣ Dockerのインストール**"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "uBIIK77vxYf6t+u3VBWFC2l5tov8tX5h6nuvSsEfK/A=",
+    "originContent": "Download and install **Docker Desktop** from [here](https://www.docker.com/products/docker-desktop/).\\",
+    "translatedContent": "[こちら](https://www.docker.com/products/docker-desktop/)から**Docker Desktop**をダウンロードしてインストールしてください。\\"
+  },
+  {
+    "row": 61,
+    "rowsha": "ec8AgF64ek19D2qbqhZh6Si1l3Ra97eetaEFuQ5JXmw=",
+    "originContent": "Ensure Docker is **running** before proceeding.",
+    "translatedContent": "続行する前にDockerが**起動している**ことを確認してください。"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "yy6ocz8DrDYEpywNnXOcT7Yurs0tkm4OA8ZLyg8eD3g=",
+    "originContent": "### **2️⃣ Clone the Repository**",
+    "translatedContent": "### **2️⃣ リポジトリをクローン**"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 68,
+    "rowsha": "dYkWxITG+CO9N/gThGQ/FtYMxuqL0EjtBmZ5y4NJD3A=",
+    "originContent": "git clone https://github.com/torrentsec/qbittorrent-protonvpn-docker.git",
+    "translatedContent": "git clone https://github.com/torrentsec/qbittorrent-protonvpn-docker.git"
+  },
+  {
+    "row": 69,
+    "rowsha": "uGqYCoZN4Ysg1vXYUd/kE6svVi9mMEzck6hjxJy0kZk=",
+    "originContent": "cd qbittorrent-protonvpn-docker",
+    "translatedContent": "cd qbittorrent-protonvpn-docker"
+  },
+  {
+    "row": 70,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "s4Y/IGqSuhRWJY++cE2RYirJQobqQu4/tAGYyuX35nc=",
+    "originContent": "### **3️⃣ Set Up the **`.env`** File**",
+    "translatedContent": "### **3️⃣ **`.env`** ファイルの設定**"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "JMUYiK9gdZpvpmayFC79TI+Rx6rllskUgX2fLVTVXy4=",
+    "originContent": "This project uses an `.env` file to store **sensitive configuration values** (which are ignored by Git for security).",
+    "translatedContent": "このプロジェクトでは、**機密設定値**を保存するために `.env` ファイルを使用します（セキュリティのためGitによって無視されます）。"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "6hrWwDe4g7xE/05qu37RqRZtTukzNIdQ26ef44N5XGE=",
+    "originContent": "#### **Create Your **`.env`** File**",
+    "translatedContent": "#### **あなたの **`.env`** ファイルを作成する**"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 81,
+    "rowsha": "pFxdvPKVWlcbGNfSybU7jLc6h2jjaF/ey8hGKiBArIw=",
+    "originContent": "cp .env.example .env",
+    "translatedContent": "cp .env.example .env"
+  },
+  {
+    "row": 82,
+    "rowsha": "NI3/hNZ0dFlgRs1mHm/Kuocd7O8VVbEbf7ak8WAKAoU=",
+    "originContent": "nano .env",
+    "translatedContent": "nano .env"
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "b4SbekEz9WKfb3a1l0NRes+3TerQwsRllhveQMMz/tg=",
+    "originContent": "#### **Fill in the Following Variables**",
+    "translatedContent": "#### **以下の変数を入力してください**"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "NOtYEj4xvNWpEB/tns9NY65hnruGx4mqSUdrkrrtBlQ=",
+    "originContent": "```ini",
+    "translatedContent": "```ini"
+  },
+  {
+    "row": 88,
+    "rowsha": "n9mkov1hq+zQO9PHDwCtyIehtk7bfBDgENM0mdF2N2s=",
+    "originContent": "WIREGUARD_PRIVATE_KEY=your_private_key_here",
+    "translatedContent": "WIREGUARD_PRIVATE_KEY=your_private_key_here"
+  },
+  {
+    "row": 89,
+    "rowsha": "zvhDPd1LKMiPShSpwfi1kfvXkZmCA/svrJzUdLhTZpE=",
+    "originContent": "SERVER_COUNTRIES=\"United Kingdom\"",
+    "translatedContent": "SERVER_COUNTRIES=\"United Kingdom\""
+  },
+  {
+    "row": 90,
+    "rowsha": "2tadUhjfygH1sM1n/Phrba1euSALnvx3/XtdrAhI/S4=",
+    "originContent": "SERVER_CITIES=\"London\"",
+    "translatedContent": "SERVER_CITIES=\"London\""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "oHH3qgtqU/6Dkh9H2FBFxwcGxFMqogDHRKXeeABasIk=",
+    "originContent": "PUID=1000",
+    "translatedContent": "PUID=1000"
+  },
+  {
+    "row": 93,
+    "rowsha": "d0rWiQlXAPjl9+ZvhWQm3JbZFKh+nA2JkSZ7bfZPriE=",
+    "originContent": "PGID=1000",
+    "translatedContent": "PGID=1000"
+  },
+  {
+    "row": 94,
+    "rowsha": "saURccl6uO5aVhN9fnCtalIkYzXS2ff4AG5TgdzFt6o=",
+    "originContent": "TZ=Europe/London",
+    "translatedContent": "TZ=Europe/London"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "vLI+xzkHsux4asFVZ4DcaZF38Yz2XuGnxzKhQDraCNw=",
+    "originContent": "GLUETUN_USER=your_admin_username",
+    "translatedContent": "GLUETUN_USER=your_admin_username"
+  },
+  {
+    "row": 97,
+    "rowsha": "WROMKyjpetTbTpbevjE9mNu04yQm2YdJbkgS1pJUDZU=",
+    "originContent": "GLUETUN_PASS=your_admin_password",
+    "translatedContent": "GLUETUN_PASS=your_admin_password"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "sNVyiXDKnYX2yzwLy404tpCQRI/elDCFVDVJZRtAX9Y=",
+    "originContent": "GSP_GTN_API_KEY=your_random_api_key_here",
+    "translatedContent": "GSP_GTN_API_KEY=your_random_api_key_here"
+  },
+  {
+    "row": 100,
+    "rowsha": "/mJfCUny5di89RM0oTdx/zk4ag1fw4oFfdj1aH/xDkY=",
+    "originContent": "GSP_QBITTORRENT_PORT=your_forwarded_port_here",
+    "translatedContent": "GSP_QBITTORRENT_PORT=your_forwarded_port_here"
+  },
+  {
+    "row": 101,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "hGiw9mPRX0S+fqsnSy34h26pgjFwaaBGOxnKDJ7v+UE=",
+    "originContent": "Save and close (`CTRL + X`, then `Y`, then `ENTER`).",
+    "translatedContent": "Save and close (`CTRL + X`, then `Y`, then `ENTER`)."
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "8kOmoFfXAsaBGE/kvduMAiql7EuI3OIn2YuMNWCpKHo=",
+    "originContent": "### **4️⃣ Start the Containers**",
+    "translatedContent": "### **4️⃣ Start the Containers**"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 110,
+    "rowsha": "GmKC1SWK/ZUqHRly18aVX6jh20ULj0RvyugNeDsD7eA=",
+    "originContent": "docker-compose up -d",
+    "translatedContent": "docker-compose up -d"
+  },
+  {
+    "row": 111,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "OLVhuuB3KwGrtmQyYRDUmuE7OLJ6ND/PaPYsl3srvQM=",
+    "originContent": "🚀 **qBittorrent is now running securely through ProtonVPN!**",
+    "translatedContent": "🚀 **qBittorrentはProtonVPNを通じて安全に稼働中です！**"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "ZtWewiVAztIw6Jz62b15+7n5DMYjqO3ThL5FJzJh9Uc=",
+    "originContent": "## 📚 Accessing qBittorrent Web UI",
+    "translatedContent": "## 📚 qBittorrent Web UIへのアクセス"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "YJeJd7lLpN0Q8W70/C3UN9pAPSrMhQxB/BiIXWFqrM8=",
+    "originContent": "Once running, open:\\",
+    "translatedContent": "起動後、以下を開いてください：\\"
+  },
+  {
+    "row": 120,
+    "rowsha": "Rz/W8nOI31pTbMPDBxkATEzlfU8glkbseOmRvFHf/LQ=",
+    "originContent": "📌 [**http://localhost:8080**](http://localhost:8080)\\",
+    "translatedContent": "📌 [**http://localhost:8080**](http://localhost:8080)\\"
+  },
+  {
+    "row": 121,
+    "rowsha": "kkfcc3womhS2FAYIJiI8+v/6wa4YYq6fB48l1hNWJf8=",
+    "originContent": "*(Default username: admin, password: check console for temporarily password)*",
+    "translatedContent": "*(デフォルトのユーザー名：admin、パスワード：コンソールで一時パスワードを確認)*"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "D00qLMBaM2O79W1nFLAc/1A3I58NC9Qgp0Pxj+Rsx3o=",
+    "originContent": "Make sure to change your web UI password after the first login. Otherwise, the password will be randomly generated after every container restart.",
+    "translatedContent": "初回ログイン後は必ずWeb UIのパスワードを変更してください。そうしないと、コンテナ再起動ごとにパスワードがランダム生成されます。"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "nfNp/f2GDmaKrYsRxHmYOLIcbnQD/Noqdf+Kzb1cCHI=",
+    "originContent": "## 🛡️ Security & Best Practices",
+    "translatedContent": "## 🛡️ セキュリティとベストプラクティス"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "FAlJmv6eD6eWDZWmJDo+/nCLqAtH7h42pGcTqUy+WHY=",
+    "originContent": "1. **Keep **`.env`** Private**",
+    "translatedContent": "1. **`.env`を非公開に保つこと**"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "niHwb+hknuVCZqtWgyk6mK6nX1VIgmyxNapKHZxR+ko=",
+    "originContent": "   - The `.gitignore` file **already prevents **`.env`** from being uploaded to GitHub.**",
+    "translatedContent": "   - `.gitignore`ファイルは**すでに `.env` がGitHubにアップロードされるのを防いでいます。**"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "Z4yAPh13NA7GqTpRce/h+qiFzR84tjW0r8tNLs/vytY=",
+    "originContent": "2. **Use a Strong Password for Gluetun API**",
+    "translatedContent": "2. **Gluetun APIには強力なパスワードを使用する**"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "Y60TX+b2Ja6TewXiuCO6lnqAYgGgT/Hyzb+e3rOhs3k=",
+    "originContent": "   - **Modify **`GLUETUN_PASS`** in **`.env` to prevent unauthorized API access.",
+    "translatedContent": "   - **`.env`内の `GLUETUN_PASS` を変更し、無許可のAPIアクセスを防ぎましょう。**"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "4MkuWMYHuG9sNpytdDAVz1wSfzza3hZBt3nyGv1Q7oc=",
+    "originContent": "3. **Verify VPN Connectivity Before Torrenting**",
+    "translatedContent": "3. **トレントを始める前にVPN接続を確認する**"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "8nHAbBFQCvKmrlwIlwkYrYEREg3zA9O/LQq6hlg+vpo=",
+    "originContent": "   - Run `curl ifconfig.me` inside the container:",
+    "translatedContent": "   - コンテナ内で `curl ifconfig.me` を実行してください："
+  },
+  {
+    "row": 140,
+    "rowsha": "ciT0/ttYfw1sCDhRQblnD78KRpqcbuJAP0PhBiHBlW0=",
+    "originContent": "     ```sh",
+    "translatedContent": "     ```sh"
+  },
+  {
+    "row": 141,
+    "rowsha": "OaPY82QKGd1ZVSh9hOthYsJdM/bpuPbZOPmBJmf4xJk=",
+    "originContent": "     docker exec -it qbittorrent curl ifconfig.me",
+    "translatedContent": "     docker exec -it qbittorrent curl ifconfig.me"
+  },
+  {
+    "row": 142,
+    "rowsha": "AX71I8x6lYM8m/FNyvaThp+mFC2meqVieqX2BN9yF0M=",
+    "originContent": "     ```",
+    "translatedContent": "     ```"
+  },
+  {
+    "row": 143,
+    "rowsha": "bUcsWY7cihHk9BICGDBGAowf/9EkYI/NovsHCI+yk4w=",
+    "originContent": "   - ✅ **If the IP matches ProtonVPN**, it's working.",
+    "translatedContent": "   - ✅ **IPがProtonVPNと一致する場合、正常に動作しています。**"
+  },
+  {
+    "row": 144,
+    "rowsha": "/eE+vue5jhv7ZvZTYJCme2IYuyDXjI9jHJfjYdKQjy4=",
+    "originContent": "   - ❌ **If it shows your real IP, something is wrong.**",
+    "translatedContent": "   - ❌ **実際のIPが表示される場合は、問題があります。**"
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "x+i3BEGez8aakNa9A1s9HBxYzGI925jQ55PUrSV8Vkc=",
+    "originContent": "## 🛠️ Troubleshooting",
+    "translatedContent": "## 🛠️ トラブルシューティング"
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "gU4QAgFwDlrrvBIHm6EbYzD67zT5kS8w9IOJLGWUloo=",
+    "originContent": "### **Check if VPN is Running**",
+    "translatedContent": "### **VPNが動作しているか確認する**"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 153,
+    "rowsha": "P+Vw9DlYGYmN7Lw+ilXgWXv37fSR1h+8dLQTj6qemb0=",
+    "originContent": "docker ps",
+    "translatedContent": "docker ps"
+  },
+  {
+    "row": 154,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "vpZuIXKGstqfPgGdta+bgEoeurc2pyinY+XH62ITizE=",
+    "originContent": "If Gluetun isn’t running, restart everything:",
+    "translatedContent": "もしGluetunが起動していない場合は、すべてを再起動してください："
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 159,
+    "rowsha": "CiGFlhKPPqF9OL+nO7FgMRNYZWanzk7vf1bEcezuZNM=",
+    "originContent": "docker-compose down && docker-compose up -d",
+    "translatedContent": "docker-compose down && docker-compose up -d"
+  },
+  {
+    "row": 160,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "6FQ5Fwz6sTuZcB5SQc9GIRdN7zVbkmIqST13DBWp3VI=",
+    "originContent": "### **Verify qBittorrent is Using VPN**",
+    "translatedContent": "### **qBittorrentがVPNを使用していることを確認する**"
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 165,
+    "rowsha": "LfVx2umVdaka5jCWXVi2Poj62QWNrUQ/NIvD3VIyfg4=",
+    "originContent": "docker exec -it qbittorrent curl ifconfig.me",
+    "translatedContent": "docker exec -it qbittorrent curl ifconfig.me"
+  },
+  {
+    "row": 166,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "1kw8eYsCbLih9FggNSkSyR/ck/PWODXiyAcdpjZccw0=",
+    "originContent": "🟢 If the IP matches ProtonVPN, it’s working.\\",
+    "translatedContent": "🟢 IPがProtonVPNと一致していれば、正常に動作しています。\\"
+  },
+  {
+    "row": 169,
+    "rowsha": "0/zgdGApR47eElphZbGMh2iRgt6mdBsSxfiLu4ZlEtM=",
+    "originContent": "🔴 If it shows your real IP, something is wrong.",
+    "translatedContent": "🔴 実際のIPが表示されている場合は、何か問題があります。"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "1izs9rjplzhz0FPcjli8CK8Ywx9me2sD+Vt+pVM4YBQ=",
+    "originContent": "### **Check Logs for Errors**",
+    "translatedContent": "### **エラーログの確認**"
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 174,
+    "rowsha": "DMtqArNrmLMcCqX69gBwZCV7nLpbNthJXf0wuGgqhnI=",
+    "originContent": "docker logs -f gluetun",
+    "translatedContent": "docker logs -f gluetun"
+  },
+  {
+    "row": 175,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "l+NZjqRkcG1zmgUxOipI4qwnHVF/Q2+aOgm4ehT+z0Q=",
+    "originContent": "Look for **AUTH\\_FAILED** or connection issues.",
+    "translatedContent": "**AUTH_FAILED** または接続の問題を探してください。"
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 181,
+    "rowsha": "eKpHn3Y3yF1N5oH0OJ2OmWUlD2zOvskkk9dOgwYmGMA=",
+    "originContent": "## 💎 License",
+    "translatedContent": "## 💎 ライセンス"
+  },
+  {
+    "row": 182,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 183,
+    "rowsha": "95w3aCLt1QeGeUEYPFReHdeRDymBHyKDfmCjwRgQ0xc=",
+    "originContent": "This project is licensed under the **MIT License** – see the LICENSE file for details.",
+    "translatedContent": "このプロジェクトは **MITライセンス** の下でライセンスされています。詳細は LICENSE ファイルをご覧ください。"
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "6dWMuq6sOwyR+NN9UhkwR0O0BclaGmuELsMRiYuSbBA=",
+    "originContent": "## 💪 Contributing",
+    "translatedContent": "## 💪 貢献"
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "G1IqHmFOtHsnJJzXNJj1ZMe5jApn4hsgET9VqvRmXsc=",
+    "originContent": "Contributions are welcome! If you have improvements or feedback, feel free to submit an issue or pull request.",
+    "translatedContent": "貢献は歓迎します！改善点やフィードバックがあれば、Issue またはプルリクエストを送ってください。"
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 193,
+    "rowsha": "x96mYWijpUGPW6MVUuP1RAFZRPtgPyB86NLeBQecACc=",
+    "originContent": "## 💬 Support & Feedback",
+    "translatedContent": "## 💬 サポート＆フィードバック"
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "z9hzEhgh06dRVpJOWC3X8QBO3VoCTxf6zHmHUjdVC3o=",
+    "originContent": "- If you found this helpful, give it a ⭐ star on GitHub!",
+    "translatedContent": "- 役に立った場合は、GitHubで⭐スターを付けてください！"
+  },
+  {
+    "row": 196,
+    "rowsha": "MgrzBfyz9n80OsNttP9DK7qffZLrCpUGXSxkfqe5daU=",
+    "originContent": "- Feedback & suggestions are always welcome.",
+    "translatedContent": "- フィードバックや提案はいつでも歓迎します。"
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

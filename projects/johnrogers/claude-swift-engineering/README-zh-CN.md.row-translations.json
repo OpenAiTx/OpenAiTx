@@ -1,0 +1,938 @@
+[
+  {
+    "row": 1,
+    "rowsha": "uUGeroeT06sLviBcjUYWI1tHG8JXzxprcxvUntHLX/o=",
+    "originContent": "# claude-swift-engineering",
+    "translatedContent": "# claude-swift-engineering"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "c55XgI50IsCkP6Ip219eigmrGJaAvd7b5Q2m88iEzHA=",
+    "originContent": "[![License](https://img.shields.io/badge/license-MIT-green)](#) [![Platform](https://img.shields.io/badge/platform-iOS%2026%2B%20%7C%20macOS-blue)](#)",
+    "translatedContent": "[![许可证](https://img.shields.io/badge/license-MIT-green)](#) [![平台](https://img.shields.io/badge/platform-iOS%2026%2B%20%7C%20macOS-blue)](#)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "am1kpYwzV1YSuQOVIDWCiji+atHqyW3SAztK2KHqc1Y=",
+    "originContent": "> Claude Code plugin marketplace for modern Swift/SwiftUI development",
+    "translatedContent": "> Claude Code 现代 Swift/SwiftUI 开发的插件市场"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "dJC2dceA98But44HTdixv2qVo90C7d4FetlwB7hJoKw=",
+    "originContent": "A specialized AI toolkit for building professional iOS/macOS features with modern Swift 6.2, TCA (The Composable Architecture), and SwiftUI. This plugin provides ultra-specialized agents that orchestrate planning, implementation, testing, and deployment.",
+    "translatedContent": "一个专门的 AI 工具包，用于使用现代 Swift 6.2、TCA（可组合架构）和 SwiftUI 构建专业的 iOS/macOS 功能。该插件提供超专业化的代理，协调规划、实现、测试和部署。"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "+RGl5zSaecv8bPRxoHNXM5Vm9s0AzluS8GlIsgrfLZ8=",
+    "originContent": "## Swift Engineering Plugin",
+    "translatedContent": "## Swift 工程插件"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "P/clmmT7O7qukJyC5L0NlGvTHrHMZhkutaiCD/Ip+Ms=",
+    "originContent": "The **swift-engineering plugin** is a production-ready toolkit for professional Swift development:",
+    "translatedContent": "**swift-engineering 插件** 是面向专业 Swift 开发的生产级工具包："
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "pWsJ7biJsHzLm3Tc0Fz5+qoTNxmtzHp2AEhUPRbeBDs=",
+    "originContent": "- **12 Ultra-Specialized Agents** — Planning (Opus), implementation (Inherit), utilities (Haiku) with clear handoffs",
+    "translatedContent": "- **12 个超专业化代理** — 规划（Opus）、实现（Inherit）、工具（Haiku）及清晰交接"
+  },
+  {
+    "row": 14,
+    "rowsha": "vYK0ko3kYyny6FviRDyY1eg1LEDuh2sVJ5lyCFYdpIs=",
+    "originContent": "- **TCA Support** — Full workflow from architecture design to testing for The Composable Architecture",
+    "translatedContent": "- **TCA 支持** — 从架构设计到测试的完整工作流，支持可组合架构"
+  },
+  {
+    "row": 15,
+    "rowsha": "I7VNfC0gGwYMqcpDu7slQ2M4R4QMccXZpITIj8U7YNw=",
+    "originContent": "- **Modern Swift 6.2** — iOS 26+ with strict concurrency, async/await, actors, Sendable",
+    "translatedContent": "- **现代 Swift 6.2** — iOS 26+，支持严格并发、async/await、actor、Sendable"
+  },
+  {
+    "row": 16,
+    "rowsha": "NvzAlh1eXJ/cOCRkp0tpnv7t3mMcskDuq5Yl4exnYE4=",
+    "originContent": "- **Code Quality** — Integrated code review, accessibility compliance, and performance checks",
+    "translatedContent": "- **代码质量** — 集成代码审查、无障碍合规及性能检查"
+  },
+  {
+    "row": 17,
+    "rowsha": "hP0u7QkeyXZLJZIt5yv6PKV/f7q/rcv66H4RAGh3tE0=",
+    "originContent": "- **Knowledge Skills** — 18 specialized knowledge bases covering architecture patterns, frameworks, design, and development tools",
+    "translatedContent": "- **知识技能** — 18 个专门知识库，涵盖架构模式、框架、设计和开发工具"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## 快速开始"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+    "originContent": "### Installation",
+    "translatedContent": "### 安装"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "U+8pnxQ1803duSrhjOSmHID8dJC1hXstl8Cn3YXzQa0=",
+    "originContent": "Add the plugin to Claude Code:",
+    "translatedContent": "将插件添加到 Claude Code："
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 26,
+    "rowsha": "bnLQhnHgeMISPPsRNrhS254srwCwjRy80a2466jjDzw=",
+    "originContent": "# Add marketplace source",
+    "translatedContent": "# Add marketplace source"
+  },
+  {
+    "row": 27,
+    "rowsha": "DMEfqehQSBG/v8wbHD76qwM2nKyrqdvixTJAnekSto4=",
+    "originContent": "/plugin marketplace add https://github.com/johnrogers/claude-swift-engineering",
+    "translatedContent": "/plugin marketplace add https://github.com/johnrogers/claude-swift-engineering"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "55Dhq+DY9UNM/ma1f+7CG8jg1ld7DURVizU0zTqGzHQ=",
+    "originContent": "# Install swift-engineering plugin",
+    "translatedContent": "# Install swift-engineering plugin"
+  },
+  {
+    "row": 30,
+    "rowsha": "o+CYIlp2EdnlMvxi3YhXeToYMEiWcCSid3Y7H2l3pCY=",
+    "originContent": "/plugin install swift-engineering",
+    "translatedContent": "/plugin install swift-engineering"
+  },
+  {
+    "row": 31,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "FONuEShclhtQFISUwNxdrDsKo7rD0sUxvF9+CIc0ci4=",
+    "originContent": "### Hooks (Optional)",
+    "translatedContent": "### 钩子（可选）"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "cKzFi4Q/+IWWpj5ythVUsw3OQlJVa++Bk58ALS1P5WU=",
+    "originContent": "Enable skill/agent evaluation hooks for better workflow discipline:",
+    "translatedContent": "启用技能/代理评估钩子以提升工作流程纪律："
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 38,
+    "rowsha": "EJL0CYq8xkJKLOfSj7m6/8duibKcrbU/nBuT1J4KYhg=",
+    "originContent": "# 1. Symlink hooks-scripts to ~/.claude",
+    "translatedContent": "# 1. Symlink hooks-scripts to ~/.claude"
+  },
+  {
+    "row": 39,
+    "rowsha": "Zz3hWUJcTfpVxuZFK93XpurOyz7RCd/U7jKQ4B9SMt0=",
+    "originContent": "ln -s /path/to/claude-swift-engineering/plugins/swift-engineering/hooks-scripts ~/.claude/hooks-scripts",
+    "translatedContent": "ln -s /path/to/claude-swift-engineering/plugins/swift-engineering/hooks-scripts ~/.claude/hooks-scripts"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "4QLZBJn4K73LowwQ3cYl378KgjdcqcO2MQQUqi4wzS0=",
+    "originContent": "# 2. Add to ~/.claude/settings.json",
+    "translatedContent": "# 2. Add to ~/.claude/settings.json"
+  },
+  {
+    "row": 42,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 43,
+    "rowsha": "CzZKygE9ScEdDnsWMlBphzk0w9tm7iNARlro5h7jHn0=",
+    "originContent": "  \"hooks\": {",
+    "translatedContent": "  \"hooks\": {"
+  },
+  {
+    "row": 44,
+    "rowsha": "mMLUJKNjMBVawh5mYIMU6btEeqo1zgrq25SFNAjt82I=",
+    "originContent": "    \"UserPromptSubmit\": [",
+    "translatedContent": "    \"UserPromptSubmit\": ["
+  },
+  {
+    "row": 45,
+    "rowsha": "nomJGCQusBIh1hPv3RPJDeAXSCjkFHU4PKXYkjnd/gA=",
+    "originContent": "      {",
+    "translatedContent": "      {"
+  },
+  {
+    "row": 46,
+    "rowsha": "aop0mtHnZ3VebDRFlFjpCf7QimVALdwCnrIxeK64efI=",
+    "originContent": "        \"hooks\": [",
+    "translatedContent": "        \"hooks\": ["
+  },
+  {
+    "row": 47,
+    "rowsha": "jDCd96Ge0v7+/ljCWQOX10iZI4/17fzHwg6LvQHu2o4=",
+    "originContent": "          {",
+    "translatedContent": "          {"
+  },
+  {
+    "row": 48,
+    "rowsha": "MTG3iVYAUa4qoIv7mrP3W5x0SOBL8SV125G7eIGOijE=",
+    "originContent": "            \"type\": \"command\",",
+    "translatedContent": "            \"type\": \"command\","
+  },
+  {
+    "row": 49,
+    "rowsha": "C8u3BP8XeWZ7B6dn6Go80JeMQpIq6/LNfcfzqTA+Xo0=",
+    "originContent": "            \"command\": \"cat ~/.claude/hooks-scripts/UserPromptSubmit/skill-forced-eval-hook.sh\"",
+    "translatedContent": "            \"command\": \"cat ~/.claude/hooks-scripts/UserPromptSubmit/skill-forced-eval-hook.sh\""
+  },
+  {
+    "row": 50,
+    "rowsha": "hkFpndNbTGBwBeSly/zTjUT+aOCJDe+rZ+1OXs9H9EY=",
+    "originContent": "          },",
+    "translatedContent": "          },"
+  },
+  {
+    "row": 51,
+    "rowsha": "jDCd96Ge0v7+/ljCWQOX10iZI4/17fzHwg6LvQHu2o4=",
+    "originContent": "          {",
+    "translatedContent": "          {"
+  },
+  {
+    "row": 52,
+    "rowsha": "MTG3iVYAUa4qoIv7mrP3W5x0SOBL8SV125G7eIGOijE=",
+    "originContent": "            \"type\": \"command\",",
+    "translatedContent": "            \"type\": \"command\","
+  },
+  {
+    "row": 53,
+    "rowsha": "kJjlbvaabHkQ/w2a9GbBTEarHU4pbumdNwjrm/Y/y0g=",
+    "originContent": "            \"command\": \"cat ~/.claude/hooks-scripts/UserPromptSubmit/agent-forced-eval-hook.sh\"",
+    "translatedContent": "            \"command\": \"cat ~/.claude/hooks-scripts/UserPromptSubmit/agent-forced-eval-hook.sh\""
+  },
+  {
+    "row": 54,
+    "rowsha": "lyanSUvVVds8gBii620dpKim0Gan1NH8OHrLqLkR9Co=",
+    "originContent": "          }",
+    "translatedContent": "          }"
+  },
+  {
+    "row": 55,
+    "rowsha": "ygt4igTskIN0u4F3rZtYfYn6Gpy1l8PIjUuWrUd7hP0=",
+    "originContent": "        ]",
+    "translatedContent": "        ]"
+  },
+  {
+    "row": 56,
+    "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+    "originContent": "      }",
+    "translatedContent": "      }"
+  },
+  {
+    "row": 57,
+    "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+    "originContent": "    ]",
+    "translatedContent": "    ]"
+  },
+  {
+    "row": 58,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 59,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "请参阅 [plugins/swift-engineering/hooks-scripts/README.md](https://raw.githubusercontent.com/johnrogers/claude-swift-engineering/main/plugins/swift-engineering/hooks-scripts/README.md) 获取完整的钩子文档。"
+  },
+  {
+    "row": 62,
+    "rowsha": "MaSIvQh706VIk3Xbx2zhwqHvgifd/uYs5ALH+nZWYrk=",
+    "originContent": "See [plugins/swift-engineering/hooks-scripts/README.md](https://raw.githubusercontent.com/johnrogers/claude-swift-engineering/main/plugins/swift-engineering/hooks-scripts/README.md) for complete hook documentation.",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "请参阅 [plugins/swift-engineering/README.md](https://raw.githubusercontent.com/johnrogers/claude-swift-engineering/main/plugins/swift-engineering/README.md) 获取关于使用代理和可用工作流程的完整文档。"
+  },
+  {
+    "row": 64,
+    "rowsha": "tuZ+qdvde+M7adwN13OPJMyqlGJ5h/x0ucc51TiGXRg=",
+    "originContent": "See [plugins/swift-engineering/README.md](https://raw.githubusercontent.com/johnrogers/claude-swift-engineering/main/plugins/swift-engineering/README.md) for complete documentation on using agents and available workflows.",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 包含内容"
+  },
+  {
+    "row": 66,
+    "rowsha": "Ng9OoIdgTmOkHDIRBPucBlZJNe6fmkTNpCe2szzGn38=",
+    "originContent": "## What's Included",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 12 个专用代理"
+  },
+  {
+    "row": 68,
+    "rowsha": "SkJBFu9vJRyJ5/XvcIZvFztmyg57nXie8z1/SKoyx2E=",
+    "originContent": "### 12 Specialized Agents",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 类型 | 代理 | 职责 |"
+  },
+  {
+    "row": 70,
+    "rowsha": "D5ma08s8G8V0r7LTLCbHbmL+SVQxa014iadpb+L9wFc=",
+    "originContent": "| Type | Agents | Responsibility |",
+    "translatedContent": "|------|--------|-----------------|"
+  },
+  {
+    "row": 71,
+    "rowsha": "kW695k+hTTsyZ+5zXXmZTnjVKl5FKwg4x4B1tvW0cBM=",
+    "originContent": "|------|--------|-----------------|",
+    "translatedContent": "| **规划** | @swift-ui-design, @swift-architect, @tca-architect | 架构决策（Opus，只读） |"
+  },
+  {
+    "row": 72,
+    "rowsha": "pgwxFC7R6u8/4kBljdPYTIdhB3A6IzxFkEivTQfQz2w=",
+    "originContent": "| **Planning** | @swift-ui-design, @swift-architect, @tca-architect | Architecture decisions (Opus, read-only) |",
+    "translatedContent": "| **实现** | @tca-engineer, @swift-engineer, @swiftui-specialist, @swift-test-creator, @documentation-generator, @swift-code-reviewer, @swift-modernizer | 代码创建与审查（继承） |"
+  },
+  {
+    "row": 73,
+    "rowsha": "sr4cAZpTzO9n3uvd0uabqnttxjhNGapFo4KVEMu6FtE=",
+    "originContent": "| **Implementation** | @tca-engineer, @swift-engineer, @swiftui-specialist, @swift-test-creator, @documentation-generator, @swift-code-reviewer, @swift-modernizer | Code creation and review (Inherit) |",
+    "translatedContent": "| **工具** | @swift-documenter, @search | API 文档和代码搜索（Haiku） |"
+  },
+  {
+    "row": 74,
+    "rowsha": "4cRJR1JOU5bSb7jzeUCspnEgE1Zq6BtGLj9YP9EaAo4=",
+    "originContent": "| **Utilities** | @swift-documenter, @search | API documentation and code search (Haiku) |",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 18 个知识技能"
+  },
+  {
+    "row": 76,
+    "rowsha": "v1yCvNTr99bLM8cJDG4w4umseu5GyBJvq+9N7u6K5vs=",
+    "originContent": "### 18 Knowledge Skills",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "架构模式（TCA、SwiftUI、现代 Swift、高级手势）、框架（SQLite、GRDB、StoreKit、网络）、平台设计（iOS 26、HIG、本地化、触觉反馈）和开发工具（测试、风格、诊断）。每项技能都提供关于现代模式和最佳实践的深入指导。"
+  },
+  {
+    "row": 78,
+    "rowsha": "xj7loMP7aAXHjQjmiph2OCEeR3FWCCFYjLysVSv36wM=",
+    "originContent": "Architecture patterns (TCA, SwiftUI, modern Swift, advanced gestures), frameworks (SQLite, GRDB, StoreKit, networking), platform design (iOS 26, HIG, localization, haptics), and development tools (testing, style, diagnostics). Each skill provides deep guidance on modern patterns and best practices.",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 面向贡献者"
+  },
+  {
+    "row": 80,
+    "rowsha": "+qu/dxvGjWYwp1uWA4xt+BJcgdvgmRjelcNrAD1kiuQ=",
+    "originContent": "## For Contributors",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 仓库结构"
+  },
+  {
+    "row": 82,
+    "rowsha": "CwZZqcC7CQUhQG9X2fPv83IGFLXeK8uDwM/VTuZQ96k=",
+    "originContent": "### Repository Structure",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 85,
+    "rowsha": "MC6rqRaTJgAc97Mcx9L8gIbBb77hvEXzRsHwQLa12iU=",
+    "originContent": "claude-swift-engineering/",
+    "translatedContent": "claude-swift-engineering/"
+  },
+  {
+    "row": 86,
+    "rowsha": "L27lHq0KVjOF90jCc4e1Vd3/ElvxA6eANWdlRroGU+s=",
+    "originContent": "├── .claude-plugin/",
+    "translatedContent": "├── .claude-plugin/"
+  },
+  {
+    "row": 87,
+    "rowsha": "aNytLxlAKK8ZzmZrGwzHjpx6ytBJYsvna/ZpY8EqHk4=",
+    "originContent": "│   └── marketplace.json                    # Marketplace configuration",
+    "translatedContent": "│   └── marketplace.json                    # Marketplace configuration"
+  },
+  {
+    "row": 88,
+    "rowsha": "/ziK9PowItaSW7bU4Eu7HwXVJZEr4LpwU02RicYGEdA=",
+    "originContent": "├── .github/workflows/                      # CI/CD pipelines",
+    "translatedContent": "├── .github/workflows/                      # CI/CD pipelines"
+  },
+  {
+    "row": 89,
+    "rowsha": "cSryV3IpIJrMd8l3DzkPDOz3xJFye3+TAT4/QQwOLqU=",
+    "originContent": "├── plugins/",
+    "translatedContent": "├── plugins/"
+  },
+  {
+    "row": 90,
+    "rowsha": "sxmd21MKZL1tGZDAv1IWxkbGmlc051i4n/vnHvGrkDA=",
+    "originContent": "│   └── swift-engineering/                  # Main plugin",
+    "translatedContent": "│   └── swift-engineering/                  # Main plugin"
+  },
+  {
+    "row": 91,
+    "rowsha": "+WbW+YDHiINWCZBKhIdbr177dV8Ue0Ys+lkhT/mudOM=",
+    "originContent": "│       ├── agents/                         # 12 specialized agents",
+    "translatedContent": "│       ├── agents/                         # 12 specialized agents"
+  },
+  {
+    "row": 92,
+    "rowsha": "xpeDQNJTuH8bBVuTyvMXpyf1DeKMmGC7Edgd87/x9A8=",
+    "originContent": "│       ├── skills/                         # 18 comprehensive skills",
+    "translatedContent": "│       ├── skills/                         # 18 comprehensive skills"
+  },
+  {
+    "row": 93,
+    "rowsha": "vzkKTCXkF8cT6pYaVkL28231i6UZoFFZQTwqMi0kp7k=",
+    "originContent": "│       ├── hooks-scripts/                  # Hooks system",
+    "translatedContent": "│       ├── hooks-scripts/                  # Hooks system"
+  },
+  {
+    "row": 94,
+    "rowsha": "4xxz06q51YIQGHQjV6Ly8cap2P6UY5M9ynnl5sPpvLo=",
+    "originContent": "│       ├── scripts/                        # Helper utilities",
+    "translatedContent": "│       ├── scripts/                        # Helper utilities"
+  },
+  {
+    "row": 95,
+    "rowsha": "CwegVMCfCAYWZogoME++Qh/caXMZeEYsGZtZK9hlMq0=",
+    "originContent": "│       ├── rules/                          # Development rules",
+    "translatedContent": "│       ├── rules/                          # Development rules"
+  },
+  {
+    "row": 96,
+    "rowsha": "vpnvNaqZ4iZxtisF6QhUSSf6RC4j5t9vFs51JqxyE+g=",
+    "originContent": "│       └── README.md                       # Plugin documentation",
+    "translatedContent": "│       └── README.md                       # Plugin documentation"
+  },
+  {
+    "row": 97,
+    "rowsha": "LEwsIDkXuOpPOLHQJOh9xM7orHDx35zoGK8Th1AL8+w=",
+    "originContent": "└── worktrees/                              # Git worktrees for features",
+    "translatedContent": "└── worktrees/                              # Git worktrees for features"
+  },
+  {
+    "row": 98,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "XfOFIXpvw0Wst+MymVSm9nkPxsDZ8DkWTek+cm82Eyc=",
+    "originContent": "### Development Workflow",
+    "translatedContent": "### 开发工作流程"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "sVkzUYLFePYFeyrqZ6y9xIpv8qphQzy+eWowNjRs1u8=",
+    "originContent": "#### Bumping Version",
+    "translatedContent": "#### 版本升级"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "QFSeaiATqCIQ7C5DzFKccTJ5f5QMeMw+sUffJy0pj4g=",
+    "originContent": "When making changes, increment the plugin version:",
+    "translatedContent": "在进行更改时，增加插件版本号："
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 107,
+    "rowsha": "/9pzy/KXSL+J1lcjwtJDUQDlnsBMscuD5I4pMD0n5H4=",
+    "originContent": "bash plugins/swift-engineering/scripts/bump-plugin-version.sh <new-version>",
+    "translatedContent": "bash plugins/swift-engineering/scripts/bump-plugin-version.sh <new-version>"
+  },
+  {
+    "row": 108,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "这会更新 plugin.json、marketplace.json 及其他元数据文件中的版本号。"
+  },
+  {
+    "row": 110,
+    "rowsha": "zsqgNE6nFpDrpJBsBFpyGMV7BEyVvF7RW5Mzm1kjcgk=",
+    "originContent": "This updates version numbers across plugin.json, marketplace.json, and other metadata files.",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 添加代理或技能"
+  },
+  {
+    "row": 112,
+    "rowsha": "ujRobDu/3lzQJvhCga9drjIPhsfeZwWl8GN+Dl9qpq4=",
+    "originContent": "#### Adding Agents or Skills",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 按照现有模式创建新的代理或技能文件（参见 `agents/` 或 `skills/` 中的示例）"
+  },
+  {
+    "row": 114,
+    "rowsha": "q8euirPzbnMM9TkvcvXfeIswVnQBV/PlFAe9dmnW3sk=",
+    "originContent": "1. Create new agent or skill file following existing patterns (see examples in `agents/` or `skills/`)",
+    "translatedContent": "2. 如果定义新的工具功能，更新 `plugin.json`"
+  },
+  {
+    "row": 115,
+    "rowsha": "B4EJmaII0as/02l0SjPWXOZ5BRdsjX1zaCaP2ntbUYU=",
+    "originContent": "2. Update `plugin.json` if defining new tool capabilities",
+    "translatedContent": "3. 运行冒烟测试以验证配置"
+  },
+  {
+    "row": 116,
+    "rowsha": "uB96ORpNo8J1kGXHmRJwLglo82oNf8mvODG1yj+mt8s=",
+    "originContent": "3. Run smoke tests to validate configuration",
+    "translatedContent": "4. 更新两个 README 文件（根目录和插件目录）"
+  },
+  {
+    "row": 117,
+    "rowsha": "3fWn9KzMgFU7GkbO96AKB//b+6TlL2D3F7/x6plJFoE=",
+    "originContent": "4. Update both README files (root and plugin)",
+    "translatedContent": "5. 测试与工作流的集成"
+  },
+  {
+    "row": 118,
+    "rowsha": "+95CmPTQCN+NrWpeDeA+eCIlEnnfZO5MMKJJ91DcpAs=",
+    "originContent": "5. Test integration with the workflow",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 代码组织"
+  },
+  {
+    "row": 120,
+    "rowsha": "6XT1OTYNf85fReM1qcLK99EP2HZo43rpB8uhTvDdbgc=",
+    "originContent": "### Code Organization",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **代理** (`agents/`) — 每个代理都有一个包含元数据和说明的 `.md` 文件"
+  },
+  {
+    "row": 122,
+    "rowsha": "2LZz6A7ixpujlBPsoD3FskUCLD3scsxdg7eMVpFZKqw=",
+    "originContent": "- **Agents** (`agents/`) — Each agent has a `.md` file with metadata and instructions",
+    "translatedContent": "- **技能** (`skills/`) — 代理引用的知识资源，按主题组织"
+  },
+  {
+    "row": 123,
+    "rowsha": "Einauaqq+1iuIC12XHolsT1AOCdAZ+0SHver8ZqABQQ=",
+    "originContent": "- **Skills** (`skills/`) — Knowledge resources agents reference, organized by topic",
+    "translatedContent": "- **钩子** (`hooks-scripts/`) — 强制执行工作流的可执行钩子"
+  },
+  {
+    "row": 124,
+    "rowsha": "HzyDWYP7Sl3CcH8RRHZ+hx8+v2ONlR+Remu5KqUdEZ8=",
+    "originContent": "- **Hooks** (`hooks-scripts/`) — Executable hooks that enforce workflows",
+    "translatedContent": "- **脚本** (`scripts/`) — 自动化的实用 Shell 脚本"
+  },
+  {
+    "row": 125,
+    "rowsha": "fwGBp5+oH6xflnm1O2f6Oois0iMHp7teNG90+q3KaAc=",
+    "originContent": "- **Scripts** (`scripts/`) — Utility shell scripts for automation",
+    "translatedContent": "- **规则** (`rules/`) — 开发实践和决策框架"
+  },
+  {
+    "row": 126,
+    "rowsha": "6ZDyGoa8wDSVQg2izF20hUaR4Wc5bB3oJy1nQ4Pme5s=",
+    "originContent": "- **Rules** (`rules/`) — Development practices and decision-making frameworks",
+    "translatedContent": "- **文档** (`docs/`) — 冒烟测试和验证套件"
+  },
+  {
+    "row": 127,
+    "rowsha": "lplXSEhKeC4cCH5hMtwU+3AA89JblaQ49kzGt5d8/1o=",
+    "originContent": "- **Documentation** (`docs/`) — Smoke tests and validation suite",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 架构与设计原则"
+  },
+  {
+    "row": 129,
+    "rowsha": "8Ij823E4GOCAJ8psw8T5rl1LWABt59CIGLrJdaSOo3E=",
+    "originContent": "## Architecture & Design Principles",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "该插件实现了几个关键原则："
+  },
+  {
+    "row": 131,
+    "rowsha": "5BxOAlC7GdcpEwdOwk5YrAoR7HLIqUpmJymoCUCbxH4=",
+    "originContent": "The plugin implements several key principles:",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **超专业化** — 每个代理有一个明确的职责和定义好的交接"
+  },
+  {
+    "row": 133,
+    "rowsha": "Y0Vv/GjhW4pkk1PZRjtde0izdI3t29jISS6WjEe2bBw=",
+    "originContent": "- **Ultra-Specialization** — Each agent has one clear responsibility with defined handoffs",
+    "translatedContent": "- **模型分层** — Opus 用于架构（最佳推理），Inherit 用于实现（成本效益），Haiku 用于工具（快速）"
+  },
+  {
+    "row": 134,
+    "rowsha": "GQ9RFUqSMMSeb+7tfWjaABZdqx91DSjrJrphtpQyhIg=",
+    "originContent": "- **Model Stratification** — Opus for architecture (best reasoning), Inherit for implementation (cost-effective), Haiku for utilities (fast)",
+    "translatedContent": "- **本地优先** — 默认使用 SQLite 和 UserDefaults，绝不使用 SwiftData 或 Core Data"
+  },
+  {
+    "row": 135,
+    "rowsha": "1nPmJLygTfGn7wa/G6nzrDKoQp0MuHNcZmnjY1ZjRpM=",
+    "originContent": "- **Local-First** — Default to SQLite and UserDefaults, never SwiftData or Core Data",
+    "translatedContent": "- **仅限现代 Swift** — Swift 6.2 严格并发，不使用已弃用的 API"
+  },
+  {
+    "row": 136,
+    "rowsha": "so1UOdyhC+TDp0R+HNW83GfegPAKU5Naclh0U+3By0U=",
+    "originContent": "- **Modern Swift Only** — Swift 6.2 with strict concurrency, no deprecated APIs",
+    "translatedContent": "- **只读规划** — 规划代理不能修改代码，确保职责清晰分离"
+  },
+  {
+    "row": 137,
+    "rowsha": "CmxFyil5LOM+DAtsTJoXvZ+ao+yoJRWX7n+Ragdrjbg=",
+    "originContent": "- **Read-Only Planning** — Planning agents cannot modify code, ensuring clear separation",
+    "translatedContent": "- **计划文件协调** — 代理通过 `docs/plans/<feature>.md` 共享状态"
+  },
+  {
+    "row": 138,
+    "rowsha": "2atdJWxR7+3cDfQvxlJhCNBvb30ABO5wxwQYmP7zjHs=",
+    "originContent": "- **Plan File Coordination** — Agents share state via `docs/plans/<feature>.md`",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "参见 [plugins/swift-engineering/README.md](https://raw.githubusercontent.com/johnrogers/claude-swift-engineering/main/plugins/swift-engineering/README.md) 了解架构细节、工作流图和交接模型。"
+  },
+  {
+    "row": 140,
+    "rowsha": "0dZPQu0wBXI+ZmHsxyF3GWU0+SHrmdNQ5Um5i1UWzTs=",
+    "originContent": "See [plugins/swift-engineering/README.md](https://raw.githubusercontent.com/johnrogers/claude-swift-engineering/main/plugins/swift-engineering/README.md) for architecture details, workflow diagrams, and handoff models.",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 许可"
+  },
+  {
+    "row": 142,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MIT 许可 — 详见 [LICENSE](LICENSE) 文件。"
+  },
+  {
+    "row": 144,
+    "rowsha": "fcEaK8me3R+sZsZQf397cv/2HE0c2g65JSzLbSDN+1k=",
+    "originContent": "MIT License — See [LICENSE](LICENSE) file for details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 致谢"
+  },
+  {
+    "row": 146,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**作者：** John Rogers"
+  },
+  {
+    "row": 148,
+    "rowsha": "chZGXXzj9XVvoMtxwZ+aJrY5fzki3fujkVgcTxt021Y=",
+    "originContent": "**Author:** John Rogers",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "IpqrVqmtZkTKrGABMd3/SsaCKt0/YNsJKO88QrhAIxk=",
+    "originContent": "**Repository:** claude-swift-engineering",
+    "translatedContent": "**仓库：** claude-swift-engineering  "
+  },
+  {
+    "row": 150,
+    "rowsha": "/5PB8QjESeF/QvL9C1OkhtFii2kFM4TxRMQxyqM856E=",
+    "originContent": "**Swift Version:** 6.2+",
+    "translatedContent": "**Swift 版本：** 6.2+  "
+  },
+  {
+    "row": 151,
+    "rowsha": "VEGEEuL3hp6BFUIiZeS0hBWte3EGhpx6LFlPmxjOjI8=",
+    "originContent": "**iOS Deployment Target:** 26.0+",
+    "translatedContent": "**iOS 部署目标：** 26.0+  "
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---  "
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "cOJfqwiolTopIm23YwKuj9dopR7KQaZ7mGbHfUJnhCg=",
+    "originContent": "For detailed documentation, agent specifications, and usage examples, see [plugins/swift-engineering/README.md](https://raw.githubusercontent.com/johnrogers/claude-swift-engineering/main/plugins/swift-engineering/README.md).",
+    "translatedContent": "有关详细文档、代理规范和使用示例，请参见 [plugins/swift-engineering/README.md](https://raw.githubusercontent.com/johnrogers/claude-swift-engineering/main/plugins/swift-engineering/README.md)。"
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
