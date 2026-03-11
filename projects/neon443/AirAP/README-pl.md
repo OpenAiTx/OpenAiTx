@@ -33,7 +33,7 @@
 <div align="center"> 
     <br/>
     <p>
-        <img src="https://files.catbox.moe/f4jofb.png" title="ikona" alt="ikona" width="100" />
+        <img src="https://github.com/neon443/AirAP/blob/main/Icon/icon.png?raw=true" title="icon" alt="icon" width="100" />
     </p>
     <p>
         użyj swojego iPhone'a jako odbiornika AirPlay
@@ -52,7 +52,7 @@
 
 <div align="center">
   <a href="https://shipwrecked.hackclub.com/?t=ghrm" target="_blank">
-    <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/739361f1d440b17fc9e2f74e49fc185d86cbec14_badge.png" 
+    <img src="https://github.com/neon443/AirAP/blob/main/Icon/shipwrecked.png?raw=true" 
          alt="Ten projekt jest częścią Shipwrecked, pierwszego na świecie hackathonu na wyspie!" 
          style="width: 25%;">
   </a>
@@ -60,21 +60,21 @@
 
 <br/>
 
-AirAP to w pełni natywny serwer AirPlay, napisany w Swift, dla iOS. W zasadzie AirAP pozwala używać iPhone’a jako odbiornika AirPlay w iTunes lub na Macu, co oznacza, że możesz użyć iPhone’a do odtwarzania dźwięku z innego urządzenia.
+AirAP to w pełni natywny serwer AirPlay, napisany w Swift, dla iOS. Zasadniczo AirAP pozwala używać iPhone'a jako odbiornika AirPlay w iTunes lub na Macu, co oznacza, że możesz używać swojego iPhone'a do odtwarzania dźwięku z urządzenia.
 
-## Czym jest AirAP?
+## Co to jest AirAP?
 
-Czy kiedykolwiek chciałeś przesłać dźwięk ze swojego Maca, Apple TV lub innego urządzenia iOS na iPhone’a? AirAP umożliwia to, implementując pełny serwer AirPlay działający natywnie na iOS. Po instalacji Twój iPhone pojawi się jako dostępny cel AirPlay w zakładce Dźwięk w Preferencjach systemowych, w aplikacji Muzyka lub w każdej innej aplikacji zgodnej z AirPlay.
+Czy kiedykolwiek chciałeś przesyłać dźwięk z Maca, Apple TV lub innego urządzenia iOS na swojego iPhone'a? AirAP to umożliwia, implementując pełny serwer AirPlay działający natywnie na iOS. Po zainstalowaniu Twój iPhone pojawi się jako dostępny cel AirPlay w panelu Dźwięk Preferencji Systemowych, aplikacji Muzyka lub dowolnej innej aplikacji zgodnej z AirPlay.
 
-Na pierwszy rzut oka pomysł może wydawać się odwrócony – przecież zwykle przesyłamy z iPhone’a na inne urządzenia. Jednak jest zaskakująco wiele sytuacji, w których możesz chcieć zrobić odwrotnie. Może pracujesz na Macu późno w nocy i chcesz przekierować dźwięk na iPhone’a ze słuchawkami, by nie przeszkadzać innym (cześć 👋). Może jesteś deweloperem testującym aplikacje audio i chcesz szybko przełączać się między różnymi urządzeniami wyjściowymi. A może po prostu chcesz wykorzystać stare przewodowe głośniki.
+Koncepcja może wydawać się odwrócona – w końcu jesteśmy przyzwyczajeni do przesyłania z iPhone'a na inne urządzenia. Ale istnieje zaskakująco wiele scenariuszy, w których chcesz zrobić odwrotnie. Może pracujesz na Macu późno w nocy i chcesz przekierować dźwięk na iPhone'a ze słuchawkami, by nikogo nie budzić (cześć 👋). Może jesteś deweloperem testującym aplikacje audio i potrzebujesz szybko przełączać się między różnymi urządzeniami wyjściowymi. A może po prostu chcesz dać nowe życie starym przewodowym głośnikom.
 
 ## Instalacja AirAP
 
-Aby wypróbować, [otwórz ten link do TestFlight](https://testflight.apple.com/join/8aeqD8Q2), zainstaluj AirAP i postępuj zgodnie z instrukcjami. Po instalacji uruchom AirAP i upewnij się, że Twój iPhone jest podłączony do tej samej sieci Wi-Fi co urządzenie, z którego chcesz przesyłać dźwięk. Twój iPhone automatycznie pojawi się na liście urządzeń AirPlay, gotowy do odbioru dźwięku – jeśli się nie pojawi, spróbuj ponownie uruchomić aplikację.
+Aby przetestować, [otwórz ten link do TestFlight](https://testflight.apple.com/join/8aeqD8Q2), zainstaluj AirAP i postępuj zgodnie z instrukcjami. Po instalacji po prostu uruchom AirAP i upewnij się, że Twój iPhone jest połączony z tą samą siecią Wi-Fi co urządzenie, z którego chcesz przesyłać dźwięk. Twój iPhone automatycznie pojawi się na liście urządzeń AirPlay, gotowy do odbioru dźwięku — jeśli nie, spróbuj ponownie uruchomić aplikację.
 
 ## Kompilacja
 
-Upewnij się, że masz [homebrew](https://brew.sh)
+Upewnij się, że masz zainstalowany [homebrew](https://brew.sh)
 ```
 brew install carthage
 git clone https://github.com/neon443/AirAP
@@ -98,8 +98,11 @@ would not have been possible without these
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
 
 ---

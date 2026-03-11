@@ -32,10 +32,10 @@
 <div align="center"> 
     <br/>
     <p>
-        <img src="https://files.catbox.moe/f4jofb.png" title="icon" alt="icon" width="100" />
+        <img src="https://github.com/neon443/AirAP/blob/main/Icon/icon.png?raw=true" title="icon" alt="icon" width="100" />
     </p>
     <p>
-        iPhone'unuzu bir AirPlay alıcısı olarak kullanın
+        iphone'unuzu bir airplay alıcısı olarak kullanın
         <br/>
 
         <a href="https://neon443.github.io">
@@ -52,25 +52,25 @@
 
 <div align="center">
   <a href="https://shipwrecked.hackclub.com/?t=ghrm" target="_blank">
-    <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/739361f1d440b17fc9e2f74e49fc185d86cbec14_badge.png" 
-         alt="Bu proje, dünyanın ilk adada düzenlenen hackathon'u olan Shipwrecked'in bir parçasıdır!" 
+    <img src="https://github.com/neon443/AirAP/blob/main/Icon/shipwrecked.png?raw=true" 
+         alt="Bu proje dünyanın ilk ada hackathonu olan Shipwrecked'in bir parçasıdır!" 
          style="width: 25%;">
   </a>
 </div>
 
 <br/>
 
-AirAP, iOS için Swift ile tamamen yerel olarak yazılmış bir AirPlay sunucusudur. Temelde AirAP, iPhone'unuzu iTunes veya Mac'te bir AirPlay alıcısı olarak kullanmanıza olanak tanır; yani cihazınızın sesini iPhone'unuzda oynatabilirsiniz.
+AirAP, iOS için Swift ile yazılmış tamamen yerel bir AirPlay sunucusudur. Temelde, AirAP iPhone'unuzu iTunes veya Mac'inizde bir AirPlay alıcısı olarak kullanmanızı sağlar, yani iPhone'unuzu cihazınızın sesini çalmak için kullanabilirsiniz.
 
-## AirAP Nedir?
+## AirAP nedir?
 
-Mac'inizden, Apple TV'nizden veya başka bir iOS cihazından iPhone'unuza ses akışı yapmak istediğiniz oldu mu? AirAP, iOS'ta yerel olarak çalışan tam özellikli bir AirPlay sunucusu uygulayarak bunu mümkün kılar. Kurduktan sonra, iPhone'unuz Sistem Tercihleri'nin Ses bölmesinde, Music.app'ta veya başka herhangi bir AirPlay uyumlu uygulamada kullanılabilir bir AirPlay hedefi olarak görünecektir.
+Mac'inizden, Apple TV'nizden veya başka bir iOS cihazdan iPhone'unuza ses akışı yapmak istediniz mi? AirAP, iOS üzerinde yerel olarak çalışan tam bir AirPlay sunucusu uygulayarak bunu mümkün kılıyor. Kurulduktan sonra, iPhone'unuz Sistem Tercihleri'nin Ses bölümünde, Music.app'ta veya başka bir AirPlay uyumlu uygulamada kullanılabilir bir AirPlay hedefi olarak görünür.
 
-İlk başta bu fikir ters gelebilir - sonuçta, genellikle iPhone'umuzdan diğer cihazlara akış yapmaya alışkınız. Fakat şaşırtıcı derecede çok durumda tersini yapmak isteyebilirsiniz. Belki gece geç saatlerde Mac'inizde çalışıyorsunuz ve sesi kulaklık ile iPhone'unuza yönlendirmek istiyorsunuz ki kimse rahatsız olmasın (selam 👋). Belki bir geliştiricisiniz ve ses uygulamalarını test edip farklı çıkış cihazları arasında hızlıca geçiş yapmanız gerekiyor. Ya da belki eski bir kablolu hoparlörü yeniden değerlendirmek istiyorsunuz.
+İlk başta fikir ters görünebilir - sonuçta, genellikle iPhone'larımızdan diğer cihazlara akış yapmaya alışkınız. Fakat tersini yapmak isteyebileceğiniz şaşırtıcı derecede çok senaryo var. Belki Mac'inizde gece geç saatlerde çalışıyorsunuz ve sesleri kulaklıkla iPhone'unuza yönlendirmek istiyorsunuz ki kimseyi rahatsız etmeyin (merhaba 👋). Belki bir geliştiricisiniz ve ses uygulamalarını test ediyorsunuz, farklı çıkış cihazları arasında hızlıca geçiş yapmanız gerekiyor. Ya da belki eski kablolu hoparlörünüzü yeniden değerlendirmek istiyorsunuz.
 
-## AirAP Nasıl Kurulur
+## AirAP Kurulumu
 
-Denemek için [bu TestFlight bağlantısını açın](https://testflight.apple.com/join/8aeqD8Q2), AirAP'ı yükleyin ve talimatları izleyin. Kurulumdan sonra, AirAP'ı başlatın ve iPhone'unuzun akış yapmak istediğiniz cihazla aynı Wi-Fi ağına bağlı olduğundan emin olun. iPhone'unuz AirPlay cihaz listelerinde otomatik olarak görünecek ve ses almaya hazır olacak - eğer görünmüyorsa, uygulamayı yeniden başlatmayı deneyin.
+Denemek için [bu TestFlight bağlantısını açın](https://testflight.apple.com/join/8aeqD8Q2), AirAP'i kurun ve talimatları izleyin. Kurulumdan sonra, AirAP'i başlatın ve iPhone'unuzun, akış yapmak istediğiniz cihazla aynı Wi-Fi ağına bağlı olduğundan emin olun. iPhone'unuz otomatik olarak AirPlay cihaz listelerinde görünecek, ses almaya hazır olacak - eğer görünmüyorsa, uygulamayı yeniden başlatmayı deneyin.
 
 ## Derleme
 
@@ -98,8 +98,11 @@ would not have been possible without these
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
 
 ---

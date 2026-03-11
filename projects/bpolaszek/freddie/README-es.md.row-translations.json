@@ -1,0 +1,1364 @@
+[
+  {
+    "row": 1,
+    "rowsha": "N2ebljIgvYIMsSxJvOi+i0TLWymleOAa32lBSW0yYPc=",
+    "originContent": "[![Application](https://github.com/bpolaszek/mercure-x/actions/workflows/app.yml/badge.svg)](https://github.com/bpolaszek/mercure-x/actions/workflows/app.yml)",
+    "translatedContent": "[![Aplicación](https://github.com/bpolaszek/mercure-x/actions/workflows/app.yml/badge.svg)](https://github.com/bpolaszek/mercure-x/actions/workflows/app.yml)"
+  },
+  {
+    "row": 2,
+    "rowsha": "hj6DqAK/OaExH8E0vzbZE9gORWrGOY9oZhsCbkti3Ck=",
+    "originContent": "[![Coverage](https://codecov.io/gh/bpolaszek/freddie/branch/main/graph/badge.svg?token=uB4gRHyS6r)](https://codecov.io/gh/bpolaszek/freddie)",
+    "translatedContent": "[![Cobertura](https://codecov.io/gh/bpolaszek/freddie/branch/main/graph/badge.svg?token=uB4gRHyS6r)](https://codecov.io/gh/bpolaszek/freddie)"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "jS4zFdZsa5QfY6ziknC+XVd1etCTp2RE2agxphEjxN0=",
+    "originContent": "# Freddie",
+    "translatedContent": "# Freddie"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "srDG4Cwue1yY3+zW90Wb9D3VFKnfpj+GEzkJJV34Tic=",
+    "originContent": "Freddie is a PHP implementation of the [Mercure Hub Specification](https://mercure.rocks/spec).",
+    "translatedContent": "Freddie es una implementación en PHP de la [Especificación del Hub Mercure](https://mercure.rocks/spec)."
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "/HCt7DrqPTKVOtr7v3jUHJV28EHoPj+WqrpaVZXkdS0=",
+    "originContent": "It is blazing fast, built on the shoulders of giants:",
+    "translatedContent": "Es extremadamente rápido, construido sobre los hombros de gigantes:"
+  },
+  {
+    "row": 9,
+    "rowsha": "W6gIAdPiNr2LyqN4BU/ftUBaVIv6VWBmGeZ6vDhP0Ic=",
+    "originContent": "- [PHP](https://www.php.net/releases/8.1/en.php) 8.1",
+    "translatedContent": "- [PHP](https://www.php.net/releases/8.1/en.php) 8.1"
+  },
+  {
+    "row": 10,
+    "rowsha": "THgR1RtqDJ5e2QgUzuAJHr6gReEDe5WOiJ0Xwq2g0Rk=",
+    "originContent": "- [Framework X](https://framework-x.org/) and [ReactPHP](https://reactphp.org/)",
+    "translatedContent": "- [Framework X](https://framework-x.org/) y [ReactPHP](https://reactphp.org/)"
+  },
+  {
+    "row": 11,
+    "rowsha": "cR5mE8rpxC5g0HbMlFC+fnu3cN+gxuqUxa4ALtgCsAA=",
+    "originContent": "- [Symfony](https://symfony.com/) 6",
+    "translatedContent": "- [Symfony](https://symfony.com/) 6"
+  },
+  {
+    "row": 12,
+    "rowsha": "+gulV+eY1+XwCjpEtIOiPIepZy8P2/RUxATICdqkDTc=",
+    "originContent": "- [Redis](https://redis.io/) (optionally).",
+    "translatedContent": "- [Redis](https://redis.io/) (opcionalmente)."
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "o5Wp2c3QvxTfike22lubgU6T95SHA4rq8P4tOdzefjE=",
+    "originContent": "See what features are covered and what aren't (yet) [here](#feature-coverage).",
+    "translatedContent": "Consulta qué características están cubiertas y cuáles no (todavía) [aquí](#feature-coverage)."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Instalación"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "t5S623ZMxCygL2hUIdNRpWbr6nbqKf8UJ6YlVsZkrMM=",
+    "originContent": "PHP 8.1+ is required to run the hub.",
+    "translatedContent": "Se requiere PHP 8.1+ para ejecutar el hub."
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "NLACtOPWs5fRM3uPvPibfOHj2tKtLvRH63fdRWe6PbM=",
+    "originContent": "### As a standalone Mercure hub",
+    "translatedContent": "### Como un hub Mercure independiente"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 23,
+    "rowsha": "anmzsio0oSbgxu59cJx93Fjpl2E9ShpGtuzLkdikK40=",
+    "originContent": "composer create-project freddie/mercure-x freddie && cd freddie",
+    "translatedContent": "composer create-project freddie/mercure-x freddie && cd freddie"
+  },
+  {
+    "row": 24,
+    "rowsha": "aXGr4uJ7Ob4uiK4Wd47DcV7pnuija9IGyIOih6o1rqU=",
+    "originContent": "bin/freddie",
+    "translatedContent": "bin/freddie"
+  },
+  {
+    "row": 25,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "AM41j+0+MWwGeoCB2NEsUiyUZUZnetoY5q5V65SxZbo=",
+    "originContent": "This will start a Freddie instance on `127.0.0.1:8080`, with anonymous subscriptions enabled.",
+    "translatedContent": "Esto iniciará una instancia de Freddie en `127.0.0.1:8080`, con suscripciones anónimas habilitadas."
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "nroRAdraYLShNTbg5sNHvEsJvdIaeSqt7AajfTVCoLk=",
+    "originContent": "You can publish updates to the hub by generating a valid JWT signed with the `!ChangeMe!` key with `HMAC SHA256` algorithm.",
+    "translatedContent": "Puede publicar actualizaciones en el hub generando un JWT válido firmado con la clave `!ChangeMe!` usando el algoritmo `HMAC SHA256`."
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "6n8XgihmHEsjHUBwMzUKYn3hvywIVAs7aIFRG6xzLBk=",
+    "originContent": "To change these values, see [Security](#security).",
+    "translatedContent": "Para cambiar estos valores, consulte [Seguridad](#security)."
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "WxLeKC7vq1A2gIR27p/XCXnVZt+FsvOPxOZ3LTl/8qQ=",
+    "originContent": "### As a bundle of your existing Symfony application",
+    "translatedContent": "### Como un paquete de su aplicación Symfony existente"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 36,
+    "rowsha": "2P8yq2F59ONwoQ6HCYUdyyygqIOLR8H4ao46dzgR8hE=",
+    "originContent": "composer req freddie/mercure-x",
+    "translatedContent": "composer req freddie/mercure-x"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "cWvUG3Y+/Cy8/jabJe86+qIkjyEHVJqTj1YM4pgNxtA=",
+    "originContent": "You can then start the hub by doing:",
+    "translatedContent": "Luego puedes iniciar el concentrador haciendo:"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 42,
+    "rowsha": "LLe+cAXMkrBgbjvZwHAl2SNyyNztqiA+qwuK/9Otdjs=",
+    "originContent": "bin/console freddie:serve",
+    "translatedContent": "bin/console freddie:serve"
+  },
+  {
+    "row": 43,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "rrJjNCNGFYImCsPYoYI0QAF5cy9+tbRmJvLcJLqMRx4=",
+    "originContent": "You can override relevant env vars in your `.env.local` ",
+    "translatedContent": "Puede anular las variables de entorno relevantes en su `.env.local` "
+  },
+  {
+    "row": 46,
+    "rowsha": "rL4u3cJ6zuOe5hC4Cw5N53RRqA5lQA5NI2mylcK2HI8=",
+    "originContent": "and services in your `config/services.yaml` as usual.",
+    "translatedContent": "y los servicios en su `config/services.yaml` como de costumbre."
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "kvMNsesvyptreldYQf5xMTHTymid8JPs6qr9A9l1JXo=",
+    "originContent": "Then, you can inject `Freddie\\Hub\\HubInterface` in your services so that you can call `$hub->publish($update)`,",
+    "translatedContent": "Luego, puede inyectar `Freddie\\Hub\\HubInterface` en sus servicios para que pueda llamar a `$hub->publish($update)`,"
+  },
+  {
+    "row": 49,
+    "rowsha": "MwCz5iKOuQLQHDUokTAj/kltAUUMYWMz28Kc6slDAEk=",
+    "originContent": "or listening to dispatched updates in a CLI context 👍",
+    "translatedContent": "o escuchar las actualizaciones despachadas en un contexto CLI 👍"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "FGxM0to5835qI7jmt1b3GDox3517lICxF/vjV0DwkEI=",
+    "originContent": "Keep in mind this only works when using the Redis transport.",
+    "translatedContent": "Tenga en cuenta que esto solo funciona cuando se utiliza el transporte Redis."
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "lEBSpGbqFdhnTVeDWe5TfmcfPMLrNepwi+uNvc6STFw=",
+    "originContent": "⚠️ **Freddie** uses its own routing/authentication system (because of async / event loop). ",
+    "translatedContent": "⚠️ **Freddie** utiliza su propio sistema de enrutamiento/autenticación (debido a async / event loop). "
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "ploDiSPqT39dNJMXcrbw6BoPR/+NGKubOLqEmBJXXfQ=",
+    "originContent": "The controllers it exposes cannot be imported in your `routes.yaml`, and get out of your  `security.yaml` scope.",
+    "translatedContent": "Los controladores que expone no se pueden importar en su `routes.yaml`, y quedan fuera del alcance de su `security.yaml`."
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Uso"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 60,
+    "rowsha": "cc1a6XZoF9JyNh/62VgiOgEXlBnFGBhBJMfMN8c97HQ=",
+    "originContent": "./bin/freddie",
+    "translatedContent": "./bin/freddie"
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Se iniciará un nuevo hub de Mercure en `127.0.0.1:8080`.  "
+  },
+  {
+    "row": 63,
+    "rowsha": "YllHknIslJz4cDIFja/QTfRqWAj2lyoudGfnFuX5zzw=",
+    "originContent": "It will start a new Mercure hub on `127.0.0.1:8080`. ",
+    "translatedContent": "Para cambiar esta dirección, use la variable de entorno `X_LISTEN`:"
+  },
+  {
+    "row": 64,
+    "rowsha": "OVQjkLDbdwbP4TCGg/pwcrZqHc0V9NRmgMcoRmEPZIU=",
+    "originContent": "To change this address, use the `X_LISTEN` environment variable:",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 67,
+    "rowsha": "ltnJSd5vitkj6VrTpJa/pLrSb9MMfQM4oUuwfx+n/rA=",
+    "originContent": "X_LISTEN=\"0.0.0.0:8000\" ./bin/freddie",
+    "translatedContent": "X_LISTEN=\"0.0.0.0:8000\" ./bin/freddie"
+  },
+  {
+    "row": 68,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "k0JyAMT+wP0qguawuCzJsTokdj8lZNw8Qlu7r3ztGYg=",
+    "originContent": "### Security ",
+    "translatedContent": "### Seguridad"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "faubm3e2myoRtjY2AC8Bt1Jiw+RAsBr44Fdik7NSlGc=",
+    "originContent": "The default JWT key is `!ChangeMe!` with a `HS256` signature. ",
+    "translatedContent": "La clave JWT por defecto es `!ChangeMe!` con una firma `HS256`."
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "Bsx2T1blZ+dDvc5MNiiDexxph8KsoyY8xM/Qn86xR+8=",
+    "originContent": "You can set different values by changing the environment variables (in `.env.local` or at the OS level): ",
+    "translatedContent": "Puedes establecer valores diferentes cambiando las variables de entorno (en `.env.local` o a nivel del SO):"
+  },
+  {
+    "row": 75,
+    "rowsha": "AuJGtJMTt+3CsMSpuRTgdkPNKA4KXkwk/F7h8LuMsXU=",
+    "originContent": "`X_LISTEN`, `JWT_SECRET_KEY`, `JWT_ALGORITHM`, `JWT_PUBLIC_KEY` and `JWT_PASSPHRASE` (when using RS512 or ECDSA)",
+    "translatedContent": "`X_LISTEN`, `JWT_SECRET_KEY`, `JWT_ALGORITHM`, `JWT_PUBLIC_KEY` y `JWT_PASSPHRASE` (cuando se usa RS512 o ECDSA)"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "R2CQj2sCHQ9jdE64EANcEWcDwt6iZaMOgedCqcqUh4I=",
+    "originContent": "Please refer to the [authorization](https://mercure.rocks/spec#authorization) section of the Mercure specification to authenticate as a publisher and/or a subscriber.",
+    "translatedContent": "Por favor, consulta la sección de [autorización](https://mercure.rocks/spec#authorization) de la especificación de Mercure para autenticarte como publicador y/o suscriptor."
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "94bi8CEJg2yu6y54LIpe0T8GO9Ozr4DSMTzxvat8I0c=",
+    "originContent": "### PHP Transport (default)",
+    "translatedContent": "### Transporte PHP (por defecto)"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "rc/+H4EI54MpfP7K94U0aS3uJJlB2m0O2zrLMTS/iNw=",
+    "originContent": "By default, the hub will run as a simple event-dispatcher, in a single PHP process.",
+    "translatedContent": "Por defecto, el hub se ejecutará como un simple despachador de eventos, en un único proceso PHP."
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "6YnG1awABTP1av4j1MJrLcy9sFJBVO/O8msO1Jkl82I=",
+    "originContent": "It can fit common needs for a basic usage, but using this transport prevents scalability,",
+    "translatedContent": "Puede cubrir necesidades comunes para un uso básico, pero usar este transporte impide la escalabilidad,"
+  },
+  {
+    "row": 84,
+    "rowsha": "GggEnW4kNDaTPsDsFoL4RYtCUc8oOo2Zh0u5zduZOBU=",
+    "originContent": "as opening another process won't share the same event emitter.",
+    "translatedContent": "ya que abrir otro proceso no compartirá el mismo emisor de eventos."
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "AD25LLWwozRdVgUsiLGPHXRpB20fKjK0V/juSAmEd18=",
+    "originContent": "It's still prefectly usable as soon as :",
+    "translatedContent": "Sigue siendo perfectamente usable siempre que:"
+  },
+  {
+    "row": 87,
+    "rowsha": "x4wpYGxkGKFLNs6ah63201qQbzvnmMCh6+OZQcfUr9M=",
+    "originContent": "- You don't expect more than a few hundreds updates per second",
+    "translatedContent": "- No esperes más de unos pocos cientos de actualizaciones por segundo"
+  },
+  {
+    "row": 88,
+    "rowsha": "Q9SkX2XJa3In86vel6MmrY5GOm1XxofN1EgCDahKvsY=",
+    "originContent": "- Your application is served from a single server.",
+    "translatedContent": "- Tu aplicación se sirva desde un único servidor."
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "NWGAQrzN67e6aXUxkpktD9pBUtTg0aSDvehkofwli74=",
+    "originContent": "### Redis transport",
+    "translatedContent": "### Transporte Redis"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "M5dn3H2niY9nOtuaZC4TtxvKgUxJC6YRThFJbyghxRU=",
+    "originContent": "On the other hand, you can launch the hub on **multiple ports** and/or **multiple servers** with a Redis transport",
+    "translatedContent": "Por otro lado, puedes lanzar el hub en **múltiples puertos** y/o **múltiples servidores** con un transporte Redis"
+  },
+  {
+    "row": 93,
+    "rowsha": "cDsMfIaz0x0uYUI3b51g19oqNz3l6AlF5Iq84Oi56i0=",
+    "originContent": "(as soon as they share the same Redis instance), and optionally use a load-balancer to distribute the traffic.",
+    "translatedContent": "(mientras compartan la misma instancia de Redis), y opcionalmente usar un balanceador de carga para distribuir el tráfico."
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "x/5asic0ZKhvHitsQ1ABVnzrMNcJnL3P2RuxyH9xjOY=",
+    "originContent": "The [official open-source version](https://mercure.rocks/docs/hub/install) of the hub doesn't allow scaling ",
+    "translatedContent": "La [versión oficial de código abierto](https://mercure.rocks/docs/hub/install) del hub no permite escalar"
+  },
+  {
+    "row": 96,
+    "rowsha": "VdJ++Yogbn1+GjpL+1npjJO49CPYQMqfxa1iHkROaPs=",
+    "originContent": "because of concurrency restrictions on the _bolt_ transport.",
+    "translatedContent": "debido a restricciones de concurrencia en el transporte _bolt_."
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "DFWpwWCDDHZBLCabFWo89ORCId/YzEl8ggUZ/+RltJ8=",
+    "originContent": "To launch the hub with the Redis transport, change the `TRANSPORT_DSN` environment variable:",
+    "translatedContent": "Para lanzar el hub con el transporte Redis, cambia la variable de entorno `TRANSPORT_DSN`:"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 101,
+    "rowsha": "YIgnZ8QLr8CJeAbnqetcNQwnQpltnn+nBnV3/GxncBA=",
+    "originContent": "TRANSPORT_DSN=\"redis://127.0.0.1:6379\" ./bin/freddie",
+    "translatedContent": "TRANSPORT_DSN=\"redis://127.0.0.1:6379\" ./bin/freddie"
+  },
+  {
+    "row": 102,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "80r3GYDl95JAHTUB4U2LPo838ojMru55IQiawyrsW54=",
+    "originContent": "Optional parameters you can pass in the DSN's query string:",
+    "translatedContent": "Parámetros opcionales que puede pasar en la cadena de consulta del DSN:"
+  },
+  {
+    "row": 105,
+    "rowsha": "LX6iEVuNTEO3VyBh3Ss4hMdLqlWAhPWuoKfadMRDQsg=",
+    "originContent": "- `pingInterval` - regularly ping Redis connection, which will help detect outages (default `2.0`)",
+    "translatedContent": "- `pingInterval` - hacer ping regularmente a la conexión Redis, lo que ayudará a detectar interrupciones (predeterminado `2.0`)"
+  },
+  {
+    "row": 106,
+    "rowsha": "48yB7/rb0CVYsbaoC3sUz+GVgieZzC3KPdrnOD8Qr7Q=",
+    "originContent": "- `readTimeout` - max duration in seconds of a ping or publish request (default `0.0`: considered disabled)",
+    "translatedContent": "- `readTimeout` - duración máxima en segundos de una solicitud de ping o publicación (predeterminado `0.0`: considerado deshabilitado)"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "n13N+MXdXudJ6oKnctNoanUbNqvJayXAf6SkYPL86iQ=",
+    "originContent": "_Alternatively, you can set this variable into `.env.local`._",
+    "translatedContent": "_Alternativamente, puede establecer esta variable en `.env.local`._"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "UswF8sR8aNBR5WoS4wXGEfnZ/Dsu9r0NEANUnzGwf74=",
+    "originContent": "## Advantages and limitations",
+    "translatedContent": "## Ventajas y limitaciones"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "i3UV/Ik5Z4cfjC4r3ipsd80si03dbkN3CEZhzNqHULs=",
+    "originContent": "This implementation does not provide SSL nor HTTP2 termination, so you'd better put a reverse proxy in front of it. ",
+    "translatedContent": "Esta implementación no proporciona terminación SSL ni HTTP2, por lo que es mejor colocar un proxy inverso delante de ella."
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "tXgGOxkzvX/CjJl9A+3LyyVdFF3Df1r7dhu3QJULvfQ=",
+    "originContent": "### Example Nginx configuration",
+    "translatedContent": "### Ejemplo de configuración de Nginx"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "h2c6dO6I1699FQWDd4mE57p/WRMdtsxwFI5oxZloIaQ=",
+    "originContent": "```nginx",
+    "translatedContent": "```nginx"
+  },
+  {
+    "row": 117,
+    "rowsha": "F2P4NCzvI4iZU0rWUqy9iWsqwMhkaFiIlS/Xx9JMbns=",
+    "originContent": "upstream freddie {",
+    "translatedContent": "upstream freddie {"
+  },
+  {
+    "row": 118,
+    "rowsha": "JGKE2/r0n8Kr5kw7FiVf9wywGuKNNzdKtVaNdAmqATg=",
+    "originContent": "    # Example with a single node",
+    "translatedContent": "    # Example with a single node"
+  },
+  {
+    "row": 119,
+    "rowsha": "orBsyqbcgYj9ApUCTDA3aKj8eKVCBvssbiaV31cP2+E=",
+    "originContent": "    server 127.0.0.1:8080;",
+    "translatedContent": "    server 127.0.0.1:8080;"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "/RZLyY8pR6T5N5LBSPGgDth3RoWbupgKT44IY0QpyUg=",
+    "originContent": "    # Example with several nodes (they must share the same Redis instance)",
+    "translatedContent": "    # Example with several nodes (they must share the same Redis instance)"
+  },
+  {
+    "row": 122,
+    "rowsha": "DRecV5YfLajbz4OoI57KlnHkZSGV3OHHL+AofGTY+d0=",
+    "originContent": "    # 2 instances on 10.1.2.3",
+    "translatedContent": "    # 2 instances on 10.1.2.3"
+  },
+  {
+    "row": 123,
+    "rowsha": "8saYl2/eOEGPx+mgXhSGmZX82tbI84LoBLG6N+DiFhg=",
+    "originContent": "    server 10.1.2.3:8080;",
+    "translatedContent": "    server 10.1.2.3:8080;"
+  },
+  {
+    "row": 124,
+    "rowsha": "744KAkmC8ukw3pT3aoNCvK42qI0pS1LOSu3LS+bavkQ=",
+    "originContent": "    server 10.1.2.3:8081;",
+    "translatedContent": "    server 10.1.2.3:8081;"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "grRX/7iMztfAfBP9ZFzt5Z28GAtTiimlDDzd3P/2UpU=",
+    "originContent": "    # 2 instances on 10.1.2.4",
+    "translatedContent": "    # 2 instances on 10.1.2.4"
+  },
+  {
+    "row": 127,
+    "rowsha": "oJalzqG6voFpxj6clea1ADrkFYMwdR4PeWVF4Icldtw=",
+    "originContent": "    server 10.1.2.4:8080;",
+    "translatedContent": "    server 10.1.2.4:8080;"
+  },
+  {
+    "row": 128,
+    "rowsha": "EnopMiKSU4lYEP52roWaT/lDbGw+QsfbqYYncBlTFj8=",
+    "originContent": "    server 10.1.2.4:8081;",
+    "translatedContent": "    server 10.1.2.4:8081;"
+  },
+  {
+    "row": 129,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "AxCotRd0ZdTTaLiiqDRKszdJJ4svGTdVf6Cpgiw1rxg=",
+    "originContent": "server {",
+    "translatedContent": "server {"
+  },
+  {
+    "row": 132,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 133,
+    "rowsha": "cmm9IKgJwimN9X0VnlaX1vp3rbp4u8IzulM/2kOarVE=",
+    "originContent": "    listen 443 ssl http2;",
+    "translatedContent": "    listen 443 ssl http2;"
+  },
+  {
+    "row": 134,
+    "rowsha": "+WHFn2PspKQsXp/AeaxfiIePjGcaA0sbjZ8QY1JC244=",
+    "originContent": "    listen [::]:443 ssl http2;",
+    "translatedContent": "    listen [::]:443 ssl http2;"
+  },
+  {
+    "row": 135,
+    "rowsha": "F88gG3ozaGdr28nu5qO5R61Og3n8305B0Y71psyACo8=",
+    "originContent": "    server_name example.com;",
+    "translatedContent": "    server_name example.com;"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "zHgMI6qjNjB7vIyirJpPUTznbdEbiJ9PPMyHRuQ8JPc=",
+    "originContent": "    ssl_certificate /etc/ssl/certs/example.com/example.com.cert;",
+    "translatedContent": "    ssl_certificate /etc/ssl/certs/example.com/example.com.cert;"
+  },
+  {
+    "row": 138,
+    "rowsha": "dEmeN+mEFNgYXh4/64unv13JlXHuL1EJyCVAO1h3+Fg=",
+    "originContent": "    ssl_certificate_key /etc/ssl/certs/example.com/example.com.key;",
+    "translatedContent": "    ssl_certificate_key /etc/ssl/certs/example.com/example.com.key;"
+  },
+  {
+    "row": 139,
+    "rowsha": "pT/r9459CYkq8tTasY0oNzeHsKfalUYRAOkRbvaMo94=",
+    "originContent": "    ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;",
+    "translatedContent": "    ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "Fz4G4FcCggkB3VtDQ2PaMXgan3w0T3n53LrpoB1Y0Gs=",
+    "originContent": "    location /.well-known/mercure {",
+    "translatedContent": "    location /.well-known/mercure {"
+  },
+  {
+    "row": 142,
+    "rowsha": "5mHzJ4y0p1fG4Tf/cMyj6La5RGTfsU7V3xZg1gqxbLE=",
+    "originContent": "        proxy_pass http://freddie;",
+    "translatedContent": "        proxy_pass http://freddie;"
+  },
+  {
+    "row": 143,
+    "rowsha": "LXsW4/z2xn3RZEQi1CeH5ER6dpg+iq+MUQtVWKwJpl4=",
+    "originContent": "        proxy_read_timeout 24h;",
+    "translatedContent": "        proxy_read_timeout 24h;"
+  },
+  {
+    "row": 144,
+    "rowsha": "JfaL16DIX/ZRiC2mi9tqhx0IAnOMBPugXcyJ9tH09i8=",
+    "originContent": "        proxy_http_version 1.1;",
+    "translatedContent": "        proxy_http_version 1.1;"
+  },
+  {
+    "row": 145,
+    "rowsha": "6/vP40Y7l7oCu/PX5K5tsMAd/ds5d1MJQaw/roh3vxY=",
+    "originContent": "        proxy_set_header Connection \"\";",
+    "translatedContent": "        proxy_set_header Connection \"\";"
+  },
+  {
+    "row": 146,
+    "rowsha": "qwm8rI42QTbav5iZ7ZIo81/H+NhhoUGbImOkqShJtPY=",
+    "originContent": "        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;",
+    "translatedContent": "        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;"
+  },
+  {
+    "row": 147,
+    "rowsha": "3LWo+Gcfb6OgKQwt2BseZzDsqTVGbG/NflmG/qzxhyk=",
+    "originContent": "        proxy_set_header X-Forwarded-Host $host;",
+    "translatedContent": "        proxy_set_header X-Forwarded-Host $host;"
+  },
+  {
+    "row": 148,
+    "rowsha": "HYnd9pxFikus/oc87phBpcWmn7ms4mjHDWMr9+oBSGk=",
+    "originContent": "        proxy_set_header X-Forwarded-Proto $scheme;",
+    "translatedContent": "        proxy_set_header X-Forwarded-Proto $scheme;"
+  },
+  {
+    "row": 149,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 150,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 151,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "9kAOC90rTh1Jh1mbl3xFTvEquuFFvcvgCPPF2p+UpNk=",
+    "originContent": "### Example Caddy configuration",
+    "translatedContent": "### Ejemplo de configuración de Caddy"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "cCMgQ0Ts5hHsGy/L2DM1vRrBdmU/Z4gFWG1pG/I29Bs=",
+    "originContent": "#### Single node",
+    "translatedContent": "#### Nodo único"
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "Fr3vkukNzjz+TMRmVyrj1QPv8gfP5FVnvZMV/LljZ8U=",
+    "originContent": "```caddy",
+    "translatedContent": "```caddy"
+  },
+  {
+    "row": 158,
+    "rowsha": "o3mm9u6vuaVeN4wRgDTidR5oL6ufLTCrE9ISVYbOGUc=",
+    "originContent": "example.com",
+    "translatedContent": "example.com"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "nxMa1Nn+hZL/Dn8CdQy3OxIpFbOtb+besm+MOSDtEj8=",
+    "originContent": "reverse_proxy 127.0.0.1:8080",
+    "translatedContent": "reverse_proxy 127.0.0.1:8080"
+  },
+  {
+    "row": 161,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "t9chvOXJ5zI+HUcKbkKdrkK8r7X+U/7kBXdeKPnIvi0=",
+    "originContent": "#### With multiple nodes",
+    "translatedContent": "#### Con múltiples nodos"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "Fr3vkukNzjz+TMRmVyrj1QPv8gfP5FVnvZMV/LljZ8U=",
+    "originContent": "```caddy",
+    "translatedContent": "```caddy"
+  },
+  {
+    "row": 166,
+    "rowsha": "o3mm9u6vuaVeN4wRgDTidR5oL6ufLTCrE9ISVYbOGUc=",
+    "originContent": "example.com",
+    "translatedContent": "example.com"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "OKAmvfOWXNcekiZWsijtCzYhkfTF1UEVH0scB0Z2s6w=",
+    "originContent": "reverse_proxy 10.1.2.3:8080 10.1.2.3:8081 10.1.2.4:8080 10.1.2.4:8081",
+    "translatedContent": "reverse_proxy 10.1.2.3:8080 10.1.2.3:8081 10.1.2.4:8080 10.1.2.4:8081"
+  },
+  {
+    "row": 169,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "aFsGVKKcNNJcBuxaXLe9OYnPz5WCooNWIrolDOuCCms=",
+    "originContent": "### Payload limitations",
+    "translatedContent": "### Limitaciones de la carga útil"
+  },
+  {
+    "row": 172,
+    "rowsha": "z8xQp37b9PtiJzLBQXyPRQfuKDrWLNBJcYIxnZXdcew=",
+    "originContent": "⚠ There's a known limit in [Framework-X](https://framework-x.org/docs/api/request/) which prevents request bodies to weigh more than [64 KB](https://github.com/reactphp/http/issues/412). ",
+    "translatedContent": "⚠ Existe un límite conocido en [Framework-X](https://framework-x.org/docs/api/request/) que impide que los cuerpos de las solicitudes pesen más de [64 KB](https://github.com/reactphp/http/issues/412). "
+  },
+  {
+    "row": 173,
+    "rowsha": "7ifArn+LYbnSPyT16PanH7VYncdz5CuadopQdQAffgY=",
+    "originContent": "At the time of writing, this limit cannot be raised due to Framework-X encapsulating HTTP Server instantiation.",
+    "translatedContent": "Al momento de escribir, este límite no puede aumentarse debido a que Framework-X encapsula la instanciación del Servidor HTTP."
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "qdk1F364dXgd6VEXVxD8DgiHmWSCAuZycs9Q+zsBct0=",
+    "originContent": "Publishing bigger updates to Freddie (through HTTP, at least) could result in 400 errors.",
+    "translatedContent": "Publicar actualizaciones más grandes en Freddie (al menos a través de HTTP) podría resultar en errores 400."
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "fOPSJWkbBTEOaITd87aNVt8KZA9ATsYc5rO4tt0x1Ro=",
+    "originContent": "## Feature coverage",
+    "translatedContent": "## Cobertura de características"
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "Bj6zb+fEHPDmXgj0cY/QAHqB/lZBmGGkpaAzxZ5Bjf8=",
+    "originContent": "| Feature                                     | Covered                               |",
+    "translatedContent": "| Característica                              | Cubierta                             |"
+  },
+  {
+    "row": 180,
+    "rowsha": "4Wh7phyXsrxp3qffZDVNmBv7G6m764Qoir/bqLmWkDw=",
+    "originContent": "|---------------------------------------------|---------------------------------------|",
+    "translatedContent": "|---------------------------------------------|-------------------------------------|"
+  },
+  {
+    "row": 181,
+    "rowsha": "2+miMPUgmkxL2TGGS5TKVL+bePtD8VNY5VrHGnX9QOQ=",
+    "originContent": "| JWT through `Authorization` header          | ✅                                     |",
+    "translatedContent": "| JWT mediante el encabezado `Authorization`  | ✅                                   |"
+  },
+  {
+    "row": 182,
+    "rowsha": "KbMefAz9R1LdDc0ZCj7mPZKFo0lX8fdCfj5oqZ9qZkQ=",
+    "originContent": "| JWT through `mercureAuthorization` Cookie   | ✅                                     |",
+    "translatedContent": "| JWT mediante la cookie `mercureAuthorization` | ✅                                   |"
+  },
+  {
+    "row": 183,
+    "rowsha": "UjxLfZ9d4B5aOXHQF60nX/VXqucEYfaSro5npTcnqpI=",
+    "originContent": "| Allow anonymous subscribers                 | ✅                                     |",
+    "translatedContent": "| Permitir suscriptores anónimos              | ✅                                   |"
+  },
+  {
+    "row": 184,
+    "rowsha": "JuJ1Y+TyIyqpgP1HEKzDhWM7s3FUZGYXwmGg2nq4vCY=",
+    "originContent": "| Alternate topics                            | ✅️                                    |",
+    "translatedContent": "| Temas alternativos                          | ✅️                                  |"
+  },
+  {
+    "row": 185,
+    "rowsha": "YQg8ZSp5JZ60eD3wosl+ApSNH8vI6fjLVMDB8Tv/a5M=",
+    "originContent": "| Private updates                             | ✅                                     |",
+    "translatedContent": "| Actualizaciones privadas                    | ✅                                   |"
+  },
+  {
+    "row": 186,
+    "rowsha": "kIpIBt7G42sQNjMNMgoVS6uquofBq6V+AUMURZU/nts=",
+    "originContent": "| URI Templates for topics                    | ✅                                     |",
+    "translatedContent": "| Plantillas URI para temas                   | ✅                                   |"
+  },
+  {
+    "row": 187,
+    "rowsha": "CEyfsWWNp0Nc1UPS4jVXW7ZwPReNB1CL0nSwTH2UvHE=",
+    "originContent": "| HMAC SHA256 JWT signatures                  | ✅                                     |",
+    "translatedContent": "| Firmas JWT HMAC SHA256                      | ✅                                   |"
+  },
+  {
+    "row": 188,
+    "rowsha": "5jroA7+Ar9zVByNa4rGA1c7zc+aJjv8LO/yKBnm7Jao=",
+    "originContent": "| RS512 JWT signatures                        | ✅                                     |",
+    "translatedContent": "| Firmas JWT RS512                            | ✅                                   |"
+  },
+  {
+    "row": 189,
+    "rowsha": "oucZov0GqmPsUYcdUp289Og3PDMYseOnS36PQAUQBU4=",
+    "originContent": "| Environment variables configuration         | ✅                                     |",
+    "translatedContent": "| Configuración mediante variables de entorno | ✅                                   |"
+  },
+  {
+    "row": 190,
+    "rowsha": "SdhdQprF0kP8ujK8VVESoCLYd6kyw/+F5CTNz2UROvQ=",
+    "originContent": "| Custom message IDs                          | ✅                                     |",
+    "translatedContent": "| IDs personalizados de mensajes              | ✅                                   |"
+  },
+  {
+    "row": 191,
+    "rowsha": "8i2BOJYfZa6+H+f8Y5PnmiWMNH2/l6GSO9YM9BXnEZw=",
+    "originContent": "| Last event ID (including `earliest`)        | ✅️                                    |",
+    "translatedContent": "| Último ID de evento (incluyendo `earliest`) | ✅️                                  |"
+  },
+  {
+    "row": 192,
+    "rowsha": "vkG6S2/3iYzC+rH2ShC41TlsbhhSrxTRAIWHz155tw4=",
+    "originContent": "| Customizable event type                     | ✅️                                    |",
+    "translatedContent": "| Tipo de evento personalizable               | ✅️                                  |"
+  },
+  {
+    "row": 193,
+    "rowsha": "VasarAUmB5GyCEsw1UUXUplc9x/CpIeZBKjqhOrlzYQ=",
+    "originContent": "| Customizable `retry` directive              | ✅️                                    |",
+    "translatedContent": "| Directiva `retry` personalizable            | ✅️                                  |"
+  },
+  {
+    "row": 194,
+    "rowsha": "q1IxvZb6kQ24CeeWn5KzpvaIRIkKtwhjszZLkoqbkzE=",
+    "originContent": "| CORS                                        | ❌ (configure them on your web server) |",
+    "translatedContent": "| CORS                                        | ❌ (configúrelos en su servidor web) |"
+  },
+  {
+    "row": 195,
+    "rowsha": "DZDxOE96FovqpNjYwL7P3FS6woCkOUqmvHTYLC9Xsnc=",
+    "originContent": "| Health check endpoint                       | ❌ (PR welcome)                        |",
+    "translatedContent": "| Punto de comprobación de estado             | ❌ (PR bienvenido)                   |"
+  },
+  {
+    "row": 196,
+    "rowsha": "hRrT8xqIY01ORmkZCrr1TryAa5K/HveEQ7OwCNkf+D8=",
+    "originContent": "| Logging                                     | ❌ (PR welcome))️                      |",
+    "translatedContent": "| Registro de logs                            | ❌ (PR bienvenido))️                 |"
+  },
+  {
+    "row": 197,
+    "rowsha": "6p9gaOmXgvc8e5pnbPv3ZrI0ujbqnh1xob5cuMSo/4s=",
+    "originContent": "| Metrics                                     | ❌ (PR welcome)️                       |",
+    "translatedContent": "| Métricas                                    | ❌ (PR bienvenido)️                  |"
+  },
+  {
+    "row": 198,
+    "rowsha": "Yq8CZlHUdv33ndVXVCMzbsMqOuwkDsU83y54RyButA0=",
+    "originContent": "| Different JWTs for subscribers / publishers | ❌ (PR welcome)                        |",
+    "translatedContent": "| JWTs diferentes para suscriptores / publicadores | ❌ (PR bienvenido)              |"
+  },
+  {
+    "row": 199,
+    "rowsha": "xA6lavyWGR+8Frs8WPlk6VcfBJRJu6Xj6zyXRCfAOzg=",
+    "originContent": "| Subscription API                            | ❌️ (TODO)                             |",
+    "translatedContent": "| API de suscripción                          | ❌️ (POR HACER)                      |"
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "ixorykg8zuCaRukP5G6Nu9Bs0rAGdXVyc8AggtYxu0k=",
+    "originContent": "## Tests",
+    "translatedContent": "## Pruebas"
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "SGkSUXYGl3XEm1UcFs54BFzR4U7uyvIeEV/KRWM4qEQ=",
+    "originContent": "This project is 100% covered with [Pest](https://pestphp.com/) tests. ",
+    "translatedContent": "Este proyecto está 100% cubierto con pruebas de [Pest](https://pestphp.com/). "
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 207,
+    "rowsha": "teGxWzOT3AJZmCFR2qWyccfQmlN21R5pjfgZyO1Rl+s=",
+    "originContent": "composer tests:run",
+    "translatedContent": "composer tests:run"
+  },
+  {
+    "row": 208,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 209,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 210,
+    "rowsha": "fMu080v6eh/hFkmstsVs1QR9bj14O7X3mMQkwTJevBw=",
+    "originContent": "## Contribute",
+    "translatedContent": "## Contribuir"
+  },
+  {
+    "row": 211,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 212,
+    "rowsha": "et8Rkv7VwjwAdRgug7t8jXRTu55AFRYeI9nZyul79qM=",
+    "originContent": "If you want to improve this project, feel free to submit PRs:",
+    "translatedContent": "Si quieres mejorar este proyecto, siéntete libre de enviar PRs:"
+  },
+  {
+    "row": 213,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 214,
+    "rowsha": "n4lakDA/XMgnieew/Yrhq4t7REpFL+GiKL/X9Ktizm0=",
+    "originContent": "- CI will yell if you don't follow [PSR-12 coding standards](https://www.php-fig.org/psr/psr-12/)",
+    "translatedContent": "- CI se quejará si no sigues los [estándares de codificación PSR-12](https://www.php-fig.org/psr/psr-12/)"
+  },
+  {
+    "row": 215,
+    "rowsha": "5moTtvs+LtsPX2FJfWy+hFSWU4YHasCnvIiJ5IEZPqM=",
+    "originContent": "- In the case of a new feature, it must come along with tests",
+    "translatedContent": "- En caso de una nueva característica, debe venir acompañada de pruebas"
+  },
+  {
+    "row": 216,
+    "rowsha": "u+xggzj4Ad92rCXMtcOfKP9pMP8pUJkY3Sg9nIyoyAM=",
+    "originContent": "- [PHPStan](https://phpstan.org/) analysis must pass at level 8",
+    "translatedContent": "- El análisis de [PHPStan](https://phpstan.org/) debe pasar en nivel 8"
+  },
+  {
+    "row": 217,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 218,
+    "rowsha": "SHucZJvch9mQtKGP1v/NuE62nwMEX27W3InQMt9YfDc=",
+    "originContent": "You can run the following command before committing to ensure all CI requirements are successfully met:",
+    "translatedContent": "Puedes ejecutar el siguiente comando antes de hacer commit para asegurar que todos los requisitos de CI se cumplen exitosamente:"
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 220,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 221,
+    "rowsha": "BFCzmBJWSi3uAxfYfY5KcOSaNZjufvRbMJQ0d9qKAkI=",
+    "originContent": "composer ci:check",
+    "translatedContent": "composer ci:check"
+  },
+  {
+    "row": 222,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 223,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 224,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## Licencia"
+  },
+  {
+    "row": 225,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 226,
+    "rowsha": "ulE7r4cYb4/JV4VlUkRBNkgjwXK3dMLD7UwxW2GXXZc=",
+    "originContent": "GNU General Public License v3.0.",
+    "translatedContent": "Licencia Pública General GNU v3.0."
+  },
+  {
+    "row": 227,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

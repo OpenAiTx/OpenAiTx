@@ -4,8 +4,8 @@
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=en">ইংৰাজী</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=zh-CN">সৰল চীনীয়া</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=zh-TW">পৰম্পৰাগত চীনীয়া</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=zh-CN">সৰল চীনা</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=zh-TW">প্ৰচলিত চীনা</a>
         | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ja">জাপানী</a>
         | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ko">কোৰিয়ান</a>
         | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=hi">হিন্দী</a>
@@ -21,8 +21,8 @@
         | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ar">আৰবী</a>
         | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=fa">ফাৰ্ছী</a>
         | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=tr">টাৰ্কিশ</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=vi">ভিয়েটনামী</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=id">ইণ্ডোনেছিয়ান</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=vi">ভিয়েটনামীজ</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=id">ইণ্ডোনেচিয়ান</a>
       </div>
     </div>
   </details>
@@ -32,10 +32,10 @@
 <div align="center"> 
     <br/>
     <p>
-        <img src="https://files.catbox.moe/f4jofb.png" title="icon" alt="icon" width="100" />
+        <img src="https://github.com/neon443/AirAP/blob/main/Icon/icon.png?raw=true" title="icon" alt="icon" width="100" />
     </p>
     <p>
-        আপোনাৰ আইফোনটো AirPlay ৰিছিভাৰ হিচাপে ব্যৱহাৰ কৰক
+        আপোনাৰ আইফোনটো এটা এয়াৰপ্লে ৰিছিভাৰ হিচাপে ব্যৱহাৰ কৰক
         <br/>
 
         <a href="https://neon443.github.io">
@@ -44,7 +44,7 @@
     </p>
     <p>
         <a href="https://testflight.apple.com/join/8aeqD8Q2">
-            টেষ্টফ্লাইট
+            টেস্টফ্লাইট
         </a>
     </p>
     <br/>
@@ -52,7 +52,7 @@
 
 <div align="center">
   <a href="https://shipwrecked.hackclub.com/?t=ghrm" target="_blank">
-    <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/739361f1d440b17fc9e2f74e49fc185d86cbec14_badge.png" 
+    <img src="https://github.com/neon443/AirAP/blob/main/Icon/shipwrecked.png?raw=true" 
          alt="এই প্ৰকল্পটো Shipwrecked-ৰ অংশ, পৃথিৱীৰ প্ৰথমখন দ্বীপত হোৱা হ্যাকাথন!" 
          style="width: 25%;">
   </a>
@@ -60,21 +60,21 @@
 
 <br/>
 
-AirAP এটা সম্পূৰ্ণভাৱে দেশীয় AirPlay চাৰ্ভাৰ, যি Swift-ত লিখা হৈছে, iOS-ৰ বাবে। মূলতঃ AirAP-এ আপোনাৰ iPhone-টো AirPlay ৰিসিভাৰ হিচাপে iTunes বা আপোনাৰ Mac-ত ব্যৱহাৰ কৰিব পৰা যায়, অৰ্থাৎ আপোনাৰ iPhone-ৰে আপোনাৰ ডিভাইচৰ শব্দ বাজাব পৰা যায়।
+AirAP হৈছে এটা সম্পূৰ্ণ দেশজ AirPlay ছাৰ্ভাৰ, যি Swift-ত লিখা হৈছে, iOS-ৰ বাবে। মূলতে, AirAP-এ আপোনাক আপোনাৰ iPhone-ক AirPlay ৰিসিভাৰ হিচাপে iTunes বা আপোনাৰ Mac-ত ব্যৱহাৰ কৰিবলৈ দিয়ে, অৰ্থাৎ আপোনাৰ iPhone-এ আপোনাৰ ডিভাইচৰ ধ্বনি বজাব পাৰে।
 
-## AirAP কি?
+## AirAP মানে কি?
 
-আপুনি কেতিয়াবা আপোনাৰ Mac, Apple TV, বা আন কোনো iOS ডিভাইচৰ পৰা আপোনাৰ iPhone-লৈ অডিঅ' ষ্ট্ৰীম কৰিবলৈ বিচাৰিছিলেনে? AirAP-এ এইটো সম্ভৱ কৰে, কাৰণ এইটো সম্পূৰ্ণ AirPlay চাৰ্ভাৰৰূপে iOS-ত দেশীয়ভাৱে চলে। ইনষ্টল কৰাৰ পাছত, আপোনাৰ iPhone-টো System Preferences-ৰ Audio pane, Music.app, বা যিকোনো AirPlay-সমৰ্থিত এপত উপলব্ধ AirPlay গন্তব্য হিচাপে দেখা যাব।
+আপুনি কেতিয়াবা আপোনাৰ Mac, Apple TV, বা আন এটা iOS ডিভাইচৰ পৰা আপোনাৰ iPhone-লৈ অডিঅ' ষ্ট্ৰীম কৰিবলৈ বিচাৰিছিলনে? AirAP-এ এইটো সম্ভৱ কৰি তোলে, কিয়নো ই iOS-ত দেশজভাৱে চলা এটা সম্পূৰ্ণ AirPlay ছাৰ্ভাৰ ৰূপে কাম কৰে। ইনষ্টল কৰাৰ পিছত, আপোনাৰ iPhone-এ System Preferences' Audio pane, Music.app, বা যিকোনো AirPlay-সহায়ক এপত এটা উপলব্ধ AirPlay গন্তব্য হিচাপে দেখা যাব।
 
-এই ধাৰণাটো প্ৰথমতে উল্টা যেন লাগিব পাৰে - শেষত, আমি সাধাৰণতে আমাৰ iPhone-ৰ পৰা আন ডিভাইচলৈ ষ্ট্ৰীম কৰোঁ। কিন্তু বহুত পৰিস্থিতিত আপুনি বিপৰীতটো কৰিব বিচাৰিব পাৰে। হয়তো আপুনি ৰাতিপুৱা আপোনাৰ Mac-ত কাম কৰি আছে আৰু শব্দ কাকো বিঘ্নিত নকৰিবলে আপোনাৰ iPhone-ত হেডফোনেৰে অডিঅ' পাঠাব বিচাৰে (নমস্কাৰ 👋)। হয়তো আপুনি এগৰাকী ডেভেলপাৰ আৰু অডিঅ' এপ্লিকেচন পৰীক্ষা কৰি আছেন আৰু তৎক্ষণাত আউটপুট ডিভাইচ সলনি কৰিব লাগিব পাৰে। বা হয়তো আপুনি পুৰণি ৱায়াৰ্ড স্পীকাৰটো পুনৰ ব্যৱহাৰ কৰিব বিচাৰে।
+এইটো প্ৰথমতে অলপ উল্টা যেন লাগিব পাৰে - শেষত, আমি সাধাৰণতে আমাৰ iPhone-ৰ পৰা আন ডিভাইচলৈ ষ্ট্ৰীম কৰাত অভ্যস্ত। কিন্তু আশ্চৰ্যজনকভাৱে বহু পৰিস্থিতিত আপুনি বিপৰীতটো কৰিব বিচাৰিব পাৰে। হয়তো আপুনি ৰাতিপুৱা আপোনাৰ Mac-ত কাম কৰি আছে আৰু অডিঅ'টো iPhone-লৈ হেডফোনেৰে লৈ যাব বিচাৰে যাতে আন কোনোজনক বিঘ্নিত নকৰে (নমস্কাৰ 👋)। হয়তো আপুনি এটা ডেভেলপাৰ আৰু অডিঅ' এপ্লিকেশ্যন পৰীক্ষা কৰিছে আৰু তৎক্ষণাত আউটপুট ডিভাইচ সলনি কৰিব লাগে। অথবা হয়তো আপোনি কেৱল সেই পুৰণি ৱায়াৰ্ড স্পীকাৰটো পুনৰ ব্যৱহাৰ কৰিবলৈ বিচাৰিছে।
 
-## AirAP কেনেকৈ ইনষ্টল কৰিব
+## AirAP কিদৰে ইনষ্টল কৰিব
 
-চাবলে, [এই TestFlight লিংকখন খোলক](https://testflight.apple.com/join/8aeqD8Q2), AirAP ইনষ্টল কৰক, আৰু নিৰ্দেশনা অনুসৰণ কৰক। ইনষ্টল কৰাৰ পিছত, কেৱল AirAP খোলক আৰু নিশ্চিত কৰক যে আপোনাৰ iPhone আৰু ষ্ট্ৰীম কৰাৰ ডিভাইচটো একে Wi-Fi নেটৱৰ্কত সংযুক্ত আছে। আপোনাৰ iPhone-টো স্বয়ংক্ৰিয়ভাৱে AirPlay ডিভাইচ তালিকাত দেখা যাব, অডিঅ' গ্ৰহণ কৰিবলৈ সাজু - যদি দেখা নাযায়, এপটো পুনৰ আৰম্ভ কৰি চাওক।
+ইনষ্টল কৰিবলৈ, [এই TestFlight লিংক খুলক](https://testflight.apple.com/join/8aeqD8Q2), AirAP ইনষ্টল কৰক আৰু নিৰ্দেশনা অনুসৰণ কৰক। ইনষ্টল কৰাৰ পিছত, কেৱল AirAP লঞ্চ কৰক আৰু নিশ্চিত কৰক যে আপোনাৰ iPhone আৰু ষ্ট্ৰীম কৰিব খোজা ডিভাইচটো একে Wi-Fi নেটৱৰ্কত সংযোগ হৈ আছে। আপোনাৰ iPhone স্বতঃস্ফূর্তভাৱে AirPlay ডিভাইচ সূচীত দেখা যাব, অডিঅ' গ্ৰহণ কৰিবলৈ সাজু - যদি দেখা নাযায়, এপ্লিকেশ্যনটো পুনৰ আৰম্ভ কৰক।
 
 ## কম্পাইলিং
 
-নিশ্চিত কৰক যে আপোনাৰ [homebrew](https://brew.sh) আছে
+আপুনি নিশ্চিত কৰক যে আপোনাৰ [homebrew](https://brew.sh) আছে
 ```
 brew install carthage
 git clone https://github.com/neon443/AirAP
@@ -98,8 +98,11 @@ would not have been possible without these
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
 
 ---

@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 اللغة</summary>
@@ -8,7 +9,7 @@
         | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=hi">هिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=hi">हिन्दी</a>
         | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=th">ไทย</a>
         | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=de">Deutsch</a>
@@ -32,14 +33,13 @@
 <div align="center"> 
     <br/>
     <p>
-        <img src="https://files.catbox.moe/f4jofb.png" title="icon" alt="icon" width="100" />
+        <img src="https://github.com/neon443/AirAP/blob/main/Icon/icon.png?raw=true" title="icon" alt="icon" width="100" />
     </p>
     <p>
-        استخدم هاتفك الآيفون كجهاز استقبال AirPlay
+        استخدم هاتفك الآيفون كمستقبل AirPlay
         <br/>
-
         <a href="https://neon443.github.io">
-            تم الإنشاء بواسطة neon443
+            صنع بواسطة neon443
         </a>
     </p>
     <p>
@@ -52,7 +52,7 @@
 
 <div align="center">
   <a href="https://shipwrecked.hackclub.com/?t=ghrm" target="_blank">
-    <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/739361f1d440b17fc9e2f74e49fc185d86cbec14_badge.png" 
+    <img src="https://github.com/neon443/AirAP/blob/main/Icon/shipwrecked.png?raw=true" 
          alt="هذا المشروع جزء من Shipwrecked، أول هاكاثون في العالم على جزيرة!" 
          style="width: 25%;">
   </a>
@@ -60,21 +60,21 @@
 
 <br/>
 
-AirAP هو خادم AirPlay أصلي بالكامل، مكتوب بلغة Swift، لنظام iOS. بشكل أساسي، يسمح لك AirAP باستخدام جهاز iPhone الخاص بك كجهاز استقبال AirPlay في iTunes أو على جهاز Mac، مما يعني أنه يمكنك استخدام iPhone لتشغيل صوت جهازك.
+AirAP هو خادم AirPlay أصلي بالكامل، مكتوب بلغة Swift، لنظام iOS. بشكل أساسي، يسمح لك AirAP باستخدام جهاز iPhone الخاص بك كجهاز استقبال AirPlay في iTunes أو على جهاز Mac الخاص بك، مما يعني أنه يمكنك استخدام iPhone الخاص بك لتشغيل صوت جهازك.
 
 ## ما هو AirAP؟
 
-هل رغبت يومًا في بث الصوت من جهاز Mac أو Apple TV أو جهاز iOS آخر إلى جهاز iPhone الخاص بك؟ يجعل AirAP ذلك ممكنًا من خلال تنفيذ خادم AirPlay كامل يعمل بشكل أصلي على نظام iOS. بعد التثبيت، سيظهر جهاز iPhone الخاص بك كوجهة AirPlay متاحة في لوحة الصوت ضمن تفضيلات النظام، أو تطبيق الموسيقى، أو أي تطبيق متوافق مع AirPlay.
+هل سبق لك أن رغبت في بث الصوت من جهاز Mac أو Apple TV أو جهاز iOS آخر إلى iPhone الخاص بك؟ يجعل AirAP ذلك ممكنًا من خلال تنفيذ خادم AirPlay كامل يعمل أصليًا على نظام iOS. بعد التثبيت، سيظهر iPhone الخاص بك كوجهة AirPlay متاحة في لوحة الصوت في تفضيلات النظام، أو تطبيق Music.app، أو أي تطبيق متوافق مع AirPlay.
 
-قد يبدو هذا المفهوم معكوسًا في البداية - فنحن معتادون عادة على البث من أجهزة iPhone إلى أجهزة أخرى. لكن هناك العديد من السيناريوهات التي قد ترغب فيها بالعكس. ربما تعمل على جهاز Mac في وقت متأخر من الليل وتريد تحويل الصوت إلى iPhone مع سماعات الرأس حتى لا تزعج أحدًا (مرحبًا 👋). ربما أنت مطور تختبر تطبيقات الصوت وتحتاج إلى التبديل بسرعة بين أجهزة الإخراج المختلفة. أو ربما تريد فقط إعادة استخدام ذلك المكبر السلكي القديم.
+قد يبدو المفهوم عكسيًا في البداية - فنحن معتادون على البث من أجهزة iPhone إلى أجهزة أخرى. لكن هناك العديد من السيناريوهات المفاجئة حيث قد ترغب في القيام بالعكس. ربما تعمل على جهاز Mac في وقت متأخر من الليل وتريد توجيه الصوت إلى iPhone الخاص بك مع سماعات الرأس حتى لا تزعج أحدًا (مرحبًا 👋). أو ربما أنت مطور تختبر تطبيقات الصوت وتحتاج إلى التبديل بسرعة بين أجهزة الإخراج المختلفة. أو ربما ترغب فقط في إعادة استخدام مكبر الصوت السلكي القديم.
 
 ## تثبيت AirAP
 
-لتجربته، [افتح هذا الرابط من TestFlight](https://testflight.apple.com/join/8aeqD8Q2)، وقم بتثبيت AirAP، واتبع التعليمات. بعد التثبيت، فقط شغل AirAP وتأكد من أن جهاز iPhone متصل بنفس شبكة الواي فاي للجهاز الذي تريد البث منه. سيظهر جهاز iPhone تلقائيًا في قوائم أجهزة AirPlay، وجاهز لاستقبال الصوت - إذا لم يظهر، جرب إعادة تشغيل التطبيق.
+لتجربة ذلك، [افتح هذا الرابط في TestFlight](https://testflight.apple.com/join/8aeqD8Q2)، قم بتثبيت AirAP واتبع التعليمات. بعد التثبيت، فقط قم بتشغيل AirAP وتأكد من أن iPhone الخاص بك متصل بنفس شبكة Wi-Fi مثل الجهاز الذي ترغب بالبث منه. سيظهر iPhone الخاص بك تلقائيًا في قوائم أجهزة AirPlay، جاهز لاستقبال الصوت - إذا لم يظهر، حاول إعادة تشغيل التطبيق.
 
 ## التجميع
 
-تأكد من أنك تملك [homebrew](https://brew.sh)
+تأكد من وجود [homebrew](https://brew.sh)
 ```
 brew install carthage
 git clone https://github.com/neon443/AirAP
@@ -98,8 +98,11 @@ would not have been possible without these
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
 
 ---

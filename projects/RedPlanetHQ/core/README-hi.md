@@ -30,862 +30,268 @@
 
 <div align="center">
   <a href="https://getcore.me">
-    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE लोगो" />
+    <img width="200px" alt="CORE लोगो" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
   </a>
 
-### CORE: आपका डिजिटल दिमाग - एआई टूल्स के लिए मेमोरी + क्रियाएं 
+## CORE: आपका डिजिटल मस्तिष्क
+
+**यह याद रखता है। यह सोचता है। यह कार्य करता है।**
 
 <p align="center">
-    <a href="https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==">
+    <a href="https://docs.getcore.me/providers/claude-code">
+        <img src="https://img.shields.io/badge/Add_to-Claude_Code-F97316?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude कोड में जोड़ें" />
+    </a>
+    <a href="https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9">
         <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="कर्सर में जोड़ें" />
     </a>
+    <a href="https://docs.getcore.me/providers/openclaw">
+        <img src="https://img.shields.io/badge/Add_to-OpenClaw-E5533D?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTEyIDJMMyA3djEwbDkgNSA5LTVWN2wtOS01eiIvPjwvc3ZnPg==&logoColor=white" alt="OpenClaw में जोड़ें" />
+    </a>
     <a href="https://railway.com/deploy/core">
-        <img src="https://railway.app/button.svg" width="150px" alt="रेलवे पर डिप्लॉय करें" />
+        <img src="https://railway.app/button.svg" width="150px" alt="Railway पर डिप्लॉय करें" />
     </a>
 </p>
 <p align="center">
-    <a href="https://heysol.ai">
-        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50" alt="वेबसाइट" />
+    <a href="https://getcore.me">
+        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="वेबसाइट" />
     </a>
     <a href="https://docs.getcore.me">
-        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-green" alt="डॉक्स" />
-    </a>  
+        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="डॉक्स" />
+    </a>
     <a href="https://discord.gg/YGUZcvDjUa">
-        <img src="https://img.shields.io/badge/Discord-community-purple" alt="डिस्कॉर्ड" />
-    </a>    
+        <img src="https://img.shields.io/badge/Discord-community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="डिस्कॉर्ड" />
+    </a>
 </p>
 </div>
 
 ---
 
-आपकी महत्वपूर्ण जानकारी ऐसे टूल्स में बिखरी हुई है जो आपस में संवाद नहीं करते। आपकी एआई बातचीत की शुरुआत होती है "मैं आपको थोड़ा संदर्भ देता हूँ" से। आपके अनुभव और सीख अभी भी आपके दिमाग में हैं और आपका दिमाग स्केल नहीं करता।
+CORE आपका डिजिटल मस्तिष्क है - एक एकीकृत, हमेशा सक्रिय एआई जो आपके संदर्भ को याद रखता है, आपके एआई एजेंट्स के साथ काम करता है, और आपके टूल्स में कार्य करता है।
 
-**CORE याद रखता है**। न तो डाटाबेस है, न सर्च बॉक्स। एक डिजिटल दिमाग है जो जानता है कि क्या महत्वपूर्ण है, जो संबंधित चीज़ों को जोड़ता है, और जो चाहिए वह सतह पर लाता है।
+ओपन सोर्स। स्वयं होस्ट करने योग्य। आपका डेटा, आपका नियंत्रण।
 
-## डेवलपर्स के लिए
+---
 
-CORE आपके AI टूल्स को स्थायी मेमोरी और आपके द्वारा उपयोग किए जाने वाले ऐप्स में कार्य करने की क्षमता देता है।
+## एक डिजिटल ब्रेन को क्या खास बनाता है
 
-- क्लॉड कोड, कर्सर और अन्य कोडिंग एजेंट्स में संदर्भ संरक्षित रहता है
-- Linear, GitHub, Slack, Gmail, Google Sheets और आपके उपयोग में आने वाले अन्य ऐप्स में कार्य करें
-- केवल एक बार MCP से कनेक्ट करें, हर जगह काम करता है
-- ओपन-सोर्स और स्वयं-होस्टेबल; आपका डेटा, आपका नियंत्रण
+### यह सब कुछ याद रखता है
+
+हर बातचीत, निर्णय, पसंद, और संबंध संरचित ज्ञान के रूप में एक अस्थायी नॉलेज ग्राफ में संग्रहित होता है। कच्चा पाठ नहीं, बल्कि वर्गीकृत तथ्य (पसंद, निर्णय, लक्ष्य, निर्देश) जो ठीक तभी सामने आते हैं जब आपको उनकी आवश्यकता हो। हफ्तों पहले की किसी बात के बारे में पूछें, तो उत्तर पूरा संदर्भ के साथ मौजूद रहता है।
+
+[मेमोरी के बारे में अधिक जानें →](https://docs.getcore.me/concepts/memory/overview)
+
+### यह क्रियाएँ कर सकता है
+
+GitHub इश्यू बनाएं, Slack संदेश भेजें, अपनी कैलेंडर प्रबंधित करें - वह भी बातचीत छोड़े बिना। जटिल बहु-चरणीय वर्कफ़्लो भी: अपने कोडिंग एजेंट से कहें कि Sentry में नए त्रुटियाँ जाँचे, प्रत्येक के लिए GitHub इश्यू बनाएँ, git blame के आधार पर सही इंजीनियर को असाइन करें, और आपकी टीम के Slack चैनल में एक सारांश पोस्ट करें, यह सब एक ही प्रॉम्प्ट से। 50+ ऐप्स में 200+ कार्य एक ही कनेक्शन प्वाइंट से।
+
+[टूलकिट के बारे में अधिक जानें →](https://docs.getcore.me/concepts/toolkit)
+
+### यह विभिन्न सिस्टम्स में सोचता और काम करता है
+
+आपके टूल्स अलग-थलग हैं। Claude Code आपके WhatsApp से बात नहीं कर सकता। Cursor आपका कैलेंडर चेक नहीं कर सकता। CORE का एजेंट इन दीवारों को तोड़ता है - यह वो ऑर्केस्ट्रेटर है जो मेमोरी, टूलकिट और आपके ऐप्स को जोड़ता है।
+
+CORE एजेंट क्या कर सकता है:
+
+- **इरादे को समझना**: आपकी आवश्यकता को वर्गीकृत करता है और सही टूल्स व मेमोरी तक पहुँचाता है
+- **अन्य एजेंट शुरू करना**: WhatsApp से Claude Code सेशन या ब्राउज़र सेशन शुरू करें ताकि कोई बग ठीक करें या रिसर्च करें
+- **बहु-चरणीय वर्कफ़्लो समन्वयित करना**: मेमोरी से संदर्भ लें, कई ऐप्स में कार्रवाई करें, और रिपोर्ट करें
+- **कहीं से भी काम करें**: WhatsApp, ईमेल, Slack, या वेब डैशबोर्ड से संदेश भेजें — वही दिमाग, वही संदर्भ
+
+[CORE एजेंट के बारे में अधिक जानें →](https://docs.getcore.me/concepts/meta-agent)
+
+### यह सक्रिय रूप से कार्य कर सकता है
+
+आपको हर चीज़ मांगनी नहीं चाहिए। CORE घटनाओं की निगरानी करता है - नए ईमेल, GitHub अलर्ट, कैलेंडर में बदलाव — और उन्हें आपके बारे में अपनी जानकारी के अनुसार मूल्यांकित करता है। एक क्लाइंट ईमेल आता है; CORE पहले से जानता है कि आप उस रिश्ते को कैसे संभालते हैं और उपयुक्त उत्तर ड्राफ्ट कर देता है। रात में Sentry अलर्ट आता है; CORE जाँच के लिए Claude Code सेशन शुरू करता है।
+
+[कॉन्सेप्ट्स के बारे में अधिक जानें →](https://docs.getcore.me/concepts/overview)
+
+---
+
+## आर्किटेक्चर
+
+CORE इन चार स्तंभों को लागू करने वाली तीन स्तरों पर निर्मित है:
+
+- **मेमोरी**: एक टेम्पोरल नॉलेज ग्राफ जो एपिसोड, एंटिटी और वर्गीकृत तथ्यों को संग्रहित करता है। हर सूचना को वर्गीकृत किया जाता है (पसंद, निर्णय, निर्देश, लक्ष्य आदि) और समय के साथ जोड़ दिया जाता है। यही इसे कीवर्ड-आधारित की बजाय इरादा-आधारित पुनर्प्राप्ति बनाता है। [डॉक्स →](https://docs.getcore.me/concepts/memory/overview)
+
+- **टूलकिट**: किसी भी MCP-संगत एजेंट के लिए एकीकृत एक्शन लेयर। अपने ऐप्स (GitHub, Linear, Slack, Gmail, Calendar आदि) एक बार जोड़ें और हर कनेक्टेड AI टूल को 200+ कार्य एक ही एंडप्वाइंट से मिलते हैं। [डॉक्स →](https://docs.getcore.me/toolkit/overview)
+
+- **CORE एजेंट**: वह ऑर्केस्ट्रेटर जो मेमोरी और टूलकिट को जोड़ता है। यह इरादे को समझता है, मेमोरी खोजता है, टूल्स चुनता है, अन्य एजेंट शुरू करता है, और ट्रिगर व नियमों के आधार पर सक्रिय रूप से कार्य कर सकता है। [डॉक्स →](https://docs.getcore.me/concepts/meta-agent)
 
 ---
 
 ## आप क्या कर सकते हैं
 
-### 1. खुद को दोहराएँ नहीं, संदर्भ स्वचालित रूप से प्रवाहित होता है
+### अपने निजी सहायक के रूप में उपयोग करें
 
-CORE आपके कोडिंग एजेंट्स के लिए स्थायी मेमोरी लेयर बन जाता है। किसी भी AI टूल से प्रासंगिक संदर्भ प्राप्त करें।
-```txt
-Search core memory for architecture decisions on the payment service
+WhatsApp, ईमेल या वेब डैशबोर्ड से CORE से बात करें। यह आपके ऐप्स में कार्य करता है, आपका शेड्यूल प्रबंधित करता है, ईमेल का मसौदा तैयार करता है, और यह सब आपकी पहचान और आपके काम करने के तरीके की जानकारी के साथ करता है।
+
+[शुरू करें →](https://docs.getcore.me/quickstart/chief-of-staff)
+
+### अपने एआई एजेंट्स को सुपरचार्ज करें
+
+Claude Code, Cursor और अन्य एआई टूल्स को स्थायी मेमोरी और एक्शन्स दें। आपका कोडिंग एजेंट प्रोजेक्ट आर्किटेक्चर, पिछले निर्णय और प्राथमिकताएं सेशन्स के बीच याद रखता है। अब बार-बार संदर्भ समझाने की जरूरत नहीं।
+
+[शुरू करें →](https://docs.getcore.me/quickstart/supercharge-ai-agents)
+
+<details>
+<summary><b>Claude Code (अनुशंसित: प्लगइन)</b></summary>
+
+```sh
+npm install -g @redplanethq/corebrain
 ```
-```txt
-What my content guidelines from core to create the blog?
+फिर Claude कोड में:
+
+
 ```
-![core_as_memory](https://github.com/user-attachments/assets/7ac5d3f3-ca36-428d-8e97-3412c398f74b)
+/plugin marketplace add redplanethq/core
+/plugin install core_brain
+```
+
+क्लॉड कोड को पुनः प्रारंभ करें और प्रमाणित करने के लिए `/mcp` चलाएं।
+
+प्लगइन हर सत्र की शुरुआत में आपकी पर्सोना (प्राथमिकताएँ, नियम, निर्णय) को स्वतः लोड करता है और जब आप समाप्त करते हैं, तो वार्तालाप को मेमोरी में संग्रहीत कर लेता है।
+
+</details>
+
+<details>
+<summary><b>क्लॉड कोड (मैन्युअल एमसीपी)</b></summary>
+
+```sh
+claude mcp add --transport http --scope user core-memory https://app.getcore.me/api/v1/mcp?source=Claude-Code
+```
+
+फिर `/mcp` टाइप करें और प्रमाणीकरण के लिए कोर-मेमोरी खोलें।
+
+</details>
+
+<details>
+<summary><b>कर्सर</b></summary>
+
+[![MCP सर्वर इंस्टॉल करें](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9)
+
+</details>
+
+<details>
+<summary><b>ओपनक्लॉ</b></summary>
+
+```sh
+openclaw plugins install @redplanethq/openclaw-corebrain
+```
+
+अपने API कुंजी को पर्यावरण वेरिएबल या कॉन्फ़िग के माध्यम से सेट करें:
+
+```sh
+export CORE_API_KEY=your_api_key_here
+```
+[app.getcore.me](https://app.getcore.me) → सेटिंग्स → API Key से अपनी API कुंजी प्राप्त करें।
+
+</details>
+
+<details>
+<summary><b>Claude Desktop</b></summary>
+
+1. MCP URL कॉपी करें: `https://app.getcore.me/api/v1/mcp?source=Claude`
+2. सेटिंग्स → कनेक्टर्स → कस्टम कनेक्टर जोड़ें पर जाएं
+3. "Connect" पर क्लिक करें और Claude को CORE एक्सेस करने की अनुमति दें
+
+</details>
+
+**30+ अन्य प्रदाता** — Windsurf, VS Code, Cline, Codex, Gemini CLI, Copilot, और बहुत कुछ। [सभी सेटअप गाइड देखें →](https://docs.getcore.me/providers/overview)
+
+### AI चैट्स को मेमोरी में बदलें
+
+अपने ChatGPT और Gemini संवादों को ब्राउज़र एक्सटेंशन के माध्यम से CORE में सिंक करें। खोजने योग्य, पुन: उपयोग योग्य, और हर जुड़े एजेंट के लिए उपलब्ध।
+
+[शुरुआत करें →](https://docs.getcore.me/quickstart/capture-conversations)
 
 ---
 
-### 2. Claude/Cursor से अपनी ऐप्स में कार्य करें
-
-एक बार अपनी ऐप्स को कनेक्ट करें, कहीं से भी कार्य करें।
-
-- GitHub, Linear इश्यू बनाएँ/पढ़ें
-- ईमेल का ड्राफ्ट/भेजें/पढ़ें और संबंधित जानकारी को CORE में संग्रहित करें
-- अपने कैलेंडर का प्रबंधन करें, स्प्रेडशीट अपडेट करें
-
-
-![actions](https://github.com/user-attachments/assets/60295a77-bdfd-4d57-aff5-d77ecb41e72d)
-
----
-
-### 3. जहां छोड़ा था, वहीं से claude code/cursor के साथ दोबारा शुरू करें
-
-एक सप्ताह बाद किसी फीचर पर वापस स्विच कर रहे हैं? तुरंत अपडेट हो जाएँ।
-```txt
-What did we discuss about the checkout flow? Summarize from memory.
-```
-```txt
-Refer to past discussions and remind me where we left off on the API refactor
-```
-![claude-code-in-core](https://github.com/user-attachments/assets/0bd9566b-a8cc-49d9-a3cf-368658906c39)
-
----
-
-## क्या बनाता है CORE को अलग
-
-1. **टेम्पोरल कॉन्टेक्स्ट ग्राफ**: CORE सिर्फ तथ्यों को स्टोर नहीं करता — यह कहानी को याद रखता है। कब क्या हुआ, आपकी सोच कैसे विकसित हुई, किस निर्णय तक कैसे पहुँचे। आपकी प्राथमिकताएँ, लक्ष्य, और पिछले विकल्प — सब कुछ एक ग्राफ में जुड़ा है जो क्रम और संदर्भ को समझता है।
-
-2. **88.24% रिकॉल सटीकता**: LoCoMo बेंचमार्क पर परीक्षण किया गया। जब आप CORE से कुछ पूछते हैं, यह प्रासंगिक जानकारी ढूंढता है। केवल कीवर्ड मिलान नहीं, सच्ची सेमान्टिक समझ और मल्टी-हॉप रीजनिंग।
-
-3. **आपका नियंत्रण**: आपकी मेमोरी, आपके नियम। जो गलत है उसे संपादित करें। जो नहीं चाहिए उसे मिटाएँ। देखें कि आपका ज्ञान कैसे जुड़ा है। CORE पारदर्शी है, आप ठीक-ठीक देख सकते हैं कि यह क्या जानता है।
-
-4. **ओपन सोर्स**: कोई ब्लैक बॉक्स नहीं। कोई विक्रेता निर्भरता नहीं। आपका डिजिटल मस्तिष्क आपका है।
-
----
-
-## 🚀 त्वरित प्रारंभ
-
-अपना मार्ग चुनें:
-
-| | **CORE क्लाउड** | **स्वयं-होस्ट** |
-|---|---|---|
-| सेटअप समय | 5 मिनट | 15 मिनट |
-| सर्वोत्तम उपयोग | जल्दी आज़माएँ, कोई इंफ्रा नहीं | पूर्ण नियंत्रण, आपके सर्वर |
-| आवश्यकताएँ | केवल एक खाता | डॉकर, 4GB RAM |
+## त्वरित शुरुआत
 
 ### क्लाउड
 
 1. **साइन अप करें** [app.getcore.me](https://app.getcore.me) पर
-2. **एक स्रोत जोड़ें** (Claude, Cursor, या कोई MCP-संगत टूल)
-3. **शुरू करें** CORE का उपयोग कोई भी कार्य करने या अपनी जानकारी को मेमोरी में स्टोर करने के लिए
+2. **Gmail और कैलेंडर कनेक्ट करें** — CORE इन्हें स्कैन करता है ताकि आपका डिजिटल दिमाग पहले दिन से ही वास्तविक संदर्भ के साथ शुरू हो सके
+3. **प्रयोग शुरू करें** — CORE एजेंट से बात करें, अपने AI टूल्स कनेक्ट करें, या अपने ऐप्स में कार्य करें
 
-### स्वयं-होस्ट
+### सेल्फ-होस्ट
 
 **त्वरित डिप्लॉय**
 
-[![रेलवे पर डिप्लॉय करें](https://railway.app/button.svg)](https://railway.com/deploy/core)
+[![Railway पर डिप्लॉय करें](https://railway.app/button.svg)](https://railway.com/deploy/core)
 
-**या डॉकर के साथ**
+**या Docker के साथ**
 
-1. रिपॉजिटरी क्लोन करें:
 
-```
+```bash
 git clone https://github.com/RedPlanetHQ/core.git
 cd core
-```
-
-2. `core/.env` में पर्यावरण वेरिएबल्स को कॉन्फ़िगर करें:
-
-```
-OPENAI_API_KEY=your_openai_api_key
-```
-
-3. सेवा प्रारंभ करें
-
-```
+# Configure OPENAI_API_KEY in core/.env
 docker-compose up -d
 ```
-एक बार डिप्लॉय हो जाने के बाद, आप अपने एआई प्रदाताओं (OpenAI, Anthropic) को कॉन्फ़िगर कर सकते हैं और अपनी मेमोरी ग्राफ़ बनाना शुरू कर सकते हैं।
 
-👉 [पूरा सेल्फ-होस्टिंग गाइड देखें](https://docs.getcore.me/self-hosting/docker)
-
-
-> नोट: हमने ओपन-सोर्स मॉडल जैसे Ollama या GPT OSS आज़माए लेकिन तथ्य निर्माण अच्छे नहीं थे, हम अभी भी यह पता लगाने की कोशिश कर रहे हैं कि इसमें कैसे सुधार किया जाए और उसके बाद हम OSS मॉडल का भी समर्थन करेंगे।
-
-## 🛠️ इंस्टॉलेशन
-
-### अनुशंसित
-
-<details>
-<summary><b>Claude Code CLI में इंस्टॉल करें</b></summary>
-
-1. CORE को Claude Code से कनेक्ट करने के लिए अपने टर्मिनल में यह कमांड चलाएँ:
-
-
-```sh
-claude mcp add --transport http --scope user core-memory https://mcp.getcore.me/api/v1/mcp?source=Claude-Code
-```
-2. `/mcp` टाइप करें और प्रमाणीकरण के लिए कोर-मेमोरी MCP खोलें
-
-</details>
-
-<details>
-<summary><b>Cursor में इंस्टॉल करें</b></summary>
-
-> Cursor 1.0 से, आप नीचे दिए गए इंस्टॉल बटन पर क्लिक करके तुरंत एक-क्लिक इंस्टॉलेशन कर सकते हैं।
-
-[![MCP सर्वर इंस्टॉल करें](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==)
-
-या
-
-1. जाएं: `Settings` -> `Tools & Integrations` -> `Add Custom MCP`
-2. नीचे दिए गए को `mcp.json` फाइल में दर्ज करें:
-
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=cursor",
-      "headers": {}
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Claude डेस्कटॉप में इंस्टॉल करें</b></summary>
-
-1. CORE MCP URL कॉपी करें:
-
-```
-https://mcp.getcore.me/api/v1/mcp?source=Claude
-```
-
-2. सेटिंग्स → कनेक्टर्स → पर जाएँ और Add custom connector पर क्लिक करें
-3. "Connect" पर क्लिक करें और Claude को CORE MCP तक पहुँच की अनुमति दें
-
-</details>
-
-### CLIs
-
-<details>
-<summary><b>Codex CLI में इंस्टॉल करें</b></summary>
-
-**विकल्प 1 (सिफारिश की गई):** अपने `~/.codex/config.toml` फ़ाइल में जोड़ें:
-
-```toml
-[features]
-rmcp_client=true
-
-[mcp_servers.memory]
-url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
-```
-
-फिर चलाएँ: `codex mcp memory login`
-
-**विकल्प 2 (यदि विकल्प 1 काम नहीं करता है):** API कुंजी कॉन्फ़िगरेशन जोड़ें:
-
-```toml
-[features]
-rmcp_client=true
-
-[mcp_servers.memory]
-url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
-http_headers = { "Authorization" = "Bearer CORE_API_KEY" }
-```
-
-[app.getcore.me](https://app.getcore.me) → सेटिंग्स → API कुंजी से अपनी API कुंजी प्राप्त करें, फिर चलाएँ: `codex mcp memory login`
-
-</details>
-
-<details>
-<summary><b>Gemini CLI में इंस्टॉल करें</b></summary>
-
-विवरण के लिए देखें [Gemini CLI कॉन्फ़िगरेशन](https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html)।
-
-1.  Gemini CLI सेटिंग फ़ाइल खोलें। इसका स्थान है `~/.gemini/settings.json` (जहाँ `~` आपकी होम डायरेक्टरी है)।
-2.  अपने `settings.json` फ़ाइल में `mcpServers` ऑब्जेक्ट में निम्नलिखित जोड़ें:
-
-```json
-{
-  "mcpServers": {
-    "corememory": {
-      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=geminicli",
-      "timeout": 5000
-    }
-  }
-}
-```
-
-यदि `mcpServers` ऑब्जेक्ट मौजूद नहीं है, तो इसे बनाएं।
-
-</details>
-
-<details>
-<summary><b>Copilot CLI में इंस्टॉल करें</b></summary>
-
-अपनी `~/.copilot/mcp-config.json` फ़ाइल में निम्नलिखित जोड़ें:
-
-```json
-{
-  "mcpServers": {
-    "core": {
-      "type": "http",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-CLI",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-</details>
-
-### आईडीई
-
-
-<details>
-<summary><b>VS Code में इंस्टॉल करें</b></summary>
-
-नीचे दिए गए को `mcp.json` फ़ाइल में डालें:
-
-
-```json
-{
-  "servers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Vscode",
-      "type": "http",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>VS Code Insiders में इंस्टॉल करें</b></summary>
-
-अपने VS Code Insiders MCP कॉन्फ़िग में जोड़ें:
-
-```json
-{
-  "mcp": {
-    "servers": {
-      "core-memory": {
-        "type": "http",
-        "url": "https://mcp.getcore.me/api/v1/mcp?source=VSCode-Insiders",
-        "headers": {
-          "Authorization": "Bearer YOUR_API_KEY"
-        }
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Windsurf में इंस्टॉल करें</b></summary>
-
-`mcp_config.json` फ़ाइल में नीचे दिया गया दर्ज करें:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "serverUrl": "https://mcp.getcore.me/api/v1/mcp/source=windsurf",
-      "headers": {
-        "Authorization": "Bearer <YOUR_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Zed में इंस्टॉल करें</b></summary>
-
-1. एजेंट पैनल में `सेटिंग्स` पर जाएँ -> `कस्टम सर्वर जोड़ें`
-2. नीचे दिया गया कोड कॉन्फ़िगरेशन फाइल में दर्ज करें और `सर्वर जोड़ें` बटन पर क्लिक करें
-
-```json
-{
-  "core-memory": {
-    "command": "npx",
-    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=Zed"]
-  }
-}
-```
-</details>
-
-### कोडिंग एजेंट्स
-
-<details>
-<summary><b>Amp में इंस्टॉल करें</b></summary>
-
-अपने टर्मिनल में यह कमांड चलाएँ:
-
-
-```sh
-amp mcp add core-memory https://mcp.getcore.me/api/v1/mcp?source=amp
-```
-
-</details>
-
-<details>
-<summary><b>ऑगमेंट कोड में इंस्टॉल करें</b></summary>
-
-अपने `~/.augment/settings.json` फ़ाइल में जोड़ें:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "type": "http",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=augment-code",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>क्लाइन में स्थापित करें</b></summary>
-
-1. क्लाइन खोलें और MCP सर्वर सेक्शन में जाने के लिए हैमबर्गर मेनू आइकन (☰) पर क्लिक करें
-2. रिमोट सर्वर टैब चुनें और कॉन्फ़िगरेशन संपादित करें बटन पर क्लिक करें
-3. अपनी क्लाइन MCP कॉन्फ़िगरेशन में निम्नलिखित जोड़ें:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Cline",
-      "type": "streamableHttp",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>किलो कोड में इंस्टॉल करें</b></summary>
-
-1. `सेटिंग्स` → `MCP सर्वर्स` → `इंस्टॉल्ड टैब` → पर जाएं, अपनी कॉन्फ़िगरेशन को संपादित करने के लिए `एडिट ग्लोबल MCP` पर क्लिक करें।
-2. अपने MCP कॉन्फ़िग फाइल में निम्नलिखित जोड़ें:
-
-```json
-{
-  "core-memory": {
-    "type": "streamable-http",
-    "url": "https://mcp.getcore.me/api/v1/mcp?source=Kilo-Code",
-    "headers": {
-      "Authorization": "Bearer your-token"
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>किरो में इंस्टॉल करें</b></summary>
-
-किरो → एमसीपी सर्वर्स में जोड़ें:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Kiro",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Qwen Coder में इंस्टॉल करें</b></summary>
-
-विवरण के लिए [Qwen Coder MCP कॉन्फ़िगरेशन](https://qwenlm.github.io/qwen-code-docs/en/tools/mcp-server/#how-to-set-up-your-mcp-server) देखें।
-
-`~/.qwen/settings.json` में जोड़ें:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=Qwen",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY",
-        "Accept": "application/json, text/event-stream"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>रू कोड में इंस्टॉल करें</b></summary>
-
-अपनी रू कोड MCP कॉन्फ़िगरेशन में जोड़ें:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "type": "streamable-http",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Roo-Code",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Opencode में इंस्टॉल करें</b></summary>
-
-अपने Opencode कॉन्फ़िगरेशन में जोड़ें:
-
-```json
-{
-  "mcp": {
-    "core-memory": {
-      "type": "remote",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Opencode",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      },
-      "enabled": true
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>कोपायलट कोडिंग एजेंट में स्थापित करें</b></summary>
-
-रिपॉजिटरी सेटिंग्स → कोपायलट → कोडिंग एजेंट → MCP कॉन्फ़िगरेशन में जोड़ें:
-
-```json
-{
-  "mcpServers": {
-    "core": {
-      "type": "http",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-Agent",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Qodo Gen में इंस्टॉल करें</b></summary>
-
-1. VSCode या IntelliJ में Qodo Gen चैट पैनल खोलें
-2. Connect more tools पर क्लिक करें, फिर + Add new MCP पर क्लिक करें
-3. निम्नलिखित कॉन्फ़िगरेशन जोड़ें:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Qodo-Gen"
-    }
-  }
-}
-```
-
-</details>
-
-### टर्मिनल्स
-
-<details>
-<summary><b>वार्प में इंस्टॉल करें</b></summary>
-
-सेटिंग्स → एआई → एमसीपी सर्वर प्रबंधित करें में जोड़ें:
-
-```json
-{
-  "core": {
-    "url": "https://mcp.getcore.me/api/v1/mcp?source=Warp",
-    "headers": {
-      "Authorization": "Bearer YOUR_API_KEY"
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>क्रश में इंस्टॉल करें</b></summary>
-
-अपनी क्रश कॉन्फ़िगरेशन में जोड़ें:
-
-```json
-{
-  "$schema": "https://charm.land/crush.json",
-  "mcp": {
-    "core": {
-      "type": "http",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Crush",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-</details>
-
-### डेस्कटॉप ऐप्स
-
-<details>
-<summary><b>ChatGPT में इंस्टॉल करें</b></summary>
-
-ब्राउज़र एक्सटेंशन के माध्यम से ChatGPT को CORE की मेमोरी सिस्टम से कनेक्ट करें:
-
-1. [Core ब्राउज़र एक्सटेंशन इंस्टॉल करें](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
-2. API Key जेनरेट करें: Settings → API Key → नया कुंजी जेनरेट करें → इसे "extension" नाम दें
-3. Core एक्सटेंशन में API Key जोड़ें और Save पर क्लिक करें
-
-</details>
-
-<details>
-<summary><b>Gemini में इंस्टॉल करें</b></summary>
-
-ब्राउज़र एक्सटेंशन के माध्यम से Gemini को CORE की मेमोरी सिस्टम से कनेक्ट करें:
-
-1. [Core ब्राउज़र एक्सटेंशन इंस्टॉल करें](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
-2. API Key जेनरेट करें: Settings → API Key → नया कुंजी जेनरेट करें → इसे "extension" नाम दें
-3. Core एक्सटेंशन में API Key जोड़ें और Save पर क्लिक करें
-
-</details>
-
-<details>
-<summary><b>Perplexity Desktop में इंस्टॉल करें</b></summary>
-
-1. Perplexity में जोड़ें → Settings → Connectors → Add Connector → Advanced:
-
-
-```json
-{
-  "core-memory": {
-    "command": "npx",
-    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=perplexity"]
-  }
-}
-```
-2. परिवर्तनों को लागू करने के लिए सेव पर क्लिक करें
-3. कोर आपके पर्प्लेक्सिटी सत्रों में उपलब्ध होगा
-
-</details>
-
-### विकास उपकरण
-
-<details>
-<summary><b>फैक्ट्री में इंस्टॉल करें</b></summary>
-
-टर्मिनल में चलाएं:
-
-
-```sh
-droid mcp add core https://mcp.getcore.me/api/v1/mcp?source=Factory --type http --header "Authorization: Bearer YOUR_API_KEY"
-```
-
-droid में सर्वर प्रबंधित करने और उपलब्ध टूल्स देखने के लिए /mcp टाइप करें।
-
-</details>
-
-<details>
-<summary><b>Rovo Dev CLI में इंस्टॉल करें</b></summary>
-
-1. mcp कॉन्फ़िग संपादित करें:
-
-```sh
-acli rovodev mcp
-```
-
-2. अपनी Rovo Dev MCP कॉन्फ़िगरेशन में जोड़ें:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Rovo-Dev"
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Trae में इंस्टॉल करें</b></summary>
-
-अपने Trae MCP कॉन्फ़िगरेशन में जोड़ें:
-
-```json
-{
-  "mcpServers": {
-    "core": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Trae"
-    }
-  }
-}
-```
-</details>
-
-## 🔨 उपलब्ध टूल्स
-
-CORE मेमोरी MCP निम्नलिखित टूल्स प्रदान करता है जिन्हें LLMs उपयोग कर सकते हैं:
-
-- `memory_search`: CORE मेमोरी से प्रासंगिक संदर्भ खोजें।
-- `memory_ingest`: CORE मेमोरी में एक एपिसोड जोड़ें।
-- `memory_about_user`: CORE मेमोरी से उपयोगकर्ता पर्सोना प्राप्त करें।
-- `initialise_conversation_session`: संवाद प्रारंभ करें और संवाद के लिए सत्र आईडी असाइन करें।
-- `get_integrations`: कनेक्टेड इंटीग्रेशन से कौन सा प्रासंगिक इंटीग्रेशन उपयोग करना है, प्राप्त करें।
-- `get_integrations_actions`: उस इंटीग्रेशन के टूल्स में से कार्य के लिए कौन सा टूल उपयोग करना है, प्राप्त करें।
-- `execute_integrations_actions`: उस इंटीग्रेशन के लिए टूल निष्पादित करें।
+[पूरा सेल्फ-होस्टिंग गाइड देखें →](https://docs.getcore.me/self-hosting/docker)
 
 ---
 
-## यह कैसे काम करता है
+## एजेंट बिल्डरों के लिए
 
-### मेमोरी इनजेशन
+एआई एजेंट बना रहे हैं? मेमोरी और इंटीग्रेशन को CORE पर ऑफलोड करें ताकि आप अपने एजेंट की लॉजिक पर ध्यान दे सकें।
 
-<img width="12885" height="3048" alt="memory-ingest-diagram" src="https://github.com/user-attachments/assets/c51679de-8260-4bee-bebf-aff32c6b8e13" />
+- **मेमोरी ऑफलोड करें** — CORE का टेम्पोरल नॉलेज ग्राफ आपके एजेंट की लॉन्ग-टर्म मेमोरी के रूप में इस्तेमाल करें। बातचीत स्टोर करें, इंटेंट-ड्रिवन सर्च के साथ कॉन्टेक्स्ट प्राप्त करें, और अपने एजेंट को समय के साथ ज्ञान बनाने दें बिना अपनी वेक्टर DB या ग्राफ को मैनेज किए।
+- **इंटीग्रेशन ऑफलोड करें** — CORE में एक बार ऐप्स कनेक्ट करें, और आपके एजेंट को MCP टूल्स सभी के लिए मिल जाते हैं। कोई OAuth फ्लो बनाने की जरूरत नहीं, कोई API मेंटेनेंस नहीं, कोई पर-इंटीग्रेशन कोड नहीं।
+- **MCP या API के माध्यम से बिल्ड करें** — अपने एजेंट को MCP (सिंगल एंडपॉइंट) के माध्यम से CORE से कनेक्ट करें या सीधे REST API का उपयोग करें।
 
-जब आप संदर्भ को CORE में सेव करते हैं, तो यह चार चरणों से गुजरता है:
+**उदाहरण परियोजनाएँ**
 
-1. **सामान्यीकरण**: नई जानकारी को हालिया संदर्भ से जोड़ता है, दस्तावेज़ों को सुसंगत हिस्सों में बांटता है और क्रॉस-रेफरेंस बनाए रखता है।
-2. **निष्कर्षण**: इकाइयों (लोग, टूल्स, परियोजनाएँ) की पहचान करता है, संदर्भ और समय के साथ कथन बनाता है, संबंधों का मानचित्रण करता है।
-3. **संकल्प**: विरोधाभासों का पता लगाता है, प्राथमिकताओं के विकास को ट्रैक करता है, और स्रोत के साथ कई दृष्टिकोणों को संरक्षित करता है।
-4. **ग्राफ इंटीग्रेशन**: इकाइयों, कथनों, और एपिसोड्स को समय-आधारित ज्ञान ग्राफ में जोड़ता है।
+- [**core-cli**](https://github.com/RedPlanetHQ/core-cli) — मेमोरी और Linear/GitHub सिंक के साथ टास्क मैनेजर एजेंट
+- [**holo**](https://github.com/RedPlanetHQ/holo) — अपनी CORE मेमोरी को चैट के साथ व्यक्तिगत वेबसाइट में बदलें
 
-उदाहरण: "हमने CORE को Next.js में लिखा" बनता है:
-
-- इकाइयाँ: `CORE`, `Next.js`
-- कथन: `CORE को Next.js का उपयोग करके विकसित किया गया था`
-- संबंध: `का उपयोग करके विकसित किया गया था`
-
-![memory-ingest-eg](https://github.com/user-attachments/assets/1d0a8007-153a-4842-9586-f6f4de43e647)
-
-### मेमोरी रिकॉल
-
-
-<img width="10610" height="3454" alt="memory-search-diagram" src="https://github.com/user-attachments/assets/3541893e-f7c9-42b9-8fad-6dabf138dbeb" />
-
-जब आप CORE से क्वेरी करते हैं:
-
-1. **खोज**: हाइब्रिड तरीका: कीवर्ड + सिमेंटिक + ग्राफ ट्रैवर्सल
-2. **पुनः-रैंक**: सबसे प्रासंगिक और विविध परिणाम प्रस्तुत करता है
-3. **फ़िल्टर**: समय, विश्वसनीयता, और संबंध की ताकत के फ़िल्टर लागू करता है
-4. **आउटपुट**: तथ्य और वे एपिसोड लौटाता है जहाँ से वे आए हैं
-
-CORE सिर्फ तथ्य नहीं याद रखता — यह उन्हें संदर्भ, समय और कहानी के साथ याद रखता है, ताकि एजेंट्स उसी तरह प्रतिक्रिया दें जैसे आप याद करते।
+[API रेफरेंस →](https://docs.getcore.me/api-reference) · [SDK डॉक्यूमेंटेशन →](https://docs.getcore.me)
 
 ---
 
-## 🛠️ एजेंट बिल्डर्स के लिए
+## बेंचमार्क
 
-एआई एजेंट बना रहे हैं? CORE आपको मेमोरी इंफ्रास्ट्रक्चर + इंटीग्रेशन इंफ्रास्ट्रक्चर देता है ताकि आप अपने एजेंट की लॉजिक पर ध्यान केंद्रित कर सकें।
-
-### आपको क्या मिलता है
-
-**मेमोरी इंफ्रास्ट्रक्चर**
-- टेम्पोरल नॉलेज ग्राफ जिसमें 88.24% LoCoMo सटीकता है
-- हाइब्रिड सर्च: सिमेंटिक + कीवर्ड + ग्राफ ट्रैवर्सल
-- संदर्भ के विकास और विरोधाभासों को ट्रैक करता है
-
-**इंटीग्रेशन इंफ्रास्ट्रक्चर**
-- GitHub, Linear, Slack, Gmail को एक बार कनेक्ट करें
-- आपका एजेंट सभी कनेक्टेड ऐप्स के लिए MCP टूल्स प्राप्त करता है
-- OAuth फ्लो बनाने की जरूरत नहीं, कोई API मेंटेनेंस नहीं
-
-### उदाहरण परियोजनाएँ
-
-**[core-cli](https://github.com/RedPlanetHQ/core-cli)** — एक टास्क मैनेजर एजेंट जो मेमोरी के लिए CORE से जुड़ता है और Linear, GitHub Issues के साथ सिंक करता है।
-
-**[holo](https://github.com/RedPlanetHQ/holo)** — अपनी CORE मेमोरी को चैट के साथ पर्सनल वेबसाइट में बदलें।
-
-### संसाधन
-
-- [API संदर्भ](https://docs.getcore.me/api-reference)
-- [SDK दस्तावेज़](https://docs.getcore.me)
-- किसी विशेष इंटीग्रेशन की आवश्यकता है? [GitHub इश्यू खोलें](https://github.com/RedPlanetHQ/core/issues)
----
-
-## 🔥 अनुसंधान मुख्य बिंदु
-
-CORE मेमोरी ने Locomo डेटासेट में सभी रीजनिंग कार्यों में औसतन **88.24%** सटीकता प्राप्त की, जो अन्य मेमोरी प्रोवाइडर्स की तुलना में काफी बेहतर है।
+CORE ने LoCoMo बेंचमार्क पर सिंगल-हॉप, मल्टी-हॉप, ओपन-डोमेन और टेम्पोरल रीजनिंग टास्क्स में **88.24%** औसत सटीकता हासिल की है।
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
 
-| कार्य प्रकार | विवरण |
-|-------------|--------|
-| सिंगल-हॉप   | एक सत्र के आधार पर उत्तर |
-| मल्टी-हॉप   | कई सत्रों से जानकारी का संकलन |
-| ओपन-डोमेन  | उपयोगकर्ता जानकारी को बाहरी ज्ञान के साथ जोड़ना |
-| टेम्पोरल रीजनिंग | समय-संबंधी संकेत और क्रम की समझ |
-
-
-[बेंचमार्क कार्यप्रणाली और परिणाम देखें →](https://github.com/RedPlanetHQ/core-benchmark)
+[बेंचमार्क मेथोडोलॉजी और परिणाम देखें →](https://github.com/RedPlanetHQ/core-benchmark)
 
 ---
 
+## सुरक्षा
 
-## 🔒 सुरक्षा
+CASA टियर 2 प्रमाणित — गूगल के OAuth आवश्यकताओं को पूरा करने के लिए तृतीय-पक्ष ऑडिट किया गया।
 
-CASA टियर 2 प्रमाणित — Google के OAuth आवश्यकताओं को पूरा करने के लिए थर्ड-पार्टी ऑडिटेड।
+- एन्क्रिप्शन: TLS 1.3 (ट्रांजिट) + AES-256 (रेस्ट)
+- वर्कस्पेस-आधारित आइसोलेशन, रोल-आधारित परमिशन
+- आपके डेटा का कभी भी एआई मॉडल प्रशिक्षण में उपयोग नहीं किया जाता
+- पूर्ण आइसोलेशन के लिए सेल्फ-होस्टिंग विकल्प
+[सुरक्षा नीति →](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) · भेद्यता रिपोर्टिंग: harshith@poozle.dev
 
-- एन्क्रिप्शन: TLS 1.3 (ट्रांजिट में) + AES-256 (रेस्ट पर)
-- प्रमाणीकरण: OAuth 2.0 और मैजिक लिंक
-- एक्सेस कंट्रोल: वर्कस्पेस-आधारित पृथक्करण, भूमिका-आधारित अनुमतियाँ
-- ज़ीरो-ट्रस्ट आर्किटेक्चर: कभी भरोसा मत करो, हमेशा सत्यापित करो
-
-आपका डेटा, आपका नियंत्रण:
-
-- कभी भी संपादित और हटाएं
-- AI मॉडल ट्रेनिंग के लिए कभी उपयोग नहीं होता
-- पूरी तरह पृथकता के लिए स्वयं-होस्टिंग विकल्प
-
-विस्तृत सुरक्षा जानकारी के लिए, हमारा [सुरक्षा नीति](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) देखें।
-
-संवेदनशीलता रिपोर्टिंग: harshith@poozle.dev
+---
 
 ## प्रलेखन
 
-CORE का अधिकतम लाभ उठाने के लिए हमारे प्रलेखन को एक्सप्लोर करें
+- [स्वागत](https://docs.getcore.me/introduction) — CORE का परिचय
+- [अवधारणाएँ](https://docs.getcore.me/concepts/overview) — मेमोरी, एजेंट, और टूलकिट समझाया गया
+- [कनेक्ट](https://docs.getcore.me/access-core/overview) — चैनल और AI प्रदाता
+- [टूलकिट](https://docs.getcore.me/toolkit/overview) — क्रियाएँ और एकीकरण
+- [ओपन सोर्स](https://docs.getcore.me/guides/local-setup) — स्थानीय सेटअप, योगदान, स्वयं-होस्टिंग
+- [API संदर्भ](https://docs.getcore.me/api-reference) — REST API और एंडपॉइंट्स
+- [चेंजलॉग](https://docs.getcore.me/opensource/changelog) — उत्पाद अपडेट
 
-- [सेल्फ होस्टिंग](https://docs.getcore.me/self-hosting/overview)
-- [मूल अवधारणाएँ](https://docs.getcore.me/overview)
-- [मेमोरी ग्राफ़](https://docs.getcore.me/concepts/memory_graph)
-- [API संदर्भ](https://docs.getcore.me/api-reference/get-user-profile)
+---
 
-## 🧑‍💻 सहायता
-
-कोई सवाल या प्रतिक्रिया है? हम आपकी सहायता के लिए यहाँ हैं:
+## सहायता
 
 - डिस्कॉर्ड: [core-support चैनल से जुड़ें](https://discord.gg/YGUZcvDjUa)
 - प्रलेखन: [docs.getcore.me](https://docs.getcore.me)
 - ईमेल: manik@poozle.dev
 
-## उपयोग दिशानिर्देश
-
-**स्टोर करें:**
-
-- वार्तालाप इतिहास
-- उपयोगकर्ता प्राथमिकताएँ
-- कार्य का संदर्भ
-- संदर्भ सामग्री
-
-**स्टोर न करें:**
-
-- संवेदनशील डेटा (PII)
-- क्रेडेंशियल्स
-- सिस्टम लॉग्स
-- अस्थायी डेटा
-
-## 👥 योगदानकर्ता
+## योगदानकर्ता
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
@@ -893,12 +299,8 @@ CORE का अधिकतम लाभ उठाने के लिए हम
 
 
 
-
-
-
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
 
 ---

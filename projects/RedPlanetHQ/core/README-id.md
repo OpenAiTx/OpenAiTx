@@ -30,117 +30,190 @@
 
 <div align="center">
   <a href="https://getcore.me">
-    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
+    <img width="200px" alt="CORE logo" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
   </a>
 
-### CORE: Otak Digital Anda - Memori + Tindakan untuk Alat AI
+## CORE: Otak Digital Anda
+
+**Ia Mengingat. Ia Berpikir. Ia Bertindak**
 
 <p align="center">
-    <a href="https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==">
-        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="Tambah ke Cursor" />
-</a>
-<a href="https://railway.com/deploy/core">
-    <img src="https://railway.app/button.svg" width="150px" alt="Deploy on Railway" />
-</a>
+    <a href="https://docs.getcore.me/providers/claude-code">
+        <img src="https://img.shields.io/badge/Add_to-Claude_Code-F97316?style=for-the-badge&logo=anthropic&logoColor=white" alt="Tambahkan ke Claude Code" />
+    </a>
+    <a href="https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9">
+        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="Tambahkan ke Cursor" />
+    </a>
+    <a href="https://docs.getcore.me/providers/openclaw">
+        <img src="https://img.shields.io/badge/Add_to-OpenClaw-E5533D?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTEyIDJMMyA3djEwbDkgNSA5LTVWN2wtOS01eiIvPjwvc3ZnPg==&logoColor=white" alt="Tambahkan ke OpenClaw" />
+    </a>
+    <a href="https://railway.com/deploy/core">
+        <img src="https://railway.app/button.svg" width="150px" alt="Deploy di Railway" />
+    </a>
 </p>
 <p align="center">
-    <a href="https://heysol.ai">
-        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50" alt="Website" />
+    <a href="https://getcore.me">
+        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="Situs Web" />
     </a>
     <a href="https://docs.getcore.me">
-        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-green" alt="Docs" />
-    </a>  
+        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Dokumentasi" />
+    </a>
     <a href="https://discord.gg/YGUZcvDjUa">
-        <img src="https://img.shields.io/badge/Discord-community-purple" alt="Discord" />
-    </a>    
+        <img src="https://img.shields.io/badge/Discord-community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+    </a>
 </p>
 </div>
 
 ---
 
-Informasi penting Anda tersebar di berbagai alat yang tidak saling terhubung. Percakapan AI Anda selalu dimulai dengan "biar saya kasih konteks dulu." Pengalaman dan pembelajaran Anda masih ada di kepala, dan kepala Anda tidak bisa diskalakan.
+CORE adalah otak digital Anda - AI terpadu yang selalu aktif, mengingat konteks Anda, bekerja dengan agen AI Anda, dan bertindak di berbagai alat Anda.
 
-**CORE mengingat**. Bukan basis data. Bukan kotak pencarian. Otak digital yang mempelajari hal penting, menghubungkan yang berkaitan, dan menampilkan yang Anda butuhkan.
+Sumber terbuka. Dapat di-host sendiri. Data Anda, kendali Anda.
 
-## Untuk Pengembang
+---
 
-CORE memberikan alat AI Anda memori persisten dan kemampuan bertindak di aplikasi yang Anda gunakan.
+## Apa yang Membuat Sebuah Otak Digital
 
-- Konteks terjaga di Claude Code, Cursor, dan agen pengkodean lainnya
-- Lakukan aksi di Linear, GitHub, Slack, Gmail, Google Sheets, dan aplikasi lain yang Anda gunakan
-- Hubungkan sekali melalui MCP, bekerja di mana saja
-- Open-source dan dapat dihosting sendiri; data Anda, kendali Anda
+### Ia Mengingat Segalanya
+
+Setiap percakapan, keputusan, preferensi, dan hubungan disimpan sebagai pengetahuan terstruktur dalam grafik pengetahuan temporal. Bukan teks mentah, melainkan fakta yang diklasifikasikan (preferensi, keputusan, tujuan, arahan) yang muncul persis saat Anda membutuhkannya. Tanyakan sesuatu dari beberapa minggu lalu dan jawabannya ada, dengan konteks penuh.
+
+[Pelajari lebih lanjut tentang Memori →](https://docs.getcore.me/concepts/memory/overview)
+
+### Dapat Melakukan Tindakan
+
+Buat issue GitHub, kirim pesan Slack, kelola kalender Anda tanpa meninggalkan percakapan. Alur kerja multi-langkah yang kompleks juga: minta agen coding Anda untuk memeriksa Sentry untuk error baru, buat issue GitHub untuk setiap error, tugaskan engineer yang tepat berdasarkan git blame, dan posting ringkasan ke channel Slack tim Anda, semua dari satu perintah. 200+ aksi di lebih dari 50 aplikasi melalui satu titik koneksi.
+
+[Pelajari lebih lanjut tentang Toolkit →](https://docs.getcore.me/concepts/toolkit)
+
+### Berpikir dan Bekerja Lintas Sistem
+
+Alat Anda terisolasi. Claude Code tidak bisa berbicara dengan WhatsApp Anda. Cursor tidak bisa memeriksa kalender Anda. Agen CORE memecah tembok-tembok ini - ia adalah orkestra yang mengikat memori, toolkit, dan aplikasi Anda bersama.
+
+Apa yang dapat dilakukan Agen CORE:
+
+- **Memahami intent**: mengklasifikasikan kebutuhan Anda dan mengarahkan ke alat dan memori yang tepat
+- **Membuat agen lain**: memulai sesi Claude Code atau sesi browser dari WhatsApp untuk memperbaiki bug atau meneliti sesuatu
+- **Koordinasi alur kerja multi-langkah**: mengambil konteks dari memori, bertindak di berbagai aplikasi, dan melaporkan kembali
+- **Bekerja dari mana saja**: kirim pesan dari WhatsApp, email, Slack, atau web dashboard — otak yang sama, konteks yang sama
+
+[Pelajari lebih lanjut tentang CORE Agent →](https://docs.getcore.me/concepts/meta-agent)
+
+### Dapat Bertindak Secara Proaktif
+
+Anda tidak perlu meminta segalanya. CORE memantau kejadian - email baru, peringatan GitHub, perubahan kalender — dan mengevaluasinya dengan apa yang diketahui tentang Anda. Email klien masuk; CORE sudah tahu cara Anda menangani hubungan itu dan membuat draft respons yang tepat. Peringatan Sentry muncul di malam hari; CORE memulai sesi Claude Code untuk menyelidiki.
+
+[Pelajari lebih lanjut tentang Konsep →](https://docs.getcore.me/concepts/overview)
+
+---
+
+## Arsitektur
+
+CORE dibangun di atas tiga lapisan yang mengimplementasikan empat pilar berikut:
+
+- **Memori**: Grafik pengetahuan temporal yang menyimpan episode, entitas, dan fakta yang telah diklasifikasikan. Setiap informasi dikategorikan (preferensi, keputusan, arahan, tujuan, dll.) dan dihubungkan seiring waktu. Inilah yang membuat pengambilan data berdasarkan intent, bukan kata kunci. [Dokumen →](https://docs.getcore.me/concepts/memory/overview)
+
+- **Toolkit**: Lapisan aksi terpadu untuk agen yang kompatibel dengan MCP. Hubungkan aplikasi Anda sekali (GitHub, Linear, Slack, Gmail, Kalender, dll.) dan setiap alat AI yang terhubung mendapat akses ke 200+ aksi melalui satu endpoint. [Dokumen →](https://docs.getcore.me/toolkit/overview)
+
+- **CORE Agent**: Orkestra yang menghubungkan memori dan toolkit bersama. Ia memahami intent, mencari memori, memilih alat, membuat agen lain, dan dapat bertindak proaktif berdasarkan pemicu dan aturan. [Dokumen →](https://docs.getcore.me/concepts/meta-agent)
 
 ---
 
 ## Apa yang Bisa Anda Lakukan
 
-### 1. Tidak perlu mengulang, konteks mengalir otomatis
+### Gunakan sebagai Asisten Pribadi Anda
 
-CORE menjadi lapisan memori persisten untuk agen pengkodean Anda. Minta alat AI manapun untuk mengambil konteks relevan.
-```txt
-Search core memory for architecture decisions on the payment service
+Berbicaralah dengan CORE melalui WhatsApp, email, atau dasbor web. CORE dapat mengambil tindakan di berbagai aplikasi Anda, mengelola jadwal, membuat draf email, semuanya dengan mengingat siapa Anda dan bagaimana cara kerja Anda.
+
+[Mulai sekarang →](https://docs.getcore.me/quickstart/chief-of-staff)
+
+### Tingkatkan Performa Agen AI Anda
+
+Beri Claude Code, Cursor, dan alat AI lainnya memori dan aksi yang persisten. Agen coding Anda mengingat arsitektur proyek, keputusan sebelumnya, dan preferensi Anda di setiap sesi. Tidak perlu lagi menjelaskan konteks berulang kali.
+
+[Mulai sekarang →](https://docs.getcore.me/quickstart/supercharge-ai-agents)
+
+<details>
+<summary><b>Claude Code (Direkomendasikan: Plugin)</b></summary>
+
+```sh
+npm install -g @redplanethq/corebrain
 ```
-```txt
-What my content guidelines from core to create the blog?
+
+Kemudian di Claude Code:
+
 ```
-![core_as_memory](https://github.com/user-attachments/assets/7ac5d3f3-ca36-428d-8e97-3412c398f74b)
+/plugin marketplace add redplanethq/core
+/plugin install core_brain
+```
+
+Restart Claude Code dan jalankan `/mcp` untuk melakukan autentikasi.
+
+Plugin secara otomatis memuat persona Anda (preferensi, aturan, keputusan) setiap kali sesi dimulai dan memasukkan percakapan ke dalam memori saat Anda selesai.
+
+</details>
+
+<details>
+<summary><b>Claude Code (Manual MCP)</b></summary>
+
+```sh
+claude mcp add --transport http --scope user core-memory https://app.getcore.me/api/v1/mcp?source=Claude-Code
+```
+
+Kemudian ketik `/mcp` dan buka core-memory untuk otentikasi.
+
+</details>
+
+<details>
+<summary><b>Cursor</b></summary>
+
+[![Pasang MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9)
+
+</details>
+
+<details>
+<summary><b>OpenClaw</b></summary>
+
+```sh
+openclaw plugins install @redplanethq/openclaw-corebrain
+```
+
+Atur kunci API Anda melalui variabel lingkungan atau konfigurasi:
+
+```sh
+export CORE_API_KEY=your_api_key_here
+```
+
+Dapatkan kunci API Anda dari [app.getcore.me](https://app.getcore.me) → Pengaturan → Kunci API.
+
+</details>
+
+<details>
+<summary><b>Claude Desktop</b></summary>
+
+1. Salin URL MCP: `https://app.getcore.me/api/v1/mcp?source=Claude`
+2. Buka Pengaturan → Konektor → Tambah konektor kustom
+3. Klik "Hubungkan" dan berikan izin pada Claude untuk mengakses CORE
+
+</details>
+
+**30+ penyedia lainnya** — Windsurf, VS Code, Cline, Codex, Gemini CLI, Copilot, dan lainnya. [Lihat semua panduan pengaturan →](https://docs.getcore.me/providers/overview)
+
+### Ubah Percakapan AI Menjadi Memori
+
+Sinkronkan percakapan ChatGPT dan Gemini Anda ke CORE melalui ekstensi browser. Dapat dicari, digunakan kembali, dan tersedia untuk setiap agen yang terhubung.
+
+[Mulai sekarang →](https://docs.getcore.me/quickstart/capture-conversations)
 
 ---
 
-### 2. Ambil tindakan di aplikasi Anda dari Claude/Cursor
-
-Hubungkan aplikasi Anda sekali, ambil tindakan dari mana saja.
-
-- Membuat/Membaca isu GitHub, Linear
-- Menyusun/Mengirim/Membaca email dan menyimpan info relevan di CORE
-- Mengelola kalender Anda, memperbarui spreadsheet
-
-
-![actions](https://github.com/user-attachments/assets/60295a77-bdfd-4d57-aff5-d77ecb41e72d)
-
----
-
-### 3. Lanjutkan dari tempat terakhir Anda di claude code/cursor
-
-Beralih kembali ke fitur setelah seminggu? Langsung ikuti perkembangan.
-```txt
-What did we discuss about the checkout flow? Summarize from memory.
-```
-```txt
-Refer to past discussions and remind me where we left off on the API refactor
-```
-![claude-code-in-core](https://github.com/user-attachments/assets/0bd9566b-a8cc-49d9-a3cf-368658906c39)
-
----
-
-## Apa yang Membuat CORE Berbeda
-
-1. **Graf Konteks Temporal**: CORE tidak hanya menyimpan fakta — ia mengingat cerita. Kapan sesuatu terjadi, bagaimana pemikiran Anda berkembang, apa yang memicu setiap keputusan. Preferensi, tujuan, dan pilihan masa lalu Anda — semua terhubung dalam graf yang memahami urutan dan konteks.
-
-2. **Akurasi Recall 88,24%**: Diuji pada benchmark LoCoMo. Saat Anda bertanya sesuatu ke CORE, ia menemukan yang relevan. Bukan sekadar pencocokan kata kunci, melainkan pemahaman semantik sejati dengan penalaran multi-langkah.
-
-3. **Anda yang Mengendalikan**: Memori Anda, aturan Anda. Edit yang salah. Hapus yang tidak sesuai. Visualisasikan bagaimana pengetahuan Anda terhubung. CORE transparan, Anda melihat persis apa yang ia ketahui.
-
-4. **Sumber Terbuka**: Tidak ada kotak hitam. Tidak ada ketergantungan vendor. Otak digital Anda sepenuhnya milik Anda.
-
----
-
-## 🚀 Mulai Cepat
-
-Pilih jalur Anda:
-
-| | **CORE Cloud** | **Self-Host** |
-|---|---|---|
-| Waktu pemasangan | 5 menit | 15 menit |
-| Terbaik untuk | Coba cepat, tanpa infrastruktur | Kontrol penuh, server Anda sendiri |
-| Persyaratan | Hanya akun | Docker, RAM 4GB |
+## Mulai Cepat
 
 ### Cloud
 
 1. **Daftar** di [app.getcore.me](https://app.getcore.me)
-2. **Hubungkan sumber** (Claude, Cursor, atau alat kompatibel MCP apa pun)
-3. **Mulai gunakan** CORE untuk melakukan tindakan apa pun atau menyimpan tentang Anda di memori
+2. **Hubungkan Gmail & Kalender** — CORE akan memindainya untuk mempelajari tentang Anda sehingga otak digital Anda dimulai dengan konteks nyata sejak hari pertama
+3. **Mulai gunakan** — berbicara dengan CORE Agent, hubungkan alat AI Anda, atau lakukan tindakan di aplikasi Anda
 
 ### Self-Host
 
@@ -150,755 +223,84 @@ Pilih jalur Anda:
 
 **Atau dengan Docker**
 
-1. Klon repositori:
-
-```
+```bash
 git clone https://github.com/RedPlanetHQ/core.git
 cd core
-```
-
-2. Konfigurasikan variabel lingkungan di `core/.env`:
-
-```
-OPENAI_API_KEY=your_openai_api_key
-```
-
-3. Mulai layanan
-
-```
+# Configure OPENAI_API_KEY in core/.env
 docker-compose up -d
 ```
 
-Setelah diterapkan, Anda dapat mengonfigurasi penyedia AI Anda (OpenAI, Anthropic) dan mulai membangun memory graph Anda.
-
-👉 [Lihat panduan self-hosting lengkap](https://docs.getcore.me/self-hosting/docker)
-
-
-> Catatan: Kami telah mencoba model open-source seperti Ollama atau GPT OSS tetapi hasil pembuatan fakta kurang baik, kami masih mencari cara untuk memperbaikinya dan kemudian juga akan mendukung model OSS.
-
-## 🛠️ Instalasi
-
-### Rekomendasi
-
-<details>
-<summary><b>Instal di Claude Code CLI</b></summary>
-
-1. Jalankan perintah ini di terminal Anda untuk menghubungkan CORE dengan Claude Code:
-
-```sh
-claude mcp add --transport http --scope user core-memory https://mcp.getcore.me/api/v1/mcp?source=Claude-Code
-```
-
-2. Ketik `/mcp` dan buka MCP core-memory untuk autentikasi
-
-</details>
-
-<details>
-<summary><b>Instal di Cursor</b></summary>
-
-> Sejak Cursor 1.0, Anda dapat mengklik tombol instal di bawah untuk instalasi satu klik secara instan.
-
-[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==)
-
-ATAU
-
-1. Pergi ke: `Settings` -> `Tools & Integrations` -> `Add Custom MCP`
-2. Masukkan yang di bawah ini ke dalam file `mcp.json`:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=cursor",
-      "headers": {}
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Instal di Claude Desktop</b></summary>
-
-1. Salin URL CORE MCP:
-
-```
-https://mcp.getcore.me/api/v1/mcp?source=Claude
-```
-
-2. Buka Pengaturan → Konektor → Klik Tambah konektor khusus
-3. Klik "Hubungkan" dan berikan izin Claude untuk mengakses CORE MCP
-
-</details>
-
-### CLI
-
-<details>
-<summary><b>Instal di Codex CLI</b></summary>
-
-**Opsi 1 (Direkomendasikan):** Tambahkan ke file `~/.codex/config.toml` Anda:
-
-```toml
-[features]
-rmcp_client=true
-
-[mcp_servers.memory]
-url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
-```
-
-Kemudian jalankan: `codex mcp memory login`
-
-**Opsi 2 (Jika Opsi 1 tidak berhasil):** Tambahkan konfigurasi kunci API:
-
-```toml
-[features]
-rmcp_client=true
-
-[mcp_servers.memory]
-url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
-http_headers = { "Authorization" = "Bearer CORE_API_KEY" }
-```
-
-Dapatkan API key Anda dari [app.getcore.me](https://app.getcore.me) → Settings → API Key, lalu jalankan: `codex mcp memory login`
-
-</details>
-
-<details>
-<summary><b>Instalasi di Gemini CLI</b></summary>
-
-Lihat [Konfigurasi Gemini CLI](https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html) untuk detailnya.
-
-1.  Buka file pengaturan Gemini CLI. Lokasinya adalah `~/.gemini/settings.json` (di mana `~` adalah direktori home Anda).
-2.  Tambahkan yang berikut ini ke objek `mcpServers` di file `settings.json` Anda:
-
-```json
-{
-  "mcpServers": {
-    "corememory": {
-      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=geminicli",
-      "timeout": 5000
-    }
-  }
-}
-```
-Jika objek `mcpServers` tidak ada, buatlah.
-
-</details>
-
-<details>
-<summary><b>Instal di Copilot CLI</b></summary>
-
-Tambahkan yang berikut ini ke file `~/.copilot/mcp-config.json` Anda:
-
-
-```json
-{
-  "mcpServers": {
-    "core": {
-      "type": "http",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-CLI",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-### IDE
-
-
-<details>
-<summary><b>Instal di VS Code</b></summary>
-
-Masukkan baris berikut ke dalam file `mcp.json`:
-
-```json
-{
-  "servers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Vscode",
-      "type": "http",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Pasang di VS Code Insiders</b></summary>
-
-Tambahkan ke konfigurasi MCP VS Code Insiders Anda:
-
-```json
-{
-  "mcp": {
-    "servers": {
-      "core-memory": {
-        "type": "http",
-        "url": "https://mcp.getcore.me/api/v1/mcp?source=VSCode-Insiders",
-        "headers": {
-          "Authorization": "Bearer YOUR_API_KEY"
-        }
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Instal di Windsurf</b></summary>
-
-Masukkan yang berikut ke dalam file `mcp_config.json`:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "serverUrl": "https://mcp.getcore.me/api/v1/mcp/source=windsurf",
-      "headers": {
-        "Authorization": "Bearer <YOUR_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Instal di Zed</b></summary>
-
-1. Buka `Pengaturan` di Panel Agen -> `Tambah Server Kustom`
-2. Masukkan kode di bawah ini ke dalam file konfigurasi dan klik tombol `Tambah server`
-
-```json
-{
-  "core-memory": {
-    "command": "npx",
-    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=Zed"]
-  }
-}
-```
-</details>
-
-### Agen Pengkodean
-
-<details>
-<summary><b>Instal di Amp</b></summary>
-
-Jalankan perintah ini di terminal Anda:
-
-
-```sh
-amp mcp add core-memory https://mcp.getcore.me/api/v1/mcp?source=amp
-```
-
-</details>
-
-<details>
-<summary><b>Instal di Kode Augment</b></summary>
-
-Tambahkan ke file `~/.augment/settings.json` Anda:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "type": "http",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=augment-code",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-</details>
-
-<details>
-<summary><b>Instal di Cline</b></summary>
-
-1. Buka Cline dan klik ikon menu hamburger (☰) untuk masuk ke bagian MCP Servers
-2. Pilih tab Remote Servers dan klik tombol Edit Configuration
-3. Tambahkan berikut ini ke konfigurasi MCP Cline Anda:
-
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Cline",
-      "type": "streamableHttp",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Instal di Kilo Code</b></summary>
-
-1. Buka `Pengaturan` → `Server MCP` → tab `Terpasang` → klik `Edit Global MCP` untuk mengedit konfigurasi Anda.
-2. Tambahkan hal berikut ke file konfigurasi MCP Anda:
-
-```json
-{
-  "core-memory": {
-    "type": "streamable-http",
-    "url": "https://mcp.getcore.me/api/v1/mcp?source=Kilo-Code",
-    "headers": {
-      "Authorization": "Bearer your-token"
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Instal di Kiro</b></summary>
-
-Tambahkan di Kiro → MCP Servers:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Kiro",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Instal di Qwen Coder</b></summary>
-
-Lihat [Konfigurasi Qwen Coder MCP](https://qwenlm.github.io/qwen-code-docs/en/tools/mcp-server/#how-to-set-up-your-mcp-server) untuk detailnya.
-
-Tambahkan ke `~/.qwen/settings.json`:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=Qwen",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY",
-        "Accept": "application/json, text/event-stream"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Instal di Roo Code</b></summary>
-
-Tambahkan ke konfigurasi Roo Code MCP Anda:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "type": "streamable-http",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Roo-Code",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Instal di Opencode</b></summary>
-
-Tambahkan ke konfigurasi Opencode Anda:
-
-```json
-{
-  "mcp": {
-    "core-memory": {
-      "type": "remote",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Opencode",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      },
-      "enabled": true
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Pasang di Copilot Coding Agent</b></summary>
-
-Tambahkan ke Pengaturan Repository → Copilot → Coding agent → Konfigurasi MCP:
-
-```json
-{
-  "mcpServers": {
-    "core": {
-      "type": "http",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-Agent",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-</details>
-
-<details>
-<summary><b>Instal di Qodo Gen</b></summary>
-
-1. Buka panel chat Qodo Gen di VSCode atau IntelliJ
-2. Klik Hubungkan lebih banyak alat, lalu klik + Tambah MCP baru
-3. Tambahkan konfigurasi berikut:
-
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Qodo-Gen"
-    }
-  }
-}
-```
-</details>
-
-### Terminal
-
-<details>
-<summary><b>Instal di Warp</b></summary>
-
-Tambahkan di Pengaturan → AI → Kelola server MCP:
-
-
-```json
-{
-  "core": {
-    "url": "https://mcp.getcore.me/api/v1/mcp?source=Warp",
-    "headers": {
-      "Authorization": "Bearer YOUR_API_KEY"
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Instal di Crush</b></summary>
-
-Tambahkan ke konfigurasi Crush Anda:
-
-```json
-{
-  "$schema": "https://charm.land/crush.json",
-  "mcp": {
-    "core": {
-      "type": "http",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Crush",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-</details>
-
-### Aplikasi Desktop
-
-<details>
-<summary><b>Instal di ChatGPT</b></summary>
-
-Hubungkan ChatGPT ke sistem memori CORE melalui ekstensi browser:
-
-1. [Instal Ekstensi Browser Core](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
-2. Hasilkan API Key: Buka Settings → API Key → Generate new key → Beri nama "extension"
-3. Tambahkan API Key di Ekstensi Core dan klik Save
-
-</details>
-
-<details>
-<summary><b>Instal di Gemini</b></summary>
-
-Hubungkan Gemini ke sistem memori CORE melalui ekstensi browser:
-
-1. [Instal Ekstensi Browser Core](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
-2. Hasilkan API Key: Buka Settings → API Key → Generate new key → Beri nama "extension"
-3. Tambahkan API Key di Ekstensi Core dan klik Save
-
-</details>
-
-<details>
-<summary><b>Instal di Perplexity Desktop</b></summary>
-
-1. Tambahkan di Perplexity → Settings → Connectors → Add Connector → Advanced:
-
-
-```json
-{
-  "core-memory": {
-    "command": "npx",
-    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=perplexity"]
-  }
-}
-```
-2. Klik Simpan untuk menerapkan perubahan
-3. Core akan tersedia di sesi Perplexity Anda
-
-</details>
-
-### Alat Pengembangan
-
-<details>
-<summary><b>Instal di Factory</b></summary>
-
-Jalankan di terminal:
-
-
-```sh
-droid mcp add core https://mcp.getcore.me/api/v1/mcp?source=Factory --type http --header "Authorization: Bearer YOUR_API_KEY"
-```
-
-Ketik /mcp di dalam droid untuk mengelola server dan melihat alat yang tersedia.
-
-</details>
-
-<details>
-<summary><b>Instal di Rovo Dev CLI</b></summary>
-
-1. Edit konfigurasi mcp:
-
-```sh
-acli rovodev mcp
-```
-
-2. Tambahkan ke konfigurasi Rovo Dev MCP Anda:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Rovo-Dev"
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Pasang di Trae</b></summary>
-
-Tambahkan ke konfigurasi Trae MCP Anda:
-
-```json
-{
-  "mcpServers": {
-    "core": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Trae"
-    }
-  }
-}
-```
-</details>
-
-## 🔨 Alat yang Tersedia
-
-CORE Memory MCP menyediakan alat berikut yang dapat digunakan oleh LLM:
-
-- `memory_search`: Mencari konteks yang relevan dari CORE Memory.
-- `memory_ingest`: Menambahkan sebuah episode ke dalam CORE Memory.
-- `memory_about_user`: Mengambil persona pengguna dari CORE Memory.
-- `initialise_conversation_session`: Memulai percakapan dan menetapkan id sesi pada percakapan.
-- `get_integrations`: Mengambil integrasi relevan yang harus digunakan dari integrasi yang terhubung.
-- `get_integrations_actions`: Mengambil alat yang akan digunakan dari alat integrasi tersebut untuk tugas tertentu.
-- `execute_integrations_actions`: Menjalankan alat untuk integrasi tersebut.
+[Lihat panduan self-hosting lengkap →](https://docs.getcore.me/self-hosting/docker)
 
 ---
 
-## Cara Kerjanya
+## Untuk Pengembang Agen
 
-### Memasukkan Memori
+Membangun agen AI? Alihkan penyimpanan memori dan integrasi ke CORE agar Anda dapat fokus pada logika agen Anda.
 
-<img width="12885" height="3048" alt="memory-ingest-diagram" src="https://github.com/user-attachments/assets/c51679de-8260-4bee-bebf-aff32c6b8e13" />
+- **Alihkan memori** — Gunakan grafik pengetahuan temporal milik CORE sebagai memori jangka panjang agen Anda. Simpan percakapan, ambil konteks dengan pencarian berbasis intent, dan biarkan agen Anda membangun pengetahuan dari waktu ke waktu tanpa harus mengelola vector DB atau grafik sendiri.
+- **Alihkan integrasi** — Hubungkan aplikasi sekali saja di CORE, dan agen Anda mendapatkan alat MCP untuk semuanya. Tidak perlu membuat alur OAuth, tidak perlu pemeliharaan API, tidak ada kode khusus integrasi.
+- **Bangun lewat MCP atau API** — Hubungkan agen Anda ke CORE melalui MCP (endpoint tunggal) atau gunakan REST API secara langsung.
 
-Ketika Anda menyimpan konteks ke CORE, prosesnya melalui empat fase:
+**Contoh Proyek**
 
-1. **Normalisasi**: Mengaitkan info baru ke konteks terbaru, membagi dokumen menjadi bagian-bagian yang koheren sambil mempertahankan referensi silang
-2. **Ekstraksi**: Mengidentifikasi entitas (orang, alat, proyek), membuat pernyataan dengan konteks dan waktu, memetakan hubungan
-3. **Resolusi**: Mendeteksi kontradiksi, melacak bagaimana preferensi berkembang, menjaga berbagai perspektif beserta asal-usulnya
-4. **Integrasi Graf**: Menghubungkan entitas, pernyataan, dan episode ke dalam grafik pengetahuan temporal
+- [**core-cli**](https://github.com/RedPlanetHQ/core-cli) — Agen manajer tugas dengan memori dan sinkronisasi Linear/GitHub
+- [**holo**](https://github.com/RedPlanetHQ/holo) — Ubah memori CORE Anda menjadi situs web pribadi dengan fitur chat
 
-Contoh: "Kami menulis CORE di Next.js" menjadi:
-
-- Entitas: `CORE`, `Next.js`
-- Pernyataan: `CORE dikembangkan menggunakan Next.js`
-- Hubungan: `dikembangkan menggunakan`
-
-![memory-ingest-eg](https://github.com/user-attachments/assets/1d0a8007-153a-4842-9586-f6f4de43e647)
-
-### Penarikan Memori
-
-
-<img width="10610" height="3454" alt="memory-search-diagram" src="https://github.com/user-attachments/assets/3541893e-f7c9-42b9-8fad-6dabf138dbeb" />
-
-Ketika Anda melakukan query ke CORE:
-
-1. **Pencarian**: Pendekatan hibrida: kata kunci + semantik + penelusuran graf
-2. **Re-rank**: Menampilkan hasil yang paling relevan dan beragam
-3. **Filter**: Menerapkan filter waktu, keandalan, dan kekuatan hubungan
-4. **Output**: Mengembalikan fakta DAN episode asalnya
-
-CORE tidak hanya mengingat fakta — namun juga mengingatnya dalam konteks, waktu, dan cerita, sehingga agen merespons seperti Anda mengingatnya.
+[Referensi API →](https://docs.getcore.me/api-reference) · [Dokumentasi SDK →](https://docs.getcore.me)
 
 ---
 
-## 🛠️ Untuk Pembuat Agen
+## Tolok Ukur
 
-Membangun agen AI? CORE memberikan Anda infrastruktur memori + infrastruktur integrasi sehingga Anda bisa fokus pada logika agen Anda.
-
-### Yang Anda Dapatkan
-
-**Infrastruktur Memori**
-- Knowledge graph temporal dengan akurasi LoCoMo 88,24%
-- Pencarian hibrida: semantik + kata kunci + penelusuran graf
-- Melacak evolusi konteks dan kontradiksi
-
-**Infrastruktur Integrasi**
-- Hubungkan GitHub, Linear, Slack, Gmail sekali saja
-- Agen Anda mendapatkan alat MCP untuk semua aplikasi terhubung
-- Tidak perlu membangun alur OAuth, tidak ada pemeliharaan API
-
-### Contoh Proyek
-
-**[core-cli](https://github.com/RedPlanetHQ/core-cli)** — Agen manajer tugas yang terhubung ke CORE untuk memori dan sinkronisasi dengan Linear, GitHub Issues.
-
-**[holo](https://github.com/RedPlanetHQ/holo)** — Ubah memori CORE Anda menjadi situs web pribadi dengan chat.
-
-### Sumber Daya
-
-- [Referensi API](https://docs.getcore.me/api-reference)
-- [Dokumentasi SDK](https://docs.getcore.me)
-- Butuh integrasi spesifik? [Buka isu di GitHub](https://github.com/RedPlanetHQ/core/issues)
----
-
-## 🔥 Sorotan Riset
-
-Memori CORE mencapai **88,24%** akurasi rata-rata pada dataset Locomo di semua tugas penalaran, secara signifikan mengungguli penyedia memori lainnya.
+CORE mencapai rata-rata akurasi **88,24%** pada tolok ukur LoCoMo di berbagai tugas penalaran single-hop, multi-hop, open-domain, dan temporal.
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
 
-| Jenis Tugas    | Deskripsi |
-|----------------|-----------|
-| Single-hop     | Jawaban berdasarkan satu sesi |
-| Multi-hop      | Mensintesis info dari beberapa sesi |
-| Open-domain    | Mengintegrasikan info pengguna dengan pengetahuan eksternal |
-| Penalaran temporal | Petunjuk terkait waktu dan pemahaman urutan |
-
-
-[Lihat metodologi dan hasil benchmark →](https://github.com/RedPlanetHQ/core-benchmark)
+[Lihat metodologi dan hasil tolok ukur →](https://github.com/RedPlanetHQ/core-benchmark)
 
 ---
 
+## Keamanan
 
-## 🔒 Keamanan
+CASA Tier 2 Bersertifikat — diaudit pihak ketiga untuk memenuhi persyaratan OAuth Google.
 
-Tersertifikasi CASA Tier 2 — Diaudit pihak ketiga untuk memenuhi persyaratan OAuth Google.
-
-- Enkripsi: TLS 1.3 (transit) + AES-256 (rest)
-- Otentikasi: OAuth 2.0 dan tautan ajaib
-- Kontrol Akses: Isolasi berbasis ruang kerja, izin berbasis peran
-- Arsitektur zero-trust: Tidak pernah percaya, selalu verifikasi
-
-Data Anda, kontrol Anda:
-
-- Edit dan hapus kapan saja
-- Tidak pernah digunakan untuk pelatihan model AI
+- Enkripsi: TLS 1.3 (transit) + AES-256 (penyimpanan)
+- Isolasi berbasis workspace, izin berbasis peran
+- Data Anda tidak pernah digunakan untuk pelatihan model AI
 - Opsi self-hosting untuk isolasi penuh
 
-Untuk informasi keamanan detail, lihat [Kebijakan Keamanan](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
+[Kebijakan Keamanan →](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) · Pelaporan Kerentanan: harshith@poozle.dev
 
-Pelaporan Kerentanan: harshith@poozle.dev
+---
 
+## pipeline
 
-## Dokumentasi
+- [Selamat Datang](https://docs.getcore.me/introduction) — Pengantar CORE
+- [Konsep](https://docs.getcore.me/concepts/overview) — Memori, Agen, dan Toolkit dijelaskan
+- [Koneksi](https://docs.getcore.me/access-core/overview) — Kanal dan penyedia AI
+- [Toolkit](https://docs.getcore.me/toolkit/overview) — Aksi dan integrasi
+- [Sumber Terbuka](https://docs.getcore.me/guides/local-setup) — Pengaturan lokal, kontribusi, self-hosting
+- [Referensi API](https://docs.getcore.me/api-reference) — REST API dan endpoint
+- [Log Perubahan](https://docs.getcore.me/opensource/changelog) — Pembaruan produk
 
-Jelajahi dokumentasi kami untuk memaksimalkan penggunaan CORE
+---
 
-- [Self Hosting](https://docs.getcore.me/self-hosting/overview)
-- [Konsep Dasar](https://docs.getcore.me/overview)
-- [Memory Graph](https://docs.getcore.me/concepts/memory_graph)
-- [Referensi API](https://docs.getcore.me/api-reference/get-user-profile)
+## Dukungan
 
-## 🧑‍💻 Dukungan
-
-Punya pertanyaan atau masukan? Kami siap membantu:
-
-- Discord: [Bergabung dengan channel core-support](https://discord.gg/YGUZcvDjUa)
+- Discord: [Bergabung dengan kanal core-support](https://discord.gg/YGUZcvDjUa)
 - Dokumentasi: [docs.getcore.me](https://docs.getcore.me)
 - Email: manik@poozle.dev
 
-## Pedoman Penggunaan
-
-**Simpan:**
-
-- Riwayat percakapan
-- Preferensi pengguna
-- Konteks tugas
-- Materi referensi
-
-**Jangan Simpan:**
-
-- Data sensitif (PII)
-- Kredensial
-- Log sistem
-- Data sementara
-
-## 👥 Kontributor
+## Kontributor
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
 </a>
 
 
-
-
-
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
 
 ---

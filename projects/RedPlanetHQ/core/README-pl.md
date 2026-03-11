@@ -30,875 +30,277 @@
 
 <div align="center">
   <a href="https://getcore.me">
-    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
+    <img width="200px" alt="CORE logo" src="https://github.com/user-attachments/assets/bd4e5e79-05b8-4d40-9aff-f1cf9e5d70de" />
   </a>
 
-### CORE: Twój Cyfrowy Mózg - Pamięć + Akcje dla Narzędzi AI
+## CORE: Twój Cyfrowy Mózg
+
+**Pamięta. Myśli. Działa.**
 
 <p align="center">
-    <a href="https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==">
-        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="Dodaj do Cursor" />
-    </a>
-    <a href="https://railway.com/deploy/core">
-        <img src="https://railway.app/button.svg" width="150px" alt="Wdróż na Railway" />
-    </a>
+<a href="https://docs.getcore.me/providers/claude-code">
+    <img src="https://img.shields.io/badge/Add_to-Claude_Code-F97316?style=for-the-badge&logo=anthropic&logoColor=white" alt="Dodaj do Claude Code" />
+</a>
+<a href="https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9">
+    <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="Dodaj do Cursor" />
+</a>
+<a href="https://docs.getcore.me/providers/openclaw">
+    <img src="https://img.shields.io/badge/Add_to-OpenClaw-E5533D?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTEyIDJMMyA3djEwbDkgNSA5LTVWN2wtOS01eiIvPjwvc3ZnPg==&logoColor=white" alt="Dodaj do OpenClaw" />
+</a>
+<a href="https://railway.com/deploy/core">
+    <img src="https://railway.app/button.svg" width="150px" alt="Wdróż na Railway" />
+</a>
 </p>
 <p align="center">
-    <a href="https://heysol.ai">
-        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50" alt="Strona internetowa" />
-    </a>
-    <a href="https://docs.getcore.me">
-        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-green" alt="Dokumentacja" />
-    </a>  
-    <a href="https://discord.gg/YGUZcvDjUa">
-        <img src="https://img.shields.io/badge/Discord-community-purple" alt="Discord" />
-    </a>    
+<a href="https://getcore.me">
+    <img src="https://img.shields.io/badge/Website-getcore.me-c15e50?style=for-the-badge&logo=safari&logoColor=white" alt="Strona internetowa" />
+</a>
+<a href="https://docs.getcore.me">
+    <img src="https://img.shields.io/badge/Docs-docs.getcore.me-22C55E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Dokumentacja" />
+</a>
+<a href="https://discord.gg/YGUZcvDjUa">
+    <img src="https://img.shields.io/badge/Discord-community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+</a>
 </p>
 </div>
 
 ---
 
-Twoje kluczowe informacje są rozproszone między narzędziami, które ze sobą nie współpracują. Twoja rozmowa z AI zaczyna się od „pozwól, że dam ci trochę kontekstu”. Twoje doświadczenia i wiedza wciąż pozostają w twojej głowie, a głowa nie ma skalowalności.
+CORE to Twój cyfrowy mózg – zjednoczona, zawsze aktywna AI, która pamięta Twój kontekst, współpracuje z agentami AI i działa przez Twoje narzędzia.
 
-**CORE pamięta**. To nie baza danych. To nie pole wyszukiwania. To cyfrowy mózg, który uczy się, co jest ważne, łączy powiązane rzeczy i prezentuje to, czego potrzebujesz.
+Open source. Możliwość własnego hostowania. Twoje dane, Twoja kontrola.
 
-## Dla Programistów
+---
 
-CORE zapewnia Twoim narzędziom AI trwałą pamięć oraz możliwość działania w używanych przez Ciebie aplikacjach.
+## Co tworzy cyfrowy mózg
 
-- Kontekst zachowany w Claude Code, Cursor i innych agentach kodujących
-- Podejmuj działania w Linear, GitHub, Slack, Gmail, Google Sheets i innych używanych aplikacjach
-- Połącz raz przez MCP, działa wszędzie
-- Open-source i możliwość samodzielnego hostowania; Twoje dane, Twoja kontrola
+### Pamięta wszystko
+
+Każda rozmowa, decyzja, preferencja i relacja są przechowywane jako uporządkowana wiedza w czasowym grafie wiedzy. Nie surowy tekst, lecz sklasyfikowane fakty (preferencje, decyzje, cele, dyrektywy), które pojawiają się dokładnie wtedy, gdy ich potrzebujesz. Zapytaj o coś sprzed tygodni, a odpowiedź będzie dostępna z pełnym kontekstem.
+
+[Dowiedz się więcej o Pamięci →](https://docs.getcore.me/concepts/memory/overview)
+
+### Potrafi Wykonywać Akcje
+
+Twórz zgłoszenia GitHub, wysyłaj wiadomości Slack, zarządzaj kalendarzem bez opuszczania rozmowy. Także złożone, wieloetapowe procesy: poproś agenta kodującego o sprawdzenie Sentry pod kątem nowych błędów, utworzenie zgłoszenia GitHub dla każdego z nich, przypisanie odpowiedniego inżyniera na podstawie git blame i opublikowanie podsumowania na kanale Slack Twojego zespołu — wszystko z jednego polecenia. Ponad 200 akcji w 50+ aplikacjach przez jedno połączenie.
+
+[Dowiedz się więcej o Toolkit →](https://docs.getcore.me/concepts/toolkit)
+
+### Myśli i Działa Ponad Systemami
+
+Twoje narzędzia są odizolowane. Claude Code nie porozmawia z Twoim WhatsAppem. Cursor nie sprawdzi Twojego kalendarza. Agent CORE przełamuje te bariery — to orkiestrator, który łączy pamięć, toolkit i Twoje aplikacje.
+
+Co potrafi Agent CORE:
+
+- **Rozumie intencje**: klasyfikuje Twoje potrzeby i kieruje do odpowiednich narzędzi i pamięci
+- **Tworzy inne agenty**: uruchamia sesję Claude Code lub przeglądarki z WhatsApp, aby naprawić błąd lub coś zbadać
+- **Koordynuje złożone procesy**: pobiera kontekst z pamięci, działa w wielu aplikacjach i raportuje zwrotnie
+- **Działa z dowolnego miejsca**: wiadomości z WhatsApp, e-maila, Slacka lub panelu webowego — ten sam mózg, ten sam kontekst
+
+[Dowiedz się więcej o Agencie CORE →](https://docs.getcore.me/concepts/meta-agent)
+
+### Może Działać Proaktywnie
+
+Nie musisz prosić o wszystko. CORE monitoruje zdarzenia — nowe e-maile, alerty GitHub, zmiany w kalendarzu — i ocenia je względem tego, co wie o Tobie. Przychodzi e-mail od klienta; CORE już wie, jak prowadzisz tę relację i przygotowuje właściwą odpowiedź. W nocy pojawia się alert Sentry; CORE uruchamia sesję Claude Code, by to zbadać.
+
+[Dowiedz się więcej o Koncepcjach →](https://docs.getcore.me/concepts/overview)
+
+---
+
+## Architektura
+
+CORE zbudowano na trzech warstwach, które realizują te cztery filary:
+
+- **Pamięć**: Temporalny graf wiedzy, który przechowuje epizody, byty i sklasyfikowane fakty. Każda informacja jest kategoryzowana (preferencja, decyzja, dyrektywa, cel itp.) i powiązana w czasie. To sprawia, że wyszukiwanie jest intencyjne, a nie oparte na słowach kluczowych. [Dokumentacja →](https://docs.getcore.me/concepts/memory/overview)
+
+- **Toolkit**: Ujednolicona warstwa akcji dla każdego agenta kompatybilnego z MCP. Połącz swoje aplikacje raz (GitHub, Linear, Slack, Gmail, Kalendarz itp.) i każde podłączone narzędzie AI zyskuje dostęp do 200+ akcji przez jeden punkt końcowy. [Dokumentacja →](https://docs.getcore.me/toolkit/overview)
+
+- **Agent CORE**: Orkiestrator łączący pamięć i toolkit. Rozumie intencje, przeszukuje pamięć, wybiera narzędzia, uruchamia inne agenty i może działać proaktywnie w oparciu o wyzwalacze i reguły. [Dokumentacja →](https://docs.getcore.me/concepts/meta-agent)
 
 ---
 
 ## Co możesz zrobić
 
-### 1. Nigdy się nie powtarzaj, kontekst przepływa automatycznie
+### Używaj jako swojego osobistego asystenta
 
-CORE staje się Twoją trwałą warstwą pamięci dla agentów kodujących. Poproś dowolne narzędzie AI o pobranie odpowiedniego kontekstu.
-```txt
-Search core memory for architecture decisions on the payment service
+Rozmawiaj z CORE przez WhatsApp, e-mail lub panel internetowy. Wykonuje działania w Twoich aplikacjach, zarządza harmonogramem, tworzy szkice e-maili, pamiętając kim jesteś i jak pracujesz.
+
+[Zacznij tutaj →](https://docs.getcore.me/quickstart/chief-of-staff)
+
+### Wzmocnij swoje agenty AI
+
+Daj Claude Code, Cursor i innym narzędziom AI trwałą pamięć i możliwość wykonywania działań. Twój agent kodowania pamięta architekturę projektu, wcześniejsze decyzje i preferencje pomiędzy sesjami. Koniec z ciągłym tłumaczeniem kontekstu.
+
+[Zacznij tutaj →](https://docs.getcore.me/quickstart/supercharge-ai-agents)
+
+<details>
+<summary><b>Claude Code (Zalecane: Wtyczka)</b></summary>
+
+```sh
+npm install -g @redplanethq/corebrain
 ```
-```txt
-What my content guidelines from core to create the blog?
+Następnie w Claude Code:
+
+
 ```
-![core_as_memory](https://github.com/user-attachments/assets/7ac5d3f3-ca36-428d-8e97-3412c398f74b)
+/plugin marketplace add redplanethq/core
+/plugin install core_brain
+```
+
+Zrestartuj Claude Code i uruchom `/mcp`, aby się uwierzytelnić.
+
+Wtyczka automatycznie ładuje Twoją personę (preferencje, zasady, decyzje) na początku każdej sesji i zapisuje rozmowy w pamięci po ich zakończeniu.
+
+</details>
+
+<details>
+<summary><b>Claude Code (Ręczny MCP)</b></summary>
+
+```sh
+claude mcp add --transport http --scope user core-memory https://app.getcore.me/api/v1/mcp?source=Claude-Code
+```
+Następnie wpisz `/mcp` i otwórz core-memory w celu uwierzytelnienia.
+
+</details>
+
+<details>
+<summary><b>Cursor</b></summary>
+
+[![Zainstaluj MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=corebrain&config=eyJ1cmwiOiJodHRwczovL2FwcC5nZXRjb3JlLm1lL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9)
+
+</details>
+
+<details>
+<summary><b>OpenClaw</b></summary>
+
+
+```sh
+openclaw plugins install @redplanethq/openclaw-corebrain
+```
+
+Ustaw swój klucz API poprzez zmienną środowiskową lub konfigurację:
+
+```sh
+export CORE_API_KEY=your_api_key_here
+```
+Uzyskaj swój klucz API z [app.getcore.me](https://app.getcore.me) → Ustawienia → Klucz API.
+
+</details>
+
+<details>
+<summary><b>Claude Desktop</b></summary>
+
+1. Skopiuj adres MCP: `https://app.getcore.me/api/v1/mcp?source=Claude`
+2. Przejdź do Ustawienia → Konektory → Dodaj niestandardowy konektor
+3. Kliknij "Połącz" i przyznaj Claude uprawnienia do dostępu do CORE
+
+</details>
+
+**Ponad 30 dostawców** — Windsurf, VS Code, Cline, Codex, Gemini CLI, Copilot i więcej. [Zobacz wszystkie instrukcje konfiguracji →](https://docs.getcore.me/providers/overview)
+
+### Zamień czaty AI w pamięć
+
+Synchronizuj swoje rozmowy z ChatGPT i Gemini w CORE poprzez rozszerzenie przeglądarki. Możesz je przeszukiwać, ponownie wykorzystywać i udostępniać każdemu połączonemu agentowi.
+
+[Rozpocznij →](https://docs.getcore.me/quickstart/capture-conversations)
 
 ---
 
-### 2. Wykonuj działania w swoich aplikacjach z poziomu Claude/Cursor
+## Szybki start
 
-Połącz swoje aplikacje raz, działaj z dowolnego miejsca.
-
-- Twórz/Czytaj zgłoszenia GitHub, Linear
-- Szkicuj/Wysyłaj/Czytaj e-maile i zapisuj istotne informacje w CORE
-- Zarządzaj swoim kalendarzem, aktualizuj arkusz kalkulacyjny
-
-
-![actions](https://github.com/user-attachments/assets/60295a77-bdfd-4d57-aff5-d77ecb41e72d)
-
----
-
-### 3. Kontynuuj tam, gdzie przerwałeś claude code/cursor
-
-Wracasz do funkcji po tygodniu? Natychmiast się orientujesz.
-```txt
-What did we discuss about the checkout flow? Summarize from memory.
-```
-```txt
-Refer to past discussions and remind me where we left off on the API refactor
-```
-![claude-code-in-core](https://github.com/user-attachments/assets/0bd9566b-a8cc-49d9-a3cf-368658906c39)
-
----
-
-## Co wyróżnia CORE
-
-1. **Graf Kontekstu Czasowego**: CORE nie tylko przechowuje fakty — zapamiętuje całą historię. Kiedy coś się wydarzyło, jak ewoluowało Twoje myślenie, co doprowadziło do każdej decyzji. Twoje preferencje, cele i wcześniejsze wybory — wszystko połączone w grafie rozumiejącym sekwencję i kontekst.
-
-2. **88,24% skuteczności przypominania**: Przetestowane na benchmarku LoCoMo. Gdy pytasz CORE o coś, znajduje to, co istotne. Nie dopasowanie słów kluczowych, a prawdziwe rozumienie semantyczne z wieloetapowym wnioskowaniem.
-
-3. **Masz nad tym kontrolę**: Twoja pamięć, Twoje zasady. Poprawiaj błędne dane. Usuwaj to, co niepotrzebne. Wizualizuj powiązania swojej wiedzy. CORE jest przejrzysty — widzisz dokładnie, co wie.
-
-4. **Open Source**: Bez czarnych skrzynek. Bez uzależnienia od dostawcy. Twój cyfrowy mózg należy do Ciebie.
-
----
-
-## 🚀 Szybki start
-
-Wybierz swoją ścieżkę:
-
-| | **CORE Cloud** | **Samodzielny Hosting** |
-|---|---|---|
-| Czas konfiguracji | 5 minut | 15 minut |
-| Najlepsze dla | Szybki test, bez infrastruktury | Pełna kontrola, własne serwery |
-| Wymagania | Tylko konto | Docker, 4GB RAM |
-
-### Cloud
+### Chmura
 
 1. **Zarejestruj się** na [app.getcore.me](https://app.getcore.me)
-2. **Połącz źródło** (Claude, Cursor lub dowolne narzędzie kompatybilne z MCP)
-3. **Zacznij używać** CORE do wykonywania akcji lub zapisywania informacji o sobie w pamięci
+2. **Podłącz Gmail & Kalendarz** — CORE analizuje je, aby dowiedzieć się o Tobie i Twój cyfrowy mózg od razu startuje z prawdziwym kontekstem
+3. **Rozpocznij korzystanie** — rozmawiaj z CORE Agentem, połącz narzędzia AI lub wykonuj akcje w swoich aplikacjach
 
-### Samodzielny Hosting
+### Samodzielny hosting
 
 **Szybkie wdrożenie**
 
-[![Wdróż na Railway](https://railway.app/button.svg)](https://railway.com/deploy/core)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/core)
 
 **Lub za pomocą Dockera**
 
-1. Sklonuj repozytorium:
 
-```
+```bash
 git clone https://github.com/RedPlanetHQ/core.git
 cd core
-```
-
-2. Skonfiguruj zmienne środowiskowe w `core/.env`:
-
-```
-OPENAI_API_KEY=your_openai_api_key
-```
-3. Uruchom usługę
-
-
-```
+# Configure OPENAI_API_KEY in core/.env
 docker-compose up -d
 ```
 
-Po wdrożeniu możesz skonfigurować swoich dostawców AI (OpenAI, Anthropic) i zacząć budować swój graf pamięci.
-
-👉 [Zobacz kompletny przewodnik po self-hostingu](https://docs.getcore.me/self-hosting/docker)
-
-
-> Uwaga: Testowaliśmy modele open-source, takie jak Ollama czy GPT OSS, ale generowanie faktów nie było zadowalające, nadal pracujemy nad poprawą tego i w przyszłości planujemy także wsparcie dla modeli OSS.
-
-## 🛠️ Instalacja
-
-### Zalecane
-
-<details>
-<summary><b>Instalacja w Claude Code CLI</b></summary>
-
-1. Uruchom to polecenie w swoim terminalu, aby połączyć CORE z Claude Code:
-
-```sh
-claude mcp add --transport http --scope user core-memory https://mcp.getcore.me/api/v1/mcp?source=Claude-Code
-```
-2. Wpisz `/mcp` i otwórz MCP core-memory w celu uwierzytelnienia
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Cursor</b></summary>
-
-> Od wersji Cursor 1.0 możesz kliknąć przycisk instalacji poniżej, aby natychmiast zainstalować jednym kliknięciem.
-
-[![Zainstaluj MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==)
-
-LUB
-
-1. Przejdź do: `Ustawienia` -> `Narzędzia i integracje` -> `Dodaj własny MCP`
-2. Wprowadź poniższy kod do pliku `mcp.json`:
-
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=cursor",
-      "headers": {}
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Claude Desktop</b></summary>
-
-1. Skopiuj adres URL CORE MCP:
-
-```
-https://mcp.getcore.me/api/v1/mcp?source=Claude
-```
-
-2. Przejdź do Ustawienia → Konektory → Kliknij Dodaj własny konektor
-3. Kliknij "Połącz" i przyznaj Claude uprawnienia do dostępu do CORE MCP
-
-</details>
-
-### Interfejsy CLI
-
-<details>
-<summary><b>Instalacja w Codex CLI</b></summary>
-
-**Opcja 1 (Zalecane):** Dodaj do pliku `~/.codex/config.toml`:
-
-```toml
-[features]
-rmcp_client=true
-
-[mcp_servers.memory]
-url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
-```
-
-Następnie uruchom: `codex mcp memory login`
-
-**Opcja 2 (jeśli opcja 1 nie działa):** Dodaj konfigurację klucza API:
-
-```toml
-[features]
-rmcp_client=true
-
-[mcp_servers.memory]
-url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
-http_headers = { "Authorization" = "Bearer CORE_API_KEY" }
-```
-
-Uzyskaj swój klucz API z [app.getcore.me](https://app.getcore.me) → Ustawienia → Klucz API, a następnie uruchom: `codex mcp memory login`
-
-</details>
-
-<details>
-<summary><b>Instalacja w Gemini CLI</b></summary>
-
-Zobacz [Konfiguracja Gemini CLI](https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html) po szczegóły.
-
-1.  Otwórz plik ustawień Gemini CLI. Lokalizacja to `~/.gemini/settings.json` (gdzie `~` oznacza Twój katalog domowy).
-2.  Dodaj poniższy wpis do obiektu `mcpServers` w swoim pliku `settings.json`:
-
-```json
-{
-  "mcpServers": {
-    "corememory": {
-      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=geminicli",
-      "timeout": 5000
-    }
-  }
-}
-```
-
-Jeśli obiekt `mcpServers` nie istnieje, utwórz go.
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Copilot CLI</b></summary>
-
-Dodaj następujący fragment do pliku `~/.copilot/mcp-config.json`:
-
-```json
-{
-  "mcpServers": {
-    "core": {
-      "type": "http",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-CLI",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-### IDE
-
-<details>
-<summary><b>Zainstaluj w VS Code</b></summary>
-
-Wprowadź poniższe do pliku `mcp.json`:
-
-
-```json
-{
-  "servers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Vscode",
-      "type": "http",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w VS Code Insiders</b></summary>
-
-Dodaj do swojej konfiguracji MCP w VS Code Insiders:
-
-```json
-{
-  "mcp": {
-    "servers": {
-      "core-memory": {
-        "type": "http",
-        "url": "https://mcp.getcore.me/api/v1/mcp?source=VSCode-Insiders",
-        "headers": {
-          "Authorization": "Bearer YOUR_API_KEY"
-        }
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Windsurf</b></summary>
-
-Wprowadź poniższe do pliku `mcp_config.json`:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "serverUrl": "https://mcp.getcore.me/api/v1/mcp/source=windsurf",
-      "headers": {
-        "Authorization": "Bearer <YOUR_API_KEY>"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Zed</b></summary>
-
-1. Przejdź do `Ustawienia` w Panelu Agenta -> `Dodaj własny serwer`
-2. Wprowadź poniższy kod do pliku konfiguracyjnego i kliknij przycisk `Dodaj serwer`
-
-```json
-{
-  "core-memory": {
-    "command": "npx",
-    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=Zed"]
-  }
-}
-```
-
-</details>
-
-### Agenci Kodujący
-
-<details>
-<summary><b>Zainstaluj w Amp</b></summary>
-
-Uruchom to polecenie w swoim terminalu:
-
-```sh
-amp mcp add core-memory https://mcp.getcore.me/api/v1/mcp?source=amp
-```
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Augment Code</b></summary>
-
-Dodaj do pliku `~/.augment/settings.json`:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "type": "http",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=augment-code",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Cline</b></summary>
-
-1. Otwórz Cline i kliknij ikonę menu hamburgera (☰), aby przejść do sekcji MCP Servers
-2. Wybierz zakładkę Zdalne Serwery i kliknij przycisk Edytuj konfigurację
-3. Dodaj poniższe do swojej konfiguracji MCP w Cline:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Cline",
-      "type": "streamableHttp",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Instalacja w Kilo Code</b></summary>
-
-1. Przejdź do `Ustawienia` → `Serwery MCP` → zakładka `Zainstalowane` → kliknij `Edytuj Globalny MCP`, aby edytować swoją konfigurację.
-2. Dodaj poniższe do pliku konfiguracyjnego MCP:
-
-```json
-{
-  "core-memory": {
-    "type": "streamable-http",
-    "url": "https://mcp.getcore.me/api/v1/mcp?source=Kilo-Code",
-    "headers": {
-      "Authorization": "Bearer your-token"
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Kiro</b></summary>
-
-Dodaj w Kiro → Serwery MCP:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Kiro",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Instalacja w Qwen Coder</b></summary>
-
-Szczegóły znajdziesz w [Konfiguracja Qwen Coder MCP](https://qwenlm.github.io/qwen-code-docs/en/tools/mcp-server/#how-to-set-up-your-mcp-server).
-
-Dodaj do `~/.qwen/settings.json`:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=Qwen",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY",
-        "Accept": "application/json, text/event-stream"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Roo Code</b></summary>
-
-Dodaj do swojej konfiguracji Roo Code MCP:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "type": "streamable-http",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Roo-Code",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Opencode</b></summary>
-
-Dodaj do swojej konfiguracji Opencode:
-
-```json
-{
-  "mcp": {
-    "core-memory": {
-      "type": "remote",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Opencode",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      },
-      "enabled": true
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Copilot Coding Agent</b></summary>
-
-Dodaj do Ustawień Repozytorium → Copilot → Coding agent → Konfiguracja MCP:
-
-```json
-{
-  "mcpServers": {
-    "core": {
-      "type": "http",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-Agent",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Qodo Gen</b></summary>
-
-1. Otwórz panel czatu Qodo Gen w VSCode lub IntelliJ
-2. Kliknij Połącz więcej narzędzi, a następnie kliknij + Dodaj nowy MCP
-3. Dodaj następującą konfigurację:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Qodo-Gen"
-    }
-  }
-}
-```
-
-</details>
-
-### Terminale
-
-<details>
-<summary><b>Zainstaluj w Warp</b></summary>
-
-Dodaj w Ustawienia → AI → Zarządzaj serwerami MCP:
-
-```json
-{
-  "core": {
-    "url": "https://mcp.getcore.me/api/v1/mcp?source=Warp",
-    "headers": {
-      "Authorization": "Bearer YOUR_API_KEY"
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Crush</b></summary>
-
-Dodaj do swojej konfiguracji Crush:
-
-```json
-{
-  "$schema": "https://charm.land/crush.json",
-  "mcp": {
-    "core": {
-      "type": "http",
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Crush",
-      "headers": {
-        "Authorization": "Bearer YOUR_API_KEY"
-      }
-    }
-  }
-}
-```
-</details>
-
-### Aplikacje Desktopowe
-
-<details>
-<summary><b>Zainstaluj w ChatGPT</b></summary>
-
-Połącz ChatGPT z systemem pamięci CORE za pomocą rozszerzenia przeglądarki:
-
-1. [Zainstaluj rozszerzenie Core Browser Extension](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
-2. Wygeneruj klucz API: Przejdź do Ustawienia → Klucz API → Wygeneruj nowy klucz → Nazwij go "extension"
-3. Dodaj klucz API w rozszerzeniu Core Extension i kliknij Zapisz
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Gemini</b></summary>
-
-Połącz Gemini z systemem pamięci CORE za pomocą rozszerzenia przeglądarki:
-
-1. [Zainstaluj rozszerzenie Core Browser Extension](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
-2. Wygeneruj klucz API: Przejdź do Ustawienia → Klucz API → Wygeneruj nowy klucz → Nazwij go "extension"
-3. Dodaj klucz API w rozszerzeniu Core Extension i kliknij Zapisz
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Perplexity Desktop</b></summary>
-
-1. Dodaj w Perplexity → Ustawienia → Konektory → Dodaj konektor → Zaawansowane:
-
-
-```json
-{
-  "core-memory": {
-    "command": "npx",
-    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=perplexity"]
-  }
-}
-```
-
-2. Kliknij Zapisz, aby zastosować zmiany
-3. Core będzie dostępny w twoich sesjach Perplexity
-
-</details>
-
-### Narzędzia deweloperskie
-
-<details>
-<summary><b>Zainstaluj w Factory</b></summary>
-
-Uruchom w terminalu:
-
-```sh
-droid mcp add core https://mcp.getcore.me/api/v1/mcp?source=Factory --type http --header "Authorization: Bearer YOUR_API_KEY"
-```
-
-Wpisz /mcp w droidzie, aby zarządzać serwerami i przeglądać dostępne narzędzia.
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Rovo Dev CLI</b></summary>
-
-1. Edytuj konfigurację mcp:
-
-```sh
-acli rovodev mcp
-```
-
-2. Dodaj do swojej konfiguracji Rovo Dev MCP:
-
-```json
-{
-  "mcpServers": {
-    "core-memory": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Rovo-Dev"
-    }
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><b>Zainstaluj w Trae</b></summary>
-
-Dodaj do swojej konfiguracji Trae MCP:
-
-```json
-{
-  "mcpServers": {
-    "core": {
-      "url": "https://mcp.getcore.me/api/v1/mcp?source=Trae"
-    }
-  }
-}
-```
-</details>
-
-## 🔨 Dostępne narzędzia
-
-CORE Memory MCP udostępnia następujące narzędzia, z których mogą korzystać LLM-y:
-
-- `memory_search`: Wyszukiwanie odpowiedniego kontekstu w CORE Memory.
-- `memory_ingest`: Dodanie epizodu do CORE Memory.
-- `memory_about_user`: Pobiera personę użytkownika z CORE Memory.
-- `initialise_conversation_session`: Inicjuje rozmowę i przypisuje jej identyfikator sesji.
-- `get_integrations`: Pobiera, która odpowiednia integracja powinna być użyta z dostępnych integracji.
-- `get_integrations_actions`: Pobiera, które narzędzie z integracji powinno być użyte do zadania.
-- `execute_integrations_actions`: Uruchamia narzędzie dla tej integracji.
+[Zobacz kompletny przewodnik po samodzielnym hostowaniu →](https://docs.getcore.me/self-hosting/docker)
 
 ---
 
-## Jak to działa
+## Dla Twórców Agentów
 
-### Ingestowanie pamięci
+Budujesz agentów AI? Przenieś pamięć i integracje do CORE, aby skupić się na logice swojego agenta.
 
-<img width="12885" height="3048" alt="memory-ingest-diagram" src="https://github.com/user-attachments/assets/c51679de-8260-4bee-bebf-aff32c6b8e13" />
+- **Przenieś pamięć** — Użyj temporalnego grafu wiedzy CORE jako długoterminowej pamięci agenta. Przechowuj rozmowy, pobieraj kontekst poprzez wyszukiwanie zorientowane na intencje i pozwól agentowi budować wiedzę w czasie bez konieczności zarządzania własną bazą wektorową lub grafem.
+- **Przenieś integracje** — Połącz aplikacje raz w CORE, a Twój agent uzyska narzędzia MCP do wszystkich. Brak konieczności budowy przepływów OAuth, brak utrzymania API, brak kodu dla każdej integracji.
+- **Buduj przez MCP lub API** — Połącz swojego agenta z CORE przez MCP (pojedynczy endpoint) lub użyj bezpośrednio REST API.
 
-Gdy zapisujesz kontekst do CORE, przechodzi on przez cztery fazy:
+**Przykładowe Projekty**
 
-1. **Normalizacja**: Łączy nowe informacje z ostatnim kontekstem, dzieli dokumenty na spójne fragmenty, zachowując powiązania
-2. **Ekstrakcja**: Identyfikuje encje (osoby, narzędzia, projekty), tworzy stwierdzenia z kontekstem i czasem, mapuje relacje
-3. **Rozstrzyganie**: Wykrywa sprzeczności, śledzi ewolucję preferencji, zachowuje wiele perspektyw z pochodzeniem
-4. **Integracja grafowa**: Łączy encje, stwierdzenia i epizody w czasowy graf wiedzy
+- [**core-cli**](https://github.com/RedPlanetHQ/core-cli) — Agent zarządzania zadaniami z pamięcią i synchronizacją Linear/GitHub
+- [**holo**](https://github.com/RedPlanetHQ/holo) — Zamień pamięć CORE w osobistą stronę www z czatem
 
-Przykład: "Napisaliśmy CORE w Next.js" staje się:
-
-- Encje: `CORE`, `Next.js`
-- Stwierdzenie: `CORE został opracowany przy użyciu Next.js`
-- Relacja: `został opracowany przy użyciu`
-
-![memory-ingest-eg](https://github.com/user-attachments/assets/1d0a8007-153a-4842-9586-f6f4de43e647)
-
-### Przywoływanie pamięci
-
-
-<img width="10610" height="3454" alt="memory-search-diagram" src="https://github.com/user-attachments/assets/3541893e-f7c9-42b9-8fad-6dabf138dbeb" />
-
-Kiedy wykonujesz zapytanie do CORE:
-
-1. **Wyszukiwanie**: Hybrydowe podejście: słowa kluczowe + semantyka + przeszukiwanie grafu
-2. **Ponowne sortowanie**: Wyświetla najbardziej trafne i zróżnicowane wyniki
-3. **Filtrowanie**: Stosuje filtry czasu, wiarygodności i siły powiązań
-4. **Wynik**: Zwraca fakty ORAZ epizody, z których pochodzą
-
-CORE nie tylko przypomina fakty — przywołuje je w kontekście, z czasem i historią, aby agenci odpowiadali tak, jak Ty byś pamiętał.
+[Dokumentacja API →](https://docs.getcore.me/api-reference) · [Dokumentacja SDK →](https://docs.getcore.me)
 
 ---
 
-## 🛠️ Dla Twórców Agentów
+## Benchmark
 
-Budujesz agentów AI? CORE daje Ci infrastrukturę pamięci + integracji, dzięki czemu możesz skupić się na logice agenta.
-
-### Co Otrzymujesz
-
-**Infrastruktura pamięci**
-- Temporalny graf wiedzy z 88,24% dokładnością LoCoMo
-- Hybrydowe wyszukiwanie: semantyka + słowa kluczowe + przeszukiwanie grafu
-- Śledzenie ewolucji kontekstu i sprzeczności
-
-**Infrastruktura integracji**
-- Połącz GitHub, Linear, Slack, Gmail raz
-- Twój agent otrzymuje narzędzia MCP do wszystkich połączonych aplikacji
-- Bez konieczności budowania przepływów OAuth, bez utrzymania API
-
-### Przykłady projektów
-
-**[core-cli](https://github.com/RedPlanetHQ/core-cli)** — Agent do zarządzania zadaniami, który łączy się z CORE jako pamięcią i synchronizuje się z Linear, GitHub Issues.
-
-**[holo](https://github.com/RedPlanetHQ/holo)** — Zamień swoją pamięć CORE w osobistą stronę internetową z czatem.
-
-### Zasoby
-
-- [API Reference](https://docs.getcore.me/api-reference)
-- [SDK Documentation](https://docs.getcore.me)
-- Potrzebujesz konkretnej integracji? [Zgłoś problem na GitHub](https://github.com/RedPlanetHQ/core/issues)
-
----
-
-## 🔥 Najważniejsze Wyniki Badań
-
-Pamięć CORE osiąga **88,24%** średniej dokładności na zbiorze Locomo we wszystkich zadaniach wymagających rozumowania, znacznie przewyższając innych dostawców pamięci.
+CORE osiąga średnią dokładność **88,24%** w benchmarku LoCoMo w zadaniach jedno- i wieloetapowych, otwartej domeny oraz z rozumowaniem czasowym.
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-
-| Typ zadania | Opis |
-|-------------|------|
-| Single-hop | Odpowiedzi oparte na jednej sesji |
-| Multi-hop | Synteza informacji z wielu sesji |
-| Open-domain | Integracja informacji o użytkowniku z wiedzą zewnętrzną |
-| Rozumowanie temporalne | Wskazówki czasowe i rozumienie sekwencji |
-
 
 [Zobacz metodologię i wyniki benchmarku →](https://github.com/RedPlanetHQ/core-benchmark)
 
 ---
 
+## Bezpieczeństwo
 
-## 🔒 Bezpieczeństwo
+Certyfikat CASA Tier 2 — audyt zewnętrzny zgodny z wymaganiami OAuth Google.
 
-Certyfikacja CASA Poziom 2 — Audyt zewnętrzny zgodny z wymaganiami OAuth Google.
+- Szyfrowanie: TLS 1.3 (transfer) + AES-256 (spoczynek)
+- Izolacja na poziomie przestrzeni roboczej, uprawnienia oparte na rolach
+- Twoje dane nigdy nie są używane do trenowania modeli AI
+- Opcja samodzielnego hostowania dla pełnej izolacji
 
-- Szyfrowanie: TLS 1.3 (transmisja) + AES-256 (spoczynek)
-- Uwierzytelnianie: OAuth 2.0 i magiczny link
-- Kontrola dostępu: Izolacja na poziomie workspace, uprawnienia oparte na rolach
-- Architektura zero-trust: Nigdy nie ufaj, zawsze weryfikuj
+[Polityka bezpieczeństwa →](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) · Zgłaszanie luk: harshith@poozle.dev
 
-Twoje dane, Twoja kontrola:
-
-- Edytuj i usuwaj w dowolnym momencie
-- Nigdy nie używane do trenowania modeli AI
-- Opcja self-hostingu dla pełnej izolacji
-
-Szczegółowe informacje dotyczące bezpieczeństwa znajdziesz w naszej [Polityce Bezpieczeństwa](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
-
-Zgłaszanie podatności: harshith@poozle.dev
+---
 
 ## Dokumentacja
 
-Przeglądaj naszą dokumentację, aby w pełni wykorzystać możliwości CORE
+- [Witamy](https://docs.getcore.me/introduction) — Wprowadzenie do CORE
+- [Koncepcje](https://docs.getcore.me/concepts/overview) — Wyjaśnienie pamięci, agenta i narzędzi
+- [Połączenie](https://docs.getcore.me/access-core/overview) — Kanały i dostawcy AI
+- [Toolkit](https://docs.getcore.me/toolkit/overview) — Akcje i integracje
+- [Open Source](https://docs.getcore.me/guides/local-setup) — Instalacja lokalna, współtworzenie, samodzielne hostowanie
+- [API Reference](https://docs.getcore.me/api-reference) — REST API i endpointy
+- [Changelog](https://docs.getcore.me/opensource/changelog) — Aktualizacje produktu
 
-- [Samodzielny hosting](https://docs.getcore.me/self-hosting/overview)
-- [Podstawowe pojęcia](https://docs.getcore.me/overview)
-- [Graf pamięci](https://docs.getcore.me/concepts/memory_graph)
-- [Referencja API](https://docs.getcore.me/api-reference/get-user-profile)
+---
 
-## 🧑‍💻 Wsparcie
-
-Masz pytania lub uwagi? Jesteśmy tu, aby pomóc:
+## Wsparcie
 
 - Discord: [Dołącz do kanału core-support](https://discord.gg/YGUZcvDjUa)
 - Dokumentacja: [docs.getcore.me](https://docs.getcore.me)
 - Email: manik@poozle.dev
 
-## Zasady użytkowania
-
-**Przechowuj:**
-
-- Historię rozmów
-- Preferencje użytkownika
-- Kontekst zadania
-- Materiały referencyjne
-
-**Nie przechowuj:**
-
-- Danych wrażliwych (PII)
-- Poświadczeń
-- Logów systemowych
-- Danych tymczasowych
-
-## 👥 Współtwórcy
+## Współtwórcy
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
 </a>
 
 
-
-
-
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
 
 ---

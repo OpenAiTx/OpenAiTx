@@ -33,10 +33,10 @@
 <div align="center"> 
     <br/>
     <p>
-        <img src="https://files.catbox.moe/f4jofb.png" title="icono" alt="icono" width="100" />
+        <img src="https://github.com/neon443/AirAP/blob/main/Icon/icon.png?raw=true" title="icono" alt="icono" width="100" />
     </p>
     <p>
-        usa tu iphone como receptor airplay
+        usa tu iPhone como receptor de AirPlay
         <br/>
         <a href="https://neon443.github.io">
             hecho por neon443
@@ -52,7 +52,7 @@
 
 <div align="center">
   <a href="https://shipwrecked.hackclub.com/?t=ghrm" target="_blank">
-    <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/739361f1d440b17fc9e2f74e49fc185d86cbec14_badge.png" 
+    <img src="https://github.com/neon443/AirAP/blob/main/Icon/shipwrecked.png?raw=true" 
          alt="¡Este proyecto es parte de Shipwrecked, el primer hackathon del mundo en una isla!" 
          style="width: 25%;">
   </a>
@@ -60,19 +60,19 @@
 
 <br/>
 
-AirAP es un servidor AirPlay totalmente nativo, escrito en Swift, para iOS. Esencialmente, AirAP te permite usar tu iPhone como receptor AirPlay en iTunes o en tu Mac, lo que significa que puedes usar tu iPhone para reproducir el sonido de tu dispositivo.
+AirAP es un servidor AirPlay totalmente nativo, escrito en Swift, para iOS. Esencialmente, AirAP te permite usar tu iPhone como un receptor AirPlay en iTunes o en tu Mac, lo que significa que puedes usar tu iPhone para reproducir el sonido de tu dispositivo.
 
 ## ¿Qué es AirAP?
 
-¿Alguna vez has querido transmitir audio desde tu Mac, Apple TV u otro dispositivo iOS a tu iPhone? AirAP hace esto posible implementando un servidor AirPlay completo que se ejecuta de forma nativa en iOS. Una vez instalado, tu iPhone aparecerá como un destino AirPlay disponible en el panel de audio de Preferencias del Sistema, en la app Música o en cualquier otra aplicación compatible con AirPlay.
+¿Alguna vez has querido transmitir audio desde tu Mac, Apple TV u otro dispositivo iOS a tu iPhone? AirAP hace esto posible implementando un servidor AirPlay completo que se ejecuta de forma nativa en iOS. Una vez instalado, tu iPhone aparecerá como un destino AirPlay disponible en el panel de Audio de Preferencias del Sistema, en la app Música, o en cualquier otra aplicación compatible con AirPlay.
 
-El concepto puede parecer al revés al principio; después de todo, estamos acostumbrados a transmitir desde nuestros iPhones hacia otros dispositivos. Pero sorprendentemente hay muchos escenarios donde querrías hacer lo contrario. Tal vez trabajas en tu Mac hasta tarde y quieres enviar el audio a tu iPhone con auriculares para no molestar a nadie (¡hola 👋!). Quizás eres desarrollador probando aplicaciones de audio y necesitas cambiar rápidamente entre diferentes dispositivos de salida. O tal vez solo quieres reutilizar ese viejo altavoz con cable.
+El concepto puede parecer al revés al principio: después de todo, estamos acostumbrados a transmitir desde nuestros iPhones a otros dispositivos. Pero sorprendentemente, hay muchos escenarios en los que querrías hacer lo contrario. Tal vez estés trabajando en tu Mac tarde en la noche y quieras enviar el audio a tu iPhone con auriculares para no molestar a nadie (¡hola 👋!). Quizá seas un desarrollador probando aplicaciones de audio y necesites cambiar rápidamente entre diferentes dispositivos de salida. O tal vez solo quieras reutilizar ese viejo altavoz con cable.
 
 ## Instalando AirAP
 
 Para probarlo, [abre este enlace de TestFlight](https://testflight.apple.com/join/8aeqD8Q2), instala AirAP y sigue las instrucciones. Después de la instalación, simplemente inicia AirAP y asegúrate de que tu iPhone esté conectado a la misma red Wi-Fi que el dispositivo desde el que deseas transmitir. Tu iPhone aparecerá automáticamente en las listas de dispositivos AirPlay, listo para recibir audio; si no aparece, intenta reiniciar la app.
 
-## Compilando
+## Compilación
 
 Asegúrate de tener [homebrew](https://brew.sh)
 ```
@@ -98,8 +98,11 @@ would not have been possible without these
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
 
 ---

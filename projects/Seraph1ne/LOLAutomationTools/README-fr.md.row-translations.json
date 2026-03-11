@@ -1,0 +1,980 @@
+[
+  {
+    "row": 1,
+    "rowsha": "ov6vUQVdD4bVT7QRDGBYvgVB++RRniccsquI3grS9mc=",
+    "originContent": "# 简介",
+    "translatedContent": "# Introduction  "
+  },
+  {
+    "row": 2,
+    "rowsha": "B4t3EJAoEoepqQVkCRx0Bu5WjZe3q/PMt+G8W0lTI4k=",
+    "originContent": "**LOLAutomationTools** 是一款 **《英雄联盟》** 的功能扩展工具；用于帮助玩家在部分因无法腾出双手或需要暂离的场景时进行一些简单的客户端操作以节省少量时间；软件不会过多干预玩家对游戏方面的理解和玩法，所以部分功能仍需要先手动配置（如英雄符文配置），过多的拘束会让人麻木，并失去游戏本身的乐趣；积极快乐游戏，共建和谐环境。",
+    "translatedContent": "**LOLAutomationTools** est un outil d'extension fonctionnelle pour **League of Legends** ; destiné à aider les joueurs dans certaines situations où ils ne peuvent pas libérer leurs mains ou doivent s'absenter temporairement, en effectuant quelques opérations simples sur le client pour économiser un peu de temps ; le logiciel n'intervient pas excessivement dans la compréhension et le gameplay du joueur, donc certaines fonctions nécessitent toujours une configuration manuelle préalable (comme la configuration des runes du champion), une trop grande contrainte peut engendrer de la lassitude et faire perdre le plaisir du jeu lui-même ; jouez activement et joyeusement, construisons ensemble un environnement harmonieux.  "
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "1pCnNtRXRpisY8Z/D5K05IXVyomAqzcJCfq6MB87lU4=",
+    "originContent": "# 功能",
+    "translatedContent": "# Fonctionnalités  "
+  },
+  {
+    "row": 5,
+    "rowsha": "M4lB1gCRWKXdiiLoI/KTcZ46eaF9zw+7xo6TSPHamfo=",
+    "originContent": "- 选用英雄",
+    "translatedContent": "- Sélection de champion  "
+  },
+  {
+    "row": 6,
+    "rowsha": "AYUAipOM29a2ywHJqwXbwz8szhRYwUfaC4037kRqiDE=",
+    "originContent": "  - 预选英雄",
+    "translatedContent": "  - Préréglage de champion  "
+  },
+  {
+    "row": 7,
+    "rowsha": "3/1+Xy5WhNLHmxsRzcq6UYgsK2Gh1BdZM4m5/21M758=",
+    "originContent": "- 禁用英雄",
+    "translatedContent": "- Désactivation de champion  "
+  },
+  {
+    "row": 8,
+    "rowsha": "QGLSAGKq/448IzCq2UGqfGTNaKcA8zEYtkNs/R2m+gk=",
+    "originContent": "  - 忽略队选",
+    "translatedContent": "  - Ignorer la sélection d'équipe  "
+  },
+  {
+    "row": 9,
+    "rowsha": "sH9Gha5Y3kP8I/RHzqXwHzqPSOyAk9FoS0Wyuup0p1c=",
+    "originContent": "  - 联组禁用模式",
+    "translatedContent": "  - Mode de désactivation en groupe  "
+  },
+  {
+    "row": 10,
+    "rowsha": "PoxnixfULpfiLIyQAcLc2VPivOQ+5mH7PLohzSlIAUs=",
+    "originContent": "- 随机英雄",
+    "translatedContent": "- Champion aléatoire  "
+  },
+  {
+    "row": 11,
+    "rowsha": "+9uWoqYQ7EPVSUHL1mvkpy09mJCW7c3o+h2gl9q020w=",
+    "originContent": "- 禁选英雄防退",
+    "translatedContent": "- Prévention de bannissement pour champions  "
+  },
+  {
+    "row": 12,
+    "rowsha": "6NAkRbz4hKGwvu+FN4z1ulbhodLMz+V69AuOfteO6n4=",
+    "originContent": "- 接受对局",
+    "translatedContent": "- Accepter une partie  "
+  },
+  {
+    "row": 13,
+    "rowsha": "Yh3Zu2Kl3aAgFdQ4xskSWWv77v20wZbAK4J9B9AE/vo=",
+    "originContent": "  - 延迟接受对局",
+    "translatedContent": "  - Acceptation différée de la partie  "
+  },
+  {
+    "row": 14,
+    "rowsha": "fm+G2B3ZaITSOlEYLfGDLvOqy5PNDsvwToL3qA1/g70=",
+    "originContent": "- 创建对局",
+    "translatedContent": "- Création de partie  "
+  },
+  {
+    "row": 15,
+    "rowsha": "+Pb7/j6pmHJvyc2rVnI6aeAYMgke6Q0ge9nnwmo9rqk=",
+    "originContent": "- 寻找对局",
+    "translatedContent": "- Recherche de partie  "
+  },
+  {
+    "row": 16,
+    "rowsha": "kDdAapzbcNAR4SBnMh7G/mghejrxUDm3yZBAEHrfjZE=",
+    "originContent": "  - 匹配超时检测",
+    "translatedContent": "  - Détection de dépassement du temps de recherche  "
+  },
+  {
+    "row": 17,
+    "rowsha": "I5rNf30J2yMZ0zSa8GGz1d7Koag/S8ay16GqzGnsXeY=",
+    "originContent": "- 交换功能",
+    "translatedContent": "- Fonction d’échange  "
+  },
+  {
+    "row": 18,
+    "rowsha": "fbfe7xxpQj2SD5Xk09aQFikbXRHfHL053wNG7Pg337g=",
+    "originContent": "  - 随机模式交换英雄",
+    "translatedContent": "  - Échange de champion en mode aléatoire  "
+  },
+  {
+    "row": 19,
+    "rowsha": "jHi1dQBO2oeh+5QBlmk5hPUHUesR035qAA0/GWE5iR0=",
+    "originContent": "    - 或仅被动接受其他玩家交换英雄",
+    "translatedContent": "    - Ou acceptation passive d’échange de champion par d’autres joueurs  "
+  },
+  {
+    "row": 20,
+    "rowsha": "SARUdrsO+M9QoEEcz9bkK2a0HoFSVPTMoPuZNWwqMN4=",
+    "originContent": "    - 拒绝非选用英雄交换",
+    "translatedContent": "    - Refuser l’échange de champions non sélectionnés  "
+  },
+  {
+    "row": 21,
+    "rowsha": "w21U3pA4Mbe0yqnU5spmiJuMrndJTKiiWlnkMr12vx4=",
+    "originContent": "  - 征兆模式交换选位",
+    "translatedContent": "  - Échange de position en mode draft  "
+  },
+  {
+    "row": 22,
+    "rowsha": "u8XZsWR85E1WdcJLRG0If8lNC3kTJjGd0TODgw6vZgI=",
+    "originContent": "    - 或进被动接收其它玩家交换选位",
+    "translatedContent": "    - Ou réception passive d’échange de position par d’autres joueurs  "
+  },
+  {
+    "row": 23,
+    "rowsha": "4txlRm6Gh9GFMxQrtTqKEQz2OWkIteSmo3Eldk43Oww=",
+    "originContent": "    - 拒绝非预选位交换",
+    "translatedContent": "    - Refuser l’échange de positions non préréglées  "
+  },
+  {
+    "row": 24,
+    "rowsha": "BOwTLY+/qgKsxSXifreXHA1W6sSKmFRyrPRmGbGH68w=",
+    "originContent": "  - 征召模式交换楼层",
+    "translatedContent": "  - Échange d’étage en mode draft  "
+  },
+  {
+    "row": 25,
+    "rowsha": "+x/90waXADPtiXf4zk2gjVneORJiFFEiEuiWgYiRuX8=",
+    "originContent": "    - 或仅被动接受其他玩家交换楼层",
+    "translatedContent": "    - Ou acceptation passive d’échange d’étage par d’autres joueurs  "
+  },
+  {
+    "row": 26,
+    "rowsha": "N23fwZevWQNEqiWtL8U3sWj67acVnQY5tgvFpYcxL94=",
+    "originContent": "    - 拒绝非设置楼层交换",
+    "translatedContent": "    - Refuser l’échange d’étage non configuré  "
+  },
+  {
+    "row": 27,
+    "rowsha": "iR/x5vh0j9HmuadoUmQ45l1t2uaqNgqqNe26cx7Q1g8=",
+    "originContent": "- 跳过称赞页面",
+    "translatedContent": "- Passer la page d’éloge  "
+  },
+  {
+    "row": 28,
+    "rowsha": "6LRK5iOvAazRuwrBPf0GxxWsuUkYTqeCllEd2wtPYRI=",
+    "originContent": "- 跳过解锁页面",
+    "translatedContent": "- Passer la page de déverrouillage  "
+  },
+  {
+    "row": 29,
+    "rowsha": "UvlbUi0v7vYqcrnC9yWDOXJ0LUKB2/NZeFtcONhVWi8=",
+    "originContent": "- 聊天回复控制",
+    "translatedContent": "- Contrôle des réponses de chat  "
+  },
+  {
+    "row": 30,
+    "rowsha": "0SXuA1in7t+BNuCstG4SoE3BscXc3B/4AKnWoE/4Zac=",
+    "originContent": "  - 离开时回复好友消息",
+    "translatedContent": "  - Répondre aux messages d’amis en cas d’absence  "
+  },
+  {
+    "row": 31,
+    "rowsha": "xtpmTgcVk28BHy7bXY/A7+x+YwLgHgufdoXBCRsqslc=",
+    "originContent": "  - 离开时回复对局邀请",
+    "translatedContent": "  - Répondre aux invitations de partie en cas d’absence  "
+  },
+  {
+    "row": 32,
+    "rowsha": "9Vl6jMZeW/9M/qnyV2zc0nJwvyXH4YurNy0zJaIe0Rg=",
+    "originContent": "    - 离开时拒绝对局邀请",
+    "translatedContent": "    - Refuser les invitations de partie en cas d’absence  "
+  },
+  {
+    "row": 33,
+    "rowsha": "gdKPu9NmuGEOVv5W9N+qcokpT0ux2aDGy+bwcu/7fGA=",
+    "originContent": "- 附加窗口",
+    "translatedContent": "- Fenêtre supplémentaire  "
+  },
+  {
+    "row": 34,
+    "rowsha": "3B7rU4bZzxbBXqVHm6fT60YUIgsjM8VTXbPPPyY2/mU=",
+    "originContent": "  - 娱乐模式英雄平衡BUFF显示",
+    "translatedContent": "  - Affichage du buff d’équilibrage des champions en mode fun  "
+  },
+  {
+    "row": 35,
+    "rowsha": "yhcTrHoB/ALNfX8dlOX94BnNooen7ivij0SyaKh045A=",
+    "originContent": "  - 自动应用符文",
+    "translatedContent": "  - Application automatique des runes  "
+  },
+  {
+    "row": 36,
+    "rowsha": "gROrletmbKBzkpAlVmcI3llh2rbawH7wW70qlq/Ry1k=",
+    "originContent": "  - 符文纠错",
+    "translatedContent": "  - Correction des runes  "
+  },
+  {
+    "row": 37,
+    "rowsha": "vYNL3HA96ekT+JvKQIGuhjtR7hWOU9P6jdtGsxgWRVo=",
+    "originContent": "  - 英雄独立配置",
+    "translatedContent": "  - Configuration indépendante des champions  "
+  },
+  {
+    "row": 38,
+    "rowsha": "4nvo/pz/N7iE4g1u59K+KV643hkQFKFi3AZDwQDZLcg=",
+    "originContent": "- 自动关闭对局",
+    "translatedContent": "- Fermeture automatique de la partie  "
+  },
+  {
+    "row": 39,
+    "rowsha": "jmpp6M6gTZZTIoswGRVdl3ybllqkyg+hWHHNv1aj7MY=",
+    "originContent": "- 自动重连对局",
+    "translatedContent": "- Reconnexion automatique à la partie  "
+  },
+  {
+    "row": 40,
+    "rowsha": "y3bEH4cy6GxBEERKlWzf2J/2+w6jvY9c9S5Az2TvUi8=",
+    "originContent": "- 自动领取通行证奖励（含云顶之弈）",
+    "translatedContent": "- Réception automatique des récompenses du passe de combat (y compris Teamfight Tactics)"
+  },
+  {
+    "row": 41,
+    "rowsha": "R7GnwLFOuNt/tiKCKDoBMHvYqX8pMPfoymwXupN5gM4=",
+    "originContent": "- 好友请求处理",
+    "translatedContent": "- Gestion des demandes d'amis  "
+  },
+  {
+    "row": 42,
+    "rowsha": "Bq55sj2jLBjTlHL/2XXTTndEZ6uioy60hsqVDs9vqiU=",
+    "originContent": "  - 批量删除好友",
+    "translatedContent": "  - Suppression en masse d'amis  "
+  },
+  {
+    "row": 43,
+    "rowsha": "hzIRPx/LG13Lwgl6ihiUU4VK45ekN7i0GGYQzLK8hlM=",
+    "originContent": "- 个性化生涯",
+    "translatedContent": "- Carrière personnalisée  "
+  },
+  {
+    "row": 44,
+    "rowsha": "PwuaTvNwvUGokuuPULN4aSLF3XMKb/2w/bftirecVNA=",
+    "originContent": "  - 生涯背景",
+    "translatedContent": "  - Contexte de carrière  "
+  },
+  {
+    "row": 45,
+    "rowsha": "6xoNb6OKwig5XjvlR2C1mnEI/ZEU0JhFzkKTvH+pJJE=",
+    "originContent": "  - 召唤师头像",
+    "translatedContent": "  - Avatar du invocateur  "
+  },
+  {
+    "row": 46,
+    "rowsha": "fuHKeppcNUujOGVWrnC0L1ep1o/ClQahhc3jaBBcIpk=",
+    "originContent": "  - 客户端状态",
+    "translatedContent": "  - Statut client  "
+  },
+  {
+    "row": 47,
+    "rowsha": "qIj4RzGFvBTks3pzmIGQ9ddoXns/UrcKtHUMfjYjXzE=",
+    "originContent": "  - 状态签名",
+    "translatedContent": "  - Signature de statut  "
+  },
+  {
+    "row": 48,
+    "rowsha": "ugHVs6oTGdG1USovdnpORgD12GHdhex/W6+4gEP2c2I=",
+    "originContent": "  - 名片段位",
+    "translatedContent": "  - Rang de la carte de visite  "
+  },
+  {
+    "row": 49,
+    "rowsha": "cJbsjwcnOWisFVWB++ilM3VKxDCHS77fy+QBGvWHvi0=",
+    "originContent": "  - 英雄成就点数",
+    "translatedContent": "  - Points d'accomplissement des héros  "
+  },
+  {
+    "row": 50,
+    "rowsha": "mSOJGJOy9DWJoyPNkq8/p29td3s5e2SbZuwNHS5pbuo=",
+    "originContent": "  - 清空佩戴勋章",
+    "translatedContent": "  - Réinitialiser les médailles portées  "
+  },
+  {
+    "row": 51,
+    "rowsha": "Np0GMzrAGCKPbkwC5XDVVTFz5/OAf0odhIbZaSmfY2E=",
+    "originContent": "- 功能键屏蔽",
+    "translatedContent": "- Blocage des touches fonction  "
+  },
+  {
+    "row": 52,
+    "rowsha": "GPjqqan9CVGY1SbxjtthMNRxqpqchaoy2UKFuqtafDw=",
+    "originContent": "- 战绩查询",
+    "translatedContent": "- Consultation des performances  "
+  },
+  {
+    "row": 53,
+    "rowsha": "gd+oSUQpmrboqsaDrISWAuaK49e2BkcP0OrxC2LGLTM=",
+    "originContent": "  - 战绩发送",
+    "translatedContent": "  - Envoi des performances  "
+  },
+  {
+    "row": 54,
+    "rowsha": "sMby7cEsT5ssha8gGU7R2ZnLAHNFaxQQ+7ON7zRQcfs=",
+    "originContent": "  - 对局内开黑检测",
+    "translatedContent": "  - Détection de jeu en équipe dans la partie  "
+  },
+  {
+    "row": 55,
+    "rowsha": "ZOezYSLL1ka5Dw/JxghRCSIY+fcAJyYkElNeGa1/EvA=",
+    "originContent": "  - 玩家对局观战",
+    "translatedContent": "  - Spectateur des parties des joueurs  "
+  },
+  {
+    "row": 56,
+    "rowsha": "WstatVRFecXM9Q5A2GUf2Db+4vBVp7yuE4to7Kiqc0o=",
+    "originContent": "  - 赛后玩家举报",
+    "translatedContent": "  - Signalement des joueurs après la partie  "
+  },
+  {
+    "row": 57,
+    "rowsha": "CuWQjoaOoCeZ5ZPPzmHpYaJ28wFbiI8nL35ofxvzSVk=",
+    "originContent": "- 局内喊话",
+    "translatedContent": "- Messages dans la partie  "
+  },
+  {
+    "row": 58,
+    "rowsha": "56srp3QPb2gjPPZ2eyFF49Y4mDm7Sl5re5PO0dOLP1Q=",
+    "originContent": "- 黑名单",
+    "translatedContent": "- Liste noire  "
+  },
+  {
+    "row": 59,
+    "rowsha": "0lahdp1Eb2JYPLLmbwd/oqms29R7oBAniTApNYjnjRQ=",
+    "originContent": "- 快捷键设置",
+    "translatedContent": "- Configuration des raccourcis  "
+  },
+  {
+    "row": 60,
+    "rowsha": "N4aNHriYe4oH5jKMHi0UEgkdrK/zklZi1ILRQQt7VHI=",
+    "originContent": "- 主题设置",
+    "translatedContent": "- Paramètres de thème  "
+  },
+  {
+    "row": 61,
+    "rowsha": "thCw5yjer4u54B0QGaq+gFnANSLdze/uOpZ7lc0Q1hQ=",
+    "originContent": "  - 深/浅色主题",
+    "translatedContent": "  - Thème clair/sombre  "
+  },
+  {
+    "row": 62,
+    "rowsha": "2pZ64zRS/V5fm8CvQ3iAW3/WFVKVvY8Xet1VrhSx7GE=",
+    "originContent": "  - 自适应主题",
+    "translatedContent": "  - Thème adaptatif  "
+  },
+  {
+    "row": 63,
+    "rowsha": "oXRsI+ghXUrL1N/bY/IYBDoYQNTc5Pg2BYmgf5PMCp8=",
+    "originContent": "  - 自定义主题",
+    "translatedContent": "  - Thème personnalisé  "
+  },
+  {
+    "row": 64,
+    "rowsha": "4yvgCcYeeRH2+ebFdDAX8XK6lidkb3l3+WsZrTjru4g=",
+    "originContent": "  - 背景图片设置",
+    "translatedContent": "  - Paramétrage de l'image de fond  "
+  },
+  {
+    "row": 65,
+    "rowsha": "a1/gIa068khhYvkspZp/zhNXmhtbixQutuDau7bB6+Y=",
+    "originContent": "  - 字体自定义",
+    "translatedContent": "  - Personnalisation de la police  "
+  },
+  {
+    "row": 66,
+    "rowsha": "Hrb9sMq5Zu/J/NPTPpNVvGuU2QOEOTlyejBJUfw2Qj0=",
+    "originContent": "- 扩展功能",
+    "translatedContent": "- Fonctionnalités étendues  "
+  },
+  {
+    "row": 67,
+    "rowsha": "laGfl7VZMa0RYBX/o7kVyxra0D9HrXkAziLFHVwS5h4=",
+    "originContent": "  - 自动选牌（卡牌大师）",
+    "translatedContent": "  - Sélection automatique des cartes (Maître des cartes)  "
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "qXe51+G+Q8IECcuWk9ZJvazpv8WRj1/bDj0j0UHlDYk=",
+    "originContent": "## 选用英雄",
+    "translatedContent": "## Sélection des héros  "
+  },
+  {
+    "row": 71,
+    "rowsha": "ck4F78bvOQcHfYLMEXmz7ucLkScVmyGQNFulq7qN3Q8=",
+    "originContent": "在使用**选用英雄**和**禁用英雄**前，都需要在配置页面进行编辑操作（开关项后面的按钮）。",
+    "translatedContent": "Avant d'utiliser la **sélection des héros** et la **désactivation des héros**, il est nécessaire d'effectuer des modifications dans la page de configuration (bouton à côté de l'interrupteur).  "
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "WO3IcLFrfplA47ToNfP2cJ5S7Vu34ntxrEGCt/TDm0I=",
+    "originContent": "分路设置中添加的英雄项仅在部分有 *预选位* 的对局模式中生效（如 *排位赛* 和 *极限闪击* ），随机仅在 *随机英雄* 模式中生效（如 *极地大乱斗*、*无限乱斗*，禁用英雄配置中不包含随机配置页面），通用则是其他所有模式中生效（不包含之前列举的模式，这是为了使用规范），在执行自动选用英雄时，将按照 **选用英雄** 的配置项，且由上而下的顺序来进行选用。",
+    "translatedContent": "Les héros ajoutés dans les réglages de voie ne sont effectifs que dans certains modes de jeu avec *emplacements de pré-sélection* (comme *Classement* et *Éclair extrême*), le mode aléatoire ne s'applique que dans le mode *Héros aléatoires* (comme *Bataille arctique*, *Chaos infini*, la configuration des héros désactivés ne contient pas la page de configuration aléatoire), le mode universel s'applique à tous les autres modes (hors modes mentionnés précédemment, ceci pour des raisons de conformité). Lors de l'exécution de la sélection automatique des héros, la sélection sera effectuée selon la configuration de **sélection des héros**, de haut en bas dans l'ordre.  "
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "tlV0Cxr5oAjDEbCQnIprO9w6qRkcSZ+XX4cfJ0BpXGc=",
+    "originContent": "<img width=\"900\" height=\"680\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6aa4f1ad-28db-4bd5-a917-df4197024f5f\" />",
+    "translatedContent": "<img width=\"900\" height=\"680\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6aa4f1ad-28db-4bd5-a917-df4197024f5f\" />  "
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "z0fJ2oVTdMv3fZpopB/BXdLDAnDZnBtAUlj16gc7QLw=",
+    "originContent": "## 预选英雄",
+    "translatedContent": "## Pré-sélection des héros  "
+  },
+  {
+    "row": 78,
+    "rowsha": "r2M/rjqvPKqClV5zRRi4d9U+bwnGMi2l/J5y+9ZvBb4=",
+    "originContent": "此功能的执行逻辑与**选用英雄**基本一致，区别在于**预选英雄**只会在具有禁用阶段的模式中生效，如 *排位赛* 和部分需要禁用英雄的娱乐模式。",
+    "translatedContent": "La logique d'exécution de cette fonction est essentiellement la même que celle de la **sélection des héros**, la différence étant que la **pré-sélection des héros** ne sera effective que dans les modes comportant une phase de désactivation, tels que *Classement* et certains modes de divertissement nécessitant la désactivation des héros.  "
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "r3WRb7lksrwuV9s/AbepnRT8oLIrQN1SrafnW9vD0pc=",
+    "originContent": "## 禁用英雄",
+    "translatedContent": "## Désactivation des héros"
+  },
+  {
+    "row": 81,
+    "rowsha": "gGVB06KqlRGyZ0KpjYRPImqlXlPoqTmsG/lmOqpLvgM=",
+    "originContent": "**禁用英雄**配置页面与**选用英雄**配置页面基本一致，仅在右上角多了切换模式的按钮，点击按钮可以切换禁用模式。",
+    "translatedContent": "**La page de configuration des héros désactivés** est essentiellement la même que celle des **héros sélectionnés**, avec en plus un bouton en haut à droite pour changer de mode, permettant de basculer en mode désactivation."
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "GcOMJ1pgHpJkJkp9MqdB9S7kSICgn8T1qMveIOhFYbI=",
+    "originContent": "*正常禁用模式* ：此模式操作逻辑与**选用英雄**的配置页面一致，在执行自动禁用英雄时，如果没有配置禁用的英雄，将在Ban阶段剩余时间0秒时空Ban。",
+    "translatedContent": "*Mode désactivation normal* : Ce mode fonctionne de la même manière que la page de configuration des **héros sélectionnés** ; lors de l’exécution de la désactivation automatique des héros, si aucun héros n’est configuré pour être désactivé, un ban vide sera effectué lorsque le temps restant à l’étape de ban sera de 0 secondes."
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "dzHDSWizlKH82e4SwjsEUXYU/Bb0G5VqWfrdUL0MdVY=",
+    "originContent": "*联组禁用模式* ：配置列表中的项将替换为 **选用英雄** 配置中的对应英雄，在选中一个项时，双击左侧的英雄项来将其添加至英雄的**禁用组**中，在执行自动禁用英雄时，将按照 **选用英雄** 的配置项顺序来进行禁用，如果所有 **选用英雄** 的配置 **禁用组** 中都没有配置要禁用的英雄，则会按正常禁用模式的逻辑来禁用。",
+    "translatedContent": "*Mode désactivation en groupe* : Les éléments de la liste de configuration seront remplacés par les héros correspondants dans la configuration des **héros sélectionnés**. En sélectionnant un élément, double-cliquez sur un héros dans la liste de gauche pour l’ajouter au **groupe de désactivation** de ce héros. Lors de l’exécution de la désactivation automatique, les héros seront désactivés dans l’ordre des éléments configurés dans **héros sélectionnés**. Si aucun héros à désactiver n’est configuré dans les **groupes de désactivation** de toutes les configurations des **héros sélectionnés**, la désactivation suivra la logique du mode désactivation normal."
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "Mfioo/1R72COgs65TO2vCW/QO8p+5+wEhftKgucakKg=",
+    "originContent": "> 如果启用了 *忽略队友预选* ，执行自动禁用英雄时将跳过队伍预选检测。不建议启用该项。",
+    "translatedContent": "> Si l’option *Ignorer la pré-sélection des coéquipiers* est activée, la détection de la pré-sélection dans l’équipe sera ignorée lors de l’exécution de la désactivation automatique. Il est déconseillé d’activer cette option."
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "8BCkIrKcSBQmjpgNUF80xs/QEIALABONcoVhHIjfMxM=",
+    "originContent": "## 接受对局",
+    "translatedContent": "## Accepter la partie  "
+  },
+  {
+    "row": 90,
+    "rowsha": "VcBlBhfA7ntMm8EH34qVBORq3M7GKneLYwRlPzVL5FU=",
+    "originContent": "在匹配到对局后自动接受对局。",
+    "translatedContent": "Accepte automatiquement la partie une fois qu’elle est trouvée."
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "zciOuM0TP470fTfhQ0BZsBA4CI8hHRWE8NRKGOK6mlo=",
+    "originContent": "> 在启用 *延迟接受对局* 选项后，**接受对局**仅会在接受倒计时剩余最后一秒时自动接受对局。",
+    "translatedContent": "> Après activation de l’option *Acceptation différée de la partie*, **Accepter la partie** ne se fera automatiquement que dans la dernière seconde du compte à rebours d’acceptation."
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "2nrNJxs/aVluw8GAngxZcgesHsnO04zIqoEsmUp3i1Y=",
+    "originContent": "## 创建对局",
+    "translatedContent": "## Créer une partie  "
+  },
+  {
+    "row": 95,
+    "rowsha": "6nW0vL0OUmFjHIG8WqgpnCpajZ11HKrZGBwCWon28ZQ=",
+    "originContent": "你可以通过**创建对局**按钮来手动创建对局或打开此开关项来自动创建对局。",
+    "translatedContent": "Vous pouvez créer manuellement une partie via le bouton **Créer une partie** ou activer ce commutateur pour créer automatiquement une partie."
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "oGWHUCbnaTItzmD/z/59ZrGdX5msrVjOu8QIBB8C/c0=",
+    "originContent": "> *自动创建对局* 需要在 *更多设置* 处选择要创建的对局模式，该选项不会保存至配置中。",
+    "translatedContent": "> *Création automatique de partie* nécessite de choisir le mode de partie à créer dans *Paramètres avancés*, cette option ne sera pas sauvegardée dans la configuration."
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "SswFMpMfeih1aqi6UbtkfXaxt8eGYIDR89+gaJXKyd0=",
+    "originContent": "## 寻找对局",
+    "translatedContent": "## Chercher une partie  "
+  },
+  {
+    "row": 100,
+    "rowsha": "rW6a+LjYIDV58XWMFU/qknOmGgrcd4eh+6z8dIzRJ9M=",
+    "originContent": "自动寻找对局，此项仅在对局模式房间中且自身为小队拥有者（房主）时生效。",
+    "translatedContent": "Recherche automatiquement une partie, cette option est active uniquement dans une salle de mode de partie et si vous êtes le leader de l’équipe (hôte)."
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "Cbkb963sQ+gqMUXTEfKsox5kXoh89OWCo+jBCW5LLR4=",
+    "originContent": "> 如果启用了 *超时检测* 选项，将在匹配队列中超过队列估计时间达到指定的间隔时自动重新寻找对局。",
+    "translatedContent": "> Si l’option *Détection de dépassement de temps* est activée, une nouvelle recherche de partie sera automatiquement lancée si le temps dans la file d’attente dépasse l’estimation pendant un intervalle spécifié."
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "APH89RTV7sgyBlwhzpH4Dq7aGTpAL4d8WTXbRUynGGA=",
+    "originContent": "## 跳过称赞",
+    "translatedContent": "## Passer les compliments  "
+  },
+  {
+    "row": 105,
+    "rowsha": "ztdirj9naQaCC+5xFvb5gh++DZqvfCZN8QYWb2NeNI0=",
+    "originContent": "跳过对局结束时队友的称赞页面。",
+    "translatedContent": "Ignore la page de compliments des coéquipiers à la fin de la partie."
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "2kMxLfvvGADkHiJvwrl7ElAqcuHoJyzGUDjJNWr4D5k=",
+    "originContent": "## 跳过结算",
+    "translatedContent": "## Passer le décompte final  "
+  },
+  {
+    "row": 108,
+    "rowsha": "BeVSwNPKcBSjztK7fnJIXYWBo+8th7c8Ygdd26N5JIU=",
+    "originContent": "跳过对局结束时的等待结算（黑屏转圈加载）或赛后结算页面，并回到对局模式房间中。",
+    "translatedContent": "Ignore l’attente de fin de partie (écran noir avec roue de chargement) ou la page de résultats post-partie, et retourne directement dans la salle du mode de partie."
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "TwBFthaAAnZ7U4Buz7b4l9HVx+I9m6jSVg+HeLHwhKs=",
+    "originContent": "## 交换功能",
+    "translatedContent": "## Fonction d’échange  "
+  },
+  {
+    "row": 111,
+    "rowsha": "+eXQnAZKQvgDkWnEQ/YJVVbMRFs5zelqtmBlXsDxck8=",
+    "originContent": "含主开关项与三个独立开关项，你还需作其他设置。在**交换功能**更多设置中，设置是否在随机英雄模式中与队友交换英雄或是在征召模式中与队友交换楼层（选择英雄的顺序）和预选位。",
+    "translatedContent": "Comprend un interrupteur principal et trois interrupteurs indépendants, nécessitant d’autres réglages. Dans les *Paramètres avancés* de la **fonction d’échange**, vous pouvez configurer si vous souhaitez échanger les héros avec vos coéquipiers en mode héros aléatoire, ou échanger l’ordre de sélection (étage) et les positions pré-sélectionnées en mode draft."
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "CVqvwMVJDhzLxvwu8cnOoeehtC3q7CyfwSHyxjTtcgg=",
+    "originContent": "*交换英雄与交换选位设置相对简单，这里不多赘述。*",
+    "translatedContent": "*La configuration des échanges de héros et de positions est relativement simple, donc peu détaillée ici.*"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "JMTgrz23qgDFtnbbavfgCRiuXpcDRvJQhpWbdXbFUyU=",
+    "originContent": "<img width=\"900\" height=\"680\" alt=\"image\" src=\"https://github.com/user-attachments/assets/361b4b19-cd72-4cb3-901f-69d49284bc11\" />",
+    "translatedContent": "<img width=\"900\" height=\"680\" alt=\"image\" src=\"https://github.com/user-attachments/assets/361b4b19-cd72-4cb3-901f-69d49284bc11\" />"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "L5XzSGhCfsJyKOlP63MAqQzHeRXwAXKXRXLMMiufZtk=",
+    "originContent": "在**交换楼层**的**更多设置**中，你可以设置交换的顺序（即楼层）和交换模式。",
+    "translatedContent": "Dans les **Paramètres avancés** de **l’échange d’étage**, vous pouvez configurer l’ordre d’échange (c’est-à-dire l’étage) et le mode d’échange."
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "ihq8pKA3YhIWsEnFsmxMIt1bclzD3bgmJ60R9qJ0lv0=",
+    "originContent": "<img width=\"900\" height=\"680\" alt=\"image\" src=\"https://github.com/user-attachments/assets/697bed4a-2984-43f6-b747-36c7911ef99d\" />",
+    "translatedContent": "<img width=\"900\" height=\"680\" alt=\"image\" src=\"https://github.com/user-attachments/assets/697bed4a-2984-43f6-b747-36c7911ef99d\" />"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "8K7MnrYV0GQVYMWJKFJQ934FGsfQG4xRm0yooqJqFvE=",
+    "originContent": "*交换模式*：",
+    "translatedContent": "*Mode d’échange* :  "
+  },
+  {
+    "row": 122,
+    "rowsha": "QuF6IVVC80vWTQ9Xa2xQw+2A9m1WprMwLVlH3HSOWAI=",
+    "originContent": "- 仅目标顺序：接受与指定 *顺序* 一致的队友的请求。",
+    "translatedContent": "- Ordre cible uniquement : accepter les demandes des coéquipiers dont l’*ordre* correspond à l’*ordre* spécifié.  "
+  },
+  {
+    "row": 123,
+    "rowsha": "PyccptsU8XbzIuYGAyphZmg89Z3C0BFz4BEjUxiT97s=",
+    "originContent": "- 包含目标的优先顺序：接受 ≤ 指定 *顺序* 的队友的请求。",
+    "translatedContent": "- Priorité incluant la cible : accepter les demandes des coéquipiers avec un ordre ≤ à l’*ordre* spécifié.  "
+  },
+  {
+    "row": 124,
+    "rowsha": "PzcUvs/5Qiq7L4egrQsy+n973bL9P2yPPWLfdR9Ky68=",
+    "originContent": "- 包含目标的延后顺序：接受 ≥ 指定 *顺序* 的队友的请求。",
+    "translatedContent": "- Retard incluant la cible : accepter les demandes des coéquipiers avec un ordre ≥ à l’*ordre* spécifié.  "
+  },
+  {
+    "row": 125,
+    "rowsha": "W728aqA2cS/3ritH72iV2w7qY3n28FJZ+MVlSca3h/E=",
+    "originContent": "- 基于目标顺序的范围：接受 *顺序* ≤（*指定顺序* - *范围*）和 *顺序* ≥（*指定顺序* + *范围*）的队友的请求。",
+    "translatedContent": "- Plage basée sur l’ordre cible : accepter les demandes des coéquipiers avec un *ordre* ≤ (*ordre spécifié* - *plage*) et *ordre* ≥ (*ordre spécifié* + *plage*).  "
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "YsIArZvShA1Z2oTzQ96yiiEan94chS6uYop5r5PNW4g=",
+    "originContent": "此外，在**其他设置**中还有两个拒绝交换选项，这两项在**启用时**如果队友请求与你交换英雄或选位时不在判定的条件内将会自动拒绝此次交换请求，**否则**不作任何操作，你可以自行决定是否接受交换。",
+    "translatedContent": "De plus, dans les **autres paramètres**, il existe deux options de refus d’échange qui, si elles sont **activées**, rejettent automatiquement une demande d’échange si le coéquipier ne correspond pas aux conditions définies pour échanger un héros ou une position, **sinon** aucune action n’est effectuée, vous pouvez décider vous-même d’accepter l’échange.  "
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "cv+HkFwVdvA9txwZK/t0uMdLOPcShbiiz7JXOZkDCKE=",
+    "originContent": "## 禁选英雄防退",
+    "translatedContent": "## Protection contre la désertion lors de la sélection/bannissement  "
+  },
+  {
+    "row": 130,
+    "rowsha": "dt7LIRYVkUteLQ5ASYprm/h+SMGilmFNXeyxRFhXnO8=",
+    "originContent": "启用此项后，会在BP阶段的最后一秒执行**选用英雄**或**禁用英雄**。",
+    "translatedContent": "Une fois activée, cette option exécute la **sélection** ou le **bannissement** du héros à la dernière seconde de la phase BP.  "
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "PzStJ+RD6gSiqeohjedqjozRpxUsZrIQr0wKb8NCcNI=",
+    "originContent": "> 你可以在 *功能设置页面* 来更改**禁选英雄防退**功能的模式设置。",
+    "translatedContent": "> Vous pouvez modifier le mode de la fonction **Protection contre la désertion lors de la sélection/bannissement** sur la *page des paramètres de fonctionnalité*.  "
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "sIN/BjgZP7nRWnbKs3cNm3erYHijK/QBHEQkq600IJI=",
+    "originContent": "## 暂离回复",
+    "translatedContent": "## Réponse automatique en cas d’absence  "
+  },
+  {
+    "row": 135,
+    "rowsha": "74+jQksPgCtZBoKPmVDNnHYNdPb6mNA/coD6zt6K8Yc=",
+    "originContent": "此项开关项为主开关，你还需作其他设置。在 **更多** 配置页面中，设置是否在离开时自动回复好友消息或对局邀请（各项默认为启用状态），并设置回复的文本内容。",
+    "translatedContent": "Cette option est un interrupteur principal, d’autres réglages sont nécessaires. Sur la page de configuration **Plus**, définissez si vous souhaitez répondre automatiquement aux messages d’amis ou aux invitations de parties lors de votre absence (activé par défaut), ainsi que le texte de la réponse.  "
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "priZZTE7kupLUYHPhPSeOpHEZi/cThtaAweV0A1eTRQ=",
+    "originContent": "<img width=\"900\" height=\"680\" alt=\"image\" src=\"https://github.com/user-attachments/assets/68f9e16f-7263-4924-954f-8e4f880a4007\" />",
+    "translatedContent": "<img width=\"900\" height=\"680\" alt=\"image\" src=\"https://github.com/user-attachments/assets/68f9e16f-7263-4924-954f-8e4f880a4007\" />  "
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "1nqJ6+HiUOP4k4FseCisIiUEsHuCS/uIYsxBaDC22R8=",
+    "originContent": "## 附加窗口",
+    "translatedContent": "## Fenêtre additionnelle  "
+  },
+  {
+    "row": 140,
+    "rowsha": "5mi04HuD0GdadbMLxEuOxqp+E53tdh7S/n7dRX3VeH0=",
+    "originContent": "启用此项后，会在部分客户端阶段显示 **附加窗口**。此外，你可以在此开关项的后方按钮进入**附加窗口**的**配置页面**，在此处也可以查看英雄在当前可用娱乐模式中的**平衡属性**（如果有的话），并为其配置在各个模式中可用的符文配置和客户端独立配置。",
+    "translatedContent": "Une fois activée, la **fenêtre additionnelle** s’affiche à certaines phases du client. De plus, vous pouvez accéder à la **page de configuration** de cette fenêtre additionnelle via le bouton situé derrière cet interrupteur ; vous pouvez aussi consulter les **attributs d’équilibre** des héros dans les modes de jeu divertissants disponibles (le cas échéant), et configurer les runes utilisables pour chaque mode ainsi que les configurations indépendantes du client.  "
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "R/bYGSj5U2SxsfpMB72qmab/DOjY3qzNAv55qb7dM5s=",
+    "originContent": "**附加窗口** 配置页面</br>",
+    "translatedContent": "**Page de configuration de la fenêtre additionnelle**</br>  "
+  },
+  {
+    "row": 143,
+    "rowsha": "qjEZuwrXyAhyF5kNeWratQO+8tveGNvaCSxERhKiMUw=",
+    "originContent": "<img width=\"900\" height=\"680\" alt=\"image\" src=\"https://github.com/user-attachments/assets/dd7a6d53-177e-4132-b612-20aaf4a4d2e6\" />",
+    "translatedContent": "<img width=\"900\" height=\"680\" alt=\"image\" src=\"https://github.com/user-attachments/assets/dd7a6d53-177e-4132-b612-20aaf4a4d2e6\" />  "
+  },
+  {
+    "row": 144,
+    "rowsha": "sQVfWoH1H4370mnf+8edlkpyIifpLzlW39m+ar+Gydk=",
+    "originContent": "<img width=\"900\" height=\"680\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7675278c-5ed8-4d0d-9248-d8ef8b07201d\" />",
+    "translatedContent": "<img width=\"900\" height=\"680\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7675278c-5ed8-4d0d-9248-d8ef8b07201d\" />  "
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "+9JuIbJIaK/aVeNZgqKp0Z8O9pVH7S4ywE6VX4+WS3Y=",
+    "originContent": "> 如果你要在**符文配置页面**添加或更新英雄的符文配置，需要在游戏客户端的 **藏品 - 符文** 中选择一项符文页编辑并保存后，从右上角更改召唤师技能并按下**添加配置**按钮或是要更新的**符文配置项**中的 *将当前游戏配置更新至此配置* 按钮来添加或更新符文配置。",
+    "translatedContent": "> Pour ajouter ou mettre à jour une configuration de runes sur la **page de configuration des runes**, vous devez d’abord sélectionner et sauvegarder une page de runes dans le client de jeu, sous **Collection - Runes**, puis changer les compétences d’invocateur en haut à droite et cliquer sur le bouton **Ajouter une configuration** ou utiliser le bouton *Mettre à jour la configuration actuelle avec cette configuration* dans la configuration de runes à mettre à jour.  "
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "2vHQA1AtQplAKd9I3IrbLxU5Atu3H5w5EahjWL+3smU=",
+    "originContent": "**附加窗口**</br>",
+    "translatedContent": "**Fenêtre additionnelle**</br>  "
+  },
+  {
+    "row": 149,
+    "rowsha": "5xOl/MhcRnQ7k8jCXclcP0vWHbtF0KJuI6v8faW4kLA=",
+    "originContent": "<img width=\"388\" height=\"650\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b7a1df40-f496-4c8a-a540-54806fc8d3f4\" />",
+    "translatedContent": "<img width=\"388\" height=\"650\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b7a1df40-f496-4c8a-a540-54806fc8d3f4\" />  "
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "iiG0U85OAS0Isfay3VQYHotiJe27b9fRz3yd+PwmfVk=",
+    "originContent": "## 自动关闭对局",
+    "translatedContent": "## Fermeture automatique de la partie  "
+  },
+  {
+    "row": 152,
+    "rowsha": "llJrlXKb2CYteALHcq5Q+UNtgbL1ti+8qcWFzrH+uyE=",
+    "originContent": "简单直白，在游戏对局结束播放水晶终结动画时自动关闭游戏进程。",
+    "translatedContent": "Simple et direct, ferme automatiquement le processus du jeu à la fin de la partie lors de l’animation de destruction du cristal.  "
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "LIshYO/teyywRsHPjaN/jCFUYyTWiRjNkWTrFCxc0zA=",
+    "originContent": "## 自动重连对局",
+    "translatedContent": "## Reconnexion automatique à la partie  "
+  },
+  {
+    "row": 155,
+    "rowsha": "Pi9Dqmm3PINI8p/xVressIH3xfwZQ8ISh2mrZsQZCHI=",
+    "originContent": "在游戏需要重新连接时尝试进行重新连接。",
+    "translatedContent": "Tente une reconnexion automatique lorsque le jeu demande une reconnexion.  "
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "+b3YZfifSacLyMtqyl9xJg4lqMy3afxBwh9A+5/5LFA=",
+    "originContent": "## 自动选牌（额外扩展）",
+    "translatedContent": "## Sélection automatique des cartes (extension supplémentaire)  "
+  },
+  {
+    "row": 158,
+    "rowsha": "f5wD+uHcTcDOqWJdrlfSTlhzYDmikFAu77FgNX9TsTo=",
+    "originContent": "当前游戏中使用的英雄为卡牌大师时，使用 Z/X/C 键自动选择 蓝/红/黄 牌。",
+    "translatedContent": "Lorsque le héros utilisé en jeu est le Maître des cartes, les touches Z/X/C sélectionnent automatiquement les cartes bleue/rouge/jaune.  "
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "x9TEf/ZOrGt/36BvqwSjNV8SCy0b/aw2+t6QDRuu9Yc=",
+    "originContent": "![pickCards](https://github.com/user-attachments/assets/df5aa45a-8593-44c9-8c3f-bec315552113)",
+    "translatedContent": "![pickCards](https://github.com/user-attachments/assets/df5aa45a-8593-44c9-8c3f-bec315552113)"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> Cette fonctionnalité utilise le traitement graphique et la simulation clavier, testée uniquement sur les deux résolutions courantes (1920x1080/2560x1440), les autres résolutions ne fonctionnant pas correctement sans configuration personnalisée (en particulier celles hors du ratio 16:9).  "
+  },
+  {
+    "row": 162,
+    "rowsha": "QQGmUAuTg53YqwCfYaY4MXJPwqkyDOShGONGgfNcGFI=",
+    "originContent": "> 该功能使用图形处理和键盘模拟方式实现，仅测试目前较常用的两个分辨率（1920x1080/2560x1440），其他分辨率在未自行配置的情况下无法正常使用（特别是16：9缩放比之外的分辨率），检测允许一定的滤镜范围，但建议使用该功能时不要开滤镜，以免导致某个检测无效。",
+    "translatedContent": "> La détection tolère une certaine plage de filtres, mais il est conseillé de ne pas activer de filtres lors de l'utilisation de cette fonctionnalité afin d'éviter l'invalidité de certaines détections."
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
