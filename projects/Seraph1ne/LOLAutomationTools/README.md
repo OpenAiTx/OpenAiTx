@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # 简介
 **LOLAutomationTools** 是一款 **《英雄联盟》** 的功能扩展工具；用于帮助玩家在部分因无法腾出双手或需要暂离的场景时进行一些简单的客户端操作以节省少量时间；软件不会过多干预玩家对游戏方面的理解和玩法，所以部分功能仍需要先手动配置（如英雄符文配置），过多的拘束会让人麻木，并失去游戏本身的乐趣；积极快乐游戏，共建和谐环境。
 

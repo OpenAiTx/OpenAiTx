@@ -1,3 +1,34 @@
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # 简介
 **LOLAutomationTools** 是一款 **《英雄联盟》** 的功能扩展工具；用于帮助玩家在部分因无法腾出双手或需要暂离的场景时进行一些简单的客户端操作以节省少量时间；软件不会过多干预玩家对游戏方面的理解和玩法，所以部分功能仍需要先手动配置（如英雄符文配置），过多的拘束会让人麻木，并失去游戏本身的乐趣；积极快乐游戏，共建和谐环境。
 
@@ -6,6 +37,7 @@
   - 预选英雄
 - 禁用英雄
   - 忽略队选
+
   - 联组禁用模式
 - 随机英雄
 - 禁选英雄防退
@@ -86,45 +118,45 @@
 
 > 如果启用了 *忽略队友预选* ，执行自动禁用英雄时将跳过队伍预选检测。不建议启用该项。
 
-## 接受对局
-在匹配到对局后自动接受对局。
+## Accept Match
+Automatically accept the match after being matched.
 
-> 在启用 *延迟接受对局* 选项后，**接受对局**仅会在接受倒计时剩余最后一秒时自动接受对局。
+> After enabling the *Delay Accept Match* option, **Accept Match** will only automatically accept the match in the last second of the acceptance countdown.
 
-## 创建对局
-你可以通过**创建对局**按钮来手动创建对局或打开此开关项来自动创建对局。
+## Create Match
+You can manually create a match via the **Create Match** button or enable this toggle to create matches automatically.
 
-> *自动创建对局* 需要在 *更多设置* 处选择要创建的对局模式，该选项不会保存至配置中。
+> *Auto Create Match* requires you to select the match mode to create in *More Settings*. This option will not be saved to the configuration.
 
-## 寻找对局
-自动寻找对局，此项仅在对局模式房间中且自身为小队拥有者（房主）时生效。
+## Find Match
+Automatically find matches. This option is only effective in match mode rooms and when you are the squad owner (host).
 
-> 如果启用了 *超时检测* 选项，将在匹配队列中超过队列估计时间达到指定的间隔时自动重新寻找对局。
+> If the *Timeout Detection* option is enabled, it will automatically re-find matches when the time in the matchmaking queue exceeds the estimated queue time and reaches the specified interval.
 
-## 跳过称赞
-跳过对局结束时队友的称赞页面。
+## Skip Praise
+Skip the teammate praise screen at the end of the match.
 
-## 跳过结算
-跳过对局结束时的等待结算（黑屏转圈加载）或赛后结算页面，并回到对局模式房间中。
+## Skip Settlement
+Skip the waiting settlement (black screen spinning loading) or post-match settlement screen at the end of the match and return to the match mode room.
 
-## 交换功能
-含主开关项与三个独立开关项，你还需作其他设置。在**交换功能**更多设置中，设置是否在随机英雄模式中与队友交换英雄或是在征召模式中与队友交换楼层（选择英雄的顺序）和预选位。
+## Swap Function
+Includes a master switch and three independent switches; you need to make other settings. In **Swap Function** more settings, set whether to swap heroes with teammates in Random Hero Mode or swap floors (hero selection order) and pre-select position with teammates in Draft Mode.
 
-*交换英雄与交换选位设置相对简单，这里不多赘述。*
+*Hero swap and position swap settings are relatively simple and will not be elaborated here.*
 
 <img width="900" height="680" alt="image" src="https://github.com/user-attachments/assets/361b4b19-cd72-4cb3-901f-69d49284bc11" />
 
-在**交换楼层**的**更多设置**中，你可以设置交换的顺序（即楼层）和交换模式。
+In **Swap Floor**'s **More Settings**, you can set the swap order (i.e., floor) and swap mode.
 
 <img width="900" height="680" alt="image" src="https://github.com/user-attachments/assets/697bed4a-2984-43f6-b747-36c7911ef99d" />
 
-*交换模式*：
-- 仅目标顺序：接受与指定 *顺序* 一致的队友的请求。
-- 包含目标的优先顺序：接受 ≤ 指定 *顺序* 的队友的请求。
-- 包含目标的延后顺序：接受 ≥ 指定 *顺序* 的队友的请求。
-- 基于目标顺序的范围：接受 *顺序* ≤（*指定顺序* - *范围*）和 *顺序* ≥（*指定顺序* + *范围*）的队友的请求。
+*Swap Mode*:
+- Only target order: Accept requests from teammates whose *order* matches the specified one.
+- Priority order including target: Accept requests from teammates whose *order* ≤ specified order.
+- Deferred order including target: Accept requests from teammates whose *order* ≥ specified order.
+- Range based on target order: Accept requests from teammates whose *order* ≤ (*specified order* - *range*) and *order* ≥ (*specified order* + *range*).
 
-此外，在**其他设置**中还有两个拒绝交换选项，这两项在**启用时**如果队友请求与你交换英雄或选位时不在判定的条件内将会自动拒绝此次交换请求，**否则**不作任何操作，你可以自行决定是否接受交换。
+Additionally, in **Other Settings**, there are two options to refuse swaps. When **enabled**, if a teammate requests to swap heroes or positions with you and does not meet the criteria, the swap request will be automatically refused; **otherwise**, no action will be taken and you can decide whether to accept the swap yourself.
 
 ## 禁选英雄防退
 启用此项后，会在BP阶段的最后一秒执行**选用英雄**或**禁用英雄**。
@@ -158,12 +190,12 @@
 当前游戏中使用的英雄为卡牌大师时，使用 Z/X/C 键自动选择 蓝/红/黄 牌。
 
 ![pickCards](https://github.com/user-attachments/assets/df5aa45a-8593-44c9-8c3f-bec315552113)
-> 该功能使用图形处理和键盘模拟方式实现，仅测试目前较常用的两个分辨率（1920x1080/2560x1440），其他分辨率在未自行配置的情况下无法正常使用（特别是16：9缩放比之外的分辨率），检测允许一定的滤镜范围，但建议使用该功能时不要开滤镜，以免导致某个检测无效。
 
+> 该功能使用图形处理和键盘模拟方式实现，仅测试目前较常用的两个分辨率（1920x1080/2560x1440），其他分辨率在未自行配置的情况下无法正常使用（特别是16：9缩放比之外的分辨率），检测允许一定的滤镜范围，但建议使用该功能时不要开滤镜，以免导致某个检测无效。
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-12
 
 ---

@@ -1,169 +1,201 @@
-# Introduction  
-**LOLAutomationTools** est un outil d'extension fonctionnelle pour **League of Legends** ; destiné à aider les joueurs dans certaines situations où ils ne peuvent pas libérer leurs mains ou doivent s'absenter temporairement, en effectuant quelques opérations simples sur le client pour économiser un peu de temps ; le logiciel n'intervient pas excessivement dans la compréhension et le gameplay du joueur, donc certaines fonctions nécessitent toujours une configuration manuelle préalable (comme la configuration des runes du champion), une trop grande contrainte peut engendrer de la lassitude et faire perdre le plaisir du jeu lui-même ; jouez activement et joyeusement, construisons ensemble un environnement harmonieux.  
 
-# Fonctionnalités  
-- Sélection de champion  
-  - Préréglage de champion  
-- Désactivation de champion  
-  - Ignorer la sélection d'équipe  
-  - Mode de désactivation en groupe  
-- Champion aléatoire  
-- Prévention de bannissement pour champions  
-- Accepter une partie  
-  - Acceptation différée de la partie  
-- Création de partie  
-- Recherche de partie  
-  - Détection de dépassement du temps de recherche  
-- Fonction d’échange  
-  - Échange de champion en mode aléatoire  
-    - Ou acceptation passive d’échange de champion par d’autres joueurs  
-    - Refuser l’échange de champions non sélectionnés  
-  - Échange de position en mode draft  
-    - Ou réception passive d’échange de position par d’autres joueurs  
-    - Refuser l’échange de positions non préréglées  
-  - Échange d’étage en mode draft  
-    - Ou acceptation passive d’échange d’étage par d’autres joueurs  
-    - Refuser l’échange d’étage non configuré  
-- Passer la page d’éloge  
-- Passer la page de déverrouillage  
-- Contrôle des réponses de chat  
-  - Répondre aux messages d’amis en cas d’absence  
-  - Répondre aux invitations de partie en cas d’absence  
-    - Refuser les invitations de partie en cas d’absence  
-- Fenêtre supplémentaire  
-  - Affichage du buff d’équilibrage des champions en mode fun  
-  - Application automatique des runes  
-  - Correction des runes  
-  - Configuration indépendante des champions  
-- Fermeture automatique de la partie  
-- Reconnexion automatique à la partie  
-- Réception automatique des récompenses du passe de combat (y compris Teamfight Tactics)
-- Gestion des demandes d'amis  
-  - Suppression en masse d'amis  
-- Carrière personnalisée  
-  - Contexte de carrière  
-  - Avatar du invocateur  
-  - Statut client  
-  - Signature de statut  
-  - Rang de la carte de visite  
-  - Points d'accomplissement des héros  
-  - Réinitialiser les médailles portées  
-- Blocage des touches fonction  
-- Consultation des performances  
-  - Envoi des performances  
-  - Détection de jeu en équipe dans la partie  
-  - Spectateur des parties des joueurs  
-  - Signalement des joueurs après la partie  
-- Messages dans la partie  
-- Liste noire  
-- Configuration des raccourcis  
-- Paramètres de thème  
-  - Thème clair/sombre  
-  - Thème adaptatif  
-  - Thème personnalisé  
-  - Paramétrage de l'image de fond  
-  - Personnalisation de la police  
-- Fonctionnalités étendues  
-  - Sélection automatique des cartes (Maître des cartes)  
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Seraph1ne&project=LOLAutomationTools&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# Introduction
+**LOLAutomationTools** est un outil d’extension fonctionnelle pour **League of Legends** ; il aide les joueurs à effectuer quelques opérations simples sur le client dans les situations où ils ne peuvent pas utiliser leurs mains ou doivent s’absenter temporairement, permettant ainsi de gagner un peu de temps ; le logiciel n’interfère pas excessivement avec la compréhension du jeu ou les méthodes de jeu, ainsi certaines fonctionnalités nécessitent toujours une configuration manuelle préalable (comme la configuration des runes des champions), trop de restrictions rendraient le jeu monotone et feraient perdre le plaisir du jeu ; jouez de manière positive et joyeuse, construisons ensemble un environnement harmonieux.
+
+# Fonctionnalités
+- Sélection de champion
+  - Pré-sélection du champion
+- Bannissement de champion
+  - Ignorer la sélection de l’équipe
+  - Mode de désactivation de groupe
+- Héros aléatoire
+- Interdiction de quitter lors de l'exclusion de héros
+- Accepter la partie
+  - Acceptation différée de la partie
+- Créer une partie
+- Recherche de partie
+  - Détection du dépassement de temps de matchmaking
+- Fonction d'échange
+  - Échange de héros en mode aléatoire
+    - Ou accepter uniquement passivement l'échange de héros d'autres joueurs
+    - Refuser l'échange de héros non sélectionnés
+  - Échange de position en mode présélection
+    - Ou accepter passivement l'échange de position d'autres joueurs
+    - Refuser l'échange de position non présélectionnée
+  - Échange d'étage en mode draft
+    - Ou accepter uniquement passivement l'échange d'étage d'autres joueurs
+    - Refuser l'échange d'étage non attribué
+- Passer la page de félicitations
+- Passer la page de déblocage
+- Contrôle des réponses de chat
+  - Répondre aux messages d'amis lors de la sortie
+  - Répondre aux invitations de partie lors de la sortie
+    - Refuser les invitations de partie lors de la sortie
+- Fenêtre supplémentaire
+  - Affichage du BUFF d'équilibrage des héros en mode fun
+  - Application automatique des runes
+  - Correction automatique des runes
+  - Configuration indépendante des héros
+- Fermeture automatique de la partie
+- Reconnexion automatique à la partie
+- Réception automatique des récompenses du pass (y compris TFT)
+- Gestion des demandes d'amis
+  - Suppression groupée d'amis
+- Personnalisation du profil
+  - Fond de profil
+  - Icône d'invocateur
+  - Statut du client
+  - Signature de statut
+  - Rang sur la carte de visite
+  - Points de réussite des héros
+  - Réinitialiser les médailles équipées
+- Blocage des touches de fonction
+- Consultation des statistiques
+  - Envoi des statistiques
+  - Détection de groupe vocal en partie
+  - Observation des parties par les joueurs
+  - Signalement des joueurs après la partie
+- Messages rapides en partie
+- Liste noire
+- Configuration des raccourcis
+- Paramètres du thème
+  - Thème sombre/clair
+  - Thème adaptatif
+  - Thème personnalisé
+  - Paramétrage de l'image de fond
+  - Personnalisation de la police
+- Fonctions avancées
+  - Sélection automatique de cartes (Maître des cartes)
 
 
-## Sélection des héros  
-Avant d'utiliser la **sélection des héros** et la **désactivation des héros**, il est nécessaire d'effectuer des modifications dans la page de configuration (bouton à côté de l'interrupteur).  
+## Sélection des héros
+Avant d'utiliser **Sélection des héros** et **Interdiction des héros**, il est nécessaire d'éditer sur la page de configuration (bouton derrière l'option de bascule).
 
-Les héros ajoutés dans les réglages de voie ne sont effectifs que dans certains modes de jeu avec *emplacements de pré-sélection* (comme *Classement* et *Éclair extrême*), le mode aléatoire ne s'applique que dans le mode *Héros aléatoires* (comme *Bataille arctique*, *Chaos infini*, la configuration des héros désactivés ne contient pas la page de configuration aléatoire), le mode universel s'applique à tous les autres modes (hors modes mentionnés précédemment, ceci pour des raisons de conformité). Lors de l'exécution de la sélection automatique des héros, la sélection sera effectuée selon la configuration de **sélection des héros**, de haut en bas dans l'ordre.  
+Les héros ajoutés dans la configuration de voie ne sont actifs que dans certains modes de jeu disposant d'un *slot de présélection* (comme le *Classé* et *URF*), la sélection aléatoire n'est valable que dans les modes *Héros aléatoires* (comme *ARAM*, *URF infini*, la configuration d'interdiction ne comprend pas la page de configuration aléatoire), et la configuration générale s'applique à tous les autres modes (hors ceux cités précédemment, pour respecter l'usage prévu). Lors de l'exécution de la sélection automatique des héros, cela suivra la configuration de **Sélection des héros** de haut en bas.
 
-<img width="900" height="680" alt="image" src="https://github.com/user-attachments/assets/6aa4f1ad-28db-4bd5-a917-df4197024f5f" />  
+<img width="900" height="680" alt="image" src="https://github.com/user-attachments/assets/6aa4f1ad-28db-4bd5-a917-df4197024f5f" />
 
-## Pré-sélection des héros  
-La logique d'exécution de cette fonction est essentiellement la même que celle de la **sélection des héros**, la différence étant que la **pré-sélection des héros** ne sera effective que dans les modes comportant une phase de désactivation, tels que *Classement* et certains modes de divertissement nécessitant la désactivation des héros.  
+## Présélection des héros
+La logique d'exécution de cette fonctionnalité est globalement identique à celle de **Sélection des héros**, à la différence que **Présélection des héros** n'est effective que dans les modes comportant une phase d'interdiction, comme le *Classé* ou certains modes fun nécessitant des bans.
 
-## Désactivation des héros
-**La page de configuration des héros désactivés** est essentiellement la même que celle des **héros sélectionnés**, avec en plus un bouton en haut à droite pour changer de mode, permettant de basculer en mode désactivation.
+## Interdiction des héros
+La page de configuration de **Interdiction des héros** est similaire à celle de **Sélection des héros**, avec en plus un bouton pour changer de mode en haut à droite, permettant de basculer entre les modes d'interdiction.
 
-*Mode désactivation normal* : Ce mode fonctionne de la même manière que la page de configuration des **héros sélectionnés** ; lors de l’exécution de la désactivation automatique des héros, si aucun héros n’est configuré pour être désactivé, un ban vide sera effectué lorsque le temps restant à l’étape de ban sera de 0 secondes.
+*Mode d'interdiction normal* : Le fonctionnement est identique à celui de la page de configuration de **Sélection des héros** ; lors de l'exécution de l'interdiction automatique, si aucun héros n'est configuré, un ban vide sera effectué à 0 seconde restante en phase de ban.
 
-*Mode désactivation en groupe* : Les éléments de la liste de configuration seront remplacés par les héros correspondants dans la configuration des **héros sélectionnés**. En sélectionnant un élément, double-cliquez sur un héros dans la liste de gauche pour l’ajouter au **groupe de désactivation** de ce héros. Lors de l’exécution de la désactivation automatique, les héros seront désactivés dans l’ordre des éléments configurés dans **héros sélectionnés**. Si aucun héros à désactiver n’est configuré dans les **groupes de désactivation** de toutes les configurations des **héros sélectionnés**, la désactivation suivra la logique du mode désactivation normal.
+*Mode d'interdiction groupée* : Les éléments de la liste sont remplacés par les héros correspondants de la configuration **Sélection des héros**. Pour en sélectionner un, double-cliquez sur le héros à gauche pour l'ajouter au **groupe d'interdiction** du héros. Lors de l'exécution de l'interdiction automatique, elle suivra l'ordre de configuration de **Sélection des héros**. Si aucun héros n'est configuré dans tous les **groupes d'interdiction** de la configuration **Sélection des héros**, l'interdiction se fera selon la logique du mode normal.
 
-> Si l’option *Ignorer la pré-sélection des coéquipiers* est activée, la détection de la pré-sélection dans l’équipe sera ignorée lors de l’exécution de la désactivation automatique. Il est déconseillé d’activer cette option.
+> Si *Ignorer la présélection alliée* est activé, la détection de présélection de l'équipe sera ignorée lors de l'interdiction automatique. Il est déconseillé d'activer cette option.
 
-## Accepter la partie  
-Accepte automatiquement la partie une fois qu’elle est trouvée.
+## Acceptation de la partie
+Accepte automatiquement la partie après avoir trouvé une correspondance.
 
-> Après activation de l’option *Acceptation différée de la partie*, **Accepter la partie** ne se fera automatiquement que dans la dernière seconde du compte à rebours d’acceptation.
+> Lorsque l’option *Acceptation différée de la partie* est activée, **Acceptation de la partie** n'acceptera automatiquement la partie qu'à la toute dernière seconde du compte à rebours.
 
-## Créer une partie  
-Vous pouvez créer manuellement une partie via le bouton **Créer une partie** ou activer ce commutateur pour créer automatiquement une partie.
+## Création de partie
+Vous pouvez créer une partie manuellement via le bouton **Créer une partie** ou activer ce paramètre pour créer automatiquement une partie.
 
-> *Création automatique de partie* nécessite de choisir le mode de partie à créer dans *Paramètres avancés*, cette option ne sera pas sauvegardée dans la configuration.
+> *Création automatique de partie* nécessite de choisir le mode de partie à créer dans *Paramètres avancés*, cette option ne sera pas enregistrée dans la configuration.
 
-## Chercher une partie  
-Recherche automatiquement une partie, cette option est active uniquement dans une salle de mode de partie et si vous êtes le leader de l’équipe (hôte).
+## Recherche de partie
+Recherche automatiquement une partie, ne fonctionne que dans la salle de mode de partie et si vous êtes le chef d'équipe (propriétaire de la salle).
 
-> Si l’option *Détection de dépassement de temps* est activée, une nouvelle recherche de partie sera automatiquement lancée si le temps dans la file d’attente dépasse l’estimation pendant un intervalle spécifié.
+> Si l’option *Détection de dépassement de temps* est activée, une nouvelle recherche de partie sera lancée automatiquement si vous restez dans la file d’attente au-delà du temps estimé pendant l’intervalle spécifié.
 
-## Passer les compliments  
-Ignore la page de compliments des coéquipiers à la fin de la partie.
+## Passer les félicitations
+Passe la page de félicitations des coéquipiers à la fin de la partie.
 
-## Passer le décompte final  
-Ignore l’attente de fin de partie (écran noir avec roue de chargement) ou la page de résultats post-partie, et retourne directement dans la salle du mode de partie.
+## Passer la validation
+Passe l’attente de validation (écran noir de chargement) ou la page de résultats après la partie, et retourne à la salle du mode de partie.
 
-## Fonction d’échange  
-Comprend un interrupteur principal et trois interrupteurs indépendants, nécessitant d’autres réglages. Dans les *Paramètres avancés* de la **fonction d’échange**, vous pouvez configurer si vous souhaitez échanger les héros avec vos coéquipiers en mode héros aléatoire, ou échanger l’ordre de sélection (étage) et les positions pré-sélectionnées en mode draft.
+## Fonction d’échange
+Inclut un interrupteur principal et trois interrupteurs indépendants, nécessitant des réglages supplémentaires. Dans les *paramètres avancés de la fonction d’échange*, définissez si vous souhaitez échanger des champions avec des coéquipiers en mode aléatoire ou échanger l’ordre de sélection (étage) et la position présélectionnée en mode draft.
 
-*La configuration des échanges de héros et de positions est relativement simple, donc peu détaillée ici.*
+*Les réglages pour échanger des champions ou des positions sont relativement simples et ne seront pas détaillés ici.*
 
 <img width="900" height="680" alt="image" src="https://github.com/user-attachments/assets/361b4b19-cd72-4cb3-901f-69d49284bc11" />
 
-Dans les **Paramètres avancés** de **l’échange d’étage**, vous pouvez configurer l’ordre d’échange (c’est-à-dire l’étage) et le mode d’échange.
+Dans les *paramètres avancés de l’échange d’étage*, vous pouvez définir l’ordre (étage) et le mode d’échange.
 
 <img width="900" height="680" alt="image" src="https://github.com/user-attachments/assets/697bed4a-2984-43f6-b747-36c7911ef99d" />
 
-*Mode d’échange* :  
-- Ordre cible uniquement : accepter les demandes des coéquipiers dont l’*ordre* correspond à l’*ordre* spécifié.  
-- Priorité incluant la cible : accepter les demandes des coéquipiers avec un ordre ≤ à l’*ordre* spécifié.  
-- Retard incluant la cible : accepter les demandes des coéquipiers avec un ordre ≥ à l’*ordre* spécifié.  
-- Plage basée sur l’ordre cible : accepter les demandes des coéquipiers avec un *ordre* ≤ (*ordre spécifié* - *plage*) et *ordre* ≥ (*ordre spécifié* + *plage*).  
+*Mode d’échange* :
+- Ordre cible uniquement : accepte les demandes des coéquipiers ayant l’*ordre* spécifié.
+- Ordre prioritaire incluant la cible : accepte les demandes des coéquipiers ayant un *ordre* ≤ à celui spécifié.
+- Ordre différé incluant la cible : accepte les demandes des coéquipiers ayant un *ordre* ≥ à celui spécifié.
+- Plage basée sur l’ordre cible : accepte les demandes des coéquipiers ayant un *ordre* ≤ (*ordre spécifié* - *plage*) et *ordre* ≥ (*ordre spécifié* + *plage*).
 
-De plus, dans les **autres paramètres**, il existe deux options de refus d’échange qui, si elles sont **activées**, rejettent automatiquement une demande d’échange si le coéquipier ne correspond pas aux conditions définies pour échanger un héros ou une position, **sinon** aucune action n’est effectuée, vous pouvez décider vous-même d’accepter l’échange.  
+De plus, dans **Autres paramètres**, il existe deux options de refus d’échange. Si **activées**, toute demande d’échange de champion ou de position qui ne respecte pas les critères définis sera automatiquement refusée, **sinon** aucune action ne sera prise, vous pouvez choisir d’accepter ou non l’échange.
 
-## Protection contre la désertion lors de la sélection/bannissement  
-Une fois activée, cette option exécute la **sélection** ou le **bannissement** du héros à la dernière seconde de la phase BP.  
+## Protection contre l’abandon lors du bannissement/sélection des champions
+Lorsque cette option est activée, **sélectionner** ou **bannir un champion** sera automatiquement effectué à la dernière seconde de la phase BP.
 
-> Vous pouvez modifier le mode de la fonction **Protection contre la désertion lors de la sélection/bannissement** sur la *page des paramètres de fonctionnalité*.  
+> Vous pouvez modifier le mode de la fonction **Protection contre l’abandon lors du bannissement/sélection des champions** sur la *page des paramètres de fonctionnalités*.
 
-## Réponse automatique en cas d’absence  
-Cette option est un interrupteur principal, d’autres réglages sont nécessaires. Sur la page de configuration **Plus**, définissez si vous souhaitez répondre automatiquement aux messages d’amis ou aux invitations de parties lors de votre absence (activé par défaut), ainsi que le texte de la réponse.  
+## Réponse automatique en cas d’absence temporaire
+Cette option est le commutateur principal, d’autres réglages sont nécessaires. Sur la page de configuration **Plus**, définissez si les messages des amis ou les invitations à une partie doivent recevoir une réponse automatique lors de votre absence (ces options sont activées par défaut), et configurez le texte de réponse.
 
-<img width="900" height="680" alt="image" src="https://github.com/user-attachments/assets/68f9e16f-7263-4924-954f-8e4f880a4007" />  
+<img width="900" height="680" alt="image" src="https://github.com/user-attachments/assets/68f9e16f-7263-4924-954f-8e4f880a4007" />
 
-## Fenêtre additionnelle  
-Une fois activée, la **fenêtre additionnelle** s’affiche à certaines phases du client. De plus, vous pouvez accéder à la **page de configuration** de cette fenêtre additionnelle via le bouton situé derrière cet interrupteur ; vous pouvez aussi consulter les **attributs d’équilibre** des héros dans les modes de jeu divertissants disponibles (le cas échéant), et configurer les runes utilisables pour chaque mode ainsi que les configurations indépendantes du client.  
+## Fenêtre supplémentaire
+Lorsque cette option est activée, une **fenêtre supplémentaire** s’affiche à commes étapes du client. De plus, vous pouvez accéder à la **page de configuration** de la **fenêtre supplémentaire** à l’aide du bouton situé à côté de ce commutateur, où vous pouvez également consulter les **attributs d’équilibrage** du champion dans les modes fun actuellement disponibles (le cas échéant), et configurer les runes et options spécifiques au client pour chaque mode.
 
-**Page de configuration de la fenêtre additionnelle**</br>  
-<img width="900" height="680" alt="image" src="https://github.com/user-attachments/assets/dd7a6d53-177e-4132-b612-20aaf4a4d2e6" />  
-<img width="900" height="680" alt="image" src="https://github.com/user-attachments/assets/7675278c-5ed8-4d0d-9248-d8ef8b07201d" />  
+Page de configuration de la **fenêtre supplémentaire**</br>
+<img width="900" height="680" alt="image" src="https://github.com/user-attachments/assets/dd7a6d53-177e-4132-b612-20aaf4a4d2e6" />
+<img width="900" height="680" alt="image" src="https://github.com/user-attachments/assets/7675278c-5ed8-4d0d-9248-d8ef8b07201d" />
 
-> Pour ajouter ou mettre à jour une configuration de runes sur la **page de configuration des runes**, vous devez d’abord sélectionner et sauvegarder une page de runes dans le client de jeu, sous **Collection - Runes**, puis changer les compétences d’invocateur en haut à droite et cliquer sur le bouton **Ajouter une configuration** ou utiliser le bouton *Mettre à jour la configuration actuelle avec cette configuration* dans la configuration de runes à mettre à jour.  
+> Pour ajouter ou mettre à jour la configuration des runes d’un champion sur la **page de configuration des runes**, il faut d’abord sélectionner et enregistrer une page de runes dans **Collection - Runes** dans le client, puis modifier les sorts d’invocateur en haut à droite et cliquer sur le bouton **Ajouter une configuration** ou sur ben *Mettre à jour la configuration actuelle dans cette configuration* de la configuration de runes à mettre à jour.
 
-**Fenêtre additionnelle**</br>  
-<img width="388" height="650" alt="image" src="https://github.com/user-attachments/assets/b7a1df40-f496-4c8a-a540-54806fc8d3f4" />  
+**Fenêtre supplémentaire**</br>
+<img width="388" height="650" alt="image" src="https://github.com/user-attachments/assets/b7a1df40-f496-4c8a-a540-54806fc8d3f4" />
 
-## Fermeture automatique de la partie  
-Simple et direct, ferme automatiquement le processus du jeu à la fin de la partie lors de l’animation de destruction du cristal.  
+## Fermeture automatique de la partie
+Simple et direct, le jeu se fermera automatiquement à la fin de l’animation de destruction du Nexus.
 
-## Reconnexion automatique à la partie  
-Tente une reconnexion automatique lorsque le jeu demande une reconnexion.  
+## Reconnexion automatique à la partie
+Tente de se reconnecter automatiquement à la partie lorsque cela est nécessaire.
 
-## Sélection automatique des cartes (extension supplémentaire)  
-Lorsque le héros utilisé en jeu est le Maître des cartes, les touches Z/X/C sélectionnent automatiquement les cartes bleue/rouge/jaune.  
+## Sélection automatique de carte (extension supplémentaire)
+Lorsque vous jouez Twisted Fate dans la partie actuelle, utilisez les touches Z/X/C pour sélectionner automatiquement la carte bleue/rouge/jaune.
 
 ![pickCards](https://github.com/user-attachments/assets/df5aa45a-8593-44c9-8c3f-bec315552113)
-> Cette fonctionnalité utilise le traitement graphique et la simulation clavier, testée uniquement sur les deux résolutions courantes (1920x1080/2560x1440), les autres résolutions ne fonctionnant pas correctement sans configuration personnalisée (en particulier celles hors du ratio 16:9).  
-> La détection tolère une certaine plage de filtres, mais il est conseillé de ne pas activer de filtres lors de l'utilisation de cette fonctionnalité afin d'éviter l'invalidité de certaines détections.
+
+> Cette fonctionnalité utilise le traitement d’images et la simulation du clavier, testée uniquement sur les deux résolutions courantes (1920x1080/2560x1440). Pour d’autres résolutions, elle ne fonctionnera pas correctement sans configuration manuelle (en particulier pour les ratios autres que 16:9). Une tolérance de filtre est permise, mais il est conseillé de ne pas utiliser de filtre lorsque cette fonctionnalité est activée, afin d’éviter que certaines détections échouent.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-12
 
 ---
