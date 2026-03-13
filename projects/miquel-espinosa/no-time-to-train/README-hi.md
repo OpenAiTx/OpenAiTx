@@ -53,49 +53,50 @@
 </div>
 
 ---
-
-> 🚨 **अपडेट (22 जुलाई 2025):** कस्टम डेटासेट के लिए निर्देश जोड़े गए हैं!
+> 🚨 **अपडेट (5 फरवरी 2026)**: पेपर की पांडुलिपि को व्यापक एब्लेशन अध्ययन, दृश्यांकन और अतिरिक्त प्रयोगों के साथ अपडेट किया गया है।
+> 
+> 🚨 **अपडेट (22 जुलाई 2025):** कस्टम डेटासेट्स के लिए निर्देश जोड़े गए हैं!
 > 
 > 🔔 **अपडेट (16 जुलाई 2025):** कोड को निर्देशों के साथ अपडेट किया गया है!
 
 ---
 
-## 📋 सामग्री की तालिका
+## 📋 विषय-सूची
 
 - [🎯 मुख्य आकर्षण](#-highlights)
 - [📜 सारांश](#-abstract)
-- [🧠 आर्किटेक्चर](#-architecture)
-- [🛠️ स्थापना निर्देश](#️-installation-instructions)
+- [🧠 संरचना](#-architecture)
+- [🛠️ इंस्टॉलेशन निर्देश](#️-installation-instructions)
   - [1. रिपॉजिटरी क्लोन करें](#1-clone-the-repository)
-  - [2. कॉन्डा एनवायरनमेंट बनाएं](#2-create-conda-environment)
-  - [3. SAM2 और DinoV2 इंस्टॉल करें](#3-install-sam2-and-dinov2)
+  - [2. कोंडा एनवायरनमेंट बनाएं](#2-create-conda-environment)
+  - [3. SAM2 और DINOv2 इंस्टॉल करें](#3-install-sam2-and-dinov2)
   - [4. डेटासेट डाउनलोड करें](#4-download-datasets)
-  - [5. SAM2 और DinoV2 चेकपॉइंट्स डाउनलोड करें](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 इंफरेंस कोड: Few-shot COCO में 30-shot SOTA परिणाम पुन: उत्पन्न करें](#-inference-code)
+  - [5. SAM2 और DINOv2 चेकपॉइंट्स डाउनलोड करें](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 इनफेरेंस कोड: Few-shot COCO में 30-shot SOTA परिणाम दोहराएं](#-inference-code)
   - [0. रेफरेंस सेट बनाएं](#0-create-reference-set)
-  - [1. रेफरेंस के साथ मेमोरी भरें](#1-fill-memory-with-references)
+  - [1. मेमोरी को रेफरेंस से भरें](#1-fill-memory-with-references)
   - [2. मेमोरी बैंक का पोस्ट-प्रोसेस करें](#2-post-process-memory-bank)
-  - [3. टारगेट छवियों पर इंफरेंस करें](#3-inference-on-target-images)
-  - [परिणाम](#results)
+  - [3. लक्ष्य इमेज पर इनफेरेंस करें](#3-inference-on-target-images)
 
+  - [परिणाम](#results)
 - [🔍 कस्टम डेटासेट](#-custom-dataset)
   - [0. कस्टम डेटासेट तैयार करें ⛵🐦](#0-prepare-a-custom-dataset)
   - [0.1 यदि केवल bbox एनोटेशन उपलब्ध हैं](#01-if-only-bbox-annotations-are-available)
-  - [0.2 coco एनोटेशन को pickle फ़ाइल में बदलें](#02-convert-coco-annotations-to-pickle-file)
-  - [1. रेफरेंस के साथ मेमोरी भरें](#1-fill-memory-with-references)
-  - [2. मेमोरी बैंक का पोस्ट-प्रोसेसिंग करें](#2-post-process-memory-bank)
-- [📚 उद्धरण](#-citation)
+  - [0.2 coco एनोटेशन को पिकल फ़ाइल में बदलें](#02-convert-coco-annotations-to-pickle-file)
+  - [1. रेफरेंस से मेमोरी भरें](#1-fill-memory-with-references)
+  - [2. मेमोरी बैंक का पोस्ट-प्रोसेस करें](#2-post-process-memory-bank)
+- [📚 संदर्भ](#-citation)
 
 
-## 🎯 मुख्य विशेषताएँ
-- 💡 **प्रशिक्षण-मुक्त**: कोई फाइन-ट्यूनिंग नहीं, कोई प्रॉम्प्ट इंजीनियरिंग नहीं—सिर्फ एक रेफरेंस इमेज।  
-- 🖼️ **रेफरेंस-आधारित**: केवल कुछ उदाहरणों से नए ऑब्जेक्ट्स का सेगमेंटेशन करें।  
-- 🔥 **SOTA प्रदर्शन**: COCO, PASCAL VOC, और Cross-Domain FSOD पर पिछले प्रशिक्षण-मुक्त तरीकों से बेहतर।
+## 🎯 मुख्य बातें
+- 💡 **प्रशिक्षण-मुक्त**: न फाइन-ट्यूनिंग, न प्रॉम्प्ट इंजीनियरिंग—सिर्फ एक संदर्भ छवि।  
+- 🖼️ **संदर्भ-आधारित**: केवल कुछ उदाहरणों से नए वस्तुओं का विभाजन करें।  
+- 🔥 **SOTA प्रदर्शन**: COCO, PASCAL VOC, और Cross-Domain FSOD पर पिछले प्रशिक्षण-मुक्त तरीकों से बेहतर प्रदर्शन।
 
 **लिंक:**
 - 🧾 [**arXiv पेपर**](https://arxiv.org/abs/2507.02798)  
 - 🌐 [**प्रोजेक्ट वेबसाइट**](https://miquel-espinosa.github.io/no-time-to-train/)  
-- 📈 [**कोड के साथ पेपर**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
+- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
 ## 📜 सारांश
 
@@ -125,25 +126,25 @@ cd no-time-to-train
 conda env create -f environment.yml
 conda activate no-time-to-train
 ```
-### 3. SAM2 और DinoV2 स्थापित करें
 
-हम स्रोत से SAM2 और DinoV2 स्थापित करेंगे।
+### 3. SAM2 और DINOv2 स्थापित करें
 
+हम SAM2 और DINOv2 को स्रोत से स्थापित करेंगे।
 ```bash
 pip install -e .
 cd dinov2
 pip install -e .
 cd ..
 ```
+
 ### 4. डेटासेट डाउनलोड करें
 
 कृपया COCO डेटासेट डाउनलोड करें और इसे `data/coco` में रखें
 
-### 5. SAM2 और DinoV2 चेकपॉइंट्स डाउनलोड करें
+### 5. SAM2 और DINOv2 चेकपॉइंट डाउनलोड करें
 
-हम वही SAM2 चेकपॉइंट्स डाउनलोड करेंगे जो पेपर में उपयोग किए गए थे।
-(ध्यान दें, हालांकि, SAM2.1 चेकपॉइंट्स पहले से उपलब्ध हैं और संभवतः बेहतर प्रदर्शन कर सकते हैं।)
-
+हम पेपर में उपयोग किए गए वही SAM2 चेकपॉइंट डाउनलोड करेंगे।
+(ध्यान दें, हालांकि, SAM2.1 चेकपॉइंट पहले से उपलब्ध हैं और बेहतर प्रदर्शन कर सकते हैं।)
 
 ```bash
 mkdir -p checkpoints/dinov2
@@ -420,23 +421,404 @@ BBOX RESULTS:
 SEGM RESULTS:
   Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458
 ```
-दृश्य परिणाम `results_analysis/my_custom_dataset/` में सहेजे जाते हैं। ध्यान दें कि हमारी विधि झूठे नकारात्मक मामलों के लिए काम करती है, यानी वे छवियाँ जिनमें वांछित वर्गों की कोई भी इकाई नहीं होती है।
+दृश्य परिणाम `results_analysis/my_custom_dataset/` में सहेजे गए हैं। ध्यान दें कि हमारी विधि झूठे नकारात्मक (false negatives) के लिए काम करती है, अर्थात् वे चित्र जिनमें वांछित श्रेणियों के कोई उदाहरण नहीं होते।
 
-*छवियों पर क्लिक करें बड़ा देखने के लिए ⬇️*
+*चित्रों पर क्लिक करें विस्तार के लिए ⬇️*
 
-| नावों वाली लक्षित छवि ⛵ (बाएं GT, दाएं पूर्वानुमान) | पक्षियों वाली लक्षित छवि 🐦 (बाएं GT, दाएं पूर्वानुमान) |
+| नावों वाले लक्ष्य चित्र ⛵ (बाएँ GT, दाएँ पूर्वानुमान) | पक्षियों वाले लक्ष्य चित्र 🐦 (बाएँ GT, दाएँ पूर्वानुमान) |
 |:----------------------:|:----------------------:|
 | ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |
 
-| नावों और पक्षियों वाली लक्षित छवि ⛵🐦 (बाएं GT, दाएं पूर्वानुमान) | बिना नाव या पक्षियों वाली लक्षित छवि 🚫 (बाएं GT, दाएं पूर्वानुमान) |
+| नाव और पक्षी वाले लक्ष्य चित्र ⛵🐦 (बाएँ GT, दाएँ पूर्वानुमान) | नाव या पक्षी के बिना लक्ष्य चित्र 🚫 (बाएँ GT, दाएँ पूर्वानुमान) |
 |:---------------------------------:|:----------------------------------:|
 | ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |
 
 
-## 📚 संदर्भ
+## 🔬 अपक्षरण (Ablations)
 
-यदि आप इस कार्य का उपयोग करते हैं, तो कृपया हमें उद्धृत करें:
+### बैकबोन अपक्षरण
 
+हमारी विधि की फाउंडेशन मॉडल्स में स्थानांतरण योग्यता का मूल्यांकन करने के लिए, हम सेमांटिक
+एनकोडर (DINOv2) और SAM-आधारित सेगमेंटर दोनों को कई विकल्पों से बदलते हैं।
+
+**सेमांटिक एनकोडर अपक्षरण:**
+
+
+```bash
+# CLIP (Sizes: b16, b32, l14, l14@336px)
+bash scripts/clip/clipl14@336px.sh
+bash scripts/clip/clipl14.sh
+bash scripts/clip/clipb16.sh
+bash scripts/clip/clipb32.sh
+
+# DINOV3 (Sizes: b, l, h)
+bash scripts/dinov3/dinov3b.sh
+bash scripts/dinov3/dinov3l.sh
+bash scripts/dinov3/dinov3h.sh
+
+# PE (Sizes: g14, l14)
+bash scripts/pe/PEg14.sh
+bash scripts/pe/PEl14.sh
+```
+
+**सेगमेंटर एब्लेशन:**
+
+```bash
+# SAM2 (Sizes: tiny, small, base+, large)
+bash scripts/sam2/sam2_tiny.sh
+bash scripts/sam2/sam2_small.sh
+bash scripts/sam2/sam2_base_plus.sh
+bash scripts/baseline/dinov2_sam_baseline.sh # SAM2 Large
+```
+
+### COCO कुछ-शॉट डेटासेट पर VLM मूल्यांकन
+
+हम QWEN VLM का मूल्यांकन COCO कुछ-शॉट डेटासेट पर करते हैं।
+
+```bash
+bash scripts/vl-qwen/ablation-vl-qwen.sh
+```
+
+### संदर्भ छवि की युक्तियाँ
+
+यह समझने के लिए कि अलग-अलग संदर्भ छवियाँ प्रदर्शन में बदलाव क्यों लाती हैं, हम COCO नए वर्ग एनोटेशन के सांख्यिकीय गुणों का विश्लेषण करते हैं।
+
+#### विश्लेषण
+
+हम तीन एनोटेशन विशेषताओं का अध्ययन करते हैं: (1) मास्क क्षेत्र (वस्तु का आकार),
+(2) मास्क केंद्र स्थान, और (3) छवि किनारों से दूरी।
+
+<details>
+<summary><b>निर्देश:</b></summary>
+
+```bash
+# Mask area distribution
+python no_time_to_train/make_plots/mask_area_distribution.py \
+  --input data/coco/annotations/instances_val2017.json \
+  --output no_time_to_train/make_plots/mask_area_distribution/mask_area_distribution.png \
+  --edges-output no_time_to_train/make_plots/mask_area_distribution/bbox_edge_distance_histograms.png \
+  --center-output no_time_to_train/make_plots/mask_area_distribution/bbox_center_density.png \
+  --bins 80 \
+  --distance-bins 80 \
+  --disable-center-density
+
+# Bbox center positions
+python no_time_to_train/make_plots/bbox_positions.py \
+	--per-class-root data/coco/annotations/per_class_instances \
+	--filename centeredness_2d_hist_plain.png \
+	--max-cols 6 \
+	--output-dir ./no_time_to_train/make_plots/bbox_positions \
+	--outfile grid_bbox_positions.png
+```
+</details>
+
+<details>
+<summary><b>[OUTPUT] मास्क क्षेत्र वितरण</b></summary>
+<img width="600" height="600" alt="mask_area_distribution" src="https://github.com/user-attachments/assets/ece21119-3622-4a2f-8319-1d52ff05bf99" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] बॉक्स केंद्र घनत्व</b></summary>
+<img width="3165" height="1627" alt="grid_bbox_positions" src="https://github.com/user-attachments/assets/dff4ddb2-a3f1-45e1-af12-8e9fffbb4d6c" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] बॉक्स किनारे दूरी हिस्टोग्राम</b></summary>
+<img width="1800" height="1200" alt="bbox_edge_distance_histograms" src="https://github.com/user-attachments/assets/e23d1360-599c-46a2-af59-3d071112e76e" />
+
+</details>
+
+#### चयन
+
+हम प्रति वर्ग 100 विविध संदर्भ छवियों का नमूना लेते हैं, जो स्पष्ट रूप से
+मास्क के आकार, केंद्र और किनारे की दूरी की रेंज को कवर करते हैं। प्रत्येक
+संदर्भ को एक नियत, कम किए गए वैधता उपसमुच्चय पर मूल्यांकित किया जाता है।
+
+<details>
+<summary><b>निर्देश:</b></summary>
+
+**सेटअप स्क्रिप्ट:** `scripts/1shot_ref_ablation/setup.sh`:
+1. प्रति वर्ग json फ़ाइल बनाएँ
+2. किसी विशिष्ट वर्ग का विश्लेषण करें
+3. विभिन्न हीयूरिस्टिक्स के साथ संदर्भ सेट बनाएँ
+
+
+```bash
+bash scripts/1shot_ref_ablation/setup.sh
+```
+
+**स्क्रिप्ट चलाएं:** `scripts/1shot_ref_ablation/gpu*.sh`:
+
+4. प्रत्येक संदर्भ सेट के लिए पाइपलाइन चलाएं
+```bash
+# Example launch script that calls template script for each reference set
+bash scripts/1shot_ref_ablation/gpu0.sh
+```
+
+</details>
+
+
+#### परिणाम
+
+हम विश्लेषण करते हैं कि डिटेक्शन स्कोर किस प्रकार संदर्भ छवि की विशेषताओं से संबंधित हैं
+(मास्क आकार, केंद्र स्थिति, किनारे की दूरी)।
+
+<details>
+<summary><b>निर्देश:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/heuristics_analysis.py
+# Outputs: 
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/per_class_area_vs_raw_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/all_classes_area_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/edge_distance_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_area_category_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_centered_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_avoid_sides_norm_scores.png
+```
+</details>
+
+<details>
+<summary><b>[OUTPUT] बारप्लॉट्स। प्रदर्शन पर मास्क क्षेत्र (बाएँ) और केंद्रितता (दाएँ) का प्रभाव</b></summary>
+<img width="1190" height="846" alt="barplot" src="https://github.com/user-attachments/assets/e900aff5-523d-4563-aebc-0135dcbb5eb6" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] हीटमैप्स। मास्क-केंद्र स्थान के अनुसार प्रदर्शन के 2D स्कोर मैप</b></summary>
+<img width="1250" height="545" alt="heatmap" src="https://github.com/user-attachments/assets/c2c59ffe-b19e-4907-b0be-68249cf5db51" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] सभी COCO नवीन वर्गों के लिए संदर्भ-चित्र प्रदर्शन बनाम मास्क क्षेत्र</b></summary>
+<img width="2500" height="1432" alt="class_performance" src="https://github.com/user-attachments/assets/05a0e213-3ba5-4b4f-80ed-9b7ca782642a" />
+
+</details>
+
+### संदर्भ-चित्र क्षरण
+
+हम अपने विधि का मूल्यांकन क्रमिक रूप से क्षरित संदर्भ चित्रों पर बढ़ते हुए
+गाउसियन ब्लर स्तर लागू करके करते हैं।
+<img width="2640" height="1194" alt="ablation-blur" src="https://github.com/user-attachments/assets/c2abf0ab-1578-41cf-abcf-50e43f7691f5" />
+
+<details>
+<summary><b>निर्देश:</b></summary>
+
+
+
+```bash
+# Run different blur levels
+bash scripts/blur_ablation/blur_ablation.sh
+
+# Plot grid of blur ablation results
+python no_time_to_train/make_plots/plot_blur_results.py \
+    --results-root ./work_dirs/blur_ablation \
+    --class-id 0 \
+    --max-cols 4 \
+    --output-dir ./no_time_to_train/make_plots/blur_ablation \
+    --outfile grid_blur_ablation_class_0.png
+```
+
+</details>
+
+### फ़ीचर समानता
+
+संदर्भ छवियों और लक्ष्य छवियों के बीच फ़ीचर समानता को देखने के लिए स्क्रिप्ट।
+
+यह एकल-फ़ीचर समानता (पाथ फ़ीचर्स), और प्रोटोटाइप-आधारित समानता (समेकित फ़ीचर्स) उत्पन्न करता है।
+<img width="2500" height="1030" alt="feature_similarity_small" src="https://github.com/user-attachments/assets/d56ec9aa-c60e-4fe6-92cd-aa6270b1d6ed" />
+
+<details>
+<summary><b>निर्देश:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/feature_similarity.py \
+  --classes orange \  
+  --num-images 20 \
+  --min-area 12 \
+  --max-area 25000 \
+  --min-instances 2 \
+  --seed 123 \
+  --max-per-class 12
+```
+</details>
+
+### टी-एसएनई प्लॉट्स (DINOv2 फीचर पृथक्करण)
+
+DINOv2 फीचर्स का टी-एसएनई असमान वर्गों के लिए स्पष्ट विभाजन दिखाता है,
+लेकिन समान वर्गों के लिए भारी ओवरलैप, जो संकेत करता है कि भ्रम
+बैकबोन फीचर ज्योमेट्री से उत्पन्न होता है न कि प्रोटोटाइप चयन से।
+<img width="2500" height="1444" alt="tsne" src="https://github.com/user-attachments/assets/baffc430-1600-44a1-9a14-1b08e25a9d55" />
+
+<details>
+<summary><b>निर्देश:</b></summary>
+
+फीचर्स निकालें
+
+```bash
+python no_time_to_train/make_plots/tsne-coco.py --extract
+```
+टी-एसएनई प्लॉट्स बनाएं
+
+
+```bash
+# Example spoon vs fork
+python no_time_to_train/make_plots/tsne-coco.py --classes cat dog
+```
+</details>
+
+## 🛠️ सहायक
+
+### मेमोरी को विज़ुअलाइज़ करें
+
+यहाँ feature_comparison_small.png छवि जोड़ें
+
+<details>
+<summary><b>निर्देश</b></summary>
+
+किसी दिए गए प्रयोग के लिए मेमोरी बैंक (PCA और K-means विज़ुअलाइज़ेशन) देखने के लिए निम्नलिखित कमांड को समायोजित करें।
+
+संदर्भ छवि को क्रॉप किए गए मास्क के साथ/बिना विज़ुअलाइज़ करने के लिए `DO_NOT_CROP` को True/False पर सेट करें (`no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` में)।
+
+
+```bash
+python run_lightening.py test --config $CONFIG \
+    --model.test_mode vis_memory \
+    --ckpt_path $RESULTS_DIR/memory_postprocessed.ckpt \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $RESULTS_DIR/$FILENAME \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.class_split $CLASS_SPLIT \
+    --model.init_args.model_cfg.dataset_name $CLASS_SPLIT \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+</details>
+
+### छवियों का आकार 512x512 में बदलें (छवियों को वर्गाकार बनाएं)
+
+छवियों का आकार 512x512 में बदलने और उन्हें एक नए डायरेक्टरी में सहेजने के लिए, निम्न कमांड चलाएँ। यह पेपर के चित्रों के लिए है।
+
+<details>
+<summary><b>निर्देश:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/paper_fig_square_imgs.py
+```
+</details>
+
+### मॉडल आकार और मेमोरी
+
+मॉडल आकार और मेमोरी की गणना के लिए निम्नलिखित कमांड चलाएँ।
+
+<details>
+<summary><b>निर्देश:</b></summary>
+
+- मॉडल आकार और मेमोरी गणना के लिए `no_time_to_train/models/Sam2MatchingBaseline_noAMG_model_and_memory.py` देखें।
+(सबसे आसान: अस्थायी रूप से Sam2MatchingBaseline_noAMG.py से बदलें, फिर वापस नाम बदलें।)
+</details>
+
+## 🌍 EO डेटासेट्स
+
+### मूल्यांकन स्क्रिप्ट्स (EO डेटासेट्स)
+
+मूल्यांकन स्क्रिप्ट्स `scripts/EO` डायरेक्टरी में मिल सकती हैं। EO डेटासेट्स `./scripts/EO/EO_template.sh` स्क्रिप्ट का उपयोग मूल्यांकन चलाने के लिए करते हैं।
+
+प्रत्येक EO प्रयोग रन `./EO_results` डायरेक्टरी के अंतर्गत सुरक्षित किया जाता है। प्रयोग फोल्डर में हम संग्रहित करते हैं:
+- configuration और रनटाइम के साथ summary.txt फाइल।
+- टेस्ट सेट पर prediction visualisations (`results_analysis` फोल्डर)।
+- मेमोरी visualisations (`memory_vis` फोल्डर)।
+- few-shot annotation pickle फाइल।
+- मॉडल के checkpoints (अगर साफ़ नहीं किए गए हों)।
+
+### चित्र और तालिकाएँ
+चित्र और तालिकाएँ बनाने के लिए अतिरिक्त स्क्रिप्ट्स।
+
+<details>
+<summary><b>EO डेटासेट्स की सारांश लैटेक्स तालिका:</b></summary>
+
+
+
+
+```bash
+python scripts/convert_datasets/summary_table_datasets.py
+```
+
+</details>
+
+
+<details>
+<summary><b>EO डेटा सेट्स की LaTeX तालिका बनाएं:</b></summary>
+
+```bash
+python scripts/paper_figures/table_EO_results.py ./EO_results_no_heuristics
+```
+
+</details>
+
+
+<details>
+<summary><b>EO डेटा सेट्स की सटीकता प्लॉट:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_accuracy.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>EO डाटासेट्स पर ह्यूरिस्टिक्स के प्रभाव का सारांश:</b></summary>
+  
+```bash
+python scripts/paper_figures/plot_EO_heuristic.py \
+  --no-heuristics ./EO_results_no_heuristics \
+  --heuristics ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>EO डेटा सेट्स का रनटाइम प्लॉट:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_runtime.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>पेपर के चित्र के लिए EO ग्रिड विज़ुअलाइजेशन उत्पन्न करें:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_grid.py \
+  --root ./EO_results_no_heuristics \
+  --dataset ISAID \
+  --shots 1
+```
+
+</details>
+
+
+
+
+
+
+## 📚 Citation
+
+If you use this work, please cite us:
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -451,6 +833,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
 
 ---

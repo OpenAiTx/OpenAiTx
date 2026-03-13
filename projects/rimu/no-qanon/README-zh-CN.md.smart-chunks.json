@@ -1,0 +1,484 @@
+[
+  {
+    "Id": 1,
+    "Content": "# No-QAnon\n\nAn anti-fascist domains blocklist of QAnon, conspiracy, fake news, far-right and discriminatory websites.\n\nBy blocking the websites linked to hate groups and bad actors, it aims to defuse recruitment, propaganda and slow the spread of disinformation via tactics such as psyops, astroturfing, trolls, false flags, sockpuppeting, stochastic terrorism, FUD.\n\nA domains blocklist only blocks entire websites: it's unfortunately unable to block anything on social media where radicalization often happens.\nIt will still definitely reduce exposition to false and harmful informations.\nFascists prey on the vulnerable so stay vigilant and consider also using a social media blocklist if needed.\n\nDistributed under the [anti-fascist licence](https://github.com/rimu/no-qanon/blob/master/LICENSE.txt).\n\n## Hosts format\n\n[Blocklist in Hosts format](https://raw.githubusercontent.com/rimu/no-qanon/master/hosts.txt) to use in a [hosts](https://en.wikipedia.org/wiki/Hosts_(file)) file or PiHole.\n\n[IPV6 version](https://raw.githubusercontent.com/rimu/no-qanon/master/hosts.txt.ipv6).\n\n- [Instructions to install on a Windows computer.](https://github.com/yui-konnu/qanon-block-guide)\n\n- [Instructions to install on a PiHole.](https://www.reddit.com/r/QAnonCasualties/comments/wekhem/how_to_use_pihole_to_block_q_related_websites/)\n\nKnown issue: Firefox's DNS over HTTPS option bypasses the computer's hosts file ruleset. https://bugzilla.mozilla.org/show_bug.cgi?id=1453207\n\n## Dnsmasq format\n\n[Blocklist in Dnsmasq format](https://raw.githubusercontent.com/rimu/no-qanon/master/dnsmasq.txt) to use with the [Dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html) DNS server software.\n\n## Browser extensions\n\n### Netsane format\n\n[Blocklist in Netsane format](https://raw.githubusercontent.com/rimu/no-qanon/master/netsane.txt) to use with the [Netsane](https://github.com/rimu/netsane) software.\n\n### AdBlock Plus syntax\n\n[Blocklist in AdBlock format](https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt) to use with an adblocker ([uBlock Origin](https://ublockorigin.com), [Adguard](https://adguard.com)…) or Adguard Home. It uses a [strict blocking rule](https://github.com/gorhill/uBlock/wiki/Strict-blocking) to block access to those sites on your browser.\n\n[Click here to subscribe.](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt&title=No-QAnon)\n",
+    "ContentSha": "GpqXlzZ24PkFtNiJIEsDA9sGClA+nazECkxSuh/0FNo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# No-QAnon\n\n一个反法西斯的QAnon、阴谋论、假新闻、极右翼和歧视性网站域名黑名单。\n\n通过阻止与仇恨团体和恶意行为者相关的网站，旨在化解招募、宣传，并通过心理战、草根运动、网络喷子、假旗行动、马甲账号、随机恐怖主义、恐惧不确定性怀疑（FUD）等策略减缓虚假信息的传播。\n\n域名黑名单仅阻止整个网站：遗憾的是无法阻止社交媒体上经常发生的激进化内容。  \n但仍然肯定会减少接触虚假和有害信息。  \n法西斯分子以弱势群体为猎物，所以请保持警惕，如有需要，也可考虑使用社交媒体黑名单。\n\n根据[反法西斯许可证](https://github.com/rimu/no-qanon/blob/master/LICENSE.txt)分发。\n\n## Hosts 格式\n\n[Hosts 格式黑名单](https://raw.githubusercontent.com/rimu/no-qanon/master/hosts.txt)，可用于[hosts](https://zh.wikipedia.org/wiki/Hosts%E6%96%87%E4%BB%B6)文件或 PiHole。\n\n[IPV6 版本](https://raw.githubusercontent.com/rimu/no-qanon/master/hosts.txt.ipv6)。\n\n- [在 Windows 电脑上安装说明。](https://github.com/yui-konnu/qanon-block-guide)\n\n- [在 PiHole 上安装说明。](https://www.reddit.com/r/QAnonCasualties/comments/wekhem/how_to_use_pihole_to_block_q_related_websites/)\n\n已知问题：Firefox 的 DNS over HTTPS 选项会绕过电脑的 hosts 文件规则集。https://bugzilla.mozilla.org/show_bug.cgi?id=1453207\n\n## Dnsmasq 格式\n\n[Dnsmasq 格式黑名单](https://raw.githubusercontent.com/rimu/no-qanon/master/dnsmasq.txt)，用于[Dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html) DNS 服务器软件。\n\n## 浏览器扩展\n\n### Netsane 格式\n\n[Netsane 格式黑名单](https://raw.githubusercontent.com/rimu/no-qanon/master/netsane.txt)，用于[Netsane](https://github.com/rimu/netsane)软件。\n\n### AdBlock Plus 语法\n\n[AdBlock 格式黑名单](https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt)，用于广告拦截器（[uBlock Origin](https://ublockorigin.com)、[Adguard](https://adguard.com) 等）或 Adguard Home。它使用[严格阻止规则](https://github.com/gorhill/uBlock/wiki/Strict-blocking)来阻止浏览器访问这些网站。\n\n[点击这里订阅。](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt&title=No-QAnon)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "2FUg8uU59recF70HG2/M6LeWSGh/BspK9dg00WbHX44=",
+        "originContent": "# No-QAnon",
+        "translatedContent": "# No-QAnon"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "TGoICgZNaXJwC+xzP1t95RFOArdLNycgRYNVqY+cTMI=",
+        "originContent": "An anti-fascist domains blocklist of QAnon, conspiracy, fake news, far-right and discriminatory websites.",
+        "translatedContent": "一个反法西斯的QAnon、阴谋论、假新闻、极右翼和歧视性网站域名黑名单。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "I7YPBC7M+jpukUWT3xZ39AEH5YCKWro2ZiCfpUziozU=",
+        "originContent": "By blocking the websites linked to hate groups and bad actors, it aims to defuse recruitment, propaganda and slow the spread of disinformation via tactics such as psyops, astroturfing, trolls, false flags, sockpuppeting, stochastic terrorism, FUD.",
+        "translatedContent": "通过阻止与仇恨团体和恶意行为者相关的网站，旨在化解招募、宣传，并通过心理战、草根运动、网络喷子、假旗行动、马甲账号、随机恐怖主义、恐惧不确定性怀疑（FUD）等策略减缓虚假信息的传播。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "6Hwe/jSbZDF4DFVZG6xtTHgodhFIOlTOu3z5FtHUZUY=",
+        "originContent": "A domains blocklist only blocks entire websites: it's unfortunately unable to block anything on social media where radicalization often happens.",
+        "translatedContent": "域名黑名单仅阻止整个网站：遗憾的是无法阻止社交媒体上经常发生的激进化内容。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "/W26qXFa9mduc7hcbtRI66VhL9bfNJvM/P3aMN8w/to=",
+        "originContent": "It will still definitely reduce exposition to false and harmful informations.",
+        "translatedContent": "但仍然肯定会减少接触虚假和有害信息。  "
+      },
+      {
+        "row": 9,
+        "rowsha": "98bO5dpLeGSiMTB1YixU1WyKcKNIVwq/W0CFl0F2oic=",
+        "originContent": "Fascists prey on the vulnerable so stay vigilant and consider also using a social media blocklist if needed.",
+        "translatedContent": "法西斯分子以弱势群体为猎物，所以请保持警惕，如有需要，也可考虑使用社交媒体黑名单。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "TpWQk9rdj3JKyNv9l7ZubVZdtqvuoY2QZ7i/ARApj3Y=",
+        "originContent": "Distributed under the [anti-fascist licence](https://github.com/rimu/no-qanon/blob/master/LICENSE.txt).",
+        "translatedContent": "根据[反法西斯许可证](https://github.com/rimu/no-qanon/blob/master/LICENSE.txt)分发。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "wWL3+7oakl5yfTT/L9vaMGjBEaH/olsRm/+sbFM1nFM=",
+        "originContent": "## Hosts format",
+        "translatedContent": "## Hosts 格式"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "zWCAQFVpDUxTkEMhLyvyM6A97PZR1oH7JWgbcb2AhQs=",
+        "originContent": "[Blocklist in Hosts format](https://raw.githubusercontent.com/rimu/no-qanon/master/hosts.txt) to use in a [hosts](https://en.wikipedia.org/wiki/Hosts_(file)) file or PiHole.",
+        "translatedContent": "[Hosts 格式黑名单](https://raw.githubusercontent.com/rimu/no-qanon/master/hosts.txt)，可用于[hosts](https://zh.wikipedia.org/wiki/Hosts%E6%96%87%E4%BB%B6)文件或 PiHole。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "DjJ0rvspmQFU58aTPetlNFudz4KXS86vFAalSYbgybQ=",
+        "originContent": "[IPV6 version](https://raw.githubusercontent.com/rimu/no-qanon/master/hosts.txt.ipv6).",
+        "translatedContent": "[IPV6 版本](https://raw.githubusercontent.com/rimu/no-qanon/master/hosts.txt.ipv6)。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "OBT3BfqSleNVEh9XS1Zrc3WuokTucG/Ak7KxNUARE6Y=",
+        "originContent": "- [Instructions to install on a Windows computer.](https://github.com/yui-konnu/qanon-block-guide)",
+        "translatedContent": "- [在 Windows 电脑上安装说明。](https://github.com/yui-konnu/qanon-block-guide)"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "KuwAW2lEwdeDke3aA0ed4Gwbx/f8YdyQBjqfH+ZJgZs=",
+        "originContent": "- [Instructions to install on a PiHole.](https://www.reddit.com/r/QAnonCasualties/comments/wekhem/how_to_use_pihole_to_block_q_related_websites/)",
+        "translatedContent": "- [在 PiHole 上安装说明。](https://www.reddit.com/r/QAnonCasualties/comments/wekhem/how_to_use_pihole_to_block_q_related_websites/)"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "lga7CLSJtZToEI8NpNGZ8j4MfE4UiqRtdPrWXSXddkk=",
+        "originContent": "Known issue: Firefox's DNS over HTTPS option bypasses the computer's hosts file ruleset. https://bugzilla.mozilla.org/show_bug.cgi?id=1453207",
+        "translatedContent": "已知问题：Firefox 的 DNS over HTTPS 选项会绕过电脑的 hosts 文件规则集。https://bugzilla.mozilla.org/show_bug.cgi?id=1453207"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "bL0aE/czsKoY6x7rzsfb1d1uJRS+iHsdlECVN2KaOzo=",
+        "originContent": "## Dnsmasq format",
+        "translatedContent": "## Dnsmasq 格式"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "K5xeWauftHQA3p8PLlHH6s2LgLxq5eIZitoG6NtGU6A=",
+        "originContent": "[Blocklist in Dnsmasq format](https://raw.githubusercontent.com/rimu/no-qanon/master/dnsmasq.txt) to use with the [Dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html) DNS server software.",
+        "translatedContent": "[Dnsmasq 格式黑名单](https://raw.githubusercontent.com/rimu/no-qanon/master/dnsmasq.txt)，用于[Dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html) DNS 服务器软件。"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "3BnpdHj8D3jLIGFynAu12FCSHJsHBQhOx2Ex9jIE5CI=",
+        "originContent": "## Browser extensions",
+        "translatedContent": "## 浏览器扩展"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "ex+Nu60UatZ55gahGDeKMfqKckEcnTY5YdxmfqiMgfg=",
+        "originContent": "### Netsane format",
+        "translatedContent": "### Netsane 格式"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "QInMRJm6SpowErhVyeMgT6ewPfPA9tHgCTECwTPQZn0=",
+        "originContent": "[Blocklist in Netsane format](https://raw.githubusercontent.com/rimu/no-qanon/master/netsane.txt) to use with the [Netsane](https://github.com/rimu/netsane) software.",
+        "translatedContent": "[Netsane 格式黑名单](https://raw.githubusercontent.com/rimu/no-qanon/master/netsane.txt)，用于[Netsane](https://github.com/rimu/netsane)软件。"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "LN7bi5BSiFjkVQ/5IOiRA5EaFi9Omti+LTSvELW2cTY=",
+        "originContent": "### AdBlock Plus syntax",
+        "translatedContent": "### AdBlock Plus 语法"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "65kiDiJ5kYS5WJ0tnTLd/BDiQ6vKhc3y7Cj77MKKhJQ=",
+        "originContent": "[Blocklist in AdBlock format](https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt) to use with an adblocker ([uBlock Origin](https://ublockorigin.com), [Adguard](https://adguard.com)…) or Adguard Home. It uses a [strict blocking rule](https://github.com/gorhill/uBlock/wiki/Strict-blocking) to block access to those sites on your browser.",
+        "translatedContent": "[AdBlock 格式黑名单](https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt)，用于广告拦截器（[uBlock Origin](https://ublockorigin.com)、[Adguard](https://adguard.com) 等）或 Adguard Home。它使用[严格阻止规则](https://github.com/gorhill/uBlock/wiki/Strict-blocking)来阻止浏览器访问这些网站。"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "E6oEG5ZZEw7N3YJ8WYfj1acSGNRTfX/Bgc6IyDjNm/c=",
+        "originContent": "[Click here to subscribe.](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt&title=No-QAnon)",
+        "translatedContent": "[点击这里订阅。](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/rimu/no-qanon/master/adblock.txt&title=No-QAnon)"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "### uBlacklist syntax\n\n[Blocklist in uBlacklist format](https://raw.githubusercontent.com/rimu/no-qanon/master/ublacklist.txt) to use with [uBlacklist](https://github.com/iorate/ublacklist). It removes blocked sites from search engine results.\n\n[Click here to subscribe.](https://iorate.github.io/ublacklist/subscribe?name=No-QAnon&url=https://raw.githubusercontent.com/rimu/no-qanon/master/ublacklist.txt) (This automatic subscription link is only compatible with Chrome, you have to add it by yourself on other browsers!)\n\n### Domains list\n\n[Domains list format](https://raw.githubusercontent.com/rimu/no-qanon/master/domains.txt) to use with [Search Engine Spam Blocker](https://github.com/no-cmyk/Search-Engine-Spam-Blocker). It removes blocked sites from search engine results.\n\n## How to contribute\n\nClone this repository and add new domains in the appropriate `.txt` files in the `sources` folder. If you do not want to categorize, just put it in the `sources/default.txt` file and it will be blocked.\n\n> For the `https://www.example.com` website, add `example.com` to the `sources/default.txt` file.\n\nThen, when you push your changes to the `sources` folder, GitHub actions should kick in and automatically generate new versions of the blocklists. Should you want to generate them yourself, you can run the `scripts/update.sh` script (prerequisites : bash, python).\n\nFinally, make a pull request: we'll review and approve it within a few days.\n\n### Categorization\n\nBlocked sites are organized using subfolders and `.txt` files in the `sources` folder. Use markdown (`.md`) files and comments (`#`) to add more information and references.\n\n### How to contribute (easy mode)\n\nIf you have no idea how Git works, you can still contribute! Just [open an issue](https://github.com/rimu/no-qanon/issues) with the URLs you would like to add to the list, grouping them by language and categories if possible. We'll check and add them shortly.\n\n## Other useful lists\n\n[Jmdugan Blocklists](https://github.com/jmdugan/blocklists/tree/master/corporations): consider blocking Twitter, YouTube and Facebook since they publish so many fake news.\n\n[Antifa-n Blocklist](https://github.com/antifa-n/pihole/blob/master/blocklist.txt) is also a great blocklist focused on fascist sites.\n\n[Bypass Methods Blocklist](https://github.com/nextdns/metadata/blob/master/parentalcontrol/bypass-methods) can be used to block bypass methods (VPNs, proxies, DNS, etc.).\n",
+    "ContentSha": "L/EQs2PqGPsvpc2PByrxtmqNCEIv/WIGTLU+X7Sp2v4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### uBlacklist 语法\n\n[uBlacklist 格式的封锁列表](https://raw.githubusercontent.com/rimu/no-qanon/master/ublacklist.txt)，用于 [uBlacklist](https://github.com/iorate/ublacklist)。它可以从搜索引擎结果中移除被封锁的网站。\n\n[点击这里订阅。](https://iorate.github.io/ublacklist/subscribe?name=No-QAnon&url=https://raw.githubusercontent.com/rimu/no-qanon/master/ublacklist.txt)（该自动订阅链接仅兼容 Chrome，其他浏览器需要手动添加！）\n\n### 域名列表\n\n[域名列表格式](https://raw.githubusercontent.com/rimu/no-qanon/master/domains.txt)，用于 [搜索引擎垃圾屏蔽器](https://github.com/no-cmyk/Search-Engine-Spam-Blocker)。它可以从搜索引擎结果中移除被封锁的网站。\n\n## 如何贡献\n\n克隆此仓库，并在 `sources` 文件夹中的相应 `.txt` 文件中添加新的域名。如果你不想分类，只需将其放入 `sources/default.txt` 文件中即可被封锁。\n\n> 对于 `https://www.example.com` 网站，将 `example.com` 添加到 `sources/default.txt` 文件中。\n\n然后，当你将更改推送到 `sources` 文件夹时，GitHub Actions 会自动触发并生成新的封锁列表版本。如果你想自己生成，可以运行 `scripts/update.sh` 脚本（前提条件：bash，python）。\n\n最后，发起一个拉取请求：我们将在几天内进行审核和批准。\n\n### 分类\n\n被封锁的网站通过 `sources` 文件夹中的子文件夹和 `.txt` 文件进行组织。使用 Markdown（`.md`）文件和注释（`#`）添加更多信息和参考。\n\n### 如何贡献（简易模式）\n\n如果你不了解 Git 的使用，也可以贡献！只需[打开一个问题](https://github.com/rimu/no-qanon/issues)，列出你想添加到列表中的 URL，尽可能按语言和类别分组。我们会尽快检查并添加。\n\n## 其他有用的列表\n\n[Jmdugan 封锁列表](https://github.com/jmdugan/blocklists/tree/master/corporations)：考虑封锁 Twitter、YouTube 和 Facebook，因为它们发布了大量假新闻。\n\n[Antifa-n 封锁列表](https://github.com/antifa-n/pihole/blob/master/blocklist.txt) 也是一个聚焦于法西斯网站的优秀封锁列表。\n\n[绕过方法封锁列表](https://github.com/nextdns/metadata/blob/master/parentalcontrol/bypass-methods) 可用于封锁绕过方法（VPN、代理、DNS 等）。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8giv3uYqOmuQuCUlck10Igj8ZF8WD2YZjQb1Ako8fbg=",
+        "originContent": "### uBlacklist syntax",
+        "translatedContent": "### uBlacklist 语法"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "JVBrp22iwZWa/2Asrg5qF9CZ0kYync3x3LJBQOai8X0=",
+        "originContent": "[Blocklist in uBlacklist format](https://raw.githubusercontent.com/rimu/no-qanon/master/ublacklist.txt) to use with [uBlacklist](https://github.com/iorate/ublacklist). It removes blocked sites from search engine results.",
+        "translatedContent": "[uBlacklist 格式的封锁列表](https://raw.githubusercontent.com/rimu/no-qanon/master/ublacklist.txt)，用于 [uBlacklist](https://github.com/iorate/ublacklist)。它可以从搜索引擎结果中移除被封锁的网站。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ksix99Mui7t21/O9njeNCXnBiRCSXUaDItWCO7eBSpU=",
+        "originContent": "[Click here to subscribe.](https://iorate.github.io/ublacklist/subscribe?name=No-QAnon&url=https://raw.githubusercontent.com/rimu/no-qanon/master/ublacklist.txt) (This automatic subscription link is only compatible with Chrome, you have to add it by yourself on other browsers!)",
+        "translatedContent": "[点击这里订阅。](https://iorate.github.io/ublacklist/subscribe?name=No-QAnon&url=https://raw.githubusercontent.com/rimu/no-qanon/master/ublacklist.txt)（该自动订阅链接仅兼容 Chrome，其他浏览器需要手动添加！）"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "8WLBsaduhAochVe/SXTYlvLJHlWPChOgM5AS3x6Fo+o=",
+        "originContent": "### Domains list",
+        "translatedContent": "### 域名列表"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "3iHcYloLpgz+su3GG3f0DA1tflIe7HWN/NY4BgsKoUw=",
+        "originContent": "[Domains list format](https://raw.githubusercontent.com/rimu/no-qanon/master/domains.txt) to use with [Search Engine Spam Blocker](https://github.com/no-cmyk/Search-Engine-Spam-Blocker). It removes blocked sites from search engine results.",
+        "translatedContent": "[域名列表格式](https://raw.githubusercontent.com/rimu/no-qanon/master/domains.txt)，用于 [搜索引擎垃圾屏蔽器](https://github.com/no-cmyk/Search-Engine-Spam-Blocker)。它可以从搜索引擎结果中移除被封锁的网站。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "tLLoLvvRKdviGSzKCa67+f2/u0Tnmi0iH4UDhyihrXc=",
+        "originContent": "## How to contribute",
+        "translatedContent": "## 如何贡献"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "1HsmVMM5jMfimk/d5xVHbMbrZrm5/8xuFiblIA8cruY=",
+        "originContent": "Clone this repository and add new domains in the appropriate `.txt` files in the `sources` folder. If you do not want to categorize, just put it in the `sources/default.txt` file and it will be blocked.",
+        "translatedContent": "克隆此仓库，并在 `sources` 文件夹中的相应 `.txt` 文件中添加新的域名。如果你不想分类，只需将其放入 `sources/default.txt` 文件中即可被封锁。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "pQvjys7fRTWNAiBACrqjc7LKEdZwNIfU5E//jRlyFQg=",
+        "originContent": "> For the `https://www.example.com` website, add `example.com` to the `sources/default.txt` file.",
+        "translatedContent": "> 对于 `https://www.example.com` 网站，将 `example.com` 添加到 `sources/default.txt` 文件中。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "ptBQA4SsutsChzPH8DY6VRL1ubxoHw2h0zWxkH6TRZ4=",
+        "originContent": "Then, when you push your changes to the `sources` folder, GitHub actions should kick in and automatically generate new versions of the blocklists. Should you want to generate them yourself, you can run the `scripts/update.sh` script (prerequisites : bash, python).",
+        "translatedContent": "然后，当你将更改推送到 `sources` 文件夹时，GitHub Actions 会自动触发并生成新的封锁列表版本。如果你想自己生成，可以运行 `scripts/update.sh` 脚本（前提条件：bash，python）。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "yE/EDTCzHaHDvLms67YXDuCSP6ubVQ/zGBdaRtE9gN4=",
+        "originContent": "Finally, make a pull request: we'll review and approve it within a few days.",
+        "translatedContent": "最后，发起一个拉取请求：我们将在几天内进行审核和批准。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "+oH87VBRNLfDkksff5gy6wBH+9xHn1VbrCmx+paiwW0=",
+        "originContent": "### Categorization",
+        "translatedContent": "### 分类"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "P7PwdJTy6gatvId09qK9cxIlAlp/2HCGenoVcr1pKrY=",
+        "originContent": "Blocked sites are organized using subfolders and `.txt` files in the `sources` folder. Use markdown (`.md`) files and comments (`#`) to add more information and references.",
+        "translatedContent": "被封锁的网站通过 `sources` 文件夹中的子文件夹和 `.txt` 文件进行组织。使用 Markdown（`.md`）文件和注释（`#`）添加更多信息和参考。"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "Ypu6PpMRhhjReIXyCPLRoc7kAwe5KWZx1thMIjQQV3Q=",
+        "originContent": "### How to contribute (easy mode)",
+        "translatedContent": "### 如何贡献（简易模式）"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "ktpQKhqpqkZ5iMTfZaiy5numK/ZdyYWkHLU7rJ/hssU=",
+        "originContent": "If you have no idea how Git works, you can still contribute! Just [open an issue](https://github.com/rimu/no-qanon/issues) with the URLs you would like to add to the list, grouping them by language and categories if possible. We'll check and add them shortly.",
+        "translatedContent": "如果你不了解 Git 的使用，也可以贡献！只需[打开一个问题](https://github.com/rimu/no-qanon/issues)，列出你想添加到列表中的 URL，尽可能按语言和类别分组。我们会尽快检查并添加。"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "Pn3xUicMyY1QI0qo0dYk+GcjCchaGzamU4lZS3Ifooc=",
+        "originContent": "## Other useful lists",
+        "translatedContent": "## 其他有用的列表"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "7l/mMfGNEPvjEMlBqVjaGfru5JwR195LaC9fN0rHqjA=",
+        "originContent": "[Jmdugan Blocklists](https://github.com/jmdugan/blocklists/tree/master/corporations): consider blocking Twitter, YouTube and Facebook since they publish so many fake news.",
+        "translatedContent": "[Jmdugan 封锁列表](https://github.com/jmdugan/blocklists/tree/master/corporations)：考虑封锁 Twitter、YouTube 和 Facebook，因为它们发布了大量假新闻。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "yX1EItwKRxZVZtrKZniH3qroZmgvQA70zEqG6I16kMk=",
+        "originContent": "[Antifa-n Blocklist](https://github.com/antifa-n/pihole/blob/master/blocklist.txt) is also a great blocklist focused on fascist sites.",
+        "translatedContent": "[Antifa-n 封锁列表](https://github.com/antifa-n/pihole/blob/master/blocklist.txt) 也是一个聚焦于法西斯网站的优秀封锁列表。"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "EfAq/ADkQiPfn2CtR6IfwyZEg9W32ixIUFp5Wld9fdM=",
+        "originContent": "[Bypass Methods Blocklist](https://github.com/nextdns/metadata/blob/master/parentalcontrol/bypass-methods) can be used to block bypass methods (VPNs, proxies, DNS, etc.).",
+        "translatedContent": "[绕过方法封锁列表](https://github.com/nextdns/metadata/blob/master/parentalcontrol/bypass-methods) 可用于封锁绕过方法（VPN、代理、DNS 等）。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

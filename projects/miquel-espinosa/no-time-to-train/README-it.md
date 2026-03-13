@@ -53,7 +53,8 @@
 </div>
 
 ---
-
+> 🚨 **Aggiornamento (5 febbraio 2026)**: Il manoscritto dell’articolo è stato aggiornato con ampi studi di ablation, visualizzazioni ed esperimenti aggiuntivi.
+> 
 > 🚨 **Aggiornamento (22 luglio 2025):** Sono state aggiunte istruzioni per dataset personalizzati!
 > 
 > 🔔 **Aggiornamento (16 luglio 2025):** Il codice è stato aggiornato con le istruzioni!
@@ -62,39 +63,39 @@
 
 ## 📋 Indice
 
-- [🎯 Evidenze](#-highlights)
+- [🎯 Punti Salienti](#-highlights)
 - [📜 Abstract](#-abstract)
 - [🧠 Architettura](#-architecture)
 - [🛠️ Istruzioni di installazione](#️-installation-instructions)
   - [1. Clona il repository](#1-clone-the-repository)
-  - [2. Crea un ambiente conda](#2-create-conda-environment)
-  - [3. Installa SAM2 e DinoV2](#3-install-sam2-and-dinov2)
+  - [2. Crea ambiente conda](#2-create-conda-environment)
+  - [3. Installa SAM2 e DINOv2](#3-install-sam2-and-dinov2)
   - [4. Scarica i dataset](#4-download-datasets)
-  - [5. Scarica i checkpoint di SAM2 e DinoV2](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 Codice inferenza: Riproduci i risultati SOTA 30-shot su Few-shot COCO](#-inference-code)
-  - [0. Crea il set di riferimento](#0-create-reference-set)
-  - [1. Riempi la memoria con i riferimenti](#1-fill-memory-with-references)
-  - [2. Post-processa la memory bank](#2-post-process-memory-bank)
+  - [5. Scarica i checkpoint di SAM2 e DINOv2](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 Codice di inferenza: Riproduci risultati SOTA 30-shot in Few-shot COCO](#-inference-code)
+  - [0. Crea set di riferimento](#0-create-reference-set)
+  - [1. Riempi la memoria con riferimenti](#1-fill-memory-with-references)
+  - [2. Post-elabora la memoria](#2-post-process-memory-bank)
   - [3. Inferenza sulle immagini target](#3-inference-on-target-images)
-  - [Risultati](#results)
 
-- [🔍 Dataset personalizzato](#-dataset-personalizzato)
-  - [0. Preparare un dataset personalizzato ⛵🐦](#0-preparare-un-dataset-personalizzato)
-  - [0.1 Se sono disponibili solo annotazioni bbox](#01-se-sono-disponibili-solo-annotazioni-bbox)
-  - [0.2 Convertire le annotazioni coco in file pickle](#02-convertire-le-annotazioni-coco-in-file-pickle)
-  - [1. Riempire la memoria con riferimenti](#1-riempire-la-memoria-con-riferimenti)
-  - [2. Post-processare la memoria](#2-post-processare-la-memoria)
-- [📚 Citazione](#-citazione)
+  - [Risultati](#results)
+- [🔍 Dataset personalizzato](#-custom-dataset)
+  - [0. Prepara un dataset personalizzato ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 Se sono disponibili solo annotazioni bbox](#01-if-only-bbox-annotations-are-available)
+  - [0.2 Converti annotazioni coco in file pickle](#02-convert-coco-annotations-to-pickle-file)
+  - [1. Riempire la memoria con i riferimenti](#1-fill-memory-with-references)
+  - [2. Post-elaborare la memory bank](#2-post-process-memory-bank)
+- [📚 Citazione](#-citation)
 
 
 ## 🎯 Punti salienti
-- 💡 **Senza addestramento**: Nessun fine-tuning, nessun prompt engineering—solo un'immagine di riferimento.  
-- 🖼️ **Basato su riferimento**: Segmenta nuovi oggetti usando solo pochi esempi.  
-- 🔥 **Prestazioni SOTA**: Supera i precedenti approcci senza addestramento su COCO, PASCAL VOC e Cross-Domain FSOD.
+- 💡 **Senza Training**: Nessun fine-tuning, nessun prompt engineering—solo un'immagine di riferimento.  
+- 🖼️ **Basato su Riferimento**: Segmenta nuovi oggetti usando solo pochi esempi.  
+- 🔥 **Prestazioni SOTA**: Supera i precedenti approcci senza training su COCO, PASCAL VOC e Cross-Domain FSOD.
 
 **Link:**
 - 🧾 [**Carta arXiv**](https://arxiv.org/abs/2507.02798)  
-- 🌐 [**Sito del progetto**](https://miquel-espinosa.github.io/no-time-to-train/)  
+- 🌐 [**Sito del Progetto**](https://miquel-espinosa.github.io/no-time-to-train/)  
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
 ## 📜 Abstract
@@ -125,25 +126,25 @@ Creeremo un ambiente conda con i pacchetti necessari.
 conda env create -f environment.yml
 conda activate no-time-to-train
 ```
-### 3. Installa SAM2 e DinoV2
 
-Installeremo SAM2 e DinoV2 dal sorgente.
+### 3. Installa SAM2 e DINOv2
 
+Installeremo SAM2 e DINOv2 dal sorgente.
 ```bash
 pip install -e .
 cd dinov2
 pip install -e .
 cd ..
 ```
+
 ### 4. Scarica i dataset
 
 Per favore scarica il dataset COCO e posizionalo in `data/coco`
 
-### 5. Scarica i checkpoint di SAM2 e DinoV2
+### 5. Scarica i checkpoint SAM2 e DINOv2
 
 Scaricheremo gli stessi checkpoint SAM2 utilizzati nell'articolo.
 (Tieni presente, tuttavia, che i checkpoint SAM2.1 sono già disponibili e potrebbero offrire prestazioni migliori.)
-
 
 ```bash
 mkdir -p checkpoints/dinov2
@@ -420,23 +421,404 @@ BBOX RESULTS:
 SEGM RESULTS:
   Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458
 ```
-I risultati visivi sono salvati in `results_analysis/my_custom_dataset/`. Nota che il nostro metodo funziona per i falsi negativi, cioè immagini che non contengono istanze delle classi desiderate.
 
-*Clicca sulle immagini per ingrandirle ⬇️*
+I risultati visivi sono salvati in `results_analysis/my_custom_dataset/`. Nota che il nostro metodo funziona per i falsi negativi, cioè immagini che non contengono alcuna istanza delle classi desiderate.
+
+*Clicca sulle immagini per ingrandire ⬇️*
 
 | Immagine target con barche ⛵ (sinistra GT, destra predizioni) | Immagine target con uccelli 🐦 (sinistra GT, destra predizioni) |
 |:----------------------:|:----------------------:|
 | ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |
 
-| Immagine target con barche e uccelli ⛵🐦 (sinistra GT, destra predizioni) | Immagine target senza barche né uccelli 🚫 (sinistra GT, destra predizioni) |
+| Immagine target con barche e uccelli ⛵🐦 (sinistra GT, destra predizioni) | Immagine target senza barche o uccelli 🚫 (sinistra GT, destra predizioni) |
 |:---------------------------------:|:----------------------------------:|
 | ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |
 
 
-## 📚 Citazione
+## 🔬 Ablazioni
 
-Se utilizzi questo lavoro, per favore citaci:
+### Ablazione backbone
 
+Per valutare la trasferibilità del nostro metodo tra modelli foundation, sostituiamo sia l'encoder semantico (DINOv2) che il segmentatore basato su SAM con diverse alternative.
+
+**Ablazione encoder semantico:**
+
+
+```bash
+# CLIP (Sizes: b16, b32, l14, l14@336px)
+bash scripts/clip/clipl14@336px.sh
+bash scripts/clip/clipl14.sh
+bash scripts/clip/clipb16.sh
+bash scripts/clip/clipb32.sh
+
+# DINOV3 (Sizes: b, l, h)
+bash scripts/dinov3/dinov3b.sh
+bash scripts/dinov3/dinov3l.sh
+bash scripts/dinov3/dinov3h.sh
+
+# PE (Sizes: g14, l14)
+bash scripts/pe/PEg14.sh
+bash scripts/pe/PEl14.sh
+```
+
+**Ablazione del segmentatore:**
+
+```bash
+# SAM2 (Sizes: tiny, small, base+, large)
+bash scripts/sam2/sam2_tiny.sh
+bash scripts/sam2/sam2_small.sh
+bash scripts/sam2/sam2_base_plus.sh
+bash scripts/baseline/dinov2_sam_baseline.sh # SAM2 Large
+```
+
+### Valutazione VLM sul dataset COCO few-shot
+
+Valutiamo QWEN VLM sul dataset COCO few-shot.
+
+```bash
+bash scripts/vl-qwen/ablation-vl-qwen.sh
+```
+
+### Euristiche delle immagini di riferimento
+
+Per capire perché immagini di riferimento diverse portano a variazioni nelle prestazioni, analizziamo le proprietà statistiche delle annotazioni delle classi nuove di COCO.
+
+#### ANALISI
+
+Studiamo tre caratteristiche delle annotazioni: (1) area della maschera (dimensione dell'oggetto),
+(2) posizione del centro della maschera e (3) distanza dai bordi dell'immagine.
+
+<details>
+<summary><b>Istruzioni:</b></summary>
+
+```bash
+# Mask area distribution
+python no_time_to_train/make_plots/mask_area_distribution.py \
+  --input data/coco/annotations/instances_val2017.json \
+  --output no_time_to_train/make_plots/mask_area_distribution/mask_area_distribution.png \
+  --edges-output no_time_to_train/make_plots/mask_area_distribution/bbox_edge_distance_histograms.png \
+  --center-output no_time_to_train/make_plots/mask_area_distribution/bbox_center_density.png \
+  --bins 80 \
+  --distance-bins 80 \
+  --disable-center-density
+
+# Bbox center positions
+python no_time_to_train/make_plots/bbox_positions.py \
+	--per-class-root data/coco/annotations/per_class_instances \
+	--filename centeredness_2d_hist_plain.png \
+	--max-cols 6 \
+	--output-dir ./no_time_to_train/make_plots/bbox_positions \
+	--outfile grid_bbox_positions.png
+```
+</details>
+
+<details>
+<summary><b>[OUTPUT] Distribuzione area maschera</b></summary>
+<img width="600" height="600" alt="mask_area_distribution" src="https://github.com/user-attachments/assets/ece21119-3622-4a2f-8319-1d52ff05bf99" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] Densità centro bbox</b></summary>
+<img width="3165" height="1627" alt="grid_bbox_positions" src="https://github.com/user-attachments/assets/dff4ddb2-a3f1-45e1-af12-8e9fffbb4d6c" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] Istogrammi distanza bordo bbox</b></summary>
+<img width="1800" height="1200" alt="bbox_edge_distance_histograms" src="https://github.com/user-attachments/assets/e23d1360-599c-46a2-af59-3d071112e76e" />
+
+</details>
+
+#### SELEZIONE
+
+Campioniamo 100 immagini di riferimento diverse per classe, coprendo esplicitamente una gamma di dimensioni maschera, centri e distanze dai bordi. Ogni riferimento viene valutato su un sottoinsieme fisso e ridotto di validazione.
+
+<details>
+<summary><b>Istruzioni:</b></summary>
+
+**Script di setup:** `scripts/1shot_ref_ablation/setup.sh`:
+1. Crea file json per classe
+2. Analizza classe specifica
+3. Crea set di riferimento con diverse euristiche
+
+
+
+
+```bash
+bash scripts/1shot_ref_ablation/setup.sh
+```
+
+**Esegui script:** `scripts/1shot_ref_ablation/gpu*.sh`:
+
+4. Esegui la pipeline per ogni set di riferimento
+```bash
+# Example launch script that calls template script for each reference set
+bash scripts/1shot_ref_ablation/gpu0.sh
+```
+
+</details>
+
+
+#### RISULTATI
+
+Analizziamo come i punteggi di rilevamento si correlano con le caratteristiche delle immagini di riferimento
+(dimensione della maschera, posizione del centro, distanza dal bordo).
+
+<details>
+<summary><b>Istruzioni:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/heuristics_analysis.py
+# Outputs: 
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/per_class_area_vs_raw_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/all_classes_area_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/edge_distance_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_area_category_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_centered_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_avoid_sides_norm_scores.png
+```
+</details>
+
+<details>
+<summary><b>[OUTPUT] Barplots. Effetto dell'area della maschera (sinistra) e della centralità (destra) sulle prestazioni</b></summary>
+<img width="1190" height="846" alt="barplot" src="https://github.com/user-attachments/assets/e900aff5-523d-4563-aebc-0135dcbb5eb6" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] Heatmaps. Mappe 2D delle prestazioni in funzione della posizione del centro della maschera</b></summary>
+<img width="1250" height="545" alt="heatmap" src="https://github.com/user-attachments/assets/c2c59ffe-b19e-4907-b0be-68249cf5db51" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] Prestazioni per immagine di riferimento vs. area della maschera per tutte le nuove classi COCO</b></summary>
+<img width="2500" height="1432" alt="class_performance" src="https://github.com/user-attachments/assets/05a0e213-3ba5-4b4f-80ed-9b7ca782642a" />
+
+</details>
+
+### Degradazione dell'immagine di riferimento
+
+Valutiamo il nostro metodo sotto immagini di riferimento progressivamente degradate applicando livelli crescenti di sfocatura gaussiana.
+<img width="2640" height="1194" alt="ablation-blur" src="https://github.com/user-attachments/assets/c2abf0ab-1578-41cf-abcf-50e43f7691f5" />
+
+<details>
+<summary><b>Istruzioni:</b></summary>
+
+
+
+
+```bash
+# Run different blur levels
+bash scripts/blur_ablation/blur_ablation.sh
+
+# Plot grid of blur ablation results
+python no_time_to_train/make_plots/plot_blur_results.py \
+    --results-root ./work_dirs/blur_ablation \
+    --class-id 0 \
+    --max-cols 4 \
+    --output-dir ./no_time_to_train/make_plots/blur_ablation \
+    --outfile grid_blur_ablation_class_0.png
+```
+
+</details>
+
+### Somiglianza delle caratteristiche
+
+Script per la visualizzazione della somiglianza tra le caratteristiche delle immagini di riferimento e quelle delle immagini target.
+
+Genera la somiglianza di singole caratteristiche (caratteristiche di percorso) e la somiglianza basata su prototipi (caratteristiche aggregate).
+<img width="2500" height="1030" alt="feature_similarity_small" src="https://github.com/user-attachments/assets/d56ec9aa-c60e-4fe6-92cd-aa6270b1d6ed" />
+
+<details>
+<summary><b>Istruzioni:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/feature_similarity.py \
+  --classes orange \  
+  --num-images 20 \
+  --min-area 12 \
+  --max-area 25000 \
+  --min-instances 2 \
+  --seed 123 \
+  --max-per-class 12
+```
+</details>
+
+### Grafici T-SNE (separabilità delle feature DINOv2)
+
+Il t-SNE delle feature DINOv2 mostra una chiara separazione per le classi dissimili
+ma una forte sovrapposizione per quelle simili, suggerendo che la confusione deriva
+dalla geometria delle feature del backbone piuttosto che dalla selezione dei prototipi.
+<img width="2500" height="1444" alt="tsne" src="https://github.com/user-attachments/assets/baffc430-1600-44a1-9a14-1b08e25a9d55" />
+
+<details>
+<summary><b>Istruzioni:</b></summary>
+
+Estrai le feature
+
+```bash
+python no_time_to_train/make_plots/tsne-coco.py --extract
+```
+
+Traccia i grafici T-SNE
+
+```bash
+# Example spoon vs fork
+python no_time_to_train/make_plots/tsne-coco.py --classes cat dog
+```
+
+</details>
+
+## 🛠️ Strumenti di supporto
+
+### Visualizzare la memoria
+
+aggiungi l'immagine feature_comparison_small.png qui
+
+<details>
+<summary><b>Istruzioni</b></summary>
+
+Per visualizzare la memory bank (visualizzazioni PCA e K-means) per un determinato esperimento, modifica il seguente comando.
+
+Imposta `DO_NOT_CROP` su True/False (in `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py`) per visualizzare l'immagine di riferimento con/senza la maschera ritagliata.
+
+```bash
+python run_lightening.py test --config $CONFIG \
+    --model.test_mode vis_memory \
+    --ckpt_path $RESULTS_DIR/memory_postprocessed.ckpt \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $RESULTS_DIR/$FILENAME \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.class_split $CLASS_SPLIT \
+    --model.init_args.model_cfg.dataset_name $CLASS_SPLIT \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+</details>
+
+### Ridimensiona le immagini a 512x512 (rendi le immagini quadrate)
+
+Per ridimensionare le immagini a 512x512 e salvarle in una nuova directory, esegui il seguente comando. Questo è per le figure dell'articolo.
+
+<details>
+<summary><b>Istruzioni:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/paper_fig_square_imgs.py
+```
+</details>
+
+### Dimensione del modello e memoria
+
+Per calcolare la dimensione del modello e la memoria, eseguire il seguente comando.
+
+<details>
+<summary><b>Istruzioni:</b></summary>
+
+- Vedi `no_time_to_train/models/Sam2MatchingBaseline_noAMG_model_and_memory.py` per il calcolo della dimensione del modello e della memoria.
+(Più facile: sostituisci temporaneamente con Sam2MatchingBaseline_noAMG.py, poi rinomina di nuovo.)
+</details>
+
+## 🌍 Dataset EO
+
+### Script di valutazione (dataset EO)
+
+Gli script di valutazione si trovano nella directory `scripts/EO`. I dataset EO utilizzano lo script `./scripts/EO/EO_template.sh` per eseguire la valutazione.
+
+Ogni esecuzione di esperimento EO viene salvata nella directory `./EO_results`. Nella cartella dell'esperimento memorizziamo:
+- Il file summary.txt con la configurazione e il runtime dell'esperimento.
+- Le visualizzazioni delle predizioni sul set di test (cartella `results_analysis`).
+- Le visualizzazioni della memoria (cartella `memory_vis`).
+- Il file pickle delle annotazioni few-shot.
+- I checkpoint del modello (se non rimossi).
+
+
+### Figure e tabelle
+Script aggiuntivi per la generazione di figure e tabelle.
+
+<details>
+<summary><b>Tabella latex riassuntiva dei dataset EO:</b></summary>
+
+
+
+```bash
+python scripts/convert_datasets/summary_table_datasets.py
+```
+
+</details>
+
+
+<details>
+<summary><b>Genera tabella LaTeX dei dataset EO:</b></summary>
+
+```bash
+python scripts/paper_figures/table_EO_results.py ./EO_results_no_heuristics
+```
+
+</details>
+
+
+<details>
+<summary><b>Grafico dell'accuratezza dei dataset EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_accuracy.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>Riepilogo dell'effetto delle euristiche sui dataset EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_heuristic.py \
+  --no-heuristics ./EO_results_no_heuristics \
+  --heuristics ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>Grafico del runtime dei dataset EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_runtime.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>Genera visualizzazioni della griglia EO per la figura del documento:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_grid.py \
+  --root ./EO_results_no_heuristics \
+  --dataset ISAID \
+  --shots 1
+```
+
+</details>
+
+
+
+
+
+
+## 📚 Citation
+
+If you use this work, please cite us:
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -451,6 +833,6 @@ Se utilizzi questo lavoro, per favore citaci:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
 
 ---

@@ -13,26 +13,400 @@
   },
   {
     "Id": 2,
-    "Content": "\n[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)\n\n<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->\n\n</div>\n\n---\n\n> 🚨 **Update (22nd July 2025):** Instructions for custom datasets have been added!\n> \n> 🔔 **Update (16th July 2025):** Code has been updated with instructions!\n\n---\n\n## 📋 Table of Contents\n\n- [🎯 Highlights](#-highlights)\n- [📜 Abstract](#-abstract)\n- [🧠 Architecture](#-architecture)\n- [🛠️ Installation instructions](#️-installation-instructions)\n  - [1. Clone the repository](#1-clone-the-repository)\n  - [2. Create conda environment](#2-create-conda-environment)\n  - [3. Install SAM2 and DinoV2](#3-install-sam2-and-dinov2)\n  - [4. Download datasets](#4-download-datasets)\n  - [5. Download SAM2 and DinoV2 checkpoints](#5-download-sam2-and-dinov2-checkpoints)\n- [📊 Inference code: Reproduce 30-shot SOTA results in Few-shot COCO](#-inference-code)\n  - [0. Create reference set](#0-create-reference-set)\n  - [1. Fill memory with references](#1-fill-memory-with-references)\n  - [2. Post-process memory bank](#2-post-process-memory-bank)\n  - [3. Inference on target images](#3-inference-on-target-images)\n  - [Results](#results)",
-    "ContentSha": "+yQ5ol79RNsk2le3no6dLpgaMzuy0Nh4xdRCmVNp8FE=",
+    "Content": "\n[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)\n\n<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->\n\n</div>\n\n---\n> 🚨 **Update (5th February 2026)**: The paper manuscript has been updated with extensive ablation studies, visualisations and additional experiments.\n> \n> 🚨 **Update (22nd July 2025):** Instructions for custom datasets have been added!\n> \n> 🔔 **Update (16th July 2025):** Code has been updated with instructions!\n\n---\n\n## 📋 Table of Contents\n\n- [🎯 Highlights](#-highlights)\n- [📜 Abstract](#-abstract)\n- [🧠 Architecture](#-architecture)\n- [🛠️ Installation instructions](#️-installation-instructions)\n  - [1. Clone the repository](#1-clone-the-repository)\n  - [2. Create conda environment](#2-create-conda-environment)\n  - [3. Install SAM2 and DINOv2](#3-install-sam2-and-dinov2)\n  - [4. Download datasets](#4-download-datasets)\n  - [5. Download SAM2 and DINOv2 checkpoints](#5-download-sam2-and-dinov2-checkpoints)\n- [📊 Inference code: Reproduce 30-shot SOTA results in Few-shot COCO](#-inference-code)\n  - [0. Create reference set](#0-create-reference-set)\n  - [1. Fill memory with references](#1-fill-memory-with-references)\n  - [2. Post-process memory bank](#2-post-process-memory-bank)\n  - [3. Inference on target images](#3-inference-on-target-images)",
+    "ContentSha": "SH+ctXmMx+cvHnwCxUuFRtT2jsq2qTwMom85RbYlWug=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)\n\n<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->\n\n</div>\n\n---\n\n> 🚨 **Mise à jour (22 juillet 2025):** Les instructions pour les ensembles de données personnalisés ont été ajoutées !\n> \n> 🔔 **Mise à jour (16 juillet 2025):** Le code a été mis à jour avec les instructions !\n\n---\n\n## 📋 Table des matières\n\n- [🎯 Points forts](#-highlights)\n- [📜 Résumé](#-abstract)\n- [🧠 Architecture](#-architecture)\n- [🛠️ Instructions d'installation](#️-installation-instructions)\n  - [1. Cloner le dépôt](#1-clone-the-repository)\n  - [2. Créer l'environnement conda](#2-create-conda-environment)\n  - [3. Installer SAM2 et DinoV2](#3-install-sam2-and-dinov2)\n  - [4. Télécharger les ensembles de données](#4-download-datasets)\n  - [5. Télécharger les checkpoints SAM2 et DinoV2](#5-download-sam2-and-dinov2-checkpoints)\n- [📊 Code d'inférence : Reproduire les résultats SOTA 30-shot sur Few-shot COCO](#-inference-code)\n  - [0. Créer un ensemble de références](#0-create-reference-set)\n  - [1. Remplir la mémoire avec les références](#1-fill-memory-with-references)\n  - [2. Post-traiter la banque de mémoire](#2-post-process-memory-bank)\n  - [3. Inférence sur les images cibles](#3-inference-on-target-images)\n  - [Résultats](#results)\n",
+    "Translation": "[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)\n\n<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)\n\n[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->\n\n</div>\n\n---\n> 🚨 **Mise à jour (5 février 2026)** : Le manuscrit de l'article a été mis à jour avec de nombreuses études d'ablation, des visualisations et des expériences supplémentaires.\n> \n> 🚨 **Mise à jour (22 juillet 2025) :** Des instructions pour les jeux de données personnalisés ont été ajoutées !\n> \n> 🔔 **Mise à jour (16 juillet 2025) :** Le code a été mis à jour avec des instructions !\n\n---\n\n## 📋 Table des matières\n\n- [🎯 Points forts](#-highlights)\n- [📜 Résumé](#-abstract)\n- [🧠 Architecture](#-architecture)\n- [🛠️ Instructions d'installation](#️-installation-instructions)\n  - [1. Cloner le dépôt](#1-clone-the-repository)\n  - [2. Créer l'environnement conda](#2-create-conda-environment)\n  - [3. Installer SAM2 et DINOv2](#3-install-sam2-and-dinov2)\n  - [4. Télécharger les jeux de données](#4-download-datasets)\n  - [5. Télécharger les checkpoints SAM2 et DINOv2](#5-download-sam2-and-dinov2-checkpoints)\n- [📊 Code d'inférence : Reproduire les résultats SOTA 30-shot sur Few-shot COCO](#-inference-code)\n  - [0. Créer l'ensemble de référence](#0-create-reference-set)\n  - [1. Remplir la mémoire avec les références](#1-fill-memory-with-references)\n  - [2. Post-traitement de la banque mémoire](#2-post-process-memory-bank)\n  - [3. Inférence sur les images cibles](#3-inference-on-target-images)\n",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)"
+      },
+      {
+        "row": 2,
+        "rowsha": "vX9Z1+qZyC7/kZ0bOC7vbDJManiCGbXqZk8AgQ84qM0=",
+        "originContent": "[**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)"
+      },
+      {
+        "row": 4,
+        "rowsha": "9mNYKE3Y0dXOTQkvb8trTyykMWIJMj3aYvs2wc7Dy/w=",
+        "originContent": "[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)"
+      },
+      {
+        "row": 6,
+        "rowsha": "M73R//djgj0L2vtwCwYA8Jc2eOp2w4DNk1NVUZYGbTE=",
+        "originContent": "[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)"
+      },
+      {
+        "row": 8,
+        "rowsha": "4VnWzjwLPfuR2EgQFIxOj01ti/2HIoGSaFN8NvfL/fU=",
+        "originContent": "<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)"
+      },
+      {
+        "row": 10,
+        "rowsha": "5Vzq06fD98ehB9nIJb70JMck7pDlYhuPjdq4pjWemTg=",
+        "originContent": "[**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->"
+      },
+      {
+        "row": 12,
+        "rowsha": "Lp3ysorCxnFgKmvnuiyj8llAyxsgKM6TkSxqVFkAtzo=",
+        "originContent": "[**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 14,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 16,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "> 🚨 **Mise à jour (5 février 2026)** : Le manuscrit de l'article a été mis à jour avec de nombreuses études d'ablation, des visualisations et des expériences supplémentaires."
+      },
+      {
+        "row": 17,
+        "rowsha": "Rxc5X9I0434w8QKFNq+2GFaUUQHTiXAS2uF6iq/xfIw=",
+        "originContent": "> 🚨 **Update (5th February 2026)**: The paper manuscript has been updated with extensive ablation studies, visualisations and additional experiments.",
+        "translatedContent": "> "
+      },
+      {
+        "row": 18,
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": "> 🚨 **Mise à jour (22 juillet 2025) :** Des instructions pour les jeux de données personnalisés ont été ajoutées !"
+      },
+      {
+        "row": 19,
+        "rowsha": "B69jZWG+7Bcf3XwTlCrLDq7zJ6R0P5Lb3miM6RyrST8=",
+        "originContent": "> 🚨 **Update (22nd July 2025):** Instructions for custom datasets have been added!",
+        "translatedContent": "> "
+      },
+      {
+        "row": 20,
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": "> 🔔 **Mise à jour (16 juillet 2025) :** Le code a été mis à jour avec des instructions !"
+      },
+      {
+        "row": 21,
+        "rowsha": "NVfWm1HSMwF2EdXfgCXJYKpUZ1HZOJsRMEUiFhVdgqc=",
+        "originContent": "> 🔔 **Update (16th July 2025):** Code has been updated with instructions!",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 23,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📋 Table des matières"
+      },
+      {
+        "row": 25,
+        "rowsha": "gI/1I87HHg3xh0//UJSFC6ZnF4rvkzKNqsRrROy4OT4=",
+        "originContent": "## 📋 Table of Contents",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [🎯 Points forts](#-highlights)"
+      },
+      {
+        "row": 27,
+        "rowsha": "nNQUAJIz1LHAKaPCqpOwlWw2V1U6+cxSwWn4SP47dYU=",
+        "originContent": "- [🎯 Highlights](#-highlights)",
+        "translatedContent": "- [📜 Résumé](#-abstract)"
+      },
+      {
+        "row": 28,
+        "rowsha": "Yu2Tht6jyrgb81Dv2Lb3Od+nx0nyGk4T4cj16urKV2U=",
+        "originContent": "- [📜 Abstract](#-abstract)",
+        "translatedContent": "- [🧠 Architecture](#-architecture)"
+      },
+      {
+        "row": 29,
+        "rowsha": "QlUWr+r6i1bCNXq6zWF9xq7AP6VlaFB+55fzw1uHGh4=",
+        "originContent": "- [🧠 Architecture](#-architecture)",
+        "translatedContent": "- [🛠️ Instructions d'installation](#️-installation-instructions)"
+      },
+      {
+        "row": 30,
+        "rowsha": "LvvjM2oWVjYs2n37JdP4KxJEfjrmlXfMHEYRmg3enOQ=",
+        "originContent": "- [🛠️ Installation instructions](#️-installation-instructions)",
+        "translatedContent": "  - [1. Cloner le dépôt](#1-clone-the-repository)"
+      },
+      {
+        "row": 31,
+        "rowsha": "/PgPyQxwaS0cIQHgVFkC3ij55sWJZfYd1yCTh2nzruo=",
+        "originContent": "  - [1. Clone the repository](#1-clone-the-repository)",
+        "translatedContent": "  - [2. Créer l'environnement conda](#2-create-conda-environment)"
+      },
+      {
+        "row": 32,
+        "rowsha": "8sUHJDRIkb9dDdybJg2zcT82y2SDBjUvluSFGb9lVBM=",
+        "originContent": "  - [2. Create conda environment](#2-create-conda-environment)",
+        "translatedContent": "  - [3. Installer SAM2 et DINOv2](#3-install-sam2-and-dinov2)"
+      },
+      {
+        "row": 33,
+        "rowsha": "9Uhyv6kWaW3FV0kfb8YbvFGDl7KzOXYnD4VQWhhbeOI=",
+        "originContent": "  - [3. Install SAM2 and DINOv2](#3-install-sam2-and-dinov2)",
+        "translatedContent": "  - [4. Télécharger les jeux de données](#4-download-datasets)"
+      },
+      {
+        "row": 34,
+        "rowsha": "vmGLfIt0mS9Q/YAti3rKk4FenFiuiawcJga8eA1HvOo=",
+        "originContent": "  - [4. Download datasets](#4-download-datasets)",
+        "translatedContent": "  - [5. Télécharger les checkpoints SAM2 et DINOv2](#5-download-sam2-and-dinov2-checkpoints)"
+      },
+      {
+        "row": 35,
+        "rowsha": "trcWxQjwuAuGDDy3gAfDxF0pR3A8us0x9kblkXcw0yI=",
+        "originContent": "  - [5. Download SAM2 and DINOv2 checkpoints](#5-download-sam2-and-dinov2-checkpoints)",
+        "translatedContent": "- [📊 Code d'inférence : Reproduire les résultats SOTA 30-shot sur Few-shot COCO](#-inference-code)"
+      },
+      {
+        "row": 36,
+        "rowsha": "4twIP/tovN+tEN+KOehWNX1x6ADAZktZhaU8S6q3qPk=",
+        "originContent": "- [📊 Inference code: Reproduce 30-shot SOTA results in Few-shot COCO](#-inference-code)",
+        "translatedContent": "  - [0. Créer l'ensemble de référence](#0-create-reference-set)"
+      },
+      {
+        "row": 37,
+        "rowsha": "XAaZ2BUnk0iPaGrcahhfTfiRzOiOmWVMhXy0yS1URIo=",
+        "originContent": "  - [0. Create reference set](#0-create-reference-set)",
+        "translatedContent": "  - [1. Remplir la mémoire avec les références](#1-fill-memory-with-references)"
+      },
+      {
+        "row": 38,
+        "rowsha": "CtFWOMU1Fc9CVZLu2Rzmu0KND5cnswQEsU5Mp7Onhvc=",
+        "originContent": "  - [1. Fill memory with references](#1-fill-memory-with-references)",
+        "translatedContent": "  - [2. Post-traitement de la banque mémoire](#2-post-process-memory-bank)"
+      },
+      {
+        "row": 39,
+        "rowsha": "EJbJqD4ueSk6fQ0G3e/0zkWNB+NbmAqL7F5GXdil5cM=",
+        "originContent": "  - [2. Post-process memory bank](#2-post-process-memory-bank)",
+        "translatedContent": "  - [3. Inférence sur les images cibles](#3-inference-on-target-images)"
+      },
+      {
+        "row": 40,
+        "rowsha": "1oE+QeEAJ0TNP+C2O/r0QRzWRsbxz8Blj9YRkbZZZus=",
+        "originContent": "  - [3. Inference on target images](#3-inference-on-target-images)",
+        "translatedContent": ""
+      }
+    ],
     "IsCodeBlock": false
   },
   {
     "Id": 3,
-    "Content": "- [🔍 Custom dataset](#-custom-dataset)\n  - [0. Prepare a custom dataset ⛵🐦](#0-prepare-a-custom-dataset)\n  - [0.1 If only bbox annotations are available](#01-if-only-bbox-annotations-are-available)\n  - [0.2 Convert coco annotations to pickle file](#02-convert-coco-annotations-to-pickle-file)\n  - [1. Fill memory with references](#1-fill-memory-with-references)\n  - [2. Post-process memory bank](#2-post-process-memory-bank)\n- [📚 Citation](#-citation)\n\n\n## 🎯 Highlights\n- 💡 **Training-Free**: No fine-tuning, no prompt engineering—just a reference image.  \n- 🖼️ **Reference-Based**: Segment new objects using just a few examples.  \n- 🔥 **SOTA Performance**: Outperforms previous training-free approaches on COCO, PASCAL VOC, and Cross-Domain FSOD.\n\n**Links:**\n- 🧾 [**arXiv Paper**](https://arxiv.org/abs/2507.02798)  \n- 🌐 [**Project Website**](https://miquel-espinosa.github.io/no-time-to-train/)  \n- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)\n\n## 📜 Abstract\n",
-    "ContentSha": "HKE5vt8IwUJiOubYYPHCrRXZ3fqCpGqVFP3Xj5VV+p4=",
+    "Content": "  - [Results](#results)\n- [🔍 Custom dataset](#-custom-dataset)\n  - [0. Prepare a custom dataset ⛵🐦](#0-prepare-a-custom-dataset)\n  - [0.1 If only bbox annotations are available](#01-if-only-bbox-annotations-are-available)\n  - [0.2 Convert coco annotations to pickle file](#02-convert-coco-annotations-to-pickle-file)\n  - [1. Fill memory with references](#1-fill-memory-with-references)\n  - [2. Post-process memory bank](#2-post-process-memory-bank)\n- [📚 Citation](#-citation)\n\n\n## 🎯 Highlights\n- 💡 **Training-Free**: No fine-tuning, no prompt engineering—just a reference image.  \n- 🖼️ **Reference-Based**: Segment new objects using just a few examples.  \n- 🔥 **SOTA Performance**: Outperforms previous training-free approaches on COCO, PASCAL VOC, and Cross-Domain FSOD.\n\n**Links:**\n- 🧾 [**arXiv Paper**](https://arxiv.org/abs/2507.02798)  \n- 🌐 [**Project Website**](https://miquel-espinosa.github.io/no-time-to-train/)  \n- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)\n\n## 📜 Abstract\n",
+    "ContentSha": "PWZurJ5LH+ba2DtOoH6v3BrGaxYzUsPFKkkfy02fd14=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- [🔍 Jeu de données personnalisé](#-jeu-de-données-personnalisé)\n  - [0. Préparer un jeu de données personnalisé ⛵🐦](#0-préparer-un-jeu-de-données-personnalisé)\n  - [0.1 Si seules des annotations bbox sont disponibles](#01-si-seules-des-annotations-bbox-sont-disponibles)\n  - [0.2 Convertir les annotations COCO en fichier pickle](#02-convertir-les-annotations-coco-en-fichier-pickle)\n  - [1. Remplir la mémoire avec des références](#1-remplir-la-mémoire-avec-des-références)\n  - [2. Post-traiter la banque de mémoire](#2-post-traiter-la-banque-de-mémoire)\n- [📚 Citation](#-citation)\n\n\n## 🎯 Points forts\n- 💡 **Sans entraînement** : Pas de fine-tuning, pas d’ingénierie de prompt—juste une image de référence.  \n- 🖼️ **Basé sur la référence** : Segmenter de nouveaux objets avec seulement quelques exemples.  \n- 🔥 **Performance SOTA** : Surpasse les approches précédentes sans entraînement sur COCO, PASCAL VOC et Cross-Domain FSOD.\n\n**Liens :**\n- 🧾 [**Article arXiv**](https://arxiv.org/abs/2507.02798)  \n- 🌐 [**Site du projet**](https://miquel-espinosa.github.io/no-time-to-train/)  \n- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)\n\n## 📜 Résumé\n",
+    "Translation": "  - [Résultats](#results)\n- [🔍 Jeu de données personnalisé](#-custom-dataset)\n  - [0. Préparer un jeu de données personnalisé ⛵🐦](#0-prepare-a-custom-dataset)\n  - [0.1 Si seules des annotations bbox sont disponibles](#01-if-only-bbox-annotations-are-available)\n  - [0.2 Convertir les annotations coco en fichier pickle](#02-convert-coco-annotations-to-pickle-file)\n  - [1. Remplir la mémoire avec des références](#1-fill-memory-with-references)\n  - [2. Post-traiter la banque de mémoire](#2-post-process-memory-bank)\n- [📚 Citation](#-citation)\n\n\n## 🎯 Points forts\n- 💡 **Sans entraînement** : Pas d’ajustement, pas d’ingénierie de prompt—juste une image de référence.  \n- 🖼️ **Basé sur la référence** : Segmentez de nouveaux objets avec seulement quelques exemples.  \n- 🔥 **Performances SOTA** : Surpasse les approches sans entraînement précédentes sur COCO, PASCAL VOC et Cross-Domain FSOD.\n\n**Liens :**\n- 🧾 [**Article arXiv**](https://arxiv.org/abs/2507.02798)  \n- 🌐 [**Site du projet**](https://miquel-espinosa.github.io/no-time-to-train/)  \n- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)\n\n## 📜 Résumé\n",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0vQANuql7yEE1pWdHwSmSnQDu+2Y61IcAuCgVVNt9wU=",
+        "originContent": "  - [Results](#results)",
+        "translatedContent": "  - [Résultats](#results)"
+      },
+      {
+        "row": 2,
+        "rowsha": "5SOCYMb6Mc7UFPt7fW5/7Lk/oGmDIXGNMnIaAiyHGbA=",
+        "originContent": "- [🔍 Custom dataset](#-custom-dataset)",
+        "translatedContent": "- [🔍 Jeu de données personnalisé](#-custom-dataset)"
+      },
+      {
+        "row": 3,
+        "rowsha": "GMbLjwNZu2OPam7WwwgFxNIlZaCAoQrvEKgT5bfr4wo=",
+        "originContent": "  - [0. Prepare a custom dataset ⛵🐦](#0-prepare-a-custom-dataset)",
+        "translatedContent": "  - [0. Préparer un jeu de données personnalisé ⛵🐦](#0-prepare-a-custom-dataset)"
+      },
+      {
+        "row": 4,
+        "rowsha": "pahrSq5eC+ZtBvhJBCOnwVsXCl3r6dbg5VVcHR60KgA=",
+        "originContent": "  - [0.1 If only bbox annotations are available](#01-if-only-bbox-annotations-are-available)",
+        "translatedContent": "  - [0.1 Si seules des annotations bbox sont disponibles](#01-if-only-bbox-annotations-are-available)"
+      },
+      {
+        "row": 5,
+        "rowsha": "EhEJKG9MX3xsHHBuay+P9xPmW+ZFKMXemPkZ3zZftRE=",
+        "originContent": "  - [0.2 Convert coco annotations to pickle file](#02-convert-coco-annotations-to-pickle-file)",
+        "translatedContent": "  - [0.2 Convertir les annotations coco en fichier pickle](#02-convert-coco-annotations-to-pickle-file)"
+      },
+      {
+        "row": 6,
+        "rowsha": "CtFWOMU1Fc9CVZLu2Rzmu0KND5cnswQEsU5Mp7Onhvc=",
+        "originContent": "  - [1. Fill memory with references](#1-fill-memory-with-references)",
+        "translatedContent": "  - [1. Remplir la mémoire avec des références](#1-fill-memory-with-references)"
+      },
+      {
+        "row": 7,
+        "rowsha": "EJbJqD4ueSk6fQ0G3e/0zkWNB+NbmAqL7F5GXdil5cM=",
+        "originContent": "  - [2. Post-process memory bank](#2-post-process-memory-bank)",
+        "translatedContent": "  - [2. Post-traiter la banque de mémoire](#2-post-process-memory-bank)"
+      },
+      {
+        "row": 8,
+        "rowsha": "agiJTqQBkN7iJs7zNIHPQ5NaqAmNICzYGlCqSha4QuI=",
+        "originContent": "- [📚 Citation](#-citation)",
+        "translatedContent": "- [📚 Citation](#-citation)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "kIeGJFTQ5JJc/jXqjQ9PAg5wubcgfjTL2po5UNDrLQ8=",
+        "originContent": "## 🎯 Highlights",
+        "translatedContent": "## 🎯 Points forts"
+      },
+      {
+        "row": 12,
+        "rowsha": "4c0+fbJNN24hIJySSKght3OZNjxykoTxkukVFgkNZok=",
+        "originContent": "- 💡 **Training-Free**: No fine-tuning, no prompt engineering—just a reference image.  ",
+        "translatedContent": "- 💡 **Sans entraînement** : Pas d’ajustement, pas d’ingénierie de prompt—juste une image de référence.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "177g7I1Hv/8E1qW/GKY8ESZKs1ERKa8lH2+eSJWPfys=",
+        "originContent": "- 🖼️ **Reference-Based**: Segment new objects using just a few examples.  ",
+        "translatedContent": "- 🖼️ **Basé sur la référence** : Segmentez de nouveaux objets avec seulement quelques exemples.  "
+      },
+      {
+        "row": 14,
+        "rowsha": "hJVC6fdp5vmCdow9OaINDAoUeIQFo+H4J7X39/laLuQ=",
+        "originContent": "- 🔥 **SOTA Performance**: Outperforms previous training-free approaches on COCO, PASCAL VOC, and Cross-Domain FSOD.",
+        "translatedContent": "- 🔥 **Performances SOTA** : Surpasse les approches sans entraînement précédentes sur COCO, PASCAL VOC et Cross-Domain FSOD."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "5t7uSO5Wec1VT7vt46wJD3xShwKEgg8Z6sc6sb/A3n4=",
+        "originContent": "**Links:**",
+        "translatedContent": "**Liens :**"
+      },
+      {
+        "row": 17,
+        "rowsha": "mSZshukl7MsJrVvQ4IJvfrxptw7xbgh/UwGaEwRqCFk=",
+        "originContent": "- 🧾 [**arXiv Paper**](https://arxiv.org/abs/2507.02798)  ",
+        "translatedContent": "- 🧾 [**Article arXiv**](https://arxiv.org/abs/2507.02798)  "
+      },
+      {
+        "row": 18,
+        "rowsha": "aRS755BdZ7JdxnaQ39257Pg2fZoyNBuqId5PgA6rebk=",
+        "originContent": "- 🌐 [**Project Website**](https://miquel-espinosa.github.io/no-time-to-train/)  ",
+        "translatedContent": "- 🌐 [**Site du projet**](https://miquel-espinosa.github.io/no-time-to-train/)  "
+      },
+      {
+        "row": 19,
+        "rowsha": "W0Ak9nAkjF7nVsfJUEtJvM6CVJHI9t7YMjCvBzmXZzo=",
+        "originContent": "- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)",
+        "translatedContent": "- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "AdIRiroevVLawnTYJDBh2L1x5u8N8rbImLDszk/n52Q=",
+        "originContent": "## 📜 Abstract",
+        "translatedContent": "## 📜 Résumé"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
     "IsCodeBlock": false
   },
   {
@@ -97,14 +471,39 @@
   },
   {
     "Id": 9,
-    "Content": "\n### 3. Install SAM2 and DinoV2\n\nWe will install SAM2 and DinoV2 from source.",
-    "ContentSha": "qhWNaaTVSpemTiKekSRF2dWJYxX636VdhL+lPiso28M=",
+    "Content": "\n### 3. Install SAM2 and DINOv2\n\nWe will install SAM2 and DINOv2 from source.",
+    "ContentSha": "Tiwco4tEcFy4gvdz53++S//Jbfu1qhBKvC2daNwTdLQ=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "### 3. Installer SAM2 et DinoV2\n\nNous allons installer SAM2 et DinoV2 à partir du code source.\n",
+    "Translation": "\n### 3. Installer SAM2 et DINOv2\n\nNous allons installer SAM2 et DINOv2 depuis le code source.",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "0uAvqrrtwZmpQTMB0aCLUB0PRyThhwTi9nNMN0uvuAs=",
+        "originContent": "### 3. Install SAM2 and DINOv2",
+        "translatedContent": "### 3. Installer SAM2 et DINOv2"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+qs+XiQtYMKlS08pWuKuRKmHZV7wZgt/Fyr6yWnqoRY=",
+        "originContent": "We will install SAM2 and DINOv2 from source.",
+        "translatedContent": "Nous allons installer SAM2 et DINOv2 depuis le code source."
+      }
+    ],
     "IsCodeBlock": false
   },
   {
@@ -121,14 +520,75 @@
   },
   {
     "Id": 11,
-    "Content": "\n### 4. Download datasets\n\nPlease download COCO dataset and place it in `data/coco`\n\n### 5. Download SAM2 and DinoV2 checkpoints\n\nWe will download the exact SAM2 checkpoints used in the paper.\n(Note, however, that SAM2.1 checkpoints are already available and might perform better.)\n",
-    "ContentSha": "LTXcwC9KGMiPIiBLXtQVF6Wdi9d19gVIUBX6F+tGTqE=",
+    "Content": "\n### 4. Download datasets\n\nPlease download COCO dataset and place it in `data/coco`\n\n### 5. Download SAM2 and DINOv2 checkpoints\n\nWe will download the exact SAM2 checkpoints used in the paper.\n(Note, however, that SAM2.1 checkpoints are already available and might perform better.)\n",
+    "ContentSha": "2thMEJIc7q2LeZKzSx0anxxbMKEWla8OR6CXaWxi5IE=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "### 4. Télécharger les jeux de données\n\nVeuillez télécharger le jeu de données COCO et le placer dans `data/coco`\n\n### 5. Télécharger les points de contrôle SAM2 et DinoV2\n\nNous allons télécharger exactement les points de contrôle SAM2 utilisés dans l'article.\n(Notez cependant que les points de contrôle SAM2.1 sont déjà disponibles et pourraient offrir de meilleures performances.)\n\n",
+    "Translation": "\n### 4. Télécharger les jeux de données\n\nVeuillez télécharger le jeu de données COCO et le placer dans `data/coco`\n\n### 5. Télécharger les points de contrôle SAM2 et DINOv2\n\nNous allons télécharger exactement les points de contrôle SAM2 utilisés dans l’article.\n(Notez cependant que les points de contrôle SAM2.1 sont déjà disponibles et pourraient offrir de meilleures performances.)\n",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "TnKsydD0g8rcNXuf2/pg21KtCvG3bd/BIBBXFIENLQ4=",
+        "originContent": "### 4. Download datasets",
+        "translatedContent": "### 4. Télécharger les jeux de données"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "2zbgqsOvy4sDNnLUnhoymwnPIv/ae3Ui1VZgcAlgH+E=",
+        "originContent": "Please download COCO dataset and place it in `data/coco`",
+        "translatedContent": "Veuillez télécharger le jeu de données COCO et le placer dans `data/coco`"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "iu73uPqREhuOrxrveMLsDIh3BOx7ibPIYuye+uPB/3s=",
+        "originContent": "### 5. Download SAM2 and DINOv2 checkpoints",
+        "translatedContent": "### 5. Télécharger les points de contrôle SAM2 et DINOv2"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "kncAIotnzx052W61WDQLuqpzRXGOW8h+OVSNFbzu11I=",
+        "originContent": "We will download the exact SAM2 checkpoints used in the paper.",
+        "translatedContent": "Nous allons télécharger exactement les points de contrôle SAM2 utilisés dans l’article."
+      },
+      {
+        "row": 9,
+        "rowsha": "8EIrRjZVIY74ZhXR1Mz9WneKjrP9V3DP4zeC+fTSg8U=",
+        "originContent": "(Note, however, that SAM2.1 checkpoints are already available and might perform better.)",
+        "translatedContent": "(Notez cependant que les points de contrôle SAM2.1 sont déjà disponibles et pourraient offrir de meilleures performances.)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
     "IsCodeBlock": false
   },
   {
@@ -512,26 +972,7 @@
     "EndLine": 0,
     "Translation": "\n#### 2.1 Visualiser la banque de mémoire post-traitée\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "zA9xPuN6grCmDtzemkhLkPyW7qI+l8F89v7W60063mQ=",
-        "originContent": "#### 2.1 Visualise post-processed memory bank",
-        "translatedContent": "#### 2.1 Visualiser la banque de mémoire post-traitée"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -543,92 +984,7 @@
     "EndLine": 0,
     "Translation": "```bash\npython run_lightening.py test --config $YAML_PATH \\\n    --model.test_mode vis_memory \\\n    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\\_$SHOT\\_refs_memory_postprocessed.pth \\\n    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \\\n    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \\\n    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \\\n    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \\\n    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \\\n    --model.init_args.model_cfg.dataset_name $DATASET_NAME \\\n    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\\n    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\\n    --trainer.devices 1\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "3ETYk+lXCmWw9FFEJ+wILd+zQZjjy0tb7XEaA2ooWes=",
-        "originContent": "python run_lightening.py test --config $YAML_PATH \\",
-        "translatedContent": "python run_lightening.py test --config $YAML_PATH \\"
-      },
-      {
-        "row": 3,
-        "rowsha": "sv7jXy1+zlYZ8hhMVNvjEq7J8BT4RkJJ2afn2CFyHyk=",
-        "originContent": "    --model.test_mode vis_memory \\",
-        "translatedContent": "    --model.test_mode vis_memory \\"
-      },
-      {
-        "row": 4,
-        "rowsha": "YaLMccWSufRiTsk+GoOYdBhkbklyP1j280Pi7lKtRsc=",
-        "originContent": "    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\\_$SHOT\\_refs_memory_postprocessed.pth \\",
-        "translatedContent": "    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\\_$SHOT\\_refs_memory_postprocessed.pth \\"
-      },
-      {
-        "row": 5,
-        "rowsha": "+BumbXTQ220P4SshjpoA32nDp/jwiCWbKFKYVi5RYXc=",
-        "originContent": "    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \\",
-        "translatedContent": "    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \\"
-      },
-      {
-        "row": 6,
-        "rowsha": "0QT7QmjYkqhfRshvsrRJCFd1cBt2OEEaPr2ax0WhEPA=",
-        "originContent": "    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \\",
-        "translatedContent": "    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \\"
-      },
-      {
-        "row": 7,
-        "rowsha": "SWrctgl0L7Kdk4nV2WBDVityuZNXBo7ZP3vjpFq3q+Y=",
-        "originContent": "    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \\",
-        "translatedContent": "    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \\"
-      },
-      {
-        "row": 8,
-        "rowsha": "ajwBbsJuNblaKhLCmbsz4NzIAKPocJiMx8opaUw7JHc=",
-        "originContent": "    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \\",
-        "translatedContent": "    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \\"
-      },
-      {
-        "row": 9,
-        "rowsha": "CMOv5nGBSogT0gO7wMGjvPW4XkomwTa82Tj0iD9Y3FQ=",
-        "originContent": "    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \\",
-        "translatedContent": "    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \\"
-      },
-      {
-        "row": 10,
-        "rowsha": "kjbTFgGn3Au3NL6CMgQDK2RpX6DraWPljNvBjaZwD/Q=",
-        "originContent": "    --model.init_args.model_cfg.dataset_name $DATASET_NAME \\",
-        "translatedContent": "    --model.init_args.model_cfg.dataset_name $DATASET_NAME \\"
-      },
-      {
-        "row": 11,
-        "rowsha": "I/do2Okczknn/9X/8y5Tan5Adh+bBdjM83mpNMTgU1Q=",
-        "originContent": "    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\",
-        "translatedContent": "    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\"
-      },
-      {
-        "row": 12,
-        "rowsha": "7Cn+uZ9khgahObEB4bul8QUBZse0UStnwto6jY94u64=",
-        "originContent": "    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\",
-        "translatedContent": "    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\"
-      },
-      {
-        "row": 13,
-        "rowsha": "MaGbj/BQoWys9ayvwnfa9LJa4GU85A541/zZC+Xlgzo=",
-        "originContent": "    --trainer.devices 1",
-        "translatedContent": "    --trainer.devices 1"
-      },
-      {
-        "row": 14,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -640,50 +996,7 @@
     "EndLine": 0,
     "Translation": "Les visualisations PCA et K-means pour les images de la mémoire tampon sont stockées dans `results_analysis/memory_vis/my_custom_dataset`.\n\n### 3. Inférence sur les images cibles\n\nSi `ONLINE_VIS` est défini sur True, les résultats de la prédiction seront sauvegardés dans `results_analysis/my_custom_dataset/` et affichés au fur et à mesure de leur calcul. NOTEZ que l’exécution avec visualisation en ligne est beaucoup plus lente.\n\nN'hésitez pas à modifier le seuil de score `VIS_THR` pour afficher plus ou moins d’instances segmentées.",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "v06/j8pVoIsYKBBWpbMfxpIB8qMIcJbM2tdkKJl/cIE=",
-        "originContent": "PCA and K-means visualisations for the memory bank images are stored in `results_analysis/memory_vis/my_custom_dataset`.",
-        "translatedContent": "Les visualisations PCA et K-means pour les images de la mémoire tampon sont stockées dans `results_analysis/memory_vis/my_custom_dataset`."
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "mgJPj3vIyTELe8bZmHn4RAZnA8e/rUDydk+y7d9nDPM=",
-        "originContent": "### 3. Inference on target images",
-        "translatedContent": "### 3. Inférence sur les images cibles"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "YM++GYWJ+d+mCXMS9tSUVlwWGrHkv3G/JLx27lurQ0U=",
-        "originContent": "If `ONLINE_VIS` is set to True, prediction results will be saved in `results_analysis/my_custom_dataset/` and displayed as they are computed. NOTE that running with online visualisation is much slower.",
-        "translatedContent": "Si `ONLINE_VIS` est défini sur True, les résultats de la prédiction seront sauvegardés dans `results_analysis/my_custom_dataset/` et affichés au fur et à mesure de leur calcul. NOTEZ que l’exécution avec visualisation en ligne est beaucoup plus lente."
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "XNhHBadyh3RCBpAmQ14NYnkh3kQ6nLbAWUU5I0lwtn8=",
-        "originContent": "Feel free to change the score threshold `VIS_THR` to see more or less segmented instances.",
-        "translatedContent": "N'hésitez pas à modifier le seuil de score `VIS_THR` pour afficher plus ou moins d’instances segmentées."
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -724,18 +1037,2907 @@
   },
   {
     "Id": 49,
-    "Content": "\nVisual results are saved in `results_analysis/my_custom_dataset/`. Note that our method works for false negatives, that is, images that do not contain any instances of the desired classes.\n\n*Click images to enlarge ⬇️*\n\n| Target image with boats ⛵ (left GT, right predictions) | Target image with birds 🐦 (left GT, right predictions) |\n|:----------------------:|:----------------------:|\n| ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |\n\n| Target image with boats and birds ⛵🐦 (left GT, right predictions) | Target image without boats or birds 🚫 (left GT, right predictions) |\n|:---------------------------------:|:----------------------------------:|\n| ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |\n\n\n## 📚 Citation\n\nIf you use this work, please cite us:\n",
-    "ContentSha": "tEYR4ra1661R2TKfAxblzhr7EHrPwy5JI69dHQuD/mM=",
+    "Content": "\nVisual results are saved in `results_analysis/my_custom_dataset/`. Note that our method works for false negatives, that is, images that do not contain any instances of the desired classes.\n\n*Click images to enlarge ⬇️*\n\n| Target image with boats ⛵ (left GT, right predictions) | Target image with birds 🐦 (left GT, right predictions) |\n|:----------------------:|:----------------------:|\n| ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |\n\n| Target image with boats and birds ⛵🐦 (left GT, right predictions) | Target image without boats or birds 🚫 (left GT, right predictions) |\n|:---------------------------------:|:----------------------------------:|\n| ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |\n\n\n## 🔬 Ablations\n\n### Backbone ablation\n\nTo evaluate the transferability of our method across foundation models, we replace both the semantic\nencoder (DINOv2) and the SAM-based segmenter with several alternatives.\n\n**Semantic encoder ablation:**\n",
+    "ContentSha": "bBJl+j/x2McGhUhBkf7/tA0TMG2iCw7BiHxdydPS4zc=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "Les résultats visuels sont enregistrés dans `results_analysis/my_custom_dataset/`. Notez que notre méthode fonctionne pour les faux négatifs, c'est-à-dire les images qui ne contiennent aucune instance des classes souhaitées.\n\n*Cliquez sur les images pour agrandir ⬇️*\n\n| Image cible avec des bateaux ⛵ (gauche GT, droite prédictions) | Image cible avec des oiseaux 🐦 (gauche GT, droite prédictions) |\n|:----------------------:|:----------------------:|\n| ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |\n\n| Image cible avec des bateaux et des oiseaux ⛵🐦 (gauche GT, droite prédictions) | Image cible sans bateaux ni oiseaux 🚫 (gauche GT, droite prédictions) |\n|:---------------------------------:|:----------------------------------:|\n| ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |\n\n\n## 📚 Citation\n\nSi vous utilisez ce travail, veuillez nous citer :\n\n",
+    "Translation": "\nLes résultats visuels sont enregistrés dans `results_analysis/my_custom_dataset/`. Notez que notre méthode fonctionne pour les faux négatifs, c’est-à-dire les images qui ne contiennent aucune instance des classes souhaitées.\n\n*Cliquez sur les images pour agrandir ⬇️*\n\n| Image cible avec bateaux ⛵ (gauche GT, droite prédictions) | Image cible avec oiseaux 🐦 (gauche GT, droite prédictions) |\n|:----------------------:|:----------------------:|\n| ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |\n\n| Image cible avec bateaux et oiseaux ⛵🐦 (gauche GT, droite prédictions) | Image cible sans bateaux ni oiseaux 🚫 (gauche GT, droite prédictions) |\n|:---------------------------------:|:----------------------------------:|\n| ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |\n\n\n## 🔬 Ablations\n\n### Ablation du backbone\n\nPour évaluer la transférabilité de notre méthode à travers différents modèles fondamentaux, nous remplaçons à la fois l’encodeur sémantique (DINOv2) et le segmentateur basé sur SAM par plusieurs alternatives.\n\n**Ablation de l’encodeur sémantique :**\n\n",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "X46RkLr0xc4fVjLsh3+5n8+/o0lr6QyO+L9nSKBQV4Q=",
+        "originContent": "Visual results are saved in `results_analysis/my_custom_dataset/`. Note that our method works for false negatives, that is, images that do not contain any instances of the desired classes.",
+        "translatedContent": "Les résultats visuels sont enregistrés dans `results_analysis/my_custom_dataset/`. Notez que notre méthode fonctionne pour les faux négatifs, c’est-à-dire les images qui ne contiennent aucune instance des classes souhaitées."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "t/iH8aob7BF4fK0x2yCZG35WiObn34Cfeu7hiJbgixc=",
+        "originContent": "*Click images to enlarge ⬇️*",
+        "translatedContent": "*Cliquez sur les images pour agrandir ⬇️*"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "09LoW5/+HmQNNuv1HsyGDqI3jHJ/MgBDaBYzA1yCE/E=",
+        "originContent": "| Target image with boats ⛵ (left GT, right predictions) | Target image with birds 🐦 (left GT, right predictions) |",
+        "translatedContent": "| Image cible avec bateaux ⛵ (gauche GT, droite prédictions) | Image cible avec oiseaux 🐦 (gauche GT, droite prédictions) |"
+      },
+      {
+        "row": 7,
+        "rowsha": "IyklCY0MeEF5waQpoeIBXzM/xEOVgPeD+sMcc0cJ43c=",
+        "originContent": "|:----------------------:|:----------------------:|",
+        "translatedContent": "|:----------------------:|:----------------------:|"
+      },
+      {
+        "row": 8,
+        "rowsha": "S9X1i0oxN25rLsl/h4T6JYjbn9NU2A66fFBAWLKA02A=",
+        "originContent": "| ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |",
+        "translatedContent": "| ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "T/Pj5KdGgDtayeKEULK4RM6IqAEBd2mYLdQVCnMy+L4=",
+        "originContent": "| Target image with boats and birds ⛵🐦 (left GT, right predictions) | Target image without boats or birds 🚫 (left GT, right predictions) |",
+        "translatedContent": "| Image cible avec bateaux et oiseaux ⛵🐦 (gauche GT, droite prédictions) | Image cible sans bateaux ni oiseaux 🚫 (gauche GT, droite prédictions) |"
+      },
+      {
+        "row": 11,
+        "rowsha": "Y4n1UyevjWImE7udUo5tuu0S6hg7rtv9TgjCNanLYb4=",
+        "originContent": "|:---------------------------------:|:----------------------------------:|",
+        "translatedContent": "|:---------------------------------:|:----------------------------------:|"
+      },
+      {
+        "row": 12,
+        "rowsha": "tY6JoJEP1n5BpauHog+mbMDA8PEYokCeLx4tf42PH5U=",
+        "originContent": "| ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |",
+        "translatedContent": "| ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "Uiv/ZYABQT/LQXEI1NRpa6Zh0Az1ffagmdFefKNudSc=",
+        "originContent": "## 🔬 Ablations",
+        "translatedContent": "## 🔬 Ablations"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "XuZ6n4+DJAv/xJtz0jetqwGbz86kgvoxgXTtXKnELCk=",
+        "originContent": "### Backbone ablation",
+        "translatedContent": "### Ablation du backbone"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "WWapxClJGKX0MOt+exSBrckExrbgkeFw/WuMN9K368g=",
+        "originContent": "To evaluate the transferability of our method across foundation models, we replace both the semantic",
+        "translatedContent": "Pour évaluer la transférabilité de notre méthode à travers différents modèles fondamentaux, nous remplaçons à la fois l’encodeur sémantique (DINOv2) et le segmentateur basé sur SAM par plusieurs alternatives."
+      },
+      {
+        "row": 20,
+        "rowsha": "4FH614haNQNJVOGphjSOomvleMbwXXo/LttFju7z8VY=",
+        "originContent": "encoder (DINOv2) and the SAM-based segmenter with several alternatives.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Ablation de l’encodeur sémantique :**"
+      },
+      {
+        "row": 22,
+        "rowsha": "GdH0Pjxm4DTMtJqcOWKw26BRDMezTsP1AVW1YtYfwT0=",
+        "originContent": "**Semantic encoder ablation:**",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
     "IsCodeBlock": false
   },
   {
     "Id": 50,
+    "Content": "```bash\n# CLIP (Sizes: b16, b32, l14, l14@336px)\nbash scripts/clip/clipl14@336px.sh\nbash scripts/clip/clipl14.sh\nbash scripts/clip/clipb16.sh\nbash scripts/clip/clipb32.sh\n\n# DINOV3 (Sizes: b, l, h)\nbash scripts/dinov3/dinov3b.sh\nbash scripts/dinov3/dinov3l.sh\nbash scripts/dinov3/dinov3h.sh\n\n# PE (Sizes: g14, l14)\nbash scripts/pe/PEg14.sh\nbash scripts/pe/PEl14.sh\n```",
+    "ContentSha": "U5QUAn0+vcfQHDHTDenJsM/hHmG/CnWwkdGWSShfUsk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# CLIP (Sizes: b16, b32, l14, l14@336px)\nbash scripts/clip/clipl14@336px.sh\nbash scripts/clip/clipl14.sh\nbash scripts/clip/clipb16.sh\nbash scripts/clip/clipb32.sh\n\n# DINOV3 (Sizes: b, l, h)\nbash scripts/dinov3/dinov3b.sh\nbash scripts/dinov3/dinov3l.sh\nbash scripts/dinov3/dinov3h.sh\n\n# PE (Sizes: g14, l14)\nbash scripts/pe/PEg14.sh\nbash scripts/pe/PEl14.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "yuNv9HKNcb3WHKaG4zI5MuG6HA3YH8yEpi7gEuUIhKY=",
+        "originContent": "# CLIP (Sizes: b16, b32, l14, l14@336px)",
+        "translatedContent": "# CLIP (Sizes: b16, b32, l14, l14@336px)"
+      },
+      {
+        "row": 3,
+        "rowsha": "LOitBs0AmR2kvZ/PReiEBsEfjNXuGAjMMXmssettJPw=",
+        "originContent": "bash scripts/clip/clipl14@336px.sh",
+        "translatedContent": "bash scripts/clip/clipl14@336px.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "jMKWM6EkgqmJVdkh51cxtU3uCpzClfF2/rh0PZnrQkE=",
+        "originContent": "bash scripts/clip/clipl14.sh",
+        "translatedContent": "bash scripts/clip/clipl14.sh"
+      },
+      {
+        "row": 5,
+        "rowsha": "myr+SjUYZT4tWfBFFa3+sKMH49JYZnm8jYFf8pQhfms=",
+        "originContent": "bash scripts/clip/clipb16.sh",
+        "translatedContent": "bash scripts/clip/clipb16.sh"
+      },
+      {
+        "row": 6,
+        "rowsha": "XLqcuRsd4AbnaLMl3WNSsBA4GFDB8E29+0AWJK+E+A8=",
+        "originContent": "bash scripts/clip/clipb32.sh",
+        "translatedContent": "bash scripts/clip/clipb32.sh"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "HoqHJ1qSdhXcLZLSM0QTUGdqofv8GUz379zxcYObSzA=",
+        "originContent": "# DINOV3 (Sizes: b, l, h)",
+        "translatedContent": "# DINOV3 (Sizes: b, l, h)"
+      },
+      {
+        "row": 9,
+        "rowsha": "Le8Nib8/j4fNf/PEzaEaW307E4B4JVDkQfUMTxPthVY=",
+        "originContent": "bash scripts/dinov3/dinov3b.sh",
+        "translatedContent": "bash scripts/dinov3/dinov3b.sh"
+      },
+      {
+        "row": 10,
+        "rowsha": "VjbjT3GAlHBshz9cOjAm8Fk4DLKlCjRYJ/ozldmDjmw=",
+        "originContent": "bash scripts/dinov3/dinov3l.sh",
+        "translatedContent": "bash scripts/dinov3/dinov3l.sh"
+      },
+      {
+        "row": 11,
+        "rowsha": "NHDMowjmkL4xDBUPIjS/QJYNUTVExFT0b0yjvT4X0is=",
+        "originContent": "bash scripts/dinov3/dinov3h.sh",
+        "translatedContent": "bash scripts/dinov3/dinov3h.sh"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "mT5nFRcCuM7YfQTQmsMBVFuoOQAfxH9DVjWuw/fcLPE=",
+        "originContent": "# PE (Sizes: g14, l14)",
+        "translatedContent": "# PE (Sizes: g14, l14)"
+      },
+      {
+        "row": 14,
+        "rowsha": "vFUotGVEzHPIwBqrzY1o0HLo6Qq729afpvLvEXjUFAo=",
+        "originContent": "bash scripts/pe/PEg14.sh",
+        "translatedContent": "bash scripts/pe/PEg14.sh"
+      },
+      {
+        "row": 15,
+        "rowsha": "ayQu5A9Tjr9QWyJrtwPMY5qTwnftr5P73i5P+FBXva8=",
+        "originContent": "bash scripts/pe/PEl14.sh",
+        "translatedContent": "bash scripts/pe/PEl14.sh"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 51,
+    "Content": "\n**Segmenter ablation:**\n",
+    "ContentSha": "/ZS60igxMmiayG/uNNVSujhItOew9PjA8tk9oQt0MnU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Ablation du segmentateur :**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "hS37DHo/ON50MfKv7iB9hhKRsyYc54EwJidDqoS4fwE=",
+        "originContent": "**Segmenter ablation:**",
+        "translatedContent": "**Ablation du segmentateur :**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 52,
+    "Content": "```bash\n# SAM2 (Sizes: tiny, small, base+, large)\nbash scripts/sam2/sam2_tiny.sh\nbash scripts/sam2/sam2_small.sh\nbash scripts/sam2/sam2_base_plus.sh\nbash scripts/baseline/dinov2_sam_baseline.sh # SAM2 Large\n```",
+    "ContentSha": "cjaZcCXgxcWO/Ehb17zxPFDgpaOkMo7jkRSic2oqvqY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# SAM2 (Sizes: tiny, small, base+, large)\nbash scripts/sam2/sam2_tiny.sh\nbash scripts/sam2/sam2_small.sh\nbash scripts/sam2/sam2_base_plus.sh\nbash scripts/baseline/dinov2_sam_baseline.sh # SAM2 Large\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "bvT4HBOeXXIfM33OoyY5dN6rPjaOdt8kZsAgp2Kfm80=",
+        "originContent": "# SAM2 (Sizes: tiny, small, base+, large)",
+        "translatedContent": "# SAM2 (Sizes: tiny, small, base+, large)"
+      },
+      {
+        "row": 3,
+        "rowsha": "1uIlstzllNEibq1ZfPh4xcjzkJbMEFGQgD7ytlT1RCY=",
+        "originContent": "bash scripts/sam2/sam2_tiny.sh",
+        "translatedContent": "bash scripts/sam2/sam2_tiny.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "4EvAqCEEk4xpPslOLGGHOTRrpMhlTULoyo5U2ieyI3w=",
+        "originContent": "bash scripts/sam2/sam2_small.sh",
+        "translatedContent": "bash scripts/sam2/sam2_small.sh"
+      },
+      {
+        "row": 5,
+        "rowsha": "UOlwADTs6YNLM77hwP/a+aO8jYswd8mbjXueLb7pTPM=",
+        "originContent": "bash scripts/sam2/sam2_base_plus.sh",
+        "translatedContent": "bash scripts/sam2/sam2_base_plus.sh"
+      },
+      {
+        "row": 6,
+        "rowsha": "vX5cLhAEAFYrSH6h3M51bBsG+8HadqtxW66b1AFOKuk=",
+        "originContent": "bash scripts/baseline/dinov2_sam_baseline.sh # SAM2 Large",
+        "translatedContent": "bash scripts/baseline/dinov2_sam_baseline.sh # SAM2 Large"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 53,
+    "Content": "\n### VLM evaluation on COCO few-shot dataset\n\nWe evaluate QWEN VLM on COCO few-shot dataset.\n",
+    "ContentSha": "5wZvZ7CQFoGo/Ntz0TCgbYnW67342vD1hSekgoGSiG8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Évaluation de VLM sur le jeu de données COCO en few-shot\n\nNous évaluons QWEN VLM sur le jeu de données COCO en few-shot.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "YrlR8NyzTbopvhD0aIjPxCbV/vU+diqLwWWy9lTmFPY=",
+        "originContent": "### VLM evaluation on COCO few-shot dataset",
+        "translatedContent": "### Évaluation de VLM sur le jeu de données COCO en few-shot"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "joWg89BxnYaaGaWABNySyRMLDKUccf3qPOVzAOzDnno=",
+        "originContent": "We evaluate QWEN VLM on COCO few-shot dataset.",
+        "translatedContent": "Nous évaluons QWEN VLM sur le jeu de données COCO en few-shot."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 54,
+    "Content": "```bash\nbash scripts/vl-qwen/ablation-vl-qwen.sh\n```",
+    "ContentSha": "hz4FWWZPxhF7kwvL5O5fGIyYkSRTBWaHz28YeOn8uzQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbash scripts/vl-qwen/ablation-vl-qwen.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7CbMp7hjGenQ/xN+CRMJYcVHpI/3my3SqhVySX/Avw=",
+        "originContent": "bash scripts/vl-qwen/ablation-vl-qwen.sh",
+        "translatedContent": "bash scripts/vl-qwen/ablation-vl-qwen.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 55,
+    "Content": "\n### Reference image heuristics\n\nTo understand why different reference images lead to performance variation, we analyse the statistical properties of COCO novel classes annotations.\n\n#### ANALYSIS\n\nWe study three annotation characteristics: (1) mask area (object size),\n(2) mask center location, and (3) distance to image edges.\n\n<details>\n<summary><b>Instructions:</b></summary>\n",
+    "ContentSha": "VrJe7qXPik+c3L40T9f7RyFx/gi77C8xHQWo3ybVRxs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Heuristiques sur les images de référence\n\nPour comprendre pourquoi différentes images de référence entraînent des variations de performance, nous analysons les propriétés statistiques des annotations des nouvelles classes COCO.\n\n#### ANALYSE\n\nNous étudions trois caractéristiques d'annotation : (1) la surface du masque (taille de l'objet),\n(2) la position du centre du masque, et (3) la distance aux bords de l'image.\n\n<details>\n<summary><b>Instructions :</b></summary>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1AJ3fBJytlefism8kQosaHRw+pl1Cb6mlJPUkaRHYsM=",
+        "originContent": "### Reference image heuristics",
+        "translatedContent": "### Heuristiques sur les images de référence"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "g2aCtjDCrBCvNAwA9bpdd4g9CK+79/W0dcpm1nZUWU0=",
+        "originContent": "To understand why different reference images lead to performance variation, we analyse the statistical properties of COCO novel classes annotations.",
+        "translatedContent": "Pour comprendre pourquoi différentes images de référence entraînent des variations de performance, nous analysons les propriétés statistiques des annotations des nouvelles classes COCO."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "mMkfqWmQgZaFNW0o+sr6reVuaxOPFoYw3aRd10wzwyA=",
+        "originContent": "#### ANALYSIS",
+        "translatedContent": "#### ANALYSE"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "fC/txf2jSzltWFljnFOeMN2Zi7N1mPWgB1aCLAtMdvE=",
+        "originContent": "We study three annotation characteristics: (1) mask area (object size),",
+        "translatedContent": "Nous étudions trois caractéristiques d'annotation : (1) la surface du masque (taille de l'objet),"
+      },
+      {
+        "row": 9,
+        "rowsha": "hVJstMOi99NDit9kkOnRlgAzACVvQ6WUXTiwkXnLMJE=",
+        "originContent": "(2) mask center location, and (3) distance to image edges.",
+        "translatedContent": "(2) la position du centre du masque, et (3) la distance aux bords de l'image."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 12,
+        "rowsha": "IFTHwnLoFnIP3sPtm1e0/JnovFTciIxG2LWT5OjV+qU=",
+        "originContent": "<summary><b>Instructions:</b></summary>",
+        "translatedContent": "<summary><b>Instructions :</b></summary>"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 56,
+    "Content": "```bash\n# Mask area distribution\npython no_time_to_train/make_plots/mask_area_distribution.py \\\n  --input data/coco/annotations/instances_val2017.json \\\n  --output no_time_to_train/make_plots/mask_area_distribution/mask_area_distribution.png \\\n  --edges-output no_time_to_train/make_plots/mask_area_distribution/bbox_edge_distance_histograms.png \\\n  --center-output no_time_to_train/make_plots/mask_area_distribution/bbox_center_density.png \\\n  --bins 80 \\\n  --distance-bins 80 \\\n  --disable-center-density\n\n# Bbox center positions\npython no_time_to_train/make_plots/bbox_positions.py \\\n\t--per-class-root data/coco/annotations/per_class_instances \\\n\t--filename centeredness_2d_hist_plain.png \\\n\t--max-cols 6 \\\n\t--output-dir ./no_time_to_train/make_plots/bbox_positions \\\n\t--outfile grid_bbox_positions.png\n```",
+    "ContentSha": "nLTRG5du2uy/h1v9FmbcOq80ralHTJxNsupEBuYthYM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Mask area distribution\npython no_time_to_train/make_plots/mask_area_distribution.py \\\n  --input data/coco/annotations/instances_val2017.json \\\n  --output no_time_to_train/make_plots/mask_area_distribution/mask_area_distribution.png \\\n  --edges-output no_time_to_train/make_plots/mask_area_distribution/bbox_edge_distance_histograms.png \\\n  --center-output no_time_to_train/make_plots/mask_area_distribution/bbox_center_density.png \\\n  --bins 80 \\\n  --distance-bins 80 \\\n  --disable-center-density\n\n# Bbox center positions\npython no_time_to_train/make_plots/bbox_positions.py \\\n\t--per-class-root data/coco/annotations/per_class_instances \\\n\t--filename centeredness_2d_hist_plain.png \\\n\t--max-cols 6 \\\n\t--output-dir ./no_time_to_train/make_plots/bbox_positions \\\n\t--outfile grid_bbox_positions.png\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "CLhPPsEkK1wL89efKIevryzxlJCTCZvk9eR4klEiO1c=",
+        "originContent": "# Mask area distribution",
+        "translatedContent": "# Mask area distribution"
+      },
+      {
+        "row": 3,
+        "rowsha": "5U3xmbatChdklKDbzGqURsWa/JzLjTCkCu1cQ6RmqNw=",
+        "originContent": "python no_time_to_train/make_plots/mask_area_distribution.py \\",
+        "translatedContent": "python no_time_to_train/make_plots/mask_area_distribution.py \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "bSz+HIOPdGeBBqA2SmTXZAwv3+tNpKEycperZ10+GUI=",
+        "originContent": "  --input data/coco/annotations/instances_val2017.json \\",
+        "translatedContent": "  --input data/coco/annotations/instances_val2017.json \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "DhLQ3pnXyB8F1F59jx9QbJd1PAaHIg4UaJjR5W5vZUk=",
+        "originContent": "  --output no_time_to_train/make_plots/mask_area_distribution/mask_area_distribution.png \\",
+        "translatedContent": "  --output no_time_to_train/make_plots/mask_area_distribution/mask_area_distribution.png \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "VIjFmJ5FpF70fXaSrN9s+srsqGWdWUypekBoWp9/xQw=",
+        "originContent": "  --edges-output no_time_to_train/make_plots/mask_area_distribution/bbox_edge_distance_histograms.png \\",
+        "translatedContent": "  --edges-output no_time_to_train/make_plots/mask_area_distribution/bbox_edge_distance_histograms.png \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "bIB3VGiSUDhqGAFL0suFRjGM2nTEKof+eG2sp15RZVg=",
+        "originContent": "  --center-output no_time_to_train/make_plots/mask_area_distribution/bbox_center_density.png \\",
+        "translatedContent": "  --center-output no_time_to_train/make_plots/mask_area_distribution/bbox_center_density.png \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "7dVsOL9Q9pWjhDzHk9xA6S/f3NC4atiyy4UHAvNCV2g=",
+        "originContent": "  --bins 80 \\",
+        "translatedContent": "  --bins 80 \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "z5sDFKTBD3OjULbFwnr7hWrhhfEvGcCMOi+ssQl69vQ=",
+        "originContent": "  --distance-bins 80 \\",
+        "translatedContent": "  --distance-bins 80 \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "poCS4qe19WVz7P0zFzfVetb7o2vqMgA1DmS+d7+uc0I=",
+        "originContent": "  --disable-center-density",
+        "translatedContent": "  --disable-center-density"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "W9Q5GCdSE9kk6+fgOUIJBDV0RBiovZEHNb1jnMcD87o=",
+        "originContent": "# Bbox center positions",
+        "translatedContent": "# Bbox center positions"
+      },
+      {
+        "row": 13,
+        "rowsha": "r/R7rC5c73Uy5x9tanOkE+mf7spU8W2pHwwKqUh4t8Y=",
+        "originContent": "python no_time_to_train/make_plots/bbox_positions.py \\",
+        "translatedContent": "python no_time_to_train/make_plots/bbox_positions.py \\"
+      },
+      {
+        "row": 14,
+        "rowsha": "4JODwlvBCr16LdzKcM1/BEEQNTLF03ctXn6k2DDpA7g=",
+        "originContent": "\t--per-class-root data/coco/annotations/per_class_instances \\",
+        "translatedContent": "\t--per-class-root data/coco/annotations/per_class_instances \\"
+      },
+      {
+        "row": 15,
+        "rowsha": "8HYzsqkNXzNEvmdfMWywvtpjXjeaSyMS6OEtrYHNDSs=",
+        "originContent": "\t--filename centeredness_2d_hist_plain.png \\",
+        "translatedContent": "\t--filename centeredness_2d_hist_plain.png \\"
+      },
+      {
+        "row": 16,
+        "rowsha": "rB+zCoQ8WgdLTS0yYuZot4dOIZlCoJJtg5xcibl6KJI=",
+        "originContent": "\t--max-cols 6 \\",
+        "translatedContent": "\t--max-cols 6 \\"
+      },
+      {
+        "row": 17,
+        "rowsha": "RL9Pyi0eVoWOlAOAXY3cGKc8zW44jb7MSlEchWgyMDo=",
+        "originContent": "\t--output-dir ./no_time_to_train/make_plots/bbox_positions \\",
+        "translatedContent": "\t--output-dir ./no_time_to_train/make_plots/bbox_positions \\"
+      },
+      {
+        "row": 18,
+        "rowsha": "ATgKurFla77IyAW2N6r/WFzc81ysJl0FYzY0Sgngle4=",
+        "originContent": "\t--outfile grid_bbox_positions.png",
+        "translatedContent": "\t--outfile grid_bbox_positions.png"
+      },
+      {
+        "row": 19,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 57,
+    "Content": "\n</details>\n\n<details>\n<summary><b>[OUTPUT] Mask area distribution</b></summary>\n<img width=\"600\" height=\"600\" alt=\"mask_area_distribution\" src=\"https://github.com/user-attachments/assets/ece21119-3622-4a2f-8319-1d52ff05bf99\" />\n\n</details>\n\n<details>\n<summary><b>[OUTPUT] Bbox center density</b></summary>\n<img width=\"3165\" height=\"1627\" alt=\"grid_bbox_positions\" src=\"https://github.com/user-attachments/assets/dff4ddb2-a3f1-45e1-af12-8e9fffbb4d6c\" />\n\n</details>\n\n<details>\n<summary><b>[OUTPUT] Bbox edge distance histograms</b></summary>\n<img width=\"1800\" height=\"1200\" alt=\"bbox_edge_distance_histograms\" src=\"https://github.com/user-attachments/assets/e23d1360-599c-46a2-af59-3d071112e76e\" />\n\n</details>\n\n#### SELECTION\n\nWe sample 100 diverse reference images per class, explicitly\ncovering a range of mask sizes, centers, and edge distances. Each\nreference is evaluated on a fixed reduced validation subset.\n\n<details>\n<summary><b>Instructions:</b></summary>\n\n**Setup script:** `scripts/1shot_ref_ablation/setup.sh`:\n1. Create per class json file\n2. Analyse specific class\n3. Create reference set with different heuristics\n",
+    "ContentSha": "BlhqjrQLl46YPcjsr4hXLqp0m28wMWGLnja5UV3PrDw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "</details>\n\n<details>\n<summary><b>[SORTIE] Distribution de la surface des masques</b></summary>\n<img width=\"600\" height=\"600\" alt=\"mask_area_distribution\" src=\"https://github.com/user-attachments/assets/ece21119-3622-4a2f-8319-1d52ff05bf99\" />\n\n</details>\n\n<details>\n<summary><b>[SORTIE] Densité du centre des Bbox</b></summary>\n<img width=\"3165\" height=\"1627\" alt=\"grid_bbox_positions\" src=\"https://github.com/user-attachments/assets/dff4ddb2-a3f1-45e1-af12-8e9fffbb4d6c\" />\n\n</details>\n\n<details>\n<summary><b>[SORTIE] Histogrammes des distances aux bords des Bbox</b></summary>\n<img width=\"1800\" height=\"1200\" alt=\"bbox_edge_distance_histograms\" src=\"https://github.com/user-attachments/assets/e23d1360-599c-46a2-af59-3d071112e76e\" />\n\n</details>\n\n#### SÉLECTION\n\nNous échantillonnons 100 images de référence diverses par classe, couvrant explicitement\nune gamme de tailles de masques, de centres et de distances aux bords. Chaque\nréférence est évaluée sur un sous-ensemble de validation réduit et fixe.\n\n<details>\n<summary><b>Instructions :</b></summary>\n\n**Script de configuration :** `scripts/1shot_ref_ablation/setup.sh` :\n1. Créer un fichier json par classe\n2. Analyser une classe spécifique\n3. Créer un ensemble de références avec différentes heuristiques\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<summary><b>[SORTIE] Distribution de la surface des masques</b></summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "HiKDwuB1LgsAGUXuYeDo8gYvz2/kztwinW1z4j7/nyU=",
+        "originContent": "<summary><b>[OUTPUT] Mask area distribution</b></summary>",
+        "translatedContent": "<img width=\"600\" height=\"600\" alt=\"mask_area_distribution\" src=\"https://github.com/user-attachments/assets/ece21119-3622-4a2f-8319-1d52ff05bf99\" />"
+      },
+      {
+        "row": 6,
+        "rowsha": "aviQv8oDLDldI+SNLZunM+bvHVGMnqzWhznj5U/4cN4=",
+        "originContent": "<img width=\"600\" height=\"600\" alt=\"mask_area_distribution\" src=\"https://github.com/user-attachments/assets/ece21119-3622-4a2f-8319-1d52ff05bf99\" />",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 8,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 10,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<summary><b>[SORTIE] Densité du centre des Bbox</b></summary>"
+      },
+      {
+        "row": 11,
+        "rowsha": "Pulra18/o//uiwGO0SFfey9JYFQf7Sc4BjaX7mzQ1+w=",
+        "originContent": "<summary><b>[OUTPUT] Bbox center density</b></summary>",
+        "translatedContent": "<img width=\"3165\" height=\"1627\" alt=\"grid_bbox_positions\" src=\"https://github.com/user-attachments/assets/dff4ddb2-a3f1-45e1-af12-8e9fffbb4d6c\" />"
+      },
+      {
+        "row": 12,
+        "rowsha": "9wtiqg590rOQ/H7GW7B4oBirFD2OFLiRZWiEuTwYx/U=",
+        "originContent": "<img width=\"3165\" height=\"1627\" alt=\"grid_bbox_positions\" src=\"https://github.com/user-attachments/assets/dff4ddb2-a3f1-45e1-af12-8e9fffbb4d6c\" />",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 14,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 16,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<summary><b>[SORTIE] Histogrammes des distances aux bords des Bbox</b></summary>"
+      },
+      {
+        "row": 17,
+        "rowsha": "ZKnKisufZvneqe1vcbO0ptoMW4BxdttiTPcSxWnbj7o=",
+        "originContent": "<summary><b>[OUTPUT] Bbox edge distance histograms</b></summary>",
+        "translatedContent": "<img width=\"1800\" height=\"1200\" alt=\"bbox_edge_distance_histograms\" src=\"https://github.com/user-attachments/assets/e23d1360-599c-46a2-af59-3d071112e76e\" />"
+      },
+      {
+        "row": 18,
+        "rowsha": "XzB61fB7DMPB7ptNd6kHXNCtQIHPZeY/HWoC5LaKmT4=",
+        "originContent": "<img width=\"1800\" height=\"1200\" alt=\"bbox_edge_distance_histograms\" src=\"https://github.com/user-attachments/assets/e23d1360-599c-46a2-af59-3d071112e76e\" />",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 20,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### SÉLECTION"
+      },
+      {
+        "row": 22,
+        "rowsha": "8virlWBd0FMRljAnwX8jigydPKTQCduTsRiss45/nzc=",
+        "originContent": "#### SELECTION",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Nous échantillonnons 100 images de référence diverses par classe, couvrant explicitement"
+      },
+      {
+        "row": 24,
+        "rowsha": "E+6RZhVKUVdABS2jUsO3nGI2ewtQQO7mEf8h5K7D2w8=",
+        "originContent": "We sample 100 diverse reference images per class, explicitly",
+        "translatedContent": "une gamme de tailles de masques, de centres et de distances aux bords. Chaque"
+      },
+      {
+        "row": 25,
+        "rowsha": "XIItQLVoZFGSDWkfYqivySyowDuRhf6hGhYh2Baq+lI=",
+        "originContent": "covering a range of mask sizes, centers, and edge distances. Each",
+        "translatedContent": "référence est évaluée sur un sous-ensemble de validation réduit et fixe."
+      },
+      {
+        "row": 26,
+        "rowsha": "SXKI4slCvX8UF/Nu4C0lecDePOynL/nzsN0jIFAa1zg=",
+        "originContent": "reference is evaluated on a fixed reduced validation subset.",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 28,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<summary><b>Instructions :</b></summary>"
+      },
+      {
+        "row": 29,
+        "rowsha": "IFTHwnLoFnIP3sPtm1e0/JnovFTciIxG2LWT5OjV+qU=",
+        "originContent": "<summary><b>Instructions:</b></summary>",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Script de configuration :** `scripts/1shot_ref_ablation/setup.sh` :"
+      },
+      {
+        "row": 31,
+        "rowsha": "nA25uUblAukp1Axho67CKexNnmK75evkah4ljhqUWdY=",
+        "originContent": "**Setup script:** `scripts/1shot_ref_ablation/setup.sh`:",
+        "translatedContent": "1. Créer un fichier json par classe"
+      },
+      {
+        "row": 32,
+        "rowsha": "GKN7ketbiDBnMSmhrQPuY4YrUuevMcIPPsv5BVfT4VQ=",
+        "originContent": "1. Create per class json file",
+        "translatedContent": "2. Analyser une classe spécifique"
+      },
+      {
+        "row": 33,
+        "rowsha": "p7vd8RF6VCEFFlzOWMKWjWRDM/qWLqcoHwMG7jWlIUE=",
+        "originContent": "2. Analyse specific class",
+        "translatedContent": "3. Créer un ensemble de références avec différentes heuristiques"
+      },
+      {
+        "row": 34,
+        "rowsha": "VI/L7mzB1H3dJ7Lt0rGSIXr/oW72dJE39Rb1CvIt8EQ=",
+        "originContent": "3. Create reference set with different heuristics",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 58,
+    "Content": "```bash\nbash scripts/1shot_ref_ablation/setup.sh\n```",
+    "ContentSha": "/HFuGqpm24h1hAq8/kFei1x6ef2vTEqzFrL3e6dqlLY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbash scripts/1shot_ref_ablation/setup.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "V/VtPJOvBwlutg5006+/e0sS5vFoMTfxqNCmfx0fyek=",
+        "originContent": "bash scripts/1shot_ref_ablation/setup.sh",
+        "translatedContent": "bash scripts/1shot_ref_ablation/setup.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 59,
+    "Content": "\n**Run scripts:** `scripts/1shot_ref_ablation/gpu*.sh`:\n\n4. Run pipeline for each reference set",
+    "ContentSha": "vIvmsYvlYbGM4Ef5BSZcuPYc0fyKC096j0FGohYW41s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Exécutez les scripts :** `scripts/1shot_ref_ablation/gpu*.sh` :\n\n4. Exécutez le pipeline pour chaque ensemble de références",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "RlMwFUQCUaqm7qcO+PSD+N4RRE10E+w8bk09BaMYu6Q=",
+        "originContent": "**Run scripts:** `scripts/1shot_ref_ablation/gpu*.sh`:",
+        "translatedContent": "**Exécutez les scripts :** `scripts/1shot_ref_ablation/gpu*.sh` :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "9PVW0ZBIrj/LILzH/06uDpTEPX9IqsI/hTKLyQthlhk=",
+        "originContent": "4. Run pipeline for each reference set",
+        "translatedContent": "4. Exécutez le pipeline pour chaque ensemble de références"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 60,
+    "Content": "```bash\n# Example launch script that calls template script for each reference set\nbash scripts/1shot_ref_ablation/gpu0.sh\n```",
+    "ContentSha": "eKBsWZDPYUHiw08YVRMe1gi5gK+i5+hB7g5kIwJYtKA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Example launch script that calls template script for each reference set\nbash scripts/1shot_ref_ablation/gpu0.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "JGhny42quRuV+tevoK4s0ekJmNZYCSISeLqUevXiZAo=",
+        "originContent": "# Example launch script that calls template script for each reference set",
+        "translatedContent": "# Example launch script that calls template script for each reference set"
+      },
+      {
+        "row": 3,
+        "rowsha": "iUFSRLS40KDZMlkrhY5Vd8z4gVYTriqiTybxP2tmdaY=",
+        "originContent": "bash scripts/1shot_ref_ablation/gpu0.sh",
+        "translatedContent": "bash scripts/1shot_ref_ablation/gpu0.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 61,
+    "Content": "\n</details>\n\n\n#### RESULTS\n\nWe analyze how detection scores correlate with reference image characteristics\n(mask size, center position, edge distance).\n\n<details>\n<summary><b>Instructions:</b></summary>\n",
+    "ContentSha": "E1T3tXQXFoDrbiwYfEdA/cPTcEqMHda7oY3xmJvyPPk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n\n#### RÉSULTATS\n\nNous analysons comment les scores de détection sont corrélés avec les caractéristiques de l'image de référence\n(taille du masque, position du centre, distance au bord).\n\n<details>\n<summary><b>Instructions :</b></summary>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "C6SfhMM3uxTD7Ey5bMS2j7LziR+tiM+EVg/NXE/dSRI=",
+        "originContent": "#### RESULTS",
+        "translatedContent": "#### RÉSULTATS"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Ufn8EnvSOqC+NtfZlRvYjpUpksIrMr2UreMu1OplkW4=",
+        "originContent": "We analyze how detection scores correlate with reference image characteristics",
+        "translatedContent": "Nous analysons comment les scores de détection sont corrélés avec les caractéristiques de l'image de référence"
+      },
+      {
+        "row": 8,
+        "rowsha": "m3TgRIPakLUitEZkSLsokRkUX9awH2SGHn2qDnwA3BE=",
+        "originContent": "(mask size, center position, edge distance).",
+        "translatedContent": "(taille du masque, position du centre, distance au bord)."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 11,
+        "rowsha": "IFTHwnLoFnIP3sPtm1e0/JnovFTciIxG2LWT5OjV+qU=",
+        "originContent": "<summary><b>Instructions:</b></summary>",
+        "translatedContent": "<summary><b>Instructions :</b></summary>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 62,
+    "Content": "```bash\npython no_time_to_train/make_plots/heuristics_analysis.py\n# Outputs: \n# - no_time_to_train/make_plots/heuristics_analysis/heatmap_bbox_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/heatmap_segm_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores_kde_smooth.png\n# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores_kde_smooth.png\n# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/per_class_area_vs_raw_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/all_classes_area_vs_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/edge_distance_vs_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/bars_area_category_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/bars_centered_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/bars_avoid_sides_norm_scores.png\n```",
+    "ContentSha": "MfAL+SWmUiUmLStmP95V+EWH8i0c+xWu8wXKsjF/AU4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython no_time_to_train/make_plots/heuristics_analysis.py\n# Outputs: \n# - no_time_to_train/make_plots/heuristics_analysis/heatmap_bbox_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/heatmap_segm_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores_kde_smooth.png\n# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores_kde_smooth.png\n# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/per_class_area_vs_raw_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/all_classes_area_vs_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/edge_distance_vs_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/bars_area_category_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/bars_centered_norm_scores.png\n# - no_time_to_train/make_plots/heuristics_analysis/bars_avoid_sides_norm_scores.png\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "OELGO+I5NEtY/mmhNJiku+/XIEsxoPMOzvZ9B9k2MS8=",
+        "originContent": "python no_time_to_train/make_plots/heuristics_analysis.py",
+        "translatedContent": "python no_time_to_train/make_plots/heuristics_analysis.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZrQcFFnHLe2aPu9uHW6tf7df0I74D3Jq5r6GOlMXjuU=",
+        "originContent": "# Outputs: ",
+        "translatedContent": "# Outputs: "
+      },
+      {
+        "row": 4,
+        "rowsha": "cyaM0YKab1sV5uo5gKXc+aa3I8AN1/XH2lzqD3kiYrQ=",
+        "originContent": "# - no_time_to_train/make_plots/heuristics_analysis/heatmap_bbox_norm_scores.png",
+        "translatedContent": "# - no_time_to_train/make_plots/heuristics_analysis/heatmap_bbox_norm_scores.png"
+      },
+      {
+        "row": 5,
+        "rowsha": "KWzH8NvNNvhwY+uhrHoUcsZIsBJjfa40duyekEa90MY=",
+        "originContent": "# - no_time_to_train/make_plots/heuristics_analysis/heatmap_segm_norm_scores.png",
+        "translatedContent": "# - no_time_to_train/make_plots/heuristics_analysis/heatmap_segm_norm_scores.png"
+      },
+      {
+        "row": 6,
+        "rowsha": "ktoXe75K51UjXWj/V9QINL3S++RiWXZpI6CKlqBm43g=",
+        "originContent": "# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores_kde_smooth.png",
+        "translatedContent": "# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores_kde_smooth.png"
+      },
+      {
+        "row": 7,
+        "rowsha": "gBGRYm9LvrQHd/ATmuIYLQ1UmrZJdEAEroDbtilS59s=",
+        "originContent": "# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores.png",
+        "translatedContent": "# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores.png"
+      },
+      {
+        "row": 8,
+        "rowsha": "ABDvxiqiHOISgJfeLiEm29jx7nvTtMoDXmv02aBVT0c=",
+        "originContent": "# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores_kde_smooth.png",
+        "translatedContent": "# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores_kde_smooth.png"
+      },
+      {
+        "row": 9,
+        "rowsha": "T3iQ/WqowJccfcl9M1gjvbuseoiALWJukFCVGVd5gFM=",
+        "originContent": "# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores.png",
+        "translatedContent": "# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores.png"
+      },
+      {
+        "row": 10,
+        "rowsha": "g+WtcmdeeeeI9cBSt+8aV7BkHuAuDf157n6bjWSndxM=",
+        "originContent": "# - no_time_to_train/make_plots/heuristics_analysis/per_class_area_vs_raw_scores.png",
+        "translatedContent": "# - no_time_to_train/make_plots/heuristics_analysis/per_class_area_vs_raw_scores.png"
+      },
+      {
+        "row": 11,
+        "rowsha": "mTo9lxPd3MZHteYKSE7Nzmw4lwCTyUWLLeP9lRTM11g=",
+        "originContent": "# - no_time_to_train/make_plots/heuristics_analysis/all_classes_area_vs_norm_scores.png",
+        "translatedContent": "# - no_time_to_train/make_plots/heuristics_analysis/all_classes_area_vs_norm_scores.png"
+      },
+      {
+        "row": 12,
+        "rowsha": "5CGVg20bXMgIqP/ZRe5yHS68dBrXR5G4tbDEsLh0CL4=",
+        "originContent": "# - no_time_to_train/make_plots/heuristics_analysis/edge_distance_vs_norm_scores.png",
+        "translatedContent": "# - no_time_to_train/make_plots/heuristics_analysis/edge_distance_vs_norm_scores.png"
+      },
+      {
+        "row": 13,
+        "rowsha": "6mJsRFZOD0LRpJZZ+YtENnXURaHdfLC+7wE7OtwIZKg=",
+        "originContent": "# - no_time_to_train/make_plots/heuristics_analysis/bars_area_category_norm_scores.png",
+        "translatedContent": "# - no_time_to_train/make_plots/heuristics_analysis/bars_area_category_norm_scores.png"
+      },
+      {
+        "row": 14,
+        "rowsha": "8MxLFt6kJ6tfHosJvXljF9sISnUrGmqIGtD4ggpah7o=",
+        "originContent": "# - no_time_to_train/make_plots/heuristics_analysis/bars_centered_norm_scores.png",
+        "translatedContent": "# - no_time_to_train/make_plots/heuristics_analysis/bars_centered_norm_scores.png"
+      },
+      {
+        "row": 15,
+        "rowsha": "jI654dS/E6qPlNZtllxpHtZRN+P3uhXsIreQAPT5eN4=",
+        "originContent": "# - no_time_to_train/make_plots/heuristics_analysis/bars_avoid_sides_norm_scores.png",
+        "translatedContent": "# - no_time_to_train/make_plots/heuristics_analysis/bars_avoid_sides_norm_scores.png"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 63,
+    "Content": "\n\n</details>\n\n<details>\n<summary><b>[OUTPUT] Barplots. Effect of mask area (left) and centeredness (right) on performance</b></summary>\n<img width=\"1190\" height=\"846\" alt=\"barplot\" src=\"https://github.com/user-attachments/assets/e900aff5-523d-4563-aebc-0135dcbb5eb6\" />\n\n</details>\n\n<details>\n<summary><b>[OUTPUT] Heatmaps. 2D score maps of performance as a function of mask-center location</b></summary>\n<img width=\"1250\" height=\"545\" alt=\"heatmap\" src=\"https://github.com/user-attachments/assets/c2c59ffe-b19e-4907-b0be-68249cf5db51\" />\n\n</details>\n\n<details>\n<summary><b>[OUTPUT] Reference-image performance vs. mask area for all COCO novel classes</b></summary>\n<img width=\"2500\" height=\"1432\" alt=\"class_performance\" src=\"https://github.com/user-attachments/assets/05a0e213-3ba5-4b4f-80ed-9b7ca782642a\" />\n\n</details>\n\n### Reference-image degradation\n\nWe evaluate our method under progressively degraded reference images by applying increasing\nlevels of Gaussian blur.\n<img width=\"2640\" height=\"1194\" alt=\"ablation-blur\" src=\"https://github.com/user-attachments/assets/c2abf0ab-1578-41cf-abcf-50e43f7691f5\" />\n\n<details>\n<summary><b>Instructions:</b></summary>\n",
+    "ContentSha": "X0Nw5+ZHKStxR+bJdgiIcDMtnOBXlc1p0pSLMyU+JIQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n\n</details>\n\n<details>\n<summary><b>[OUTPUT] Diagrammes en barres. Effet de la surface du masque (gauche) et du centrage (droite) sur la performance</b></summary>\n<img width=\"1190\" height=\"846\" alt=\"barplot\" src=\"https://github.com/user-attachments/assets/e900aff5-523d-4563-aebc-0135dcbb5eb6\" />\n\n</details>\n\n<details>\n<summary><b>[OUTPUT] Cartes de chaleur. Cartes de score 2D de la performance en fonction de la localisation du centre du masque</b></summary>\n<img width=\"1250\" height=\"545\" alt=\"heatmap\" src=\"https://github.com/user-attachments/assets/c2c59ffe-b19e-4907-b0be-68249cf5db51\" />\n\n</details>\n\n<details>\n<summary><b>[OUTPUT] Performance image de référence vs. surface du masque pour toutes les classes inédites COCO</b></summary>\n<img width=\"2500\" height=\"1432\" alt=\"class_performance\" src=\"https://github.com/user-attachments/assets/05a0e213-3ba5-4b4f-80ed-9b7ca782642a\" />\n\n</details>\n\n### Dégradation de l’image de référence\n\nNous évaluons notre méthode sur des images de référence progressivement dégradées en appliquant des niveaux croissants de flou gaussien.\n<img width=\"2640\" height=\"1194\" alt=\"ablation-blur\" src=\"https://github.com/user-attachments/assets/c2abf0ab-1578-41cf-abcf-50e43f7691f5\" />\n\n<details>\n<summary><b>Instructions :</b></summary>\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 6,
+        "rowsha": "L4ZACxpMMsQmun9rDtGFnxhUuyBZRyKWumB5VheM6Fo=",
+        "originContent": "<summary><b>[OUTPUT] Barplots. Effect of mask area (left) and centeredness (right) on performance</b></summary>",
+        "translatedContent": "<summary><b>[OUTPUT] Diagrammes en barres. Effet de la surface du masque (gauche) et du centrage (droite) sur la performance</b></summary>"
+      },
+      {
+        "row": 7,
+        "rowsha": "NzeJ+0FM9CoF++87a4DR7XAugJJi2Hzzy27B31uNdMQ=",
+        "originContent": "<img width=\"1190\" height=\"846\" alt=\"barplot\" src=\"https://github.com/user-attachments/assets/e900aff5-523d-4563-aebc-0135dcbb5eb6\" />",
+        "translatedContent": "<img width=\"1190\" height=\"846\" alt=\"barplot\" src=\"https://github.com/user-attachments/assets/e900aff5-523d-4563-aebc-0135dcbb5eb6\" />"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 12,
+        "rowsha": "MXu8jcqf4d3iImpBW/x3Qr5CrnfKHI6xmIWBtoLrxac=",
+        "originContent": "<summary><b>[OUTPUT] Heatmaps. 2D score maps of performance as a function of mask-center location</b></summary>",
+        "translatedContent": "<summary><b>[OUTPUT] Cartes de chaleur. Cartes de score 2D de la performance en fonction de la localisation du centre du masque</b></summary>"
+      },
+      {
+        "row": 13,
+        "rowsha": "p34nTuOA2VcfE2FfQniJT/L0x2RqDPfT/96cNNLLfpw=",
+        "originContent": "<img width=\"1250\" height=\"545\" alt=\"heatmap\" src=\"https://github.com/user-attachments/assets/c2c59ffe-b19e-4907-b0be-68249cf5db51\" />",
+        "translatedContent": "<img width=\"1250\" height=\"545\" alt=\"heatmap\" src=\"https://github.com/user-attachments/assets/c2c59ffe-b19e-4907-b0be-68249cf5db51\" />"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 18,
+        "rowsha": "MS//7cnnzgZ6qn+5fKhMshn0c5jqJX7k+rkEi/ioxic=",
+        "originContent": "<summary><b>[OUTPUT] Reference-image performance vs. mask area for all COCO novel classes</b></summary>",
+        "translatedContent": "<summary><b>[OUTPUT] Performance image de référence vs. surface du masque pour toutes les classes inédites COCO</b></summary>"
+      },
+      {
+        "row": 19,
+        "rowsha": "mtu7EKkbGQoTnEewySPLPhJjlDeGaN1JRTDYBfRCTqw=",
+        "originContent": "<img width=\"2500\" height=\"1432\" alt=\"class_performance\" src=\"https://github.com/user-attachments/assets/05a0e213-3ba5-4b4f-80ed-9b7ca782642a\" />",
+        "translatedContent": "<img width=\"2500\" height=\"1432\" alt=\"class_performance\" src=\"https://github.com/user-attachments/assets/05a0e213-3ba5-4b4f-80ed-9b7ca782642a\" />"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "JIXOHdVYim4giz75d7PMtqU4w5LOuwk9vJyTDHFEq+s=",
+        "originContent": "### Reference-image degradation",
+        "translatedContent": "### Dégradation de l’image de référence"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "gUGnaFai0TuLjNa/q5ZP7u6UG8st9fg5QWxjzb3Iboc=",
+        "originContent": "We evaluate our method under progressively degraded reference images by applying increasing",
+        "translatedContent": "Nous évaluons notre méthode sur des images de référence progressivement dégradées en appliquant des niveaux croissants de flou gaussien."
+      },
+      {
+        "row": 26,
+        "rowsha": "YfB/j4gvriqTOlZx4/f335ghiGVmIcOwhAoltO9vwAU=",
+        "originContent": "levels of Gaussian blur.",
+        "translatedContent": "<img width=\"2640\" height=\"1194\" alt=\"ablation-blur\" src=\"https://github.com/user-attachments/assets/c2abf0ab-1578-41cf-abcf-50e43f7691f5\" />"
+      },
+      {
+        "row": 27,
+        "rowsha": "HJWmoczcOCpNLmxJmBM9p+ZIFKt+p9lIkU70XwwejZY=",
+        "originContent": "<img width=\"2640\" height=\"1194\" alt=\"ablation-blur\" src=\"https://github.com/user-attachments/assets/c2abf0ab-1578-41cf-abcf-50e43f7691f5\" />",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<summary><b>Instructions :</b></summary>"
+      },
+      {
+        "row": 30,
+        "rowsha": "IFTHwnLoFnIP3sPtm1e0/JnovFTciIxG2LWT5OjV+qU=",
+        "originContent": "<summary><b>Instructions:</b></summary>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 64,
+    "Content": "```bash\n# Run different blur levels\nbash scripts/blur_ablation/blur_ablation.sh\n\n# Plot grid of blur ablation results\npython no_time_to_train/make_plots/plot_blur_results.py \\\n    --results-root ./work_dirs/blur_ablation \\\n    --class-id 0 \\\n    --max-cols 4 \\\n    --output-dir ./no_time_to_train/make_plots/blur_ablation \\\n    --outfile grid_blur_ablation_class_0.png\n```",
+    "ContentSha": "w6XXb1JOm58/+fGIbitcy/BwnhPE94DN2FL/mynHepY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Run different blur levels\nbash scripts/blur_ablation/blur_ablation.sh\n\n# Plot grid of blur ablation results\npython no_time_to_train/make_plots/plot_blur_results.py \\\n    --results-root ./work_dirs/blur_ablation \\\n    --class-id 0 \\\n    --max-cols 4 \\\n    --output-dir ./no_time_to_train/make_plots/blur_ablation \\\n    --outfile grid_blur_ablation_class_0.png\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "iAaV7Y3pS0D/Nk/d1gA8K15hLFU45wQjFkCUaT0GN5k=",
+        "originContent": "# Run different blur levels",
+        "translatedContent": "# Run different blur levels"
+      },
+      {
+        "row": 3,
+        "rowsha": "FSQB6Cbpcf12lQ2mfCIZRpTt9PXEMPo6QRRSFHLfRfQ=",
+        "originContent": "bash scripts/blur_ablation/blur_ablation.sh",
+        "translatedContent": "bash scripts/blur_ablation/blur_ablation.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ZFjaHpHXbSsCW07LtNujcOu6LU23dFk6rImoALZCKGI=",
+        "originContent": "# Plot grid of blur ablation results",
+        "translatedContent": "# Plot grid of blur ablation results"
+      },
+      {
+        "row": 6,
+        "rowsha": "tsHmAEYkutqq95e/bvOpmSTeQzSpvn3kIaY/TwZlXFk=",
+        "originContent": "python no_time_to_train/make_plots/plot_blur_results.py \\",
+        "translatedContent": "python no_time_to_train/make_plots/plot_blur_results.py \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "6wLGnRROrxX8oP0PDaz+2s1R2QtRI37wXn3TvJxmXns=",
+        "originContent": "    --results-root ./work_dirs/blur_ablation \\",
+        "translatedContent": "    --results-root ./work_dirs/blur_ablation \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "oUzi4aE3hqJIf8EDTXDGd/wRudl7IXArDhb29KEACvM=",
+        "originContent": "    --class-id 0 \\",
+        "translatedContent": "    --class-id 0 \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "7mRyBsk8/2ScYnDu1GOJbGDPwIcTc1vg5S4QqX5P6Q0=",
+        "originContent": "    --max-cols 4 \\",
+        "translatedContent": "    --max-cols 4 \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "iuLjdXVJOME9h3HjHoGDFSX9ym44T8rqww4XYVssK0U=",
+        "originContent": "    --output-dir ./no_time_to_train/make_plots/blur_ablation \\",
+        "translatedContent": "    --output-dir ./no_time_to_train/make_plots/blur_ablation \\"
+      },
+      {
+        "row": 11,
+        "rowsha": "tZ3B4wYU7hAtKh++QC0xwJVZj+2OgaVY4zlQbgkjO4I=",
+        "originContent": "    --outfile grid_blur_ablation_class_0.png",
+        "translatedContent": "    --outfile grid_blur_ablation_class_0.png"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 65,
+    "Content": "\n</details>\n\n### Feature similarity\n\nScript for visualising feature similarity between reference images and target images.\n\nIt generates single-feature similarity (path features), and prototype-based similarity (aggregated features).\n<img width=\"2500\" height=\"1030\" alt=\"feature_similarity_small\" src=\"https://github.com/user-attachments/assets/d56ec9aa-c60e-4fe6-92cd-aa6270b1d6ed\" />\n\n<details>\n<summary><b>Instructions:</b></summary>\n",
+    "ContentSha": "OdCwlEmx7/8ef+IqKyowu9zZ+P7+yKduGdWNzZBNAFY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n### Similarité des caractéristiques\n\nScript pour visualiser la similarité des caractéristiques entre les images de référence et les images cibles.\n\nIl génère la similarité à une seule caractéristique (caractéristiques de chemin), et la similarité basée sur des prototypes (caractéristiques agrégées).\n<img width=\"2500\" height=\"1030\" alt=\"feature_similarity_small\" src=\"https://github.com/user-attachments/assets/d56ec9aa-c60e-4fe6-92cd-aa6270b1d6ed\" />\n\n<details>\n<summary><b>Instructions :</b></summary>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "235xZpIDCgcSbsCnG5oPGFqX9ILnC/HvJKoUzSuUtgI=",
+        "originContent": "### Feature similarity",
+        "translatedContent": "### Similarité des caractéristiques"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "0vdfsXFhhMJNM5pZKngepAlgxOAqHa/hJII90nRKlz8=",
+        "originContent": "Script for visualising feature similarity between reference images and target images.",
+        "translatedContent": "Script pour visualiser la similarité des caractéristiques entre les images de référence et les images cibles."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Wa9rhnuIuiLUstRqIESD0QZG6tGy/eW/FUbhQPM32CI=",
+        "originContent": "It generates single-feature similarity (path features), and prototype-based similarity (aggregated features).",
+        "translatedContent": "Il génère la similarité à une seule caractéristique (caractéristiques de chemin), et la similarité basée sur des prototypes (caractéristiques agrégées)."
+      },
+      {
+        "row": 9,
+        "rowsha": "h4BEANoH87omyU4QBa8QqLuWrVtjU2xTzOgbV19lnk4=",
+        "originContent": "<img width=\"2500\" height=\"1030\" alt=\"feature_similarity_small\" src=\"https://github.com/user-attachments/assets/d56ec9aa-c60e-4fe6-92cd-aa6270b1d6ed\" />",
+        "translatedContent": "<img width=\"2500\" height=\"1030\" alt=\"feature_similarity_small\" src=\"https://github.com/user-attachments/assets/d56ec9aa-c60e-4fe6-92cd-aa6270b1d6ed\" />"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 12,
+        "rowsha": "IFTHwnLoFnIP3sPtm1e0/JnovFTciIxG2LWT5OjV+qU=",
+        "originContent": "<summary><b>Instructions:</b></summary>",
+        "translatedContent": "<summary><b>Instructions :</b></summary>"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 66,
+    "Content": "```bash\npython no_time_to_train/make_plots/feature_similarity.py \\\n  --classes orange \\  \n  --num-images 20 \\\n  --min-area 12 \\\n  --max-area 25000 \\\n  --min-instances 2 \\\n  --seed 123 \\\n  --max-per-class 12\n```",
+    "ContentSha": "23/qjomdcTlrmd6F0uHggvISaNyMIl1pZYYLUvbYQ5A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython no_time_to_train/make_plots/feature_similarity.py \\\n  --classes orange \\  \n  --num-images 20 \\\n  --min-area 12 \\\n  --max-area 25000 \\\n  --min-instances 2 \\\n  --seed 123 \\\n  --max-per-class 12\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "6j6gFwgx5M133coyBaYy1vePZA3vD1agto0wfwHWtTs=",
+        "originContent": "python no_time_to_train/make_plots/feature_similarity.py \\",
+        "translatedContent": "python no_time_to_train/make_plots/feature_similarity.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "VEG4ZrFmOYzuzQgZvcP0xxTv06kvUsL12lgF0AT6zTs=",
+        "originContent": "  --classes orange \\  ",
+        "translatedContent": "  --classes orange \\  "
+      },
+      {
+        "row": 4,
+        "rowsha": "HyPL2/fBOqdchcjHtDJor5hJ5aLexSD39hAoLlpbQiU=",
+        "originContent": "  --num-images 20 \\",
+        "translatedContent": "  --num-images 20 \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "2Y8v9J9MBODAbscxJlzsMYmepSftp4FWA8+ofYXl7aE=",
+        "originContent": "  --min-area 12 \\",
+        "translatedContent": "  --min-area 12 \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "ZSUuEH+Xrix+8j3KHb70QC0m8MsRNGr2lyAfP1zdI+g=",
+        "originContent": "  --max-area 25000 \\",
+        "translatedContent": "  --max-area 25000 \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "uAHgdCbcrIbnE6GyulOkk1mztP5sPiB2rBe/otZaLAw=",
+        "originContent": "  --min-instances 2 \\",
+        "translatedContent": "  --min-instances 2 \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "kJXbvSEbCqtKGtrlQX0hsE12sQfhlPOxSHLQbNsZ78k=",
+        "originContent": "  --seed 123 \\",
+        "translatedContent": "  --seed 123 \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "mKr+UaWuCFnlqJpZxFzsRA8xv+NctCSOYZoUzwj3agk=",
+        "originContent": "  --max-per-class 12",
+        "translatedContent": "  --max-per-class 12"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 67,
+    "Content": "</details>\n\n### T-SNE plots (DINOv2 feature separability)\n\nt-SNE of DINOv2 features shows clear separation for dissimilar classes\nbut heavy overlap for similar ones, suggesting that confusion stems from\nbackbone feature geometry rather than prototypes selection.\n<img width=\"2500\" height=\"1444\" alt=\"tsne\" src=\"https://github.com/user-attachments/assets/baffc430-1600-44a1-9a14-1b08e25a9d55\" />\n\n<details>\n<summary><b>Instructions:</b></summary>\n\nExtract features\n",
+    "ContentSha": "ZAAKKfUQPf5BUocAJouEVbrH6159Wrk85yAq/zfMdj4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "</details>\n\n### Graphiques T-SNE (séparabilité des caractéristiques DINOv2)\n\nLe t-SNE des caractéristiques DINOv2 montre une séparation nette pour les classes dissemblables,\nmais un chevauchement important pour les classes similaires, suggérant que la confusion provient\nde la géométrie des caractéristiques du backbone plutôt que de la sélection des prototypes.\n<img width=\"2500\" height=\"1444\" alt=\"tsne\" src=\"https://github.com/user-attachments/assets/baffc430-1600-44a1-9a14-1b08e25a9d55\" />\n\n<details>\n<summary><b>Instructions :</b></summary>\n\nExtraire les caractéristiques\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Y81BTfsCZzxLvzAvvfv43OlZgEckHsucMJs3CGLAdXA=",
+        "originContent": "### T-SNE plots (DINOv2 feature separability)",
+        "translatedContent": "### Graphiques T-SNE (séparabilité des caractéristiques DINOv2)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "lFsukMZ2du4AUY/VxroDrR3LY/fRZVocvrsa4xKd1r0=",
+        "originContent": "t-SNE of DINOv2 features shows clear separation for dissimilar classes",
+        "translatedContent": "Le t-SNE des caractéristiques DINOv2 montre une séparation nette pour les classes dissemblables,"
+      },
+      {
+        "row": 6,
+        "rowsha": "l3sKCYqyGuXOPOsFczBRS5lVb3RThs+XsZbcodNVAvU=",
+        "originContent": "but heavy overlap for similar ones, suggesting that confusion stems from",
+        "translatedContent": "mais un chevauchement important pour les classes similaires, suggérant que la confusion provient"
+      },
+      {
+        "row": 7,
+        "rowsha": "Nj8HCFqJK2cG4jV6ilqXBmTWeaWKu1dtC+f4d1BA35A=",
+        "originContent": "backbone feature geometry rather than prototypes selection.",
+        "translatedContent": "de la géométrie des caractéristiques du backbone plutôt que de la sélection des prototypes."
+      },
+      {
+        "row": 8,
+        "rowsha": "bwKuQUIp6j/dXa4O+IKfhYnO6YGjVS+ulJN6siqstr0=",
+        "originContent": "<img width=\"2500\" height=\"1444\" alt=\"tsne\" src=\"https://github.com/user-attachments/assets/baffc430-1600-44a1-9a14-1b08e25a9d55\" />",
+        "translatedContent": "<img width=\"2500\" height=\"1444\" alt=\"tsne\" src=\"https://github.com/user-attachments/assets/baffc430-1600-44a1-9a14-1b08e25a9d55\" />"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 11,
+        "rowsha": "IFTHwnLoFnIP3sPtm1e0/JnovFTciIxG2LWT5OjV+qU=",
+        "originContent": "<summary><b>Instructions:</b></summary>",
+        "translatedContent": "<summary><b>Instructions :</b></summary>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "eKXJhJI70VFfRSSYKGOFDsG+ofSb5JA7oG9dQbS+yMs=",
+        "originContent": "Extract features",
+        "translatedContent": "Extraire les caractéristiques"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 68,
+    "Content": "```bash\npython no_time_to_train/make_plots/tsne-coco.py --extract\n```",
+    "ContentSha": "zNmB/5R/VZ7q7VuOx7puij0g6iwTqtrnrAHBNl1Bt+M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython no_time_to_train/make_plots/tsne-coco.py --extract\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "pn+uC1HOvulio6l+MvNG5pD7/7bfZ7vdde5GqYCkh38=",
+        "originContent": "python no_time_to_train/make_plots/tsne-coco.py --extract",
+        "translatedContent": "python no_time_to_train/make_plots/tsne-coco.py --extract"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 69,
+    "Content": "\nPlot T-SNE plots\n",
+    "ContentSha": "hMeudLzecbpwgY7CiKQNGSsg80KHyrWNktxF2wbCI0E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Tracer des graphiques T-SNE\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Tracer des graphiques T-SNE"
+      },
+      {
+        "row": 2,
+        "rowsha": "GLL5ru1VJAYMMDvYLI1RuYBrp1pde7KeIL3BwWIHMrE=",
+        "originContent": "Plot T-SNE plots",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 70,
+    "Content": "```bash\n# Example spoon vs fork\npython no_time_to_train/make_plots/tsne-coco.py --classes cat dog\n```",
+    "ContentSha": "dERV9BIvmxLLpsbhJnoN/HnZIo5IX9WfuH/iYmReO5k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Example spoon vs fork\npython no_time_to_train/make_plots/tsne-coco.py --classes cat dog\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "w16tRgFd2Esu+uwiP/VnXxEdsCV1jA5aLf8Oc68QXew=",
+        "originContent": "# Example spoon vs fork",
+        "translatedContent": "# Example spoon vs fork"
+      },
+      {
+        "row": 3,
+        "rowsha": "kG2BdzX0H1375tNVcvkmf2F+vLh+j6D7QBe56jY4wEE=",
+        "originContent": "python no_time_to_train/make_plots/tsne-coco.py --classes cat dog",
+        "translatedContent": "python no_time_to_train/make_plots/tsne-coco.py --classes cat dog"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 71,
+    "Content": "\n</details>\n\n## 🛠️ Helpers\n\n### Visualise memory\n\nadd image feature_comparison_small.png here\n\n<details>\n<summary><b>Instructions</b></summary>\n\nTo visualise the memory bank (PCA and K-means visualisations) for a given experiment, adjust the following command.\n\nSet `DO_NOT_CROP` to True/False (in `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py`) to visualise the reference image with/without the cropped mask.\n",
+    "ContentSha": "emlKwkkRx3nrKh4gtqOOVkNb8IC13nuEZBz4dfSim7k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n## 🛠️ Outils\n\n### Visualiser la mémoire\n\najoutez l'image feature_comparison_small.png ici\n\n<details>\n<summary><b>Instructions</b></summary>\n\nPour visualiser la banque de mémoire (visualisations PCA et K-means) pour une expérience donnée, ajustez la commande suivante.\n\nDéfinissez `DO_NOT_CROP` sur True/False (dans `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py`) pour visualiser l'image de référence avec/sans le masque recadré.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "te2/Cq5WsDvA5F3qcv/MzkxMs1UdQ6QRpAP4UdzdxRY=",
+        "originContent": "## 🛠️ Helpers",
+        "translatedContent": "## 🛠️ Outils"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "v7E1UaiP1z4ihdzh5HPrVQs3NUaI2RVa6PiHjUBcNWY=",
+        "originContent": "### Visualise memory",
+        "translatedContent": "### Visualiser la mémoire"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "mi3Bb/05W8greTYefWmmXLKiTO4awM5Kt/q95uHlFzM=",
+        "originContent": "add image feature_comparison_small.png here",
+        "translatedContent": "ajoutez l'image feature_comparison_small.png ici"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 11,
+        "rowsha": "yyiIEyiLfme1ie4ib7RMV06qn9CGwvsPlvlYc3JFKu8=",
+        "originContent": "<summary><b>Instructions</b></summary>",
+        "translatedContent": "<summary><b>Instructions</b></summary>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "+uk1ajuhO3N9tZ8ml0Q0yTXWPgbiMYp/bvxo2sW6MZE=",
+        "originContent": "To visualise the memory bank (PCA and K-means visualisations) for a given experiment, adjust the following command.",
+        "translatedContent": "Pour visualiser la banque de mémoire (visualisations PCA et K-means) pour une expérience donnée, ajustez la commande suivante."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "8x5lwv3YkzgHhE1//QLY3aHMjE8dksHhYpb+OFLQNy8=",
+        "originContent": "Set `DO_NOT_CROP` to True/False (in `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py`) to visualise the reference image with/without the cropped mask.",
+        "translatedContent": "Définissez `DO_NOT_CROP` sur True/False (dans `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py`) pour visualiser l'image de référence avec/sans le masque recadré."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 72,
+    "Content": "```bash\npython run_lightening.py test --config $CONFIG \\\n    --model.test_mode vis_memory \\\n    --ckpt_path $RESULTS_DIR/memory_postprocessed.ckpt \\\n    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $RESULTS_DIR/$FILENAME \\\n    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \\\n    --model.init_args.dataset_cfgs.fill_memory.class_split $CLASS_SPLIT \\\n    --model.init_args.model_cfg.dataset_name $CLASS_SPLIT \\\n    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\\n    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\\n    --trainer.devices 1\n```",
+    "ContentSha": "62Hz+4/sBl3LeVhOSR7a3l3z9I3NpX4VzkqBm8L6NCA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython run_lightening.py test --config $CONFIG \\\n    --model.test_mode vis_memory \\\n    --ckpt_path $RESULTS_DIR/memory_postprocessed.ckpt \\\n    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $RESULTS_DIR/$FILENAME \\\n    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \\\n    --model.init_args.dataset_cfgs.fill_memory.class_split $CLASS_SPLIT \\\n    --model.init_args.model_cfg.dataset_name $CLASS_SPLIT \\\n    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\\n    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\\n    --trainer.devices 1\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "sjKkf7qJprqDCifDCeKiML4U2PDr9j5gLj3gE20DdAE=",
+        "originContent": "python run_lightening.py test --config $CONFIG \\",
+        "translatedContent": "python run_lightening.py test --config $CONFIG \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "sv7jXy1+zlYZ8hhMVNvjEq7J8BT4RkJJ2afn2CFyHyk=",
+        "originContent": "    --model.test_mode vis_memory \\",
+        "translatedContent": "    --model.test_mode vis_memory \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZgLm0clykbuAZckEXvP/r709esNbdiN3GSN2/+1my0g=",
+        "originContent": "    --ckpt_path $RESULTS_DIR/memory_postprocessed.ckpt \\",
+        "translatedContent": "    --ckpt_path $RESULTS_DIR/memory_postprocessed.ckpt \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "Gf6TW07m3Aq91hOTSkpfa3vZFk+kISIcohpQUu4yFiw=",
+        "originContent": "    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $RESULTS_DIR/$FILENAME \\",
+        "translatedContent": "    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $RESULTS_DIR/$FILENAME \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "ajwBbsJuNblaKhLCmbsz4NzIAKPocJiMx8opaUw7JHc=",
+        "originContent": "    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \\",
+        "translatedContent": "    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "6OotMgvDfu9I7vloCUTRmX5hlFgoVltrfMyfHDrbwd8=",
+        "originContent": "    --model.init_args.dataset_cfgs.fill_memory.class_split $CLASS_SPLIT \\",
+        "translatedContent": "    --model.init_args.dataset_cfgs.fill_memory.class_split $CLASS_SPLIT \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "iD5cheKVBwjT8NiIucRtqlXeU5Jt7bNXvto8l1x/YII=",
+        "originContent": "    --model.init_args.model_cfg.dataset_name $CLASS_SPLIT \\",
+        "translatedContent": "    --model.init_args.model_cfg.dataset_name $CLASS_SPLIT \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "I/do2Okczknn/9X/8y5Tan5Adh+bBdjM83mpNMTgU1Q=",
+        "originContent": "    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\",
+        "translatedContent": "    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "7Cn+uZ9khgahObEB4bul8QUBZse0UStnwto6jY94u64=",
+        "originContent": "    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\",
+        "translatedContent": "    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \\"
+      },
+      {
+        "row": 11,
+        "rowsha": "MaGbj/BQoWys9ayvwnfa9LJa4GU85A541/zZC+Xlgzo=",
+        "originContent": "    --trainer.devices 1",
+        "translatedContent": "    --trainer.devices 1"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 73,
+    "Content": "</details>\n\n### Resize images to 512x512 (make the images square)\n\nTo resize the images to 512x512 and save them to a new directory, run the following command. This is for the paper figures.\n\n<details>\n<summary><b>Instructions:</b></summary>\n",
+    "ContentSha": "doirOsTkHMRxn6SP2keGkdHiDxIorBSEyeKk2Hku+uQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "</details>\n\n### Redimensionner les images à 512x512 (mettre les images au format carré)\n\nPour redimensionner les images à 512x512 et les enregistrer dans un nouveau répertoire, exécutez la commande suivante. Ceci est pour les figures de l'article.\n\n<details>\n<summary><b>Instructions :</b></summary>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "fJTaROazwdCmecrRcwPIWgec5TxzrF6fcMzdcqkQYbA=",
+        "originContent": "### Resize images to 512x512 (make the images square)",
+        "translatedContent": "### Redimensionner les images à 512x512 (mettre les images au format carré)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ImthZmVy0oUEGIpY67yYc2EbEL3FMIyhjatmcOJAbIE=",
+        "originContent": "To resize the images to 512x512 and save them to a new directory, run the following command. This is for the paper figures.",
+        "translatedContent": "Pour redimensionner les images à 512x512 et les enregistrer dans un nouveau répertoire, exécutez la commande suivante. Ceci est pour les figures de l'article."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 8,
+        "rowsha": "IFTHwnLoFnIP3sPtm1e0/JnovFTciIxG2LWT5OjV+qU=",
+        "originContent": "<summary><b>Instructions:</b></summary>",
+        "translatedContent": "<summary><b>Instructions :</b></summary>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 74,
+    "Content": "```bash\npython no_time_to_train/make_plots/paper_fig_square_imgs.py\n```",
+    "ContentSha": "dGiVvHBmUNG6TIgnAEeFxkSE1MhNqgwTfKd02GNIKRM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython no_time_to_train/make_plots/paper_fig_square_imgs.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "2gx8v8DkCbqzgfqCdPEvcuXDavJW2TmJkrHCMulKpX4=",
+        "originContent": "python no_time_to_train/make_plots/paper_fig_square_imgs.py",
+        "translatedContent": "python no_time_to_train/make_plots/paper_fig_square_imgs.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 75,
+    "Content": "</details>\n\n\n### Model size and memory\n\nTo calculate the model size and memory, run the following command.\n\n<details>\n<summary><b>Instructions:</b></summary>\n\n- See `no_time_to_train/models/Sam2MatchingBaseline_noAMG_model_and_memory.py` for the model size and memory calculation.\n(Easiest: temporarily replace by Sam2MatchingBaseline_noAMG.py, then rename back.)\n</details>\n\n## 🌍 EO datasets\n\n\n### Evaluation scripts (EO datasets)\n\nEvaluation scripts can be found in the `scripts/EO` directory. The EO datasets use the `./scripts/EO/EO_template.sh` script to run the evaluation.\n\nEach EO experiment run is saved under the `./EO_results` directory. In the experiment folder we store:\n- The summary.txt file with the configuration, and runtime of the experiment.\n- The prediction visualisations on the test set (`results_analysis` folder).\n- The memory visualisations (`memory_vis` folder).\n- The few-shot annotation pickle file.\n- The checkpoints of the model (if not cleaned up).\n\n\n### Figures and tables\nAdditional scripts for generating figures and tables.\n\n<details>\n<summary><b>Summary latex table of the EO datasets:</b></summary>\n",
+    "ContentSha": "gU4IVGzhraDZzpcbcmwA86fEs4cOTSpMMWkOVR7MKVI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "</details>\n\n\n### Taille du modèle et mémoire\n\nPour calculer la taille du modèle et la mémoire, exécutez la commande suivante.\n\n<details>\n<summary><b>Instructions :</b></summary>\n\n- Voir `no_time_to_train/models/Sam2MatchingBaseline_noAMG_model_and_memory.py` pour le calcul de la taille du modèle et de la mémoire.\n(Le plus simple : remplacer temporairement par Sam2MatchingBaseline_noAMG.py, puis renommer à nouveau.)\n</details>\n\n## 🌍 Jeux de données EO\n\n\n### Scripts d'évaluation (jeux de données EO)\n\nLes scripts d'évaluation se trouvent dans le répertoire `scripts/EO`. Les jeux de données EO utilisent le script `./scripts/EO/EO_template.sh` pour exécuter l'évaluation.\n\nChaque exécution d'expérience EO est enregistrée dans le répertoire `./EO_results`. Dans le dossier d'expérience, nous stockons :\n- Le fichier summary.txt avec la configuration et le temps d'exécution de l'expérience.\n- Les visualisations de prédictions sur le jeu de test (dossier `results_analysis`).\n- Les visualisations de mémoire (dossier `memory_vis`).\n- Le fichier pickle d'annotation few-shot.\n- Les checkpoints du modèle (s'ils ne sont pas nettoyés).\n\n\n### Figures et tableaux\nScripts supplémentaires pour générer des figures et des tableaux.\n\n<details>\n<summary><b>Résumé tableau latex des jeux de données EO :</b></summary>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "UYKzCDSf1W3WP+/LO7OgHwgPOtxzUx0lQVLkBjqx++I=",
+        "originContent": "### Model size and memory",
+        "translatedContent": "### Taille du modèle et mémoire"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "5hYwmCQpp//MEUgwOVA39bk8oQiMcG19nGXgDot4dRY=",
+        "originContent": "To calculate the model size and memory, run the following command.",
+        "translatedContent": "Pour calculer la taille du modèle et la mémoire, exécutez la commande suivante."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 9,
+        "rowsha": "IFTHwnLoFnIP3sPtm1e0/JnovFTciIxG2LWT5OjV+qU=",
+        "originContent": "<summary><b>Instructions:</b></summary>",
+        "translatedContent": "<summary><b>Instructions :</b></summary>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "I5aXbw+7kZhOJEQgqBXSovAd7/834JJ2jTZqPzXN/vw=",
+        "originContent": "- See `no_time_to_train/models/Sam2MatchingBaseline_noAMG_model_and_memory.py` for the model size and memory calculation.",
+        "translatedContent": "- Voir `no_time_to_train/models/Sam2MatchingBaseline_noAMG_model_and_memory.py` pour le calcul de la taille du modèle et de la mémoire."
+      },
+      {
+        "row": 12,
+        "rowsha": "0R9MD67gmsMrCKlZbWrnDdSWEJkr1ZZiCfmurB36djU=",
+        "originContent": "(Easiest: temporarily replace by Sam2MatchingBaseline_noAMG.py, then rename back.)",
+        "translatedContent": "(Le plus simple : remplacer temporairement par Sam2MatchingBaseline_noAMG.py, puis renommer à nouveau.)"
+      },
+      {
+        "row": 13,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "+2ywNtbtCIj+q/gmsMm6GBEMbX8vldX1oX3tqZ5BOzI=",
+        "originContent": "## 🌍 EO datasets",
+        "translatedContent": "## 🌍 Jeux de données EO"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "cUIC3LVZyBOkVNiEP0U7muAM8ymIWyH9XNipGc2NV1A=",
+        "originContent": "### Evaluation scripts (EO datasets)",
+        "translatedContent": "### Scripts d'évaluation (jeux de données EO)"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "VEq+mobImmO7TLkMyGWpjSWQCYRbujTw/LILJjE2C0c=",
+        "originContent": "Evaluation scripts can be found in the `scripts/EO` directory. The EO datasets use the `./scripts/EO/EO_template.sh` script to run the evaluation.",
+        "translatedContent": "Les scripts d'évaluation se trouvent dans le répertoire `scripts/EO`. Les jeux de données EO utilisent le script `./scripts/EO/EO_template.sh` pour exécuter l'évaluation."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "bKxm7ytlTzevzNmnsxp75//DRVtLiWPO8XDs5b87R34=",
+        "originContent": "Each EO experiment run is saved under the `./EO_results` directory. In the experiment folder we store:",
+        "translatedContent": "Chaque exécution d'expérience EO est enregistrée dans le répertoire `./EO_results`. Dans le dossier d'expérience, nous stockons :"
+      },
+      {
+        "row": 23,
+        "rowsha": "y+lpmiV6xf0oWD1/dk3hgtq7mUlvS6iWaLlmUnLfiGg=",
+        "originContent": "- The summary.txt file with the configuration, and runtime of the experiment.",
+        "translatedContent": "- Le fichier summary.txt avec la configuration et le temps d'exécution de l'expérience."
+      },
+      {
+        "row": 24,
+        "rowsha": "sLrQuB/Xz7hgLuX98mM5CsfdoL/9Z2zzo6YQYpr1U1w=",
+        "originContent": "- The prediction visualisations on the test set (`results_analysis` folder).",
+        "translatedContent": "- Les visualisations de prédictions sur le jeu de test (dossier `results_analysis`)."
+      },
+      {
+        "row": 25,
+        "rowsha": "XjTQGfQo4efmvIy1ip3BerRoo+AmvDEh0viUEynjWII=",
+        "originContent": "- The memory visualisations (`memory_vis` folder).",
+        "translatedContent": "- Les visualisations de mémoire (dossier `memory_vis`)."
+      },
+      {
+        "row": 26,
+        "rowsha": "jZImevSc3Cqs1MX1jV2nAVljooH+X3MslD8XE0xbkYg=",
+        "originContent": "- The few-shot annotation pickle file.",
+        "translatedContent": "- Le fichier pickle d'annotation few-shot."
+      },
+      {
+        "row": 27,
+        "rowsha": "jCTaB/8TxIFBo1Q2VMWqrvlewG/zG33nmcbPJJ3yveg=",
+        "originContent": "- The checkpoints of the model (if not cleaned up).",
+        "translatedContent": "- Les checkpoints du modèle (s'ils ne sont pas nettoyés)."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "oiRn/hFpoVibkna1qHKcnS0EL2cheWeS1rQp4ZxH0IE=",
+        "originContent": "### Figures and tables",
+        "translatedContent": "### Figures et tableaux"
+      },
+      {
+        "row": 31,
+        "rowsha": "UnoB/SKoLWBWXXyYOHl7a2/+gIP75dixD6FHzMKCnxw=",
+        "originContent": "Additional scripts for generating figures and tables.",
+        "translatedContent": "Scripts supplémentaires pour générer des figures et des tableaux."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 34,
+        "rowsha": "FOIMaTPfCJMAMVZrnDbCw2UFdvx3X6s6MvLihOqeq8Y=",
+        "originContent": "<summary><b>Summary latex table of the EO datasets:</b></summary>",
+        "translatedContent": "<summary><b>Résumé tableau latex des jeux de données EO :</b></summary>"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 76,
+    "Content": "```bash\npython scripts/convert_datasets/summary_table_datasets.py\n```",
+    "ContentSha": "9umF71hEoCUwjBcl1Rrba2WIkFM5ust4I8RtugNh+98=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython scripts/convert_datasets/summary_table_datasets.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "kcMbXWkUaJ2PTtn8Nmj6WpDzSLmISdf+VDzdGKWfm/s=",
+        "originContent": "python scripts/convert_datasets/summary_table_datasets.py",
+        "translatedContent": "python scripts/convert_datasets/summary_table_datasets.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 77,
+    "Content": "\n</details>\n\n\n<details>\n<summary><b>Generate LaTeX table of the EO datasets:</b></summary>\n",
+    "ContentSha": "R9XPsJ1lEPt4PQz1SGYTC9j7NiQKUB/3fRh/njXYIXo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n\n<details>\n<summary><b>Générer un tableau LaTeX des ensembles de données EO :</b></summary>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 6,
+        "rowsha": "Rr/tjOZV+YY/DwgCikJHRuqmFp0DVdAJi9UFdssBo7I=",
+        "originContent": "<summary><b>Generate LaTeX table of the EO datasets:</b></summary>",
+        "translatedContent": "<summary><b>Générer un tableau LaTeX des ensembles de données EO :</b></summary>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 78,
+    "Content": "```bash\npython scripts/paper_figures/table_EO_results.py ./EO_results_no_heuristics\n```",
+    "ContentSha": "IJc5pWyDsRO6v57KnGKoNbFjUIJ5YfeQ8iDLAgbN9/I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython scripts/paper_figures/table_EO_results.py ./EO_results_no_heuristics\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "qg5FTqECjHfyOLESzAQVZoOely+NuaCto8niO6rPheg=",
+        "originContent": "python scripts/paper_figures/table_EO_results.py ./EO_results_no_heuristics",
+        "translatedContent": "python scripts/paper_figures/table_EO_results.py ./EO_results_no_heuristics"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 79,
+    "Content": "\n</details>\n\n\n<details>\n<summary><b>Accuracy plot of the EO datasets:</b></summary>\n",
+    "ContentSha": "QZdk/q4UOCY2JrhcmD7NqjsgnZ5fKgXNm+JhnmyrVlw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n\n<details>\n<summary><b>Graphique d'exactitude des ensembles de données EO :</b></summary>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 6,
+        "rowsha": "2MqRMOWYjqU5/wSvXKtctOp7ZjlVJ6C/IvFGvxAYb8E=",
+        "originContent": "<summary><b>Accuracy plot of the EO datasets:</b></summary>",
+        "translatedContent": "<summary><b>Graphique d'exactitude des ensembles de données EO :</b></summary>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 80,
+    "Content": "```bash\npython scripts/paper_figures/plot_EO_accuracy.py \\\n  --input-root ./EO_results \\\n  --output-root ./EO_results\n```",
+    "ContentSha": "bOrYKddYGGmHEJFtEAY1wzz8ci5witWyy1TsI3VV6js=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython scripts/paper_figures/plot_EO_accuracy.py \\\n  --input-root ./EO_results \\\n  --output-root ./EO_results\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ALTuGBZXe+rmlrs3k/dt0FMCH8yLL5srIoMXY9nZHLI=",
+        "originContent": "python scripts/paper_figures/plot_EO_accuracy.py \\",
+        "translatedContent": "python scripts/paper_figures/plot_EO_accuracy.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "bshGuB8f9IjDENlPmCkw+lDeHjMsHOivY2lOM+jR6Wc=",
+        "originContent": "  --input-root ./EO_results \\",
+        "translatedContent": "  --input-root ./EO_results \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "ioEEUNetHCPjYQ7uF/E4F09NkTrHsT609n4a4Uec/18=",
+        "originContent": "  --output-root ./EO_results",
+        "translatedContent": "  --output-root ./EO_results"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 81,
+    "Content": "\n</details>\n\n<details>\n<summary><b>Summary of heuristics effect on the EO datasets:</b></summary>\n  ",
+    "ContentSha": "n/bEy4Ob1cBaeZyDy0zeNXx4o16IMO0sGl+y9WYUves=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n<details>\n<summary><b>Résumé de l'effet des heuristiques sur les ensembles de données EO :</b></summary>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "AgMPzCFfSXj195l7LyE9Gl+QOkmXz37dVUuB2ijq21Y=",
+        "originContent": "<summary><b>Summary of heuristics effect on the EO datasets:</b></summary>",
+        "translatedContent": "<summary><b>Résumé de l'effet des heuristiques sur les ensembles de données EO :</b></summary>"
+      },
+      {
+        "row": 6,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 82,
+    "Content": "```bash\npython scripts/paper_figures/plot_EO_heuristic.py \\\n  --no-heuristics ./EO_results_no_heuristics \\\n  --heuristics ./EO_results\n```",
+    "ContentSha": "6sbyQ2QsS2MFlkeBpj2kDZugDWHCzUsRp2HV2lhHrjc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython scripts/paper_figures/plot_EO_heuristic.py \\\n  --no-heuristics ./EO_results_no_heuristics \\\n  --heuristics ./EO_results\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Sv95cQ6QfSLxjUbdP8QJFtONR3rWn4kSCpxjCILuRB4=",
+        "originContent": "python scripts/paper_figures/plot_EO_heuristic.py \\",
+        "translatedContent": "python scripts/paper_figures/plot_EO_heuristic.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "ixibTZr09PrdqqhtS/M/OFIzoaF9VE7KIL8qrhWsERA=",
+        "originContent": "  --no-heuristics ./EO_results_no_heuristics \\",
+        "translatedContent": "  --no-heuristics ./EO_results_no_heuristics \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "EmI/zhsJ5RwYTrTf2hZi5FQwNdeORizlZ8EVEi7GYDs=",
+        "originContent": "  --heuristics ./EO_results",
+        "translatedContent": "  --heuristics ./EO_results"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 83,
+    "Content": "\n</details>\n\n<details>\n<summary><b>Runtime plot of the EO datasets:</b></summary>\n",
+    "ContentSha": "GLb4o3vH4U6ER/jsAiLMb3zb0/DGqNP8IGYmV9LORN0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n<details>\n<summary><b>Graphique du temps d'exécution des ensembles de données EO :</b></summary>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "/p1yKCWee60QrJJveRUDbO3+F8w1cA6DmzPBLVctj0M=",
+        "originContent": "<summary><b>Runtime plot of the EO datasets:</b></summary>",
+        "translatedContent": "<summary><b>Graphique du temps d'exécution des ensembles de données EO :</b></summary>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 84,
+    "Content": "```bash\npython scripts/paper_figures/plot_EO_runtime.py \\\n  --input-root ./EO_results \\\n  --output-root ./EO_results\n```",
+    "ContentSha": "1rsKAA/N/rnHpSzo3MLad3ZCYVd762mX59WD2XfTEyE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython scripts/paper_figures/plot_EO_runtime.py \\\n  --input-root ./EO_results \\\n  --output-root ./EO_results\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "4oXX9dpQb+05VraKDv/0PCGUdFwKaS1uU2TzkPd/uaE=",
+        "originContent": "python scripts/paper_figures/plot_EO_runtime.py \\",
+        "translatedContent": "python scripts/paper_figures/plot_EO_runtime.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "bshGuB8f9IjDENlPmCkw+lDeHjMsHOivY2lOM+jR6Wc=",
+        "originContent": "  --input-root ./EO_results \\",
+        "translatedContent": "  --input-root ./EO_results \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "ioEEUNetHCPjYQ7uF/E4F09NkTrHsT609n4a4Uec/18=",
+        "originContent": "  --output-root ./EO_results",
+        "translatedContent": "  --output-root ./EO_results"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 85,
+    "Content": "\n</details>\n\n<details>\n<summary><b>Generate EO grid visualisations for paper figure:</b></summary>\n",
+    "ContentSha": "I2UMn5JvPLADg01GWOiZ5FZqY4fdQgwpIniYJWyiUhM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n<details>\n<summary><b>Générer des visualisations de grille EO pour la figure de l'article :</b></summary>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "WFA68mMOGPNeZm2Lp4V5k5WdFImRgiZS7rnYaYFlknI=",
+        "originContent": "<summary><b>Generate EO grid visualisations for paper figure:</b></summary>",
+        "translatedContent": "<summary><b>Générer des visualisations de grille EO pour la figure de l'article :</b></summary>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 86,
+    "Content": "```bash\npython scripts/paper_figures/plot_EO_grid.py \\\n  --root ./EO_results_no_heuristics \\\n  --dataset ISAID \\\n  --shots 1\n```",
+    "ContentSha": "24CNEQtYqQdJkOSu7yc/OGl3n2zFnhsK8RPHfYEfgh4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython scripts/paper_figures/plot_EO_grid.py \\\n  --root ./EO_results_no_heuristics \\\n  --dataset ISAID \\\n  --shots 1\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "lmiaFDER4Pv3WSL52K7p+IRl91ighTNiybI0ryMwiZw=",
+        "originContent": "python scripts/paper_figures/plot_EO_grid.py \\",
+        "translatedContent": "python scripts/paper_figures/plot_EO_grid.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "2cRP9Xsz7jcGcF95madJC25I3Kw0bWZlritoEgE3bLM=",
+        "originContent": "  --root ./EO_results_no_heuristics \\",
+        "translatedContent": "  --root ./EO_results_no_heuristics \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "GCfliQe80tgxxhLcMzejTKeJXQ8aZRetTV14+dkcvEk=",
+        "originContent": "  --dataset ISAID \\",
+        "translatedContent": "  --dataset ISAID \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "tqDRFiIKtH291IpMn5DuKc1Pa0TlpcV3sCN5Rw6Bw1c=",
+        "originContent": "  --shots 1",
+        "translatedContent": "  --shots 1"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 87,
+    "Content": "\n</details>\n\n\n\n\n\n\n## 📚 Citation\n\nIf you use this work, please cite us:\n",
+    "ContentSha": "FLC5NvtoGsbNEXo0OJdzVhK2CFRE4AmZzIABug46GMA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n\n\n\n\n\n## 📚 Citation\n\nIf you use this work, please cite us:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "+Uq50qMMSSaMQjIFg9QwW/hlCfK8kXMzFuQeuRAioXU=",
+        "originContent": "## 📚 Citation",
+        "translatedContent": "## 📚 Citation"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Sdz+BhK182S5kd+RgeXS3+k84ZIkUnXbkzFXsei1Tl0=",
+        "originContent": "If you use this work, please cite us:",
+        "translatedContent": "If you use this work, please cite us:"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 88,
     "Content": "```bibtex\n@article{espinosa2025notimetotrain,\n  title={No time to train! Training-Free Reference-Based Instance Segmentation},\n  author={Miguel Espinosa and Chenhongyi Yang and Linus Ericsson and Steven McDonagh and Elliot J. Crowley},\n  journal={arXiv preprint arXiv:2507.02798},\n  year={2025},\n  primaryclass={cs.CV}\n}\n```",
     "ContentSha": "wkySuPRHWTRGorn0rwSBqyUnW5RNg9LVe0O7npcbKSs=",
     "SectionType": "",
@@ -747,7 +3949,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 51,
+    "Id": 89,
     "Content": "",
     "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "SectionType": "",

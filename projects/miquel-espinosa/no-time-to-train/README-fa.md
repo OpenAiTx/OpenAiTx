@@ -38,25 +38,26 @@
 
 **پیشرفته‌ترین روش‌ها (مقالات با کد)**
 
-[**_بهترین عملکرد 1 نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+[**_آخرین دستاورد 1-نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
-[**_بهترین عملکرد 10 نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+[**_آخرین دستاورد 10-نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_بهترین عملکرد 30 نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+[**_آخرین دستاورد 30-نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
 
-<!-- [**_بهترین عملکرد 1 نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+<!-- [**_آخرین دستاورد 1-نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
-[**_بهترین عملکرد 10 نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+[**_آخرین دستاورد 10-نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_بهترین عملکرد 30 نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->
+[**_آخرین دستاورد 30-نمونه‌ای_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->
 
 </div>
 
 ---
-
-> 🚨 **به‌روزرسانی (۲۲ تیر ۱۴۰۴):** دستورالعمل‌ها برای مجموعه داده‌های سفارشی افزوده شدند!
+> 🚨 **بروزرسانی (۵ فوریه ۲۰۲۶)**: نسخه جدید مقاله با مطالعات ابلیشن گسترده، تصویری‌سازی و آزمایش‌های اضافی منتشر شد.
 > 
-> 🔔 **به‌روزرسانی (۱۶ تیر ۱۴۰۴):** کد با دستورالعمل‌ها به‌روزرسانی شد!
+> 🚨 **بروزرسانی (۲۲ ژوئیه ۲۰۲۵):** دستورالعمل استفاده از دیتاست‌های سفارشی اضافه شد!
+> 
+> 🔔 **بروزرسانی (۱۶ ژوئیه ۲۰۲۵):** کدها با راهنمای اجرا بروزرسانی شدند!
 
 ---
 
@@ -67,34 +68,34 @@
 - [🧠 معماری](#-architecture)
 - [🛠️ دستورالعمل نصب](#️-installation-instructions)
   - [1. کلون کردن مخزن](#1-clone-the-repository)
-  - [2. ساخت محیط کاندا](#2-create-conda-environment)
-  - [3. نصب SAM2 و DinoV2](#3-install-sam2-and-dinov2)
-  - [4. دانلود مجموعه داده‌ها](#4-download-datasets)
-  - [5. دانلود مدل‌های از پیش آموزش‌دیده SAM2 و DinoV2](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 کد استنتاج: بازتولید نتایج SOTA 30 نمونه‌ای در Few-shot COCO](#-inference-code)
+  - [2. ساخت محیط کندا](#2-create-conda-environment)
+  - [3. نصب SAM2 و DINOv2](#3-install-sam2-and-dinov2)
+  - [4. دانلود دیتاست‌ها](#4-download-datasets)
+  - [5. دانلود چک‌پوینت‌های SAM2 و DINOv2](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 کد استنتاج: بازتولید نتایج 30-نمونه‌ای SOTA در COCO نمونه‌ای](#-inference-code)
   - [0. ساخت مجموعه مرجع](#0-create-reference-set)
-  - [1. پر کردن حافظه با مرجع‌ها](#1-fill-memory-with-references)
-  - [2. پس‌پردازش بانک حافظه](#2-post-process-memory-bank)
+  - [1. پر کردن حافظه با مراجع](#1-fill-memory-with-references)
+  - [2. پردازش پس از بانک حافظه](#2-post-process-memory-bank)
   - [3. استنتاج روی تصاویر هدف](#3-inference-on-target-images)
-  - [نتایج](#results)
 
+  - [نتایج](#results)
 - [🔍 دیتاست سفارشی](#-custom-dataset)
   - [0. آماده‌سازی دیتاست سفارشی ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 اگر فقط نشانه‌گذاری‌های bbox موجود است](#01-if-only-bbox-annotations-are-available)
+  - [0.1 اگر فقط نشانه‌گذاری bbox در دسترس باشد](#01-if-only-bbox-annotations-are-available)
   - [0.2 تبدیل نشانه‌گذاری‌های coco به فایل pickle](#02-convert-coco-annotations-to-pickle-file)
-  - [1. پر کردن حافظه با مراجع](#1-fill-memory-with-references)
-  - [2. پردازش پسین بانک حافظه](#2-post-process-memory-bank)
+  - [1. پر کردن حافظه با رفرنس‌ها](#1-fill-memory-with-references)
+  - [2. پس‌پردازش بانک حافظه](#2-post-process-memory-bank)
 - [📚 استناد](#-citation)
 
 
 ## 🎯 نکات برجسته
-- 💡 **بدون آموزش**: بدون تنظیم دقیق، بدون مهندسی پرامپت—تنها با یک تصویر مرجع.  
-- 🖼️ **مبتنی بر مرجع**: تقسیم‌بندی اشیای جدید تنها با چند نمونه.  
-- 🔥 **عملکرد SOTA**: عملکرد بهتر نسبت به رویکردهای بدون آموزش قبلی در COCO، PASCAL VOC و FSOD بین دامنه‌ای.
+- 💡 **بدون نیاز به آموزش**: بدون ریزتنظیم، بدون مهندسی prompt—فقط با یک تصویر مرجع.  
+- 🖼️ **مبتنی بر رفرنس**: قطعه‌بندی اشیاء جدید فقط با چند نمونه.  
+- 🔥 **عملکرد SOTA**: عملکرد بهتر از روش‌های قبلی بدون آموزش روی COCO، PASCAL VOC و Cross-Domain FSOD.
 
 **لینک‌ها:**
 - 🧾 [**مقاله arXiv**](https://arxiv.org/abs/2507.02798)  
-- 🌐 [**وبسایت پروژه**](https://miquel-espinosa.github.io/no-time-to-train/)  
+- 🌐 [**وب‌سایت پروژه**](https://miquel-espinosa.github.io/no-time-to-train/)  
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
 ## 📜 چکیده
@@ -125,25 +126,25 @@ cd no-time-to-train
 conda env create -f environment.yml
 conda activate no-time-to-train
 ```
-### 3. نصب SAM2 و DinoV2
 
-ما SAM2 و DinoV2 را از سورس نصب خواهیم کرد.
+### ۳. نصب SAM2 و DINOv2
 
+ما SAM2 و DINOv2 را از منبع نصب خواهیم کرد.
 ```bash
 pip install -e .
 cd dinov2
 pip install -e .
 cd ..
 ```
-### ۴. دانلود دیتاست‌ها
 
-لطفاً دیتاست COCO را دانلود کرده و در مسیر `data/coco` قرار دهید
+### 4. دانلود دیتاست‌ها
 
-### ۵. دانلود چک‌پوینت‌های SAM2 و DinoV2
+لطفاً دیتاست COCO را دانلود کرده و در مسیر `data/coco` قرار دهید.
 
-ما دقیقاً همان چک‌پوینت‌های SAM2 که در مقاله استفاده شده را دانلود خواهیم کرد.
-(با این حال توجه داشته باشید که چک‌پوینت‌های SAM2.1 هم‌اکنون در دسترس هستند و ممکن است عملکرد بهتری داشته باشند.)
+### 5. دانلود چک‌پوینت‌های SAM2 و DINOv2
 
+ما دقیقاً چک‌پوینت‌های SAM2 استفاده‌شده در مقاله را دانلود خواهیم کرد.
+(توجه داشته باشید که چک‌پوینت‌های SAM2.1 در حال حاضر موجود هستند و ممکن است عملکرد بهتری داشته باشند.)
 
 ```bash
 mkdir -p checkpoints/dinov2
@@ -420,23 +421,404 @@ BBOX RESULTS:
 SEGM RESULTS:
   Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458
 ```
-نتایج بصری در مسیر `results_analysis/my_custom_dataset/` ذخیره می‌شوند. توجه داشته باشید که روش ما برای تشخیص منفی‌های کاذب کار می‌کند، یعنی تصاویری که هیچ نمونه‌ای از کلاس‌های مورد نظر را ندارند.
+نتایج تصویری در مسیر `results_analysis/my_custom_dataset/` ذخیره می‌شوند. توجه داشته باشید که روش ما برای نمونه‌های منفی کاذب نیز کار می‌کند، یعنی تصاویری که هیچ نمونه‌ای از کلاس‌های مورد نظر ندارند.
 
-*برای بزرگ‌نمایی روی تصاویر کلیک کنید ⬇️*
+*برای بزرگ‌نمایی تصاویر کلیک کنید ⬇️*
 
-| تصویر هدف با قایق‌ها ⛵ (چپ GT، راست پیش‌بینی) | تصویر هدف با پرندگان 🐦 (چپ GT، راست پیش‌بینی) |
+| تصویر هدف با قایق‌ها ⛵ (سمت چپ GT، سمت راست پیش‌بینی‌ها) | تصویر هدف با پرندگان 🐦 (سمت چپ GT، سمت راست پیش‌بینی‌ها) |
 |:----------------------:|:----------------------:|
 | ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |
 
-| تصویر هدف با قایق‌ها و پرندگان ⛵🐦 (چپ GT، راست پیش‌بینی) | تصویر هدف بدون قایق یا پرنده 🚫 (چپ GT، راست پیش‌بینی) |
+| تصویر هدف با قایق و پرنده ⛵🐦 (سمت چپ GT، سمت راست پیش‌بینی‌ها) | تصویر هدف بدون قایق یا پرنده 🚫 (سمت چپ GT، سمت راست پیش‌بینی‌ها) |
 |:---------------------------------:|:----------------------------------:|
 | ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |
 
 
-## 📚 ارجاع
+## 🔬 مطالعات ابلیشن
 
-اگر از این کار استفاده می‌کنید، لطفاً ما را ارجاع دهید:
+### ابلیشن بک‌بون
 
+برای ارزیابی انتقال‌پذیری روش ما بین مدل‌های فوندیشن، هم رمزگذار معنایی (DINOv2) و هم سگمنتر مبتنی بر SAM را با چند جایگزین دیگر تعویض می‌کنیم.
+
+**ابلیشن رمزگذار معنایی:**
+
+
+
+```bash
+# CLIP (Sizes: b16, b32, l14, l14@336px)
+bash scripts/clip/clipl14@336px.sh
+bash scripts/clip/clipl14.sh
+bash scripts/clip/clipb16.sh
+bash scripts/clip/clipb32.sh
+
+# DINOV3 (Sizes: b, l, h)
+bash scripts/dinov3/dinov3b.sh
+bash scripts/dinov3/dinov3l.sh
+bash scripts/dinov3/dinov3h.sh
+
+# PE (Sizes: g14, l14)
+bash scripts/pe/PEg14.sh
+bash scripts/pe/PEl14.sh
+```
+
+**تحلیل حذف بخش‌بندی‌کننده:**
+
+```bash
+# SAM2 (Sizes: tiny, small, base+, large)
+bash scripts/sam2/sam2_tiny.sh
+bash scripts/sam2/sam2_small.sh
+bash scripts/sam2/sam2_base_plus.sh
+bash scripts/baseline/dinov2_sam_baseline.sh # SAM2 Large
+```
+
+### ارزیابی VLM بر روی مجموعه داده COCO با نمونه‌های محدود
+
+ما QWEN VLM را بر روی مجموعه داده COCO با نمونه‌های محدود ارزیابی می‌کنیم.
+
+```bash
+bash scripts/vl-qwen/ablation-vl-qwen.sh
+```
+
+### راهکارهای مبتنی بر تصویر مرجع
+
+برای درک اینکه چرا تصاویر مرجع مختلف منجر به تغییر عملکرد می‌شوند، ویژگی‌های آماری برچسب‌های کلاس‌های جدید COCO را تحلیل می‌کنیم.
+
+#### تحلیل
+
+سه ویژگی برچسب‌گذاری را بررسی می‌کنیم: (1) مساحت ماسک (اندازه شیء)،
+(2) موقعیت مرکز ماسک، و (3) فاصله تا لبه‌های تصویر.
+
+<details>
+<summary><b>دستورالعمل‌ها:</b></summary>
+
+```bash
+# Mask area distribution
+python no_time_to_train/make_plots/mask_area_distribution.py \
+  --input data/coco/annotations/instances_val2017.json \
+  --output no_time_to_train/make_plots/mask_area_distribution/mask_area_distribution.png \
+  --edges-output no_time_to_train/make_plots/mask_area_distribution/bbox_edge_distance_histograms.png \
+  --center-output no_time_to_train/make_plots/mask_area_distribution/bbox_center_density.png \
+  --bins 80 \
+  --distance-bins 80 \
+  --disable-center-density
+
+# Bbox center positions
+python no_time_to_train/make_plots/bbox_positions.py \
+	--per-class-root data/coco/annotations/per_class_instances \
+	--filename centeredness_2d_hist_plain.png \
+	--max-cols 6 \
+	--output-dir ./no_time_to_train/make_plots/bbox_positions \
+	--outfile grid_bbox_positions.png
+```
+</details>
+
+<details>
+<summary><b>[خروجی] توزیع مساحت ماسک</b></summary>
+<img width="600" height="600" alt="mask_area_distribution" src="https://github.com/user-attachments/assets/ece21119-3622-4a2f-8319-1d52ff05bf99" />
+
+</details>
+
+<details>
+<summary><b>[خروجی] چگالی مرکز Bbox</b></summary>
+<img width="3165" height="1627" alt="grid_bbox_positions" src="https://github.com/user-attachments/assets/dff4ddb2-a3f1-45e1-af12-8e9fffbb4d6c" />
+
+</details>
+
+<details>
+<summary><b>[خروجی] هیستوگرام فاصله لبه Bbox</b></summary>
+<img width="1800" height="1200" alt="bbox_edge_distance_histograms" src="https://github.com/user-attachments/assets/e23d1360-599c-46a2-af59-3d071112e76e" />
+
+</details>
+
+#### انتخاب
+
+ما ۱۰۰ تصویر مرجع متنوع برای هر کلاس نمونه‌گیری می‌کنیم که به طور صریح
+دامنه‌ای از اندازه‌های ماسک، مراکز و فاصله‌های لبه را پوشش می‌دهند. هر
+مرجع روی یک زیرمجموعه اعتبارسنجی کاهش‌یافته ثابت ارزیابی می‌شود.
+
+<details>
+<summary><b>دستورالعمل‌ها:</b></summary>
+
+**اسکریپت راه‌اندازی:** `scripts/1shot_ref_ablation/setup.sh`:
+۱. ایجاد فایل json برای هر کلاس
+۲. تحلیل کلاس خاص
+۳. ایجاد مجموعه مرجع با روش‌های مختلف هوشمندانه
+
+
+```bash
+bash scripts/1shot_ref_ablation/setup.sh
+```
+
+**اجرای اسکریپت‌ها:** `scripts/1shot_ref_ablation/gpu*.sh`:
+
+۴. اجرای پایپ‌لاین برای هر مجموعه مرجع
+```bash
+# Example launch script that calls template script for each reference set
+bash scripts/1shot_ref_ablation/gpu0.sh
+```
+
+</details>
+
+
+#### نتایج
+
+ما بررسی می‌کنیم که چگونه امتیازهای شناسایی با ویژگی‌های تصویر مرجع
+(اندازه ماسک، موقعیت مرکز، فاصله تا لبه) همبستگی دارند.
+
+<details>
+<summary><b>دستورالعمل‌ها:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/heuristics_analysis.py
+# Outputs: 
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/per_class_area_vs_raw_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/all_classes_area_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/edge_distance_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_area_category_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_centered_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_avoid_sides_norm_scores.png
+```
+</details>
+
+<details>
+<summary><b>[خروجی] نمودارهای میله‌ای. تأثیر مساحت ماسک (چپ) و مرکزیت (راست) بر عملکرد</b></summary>
+<img width="1190" height="846" alt="barplot" src="https://github.com/user-attachments/assets/e900aff5-523d-4563-aebc-0135dcbb5eb6" />
+
+</details>
+
+<details>
+<summary><b>[خروجی] نقشه‌های حرارتی. نقشه‌های امتیاز دوبعدی عملکرد به عنوان تابعی از مکان مرکز ماسک</b></summary>
+<img width="1250" height="545" alt="heatmap" src="https://github.com/user-attachments/assets/c2c59ffe-b19e-4907-b0be-68249cf5db51" />
+
+</details>
+
+<details>
+<summary><b>[خروجی] عملکرد تصویر مرجع در مقابل مساحت ماسک برای تمام کلاس‌های جدید COCO</b></summary>
+<img width="2500" height="1432" alt="class_performance" src="https://github.com/user-attachments/assets/05a0e213-3ba5-4b4f-80ed-9b7ca782642a" />
+
+</details>
+
+### تخریب تصویر مرجع
+
+ما روش خود را تحت تصاویر مرجع با کیفیت فزاینده پایین‌تر با اعمال سطوح بالاتر تاری گاوسی ارزیابی می‌کنیم.
+<img width="2640" height="1194" alt="ablation-blur" src="https://github.com/user-attachments/assets/c2abf0ab-1578-41cf-abcf-50e43f7691f5" />
+
+<details>
+<summary><b>دستورالعمل‌ها:</b></summary>
+
+
+
+
+```bash
+# Run different blur levels
+bash scripts/blur_ablation/blur_ablation.sh
+
+# Plot grid of blur ablation results
+python no_time_to_train/make_plots/plot_blur_results.py \
+    --results-root ./work_dirs/blur_ablation \
+    --class-id 0 \
+    --max-cols 4 \
+    --output-dir ./no_time_to_train/make_plots/blur_ablation \
+    --outfile grid_blur_ablation_class_0.png
+```
+</details>
+
+### شباهت ویژگی
+
+اسکریپتی برای نمایش شباهت ویژگی‌ها بین تصاویر مرجع و تصاویر هدف.
+
+این اسکریپت شباهت تک‌ویژگی (ویژگی‌های مسیر) و شباهت مبتنی بر نمونه اولیه (ویژگی‌های تجمیع‌شده) را تولید می‌کند.
+<img width="2500" height="1030" alt="feature_similarity_small" src="https://github.com/user-attachments/assets/d56ec9aa-c60e-4fe6-92cd-aa6270b1d6ed" />
+
+<details>
+<summary><b>دستورالعمل‌ها:</b></summary>
+
+
+```bash
+python no_time_to_train/make_plots/feature_similarity.py \
+  --classes orange \  
+  --num-images 20 \
+  --min-area 12 \
+  --max-area 25000 \
+  --min-instances 2 \
+  --seed 123 \
+  --max-per-class 12
+```
+</details>
+
+### نمودارهای T-SNE (جداسازی ویژگی‌های DINOv2)
+
+t-SNE ویژگی‌های DINOv2 جداسازی واضحی برای کلاس‌های نامشابه نشان می‌دهد
+اما همپوشانی زیادی برای کلاس‌های مشابه وجود دارد، که نشان می‌دهد سردرگمی از
+هندسه ویژگی‌های بک‌بون ناشی می‌شود نه از انتخاب پروتوتایپ‌ها.
+<img width="2500" height="1444" alt="tsne" src="https://github.com/user-attachments/assets/baffc430-1600-44a1-9a14-1b08e25a9d55" />
+
+<details>
+<summary><b>دستورالعمل‌ها:</b></summary>
+
+استخراج ویژگی‌ها
+
+```bash
+python no_time_to_train/make_plots/tsne-coco.py --extract
+```
+
+نمودارهای T-SNE را رسم کنید
+
+```bash
+# Example spoon vs fork
+python no_time_to_train/make_plots/tsne-coco.py --classes cat dog
+```
+</details>
+
+## 🛠️ ابزارها
+
+### نمایش حافظه
+
+تصویر feature_comparison_small.png را اینجا اضافه کنید
+
+<details>
+<summary><b>دستورالعمل‌ها</b></summary>
+
+برای نمایش بانک حافظه (تصویرسازی‌های PCA و K-means) برای یک آزمایش خاص، فرمان زیر را تنظیم کنید.
+
+مقدار `DO_NOT_CROP` را به True/False در فایل (`no_time_to_train/models/Sam2MatchingBaseline_noAMG.py`) تغییر دهید تا تصویر مرجع را با یا بدون ماسک برش‌خورده نمایش دهید.
+
+
+```bash
+python run_lightening.py test --config $CONFIG \
+    --model.test_mode vis_memory \
+    --ckpt_path $RESULTS_DIR/memory_postprocessed.ckpt \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $RESULTS_DIR/$FILENAME \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.class_split $CLASS_SPLIT \
+    --model.init_args.model_cfg.dataset_name $CLASS_SPLIT \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+</details>
+
+### تغییر اندازه تصاویر به 512x512 (تبدیل تصاویر به مربع)
+
+برای تغییر اندازه تصاویر به 512x512 و ذخیره آن‌ها در یک پوشه جدید، دستور زیر را اجرا کنید. این برای شکل‌های مقاله است.
+
+<details>
+<summary><b>دستورالعمل‌ها:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/paper_fig_square_imgs.py
+```
+</details>
+
+
+### اندازه مدل و حافظه
+
+برای محاسبه اندازه مدل و حافظه، دستور زیر را اجرا کنید.
+
+<details>
+<summary><b>دستورالعمل‌ها:</b></summary>
+
+- به فایل `no_time_to_train/models/Sam2MatchingBaseline_noAMG_model_and_memory.py` برای محاسبه اندازه مدل و حافظه مراجعه کنید.
+(ساده‌ترین راه: موقتا با Sam2MatchingBaseline_noAMG.py جایگزین کنید، سپس دوباره نام‌گذاری کنید.)
+</details>
+
+## 🌍 داده‌مجموعه‌های EO
+
+
+### اسکریپت‌های ارزیابی (داده‌مجموعه‌های EO)
+
+اسکریپت‌های ارزیابی در دایرکتوری `scripts/EO` قرار دارند. داده‌مجموعه‌های EO از اسکریپت `./scripts/EO/EO_template.sh` برای اجرای ارزیابی استفاده می‌کنند.
+
+هر اجرای آزمایش EO در دایرکتوری `./EO_results` ذخیره می‌شود. در پوشه آزمایش موارد زیر را ذخیره می‌کنیم:
+- فایل summary.txt با پیکربندی و زمان اجرای آزمایش.
+- تصویری‌سازی پیش‌بینی‌ها روی مجموعه تست (پوشه `results_analysis`).
+- تصویری‌سازی حافظه‌ها (`memory_vis`).
+- فایل پیکِل برچسب‌گذاری few-shot.
+- نقاط بازیابی مدل (در صورت پاک نشدن).
+
+
+### شکل‌ها و جداول
+اسکریپت‌های اضافی برای تولید شکل‌ها و جداول.
+
+<details>
+<summary><b>جدول لاتکس خلاصه داده‌مجموعه‌های EO:</b></summary>
+
+```bash
+python scripts/convert_datasets/summary_table_datasets.py
+```
+
+</details>
+
+
+<details>
+<summary><b>جدول LaTeX مجموعه داده‌های EO را تولید کنید:</b></summary>
+
+```bash
+python scripts/paper_figures/table_EO_results.py ./EO_results_no_heuristics
+```
+
+</details>
+
+
+<details>
+<summary><b>نمودار دقت مجموعه داده‌های EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_accuracy.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</جزئیات>
+
+<جزئیات>
+<خلاصه><b>خلاصه‌ای از تأثیر روش‌های ابتکاری بر مجموعه داده‌های EO:</b></خلاصه>
+
+```bash
+python scripts/paper_figures/plot_EO_heuristic.py \
+  --no-heuristics ./EO_results_no_heuristics \
+  --heuristics ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>نمودار زمان اجرا برای مجموعه داده‌های EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_runtime.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>تولید تصاویر شبکه EO برای شکل مقاله:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_grid.py \
+  --root ./EO_results_no_heuristics \
+  --dataset ISAID \
+  --shots 1
+```
+
+</details>
+
+
+
+
+
+
+## 📚 Citation
+
+If you use this work, please cite us:
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -451,6 +833,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
 
 ---

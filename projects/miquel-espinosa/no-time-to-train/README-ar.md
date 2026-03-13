@@ -38,22 +38,23 @@
 
 **أحدث ما توصلت إليه التقنية (Papers with Code)**
 
-[**_أفضل النتائج 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+[**_الأفضل في structur 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
-[**_أفضل النتائج 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+[**_الأفضل في structur 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training contributingis-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_أفضل النتائج 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
+[**_الأفضل في structur 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
 
-<!-- [**_أفضل النتائج 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+<!-- [**_الأفضل في structur 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
-[**_أفضل النتائج 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
+[**_الأفضل في structur 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
-[**_أفضل النتائج 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->
+[**_الأفضل في structur 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-30-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) -->
 
 </div>
 
 ---
-
+> 🚨 **تحديث (5 فبراير 2026)**: تم تحديث مخطوطة البحث بدراسات استبعادية موسعة، وتصويرات وتجارب إضافية.
+> 
 > 🚨 **تحديث (22 يوليو 2025):** تمت إضافة تعليمات للبيانات المخصصة!
 > 
 > 🔔 **تحديث (16 يوليو 2025):** تم تحديث الكود مع التعليمات!
@@ -62,40 +63,40 @@
 
 ## 📋 جدول المحتويات
 
-- [🎯 أبرز النقاط](#-highlights)
+- [🎯 النقاط البارزة](#-highlights)
 - [📜 الملخص](#-abstract)
-- [🧠 البنية المعمارية](#-architecture)
+- [🧠 الهيكلية](#-architecture)
 - [🛠️ تعليمات التثبيت](#️-installation-instructions)
   - [1. استنساخ المستودع](#1-clone-the-repository)
   - [2. إنشاء بيئة conda](#2-create-conda-environment)
-  - [3. تثبيت SAM2 و DinoV2](#3-install-sam2-and-dinov2)
+  - [3. تثبيت SAM2 و DINOv2](#3-install-sam2-and-dinov2)
   - [4. تحميل مجموعات البيانات](#4-download-datasets)
-  - [5. تحميل نقاط تحقق SAM2 و DinoV2](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 كود الاستدلال: إعادة إنتاج نتائج SOTA لـ 30-shot في Few-shot COCO](#-inference-code)
+  - [5. تحميل نقاط تحقق SAM2 و DINOv2](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 كود الاستدلال: إعادة إنتاج نتائج SOTA بـ 30 لقطة في Few-shot COCO](#-inference-code)
   - [0. إنشاء مجموعة مرجعية](#0-create-reference-set)
   - [1. ملء الذاكرة بالمراجع](#1-fill-memory-with-references)
-  - [2. معالجة بنك الذاكرة](#2-post-process-memory-bank)
-  - [3. الاستدلال على الصور المستهدفة](#3-inference-on-target-images)
-  - [النتائج](#results)
+  - [2. معالجة بنك الذاكرة بعد طبع النتائج](#2-post-process-memory-bank)
+  - [3. الاستدلال على الصور الهدف](#3-inference-on-target-images)
 
+  - [النتائج](#results)
 - [🔍 مجموعة بيانات مخصصة](#-custom-dataset)
-  - [0. إعداد مجموعة بيانات مخصصة ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 إذا كانت التعليقات المتوفرة هي مربعات الاحتواء فقط](#01-if-only-bbox-annotations-are-available)
-  - [0.2 تحويل تعليقات coco إلى ملف pickle](#02-convert-coco-annotations-to-pickle-file)
+  - [0. تجهيز مجموعة بيانات مخصصة ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 إذا كانت التعليقات المتوفرة هي مربعات إحاطة فقط](#01-if-only-bbox-annotations-are-available)
+  - [0.2 تحويل تعليقات COCO إلى ملف Pickle](#02-convert-coco-annotations-to-pickle-file)
   - [1. ملء الذاكرة بالمراجع](#1-fill-memory-with-references)
   - [2. معالجة بنك الذاكرة بعدياً](#2-post-process-memory-bank)
-- [📚 الاستشهاد](#-citation)
+- [📚 الاقتباس](#-citation)
 
 
 ## 🎯 أبرز النقاط
-- 💡 **بدون تدريب**: لا حاجة لإعادة التدريب أو هندسة التعليمات—فقط صورة مرجعية.  
-- 🖼️ **معتمد على المرجع**: تقسيم كائنات جديدة باستخدام أمثلة قليلة فقط.  
-- 🔥 **أداء رائد**: يتفوق على الأساليب السابقة الخالية من التدريب على COCO وPASCAL VOC وCross-Domain FSOD.
+- 💡 **بدون تدريب**: لا حاجة لإعادة الضبط أو هندسة التعليمات—فقط صورة مرجعية.  
+- 🖼️ **استناداً إلى المرجع**: تقسيم كائنات جديدة باستخدام أمثلة قليلة فقط.  
+- 🔥 **أداء متفوق**: يتفوق على الأساليب السابقة غير المعتمدة على التدريب في COCO وPASCAL VOC و Cross-Domain FSOD.
 
 **روابط:**
 - 🧾 [**ورقة arXiv**](https://arxiv.org/abs/2507.02798)  
 - 🌐 [**موقع المشروع**](https://miquel-espinosa.github.io/no-time-to-train/)  
-- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
+- 📈 [**أوراق مع كود**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
 ## 📜 الملخص
 
@@ -125,25 +126,25 @@ cd no-time-to-train
 conda env create -f environment.yml
 conda activate no-time-to-train
 ```
-### 3. تثبيت SAM2 و DinoV2
 
-سوف نقوم بتثبيت SAM2 و DinoV2 من المصدر.
+### 3. تثبيت SAM2 و DINOv2
 
+سنقوم بتثبيت SAM2 و DINOv2 من المصدر.
 ```bash
 pip install -e .
 cd dinov2
 pip install -e .
 cd ..
 ```
-### 4. تنزيل مجموعات البيانات
 
-يرجى تنزيل مجموعة بيانات COCO ووضعها في `data/coco`
+### 4. تحميل مجموعات البيانات
 
-### 5. تنزيل نقاط التحقق لـ SAM2 و DinoV2
+يرجى تحميل مجموعة بيانات COCO ووضعها في `data/coco`
 
-سنقوم بتنزيل نقاط التحقق الخاصة بـ SAM2 المستخدمة في الورقة البحثية بالضبط.
-(يرجى ملاحظة أن نقاط التحقق SAM2.1 متوفرة بالفعل وقد تؤدي بشكل أفضل.)
+### 5. تحميل نقاط التحقق لـ SAM2 و DINOv2
 
+سوف نقوم بتحميل نقاط التحقق لـ SAM2 المستخدمة بالضبط في الورقة البحثية.
+(ومع ذلك، فإن نقاط التحقق لـ SAM2.1 متوفرة بالفعل وقد تؤدي أداءً أفضل.)
 
 ```bash
 mkdir -p checkpoints/dinov2
@@ -420,23 +421,404 @@ BBOX RESULTS:
 SEGM RESULTS:
   Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458
 ```
-يتم حفظ النتائج المرئية في `results_analysis/my_custom_dataset/`. لاحظ أن طريقتنا تعمل مع النتائج السلبية الكاذبة، أي الصور التي لا تحتوي على أي أمثلة من الفئات المطلوبة.
+يتم حفظ النتائج البصرية في `results_analysis/my_custom_dataset/`. لاحظ أن طريقتنا تعمل مع النتائج السلبية الكاذبة، أي الصور التي لا تحتوي على أي أمثلة من الفئات المطلوبة.
 
-*انقر على الصور للتكبير ⬇️*
+*انقر على الصور لتكبيرها ⬇️*
 
-| صورة الهدف مع القوارب ⛵ (يسار GT، يمين التوقعات) | صورة الهدف مع الطيور 🐦 (يسار GT، يمين التوقعات) |
+| صورة مستهدفة تحتوي على قوارب ⛵ (يسار: الحقيقة الأرضية، يمين: التنبؤات) | صورة مستهدفة تحتوي على طيور 🐦 (يسار: الحقيقة الأرضية، يمين: التنبؤات) |
 |:----------------------:|:----------------------:|
 | ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |
 
-| صورة الهدف مع القوارب والطيور ⛵🐦 (يسار GT، يمين التوقعات) | صورة الهدف بدون قوارب أو طيور 🚫 (يسار GT، يمين التوقعات) |
+| صورة مستهدفة تحتوي على قوارب وطيور ⛵🐦 (يسار: الحقيقة الأرضية، يمين: التنبؤات) | صورة مستهدفة بدون قوارب أو طيور 🚫 (يسار: الحقيقة الأرضية، يمين: التنبؤات) |
 |:---------------------------------:|:----------------------------------:|
 | ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |
 
 
-## 📚 الاقتباس
+## 🔬 دراسات الاستبعاد (Ablations)
 
-إذا استخدمت هذا العمل، يرجى الاستشهاد بنا:
+### استبعاد العمود الفقري (Backbone ablation)
 
+لتقييم قابلية انتقال طريقتنا عبر نماذج الأساس، نقوم باستبدال كل من المشفر الدلالي (DINOv2) والمجزئ القائم على SAM بعدة بدائل.
+
+**استبعاد المشفر الدلالي:**
+
+
+
+```bash
+# CLIP (Sizes: b16, b32, l14, l14@336px)
+bash scripts/clip/clipl14@336px.sh
+bash scripts/clip/clipl14.sh
+bash scripts/clip/clipb16.sh
+bash scripts/clip/clipb32.sh
+
+# DINOV3 (Sizes: b, l, h)
+bash scripts/dinov3/dinov3b.sh
+bash scripts/dinov3/dinov3l.sh
+bash scripts/dinov3/dinov3h.sh
+
+# PE (Sizes: g14, l14)
+bash scripts/pe/PEg14.sh
+bash scripts/pe/PEl14.sh
+```
+
+**دراسة إزالة المجزئ:**
+
+```bash
+# SAM2 (Sizes: tiny, small, base+, large)
+bash scripts/sam2/sam2_tiny.sh
+bash scripts/sam2/sam2_small.sh
+bash scripts/sam2/sam2_base_plus.sh
+bash scripts/baseline/dinov2_sam_baseline.sh # SAM2 Large
+```
+
+### تقييم VLM على مجموعة بيانات COCO للتعلم بعدد قليل من الأمثلة
+
+نقوم بتقييم QWEN VLM على مجموعة بيانات COCO للتعلم بعدد قليل من الأمثلة.
+
+```bash
+bash scripts/vl-qwen/ablation-vl-qwen.sh
+```
+
+### قواعد اختيار الصور المرجعية
+
+لفهم سبب اختلاف الأداء باختلاف الصور المرجعية، نقوم بتحليل الخصائص الإحصائية لتعليقات فئات COCO الجديدة.
+
+#### التحليل
+
+ندرس ثلاث خصائص للتعليقات: (1) مساحة القناع (حجم الكائن)،
+(2) موقع مركز القناع، و(3) المسافة إلى حواف الصورة.
+
+<details>
+<summary><b>التعليمات:</b></summary>
+
+```bash
+# Mask area distribution
+python no_time_to_train/make_plots/mask_area_distribution.py \
+  --input data/coco/annotations/instances_val2017.json \
+  --output no_time_to_train/make_plots/mask_area_distribution/mask_area_distribution.png \
+  --edges-output no_time_to_train/make_plots/mask_area_distribution/bbox_edge_distance_histograms.png \
+  --center-output no_time_to_train/make_plots/mask_area_distribution/bbox_center_density.png \
+  --bins 80 \
+  --distance-bins 80 \
+  --disable-center-density
+
+# Bbox center positions
+python no_time_to_train/make_plots/bbox_positions.py \
+	--per-class-root data/coco/annotations/per_class_instances \
+	--filename centeredness_2d_hist_plain.png \
+	--max-cols 6 \
+	--output-dir ./no_time_to_train/make_plots/bbox_positions \
+	--outfile grid_bbox_positions.png
+```
+</details>
+
+<details>
+<summary><b>[المخرجات] توزيع مساحة القناع</b></summary>
+<img width="600" height="600" alt="mask_area_distribution" src="https://github.com/user-attachments/assets/ece21119-3622-4a2f-8319-1d52ff05bf99" />
+
+</details>
+
+<details>
+<summary><b>[المخرجات] كثافة مركز الصندوق المحيط</b></summary>
+<img width="3165" height="1627" alt="grid_bbox_positions" src="https://github.com/user-attachments/assets/dff4ddb2-a3f1-45e1-af12-8e9fffbb4d6c" />
+
+</details>
+
+<details>
+<summary><b>[المخرجات] هيستوغرامات مسافة حواف الصندوق المحيط</b></summary>
+<img width="1800" height="1200" alt="bbox_edge_distance_histograms" src="https://github.com/user-attachments/assets/e23d1360-599c-46a2-af59-3d071112e76e" />
+
+</details>
+
+#### الاختيار
+
+نقوم بأخذ عينة من 100 صورة مرجعية متنوعة لكل فئة، مع تغطية صريحة
+لطيف من أحجام الأقنعة، والمراكز، ومسافات الحواف. يتم تقييم كل
+مرجع على مجموعة تحقق مصغرة ثابتة.
+
+<details>
+<summary><b>تعليمات:</b></summary>
+
+**سكريبت الإعداد:** `scripts/1shot_ref_ablation/setup.sh`:
+1. إنشاء ملف json خاص بكل فئة
+2. تحليل فئة محددة
+3. إنشاء مجموعة مراجع باستراتيجيات مختلفة
+
+
+```bash
+bash scripts/1shot_ref_ablation/setup.sh
+```
+
+**تشغيل السكربتات:** `scripts/1shot_ref_ablation/gpu*.sh`:
+
+4. تشغيل خط الأنابيب لكل مجموعة مرجعية
+```bash
+# Example launch script that calls template script for each reference set
+bash scripts/1shot_ref_ablation/gpu0.sh
+```
+
+</details>
+
+
+#### النتائج
+
+نقوم بتحليل كيفية ارتباط درجات الكشف مع خصائص صورة المرجع
+(حجم القناع، موضع المركز، مسافة الحافة).
+
+<details>
+<summary><b>التعليمات:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/heuristics_analysis.py
+# Outputs: 
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/per_class_area_vs_raw_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/all_classes_area_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/edge_distance_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_area_category_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_centered_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_avoid_sides_norm_scores.png
+```
+</details>
+
+<details>
+<summary><b>[الناتج] مخططات الأعمدة. تأثير مساحة القناع (يسار) وموقع التمركز (يمين) على الأداء</b></summary>
+<img width="1190" height="846" alt="barplot" src="https://github.com/user-attachments/assets/e900aff5-523d-4563-aebc-0135dcbb5eb6" />
+
+</details>
+
+<details>
+<summary><b>[الناتج] مخططات الحرارة. خرائط الدرجات ثنائية الأبعاد للأداء كدالة لموقع مركز القناع</b></summary>
+<img width="1250" height="545" alt="heatmap" src="https://github.com/user-attachments/assets/c2c59ffe-b19e-4907-b0be-68249cf5db51" />
+
+</details>
+
+<details>
+<summary><b>[الناتج] أداء صورة المرجع مقابل مساحة القناع لجميع أصناف COCO الجديدة</b></summary>
+<img width="2500" height="1432" alt="class_performance" src="https://github.com/user-attachments/assets/05a0e213-3ba5-4b4f-80ed-9b7ca782642a" />
+
+</details>
+
+### تدهور صورة المرجع
+
+نقوم بتقييم طريقتنا تحت صور مرجعية متدهورة تدريجياً من خلال تطبيق مستويات متزايدة من ضبابية Gaussian.
+<img width="2640" height="1194" alt="ablation-blur" src="https://github.com/user-attachments/assets/c2abf0ab-1578-41cf-abcf-50e43f7691f5" />
+
+<details>
+<summary><b>التعليمات:</b></summary>
+
+
+
+
+```bash
+# Run different blur levels
+bash scripts/blur_ablation/blur_ablation.sh
+
+# Plot grid of blur ablation results
+python no_time_to_train/make_plots/plot_blur_results.py \
+    --results-root ./work_dirs/blur_ablation \
+    --class-id 0 \
+    --max-cols 4 \
+    --output-dir ./no_time_to_train/make_plots/blur_ablation \
+    --outfile grid_blur_ablation_class_0.png
+```
+
+</details>
+
+### تشابه الميزات
+
+برنامج نصي لتصور تشابه الميزات بين الصور المرجعية والصور الهدف.
+
+ينتج تشابه ميزة واحدة (ميزات المسار)، وتشابه قائم على النموذج الأولي (ميزات مجمعة).
+<img width="2500" height="1030" alt="feature_similarity_small" src="https://github.com/user-attachments/assets/d56ec9aa-c60e-4fe6-92cd-aa6270b1d6ed" />
+
+<details>
+<summary><b>التعليمات:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/feature_similarity.py \
+  --classes orange \  
+  --num-images 20 \
+  --min-area 12 \
+  --max-area 25000 \
+  --min-instances 2 \
+  --seed 123 \
+  --max-per-class 12
+```
+</details>
+
+### مخططات T-SNE (قابلية فصل ميزات DINOv2)
+
+يظهر مخطط t-SNE لميزات DINOv2 انفصالًا واضحًا للفئات غير المتشابهة
+لكن هناك تداخل كبير للفئات المتشابهة، مما يشير إلى أن الالتباس ناتج عن
+هندسة ميزات العمود الفقري وليس اختيار النماذج الأولية.
+<img width="2500" height="1444" alt="tsne" src="https://github.com/user-attachments/assets/baffc430-1600-44a1-9a14-1b08e25a9d55" />
+
+<details>
+<summary><b>التعليمات:</b></summary>
+
+استخراج الميزات
+
+```bash
+python no_time_to_train/make_plots/tsne-coco.py --extract
+```
+عرض مخططات T-SNE
+
+
+```bash
+# Example spoon vs fork
+python no_time_to_train/make_plots/tsne-coco.py --classes cat dog
+```
+</details>
+
+## 🛠️ أدوات المساعدة
+
+### تصور الذاكرة
+
+أضف الصورة feature_comparison_small.png هنا
+
+<details>
+<summary><b>تعليمات</b></summary>
+
+لتصور بنك الذاكرة (تصويرات PCA و K-means) لتجربة معينة، قم بتعديل الأمر التالي.
+
+عيّن `DO_NOT_CROP` إلى True/False (في `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py`) لتصور صورة المرجع مع/بدون القناع المقتطع.
+
+
+```bash
+python run_lightening.py test --config $CONFIG \
+    --model.test_mode vis_memory \
+    --ckpt_path $RESULTS_DIR/memory_postprocessed.ckpt \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $RESULTS_DIR/$FILENAME \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.class_split $CLASS_SPLIT \
+    --model.init_args.model_cfg.dataset_name $CLASS_SPLIT \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+</details>
+
+### تغيير حجم الصور إلى 512x512 (جعل الصور مربعة)
+
+لتغيير حجم الصور إلى 512x512 وحفظها في دليل جديد، نفذ الأمر التالي. هذا مخصص لصور الورقة البحثية.
+
+<details>
+<summary><b>التعليمات:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/paper_fig_square_imgs.py
+```
+</details>
+
+### حجم النموذج والذاكرة
+
+لحساب حجم النموذج والذاكرة، قم بتشغيل الأمر التالي.
+
+<details>
+<summary><b>تعليمات:</b></summary>
+
+- راجع الملف `no_time_to_train/models/Sam2MatchingBaseline_noAMG_model_and_memory.py` لحساب حجم النموذج والذاكرة.
+(الأسهل: استبدله مؤقتًا بـ Sam2MatchingBaseline_noAMG.py، ثم أعد تسميته.)
+</details>
+
+## 🌍 مجموعات بيانات EO
+
+### سكريبتات التقييم (مجموعات بيانات EO)
+
+يمكن العثور على سكريبتات التقييم في مجلد `scripts/EO`. تستخدم مجموعات بيانات EO السكريبت `./scripts/EO/EO_template.sh` لتشغيل التقييم.
+
+يتم حفظ كل تجربة EO منفذة ضمن مجلد `./EO_results`. في مجلد التجربة نقوم بتخزين:
+- ملف summary.txt مع الإعدادات ووقت تشغيل التجربة.
+- تصورات التنبؤ على مجموعة الاختبار (مجلد `results_analysis`).
+- تصورات الذاكرة (مجلد `memory_vis`).
+- ملف pickle لتعليقات few-shot.
+- نقاط التحقق من النموذج (إذا لم يتم حذفها).
+
+### الرسوم البيانية والجداول
+سكريبتات إضافية لإنشاء الرسوم البيانية والجداول.
+
+<details>
+<summary><b>جدول ملخص لاتكس لمجموعات بيانات EO:</b></summary>
+
+
+
+
+```bash
+python scripts/convert_datasets/summary_table_datasets.py
+```
+
+</details>
+
+
+<details>
+<summary><b>إنشاء جدول LaTeX لمجموعات بيانات EO:</b></summary>
+
+```bash
+python scripts/paper_figures/table_EO_results.py ./EO_results_no_heuristics
+```
+
+</details>
+
+
+<details>
+<summary><b>مخطط الدقة لمجموعات بيانات EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_accuracy.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>ملخص تأثير الخوارزميات الاستدلالية على مجموعات بيانات EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_heuristic.py \
+  --no-heuristics ./EO_results_no_heuristics \
+  --heuristics ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>مخطط زمن التشغيل لمجموعات بيانات EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_runtime.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>إنشاء تصورات شبكية للبيانات الأرضية لصورة الورقة العلمية:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_grid.py \
+  --root ./EO_results_no_heuristics \
+  --dataset ISAID \
+  --shots 1
+```
+
+</details>
+
+
+
+
+
+
+## 📚 Citation
+
+If you use this work, please cite us:
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -451,6 +833,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
 
 ---

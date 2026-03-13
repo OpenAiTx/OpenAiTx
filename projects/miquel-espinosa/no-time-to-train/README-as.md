@@ -44,7 +44,7 @@
 
 [**_SOTA 30-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(30--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-30-shot?p=no-time-to-train-training-free-reference)
 
-<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
+<!-- [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection rustic-on-ms-coco-1-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/no-time-to-train-training-free-reference/few-shot-object-detection-on-ms-coco-10-shot)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
 
@@ -53,51 +53,52 @@
 </div>
 
 ---
-
-> 🚨 **আপডেট (২২ জুলাই ২০২৫):** কাষ্টম ডেটাসেটৰ নিৰ্দেশনা যোগ কৰা হৈছে!
+> 🚨 **আপডেট (৫ ফেব্ৰুৱাৰী ২০২৬)**: কাকতখনৰ পান্ডুলিপি অধিক বিস্তৃত ablation অধ্যয়ন, ভিজুৱালাইজেছন আৰু অতিৰিক্ত পৰীক্ষাৰ সৈতে আপডেট কৰা হৈছে।
 > 
-> 🔔 **আপডেট (১৬ জুলাই ২০২৫):** কোডটো নিৰ্দেশনাসহ আপডেট কৰা হৈছে!
+> 🚨 **আপডেট (২২ জুলাই ২০২৫):** কাষ্টম ডেটাছেটৰ বাবে নিৰ্দেশনা যোগ কৰা হৈছে!
+> 
+> 🔔 **আপডেট (১৬ জুলাই ২০২৫):** ক'ডটো নিৰ্দেশনাৰে সৈতে আপডেট কৰা হৈছে!
 
 ---
 
-## 📋 সূচীপত্ৰ
+## 📋 বিষয়বস্তু সূচী
 
-- [🎯 মূল বৈশিষ্ট্য](#-highlights)
-- [📜 সংক্ষেপ](#-abstract)
+- [🎯 মুখ্য বৈশিষ্ট্যসমূহ](#-highlights)
+- [📜 চমু বিৱৰণ](#-abstract)
 - [🧠 স্থাপত্য](#-architecture)
 - [🛠️ ইনষ্টলেশ্যন নিৰ্দেশনা](#️-installation-instructions)
-  - [1. ৰিপ'জিট'ৰী ক্লোন কৰক](#1-clone-the-repository)
-  - [2. কণ্ডা পৰিৱেশ সৃষ্টি কৰক](#2-create-conda-environment)
-  - [3. SAM2 আৰু DinoV2 ইনষ্টল কৰক](#3-install-sam2-and-dinov2)
-  - [4. ডেটাসেটসমূহ ডাউনলোড কৰক](#4-download-datasets)
-  - [5. SAM2 আৰু DinoV2 চেকপইণ্ট ডাউনলোড কৰক](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 ইনফাৰেন্স কোড: Few-shot COCO-ত ৩০-shot SOTA ফলাফল পুনৰুৎপাদন কৰক](#-inference-code)
-  - [0. ৰেফাৰেন্স ছেট সৃষ্টি কৰক](#0-create-reference-set)
-  - [1. ৰেফাৰেন্সেৰে মেম'ৰি পূৰ্ণ কৰক](#1-fill-memory-with-references)
-  - [2. মেম'ৰি বেংক প'ষ্ট-প্ৰচেছ কৰক](#2-post-process-memory-bank)
-  - [3. লক্ষ্য চিত্ৰসমূহত ইনফাৰেন্স কৰক](#3-inference-on-target-images)
-  - [ফলাফল](#results)
+  - [1. ৰেপ'জিটৰী ক্ল'ন কৰক](#1-clone-the-repository)
+  - [2. কন্ডা এনভাইৰনমেণ্ট সৃষ্টি কৰক](#2-create-conda-environment)
+  - [3. SAM2 আৰু DINOv2 ইনষ্টল কৰক](#3-install-sam2-and-dinov2)
+  - [4. ডেটাছেট ডাউনলোড কৰক](#4-download-datasets)
+  - [5. SAM2 আৰু DINOv2 চেকপইণ্ট ডাউনলোড কৰক](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 ইনফাৰেন্স ক'ড: Few-shot COCO-ত 30-shot SOTA ফলাফল পুনৰুৎপাদন কৰক](#-inference-code)
+  - [0. ৰেফাৰেঞ্চ ছেট সৃষ্টি কৰক](#0-create-reference-set)
+  - [1. ৰেফাৰেঞ্চেৰে মেম'ৰি ভৰাওক](#1-fill-memory-with-references)
+  - [2. মেম'ৰি বেংক প'ষ্ট-প্ৰ'চেছ কৰক](#2-post-process-memory-bank)
+  - [3. লক্ষ্য ছবিসমূহত ইনফাৰেন্স কৰক](#3-inference-on-target-images)
 
+  - [ফলাফল](#results)
 - [🔍 কাষ্টম ডেটাসেট](#-custom-dataset)
-  - [0. কাষ্টম ডেটাসেট প্ৰস্তুত কৰক ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 কেৱল bbox এনোটেশ্বন উপলব্ধ থাকিলে](#01-if-only-bbox-annotations-are-available)
-  - [0.2 coco এনোটেশ্বন pickle ফাইললৈ ৰূপান্তৰ কৰক](#02-convert-coco-annotations-to-pickle-file)
-  - [1. মেম'ৰীত references ভৰ্তি কৰক](#1-fill-memory-with-references)
-  - [2. মেম'ৰি বেংক post-process কৰক](#2-post-process-memory-bank)
+  - [0. কাষ্টম ডেটাসেট প্রস্তুত কৰক ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 কেৱল bbox এনোটেশ্যন উপলব্ধ থাকিলে](#01-if-only-bbox-annotations-are-available)
+  - [0.2 coco এনোটেশ্যনসমূহ pickle ফাইললৈ ৰূপান্তৰ কৰক](#02-convert-coco-annotations-to-pickle-file)
+  - [1. স্মৃতিৰ সৈতে ৰেফাৰেন্সসমূহ পূৰণ কৰক](#1-fill-memory-with-references)
+  - [2. মেমৰি বেঙ্কৰ পোস্ট-প্ৰক্ৰিয়া কৰক](#2-post-process-memory-bank)
 - [📚 উদ্ধৃতি](#-citation)
 
 
-## 🎯 মূল বিষয়বস্তু
-- 💡 **প্ৰশিক্ষণ-ৰহিত**: পুনঃ-প্ৰশিক্ষণ নাই, prompt engineering নাই—কেৱল এটা reference image।  
-- 🖼️ **Reference-Based**: কেইটামান উদাহৰণ ব্যৱহাৰ কৰি নতুন বস্তু চেগমেণ্ট কৰক।  
-- 🔥 **SOTA Performance**: Training-free পদ্ধতি সমূহতকৈ COCO, PASCAL VOC, আৰু Cross-Domain FSOD-ত উৎকৃষ্ট ফলাফল।
+## 🎯 বিশেষত্বসমূহ
+- 💡 **প্ৰশিক্ষণ-নিশ্চিত**: কোনো ফাইন-টিউনিং নাই, কোনো প্ৰম্প্ট ইঞ্জিনিয়াৰিং নাই—কেৱল এটা ৰেফাৰেন্স ছবি।  
+- 🖼️ **ৰেফাৰেন্স-ভিত্তিক**: কেৱল কিছুমান উদাহৰণ ব্যৱহাৰ কৰি নতুন বস্তুৰ খণ্ডিতকৰণ।  
+- 🔥 **SOTA কাৰ্যক্ষমতা**: COCO, PASCAL VOC, আৰু Cross-Domain FSOD-ত আগৰ প্ৰশিক্ষণ-নিশ্চিত পদ্ধতিসমূহক উৎকৰ্ষিত কৰে।
 
 **লিংকসমূহ:**
 - 🧾 [**arXiv পেপাৰ**](https://arxiv.org/abs/2507.02798)  
-- 🌐 [**Project Website**](https://miquel-espinosa.github.io/no-time-to-train/)  
-- 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
+- 🌐 [**প্ৰজেক্ট ৱেবচাইট**](https://miquel-espinosa.github.io/no-time-to-train/)  
+- 📈 [**কোড থকা কাগজসমূহ**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
-## 📜 প্ৰবন্ধৰ সংক্ষিপ্তসাৰ
+## 📜 সারাংশ
 
 > The performance of image segmentation models has historically been constrained by the high cost of collecting large-scale annotated data. The Segment Anything Model (SAM) alleviates this original problem through a promptable, semantics-agnostic, segmentation paradigm and yet still requires manual visual-prompts or complex domain-dependent prompt-generation rules to process a new image. Towards reducing this new burden, our work investigates the task of object segmentation when provided with, alternatively, only a small set of reference images. Our key insight is to leverage strong semantic priors, as learned by foundation models, to identify corresponding regions between a reference and a target image. We find that correspondences enable automatic generation of instance-level segmentation masks for downstream tasks and instantiate our ideas via a multi-stage, training-free method incorporating (1) memory bank construction; (2) representation aggregation and (3) semantic-aware feature matching. Our experiments show significant improvements on segmentation metrics, leading to state-of-the-art performance on COCO FSOD (36.8% nAP), PASCAL VOC Few-Shot (71.2% nAP50) and outperforming existing training-free approaches on the Cross-Domain FSOD benchmark (22.4% nAP).
 
@@ -126,9 +127,9 @@ conda env create -f environment.yml
 conda activate no-time-to-train
 ```
 
-### ৩. SAM2 আৰু DinoV2 ইনষ্টল কৰক
+### ৩. SAM2 আৰু DINOv2 স্থাপন কৰক
 
-আমি উৎসৰ পৰা SAM2 আৰু DinoV2 ইনষ্টল কৰিম।
+আমাৰ SAM2 আৰু DINOv2 উৎসৰ পৰা স্থাপন কৰিব।
 ```bash
 pip install -e .
 cd dinov2
@@ -138,12 +139,12 @@ cd ..
 
 ### ৪. ডেটাছেটসমূহ ডাউনলোড কৰক
 
-অনুগ্ৰহ কৰি COCO ডেটাছেট ডাউনলোড কৰি `data/coco` ত ৰাখক
+অনুগ্ৰহ কৰি COCO ডেটাছেট ডাউনলোড কৰক আৰু `data/coco`-ত ৰাখক
 
-### ৫. SAM2 আৰু DinoV2 চেকপইণ্টসমূহ ডাউনলোড কৰক
+### ৫. SAM2 আৰু DINOv2 চেকপইণ্টসমূহ ডাউনলোড কৰক
 
-আমি কাকতত ব্যৱহৃত ঠিক SAM2 চেকপইণ্টসমূহ ডাউনলোড কৰিম।
-(তথাপিও মনত ৰাখিব, SAM2.1 চেকপইণ্টসমূহ ইতিমধ্যে উপলব্ধ আৰু সম্ভৱত বেছি ভালদৰে কাৰ্যকৰী হ'ব পাৰে।)
+আমি কাগজত ব্যৱহৃত ঠিক SAM2 চেকপইণ্টসমূহ ডাউনলোড কৰিম।
+(তথাপিও, SAM2.1 চেকপইণ্টসমূহ ইতিমধ্যে উপলব্ধ আৰু সম্ভৱত ভাল প্ৰদৰ্শন কৰিব পাৰে।)
 
 ```bash
 mkdir -p checkpoints/dinov2
@@ -421,22 +422,403 @@ SEGM RESULTS:
   Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458
 ```
 
-দৃশ্যমান ফলাফলসমূহ `results_analysis/my_custom_dataset/`-ত সংৰক্ষিত হয়। লক্ষ্য কৰক যে, আমাৰ পদ্ধতিটো মিছা ঋণাত্মকসমূহৰ বাবে কাম কৰে, অৰ্থাৎ, সেইসকল চিত্ৰ য’ত প্ৰয়োজনীয় শ্ৰেণীসমূহৰ কোনো উদাহৰণ নাথাকে।
+ভিজুৱেল ফলাফলসমূহ `results_analysis/my_custom_dataset/`-ত সংৰক্ষণ কৰা হৈছে। লক্ষ্য কৰক যে আমাৰ পদ্ধতি মিছা নেগেটিভসমূহৰ বাবে কাম কৰে, অৰ্থাৎ, সেই ছবিসমূহ য'ত ইচ্ছা কৰা শ্ৰেণীৰ কোনো উদাহৰণ নাই।
 
-*চিত্ৰসমূহ ডাঙৰ কৰিবলৈ ক্লিক কৰক ⬇️*
+*ছবিসমূহ ডাঙৰ কৰিবলৈ ক্লিক কৰক ⬇️*
 
-| নৌকা থকা লক্ষ্য চিত্ৰ ⛵ (বাওঁফালে GT, সোঁফালে অনুমান) | চৰাই থকা লক্ষ্য চিত্ৰ 🐦 (বাওঁফালে GT, সোঁফালে অনুমান) |
+| ডাঙৰ ছবিত নাওসমূহ ⛵ (বাওঁফালে GT, সোঁফালে পূৰ্বানুমান) | ডাঙৰ ছবিত চৰাইসমূহ 🐦 (বাওঁফালে GT, সোঁফালে পূৰ্বানুমান) |
 |:----------------------:|:----------------------:|
 | ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |
 
-| নৌকা আৰু চৰাই থকা লক্ষ্য চিত্ৰ ⛵🐦 (বাওঁফালে GT, সোঁফালে অনুমান) | নৌকা বা চৰাই নথকা লক্ষ্য চিত্ৰ 🚫 (বাওঁফালে GT, সোঁফালে অনুমান) |
+| ডাঙৰ ছবিত নাও আৰু চৰাই ⛵🐦 (বাওঁফালে GT, সোঁফালে পূৰ্বানুমান) | ডাঙৰ ছবিত নাও বা চৰাই নাথকা 🚫 (বাওঁফালে GT, সোঁফালে পূৰ্বানুমান) |
 |:---------------------------------:|:----------------------------------:|
 | ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |
 
 
-## 📚 উদ্ধৃতি
+## 🔬 এবলেচন
 
-আপুনি এই কাম ব্যৱহাৰ কৰিলে, অনুগ্ৰহ কৰি আমাক উদ্ধৃতি দিয়ক:
+### বেকবোন এবলেচন
+
+আমাৰ পদ্ধতিৰ ফাউণ্ডেশ্বন মডেলসমূহৰ মাজত স্থানান্তৰণযোগ্যতা মূল্যাংকন কৰিবলৈ, আমি দুয়োটাই
+সেমান্টিক এনকোডাৰ (DINOv2) আৰু SAM-ভিত্তিক ছেগমেণ্টাৰ একাধিক বিকল্পৰে প্ৰতিস্থাপন কৰোঁ।
+
+**সেমান্টিক এনকোডাৰ এবলেচন:**
+
+```bash
+# CLIP (Sizes: b16, b32, l14, l14@336px)
+bash scripts/clip/clipl14@336px.sh
+bash scripts/clip/clipl14.sh
+bash scripts/clip/clipb16.sh
+bash scripts/clip/clipb32.sh
+
+# DINOV3 (Sizes: b, l, h)
+bash scripts/dinov3/dinov3b.sh
+bash scripts/dinov3/dinov3l.sh
+bash scripts/dinov3/dinov3h.sh
+
+# PE (Sizes: g14, l14)
+bash scripts/pe/PEg14.sh
+bash scripts/pe/PEl14.sh
+```
+
+**ছেগমেণ্টাৰ এবলেচন:**
+
+```bash
+# SAM2 (Sizes: tiny, small, base+, large)
+bash scripts/sam2/sam2_tiny.sh
+bash scripts/sam2/sam2_small.sh
+bash scripts/sam2/sam2_base_plus.sh
+bash scripts/baseline/dinov2_sam_baseline.sh # SAM2 Large
+```
+
+### COCO ফিউ-শট ডেটাসেটত VLM মূল্যাংকন
+
+আমরা QWEN VLM ক COCO ফিউ-শট ডেটাসেটত মূল্যাংকন কৰোঁ।
+
+```bash
+bash scripts/vl-qwen/ablation-vl-qwen.sh
+```
+
+### উল্লেখিত চিত্ৰৰ heuristic সমূহ
+
+বিভিন্ন উল্লেখিত চিত্ৰই কাৰ্যক্ষমতাত কেনেকৈ পাৰ্থক্য সৃষ্টি কৰে, সেইটো বুজিবলৈ আমি COCO novel classes annotation ৰ পৰিসংখ্যা বৈশিষ্ট্যসমূহ বিশ্লেষণ কৰোঁ।
+
+#### বিশ্লেষণ
+
+আমি তিনিটা annotation বৈশিষ্ট্য অধ্যয়ন কৰোঁ: (1) mask area (object size),
+(2) mask center location, আৰু (3) image edges লৈ দূৰত্ব।
+
+<details>
+<summary><b>নির্দেশনা:</b></summary>
+
+```bash
+# Mask area distribution
+python no_time_to_train/make_plots/mask_area_distribution.py \
+  --input data/coco/annotations/instances_val2017.json \
+  --output no_time_to_train/make_plots/mask_area_distribution/mask_area_distribution.png \
+  --edges-output no_time_to_train/make_plots/mask_area_distribution/bbox_edge_distance_histograms.png \
+  --center-output no_time_to_train/make_plots/mask_area_distribution/bbox_center_density.png \
+  --bins 80 \
+  --distance-bins 80 \
+  --disable-center-density
+
+# Bbox center positions
+python no_time_to_train/make_plots/bbox_positions.py \
+	--per-class-root data/coco/annotations/per_class_instances \
+	--filename centeredness_2d_hist_plain.png \
+	--max-cols 6 \
+	--output-dir ./no_time_to_train/make_plots/bbox_positions \
+	--outfile grid_bbox_positions.png
+```
+</details>
+
+<details>
+<summary><b>[OUTPUT] মুখোটা এলাকা বিতৰণ</b></summary>
+<img width="600" height="600" alt="mask_area_distribution" src="https://github.com/user-attachments/assets/ece21119-3622-4a2f-8319-1d52ff05bf99" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] বক্সৰ কেন্দ্ৰিক ঘনত্ব</b></summary>
+<img width="3165" height="1627" alt="grid_bbox_positions" src="https://github.com/user-attachments/assets/dff4ddb2-a3f1-45e1-af12-8e9fffbb4d6c" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] বক্সৰ প্রান্তিক দূৰত্বৰ হিস্টোগ্ৰাম</b></summary>
+<img width="1800" height="1200" alt="bbox_edge_distance_histograms" src="https://github.com/user-attachments/assets/e23d1360-599c-46a2-af59-3d071112e76e" />
+
+</details>
+
+#### নিৰ্বাচন
+
+আমরা প্ৰতিটো শ্ৰেণীৰ বাবে ১০০ টা বৈচিত্ৰ্যপূৰ্ণ ৰেফাৰেন্স ছবি নমুনা লওঁ, য’ত
+স্পষ্টভাৱে মুখোটা আকাৰ, কেন্দ্ৰ আৰু প্ৰান্তিক দূৰত্বৰ পৰিসৰ অন্তৰ্ভুক্ত থাকে। প্ৰতিটো
+ৰেফাৰেন্স স্থিৰ কৰা কমোৱা প্ৰামাণিককৰণ উপ-সেটত মূল্যায়ন কৰা হয়।
+
+<details>
+<summary><b>নিৰ্দেশনা:</b></summary>
+
+**ছেটআপ স্ক্ৰিপ্ট:** `scripts/1shot_ref_ablation/setup.sh`:
+1. প্ৰতিটো শ্ৰেণীৰ বাবে পৃথক json ফাইল সৃষ্টি কৰক
+2. নিৰ্দিষ্ট শ্ৰেণী বিশ্লেষণ কৰক
+3. বিভিন্ন হিউৰিষ্টিক্সৰ সৈতে ৰেফাৰেন্স ছেট সৃষ্টি কৰক
+
+
+```bash
+bash scripts/1shot_ref_ablation/setup.sh
+```
+
+**স্ক্ৰিপ্টসমূহ চলাও:** `scripts/1shot_ref_ablation/gpu*.sh`:
+
+৪. প্ৰত্যেকটা উল্লেখ সেটৰ বাবে পাইপলাইন চলাও
+```bash
+# Example launch script that calls template script for each reference set
+bash scripts/1shot_ref_ablation/gpu0.sh
+```
+
+</details>
+
+
+#### ফলাফল
+
+আমাৰ বিশ্লেষণত, শনাক্তকৰণ স্ক'ৰসমূহ কিদৰে উৎস ছবি বৈশিষ্ট্যৰ সৈতে (মাস্কৰ আকাৰ, কেন্দ্ৰৰ অৱস্থান, কাষৰ দূৰত্ব) সংযোগিত হয়, তাৰ বিশ্লেষণ কৰা হৈছে।
+
+<details>
+<summary><b>নির্দেশাবলী:</b></summary>
+
+
+```bash
+python no_time_to_train/make_plots/heuristics_analysis.py
+# Outputs: 
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/per_class_area_vs_raw_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/all_classes_area_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/edge_distance_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_area_category_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_centered_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_avoid_sides_norm_scores.png
+```
+</details>
+
+<details>
+<summary><b>[OUTPUT] বাৰপ্লটসমূহ। কার্যক্ষমতাত মাক্স এলাকা (বাওঁফালে) আৰু কেন্দ্ৰীয়তাৰ (সোঁফালে) প্ৰভাৱ</b></summary>
+<img width="1190" height="846" alt="barplot" src="https://github.com/user-attachments/assets/e900aff5-523d-4563-aebc-0135dcbb5eb6" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] হিটমেপসমূহ। মাক্স-চেন্টাৰ অৱস্থানৰ ফাংচন হিচাপে কার্যক্ষমতাৰ 2D স্ক’ৰ মেপ</b></summary>
+<img width="1250" height="545" alt="heatmap" src="https://github.com/user-attachments/assets/c2c59ffe-b19e-4907-b0be-68249cf5db51" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] সকলো COCO নতুন শ্ৰেণীৰ বাবে মাক্স এলেকাৰ বিপৰীতে ৰেফাৰেন্স-ইমেজ কার্যক্ষমতা</b></summary>
+<img width="2500" height="1432" alt="class_performance" src="https://github.com/user-attachments/assets/05a0e213-3ba5-4b4f-80ed-9b7ca782642a" />
+
+</details>
+
+### ৰেফাৰেন্স-ইমেজৰ হ্ৰাস
+
+আমি গাউছিয়ান ব্লাৰৰ স্তৰ বৃদ্ধি কৰি ক্ৰমে হ্ৰাস হোৱা ৰেফাৰেন্স ইমেজসমূহৰ অধীনত আমাৰ পদ্ধতি মূল্যায়ন কৰোঁ।
+<img width="2640" height="1194" alt="ablation-blur" src="https://github.com/user-attachments/assets/c2abf0ab-1578-41cf-abcf-50e43f7691f5" />
+
+<details>
+<summary><b>নিৰ্দেশনা:</b></summary>
+
+
+
+
+```bash
+# Run different blur levels
+bash scripts/blur_ablation/blur_ablation.sh
+
+# Plot grid of blur ablation results
+python no_time_to_train/make_plots/plot_blur_results.py \
+    --results-root ./work_dirs/blur_ablation \
+    --class-id 0 \
+    --max-cols 4 \
+    --output-dir ./no_time_to_train/make_plots/blur_ablation \
+    --outfile grid_blur_ablation_class_0.png
+```
+
+</details>
+
+### ফিচাৰ সদৃশ্যতা
+
+উদাহৰণ চিত্ৰ আৰু লক্ষ্য চিত্ৰসমূহৰ মাজত ফিচাৰ সদৃশ্যতা দৰ্শন কৰাৰ বাবে স্ক্ৰিপ্ট।
+
+এইটো একক-ফিচাৰ সদৃশ্যতা (পথ ফিচাৰসমূহ), আৰু প্ৰটোটাইপ-ভিত্তিক সদৃশ্যতা (সংগ্ৰহীত ফিচাৰসমূহ) সৃষ্টি কৰে।
+<img width="2500" height="1030" alt="feature_similarity_small" src="https://github.com/user-attachments/assets/d56ec9aa-c60e-4fe6-92cd-aa6270b1d6ed" />
+
+<details>
+<summary><b>নির্দেশাবলী:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/feature_similarity.py \
+  --classes orange \  
+  --num-images 20 \
+  --min-area 12 \
+  --max-area 25000 \
+  --min-instances 2 \
+  --seed 123 \
+  --max-per-class 12
+```
+</details>
+
+### T-SNE plots (DINOv2 ফিচাৰ বিচ্ছিন্নতা)
+
+DINOv2 ফিচাৰৰ t-SNE স্পষ্টভাৱে পৃথকীকৰণ দেখুৱায় অমিল শ্ৰেণীবোৰৰ বাবে
+কিন্তু একে শ্ৰেণীৰ বাবে ব্যাপক ওভারলেপ, যাৰ পৰা এইটো সূচিত হয় যে বিভ্ৰান্তি
+ব্যাকবোন ফিচাৰ জ্যামিতি'ৰ পৰা আহে, প্ৰট’টাইপ বাচনিৰ পৰা নহয়।
+<img width="2500" height="1444" alt="tsne" src="https://github.com/user-attachments/assets/baffc430-1600-44a1-9a14-1b08e25a9d55" />
+
+<details>
+<summary><b>নির্দেশনা:</b></summary>
+
+ফিচাৰবোৰ উলিয়াওক
+
+```bash
+python no_time_to_train/make_plots/tsne-coco.py --extract
+```
+
+T-SNE প্লটসমূহ আঁকা
+
+```bash
+# Example spoon vs fork
+python no_time_to_train/make_plots/tsne-coco.py --classes cat dog
+```
+
+</details>
+
+## 🛠️ সহায়কসকল
+
+### স্মৃতি দৃশ্যায়ন কৰক
+
+ইয়াত feature_comparison_small.png চিত্ৰটো যোগ কৰক
+
+<details>
+<summary><b>নির্দেশনা</b></summary>
+
+এটা দিয়া প্ৰয়োগৰ বাবে স্মৃতি বেংক (PCA আৰু K-means দৃশ্যায়ন)টো দৃশ্যায়ন কৰিবলৈ, তলৰ আজ্ঞাসমূহ সজাওক।
+
+`DO_NOT_CROP`-ক True/False-লৈ ছেট কৰক (`no_time_to_train/models/Sam2MatchingBaseline_noAMG.py`-ত) যাতে চিত্ৰৰ সঁহাৰি ক্ৰপ কৰা মাস্কৰ সৈতে/নোহোৱা দৃশ্যায়ন কৰিব পাৰি।
+
+```bash
+python run_lightening.py test --config $CONFIG \
+    --model.test_mode vis_memory \
+    --ckpt_path $RESULTS_DIR/memory_postprocessed.ckpt \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $RESULTS_DIR/$FILENAME \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.class_split $CLASS_SPLIT \
+    --model.init_args.model_cfg.dataset_name $CLASS_SPLIT \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+</details>
+
+### ছবিসকলক 512x512 (চৌকোণা ছবি বনাওক)
+
+ছবিসকলক 512x512 লৈ ৰিছাইজ কৰিবলৈ আৰু এটা নতুন ডাইৰেক্টৰিত ছেভ কৰিবলৈ, তলৰ নিৰ্দেশনা অনুসৰি কাম কৰক। এইটো কাগজৰ ফিগাৰসমূহৰ বাবে।
+
+<details>
+<summary><b>নির্দেশনা:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/paper_fig_square_imgs.py
+```
+</details>
+
+
+### মডেলৰ আকাৰ আৰু মেম'ৰি
+
+মডেলৰ আকাৰ আৰু মেম'ৰি গণনা কৰিবলৈ, তলত থকা কমাণ্ডটো চলাও।
+
+<details>
+<summary><b>নির্দেশনা:</b></summary>
+
+- মডেলৰ আকাৰ আৰু মেম'ৰি গণনাৰ বাবে `no_time_to_train/models/Sam2MatchingBaseline_noAMG_model_and_memory.py` চাওক।
+(সৰ্বাধিক সহজ: সাময়িকভাৱে Sam2MatchingBaseline_noAMG.py দ্বারা প্রতিস্থাপন কৰক, তাৰপিছত পুনৰ নামকৰণ কৰক।)
+</details>
+
+## 🌍 EO ডেটাছেটসমূহ
+
+
+### মূল্যায়ন স্ক্ৰিপ্ট (EO ডেটাছেটসমূহ)
+
+মূল্যায়ন স্ক্ৰিপ্টসমূহ `scripts/EO` ডিৰেক্টৰিত পোৱা যাব। EO ডেটাছেটসমূহে `./scripts/EO/EO_template.sh` স্ক্ৰিপ্ট ব্যৱহাৰ কৰি মূল্যায়ন চলায়।
+
+প্ৰতিটো EO পৰীক্ষা চলাৰ ফলাফল `./EO_results` ডিৰেক্টৰিত সংৰক্ষণ কৰা হয়। পৰীক্ষাৰ ফোল্ডাৰত সংৰক্ষণ কৰা হয়:
+- কনফিগাৰেচন আৰু পৰীক্ষাৰ ৰানটাইম থকা summary.txt ফাইল।
+- টেষ্ট ছেটত প্ৰেডিকশ্যন ভিজুৱালাইজেশ্বন (`results_analysis` ফোল্ডাৰ)।
+- মেম'ৰি ভিজুৱালাইজেশ্বন (`memory_vis` ফোল্ডাৰ)।
+- Few-shot এনোটেশ্বন pickle ফাইল।
+- মডেলৰ চেকপইণ্টসমূহ (যদি পৰিষ্কাৰ কৰা হোৱা নাই।)
+
+
+### চিত্ৰ আৰু তালিকা
+চিত্ৰ আৰু তালিকা তৈয়াৰ কৰাৰ বাবে অতিরিক্ত স্ক্ৰিপ্টসমূহ।
+
+<details>
+<summary><b>EO ডেটাছেটসমূহৰ সংক্ষিপ্ত latex তালিকা:</b></summary>
+
+```bash
+python scripts/convert_datasets/summary_table_datasets.py
+```
+
+</details>
+
+
+<details>
+<summary><b>EO ডেটাসেটৰ LaTeX টেবুল উত্পন্ন কৰক:</b></summary>
+
+```bash
+python scripts/paper_figures/table_EO_results.py ./EO_results_no_heuristics
+```
+
+</details>
+
+
+<details>
+<summary><b>EO ডেটাসেটসমূহৰ এক্যুৰেছী প্লট:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_accuracy.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>EO ডেটাসেটসমূহত হিউৰিস্টিকছৰ প্ৰভাৱৰ সংক্ষিপ্তসাৰ:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_heuristic.py \
+  --no-heuristics ./EO_results_no_heuristics \
+  --heuristics ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>EO datasets ৰ ৰানটাইম প্লট:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_runtime.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>পেপাৰ ফিগাৰৰ বাবে EO গ্ৰিড ভিজুৱালাইজেচনসমূহ সৃষ্টি কৰক:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_grid.py \
+  --root ./EO_results_no_heuristics \
+  --dataset ISAID \
+  --shots 1
+```
+
+</details>
+
+
+
+
+
+
+## 📚 Citation
+
+If you use this work, please cite us:
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -451,6 +833,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
 
 ---

@@ -53,44 +53,45 @@
 </div>
 
 ---
-
-> 🚨 **更新（2025年7月22日）：** 已新增自訂資料集的操作說明！
+> 🚨 **更新（2026年2月5日）**：論文手稿已更新，包含大量消融實驗、視覺化和額外實驗。
 > 
-> 🔔 **更新（2025年7月16日）：** 程式碼已更新並附上操作指引！
+> 🚨 **更新（2025年7月22日）**：已新增自訂資料集的說明！
+> 
+> 🔔 **更新（2025年7月16日）**：程式碼已更新，並附有使用說明！
 
 ---
 
 ## 📋 目錄
 
-- [🎯 重點](#-highlights)
+- [🎯 亮點](#-highlights)
 - [📜 摘要](#-abstract)
 - [🧠 架構](#-architecture)
 - [🛠️ 安裝說明](#️-installation-instructions)
-  - [1. 複製程式庫](#1-clone-the-repository)
+  - [1. 複製本專案](#1-clone-the-repository)
   - [2. 建立 conda 環境](#2-create-conda-environment)
-  - [3. 安裝 SAM2 與 DinoV2](#3-install-sam2-and-dinov2)
+  - [3. 安裝 SAM2 與 DINOv2](#3-install-sam2-and-dinov2)
   - [4. 下載資料集](#4-download-datasets)
-  - [5. 下載 SAM2 與 DinoV2 檢查點](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 推論程式：重現 Few-shot COCO 30-shot SOTA 結果](#-inference-code)
+  - [5. 下載 SAM2 與 DINOv2 權重檔](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 推論程式碼：於 Few-shot COCO 重現 30-shot SOTA 結果](#-inference-code)
   - [0. 建立參考集](#0-create-reference-set)
-  - [1. 以參考資料填充記憶體](#1-fill-memory-with-references)
-  - [2. 後處理記憶體庫](#2-post-process-memory-bank)
-  - [3. 在目標影像上進行推論](#3-inference-on-target-images)
-  - [結果](#results)
+  - [1. 以參考集填充記憶體](#1-fill-memory-with-references)
+  - [2. 後處理記憶庫](#2-post-process-memory-bank)
+  - [3. 目標影像推論](#3-inference-on-target-images)
 
+  - [結果](#results)
 - [🔍 自訂資料集](#-custom-dataset)
   - [0. 準備自訂資料集 ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 僅有邊界框註釋時](#01-if-only-bbox-annotations-are-available)
-  - [0.2 將 COCO 註釋轉換為 pickle 檔案](#02-convert-coco-annotations-to-pickle-file)
+  - [0.1 僅有 bbox 標註時](#01-if-only-bbox-annotations-are-available)
+  - [0.2 將 coco 標註轉為 pickle 檔案](#02-convert-coco-annotations-to-pickle-file)
   - [1. 以參考資料填充記憶體](#1-fill-memory-with-references)
-  - [2. 記憶庫後處理](#2-post-process-memory-bank)
+  - [2. 後處理記憶體庫](#2-post-process-memory-bank)
 - [📚 引用](#-citation)
 
 
-## 🎯 亮點
-- 💡 **免訓練**：無需微調、無需提示工程—只需一張參考影像。  
-- 🖼️ **參考式**：僅用少量範例即可分割新物件。  
-- 🔥 **SOTA 效能**：在 COCO、PASCAL VOC 及跨領域 FSOD 上超越既有免訓練方法。
+## 🎯 重點亮點
+- 💡 **免訓練**：無需微調、無需提示工程——只需要一張參考圖片。  
+- 🖼️ **基於參考**：僅用少量範例即可分割新物件。  
+- 🔥 **SOTA 表現**：在 COCO、PASCAL VOC 與跨領域 FSOD 上超越以往免訓練方法。
 
 **連結：**
 - 🧾 [**arXiv 論文**](https://arxiv.org/abs/2507.02798)  
@@ -125,25 +126,25 @@ cd no-time-to-train
 conda env create -f environment.yml
 conda activate no-time-to-train
 ```
-### 3. 安裝 SAM2 和 DinoV2
 
-我們將從原始碼安裝 SAM2 和 DinoV2。
+### 3. 安裝 SAM2 和 DINOv2
 
+我們將從原始碼安裝 SAM2 和 DINOv2。
 ```bash
 pip install -e .
 cd dinov2
 pip install -e .
 cd ..
 ```
-### 4. 下載數據集
 
-請下載 COCO 數據集並將其放置於 `data/coco`
+### 4. 下載資料集
 
-### 5. 下載 SAM2 和 DinoV2 權重檔
+請下載 COCO 資料集並將其放置於 `data/coco`
 
-我們將下載論文中使用的 SAM2 權重檔。
-（但請注意，SAM2.1 權重檔已經可用，且可能有更好的表現。）
+### 5. 下載 SAM2 和 DINOv2 檢查點
 
+我們將下載論文中使用的 SAM2 檢查點。
+（請注意，SAM2.1 檢查點已經可用，且可能表現更佳。）
 
 ```bash
 mkdir -p checkpoints/dinov2
@@ -420,23 +421,404 @@ BBOX RESULTS:
 SEGM RESULTS:
   Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458
 ```
-視覺結果已儲存在 `results_analysis/my_custom_dataset/`。請注意，我們的方法適用於偽陰性，也就是那些不包含任何目標類別實例的影像。
+視覺結果儲存在 `results_analysis/my_custom_dataset/`。請注意，我們的方法適用於偽陰性，也就是不包含任何目標類別實例的圖像。
 
-*點擊圖片以放大 ⬇️*
+*點擊圖片可放大 ⬇️*
 
-| 含有船隻的目標影像 ⛵（左為GT，右為預測） | 含有鳥類的目標影像 🐦（左為GT，右為預測） |
+| 目標圖像：含有船隻 ⛵（左為GT，右為預測） | 目標圖像：含有鳥類 🐦（左為GT，右為預測） |
 |:----------------------:|:----------------------:|
 | ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |
 
-| 含有船隻與鳥類的目標影像 ⛵🐦（左為GT，右為預測） | 不含船隻或鳥類的目標影像 🚫（左為GT，右為預測） |
+| 目標圖像：同時含有船隻及鳥類 ⛵🐦（左為GT，右為預測） | 目標圖像：不含船隻或鳥類 🚫（左為GT，右為預測） |
 |:---------------------------------:|:----------------------------------:|
 | ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |
 
 
-## 📚 引用
+## 🔬 消融實驗
 
-如果您使用本研究，請引用我們：
+### 主幹網路消融
 
+為了評估我們方法在不同基礎模型上的可遷移性，我們將語義編碼器（DINOv2）與基於SAM的分割器替換為多種其他選項。
+
+**語義編碼器消融：**
+
+
+
+```bash
+# CLIP (Sizes: b16, b32, l14, l14@336px)
+bash scripts/clip/clipl14@336px.sh
+bash scripts/clip/clipl14.sh
+bash scripts/clip/clipb16.sh
+bash scripts/clip/clipb32.sh
+
+# DINOV3 (Sizes: b, l, h)
+bash scripts/dinov3/dinov3b.sh
+bash scripts/dinov3/dinov3l.sh
+bash scripts/dinov3/dinov3h.sh
+
+# PE (Sizes: g14, l14)
+bash scripts/pe/PEg14.sh
+bash scripts/pe/PEl14.sh
+```
+
+**分割器消融：**
+
+```bash
+# SAM2 (Sizes: tiny, small, base+, large)
+bash scripts/sam2/sam2_tiny.sh
+bash scripts/sam2/sam2_small.sh
+bash scripts/sam2/sam2_base_plus.sh
+bash scripts/baseline/dinov2_sam_baseline.sh # SAM2 Large
+```
+
+### 在 COCO 少量樣本資料集上的 VLM 評估
+
+我們在 COCO 少量樣本資料集上評估 QWEN VLM。
+
+```bash
+bash scripts/vl-qwen/ablation-vl-qwen.sh
+```
+
+### 參考圖像啟發式
+
+為了理解為什麼不同的參考圖像會導致性能變化，我們分析了 COCO 新類別標註的統計特性。
+
+#### 分析
+
+我們研究了三個標註特徵：(1) 遮罩區域（物體尺寸），
+(2) 遮罩中心位置，以及 (3) 距離圖像邊緣的距離。
+
+<details>
+<summary><b>操作說明：</b></summary>
+
+```bash
+# Mask area distribution
+python no_time_to_train/make_plots/mask_area_distribution.py \
+  --input data/coco/annotations/instances_val2017.json \
+  --output no_time_to_train/make_plots/mask_area_distribution/mask_area_distribution.png \
+  --edges-output no_time_to_train/make_plots/mask_area_distribution/bbox_edge_distance_histograms.png \
+  --center-output no_time_to_train/make_plots/mask_area_distribution/bbox_center_density.png \
+  --bins 80 \
+  --distance-bins 80 \
+  --disable-center-density
+
+# Bbox center positions
+python no_time_to_train/make_plots/bbox_positions.py \
+	--per-class-root data/coco/annotations/per_class_instances \
+	--filename centeredness_2d_hist_plain.png \
+	--max-cols 6 \
+	--output-dir ./no_time_to_train/make_plots/bbox_positions \
+	--outfile grid_bbox_positions.png
+```
+</details>
+
+<details>
+<summary><b>[輸出] 遮罩區域分布</b></summary>
+<img width="600" height="600" alt="mask_area_distribution" src="https://github.com/user-attachments/assets/ece21119-3622-4a2f-8319-1d52ff05bf99" />
+
+</details>
+
+<details>
+<summary><b>[輸出] 邊界框中心密度</b></summary>
+<img width="3165" height="1627" alt="grid_bbox_positions" src="https://github.com/user-attachments/assets/dff4ddb2-a3f1-45e1-af12-8e9fffbb4d6c" />
+
+</details>
+
+<details>
+<summary><b>[輸出] 邊界框邊緣距離直方圖</b></summary>
+<img width="1800" height="1200" alt="bbox_edge_distance_histograms" src="https://github.com/user-attachments/assets/e23d1360-599c-46a2-af59-3d071112e76e" />
+
+</details>
+
+#### 選擇
+
+我們針對每個類別取樣 100 張多樣化 NBSP; 參考圖像，明確覆蓋不同的遮罩大小、中心和邊緣距離範圍。每個參考圖像會在一個固定且縮減的驗證子集中進行評估。
+
+<details>
+<summary><b>操作說明：</b></summary>
+
+**設定腳本：** `scripts/1shot_ref_ablation/setup.sh`：
+1. 建立每個類別的 json 檔案
+2. 分析特定類別
+3. 以不同啟發式方法建立參考集
+
+
+
+
+```bash
+bash scripts/1shot_ref_ablation/setup.sh
+```
+
+**執行腳本：** `scripts/1shot_ref_ablation/gpu*.sh`：
+
+4. 為每個參考集執行流程
+```bash
+# Example launch script that calls template script for each reference set
+bash scripts/1shot_ref_ablation/gpu0.sh
+```
+
+</details>
+
+
+#### 結果
+
+我們分析了檢測分數與參考圖像特徵（遮罩大小、中心位置、邊緣距離）的相關性。
+
+<details>
+<summary><b>操作說明：</b></summary>
+
+
+```bash
+python no_time_to_train/make_plots/heuristics_analysis.py
+# Outputs: 
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/per_class_area_vs_raw_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/all_classes_area_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/edge_distance_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_area_category_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_centered_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_avoid_sides_norm_scores.png
+```
+</details>
+
+<details>
+<summary><b>[輸出] 條形圖。遮罩區域（左）與中心化程度（右）對性能的影響</b></summary>
+<img width="1190" height="846" alt="barplot" src="https://github.com/user-attachments/assets/e900aff5-523d-4563-aebc-0135dcbb5eb6" />
+
+</details>
+
+<details>
+<summary><b>[輸出] 熱力圖。性能隨遮罩中心位置變化的二維分數圖</b></summary>
+<img width="1250" height="545" alt="heatmap" src="https://github.com/user-attachments/assets/c2c59ffe-b19e-4907-b0be-68249cf5db51" />
+
+</details>
+
+<details>
+<summary><b>[輸出] 參考圖像性能與所有 COCO 新穎類別的遮罩區域關係</b></summary>
+<img width="2500" height="1432" alt="class_performance" src="https://github.com/user-attachments/assets/05a0e213-3ba5-4b4f-80ed-9b7ca782642a" />
+
+</details>
+
+### 參考圖像退化
+
+我們通過施加越來越強的高斯模糊，對逐步退化的參考圖像下的方法進行評估。
+<img width="2640" height="1194" alt="ablation-blur" src="https://github.com/user-attachments/assets/c2abf0ab-1578-41cf-abcf-50e43f7691f5" />
+
+<details>
+<summary><b>說明：</b></summary>
+
+
+
+
+```bash
+# Run different blur levels
+bash scripts/blur_ablation/blur_ablation.sh
+
+# Plot grid of blur ablation results
+python no_time_to_train/make_plots/plot_blur_results.py \
+    --results-root ./work_dirs/blur_ablation \
+    --class-id 0 \
+    --max-cols 4 \
+    --output-dir ./no_time_to_train/make_plots/blur_ablation \
+    --outfile grid_blur_ablation_class_0.png
+```
+
+</details>
+
+### 特徵相似度
+
+用於視覺化參考圖像與目標圖像之間特徵相似度的腳本。
+
+它可生成單一特徵相似度（路徑特徵），以及基於原型的相似度（聚合特徵）。
+<img width="2500" height="1030" alt="feature_similarity_small" src="https://github.com/user-attachments/assets/d56ec9aa-c60e-4fe6-92cd-aa6270b1d6ed" />
+
+<details>
+<summary><b>操作說明：</b></summary>
+
+```bash
+python no_time_to_train/make_plots/feature_similarity.py \
+  --classes orange \  
+  --num-images 20 \
+  --min-area 12 \
+  --max-area 25000 \
+  --min-instances 2 \
+  --seed 123 \
+  --max-per-class 12
+```
+</details>
+
+### T-SNE 圖（DINOv2 特徵可分性）
+
+DINOv2 特徵的 t-SNE 顯示對於不同類別有明顯分離，
+但對於相似類別則有大量重疊，這表示混淆源於
+骨幹特徵的幾何結構，而不是原型的選擇。
+<img width="2500" height="1444" alt="tsne" src="https://github.com/user-attachments/assets/baffc430-1600-44a1-9a14-1b08e25a9d55" />
+
+<details>
+<summary><b>操作說明：</b></summary>
+
+提取特徵
+
+```bash
+python no_time_to_train/make_plots/tsne-coco.py --extract
+```
+
+繪製 T-SNE 圖
+
+```bash
+# Example spoon vs fork
+python no_time_to_train/make_plots/tsne-coco.py --classes cat dog
+```
+
+</details>
+
+## 🛠️ 幫助工具
+
+### 記憶體視覺化
+
+在此加入圖片 feature_comparison_small.png
+
+<details>
+<summary><b>說明</b></summary>
+
+若要視覺化某實驗的記憶體庫（PCA 和 K-means 視覺化），請調整下方指令。
+
+請設定 `DO_NOT_CROP` 為 True/False（在 `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py`）以決定參考圖像是否帶有裁切遮罩進行視覺化。
+
+```bash
+python run_lightening.py test --config $CONFIG \
+    --model.test_mode vis_memory \
+    --ckpt_path $RESULTS_DIR/memory_postprocessed.ckpt \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $RESULTS_DIR/$FILENAME \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.class_split $CLASS_SPLIT \
+    --model.init_args.model_cfg.dataset_name $CLASS_SPLIT \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+</details>
+
+### 將圖片調整為 512x512（使圖片為正方形）
+
+要將圖片調整為 512x512 並保存到新目錄，請執行以下命令。這是針對論文圖表。
+
+<details>
+<summary><b>操作說明：</b></summary>
+
+```bash
+python no_time_to_train/make_plots/paper_fig_square_imgs.py
+```
+</details>
+
+
+### 模型大小與記憶體
+
+要計算模型大小與記憶體，請運行以下指令。
+
+<details>
+<summary><b>操作說明：</b></summary>
+
+- 請參考 `no_time_to_train/models/Sam2MatchingBaseline_noAMG_model_and_memory.py` 來計算模型大小與記憶體。
+（最簡單：暫時替換為 Sam2MatchingBaseline_noAMG.py，然後再改回來。）
+</details>
+
+## 🌍 EO 資料集
+
+
+### 評估腳本（EO 資料集）
+
+評估腳本可於 `scripts/EO` 目錄中找到。EO 資料集使用 `./scripts/EO/EO_template.sh` 腳本來執行評估。
+
+每個 EO 實驗運行都會被儲存在 `./EO_results` 目錄下。在實驗資料夾中我們會儲存：
+- summary.txt 檔案（包含實驗設定與執行時間）。
+- 測試集的預測視覺化（`results_analysis` 資料夾）。
+- 記憶體視覺化（`memory_vis` 資料夾）。
+- 少樣本註解的 pickle 檔案。
+- 模型的檢查點（如果未被清理）。
+
+
+### 圖表與表格
+用於產生圖表和表格的額外腳本。
+
+<details>
+<summary><b>EO 資料集的摘要 latex 表格：</b></summary>
+
+```bash
+python scripts/convert_datasets/summary_table_datasets.py
+```
+
+</details>
+
+
+<details>
+<summary><b>生成 EO 數據集的 LaTeX 表格：</b></summary>
+
+```bash
+python scripts/paper_figures/table_EO_results.py ./EO_results_no_heuristics
+```
+
+</details>
+
+
+<details>
+<summary><b>EO數據集的準確度圖：</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_accuracy.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>啟發式對 EO 數據集影響的總結：</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_heuristic.py \
+  --no-heuristics ./EO_results_no_heuristics \
+  --heuristics ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>EO 數據集的執行時間圖：</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_runtime.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>為論文圖表生成EO網格視覺化：</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_grid.py \
+  --root ./EO_results_no_heuristics \
+  --dataset ISAID \
+  --shots 1
+```
+
+</details>
+
+
+
+
+
+
+## 📚 Citation
+
+If you use this work, please cite us:
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -451,6 +833,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
 
 ---

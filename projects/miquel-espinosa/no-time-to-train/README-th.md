@@ -53,10 +53,11 @@
 </div>
 
 ---
-
-> 🚨 **อัปเดต (22 กรกฎาคม 2025):** ได้เพิ่มคำแนะนำสำหรับชุดข้อมูลที่กำหนดเองแล้ว!
+> 🚨 **อัปเดต (5 กุมภาพันธ์ 2026)**: เอกสารฉบับร่างได้รับการอัปเดตด้วยการศึกษาผลกระทบเชิงลึก การแสดงภาพ และการทดลองเพิ่มเติม
 > 
-> 🔔 **อัปเดต (16 กรกฎาคม 2025):** โค้ดได้รับการอัปเดตพร้อมคำแนะนำแล้ว!
+> 🚨 **อัปเดต (22 กรกฎาคม 2025):** เพิ่มคำแนะนำสำหรับชุดข้อมูลที่กำหนดเองแล้ว!
+> 
+> 🔔 **อัปเดต (16 กรกฎาคม 2025):** โค้ดได้รับการอัปเดตพร้อมคู่มือการใช้งานแล้ว!
 
 ---
 
@@ -65,32 +66,32 @@
 - [🎯 ไฮไลท์](#-highlights)
 - [📜 บทคัดย่อ](#-abstract)
 - [🧠 สถาปัตยกรรม](#-architecture)
-- [🛠️ คำแนะนำการติดตั้ง](#️-installation-instructions)
-  - [1. โคลนรีโพซิทอรี](#1-clone-the-repository)
+- [🛠️ คำแนะนำการ forestall](#️-installation-instructions)
+  - [1. โคลนรีโพสิทอรี](#1-clone-the-repository)
   - [2. สร้างสภาพแวดล้อม conda](#2-create-conda-environment)
-  - [3. ติดตั้ง SAM2 และ DinoV2](#3-install-sam2-and-dinov2)
+  - [3. ติดตั้ง SAM2 และ DINOv2](#3-install-sam2-and-dinov2)
   - [4. ดาวน์โหลดชุดข้อมูล](#4-download-datasets)
-  - [5. ดาวน์โหลด checkpoints ของ SAM2 และ DinoV2](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 โค้ดสำหรับ Inference: ทำซ้ำผลลัพธ์ SOTA แบบ 30-shot ใน Few-shot COCO](#-inference-code)
+  - [5. ดาวน์โหลด checkpoint ของ SAM2 และ DINOv2](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 โค้ดสำหรับ Inference: ทำซ้ำผล SOTA 30-shot ใน Few-shot COCO](#-inference-code)
   - [0. สร้างชุดอ้างอิง](#0-create-reference-set)
   - [1. เติมข้อมูลอ้างอิงลงในหน่วยความจำ](#1-fill-memory-with-references)
-  - [2. ประมวลผลหน่วยความจำเพิ่มเติม](#2-post-process-memory-bank)
+  - [2 personalized. ประมวลผลหน่วยความจำหลังจากเติม](#2-post-process-memory-bank)
   - [3. Inference บนภาพเป้าหมาย](#3-inference-on-target-images)
-  - [ผลลัพธ์](#results)
 
-- [🔍 ข้อมูลชุดทดลองแบบกำหนดเอง](#-custom-dataset)
-  - [0. เตรียมข้อมูลชุดทดลองแบบกำหนดเอง ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 หากมีเพียงการระบุ bbox เท่านั้น](#01-if-only-bbox-annotations-are-available)
-  - [0.2 แปลงการระบุ coco เป็นไฟล์ pickle](#02-convert-coco-annotations-to-pickle-file)
-  - [1. เติมหน่วยความจำด้วยข้อมูลอ้างอิง](#1-fill-memory-with-references)
-  - [2. ประมวลผลหน่วยความจำหลังการบันทึก](#2-post-process-memory-bank)
+  - [ผลลัพธ์](#results)
+- [🔍 ชุดข้อมูลกำหนดเอง](#-custom-dataset)
+  - [0. เตรียมชุดข้อมูลกำหนดเอง ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 หากมีเฉพาะการกำกับ bbox](#01-if-only-bbox-annotations-are-available)
+  - [0.2 แปลง anotations coco เป็นไฟล์ pickle](#02-convert-coco-annotations-to-pickle-file)
+  - [1. เติมข้อมูลในหน่วยความจำด้วยตัวอย่างอ้างอิง](#1-fill-memory-with-references)
+  - [2. ประมวลผลหน่วยความจำภายหลัง](#2-post-process-memory-bank)
 - [📚 การอ้างอิง](#-citation)
 
 
-## 🎯 จุดเด่น
-- 💡 **ไม่ต้องฝึกสอน**: ไม่ต้องปรับแต่งเพิ่มเติม ไม่ต้องออกแบบ prompt—ใช้เพียงภาพตัวอย่างอ้างอิง  
-- 🖼️ **อ้างอิงจากตัวอย่าง**: แยกวัตถุใหม่โดยใช้ตัวอย่างเพียงไม่กี่ภาพ  
-- 🔥 **ประสิทธิภาพระดับ SOTA**: ทำผลงานเหนือกว่าวิธีที่ไม่ใช้การฝึกสอนเดิมบน COCO, PASCAL VOC และ Cross-Domain FSOD
+## 🎯 ไฮไลท์
+- 💡 **ไม่ต้องฝึกสอน (Training-Free)**: ไม่ต้องปรับจูน ไม่ต้องวิศวกรรมพรอมต์—แค่ใช้ภาพตัวอย่างอ้างอิง  
+- 🖼️ **อ้างอิงภาพ (Reference-Based)**: แบ่งส่วนวัตถุใหม่โดยใช้เพียงตัวอย่างไม่กี่ภาพ  
+- 🔥 **ประสิทธิภาพระดับ SOTA**: มีประสิทธิภาพเหนือกว่าวิธีไม่ต้องฝึกสอนก่อนหน้าใน COCO, PASCAL VOC และ Cross-Domain FSOD
 
 **ลิงก์:**
 - 🧾 [**arXiv Paper**](https://arxiv.org/abs/2507.02798)  
@@ -125,25 +126,25 @@ cd no-time-to-train
 conda env create -f environment.yml
 conda activate no-time-to-train
 ```
-### 3. ติดตั้ง SAM2 และ DinoV2
 
-เราจะติดตั้ง SAM2 และ DinoV2 จากซอร์สโค้ด
+### 3. ติดตั้ง SAM2 และ DINOv2
 
+เราจะติดตั้ง SAM2 และ DINOv2 จากซอร์ส
 ```bash
 pip install -e .
 cd dinov2
 pip install -e .
 cd ..
 ```
+
 ### 4. ดาวน์โหลดชุดข้อมูล
 
 กรุณาดาวน์โหลดชุดข้อมูล COCO และวางไว้ใน `data/coco`
 
-### 5. ดาวน์โหลด SAM2 และ DinoV2 checkpoints
+### 5. ดาวน์โหลดไฟล์ตรวจสอบ SAM2 และ DINOv2
 
-เราจะดาวน์โหลด SAM2 checkpoints ที่ใช้ในบทความนี้โดยตรง
-(อย่างไรก็ตาม โปรดทราบว่า SAM2.1 checkpoints มีให้ใช้งานแล้วและอาจให้ประสิทธิภาพที่ดีกว่า)
-
+เราจะดาวน์โหลดไฟล์ตรวจสอบ SAM2 ที่ใช้ในบทความนี้โดยตรง
+(อย่างไรก็ตาม ไฟล์ตรวจสอบ SAM2.1 มีให้ดาวน์โหลดแล้ว และอาจให้ประสิทธิภาพที่ดีกว่า)
 
 ```bash
 mkdir -p checkpoints/dinov2
@@ -420,23 +421,404 @@ BBOX RESULTS:
 SEGM RESULTS:
   Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458
 ```
-ผลลัพธ์เชิงภาพจะถูกบันทึกไว้ใน `results_analysis/my_custom_dataset/` โปรดทราบว่าวิธีการของเราสามารถใช้ได้กับกรณีที่ตรวจไม่พบ (false negatives) กล่าวคือ รูปภาพที่ไม่มีวัตถุในคลาสที่ต้องการ
+ผลลัพธ์เชิงภาพจะถูกบันทึกไว้ใน `results_analysis/my_custom_dataset/` โปรดทราบว่าวิธีการของเราทำงานกับกรณี false negatives นั่นคือ รูปภาพที่ไม่มีวัตถุของคลาสที่ต้องการอยู่เลย
 
-*คลิกที่ภาพเพื่อขยาย ⬇️*
+*คลิกที่รูปภาพเพื่อขยาย ⬇️*
 
-| ภาพเป้าหมายที่มีเรือ ⛵ (ซ้าย GT, ขวาคือผลทำนาย) | ภาพเป้าหมายที่มีนก 🐦 (ซ้าย GT, ขวาคือผลทำนาย) |
+| รูปเป้าหมายที่มีเรือ ⛵ (ซ้าย GT, ขวาคือผลทำนาย) | รูปเป้าหมายที่มีนก 🐦 (ซ้าย GT, ขวาคือผลทำนาย) |
 |:----------------------:|:----------------------:|
 | ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |
 
-| ภาพเป้าหมายที่มีทั้งเรือและนก ⛵🐦 (ซ้าย GT, ขวาคือผลทำนาย) | ภาพเป้าหมายที่ไม่มีเรือหรือไม่มีนก 🚫 (ซ้าย GT, ขวาคือผลทำนาย) |
+| รูปเป้าหมายที่มีทั้งเรือและนก ⛵🐦 (ซ้าย GT, ขวาคือผลทำนาย) | รูปเป้าหมายที่ไม่มีเรือหรือนก 🚫 (ซ้าย GT, ขวาคือผลทำนาย) |
 |:---------------------------------:|:----------------------------------:|
 | ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |
 
 
-## 📚 การอ้างอิง
+## 🔬 การทดสอบแบบ ablation
 
-หากคุณใช้ผลงานนี้ กรุณาอ้างอิงถึงเรา:
+### การทดลองกับ backbone
 
+เพื่อประเมินความสามารถในการถ่ายทอดของวิธีเราบน foundation models ต่าง ๆ เราได้เปลี่ยนทั้งตัวเข้ารหัสเชิงความหมาย (DINOv2) และ segmenter ที่ใช้ SAM กับทางเลือกอื่น ๆ หลายแบบ
+
+**การทดลองกับตัวเข้ารหัสเชิงความหมาย:**
+
+
+
+```bash
+# CLIP (Sizes: b16, b32, l14, l14@336px)
+bash scripts/clip/clipl14@336px.sh
+bash scripts/clip/clipl14.sh
+bash scripts/clip/clipb16.sh
+bash scripts/clip/clipb32.sh
+
+# DINOV3 (Sizes: b, l, h)
+bash scripts/dinov3/dinov3b.sh
+bash scripts/dinov3/dinov3l.sh
+bash scripts/dinov3/dinov3h.sh
+
+# PE (Sizes: g14, l14)
+bash scripts/pe/PEg14.sh
+bash scripts/pe/PEl14.sh
+```
+
+**การทดลองตัดส่วน Segmenter:**
+
+```bash
+# SAM2 (Sizes: tiny, small, base+, large)
+bash scripts/sam2/sam2_tiny.sh
+bash scripts/sam2/sam2_small.sh
+bash scripts/sam2/sam2_base_plus.sh
+bash scripts/baseline/dinov2_sam_baseline.sh # SAM2 Large
+```
+
+### การประเมิน VLM บนชุดข้อมูล COCO แบบตัวอย่างน้อย
+
+เราทำการประเมิน QWEN VLM บนชุดข้อมูล COCO แบบตัวอย่างน้อย
+
+```bash
+bash scripts/vl-qwen/ablation-vl-qwen.sh
+```
+
+### ฮิวริสติกของภาพอ้างอิง
+
+เพื่อทำความเข้าใจว่าทำไมภาพอ้างอิงที่แตกต่างกันจึงนำไปสู่ความแปรปรวนของประสิทธิภาพ เราวิเคราะห์คุณสมบัติทางสถิติของการกำกับประเภทใหม่ใน sop COCO
+
+#### การวิเคราะห์
+
+เราศึกษาลักษณะของการกำกับสามประการ: (1) พื้นที่หน้ากาก (ขนาดวัตถุ),
+(2) ตำแหน่งศูนย์กลางของหน้ากาก, และ (3) ระยะห่างจากขอบภาพ
+
+<details>
+<summary><b>คำแนะนำ:</b></summary>
+
+```bash
+# Mask area distribution
+python no_time_to_train/make_plots/mask_area_distribution.py \
+  --input data/coco/annotations/instances_val2017.json \
+  --output no_time_to_train/make_plots/mask_area_distribution/mask_area_distribution.png \
+  --edges-output no_time_to_train/make_plots/mask_area_distribution/bbox_edge_distance_histograms.png \
+  --center-output no_time_to_train/make_plots/mask_area_distribution/bbox_center_density.png \
+  --bins 80 \
+  --distance-bins 80 \
+  --disable-center-density
+
+# Bbox center positions
+python no_time_to_train/make_plots/bbox_positions.py \
+	--per-class-root data/coco/annotations/per_class_instances \
+	--filename centeredness_2d_hist_plain.png \
+	--max-cols 6 \
+	--output-dir ./no_time_to_train/make_plots/bbox_positions \
+	--outfile grid_bbox_positions.png
+```
+</details>
+
+<details>
+<summary><b>[OUTPUT] การกระจายพื้นที่ของหน้ากาก</b></summary>
+<img width="600" height="600" alt="mask_area_distribution" src="https://github.com/user-attachments/assets/ece21119-3622-4a2f-8319-1d52ff05bf99" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] ความหนาแน่นของจุดศูนย์กลาง Bbox</b></summary>
+<img width="3165" height="1627" alt="grid_bbox_positions" src="https://github.com/user-attachments/assets/dff4ddb2-a3f1-45e1-af12-8e9fffbb4d6c" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] ฮิสโตแกรมระยะขอบของ Bbox</b></summary>
+<img width="1800" height="1200" alt="bbox_edge_distance_histograms" src="https://github.com/user-attachments/assets/e23d1360-599c-46a2-af59-3d071112e76e" />
+
+</details>
+
+#### การเลือก
+
+เราสุ่มตัวอย่างภาพอ้างอิงที่หลากหลาย 100 ภาพต่อคลาส โดยครอบคลุมช่วงของขนาดหน้ากาก ตำแหน่งศูนย์กลาง และระยะขอบอย่างชัดเจน แต่ละภาพอ้างอิงจะถูกประเมินบนชุดย่อยตรวจสอบที่ลดขนาดแบบคงที่
+
+<details>
+<summary><b>คำแนะนำ:</b></summary>
+
+**สคริปต์ติดตั้ง:** `scripts/1shot_ref_ablation/setup.sh`:
+1. สร้างไฟล์ json ต่อคลาส
+2. วิเคราะห์คลาสเฉพาะ
+3. สร้างชุดข้อมูลอ้างอิงด้วยกลยุทธ์เชิงฮิวริสติกที่ต่างกัน
+
+
+
+
+```bash
+bash scripts/1shot_ref_ablation/setup.sh
+```
+
+**รันสคริปต์:** `scripts/1shot_ref_ablation/gpu*.sh`:
+
+4. รันไพป์ไลน์สำหรับแต่ละชุดอ้างอิง
+```bash
+# Example launch script that calls template script for each reference set
+bash scripts/1shot_ref_ablation/gpu0.sh
+```
+
+</details>
+
+
+#### ผลลัพธ์
+
+เราได้วิเคราะห์ว่า คะแนนการตรวจจับมีความสัมพันธ์กับลักษณะเฉพาะของภาพอ้างอิงอย่างไร
+(ขนาดหน้ากาก, ตำแหน่งศูนย์กลาง, ระยะห่างจากขอบภาพ)
+
+<details>
+<summary><b>คำแนะนำ:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/heuristics_analysis.py
+# Outputs: 
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/per_class_area_vs_raw_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/all_classes_area_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/edge_distance_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_area_category_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_centered_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_avoid_sides_norm_scores.png
+```
+</details>
+
+<details>
+<summary><b>[OUTPUT] กราฟแท่ง. ผลของพื้นที่หน้ากาก (ซ้าย) และการจัดศูนย์ (ขวา) ต่อประสิทธิภาพ</b></summary>
+<img width="1190" height="846" alt="barplot" src="https://github.com/user-attachments/assets/e900aff5-523d-4563-aebc-0135dcbb5eb6" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] ฮีทแมป. แผนที่คะแนน 2 มิติของประสิทธิภาพในฐานะฟังก์ชันของตำแหน่งศูนย์กลางหน้ากาก</b></summary>
+<img width="1250" height="545" alt="heatmap" src="https://github.com/user-attachments/assets/c2c59ffe-b19e-4907-b0be-68249cf5db51" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] ประสิทธิภาพภาพอ้างอิงเทียบกับพื้นที่หน้ากากสำหรับคลาสใหม่ COCO ทั้งหมด</b></summary>
+<img width="2500" height="1432" alt="class_performance" src="https://github.com/user-attachments/assets/05a0e213-3ba5-4b4f-80ed-9b7ca782642a" />
+
+</details>
+
+### การเสื่อมสภาพของภาพอ้างอิง
+
+เราประเมินวิธีของเราภายใต้ภาพอ้างอิงที่เสื่อมสภาพอย่างต่อเนื่องโดยการเพิ่มระดับของ Gaussian blur
+<img width="2640" height="1194" alt="ablation-blur" src="https://github.com/user-attachments/assets/c2abf0ab-1578-41cf-abcf-50e43f7691f5" />
+
+<details>
+<summary><b>คำแนะนำ:</b></summary>
+
+
+
+
+```bash
+# Run different blur levels
+bash scripts/blur_ablation/blur_ablation.sh
+
+# Plot grid of blur ablation results
+python no_time_to_train/make_plots/plot_blur_results.py \
+    --results-root ./work_dirs/blur_ablation \
+    --class-id 0 \
+    --max-cols 4 \
+    --output-dir ./no_time_to_train/make_plots/blur_ablation \
+    --outfile grid_blur_ablation_class_0.png
+```
+
+</details>
+
+### ความคล้ายคลึงของฟีเจอร์
+
+สคริปต์สำหรับการแสดงภาพความคล้ายคลึงของฟีเจอร์ระหว่างภาพอ้างอิงและภาพเป้าหมาย
+
+มันจะสร้างความคล้ายคลึงของฟีเจอร์เดียว (ฟีเจอร์เส้นทาง) และความคล้ายคลึงแบบต้นแบบ (ฟีเจอร์รวม)
+<img width="2500" height="1030" alt="feature_similarity_small" src="https://github.com/user-attachments/assets/d56ec9aa-c60e-4fe6-92cd-aa6270b1d6ed" />
+
+<details>
+<summary><b>คำแนะนำ:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/feature_similarity.py \
+  --classes orange \  
+  --num-images 20 \
+  --min-area 12 \
+  --max-area 25000 \
+  --min-instances 2 \
+  --seed 123 \
+  --max-per-class 12
+```
+</details>
+
+### แผนภาพ T-SNE (การแยกคุณสมบัติของ DINOv2)
+
+t-SNE ของคุณสมบัติ DINOv2 แสดงการแยกที่ชัดเจนสำหรับคลาสที่แตกต่างกัน
+แต่มีการทับซ้อนกันมากสำหรับคลาสที่คล้ายกัน ซึ่งบ่งชี้ว่าความสับสนเกิดจาก
+รูปทรงของคุณสมบัติแบ็คโบนมากกว่าการเลือกต้นแบบ
+<img width="2500" height="1444" alt="tsne" src="https://github.com/user-attachments/assets/baffc430-1600-44a1-9a14-1b08e25a9d55" />
+
+<details>
+<summary><b>คำแนะนำ:</b></summary>
+
+ดึงคุณสมบัติ
+
+```bash
+python no_time_to_train/make_plots/tsne-coco.py --extract
+```
+
+วาดกราฟ T-SNE
+
+```bash
+# Example spoon vs fork
+python no_time_to_train/make_plots/tsne-coco.py --classes cat dog
+```
+
+</details>
+
+## 🛠️ ตัวช่วย
+
+### การแสดงภาพหน่วยความจำ
+
+เพิ่มรูปภาพ feature_comparison_small.png ที่นี่
+
+<details>
+<summary><b>คำแนะนำ</b></summary>
+
+เพื่อแสดงภาพหน่วยความจำ (การแสดงภาพด้วย PCA และ K-means) สำหรับการทดลองที่กำหนด ให้ปรับคำสั่งต่อไปนี้
+
+ตั้งค่า `DO_NOT_CROP` เป็น True/False (ใน `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py`) เพื่อแสดงภาพอ้างอิงพร้อม/โดยไม่ใช้หน้ากากที่ถูกครอบตัด
+
+```bash
+python run_lightening.py test --config $CONFIG \
+    --model.test_mode vis_memory \
+    --ckpt_path $RESULTS_DIR/memory_postprocessed.ckpt \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $RESULTS_DIR/$FILENAME \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.class_split $CLASS_SPLIT \
+    --model.init_args.model_cfg.dataset_name $CLASS_SPLIT \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+</details>
+
+### ปรับขนาดภาพเป็น 512x512 (ทำให้ภาพเป็นสี่เหลี่ยมจัตุรัส)
+
+เพื่อปรับขนาดภาพเป็น 512x512 และบันทึกลงในไดเรกทอรีใหม่ ให้รันคำสั่งต่อไปนี้ ซึ่งใช้สำหรับรูปภาพในเอกสาร
+
+<details>
+<summary><b>คำแนะนำ:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/paper_fig_square_imgs.py
+```
+</details>
+
+
+### ขนาดโมเดลและหน่วยความจำ
+
+ในการคำนวณขนาดโมเดลและหน่วยความจำ ให้รันคำสั่งต่อไปนี้
+
+<details>
+<summary><b>คำแนะนำ:</b></summary>
+
+- ดู `no_time_to_train/models/Sam2MatchingBaseline_noAMG_model_and_memory.py` สำหรับการคำนวณขนาดโมเดลและหน่วยความจำ
+(ง่ายที่สุด: เปลี่ยนชื่อชั่วคราวเป็น Sam2MatchingBaseline_noAMG.py แล้วเปลี่ยนกลับ)
+</details>
+
+## 🌍 ชุดข้อมูล EO
+
+
+### สคริปต์ประเมินผล (ชุดข้อมูล EO)
+
+สามารถพบสคริปต์ประเมินผลได้ในไดเรกทอรี `scripts/EO` ชุดข้อมูล EO ใช้สคริปต์ `./scripts/EO/EO_template.sh` เพื่อรันการประเมินผล
+
+แต่ละการรันทดลอง EO จะถูกบันทึกไว้ภายใต้ไดเรกทอรี `./EO_results` ในโฟลเดอร์ทดลองเราจะจัดเก็บ:
+- ไฟล์ summary.txt ที่มีค่าคอนฟิกและเวลาการทำงานของการทดลอง
+- การแสดงผลการทำนายบนชุดทดสอบ (โฟลเดอร์ `results_analysis`)
+- การแสดงผลการใช้หน่วยความจำ (`memory_vis` โฟลเดอร์)
+- ไฟล์พิกเกิลการอนุมัติแบบ few-shot
+- เช็คพอยต์ของโมเดล (หากไม่ได้ลบออก)
+
+
+### รูปภาพและตาราง
+สคริปต์เพิ่มเติมสำหรับสร้างรูปภาพและตาราง
+
+<details>
+<summary><b>ตาราง latex สรุปของชุดข้อมูล EO:</b></summary>
+
+```bash
+python scripts/convert_datasets/summary_table_datasets.py
+```
+
+</details>
+
+
+<details>
+<summary><b>สร้างตาราง LaTeX ของชุดข้อมูล EO:</b></summary>
+
+```bash
+python scripts/paper_figures/table_EO_results.py ./EO_results_no_heuristics
+```
+
+</details>
+
+
+<details>
+<summary><b>กราฟความแม่นยำของชุดข้อมูล EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_accuracy.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>สรุปผลของฮิวริสติกที่มีต่อชุดข้อมูล EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_heuristic.py \
+  --no-heuristics ./EO_results_no_heuristics \
+  --heuristics ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>กราฟแสดงเวลาในการทำงานของชุดข้อมูล EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_runtime.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>สร้างภาพการแสดงผลตาราง EO สำหรับรูปในเอกสาร:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_grid.py \
+  --root ./EO_results_no_heuristics \
+  --dataset ISAID \
+  --shots 1
+```
+
+</details>
+
+
+
+
+
+
+## 📚 Citation
+
+If you use this work, please cite us:
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -451,6 +833,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
 
 ---

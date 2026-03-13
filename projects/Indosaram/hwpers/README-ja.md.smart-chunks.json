@@ -1,0 +1,2003 @@
+[
+  {
+    "Id": 1,
+    "Content": "# hwpers\n\n[![Crates.io](https://img.shields.io/crates/v/hwpers.svg)](https://crates.io/crates/hwpers)\n[![Documentation](https://docs.rs/hwpers/badge.svg)](https://docs.rs/hwpers)\n[![CI](https://github.com/Indosaram/hwpers/workflows/CI/badge.svg)](https://github.com/Indosaram/hwpers/actions)\n[![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](LICENSE-MIT)\n\nA Rust library for parsing Korean Hangul Word Processor (HWP) files with full layout rendering support.\n\n## Features\n\n### Parser (Reading HWP files)\n- **Complete HWP 5.0 Format Support**: Parse all document components including text, formatting, tables, and embedded objects\n- **Visual Layout Rendering**: Reconstruct documents with pixel-perfect accuracy when layout data is available\n- **Font and Style Preservation**: Extract and apply original fonts, sizes, colors, and text formatting\n- **Advanced Layout Engine**: Support for multi-column layouts, line-by-line positioning, and character-level formatting\n- **SVG Export**: Render documents to scalable vector graphics\n- **Zero-copy Parsing**: Efficient parsing with minimal memory allocation\n- **Safe Rust**: Memory-safe implementation with comprehensive error handling\n\n### Writer (Creating HWP files) - v0.3.0+\n- **Document Creation**: Full HWP document writing support\n- **Rich Text Formatting**: Bold, italic, colors, fonts, sizes\n- **Tables**: Creation, styling, cell merging\n- **Lists**: Bullets, numbering, Korean/alphabetic/roman formats\n- **Images**: PNG/JPEG/BMP/GIF with captions\n- **Text Boxes**: Positioned and styled text boxes\n- **Hyperlinks**: URL, email, file, and bookmark links\n- **Headers/Footers**: Page numbers and custom content\n- **Page Layout**: Sizes, margins, orientation, columns, backgrounds\n\n## Quick Start\n\nAdd this to your `Cargo.toml`:\n",
+    "ContentSha": "ykIejLIRizxIQmr34TfxSc6g/X0lkkGd13sbGmhNHx8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# hwpers\n\n[![Crates.io](https://img.shields.io/crates/v/hwpers.svg)](https://crates.io/crates/hwpers)\n[![Documentation](https://docs.rs/hwpers/badge.svg)](https://docs.rs/hwpers)\n[![CI](https://github.com/Indosaram/hwpers/workflows/CI/badge.svg)](https://github.com/Indosaram/hwpers/actions)\n[![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](LICENSE-MIT)\n\n完全なレイアウトレンダリングサポートを備えた韓国語ハングルワードプロセッサ（HWP）ファイル解析用のRustライブラリ。\n\n## 特徴\n\n### パーサー（HWPファイルの読み込み）\n- **完全なHWP 5.0フォーマット対応**：テキスト、書式設定、表、埋め込みオブジェクトを含むすべてのドキュメントコンポーネントを解析\n- **ビジュアルレイアウトレンダリング**：レイアウトデータが利用可能な場合、ピクセル単位で正確にドキュメントを再構築\n- **フォントおよびスタイルの保持**：元のフォント、サイズ、色、テキスト書式を抽出および適用\n- **高度なレイアウトエンジン**：複数カラムレイアウト、行ごとの位置指定、文字単位の書式設定をサポート\n- **SVGエクスポート**：ドキュメントをスケーラブルベクターグラフィックスにレンダリング\n- **ゼロコピー解析**：最小限のメモリアロケーションによる効率的な解析\n- **安全なRust**：包括的なエラーハンドリングを備えたメモリ安全な実装\n\n### ライター（HWPファイルの作成） - v0.3.0以降\n- **ドキュメント作成**：完全なHWPドキュメント書き込み対応\n- **リッチテキスト書式**：太字、斜体、色、フォント、サイズ\n- **表**：作成、スタイリング、セルの結合\n- **リスト**：箇条書き、番号付け、韓国語・アルファベット・ローマ数字形式\n- **画像**：PNG/JPEG/BMP/GIFとキャプション\n- **テキストボックス**：位置指定およびスタイル設定されたテキストボックス\n- **ハイパーリンク**：URL、メール、ファイル、ブックマークリンク\n- **ヘッダー/フッター**：ページ番号およびカスタムコンテンツ\n- **ページレイアウト**：サイズ、余白、向き、カラム、背景\n\n## クイックスタート\n\n`Cargo.toml`に以下を追加してください：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dkxAvNgCKJBr2q0hClSuR79vN0X+oXjX2vM7W6XOeCc=",
+        "originContent": "# hwpers",
+        "translatedContent": "# hwpers"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "N/4p9qHMVODmzO2w1O38Sts8pT5ssnEvz2yWm+/gftc=",
+        "originContent": "[![Crates.io](https://img.shields.io/crates/v/hwpers.svg)](https://crates.io/crates/hwpers)",
+        "translatedContent": "[![Crates.io](https://img.shields.io/crates/v/hwpers.svg)](https://crates.io/crates/hwpers)"
+      },
+      {
+        "row": 4,
+        "rowsha": "lXntvjcJpmuMv8SW5DMbt0luNoLRHUmJb6VvlHKNdDc=",
+        "originContent": "[![Documentation](https://docs.rs/hwpers/badge.svg)](https://docs.rs/hwpers)",
+        "translatedContent": "[![Documentation](https://docs.rs/hwpers/badge.svg)](https://docs.rs/hwpers)"
+      },
+      {
+        "row": 5,
+        "rowsha": "VuuRhxBdDBAIrV5eJmpfE54W11WZhVJavcCx6mRovRY=",
+        "originContent": "[![CI](https://github.com/Indosaram/hwpers/workflows/CI/badge.svg)](https://github.com/Indosaram/hwpers/actions)",
+        "translatedContent": "[![CI](https://github.com/Indosaram/hwpers/workflows/CI/badge.svg)](https://github.com/Indosaram/hwpers/actions)"
+      },
+      {
+        "row": 6,
+        "rowsha": "9E02raisW0W8JOGkAA91pdqwmJY21/j7unOAJf5+9zo=",
+        "originContent": "[![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](LICENSE-MIT)",
+        "translatedContent": "[![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](LICENSE-MIT)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "+GRLCF8Ylmzol21xGE/M28QlYATEsZSCGqjg6sunejU=",
+        "originContent": "A Rust library for parsing Korean Hangul Word Processor (HWP) files with full layout rendering support.",
+        "translatedContent": "完全なレイアウトレンダリングサポートを備えた韓国語ハングルワードプロセッサ（HWP）ファイル解析用のRustライブラリ。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 特徴"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "3H1rB3hJ0O+x3Y4ghXwZNCAhmWLJEglc8ApYow27VxI=",
+        "originContent": "### Parser (Reading HWP files)",
+        "translatedContent": "### パーサー（HWPファイルの読み込み）"
+      },
+      {
+        "row": 13,
+        "rowsha": "1uxIDV4QCnPpdBfBZ8pvs2HGYkauEvCC7kwHU2ICtK0=",
+        "originContent": "- **Complete HWP 5.0 Format Support**: Parse all document components including text, formatting, tables, and embedded objects",
+        "translatedContent": "- **完全なHWP 5.0フォーマット対応**：テキスト、書式設定、表、埋め込みオブジェクトを含むすべてのドキュメントコンポーネントを解析"
+      },
+      {
+        "row": 14,
+        "rowsha": "dzKzIRQ3QNxquVBwGxCtniOq96YO2/2n12EEevpgaas=",
+        "originContent": "- **Visual Layout Rendering**: Reconstruct documents with pixel-perfect accuracy when layout data is available",
+        "translatedContent": "- **ビジュアルレイアウトレンダリング**：レイアウトデータが利用可能な場合、ピクセル単位で正確にドキュメントを再構築"
+      },
+      {
+        "row": 15,
+        "rowsha": "qAVLZYoT6r+WayHfBeBGiNkekJFViZfu7VI37aBsZPs=",
+        "originContent": "- **Font and Style Preservation**: Extract and apply original fonts, sizes, colors, and text formatting",
+        "translatedContent": "- **フォントおよびスタイルの保持**：元のフォント、サイズ、色、テキスト書式を抽出および適用"
+      },
+      {
+        "row": 16,
+        "rowsha": "32XDMP1ODJBHuI4aj/AqyByJ0/v3cG9M4nEAmcbiZNY=",
+        "originContent": "- **Advanced Layout Engine**: Support for multi-column layouts, line-by-line positioning, and character-level formatting",
+        "translatedContent": "- **高度なレイアウトエンジン**：複数カラムレイアウト、行ごとの位置指定、文字単位の書式設定をサポート"
+      },
+      {
+        "row": 17,
+        "rowsha": "XVRtePyqqkVP65FspVNTE4PG3M6V2jkHijcrN1ZgB/s=",
+        "originContent": "- **SVG Export**: Render documents to scalable vector graphics",
+        "translatedContent": "- **SVGエクスポート**：ドキュメントをスケーラブルベクターグラフィックスにレンダリング"
+      },
+      {
+        "row": 18,
+        "rowsha": "3um8LqHBHLMyq1Z2orZ651ZfGcCYARO4HMFSa7HvBBs=",
+        "originContent": "- **Zero-copy Parsing**: Efficient parsing with minimal memory allocation",
+        "translatedContent": "- **ゼロコピー解析**：最小限のメモリアロケーションによる効率的な解析"
+      },
+      {
+        "row": 19,
+        "rowsha": "kT0vPqp9KebOwvLbusXugbyZQdO/F5ZeIjHCMYTJKY8=",
+        "originContent": "- **Safe Rust**: Memory-safe implementation with comprehensive error handling",
+        "translatedContent": "- **安全なRust**：包括的なエラーハンドリングを備えたメモリ安全な実装"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "IDGIUlk2O3Q2fGee+TJEzPUw+8dMk8PdKWkEGTGsVTg=",
+        "originContent": "### Writer (Creating HWP files) - v0.3.0+",
+        "translatedContent": "### ライター（HWPファイルの作成） - v0.3.0以降"
+      },
+      {
+        "row": 22,
+        "rowsha": "2emxMJ6DjJ4SspQjUzVh8imDCO3gM2aWrwYL1aY4K7M=",
+        "originContent": "- **Document Creation**: Full HWP document writing support",
+        "translatedContent": "- **ドキュメント作成**：完全なHWPドキュメント書き込み対応"
+      },
+      {
+        "row": 23,
+        "rowsha": "mpNrY5jJ/N/i77IIOWFciigi9jkqkDQgQhEmqIPYuIY=",
+        "originContent": "- **Rich Text Formatting**: Bold, italic, colors, fonts, sizes",
+        "translatedContent": "- **リッチテキスト書式**：太字、斜体、色、フォント、サイズ"
+      },
+      {
+        "row": 24,
+        "rowsha": "hAyAE94hj/HWQmc8dmmb97Ir00dRuqD2Cy4D9ZnEpUY=",
+        "originContent": "- **Tables**: Creation, styling, cell merging",
+        "translatedContent": "- **表**：作成、スタイリング、セルの結合"
+      },
+      {
+        "row": 25,
+        "rowsha": "YtQxXeJWQeP1X/qKT20kuCXVAhISMbt/YKB9J3mq3KY=",
+        "originContent": "- **Lists**: Bullets, numbering, Korean/alphabetic/roman formats",
+        "translatedContent": "- **リスト**：箇条書き、番号付け、韓国語・アルファベット・ローマ数字形式"
+      },
+      {
+        "row": 26,
+        "rowsha": "iMsTAQGd8Dje6uWI1CkGTseYZ6t6Ulpi48I374WTULE=",
+        "originContent": "- **Images**: PNG/JPEG/BMP/GIF with captions",
+        "translatedContent": "- **画像**：PNG/JPEG/BMP/GIFとキャプション"
+      },
+      {
+        "row": 27,
+        "rowsha": "NVAPF7sTH7gcpPrM8j8LL25LKU/0f7YHjHG//JrJcUw=",
+        "originContent": "- **Text Boxes**: Positioned and styled text boxes",
+        "translatedContent": "- **テキストボックス**：位置指定およびスタイル設定されたテキストボックス"
+      },
+      {
+        "row": 28,
+        "rowsha": "MIJf3M2wmdgnf2bPWgHJy0StXg47gbauryGPLHGNKH4=",
+        "originContent": "- **Hyperlinks**: URL, email, file, and bookmark links",
+        "translatedContent": "- **ハイパーリンク**：URL、メール、ファイル、ブックマークリンク"
+      },
+      {
+        "row": 29,
+        "rowsha": "I2pYFfKqQYVkLVv405rFmJrvjovAlQDUYHpAb2YhjyA=",
+        "originContent": "- **Headers/Footers**: Page numbers and custom content",
+        "translatedContent": "- **ヘッダー/フッター**：ページ番号およびカスタムコンテンツ"
+      },
+      {
+        "row": 30,
+        "rowsha": "d6XuONdQspg8y7HaSwSFiqBHolEn/e/Fp45AgZwqpQk=",
+        "originContent": "- **Page Layout**: Sizes, margins, orientation, columns, backgrounds",
+        "translatedContent": "- **ページレイアウト**：サイズ、余白、向き、カラム、背景"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## クイックスタート"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "OYbyhUhwmXuItqnUbjlmzKkgDWqBzcmTfoPU2q9plM0=",
+        "originContent": "Add this to your `Cargo.toml`:",
+        "translatedContent": "`Cargo.toml`に以下を追加してください："
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```toml\n[dependencies]\nhwpers = \"0.3\"\n```",
+    "ContentSha": "V4+Q0ZECO2lnEDejBBVB5IMC81IgJLYRIORqiJRe4hU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\n[dependencies]\nhwpers = \"0.3\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "v8Amm9lWkEiRx7LTLCNyiQWyvnBgtnoUMrJSqtpA+c8=",
+        "originContent": "[dependencies]",
+        "translatedContent": "[dependencies]"
+      },
+      {
+        "row": 3,
+        "rowsha": "lUL8yxrxv1peqnUOTzYQLxfOOEsPUvLKp6EsecemFA8=",
+        "originContent": "hwpers = \"0.3\"",
+        "translatedContent": "hwpers = \"0.3\""
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Basic Usage\n",
+    "ContentSha": "4Mo6TsXMBHWydkjmhPNeEumw5LYqUZjgg3frVnFxV6g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 基本的な使い方\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "qwWY7P47JqonFUUvUAujmI3i0aD6KQEJ90a+gO+DuVw=",
+        "originContent": "### Basic Usage",
+        "translatedContent": "### 基本的な使い方"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```rust\nuse hwpers::HwpReader;\n\n// Parse an HWP file\nlet document = HwpReader::from_file(\"document.hwp\")?;\n\n// Extract text content\nlet text = document.extract_text();\nprintln!(\"{}\", text);\n\n// Access document properties\nif let Some(props) = document.get_properties() {\n    println!(\"Pages: {}\", props.total_page_count);\n}\n\n// Iterate through sections and paragraphs\nfor (i, section) in document.sections().enumerate() {\n    println!(\"Section {}: {} paragraphs\", i, section.paragraphs.len());\n    \n    for paragraph in &section.paragraphs {\n        if let Some(text) = &paragraph.text {\n            println!(\"  {}\", text.content);\n        }\n    }\n}\n```",
+    "ContentSha": "541lDdzxTOA3g32iyP+EuHU2mRkn/tdZKpU6arDSziQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\nuse hwpers::HwpReader;\n\n// Parse an HWP file\nlet document = HwpReader::from_file(\"document.hwp\")?;\n\n// Extract text content\nlet text = document.extract_text();\nprintln!(\"{}\", text);\n\n// Access document properties\nif let Some(props) = document.get_properties() {\n    println!(\"Pages: {}\", props.total_page_count);\n}\n\n// Iterate through sections and paragraphs\nfor (i, section) in document.sections().enumerate() {\n    println!(\"Section {}: {} paragraphs\", i, section.paragraphs.len());\n    \n    for paragraph in &section.paragraphs {\n        if let Some(text) = &paragraph.text {\n            println!(\"  {}\", text.content);\n        }\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "0oDh25tA9lDrzzD6jsuHiq4fK45QQz2PzRe10c2Jg7g=",
+        "originContent": "use hwpers::HwpReader;",
+        "translatedContent": "use hwpers::HwpReader;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "rjUhQSsVMfWJZthBe9tBwAIKrcPVQRwzRkI1L+Lk8Xk=",
+        "originContent": "// Parse an HWP file",
+        "translatedContent": "// Parse an HWP file"
+      },
+      {
+        "row": 5,
+        "rowsha": "1w2AMqZXh4NqZszOTCA66m/KPncgBYwLPcVEm/YE6hg=",
+        "originContent": "let document = HwpReader::from_file(\"document.hwp\")?;",
+        "translatedContent": "let document = HwpReader::from_file(\"document.hwp\")?;"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "qZOhG5VP4HDAGV5acMEJ4nTQ5GIGOhMSgRHCjjsP+H8=",
+        "originContent": "// Extract text content",
+        "translatedContent": "// Extract text content"
+      },
+      {
+        "row": 8,
+        "rowsha": "SzvvXR1JLhfWFn74jhz4DJndmLlQbUuJSYlUv7GAGuc=",
+        "originContent": "let text = document.extract_text();",
+        "translatedContent": "let text = document.extract_text();"
+      },
+      {
+        "row": 9,
+        "rowsha": "8jwrsyf8Pwm6qDA23Q9H2YFBI2MArlqK2eRASBojo5U=",
+        "originContent": "println!(\"{}\", text);",
+        "translatedContent": "println!(\"{}\", text);"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "L/sr9J5vYqyqePPgBlKM/zeZxbpFriR322pBJ3ra0hM=",
+        "originContent": "// Access document properties",
+        "translatedContent": "// Access document properties"
+      },
+      {
+        "row": 12,
+        "rowsha": "+ohZVPHN4k0HyU6ZF1FDZ/nfRzmex+eI1DLsjdsOv+U=",
+        "originContent": "if let Some(props) = document.get_properties() {",
+        "translatedContent": "if let Some(props) = document.get_properties() {"
+      },
+      {
+        "row": 13,
+        "rowsha": "O65nBYAKJLnQ1hD2Kf7tTj+3qDAoCvDm6Ki5LE/GIxA=",
+        "originContent": "    println!(\"Pages: {}\", props.total_page_count);",
+        "translatedContent": "    println!(\"Pages: {}\", props.total_page_count);"
+      },
+      {
+        "row": 14,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "hSxlyENAOTh9qg26FZnFUvExZpe/DofLQx4tlS+jWAM=",
+        "originContent": "// Iterate through sections and paragraphs",
+        "translatedContent": "// Iterate through sections and paragraphs"
+      },
+      {
+        "row": 17,
+        "rowsha": "aZtGLrT4oeEFLiTMYfPeJ2GVEsxDk87Ew96X0CftzZg=",
+        "originContent": "for (i, section) in document.sections().enumerate() {",
+        "translatedContent": "for (i, section) in document.sections().enumerate() {"
+      },
+      {
+        "row": 18,
+        "rowsha": "As0zcNyC9weohHJ6nLLk6bTJLPU789JwjtQXvcB5KQ0=",
+        "originContent": "    println!(\"Section {}: {} paragraphs\", i, section.paragraphs.len());",
+        "translatedContent": "    println!(\"Section {}: {} paragraphs\", i, section.paragraphs.len());"
+      },
+      {
+        "row": 19,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 20,
+        "rowsha": "PXzmn8OjLbspzO1I+hJRHUiVN/BkJ74x79XWkrU3kH8=",
+        "originContent": "    for paragraph in &section.paragraphs {",
+        "translatedContent": "    for paragraph in &section.paragraphs {"
+      },
+      {
+        "row": 21,
+        "rowsha": "nltQdv3FgNGGOiMVpGXAkmdTNQs3i8GANIl/u9VmoNE=",
+        "originContent": "        if let Some(text) = &paragraph.text {",
+        "translatedContent": "        if let Some(text) = &paragraph.text {"
+      },
+      {
+        "row": 22,
+        "rowsha": "RDfCgoLPJ3R9ML+Ym/h8YTpkLKbtiqrDzPcoMDGwG3Q=",
+        "originContent": "            println!(\"  {}\", text.content);",
+        "translatedContent": "            println!(\"  {}\", text.content);"
+      },
+      {
+        "row": 23,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 24,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 25,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 26,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Visual Layout Rendering\n",
+    "ContentSha": "dcDrW0EzSIj51YezDozvH0FTomaqNasO4mpKwCkJTs4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### ビジュアルレイアウトレンダリング\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "t4axmcbLCA2VpkjM5/EcWCkQDMFpbByso4RAZRekK9Q=",
+        "originContent": "### Visual Layout Rendering",
+        "translatedContent": "### ビジュアルレイアウトレンダリング"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```rust\nuse hwpers::{HwpReader, render::{HwpRenderer, RenderOptions}};\n\nlet document = HwpReader::from_file(\"document.hwp\")?;\n\n// Create renderer with custom options\nlet options = RenderOptions {\n    dpi: 96,\n    scale: 1.0,\n    show_margins: false,\n    show_baselines: false,\n};\n\nlet renderer = HwpRenderer::new(&document, options);\nlet result = renderer.render();\n\n// Export first page to SVG\nif let Some(svg) = result.to_svg(0) {\n    std::fs::write(\"page1.svg\", svg)?;\n}\n\nprintln!(\"Rendered {} pages\", result.pages.len());\n```",
+    "ContentSha": "FRdQbLWSPiKFPzpYhWEwVmGwAGayqJBJ3aRFtHn8OS4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\nuse hwpers::{HwpReader, render::{HwpRenderer, RenderOptions}};\n\nlet document = HwpReader::from_file(\"document.hwp\")?;\n\n// Create renderer with custom options\nlet options = RenderOptions {\n    dpi: 96,\n    scale: 1.0,\n    show_margins: false,\n    show_baselines: false,\n};\n\nlet renderer = HwpRenderer::new(&document, options);\nlet result = renderer.render();\n\n// Export first page to SVG\nif let Some(svg) = result.to_svg(0) {\n    std::fs::write(\"page1.svg\", svg)?;\n}\n\nprintln!(\"Rendered {} pages\", result.pages.len());\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "UDgaN0iT6lohHLF399miwmENaeYirw9aOm77Pc2QNdY=",
+        "originContent": "use hwpers::{HwpReader, render::{HwpRenderer, RenderOptions}};",
+        "translatedContent": "use hwpers::{HwpReader, render::{HwpRenderer, RenderOptions}};"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "1w2AMqZXh4NqZszOTCA66m/KPncgBYwLPcVEm/YE6hg=",
+        "originContent": "let document = HwpReader::from_file(\"document.hwp\")?;",
+        "translatedContent": "let document = HwpReader::from_file(\"document.hwp\")?;"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "X+puBFeHAWHu58STtInDttZZLpvdDtNXogEIpcmNcHo=",
+        "originContent": "// Create renderer with custom options",
+        "translatedContent": "// Create renderer with custom options"
+      },
+      {
+        "row": 7,
+        "rowsha": "LsppWrQHsrjE+tLKUgN/oDHtPY2COCriQiT7qBvoNz0=",
+        "originContent": "let options = RenderOptions {",
+        "translatedContent": "let options = RenderOptions {"
+      },
+      {
+        "row": 8,
+        "rowsha": "v6du5n1ZHIwa1Vwk6+8dToFEyk+mCwcJ63UMV1ckeo8=",
+        "originContent": "    dpi: 96,",
+        "translatedContent": "    dpi: 96,"
+      },
+      {
+        "row": 9,
+        "rowsha": "9kgtJEc0KrWDV8AY1juADHXHCbgMFPA8q0kIXPhAv7I=",
+        "originContent": "    scale: 1.0,",
+        "translatedContent": "    scale: 1.0,"
+      },
+      {
+        "row": 10,
+        "rowsha": "GiDqNCNDksEB6Cgge2cMXvNpkyS/ETwH20rZhW595Vk=",
+        "originContent": "    show_margins: false,",
+        "translatedContent": "    show_margins: false,"
+      },
+      {
+        "row": 11,
+        "rowsha": "A+uWkdXaeD63ydZwtYC5E+gPsjAeorSgM6Q84hXFcAU=",
+        "originContent": "    show_baselines: false,",
+        "translatedContent": "    show_baselines: false,"
+      },
+      {
+        "row": 12,
+        "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+        "originContent": "};",
+        "translatedContent": "};"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "JsXmQN9WLll86G3hQjd8GcfGm+LHwEAHFcE5NuqpvZ4=",
+        "originContent": "let renderer = HwpRenderer::new(&document, options);",
+        "translatedContent": "let renderer = HwpRenderer::new(&document, options);"
+      },
+      {
+        "row": 15,
+        "rowsha": "npeGORAgf5goflZB6klcLVLB3fgvRxzL3An3vyqd9eQ=",
+        "originContent": "let result = renderer.render();",
+        "translatedContent": "let result = renderer.render();"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "Mn5qTu2+PwXxqGvaxjgpfUv3ha2xNE4CIafdlhyTn98=",
+        "originContent": "// Export first page to SVG",
+        "translatedContent": "// Export first page to SVG"
+      },
+      {
+        "row": 18,
+        "rowsha": "UxYNVqCbV/tI+C9OIqjSSVj0d0AkX3pvP+sx6jsajVc=",
+        "originContent": "if let Some(svg) = result.to_svg(0) {",
+        "translatedContent": "if let Some(svg) = result.to_svg(0) {"
+      },
+      {
+        "row": 19,
+        "rowsha": "OztH/BA0RvAx1TTt8QKEFiSph2dpm+gUDuWfj610Rfo=",
+        "originContent": "    std::fs::write(\"page1.svg\", svg)?;",
+        "translatedContent": "    std::fs::write(\"page1.svg\", svg)?;"
+      },
+      {
+        "row": 20,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "GqsUVhf2lILGQMfZ89MpOE5iGe49ClNfspwZeh3h64M=",
+        "originContent": "println!(\"Rendered {} pages\", result.pages.len());",
+        "translatedContent": "println!(\"Rendered {} pages\", result.pages.len());"
+      },
+      {
+        "row": 23,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Creating Documents (v0.3.0+)\n",
+    "ContentSha": "g/s43/zZpiSseTaaIe9lEmQPDpUurdMyoZZBNDzAop0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### ドキュメントの作成 (v0.3.0+)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "V+8xtH6dN6Gu2IxcLnja3O2qJGdkkrYd0DJgJ3alfPY=",
+        "originContent": "### Creating Documents (v0.3.0+)",
+        "translatedContent": "### ドキュメントの作成 (v0.3.0+)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```rust\nuse hwpers::writer::HwpWriter;\nuse hwpers::model::hyperlink::Hyperlink;\n\n// Create a new document\nlet mut writer = HwpWriter::new();\n\n// Add formatted text\nwriter.add_aligned_paragraph(\n    \"제목\",\n    hwpers::writer::style::ParagraphAlignment::Center\n)?;\n\n// Add hyperlinks\nlet link = Hyperlink::new_url(\"Rust\", \"https://rust-lang.org\");\nwriter.add_paragraph_with_hyperlinks(\n    \"Visit Rust website\",\n    vec![link]\n)?;\n\n// Configure page layout\nwriter.set_custom_page_size(210.0, 297.0, // A4 size\n    hwpers::model::page_layout::PageOrientation::Portrait)?;\nwriter.set_page_margins_mm(20.0, 20.0, 20.0, 20.0);\n\n// Add header and footer\nwriter.add_header(\"Document Header\");\nwriter.add_footer_with_page_number(\"Page \", \n    hwpers::model::header_footer::PageNumberFormat::Numeric);\n\n// Save the document\nwriter.save_to_file(\"output.hwp\")?;\n```",
+    "ContentSha": "RYBbWbdFHpfO5DFaPZDJisCg31OuG3RhrRpQS8s/R2E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\nuse hwpers::writer::HwpWriter;\nuse hwpers::model::hyperlink::Hyperlink;\n\n// Create a new document\nlet mut writer = HwpWriter::new();\n\n// Add formatted text\nwriter.add_aligned_paragraph(\n    \"제목\",\n    hwpers::writer::style::ParagraphAlignment::Center\n)?;\n\n// Add hyperlinks\nlet link = Hyperlink::new_url(\"Rust\", \"https://rust-lang.org\");\nwriter.add_paragraph_with_hyperlinks(\n    \"Visit Rust website\",\n    vec![link]\n)?;\n\n// Configure page layout\nwriter.set_custom_page_size(210.0, 297.0, // A4 size\n    hwpers::model::page_layout::PageOrientation::Portrait)?;\nwriter.set_page_margins_mm(20.0, 20.0, 20.0, 20.0);\n\n// Add header and footer\nwriter.add_header(\"Document Header\");\nwriter.add_footer_with_page_number(\"Page \", \n    hwpers::model::header_footer::PageNumberFormat::Numeric);\n\n// Save the document\nwriter.save_to_file(\"output.hwp\")?;\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "IGomsZ3oH2Z23y3pSKxpQiZO66GXqNCtMcHpl6wGvKA=",
+        "originContent": "use hwpers::writer::HwpWriter;",
+        "translatedContent": "use hwpers::writer::HwpWriter;"
+      },
+      {
+        "row": 3,
+        "rowsha": "b3mDvX8r6rZVG9AB22HDmLlLWFS/ZCG+xeXGzdEzdOw=",
+        "originContent": "use hwpers::model::hyperlink::Hyperlink;",
+        "translatedContent": "use hwpers::model::hyperlink::Hyperlink;"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "R8nkP9M8sTgywrDqD21DH7TPIV/T53bIC1iYYk43nx4=",
+        "originContent": "// Create a new document",
+        "translatedContent": "// Create a new document"
+      },
+      {
+        "row": 6,
+        "rowsha": "oGaKBToABHB4vvkhZKHs0cAx5xVVkjUWud81gFfbwxI=",
+        "originContent": "let mut writer = HwpWriter::new();",
+        "translatedContent": "let mut writer = HwpWriter::new();"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "4Ex3mI1Ys2M4MV2zc664Fo/7q4vYMzU5IHvA2M2ivFI=",
+        "originContent": "// Add formatted text",
+        "translatedContent": "// Add formatted text"
+      },
+      {
+        "row": 9,
+        "rowsha": "K6LM2ewam9wUQT6gALPPkGUYq/kr2JUXjsQA/CGvh4s=",
+        "originContent": "writer.add_aligned_paragraph(",
+        "translatedContent": "writer.add_aligned_paragraph("
+      },
+      {
+        "row": 10,
+        "rowsha": "zEE8jsKbkE/NgRKKqCRIFcfJ9ZsZaHX8lAm87ymKiDQ=",
+        "originContent": "    \"제목\",",
+        "translatedContent": "    \"제목\","
+      },
+      {
+        "row": 11,
+        "rowsha": "UgRWqKsGq+tYPdH7mZYtdSLY6tD/LlgzmSrwTyXnM/U=",
+        "originContent": "    hwpers::writer::style::ParagraphAlignment::Center",
+        "translatedContent": "    hwpers::writer::style::ParagraphAlignment::Center"
+      },
+      {
+        "row": 12,
+        "rowsha": "cvQOAqwTqz7+57KQ6TqanazwxP7TEc9czl40ctaZnFY=",
+        "originContent": ")?;",
+        "translatedContent": ")?;"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "pyV0XR7+xA+5JQswBGIXxtOHsKPcFCazsGTXssC01WY=",
+        "originContent": "// Add hyperlinks",
+        "translatedContent": "// Add hyperlinks"
+      },
+      {
+        "row": 15,
+        "rowsha": "hSsmlCi4n4JfJ7TAA6OsSwy787umQmkCIrz6w27dfWM=",
+        "originContent": "let link = Hyperlink::new_url(\"Rust\", \"https://rust-lang.org\");",
+        "translatedContent": "let link = Hyperlink::new_url(\"Rust\", \"https://rust-lang.org\");"
+      },
+      {
+        "row": 16,
+        "rowsha": "iuNIsUzJOsD/5i1vLpK56uS+yNbiY+DgeE0NJ3sqvTE=",
+        "originContent": "writer.add_paragraph_with_hyperlinks(",
+        "translatedContent": "writer.add_paragraph_with_hyperlinks("
+      },
+      {
+        "row": 17,
+        "rowsha": "aG/OOIIM4ekGiu3McKhziH5S8BITnJZ6aFK62DyN6Z0=",
+        "originContent": "    \"Visit Rust website\",",
+        "translatedContent": "    \"Visit Rust website\","
+      },
+      {
+        "row": 18,
+        "rowsha": "N9qokr+Qwxcb7GNfrEHdmqWIIw6sdVs5lLQIhXVvCbg=",
+        "originContent": "    vec![link]",
+        "translatedContent": "    vec![link]"
+      },
+      {
+        "row": 19,
+        "rowsha": "cvQOAqwTqz7+57KQ6TqanazwxP7TEc9czl40ctaZnFY=",
+        "originContent": ")?;",
+        "translatedContent": ")?;"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "N3bHJowbX8uGykm6sy39LUq/d2r/xaDuQxrEToy2O4c=",
+        "originContent": "// Configure page layout",
+        "translatedContent": "// Configure page layout"
+      },
+      {
+        "row": 22,
+        "rowsha": "h3aYRyikEIFRYp3VWMHHrGgwPenl9w2Z06EJeoJKRKg=",
+        "originContent": "writer.set_custom_page_size(210.0, 297.0, // A4 size",
+        "translatedContent": "writer.set_custom_page_size(210.0, 297.0, // A4 size"
+      },
+      {
+        "row": 23,
+        "rowsha": "iGMnf7MFCQLyNf2VvsvZkO3IzhSJalkmoe8Wuxi8Z2M=",
+        "originContent": "    hwpers::model::page_layout::PageOrientation::Portrait)?;",
+        "translatedContent": "    hwpers::model::page_layout::PageOrientation::Portrait)?;"
+      },
+      {
+        "row": 24,
+        "rowsha": "I/fJqfkyGjOQ1Qw4tTB6vK6qQwjCt6hGo+njMmMwE/A=",
+        "originContent": "writer.set_page_margins_mm(20.0, 20.0, 20.0, 20.0);",
+        "translatedContent": "writer.set_page_margins_mm(20.0, 20.0, 20.0, 20.0);"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "lGloSFmsB+v5ec90poMEgFjlLAForX7cTVTS6OyG+Gc=",
+        "originContent": "// Add header and footer",
+        "translatedContent": "// Add header and footer"
+      },
+      {
+        "row": 27,
+        "rowsha": "ZGeEOATW27EdEYN0w6C7IA9aOD9DvrG97QZbhPN67ks=",
+        "originContent": "writer.add_header(\"Document Header\");",
+        "translatedContent": "writer.add_header(\"Document Header\");"
+      },
+      {
+        "row": 28,
+        "rowsha": "WoHz534sKTpPb3T05ED0nLc98sSkQscYjJjcZkEZLmw=",
+        "originContent": "writer.add_footer_with_page_number(\"Page \", ",
+        "translatedContent": "writer.add_footer_with_page_number(\"Page \", "
+      },
+      {
+        "row": 29,
+        "rowsha": "thq07SpM/qTnv6oM3//mKY/kgB5lk1+G2FLWY9uQxmk=",
+        "originContent": "    hwpers::model::header_footer::PageNumberFormat::Numeric);",
+        "translatedContent": "    hwpers::model::header_footer::PageNumberFormat::Numeric);"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "TfS2QuzwvyCOHLVJGZ8je4IscOVJrPr4/ewO3/x26LE=",
+        "originContent": "// Save the document",
+        "translatedContent": "// Save the document"
+      },
+      {
+        "row": 32,
+        "rowsha": "vxyKjYCyaLY8MmbW7qANeqC09woibHvULyrlUIN3In4=",
+        "originContent": "writer.save_to_file(\"output.hwp\")?;",
+        "translatedContent": "writer.save_to_file(\"output.hwp\")?;"
+      },
+      {
+        "row": 33,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### Advanced Formatting Access\n",
+    "ContentSha": "1+jVp41RR7owtA7CxCZJ/cqVd6jgaJfQj4Zq1w7YfDQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 高度なフォーマットアクセス\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "g2bdrDnMV0qmXI86XuDXGrdYmNM+0xLzZrKfyJvs4sc=",
+        "originContent": "### Advanced Formatting Access",
+        "translatedContent": "### 高度なフォーマットアクセス"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```rust\n// Access character and paragraph formatting\nfor section in document.sections() {\n    for paragraph in &section.paragraphs {\n        // Get paragraph formatting\n        if let Some(para_shape) = document.get_para_shape(paragraph.para_shape_id as usize) {\n            println!(\"Indent: {}, Alignment: {}\", \n                para_shape.indent, \n                para_shape.get_alignment()\n            );\n        }\n        \n        // Get character formatting runs\n        if let Some(char_shapes) = &paragraph.char_shapes {\n            for pos_shape in &char_shapes.char_positions {\n                if let Some(char_shape) = document.get_char_shape(pos_shape.char_shape_id as usize) {\n                    println!(\"Position {}: Size {}, Bold: {}\", \n                        pos_shape.position,\n                        char_shape.base_size / 100,\n                        char_shape.is_bold()\n                    );\n                }\n            }\n        }\n    }\n}\n```",
+    "ContentSha": "WfSzFDYBNHx9j7uJotSiqPl2AZ1m/xy1xoH3P91T7+w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\n// Access character and paragraph formatting\nfor section in document.sections() {\n    for paragraph in &section.paragraphs {\n        // Get paragraph formatting\n        if let Some(para_shape) = document.get_para_shape(paragraph.para_shape_id as usize) {\n            println!(\"Indent: {}, Alignment: {}\", \n                para_shape.indent, \n                para_shape.get_alignment()\n            );\n        }\n        \n        // Get character formatting runs\n        if let Some(char_shapes) = &paragraph.char_shapes {\n            for pos_shape in &char_shapes.char_positions {\n                if let Some(char_shape) = document.get_char_shape(pos_shape.char_shape_id as usize) {\n                    println!(\"Position {}: Size {}, Bold: {}\", \n                        pos_shape.position,\n                        char_shape.base_size / 100,\n                        char_shape.is_bold()\n                    );\n                }\n            }\n        }\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "H9iivV1Jy+hz1Ovcj1Fm/4Lsj2+P7ByGbkJ9vYBoWvE=",
+        "originContent": "// Access character and paragraph formatting",
+        "translatedContent": "// Access character and paragraph formatting"
+      },
+      {
+        "row": 3,
+        "rowsha": "9JFXHxFo1s8MP04qHsLXBRv4PieLIWmeBSwu0nTPwuc=",
+        "originContent": "for section in document.sections() {",
+        "translatedContent": "for section in document.sections() {"
+      },
+      {
+        "row": 4,
+        "rowsha": "PXzmn8OjLbspzO1I+hJRHUiVN/BkJ74x79XWkrU3kH8=",
+        "originContent": "    for paragraph in &section.paragraphs {",
+        "translatedContent": "    for paragraph in &section.paragraphs {"
+      },
+      {
+        "row": 5,
+        "rowsha": "uo7COTydYMDF7cY48uHEnh70+aH3odIrfbNZS7j1Eo8=",
+        "originContent": "        // Get paragraph formatting",
+        "translatedContent": "        // Get paragraph formatting"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ik/QOrPWdy8ymSnlL+g+CtrKRPAukIv71Fjocb34QYM=",
+        "originContent": "        if let Some(para_shape) = document.get_para_shape(paragraph.para_shape_id as usize) {",
+        "translatedContent": "        if let Some(para_shape) = document.get_para_shape(paragraph.para_shape_id as usize) {"
+      },
+      {
+        "row": 7,
+        "rowsha": "e6mGsqOW8CF0EO0aGVGh8FlqjpsX9KoCGek+BeOuEzg=",
+        "originContent": "            println!(\"Indent: {}, Alignment: {}\", ",
+        "translatedContent": "            println!(\"Indent: {}, Alignment: {}\", "
+      },
+      {
+        "row": 8,
+        "rowsha": "MXFwvhYNetdtvt2NgPHFgkf3aoJhWJFGK8EfIwjyl8w=",
+        "originContent": "                para_shape.indent, ",
+        "translatedContent": "                para_shape.indent, "
+      },
+      {
+        "row": 9,
+        "rowsha": "AmFMQCRN0mvBgX5Aq1HeKJT3W0WJHqX1NdcvOecCCsY=",
+        "originContent": "                para_shape.get_alignment()",
+        "translatedContent": "                para_shape.get_alignment()"
+      },
+      {
+        "row": 10,
+        "rowsha": "TP8Q3DEGchm51Vip29yFq2ARapMUfh7WtjTaIXt6tXc=",
+        "originContent": "            );",
+        "translatedContent": "            );"
+      },
+      {
+        "row": 11,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 12,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 13,
+        "rowsha": "d3lLk+yqJSPs/EgmaYq9c44xSd+PWZMwAA8eNYb6ARU=",
+        "originContent": "        // Get character formatting runs",
+        "translatedContent": "        // Get character formatting runs"
+      },
+      {
+        "row": 14,
+        "rowsha": "eCRuRWf3VPGXHUF5yGch4tqfQ/LaXvnoyC5wc2cYuS8=",
+        "originContent": "        if let Some(char_shapes) = &paragraph.char_shapes {",
+        "translatedContent": "        if let Some(char_shapes) = &paragraph.char_shapes {"
+      },
+      {
+        "row": 15,
+        "rowsha": "OKdxRv36CMqsIGmIvZSy14yhxDZzSJ4a7Fzf1Q83Koc=",
+        "originContent": "            for pos_shape in &char_shapes.char_positions {",
+        "translatedContent": "            for pos_shape in &char_shapes.char_positions {"
+      },
+      {
+        "row": 16,
+        "rowsha": "tqJWEArdgLok28f+6hj21ULTURYp2pUbzuSJ+Nli5+8=",
+        "originContent": "                if let Some(char_shape) = document.get_char_shape(pos_shape.char_shape_id as usize) {",
+        "translatedContent": "                if let Some(char_shape) = document.get_char_shape(pos_shape.char_shape_id as usize) {"
+      },
+      {
+        "row": 17,
+        "rowsha": "DTuh3QGMPDgA6SvYneSnCl4VHrvvX/IghLBcAskb9dE=",
+        "originContent": "                    println!(\"Position {}: Size {}, Bold: {}\", ",
+        "translatedContent": "                    println!(\"Position {}: Size {}, Bold: {}\", "
+      },
+      {
+        "row": 18,
+        "rowsha": "g+KIjKdAfXTiCjFIEMtMrS88KwxdWhtPlbpc0DQ8K4w=",
+        "originContent": "                        pos_shape.position,",
+        "translatedContent": "                        pos_shape.position,"
+      },
+      {
+        "row": 19,
+        "rowsha": "0TuIXfCOH4l3CoZ57q1vfRWkJLa8zobY8acWcZE5pYs=",
+        "originContent": "                        char_shape.base_size / 100,",
+        "translatedContent": "                        char_shape.base_size / 100,"
+      },
+      {
+        "row": 20,
+        "rowsha": "yYEm2GA1Q8ZdHXYflY4gQhswLXyyYcx9O1cT49Jol2A=",
+        "originContent": "                        char_shape.is_bold()",
+        "translatedContent": "                        char_shape.is_bold()"
+      },
+      {
+        "row": 21,
+        "rowsha": "iTFhZ0jSFEDlESrp1XktGkQJk2dBVpUjevuXrutqeaw=",
+        "originContent": "                    );",
+        "translatedContent": "                    );"
+      },
+      {
+        "row": 22,
+        "rowsha": "C/CgiKZJwi3JsYSpUZ0e0FpDibwsPF8bbIyFfD+4S6E=",
+        "originContent": "                }",
+        "translatedContent": "                }"
+      },
+      {
+        "row": 23,
+        "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+        "originContent": "            }",
+        "translatedContent": "            }"
+      },
+      {
+        "row": 24,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 25,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 26,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 27,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Supported Features\n\n### Document Structure\n- ✅ File header and version detection\n- ✅ Document properties and metadata\n- ✅ Section definitions and page layout\n- ✅ Paragraph and character formatting\n- ✅ Font definitions (FaceName)\n- ✅ Styles and templates\n\n### Content Types\n- ✅ Text content with full Unicode support\n- ✅ Tables and structured data\n- ✅ Control objects (images, OLE objects)\n- ✅ Numbering and bullet lists\n- ✅ Tab stops and alignment\n\n### Layout and Rendering\n- ✅ Page dimensions and margins\n- ✅ Multi-column layouts\n- ✅ Line-by-line positioning (when available)\n- ✅ Character-level positioning (when available)\n- ✅ Borders and fill patterns\n- ✅ SVG export with accurate positioning\n\n### Advanced Features\n- ✅ Compressed document support\n- ✅ CFB (Compound File Binary) format handling\n- ✅ Multiple encoding support (UTF-16LE)\n- ✅ Error recovery and partial parsing\n\n## Command Line Tool\n\nThe library includes a command-line tool for inspecting HWP files:\n",
+    "ContentSha": "Kx9E4UFiwmJ2skBm5NsBUPkJgP+04PRFOsyl5YOwLN8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 対応機能\n\n### ドキュメント構造\n- ✅ ファイルヘッダーおよびバージョン検出\n- ✅ ドキュメントのプロパティとメタデータ\n- ✅ セクション定義およびページレイアウト\n- ✅ 段落および文字の書式設定\n- ✅ フォント定義（FaceName）\n- ✅ スタイルとテンプレート\n\n### コンテンツタイプ\n- ✅ フルUnicode対応のテキストコンテンツ\n- ✅ 表および構造化データ\n- ✅ コントロールオブジェクト（画像、OLEオブジェクト）\n- ✅ 番号付きおよび箇条書きリスト\n- ✅ タブストップと配置\n\n### レイアウトとレンダリング\n- ✅ ページ寸法および余白\n- ✅ 複数カラムレイアウト\n- ✅ 行単位の位置決め（可能な場合）\n- ✅ 文字単位の位置決め（可能な場合）\n- ✅ 枠線および塗りつぶしパターン\n- ✅ 正確な位置決めによるSVGエクスポート\n\n### 高度な機能\n- ✅ 圧縮ドキュメント対応\n- ✅ CFB（複合ファイルバイナリ）形式の処理\n- ✅ 複数エンコーディング対応（UTF-16LE）\n- ✅ エラー回復および部分解析\n\n## コマンドラインツール\n\n本ライブラリにはHWPファイルを検査するためのコマンドラインツールが含まれています：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 対応機能"
+      },
+      {
+        "row": 2,
+        "rowsha": "MZlMY4oqYc7wIcMcoP6rYRx9Mye2tfg44SbtZEweoZ0=",
+        "originContent": "## Supported Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ドキュメント構造"
+      },
+      {
+        "row": 4,
+        "rowsha": "o5geGAYxjGndmtZ8KP3T+nFB+KxBybXW40DqkfK6pY4=",
+        "originContent": "### Document Structure",
+        "translatedContent": "- ✅ ファイルヘッダーおよびバージョン検出"
+      },
+      {
+        "row": 5,
+        "rowsha": "26QL8e8Wh2KP5N/vyCn75L3S61ocZv233UleJxPXZ2k=",
+        "originContent": "- ✅ File header and version detection",
+        "translatedContent": "- ✅ ドキュメントのプロパティとメタデータ"
+      },
+      {
+        "row": 6,
+        "rowsha": "KSVG186BNfUpN61UV8nsrcd7760yilDbUglrml7g1vI=",
+        "originContent": "- ✅ Document properties and metadata",
+        "translatedContent": "- ✅ セクション定義およびページレイアウト"
+      },
+      {
+        "row": 7,
+        "rowsha": "UJHRrg/tfNk/6VWSoyLfKEg+3qGQxNbno6j+qMDlw/o=",
+        "originContent": "- ✅ Section definitions and page layout",
+        "translatedContent": "- ✅ 段落および文字の書式設定"
+      },
+      {
+        "row": 8,
+        "rowsha": "tsyWP9R3e32UKr3FnoUgWhaFLT/eN/xoHCp15fxxXM8=",
+        "originContent": "- ✅ Paragraph and character formatting",
+        "translatedContent": "- ✅ フォント定義（FaceName）"
+      },
+      {
+        "row": 9,
+        "rowsha": "Fz2kVCS4XR9haWzzEVGAQQIdQKpUThC3qe6mVup9aYY=",
+        "originContent": "- ✅ Font definitions (FaceName)",
+        "translatedContent": "- ✅ スタイルとテンプレート"
+      },
+      {
+        "row": 10,
+        "rowsha": "pPA0+mePGuQiZgJ1HLIwM5V17W4rRV79a7EM82AZ5Ig=",
+        "originContent": "- ✅ Styles and templates",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### コンテンツタイプ"
+      },
+      {
+        "row": 12,
+        "rowsha": "Zjsvzfr6D90i4S/jMfqJMeoBDKGvH7b/BrusorNq5Oo=",
+        "originContent": "### Content Types",
+        "translatedContent": "- ✅ フルUnicode対応のテキストコンテンツ"
+      },
+      {
+        "row": 13,
+        "rowsha": "ivqIzqKy3kvMaXNRRMOHrgTXAIbargmnN9t6pJzYUss=",
+        "originContent": "- ✅ Text content with full Unicode support",
+        "translatedContent": "- ✅ 表および構造化データ"
+      },
+      {
+        "row": 14,
+        "rowsha": "gzXNyv+tmgifpbfw3QyHerEfXDavdAF4TYFTaCEqptE=",
+        "originContent": "- ✅ Tables and structured data",
+        "translatedContent": "- ✅ コントロールオブジェクト（画像、OLEオブジェクト）"
+      },
+      {
+        "row": 15,
+        "rowsha": "5uOIuaV21F/GtRAu6ouu1EWpaELBav037Nqh5mPBp8o=",
+        "originContent": "- ✅ Control objects (images, OLE objects)",
+        "translatedContent": "- ✅ 番号付きおよび箇条書きリスト"
+      },
+      {
+        "row": 16,
+        "rowsha": "E7IpeiF7cSfXrzYtNPcTvy1nzqEFTPBNkUb77HO8RI0=",
+        "originContent": "- ✅ Numbering and bullet lists",
+        "translatedContent": "- ✅ タブストップと配置"
+      },
+      {
+        "row": 17,
+        "rowsha": "0UOHdB1vvrZyUQwHeriX4Zj4Smw1Mwn8mFjXoX15HTo=",
+        "originContent": "- ✅ Tab stops and alignment",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### レイアウトとレンダリング"
+      },
+      {
+        "row": 19,
+        "rowsha": "1E5N5ocmJT+CsOXafzlXWaWizroE/1YuWGv+C+9Ic8Y=",
+        "originContent": "### Layout and Rendering",
+        "translatedContent": "- ✅ ページ寸法および余白"
+      },
+      {
+        "row": 20,
+        "rowsha": "6NhFwxeZAsJJ8r64ZS9AAE+r4xGM43GTxhUvrPujcbM=",
+        "originContent": "- ✅ Page dimensions and margins",
+        "translatedContent": "- ✅ 複数カラムレイアウト"
+      },
+      {
+        "row": 21,
+        "rowsha": "TxZuStv9Y/SEo9oc5CsGjWrT5jcKy7Q4sz37gx9JAFo=",
+        "originContent": "- ✅ Multi-column layouts",
+        "translatedContent": "- ✅ 行単位の位置決め（可能な場合）"
+      },
+      {
+        "row": 22,
+        "rowsha": "83wr52H4dV3oQ9VSlxfyJMruuZIG5g/99tY71Yuh+gQ=",
+        "originContent": "- ✅ Line-by-line positioning (when available)",
+        "translatedContent": "- ✅ 文字単位の位置決め（可能な場合）"
+      },
+      {
+        "row": 23,
+        "rowsha": "NF/ETQlYMZFHzAXHTioNiwoDV5moP8fgQU/S8ziQN+I=",
+        "originContent": "- ✅ Character-level positioning (when available)",
+        "translatedContent": "- ✅ 枠線および塗りつぶしパターン"
+      },
+      {
+        "row": 24,
+        "rowsha": "O3QE/e2FWvk9qJrIpf3dgqhgOptueRhKQ8My2juS0p0=",
+        "originContent": "- ✅ Borders and fill patterns",
+        "translatedContent": "- ✅ 正確な位置決めによるSVGエクスポート"
+      },
+      {
+        "row": 25,
+        "rowsha": "4ZSoKYTVsYY0y6MXV2vI0lVKeIkaJOTDDplyZPJFwyU=",
+        "originContent": "- ✅ SVG export with accurate positioning",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 高度な機能"
+      },
+      {
+        "row": 27,
+        "rowsha": "xnHitdIO9d0SDZkghNHxKpusVGYql/gV1f6ZKaUAwZ0=",
+        "originContent": "### Advanced Features",
+        "translatedContent": "- ✅ 圧縮ドキュメント対応"
+      },
+      {
+        "row": 28,
+        "rowsha": "DV7QXyj+X/TCRZIwzE7r691X5475C+SWKOIjjE/cxag=",
+        "originContent": "- ✅ Compressed document support",
+        "translatedContent": "- ✅ CFB（複合ファイルバイナリ）形式の処理"
+      },
+      {
+        "row": 29,
+        "rowsha": "63Yl2NMAnKJWv1+AdRb+9q/S/Xb3e87gFSfwts7HzMM=",
+        "originContent": "- ✅ CFB (Compound File Binary) format handling",
+        "translatedContent": "- ✅ 複数エンコーディング対応（UTF-16LE）"
+      },
+      {
+        "row": 30,
+        "rowsha": "43CEUM82cG60PPoRvAku2Sq3kLbXWU9F1dj+zak7JW0=",
+        "originContent": "- ✅ Multiple encoding support (UTF-16LE)",
+        "translatedContent": "- ✅ エラー回復および部分解析"
+      },
+      {
+        "row": 31,
+        "rowsha": "+klgEE+yiaaKzh3sx5kS1r1mSR2qZLCRJCDX1WPAT+8=",
+        "originContent": "- ✅ Error recovery and partial parsing",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## コマンドラインツール"
+      },
+      {
+        "row": 33,
+        "rowsha": "hVwSZLipE511nV+M2qxBBCsRrEByRdhAPCu+w9tUwu8=",
+        "originContent": "## Command Line Tool",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本ライブラリにはHWPファイルを検査するためのコマンドラインツールが含まれています："
+      },
+      {
+        "row": 35,
+        "rowsha": "qXrl9rNYAAmjxAyhyG2YfyV5qFCRrT8M3WCbLTb2k2Y=",
+        "originContent": "The library includes a command-line tool for inspecting HWP files:",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\n# Install the tool\ncargo install hwpers\n\n# Inspect an HWP file\nhwp_info document.hwp\n```",
+    "ContentSha": "DEyOn70AAcxLZuxeqlH9ggU5Mvpq0GlyWG5RuYqOzn4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Install the tool\ncargo install hwpers\n\n# Inspect an HWP file\nhwp_info document.hwp\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "l5dVF7Ha+97cDYSHdQ4IsdlkUJex69oLSOG4tFmagTs=",
+        "originContent": "# Install the tool",
+        "translatedContent": "# Install the tool"
+      },
+      {
+        "row": 3,
+        "rowsha": "izcgGqeBobvaWHoMFVzZms20VebhMgh8EuJjmRNs9Ww=",
+        "originContent": "cargo install hwpers",
+        "translatedContent": "cargo install hwpers"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Xf/8CrRTjOvn83zfs2p00xVD/VaoCtuWr/9y7HGa7U8=",
+        "originContent": "# Inspect an HWP file",
+        "translatedContent": "# Inspect an HWP file"
+      },
+      {
+        "row": 6,
+        "rowsha": "GWdlbDS/3zcfkI95bpnK1eTPqiz45vqQztweX9u/RQ0=",
+        "originContent": "hwp_info document.hwp",
+        "translatedContent": "hwp_info document.hwp"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## Format Support\n\nThis library supports HWP 5.0 format files. For older HWP formats, consider using format conversion tools first.\n\n## Writer Features (v0.3.0+)\n\nThe HWP writer functionality has been significantly improved with comprehensive feature support:\n\n### ✅ Fully Implemented\n- **Hyperlinks**: Complete hyperlink support with proper serialization\n  - URL links, email links, file links, bookmarks\n  - Multiple hyperlinks per paragraph\n  - Custom styling (colors, underline, visited state)\n- **Header/Footer**: Full header and footer implementation\n  - Custom header/footer text\n  - Page numbering with multiple formats (numeric, roman, etc.)\n  - Multiple headers/footers per document\n- **Page Layout**: Comprehensive page layout control\n  - Custom page sizes and standard sizes (A4, Letter, etc.)\n  - Portrait/landscape orientation\n  - Custom margins (narrow, normal, wide, custom)\n  - Multi-column layouts with adjustable spacing\n  - Page background colors\n- **Tables**: Full table creation and formatting\n  - Cell borders and styling\n  - Cell merging (horizontal and vertical)\n  - Custom cell content\n- **Lists/Numbering**: Complete list support\n  - Bullet lists with different symbols per level\n  - Numbered lists (1., 2., 3., ...)\n  - Alphabetic lists (a), b), c), ...)\n  - Roman numeral lists (i., ii., iii., ...)\n  - Korean lists (가., 나., 다., ...)\n  - Nested lists with proper indentation\n- **Text Boxes**: Full text box implementation\n  - Positioned text boxes\n  - Styled text boxes (highlight, warning, info, etc.)\n  - Custom styling (borders, backgrounds, alignment)\n  - Floating text boxes with rotation and transparency",
+    "ContentSha": "m0kwTaTnyblhgRcLSpL1qVFm/L0xItCDUK2/XpYgUjY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## フォーマット対応\n\nこのライブラリはHWP 5.0形式のファイルをサポートしています。古いHWP形式の場合は、まずフォーマット変換ツールの使用を検討してください。\n\n## ライタ機能（v0.3.0以降）\n\nHWPライタ機能は大幅に改善され、包括的な機能サポートが実現されています：\n\n### ✅ 完全実装\n- **ハイパーリンク**：適切なシリアル化を伴う完全なハイパーリンクサポート\n  - URLリンク、メールリンク、ファイルリンク、ブックマーク\n  - 段落ごとに複数のハイパーリンク\n  - カスタムスタイリング（色、下線、訪問済み状態）\n- **ヘッダー/フッター**：完全なヘッダーとフッターの実装\n  - カスタムヘッダー/フッターテキスト\n  - 複数フォーマットのページ番号（数字、ローマ数字など）\n  - ドキュメントごとに複数のヘッダー/フッター\n- **ページレイアウト**：包括的なページレイアウト制御\n  - カスタムページサイズおよび標準サイズ（A4、レターなど）\n  - 縦向き/横向きの向き設定\n  - カスタム余白（狭い、標準、広い、カスタム）\n  - 調整可能な間隔の複数カラムレイアウト\n  - ページ背景色の設定\n- **表**：完全な表の作成と書式設定\n  - セルの罫線とスタイリング\n  - セルの結合（横方向および縦方向）\n  - カスタムセル内容\n- **リスト/番号付け**：完全なリストサポート\n  - レベルごとに異なる記号の箇条書きリスト\n  - 番号付きリスト（1., 2., 3., ...）\n  - アルファベットリスト（a), b), c), ...）\n  - ローマ数字リスト（i., ii., iii., ...）\n  - 韓国語リスト（가., 나., 다., ...）\n  - 適切なインデントのネストされたリスト\n- **テキストボックス**：完全なテキストボックス実装\n  - 位置指定テキストボックス\n  - スタイル付きテキストボックス（ハイライト、警告、情報など）\n  - カスタムスタイル（罫線、背景、配置）\n  - 回転と透過を伴う浮動テキストボックス\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## フォーマット対応"
+      },
+      {
+        "row": 2,
+        "rowsha": "ngwlKL3A2J8Bkc7LB3WrrFkNCJLLn1bh+3MHGTGUfcE=",
+        "originContent": "## Format Support",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "このライブラリはHWP 5.0形式のファイルをサポートしています。古いHWP形式の場合は、まずフォーマット変換ツールの使用を検討してください。"
+      },
+      {
+        "row": 4,
+        "rowsha": "dWSZzXSqRV5wR173bXDCV57ZCIjPsdExE/5XwpEDDV4=",
+        "originContent": "This library supports HWP 5.0 format files. For older HWP formats, consider using format conversion tools first.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ライタ機能（v0.3.0以降）"
+      },
+      {
+        "row": 6,
+        "rowsha": "6ISDDKOT39FvtfJ7BbogdUJ6Op9sqDBLL+W4zieK0+E=",
+        "originContent": "## Writer Features (v0.3.0+)",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "HWPライタ機能は大幅に改善され、包括的な機能サポートが実現されています："
+      },
+      {
+        "row": 8,
+        "rowsha": "2RiB2Qo0ua0gab+sctEqd5X94YVkvAHHY+PNDMkD1Us=",
+        "originContent": "The HWP writer functionality has been significantly improved with comprehensive feature support:",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ✅ 完全実装"
+      },
+      {
+        "row": 10,
+        "rowsha": "OnYNY9meA6O/Dhn+u5cguzVSS5mayQxAo1nh0h0878A=",
+        "originContent": "### ✅ Fully Implemented",
+        "translatedContent": "- **ハイパーリンク**：適切なシリアル化を伴う完全なハイパーリンクサポート"
+      },
+      {
+        "row": 11,
+        "rowsha": "JOtU6zMErn7Y3FM8aE0vO76Nq0DZCH0WzYMu/vEBwzs=",
+        "originContent": "- **Hyperlinks**: Complete hyperlink support with proper serialization",
+        "translatedContent": "  - URLリンク、メールリンク、ファイルリンク、ブックマーク"
+      },
+      {
+        "row": 12,
+        "rowsha": "QCkrl0oZH3hBL9bbp9SBSX6QtKWelKeFy6E0aUakesg=",
+        "originContent": "  - URL links, email links, file links, bookmarks",
+        "translatedContent": "  - 段落ごとに複数のハイパーリンク"
+      },
+      {
+        "row": 13,
+        "rowsha": "N5fYPcS5tcrn9fVqDoSP33UZDl8B4JjoJI+pHVCyJM4=",
+        "originContent": "  - Multiple hyperlinks per paragraph",
+        "translatedContent": "  - カスタムスタイリング（色、下線、訪問済み状態）"
+      },
+      {
+        "row": 14,
+        "rowsha": "Sn9Tb6TvAUUweyAHiAZ6xFaJvYHtsWxvdPWbKPkf4MU=",
+        "originContent": "  - Custom styling (colors, underline, visited state)",
+        "translatedContent": "- **ヘッダー/フッター**：完全なヘッダーとフッターの実装"
+      },
+      {
+        "row": 15,
+        "rowsha": "uYqh0iNDczXvsnlpwnnxUvLu9CZSJDHzaPp+H643B6Q=",
+        "originContent": "- **Header/Footer**: Full header and footer implementation",
+        "translatedContent": "  - カスタムヘッダー/フッターテキスト"
+      },
+      {
+        "row": 16,
+        "rowsha": "m2HzfpHISifa0/vl8U15WwMjsl7dsF+YnOa8LzZm+Pk=",
+        "originContent": "  - Custom header/footer text",
+        "translatedContent": "  - 複数フォーマットのページ番号（数字、ローマ数字など）"
+      },
+      {
+        "row": 17,
+        "rowsha": "R48Uhxr99c/D8rxDQgKRpjF1TNdTpu+ioSWymm/J2aw=",
+        "originContent": "  - Page numbering with multiple formats (numeric, roman, etc.)",
+        "translatedContent": "  - ドキュメントごとに複数のヘッダー/フッター"
+      },
+      {
+        "row": 18,
+        "rowsha": "A8lp5u8TbHUvWvmBHLo/kS7EkxoK7ooEaDygJ0JBMzg=",
+        "originContent": "  - Multiple headers/footers per document",
+        "translatedContent": "- **ページレイアウト**：包括的なページレイアウト制御"
+      },
+      {
+        "row": 19,
+        "rowsha": "2TEXJaIXVEztTuZyk3v/9dAQvtW0iyg5BWf5JWR2b9s=",
+        "originContent": "- **Page Layout**: Comprehensive page layout control",
+        "translatedContent": "  - カスタムページサイズおよび標準サイズ（A4、レターなど）"
+      },
+      {
+        "row": 20,
+        "rowsha": "s7KWOWj/50a4r9PPbzSrCoyecKLetuslFiJbWcvuAGo=",
+        "originContent": "  - Custom page sizes and standard sizes (A4, Letter, etc.)",
+        "translatedContent": "  - 縦向き/横向きの向き設定"
+      },
+      {
+        "row": 21,
+        "rowsha": "dROIH5JQxLbP9wNnAHLD1ounS39fKcbX3ghR7gXa+IQ=",
+        "originContent": "  - Portrait/landscape orientation",
+        "translatedContent": "  - カスタム余白（狭い、標準、広い、カスタム）"
+      },
+      {
+        "row": 22,
+        "rowsha": "WpuoDDOUoxf6x9mKKfJrbb/+Zvbjp2qYD5tSkDH5Vug=",
+        "originContent": "  - Custom margins (narrow, normal, wide, custom)",
+        "translatedContent": "  - 調整可能な間隔の複数カラムレイアウト"
+      },
+      {
+        "row": 23,
+        "rowsha": "1cDHK0vapRnmtnv4jGvRPtD5VUNBec8wICQ9xz5iaT4=",
+        "originContent": "  - Multi-column layouts with adjustable spacing",
+        "translatedContent": "  - ページ背景色の設定"
+      },
+      {
+        "row": 24,
+        "rowsha": "5Ceys3LCCrj5aj5qWyKRQCbEWffz1C8xKgV5+T3PraY=",
+        "originContent": "  - Page background colors",
+        "translatedContent": "- **表**：完全な表の作成と書式設定"
+      },
+      {
+        "row": 25,
+        "rowsha": "05JGwPpgH1dvCuFffRlnVY5GEoGkFvo4/3j1+Caa6Os=",
+        "originContent": "- **Tables**: Full table creation and formatting",
+        "translatedContent": "  - セルの罫線とスタイリング"
+      },
+      {
+        "row": 26,
+        "rowsha": "/G+oa/c3qHNnl427hCQRQs10bbUpUUmeD2dep/EW1+o=",
+        "originContent": "  - Cell borders and styling",
+        "translatedContent": "  - セルの結合（横方向および縦方向）"
+      },
+      {
+        "row": 27,
+        "rowsha": "A1+oXLo80sWN7FyztOe1+gx5KcdKbhHcaQ7eSctEGB4=",
+        "originContent": "  - Cell merging (horizontal and vertical)",
+        "translatedContent": "  - カスタムセル内容"
+      },
+      {
+        "row": 28,
+        "rowsha": "nnQotiDS1KAazj90YW+cJXkNM0nFX9zeErfMc6pFUgQ=",
+        "originContent": "  - Custom cell content",
+        "translatedContent": "- **リスト/番号付け**：完全なリストサポート"
+      },
+      {
+        "row": 29,
+        "rowsha": "qFLtwcrgENg8gj5Ow4JjB2z5j2XnKM4idfbgf7IHi+I=",
+        "originContent": "- **Lists/Numbering**: Complete list support",
+        "translatedContent": "  - レベルごとに異なる記号の箇条書きリスト"
+      },
+      {
+        "row": 30,
+        "rowsha": "aIjqMMduxB3Rho6SrwD00Q74BB01sh1BamtzmbvJASA=",
+        "originContent": "  - Bullet lists with different symbols per level",
+        "translatedContent": "  - 番号付きリスト（1., 2., 3., ...）"
+      },
+      {
+        "row": 31,
+        "rowsha": "dASZK1tzLFB38SEnrdfLuRxvwxHiQDePdZNzN3+1crY=",
+        "originContent": "  - Numbered lists (1., 2., 3., ...)",
+        "translatedContent": "  - アルファベットリスト（a), b), c), ...）"
+      },
+      {
+        "row": 32,
+        "rowsha": "+JF0CdTgbmlRnyMSjtcT0CNWvRwenqQlzQUH1e5m7Uw=",
+        "originContent": "  - Alphabetic lists (a), b), c), ...)",
+        "translatedContent": "  - ローマ数字リスト（i., ii., iii., ...）"
+      },
+      {
+        "row": 33,
+        "rowsha": "ZX5jH7+nNJ6NmKQpqg1y4/CbA5Cb3BeFwXLjot5lRnM=",
+        "originContent": "  - Roman numeral lists (i., ii., iii., ...)",
+        "translatedContent": "  - 韓国語リスト（가., 나., 다., ...）"
+      },
+      {
+        "row": 34,
+        "rowsha": "D5Tguoxadvi1/lABFseW3OlWzg3toeD7V/8M4wSmJSw=",
+        "originContent": "  - Korean lists (가., 나., 다., ...)",
+        "translatedContent": "  - 適切なインデントのネストされたリスト"
+      },
+      {
+        "row": 35,
+        "rowsha": "u3nzIKULNQbkIMcL3IrE5NckiO+vfp4tbY6s37p1tTM=",
+        "originContent": "  - Nested lists with proper indentation",
+        "translatedContent": "- **テキストボックス**：完全なテキストボックス実装"
+      },
+      {
+        "row": 36,
+        "rowsha": "g9xz65h6w0dl2A0TyJi5EGbE1PUcwjhRGfJckAioKDY=",
+        "originContent": "- **Text Boxes**: Full text box implementation",
+        "translatedContent": "  - 位置指定テキストボックス"
+      },
+      {
+        "row": 37,
+        "rowsha": "HOeSIX0+q7L+RXGVPSlib6kJr1ASHnqzNCBKn79pDbc=",
+        "originContent": "  - Positioned text boxes",
+        "translatedContent": "  - スタイル付きテキストボックス（ハイライト、警告、情報など）"
+      },
+      {
+        "row": 38,
+        "rowsha": "1zFahsjdzc2QSbs3+SO8R/23mnT7Z8OA/H8sLw1Z7Ow=",
+        "originContent": "  - Styled text boxes (highlight, warning, info, etc.)",
+        "translatedContent": "  - カスタムスタイル（罫線、背景、配置）"
+      },
+      {
+        "row": 39,
+        "rowsha": "Ay5kw7PokDiQMbVp6/y32qQnA0lnoFnEAiiNfOoQpzc=",
+        "originContent": "  - Custom styling (borders, backgrounds, alignment)",
+        "translatedContent": "  - 回転と透過を伴う浮動テキストボックス"
+      },
+      {
+        "row": 40,
+        "rowsha": "ux71WhhyiUqjlmqqvpDaU1+9lgxPHsY7ovvDZeiByZU=",
+        "originContent": "  - Floating text boxes with rotation and transparency",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "- **Images**: Complete image insertion\n  - PNG, JPEG, BMP, GIF support\n  - Custom dimensions and positioning\n  - Image captions\n  - Proper BinData integration\n- **Styled Text**: Rich text formatting\n  - Bold, italic, underline, strikethrough\n  - Custom fonts and sizes\n  - Text colors and background colors\n  - Multiple styles in single paragraph\n- **Advanced Formatting**:\n  - Paragraph alignment (left, center, right, justify)\n  - Line spacing control\n  - Paragraph spacing (before/after)\n  - Headings with automatic sizing\n  - Character and paragraph styles\n- **Document Properties**: Full metadata support\n  - Title, author, subject, keywords\n  - Document statistics (character count, word count, etc.)\n  - Automatic statistics updates\n\n### ❌ Not Yet Implemented\n- **Shapes/Drawing**: Geometric shapes and drawing objects\n  - Rectangles, circles, ellipses\n  - Lines, arrows, polygons\n  - Custom shapes with styling\n  - Shapes with text content\n  - Shape grouping\n  - *(See examples/shape_document.rs.disabled for usage examples)*\n- **Charts/Graphs**: Data visualization objects\n- **Mathematical Equations**: MathML support\n- **Forms**: Input fields and form controls\n- **Comments/Annotations**: Review and comment features\n- **Track Changes**: Revision history\n- **Mail Merge**: Variable field insertion\n\n### 🔧 Known Issues\n- No compression support for writer (reader supports both compressed and uncompressed)\n- Some advanced table features may have compatibility issues with older Hanword versions\n",
+    "ContentSha": "b8g632J3YonJ9b9EgpAwknd9N1UuxWyub79Rn5fgYNU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **画像**: 画像挿入の完全対応\n  - PNG、JPEG、BMP、GIF対応\n  - カスタムサイズと位置指定\n  - 画像キャプション\n  - 適切なBinData統合\n- **スタイル付きテキスト**: リッチテキスト書式設定\n  - 太字、斜体、下線、取り消し線\n  - カスタムフォントとサイズ\n  - 文字色と背景色\n  - 1段落内での複数スタイル\n- **高度な書式設定**:\n  - 段落の配置（左寄せ、中央揃え、右寄せ、両端揃え）\n  - 行間調整\n  - 段落間隔（前後）\n  - 自動サイズ調整の見出し\n  - 文字スタイルと段落スタイル\n- **ドキュメントプロパティ**: 完全なメタデータ対応\n  - タイトル、作成者、主題、キーワード\n  - ドキュメント統計（文字数、単語数など）\n  - 統計の自動更新\n\n### ❌ 未実装\n- **図形/描画**: 幾何学図形および描画オブジェクト\n  - 長方形、円、楕円\n  - 線、矢印、多角形\n  - スタイリング可能なカスタム図形\n  - テキスト入り図形\n  - 図形のグループ化\n  - *（使用例はexamples/shape_document.rs.disabled参照）*\n- **チャート/グラフ**: データ可視化オブジェクト\n- **数式**: MathML対応\n- **フォーム**: 入力欄およびフォームコントロール\n- **コメント/注釈**: レビューおよびコメント機能\n- **変更履歴**: リビジョン履歴\n- **差し込み印刷**: 変数フィールド挿入\n\n### 🔧 既知の問題\n- ライターでの圧縮対応なし（リーダーは圧縮・非圧縮両対応）\n- 一部の高度な表機能は旧Hanwordバージョンとの互換性問題あり\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HJ7+C6WaDZ1r8kZoD9mVlJ9TD8B3BEqf67ukchhUmwo=",
+        "originContent": "- **Images**: Complete image insertion",
+        "translatedContent": "- **画像**: 画像挿入の完全対応"
+      },
+      {
+        "row": 2,
+        "rowsha": "k0p3rLsi1DNxkl6jO9Up3E3JKzRhCSuTLyNpoIth9+g=",
+        "originContent": "  - PNG, JPEG, BMP, GIF support",
+        "translatedContent": "  - PNG、JPEG、BMP、GIF対応"
+      },
+      {
+        "row": 3,
+        "rowsha": "hyepvw/HCsRySiVuaIMptekbYslV3Bfs45NbGSCtabA=",
+        "originContent": "  - Custom dimensions and positioning",
+        "translatedContent": "  - カスタムサイズと位置指定"
+      },
+      {
+        "row": 4,
+        "rowsha": "Pp2T+oYZONpdkffnVh7ea8Ss3crPKXGhWOVkCj69aNo=",
+        "originContent": "  - Image captions",
+        "translatedContent": "  - 画像キャプション"
+      },
+      {
+        "row": 5,
+        "rowsha": "6bBJWrV0tcqGYxLKGEbkBSaxFgR3BGXYCjI3yLkYkAg=",
+        "originContent": "  - Proper BinData integration",
+        "translatedContent": "  - 適切なBinData統合"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ax6A6s1GfdQYHs7OseGzgZOvDNPLi/hijBHrbuNF+/k=",
+        "originContent": "- **Styled Text**: Rich text formatting",
+        "translatedContent": "- **スタイル付きテキスト**: リッチテキスト書式設定"
+      },
+      {
+        "row": 7,
+        "rowsha": "ICktKcIdsvs2X0SJ83qNqdGONaTN+6jWgCecsvkeMp0=",
+        "originContent": "  - Bold, italic, underline, strikethrough",
+        "translatedContent": "  - 太字、斜体、下線、取り消し線"
+      },
+      {
+        "row": 8,
+        "rowsha": "n9wwXRXAREa/6OIhvc7j5LVDpnwJ0L2Fy4PXqOfxcNk=",
+        "originContent": "  - Custom fonts and sizes",
+        "translatedContent": "  - カスタムフォントとサイズ"
+      },
+      {
+        "row": 9,
+        "rowsha": "LDdiD4K3jRUaCgdrzeGKtWREidSLmW8QRB62xVb7FiY=",
+        "originContent": "  - Text colors and background colors",
+        "translatedContent": "  - 文字色と背景色"
+      },
+      {
+        "row": 10,
+        "rowsha": "w5sU2CsuX36FGQ/NX6OqbMZUvybDSZSHu6SZEaX6oWI=",
+        "originContent": "  - Multiple styles in single paragraph",
+        "translatedContent": "  - 1段落内での複数スタイル"
+      },
+      {
+        "row": 11,
+        "rowsha": "VRk+ZC8ks91wuJUzeatQZn5zxrai5nSjS9op/r8XhFA=",
+        "originContent": "- **Advanced Formatting**:",
+        "translatedContent": "- **高度な書式設定**:"
+      },
+      {
+        "row": 12,
+        "rowsha": "olIZMo2QfXGY3bCm8EKH+mP0JpuNyTzeFNdK91UKCSw=",
+        "originContent": "  - Paragraph alignment (left, center, right, justify)",
+        "translatedContent": "  - 段落の配置（左寄せ、中央揃え、右寄せ、両端揃え）"
+      },
+      {
+        "row": 13,
+        "rowsha": "COs+HXqozCsGib8XYHQaiDGnnBemBJWiVc/qMVIxT8A=",
+        "originContent": "  - Line spacing control",
+        "translatedContent": "  - 行間調整"
+      },
+      {
+        "row": 14,
+        "rowsha": "m0PqmyQIEACVcafaCzYlQbKUmJNaXAUnc6H9o0g3s7E=",
+        "originContent": "  - Paragraph spacing (before/after)",
+        "translatedContent": "  - 段落間隔（前後）"
+      },
+      {
+        "row": 15,
+        "rowsha": "3tNxHhS6ta988BniI0Og0dFMRJ4kJGHym00pHkSy0os=",
+        "originContent": "  - Headings with automatic sizing",
+        "translatedContent": "  - 自動サイズ調整の見出し"
+      },
+      {
+        "row": 16,
+        "rowsha": "gJuoM7r9hYGM+jdS+4REl1VJBwAhrPbCVojMdCiF3/4=",
+        "originContent": "  - Character and paragraph styles",
+        "translatedContent": "  - 文字スタイルと段落スタイル"
+      },
+      {
+        "row": 17,
+        "rowsha": "EAPL1wg61UZJU58MX5cFWanoOAcpg7sqoH4AkS5E18s=",
+        "originContent": "- **Document Properties**: Full metadata support",
+        "translatedContent": "- **ドキュメントプロパティ**: 完全なメタデータ対応"
+      },
+      {
+        "row": 18,
+        "rowsha": "w3UZg5GXlHUrec40cQCCcHmTLVFxUK8iJR3E6HZw6Fc=",
+        "originContent": "  - Title, author, subject, keywords",
+        "translatedContent": "  - タイトル、作成者、主題、キーワード"
+      },
+      {
+        "row": 19,
+        "rowsha": "XCPqgCxE9ISOD1B0VZwWbbDyrUoytBHhj6hVckV2H2E=",
+        "originContent": "  - Document statistics (character count, word count, etc.)",
+        "translatedContent": "  - ドキュメント統計（文字数、単語数など）"
+      },
+      {
+        "row": 20,
+        "rowsha": "bA5BtF0oiCFOSbPm4AtzPdPxt/1uZr4qJnCW0G7axc4=",
+        "originContent": "  - Automatic statistics updates",
+        "translatedContent": "  - 統計の自動更新"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "Xo0WXJT9rfyWymY2bqxBOZoRMUCoKopBMZmkcJ9m2Nc=",
+        "originContent": "### ❌ Not Yet Implemented",
+        "translatedContent": "### ❌ 未実装"
+      },
+      {
+        "row": 23,
+        "rowsha": "CG8eMReAs6cEERMITWvAPgcjhUEKlJGIrXoUchkjt6w=",
+        "originContent": "- **Shapes/Drawing**: Geometric shapes and drawing objects",
+        "translatedContent": "- **図形/描画**: 幾何学図形および描画オブジェクト"
+      },
+      {
+        "row": 24,
+        "rowsha": "Jhhsx169s6i9D2uys9lQyKaD5PtUVwj8oZikoVaWaas=",
+        "originContent": "  - Rectangles, circles, ellipses",
+        "translatedContent": "  - 長方形、円、楕円"
+      },
+      {
+        "row": 25,
+        "rowsha": "Hj+COiXKxTt1lrv/2E7xcWPtUXZSgdMrGtCLfpp8HlY=",
+        "originContent": "  - Lines, arrows, polygons",
+        "translatedContent": "  - 線、矢印、多角形"
+      },
+      {
+        "row": 26,
+        "rowsha": "k/q+Iha4QPlznENOTLAu4OXu3JJJ7s58zaxYjUpS7cs=",
+        "originContent": "  - Custom shapes with styling",
+        "translatedContent": "  - スタイリング可能なカスタム図形"
+      },
+      {
+        "row": 27,
+        "rowsha": "MjA6LBG1PZQ4Fs3AFziy2hnWTFxswbON5c/nvCUFf5E=",
+        "originContent": "  - Shapes with text content",
+        "translatedContent": "  - テキスト入り図形"
+      },
+      {
+        "row": 28,
+        "rowsha": "vDcp6aSIEM5XdICInYAejuG5r9L1Wtt1pAJqrf/bFYw=",
+        "originContent": "  - Shape grouping",
+        "translatedContent": "  - 図形のグループ化"
+      },
+      {
+        "row": 29,
+        "rowsha": "lAg4NEXaB8LQOlHkZrdaJNMPDeuSS/1AUJj0kwcOc0k=",
+        "originContent": "  - *(See examples/shape_document.rs.disabled for usage examples)*",
+        "translatedContent": "  - *（使用例はexamples/shape_document.rs.disabled参照）*"
+      },
+      {
+        "row": 30,
+        "rowsha": "5BRv7zeDm3kz7M3zg9Oem0dUcwY8XoaqPXe+w6QZbG4=",
+        "originContent": "- **Charts/Graphs**: Data visualization objects",
+        "translatedContent": "- **チャート/グラフ**: データ可視化オブジェクト"
+      },
+      {
+        "row": 31,
+        "rowsha": "lYfQMpQwwUdliBzdrS0N2rfbrS3c8VjsrC957UlCtWE=",
+        "originContent": "- **Mathematical Equations**: MathML support",
+        "translatedContent": "- **数式**: MathML対応"
+      },
+      {
+        "row": 32,
+        "rowsha": "pkz6rf0a/e2mF403CAaCU04Po3SSedPeZLfjAgj3Bxs=",
+        "originContent": "- **Forms**: Input fields and form controls",
+        "translatedContent": "- **フォーム**: 入力欄およびフォームコントロール"
+      },
+      {
+        "row": 33,
+        "rowsha": "Sqmm4624ZIHohj3Ci+YPI+cclUSCx+gCDcJWrcoFBx0=",
+        "originContent": "- **Comments/Annotations**: Review and comment features",
+        "translatedContent": "- **コメント/注釈**: レビューおよびコメント機能"
+      },
+      {
+        "row": 34,
+        "rowsha": "oNnv+Z03uY6CqlMU8YSpzO3jz3KJxTwufbjrecwxSzM=",
+        "originContent": "- **Track Changes**: Revision history",
+        "translatedContent": "- **変更履歴**: リビジョン履歴"
+      },
+      {
+        "row": 35,
+        "rowsha": "64c20w5HuIc+HuCxW2A5GmeomuQiIPV5ArdW8OnIO7s=",
+        "originContent": "- **Mail Merge**: Variable field insertion",
+        "translatedContent": "- **差し込み印刷**: 変数フィールド挿入"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "TuZiEmvV1eIM7PTnotq+R8+GAOaLRqeGiPoruvcXB+A=",
+        "originContent": "### 🔧 Known Issues",
+        "translatedContent": "### 🔧 既知の問題"
+      },
+      {
+        "row": 38,
+        "rowsha": "AYCbNEyI0MfOUUcwhkPJRrpO8xqCXvIFCiDn7me/XZo=",
+        "originContent": "- No compression support for writer (reader supports both compressed and uncompressed)",
+        "translatedContent": "- ライターでの圧縮対応なし（リーダーは圧縮・非圧縮両対応）"
+      },
+      {
+        "row": 39,
+        "rowsha": "zm3ECFWZ6nB5NMl4iQPPQNQzeE40z93rHTEmNqkYDtE=",
+        "originContent": "- Some advanced table features may have compatibility issues with older Hanword versions",
+        "translatedContent": "- 一部の高度な表機能は旧Hanwordバージョンとの互換性問題あり"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "## Contributing\n\nContributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.\n\n## License\n\nThis project is licensed under either of\n\n- Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)\n- MIT license ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)\n\nat your option.\n\n## Acknowledgments\n\n- HWP file format specification by Hancom Inc.\n- Korean text processing community\n- Rust parsing and document processing ecosystem",
+    "ContentSha": "MCnbE7l5G3W7kJiUOuyMPuYJ2jo7zaDs+f4di4z/e38=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 貢献について\n\n貢献は大歓迎です！プルリクエストの提出をお気軽にどうぞ。大きな変更の場合は、まず変更内容について議論するためにIssueを開いてください。\n\n## ライセンス\n\n本プロジェクトは以下いずれかのライセンスの下で提供されています。\n\n- Apache License, Version 2.0、([LICENSE-APACHE](LICENSE-APACHE) または http://www.apache.org/licenses/LICENSE-2.0)\n- MIT ライセンス ([LICENSE-MIT](LICENSE-MIT) または http://opensource.org/licenses/MIT)\n\nお好みのライセンスを選択してください。\n\n## 謝辞\n\n- Hancom Inc.によるHWPファイルフォーマット仕様\n- 韓国のテキスト処理コミュニティ\n- Rustのパースおよびドキュメント処理エコシステム",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 貢献について"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "7c/TWYz5v2GUS4femRNosTzqgWReP0CIyAXuFnIdaSo=",
+        "originContent": "Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.",
+        "translatedContent": "貢献は大歓迎です！プルリクエストの提出をお気軽にどうぞ。大きな変更の場合は、まず変更内容について議論するためにIssueを開いてください。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Uu56coxod7lQSh4vjpLnuS6reUx/O3poXdrCHF83Shg=",
+        "originContent": "This project is licensed under either of",
+        "translatedContent": "本プロジェクトは以下いずれかのライセンスの下で提供されています。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Qty7KykpxWJXux8GGs5R1N9AL7x2/deuNysZNx+5BpI=",
+        "originContent": "- Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)",
+        "translatedContent": "- Apache License, Version 2.0、([LICENSE-APACHE](LICENSE-APACHE) または http://www.apache.org/licenses/LICENSE-2.0)"
+      },
+      {
+        "row": 10,
+        "rowsha": "++UaP1wQlgqIayZhSdWUQdfCFoiP/FoRC6GXvCs3bHE=",
+        "originContent": "- MIT license ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)",
+        "translatedContent": "- MIT ライセンス ([LICENSE-MIT](LICENSE-MIT) または http://opensource.org/licenses/MIT)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "7HFxXqfsyZjPu7JNIPscxbz8Ai4MR0pAkAg88I9mbKg=",
+        "originContent": "at your option.",
+        "translatedContent": "お好みのライセンスを選択してください。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+        "originContent": "## Acknowledgments",
+        "translatedContent": "## 謝辞"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "cYz9YjVsxlvs83cYGYlVBRmhvqZ3RaqF528nQM3iq6M=",
+        "originContent": "- HWP file format specification by Hancom Inc.",
+        "translatedContent": "- Hancom Inc.によるHWPファイルフォーマット仕様"
+      },
+      {
+        "row": 17,
+        "rowsha": "WmvTV3ODDvu6M+3nliiEEjB25ESoY+yWwtKkK86xRpM=",
+        "originContent": "- Korean text processing community",
+        "translatedContent": "- 韓国のテキスト処理コミュニティ"
+      },
+      {
+        "row": 18,
+        "rowsha": "YdyJhiu2WDckyqfdC8rAOn5c1Vdbix/yDrYh1rbEJoc=",
+        "originContent": "- Rust parsing and document processing ecosystem",
+        "translatedContent": "- Rustのパースおよびドキュメント処理エコシステム"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

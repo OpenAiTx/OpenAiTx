@@ -38,6 +38,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2507.02798-b31b1b)](https://arxiv.org/abs/2507.02798)
 
 **En Son Teknoloji (Papers with Code)**
+
 [**_SOTA 1-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(1--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-1-shot?p=no-time-to-train-training-free-reference)
 
 [**_SOTA 10-shot_**](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference) | [![PWC](https://img.shields.io/badge/State%20of%20the%20Art-Few--Shot%20Object%20Detection%20on%20MS--COCO%20(10--shot)-21CBCE?style=flat&logo=paperswithcode)](https://paperswithcode.com/sota/few-shot-object-detection-on-ms-coco-10-shot?p=no-time-to-train-training-free-reference)
@@ -53,8 +54,9 @@
 </div>
 
 ---
-
-> 🚨 **Güncelleme (22 Temmuz 2025):** Özel veri kümeleri için talimatlar eklendi!
+> 🚨 **Güncelleme (5 Şubat 2026)**: Makale el yazması kapsamlı ablation çalışmaları, görselleştirmeler ve ek deneylerle güncellendi.
+> 
+> 🚨 **Güncelleme (22 Temmuz 2025):** Özel veri setleri için talimatlar eklendi!
 > 
 > 🔔 **Güncelleme (16 Temmuz 2025):** Kod, talimatlarla birlikte güncellendi!
 
@@ -68,29 +70,28 @@
 - [🛠️ Kurulum talimatları](#️-installation-instructions)
   - [1. Depoyu klonlayın](#1-clone-the-repository)
   - [2. Conda ortamı oluşturun](#2-create-conda-environment)
-  - [3. SAM2 ve DinoV2'yi kurun](#3-install-sam2-and-dinov2)
-  - [4. Veri kümelerini indirin](#4-download-datasets)
-  - [5. SAM2 ve DinoV2 kontrol noktalarını indirin](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 Çıkarım kodu: Few-shot COCO'da 30-shot SOTA sonuçlarını çoğaltın](#-inference-code)
+  - [3. SAM2 ve DINOv2'yi yükleyin](#3-install-sam2-and-dinov2)
+  - [4. Veri setlerini indirin](#4-download-datasets)
+  - [5. SAM2 ve DINOv2 kontrol noktalarını indirin](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 Çıkarım kodu: Few-shot COCO'da 30-shot SOTA sonuçlarını tekrarlayın](#-inference-code)
   - [0. Referans seti oluşturun](#0-create-reference-set)
   - [1. Belleği referanslarla doldurun](#1-fill-memory-with-references)
-  - [2. Bellek bankasını son işlemden geçirin](#2-post-process-memory-bank)
-  - [3. Hedef görüntülerde çıkarım yapın](#3-inference-on-target-images)
-  - [Sonuçlar](#results)
-
-- [🔍 Özel veri seti](#-custom-dataset)
-  - [0. Özel bir veri seti hazırlayın ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 Sadece bbox anotasyonları varsa](#01-if-only-bbox-annotations-are-available)
-  - [0.2 COCO anotasyonlarını pickle dosyasına dönüştürün](#02-convert-coco-annotations-to-pickle-file)
-  - [1. Belleği referanslarla doldurun](#1-fill-memory-with-references)
   - [2. Bellek bankasını sonradan işleyin](#2-post-process-memory-bank)
-- [📚 Atıf](#-citation)
+  - [3. Hedef görüntüler üzerinde çıkarım yapın](#3-inference-on-target-images)
+  - [Sonuçlar](#sonuclar)
+- [🔍 Özel veri kümesi](#-ozel-veri-kumesi)
+  - [0. Özel bir veri kümesi hazırlayın ⛵🐦](#0-ozel-bir-veri-kumesi-hazirlayin)
+  - [0.1 Sadece bbox açıklamaları mevcutsa](#01-sadece-bbox-aciklamalari-mevcutsa)
+  - [0.2 Coco açıklamalarını pickle dosyasına dönüştürün](#02-coco-aciklamalarini-pickle-dosyasina-donusturun)
+  - [1. Belleği referanslarla doldurun](#1-bellegi-referanslarla-doldurun)
+  - [2. Bellek bankasını sonradan işleyin](#2-bellek-bankasini-sonradan-isleyin)
+- [📚 Atıf](#-atif)
 
 
 ## 🎯 Öne Çıkanlar
-- 💡 **Eğitimsiz**: İnce ayar yok, prompt mühendisliği yok—sadece bir referans görüntüsü.  
-- 🖼️ **Referans Tabanlı**: Yeni nesneleri sadece birkaç örnek ile segmentleyin.  
-- 🔥 **SOTA Performansı**: Önceki eğitimsiz yaklaşımlara göre COCO, PASCAL VOC ve Cross-Domain FSOD'da daha iyi sonuçlar.
+- 💡 **Eğitimsiz**: İnce ayar yok, prompt mühendisliği yok—sadece bir referans görseli.  
+- 🖼️ **Referans Tabanlı**: Sadece birkaç örnekle yeni nesneleri segmentleyin.  
+- 🔥 **SOTA Performansı**: COCO, PASCAL VOC ve Cross-Domain FSOD'da önceki eğitimsiz yaklaşımlardan daha iyi performans gösterir.
 
 **Bağlantılar:**
 - 🧾 [**arXiv Makalesi**](https://arxiv.org/abs/2507.02798)  
@@ -125,25 +126,25 @@ Gerekli paketlerle bir conda ortamı oluşturacağız.
 conda env create -f environment.yml
 conda activate no-time-to-train
 ```
-### 3. SAM2 ve DinoV2'yi Kurun
 
-SAM2 ve DinoV2'yi kaynaktan kuracağız.
+### 3. SAM2 ve DINOv2'yi Kurun
 
+SAM2 ve DINOv2'yi kaynaktan kuracağız.
 ```bash
 pip install -e .
 cd dinov2
 pip install -e .
 cd ..
 ```
+
 ### 4. Veri setlerini indirin
 
 Lütfen COCO veri setini indirin ve `data/coco` klasörüne yerleştirin
 
-### 5. SAM2 ve DinoV2 kontrol noktalarını indirin
+### 5. SAM2 ve DINOv2 kontrol noktalarını indirin
 
-Makaledekiyle tam olarak aynı SAM2 kontrol noktalarını indireceğiz.
+Makalede kullanılan tam SAM2 kontrol noktalarını indireceğiz.
 (Ancak, SAM2.1 kontrol noktalarının zaten mevcut olduğunu ve daha iyi performans gösterebileceğini unutmayın.)
-
 
 ```bash
 mkdir -p checkpoints/dinov2
@@ -420,23 +421,404 @@ BBOX RESULTS:
 SEGM RESULTS:
   Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458
 ```
-Görsel sonuçlar `results_analysis/my_custom_dataset/` dizininde kaydedilir. Yöntemimizin yanlış negatifler için çalıştığını unutmayın, yani istenen sınıfların hiçbir örneğini içermeyen görsellerde de çalışır.
+Görsel sonuçlar `results_analysis/my_custom_dataset/` klasörüne kaydedilir. Yöntemimizin yanlış negatifler üzerinde çalıştığını unutmayın; yani, istenen sınıflardan hiçbir örnek içermeyen görüntülerde de çalışır.
 
-*Resimleri büyütmek için tıklayın ⬇️*
+*Görüntüleri büyütmek için tıklayın ⬇️*
 
-| Hedef görüntüde tekneler ⛵ (sol GT, sağ tahminler) | Hedef görüntüde kuşlar 🐦 (sol GT, sağ tahminler) |
+| Botlu hedef görüntü ⛵ (sol GT, sağ tahminler) | Kuşlu hedef görüntü 🐦 (sol GT, sağ tahminler) |
 |:----------------------:|:----------------------:|
 | ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |
 
-| Hedef görüntüde tekneler ve kuşlar ⛵🐦 (sol GT, sağ tahminler) | Hedef görüntüde tekne veya kuş yok 🚫 (sol GT, sağ tahminler) |
+| Botlu ve kuşlu hedef görüntü ⛵🐦 (sol GT, sağ tahminler) | Botsuz ve kuşsuz hedef görüntü 🚫 (sol GT, sağ tahminler) |
 |:---------------------------------:|:----------------------------------:|
 | ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |
 
 
-## 📚 Atıf
+## 🔬 Ablasyonlar
 
-Bu çalışmayı kullanırsanız, lütfen bize atıfta bulunun:
+### Omurga (Backbone) ablasyonu
 
+Yöntemimizin temel modeller arasında aktarılabilirliğini değerlendirmek için hem anlamsal
+kodlayıcıyı (DINOv2) hem de SAM tabanlı segmentleyiciyi çeşitli alternatiflerle değiştirdik.
+
+**Anlamsal kodlayıcı ablasyonu:**
+
+
+```bash
+# CLIP (Sizes: b16, b32, l14, l14@336px)
+bash scripts/clip/clipl14@336px.sh
+bash scripts/clip/clipl14.sh
+bash scripts/clip/clipb16.sh
+bash scripts/clip/clipb32.sh
+
+# DINOV3 (Sizes: b, l, h)
+bash scripts/dinov3/dinov3b.sh
+bash scripts/dinov3/dinov3l.sh
+bash scripts/dinov3/dinov3h.sh
+
+# PE (Sizes: g14, l14)
+bash scripts/pe/PEg14.sh
+bash scripts/pe/PEl14.sh
+```
+
+**Segmentleyici ablation:**
+
+```bash
+# SAM2 (Sizes: tiny, small, base+, large)
+bash scripts/sam2/sam2_tiny.sh
+bash scripts/sam2/sam2_small.sh
+bash scripts/sam2/sam2_base_plus.sh
+bash scripts/baseline/dinov2_sam_baseline.sh # SAM2 Large
+```
+
+### COCO birkaç örnekli veri setinde VLM değerlendirmesi
+
+QWEN VLM'yi COCO birkaç örnekli veri setinde değerlendiriyoruz.
+
+```bash
+bash scripts/vl-qwen/ablation-vl-qwen.sh
+```
+
+### Referans görüntü sezgisel yöntemleri
+
+Farklı referans görüntülerinin neden performans değişikliğine yol açtığını anlamak için, COCO yeni sınıf ek açıklamalarının istatistiksel özelliklerini analiz ediyoruz.
+
+#### ANALİZ
+
+Üç ek açıklama özelliğini inceliyoruz: (1) maske alanı (nesne boyutu),
+(2) maske merkez konumu ve (3) görüntü kenarlarına olan mesafe.
+
+<details>
+<summary><b>Talimatlar:</b></summary>
+
+```bash
+# Mask area distribution
+python no_time_to_train/make_plots/mask_area_distribution.py \
+  --input data/coco/annotations/instances_val2017.json \
+  --output no_time_to_train/make_plots/mask_area_distribution/mask_area_distribution.png \
+  --edges-output no_time_to_train/make_plots/mask_area_distribution/bbox_edge_distance_histograms.png \
+  --center-output no_time_to_train/make_plots/mask_area_distribution/bbox_center_density.png \
+  --bins 80 \
+  --distance-bins 80 \
+  --disable-center-density
+
+# Bbox center positions
+python no_time_to_train/make_plots/bbox_positions.py \
+	--per-class-root data/coco/annotations/per_class_instances \
+	--filename centeredness_2d_hist_plain.png \
+	--max-cols 6 \
+	--output-dir ./no_time_to_train/make_plots/bbox_positions \
+	--outfile grid_bbox_positions.png
+```
+</details>
+
+<details>
+<summary><b>[ÇIKTI] Maske alanı dağılımı</b></summary>
+<img width="600" height="600" alt="mask_area_distribution" src="https://github.com/user-attachments/assets/ece21119-3622-4a2f-8319-1d52ff05bf99" />
+
+</details>
+
+<details>
+<summary><b>[ÇIKTI] Bbox merkez yoğunluğu</b></summary>
+<img width="3165" height="1627" alt="grid_bbox_positions" src="https://github.com/user-attachments/assets/dff4ddb2-a3f1-45e1-af12-8e9fffbb4d6c" />
+
+</details>
+
+<details>
+<summary><b>[ÇIKTI] Bbox kenar mesafe histogramları</b></summary>
+<img width="1800" height="1200" alt="bbox_edge_distance_histograms" src="https://github.com/user-attachments/assets/e23d1360-599c-46a2-af59-3d071112e76e" />
+
+</details>
+
+#### SEÇİM
+
+Her sınıf için 100 çeşitli referans görüntüsü örnekliyoruz, özellikle
+maske boyutları, merkezleri ve kenar mesafeleri aralığını kapsıyoruz. Her
+referans sabit bir azaltılmış doğrulama alt kümesi üzerinde değerlendiriliyor.
+
+<details>
+<summary><b>Talimatlar:</b></summary>
+
+**Kurulum betiği:** `scripts/1shot_ref_ablation/setup.sh`:
+1. Sınıf başına json dosyası oluştur
+2. Belirli sınıfı analiz et
+3. Farklı sezgilerle referans seti oluştur
+
+
+```bash
+bash scripts/1shot_ref_ablation/setup.sh
+```
+
+**Betikleri çalıştırın:** `scripts/1shot_ref_ablation/gpu*.sh`:
+
+4. Her referans seti için boru hattını çalıştırın
+```bash
+# Example launch script that calls template script for each reference set
+bash scripts/1shot_ref_ablation/gpu0.sh
+```
+
+</details>
+
+
+#### SONUÇLAR
+
+Tespit skorlarının referans görüntü özellikleriyle (maske boyutu, merkez pozisyonu, kenar mesafesi) nasıl ilişkili olduğunu analiz ediyoruz.
+
+<details>
+<summary><b>Talimatlar:</b></summary>
+
+
+```bash
+python no_time_to_train/make_plots/heuristics_analysis.py
+# Outputs: 
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/per_class_area_vs_raw_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/all_classes_area_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/edge_distance_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_area_category_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_centered_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_avoid_sides_norm_scores.png
+```
+</details>
+
+<details>
+<summary><b>[ÇIKTI] Çubuk Grafikler. Maske alanının (sol) ve ortalanmışlığın (sağ) performans üzerindeki etkisi</b></summary>
+<img width="1190" height="846" alt="barplot" src="https://github.com/user-attachments/assets/e900aff5-523d-4563-aebc-0135dcbb5eb6" />
+
+</details>
+
+<details>
+<summary><b>[ÇIKTI] Isı Haritaları. Performansın maske-merkez konumuna bağlı olarak 2B skor haritaları</b></summary>
+<img width="1250" height="545" alt="heatmap" src="https://github.com/user-attachments/assets/c2c59ffe-b19e-4907-b0be-68249cf5db51" />
+
+</details>
+
+<details>
+<summary><b>[ÇIKTI] Tüm COCO yeni sınıfları için referans-görüntü performansı vs. maske alanı</b></summary>
+<img width="2500" height="1432" alt="class_performance" src="https://github.com/user-attachments/assets/05a0e213-3ba5-4b4f-80ed-9b7ca782642a" />
+
+</details>
+
+### Referans-görüntü bozulması
+
+Yöntemimizi giderek daha fazla bozulmuş referans görüntüleriyle, artan seviyelerde Gauss bulanıklığı uygulayarak değerlendiriyoruz.
+<img width="2640" height="1194" alt="ablation-blur" src="https://github.com/user-attachments/assets/c2abf0ab-1578-41cf-abcf-50e43f7691f5" />
+
+<details>
+<summary><b>Talimatlar:</b></summary>
+
+
+
+
+```bash
+# Run different blur levels
+bash scripts/blur_ablation/blur_ablation.sh
+
+# Plot grid of blur ablation results
+python no_time_to_train/make_plots/plot_blur_results.py \
+    --results-root ./work_dirs/blur_ablation \
+    --class-id 0 \
+    --max-cols 4 \
+    --output-dir ./no_time_to_train/make_plots/blur_ablation \
+    --outfile grid_blur_ablation_class_0.png
+```
+
+</details>
+
+### Özellik benzerliği
+
+Referans görüntüler ile hedef görüntüler arasındaki özellik benzerliğini görselleştirmek için bir betik.
+
+Tekli özellik benzerliği (yol özellikleri) ve prototip tabanlı benzerlik (toplu özellikler) üretir.
+<img width="2500" height="1030" alt="feature_similarity_small" src="https://github.com/user-attachments/assets/d56ec9aa-c60e-4fe6-92cd-aa6270b1d6ed" />
+
+<details>
+<summary><b>Talimatlar:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/feature_similarity.py \
+  --classes orange \  
+  --num-images 20 \
+  --min-area 12 \
+  --max-area 25000 \
+  --min-instances 2 \
+  --seed 123 \
+  --max-per-class 12
+```
+</details>
+
+### T-SNE grafikleri (DINOv2 özellik ayrıştırılması)
+
+DINOv2 özelliklerinin t-SNE'si, farklı sınıflar için belirgin bir ayrım gösterirken,
+benzer olanlar için yoğun bir örtüşme gösteriyor; bu da karışıklığın,
+omurga özellik geometrisinden kaynaklandığını, prototip seçiminin ise daha az etkili olduğunu gösteriyor.
+<img width="2500" height="1444" alt="tsne" src="https://github.com/user-attachments/assets/baffc430-1600-44a1-9a14-1b08e25a9d55" />
+
+<details>
+<summary><b>Talimatlar:</b></summary>
+
+Özellikleri çıkar
+
+```bash
+python no_time_to_train/make_plots/tsne-coco.py --extract
+```
+
+T-SNE grafiklerini çiz
+
+```bash
+# Example spoon vs fork
+python no_time_to_train/make_plots/tsne-coco.py --classes cat dog
+```
+
+</details>
+
+## 🛠️ Yardımcılar
+
+### Belleği Görselleştir
+
+feature_comparison_small.png adlı resmi buraya ekleyin
+
+<details>
+<summary><b>Talimatlar</b></summary>
+
+Belirli bir deney için bellek bankasını (PCA ve K-means görselleştirmeleri) görselleştirmek üzere aşağıdaki komutu ayarlayın.
+
+Referans görüntüsünü kırpılmış maske ile/maske olmadan görselleştirmek için `DO_NOT_CROP`'u True/False olarak ayarlayın (`no_time_to_train/models/Sam2MatchingBaseline_noAMG.py` dosyasında).
+
+```bash
+python run_lightening.py test --config $CONFIG \
+    --model.test_mode vis_memory \
+    --ckpt_path $RESULTS_DIR/memory_postprocessed.ckpt \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $RESULTS_DIR/$FILENAME \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.class_split $CLASS_SPLIT \
+    --model.init_args.model_cfg.dataset_name $CLASS_SPLIT \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+</details>
+
+### Görselleri 512x512 boyutuna yeniden boyutlandırın (görüntüleri kare yapın)
+
+Görselleri 512x512 boyutuna yeniden boyutlandırmak ve yeni bir dizine kaydetmek için aşağıdaki komutu çalıştırın. Bu, makale figürleri içindir.
+
+<details>
+<summary><b>Talimatlar:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/paper_fig_square_imgs.py
+```
+</details>
+
+
+### Model boyutu ve bellek
+
+Model boyutunu ve belleği hesaplamak için aşağıdaki komutu çalıştırın.
+
+<details>
+<summary><b>Talimatlar:</b></summary>
+
+- Model boyutu ve bellek hesaplaması için `no_time_to_train/models/Sam2MatchingBaseline_noAMG_model_and_memory.py` dosyasına bakın.
+(En kolay: Geçici olarak Sam2MatchingBaseline_noAMG.py ile değiştirin, sonra tekrar eski adını verin.)
+</details>
+
+## 🌍 EO veri setleri
+
+
+### Değerlendirme scriptleri (EO veri setleri)
+
+Değerlendirme scriptleri `scripts/EO` dizininde bulunabilir. EO veri setleri, değerlendirmeyi çalıştırmak için `./scripts/EO/EO_template.sh` scriptini kullanır.
+
+Her EO deney çalışması `./EO_results` dizini altında kaydedilir. Deney klasöründe şunları saklarız:
+- Deneyin yapılandırması ve çalışma süresi ile birlikte summary.txt dosyası.
+- Test setindeki tahmin görselleştirmeleri (`results_analysis` klasörü).
+- Bellek görselleştirmeleri (`memory_vis` klasörü).
+- Few-shot anotasyon pickle dosyası.
+- Modelin kontrol noktaları (temizlenmediyse).
+
+
+### Şekil ve tablolar
+Şekil ve tablo üretmek için ek scriptler.
+
+<details>
+<summary><b>EO veri setlerinin özet latex tablosu:</b></summary>
+
+```bash
+python scripts/convert_datasets/summary_table_datasets.py
+```
+
+</details>
+
+
+<details>
+<summary><b>EO veri kümelerinin LaTeX tablosunu oluştur:</b></summary>
+
+```bash
+python scripts/paper_figures/table_EO_results.py ./EO_results_no_heuristics
+```
+
+</details>
+
+
+<details>
+<summary><b>EO veri kümelerinin doğruluk grafiği:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_accuracy.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>EO veri setleri üzerindeki sezgisel yöntemlerin etkisinin özeti:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_heuristic.py \
+  --no-heuristics ./EO_results_no_heuristics \
+  --heuristics ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>EO veri setlerinin çalışma zamanı grafiği:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_runtime.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>Makale şekli için EO grid görselleştirmeleri oluşturun:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_grid.py \
+  --root ./EO_results_no_heuristics \
+  --dataset ISAID \
+  --shots 1
+```
+
+</details>
+
+
+
+
+
+
+## 📚 Citation
+
+If you use this work, please cite us:
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -451,6 +833,6 @@ Bu çalışmayı kullanırsanız, lütfen bize atıfta bulunun:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
 
 ---

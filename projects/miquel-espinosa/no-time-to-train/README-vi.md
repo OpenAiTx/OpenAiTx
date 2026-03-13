@@ -53,48 +53,49 @@
 </div>
 
 ---
-
+> 🚨 **Cập nhật (5 tháng 2 năm 2026)**: Bản thảo bài báo đã được cập nhật với các nghiên cứu loại bỏ sâu rộng, hình ảnh hóa và các thí nghiệm bổ sung.
+> 
 > 🚨 **Cập nhật (22 tháng 7 năm 2025):** Đã thêm hướng dẫn cho bộ dữ liệu tùy chỉnh!
 > 
-> 🔔 **Cập nhật (16 tháng 7 năm 2025):** Mã nguồn đã được cập nhật kèm hướng dẫn!
+> 🔔 **Cập nhật (16 tháng 7 năm 2025):** Đã cập nhật mã nguồn kèm hướng dẫn!
 
 ---
 
-## 📋 Mục lục
+## 📋 Mục Lục
 
 - [🎯 Điểm nổi bật](#-highlights)
 - [📜 Tóm tắt](#-abstract)
 - [🧠 Kiến trúc](#-architecture)
 - [🛠️ Hướng dẫn cài đặt](#️-installation-instructions)
-  - [1. Sao chép kho lưu trữ](#1-clone-the-repository)
+  - [1. Nhân bản kho lưu trữ](#1-clone-the-repository)
   - [2. Tạo môi trường conda](#2-create-conda-environment)
-  - [3. Cài đặt SAM2 và DinoV2](#3-install-sam2-and-dinov2)
-  - [4. Tải bộ dữ liệu](#4-download-datasets)
-  - [5. Tải các checkpoint SAM2 và DinoV2](#5-download-sam2-and-dinov2-checkpoints)
+  - [3. Cài đặt SAM2 và DINOv2](#3-install-sam2-and-dinov2)
+  - [4. Tải xuống bộ dữ liệu](#4-download-datasets)
+  - [5. Tải về checkpoints của SAM2 và DINOv2](#5-download-sam2-and-dinov2-checkpoints)
 - [📊 Mã suy luận: Tái tạo kết quả SOTA 30-shot trên Few-shot COCO](#-inference-code)
   - [0. Tạo bộ tham chiếu](#0-create-reference-set)
-  - [1. Nạp bộ nhớ với các tham chiếu](#1-fill-memory-with-references)
+  - [1. Điền bộ nhớ với tập tham chiếu](#1-fill-memory-with-references)
   - [2. Xử lý hậu kỳ bộ nhớ](#2-post-process-memory-bank)
   - [3. Suy luận trên ảnh mục tiêu](#3-inference-on-target-images)
-  - [Kết quả](#results)
 
+  - [Kết quả](#results)
 - [🔍 Bộ dữ liệu tùy chỉnh](#-custom-dataset)
   - [0. Chuẩn bị bộ dữ liệu tùy chỉnh ⛵🐦](#0-prepare-a-custom-dataset)
   - [0.1 Nếu chỉ có chú thích bbox](#01-if-only-bbox-annotations-are-available)
-  - [0.2 Chuyển đổi chú thích coco sang file pickle](#02-convert-coco-annotations-to-pickle-file)
+  - [0.2 Chuyển đổi chú thích coco sang tập tin pickle](#02-convert-coco-annotations-to-pickle-file)
   - [1. Nạp bộ nhớ với các tham chiếu](#1-fill-memory-with-references)
-  - [2. Xử lý hậu kỳ ngân hàng bộ nhớ](#2-post-process-memory-bank)
+  - [2. Xử lý hậu kỳ bộ nhớ](#2-post-process-memory-bank)
 - [📚 Trích dẫn](#-citation)
 
 
-## 🎯 Điểm nổi bật
-- 💡 **Không cần huấn luyện**: Không tinh chỉnh, không thiết kế prompt—chỉ cần một ảnh tham chiếu.  
-- 🖼️ **Dựa trên tham chiếu**: Phân đoạn đối tượng mới chỉ với một vài ví dụ.  
-- 🔥 **Hiệu năng SOTA**: Vượt trội các phương pháp không huấn luyện trước đó trên COCO, PASCAL VOC, và Cross-Domain FSOD.
+## 🎯 Nổi bật
+- 💡 **Không cần huấn luyện**: Không tinh chỉnh, không cần thiết kế prompt—chỉ cần một ảnh tham chiếu.  
+- 🖼️ **Dựa trên tham chiếu**: Phân đoạn vật thể mới chỉ bằng một vài ví dụ.  
+- 🔥 **Hiệu năng SOTA**: Vượt trội các phương pháp không huấn luyện trước đây trên COCO, PASCAL VOC, và Cross-Domain FSOD.
 
 **Liên kết:**
-- 🧾 [**Bài báo arXiv**](https://arxiv.org/abs/2507.02798)  
-- 🌐 [**Website dự án**](https://miquel-espinosa.github.io/no-time-to-train/)  
+- 🧾 [**Bài báo trên arXiv**](https://arxiv.org/abs/2507.02798)  
+- 🌐 [**Trang web dự án**](https://miquel-espinosa.github.io/no-time-to-train/)  
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
 ## 📜 Tóm tắt
@@ -125,25 +126,25 @@ Chúng ta sẽ tạo một môi trường conda với các gói cần thiết.
 conda env create -f environment.yml
 conda activate no-time-to-train
 ```
-### 3. Cài đặt SAM2 và DinoV2
 
-Chúng ta sẽ cài đặt SAM2 và DinoV2 từ mã nguồn.
+### 3. Cài đặt SAM2 và DINOv2
 
+Chúng ta sẽ cài đặt SAM2 và DINOv2 từ mã nguồn.
 ```bash
 pip install -e .
 cd dinov2
 pip install -e .
 cd ..
 ```
-### 4. Tải xuống các bộ dữ liệu
 
-Vui lòng tải xuống bộ dữ liệu COCO và đặt nó vào `data/coco`
+### 4. Tải xuống bộ dữ liệu
 
-### 5. Tải xuống các checkpoint SAM2 và DinoV2
+Vui lòng tải bộ dữ liệu COCO và đặt vào navy `data/coco`
 
-Chúng ta sẽ tải xuống các checkpoint SAM2 chính xác đã được sử dụng trong bài báo.
-(Tuy nhiên, lưu ý rằng các checkpoint SAM2.1 đã có sẵn và có thể hoạt động tốt hơn.)
+### 5. Tải xuống các checkpoint SAM2 và DINOv2
 
+Chúng ta sẽ tải xuống chính xác các checkpoint SAM2 được sử dụng trong bài báo.
+(Tuy nhiên, lưu ý rằng các checkpoint SAM2.1 đã có sẵn và có thể cho hiệu suất tốt hơn.)
 
 ```bash
 mkdir -p checkpoints/dinov2
@@ -420,23 +421,404 @@ BBOX RESULTS:
 SEGM RESULTS:
   Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458
 ```
-Kết quả trực quan được lưu trong `results_analysis/my_custom_dataset/`. Lưu ý rằng phương pháp của chúng tôi hoạt động với các trường hợp âm tính giả, tức là các hình ảnh không chứa bất kỳ đối tượng nào thuộc các lớp mong muốn.
+Kết quả trực quan được lưu tại `results_analysis/my_custom_dataset/`. Lưu ý rằng phương pháp của chúng tôi hoạt động cho các trường hợp âm tính giả, tức là các hình ảnh không chứa bất kỳ đối tượng nào thuộc các lớp mong muốn.
 
-*Bấm vào hình để phóng to ⬇️*
+*Nhấp vào hình ảnh để phóng to ⬇️*
 
-| Ảnh mục tiêu với thuyền ⛵ (trái GT, phải dự đoán) | Ảnh mục tiêu với chim 🐦 (trái GT, phải dự đoán) |
+| Hình ảnh mục tiêu với thuyền ⛵ (bên trái GT, bên phải dự đoán) | Hình ảnh mục tiêu với chim 🐦 (bên trái GT, bên phải dự đoán) |
 |:----------------------:|:----------------------:|
 | ![000000459673](https://github.com/user-attachments/assets/678dc15a-dd3b-49d5-9287-6290da16aa6b) | ![000000407180](https://github.com/user-attachments/assets/fe306e48-af49-4d83-ac82-76fac6c456d1) |
 
-| Ảnh mục tiêu với thuyền và chim ⛵🐦 (trái GT, phải dự đoán) | Ảnh mục tiêu không có thuyền hoặc chim 🚫 (trái GT, phải dự đoán) |
+| Hình ảnh mục tiêu với thuyền và chim ⛵🐦 (bên trái GT, bên phải dự đoán) | Hình ảnh mục tiêu không có thuyền hoặc chim 🚫 (bên trái GT, bên phải dự đoán) |
 |:---------------------------------:|:----------------------------------:|
 | ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |
 
 
-## 📚 Trích dẫn
+## 🔬 Phân tích tách biệt
 
-Nếu bạn sử dụng công trình này, vui lòng trích dẫn chúng tôi:
+### Phân tích tách biệt Backbone
 
+Để đánh giá khả năng chuyển giao của phương pháp chúng tôi giữa các mô hình nền tảng, chúng tôi thay thế cả bộ mã hóa ngữ nghĩa (DINOv2) và bộ phân đoạn dựa trên SAM bằng một số lựa chọn thay thế.
+
+**Phân tích tách biệt bộ mã hóa ngữ nghĩa:**
+
+
+
+```bash
+# CLIP (Sizes: b16, b32, l14, l14@336px)
+bash scripts/clip/clipl14@336px.sh
+bash scripts/clip/clipl14.sh
+bash scripts/clip/clipb16.sh
+bash scripts/clip/clipb32.sh
+
+# DINOV3 (Sizes: b, l, h)
+bash scripts/dinov3/dinov3b.sh
+bash scripts/dinov3/dinov3l.sh
+bash scripts/dinov3/dinov3h.sh
+
+# PE (Sizes: g14, l14)
+bash scripts/pe/PEg14.sh
+bash scripts/pe/PEl14.sh
+```
+
+**Loại bỏ bộ phân đoạn:**
+
+```bash
+# SAM2 (Sizes: tiny, small, base+, large)
+bash scripts/sam2/sam2_tiny.sh
+bash scripts/sam2/sam2_small.sh
+bash scripts/sam2/sam2_base_plus.sh
+bash scripts/baseline/dinov2_sam_baseline.sh # SAM2 Large
+```
+
+### Đánh giá VLM trên bộ dữ liệu COCO few-shot
+
+Chúng tôi đánh giá QWEN VLM trên bộ dữ liệu COCO few-shot.
+
+```bash
+bash scripts/vl-qwen/ablation-vl-qwen.sh
+```
+
+### Heuristics hình ảnh tham chiếu
+
+Để hiểu tại sao các hình ảnh tham chiếu khác nhau lại dẫn đến sự biến thiên về hiệu suất, chúng tôi phân tích các thuộc tính thống kê của các chú thích lớp mới trong COCO.
+
+#### PHÂN TÍCH
+
+Chúng tôi nghiên cứu ba đặc điểm chú thích: (1) diện tích mặt nạ (kích thước đối tượng),
+(2) vị trí trung tâm mặt nạ, và (3) khoảng cách đến các cạnh của hình ảnh.
+
+<details>
+<summary><b>Hướng dẫn:</b></summary>
+
+```bash
+# Mask area distribution
+python no_time_to_train/make_plots/mask_area_distribution.py \
+  --input data/coco/annotations/instances_val2017.json \
+  --output no_time_to_train/make_plots/mask_area_distribution/mask_area_distribution.png \
+  --edges-output no_time_to_train/make_plots/mask_area_distribution/bbox_edge_distance_histograms.png \
+  --center-output no_time_to_train/make_plots/mask_area_distribution/bbox_center_density.png \
+  --bins 80 \
+  --distance-bins 80 \
+  --disable-center-density
+
+# Bbox center positions
+python no_time_to_train/make_plots/bbox_positions.py \
+	--per-class-root data/coco/annotations/per_class_instances \
+	--filename centeredness_2d_hist_plain.png \
+	--max-cols 6 \
+	--output-dir ./no_time_to_train/make_plots/bbox_positions \
+	--outfile grid_bbox_positions.png
+```
+</details>
+
+<details>
+<summary><b>[OUTPUT] Phân phối diện tích mặt nạ</b></summary>
+<img width="600" height="600" alt="mask_area_distribution" src="https://github.com/user-attachments/assets/ece21119-3622-4a2f-8319-1d52ff05bf99" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] Mật độ tâm bbox</b></summary>
+<img width="3165" height="1627" alt="grid_bbox_positions" src="https://github.com/user-attachments/assets/dff4ddb2-a3f1-45e1-af12-8e9fffbb4d6c" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] Biểu đồ khoảng cách cạnh bbox</b></summary>
+<img width="1800" height="1200" alt="bbox_edge_distance_histograms" src="https://github.com/user-attachments/assets/e23d1360-599c-46a2-af59-3d071112e76e" />
+
+</details>
+
+#### LỰA CHỌN
+
+Chúng tôi lấy mẫu 100 hình ảnh tham chiếu đa dạng cho mỗi lớp, rõ ràng
+bao phủ một dải kích thước mặt nạ, tâm, và khoảng cách cạnh. Mỗi
+hình tham chiếu được đánh giá trên một tập con xác thực cố định đã rút gọn.
+
+<details>
+<summary><b>Hướng dẫn:</b></summary>
+
+**Tập lệnh cài đặt:** `scripts/1shot_ref_ablation/setup.sh`:
+1. Tạo file json cho mỗi lớp
+2. Phân tích lớp cụ thể
+3. Tạo tập tham chiếu với các phương pháp suy luận khác nhau
+
+
+```bash
+bash scripts/1shot_ref_ablation/setup.sh
+```
+
+**Chạy script:** `scripts/1shot_ref_ablation/gpu*.sh`:
+
+4. Chạy pipeline cho từng tập hợp tham chiếu
+```bash
+# Example launch script that calls template script for each reference set
+bash scripts/1shot_ref_ablation/gpu0.sh
+```
+
+</details>
+
+
+#### KẾT QUẢ
+
+Chúng tôi phân tích cách các điểm số phát hiện tương quan với các đặc điểm của ảnh tham chiếu
+(kích thước mặt nạ, vị trí trung tâm, khoảng cách tới cạnh).
+
+<details>
+<summary><b>Hướng dẫn:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/heuristics_analysis.py
+# Outputs: 
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/per_class_area_vs_raw_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/all_classes_area_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/edge_distance_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_area_category_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_centered_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_avoid_sides_norm_scores.png
+```
+</details>
+
+<details>
+<summary><b>[OUTPUT] Biểu đồ cột. Ảnh hưởng của diện tích mặt nạ (bên trái) và độ tập trung vào giữa (bên phải) lên hiệu suất</b></summary>
+<img width="1190" height="846" alt="barplot" src="https://github.com/user-attachments/assets/e900aff5-523d-4563-aebc-0135dcbb5eb6" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] Biểu đồ nhiệt. Bản đồ điểm 2D về hiệu suất như một hàm của vị trí tâm mặt nạ</b></summary>
+<img width="1250" height="545" alt="heatmap" src="https://github.com/user-attachments/assets/c2c59ffe-b19e-4907-b0be-68249cf5db51" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] Hiệu suất hình ảnh tham chiếu so với  diện tích mặt nạ cho Fed các lớp mới COCO</b></summary>
+<img width="2500" height="1432" alt="class_performance" src="https://github.com/user-attachments/assets/05a0e213-3ba5-4b4f-80ed-9b7ca782642a" />
+
+</details>
+
+### Suy giảm hình ảnh tham chiếu
+
+Chúng tôi đánh giá phương pháp của mình dưới các hình ảnh tham chiếu bị suy giảm dần bằng cách áp dụng mức độ mờ Gaussian tăng dần.
+<img width="2640" height="1194" alt="ablation-blur" src="https://github.com/user-attachments/assets/c2abf0ab-1578-41cf-abcf-50e43f7691f5" />
+
+<details>
+<summary><b>Hướng dẫn:</b></summary>
+
+
+
+
+```bash
+# Run different blur levels
+bash scripts/blur_ablation/blur_ablation.sh
+
+# Plot grid of blur ablation results
+python no_time_to_train/make_plots/plot_blur_results.py \
+    --results-root ./work_dirs/blur_ablation \
+    --class-id 0 \
+    --max-cols 4 \
+    --output-dir ./no_time_to_train/make_plots/blur_ablation \
+    --outfile grid_blur_ablation_class_0.png
+```
+
+</details>
+
+### Tương đồng đặc trưng
+
+Script để trực quan hóa sự tương đồng đặc trưng giữa ảnh tham chiếu và ảnh mục tiêu.
+
+Nó tạo ra sự tương đồng từng đặc trưng đơn lẻ (đặc trưng đường dẫn), và sự tương đồng dựa trên nguyên mẫu (đặc trưng tổng hợp).
+<img width="2500" height="1030" alt="feature_similarity_small" src="https://github.com/user-attachments/assets/d56ec9aa-c60e-4fe6-92cd-aa6270b1d6ed" />
+
+<details>
+<summary><b>Hướng dẫn:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/feature_similarity.py \
+  --classes orange \  
+  --num-images 20 \
+  --min-area 12 \
+  --max-area 25000 \
+  --min-instances 2 \
+  --seed 123 \
+  --max-per-class 12
+```
+</details>
+
+### Biểu đồ T-SNE (khả năng phân tách đặc trưng DINOv2)
+
+T-SNE của các đặc trưng DINOv2 cho thấy sự phân tách rõ ràng đối với các lớp không giống nhau,
+nhưng có sự chồng lấp lớn đối với các lớp giống nhau, gợi ý rằng sự nhầm lẫn xuất phát từ
+hình học đặc trưng của backbone thay vì lựa chọn nguyên mẫu.
+<img width="2500" height="1444" alt="tsne" src="https://github.com/user-attachments/assets/baffc430-1600-44a1-9a14-1b08e25a9d55" />
+
+<details>
+<summary><b>Hướng dẫn:</b></summary>
+
+Trích xuất đặc trưng
+
+```bash
+python no_time_to_train/make_plots/tsne-coco.py --extract
+```
+Vẽ đồ thị T-SNE
+
+
+```bash
+# Example spoon vs fork
+python no_time_to_train/make_plots/tsne-coco.py --classes cat dog
+```
+</details>
+
+## 🛠️ Trợ giúp
+
+### Hình dung bộ nhớ
+
+thêm hình ảnh feature_comparison_small.png tại đây
+
+<details>
+<summary><b>Hướng dẫn</b></summary>
+
+Để hình dung bộ nhớ (trực quan hóa PCA và K-means) cho một thí nghiệm nhất định, hãy điều chỉnh lệnh sau.
+
+Thiết lập `DO_NOT_CROP` thành True/False (trong `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py`) để hiển thị hình ảnh tham chiếu với/không với mặt nạ đã cắt.
+
+
+```bash
+python run_lightening.py test --config $CONFIG \
+    --model.test_mode vis_memory \
+    --ckpt_path $RESULTS_DIR/memory_postprocessed.ckpt \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $RESULTS_DIR/$FILENAME \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.class_split $CLASS_SPLIT \
+    --model.init_args.model_cfg.dataset_name $CLASS_SPLIT \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+</details>
+
+### Thay đổi kích thước hình ảnh thành 512x512 (làm cho hình ảnh vuông)
+
+Để thay đổi kích thước hình ảnh thành 512x512 và lưu chúng vào một thư mục mới, hãy chạy lệnh sau. Đây là cho các hình trong bài báo.
+
+<details>
+<summary><b>Hướng dẫn:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/paper_fig_square_imgs.py
+```
+</details>
+
+
+### Kích thước mô hình và bộ nhớ
+
+Để tính kích thước mô hình và bộ nhớ, hãy chạy lệnh sau.
+
+<details>
+<summary><b>Hướng dẫn:</b></summary>
+
+- Xem `no_time_to_train/models/Sam2MatchingBaseline_noAMG_model_and_memory.py` để tính toán kích thước mô hình và bộ nhớ.
+(Dễ nhất: tạm thời thay thế bằng Sam2MatchingBaseline_noAMG.py, sau đó đổi tên lại.)
+</details>
+
+## 🌍 Bộ dữ liệu EO
+
+
+### Script đánh giá (bộ dữ liệu EO)
+
+Các script đánh giá có thể tìm thấy trong thư mục `scripts/EO`. Các bộ dữ liệu EO sử dụng script `./scripts/EO/EO_template.sh` để chạy đánh giá.
+
+Mỗi lần chạy thử nghiệm EO đều được lưu trong thư mục `./EO_results`. Trong thư mục thử nghiệm, chúng tôi lưu trữ:
+- Tệp summary.txt chứa cấu hình và thời gian thực thi của thử nghiệm.
+- Các hình ảnh dự đoán trên tập kiểm tra (thư mục `results_analysis`).
+- Các hình ảnh bộ nhớ (thư mục `memory_vis`).
+- Tệp pickle chú thích few-shot.
+- Các checkpoint của mô hình (nếu chưa bị dọn dẹp).
+
+
+### Hình ảnh và bảng
+Các script bổ sung để tạo hình ảnh và bảng.
+
+<details>
+<summary><b>Bảng latex tổng hợp bộ dữ liệu EO:</b></summary>
+
+```bash
+python scripts/convert_datasets/summary_table_datasets.py
+```
+
+</details>
+
+
+<details>
+<summary><b>Tạo bảng LaTeX của các bộ dữ liệu EO:</b></summary>
+
+```bash
+python scripts/paper_figures/table_EO_results.py ./EO_results_no_heuristics
+```
+
+</details>
+
+
+<details>
+<summary><b>Biểu đồ độ chính xác của các tập dữ liệu EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_accuracy.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>Tóm tắt tác động của heuristic lên các tập dữ liệu EO:</b></summary>
+  
+```bash
+python scripts/paper_figures/plot_EO_heuristic.py \
+  --no-heuristics ./EO_results_no_heuristics \
+  --heuristics ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>Biểu đồ thời gian chạy của các bộ dữ liệu EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_runtime.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>Tạo hình ảnh lưới EO cho minh họa trong bài báo:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_grid.py \
+  --root ./EO_results_no_heuristics \
+  --dataset ISAID \
+  --shots 1
+```
+
+</details>
+
+
+
+
+
+
+## 📚 Citation
+
+If you use this work, please cite us:
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -451,6 +833,6 @@ Nếu bạn sử dụng công trình này, vui lòng trích dẫn chúng tôi:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
 
 ---

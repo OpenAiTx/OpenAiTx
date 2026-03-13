@@ -53,7 +53,8 @@
 </div>
 
 ---
-
+> 🚨 **Update (5 februari 2026)**: Het papermanuscript is bijgewerkt met uitgebreide ablatieve studies, visualisaties en extra experimenten.
+> 
 > 🚨 **Update (22 juli 2025):** Instructies voor aangepaste datasets zijn toegevoegd!
 > 
 > 🔔 **Update (16 juli 2025):** Code is bijgewerkt met instructies!
@@ -62,38 +63,38 @@
 
 ## 📋 Inhoudsopgave
 
-- [🎯 Hoogtepunten](#-hoogtepunten)
-- [📜 Samenvatting](#-samenvatting)
-- [🧠 Architectuur](#-architectuur)
-- [🛠️ Installatie-instructies](#️-installatie-instructies)
-  - [1. Repository klonen](#1-repository-klonen)
-  - [2. Conda-omgeving aanmaken](#2-conda-omgeving-aanmaken)
-  - [3. Installeer SAM2 en DinoV2](#3-installeer-sam2-en-dinov2)
+- [🎯 Highlights](#-highlights)
+- [📜 Samenvatting](#-abstract)
+- [🧠 Architectuur](#-architecture)
+- [🛠️ Installatie-instructies](#️-installation-instructions)
+  - [1. Clone de repository](#1-clone-the-repository)
+  - [2. Maak conda-omgeving](#2-create-conda-environment)
+  - [3. Installeer SAM2 en DINOv2](#3-install-sam2-and-dinov2)
   - [4. Download datasets](#4-download-datasets)
-  - [5. Download SAM2 en DinoV2 checkpoints](#5-download-sam2-en-dinov2-checkpoints)
-- [📊 Inference code: Reproduceer 30-shot SOTA resultaten in Few-shot COCO](#-inference-code)
-  - [0. Referentieset aanmaken](#0-referentieset-aanmaken)
-  - [1. Vul het geheugen met referenties](#1-vul-het-geheugen-met-referenties)
-  - [2. Post-processing van memory bank](#2-post-processing-van-memory-bank)
-  - [3. Inference op doelafbeeldingen](#3-inference-op-doelafbeeldingen)
-  - [Resultaten](#resultaten)
-
-- [🔍 Aangepaste dataset](#-custom-dataset)
-  - [0. Bereid een aangepaste dataset voor ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 Als alleen bbox annotaties beschikbaar zijn](#01-if-only-bbox-annotations-are-available)
-  - [0.2 Zet coco annotaties om naar een pickle-bestand](#02-convert-coco-annotations-to-pickle-file)
-  - [1. Vul het geheugen met referenties](#1-fill-memory-with-references)
+  - [5. Download SAM2 en DINOv2 checkpoints](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 Inferentiecode: Reproduceer 30-shot SOTA-resultaten in Few-shot COCO](#-inference-code)
+  - [0. Maak referentieset](#0-create-reference-set)
+  - [1. Vul geheugen met referenties](#1-fill-memory-with-references)
   - [2. Post-process geheugenbank](#2-post-process-memory-bank)
-- [📚 Citation](#-citation)
+  - [3. Inferentie op doeldbeelden](#3-inference-on-target-images)
+
+  - [Resultaten](#resultaten)
+- [🔍 Aangepaste dataset](#-aangepaste-dataset)
+  - [0. Bereid een aangepaste dataset voor ⛵🐦](#0-bereid-een-aangepaste-dataset-voor)
+  - [0.1 Als alleen bbox-annotaties beschikbaar zijn](#01-als-alleen-bbox-annotaties-beschikbaar-zijn)
+  - [0.2 Converteer coco-annotaties naar pickle-bestand](#02-converteer-coco-annotaties-naar-pickle-bestand)
+  - [1. Vul het geheugen met referenties](#1-vul-het-geheugen-met-referenties)
+  - [2. Post-process geheugenbank](#2-post-process-geheugenbank)
+- [📚 Referentie](#-referentie)
 
 
 ## 🎯 Hoogtepunten
-- 💡 **Training-vrij**: Geen fine-tuning, geen prompt engineering—alleen een referentieafbeelding.  
-- 🖼️ **Referentie-gebaseerd**: Segmenteer nieuwe objecten met slechts een paar voorbeelden.  
-- 🔥 **SOTA prestaties**: Overtreft eerdere training-vrije benaderingen op COCO, PASCAL VOC en Cross-Domain FSOD.
+- 💡 **Zonder Training**: Geen fine-tuning, geen prompt engineering—alleen een referentieafbeelding.  
+- 🖼️ **Referentie-gebaseerd**: Segmenteer nieuwe objecten met slechts enkele voorbeelden.  
+- 🔥 **SOTA Prestaties**: Overtreft eerdere training-vrije methoden op COCO, PASCAL VOC en Cross-Domain FSOD.
 
 **Links:**
-- 🧾 [**arXiv Paper**](https://arxiv.org/abs/2507.02798)  
+- 🧾 [**arXiv Artikel**](https://arxiv.org/abs/2507.02798)  
 - 🌐 [**Projectwebsite**](https://miquel-espinosa.github.io/no-time-to-train/)  
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
@@ -125,25 +126,25 @@ We zullen een conda-omgeving aanmaken met de vereiste pakketten.
 conda env create -f environment.yml
 conda activate no-time-to-train
 ```
-### 3. Installeer SAM2 en DinoV2
 
-We zullen SAM2 en DinoV2 vanaf de bron installeren.
+### 3. Installeer SAM2 en DINOv2
 
+We zullen SAM2 en DINOv2 vanaf de bron installeren.
 ```bash
 pip install -e .
 cd dinov2
 pip install -e .
 cd ..
 ```
+
 ### 4. Download datasets
 
 Download alstublieft de COCO dataset en plaats deze in `data/coco`
 
-### 5. Download SAM2 en DinoV2 checkpoints
+### 5. Download SAM2 en DINOv2 checkpoints
 
-We zullen exact dezelfde SAM2 checkpoints downloaden als gebruikt in het paper.
-(Let op: SAM2.1 checkpoints zijn al beschikbaar en kunnen beter presteren.)
-
+We zullen exact dezelfde SAM2 checkpoints downloaden als in het artikel gebruikt zijn.
+(Let op, SAM2.1 checkpoints zijn inmiddels beschikbaar en kunnen beter presteren.)
 
 ```bash
 mkdir -p checkpoints/dinov2
@@ -420,9 +421,9 @@ BBOX RESULTS:
 SEGM RESULTS:
   Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458
 ```
-Visuele resultaten worden opgeslagen in `results_analysis/my_custom_dataset/`. Let op: onze methode werkt voor false negatives, dat wil zeggen, afbeeldingen die geen enkele instantie van de gewenste klassen bevatten.
+Visuele resultaten worden opgeslagen in `results_analysis/my_custom_dataset/`. Let op dat onze methode werkt voor false negatives, dat wil zeggen, afbeeldingen die geen exemplaren van de gewenste klassen bevatten.
 
-*Klik op de afbeeldingen om te vergroten ⬇️*
+*Klik op afbeeldingen om te vergroten ⬇️*
 
 | Doelafbeelding met boten ⛵ (links GT, rechts voorspellingen) | Doelafbeelding met vogels 🐦 (links GT, rechts voorspellingen) |
 |:----------------------:|:----------------------:|
@@ -433,10 +434,391 @@ Visuele resultaten worden opgeslagen in `results_analysis/my_custom_dataset/`. L
 | ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |
 
 
-## 📚 Referentie
+## 🔬 Ablaties
 
-Als u dit werk gebruikt, citeer ons dan alsjeblieft:
+### Backbone ablatie
 
+Om de overdraagbaarheid van onze methode over foundation models te evalueren, vervangen we zowel de semantische
+encoder (DINOv2) als de op SAM gebaseerde segmenter door verschillende alternatieven.
+
+**Semantische encoder ablatie:**
+
+
+```bash
+# CLIP (Sizes: b16, b32, l14, l14@336px)
+bash scripts/clip/clipl14@336px.sh
+bash scripts/clip/clipl14.sh
+bash scripts/clip/clipb16.sh
+bash scripts/clip/clipb32.sh
+
+# DINOV3 (Sizes: b, l, h)
+bash scripts/dinov3/dinov3b.sh
+bash scripts/dinov3/dinov3l.sh
+bash scripts/dinov3/dinov3h.sh
+
+# PE (Sizes: g14, l14)
+bash scripts/pe/PEg14.sh
+bash scripts/pe/PEl14.sh
+```
+
+**Segmentatie-ablation:**
+
+```bash
+# SAM2 (Sizes: tiny, small, base+, large)
+bash scripts/sam2/sam2_tiny.sh
+bash scripts/sam2/sam2_small.sh
+bash scripts/sam2/sam2_base_plus.sh
+bash scripts/baseline/dinov2_sam_baseline.sh # SAM2 Large
+```
+
+### VLM-evaluatie op COCO few-shot dataset
+
+We evalueren QWEN VLM op het COCO few-shot dataset.
+
+```bash
+bash scripts/vl-qwen/ablation-vl-qwen.sh
+```
+
+### Heuristieken voor referentieafbeeldingen
+
+Om te begrijpen waarom verschillende referentieafbeeldingen tot prestatievariatie leiden, analyseren we de statistische eigenschappen van COCO-novelle klasseannotaties.
+
+#### ANALYSE
+
+We bestuderen drie annotatiekenmerken: (1) maskeeroppervlak (objectgrootte),
+(2) maskeercentrumlocatie, en (3) afstand tot de afbeeldingsranden.
+
+<details>
+<summary><b>Instructies:</b></summary>
+
+```bash
+# Mask area distribution
+python no_time_to_train/make_plots/mask_area_distribution.py \
+  --input data/coco/annotations/instances_val2017.json \
+  --output no_time_to_train/make_plots/mask_area_distribution/mask_area_distribution.png \
+  --edges-output no_time_to_train/make_plots/mask_area_distribution/bbox_edge_distance_histograms.png \
+  --center-output no_time_to_train/make_plots/mask_area_distribution/bbox_center_density.png \
+  --bins 80 \
+  --distance-bins 80 \
+  --disable-center-density
+
+# Bbox center positions
+python no_time_to_train/make_plots/bbox_positions.py \
+	--per-class-root data/coco/annotations/per_class_instances \
+	--filename centeredness_2d_hist_plain.png \
+	--max-cols 6 \
+	--output-dir ./no_time_to_train/make_plots/bbox_positions \
+	--outfile grid_bbox_positions.png
+```
+</details>
+
+<details>
+<summary><b>[UITVOER] Maskeroppervlakteverdeling</b></summary>
+<img width="600" height="600" alt="mask_area_distribution" src="https://github.com/user-attachments/assets/ece21119-3622-4a2f-8319-1d52ff05bf99" />
+
+</details>
+
+<details>
+<summary><b>[UITVOER] Dichtheid van bbox-centra</b></summary>
+<img width="3165" height="1627" alt="grid_bbox_positions" src="https://github.com/user-attachments/assets/dff4ddb2-a3f1-45e1-af12-8e9fffbb4d6c" />
+
+</details>
+
+<details>
+<summary><b>[UITVOER] Histogrammen van bbox-randafstanden</b></summary>
+<img width="1800" height="1200" alt="bbox_edge_distance_histograms" src="https://github.com/user-attachments/assets/e23d1360-599c-46a2-af59-3d071112e76e" />
+
+</details>
+
+#### SELECTIE
+
+We nemen 100 diverse referentieafbeeldingen per klasse, expliciet
+gespreid over een reeks maskergroottes, centra en randafstanden. Elke
+referentie wordt geëvalueerd op een vaste verkleinde validatieset.
+
+<details>
+<summary><b>Instructies:</b></summary>
+
+**Setup script:** `scripts/1shot_ref_ablation/setup.sh`:
+1. Maak per klasse een json-bestand aan
+2. Analyseer specifieke klasse
+3. Maak referentieset met verschillende heuristieken
+
+
+```bash
+bash scripts/1shot_ref_ablation/setup.sh
+```
+
+**Voer scripts uit:** `scripts/1shot_ref_ablation/gpu*.sh`:
+
+4. Voer de pijplijn uit voor elke referentieset
+```bash
+# Example launch script that calls template script for each reference set
+bash scripts/1shot_ref_ablation/gpu0.sh
+```
+
+</details>
+
+
+#### RESULTATEN
+
+We analyseren hoe detectiescores correleren met kenmerken van referentieafbeeldingen
+(maskergrootte, centrale positie, afstand tot rand).
+
+<details>
+<summary><b>Instructies:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/heuristics_analysis.py
+# Outputs: 
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/per_class_area_vs_raw_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/all_classes_area_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/edge_distance_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_area_category_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_centered_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_avoid_sides_norm_scores.png
+```
+</details>
+
+<details>
+<summary><b>[OUTPUT] Staafdiagrammen. Effect van maskergebied (links) en gecentreerdheid (rechts) op prestaties</b></summary>
+<img width="1190" height="846" alt="barplot" src="https://github.com/user-attachments/assets/e900aff5-523d-4563-aebc-0135dcbb5eb6" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] Heatmaps. 2D-scoorkaarten van prestaties als functie van maskercentrumlocatie</b></summary>
+<img width="1250" height="545" alt="heatmap" src="https://github.com/user-attachments/assets/c2c59ffe-b19e-4907-b0be-68249cf5db51" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] Referentie-beeld prestaties vs. maskergebied voor alle nieuwe COCO-klassen</b></summary>
+<img width="2500" height="1432" alt="class_performance" src="https://github.com/user-attachments/assets/05a0e213-3ba5-4b4f-80ed-9b7ca782642a" />
+
+</details>
+
+### Referentie-beeld degradatie
+
+We evalueren onze methode onder progressief gedegradeerde referentiebeelden door toenemende
+niveaus van Gaussiaanse vervaging toe te passen.
+<img width="2640" height="1194" alt="ablation-blur" src="https://github.com/user-attachments/assets/c2abf0ab-1578-41cf-abcf-50e43f7691f5" />
+
+<details>
+<summary><b>Instructies:</b></summary>
+
+
+
+```bash
+# Run different blur levels
+bash scripts/blur_ablation/blur_ablation.sh
+
+# Plot grid of blur ablation results
+python no_time_to_train/make_plots/plot_blur_results.py \
+    --results-root ./work_dirs/blur_ablation \
+    --class-id 0 \
+    --max-cols 4 \
+    --output-dir ./no_time_to_train/make_plots/blur_ablation \
+    --outfile grid_blur_ablation_class_0.png
+```
+
+</details>
+
+### Kenmerkovereenkomst
+
+Script voor het visualiseren van kenmerkovereenkomst tussen referentieafbeeldingen en doelafbeeldingen.
+
+Het genereert enkelvoudige kenmerkovereenkomst (padkenmerken) en prototype-gebaseerde overeenkomst (geaggregeerde kenmerken).
+<img width="2500" height="1030" alt="feature_similarity_small" src="https://github.com/user-attachments/assets/d56ec9aa-c60e-4fe6-92cd-aa6270b1d6ed" />
+
+<details>
+<summary><b>Instructies:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/feature_similarity.py \
+  --classes orange \  
+  --num-images 20 \
+  --min-area 12 \
+  --max-area 25000 \
+  --min-instances 2 \
+  --seed 123 \
+  --max-per-class 12
+```
+</details>
+
+### T-SNE plots (DINOv2 kenmerkenscheidbaarheid)
+
+t-SNE van DINOv2 kenmerken toont duidelijke scheiding voor uiteenlopende klassen
+maar sterke overlap voor vergelijkbare, wat suggereert dat verwarring voortkomt uit
+de geometrie van backbone kenmerken in plaats van de selectie van prototypes.
+<img width="2500" height="1444" alt="tsne" src="https://github.com/user-attachments/assets/baffc430-1600-44a1-9a14-1b08e25a9d55" />
+
+<details>
+<summary><b>Instructies:</b></summary>
+
+Extraheer kenmerken
+
+```bash
+python no_time_to_train/make_plots/tsne-coco.py --extract
+```
+
+Plot T-SNE grafieken
+
+```bash
+# Example spoon vs fork
+python no_time_to_train/make_plots/tsne-coco.py --classes cat dog
+```
+
+</details>
+
+## 🛠️ Helpers
+
+### Visualiseer geheugen
+
+voeg afbeelding feature_comparison_small.png hier toe
+
+<details>
+<summary><b>Instructies</b></summary>
+
+Om de geheugenbank (PCA- en K-means-visualisaties) voor een bepaald experiment te visualiseren, pas je het volgende commando aan.
+
+Stel `DO_NOT_CROP` in op True/False (in `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py`) om de referentieafbeelding met/zonder het bijgesneden masker te visualiseren.
+
+```bash
+python run_lightening.py test --config $CONFIG \
+    --model.test_mode vis_memory \
+    --ckpt_path $RESULTS_DIR/memory_postprocessed.ckpt \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $RESULTS_DIR/$FILENAME \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.class_split $CLASS_SPLIT \
+    --model.init_args.model_cfg.dataset_name $CLASS_SPLIT \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+</details>
+
+### Afbeeldingen wijzigen naar 512x512 (maak de afbeeldingen vierkant)
+
+Om de afbeeldingen te wijzigen naar 512x512 en op te slaan in een nieuwe map, voer je de volgende opdracht uit. Dit is voor de figuren uit het paper.
+
+<details>
+<summary><b>Instructies:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/paper_fig_square_imgs.py
+```
+</details>
+
+### Modelgrootte en geheugen
+
+Om de modelgrootte en het geheugen te berekenen, voer je de volgende opdracht uit.
+
+<details>
+<summary><b>Instructies:</b></summary>
+
+- Zie `no_time_to_train/models/Sam2MatchingBaseline_noAMG_model_and_memory.py` voor de berekening van modelgrootte en geheugen.
+(Makkelijkst: vervang tijdelijk door Sam2MatchingBaseline_noAMG.py, hernoem daarna terug.)
+</details>
+
+## 🌍 EO-datasets
+
+### Evaluatiescripts (EO-datasets)
+
+Evaluatiescripts zijn te vinden in de map `scripts/EO`. De EO-datasets gebruiken het script `./scripts/EO/EO_template.sh` om de evaluatie uit te voeren.
+
+Elke EO-experimentrun wordt opgeslagen in de map `./EO_results`. In de experimentmap bewaren we:
+- Het summary.txt-bestand met de configuratie en de looptijd van het experiment.
+- De voorspellingvisualisaties op de testset (`results_analysis`-map).
+- De geheugenvisualisaties (`memory_vis`-map).
+- Het pickle-bestand met few-shot annotaties.
+- De checkpoints van het model (indien niet opgeschoond).
+
+### Figuren en tabellen
+Aanvullende scripts voor het genereren van figuren en tabellen.
+
+<details>
+<summary><b>Samenvattende latex-tabel van de EO-datasets:</b></summary>
+
+
+
+
+```bash
+python scripts/convert_datasets/summary_table_datasets.py
+```
+
+</details>
+
+
+<details>
+<summary><b>Genereer LaTeX-tabel van de EO-datasets:</b></summary>
+
+```bash
+python scripts/paper_figures/table_EO_results.py ./EO_results_no_heuristics
+```
+
+</details>
+
+
+<details>
+<summary><b>Nauwkeurigheidsplot van de EO-datasets:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_accuracy.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>Samenvatting van het effect van heuristieken op de EO-datasets:</b></summary>
+  
+```bash
+python scripts/paper_figures/plot_EO_heuristic.py \
+  --no-heuristics ./EO_results_no_heuristics \
+  --heuristics ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>Runtime plot van de EO-datasets:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_runtime.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>Genereer EO-rastervisualisaties voor figuur in het artikel:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_grid.py \
+  --root ./EO_results_no_heuristics \
+  --dataset ISAID \
+  --shots 1
+```
+
+</details>
+
+
+
+
+
+
+## 📚 Citation
+
+If you use this work, please cite us:
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -451,6 +833,6 @@ Als u dit werk gebruikt, citeer ons dan alsjeblieft:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
 
 ---

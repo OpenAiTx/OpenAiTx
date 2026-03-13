@@ -53,10 +53,11 @@
 </div>
 
 ---
-
+> 🚨 **Обновление (5 февраля 2026)**: Рукопись статьи была обновлена с обширными абляционными исследованиями, визуализациями и дополнительными экспериментами.
+> 
 > 🚨 **Обновление (22 июля 2025):** Добавлены инструкции для пользовательских датасетов!
 > 
-> 🔔 **Обновление (16 июля 2025):** Код обновлён с инструкциями!
+> 🔔 **Обновление (16 июля 2025):** Обновлен код с инструкциями!
 
 ---
 
@@ -65,36 +66,36 @@
 - [🎯 Основные моменты](#-highlights)
 - [📜 Аннотация](#-abstract)
 - [🧠 Архитектура](#-architecture)
-- [🛠️ Инструкции по установке](#️-installation-instructions)
-  - [1. Клонировать репозиторий](#1-clone-the-repository)
-  - [2. Создать окружение conda](#2-create-conda-environment)
-  - [3. Установить SAM2 и DinoV2](#3-install-sam2-and-dinov2)
-  - [4. Скачать датасеты](#4-download-datasets)
-  - [5. Скачать контрольные точки SAM2 и DinoV2](#5-download-sam2-and-dinov2-checkpoints)
-- [📊 Код для инференса: Воспроизвести SOTA результаты 30-shot на Few-shot COCO](#-inference-code)
-  - [0. Создать референсный набор](#0-create-reference-set)
-  - [1. Заполнить память референсами](#1-fill-memory-with-references)
-  - [2. Постобработка банка памяти](#2-post-process-memory-bank)
+- [🛠️ Инструкция по установке](#️-installation-instructions)
+  - [1. Клонируйте репозиторий](#1-clone-the-repository)
+  - [2. Создайте conda-окружение](#2-create-conda-environment)
+  - [3. Установите SAM2 и DINOv2](#3-install-sam2-and-dinov2)
+  - [4. Скачайте датасеты](#4-download-datasets)
+  - [5. Скачайте контрольные точки SAM2 и DINOv2](#5-download-sam2-and-dinov2-checkpoints)
+- [📊 Код для инференса: Воспроизведите SOTA-результаты 30-shot на Few-shot COCO](#-inference-code)
+  - [0. Создайте референсный набор](#0-create-reference-set)
+  - [1. Заполните память референсами](#1-fill-memory-with-references)
+  - [2. Пост-обработка банка памяти](#2-post-process-memory-bank)
   - [3. Инференс на целевых изображениях](#3-inference-on-target-images)
-  - [Результаты](#results)
 
-- [🔍 Пользовательский набор данных](#-custom-dataset)
-  - [0. Подготовка пользовательского набора данных ⛵🐦](#0-prepare-a-custom-dataset)
-  - [0.1 Если доступны только аннотации bbox](#01-if-only-bbox-annotations-are-available)
-  - [0.2 Конвертация аннотаций COCO в файл pickle](#02-convert-coco-annotations-to-pickle-file)
-  - [1. Заполнить память эталонными данными](#1-fill-memory-with-references)
+  - [Результаты](#results)
+- [🔍 Пользовательский датасет](#-custom-dataset)
+  - [0. Подготовьте пользовательский датасет ⛵🐦](#0-prepare-a-custom-dataset)
+  - [0.1 Если доступны только bbox-аннотации](#01-if-only-bbox-annotations-are-available)
+  - [0.2 Преобразуйте аннотации COCO в файл pickle](#02-convert-coco-annotations-to-pickle-file)
+  - [1. Заполните память эталонными изображениями](#1-fill-memory-with-references)
   - [2. Постобработка банка памяти](#2-post-process-memory-bank)
 - [📚 Цитирование](#-citation)
 
 
 ## 🎯 Основные моменты
-- 💡 **Без обучения**: Без дообучения, без подбора подсказок — только эталонное изображение.  
-- 🖼️ **На основе эталона**: Сегментация новых объектов с помощью всего нескольких примеров.  
-- 🔥 **SOTA-результаты**: Превосходит предыдущие безобучающие методы на COCO, PASCAL VOC и Cross-Domain FSOD.
+- 💡 **Без обучения**: Без дообучения, без настройки подсказок — только эталонное изображение.  
+- 🖼️ **На основе эталонов**: Сегментация новых объектов всего по нескольким примерам.  
+- 🔥 **SOTA-производительность**: Превосходит предыдущие методы без обучения на COCO, PASCAL VOC и Cross-Domain FSOD.
 
 **Ссылки:**
-- 🧾 [**arXiv статья**](https://arxiv.org/abs/2507.02798)  
-- 🌐 [**Сайт проекта**](https://miquel-espinosa.github.io/no-time-to-train/)  
+- 🧾 [**Статья на arXiv**](https://arxiv.org/abs/2507.02798)  
+- 🌐 [**Веб-сайт проекта**](https://miquel-espinosa.github.io/no-time-to-train/)  
 - 📈 [**Papers with Code**](https://paperswithcode.com/paper/no-time-to-train-training-free-reference)
 
 ## 📜 Аннотация
@@ -125,25 +126,25 @@ cd no-time-to-train
 conda env create -f environment.yml
 conda activate no-time-to-train
 ```
-### 3. Установка SAM2 и DinoV2
 
-Мы установим SAM2 и DinoV2 из исходных кодов.
+### 3. Установите SAM2 и DINOv2
 
+Мы установим SAM2 и DINOv2 из исходного кода.
 ```bash
 pip install -e .
 cd dinov2
 pip install -e .
 cd ..
 ```
+
 ### 4. Загрузка наборов данных
 
 Пожалуйста, скачайте набор данных COCO и поместите его в `data/coco`
 
-### 5. Загрузка контрольных точек SAM2 и DinoV2
+### 5. Загрузка контрольных точек SAM2 и DINOv2
 
-Мы загрузим именно те контрольные точки SAM2, которые использовались в статье.
+Мы скачаем те же контрольные точки SAM2, что использовались в статье.
 (Обратите внимание, что контрольные точки SAM2.1 уже доступны и могут работать лучше.)
-
 
 ```bash
 mkdir -p checkpoints/dinov2
@@ -420,9 +421,9 @@ BBOX RESULTS:
 SEGM RESULTS:
   Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.458
 ```
-Визуальные результаты сохраняются в `results_analysis/my_custom_dataset/`. Обратите внимание, что наш метод работает и для ложноотрицательных случаев, то есть для изображений, на которых отсутствуют экземпляры нужных классов.
+Визуальные результаты сохраняются в `results_analysis/my_custom_dataset/`. Обратите внимание, что наш метод работает для ложноотрицательных случаев, то есть изображений, не содержащих экземпляров нужных классов.
 
-*Нажмите на изображения, чтобы увеличить ⬇️*
+*Нажмите на изображения для увеличения ⬇️*
 
 | Целевое изображение с лодками ⛵ (слева GT, справа предсказания) | Целевое изображение с птицами 🐦 (слева GT, справа предсказания) |
 |:----------------------:|:----------------------:|
@@ -433,10 +434,391 @@ SEGM RESULTS:
 | ![000000517410](https://github.com/user-attachments/assets/9849b227-7f43-43d7-81ea-58010a623ad5) | ![000000460598](https://github.com/user-attachments/assets/7587700c-e09d-4cf6-8590-3df129c2568e) |
 
 
-## 📚 Цитирование
+## 🔬 Абляционные исследования
 
-Если вы используете эту работу, пожалуйста, цитируйте нас:
+### Абляция бэкбона
 
+Для оценки переносимости нашего метода на различные foundation-модели мы заменяем как семантический
+энкодер (DINOv2), так и сегментатор на основе SAM на несколько альтернатив.
+
+**Абляция семантического энкодера:**
+
+
+```bash
+# CLIP (Sizes: b16, b32, l14, l14@336px)
+bash scripts/clip/clipl14@336px.sh
+bash scripts/clip/clipl14.sh
+bash scripts/clip/clipb16.sh
+bash scripts/clip/clipb32.sh
+
+# DINOV3 (Sizes: b, l, h)
+bash scripts/dinov3/dinov3b.sh
+bash scripts/dinov3/dinov3l.sh
+bash scripts/dinov3/dinov3h.sh
+
+# PE (Sizes: g14, l14)
+bash scripts/pe/PEg14.sh
+bash scripts/pe/PEl14.sh
+```
+
+**Абляция сегментатора:**
+
+```bash
+# SAM2 (Sizes: tiny, small, base+, large)
+bash scripts/sam2/sam2_tiny.sh
+bash scripts/sam2/sam2_small.sh
+bash scripts/sam2/sam2_base_plus.sh
+bash scripts/baseline/dinov2_sam_baseline.sh # SAM2 Large
+```
+
+### Оценка VLM на COCO датасете с малым количеством примеров
+
+Мы оцениваем QWEN VLM на COCO датасете с малым количеством примеров.
+
+```bash
+bash scripts/vl-qwen/ablation-vl-qwen.sh
+```
+
+### Эвристики эталонного изображения
+
+Чтобы понять, почему различные эталонные изображения приводят к изменению производительности, мы анализируем статистические свойства аннотаций новых классов COCO.
+
+#### АНАЛИЗ
+
+Мы изучаем три характеристики аннотаций: (1) площадь маски (размер объекта),
+(2) расположение центра маски и (3) расстояние до краев изображения.
+
+<details>
+<summary><b>Инструкции:</b></summary>
+
+```bash
+# Mask area distribution
+python no_time_to_train/make_plots/mask_area_distribution.py \
+  --input data/coco/annotations/instances_val2017.json \
+  --output no_time_to_train/make_plots/mask_area_distribution/mask_area_distribution.png \
+  --edges-output no_time_to_train/make_plots/mask_area_distribution/bbox_edge_distance_histograms.png \
+  --center-output no_time_to_train/make_plots/mask_area_distribution/bbox_center_density.png \
+  --bins 80 \
+  --distance-bins 80 \
+  --disable-center-density
+
+# Bbox center positions
+python no_time_to_train/make_plots/bbox_positions.py \
+	--per-class-root data/coco/annotations/per_class_instances \
+	--filename centeredness_2d_hist_plain.png \
+	--max-cols 6 \
+	--output-dir ./no_time_to_train/make_plots/bbox_positions \
+	--outfile grid_bbox_positions.png
+```
+</details>
+
+<details>
+<summary><b>[ВЫВОД] Распределение площади маски</b></summary>
+<img width="600" height="600" alt="mask_area_distribution" src="https://github.com/user-attachments/assets/ece21119-3622-4a2f-8319-1d52ff05bf99" />
+
+</details>
+
+<details>
+<summary><b>[ВЫВОД] Плотность центров ограничивающих рамок (bbox)</b></summary>
+<img width="3165" height="1627" alt="grid_bbox_positions" src="https://github.com/user-attachments/assets/dff4ddb2-a3f1-45e1-af12-8e9fffbb4d6c" />
+
+</details>
+
+<details>
+<summary><b>[ВЫВОД] Гистограммы расстояний до границ bbox</b></summary>
+<img width="1800" height="1200" alt="bbox_edge_distance_histograms" src="https://github.com/user-attachments/assets/e23d1360-599c-46a2-af59-3d071112e76e" />
+
+</details>
+
+#### ВЫБОР
+
+Мы выбираем 100 различных эталонных изображений на класс, явно
+охватывая диапазон размеров масок, центров и расстояний до краев. Каждый
+эталон оценивается на фиксированном сокращённом подмножестве валидации.
+
+<details>
+<summary><b>Инструкция:</b></summary>
+
+**Скрипт установки:** `scripts/1shot_ref_ablation/setup.sh`:
+1. Создать json-файл для каждого класса
+2. Проанализировать определённый класс
+3. Создать эталонный набор с разными эвристиками
+
+
+```bash
+bash scripts/1shot_ref_ablation/setup.sh
+```
+
+**Запустите скрипты:** `scripts/1shot_ref_ablation/gpu*.sh`:
+
+4. Запустите конвейер для каждого набора ссылок
+```bash
+# Example launch script that calls template script for each reference set
+bash scripts/1shot_ref_ablation/gpu0.sh
+```
+
+</details>
+
+
+#### РЕЗУЛЬТАТЫ
+
+Мы анализируем, как оценки обнаружения коррелируют с характеристиками эталонного изображения
+(размер маски, положение центра, расстояние до края).
+
+<details>
+<summary><b>Инструкции:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/heuristics_analysis.py
+# Outputs: 
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_bbox_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores_kde_smooth.png
+# - no_time_to_train/make_plots/heuristics_analysis/heatmap_center_segm_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/per_class_area_vs_raw_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/all_classes_area_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/edge_distance_vs_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_area_category_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_centered_norm_scores.png
+# - no_time_to_train/make_plots/heuristics_analysis/bars_avoid_sides_norm_scores.png
+```
+
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] Столбчатые диаграммы. Влияние площади маски (слева) и её центрированности (справа) на производительность</b></summary>
+<img width="1190" height="846" alt="barplot" src="https://github.com/user-attachments/assets/e900aff5-523d-4563-aebc-0135dcbb5eb6" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] Тепловые карты. 2D карты баллов производительности как функция положения центра маски</b></summary>
+<img width="1250" height="545" alt="heatmap" src="https://github.com/user-attachments/assets/c2c59ffe-b19e-4907-b0be-68249cf5db51" />
+
+</details>
+
+<details>
+<summary><b>[OUTPUT] Производительность по эталонному изображению в зависимости от площади маски для всех новых классов COCO</b></summary>
+<img width="2500" height="1432" alt="class_performance" src="https://github.com/user-attachments/assets/05a0e213-3ba5-4b4f-80ed-9b7ca782642a" />
+
+</details>
+
+### Деградация эталонного изображения
+
+Мы оцениваем наш метод при постепенном ухудшении эталонных изображений, применяя возрастающие
+уровни гауссового размытия.
+<img width="2640" height="1194" alt="ablation-blur" src="https://github.com/user-attachments/assets/c2abf0ab-1578-41cf-abcf-50e43f7691f5" />
+
+<details>
+<summary><b>Инструкции:</b></summary>
+
+```bash
+# Run different blur levels
+bash scripts/blur_ablation/blur_ablation.sh
+
+# Plot grid of blur ablation results
+python no_time_to_train/make_plots/plot_blur_results.py \
+    --results-root ./work_dirs/blur_ablation \
+    --class-id 0 \
+    --max-cols 4 \
+    --output-dir ./no_time_to_train/make_plots/blur_ablation \
+    --outfile grid_blur_ablation_class_0.png
+```
+
+</details>
+
+### Сходство признаков
+
+Скрипт для визуализации сходства признаков между эталонными и целевыми изображениями.
+
+Он генерирует сходство по отдельным признакам (признаки путей) и сходство на основе прототипов (агрегированные признаки).
+<img width="2500" height="1030" alt="feature_similarity_small" src="https://github.com/user-attachments/assets/d56ec9aa-c60e-4fe6-92cd-aa6270b1d6ed" />
+
+<details>
+<summary><b>Инструкции:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/feature_similarity.py \
+  --classes orange \  
+  --num-images 20 \
+  --min-area 12 \
+  --max-area 25000 \
+  --min-instances 2 \
+  --seed 123 \
+  --max-per-class 12
+```
+</details>
+
+### t-SNE графики (разделимость признаков DINOv2)
+
+t-SNE признаков DINOv2 показывает чёткое разделение для непохожих классов,
+но сильное перекрытие для похожих, что указывает на то, что путаница возникает из-за
+геометрии признаков бэконета, а не из-за выбора прототипов.
+<img width="2500" height="1444" alt="tsne" src="https://github.com/user-attachments/assets/baffc430-1600-44a1-9a14-1b08e25a9d55" />
+
+<details>
+<summary><b>Инструкции:</b></summary>
+
+Извлеките признаки
+
+```bash
+python no_time_to_train/make_plots/tsne-coco.py --extract
+```
+
+Построить графики T-SNE
+
+```bash
+# Example spoon vs fork
+python no_time_to_train/make_plots/tsne-coco.py --classes cat dog
+```
+
+</details>
+
+## 🛠️ Вспомогательные инструменты
+
+### Визуализация памяти
+
+добавьте изображение feature_comparison_small.png здесь
+
+<details>
+<summary><b>Инструкции</b></summary>
+
+Чтобы визуализировать банк памяти (визуализации PCA и K-means) для выбранного эксперимента, измените следующую команду.
+
+Установите `DO_NOT_CROP` в True/False (в `no_time_to_train/models/Sam2MatchingBaseline_noAMG.py`), чтобы визуализировать опорное изображение с/без обрезанной маски.
+
+```bash
+python run_lightening.py test --config $CONFIG \
+    --model.test_mode vis_memory \
+    --ckpt_path $RESULTS_DIR/memory_postprocessed.ckpt \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $RESULTS_DIR/$FILENAME \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.class_split $CLASS_SPLIT \
+    --model.init_args.model_cfg.dataset_name $CLASS_SPLIT \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+</details>
+
+### Измените размер изображений до 512x512 (сделайте изображения квадратными)
+
+Чтобы изменить размер изображений до 512x512 и сохранить их в новой директории, выполните следующую команду. Это для иллюстраций к статье.
+
+<details>
+<summary><b>Инструкция:</b></summary>
+
+```bash
+python no_time_to_train/make_plots/paper_fig_square_imgs.py
+```
+</details>
+
+### Размер модели и память
+
+Чтобы вычислить размер модели и объем используемой памяти, выполните следующую команду.
+
+<details>
+<summary><b>Инструкции:</b></summary>
+
+- Смотрите `no_time_to_train/models/Sam2MatchingBaseline_noAMG_model_and_memory.py` для вычисления размера модели и памяти.
+(Самый простой способ: временно заменить на Sam2MatchingBaseline_noAMG.py, затем переименовать обратно.)
+</details>
+
+## 🌍 EO датасеты
+
+### Скрипты оценки (EO датасеты)
+
+Скрипты для оценки находятся в каталоге `scripts/EO`. EO датасеты используют скрипт `./scripts/EO/EO_template.sh` для запуска оценки.
+
+Каждый запуск эксперимента EO сохраняется в каталоге `./EO_results`. В папке эксперимента мы храним:
+- Файл summary.txt с конфигурацией и временем выполнения эксперимента.
+- Визуализации предсказаний на тестовом наборе (`results_analysis` папка).
+- Визуализации памяти (`memory_vis` папка).
+- Файл аннотаций few-shot в формате pickle.
+- Контрольные точки модели (если не были удалены).
+
+
+### Фигуры и таблицы
+Дополнительные скрипты для генерации фигур и таблиц.
+
+<details>
+<summary><b>Сводная latex-таблица EO датасетов:</b></summary>
+
+
+
+```bash
+python scripts/convert_datasets/summary_table_datasets.py
+```
+
+</details>
+
+
+<details>
+<summary><b>Сгенерировать таблицу LaTeX для наборов данных EO:</b></summary>
+
+```bash
+python scripts/paper_figures/table_EO_results.py ./EO_results_no_heuristics
+```
+
+</details>
+
+
+<details>
+<summary><b>График точности наборов данных EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_accuracy.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>Сводка влияния эвристик на наборы данных EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_heuristic.py \
+  --no-heuristics ./EO_results_no_heuristics \
+  --heuristics ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>График времени выполнения для наборов данных EO:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_runtime.py \
+  --input-root ./EO_results \
+  --output-root ./EO_results
+```
+
+</details>
+
+<details>
+<summary><b>Создать визуализации EO сетки для рисунка в статье:</b></summary>
+
+```bash
+python scripts/paper_figures/plot_EO_grid.py \
+  --root ./EO_results_no_heuristics \
+  --dataset ISAID \
+  --shots 1
+```
+
+</details>
+
+
+
+
+
+
+## 📚 Citation
+
+If you use this work, please cite us:
 
 ```bibtex
 @article{espinosa2025notimetotrain,
@@ -451,6 +833,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-13
 
 ---
