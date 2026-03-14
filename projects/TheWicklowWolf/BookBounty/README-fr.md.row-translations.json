@@ -1,0 +1,554 @@
+[
+  {
+    "row": 1,
+    "rowsha": "sMJhz+bip4mEFV+pJ9etqYIhe3p5vKEjodux7y926GA=",
+    "originContent": "# BookBounty",
+    "translatedContent": "# BookBounty"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "1ARZN254L4GhfI2NjfbpqHV0nMG4ys360tO6DFx9t4Q=",
+    "originContent": "![Build Status](https://github.com/TheWicklowWolf/BookBounty/actions/workflows/main.yml/badge.svg)",
+    "translatedContent": "![Build Status](https://github.com/TheWicklowWolf/BookBounty/actions/workflows/main.yml/badge.svg)"
+  },
+  {
+    "row": 4,
+    "rowsha": "tmDMNsz8OpYvVCtCWJfYkq1GL8Y69JBDfgGdR3zkkds=",
+    "originContent": "![Docker Pulls](https://img.shields.io/docker/pulls/thewicklowwolf/bookbounty.svg)",
+    "translatedContent": "![Docker Pulls](https://img.shields.io/docker/pulls/thewicklowwolf/bookbounty.svg)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "46PdYtnv9qHlHnns8n9+to/heQH65Kc1EcKd7qH2U0A=",
+    "originContent": "<img src=\"/src/static/bookbounty.png\" alt=\"image\">",
+    "translatedContent": "<img src=\"/src/static/bookbounty.png\" alt=\"image\">"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "CrrsPLOkgx/HXx3iGWtW7uDjexuZq+JxvLEIKmAr+KQ=",
+    "originContent": "BookBounty is a tool for finding missing Readarr books.",
+    "translatedContent": "BookBounty is a tool for finding missing Readarr books."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "wzLXrRDtLL6tTMZt/31xeeqdFoOlGUiQuVYaRNT3nH0=",
+    "originContent": "## Run using docker-compose",
+    "translatedContent": "## Run using docker-compose"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 15,
+    "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
+    "originContent": "services:",
+    "translatedContent": "services:"
+  },
+  {
+    "row": 16,
+    "rowsha": "jV+TX+sZmt0Y8Q9i8zYdZUtwsebxfum8cEVFVybZnFs=",
+    "originContent": "  bookbounty:",
+    "translatedContent": "  bookbounty:"
+  },
+  {
+    "row": 17,
+    "rowsha": "ox26FMiepJThs5ObQjsux8IP7wkQ973AoaP+OPGiH4c=",
+    "originContent": "    image: thewicklowwolf/bookbounty:latest",
+    "translatedContent": "    image: thewicklowwolf/bookbounty:latest"
+  },
+  {
+    "row": 18,
+    "rowsha": "ZGv7qV9PtylhqtL2q65KBsaY5yIrJEd8Ot8eHVKlrbg=",
+    "originContent": "    container_name: bookbounty",
+    "translatedContent": "    container_name: bookbounty"
+  },
+  {
+    "row": 19,
+    "rowsha": "zC/pizDWyg3Eifixwj057XWlvpROf11Egbzi6yNsUnM=",
+    "originContent": "    ports:",
+    "translatedContent": "    ports:"
+  },
+  {
+    "row": 20,
+    "rowsha": "JcOtqZhNIjoDyMoXmCfb7q+4AGmTfLHmwkXdHzMDNCs=",
+    "originContent": "      - 5000:5000",
+    "translatedContent": "      - 5000:5000"
+  },
+  {
+    "row": 21,
+    "rowsha": "1pMKVoreY6K5n87lYgkNRSAOv421w0HqHzH2XFXyySw=",
+    "originContent": "    volumes:",
+    "translatedContent": "    volumes:"
+  },
+  {
+    "row": 22,
+    "rowsha": "BY6IlctdFEX4ufnFbGaKydi9ZrUYn6PE0fxVGTMcVqg=",
+    "originContent": "      - /path/to/config:/bookbounty/config",
+    "translatedContent": "      - /path/to/config:/bookbounty/config"
+  },
+  {
+    "row": 23,
+    "rowsha": "ZUnGQwbPbgy/87Lg8TdJDMOTbDPM36kI+88OVcIxA8w=",
+    "originContent": "      - /path/to/downloads:/bookbounty/downloads",
+    "translatedContent": "      - /path/to/downloads:/bookbounty/downloads"
+  },
+  {
+    "row": 24,
+    "rowsha": "w2FAYhtxVfk/+01pGx8UJz6ZbiEyOYWGObUycXa468Y=",
+    "originContent": "      - /etc/localtime:/etc/localtime:ro",
+    "translatedContent": "      - /etc/localtime:/etc/localtime:ro"
+  },
+  {
+    "row": 25,
+    "rowsha": "oqdQNjD0F32EJ8w6vZoeVMg3BE8Mgh+0Cyujme5MEyg=",
+    "originContent": "    restart: unless-stopped",
+    "translatedContent": "    restart: unless-stopped"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "3NyAWvlg1yqucToJtNZpxyu6lodgp0H14uxfR9GnoYA=",
+    "originContent": "## Configuration via environment variables",
+    "translatedContent": "## Configuration via des variables d'environnement"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "Msf3uvHgj1AeIL0mhC+r2FXRvRCR7qB5QI8WemZ5CBY=",
+    "originContent": "Certain values can be set via environment variables:",
+    "translatedContent": "Certaines valeurs peuvent être définies via des variables d'environnement :"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "v0VXyp4h77RYnGIZRzRu0Re/0aIS9QYagZeh5Xpun7w=",
+    "originContent": "* __PUID__: The user ID to run the app with. Defaults to `1000`. ",
+    "translatedContent": "* __PUID__ : L'ID utilisateur pour exécuter l'application. Par défaut `1000`. "
+  },
+  {
+    "row": 35,
+    "rowsha": "RjF8INQl106Wf1Fi5yrwjmQ7go/8YSo0wnVk6y/gUeY=",
+    "originContent": "* __PGID__: The group ID to run the app with. Defaults to `1000`.",
+    "translatedContent": "* __PGID__ : L'ID groupe pour exécuter l'application. Par défaut `1000`."
+  },
+  {
+    "row": 36,
+    "rowsha": "55T58oGf3pbnG/quW02GkM4vg7eMELMOByO+dCXh750=",
+    "originContent": "* __readarr_address__: The URL for Readarr. Defaults to `http://192.168.1.2:8787`.",
+    "translatedContent": "* __readarr_address__ : L'URL pour Readarr. Par défaut `http://192.168.1.2:8787`."
+  },
+  {
+    "row": 37,
+    "rowsha": "RlQtZ+PJVPq9DLNCOdbUiwxJocvsJjiLdOYX1NWc9q4=",
+    "originContent": "* __readarr_api_key__: The API key for Readarr. Defaults to ` `.",
+    "translatedContent": "* __readarr_api_key__ : La clé API pour Readarr. Par défaut ` `."
+  },
+  {
+    "row": 38,
+    "rowsha": "XBgKI8Ldj3TWe/zj5wHeyJXWMALImnRanGt2oPtcn3M=",
+    "originContent": "* __libgen_address__: The URL for Library Genesis. The only supported URL at present is `http://libgen.is`.",
+    "translatedContent": "* __libgen_address__ : L'URL pour Library Genesis. L'URL supportée actuellement est `http://libgen.is`."
+  },
+  {
+    "row": 39,
+    "rowsha": "0IfGhEpI8ySkLWkGZq9fwq+CUfBwc5nPeDRlXwMaE7g=",
+    "originContent": "* __sleep_interval__: Interval to sleep between downloads (seconds). Defaults to `0`.",
+    "translatedContent": "* __sleep_interval__ : Intervalle de pause entre les téléchargements (secondes). Par défaut `0`."
+  },
+  {
+    "row": 40,
+    "rowsha": "2swbpeUPnPgbpK+6UjQib+/NTyO27RzvOuizCCx0FKU=",
+    "originContent": "* __sync_schedule__: Scheduled hours to run e.g. 14 for 2pm (comma separated values in 24hr). Defaults to ` `.",
+    "translatedContent": "* __sync_schedule__ : Heures planifiées pour lancer la synchronisation par ex. 14 pour 14h (valeurs séparées par des virgules en format 24h). Par défaut ` `."
+  },
+  {
+    "row": 41,
+    "rowsha": "OKI811ILx7jL3kMHRZoZbYMThivx9jCzUL+TRL54OO4=",
+    "originContent": "* __minimum_match_ratio__: Minimum percentage for a match. Defaults to `90`.",
+    "translatedContent": "* __minimum_match_ratio__ : Pourcentage minimum pour une correspondance. Par défaut `90`."
+  },
+  {
+    "row": 42,
+    "rowsha": "QKVTr90AIVsZMd4vSn3ccU/w1/Ls5eFCm4Kw2mImFUo=",
+    "originContent": "* __selected_path_type__: Select Download Structure (file or folder). Defaults to `file`.",
+    "translatedContent": "* __selected_path_type__ : Sélectionnez la structure de téléchargement (fichier ou dossier). Par défaut `file`."
+  },
+  {
+    "row": 43,
+    "rowsha": "GwlYqiSx+gSI/z8ey/2XtFHrzP0k7ohXawhaW226WQo=",
+    "originContent": "* __search_type__: Select Search Type (fiction or non-fiction). Defaults to `fiction`.",
+    "translatedContent": "* __search_type__ : Sélectionnez le type de recherche (fiction ou non-fiction). Par défaut `fiction`."
+  },
+  {
+    "row": 44,
+    "rowsha": "algZaGwkN0svdLtGUAY8LEJnjPPJiVGO8Bx+HtLpJ3k=",
+    "originContent": "* __library_scan_on_completion__: Whether to scan Readarr Library on completion. Defaults to `True`.",
+    "translatedContent": "* __library_scan_on_completion__ : Scanner la bibliothèque Readarr à la fin. Par défaut `True`."
+  },
+  {
+    "row": 45,
+    "rowsha": "UGJgv9ofNB8mF84nrVPplN/3WVLXvlOZOQXTfkAhqus=",
+    "originContent": "* __request_timeout__: Timeout for requests (seconds). Defaults to `120`.",
+    "translatedContent": "* __request_timeout__ : Délai d’attente pour les requêtes (secondes). Par défaut `120`."
+  },
+  {
+    "row": 46,
+    "rowsha": "V/C0tC9O6b4TUeC+xAezTmLUL15wsWLWrqi2ZTKyXxw=",
+    "originContent": "* __thread_limit__: Max number of threads to use. Defaults to `1`.",
+    "translatedContent": "* __thread_limit__ : Nombre maximal de threads à utiliser. Par défaut `1`."
+  },
+  {
+    "row": 47,
+    "rowsha": "PkeRwMeWCbudYA4CUdQhN8yqvOlp18ZZJTciSkHszBM=",
+    "originContent": "* __selected_language__: Filter download by languages (specific languages or all). Defaults to `English`. This is used if BookBounty is unable to get the languages from the Readarr Metadata Profile.",
+    "translatedContent": "* __selected_language__ : Filtrer les téléchargements par langues (langues spécifiques ou toutes). Par défaut `English`. Utilisé si BookBounty ne peut pas obtenir les langues depuis le profil de métadonnées Readarr."
+  },
+  {
+    "row": 48,
+    "rowsha": "W4/jOiIxyS4qXVOuTzPJehzn2T4+VAM3MPGv8Pc2oT0=",
+    "originContent": "* __preferred_extensions_fiction__: Filter fiction download by extension (comma separated). Defaults to `.epub, .mobi, .azw3, .djvu`.",
+    "translatedContent": "* __preferred_extensions_fiction__ : Filtrer les téléchargements fiction par extension (séparées par des virgules). Par défaut `.epub, .mobi, .azw3, .djvu`."
+  },
+  {
+    "row": 49,
+    "rowsha": "T5NCMP8k7kbchop2zQ7f381ibTGvBEv1tRfvNcHAErA=",
+    "originContent": "* __preferred_extensions_non_fiction__: Filter non-fiction download by extension (comma separated). Defaults to `.pdf .epub, .mobi, .azw3, .djvu`.",
+    "translatedContent": "* __preferred_extensions_non_fiction__ : Filtrer les téléchargements non-fiction par extension (séparées par des virgules). Par défaut `.pdf .epub, .mobi, .azw3, .djvu`."
+  },
+  {
+    "row": 50,
+    "rowsha": "OQopDNrwdrbWvey4swcSP4EogxzjAKxUBoqmVKzp9PQ=",
+    "originContent": "* __search_last_name_only__: Use only the author's last name in searches. Defaults to `False`.",
+    "translatedContent": "* __search_last_name_only__ : Utiliser uniquement le nom de famille de l’auteur dans les recherches. Par défaut `False`."
+  },
+  {
+    "row": 51,
+    "rowsha": "aN8hUBOCSuepadATyKJUAXxiB5IW1mG8hwP4EVBQm+c=",
+    "originContent": "* __search_shortened_title__: Use shortened title when searching (remove everything after `:`). Defaults to `False`.",
+    "translatedContent": "* __search_shortened_title__ : Utiliser un titre raccourci lors de la recherche (supprimer tout après `:`). Par défaut `False`."
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "8ylf17xY1KFsKH8QJUWimTJ9YEUBvw1uqyuhsBBDQqc=",
+    "originContent": "## Sync Schedule",
+    "translatedContent": "## Planification de la synchronisation"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "q3U24WJbf5bXULhAmlnLNc2ggNJmzIcWdv0KJ+7nnNE=",
+    "originContent": "Use a comma-separated list of hours to start sync (e.g. `2, 20` will initiate a sync at 2 AM and 8 PM).",
+    "translatedContent": "Utilisez une liste d’heures séparées par des virgules pour démarrer la synchronisation (ex. `2, 20` lancera une synchronisation à 2h et 20h)."
+  },
+  {
+    "row": 57,
+    "rowsha": "S+APBz+X3OXvvaNileg3/GzCYnfX7wFZJyRdozG1HA8=",
+    "originContent": "> Note: There is a deadband of up to 10 minutes from the scheduled start time.",
+    "translatedContent": "> Note : Il existe une marge de tolérance jusqu’à 10 minutes à partir de l’heure prévue de démarrage."
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "CJlUrwFD4KqWIwYC+tY5zauNwmNg3zMJzz2zcyFjZIo=",
+    "originContent": "## Readarr Integration",
+    "translatedContent": "## Intégration Readarr"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "2EGex6ZkZmTikoCypwfMjxGa1l9khuzwwCQWaOiiZKI=",
+    "originContent": "You have two choices to integrate BookBounty with Readarr:",
+    "translatedContent": "Vous avez deux options pour intégrer BookBounty avec Readarr :"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "w7xI5xczqORfDQCApdJJpSvZXwvQqnvsvszXb5btpuA=",
+    "originContent": "1. Directly map `/bookbounty/downloads` to your main Readarr folder and configure `selected_path_type=folder`.   ",
+    "translatedContent": "1. Mapper directement `/bookbounty/downloads` vers votre dossier principal Readarr et configurer `selected_path_type=folder`.   "
+  },
+  {
+    "row": 65,
+    "rowsha": "kaohmzQAmEFlbo+f6Jlf4wMj63AaVeUZk+3LNwtJFoM=",
+    "originContent": "   This method will attempt to create the correct folder structure (`/author/book/filename.ext`, etc.) before downloading files directly into their respective folders.",
+    "translatedContent": "   Cette méthode tentera de créer la structure de dossiers correcte (`/author/book/filename.ext`, etc.) avant de télécharger les fichiers directement dans leurs dossiers respectifs."
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "KRjgNHXuBeyY71EG1zstzrPVBdhENmxTRCJ79qJ6qhs=",
+    "originContent": "2. Alternatively, map `/bookbounty/downloads` to an `_unprocessed` folder and set `selected_path_type=file`.",
+    "translatedContent": "2. Alternativement, mapper `/bookbounty/downloads` vers un dossier `_unprocessed` et définir `selected_path_type=file`."
+  },
+  {
+    "row": 68,
+    "rowsha": "v+2W/CPr6fyMAJtImUnRHDkzAfyI+dnvqoKxNhwikxI=",
+    "originContent": "   This method downloads all files into a single folder. After a library scan in Readarr, some files may remain unmapped and require manual import.  ",
+    "translatedContent": "   This method downloads all files into a single folder. After a library scan in Readarr, some files may remain unmapped and require manual import.  "
+  },
+  {
+    "row": 69,
+    "rowsha": "w7tQwsTS4Ojuxob0riWqcxEJmddecSU/UDCsXowa6+g=",
+    "originContent": "   After importing, you can use the \"**Rename Files**\" function in Readarr to organize the files into the correct folders.",
+    "translatedContent": "   After importing, you can use the \"**Rename Files**\" function in Readarr to organize the files into the correct folders."
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "udS+K1c6Cwb1uGczh9WXPSu+NAuhN2TTGs4LDfZxXXc=",
+    "originContent": "For both methods, setting `library_scan_on_completion=True` automates the import process in Readarr.",
+    "translatedContent": "For both methods, setting `library_scan_on_completion=True` automates the import process in Readarr."
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "OsvYx2gCLR+9v7lV3DK0q8zBsdj6IXl8uT7X6+jtJiY=",
+    "originContent": "**Note:** Readarr does not automatically rename files upon import.",
+    "translatedContent": "**Note:** Readarr does not automatically rename files upon import."
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "3/QGIxDFx08W8CrHUsBZDcV37qn3caiJMa59DZtnFm8=",
+    "originContent": "<img src=\"/src/static/dark.png\" alt=\"image\">",
+    "translatedContent": "<img src=\"/src/static/dark.png\" alt=\"image\">"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "8ZYIYsXLQ7Y4Fo7CJcovCc1HrWnKN3Ur+QjOQE4U/Ww=",
+    "originContent": "<img src=\"/src/static/light.png\" alt=\"image\">",
+    "translatedContent": "<img src=\"/src/static/light.png\" alt=\"image\">"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "SCv7HXiLRTF8ErwgQAEeBH4eA9okgjZ1d0dsp4oUAew=",
+    "originContent": "https://hub.docker.com/r/thewicklowwolf/bookbounty",
+    "translatedContent": "https://hub.docker.com/r/thewicklowwolf/bookbounty"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
