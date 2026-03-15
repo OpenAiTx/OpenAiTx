@@ -1,0 +1,566 @@
+[
+  {
+    "row": 1,
+    "rowsha": "QVH7e2kf8N/ZZWDip7uxM+mNloZ22agsio5l4DddsJM=",
+    "originContent": "# DTQ Portfolio Construction Workshop: A practitioner's review of the basics",
+    "translatedContent": "# DTQ 포트폴리오 구성 워크숍: 실무자의 기본기 검토"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "mlBI2o3EZsoUywY1IeFUKpwRijuN6pSnGZJz+arMzuE=",
+    "originContent": "**Portfolio Construction Workshop by Daniel Barrera and Edgar Alcántara**",
+    "translatedContent": "**Daniel Barrera와 Edgar Alcántara의 포트폴리오 구성 워크숍**"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "QygQL2aNVTuWp8lHIWyoMdkyNbre376lXblEpDsatBc=",
+    "originContent": "## 📘 Overview",
+    "translatedContent": "## 📘 개요"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "N6//dv/XLD4a0TkpYwDoAHF3HAdTP0Z+UUkQsozMYBI=",
+    "originContent": "This repository contains all materials for the **DTQ Portfolio Construction Workshop**, designed to introduce and develop quantitative techniques in portfolio management.",
+    "translatedContent": "이 저장소는 포트폴리오 관리에서 정량적 기법을 소개하고 개발하기 위해 설계된 **DTQ 포트폴리오 구성 워크숍**의 모든 자료를 포함합니다."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "anrv9hmKgbHPGP+95IJnn9xhSIVkV8oK4IvVU+o8KrA=",
+    "originContent": "Institutional investors like Blackrock, AQR, Citadel invest hundreds of billions of dollars for pension funds, university endowments and many other large financial institutions.",
+    "translatedContent": "블랙록, AQR, 시타델과 같은 기관 투자자들은 연금 펀드, 대학 기금 및 기타 대형 금융 기관을 위해 수천억 달러를 투자합니다.  "
+  },
+  {
+    "row": 14,
+    "rowsha": "nslLQzS78Gcf0sVAB86NTG/gWl8aFgCbqQ4M/S1/jo8=",
+    "originContent": "What do they attribute a large part of their success?",
+    "translatedContent": "그들은 성공의 큰 부분을 무엇에 기인합니까?"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "nL5zBFOlxppeR/jO67q4yjhS9+UNwN6f4t+TA0ZECQw=",
+    "originContent": "The Scientific Method!",
+    "translatedContent": "과학적 방법!"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "bf4wMHLfwxN569BYwSEPnHNHZtfKV5fYisAqLGntw/8=",
+    "originContent": "At this level of sofistication managers can't merele speculate or make decision based on the intution of a single person, there's too much at stake and the market is way too capricious to be predictable.",
+    "translatedContent": "이 정도 수준의 정교함에서는 관리자들이 단순히 추측하거나 한 사람의 직관에 의존해 결정을 내릴 수 없습니다. 위험이 너무 크고 시장은 예측 불가능할 만큼 변덕스럽기 때문입니다."
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "wowNkaQ4mLPVTSZU6qVBC374OHyOuC24q62+LpOe9SU=",
+    "originContent": "No, top financial investors in the World rely on methods studied with the dedication of a rocketship designer, follow a disciplined approach, test these methods for decades and take advantage of diversification.",
+    "translatedContent": "아니요, 세계 최고의 금융 투자자들은 로켓 설계자의 헌신으로 연구된 방법에 의존하며, 엄격한 접근 방식을 따르고, 수십 년간 이 방법들을 테스트하며 다각화를 활용합니다."
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "pt5S63cA7kI2XD33icM+mZf0OBjA5yd/Pobln4W76oQ=",
+    "originContent": "They borrow from Economics Nobel Prize research and enhance it with pratitioner's street smarts to profit from the best talent, systems and models known to humanity.",
+    "translatedContent": "그들은 경제학 노벨상 연구에서 영감을 얻고 실무자의 노하우로 이를 강화하여 인류가 알고 있는 최고의 인재, 시스템 및 모델을 통해 수익을 창출합니다."
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "1x+eCBpS7xj49MtW1gU0abAbLFe5ihRwi5YXMG5dzDs=",
+    "originContent": "In this course:",
+    "translatedContent": "이 과정에서는:  "
+  },
+  {
+    "row": 25,
+    "rowsha": "nfmeGaGaUQpHIn/hMRvOeZjKhAVAr7PA78hHB1DZqo8=",
+    "originContent": "Unlock the secrets of Wall Street's top portfolio managers and transform your investment approach from intuitive guesswork to a disciplined, scientific method. This course bridges the gap between academic theory and practical application, revealing why risk management, diversification, and a rigorous scientific approach are the indispensable cornerstones of successful equity portfolio management. ",
+    "translatedContent": "월스트리트 최고의 포트폴리오 매니저들의 비밀을 풀고 투자 접근법을 직관적 추측에서 엄격하고 과학적인 방법으로 전환하세요. 이 과정은 학문 이론과 실무 적용의 간극을 메우며, 위험 관리, 다각화 및 엄격한 과학적 접근이 성공적인 주식 포트폴리오 관리의 필수 기둥임을 밝힙니다."
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "SKyGOpguvfjBzLZzREXSp22hprJSB51HjlscLcNKbqs=",
+    "originContent": "From understanding fundamental concepts like return and risk to navigating the complexities of behavioral biases and leveraging advanced tools like factor models, you'll embark on a journey that begins with the basics and culminates in a sophisticated understanding of how to maximize profits and reduce uncertainty with confidence. Discover how the financial industry has evolved to embrace data-driven decision-making, offering a compelling path for anyone seeking to master the markets and create lasting value.",
+    "translatedContent": "수익과 위험 같은 기본 개념 이해부터 행동 편향의 복잡성을 탐색하고 팩터 모델과 같은 고급 도구를 활용하는 것까지, 기본부터 시작해 이익 극대화와 불확실성 감소를 자신 있게 달성하는 정교한 이해에 이르는 여정을 시작할 것입니다. 금융 산업이 데이터 기반 의사결정을 수용하며 진화한 과정을 발견하고, 시장을 마스터하고 지속 가능한 가치를 창출하려는 모든 이들에게 설득력 있는 길을 제시합니다."
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "ZTeNbCM7SRstYehJHXHhNz7LH6rqGOKtIVNSnpRh8Hc=",
+    "originContent": "## 📚 Course Modules",
+    "translatedContent": "## 📚 과정 모듈"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "uyEezD+HlyHfv3fl15gpDZlOOxvMp7D4dRIn41mL+DM=",
+    "originContent": "### **Module 1: Introduction to Financial Data and Risk**",
+    "translatedContent": "### **모듈 1: 금융 데이터 및 위험 소개**"
+  },
+  {
+    "row": 32,
+    "rowsha": "xD62dfnCuAjzHTi/efp4WAa1nhPYMRq9iYRwDDcZgAw=",
+    "originContent": "- 1.0 Why we are doing this?",
+    "translatedContent": "- 1.0 왜 이것을 하는가?  "
+  },
+  {
+    "row": 33,
+    "rowsha": "iGLDmc7F09TtlFQuAAZLgEujFtPp8gMTpRq2FibX4D4=",
+    "originContent": "- 1.1 Prices vs. Returns  ",
+    "translatedContent": "- 1.1 가격 대 수익률  "
+  },
+  {
+    "row": 34,
+    "rowsha": "az0lfoemOe/YEKW7PFNLuvmbkhbc4Bliwdjmwus8Jvw=",
+    "originContent": "- 1.2 Benchmarks  ",
+    "translatedContent": "- 1.2 벤치마크  "
+  },
+  {
+    "row": 35,
+    "rowsha": "s84n9jkz7EkdG0NzJuEggemBBC7JtZ7/KGgM6RlxxcQ=",
+    "originContent": "- 1.3 Risk Measurement  ",
+    "translatedContent": "- 1.3 위험 측정  "
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "MNL6o+p7twAynnPsOyxYtDGVWhnRNThbjWU0soKtuAg=",
+    "originContent": "### **Module 2: Portfolio Theory**",
+    "translatedContent": "### **모듈 2: 포트폴리오 이론**"
+  },
+  {
+    "row": 38,
+    "rowsha": "VtyUxH48et2Dkmmj8SEe52hcPwXWg4mN+rlZ/pEYFS0=",
+    "originContent": "- 2.1 Diversification and Correlation  ",
+    "translatedContent": "- 2.1 다각화와 상관관계  "
+  },
+  {
+    "row": 39,
+    "rowsha": "MOKOUPo3ocsq9bFFN4U2AA/DhH1WHZLdwYd+lJwIC9s=",
+    "originContent": "- 2.2 Markowitz Efficient Frontier  ",
+    "translatedContent": "- 2.2 마코위츠 효율적 프런티어  "
+  },
+  {
+    "row": 40,
+    "rowsha": "zVCuaoUS6FOLDhFSJncvfWc5TsEzulC2FZqv0A3MliI=",
+    "originContent": "- 2.3 Capital Allocation Line  ",
+    "translatedContent": "- 2.3 자본 배분선  "
+  },
+  {
+    "row": 41,
+    "rowsha": "kGvmtYN9i1sqt4eDk9tr6SReMhIgihhAC/FwdVTVQVo=",
+    "originContent": "- 2.4 Rebalancing Portfolios  ",
+    "translatedContent": "- 2.4 포트폴리오 리밸런싱  "
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "xE2wMLywFxV+iGCcoWN5ct4gRxB2Jx/to+bhAYc0NYU=",
+    "originContent": "### **Module 3: Linear Regression**",
+    "translatedContent": "### **모듈 3: 선형 회귀**"
+  },
+  {
+    "row": 44,
+    "rowsha": "FLyBCrVmWqsCGA/7zNXVXNtOD8tL3SRR4q+EP4FVpD0=",
+    "originContent": "- 3.1 Simple Linear Regression  ",
+    "translatedContent": "- 3.1 단순 선형 회귀  "
+  },
+  {
+    "row": 45,
+    "rowsha": "xr712FCGopt8izvprXmkGPrfzPgtIIiRFhoDtKo2igw=",
+    "originContent": "- 3.2 Multiple Linear Regression  ",
+    "translatedContent": "- 3.2 다중 선형 회귀  "
+  },
+  {
+    "row": 46,
+    "rowsha": "J65ZcD6j3iPty+B8DpzssiJRUBEuiGUm2BIkpcTJRj0=",
+    "originContent": "- 3.3 Model Diagnosis",
+    "translatedContent": "- 3.3 모델 진단"
+  },
+  {
+    "row": 47,
+    "rowsha": "tWF9WFE2NvOMmt/Yf0QI1kgZRfCbOGbcKx+ZuEL8vYU=",
+    "originContent": "- 3.4 Multivariate Regression",
+    "translatedContent": "- 3.4 다변량 회귀"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "KWfxFNIdSM5eS8RVcqyb1GnSl9DsSjy/xjM0amWSWa0=",
+    "originContent": "### **Module 4: Capital Asset Pricing Model (CAPM)**",
+    "translatedContent": "### **모듈 4: 자본자산가격모형 (CAPM)**"
+  },
+  {
+    "row": 50,
+    "rowsha": "T7QBh9tCNWMoyDzlo5s/u+b1lkAKsjC55tepjg8Duyg=",
+    "originContent": "- 4.1 Naive CAPM  ",
+    "translatedContent": "- 4.1 단순 CAPM  "
+  },
+  {
+    "row": 51,
+    "rowsha": "cDyG0Ing3NQHo+2r00fb5VkzWAPskbaz7nkjFsIdNr0=",
+    "originContent": "- 4.2 Time-Weighted CAPM  ",
+    "translatedContent": "- 4.2 시간 가중 CAPM  "
+  },
+  {
+    "row": 52,
+    "rowsha": "G1NMr4jbNFPqYOI+5SDywZtzSD9UYvv9co4bJo+QtJo=",
+    "originContent": "- 4.3 Betas for the Whole Benchmark",
+    "translatedContent": "- 4.3 전체 벤치마크 베타"
+  },
+  {
+    "row": 53,
+    "rowsha": "I24lEfLaNMXS+VX1pugm5id4xp5iRQR5B3sc4gMtSn4=",
+    "originContent": "- 4.4 Betting Agains Beta Strategies",
+    "translatedContent": "- 4.4 베타 역배팅 전략"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "hoHbcheHvxREQXPrNXfiF1LcgcTbqjLzwF4LIeTQvxk=",
+    "originContent": "### **Module 5: Fama & French Model**",
+    "translatedContent": "### **모듈 5: 파마 & 프렌치 모델**"
+  },
+  {
+    "row": 56,
+    "rowsha": "W9IMgrDHMN1VQIZj/L6BIuotMp5CYnLaNku/D3rcYWs=",
+    "originContent": "- 5.1 Proving Size and Value",
+    "translatedContent": "- 5.1 사이즈 및 가치 증명"
+  },
+  {
+    "row": 57,
+    "rowsha": "s4lhrURJCVglkJe4d8nVUVBq7Ch3gosvHpYvdPAV3Jg=",
+    "originContent": "- 5.2 Proving Momentum and Momentum Strategies",
+    "translatedContent": "- 5.2 모멘텀 및 모멘텀 전략 증명"
+  },
+  {
+    "row": 58,
+    "rowsha": "piug6rPca4jA4d+Iq+T6BauS46mRyKhhpxRxlEgZa7k=",
+    "originContent": "- 5.3 Fama & French Model Specification  ",
+    "translatedContent": "- 5.3 파마 & 프렌치 모델 명세  "
+  },
+  {
+    "row": 59,
+    "rowsha": "jQaUyePVp4eDeD3WKmblZFhcmcG7Tk0xL9DnXBLZdQ4=",
+    "originContent": "- 5.4 Fama-MacBeth Regressions",
+    "translatedContent": "- 5.4 파마-맥베스 회귀"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "x5bSf0NGTRbmjEm1yYXi8CmvMHtUyV9ZROxghhHZ1Qs=",
+    "originContent": "### **Module 6: Performance and Risk Attribution**",
+    "translatedContent": "### **모듈 6: 성과 및 위험 귀속**"
+  },
+  {
+    "row": 62,
+    "rowsha": "qx7D3/gWCnC7FwnsByMu4g6RwXBsCSIJPfJIaU9kGgw=",
+    "originContent": "- 6.1 Brinson-Fachler Model  ",
+    "translatedContent": "- 6.1 브린슨-파클러 모델  "
+  },
+  {
+    "row": 63,
+    "rowsha": "a8sSDz75LMHiUvBaN2AKLP3amdMH3yAxD6VxHP3R4WM=",
+    "originContent": "- 6.2 Performance Attribution for Factor Models   ",
+    "translatedContent": "- 6.2 팩터 모델 성과 귀속   "
+  },
+  {
+    "row": 64,
+    "rowsha": "nJI+Xt7yKDHpdWcr9r90UHbiv1gIaJztdk9b3/u5EBY=",
+    "originContent": "- 6.3 Menchero Risk Attribution",
+    "translatedContent": "- 6.3 멘체로 위험 귀속"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "+35e95xV3qqql8jt26DWouNQhanD3T7J3Glv8AouJok=",
+    "originContent": "### **Module 7: Visualization and Analytics**",
+    "translatedContent": "### **모듈 7: 시각화 및 분석**"
+  },
+  {
+    "row": 67,
+    "rowsha": "2MMalr/vVR78N+4E4KMJq15LsT9KVy5vsRC/tAY8xgM=",
+    "originContent": "- 7.1 MatPlotLib ",
+    "translatedContent": "- 7.1 매트플롯립 "
+  },
+  {
+    "row": 68,
+    "rowsha": "hMYQyZXTk6Ka1jkTDO2EqIFPhC6swIt467SbFNA+SeQ=",
+    "originContent": "- 7.2 Seaborn ",
+    "translatedContent": "- 7.2 씨본 "
+  },
+  {
+    "row": 69,
+    "rowsha": "PjsBdBFB3DnyOJIIcjHJ7/IN0fHv2dPWBYKuVXa9ocM=",
+    "originContent": "- 7.3 Plotly",
+    "translatedContent": "- 7.3 플로틀리"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "Q5EzejdfL3VNlY+b/GSeWUa6k1FRnTLCRG2ZChW5X6g=",
+    "originContent": "## 🛠️ Technologies",
+    "translatedContent": "## 🛠️ 기술"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "0yF/vPvMo0gmBvM+C2/c5mgZOy7G8J5chF9uB6Rm4+E=",
+    "originContent": "- Python  ",
+    "translatedContent": "- 파이썬  "
+  },
+  {
+    "row": 76,
+    "rowsha": "t1+KM5tNLR08No4+iTKsT44IolVVrqxIZB2J55f3q6o=",
+    "originContent": "- Jupyter Notebooks  ",
+    "translatedContent": "- 주피터 노트북  "
+  },
+  {
+    "row": 77,
+    "rowsha": "+gw/zqNM1Ct/TgfAH0/K4yvKu9aqwxnjoD9wVKBO76M=",
+    "originContent": "- Pandas, NumPy, Matplotlib, StatsModels, Seaborn, Plotly",
+    "translatedContent": "- 판다스, 넘파이, 매트플롯립, StatsModels, 씨본, 플로틀리"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "CIlJ/QzpE131KgjGvnZKU42zkUWrIuMAQ7zQINkIjIs=",
+    "originContent": "## 📚 Data Sources",
+    "translatedContent": "## 📚 데이터 출처"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "HiDBicPgGSuLg7dTlcjyu6xq5xINxtLPSiy06SDrfY8=",
+    "originContent": "- Yahoo Finance [link](https://pypi.org/project/yfinance/)",
+    "translatedContent": "- 야후 파이낸스 [링크](https://pypi.org/project/yfinance/)"
+  },
+  {
+    "row": 84,
+    "rowsha": "tku4X7WB5Ii+zoGZKitFC4w50SbsmWkf4qEl7sU2z4s=",
+    "originContent": "- FRED API [link](https://fred.stlouisfed.org/)",
+    "translatedContent": "- FRED API [링크](https://fred.stlouisfed.org/)"
+  },
+  {
+    "row": 85,
+    "rowsha": "rAABN14SuP1J27lspXzfA9FLYwG0I0Es8Pba01Qa3XU=",
+    "originContent": "- Fama & French Website [link](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html)",
+    "translatedContent": "- 파마 & 프렌치 웹사이트 [링크](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html)"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "SMKjuv4AJLTtN93l/YjBGflKQvpKE0ARjHKFpYn/L/c=",
+    "originContent": "## 📩 Contact",
+    "translatedContent": "## 📩 연락처"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "skDlT6yOWP6yLBfmxKKtEdiOBKhgT5+I/5z2S8oBzeQ=",
+    "originContent": "For questions, please reach out to:  ",
+    "translatedContent": "문의 사항은 다음으로 연락해 주세요:  "
+  },
+  {
+    "row": 92,
+    "rowsha": "D8p2aIJpdCCDZhW7ujlkfxRlQGG2EgblgQ+YugK1LAQ=",
+    "originContent": "**Daniel Barrera** – [LinkedIn](https://www.linkedin.com/in/danielrbarrera/)  ",
+    "translatedContent": "**다니엘 바레라** – [LinkedIn](https://www.linkedin.com/in/danielrbarrera/)  "
+  },
+  {
+    "row": 93,
+    "rowsha": "+TmnCYZSgkdEQcVWl8tFMICBSRiOo/UcT1aLXrhrBbs=",
+    "originContent": "**Edgar Alcántara** – [LinkedIn](https://www.linkedin.com/in/edgarallo0/)",
+    "translatedContent": "**에드가 알칸타라** – [LinkedIn](https://www.linkedin.com/in/edgarallo0/)"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

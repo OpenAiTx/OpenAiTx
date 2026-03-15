@@ -49,24 +49,24 @@
 
 # AnymeX：多服務追蹤客戶端
 
-**AnymeX** 是一款專為管理和追蹤動畫及漫畫進度而設計的多服務追蹤客戶端，支援 [**AniList**](https://anilist.co/)、[**MyAnimeList**](https://myanimelist.net/) 及 [**Simkl**](https://simkl.com/)。
+**AnymeX** 是專為管理與追蹤動畫及漫畫進度而設計的多服務追蹤客戶端，支援 [**AniList**](https://anilist.co/)、[**MyAnimeList**](https://myanimelist.net/) 和 [**Simkl**](https://simkl.com/)。
 
-> [!IMPORTANT]  
-> **AnymeX 僅為追蹤工具。** 本軟體不會託管、提供、分發或支持任何串流內容、媒體或第三方擴充套件。  
+> [!重要]  
+> **AnymeX 僅為追蹤工具。** 它不提供、分發、托管或支持任何串流內容、媒體或第三方擴展。  
 >  
-> **使用者責任：** 使用者需自行負責如何使用本應用程式，以及他們選擇與之互動的任何第三方服務或擴充套件。使用者必須遵守所有適用法律、版權及智慧財產權。  
+> **用戶責任：** 用戶需自行負責其使用本應用及任何第三方服務或擴展的行為。用戶須遵守所有相關法律、版權及智慧財產權。  
 >  
-> **免責聲明：** AnymeX 開發者對於任何誤用、法律問題或因使用者行為而產生的違規行為概不負責。法律相關問題（包括 DMCA 申訴）應直接聯繫相應的第三方服務，而非 AnymeX。此應用程式以「現狀」提供，並不附帶任何保證。  
+> **免責聲明：** AnymeX 開發者對因用戶行為導致的誤用、法律問題或違規行為不承擔任何責任。法律相關問題（包括 DMCA 申訴）應向各第三方服務提出，而非 AnymeX。此應用以「現狀」提供，無任何保證。  
 >  
-> **服務：** AnymeX 僅與支援服務（AniList、MyAnimeList、Simkl）之官方 API 整合。第三方擴充套件由其創作者負責，與 AnymeX 開發者無關。  
+> **服務：** AnymeX 僅整合所支持服務（AniList、MyAnimeList、Simkl）之官方 API。第三方擴展由其創作者負責，AnymeX 開發者不負責。  
 >  
-> **使用 AnymeX 即表示您同意遵守我們的 [服務條款](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md)。請查閱服務條款，以了解我們符合法律規範、僅限追蹤功能，以及我們對 AniList、MyAnimeList、Simkl 以外內容或服務的不涉入。**
+> **使用 AnymeX，即表示您同意遵守我們的[服務條款](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md)。請詳閱服務條款，以了解我們符合 DMCA 的追蹤功能，以及我們僅限 AniList、MyAnimeList 和 Simkl，不涉及其他內容或服務。**
 
 ## 下載
 
 <div align="center">
   <p>
-    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a>
+    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a> <a href="https://github.com/Shebyyy/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/Shebyyy/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Beta" alt="Latest Beta Release"/></a>
   </p>
   
 ### Windows
@@ -163,6 +163,6 @@ AnymeX 採用 MIT 授權條款。更多資訊可參考 [此處](https://raw.gith
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-15
 
 ---

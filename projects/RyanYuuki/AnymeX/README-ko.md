@@ -47,26 +47,26 @@
 <a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX: 다중 서비스 추적 클라이언트
+# AnymeX: 다중 서비스 트래킹 클라이언트
 
-**AnymeX**는 [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), 그리고 [**Simkl**](https://simkl.com/)에서 애니메이션 및 만화 진행 상황을 관리하고 추적하기 위해 특별히 설계된 다중 서비스 추적 클라이언트입니다.
+**AnymeX**는 [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), [**Simkl**](https://simkl.com/)에서 애니메이션과 만화의 진행 상황을 관리하고 추적하기 위해 설계된 다중 서비스 트래킹 클라이언트입니다.
 
-> [!중요]  
-> **AnymeX는 추적 도구일 뿐입니다.** 스트리밍 콘텐츠, 미디어, 또는 타사 확장 프로그램을 호스팅, 제공, 배포하거나 추천하지 않습니다.  
+> [!IMPORTANT]  
+> **AnymeX는 오직 트래킹 도구입니다.** 스트리밍 콘텐츠, 미디어, 또는 제3자 확장 기능을 호스팅, 제공, 배포하거나 이를 지지하지 않습니다.  
 >  
-> **사용자 책임:** 사용자는 앱과 타사 서비스 또는 확장 프로그램을 어떻게 사용하는지에 대해 전적으로 책임을 집니다. 모든 관련 법률, 저작권 및 지적 재산권을 준수해야 합니다.  
+> **사용자 책임:** 사용자는 앱 및 선택적으로 사용하는 제3자 서비스, 확장 기능의 사용에 대해 전적으로 책임집니다. 사용자는 모든 관련 법률, 저작권, 지적 재산권을 준수해야 합니다.  
 >  
-> **책임 없음:** AnymeX 개발자는 사용자 행동으로 인한 오용, 법적 문제 또는 위반에 대해 모든 책임을 부인합니다. DMCA 클레임 등 법적 문제는 각 타사 서비스로 문의해야 하며, AnymeX로 문의하지 마십시오. 앱은 "있는 그대로" 제공되며 어떠한 보증도 없습니다.  
+> **책임 부인:** AnymeX 개발자는 사용자 행위에서 발생하는 오용, 법적 문제, 위반 사항에 대해 모든 책임을 부인합니다. 법적 문제(예: DMCA 클레임)는 AnymeX가 아닌 해당 제3자 서비스에 문의해야 합니다. 이 앱은 "있는 그대로" 제공되며, 어떠한 보증도 하지 않습니다.  
 >  
-> **서비스:** AnymeX는 지원 서비스(AniList, MyAnimeList, Simkl)의 공식 API만 통합합니다. 타사 확장 프로그램은 그 제작자가 책임지며, AnymeX 개발자는 책임지지 않습니다.  
+> **서비스:** AnymeX는 지원되는 서비스(AniList, MyAnimeList, Simkl)의 공식 API만 통합합니다. 제3자 확장 기능은 해당 제작자에게 책임이 있으며, AnymeX 개발자와는 무관합니다.  
 >  
-> **AnymeX를 사용함으로써, 귀하는 [서비스 이용 약관](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md)을 준수하는 데 동의하게 됩니다. DMCA 준수, 추적 기능, AniList, MyAnimeList, Simkl 외의 콘텐츠 및 서비스 비관여 방침을 이해하기 위해 약관을 반드시 검토해 주십시오.**
+> **AnymeX를 사용함으로써, [이용 약관](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md)을 준수하는 것에 동의합니다. DMCA 준수, 트래킹 기능, AniList, MyAnimeList, Simkl을 제외한 콘텐츠 및 서비스에 대한 비관여 사항을 이해하기 위해 약관을 반드시 확인해 주십시오.**
 
 ## 다운로드
 
 <div align="center">
   <p>
-    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a>
+    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a> <a href="https://github.com/Shebyyy/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/Shebyyy/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Beta" alt="Latest Beta Release"/></a>
   </p>
   
 ### Windows
@@ -163,6 +163,6 @@ AnymeX는 MIT 라이선스 하에 제공됩니다. 자세한 정보는 [여기](
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-15
 
 ---

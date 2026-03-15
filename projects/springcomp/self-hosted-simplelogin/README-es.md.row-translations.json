@@ -1,189 +1,189 @@
 [
   {
     "row": 1,
-    "rowsha": "LqpZd7cncruDkwuosXn6otMoPrmneaQwAcnHM+iakcI=",
-    "originContent": "# SimpleLogin",
-    "translatedContent": "# SimpleLogin"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 2,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+    "originContent": "<div align=\"right\">",
+    "translatedContent": "<div align=\"right\">"
   },
   {
     "row": 3,
-    "rowsha": "yShzV/KSLwy6peR9X5gc/jQ6A7/QojYDiGFjDXoDrb8=",
-    "originContent": "This is a self-hosted docker-compose configuration for [SimpleLogin](https://simplelogin.io).",
-    "translatedContent": "Esta es una configuración de docker-compose autoalojada para [SimpleLogin](https://simplelogin.io)."
+    "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+    "originContent": "  <details>",
+    "translatedContent": "  <details>"
   },
   {
     "row": 4,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+    "originContent": "    <summary >🌐 Language</summary>",
+    "translatedContent": "    <summary >🌐 Idioma</summary>"
   },
   {
     "row": 5,
-    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
-    "originContent": "## Prerequisites",
-    "translatedContent": "## Requisitos previos"
+    "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+    "originContent": "    <div>",
+    "translatedContent": "    <div>"
   },
   {
     "row": 6,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+    "originContent": "      <div align=\"center\">",
+    "translatedContent": "      <div align=\"center\">"
   },
   {
     "row": 7,
-    "rowsha": "FheHqqvUyBV25/ZzYjhLDb+/xr8hBQK1Fb4rT7z7sVw=",
-    "originContent": "- a Linux server (either a VM or dedicated server). This doc shows the setup for Ubuntu 18.04 LTS but the steps could be adapted for other popular Linux distributions. As most of components run as Docker container and Docker can be a bit heavy, having at least 2 GB of RAM is recommended. The server needs to have the port 25 (email), 80, 443 (for the webapp), 22 (so you can ssh into it) open.",
-    "translatedContent": "- un servidor Linux (ya sea una VM o un servidor dedicado). Este documento muestra la configuración para Ubuntu 18.04 LTS pero los pasos podrían adaptarse para otras distribuciones populares de Linux. Como la mayoría de los componentes se ejecutan como contenedores Docker y Docker puede ser un poco pesado, se recomienda tener al menos 2 GB de RAM. El servidor debe tener abiertos los puertos 25 (correo electrónico), 80, 443 (para la aplicación web), 22 (para que puedas acceder por ssh)."
+    "rowsha": "t1x6NWcjfWwJ1TXguwIkgAv63+2w4ZP4aVSoZcdRHn8=",
+    "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=en\">English</a>",
+    "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=en\">English</a>"
   },
   {
     "row": 8,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "I/o6nO1ywBQZCwq0R9zcgxlcs8p1ACY+G5bvO+xw+pU=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=zh-CN\">简体中文</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=zh-CN\">简体中文</a>"
   },
   {
     "row": 9,
-    "rowsha": "pAZ5Fe8Wp4VsT7VyX+PVX/y+SDkbsMmg28drQ1xFxG0=",
-    "originContent": "- a domain for which you can config the DNS. It could be a sub-domain. In the rest of the doc, let's say it's `mydomain.com` for the email and `app.mydomain.com` for SimpleLogin webapp. Please make sure to replace these values by your domain name and subdomain name whenever they appear in the doc. A trick we use is to download this README file on your computer and replace all `mydomain.com` and `app.mydomain.com` occurrences by your domain.",
-    "translatedContent": "- un dominio para el cual puedas configurar el DNS. Podría ser un subdominio. En el resto del documento, diremos que es `mydomain.com` para el correo y `app.mydomain.com` para la aplicación web de SimpleLogin. Por favor asegúrate de reemplazar estos valores por tu nombre de dominio y subdominio cada vez que aparezcan en el documento. Un truco que usamos es descargar este archivo README en tu computadora y reemplazar todas las ocurrencias de `mydomain.com` y `app.mydomain.com` por tu dominio."
+    "rowsha": "nHDpf5pzwVjnbH7+IN4VVFxdBcGSZGwJ4t5pYZCjAhs=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=zh-TW\">繁體中文</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=zh-TW\">繁體中文</a>"
   },
   {
     "row": 10,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "e1pEbMw3BWrY9wE0+v7gq1Q6t4b2b0khgOEwg6BwEag=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ja\">日本語</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ja\">日本語</a>"
   },
   {
     "row": 11,
-    "rowsha": "jtnqRQhHjEANwcvx8gNH8kbFmemX2VxgU0t8U6VNQ+Y=",
-    "originContent": "Except for the DNS setup that is usually done on your domain registrar interface, all the below steps are to be done on your server. The commands are to run with `bash` (or any bash-compatible shell like `zsh`) being the shell. If you use other shells like `fish`, please make sure to adapt the commands.",
-    "translatedContent": "Excepto la configuración del DNS que usualmente se hace en la interfaz de tu registrador de dominio, todos los pasos siguientes deben hacerse en tu servidor. Los comandos deben ejecutarse con `bash` (o cualquier shell compatible con bash como `zsh`) siendo la shell. Si usas otras shells como `fish`, asegúrate de adaptar los comandos."
+    "rowsha": "LDZZ8VdXa4PRRRdqG62BcsktKh7YxZkuo/2iiOngW+c=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ko\">한국어</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ko\">한국어</a>"
   },
   {
     "row": 12,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "g3Wu1X59rRI6fKDme7uC0ks9D3g0dTKGET1XRlk6mqI=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=hi\">हिन्दी</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=hi\">हिन्दी</a>"
   },
   {
     "row": 13,
-    "rowsha": "Q8Zzyr3EeNn4+MQjr42O2IGA4JcXhJaipvXNK8v7F5o=",
-    "originContent": "- Some utility packages used to verify the setup. Install them by:",
-    "translatedContent": "- Algunos paquetes de utilidad usados para verificar la configuración. Instálalos con:"
+    "rowsha": "OnFy2kflQeV5+GneA9Et/7fyF/Kt5HfzdItcIRfzSGc=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=th\">ไทย</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=th\">ไทย</a>"
   },
   {
     "row": 14,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "D5jFyoAZ2+4vuqYhGZSf22sLgqwdtfKUvVhhgorbMlk=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=fr\">Français</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=fr\">Français</a>"
   },
   {
     "row": 15,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
+    "rowsha": "5bwWz1Wwp6TT3ImAtr9xqjSEojH4KjvNnJiGJNy6+3E=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=de\">Deutsch</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=de\">Deutsch</a>"
   },
   {
     "row": 16,
-    "rowsha": "/fQNUFkfoj7Gymro7/VDM026ZvdsVMmgrN0hoQTIA4k=",
-    "originContent": "sudo apt update \\",
-    "translatedContent": "sudo apt update \\"
+    "rowsha": "L25b+3RLOl6VBpWz2OMkbx0kpjy2xHcQcHB88O9RHp4=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=es\">Español</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=es\">Español</a>"
   },
   {
     "row": 17,
-    "rowsha": "WRrpc054h3R5zdkBptNcr8Uva1bhTMEWQukf5OQZPg0=",
-    "originContent": "  && sudo apt install -y net-tools dnsutils",
-    "translatedContent": "  && sudo apt install -y net-tools dnsutils"
+    "rowsha": "HLISae3nA17d9Rn5tPsAndiol8PKAf+Lqn4DA/2Vk/k=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=it\">Italiano</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=it\">Italiano</a>"
   },
   {
     "row": 18,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
+    "rowsha": "hroIzatCRRbrQl1ull14atA+qbtX0tbLvSSM/w94cPs=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ru\">Русский</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ru\">Русский</a>"
   },
   {
     "row": 19,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "qYJi25lpNzItUfhKlFBdmRK9kUfu5bPkoZpfzxxOLy0=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=pt\">Português</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=pt\">Português</a>"
   },
   {
     "row": 20,
-    "rowsha": "BqPDtABwyRuSqzmzobTfwbmrBACJY0YnPbUVnltTmIk=",
-    "originContent": "## DNS Configuration",
-    "translatedContent": "## Configuración DNS"
+    "rowsha": "IGDzyiiuo1dVQk6na62SC9O1SVl6zK4g6SdMV/ls1eA=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=nl\">Nederlands</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=nl\">Nederlands</a>"
   },
   {
     "row": 21,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "kxYeqVR4Gt8d35fKq9dbZ7wl0LOteUp3dI2qTKgiFpc=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=pl\">Polski</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=pl\">Polski</a>"
   },
   {
     "row": 22,
-    "rowsha": "/mv+Rokuibr4xWxloFCB1hI75Le1LDO8NxfvucfGGVo=",
-    "originContent": "_Refer to the [reference documentation](https://github.com/springcomp/self-hosted-simplelogin/wiki/DNS-Configuration) for more details_",
-    "translatedContent": "_Consulte la [documentación de referencia](https://github.com/springcomp/self-hosted-simplelogin/wiki/DNS-Configuration) para más detalles_"
+    "rowsha": "Y2BloMAFRuar0FAADeR0sZ7Ar++4T1sf797O5WXQtD0=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ar\">العربية</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ar\">العربية</a>"
   },
   {
     "row": 23,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "yRHUsTsALBn/MWWstBe9WM2Q82m3uRwVOjmf82OjxO0=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=fa\">فارسی</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=fa\">فارسی</a>"
   },
   {
     "row": 24,
-    "rowsha": "L/YDr7mlT6CEA67DGHeD358+gVOMfcFT3lOO/ZZn7jg=",
-    "originContent": "> **Please note** that DNS changes could take up to 24 hours to propagate. In practice, it's a lot faster though (~1 minute or so in our test). In DNS setup, we usually use domain with a trailing dot (`.`) at the end to to force using absolute domain.",
-    "translatedContent": "> **Tenga en cuenta** que los cambios en DNS pueden tardar hasta 24 horas en propagarse. En la práctica, sin embargo, es mucho más rápido (~1 minuto aproximadamente en nuestra prueba). En la configuración DNS, generalmente usamos el dominio con un punto final (`.`) para forzar el uso del dominio absoluto."
+    "rowsha": "KlGfHW+Qlr6K+5MROgfm0RWc0S/IOWqMCtJE7xWC+2g=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=tr\">Türkçe</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=tr\">Türkçe</a>"
   },
   {
     "row": 25,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "R5ECW8qzErsC3n77Uf6qOwmPgMDh4yoGG29Cw24Bhd0=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=vi\">Tiếng Việt</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=vi\">Tiếng Việt</a>"
   },
   {
     "row": 26,
-    "rowsha": "J/4EqkXb3wa/NZEJn0pJlUzj9rXrAYNS5WPEZg6WmKE=",
-    "originContent": "You will need to setup the following DNS records:",
-    "translatedContent": "Necesitará configurar los siguientes registros DNS:"
+    "rowsha": "leuQYs0tfyX5sE5CdwTzYRPz7rrCb4t5lnBAun57P/A=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=id\">Bahasa Indonesia</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=id\">Bahasa Indonesia</a>"
   },
   {
     "row": 27,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "winDQ7kQ6lsU7ktlqtNuqopEr9+pn833SGt/iUhBRqU=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=as\">অসমীয়া</",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=as\">অসমীয়া</"
   },
   {
     "row": 28,
-    "rowsha": "WjcYfUcSqLhwgruDiMj1Hbr0iNuO0S9bAB2Ng+3wNok=",
-    "originContent": "- **A**: Maps your domain to your server's IPv4 address.",
-    "translatedContent": "- **A**: Asocia su dominio con la dirección IPv4 de su servidor."
+    "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+    "originContent": "      </div>",
+    "translatedContent": "      </div>"
   },
   {
     "row": 29,
-    "rowsha": "JKsaVNUieik9Ku7Y+5qN4MZ9k8ZA3HYeqcx4q2+kmkY=",
-    "originContent": "- **AAAA**: Maps your domain to your server's IPv6 address.",
-    "translatedContent": "- **AAAA**: Asocia su dominio con la dirección IPv6 de su servidor."
+    "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+    "originContent": "    </div>",
+    "translatedContent": "    </div>"
   },
   {
     "row": 30,
-    "rowsha": "aFAjZpJiLDnt1TIeq+DjbIzDQ0hlEConUNj9pBExvyw=",
-    "originContent": "- **MX**: Directs incoming emails to your mail server (including `*` wildcards).",
-    "translatedContent": "- **MX**: Dirige los correos entrantes a su servidor de correo (incluyendo comodines `*`)."
+    "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+    "originContent": "  </details>",
+    "translatedContent": "  </details>"
   },
   {
     "row": 31,
-    "rowsha": "yXkwfAlsIfCISyQC0TlzuGzjKJFQKRZJrWuMYDC/PjI=",
-    "originContent": "- **PTR**: Maps your server's IP address back to your domain name.",
-    "translatedContent": "- **PTR**: Asocia la dirección IP de su servidor con su nombre de dominio."
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
   },
   {
     "row": 32,
@@ -193,9 +193,9 @@
   },
   {
     "row": 33,
-    "rowsha": "A3NLk9J4oLuGclgkw0SUlzDeQbBAZ218/0uDYIHxLfA=",
-    "originContent": "Set up mandatory security policies:",
-    "translatedContent": "Configure políticas de seguridad obligatorias:"
+    "rowsha": "LqpZd7cncruDkwuosXn6otMoPrmneaQwAcnHM+iakcI=",
+    "originContent": "# SimpleLogin",
+    "translatedContent": "# SimpleLogin"
   },
   {
     "row": 34,
@@ -205,21 +205,21 @@
   },
   {
     "row": 35,
-    "rowsha": "Z3NWYuvrAG+a8WgZVhm6GrxrAqT/srT9FQpGcx7fFlc=",
-    "originContent": "- **DKIM**: Digitally signs outgoing emails to verify authenticity.",
-    "translatedContent": "- **DKIM**: Firma digitalmente los correos salientes para verificar la autenticidad."
+    "rowsha": "yShzV/KSLwy6peR9X5gc/jQ6A7/QojYDiGFjDXoDrb8=",
+    "originContent": "This is a self-hosted docker-compose configuration for [SimpleLogin](https://simplelogin.io).",
+    "translatedContent": "Esta es una configuración autoalojada de docker-compose para [SimpleLogin](https://simplelogin.io)."
   },
   {
     "row": 36,
-    "rowsha": "kC/oIvO6UKj3ZZAA/6p/BxNKC1d/GyW7KT/7oTMYyr4=",
-    "originContent": "- **DMARC**: Defines how email receivers should handle messages failing authentication.",
-    "translatedContent": "- **DMARC**: Define cómo los receptores de correo deben manejar mensajes que fallan la autenticación."
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 37,
-    "rowsha": "ET2FOjVpExQdbYgiv8pJ7gYvRV2WEqu3NmMVV3o7FbE=",
-    "originContent": "- **SPF**: Authorizes specific mail servers to send emails from your domain.",
-    "translatedContent": "- **SPF**: Autoriza servidores de correo específicos para enviar correos desde su dominio."
+    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+    "originContent": "## Prerequisites",
+    "translatedContent": "## Requisitos previos"
   },
   {
     "row": 38,
@@ -229,9 +229,9 @@
   },
   {
     "row": 39,
-    "rowsha": "3xLFbATiKXnQPlAyQLmL/CbzmGg5Yc8f9j63C13C4dY=",
-    "originContent": "Additional steps:",
-    "translatedContent": "Pasos adicionales:"
+    "rowsha": "FheHqqvUyBV25/ZzYjhLDb+/xr8hBQK1Fb4rT7z7sVw=",
+    "originContent": "- a Linux server (either a VM or dedicated server). This doc shows the setup for Ubuntu 18.04 LTS but the steps could be adapted for other popular Linux distributions. As most of components run as Docker container and Docker can be a bit heavy, having at least 2 GB of RAM is recommended. The server needs to have the port 25 (email), 80, 443 (for the webapp), 22 (so you can ssh into it) open.",
+    "translatedContent": "- un servidor Linux (puede ser una máquina virtual o un servidor dedicado). Este documento muestra la configuración para Ubuntu 18.04 LTS pero los pasos pueden adaptarse a otras distribuciones populares de Linux. Como la mayoría de los componentes se ejecutan como contenedores Docker y Docker puede ser algo pesado, se recomienda tener al menos 2 GB de RAM. El servidor debe tener abiertos los puertos 25 (correo electrónico), 80, 443 (para la aplicación web), 22 (para poder acceder por SSH)."
   },
   {
     "row": 40,
@@ -241,21 +241,21 @@
   },
   {
     "row": 41,
-    "rowsha": "Y6xDySIiuZQxZVRoCikHsKmhC3+lEz/G6FKDFtfjTB0=",
-    "originContent": "- **CAA**: Specifies which certificate authorities are allowed to issue SSL certificates for your domain.",
-    "translatedContent": "- **CAA**: Especifica qué autoridades certificadoras pueden emitir certificados SSL para su dominio."
+    "rowsha": "pAZ5Fe8Wp4VsT7VyX+PVX/y+SDkbsMmg28drQ1xFxG0=",
+    "originContent": "- a domain for which you can config the DNS. It could be a sub-domain. In the rest of the doc, let's say it's `mydomain.com` for the email and `app.mydomain.com` for SimpleLogin webapp. Please make sure to replace these values by your domain name and subdomain name whenever they appear in the doc. A trick we use is to download this README file on your computer and replace all `mydomain.com` and `app.mydomain.com` occurrences by your domain.",
+    "translatedContent": "- un dominio para el cual puedas configurar el DNS. Puede ser un subdominio. En el resto del documento, supongamos que es `mydomain.com` para el correo electrónico y `app.mydomain.com` para la aplicación web de SimpleLogin. Por favor, asegúrate de reemplazar estos valores por el nombre de tu dominio y subdominio cada vez que aparezcan en el documento. Un truco que usamos es descargar este archivo README en tu computadora y reemplazar todas las ocurrencias de `mydomain.com` y `app.mydomain.com` por tu dominio."
   },
   {
     "row": 42,
-    "rowsha": "GqJyqjSEiQ0v5xkAv505sPYVKYSoLBllKkIa4DMkFGM=",
-    "originContent": "- **MTA-STS**: Enforces secure, encrypted connections between mail servers.",
-    "translatedContent": "- **MTA-STS**: Impone conexiones seguras y cifradas entre servidores de correo."
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 43,
-    "rowsha": "YD0uS1rvLsoY9sPEYkxvo8qe0cQovr2jJkK7cPraBic=",
-    "originContent": "- **TLS-RPT**: Reports TLS connection failures to improve email delivery security.",
-    "translatedContent": "- **TLS-RPT**: Reporta fallos en conexiones TLS para mejorar la seguridad en la entrega de correo."
+    "rowsha": "jtnqRQhHjEANwcvx8gNH8kbFmemX2VxgU0t8U6VNQ+Y=",
+    "originContent": "Except for the DNS setup that is usually done on your domain registrar interface, all the below steps are to be done on your server. The commands are to run with `bash` (or any bash-compatible shell like `zsh`) being the shell. If you use other shells like `fish`, please make sure to adapt the commands.",
+    "translatedContent": "Excepto la configuración de DNS, que normalmente se realiza en la interfaz de tu registrador de dominios, todos los pasos a continuación deben hacerse en tu servidor. Los comandos deben ejecutarse con `bash` (o cualquier shell compatible con bash, como `zsh`) como la shell. Si usas otros shells como `fish`, por favor asegúrate de adaptar los comandos."
   },
   {
     "row": 44,
@@ -265,828 +265,12 @@
   },
   {
     "row": 45,
-    "rowsha": "HplAuQWvnoBthTauyCO7a1W3MHQ8ZxsiDNevkzcZrZ8=",
-    "originContent": "**Warning**: setting up a CAA record will restrict which certificate authority can successfully issue SSL certificates for your domain.",
-    "translatedContent": "**Advertencia**: configurar un registro CAA restringirá qué autoridad certificadora puede emitir certificados SSL exitosamente para su dominio."
+    "rowsha": "Q8Zzyr3EeNn4+MQjr42O2IGA4JcXhJaipvXNK8v7F5o=",
+    "originContent": "- Some utility packages used to verify the setup. Install them by:",
+    "translatedContent": "- Algunos paquetes de utilidades utilizados para verificar la configuración. Instálalos mediante:"
   },
   {
     "row": 46,
-    "rowsha": "b+ma0iYTdmRjtbbitNjX7dOV181AFrVhc5BwFZGLeC0=",
-    "originContent": "This will prevent certificate issuance from Let’s Encrypt staging servers. You may want to differ this DNS record until after SSL certificates are successfully issued for your domain.",
-    "translatedContent": "Esto evitará la emisión de certificados desde los servidores de prueba de Let’s Encrypt. Puede que desee diferir este registro DNS hasta después de que los certificados SSL se hayan emitido con éxito para su dominio."
-  },
-  {
-    "row": 47,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 48,
-    "rowsha": "OBS1Iiz69xWrJ2BM+mQwYtnOOVslL8sxzMrBQ1KAfXI=",
-    "originContent": "## Docker",
-    "translatedContent": "## Docker"
-  },
-  {
-    "row": 49,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 50,
-    "rowsha": "Us39o3oieWrPFHUfZI4CtJaHcHA3Y79y0LSnHmdJvQ4=",
-    "originContent": "If you don't already have Docker installed on your server, please follow the steps on [Docker CE for Ubuntu](https://docs.docker.com/v17.12/install/linux/docker-ce/ubuntu/) to install Docker.",
-    "translatedContent": "Si aún no tiene Docker instalado en su servidor, por favor siga los pasos en [Docker CE para Ubuntu](https://docs.docker.com/v17.12/install/linux/docker-ce/ubuntu/) para instalar Docker."
-  },
-  {
-    "row": 51,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 52,
-    "rowsha": "dDUKARGQVgmgHYJKILB0Ij+/pm5aWRsXSoRL3f1WoI8=",
-    "originContent": "You can also install Docker using the [docker-install](https://github.com/docker/docker-install) script which is",
-    "translatedContent": "También puede instalar Docker usando el script [docker-install](https://github.com/docker/docker-install) que es"
-  },
-  {
-    "row": 53,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 54,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 55,
-    "rowsha": "4wht61O8vR4AW29wjJuQLC9qdvxRFi3Da4KDRgW+r5s=",
-    "originContent": "curl -fsSL https://get.docker.com | sh",
-    "translatedContent": "curl -fsSL https://get.docker.com | sh"
-  },
-  {
-    "row": 56,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 57,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "Habilitar IPv6 para [la red de puente predeterminada](https://docs.docker.com/config/daemon/ipv6/#use-ipv6-for-the-default-bridge-network)"
-  },
-  {
-    "row": 58,
-    "rowsha": "8S3cpWxs4ym29mls4IGvF/7/mEQwrdA+P0pgPqdDIIw=",
-    "originContent": "Enable IPv6 for [the default bridge network](https://docs.docker.com/config/daemon/ipv6/#use-ipv6-for-the-default-bridge-network)",
-    "translatedContent": ""
-  },
-  {
-    "row": 59,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 60,
-    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
-    "originContent": "```json",
-    "translatedContent": "```json"
-  },
-  {
-    "row": 61,
-    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-    "originContent": "{",
-    "translatedContent": "{"
-  },
-  {
-    "row": 62,
-    "rowsha": "brlUK12pekkZYWd9khH6EwfY1qv3G1elsVqdrCWRhsg=",
-    "originContent": "  \"ipv6\": true,",
-    "translatedContent": "  \"ipv6\": true,"
-  },
-  {
-    "row": 63,
-    "rowsha": "hnPr8Zkn5Jr1SKXg2y7XgEL8ZCTO3B8BGz1h290saQ4=",
-    "originContent": "  \"fixed-cidr-v6\": \"2001:db8:1::/64\",",
-    "translatedContent": "  \"fixed-cidr-v6\": \"2001:db8:1::/64\","
-  },
-  {
-    "row": 64,
-    "rowsha": "qeZQ2FbkjbBl68akDx6Lpp8QaAB9JLd1fIrrtXHVwaM=",
-    "originContent": "  \"experimental\": true,",
-    "translatedContent": "  \"experimental\": true,"
-  },
-  {
-    "row": 65,
-    "rowsha": "C8oLw0aa7Ttb5tEjV1rqd7L/DHe42jkXP+eaqyR249Q=",
-    "originContent": "  \"ip6tables\": true",
-    "translatedContent": "  \"ip6tables\": true"
-  },
-  {
-    "row": 66,
-    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-    "originContent": "}",
-    "translatedContent": "}"
-  },
-  {
-    "row": 67,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 68,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 69,
-    "rowsha": "NA/pZw8eF1DP7K4G79HaBVPOrfItLuBaNTSPTPOUvN0=",
-    "originContent": "This procedure will guide you through running the entire stack using Docker containers.",
-    "translatedContent": "Este procedimiento le guiará para ejecutar toda la pila usando contenedores Docker."
-  },
-  {
-    "row": 70,
-    "rowsha": "2rUmWOrIwGn2afMe+8uZ0gwKLoocBF7LS6xDScGUDcM=",
-    "originContent": "This includes:",
-    "translatedContent": "Esto incluye:"
-  },
-  {
-    "row": 71,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 72,
-    "rowsha": "CRqeoBiHDjX3UjLdO84pyBD8yPHVx41pbjCPi0OkMlI=",
-    "originContent": "- traefik",
-    "translatedContent": "- traefik"
-  },
-  {
-    "row": 73,
-    "rowsha": "1vCyv/9uBzwHahzn50UpHEtVq3WjHLcotU+FR5pKVXk=",
-    "originContent": "- The [SimpleLogin app](https://github.com/simple-login/app) containers",
-    "translatedContent": "- Los contenedores de la [aplicación SimpleLogin](https://github.com/simple-login/app)"
-  },
-  {
-    "row": 74,
-    "rowsha": "L3Sm58m20MjtwZ9gzH+522ignzo7k5Hhw9Es7yGR25E=",
-    "originContent": "- postfix",
-    "translatedContent": "- postfix"
-  },
-  {
-    "row": 75,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 76,
-    "rowsha": "5aXNPrcGfWzemzOBZRqe78YIt9M+V/Yegy7b/qD79Hw=",
-    "originContent": "Run SimpleLogin from Docker containers:",
-    "translatedContent": "Ejecute SimpleLogin desde contenedores Docker:"
-  },
-  {
-    "row": 77,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 78,
-    "rowsha": "3R66SBDN42eDc5e7a9jL4b0z4mHoYG4Ok7rlhM5uqfU=",
-    "originContent": "1. Clone this repository in `/opt/simplelogin`",
-    "translatedContent": "1. Clone este repositorio en `/opt/simplelogin`"
-  },
-  {
-    "row": 79,
-    "rowsha": "h8CNvIa+6odlXEONFv43qMMtVxIQxT5p3jxBv7NRyhI=",
-    "originContent": "1. Copy `.env.example` to `.env` and set appropriate values.",
-    "translatedContent": "1. Copie `.env.example` a `.env` y configure los valores apropiados."
-  },
-  {
-    "row": 80,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 81,
-    "rowsha": "ih+V9xULc+iOXaZwQ34TqHAv3dh4BGi9LM9zgfPenFs=",
-    "originContent": "    - set the `DOMAIN` variable to your domain.",
-    "translatedContent": "    - configure la variable `DOMAIN` con su dominio."
-  },
-  {
-    "row": 82,
-    "rowsha": "hu9TPiANrYaZZwOkIbqlo51zZGmwKnIb20O6cH1D86o=",
-    "originContent": "    - set the `SUBDOMAIN` variable to your domain. The default value is `app`.",
-    "translatedContent": "    - configure la variable `SUBDOMAIN` con su subdominio. El valor por defecto es `app`."
-  },
-  {
-    "row": 83,
-    "rowsha": "xsahXxsvLrJccGeodcr34Rpmi97ioeEvhULSD5cNjcE=",
-    "originContent": "    - set the `POSTGRES_USER` variable to match the postgres credentials (when starting from scratch, use `simplelogin`).",
-    "translatedContent": "    - configure la variable `POSTGRES_USER` para que coincida con las credenciales de postgres (cuando empiece desde cero, use `simplelogin`)."
-  },
-  {
-    "row": 84,
-    "rowsha": "NJn0f7ltAIPi/pSiNdBjZr1CPDXVPQ45sOnsoLJld58=",
-    "originContent": "    - set the `POSTGRES_PASSWORD` to match the postgres credentials (when starting from scratch, set to a random key).",
-    "translatedContent": "    - configure la variable `POSTGRES_PASSWORD` para que coincida con las credenciales de postgres (cuando empiece desde cero, establezca una clave aleatoria)."
-  },
-  {
-    "row": 85,
-    "rowsha": "ZM9y1sjcS3Vhof9xOHyMsDS1db6a0S73CChYD7b7gag=",
-    "originContent": "    - set the `FLASK_SECRET` to an arbitrary secret key.",
-    "translatedContent": "    - configure `FLASK_SECRET` con una clave secreta arbitraria."
-  },
-  {
-    "row": 86,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 87,
-    "rowsha": "IbjVzYH3F/oLRvw7IfDZQcARJmDdCFEaUpLeYmPG/Vk=",
-    "originContent": "### Postgres SQL",
-    "translatedContent": "### Postgres SQL"
-  },
-  {
-    "row": 88,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 89,
-    "rowsha": "UNtacVt+yvpnkpjtIQz2Hc0MzxGJi8tFBxTkMGvKKHk=",
-    "originContent": "This repository runs a postgres SQL in a Docker container.",
-    "translatedContent": "Este repositorio ejecuta un postgres SQL en un contenedor Docker."
-  },
-  {
-    "row": 90,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 91,
-    "rowsha": "tsPuxGLsgUSxKK53yQeqQBUZqVsQgsFqnEVAiBp3mDE=",
-    "originContent": "**Warning**: previous versions of this repository ran version `12.1`.",
-    "translatedContent": "**Advertencia**: versiones anteriores de este repositorio usaban la versión `12.1`."
-  },
-  {
-    "row": 92,
-    "rowsha": "PCDTub5mtuHeN6pJjcb93KGG0bEaetVS72YQzKRYa+s=",
-    "originContent": "Please, refer to the [reference documentation](https://github.com/springcomp/self-hosted-simplelogin/wiki/PostgreSQL) for more details and",
-    "translatedContent": "Por favor, consulte la [documentación de referencia](https://github.com/springcomp/self-hosted-simplelogin/wiki/PostgreSQL) para más detalles y"
-  },
-  {
-    "row": 93,
-    "rowsha": "ioXrmCLi5VEwCfIVeRFavXuSl5ETy4KlfGzynE6HNl0=",
-    "originContent": "upgrade instructions.",
-    "translatedContent": "las instrucciones de actualización."
-  },
-  {
-    "row": 94,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 95,
-    "rowsha": "yJFfX557D+wMJG/BWLPv57KtoSzXfLgWQosJYRW9FHw=",
-    "originContent": "### Running the application",
-    "translatedContent": "### Ejecutando la aplicación"
-  },
-  {
-    "row": 96,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 97,
-    "rowsha": "ss0Uxsxm0DgHn9z/LSpklZONETV5BqqRKuGavvBQXWs=",
-    "originContent": "Run the application using the following commands:",
-    "translatedContent": "Ejecute la aplicación usando los siguientes comandos:"
-  },
-  {
-    "row": 98,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 99,
-    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
-    "originContent": "```sh",
-    "translatedContent": "```sh"
-  },
-  {
-    "row": 100,
-    "rowsha": "rvrBrpqu0tk/9nZ3/XSn2Hn+KVJfenZF4KFfSYyS7+w=",
-    "originContent": "docker compose up --detach --remove-orphans --build && docker compose logs -f",
-    "translatedContent": "docker compose up --detach --remove-orphans --build && docker compose logs -f"
-  },
-  {
-    "row": 101,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 102,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 103,
-    "rowsha": "qctNATJrZL8sZU6jDfq6Sgpz0vpuHiabzlI/nEbWx5k=",
-    "originContent": "You may want to setup [Certificate Authority Authorization (CAA)](https://github.com/springcomp/self-hosted-simplelogin/wiki/dns-caa) at this point.",
-    "translatedContent": "Es posible que desee configurar [Autorización de Autoridad de Certificado (CAA)](https://github.com/springcomp/self-hosted-simplelogin/wiki/dns-caa) en este punto."
-  },
-  {
-    "row": 104,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 105,
-    "rowsha": "Ol2cvEnm5fDJg0ndHNfP5XE4B/xfAiNCQGIQMZJdHzI=",
-    "originContent": "## Next steps",
-    "translatedContent": "## Próximos pasos"
-  },
-  {
-    "row": 106,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 107,
-    "rowsha": "0TuWBftG9Fjn9E9vuCOp4LUS+MEWUFOQevRvzGChQgA=",
-    "originContent": "If all the above steps are successful, open <https://app.mydomain.com/> and create your first account!",
-    "translatedContent": "Si todos los pasos anteriores son exitosos, abra <https://app.mydomain.com/> y cree su primera cuenta."
-  },
-  {
-    "row": 108,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 109,
-    "rowsha": "yYcYjkAxn4QR01P42uBbUHG1oj11B97+Ty7gPwiin14=",
-    "originContent": "By default, new accounts are not premium so don't have unlimited aliases. To make your account premium,",
-    "translatedContent": "Por defecto, las cuentas nuevas no son premium, por lo que no tienen alias ilimitados. Para hacer que su cuenta sea premium,  "
-  },
-  {
-    "row": 110,
-    "rowsha": "M7RtYH/YxjHvNg4BxNaHXTdk79yO0b9OoFnb1lJ/UGY=",
-    "originContent": "please go to the database, table \"users\" and set \"lifetime\" column to \"1\" or \"TRUE\":",
-    "translatedContent": "por favor vaya a la base de datos, tabla \"users\" y establezca la columna \"lifetime\" a \"1\" o \"TRUE\":"
-  },
-  {
-    "row": 111,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 112,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 113,
-    "rowsha": "hOUm3NG6LxTiiPUoo/f0JvQl3ySuWOFCW4l+e4FS15E=",
-    "originContent": "docker compose exec -it postgres psql -U myuser simplelogin",
-    "translatedContent": "docker compose exec -it postgres psql -U myuser simplelogin"
-  },
-  {
-    "row": 114,
-    "rowsha": "QpP22YImbmOKpxntEhNBbzpa2/oLhw6gyk9vEtacYy8=",
-    "originContent": "> UPDATE users SET lifetime = TRUE;",
-    "translatedContent": "> UPDATE users SET lifetime = TRUE;"
-  },
-  {
-    "row": 115,
-    "rowsha": "W8sMC20p71mmGrktvaOnC7iRNSGbDxA/100MBUUstz4=",
-    "originContent": "> \\q",
-    "translatedContent": "> \\q"
-  },
-  {
-    "row": 116,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 117,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 118,
-    "rowsha": "5VjVJqyF+A786lrAc5N5a98pDpYMqJEmAcKxxJy7lS8=",
-    "originContent": "Once you've created all your desired login accounts, add these lines to `.env` to disable further registrations:",
-    "translatedContent": "Una vez que hayas creado todas las cuentas de inicio de sesión deseadas, agrega estas líneas a `.env` para deshabilitar más registros:"
-  },
-  {
-    "row": 119,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 120,
-    "rowsha": "dbgwbak9HW5TgEbWtR5ZtVRsu2dvkT/Yje52/4cKD48=",
-    "originContent": "```env",
-    "translatedContent": "```env"
-  },
-  {
-    "row": 121,
-    "rowsha": "p0RmaTZbc0xX5VK7vP8Jx/F6kOpMxLZLcJhuB2UV09c=",
-    "originContent": "DISABLE_REGISTRATION=1",
-    "translatedContent": "DISABLE_REGISTRATION=1"
-  },
-  {
-    "row": 122,
-    "rowsha": "ky7CjdiWZXKsM1JzFKSC7C7u0HgiQ1XUFgs8mcXQ9R0=",
-    "originContent": "DISABLE_ONBOARDING=true",
-    "translatedContent": "DISABLE_ONBOARDING=true"
-  },
-  {
-    "row": 123,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 124,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 125,
-    "rowsha": "bCHtQBvrxRlIzPsZmIWedvgdf2N/6glnE/eq62rRTno=",
-    "originContent": "Then, to restart the web app, apply: `docker compose restart app`",
-    "translatedContent": "Luego, para reiniciar la aplicación web, aplique: `docker compose restart app`"
-  },
-  {
-    "row": 126,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 127,
-    "rowsha": "WrSzKeIU/6Dm5S05K8KpCH0U33jBEpRu0vxAVBnlj2Q=",
-    "originContent": "## Miscellaneous",
-    "translatedContent": "## Misceláneos"
-  },
-  {
-    "row": 128,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 129,
-    "rowsha": "DaYgjTwRSSlZ/iwi8rRVw9c/4iP6kG0dbSITJE//BNQ=",
-    "originContent": "### Postfix configuration - Spamhaus",
-    "translatedContent": "### Configuración de Postfix - Spamhaus"
-  },
-  {
-    "row": 130,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 131,
-    "rowsha": "nBzLQKOmVZEBF1I15PPXPbuhbuhX7H2B0wbVzw4d64A=",
-    "originContent": "The Spamhaus Project maintains a reliable list of IP addresses known to be the source of SPAM.",
-    "translatedContent": "El Proyecto Spamhaus mantiene una lista confiable de direcciones IP conocidas por ser la fuente de SPAM."
-  },
-  {
-    "row": 132,
-    "rowsha": "IRwTXqhFNbgkWDaczYvhS7XM4Yvs3hh1Sh1awQHhKik=",
-    "originContent": "You can check whether a given IP address is in that list by submitting queries to the DNS infrastructure.",
-    "translatedContent": "Puede verificar si una dirección IP dada está en esa lista enviando consultas a la infraestructura DNS."
-  },
-  {
-    "row": 133,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 134,
-    "rowsha": "X4MvarcL3Mgs4sLqc6mth33IX4Ulrl1PcMcM24H3NC8=",
-    "originContent": "Since Spamhaus blocks queries coming from public (open) DNS-Resolvers (see: <https://check.spamhaus.org/returnc/pub>) and your postfix container may use",
-    "translatedContent": "Dado que Spamhaus bloquea consultas provenientes de resolutores DNS públicos (abiertos) (ver: <https://check.spamhaus.org/returnc/pub>) y su contenedor postfix puede usar"
-  },
-  {
-    "row": 135,
-    "rowsha": "4NL8pRoxX6Pdm/Bflzg5x61p1Krl2wfGomKwJPI+Uro=",
-    "originContent": "a public resolver by default, it is recommended to sign up for the free",
-    "translatedContent": "un resolutor público por defecto, se recomienda registrarse para obtener el servicio gratuito"
-  },
-  {
-    "row": 136,
-    "rowsha": "Dw3lniDawCcF+wR1FJ3kt12JDAWq6j9PyWbM8UWA2NU=",
-    "originContent": "[Spamhaus Data Query Service](https://www.spamhaus.com/free-trial/sign-up-for-a-free-data-query-service-account/)",
-    "translatedContent": "[Spamhaus Data Query Service](https://www.spamhaus.com/free-trial/sign-up-for-a-free-data-query-service-account/)"
-  },
-  {
-    "row": 137,
-    "rowsha": "1wfWFqdX/4bfPpk6wVpzvYOw/zLa4l+mv+Ei3+yAsbQ=",
-    "originContent": "and obtain a Spamhaus DQS key.",
-    "translatedContent": "y obtener una clave Spamhaus DQS."
-  },
-  {
-    "row": 138,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 139,
-    "rowsha": "SVbi9pMFc0phIP3iaJ+AsmnVtFgWRf5d0HdeRt/Sjzw=",
-    "originContent": "Paste this key as `SPAMHAUS_DQS_KEY` in your `.env`",
-    "translatedContent": "Pegue esta clave como `SPAMHAUS_DQS_KEY` en su `.env`"
-  },
-  {
-    "row": 140,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 141,
-    "rowsha": "tuwYQtuxNEjKf1yNPrA2hV+phDpUC31xFgll1aDGhaM=",
-    "originContent": "If no DQS-key is provided, your postfix container will check if the Spamhaus public mirrors are accepting its queries and use them instead.",
-    "translatedContent": "Si no se proporciona una clave DQS, su contenedor postfix verificará si los espejos públicos de Spamhaus aceptan sus consultas y los usará en su lugar."
-  },
-  {
-    "row": 142,
-    "rowsha": "4YVWJToTXrHGRshmgiFNe6PFg5FWBb59U0pxlqj2/wc=",
-    "originContent": "If Spamhaus rejects queries from your postfix container to the public mirrors, it will be disabled entirely.",
-    "translatedContent": "Si Spamhaus rechaza consultas de su contenedor postfix a los espejos públicos, se deshabilitará completamente."
-  },
-  {
-    "row": 143,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 144,
-    "rowsha": "TfrSdW1YicpffScNBSw6pnDYunLAJL3Dn7NRaPL8kKY=",
-    "originContent": "### Postfix configuration - Virtual aliases",
-    "translatedContent": "### Configuración de Postfix - Alias virtuales"
-  },
-  {
-    "row": 145,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 146,
-    "rowsha": "bWP0zo5ZCGSN9qnc8RSKnJdVTCL6WFgLOMn/tnezsDs=",
-    "originContent": "The postfix configuration supports virtual aliases using the `postfix/conf.d/virtual` and `postfix/conf.d/virtual-regexp` files.",
-    "translatedContent": "La configuración de postfix admite alias virtuales usando los archivos `postfix/conf.d/virtual` y `postfix/conf.d/virtual-regexp`."
-  },
-  {
-    "row": 147,
-    "rowsha": "X8pvB9DRoHi8PIJfBVfIWEIMkeZGoODnGnpyDeqZEA8=",
-    "originContent": "Those files are automatically created on startup based upon the corresponding [`postfix/templates/virtual.tpl`](https://raw.githubusercontent.com/springcomp/self-hosted-simplelogin/main/./postfix/templates/virtual.tpl)",
-    "translatedContent": "Esos archivos se crean automáticamente al iniciar, basados en los correspondientes archivos plantilla [`postfix/templates/virtual.tpl`](https://raw.githubusercontent.com/springcomp/self-hosted-simplelogin/main/./postfix/templates/virtual.tpl)"
-  },
-  {
-    "row": 148,
-    "rowsha": "fNmj0N/2TGTS6wLlO7xi+Cf+WHobV7uxfDo3wdTkgKs=",
-    "originContent": "and [`postfix/templates/virtual-regexp.tpl`](https://raw.githubusercontent.com/springcomp/self-hosted-simplelogin/main/./postfix/templates/virtual-regexp.tpl) template files.",
-    "translatedContent": "y [`postfix/templates/virtual-regexp.tpl`](https://raw.githubusercontent.com/springcomp/self-hosted-simplelogin/main/./postfix/templates/virtual-regexp.tpl)."
-  },
-  {
-    "row": 149,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 150,
-    "rowsha": "ShOti631nYlsCP7JQARM1GLvDHjO0LALbJ+uHhs2FWs=",
-    "originContent": "The default configuration is as follows:",
-    "translatedContent": "La configuración predeterminada es la siguiente:"
-  },
-  {
-    "row": 151,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 152,
-    "rowsha": "d4DW7usLMRGlHfzsNobaPCsVKp4OFv8LKIgV+m7g7ew=",
-    "originContent": "#### virtual.tpl",
-    "translatedContent": "#### virtual.tpl"
-  },
-  {
-    "row": 153,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 154,
-    "rowsha": "8ep44p0+rnghwGf/oRg//2nW6hsBqBPbpU4cUkAPl1o=",
-    "originContent": "The `virtual` file supports postfix `virtual_alias_maps` settings.",
-    "translatedContent": "El archivo `virtual` soporta configuraciones de postfix `virtual_alias_maps`."
-  },
-  {
-    "row": 155,
-    "rowsha": "/haZIKsqXhIK0+/bgGHFkmSJOEHW3qL5pLsdvf6eA8c=",
-    "originContent": "It includes a rule that maps `unknown@mydomain.com` to `contact@mydomain.com` to demonstrate receiving",
-    "translatedContent": "Incluye una regla que asigna `unknown@mydomain.com` a `contact@mydomain.com` para demostrar la recepción"
-  },
-  {
-    "row": 156,
-    "rowsha": "ZxLkQdMcyQ5HvoVha2tqBUHryWaxI3RSpoTTxhGvygc=",
-    "originContent": "and email from a specific address that does not correspond to an existing alias, to another one that does.",
-    "translatedContent": "de un correo electrónico desde una dirección específica que no corresponde a un alias existente, hacia otro que sí."
-  },
-  {
-    "row": 157,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 158,
-    "rowsha": "ibnhXIC5Hh5HlbO6YcEQA6O2hv1mLwzhdGVnzqwQsOU=",
-    "originContent": "```postfix-conf",
-    "translatedContent": "```postfix-conf"
-  },
-  {
-    "row": 159,
-    "rowsha": "ZJCM0K6X7G3SCPX7NQoNtKYBdIJTCWn9zSzuaKaOUEs=",
-    "originContent": "unknown@mydomain.com  contact@mydomain.com",
-    "translatedContent": "unknown@mydomain.com  contact@mydomain.com"
-  },
-  {
-    "row": 160,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 161,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 162,
-    "rowsha": "P9glWFnSpeOP3hULFEwuUEye66kYWfl/Sa4kDjhfSNo=",
-    "originContent": "#### virtual-regexp.tpl",
-    "translatedContent": "#### virtual-regexp.tpl"
-  },
-  {
-    "row": 163,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 164,
-    "rowsha": "Sz0dsHQY2A68L3+SYxKNndBElIwCq1nxNOCQs57H1KI=",
-    "originContent": "The `virtual-regexp` file supports postfix `virtual_alias_maps` settings.",
-    "translatedContent": "El archivo `virtual-regexp` soporta configuraciones postfix `virtual_alias_maps`.  "
-  },
-  {
-    "row": 165,
-    "rowsha": "+nBk40lr+Gi7yNVmTjfd5rcJaCgemeJj0qEjeZt2+l4=",
-    "originContent": "It includes a rule that rewrite emails addressed to an arbitrary subdomain, which does not correspond",
-    "translatedContent": "Incluye una regla que reescribe correos electrónicos dirigidos a un subdominio arbitrario, que no corresponde  "
-  },
-  {
-    "row": 166,
-    "rowsha": "j23Xm1Wg3E2Y/jBpcrq6JM+Web4G4dcik+BEqMogE7Q=",
-    "originContent": "to an existing alias, to a new alias that belongs to a directory whose name is taken from the subdomain.",
-    "translatedContent": "a un alias existente, a un nuevo alias que pertenece a un directorio cuyo nombre se toma del subdominio.  "
-  },
-  {
-    "row": 167,
-    "rowsha": "8SscJ4RgdEzu9EH1fcqJMdQXtoX3RvPpzGrJwpS/qf4=",
-    "originContent": "That alias may be created on the fly if it does not exist.",
-    "translatedContent": "Ese alias puede crearse al vuelo si no existe."
-  },
-  {
-    "row": 168,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 169,
-    "rowsha": "ibnhXIC5Hh5HlbO6YcEQA6O2hv1mLwzhdGVnzqwQsOU=",
-    "originContent": "```postfix-conf",
-    "translatedContent": "```postfix-conf"
-  },
-  {
-    "row": 170,
-    "rowsha": "hYiDVl45BcdHyaYzsLYB26/Sd3CBQexlBiR4K5sl9mo=",
-    "originContent": "/^([^@]+)@([^.]+)\\.mydomain.com/   $2/$1@mydomain.com",
-    "translatedContent": "/^([^@]+)@([^.]+)\\.mydomain.com/   $2/$1@mydomain.com"
-  },
-  {
-    "row": 171,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 172,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "  "
-  },
-  {
-    "row": 173,
-    "rowsha": "2wgtLy8vnuXn34KkfH1wdp0ic1GF4yrG7AZCAWHD1zo=",
-    "originContent": "For instance, emails sent to `someone@directory.mydomain.com` will be routed to `directory/someone@mydomain.com` by postfix.",
-    "translatedContent": "Por ejemplo, los correos electrónicos enviados a `someone@directory.mydomain.com` se enrutarán a `directory/someone@mydomain.com` por postfix."
-  },
-  {
-    "row": 174,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 175,
-    "rowsha": "SykIWDGbM7s/50Iu0igmZ3wx7JBDJkohMLIpPMbZP2k=",
-    "originContent": "## How-to Upgrade from 3.4.0",
-    "translatedContent": "## Cómo actualizar desde la versión 3.4.0"
-  },
-  {
-    "row": 176,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 177,
-    "rowsha": "zFGoQCcqIS5mtSWi9dJFuyJY7P8Wu71oZLYhdLnSDjc=",
-    "originContent": "_This section has been moved to the [reference documentation](https://github.com/springcomp/self-hosted-simplelogin/wiki/upgrade-sl)_",
-    "translatedContent": "_Esta sección se ha movido a la [documentación de referencia](https://github.com/springcomp/self-hosted-simplelogin/wiki/upgrade-sl)_"
-  },
-  {
-    "row": 178,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 179,
-    "rowsha": "reGEN7JFmRbZoSd7H4YrbPmKptMIOEbXuNCeoY6+cFw=",
-    "originContent": "## How-to Upgrade from previous NGinx-based setup",
-    "translatedContent": "## Cómo actualizar desde la configuración previa basada en NGinx"
-  },
-  {
-    "row": 180,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 181,
-    "rowsha": "M+wf8xGD/jgXC/+i+roWHly/osWMoiKWkjMOX7ywrW8=",
-    "originContent": "_This section has been moved to the [reference documentation](https://github.com/springcomp/self-hosted-simplelogin/wiki/upgrade-from-nginx)_",
-    "translatedContent": "_Esta sección se ha movido a la [documentación de referencia](https://github.com/springcomp/self-hosted-simplelogin/wiki/upgrade-from-nginx)_"
-  },
-  {
-    "row": 182,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""

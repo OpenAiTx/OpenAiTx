@@ -1,16 +1,48 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # SimpleLogin
 
-这是一个自托管的 docker-compose 配置，用于 [SimpleLogin](https://simplelogin.io)。
+这是一个自托管的 [SimpleLogin](https://simplelogin.io) docker-compose 配置。
 
-## 前提条件
+## 前置条件
 
-- 一台 Linux 服务器（可以是虚拟机或专用服务器）。本文档展示的是 Ubuntu 18.04 LTS 的安装步骤，但这些步骤可以适用于其他流行的 Linux 发行版。由于大部分组件以 Docker 容器运行，且 Docker 可能较为占用资源，建议至少拥有 2 GB 内存。服务器需要开放端口 25（邮件）、80、443（用于 web 应用）、22（用于通过 ssh 登录）。
+- 一台 Linux 服务器（可以是虚拟机或专用服务器）。本文档以 Ubuntu 18.04 LTS 为例进行设置，但步骤也可以适配其他主流 Linux 发行版。由于大部分组件以 Docker 容器运行，而 Docker 可能会比较占用资源，建议至少拥有 2 GB 内存。服务器需要开放 25 端口（邮件）、80、443（用于 Web 应用）、22（用于 ssh 远程登录）。
 
-- 一个可以配置 DNS 的域名。它可以是子域名。文档中，我们假设邮件使用 `mydomain.com`，SimpleLogin web 应用使用 `app.mydomain.com`。请确保在文档中出现这些值时，替换为你的域名和子域名。一个技巧是将此 README 文件下载到你的电脑上，替换所有 `mydomain.com` 和 `app.mydomain.com` 为你的域名。
+- 一个您可以配置DNS的域名，可以是子域名。在本文档的其余部分，假设用于邮箱的是 `mydomain.com`，用于 SimpleLogin 网页应用的是 `app.mydomain.com`。请确保在文档中出现这些值时，替换为您的域名和子域名。我们常用的一个小技巧是先将此 README 文件下载到您的电脑上，然后将所有的 `mydomain.com` 和 `app.mydomain.com` 替换为您的域名。
 
-除通常在域名注册商界面完成的 DNS 设置外，以下所有步骤均需在服务器上完成。命令需在 `bash`（或任何兼容 bash 的 shell，如 `zsh`）中运行。如果你使用其他 shell，如 `fish`，请确保适当调整命令。
+除了通常在您的域名注册商界面完成的 DNS 设置之外，下面的所有步骤都需要在您的服务器上完成。命令需要用 `bash`（或任何兼容 bash 的 shell，如 `zsh`）作为 shell 运行。如果您使用其他 shell，如 `fish`，请确保对命令进行适配。
 
-- 一些用于验证设置的实用程序包。通过以下命令安装：
+- 一些用于验证配置的实用程序包。通过以下方式安装它们：
 
 ```bash
 sudo apt update \
@@ -183,6 +215,6 @@ _本节内容已移至 [参考文档](https://github.com/springcomp/self-hosted-
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-14
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-15
 
 ---

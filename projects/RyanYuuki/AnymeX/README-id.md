@@ -49,24 +49,24 @@
 
 # AnymeX: Klien Pelacak Multilayanan
 
-**AnymeX** adalah klien pelacak multilayanan yang dirancang khusus untuk mengelola dan melacak progres anime dan manga di [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), dan [**Simkl**](https://simkl.com/).
+**AnymeX** adalah klien pelacak multilayanan yang dirancang khusus untuk mengelola dan melacak kemajuan anime dan manga di [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), dan [**Simkl**](https://simkl.com/).
 
 > [!PENTING]  
-> **AnymeX hanya alat pelacak.** Aplikasi ini tidak meng-host, menyediakan, mendistribusikan, atau mendukung konten streaming, media, atau ekstensi pihak ketiga apa pun.  
+> **AnymeX hanya alat pelacak.** Aplikasi ini tidak meng-host, menyediakan, mendistribusikan, atau mendukung konten streaming, media, maupun ekstensi pihak ketiga.  
 >  
-> **Tanggung Jawab Pengguna:** Pengguna sepenuhnya bertanggung jawab atas penggunaan aplikasi dan layanan atau ekstensi pihak ketiga yang mereka pilih untuk digunakan. Pengguna harus mematuhi semua hukum yang berlaku, hak cipta, dan hak kekayaan intelektual.  
+> **Tanggung Jawab Pengguna:** Pengguna sepenuhnya bertanggung jawab atas cara mereka menggunakan aplikasi dan layanan pihak ketiga atau ekstensi yang dipilih. Pengguna harus mematuhi semua hukum, hak cipta, dan hak kekayaan intelektual yang berlaku.  
 >  
-> **Tidak Ada Tanggung Jawab:** Pengembang AnymeX menolak segala tanggung jawab atas penyalahgunaan, masalah hukum, atau pelanggaran yang timbul dari tindakan pengguna. Masalah hukum, termasuk klaim DMCA, harus diarahkan ke layanan pihak ketiga terkait, bukan AnymeX. Aplikasi disediakan "apa adanya" tanpa jaminan apa pun.  
+> **Tidak Ada Tanggung Jawab:** Pengembang AnymeX menolak semua tanggung jawab atas penyalahgunaan, masalah hukum, atau pelanggaran yang timbul dari tindakan pengguna. Masalah hukum, termasuk klaim DMCA, harus diarahkan ke layanan pihak ketiga terkait, bukan ke AnymeX. Aplikasi disediakan "apa adanya" tanpa jaminan.  
 >  
-> **Layanan:** AnymeX hanya terintegrasi dengan API resmi dari layanan yang didukung (AniList, MyAnimeList, Simkl). Ekstensi pihak ketiga adalah tanggung jawab pembuatnya, bukan pengembang AnymeX.  
+> **Layanan:** AnymeX hanya terintegrasi dengan API resmi dari layanan yang didukung (AniList, MyAnimeList, Simkl). Ekstensi pihak ketiga merupakan tanggung jawab pembuatnya, bukan pengembang AnymeX.  
 >  
-> **Dengan menggunakan AnymeX, Anda setuju untuk mematuhi [Ketentuan Layanan](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) kami. Silakan tinjau ToS untuk memahami kepatuhan DMCA, fungsi pelacakan, dan ketidakikutsertaan kami terhadap konten atau layanan di luar AniList, MyAnimeList, dan Simkl.**
+> **Dengan menggunakan AnymeX, Anda setuju untuk mematuhi [Ketentuan Layanan](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) kami. Silakan tinjau Ketentuan Layanan untuk memahami kepatuhan DMCA, fungsi pelacakan, dan ketidakikutsertaan kami dengan konten atau layanan di luar AniList, MyAnimeList, dan Simkl.**
 
 ## Unduhan
 
 <div align="center">
   <p>
-    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Rilis Stabil Terbaru"/></a>
+    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Rilis Stabil Terbaru"/></a> <a href="https://github.com/Shebyyy/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/Shebyyy/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Beta" alt="Rilis Beta Terbaru"/></a>
   </p>
   
 ### Windows
@@ -163,6 +163,6 @@ AnymeX dilisensikan di bawah Lisensi MIT. Info lebih lanjut dapat ditemukan [di 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-15
 
 ---

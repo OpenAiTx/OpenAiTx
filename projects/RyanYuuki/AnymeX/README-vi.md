@@ -47,26 +47,26 @@
 <a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX: Ứng dụng theo dõi đa dịch vụ
+# AnymeX: Khách Hàng Theo Dõi Đa Dịch Vụ
 
-**AnymeX** là ứng dụng theo dõi đa dịch vụ, được thiết kế chuyên biệt để quản lý và theo dõi tiến độ xem anime và manga trên [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), và [**Simkl**](https://simkl.com/).
+**AnymeX** là một ứng dụng theo dõi đa dịch vụ được thiết kế dành riêng cho việc quản lý và theo dõi tiến trình anime và manga trên [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) và [**Simkl**](https://simkl.com/).
 
 > [!QUAN TRỌNG]  
-> **AnymeX chỉ là công cụ theo dõi.** Ứng dụng không lưu trữ, cung cấp, phân phối hoặc xác nhận bất kỳ nội dung phát trực tuyến, phương tiện, hoặc tiện ích mở rộng của bên thứ ba nào.  
+> **AnymeX chỉ là công cụ theo dõi.** Ứng dụng không lưu trữ, cung cấp, phân phối hay xác thực bất kỳ nội dung phát trực tuyến, phương tiện hoặc tiện ích mở rộng bên thứ ba nào.  
 >  
-> **Trách nhiệm người dùng:** Người dùng hoàn toàn chịu trách nhiệm về cách sử dụng ứng dụng và bất kỳ dịch vụ hoặc tiện ích mở rộng bên thứ ba nào mà họ lựa chọn tương tác. Người dùng phải tuân thủ tất cả các luật, quyền tác giả, và quyền sở hữu trí tuệ hiện hành.  
+> **Trách Nhiệm Người Dùng:** Người dùng hoàn toàn chịu trách nhiệm về cách sử dụng ứng dụng cũng như bất kỳ dịch vụ hoặc tiện ích mở rộng bên thứ ba nào mà họ tương tác. Người dùng phải tuân thủ tất cả luật pháp hiện hành, bản quyền và quyền sở hữu trí tuệ.  
 >  
-> **Miễn trách nhiệm:** Các nhà phát triển AnymeX miễn trừ mọi trách nhiệm pháp lý do việc sử dụng sai mục đích, các vấn đề pháp lý hoặc vi phạm phát sinh từ hành động của người dùng. Các vấn đề pháp lý, bao gồm các khiếu nại DMCA, phải được gửi tới dịch vụ bên thứ ba liên quan, không phải AnymeX. Ứng dụng được cung cấp “nguyên trạng” mà không có bất kỳ bảo đảm nào.  
+> **Miễn Trừ Trách Nhiệm:** Các nhà phát triển AnymeX từ chối mọi trách nhiệm đối với việc sử dụng sai mục đích, vấn đề pháp lý, hoặc vi phạm phát sinh từ hành động của người dùng. Các vấn đề pháp lý, bao gồm cả khiếu nại DMCA, nên được chuyển đến các dịch vụ bên thứ ba tương ứng, không phải AnymeX. Ứng dụng được cung cấp "nguyên trạng" mà không có bất kỳ bảo đảm nào.  
 >  
-> **Dịch vụ:** AnymeX chỉ tích hợp với API chính thức của các dịch vụ được hỗ trợ (AniList, MyAnimeList, Simkl). Tiện ích mở rộng bên thứ ba là trách nhiệm của người tạo ra chúng, không phải các nhà phát triển AnymeX.  
+> **Dịch Vụ:** AnymeX chỉ tích hợp với API chính thức của các dịch vụ được hỗ trợ (AniList, MyAnimeList, Simkl). Tiện ích mở rộng bên thứ ba là trách nhiệm của nhà phát triển tiện ích đó, không phải của nhóm phát triển AnymeX.  
 >  
-> **Khi sử dụng AnymeX, bạn đồng ý tuân thủ [Điều khoản Dịch vụ](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) của chúng tôi. Vui lòng xem kỹ Điều khoản để hiểu rõ về chức năng theo dõi tuân thủ DMCA và cam kết không liên quan tới bất kỳ nội dung hay dịch vụ nào ngoài AniList, MyAnimeList và Simkl.**
+> **Bằng việc sử dụng AnymeX, bạn đồng ý tuân thủ [Điều Khoản Dịch Vụ](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) của chúng tôi. Vui lòng xem kỹ ToS để hiểu rõ về chức năng theo dõi tuân thủ DMCA và việc chúng tôi không liên quan đến bất kỳ nội dung hoặc dịch vụ nào ngoài AniList, MyAnimeList và Simkl.**
 
-## Tải về
+## Tải Về
 
 <div align="center">
   <p>
-    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Phiên bản ổn định mới nhất"/></a>
+    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a> <a href="https://github.com/Shebyyy/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/Shebyyy/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Beta" alt="Latest Beta Release"/></a>
   </p>
   
 ### Windows
@@ -163,6 +163,6 @@ AnymeX được cấp phép theo Giấy phép MIT. Thông tin thêm có thể đ
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-15
 
 ---

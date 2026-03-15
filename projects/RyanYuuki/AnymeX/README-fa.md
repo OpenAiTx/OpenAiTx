@@ -49,24 +49,24 @@
 
 # AnymeX: کلاینت پیگیری چندسرویسی
 
-**AnymeX** یک کلاینت پیگیری چندسرویسی است که به طور اختصاصی برای مدیریت و پیگیری پیشرفت انیمه و مانگا در [**AniList**](https://anilist.co/)، [**MyAnimeList**](https://myanimelist.net/) و [**Simkl**](https://simkl.com/) طراحی شده است.
+**AnymeX** یک کلاینت پیگیری چندسرویسی است که به طور اختصاصی برای مدیریت و پیگیری پیشرفت انیمه و مانگا در میان [**AniList**](https://anilist.co/)، [**MyAnimeList**](https://myanimelist.net/) و [**Simkl**](https://simkl.com/) طراحی شده است.
 
 > [!مهم]  
-> **AnymeX فقط یک ابزار پیگیری است.** این برنامه هیچ گونه محتوای پخش، رسانه، یا افزونه‌های شخص ثالث را میزبانی، ارائه، توزیع یا تأیید نمی‌کند.  
+> **AnymeX تنها یک ابزار پیگیری است.** این برنامه هیچگونه محتوا، رسانه، پخش یا افزونه‌ شخص ثالثی را میزبانی، ارائه یا تایید نمی‌کند.  
 >  
-> **مسئولیت کاربر:** کاربران مسئول نحوه استفاده از اپلیکیشن و هرگونه خدمات یا افزونه‌های شخص ثالثی هستند که با آن‌ها تعامل دارند. کاربران باید کلیه قوانین، حق نشر و حقوق مالکیت معنوی را رعایت کنند.  
+> **مسئولیت کاربر:** کاربران به طور کامل مسئول نحوه استفاده از برنامه و سرویس‌ها یا افزونه‌های شخص ثالثی هستند که انتخاب می‌کنند با آن‌ها تعامل داشته باشند. کاربران باید تمامی قوانین مربوطه، حقوق کپی‌رایت و مالکیت معنوی را رعایت کنند.  
 >  
-> **بدون مسئولیت:** توسعه‌دهندگان AnymeX هرگونه مسئولیت ناشی از سوءاستفاده، مسائل حقوقی یا تخلفات صورت‌گرفته توسط کاربران را رد می‌کنند. دغدغه‌های حقوقی، از جمله ادعاهای DMCA، باید به سرویس‌های شخص ثالث مربوطه ارجاع شود و نه AnymeX. این برنامه به صورت "همان‌گونه که هست" و بدون هیچ‌گونه ضمانت ارائه می‌شود.  
+> **بدون مسئولیت:** توسعه‌دهندگان AnymeX هرگونه مسئولیت بابت سوءاستفاده، مشکلات حقوقی یا تخلفات ناشی از اقدامات کاربران را رد می‌کنند. نگرانی‌های حقوقی، از جمله شکایات DMCA، باید به سرویس‌های شخص ثالث مربوطه ارجاع شوند، نه به AnymeX. این برنامه به صورت «همان‌گونه که هست» و بدون هرگونه ضمانت ارائه می‌شود.  
 >  
-> **سرویس‌ها:** AnymeX تنها با API رسمی سرویس‌های پشتیبانی‌شده (AniList، MyAnimeList، Simkl) یکپارچه می‌شود. افزونه‌های شخص ثالث تحت مسئولیت سازندگان آن‌هاست، نه توسعه‌دهندگان AnymeX.  
+> **سرویس‌ها:** AnymeX فقط با API رسمی سرویس‌های پشتیبانی شده (AniList، MyAnimeList، Simkl) یکپارچه می‌شود. افزونه‌های شخص ثالث مسئولیت سازندگان آن‌ها است و ربطی به توسعه‌دهندگان AnymeX ندارد.  
 >  
-> **با استفاده از AnymeX، شما موافقت خود را با [شرایط استفاده](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) اعلام می‌کنید. لطفاً شرایط استفاده را مرور کنید تا با عملکرد پیگیری سازگار با DMCA و عدم دخالت ما در محتوا یا خدمات فراتر از AniList، MyAnimeList و Simkl آشنا شوید.**
+> **با استفاده از AnymeX، شما موافقت می‌کنید که با [شرایط استفاده](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) ما موافقت کنید. لطفاً شرایط استفاده را برای درک کارکرد پیگیری، رعایت DMCA و عدم دخالت ما با هرگونه محتوا یا سرویس فراتر از AniList، MyAnimeList و Simkl مرور کنید.**
 
 ## دانلودها
 
 <div align="center">
   <p>
-    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a>
+    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a> <a href="https://github.com/Shebyyy/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/Shebyyy/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Beta" alt="Latest Beta Release"/></a>
   </p>
   
 ### ویندوز
@@ -163,6 +163,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-15
 
 ---

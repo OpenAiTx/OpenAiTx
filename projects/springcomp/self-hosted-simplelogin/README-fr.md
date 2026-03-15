@@ -1,16 +1,48 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # SimpleLogin
 
 Ceci est une configuration docker-compose auto-hébergée pour [SimpleLogin](https://simplelogin.io).
 
 ## Prérequis
 
-- un serveur Linux (soit une VM ou un serveur dédié). Ce document montre l'installation pour Ubuntu 18.04 LTS mais les étapes peuvent être adaptées pour d'autres distributions Linux populaires. Comme la plupart des composants tournent dans des conteneurs Docker et que Docker peut être un peu gourmand, avoir au moins 2 Go de RAM est recommandé. Le serveur doit avoir les ports 25 (email), 80, 443 (pour l'application web), 22 (pour pouvoir s’y connecter en ssh) ouverts.
+- un serveur Linux (soit une VM, soit un serveur dédié). Ce document présente l'installation pour Ubuntu 18.04 LTS, mais les étapes peuvent être adaptées pour d'autres distributions Linux populaires. Comme la plupart des composants fonctionnent en tant que conteneurs Docker et que Docker peut être assez gourmand, il est recommandé d'avoir au moins 2 Go de RAM. Le serveur doit avoir les ports 25 (email), 80, 443 (pour l'application web), 22 (pour pouvoir s'y connecter en ssh) ouverts.
 
-- un domaine pour lequel vous pouvez configurer le DNS. Cela peut être un sous-domaine. Dans le reste du document, disons que c’est `mydomain.com` pour l’email et `app.mydomain.com` pour l’application web SimpleLogin. Veuillez vous assurer de remplacer ces valeurs par votre nom de domaine et votre sous-domaine chaque fois qu’elles apparaissent dans le document. Une astuce que nous utilisons est de télécharger ce fichier README sur votre ordinateur et de remplacer toutes les occurrences de `mydomain.com` et `app.mydomain.com` par votre domaine.
+- un domaine pour lequel vous pouvez configurer le DNS. Il peut s'agir d'un sous-domaine. Dans le reste du document, supposons qu'il s'agit de `mydomain.com` pour l'e-mail et de `app.mydomain.com` pour l'application web SimpleLogin. Veuillez vous assurer de remplacer ces valeurs par le nom de votre domaine et de votre sous-domaine chaque fois qu'elles apparaissent dans le document. Une astuce que nous utilisons consiste à télécharger ce fichier README sur votre ordinateur et à remplacer toutes les occurrences de `mydomain.com` et `app.mydomain.com` par votre domaine.
 
-À l’exception de la configuration DNS qui se fait généralement sur l’interface de votre registrar, toutes les étapes ci-dessous doivent être réalisées sur votre serveur. Les commandes sont à exécuter avec `bash` (ou tout shell compatible bash comme `zsh`). Si vous utilisez d’autres shells comme `fish`, veuillez adapter les commandes.
+À l'exception de la configuration DNS qui se fait généralement sur l'interface de votre bureau d'enregistrement de domaine, toutes les étapes ci-dessous doivent être réalisées sur votre serveur. Les commandes sont à exécuter avec `bash` (ou tout autre shell compatible bash comme `zsh`). Si vous utilisez d'autres shells comme `fish`, veuillez adapter les commandes en conséquence.
 
-- Quelques paquets utilitaires utilisés pour vérifier la configuration. Installez-les en :
+- Certains paquets utilitaires utilisés pour vérifier la configuration. Installez-les en :
 
 ```bash
 sudo apt update \
@@ -183,6 +215,6 @@ _Cette section a été déplacée vers la [documentation de référence](https:/
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-14
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-15
 
 ---

@@ -52,21 +52,21 @@
 **AnymeX** هو عميل تتبع متعدد الخدمات مصمم حصريًا لإدارة وتتبع تقدم الأنمي والمانجا عبر [**AniList**](https://anilist.co/)، [**MyAnimeList**](https://myanimelist.net/)، و[**Simkl**](https://simkl.com/).
 
 > [!هام]  
-> **AnymeX هو أداة تتبع فقط.** لا يستضيف أو يوفر أو يوزع أو يدعم أي محتوى بث أو وسائط أو إضافات طرف ثالث.  
+> **AnymeX هو أداة تتبع فقط.** لا يستضيف أو يوفر أو يوزع أو يؤيد أي محتوى بث أو وسائط أو امتدادات طرف ثالث.  
 >  
-> **مسؤولية المستخدم:** المستخدمون مسؤولون بالكامل عن كيفية استخدامهم للتطبيق وأي خدمات أو إضافات طرف ثالث يختارون التفاعل معها. يجب على المستخدمين الالتزام بجميع القوانين المعمول بها وحقوق النشر وحقوق الملكية الفكرية.  
+> **مسؤولية المستخدم:** المستخدمون مسؤولون بالكامل عن كيفية استخدامهم للتطبيق وأي خدمات أو امتدادات طرف ثالث يختارون التفاعل معها. يجب على المستخدمين الامتثال لجميع القوانين المعمول بها وحقوق النشر وحقوق الملكية الفكرية.  
 >  
-> **إخلاء المسؤولية:** مطورو AnymeX يخليون مسؤوليتهم عن أي سوء استخدام أو مشكلات قانونية أو انتهاكات ناتجة عن أفعال المستخدمين. يجب توجيه القضايا القانونية، بما في ذلك مطالبات DMCA، إلى خدمات الطرف الثالث المعنية وليس إلى AnymeX. التطبيق مقدم "كما هو" بدون أي ضمانات.  
+> **عدم تحمل المسؤولية:** يتنصل مطورو AnymeX من أي مسؤولية عن سوء الاستخدام أو المشاكل القانونية أو الانتهاكات الناشئة عن تصرفات المستخدم. يجب توجيه المخاوف القانونية، بما في ذلك مطالبات DMCA، إلى خدمات الطرف الثالث المعنية وليس إلى AnymeX. التطبيق مقدم "كما هو" بدون ضمانات.  
 >  
-> **الخدمات:** يدمج AnymeX فقط مع الواجهات البرمجية الرسمية للخدمات المدعومة (AniList، MyAnimeList، Simkl). الإضافات من الطرف الثالث هي مسؤولية منشئيها وليست مسؤولية مطوري AnymeX.  
+> **الخدمات:** يدمج AnymeX فقط مع واجهات برمجة التطبيقات الرسمية للخدمات المدعومة (AniList، MyAnimeList، Simkl). الامتدادات الخارجية هي مسؤولية مطوريها وليس مطوري AnymeX.  
 >  
-> **باستخدامك AnymeX، فإنك توافق على الالتزام بـ[شروط الخدمة](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) الخاصة بنا. يرجى مراجعة الشروط لفهم التوافق مع DMCA، ووظائف التتبع، وعدم علاقتنا بأي محتوى أو خدمات تتجاوز AniList وMyAnimeList وSimkl.**
+> **باستخدامك AnymeX، فإنك توافق على الامتثال لـ [شروط الخدمة](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) الخاصة بنا. يرجى مراجعة الشروط لفهم التوافق مع DMCA، ووظائف التتبع، وعدم تدخلنا مع أي محتوى أو خدمات خارج AniList وMyAnimeList وSimkl.**
 
 ## التحميلات
 
 <div align="center">
   <p>
-    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a>
+    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a> <a href="https://github.com/Shebyyy/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/Shebyyy/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Beta" alt="Latest Beta Release"/></a>
   </p>
   
 ### ويندوز
@@ -163,6 +163,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-15
 
 ---

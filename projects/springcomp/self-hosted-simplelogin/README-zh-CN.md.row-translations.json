@@ -1,1092 +1,276 @@
 [
   {
     "row": 1,
-    "rowsha": "LqpZd7cncruDkwuosXn6otMoPrmneaQwAcnHM+iakcI=",
-    "originContent": "# SimpleLogin",
-    "translatedContent": "# SimpleLogin"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 2,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+    "originContent": "<div align=\"right\">",
+    "translatedContent": "<div align=\"right\">"
   },
   {
     "row": 3,
-    "rowsha": "yShzV/KSLwy6peR9X5gc/jQ6A7/QojYDiGFjDXoDrb8=",
-    "originContent": "This is a self-hosted docker-compose configuration for [SimpleLogin](https://simplelogin.io).",
-    "translatedContent": "这是一个自托管的 docker-compose 配置，用于 [SimpleLogin](https://simplelogin.io)。"
+    "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+    "originContent": "  <details>",
+    "translatedContent": "  <details>"
   },
   {
     "row": 4,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+    "originContent": "    <summary >🌐 Language</summary>",
+    "translatedContent": "    <summary >🌐 语言</summary>"
   },
   {
     "row": 5,
-    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
-    "originContent": "## Prerequisites",
-    "translatedContent": "## 前提条件"
+    "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+    "originContent": "    <div>",
+    "translatedContent": "    <div>"
   },
   {
     "row": 6,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+    "originContent": "      <div align=\"center\">",
+    "translatedContent": "      <div align=\"center\">"
   },
   {
     "row": 7,
-    "rowsha": "FheHqqvUyBV25/ZzYjhLDb+/xr8hBQK1Fb4rT7z7sVw=",
-    "originContent": "- a Linux server (either a VM or dedicated server). This doc shows the setup for Ubuntu 18.04 LTS but the steps could be adapted for other popular Linux distributions. As most of components run as Docker container and Docker can be a bit heavy, having at least 2 GB of RAM is recommended. The server needs to have the port 25 (email), 80, 443 (for the webapp), 22 (so you can ssh into it) open.",
-    "translatedContent": "- 一台 Linux 服务器（可以是虚拟机或专用服务器）。本文档展示的是 Ubuntu 18.04 LTS 的安装步骤，但这些步骤可以适用于其他流行的 Linux 发行版。由于大部分组件以 Docker 容器运行，且 Docker 可能较为占用资源，建议至少拥有 2 GB 内存。服务器需要开放端口 25（邮件）、80、443（用于 web 应用）、22（用于通过 ssh 登录）。"
+    "rowsha": "t1x6NWcjfWwJ1TXguwIkgAv63+2w4ZP4aVSoZcdRHn8=",
+    "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=en\">English</a>",
+    "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=en\">English</a>"
   },
   {
     "row": 8,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "I/o6nO1ywBQZCwq0R9zcgxlcs8p1ACY+G5bvO+xw+pU=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=zh-CN\">简体中文</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=zh-CN\">简体中文</a>"
   },
   {
     "row": 9,
-    "rowsha": "pAZ5Fe8Wp4VsT7VyX+PVX/y+SDkbsMmg28drQ1xFxG0=",
-    "originContent": "- a domain for which you can config the DNS. It could be a sub-domain. In the rest of the doc, let's say it's `mydomain.com` for the email and `app.mydomain.com` for SimpleLogin webapp. Please make sure to replace these values by your domain name and subdomain name whenever they appear in the doc. A trick we use is to download this README file on your computer and replace all `mydomain.com` and `app.mydomain.com` occurrences by your domain.",
-    "translatedContent": "- 一个可以配置 DNS 的域名。它可以是子域名。文档中，我们假设邮件使用 `mydomain.com`，SimpleLogin web 应用使用 `app.mydomain.com`。请确保在文档中出现这些值时，替换为你的域名和子域名。一个技巧是将此 README 文件下载到你的电脑上，替换所有 `mydomain.com` 和 `app.mydomain.com` 为你的域名。"
+    "rowsha": "nHDpf5pzwVjnbH7+IN4VVFxdBcGSZGwJ4t5pYZCjAhs=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=zh-TW\">繁體中文</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=zh-TW\">繁體中文</a>"
   },
   {
     "row": 10,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "e1pEbMw3BWrY9wE0+v7gq1Q6t4b2b0khgOEwg6BwEag=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ja\">日本語</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ja\">日本語</a>"
   },
   {
     "row": 11,
-    "rowsha": "jtnqRQhHjEANwcvx8gNH8kbFmemX2VxgU0t8U6VNQ+Y=",
-    "originContent": "Except for the DNS setup that is usually done on your domain registrar interface, all the below steps are to be done on your server. The commands are to run with `bash` (or any bash-compatible shell like `zsh`) being the shell. If you use other shells like `fish`, please make sure to adapt the commands.",
-    "translatedContent": "除通常在域名注册商界面完成的 DNS 设置外，以下所有步骤均需在服务器上完成。命令需在 `bash`（或任何兼容 bash 的 shell，如 `zsh`）中运行。如果你使用其他 shell，如 `fish`，请确保适当调整命令。"
+    "rowsha": "LDZZ8VdXa4PRRRdqG62BcsktKh7YxZkuo/2iiOngW+c=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ko\">한국어</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ko\">한국어</a>"
   },
   {
     "row": 12,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "g3Wu1X59rRI6fKDme7uC0ks9D3g0dTKGET1XRlk6mqI=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=hi\">हिन्दी</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=hi\">हिन्दी</a>"
   },
   {
     "row": 13,
-    "rowsha": "Q8Zzyr3EeNn4+MQjr42O2IGA4JcXhJaipvXNK8v7F5o=",
-    "originContent": "- Some utility packages used to verify the setup. Install them by:",
-    "translatedContent": "- 一些用于验证设置的实用程序包。通过以下命令安装："
+    "rowsha": "OnFy2kflQeV5+GneA9Et/7fyF/Kt5HfzdItcIRfzSGc=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=th\">ไทย</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=th\">ไทย</a>"
   },
   {
     "row": 14,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "D5jFyoAZ2+4vuqYhGZSf22sLgqwdtfKUvVhhgorbMlk=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=fr\">Français</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=fr\">Français</a>"
   },
   {
     "row": 15,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
+    "rowsha": "5bwWz1Wwp6TT3ImAtr9xqjSEojH4KjvNnJiGJNy6+3E=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=de\">Deutsch</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=de\">Deutsch</a>"
   },
   {
     "row": 16,
-    "rowsha": "/fQNUFkfoj7Gymro7/VDM026ZvdsVMmgrN0hoQTIA4k=",
-    "originContent": "sudo apt update \\",
-    "translatedContent": "sudo apt update \\"
+    "rowsha": "L25b+3RLOl6VBpWz2OMkbx0kpjy2xHcQcHB88O9RHp4=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=es\">Español</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=es\">Español</a>"
   },
   {
     "row": 17,
-    "rowsha": "WRrpc054h3R5zdkBptNcr8Uva1bhTMEWQukf5OQZPg0=",
-    "originContent": "  && sudo apt install -y net-tools dnsutils",
-    "translatedContent": "  && sudo apt install -y net-tools dnsutils"
+    "rowsha": "HLISae3nA17d9Rn5tPsAndiol8PKAf+Lqn4DA/2Vk/k=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=it\">Italiano</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=it\">Italiano</a>"
   },
   {
     "row": 18,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
+    "rowsha": "hroIzatCRRbrQl1ull14atA+qbtX0tbLvSSM/w94cPs=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ru\">Русский</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ru\">Русский</a>"
   },
   {
     "row": 19,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "## DNS 配置"
+    "rowsha": "qYJi25lpNzItUfhKlFBdmRK9kUfu5bPkoZpfzxxOLy0=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=pt\">Português</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=pt\">Português</a>"
   },
   {
     "row": 20,
-    "rowsha": "BqPDtABwyRuSqzmzobTfwbmrBACJY0YnPbUVnltTmIk=",
-    "originContent": "## DNS Configuration",
-    "translatedContent": ""
+    "rowsha": "IGDzyiiuo1dVQk6na62SC9O1SVl6zK4g6SdMV/ls1eA=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=nl\">Nederlands</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=nl\">Nederlands</a>"
   },
   {
     "row": 21,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "_详情请参阅[参考文档](https://github.com/springcomp/self-hosted-simplelogin/wiki/DNS-Configuration)_"
+    "rowsha": "kxYeqVR4Gt8d35fKq9dbZ7wl0LOteUp3dI2qTKgiFpc=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=pl\">Polski</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=pl\">Polski</a>"
   },
   {
     "row": 22,
-    "rowsha": "/mv+Rokuibr4xWxloFCB1hI75Le1LDO8NxfvucfGGVo=",
-    "originContent": "_Refer to the [reference documentation](https://github.com/springcomp/self-hosted-simplelogin/wiki/DNS-Configuration) for more details_",
-    "translatedContent": ""
+    "rowsha": "Y2BloMAFRuar0FAADeR0sZ7Ar++4T1sf797O5WXQtD0=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ar\">العربية</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ar\">العربية</a>"
   },
   {
     "row": 23,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "> **请注意**，DNS 变更可能需要长达 24 小时才能完全生效。实际上，速度要快得多（我们测试中约 1 分钟左右）。在 DNS 设置中，我们通常使用末尾带点号（`.`）的域名以强制使用绝对域名。"
+    "rowsha": "yRHUsTsALBn/MWWstBe9WM2Q82m3uRwVOjmf82OjxO0=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=fa\">فارسی</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=fa\">فارسی</a>"
   },
   {
     "row": 24,
-    "rowsha": "L/YDr7mlT6CEA67DGHeD358+gVOMfcFT3lOO/ZZn7jg=",
-    "originContent": "> **Please note** that DNS changes could take up to 24 hours to propagate. In practice, it's a lot faster though (~1 minute or so in our test). In DNS setup, we usually use domain with a trailing dot (`.`) at the end to to force using absolute domain.",
-    "translatedContent": ""
+    "rowsha": "KlGfHW+Qlr6K+5MROgfm0RWc0S/IOWqMCtJE7xWC+2g=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=tr\">Türkçe</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=tr\">Türkçe</a>"
   },
   {
     "row": 25,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "您需要设置以下 DNS 记录："
+    "rowsha": "R5ECW8qzErsC3n77Uf6qOwmPgMDh4yoGG29Cw24Bhd0=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=vi\">Tiếng Việt</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=vi\">Tiếng Việt</a>"
   },
   {
     "row": 26,
-    "rowsha": "J/4EqkXb3wa/NZEJn0pJlUzj9rXrAYNS5WPEZg6WmKE=",
-    "originContent": "You will need to setup the following DNS records:",
-    "translatedContent": ""
+    "rowsha": "leuQYs0tfyX5sE5CdwTzYRPz7rrCb4t5lnBAun57P/A=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=id\">Bahasa Indonesia</a>",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=id\">Bahasa Indonesia</a>"
   },
   {
     "row": 27,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "- **A**：将您的域名映射到服务器的 IPv4 地址。"
+    "rowsha": "winDQ7kQ6lsU7ktlqtNuqopEr9+pn833SGt/iUhBRqU=",
+    "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=as\">অসমীয়া</",
+    "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=as\">অসমীয়া</"
   },
   {
     "row": 28,
-    "rowsha": "WjcYfUcSqLhwgruDiMj1Hbr0iNuO0S9bAB2Ng+3wNok=",
-    "originContent": "- **A**: Maps your domain to your server's IPv4 address.",
-    "translatedContent": "- **AAAA**：将您的域名映射到服务器的 IPv6 地址。"
+    "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+    "originContent": "      </div>",
+    "translatedContent": "      </div>"
   },
   {
     "row": 29,
-    "rowsha": "JKsaVNUieik9Ku7Y+5qN4MZ9k8ZA3HYeqcx4q2+kmkY=",
-    "originContent": "- **AAAA**: Maps your domain to your server's IPv6 address.",
-    "translatedContent": "- **MX**：将传入邮件定向到您的邮件服务器（包括 `*` 通配符）。"
+    "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+    "originContent": "    </div>",
+    "translatedContent": "    </div>"
   },
   {
     "row": 30,
-    "rowsha": "aFAjZpJiLDnt1TIeq+DjbIzDQ0hlEConUNj9pBExvyw=",
-    "originContent": "- **MX**: Directs incoming emails to your mail server (including `*` wildcards).",
-    "translatedContent": "- **PTR**：将服务器的 IP 地址映射回您的域名。"
+    "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+    "originContent": "  </details>",
+    "translatedContent": "  </details>"
   },
   {
     "row": 31,
-    "rowsha": "yXkwfAlsIfCISyQC0TlzuGzjKJFQKRZJrWuMYDC/PjI=",
-    "originContent": "- **PTR**: Maps your server's IP address back to your domain name.",
-    "translatedContent": ""
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
   },
   {
     "row": 32,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "设置强制性的安全策略："
+    "translatedContent": ""
   },
   {
     "row": 33,
-    "rowsha": "A3NLk9J4oLuGclgkw0SUlzDeQbBAZ218/0uDYIHxLfA=",
-    "originContent": "Set up mandatory security policies:",
-    "translatedContent": ""
+    "rowsha": "LqpZd7cncruDkwuosXn6otMoPrmneaQwAcnHM+iakcI=",
+    "originContent": "# SimpleLogin",
+    "translatedContent": "# SimpleLogin"
   },
   {
     "row": 34,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "- **DKIM**：对外发邮件进行数字签名以验证真实性。"
+    "translatedContent": ""
   },
   {
     "row": 35,
-    "rowsha": "Z3NWYuvrAG+a8WgZVhm6GrxrAqT/srT9FQpGcx7fFlc=",
-    "originContent": "- **DKIM**: Digitally signs outgoing emails to verify authenticity.",
-    "translatedContent": "- **DMARC**：定义邮件接收方应如何处理未通过身份验证的邮件。"
+    "rowsha": "yShzV/KSLwy6peR9X5gc/jQ6A7/QojYDiGFjDXoDrb8=",
+    "originContent": "This is a self-hosted docker-compose configuration for [SimpleLogin](https://simplelogin.io).",
+    "translatedContent": "这是一个自托管的 [SimpleLogin](https://simplelogin.io) docker-compose 配置。"
   },
   {
     "row": 36,
-    "rowsha": "kC/oIvO6UKj3ZZAA/6p/BxNKC1d/GyW7KT/7oTMYyr4=",
-    "originContent": "- **DMARC**: Defines how email receivers should handle messages failing authentication.",
-    "translatedContent": "- **SPF**：授权特定邮件服务器从您的域名发送邮件。"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 37,
-    "rowsha": "ET2FOjVpExQdbYgiv8pJ7gYvRV2WEqu3NmMVV3o7FbE=",
-    "originContent": "- **SPF**: Authorizes specific mail servers to send emails from your domain.",
-    "translatedContent": ""
+    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+    "originContent": "## Prerequisites",
+    "translatedContent": "## 前置条件"
   },
   {
     "row": 38,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "额外步骤："
+    "translatedContent": ""
   },
   {
     "row": 39,
-    "rowsha": "3xLFbATiKXnQPlAyQLmL/CbzmGg5Yc8f9j63C13C4dY=",
-    "originContent": "Additional steps:",
-    "translatedContent": ""
+    "rowsha": "FheHqqvUyBV25/ZzYjhLDb+/xr8hBQK1Fb4rT7z7sVw=",
+    "originContent": "- a Linux server (either a VM or dedicated server). This doc shows the setup for Ubuntu 18.04 LTS but the steps could be adapted for other popular Linux distributions. As most of components run as Docker container and Docker can be a bit heavy, having at least 2 GB of RAM is recommended. The server needs to have the port 25 (email), 80, 443 (for the webapp), 22 (so you can ssh into it) open.",
+    "translatedContent": "- 一台 Linux 服务器（可以是虚拟机或专用服务器）。本文档以 Ubuntu 18.04 LTS 为例进行设置，但步骤也可以适配其他主流 Linux 发行版。由于大部分组件以 Docker 容器运行，而 Docker 可能会比较占用资源，建议至少拥有 2 GB 内存。服务器需要开放 25 端口（邮件）、80、443（用于 Web 应用）、22（用于 ssh 远程登录）。"
   },
   {
     "row": 40,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "- **CAA**：指定哪些证书颁发机构被允许为您的域名签发 SSL 证书。"
+    "translatedContent": ""
   },
   {
     "row": 41,
-    "rowsha": "Y6xDySIiuZQxZVRoCikHsKmhC3+lEz/G6FKDFtfjTB0=",
-    "originContent": "- **CAA**: Specifies which certificate authorities are allowed to issue SSL certificates for your domain.",
-    "translatedContent": "- **MTA-STS**：强制邮件服务器之间使用安全的加密连接。"
+    "rowsha": "pAZ5Fe8Wp4VsT7VyX+PVX/y+SDkbsMmg28drQ1xFxG0=",
+    "originContent": "- a domain for which you can config the DNS. It could be a sub-domain. In the rest of the doc, let's say it's `mydomain.com` for the email and `app.mydomain.com` for SimpleLogin webapp. Please make sure to replace these values by your domain name and subdomain name whenever they appear in the doc. A trick we use is to download this README file on your computer and replace all `mydomain.com` and `app.mydomain.com` occurrences by your domain.",
+    "translatedContent": "- 一个您可以配置DNS的域名，可以是子域名。在本文档的其余部分，假设用于邮箱的是 `mydomain.com`，用于 SimpleLogin 网页应用的是 `app.mydomain.com`。请确保在文档中出现这些值时，替换为您的域名和子域名。我们常用的一个小技巧是先将此 README 文件下载到您的电脑上，然后将所有的 `mydomain.com` 和 `app.mydomain.com` 替换为您的域名。"
   },
   {
     "row": 42,
-    "rowsha": "GqJyqjSEiQ0v5xkAv505sPYVKYSoLBllKkIa4DMkFGM=",
-    "originContent": "- **MTA-STS**: Enforces secure, encrypted connections between mail servers.",
-    "translatedContent": "- **TLS-RPT**：报告 TLS 连接失败以提升邮件传输安全。"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 43,
-    "rowsha": "YD0uS1rvLsoY9sPEYkxvo8qe0cQovr2jJkK7cPraBic=",
-    "originContent": "- **TLS-RPT**: Reports TLS connection failures to improve email delivery security.",
-    "translatedContent": ""
+    "rowsha": "jtnqRQhHjEANwcvx8gNH8kbFmemX2VxgU0t8U6VNQ+Y=",
+    "originContent": "Except for the DNS setup that is usually done on your domain registrar interface, all the below steps are to be done on your server. The commands are to run with `bash` (or any bash-compatible shell like `zsh`) being the shell. If you use other shells like `fish`, please make sure to adapt the commands.",
+    "translatedContent": "除了通常在您的域名注册商界面完成的 DNS 设置之外，下面的所有步骤都需要在您的服务器上完成。命令需要用 `bash`（或任何兼容 bash 的 shell，如 `zsh`）作为 shell 运行。如果您使用其他 shell，如 `fish`，请确保对命令进行适配。"
   },
   {
     "row": 44,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "**警告**：设置 CAA 记录将限制哪些证书颁发机构可以成功为您的域名签发 SSL 证书。"
+    "translatedContent": ""
   },
   {
     "row": 45,
-    "rowsha": "HplAuQWvnoBthTauyCO7a1W3MHQ8ZxsiDNevkzcZrZ8=",
-    "originContent": "**Warning**: setting up a CAA record will restrict which certificate authority can successfully issue SSL certificates for your domain.",
-    "translatedContent": "这将阻止 Let’s Encrypt 测试服务器颁发证书。您可能希望将此 DNS 记录延迟到为域名成功签发 SSL 证书之后再添加。"
+    "rowsha": "Q8Zzyr3EeNn4+MQjr42O2IGA4JcXhJaipvXNK8v7F5o=",
+    "originContent": "- Some utility packages used to verify the setup. Install them by:",
+    "translatedContent": "- 一些用于验证配置的实用程序包。通过以下方式安装它们："
   },
   {
     "row": 46,
-    "rowsha": "b+ma0iYTdmRjtbbitNjX7dOV181AFrVhc5BwFZGLeC0=",
-    "originContent": "This will prevent certificate issuance from Let’s Encrypt staging servers. You may want to differ this DNS record until after SSL certificates are successfully issued for your domain.",
-    "translatedContent": ""
-  },
-  {
-    "row": 47,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "## Docker"
-  },
-  {
-    "row": 48,
-    "rowsha": "OBS1Iiz69xWrJ2BM+mQwYtnOOVslL8sxzMrBQ1KAfXI=",
-    "originContent": "## Docker",
-    "translatedContent": ""
-  },
-  {
-    "row": 49,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "如果您的服务器尚未安装 Docker，请按照[Ubuntu 的 Docker CE 安装步骤](https://docs.docker.com/v17.12/install/linux/docker-ce/ubuntu/)进行安装。"
-  },
-  {
-    "row": 50,
-    "rowsha": "Us39o3oieWrPFHUfZI4CtJaHcHA3Y79y0LSnHmdJvQ4=",
-    "originContent": "If you don't already have Docker installed on your server, please follow the steps on [Docker CE for Ubuntu](https://docs.docker.com/v17.12/install/linux/docker-ce/ubuntu/) to install Docker.",
-    "translatedContent": ""
-  },
-  {
-    "row": 51,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "您也可以使用 [docker-install](https://github.com/docker/docker-install) 脚本安装 Docker，脚本是"
-  },
-  {
-    "row": 52,
-    "rowsha": "dDUKARGQVgmgHYJKILB0Ij+/pm5aWRsXSoRL3f1WoI8=",
-    "originContent": "You can also install Docker using the [docker-install](https://github.com/docker/docker-install) script which is",
-    "translatedContent": ""
-  },
-  {
-    "row": 53,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 54,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 55,
-    "rowsha": "4wht61O8vR4AW29wjJuQLC9qdvxRFi3Da4KDRgW+r5s=",
-    "originContent": "curl -fsSL https://get.docker.com | sh",
-    "translatedContent": "curl -fsSL https://get.docker.com | sh"
-  },
-  {
-    "row": 56,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 57,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "启用 IPv6 以用于 [默认桥接网络](https://docs.docker.com/config/daemon/ipv6/#use-ipv6-for-the-default-bridge-network)"
-  },
-  {
-    "row": 58,
-    "rowsha": "8S3cpWxs4ym29mls4IGvF/7/mEQwrdA+P0pgPqdDIIw=",
-    "originContent": "Enable IPv6 for [the default bridge network](https://docs.docker.com/config/daemon/ipv6/#use-ipv6-for-the-default-bridge-network)",
-    "translatedContent": ""
-  },
-  {
-    "row": 59,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 60,
-    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
-    "originContent": "```json",
-    "translatedContent": "```json"
-  },
-  {
-    "row": 61,
-    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-    "originContent": "{",
-    "translatedContent": "{"
-  },
-  {
-    "row": 62,
-    "rowsha": "brlUK12pekkZYWd9khH6EwfY1qv3G1elsVqdrCWRhsg=",
-    "originContent": "  \"ipv6\": true,",
-    "translatedContent": "  \"ipv6\": true,"
-  },
-  {
-    "row": 63,
-    "rowsha": "hnPr8Zkn5Jr1SKXg2y7XgEL8ZCTO3B8BGz1h290saQ4=",
-    "originContent": "  \"fixed-cidr-v6\": \"2001:db8:1::/64\",",
-    "translatedContent": "  \"fixed-cidr-v6\": \"2001:db8:1::/64\","
-  },
-  {
-    "row": 64,
-    "rowsha": "qeZQ2FbkjbBl68akDx6Lpp8QaAB9JLd1fIrrtXHVwaM=",
-    "originContent": "  \"experimental\": true,",
-    "translatedContent": "  \"experimental\": true,"
-  },
-  {
-    "row": 65,
-    "rowsha": "C8oLw0aa7Ttb5tEjV1rqd7L/DHe42jkXP+eaqyR249Q=",
-    "originContent": "  \"ip6tables\": true",
-    "translatedContent": "  \"ip6tables\": true"
-  },
-  {
-    "row": 66,
-    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-    "originContent": "}",
-    "translatedContent": "}"
-  },
-  {
-    "row": 67,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 68,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "本流程将指导您通过 Docker 容器运行整个堆栈。  "
-  },
-  {
-    "row": 69,
-    "rowsha": "NA/pZw8eF1DP7K4G79HaBVPOrfItLuBaNTSPTPOUvN0=",
-    "originContent": "This procedure will guide you through running the entire stack using Docker containers.",
-    "translatedContent": "这包括："
-  },
-  {
-    "row": 70,
-    "rowsha": "2rUmWOrIwGn2afMe+8uZ0gwKLoocBF7LS6xDScGUDcM=",
-    "originContent": "This includes:",
-    "translatedContent": ""
-  },
-  {
-    "row": 71,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "- traefik  "
-  },
-  {
-    "row": 72,
-    "rowsha": "CRqeoBiHDjX3UjLdO84pyBD8yPHVx41pbjCPi0OkMlI=",
-    "originContent": "- traefik",
-    "translatedContent": "- [SimpleLogin 应用](https://github.com/simple-login/app) 容器  "
-  },
-  {
-    "row": 73,
-    "rowsha": "1vCyv/9uBzwHahzn50UpHEtVq3WjHLcotU+FR5pKVXk=",
-    "originContent": "- The [SimpleLogin app](https://github.com/simple-login/app) containers",
-    "translatedContent": "- postfix  "
-  },
-  {
-    "row": 74,
-    "rowsha": "L3Sm58m20MjtwZ9gzH+522ignzo7k5Hhw9Es7yGR25E=",
-    "originContent": "- postfix",
-    "translatedContent": ""
-  },
-  {
-    "row": 75,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "通过 Docker 容器运行 SimpleLogin："
-  },
-  {
-    "row": 76,
-    "rowsha": "5aXNPrcGfWzemzOBZRqe78YIt9M+V/Yegy7b/qD79Hw=",
-    "originContent": "Run SimpleLogin from Docker containers:",
-    "translatedContent": ""
-  },
-  {
-    "row": 77,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "1. 在 `/opt/simplelogin` 克隆此仓库  "
-  },
-  {
-    "row": 78,
-    "rowsha": "3R66SBDN42eDc5e7a9jL4b0z4mHoYG4Ok7rlhM5uqfU=",
-    "originContent": "1. Clone this repository in `/opt/simplelogin`",
-    "translatedContent": "1. 复制 `.env.example` 为 `.env` 并设置适当的值。"
-  },
-  {
-    "row": 79,
-    "rowsha": "h8CNvIa+6odlXEONFv43qMMtVxIQxT5p3jxBv7NRyhI=",
-    "originContent": "1. Copy `.env.example` to `.env` and set appropriate values.",
-    "translatedContent": ""
-  },
-  {
-    "row": 80,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "    - 将 `DOMAIN` 变量设置为您的域名。  "
-  },
-  {
-    "row": 81,
-    "rowsha": "ih+V9xULc+iOXaZwQ34TqHAv3dh4BGi9LM9zgfPenFs=",
-    "originContent": "    - set the `DOMAIN` variable to your domain.",
-    "translatedContent": "    - 将 `SUBDOMAIN` 变量设置为您的子域名。默认值为 `app`。  "
-  },
-  {
-    "row": 82,
-    "rowsha": "hu9TPiANrYaZZwOkIbqlo51zZGmwKnIb20O6cH1D86o=",
-    "originContent": "    - set the `SUBDOMAIN` variable to your domain. The default value is `app`.",
-    "translatedContent": "    - 将 `POSTGRES_USER` 变量设置为匹配 postgres 凭据（初次启动时使用 `simplelogin`）。  "
-  },
-  {
-    "row": 83,
-    "rowsha": "xsahXxsvLrJccGeodcr34Rpmi97ioeEvhULSD5cNjcE=",
-    "originContent": "    - set the `POSTGRES_USER` variable to match the postgres credentials (when starting from scratch, use `simplelogin`).",
-    "translatedContent": "    - 将 `POSTGRES_PASSWORD` 设置为匹配 postgres 凭据（初次启动时设置为随机密钥）。  "
-  },
-  {
-    "row": 84,
-    "rowsha": "NJn0f7ltAIPi/pSiNdBjZr1CPDXVPQ45sOnsoLJld58=",
-    "originContent": "    - set the `POSTGRES_PASSWORD` to match the postgres credentials (when starting from scratch, set to a random key).",
-    "translatedContent": "    - 将 `FLASK_SECRET` 设置为任意的密钥。"
-  },
-  {
-    "row": 85,
-    "rowsha": "ZM9y1sjcS3Vhof9xOHyMsDS1db6a0S73CChYD7b7gag=",
-    "originContent": "    - set the `FLASK_SECRET` to an arbitrary secret key.",
-    "translatedContent": ""
-  },
-  {
-    "row": 86,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "### Postgres SQL"
-  },
-  {
-    "row": 87,
-    "rowsha": "IbjVzYH3F/oLRvw7IfDZQcARJmDdCFEaUpLeYmPG/Vk=",
-    "originContent": "### Postgres SQL",
-    "translatedContent": ""
-  },
-  {
-    "row": 88,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "此仓库在 Docker 容器中运行 postgres SQL。"
-  },
-  {
-    "row": 89,
-    "rowsha": "UNtacVt+yvpnkpjtIQz2Hc0MzxGJi8tFBxTkMGvKKHk=",
-    "originContent": "This repository runs a postgres SQL in a Docker container.",
-    "translatedContent": ""
-  },
-  {
-    "row": 90,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "**警告**：此仓库之前版本运行的是 `12.1` 版本。  "
-  },
-  {
-    "row": 91,
-    "rowsha": "tsPuxGLsgUSxKK53yQeqQBUZqVsQgsFqnEVAiBp3mDE=",
-    "originContent": "**Warning**: previous versions of this repository ran version `12.1`.",
-    "translatedContent": "请参考[参考文档](https://github.com/springcomp/self-hosted-simplelogin/wiki/PostgreSQL)了解更多细节和升级说明。"
-  },
-  {
-    "row": 92,
-    "rowsha": "PCDTub5mtuHeN6pJjcb93KGG0bEaetVS72YQzKRYa+s=",
-    "originContent": "Please, refer to the [reference documentation](https://github.com/springcomp/self-hosted-simplelogin/wiki/PostgreSQL) for more details and",
-    "translatedContent": ""
-  },
-  {
-    "row": 93,
-    "rowsha": "ioXrmCLi5VEwCfIVeRFavXuSl5ETy4KlfGzynE6HNl0=",
-    "originContent": "upgrade instructions.",
-    "translatedContent": "### 运行应用"
-  },
-  {
-    "row": 94,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 95,
-    "rowsha": "yJFfX557D+wMJG/BWLPv57KtoSzXfLgWQosJYRW9FHw=",
-    "originContent": "### Running the application",
-    "translatedContent": "使用以下命令运行应用："
-  },
-  {
-    "row": 96,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 97,
-    "rowsha": "ss0Uxsxm0DgHn9z/LSpklZONETV5BqqRKuGavvBQXWs=",
-    "originContent": "Run the application using the following commands:",
-    "translatedContent": ""
-  },
-  {
-    "row": 98,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 99,
-    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
-    "originContent": "```sh",
-    "translatedContent": "```sh"
-  },
-  {
-    "row": 100,
-    "rowsha": "rvrBrpqu0tk/9nZ3/XSn2Hn+KVJfenZF4KFfSYyS7+w=",
-    "originContent": "docker compose up --detach --remove-orphans --build && docker compose logs -f",
-    "translatedContent": "docker compose up --detach --remove-orphans --build && docker compose logs -f"
-  },
-  {
-    "row": 101,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 102,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "您可能希望此时设置[证书授权机构授权 (CAA)](https://github.com/springcomp/self-hosted-simplelogin/wiki/dns-caa)。"
-  },
-  {
-    "row": 103,
-    "rowsha": "qctNATJrZL8sZU6jDfq6Sgpz0vpuHiabzlI/nEbWx5k=",
-    "originContent": "You may want to setup [Certificate Authority Authorization (CAA)](https://github.com/springcomp/self-hosted-simplelogin/wiki/dns-caa) at this point.",
-    "translatedContent": ""
-  },
-  {
-    "row": 104,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "## 接下来的步骤"
-  },
-  {
-    "row": 105,
-    "rowsha": "Ol2cvEnm5fDJg0ndHNfP5XE4B/xfAiNCQGIQMZJdHzI=",
-    "originContent": "## Next steps",
-    "translatedContent": ""
-  },
-  {
-    "row": 106,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "如果上述所有步骤都成功，打开 <https://app.mydomain.com/> 并创建您的第一个账户！"
-  },
-  {
-    "row": 107,
-    "rowsha": "0TuWBftG9Fjn9E9vuCOp4LUS+MEWUFOQevRvzGChQgA=",
-    "originContent": "If all the above steps are successful, open <https://app.mydomain.com/> and create your first account!",
-    "translatedContent": ""
-  },
-  {
-    "row": 108,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "默认情况下，新账户不是高级账户，因此没有无限别名。要将您的账户升级为高级账户，"
-  },
-  {
-    "row": 109,
-    "rowsha": "yYcYjkAxn4QR01P42uBbUHG1oj11B97+Ty7gPwiin14=",
-    "originContent": "By default, new accounts are not premium so don't have unlimited aliases. To make your account premium,",
-    "translatedContent": "请进入数据库，找到“users”表，将“lifetime”列设置为“1”或“TRUE”："
-  },
-  {
-    "row": 110,
-    "rowsha": "M7RtYH/YxjHvNg4BxNaHXTdk79yO0b9OoFnb1lJ/UGY=",
-    "originContent": "please go to the database, table \"users\" and set \"lifetime\" column to \"1\" or \"TRUE\":",
-    "translatedContent": ""
-  },
-  {
-    "row": 111,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 112,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 113,
-    "rowsha": "hOUm3NG6LxTiiPUoo/f0JvQl3ySuWOFCW4l+e4FS15E=",
-    "originContent": "docker compose exec -it postgres psql -U myuser simplelogin",
-    "translatedContent": "docker compose exec -it postgres psql -U myuser simplelogin"
-  },
-  {
-    "row": 114,
-    "rowsha": "QpP22YImbmOKpxntEhNBbzpa2/oLhw6gyk9vEtacYy8=",
-    "originContent": "> UPDATE users SET lifetime = TRUE;",
-    "translatedContent": "> UPDATE users SET lifetime = TRUE;"
-  },
-  {
-    "row": 115,
-    "rowsha": "W8sMC20p71mmGrktvaOnC7iRNSGbDxA/100MBUUstz4=",
-    "originContent": "> \\q",
-    "translatedContent": "> \\q"
-  },
-  {
-    "row": 116,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 117,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 118,
-    "rowsha": "5VjVJqyF+A786lrAc5N5a98pDpYMqJEmAcKxxJy7lS8=",
-    "originContent": "Once you've created all your desired login accounts, add these lines to `.env` to disable further registrations:",
-    "translatedContent": "一旦你创建了所有想要的登录账户，添加以下行到 `.env` 文件以禁用进一步的注册："
-  },
-  {
-    "row": 119,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 120,
-    "rowsha": "dbgwbak9HW5TgEbWtR5ZtVRsu2dvkT/Yje52/4cKD48=",
-    "originContent": "```env",
-    "translatedContent": "```env"
-  },
-  {
-    "row": 121,
-    "rowsha": "p0RmaTZbc0xX5VK7vP8Jx/F6kOpMxLZLcJhuB2UV09c=",
-    "originContent": "DISABLE_REGISTRATION=1",
-    "translatedContent": "DISABLE_REGISTRATION=1"
-  },
-  {
-    "row": 122,
-    "rowsha": "ky7CjdiWZXKsM1JzFKSC7C7u0HgiQ1XUFgs8mcXQ9R0=",
-    "originContent": "DISABLE_ONBOARDING=true",
-    "translatedContent": "DISABLE_ONBOARDING=true"
-  },
-  {
-    "row": 123,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 124,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 125,
-    "rowsha": "bCHtQBvrxRlIzPsZmIWedvgdf2N/6glnE/eq62rRTno=",
-    "originContent": "Then, to restart the web app, apply: `docker compose restart app`",
-    "translatedContent": "然后，要重启 web 应用，执行：`docker compose restart app`"
-  },
-  {
-    "row": 126,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 127,
-    "rowsha": "WrSzKeIU/6Dm5S05K8KpCH0U33jBEpRu0vxAVBnlj2Q=",
-    "originContent": "## Miscellaneous",
-    "translatedContent": "## 杂项"
-  },
-  {
-    "row": 128,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 129,
-    "rowsha": "DaYgjTwRSSlZ/iwi8rRVw9c/4iP6kG0dbSITJE//BNQ=",
-    "originContent": "### Postfix configuration - Spamhaus",
-    "translatedContent": "### Postfix 配置 - Spamhaus"
-  },
-  {
-    "row": 130,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 131,
-    "rowsha": "nBzLQKOmVZEBF1I15PPXPbuhbuhX7H2B0wbVzw4d64A=",
-    "originContent": "The Spamhaus Project maintains a reliable list of IP addresses known to be the source of SPAM.",
-    "translatedContent": "Spamhaus 项目维护了一份已知为垃圾邮件源的 IP 地址可靠列表。  "
-  },
-  {
-    "row": 132,
-    "rowsha": "IRwTXqhFNbgkWDaczYvhS7XM4Yvs3hh1Sh1awQHhKik=",
-    "originContent": "You can check whether a given IP address is in that list by submitting queries to the DNS infrastructure.",
-    "translatedContent": "您可以通过向 DNS 基础设施提交查询来检查某个 IP 地址是否在该列表中。"
-  },
-  {
-    "row": 133,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 134,
-    "rowsha": "X4MvarcL3Mgs4sLqc6mth33IX4Ulrl1PcMcM24H3NC8=",
-    "originContent": "Since Spamhaus blocks queries coming from public (open) DNS-Resolvers (see: <https://check.spamhaus.org/returnc/pub>) and your postfix container may use",
-    "translatedContent": "由于 Spamhaus 会阻止来自公共（开放）DNS 解析器的查询（参见：<https://check.spamhaus.org/returnc/pub>），而您的 postfix 容器默认可能使用公共解析器，  "
-  },
-  {
-    "row": 135,
-    "rowsha": "4NL8pRoxX6Pdm/Bflzg5x61p1Krl2wfGomKwJPI+Uro=",
-    "originContent": "a public resolver by default, it is recommended to sign up for the free",
-    "translatedContent": "建议注册免费的  "
-  },
-  {
-    "row": 136,
-    "rowsha": "Dw3lniDawCcF+wR1FJ3kt12JDAWq6j9PyWbM8UWA2NU=",
-    "originContent": "[Spamhaus Data Query Service](https://www.spamhaus.com/free-trial/sign-up-for-a-free-data-query-service-account/)",
-    "translatedContent": "[Spamhaus 数据查询服务](https://www.spamhaus.com/free-trial/sign-up-for-a-free-data-query-service-account/)  "
-  },
-  {
-    "row": 137,
-    "rowsha": "1wfWFqdX/4bfPpk6wVpzvYOw/zLa4l+mv+Ei3+yAsbQ=",
-    "originContent": "and obtain a Spamhaus DQS key.",
-    "translatedContent": "并获取 Spamhaus DQS 密钥。"
-  },
-  {
-    "row": 138,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 139,
-    "rowsha": "SVbi9pMFc0phIP3iaJ+AsmnVtFgWRf5d0HdeRt/Sjzw=",
-    "originContent": "Paste this key as `SPAMHAUS_DQS_KEY` in your `.env`",
-    "translatedContent": "将此密钥作为 `SPAMHAUS_DQS_KEY` 粘贴到您的 `.env` 文件中。"
-  },
-  {
-    "row": 140,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 141,
-    "rowsha": "tuwYQtuxNEjKf1yNPrA2hV+phDpUC31xFgll1aDGhaM=",
-    "originContent": "If no DQS-key is provided, your postfix container will check if the Spamhaus public mirrors are accepting its queries and use them instead.",
-    "translatedContent": "如果未提供 DQS 密钥，您的 postfix 容器将检查 Spamhaus 公共镜像是否接受其查询，并改为使用它们。  "
-  },
-  {
-    "row": 142,
-    "rowsha": "4YVWJToTXrHGRshmgiFNe6PFg5FWBb59U0pxlqj2/wc=",
-    "originContent": "If Spamhaus rejects queries from your postfix container to the public mirrors, it will be disabled entirely.",
-    "translatedContent": "如果 Spamhaus 拒绝您的 postfix 容器对公共镜像的查询，则该功能将完全禁用。"
-  },
-  {
-    "row": 143,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 144,
-    "rowsha": "TfrSdW1YicpffScNBSw6pnDYunLAJL3Dn7NRaPL8kKY=",
-    "originContent": "### Postfix configuration - Virtual aliases",
-    "translatedContent": "### Postfix 配置 - 虚拟别名"
-  },
-  {
-    "row": 145,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 146,
-    "rowsha": "bWP0zo5ZCGSN9qnc8RSKnJdVTCL6WFgLOMn/tnezsDs=",
-    "originContent": "The postfix configuration supports virtual aliases using the `postfix/conf.d/virtual` and `postfix/conf.d/virtual-regexp` files.",
-    "translatedContent": "postfix 配置支持使用 `postfix/conf.d/virtual` 和 `postfix/conf.d/virtual-regexp` 文件定义虚拟别名。  "
-  },
-  {
-    "row": 147,
-    "rowsha": "X8pvB9DRoHi8PIJfBVfIWEIMkeZGoODnGnpyDeqZEA8=",
-    "originContent": "Those files are automatically created on startup based upon the corresponding [`postfix/templates/virtual.tpl`](https://raw.githubusercontent.com/springcomp/self-hosted-simplelogin/main/./postfix/templates/virtual.tpl)",
-    "translatedContent": "这些文件会在启动时根据相应的 [`postfix/templates/virtual.tpl`](https://raw.githubusercontent.com/springcomp/self-hosted-simplelogin/main/./postfix/templates/virtual.tpl)  "
-  },
-  {
-    "row": 148,
-    "rowsha": "fNmj0N/2TGTS6wLlO7xi+Cf+WHobV7uxfDo3wdTkgKs=",
-    "originContent": "and [`postfix/templates/virtual-regexp.tpl`](https://raw.githubusercontent.com/springcomp/self-hosted-simplelogin/main/./postfix/templates/virtual-regexp.tpl) template files.",
-    "translatedContent": "和 [`postfix/templates/virtual-regexp.tpl`](https://raw.githubusercontent.com/springcomp/self-hosted-simplelogin/main/./postfix/templates/virtual-regexp.tpl) 模板文件自动生成。"
-  },
-  {
-    "row": 149,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 150,
-    "rowsha": "ShOti631nYlsCP7JQARM1GLvDHjO0LALbJ+uHhs2FWs=",
-    "originContent": "The default configuration is as follows:",
-    "translatedContent": "默认配置如下："
-  },
-  {
-    "row": 151,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 152,
-    "rowsha": "d4DW7usLMRGlHfzsNobaPCsVKp4OFv8LKIgV+m7g7ew=",
-    "originContent": "#### virtual.tpl",
-    "translatedContent": "#### virtual.tpl"
-  },
-  {
-    "row": 153,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 154,
-    "rowsha": "8ep44p0+rnghwGf/oRg//2nW6hsBqBPbpU4cUkAPl1o=",
-    "originContent": "The `virtual` file supports postfix `virtual_alias_maps` settings.",
-    "translatedContent": "`virtual` 文件支持 postfix 的 `virtual_alias_maps` 设置。  "
-  },
-  {
-    "row": 155,
-    "rowsha": "/haZIKsqXhIK0+/bgGHFkmSJOEHW3qL5pLsdvf6eA8c=",
-    "originContent": "It includes a rule that maps `unknown@mydomain.com` to `contact@mydomain.com` to demonstrate receiving",
-    "translatedContent": "它包含一条规则，将 `unknown@mydomain.com` 映射到 `contact@mydomain.com`，以演示如何将来自不存在的别名的特定地址的邮件接收并转发到另一个存在的别名。"
-  },
-  {
-    "row": 156,
-    "rowsha": "ZxLkQdMcyQ5HvoVha2tqBUHryWaxI3RSpoTTxhGvygc=",
-    "originContent": "and email from a specific address that does not correspond to an existing alias, to another one that does.",
-    "translatedContent": ""
-  },
-  {
-    "row": 157,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 158,
-    "rowsha": "ibnhXIC5Hh5HlbO6YcEQA6O2hv1mLwzhdGVnzqwQsOU=",
-    "originContent": "```postfix-conf",
-    "translatedContent": "```postfix-conf"
-  },
-  {
-    "row": 159,
-    "rowsha": "ZJCM0K6X7G3SCPX7NQoNtKYBdIJTCWn9zSzuaKaOUEs=",
-    "originContent": "unknown@mydomain.com  contact@mydomain.com",
-    "translatedContent": "unknown@mydomain.com  contact@mydomain.com"
-  },
-  {
-    "row": 160,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 161,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 162,
-    "rowsha": "P9glWFnSpeOP3hULFEwuUEye66kYWfl/Sa4kDjhfSNo=",
-    "originContent": "#### virtual-regexp.tpl",
-    "translatedContent": "#### virtual-regexp.tpl"
-  },
-  {
-    "row": 163,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 164,
-    "rowsha": "Sz0dsHQY2A68L3+SYxKNndBElIwCq1nxNOCQs57H1KI=",
-    "originContent": "The `virtual-regexp` file supports postfix `virtual_alias_maps` settings.",
-    "translatedContent": "`virtual-regexp` 文件支持后缀 `virtual_alias_maps` 设置。  "
-  },
-  {
-    "row": 165,
-    "rowsha": "+nBk40lr+Gi7yNVmTjfd5rcJaCgemeJj0qEjeZt2+l4=",
-    "originContent": "It includes a rule that rewrite emails addressed to an arbitrary subdomain, which does not correspond",
-    "translatedContent": "它包含一个规则，将发送到任意子域的邮件重写到一个新的别名，该子域不对应  "
-  },
-  {
-    "row": 166,
-    "rowsha": "j23Xm1Wg3E2Y/jBpcrq6JM+Web4G4dcik+BEqMogE7Q=",
-    "originContent": "to an existing alias, to a new alias that belongs to a directory whose name is taken from the subdomain.",
-    "translatedContent": "现有的别名，该别名属于一个目录，其名称取自子域名。  "
-  },
-  {
-    "row": 167,
-    "rowsha": "8SscJ4RgdEzu9EH1fcqJMdQXtoX3RvPpzGrJwpS/qf4=",
-    "originContent": "That alias may be created on the fly if it does not exist.",
-    "translatedContent": "如果该别名不存在，可以动态创建该别名。"
-  },
-  {
-    "row": 168,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 169,
-    "rowsha": "ibnhXIC5Hh5HlbO6YcEQA6O2hv1mLwzhdGVnzqwQsOU=",
-    "originContent": "```postfix-conf",
-    "translatedContent": "```postfix-conf"
-  },
-  {
-    "row": 170,
-    "rowsha": "hYiDVl45BcdHyaYzsLYB26/Sd3CBQexlBiR4K5sl9mo=",
-    "originContent": "/^([^@]+)@([^.]+)\\.mydomain.com/   $2/$1@mydomain.com",
-    "translatedContent": "/^([^@]+)@([^.]+)\\.mydomain.com/   $2/$1@mydomain.com"
-  },
-  {
-    "row": 171,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 172,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "例如，发送到 `someone@directory.mydomain.com` 的电子邮件将由 postfix 路由到 `directory/someone@mydomain.com`。"
-  },
-  {
-    "row": 173,
-    "rowsha": "2wgtLy8vnuXn34KkfH1wdp0ic1GF4yrG7AZCAWHD1zo=",
-    "originContent": "For instance, emails sent to `someone@directory.mydomain.com` will be routed to `directory/someone@mydomain.com` by postfix.",
-    "translatedContent": ""
-  },
-  {
-    "row": 174,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "## 如何从 3.4.0 升级"
-  },
-  {
-    "row": 175,
-    "rowsha": "SykIWDGbM7s/50Iu0igmZ3wx7JBDJkohMLIpPMbZP2k=",
-    "originContent": "## How-to Upgrade from 3.4.0",
-    "translatedContent": ""
-  },
-  {
-    "row": 176,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "_本节内容已移至 [参考文档](https://github.com/springcomp/self-hosted-simplelogin/wiki/upgrade-sl)_"
-  },
-  {
-    "row": 177,
-    "rowsha": "zFGoQCcqIS5mtSWi9dJFuyJY7P8Wu71oZLYhdLnSDjc=",
-    "originContent": "_This section has been moved to the [reference documentation](https://github.com/springcomp/self-hosted-simplelogin/wiki/upgrade-sl)_",
-    "translatedContent": ""
-  },
-  {
-    "row": 178,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "## 如何从以前基于 NGinx 的设置升级"
-  },
-  {
-    "row": 179,
-    "rowsha": "reGEN7JFmRbZoSd7H4YrbPmKptMIOEbXuNCeoY6+cFw=",
-    "originContent": "## How-to Upgrade from previous NGinx-based setup",
-    "translatedContent": ""
-  },
-  {
-    "row": 180,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "_本节内容已移至 [参考文档](https://github.com/springcomp/self-hosted-simplelogin/wiki/upgrade-from-nginx)_"
-  },
-  {
-    "row": 181,
-    "rowsha": "M+wf8xGD/jgXC/+i+roWHly/osWMoiKWkjMOX7ywrW8=",
-    "originContent": "_This section has been moved to the [reference documentation](https://github.com/springcomp/self-hosted-simplelogin/wiki/upgrade-from-nginx)_",
-    "translatedContent": ""
-  },
-  {
-    "row": 182,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""

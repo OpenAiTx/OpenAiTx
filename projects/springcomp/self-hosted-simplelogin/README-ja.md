@@ -1,16 +1,48 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=springcomp&project=self-hosted-simplelogin&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # SimpleLogin
 
-これは[SimpleLogin](https://simplelogin.io)のセルフホスト型docker-compose構成です。
+これは [SimpleLogin](https://simplelogin.io) 用のセルフホスト型 docker-compose 構成です。
 
 ## 前提条件
 
-- Linuxサーバー（VMまたは専用サーバーのいずれか）。このドキュメントはUbuntu 18.04 LTSのセットアップを示していますが、手順は他の一般的なLinuxディストリビューションにも適応可能です。ほとんどのコンポーネントがDockerコンテナとして動作し、Dockerはやや重いため、最低でも2GBのRAMを推奨します。サーバーはポート25（メール）、80、443（Webアプリ用）、22（SSH接続用）を開放している必要があります。
+- Linux サーバー（VM でも専用サーバーでも可）が必要です。このドキュメントでは Ubuntu 18.04 LTS のセットアップ例を示していますが、他の一般的な Linux ディストリビューションにも応用可能です。ほとんどのコンポーネントは Docker コンテナとして動作し、Docker はやや重い場合があるため、最低でも 2GB の RAM を推奨します。サーバーは 25 番ポート（メール）、80、443（Webアプリ用）、22（SSH 用）が開放されている必要があります。
 
-- DNSを設定できるドメイン。サブドメインでも構いません。以降のドキュメントでは、メール用に`mydomain.com`、SimpleLoginのWebアプリ用に`app.mydomain.com`とします。これらの値はドキュメント内の該当箇所すべてにおいて、ご自身のドメイン名およびサブドメイン名に置き換えてください。私たちが使う裏技として、このREADMEファイルをパソコンにダウンロードし、すべての`mydomain.com`と`app.mydomain.com`を自分のドメインに置換する方法があります。
+- DNS を設定できるドメインが必要です。サブドメインでも構いません。本ドキュメントでは、メール用に `mydomain.com`、SimpleLogin ウェブアプリ用に `app.mydomain.com` を例として使用します。ドキュメント内でこれらの値が現れる場合は、必ずご自身のドメイン名およびサブドメイン名に置き換えてください。当社でよく使う方法としては、この README ファイルをコンピュータにダウンロードし、`mydomain.com` および `app.mydomain.com` のすべての箇所を一括置換することです。
 
-DNS設定は通常ドメイン登録業者のインターフェースで行いますが、以下の手順はすべてサーバー上で実行します。コマンドは`bash`（または`zsh`などのbash互換シェル）を使用してください。`fish`など他のシェルを使う場合は、コマンドを適宜調整してください。
+DNS 設定以外の以下の手順は、通常ご利用のドメインレジストラのインターフェースで行いますが、それ以外はすべてサーバー上で実施します。コマンドは `bash`（または `zsh` などの bash 互換シェル）で実行してください。他のシェル（例：`fish`）を使用している場合は、コマンドを適宜調整してください。
 
-- セットアップを検証するために使用するユーティリティパッケージ。以下のコマンドでインストールします。
+- セットアップを確認するために使うユーティリティパッケージがあります。以下のコマンドでインストールしてください:
 
 ```bash
 sudo apt update \
@@ -183,6 +215,6 @@ _このセクションは[参考ドキュメント](https://github.com/springcom
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-14
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-15
 
 ---

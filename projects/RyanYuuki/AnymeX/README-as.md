@@ -47,26 +47,26 @@
 <a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX: বহু-চাৰ্ভিচৰ ট্ৰেকিং ক্লায়েন্ট
+# AnymeX: বহু সেৱাসমূহৰ ট্ৰেকিং ক্লায়েন্ট
 
-**AnymeX** হৈছে এটা বহু-চাৰ্ভিচৰ ট্ৰেকিং ক্লায়েন্ট, যি বিশেষকৈ [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), আৰু [**Simkl**](https://simkl.com/) ৰ মাজত এনিমে আৰু মাংগা অগ্ৰগতি পৰিচালনা আৰু ট্ৰেক কৰাৰ বাবে ডিজাইন কৰা হৈছে।
+**AnymeX** এটা বহু সেৱাসমূহৰ ট্ৰেকিং ক্লায়েন্ট যি বিশেষকৈ [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/), আৰু [**Simkl**](https://simkl.com/) ৰ জৰিয়তে এনিমে আৰু মাংগা অগ্ৰগতি পৰিচালনা আৰু ট্ৰেক কৰাৰ বাবে ডিজাইন কৰা হৈছে।
 
 > [!IMPORTANT]  
-> **AnymeX কেৱল এটা ট্ৰেকিং টুল।** এইয়ে কোনো ষ্ট্ৰিমিং কণ্টেণ্ট, মিডিয়া, বা তৃতীয় পক্ষৰ এক্সটেনশ্যন হোষ্ট, প্ৰদান, বিতৰণ, বা সমৰ্থন নকৰে।  
+> **AnymeX কেৱল এটা ট্ৰেকিং টুল।** ই কোনো স্ট্ৰিমিং সামগ্রী, মিডিয়া, অথবা তৃতীয় পক্ষৰ এক্সটেনচন হোস্ট, যোগান ধৰে, বিতৰণ কৰে বা অনুমোদন নকৰে।  
 >  
-> **ব্যৱহাৰকাৰীৰ দায়িত্ব:** ব্যৱহাৰকাৰীসকলে এই এপ্প আৰু যিকোনো তৃতীয় পক্ষৰ সেৱা বা এক্সটেনশ্যন ব্যৱহাৰৰ বাবে সম্পূৰ্ণৰূপে দায়ী। ব্যৱহাৰকাৰীসকলে সকলো প্ৰযোজ্য আইন, কপিৰাইট, আৰু বৌদ্ধিক সম্পত্তি অধিকাৰৰ পালন কৰিব লাগিব।  
+> **ব্যৱহাৰকাৰীৰ দায়িত্ব:** ব্যৱহাৰকাৰীয়ে কিদৰে এপটো ব্যৱহাৰ কৰে আৰু তেওঁলোকে যিকোনো তৃতীয় পক্ষৰ সেৱা বা এক্সটেনচন ব্যৱহাৰ কৰে তাৰ সম্পূৰ্ণ দায়িত্ব ব্যৱহাৰকাৰীৰ। ব্যৱহাৰকাৰীয়ে সকলো প্ৰযোজ্য আইন, কপিৰাইট আৰু মেধাস্বত্ব অধিকাৰৰ পালন কৰিবই লাগিব।  
 >  
-> **কোনো দায়িত্ব নাই:** AnymeX ৰ ডেভেলপাৰসকলে ব্যৱহাৰকাৰীৰ কাৰ্যৰ পৰা সৃষ্টি হোৱা ভুল ব্যৱহাৰ, আইনী সমস্যা, বা উলংঘনৰ বাবে সকলো দায়িত্ব অস্বীকাৰ কৰে। আইনী চিন্তা-চেতনা, DMCA দাবীসহ, সম্পৰ্কিত তৃতীয় পক্ষৰ সেৱাত প্ৰেৰণ কৰিব লাগে, AnymeX ত নহয়। এই এপ্প “as-is” (যি অৱস্থাত আছে) হিচাপে গেৰান্টি নোহোৱাকৈ প্ৰদান কৰা হৈছে।  
+> **কোনো দায়িত্ব নাই:** AnymeX ৰ ডেভেলপাৰসকলে ব্যৱহাৰকাৰীৰ ক্ৰিয়াকলাপৰ পৰা উদ্ভৱ হোৱা অপব্যৱহাৰ, আইনী সমস্যা বা উলংঘন সন্দৰ্ভত সকলো দায়বদ্ধতা অস্বীকাৰ কৰে। আইনী চিন্তাবোৰ, যেনে DMCA দাবী, প্ৰাসংগিক তৃতীয় পক্ষৰ সেৱালৈ প্ৰেৰণ কৰিব, AnymeX লৈ নহয়। এই এপটো "যি অৱস্থাত আছে" সেই দৰে কোনো গেৰান্টী নোহোৱাকৈ প্ৰদান কৰা হৈছে।  
 >  
-> **চাৰ্ভিচসমূহ:** AnymeX কেৱল সমৰ্থিত চাৰ্ভিচসমূহ (AniList, MyAnimeList, Simkl) ৰ অফিচিয়েল API ৰ লগত সংযোগ কৰে। তৃতীয় পক্ষৰ এক্সটেনশ্যন সম্পূৰ্ণৰূপে তাৰ নিৰ্মাতাৰ দায়িত্ব, AnymeX ডেভেলপাৰসকলৰ নহয়।  
+> **সেৱাসমূহ:** AnymeX কেৱল সমৰ্থিত সেৱাসমূহ (AniList, MyAnimeList, Simkl) ৰ অফিচিয়েল API ৰ সৈতে সংহত কৰে। তৃতীয় পক্ষৰ এক্সটেনচনসমূহৰ দায়িত্ব তেওঁলোকৰ সৃষ্টিকাৰীক, AnymeX ডেভেলপাৰৰ নহয়।  
 >  
-> **AnymeX ব্যৱহাৰ কৰি, আপুনি আমাৰ [Terms of Service](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) মানিবলৈ সম্মত। অনুগ্ৰহ কৰি ToS পঢ়ক যাতে আমাৰ DMCA-সম্মত, ট্ৰেকিং ফাংকশ্যনালিটী, আৰু AniList, MyAnimeList, Simkl ৰ বাহিৰে যিকোনো কণ্টেণ্ট বা সেৱাত আমাৰ অব্যক্ত সংযোগ বুজিবলৈ পাৰে।**
+> **AnymeX ব্যৱহাৰ কৰি, আপুনি আমাৰ [সেৱাৰ চৰ্তাবলী](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) মানি চলিবলৈ একমত হয়। অনুগ্ৰহ কৰি ToS পৰ্যালোচনা কৰক যাতে আমাৰ DMCA-অনুগত, ট্ৰেকিং ফাংচনেলিটি আৰু AniList, MyAnimeList, আৰু Simkl ৰ বাহিৰে কিছুমান সামগ্ৰী বা সেৱাত আমিবিলাকৰ কোনো সম্পৃক্ততা নথকা বুজা যায়।**
 
 ## ডাউনলোডসমূহ
 
 <div align="center">
   <p>
-    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a>
+    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a> <a href="https://github.com/Shebyyy/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/Shebyyy/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Beta" alt="Latest Beta Release"/></a>
   </p>
   
 ### Windows
@@ -163,6 +163,6 @@ AnymeX MIT লাইচেঞ্চৰ অধীনত লাইচেঞ্চ 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-15
 
 ---

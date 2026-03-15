@@ -1,0 +1,1004 @@
+[
+  {
+    "row": 1,
+    "rowsha": "qg0L6AsB/QEhUpCAf+oqM1fZru8BStlp+lSe60YR8UM=",
+    "originContent": "# 🥥 Cokoin",
+    "translatedContent": "# 🥥 Cokoin"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "5ryYEBs4IJxTMFLmTIk6V+4opeI3DCIbxYVPkQCGMMA=",
+    "originContent": "[![Maven Central](https://img.shields.io/maven-central/v/dev.burnoo/cokoin)](https://search.maven.org/search?q=dev.burnoo.cokoin)",
+    "translatedContent": "[![Maven Central](https://img.shields.io/maven-central/v/dev.burnoo/cokoin)](https://search.maven.org/search?q=dev.burnoo.cokoin)"
+  },
+  {
+    "row": 4,
+    "rowsha": "bN2SWrfwUP5pHoKr6FRqzgoT6R2OP3xIvhqk4UKm1mk=",
+    "originContent": "[![javadoc](https://javadoc.io/badge2/dev.burnoo/cokoin/javadoc.svg?label=dokka&logo=)](https://javadoc.io/doc/dev.burnoo/cokoin)",
+    "translatedContent": "[![javadoc](https://javadoc.io/badge2/dev.burnoo/cokoin/javadoc.svg?label=dokka&logo=)](https://javadoc.io/doc/dev.burnoo/cokoin)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "EAm7Qfzzpa9K1+sGOC1m7dTEwgoGQDAzecGsK0lGBBE=",
+    "originContent": "Injection library for Compose (Multiplatform and Jetpack), Koin wrapper. It uses `@Composable`",
+    "translatedContent": "用于 Compose（多平台和 Jetpack）的注入库，Koin 的包装器。它使用 `@Composable` 函数来配置 `KoinContext`。"
+  },
+  {
+    "row": 7,
+    "rowsha": "zxiICcRxbiT2V78iZydo3J8hQWdyuNj9y5Ie+FGaWiE=",
+    "originContent": "functions to configure `KoinContext`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 9,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "该库托管在 Maven Central。将以下包添加到您的模块 `build.gradle.kts` 或 `build.gradle` 中："
+  },
+  {
+    "row": 11,
+    "rowsha": "aMBE50us3aHFImFR2k6ycD0ih+U2jwItTarRlFcKEkY=",
+    "originContent": "Library is hosted on Maven Central. Add following the packages to your module `build.gradle.kts` or `build.gradle`:",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 14,
+    "rowsha": "YiU0BYrj6/iCE+VQzVtTmQYPeT0yaMuVWxaQJ1+t/zA=",
+    "originContent": "dependencies {",
+    "translatedContent": "dependencies {"
+  },
+  {
+    "row": 15,
+    "rowsha": "we+uTmnE1awOTLE/4W6gxmtp1bF6ZbxVPRnSGIqM634=",
+    "originContent": "    implementation(\"dev.burnoo:cokoin:1.0.0\")",
+    "translatedContent": "    implementation(\"dev.burnoo:cokoin:1.0.0\")"
+  },
+  {
+    "row": 16,
+    "rowsha": "ZEOs1A3GZEUJvVuA18LL7O7GAadyu6NesGbfxNFRpLM=",
+    "originContent": "    implementation(\"dev.burnoo:cokoin-android-viewmodel:1.0.0\") // for Androidx ViewModel",
+    "translatedContent": "    implementation(\"dev.burnoo:cokoin-android-viewmodel:1.0.0\") // for Androidx ViewModel"
+  },
+  {
+    "row": 17,
+    "rowsha": "JKJ5hLYD9oQdVX6T+tuNUyrCJNWqpnw4OxCO23tIH28=",
+    "originContent": "    implementation(\"dev.burnoo:cokoin-android-navigation:1.0.0\") // for Compose Navigation",
+    "translatedContent": "    implementation(\"dev.burnoo:cokoin-android-navigation:1.0.0\") // for Compose Navigation"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "9kTQr5oAcmKtVDmuvZaavsdhm6/vTK2PqTB59q6Gyto=",
+    "originContent": "    // REMOVE \"org.koin:koin-androidx-compose:X.Y.Z\" if you were using it",
+    "translatedContent": "    // REMOVE \"org.koin:koin-androidx-compose:X.Y.Z\" if you were using it"
+  },
+  {
+    "row": 20,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 21,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "OXs6OLvhJ2FMu3UHtsEzPcc9hHYymSlg+top/Tf1v2Q=",
+    "originContent": "The library is using Koin's Application and Modules. The Koin documentation can be found here: https://insert-koin.io/.",
+    "translatedContent": "该库使用了 Koin 的 Application 和 Modules。Koin 的文档可以在这里找到：https://insert-koin.io/。"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "jQ8JR0rg13pvxRgvpkfRBWNh+rK3LPnBq5RR3MZqAF0=",
+    "originContent": "The core library contains [`@Composable Koin`](https://raw.githubusercontent.com/burnoo/cokoin/main/cokoin/src/commonMain/kotlin/dev/burnoo/cokoin/Koin.kt) function, which is used to configure Koin application. It can be used with `@Preview`.",
+    "translatedContent": "核心库包含 [`@Composable Koin`](https://raw.githubusercontent.com/burnoo/cokoin/main/cokoin/src/commonMain/kotlin/dev/burnoo/cokoin/Koin.kt) 函数，用于配置 Koin 应用。它可以与 `@Preview` 一起使用。"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 30,
+    "rowsha": "UUk4XiP1NXVXmRhT4eFBE6WurNfJsLVud5EzBfZEwbI=",
+    "originContent": "val appModule = module {",
+    "translatedContent": "val appModule = module {"
+  },
+  {
+    "row": 31,
+    "rowsha": "RAzrKyNEisMD7zydnRgPqzV1OfMM+gMvRy3Ix8ytZLM=",
+    "originContent": "    factory { \"Hello, DI!\" }",
+    "translatedContent": "    factory { \"Hello, DI!\" }"
+  },
+  {
+    "row": 32,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "iBytcC/z0RC6OcMJm+7c5N6N02GmiuPrPN1Of+BqfCo=",
+    "originContent": "@Preview",
+    "translatedContent": "@Preview"
+  },
+  {
+    "row": 35,
+    "rowsha": "vQjwtGudwwnBo71U1HckAwuUHp+axdFLZyTmkQo6OSo=",
+    "originContent": "@Composable",
+    "translatedContent": "@Composable"
+  },
+  {
+    "row": 36,
+    "rowsha": "f9LNMETZ6McS/sasQXQ3LwdcjCHKGJZryYepjhv/mwY=",
+    "originContent": "fun App() {",
+    "translatedContent": "fun App() {"
+  },
+  {
+    "row": 37,
+    "rowsha": "joXr/SIGkrDCv5CKSIWIP0IAN/jXEsBLeaEg5kLSsac=",
+    "originContent": "    Koin(appDeclaration = { modules(appModule) }) {",
+    "translatedContent": "    Koin(appDeclaration = { modules(appModule) }) {"
+  },
+  {
+    "row": 38,
+    "rowsha": "GXLBFOMZi352BEmQc3ykNmfjqNkMt0RNzPQflrkvSnc=",
+    "originContent": "        val text = get<String>()",
+    "translatedContent": "        val text = get<String>()"
+  },
+  {
+    "row": 39,
+    "rowsha": "Y3RAyq0Y8oKEJOwvwpjc+/oSRgGVe6AAgyjCMUblWXs=",
+    "originContent": "        Text(text)",
+    "translatedContent": "        Text(text)"
+  },
+  {
+    "row": 40,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 41,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "vrXzoePf5sxz+CHs5RiaasaqGVXxB+/gEs5Dh2bnyow=",
+    "originContent": "### Scopes",
+    "translatedContent": "### 作用域"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "iP99QYbJGwHYQ9XHwjkLSrfiqvqQZEGQ675w3J3+G0I=",
+    "originContent": "Scopes are created by wrapping composables in [`@Composable KoinScope`](https://raw.githubusercontent.com/burnoo/cokoin/main/cokoin/src/commonMain/kotlin/dev/burnoo/cokoin/Scope.kt):",
+    "translatedContent": "作用域是通过将可组合函数包装在 [`@Composable KoinScope`](https://raw.githubusercontent.com/burnoo/cokoin/main/cokoin/src/commonMain/kotlin/dev/burnoo/cokoin/Scope.kt) 中来创建的："
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 49,
+    "rowsha": "EVCW4pIYFUEro8d6+kkf2aFl0iPs8e9LLlRG54+FfmI=",
+    "originContent": "data class A(val value: String)",
+    "translatedContent": "data class A(val value: String)"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "PVN6xz260RPcYHRuGTBr9jfR7CEV5YWktfyvD4puzHI=",
+    "originContent": "val scopedModule = module {",
+    "translatedContent": "val scopedModule = module {"
+  },
+  {
+    "row": 52,
+    "rowsha": "ffRq5JZFXmBy9U6LlOGZJOM0nWGRxgr1Vo0IsPDdP9I=",
+    "originContent": "    scope<ScopeTypeA> {",
+    "translatedContent": "    scope<ScopeTypeA> {"
+  },
+  {
+    "row": 53,
+    "rowsha": "q/EdQxe3DKZVuHqC8qTHiZ/dI54fxCYyXLf//e7Saw4=",
+    "originContent": "        scoped { A(\"scopeA\") }",
+    "translatedContent": "        scoped { A(\"scopeA\") }"
+  },
+  {
+    "row": 54,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 55,
+    "rowsha": "T4cf7HU9s2h6DPoYqjRo+6LKb223FB1dzYG8tayYq6I=",
+    "originContent": "    scope<ScopeTypeB> {",
+    "translatedContent": "    scope<ScopeTypeB> {"
+  },
+  {
+    "row": 56,
+    "rowsha": "NT3yxLkb1X88+vpJS5sqf4cj7BVODVcZ/aJFbWosCkE=",
+    "originContent": "        scoped { A(\"scopeB\") }",
+    "translatedContent": "        scoped { A(\"scopeB\") }"
+  },
+  {
+    "row": 57,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 58,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "iBytcC/z0RC6OcMJm+7c5N6N02GmiuPrPN1Of+BqfCo=",
+    "originContent": "@Preview",
+    "translatedContent": "@Preview"
+  },
+  {
+    "row": 61,
+    "rowsha": "vQjwtGudwwnBo71U1HckAwuUHp+axdFLZyTmkQo6OSo=",
+    "originContent": "@Composable",
+    "translatedContent": "@Composable"
+  },
+  {
+    "row": 62,
+    "rowsha": "IG3XoFt/+0gbW8pT6kAV1VRef1gMTi0QV5Hq5NICvWk=",
+    "originContent": "fun Test() {",
+    "translatedContent": "fun Test() {"
+  },
+  {
+    "row": 63,
+    "rowsha": "gEL3grYaxjHeS2cKFIQKekiRyIg1/lTB23NfCNciSUk=",
+    "originContent": "    Koin(appDeclaration = { modules(scopedModule) }) {",
+    "translatedContent": "    Koin(appDeclaration = { modules(scopedModule) }) {"
+  },
+  {
+    "row": 64,
+    "rowsha": "fBIpBg/CNkbk6sysdifsyHyMiDuXKzpnEWFrIkYPXHY=",
+    "originContent": "        Column {",
+    "translatedContent": "        Column {"
+  },
+  {
+    "row": 65,
+    "rowsha": "05VS5xPe0p0A2WeCPNxB561fCfoYSXixCZvGsZugA7k=",
+    "originContent": "            KoinScope(getScope = { createScope<ScopeTypeA>() }) {",
+    "translatedContent": "            KoinScope(getScope = { createScope<ScopeTypeA>() }) {"
+  },
+  {
+    "row": 66,
+    "rowsha": "bgHnsk/EEHH279o0OfJcKJCgCU0UoSeLrqmanJr/6e0=",
+    "originContent": "                Text(get<A>().value)",
+    "translatedContent": "                Text(get<A>().value)"
+  },
+  {
+    "row": 67,
+    "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+    "originContent": "            }",
+    "translatedContent": "            }"
+  },
+  {
+    "row": 68,
+    "rowsha": "rmOie543HyPBY+3lG0EDGVrsGO8RQqcPXd2yTG0UESU=",
+    "originContent": "            KoinScope(getScope = { createScope<ScopeTypeB>() }) {",
+    "translatedContent": "            KoinScope(getScope = { createScope<ScopeTypeB>() }) {"
+  },
+  {
+    "row": 69,
+    "rowsha": "bgHnsk/EEHH279o0OfJcKJCgCU0UoSeLrqmanJr/6e0=",
+    "originContent": "                Text(get<A>().value)",
+    "translatedContent": "                Text(get<A>().value)"
+  },
+  {
+    "row": 70,
+    "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+    "originContent": "            }",
+    "translatedContent": "            }"
+  },
+  {
+    "row": 71,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 72,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 73,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 74,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "0S3bv9iqEmNo40jS9KpAfMdcyK39uDzzOky8TKgXOJ4=",
+    "originContent": "### ViewModel",
+    "translatedContent": "### ViewModel"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "MYyKWDnz56/o1TRfHktxcJzzFEeZ/xg5Y/lVLsxVpNY=",
+    "originContent": "#### `dev.burnoo:cokoin-android-viewmodel:x.y.z`",
+    "translatedContent": "#### `dev.burnoo:cokoin-android-viewmodel:x.y.z`"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "V4Tozg5MVcTGx/wTeMMK+zc3jEJ/IBakwEGWCmQyVAY=",
+    "originContent": "Call `getViewModel` to obtain `ViewModel` inside `@Composable`:",
+    "translatedContent": "在 `@Composable` 内调用 `getViewModel` 以获取 `ViewModel`："
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 83,
+    "rowsha": "EhxEgmnBJFqosbc2uGHkeq4v/LN23T5+wBFI9/UU2EA=",
+    "originContent": "class MainViewModel : ViewModel() {",
+    "translatedContent": "class MainViewModel : ViewModel() {"
+  },
+  {
+    "row": 84,
+    "rowsha": "qSKB9Mx3R7G/B6berjdJKw8o94NATDJkk7Q1vBhAuUI=",
+    "originContent": "    val data = \"Hello, DI!\"",
+    "translatedContent": "    val data = \"Hello, DI!\""
+  },
+  {
+    "row": 85,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "XwETvHeBUnfc0wemrIBtJgX7yzNsSDIa1TqJ6e3xm8g=",
+    "originContent": "private val viewModelModule = module {",
+    "translatedContent": "private val viewModelModule = module {"
+  },
+  {
+    "row": 88,
+    "rowsha": "UIuNSegfvD63ZscFyN+gGMyg2VZCfunEhJ9Xq4Li3aQ=",
+    "originContent": "    viewModel { MainViewModel() }",
+    "translatedContent": "    viewModel { MainViewModel() }"
+  },
+  {
+    "row": 89,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "vQjwtGudwwnBo71U1HckAwuUHp+axdFLZyTmkQo6OSo=",
+    "originContent": "@Composable",
+    "translatedContent": "@Composable"
+  },
+  {
+    "row": 92,
+    "rowsha": "uRTKJ5CczwuyULb6IqP2ZLP+l+W7sv3WFp1PyKi7qUk=",
+    "originContent": "fun ViewModelSample() {",
+    "translatedContent": "fun ViewModelSample() {"
+  },
+  {
+    "row": 93,
+    "rowsha": "QdLGL967Vmmfi+bai+VHukp4WhJslrRynXtaSPgH14E=",
+    "originContent": "    Koin(appDeclaration = { modules(viewModelModule) }) {",
+    "translatedContent": "    Koin(appDeclaration = { modules(viewModelModule) }) {"
+  },
+  {
+    "row": 94,
+    "rowsha": "A53BTsxWx9o3a5Pizi7dIqt9b8RZDtOuZyDY8Ye1eso=",
+    "originContent": "        val viewModel = getViewModel<MainViewModel>()",
+    "translatedContent": "        val viewModel = getViewModel<MainViewModel>()"
+  },
+  {
+    "row": 95,
+    "rowsha": "U3VvzxJO9usAt5xRxEDnv3rYUeTTNAi/dyewYio1ulo=",
+    "originContent": "        Text(viewModel.data)",
+    "translatedContent": "        Text(viewModel.data)"
+  },
+  {
+    "row": 96,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 97,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 98,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "2BRg6Sl5hSa687XcdYJ7h50V5ly1Tdn46GwlL+hSjnU=",
+    "originContent": "`getViewModel`",
+    "translatedContent": "`getViewModel`"
+  },
+  {
+    "row": 101,
+    "rowsha": "VyAku872ULvj55w3YiPIEUGNcGyNGN0w981QaoO7m14=",
+    "originContent": "supports [Koin's injection parameters](https://insert-koin.io/docs/reference/koin-android/viewmodel/#viewmodel-and-injection-parameters)",
+    "translatedContent": "支持 [Koin 的注入参数](https://insert-koin.io/docs/reference/koin-android/viewmodel/#viewmodel-and-injection-parameters)"
+  },
+  {
+    "row": 102,
+    "rowsha": "azUbU6wRpm6WJ+aDFsAAp5YMUQVlbIiC13fyx7bL2J8=",
+    "originContent": "and `SaveStateHandle`. Advanced examples can be",
+    "translatedContent": "和 `SaveStateHandle`。高级示例可在"
+  },
+  {
+    "row": 103,
+    "rowsha": "RuBaoy3x9wkVSKtR6nBp42s+FiXJpTyhLmmwWIBYe5o=",
+    "originContent": "found [here](https://raw.githubusercontent.com/burnoo/cokoin/main/cokoin-android-viewmodel/src/androidTest/java/dev/burnoo/cokoin/viewmodel/ViewModelTest.kt).",
+    "translatedContent": "[这里](https://raw.githubusercontent.com/burnoo/cokoin/main/cokoin-android-viewmodel/src/androidTest/java/dev/burnoo/cokoin/viewmodel/ViewModelTest.kt) 找到。"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "7cRYPJULboJJ0o+zAMSsWlw29apCsahDIbPCLGL3vYU=",
+    "originContent": "### Compose Navigation",
+    "translatedContent": "### Compose 导航"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "KMNz3ask2MSYoDJWxQdXnNmydpqCIRo8Z6EK7oZxu1A=",
+    "originContent": "#### `dev.burnoo:cokoin-android-navigation:x.y.z`",
+    "translatedContent": "#### `dev.burnoo:cokoin-android-navigation:x.y.z`"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "T51eOKxVKGLW0vINEomzpi6X9tRypRfiKD+CF6Ki9H8=",
+    "originContent": "First replace `NavHost` with `KoinNavHost`:",
+    "translatedContent": "首先将 `NavHost` 替换为 `KoinNavHost`："
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 112,
+    "rowsha": "vQjwtGudwwnBo71U1HckAwuUHp+axdFLZyTmkQo6OSo=",
+    "originContent": "@Composable",
+    "translatedContent": "@Composable"
+  },
+  {
+    "row": 113,
+    "rowsha": "M9GWbNhihnUOg5dbGNj3KuyHsRebn52hhr5+oFa78z8=",
+    "originContent": "fun Sample() {",
+    "translatedContent": "fun Sample() {"
+  },
+  {
+    "row": 114,
+    "rowsha": "xjw/S72ZzQnE8hyB23pW3azHGipS7Yl5i08FN8Sk79U=",
+    "originContent": "    val navController = rememberNavController()",
+    "translatedContent": "    val navController = rememberNavController()"
+  },
+  {
+    "row": 115,
+    "rowsha": "QdLGL967Vmmfi+bai+VHukp4WhJslrRynXtaSPgH14E=",
+    "originContent": "    Koin(appDeclaration = { modules(viewModelModule) }) {",
+    "translatedContent": "    Koin(appDeclaration = { modules(viewModelModule) }) {"
+  },
+  {
+    "row": 116,
+    "rowsha": "a0GzV8Mc+7JnQfQjyskPcv2ln9occKnMzSmNITIFSZA=",
+    "originContent": "        KoinNavHost(navController, startDestination = \"1\") {",
+    "translatedContent": "        KoinNavHost(navController, startDestination = \"1\") {"
+  },
+  {
+    "row": 117,
+    "rowsha": "gbEJKUnJQDXrUWmaClFKWGX1Jt4ZbOf1QLcqSWlhbb8=",
+    "originContent": "            composable(\"1\") {",
+    "translatedContent": "            composable(\"1\") {"
+  },
+  {
+    "row": 118,
+    "rowsha": "wDeWhWTwv8tTlWDAxZDM7Yf0PUs52SZsto2/7CPRvcA=",
+    "originContent": "                Screen1()",
+    "translatedContent": "                Screen1()"
+  },
+  {
+    "row": 119,
+    "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+    "originContent": "            }",
+    "translatedContent": "            }"
+  },
+  {
+    "row": 120,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 121,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 122,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 123,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "5efXGLgA/Xgt926fmvpZ/Gl1E9L7ZFtkDhNNUcQ9PEA=",
+    "originContent": "Then use `getNavController` and `getNavViewModel` inside `composable` screen.",
+    "translatedContent": "然后在 `composable` 界面内使用 `getNavController` 和 `getNavViewModel`。"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 128,
+    "rowsha": "vQjwtGudwwnBo71U1HckAwuUHp+axdFLZyTmkQo6OSo=",
+    "originContent": "@Composable",
+    "translatedContent": "@Composable"
+  },
+  {
+    "row": 129,
+    "rowsha": "/rv1J+928D2HkLnHOztffxTpQKNGSdPk7ZFZzkEGRbE=",
+    "originContent": "fun Screen1() {",
+    "translatedContent": "fun Screen1() {"
+  },
+  {
+    "row": 130,
+    "rowsha": "SxXb0JLgfe8RaAdd/27orRv22RUJnJbp7RQTzGV/Qas=",
+    "originContent": "    val navController = getNavController()",
+    "translatedContent": "    val navController = getNavController()"
+  },
+  {
+    "row": 131,
+    "rowsha": "tpiUNDBePazz10TDhAkFKgRZ56NejZBqRRJYA3Nj5nc=",
+    "originContent": "    Button(onClick = { navController.navigate(\"2\") }) {",
+    "translatedContent": "    Button(onClick = { navController.navigate(\"2\") }) {"
+  },
+  {
+    "row": 132,
+    "rowsha": "9Yi3ozilYdrTY4wqjP1IZyvzGmwfpoWOgA3deyehkW4=",
+    "originContent": "        val navViewModel = getNavViewModel<MainViewModel>()",
+    "translatedContent": "        val navViewModel = getNavViewModel<MainViewModel>()"
+  },
+  {
+    "row": 133,
+    "rowsha": "WrWLvJM8/EIGsxHrAijokZN+RURQZdfEcjKtoVznqnM=",
+    "originContent": "        //...",
+    "translatedContent": "        //..."
+  },
+  {
+    "row": 134,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 135,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 136,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 137,
+    "rowsha": "lLIlsCqlHy8lY4NkE0ZPzgHOMsO0ZprR5ynfzTIL3dk=",
+    "originContent": "If you don't want to wrap navigation with `KoinNavHost`,",
+    "translatedContent": "如果您不想用 `KoinNavHost` 包裹导航，  "
+  },
+  {
+    "row": 138,
+    "rowsha": "eE79luf9kzrvIYYSRt5uLyV5Iq42r0gI1BKd3XuqnMQ=",
+    "originContent": "you can achieve similar results with `getViewModel` using `viewModelStoreOwner` parameter:",
+    "translatedContent": "您可以使用带有 `viewModelStoreOwner` 参数的 `getViewModel` 来实现类似的效果："
+  },
+  {
+    "row": 139,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 140,
+    "rowsha": "vQjwtGudwwnBo71U1HckAwuUHp+axdFLZyTmkQo6OSo=",
+    "originContent": "@Composable",
+    "translatedContent": "@Composable"
+  },
+  {
+    "row": 141,
+    "rowsha": "c9pCLjhG3DPAKcZwVUbXcGJzR/EoZORAdN0QFRXx6+8=",
+    "originContent": "fun Screen1(navController: NavController) {",
+    "translatedContent": "fun Screen1(navController: NavController) {"
+  },
+  {
+    "row": 142,
+    "rowsha": "tpiUNDBePazz10TDhAkFKgRZ56NejZBqRRJYA3Nj5nc=",
+    "originContent": "    Button(onClick = { navController.navigate(\"2\") }) {",
+    "translatedContent": "    Button(onClick = { navController.navigate(\"2\") }) {"
+  },
+  {
+    "row": 143,
+    "rowsha": "1e8HR3y2y/MfKZknkzCZD4ol9YPhqh5qZVq5zxQTslY=",
+    "originContent": "        val viewModel = getViewModel<MainViewModel>(",
+    "translatedContent": "        val viewModel = getViewModel<MainViewModel>("
+  },
+  {
+    "row": 144,
+    "rowsha": "t8zTgWSS/Duvv/v6yhG6wJlcfzMHmzMPhabLVs00PUs=",
+    "originContent": "            viewModelStoreOwner = navController.getBackStackEntry(\"root\")",
+    "translatedContent": "            viewModelStoreOwner = navController.getBackStackEntry(\"root\")"
+  },
+  {
+    "row": 145,
+    "rowsha": "qzjo1midRSsRUHKP4UDpYDctWoenaIz1GwPwmWYIuEI=",
+    "originContent": "        )",
+    "translatedContent": "        )"
+  },
+  {
+    "row": 146,
+    "rowsha": "WrWLvJM8/EIGsxHrAijokZN+RURQZdfEcjKtoVznqnM=",
+    "originContent": "        //...",
+    "translatedContent": "        //..."
+  },
+  {
+    "row": 147,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 148,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 149,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 150,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## 许可证"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 153,
+    "rowsha": "aa0KScWYvi4zlBCYHH1IVaEqgn8EDJtl0tsCEDJY0SQ=",
+    "originContent": "Copyright 2021 Bruno Wieczorek",
+    "translatedContent": "Copyright 2021 Bruno Wieczorek"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "VfElKN3UJA55f2ORyA9c+IPpwoElOtKWwwuX3UgQwKY=",
+    "originContent": "Licensed under the Apache License, Version 2.0 (the \"License\");",
+    "translatedContent": "Licensed under the Apache License, Version 2.0 (the \"License\");"
+  },
+  {
+    "row": 156,
+    "rowsha": "VQCbJ6lkLIG+QIbMVwA/vs6G9yOR4UrZydBf4mBSNdI=",
+    "originContent": "you may not use this file except in compliance with the License.",
+    "translatedContent": "you may not use this file except in compliance with the License."
+  },
+  {
+    "row": 157,
+    "rowsha": "zc+XLmtuFgclWV6pGgZLcQv1Hjv/ms2VYnKjAPTVeC4=",
+    "originContent": "You may obtain a copy of the License at",
+    "translatedContent": "You may obtain a copy of the License at"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "axQbqpwQmvsmL/nF3zxm9HUHxiUbABCpiHVxJ+FXHsc=",
+    "originContent": "   http://www.apache.org/licenses/LICENSE-2.0",
+    "translatedContent": "   http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "6K1UbnG98lGY5LKOXIHt1Z+AMUzYVsiKT1eKC6VvNlI=",
+    "originContent": "Unless required by applicable law or agreed to in writing, software",
+    "translatedContent": "Unless required by applicable law or agreed to in writing, software"
+  },
+  {
+    "row": 162,
+    "rowsha": "6EV8LclXq8e4Snj9ikYkmC7/p2LcJOUNiR3V+PtVLpk=",
+    "originContent": "distributed under the License is distributed on an \"AS IS\" BASIS,",
+    "translatedContent": "distributed under the License is distributed on an \"AS IS\" BASIS,"
+  },
+  {
+    "row": 163,
+    "rowsha": "Mg8SgXfM81YLmx+DH9SmR0utjpqm0UpPVR/Xac95hHI=",
+    "originContent": "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+    "translatedContent": "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied."
+  },
+  {
+    "row": 164,
+    "rowsha": "Q5/Z1CdafqvQm6kl2tQCkvldCPcIR6mVz507J0X+fbg=",
+    "originContent": "See the License for the specific language governing permissions and",
+    "translatedContent": "See the License for the specific language governing permissions and"
+  },
+  {
+    "row": 165,
+    "rowsha": "ohUexDkFjXwubxVdBempXqan0oD24xrzKSm0BFGb14k=",
+    "originContent": "limitations under the License.",
+    "translatedContent": "limitations under the License."
+  },
+  {
+    "row": 166,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
