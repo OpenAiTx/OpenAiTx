@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Ngôn ngữ</summary>
@@ -31,8 +32,12 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 
-# Home Assistant Cupertino Icons
-Biểu tượng SF Symbols của Apple cho Home Assistant! (3000+ biểu tượng)
+# Biểu Tượng Cupertino cho Home Assistant (SF Symbols)
+Biểu tượng Apple SF Symbols cho Home Assistant! (Hơn 3000 biểu tượng)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/menahishayan/HomeAssistant-Cupertino-Icons/main/custom_components/cupertino/brand/dark_logo.png" alt="Biểu Tượng Cupertino cho Home Assistant" width="140" />
+</p>
 
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg" alt="preview"  width="50"/>
@@ -66,27 +71,27 @@ Biểu tượng SF Symbols của Apple cho Home Assistant! (3000+ biểu tượn
 
 ## Cài đặt
 ### HACS (Khuyến nghị)
-1. Tab **HACS** > Menu > **Custom Repository**
-4. Dán URL của repo này
-5. Chọn **Integration** trong menu thả xuống
+1. Tab **HACS** > Menu > **Kho tuỳ chỉnh**
+4. Dán URL repo này
+5. Chọn **Integration** trong danh sách xổ xuống
 6. Cài đặt **cupertino-icons** từ HACS
 7. Khởi động lại Home Assistant
 8. Home Assistant > Cài đặt > Tích hợp > Thêm > Cupertino Icons > Cài đặt
 
-Bây giờ các biểu tượng sẽ có thể sử dụng được trong Home Assistant. Nếu không xuất hiện, hãy thử làm mới trang, duyệt web ẩn danh hoặc khởi động lại Home Assistant.
+Các biểu tượng bây giờ nên có thể sử dụng được trong Home Assistant. Nếu không xuất hiện, hãy thử làm mới trang, duyệt ở chế độ riêng tư hoặc khởi động lại Home Assistant.
 
 ### Thủ công
 1. Sao chép `custom_components/cupertino` vào thư mục custom_components của bạn
 7. Khởi động lại Home Assistant
 8. Home Assistant > Cài đặt > Tích hợp > Thêm > Cupertino Icons > Cài đặt
   
-Bây giờ các biểu tượng sẽ có thể sử dụng được trong Home Assistant. Nếu không xuất hiện, hãy thử làm mới trang, duyệt web ẩn danh hoặc khởi động lại Home Assistant
+Các biểu tượng bây giờ nên có thể sử dụng được trong Home Assistant. Nếu không xuất hiện, hãy thử làm mới trang, duyệt ở chế độ riêng tư hoặc khởi động lại Home Assistant
 
-## Sử dụng
+## Cách sử dụng
 Tiền tố: **ios**  
 Ví dụ: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
 
-## Biểu tượng đa màu! (v3.0+)
+## Biểu tượng đa màu sắc
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
@@ -97,7 +102,6 @@ Ví dụ: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fi
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/clock-badge-exclamationmark-fill.svg" alt="preview" width="50"/>
   &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/circle-hexagongrid-fill.svg" alt="preview"  width="50"/>
-
   &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/drop-circle-fill.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
@@ -114,14 +118,14 @@ Ví dụ: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fi
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg" alt="preview"  width="50"/>
-  &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg" alt="preview"  width="50"/>
 </div>
 
 
-SF Symbols 3+ hỗ trợ các biểu tượng đa màu sắc. Tính năng này đã được chuyển sang repo này để hỗ trợ biểu tượng đa màu trong Home Assistant!  
+SF Symbols 3+ hỗ trợ các biểu tượng đa màu sắc. Tính năng này đã được chuyển vào repo này để hỗ trợ các biểu tượng đa màu trong Home Assistant!
 
-Chỉ cần thêm hậu tố **#color**, **#invert**, **#color-invert** hoặc **#fullcolor** để thay đổi màu biểu tượng! (Cảm ơn [thomasloven](https://github.com/thomasloven/hass-fontawesome) vì nguồn cảm hứng)
+Chỉ cần thêm các hậu tố **#color**, **#invert**, **#color-invert** hoặc **#fullcolor** để thay đổi màu sắc biểu tượng! (Cảm ơn [thomasloven](https://github.com/thomasloven/hass-fontawesome) vì nguồn cảm hứng)
 
 Ví dụ:
  - ios:gear-badge-xmark#color
@@ -130,62 +134,58 @@ Ví dụ:
 
 ## Tham khảo Biểu tượng
 
-**Cập nhật v3.0**  
- - Home Assistant Cupertino Icons đã được cập nhật lên SF Symbols v3.0 với **3167 biểu tượng**! (Các biểu tượng có bản quyền bị loại trừ)
- - Hỗ trợ bộ chọn biểu tượng của Home Assistant (2021.11.0+)
+[SF Symbols | Apple](https://developer.apple.com/sf-symbols/)
 
-[SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  
-[SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)
+Bạn có thể tải ứng dụng MacOS từ Apple để tham khảo tốt hơn.
 
-Bạn có thể tải ứng dụng MacOS từ Apple để tham khảo chi tiết hơn.
+**Lưu ý:** dấu gạch dưới (\_) và dấu chấm (.) phải được thay bằng dấu gạch ngang (-)
 
-**Lưu ý:** dấu gạch dưới(\_) và dấu chấm(.) phải được thay thế bằng dấu gạch nối(-)  
-
-## Thay đổi quan trọng
-Bắt đầu từ v3.0+, repo này đã được chuyển từ repo lovelace/frontend thành một tích hợp hoàn chỉnh. Nếu bạn đang nâng cấp từ phiên bản cũ:
+## Thay đổi lớn
+Bắt đầu từ v3.0+, repo này đã được chuyển từ repo lovelace/frontend sang một tích hợp đầy đủ. Nếu bạn đang nâng cấp từ phiên bản cũ:
 1. HACS > Gỡ cài đặt "cupertino-icons"
-2. HACS > Menu > **Kho tuỳ chỉnh**
-3. Xoá repo này
-4. Làm theo hướng dẫn **Cài đặt** ở trên
+2. HACS > Menu > **Kho Tùy Chỉnh**
+3. Xóa repo này
+4. Thực hiện theo hướng dẫn **Cài đặt** phía trên
 
-## Miễn trừ Pháp lý
-Một số biểu tượng có bản quyền của Apple và không được phép sử dụng khi chỉnh sửa. Các biểu tượng này không được xuất ra và không có trong repo này. Chúng sẽ không được bao gồm.
+## Miễn trừ pháp lý
+Các biểu tượng có bản quyền không được xuất và không có trong repo này. Chúng sẽ không được bao gồm.
 
-<hr/>
+## Nhật ký thay đổi
 
-## Cần làm
-☑️ Nâng cấp lên SF Pro Symbols v2.1  
-☑️ Nâng cấp lên SF Pro Symbols v3.0  
-☑️ Hỗ trợ đa màu sắc  
-☑️ Bộ chọn biểu tượng  
+### v5.0.1
+ - Biểu tượng thương hiệu #29 (Sửa #15)
 
-## Lịch sử thay đổi
+### v5.0.0
+ - Thêm hỗ trợ cho SF Symbols 7 (Công trạng: @enzofrnt) #28
+ - Dọn dẹp các tệp spotlight của macOS khỏi repo
+
+🎉 Cảm ơn tất cả các cộng tác viên đã đóng góp cho v5.0!
 
 ### v4.0.1
  - Sửa lỗi không khớp phiên bản trong manifest
 
 ### v4.0.0
- - Thêm hỗ trợ cho SF Symbols 6 (Cảm ơn: @HoussamOtarid)
- - Sửa lỗi không tương thích với HA 2025.7.0 (Cảm ơn: @lnlyssg)
+ - Thêm hỗ trợ cho SF Symbols 6 (Công lao: @HoussamOtarid)
+ - Sửa lỗi không tương thích cho HA 2025.7.0 (Công lao: @lnlyssg)
 
-🎉 Xin cảm ơn tất cả các cộng tác viên cho v4.0!
+🎉 Cảm ơn tất cả các cộng tác viên đã đóng góp cho v4.0!
 
 ### v3.0.2
- - Sửa lỗi gây ra sự cố về kích thước
+ - Sửa lỗi gây ra vấn đề về kích thước
 
 ### v3.0.1
- - Sửa lỗi khiến biểu tượng đa màu hiển thị không đúng
+ - Sửa lỗi khiến biểu tượng đa màu hiển thị không chính xác
 
 ### v3.0
  - Cập nhật lên SF Symbols 3.0
  - Hỗ trợ biểu tượng đa màu
- - Hỗ trợ bộ chọn biểu tượng
- - Tái cấu trúc và sắp xếp lại bố cục
- - **Thay đổi lớn:** Loại repo đã chuyển từ plugin frontend/lovelace sang một tích hợp hoàn chỉnh. Bạn có thể cần gỡ cài đặt, xóa repo khỏi HACS và cài đặt lại.
+ - Hỗ trợ chọn biểu tượng
+ - Tái cấu trúc và làm lại bố cục
+ - **Thay đổi phá vỡ:** Loại repo đã được chuyển từ plugin frontend/lovelace sang một tích hợp hoàn chỉnh. Bạn có thể cần gỡ cài đặt, xóa repo khỏi HACS và cài đặt lại.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-16
 
 ---

@@ -32,8 +32,12 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 
-# Home Assistant Cupertino Icons
+# Home Assistant Cupertino Icons (SF Symbols)
 Иконки Apple SF Symbols для Home Assistant! (Более 3000 иконок)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/menahishayan/HomeAssistant-Cupertino-Icons/main/custom_components/cupertino/brand/dark_logo.png" alt="Home Assistant Cupertino Icons" width="140" />
+</p>
 
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg" alt="preview"  width="50"/>
@@ -69,25 +73,25 @@
 ### HACS (Рекомендуется)
 1. Вкладка **HACS** > Меню > **Пользовательский репозиторий**
 4. Вставьте URL этого репозитория
-5. В выпадающем списке выберите **Integration**
+5. Выберите **Интеграция** в выпадающем списке
 6. Установите **cupertino-icons** через HACS
 7. Перезапустите Home Assistant
 8. Home Assistant > Настройки > Интеграции > Добавить > Cupertino Icons > Установить
 
-Теперь иконки должны быть доступны в Home Assistant. Если они не появились, попробуйте обновить страницу, использовать приватный режим или перезапустить Home Assistant.
+Теперь иконки должны быть доступны в Home Assistant. Если они не отображаются, попробуйте обновить страницу, использовать приватный режим браузера или перезапустить Home Assistant.
 
 ### Вручную
 1. Скопируйте `custom_components/cupertino` в вашу папку custom_components
 7. Перезапустите Home Assistant
 8. Home Assistant > Настройки > Интеграции > Добавить > Cupertino Icons > Установить
-  
-Теперь иконки должны быть доступны в Home Assistant. Если они не появились, попробуйте обновить страницу, использовать приватный режим или перезапустить Home Assistant
+
+Теперь иконки должны быть доступны в Home Assistant. Если они не отображаются, попробуйте обновить страницу, использовать приватный режим браузера или перезапустить Home Assistant
 
 ## Использование
 Префикс: **ios**  
-Например: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
+Пример: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
 
-## Многоцветные иконки! (v3.0+)
+## Многоцветные иконки
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
@@ -114,12 +118,12 @@
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg" alt="preview"  width="50"/>
-  &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg" alt="preview"  width="50"/>
 </div>
 
 
-SF Symbols 3+ поддерживает многоцветные иконки. Эта функциональность была перенесена в данный репозиторий для поддержки многоцветных иконок в Home Assistant!  
+SF Symbols 3+ поддерживает многоцветные иконки. Эта функциональность была перенесена в этот репозиторий для поддержки многоцветных иконок в Home Assistant!  
 
 Просто добавьте суффиксы **#color**, **#invert**, **#color-invert** или **#fullcolor** для изменения цветов иконки! (Благодарность [thomasloven](https://github.com/thomasloven/hass-fontawesome) за вдохновение)
 
@@ -130,62 +134,58 @@ SF Symbols 3+ поддерживает многоцветные иконки. Э
 
 ## Справочник по иконкам
 
-**Обновление v3.0**  
- - Home Assistant Cupertino Icons обновлен до SF Symbols v3.0 и содержит **3167 иконок**! (Иконки с авторским правом исключены)
- - Поддерживается выбор иконок Home Assistant (2021.11.0+)
-
 [SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  
-[Справочник SF Symbols | SFSymbols.com](https://sfsymbols.com)
 
-Вы можете скачать приложение для MacOS от Apple для более удобного ознакомления.
+Вы можете скачать приложение для MacOS от Apple для более подробной справки.
 
-**Примечание:** подчеркивания(\_) и точки(.) должны быть заменены на дефисы(-)  
+**Примечание:** нижние подчеркивания(\_) и точки(.) должны быть заменены на дефисы(-)  
 
-## Важные изменения
-Начиная с v3.0+, этот репозиторий изменен с lovelace/frontend на полноценную интеграцию. Если вы обновляетесь с предыдущей версии:
+## Изменения, нарушающие совместимость
+Начиная с версии v3.0+, этот репозиторий изменён с lovelace/frontend репозитория на полноценную интеграцию. Если вы обновляетесь с более старой версии:
 1. HACS > Удалить "cupertino-icons"
 2. HACS > Меню > **Пользовательский репозиторий**
 3. Удалите этот репозиторий
 4. Следуйте инструкциям по **установке** выше
 
 ## Юридический отказ
-Некоторые иконки принадлежат Apple и не разрешены к использованию с изменениями. Эти иконки не были экспортированы и отсутствуют в данном репозитории. Они не будут включены.
+Авторские иконки не были экспортированы и отсутствуют в этом репозитории. Они не будут включены.
 
-<hr/>
+## Изменения
 
-## To Do
-☑️ Обновить до SF Pro Symbols v2.1  
-☑️ Обновить до SF Pro Symbols v3.0  
-☑️ Поддержка многоцветных иконок  
-☑️ Выбор иконок  
+### v5.0.1
+ - Брендовые иконки #29 (Исправляет #15)
 
-## Список изменений
+### v5.0.0
+ - Добавлена поддержка SF Symbols 7 (Благодарность: @enzofrnt) #28
+ - Очистка файлов macOS spotlight из репозитория
+
+🎉 Спасибо всем участникам за версию v5.0!
 
 ### v4.0.1
- - Исправлено несоответствие версии в manifest
+ - Исправлено несоответствие версии в манифесте
 
 ### v4.0.0
- - Добавлена поддержка SF Symbols 6 (Благодарность: @HoussamOtarid)
- - Исправлена проблема устаревания для HA 2025.7.0 (Благодарность: @lnlyssg)
+ - Добавлена поддержка SF Symbols 6 (Автор: @HoussamOtarid)
+ - Исправлена проблема устаревания для HA 2025.7.0 (Автор: @lnlyssg)
 
-🎉 Спасибо всем участникам за v4.0!
+🎉 Спасибо всем участникам за версию v4.0!
 
 ### v3.0.2
- - Исправлена ошибка, вызывавшая проблемы с размерами
+ - Исправлена ошибка, приводившая к проблемам с размером
 
 ### v3.0.1
- - Исправлена ошибка, из-за которой многоцветные иконки отображались неправильно
+ - Исправлена ошибка, из-за которой многоцветные иконки отображались неверно
 
 ### v3.0
  - Обновление до SF Symbols 3.0
  - Поддержка многоцветных иконок
  - Поддержка выбора иконок
- - Перестроена и переработана структура
- - **Важные изменения:** Тип репозитория изменен с frontend/lovelace-плагина на полноценную интеграцию. Возможно, потребуется удалить, удалить репозиторий из HACS и переустановить.
+ - Перестройка и рефакторинг интерфейса
+ - **Изменения, нарушающие совместимость:** Тип репозитория изменён с frontend/lovelace плагина на полноценную интеграцию. Возможно потребуется удалить, удалить репозиторий из HACS и переустановить.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-16
 
 ---

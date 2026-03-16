@@ -32,8 +32,12 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 
-# Home Assistant Cupertino Icons
-Icônes Apple SF Symbols pour Home Assistant ! (Plus de 3000 icônes)
+# Icônes Cupertino pour Home Assistant (SF Symbols)
+Icônes Apple SF Symbols pour Home Assistant ! (plus de 3000 icônes)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/menahishayan/HomeAssistant-Cupertino-Icons/main/custom_components/cupertino/brand/dark_logo.png" alt="Icônes Cupertino Home Assistant" width="140" />
+</p>
 
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg" alt="aperçu"  width="50"/>
@@ -70,58 +74,58 @@ Icônes Apple SF Symbols pour Home Assistant ! (Plus de 3000 icônes)
 1. Onglet **HACS** > Menu > **Dépôt personnalisé**
 4. Collez l’URL de ce dépôt
 5. Sélectionnez **Intégration** dans le menu déroulant
-6. Installez **cupertino-icons** via HACS
+6. Installez **cupertino-icons** depuis HACS
 7. Redémarrez Home Assistant
 8. Home Assistant > Paramètres > Intégrations > Ajouter > Cupertino Icons > Installer
 
-Les icônes devraient maintenant être utilisables dans Home Assistant. Si elles n’apparaissent pas, essayez de rafraîchir la page, d’utiliser la navigation privée ou de redémarrer Home Assistant.
+Les icônes devraient maintenant être utilisables dans Home Assistant. Si elles n'apparaissent pas, essayez de rafraîchir la page, de naviguer en mode privé ou de redémarrer Home Assistant.
 
 ### Manuel
 1. Copiez `custom_components/cupertino` dans votre dossier custom_components
 7. Redémarrez Home Assistant
 8. Home Assistant > Paramètres > Intégrations > Ajouter > Cupertino Icons > Installer
-  
-Les icônes devraient maintenant être utilisables dans Home Assistant. Si elles n’apparaissent pas, essayez de rafraîchir la page, d’utiliser la navigation privée ou de redémarrer Home Assistant
+
+Les icônes devraient maintenant être utilisables dans Home Assistant. Si elles n'apparaissent pas, essayez de rafraîchir la page, de naviguer en mode privé ou de redémarrer Home Assistant
 
 ## Utilisation
 Préfixe : **ios**  
 Ex : **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
 
-## Icônes multicolores ! (v3.0+)
+## Icônes multicolores
 <div style="display: inline-block;">
-<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg" alt="aperçu"  width="50"/>
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
-<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/antenna-radiowaves-left-and-right-circle-fill.svg" alt="aperçu"  width="50"/>
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/antenna-radiowaves-left-and-right-circle-fill.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
-<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/aqi-high.svg" alt="aperçu"  width="50"/>
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/aqi-high.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
-<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/clock-badge-exclamationmark-fill.svg" alt="aperçu" width="50"/>
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/clock-badge-exclamationmark-fill.svg" alt="preview" width="50"/>
   &nbsp;&nbsp;&nbsp;
-<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/circle-hexagongrid-fill.svg" alt="aperçu"  width="50"/>
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/circle-hexagongrid-fill.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
-<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/drop-circle-fill.svg" alt="aperçu"  width="50"/>
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/drop-circle-fill.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
-<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/eye-trianglebadge-exclamationmark-fill.svg" alt="aperçu"  width="50"/>
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/eye-trianglebadge-exclamationmark-fill.svg" alt="preview"  width="50"/>
   <br/>
-<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/desktopcomputer-trianglebadge-exclamationmark.svg" alt="aperçu"  width="50"/>
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/desktopcomputer-trianglebadge-exclamationmark.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
-<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/fork-knife-circle-fill.svg" alt="aperçu"  width="50"/>
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/fork-knife-circle-fill.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
-<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg" alt="aperçu"  width="50"/>
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
-<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed-double-circle-fill.svg" alt="aperçu"  width="50"/>
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed-double-circle-fill.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
-<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg" alt="aperçu"  width="50"/>
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
-<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg" alt="aperçu"  width="50"/>
-  &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg" alt="preview"  width="50"/>
+&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg" alt="aperçu"  width="50"/>
 </div>
 
 
-SF Symbols 3+ prend en charge les icônes multicolores. Cette fonctionnalité a été portée dans ce dépôt pour permettre les icônes multicolores dans Home Assistant !  
+SF Symbols 3+ prend en charge les icônes multicolores. Cette fonctionnalité a été adaptée dans ce dépôt pour permettre les icônes multicolores dans Home Assistant !  
 
-Ajoutez simplement les suffixes **#color**, **#invert**, **#color-invert** ou **#fullcolor** pour changer la couleur des icônes ! (Crédit à [thomasloven](https://github.com/thomasloven/hass-fontawesome) pour l'inspiration)
+Il suffit d'ajouter les suffixes **#color**, **#invert**, **#color-invert** ou **#fullcolor** pour changer les couleurs de l’icône ! (Crédit à [thomasloven](https://github.com/thomasloven/hass-fontawesome) pour l’inspiration)
 
 Exemple :
  - ios:gear-badge-xmark#color
@@ -130,62 +134,58 @@ Exemple :
 
 ## Référence des icônes
 
-**Mise à jour v3.0**  
- - Home Assistant Cupertino Icons a maintenant été mis à jour vers SF Symbols v3.0 avec **3167 icônes** ! (icônes sous copyright exclues)
- - Prend en charge le sélecteur d'icônes de Home Assistant (2021.11.0+)
-
 [SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  
-[Référence SF Symbols | SFSymbols.com](https://sfsymbols.com)
 
-Vous pouvez télécharger l'application MacOS depuis Apple pour une meilleure référence.
+Vous pouvez télécharger l’application MacOS d’Apple pour une meilleure référence.
 
-**Remarque :** les underscores (\_) et les points (.) doivent être remplacés par des tirets (-)  
+**Remarque :** les underscores(\_) et les points(.) doivent être remplacés par des tirets(-)  
 
-## Changements majeurs
-À partir de la v3.0+, ce dépôt n'est plus un dépôt lovelace/frontend mais une intégration complète. Si vous effectuez une mise à niveau depuis une version antérieure :
+## Modifications majeures
+À partir de la version v3.0+, ce dépôt est passé d’un dépôt lovelace/frontend à une intégration complète. Si vous effectuez une mise à jour depuis une version précédente :
 1. HACS > Désinstaller "cupertino-icons"
 2. HACS > Menu > **Dépôt personnalisé**
 3. Supprimez ce dépôt
-4. Suivez les instructions d'**installation** ci-dessus
+4. Suivez les instructions d’**installation** ci-dessus
 
-## Avertissement légal
-Certaines icônes sont protégées par le droit d'auteur d'Apple et ne peuvent pas être utilisées ou modifiées. Ces icônes n'ont pas été exportées et ne sont pas présentes dans ce dépôt. Elles ne seront pas incluses.
-
-<hr/>
-
-## À faire
-☑️ Mise à niveau vers SF Pro Symbols v2.1  
-☑️ Mise à niveau vers SF Pro Symbols v3.0  
-☑️ Prise en charge du multicolore  
-☑️ Sélecteur d'icône  
+## Avis légal
+Les icônes sous copyright n’ont pas été exportées et ne sont pas présentes dans ce dépôt. Elles ne seront pas incluses.
 
 ## Journal des modifications
 
+### v5.0.1
+ - Icônes de marque #29 (Corrige #15)
+
+### v5.0.0
+ - Ajout du support pour SF Symbols 7 (Crédit : @enzofrnt) #28
+ - Nettoyage des fichiers spotlight macOS du dépôt
+
+🎉 Merci à tous les contributeurs pour la v5.0 !
+
 ### v4.0.1
- - Correction d'une incohérence de version dans le manifest
+ - Correction du problème de version dans le manifeste
 
 ### v4.0.0
- - Ajout du support pour SF Symbols 6 (Crédit : @HoussamOtarid)
+ - Ajout de la prise en charge des SF Symbols 6 (Crédit : @HoussamOtarid)
  - Correction du problème de dépréciation pour HA 2025.7.0 (Crédit : @lnlyssg)
 
 🎉 Merci à tous les contributeurs pour la v4.0 !
 
 ### v3.0.2
- - Correction d'un bug causant des problèmes de taille
+ - Correction d’un bug qui causait des problèmes de taille
 
 ### v3.0.1
- - Correction d'un bug causant une mauvaise affichage des icônes multicolores
+ - Correction d’un bug qui causait une mauvaise affichage des icônes multicolores
 
 ### v3.0
  - Mise à jour vers SF Symbols 3.0
- - Support des icônes multicolores
- - Prise en charge du sélecteur d'icône
+ - Prise en charge des icônes multicolores
+ - Prise en charge du sélecteur d’icônes
  - Restructuration et refonte de la mise en page
- - **Changements majeurs :** Le type de dépôt a été changé de plugin frontend/lovelace vers une intégration complète. Vous devrez peut-être désinstaller, supprimer le dépôt de HACS et réinstaller.
+ - **Modifications majeures :** Le type de dépôt est passé d’un plugin frontend/lovelace à une intégration complète. Vous devrez peut-être désinstaller, supprimer le dépôt de HACS et réinstaller.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-16
 
 ---

@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 اللغة</summary>
@@ -31,8 +32,12 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 
-# أيقونات كوبرتينو لـ Home Assistant
-أيقونات Apple SF Symbols لـ Home Assistant! (أكثر من 3000 أيقونة)
+# أيقونات كوبرتينو لمساعد المنزل (رموز SF)
+رموز Apple SF لمساعد المنزل! (أكثر من 3000 أيقونة)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/menahishayan/HomeAssistant-Cupertino-Icons/main/custom_components/cupertino/brand/dark_logo.png" alt="أيقونات كوبرتينو لمساعد المنزل" width="140" />
+</p>
 
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg" alt="preview"  width="50"/>
@@ -68,25 +73,25 @@
 ### HACS (موصى به)
 1. علامة تبويب **HACS** > القائمة > **مستودع مخصص**
 4. الصق رابط هذا المستودع
-5. اختر **Integration** من القائمة المنسدلة
-6. ثبت **cupertino-icons** من HACS
+5. اختر **تكامل** من القائمة المنسدلة
+6. قم بتثبيت **cupertino-icons** من HACS
 7. أعد تشغيل Home Assistant
-8. Home Assistant > الإعدادات > التكاملات > إضافة > أيقونات كوبرتينو > تثبيت
+8. Home Assistant > الإعدادات > التكاملات > إضافة > Cupertino Icons > تثبيت
 
-يجب أن تكون الأيقونات قابلة للاستخدام في Home Assistant الآن. إذا لم تظهر، جرب تحديث الصفحة، أو التصفح الخاص، أو إعادة تشغيل Home Assistant.
+يجب أن تكون الأيقونات قابلة للاستخدام في Home Assistant الآن. إذا لم تظهر، جرب تحديث الصفحة أو التصفح الخاص أو أعد تشغيل Home Assistant.
 
 ### يدويًا
 1. انسخ `custom_components/cupertino` إلى مجلد custom_components الخاص بك
 7. أعد تشغيل Home Assistant
 8. Home Assistant > الإعدادات > التكاملات > إضافة > أيقونات كوبرتينو > تثبيت
-  
-يجب أن تكون الأيقونات قابلة للاستخدام في Home Assistant الآن. إذا لم تظهر، جرب تحديث الصفحة، أو التصفح الخاص، أو إعادة تشغيل Home Assistant
+
+يجب أن تكون الأيقونات قابلة للاستخدام في Home Assistant الآن. إذا لم تظهر، جرب تحديث الصفحة أو التصفح الخاص أو أعد تشغيل Home Assistant
 
 ## الاستخدام
 البادئة: **ios**  
 مثال: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
 
-## أيقونات متعددة الألوان! (الإصدار 3.0+)
+## أيقونات متعددة الألوان
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
@@ -97,22 +102,21 @@
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/clock-badge-exclamationmark-fill.svg" alt="preview" width="50"/>
   &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/circle-hexagongrid-fill.svg" alt="preview"  width="50"/>
-
-&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/drop-circle-fill.svg" alt="preview"  width="50"/>
-&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/eye-trianglebadge-exclamationmark-fill.svg" alt="preview"  width="50"/>
-<br/>
+  <br/>
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/desktopcomputer-trianglebadge-exclamationmark.svg" alt="preview"  width="50"/>
-&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/fork-knife-circle-fill.svg" alt="preview"  width="50"/>
-&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg" alt="preview"  width="50"/>
-&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed-double-circle-fill.svg" alt="preview"  width="50"/>
-&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg" alt="preview"  width="50"/>
-&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg" alt="preview"  width="50"/>
 &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg" alt="preview"  width="50"/>
@@ -121,7 +125,7 @@
 
 يدعم SF Symbols 3+ الأيقونات متعددة الألوان. تم نقل هذه الوظيفة إلى هذا المستودع لدعم الأيقونات متعددة الألوان في Home Assistant!  
 
-فقط أضف اللاحقات **#color**، **#invert**، **#color-invert** أو **#fullcolor** لتغيير ألوان الأيقونة! (الشكر لـ [thomasloven](https://github.com/thomasloven/hass-fontawesome) على الإلهام)
+كل ما عليك فعله هو إضافة اللاحقات **#color**، **#invert**، **#color-invert** أو **#fullcolor** لتغيير ألوان الأيقونة! (الشكر لـ [thomasloven](https://github.com/thomasloven/hass-fontawesome) للإلهام)
 
 مثال:
  - ios:gear-badge-xmark#color
@@ -130,62 +134,58 @@
 
 ## مرجع الأيقونات
 
-**تحديث v3.0**  
- - تم تحديث أيقونات Home Assistant Cupertino الآن إلى SF Symbols v3.0 مع **3167 أيقونة**! (الأيقونات المحمية بحقوق النشر مستثناة)
- - يدعم منتقي الأيقونات في Home Assistant (2021.11.0+)
-
 [SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  
-[مرجع SF Symbols | SFSymbols.com](https://sfsymbols.com)
 
-يمكنك تحميل تطبيق MacOS من أبل لمراجعة أفضل.
+يمكنك تنزيل تطبيق MacOS من Apple لمراجعة أفضل.
 
-**ملاحظة:** يجب استبدال الخطوط السفلية (\_) والنقاط (.) بشرطات (-)  
+**ملاحظة:** يجب استبدال الخطوط السفلية(\_) والنقاط(.) بشرطات(-)  
 
-## تغييرات هامة
-ابتداءً من v3.0+، تم تغيير هذا المستودع من مستودع lovelace/frontend إلى تكامل متكامل. إذا كنت تقوم بالترقية من إصدار أقدم:
-1. HACS > إزالة تثبيت "cupertino-icons"
+## تغييرات جوهرية
+ابتداءً من الإصدار v3.0+، تم تغيير هذا المستودع من مستودع lovelace/frontend إلى تكامل كامل. إذا كنت تقوم بالترقية من إصدار أقدم:
+1. HACS > إلغاء تثبيت "cupertino-icons"
 2. HACS > القائمة > **مستودع مخصص**
 3. احذف هذا المستودع
 4. اتبع تعليمات **التثبيت** أعلاه
 
-## إخلاء مسؤولية قانونية
-بعض الأيقونات محمية بحقوق النشر من قبل Apple ولا يسمح باستخدامها مع التعديل. لم يتم تصدير هذه الأيقونات وليست موجودة في هذا المستودع. لن يتم تضمينها.
-
-<hr/>
-
-## المهام القادمة
-☑️ الترقية إلى SF Pro Symbols v2.1  
-☑️ الترقية إلى SF Pro Symbols v3.0  
-☑️ دعم تعدد الألوان  
-☑️ منتقي الأيقونات  
+## إخلاء المسؤولية القانونية
+الأيقونات المحمية بحقوق النشر لم يتم تصديرها وليست موجودة في هذا المستودع. لن يتم تضمينها.
 
 ## سجل التغييرات
 
+### v5.0.1
+ - أيقونات العلامة التجارية #29 (يصلح #15)
+
+### v5.0.0
+ - إضافة دعم لـ SF Symbols 7 (الشكر: @enzofrnt) #28
+ - تنظيف ملفات macOS spotlight من المستودع
+
+🎉 شكراً لجميع المساهمين في الإصدار 5.0!
+
 ### v4.0.1
- - إصلاح عدم تطابق الإصدار في manifest
+ - إصلاح عدم تطابق الإصدار في الملف التعريفي
 
 ### v4.0.0
  - إضافة دعم لـ SF Symbols 6 (الفضل: @HoussamOtarid)
- - إصلاح مشكلة إيقاف الدعم لـ HA 2025.7.0 (الفضل: @lnlyssg)
+ - إصلاح مشكلة الاستبدال للإصدار HA 2025.7.0 (الفضل: @lnlyssg)
 
-🎉 شكراً لجميع المساهمين في v4.0!
+🎉 شكراً لجميع المساهمين في الإصدار 4.0!
 
 ### v3.0.2
- - إصلاح خطأ تسبب في مشاكل في تغيير الحجم
+ - تم إصلاح خلل تسبب في مشاكل الحجم
 
 ### v3.0.1
- - إصلاح خطأ تسبب في عرض الأيقونات متعددة الألوان بشكل غير صحيح
+ - تم إصلاح خلل تسبب في عرض رموز متعددة الألوان بشكل غير صحيح
 
 ### v3.0
- - التحديث إلى SF Symbols 3.0
- - دعم الأيقونات متعددة الألوان
- - يدعم منتقي الأيقونات
- - إعادة هيكلة وتحسين التنسيق
- - **تغييرات هامة:** تم تغيير نوع المستودع من إضافة frontend/lovelace إلى تكامل كامل. قد تحتاج إلى إزالة التثبيت، حذف المستودع من HACS وإعادة تثبيته.
+ - تحديث إلى SF Symbols 3.0
+ - دعم الرموز متعددة الألوان
+ - دعم اختيار الأيقونات
+ - إعادة هيكلة وإعادة تنظيم التخطيط
+ - **تغييرات جذرية:** تم تغيير نوع المستودع من إضافة frontend/lovelace إلى تكامل كامل. قد تحتاج إلى إلغاء التثبيت، حذف المستودع من HACS وإعادة التثبيت.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-16
 
 ---

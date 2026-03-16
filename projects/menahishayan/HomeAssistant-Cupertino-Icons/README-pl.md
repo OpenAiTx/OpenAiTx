@@ -32,8 +32,12 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 
-# Home Assistant Cupertino Icons
+# Home Assistant Cupertino Icons (SF Symbols)
 Ikony Apple SF Symbols dla Home Assistant! (ponad 3000 ikon)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/menahishayan/HomeAssistant-Cupertino-Icons/main/custom_components/cupertino/brand/dark_logo.png" alt="Home Assistant Cupertino Icons" width="140" />
+</p>
 
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg" alt="preview"  width="50"/>
@@ -67,27 +71,27 @@ Ikony Apple SF Symbols dla Home Assistant! (ponad 3000 ikon)
 
 ## Instalacja
 ### HACS (Zalecane)
-1. Karta **HACS** > Menu > **Niestandardowe Repozytorium**
+1. Zakładka **HACS** > Menu > **Niestandardowe Repozytorium**
 4. Wklej adres URL tego repozytorium
-5. Wybierz **Integracja** z listy rozwijanej
+5. Wybierz **Integracja** z rozwijanego menu
 6. Zainstaluj **cupertino-icons** przez HACS
+7. Uruchom ponownie Home Assistant
+8. Home Assistant > Ustawienia > Integracje > Dodaj > Cupertino Icons > Instaluj
+
+Ikony powinny być teraz dostępne w Home Assistant. Jeśli się nie pojawią, spróbuj odświeżyć stronę, użyj trybu prywatnego lub zrestartuj Home Assistant.
+
+### Instrukcja ręczna
+1. Skopiuj `custom_components/cupertino` do folderu custom_components
 7. Zrestartuj Home Assistant
 8. Home Assistant > Ustawienia > Integracje > Dodaj > Cupertino Icons > Instaluj
 
-Ikony powinny być teraz dostępne w Home Assistant. Jeśli się nie pojawiają, spróbuj odświeżyć stronę, użyć trybu prywatnego lub ponownie uruchomić Home Assistant.
-
-### Ręcznie
-1. Skopiuj `custom_components/cupertino` do swojego folderu custom_components
-7. Zrestartuj Home Assistant
-8. Home Assistant > Ustawienia > Integracje > Dodaj > Cupertino Icons > Instaluj
-  
-Ikony powinny być teraz dostępne w Home Assistant. Jeśli się nie pojawiają, spróbuj odświeżyć stronę, użyć trybu prywatnego lub ponownie uruchomić Home Assistant
+Ikony powinny być teraz dostępne w Home Assistant. Jeśli się nie pojawią, spróbuj odświeżyć stronę, użyj trybu prywatnego lub zrestartuj Home Assistant
 
 ## Użycie
 Prefiks: **ios**  
-Np: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
+Np.: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
 
-## Ikony wielokolorowe! (v3.0+)
+## Ikony wielokolorowe
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
@@ -114,78 +118,74 @@ Np: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg" alt="preview"  width="50"/>
-  &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg" alt="preview"  width="50"/>
 </div>
 
 
-SF Symbols 3+ obsługuje ikony wielokolorowe. Ta funkcja została zaimplementowana w tym repozytorium, aby obsługiwać wielokolorowe ikony w Home Assistant!  
+SF Symbols 3+ obsługuje ikony wielokolorowe. Ta funkcjonalność została przeniesiona do tego repozytorium, aby obsługiwać wielokolorowe ikony w Home Assistant!  
 
-Wystarczy dodać sufiksy **#color**, **#invert**, **#color-invert** lub **#fullcolor**, aby zmienić kolory ikon! (Podziękowania dla [thomasloven](https://github.com/thomasloven/hass-fontawesome) za inspirację)
+Wystarczy dodać sufiksy **#color**, **#invert**, **#color-invert** lub **#fullcolor**, aby zmienić kolory ikon! (Inspiracja: [thomasloven](https://github.com/thomasloven/hass-fontawesome))
 
-Przykład:
+Np.:
  - ios:gear-badge-xmark#color
  - ios:gear-badge-xmark#color-invert
  - ios:gear-badge-xmark#fullcolor
 
-## Referencja ikon
-
-**Aktualizacja v3.0**  
- - Home Assistant Cupertino Icons zostało zaktualizowane do SF Symbols v3.0 z **3167 ikonami**! (Ikony objęte prawami autorskimi wykluczone)
- - Obsługa selektora ikon w Home Assistant (2021.11.0+)
+## Odniesienie do ikon
 
 [SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  
-[SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)
 
-Możesz pobrać aplikację MacOS od Apple, aby uzyskać lepszą referencję.
+Możesz pobrać aplikację MacOS od Apple dla lepszych odniesień.
 
-**Uwaga:** podkreślenia (\_) i kropki (.) należy zamienić na myślniki (-)  
+**Uwaga:** podkreślniki (\_) i kropki (.) muszą być zamienione na myślniki (-)  
 
-## Zmiany niezgodne wstecz
-Od wersji v3.0+ to repozytorium zostało zmienione z repozytorium lovelace/frontend na pełnoprawną integrację. Jeśli aktualizujesz z wcześniejszej wersji:
+## Zmiany krytyczne
+Od wersji v3.0+ repozytorium zostało przekształcone z repozytorium lovelace/frontend w pełnoprawną integrację. Jeśli aktualizujesz ze starszej wersji:
 1. HACS > Odinstaluj "cupertino-icons"
-2. HACS > Menu > **Repozytorium niestandardowe**
+2. HACS > Menu > **Własne repozytorium**
 3. Usuń to repozytorium
-4. Postępuj zgodnie z powyższą instrukcją **Instalacji**
+4. Postępuj zgodnie z instrukcją **Instalacja** powyżej
 
 ## Zastrzeżenie prawne
-Niektóre ikony są chronione prawem autorskim Apple i nie mogą być używane ani modyfikowane. Te ikony nie zostały wyeksportowane i nie są obecne w tym repozytorium. Nie będą uwzględnione.
-
-<hr/>
-
-## Do zrobienia
-☑️ Aktualizacja do SF Pro Symbols v2.1  
-☑️ Aktualizacja do SF Pro Symbols v3.0  
-☑️ Wsparcie dla wielokolorowych ikon  
-☑️ Selektor ikon  
+Zastrzeżone znaki towarowe nie zostały wyeksportowane i nie są obecne w tym repozytorium. Nie będą one dołączone.
 
 ## Lista zmian
 
+### v5.0.1
+ - Ikony firmowe #29 (Naprawia #15)
+
+### v5.0.0
+ - Dodano wsparcie dla SF Symbols 7 (Kredyt: @enzofrnt) #28
+ - Usunięcie plików macOS spotlight z repozytorium
+
+🎉 Podziękowania dla wszystkich współtwórców za wersję v5.0!
+
 ### v4.0.1
- - Naprawiono niezgodność wersji w pliku manifest
+ - Naprawiono niezgodność wersji w manifeście
 
 ### v4.0.0
  - Dodano wsparcie dla SF Symbols 6 (Podziękowania: @HoussamOtarid)
- - Naprawiono problem z przestarzałością dla HA 2025.7.0 (Podziękowania: @lnlyssg)
+ - Naprawiono problem z deprecjacją dla HA 2025.7.0 (Podziękowania: @lnlyssg)
 
-🎉 Podziękowania dla wszystkich współtwórców za v4.0!
+🎉 Podziękowania dla wszystkich współtwórców za wersję v4.0!
 
 ### v3.0.2
  - Naprawiono błąd powodujący problemy z rozmiarem ikon
 
 ### v3.0.1
- - Naprawiono błąd powodujący nieprawidłowe wyświetlanie ikon wielokolorowych
+ - Naprawiono błąd powodujący nieprawidłowe wyświetlanie wielokolorowych ikon
 
 ### v3.0
  - Aktualizacja do SF Symbols 3.0
  - Wsparcie dla wielokolorowych ikon
- - Obsługa selektora ikon
- - Restrukturyzacja i refaktoryzacja układu
- - **Zmiany niezgodne wstecz:** Typ repozytorium został zmieniony z wtyczki frontend/lovelace na pełnoprawną integrację. Może być konieczne odinstalowanie, usunięcie repozytorium z HACS i ponowna instalacja.
+ - Wsparcie dla wyboru ikon
+ - Przebudowa i refaktoryzacja układu
+ - **Zmiany niekompatybilne wstecz:** Typ repozytorium został zmieniony z wtyczki frontend/lovelace na pełnoprawną integrację. Może być konieczne odinstalowanie, usunięcie repozytorium z HACS i ponowna instalacja.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-16
 
 ---

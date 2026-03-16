@@ -32,8 +32,12 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 
-# Home Assistant 库比蒂诺图标
-Apple SF Symbols 图标支持 Home Assistant！（3000+ 图标）
+# Home Assistant Cupertino 图标（SF Symbols）
+Apple SF Symbols 图标用于 Home Assistant！（3000+ 图标）
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/menahishayan/HomeAssistant-Cupertino-Icons/main/custom_components/cupertino/brand/dark_logo.png" alt="Home Assistant Cupertino Icons" width="140" />
+</p>
 
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg" alt="preview"  width="50"/>
@@ -68,26 +72,26 @@ Apple SF Symbols 图标支持 Home Assistant！（3000+ 图标）
 ## 安装
 ### HACS（推荐）
 1. **HACS** 标签 > 菜单 > **自定义仓库**
-4. 粘贴本仓库的 URL
-5. 在下拉菜单中选择 **集成**
-6. 在 HACS 中安装 **cupertino-icons**
+4. 粘贴此仓库的URL
+5. 在下拉菜单中选择**集成**
+6. 从HACS安装**cupertino-icons**
 7. 重启 Home Assistant
 8. Home Assistant > 设置 > 集成 > 添加 > Cupertino Icons > 安装
 
-现在图标应该可以在 Home Assistant 中使用了。如果没有显示，请尝试刷新页面、使用隐私模式或重启 Home Assistant。
+这些图标现在应该可以在 Home Assistant 中使用了。如果没有显示，请尝试刷新页面、使用隐私浏览或重启 Home Assistant。
 
 ### 手动安装
-1. 将 `custom_components/cupertino` 复制到你的 custom_components 文件夹中
+1. 复制 `custom_components/cupertino` 到你的 custom_components 文件夹中
 7. 重启 Home Assistant
 8. Home Assistant > 设置 > 集成 > 添加 > Cupertino Icons > 安装
   
-现在图标应该可以在 Home Assistant 中使用了。如果没有显示，请尝试刷新页面、使用隐私模式或重启 Home Assistant
+这些图标现在应该可以在 Home Assistant 中使用了。如果没有显示，请尝试刷新页面、使用隐私浏览或重启 Home Assistant
 
-## 使用方法
+## 用法
 前缀：**ios**  
 例如：**ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
 
-## 多色图标！（v3.0+）
+## 多色图标
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
@@ -98,30 +102,30 @@ Apple SF Symbols 图标支持 Home Assistant！（3000+ 图标）
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/clock-badge-exclamationmark-fill.svg" alt="preview" width="50"/>
   &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/circle-hexagongrid-fill.svg" alt="preview"  width="50"/>
-&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/drop-circle-fill.svg" alt="preview"  width="50"/>
-&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/eye-trianglebadge-exclamationmark-fill.svg" alt="preview"  width="50"/>
-<br/>
+  <br/>
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/desktopcomputer-trianglebadge-exclamationmark.svg" alt="preview"  width="50"/>
-&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/fork-knife-circle-fill.svg" alt="preview"  width="50"/>
-&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg" alt="preview"  width="50"/>
-&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/bed-double-circle-fill.svg" alt="preview"  width="50"/>
-&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg" alt="preview"  width="50"/>
-&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg" alt="preview"  width="50"/>
 &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg" alt="preview"  width="50"/>
 </div>
 
 
-SF Symbols 3+ 支持多色图标。这个功能已被移植到本仓库中，以支持 Home Assistant 的多色图标！
+SF Symbols 3+ 支持多色图标。此功能已移植到本仓库，以支持在 Home Assistant 中使用多色图标！
 
-只需在图标后添加后缀 **#color**、**#invert**、**#color-invert** 或 **#fullcolor** 即可更改图标颜色！（致谢 [thomasloven](https://github.com/thomasloven/hass-fontawesome) 提供灵感）
+只需添加后缀 **#color**、**#invert**、**#color-invert** 或 **#fullcolor** 即可更改图标颜色！（感谢 [thomasloven](https://github.com/thomasloven/hass-fontawesome) 提供灵感）
 
 例如：
  - ios:gear-badge-xmark#color
@@ -130,62 +134,58 @@ SF Symbols 3+ 支持多色图标。这个功能已被移植到本仓库中，以
 
 ## 图标参考
 
-**v3.0 更新**  
- - Home Assistant Cupertino Icons 现已升级至 SF Symbols v3.0，包含 **3167 个图标**！（不含受版权保护的图标）
- - 支持 Home Assistant 的图标选择器（2021.11.0+）
+[SF Symbols | Apple](https://developer.apple.com/sf-symbols/)
 
-[SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  
-[SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)
+您可以从 Apple 下载 MacOS 应用程序以获得更好的参考。
 
-你可以从 Apple 下载 MacOS 应用以获得更好的参考。
+**注意：** 下划线（\_）和点号（.）必须用连字符（-）替换
 
-**注意：** 下划线（\_）和点号（.）必须替换为短横线（-）
-
-## 重大变更
-从 v3.0+ 开始，本仓库已由 lovelace/前端仓库更改为完整集成。如果你从旧版本升级：
-1. HACS > 卸载“cupertino-icons”
+## 重大更改
+从 v3.0+ 开始，本仓库已从 lovelace/前端仓库更改为完整集成。如果您从旧版本升级：
+1. HACS > 卸载 "cupertino-icons"
 2. HACS > 菜单 > **自定义仓库**
 3. 删除本仓库
-4. 按照上方**安装**说明操作
+4. 按照上方 **安装** 说明操作
 
 ## 法律声明
-某些图标受 Apple 版权保护，禁止修改后使用。这些图标未被导出，也未包含在本仓库中。它们不会被包含。
-
-<hr/>
-
-## 待办事项
-☑️ 升级至 SF Pro Symbols v2.1  
-☑️ 升级至 SF Pro Symbols v3.0  
-☑️ 支持多色  
-☑️ 图标选择器  
+受版权保护的图标未被导出且不包含在本仓库中。它们不会被包含。
 
 ## 更新日志
 
+### v5.0.1
+ - 品牌图标 #29（修复 #15）
+
+### v5.0.0
+ - 增加对 SF Symbols 7 的支持（感谢：@enzofrnt） #28
+ - 清理仓库中的 macOS Spotlight 文件
+
+🎉 感谢所有为 v5.0 版本做出贡献的开发者！
+
 ### v4.0.1
- - 修复 manifest 中的版本不匹配问题
+ - 修复清单中的版本不匹配问题
 
 ### v4.0.0
- - 增加对 SF Symbols 6 的支持（致谢：@HoussamOtarid）
- - 修复 HA 2025.7.0 的弃用问题（致谢：@lnlyssg）
+ - 增加对 SF Symbols 6 的支持（鸣谢：@HoussamOtarid）
+ - 修复了 HA 2025.7.0 的弃用问题（鸣谢：@lnlyssg）
 
-🎉 感谢所有 v4.0 的贡献者！
+🎉 感谢所有为 v4.0 版本做出贡献的开发者！
 
 ### v3.0.2
- - 修复导致图标尺寸异常的错误
+ - 修复导致尺寸问题的错误
 
 ### v3.0.1
- - 修复导致多色图标显示不正确的错误
+ - 修复了多色图标显示异常的错误
 
 ### v3.0
- - 升级至 SF Symbols 3.0
+ - 升级到 SF Symbols 3.0
  - 支持多色图标
  - 支持图标选择器
- - 重构和优化布局
- - **重大变更：** 仓库类型已由前端/lovelace 插件更改为完整集成。你需要卸载、从 HACS 删除仓库并重新安装。
+ - 重构和重组布局
+ - **重大变更：** 仓库类型已从 frontend/lovelace 插件更改为完整集成。您可能需要卸载、从 HACS 删除仓库并重新安装。
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-16
 
 ---

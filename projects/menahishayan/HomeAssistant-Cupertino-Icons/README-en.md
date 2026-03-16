@@ -5,26 +5,26 @@
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=menahishayan&project=HomeAssistant-Cupertino-Icons&lang=as">Assamese</
       </div>
     </div>
   </details>
@@ -32,8 +32,12 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 
-# Home Assistant Cupertino Icons
+# Home Assistant Cupertino Icons (SF Symbols)
 Apple SF Symbols Icons for Home Assistant! (3000+ Icons)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/menahishayan/HomeAssistant-Cupertino-Icons/main/custom_components/cupertino/brand/dark_logo.png" alt="Home Assistant Cupertino Icons" width="140" />
+</p>
 
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/house.svg" alt="preview"  width="50"/>
@@ -74,20 +78,20 @@ Apple SF Symbols Icons for Home Assistant! (3000+ Icons)
 7. Restart Home Assistant
 8. Home Assistant > Settings > Integrations > Add > Cupertino Icons > Install
 
-The icons should be usable in Home Assistant now. If it doesnt show up, try refreshing the page, private browsing or restart Home Assistant.
+The icons should be usable in Home Assistant now. If it doesn't show up, try refreshing the page, using private browsing, or restarting Home Assistant.
 
 ### Manual
 1. Copy `custom_components/cupertino` into your custom_components folder
 7. Restart Home Assistant
 8. Home Assistant > Settings > Integrations > Add > Cupertino Icons > Install
-  
-The icons should be usable in Home Assistant now. If it doesnt show up, try refreshing the page, private browsing or restart Home Assistant
+
+The icons should be usable in Home Assistant now. If it doesn't show up, try refreshing the page, using private browsing, or restarting Home Assistant
 
 ## Usage
-Prefix: **ios**  
+Prefix: **ios**
 Eg: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
 
-## Multi-Color Icons! (v3.0+)
+## Multi-Color Icons
 <div style="display: inline-block;">
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-xmark.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
@@ -114,7 +118,7 @@ Eg: **ios:lightbulb-fill** | **ios:cloud-moon-rain** | **ios:bed-double-fill**
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/delete-backward-fill.svg" alt="preview"  width="50"/>
   &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/gear-badge-questionmark.svg" alt="preview"  width="50"/>
-  &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/menahishayan/HomeAssistant-Cupertino-Icons/blob/build-tools/readme-preview/waveform-badge-plus.svg" alt="preview"  width="50"/>
 </div>
 
@@ -130,36 +134,32 @@ Eg:
 
 ## Icon Reference
 
-**v3.0 Update**  
- - Home Assistant Cupertino Icons has now been updated to SF Symbols v3.0 with **3167 Icons**! (Copyrighted icons excluded)
- - Supports Home Assistant's icon picker (2021.11.0+)
-
 [SF Symbols | Apple](https://developer.apple.com/sf-symbols/)  
-[SF Symbols Reference | SFSymbols.com](https://sfsymbols.com)
 
 You may download the MacOS App from Apple for a better reference.
 
 **Note:** underscores(\_) and dots(.) must be swapped with hyphens(-)  
 
 ## Breaking Changes
-Starting with v3.0+, this repo has been changed from a lovelace/frontend repo to a full-fledged integration. If you're upgrading from an older version:
+Starting with v3.0+, this repo has changed from a lovelace/frontend repo to a full-fledged integration. If you're upgrading from an older version:
 1. HACS > Uninstall "cupertino-icons"
 2. HACS > Menu > **Custom Repository**
 3. Delete this repo
-4. Follow **Install** instructions above
+4. Follow the **Install** instructions above
 
 ## Legal Disclaimer
-Certain icons are copyrighted by Apple and are not allowed to be used with modification. These icons have not been exported and are not present in this repo. They will not be included.
-
-<hr/>
-
-## To Do
-☑️ Upgrade to SF Pro Symbols v2.1  
-☑️ Upgrade to SF Pro Symbols v3.0  
-☑️ Multicolor support  
-☑️ Icon Picker  
+Copyrighted icons have not been exported and are not present in this repo. They will not be included.
 
 ## Changelog
+
+### v5.0.1
+ - Brand Icons #29 (Fixes #15)
+
+### v5.0.0
+ - Add support for SF Symbols 7 (Credit: @enzofrnt) #28
+ - Cleanup macOS spotlight files from repo
+
+🎉 Thanks to all the contributors for v5.0!
 
 ### v4.0.1
  - Fix version mismatch in manifest
@@ -186,6 +186,6 @@ Certain icons are copyrighted by Apple and are not allowed to be used with modif
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-16
 
 ---
