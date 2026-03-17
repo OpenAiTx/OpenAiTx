@@ -39,34 +39,34 @@
 <a href="https://www.codefactor.io/repository/github/RyanYuuki/AnymeX"><img src="https://img.shields.io/codefactor/grade/github/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge&label=Codefactor" alt="CodeFactor"/></a>
   <!--<a href="https://hosted.weblate.org/engage/echo"><img alt="Weblate project translated" src="https://img.shields.io/weblate/progress/echo?color=white&labelColor=black&label=Translated&style=flat-square"></a>-->
 <!-- <a href="https://github.com/RyanYuuki/AnymeX/commits/main">
-    <img src="https://img.shields.io/github/last-commit/RyanYuuki/AnymeX?color=white&labelColor=black&label=Último Commit&style=for-the-badge" alt="GitHub Último Commit">
+    <img src="https://img.shields.io/github/last-commit/RyanYuuki/AnymeX?color=white&labelColor=black&label=Latest Commit&style=for-the-badge" alt="GitHub Last Commit">
 </a> -->
 <a href="https://github.com/RyanYuuki/AnymeX/stargazers">
-      <img src="https://img.shields.io/github/stars/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge" alt="Estrellas" /></a>
+      <img src="https://img.shields.io/github/stars/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge" alt="Stars" /></a>
 </p>
 <a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX: Cliente de Seguimiento Multiservicio
+# AnymeX: Cliente de seguimiento multiservicio
 
 **AnymeX** es un cliente de seguimiento multiservicio diseñado exclusivamente para gestionar y rastrear el progreso de anime y manga en [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) y [**Simkl**](https://simkl.com/).
 
 > [!IMPORTANTE]  
-> **AnymeX es solo una herramienta de seguimiento.** No aloja, provee, distribuye ni respalda ningún contenido de streaming, medios ni extensiones de terceros.  
+> **AnymeX es solo una herramienta de seguimiento.** No aloja, proporciona, distribuye ni respalda ningún contenido de streaming, medios o extensiones de terceros.  
 >  
-> **Responsabilidad del Usuario:** Los usuarios son los únicos responsables de cómo utilizan la aplicación y los servicios o extensiones de terceros con los que decidan interactuar. Los usuarios deben cumplir con todas las leyes aplicables, derechos de autor y de propiedad intelectual.  
+> **Responsabilidad del usuario:** Los usuarios son los únicos responsables de cómo utilizan la aplicación y de cualquier servicio o extensión de terceros con los que decidan interactuar. Los usuarios deben cumplir con todas las leyes aplicables, derechos de autor y propiedad intelectual.  
 >  
-> **Sin Responsabilidad:** Los desarrolladores de AnymeX rechazan toda responsabilidad por mal uso, problemas legales o violaciones derivadas de las acciones del usuario. Las preocupaciones legales, incluidas reclamaciones DMCA, deben dirigirse a los servicios de terceros correspondientes, no a AnymeX. La aplicación se proporciona "tal cual" sin garantías.  
+> **Sin responsabilidad:** Los desarrolladores de AnymeX rechazan toda responsabilidad por uso indebido, problemas legales o violaciones derivadas de las acciones del usuario. Las preocupaciones legales, incluidas las reclamaciones DMCA, deben dirigirse a los servicios de terceros respectivos, no a AnymeX. La aplicación se proporciona "tal cual" sin garantías.  
 >  
-> **Servicios:** AnymeX se integra solo con las APIs oficiales de los servicios compatibles (AniList, MyAnimeList, Simkl). Las extensiones de terceros son responsabilidad de sus creadores, no de los desarrolladores de AnymeX.  
+> **Servicios:** AnymeX solo se integra con las APIs oficiales de los servicios soportados (AniList, MyAnimeList, Simkl). Las extensiones de terceros son responsabilidad de sus creadores, no de los desarrolladores de AnymeX.  
 >  
-> **Al usar AnymeX, aceptas cumplir con nuestros [Términos de Servicio](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md). Por favor, revisa los ToS para entender nuestra funcionalidad de seguimiento compatible con DMCA y nuestra no participación con contenido o servicios más allá de AniList, MyAnimeList y Simkl.**
+> **Al usar AnymeX, usted acepta cumplir con nuestros [Términos de Servicio](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md). Por favor revise los Términos para entender nuestra funcionalidad de seguimiento conforme a DMCA y nuestra no participación con contenido o servicios más allá de AniList, MyAnimeList y Simkl.**
 
 ## Descargas
 
 <div align="center">
   <p>
-    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Estable" alt="Última Versión Estable"/></a> <a href="https://github.com/Shebyyy/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/Shebyyy/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Beta" alt="Última Versión Beta"/></a>
+    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Última versión estable"/></a> <a href="https://github.com/Shebyyy/AnymeX-Preview/releases/latest"><img src="https://img.shields.io/github/v/release/Shebyyy/AnymeX-Preview?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Beta" alt="Última versión Beta"/></a>
   </p>
   
 ### Windows
@@ -163,6 +163,6 @@ AnymeX está licenciado bajo la Licencia MIT. Se puede encontrar más informaci�
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-17
 
 ---

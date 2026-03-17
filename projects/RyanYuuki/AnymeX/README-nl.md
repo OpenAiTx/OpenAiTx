@@ -42,31 +42,31 @@
     <img src="https://img.shields.io/github/last-commit/RyanYuuki/AnymeX?color=white&labelColor=black&label=Latest Commit&style=for-the-badge" alt="GitHub Last Commit">
 </a> -->
 <a href="https://github.com/RyanYuuki/AnymeX/stargazers">
-      <img src="https://img.shields.io/github/stars/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge" alt="Stars" /></a>
+      <img src="https://img.shields.io/github/stars/RyanYuuki/AnymeX?color=white&labelColor=black&style=for-the-badge" alt="Sterren" /></a>
 </p>
 <a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
 # AnymeX: Multiservice Tracking Client
 
-**AnymeX** is een multiservice tracking client die exclusief is ontworpen voor het beheren en volgen van anime- en mangavoortgang via [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) en [**Simkl**](https://simkl.com/).
+**AnymeX** is een multiservice tracking client ontworpen exclusief voor het beheren en volgen van anime- en mangavoortgang via [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) en [**Simkl**](https://simkl.com/).
 
-> [!IMPORTANT]  
-> **AnymeX is enkel een trackingtool.** Het host, levert, distribueert of ondersteunt geen streamingcontent, media of third-party extensies.  
+> [!BELANGRIJK]  
+> **AnymeX is uitsluitend een trackingtool.** Het host, levert, distribueert of ondersteunt geen streamingcontent, media of extensies van derden.  
 >  
-> **Gebruikersverantwoordelijkheid:** Gebruikers zijn volledig verantwoordelijk voor hun gebruik van de app en eventuele third-party diensten of extensies waarmee ze interageren. Gebruikers moeten voldoen aan alle toepasselijke wetgeving, auteursrechten en intellectuele eigendomsrechten.  
+> **Gebruikersverantwoordelijkheid:** Gebruikers zijn volledig verantwoordelijk voor hun gebruik van de app en eventuele diensten of extensies van derden waarmee ze kiezen te interageren. Gebruikers moeten voldoen aan alle toepasselijke wetten, auteursrechten en intellectuele eigendomsrechten.  
 >  
-> **Geen aansprakelijkheid:** De ontwikkelaars van AnymeX wijzen alle aansprakelijkheid af voor misbruik, juridische problemen of overtredingen als gevolg van gebruikersacties. Juridische kwesties, waaronder DMCA-claims, moeten worden gericht aan de betreffende third-party diensten, niet aan AnymeX. De app wordt "as-is" geleverd zonder garanties.  
+> **Geen aansprakelijkheid:** De ontwikkelaars van AnymeX wijzen alle aansprakelijkheid af voor misbruik, juridische problemen of overtredingen als gevolg van gebruikersacties. Juridische kwesties, waaronder DMCA-claims, dienen gericht te worden aan de betreffende diensten van derden, niet aan AnymeX. De app wordt geleverd "zoals het is" zonder garanties.  
 >  
-> **Diensten:** AnymeX integreert alleen met de officiële API’s van ondersteunde diensten (AniList, MyAnimeList, Simkl). Third-party extensies zijn de verantwoordelijkheid van hun makers, niet van de AnymeX-ontwikkelaars.  
+> **Diensten:** AnymeX integreert alleen met de officiële API's van ondersteunde diensten (AniList, MyAnimeList, Simkl). Extensies van derden zijn de verantwoordelijkheid van hun makers, niet van de AnymeX-ontwikkelaars.  
 >  
-> **Door AnymeX te gebruiken, stemt u ermee in onze [Servicevoorwaarden](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) na te leven. Bekijk de ToS om onze DMCA-conforme trackingfunctionaliteit en onze niet-betrokkenheid bij content of diensten buiten AniList, MyAnimeList en Simkl te begrijpen.**
+> **Door AnymeX te gebruiken, stem je ermee in onze [Gebruiksvoorwaarden](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) na te leven. Lees de ToS om onze DMCA-conforme trackingfunctionaliteit en onze niet-betrokkenheid bij content of diensten buiten AniList, MyAnimeList en Simkl te begrijpen.**
 
 ## Downloads
 
 <div align="center">
   <p>
-    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Laatste stabiele release"/></a> <a href="https://github.com/Shebyyy/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/Shebyyy/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Beta" alt="Laatste beta release"/></a>
+    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Laatste Stabiele Release"/></a> <a href="https://github.com/Shebyyy/AnymeX-Preview/releases/latest"><img src="https://img.shields.io/github/v/release/Shebyyy/AnymeX-Preview?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Beta" alt="Laatste Beta Release"/></a>
   </p>
   
 ### Windows
@@ -163,6 +163,6 @@ AnymeX is gelicentieerd onder de MIT-licentie. Meer informatie is te vinden [hie
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-17
 
 ---

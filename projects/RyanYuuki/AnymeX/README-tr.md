@@ -49,24 +49,24 @@
 
 # AnymeX: Çoklu Servis Takip İstemcisi
 
-**AnymeX**, [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) ve [**Simkl**](https://simkl.com/) üzerinde anime ve manga ilerlemesini yönetmek ve takip etmek için özel olarak tasarlanmış çoklu servis takip istemcisidir.
+**AnymeX**, [**AniList**](https://anilist.co/), [**MyAnimeList**](https://myanimelist.net/) ve [**Simkl**](https://simkl.com/) üzerinden anime ve manga ilerlemesini yönetmek ve takip etmek için özel olarak tasarlanmış çoklu servis takip istemcisidir.
 
-> [!IMPORTANT]  
-> **AnymeX yalnızca bir takip aracıdır.** Herhangi bir yayın içeriği, medya veya üçüncü taraf uzantısı barındırmaz, sağlamaz, dağıtmaz veya desteklemez.  
+> [!ÖNEMLİ]  
+> **AnymeX yalnızca bir takip aracıdır.** Herhangi bir yayın içeriği, medya veya üçüncü parti uzantıyı barındırmaz, sağlamaz, dağıtmaz veya onaylamaz.  
 >  
-> **Kullanıcı Sorumluluğu:** Uygulamanın ve üçüncü taraf hizmetlerin/uzantıların nasıl kullanılacağından tamamen kullanıcılar sorumludur. Kullanıcılar yürürlükteki tüm yasa, telif hakkı ve fikri mülkiyet haklarına uymak zorundadır.  
+> **Kullanıcı Sorumluluğu:** Kullanıcılar uygulamayı ve etkileşimde bulundukları üçüncü parti servis veya uzantıları nasıl kullandıklarından tamamen kendileri sorumludur. Kullanıcılar tüm geçerli yasalara, telif hakkı ve fikri mülkiyet haklarına uymalıdır.  
 >  
-> **Sorumluluk Reddi:** AnymeX geliştiricileri, kullanıcı eylemlerinden doğabilecek kötüye kullanım, hukuki sorunlar veya ihlallerden hiçbir şekilde sorumlu değildir. Yasal sorunlar ve DMCA talepleri ilgili üçüncü taraf hizmetlere iletilmelidir, AnymeX'e değil. Uygulama "olduğu gibi" ve herhangi bir garanti olmaksızın sunulmaktadır.  
+> **Sorumluluk Reddi:** AnymeX geliştiricileri, kullanıcı eylemlerinden kaynaklanan kötüye kullanım, yasal sorunlar veya ihlallerden doğan tüm sorumluluğu reddeder. Yasal sorunlar, DMCA talepleri dahil, ilgili üçüncü taraf hizmetlere yönlendirilmelidir, AnymeX’e değil. Uygulama "olduğu gibi" ve herhangi bir garanti olmaksızın sunulmaktadır.  
 >  
-> **Servisler:** AnymeX yalnızca desteklenen hizmetlerin (AniList, MyAnimeList, Simkl) resmi API'leri ile entegredir. Üçüncü taraf uzantılardan, yalnızca onların geliştiricileri sorumludur; AnymeX geliştiricileri değildir.  
+> **Servisler:** AnymeX yalnızca desteklenen servislerin (AniList, MyAnimeList, Simkl) resmi API’larıyla entegre olur. Üçüncü taraf uzantıların sorumluluğu, yalnızca onların yaratıcılarına aittir; AnymeX geliştiricilerine değil.  
 >  
-> **AnymeX'i kullanarak, [Kullanım Şartlarımızı](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) kabul etmiş olursunuz. DMCA ile uyumlu takip fonksiyonumuzu ve AniList, MyAnimeList, Simkl harici hiçbir içerik veya hizmetle ilişkilendirilmediğimizi anlamak için lütfen Koşulları inceleyin.**
+> **AnymeX’i kullanarak [Hizmet Koşullarımızı](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md) kabul etmiş olursunuz. DMCA uyumlu takip işlevselliğimizi ve AniList, MyAnimeList ve Simkl dışında herhangi bir içerik ya da hizmetle ilgimizin olmadığını anlamak için lütfen Hizmet Koşullarımızı inceleyin.**
 
 ## İndirmeler
 
 <div align="center">
   <p>
-    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a> <a href="https://github.com/Shebyyy/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/Shebyyy/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Beta" alt="Latest Beta Release"/></a>
+    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a> <a href="https://github.com/Shebyyy/AnymeX-Preview/releases/latest"><img src="https://img.shields.io/github/v/release/Shebyyy/AnymeX-Preview?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Beta" alt="Latest Beta Release"/></a>
   </p>
   
 ### Windows
@@ -163,6 +163,6 @@ AnymeX, MIT Lisansı altında lisanslanmıştır. Daha fazla bilgiye [buradan](h
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-17
 
 ---

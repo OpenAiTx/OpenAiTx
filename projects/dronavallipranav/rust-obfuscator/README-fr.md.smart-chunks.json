@@ -1,0 +1,1661 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Rust-Obfuscator\n\n`rust-obfuscator` is a set of tools designed to automatically obfuscate Rust source code by inserting procedural macros or by (optionally) providing the obfuscation in the source code directly. For more fine-grained obfuscation a procedural macro library [cryptify](https://crates.io/crates/cryptify) is also provided.\n\n## Currently Supported\n1. string literal encryption\n2. control-flow obfuscation\n3. control-flow obfuscation (source code)\n4. variable renaming (source code)\n\n## Features\n\n- **String Encryption**: Automatically encrypts string literals assigned to local variables at compile time.\n    - Can also be used for formatted strings, but currently requires manual placement",
+    "ContentSha": "5V20n+wg1S20vxdZya+Xd7uiKXkLMbu5S1ZNP3javLs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Rust-Obfuscator\n\n`rust-obfuscator` est un ensemble d'outils conçus pour obfusquer automatiquement le code source Rust en insérant des macros procédurales ou en fournissant (optionnellement) l'obfuscation directement dans le code source. Pour une obfuscation plus fine, une bibliothèque de macros procédurales [cryptify](https://crates.io/crates/cryptify) est également fournie.\n\n## Actuellement pris en charge\n1. chiffrement des littéraux de chaîne\n2. obfuscation du flux de contrôle\n3. obfuscation du flux de contrôle (code source)\n4. renommage de variables (code source)\n\n## Fonctionnalités\n\n- **Chiffrement de chaîne** : chiffre automatiquement les littéraux de chaîne assignés aux variables locales à la compilation.\n    - Peut aussi être utilisé pour les chaînes formatées, mais nécessite actuellement un placement manuel",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "khu1nkSoD9dAOmXORrEsxitSFgit13cTeGpfGS2MLLQ=",
+        "originContent": "# Rust-Obfuscator",
+        "translatedContent": "# Rust-Obfuscator"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "UsNIBJAfCU10988VMa6DSxOGwdDe99yJMO6l6lP1YsY=",
+        "originContent": "`rust-obfuscator` is a set of tools designed to automatically obfuscate Rust source code by inserting procedural macros or by (optionally) providing the obfuscation in the source code directly. For more fine-grained obfuscation a procedural macro library [cryptify](https://crates.io/crates/cryptify) is also provided.",
+        "translatedContent": "`rust-obfuscator` est un ensemble d'outils conçus pour obfusquer automatiquement le code source Rust en insérant des macros procédurales ou en fournissant (optionnellement) l'obfuscation directement dans le code source. Pour une obfuscation plus fine, une bibliothèque de macros procédurales [cryptify](https://crates.io/crates/cryptify) est également fournie."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "3eeMf00nkf6CSDBxl2tDUrWV9deA3hN6gGWRfb/W3mE=",
+        "originContent": "## Currently Supported",
+        "translatedContent": "## Actuellement pris en charge"
+      },
+      {
+        "row": 6,
+        "rowsha": "g4Eiy/U6htJMBW4+55D8PfcQIEviJa1psOf6YIpZEf4=",
+        "originContent": "1. string literal encryption",
+        "translatedContent": "1. chiffrement des littéraux de chaîne"
+      },
+      {
+        "row": 7,
+        "rowsha": "GAdRKtAcS9EJysW7q38ii8pYEKQaf46UoUew2VCfiXg=",
+        "originContent": "2. control-flow obfuscation",
+        "translatedContent": "2. obfuscation du flux de contrôle"
+      },
+      {
+        "row": 8,
+        "rowsha": "reDDbZZcKDwN9QDy9b1Fizvn5M+/v7OZPeCoNk85cLo=",
+        "originContent": "3. control-flow obfuscation (source code)",
+        "translatedContent": "3. obfuscation du flux de contrôle (code source)"
+      },
+      {
+        "row": 9,
+        "rowsha": "eBkOJdmCIYKa8utxLiR3xeMdYXxZMWcw/CWHNcN7dxM=",
+        "originContent": "4. variable renaming (source code)",
+        "translatedContent": "4. renommage de variables (code source)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Fonctionnalités"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "HPh+Q3xk7j/zvBlW3FRlLbYke1Mr1MgWiGviZ3RcwYo=",
+        "originContent": "- **String Encryption**: Automatically encrypts string literals assigned to local variables at compile time.",
+        "translatedContent": "- **Chiffrement de chaîne** : chiffre automatiquement les littéraux de chaîne assignés aux variables locales à la compilation."
+      },
+      {
+        "row": 14,
+        "rowsha": "CnADxUBc9QdIuADXLUvOzvZQLVRQ7M4K2JIhPMRlQEQ=",
+        "originContent": "    - Can also be used for formatted strings, but currently requires manual placement",
+        "translatedContent": "    - Peut aussi être utilisé pour les chaînes formatées, mais nécessite actuellement un placement manuel"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "    ```rs\n        println!(\"{}\", cryptify::encrypt_string!(\"hello!\"));\n    ```",
+    "ContentSha": "X4DCwpg9yCDWGQ+LkvU0dPn22Kn8UW1gosoaI3FYgZs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```rs\n        println!(\"{}\", cryptify::encrypt_string!(\"hello!\"));\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Y8hqAzmdopkjHg6tDdT2GeZeZBdl23MlFPyol6hEI6M=",
+        "originContent": "    ```rs",
+        "translatedContent": "    ```rs"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ihu8l+vUPTBWzgQxz78AcBIlkhE5SD66fpe62MMJDoU=",
+        "originContent": "        println!(\"{}\", cryptify::encrypt_string!(\"hello!\"));",
+        "translatedContent": "        println!(\"{}\", cryptify::encrypt_string!(\"hello!\"));"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "- **Control Flow Obfuscation**: Introduces compile-dummy dummy loops and random variables.\n- **Customizable Obfuscation**: Offers flexibility to enable or disable specific obfuscation features based on your requirements.\n- **Variable Renaming**: Obfuscation of the source code directly, if you'd like to ship the code or just want to make your code look worse. \n- NOTE: var renaming not fully functional as of 1.1.1 working on full-support as some cases aren't covered yet. Can still use the tool and fix the appropiate compiler errors.\n\n## Installation\n\nAdd `cryptify` to your `Cargo.toml` as a dependency:\n",
+    "ContentSha": "MwgXUJfucvQLBMUCw+E4CdQG8WceC/kXO4M8SaVFEoM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **Obfuscation du flux de contrôle** : Introduit des boucles factices de compilation et des variables aléatoires.\n- **Obfuscation personnalisable** : Offre la flexibilité d'activer ou de désactiver des fonctionnalités spécifiques d'obfuscation selon vos besoins.\n- **Renommage des variables** : Obfuscation directe du code source, si vous souhaitez distribuer le code ou simplement rendre votre code plus difficile à comprendre.\n- NOTE : le renommage des variables n'est pas entièrement fonctionnel à partir de la version 1.1.1, un support complet est en cours car certains cas ne sont pas encore couverts. Vous pouvez toujours utiliser l'outil et corriger les erreurs de compilation appropriées.\n\n## Installation\n\nAjoutez `cryptify` à votre `Cargo.toml` en tant que dépendance :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "3PBY6TC7P6qqyNdzDcxKp429i+zK3ENaUw4JUFmL/II=",
+        "originContent": "- **Control Flow Obfuscation**: Introduces compile-dummy dummy loops and random variables.",
+        "translatedContent": "- **Obfuscation du flux de contrôle** : Introduit des boucles factices de compilation et des variables aléatoires."
+      },
+      {
+        "row": 2,
+        "rowsha": "rXux2wT7FQ/od1p3dQ5tzPccNMeHoG6bSB9eBOb5Ob8=",
+        "originContent": "- **Customizable Obfuscation**: Offers flexibility to enable or disable specific obfuscation features based on your requirements.",
+        "translatedContent": "- **Obfuscation personnalisable** : Offre la flexibilité d'activer ou de désactiver des fonctionnalités spécifiques d'obfuscation selon vos besoins."
+      },
+      {
+        "row": 3,
+        "rowsha": "7HzeVtEQreI8yH8qiyYeJqm/AZAyBUKfIK16KAs49pE=",
+        "originContent": "- **Variable Renaming**: Obfuscation of the source code directly, if you'd like to ship the code or just want to make your code look worse. ",
+        "translatedContent": "- **Renommage des variables** : Obfuscation directe du code source, si vous souhaitez distribuer le code ou simplement rendre votre code plus difficile à comprendre."
+      },
+      {
+        "row": 4,
+        "rowsha": "8M5xiJYu15HqCq20GlFDSXeu+GTShhE2Q+QWDyWJGaA=",
+        "originContent": "- NOTE: var renaming not fully functional as of 1.1.1 working on full-support as some cases aren't covered yet. Can still use the tool and fix the appropiate compiler errors.",
+        "translatedContent": "- NOTE : le renommage des variables n'est pas entièrement fonctionnel à partir de la version 1.1.1, un support complet est en cours car certains cas ne sont pas encore couverts. Vous pouvez toujours utiliser l'outil et corriger les erreurs de compilation appropriées."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "v0TWSB0qoOZmctRM4Oer8OVraD2QGjnVHTgyyC1XjdM=",
+        "originContent": "Add `cryptify` to your `Cargo.toml` as a dependency:",
+        "translatedContent": "Ajoutez `cryptify` à votre `Cargo.toml` en tant que dépendance :"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```toml\n[dependencies]\ncryptify = \"3.2.1\"\n```",
+    "ContentSha": "7tozNrxGuj8zDTqovYTQlIQstEKaOAQAnktqqF4JUfw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\n[dependencies]\ncryptify = \"3.2.1\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "v8Amm9lWkEiRx7LTLCNyiQWyvnBgtnoUMrJSqtpA+c8=",
+        "originContent": "[dependencies]",
+        "translatedContent": "[dependencies]"
+      },
+      {
+        "row": 3,
+        "rowsha": "bjYzDt2rJjZeXsPuZThPzFwqwkEU25e1QHrBk+Zww0c=",
+        "originContent": "cryptify = \"3.2.1\"",
+        "translatedContent": "cryptify = \"3.2.1\""
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nTo install `rust-obfuscator`, clone the repository and build the tool using Cargo from the root:",
+    "ContentSha": "rNEnv1rSviaFRnFeFNkIUYKAAieAr3BszrUEax6kYLQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nPour installer `rust-obfuscator`, clonez le dépôt et compilez l'outil avec Cargo depuis la racine :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "YzmB68F//tQCDJTNLcX8YSbnscjpsoWfeq5tgimIqZ8=",
+        "originContent": "To install `rust-obfuscator`, clone the repository and build the tool using Cargo from the root:",
+        "translatedContent": "Pour installer `rust-obfuscator`, clonez le dépôt et compilez l'outil avec Cargo depuis la racine :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\ncargo build --release --bin rust-obfuscator\n```",
+    "ContentSha": "KMsTXB7Wx4AYNknT2fxzKyeF3FXsp6bcbWk0C9ZDO9Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncargo build --release --bin rust-obfuscator\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "NRrbXpP7/qPAspEhT2VsoExnWEP8koRA9qt3/TRhZKU=",
+        "originContent": "cargo build --release --bin rust-obfuscator",
+        "translatedContent": "cargo build --release --bin rust-obfuscator"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "The binary can then be found under /target/release, you can copy it to the root of the project like such",
+    "ContentSha": "g3B3Sgl/fBhFLlBDayQKGeut8NV9K7zKwfwyUPZMC/0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Le binaire peut ensuite être trouvé sous /target/release, vous pouvez le copier à la racine du projet de cette façon",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "g3B3Sgl/fBhFLlBDayQKGeut8NV9K7zKwfwyUPZMC/0=",
+        "originContent": "The binary can then be found under /target/release, you can copy it to the root of the project like such",
+        "translatedContent": "Le binaire peut ensuite être trouvé sous /target/release, vous pouvez le copier à la racine du projet de cette façon"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\ncp ./target/release/rust-obfuscator .\n```",
+    "ContentSha": "wni5NlJRG9XsldqrcCnHzmQZqmXQjDeEmt2wBEALwF8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncp ./target/release/rust-obfuscator .\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "8gK7V470/YqW4TG8t48nITSJA5qNTIZQq22RHUrYjpc=",
+        "originContent": "cp ./target/release/rust-obfuscator .",
+        "translatedContent": "cp ./target/release/rust-obfuscator ."
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n# Usage\nSet the **CRYPTIFY_KEY** environment variable for custom encryption otherwise it defaults to defined fixed key\n- Add to source code you'd like to modify",
+    "ContentSha": "A2Lv+v9cT7rVxVqUXPctSUYynXZLmQv8xAxdVTQaa/8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# Utilisation\nDéfinissez la variable d'environnement **CRYPTIFY_KEY** pour un chiffrement personnalisé sinon elle utilise la clé fixe définie\n- Ajoutez au code source que vous souhaitez modifier",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "VQl64phXBjjplyWiGKNjjWZLPM0chOlnOxoC73zDU/k=",
+        "originContent": "# Usage",
+        "translatedContent": "# Utilisation"
+      },
+      {
+        "row": 3,
+        "rowsha": "4dsiHl/VZWjFtPxRoZYEV5/ZFtq7psIoBB/v+ZQT/00=",
+        "originContent": "Set the **CRYPTIFY_KEY** environment variable for custom encryption otherwise it defaults to defined fixed key",
+        "translatedContent": "Définissez la variable d'environnement **CRYPTIFY_KEY** pour un chiffrement personnalisé sinon elle utilise la clé fixe définie"
+      },
+      {
+        "row": 4,
+        "rowsha": "OBWcjxpmJ/ldL+NGPJSEVfV3ZSG6yq38osrnQsJpv8o=",
+        "originContent": "- Add to source code you'd like to modify",
+        "translatedContent": "- Ajoutez au code source que vous souhaitez modifier"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```rs\nuse cryptify;\n```",
+    "ContentSha": "B/fVo6Yc9iPyFU4KvvQG4x7fsJuw7Bkw/yLFtfPvs0U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rs\nuse cryptify;\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rOfML5LD5dSAagOskncmjikB2j/EUV16HmaZHnwlOD4=",
+        "originContent": "```rs",
+        "translatedContent": "```rs"
+      },
+      {
+        "row": 2,
+        "rowsha": "f1Uzeo1DyoBoDtLXp36TWi+wFz0tdfDbDGEzfAVaM1Q=",
+        "originContent": "use cryptify;",
+        "translatedContent": "use cryptify;"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "The binary can be used on either a file or a directory. If provided with a directory it will only modify rust source files within that directory not any subdirectories",
+    "ContentSha": "7swNIfLI3hjFtJ88jt1nOLxeC6b/BFqmphOPBtNXgxo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Le binaire peut être utilisé sur un fichier ou un répertoire. S'il est fourni avec un répertoire, il ne modifiera que les fichiers source Rust dans ce répertoire, pas dans les sous-répertoires.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7swNIfLI3hjFtJ88jt1nOLxeC6b/BFqmphOPBtNXgxo=",
+        "originContent": "The binary can be used on either a file or a directory. If provided with a directory it will only modify rust source files within that directory not any subdirectories",
+        "translatedContent": "Le binaire peut être utilisé sur un fichier ou un répertoire. S'il est fourni avec un répertoire, il ne modifiera que les fichiers source Rust dans ce répertoire, pas dans les sous-répertoires."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```sh\n./rust-obfuscator path/to/your_project <Options>\n```",
+    "ContentSha": "2R+3/9+UdnW89B68IzMM/vzXAuii1x9O2cK8dZbNQLM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n./rust-obfuscator path/to/your_project <Options>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "6yuM7vc3aoU4+vo6QNbuftMvqb7l8FPztJoh2Ct1lSk=",
+        "originContent": "./rust-obfuscator path/to/your_project <Options>",
+        "translatedContent": "./rust-obfuscator path/to/your_project <Options>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "- All Obfuscated code will be under the **obfuscated_code** directory that is created from the directory the tool was run.\n- **Recommended to use a Rust Formatter with the obfuscated code as syn naturally modifies the structure and it will be written to the file as one line**\n\n## Option Flags\n- --no_string: Disables string obfuscation.\n- --no_flow: Disables control flow obfuscation.\n- --disable_macro: Uses direct source manipulation for flow obfuscation instead of procedural macros.\n- --var: Enables variable renaming source code obfuscation.\n\n### Example usage with flag",
+    "ContentSha": "NBDD7DApOi4WJUb+UvrvAaNgyRqrHTyip/ABm2qlwBs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Tout le code obfusqué se trouvera sous le répertoire **obfuscated_code** créé à partir du répertoire où l'outil a été exécuté.  \n- **Il est recommandé d'utiliser un formateur Rust avec le code obfusqué car syn modifie naturellement la structure et il sera écrit dans le fichier sur une seule ligne**  \n\n## Options des drapeaux  \n- --no_string : Désactive l'obfuscation des chaînes.  \n- --no_flow : Désactive l'obfuscation du flux de contrôle.  \n- --disable_macro : Utilise la manipulation directe du code source pour l'obfuscation du flux au lieu des macros procédurales.  \n- --var : Active l'obfuscation du code source par renommage des variables.  \n\n### Exemple d'utilisation avec un drapeau",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "325fwZ02An4AT1gL6F5ZMH1FkG90ONk6M0pSCDYBj0o=",
+        "originContent": "- All Obfuscated code will be under the **obfuscated_code** directory that is created from the directory the tool was run.",
+        "translatedContent": "- Tout le code obfusqué se trouvera sous le répertoire **obfuscated_code** créé à partir du répertoire où l'outil a été exécuté.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "R6MPG15Id1vqf8N+aGM4kxkelPJloXyHnhKaIPF/TDw=",
+        "originContent": "- **Recommended to use a Rust Formatter with the obfuscated code as syn naturally modifies the structure and it will be written to the file as one line**",
+        "translatedContent": "- **Il est recommandé d'utiliser un formateur Rust avec le code obfusqué car syn modifie naturellement la structure et il sera écrit dans le fichier sur une seule ligne**  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "JTjVtP4f/9Gtc1P0j4zc51czKBdu1XnOD1Xnm3Zx4JA=",
+        "originContent": "## Option Flags",
+        "translatedContent": "## Options des drapeaux  "
+      },
+      {
+        "row": 5,
+        "rowsha": "tE8PA35H6rKdr+k20M4BDUh0rJ0KhzEGTYLFoTxYek8=",
+        "originContent": "- --no_string: Disables string obfuscation.",
+        "translatedContent": "- --no_string : Désactive l'obfuscation des chaînes.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "DjpqyELAtp9I/HTqdJxJbJDGz9JNiB32nokq1av0FlY=",
+        "originContent": "- --no_flow: Disables control flow obfuscation.",
+        "translatedContent": "- --no_flow : Désactive l'obfuscation du flux de contrôle.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "nodVV3//rbG0qRxU7valbHNgPk0dqjc9PoBcrRNJJUM=",
+        "originContent": "- --disable_macro: Uses direct source manipulation for flow obfuscation instead of procedural macros.",
+        "translatedContent": "- --disable_macro : Utilise la manipulation directe du code source pour l'obfuscation du flux au lieu des macros procédurales.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "Kz03x69nONpJTp3rrqoYQNJsDY/42cVhUCmlBRzHqDg=",
+        "originContent": "- --var: Enables variable renaming source code obfuscation.",
+        "translatedContent": "- --var : Active l'obfuscation du code source par renommage des variables.  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "YA2Ho8cqkSr8IWaiAZt5JSL/+V+57wa/Bhx1fpt2oTQ=",
+        "originContent": "### Example usage with flag",
+        "translatedContent": "### Exemple d'utilisation avec un drapeau"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```sh\nrust-obfuscator path/to/your_project --no_flow \n```",
+    "ContentSha": "xxYJxlQLVL0XKEXsfmayphjcW3sab52y4kNFgscRcm0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nrust-obfuscator path/to/your_project --no_flow \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "1yY+N5CYai+OWPocPzyDzrReXd/UJeO/qxUNdzBbko8=",
+        "originContent": "rust-obfuscator path/to/your_project --no_flow ",
+        "translatedContent": "rust-obfuscator path/to/your_project --no_flow "
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "(disables flow obfuscation)\n\n# Input\n-running the tool with no config",
+    "ContentSha": "40vXL4diIpt76KdVAGwa0GjTV7Q5REfEMxLRbdBxUrA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "(désactive l'obfuscation du flux)\n\n# Entrée\n-exécution de l'outil sans configuration",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UDllZlVlesACPjW071vh+iuWx6ENRMi2Tg8QApZQfh8=",
+        "originContent": "(disables flow obfuscation)",
+        "translatedContent": "(désactive l'obfuscation du flux)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "lfzcQ5bQxHgQgzigoALbMFpFev2tIJd32Gj7hwMUP5s=",
+        "originContent": "# Input",
+        "translatedContent": "# Entrée"
+      },
+      {
+        "row": 4,
+        "rowsha": "bKe2H09SfhrODHIoBk0wbod5G/gdVaZHbJmgDE0x0sA=",
+        "originContent": "-running the tool with no config",
+        "translatedContent": "-exécution de l'outil sans configuration"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```rs\nuse cryptify;\nmod word_counter;\nuse std::env;\nuse std::fs;\nuse word_counter::count_words;\nfn main() {\n    let b = \"Hello World\";\n    println!(\"{}\", b);\n    let args: Vec<String> = env::args().collect();\n    if args.len() < 2 {\n        eprintln!(\"Usage: {} <filename>\", args[0]);\n        return;\n    }\n    let filename = &args[1];\n    let content = fs::read_to_string(filename).expect(\"Could not read file\");\n    let word_counts = count_words(&content);\n    for (word, count) in word_counts.iter() {\n        println!(\"{}: {}\", word, count);\n    }\n}\n\nfn dummy() {\n    let a = 1;\n    let b = 2;\n    let c = a + b;\n    println!(\"{}\", c);\n}\n\nfn calc_sum(a: i32, b: i32) -> i32 {\n    cryptify::flow_stmt!();\n    let c = a + b;\n    c\n}\n\nfn helloooo(){\n    println!(\"hi\");\n}\n\n```",
+    "ContentSha": "wz5a5kaEZ0KEed4fZDPY8glWdsFNOnCYC0Ud4vEwXOE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rs\nuse cryptify;\nmod word_counter;\nuse std::env;\nuse std::fs;\nuse word_counter::count_words;\nfn main() {\n    let b = \"Hello World\";\n    println!(\"{}\", b);\n    let args: Vec<String> = env::args().collect();\n    if args.len() < 2 {\n        eprintln!(\"Usage: {} <filename>\", args[0]);\n        return;\n    }\n    let filename = &args[1];\n    let content = fs::read_to_string(filename).expect(\"Could not read file\");\n    let word_counts = count_words(&content);\n    for (word, count) in word_counts.iter() {\n        println!(\"{}: {}\", word, count);\n    }\n}\n\nfn dummy() {\n    let a = 1;\n    let b = 2;\n    let c = a + b;\n    println!(\"{}\", c);\n}\n\nfn calc_sum(a: i32, b: i32) -> i32 {\n    cryptify::flow_stmt!();\n    let c = a + b;\n    c\n}\n\nfn helloooo(){\n    println!(\"hi\");\n}\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rOfML5LD5dSAagOskncmjikB2j/EUV16HmaZHnwlOD4=",
+        "originContent": "```rs",
+        "translatedContent": "```rs"
+      },
+      {
+        "row": 2,
+        "rowsha": "f1Uzeo1DyoBoDtLXp36TWi+wFz0tdfDbDGEzfAVaM1Q=",
+        "originContent": "use cryptify;",
+        "translatedContent": "use cryptify;"
+      },
+      {
+        "row": 3,
+        "rowsha": "g9bj3GozkDhVSXFLPJAQ11/loxyuwjBOBJF+aL4Sqpo=",
+        "originContent": "mod word_counter;",
+        "translatedContent": "mod word_counter;"
+      },
+      {
+        "row": 4,
+        "rowsha": "+MTyk7CNJpdYP1cKrtvWkA7MHrWH86yDy2h/IsHT38g=",
+        "originContent": "use std::env;",
+        "translatedContent": "use std::env;"
+      },
+      {
+        "row": 5,
+        "rowsha": "ATRxnPk8r5uOZcuwvQPVe9fWnXUzJOns9gGFeIl528s=",
+        "originContent": "use std::fs;",
+        "translatedContent": "use std::fs;"
+      },
+      {
+        "row": 6,
+        "rowsha": "X0bMkUJYg3uYnGwlveAsKmA4mBK/5fcw3Bu++c7mSdk=",
+        "originContent": "use word_counter::count_words;",
+        "translatedContent": "use word_counter::count_words;"
+      },
+      {
+        "row": 7,
+        "rowsha": "coebvCNPjfi9lAlxF/m6fSZazkMAKTvaJDk8E8Zr3rk=",
+        "originContent": "fn main() {",
+        "translatedContent": "fn main() {"
+      },
+      {
+        "row": 8,
+        "rowsha": "B5wsu8cNAl2e+uHhY0fBafiaHv1bmqeW6a+DKLdf0HA=",
+        "originContent": "    let b = \"Hello World\";",
+        "translatedContent": "    let b = \"Hello World\";"
+      },
+      {
+        "row": 9,
+        "rowsha": "1NnKKV9OOevwl3rtrAiVrtRdS5KIJXRqgX9DPqm/AJQ=",
+        "originContent": "    println!(\"{}\", b);",
+        "translatedContent": "    println!(\"{}\", b);"
+      },
+      {
+        "row": 10,
+        "rowsha": "ZDL95S73UsS5XXUKpzjGmdCmxsVy+HXw88Y3T7e6GvM=",
+        "originContent": "    let args: Vec<String> = env::args().collect();",
+        "translatedContent": "    let args: Vec<String> = env::args().collect();"
+      },
+      {
+        "row": 11,
+        "rowsha": "iD9v713/++Y4SPp+P8sEgClL6DryLH6wTq5v56I2ep4=",
+        "originContent": "    if args.len() < 2 {",
+        "translatedContent": "    if args.len() < 2 {"
+      },
+      {
+        "row": 12,
+        "rowsha": "i46dMJfy8DSE/8k6AZB82wBGj7JpQVblofh7cStC6EY=",
+        "originContent": "        eprintln!(\"Usage: {} <filename>\", args[0]);",
+        "translatedContent": "        eprintln!(\"Usage: {} <filename>\", args[0]);"
+      },
+      {
+        "row": 13,
+        "rowsha": "7LOrdj8AYx+nMLj9yKnGfsqX5/5QR+XtHR2J4I/P/80=",
+        "originContent": "        return;",
+        "translatedContent": "        return;"
+      },
+      {
+        "row": 14,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 15,
+        "rowsha": "Uge8CUWwiGq29SPWZ/RRFSZo5XSnx+qKdam/wC7Er58=",
+        "originContent": "    let filename = &args[1];",
+        "translatedContent": "    let filename = &args[1];"
+      },
+      {
+        "row": 16,
+        "rowsha": "7VMIwbS/0WfNbVhVAt/iEKegP36omElnGZzp+T/ilHE=",
+        "originContent": "    let content = fs::read_to_string(filename).expect(\"Could not read file\");",
+        "translatedContent": "    let content = fs::read_to_string(filename).expect(\"Could not read file\");"
+      },
+      {
+        "row": 17,
+        "rowsha": "0/n2rylMjckGQ+qMH5ioAyPzVtx5oXA1O9WYo1QF6AM=",
+        "originContent": "    let word_counts = count_words(&content);",
+        "translatedContent": "    let word_counts = count_words(&content);"
+      },
+      {
+        "row": 18,
+        "rowsha": "Qg4ZmAk1D/wGH5T3H0OASanT59CMdx6zMljXnoIcINs=",
+        "originContent": "    for (word, count) in word_counts.iter() {",
+        "translatedContent": "    for (word, count) in word_counts.iter() {"
+      },
+      {
+        "row": 19,
+        "rowsha": "lbep/AcgIG33RpBHWOaAyKdNWh9nQr+NV49cQAOt4Bc=",
+        "originContent": "        println!(\"{}: {}\", word, count);",
+        "translatedContent": "        println!(\"{}: {}\", word, count);"
+      },
+      {
+        "row": 20,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 21,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "mN0eLWqlg2MfDgn3kCUho2TPfAjeIzd/zALreB8LTuw=",
+        "originContent": "fn dummy() {",
+        "translatedContent": "fn dummy() {"
+      },
+      {
+        "row": 24,
+        "rowsha": "7iwr4QlqxddmMmnZc/RJaQfi9VTV8ZMfrHAbaTQ8+04=",
+        "originContent": "    let a = 1;",
+        "translatedContent": "    let a = 1;"
+      },
+      {
+        "row": 25,
+        "rowsha": "09qvF+HiyEANWkSk6hql9tA44+qBrrCj/woFTeuBToA=",
+        "originContent": "    let b = 2;",
+        "translatedContent": "    let b = 2;"
+      },
+      {
+        "row": 26,
+        "rowsha": "ANtlT2K8GLeXjDMkVh2WTFOppBL9e0zUVwW3twyMTgI=",
+        "originContent": "    let c = a + b;",
+        "translatedContent": "    let c = a + b;"
+      },
+      {
+        "row": 27,
+        "rowsha": "/kU4vJ533Yrhu/UEMp9NnCmcXvtJP9bArU1oWF1wGaw=",
+        "originContent": "    println!(\"{}\", c);",
+        "translatedContent": "    println!(\"{}\", c);"
+      },
+      {
+        "row": 28,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "8wResmJiHhwB7p/Tixskov1GxYmT90qdIs5Mxb6Z48M=",
+        "originContent": "fn calc_sum(a: i32, b: i32) -> i32 {",
+        "translatedContent": "fn calc_sum(a: i32, b: i32) -> i32 {"
+      },
+      {
+        "row": 31,
+        "rowsha": "f0v1pX3bbRbaqWVPbwXrp9NyyNVzlri0+QrD+JY3tKQ=",
+        "originContent": "    cryptify::flow_stmt!();",
+        "translatedContent": "    cryptify::flow_stmt!();"
+      },
+      {
+        "row": 32,
+        "rowsha": "ANtlT2K8GLeXjDMkVh2WTFOppBL9e0zUVwW3twyMTgI=",
+        "originContent": "    let c = a + b;",
+        "translatedContent": "    let c = a + b;"
+      },
+      {
+        "row": 33,
+        "rowsha": "qo54a3xfYm2BdVJcPFbdSZSceDNpnsgshu+HT477J40=",
+        "originContent": "    c",
+        "translatedContent": "    c"
+      },
+      {
+        "row": 34,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "w2YfmU71p5KyFmUpIixTMUo8i+ak+O+3BumLO51UvJI=",
+        "originContent": "fn helloooo(){",
+        "translatedContent": "fn helloooo(){"
+      },
+      {
+        "row": 37,
+        "rowsha": "n7i7lh2hE1cVB0N3frpKwA/BrIQwwZflCaQ4S22PMXw=",
+        "originContent": "    println!(\"hi\");",
+        "translatedContent": "    println!(\"hi\");"
+      },
+      {
+        "row": 38,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "# Output",
+    "ContentSha": "tJd4rVYHAkJMu4+Rib9FI09s3AlXr0EXWbOWBOOqj5E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Sortie",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tJd4rVYHAkJMu4+Rib9FI09s3AlXr0EXWbOWBOOqj5E=",
+        "originContent": "# Output",
+        "translatedContent": "# Sortie"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```rs\nfn main() {\n    cryptify::flow_stmt!();\n    let b = cryptify::encrypt_string!(\"Hello World\");\n    println!(\"{}\", b);\n    let args: Vec<String> = env::args().collect();\n    if args.len() < 2 {\n        eprintln!(\"Usage: {} <filename>\", args[0]);\n        return;\n    }\n    let filename = &args[1];\n    let content = fs::read_to_string(filename).expect(\"Could not read file\");\n    let word_counts = count_words(&content);\n    for (word, count) in word_counts.iter() {\n        println!(\"{}: {}\", word, count);\n    }\n}\nfn dummy() {\n    cryptify::flow_stmt!();\n    let a = 1;\n    let b = 2;\n    let c = a + b;\n    println!(\"{}\", c);\n}\nfn calc_sum(a: i32, b: i32) -> i32 {\n    cryptify::flow_stmt!();\n    let c = a + b;\n    c\n}\nfn helloooo() {\n    println!(\"hi\");\n}\n```",
+    "ContentSha": "41ohnjlT/X6CH7RJdggvqaM7vQRfkYM6nTrzjBRdSMs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rs\nfn main() {\n    cryptify::flow_stmt!();\n    let b = cryptify::encrypt_string!(\"Hello World\");\n    println!(\"{}\", b);\n    let args: Vec<String> = env::args().collect();\n    if args.len() < 2 {\n        eprintln!(\"Usage: {} <filename>\", args[0]);\n        return;\n    }\n    let filename = &args[1];\n    let content = fs::read_to_string(filename).expect(\"Could not read file\");\n    let word_counts = count_words(&content);\n    for (word, count) in word_counts.iter() {\n        println!(\"{}: {}\", word, count);\n    }\n}\nfn dummy() {\n    cryptify::flow_stmt!();\n    let a = 1;\n    let b = 2;\n    let c = a + b;\n    println!(\"{}\", c);\n}\nfn calc_sum(a: i32, b: i32) -> i32 {\n    cryptify::flow_stmt!();\n    let c = a + b;\n    c\n}\nfn helloooo() {\n    println!(\"hi\");\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rOfML5LD5dSAagOskncmjikB2j/EUV16HmaZHnwlOD4=",
+        "originContent": "```rs",
+        "translatedContent": "```rs"
+      },
+      {
+        "row": 2,
+        "rowsha": "coebvCNPjfi9lAlxF/m6fSZazkMAKTvaJDk8E8Zr3rk=",
+        "originContent": "fn main() {",
+        "translatedContent": "fn main() {"
+      },
+      {
+        "row": 3,
+        "rowsha": "f0v1pX3bbRbaqWVPbwXrp9NyyNVzlri0+QrD+JY3tKQ=",
+        "originContent": "    cryptify::flow_stmt!();",
+        "translatedContent": "    cryptify::flow_stmt!();"
+      },
+      {
+        "row": 4,
+        "rowsha": "btknvXMa0IU1DVQgAYEOY6MbQpLRalplyjlpH3X+Hvo=",
+        "originContent": "    let b = cryptify::encrypt_string!(\"Hello World\");",
+        "translatedContent": "    let b = cryptify::encrypt_string!(\"Hello World\");"
+      },
+      {
+        "row": 5,
+        "rowsha": "1NnKKV9OOevwl3rtrAiVrtRdS5KIJXRqgX9DPqm/AJQ=",
+        "originContent": "    println!(\"{}\", b);",
+        "translatedContent": "    println!(\"{}\", b);"
+      },
+      {
+        "row": 6,
+        "rowsha": "ZDL95S73UsS5XXUKpzjGmdCmxsVy+HXw88Y3T7e6GvM=",
+        "originContent": "    let args: Vec<String> = env::args().collect();",
+        "translatedContent": "    let args: Vec<String> = env::args().collect();"
+      },
+      {
+        "row": 7,
+        "rowsha": "iD9v713/++Y4SPp+P8sEgClL6DryLH6wTq5v56I2ep4=",
+        "originContent": "    if args.len() < 2 {",
+        "translatedContent": "    if args.len() < 2 {"
+      },
+      {
+        "row": 8,
+        "rowsha": "i46dMJfy8DSE/8k6AZB82wBGj7JpQVblofh7cStC6EY=",
+        "originContent": "        eprintln!(\"Usage: {} <filename>\", args[0]);",
+        "translatedContent": "        eprintln!(\"Usage: {} <filename>\", args[0]);"
+      },
+      {
+        "row": 9,
+        "rowsha": "7LOrdj8AYx+nMLj9yKnGfsqX5/5QR+XtHR2J4I/P/80=",
+        "originContent": "        return;",
+        "translatedContent": "        return;"
+      },
+      {
+        "row": 10,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 11,
+        "rowsha": "Uge8CUWwiGq29SPWZ/RRFSZo5XSnx+qKdam/wC7Er58=",
+        "originContent": "    let filename = &args[1];",
+        "translatedContent": "    let filename = &args[1];"
+      },
+      {
+        "row": 12,
+        "rowsha": "7VMIwbS/0WfNbVhVAt/iEKegP36omElnGZzp+T/ilHE=",
+        "originContent": "    let content = fs::read_to_string(filename).expect(\"Could not read file\");",
+        "translatedContent": "    let content = fs::read_to_string(filename).expect(\"Could not read file\");"
+      },
+      {
+        "row": 13,
+        "rowsha": "0/n2rylMjckGQ+qMH5ioAyPzVtx5oXA1O9WYo1QF6AM=",
+        "originContent": "    let word_counts = count_words(&content);",
+        "translatedContent": "    let word_counts = count_words(&content);"
+      },
+      {
+        "row": 14,
+        "rowsha": "Qg4ZmAk1D/wGH5T3H0OASanT59CMdx6zMljXnoIcINs=",
+        "originContent": "    for (word, count) in word_counts.iter() {",
+        "translatedContent": "    for (word, count) in word_counts.iter() {"
+      },
+      {
+        "row": 15,
+        "rowsha": "lbep/AcgIG33RpBHWOaAyKdNWh9nQr+NV49cQAOt4Bc=",
+        "originContent": "        println!(\"{}: {}\", word, count);",
+        "translatedContent": "        println!(\"{}: {}\", word, count);"
+      },
+      {
+        "row": 16,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 17,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 18,
+        "rowsha": "mN0eLWqlg2MfDgn3kCUho2TPfAjeIzd/zALreB8LTuw=",
+        "originContent": "fn dummy() {",
+        "translatedContent": "fn dummy() {"
+      },
+      {
+        "row": 19,
+        "rowsha": "f0v1pX3bbRbaqWVPbwXrp9NyyNVzlri0+QrD+JY3tKQ=",
+        "originContent": "    cryptify::flow_stmt!();",
+        "translatedContent": "    cryptify::flow_stmt!();"
+      },
+      {
+        "row": 20,
+        "rowsha": "7iwr4QlqxddmMmnZc/RJaQfi9VTV8ZMfrHAbaTQ8+04=",
+        "originContent": "    let a = 1;",
+        "translatedContent": "    let a = 1;"
+      },
+      {
+        "row": 21,
+        "rowsha": "09qvF+HiyEANWkSk6hql9tA44+qBrrCj/woFTeuBToA=",
+        "originContent": "    let b = 2;",
+        "translatedContent": "    let b = 2;"
+      },
+      {
+        "row": 22,
+        "rowsha": "ANtlT2K8GLeXjDMkVh2WTFOppBL9e0zUVwW3twyMTgI=",
+        "originContent": "    let c = a + b;",
+        "translatedContent": "    let c = a + b;"
+      },
+      {
+        "row": 23,
+        "rowsha": "/kU4vJ533Yrhu/UEMp9NnCmcXvtJP9bArU1oWF1wGaw=",
+        "originContent": "    println!(\"{}\", c);",
+        "translatedContent": "    println!(\"{}\", c);"
+      },
+      {
+        "row": 24,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 25,
+        "rowsha": "8wResmJiHhwB7p/Tixskov1GxYmT90qdIs5Mxb6Z48M=",
+        "originContent": "fn calc_sum(a: i32, b: i32) -> i32 {",
+        "translatedContent": "fn calc_sum(a: i32, b: i32) -> i32 {"
+      },
+      {
+        "row": 26,
+        "rowsha": "f0v1pX3bbRbaqWVPbwXrp9NyyNVzlri0+QrD+JY3tKQ=",
+        "originContent": "    cryptify::flow_stmt!();",
+        "translatedContent": "    cryptify::flow_stmt!();"
+      },
+      {
+        "row": 27,
+        "rowsha": "ANtlT2K8GLeXjDMkVh2WTFOppBL9e0zUVwW3twyMTgI=",
+        "originContent": "    let c = a + b;",
+        "translatedContent": "    let c = a + b;"
+      },
+      {
+        "row": 28,
+        "rowsha": "qo54a3xfYm2BdVJcPFbdSZSceDNpnsgshu+HT477J40=",
+        "originContent": "    c",
+        "translatedContent": "    c"
+      },
+      {
+        "row": 29,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 30,
+        "rowsha": "66ZtRKsA1Bmdt15WepP7bJ7zpOxAowVqAPHXaVJHMP4=",
+        "originContent": "fn helloooo() {",
+        "translatedContent": "fn helloooo() {"
+      },
+      {
+        "row": 31,
+        "rowsha": "n7i7lh2hE1cVB0N3frpKwA/BrIQwwZflCaQ4S22PMXw=",
+        "originContent": "    println!(\"hi\");",
+        "translatedContent": "    println!(\"hi\");"
+      },
+      {
+        "row": 32,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 33,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "## Expanded Output",
+    "ContentSha": "q4y4m3jFOUx3bYsKTVroo4EkrJEF9BlPp7xqFAcOkzY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Sortie étendue",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "q4y4m3jFOUx3bYsKTVroo4EkrJEF9BlPp7xqFAcOkzY=",
+        "originContent": "## Expanded Output",
+        "translatedContent": "## Sortie étendue"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```rs\nfn main() {\n    {\n        let _is_dummy_145 = true;\n        let mut _dummy_counter = std::hint::black_box(4i32 as i32);\n        let _dummy_increment = std::hint::black_box(1i32 as i32);\n        let _dummy_upper_bound = std::hint::black_box(53i32 as i32);\n        loop {\n            if std::hint::black_box(_dummy_counter)\n                > std::hint::black_box(_dummy_upper_bound)\n            {\n                break;\n            }\n            _dummy_counter = std::hint::black_box(\n                std::hint::black_box(_dummy_counter)\n                    + std::hint::black_box(_dummy_increment),\n            );\n        }\n    };\n    match (&1, &1) {\n        (left_val, right_val) => {\n            if !(*left_val == *right_val) {\n                let kind = ::core::panicking::AssertKind::Eq;\n                ::core::panicking::assert_failed(\n                    kind,\n                    &*left_val,\n                    &*right_val,\n                    ::core::option::Option::None,\n                );\n            }\n        }\n    };\n}\nfn dummy() {\n    {\n        let _is_dummy_145 = true;\n        let mut _dummy_counter = 4i32;\n        let _dummy_upper_bound = 100;\n        let _dummy_increment = 3i32;\n        loop {\n            if _dummy_counter > _dummy_upper_bound {\n                break;\n            }\n            unsafe {\n                std::ptr::write_volatile(\n                    &mut _dummy_counter,\n                    _dummy_counter + _dummy_increment,\n                );\n            }\n        }\n    };\n    let a = 1;\n    let b = 2;\n    let c = a + b;\n    {\n        ::std::io::_print(format_args!(\"{0}\\n\", c));\n    };\n}\nfn calc_sum(a: i32, b: i32) -> i32 {\n    {\n        let _is_dummy_145 = true;\n        let mut _dummy_counter = 8i32;\n        let _dummy_increment = 3i32;\n        let _extra_dummy_var = 4i32;\n        let _dummy_upper_bound = 100;\n        loop {\n            if _dummy_counter > _dummy_upper_bound {\n                break;\n            }\n            unsafe {\n                std::ptr::write_volatile(\n                    &mut _dummy_counter,\n                    _dummy_counter + _dummy_increment,\n                );\n            }\n        }\n    };\n    let c = a + b;\n    c\n}\nfn helloooo() {\n    {\n        ::std::io::_print(format_args!(\"hi\\n\"));\n    };\n}\n```",
+    "ContentSha": "K1axFoA21Vnwelc2NOOk+GYsuU76oyVEh4rQOQ7DnX0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rs\nfn main() {\n    {\n        let _is_dummy_145 = true;\n        let mut _dummy_counter = std::hint::black_box(4i32 as i32);\n        let _dummy_increment = std::hint::black_box(1i32 as i32);\n        let _dummy_upper_bound = std::hint::black_box(53i32 as i32);\n        loop {\n            if std::hint::black_box(_dummy_counter)\n                > std::hint::black_box(_dummy_upper_bound)\n            {\n                break;\n            }\n            _dummy_counter = std::hint::black_box(\n                std::hint::black_box(_dummy_counter)\n                    + std::hint::black_box(_dummy_increment),\n            );\n        }\n    };\n    match (&1, &1) {\n        (left_val, right_val) => {\n            if !(*left_val == *right_val) {\n                let kind = ::core::panicking::AssertKind::Eq;\n                ::core::panicking::assert_failed(\n                    kind,\n                    &*left_val,\n                    &*right_val,\n                    ::core::option::Option::None,\n                );\n            }\n        }\n    };\n}\nfn dummy() {\n    {\n        let _is_dummy_145 = true;\n        let mut _dummy_counter = 4i32;\n        let _dummy_upper_bound = 100;\n        let _dummy_increment = 3i32;\n        loop {\n            if _dummy_counter > _dummy_upper_bound {\n                break;\n            }\n            unsafe {\n                std::ptr::write_volatile(\n                    &mut _dummy_counter,\n                    _dummy_counter + _dummy_increment,\n                );\n            }\n        }\n    };\n    let a = 1;\n    let b = 2;\n    let c = a + b;\n    {\n        ::std::io::_print(format_args!(\"{0}\\n\", c));\n    };\n}\nfn calc_sum(a: i32, b: i32) -> i32 {\n    {\n        let _is_dummy_145 = true;\n        let mut _dummy_counter = 8i32;\n        let _dummy_increment = 3i32;\n        let _extra_dummy_var = 4i32;\n        let _dummy_upper_bound = 100;\n        loop {\n            if _dummy_counter > _dummy_upper_bound {\n                break;\n            }\n            unsafe {\n                std::ptr::write_volatile(\n                    &mut _dummy_counter,\n                    _dummy_counter + _dummy_increment,\n                );\n            }\n        }\n    };\n    let c = a + b;\n    c\n}\nfn helloooo() {\n    {\n        ::std::io::_print(format_args!(\"hi\\n\"));\n    };\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rOfML5LD5dSAagOskncmjikB2j/EUV16HmaZHnwlOD4=",
+        "originContent": "```rs",
+        "translatedContent": "```rs"
+      },
+      {
+        "row": 2,
+        "rowsha": "coebvCNPjfi9lAlxF/m6fSZazkMAKTvaJDk8E8Zr3rk=",
+        "originContent": "fn main() {",
+        "translatedContent": "fn main() {"
+      },
+      {
+        "row": 3,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 4,
+        "rowsha": "P8lIVV07Uoy6KPmiKYYgEky0+1SC56zA8JBPh2fo5h0=",
+        "originContent": "        let _is_dummy_145 = true;",
+        "translatedContent": "        let _is_dummy_145 = true;"
+      },
+      {
+        "row": 5,
+        "rowsha": "RqZQ2qgfYjKmzYTE4EXGS1lBqSuKy7HqGikxLG/ZwUU=",
+        "originContent": "        let mut _dummy_counter = std::hint::black_box(4i32 as i32);",
+        "translatedContent": "        let mut _dummy_counter = std::hint::black_box(4i32 as i32);"
+      },
+      {
+        "row": 6,
+        "rowsha": "3tkPND6CKohLY/Akau2FVUJg+nwJRJ5cz7EVtg3lSbY=",
+        "originContent": "        let _dummy_increment = std::hint::black_box(1i32 as i32);",
+        "translatedContent": "        let _dummy_increment = std::hint::black_box(1i32 as i32);"
+      },
+      {
+        "row": 7,
+        "rowsha": "4Hl+Rh5fUr2Y4WnNKX2IMLrn1x3t7HRZgQVcuWTiYHU=",
+        "originContent": "        let _dummy_upper_bound = std::hint::black_box(53i32 as i32);",
+        "translatedContent": "        let _dummy_upper_bound = std::hint::black_box(53i32 as i32);"
+      },
+      {
+        "row": 8,
+        "rowsha": "oDRlU0e/bgs5i3nQ8TO8u6dtfl7mTVtZkggUxZtLKA0=",
+        "originContent": "        loop {",
+        "translatedContent": "        loop {"
+      },
+      {
+        "row": 9,
+        "rowsha": "9vr/My0Jdr7Nmnk5gI7Ml21AiFUkw5ZYGpXk7lLbk4g=",
+        "originContent": "            if std::hint::black_box(_dummy_counter)",
+        "translatedContent": "            if std::hint::black_box(_dummy_counter)"
+      },
+      {
+        "row": 10,
+        "rowsha": "hl//9IJIRGHuVG5hdsr8mf6RGaTWkj/mQ/jlVZi4zWw=",
+        "originContent": "                > std::hint::black_box(_dummy_upper_bound)",
+        "translatedContent": "                > std::hint::black_box(_dummy_upper_bound)"
+      },
+      {
+        "row": 11,
+        "rowsha": "eP03rcdD1du8iWcplsteDSugGG60x9rQBsnNT3AplAc=",
+        "originContent": "            {",
+        "translatedContent": "            {"
+      },
+      {
+        "row": 12,
+        "rowsha": "FA/X37mGKRX93uYnaM9iwF7Z2JgPP9i2puWvt3rt4gU=",
+        "originContent": "                break;",
+        "translatedContent": "                break;"
+      },
+      {
+        "row": 13,
+        "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+        "originContent": "            }",
+        "translatedContent": "            }"
+      },
+      {
+        "row": 14,
+        "rowsha": "Vzr+czsRHo94DXyhWBZCvj9r0g8p2OE1+mcupxRwULk=",
+        "originContent": "            _dummy_counter = std::hint::black_box(",
+        "translatedContent": "            _dummy_counter = std::hint::black_box("
+      },
+      {
+        "row": 15,
+        "rowsha": "F8gWoLTJai4YVvZI3ePZFUDEI/q0HoJ0iiN26yqxwio=",
+        "originContent": "                std::hint::black_box(_dummy_counter)",
+        "translatedContent": "                std::hint::black_box(_dummy_counter)"
+      },
+      {
+        "row": 16,
+        "rowsha": "YlCJeIhixZCAMkZNfoQcqu823r4ZJLTKVa8Tw7fGOs8=",
+        "originContent": "                    + std::hint::black_box(_dummy_increment),",
+        "translatedContent": "                    + std::hint::black_box(_dummy_increment),"
+      },
+      {
+        "row": 17,
+        "rowsha": "TP8Q3DEGchm51Vip29yFq2ARapMUfh7WtjTaIXt6tXc=",
+        "originContent": "            );",
+        "translatedContent": "            );"
+      },
+      {
+        "row": 18,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 19,
+        "rowsha": "7em+/b2HqM6iEBXxrPSXlZytO/iDgRIZPZigKkf6YTc=",
+        "originContent": "    };",
+        "translatedContent": "    };"
+      },
+      {
+        "row": 20,
+        "rowsha": "wMXthA2N/7nUldQIgKOF11ACWftr8lfjJMbqJguin5Y=",
+        "originContent": "    match (&1, &1) {",
+        "translatedContent": "    match (&1, &1) {"
+      },
+      {
+        "row": 21,
+        "rowsha": "NWcPjmj5HQEozEBfoLUsqeGlE6hw2zIYnwUWoEfqaAo=",
+        "originContent": "        (left_val, right_val) => {",
+        "translatedContent": "        (left_val, right_val) => {"
+      },
+      {
+        "row": 22,
+        "rowsha": "TlHGqmH3A3Sngrz+X+3wij1xLiGLhGYKCL1Ke5HqnO8=",
+        "originContent": "            if !(*left_val == *right_val) {",
+        "translatedContent": "            if !(*left_val == *right_val) {"
+      },
+      {
+        "row": 23,
+        "rowsha": "YSXgCLPUIi5BcdDupu/LCvqOlh9GLKUvsDlNDCBBK9o=",
+        "originContent": "                let kind = ::core::panicking::AssertKind::Eq;",
+        "translatedContent": "                let kind = ::core::panicking::AssertKind::Eq;"
+      },
+      {
+        "row": 24,
+        "rowsha": "8A7nYOkIcKLCUq316KulEaPCGFMqoXrgfniRqQOjI/w=",
+        "originContent": "                ::core::panicking::assert_failed(",
+        "translatedContent": "                ::core::panicking::assert_failed("
+      },
+      {
+        "row": 25,
+        "rowsha": "mpJ+JEYD6B+8pHdfP/BWcjuBTNEayKiCWJpVI/SF1IY=",
+        "originContent": "                    kind,",
+        "translatedContent": "                    kind,"
+      },
+      {
+        "row": 26,
+        "rowsha": "hvfLkrLanqOcBUxf9QWJnXvBA22FIv/35aCZjw8OycI=",
+        "originContent": "                    &*left_val,",
+        "translatedContent": "                    &*left_val,"
+      },
+      {
+        "row": 27,
+        "rowsha": "7Pwgj3JFP875ZxuJtQAlPmC8lOCK0PNt/4+Oz7AN3Qs=",
+        "originContent": "                    &*right_val,",
+        "translatedContent": "                    &*right_val,"
+      },
+      {
+        "row": 28,
+        "rowsha": "mRnbAk2HXghr+X3TggpGrISDm588/arf/Un7/+2ZVOg=",
+        "originContent": "                    ::core::option::Option::None,",
+        "translatedContent": "                    ::core::option::Option::None,"
+      },
+      {
+        "row": 29,
+        "rowsha": "iyW0eLx/StWwCYjHv8mggj/I9JPaKYo0bM0YK2TwBSE=",
+        "originContent": "                );",
+        "translatedContent": "                );"
+      },
+      {
+        "row": 30,
+        "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+        "originContent": "            }",
+        "translatedContent": "            }"
+      },
+      {
+        "row": 31,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 32,
+        "rowsha": "7em+/b2HqM6iEBXxrPSXlZytO/iDgRIZPZigKkf6YTc=",
+        "originContent": "    };",
+        "translatedContent": "    };"
+      },
+      {
+        "row": 33,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 34,
+        "rowsha": "mN0eLWqlg2MfDgn3kCUho2TPfAjeIzd/zALreB8LTuw=",
+        "originContent": "fn dummy() {",
+        "translatedContent": "fn dummy() {"
+      },
+      {
+        "row": 35,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 36,
+        "rowsha": "P8lIVV07Uoy6KPmiKYYgEky0+1SC56zA8JBPh2fo5h0=",
+        "originContent": "        let _is_dummy_145 = true;",
+        "translatedContent": "        let _is_dummy_145 = true;"
+      },
+      {
+        "row": 37,
+        "rowsha": "YXTu/S2Otd1Jt/o06YJpOetf18HxcqzzAagojOP0rZA=",
+        "originContent": "        let mut _dummy_counter = 4i32;",
+        "translatedContent": "        let mut _dummy_counter = 4i32;"
+      },
+      {
+        "row": 38,
+        "rowsha": "AOIoPLm5LFqdMBLAneEah2r8nlh+OMmfQRY9QmS6X9U=",
+        "originContent": "        let _dummy_upper_bound = 100;",
+        "translatedContent": "        let _dummy_upper_bound = 100;"
+      },
+      {
+        "row": 39,
+        "rowsha": "0mfpsfwUx3gbjxb5liRKdM94MW8Zvz1ibiWiRg393po=",
+        "originContent": "        let _dummy_increment = 3i32;",
+        "translatedContent": "        let _dummy_increment = 3i32;"
+      },
+      {
+        "row": 40,
+        "rowsha": "oDRlU0e/bgs5i3nQ8TO8u6dtfl7mTVtZkggUxZtLKA0=",
+        "originContent": "        loop {",
+        "translatedContent": "        loop {"
+      },
+      {
+        "row": 41,
+        "rowsha": "kEyaZOd4KoVFMDYOv9pB2UXkzyLk0eP9NUmm6QQEA+c=",
+        "originContent": "            if _dummy_counter > _dummy_upper_bound {",
+        "translatedContent": "            if _dummy_counter > _dummy_upper_bound {"
+      },
+      {
+        "row": 42,
+        "rowsha": "FA/X37mGKRX93uYnaM9iwF7Z2JgPP9i2puWvt3rt4gU=",
+        "originContent": "                break;",
+        "translatedContent": "                break;"
+      },
+      {
+        "row": 43,
+        "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+        "originContent": "            }",
+        "translatedContent": "            }"
+      },
+      {
+        "row": 44,
+        "rowsha": "2WeQljqmUAKh+TjGQBFU2of+0AkUXAXkjtcy4p3XhPk=",
+        "originContent": "            unsafe {",
+        "translatedContent": "            unsafe {"
+      },
+      {
+        "row": 45,
+        "rowsha": "6S3QOtNWEa8syVM2O5US2gL70xMa/6AXS+S0zRCjd9Q=",
+        "originContent": "                std::ptr::write_volatile(",
+        "translatedContent": "                std::ptr::write_volatile("
+      },
+      {
+        "row": 46,
+        "rowsha": "s+2n+4fHYvb4Fh5Fs2I0B7MYAvI4du5NNUFO+Bqa2Wk=",
+        "originContent": "                    &mut _dummy_counter,",
+        "translatedContent": "                    &mut _dummy_counter,"
+      },
+      {
+        "row": 47,
+        "rowsha": "qujua7aRNM8btKa0wIwsJU5NJgxO2K0J7Xny800W+Mk=",
+        "originContent": "                    _dummy_counter + _dummy_increment,",
+        "translatedContent": "                    _dummy_counter + _dummy_increment,"
+      },
+      {
+        "row": 48,
+        "rowsha": "iyW0eLx/StWwCYjHv8mggj/I9JPaKYo0bM0YK2TwBSE=",
+        "originContent": "                );",
+        "translatedContent": "                );"
+      },
+      {
+        "row": 49,
+        "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+        "originContent": "            }",
+        "translatedContent": "            }"
+      },
+      {
+        "row": 50,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 51,
+        "rowsha": "7em+/b2HqM6iEBXxrPSXlZytO/iDgRIZPZigKkf6YTc=",
+        "originContent": "    };",
+        "translatedContent": "    };"
+      },
+      {
+        "row": 52,
+        "rowsha": "7iwr4QlqxddmMmnZc/RJaQfi9VTV8ZMfrHAbaTQ8+04=",
+        "originContent": "    let a = 1;",
+        "translatedContent": "    let a = 1;"
+      },
+      {
+        "row": 53,
+        "rowsha": "09qvF+HiyEANWkSk6hql9tA44+qBrrCj/woFTeuBToA=",
+        "originContent": "    let b = 2;",
+        "translatedContent": "    let b = 2;"
+      },
+      {
+        "row": 54,
+        "rowsha": "ANtlT2K8GLeXjDMkVh2WTFOppBL9e0zUVwW3twyMTgI=",
+        "originContent": "    let c = a + b;",
+        "translatedContent": "    let c = a + b;"
+      },
+      {
+        "row": 55,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 56,
+        "rowsha": "xW1WXiuD7hPSxFUAvUbHTAUcj2U4975OpHFLy0aFq6I=",
+        "originContent": "        ::std::io::_print(format_args!(\"{0}\\n\", c));",
+        "translatedContent": "        ::std::io::_print(format_args!(\"{0}\\n\", c));"
+      },
+      {
+        "row": 57,
+        "rowsha": "7em+/b2HqM6iEBXxrPSXlZytO/iDgRIZPZigKkf6YTc=",
+        "originContent": "    };",
+        "translatedContent": "    };"
+      },
+      {
+        "row": 58,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 59,
+        "rowsha": "8wResmJiHhwB7p/Tixskov1GxYmT90qdIs5Mxb6Z48M=",
+        "originContent": "fn calc_sum(a: i32, b: i32) -> i32 {",
+        "translatedContent": "fn calc_sum(a: i32, b: i32) -> i32 {"
+      },
+      {
+        "row": 60,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 61,
+        "rowsha": "P8lIVV07Uoy6KPmiKYYgEky0+1SC56zA8JBPh2fo5h0=",
+        "originContent": "        let _is_dummy_145 = true;",
+        "translatedContent": "        let _is_dummy_145 = true;"
+      },
+      {
+        "row": 62,
+        "rowsha": "t9+4EEDFtOROewiLj0l+kEkYAIbQatsdvAiYEq9ctHE=",
+        "originContent": "        let mut _dummy_counter = 8i32;",
+        "translatedContent": "        let mut _dummy_counter = 8i32;"
+      },
+      {
+        "row": 63,
+        "rowsha": "0mfpsfwUx3gbjxb5liRKdM94MW8Zvz1ibiWiRg393po=",
+        "originContent": "        let _dummy_increment = 3i32;",
+        "translatedContent": "        let _dummy_increment = 3i32;"
+      },
+      {
+        "row": 64,
+        "rowsha": "3hCU3UNCGOM8nbEh8BtCJlKMPeg08dNXlWzINNG3SsM=",
+        "originContent": "        let _extra_dummy_var = 4i32;",
+        "translatedContent": "        let _extra_dummy_var = 4i32;"
+      },
+      {
+        "row": 65,
+        "rowsha": "AOIoPLm5LFqdMBLAneEah2r8nlh+OMmfQRY9QmS6X9U=",
+        "originContent": "        let _dummy_upper_bound = 100;",
+        "translatedContent": "        let _dummy_upper_bound = 100;"
+      },
+      {
+        "row": 66,
+        "rowsha": "oDRlU0e/bgs5i3nQ8TO8u6dtfl7mTVtZkggUxZtLKA0=",
+        "originContent": "        loop {",
+        "translatedContent": "        loop {"
+      },
+      {
+        "row": 67,
+        "rowsha": "kEyaZOd4KoVFMDYOv9pB2UXkzyLk0eP9NUmm6QQEA+c=",
+        "originContent": "            if _dummy_counter > _dummy_upper_bound {",
+        "translatedContent": "            if _dummy_counter > _dummy_upper_bound {"
+      },
+      {
+        "row": 68,
+        "rowsha": "FA/X37mGKRX93uYnaM9iwF7Z2JgPP9i2puWvt3rt4gU=",
+        "originContent": "                break;",
+        "translatedContent": "                break;"
+      },
+      {
+        "row": 69,
+        "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+        "originContent": "            }",
+        "translatedContent": "            }"
+      },
+      {
+        "row": 70,
+        "rowsha": "2WeQljqmUAKh+TjGQBFU2of+0AkUXAXkjtcy4p3XhPk=",
+        "originContent": "            unsafe {",
+        "translatedContent": "            unsafe {"
+      },
+      {
+        "row": 71,
+        "rowsha": "6S3QOtNWEa8syVM2O5US2gL70xMa/6AXS+S0zRCjd9Q=",
+        "originContent": "                std::ptr::write_volatile(",
+        "translatedContent": "                std::ptr::write_volatile("
+      },
+      {
+        "row": 72,
+        "rowsha": "s+2n+4fHYvb4Fh5Fs2I0B7MYAvI4du5NNUFO+Bqa2Wk=",
+        "originContent": "                    &mut _dummy_counter,",
+        "translatedContent": "                    &mut _dummy_counter,"
+      },
+      {
+        "row": 73,
+        "rowsha": "qujua7aRNM8btKa0wIwsJU5NJgxO2K0J7Xny800W+Mk=",
+        "originContent": "                    _dummy_counter + _dummy_increment,",
+        "translatedContent": "                    _dummy_counter + _dummy_increment,"
+      },
+      {
+        "row": 74,
+        "rowsha": "iyW0eLx/StWwCYjHv8mggj/I9JPaKYo0bM0YK2TwBSE=",
+        "originContent": "                );",
+        "translatedContent": "                );"
+      },
+      {
+        "row": 75,
+        "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+        "originContent": "            }",
+        "translatedContent": "            }"
+      },
+      {
+        "row": 76,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 77,
+        "rowsha": "7em+/b2HqM6iEBXxrPSXlZytO/iDgRIZPZigKkf6YTc=",
+        "originContent": "    };",
+        "translatedContent": "    };"
+      },
+      {
+        "row": 78,
+        "rowsha": "ANtlT2K8GLeXjDMkVh2WTFOppBL9e0zUVwW3twyMTgI=",
+        "originContent": "    let c = a + b;",
+        "translatedContent": "    let c = a + b;"
+      },
+      {
+        "row": 79,
+        "rowsha": "qo54a3xfYm2BdVJcPFbdSZSceDNpnsgshu+HT477J40=",
+        "originContent": "    c",
+        "translatedContent": "    c"
+      },
+      {
+        "row": 80,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 81,
+        "rowsha": "66ZtRKsA1Bmdt15WepP7bJ7zpOxAowVqAPHXaVJHMP4=",
+        "originContent": "fn helloooo() {",
+        "translatedContent": "fn helloooo() {"
+      },
+      {
+        "row": 82,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 83,
+        "rowsha": "iU7fOfx0hbhe1YxE3wSzATDlsTClEdoGSNMIIzIeDoA=",
+        "originContent": "        ::std::io::_print(format_args!(\"hi\\n\"));",
+        "translatedContent": "        ::std::io::_print(format_args!(\"hi\\n\"));"
+      },
+      {
+        "row": 84,
+        "rowsha": "7em+/b2HqM6iEBXxrPSXlZytO/iDgRIZPZigKkf6YTc=",
+        "originContent": "    };",
+        "translatedContent": "    };"
+      },
+      {
+        "row": 85,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 86,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "# License\nrust-obfuscator is licensed under the MIT License - see the [LICENSE](https://github.com/dronavallipranav/rust-obfuscator/blob/main/LICENSE) file for details.\n",
+    "ContentSha": "nn/f059ftjalXdxnMsmzYwxLu6/H3xXmvwd3Ej6kkKg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Licence\nrust-obfuscator est sous licence MIT - voir le fichier [LICENSE](https://github.com/dronavallipranav/rust-obfuscator/blob/main/LICENSE) pour plus de détails.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7Qo8+NblMV+ve9U8YJCAOSzx5hR1PsQgmN0TGjFj2ls=",
+        "originContent": "# License",
+        "translatedContent": "# Licence"
+      },
+      {
+        "row": 2,
+        "rowsha": "7J0X8VMzTMKWmAzUd2/tewpo/2nYn5ipVb8d3CbPr3k=",
+        "originContent": "rust-obfuscator is licensed under the MIT License - see the [LICENSE](https://github.com/dronavallipranav/rust-obfuscator/blob/main/LICENSE) file for details.",
+        "translatedContent": "rust-obfuscator est sous licence MIT - voir le fichier [LICENSE](https://github.com/dronavallipranav/rust-obfuscator/blob/main/LICENSE) pour plus de détails."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

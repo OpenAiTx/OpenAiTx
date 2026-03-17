@@ -1,0 +1,761 @@
+[
+  {
+    "Id": 1,
+    "Content": "# PrivacyFlip\n\n**Automatic lock/unlock privacy control for Android devices 🔐📱✨**\n\n**PrivacyFlip** automatically manages your Android device's privacy features based on lock/unlock state. When you lock your device, it can disable **Wi-Fi**, **Bluetooth**, **mobile data**, **location** services, **NFC**, and even **camera/microphone sensors**. When you unlock, it intelligently restores the features you want back on.\n\n**Works with Shizuku or Root** - Choose your preferred privilege method!\n\n<div>\n  <a href=\"https://f-droid.org/en/packages/io.github.dorumrr.privacyflip/\" target=\"_blank\" rel=\"noopener\"><img height=\"50\" src=\"https://f-droid.org/badge/get-it-on.png\"></a> \n  <a href=\"https://apt.izzysoft.de/fdroid/index/apk/io.github.dorumrr.privacyflip\" target=\"_blank\" rel=\"noopener\"><img height=\"50\" src=\"https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png\"></a> \n  <a href=\"https://www.buymeacoffee.com/ossdev\"><img height=\"50\" src=\"https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png\" /></a>\n</div>\n\n## 📸 Screenshots\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/dorumrr/privacyFlip/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png\" alt=\"PrivacyFlip by Doru Moraru\" width=\"300\" style=\"margin: 10px; border: 1px solid #222222\"/>\n  <img src=\"https://raw.githubusercontent.com/dorumrr/privacyFlip/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png\" alt=\"PrivacyFlip by Doru Moraru\" width=\"300\" style=\"margin: 10px; border: 1px solid #222222\"/>\n</div>\n\n## 🔒 Features\n\n### **Automatic Privacy Control**\n- **Lock Detection**: Instantly disables privacy features when screen locks\n- **Unlock Detection**: Waits for proper authentication (not just screen-on)\n- **Smart Restoration**: Configurable feature re-enabling on unlock\n\n### **Privacy Features Controlled**\n- 📶 **Wi-Fi** - Disable/enable wireless connectivity\n- 📱 **Bluetooth** - Control Bluetooth radio\n- 📡 **Mobile data** - Manage cellular data connection\n- 📍 **Location services** - Control GPS and location tracking\n- 📳 **NFC** - Control Near Field Communication sensor\n- 📷 **Camera** - Disable/enable camera sensor privacy (Android 12+)\n- 🎤 **Microphone** - Disable/enable microphone sensor privacy (Android 12+)\n- ✈️ **Airplane Mode** - Enable airplane mode on lock (opt-in, disables all radios)\n- 🔋 **Battery Saver** - Enable battery saver mode on lock (opt-in)\n\n### **Advanced Features**",
+    "ContentSha": "S9Qfx7Do6bj0R7dvrVri6sP8qzc86gMdcDVcY3dbP3k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# PrivacyFlip\n\n**Contrôle automatique de la confidentialité par verrouillage/déverrouillage pour appareils Android 🔐📱✨**\n\n**PrivacyFlip** gère automatiquement les fonctions de confidentialité de votre appareil Android selon l’état verrouillé/déverrouillé. Lorsque vous verrouillez votre appareil, il peut désactiver le **Wi-Fi**, le **Bluetooth**, les **données mobiles**, les services de **localisation**, le **NFC**, et même les **capteurs caméra/microphone**. Lors du déverrouillage, il restaure intelligemment les fonctions que vous souhaitez réactiver.\n\n**Fonctionne avec Shizuku ou Root** - Choisissez votre méthode de privilèges préférée !\n\n<div>\n  <a href=\"https://f-droid.org/en/packages/io.github.dorumrr.privacyflip/\" target=\"_blank\" rel=\"noopener\"><img height=\"50\" src=\"https://f-droid.org/badge/get-it-on.png\"></a> \n  <a href=\"https://apt.izzysoft.de/fdroid/index/apk/io.github.dorumrr.privacyflip\" target=\"_blank\" rel=\"noopener\"><img height=\"50\" src=\"https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png\"></a> \n  <a href=\"https://www.buymeacoffee.com/ossdev\"><img height=\"50\" src=\"https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png\" /></a>\n</div>\n\n## 📸 Captures d’écran\n\n<div align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/dorumrr/privacyFlip/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png\" alt=\"PrivacyFlip par Doru Moraru\" width=\"300\" style=\"margin: 10px; border: 1px solid #222222\"/>\n  <img src=\"https://raw.githubusercontent.com/dorumrr/privacyFlip/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png\" alt=\"PrivacyFlip par Doru Moraru\" width=\"300\" style=\"margin: 10px; border: 1px solid #222222\"/>\n</div>\n\n## 🔒 Fonctionnalités\n\n### **Contrôle automatique de la confidentialité**\n- **Détection de verrouillage** : Désactive instantanément les fonctions de confidentialité lors du verrouillage de l’écran\n- **Détection de déverrouillage** : Attend une authentification correcte (pas seulement l’allumage de l’écran)\n- **Restauration intelligente** : Réactivation configurable des fonctions au déverrouillage\n\n### **Fonctions de confidentialité contrôlées**\n- 📶 **Wi-Fi** - Désactiver/activer la connectivité sans fil\n- 📱 **Bluetooth** - Contrôler la radio Bluetooth\n- 📡 **Données mobiles** - Gérer la connexion de données cellulaires\n- 📍 **Services de localisation** - Contrôler le GPS et le suivi de localisation\n- 📳 **NFC** - Contrôler le capteur de communication en champ proche\n- 📷 **Caméra** - Désactiver/activer la confidentialité du capteur caméra (Android 12+)\n- 🎤 **Microphone** - Désactiver/activer la confidentialité du capteur microphone (Android 12+)\n- ✈️ **Mode Avion** - Activer le mode avion au verrouillage (optionnel, désactive toutes les radios)\n- 🔋 **Économie de batterie** - Activer le mode économie de batterie au verrouillage (optionnel)\n\n### **Fonctions avancées**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "lMhHV07Erp4jL1tieYttzGX8tJMnBD/inTHBkKx1dkY=",
+        "originContent": "# PrivacyFlip",
+        "translatedContent": "# PrivacyFlip"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "iSAF1Ae+WXO+uhnoZs2I95z9EqFlQmFEMP82Uhl2E84=",
+        "originContent": "**Automatic lock/unlock privacy control for Android devices 🔐📱✨**",
+        "translatedContent": "**Contrôle automatique de la confidentialité par verrouillage/déverrouillage pour appareils Android 🔐📱✨**"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Tz7jPcQ2tupZq69t5o6MEKWgWluesThSjWuCg0NMC+E=",
+        "originContent": "**PrivacyFlip** automatically manages your Android device's privacy features based on lock/unlock state. When you lock your device, it can disable **Wi-Fi**, **Bluetooth**, **mobile data**, **location** services, **NFC**, and even **camera/microphone sensors**. When you unlock, it intelligently restores the features you want back on.",
+        "translatedContent": "**PrivacyFlip** gère automatiquement les fonctions de confidentialité de votre appareil Android selon l’état verrouillé/déverrouillé. Lorsque vous verrouillez votre appareil, il peut désactiver le **Wi-Fi**, le **Bluetooth**, les **données mobiles**, les services de **localisation**, le **NFC**, et même les **capteurs caméra/microphone**. Lors du déverrouillage, il restaure intelligemment les fonctions que vous souhaitez réactiver."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "8ZECGJrwyCpFtIUrfmvEH/oxZiXUv/rRhaqsC1GyvF0=",
+        "originContent": "**Works with Shizuku or Root** - Choose your preferred privilege method!",
+        "translatedContent": "**Fonctionne avec Shizuku ou Root** - Choisissez votre méthode de privilèges préférée !"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "nkUn+xN/CzcfeDtOk14RpAo9+3G9PEheeFaPGaNcIe4=",
+        "originContent": "<div>",
+        "translatedContent": "<div>"
+      },
+      {
+        "row": 10,
+        "rowsha": "d8tqgl3NEbt9UFAsP8mfToPqO8cGYvj2IkmJovTd8Nk=",
+        "originContent": "  <a href=\"https://f-droid.org/en/packages/io.github.dorumrr.privacyflip/\" target=\"_blank\" rel=\"noopener\"><img height=\"50\" src=\"https://f-droid.org/badge/get-it-on.png\"></a> ",
+        "translatedContent": "  <a href=\"https://f-droid.org/en/packages/io.github.dorumrr.privacyflip/\" target=\"_blank\" rel=\"noopener\"><img height=\"50\" src=\"https://f-droid.org/badge/get-it-on.png\"></a> "
+      },
+      {
+        "row": 11,
+        "rowsha": "9SCqoWnOCAu+fnZ1K+Yz9wGc6ljGguG9/r7hbYtnQrI=",
+        "originContent": "  <a href=\"https://apt.izzysoft.de/fdroid/index/apk/io.github.dorumrr.privacyflip\" target=\"_blank\" rel=\"noopener\"><img height=\"50\" src=\"https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png\"></a> ",
+        "translatedContent": "  <a href=\"https://apt.izzysoft.de/fdroid/index/apk/io.github.dorumrr.privacyflip\" target=\"_blank\" rel=\"noopener\"><img height=\"50\" src=\"https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png\"></a> "
+      },
+      {
+        "row": 12,
+        "rowsha": "T0sSeHOwWMVawcZBhLaXCDurjKTwv451Oj3GGWKGyfM=",
+        "originContent": "  <a href=\"https://www.buymeacoffee.com/ossdev\"><img height=\"50\" src=\"https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png\" /></a>",
+        "translatedContent": "  <a href=\"https://www.buymeacoffee.com/ossdev\"><img height=\"50\" src=\"https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png\" /></a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "NXtpR9o/OxK0/GuwYts3jaIeOhWjWcqdgmsn7axM/io=",
+        "originContent": "## 📸 Screenshots",
+        "translatedContent": "## 📸 Captures d’écran"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 18,
+        "rowsha": "8z6NqSLnWkxODvqcocWQsN5nTZg/uC6DtH1KDufXFZk=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/dorumrr/privacyFlip/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png\" alt=\"PrivacyFlip by Doru Moraru\" width=\"300\" style=\"margin: 10px; border: 1px solid #222222\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/dorumrr/privacyFlip/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png\" alt=\"PrivacyFlip par Doru Moraru\" width=\"300\" style=\"margin: 10px; border: 1px solid #222222\"/>"
+      },
+      {
+        "row": 19,
+        "rowsha": "4sik1A52I+7tKijHbaoN7lwNP4y+YARHwdCf9OkCsvw=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/dorumrr/privacyFlip/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png\" alt=\"PrivacyFlip by Doru Moraru\" width=\"300\" style=\"margin: 10px; border: 1px solid #222222\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/dorumrr/privacyFlip/main/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png\" alt=\"PrivacyFlip par Doru Moraru\" width=\"300\" style=\"margin: 10px; border: 1px solid #222222\"/>"
+      },
+      {
+        "row": 20,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "jz5NXHlm4/8AuyETxrbUp6H5/ABDYn4WrMmqI2RdDI8=",
+        "originContent": "## 🔒 Features",
+        "translatedContent": "## 🔒 Fonctionnalités"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "dzaTuqMDDH0fCcQ2Kw/oHJaZl7DM0oIr7Kug2Mo2qrg=",
+        "originContent": "### **Automatic Privacy Control**",
+        "translatedContent": "### **Contrôle automatique de la confidentialité**"
+      },
+      {
+        "row": 25,
+        "rowsha": "uJR1bjd3k8wvwxohc5IkSkK4lzv/przKtk4aHvEtRaY=",
+        "originContent": "- **Lock Detection**: Instantly disables privacy features when screen locks",
+        "translatedContent": "- **Détection de verrouillage** : Désactive instantanément les fonctions de confidentialité lors du verrouillage de l’écran"
+      },
+      {
+        "row": 26,
+        "rowsha": "+s0XV42zxDbbqW3uA11Tfk9hr8wi507IRYiJy5ovnWs=",
+        "originContent": "- **Unlock Detection**: Waits for proper authentication (not just screen-on)",
+        "translatedContent": "- **Détection de déverrouillage** : Attend une authentification correcte (pas seulement l’allumage de l’écran)"
+      },
+      {
+        "row": 27,
+        "rowsha": "iW1fG5g0+Er0OWAQcojr4pMsPeHV/CfEsM+fHAj+gMI=",
+        "originContent": "- **Smart Restoration**: Configurable feature re-enabling on unlock",
+        "translatedContent": "- **Restauration intelligente** : Réactivation configurable des fonctions au déverrouillage"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "yUCgQwBk26JoqRQOw3BQ0Czii/mXnqaciIJ9jv702Cg=",
+        "originContent": "### **Privacy Features Controlled**",
+        "translatedContent": "### **Fonctions de confidentialité contrôlées**"
+      },
+      {
+        "row": 30,
+        "rowsha": "7vSUy+kDkWcNmXF4OpnfuML7J6qA6h5+2AdVjwl5+lE=",
+        "originContent": "- 📶 **Wi-Fi** - Disable/enable wireless connectivity",
+        "translatedContent": "- 📶 **Wi-Fi** - Désactiver/activer la connectivité sans fil"
+      },
+      {
+        "row": 31,
+        "rowsha": "a8I98Mtn64MXMCxl7lJ26SMH43TeS99lkQMjZMLDfFs=",
+        "originContent": "- 📱 **Bluetooth** - Control Bluetooth radio",
+        "translatedContent": "- 📱 **Bluetooth** - Contrôler la radio Bluetooth"
+      },
+      {
+        "row": 32,
+        "rowsha": "qHH/ryj/QWZbEhwcmavWOfqn+wMYNr95UQaYbvyTM9k=",
+        "originContent": "- 📡 **Mobile data** - Manage cellular data connection",
+        "translatedContent": "- 📡 **Données mobiles** - Gérer la connexion de données cellulaires"
+      },
+      {
+        "row": 33,
+        "rowsha": "L67/O0oHqOzVa6Tp7jNaf5hcp83WkVKiycIvPU8b7bk=",
+        "originContent": "- 📍 **Location services** - Control GPS and location tracking",
+        "translatedContent": "- 📍 **Services de localisation** - Contrôler le GPS et le suivi de localisation"
+      },
+      {
+        "row": 34,
+        "rowsha": "m1D+esDITmDhonLwv3ssjLcp4bryUBTP7eEmuonKwls=",
+        "originContent": "- 📳 **NFC** - Control Near Field Communication sensor",
+        "translatedContent": "- 📳 **NFC** - Contrôler le capteur de communication en champ proche"
+      },
+      {
+        "row": 35,
+        "rowsha": "PpDM96bJfCNofX7wrU3dGgu/pFPQfEZsfDFw+lOxR50=",
+        "originContent": "- 📷 **Camera** - Disable/enable camera sensor privacy (Android 12+)",
+        "translatedContent": "- 📷 **Caméra** - Désactiver/activer la confidentialité du capteur caméra (Android 12+)"
+      },
+      {
+        "row": 36,
+        "rowsha": "xG1Qr5bqu/g+dTPqhVxJ9pamAPLU54CLqAWwwj+cbN4=",
+        "originContent": "- 🎤 **Microphone** - Disable/enable microphone sensor privacy (Android 12+)",
+        "translatedContent": "- 🎤 **Microphone** - Désactiver/activer la confidentialité du capteur microphone (Android 12+)"
+      },
+      {
+        "row": 37,
+        "rowsha": "QFSXywB5KAq1YK0GwxpEP4YaJ7pPewsRoSBDVxfW+P8=",
+        "originContent": "- ✈️ **Airplane Mode** - Enable airplane mode on lock (opt-in, disables all radios)",
+        "translatedContent": "- ✈️ **Mode Avion** - Activer le mode avion au verrouillage (optionnel, désactive toutes les radios)"
+      },
+      {
+        "row": 38,
+        "rowsha": "1Ttna/9a6ekSvKQTkB1SoauybIZ1Qpm+tMIHI+Aw3Fs=",
+        "originContent": "- 🔋 **Battery Saver** - Enable battery saver mode on lock (opt-in)",
+        "translatedContent": "- 🔋 **Économie de batterie** - Activer le mode économie de batterie au verrouillage (optionnel)"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "gyjPMFyHTvPUMtJgGi9zwMOvufEQNg9xXea+S01xgjs=",
+        "originContent": "### **Advanced Features**",
+        "translatedContent": "### **Fonctions avancées**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- **Smart Disable Options**:\n  - **\"Only if unused/not connected\"** - Don't disable WiFi, Bluetooth, or Location if actively in use\n  - **\"Only if not already enabled\"** - Prevent connection resets by not re-enabling features that are already on\n  - **\"Only if not manually set\"** - Respect manually enabled protection modes on unlock\n\n- **App Exemptions** - Exclude specific apps from privacy actions when in foreground\n- **Samsung NFC Auto-Retry** - Opt-in feature to combat Samsung payment framework NFC override (for Galaxy S, Note, Z series)\n- **Accessibility Service** - Experimental support for side/power button instant-lock (opt-in, requires Accessibility permission)\n- **Advanced Detection** - Multi-tier Bluetooth connection detection prevents unwanted headphone disconnects\n\n### **Customizable Timing**\n- **Lock Delay**: 0-60 seconds (granular), 2 minutes, or 5 minutes before privacy actions trigger\n- **Unlock Delay**: 0-60 seconds (granular), 2 minutes, or 5 minutes before features are restored\n- **Instant Mode**: Set delays to 0 for immediate action\n- **Note**: Camera and microphone ignore custom delays and trigger immediately, due to Android limitations\n\n## 📱 Requirements\n\n**Minimum:** Android 7.0+ (API level 24)\n**Camera/Microphone Features:** Android 12+ (API level 31)\n\n**Choose your privilege method:**\n\n### **Option 1: Shizuku** (No root required!)\n- **Shizuku** app installed and running\n- **ADB privileges** via USB debugging or wireless ADB\n- **No root required** - works with ADB-level permissions\n\n### **Option 2: Root Access** (Recommended for rooted devices)\n- **Root access** via Magisk, SuperSU, or similar\n- **Best performance** with UID 0 privileges\n\n### **Option 3: Dhizuku** (Device Owner method)\n- **Device Owner** or **Profile Owner** status\n- **No root required**, no ADB needed after initial setup\n- **Persistent privileges** - survives reboots\n- **Best for**: Enterprise devices, work profiles, privacy-focused setups\n\n### **Option 4: Sui** (Best of both worlds)\n- **Rooted device** with Magisk installed",
+    "ContentSha": "PF0qYcIBGAnkYHMY9/dW2OGXIb6fbIfQ8E5I9wqIk0c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **Options de désactivation intelligente** :\n  - **« Seulement si inutilisé/non connecté »** - Ne désactivez pas le WiFi, Bluetooth ou la localisation s’ils sont activement utilisés\n  - **« Seulement si non déjà activé »** - Évitez les réinitialisations de connexion en ne réactivant pas les fonctionnalités déjà activées\n  - **« Seulement si non configuré manuellement »** - Respectez les modes de protection activés manuellement lors du déverrouillage\n\n- **Exemptions d’applications** - Excluez des applications spécifiques des actions de confidentialité lorsqu’elles sont au premier plan\n- **Réessai automatique NFC Samsung** - Fonctionnalité optionnelle pour contrer la substitution NFC du système de paiement Samsung (pour les séries Galaxy S, Note, Z)\n- **Service d’accessibilité** - Support expérimental pour verrouillage instantané via bouton latéral/power (optionnel, nécessite la permission d’accessibilité)\n- **Détection avancée** - Détection multi-niveaux des connexions Bluetooth pour éviter les déconnexions indésirables des casques\n\n### **Temporisation personnalisable**\n- **Délai de verrouillage** : 0-60 secondes (granulaire), 2 minutes, ou 5 minutes avant le déclenchement des actions de confidentialité\n- **Délai de déverrouillage** : 0-60 secondes (granulaire), 2 minutes, ou 5 minutes avant la restauration des fonctionnalités\n- **Mode instantané** : Réglez les délais à 0 pour une action immédiate\n- **Note** : Caméra et microphone ignorent les délais personnalisés et se déclenchent immédiatement, en raison des limitations d’Android\n\n## 📱 Exigences\n\n**Minimum :** Android 7.0+ (niveau API 24)  \n**Fonctionnalités Caméra/Microphone :** Android 12+ (niveau API 31)\n\n**Choisissez votre méthode de privilège :**\n\n### **Option 1 : Shizuku** (Pas besoin de root !)  \n- Application **Shizuku** installée et active  \n- **Privilèges ADB** via débogage USB ou ADB sans fil  \n- **Pas de root nécessaire** - fonctionne avec les permissions au niveau ADB\n\n### **Option 2 : Accès Root** (Recommandé pour appareils rootés)  \n- **Accès root** via Magisk, SuperSU ou équivalent  \n- **Meilleure performance** avec privilèges UID 0\n\n### **Option 3 : Dhizuku** (Méthode Device Owner)  \n- Statut **Device Owner** ou **Profile Owner**  \n- **Pas de root nécessaire**, ni ADB après la configuration initiale  \n- **Privilèges persistants** - survit aux redémarrages  \n- **Idéal pour** : appareils d’entreprise, profils professionnels, configurations axées sur la confidentialité\n\n### **Option 4 : Sui** (Le meilleur des deux mondes)  \n- Appareil **rooté** avec Magisk installé",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EQv+YFsS3OWqhlEf3Hw8fRY//WlPOsqGbCgkmPD4HPA=",
+        "originContent": "- **Smart Disable Options**:",
+        "translatedContent": "- **Options de désactivation intelligente** :"
+      },
+      {
+        "row": 2,
+        "rowsha": "bLEhMoFbB3HnEb4UnoJMkW76i/i7Y262YM/EFBlQjCc=",
+        "originContent": "  - **\"Only if unused/not connected\"** - Don't disable WiFi, Bluetooth, or Location if actively in use",
+        "translatedContent": "  - **« Seulement si inutilisé/non connecté »** - Ne désactivez pas le WiFi, Bluetooth ou la localisation s’ils sont activement utilisés"
+      },
+      {
+        "row": 3,
+        "rowsha": "9cWuarRZjlN0U3qbnj+KroCstk/eUfTVp/XObwKBSIY=",
+        "originContent": "  - **\"Only if not already enabled\"** - Prevent connection resets by not re-enabling features that are already on",
+        "translatedContent": "  - **« Seulement si non déjà activé »** - Évitez les réinitialisations de connexion en ne réactivant pas les fonctionnalités déjà activées"
+      },
+      {
+        "row": 4,
+        "rowsha": "OhTBKdx9JUtfRDmBoIwdkU3OLKZKjdeCAeveqdEtDKc=",
+        "originContent": "  - **\"Only if not manually set\"** - Respect manually enabled protection modes on unlock",
+        "translatedContent": "  - **« Seulement si non configuré manuellement »** - Respectez les modes de protection activés manuellement lors du déverrouillage"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "pHuggA3FoxXeqL5MfyQnOQBmG7rN/T538+gONOs2HZo=",
+        "originContent": "- **App Exemptions** - Exclude specific apps from privacy actions when in foreground",
+        "translatedContent": "- **Exemptions d’applications** - Excluez des applications spécifiques des actions de confidentialité lorsqu’elles sont au premier plan"
+      },
+      {
+        "row": 7,
+        "rowsha": "anPN43uPZ909GKBTcF7jpQ2kMMWIuOrwC8cFN27jbBM=",
+        "originContent": "- **Samsung NFC Auto-Retry** - Opt-in feature to combat Samsung payment framework NFC override (for Galaxy S, Note, Z series)",
+        "translatedContent": "- **Réessai automatique NFC Samsung** - Fonctionnalité optionnelle pour contrer la substitution NFC du système de paiement Samsung (pour les séries Galaxy S, Note, Z)"
+      },
+      {
+        "row": 8,
+        "rowsha": "XVwKhyzBPTOp0S1bjqIDN9rIgxfaiqF6q0IPl+q4Rrw=",
+        "originContent": "- **Accessibility Service** - Experimental support for side/power button instant-lock (opt-in, requires Accessibility permission)",
+        "translatedContent": "- **Service d’accessibilité** - Support expérimental pour verrouillage instantané via bouton latéral/power (optionnel, nécessite la permission d’accessibilité)"
+      },
+      {
+        "row": 9,
+        "rowsha": "+xR5esnf/GEz47WnoQmlr/BM5GQRhg1kvRP9M6YOSQ0=",
+        "originContent": "- **Advanced Detection** - Multi-tier Bluetooth connection detection prevents unwanted headphone disconnects",
+        "translatedContent": "- **Détection avancée** - Détection multi-niveaux des connexions Bluetooth pour éviter les déconnexions indésirables des casques"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "gi4SCIgExunbgT2ZNExlKAPvzSncCC8d53VZUPWOCpg=",
+        "originContent": "### **Customizable Timing**",
+        "translatedContent": "### **Temporisation personnalisable**"
+      },
+      {
+        "row": 12,
+        "rowsha": "vJaY3DHELtrQbdgKDvyCPBeULK2FvQJ1Jf3AD97DYak=",
+        "originContent": "- **Lock Delay**: 0-60 seconds (granular), 2 minutes, or 5 minutes before privacy actions trigger",
+        "translatedContent": "- **Délai de verrouillage** : 0-60 secondes (granulaire), 2 minutes, ou 5 minutes avant le déclenchement des actions de confidentialité"
+      },
+      {
+        "row": 13,
+        "rowsha": "kNi43l5Xhn1EZ1Q551Y4fVmJP44O8w+oSNGMYs2D4j0=",
+        "originContent": "- **Unlock Delay**: 0-60 seconds (granular), 2 minutes, or 5 minutes before features are restored",
+        "translatedContent": "- **Délai de déverrouillage** : 0-60 secondes (granulaire), 2 minutes, ou 5 minutes avant la restauration des fonctionnalités"
+      },
+      {
+        "row": 14,
+        "rowsha": "zHIipN5BoVrJHT5pUI1KAVJhsYORHlv0sD2cs9Fd8w8=",
+        "originContent": "- **Instant Mode**: Set delays to 0 for immediate action",
+        "translatedContent": "- **Mode instantané** : Réglez les délais à 0 pour une action immédiate"
+      },
+      {
+        "row": 15,
+        "rowsha": "xWLnGN1chHa8mPfBDR7lj2f77WZx9Lads6A+lIJGuFA=",
+        "originContent": "- **Note**: Camera and microphone ignore custom delays and trigger immediately, due to Android limitations",
+        "translatedContent": "- **Note** : Caméra et microphone ignorent les délais personnalisés et se déclenchent immédiatement, en raison des limitations d’Android"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "WkE4hm/xsvkqaRmXlVrWRCFjctlfQuSzOlX6Pfi9DaY=",
+        "originContent": "## 📱 Requirements",
+        "translatedContent": "## 📱 Exigences"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "gQMloe8LaMoUTupK+YsoKZlCgHEk81PQbCruLPceiNU=",
+        "originContent": "**Minimum:** Android 7.0+ (API level 24)",
+        "translatedContent": "**Minimum :** Android 7.0+ (niveau API 24)  "
+      },
+      {
+        "row": 20,
+        "rowsha": "I7bqynLYxkzPs54J4T6lQX+Pp7A8upsO60Z5qZ10p7w=",
+        "originContent": "**Camera/Microphone Features:** Android 12+ (API level 31)",
+        "translatedContent": "**Fonctionnalités Caméra/Microphone :** Android 12+ (niveau API 31)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "ARlhMkdRw4b+2wiI7UREB0olk/ZiAykv+Tna4KmC6+M=",
+        "originContent": "**Choose your privilege method:**",
+        "translatedContent": "**Choisissez votre méthode de privilège :**"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "OtmRAX4YjZe0IhyqC2hF5+BFEo1AzyaaakMYqGmxWeE=",
+        "originContent": "### **Option 1: Shizuku** (No root required!)",
+        "translatedContent": "### **Option 1 : Shizuku** (Pas besoin de root !)  "
+      },
+      {
+        "row": 25,
+        "rowsha": "eQuHsJmXoK+kY5WmOVC1KwQFu9qVQFmG6GljRIN/JAc=",
+        "originContent": "- **Shizuku** app installed and running",
+        "translatedContent": "- Application **Shizuku** installée et active  "
+      },
+      {
+        "row": 26,
+        "rowsha": "AMw3Jg3KpxQ6FY6pVMsC+u6LwBMDQwP2QOMLpzNAwOA=",
+        "originContent": "- **ADB privileges** via USB debugging or wireless ADB",
+        "translatedContent": "- **Privilèges ADB** via débogage USB ou ADB sans fil  "
+      },
+      {
+        "row": 27,
+        "rowsha": "YjHruHCI4baP9XSwMO7WYqGqL0EQDs9fOImCJN2Phd8=",
+        "originContent": "- **No root required** - works with ADB-level permissions",
+        "translatedContent": "- **Pas de root nécessaire** - fonctionne avec les permissions au niveau ADB"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "cmzu4hvLZtUgKQtxcCmezpu75yZJWNBdYRhWCJA0hhs=",
+        "originContent": "### **Option 2: Root Access** (Recommended for rooted devices)",
+        "translatedContent": "### **Option 2 : Accès Root** (Recommandé pour appareils rootés)  "
+      },
+      {
+        "row": 30,
+        "rowsha": "DnaCfb2NGYuUtAslldo6UEUR2U/r7YgUlfd/vheb6qs=",
+        "originContent": "- **Root access** via Magisk, SuperSU, or similar",
+        "translatedContent": "- **Accès root** via Magisk, SuperSU ou équivalent  "
+      },
+      {
+        "row": 31,
+        "rowsha": "gxazUGV+s/N1+ARhzBC8VltyqMFTfPxr+I0mZgV3zxQ=",
+        "originContent": "- **Best performance** with UID 0 privileges",
+        "translatedContent": "- **Meilleure performance** avec privilèges UID 0"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "0aF/6MD5iGGQBp0vaX4OB533zMpFKYNFuvd/I/zmY0I=",
+        "originContent": "### **Option 3: Dhizuku** (Device Owner method)",
+        "translatedContent": "### **Option 3 : Dhizuku** (Méthode Device Owner)  "
+      },
+      {
+        "row": 34,
+        "rowsha": "Yc6Jr3X3dMr6UJNtKQP6szIMmXsNchpCbJQmhf4xAPk=",
+        "originContent": "- **Device Owner** or **Profile Owner** status",
+        "translatedContent": "- Statut **Device Owner** ou **Profile Owner**  "
+      },
+      {
+        "row": 35,
+        "rowsha": "L3oHzoLuG1Sdf96Tg4FB6336hXNjnCzxVB2k66wdmbs=",
+        "originContent": "- **No root required**, no ADB needed after initial setup",
+        "translatedContent": "- **Pas de root nécessaire**, ni ADB après la configuration initiale  "
+      },
+      {
+        "row": 36,
+        "rowsha": "LkESZdGVX5/5XzdxoTIU31nXZPP1KfC1isaP8eTvK3M=",
+        "originContent": "- **Persistent privileges** - survives reboots",
+        "translatedContent": "- **Privilèges persistants** - survit aux redémarrages  "
+      },
+      {
+        "row": 37,
+        "rowsha": "/yV5hW7slx+pvENAQwFK1lDwMNa0qcpdr8pA/6YnVfw=",
+        "originContent": "- **Best for**: Enterprise devices, work profiles, privacy-focused setups",
+        "translatedContent": "- **Idéal pour** : appareils d’entreprise, profils professionnels, configurations axées sur la confidentialité"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "MwxwSZU3Dwy5dLf2xl5nqc9qEcK1oUGoQgrUzsURoNA=",
+        "originContent": "### **Option 4: Sui** (Best of both worlds)",
+        "translatedContent": "### **Option 4 : Sui** (Le meilleur des deux mondes)  "
+      },
+      {
+        "row": 40,
+        "rowsha": "3thvnfdlOy62mOgL7t5Xq+jD3XAzRId20ghHKpKfP+M=",
+        "originContent": "- **Rooted device** with Magisk installed",
+        "translatedContent": "- Appareil **rooté** avec Magisk installé"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "- **Sui Magisk** module installed\n- **Best user experience** - no permission prompts, automatic startup\n\n### **Privilege Detection Priority**\n1. **Sui** - Magisk module providing Shizuku API with root (best UX)\n2. **Root** - Traditional root access via Magisk/SuperSU\n3. **Dhizuku** - Device Owner method (no root or ADB needed after setup)\n4. **Shizuku** - ADB privileges via Shizuku app\n\n## 🤝 Contributing\n\nHelp make this app better. No contribution is too small!\n\n### How to Contribute\n\n1. **Fork the repository**\n2. **Create a feature branch** (`git checkout -b feature/amazing-feature`)\n3. **Make your changes**\n4. **Commit your changes** (`git commit -m 'Add some amazing feature'`)\n5. **Push to the branch** (`git push origin feature/amazing-feature`)\n6. **Open a Pull Request**\n\nAll contributions are **valued** and **appreciated**!\n\n## 📄 License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n## 💖 Support Development\n\nPrivacyFlip protects your privacy. You can protect its future!\n\n[![DONATE](https://img.shields.io/badge/DONATE-FFD700?style=for-the-badge&logoColor=white)](https://buymeacoffee.com/ossdev)\n\n---\n\n*Late nights for brighter days*\n\nCreated by Doru Moraru\n",
+    "ContentSha": "hva1vcfPmVU7B6kuo0INTVaXT1OjAY/FrKocM3eMBtg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Module **Sui Magisk** installé  \n- **Meilleure expérience utilisateur** - pas de demandes d'autorisation, démarrage automatique  \n\n### **Priorité de détection des privilèges**  \n1. **Sui** - Module Magisk fournissant l'API Shizuku avec root (meilleure UX)  \n2. **Root** - Accès root traditionnel via Magisk/SuperSU  \n3. **Dhizuku** - Méthode Device Owner (pas de root ni ADB nécessaire après configuration)  \n4. **Shizuku** - Privilèges ADB via l'application Shizuku  \n\n## 🤝 Contribution  \n\nAidez à améliorer cette application. Aucune contribution n'est trop petite !  \n\n### Comment contribuer  \n\n1. **Forkez le dépôt**  \n2. **Créez une branche de fonctionnalité** (`git checkout -b feature/amazing-feature`)  \n3. **Faites vos modifications**  \n4. **Validez vos modifications** (`git commit -m 'Add some amazing feature'`)  \n5. **Poussez la branche** (`git push origin feature/amazing-feature`)  \n6. **Ouvrez une Pull Request**  \n\nToutes les contributions sont **précieuses** et **appréciées** !  \n\n## 📄 Licence  \n\nCe projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.  \n\n## 💖 Soutenir le développement  \n\nPrivacyFlip protège votre vie privée. Vous pouvez protéger son avenir !  \n\n[![DONATE](https://img.shields.io/badge/DONATE-FFD700?style=for-the-badge&logoColor=white)](https://buymeacoffee.com/ossdev)  \n\n---  \n\n*Des nuits tardives pour des jours plus lumineux*  \n\nCréé par Doru Moraru  \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dqwIJ8Od1dudyWrcAsyuf8dCWm9b+WtDNv9AYTgIZoI=",
+        "originContent": "- **Sui Magisk** module installed",
+        "translatedContent": "- Module **Sui Magisk** installé  "
+      },
+      {
+        "row": 2,
+        "rowsha": "P/RnfZFBuhGTEiC8+eMoirnGhX0+EDqOxePygS2d0IU=",
+        "originContent": "- **Best user experience** - no permission prompts, automatic startup",
+        "translatedContent": "- **Meilleure expérience utilisateur** - pas de demandes d'autorisation, démarrage automatique  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "q5JjHMmHSh4PjQZjB47hBn0D7L6u22GYpIW5Dwtmv0E=",
+        "originContent": "### **Privilege Detection Priority**",
+        "translatedContent": "### **Priorité de détection des privilèges**  "
+      },
+      {
+        "row": 5,
+        "rowsha": "xjMFtYQgodVOb+mtRXobQTP8ca+VEjYhtawrCNVYNzo=",
+        "originContent": "1. **Sui** - Magisk module providing Shizuku API with root (best UX)",
+        "translatedContent": "1. **Sui** - Module Magisk fournissant l'API Shizuku avec root (meilleure UX)  "
+      },
+      {
+        "row": 6,
+        "rowsha": "BifBBtcmPZ88RJ10XeLyGp4S3QpCpnXdjjZBSqHtv0c=",
+        "originContent": "2. **Root** - Traditional root access via Magisk/SuperSU",
+        "translatedContent": "2. **Root** - Accès root traditionnel via Magisk/SuperSU  "
+      },
+      {
+        "row": 7,
+        "rowsha": "yvkQTYx9JnAw1rl/t79VdbXwzhEDWIYvONo1ZjVXLCM=",
+        "originContent": "3. **Dhizuku** - Device Owner method (no root or ADB needed after setup)",
+        "translatedContent": "3. **Dhizuku** - Méthode Device Owner (pas de root ni ADB nécessaire après configuration)  "
+      },
+      {
+        "row": 8,
+        "rowsha": "RsabOyEF7HP8pjp6pyrq2IIcueF2Shqea2gfkq7xGvo=",
+        "originContent": "4. **Shizuku** - ADB privileges via Shizuku app",
+        "translatedContent": "4. **Shizuku** - Privilèges ADB via l'application Shizuku  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+        "originContent": "## 🤝 Contributing",
+        "translatedContent": "## 🤝 Contribution  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "qI5QBSahVi2SPTEPV+6mubQPu9RIp08+3vAfeNz6t4U=",
+        "originContent": "Help make this app better. No contribution is too small!",
+        "translatedContent": "Aidez à améliorer cette application. Aucune contribution n'est trop petite !  "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "ID+ZnuZhx4a5jSLd5PCH7vVnt9VUwvTD8P6YyoTaE/0=",
+        "originContent": "### How to Contribute",
+        "translatedContent": "### Comment contribuer  "
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "ADms+LkkX43QVevy27GoluYNNlZYJOTac9wbBE5ELCk=",
+        "originContent": "1. **Fork the repository**",
+        "translatedContent": "1. **Forkez le dépôt**  "
+      },
+      {
+        "row": 17,
+        "rowsha": "EDbiCt3r1SPbTJWAMS4YLQsQftYXEC607acUH3NF7tk=",
+        "originContent": "2. **Create a feature branch** (`git checkout -b feature/amazing-feature`)",
+        "translatedContent": "2. **Créez une branche de fonctionnalité** (`git checkout -b feature/amazing-feature`)  "
+      },
+      {
+        "row": 18,
+        "rowsha": "QD8dlY1H7TUL/HaJjhGOF+NWSG4ID9Pl4HUYPBMFZnU=",
+        "originContent": "3. **Make your changes**",
+        "translatedContent": "3. **Faites vos modifications**  "
+      },
+      {
+        "row": 19,
+        "rowsha": "gZT/LwGcFWUA/G9UoHftYJuqVsYVY98iKxN8qKXLbvI=",
+        "originContent": "4. **Commit your changes** (`git commit -m 'Add some amazing feature'`)",
+        "translatedContent": "4. **Validez vos modifications** (`git commit -m 'Add some amazing feature'`)  "
+      },
+      {
+        "row": 20,
+        "rowsha": "3EoyswgnjCDGC2nr+qvOghh4AC0l/4P8SedJ1hP/+5A=",
+        "originContent": "5. **Push to the branch** (`git push origin feature/amazing-feature`)",
+        "translatedContent": "5. **Poussez la branche** (`git push origin feature/amazing-feature`)  "
+      },
+      {
+        "row": 21,
+        "rowsha": "1CB6+kmuQc6H5zXPkVz7ayn233Am2T+RiwPwvtLz4uw=",
+        "originContent": "6. **Open a Pull Request**",
+        "translatedContent": "6. **Ouvrez une Pull Request**  "
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "/FINa9kaibHDUastT7P7SlBJopJuHXLEBSpJThrBQTg=",
+        "originContent": "All contributions are **valued** and **appreciated**!",
+        "translatedContent": "Toutes les contributions sont **précieuses** et **appréciées** !  "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
+        "originContent": "## 📄 License",
+        "translatedContent": "## 📄 Licence  "
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "fOZgQLjSABDxHjJbYQ1wqD20ynEX33m+IkBDktyXUqY=",
+        "originContent": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.",
+        "translatedContent": "Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.  "
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "wCcERrv/qYZJ9T80PrT6QPOWkjzONwGLE1kqE8dY9eA=",
+        "originContent": "## 💖 Support Development",
+        "translatedContent": "## 💖 Soutenir le développement  "
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "kH5shBVN+5aoFxojw2pACMozFkNZJQC0ZkDG/tNCWuU=",
+        "originContent": "PrivacyFlip protects your privacy. You can protect its future!",
+        "translatedContent": "PrivacyFlip protège votre vie privée. Vous pouvez protéger son avenir !  "
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "iAllHBWh0zj77m1ZeYdYVPYorXqCvpGT+cwhm2cS2Jw=",
+        "originContent": "[![DONATE](https://img.shields.io/badge/DONATE-FFD700?style=for-the-badge&logoColor=white)](https://buymeacoffee.com/ossdev)",
+        "translatedContent": "[![DONATE](https://img.shields.io/badge/DONATE-FFD700?style=for-the-badge&logoColor=white)](https://buymeacoffee.com/ossdev)  "
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---  "
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "11bm/7LRdOJWzwdoo+xsdE7P40/REi+MWAg/Hay0qN8=",
+        "originContent": "*Late nights for brighter days*",
+        "translatedContent": "*Des nuits tardives pour des jours plus lumineux*  "
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "8F11/rJVt/HuMEnKeiZ3qd8JPHKiFC+WMtlf6zL02lY=",
+        "originContent": "Created by Doru Moraru",
+        "translatedContent": "Créé par Doru Moraru  "
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

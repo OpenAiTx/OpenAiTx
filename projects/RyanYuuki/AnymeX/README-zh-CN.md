@@ -47,26 +47,26 @@
 <a href="https://trendshift.io/repositories/12529" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12529" alt="RyanYuuki%2FAnymeX | Trendshift" style="width: 250px; height: 27.99px;" width="250" height="55"/></a>
 </div>
 
-# AnymeX：多服务追番客户端
+# AnymeX：多服务追踪客户端
 
-**AnymeX** 是一款专为管理和追踪动漫及漫画进度而设计的多服务追番客户端，支持 [**AniList**](https://anilist.co/)、[**MyAnimeList**](https://myanimelist.net/) 和 [**Simkl**](https://simkl.com/)。
+**AnymeX** 是一款多服务追踪客户端，专为管理和追踪动漫及漫画在 [**AniList**](https://anilist.co/)、[**MyAnimeList**](https://myanimelist.net/) 和 [**Simkl**](https://simkl.com/) 的进度而设计。
 
 > [!重要]  
-> **AnymeX 仅作为追踪工具。** 它不托管、提供、分发或支持任何流媒体内容、媒体或第三方扩展。  
+> **AnymeX 仅为追踪工具。** 它不托管、提供、分发或认可任何流媒体内容、媒体或第三方扩展。  
 >  
-> **用户责任：** 用户需自行负责如何使用本应用及与第三方服务或扩展的互动。用户必须遵守所有适用法律、版权及知识产权。  
+> **用户责任：** 用户对其使用本应用及所选择的第三方服务或扩展负全责。用户必须遵守所有适用法律、版权和知识产权。  
 >  
-> **免责声明：** AnymeX 的开发者对因用户行为导致的误用、法律问题或违规行为概不负责。法律相关事宜，包括 DMCA 投诉，应向相关第三方服务提出，而非 AnymeX。本应用按“原样”提供，不附带任何担保。  
+> **免责申明：** AnymeX 的开发者对因用户行为产生的误用、法律问题或违规行为不承担任何责任。法律问题，包括 DMCA 投诉，应直接联系相关第三方服务，而非 AnymeX。本应用按“现状”提供，无任何担保。  
 >  
-> **服务说明：** AnymeX 仅集成支持服务（AniList、MyAnimeList、Simkl）的官方 API。第三方扩展由其开发者负责，与 AnymeX 开发者无关。  
+> **服务：** AnymeX 仅集成受支持服务（AniList、MyAnimeList、Simkl）的官方 API。第三方扩展由其创作者负责，与 AnymeX 开发者无关。  
 >  
-> **使用 AnymeX 即表示您同意遵守我们的[服务条款](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md)。请查阅服务条款，了解我们的 DMCA 合规追踪功能及与 AniList、MyAnimeList、Simkl 以外内容和服务无关的声明。**
+> **使用 AnymeX 即表示您同意遵守我们的[服务条款](https://raw.githubusercontent.com/RyanYuuki/AnymeX/main/./TOS.md)。请查阅服务条款，了解我们的 DMCA 合规追踪功能，以及我们对 AniList、MyAnimeList 和 Simkl 以外内容或服务的非参与立场。**
 
 ## 下载
 
 <div align="center">
   <p>
-    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a> <a href="https://github.com/Shebyyy/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/Shebyyy/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Beta" alt="Latest Beta Release"/></a>
+    <a href="https://github.com/RyanYuuki/AnymeX/releases/latest"><img src="https://img.shields.io/github/v/release/RyanYuuki/AnymeX?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Stable" alt="Latest Stable Release"/></a> <a href="https://github.com/Shebyyy/AnymeX-Preview/releases/latest"><img src="https://img.shields.io/github/v/release/Shebyyy/AnymeX-Preview?color=white&labelColor=black&display_name=tag&style=for-the-badge&label=Beta" alt="Latest Beta Release"/></a>
   </p>
   
 ### Windows
@@ -163,6 +163,6 @@ AnymeX 采用 MIT 许可证授权。更多信息可在[此处](https://raw.githu
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-17
 
 ---
