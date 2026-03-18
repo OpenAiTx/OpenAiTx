@@ -29,12 +29,12 @@
   </details>
 </div>
 
-# Nothing but Nix
+# Rien que Nix
 
-**Transformez votre runner GitHub Actions en une centrale [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ en supprimant sans pitié les logiciels préinstallés superflus.**
+**Transformez votre runner GitHub Actions en une centrale [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ en éliminant impitoyablement les logiciels préinstallés inutiles.**
 
-Les runners GitHub Actions offrent très peu d’espace disque pour Nix – à peine ~20 Go.
-*Nothing but Nix* **purge radicalement** les logiciels inutiles, vous offrant **65 Go à 130 Go** pour votre store Nix ! 💪
+Les runners GitHub Actions offrent peu d’espace disque pour Nix - à peine ~20GB.
+*Rien que Nix* **purge sans pitié** les logiciels superflus, vous offrant **65GB à 130GB** pour votre magasin Nix ! 💪
 
 ## Utilisation 🔧
 
@@ -61,60 +61,62 @@ jobs:
 ### Exigences ️✔️
 
 - Prend uniquement en charge les runners GitHub Actions officiels **Ubuntu**
-- Doit s'exécuter **avant** l'installation de Nix
+- Doit être exécuté **avant** l'installation de Nix
+- **Runners macOS/Darwin** : Cette action sera ignorée proprement avec un avertissement si elle est lancée sur macOS. Les runners macOS fournissent déjà suffisamment d'espace pour Nix et n'ont pas besoin de cette action
+- **Runners Windows** : Cette action sera ignorée proprement avec un avertissement si elle est lancée sur Windows. Les runners Windows ont des dispositions et des contraintes de système de fichiers différentes
 
-## Le problème : faire de la place pour que Nix prospère 🌱
+## Le problème : Faire de la place pour que Nix s’épanouisse 🌱
 
-Les runners GitHub Actions standards sont remplis de *"bloatware"* que vous n'utiliserez jamais dans un workflow Nix :
+Les runners GitHub Actions standards sont remplis de *"bloatware"* que vous n’utiliserez jamais dans un workflow Nix :
 
-- 🌍 Navigateurs web. Plein. Ils y sont tous !
-- 🐳 Images Docker consommant des gigaoctets d'espace disque précieux
-- 💻 Runtimes de langages inutiles (.NET, Ruby, PHP, Java...)
+- 🌍 Navigateurs web. Beaucoup d’entre eux. Il les faut tous !
+- 🐳 Images Docker consommant des gigaoctets d’espace disque précieux
+- 💻 Environnements d’exécution inutiles (.NET, Ruby, PHP, Java...)
 - 📦 Gestionnaires de paquets prenant la poussière numérique
 - 📚 Documentation que personne ne lira jamais
 
-Cette surcharge ne laisse qu'environ ~20 Go pour votre magasin Nix - à peine assez pour des builds Nix sérieux ! 😞
+Cette surcharge ne laisse qu’environ 20 Go pour votre store Nix — à peine assez pour des builds Nix sérieux ! 😞
 
-## La solution : Rien que Nix ️❄️
+## La solution : Que Nix et rien d’autre ️❄️
 
-**Rien que Nix** adopte une approche radicale sur les runners GitHub Actions et récupère sans pitié l'espace disque grâce à une attaque en deux phases :
+**Que Nix et rien d’autre** adopte une approche radicale sur les runners GitHub Actions et récupère sans pitié l’espace disque avec une attaque en deux phases :
 
-1. **Coupe initiale :** Crée instantanément un grand volume `/nix` (~65 Go) en réclamant l'espace libre de `/mnt`
-2. **Nettoyage en arrière-plan :** Pendant que votre workflow continue, nous éliminons impitoyablement les logiciels inutiles pour étendre votre volume `/nix` jusqu'à ~130 Go
+1. **Coup initial :** Crée instantanément un grand volume `/nix` (~65 Go) en récupérant l’espace libre de `/mnt`
+2. **Nettoyage en arrière-plan :** Pendant que votre workflow continue, nous éliminons sans relâche les logiciels inutiles pour étendre votre volume `/nix` jusqu’à ~130 Go
    - Navigateurs web ? Non ⛔
    - Images Docker ? Supprimées 🗑️
-   - Runtimes de langages ? Anéantis 💥
-   - Gestionnaires de paquets ? Éradiqués 💣
+   - Environnements d’exécution ? Anéantis 💥
+   - Gestionnaires de paquets ? Annihilés 💣
    - Documentation ? Volatilisée ️👻
 
-Le nettoyage du système de fichiers est propulsé par `rmz` (du projet [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc)) - une alternative haute performance à `rm` qui accélère la libération d'espace ! ⚡
-   - Surpasse le `rm` standard d'un ordre de grandeur
-   - Supprime en parallèle pour une efficacité maximale
-   - **Récupère l'espace disque en quelques secondes au lieu de minutes !** ️⏱️
+La purge du système de fichiers est alimentée par `rmz` (du projet [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc)) — une alternative haute performance à `rm` qui accélère la récupération d’espace ! ⚡
+   - Surpasse le `rm` standard d’un ordre de grandeur
+   - Traite les suppressions en parallèle pour une efficacité maximale
+   - **Récupère l’espace disque en quelques secondes au lieu de minutes !** ️⏱️
 
-Le résultat final ? Un runner GitHub Actions avec **65 Go à 130 Go** d'espace prêt pour Nix ! 😁
+Le résultat final ? Un runner GitHub Actions avec **65 Go à 130 Go** d’espace prêt pour Nix ! 😁
 
-### Croissance dynamique du volume
+### Extension dynamique du volume
 
-Contrairement à d'autres solutions, **Rien que Nix** fait croître dynamiquement votre volume `/nix` :
+Contrairement aux autres solutions, **Nothing but Nix** fait évoluer dynamiquement votre volume `/nix` :
 
 1. **Création initiale du volume (1-10 secondes) :** (*selon le protocole Hatchet*)
-   - Crée un périphérique de boucle à partir de l'espace libre de `/mnt`
+   - Crée un périphérique loop à partir de l’espace libre sur `/mnt`
    - Met en place un système de fichiers BTRFS en configuration RAID0
    - Monte avec compression et optimisation des performances
-   - Fournit un `/nix` de 65 Go immédiatement, même avant le début du nettoyage
+   - Fournit immédiatement un `/nix` de 65 Go, même avant le début de la purge
 
-2. **Expansion en arrière-plan (30-180 secondes) :** (*selon le protocole Hatchet*)
-   - Lance les opérations de purge
-   - Surveille l'espace libéré au fur et à mesure que la surcharge est éliminée
-   - Ajoute dynamiquement un disque d'expansion au volume `/nix`
-   - Rééquilibre le système de fichiers pour intégrer le nouvel espace
+2. **Extension en arrière-plan (30-180 secondes) :** (*selon le protocole Hatchet*)
+   - Exécute les opérations de purge
+   - Surveille l’espace nouvellement libéré à mesure que l’encombrement est éliminé
+   - Ajoute dynamiquement un disque d’extension au volume `/nix`
+   - Rééquilibre le système de fichiers pour incorporer le nouvel espace
 
-Le volume `/nix` **s'agrandit automatiquement pendant l'exécution du workflow** 🎩🪄
+Le volume `/nix` **grandit automatiquement pendant l’exécution du flux de travail** 🎩🪄
 
-### Choisissez votre arme : Le protocole Hatchet 🪓
+### Choisissez votre arme : le protocole Hatchet 🪓
 
-Contrôlez le niveau d'annihilation 💥 avec l'entrée `hatchet-protocol` :
+Contrôlez le niveau d’anéantissement 💥 avec l’entrée `hatchet-protocol` :
 
 ```yaml
 - uses: wimpysworld/nothing-but-nix@main
@@ -176,12 +178,55 @@ Certains installateurs ou configurations Nix attendent que le répertoire `/nix`
     nix-permission-edict: true  # Default: false
 ```
 
-Lorsque `nix-permission-edict` est défini sur `true`, l’action exécutera `sudo chown -R "$(id --user)":"$(id --group)" /nix` après avoir monté `/nix`.
+Lorsque `nix-permission-edict` est défini sur `true`, l’action exécutera `sudo chown -R "$(id --user)":"$(id --group)" /nix` après le montage de `/nix`.
 
-Allez maintenant construire quelque chose d’incroyable avec tout cet espace glorieux du store Nix ! ❄️
+### Configurer Nix pour utiliser /nix/build
+
+Cette action crée `/nix/build` pour que les constructions de dérivations Nix utilisent l’espace récupéré. Ajoutez `build-dir` à votre configuration Nix :
+
+```yaml
+- uses: cachix/install-nix-action@v31
+  with:
+    extra_nix_config: |
+      build-dir = /nix/build
+```
+
+Ou avec DeterminateSystems :
+
+```yaml
+- uses: DeterminateSystems/nix-installer-action@main
+  with:
+    extra-conf: |
+      build-dir = /nix/build
+```
+
+Cela indique à Nix d'effectuer les compilations sur le grand volume BTRFS plutôt que sur le répertoire temporaire par défaut du système.
+
+## Dépannage 🔍
+
+### "Plus d'espace disponible sur le périphérique" lors de grandes compilations
+
+Si votre compilation manque d'espace malgré l'utilisation exclusive de Nix, c'est probablement parce que la purge en arrière-plan n'a pas terminé avant que votre compilation consomme l'espace disponible. Cela affecte souvent :
+
+- Les tests VM NixOS qui assemblent de grandes images disque
+- Les compilations avec de nombreuses dépendances non mises en cache
+- Les chaînes d'outils Rust et autres grandes compilations
+
+**Solution :** Utilisez `witness-carnage: true` pour forcer une purge synchrone. Cela garantit que tout l'espace est récupéré *avant* le démarrage de votre compilation :
+
+```yaml
+- uses: wimpysworld/nothing-but-nix@main
+  with:
+    hatchet-protocol: 'rampage'
+    witness-carnage: true
+```
+Cela ajoute 30 à 180 secondes à la configuration de votre workflow, mais garantit que l'espace maximal est disponible lorsque votre build commence.
+
+Allez maintenant créer quelque chose d'incroyable avec tout cet espace glorieux du Nix store ! ❄️
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-18
 
 ---

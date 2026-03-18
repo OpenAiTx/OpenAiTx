@@ -1,0 +1,734 @@
+[
+  {
+    "Id": 1,
+    "Content": "# mdfried\n\n`mdfried` is a markdown viewer for the terminal that renders headers as **Bigger Text** than the\nrest.\n\n## Screenshots\n\n![Screenshot](https://raw.githubusercontent.com/benjajaja/mdfried/master/./assets/screenshot_1.png)\n\n[Latest test screenshot array from `master`](https://benjajaja.github.io/mdfried-screenshots/)\n\n## Video\n\nhttps://github.com/user-attachments/assets/e69154a7-bea8-4e14-a677-be7ccf0d3cac\n\n# Why?\n\nYou can *[cook](https://ratatui.rs/)* a terminal. But can you **deep fry** a terminal?\n*YES!* You can **cook *and* fry** your `tty`! ~~Run before it's too late!~~\n\n> The terminal is usually in \"cooked\" mode, or canonical mode.\n> With `ratatui`🐁, it's in raw mode, but it \"cooks\" for you.\n\nMarkdown can obviously be rendered pretty well in terminals, but one key aspect is missing: \nBig Headers™ make text more readable, and rendering images inline is very convenient.\n\n# How?\n\nBy rendering the headers as [images with ratatui](https://github.com/benjajaja/ratatui-image),\nand using one of several terminal graphics protocols: Sixels, Kitty, or iTerm2.\nThe Kitty terminal also implements a [Text Sizing Protocol](https://sw.kovidgoyal.net/kitty/text-sizing-protocol/)\nto directly scale text without needing to render as images!\n\nSee [ratatui-image](https://github.com/benjajaja/ratatui-image?tab=readme-ov-file#compatibility-matrix)\nto see if your terminal does even have graphics support, and for further details.\n\nIn general, Kitty, WezTerm, iTerm2, Ghostty, Foot, `xterm -ti vt340`, *should* work.\n\nOn terminals without graphics whatsoever, like Alactritty, images are rendered with Chafa.\n",
+    "ContentSha": "q3+kmCDK+MenFkEYkNCipi+5h2UIywuLJ7jyguVKAnQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# mdfried\n\n`mdfried` est un visualiseur markdown pour le terminal qui rend les en-têtes en **Texte Plus Gros** que le\nreste.\n\n## Captures d'écran\n\n![Capture d'écran](https://raw.githubusercontent.com/benjajaja/mdfried/master/./assets/screenshot_1.png)\n\n[Dernier tableau de captures d'écran de test depuis `master`](https://benjajaja.github.io/mdfried-screenshots/)\n\n## Vidéo\n\nhttps://github.com/user-attachments/assets/e69154a7-bea8-4e14-a677-be7ccf0d3cac\n\n# Pourquoi ?\n\nVous pouvez *[cuisiner](https://ratatui.rs/)* un terminal. Mais pouvez-vous **frire profondément** un terminal ?\n*OUI !* Vous pouvez **cuisiner *et* frire** votre `tty` ! ~~Courez avant qu'il ne soit trop tard !~~\n\n> Le terminal est généralement en mode \"cuit\", ou mode canonique.\n> Avec `ratatui`🐁, il est en mode brut, mais il \"cuit\" pour vous.\n\nLe markdown peut évidemment être rendu assez bien dans les terminaux, mais un aspect clé manque : \nLes Gros En-têtes™ rendent le texte plus lisible, et afficher les images en ligne est très pratique.\n\n# Comment ?\n\nEn rendant les en-têtes comme [images avec ratatui](https://github.com/benjajaja/ratatui-image),\net en utilisant l’un des plusieurs protocoles graphiques pour terminaux : Sixels, Kitty, ou iTerm2.\nLe terminal Kitty implémente aussi un [protocole de redimensionnement de texte](https://sw.kovidgoyal.net/kitty/text-sizing-protocol/)\npour agrandir directement le texte sans avoir besoin de le rendre en images !\n\nVoir [ratatui-image](https://github.com/benjajaja/ratatui-image?tab=readme-ov-file#compatibility-matrix)\npour vérifier si votre terminal supporte les graphiques, et pour plus de détails.\n\nEn général, Kitty, WezTerm, iTerm2, Ghostty, Foot, `xterm -ti vt340`, *devraient* fonctionner.\n\nSur les terminaux sans aucun support graphique, comme Alacritty, les images sont rendues avec Chafa.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oTkz4sMhaSUCCXmKqwbgPFcTCUP7boSICToJO7R1e/k=",
+        "originContent": "# mdfried",
+        "translatedContent": "# mdfried"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "1pfrF2Yt8zMt6nMFhea2alBJoxOr+0gKMD0xhb7PK7E=",
+        "originContent": "`mdfried` is a markdown viewer for the terminal that renders headers as **Bigger Text** than the",
+        "translatedContent": "`mdfried` est un visualiseur markdown pour le terminal qui rend les en-têtes en **Texte Plus Gros** que le"
+      },
+      {
+        "row": 4,
+        "rowsha": "/w85CV9rUlGaIfD3GPdabtqIgLDddqPNHp+jZVXQ3PU=",
+        "originContent": "rest.",
+        "translatedContent": "reste."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "CrQ1XO/et1agLOmJnlaLYfcfQdvL77gCZWQqAUysVwM=",
+        "originContent": "## Screenshots",
+        "translatedContent": "## Captures d'écran"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "pEO/D3tIdX7YiGO9NTgcIidEyy2GnS+YYiMNhiLA+I0=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/benjajaja/mdfried/master/./assets/screenshot_1.png)",
+        "translatedContent": "![Capture d'écran](https://raw.githubusercontent.com/benjajaja/mdfried/master/./assets/screenshot_1.png)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "AWRKhjKQJizFXznbTT5M3iqvbEq3JwbBerJPGQNebrE=",
+        "originContent": "[Latest test screenshot array from `master`](https://benjajaja.github.io/mdfried-screenshots/)",
+        "translatedContent": "[Dernier tableau de captures d'écran de test depuis `master`](https://benjajaja.github.io/mdfried-screenshots/)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "CzwlXifKJgJ7as0aFWiTk2UxUXtwXbmyuLrPw2gnVXU=",
+        "originContent": "## Video",
+        "translatedContent": "## Vidéo"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "qAi7I21x1+4ObJKz3Zuw8l9gMEh+Ah+SWKOs5AeRexs=",
+        "originContent": "https://github.com/user-attachments/assets/e69154a7-bea8-4e14-a677-be7ccf0d3cac",
+        "translatedContent": "https://github.com/user-attachments/assets/e69154a7-bea8-4e14-a677-be7ccf0d3cac"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "dPuYXMG7AWCCGoq3Tp1LY698NvZ4LD6f8HK8TSNN0GA=",
+        "originContent": "# Why?",
+        "translatedContent": "# Pourquoi ?"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "yhLBExcsRwix4GJBJ9WPbLf9LJML/JW4r/sJtgaqAqk=",
+        "originContent": "You can *[cook](https://ratatui.rs/)* a terminal. But can you **deep fry** a terminal?",
+        "translatedContent": "Vous pouvez *[cuisiner](https://ratatui.rs/)* un terminal. Mais pouvez-vous **frire profondément** un terminal ?"
+      },
+      {
+        "row": 19,
+        "rowsha": "bQVWesJ/+dHxfz/g0f9oq9rokl18oXvw5jhw6Mc1pu8=",
+        "originContent": "*YES!* You can **cook *and* fry** your `tty`! ~~Run before it's too late!~~",
+        "translatedContent": "*OUI !* Vous pouvez **cuisiner *et* frire** votre `tty` ! ~~Courez avant qu'il ne soit trop tard !~~"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "MwkPX9odL3XKWrt6ToZ8CmFB1XjxwCxlt9tpHjT1bAE=",
+        "originContent": "> The terminal is usually in \"cooked\" mode, or canonical mode.",
+        "translatedContent": "> Le terminal est généralement en mode \"cuit\", ou mode canonique."
+      },
+      {
+        "row": 22,
+        "rowsha": "zxWa117Y7ugf+Sn5GN0r4nSd2/9PSKYheaiIxYTUkw4=",
+        "originContent": "> With `ratatui`🐁, it's in raw mode, but it \"cooks\" for you.",
+        "translatedContent": "> Avec `ratatui`🐁, il est en mode brut, mais il \"cuit\" pour vous."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "X1LB8VwpH/40hMKtvoPh8g381g0XYYF2Oi3NW3jAD/k=",
+        "originContent": "Markdown can obviously be rendered pretty well in terminals, but one key aspect is missing: ",
+        "translatedContent": "Le markdown peut évidemment être rendu assez bien dans les terminaux, mais un aspect clé manque : "
+      },
+      {
+        "row": 25,
+        "rowsha": "eJeDn3XSE/6QOA1eBFpj7tRBYt3admnj+NooLcL67ho=",
+        "originContent": "Big Headers™ make text more readable, and rendering images inline is very convenient.",
+        "translatedContent": "Les Gros En-têtes™ rendent le texte plus lisible, et afficher les images en ligne est très pratique."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "Ldy4IZ0hjDIq93mBPg/qGYRnytzJrIwpApkkJiaZhpY=",
+        "originContent": "# How?",
+        "translatedContent": "# Comment ?"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "QbeYBJJlHCWNzn7JwJ05fXkboz+a9vIMVb0izULCMK8=",
+        "originContent": "By rendering the headers as [images with ratatui](https://github.com/benjajaja/ratatui-image),",
+        "translatedContent": "En rendant les en-têtes comme [images avec ratatui](https://github.com/benjajaja/ratatui-image),"
+      },
+      {
+        "row": 30,
+        "rowsha": "6D60xRxkHtmOuZPfGKZxd/WENeBEWgFVcDfWlEVW3Is=",
+        "originContent": "and using one of several terminal graphics protocols: Sixels, Kitty, or iTerm2.",
+        "translatedContent": "et en utilisant l’un des plusieurs protocoles graphiques pour terminaux : Sixels, Kitty, ou iTerm2."
+      },
+      {
+        "row": 31,
+        "rowsha": "MZjUhQXVfxpCW8VSNlYisgIBy7uCCay+qsIDCZMbpko=",
+        "originContent": "The Kitty terminal also implements a [Text Sizing Protocol](https://sw.kovidgoyal.net/kitty/text-sizing-protocol/)",
+        "translatedContent": "Le terminal Kitty implémente aussi un [protocole de redimensionnement de texte](https://sw.kovidgoyal.net/kitty/text-sizing-protocol/)"
+      },
+      {
+        "row": 32,
+        "rowsha": "AqDay38ub+8mokjTiNIsEULRfKSaDhvDpCtnhJQpgrc=",
+        "originContent": "to directly scale text without needing to render as images!",
+        "translatedContent": "pour agrandir directement le texte sans avoir besoin de le rendre en images !"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "DIZhEaYgE7cJVs5rCAr6SqpLB+sy3hs22q62ePFd1Oc=",
+        "originContent": "See [ratatui-image](https://github.com/benjajaja/ratatui-image?tab=readme-ov-file#compatibility-matrix)",
+        "translatedContent": "Voir [ratatui-image](https://github.com/benjajaja/ratatui-image?tab=readme-ov-file#compatibility-matrix)"
+      },
+      {
+        "row": 35,
+        "rowsha": "0a9MOYQa+naZlOHVgLvvf6FkXFp1ZZBtTSI40lAVhMg=",
+        "originContent": "to see if your terminal does even have graphics support, and for further details.",
+        "translatedContent": "pour vérifier si votre terminal supporte les graphiques, et pour plus de détails."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "nE9iuTUqtkl4+euhkpIXFUDwN/L41oJ5KRP2zR05CvU=",
+        "originContent": "In general, Kitty, WezTerm, iTerm2, Ghostty, Foot, `xterm -ti vt340`, *should* work.",
+        "translatedContent": "En général, Kitty, WezTerm, iTerm2, Ghostty, Foot, `xterm -ti vt340`, *devraient* fonctionner."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "Ab6gBVXMh74Xo6XiUOVbDH8rzFvGoxPrhqy8EP9K3Q0=",
+        "originContent": "On terminals without graphics whatsoever, like Alactritty, images are rendered with Chafa.",
+        "translatedContent": "Sur les terminaux sans aucun support graphique, comme Alacritty, les images sont rendues avec Chafa."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "# Installation\n\n* Rust cargo: `cargo install mdfried`\n  * From source : `cargo install --path .`\n  * Needs a chafa package with development headers, usually called something like `libchafa-dev`, `libchafa-devel`, or just `libchafa`, or even just `chafa`.\n  * If chafa is not available at all, or you don't care about it because your terminal supports some graphic protocol, then use `--no-default-features`.\n  * If `cargo install ...` fails, try it with `--locked`, and/or report an issue.\n* Nix flake: `github:benjajaja/mdfried`\n* Nixpkgs: [`mdfried`](https://search.nixos.org/packages?channel=unstable&query=mdfried)\n* Arch Linux: `pacman -S mdfried` ([extra repository](https://archlinux.org/packages/extra/x86_64/mdfried/))\n* Ubuntu: [Download release .deb](https://github.com/benjajaja/mdfried/releases/latest)\n* Mac: `brew install mdfried` or [realease binaries](https://github.com/benjajaja/mdfried/releases/latest)\n* Windows: [Download release .exe](https://github.com/benjajaja/mdfried/releases/latest)\n\n# Usage\n\n### Running\n",
+    "ContentSha": "Lkm2vZskufHxQmLHa/9cl+6GE+53OSA7uaR3jq8wjPI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Installation\n\n* Rust cargo : `cargo install mdfried`\n  * Depuis la source : `cargo install --path .`\n  * Nécessite un paquet chafa avec les en-têtes de développement, généralement appelé quelque chose comme `libchafa-dev`, `libchafa-devel`, ou simplement `libchafa`, voire juste `chafa`.\n  * Si chafa n’est pas du tout disponible, ou si cela ne vous importe pas car votre terminal supporte un protocole graphique, utilisez alors `--no-default-features`.\n  * Si `cargo install ...` échoue, essayez avec `--locked`, et/ou signalez un problème.\n* Nix flake : `github:benjajaja/mdfried`\n* Nixpkgs : [`mdfried`](https://search.nixos.org/packages?channel=unstable&query=mdfried)\n* Arch Linux : `pacman -S mdfried` ([dépôt extra](https://archlinux.org/packages/extra/x86_64/mdfried/))\n* Ubuntu : [Télécharger le .deb de la version](https://github.com/benjajaja/mdfried/releases/latest)\n* Mac : `brew install mdfried` ou [binaires de la version](https://github.com/benjajaja/mdfried/releases/latest)\n* Windows : [Télécharger le .exe de la version](https://github.com/benjajaja/mdfried/releases/latest)\n\n# Utilisation\n\n### Exécution\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oEvHgiQZPffZY71LXkD7wBebC/0+TjyYxWZNyVCJCpU=",
+        "originContent": "# Installation",
+        "translatedContent": "# Installation"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "wsEIpB3ceMevym7EqpAB5B3skavSNde201NJVZrM69Q=",
+        "originContent": "* Rust cargo: `cargo install mdfried`",
+        "translatedContent": "* Rust cargo : `cargo install mdfried`"
+      },
+      {
+        "row": 4,
+        "rowsha": "yaxegIlCdxi9Ygz2vm6PbplpRIa+BRmx9ku6wZV4sOo=",
+        "originContent": "  * From source : `cargo install --path .`",
+        "translatedContent": "  * Depuis la source : `cargo install --path .`"
+      },
+      {
+        "row": 5,
+        "rowsha": "m26kBsXolGSaqqbFw5imktlXPCiBv4zHWEAtMmCn+4Y=",
+        "originContent": "  * Needs a chafa package with development headers, usually called something like `libchafa-dev`, `libchafa-devel`, or just `libchafa`, or even just `chafa`.",
+        "translatedContent": "  * Nécessite un paquet chafa avec les en-têtes de développement, généralement appelé quelque chose comme `libchafa-dev`, `libchafa-devel`, ou simplement `libchafa`, voire juste `chafa`."
+      },
+      {
+        "row": 6,
+        "rowsha": "//7V0cS5rGWJ3JenA1WtCaADQFe5qAuP09TuCJe8VI0=",
+        "originContent": "  * If chafa is not available at all, or you don't care about it because your terminal supports some graphic protocol, then use `--no-default-features`.",
+        "translatedContent": "  * Si chafa n’est pas du tout disponible, ou si cela ne vous importe pas car votre terminal supporte un protocole graphique, utilisez alors `--no-default-features`."
+      },
+      {
+        "row": 7,
+        "rowsha": "rO1skARMh3+cXsBabEqJiF+K3M/UZIbA7Jk0rtpN0eo=",
+        "originContent": "  * If `cargo install ...` fails, try it with `--locked`, and/or report an issue.",
+        "translatedContent": "  * Si `cargo install ...` échoue, essayez avec `--locked`, et/ou signalez un problème."
+      },
+      {
+        "row": 8,
+        "rowsha": "hH+ZfM2doY6vlofWM6ldSXIpJb4oEBL+aoKqNaqw7N4=",
+        "originContent": "* Nix flake: `github:benjajaja/mdfried`",
+        "translatedContent": "* Nix flake : `github:benjajaja/mdfried`"
+      },
+      {
+        "row": 9,
+        "rowsha": "G9Sm580IxaPrkYj2xhrABRFevXBTlbBx2qoyxHV15Do=",
+        "originContent": "* Nixpkgs: [`mdfried`](https://search.nixos.org/packages?channel=unstable&query=mdfried)",
+        "translatedContent": "* Nixpkgs : [`mdfried`](https://search.nixos.org/packages?channel=unstable&query=mdfried)"
+      },
+      {
+        "row": 10,
+        "rowsha": "Jq7aqXM82V9K/JUZ/efJ8XstiFUzQDZxzuz+3eJh9j4=",
+        "originContent": "* Arch Linux: `pacman -S mdfried` ([extra repository](https://archlinux.org/packages/extra/x86_64/mdfried/))",
+        "translatedContent": "* Arch Linux : `pacman -S mdfried` ([dépôt extra](https://archlinux.org/packages/extra/x86_64/mdfried/))"
+      },
+      {
+        "row": 11,
+        "rowsha": "wyTq5zphh1WT9+qVZSiA1OviqjgE3HKi/hKsqfZN3Hc=",
+        "originContent": "* Ubuntu: [Download release .deb](https://github.com/benjajaja/mdfried/releases/latest)",
+        "translatedContent": "* Ubuntu : [Télécharger le .deb de la version](https://github.com/benjajaja/mdfried/releases/latest)"
+      },
+      {
+        "row": 12,
+        "rowsha": "sw6J0CAy9kV3J3qpr7NO6H0RDORnowDRDGoM3uthKpQ=",
+        "originContent": "* Mac: `brew install mdfried` or [realease binaries](https://github.com/benjajaja/mdfried/releases/latest)",
+        "translatedContent": "* Mac : `brew install mdfried` ou [binaires de la version](https://github.com/benjajaja/mdfried/releases/latest)"
+      },
+      {
+        "row": 13,
+        "rowsha": "BJiXYBQUB+o0a9V7sWf8SCfVDRtPLZtjCEXABe+hJag=",
+        "originContent": "* Windows: [Download release .exe](https://github.com/benjajaja/mdfried/releases/latest)",
+        "translatedContent": "* Windows : [Télécharger le .exe de la version](https://github.com/benjajaja/mdfried/releases/latest)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "VQl64phXBjjplyWiGKNjjWZLPM0chOlnOxoC73zDU/k=",
+        "originContent": "# Usage",
+        "translatedContent": "# Utilisation"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "5iPSR1DDKtPdTS5aRELEMPZT/b5NWuopRq5oAhD3zc4=",
+        "originContent": "### Running",
+        "translatedContent": "### Exécution"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```\nmdfried ./path/to.md\n```",
+    "ContentSha": "hUQhn9CZ9ueUAQPoOGycR/AFuRBcgVTs1Yq7n8U8G1Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nmdfried ./path/to.md\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "eLQFV9ddee/BQZWSqfjJ+hbVQHaD5EP9oP1dOJOQ9H0=",
+        "originContent": "mdfried ./path/to.md",
+        "translatedContent": "mdfried ./path/to.md"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nUnless you're using Kitty version 0.40 or greater, or a terminal that does not support any graphics\nprotocol, the first time you run `mdfried` you will have to pick a font.\nYou should pick the same font that your terminal is using, but you could pick any.\nThe font-setup screen lets you search the system fonts - you will want to pick the same font that\nyour terminal is using.\nThe font is rendered directly as a preview.\nOnce confirmed, the choice is written into the configuration file.\n\nUse `--setup` to force the font-setup again if the font is not right.\n\nYou can also pipe markdown into it:\n",
+    "ContentSha": "1khyn8fPXkZphl5Ew7XQGUE3vYdN63HEr7vGkbMWC4k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nÀ moins que vous n'utilisiez Kitty version 0.40 ou supérieure, ou un terminal qui ne supporte aucun protocole graphique,\nla première fois que vous lancez `mdfried`, vous devrez choisir une police.\nVous devriez choisir la même police que celle utilisée par votre terminal, mais vous pouvez en choisir une autre.\nL'écran de configuration de la police vous permet de rechercher les polices du système - vous voudrez choisir la même police que\ncelle utilisée par votre terminal.\nLa police est rendue directement en aperçu.\nUne fois confirmée, le choix est enregistré dans le fichier de configuration.\n\nUtilisez `--setup` pour forcer à nouveau la configuration de la police si elle n'est pas correcte.\n\nVous pouvez également lui passer du markdown en pipe :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "SJzOphjZ2lWlhXAjpeKn3v8so3rW7aDaOVk4HqQN9wg=",
+        "originContent": "Unless you're using Kitty version 0.40 or greater, or a terminal that does not support any graphics",
+        "translatedContent": "À moins que vous n'utilisiez Kitty version 0.40 ou supérieure, ou un terminal qui ne supporte aucun protocole graphique,"
+      },
+      {
+        "row": 3,
+        "rowsha": "eVoATLWKpZIOGz9GfCjbWrgKlkG9DoEyE4rmEf9jpnE=",
+        "originContent": "protocol, the first time you run `mdfried` you will have to pick a font.",
+        "translatedContent": "la première fois que vous lancez `mdfried`, vous devrez choisir une police."
+      },
+      {
+        "row": 4,
+        "rowsha": "Y+vVylQnxgdceUZGGNMs3iAb0eHhEWJO7mznQnB/3q4=",
+        "originContent": "You should pick the same font that your terminal is using, but you could pick any.",
+        "translatedContent": "Vous devriez choisir la même police que celle utilisée par votre terminal, mais vous pouvez en choisir une autre."
+      },
+      {
+        "row": 5,
+        "rowsha": "wfQYNcMlmmlKU/S9yy6SvFp2y3XY4VjTAWVBbU/s1jM=",
+        "originContent": "The font-setup screen lets you search the system fonts - you will want to pick the same font that",
+        "translatedContent": "L'écran de configuration de la police vous permet de rechercher les polices du système - vous voudrez choisir la même police que"
+      },
+      {
+        "row": 6,
+        "rowsha": "pEaoyXQo8WQjX4toHPryceWPNAG9LaFeLsGX61RrW4I=",
+        "originContent": "your terminal is using.",
+        "translatedContent": "celle utilisée par votre terminal."
+      },
+      {
+        "row": 7,
+        "rowsha": "ukWNAFbP590gdvV8ZDOMhyfzS7jwgNFGbsqUkWlRpoA=",
+        "originContent": "The font is rendered directly as a preview.",
+        "translatedContent": "La police est rendue directement en aperçu."
+      },
+      {
+        "row": 8,
+        "rowsha": "qAaHKRUupKvxVkXU0L+E7oe795PFd7tc4bEjnQoXWWk=",
+        "originContent": "Once confirmed, the choice is written into the configuration file.",
+        "translatedContent": "Une fois confirmée, le choix est enregistré dans le fichier de configuration."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "oJWP1VEDRJMywBORpw8PXLKt/uKBIKepGb2+emRD/Rk=",
+        "originContent": "Use `--setup` to force the font-setup again if the font is not right.",
+        "translatedContent": "Utilisez `--setup` pour forcer à nouveau la configuration de la police si elle n'est pas correcte."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "oAh+sFVEua1tjnWtKRJ0d1S9w4unp6TRnBpxkSVrOw8=",
+        "originContent": "You can also pipe markdown into it:",
+        "translatedContent": "Vous pouvez également lui passer du markdown en pipe :"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```\nreadable https://lobste.rs | markdownify | mdfried\n```",
+    "ContentSha": "pfIsG5b6RNiwOhgjlJcOa8oAaCn4YoFsHLWyJmE4UJ4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nreadable https://lobste.rs | markdownify | mdfried\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "jGYqokEJUi0BxRAAC432ndJ9W66kk6Hg6ftAcMy3N4c=",
+        "originContent": "readable https://lobste.rs | markdownify | mdfried",
+        "translatedContent": "readable https://lobste.rs | markdownify | mdfried"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n### Key bindings\n\nKey | Description\n----|------------\n`q` or `Ctrl-c` | Quit and leave contents on terminal\n`r` | Reload the file (unless piped stdin)\n`j` | Scroll down one line\n`k` | Scroll up one line\n`d` or `Ctrl-d` | Scroll down half page\n`u` or `Ctrl-u` | Scroll up half page\n`f` or `PageDown` or `Space` | Scroll down a page\n`b` or `PageUp` | Scroll up a page\n`g` | Go to start of file\n`G` | Go to end of file\n`<number>G` or `<number>g` | Go to the string #\\<number>\n`/` | Search text\n`n` | Jump to next match or link\n`N` | Jump to previous match or link\n`Enter` | Open selected link with `xdg-open`\n`Esc` | Leave search or link modes\n\nEntering a number before motion applies the motion that many times.\n\nMouse scroll only works if enabled in settings as `enable_mouse_capture = true`, but then you can't\nselect text.\n\n### Configuration\n\n`~/.config/mdfried/config.toml` is automatically created on first run.\n\n",
+    "ContentSha": "JsZ8/K9LFvDwqGni663P+g4SizNwk25znpZpvmRjMik=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Raccourcis clavier\n\nTouche | Description\n-------|-------------\n`q` ou `Ctrl-c` | Quitter et laisser le contenu dans le terminal\n`r` | Recharger le fichier (sauf si entrée standard redirigée)\n`j` | Descendre d’une ligne\n`k` | Monter d’une ligne\n`d` ou `Ctrl-d` | Descendre d’une demi-page\n`u` ou `Ctrl-u` | Monter d’une demi-page\n`f` ou `PageDown` ou `Espace` | Descendre d’une page\n`b` ou `PageUp` | Monter d’une page\n`g` | Aller au début du fichier\n`G` | Aller à la fin du fichier\n`<nombre>G` ou `<nombre>g` | Aller à la ligne #\\<nombre>\n`/` | Rechercher du texte\n`n` | Aller à la correspondance ou lien suivant\n`N` | Aller à la correspondance ou lien précédent\n`Entrée` | Ouvrir le lien sélectionné avec `xdg-open`\n`Échap` | Quitter les modes recherche ou lien\n\nEntrer un nombre avant un déplacement applique ce déplacement autant de fois.\n\nLe défilement avec la souris ne fonctionne que si activé dans les paramètres avec `enable_mouse_capture = true`, mais alors vous ne pouvez pas\nsélectionner de texte.\n\n### Configuration\n\n`~/.config/mdfried/config.toml` est créé automatiquement au premier lancement.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "/RiPRD4g9HgQEWD9aXdslVuyTiyc6C9aVCvz8NQV3PU=",
+        "originContent": "### Key bindings",
+        "translatedContent": "### Raccourcis clavier"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "hwaVBc/x/8xfCiLqc772QkSrXSdBHwVP0RIc8LAhZg0=",
+        "originContent": "Key | Description",
+        "translatedContent": "Touche | Description"
+      },
+      {
+        "row": 5,
+        "rowsha": "rKGJfJ6HzxQcXPVLp/DOCN0gpcDmMdgTm2Ep9dK+n+Y=",
+        "originContent": "----|------------",
+        "translatedContent": "-------|-------------"
+      },
+      {
+        "row": 6,
+        "rowsha": "Emu3sZtU5TVTkMuYSgPyfjVuew9pj3u1jk1Ci55s3pc=",
+        "originContent": "`q` or `Ctrl-c` | Quit and leave contents on terminal",
+        "translatedContent": "`q` ou `Ctrl-c` | Quitter et laisser le contenu dans le terminal"
+      },
+      {
+        "row": 7,
+        "rowsha": "UuVSN0zX8UBSbIhjtK6qg4rjZlz5HK4ur+yQtnIQBSw=",
+        "originContent": "`r` | Reload the file (unless piped stdin)",
+        "translatedContent": "`r` | Recharger le fichier (sauf si entrée standard redirigée)"
+      },
+      {
+        "row": 8,
+        "rowsha": "/Gjjm/WUSNM3EL8WzVQrvZdOmu/FqZBneJi+5Z1smIA=",
+        "originContent": "`j` | Scroll down one line",
+        "translatedContent": "`j` | Descendre d’une ligne"
+      },
+      {
+        "row": 9,
+        "rowsha": "5lpUQoGpBtyjj7cjsk2z/X7JbD8pHo2Fef4C99gZgj8=",
+        "originContent": "`k` | Scroll up one line",
+        "translatedContent": "`k` | Monter d’une ligne"
+      },
+      {
+        "row": 10,
+        "rowsha": "R8QkL2h+dT9jyz2NTCtUeTvk8m/TMzg06t+rURSPRhY=",
+        "originContent": "`d` or `Ctrl-d` | Scroll down half page",
+        "translatedContent": "`d` ou `Ctrl-d` | Descendre d’une demi-page"
+      },
+      {
+        "row": 11,
+        "rowsha": "UyNm28l1GcrtmSW5sZ9YLReiSoORmAv1/6W/Vx40BnA=",
+        "originContent": "`u` or `Ctrl-u` | Scroll up half page",
+        "translatedContent": "`u` ou `Ctrl-u` | Monter d’une demi-page"
+      },
+      {
+        "row": 12,
+        "rowsha": "4+/ems0ObVBnWpjPYQSwsPaDgLtizf4YMf6OoKelKXo=",
+        "originContent": "`f` or `PageDown` or `Space` | Scroll down a page",
+        "translatedContent": "`f` ou `PageDown` ou `Espace` | Descendre d’une page"
+      },
+      {
+        "row": 13,
+        "rowsha": "w+8lezs3HiJknEyonTBAH68cgCpSRxxY/m4ff5LKcRA=",
+        "originContent": "`b` or `PageUp` | Scroll up a page",
+        "translatedContent": "`b` ou `PageUp` | Monter d’une page"
+      },
+      {
+        "row": 14,
+        "rowsha": "YJOggAEZIhJJeOpaoCAckmx5o5ECeQ6ehCzLAEYOe4A=",
+        "originContent": "`g` | Go to start of file",
+        "translatedContent": "`g` | Aller au début du fichier"
+      },
+      {
+        "row": 15,
+        "rowsha": "ZtqnFjkDluiaTa+oCnRKvkOVBcIpmvlwddvxUb9MyxI=",
+        "originContent": "`G` | Go to end of file",
+        "translatedContent": "`G` | Aller à la fin du fichier"
+      },
+      {
+        "row": 16,
+        "rowsha": "CoL07HeqJKyLwE4pVYhbS8JSyLxu/C8WOCTxTWSty0k=",
+        "originContent": "`<number>G` or `<number>g` | Go to the string #\\<number>",
+        "translatedContent": "`<nombre>G` ou `<nombre>g` | Aller à la ligne #\\<nombre>"
+      },
+      {
+        "row": 17,
+        "rowsha": "qLjl1YRxzRA0LBvgHrOkb7PUpZriEci49GaUwGr0teo=",
+        "originContent": "`/` | Search text",
+        "translatedContent": "`/` | Rechercher du texte"
+      },
+      {
+        "row": 18,
+        "rowsha": "BU5cIBVYGN0oXR77XaiAVHu7sE2YPgV5y9IUu2oqank=",
+        "originContent": "`n` | Jump to next match or link",
+        "translatedContent": "`n` | Aller à la correspondance ou lien suivant"
+      },
+      {
+        "row": 19,
+        "rowsha": "K44I5qFnelM9pskadE4sc7DNyiOEm3/E+A1QRMCCvmg=",
+        "originContent": "`N` | Jump to previous match or link",
+        "translatedContent": "`N` | Aller à la correspondance ou lien précédent"
+      },
+      {
+        "row": 20,
+        "rowsha": "JCPTH/CxN8zE3OJ+DcuUXclZG3Q238EGltpi8SCYft4=",
+        "originContent": "`Enter` | Open selected link with `xdg-open`",
+        "translatedContent": "`Entrée` | Ouvrir le lien sélectionné avec `xdg-open`"
+      },
+      {
+        "row": 21,
+        "rowsha": "rX/JepuImn2dJP9ftzOMArtx4ZI+Isiae0NCyEccD+0=",
+        "originContent": "`Esc` | Leave search or link modes",
+        "translatedContent": "`Échap` | Quitter les modes recherche ou lien"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "tv4ctjgbg+SrWcR522e9+dxX2KqdVNxDaq2XQBKCyAQ=",
+        "originContent": "Entering a number before motion applies the motion that many times.",
+        "translatedContent": "Entrer un nombre avant un déplacement applique ce déplacement autant de fois."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "JIBfLaG1iJ9XDkVcDzw4WGKtbtT7Ajsza0/NIbJDVVY=",
+        "originContent": "Mouse scroll only works if enabled in settings as `enable_mouse_capture = true`, but then you can't",
+        "translatedContent": "Le défilement avec la souris ne fonctionne que si activé dans les paramètres avec `enable_mouse_capture = true`, mais alors vous ne pouvez pas"
+      },
+      {
+        "row": 26,
+        "rowsha": "2xzsrCbr5lYKlYgmYHP/FFQlbzWVAusG0ScPOKl/60E=",
+        "originContent": "select text.",
+        "translatedContent": "sélectionner de texte."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "98At/CiRBusRICW0AL9EXH1YxHZNTZejcnKdG0hNBsI=",
+        "originContent": "### Configuration",
+        "translatedContent": "### Configuration"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "bQRiZxCnai1/UJO93n4ZZMjItTfTjHvXxAp4biwAE2o=",
+        "originContent": "`~/.config/mdfried/config.toml` is automatically created on first run.",
+        "translatedContent": "`~/.config/mdfried/config.toml` est créé automatiquement au premier lancement."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

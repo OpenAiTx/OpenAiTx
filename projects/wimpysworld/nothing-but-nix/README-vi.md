@@ -31,14 +31,14 @@
 
 # Nothing but Nix
 
-**Biến runner GitHub Actions của bạn thành một cỗ máy [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ mạnh mẽ bằng cách loại bỏ triệt để các phần mềm không cần thiết được cài sẵn.**
+**Biến runner GitHub Actions của bạn thành một cỗ máy [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ mạnh mẽ bằng cách loại bỏ triệt để phần mềm dư thừa được cài sẵn.**
 
-Runner của GitHub Actions chỉ cung cấp rất ít dung lượng đĩa cho Nix - chỉ khoảng ~20GB.
-*Nothing but Nix* **loại bỏ tàn nhẫn** phần mềm không cần thiết, giúp bạn có **65GB đến 130GB** cho Nix store! 💪
+Các runner GitHub Actions chỉ cung cấp dung lượng đĩa rất hạn chế cho Nix - chỉ khoảng ~20GB.
+*Nothing but Nix* **loại bỏ hoàn toàn** phần mềm không cần thiết, giúp bạn có **65GB đến 130GB** dành cho kho lưu trữ Nix của mình! 💪
 
-## Cách sử dụng 🔧
+## Sử dụng 🔧
 
-Thêm action này **trước khi** cài đặt Nix trong workflow của bạn:
+Thêm hành động này **trước khi** cài đặt Nix trong quy trình làm việc của bạn:
 
 ```yaml
 jobs:
@@ -57,64 +57,66 @@ jobs:
           nix --version
           # Your Nix-powered steps here...
 ```
-
 ### Yêu cầu ️✔️
 
-- Chỉ hỗ trợ các runner **Ubuntu** chính thức của GitHub Actions
+- Chỉ hỗ trợ runner **Ubuntu** chính thức của GitHub Actions
 - Phải chạy **trước khi** Nix được cài đặt
+- **Runner macOS/Darwin**: Hành động này sẽ tự động bỏ qua với cảnh báo nếu chạy trên macOS. Runner macOS đã cung cấp đủ không gian cho Nix và không cần hành động này
+- **Runner Windows**: Hành động này sẽ tự động bỏ qua với cảnh báo nếu chạy trên Windows. Runner Windows có bố cục hệ thống tập tin và các ràng buộc khác biệt
 
 ## Vấn đề: Tạo Không Gian Cho Nix Phát Triển 🌱
 
-Các runner tiêu chuẩn của GitHub Actions bị nhồi nhét *"phần mềm thừa"* mà bạn sẽ không bao giờ dùng đến trong workflow Nix:
+Runner tiêu chuẩn của GitHub Actions chứa đầy *"bloatware"* mà bạn sẽ không bao giờ sử dụng trong quy trình Nix:
 
-- 🌍 Trình duyệt web. Rất nhiều. Phải có đủ hết!
-- 🐳 Docker images chiếm hàng gigabyte dung lượng ổ đĩa quý giá
+- 🌍 Trình duyệt web. Rất nhiều. Phải có hết!
+- 🐳 Ảnh Docker chiếm hàng gigabyte không gian ổ đĩa quý giá
 - 💻 Runtime ngôn ngữ không cần thiết (.NET, Ruby, PHP, Java...)
-- 📦 Trình quản lý gói chỉ để bám bụi số
-- 📚 Tài liệu mà chẳng ai đọc bao giờ
+- 📦 Trình quản lý gói tích tụ bụi số hóa
+- 📚 Tài liệu mà không ai đọc
 
-Phần mềm thừa này chỉ để lại ~20GB cho kho Nix của bạn - quá ít cho các build Nix nghiêm túc! 😞
+Việc này chỉ để lại ~20GB cho kho Nix của bạn - không đủ cho các bản dựng Nix nghiêm túc! 😞
 
 ## Giải pháp: Chỉ Có Nix ️❄️
 
-**Chỉ Có Nix** áp dụng cách tiếp cận “đốt sạch” với runner GitHub Actions và thu hồi dung lượng ổ đĩa không thương tiếc bằng hai giai đoạn:
+**Chỉ Có Nix** sử dụng phương pháp dọn dẹp triệt để runner của GitHub Actions và thu hồi không gian ổ đĩa bằng một cuộc tấn công hai giai đoạn:
 
-1. **Chém Đầu Tiên:** Ngay lập tức tạo volume `/nix` lớn (~65GB) bằng cách lấy không gian trống từ `/mnt`
-2. **Tàn Sát Nền:** Trong khi workflow của bạn tiếp tục, chúng tôi loại bỏ không thương tiếc phần mềm không cần thiết để mở rộng volume `/nix` lên tới ~130GB
+1. **Chém đầu tiên:** Tạo ngay một phân vùng `/nix` lớn (~65GB) bằng cách chiếm không gian trống từ `/mnt`
+2. **Càn quét nền:** Trong khi quy trình của bạn tiếp tục, chúng tôi loại bỏ phần mềm không cần thiết để mở rộng phân vùng `/nix` lên đến ~130GB
    - Trình duyệt web? Không ⛔
-   - Docker images? Xóa sạch 🗑️
+   - Ảnh Docker? Xóa sạch 🗑️
    - Runtime ngôn ngữ? Tiêu diệt 💥
-   - Quản lý gói? Hủy diệt 💣
+   - Trình quản lý gói? Hủy diệt 💣
    - Tài liệu? Bốc hơi ️👻
 
-Việc thanh lọc hệ thống file được thực hiện bởi `rmz` (từ dự án [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc)) - một lựa chọn thay thế hiệu suất cao cho `rm` giúp thu hồi dung lượng cực nhanh! ⚡
-   - Nhanh hơn `rm` tiêu chuẩn cả một bậc
-   - Xử lý xóa song song để đạt hiệu quả tối đa
-   - **Thu hồi dung lượng ổ đĩa chỉ trong vài giây thay vì vài phút!** ️⏱️
+Việc dọn dẹp hệ thống tập tin được thực hiện bởi `rmz` (từ dự án [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc)) - một lựa chọn thay thế hiệu suất cao cho `rm` giúp thu hồi không gian siêu nhanh! ⚡
+   - Hiệu suất vượt trội so với `rm` tiêu chuẩn
+   - Xử lý xóa song song tối ưu hóa hiệu quả
+   - **Thu hồi không gian ổ đĩa chỉ trong vài giây thay vì vài phút!** ️⏱️
 
-Kết quả cuối cùng? Một runner GitHub Actions với **65GB đến 130GB** dung lượng sẵn sàng cho Nix! 😁
+Kết quả cuối cùng? Một runner GitHub Actions với **65GB đến 130GB** không gian sẵn sàng cho Nix! 😁
 
-### Tăng Dung Lượng Động
+### Tăng trưởng động của phân vùng
 
-Không như các giải pháp khác, **Chỉ Có Nix** tăng dung lượng `/nix` một cách linh hoạt:
+Không giống như các giải pháp khác, **Nothing but Nix** mở rộng phân vùng `/nix` của bạn một cách động:
 
-1. **Tạo Volume Ban Đầu (1-10 giây):** (*tùy thuộc vào Giao thức Hatchet*)
+1. **Tạo Volume Ban Đầu (1-10 giây):** (*tùy thuộc vào Giao Thức Hatchet*)
    - Tạo thiết bị loop từ không gian trống trên `/mnt`
-   - Thiết lập hệ thống file BTRFS ở cấu hình RAID0
-   - Mount với chế độ nén và tối ưu hiệu năng
-   - Ngay lập tức cung cấp 65GB `/nix`, ngay cả trước khi bắt đầu thanh lọc
+   - Thiết lập hệ thống tập tin BTRFS ở cấu hình RAID0
+   - Gắn kết với chế độ nén và tối ưu hiệu suất
+   - Cung cấp ngay lập tức `/nix` 65GB, ngay cả trước khi quá trình dọn dẹp bắt đầu
 
-2. **Mở Rộng Nền (30-180 giây):** (*tùy thuộc vào Giao thức Hatchet*)
-   - Thực hiện các thao tác thanh lọc
-   - Theo dõi không gian mới được giải phóng khi phần mềm thừa bị loại bỏ
-   - Thêm đĩa mở rộng vào volume `/nix` một cách động
-   - Cân bằng lại hệ thống file để tích hợp dung lượng mới
+2. **Mở Rộng Nền (30-180 giây):** (*tùy thuộc vào Giao Thức Hatchet*)
+   - Thực hiện các thao tác dọn dẹp
+   - Giám sát không gian mới được giải phóng khi các tệp rác bị loại bỏ
+   - Tự động thêm ổ đĩa mở rộng vào phân vùng `/nix`
+   - Cân bằng lại hệ thống tập tin để tích hợp không gian mới
 
-Volume `/nix` sẽ **tự động tăng lên trong quá trình thực thi workflow** 🎩🪄
+Phân vùng `/nix` sẽ **tự động mở rộng trong quá trình thực thi workflow** 🎩🪄
 
-### Chọn Vũ Khí: Giao Thức Hatchet 🪓
+### Chọn Vũ Khí Của Bạn: Giao Thức Hatchet 🪓
 
-Kiểm soát cấp độ hủy diệt 💥 với tham số `hatchet-protocol`:
+Kiểm soát mức độ hủy diệt 💥 với tham số đầu vào `hatchet-protocol`:
+
 
 ```yaml
 - uses: wimpysworld/nothing-but-nix@main
@@ -175,13 +177,56 @@ Một số trình cài đặt hoặc cấu hình Nix mong muốn thư mục `/ni
   with:
     nix-permission-edict: true  # Default: false
 ```
-Khi `nix-permission-edict` được đặt thành `true`, hành động sẽ chạy `sudo chown -R "$(id --user)":"$(id --group)" /nix` sau khi gắn kết `/nix`.
+Khi `nix-permission-edict` được đặt thành `true`, hành động này sẽ chạy lệnh `sudo chown -R "$(id --user)":"$(id --group)" /nix` sau khi gắn kết `/nix`.
 
-Bây giờ hãy bắt tay vào xây dựng điều tuyệt vời với toàn bộ không gian Nix store tuyệt vời đó! ❄️
+### Cấu hình Nix để sử dụng /nix/build
 
+Hành động này tạo `/nix/build` để các bản dựng Nix derivation sử dụng không gian đã thu hồi. Thêm `build-dir` vào cấu hình Nix của bạn:
+
+
+```yaml
+- uses: cachix/install-nix-action@v31
+  with:
+    extra_nix_config: |
+      build-dir = /nix/build
+```
+
+Hoặc với DeterminateSystems:
+
+```yaml
+- uses: DeterminateSystems/nix-installer-action@main
+  with:
+    extra-conf: |
+      build-dir = /nix/build
+```
+
+Điều này hướng dẫn Nix thực hiện các bản dựng trên phân vùng BTRFS lớn thay vì thư mục tạm thời mặc định của hệ thống.
+
+## Khắc phục sự cố 🔍
+
+### "No space left on device" trong quá trình build lớn
+
+Nếu bản dựng của bạn hết dung lượng dù chỉ sử dụng Nothing but Nix, có thể là do quá trình dọn dẹp nền chưa hoàn thành trước khi bản dựng của bạn sử dụng hết không gian còn lại. Điều này thường ảnh hưởng đến:
+
+- Các bài kiểm tra VM NixOS tạo ảnh đĩa lớn
+- Các bản dựng có nhiều phụ thuộc không được lưu trong bộ nhớ đệm
+- Bộ công cụ Rust và các lần biên dịch lớn khác
+
+**Giải pháp:** Sử dụng `witness-carnage: true` để buộc dọn dẹp đồng bộ. Điều này đảm bảo toàn bộ dung lượng được thu hồi *trước khi* bản dựng của bạn bắt đầu:
+
+```yaml
+- uses: wimpysworld/nothing-but-nix@main
+  with:
+    hatchet-protocol: 'rampage'
+    witness-carnage: true
+```
+
+Điều này thêm 30-180 giây vào quá trình thiết lập workflow của bạn, nhưng đảm bảo có tối đa không gian khi quá trình build bắt đầu.
+
+Bây giờ hãy tạo ra điều tuyệt vời với toàn bộ không gian Nix store tuyệt vời đó! ❄️
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-18
 
 ---

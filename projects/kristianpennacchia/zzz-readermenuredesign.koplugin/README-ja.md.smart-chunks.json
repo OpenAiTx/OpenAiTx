@@ -1,0 +1,310 @@
+[
+  {
+    "Id": 1,
+    "Content": "# zzz-readermenuredesign.koplugin\n\nA redesign of the various reader menus in KOReader, including the Dictionary Quick Lookup popup and Reader Highlight menu.\n\n<p align=\"left\">\n  <img src=\"https://github.com/user-attachments/assets/2d82282a-96c9-43b7-aaea-fb27a74d2f52\" width=45%>\n</p>\n\nIncludes an option to show 'unknown' buttons (buttons not changed by this plugin) in the Reader Highlight menu:\n\n<p align=\"left\">\n  <img src=\"https://github.com/user-attachments/assets/162b8b8c-c6b5-4149-a8d9-b5e9bbeb64dd\" width=45%>\n  <img src=\"https://github.com/user-attachments/assets/9dbfec8c-88e0-4b91-9f13-7eb50f1f881c\" width=45%>\n</p>\n\nThis plugin also provides custom UI for other plugins, such as [WordReference plugin](https://github.com/kristianpennacchia/wordreference.koplugin) and [AI Assistant plugin](https://github.com/omer-faruq/assistant.koplugin).\n\n<p align=\"left\">\n  <img src=\"https://github.com/user-attachments/assets/2a99493d-d86d-44f0-813f-4ee4ef1cd606\" width=30%>\n  <img src=\"https://github.com/user-attachments/assets/6c5650b4-6718-4b9b-8a0e-2cd8a6ed4f47\" width=30%>\n</p>\n\n## Install\n\n- Download the [latest release](https://github.com/kristianpennacchia/zzz-readermenuredesign.koplugin/releases/latest).\n- Unzip `zzz-readermenuredesign.koplugin.zip`.\n- Copy the `zzz-readermenuredesign.koplugin` folder to your KOReader `plugins` directory on the device.\n- Restart KOReader.\n\n#### Troubleshooting\n\n- **All of the icons are hazard (⚠️) symbols.**\n    - As of version v1.0.5, the icons should be installed automatically, however if you are still encountering this issue, try manually copying the icons from the `zzz-readermenuredesign.koplugin` folder and putting them into the KOReader icons folder `/koreader/resources/icons`.\n\n- **Icons are not showing at all**.\n    - This can happen on some devices with older versions of this plugin. Try deleting this plugins SVG icons from `/koreader/resources/icons/mdlight` and replace them with the PNG icons from the [latest release](https://github.com/kristianpennacchia/zzz-readermenuredesign.koplugin/releases/latest), then **restart KOReader**.\n\n## Settings\n\n- Reader Highlight menu:",
+    "ContentSha": "IPl/pnvHFj15AlOrTYPIsngNVBl5sALb4lIKmAewRWg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# zzz-readermenuredesign.koplugin\n\nKOReaderのさまざまなリーダーメニューの再設計で、辞書のクイックルックアップポップアップやリーダーハイライトメニューを含みます。\n\n<p align=\"left\">\n  <img src=\"https://github.com/user-attachments/assets/2d82282a-96c9-43b7-aaea-fb27a74d2f52\" width=45%>\n</p>\n\nリーダーハイライトメニューに「不明」ボタン（このプラグインで変更されていないボタン）を表示するオプションを含みます：\n\n<p align=\"left\">\n  <img src=\"https://github.com/user-attachments/assets/162b8b8c-c6b5-4149-a8d9-b5e9bbeb64dd\" width=45%>\n  <img src=\"https://github.com/user-attachments/assets/9dbfec8c-88e0-4b91-9f13-7eb50f1f881c\" width=45%>\n</p>\n\nこのプラグインはまた、[WordReferenceプラグイン](https://github.com/kristianpennacchia/wordreference.koplugin)や[AIアシスタントプラグイン](https://github.com/omer-faruq/assistant.koplugin)などの他のプラグイン向けのカスタムUIも提供します。\n\n<p align=\"left\">\n  <img src=\"https://github.com/user-attachments/assets/2a99493d-d86d-44f0-813f-4ee4ef1cd606\" width=30%>\n  <img src=\"https://github.com/user-attachments/assets/6c5650b4-6718-4b9b-8a0e-2cd8a6ed4f47\" width=30%>\n</p>\n\n## インストール\n\n- [最新リリース](https://github.com/kristianpennacchia/zzz-readermenuredesign.koplugin/releases/latest)をダウンロードしてください。\n- `zzz-readermenuredesign.koplugin.zip`を解凍してください。\n- 解凍した`zzz-readermenuredesign.koplugin`フォルダをデバイスのKOReaderの`plugins`ディレクトリにコピーしてください。\n- KOReaderを再起動してください。\n\n#### トラブルシューティング\n\n- **すべてのアイコンが警告（⚠️）シンボルになっている場合。**\n    - バージョンv1.0.5以降ではアイコンは自動的にインストールされるはずですが、もし問題が続く場合は、`zzz-readermenuredesign.koplugin`フォルダからアイコンを手動でコピーしてKOReaderのアイコンフォルダ`/koreader/resources/icons`に入れてみてください。\n\n- **アイコンがまったく表示されない場合。**\n    - 古いバージョンのこのプラグインを使っている一部のデバイスで発生します。`/koreader/resources/icons/mdlight`からこのプラグインのSVGアイコンを削除し、[最新リリース](https://github.com/kristianpennacchia/zzz-readermenuredesign.koplugin/releases/latest)のPNGアイコンに置き換え、**KOReaderを再起動してください**。\n\n## 設定\n\n- リーダーハイライトメニュー：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "PcNx3dhyOv6wKqhtix5EeoXqW9np9XLx/p2RRgtaKy4=",
+        "originContent": "# zzz-readermenuredesign.koplugin",
+        "translatedContent": "# zzz-readermenuredesign.koplugin"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "erksxYrEuFI8QMcs0wwe3H4mTCxN55Fr6Io1M/pKXjU=",
+        "originContent": "A redesign of the various reader menus in KOReader, including the Dictionary Quick Lookup popup and Reader Highlight menu.",
+        "translatedContent": "KOReaderのさまざまなリーダーメニューの再設計で、辞書のクイックルックアップポップアップやリーダーハイライトメニューを含みます。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Auk82msJHqE5J2c5SY+1beHllILKnmlMZAJCApM2R0k=",
+        "originContent": "<p align=\"left\">",
+        "translatedContent": "<p align=\"left\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "Dxr5ZJujuubUDu0tvrrecW12q7Lk//M0z48E10wSo9Y=",
+        "originContent": "  <img src=\"https://github.com/user-attachments/assets/2d82282a-96c9-43b7-aaea-fb27a74d2f52\" width=45%>",
+        "translatedContent": "  <img src=\"https://github.com/user-attachments/assets/2d82282a-96c9-43b7-aaea-fb27a74d2f52\" width=45%>"
+      },
+      {
+        "row": 7,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "V79g+AKSThXi+XnrrLBE0SlFi2Yn34Ldthq9c2cGAIo=",
+        "originContent": "Includes an option to show 'unknown' buttons (buttons not changed by this plugin) in the Reader Highlight menu:",
+        "translatedContent": "リーダーハイライトメニューに「不明」ボタン（このプラグインで変更されていないボタン）を表示するオプションを含みます："
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Auk82msJHqE5J2c5SY+1beHllILKnmlMZAJCApM2R0k=",
+        "originContent": "<p align=\"left\">",
+        "translatedContent": "<p align=\"left\">"
+      },
+      {
+        "row": 12,
+        "rowsha": "iKLdSAwschKVfiIOq0G5uBJ2jiDn83dCGhJTvWG1JE0=",
+        "originContent": "  <img src=\"https://github.com/user-attachments/assets/162b8b8c-c6b5-4149-a8d9-b5e9bbeb64dd\" width=45%>",
+        "translatedContent": "  <img src=\"https://github.com/user-attachments/assets/162b8b8c-c6b5-4149-a8d9-b5e9bbeb64dd\" width=45%>"
+      },
+      {
+        "row": 13,
+        "rowsha": "9R4Rb7ELUPCtQTtnXOGdfL0aPywBdaCoDCl0Nzx+pxk=",
+        "originContent": "  <img src=\"https://github.com/user-attachments/assets/9dbfec8c-88e0-4b91-9f13-7eb50f1f881c\" width=45%>",
+        "translatedContent": "  <img src=\"https://github.com/user-attachments/assets/9dbfec8c-88e0-4b91-9f13-7eb50f1f881c\" width=45%>"
+      },
+      {
+        "row": 14,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "y3Hw8vBWgD+3o0yOh32Uiblcwd9QVtLMN2sqTCjiZeo=",
+        "originContent": "This plugin also provides custom UI for other plugins, such as [WordReference plugin](https://github.com/kristianpennacchia/wordreference.koplugin) and [AI Assistant plugin](https://github.com/omer-faruq/assistant.koplugin).",
+        "translatedContent": "このプラグインはまた、[WordReferenceプラグイン](https://github.com/kristianpennacchia/wordreference.koplugin)や[AIアシスタントプラグイン](https://github.com/omer-faruq/assistant.koplugin)などの他のプラグイン向けのカスタムUIも提供します。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "Auk82msJHqE5J2c5SY+1beHllILKnmlMZAJCApM2R0k=",
+        "originContent": "<p align=\"left\">",
+        "translatedContent": "<p align=\"left\">"
+      },
+      {
+        "row": 19,
+        "rowsha": "BeE5osqsIp9JEKXPZjU628lBCqgiwRkfcyERpWSnPVE=",
+        "originContent": "  <img src=\"https://github.com/user-attachments/assets/2a99493d-d86d-44f0-813f-4ee4ef1cd606\" width=30%>",
+        "translatedContent": "  <img src=\"https://github.com/user-attachments/assets/2a99493d-d86d-44f0-813f-4ee4ef1cd606\" width=30%>"
+      },
+      {
+        "row": 20,
+        "rowsha": "nYQIJjShmWqbmkH3rvAkI+qJAAFydLRPRkabXTPA/PA=",
+        "originContent": "  <img src=\"https://github.com/user-attachments/assets/6c5650b4-6718-4b9b-8a0e-2cd8a6ed4f47\" width=30%>",
+        "translatedContent": "  <img src=\"https://github.com/user-attachments/assets/6c5650b4-6718-4b9b-8a0e-2cd8a6ed4f47\" width=30%>"
+      },
+      {
+        "row": 21,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+        "originContent": "## Install",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "iUqSxZtRrgCYO9wjzQCVj8lkrHvKbJwVfmGDu2iHdg4=",
+        "originContent": "- Download the [latest release](https://github.com/kristianpennacchia/zzz-readermenuredesign.koplugin/releases/latest).",
+        "translatedContent": "- [最新リリース](https://github.com/kristianpennacchia/zzz-readermenuredesign.koplugin/releases/latest)をダウンロードしてください。"
+      },
+      {
+        "row": 26,
+        "rowsha": "gXO6NBx1LuEBRsxequTgRN9AWAGpKyWFoFpb/xRoNjQ=",
+        "originContent": "- Unzip `zzz-readermenuredesign.koplugin.zip`.",
+        "translatedContent": "- `zzz-readermenuredesign.koplugin.zip`を解凍してください。"
+      },
+      {
+        "row": 27,
+        "rowsha": "0Leb9Mk+YIycSBgVypcT3i/xzPzIExbeu52eiXuIHww=",
+        "originContent": "- Copy the `zzz-readermenuredesign.koplugin` folder to your KOReader `plugins` directory on the device.",
+        "translatedContent": "- 解凍した`zzz-readermenuredesign.koplugin`フォルダをデバイスのKOReaderの`plugins`ディレクトリにコピーしてください。"
+      },
+      {
+        "row": 28,
+        "rowsha": "wIxSwDpZRSM+JhJsGrPIxoF2m8bpJX8c6UnqZA+rUAc=",
+        "originContent": "- Restart KOReader.",
+        "translatedContent": "- KOReaderを再起動してください。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "A+TRohh5/q5jeCFew7DtKSFhTlqJ3ff+crHUaSlv43c=",
+        "originContent": "#### Troubleshooting",
+        "translatedContent": "#### トラブルシューティング"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "choxCqVK7MpfMJFJNKRfHxBJMD8qyACzE9LRisq5EL0=",
+        "originContent": "- **All of the icons are hazard (⚠️) symbols.**",
+        "translatedContent": "- **すべてのアイコンが警告（⚠️）シンボルになっている場合。**"
+      },
+      {
+        "row": 33,
+        "rowsha": "drTKxAMPHJffPqlzXgNR7Zlgdnx68nd/9/3gRG25PqU=",
+        "originContent": "    - As of version v1.0.5, the icons should be installed automatically, however if you are still encountering this issue, try manually copying the icons from the `zzz-readermenuredesign.koplugin` folder and putting them into the KOReader icons folder `/koreader/resources/icons`.",
+        "translatedContent": "    - バージョンv1.0.5以降ではアイコンは自動的にインストールされるはずですが、もし問題が続く場合は、`zzz-readermenuredesign.koplugin`フォルダからアイコンを手動でコピーしてKOReaderのアイコンフォルダ`/koreader/resources/icons`に入れてみてください。"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "zGxZJfV5gIq5VZRQdjLR8EK09uBSnPVyxFxQHlM8ZfM=",
+        "originContent": "- **Icons are not showing at all**.",
+        "translatedContent": "- **アイコンがまったく表示されない場合。**"
+      },
+      {
+        "row": 36,
+        "rowsha": "05XXPgdMez/Kk/iTV4Rlh3WZS8I9f/Cc9uFFaEZyFlA=",
+        "originContent": "    - This can happen on some devices with older versions of this plugin. Try deleting this plugins SVG icons from `/koreader/resources/icons/mdlight` and replace them with the PNG icons from the [latest release](https://github.com/kristianpennacchia/zzz-readermenuredesign.koplugin/releases/latest), then **restart KOReader**.",
+        "translatedContent": "    - 古いバージョンのこのプラグインを使っている一部のデバイスで発生します。`/koreader/resources/icons/mdlight`からこのプラグインのSVGアイコンを削除し、[最新リリース](https://github.com/kristianpennacchia/zzz-readermenuredesign.koplugin/releases/latest)のPNGアイコンに置き換え、**KOReaderを再起動してください**。"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "W4J67U2YluuDNNkJ/l2et7F04yj7B18/8PqawByOizs=",
+        "originContent": "## Settings",
+        "translatedContent": "## 設定"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "SYE/uPkMWV2SIvDp9l7r/mdcU0prW2sBGpCu7dIFgbQ=",
+        "originContent": "- Reader Highlight menu:",
+        "translatedContent": "- リーダーハイライトメニュー："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "    - Open Menu → Tools 🛠️ → More tools → Reader Menu Redesign → Show Unknown Buttons In Reader Highlight Menu.\n    - This will toggle showing/hiding the 'unknown' buttons (buttons without special handling in this plugin) in the Reader Highlight menu.\n- Dict Quick Lookup:\n    - Open Menu → Tools 🛠️ → More tools → Reader Menu Redesign → Show Nav Buttons In Dict Quick Lookup.\n    - This will toggle showing/hiding the 'nav' buttons in the Dict Quick Lookup to navigate between dictionaries, wikipedia entires, etc.\n    - Alternatively: You can simply swipe left-to-right to navigate instead, but these buttons are more useful for PC/Mac.\n",
+    "ContentSha": "4+4np3CrNADq2ILiMbbURt2dHAuPX6rTpoh2bC5gT4Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    - メニューを開く → ツール 🛠️ → その他のツール → リーダーメニューデザイン → リーダーハイライトメニューに不明なボタンを表示。\n    - これにより、リーダーハイライトメニューで「不明」ボタン（このプラグインで特別な処理がないボタン）の表示/非表示を切り替えます。\n- 辞書クイックルックアップ：\n    - メニューを開く → ツール 🛠️ → その他のツール → リーダーメニューデザイン → 辞書クイックルックアップにナビボタンを表示。\n    - これにより、辞書クイックルックアップで辞書間やウィキペディアの項目間を移動する「ナビ」ボタンの表示/非表示を切り替えます。\n    - または、単に左から右へのスワイプで移動することもできますが、これらのボタンはPC/Macでより便利です。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4l/egvU3lghICziB1OHLex4qr6CuWj4O9JtUL1j0UVQ=",
+        "originContent": "    - Open Menu → Tools 🛠️ → More tools → Reader Menu Redesign → Show Unknown Buttons In Reader Highlight Menu.",
+        "translatedContent": "    - メニューを開く → ツール 🛠️ → その他のツール → リーダーメニューデザイン → リーダーハイライトメニューに不明なボタンを表示。"
+      },
+      {
+        "row": 2,
+        "rowsha": "SoV+NpgOQYnQCqH57R4nh9GBAxKHRcO8d40JtCPDGos=",
+        "originContent": "    - This will toggle showing/hiding the 'unknown' buttons (buttons without special handling in this plugin) in the Reader Highlight menu.",
+        "translatedContent": "    - これにより、リーダーハイライトメニューで「不明」ボタン（このプラグインで特別な処理がないボタン）の表示/非表示を切り替えます。"
+      },
+      {
+        "row": 3,
+        "rowsha": "QkcypuvPMOuB2mgTj1o/XbRxP34FVttF8T6sd9D364M=",
+        "originContent": "- Dict Quick Lookup:",
+        "translatedContent": "- 辞書クイックルックアップ："
+      },
+      {
+        "row": 4,
+        "rowsha": "RlqxIWZt8RSwLrH/VMVonfN15OhuNCGkDilXQEr5oy0=",
+        "originContent": "    - Open Menu → Tools 🛠️ → More tools → Reader Menu Redesign → Show Nav Buttons In Dict Quick Lookup.",
+        "translatedContent": "    - メニューを開く → ツール 🛠️ → その他のツール → リーダーメニューデザイン → 辞書クイックルックアップにナビボタンを表示。"
+      },
+      {
+        "row": 5,
+        "rowsha": "4FZ6JkdwcfE9oVUDN8XnC5dmV8CD6sFlMBazNZN4xio=",
+        "originContent": "    - This will toggle showing/hiding the 'nav' buttons in the Dict Quick Lookup to navigate between dictionaries, wikipedia entires, etc.",
+        "translatedContent": "    - これにより、辞書クイックルックアップで辞書間やウィキペディアの項目間を移動する「ナビ」ボタンの表示/非表示を切り替えます。"
+      },
+      {
+        "row": 6,
+        "rowsha": "kY5Op8BizQOhegD6YIKQVyiyDoLGRaHAyKVPo5sMDlU=",
+        "originContent": "    - Alternatively: You can simply swipe left-to-right to navigate instead, but these buttons are more useful for PC/Mac.",
+        "translatedContent": "    - または、単に左から右へのスワイプで移動することもできますが、これらのボタンはPC/Macでより便利です。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -31,14 +31,14 @@
 
 # Nothing but Nix
 
-**Ubah runner GitHub Actions Anda menjadi pusat tenaga [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ dengan memangkas habis bloatware yang sudah terpasang.**
+**Ubah runner GitHub Actions Anda menjadi mesin [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ yang tangguh dengan memangkas habis bloatware yang sudah terpasang.**
 
-Runner GitHub Actions hanya menyediakan ruang disk sedikit untuk Nix - hanya sekitar ~20GB.
-*Nothing but Nix* **secara brutal membersihkan** perangkat lunak yang tidak diperlukan, memberi Anda **65GB hingga 130GB** untuk Nix store Anda! 💪
+Runner GitHub Actions hadir dengan ruang disk yang sangat terbatas untuk Nix - hanya sekitar ~20GB.
+*Nothing but Nix* **secara brutal membersihkan** perangkat lunak yang tidak perlu, memberi Anda **65GB hingga 130GB** untuk Nix store Anda! 💪
 
 ## Penggunaan 🔧
 
-Tambahkan action ini **sebelum** menginstal Nix di workflow Anda:
+Tambahkan aksi ini **sebelum** menginstal Nix dalam alur kerja Anda:
 
 ```yaml
 jobs:
@@ -60,61 +60,63 @@ jobs:
 
 ### Persyaratan ️✔️
 
-- Hanya mendukung runner GitHub Actions resmi **Ubuntu**
+- Hanya mendukung runner GitHub Actions **Ubuntu** resmi
 - Harus dijalankan **sebelum** Nix diinstal
+- **Runner macOS/Darwin**: Aksi ini akan dilewati secara anggun dengan peringatan jika dijalankan di macOS. Runner macOS sudah menyediakan ruang yang cukup untuk Nix dan tidak memerlukan aksi ini
+- **Runner Windows**: Aksi ini akan dilewati secara anggun dengan peringatan jika dijalankan di Windows. Runner Windows memiliki tata letak sistem file dan kendala yang berbeda
 
-## Masalah: Memberi Ruang untuk Nix Berkembang 🌱
+## Masalah: Membuat Ruang untuk Nix Berkembang 🌱
 
 Runner standar GitHub Actions dipenuhi dengan *"bloatware"* yang tidak akan pernah Anda gunakan dalam workflow Nix:
 
 - 🌍 Browser web. Banyak sekali. Harus punya semuanya!
-- 🐳 Gambar Docker yang memakan gigabyte ruang disk berharga
-- 💻 Runtime bahasa yang tidak perlu (.NET, Ruby, PHP, Java...)
+- 🐳 Gambar Docker yang menghabiskan gigabyte ruang disk yang berharga
+- 💻 Runtime bahasa yang tidak diperlukan (.NET, Ruby, PHP, Java...)
 - 📦 Package manager yang hanya mengumpulkan debu digital
-- 📚 Dokumentasi yang tidak akan pernah dibaca siapa pun
+- 📚 Dokumentasi yang tidak akan pernah dibaca
 
 Bloat ini hanya menyisakan ~20GB untuk Nix store Anda - nyaris tidak cukup untuk build Nix yang serius! 😞
 
-## Solusi: Hanya Ada Nix ️❄️
+## Solusi: Hanya Nix ️❄️
 
-**Nothing but Nix** mengambil pendekatan "scorched-earth" pada runner GitHub Actions dan dengan tanpa ampun merebut kembali ruang disk dengan serangan dua fase:
+**Hanya Nix** mengambil pendekatan "scorched-earth" pada runner GitHub Actions dan tanpa ampun merebut kembali ruang disk menggunakan serangan dua fase:
 
-1. **Initial Slash:** Langsung membuat volume `/nix` besar (~65GB) dengan mengklaim ruang bebas dari `/mnt`
-2. **Background Rampage:** Sementara workflow Anda berjalan, kami secara kejam menghapus perangkat lunak yang tidak perlu untuk memperluas volume `/nix` Anda hingga ~130GB
-   - Browser web? Tidak ada ⛔
+1. **Slash Awal:** Langsung membuat volume `/nix` besar (~65GB) dengan mengklaim ruang bebas dari `/mnt`
+2. **Rampage Latar Belakang:** Sambil workflow Anda berjalan, kami secara brutal menghilangkan perangkat lunak yang tidak diperlukan untuk memperluas volume `/nix` hingga ~130GB
+   - Browser web? Tidak ⛔
    - Gambar Docker? Hilang 🗑️
    - Runtime bahasa? Dihancurkan 💥
    - Package manager? Dimusnahkan 💣
    - Dokumentasi? Diuapkan ️👻
 
-Pembersihan file system ini didukung oleh `rmz` (dari proyek [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc)) - alternatif `rm` berperforma tinggi yang membuat proses reclaim ruang jadi super cepat! ⚡
-   - Jauh lebih cepat daripada `rm` standar
-   - Penghapusan secara paralel untuk efisiensi maksimal
-   - **Mengembalikan ruang disk dalam hitungan detik, bukan menit!** ️⏱️
+Pembersihan sistem file didukung oleh `rmz` (dari proyek [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc)) - alternatif berkinerja tinggi untuk `rm` yang membuat perebutan ruang sangat cepat! ⚡
+   - Melampaui `rm` standar satu tingkat
+   - Memproses penghapusan secara paralel untuk efisiensi maksimum
+   - **Merebut kembali ruang disk dalam hitungan detik, bukan menit!** ️⏱️
 
-Hasil akhirnya? Runner GitHub Actions dengan ruang siap Nix **65GB sampai 130GB**! 😁
+Hasil akhirnya? Runner GitHub Actions dengan **65GB hingga 130GB** ruang siap Nix! 😁
 
 ### Pertumbuhan Volume Dinamis
+Tidak seperti solusi lain, **Nothing but Nix** memperbesar volume `/nix` Anda secara dinamis:
 
-Berbeda dengan solusi lain, **Nothing but Nix** menumbuhkan volume `/nix` Anda secara dinamis:
+1. **Pembuatan Volume Awal (1-10 detik):** (*tergantung pada Protokol Hatchet*)
+   - Membuat perangkat loop dari ruang kosong di `/mnt`
+   - Menyiapkan sistem berkas BTRFS dengan konfigurasi RAID0
+   - Melakukan mount dengan kompresi dan pengaturan performa
+   - Menyediakan `/nix` 65GB secara langsung, bahkan sebelum proses purge dimulai
 
-1. **Pembuatan Volume Awal (1-10 detik):** (*tergantung Hatchet Protocol*)
-   - Membuat perangkat loop dari ruang bebas di `/mnt`
-   - Mengatur filesystem BTRFS dalam konfigurasi RAID0
-   - Mount dengan kompresi dan penyetelan performa
-   - Menyediakan `/nix` 65GB langsung, bahkan sebelum pembersihan dimulai
-
-2. **Perluasan Latar Belakang (30-180 detik):** (*tergantung Hatchet Protocol*)
-   - Menjalankan operasi pembersihan
-   - Memantau ruang yang baru dibebaskan saat bloat dihapus
+2. **Perluasan Latar Belakang (30-180 detik):** (*tergantung pada Protokol Hatchet*)
+   - Menjalankan operasi purge
+   - Memantau ruang baru yang dibebaskan ketika bloat dihilangkan
    - Menambahkan disk ekspansi secara dinamis ke volume `/nix`
-   - Menyeimbangkan ulang filesystem untuk menggabungkan ruang baru
+   - Melakukan rebalance sistem berkas untuk menggabungkan ruang baru
 
 Volume `/nix` secara otomatis **bertambah selama eksekusi workflow** 🎩🪄
 
-### Pilih Senjata Anda: Hatchet Protocol 🪓
+### Pilih Senjatamu: Protokol Hatchet 🪓
 
-Kendalikan tingkat pemusnahan 💥 dengan input `hatchet-protocol`:
+Kendalikan tingkat penghancuran 💥 dengan input `hatchet-protocol`:
+
 
 ```yaml
 - uses: wimpysworld/nothing-but-nix@main
@@ -175,13 +177,56 @@ Beberapa installer atau konfigurasi Nix mengharapkan direktori `/nix` dapat ditu
   with:
     nix-permission-edict: true  # Default: false
 ```
-Ketika `nix-permission-edict` disetel ke `true`, aksi akan menjalankan `sudo chown -R "$(id --user)":"$(id --group)" /nix` setelah me-mount `/nix`.
 
-Sekarang pergilah dan bangun sesuatu yang menakjubkan dengan semua ruang Nix store yang luar biasa itu! ❄️
+Ketika `nix-permission-edict` disetel ke `true`, aksi akan menjalankan `sudo chown -R "$(id --user)":"$(id --group)" /nix` setelah melakukan mount pada `/nix`.
 
+### Konfigurasikan Nix untuk menggunakan /nix/build
+
+Aksi ini membuat `/nix/build` agar build derivasi Nix dapat menggunakan ruang yang sudah direklamasi. Tambahkan `build-dir` ke konfigurasi Nix Anda:
+
+```yaml
+- uses: cachix/install-nix-action@v31
+  with:
+    extra_nix_config: |
+      build-dir = /nix/build
+```
+
+Atau dengan DeterminateSystems:
+
+```yaml
+- uses: DeterminateSystems/nix-installer-action@main
+  with:
+    extra-conf: |
+      build-dir = /nix/build
+```
+
+Ini mengarahkan Nix untuk melakukan build pada volume BTRFS besar daripada direktori sementara default sistem.
+
+## Pemecahan Masalah 🔍
+
+### "Tidak ada ruang tersisa pada perangkat" selama build besar
+
+Jika build Anda kehabisan ruang meskipun hanya menggunakan Nix, kemungkinan besar karena proses pembersihan latar belakang belum selesai sebelum build Anda menggunakan ruang yang tersedia. Ini biasanya mempengaruhi:
+
+- Tes VM NixOS yang merakit image disk besar
+- Build dengan banyak dependensi yang belum di-cache
+- Toolchain Rust dan kompilasi besar lainnya
+
+**Solusi:** Gunakan `witness-carnage: true` untuk memaksa pembersihan sinkron. Ini memastikan semua ruang dibersihkan *sebelum* build Anda dimulai:
+
+```yaml
+- uses: wimpysworld/nothing-but-nix@main
+  with:
+    hatchet-protocol: 'rampage'
+    witness-carnage: true
+```
+
+Ini menambah 30-180 detik pada penyiapan alur kerja Anda, tetapi menjamin ruang maksimum tersedia saat build Anda dimulai.
+
+Sekarang pergi dan buat sesuatu yang menakjubkan dengan semua ruang Nix store yang luar biasa itu! ❄️
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-18
 
 ---

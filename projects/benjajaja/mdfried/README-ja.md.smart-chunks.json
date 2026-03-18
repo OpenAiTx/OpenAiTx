@@ -1,0 +1,734 @@
+[
+  {
+    "Id": 1,
+    "Content": "# mdfried\n\n`mdfried` is a markdown viewer for the terminal that renders headers as **Bigger Text** than the\nrest.\n\n## Screenshots\n\n![Screenshot](https://raw.githubusercontent.com/benjajaja/mdfried/master/./assets/screenshot_1.png)\n\n[Latest test screenshot array from `master`](https://benjajaja.github.io/mdfried-screenshots/)\n\n## Video\n\nhttps://github.com/user-attachments/assets/e69154a7-bea8-4e14-a677-be7ccf0d3cac\n\n# Why?\n\nYou can *[cook](https://ratatui.rs/)* a terminal. But can you **deep fry** a terminal?\n*YES!* You can **cook *and* fry** your `tty`! ~~Run before it's too late!~~\n\n> The terminal is usually in \"cooked\" mode, or canonical mode.\n> With `ratatui`🐁, it's in raw mode, but it \"cooks\" for you.\n\nMarkdown can obviously be rendered pretty well in terminals, but one key aspect is missing: \nBig Headers™ make text more readable, and rendering images inline is very convenient.\n\n# How?\n\nBy rendering the headers as [images with ratatui](https://github.com/benjajaja/ratatui-image),\nand using one of several terminal graphics protocols: Sixels, Kitty, or iTerm2.\nThe Kitty terminal also implements a [Text Sizing Protocol](https://sw.kovidgoyal.net/kitty/text-sizing-protocol/)\nto directly scale text without needing to render as images!\n\nSee [ratatui-image](https://github.com/benjajaja/ratatui-image?tab=readme-ov-file#compatibility-matrix)\nto see if your terminal does even have graphics support, and for further details.\n\nIn general, Kitty, WezTerm, iTerm2, Ghostty, Foot, `xterm -ti vt340`, *should* work.\n\nOn terminals without graphics whatsoever, like Alactritty, images are rendered with Chafa.\n",
+    "ContentSha": "q3+kmCDK+MenFkEYkNCipi+5h2UIywuLJ7jyguVKAnQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# mdfried\n\n`mdfried` は、ヘッダーを他のテキストよりも**大きな文字**で表示するターミナル用のMarkdownビューアです。\n\n## スクリーンショット\n\n![Screenshot](https://raw.githubusercontent.com/benjajaja/mdfried/master/./assets/screenshot_1.png)\n\n[`master` からの最新テストスクリーンショット配列](https://benjajaja.github.io/mdfried-screenshots/)\n\n## ビデオ\n\nhttps://github.com/user-attachments/assets/e69154a7-bea8-4e14-a677-be7ccf0d3cac\n\n# なぜ？\n\nターミナルを*[調理](https://ratatui.rs/)*できますが、ターミナルを**ディープフライ**できますか？\n*はい！* あなたの `tty` を**調理 *かつ* 揚げる**ことができます！ ~~手遅れになる前に走れ！~~\n\n> ターミナルは通常「調理済み」モード、つまりカノニカルモードです。\n> `ratatui`🐁 では、rawモードですが、「調理」を代わりに行います。\n\nMarkdownはターミナル上でかなり綺麗にレンダリングできますが、重要な要素が欠けています：\nBig Headers™ はテキストをより読みやすくし、画像をインラインで表示できるのは非常に便利です。\n\n# どうやって？\n\nヘッダーを [ratatuiでの画像](https://github.com/benjajaja/ratatui-image)としてレンダリングし、\nSixels、Kitty、iTerm2などの複数のターミナルグラフィックスプロトコルのいずれかを使用します。\nKittyターミナルはさらに、画像としてレンダリングせずにテキストを直接拡大できる\n[テキストサイズプロトコル](https://sw.kovidgoyal.net/kitty/text-sizing-protocol/)も実装しています！\n\nお使いのターミナルがグラフィックスをサポートしているかどうかや詳細は\n[ratatui-image](https://github.com/benjajaja/ratatui-image?tab=readme-ov-file#compatibility-matrix)をご覧ください。\n\n一般的に、Kitty、WezTerm、iTerm2、Ghostty、Foot、`xterm -ti vt340` は*動作する*はずです。\n\nAlacrittyのようにグラフィックスを全く持たないターミナルでは、Chafaで画像をレンダリングします。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oTkz4sMhaSUCCXmKqwbgPFcTCUP7boSICToJO7R1e/k=",
+        "originContent": "# mdfried",
+        "translatedContent": "# mdfried"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "1pfrF2Yt8zMt6nMFhea2alBJoxOr+0gKMD0xhb7PK7E=",
+        "originContent": "`mdfried` is a markdown viewer for the terminal that renders headers as **Bigger Text** than the",
+        "translatedContent": "`mdfried` は、ヘッダーを他のテキストよりも**大きな文字**で表示するターミナル用のMarkdownビューアです。"
+      },
+      {
+        "row": 4,
+        "rowsha": "/w85CV9rUlGaIfD3GPdabtqIgLDddqPNHp+jZVXQ3PU=",
+        "originContent": "rest.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## スクリーンショット"
+      },
+      {
+        "row": 6,
+        "rowsha": "CrQ1XO/et1agLOmJnlaLYfcfQdvL77gCZWQqAUysVwM=",
+        "originContent": "## Screenshots",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![Screenshot](https://raw.githubusercontent.com/benjajaja/mdfried/master/./assets/screenshot_1.png)"
+      },
+      {
+        "row": 8,
+        "rowsha": "pEO/D3tIdX7YiGO9NTgcIidEyy2GnS+YYiMNhiLA+I0=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/benjajaja/mdfried/master/./assets/screenshot_1.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[`master` からの最新テストスクリーンショット配列](https://benjajaja.github.io/mdfried-screenshots/)"
+      },
+      {
+        "row": 10,
+        "rowsha": "AWRKhjKQJizFXznbTT5M3iqvbEq3JwbBerJPGQNebrE=",
+        "originContent": "[Latest test screenshot array from `master`](https://benjajaja.github.io/mdfried-screenshots/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ビデオ"
+      },
+      {
+        "row": 12,
+        "rowsha": "CzwlXifKJgJ7as0aFWiTk2UxUXtwXbmyuLrPw2gnVXU=",
+        "originContent": "## Video",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "https://github.com/user-attachments/assets/e69154a7-bea8-4e14-a677-be7ccf0d3cac"
+      },
+      {
+        "row": 14,
+        "rowsha": "qAi7I21x1+4ObJKz3Zuw8l9gMEh+Ah+SWKOs5AeRexs=",
+        "originContent": "https://github.com/user-attachments/assets/e69154a7-bea8-4e14-a677-be7ccf0d3cac",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# なぜ？"
+      },
+      {
+        "row": 16,
+        "rowsha": "dPuYXMG7AWCCGoq3Tp1LY698NvZ4LD6f8HK8TSNN0GA=",
+        "originContent": "# Why?",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ターミナルを*[調理](https://ratatui.rs/)*できますが、ターミナルを**ディープフライ**できますか？"
+      },
+      {
+        "row": 18,
+        "rowsha": "yhLBExcsRwix4GJBJ9WPbLf9LJML/JW4r/sJtgaqAqk=",
+        "originContent": "You can *[cook](https://ratatui.rs/)* a terminal. But can you **deep fry** a terminal?",
+        "translatedContent": "*はい！* あなたの `tty` を**調理 *かつ* 揚げる**ことができます！ ~~手遅れになる前に走れ！~~"
+      },
+      {
+        "row": 19,
+        "rowsha": "bQVWesJ/+dHxfz/g0f9oq9rokl18oXvw5jhw6Mc1pu8=",
+        "originContent": "*YES!* You can **cook *and* fry** your `tty`! ~~Run before it's too late!~~",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> ターミナルは通常「調理済み」モード、つまりカノニカルモードです。"
+      },
+      {
+        "row": 21,
+        "rowsha": "MwkPX9odL3XKWrt6ToZ8CmFB1XjxwCxlt9tpHjT1bAE=",
+        "originContent": "> The terminal is usually in \"cooked\" mode, or canonical mode.",
+        "translatedContent": "> `ratatui`🐁 では、rawモードですが、「調理」を代わりに行います。"
+      },
+      {
+        "row": 22,
+        "rowsha": "zxWa117Y7ugf+Sn5GN0r4nSd2/9PSKYheaiIxYTUkw4=",
+        "originContent": "> With `ratatui`🐁, it's in raw mode, but it \"cooks\" for you.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Markdownはターミナル上でかなり綺麗にレンダリングできますが、重要な要素が欠けています："
+      },
+      {
+        "row": 24,
+        "rowsha": "X1LB8VwpH/40hMKtvoPh8g381g0XYYF2Oi3NW3jAD/k=",
+        "originContent": "Markdown can obviously be rendered pretty well in terminals, but one key aspect is missing: ",
+        "translatedContent": "Big Headers™ はテキストをより読みやすくし、画像をインラインで表示できるのは非常に便利です。"
+      },
+      {
+        "row": 25,
+        "rowsha": "eJeDn3XSE/6QOA1eBFpj7tRBYt3admnj+NooLcL67ho=",
+        "originContent": "Big Headers™ make text more readable, and rendering images inline is very convenient.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# どうやって？"
+      },
+      {
+        "row": 27,
+        "rowsha": "Ldy4IZ0hjDIq93mBPg/qGYRnytzJrIwpApkkJiaZhpY=",
+        "originContent": "# How?",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ヘッダーを [ratatuiでの画像](https://github.com/benjajaja/ratatui-image)としてレンダリングし、"
+      },
+      {
+        "row": 29,
+        "rowsha": "QbeYBJJlHCWNzn7JwJ05fXkboz+a9vIMVb0izULCMK8=",
+        "originContent": "By rendering the headers as [images with ratatui](https://github.com/benjajaja/ratatui-image),",
+        "translatedContent": "Sixels、Kitty、iTerm2などの複数のターミナルグラフィックスプロトコルのいずれかを使用します。"
+      },
+      {
+        "row": 30,
+        "rowsha": "6D60xRxkHtmOuZPfGKZxd/WENeBEWgFVcDfWlEVW3Is=",
+        "originContent": "and using one of several terminal graphics protocols: Sixels, Kitty, or iTerm2.",
+        "translatedContent": "Kittyターミナルはさらに、画像としてレンダリングせずにテキストを直接拡大できる"
+      },
+      {
+        "row": 31,
+        "rowsha": "MZjUhQXVfxpCW8VSNlYisgIBy7uCCay+qsIDCZMbpko=",
+        "originContent": "The Kitty terminal also implements a [Text Sizing Protocol](https://sw.kovidgoyal.net/kitty/text-sizing-protocol/)",
+        "translatedContent": "[テキストサイズプロトコル](https://sw.kovidgoyal.net/kitty/text-sizing-protocol/)も実装しています！"
+      },
+      {
+        "row": 32,
+        "rowsha": "AqDay38ub+8mokjTiNIsEULRfKSaDhvDpCtnhJQpgrc=",
+        "originContent": "to directly scale text without needing to render as images!",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "お使いのターミナルがグラフィックスをサポートしているかどうかや詳細は"
+      },
+      {
+        "row": 34,
+        "rowsha": "DIZhEaYgE7cJVs5rCAr6SqpLB+sy3hs22q62ePFd1Oc=",
+        "originContent": "See [ratatui-image](https://github.com/benjajaja/ratatui-image?tab=readme-ov-file#compatibility-matrix)",
+        "translatedContent": "[ratatui-image](https://github.com/benjajaja/ratatui-image?tab=readme-ov-file#compatibility-matrix)をご覧ください。"
+      },
+      {
+        "row": 35,
+        "rowsha": "0a9MOYQa+naZlOHVgLvvf6FkXFp1ZZBtTSI40lAVhMg=",
+        "originContent": "to see if your terminal does even have graphics support, and for further details.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "一般的に、Kitty、WezTerm、iTerm2、Ghostty、Foot、`xterm -ti vt340` は*動作する*はずです。"
+      },
+      {
+        "row": 37,
+        "rowsha": "nE9iuTUqtkl4+euhkpIXFUDwN/L41oJ5KRP2zR05CvU=",
+        "originContent": "In general, Kitty, WezTerm, iTerm2, Ghostty, Foot, `xterm -ti vt340`, *should* work.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Alacrittyのようにグラフィックスを全く持たないターミナルでは、Chafaで画像をレンダリングします。"
+      },
+      {
+        "row": 39,
+        "rowsha": "Ab6gBVXMh74Xo6XiUOVbDH8rzFvGoxPrhqy8EP9K3Q0=",
+        "originContent": "On terminals without graphics whatsoever, like Alactritty, images are rendered with Chafa.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "# Installation\n\n* Rust cargo: `cargo install mdfried`\n  * From source : `cargo install --path .`\n  * Needs a chafa package with development headers, usually called something like `libchafa-dev`, `libchafa-devel`, or just `libchafa`, or even just `chafa`.\n  * If chafa is not available at all, or you don't care about it because your terminal supports some graphic protocol, then use `--no-default-features`.\n  * If `cargo install ...` fails, try it with `--locked`, and/or report an issue.\n* Nix flake: `github:benjajaja/mdfried`\n* Nixpkgs: [`mdfried`](https://search.nixos.org/packages?channel=unstable&query=mdfried)\n* Arch Linux: `pacman -S mdfried` ([extra repository](https://archlinux.org/packages/extra/x86_64/mdfried/))\n* Ubuntu: [Download release .deb](https://github.com/benjajaja/mdfried/releases/latest)\n* Mac: `brew install mdfried` or [realease binaries](https://github.com/benjajaja/mdfried/releases/latest)\n* Windows: [Download release .exe](https://github.com/benjajaja/mdfried/releases/latest)\n\n# Usage\n\n### Running\n",
+    "ContentSha": "Lkm2vZskufHxQmLHa/9cl+6GE+53OSA7uaR3jq8wjPI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# インストール\n\n* Rust cargo: `cargo install mdfried`\n  * ソースから : `cargo install --path .`\n  * 通常は `libchafa-dev`、`libchafa-devel`、または単に `libchafa`、あるいは `chafa` と呼ばれる開発用ヘッダ付きの chafa パッケージが必要です。\n  * chafa がまったく利用できない、または端末が何らかのグラフィックプロトコルをサポートしているため気にしない場合は、`--no-default-features` を使用してください。\n  * `cargo install ...` が失敗した場合は、`--locked` オプションを付けて試すか、問題を報告してください。\n* Nix flake: `github:benjajaja/mdfried`\n* Nixpkgs: [`mdfried`](https://search.nixos.org/packages?channel=unstable&query=mdfried)\n* Arch Linux: `pacman -S mdfried` ([extra リポジトリ](https://archlinux.org/packages/extra/x86_64/mdfried/))\n* Ubuntu: [リリース .deb をダウンロード](https://github.com/benjajaja/mdfried/releases/latest)\n* Mac: `brew install mdfried` または [リリースバイナリ](https://github.com/benjajaja/mdfried/releases/latest)\n* Windows: [リリース .exe をダウンロード](https://github.com/benjajaja/mdfried/releases/latest)\n\n# 使い方\n\n### 実行方法\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oEvHgiQZPffZY71LXkD7wBebC/0+TjyYxWZNyVCJCpU=",
+        "originContent": "# Installation",
+        "translatedContent": "# インストール"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "wsEIpB3ceMevym7EqpAB5B3skavSNde201NJVZrM69Q=",
+        "originContent": "* Rust cargo: `cargo install mdfried`",
+        "translatedContent": "* Rust cargo: `cargo install mdfried`"
+      },
+      {
+        "row": 4,
+        "rowsha": "yaxegIlCdxi9Ygz2vm6PbplpRIa+BRmx9ku6wZV4sOo=",
+        "originContent": "  * From source : `cargo install --path .`",
+        "translatedContent": "  * ソースから : `cargo install --path .`"
+      },
+      {
+        "row": 5,
+        "rowsha": "m26kBsXolGSaqqbFw5imktlXPCiBv4zHWEAtMmCn+4Y=",
+        "originContent": "  * Needs a chafa package with development headers, usually called something like `libchafa-dev`, `libchafa-devel`, or just `libchafa`, or even just `chafa`.",
+        "translatedContent": "  * 通常は `libchafa-dev`、`libchafa-devel`、または単に `libchafa`、あるいは `chafa` と呼ばれる開発用ヘッダ付きの chafa パッケージが必要です。"
+      },
+      {
+        "row": 6,
+        "rowsha": "//7V0cS5rGWJ3JenA1WtCaADQFe5qAuP09TuCJe8VI0=",
+        "originContent": "  * If chafa is not available at all, or you don't care about it because your terminal supports some graphic protocol, then use `--no-default-features`.",
+        "translatedContent": "  * chafa がまったく利用できない、または端末が何らかのグラフィックプロトコルをサポートしているため気にしない場合は、`--no-default-features` を使用してください。"
+      },
+      {
+        "row": 7,
+        "rowsha": "rO1skARMh3+cXsBabEqJiF+K3M/UZIbA7Jk0rtpN0eo=",
+        "originContent": "  * If `cargo install ...` fails, try it with `--locked`, and/or report an issue.",
+        "translatedContent": "  * `cargo install ...` が失敗した場合は、`--locked` オプションを付けて試すか、問題を報告してください。"
+      },
+      {
+        "row": 8,
+        "rowsha": "hH+ZfM2doY6vlofWM6ldSXIpJb4oEBL+aoKqNaqw7N4=",
+        "originContent": "* Nix flake: `github:benjajaja/mdfried`",
+        "translatedContent": "* Nix flake: `github:benjajaja/mdfried`"
+      },
+      {
+        "row": 9,
+        "rowsha": "G9Sm580IxaPrkYj2xhrABRFevXBTlbBx2qoyxHV15Do=",
+        "originContent": "* Nixpkgs: [`mdfried`](https://search.nixos.org/packages?channel=unstable&query=mdfried)",
+        "translatedContent": "* Nixpkgs: [`mdfried`](https://search.nixos.org/packages?channel=unstable&query=mdfried)"
+      },
+      {
+        "row": 10,
+        "rowsha": "Jq7aqXM82V9K/JUZ/efJ8XstiFUzQDZxzuz+3eJh9j4=",
+        "originContent": "* Arch Linux: `pacman -S mdfried` ([extra repository](https://archlinux.org/packages/extra/x86_64/mdfried/))",
+        "translatedContent": "* Arch Linux: `pacman -S mdfried` ([extra リポジトリ](https://archlinux.org/packages/extra/x86_64/mdfried/))"
+      },
+      {
+        "row": 11,
+        "rowsha": "wyTq5zphh1WT9+qVZSiA1OviqjgE3HKi/hKsqfZN3Hc=",
+        "originContent": "* Ubuntu: [Download release .deb](https://github.com/benjajaja/mdfried/releases/latest)",
+        "translatedContent": "* Ubuntu: [リリース .deb をダウンロード](https://github.com/benjajaja/mdfried/releases/latest)"
+      },
+      {
+        "row": 12,
+        "rowsha": "sw6J0CAy9kV3J3qpr7NO6H0RDORnowDRDGoM3uthKpQ=",
+        "originContent": "* Mac: `brew install mdfried` or [realease binaries](https://github.com/benjajaja/mdfried/releases/latest)",
+        "translatedContent": "* Mac: `brew install mdfried` または [リリースバイナリ](https://github.com/benjajaja/mdfried/releases/latest)"
+      },
+      {
+        "row": 13,
+        "rowsha": "BJiXYBQUB+o0a9V7sWf8SCfVDRtPLZtjCEXABe+hJag=",
+        "originContent": "* Windows: [Download release .exe](https://github.com/benjajaja/mdfried/releases/latest)",
+        "translatedContent": "* Windows: [リリース .exe をダウンロード](https://github.com/benjajaja/mdfried/releases/latest)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "VQl64phXBjjplyWiGKNjjWZLPM0chOlnOxoC73zDU/k=",
+        "originContent": "# Usage",
+        "translatedContent": "# 使い方"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "5iPSR1DDKtPdTS5aRELEMPZT/b5NWuopRq5oAhD3zc4=",
+        "originContent": "### Running",
+        "translatedContent": "### 実行方法"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```\nmdfried ./path/to.md\n```",
+    "ContentSha": "hUQhn9CZ9ueUAQPoOGycR/AFuRBcgVTs1Yq7n8U8G1Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nmdfried ./path/to.md\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "eLQFV9ddee/BQZWSqfjJ+hbVQHaD5EP9oP1dOJOQ9H0=",
+        "originContent": "mdfried ./path/to.md",
+        "translatedContent": "mdfried ./path/to.md"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nUnless you're using Kitty version 0.40 or greater, or a terminal that does not support any graphics\nprotocol, the first time you run `mdfried` you will have to pick a font.\nYou should pick the same font that your terminal is using, but you could pick any.\nThe font-setup screen lets you search the system fonts - you will want to pick the same font that\nyour terminal is using.\nThe font is rendered directly as a preview.\nOnce confirmed, the choice is written into the configuration file.\n\nUse `--setup` to force the font-setup again if the font is not right.\n\nYou can also pipe markdown into it:\n",
+    "ContentSha": "1khyn8fPXkZphl5Ew7XQGUE3vYdN63HEr7vGkbMWC4k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nKittyのバージョンが0.40以上でない場合、またはグラフィックスプロトコルをサポートしない端末を使用している場合、\n初めて`mdfried`を実行するとフォントを選択する必要があります。\n端末で使用しているのと同じフォントを選択するのが望ましいですが、任意のフォントを選ぶことも可能です。\nフォント設定画面ではシステムフォントを検索でき、端末で使用している同じフォントを選択するのが良いでしょう。\nフォントはプレビューとして直接レンダリングされます。\n確認後、その選択は設定ファイルに書き込まれます。\n\nフォントが正しくない場合は、`--setup`を使って再度フォント設定を強制できます。\n\nMarkdownをパイプで渡すことも可能です：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "SJzOphjZ2lWlhXAjpeKn3v8so3rW7aDaOVk4HqQN9wg=",
+        "originContent": "Unless you're using Kitty version 0.40 or greater, or a terminal that does not support any graphics",
+        "translatedContent": "Kittyのバージョンが0.40以上でない場合、またはグラフィックスプロトコルをサポートしない端末を使用している場合、"
+      },
+      {
+        "row": 3,
+        "rowsha": "eVoATLWKpZIOGz9GfCjbWrgKlkG9DoEyE4rmEf9jpnE=",
+        "originContent": "protocol, the first time you run `mdfried` you will have to pick a font.",
+        "translatedContent": "初めて`mdfried`を実行するとフォントを選択する必要があります。"
+      },
+      {
+        "row": 4,
+        "rowsha": "Y+vVylQnxgdceUZGGNMs3iAb0eHhEWJO7mznQnB/3q4=",
+        "originContent": "You should pick the same font that your terminal is using, but you could pick any.",
+        "translatedContent": "端末で使用しているのと同じフォントを選択するのが望ましいですが、任意のフォントを選ぶことも可能です。"
+      },
+      {
+        "row": 5,
+        "rowsha": "wfQYNcMlmmlKU/S9yy6SvFp2y3XY4VjTAWVBbU/s1jM=",
+        "originContent": "The font-setup screen lets you search the system fonts - you will want to pick the same font that",
+        "translatedContent": "フォント設定画面ではシステムフォントを検索でき、端末で使用している同じフォントを選択するのが良いでしょう。"
+      },
+      {
+        "row": 6,
+        "rowsha": "pEaoyXQo8WQjX4toHPryceWPNAG9LaFeLsGX61RrW4I=",
+        "originContent": "your terminal is using.",
+        "translatedContent": "フォントはプレビューとして直接レンダリングされます。"
+      },
+      {
+        "row": 7,
+        "rowsha": "ukWNAFbP590gdvV8ZDOMhyfzS7jwgNFGbsqUkWlRpoA=",
+        "originContent": "The font is rendered directly as a preview.",
+        "translatedContent": "確認後、その選択は設定ファイルに書き込まれます。"
+      },
+      {
+        "row": 8,
+        "rowsha": "qAaHKRUupKvxVkXU0L+E7oe795PFd7tc4bEjnQoXWWk=",
+        "originContent": "Once confirmed, the choice is written into the configuration file.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "フォントが正しくない場合は、`--setup`を使って再度フォント設定を強制できます。"
+      },
+      {
+        "row": 10,
+        "rowsha": "oJWP1VEDRJMywBORpw8PXLKt/uKBIKepGb2+emRD/Rk=",
+        "originContent": "Use `--setup` to force the font-setup again if the font is not right.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Markdownをパイプで渡すことも可能です："
+      },
+      {
+        "row": 12,
+        "rowsha": "oAh+sFVEua1tjnWtKRJ0d1S9w4unp6TRnBpxkSVrOw8=",
+        "originContent": "You can also pipe markdown into it:",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```\nreadable https://lobste.rs | markdownify | mdfried\n```",
+    "ContentSha": "pfIsG5b6RNiwOhgjlJcOa8oAaCn4YoFsHLWyJmE4UJ4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nreadable https://lobste.rs | markdownify | mdfried\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "jGYqokEJUi0BxRAAC432ndJ9W66kk6Hg6ftAcMy3N4c=",
+        "originContent": "readable https://lobste.rs | markdownify | mdfried",
+        "translatedContent": "readable https://lobste.rs | markdownify | mdfried"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n### Key bindings\n\nKey | Description\n----|------------\n`q` or `Ctrl-c` | Quit and leave contents on terminal\n`r` | Reload the file (unless piped stdin)\n`j` | Scroll down one line\n`k` | Scroll up one line\n`d` or `Ctrl-d` | Scroll down half page\n`u` or `Ctrl-u` | Scroll up half page\n`f` or `PageDown` or `Space` | Scroll down a page\n`b` or `PageUp` | Scroll up a page\n`g` | Go to start of file\n`G` | Go to end of file\n`<number>G` or `<number>g` | Go to the string #\\<number>\n`/` | Search text\n`n` | Jump to next match or link\n`N` | Jump to previous match or link\n`Enter` | Open selected link with `xdg-open`\n`Esc` | Leave search or link modes\n\nEntering a number before motion applies the motion that many times.\n\nMouse scroll only works if enabled in settings as `enable_mouse_capture = true`, but then you can't\nselect text.\n\n### Configuration\n\n`~/.config/mdfried/config.toml` is automatically created on first run.\n\n",
+    "ContentSha": "JsZ8/K9LFvDwqGni663P+g4SizNwk25znpZpvmRjMik=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### キーバインディング\n\nキー | 説明\n----|------------\n`q` または `Ctrl-c` | 終了して端末に内容を残す\n`r` | ファイルを再読み込み（パイプされた標準入力では無効）\n`j` | 1行スクロールダウン\n`k` | 1行スクロールアップ\n`d` または `Ctrl-d` | 半ページスクロールダウン\n`u` または `Ctrl-u` | 半ページスクロールアップ\n`f` または `PageDown` または `Space` | 1ページスクロールダウン\n`b` または `PageUp` | 1ページスクロールアップ\n`g` | ファイルの先頭へ移動\n`G` | ファイルの末尾へ移動\n`<number>G` または `<number>g` | 番号#\\<number>の文字列へ移動\n`/` | テキスト検索\n`n` | 次の一致またはリンクへジャンプ\n`N` | 前の一致またはリンクへジャンプ\n`Enter` | 選択したリンクを `xdg-open` で開く\n`Esc` | 検索またはリンクモードを終了\n\n移動の前に数字を入力すると、その回数だけ移動が適用されます。\n\nマウススクロールは設定で `enable_mouse_capture = true` にすると動作しますが、\nその場合テキストの選択はできません。\n\n### 設定\n\n`~/.config/mdfried/config.toml` は初回起動時に自動的に作成されます。\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### キーバインディング"
+      },
+      {
+        "row": 2,
+        "rowsha": "/RiPRD4g9HgQEWD9aXdslVuyTiyc6C9aVCvz8NQV3PU=",
+        "originContent": "### Key bindings",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "キー | 説明"
+      },
+      {
+        "row": 4,
+        "rowsha": "hwaVBc/x/8xfCiLqc772QkSrXSdBHwVP0RIc8LAhZg0=",
+        "originContent": "Key | Description",
+        "translatedContent": "----|------------"
+      },
+      {
+        "row": 5,
+        "rowsha": "rKGJfJ6HzxQcXPVLp/DOCN0gpcDmMdgTm2Ep9dK+n+Y=",
+        "originContent": "----|------------",
+        "translatedContent": "`q` または `Ctrl-c` | 終了して端末に内容を残す"
+      },
+      {
+        "row": 6,
+        "rowsha": "Emu3sZtU5TVTkMuYSgPyfjVuew9pj3u1jk1Ci55s3pc=",
+        "originContent": "`q` or `Ctrl-c` | Quit and leave contents on terminal",
+        "translatedContent": "`r` | ファイルを再読み込み（パイプされた標準入力では無効）"
+      },
+      {
+        "row": 7,
+        "rowsha": "UuVSN0zX8UBSbIhjtK6qg4rjZlz5HK4ur+yQtnIQBSw=",
+        "originContent": "`r` | Reload the file (unless piped stdin)",
+        "translatedContent": "`j` | 1行スクロールダウン"
+      },
+      {
+        "row": 8,
+        "rowsha": "/Gjjm/WUSNM3EL8WzVQrvZdOmu/FqZBneJi+5Z1smIA=",
+        "originContent": "`j` | Scroll down one line",
+        "translatedContent": "`k` | 1行スクロールアップ"
+      },
+      {
+        "row": 9,
+        "rowsha": "5lpUQoGpBtyjj7cjsk2z/X7JbD8pHo2Fef4C99gZgj8=",
+        "originContent": "`k` | Scroll up one line",
+        "translatedContent": "`d` または `Ctrl-d` | 半ページスクロールダウン"
+      },
+      {
+        "row": 10,
+        "rowsha": "R8QkL2h+dT9jyz2NTCtUeTvk8m/TMzg06t+rURSPRhY=",
+        "originContent": "`d` or `Ctrl-d` | Scroll down half page",
+        "translatedContent": "`u` または `Ctrl-u` | 半ページスクロールアップ"
+      },
+      {
+        "row": 11,
+        "rowsha": "UyNm28l1GcrtmSW5sZ9YLReiSoORmAv1/6W/Vx40BnA=",
+        "originContent": "`u` or `Ctrl-u` | Scroll up half page",
+        "translatedContent": "`f` または `PageDown` または `Space` | 1ページスクロールダウン"
+      },
+      {
+        "row": 12,
+        "rowsha": "4+/ems0ObVBnWpjPYQSwsPaDgLtizf4YMf6OoKelKXo=",
+        "originContent": "`f` or `PageDown` or `Space` | Scroll down a page",
+        "translatedContent": "`b` または `PageUp` | 1ページスクロールアップ"
+      },
+      {
+        "row": 13,
+        "rowsha": "w+8lezs3HiJknEyonTBAH68cgCpSRxxY/m4ff5LKcRA=",
+        "originContent": "`b` or `PageUp` | Scroll up a page",
+        "translatedContent": "`g` | ファイルの先頭へ移動"
+      },
+      {
+        "row": 14,
+        "rowsha": "YJOggAEZIhJJeOpaoCAckmx5o5ECeQ6ehCzLAEYOe4A=",
+        "originContent": "`g` | Go to start of file",
+        "translatedContent": "`G` | ファイルの末尾へ移動"
+      },
+      {
+        "row": 15,
+        "rowsha": "ZtqnFjkDluiaTa+oCnRKvkOVBcIpmvlwddvxUb9MyxI=",
+        "originContent": "`G` | Go to end of file",
+        "translatedContent": "`<number>G` または `<number>g` | 番号#\\<number>の文字列へ移動"
+      },
+      {
+        "row": 16,
+        "rowsha": "CoL07HeqJKyLwE4pVYhbS8JSyLxu/C8WOCTxTWSty0k=",
+        "originContent": "`<number>G` or `<number>g` | Go to the string #\\<number>",
+        "translatedContent": "`/` | テキスト検索"
+      },
+      {
+        "row": 17,
+        "rowsha": "qLjl1YRxzRA0LBvgHrOkb7PUpZriEci49GaUwGr0teo=",
+        "originContent": "`/` | Search text",
+        "translatedContent": "`n` | 次の一致またはリンクへジャンプ"
+      },
+      {
+        "row": 18,
+        "rowsha": "BU5cIBVYGN0oXR77XaiAVHu7sE2YPgV5y9IUu2oqank=",
+        "originContent": "`n` | Jump to next match or link",
+        "translatedContent": "`N` | 前の一致またはリンクへジャンプ"
+      },
+      {
+        "row": 19,
+        "rowsha": "K44I5qFnelM9pskadE4sc7DNyiOEm3/E+A1QRMCCvmg=",
+        "originContent": "`N` | Jump to previous match or link",
+        "translatedContent": "`Enter` | 選択したリンクを `xdg-open` で開く"
+      },
+      {
+        "row": 20,
+        "rowsha": "JCPTH/CxN8zE3OJ+DcuUXclZG3Q238EGltpi8SCYft4=",
+        "originContent": "`Enter` | Open selected link with `xdg-open`",
+        "translatedContent": "`Esc` | 検索またはリンクモードを終了"
+      },
+      {
+        "row": 21,
+        "rowsha": "rX/JepuImn2dJP9ftzOMArtx4ZI+Isiae0NCyEccD+0=",
+        "originContent": "`Esc` | Leave search or link modes",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "移動の前に数字を入力すると、その回数だけ移動が適用されます。"
+      },
+      {
+        "row": 23,
+        "rowsha": "tv4ctjgbg+SrWcR522e9+dxX2KqdVNxDaq2XQBKCyAQ=",
+        "originContent": "Entering a number before motion applies the motion that many times.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "マウススクロールは設定で `enable_mouse_capture = true` にすると動作しますが、"
+      },
+      {
+        "row": 25,
+        "rowsha": "JIBfLaG1iJ9XDkVcDzw4WGKtbtT7Ajsza0/NIbJDVVY=",
+        "originContent": "Mouse scroll only works if enabled in settings as `enable_mouse_capture = true`, but then you can't",
+        "translatedContent": "その場合テキストの選択はできません。"
+      },
+      {
+        "row": 26,
+        "rowsha": "2xzsrCbr5lYKlYgmYHP/FFQlbzWVAusG0ScPOKl/60E=",
+        "originContent": "select text.",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 設定"
+      },
+      {
+        "row": 28,
+        "rowsha": "98At/CiRBusRICW0AL9EXH1YxHZNTZejcnKdG0hNBsI=",
+        "originContent": "### Configuration",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`~/.config/mdfried/config.toml` は初回起動時に自動的に作成されます。"
+      },
+      {
+        "row": 30,
+        "rowsha": "bQRiZxCnai1/UJO93n4ZZMjItTfTjHvXxAp4biwAE2o=",
+        "originContent": "`~/.config/mdfried/config.toml` is automatically created on first run.",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

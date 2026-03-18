@@ -29,12 +29,12 @@
   </details>
 </div>
 
-# Nothing but Nix
+# Nada más que Nix
 
 **Transforma tu runner de GitHub Actions en una potencia [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ eliminando sin piedad el software preinstalado innecesario.**
 
 Los runners de GitHub Actions vienen con un espacio en disco escaso para Nix: apenas ~20GB.
-*Nothing but Nix* **elimina brutalmente** el software innecesario, ¡dándote **65GB a 130GB** para tu Nix store! 💪
+*Nada más que Nix* **elimina brutalmente** el software innecesario, ¡dándote **65GB a 130GB** para tu Nix store! 💪
 
 ## Uso 🔧
 
@@ -60,61 +60,63 @@ jobs:
 
 ### Requisitos ️✔️
 
-- Solo es compatible con los runners oficiales de **Ubuntu** en GitHub Actions
-- Debe ejecutarse **antes** de que se instale Nix
+- Solo admite runners oficiales de **Ubuntu** para GitHub Actions
+- Debe ejecutarse **antes** de instalar Nix
+- **Runners macOS/Darwin**: Esta acción se saltará de forma elegante con una advertencia si se ejecuta en macOS. Los runners macOS ya proporcionan suficiente espacio para Nix y no requieren esta acción
+- **Runners Windows**: Esta acción se saltará de forma elegante con una advertencia si se ejecuta en Windows. Los runners Windows tienen diferentes diseños y restricciones de sistema de archivos
 
-## El Problema: Haciendo Espacio para que Nix Prospere 🌱
+## El Problema: Haciendo Espacio para que Nix Prospera 🌱
 
 Los runners estándar de GitHub Actions están llenos de *"bloatware"* que nunca usarás en un flujo de trabajo Nix:
 
 - 🌍 Navegadores web. Muchos de ellos. ¡Hay que tenerlos todos!
-- 🐳 Imágenes de Docker consumiendo gigabytes de valioso espacio en disco
-- 💻 Entornos de ejecución de lenguajes innecesarios (.NET, Ruby, PHP, Java...)
+- 🐳 Imágenes Docker consumiendo gigabytes de valioso espacio en disco
+- 💻 Runtimes de lenguajes innecesarios (.NET, Ruby, PHP, Java...)
 - 📦 Gestores de paquetes acumulando polvo digital
-- 📚 Documentación que nadie jamás leerá
+- 📚 Documentación que nadie leerá jamás
 
-Este exceso deja solo ~20GB para tu almacén Nix, ¡apenas suficiente para compilaciones Nix serias! 😞
+Este exceso deja solo ~20GB para tu Nix store - ¡apenas suficiente para builds serios de Nix! 😞
 
-## La Solución: Nada más que Nix ️❄️
+## La Solución: Nada Más que Nix ️❄️
 
-**Nada más que Nix** aplica una estrategia de tierra arrasada a los runners de GitHub Actions y recupera espacio en disco sin piedad usando un ataque en dos fases:
+**Nada Más que Nix** adopta un enfoque radical sobre los runners de GitHub Actions y recupera espacio en disco sin piedad usando un ataque en dos fases:
 
 1. **Corte Inicial:** Crea instantáneamente un gran volumen `/nix` (~65GB) reclamando espacio libre de `/mnt`
-2. **Ataque en Segundo Plano:** Mientras tu flujo de trabajo continúa, eliminamos sin piedad el software innecesario para expandir tu volumen `/nix` hasta ~130GB
+2. **Devastación en Segundo Plano:** Mientras tu flujo de trabajo continúa, eliminamos de manera implacable software innecesario para expandir tu volumen `/nix` hasta ~130GB
    - ¿Navegadores web? No ⛔
-   - ¿Imágenes de Docker? Eliminadas 🗑️
-   - ¿Entornos de ejecución? Borrados 💥
+   - ¿Imágenes Docker? Eliminadas 🗑️
+   - ¿Runtimes de lenguajes? Desintegrados 💥
    - ¿Gestores de paquetes? Aniquilados 💣
    - ¿Documentación? Vaporizada ️👻
 
-La purga del sistema de archivos es impulsada por `rmz` (del proyecto [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc)) - una alternativa de alto rendimiento a `rm` que hace que la recuperación de espacio sea rapidísima ⚡
+La purga del sistema de archivos está impulsada por `rmz` (del proyecto [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc)) - una alternativa de alto rendimiento a `rm` que hace la recuperación de espacio súper rápida ⚡
    - Supera al `rm` estándar por un orden de magnitud
-   - Elimina en paralelo para máxima eficiencia
-   - **¡Recupera espacio en segundos en vez de minutos!** ️⏱️
+   - Borra en paralelo para máxima eficiencia
+   - **¡Recupera espacio en disco en segundos en vez de minutos!** ️⏱️
 
 ¿El resultado final? ¡Un runner de GitHub Actions con **65GB a 130GB** de espacio listo para Nix! 😁
 
-### Crecimiento Dinámico del Volumen
+### Crecimiento Dinámico de Volumen
+A diferencia de otras soluciones, **Nada más que Nix** hace que tu volumen `/nix` crezca dinámicamente:
 
-A diferencia de otras soluciones, **Nada más que Nix** hace crecer tu volumen `/nix` dinámicamente:
-
-1. **Creación Inicial de Volumen (1-10 segundos):** (*dependiendo del Protocolo Hatchet*)
+1. **Creación Inicial del Volumen (1-10 segundos):** (*dependiendo del Protocolo Hatchet*)
    - Crea un dispositivo de bucle a partir del espacio libre en `/mnt`
    - Configura un sistema de archivos BTRFS en modo RAID0
-   - Monta con compresión y ajustes de rendimiento
+   - Monta con compresión y ajuste de rendimiento
    - Proporciona un `/nix` de 65GB de inmediato, incluso antes de que comience la purga
 
 2. **Expansión en Segundo Plano (30-180 segundos):** (*dependiendo del Protocolo Hatchet*)
    - Ejecuta operaciones de purga
-   - Monitorea el espacio recién liberado a medida que se elimina el bloat
+   - Monitorea el espacio recientemente liberado a medida que se elimina la sobrecarga
    - Agrega dinámicamente un disco de expansión al volumen `/nix`
-   - Rebalancea el sistema de archivos para incorporar el nuevo espacio
+   - Reequilibra el sistema de archivos para incorporar el nuevo espacio
 
 El volumen `/nix` **crece automáticamente durante la ejecución del flujo de trabajo** 🎩🪄
 
-### Elige Tu Arma: El Protocolo Hatchet 🪓
+### Elige tu arma: El Protocolo Hatchet 🪓
 
-Controla el nivel de aniquilación 💥 con el parámetro de entrada `hatchet-protocol`:
+Controla el nivel de aniquilación 💥 con la entrada `hatchet-protocol`:
+
 
 ```yaml
 - uses: wimpysworld/nothing-but-nix@main
@@ -176,12 +178,55 @@ Algunos instaladores o configuraciones de Nix esperan que el directorio `/nix` s
     nix-permission-edict: true  # Default: false
 ```
 
-Cuando `nix-permission-edict` está configurado en `true`, la acción ejecutará `sudo chown -R "$(id --user)":"$(id --group)" /nix` después de montar `/nix`.
+Cuando `nix-permission-edict` está configurado como `true`, la acción ejecutará `sudo chown -R "$(id --user)":"$(id --group)" /nix` después de montar `/nix`.
 
-¡Ahora ve y construye algo asombroso con todo ese glorioso espacio del Nix store! ❄️
+### Configurar Nix para usar /nix/build
+
+Esta acción crea `/nix/build` para que las derivaciones de Nix usen el espacio recuperado. Añada `build-dir` a su configuración de Nix:
+
+```yaml
+- uses: cachix/install-nix-action@v31
+  with:
+    extra_nix_config: |
+      build-dir = /nix/build
+```
+
+O con DeterminateSystems:
+
+```yaml
+- uses: DeterminateSystems/nix-installer-action@main
+  with:
+    extra-conf: |
+      build-dir = /nix/build
+```
+Esto indica a Nix que realice las construcciones en el volumen BTRFS grande en lugar del directorio temporal predeterminado del sistema.
+
+## Solución de problemas 🔍
+
+### "No queda espacio en el dispositivo" durante construcciones grandes
+
+Si tu construcción se queda sin espacio a pesar de usar solo Nix, probablemente se deba a que la depuración en segundo plano no se ha completado antes de que tu construcción consuma el espacio disponible. Esto afecta comúnmente a:
+
+- Pruebas de VM de NixOS que ensamblan imágenes de disco grandes
+- Construcciones con muchas dependencias que no están en caché
+- Toolchains de Rust y otras compilaciones grandes
+
+**Solución:** Usa `witness-carnage: true` para forzar la depuración sincrónica. Esto asegura que todo el espacio se recupere *antes* de que tu construcción comience:
+
+
+```yaml
+- uses: wimpysworld/nothing-but-nix@main
+  with:
+    hatchet-protocol: 'rampage'
+    witness-carnage: true
+```
+
+Esto añade entre 30 y 180 segundos a la configuración de tu flujo de trabajo, pero garantiza que tendrás el máximo espacio disponible cuando comience tu compilación.
+
+¡Ahora ve y construye algo increíble con todo ese glorioso espacio del Nix store! ❄️
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-18
 
 ---

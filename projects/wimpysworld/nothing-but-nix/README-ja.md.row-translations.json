@@ -201,7 +201,7 @@
     "row": 34,
     "rowsha": "idJt7mBp/okG7S7JFgUz0UG6k0cCVKA2AvcR5Xav0JI=",
     "originContent": "**Transform your GitHub Actions runner into a [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ powerhouse by ruthlessly slashing pre-installed bloat.**",
-    "translatedContent": "**[Nix](https://zero-to-nix.com/concepts/nix/) ❄️ のみを使用するパワフルな GitHub Actions ランナーへ変身し、事前インストールされた不要なソフトウェアを徹底的に排除します。**"
+    "translatedContent": "**GitHub Actions ランナーを [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ のパワーハウスへ変貌させ、プリインストールされた不要なソフトウェアを徹底的に排除します。**"
   },
   {
     "row": 35,
@@ -213,13 +213,13 @@
     "row": 36,
     "rowsha": "LMV74SNyOKf21xYlXSpUmduEqgCIaYUZBTuSpZ0nwpQ=",
     "originContent": "GitHub Actions runners come with meager disk space for Nix - a mere ~20GB.",
-    "translatedContent": "GitHub Actions ランナーには Nix 用のディスク容量がわずか約 20GB しかありません。"
+    "translatedContent": "GitHub Actions ランナーは Nix 用のディスク容量がわずか約20GBしかありません。"
   },
   {
     "row": 37,
     "rowsha": "2vf/O4PnYaNNzNBk5ztaPBmSvaw8oqg78/uGRIHVNds=",
     "originContent": "*Nothing but Nix* **brutally purges** unnecessary software, giving you **65GB to 130GB** for your Nix store! 💪",
-    "translatedContent": "*Nothing but Nix* は不要なソフトウェアを**徹底的に削除**し、Nix ストア用に**65GB～130GB**の空き容量を確保します！💪"
+    "translatedContent": "*Nothing but Nix* は不要なソフトウェアを **徹底的に削除** し、Nix ストア用に **65GBから130GB** を確保します！ 💪"
   },
   {
     "row": 38,
@@ -231,7 +231,7 @@
     "row": 39,
     "rowsha": "IG4TCpXpOdQhcOiQUbfoUBCG3ygm0RhmNGpTfvcRluQ=",
     "originContent": "## Usage 🔧",
-    "translatedContent": "## 使い方 🔧"
+    "translatedContent": "## 使用方法 🔧"
   },
   {
     "row": 40,
@@ -243,12 +243,660 @@
     "row": 41,
     "rowsha": "tWEZ0+FESo44wbA6IEISn+oO2+7QBgQV9sCmp//k1sk=",
     "originContent": "Add this action **before** installing Nix in your workflow:",
-    "translatedContent": "Nix をワークフローにインストールする**前に**このアクションを追加してください："
+    "translatedContent": "このアクションをワークフロー内でNixをインストールする**前に**追加してください:"
   },
   {
     "row": 42,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "NRqSNlhdVM6I4Zq/3kST6FTed24Zt+I2Is3snpRmOR8=",
+    "originContent": "### Requirements ️✔️",
+    "translatedContent": "### 要件 ️✔️"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "3THZAJ9YM6gWmnTAOkO0YasWbrA56aZ2s6Va/IxeXuA=",
+    "originContent": "- Only supports official **Ubuntu** GitHub Actions runners",
+    "translatedContent": "- 公式の**Ubuntu** GitHub Actionsランナーのみサポート"
+  },
+  {
+    "row": 47,
+    "rowsha": "SmRJJQYv6MN8rfnDKa+2jWRDKRWu1yqb1nFQ0ZH/51I=",
+    "originContent": "- Must run **before** Nix is installed",
+    "translatedContent": "- Nixがインストールされる**前**に実行する必要があります"
+  },
+  {
+    "row": 48,
+    "rowsha": "Whv0oo8jSkLCEKZWS9evwQn8vulJC07kmoU4kh6A3Vs=",
+    "originContent": "- **macOS/Darwin runners**: This action will gracefully skip with a warning if run on macOS. macOS runners already provide sufficient space for Nix and do not require this action",
+    "translatedContent": "- **macOS/Darwinランナー**：macOSで実行された場合、このアクションは警告とともにスキップします。macOSランナーはすでにNixに十分なスペースを提供しており、このアクションは不要です"
+  },
+  {
+    "row": 49,
+    "rowsha": "TwQLZsxfUMQtJv9/nuf4l+HyJaR740abZvkTQfehlQ4=",
+    "originContent": "- **Windows runners**: This action will gracefully skip with a warning if run on Windows. Windows runners have different filesystem layouts and constraints",
+    "translatedContent": "- **Windowsランナー**：Windowsで実行された場合、このアクションは警告とともにスキップします。Windowsランナーは異なるファイルシステム構造と制約があります"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "n6xVd4+RD0X24+tj9GBdIapjNJuHi47SFMtLht0bDYk=",
+    "originContent": "## The Problem: Making Room for Nix to Thrive 🌱",
+    "translatedContent": "## 問題: Nixが繁栄するためのスペース作り 🌱"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "6ORbXr5PVMEt/dQUOZMyd89PC8VfbLZqKopXyEMlvvk=",
+    "originContent": "Standard GitHub Actions runners are stuffed with *\"bloatware\"* you'll never use in a Nix workflow:",
+    "translatedContent": "標準のGitHub Actionsランナーには、Nixワークフローで使わない*\"不要ソフトウェア\"*が詰め込まれています："
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "3wBaY5dn782zQg8D1eqwjELji4mubFRFGTDgdMN8uw8=",
+    "originContent": "- 🌍 Web browsers. Lots of them. Gotta have 'em all!",
+    "translatedContent": "- 🌍 ウェブブラウザ。たくさん。全部揃えなきゃ！"
+  },
+  {
+    "row": 56,
+    "rowsha": "m3MsKEbgzvhXMl+goQSdHG2BUus58BEir1Lsb42D4Uo=",
+    "originContent": "- 🐳 Docker images consuming gigabytes of precious disk space",
+    "translatedContent": "- 🐳 Dockerイメージが貴重なディスク容量を何GBも消費"
+  },
+  {
+    "row": 57,
+    "rowsha": "7P0IvNLNK90CSNLNhYKDXXo5kK1jBbQbbV+bLit8he8=",
+    "originContent": "- 💻 Unnecessary language runtimes (.NET, Ruby, PHP, Java...)",
+    "translatedContent": "- 💻 不要な言語ランタイム（.NET、Ruby、PHP、Java...）"
+  },
+  {
+    "row": 58,
+    "rowsha": "RXtEI/phmCTNK3d+DTRQKhhGfgiv16ORB+YgFodz+SQ=",
+    "originContent": "- 📦 Package managers gathering digital dust",
+    "translatedContent": "- 📦 パッケージマネージャーがデジタル塵を集める"
+  },
+  {
+    "row": 59,
+    "rowsha": "6jQ7ePTp4UALf31rSC7Z4tUdKAhfT6+VND1INNi9LtE=",
+    "originContent": "- 📚 Documentation no one will ever read",
+    "translatedContent": "- 📚 誰も読まないドキュメント"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "dw/13Z16303YvzjIfJS63uc+q1NkSVgMgWD1eW+XqyA=",
+    "originContent": "This bloat leaves only ~20GB for your Nix store - barely enough for serious Nix builds! 😞",
+    "translatedContent": "この不要物のせいでNixストアには~20GBしか残りません—本格的なNixビルドには全然足りません！😞"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "HC1lA5gNs9V9IoXQZh6SVYiuazASGILbOTp/0C5lJv4=",
+    "originContent": "## The Solution: Nothing but Nix ️❄️",
+    "translatedContent": "## 解決策: Nixだけ ️❄️"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "n59JLuNKw0cc1J3Y5lFKe1giPsYfU2WTsPbpZHIFV+o=",
+    "originContent": "**Nothing but Nix** takes a scorched-earth approach to GitHub Actions runners and mercilessly reclaims disk space using a two-phase attack:",
+    "translatedContent": "**Nixだけ**はGitHub Actionsランナーに徹底的なアプローチを取り、2段階攻撃でディスクスペースを容赦なく取り戻します："
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "Ii1Rx5Y1VoOU4lNL7SPzYw3KG0ldXEFGENKfJqHWlko=",
+    "originContent": "1. **Initial Slash:** Instantly creates a large `/nix` volume (~65GB) by claiming free space from `/mnt`",
+    "translatedContent": "1. **初期スラッシュ:** `/mnt`の空きスペースを確保し、大きな`/nix`ボリューム（約65GB）を即座に作成"
+  },
+  {
+    "row": 68,
+    "rowsha": "7ZzRHyBEnt1dh+wWCAcNQXW/Ix5Ipc2U+Ceikp+6wfg=",
+    "originContent": "2. **Background Rampage:** While your workflow continues, we ruthlessly eliminate unnecessary software to expand your `/nix` volume up to ~130GB",
+    "translatedContent": "2. **バックグラウンド猛攻:** ワークフローが進行する間に不要ソフトウェアを容赦なく削除し、`/nix`ボリュームを最大約130GBまで拡張"
+  },
+  {
+    "row": 69,
+    "rowsha": "aDem95hoZ876MuhXMCvmJ1LOLzfmR3zcusvTs0zRa9Y=",
+    "originContent": "   - Web browsers? Nope ⛔",
+    "translatedContent": "   - ウェブブラウザ？ダメ ⛔"
+  },
+  {
+    "row": 70,
+    "rowsha": "w3i50B4497llY6xzm3Iv2LliVxeLPjuvE/oRFQgcUMw=",
+    "originContent": "   - Docker images? Gone 🗑️",
+    "translatedContent": "   - Dockerイメージ？消去 🗑️"
+  },
+  {
+    "row": 71,
+    "rowsha": "gb9RnoW4YbyiVe8xkUDDfnWDCf2sb9jFDYWpm419ySo=",
+    "originContent": "   - Language runtimes? Obliterated 💥",
+    "translatedContent": "   - 言語ランタイム？完全消滅 💥"
+  },
+  {
+    "row": 72,
+    "rowsha": "u8ad+VsFP7rZv3BSnMufzyq8p6NU1KTVdCctG56RqwE=",
+    "originContent": "   - Package managers? Annihilated 💣",
+    "translatedContent": "   - パッケージマネージャー？殲滅 💣"
+  },
+  {
+    "row": 73,
+    "rowsha": "X+TpUxqGNKOrZ3/tnDyKeylzgavdkWKWV155v34qf0o=",
+    "originContent": "   - Documentation? Vaporized ️👻",
+    "translatedContent": "   - ドキュメント？蒸発 ️👻"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "j1RfNFr6pFux3HChK/ZIXm/IuQKbzz7JpEcnm4PWI1A=",
+    "originContent": "The file system purge is powered by `rmz` (from the [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc) project) - a high-performance alternative to `rm` that makes space reclamation blazing fast! ⚡",
+    "translatedContent": "ファイルシステムの浄化は`rmz`（[Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc)プロジェクト）の力によるもの—`rm`の高性能代替で高速なスペース回収を実現！⚡"
+  },
+  {
+    "row": 76,
+    "rowsha": "ju244fhfBvqg8jl+c/J4Lm3KKFo8nqAy5wSyQCgXID8=",
+    "originContent": "   - Outperforms standard `rm` by an order of magnitude",
+    "translatedContent": "   - 標準の`rm`より一桁速いパフォーマンス"
+  },
+  {
+    "row": 77,
+    "rowsha": "dZV2LAz6JP1WGs0h3aMDPV98U98fO5SV/HCAS3l1j+k=",
+    "originContent": "   - Parallel-processes deletions for maximum efficiency",
+    "translatedContent": "   - 削除処理を並列化し最大効率化"
+  },
+  {
+    "row": 78,
+    "rowsha": "q17LX2fW4WertBUZbc0nlCWm/JLXtwxau95MeSYqP9k=",
+    "originContent": "   - **Reclaims disk space in seconds rather than minutes!** ️⏱️",
+    "translatedContent": "   - **ディスクスペースを分単位ではなく秒単位で回収！** ️⏱️"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "QeMFqVBkuQulYGH9TQ7wNrXZWVGYfm6HIWjukbI8gcA=",
+    "originContent": "The end result? A GitHub Actions runner with **65GB to 130GB** of Nix-ready space! 😁",
+    "translatedContent": "最終結果は？Nix対応スペースが**65GBから130GB**のGitHub Actionsランナー！😁"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "1HfM7OPyKfyZw/OkISLfGYxKkBNQxDOzkxU3MecLbnk=",
+    "originContent": "### Dynamic Volume Growth",
+    "translatedContent": "### ダイナミックなボリューム拡張"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "他のソリューションとは異なり、**Nothing but Nix** は `/nix` ボリュームを動的に拡張します："
+  },
+  {
+    "row": 84,
+    "rowsha": "bYprnJdgC/bim3A3LeRY/64FpDIxGHIniyTY/R9hhhk=",
+    "originContent": "Unlike other solutions, **Nothing but Nix** grows your `/nix` volume dynamically:",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. **初期ボリューム作成（1-10秒）：**（*Hatchet Protocol に依存*）"
+  },
+  {
+    "row": 86,
+    "rowsha": "zeUZguyXN6rQXI+1bIYP58QGxY7WqimLjFtsb6hOvsw=",
+    "originContent": "1. **Initial Volume Creation (1-10 seconds):** (*depending on Hatchet Protocol*)",
+    "translatedContent": "   - `/mnt` の空き領域からループデバイスを作成"
+  },
+  {
+    "row": 87,
+    "rowsha": "4VWFakHOr4IWL9T5woG8vBcUxJiYVp8cgY6zUsLBL0M=",
+    "originContent": "   - Creates a loop device from free space on `/mnt`",
+    "translatedContent": "   - RAID0 構成で BTRFS ファイルシステムをセットアップ"
+  },
+  {
+    "row": 88,
+    "rowsha": "2311LbKkK1EPyBiY/6AAjp1R6E3wTCFhyV8z0Ananck=",
+    "originContent": "   - Sets up a BTRFS filesystem in RAID0 configuration",
+    "translatedContent": "   - 圧縮とパフォーマンスチューニングでマウント"
+  },
+  {
+    "row": 89,
+    "rowsha": "SP0iMFsfG1qvWRpI+B/0vHBeyxyDfzoZnwpuPAFhv6s=",
+    "originContent": "   - Mounts with compression and performance tuning",
+    "translatedContent": "   - パージが始まる前でも即座に 65GB の `/nix` を提供"
+  },
+  {
+    "row": 90,
+    "rowsha": "oek7qWEB7eS91paCX4Mar1i+1O1q7Lq+PMSFugfp3Zk=",
+    "originContent": "   - Provides a 65GB `/nix` immediately, even before the purge begins",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. **バックグラウンド拡張（30-180秒）：**（*Hatchet Protocol に依存*）"
+  },
+  {
+    "row": 92,
+    "rowsha": "w1A0NWCdWfSstnvJwkmpt3Wthcx+DY5YVlyEzGNgCTE=",
+    "originContent": "2. **Background Expansion (30-180 seconds):** (*depending on Hatchet Protocol*)",
+    "translatedContent": "   - パージ操作を実行"
+  },
+  {
+    "row": 93,
+    "rowsha": "aNZ6BUmQ2VMlX4QNlxzTJCFIOXkZfTP0lFNz/IPATQI=",
+    "originContent": "   - Executes purging operations",
+    "translatedContent": "   - 膨張が解消されて新たに解放された空き領域を監視"
+  },
+  {
+    "row": 94,
+    "rowsha": "GeI7Ee8nchM+FkyvfWT0jS04yilhL9sxkyQW4CtqmRQ=",
+    "originContent": "   - Monitors for newly freed space as bloat is eliminated",
+    "translatedContent": "   - `/nix` ボリュームに拡張ディスクを動的に追加"
+  },
+  {
+    "row": 95,
+    "rowsha": "aiANUpNVNbLmubbG8oG2FTxoICGhN+ix+1GqIqtkdUg=",
+    "originContent": "   - Dynamically adds an expansion disk to the `/nix` volume",
+    "translatedContent": "   - 新しい空き領域を取り込むためファイルシステムをリバランス"
+  },
+  {
+    "row": 96,
+    "rowsha": "dPsE+XVZqDBzIwnqoqT3IkmUw160gZ34lzPj5tGPrbM=",
+    "originContent": "   - Rebalances the filesystem to incorporate new space",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`/nix` ボリュームはワークフロー実行中に自動で**成長します** 🎩🪄"
+  },
+  {
+    "row": 98,
+    "rowsha": "tSs6h4DF+pha+/jSXb6c/6gwJc3UBrCwv6rH3aW4E/c=",
+    "originContent": "The `/nix` volume automatically **grows during workflow execution** 🎩🪄",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 武器を選べ：Hatchet Protocol 🪓"
+  },
+  {
+    "row": 100,
+    "rowsha": "+s+HUxVwJVqT712e6HBwHblfuiE1JfQb2ceaBz6RC3E=",
+    "originContent": "### Choose Your Weapon: The Hatchet Protocol 🪓",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`hatchet-protocol` 入力で破壊レベル💥をコントロール："
+  },
+  {
+    "row": 102,
+    "rowsha": "7gReWjtE9vo+v/QrlSbcdOlrZBm53z+iJWKlEa5INYQ=",
+    "originContent": "Control the level of annihilation 💥 with the `hatchet-protocol` input:",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "EFfNPdw7UaJ+hKWYUFY0iswn+0R/z8h89ttaUVqGMyM=",
+    "originContent": "When `nix-permission-edict` is set to `true`, the action will run `sudo chown -R \"$(id --user)\":\"$(id --group)\" /nix` after mounting `/nix`.",
+    "translatedContent": "`nix-permission-edict` が `true` に設定されている場合、アクションは `/nix` をマウントした後に `sudo chown -R \"$(id --user)\":\"$(id --group)\" /nix` を実行します。"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "FAiP5TlGHRykZLCJfeJsuwfB2ffGGSwPg80sEirWJMs=",
+    "originContent": "### Configure Nix to use /nix/build",
+    "translatedContent": "### Nix を /nix/build を使うように設定する"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "5Chh0GNK5Af1er2L63dC4k+I8N71RNDHdUiiUrP/U5M=",
+    "originContent": "This action creates `/nix/build` for Nix derivation builds to use the reclaimed space. Add `build-dir` to your Nix configuration:",
+    "translatedContent": "このアクションは Nix 派生ビルドが再利用されたスペースを利用できるように `/nix/build` を作成します。Nix 設定に `build-dir` を追加してください:"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 112,
+    "rowsha": "8eZnMUl0NHVGrkeRxPF1OhJST0PctkBD3dNhtkGTjHI=",
+    "originContent": "- uses: cachix/install-nix-action@v31",
+    "translatedContent": "- uses: cachix/install-nix-action@v31"
+  },
+  {
+    "row": 113,
+    "rowsha": "PI+NwuhomK4iVx5cssnWfp+zdZq61aEbfpwurZJiEWw=",
+    "originContent": "  with:",
+    "translatedContent": "  with:"
+  },
+  {
+    "row": 114,
+    "rowsha": "8JbX7eBDI3aCYQE9FqrbxbEqMMQgcDNgyo/ISDF36Bs=",
+    "originContent": "    extra_nix_config: |",
+    "translatedContent": "    extra_nix_config: |"
+  },
+  {
+    "row": 115,
+    "rowsha": "FCjo0C+I20EA7J5MQIS8AN6u2Z4sWO5dnTW6Ryb5CzY=",
+    "originContent": "      build-dir = /nix/build",
+    "translatedContent": "      build-dir = /nix/build"
+  },
+  {
+    "row": 116,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "EILZ4QcJW/fIvSxqFq+Q1otGtr0p4PNn8+LfnQgLJ5c=",
+    "originContent": "Or with DeterminateSystems:",
+    "translatedContent": "または DeterminateSystems を使用して:"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 121,
+    "rowsha": "5vBayHNYjkQAOPvni520i94I4mnR93YfzCmzIf/v3k0=",
+    "originContent": "- uses: DeterminateSystems/nix-installer-action@main",
+    "translatedContent": "- uses: DeterminateSystems/nix-installer-action@main"
+  },
+  {
+    "row": 122,
+    "rowsha": "PI+NwuhomK4iVx5cssnWfp+zdZq61aEbfpwurZJiEWw=",
+    "originContent": "  with:",
+    "translatedContent": "  with:"
+  },
+  {
+    "row": 123,
+    "rowsha": "F4MOgXiGo2qxYvS6EwaiaveELZHClhZouc/sxOF5L9A=",
+    "originContent": "    extra-conf: |",
+    "translatedContent": "    extra-conf: |"
+  },
+  {
+    "row": 124,
+    "rowsha": "FCjo0C+I20EA7J5MQIS8AN6u2Z4sWO5dnTW6Ryb5CzY=",
+    "originContent": "      build-dir = /nix/build",
+    "translatedContent": "      build-dir = /nix/build"
+  },
+  {
+    "row": 125,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "これは、Nixがシステムのデフォルト一時ディレクトリではなく、大容量のBTRFSボリューム上でビルドを実行するよう指示します。"
+  },
+  {
+    "row": 127,
+    "rowsha": "aK9VATKpUULRh6csS2TEPhSQH0AEDh5vI8v4eK81zbQ=",
+    "originContent": "This directs Nix to perform builds on the large BTRFS volume rather than the system's default temporary directory.",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## トラブルシューティング 🔍"
+  },
+  {
+    "row": 129,
+    "rowsha": "j5pwih5Z6YA+FOzDURm3ladPRpzAeczu56be4m2zrsY=",
+    "originContent": "## Troubleshooting 🔍",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 大規模ビルド時の「デバイスに空き容量がありません」"
+  },
+  {
+    "row": 131,
+    "rowsha": "DEnqJ3nfVyf9PwQZlOXyLu5RBQDRiAtzYCdfMDcsbFQ=",
+    "originContent": "### \"No space left on device\" during large builds",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ビルドが空き容量不足で失敗する場合、Nothing but Nixを使用していても、バックグラウンドでのパージ処理がビルド開始前に完了していないことが原因である可能性が高いです。これは以下の場合によく発生します："
+  },
+  {
+    "row": 133,
+    "rowsha": "aYgkwAhfloP2POv4ch+u6Esl6Tvj13B6H3vZ3fbK5SY=",
+    "originContent": "If your build runs out of space despite using Nothing but Nix, it's likely because the background purging hasn't completed before your build consumes the available space. This commonly affects:",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 大容量ディスクイメージを組み立てるNixOSのVMテスト"
+  },
+  {
+    "row": 135,
+    "rowsha": "JJeAEiNR2Odaxv6x9HtAeOZj1zKun9fKzeU3biUKhIE=",
+    "originContent": "- NixOS VM tests that assemble large disk images",
+    "translatedContent": "- キャッシュされていない多くの依存関係を持つビルド"
+  },
+  {
+    "row": 136,
+    "rowsha": "hy47FUJuh6eib1HEbvPvWMvMTO3FZDEFkivtLoVn6h0=",
+    "originContent": "- Builds with many dependencies that aren't cached",
+    "translatedContent": "- Rustツールチェーンやその他の大規模コンパイル"
+  },
+  {
+    "row": 137,
+    "rowsha": "W2ZYtGUBHdqk9kjBUijCkVmIOHJecSrIqJt5UNekUmQ=",
+    "originContent": "- Rust toolchains and other large compilations",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**解決策:** `witness-carnage: true` を使用して同期パージを強制してください。これにより、ビルド開始*前*にすべての空き容量が確保されます。"
+  },
+  {
+    "row": 139,
+    "rowsha": "towtQRBe/2FywxIUKvhD+IEQC4txDbZPesYQyNeik3M=",
+    "originContent": "**Solution:** Use `witness-carnage: true` to force synchronous purging. This ensures all space is reclaimed *before* your build starts:",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 142,
+    "rowsha": "b3AItER9R6JHnpRMEX9tUEto345WhT428Kk4q2cgT4U=",
+    "originContent": "- uses: wimpysworld/nothing-but-nix@main",
+    "translatedContent": "- uses: wimpysworld/nothing-but-nix@main"
+  },
+  {
+    "row": 143,
+    "rowsha": "PI+NwuhomK4iVx5cssnWfp+zdZq61aEbfpwurZJiEWw=",
+    "originContent": "  with:",
+    "translatedContent": "  with:"
+  },
+  {
+    "row": 144,
+    "rowsha": "JFDdpG0gHQSXRGot6w+YTxdKyrc/flbNOWGHvcGUmuw=",
+    "originContent": "    hatchet-protocol: 'rampage'",
+    "translatedContent": "    hatchet-protocol: 'rampage'"
+  },
+  {
+    "row": 145,
+    "rowsha": "d3CIXK/7mq8meBvHRF+QHyBnNRSYFUqnDRx69bBvJHI=",
+    "originContent": "    witness-carnage: true",
+    "translatedContent": "    witness-carnage: true"
+  },
+  {
+    "row": 146,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "これにより、ワークフローのセットアップに30～180秒追加されますが、ビルド開始時に最大限のスペースが確保されることが保証されます。"
+  },
+  {
+    "row": 148,
+    "rowsha": "0U8dI9HcMkNvRxpiEg/LR+LdWs6Kmerp0Bj60u3379s=",
+    "originContent": "This adds 30-180 seconds to your workflow setup, but guarantees maximum space is available when your build begins.",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "さあ、その素晴らしいNixストアスペースを使って素晴らしいものを作りましょう！ ❄️"
+  },
+  {
+    "row": 150,
+    "rowsha": "AnhfEdZHiFKqdeqEc9S9EYj34xQX8pbl1kwZLge1jpk=",
+    "originContent": "Now go and build something amazing with all that glorious Nix store space! ❄️",
     "translatedContent": ""
   }
 ]

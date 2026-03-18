@@ -31,14 +31,14 @@
 
 # Nothing but Nix
 
-**[Nix](https://zero-to-nix.com/concepts/nix/) ❄️의 힘을 극대화하기 위해 GitHub Actions 러너에서 불필요한 사전 설치 소프트웨어를 대폭 제거하세요.**
+**GitHub Actions 러너에서 불필요한 사전 설치 소프트웨어를 대폭 제거하여 [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ 전용 파워하우스로 변신시키세요.**
 
-GitHub Actions 러너는 Nix를 위해 제공되는 디스크 공간이 매우 적으며, 약 ~20GB에 불과합니다.
-*Nothing but Nix*는 **불필요한 소프트웨어를 과감하게 제거**하여 Nix 스토어에 **65GB에서 130GB**까지 확보할 수 있습니다! 💪
+GitHub Actions 러너는 Nix를 위한 디스크 공간이 매우 적습니다. 겨우 ~20GB에 불과합니다.
+*Nothing but Nix*는 **불필요한 소프트웨어를 과감하게 정리**하여 Nix 스토어에 **65GB에서 130GB**의 공간을 제공합니다! 💪
 
 ## 사용법 🔧
 
-워크플로에서 Nix를 설치하기 **전에** 이 액션을 추가하세요:
+이 작업을 워크플로우에서 Nix를 설치하기 **전에** 추가하세요:
 
 ```yaml
 jobs:
@@ -57,64 +57,66 @@ jobs:
           nix --version
           # Your Nix-powered steps here...
 ```
-### 요구 사항 ️✔️
 
-- 공식 **Ubuntu** GitHub Actions 러너만 지원
-- Nix가 설치되기 **전에** 실행해야 함
+### 요구사항 ️✔️
 
-## 문제: Nix가 성장할 공간 만들기 🌱
+- 공식 **Ubuntu** GitHub Actions 러너만 지원합니다
+- 반드시 Nix가 설치되기 **전에** 실행되어야 합니다
+- **macOS/Darwin 러너**: macOS에서 실행될 경우 경고와 함께 정상적으로 건너뜁니다. macOS 러너는 이미 Nix에 충분한 공간을 제공하므로 이 작업이 필요하지 않습니다
+- **Windows 러너**: Windows에서 실행될 경우 경고와 함께 정상적으로 건너뜁니다. Windows 러너는 파일 시스템 구조와 제약이 다릅니다
 
-표준 GitHub Actions 러너는 Nix 워크플로우에서 절대 사용하지 않을 *"불필요한 소프트웨어"*로 가득 차 있습니다:
+## 문제: Nix가 활짝 펼쳐질 공간 확보하기 🌱
 
-- 🌍 웹 브라우저들. 아주 많음. 모두 있어야 함!
-- 🐳 기가바이트 단위의 소중한 디스크 공간을 차지하는 Docker 이미지
-- 💻 불필요한 언어 런타임 (.NET, Ruby, PHP, Java...)
-- 📦 디지털 먼지가 쌓인 패키지 관리자들
+표준 GitHub Actions 러너에는 Nix 워크플로우에서는 절대 쓰지 않을 *"불필요한 소프트웨어"*가 가득합니다:
+
+- 🌍 웹 브라우저. 매우 많습니다. 전부 필요하다나요!
+- 🐳 수 GB의 소중한 디스크 공간을 차지하는 도커 이미지
+- 💻 불필요한 언어 런타임(.NET, Ruby, PHP, Java 등)
+- 📦 디지털 먼지만 쌓이는 패키지 관리자
 - 📚 아무도 읽지 않을 문서들
 
-이 불필요한 소프트웨어 때문에 Nix 저장소에 약 20GB 정도만 남아 있습니다 - 심각한 Nix 빌드에 거의 충분하지 않습니다! 😞
+이런 불필요한 요소들 때문에 Nix 저장소에는 약 20GB 정도만 남아, 본격적인 Nix 빌드에는 턱없이 부족합니다! 😞
 
-## 해결책: Nix만 남기기 ️❄️
+## 해결책: 오직 Nix만을 위해 ️❄️
 
-**Nix만 남기기**는 GitHub Actions 러너에 대해 초토화 작전을 펼치며 디스크 공간을 무자비하게 회복하는 두 단계 공격 방식을 사용합니다:
+**Nothing but Nix**는 GitHub Actions 러너의 디스크 공간을 두 단계로 과감하게 되찾아오는 전략을 사용합니다:
 
-1. **초기 절단:** `/mnt`의 빈 공간을 확보하여 즉시 큰 `/nix` 볼륨(~65GB)을 생성
-2. **백그라운드 진격:** 워크플로우가 계속되는 동안 불필요한 소프트웨어를 무자비하게 제거하여 `/nix` 볼륨을 최대 ~130GB까지 확장
-   - 웹 브라우저? 안 됨 ⛔
-   - Docker 이미지? 제거 🗑️
-   - 언어 런타임? 완전 파괴 💥
+1. **초기 정리:** `/mnt`의 여유 공간을 확보해 즉시 대형 `/nix` 볼륨(~65GB)을 만듭니다
+2. **백그라운드 대청소:** 워크플로우가 계속되는 동안 불필요한 소프트웨어를 과감하게 제거하여 `/nix` 볼륨을 최대 ~130GB까지 확장합니다
+   - 웹 브라우저? 안돼요 ⛔
+   - 도커 이미지? 삭제 🗑️
+   - 언어 런타임? 박멸 💥
    - 패키지 관리자? 전멸 💣
    - 문서? 증발 ️👻
 
-파일 시스템 정리는 `rmz` ([Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc) 프로젝트)에서 제공하는 고성능 `rm` 대체 도구로 수행됩니다 - 공간 회수를 번개처럼 빠르게 만듭니다! ⚡
-   - 표준 `rm`보다 10배 이상 빠름
-   - 삭제 작업을 병렬 처리하여 최대 효율성 달성
-   - **디스크 공간을 몇 분이 아닌 몇 초 만에 회수!** ️⏱️
+파일 시스템 정리는 [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc) 프로젝트의 고성능 `rm` 대체 도구인 `rmz`로 이뤄집니다! ⚡
+   - 표준 `rm`보다 한 단계 빠른 성능
+   - 병렬로 삭제를 처리해 최대 효율 실현
+   - **수 분이 아닌 수 초 만에 디스크 공간 확보!** ️⏱️
 
-최종 결과? Nix용 공간이 **65GB에서 130GB**인 GitHub Actions 러너! 😁
+최종 결과? **65GB에서 130GB**까지 Nix 전용 공간을 가진 GitHub Actions 러너가 완성됩니다! 😁
 
 ### 동적 볼륨 확장
 
-다른 솔루션과 달리, **Nix만 남기기**는 `/nix` 볼륨을 동적으로 확장합니다:
+다른 솔루션과 달리 **Nothing but Nix**는 `/nix` 볼륨을 동적으로 확장합니다:
 
 1. **초기 볼륨 생성 (1-10초):** (*Hatchet Protocol에 따라 다름*)
-   - `/mnt`의 빈 공간에서 루프 디바이스 생성
+   - `/mnt`의 여유 공간에서 루프 디바이스 생성
    - RAID0 구성의 BTRFS 파일 시스템 설정
-   - 압축과 성능 튜닝을 적용하여 마운트
-   - 정리 시작 전에 즉시 65GB `/nix` 제공
+   - 압축 및 성능 튜닝으로 마운트
+   - 정리 작업이 시작되기 전에도 즉시 65GB의 `/nix` 제공
 
 2. **백그라운드 확장 (30-180초):** (*Hatchet Protocol에 따라 다름*)
    - 정리 작업 실행
-   - 불필요한 소프트웨어 제거로 새로 확보된 공간 모니터링
-   - 확장 디스크를 `/nix` 볼륨에 동적으로 추가
-   - 새로운 공간을 포함하도록 파일 시스템 재조정
+   - 불필요한 공간이 제거됨에 따라 새롭게 확보된 공간 모니터링
+   - `/nix` 볼륨에 확장 디스크를 동적으로 추가
+   - 새로운 공간을 통합하기 위해 파일 시스템 리밸런싱
 
-`/nix` 볼륨은 워크플로우 실행 중에 자동으로 **성장합니다** 🎩🪄
+`/nix` 볼륨은 워크플로우 실행 중에 **자동으로 확장**됩니다 🎩🪄
 
 ### 무기 선택: Hatchet Protocol 🪓
 
-`hatchet-protocol` 입력으로 파괴 수준을 제어하세요 💥:
-
+`hatchet-protocol` 입력으로 파괴 수준 💥을 제어하세요:
 
 ```yaml
 - uses: wimpysworld/nothing-but-nix@main
@@ -177,13 +179,56 @@ Nix 저장소 토지 점유로부터 얼마나 많은 공간을 확보할지 사
   with:
     nix-permission-edict: true  # Default: false
 ```
-<nix-permission-edict>이 `true`로 설정되면, `/nix`를 마운트한 후에 `sudo chown -R "$(id --user)":"$(id --group)" /nix` 명령이 실행됩니다.
 
-이제 그 모든 멋진 Nix 저장소 공간을 활용하여 멋진 무언가를 만들어 보세요! ❄️</nix-permission-edict>
+`nix-permission-edict`가 `true`로 설정되면, 액션은 `/nix`를 마운트한 후 `sudo chown -R "$(id --user)":"$(id --group)" /nix`를 실행합니다.
+
+### Nix가 /nix/build를 사용하도록 설정하기
+
+이 액션은 Nix 파생 빌드에서 회수된 공간을 사용하기 위해 `/nix/build`를 생성합니다. Nix 설정에 `build-dir`를 추가하세요:
+
+```yaml
+- uses: cachix/install-nix-action@v31
+  with:
+    extra_nix_config: |
+      build-dir = /nix/build
+```
+
+또는 DeterminateSystems를 사용하여:
+
+```yaml
+- uses: DeterminateSystems/nix-installer-action@main
+  with:
+    extra-conf: |
+      build-dir = /nix/build
+```
+이렇게 하면 Nix가 시스템의 기본 임시 디렉터리 대신 대용량 BTRFS 볼륨에서 빌드를 수행하도록 지시합니다.
+
+## 문제 해결 🔍
+
+### 대규모 빌드 중 "장치에 공간이 없습니다"
+
+Nothing but Nix만 사용해도 빌드 도중 공간이 부족하다면, 이는 백그라운드에서 공간 정리가 빌드가 사용 가능한 공간을 모두 소비하기 전에 완료되지 않았기 때문일 가능성이 높습니다. 이 문제는 다음과 같은 상황에서 자주 발생합니다:
+
+- 대용량 디스크 이미지를 조립하는 NixOS VM 테스트
+- 캐시되지 않은 많은 의존성이 포함된 빌드
+- Rust 툴체인 및 기타 대규모 컴파일 작업
+
+**해결 방법:** 동기 공간 정리를 강제로 수행하려면 `witness-carnage: true`를 사용하세요. 이렇게 하면 빌드가 시작되기 *전에* 모든 공간이 회수됩니다:
+
+
+```yaml
+- uses: wimpysworld/nothing-but-nix@main
+  with:
+    hatchet-protocol: 'rampage'
+    witness-carnage: true
+```
+이 작업은 워크플로우 설정에 30~180초를 추가하지만, 빌드가 시작될 때 최대 공간이 확보됨을 보장합니다.
+
+이제 그 멋진 Nix 저장소 공간으로 놀라운 무언가를 만들어 보세요! ❄️
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-18
 
 ---

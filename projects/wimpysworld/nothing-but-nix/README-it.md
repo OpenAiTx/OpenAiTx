@@ -33,12 +33,12 @@
 
 **Trasforma il tuo runner di GitHub Actions in una potenza [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ eliminando senza pietà il software preinstallato superfluo.**
 
-I runner di GitHub Actions hanno pochissimo spazio su disco per Nix - appena ~20GB.
-*Nothing but Nix* **spazza via brutalmente** il software non necessario, liberando per te **65GB fino a 130GB** per il tuo Nix store! 💪
+I runner di GitHub Actions hanno uno spazio su disco limitato per Nix - appena ~20GB.
+*Nothing but Nix* **elimina brutalmente** i software non necessari, offrendoti **65GB fino a 130GB** per il tuo Nix store! 💪
 
 ## Utilizzo 🔧
 
-Aggiungi questa action **prima** di installare Nix nel tuo workflow:
+Aggiungi questa azione **prima** di installare Nix nel tuo workflow:
 
 ```yaml
 jobs:
@@ -60,10 +60,12 @@ jobs:
 
 ### Requisiti ️✔️
 
-- Supporta solo i runner **Ubuntu** ufficiali di GitHub Actions
+- Supporta solo i runner ufficiali **Ubuntu** di GitHub Actions
 - Deve essere eseguito **prima** che Nix venga installato
+- **Runner macOS/Darwin**: questa azione verrà saltata con un avviso se eseguita su macOS. I runner macOS offrono già spazio sufficiente per Nix e non richiedono questa azione
+- **Runner Windows**: questa azione verrà saltata con un avviso se eseguita su Windows. I runner Windows hanno layout e vincoli filesystem differenti
 
-## Il Problema: Fare Spazio per la Crescita di Nix 🌱
+## Il Problema: Fare Spazio a Nix per Prosperare 🌱
 
 I runner standard di GitHub Actions sono pieni di *"bloatware"* che non userai mai in un workflow Nix:
 
@@ -77,44 +79,44 @@ Questo bloat lascia solo ~20GB per il tuo Nix store - appena sufficienti per bui
 
 ## La Soluzione: Solo Nix ️❄️
 
-**Solo Nix** adotta un approccio "terra bruciata" sui runner di GitHub Actions e recupera spazio su disco senza pietà usando un attacco in due fasi:
+**Solo Nix** adotta un approccio radicale ai runner GitHub Actions e recupera spazio disco senza pietà con un attacco in due fasi:
 
 1. **Taglio Iniziale:** Crea istantaneamente un grande volume `/nix` (~65GB) reclamando spazio libero da `/mnt`
-2. **Rimonta in Background:** Mentre il tuo workflow continua, eliminiamo senza pietà il software inutile per espandere il volume `/nix` fino a ~130GB
+2. **Rastrellamento in Background:** Mentre il workflow prosegue, eliminiamo senza pietà software inutile per espandere il tuo volume `/nix` fino a ~130GB
    - Browser web? No ⛔
    - Immagini Docker? Sparite 🗑️
-   - Runtime di linguaggi? Distrutti 💥
-   - Gestori di pacchetti? Annientati 💣
+   - Runtime linguaggi? Annientati 💥
+   - Gestori di pacchetti? Distrutti 💣
    - Documentazione? Vaporizzata ️👻
 
-La pulizia del filesystem è alimentata da `rmz` (dal progetto [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc)) - un'alternativa ad alte prestazioni a `rm` che rende il recupero dello spazio fulmineo! ⚡
-   - Prestazioni superiori a `rm` standard di un ordine di grandezza
-   - Cancellazioni in parallelo per la massima efficienza
-   - **Recupera spazio su disco in pochi secondi invece che minuti!** ️⏱️
+La pulizia del file system è alimentata da `rmz` (dal progetto [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc)) - un'alternativa ad alte prestazioni a `rm` che rende il recupero dello spazio rapidissimo! ⚡
+   - Prestazioni di un ordine di grandezza superiori a `rm` standard
+   - Elimina in parallelo per la massima efficienza
+   - **Recupera spazio disco in pochi secondi anziché minuti!** ️⏱️
 
-Il risultato finale? Un runner GitHub Actions con **da 65GB a 130GB** di spazio pronto per Nix! 😁
+Il risultato finale? Un runner GitHub Actions con **65GB fino a 130GB** di spazio pronto per Nix! 😁
 
 ### Crescita Dinamica del Volume
 
-A differenza di altre soluzioni, **Solo Nix** fa crescere dinamicamente il tuo volume `/nix`:
+A differenza di altre soluzioni, **Nothing but Nix** espande dinamicamente il volume `/nix`:
 
-1. **Creazione Iniziale del Volume (1-10 secondi):** (*a seconda dell'Hatchet Protocol*)
-   - Crea un dispositivo loop dallo spazio libero su `/mnt`
-   - Configura un filesystem BTRFS in RAID0
+1. **Creazione iniziale del volume (1-10 secondi):** (*a seconda del Protocollo Hatchet*)
+   - Crea un dispositivo loop utilizzando spazio libero su `/mnt`
+   - Configura un filesystem BTRFS in modalità RAID0
    - Monta con compressione e ottimizzazione delle prestazioni
-   - Fornisce subito 65GB su `/nix`, anche prima che inizi la pulizia
+   - Fornisce subito un `/nix` da 65GB, anche prima dell’inizio della pulizia
 
-2. **Espansione in Background (30-180 secondi):** (*a seconda dell'Hatchet Protocol*)
+2. **Espansione in background (30-180 secondi):** (*a seconda del Protocollo Hatchet*)
    - Esegue operazioni di pulizia
    - Monitora lo spazio appena liberato man mano che il bloat viene eliminato
    - Aggiunge dinamicamente un disco di espansione al volume `/nix`
-   - Riequilibra il filesystem per incorporare il nuovo spazio
+   - Ribilancia il filesystem per incorporare il nuovo spazio
 
-Il volume `/nix` **cresce automaticamente durante l'esecuzione del workflow** 🎩🪄
+Il volume `/nix` **si espande automaticamente durante l’esecuzione del workflow** 🎩🪄
 
-### Scegli la Tua Arma: L'Hatchet Protocol 🪓
+### Scegli la tua arma: il Protocollo Hatchet 🪓
 
-Controlla il livello di annientamento 💥 con l'input `hatchet-protocol`:
+Controlla il livello di annientamento 💥 tramite l’input `hatchet-protocol`:
 
 ```yaml
 - uses: wimpysworld/nothing-but-nix@main
@@ -178,10 +180,53 @@ Alcuni installer o configurazioni di Nix si aspettano che la directory `/nix` si
 
 Quando `nix-permission-edict` è impostato su `true`, l'azione eseguirà `sudo chown -R "$(id --user)":"$(id --group)" /nix` dopo aver montato `/nix`.
 
-Ora vai e costruisci qualcosa di straordinario con tutto quello spazio glorioso nel Nix store! ❄️
+### Configurare Nix per usare /nix/build
+
+Questa azione crea `/nix/build` affinché le build delle derivazioni Nix utilizzino lo spazio recuperato. Aggiungi `build-dir` alla tua configurazione di Nix:
+
+```yaml
+- uses: cachix/install-nix-action@v31
+  with:
+    extra_nix_config: |
+      build-dir = /nix/build
+```
+
+Oppure con DeterminateSystems:
+
+```yaml
+- uses: DeterminateSystems/nix-installer-action@main
+  with:
+    extra-conf: |
+      build-dir = /nix/build
+```
+
+Questo indica a Nix di eseguire le build sul grande volume BTRFS invece che sulla directory temporanea predefinita del sistema.
+
+## Risoluzione dei problemi 🔍
+
+### "Spazio esaurito sul dispositivo" durante build di grandi dimensioni
+
+Se la tua build esaurisce lo spazio nonostante l'uso esclusivo di Nix, è probabile che la pulizia in background non sia stata completata prima che la build consumi lo spazio disponibile. Questo problema interessa comunemente:
+
+- Test VM NixOS che assemblano grandi immagini disco
+- Build con molte dipendenze non memorizzate nella cache
+- Toolchain Rust e altre compilazioni di grandi dimensioni
+
+**Soluzione:** Usa `witness-carnage: true` per forzare la pulizia sincrona. Questo garantisce che tutto lo spazio venga recuperato *prima* che inizi la build:
+
+```yaml
+- uses: wimpysworld/nothing-but-nix@main
+  with:
+    hatchet-protocol: 'rampage'
+    witness-carnage: true
+```
+
+Questo aggiunge 30-180 secondi alla configurazione del tuo workflow, ma garantisce che sia disponibile il massimo spazio quando il build inizia.
+
+Ora vai e costruisci qualcosa di straordinario con tutto quello splendido spazio nello store Nix! ❄️
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-18
 
 ---

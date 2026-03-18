@@ -29,16 +29,16 @@
   </details>
 </div>
 
-# Nothing but Nix
+# Nada além de Nix
 
-**Transforme seu runner do GitHub Actions em uma potência [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ eliminando implacavelmente softwares pré-instalados desnecessários.**
+**Transforme seu runner do GitHub Actions em uma potência [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ ao eliminar impiedosamente o excesso pré-instalado.**
 
-Os runners do GitHub Actions vêm com pouco espaço em disco para o Nix – apenas cerca de ~20GB.
-*Nothing but Nix* **remove brutalmente** softwares desnecessários, fornecendo **65GB a 130GB** para sua Nix store! 💪
+Os runners do GitHub Actions vêm com um espaço em disco escasso para o Nix – apenas ~20GB.
+*Nada além de Nix* **elimina brutalmente** softwares desnecessários, oferecendo **65GB a 130GB** para sua loja Nix! 💪
 
 ## Uso 🔧
 
-Adicione esta action **antes** de instalar o Nix em seu workflow:
+Adicione esta ação **antes** de instalar o Nix em seu fluxo de trabalho:
 
 ```yaml
 jobs:
@@ -60,61 +60,63 @@ jobs:
 
 ### Requisitos ️✔️
 
-- Suporta apenas runners oficiais do **Ubuntu** do GitHub Actions
-- Deve ser executado **antes** que o Nix seja instalado
+- Suporta apenas runners oficiais do **Ubuntu** para GitHub Actions
+- Deve ser executado **antes** do Nix ser instalado
+- **Runners macOS/Darwin**: Esta ação será ignorada graciosamente com um aviso se executada em macOS. Os runners macOS já oferecem espaço suficiente para o Nix e não requerem esta ação
+- **Runners Windows**: Esta ação será ignorada graciosamente com um aviso se executada em Windows. Os runners Windows possuem layouts e restrições de sistema de arquivos diferentes
 
-## O Problema: Abrindo Espaço para o Nix Prosperar 🌱
+## O Problema: Criando Espaço para o Nix Prosperar 🌱
 
 Os runners padrão do GitHub Actions estão cheios de *"bloatware"* que você nunca usará em um fluxo de trabalho Nix:
 
-- 🌍 Navegadores web. Muitos deles. Tem que ter todos!
-- 🐳 Imagens Docker consumindo gigabytes de espaço precioso em disco
+- 🌍 Navegadores web. Vários deles. Tem que ter todos!
+- 🐳 Imagens Docker consumindo gigabytes de espaço valioso em disco
 - 💻 Runtimes de linguagens desnecessários (.NET, Ruby, PHP, Java...)
-- 📦 Gerenciadores de pacotes juntando poeira digital
+- 📦 Gerenciadores de pacotes acumulando poeira digital
 - 📚 Documentação que ninguém jamais lerá
 
 Esse excesso deixa apenas ~20GB para seu repositório Nix - mal o suficiente para builds Nix sérios! 😞
 
-## A Solução: Só Nix ️❄️
+## A Solução: Só o Nix ️❄️
 
-**Só Nix** adota uma abordagem radical nos runners do GitHub Actions e recupera espaço em disco de forma impiedosa usando um ataque em duas fases:
+**Só o Nix** adota uma abordagem radical nos runners do GitHub Actions e recupera espaço no disco de forma impiedosa usando um ataque em duas fases:
 
 1. **Corte Inicial:** Cria instantaneamente um grande volume `/nix` (~65GB) reivindicando espaço livre de `/mnt`
-2. **Ataque em Segundo Plano:** Enquanto seu fluxo de trabalho continua, eliminamos implacavelmente softwares desnecessários para expandir seu volume `/nix` para até ~130GB
+2. **Devastação em Segundo Plano:** Enquanto seu fluxo de trabalho continua, eliminamos sem piedade softwares desnecessários para expandir seu volume `/nix` até ~130GB
    - Navegadores web? Não ⛔
-   - Imagens Docker? Fora 🗑️
-   - Runtimes de linguagem? Obliterados 💥
+   - Imagens Docker? Foram 🗑️
+   - Runtimes de linguagens? Obliterados 💥
    - Gerenciadores de pacotes? Aniquilados 💣
    - Documentação? Vaporizada ️👻
 
-A limpeza do sistema de arquivos é feita pelo `rmz` (do projeto [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc)) - uma alternativa de alto desempenho ao `rm` que torna a recuperação de espaço extremamente rápida! ⚡
+A limpeza do sistema de arquivos é feita pelo `rmz` (do projeto [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc)) - uma alternativa de alta performance ao `rm` que torna a liberação de espaço incrivelmente rápida! ⚡
    - Supera o `rm` padrão em uma ordem de magnitude
-   - Processa deleções em paralelo para máxima eficiência
+   - Deleções processadas em paralelo para máxima eficiência
    - **Recupera espaço em disco em segundos, não minutos!** ️⏱️
 
-O resultado final? Um runner do GitHub Actions com **65GB a 130GB** de espaço pronto para Nix! 😁
+O resultado final? Um runner do GitHub Actions com **65GB a 130GB** de espaço pronto para o Nix! 😁
 
 ### Crescimento Dinâmico do Volume
 
-Diferente de outras soluções, o **Só Nix** aumenta seu volume `/nix` de forma dinâmica:
+Ao contrário de outras soluções, o **Nothing but Nix** expande seu volume `/nix` dinamicamente:
 
-1. **Criação Inicial do Volume (1-10 segundos):** (*dependendo do Hatchet Protocol*)
+1. **Criação Inicial do Volume (1-10 segundos):** (*dependendo do Protocolo Hatchet*)
    - Cria um dispositivo de loop a partir do espaço livre em `/mnt`
    - Configura um sistema de arquivos BTRFS em RAID0
-   - Monta com compressão e ajuste de desempenho
-   - Fornece 65GB em `/nix` imediatamente, mesmo antes do início da limpeza
+   - Monta com compressão e otimização de desempenho
+   - Disponibiliza um `/nix` de 65GB imediatamente, mesmo antes do início da limpeza
 
-2. **Expansão em Segundo Plano (30-180 segundos):** (*dependendo do Hatchet Protocol*)
+2. **Expansão em Segundo Plano (30-180 segundos):** (*dependendo do Protocolo Hatchet*)
    - Executa operações de limpeza
-   - Monitora por espaço recém-liberado à medida que o excesso é eliminado
+   - Monitora o espaço recém-liberado conforme o excesso é eliminado
    - Adiciona dinamicamente um disco de expansão ao volume `/nix`
    - Rebalanceia o sistema de arquivos para incorporar o novo espaço
 
-O volume `/nix` **cresce automaticamente durante a execução do workflow** 🎩🪄
+O volume `/nix` **cresce automaticamente durante a execução do fluxo de trabalho** 🎩🪄
 
-### Escolha sua Arma: O Hatchet Protocol 🪓
+### Escolha Sua Arma: O Protocolo Hatchet 🪓
 
-Controle o nível de aniquilação 💥 com a entrada `hatchet-protocol`:
+Controle o nível de aniquilação 💥 com o parâmetro `hatchet-protocol`:
 
 ```yaml
 - uses: wimpysworld/nothing-but-nix@main
@@ -175,13 +177,56 @@ Alguns instaladores ou configurações do Nix esperam que o diretório `/nix` se
   with:
     nix-permission-edict: true  # Default: false
 ```
-Quando `nix-permission-edict` está definido como `true`, a ação executará `sudo chown -R "$(id --user)":"$(id --group)" /nix` após montar o `/nix`.
 
-Agora vá e construa algo incrível com todo esse glorioso espaço da Nix store! ❄️
+Quando `nix-permission-edict` está definido como `true`, a ação executará `sudo chown -R "$(id --user)":"$(id --group)" /nix` após montar `/nix`.
 
+### Configurar o Nix para usar /nix/build
+
+Esta ação cria `/nix/build` para que as compilações de derivações do Nix utilizem o espaço recuperado. Adicione `build-dir` à sua configuração do Nix:
+
+```yaml
+- uses: cachix/install-nix-action@v31
+  with:
+    extra_nix_config: |
+      build-dir = /nix/build
+```
+
+Ou com DeterminateSystems:
+
+```yaml
+- uses: DeterminateSystems/nix-installer-action@main
+  with:
+    extra-conf: |
+      build-dir = /nix/build
+```
+Isso instrui o Nix a realizar compilações no grande volume BTRFS ao invés do diretório temporário padrão do sistema.
+
+## Solução de Problemas 🔍
+
+### "No space left on device" durante grandes compilações
+
+Se sua compilação ficar sem espaço mesmo usando apenas Nix, provavelmente é porque a purga em segundo plano não foi concluída antes que sua compilação consumisse o espaço disponível. Isso afeta comumente:
+
+- Testes de VM do NixOS que montam grandes imagens de disco
+- Compilações com muitas dependências que não estão em cache
+- Toolchains Rust e outras grandes compilações
+
+**Solução:** Use `witness-carnage: true` para forçar a purga síncrona. Isso garante que todo o espaço seja recuperado *antes* do início da sua compilação:
+
+
+```yaml
+- uses: wimpysworld/nothing-but-nix@main
+  with:
+    hatchet-protocol: 'rampage'
+    witness-carnage: true
+```
+
+Isso adiciona de 30 a 180 segundos à configuração do seu fluxo de trabalho, mas garante que o máximo de espaço esteja disponível quando sua construção começar.
+
+Agora vá construir algo incrível com todo esse espaço glorioso do Nix store! ❄️
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-18
 
 ---

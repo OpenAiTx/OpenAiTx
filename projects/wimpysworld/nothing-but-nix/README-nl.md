@@ -9,7 +9,7 @@
         | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=ja">Japans</a>
         | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=ko">Koreaans</a>
-        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=hi">Hindi</a>
         | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=th">Thais</a>
         | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=fr">Frans</a>
         | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=de">Duits</a>
@@ -19,8 +19,8 @@
         | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=pt">Portugees</a>
         | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=nl">Nederlands</a>
         | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=pl">Pools</a>
-        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=ar">Arabisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=fa">Perzisch</a>
         | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=tr">Turks</a>
         | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=vi">Vietnamees</a>
         | <a href="https://openaitx.github.io/view.html?user=wimpysworld&project=nothing-but-nix&lang=id">Bahasa Indonesia</a>
@@ -31,14 +31,14 @@
 
 # Nothing but Nix
 
-**Transformeer je GitHub Actions-runner in een [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ krachtpatser door rigoureus vooraf geïnstalleerde overbodige software te verwijderen.**
+**Transformeer je GitHub Actions-runner in een [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ krachtpatser door genadeloos vooraf geïnstalleerde rommel te verwijderen.**
 
-GitHub Actions-runners hebben weinig schijfruimte voor Nix - slechts ongeveer ~20GB.
-*Nothing but Nix* **zuivert genadeloos** onnodige software, waardoor je **65GB tot 130GB** beschikbaar krijgt voor je Nix store! 💪
+GitHub Actions-runners hebben slechts weinig schijfruimte voor Nix – slechts ~20GB.
+*Nothing but Nix* **verwijdert meedogenloos** onnodige software, waardoor je **65GB tot 130GB** voor je Nix-store krijgt! 💪
 
 ## Gebruik 🔧
 
-Voeg deze actie **toe vóór** het installeren van Nix in je workflow:
+Voeg deze actie toe **voordat** je Nix installeert in je workflow:
 
 ```yaml
 jobs:
@@ -61,60 +61,62 @@ jobs:
 ### Vereisten ️✔️
 
 - Ondersteunt alleen officiële **Ubuntu** GitHub Actions runners
-- Moet **voorafgaand** aan de installatie van Nix worden uitgevoerd
+- Moet **uitgevoerd worden vóór** Nix wordt geïnstalleerd
+- **macOS/Darwin runners**: Deze actie wordt met een waarschuwing overgeslagen als deze op macOS wordt uitgevoerd. macOS runners bieden al voldoende ruimte voor Nix en hebben deze actie niet nodig
+- **Windows runners**: Deze actie wordt met een waarschuwing overgeslagen als deze op Windows wordt uitgevoerd. Windows runners hebben een andere indeling en beperkingen van het bestandssysteem
 
-## Het Probleem: Ruimte maken zodat Nix kan floreren 🌱
+## Het Probleem: Ruimte maken voor Nix om te gedijen 🌱
 
-Standaard GitHub Actions runners zitten vol met *"bloatware"* die je nooit zult gebruiken in een Nix-werkstroom:
+Standaard GitHub Actions runners zitten vol met *"bloatware"* die je nooit zult gebruiken in een Nix workflow:
 
-- 🌍 Webbrowsers. Heel veel. Je moet ze allemaal hebben!
-- 🐳 Docker-images die gigabytes aan kostbare schijfruimte innemen
-- 💻 Overbodige taalruntimes (.NET, Ruby, PHP, Java...)
+- 🌍 Web browsers. Heel veel. Je moet ze allemaal hebben!
+- 🐳 Docker images die gigabytes aan kostbare schijfruimte opslokken
+- 💻 Onnodige taalruntimes (.NET, Ruby, PHP, Java...)
 - 📦 Pakketbeheerders die digitale stof verzamelen
 - 📚 Documentatie die niemand ooit zal lezen
 
-Door deze bloat blijft er slechts ~20GB over voor je Nix-store - nauwelijks genoeg voor serieuze Nix-builds! 😞
+Deze bloat laat slechts ~20GB over voor je Nix store - nauwelijks genoeg voor serieuze Nix builds! 😞
 
 ## De Oplossing: Alleen Nix ️❄️
 
-**Alleen Nix** hanteert een scorched-earth-benadering op GitHub Actions runners en claimt meedogenloos schijfruimte terug met een tweefasige aanval:
+**Alleen Nix** neemt een radicale aanpak op GitHub Actions runners en herovert genadeloos schijfruimte via een tweefasige aanval:
 
-1. **Initiële Slag:** Creëert direct een groot `/nix`-volume (~65GB) door vrije ruimte van `/mnt` te claimen
-2. **Achtergrondbarrage:** Terwijl je workflow doorgaat, ruimen we genadeloos onnodige software op om je `/nix`-volume uit te breiden tot wel ~130GB
-   - Webbrowsers? Nee ⛔
-   - Docker-images? Weg 🗑️
+1. **Initiële Slag:** Creëert direct een groot `/nix` volume (~65GB) door vrije ruimte van `/mnt` te claimen
+2. **Achtergrondcampagne:** Terwijl je workflow doorgaat, verwijderen we onnodige software om je `/nix` volume uit te breiden tot ~130GB
+   - Web browsers? Nee ⛔
+   - Docker images? Weg 🗑️
    - Taalruntimes? Uitgewist 💥
    - Pakketbeheerders? Geëlimineerd 💣
-   - Documentatie? Verdwenen ️👻
+   - Documentatie? Verdampd ️👻
 
-De bestandsopruiming wordt aangedreven door `rmz` (van het [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc) project) - een high-performance alternatief voor `rm` dat ruimte extreem snel vrijmaakt! ⚡
-   - Presteert een orde van grootte sneller dan standaard `rm`
-   - Voert verwijderingen parallel uit voor maximale efficiëntie
-   - **Claimt schijfruimte in seconden in plaats van minuten!** ️⏱️
+De bestandsysteemopruiming wordt aangedreven door `rmz` (van het [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc) project) - een high-performance alternatief voor `rm` dat het terugwinnen van ruimte razendsnel maakt! ⚡
+   - Presteert een orde van grootte beter dan standaard `rm`
+   - Voert parallelle verwijderingen uit voor maximale efficiëntie
+   - **Herovert schijfruimte in seconden in plaats van minuten!** ️⏱️
 
 Het eindresultaat? Een GitHub Actions runner met **65GB tot 130GB** aan Nix-klare ruimte! 😁
 
-### Dynamische Volume Groei
+### Dynamische volumegroei
 
-In tegenstelling tot andere oplossingen groeit **Alleen Nix** je `/nix`-volume dynamisch:
+In tegenstelling tot andere oplossingen groeit **Nothing but Nix** je `/nix` volume dynamisch:
 
-1. **Initiële Volumecreatie (1-10 seconden):** (*afhankelijk van het Hatchet Protocol*)
-   - Maakt een loopapparaat aan van vrije ruimte op `/mnt`
+1. **Initiële Volumecreatie (1-10 seconden):** (*afhankelijk van Hatchet Protocol*)
+   - Maakt een loop-apparaat aan van vrije ruimte op `/mnt`
    - Zet een BTRFS-bestandssysteem op in RAID0-configuratie
-   - Mount met compressie en prestatieoptimalisatie
-   - Biedt direct een 65GB `/nix`, zelfs voordat de opruiming begint
+   - Mount met compressie en prestatietuning
+   - Biedt onmiddellijk een 65GB `/nix`, zelfs voordat de opschoonactie begint
 
-2. **Achtergronduitbreiding (30-180 seconden):** (*afhankelijk van het Hatchet Protocol*)
-   - Voert opruimacties uit
-   - Houdt in de gaten of er nieuwe vrije ruimte beschikbaar komt naarmate bloat wordt verwijderd
-   - Voegt dynamisch een uitbreidingsschijf toe aan het `/nix`-volume
-   - Herbalanceert het bestandssysteem om nieuwe ruimte toe te voegen
+2. **Achtergronduitbreiding (30-180 seconden):** (*afhankelijk van Hatchet Protocol*)
+   - Voert opschoonbewerkingen uit
+   - Controleert op nieuw vrijgekomen ruimte terwijl overtolligheid wordt verwijderd
+   - Voegt dynamisch een uitbreidingsschijf toe aan het `/nix` volume
+   - Herbalanceert het bestandssysteem om de nieuwe ruimte te integreren
 
-Het `/nix`-volume **groeit automatisch tijdens de uitvoering van de workflow** 🎩🪄
+Het `/nix` volume **groeit automatisch tijdens workflow-uitvoering** 🎩🪄
 
-### Kies je Wapen: Het Hatchet Protocol 🪓
+### Kies je wapen: Het Hatchet Protocol 🪓
 
-Bepaal het niveau van vernietiging 💥 met de `hatchet-protocol` input:
+Beheer het niveau van vernietiging 💥 met de `hatchet-protocol` input:
 
 ```yaml
 - uses: wimpysworld/nothing-but-nix@main
@@ -176,12 +178,55 @@ Sommige Nix-installers of configuraties verwachten dat de map `/nix` schrijfbaar
     nix-permission-edict: true  # Default: false
 ```
 
-Wanneer `nix-permission-edict` is ingesteld op `true`, zal de actie `sudo chown -R "$(id --user)":"$(id --group)" /nix` uitvoeren na het aankoppelen van `/nix`.
+Wanneer `nix-permission-edict` is ingesteld op `true`, zal de actie `sudo chown -R "$(id --user)":"$(id --group)" /nix` uitvoeren nadat `/nix` is aangekoppeld.
 
-Ga nu iets geweldigs bouwen met al die glorieuze Nix store-ruimte! ❄️
+### Configureer Nix om /nix/build te gebruiken
+
+Deze actie maakt `/nix/build` aan zodat Nix-afleidingsbuilds de teruggewonnen ruimte kunnen gebruiken. Voeg `build-dir` toe aan je Nix-configuratie:
+
+```yaml
+- uses: cachix/install-nix-action@v31
+  with:
+    extra_nix_config: |
+      build-dir = /nix/build
+```
+
+Of met DeterminateSystems:
+
+```yaml
+- uses: DeterminateSystems/nix-installer-action@main
+  with:
+    extra-conf: |
+      build-dir = /nix/build
+```
+
+Dit instrueert Nix om builds uit te voeren op het grote BTRFS-volume in plaats van de standaard tijdelijke map van het systeem.
+
+## Problemen oplossen 🔍
+
+### "Geen ruimte meer op apparaat" tijdens grote builds
+
+Als je build geen ruimte meer heeft ondanks dat je alleen Nix gebruikt, komt dit waarschijnlijk doordat de achtergrondopruiming nog niet voltooid is voordat je build de beschikbare ruimte verbruikt. Dit treft vaak:
+
+- NixOS VM-tests die grote schijfafbeeldingen samenstellen
+- Builds met veel afhankelijkheden die niet in de cache staan
+- Rust-toolchains en andere grote compilaties
+
+**Oplossing:** Gebruik `witness-carnage: true` om synchrone opruiming af te dwingen. Dit zorgt ervoor dat alle ruimte wordt teruggewonnen *voordat* je build start:
+
+```yaml
+- uses: wimpysworld/nothing-but-nix@main
+  with:
+    hatchet-protocol: 'rampage'
+    witness-carnage: true
+```
+
+Dit voegt 30-180 seconden toe aan je workflow-setup, maar garandeert dat maximale ruimte beschikbaar is wanneer je build begint.
+
+Ga nu iets fantastisch bouwen met al die prachtige Nix store ruimte! ❄️
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-18
 
 ---

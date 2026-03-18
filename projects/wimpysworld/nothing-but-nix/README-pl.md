@@ -31,14 +31,14 @@
 
 # Nothing but Nix
 
-**Zamień swojego runnera GitHub Actions w potęgę [Nix](https://zero-to-nix.com/concepts/nix/) ❄️, bezlitośnie usuwając zbędne, preinstalowane oprogramowanie.**
+**Zmień swojego runnera GitHub Actions w potęgę [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ poprzez bezwzględne usunięcie zbędnych preinstalowanych pakietów.**
 
-Runnery GitHub Actions mają niewiele miejsca na dysku dla Nix – zaledwie ~20GB.
-*Nothing but Nix* **brutalnie czyści** niepotrzebne oprogramowanie, zapewniając Ci **65GB do 130GB** na Twój store Nix! 💪
+Runnery GitHub Actions mają niewiele miejsca na dysku dla Nix – zaledwie około ~20GB.
+*Nothing but Nix* **brutalnie czyści** niepotrzebne oprogramowanie, dając Ci **65GB do 130GB** na Twój Nix store! 💪
 
 ## Użycie 🔧
 
-Dodaj tę akcję **przed** instalacją Nix w swoim workflow:
+Dodaj tę akcję **przed** instalacją Nix w swoim przepływie pracy:
 
 ```yaml
 jobs:
@@ -60,61 +60,63 @@ jobs:
 
 ### Wymagania ️✔️
 
-- Obsługuje tylko oficjalne runner'y **Ubuntu** GitHub Actions
-- Musi być uruchomiony **przed** instalacją Nix
+- Obsługuje tylko oficjalne **Ubuntu** runner'y GitHub Actions
+- Musi być uruchomione **przed** instalacją Nix
+- **Runner'y macOS/Darwin**: Ta akcja zostanie uprzejmie pominięta z ostrzeżeniem, jeśli uruchomiona na macOS. Runner'y macOS już zapewniają wystarczającą ilość miejsca dla Nix i nie wymagają tej akcji
+- **Runner'y Windows**: Ta akcja zostanie uprzejmie pominięta z ostrzeżeniem, jeśli uruchomiona na Windows. Runner'y Windows mają inne układy systemu plików i ograniczenia
 
-## Problem: Zrób miejsce, by Nix mógł rozkwitnąć 🌱
+## Problem: Zrobienie miejsca, by Nix mógł rozkwitnąć 🌱
 
-Standardowe runner'y GitHub Actions są wypchane *"bloatware'em"*, którego nigdy nie użyjesz w workflow Nix:
+Standardowe runner'y GitHub Actions są zapchane *"bloatware"*, którego nigdy nie użyjesz w workflow Nix:
 
-- 🌍 Przeglądarki internetowe. Dużo ich. Trzeba mieć wszystkie!
-- 🐳 Obrazy Dockera zużywające gigabajty cennego miejsca na dysku
-- 💻 Niepotrzebne środowiska uruchomieniowe (.NET, Ruby, PHP, Java...)
+- 🌍 Przeglądarki internetowe. Dużo ich. Musisz mieć je wszystkie!
+- 🐳 Obrazy Dockera zajmujące gigabajty cennego miejsca na dysku
+- 💻 Niepotrzebne środowiska uruchomieniowe języków (.NET, Ruby, PHP, Java...)
 - 📦 Menedżery pakietów zbierające cyfrowy kurz
 - 📚 Dokumentacja, której nikt nigdy nie przeczyta
 
-To zbędne oprogramowanie zostawia tylko ~20GB dla twojego Nix store – ledwie wystarcza na poważne buildy Nix! 😞
+Ten bloat zostawia tylko ~20GB dla twojego sklepu Nix - ledwo wystarczająco na poważne budowy Nix! 😞
 
-## Rozwiązanie: Nic poza Nix ️❄️
+## Rozwiązanie: Tylko Nix ️❄️
 
-**Nic poza Nix** stosuje taktykę spalonej ziemi wobec runner'ów GitHub Actions i bezwzględnie odzyskuje miejsce na dysku, stosując dwufazowy atak:
+**Nothing but Nix** stosuje taktykę "spalonej ziemi" na runner'ach GitHub Actions i bezlitośnie odzyskuje miejsce na dysku za pomocą dwufazowego ataku:
 
-1. **Początkowe cięcie:** Natychmiast tworzy dużą woluminę `/nix` (~65GB), przejmując wolne miejsce z `/mnt`
-2. **Tło destrukcji:** Podczas kontynuowania workflow, bezlitośnie eliminujemy zbędne oprogramowanie, by powiększyć wolumin `/nix` do ~130GB
+1. **Początkowe Cięcie:** Natychmiast tworzy dużą partycję `/nix` (~65GB), przejmując wolne miejsce z `/mnt`
+2. **W tle Rampage:** Gdy twój workflow trwa, bezwzględnie eliminujemy niepotrzebne oprogramowanie, by powiększyć twoją partycję `/nix` do ~130GB
    - Przeglądarki? Nie ma ⛔
-   - Obrazy Dockera? Zniknęły 🗑️
-   - Środowiska uruchomieniowe? Zniszczone 💥
-   - Menedżery pakietów? Anihilowane 💣
-   - Dokumentacja? Wyparowała ️👻
+   - Obrazy Dockera? Usunięte 🗑️
+   - Środowiska języków? Zlikwidowane 💥
+   - Menedżery pakietów? Zniszczone 💣
+   - Dokumentacja? Wyparowana ️👻
 
-Czyszczenie systemu plików napędza `rmz` (z projektu [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc)) – wysokowydajna alternatywa dla `rm`, która błyskawicznie odzyskuje miejsce! ⚡
-   - Wydajność większa o rząd wielkości od standardowego `rm`
-   - Usuwa pliki równolegle dla maksymalnej efektywności
-   - **Odzyskuje miejsce na dysku w sekundy zamiast minut!** ️⏱️
+Czyszczenie systemu plików obsługiwane jest przez `rmz` (z projektu [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc)) - wydajną alternatywę dla `rm`, która błyskawicznie odzyskuje miejsce! ⚡
+   - Przewyższa standardowe `rm` o rząd wielkości
+   - Usuwa pliki równolegle dla maksymalnej wydajności
+   - **Odzyskuje miejsce na dysku w sekundy, a nie minuty!** ️⏱️
 
 Efekt końcowy? Runner GitHub Actions z **65GB do 130GB** miejsca gotowego na Nix! 😁
 
-### Dynamiczny wzrost woluminu
+### Dynamiczny przyrost woluminu
+W przeciwieństwie do innych rozwiązań, **Nothing but Nix** dynamicznie powiększa wolumen `/nix`:
 
-W przeciwieństwie do innych rozwiązań, **Nic poza Nix** dynamicznie powiększa wolumin `/nix`:
+1. **Początkowe tworzenie wolumenu (1-10 sekund):** (*w zależności od protokołu Hatchet*)
+   - Tworzy urządzenie loop z wolnej przestrzeni na `/mnt`
+   - Konfiguruje system plików BTRFS w trybie RAID0
+   - Montuje z kompresją i optymalizacją wydajności
+   - Zapewnia 65GB dla `/nix` natychmiast, jeszcze przed rozpoczęciem oczyszczania
 
-1. **Tworzenie woluminu (1-10 sekund):** (*w zależności od Hatchet Protocol*)
-   - Tworzy urządzenie loop z wolnego miejsca na `/mnt`
-   - Ustawia system plików BTRFS w konfiguracji RAID0
-   - Montuje z kompresją i tuningiem wydajności
-   - Zapewnia natychmiast 65GB na `/nix`, jeszcze przed rozpoczęciem czyszczenia
+2. **Rozszerzanie w tle (30-180 sekund):** (*w zależności od protokołu Hatchet*)
+   - Wykonuje operacje oczyszczania
+   - Monitoruje nowo zwolnioną przestrzeń podczas usuwania nadmiaru
+   - Dynamicznie dodaje dysk rozszerzający do wolumenu `/nix`
+   - Równoważy system plików, aby włączyć nową przestrzeń
 
-2. **Rozszerzanie w tle (30-180 sekund):** (*w zależności od Hatchet Protocol*)
-   - Wykonuje operacje czyszczenia
-   - Monitoruje nowo zwolnione miejsce podczas eliminacji bloatware'u
-   - Dynamicznie dodaje dysk rozszerzający do woluminu `/nix`
-   - Równoważy system plików, aby włączyć nowe miejsce
+Wolumen `/nix` **automatycznie powiększa się podczas wykonywania workflow** 🎩🪄
 
-Wolumin `/nix` **powiększa się automatycznie podczas wykonywania workflow** 🎩🪄
-
-### Wybierz swoją broń: Hatchet Protocol 🪓
+### Wybierz swoją broń: Protokół Hatchet 🪓
 
 Kontroluj poziom anihilacji 💥 za pomocą parametru `hatchet-protocol`:
+
 
 ```yaml
 - uses: wimpysworld/nothing-but-nix@main
@@ -178,10 +180,53 @@ Niektóre instalatory lub konfiguracje Nix oczekują, że katalog `/nix` będzie
 
 Gdy `nix-permission-edict` jest ustawione na `true`, akcja wykona `sudo chown -R "$(id --user)":"$(id --group)" /nix` po zamontowaniu `/nix`.
 
-Teraz idź i zbuduj coś niesamowitego, mając do dyspozycji całą tę wspaniałą przestrzeń sklepu Nix! ❄️
+### Skonfiguruj Nix do używania /nix/build
+
+Ta akcja tworzy `/nix/build`, aby budowy derivacji Nix mogły wykorzystać odzyskaną przestrzeń. Dodaj `build-dir` do swojej konfiguracji Nix:
+
+```yaml
+- uses: cachix/install-nix-action@v31
+  with:
+    extra_nix_config: |
+      build-dir = /nix/build
+```
+
+Lub z DeterminateSystems:
+
+```yaml
+- uses: DeterminateSystems/nix-installer-action@main
+  with:
+    extra-conf: |
+      build-dir = /nix/build
+```
+To nakazuje Nixowi wykonywanie kompilacji na dużym wolumenie BTRFS zamiast w domyślnym katalogu tymczasowym systemu.
+
+## Rozwiązywanie problemów 🔍
+
+### "Brak miejsca na urządzeniu" podczas dużych kompilacji
+
+Jeśli podczas kompilacji zabraknie miejsca, mimo że używasz wyłącznie Nix, prawdopodobnie czyszczenie w tle nie zostało zakończone zanim kompilacja wykorzystała dostępne miejsce. Najczęściej dotyczy to:
+
+- Testów VM NixOS, które tworzą duże obrazy dysków
+- Kompilacji z wieloma zależnościami, które nie są w cache'u
+- Toolchainów Rust i innych dużych kompilacji
+
+**Rozwiązanie:** Użyj `witness-carnage: true`, aby wymusić synchroniczne czyszczenie. Zapewnia to zwolnienie całej przestrzeni *przed* rozpoczęciem kompilacji:
+
+
+```yaml
+- uses: wimpysworld/nothing-but-nix@main
+  with:
+    hatchet-protocol: 'rampage'
+    witness-carnage: true
+```
+
+To dodaje 30-180 sekund do konfiguracji przepływu pracy, ale gwarantuje maksymalną dostępną przestrzeń, gdy rozpocznie się Twoja kompilacja.
+
+Teraz idź i zbuduj coś niesamowitego, korzystając z całej tej wspaniałej przestrzeni w magazynie Nix! ❄️
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-18
 
 ---

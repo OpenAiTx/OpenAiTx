@@ -31,14 +31,14 @@
 
 # Sadece Nix
 
-**GitHub Actions runner'ınızı önceden yüklü gereksiz yazılımları acımasızca kaldırarak bir [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ gücüne dönüştürün.**
+**GitHub Actions runner'ınızı [Nix](https://zero-to-nix.com/concepts/nix/) ❄️ gücüne dönüştürün, önceden kurulu gereksiz dosyaları acımasızca temizleyin.**
 
-GitHub Actions runner'ları Nix için çok az disk alanı ile gelir - sadece ~20GB civarı.
-*Sadece Nix* **gereksiz yazılımları acımasızca temizler**, Nix deposu için size **65GB ila 130GB** alan kazandırır! 💪
+GitHub Actions runner'ları Nix için çok az disk alanıyla gelir - yalnızca ~20GB.
+*Sadece Nix* **gereksiz yazılımları acımasızca temizler** ve Nix store için size **65GB ila 130GB** alan kazandırır! 💪
 
 ## Kullanım 🔧
 
-Bu işlemi iş akışınızda Nix'i yüklemeden **önce** ekleyin:
+Bu işlemi iş akışınızda Nix'i kurmadan **önce** ekleyin:
 
 ```yaml
 jobs:
@@ -62,59 +62,61 @@ jobs:
 
 - Yalnızca resmi **Ubuntu** GitHub Actions runner'larını destekler
 - Nix kurulmadan **önce** çalıştırılmalıdır
+- **macOS/Darwin runner'ları**: Bu işlem macOS üzerinde çalıştırılırsa uyarı ile zarifçe atlanır. macOS runner'ları Nix için yeterli alan sağlar ve bu işleme ihtiyaç duymaz
+- **Windows runner'ları**: Bu işlem Windows üzerinde çalıştırılırsa uyarı ile zarifçe atlanır. Windows runner'larında farklı dosya sistemi düzenleri ve kısıtlamalar vardır
 
 ## Sorun: Nix'in Gelişmesi İçin Yer Açmak 🌱
 
-Standart GitHub Actions runner'ları, bir Nix iş akışında asla kullanmayacağınız *"gereksiz yazılımlarla"* doludur:
+Standart GitHub Actions runner'ları, Nix iş akışında asla kullanmayacağınız *"gereksiz yazılımlar"* ile doludur:
 
-- 🌍 Web tarayıcıları. Hem de bir sürü. Hepsi olmalı!
-- 🐳 Disk alanının gigabaytlarını tüketen Docker imajları
-- 💻 Gereksiz dil çalışma zamanları (.NET, Ruby, PHP, Java...)
-- 📦 Dijital toz toplayan paket yöneticileri
-- 📚 Kimsenin asla okumayacağı belgeler
+- 🌍 Web tarayıcıları. Bir sürü! Hepsini toplamak lazım!
+- 🐳 Docker imajları, değerli disk alanını gigabaytlarca tüketiyor
+- 💻 Gereksiz dil çalışma ortamları (.NET, Ruby, PHP, Java...)
+- 📦 Dijital toz biriktiren paket yöneticileri
+- 📚 Kimsenin okumayacağı dokümantasyonlar
 
-Bu şişkinlik, Nix store'unuz için yalnızca ~20GB bırakır - ciddi Nix derlemeleri için zar zor yeterli! 😞
+Bu şişkinlik, Nix deposu için yalnızca ~20GB bırakır - ciddi Nix derlemeleri için zar zor yeter! 😞
 
 ## Çözüm: Sadece Nix ️❄️
 
-**Sadece Nix**, GitHub Actions runner'larına karşı yakıp yıkma yaklaşımı benimser ve disk alanını acımasızca geri kazanmak için iki aşamalı bir saldırı uygular:
+**Sadece Nix**, GitHub Actions runner'larına kökten bir yaklaşım getirir ve disk alanını acımasızca geri kazanmak için iki aşamalı bir saldırı kullanır:
 
-1. **İlk Kesim:** Boş alanı `/mnt`'den alarak anında büyük bir `/nix` bölümü (~65GB) oluşturur
-2. **Arka Plan Yıkımı:** İş akışınız devam ederken, gereksiz yazılımları acımasızca silerek `/nix` hacminizi ~130GB'a kadar genişletir
+1. **İlk Hamle:** Hemen `/mnt` dizininden boş alanı kullanarak büyük bir `/nix` bölümü (~65GB) oluşturur
+2. **Arka Plan Tahribatı:** İş akışınız devam ederken, gereksiz yazılımlar acımasızca silinir ve `/nix` bölümü ~130GB'a kadar genişletilir
    - Web tarayıcıları? Hayır ⛔
    - Docker imajları? Gitti 🗑️
-   - Dil çalışma zamanları? Yok edildi 💥
-   - Paket yöneticileri? İmha edildi 💣
-   - Belgeler? Buharlaştı ️👻
+   - Dil çalışma ortamları? Yok edildi 💥
+   - Paket yöneticileri? Yok edildi 💣
+   - Dokümantasyon? Buharlaştırıldı ️👻
 
-Dosya sistemi temizliği, [Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc) projesinden `rmz` tarafından sağlanır - alan geri kazanımını yıldırım hızında yapan yüksek performanslı bir `rm` alternatifidir! ⚡
-   - Standart `rm`'den katbekat daha hızlıdır
-   - Maksimum verimlilik için silme işlemlerini paralel olarak yürütür
+Dosya sistemi temizliği `rmz` tarafından gerçekleştirilmektedir ([Fast Unix Commands (FUC)](https://github.com/SUPERCILEX/fuc) projesinden) - alanı ışık hızında geri kazandıran, `rm`'ye yüksek performanslı bir alternatif! ⚡
+   - Standart `rm`'ye göre kat kat daha hızlı çalışır
+   - Silme işlemlerini maksimum verimlilik için paralel olarak yürütür
    - **Disk alanını dakikalar yerine saniyeler içinde geri kazanır!** ️⏱️
 
-Sonuç? **65GB ila 130GB** Nix'e hazır alanı olan bir GitHub Actions runner'ı! 😁
+Sonuç? **65GB ile 130GB** arasında Nix'e hazır bir GitHub Actions runner! 😁
 
-### Dinamik Hacim Büyümesi
+### Dinamik Bölüm Büyümesi
+Diğer çözümlerden farklı olarak, **Nothing but Nix** `/nix` biriminizi dinamik olarak büyütür:
 
-Diğer çözümlerden farklı olarak, **Sadece Nix** `/nix` hacminizi dinamik olarak büyütür:
-
-1. **İlk Hacim Oluşturma (1-10 saniye):** (*Hatchet Protocol'e bağlı olarak*)
-   - `/mnt` üzerindeki boş alandan bir loop aygıtı oluşturur
+1. **Başlangıç Birim Oluşturma (1-10 saniye):** (*Hatchet Protokolüne bağlı olarak*)
+   - `/mnt` üzerindeki boş alandan bir döngü aygıtı oluşturur
    - RAID0 yapılandırmasında bir BTRFS dosya sistemi kurar
-   - Sıkıştırma ve performans ayarlarıyla mount eder
-   - Temizlik başlamadan hemen önce 65GB'lık bir `/nix` sunar
+   - Sıkıştırma ve performans ayarıyla bağlar
+   - Temizlik başlamadan önce bile anında 65GB'lık bir `/nix` sunar
 
-2. **Arka Plan Genişlemesi (30-180 saniye):** (*Hatchet Protocol'e bağlı olarak*)
-   - Temizleme işlemlerini gerçekleştirir
-   - Şişkinlik temizlendikçe yeni açılan alanı izler
-   - `/nix` hacmine dinamik olarak bir genişletme diski ekler
+2. **Arka Planda Genişletme (30-180 saniye):** (*Hatchet Protokolüne bağlı olarak*)
+   - Temizlik işlemlerini yürütür
+   - Şişkinlik giderildikçe yeni boşalan alanı izler
+   - `/nix` birimine dinamik olarak bir genişletme diski ekler
    - Dosya sistemini yeni alanı dahil edecek şekilde yeniden dengeler
 
-`/nix` hacmi **iş akışı çalışırken otomatik olarak büyür** 🎩🪄
+`/nix` birimi, iş akışı yürütülürken otomatik olarak **büyür** 🎩🪄
 
-### Silahını Seç: Hatchet Protocol 🪓
+### Silahını Seç: Hatchet Protokolü 🪓
 
 `hatchet-protocol` girdisiyle yok etme seviyesini kontrol edin 💥:
+
 
 ```yaml
 - uses: wimpysworld/nothing-but-nix@main
@@ -176,12 +178,55 @@ Bazı Nix yükleyicileri veya yapılandırmaları, `/nix` dizininin mevcut kulla
     nix-permission-edict: true  # Default: false
 ```
 
-`nix-permission-edict` değeri `true` olarak ayarlandığında, işlem `/nix` bağlandıktan sonra `sudo chown -R "$(id --user)":"$(id --group)" /nix` komutunu çalıştıracaktır.
+`nix-permission-edict` değeri `true` olarak ayarlandığında, işlem `/nix`i bağladıktan sonra `sudo chown -R "$(id --user)":"$(id --group)" /nix` komutunu çalıştırır.
 
-Şimdi bu muhteşem Nix deposu alanıyla harika bir şeyler inşa et! ❄️
+### Nix'i /nix/build kullanacak şekilde yapılandırın
+
+Bu işlem, geri kazanılan alanı kullanmak için Nix türetme yapılarının kullanması amacıyla `/nix/build` dizinini oluşturur. Nix yapılandırmanıza `build-dir` ekleyin:
+
+```yaml
+- uses: cachix/install-nix-action@v31
+  with:
+    extra_nix_config: |
+      build-dir = /nix/build
+```
+
+Ya da DeterminateSystems ile:
+
+```yaml
+- uses: DeterminateSystems/nix-installer-action@main
+  with:
+    extra-conf: |
+      build-dir = /nix/build
+```
+Bu, Nix'i büyük BTRFS hacminde derlemeler yapmaya yönlendirir; böylece sistemin varsayılan geçici dizini yerine kullanılır.
+
+## Sorun Giderme 🔍
+
+### Büyük derlemelerde "Aygıtta yer kalmadı" hatası
+
+Derlemeniz yalnızca Nix'i kullandığınız halde yer bitiyorsa, muhtemelen arka planda yapılan temizleme işlemi tamamlanmadan derlemeniz mevcut alanı tüketmiştir. Bu genellikle şu durumları etkiler:
+
+- Büyük disk imajları oluşturan NixOS VM testleri
+- Önbelleğe alınmamış çok sayıda bağımlılığa sahip derlemeler
+- Rust araç zinciri ve diğer büyük derlemeler
+
+**Çözüm:** Eşzamanlı temizlemeyi zorlamak için `witness-carnage: true` kullanın. Bu, tüm alanın derlemeniz başlamadan *önce* geri kazanılmasını sağlar:
+
+
+```yaml
+- uses: wimpysworld/nothing-but-nix@main
+  with:
+    hatchet-protocol: 'rampage'
+    witness-carnage: true
+```
+
+Bu, iş akışı kurulumunuza 30-180 saniye ekler, ancak derlemeniz başladığında maksimum alanın kullanılabilir olmasını garanti eder.
+
+Şimdi o muhteşem Nix store alanıyla harika bir şey inşa etmeye gidin! ❄️
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-18
 
 ---
