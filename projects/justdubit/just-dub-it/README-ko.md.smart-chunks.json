@@ -1,0 +1,473 @@
+[
+  {
+    "Id": 1,
+    "Content": "# JustDubit: Video Dubbing via Joint Audio-Visual Diffusion\n\n[![Website](https://img.shields.io/badge/Project-Page-181717?logo=google-chrome)](https://justdubit.github.io)\n[![Model](https://img.shields.io/badge/HuggingFace-Model-orange?logo=huggingface)](https://huggingface.co/justdubit/justdubit)\n[![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue?logo=huggingface)](https://huggingface.co/datasets/justdubit/audiovisual_translation_dub/settings)\n\n## 📰 News\n\n- [2026/02/10] 🔥 Code, checkpoints, and data released\n- [2026/01/29] 🔥 Tech report released\n\n\n---\n\n## 📄 Abstract\n\nAudio-Visual Foundation Models, which are pretrained to jointly generate sound and visual content, have recently shown an unprecedented ability to model multi-modal generation and editing, opening new opportunities for downstream tasks.\n\nAmong these tasks, video dubbing could greatly benefit from such priors, yet most existing solutions still rely on complex, task-specific pipelines that struggle in real-world settings.\n\nIn this work, we introduce a single-model approach that adapts a foundational audio-video diffusion model for video-to-video dubbing via a lightweight LoRA. The LoRA enables the model to condition on an input audio-video while jointly generating translated audio and synchronized facial motion.\n\nTo train this LoRA, we leverage the generative model itself to synthesize paired multilingual videos of the same speaker. Specifically, we generate multilingual videos with language switches within a single clip, and then inpaint the face and audio in each half to match the language of the other half.\n\nBy leveraging the rich generative prior of the audio-visual model, our approach preserves speaker identity and lip synchronization while remaining robust to complex motion and real-world dynamics. We demonstrate that our approach produces high-quality dubbed videos with improved visual fidelity, lip synchronization, and robustness compared to existing dubbing pipelines.\n\n---\n\n## 🚀 Quick Links\n\n| Resource | Description |\n|----------|-------------|\n| [**Inference Pipeline**](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-pipelines/README.md) | Run video dubbing with the JustDubit pipeline |\n| [**Training Guide**](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-trainer/README.md) | Train your own JustDubit LoRA |\n\n---\n\n## 📦 Repository Structure\n",
+    "ContentSha": "tfqpnHSTsHiLxeyFIyanOUqKm9CWBZO5pNXB6NT+Veo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# JustDubit: 공동 오디오-비주얼 확산을 통한 비디오 더빙\n\n[![Website](https://img.shields.io/badge/Project-Page-181717?logo=google-chrome)](https://justdubit.github.io)\n[![Model](https://img.shields.io/badge/HuggingFace-Model-orange?logo=huggingface)](https://huggingface.co/justdubit/justdubit)\n[![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue?logo=huggingface)](https://huggingface.co/datasets/justdubit/audiovisual_translation_dub/settings)\n\n## 📰 뉴스\n\n- [2026/02/10] 🔥 코드, 체크포인트 및 데이터 공개\n- [2026/01/29] 🔥 기술 보고서 공개\n\n\n---\n\n## 📄 초록\n\n사운드와 시각 콘텐츠를 공동 생성하도록 사전 학습된 오디오-비주얼 기초 모델은 최근 멀티모달 생성 및 편집을 모델링하는 전례 없는 능력을 보여주며, 다운스트림 작업에 새로운 기회를 열었습니다.\n\n이 작업들 중 비디오 더빙은 이러한 사전 지식으로부터 큰 혜택을 받을 수 있지만, 대부분 기존 솔루션은 여전히 실제 환경에서 어려움을 겪는 복잡하고 작업별 특화된 파이프라인에 의존합니다.\n\n본 연구에서는 경량 LoRA를 통해 기초 오디오-비디오 확산 모델을 비디오-투-비디오 더빙에 적응시키는 단일 모델 접근법을 소개합니다. LoRA는 입력 오디오-비디오를 조건으로 하여 번역된 오디오와 동기화된 얼굴 움직임을 공동 생성할 수 있게 합니다.\n\n이 LoRA를 학습하기 위해, 우리는 생성 모델 자체를 활용하여 동일 화자의 다국어 비디오 쌍을 합성합니다. 구체적으로, 단일 클립 내에서 언어가 전환되는 다국어 비디오를 생성한 후, 각 절반의 얼굴과 오디오를 다른 절반의 언어에 맞게 인페인팅합니다.\n\n오디오-비주얼 모델의 풍부한 생성 사전 지식을 활용하여, 본 접근법은 화자 정체성과 입 모양 동기화를 보존하면서 복잡한 움직임과 실제 환경 동역학에 견고합니다. 우리는 본 접근법이 기존 더빙 파이프라인에 비해 향상된 시각적 충실도, 입 모양 동기화 및 견고성을 갖춘 고품질 더빙 비디오를 생성함을 입증합니다.\n\n---\n\n## 🚀 빠른 링크\n\n| 리소스 | 설명 |\n|----------|-------------|\n| [**추론 파이프라인**](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-pipelines/README.md) | JustDubit 파이프라인으로 비디오 더빙 실행 |\n| [**학습 가이드**](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-trainer/README.md) | 나만의 JustDubit LoRA 학습 |\n\n---\n\n## 📦 저장소 구조\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "3x23hdTY+D8d179lbKSdqdm4jqjWJZ/K8kpSLBJ+bAE=",
+        "originContent": "# JustDubit: Video Dubbing via Joint Audio-Visual Diffusion",
+        "translatedContent": "# JustDubit: 공동 오디오-비주얼 확산을 통한 비디오 더빙"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "EU6HaVEXSfHRLoPJIDXRXHw6xN86WV8hf+C+OkXu3Kc=",
+        "originContent": "[![Website](https://img.shields.io/badge/Project-Page-181717?logo=google-chrome)](https://justdubit.github.io)",
+        "translatedContent": "[![Website](https://img.shields.io/badge/Project-Page-181717?logo=google-chrome)](https://justdubit.github.io)"
+      },
+      {
+        "row": 4,
+        "rowsha": "5jYk2dS6vptWQDg5f5SKpY4d7AgSttoqkyTo7C9Otg0=",
+        "originContent": "[![Model](https://img.shields.io/badge/HuggingFace-Model-orange?logo=huggingface)](https://huggingface.co/justdubit/justdubit)",
+        "translatedContent": "[![Model](https://img.shields.io/badge/HuggingFace-Model-orange?logo=huggingface)](https://huggingface.co/justdubit/justdubit)"
+      },
+      {
+        "row": 5,
+        "rowsha": "7YEJckaJcn7gCqCgBjn/W7jmd7NWMpSw+T2QCGDsXss=",
+        "originContent": "[![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue?logo=huggingface)](https://huggingface.co/datasets/justdubit/audiovisual_translation_dub/settings)",
+        "translatedContent": "[![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue?logo=huggingface)](https://huggingface.co/datasets/justdubit/audiovisual_translation_dub/settings)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "0YeCyxpcm7/4RDbaM+OQoI8YfqEHQzDkpGW15VZdi1U=",
+        "originContent": "## 📰 News",
+        "translatedContent": "## 📰 뉴스"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "xeZkbY4h2JuObDCTCkImo/wISHPK9e666E34GexMdj0=",
+        "originContent": "- [2026/02/10] 🔥 Code, checkpoints, and data released",
+        "translatedContent": "- [2026/02/10] 🔥 코드, 체크포인트 및 데이터 공개"
+      },
+      {
+        "row": 10,
+        "rowsha": "w3c6NDf0KMcwgUr/0sQsFdB3yJzG8q+dbRFpA56niPg=",
+        "originContent": "- [2026/01/29] 🔥 Tech report released",
+        "translatedContent": "- [2026/01/29] 🔥 기술 보고서 공개"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "Hrn2kOB3xisRXXGPTgmc0Xe82NzDYvPL7+38XDB+Abc=",
+        "originContent": "## 📄 Abstract",
+        "translatedContent": "## 📄 초록"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "nO5NT2bOsUJlp18AsXSvMI9XqCHjgZfxSgCwT9CwZAM=",
+        "originContent": "Audio-Visual Foundation Models, which are pretrained to jointly generate sound and visual content, have recently shown an unprecedented ability to model multi-modal generation and editing, opening new opportunities for downstream tasks.",
+        "translatedContent": "사운드와 시각 콘텐츠를 공동 생성하도록 사전 학습된 오디오-비주얼 기초 모델은 최근 멀티모달 생성 및 편집을 모델링하는 전례 없는 능력을 보여주며, 다운스트림 작업에 새로운 기회를 열었습니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "AI8GIQ+Kxwj+h76OIooLJPEbNUnbNJ86vsqKVIoiobs=",
+        "originContent": "Among these tasks, video dubbing could greatly benefit from such priors, yet most existing solutions still rely on complex, task-specific pipelines that struggle in real-world settings.",
+        "translatedContent": "이 작업들 중 비디오 더빙은 이러한 사전 지식으로부터 큰 혜택을 받을 수 있지만, 대부분 기존 솔루션은 여전히 실제 환경에서 어려움을 겪는 복잡하고 작업별 특화된 파이프라인에 의존합니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "StzLpYTj0iuDutQSQCw3NzvAlepRyfglmV+GVtLm0DY=",
+        "originContent": "In this work, we introduce a single-model approach that adapts a foundational audio-video diffusion model for video-to-video dubbing via a lightweight LoRA. The LoRA enables the model to condition on an input audio-video while jointly generating translated audio and synchronized facial motion.",
+        "translatedContent": "본 연구에서는 경량 LoRA를 통해 기초 오디오-비디오 확산 모델을 비디오-투-비디오 더빙에 적응시키는 단일 모델 접근법을 소개합니다. LoRA는 입력 오디오-비디오를 조건으로 하여 번역된 오디오와 동기화된 얼굴 움직임을 공동 생성할 수 있게 합니다."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "vLyrS+eJ8VNCyZ3scEDv5yGJMNQ1mQEv2aZumfJAllQ=",
+        "originContent": "To train this LoRA, we leverage the generative model itself to synthesize paired multilingual videos of the same speaker. Specifically, we generate multilingual videos with language switches within a single clip, and then inpaint the face and audio in each half to match the language of the other half.",
+        "translatedContent": "이 LoRA를 학습하기 위해, 우리는 생성 모델 자체를 활용하여 동일 화자의 다국어 비디오 쌍을 합성합니다. 구체적으로, 단일 클립 내에서 언어가 전환되는 다국어 비디오를 생성한 후, 각 절반의 얼굴과 오디오를 다른 절반의 언어에 맞게 인페인팅합니다."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "+dZl+qxkdltYHB0DaF+dPq3YAsWz0cM7heb+SUe+qPM=",
+        "originContent": "By leveraging the rich generative prior of the audio-visual model, our approach preserves speaker identity and lip synchronization while remaining robust to complex motion and real-world dynamics. We demonstrate that our approach produces high-quality dubbed videos with improved visual fidelity, lip synchronization, and robustness compared to existing dubbing pipelines.",
+        "translatedContent": "오디오-비주얼 모델의 풍부한 생성 사전 지식을 활용하여, 본 접근법은 화자 정체성과 입 모양 동기화를 보존하면서 복잡한 움직임과 실제 환경 동역학에 견고합니다. 우리는 본 접근법이 기존 더빙 파이프라인에 비해 향상된 시각적 충실도, 입 모양 동기화 및 견고성을 갖춘 고품질 더빙 비디오를 생성함을 입증합니다."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "mO7043tr5UIGSMEnuwktJiJHKUhIPymQJ9Fh+GXczqU=",
+        "originContent": "## 🚀 Quick Links",
+        "translatedContent": "## 🚀 빠른 링크"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "3jJ1gaDIsH2xoOLOyTJ4m78B1V2N9Yxz1zdnPKkysiM=",
+        "originContent": "| Resource | Description |",
+        "translatedContent": "| 리소스 | 설명 |"
+      },
+      {
+        "row": 32,
+        "rowsha": "tkIETMJFXsZuFrAwyod8za8rnBpkWaFGEtOgogeluKg=",
+        "originContent": "|----------|-------------|",
+        "translatedContent": "|----------|-------------|"
+      },
+      {
+        "row": 33,
+        "rowsha": "oUKr7EV1s2g9hx8e9+8Fe/D3rZTvE/L7KLO5w27OkoM=",
+        "originContent": "| [**Inference Pipeline**](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-pipelines/README.md) | Run video dubbing with the JustDubit pipeline |",
+        "translatedContent": "| [**추론 파이프라인**](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-pipelines/README.md) | JustDubit 파이프라인으로 비디오 더빙 실행 |"
+      },
+      {
+        "row": 34,
+        "rowsha": "MHQpo0WV9JPcZqdwmGAyywaXzslGeTbHXAGoYsWjCvw=",
+        "originContent": "| [**Training Guide**](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-trainer/README.md) | Train your own JustDubit LoRA |",
+        "translatedContent": "| [**학습 가이드**](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-trainer/README.md) | 나만의 JustDubit LoRA 학습 |"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "duyxgTqeGsgq1dqeUhBZ3JcIJtN9hY1NpxVB+k6YxW4=",
+        "originContent": "## 📦 Repository Structure",
+        "translatedContent": "## 📦 저장소 구조"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\njust-dub-it/\n├── packages/\n│   ├── ltx-pipelines/     # Inference pipeline for video dubbing\n│   │   └── README.md      # Pipeline usage guide\n│   ├── ltx-trainer/       # Training tools for JustDubit LoRA\n│   │   └── README.md      # Training guide\n│   └── ltx-core/          # Core model components\n└── README.md              # This file\n```",
+    "ContentSha": "WxJowItnvUEZ0jEwUD8v85vUHItcz+JnjTDsIi3oXhg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\njust-dub-it/\n├── packages/\n│   ├── ltx-pipelines/     # Inference pipeline for video dubbing\n│   │   └── README.md      # Pipeline usage guide\n│   ├── ltx-trainer/       # Training tools for JustDubit LoRA\n│   │   └── README.md      # Training guide\n│   └── ltx-core/          # Core model components\n└── README.md              # This file\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "vi13QNX7Ck9m0BN63oFqLlGDebb71tyuD45v+/HoMTk=",
+        "originContent": "just-dub-it/",
+        "translatedContent": "just-dub-it/"
+      },
+      {
+        "row": 3,
+        "rowsha": "Nmn9gXuTytr8a82KizT2jJOiPjNk3CdoGEbE832g5D4=",
+        "originContent": "├── packages/",
+        "translatedContent": "├── packages/"
+      },
+      {
+        "row": 4,
+        "rowsha": "PiWKhu0fB4VdfRglr4ihDjLMSh17oD46swXh8fePldU=",
+        "originContent": "│   ├── ltx-pipelines/     # Inference pipeline for video dubbing",
+        "translatedContent": "│   ├── ltx-pipelines/     # Inference pipeline for video dubbing"
+      },
+      {
+        "row": 5,
+        "rowsha": "Cr6xOFz1Vn0xpYih06z35dLVsyt2+lQ86vZq9XW4dvM=",
+        "originContent": "│   │   └── README.md      # Pipeline usage guide",
+        "translatedContent": "│   │   └── README.md      # Pipeline usage guide"
+      },
+      {
+        "row": 6,
+        "rowsha": "Pued5fnh5s5JkvfL0metoiNbfdUqipfsgxBegQWsfF0=",
+        "originContent": "│   ├── ltx-trainer/       # Training tools for JustDubit LoRA",
+        "translatedContent": "│   ├── ltx-trainer/       # Training tools for JustDubit LoRA"
+      },
+      {
+        "row": 7,
+        "rowsha": "UHjaIZXZtLAKcw6MeUs6+6+YXE2S0yWX/Ihdxw4gwN4=",
+        "originContent": "│   │   └── README.md      # Training guide",
+        "translatedContent": "│   │   └── README.md      # Training guide"
+      },
+      {
+        "row": 8,
+        "rowsha": "yNILqEZGd++JCFXNconc9lWW21u7OBGfsImxdeFz32M=",
+        "originContent": "│   └── ltx-core/          # Core model components",
+        "translatedContent": "│   └── ltx-core/          # Core model components"
+      },
+      {
+        "row": 9,
+        "rowsha": "su9MNKJi/BCyEa8LmYTm8WDEB1KKthfMw+2Q6RusROQ=",
+        "originContent": "└── README.md              # This file",
+        "translatedContent": "└── README.md              # This file"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n---\n\n## 🎬 Inference\n\nSee the [Pipeline README](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-pipelines/README.md) for:\n- Installation instructions\n- Model checkpoint downloads\n- Prompt format guide\n- CLI arguments reference\n\n---\n\n## 🏋️ Training\n\nSee the [Trainer README](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-trainer/README.md) for:\n- Dataset download and preparation\n- Preprocessing pipeline\n- Training configuration\n- Multi-GPU training setup\n\n\n",
+    "ContentSha": "5zHEcWMG1MKGF2Kw7JcosSt4UfQO1Dt4ikw7cytBRTU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 🎬 추론\n\n다음은 [파이프라인 README](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-pipelines/README.md)를 참조하세요:\n- 설치 지침\n- 모델 체크포인트 다운로드\n- 프롬프트 형식 가이드\n- CLI 인수 참조\n\n---\n\n## 🏋️ 학습\n\n다음은 [트레이너 README](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-trainer/README.md)를 참조하세요:\n- 데이터셋 다운로드 및 준비\n- 전처리 파이프라인\n- 학습 구성\n- 다중 GPU 학습 설정\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "q8cioZXg61/x1ztH43tGeBQm0DL2OAjgiBP83AVyEJI=",
+        "originContent": "## 🎬 Inference",
+        "translatedContent": "## 🎬 추론"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "GWuiENlSt2XnqXxKNlLub2hUAKoo8y1FJjnwY5DUS5Y=",
+        "originContent": "See the [Pipeline README](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-pipelines/README.md) for:",
+        "translatedContent": "다음은 [파이프라인 README](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-pipelines/README.md)를 참조하세요:"
+      },
+      {
+        "row": 7,
+        "rowsha": "7GeZGkad1PRlSKz4Ffb83N2UkhYKWoBTD3I5TLoM/DM=",
+        "originContent": "- Installation instructions",
+        "translatedContent": "- 설치 지침"
+      },
+      {
+        "row": 8,
+        "rowsha": "lNDbm47JWh4nhRUyTbFqcg8clz/liAlCJr/SnwLyhjs=",
+        "originContent": "- Model checkpoint downloads",
+        "translatedContent": "- 모델 체크포인트 다운로드"
+      },
+      {
+        "row": 9,
+        "rowsha": "2Ic/vYnJCpXjg1uCSkEZUAIjib9kNb2ssNa772+XVvE=",
+        "originContent": "- Prompt format guide",
+        "translatedContent": "- 프롬프트 형식 가이드"
+      },
+      {
+        "row": 10,
+        "rowsha": "H9MG1yHi7rgZ1X/MNEq/r2fquPabO0WlhUVl7KYTNqk=",
+        "originContent": "- CLI arguments reference",
+        "translatedContent": "- CLI 인수 참조"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "bYOuAurXkkjnLH8N7mkJWKvkFzIgQYkX5ERI2gGw5tg=",
+        "originContent": "## 🏋️ Training",
+        "translatedContent": "## 🏋️ 학습"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "QGUiWXGF6tjcTP/hzFmlOPMWqfSIjrbHCc/UctjGueA=",
+        "originContent": "See the [Trainer README](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-trainer/README.md) for:",
+        "translatedContent": "다음은 [트레이너 README](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-trainer/README.md)를 참조하세요:"
+      },
+      {
+        "row": 17,
+        "rowsha": "dBLDP74sA2t73dywqxW0SBujJ+VJCxdcU4Y034HuJkw=",
+        "originContent": "- Dataset download and preparation",
+        "translatedContent": "- 데이터셋 다운로드 및 준비"
+      },
+      {
+        "row": 18,
+        "rowsha": "8F0d5W811AO+BowZcq8PgMGyLTkeAufkhFn511VD0w0=",
+        "originContent": "- Preprocessing pipeline",
+        "translatedContent": "- 전처리 파이프라인"
+      },
+      {
+        "row": 19,
+        "rowsha": "WULBNTueIkEd8wKovFNf+OzLOU+SLYbJfveKn9ZsRsE=",
+        "originContent": "- Training configuration",
+        "translatedContent": "- 학습 구성"
+      },
+      {
+        "row": 20,
+        "rowsha": "pokjZOvcA+/nPibWCPunNcXXM667+IWXWNQIfRrpAV0=",
+        "originContent": "- Multi-GPU training setup",
+        "translatedContent": "- 다중 GPU 학습 설정"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

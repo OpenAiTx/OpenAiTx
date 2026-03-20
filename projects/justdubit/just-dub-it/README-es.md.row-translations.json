@@ -1,0 +1,434 @@
+[
+  {
+    "row": 1,
+    "rowsha": "3x23hdTY+D8d179lbKSdqdm4jqjWJZ/K8kpSLBJ+bAE=",
+    "originContent": "# JustDubit: Video Dubbing via Joint Audio-Visual Diffusion",
+    "translatedContent": "# JustDubit: Doblaje de Video mediante Difusión Audio-Visual Conjunta"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "EU6HaVEXSfHRLoPJIDXRXHw6xN86WV8hf+C+OkXu3Kc=",
+    "originContent": "[![Website](https://img.shields.io/badge/Project-Page-181717?logo=google-chrome)](https://justdubit.github.io)",
+    "translatedContent": "[![Website](https://img.shields.io/badge/Project-Page-181717?logo=google-chrome)](https://justdubit.github.io)"
+  },
+  {
+    "row": 4,
+    "rowsha": "5jYk2dS6vptWQDg5f5SKpY4d7AgSttoqkyTo7C9Otg0=",
+    "originContent": "[![Model](https://img.shields.io/badge/HuggingFace-Model-orange?logo=huggingface)](https://huggingface.co/justdubit/justdubit)",
+    "translatedContent": "[![Model](https://img.shields.io/badge/HuggingFace-Model-orange?logo=huggingface)](https://huggingface.co/justdubit/justdubit)"
+  },
+  {
+    "row": 5,
+    "rowsha": "7YEJckaJcn7gCqCgBjn/W7jmd7NWMpSw+T2QCGDsXss=",
+    "originContent": "[![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue?logo=huggingface)](https://huggingface.co/datasets/justdubit/audiovisual_translation_dub/settings)",
+    "translatedContent": "[![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue?logo=huggingface)](https://huggingface.co/datasets/justdubit/audiovisual_translation_dub/settings)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "0YeCyxpcm7/4RDbaM+OQoI8YfqEHQzDkpGW15VZdi1U=",
+    "originContent": "## 📰 News",
+    "translatedContent": "## 📰 Noticias"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "xeZkbY4h2JuObDCTCkImo/wISHPK9e666E34GexMdj0=",
+    "originContent": "- [2026/02/10] 🔥 Code, checkpoints, and data released",
+    "translatedContent": "- [2026/02/10] 🔥 Código, puntos de control y datos publicados"
+  },
+  {
+    "row": 10,
+    "rowsha": "w3c6NDf0KMcwgUr/0sQsFdB3yJzG8q+dbRFpA56niPg=",
+    "originContent": "- [2026/01/29] 🔥 Tech report released",
+    "translatedContent": "- [2026/01/29] 🔥 Informe técnico publicado"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "Hrn2kOB3xisRXXGPTgmc0Xe82NzDYvPL7+38XDB+Abc=",
+    "originContent": "## 📄 Abstract",
+    "translatedContent": "## 📄 Resumen"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "nO5NT2bOsUJlp18AsXSvMI9XqCHjgZfxSgCwT9CwZAM=",
+    "originContent": "Audio-Visual Foundation Models, which are pretrained to jointly generate sound and visual content, have recently shown an unprecedented ability to model multi-modal generation and editing, opening new opportunities for downstream tasks.",
+    "translatedContent": "Los Modelos Fundamentales Audio-Visuales, que están preentrenados para generar conjuntamente contenido sonoro y visual, han demostrado recientemente una capacidad sin precedentes para modelar generación y edición multimodal, abriendo nuevas oportunidades para tareas posteriores."
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "AI8GIQ+Kxwj+h76OIooLJPEbNUnbNJ86vsqKVIoiobs=",
+    "originContent": "Among these tasks, video dubbing could greatly benefit from such priors, yet most existing solutions still rely on complex, task-specific pipelines that struggle in real-world settings.",
+    "translatedContent": "Entre estas tareas, el doblaje de video podría beneficiarse enormemente de tales conocimientos previos, sin embargo, la mayoría de las soluciones existentes aún dependen de pipelines complejos y específicos de tarea que tienen dificultades en entornos reales."
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "StzLpYTj0iuDutQSQCw3NzvAlepRyfglmV+GVtLm0DY=",
+    "originContent": "In this work, we introduce a single-model approach that adapts a foundational audio-video diffusion model for video-to-video dubbing via a lightweight LoRA. The LoRA enables the model to condition on an input audio-video while jointly generating translated audio and synchronized facial motion.",
+    "translatedContent": "En este trabajo, presentamos un enfoque de modelo único que adapta un modelo fundamental de difusión audio-video para doblaje de video a video mediante un LoRA ligero. El LoRA permite que el modelo condicione en un audio-video de entrada mientras genera conjuntamente audio traducido y movimiento facial sincronizado."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "vLyrS+eJ8VNCyZ3scEDv5yGJMNQ1mQEv2aZumfJAllQ=",
+    "originContent": "To train this LoRA, we leverage the generative model itself to synthesize paired multilingual videos of the same speaker. Specifically, we generate multilingual videos with language switches within a single clip, and then inpaint the face and audio in each half to match the language of the other half.",
+    "translatedContent": "Para entrenar este LoRA, aprovechamos el propio modelo generativo para sintetizar videos multilingües emparejados del mismo hablante. Específicamente, generamos videos multilingües con cambios de idioma dentro de un solo clip, y luego retocamos la cara y el audio en cada mitad para que coincidan con el idioma de la otra mitad."
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "+dZl+qxkdltYHB0DaF+dPq3YAsWz0cM7heb+SUe+qPM=",
+    "originContent": "By leveraging the rich generative prior of the audio-visual model, our approach preserves speaker identity and lip synchronization while remaining robust to complex motion and real-world dynamics. We demonstrate that our approach produces high-quality dubbed videos with improved visual fidelity, lip synchronization, and robustness compared to existing dubbing pipelines.",
+    "translatedContent": "Al aprovechar el rico conocimiento generativo del modelo audio-visual, nuestro enfoque preserva la identidad del hablante y la sincronización labial mientras se mantiene robusto frente a movimientos complejos y dinámicas del mundo real. Demostramos que nuestro enfoque produce videos doblados de alta calidad con mejor fidelidad visual, sincronización labial y robustez en comparación con pipelines de doblaje existentes."
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "mO7043tr5UIGSMEnuwktJiJHKUhIPymQJ9Fh+GXczqU=",
+    "originContent": "## 🚀 Quick Links",
+    "translatedContent": "## 🚀 Enlaces Rápidos"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "3jJ1gaDIsH2xoOLOyTJ4m78B1V2N9Yxz1zdnPKkysiM=",
+    "originContent": "| Resource | Description |",
+    "translatedContent": "| Recurso | Descripción |"
+  },
+  {
+    "row": 32,
+    "rowsha": "tkIETMJFXsZuFrAwyod8za8rnBpkWaFGEtOgogeluKg=",
+    "originContent": "|----------|-------------|",
+    "translatedContent": "|----------|-------------|"
+  },
+  {
+    "row": 33,
+    "rowsha": "oUKr7EV1s2g9hx8e9+8Fe/D3rZTvE/L7KLO5w27OkoM=",
+    "originContent": "| [**Inference Pipeline**](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-pipelines/README.md) | Run video dubbing with the JustDubit pipeline |",
+    "translatedContent": "| [**Pipeline de Inferencia**](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-pipelines/README.md) | Ejecuta el doblaje de video con el pipeline JustDubit |"
+  },
+  {
+    "row": 34,
+    "rowsha": "MHQpo0WV9JPcZqdwmGAyywaXzslGeTbHXAGoYsWjCvw=",
+    "originContent": "| [**Training Guide**](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-trainer/README.md) | Train your own JustDubit LoRA |",
+    "translatedContent": "| [**Guía de Entrenamiento**](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-trainer/README.md) | Entrena tu propio LoRA de JustDubit |"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "duyxgTqeGsgq1dqeUhBZ3JcIJtN9hY1NpxVB+k6YxW4=",
+    "originContent": "## 📦 Repository Structure",
+    "translatedContent": "## 📦 Estructura del Repositorio"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 41,
+    "rowsha": "vi13QNX7Ck9m0BN63oFqLlGDebb71tyuD45v+/HoMTk=",
+    "originContent": "just-dub-it/",
+    "translatedContent": "just-dub-it/"
+  },
+  {
+    "row": 42,
+    "rowsha": "Nmn9gXuTytr8a82KizT2jJOiPjNk3CdoGEbE832g5D4=",
+    "originContent": "├── packages/",
+    "translatedContent": "├── packages/"
+  },
+  {
+    "row": 43,
+    "rowsha": "PiWKhu0fB4VdfRglr4ihDjLMSh17oD46swXh8fePldU=",
+    "originContent": "│   ├── ltx-pipelines/     # Inference pipeline for video dubbing",
+    "translatedContent": "│   ├── ltx-pipelines/     # Inference pipeline for video dubbing"
+  },
+  {
+    "row": 44,
+    "rowsha": "Cr6xOFz1Vn0xpYih06z35dLVsyt2+lQ86vZq9XW4dvM=",
+    "originContent": "│   │   └── README.md      # Pipeline usage guide",
+    "translatedContent": "│   │   └── README.md      # Pipeline usage guide"
+  },
+  {
+    "row": 45,
+    "rowsha": "Pued5fnh5s5JkvfL0metoiNbfdUqipfsgxBegQWsfF0=",
+    "originContent": "│   ├── ltx-trainer/       # Training tools for JustDubit LoRA",
+    "translatedContent": "│   ├── ltx-trainer/       # Training tools for JustDubit LoRA"
+  },
+  {
+    "row": 46,
+    "rowsha": "UHjaIZXZtLAKcw6MeUs6+6+YXE2S0yWX/Ihdxw4gwN4=",
+    "originContent": "│   │   └── README.md      # Training guide",
+    "translatedContent": "│   │   └── README.md      # Training guide"
+  },
+  {
+    "row": 47,
+    "rowsha": "yNILqEZGd++JCFXNconc9lWW21u7OBGfsImxdeFz32M=",
+    "originContent": "│   └── ltx-core/          # Core model components",
+    "translatedContent": "│   └── ltx-core/          # Core model components"
+  },
+  {
+    "row": 48,
+    "rowsha": "su9MNKJi/BCyEa8LmYTm8WDEB1KKthfMw+2Q6RusROQ=",
+    "originContent": "└── README.md              # This file",
+    "translatedContent": "└── README.md              # This file"
+  },
+  {
+    "row": 49,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "q8cioZXg61/x1ztH43tGeBQm0DL2OAjgiBP83AVyEJI=",
+    "originContent": "## 🎬 Inference",
+    "translatedContent": "## 🎬 Inferencia"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "GWuiENlSt2XnqXxKNlLub2hUAKoo8y1FJjnwY5DUS5Y=",
+    "originContent": "See the [Pipeline README](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-pipelines/README.md) for:",
+    "translatedContent": "Consulta el [README del Pipeline](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-pipelines/README.md) para:"
+  },
+  {
+    "row": 56,
+    "rowsha": "7GeZGkad1PRlSKz4Ffb83N2UkhYKWoBTD3I5TLoM/DM=",
+    "originContent": "- Installation instructions",
+    "translatedContent": "- Instrucciones de instalación"
+  },
+  {
+    "row": 57,
+    "rowsha": "lNDbm47JWh4nhRUyTbFqcg8clz/liAlCJr/SnwLyhjs=",
+    "originContent": "- Model checkpoint downloads",
+    "translatedContent": "- Descargas de puntos de control del modelo"
+  },
+  {
+    "row": 58,
+    "rowsha": "2Ic/vYnJCpXjg1uCSkEZUAIjib9kNb2ssNa772+XVvE=",
+    "originContent": "- Prompt format guide",
+    "translatedContent": "- Guía de formato de prompt"
+  },
+  {
+    "row": 59,
+    "rowsha": "H9MG1yHi7rgZ1X/MNEq/r2fquPabO0WlhUVl7KYTNqk=",
+    "originContent": "- CLI arguments reference",
+    "translatedContent": "- Referencia de argumentos CLI"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "bYOuAurXkkjnLH8N7mkJWKvkFzIgQYkX5ERI2gGw5tg=",
+    "originContent": "## 🏋️ Training",
+    "translatedContent": "## 🏋️ Entrenamiento"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "QGUiWXGF6tjcTP/hzFmlOPMWqfSIjrbHCc/UctjGueA=",
+    "originContent": "See the [Trainer README](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-trainer/README.md) for:",
+    "translatedContent": "Consulta el [README del Trainer](https://raw.githubusercontent.com/justdubit/just-dub-it/main/packages/ltx-trainer/README.md) para:"
+  },
+  {
+    "row": 66,
+    "rowsha": "dBLDP74sA2t73dywqxW0SBujJ+VJCxdcU4Y034HuJkw=",
+    "originContent": "- Dataset download and preparation",
+    "translatedContent": "- Descarga y preparación del conjunto de datos"
+  },
+  {
+    "row": 67,
+    "rowsha": "8F0d5W811AO+BowZcq8PgMGyLTkeAufkhFn511VD0w0=",
+    "originContent": "- Preprocessing pipeline",
+    "translatedContent": "- Pipeline de preprocesamiento"
+  },
+  {
+    "row": 68,
+    "rowsha": "WULBNTueIkEd8wKovFNf+OzLOU+SLYbJfveKn9ZsRsE=",
+    "originContent": "- Training configuration",
+    "translatedContent": "- Configuración de entrenamiento"
+  },
+  {
+    "row": 69,
+    "rowsha": "pokjZOvcA+/nPibWCPunNcXXM667+IWXWNQIfRrpAV0=",
+    "originContent": "- Multi-GPU training setup",
+    "translatedContent": "- Configuración para entrenamiento con múltiples GPUs"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
