@@ -1,0 +1,428 @@
+[
+  {
+    "row": 1,
+    "rowsha": "S15gybMKxmLvFspk0Ajy445R72XzMM2opCw4lns9VnU=",
+    "originContent": "# suppress-eslint-errors",
+    "translatedContent": "# suppress-eslint-errors"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "kdFl22ZB1zcogXqf7ynP57FfdoKavhzs7+n0++qSqu8=",
+    "originContent": "![Release](https://github.com/amanda-mitchell/suppress-eslint-errors/workflows/Release/badge.svg)",
+    "translatedContent": "![Release](https://github.com/amanda-mitchell/suppress-eslint-errors/workflows/Release/badge.svg)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "c1CoNECw3zb12lEChVofUguIQbquwNvv1hEsC5QAcwA=",
+    "originContent": "Have you ever tried to turn on a new eslint rule only to be discouraged by hundreds or thousands of errors in an existing codebase?",
+    "translatedContent": "Avez-vous déjà essayé d'activer une nouvelle règle eslint pour être découragé par des centaines ou des milliers d'erreurs dans une base de code existante ?  "
+  },
+  {
+    "row": 6,
+    "rowsha": "BCoHia+m8CfXhPemXMNXu5bZ6bJPgfLVzvFVAyZTrKI=",
+    "originContent": "So have we.",
+    "translatedContent": "Nous aussi."
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "TasEPGaZqrfBmQppt3MYlp+7l3j4n1BaLicx/qNAhQo=",
+    "originContent": "Sometimes, there isn't a great business case for updating all of the existing (working!) code, especially in a larger, legacy codebase.",
+    "translatedContent": "Parfois, il n'y a pas de bonne raison commerciale pour mettre à jour tout le code existant (qui fonctionne !), surtout dans une base de code plus grande et héritée.  "
+  },
+  {
+    "row": 9,
+    "rowsha": "EwiEfjHh7VR1b02KRDTe+WLckwLWwo39oJ28fpnc/XI=",
+    "originContent": "For those times, `suppress-eslint-errors` has you covered.",
+    "translatedContent": "Pour ces moments, `suppress-eslint-errors` est là pour vous aider."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "WuQ4YQzxbjHrWEpFPXb0XZT20bsUdRRGrE6Z4+N8M6g=",
+    "originContent": "## How it works",
+    "translatedContent": "## Comment ça marche"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "EYuIDF1FjW5P6e+9WoWzyfipI4wYXaReU8HHd9xi9Zc=",
+    "originContent": "`suppress-eslint-errors` is a codemod for [jscodeshift](https://github.com/facebook/jscodeshift) that runs eslint against your existing code.",
+    "translatedContent": "`suppress-eslint-errors` est un codemod pour [jscodeshift](https://github.com/facebook/jscodeshift) qui exécute eslint sur votre code existant.  "
+  },
+  {
+    "row": 14,
+    "rowsha": "XC1TfCd7M7MemV3CLiYf5+ZK7MwMaemSd/4WAkdeIbs=",
+    "originContent": "For each eslint error it finds, it adds a little snippet:",
+    "translatedContent": "Pour chaque erreur eslint qu'il trouve, il ajoute un petit extrait :"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+    "originContent": "```javascript",
+    "translatedContent": "```javascript"
+  },
+  {
+    "row": 17,
+    "rowsha": "Z5zJsfyPqNxwrQM5/49r9DciOgNhn2wrDgxRmMDSgKE=",
+    "originContent": "// TODO: Fix this the next time the file is edited.",
+    "translatedContent": "// TODO: Fix this the next time the file is edited."
+  },
+  {
+    "row": 18,
+    "rowsha": "CXd1FEokbfq1+LmAaeuanA0G2kwjGid0f73JVFgH+gI=",
+    "originContent": "// eslint-disable-next-line cool-new-rule",
+    "translatedContent": "// eslint-disable-next-line cool-new-rule"
+  },
+  {
+    "row": 19,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "5JPw4BBturg4Bf+xfCHYyj/RnkwRpQuj3jFG6UMaEgk=",
+    "originContent": "This way, you can get the benefits of the rule in new code without having to immediately work through a huge backlog.",
+    "translatedContent": "De cette façon, vous pouvez bénéficier de la règle dans un nouveau code sans avoir à traiter immédiatement un énorme arriéré."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Utilisation"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "LkKwjmwJdauaLbxN0mEw+a52KQyXxhgsJljpEoEh4TI=",
+    "originContent": "`suppress-eslint-errors` comes with a wrapper script so that you can call it directly without installing anything extra:",
+    "translatedContent": "`suppress-eslint-errors` est fourni avec un script wrapper afin que vous puissiez l'appeler directement sans installer quoi que ce soit en plus :"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 28,
+    "rowsha": "//VZmhikv3P1Gk/k5YyRCrxji09iGQ6+og7oY0U5Z0Y=",
+    "originContent": "npx suppress-eslint-errors [jscodeshift options] PATH...",
+    "translatedContent": "npx suppress-eslint-errors [jscodeshift options] PATH..."
+  },
+  {
+    "row": 29,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "VlM22/8hmXW0EnQD0woftdqnmQMWOTaom/8fWzGn5Mw=",
+    "originContent": "The wrapper will call `jscodeshift` with the transformer and any other arguments that you pass to it.",
+    "translatedContent": "Le wrapper appellera `jscodeshift` avec le transformateur et tous les autres arguments que vous lui passerez."
+  },
+  {
+    "row": 32,
+    "rowsha": "/CWAZJzbUudv7Ahnf+ogciyZ5ESRtYs5DVf8xxKT+YU=",
+    "originContent": "If it detects a `.gitignore` in the local directory, it will also specify that as the `--ignore-config`.",
+    "translatedContent": "S'il détecte un `.gitignore` dans le répertoire local, il le spécifiera également comme `--ignore-config`."
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "VutsHEu/aRhsBBRN59Adx7QZt1tKrT/9TVhcGZvdstM=",
+    "originContent": "`suppress-eslint-errors` must be used with a locally installed copy of `eslint`.",
+    "translatedContent": "`suppress-eslint-errors` doit être utilisé avec une copie locale installée d'`eslint`."
+  },
+  {
+    "row": 35,
+    "rowsha": "zBXrbBuP8meiQNiM7Wy/lL9Elqryvk4mvjomuF7MzcU=",
+    "originContent": "If it can't find one, it will bail out early.",
+    "translatedContent": "S'il ne peut pas en trouver une, il abandonnera tôt."
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "UVMMqzY7qy48g3VV4LyrXR/BdyDMbzsf3ZeEcQo92GQ=",
+    "originContent": "_NOTE:_ `jscodeshift` has some bugs with respect to how it handles `.gitignore` files that sometimes causes it to ignore all files.",
+    "translatedContent": "_NOTE :_ `jscodeshift` présente quelques bugs concernant la gestion des fichiers `.gitignore` qui font parfois qu'il ignore tous les fichiers."
+  },
+  {
+    "row": 38,
+    "rowsha": "Q2LC4i7gZV2Gx6FI/3ftqfwCKro3K71teN+0n2KWFD0=",
+    "originContent": "If this tool detects that your `.gitignore` contains problematic patterns, the `--ignore-config` option will be skipped.",
+    "translatedContent": "Si cet outil détecte que votre `.gitignore` contient des motifs problématiques, l'option `--ignore-config` sera ignorée."
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "yzeE0Ks+iJaCdN67dUdFgW3TEpbraxVLk75KqkxXIqo=",
+    "originContent": "In some cases, the code produced by this codemod will make some unfortunate indentation decisions.",
+    "translatedContent": "Dans certains cas, le code produit par ce codemod fera des choix d'indentation malheureux."
+  },
+  {
+    "row": 41,
+    "rowsha": "eM2HEdcfb/DSvBEZx68TAblx/79pmRUat52adIzQ49o=",
+    "originContent": "Be sure to re-run any code formatting tools you use before committing!",
+    "translatedContent": "Assurez-vous de relancer tous les outils de formatage de code que vous utilisez avant de valider !"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "061veB7IsP6MLX2VaAsyznYrdLIx3av88lknlRwMrww=",
+    "originContent": "## Options",
+    "translatedContent": "## Options"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "mt10whEmba0avoyc2viSxOoWIhF+CMUm9tQ9FALD9QQ=",
+    "originContent": "**--message**: Sets the comment to add above eslint-disable-next-line comments.",
+    "translatedContent": "**--message** : Définit le commentaire à ajouter au-dessus des commentaires eslint-disable-next-line."
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "l9wWc3OBOBkAFNwpYz3mMfh0B88uri/BN0+UV13JYd8=",
+    "originContent": "**--rules**: Comma-separated list of ESLint rule IDs to disable. When specified, violations of rules not in this set will be left in place.",
+    "translatedContent": "**--rules** : Liste séparée par des virgules des identifiants de règles ESLint à désactiver. Lorsqu'elle est spécifiée, les violations des règles non incluses dans cet ensemble seront laissées en place."
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+    "originContent": "## Examples",
+    "translatedContent": "## Exemples"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "6hJBbnwHrxCX3SLEZTCE6OidTTJ9y4Ngka2cPt3VIV0=",
+    "originContent": "Suppress all errors in the `index.js` file, using a custom comment:",
+    "translatedContent": "Supprimer toutes les erreurs dans le fichier `index.js`, en utilisant un commentaire personnalisé :"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 54,
+    "rowsha": "XNSl+gZbQu0qUifdk1QNVxP5SAw6wTvA4CpRPBJPktM=",
+    "originContent": "npx suppress-eslint-errors ./index.js --message=\"TODO: Issue #123\"",
+    "translatedContent": "npx suppress-eslint-errors ./index.js --message=\"TODO: Issue #123\""
+  },
+  {
+    "row": 55,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "Mj3m+j8tIuZ1V6uVbaZ+EicZr0gF3DnobO8PDf/puZE=",
+    "originContent": "Suppress violations of the `eqeqeq` and `@typescript-eslint/no-explicit-any` rules in .ts and .tsx files in the `src` directory:",
+    "translatedContent": "Supprimer les violations des règles `eqeqeq` et `@typescript-eslint/no-explicit-any` dans les fichiers .ts et .tsx du répertoire `src` :"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 60,
+    "rowsha": "uF++ws0eWcYHks+T5NBSbxNlXcCBtfnv8VYYNwNOV90=",
+    "originContent": "npx suppress-eslint-errors ./src --extensions=ts,tsx --parser=tsx --rules=eqeqeq,@typescript-eslint/no-explicit-any",
+    "translatedContent": "npx suppress-eslint-errors ./src --extensions=ts,tsx --parser=tsx --rules=eqeqeq,@typescript-eslint/no-explicit-any"
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "XTII/D/Sd3d/uUgvrbnK846DEowC86r7Q9hU2yvAg08=",
+    "originContent": "## Nuances",
+    "translatedContent": "## Nuances"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "6j3p3BX7u3jqsCgZNULDpkuQsf5r/R/xHSR+kMVT0+I=",
+    "originContent": "Like the name of the tool says, this only suppresses eslint _errors_.",
+    "translatedContent": "Comme le nom de l’outil l’indique, cela supprime uniquement les _erreurs_ eslint."
+  },
+  {
+    "row": 66,
+    "rowsha": "yzWi/TtleHYFYcj8RZfwBRAf+s2H3llQwX/420WHyrg=",
+    "originContent": "If you have warnings that you'd like to suppress, change your eslint config to turn them into errors before running the tool or specify the rules using the `--rules` flag.",
+    "translatedContent": "Si vous avez des avertissements que vous souhaitez supprimer, modifiez votre configuration eslint pour les transformer en erreurs avant d’exécuter l’outil ou spécifiez les règles à l’aide du drapeau `--rules`."
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "UlKvO1zSulwGMPUDnMvF2HfsFfOiukjtP2SzkVUNeU0=",
+    "originContent": "## Is it perfect?",
+    "translatedContent": "## Est-ce parfait ?"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "dXnHlAeoDC4qmkOVDxl/2ZJdvL2aqGnzHqnyHZ9JSes=",
+    "originContent": "Definitely not. PRs are welcome for any edge cases that you encounter.",
+    "translatedContent": "Certainement pas. Les PR sont les bienvenues pour tout cas particulier que vous rencontrez."
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

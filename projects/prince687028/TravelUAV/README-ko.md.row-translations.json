@@ -1,0 +1,818 @@
+[
+  {
+    "row": 1,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 2,
+    "rowsha": "xj4asnYf3uxEJMCcdDgeLXMYlLaSFIGjulmek3FlXkY=",
+    "originContent": "<h1>Towards Realistic UAV Vision-Language Navigation: Platform, Benchmark, and Methodology</h1>",
+    "translatedContent": "<h1>현실적인 UAV 비전-언어 내비게이션을 향하여: 플랫폼, 벤치마크 및 방법론</h1>"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "t/1FTeieJdsBwzeq1jGKaPJWPt8eP2ZvxBM9jtMkTms=",
+    "originContent": "<image src=\"./header.png\" width=\"70%\">",
+    "translatedContent": "<image src=\"./header.png\" width=\"70%\">"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "F79vypkuPTZJbjKtGpFBq0z2t0LyHXt3orU5Le7zPHE=",
+    "originContent": "<a href=\"https://arxiv.org/abs/2410.07087\"><img src='https://img.shields.io/badge/arXiv-TRAVEL: UAV VLN Platform, Benchmark, and Methodology-red' alt='Paper PDF'></a>",
+    "translatedContent": "<a href=\"https://arxiv.org/abs/2410.07087\"><img src='https://img.shields.io/badge/arXiv-TRAVEL: UAV VLN Platform, Benchmark, and Methodology-red' alt='Paper PDF'></a>"
+  },
+  {
+    "row": 7,
+    "rowsha": "qA2DeMMMeafyP05uAWqoeUpbLPZIqJbwhjxahfhnnKE=",
+    "originContent": "<a href='https://prince687028.github.io/Travel/'><img src='https://img.shields.io/badge/Project_Page-TRAVEL-green' alt='Project Page'></a>",
+    "translatedContent": "<a href='https://prince687028.github.io/Travel/'><img src='https://img.shields.io/badge/Project_Page-TRAVEL-green' alt='Project Page'></a>"
+  },
+  {
+    "row": 8,
+    "rowsha": "ESVF11UFFOMF/ZIgzmnSrZlCVWx8BB3GqUWZVVzri+8=",
+    "originContent": "<a href='https://huggingface.co/datasets/wangxiangyu0814/TravelUAV'><img src='https://img.shields.io/badge/Dataset-TRAVEL-blue'></a>",
+    "translatedContent": "<a href='https://huggingface.co/datasets/wangxiangyu0814/TravelUAV'><img src='https://img.shields.io/badge/Dataset-TRAVEL-blue'></a>"
+  },
+  {
+    "row": 9,
+    "rowsha": "dHqPsMNk3w49Ih6/l18gdPi0lwhUwYFIm+siw6IOIjw=",
+    "originContent": "<a href='https://huggingface.co/datasets/wangxiangyu0814/TravelUAV_env'><img src='https://img.shields.io/badge/Env-TRAVEL-blue'></a>",
+    "translatedContent": "<a href='https://huggingface.co/datasets/wangxiangyu0814/TravelUAV_env'><img src='https://img.shields.io/badge/Env-TRAVEL-blue'></a>"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "Yk5cZ3S6lnsBfRjsT/4ud8HP+iWBYqbxG0YlzTcI+ew=",
+    "originContent": "## Contents",
+    "translatedContent": "## 목차"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "LSBzqIXJ05BczP+n1iLfyRmVcO5LyYfna2yphkKd/QQ=",
+    "originContent": "- [Introduction](#introduction)",
+    "translatedContent": "- [소개](#introduction)"
+  },
+  {
+    "row": 16,
+    "rowsha": "R0R8KJ38Ak9Pb8xP0McxMfy2UnFU8+IUKNNCXPwf2VY=",
+    "originContent": "- [Dependencies](#dependencies)",
+    "translatedContent": "- [종속성](#dependencies)"
+  },
+  {
+    "row": 17,
+    "rowsha": "kPacIJISbba7jsKBhxvfLS/gl8Y/WYO7TVxEV2C8AHw=",
+    "originContent": "- [Preparation](#prepare-the-data)",
+    "translatedContent": "- [준비](#prepare-the-data)"
+  },
+  {
+    "row": 18,
+    "rowsha": "ANDaZUJ7DId7BvvcAsl+TYu9Nvfj6L56tZfZOUbQDoo=",
+    "originContent": "- [Usage](#usage)",
+    "translatedContent": "- [사용법](#usage)"
+  },
+  {
+    "row": 19,
+    "rowsha": "+i+Mg9wXA81tZeBo9udroqra/8OJVsnsWl3Q2aBs+vk=",
+    "originContent": "- [Citation](#paper)",
+    "translatedContent": "- [인용](#paper)"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "4SzYJwNNDn2R2kkHsB4X4H4ZhUVuQo9QZvhInidlbxE=",
+    "originContent": "## News",
+    "translatedContent": "## 소식"
+  },
+  {
+    "row": 22,
+    "rowsha": "5qcuKHDW6kRv8svM/oRuSSvYuM4u9NTq/F2RTWUzmxI=",
+    "originContent": "- **2025-05-22:** We release UAV-Flow, the first real-world benchmark for language-conditioned UAV imitation learning. (project page: https://prince687028.github.io/UAV-Flow)",
+    "translatedContent": "- **2025-05-22:** 언어 조건 기반 UAV 모방 학습을 위한 최초의 실제 벤치마크 UAV-Flow를 공개합니다. (프로젝트 페이지: https://prince687028.github.io/UAV-Flow)"
+  },
+  {
+    "row": 23,
+    "rowsha": "EGmJQd9Jd+teuYKmai4XdkTfd6uCvQ25DVWrbdGPtFo=",
+    "originContent": "- **2025-01-25:** Paper, project page, code, data, envs and models are all released.",
+    "translatedContent": "- **2025-01-25:** 논문, 프로젝트 페이지, 코드, 데이터, 환경 및 모델 모두 공개되었습니다."
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "HPq7n79kJyIQ9GDdoug4SfyHFTzXjyqYNQf8jDMuGf0=",
+    "originContent": "# Introduction",
+    "translatedContent": "# 소개"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "b6P/wDhvwzn+shDXv8gMNF1f+GckpHutxEIkiiTGr18=",
+    "originContent": "This work presents **_TOWARDS REALISTIC UAV VISION-LANGUAGE NAVIGATION: PLATFORM, BENCHMARK, AND METHODOLOGY_**. We introduce a UAV simulation platform, an assistant-guided realistic UAV VLN benchmark, and an MLLM-based method to address the challenges in realistic UAV vision-language navigation.",
+    "translatedContent": "본 연구는 **_현실적인 UAV 비전-언어 내비게이션을 향하여: 플랫폼, 벤치마크 및 방법론_**을 제시합니다. UAV 시뮬레이션 플랫폼, 보조자 안내 현실적 UAV VLN 벤치마크, 그리고 현실적인 UAV 비전-언어 내비게이션의 도전을 해결하기 위한 MLLM 기반 방법을 소개합니다."
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "nhlWuthHD5/nmDwEx2N8qBJcjwOwQ11gkcPylNY0R9s=",
+    "originContent": "# Dependencies",
+    "translatedContent": "# 종속성"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "ol2wfVaTZ2oLTKtnPTFpTxjKajbLCLC3Vboj9jTJyCQ=",
+    "originContent": "### Create `llamauav` environment",
+    "translatedContent": "### `llamauav` 환경 생성하기"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 34,
+    "rowsha": "2Vxz1aIAArWwCXKtiGKfZBhCA73pb1o3b0PNDYjAeGw=",
+    "originContent": "conda create -n llamauav python=3.10 -y",
+    "translatedContent": "conda create -n llamauav python=3.10 -y"
+  },
+  {
+    "row": 35,
+    "rowsha": "reNT0DTWMzEKV23XkDbUIIftm8QLKn13hF00xAeN3oI=",
+    "originContent": "conda activate llamauav",
+    "translatedContent": "conda activate llamauav"
+  },
+  {
+    "row": 36,
+    "rowsha": "p/EB84KlMh3BPwH5BzojOPVzAZk7ieCXBxrXCgTigWo=",
+    "originContent": "pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118",
+    "translatedContent": "pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## LLaMA-UAV 모델 설치"
+  },
+  {
+    "row": 39,
+    "rowsha": "OFU7Ycm2yxZZ/KtDSfq1Agh3nY6+0RjzkRaIrhbPeNg=",
+    "originContent": "## Install LLaMA-UAV model",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "다음 링크 [LLaMA-UAV](https://raw.githubusercontent.com/prince687028/TravelUAV/main/./Model/LLaMA-UAV/README.md#install)를 따라 llm 종속성을 설치할 수 있습니다."
+  },
+  {
+    "row": 41,
+    "rowsha": "EhcUWVajkplaB7kTGu9N0k2rIKjimOumDwlkng0yQCI=",
+    "originContent": "You can follow [LLaMA-UAV](https://raw.githubusercontent.com/prince687028/TravelUAV/main/./Model/LLaMA-UAV/README.md#install) to install the llm dependencies.",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 요구 사항 파일에 나열된 기타 종속성 설치"
+  },
+  {
+    "row": 43,
+    "rowsha": "Q1QMA8jgaTuqWFBsjIH4BvP08jlN7PmydYUm66dFI7k=",
+    "originContent": "### Install other dependencies listed in the requirements file",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 46,
+    "rowsha": "hkfp0y9b9cYA8ANEKl/+xxjTeH0TZ5DuMUM+Njs4e+8=",
+    "originContent": "pip install -r requirement.txt",
+    "translatedContent": "pip install -r requirement.txt"
+  },
+  {
+    "row": 47,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "또한 AirSim Python API와의 호환성을 보장하기 위해 [AirSim 이슈](https://github.com/microsoft/AirSim/issues/3333#issuecomment-827894198)에서 언급된 수정 사항을 적용하십시오."
+  },
+  {
+    "row": 49,
+    "rowsha": "0lUYjg+fxyae5Z/lve8snWSzWKWsDpp/quwflNo4sLo=",
+    "originContent": "Additionally, to ensure compatibility with the AirSim Python API, apply the fix mentioned in the [AirSim issue](https://github.com/microsoft/AirSim/issues/3333#issuecomment-827894198)",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# 준비"
+  },
+  {
+    "row": 51,
+    "rowsha": "T90m4v9t2eUZxKeLSp26a/ebo5HU+w4GElINOBbJGt0=",
+    "originContent": "# Preparation",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 데이터"
+  },
+  {
+    "row": 53,
+    "rowsha": "hk1Jxtc/6V9/nnhudfaNyNb6PnE4dXTUXsuTbsjHZVA=",
+    "originContent": "## Data",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "데이터셋을 준비하려면 [데이터셋 섹션](https://raw.githubusercontent.com/prince687028/TravelUAV/main/./Model/LLaMA-UAV/README.md#dataset)에 제공된 지침을 따라 데이터셋을 구축하십시오."
+  },
+  {
+    "row": 55,
+    "rowsha": "j2RqUfuykz1iOd2tYJuuw2YZVdUFLiV4JDm4aqU4ynU=",
+    "originContent": "To prepare the dataset, please follow the instructions provided in the [Dataset Section](https://raw.githubusercontent.com/prince687028/TravelUAV/main/./Model/LLaMA-UAV/README.md#dataset) to construct the dataset.",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 모델"
+  },
+  {
+    "row": 57,
+    "rowsha": "/z33FG0dS894DvyHhDtTy94c0suQuCIA5jVai0Ag7cw=",
+    "originContent": "## Model",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### GroundingDINO"
+  },
+  {
+    "row": 59,
+    "rowsha": "fKTohAYfGQJ0/cr3zddTzRNV8kEtLLN0lhLY1f9QWrk=",
+    "originContent": "### GroundingDINO",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "GroundingDINO 모델을 [groundingdino_swint_ogc.pth](https://huggingface.co/ShilongLiu/GroundingDINO/resolve/main/groundingdino_swint_ogc.pth) 링크에서 다운로드하고, 파일을 `src/model_wrapper/utils/GroundingDINO/` 디렉터리에 배치하십시오."
+  },
+  {
+    "row": 61,
+    "rowsha": "MeTCMtZuz5q43VMF637nDfNylEAuNMXut7bADs3TTHM=",
+    "originContent": "Download the GroundingDINO model from the link [groundingdino_swint_ogc.pth](https://huggingface.co/ShilongLiu/GroundingDINO/resolve/main/groundingdino_swint_ogc.pth), and place the file in the directory `src/model_wrapper/utils/GroundingDINO/`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### LLaMA-UAV"
+  },
+  {
+    "row": 63,
+    "rowsha": "R6GYPZ0OfYhDj0cCGcJ4yHmWvDDYWbG17oMn6WTcTIs=",
+    "originContent": "### LLaMA-UAV",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "모델 설정에 대해서는 자세한 [모델 설정](https://raw.githubusercontent.com/prince687028/TravelUAV/main/./Model/LLaMA-UAV/README.md)을 참조하십시오."
+  },
+  {
+    "row": 65,
+    "rowsha": "rdrw9IdOsWehuLETUS9r1s1n3LwxFOKRqmB5q35lHQY=",
+    "originContent": "To set up the model, refer to to the detailed [Model Setup](https://raw.githubusercontent.com/prince687028/TravelUAV/main/./Model/LLaMA-UAV/README.md).",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 시뮬레이터 환경"
+  },
+  {
+    "row": 67,
+    "rowsha": "J+EzBVSdzD4rnDe5pmEXhfURmxfFEiXF5+AcD5wDIcQ=",
+    "originContent": "## Simulator environments",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "다양한 맵에 대한 시뮬레이터 환경은 [여기](https://huggingface.co/datasets/wangxiangyu0814/TravelUAV_env)에서 다운로드하십시오."
+  },
+  {
+    "row": 69,
+    "rowsha": "nZkiD8YMQKrfOxvSbudxe+yRvrIAUWI+wdurnv5WJ34=",
+    "originContent": "Download the simulator environments for various maps from [here](https://huggingface.co/datasets/wangxiangyu0814/TravelUAV_env).",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "환경 파일 디렉터리는 다음과 같습니다:"
+  },
+  {
+    "row": 71,
+    "rowsha": "fFxcLaQ5fhQurRN6M15Wm7pEuBtT9WxWScPLeUZK21o=",
+    "originContent": "The file directory of environments is as follows:",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 74,
+    "rowsha": "BVEMKxO2V9fN7SJ4Ag6N+nMMJ6RZdM7CwmtAgZlKHYY=",
+    "originContent": "├── carla_town_envs",
+    "translatedContent": "├── carla_town_envs"
+  },
+  {
+    "row": 75,
+    "rowsha": "+k7ypfiotAKg8jolbyKA+SGY+91f5FXFqpLaaHJCWW4=",
+    "originContent": "│   ├── Town01",
+    "translatedContent": "│   ├── Town01"
+  },
+  {
+    "row": 76,
+    "rowsha": "0hAO67VDVujfsNGALKqXniuPG7hxbMDAdK1PKjdDilw=",
+    "originContent": "│   ├── Town02",
+    "translatedContent": "│   ├── Town02"
+  },
+  {
+    "row": 77,
+    "rowsha": "pMzluXdqTLfdYpnSZuHd+3bJhtqI5QWFQhKT82kWib4=",
+    "originContent": "│   ├── Town03",
+    "translatedContent": "│   ├── Town03"
+  },
+  {
+    "row": 78,
+    "rowsha": "nXKu1VVyaf/uhkjN7z6RSTeeZoRhNnRzqY84MhYnCJY=",
+    "originContent": "│   ├── ...",
+    "translatedContent": "│   ├── ..."
+  },
+  {
+    "row": 79,
+    "rowsha": "d1n86wKB9umkV2V/0qqRPOa/mESCjGqZ2I0l8eS/ij0=",
+    "originContent": "├── closeloop_envs",
+    "translatedContent": "├── closeloop_envs"
+  },
+  {
+    "row": 80,
+    "rowsha": "8eAhoMl32UR4DcdhyKpUjV4KIrIpGkxcqGpgUKAs21o=",
+    "originContent": "│   ├── Engine",
+    "translatedContent": "│   ├── Engine"
+  },
+  {
+    "row": 81,
+    "rowsha": "DibBW38sud1+Cpl5Vnjt7uBsC9K9o/LU5wawth+DleE=",
+    "originContent": "│   ├── ModularEuropean",
+    "translatedContent": "│   ├── ModularEuropean"
+  },
+  {
+    "row": 82,
+    "rowsha": "JEMdomyAMlB/LACLjXNoi79aG1c81HlZBTCfDaJE/q8=",
+    "originContent": "│   ├── ModularEuropean.sh",
+    "translatedContent": "│   ├── ModularEuropean.sh"
+  },
+  {
+    "row": 83,
+    "rowsha": "uVhtkUTwXB7u+KPaqP5tEQlOehN+O3lqsB4htmpVB48=",
+    "originContent": "│   ├── ModularPark",
+    "translatedContent": "│   ├── ModularPark"
+  },
+  {
+    "row": 84,
+    "rowsha": "DBm5Cc6DlEXFADN9VAOnjXXQaTMzlYH9Zxd7bEXU8MQ=",
+    "originContent": "│   ├── ModularPark.sh",
+    "translatedContent": "│   ├── ModularPark.sh"
+  },
+  {
+    "row": 85,
+    "rowsha": "nXKu1VVyaf/uhkjN7z6RSTeeZoRhNnRzqY84MhYnCJY=",
+    "originContent": "│   ├── ...",
+    "translatedContent": "│   ├── ..."
+  },
+  {
+    "row": 86,
+    "rowsha": "yUgntu3TLHg6J5b2ctB0+srEO/LurrpY98BM5kS4TqQ=",
+    "originContent": "├── extra_envs",
+    "translatedContent": "├── extra_envs"
+  },
+  {
+    "row": 87,
+    "rowsha": "fJTSgYxPy6Bc2QbMaPRBQm2mztGSNQUQVX4jpqLHZmQ=",
+    "originContent": "│   ├── BrushifyUrban",
+    "translatedContent": "│   ├── BrushifyUrban"
+  },
+  {
+    "row": 88,
+    "rowsha": "+yrCAoANKgDja7CZMBgGj4IDqGithyWHx1LCxSscdug=",
+    "originContent": "│   ├── BrushifyCountryRoads",
+    "translatedContent": "│   ├── BrushifyCountryRoads"
+  },
+  {
+    "row": 89,
+    "rowsha": "nXKu1VVyaf/uhkjN7z6RSTeeZoRhNnRzqY84MhYnCJY=",
+    "originContent": "│   ├── ...",
+    "translatedContent": "│   ├── ..."
+  },
+  {
+    "row": 90,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "VQl64phXBjjplyWiGKNjjWZLPM0chOlnOxoC73zDU/k=",
+    "originContent": "# Usage",
+    "translatedContent": "# 사용법"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "rm090VXv/zIbpwdIIo4F2DWwJkF7w1ccGOCJwWSyLeQ=",
+    "originContent": "1. setup simulator env server",
+    "translatedContent": "1. 시뮬레이터 환경 서버 설정"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "yo6mtVvAP0bOsHdnzUMlucZfk0hKpAd4/3GGoScquxk=",
+    "originContent": "Before running the simulations, ensure the AirSim environment server is properly configured.",
+    "translatedContent": "시뮬레이션을 실행하기 전에 AirSim 환경 서버가 올바르게 구성되었는지 확인하십시오."
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "dBG/q34sToubzVRqzl5r0QvouO9JwRZ4IsofQbAfSNI=",
+    "originContent": "> Update the env executable paths`env_exec_path_dict` relative to `root_path` in `AirVLNSimulatorServerTool.py`.",
+    "translatedContent": "> `AirVLNSimulatorServerTool.py`에서 `root_path`에 상대적인 env 실행 파일 경로 `env_exec_path_dict`를 업데이트하십시오."
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 101,
+    "rowsha": "Dv/9aO/cUVEAPfNM56Z27nyWFuJBTo2DRaSY1Qp3dGE=",
+    "originContent": "cd airsim_plugin",
+    "translatedContent": "cd airsim_plugin"
+  },
+  {
+    "row": 102,
+    "rowsha": "uH1hAahwX5K5FkWy/5ET0rKnNuMbT2mRVKHbf4Fzf30=",
+    "originContent": "python AirVLNSimulatorServerTool.py --port 30000 --root_path /path/to/your/envs",
+    "translatedContent": "python AirVLNSimulatorServerTool.py --port 30000 --root_path /path/to/your/envs"
+  },
+  {
+    "row": 103,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. 클로즈 루프 시뮬레이션 실행"
+  },
+  {
+    "row": 105,
+    "rowsha": "+lJ6OhiGAawfrsyYEbeX6XOYv5vorwjuJ9OtZLMLI54=",
+    "originContent": "2. run close-loop simulation",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "시뮬레이터 서버가 실행 중이면, dagger 또는 평가 스크립트를 실행할 수 있습니다."
+  },
+  {
+    "row": 107,
+    "rowsha": "BYJWTWiwBj8IbsNxerQ1YweXIadVDom+d8NBfGzR6Xg=",
+    "originContent": "Once the simulator server is running, you can execute the dagger or evaluation script.",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 110,
+    "rowsha": "Tkf/qKSLpMmH2xGs7IkC3dMritJqWVe/Q78QGF+uCj4=",
+    "originContent": "# Dagger NYC",
+    "translatedContent": "# Dagger NYC"
+  },
+  {
+    "row": 111,
+    "rowsha": "ZiGO++bzO/Vmw7uUHaXgsckT0sl5ZxFbeBkTLitVIcU=",
+    "originContent": "bash scripts/dagger_NYC.sh",
+    "translatedContent": "bash scripts/dagger_NYC.sh"
+  },
+  {
+    "row": 112,
+    "rowsha": "KoHy9MVANMCH+0dJ4DJ2+JXhs+FgNBfqf6zv+jRZDpo=",
+    "originContent": "# Eval",
+    "translatedContent": "# Eval"
+  },
+  {
+    "row": 113,
+    "rowsha": "OOpFDRlGbaY2Wlg3mfLz+m3gMfDKIKvMqOV2S9X+4QM=",
+    "originContent": "bash scripts/eval.sh",
+    "translatedContent": "bash scripts/eval.sh"
+  },
+  {
+    "row": 114,
+    "rowsha": "nmkJUsskVO1kdtb90fGwSYV0/VNT1djlzL79gFKpLNI=",
+    "originContent": "bash scripts/metrics.sh",
+    "translatedContent": "bash scripts/metrics.sh"
+  },
+  {
+    "row": 115,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "3O1X5s6g5Jt3D9mOmEdYT3gpjEgYtcSnuP+IbRMzcog=",
+    "originContent": "# Paper",
+    "translatedContent": "# 논문"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "xC5HE6igzeEu0pPpnXmNS7eKHadvwR4b+BmcEvp7LNc=",
+    "originContent": "If you find this project useful, please consider citing: [paper](https://arxiv.org/abs/2410.07087):",
+    "translatedContent": "이 프로젝트가 유용하다면, 다음 논문을 인용해 주시기 바랍니다: [paper](https://arxiv.org/abs/2410.07087):"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 122,
+    "rowsha": "GGRMaxOhlZMyDvh0oet8isE7JF3WerGNhJvfirJhhAs=",
+    "originContent": "@misc{wang2024realisticuavvisionlanguagenavigation,",
+    "translatedContent": "@misc{wang2024realisticuavvisionlanguagenavigation,"
+  },
+  {
+    "row": 123,
+    "rowsha": "TgVwfgWQ11+tClHmuLw0YveqnZMwyZhxfkztAGka2Qo=",
+    "originContent": "      title={Towards Realistic UAV Vision-Language Navigation: Platform, Benchmark, and Methodology},",
+    "translatedContent": "      title={Towards Realistic UAV Vision-Language Navigation: Platform, Benchmark, and Methodology},"
+  },
+  {
+    "row": 124,
+    "rowsha": "1HABGzIUrl1slpWzzk5cbOFBDrLKXcx/RWH5bxb60nw=",
+    "originContent": "      author={Xiangyu Wang and Donglin Yang and Ziqin Wang and Hohin Kwan and Jinyu Chen and Wenjun Wu and Hongsheng Li and Yue Liao and Si Liu},",
+    "translatedContent": "      author={Xiangyu Wang and Donglin Yang and Ziqin Wang and Hohin Kwan and Jinyu Chen and Wenjun Wu and Hongsheng Li and Yue Liao and Si Liu},"
+  },
+  {
+    "row": 125,
+    "rowsha": "uqROWAGDIn5qDkIxkd056RTQ+SbXg6BFb7UhemVNliM=",
+    "originContent": "      year={2024},",
+    "translatedContent": "      year={2024},"
+  },
+  {
+    "row": 126,
+    "rowsha": "V6y14DejkL8qnwCF8idRJwO4uf3XiYnqCHy1RrChe6M=",
+    "originContent": "      eprint={2410.07087},",
+    "translatedContent": "      eprint={2410.07087},"
+  },
+  {
+    "row": 127,
+    "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
+    "originContent": "      archivePrefix={arXiv},",
+    "translatedContent": "      archivePrefix={arXiv},"
+  },
+  {
+    "row": 128,
+    "rowsha": "RPNBhgHdrY2A+XYLnuhpAr/aqag2LU2pAjasgtM0tg4=",
+    "originContent": "      primaryClass={cs.CV},",
+    "translatedContent": "      primaryClass={cs.CV},"
+  },
+  {
+    "row": 129,
+    "rowsha": "5gunw2bmoyqk1U2R0CNiSjvh+Hs9PfUDkRt6Yu1Q9RY=",
+    "originContent": "      url={https://arxiv.org/abs/2410.07087},",
+    "translatedContent": "      url={https://arxiv.org/abs/2410.07087},"
+  },
+  {
+    "row": 130,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 131,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "Kmh7prijvny1VN8Sx+6nbv9IR0XmuLNUO4QCgxVD4FI=",
+    "originContent": "# Acknowledgement",
+    "translatedContent": "# 감사의 글"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "oMJV7YSTMz8jT+1iJf8+NSV/giP1mJbAYObc0xg50X4=",
+    "originContent": "This repository is partly based on [AirVLN](https://github.com/AirVLN/AirVLN) and [LLaMA-VID](https://github.com/dvlab-research/LLaMA-VID) repositories.",
+    "translatedContent": "이 저장소는 부분적으로 [AirVLN](https://github.com/AirVLN/AirVLN) 및 [LLaMA-VID](https://github.com/dvlab-research/LLaMA-VID) 저장소를 기반으로 합니다."
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

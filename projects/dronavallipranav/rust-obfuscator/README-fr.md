@@ -1,6 +1,38 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Rust-Obfuscator
 
-`rust-obfuscator` est un ensemble d'outils conçus pour obfusquer automatiquement le code source Rust en insérant des macros procédurales ou en fournissant (optionnellement) l'obfuscation directement dans le code source. Pour une obfuscation plus fine, une bibliothèque de macros procédurales [cryptify](https://crates.io/crates/cryptify) est également fournie.
+`rust-obfuscator` est un ensemble d'outils conçus pour obfusquer automatiquement le code source Rust en insérant des macros procédurales ou en fournissant (optionnellement) l'obfuscation directement dans le code source. Pour une obfuscation plus fine, une bibliothèque de macro procédurale [cryptify](https://crates.io/crates/cryptify) est également proposée.
 
 ## Actuellement pris en charge
 1. chiffrement des littéraux de chaîne
@@ -10,8 +42,8 @@
 
 ## Fonctionnalités
 
-- **Chiffrement de chaîne** : chiffre automatiquement les littéraux de chaîne assignés aux variables locales à la compilation.
-    - Peut aussi être utilisé pour les chaînes formatées, mais nécessite actuellement un placement manuel
+- **Chiffrement des chaînes** : Chiffre automatiquement les littéraux de chaînes assignés aux variables locales lors de la compilation.
+    - Peut également être utilisé pour les chaînes formatées, mais nécessite actuellement un placement manuel
     ```rs
         println!("{}", cryptify::encrypt_string!("hello!"));
     ```
@@ -232,6 +264,6 @@ rust-obfuscator est sous licence MIT - voir le fichier [LICENSE](https://github.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-21
 
 ---

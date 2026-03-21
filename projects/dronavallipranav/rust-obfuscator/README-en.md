@@ -1,6 +1,38 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Rust-Obfuscator
 
-`rust-obfuscator` is a set of tools designed to automatically obfuscate Rust source code by inserting procedural macros or by (optionally) providing the obfuscation in the source code directly. For more fine-grained obfuscation a procedural macro library [cryptify](https://crates.io/crates/cryptify) is also provided.
+`rust-obfuscator` is a set of tools designed to automatically obfuscate Rust source code by inserting procedural macros or (optionally) by providing obfuscation directly in the source code. For more fine-grained obfuscation, a procedural macro library [cryptify](https://crates.io/crates/cryptify) is also provided.
 
 ## Currently Supported
 1. string literal encryption
@@ -232,6 +264,6 @@ rust-obfuscator is licensed under the MIT License - see the [LICENSE](https://gi
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-21
 
 ---

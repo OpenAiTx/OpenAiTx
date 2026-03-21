@@ -1,17 +1,49 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=dronavallipranav&project=rust-obfuscator&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Rust-Obfuscator
 
-`rust-obfuscator` は、手続き的マクロを挿入するか（オプションで）ソースコード内に直接難読化を提供することで、Rustのソースコードを自動的に難読化するためのツールセットです。より細かい難読化のために、手続き的マクロライブラリ [cryptify](https://crates.io/crates/cryptify) も提供されています。
+`rust-obfuscator`は、Rustのソースコードを自動的に難読化するために設計されたツールセットであり、手続き的マクロの挿入や（オプションで）ソースコード上で直接難読化を提供します。より細やかな難読化のために、手続き的マクロライブラリ [cryptify](https://crates.io/crates/cryptify) も提供されています。
 
-## 現在サポートされているもの
+## 現在サポートされている機能
 1. 文字列リテラルの暗号化
-2. 制御フローの難読化
-3. 制御フローの難読化（ソースコード）
-4. 変数名のリネーム（ソースコード）
+2. 制御フロー難読化
+3. 制御フロー難読化（ソースコード）
+4. 変数名の変更（ソースコード）
 
-## 特徴
+## 機能
 
-- **文字列の暗号化**: ローカル変数に割り当てられた文字列リテラルをコンパイル時に自動的に暗号化します。
-    - フォーマット済み文字列にも使用可能ですが、現在は手動での配置が必要です。
+- **文字列暗号化**: ローカル変数に代入される文字列リテラルをコンパイル時に自動で暗号化します。
+    - フォーマット済み文字列にも使用可能ですが、現時点では手動で配置する必要があります
     ```rs
         println!("{}", cryptify::encrypt_string!("hello!"));
     ```
@@ -232,6 +264,6 @@ rust-obfuscatorはMITライセンスの下でライセンスされています -
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-21
 
 ---
