@@ -1,0 +1,1225 @@
+[
+  {
+    "Id": 1,
+    "Content": "# PhotonInfer\n\n<div align=\"center\">\n\n**A High-Performance LLM Inference Engine with vLLM-Style Continuous Batching**\n\n[English](https://raw.githubusercontent.com/lumia431/photon_infer/master/README.md) | [中文](https://raw.githubusercontent.com/lumia431/photon_infer/master/README_ZH.md) | [Live Demo](https://photoninfer.xyz/)\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![CUDA](https://img.shields.io/badge/CUDA-12.0+-green.svg)](https://developer.nvidia.com/cuda-toolkit)\n[![C++20](https://img.shields.io/badge/C++-20-orange.svg)](https://en.cppreference.com/w/cpp/20)\n\n</div>\n\n---\n\n## 🚀 Performance Highlights\n\nPhotonInfer delivers **production-grade inference performance** for LLMs with advanced batching capabilities. **Supports Llama-3.2 and Qwen3 models**.\n\n### Single Request Inference\n\n| Model | PhotonInfer | llama.cpp | Speedup |\n|-------|-------------|-----------|---------|\n| Llama 3.2 1B | 185 tok/s | 252 tok/s | 0.73× (llama.cpp faster) |\n\n**TTFT (Time To First Token)**: 387ms @ 100-token prompt (INT8 quantization)\n\n### Batched Inference Throughput\n\n| Batch Size | PhotonInfer | llama.cpp | Speedup |\n|------------|-------------|-----------|---------|\n| 4          | 410 tok/s   | 252 tok/s | **1.63×** |\n| 8          | 720 tok/s   | 255 tok/s | **2.82×** |\n| 16         | 787 tok/s   | 253 tok/s | **3.07×** |\n\n**Tested on**: NVIDIA A100, Llama 3.2 1B, Q8/INT8 quantization\n\n## ✨ Key Features\n",
+    "ContentSha": "okG8GT+FDRDJ/Eh7dAeXQ65eY+g81pDHkxh1ed3XIKA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# PhotonInfer\n\n<div align=\"center\">\n\n**vLLMスタイルの連続バッチ処理を備えた高性能LLM推論エンジン**\n\n[English](https://raw.githubusercontent.com/lumia431/photon_infer/master/README.md) | [中文](https://raw.githubusercontent.com/lumia431/photon_infer/master/README_ZH.md) | [ライブデモ](https://photoninfer.xyz/)\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![CUDA](https://img.shields.io/badge/CUDA-12.0+-green.svg)](https://developer.nvidia.com/cuda-toolkit)\n[![C++20](https://img.shields.io/badge/C++-20-orange.svg)](https://en.cppreference.com/w/cpp/20)\n\n</div>\n\n---\n\n## 🚀 パフォーマンスハイライト\n\nPhotonInferは、高度なバッチ処理機能を備えたLLMの**商用グレード推論性能**を提供します。**Llama-3.2およびQwen3モデルに対応**。\n\n### 単一リクエスト推論\n\n| モデル | PhotonInfer | llama.cpp | スピードアップ |\n|-------|-------------|-----------|--------------|\n| Llama 3.2 1B | 185 tok/s | 252 tok/s | 0.73×（llama.cppが高速） |\n\n**TTFT（最初のトークン生成時間）**: 387ms @ 100トークンプラ​​ンプト（INT8量子化）\n\n### バッチ推論スループット\n\n| バッチサイズ | PhotonInfer | llama.cpp | スピードアップ |\n|------------|-------------|-----------|--------------|\n| 4          | 410 tok/s   | 252 tok/s | **1.63×** |\n| 8          | 720 tok/s   | 255 tok/s | **2.82×** |\n| 16         | 787 tok/s   | 253 tok/s | **3.07×** |\n\n**テスト環境**: NVIDIA A100, Llama 3.2 1B, Q8/INT8量子化\n\n## ✨ 主な特徴\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CcWDPYkIGrKzs9+0aB/uaxs3PilrmB3q1gXgf3hntE4=",
+        "originContent": "# PhotonInfer",
+        "translatedContent": "# PhotonInfer"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "0Bx/vZiSmKhMR1l2oXeCW8w7g0m6OD+MirKwFjL9z/c=",
+        "originContent": "**A High-Performance LLM Inference Engine with vLLM-Style Continuous Batching**",
+        "translatedContent": "**vLLMスタイルの連続バッチ処理を備えた高性能LLM推論エンジン**"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "NMmYGBospoC8997K+xsP7fdZrnCsTPg/bzC3axFOu0g=",
+        "originContent": "[English](https://raw.githubusercontent.com/lumia431/photon_infer/master/README.md) | [中文](https://raw.githubusercontent.com/lumia431/photon_infer/master/README_ZH.md) | [Live Demo](https://photoninfer.xyz/)",
+        "translatedContent": "[English](https://raw.githubusercontent.com/lumia431/photon_infer/master/README.md) | [中文](https://raw.githubusercontent.com/lumia431/photon_infer/master/README_ZH.md) | [ライブデモ](https://photoninfer.xyz/)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "sy1M2N/jTNcY/L5HVzqVY5gVnf2Wp6FRxX/Xd8bz2n0=",
+        "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)",
+        "translatedContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)"
+      },
+      {
+        "row": 10,
+        "rowsha": "RNnNXa7yFji6Bz5fhsF83w54ZvarVB01+tacR4ZMEmo=",
+        "originContent": "[![CUDA](https://img.shields.io/badge/CUDA-12.0+-green.svg)](https://developer.nvidia.com/cuda-toolkit)",
+        "translatedContent": "[![CUDA](https://img.shields.io/badge/CUDA-12.0+-green.svg)](https://developer.nvidia.com/cuda-toolkit)"
+      },
+      {
+        "row": 11,
+        "rowsha": "BQvvfG77RtFZOJRPOsMv2x0U3z64xgeMhab8FDoyhB4=",
+        "originContent": "[![C++20](https://img.shields.io/badge/C++-20-orange.svg)](https://en.cppreference.com/w/cpp/20)",
+        "translatedContent": "[![C++20](https://img.shields.io/badge/C++-20-orange.svg)](https://en.cppreference.com/w/cpp/20)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "ilvq5plfK4aBnPlBGN20JgI/sFsz2MVGVuJf1La+z1w=",
+        "originContent": "## 🚀 Performance Highlights",
+        "translatedContent": "## 🚀 パフォーマンスハイライト"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "8tZTuUOoCCYMWznbKbJbkR18j8S6palBl0jBIiI8LwU=",
+        "originContent": "PhotonInfer delivers **production-grade inference performance** for LLMs with advanced batching capabilities. **Supports Llama-3.2 and Qwen3 models**.",
+        "translatedContent": "PhotonInferは、高度なバッチ処理機能を備えたLLMの**商用グレード推論性能**を提供します。**Llama-3.2およびQwen3モデルに対応**。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "IAjT459AvdJCrMBhj7WTl9mfWZQDwhvhLH3VqKIWbuI=",
+        "originContent": "### Single Request Inference",
+        "translatedContent": "### 単一リクエスト推論"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "/ppZ4zy4knqWEq3HdQdNOaXakpz2Kp4JyLa75GX1Q5I=",
+        "originContent": "| Model | PhotonInfer | llama.cpp | Speedup |",
+        "translatedContent": "| モデル | PhotonInfer | llama.cpp | スピードアップ |"
+      },
+      {
+        "row": 24,
+        "rowsha": "VY/MJd4BF+VdAv2v44tWBVw7AZLxdYsmfdqYTUXqnkU=",
+        "originContent": "|-------|-------------|-----------|---------|",
+        "translatedContent": "|-------|-------------|-----------|--------------|"
+      },
+      {
+        "row": 25,
+        "rowsha": "1NrYmeNWB4NK9f8Et4PL53/3FD3deZXJ8dANUNXGr2U=",
+        "originContent": "| Llama 3.2 1B | 185 tok/s | 252 tok/s | 0.73× (llama.cpp faster) |",
+        "translatedContent": "| Llama 3.2 1B | 185 tok/s | 252 tok/s | 0.73×（llama.cppが高速） |"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "B+YnCBDUpqje3iT5AA1Ec53i3gum7adCOhlkFtI9iJs=",
+        "originContent": "**TTFT (Time To First Token)**: 387ms @ 100-token prompt (INT8 quantization)",
+        "translatedContent": "**TTFT（最初のトークン生成時間）**: 387ms @ 100トークンプラ​​ンプト（INT8量子化）"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "sRYAzmSuBoBII+u3u1yb3fqiKSyetjRC/2XItNqV1Es=",
+        "originContent": "### Batched Inference Throughput",
+        "translatedContent": "### バッチ推論スループット"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "iX6aBcg5zBjkhghK9Fd4ZXbrIxo1NTjXl165L4wng/c=",
+        "originContent": "| Batch Size | PhotonInfer | llama.cpp | Speedup |",
+        "translatedContent": "| バッチサイズ | PhotonInfer | llama.cpp | スピードアップ |"
+      },
+      {
+        "row": 32,
+        "rowsha": "rP/Fi4+YzQDbD4s1UA4wNU94MewwdgI/Y+MEHlwj34M=",
+        "originContent": "|------------|-------------|-----------|---------|",
+        "translatedContent": "|------------|-------------|-----------|--------------|"
+      },
+      {
+        "row": 33,
+        "rowsha": "Psb4CPv+hF4ZIQGyNee4O6fv6KUqhfviVOM6F369Xg0=",
+        "originContent": "| 4          | 410 tok/s   | 252 tok/s | **1.63×** |",
+        "translatedContent": "| 4          | 410 tok/s   | 252 tok/s | **1.63×** |"
+      },
+      {
+        "row": 34,
+        "rowsha": "xOQGQ5RBIFsKLHYskF+KMDSNRsOt22T0FgODrKpUz4E=",
+        "originContent": "| 8          | 720 tok/s   | 255 tok/s | **2.82×** |",
+        "translatedContent": "| 8          | 720 tok/s   | 255 tok/s | **2.82×** |"
+      },
+      {
+        "row": 35,
+        "rowsha": "HmofrvnZZUjgb+vfRga/tecFBSUOwO2ifH3LppthKHI=",
+        "originContent": "| 16         | 787 tok/s   | 253 tok/s | **3.07×** |",
+        "translatedContent": "| 16         | 787 tok/s   | 253 tok/s | **3.07×** |"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "g59bqTe4HRx5tTppzUmKrOKJld29xUTRHkc7w6GnZ6Y=",
+        "originContent": "**Tested on**: NVIDIA A100, Llama 3.2 1B, Q8/INT8 quantization",
+        "translatedContent": "**テスト環境**: NVIDIA A100, Llama 3.2 1B, Q8/INT8量子化"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "ZqRxbjfweoei1TdplkepzaponeK/fT5zgiMOYzmuvo0=",
+        "originContent": "## ✨ Key Features",
+        "translatedContent": "## ✨ 主な特徴"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "### 🎯 **vLLM-Style Continuous Batching**\n- **Token-level dynamic scheduling**: Add new requests mid-generation without waiting for batch completion\n- **Two-phase scheduler**: Seamlessly continue running requests while admitting new ones\n- **Request state tracking**: Precise `num_computed_tokens` management for efficient resume\n- **Perfect for production**: High-concurrency inference services with real-time responsiveness\n\n### ⚡ **GPU-Optimized Kernels**\n- **Batched Paged Attention**: Block-level KV cache management with efficient memory utilization\n- **Vectorized Memory Access**: `float4` loads for 2-4× bandwidth efficiency\n- **Fused Operations**: Zero-copy GPU sampling, batched RoPE, and fused normalization\n- **INT8 Quantization**: Group-wise quantization with cuBLASLt INT8 GEMM support\n- **Optimized Softmax**: CUB BlockReduce for numerically stable attention computation\n\n### 🏗️ **Modern C++20 Architecture**\n- **Type-Safe Error Handling**: Rust-inspired `Result<T, E>` type for explicit error propagation\n- **Zero-Copy Design**: Extensive use of `std::span` and move semantics\n- **Device Agnostic**: Unified interface for CPU and CUDA backends\n- **Concepts & Ranges**: Compile-time constraints and expressive type safety\n\n## 🚀 Quick Start\n\n### Prerequisites\n\n- **Compiler**: GCC 12+ (C++20 support required)\n- **CMake**: 3.20+\n- **CUDA Toolkit**: 12.0+ (tested on 12.5)\n- **GPU**: NVIDIA GPU with Compute Capability 7.0+\n\n### Download Model\n\nDownload a pre-quantized model to get started quickly:\n\nhttps://huggingface.co/Lummy666/llama-3.2-1B-Instruct\n\n### Build\n\n#### Option 1: Build from Source\n",
+    "ContentSha": "P9NDXSjAXkCjBvaO0NvhphsFPbE4m1ueV/e7Sjp8paw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 🎯 **vLLMスタイルの連続バッチ処理**\n- **トークンレベルの動的スケジューリング**: バッチ完了を待たずに生成途中で新規リクエストを追加可能\n- **二段階スケジューラ**: 新規リクエストを受け入れつつ継続的に実行を維持\n- **リクエスト状態追跡**: 効率的な再開のための正確な `num_computed_tokens` 管理\n- **本番環境に最適**: リアルタイム応答性を備えた高並行推論サービス\n\n### ⚡ **GPU最適化カーネル**\n- **バッチ化されたページドアテンション**: 効率的なメモリ利用のためのブロックレベルKVキャッシュ管理\n- **ベクトル化メモリアクセス**: 2〜4倍の帯域幅効率を実現する `float4` ロード\n- **融合オペレーション**: ゼロコピーGPUサンプリング、バッチ化RoPE、融合正規化\n- **INT8量子化**: cuBLASLt INT8 GEMM対応のグループ単位量子化\n- **最適化ソフトマックス**: 数値的に安定したアテンション計算のためのCUB BlockReduce\n\n### 🏗️ **モダンC++20アーキテクチャ**\n- **型安全なエラーハンドリング**: 明示的なエラー伝播のためのRust風 `Result<T, E>` 型\n- **ゼロコピー設計**: `std::span` とムーブセマンティクスの多用\n- **デバイス非依存**: CPUおよびCUDAバックエンドの統一インターフェース\n- **コンセプト＆レンジ**: コンパイル時制約と表現力豊かな型安全性\n\n## 🚀 クイックスタート\n\n### 前提条件\n\n- **コンパイラ**: GCC 12以上（C++20サポート必須）\n- **CMake**: 3.20以上\n- **CUDAツールキット**: 12.0以上（12.5で動作確認済み）\n- **GPU**: Compute Capability 7.0以上のNVIDIA GPU\n\n### モデルのダウンロード\n\nすぐに始められる事前量子化モデルをダウンロード：\n\nhttps://huggingface.co/Lummy666/llama-3.2-1B-Instruct\n\n### ビルド\n\n#### オプション1: ソースからビルド\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "KbGzaxaUhBvUz3Yn0wJLTTC62XcSW571MD/9AkVjzqU=",
+        "originContent": "### 🎯 **vLLM-Style Continuous Batching**",
+        "translatedContent": "### 🎯 **vLLMスタイルの連続バッチ処理**"
+      },
+      {
+        "row": 2,
+        "rowsha": "hFXmMmG1UQU+NCBBWchs7VEDqAgIsFRiFibUOLGAnGs=",
+        "originContent": "- **Token-level dynamic scheduling**: Add new requests mid-generation without waiting for batch completion",
+        "translatedContent": "- **トークンレベルの動的スケジューリング**: バッチ完了を待たずに生成途中で新規リクエストを追加可能"
+      },
+      {
+        "row": 3,
+        "rowsha": "8Sv098O9vQ+KoQ3L867VQSIn+U84L+g+LpoVX2ngILw=",
+        "originContent": "- **Two-phase scheduler**: Seamlessly continue running requests while admitting new ones",
+        "translatedContent": "- **二段階スケジューラ**: 新規リクエストを受け入れつつ継続的に実行を維持"
+      },
+      {
+        "row": 4,
+        "rowsha": "wvtD/VqvfUGEwyXVI1212NKohDuEXv9EyER2nKLBddg=",
+        "originContent": "- **Request state tracking**: Precise `num_computed_tokens` management for efficient resume",
+        "translatedContent": "- **リクエスト状態追跡**: 効率的な再開のための正確な `num_computed_tokens` 管理"
+      },
+      {
+        "row": 5,
+        "rowsha": "Dx/wz7v0YUOYWjOGLqyfdllwpwJA1mTwOa4VWcnp4O8=",
+        "originContent": "- **Perfect for production**: High-concurrency inference services with real-time responsiveness",
+        "translatedContent": "- **本番環境に最適**: リアルタイム応答性を備えた高並行推論サービス"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "C1xcT09lGzqXw8Dqdww7HKs7xyGKxfHLP9BXCUGMJRw=",
+        "originContent": "### ⚡ **GPU-Optimized Kernels**",
+        "translatedContent": "### ⚡ **GPU最適化カーネル**"
+      },
+      {
+        "row": 8,
+        "rowsha": "j3tLKqqciUG8k0UVP83kfxGkkb0uiiGX86cztmHwJM0=",
+        "originContent": "- **Batched Paged Attention**: Block-level KV cache management with efficient memory utilization",
+        "translatedContent": "- **バッチ化されたページドアテンション**: 効率的なメモリ利用のためのブロックレベルKVキャッシュ管理"
+      },
+      {
+        "row": 9,
+        "rowsha": "bEEXL1t2RridbNKtIdYF6QId4XeadQsTL/zK5HDiIL0=",
+        "originContent": "- **Vectorized Memory Access**: `float4` loads for 2-4× bandwidth efficiency",
+        "translatedContent": "- **ベクトル化メモリアクセス**: 2〜4倍の帯域幅効率を実現する `float4` ロード"
+      },
+      {
+        "row": 10,
+        "rowsha": "iAKJSX43iNATdZ8SbXaDWgY+HUg33dXBBnYArHtayd4=",
+        "originContent": "- **Fused Operations**: Zero-copy GPU sampling, batched RoPE, and fused normalization",
+        "translatedContent": "- **融合オペレーション**: ゼロコピーGPUサンプリング、バッチ化RoPE、融合正規化"
+      },
+      {
+        "row": 11,
+        "rowsha": "hWa7wr1n+jZ6k8dqbRK9M5dcC79zV8aEIZR2UrqPoK0=",
+        "originContent": "- **INT8 Quantization**: Group-wise quantization with cuBLASLt INT8 GEMM support",
+        "translatedContent": "- **INT8量子化**: cuBLASLt INT8 GEMM対応のグループ単位量子化"
+      },
+      {
+        "row": 12,
+        "rowsha": "Su9aqUZHsPsLD+pIEFbPlwZS0cAS/6897+JeXDF+x7E=",
+        "originContent": "- **Optimized Softmax**: CUB BlockReduce for numerically stable attention computation",
+        "translatedContent": "- **最適化ソフトマックス**: 数値的に安定したアテンション計算のためのCUB BlockReduce"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "hF04bvPs5Kk2kjpS3H6gtKxN7UWwg/yrCYm4p3VrX2U=",
+        "originContent": "### 🏗️ **Modern C++20 Architecture**",
+        "translatedContent": "### 🏗️ **モダンC++20アーキテクチャ**"
+      },
+      {
+        "row": 15,
+        "rowsha": "IiT4PqmbAk6f7km3W2ti9LugmbNtefNuUSqsUbtHjlU=",
+        "originContent": "- **Type-Safe Error Handling**: Rust-inspired `Result<T, E>` type for explicit error propagation",
+        "translatedContent": "- **型安全なエラーハンドリング**: 明示的なエラー伝播のためのRust風 `Result<T, E>` 型"
+      },
+      {
+        "row": 16,
+        "rowsha": "Z1jpnV1UiO11VP+gvH8dMgB9kRpxpALISpkUoULBp1Y=",
+        "originContent": "- **Zero-Copy Design**: Extensive use of `std::span` and move semantics",
+        "translatedContent": "- **ゼロコピー設計**: `std::span` とムーブセマンティクスの多用"
+      },
+      {
+        "row": 17,
+        "rowsha": "tJwtZQi886JZJOFTrO/a+X1e2ptenMfVCcM5ipojo9A=",
+        "originContent": "- **Device Agnostic**: Unified interface for CPU and CUDA backends",
+        "translatedContent": "- **デバイス非依存**: CPUおよびCUDAバックエンドの統一インターフェース"
+      },
+      {
+        "row": 18,
+        "rowsha": "PDaSrwfgq4BcFtWbCzkp9sGriwZfeYZuoLrlta6srpE=",
+        "originContent": "- **Concepts & Ranges**: Compile-time constraints and expressive type safety",
+        "translatedContent": "- **コンセプト＆レンジ**: コンパイル時制約と表現力豊かな型安全性"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
+        "originContent": "## 🚀 Quick Start",
+        "translatedContent": "## 🚀 クイックスタート"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": "### 前提条件"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "pkRoJLpu71NosbmlklIjHzjAe2Zo0Qu9h7J54B2D/HE=",
+        "originContent": "- **Compiler**: GCC 12+ (C++20 support required)",
+        "translatedContent": "- **コンパイラ**: GCC 12以上（C++20サポート必須）"
+      },
+      {
+        "row": 25,
+        "rowsha": "4Uut9winxQZ7/sJIja0zb7vEgPunycKA6GCWhni03Sc=",
+        "originContent": "- **CMake**: 3.20+",
+        "translatedContent": "- **CMake**: 3.20以上"
+      },
+      {
+        "row": 26,
+        "rowsha": "JsI7Q/dE+1SQ88sWg5NZ5bczoLbbouYlLxBxuf67Wyk=",
+        "originContent": "- **CUDA Toolkit**: 12.0+ (tested on 12.5)",
+        "translatedContent": "- **CUDAツールキット**: 12.0以上（12.5で動作確認済み）"
+      },
+      {
+        "row": 27,
+        "rowsha": "IheolcB9wpBMows0OBGbQkm+B6wNU3lEvKtI6updnbE=",
+        "originContent": "- **GPU**: NVIDIA GPU with Compute Capability 7.0+",
+        "translatedContent": "- **GPU**: Compute Capability 7.0以上のNVIDIA GPU"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "liI7hbqPQOiByjHoW+ZuTC0QnCJbDRwRMSsSzZ9YQuU=",
+        "originContent": "### Download Model",
+        "translatedContent": "### モデルのダウンロード"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "jLpTGPQO621LS8Ng6q0sYtkfyC948xcb1u/xooAUXZI=",
+        "originContent": "Download a pre-quantized model to get started quickly:",
+        "translatedContent": "すぐに始められる事前量子化モデルをダウンロード："
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "2ih7vrTL1MacpvD7mY64M9UaVjtL+KanlaVYMo8D81w=",
+        "originContent": "https://huggingface.co/Lummy666/llama-3.2-1B-Instruct",
+        "translatedContent": "https://huggingface.co/Lummy666/llama-3.2-1B-Instruct"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "8aIhgwV63hNALJUIBIX1H5jmhzVo93+f7RD+oRKpxx0=",
+        "originContent": "### Build",
+        "translatedContent": "### ビルド"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "LIX4a00OGkZc7sM900bemOuLOZ7p7rGYgfyK5RzRRJU=",
+        "originContent": "#### Option 1: Build from Source",
+        "translatedContent": "#### オプション1: ソースからビルド"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\n# Clone repository\ncd photon_infer\n\n# Configure with CUDA\nmkdir build && cd build\ncmake -DCMAKE_BUILD_TYPE=Release -DPHOTON_BUILD_CUDA=ON ..\n\n# Build\ncmake --build . -j$(nproc)\n\n# Install (optional)\nsudo cmake --install .\n```",
+    "ContentSha": "BUriP1pqf+2rNznqU75WT1+ZYrcONHedQbxEii0SNQ4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Clone repository\ncd photon_infer\n\n# Configure with CUDA\nmkdir build && cd build\ncmake -DCMAKE_BUILD_TYPE=Release -DPHOTON_BUILD_CUDA=ON ..\n\n# Build\ncmake --build . -j$(nproc)\n\n# Install (optional)\nsudo cmake --install .\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "0JL4Xxg1VPlhrVcOcSi+4//QJU+QviIOhgFZSrVk5h4=",
+        "originContent": "# Clone repository",
+        "translatedContent": "# Clone repository"
+      },
+      {
+        "row": 3,
+        "rowsha": "5mb6MxWe0FL02T4cHOURfFYfr0/Kk+SfrdyF4Q6mxD0=",
+        "originContent": "cd photon_infer",
+        "translatedContent": "cd photon_infer"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "1UTdFU/vW71Pc4Qwds1xCgNxnluda19kYvHA/srynqY=",
+        "originContent": "# Configure with CUDA",
+        "translatedContent": "# Configure with CUDA"
+      },
+      {
+        "row": 6,
+        "rowsha": "/ij4nXADubLfmHtzOAT6hQUJOJtaNpy3lGYNFT5zcdc=",
+        "originContent": "mkdir build && cd build",
+        "translatedContent": "mkdir build && cd build"
+      },
+      {
+        "row": 7,
+        "rowsha": "aLsBUyjmIBUHHv2hX3wmomlgipH6INdHuxF6zF4k7FM=",
+        "originContent": "cmake -DCMAKE_BUILD_TYPE=Release -DPHOTON_BUILD_CUDA=ON ..",
+        "translatedContent": "cmake -DCMAKE_BUILD_TYPE=Release -DPHOTON_BUILD_CUDA=ON .."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "z1e3MWn42V8fvSFPdoO9BcPC6uyIQ6xPDSo7272EP9E=",
+        "originContent": "# Build",
+        "translatedContent": "# Build"
+      },
+      {
+        "row": 10,
+        "rowsha": "Kw+QA05BqfTOiDH3Q2cVPCL44WHBkLrFIABxftV6fsA=",
+        "originContent": "cmake --build . -j$(nproc)",
+        "translatedContent": "cmake --build . -j$(nproc)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "4K45GEs1u/qNnJadhIPW2kJe5JXGkPCC/JGZ8HeDPNQ=",
+        "originContent": "# Install (optional)",
+        "translatedContent": "# Install (optional)"
+      },
+      {
+        "row": 13,
+        "rowsha": "2hDQL7Cw0HB1M2PQJDIhljbAPRD++rpVNnVE801rzVk=",
+        "originContent": "sudo cmake --install .",
+        "translatedContent": "sudo cmake --install ."
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nAfter installation, you can run the web server directly from anywhere:\n",
+    "ContentSha": "epXA4toF8cwYE80fdY06yrdCncCwgY0Cc5JsV+b3LEI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "インストール後は、どこからでも直接ウェブサーバーを実行できます：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "インストール後は、どこからでも直接ウェブサーバーを実行できます："
+      },
+      {
+        "row": 2,
+        "rowsha": "+DG8vp0dG14kE29yVn3TdLXR9en0BYF2re8MQ6uoVpg=",
+        "originContent": "After installation, you can run the web server directly from anywhere:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\nphoton_web_server \\\n    --port 5728 \\\n    --model /path/to/llama-3.2-1B-Instruct \\\n    --tokenizer /path/to/llama-3.2-1B-Instruct/tokenizer.json\n```",
+    "ContentSha": "1JDzaob1sKCifidkQgu93g9979JMFQu/eVRm6t/fP5k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nphoton_web_server \\\n    --port 5728 \\\n    --model /path/to/llama-3.2-1B-Instruct \\\n    --tokenizer /path/to/llama-3.2-1B-Instruct/tokenizer.json\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ronkT/w3OpfEZBMgDMudKiJvQ1P4eTIn/xX8l7NZ9Mg=",
+        "originContent": "photon_web_server \\",
+        "translatedContent": "photon_web_server \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "bA6EqmaJLjuqi7iTtYn2hirvCOoshaAnnnLJ62Ci37o=",
+        "originContent": "    --port 5728 \\",
+        "translatedContent": "    --port 5728 \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "R6/mR8czfVby4XRwHh3VyF1N7KHCHDpPZGTqAjxAXH8=",
+        "originContent": "    --model /path/to/llama-3.2-1B-Instruct \\",
+        "translatedContent": "    --model /path/to/llama-3.2-1B-Instruct \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "/30I8WVJ2gU8TdHOWgpkvQCGxoR3ZFnD/at1Cp6SJwM=",
+        "originContent": "    --tokenizer /path/to/llama-3.2-1B-Instruct/tokenizer.json",
+        "translatedContent": "    --tokenizer /path/to/llama-3.2-1B-Instruct/tokenizer.json"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\nThe installation will place:\n- `photon_web_server` → `/usr/local/bin/`\n- Static web files → `/photon_infer/web/static/`\n- Core library → `/usr/local/lib/`\n\nTo uninstall:",
+    "ContentSha": "LeiIIWK0Q0fw+r3DLzf2UMzd5YXRyyQpCgeYq+f+8GQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "インストールは以下の場所に配置されます：\n- `photon_web_server` → `/usr/local/bin/`\n- 静的ウェブファイル → `/photon_infer/web/static/`\n- コアライブラリ → `/usr/local/lib/`\n\nアンインストールするには：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "インストールは以下の場所に配置されます："
+      },
+      {
+        "row": 2,
+        "rowsha": "mmcug6K3Lm4eBevjGBm6rKRK5lEy0H/VlKnnxz7NqaY=",
+        "originContent": "The installation will place:",
+        "translatedContent": "- `photon_web_server` → `/usr/local/bin/`"
+      },
+      {
+        "row": 3,
+        "rowsha": "w7BBXkfKP89Hv0COU9HRfYZ2CK9a2t6VNMyolsikTV0=",
+        "originContent": "- `photon_web_server` → `/usr/local/bin/`",
+        "translatedContent": "- 静的ウェブファイル → `/photon_infer/web/static/`"
+      },
+      {
+        "row": 4,
+        "rowsha": "ny60hoh7CRZAjaGGNZNAKuyUqN98fwxIGB1CeaObJ4U=",
+        "originContent": "- Static web files → `/photon_infer/web/static/`",
+        "translatedContent": "- コアライブラリ → `/usr/local/lib/`"
+      },
+      {
+        "row": 5,
+        "rowsha": "2Un/67Ctgf9WsUQHkWkIvsGKoFgDLseGorytA7TDLLU=",
+        "originContent": "- Core library → `/usr/local/lib/`",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "アンインストールするには："
+      },
+      {
+        "row": 7,
+        "rowsha": "MVzKyTLSvqL9fKQ4gVBnXuz1Wh+Cpabi4usNGPpQMHs=",
+        "originContent": "To uninstall:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bash\ncd build\nsudo cmake --build . --target uninstall\n```",
+    "ContentSha": "Q/0LaQFKPqLGkC9hmRF4uoEvptC9LUgrtuRidjZfKyU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncd build\nsudo cmake --build . --target uninstall\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "2E91V0MAwN4o4nI9U0XkQPFhdwGamzSnsb7s2xe+3Uw=",
+        "originContent": "cd build",
+        "translatedContent": "cd build"
+      },
+      {
+        "row": 3,
+        "rowsha": "LTS5DVMcmC3Won/JFeNbvOAnPDeuA98oeBlwzsr4Wz4=",
+        "originContent": "sudo cmake --build . --target uninstall",
+        "translatedContent": "sudo cmake --build . --target uninstall"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n#### Option 2: Use Docker (Recommended)\n",
+    "ContentSha": "/Yy3txGHNyCjqIU9ekViyZeIAqcCpugAIXaYjbiANdg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### オプション 2: Docker を使用する（推奨）\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "UkJjGNoDRFo7ejYSmyc8q4f77ggmVVwc7vbSGDNbR8I=",
+        "originContent": "#### Option 2: Use Docker (Recommended)",
+        "translatedContent": "#### オプション 2: Docker を使用する（推奨）"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```bash\n# Pull the pre-built Docker image\ndocker pull lumia431/photon_infer:latest\n\n# Run the container with GPU support\ndocker run --rm --gpus all -p 5728:5728 -e PORT=5728 lumia431/photon_infer:latest\n```",
+    "ContentSha": "wWWHHNi7dK5rsaOHjVVvF9GnHJWIQqjIY6QDV3ZjHeE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Pull the pre-built Docker image\ndocker pull lumia431/photon_infer:latest\n\n# Run the container with GPU support\ndocker run --rm --gpus all -p 5728:5728 -e PORT=5728 lumia431/photon_infer:latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "rpz3dFMqTNwbAg9R4lLwyMxlN+7yeMXvREt06Orj4zQ=",
+        "originContent": "# Pull the pre-built Docker image",
+        "translatedContent": "# Pull the pre-built Docker image"
+      },
+      {
+        "row": 3,
+        "rowsha": "2ku87H8ouso3HIt2lZEa+B9nbReyj8hNq0nO1B26NOI=",
+        "originContent": "docker pull lumia431/photon_infer:latest",
+        "translatedContent": "docker pull lumia431/photon_infer:latest"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "O2Ag1LDtSN3W5d1Btv11fwDVqdstcauQJUkHWCxpgn4=",
+        "originContent": "# Run the container with GPU support",
+        "translatedContent": "# Run the container with GPU support"
+      },
+      {
+        "row": 6,
+        "rowsha": "hK7UjS1cd1YBZB4LhXz9VZnfWxCGposmjIsh9+Ws5vk=",
+        "originContent": "docker run --rm --gpus all -p 5728:5728 -e PORT=5728 lumia431/photon_infer:latest",
+        "translatedContent": "docker run --rm --gpus all -p 5728:5728 -e PORT=5728 lumia431/photon_infer:latest"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\nThe web interface will be available at `http://localhost:5728`\n\n## 🔬 Technical Details\n\n### INT8 Quantization\n- **Group-wise quantization**: Configurable group size (32, 64, 128)\n- **cuBLASLt integration**: Hardware-accelerated INT8 GEMM\n- **Minimal accuracy loss**: < 1% perplexity degradation on Llama models\n\n### Paged Attention\n- **Block-level KV cache**: Efficient memory allocation without fragmentation\n- **Dynamic sequence management**: Per-sequence cache offsets for flexible scheduling\n- **Batched cache operations**: Single kernel for multi-sequence K/V writes\n\n### Continuous Batching Scheduler\n- **Two-phase scheduling**:\n  1. **Phase 1**: Continue all RUNNING requests (no interruption)\n  2. **Phase 2**: Admit WAITING requests to fill remaining capacity\n- **Request states**: WAITING → RUNNING → FINISHED (with PREEMPTED support)\n- **Token-level granularity**: `num_computed_tokens` tracking for precise resume\n\n## 🛣️ Roadmap\n\n- [x] **Core Infrastructure**: Tensor, operators, memory management\n- [x] **LLaMA Model**: Full transformer implementation with CPU/GPU kernels\n- [x] **INT8 Quantization**: Group-wise quantization with cuBLASLt\n- [x] **Paged Attention**: Block-level KV cache management\n- [x] **Continuous Batching**: vLLM-style dynamic request scheduling\n- [ ] **Flash Attention 2**: IO-aware attention for long sequences\n- [ ] **Multi-GPU Support**: Tensor parallelism for large models\n- [ ] **FP16/BF16 Mixed Precision**: Enhanced throughput on modern GPUs\n- [ ] **Speculative Decoding**: Multi-token generation with draft model\n\n## 📖 Documentation\n\n- [Continuous Batching Design](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/continuous_batching.md)\n- [Performance Optimization Guide](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/performance.md)\n- [API Reference](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/api.md)\n",
+    "ContentSha": "+4t+0v0yyYbYTI42NsKw8WcPjkEcmmCPVCKfnrpyy/8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "ウェブインターフェースは `http://localhost:5728` で利用可能です\n\n## 🔬 技術詳細\n\n### INT8 量子化\n- **グループ単位の量子化**：グループサイズ（32、64、128）を設定可能\n- **cuBLASLt 統合**：ハードウェアアクセラレーションによる INT8 GEMM\n- **最小限の精度損失**：Llamaモデルでのパープレキシティ低下が1%未満\n\n### ページドアテンション\n- **ブロックレベルのKVキャッシュ**：断片化のない効率的なメモリ割り当て\n- **動的シーケンス管理**：シーケンスごとのキャッシュオフセットによる柔軟なスケジューリング\n- **バッチ処理キャッシュ操作**：複数シーケンスのK/V書き込みを単一カーネルで実行\n\n### 連続バッチスケジューラ\n- **二段階スケジューリング**：\n  1. **フェーズ1**：すべてのRUNNINGリクエストを継続（中断なし）\n  2. **フェーズ2**：残りの容量を埋めるためにWAITINGリクエストを受け入れ\n- **リクエスト状態**：WAITING → RUNNING → FINISHED（PREEMPTED対応あり）\n- **トークン単位の粒度**：正確な再開のための `num_computed_tokens` トラッキング\n\n## 🛣️ ロードマップ\n\n- [x] **コアインフラ**：テンソル、演算子、メモリ管理\n- [x] **LLaMAモデル**：CPU/GPUカーネルを備えた完全なトランスフォーマー実装\n- [x] **INT8量子化**：cuBLASLtによるグループ単位量子化\n- [x] **ページドアテンション**：ブロックレベルのKVキャッシュ管理\n- [x] **連続バッチ処理**：vLLMスタイルの動的リクエストスケジューリング\n- [ ] **Flash Attention 2**：長いシーケンス向けのIO対応アテンション\n- [ ] **マルチGPU対応**：大規模モデル向けのテンソル並列処理\n- [ ] **FP16/BF16混合精度**：最新GPUでのスループット向上\n- [ ] **スペキュレーティブデコーディング**：ドラフトモデルによるマルチトークン生成\n\n## 📖 ドキュメント\n\n- [連続バッチ処理設計](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/continuous_batching.md)\n- [パフォーマンス最適化ガイド](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/performance.md)\n- [APIリファレンス](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/api.md)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ウェブインターフェースは `http://localhost:5728` で利用可能です"
+      },
+      {
+        "row": 2,
+        "rowsha": "mIUtfpRXVrYUYOcBievEBQShysoFrfG3GZ2Zxat/P80=",
+        "originContent": "The web interface will be available at `http://localhost:5728`",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🔬 技術詳細"
+      },
+      {
+        "row": 4,
+        "rowsha": "V8oV8Z+BV+0V3D0y5n24q+1bhrG2BA9llSLO1ndA1ag=",
+        "originContent": "## 🔬 Technical Details",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### INT8 量子化"
+      },
+      {
+        "row": 6,
+        "rowsha": "smGzJQl0mcsFy82taL2KGYTIwobm+WQmAIPl9qA44oY=",
+        "originContent": "### INT8 Quantization",
+        "translatedContent": "- **グループ単位の量子化**：グループサイズ（32、64、128）を設定可能"
+      },
+      {
+        "row": 7,
+        "rowsha": "A2KSz0k8gaVQMc6rmiVJyopN7Uj45V/xmlaoW71DnHY=",
+        "originContent": "- **Group-wise quantization**: Configurable group size (32, 64, 128)",
+        "translatedContent": "- **cuBLASLt 統合**：ハードウェアアクセラレーションによる INT8 GEMM"
+      },
+      {
+        "row": 8,
+        "rowsha": "refNpgDRCf9XRgXqFtgk8iHjPBa8Qo452gj6zQFcPZA=",
+        "originContent": "- **cuBLASLt integration**: Hardware-accelerated INT8 GEMM",
+        "translatedContent": "- **最小限の精度損失**：Llamaモデルでのパープレキシティ低下が1%未満"
+      },
+      {
+        "row": 9,
+        "rowsha": "VupejMCrKhgrk6YhChVr9Yr8BXYAvV794H9LUyA6e5I=",
+        "originContent": "- **Minimal accuracy loss**: < 1% perplexity degradation on Llama models",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ページドアテンション"
+      },
+      {
+        "row": 11,
+        "rowsha": "hZiOdKxxJZqJ+t6B6nhGhO5VvT/mw9Klir9DoEIRAU4=",
+        "originContent": "### Paged Attention",
+        "translatedContent": "- **ブロックレベルのKVキャッシュ**：断片化のない効率的なメモリ割り当て"
+      },
+      {
+        "row": 12,
+        "rowsha": "IpORQNrhsNAjmQV0iTbH2x/FlVT1ZMlrC5kpAa5JXfQ=",
+        "originContent": "- **Block-level KV cache**: Efficient memory allocation without fragmentation",
+        "translatedContent": "- **動的シーケンス管理**：シーケンスごとのキャッシュオフセットによる柔軟なスケジューリング"
+      },
+      {
+        "row": 13,
+        "rowsha": "KCC1sKe81N6Ef9UhJHghC/+wRqrMGCmd+PHtwQFUZ80=",
+        "originContent": "- **Dynamic sequence management**: Per-sequence cache offsets for flexible scheduling",
+        "translatedContent": "- **バッチ処理キャッシュ操作**：複数シーケンスのK/V書き込みを単一カーネルで実行"
+      },
+      {
+        "row": 14,
+        "rowsha": "4vSpJ8stWfPnSFTZkM0IOvNOCJqKnvNufqdsdulDvUo=",
+        "originContent": "- **Batched cache operations**: Single kernel for multi-sequence K/V writes",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 連続バッチスケジューラ"
+      },
+      {
+        "row": 16,
+        "rowsha": "2nQVFtz1sZjmOCce3nfkp5adYh8oisZ8/LttIC5jik0=",
+        "originContent": "### Continuous Batching Scheduler",
+        "translatedContent": "- **二段階スケジューリング**："
+      },
+      {
+        "row": 17,
+        "rowsha": "2B/ZMrRReGwoOUFzO0gtvKvG7LuGbM7RuaSArNYLZFw=",
+        "originContent": "- **Two-phase scheduling**:",
+        "translatedContent": "  1. **フェーズ1**：すべてのRUNNINGリクエストを継続（中断なし）"
+      },
+      {
+        "row": 18,
+        "rowsha": "5vsj9UyqTI5ECDXPlMTwXCgruGlUEa9r/V3B/9ST/9w=",
+        "originContent": "  1. **Phase 1**: Continue all RUNNING requests (no interruption)",
+        "translatedContent": "  2. **フェーズ2**：残りの容量を埋めるためにWAITINGリクエストを受け入れ"
+      },
+      {
+        "row": 19,
+        "rowsha": "mUoT5wQiwHYwihYEj6y5Zv9qXYA4b6rQgRooCJcznAw=",
+        "originContent": "  2. **Phase 2**: Admit WAITING requests to fill remaining capacity",
+        "translatedContent": "- **リクエスト状態**：WAITING → RUNNING → FINISHED（PREEMPTED対応あり）"
+      },
+      {
+        "row": 20,
+        "rowsha": "UNNot9A5p+78BsrNl67JNL8YXKPMPLTt+0QrayuzPO4=",
+        "originContent": "- **Request states**: WAITING → RUNNING → FINISHED (with PREEMPTED support)",
+        "translatedContent": "- **トークン単位の粒度**：正確な再開のための `num_computed_tokens` トラッキング"
+      },
+      {
+        "row": 21,
+        "rowsha": "VWOEgDIEPCrxdQkSMssHTZ5e/GEdFPIQ7zfy1/E/Zyk=",
+        "originContent": "- **Token-level granularity**: `num_computed_tokens` tracking for precise resume",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🛣️ ロードマップ"
+      },
+      {
+        "row": 23,
+        "rowsha": "1JFNl0HBHJWfzyKnul9oibTbXiyc2VYBLWE6w1eicDc=",
+        "originContent": "## 🛣️ Roadmap",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [x] **コアインフラ**：テンソル、演算子、メモリ管理"
+      },
+      {
+        "row": 25,
+        "rowsha": "f9J4qWnNIUvjIhXHCzsf+2ekdfc8IMbOZR++NhFjSoI=",
+        "originContent": "- [x] **Core Infrastructure**: Tensor, operators, memory management",
+        "translatedContent": "- [x] **LLaMAモデル**：CPU/GPUカーネルを備えた完全なトランスフォーマー実装"
+      },
+      {
+        "row": 26,
+        "rowsha": "Gl/w2YNkw2ugkWozS88awSUn/ZFq/XTRJf4qpKriM64=",
+        "originContent": "- [x] **LLaMA Model**: Full transformer implementation with CPU/GPU kernels",
+        "translatedContent": "- [x] **INT8量子化**：cuBLASLtによるグループ単位量子化"
+      },
+      {
+        "row": 27,
+        "rowsha": "nB+/rudKpgRXoU4gwhxiSqoS2/CVKoF+eaRnr/THKVk=",
+        "originContent": "- [x] **INT8 Quantization**: Group-wise quantization with cuBLASLt",
+        "translatedContent": "- [x] **ページドアテンション**：ブロックレベルのKVキャッシュ管理"
+      },
+      {
+        "row": 28,
+        "rowsha": "u8n759pQuA7fSaipy4HoQcr/ePz/yJpKgGi6/y/8nL8=",
+        "originContent": "- [x] **Paged Attention**: Block-level KV cache management",
+        "translatedContent": "- [x] **連続バッチ処理**：vLLMスタイルの動的リクエストスケジューリング"
+      },
+      {
+        "row": 29,
+        "rowsha": "F9NNsMDpN8zFKS1tOJl25MA0RH2UJkcKygXg8R+XTUY=",
+        "originContent": "- [x] **Continuous Batching**: vLLM-style dynamic request scheduling",
+        "translatedContent": "- [ ] **Flash Attention 2**：長いシーケンス向けのIO対応アテンション"
+      },
+      {
+        "row": 30,
+        "rowsha": "wA4Uj64UgGCVAGh/3nSFNGdJ7HDZZGbolVbs271d8v4=",
+        "originContent": "- [ ] **Flash Attention 2**: IO-aware attention for long sequences",
+        "translatedContent": "- [ ] **マルチGPU対応**：大規模モデル向けのテンソル並列処理"
+      },
+      {
+        "row": 31,
+        "rowsha": "aRhrqwZOtj5xLUVk81E7WFxlTGu+RnFHspJXzqe1gdw=",
+        "originContent": "- [ ] **Multi-GPU Support**: Tensor parallelism for large models",
+        "translatedContent": "- [ ] **FP16/BF16混合精度**：最新GPUでのスループット向上"
+      },
+      {
+        "row": 32,
+        "rowsha": "8nMkZQ9nm5Csy2tz6O/EhiEBApxxMxbmDG0FW6CKltU=",
+        "originContent": "- [ ] **FP16/BF16 Mixed Precision**: Enhanced throughput on modern GPUs",
+        "translatedContent": "- [ ] **スペキュレーティブデコーディング**：ドラフトモデルによるマルチトークン生成"
+      },
+      {
+        "row": 33,
+        "rowsha": "7l8AIMNJqcyM+b19YvlSSD6g7rcVcfV2Kwn/GZDdVCQ=",
+        "originContent": "- [ ] **Speculative Decoding**: Multi-token generation with draft model",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📖 ドキュメント"
+      },
+      {
+        "row": 35,
+        "rowsha": "SoE0pvlABUY6UusrLcAgNz4PkoTle0JWWhESnRMZ7Es=",
+        "originContent": "## 📖 Documentation",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [連続バッチ処理設計](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/continuous_batching.md)"
+      },
+      {
+        "row": 37,
+        "rowsha": "EgCjHjJ4/9YP+aJ7SCe8AyWvP4JeQSGdaXfhhJ/K3Ds=",
+        "originContent": "- [Continuous Batching Design](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/continuous_batching.md)",
+        "translatedContent": "- [パフォーマンス最適化ガイド](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/performance.md)"
+      },
+      {
+        "row": 38,
+        "rowsha": "Iect7XFXlQWIjPExnkxogBUtSm/DsETknrTYKJFj5vA=",
+        "originContent": "- [Performance Optimization Guide](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/performance.md)",
+        "translatedContent": "- [APIリファレンス](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/api.md)"
+      },
+      {
+        "row": 39,
+        "rowsha": "g4tJMSUxU38Dq7WjK+WsolFk0VEKjcpsjv/4W1Q5EJI=",
+        "originContent": "- [API Reference](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/api.md)",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "## 🤝 Contributing\n\nContributions welcome! Please see [CONTRIBUTING.md](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/contributing.md) for guidelines.\n\n## 📝 License\n\nMIT License - see [LICENSE](LICENSE) for details.\n\n## 🙏 Acknowledgments\n\n- Architecture inspired by [vLLM](https://github.com/vllm-project/vllm)\n- Kernel optimizations reference [llama.cpp](https://github.com/ggerganov/llama.cpp)\n- Error handling design from Rust's `Result<T, E>`\n\n---\n\n**Built with ❤️ for high-performance LLM inference**\n",
+    "ContentSha": "szykROhQiS5gIatNen0FLUDvz1XBozm4zOd+YItik8w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🤝 貢献について\n\n貢献を歓迎します！ガイドラインは[CONTRIBUTING.md](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/contributing.md)をご覧ください。\n\n## 📝 ライセンス\n\nMITライセンス - 詳細は[LICENSE](LICENSE)をご覧ください。\n\n## 🙏 謝辞\n\n- アーキテクチャは[vLLM](https://github.com/vllm-project/vllm)に着想を得ています\n- カーネル最適化は[llama.cpp](https://github.com/ggerganov/llama.cpp)を参考にしています\n- エラー処理の設計はRustの`Result<T, E>`から採用しています\n\n---\n\n**高性能なLLM推論のために❤️を込めて作られました**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+        "originContent": "## 🤝 Contributing",
+        "translatedContent": "## 🤝 貢献について"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "jn2o1S708I79ut5wE27i150UO3xeXj65BJ0xLfOKLPQ=",
+        "originContent": "Contributions welcome! Please see [CONTRIBUTING.md](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/contributing.md) for guidelines.",
+        "translatedContent": "貢献を歓迎します！ガイドラインは[CONTRIBUTING.md](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/contributing.md)をご覧ください。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "/bQvlvaRWY9zIHAn3VQUzqbCmwMTGIdxnaCzM+Hj0DA=",
+        "originContent": "## 📝 License",
+        "translatedContent": "## 📝 ライセンス"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "TQbLtlkz/4wk53iQHmCp0/AuJ9wLL4KxIT8/wTVYVTc=",
+        "originContent": "MIT License - see [LICENSE](LICENSE) for details.",
+        "translatedContent": "MITライセンス - 詳細は[LICENSE](LICENSE)をご覧ください。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "qNOAwfAbnQ0oGAw8kiCxNmOxAO6HNOriMNTHzMq+bx0=",
+        "originContent": "## 🙏 Acknowledgments",
+        "translatedContent": "## 🙏 謝辞"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "bio/kIk9a9QJldzhyVUJuCeWfiuGgAhsAczXiSWi8IY=",
+        "originContent": "- Architecture inspired by [vLLM](https://github.com/vllm-project/vllm)",
+        "translatedContent": "- アーキテクチャは[vLLM](https://github.com/vllm-project/vllm)に着想を得ています"
+      },
+      {
+        "row": 12,
+        "rowsha": "Ld0axyjsfuSP/w5hxBGNZkHtssxewQUwIB3wUX8mQ14=",
+        "originContent": "- Kernel optimizations reference [llama.cpp](https://github.com/ggerganov/llama.cpp)",
+        "translatedContent": "- カーネル最適化は[llama.cpp](https://github.com/ggerganov/llama.cpp)を参考にしています"
+      },
+      {
+        "row": 13,
+        "rowsha": "ISwaoY75TQJuH/Ytgva26Xlc4shFdSkPhtok94GFJow=",
+        "originContent": "- Error handling design from Rust's `Result<T, E>`",
+        "translatedContent": "- エラー処理の設計はRustの`Result<T, E>`から採用しています"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "gV2A79jON2C9J0rdoarfftPNq6Xlho1PitTgrrbyAD4=",
+        "originContent": "**Built with ❤️ for high-performance LLM inference**",
+        "translatedContent": "**高性能なLLM推論のために❤️を込めて作られました**"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

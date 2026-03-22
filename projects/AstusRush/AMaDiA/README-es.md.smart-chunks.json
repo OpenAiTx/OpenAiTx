@@ -1,0 +1,460 @@
+[
+  {
+    "Id": 1,
+    "Content": "# AMaDiA\nAstus' Mathematical Display Application<br/><br/>\nCurrent features:<br/>\n * Use (Shift+)AltGr+Key to type Mathematical Symbols (Refer to AMaDiA_ReplacementTables)<br/>\n * Tab 1 : Scientific Calculator<br/>\n   * Calculate with +,-,±,×,÷,√,^,°, Integral f(x) dx, d(f(x))/dx, y'(x), complex numbers, sin(), cos(), tan(), exp(), log() , π , E and more<br/>\n   * Solve an equation with unknown variables<br/>\n   * Solve Differential Equations (including particular solutions)<br/>\n   * Test for equality of two terms<br/>\n   * Use mathematic Unicode symbols to type faster!<br/>\n   * Turn on units in the options to do things like convert_to(7foot+3inch,m)<br/>\n   * For more detailed usage check out Help/Examples and copy/paste the examples to the according tab input fields<br/>\n * Tab 2 : Convert input to LaTeX and display it<br/>\n * Tab 3 : Plot 2D Graphs (3D and complex Graphs are WIP)<br/>\n * Tab 4 : Equations with matrices and vectors as well as systems of linear equations<br/>\n * System Control Window : Everything for System Control (WIP)<br/>\n * LAN chat program (needs overhaul)<br/>\n   * Intended for sharing equations with other users in the same network to make cooperative working easier<br/>\n   * Separate Server and Client applications<br/>\n   * Allows sending of text and text files<br/>\n   * Share text files with all other users in the network via drag'n'drop into the input field<br/>\n   * Server has some moderation tools (Muting/Kicking/Banning<br/>\n   * WARNING: Messages are currently not encrypted! Do not send sensitive data!!!<br/>\n * Custom Window Frames<br/>\n<br/>\nFeedback is welcome<br/>\nSuggestions are welcome<br/>\nRequests are welcome<br/>\n<br/><br/>\n\n# How to Install\nOn Windows:<br/>\n * Install https://gitforwindows.org/<br/>\n * Install https://www.anaconda.com/distribution/<br/>\n * Create two files \"AMaDiA.bat\" and \"AMaDiA_INSTALL.bat\" and copy the text from the two file in WINDOWS-INSTALL into them by rightcklicking on them and selecting the modify option<br/>\n * doubleclick on \"AMaDiA_INSTALL.bat\" to install AMaDiA (The installation location is the user folder. This can be changed by editing both files.)<br/>\n * From now on doubleclicking on AMaDiA.bat will update and then run AMaDiA<br/>\n \n(Disclaimer: Use theses .bat files on your own risk. I doubt they can cause any harm but i am no expert on batch files and can not foresee all eventualities)<br/>\n<br/>",
+    "ContentSha": "TE+MWhbK7Ve9Zed1138onEwoRnnfCuPilvrfc+Up2MU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# AMaDiA\nAplicación de Visualización Matemática de Astus<br/><br/>\nCaracterísticas actuales:<br/>\n * Usa (Shift+)AltGr+Tecla para escribir símbolos matemáticos (Consulta AMaDiA_ReplacementTables)<br/>\n * Pestaña 1 : Calculadora Científica<br/>\n   * Calcula con +,-,±,×,÷,√,^,°, Integral f(x) dx, d(f(x))/dx, y'(x), números complejos, sin(), cos(), tan(), exp(), log(), π, E y más<br/>\n   * Resuelve una ecuación con variables desconocidas<br/>\n   * Resuelve ecuaciones diferenciales (incluyendo soluciones particulares)<br/>\n   * Prueba la igualdad de dos términos<br/>\n   * Usa símbolos matemáticos Unicode para teclear más rápido!<br/>\n   * Activa unidades en las opciones para hacer cosas como convert_to(7foot+3inch,m)<br/>\n   * Para un uso más detallado consulta Ayuda/Ejemplos y copia/pega los ejemplos en los campos de entrada de la pestaña correspondiente<br/>\n * Pestaña 2 : Convierte la entrada a LaTeX y la muestra<br/>\n * Pestaña 3 : Grafica gráficos 2D (los gráficos 3D y complejos están en desarrollo)<br/>\n * Pestaña 4 : Ecuaciones con matrices y vectores así como sistemas de ecuaciones lineales<br/>\n * Ventana de Control del Sistema : Todo para el control del sistema (en desarrollo)<br/>\n * Programa de chat LAN (requiere revisión)<br/>\n   * Diseñado para compartir ecuaciones con otros usuarios en la misma red para facilitar el trabajo cooperativo<br/>\n   * Aplicaciones separadas de Servidor y Cliente<br/>\n   * Permite enviar texto y archivos de texto<br/>\n   * Comparte archivos de texto con todos los usuarios de la red mediante arrastrar y soltar en el campo de entrada<br/>\n   * El servidor tiene algunas herramientas de moderación (Silenciar/Expulsar/Prohibir)<br/>\n   * ADVERTENCIA: ¡Los mensajes actualmente no están cifrados! ¡No envíes datos sensibles!!!<br/>\n * Marcos de ventana personalizados<br/>\n<br/>\nComentarios son bienvenidos<br/>\nSugerencias son bienvenidas<br/>\nSolicitudes son bienvenidas<br/>\n<br/><br/>\n\n# Cómo instalar\nEn Windows:<br/>\n * Instala https://gitforwindows.org/<br/>\n * Instala https://www.anaconda.com/distribution/<br/>\n * Crea dos archivos \"AMaDiA.bat\" y \"AMaDiA_INSTALL.bat\" y copia el texto de los dos archivos en WINDOWS-INSTALL en ellos haciendo clic derecho y seleccionando la opción modificar<br/>\n * Haz doble clic en \"AMaDiA_INSTALL.bat\" para instalar AMaDiA (La ubicación de instalación es la carpeta del usuario. Esto se puede cambiar editando ambos archivos.)<br/>\n * A partir de ahora hacer doble clic en AMaDiA.bat actualizará y luego ejecutará AMaDiA<br/>\n \n(Aviso legal: Usa estos archivos .bat bajo tu propio riesgo. Dudo que puedan causar daño, pero no soy un experto en archivos batch y no puedo prever todas las eventualidades)<br/>\n<br/>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RcnfLHBQKhpAUxWPT+ZFxLp4MSJs/fh0HlbClcdCxJM=",
+        "originContent": "# AMaDiA",
+        "translatedContent": "# AMaDiA"
+      },
+      {
+        "row": 2,
+        "rowsha": "0bv8tvMj7sZZktCL+asY50utsHj/OATkF5aLGubpLYA=",
+        "originContent": "Astus' Mathematical Display Application<br/><br/>",
+        "translatedContent": "Aplicación de Visualización Matemática de Astus<br/><br/>"
+      },
+      {
+        "row": 3,
+        "rowsha": "WB4T77laze9hX8Ez9c8yPVDXcbe43xY0IWo4LOjoZZk=",
+        "originContent": "Current features:<br/>",
+        "translatedContent": "Características actuales:<br/>"
+      },
+      {
+        "row": 4,
+        "rowsha": "82FisxssHH9QVP0fzyUV6YDeXkaI5eR2fnpduN1qJek=",
+        "originContent": " * Use (Shift+)AltGr+Key to type Mathematical Symbols (Refer to AMaDiA_ReplacementTables)<br/>",
+        "translatedContent": " * Usa (Shift+)AltGr+Tecla para escribir símbolos matemáticos (Consulta AMaDiA_ReplacementTables)<br/>"
+      },
+      {
+        "row": 5,
+        "rowsha": "ADaHJu0nsk9yb+WT4ybdg+Y7Go2K2dtcCjITK2ctFso=",
+        "originContent": " * Tab 1 : Scientific Calculator<br/>",
+        "translatedContent": " * Pestaña 1 : Calculadora Científica<br/>"
+      },
+      {
+        "row": 6,
+        "rowsha": "gprWJetY6UrTi1PorRPZZ+mb782ULcicpIf8QCg5lgE=",
+        "originContent": "   * Calculate with +,-,±,×,÷,√,^,°, Integral f(x) dx, d(f(x))/dx, y'(x), complex numbers, sin(), cos(), tan(), exp(), log() , π , E and more<br/>",
+        "translatedContent": "   * Calcula con +,-,±,×,÷,√,^,°, Integral f(x) dx, d(f(x))/dx, y'(x), números complejos, sin(), cos(), tan(), exp(), log(), π, E y más<br/>"
+      },
+      {
+        "row": 7,
+        "rowsha": "E6T7cdWavclw5XfdC/gZNm4Gtqud1twFhtopAbCCgbM=",
+        "originContent": "   * Solve an equation with unknown variables<br/>",
+        "translatedContent": "   * Resuelve una ecuación con variables desconocidas<br/>"
+      },
+      {
+        "row": 8,
+        "rowsha": "JeLCS8BxqpvaJNq2AAFlb6x0uvF1A10WnBBVQgTIGxk=",
+        "originContent": "   * Solve Differential Equations (including particular solutions)<br/>",
+        "translatedContent": "   * Resuelve ecuaciones diferenciales (incluyendo soluciones particulares)<br/>"
+      },
+      {
+        "row": 9,
+        "rowsha": "7FV16DhQ7rgYtf8Vy38uWzdwLPlT4flaoCukutaHOwg=",
+        "originContent": "   * Test for equality of two terms<br/>",
+        "translatedContent": "   * Prueba la igualdad de dos términos<br/>"
+      },
+      {
+        "row": 10,
+        "rowsha": "Hc7WfeUdy/pQf/YNicax7uBxZGD/1rQWWTH67aQRaPU=",
+        "originContent": "   * Use mathematic Unicode symbols to type faster!<br/>",
+        "translatedContent": "   * Usa símbolos matemáticos Unicode para teclear más rápido!<br/>"
+      },
+      {
+        "row": 11,
+        "rowsha": "W8B3WL10PEuJzGrUWVj0iRrH9tViCnu3V60vBObFwXQ=",
+        "originContent": "   * Turn on units in the options to do things like convert_to(7foot+3inch,m)<br/>",
+        "translatedContent": "   * Activa unidades en las opciones para hacer cosas como convert_to(7foot+3inch,m)<br/>"
+      },
+      {
+        "row": 12,
+        "rowsha": "KFcQqn+EwZryK2eA9iELGyd7GbnidMuZaQb+s9qgMps=",
+        "originContent": "   * For more detailed usage check out Help/Examples and copy/paste the examples to the according tab input fields<br/>",
+        "translatedContent": "   * Para un uso más detallado consulta Ayuda/Ejemplos y copia/pega los ejemplos en los campos de entrada de la pestaña correspondiente<br/>"
+      },
+      {
+        "row": 13,
+        "rowsha": "myq82/7nYVZ1BhQKfhuXxQMTABL+FNh7SQBeVvR2U8I=",
+        "originContent": " * Tab 2 : Convert input to LaTeX and display it<br/>",
+        "translatedContent": " * Pestaña 2 : Convierte la entrada a LaTeX y la muestra<br/>"
+      },
+      {
+        "row": 14,
+        "rowsha": "okQ4CBXBSZDnpsesmLBUuJOfPSS5sZMdHa8fsv3q3eo=",
+        "originContent": " * Tab 3 : Plot 2D Graphs (3D and complex Graphs are WIP)<br/>",
+        "translatedContent": " * Pestaña 3 : Grafica gráficos 2D (los gráficos 3D y complejos están en desarrollo)<br/>"
+      },
+      {
+        "row": 15,
+        "rowsha": "bjROTHJ4rqAb6PJOeuNygC0S31plumaC2qSFTlI4zeI=",
+        "originContent": " * Tab 4 : Equations with matrices and vectors as well as systems of linear equations<br/>",
+        "translatedContent": " * Pestaña 4 : Ecuaciones con matrices y vectores así como sistemas de ecuaciones lineales<br/>"
+      },
+      {
+        "row": 16,
+        "rowsha": "breKsuBNgfartt3h3ad6zxHQ38TLue33+PCsL22RTUY=",
+        "originContent": " * System Control Window : Everything for System Control (WIP)<br/>",
+        "translatedContent": " * Ventana de Control del Sistema : Todo para el control del sistema (en desarrollo)<br/>"
+      },
+      {
+        "row": 17,
+        "rowsha": "8+awOkZ8HhT1ho/LgFaFeDl+CZRCfHcOisSEbiJYiqY=",
+        "originContent": " * LAN chat program (needs overhaul)<br/>",
+        "translatedContent": " * Programa de chat LAN (requiere revisión)<br/>"
+      },
+      {
+        "row": 18,
+        "rowsha": "neleO1WnMCP3SLopIg/4DbwXikSAL1fgEAMRWnA4uGw=",
+        "originContent": "   * Intended for sharing equations with other users in the same network to make cooperative working easier<br/>",
+        "translatedContent": "   * Diseñado para compartir ecuaciones con otros usuarios en la misma red para facilitar el trabajo cooperativo<br/>"
+      },
+      {
+        "row": 19,
+        "rowsha": "eORI05Pt1XqlMnziBjW9DbrBSbXOtqHA6WFql773diU=",
+        "originContent": "   * Separate Server and Client applications<br/>",
+        "translatedContent": "   * Aplicaciones separadas de Servidor y Cliente<br/>"
+      },
+      {
+        "row": 20,
+        "rowsha": "8Salww8Ojmqj5tSV7j641omHnAbyvvog2Dzf448gDsg=",
+        "originContent": "   * Allows sending of text and text files<br/>",
+        "translatedContent": "   * Permite enviar texto y archivos de texto<br/>"
+      },
+      {
+        "row": 21,
+        "rowsha": "9wLXPXw6+3hnJrdSqEMbyxcFm3uyQoMANoq9IbfQGWQ=",
+        "originContent": "   * Share text files with all other users in the network via drag'n'drop into the input field<br/>",
+        "translatedContent": "   * Comparte archivos de texto con todos los usuarios de la red mediante arrastrar y soltar en el campo de entrada<br/>"
+      },
+      {
+        "row": 22,
+        "rowsha": "5mWyuGL1WbQ2Xc1hZWjdPx92MSKmCBGw2e4PTkkFEZE=",
+        "originContent": "   * Server has some moderation tools (Muting/Kicking/Banning<br/>",
+        "translatedContent": "   * El servidor tiene algunas herramientas de moderación (Silenciar/Expulsar/Prohibir)<br/>"
+      },
+      {
+        "row": 23,
+        "rowsha": "QT6GSFA2Oh7T8IsICk3Z3jv5vVJ0NYFBg/ZfLhr2yOc=",
+        "originContent": "   * WARNING: Messages are currently not encrypted! Do not send sensitive data!!!<br/>",
+        "translatedContent": "   * ADVERTENCIA: ¡Los mensajes actualmente no están cifrados! ¡No envíes datos sensibles!!!<br/>"
+      },
+      {
+        "row": 24,
+        "rowsha": "ue7+7gaLXaN9QILuJ4wm8vGNRSZOaiZTIjmRMv27IwM=",
+        "originContent": " * Custom Window Frames<br/>",
+        "translatedContent": " * Marcos de ventana personalizados<br/>"
+      },
+      {
+        "row": 25,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 26,
+        "rowsha": "l/LB/Y2fPAzt7z3JnG9a+ONvP7Ck3OEWAmTboQPlf2Y=",
+        "originContent": "Feedback is welcome<br/>",
+        "translatedContent": "Comentarios son bienvenidos<br/>"
+      },
+      {
+        "row": 27,
+        "rowsha": "EMy4L62KdiiFuNiHRDC1Hrs9LgbTUaFyUOYmbYKpu+s=",
+        "originContent": "Suggestions are welcome<br/>",
+        "translatedContent": "Sugerencias son bienvenidas<br/>"
+      },
+      {
+        "row": 28,
+        "rowsha": "2lwzZRBoTV2iiZEFxipOqBpNYTAFy0E2ntGShW/EmNk=",
+        "originContent": "Requests are welcome<br/>",
+        "translatedContent": "Solicitudes son bienvenidas<br/>"
+      },
+      {
+        "row": 29,
+        "rowsha": "OciKUyMuNcbJt4DhtEgxyHre2Vl0BRhFko1G22PAezw=",
+        "originContent": "<br/><br/>",
+        "translatedContent": "<br/><br/>"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "4rMyl2+YeNcZ6LtiyiZ0b7GE368mR8eJPXfc8mV30oA=",
+        "originContent": "# How to Install",
+        "translatedContent": "# Cómo instalar"
+      },
+      {
+        "row": 32,
+        "rowsha": "Rl0OeMAhztS/Ba2lHiiuKH4ramyz+AKgutO7oUUzt0c=",
+        "originContent": "On Windows:<br/>",
+        "translatedContent": "En Windows:<br/>"
+      },
+      {
+        "row": 33,
+        "rowsha": "WJaLNT6lMbpJGK5UDOA0EmSotznaj7cf2OgqEOOi6eY=",
+        "originContent": " * Install https://gitforwindows.org/<br/>",
+        "translatedContent": " * Instala https://gitforwindows.org/<br/>"
+      },
+      {
+        "row": 34,
+        "rowsha": "EtTDaIbbP9FTAzyAuUUDM+0JMTiO8cE0Zy6UISsJ1jc=",
+        "originContent": " * Install https://www.anaconda.com/distribution/<br/>",
+        "translatedContent": " * Instala https://www.anaconda.com/distribution/<br/>"
+      },
+      {
+        "row": 35,
+        "rowsha": "dFuBe4giZFn6sMbvm6glnF/Iy9LskDxipPmoaFRkacY=",
+        "originContent": " * Create two files \"AMaDiA.bat\" and \"AMaDiA_INSTALL.bat\" and copy the text from the two file in WINDOWS-INSTALL into them by rightcklicking on them and selecting the modify option<br/>",
+        "translatedContent": " * Crea dos archivos \"AMaDiA.bat\" y \"AMaDiA_INSTALL.bat\" y copia el texto de los dos archivos en WINDOWS-INSTALL en ellos haciendo clic derecho y seleccionando la opción modificar<br/>"
+      },
+      {
+        "row": 36,
+        "rowsha": "yHLqcKoaaash6U7F1O6/bH+55elDOYA74czSBnrB2YY=",
+        "originContent": " * doubleclick on \"AMaDiA_INSTALL.bat\" to install AMaDiA (The installation location is the user folder. This can be changed by editing both files.)<br/>",
+        "translatedContent": " * Haz doble clic en \"AMaDiA_INSTALL.bat\" para instalar AMaDiA (La ubicación de instalación es la carpeta del usuario. Esto se puede cambiar editando ambos archivos.)<br/>"
+      },
+      {
+        "row": 37,
+        "rowsha": "WISfBGyqvco3bVaygPMNwq7fQUBL3mGuajpc9PVbtcI=",
+        "originContent": " * From now on doubleclicking on AMaDiA.bat will update and then run AMaDiA<br/>",
+        "translatedContent": " * A partir de ahora hacer doble clic en AMaDiA.bat actualizará y luego ejecutará AMaDiA<br/>"
+      },
+      {
+        "row": 38,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": " "
+      },
+      {
+        "row": 39,
+        "rowsha": "PALdBi9dLNWodNrGOXDoN/ut3KIi4PqbzgM3LTTM1CA=",
+        "originContent": "(Disclaimer: Use theses .bat files on your own risk. I doubt they can cause any harm but i am no expert on batch files and can not foresee all eventualities)<br/>",
+        "translatedContent": "(Aviso legal: Usa estos archivos .bat bajo tu propio riesgo. Dudo que puedan causar daño, pero no soy un experto en archivos batch y no puedo prever todas las eventualidades)<br/>"
+      },
+      {
+        "row": 40,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "<br/>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n   On Linux [WIP]:<br/>\n * sudo apt-install git<br/>\n * Install https://www.anaconda.com/distribution/ or sudo apt-install ...<br/>\n * [Console commands for installation and Alias for Update/Start coming soon(ish?)]<br/>\n<br/>\n\n   On OSX [???]:<br/>\n * I don't have access to OSX and am not even sure how good AMaDiA runs on it (it should work flawlessy?)... Sorry but I can not help you...<br/>\n * If anyone has a good description how to easily install/update+run a python script on OSX feel free to inform me so I can add it here<br/>\n * Here https://github.com/AstusRush/AMaDiA/issues/2 is a description by someone who installed it on OSX\n\n<br/><br/>\n# Screenshot\nScreenshot Version 0.15.7.1<br/>\n<img src=\"/AMaDiA v0.15.7.1 Demo.png\" alt=\"Demo Picture\"/>\n<br/><br/>\n# \"Short\" Term Roadmap\nPlanned features for near future (order reflects priority) (note that the word \"short\" is very relative here):<br/>\n- Plot 3D and complex functions<br/>\n- Improve System Control Window<br/>\n- (Continuous:) Better parser to allow a more flexible input<br/>\n<br/><br/>\n# Long Term Roadmap\nPlanned features for future (order reflects priority):<br/>\n- Make Tab 4 even easier to use<br/>\n- Simple Texteditor<br/>\n- better unit handling (like automatic simplification)<br/>\n- Automatic recognition for PDEs so that the user no longer has to put them in \"pdsolve(...)\"<br/>\n- Save/load the history<br/>\n- PDF-Viewer<br/>\n",
+    "ContentSha": "RMIhl2yTp5WbYFBU5/auCl9yIepe5IziBdELy5jK6gw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   En Linux [WIP]:<br/>\n * sudo apt-install git<br/>\n * Instalar https://www.anaconda.com/distribution/ o sudo apt-install ...<br/>\n * [Comandos de consola para instalación y Alias para Actualización/Inicio próximamente (¿más o menos?)]<br/>\n<br/>\n\n   En OSX [???]:<br/>\n * No tengo acceso a OSX y ni siquiera estoy seguro de qué tan bien funciona AMaDiA en él (¿debería funcionar perfectamente?)... Lo siento, pero no puedo ayudarte...<br/>\n * Si alguien tiene una buena descripción de cómo instalar/actualizar+ejecutar fácilmente un script de python en OSX, siéntase libre de informarme para poder agregarlo aquí<br/>\n * Aquí https://github.com/AstusRush/AMaDiA/issues/2 hay una descripción de alguien que lo instaló en OSX\n\n<br/><br/>\n# Captura de Pantalla\nCaptura de pantalla Versión 0.15.7.1<br/>\n<img src=\"/AMaDiA v0.15.7.1 Demo.png\" alt=\"Imagen de demostración\"/>\n<br/><br/>\n# Hoja de Ruta a \"Corto\" Plazo\nFunciones planeadas para un futuro cercano (el orden refleja prioridad) (nota que la palabra \"corto\" es muy relativa aquí):<br/>\n- Graficar funciones 3D y complejas<br/>\n- Mejorar la ventana de control del sistema<br/>\n- (Continuo:) Mejor parser para permitir una entrada más flexible<br/>\n<br/><br/>\n# Hoja de Ruta a Largo Plazo\nFunciones planeadas para el futuro (el orden refleja prioridad):<br/>\n- Hacer que la Pestaña 4 sea aún más fácil de usar<br/>\n- Editor de texto simple<br/>\n- Mejor manejo de unidades (como simplificación automática)<br/>\n- Reconocimiento automático de EDPs para que el usuario ya no tenga que ponerlas en \"pdsolve(...)\"<br/>\n- Guardar/cargar el historial<br/>\n- Visor de PDF<br/>\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "   En Linux [WIP]:<br/>"
+      },
+      {
+        "row": 2,
+        "rowsha": "YCoUAYqcy0w82LQFODzAdionGuIyKBmI9vKqKlqV/j0=",
+        "originContent": "   On Linux [WIP]:<br/>",
+        "translatedContent": " * sudo apt-install git<br/>"
+      },
+      {
+        "row": 3,
+        "rowsha": "x+z9ZXw3khQutdqhwo7PGD7Zr+tUjNVjf0f+oEMVJRA=",
+        "originContent": " * sudo apt-install git<br/>",
+        "translatedContent": " * Instalar https://www.anaconda.com/distribution/ o sudo apt-install ...<br/>"
+      },
+      {
+        "row": 4,
+        "rowsha": "zmg9kaOp6QMXMeapImhKe/8cHMp7hxy1IUpqm+aiG1g=",
+        "originContent": " * Install https://www.anaconda.com/distribution/ or sudo apt-install ...<br/>",
+        "translatedContent": " * [Comandos de consola para instalación y Alias para Actualización/Inicio próximamente (¿más o menos?)]<br/>"
+      },
+      {
+        "row": 5,
+        "rowsha": "lVF+9u3CzUDbE37cy+wEK9+SR2x02erWhvCpS0Bryjk=",
+        "originContent": " * [Console commands for installation and Alias for Update/Start coming soon(ish?)]<br/>",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 6,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "   En OSX [???]:<br/>"
+      },
+      {
+        "row": 8,
+        "rowsha": "pQjk1FQUrKcnPgR8Esi/hp+SDZOXJSbeqLR0A+PYGlM=",
+        "originContent": "   On OSX [???]:<br/>",
+        "translatedContent": " * No tengo acceso a OSX y ni siquiera estoy seguro de qué tan bien funciona AMaDiA en él (¿debería funcionar perfectamente?)... Lo siento, pero no puedo ayudarte...<br/>"
+      },
+      {
+        "row": 9,
+        "rowsha": "sWNjoS0073dQ3mCTkTbbIgIJRcCyHOxWSnPqeXdB20o=",
+        "originContent": " * I don't have access to OSX and am not even sure how good AMaDiA runs on it (it should work flawlessy?)... Sorry but I can not help you...<br/>",
+        "translatedContent": " * Si alguien tiene una buena descripción de cómo instalar/actualizar+ejecutar fácilmente un script de python en OSX, siéntase libre de informarme para poder agregarlo aquí<br/>"
+      },
+      {
+        "row": 10,
+        "rowsha": "fago7wqDQS8AKMwc5gugeN5L1JrX57BVUA/HXs87oaI=",
+        "originContent": " * If anyone has a good description how to easily install/update+run a python script on OSX feel free to inform me so I can add it here<br/>",
+        "translatedContent": " * Aquí https://github.com/AstusRush/AMaDiA/issues/2 hay una descripción de alguien que lo instaló en OSX"
+      },
+      {
+        "row": 11,
+        "rowsha": "Jkk6PfP5KKGslmk6yN1RC3vFhlFTQ0F0zee6hjEKR5A=",
+        "originContent": " * Here https://github.com/AstusRush/AMaDiA/issues/2 is a description by someone who installed it on OSX",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<br/><br/>"
+      },
+      {
+        "row": 13,
+        "rowsha": "OciKUyMuNcbJt4DhtEgxyHre2Vl0BRhFko1G22PAezw=",
+        "originContent": "<br/><br/>",
+        "translatedContent": "# Captura de Pantalla"
+      },
+      {
+        "row": 14,
+        "rowsha": "zeopzoZSrBWIph9ojr3/cEpCPdPGF4+Jk9h1mKbzZc4=",
+        "originContent": "# Screenshot",
+        "translatedContent": "Captura de pantalla Versión 0.15.7.1<br/>"
+      },
+      {
+        "row": 15,
+        "rowsha": "sgfeGhXQlM63HmrXZrY45dXx47vwVjI+iJU0VmhE2cw=",
+        "originContent": "Screenshot Version 0.15.7.1<br/>",
+        "translatedContent": "<img src=\"/AMaDiA v0.15.7.1 Demo.png\" alt=\"Imagen de demostración\"/>"
+      },
+      {
+        "row": 16,
+        "rowsha": "hcZgDnZXbQsqgJAPR5I24Khwxx3FgtaqIbC4f8TjH8E=",
+        "originContent": "<img src=\"/AMaDiA v0.15.7.1 Demo.png\" alt=\"Demo Picture\"/>",
+        "translatedContent": "<br/><br/>"
+      },
+      {
+        "row": 17,
+        "rowsha": "OciKUyMuNcbJt4DhtEgxyHre2Vl0BRhFko1G22PAezw=",
+        "originContent": "<br/><br/>",
+        "translatedContent": "# Hoja de Ruta a \"Corto\" Plazo"
+      },
+      {
+        "row": 18,
+        "rowsha": "dkOcp/+JH/EugTmyWGJS6GLrrBXK+zjmq/1NpmgVjxE=",
+        "originContent": "# \"Short\" Term Roadmap",
+        "translatedContent": "Funciones planeadas para un futuro cercano (el orden refleja prioridad) (nota que la palabra \"corto\" es muy relativa aquí):<br/>"
+      },
+      {
+        "row": 19,
+        "rowsha": "4FDr5aaF+BNZXATZo8lOvsmnRCL9LHXlEqhxFyMTRgI=",
+        "originContent": "Planned features for near future (order reflects priority) (note that the word \"short\" is very relative here):<br/>",
+        "translatedContent": "- Graficar funciones 3D y complejas<br/>"
+      },
+      {
+        "row": 20,
+        "rowsha": "m2x2NRdBB3LI2kpNOaFfoqpvMtVPAioCWIhiZ1vzN18=",
+        "originContent": "- Plot 3D and complex functions<br/>",
+        "translatedContent": "- Mejorar la ventana de control del sistema<br/>"
+      },
+      {
+        "row": 21,
+        "rowsha": "8RoVl5NreIuoTmfteVE77PhwUoewW5VUzhloZnMLixI=",
+        "originContent": "- Improve System Control Window<br/>",
+        "translatedContent": "- (Continuo:) Mejor parser para permitir una entrada más flexible<br/>"
+      },
+      {
+        "row": 22,
+        "rowsha": "DUNMcXO50EfnlTi37UVndrxvWlds2mqtGOmRbylp2W0=",
+        "originContent": "- (Continuous:) Better parser to allow a more flexible input<br/>",
+        "translatedContent": "<br/><br/>"
+      },
+      {
+        "row": 23,
+        "rowsha": "OciKUyMuNcbJt4DhtEgxyHre2Vl0BRhFko1G22PAezw=",
+        "originContent": "<br/><br/>",
+        "translatedContent": "# Hoja de Ruta a Largo Plazo"
+      },
+      {
+        "row": 24,
+        "rowsha": "bRtW5CO08mWNwlBqaCDhfzsbujxVe+zJccKECSoFfX0=",
+        "originContent": "# Long Term Roadmap",
+        "translatedContent": "Funciones planeadas para el futuro (el orden refleja prioridad):<br/>"
+      },
+      {
+        "row": 25,
+        "rowsha": "/OiCPwqSoOmKPDDSBzd6aptbUSkUOGcfLR5E78WspKk=",
+        "originContent": "Planned features for future (order reflects priority):<br/>",
+        "translatedContent": "- Hacer que la Pestaña 4 sea aún más fácil de usar<br/>"
+      },
+      {
+        "row": 26,
+        "rowsha": "P7sFUDX+mVhRpqGjqyWOSWXqgcnhTNESgLUpHokCqVk=",
+        "originContent": "- Make Tab 4 even easier to use<br/>",
+        "translatedContent": "- Editor de texto simple<br/>"
+      },
+      {
+        "row": 27,
+        "rowsha": "yibpstrU80YrqT64li/bYb3lBkRddwexVjUTlESZXKE=",
+        "originContent": "- Simple Texteditor<br/>",
+        "translatedContent": "- Mejor manejo de unidades (como simplificación automática)<br/>"
+      },
+      {
+        "row": 28,
+        "rowsha": "5gvQ7b5YUP7iFXrBTMdkUYGdaTaCkUiP1VLVmzOB0dA=",
+        "originContent": "- better unit handling (like automatic simplification)<br/>",
+        "translatedContent": "- Reconocimiento automático de EDPs para que el usuario ya no tenga que ponerlas en \"pdsolve(...)\"<br/>"
+      },
+      {
+        "row": 29,
+        "rowsha": "B41ayP1xy0RWlTIlaHsUK0ulmv+XfmyPYpbTPo2zxQQ=",
+        "originContent": "- Automatic recognition for PDEs so that the user no longer has to put them in \"pdsolve(...)\"<br/>",
+        "translatedContent": "- Guardar/cargar el historial<br/>"
+      },
+      {
+        "row": 30,
+        "rowsha": "UCM7MG5wbrjmpEKiigdR7hX3vAtLq3srwISx1WswfWA=",
+        "originContent": "- Save/load the history<br/>",
+        "translatedContent": "- Visor de PDF<br/>"
+      },
+      {
+        "row": 31,
+        "rowsha": "pKw09oaMlKkshhDHPT9Nrvnm3DWyk356HINfg3fekYI=",
+        "originContent": "- PDF-Viewer<br/>",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

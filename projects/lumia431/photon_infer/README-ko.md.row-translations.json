@@ -1,0 +1,1082 @@
+[
+  {
+    "row": 1,
+    "rowsha": "CcWDPYkIGrKzs9+0aB/uaxs3PilrmB3q1gXgf3hntE4=",
+    "originContent": "# PhotonInfer",
+    "translatedContent": "# PhotonInfer"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "0Bx/vZiSmKhMR1l2oXeCW8w7g0m6OD+MirKwFjL9z/c=",
+    "originContent": "**A High-Performance LLM Inference Engine with vLLM-Style Continuous Batching**",
+    "translatedContent": "**vLLM 스타일의 연속 배칭을 지원하는 고성능 LLM 추론 엔진**"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "NMmYGBospoC8997K+xsP7fdZrnCsTPg/bzC3axFOu0g=",
+    "originContent": "[English](https://raw.githubusercontent.com/lumia431/photon_infer/master/README.md) | [中文](https://raw.githubusercontent.com/lumia431/photon_infer/master/README_ZH.md) | [Live Demo](https://photoninfer.xyz/)",
+    "translatedContent": "[English](https://raw.githubusercontent.com/lumia431/photon_infer/master/README.md) | [中文](https://raw.githubusercontent.com/lumia431/photon_infer/master/README_ZH.md) | [Live Demo](https://photoninfer.xyz/)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "sy1M2N/jTNcY/L5HVzqVY5gVnf2Wp6FRxX/Xd8bz2n0=",
+    "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)",
+    "translatedContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)"
+  },
+  {
+    "row": 10,
+    "rowsha": "RNnNXa7yFji6Bz5fhsF83w54ZvarVB01+tacR4ZMEmo=",
+    "originContent": "[![CUDA](https://img.shields.io/badge/CUDA-12.0+-green.svg)](https://developer.nvidia.com/cuda-toolkit)",
+    "translatedContent": "[![CUDA](https://img.shields.io/badge/CUDA-12.0+-green.svg)](https://developer.nvidia.com/cuda-toolkit)"
+  },
+  {
+    "row": 11,
+    "rowsha": "BQvvfG77RtFZOJRPOsMv2x0U3z64xgeMhab8FDoyhB4=",
+    "originContent": "[![C++20](https://img.shields.io/badge/C++-20-orange.svg)](https://en.cppreference.com/w/cpp/20)",
+    "translatedContent": "[![C++20](https://img.shields.io/badge/C++-20-orange.svg)](https://en.cppreference.com/w/cpp/20)"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "ilvq5plfK4aBnPlBGN20JgI/sFsz2MVGVuJf1La+z1w=",
+    "originContent": "## 🚀 Performance Highlights",
+    "translatedContent": "## 🚀 성능 하이라이트"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "8tZTuUOoCCYMWznbKbJbkR18j8S6palBl0jBIiI8LwU=",
+    "originContent": "PhotonInfer delivers **production-grade inference performance** for LLMs with advanced batching capabilities. **Supports Llama-3.2 and Qwen3 models**.",
+    "translatedContent": "PhotonInfer는 고급 배칭 기능을 갖춘 **생산 수준의 LLM 추론 성능**을 제공합니다. **Llama-3.2 및 Qwen3 모델을 지원**합니다."
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "IAjT459AvdJCrMBhj7WTl9mfWZQDwhvhLH3VqKIWbuI=",
+    "originContent": "### Single Request Inference",
+    "translatedContent": "### 단일 요청 추론"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "/ppZ4zy4knqWEq3HdQdNOaXakpz2Kp4JyLa75GX1Q5I=",
+    "originContent": "| Model | PhotonInfer | llama.cpp | Speedup |",
+    "translatedContent": "| 모델 | PhotonInfer | llama.cpp | 속도 향상 |"
+  },
+  {
+    "row": 24,
+    "rowsha": "VY/MJd4BF+VdAv2v44tWBVw7AZLxdYsmfdqYTUXqnkU=",
+    "originContent": "|-------|-------------|-----------|---------|",
+    "translatedContent": "|-------|-------------|-----------|---------|"
+  },
+  {
+    "row": 25,
+    "rowsha": "1NrYmeNWB4NK9f8Et4PL53/3FD3deZXJ8dANUNXGr2U=",
+    "originContent": "| Llama 3.2 1B | 185 tok/s | 252 tok/s | 0.73× (llama.cpp faster) |",
+    "translatedContent": "| Llama 3.2 1B | 185 토큰/초 | 252 토큰/초 | 0.73× (llama.cpp가 더 빠름) |"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "B+YnCBDUpqje3iT5AA1Ec53i3gum7adCOhlkFtI9iJs=",
+    "originContent": "**TTFT (Time To First Token)**: 387ms @ 100-token prompt (INT8 quantization)",
+    "translatedContent": "**TTFT (첫 토큰까지 시간)**: 387ms @ 100토큰 프롬프트 (INT8 양자화)"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "sRYAzmSuBoBII+u3u1yb3fqiKSyetjRC/2XItNqV1Es=",
+    "originContent": "### Batched Inference Throughput",
+    "translatedContent": "### 배치 추론 처리량"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "iX6aBcg5zBjkhghK9Fd4ZXbrIxo1NTjXl165L4wng/c=",
+    "originContent": "| Batch Size | PhotonInfer | llama.cpp | Speedup |",
+    "translatedContent": "| 배치 크기 | PhotonInfer | llama.cpp | 속도 향상 |"
+  },
+  {
+    "row": 32,
+    "rowsha": "rP/Fi4+YzQDbD4s1UA4wNU94MewwdgI/Y+MEHlwj34M=",
+    "originContent": "|------------|-------------|-----------|---------|",
+    "translatedContent": "|------------|-------------|-----------|---------|"
+  },
+  {
+    "row": 33,
+    "rowsha": "Psb4CPv+hF4ZIQGyNee4O6fv6KUqhfviVOM6F369Xg0=",
+    "originContent": "| 4          | 410 tok/s   | 252 tok/s | **1.63×** |",
+    "translatedContent": "| 4          | 410 토큰/초 | 252 토큰/초 | **1.63×** |"
+  },
+  {
+    "row": 34,
+    "rowsha": "xOQGQ5RBIFsKLHYskF+KMDSNRsOt22T0FgODrKpUz4E=",
+    "originContent": "| 8          | 720 tok/s   | 255 tok/s | **2.82×** |",
+    "translatedContent": "| 8          | 720 토큰/초 | 255 토큰/초 | **2.82×** |"
+  },
+  {
+    "row": 35,
+    "rowsha": "HmofrvnZZUjgb+vfRga/tecFBSUOwO2ifH3LppthKHI=",
+    "originContent": "| 16         | 787 tok/s   | 253 tok/s | **3.07×** |",
+    "translatedContent": "| 16         | 787 토큰/초 | 253 토큰/초 | **3.07×** |"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "g59bqTe4HRx5tTppzUmKrOKJld29xUTRHkc7w6GnZ6Y=",
+    "originContent": "**Tested on**: NVIDIA A100, Llama 3.2 1B, Q8/INT8 quantization",
+    "translatedContent": "**테스트 환경**: NVIDIA A100, Llama 3.2 1B, Q8/INT8 양자화"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "ZqRxbjfweoei1TdplkepzaponeK/fT5zgiMOYzmuvo0=",
+    "originContent": "## ✨ Key Features",
+    "translatedContent": "## ✨ 주요 기능"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "KbGzaxaUhBvUz3Yn0wJLTTC62XcSW571MD/9AkVjzqU=",
+    "originContent": "### 🎯 **vLLM-Style Continuous Batching**",
+    "translatedContent": "### 🎯 **vLLM 스타일 연속 배치 처리**"
+  },
+  {
+    "row": 42,
+    "rowsha": "hFXmMmG1UQU+NCBBWchs7VEDqAgIsFRiFibUOLGAnGs=",
+    "originContent": "- **Token-level dynamic scheduling**: Add new requests mid-generation without waiting for batch completion",
+    "translatedContent": "- **토큰 단위 동적 스케줄링**: 배치 완료를 기다리지 않고 생성 중간에 새 요청 추가"
+  },
+  {
+    "row": 43,
+    "rowsha": "8Sv098O9vQ+KoQ3L867VQSIn+U84L+g+LpoVX2ngILw=",
+    "originContent": "- **Two-phase scheduler**: Seamlessly continue running requests while admitting new ones",
+    "translatedContent": "- **2단계 스케줄러**: 새 요청 수락과 동시에 실행 중인 요청 원활하게 계속 처리"
+  },
+  {
+    "row": 44,
+    "rowsha": "wvtD/VqvfUGEwyXVI1212NKohDuEXv9EyER2nKLBddg=",
+    "originContent": "- **Request state tracking**: Precise `num_computed_tokens` management for efficient resume",
+    "translatedContent": "- **요청 상태 추적**: 효율적인 재개를 위한 정확한 `num_computed_tokens` 관리"
+  },
+  {
+    "row": 45,
+    "rowsha": "Dx/wz7v0YUOYWjOGLqyfdllwpwJA1mTwOa4VWcnp4O8=",
+    "originContent": "- **Perfect for production**: High-concurrency inference services with real-time responsiveness",
+    "translatedContent": "- **실서비스에 최적**: 실시간 반응성을 갖춘 고동시성 추론 서비스"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "C1xcT09lGzqXw8Dqdww7HKs7xyGKxfHLP9BXCUGMJRw=",
+    "originContent": "### ⚡ **GPU-Optimized Kernels**",
+    "translatedContent": "### ⚡ **GPU 최적화 커널**"
+  },
+  {
+    "row": 48,
+    "rowsha": "j3tLKqqciUG8k0UVP83kfxGkkb0uiiGX86cztmHwJM0=",
+    "originContent": "- **Batched Paged Attention**: Block-level KV cache management with efficient memory utilization",
+    "translatedContent": "- **배치 처리된 페이징 어텐션**: 효율적인 메모리 활용을 위한 블록 단위 KV 캐시 관리"
+  },
+  {
+    "row": 49,
+    "rowsha": "bEEXL1t2RridbNKtIdYF6QId4XeadQsTL/zK5HDiIL0=",
+    "originContent": "- **Vectorized Memory Access**: `float4` loads for 2-4× bandwidth efficiency",
+    "translatedContent": "- **벡터화된 메모리 접근**: 2-4배 대역폭 효율의 `float4` 로드"
+  },
+  {
+    "row": 50,
+    "rowsha": "iAKJSX43iNATdZ8SbXaDWgY+HUg33dXBBnYArHtayd4=",
+    "originContent": "- **Fused Operations**: Zero-copy GPU sampling, batched RoPE, and fused normalization",
+    "translatedContent": "- **퓨즈드 연산**: 제로 카피 GPU 샘플링, 배치 RoPE, 퓨즈드 정규화"
+  },
+  {
+    "row": 51,
+    "rowsha": "hWa7wr1n+jZ6k8dqbRK9M5dcC79zV8aEIZR2UrqPoK0=",
+    "originContent": "- **INT8 Quantization**: Group-wise quantization with cuBLASLt INT8 GEMM support",
+    "translatedContent": "- **INT8 양자화**: cuBLASLt INT8 GEMM 지원 그룹 단위 양자화"
+  },
+  {
+    "row": 52,
+    "rowsha": "Su9aqUZHsPsLD+pIEFbPlwZS0cAS/6897+JeXDF+x7E=",
+    "originContent": "- **Optimized Softmax**: CUB BlockReduce for numerically stable attention computation",
+    "translatedContent": "- **최적화된 소프트맥스**: 수치 안정적 어텐션 계산을 위한 CUB BlockReduce"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "hF04bvPs5Kk2kjpS3H6gtKxN7UWwg/yrCYm4p3VrX2U=",
+    "originContent": "### 🏗️ **Modern C++20 Architecture**",
+    "translatedContent": "### 🏗️ **모던 C++20 아키텍처**"
+  },
+  {
+    "row": 55,
+    "rowsha": "IiT4PqmbAk6f7km3W2ti9LugmbNtefNuUSqsUbtHjlU=",
+    "originContent": "- **Type-Safe Error Handling**: Rust-inspired `Result<T, E>` type for explicit error propagation",
+    "translatedContent": "- **타입 안전 오류 처리**: 명시적 오류 전파를 위한 Rust 영감 `Result<T, E>` 타입"
+  },
+  {
+    "row": 56,
+    "rowsha": "Z1jpnV1UiO11VP+gvH8dMgB9kRpxpALISpkUoULBp1Y=",
+    "originContent": "- **Zero-Copy Design**: Extensive use of `std::span` and move semantics",
+    "translatedContent": "- **제로 카피 설계**: `std::span`과 이동 시맨틱 광범위 사용"
+  },
+  {
+    "row": 57,
+    "rowsha": "tJwtZQi886JZJOFTrO/a+X1e2ptenMfVCcM5ipojo9A=",
+    "originContent": "- **Device Agnostic**: Unified interface for CPU and CUDA backends",
+    "translatedContent": "- **디바이스 무관**: CPU와 CUDA 백엔드 통합 인터페이스"
+  },
+  {
+    "row": 58,
+    "rowsha": "PDaSrwfgq4BcFtWbCzkp9sGriwZfeYZuoLrlta6srpE=",
+    "originContent": "- **Concepts & Ranges**: Compile-time constraints and expressive type safety",
+    "translatedContent": "- **컨셉트 & 레인지**: 컴파일 타임 제약과 표현력 높은 타입 안전성"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
+    "originContent": "## 🚀 Quick Start",
+    "translatedContent": "## 🚀 빠른 시작"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+    "originContent": "### Prerequisites",
+    "translatedContent": "### 전제 조건"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "pkRoJLpu71NosbmlklIjHzjAe2Zo0Qu9h7J54B2D/HE=",
+    "originContent": "- **Compiler**: GCC 12+ (C++20 support required)",
+    "translatedContent": "- **컴파일러**: GCC 12 이상 (C++20 지원 필수)"
+  },
+  {
+    "row": 65,
+    "rowsha": "4Uut9winxQZ7/sJIja0zb7vEgPunycKA6GCWhni03Sc=",
+    "originContent": "- **CMake**: 3.20+",
+    "translatedContent": "- **CMake**: 3.20 이상"
+  },
+  {
+    "row": 66,
+    "rowsha": "JsI7Q/dE+1SQ88sWg5NZ5bczoLbbouYlLxBxuf67Wyk=",
+    "originContent": "- **CUDA Toolkit**: 12.0+ (tested on 12.5)",
+    "translatedContent": "- **CUDA 툴킷**: 12.0 이상 (12.5에서 테스트됨)"
+  },
+  {
+    "row": 67,
+    "rowsha": "IheolcB9wpBMows0OBGbQkm+B6wNU3lEvKtI6updnbE=",
+    "originContent": "- **GPU**: NVIDIA GPU with Compute Capability 7.0+",
+    "translatedContent": "- **GPU**: Compute Capability 7.0 이상 NVIDIA GPU"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "liI7hbqPQOiByjHoW+ZuTC0QnCJbDRwRMSsSzZ9YQuU=",
+    "originContent": "### Download Model",
+    "translatedContent": "### 모델 다운로드"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "jLpTGPQO621LS8Ng6q0sYtkfyC948xcb1u/xooAUXZI=",
+    "originContent": "Download a pre-quantized model to get started quickly:",
+    "translatedContent": "빠른 시작을 위해 사전 양자화된 모델 다운로드:"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "2ih7vrTL1MacpvD7mY64M9UaVjtL+KanlaVYMo8D81w=",
+    "originContent": "https://huggingface.co/Lummy666/llama-3.2-1B-Instruct",
+    "translatedContent": "https://huggingface.co/Lummy666/llama-3.2-1B-Instruct"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "8aIhgwV63hNALJUIBIX1H5jmhzVo93+f7RD+oRKpxx0=",
+    "originContent": "### Build",
+    "translatedContent": "### 빌드"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "LIX4a00OGkZc7sM900bemOuLOZ7p7rGYgfyK5RzRRJU=",
+    "originContent": "#### Option 1: Build from Source",
+    "translatedContent": "#### 옵션 1: 소스에서 빌드하기"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 80,
+    "rowsha": "0JL4Xxg1VPlhrVcOcSi+4//QJU+QviIOhgFZSrVk5h4=",
+    "originContent": "# Clone repository",
+    "translatedContent": "# Clone repository"
+  },
+  {
+    "row": 81,
+    "rowsha": "5mb6MxWe0FL02T4cHOURfFYfr0/Kk+SfrdyF4Q6mxD0=",
+    "originContent": "cd photon_infer",
+    "translatedContent": "cd photon_infer"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "1UTdFU/vW71Pc4Qwds1xCgNxnluda19kYvHA/srynqY=",
+    "originContent": "# Configure with CUDA",
+    "translatedContent": "# Configure with CUDA"
+  },
+  {
+    "row": 84,
+    "rowsha": "/ij4nXADubLfmHtzOAT6hQUJOJtaNpy3lGYNFT5zcdc=",
+    "originContent": "mkdir build && cd build",
+    "translatedContent": "mkdir build && cd build"
+  },
+  {
+    "row": 85,
+    "rowsha": "aLsBUyjmIBUHHv2hX3wmomlgipH6INdHuxF6zF4k7FM=",
+    "originContent": "cmake -DCMAKE_BUILD_TYPE=Release -DPHOTON_BUILD_CUDA=ON ..",
+    "translatedContent": "cmake -DCMAKE_BUILD_TYPE=Release -DPHOTON_BUILD_CUDA=ON .."
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "z1e3MWn42V8fvSFPdoO9BcPC6uyIQ6xPDSo7272EP9E=",
+    "originContent": "# Build",
+    "translatedContent": "# Build"
+  },
+  {
+    "row": 88,
+    "rowsha": "Kw+QA05BqfTOiDH3Q2cVPCL44WHBkLrFIABxftV6fsA=",
+    "originContent": "cmake --build . -j$(nproc)",
+    "translatedContent": "cmake --build . -j$(nproc)"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "4K45GEs1u/qNnJadhIPW2kJe5JXGkPCC/JGZ8HeDPNQ=",
+    "originContent": "# Install (optional)",
+    "translatedContent": "# Install (optional)"
+  },
+  {
+    "row": 91,
+    "rowsha": "2hDQL7Cw0HB1M2PQJDIhljbAPRD++rpVNnVE801rzVk=",
+    "originContent": "sudo cmake --install .",
+    "translatedContent": "sudo cmake --install ."
+  },
+  {
+    "row": 92,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "설치 후에는 어디에서나 웹 서버를 직접 실행할 수 있습니다:"
+  },
+  {
+    "row": 94,
+    "rowsha": "+DG8vp0dG14kE29yVn3TdLXR9en0BYF2re8MQ6uoVpg=",
+    "originContent": "After installation, you can run the web server directly from anywhere:",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 97,
+    "rowsha": "ronkT/w3OpfEZBMgDMudKiJvQ1P4eTIn/xX8l7NZ9Mg=",
+    "originContent": "photon_web_server \\",
+    "translatedContent": "photon_web_server \\"
+  },
+  {
+    "row": 98,
+    "rowsha": "bA6EqmaJLjuqi7iTtYn2hirvCOoshaAnnnLJ62Ci37o=",
+    "originContent": "    --port 5728 \\",
+    "translatedContent": "    --port 5728 \\"
+  },
+  {
+    "row": 99,
+    "rowsha": "R6/mR8czfVby4XRwHh3VyF1N7KHCHDpPZGTqAjxAXH8=",
+    "originContent": "    --model /path/to/llama-3.2-1B-Instruct \\",
+    "translatedContent": "    --model /path/to/llama-3.2-1B-Instruct \\"
+  },
+  {
+    "row": 100,
+    "rowsha": "/30I8WVJ2gU8TdHOWgpkvQCGxoR3ZFnD/at1Cp6SJwM=",
+    "originContent": "    --tokenizer /path/to/llama-3.2-1B-Instruct/tokenizer.json",
+    "translatedContent": "    --tokenizer /path/to/llama-3.2-1B-Instruct/tokenizer.json"
+  },
+  {
+    "row": 101,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "설치는 다음 위치에 파일을 배치합니다:"
+  },
+  {
+    "row": 103,
+    "rowsha": "mmcug6K3Lm4eBevjGBm6rKRK5lEy0H/VlKnnxz7NqaY=",
+    "originContent": "The installation will place:",
+    "translatedContent": "- `photon_web_server` → `/usr/local/bin/`"
+  },
+  {
+    "row": 104,
+    "rowsha": "w7BBXkfKP89Hv0COU9HRfYZ2CK9a2t6VNMyolsikTV0=",
+    "originContent": "- `photon_web_server` → `/usr/local/bin/`",
+    "translatedContent": "- 정적 웹 파일 → `/photon_infer/web/static/`"
+  },
+  {
+    "row": 105,
+    "rowsha": "ny60hoh7CRZAjaGGNZNAKuyUqN98fwxIGB1CeaObJ4U=",
+    "originContent": "- Static web files → `/photon_infer/web/static/`",
+    "translatedContent": "- 핵심 라이브러리 → `/usr/local/lib/`"
+  },
+  {
+    "row": 106,
+    "rowsha": "2Un/67Ctgf9WsUQHkWkIvsGKoFgDLseGorytA7TDLLU=",
+    "originContent": "- Core library → `/usr/local/lib/`",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "제거하려면:"
+  },
+  {
+    "row": 108,
+    "rowsha": "MVzKyTLSvqL9fKQ4gVBnXuz1Wh+Cpabi4usNGPpQMHs=",
+    "originContent": "To uninstall:",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 110,
+    "rowsha": "2E91V0MAwN4o4nI9U0XkQPFhdwGamzSnsb7s2xe+3Uw=",
+    "originContent": "cd build",
+    "translatedContent": "cd build"
+  },
+  {
+    "row": 111,
+    "rowsha": "LTS5DVMcmC3Won/JFeNbvOAnPDeuA98oeBlwzsr4Wz4=",
+    "originContent": "sudo cmake --build . --target uninstall",
+    "translatedContent": "sudo cmake --build . --target uninstall"
+  },
+  {
+    "row": 112,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 옵션 2: 도커 사용 (권장)"
+  },
+  {
+    "row": 114,
+    "rowsha": "UkJjGNoDRFo7ejYSmyc8q4f77ggmVVwc7vbSGDNbR8I=",
+    "originContent": "#### Option 2: Use Docker (Recommended)",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 117,
+    "rowsha": "rpz3dFMqTNwbAg9R4lLwyMxlN+7yeMXvREt06Orj4zQ=",
+    "originContent": "# Pull the pre-built Docker image",
+    "translatedContent": "# Pull the pre-built Docker image"
+  },
+  {
+    "row": 118,
+    "rowsha": "2ku87H8ouso3HIt2lZEa+B9nbReyj8hNq0nO1B26NOI=",
+    "originContent": "docker pull lumia431/photon_infer:latest",
+    "translatedContent": "docker pull lumia431/photon_infer:latest"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "O2Ag1LDtSN3W5d1Btv11fwDVqdstcauQJUkHWCxpgn4=",
+    "originContent": "# Run the container with GPU support",
+    "translatedContent": "# Run the container with GPU support"
+  },
+  {
+    "row": 121,
+    "rowsha": "hK7UjS1cd1YBZB4LhXz9VZnfWxCGposmjIsh9+Ws5vk=",
+    "originContent": "docker run --rm --gpus all -p 5728:5728 -e PORT=5728 lumia431/photon_infer:latest",
+    "translatedContent": "docker run --rm --gpus all -p 5728:5728 -e PORT=5728 lumia431/photon_infer:latest"
+  },
+  {
+    "row": 122,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "웹 인터페이스는 `http://localhost:5728` 에서 이용 가능합니다."
+  },
+  {
+    "row": 124,
+    "rowsha": "mIUtfpRXVrYUYOcBievEBQShysoFrfG3GZ2Zxat/P80=",
+    "originContent": "The web interface will be available at `http://localhost:5728`",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🔬 기술 세부사항"
+  },
+  {
+    "row": 126,
+    "rowsha": "V8oV8Z+BV+0V3D0y5n24q+1bhrG2BA9llSLO1ndA1ag=",
+    "originContent": "## 🔬 Technical Details",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### INT8 양자화"
+  },
+  {
+    "row": 128,
+    "rowsha": "smGzJQl0mcsFy82taL2KGYTIwobm+WQmAIPl9qA44oY=",
+    "originContent": "### INT8 Quantization",
+    "translatedContent": "- **그룹별 양자화**: 구성 가능한 그룹 크기 (32, 64, 128)"
+  },
+  {
+    "row": 129,
+    "rowsha": "A2KSz0k8gaVQMc6rmiVJyopN7Uj45V/xmlaoW71DnHY=",
+    "originContent": "- **Group-wise quantization**: Configurable group size (32, 64, 128)",
+    "translatedContent": "- **cuBLASLt 통합**: 하드웨어 가속 INT8 GEMM"
+  },
+  {
+    "row": 130,
+    "rowsha": "refNpgDRCf9XRgXqFtgk8iHjPBa8Qo452gj6zQFcPZA=",
+    "originContent": "- **cuBLASLt integration**: Hardware-accelerated INT8 GEMM",
+    "translatedContent": "- **최소 정확도 손실**: Llama 모델에서 < 1% 혼란도 저하"
+  },
+  {
+    "row": 131,
+    "rowsha": "VupejMCrKhgrk6YhChVr9Yr8BXYAvV794H9LUyA6e5I=",
+    "originContent": "- **Minimal accuracy loss**: < 1% perplexity degradation on Llama models",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 페이징된 어텐션"
+  },
+  {
+    "row": 133,
+    "rowsha": "hZiOdKxxJZqJ+t6B6nhGhO5VvT/mw9Klir9DoEIRAU4=",
+    "originContent": "### Paged Attention",
+    "translatedContent": "- **블록 단위 KV 캐시**: 단편화 없는 효율적인 메모리 할당"
+  },
+  {
+    "row": 134,
+    "rowsha": "IpORQNrhsNAjmQV0iTbH2x/FlVT1ZMlrC5kpAa5JXfQ=",
+    "originContent": "- **Block-level KV cache**: Efficient memory allocation without fragmentation",
+    "translatedContent": "- **동적 시퀀스 관리**: 유연한 스케줄링을 위한 시퀀스별 캐시 오프셋"
+  },
+  {
+    "row": 135,
+    "rowsha": "KCC1sKe81N6Ef9UhJHghC/+wRqrMGCmd+PHtwQFUZ80=",
+    "originContent": "- **Dynamic sequence management**: Per-sequence cache offsets for flexible scheduling",
+    "translatedContent": "- **배치된 캐시 작업**: 다중 시퀀스 K/V 쓰기를 위한 단일 커널"
+  },
+  {
+    "row": 136,
+    "rowsha": "4vSpJ8stWfPnSFTZkM0IOvNOCJqKnvNufqdsdulDvUo=",
+    "originContent": "- **Batched cache operations**: Single kernel for multi-sequence K/V writes",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 연속 배치 스케줄러"
+  },
+  {
+    "row": 138,
+    "rowsha": "2nQVFtz1sZjmOCce3nfkp5adYh8oisZ8/LttIC5jik0=",
+    "originContent": "### Continuous Batching Scheduler",
+    "translatedContent": "- **2단계 스케줄링**:"
+  },
+  {
+    "row": 139,
+    "rowsha": "2B/ZMrRReGwoOUFzO0gtvKvG7LuGbM7RuaSArNYLZFw=",
+    "originContent": "- **Two-phase scheduling**:",
+    "translatedContent": "  1. **1단계**: 모든 RUNNING 요청 계속 수행 (중단 없음)"
+  },
+  {
+    "row": 140,
+    "rowsha": "5vsj9UyqTI5ECDXPlMTwXCgruGlUEa9r/V3B/9ST/9w=",
+    "originContent": "  1. **Phase 1**: Continue all RUNNING requests (no interruption)",
+    "translatedContent": "  2. **2단계**: 남은 용량을 채우기 위해 WAITING 요청 승인"
+  },
+  {
+    "row": 141,
+    "rowsha": "mUoT5wQiwHYwihYEj6y5Zv9qXYA4b6rQgRooCJcznAw=",
+    "originContent": "  2. **Phase 2**: Admit WAITING requests to fill remaining capacity",
+    "translatedContent": "- **요청 상태**: WAITING → RUNNING → FINISHED (PREEMPTED 지원 포함)"
+  },
+  {
+    "row": 142,
+    "rowsha": "UNNot9A5p+78BsrNl67JNL8YXKPMPLTt+0QrayuzPO4=",
+    "originContent": "- **Request states**: WAITING → RUNNING → FINISHED (with PREEMPTED support)",
+    "translatedContent": "- **토큰 단위 세분화**: 정확한 재개를 위한 `num_computed_tokens` 추적"
+  },
+  {
+    "row": 143,
+    "rowsha": "VWOEgDIEPCrxdQkSMssHTZ5e/GEdFPIQ7zfy1/E/Zyk=",
+    "originContent": "- **Token-level granularity**: `num_computed_tokens` tracking for precise resume",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🛣️ 로드맵"
+  },
+  {
+    "row": 145,
+    "rowsha": "1JFNl0HBHJWfzyKnul9oibTbXiyc2VYBLWE6w1eicDc=",
+    "originContent": "## 🛣️ Roadmap",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [x] **핵심 인프라**: 텐서, 연산자, 메모리 관리"
+  },
+  {
+    "row": 147,
+    "rowsha": "f9J4qWnNIUvjIhXHCzsf+2ekdfc8IMbOZR++NhFjSoI=",
+    "originContent": "- [x] **Core Infrastructure**: Tensor, operators, memory management",
+    "translatedContent": "- [x] **LLaMA 모델**: CPU/GPU 커널을 포함한 완전한 트랜스포머 구현"
+  },
+  {
+    "row": 148,
+    "rowsha": "Gl/w2YNkw2ugkWozS88awSUn/ZFq/XTRJf4qpKriM64=",
+    "originContent": "- [x] **LLaMA Model**: Full transformer implementation with CPU/GPU kernels",
+    "translatedContent": "- [x] **INT8 양자화**: cuBLASLt를 이용한 그룹별 양자화"
+  },
+  {
+    "row": 149,
+    "rowsha": "nB+/rudKpgRXoU4gwhxiSqoS2/CVKoF+eaRnr/THKVk=",
+    "originContent": "- [x] **INT8 Quantization**: Group-wise quantization with cuBLASLt",
+    "translatedContent": "- [x] **페이징된 어텐션**: 블록 단위 KV 캐시 관리"
+  },
+  {
+    "row": 150,
+    "rowsha": "u8n759pQuA7fSaipy4HoQcr/ePz/yJpKgGi6/y/8nL8=",
+    "originContent": "- [x] **Paged Attention**: Block-level KV cache management",
+    "translatedContent": "- [x] **연속 배치**: vLLM 스타일 동적 요청 스케줄링"
+  },
+  {
+    "row": 151,
+    "rowsha": "F9NNsMDpN8zFKS1tOJl25MA0RH2UJkcKygXg8R+XTUY=",
+    "originContent": "- [x] **Continuous Batching**: vLLM-style dynamic request scheduling",
+    "translatedContent": "- [ ] **Flash Attention 2**: 긴 시퀀스를 위한 IO 인식 어텐션"
+  },
+  {
+    "row": 152,
+    "rowsha": "wA4Uj64UgGCVAGh/3nSFNGdJ7HDZZGbolVbs271d8v4=",
+    "originContent": "- [ ] **Flash Attention 2**: IO-aware attention for long sequences",
+    "translatedContent": "- [ ] **멀티 GPU 지원**: 대형 모델을 위한 텐서 병렬처리"
+  },
+  {
+    "row": 153,
+    "rowsha": "aRhrqwZOtj5xLUVk81E7WFxlTGu+RnFHspJXzqe1gdw=",
+    "originContent": "- [ ] **Multi-GPU Support**: Tensor parallelism for large models",
+    "translatedContent": "- [ ] **FP16/BF16 혼합 정밀도**: 최신 GPU에서 처리량 향상"
+  },
+  {
+    "row": 154,
+    "rowsha": "8nMkZQ9nm5Csy2tz6O/EhiEBApxxMxbmDG0FW6CKltU=",
+    "originContent": "- [ ] **FP16/BF16 Mixed Precision**: Enhanced throughput on modern GPUs",
+    "translatedContent": "- [ ] **추측적 디코딩**: 초안 모델을 이용한 다중 토큰 생성"
+  },
+  {
+    "row": 155,
+    "rowsha": "7l8AIMNJqcyM+b19YvlSSD6g7rcVcfV2Kwn/GZDdVCQ=",
+    "originContent": "- [ ] **Speculative Decoding**: Multi-token generation with draft model",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📖 문서"
+  },
+  {
+    "row": 157,
+    "rowsha": "SoE0pvlABUY6UusrLcAgNz4PkoTle0JWWhESnRMZ7Es=",
+    "originContent": "## 📖 Documentation",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [연속 배치 설계](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/continuous_batching.md)"
+  },
+  {
+    "row": 159,
+    "rowsha": "EgCjHjJ4/9YP+aJ7SCe8AyWvP4JeQSGdaXfhhJ/K3Ds=",
+    "originContent": "- [Continuous Batching Design](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/continuous_batching.md)",
+    "translatedContent": "- [성능 최적화 가이드](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/performance.md)"
+  },
+  {
+    "row": 160,
+    "rowsha": "Iect7XFXlQWIjPExnkxogBUtSm/DsETknrTYKJFj5vA=",
+    "originContent": "- [Performance Optimization Guide](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/performance.md)",
+    "translatedContent": "- [API 참조](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/api.md)"
+  },
+  {
+    "row": 161,
+    "rowsha": "g4tJMSUxU38Dq7WjK+WsolFk0VEKjcpsjv/4W1Q5EJI=",
+    "originContent": "- [API Reference](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/api.md)",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+    "originContent": "## 🤝 Contributing",
+    "translatedContent": "## 🤝 기여"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "jn2o1S708I79ut5wE27i150UO3xeXj65BJ0xLfOKLPQ=",
+    "originContent": "Contributions welcome! Please see [CONTRIBUTING.md](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/contributing.md) for guidelines.",
+    "translatedContent": "기여를 환영합니다! 가이드라인은 [CONTRIBUTING.md](https://raw.githubusercontent.com/lumia431/photon_infer/master/docs/contributing.md)에서 확인하세요."
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "/bQvlvaRWY9zIHAn3VQUzqbCmwMTGIdxnaCzM+Hj0DA=",
+    "originContent": "## 📝 License",
+    "translatedContent": "## 📝 라이선스"
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "TQbLtlkz/4wk53iQHmCp0/AuJ9wLL4KxIT8/wTVYVTc=",
+    "originContent": "MIT License - see [LICENSE](LICENSE) for details.",
+    "translatedContent": "MIT 라이선스 - 자세한 내용은 [LICENSE](LICENSE)를 참조하세요."
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "qNOAwfAbnQ0oGAw8kiCxNmOxAO6HNOriMNTHzMq+bx0=",
+    "originContent": "## 🙏 Acknowledgments",
+    "translatedContent": "## 🙏 감사의 말"
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "bio/kIk9a9QJldzhyVUJuCeWfiuGgAhsAczXiSWi8IY=",
+    "originContent": "- Architecture inspired by [vLLM](https://github.com/vllm-project/vllm)",
+    "translatedContent": "- 아키텍처는 [vLLM](https://github.com/vllm-project/vllm)에서 영감을 받았습니다."
+  },
+  {
+    "row": 174,
+    "rowsha": "Ld0axyjsfuSP/w5hxBGNZkHtssxewQUwIB3wUX8mQ14=",
+    "originContent": "- Kernel optimizations reference [llama.cpp](https://github.com/ggerganov/llama.cpp)",
+    "translatedContent": "- 커널 최적화는 [llama.cpp](https://github.com/ggerganov/llama.cpp)를 참고했습니다."
+  },
+  {
+    "row": 175,
+    "rowsha": "ISwaoY75TQJuH/Ytgva26Xlc4shFdSkPhtok94GFJow=",
+    "originContent": "- Error handling design from Rust's `Result<T, E>`",
+    "translatedContent": "- 에러 처리 설계는 Rust의 `Result<T, E>`에서 차용했습니다."
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "gV2A79jON2C9J0rdoarfftPNq6Xlho1PitTgrrbyAD4=",
+    "originContent": "**Built with ❤️ for high-performance LLM inference**",
+    "translatedContent": "**고성능 LLM 추론을 위해 ❤️와 함께 제작되었습니다**"
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
