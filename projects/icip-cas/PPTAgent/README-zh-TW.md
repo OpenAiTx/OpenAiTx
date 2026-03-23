@@ -9,7 +9,7 @@
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ko">韓國語</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi">印地語</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi">印度語</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=th">泰語</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fr">法語</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=de">德語</a>
@@ -31,82 +31,147 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/pptagent-logo.png" width="240px">
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/pptagent-logo.jpg" width="240px" alt="https://github.com/icip-cas/PPTAgent">
 </div>
 
-https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
+<table>
+  <tr>
+    <td width="50%">
+      <video controls width="100%" src="https://github.com/user-attachments/assets/314bed6a-185e-4c81-9de5-35728e83e22a">
+      </video>
+    </td>
+    <td width="50%">
+      <video controls width="100%" src="https://github.com/user-attachments/assets/96eee616-5f79-4ea1-bd7f-bcaa466eda9e">
+      </video>
+    </td>
+  </tr>
+</table>
 
-## 📫 聯絡方式
-> 此倉庫的主要貢獻者為2026年畢業的碩士研究生，歡迎聯繫合作或尋求機會。
+## 聯絡方式 📫
+> 本倉庫的主要貢獻者是一位將於 2026 年畢業的碩士生，歡迎聯絡合作或交流機會。
 >
-> 本倉庫的主要貢獻者是一名 2026 屆碩士畢業生，歡迎聯繫合作或交流機會。
+> 本倉庫的主要貢獻者是一名 2026 屆碩士畢業生，歡迎聯絡合作或交流機會。
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
 </div>
 
-## 📅 最新消息
-- [2026/01]: 現已支援自由格式和範本產生，支援 PPTX 匯出及離線模式！新增上下文管理以避免上下文溢出。
-- [2025/12]: 🔥 發布 V2，帶來重大改進——深度研究整合、自由格式視覺設計、自主資產創建、文本轉圖像生成，以及具備沙盒和 20+ 工具的代理環境。
-- [2025/09]: 🛠️ 新增 MCP 伺服器支援——請參閱 [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) 了解配置細節
-- [2025/09]: 🚀 發布 v2，帶來重大改進——詳情請參閱 [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0)
-- [2025/08]: 🎉 論文被 **EMNLP 2025** 錄用！
-- [2025/05]: ✨ 發布 v1，具備核心功能及 🌟 突破：GitHub 星標突破 1,000！詳情請參閱 [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0)
-- [2025/01]: 🔓 開源代碼庫，實驗性代碼已存檔於 [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
+## 最新消息 📅
+- [2026/03]：我們現已支持 CLI，並已在 [Hugging Face 🤗](https://huggingface.co/collections/ICIP/deeppresenter) 發佈我們的微調模型！
+- [2026/01]：我們支持自由格式與模板生成，並支援 PPTX 匯出與離線模式！新增上下文管理功能以避免上下文溢出。
+- [2025/12]：🔥 發佈 V2，重大改進 - 深度研究整合、自由形式視覺設計、自主資產創建、文字轉圖片生成，並有沙盒環境及 20+ 工具。
+- [2025/09]：🛠️ 增加 MCP 伺服器支援 - 設定詳情請參見 [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) 
+- [2025/09]：🚀 發佈 v2，重大改進 - 詳情請參見 [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0)
+- [2025/08]：🎉 論文已被 **EMNLP 2025** 接收！
+- [2025/05]：✨ 發佈 v1，核心功能與 🌟 突破：GitHub 點贊數達 1,000！詳情請參見 [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0)
+- [2025/01]：🔓 原始碼開源，實驗性代碼已存檔於 [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
 
-## 📖 使用說明
+## 使用方法 📖
 
-> [!IMPORTANT]
-> 1. 所有這些 API 金鑰、配置和服務均為**必需**。
-> 2. 代理主幹推薦：研究代理建議使用 Claude，設計代理建議使用 Gemini。開源模型中，GLM-4.7 也是不錯的選擇。
-> 3. 支援離線模式，功能有限（詳見下方離線配置）。
+> [!重要]
+> 不支援 Windows。如在 Windows 上，請使用 WSL。
+>
+> 強烈建議先從 CLI 與最小任務開始，以確認依賴項與環境配置正確。
+
+### 設定
+
+若使用 CLI，`pptagent onboard` 可協助互動式創建與更新這些設定。若使用 Docker Compose 或源碼建構，則需手動準備：
+
+```bash
+cp deeppresenter/config.yaml.example deeppresenter/config.yaml
+cp deeppresenter/mcp.json.example deeppresenter/mcp.json
+```
+
+#### 提升品質的可選服務
+
+以下服務可以顯著提升生成品質，尤其是在研究深度、PDF解析及視覺素材創建方面：
+
+- **Tavily**：提升網頁搜尋品質。請至 [tavily.com](https://www.tavily.com/) 申請 API 金鑰，然後於 [`deeppresenter/mcp.json`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/mcp.json) 設定 `TAVILY_API_KEY`。
+- **MinerU**：提升 PDF 解析品質。你可以至 [mineru.net](https://mineru.net/apiManage/docs) 申請 API 金鑰並於 [`deeppresenter/mcp.json`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/mcp.json) 設定 `MINERU_API_KEY`，或是在本地部署 MinerU 並改設 `MINERU_API_URL`。
+- **文字轉圖像模型**：提升圖像生成品質。在 [`deeppresenter/config.yaml`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/config.yaml) 設定 `t2i_model`。
 
 
-### 1. 環境配置
+若你希望完全離線運作，請在本地部署 MinerU 並於 `deeppresenter/config.yaml` 設定 `offline_mode: true`，以避免載入如網頁搜尋等需網路的工具。
 
-- **建立配置檔案**（於專案根目錄）：
+更多可調整的變數可在 [constants.py](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/utils/constants.py) 找到。
 
-  ```bash
-  cp deeppresenter/deeppresenter/config.yaml.example deeppresenter/deeppresenter/config.yaml
-  cp deeppresenter/deeppresenter/mcp.json.example deeppresenter/deeppresenter/mcp.json
-  ```
+### 1. 個人使用／OpenClaw 整合：CLI
 
-- **線上設置**：
-  - **MinerU**：在 [mineru.net](https://mineru.net/apiManage/docs) 申請 API 金鑰。請注意，每個金鑰有效期為 14 天。
-  - **Tavily**：在 [tavily.com](https://www.tavily.com/) 申請 API 金鑰。
-  - **LLM**：在 `config.yaml` 中設置您的模型端點、API 金鑰與相關參數。
+> [!NOTE]
+> 在 macOS 上，CLI 可能會自動安裝多項本地依賴，包括 Homebrew、Node.js、Docker、poppler、Playwright 與 llama.cpp。
+>
+> 在 Linux 上，你需自行準備環境。
 
-- **離線設置**：
-  - **MinerU**：請依照 [MinerU docker 指南](https://opendatalab.github.io/MinerU/quick_start/docker_deployment/#start-services-directly-with-docker-compose) 部署 MinerU 伺服器。
-  - **設定切換**：在 [`config.yaml`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/deeppresenter/config.yaml) 中設置 `offline_mode: true`，以避免加載需網路的工具（如 `fetch`、`search`）。
-  - **MinerU 端點**：在 [`mcp.json`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/deeppresenter/mcp.json) 中將 `MINERU_API_URL` 設為您本地的 MinerU 服務網址。
+若你想要最快速的本地安裝，或希望將 DeepPresenter 透過 CLI 插入 OpenClaw，請使用此模式。
 
-### 2. 服務啟動
+```bash
+# Install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
-建置 docker 映像檔：`docker compose build`
+# First-time interactive setup
+uvx pptagent onboard
 
-- **使用 Docker Compose 啟動**：
+# Generate a presentation
+uvx pptagent generate "Single Page with Title: Hello World" -o hello.pptx
 
-  ```bash
-  docker compose up -d
-  ```
+# Generate with attachments
+uvx pptagent generate "Q4 Report" \
+  -f data.xlsx \
+  -f charts.pdf \
+  -p "10-12" \
+  -o report.pptx
+```
 
-- **在本地運行**：
+| 指令                   | 說明                                               |
+| ------------------- | ------------------------------------------------- |
+| `pptagent onboard`  | 互動式設定精靈                                      |
+| `pptagent generate` | 產生簡報                                            |
+| `pptagent config`   | 查看目前設定                                        |
+| `pptagent reset`    | 重設設定                                            |
+| `pptagent serve`    | 啟動 CLI 使用的本地推論服務                         |
 
-  ```bash
-  cd deeppresenter
-  pip install -e .
-  playwright install-deps
-  playwright install chromium
-  npm install
-  npx playwright install chromium
-  python webui.py
-  ```
+### 2. 最小化設定／開發：從原始碼建置
 
-> [!TIP]
-> 🚀 All configurable variables can be found in [constants.py](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/deeppresenter/utils/constants.py).
+如果你想在開發過程中擁有最少的抽象層並完全掌控相依性，請使用此模式。
 
-## 💡 Case Study
+```bash
+uv pip install -e .
+playwright install-deps
+playwright install chromium
+npm install --prefix deeppresenter/html2pptx
+
+docker pull forceless/deeppresenter-sandbox:0.1.0
+docker tag forceless/deeppresenter-sandbox:0.1.0 deeppresenter-sandbox:0.1.0
+
+# or build from dockerfile
+docker build -t deeppresenter-sandbox:0.1.0 -f deeppresenter/docker/SandBox.Dockerfile .
+```
+啟動應用程式：
+
+
+```bash
+python webui.py
+```
+
+### 3. 伺服器部署：Docker Compose
+
+使用此模式可建立具有明確依賴關係的穩定伺服器環境。
+
+```bash
+# Pull the public images to avoid build from source
+docker pull forceless/deeppresenter-sandbox:0.1.0
+docker tag forceless/deeppresenter-sandbox:0.1.0 deeppresenter-sandbox:0.1.0
+
+# Or build from source
+docker build -t deeppresenter-sandbox:0.1.0 -f deeppresenter/docker/SandBox.Dockerfile .
+
+# Start the host service
+docker compose up -d deeppresenter-host
+```
+
+The service exposes the web UI on `http://localhost:7861`.
+
+## Case Study 💡
 
 - #### Prompt: Please present the given document to me.
 
@@ -184,18 +249,133 @@ https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
 
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0014.jpg" alt="图片14" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0015.jpg" alt="图片15" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0015.jpg" alt="圖片15" width="200"/>
 
 </div>
 
 ---
 
+## 貢獻者 🌟
+
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/Force1ess>
+            <img src=https://avatars.githubusercontent.com/u/72636351?v=4 width="80;"  alt=Force1ess/>
+            <br />
+            <sub style="font-size:14px"><b>Force1ess</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/Puellaquae>
+            <img src=https://avatars.githubusercontent.com/u/22560343?v=4 width="80;"  alt=Puelloc/>
+            <br />
+            <sub style="font-size:14px"><b>Puelloc</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/hysyyds>
+            <img src=https://avatars.githubusercontent.com/u/80150669?v=4 width="80;"  alt=hongyan/>
+            <br />
+            <sub style="font-size:14px"><b>hongyan</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/Dnoob>
+            <img src=https://avatars.githubusercontent.com/u/92987618?v=4 width="80;"  alt=Dnoob/>
+            <br />
+            <sub style="font-size:14px"><b>Dnoob</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/Sadahlu>
+            <img src=https://avatars.githubusercontent.com/u/126563707?v=4 width="80;"  alt=Sadahlu/>
+            <br />
+            <sub style="font-size:14px"><b>Sadahlu</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/KurisuMakiseSame>
+            <img src=https://avatars.githubusercontent.com/u/168447425?v=4 width="80;"  alt=KurisuMakiseSame/>
+            <br />
+            <sub style="font-size:14px"><b>KurisuMakiseSame</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/kylooh>
+            <img src=https://avatars.githubusercontent.com/u/26456650?v=4 width="80;"  alt=Eliot White/>
+            <br />
+            <sub style="font-size:14px"><b>Eliot White</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/EvolvedGhost>
+            <img src=https://avatars.githubusercontent.com/u/92856393?v=4 width="80;"  alt=EvolvedGhost/>
+            <br />
+            <sub style="font-size:14px"><b>EvolvedGhost</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/ISCAS-zwl>
+            <img src=https://avatars.githubusercontent.com/u/179820048?v=4 width="80;"  alt=ISCAS-zwl/>
+            <br />
+            <sub style="font-size:14px"><b>ISCAS-zwl</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/James4Ever0>
+            <img src=https://avatars.githubusercontent.com/u/103997068?v=4 width="80;"  alt=James Brown/>
+            <br />
+            <sub style="font-size:14px"><b>James Brown</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/LasRuinasCirculares>
+            <img src=https://avatars.githubusercontent.com/u/119716645?v=4 width="80;"  alt=JunZhang/>
+            <br />
+            <sub style="font-size:14px"><b>JunZhang</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/openaitx-system>
+            <img src=https://avatars.githubusercontent.com/u/215529505?v=4 width="80;"  alt=Open AI Tx/>
+            <br />
+            <sub style="font-size:14px"><b>Open AI Tx</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/haosenwang1018>
+            <img src=https://avatars.githubusercontent.com/u/167664334?v=4 width="80;"  alt=Sense_wang/>
+            <br />
+            <sub style="font-size:14px"><b>Sense_wang</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/DeJeune>
+            <img src=https://avatars.githubusercontent.com/u/67425183?v=4 width="80;"  alt=SuYao/>
+            <br />
+            <sub style="font-size:14px"><b>SuYao</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/Dormiveglia-elf>
+            <img src=https://avatars.githubusercontent.com/u/81767213?v=4 width="80;"  alt=Zhenyu/>
+            <br />
+            <sub style="font-size:14px"><b>Zhenyu</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=icip-cas/PPTAgent&type=Date)](https://star-history.com/#icip-cas/PPTAgent&Date)
 
-## Citation 🙏
+## 參考文獻 🙏
 
-If you find this project helpful, please use the following to cite it:
+如果您覺得本專案有幫助，請使用以下方式引用：
 ```bibtex
 @inproceedings{zheng-etal-2025-pptagent,
     title = "{PPTA}gent: Generating and Evaluating Presentations Beyond Text-to-Slides",
@@ -224,11 +404,21 @@ If you find this project helpful, please use the following to cite it:
     ISBN = "979-8-89176-332-6",
     abstract = "Automatically generating presentations from documents is a challenging task that requires accommodating content quality, visual appeal, and structural coherence. Existing methods primarily focus on improving and evaluating the content quality in isolation, overlooking visual appeal and structural coherence, which limits their practical applicability. To address these limitations, we propose PPTAgent, which comprehensively improves presentation generation through a two-stage, edit-based approach inspired by human workflows. PPTAgent first analyzes reference presentations to extract slide-level functional types and content schemas, then drafts an outline and iteratively generates editing actions based on selected reference slides to create new slides. To comprehensively evaluate the quality of generated presentations, we further introduce PPTEval, an evaluation framework that assesses presentations across three dimensions: Content, Design, and Coherence. Results demonstrate that PPTAgent significantly outperforms existing automatic presentation generation methods across all three dimensions."
 }
+
+@misc{zheng2026deeppresenterenvironmentgroundedreflectionagentic,
+      title={DeepPresenter: Environment-Grounded Reflection for Agentic Presentation Generation},
+      author={Hao Zheng and Guozhao Mo and Xinru Yan and Qianhao Yuan and Wenkai Zhang and Xuanang Chen and Yaojie Lu and Hongyu Lin and Xianpei Han and Le Sun},
+      year={2026},
+      eprint={2602.22839},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2602.22839},
+}
 ```
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-23
 
 ---

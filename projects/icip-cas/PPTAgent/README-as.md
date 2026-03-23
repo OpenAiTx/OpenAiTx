@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 ভাষা</summary>
@@ -9,21 +8,21 @@
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi">হিন্দী</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=th">থাই</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fr">ফ্রান্সৰ</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=de">ডয়চ</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=es">স্পেনিছ</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=it">ইটালিয়ান</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ru">ৰাছিয়ান</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pt">পৰ্তুগীজ</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=nl">ডাচ</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pl">পোলিচ</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar">আৰবী</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fa">ফাৰ্ছী</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=tr">তুৰ্কী</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=vi">ভিয়েটনামীজ</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=id">ইণ্ডোনেছিয়ান</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=as">অসমীয়া</a>
       </div>
     </div>
@@ -31,82 +30,148 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/pptagent-logo.png" width="240px">
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/pptagent-logo.jpg" width="240px" alt="https://github.com/icip-cas/PPTAgent">
 </div>
 
-https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
+<table>
+  <tr>
+    <td width="50%">
+      <video controls width="100%" src="https://github.com/user-attachments/assets/314bed6a-185e-4c81-9de5-35728e83e22a">
 
-## 📫 যোগাযোগ কৰক
-> এই ৰেপ'টোৰ মুখ্য অৱদানকাৰীজন ২০২৬ চনত উত্তীৰ্ণ হ'বলগীয়া এগৰাকী মাষ্টাৰ্ছ ছাত্ৰ, সহযোগিতা বা অন্য কোনো সম্ভাৱনাৰ বাবে নিশ্চয়তে যোগাযোগ কৰিব পাৰে।
+      </video>
+    </td>
+    <td width="50%">
+      <video controls width="100%" src="https://github.com/user-attachments/assets/96eee616-5f79-4ea1-bd7f-bcaa466eda9e">
+      </video>
+    </td>
+  </tr>
+</table>
+
+## যোগাযোগ 📫
+> এই ৰিপ'ৰ মুখ্য অৱদানকাৰীজন ২০২৬ ত স্নাতকোত্তৰ ছাত্ৰ/ছাত্ৰী, সহযোগিতা বা সুযোগৰ বাবে যোগাযোগ কৰিব পাৰে।
 >
-> এই সংৰক্ষণাগাৰৰ মুখ্য অৱদানকাৰী এজন ২০২৬ বৰ্ষৰ মাষ্টাৰ্স উত্তীৰ্ণ ছাত্ৰ/ছাত্ৰী। সহযোগিতা অথবা আদান-প্ৰদানৰ সুযোগৰ বাবে যোগাযোগ কৰিবলৈ স্বাগতম।
+> এই সংৰক্ষণাগাৰৰ মুখ্য অৱদানকাৰীজন ২০২৬ বৰ্ষৰ স্নাতকোত্তৰ ছাত্ৰ/ছাত্ৰী, সহযোগিতা বা সুযোগৰ বাবে যোগাযোগ কৰিব পাৰে।
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
 </div>
 
-## 📅 সংবাদ
-- [২০২৬/০১]: আমি freeform আৰু template generationৰ সৈতে PPTX export, offline mode সমৰ্থন কৰো। Context management যোগ কৰা হৈছে যাতে context overflow নহয়।
-- [২০২৫/১২]: 🔥 V2 ৰ মুক্তি - ডিপ ৰিসাৰ্চ ইন্টেগ্ৰেশ্যন, Free-Form Visual Design, Autonomous Asset Creation, Text-to-Image Generation, আৰু sandbox সহ Agent Environment আৰু ২০+ টুলৰ সৈতে বৃহৎ উন্নতি।
-- [২০২৫/০৯]: 🛠️ MCP server সমৰ্থন যোগ কৰা হৈছে - কনফিগাৰেশ্যন বিৱৰণৰ বাবে [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) চাওক
-- [২০২৫/০৯]: 🚀 v2 মুক্তি - বিৱৰণৰ বাবে [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) চাওক
-- [২০২৫/০৮]: 🎉 পেপাৰ **EMNLP 2025** ত গ্ৰহণ কৰা হৈছে!
-- [২০২৫/০৫]: ✨ v1 মুক্তি, মূল ফাংশনালিটি আৰু 🌟 breakthrough: GitHub-ত ১,০০০ star অতিক্ৰম! - বিৱৰণৰ বাবে [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) চাওক
-- [২০২৫/০১]: 🔓 কোডবেস open-source কৰা হৈছে, experimental কোড [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment) ত সংৰক্ষণ কৰা হৈছে
+## বাতৰি 📅
+- [২০২৬/০৩]: এতিয়া আমি CLI সমৰ্থিত আৰু আমাৰ ফাইন-টিউন কৰা মডেলসমূহ [Hugging Face 🤗](https://huggingface.co/collections/ICIP/deeppresenter)-ত মুক্তি দিছোঁ!
+- [২০২৬/০১]: আমি ফ্ৰিফৰ্ম আৰু টেম্পলেট জেনাৰেশ্যন সমৰ্থিত PPTX এক্সপ'ৰ্ট, অফলাইন মোড এতিয়া সমৰ্থিত! কণ্টেক্সট মেনেজমেন্ট যোগ কৰা হৈছে যাতে কণ্টেক্সট অতিৰিক্ত নোহোৱা হয়।
+- [২০২৫/১২]: 🔥 V2 মুক্তি দিয়া হৈছে বহু উন্নয়নৰে - ডীপ ৰিছাৰ্চ ইন্টেগ্ৰেশ্যন, ফ্ৰিফৰ্ম ভিজ্যুয়েল ডিজাইন, স্বয়ংক্ৰিয় সম্পদ সৃষ্টি, টেক্সট-টু-ইমেজ জেনাৰেশ্যন, আৰু এজেন্ট এনভাইৰনমেণ্ট sandbox & ২০+ টুলৰ সৈতে।
+- [২০২৫/০৯]: 🛠️ MCP ছাৰ্ভাৰ সমৰ্থিত যোগ কৰা হৈছে - কনফিগাৰেচন বিৱৰণৰ বাবে [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) চাওক
+- [২০২৫/০৯]: 🚀 V2 মুক্তি দিয়া হৈছে বহু উন্নয়নৰে - বিস্তারিতৰ বাবে [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) চাওক
+- [২০২৫/০৮]: 🎉 EMNLP ২০২৫-ত প্ৰবন্ধ গ্ৰহণ কৰা হৈছে!
+- [২০২৫/০৫]: ✨ V1 মুক্তি দিয়া হৈছে মূল ফাংশনালিটিৰে আৰু 🌟 সাফল্য: GitHub-ত ১,০০০টা ষ্টাৰ লাভ! - বিস্তারিতৰ বাবে [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) চাওক
+- [২০২৫/০১]: 🔓 ক'ডবেছ মুক্ত উৎস কৰা হৈছে, পৰীক্ষামূলক ক'ড [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)-ত সংৰক্ষণ কৰা হৈছে
 
-## 📖 ব্যৱহাৰ
+## ব্যৱহাৰ 📖
 
 > [!IMPORTANT]
-> ১. এই API key, configuration, আৰু service সমূহ **আবশ্যক**।
-> ২. Agent Backbone Recommendation: Research Agent-ৰ বাবে Claude ব্যৱহাৰ কৰক আৰু Design Agent-ৰ বাবে Gemini। ওপেন-সোর্স মডেলত GLM-4.7 ভাল বিকল্প।
-> ৩. Offline mode সীমিত সক্ষমতাৰ সৈতে সমৰ্থিত (তলত Offline Setup চাওক)।
+> Windows সমৰ্থিত নহয়। আপুনি যদি Windows ব্যৱহাৰ কৰে, অনুগ্ৰহ কৰি WSL ব্যৱহাৰ কৰক।
+>
+> আমি শকতকৈ CLI আৰু নিম্নতম Taskৰে আৰম্ভ কৰিবলৈ পৰামৰ্শ দিওঁ যাতে নিৰ্ভৰতা আৰু পৰিৱেশ সঠিকভাৱে কনফিগাৰ কৰা হৈছে বুলি নিশ্চিত কৰিব পাৰে।
 
-### ১. Environment Configuration
+### কনফিগাৰেচন
 
-- **configuration file সৃষ্টি কৰক** (project root-ৰ পৰা):
+আপুনি CLI ব্যৱহাৰ কৰিলে, `pptagent onboard`-এ এই কনফিগাৰেচনসমূহ ইন্টাৰেক্টিভভাবে সৃষ্টি আৰু আপডেট কৰাত সহায় কৰিব। আপুনি যদি Docker Compose বা উৎসৰ পৰা নিৰ্মাণ কৰে, তেন্তে হাতেদিয়ে প্রস্তুত কৰিব লাগিব:
+
+```bash
+cp deeppresenter/config.yaml.example deeppresenter/config.yaml
+cp deeppresenter/mcp.json.example deeppresenter/mcp.json
+```
+
+#### গুণগত মান উন্নত কৰা বিকল্প সেৱাসমূহ
+
+তলত উল্লেখিত সেৱাসমূহে উৎপাদনৰ গুণগত মান প্ৰভাৱজনকভাৱে উন্নত কৰিব পাৰে, বিশেষকৈ গৱেষণাৰ গভীৰতা, PDF বিশ্লেষণ, আৰু দৃশ্য সম্পদ সৃষ্টি ক্ষেত্ৰত:
+
+- **Tavily**: ৱেব অনুসন্ধানৰ গুণগত মান উন্নত কৰে। [tavily.com](https://www.tavily.com/) ত API keyৰ বাবে আবেদন কৰক, তাৰ পাছত [`deeppresenter/mcp.json`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/mcp.json) ত `TAVILY_API_KEY` সংহতি কৰক।
+- **MinerU**: PDF বিশ্লেষণৰ গুণগত মান উন্নত কৰে। আপুনি [mineru.net](https://mineru.net/apiManage/docs) ত API keyৰ বাবে আবেদন কৰিব পাৰে আৰু [`deeppresenter/mcp.json`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/mcp.json) ত `MINERU_API_KEY` সংহতি কৰিব পাৰে, অথবা MinerU স্থানীয়ভাৱে স্থাপন কৰি `MINERU_API_URL` সংহতি কৰিব পাৰে।
+- **Text-to-image model**: চিত্ৰ উৎপাদনৰ গুণগত মান উন্নত কৰে। [`deeppresenter/config.yaml`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/config.yaml) ত `t2i_model` সংহতি কৰক।
 
 
-  ```bash
-  cp deeppresenter/deeppresenter/config.yaml.example deeppresenter/deeppresenter/config.yaml
-  cp deeppresenter/deeppresenter/mcp.json.example deeppresenter/deeppresenter/mcp.json
-  ```
+যদি আপুনি সম্পূৰ্ণ অফলাইন ছেটআপ চাহে, তেন্তে MinerU স্থানীয়ভাৱে স্থাপন কৰক আৰু `deeppresenter/config.yaml` ত `offline_mode: true` সংহতি কৰক যাতে ৱেব অনুসন্ধানৰ দৰে নেটৱৰ্ক-নির্ভৰ টুলসমূহ লোড নকৰে।
 
-- **অনলাইন ছেটআপ**:
-  - **MinerU**: [mineru.net](https://mineru.net/apiManage/docs)ত API কীৰ বাবে আবেদন কৰক। প্ৰত্যেকটা কী ১৪ দিনলৈকে বৈধ।
-  - **Tavily**: [tavily.com](https://www.tavily.com/)ত API কীৰ বাবে আবেদন কৰক।
-  - **LLM**: আপোনাৰ মডেল এণ্ডপইণ্ট, API কী আৰু সংশ্লিষ্ট পেৰামিটাৰসমূহ `config.yaml`ত ছেট কৰক।
+অধিক কনফিগাৰ কৰা পৰিৱর্তনশীলসমূহ [constants.py](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/utils/constants.py) ত পোৱা যাব।
 
-- **অফলাইন ছেটআপ**:
-  - **MinerU**: [MinerU docker guide](https://opendatalab.github.io/MinerU/quick_start/docker_deployment/#start-services-directly-with-docker-compose)ত দিয়া নিৰ্দেশনা অনুসৰি MinerU ছাৰ্ভাৰ ডিপ্লয় কৰক।
-  - **Config switch**: [`config.yaml`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/deeppresenter/config.yaml)ত `offline_mode: true` ছেট কৰক যাতে নেটৱৰ্ক-নির্ভৰ টুলসমূহ (যেনে, `fetch`, `search`) লোড নহয়।
-  - **MinerU endpoint**: [`mcp.json`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/deeppresenter/mcp.json)ত `MINERU_API_URL` আপোনাৰ স্থানীয় MinerU ছাৰ্ভিছ URLলৈ ছেট কৰক।
+### ১. ব্যক্তিগত ব্যৱহাৰ / OpenClaw সংহতি: CLI
 
-### ২. ছাৰ্ভিছ ষ্টাৰ্টআপ
+> [!NOTE]
+> macOS ত CLIয়ে স্বয়ংক্ৰিয়ভাৱে কেইবাটাও স্থানীয় নির্ভৰতা, যেনে Homebrew, Node.js, Docker, poppler, Playwright, আৰু llama.cpp ইনষ্টল কৰিব পাৰে।
+>
+> Linux ত, আপুনি নিজেই পৰিবেশ প্রস্তুত কৰিব লাগিব।
 
-ডকৰ ইমেজ বিল্ড কৰক: `docker compose build`
+এই মোড ব্যৱহাৰ কৰক যদি আপুনি আটাইতকৈ তাড়াতাড়ি স্থানীয় ছেটআপ চাহে বা CLIৰ জৰিয়তে DeepPresenter OpenClawত সংহতি কৰিব বিচাৰে।
 
-- **Docker Composeৰ পৰা**:
+```bash
+# Install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
-  ```bash
-  docker compose up -d
-  ```
+# First-time interactive setup
+uvx pptagent onboard
 
-- **স্থানীয়ভাৱে চলোৱা**:
+# Generate a presentation
+uvx pptagent generate "Single Page with Title: Hello World" -o hello.pptx
 
-  ```bash
-  cd deeppresenter
-  pip install -e .
-  playwright install-deps
-  playwright install chromium
-  npm install
-  npx playwright install chromium
-  python webui.py
-  ```
+# Generate with attachments
+uvx pptagent generate "Q4 Report" \
+  -f data.xlsx \
+  -f charts.pdf \
+  -p "10-12" \
+  -o report.pptx
+```
 
-> [!TIP]
-> 🚀 All configurable variables can be found in [constants.py](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/deeppresenter/utils/constants.py).
+| কমাণ্ড               | বিৱৰণ                                               |
+| -------------------- | --------------------------------------------------- |
+| `pptagent onboard`   | ইন্টাৰেক্টিভ কনফিগাৰেচন উইজাৰ্ড                   |
+| `pptagent generate`  | প্ৰেজেন্টেশ্যন সৃষ্টি কৰক                          |
+| `pptagent config`    | বৰ্তমান কনফিগাৰেচন চাওক                             |
+| `pptagent reset`     | কনফিগাৰেচন পুনৰায় সজাই কৰক                       |
+| `pptagent serve`     | CLI-এ ব্যৱহৃত স্থানীয় ইনফাৰেন্স সেৱা আৰম্ভ কৰক    |
 
-## 💡 Case Study
+### ২. ন্যূনতম ছেটআপ / উন্নয়ন: উৎসৰ পৰা নিৰ্মাণ কৰক
+
+এই মোড ব্যৱহাৰ কৰক যদি আপুনি বিকাশৰ সময়ত আটাইতকৈ সৰু এবষ্ট্ৰাকশ্যন স্তৰ আৰু সম্পূৰ্ণ নিৰ্ভৰতা নিয়ন্ত্ৰণ চায়।
+
+```bash
+uv pip install -e .
+playwright install-deps
+playwright install chromium
+npm install --prefix deeppresenter/html2pptx
+
+docker pull forceless/deeppresenter-sandbox:0.1.0
+docker tag forceless/deeppresenter-sandbox:0.1.0 deeppresenter-sandbox:0.1.0
+
+# or build from dockerfile
+docker build -t deeppresenter-sandbox:0.1.0 -f deeppresenter/docker/SandBox.Dockerfile .
+```
+
+এপ্পটো আৰম্ভ কৰক:
+
+```bash
+python webui.py
+```
+
+### ৩. চাৰ্ভাৰ ডিপ্লয়মেন্ট: ডকাৰ কম্প'জ
+
+এই মোডটো স্থিৰ চাৰ্ভাৰ পৰিৱেশ আৰু স্পষ্ট নির্ভৰশীলতাৰ বাবে ব্যৱহাৰ কৰক।
+
+```bash
+# Pull the public images to avoid build from source
+docker pull forceless/deeppresenter-sandbox:0.1.0
+docker tag forceless/deeppresenter-sandbox:0.1.0 deeppresenter-sandbox:0.1.0
+
+# Or build from source
+docker build -t deeppresenter-sandbox:0.1.0 -f deeppresenter/docker/SandBox.Dockerfile .
+
+# Start the host service
+docker compose up -d deeppresenter-host
+```
+
+The service exposes the web UI on `http://localhost:7861`.
+
+## Case Study 💡
 
 - #### Prompt: Please present the given document to me.
 
@@ -183,19 +248,134 @@ https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0013.jpg" alt="图片13" width="200"/>
 
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0014.jpg" alt="图片14" width="200"/>
-
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0015.jpg" alt="图片15" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0015.jpg" alt="ছবি ১৫" width="200"/>
 
 </div>
 
 ---
 
+## অৱদানকাৰীসকল 🌟
+
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/Force1ess>
+            <img src=https://avatars.githubusercontent.com/u/72636351?v=4 width="80;"  alt=Force1ess/>
+            <br />
+            <sub style="font-size:14px"><b>Force1ess</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/Puellaquae>
+            <img src=https://avatars.githubusercontent.com/u/22560343?v=4 width="80;"  alt=Puelloc/>
+            <br />
+            <sub style="font-size:14px"><b>Puelloc</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/hysyyds>
+            <img src=https://avatars.githubusercontent.com/u/80150669?v=4 width="80;"  alt=hongyan/>
+            <br />
+            <sub style="font-size:14px"><b>hongyan</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/Dnoob>
+            <img src=https://avatars.githubusercontent.com/u/92987618?v=4 width="80;"  alt=Dnoob/>
+            <br />
+            <sub style="font-size:14px"><b>Dnoob</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+
+        <a href=https://github.com/Sadahlu>
+            <img src=https://avatars.githubusercontent.com/u/126563707?v=4 width="80;"  alt=Sadahlu/>
+            <br />
+            <sub style="font-size:14px"><b>Sadahlu</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/KurisuMakiseSame>
+            <img src=https://avatars.githubusercontent.com/u/168447425?v=4 width="80;"  alt=KurisuMakiseSame/>
+            <br />
+            <sub style="font-size:14px"><b>KurisuMakiseSame</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/kylooh>
+            <img src=https://avatars.githubusercontent.com/u/26456650?v=4 width="80;"  alt=Eliot White/>
+            <br />
+            <sub style="font-size:14px"><b>Eliot White</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/EvolvedGhost>
+            <img src=https://avatars.githubusercontent.com/u/92856393?v=4 width="80;"  alt=EvolvedGhost/>
+            <br />
+            <sub style="font-size:14px"><b>EvolvedGhost</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/ISCAS-zwl>
+            <img src=https://avatars.githubusercontent.com/u/179820048?v=4 width="80;"  alt=ISCAS-zwl/>
+            <br />
+            <sub style="font-size:14px"><b>ISCAS-zwl</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/James4Ever0>
+            <img src=https://avatars.githubusercontent.com/u/103997068?v=4 width="80;"  alt=James Brown/>
+            <br />
+            <sub style="font-size:14px"><b>জেমছ ব্ৰাউনৰ</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/LasRuinasCirculares>
+            <img src=https://avatars.githubusercontent.com/u/119716645?v=4 width="80;"  alt=JunZhang/>
+            <br />
+            <sub style="font-size:14px"><b>জুন ঝাং</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/openaitx-system>
+            <img src=https://avatars.githubusercontent.com/u/215529505?v=4 width="80;"  alt=Open AI Tx/>
+            <br />
+            <sub style="font-size:14px"><b>ওপেন এ.আই. টিএক্স</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/haosenwang1018>
+            <img src=https://avatars.githubusercontent.com/u/167664334?v=4 width="80;"  alt=Sense_wang/>
+            <br />
+            <sub style="font-size:14px"><b>চেন্স_ৱাং</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/DeJeune>
+            <img src=https://avatars.githubusercontent.com/u/67425183?v=4 width="80;"  alt=SuYao/>
+            <br />
+            <sub style="font-size:14px"><b>চু ইয়াও</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/Dormiveglia-elf>
+            <img src=https://avatars.githubusercontent.com/u/81767213?v=4 width="80;"  alt=Zhenyu/>
+            <br />
+            <sub style="font-size:14px"><b>ঝেন্যু</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=icip-cas/PPTAgent&type=Date)](https://star-history.com/#icip-cas/PPTAgent&Date)
 
-## Citation 🙏
+## উদ্ধৃতি 🙏
 
-If you find this project helpful, please use the following to cite it:
+আপুনি যদি এই প্ৰকল্পটো সহায়ক বুলি অনুভৱ কৰে, অনুগ্ৰহ কৰি তলত দিয়া উদ্ধৃতি ব্যৱহাৰ কৰক:
 ```bibtex
 @inproceedings{zheng-etal-2025-pptagent,
     title = "{PPTA}gent: Generating and Evaluating Presentations Beyond Text-to-Slides",
@@ -224,11 +404,21 @@ If you find this project helpful, please use the following to cite it:
     ISBN = "979-8-89176-332-6",
     abstract = "Automatically generating presentations from documents is a challenging task that requires accommodating content quality, visual appeal, and structural coherence. Existing methods primarily focus on improving and evaluating the content quality in isolation, overlooking visual appeal and structural coherence, which limits their practical applicability. To address these limitations, we propose PPTAgent, which comprehensively improves presentation generation through a two-stage, edit-based approach inspired by human workflows. PPTAgent first analyzes reference presentations to extract slide-level functional types and content schemas, then drafts an outline and iteratively generates editing actions based on selected reference slides to create new slides. To comprehensively evaluate the quality of generated presentations, we further introduce PPTEval, an evaluation framework that assesses presentations across three dimensions: Content, Design, and Coherence. Results demonstrate that PPTAgent significantly outperforms existing automatic presentation generation methods across all three dimensions."
 }
+
+@misc{zheng2026deeppresenterenvironmentgroundedreflectionagentic,
+      title={DeepPresenter: Environment-Grounded Reflection for Agentic Presentation Generation},
+      author={Hao Zheng and Guozhao Mo and Xinru Yan and Qianhao Yuan and Wenkai Zhang and Xuanang Chen and Yaojie Lu and Hongyu Lin and Xianpei Han and Le Sun},
+      year={2026},
+      eprint={2602.22839},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2602.22839},
+}
 ```
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-23
 
 ---

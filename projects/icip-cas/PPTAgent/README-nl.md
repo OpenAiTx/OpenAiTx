@@ -9,7 +9,7 @@
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ja">Japans</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ko">Koreaans</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=hi">Hindi</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=th">Thais</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fr">Frans</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=de">Duits</a>
@@ -19,94 +19,159 @@
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pt">Portugees</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=nl">Nederlands</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=pl">Pools</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=ar">Arabisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=fa">Perzisch</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=tr">Turks</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=vi">Vietnamees</a>
         | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=id">Indonesisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=as">অসমীয়া</a>
+        | <a href="https://openaitx.github.io/view.html?user=icip-cas&project=PPTAgent&lang=as">Assamees</a>
       </div>
     </div>
   </details>
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/pptagent-logo.png" width="240px">
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/pptagent-logo.jpg" width="240px" alt="https://github.com/icip-cas/PPTAgent">
 </div>
 
-https://github.com/user-attachments/assets/938889e8-d7d8-4f4f-b2a1-07ee3ef3991a
+<table>
+  <tr>
+    <td width="50%">
+      <video controls width="100%" src="https://github.com/user-attachments/assets/314bed6a-185e-4c81-9de5-35728e83e22a">
+      </video>
+    </td>
+    <td width="50%">
+      <video controls width="100%" src="https://github.com/user-attachments/assets/96eee616-5f79-4ea1-bd7f-bcaa466eda9e">
+      </video>
+    </td>
+  </tr>
+</table>
 
-## 📫 Contact
-> De belangrijkste bijdrager van deze repository is een masterstudent die afstudeert in 2026. Neem gerust contact op voor samenwerking of mogelijkheden.
+## Contact 📫
+> De belangrijkste bijdrager aan deze repository is een masterstudent die afstudeert in 2026, neem gerust contact op voor samenwerking of kansen.
 >
-> De belangrijkste bijdrager aan deze repository is een masterstudent die in 2026 afstudeert. Neem gerust contact op voor samenwerking of uitwisseling van ideeën.
+> 本仓库的主要贡献者是一名 2026 届硕士毕业生，欢迎联系合作或交流机会。
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/wechat.jpg" width="140px">
 </div>
 
-## 📅 Nieuws
-- [2026/01]: We ondersteunen nu vrije vorm en sjabloongeneratie, inclusief PPTX-export en offline modus! Contextbeheer toegevoegd om context-overloop te voorkomen.
-- [2025/12]: 🔥 V2 uitgebracht met grote verbeteringen - Diepe Onderzoeksintegratie, Vrije Vorm Visueel Ontwerp, Autonome Asset Creatie, Tekst-naar-beeld Generatie en Agent-omgeving met sandbox & meer dan 20 tools.
+## Nieuws 📅
+- [2026/03]: We ondersteunen nu CLI en hebben onze getrainde modellen uitgebracht op [Hugging Face 🤗](https://huggingface.co/collections/ICIP/deeppresenter)!
+- [2026/01]: We ondersteunen vrije vorm en sjabloongeneratie, PPTX-export en nu ook offline modus! Contextbeheer toegevoegd om context-overflow te voorkomen.
+- [2025/12]: 🔥 V2 uitgebracht met grote verbeteringen - Diepe Onderzoeksintegratie, Vrije Vorm Visueel Ontwerp, Autonome Asset Creatie, Tekst-naar-beeld Generatie en Agent-omgeving met sandbox & 20+ tools.
 - [2025/09]: 🛠️ MCP-serverondersteuning toegevoegd - zie [MCP Server](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/PPTAgent/DOC.md#mcp-server-) voor configuratiedetails
-- [2025/09]: 🚀 V2 uitgebracht met grote verbeteringen - zie [releasenotes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) voor details
-- [2025/08]: 🎉 Paper geaccepteerd bij **EMNLP 2025**!
-- [2025/05]: ✨ V1 uitgebracht met kernfunctionaliteit en 🌟 doorbraak: 1.000 sterren op GitHub bereikt! - zie [releasenotes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) voor details
-- [2025/01]: 🔓 Codebase open source gemaakt, met experimentele code gearchiveerd bij [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
+- [2025/09]: 🚀 V2 uitgebracht met grote verbeteringen - zie [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.2.0) voor details
+- [2025/08]: 🎉 Artikel geaccepteerd voor **EMNLP 2025**!
+- [2025/05]: ✨ V1 uitgebracht met kernfunctionaliteit en 🌟 doorbraak: 1.000 sterren op GitHub bereikt! - zie [release notes](https://github.com/icip-cas/PPTAgent/releases/tag/v0.1.0) voor details
+- [2025/01]: 🔓 Codebase open-source gemaakt, met experimentele code gearchiveerd op [experiment release](https://github.com/icip-cas/PPTAgent/releases/tag/experiment)
 
-## 📖 Gebruik
+## Gebruik 📖
 
-> [!BELANGRIJK]
-> 1. Al deze API-sleutels, configuraties en diensten zijn **vereist**.
-> 2. Aanbevolen Agent-backbone: Gebruik Claude voor de Research Agent en Gemini voor de Design Agent. GLM-4.7 is ook een goede keuze bij open-sourcemodellen.
-> 3. Offline modus wordt ondersteund met beperkte functionaliteit (zie Offline Setup hieronder).
+> [!IMPORTANT]
+> Windows wordt niet ondersteund. Gebruik WSL als u op Windows werkt.
+>
+> We raden sterk aan te beginnen met de CLI en een minimale taak om te controleren of afhankelijkheden en de omgeving correct zijn geconfigureerd.
+
+### Configuratie
+
+Als u de CLI gebruikt, kan `pptagent onboard` helpen deze configuraties interactief aan te maken en bij te werken. Als u Docker Compose gebruikt of vanaf de bron bouwt, moet u deze handmatig voorbereiden:
+
+```bash
+cp deeppresenter/config.yaml.example deeppresenter/config.yaml
+cp deeppresenter/mcp.json.example deeppresenter/mcp.json
+```
+
+#### Optionele Diensten Die De Kwaliteit Verbeteren
+
+De volgende diensten kunnen de generatiekwaliteit merkbaar verbeteren, vooral voor onderzoeksdiepte, PDF-parsing en het maken van visuele middelen:
+
+- **Tavily**: verbetert de kwaliteit van webzoekopdrachten. Vraag een API-sleutel aan op [tavily.com](https://www.tavily.com/), stel vervolgens `TAVILY_API_KEY` in in [`deeppresenter/mcp.json`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/mcp.json).
+- **MinerU**: verbetert de PDF-parseringskwaliteit. Vraag een API-sleutel aan op [mineru.net](https://mineru.net/apiManage/docs) en stel `MINERU_API_KEY` in in [`deeppresenter/mcp.json`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/mcp.json), of implementeer MinerU lokaal en stel in plaats daarvan `MINERU_API_URL` in.
+- **Text-to-image model**: verbetert de kwaliteit van afbeeldingsgeneratie. Configureer `t2i_model` in [`deeppresenter/config.yaml`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/config.yaml).
 
 
-### 1. Omgevingsconfiguratie
+Als je een volledig offline installatie wilt, implementeer MinerU dan lokaal en stel `offline_mode: true` in in `deeppresenter/config.yaml` om te voorkomen dat netwerkafhankelijke tools zoals websearch worden geladen.
 
-- **Maak configuratiebestanden aan** (vanaf de hoofdmap van het project):
+Meer configureerbare variabelen zijn te vinden in [constants.py](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/utils/constants.py).
 
-  ```bash
-  cp deeppresenter/deeppresenter/config.yaml.example deeppresenter/deeppresenter/config.yaml
-  cp deeppresenter/deeppresenter/mcp.json.example deeppresenter/deeppresenter/mcp.json
-  ```
+### 1. Persoonlijk Gebruik / OpenClaw-integratie: CLI
 
-- **Online setup**:
-  - **MinerU**: Vraag een API-sleutel aan via [mineru.net](https://mineru.net/apiManage/docs). Let op: elke sleutel is 14 dagen geldig.
-  - **Tavily**: Vraag een API-sleutel aan via [tavily.com](https://www.tavily.com/).
-  - **LLM**: Stel je model-endpoint, API-sleutels en gerelateerde parameters in via `config.yaml`.
+> [!OPMERKING]
+> Op macOS kan de CLI automatisch verschillende lokale afhankelijkheden installeren, waaronder Homebrew, Node.js, Docker, poppler, Playwright en llama.cpp.
+>
+> Op Linux dien je de omgeving zelf voor te bereiden.
 
-- **Offline setup**:
-  - **MinerU**: Implementeer de MinerU-server volgens de instructies op [MinerU docker gids](https://opendatalab.github.io/MinerU/quick_start/docker_deployment/#start-services-directly-with-docker-compose)
-  - **Config-switch**: Stel `offline_mode: true` in [`config.yaml`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/deeppresenter/config.yaml) in om te voorkomen dat netwerkafhankelijke tools (zoals `fetch`, `search`) worden geladen.
-  - **MinerU endpoint**: Stel `MINERU_API_URL` in [`mcp.json`](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/deeppresenter/mcp.json) in op de URL van je lokale MinerU-service
+Gebruik deze modus als je de snelste lokale installatie wilt of DeepPresenter via de CLI in OpenClaw wilt integreren.
 
-### 2. Service-opstart
+```bash
+# Install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
-Bouw docker-images: `docker compose build`
+# First-time interactive setup
+uvx pptagent onboard
 
-- **Via Docker Compose**:
+# Generate a presentation
+uvx pptagent generate "Single Page with Title: Hello World" -o hello.pptx
 
-  ```bash
-  docker compose up -d
-  ```
+# Generate with attachments
+uvx pptagent generate "Q4 Report" \
+  -f data.xlsx \
+  -f charts.pdf \
+  -p "10-12" \
+  -o report.pptx
+```
 
-- **Lokaal uitvoeren**:
+| Commando                | Beschrijving                                         |
+| ----------------------- | ---------------------------------------------------- |
+| `pptagent onboard`      | Interactieve configuratiewizard                      |
+| `pptagent generate`     | Genereer presentaties                                |
+| `pptagent config`       | Bekijk huidige configuratie                          |
+| `pptagent reset`        | Reset configuratie                                   |
+| `pptagent serve`        | Start de lokale inference-service gebruikt door de CLI |
 
-  ```bash
-  cd deeppresenter
-  pip install -e .
-  playwright install-deps
-  playwright install chromium
-  npm install
-  npx playwright install chromium
-  python webui.py
-  ```
+### 2. Minimale Setup / Ontwikkeling: Bouwen vanaf broncode
 
-> [!TIP]
-> 🚀 All configurable variables can be found in [constants.py](https://raw.githubusercontent.com/icip-cas/PPTAgent/main/deeppresenter/deeppresenter/utils/constants.py).
+Gebruik deze modus als u de kleinste abstractielaag wilt en volledige controle over afhankelijkheden tijdens ontwikkeling.
 
-## 💡 Case Study
+```bash
+uv pip install -e .
+playwright install-deps
+playwright install chromium
+npm install --prefix deeppresenter/html2pptx
+
+docker pull forceless/deeppresenter-sandbox:0.1.0
+docker tag forceless/deeppresenter-sandbox:0.1.0 deeppresenter-sandbox:0.1.0
+
+# or build from dockerfile
+docker build -t deeppresenter-sandbox:0.1.0 -f deeppresenter/docker/SandBox.Dockerfile .
+```
+
+Start de app:
+
+```bash
+python webui.py
+```
+
+### 3. Serverimplementatie: Docker Compose
+
+Gebruik deze modus voor een stabiele serveromgeving met expliciete afhankelijkheden.
+
+```bash
+# Pull the public images to avoid build from source
+docker pull forceless/deeppresenter-sandbox:0.1.0
+docker tag forceless/deeppresenter-sandbox:0.1.0 deeppresenter-sandbox:0.1.0
+
+# Or build from source
+docker build -t deeppresenter-sandbox:0.1.0 -f deeppresenter/docker/SandBox.Dockerfile .
+
+# Start the host service
+docker compose up -d deeppresenter-host
+```
+
+The service exposes the web UI on `http://localhost:7861`.
+
+## Case Study 💡
 
 - #### Prompt: Please present the given document to me.
 
@@ -184,18 +249,133 @@ Bouw docker-images: `docker compose build`
 
   <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0014.jpg" alt="图片14" width="200"/>
 
-  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0015.jpg" alt="图片15" width="200"/>
+  <img src="https://raw.githubusercontent.com/icip-cas/PPTAgent/main/resource/v2/presentation2/0015.jpg" alt="Afbeelding15" width="200"/>
 
 </div>
 
 ---
 
+## Bijdragers 🌟
 
-[![Star History Chart](https://api.star-history.com/svg?repos=icip-cas/PPTAgent&type=Date)](https://star-history.com/#icip-cas/PPTAgent&Date)
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/Force1ess>
+            <img src=https://avatars.githubusercontent.com/u/72636351?v=4 width="80;"  alt=Force1ess/>
+            <br />
+            <sub style="font-size:14px"><b>Force1ess</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/Puellaquae>
+            <img src=https://avatars.githubusercontent.com/u/22560343?v=4 width="80;"  alt=Puelloc/>
+            <br />
+            <sub style="font-size:14px"><b>Puelloc</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/hysyyds>
+            <img src=https://avatars.githubusercontent.com/u/80150669?v=4 width="80;"  alt=hongyan/>
+            <br />
+            <sub style="font-size:14px"><b>hongyan</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/Dnoob>
+            <img src=https://avatars.githubusercontent.com/u/92987618?v=4 width="80;"  alt=Dnoob/>
+            <br />
+            <sub style="font-size:14px"><b>Dnoob</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/Sadahlu>
+            <img src=https://avatars.githubusercontent.com/u/126563707?v=4 width="80;"  alt=Sadahlu/>
+            <br />
+            <sub style="font-size:14px"><b>Sadahlu</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/KurisuMakiseSame>
+            <img src=https://avatars.githubusercontent.com/u/168447425?v=4 width="80;"  alt=KurisuMakiseSame/>
+            <br />
+            <sub style="font-size:14px"><b>KurisuMakiseSame</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/kylooh>
+            <img src=https://avatars.githubusercontent.com/u/26456650?v=4 width="80;"  alt=Eliot White/>
+            <br />
+            <sub style="font-size:14px"><b>Eliot White</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/EvolvedGhost>
+            <img src=https://avatars.githubusercontent.com/u/92856393?v=4 width="80;"  alt=EvolvedGhost/>
+            <br />
+            <sub style="font-size:14px"><b>EvolvedGhost</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/ISCAS-zwl>
+            <img src=https://avatars.githubusercontent.com/u/179820048?v=4 width="80;"  alt=ISCAS-zwl/>
+            <br />
+            <sub style="font-size:14px"><b>ISCAS-zwl</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/James4Ever0>
+            <img src=https://avatars.githubusercontent.com/u/103997068?v=4 width="80;"  alt=James Brown/>
+            <br />
+            <sub style="font-size:14px"><b>James Brown</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/LasRuinasCirculares>
+            <img src=https://avatars.githubusercontent.com/u/119716645?v=4 width="80;"  alt=JunZhang/>
+            <br />
+            <sub style="font-size:14px"><b>JunZhang</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/openaitx-system>
+            <img src=https://avatars.githubusercontent.com/u/215529505?v=4 width="80;"  alt=Open AI Tx/>
+            <br />
+            <sub style="font-size:14px"><b>Open AI Tx</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/haosenwang1018>
+            <img src=https://avatars.githubusercontent.com/u/167664334?v=4 width="80;"  alt=Sense_wang/>
+            <br />
+            <sub style="font-size:14px"><b>Sense_wang</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/DeJeune>
+            <img src=https://avatars.githubusercontent.com/u/67425183?v=4 width="80;"  alt=SuYao/>
+            <br />
+            <sub style="font-size:14px"><b>SuYao</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/Dormiveglia-elf>
+            <img src=https://avatars.githubusercontent.com/u/81767213?v=4 width="80;"  alt=Zhenyu/>
+            <br />
+            <sub style="font-size:14px"><b>Zhenyu</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
 
-## Citation 🙏
+[![Sterren Geschiedenis Grafiek](https://api.star-history.com/svg?repos=icip-cas/PPTAgent&type=Date)](https://star-history.com/#icip-cas/PPTAgent&Date)
 
-If you find this project helpful, please use the following to cite it:
+## Citaat 🙏
+
+Als u dit project nuttig vindt, gebruik dan het volgende om het te citeren:
 ```bibtex
 @inproceedings{zheng-etal-2025-pptagent,
     title = "{PPTA}gent: Generating and Evaluating Presentations Beyond Text-to-Slides",
@@ -224,11 +404,21 @@ If you find this project helpful, please use the following to cite it:
     ISBN = "979-8-89176-332-6",
     abstract = "Automatically generating presentations from documents is a challenging task that requires accommodating content quality, visual appeal, and structural coherence. Existing methods primarily focus on improving and evaluating the content quality in isolation, overlooking visual appeal and structural coherence, which limits their practical applicability. To address these limitations, we propose PPTAgent, which comprehensively improves presentation generation through a two-stage, edit-based approach inspired by human workflows. PPTAgent first analyzes reference presentations to extract slide-level functional types and content schemas, then drafts an outline and iteratively generates editing actions based on selected reference slides to create new slides. To comprehensively evaluate the quality of generated presentations, we further introduce PPTEval, an evaluation framework that assesses presentations across three dimensions: Content, Design, and Coherence. Results demonstrate that PPTAgent significantly outperforms existing automatic presentation generation methods across all three dimensions."
 }
+
+@misc{zheng2026deeppresenterenvironmentgroundedreflectionagentic,
+      title={DeepPresenter: Environment-Grounded Reflection for Agentic Presentation Generation},
+      author={Hao Zheng and Guozhao Mo and Xinru Yan and Qianhao Yuan and Wenkai Zhang and Xuanang Chen and Yaojie Lu and Hongyu Lin and Xianpei Han and Le Sun},
+      year={2026},
+      eprint={2602.22839},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2602.22839},
+}
 ```
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-23
 
 ---

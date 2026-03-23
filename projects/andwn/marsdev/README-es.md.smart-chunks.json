@@ -1,0 +1,1239 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Marsdev\n\nCross-platform Sega Mega Drive / Super 32X / Sharp X68000 toolchain.\n\nEnglish | [日本語](https://raw.githubusercontent.com/andwn/marsdev/master/README-ja.md)\n\n\n## Compile & Install\n\n### 1.1 Dependencies\n\nInstall the following packages, depending on your operating system:\n  * Debian: `apt install build-essential texinfo wget`\n  * RedHat: `yum install gcc gcc-c++ texinfo-tex wget`\n  * Arch: `pacman -S base-devel texinfo wget`\n  * Gentoo: `emerge sys-apps/texinfo net-misc/wget`\n  * macOS: `xcode-select --install && brew install wget`\n\n\n### 2. GCC Toolchain\n\nClone the repo:\n - `git clone https://github.com/andwn/marsdev --recurse-submodules`\n - `cd marsdev`\n\n---\n**NOTE**\n\nThere are two variables that control which directory Marsdev is built and installed:\n - `MARS_BUILD_DIR` = (REPOSITORY_ROOT)/mars\n - `MARS_INSTALL_DIR` = /opt/toolchains/mars\n\nIf you wish to change the location of either, use an export command like this:\n - `export MARS_INSTALL_DIR=/path/to/mars`\n\nIf you forget `--recurse-submodules` then run:\n - `git submodule init && git submodule update`\n\nAlso, it is **highly recommended** to use something like `-j8`, replacing the 8 with\nthe number of CPU cores you have. I've run into weird unexplainable problems with `-j`",
+    "ContentSha": "wP2NTvEobQFtwnhYzE2qf7I1QL5W4S55oYhi+ypPtGI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Marsdev\n\nCadena de herramientas multiplataforma para Sega Mega Drive / Super 32X / Sharp X68000.\n\nEnglish | [日本語](https://raw.githubusercontent.com/andwn/marsdev/master/README-ja.md)\n\n\n## Compilar e Instalar\n\n### 1.1 Dependencias\n\nInstale los siguientes paquetes, según su sistema operativo:\n  * Debian: `apt install build-essential texinfo wget`\n  * RedHat: `yum install gcc gcc-c++ texinfo-tex wget`\n  * Arch: `pacman -S base-devel texinfo wget`\n  * Gentoo: `emerge sys-apps/texinfo net-misc/wget`\n  * macOS: `xcode-select --install && brew install wget`\n\n\n### 2. Cadena de herramientas GCC\n\nClone el repositorio:\n - `git clone https://github.com/andwn/marsdev --recurse-submodules`\n - `cd marsdev`\n\n---\n**NOTA**\n\nHay dos variables que controlan en qué directorio se construye e instala Marsdev:\n - `MARS_BUILD_DIR` = (REPOSITORY_ROOT)/mars\n - `MARS_INSTALL_DIR` = /opt/toolchains/mars\n\nSi desea cambiar la ubicación de cualquiera de ellos, use un comando export como este:\n - `export MARS_INSTALL_DIR=/path/to/mars`\n\nSi olvida `--recurse-submodules` entonces ejecute:\n - `git submodule init && git submodule update`\n\nAdemás, se **recomienda encarecidamente** usar algo como `-j8`, reemplazando el 8 por\nel número de núcleos de CPU que tenga. Me he encontrado con problemas extraños e inexplicables con `-j`",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dEuTqC85HrrqFN0DFMfrdRjlVYXvxq21ZQSIAg3ja1g=",
+        "originContent": "# Marsdev",
+        "translatedContent": "# Marsdev"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "I62WdGHDZhB8lch1VWWQbdQYdp2igpdWLHVtKh5+IYg=",
+        "originContent": "Cross-platform Sega Mega Drive / Super 32X / Sharp X68000 toolchain.",
+        "translatedContent": "Cadena de herramientas multiplataforma para Sega Mega Drive / Super 32X / Sharp X68000."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "6R/3nH+nXv4vxGbOq8chjJLh7dWaVgxoytZO85u+gfk=",
+        "originContent": "English | [日本語](https://raw.githubusercontent.com/andwn/marsdev/master/README-ja.md)",
+        "translatedContent": "English | [日本語](https://raw.githubusercontent.com/andwn/marsdev/master/README-ja.md)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "htwn5+IY6yv2YUHYNrXXSYLloTdeFJsgvY9s3rhMU1Q=",
+        "originContent": "## Compile & Install",
+        "translatedContent": "## Compilar e Instalar"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "jm3JhPEIw5+Jr3dkFxZx3hV9CCdVzbckjM2+nwnGLJU=",
+        "originContent": "### 1.1 Dependencies",
+        "translatedContent": "### 1.1 Dependencias"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "CcIKvnqoZvAqs+E/k+5zO8CpBCx9e8jA1QA7P3Hlt0U=",
+        "originContent": "Install the following packages, depending on your operating system:",
+        "translatedContent": "Instale los siguientes paquetes, según su sistema operativo:"
+      },
+      {
+        "row": 13,
+        "rowsha": "k8HLryGfyhjAKsixx3QTCSiYimV+J40U5rAn8RU7Ceo=",
+        "originContent": "  * Debian: `apt install build-essential texinfo wget`",
+        "translatedContent": "  * Debian: `apt install build-essential texinfo wget`"
+      },
+      {
+        "row": 14,
+        "rowsha": "EyURoEKAdrPd9iZCPm4nti8+C/2eaQL9zrslgH6/M6c=",
+        "originContent": "  * RedHat: `yum install gcc gcc-c++ texinfo-tex wget`",
+        "translatedContent": "  * RedHat: `yum install gcc gcc-c++ texinfo-tex wget`"
+      },
+      {
+        "row": 15,
+        "rowsha": "xIhwdkvTRwKjzERH5mjeSen4estZX9Ac4bUd8xUk07c=",
+        "originContent": "  * Arch: `pacman -S base-devel texinfo wget`",
+        "translatedContent": "  * Arch: `pacman -S base-devel texinfo wget`"
+      },
+      {
+        "row": 16,
+        "rowsha": "jBENXswCQEfbvnykF2p8PqDfi5nTLEk3Pje7/Ez+Rbw=",
+        "originContent": "  * Gentoo: `emerge sys-apps/texinfo net-misc/wget`",
+        "translatedContent": "  * Gentoo: `emerge sys-apps/texinfo net-misc/wget`"
+      },
+      {
+        "row": 17,
+        "rowsha": "KfFxKVT6e/FUieOOkGGuMMgX7sRGuC1FmVPsOOtVZiI=",
+        "originContent": "  * macOS: `xcode-select --install && brew install wget`",
+        "translatedContent": "  * macOS: `xcode-select --install && brew install wget`"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "XP23r/Y6BLBhIpl0o/w8jzQpaZcLCZYde1y+YBr0LUE=",
+        "originContent": "### 2. GCC Toolchain",
+        "translatedContent": "### 2. Cadena de herramientas GCC"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "6C6Kuuxwacu2h4MPBRwL4mNhjPej/ASP4C/ahXFiKpg=",
+        "originContent": "Clone the repo:",
+        "translatedContent": "Clone el repositorio:"
+      },
+      {
+        "row": 23,
+        "rowsha": "yDlCDDv3pWWndTYwnoSg8/UlpNew9/1Gv9OJCrtvW0s=",
+        "originContent": " - `git clone https://github.com/andwn/marsdev --recurse-submodules`",
+        "translatedContent": " - `git clone https://github.com/andwn/marsdev --recurse-submodules`"
+      },
+      {
+        "row": 24,
+        "rowsha": "ORCesMYK9K0hNigrsdSfXB25QI/v+OstDcwJ3lqTIjA=",
+        "originContent": " - `cd marsdev`",
+        "translatedContent": " - `cd marsdev`"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 27,
+        "rowsha": "YOPO+NgnUEqyOltSSEIZKKDPF45h7glD4zmIXZkdd4A=",
+        "originContent": "**NOTE**",
+        "translatedContent": "**NOTA**"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "1WVcughiS/z29R5i/XTtaEW5pEUfAiHqABN//ynlsrs=",
+        "originContent": "There are two variables that control which directory Marsdev is built and installed:",
+        "translatedContent": "Hay dos variables que controlan en qué directorio se construye e instala Marsdev:"
+      },
+      {
+        "row": 30,
+        "rowsha": "qY9wE7M1CedlXSeLsQCEFRY5iplaYxsw29EfJgyuKno=",
+        "originContent": " - `MARS_BUILD_DIR` = (REPOSITORY_ROOT)/mars",
+        "translatedContent": " - `MARS_BUILD_DIR` = (REPOSITORY_ROOT)/mars"
+      },
+      {
+        "row": 31,
+        "rowsha": "Gfc2o+uuMpwYiwQWs7FbXUd7hnKFi8QEo4bMMcdBtU0=",
+        "originContent": " - `MARS_INSTALL_DIR` = /opt/toolchains/mars",
+        "translatedContent": " - `MARS_INSTALL_DIR` = /opt/toolchains/mars"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "PyM4218N3jRnC7zR9rUDGDc5E0iRVW0jh238DtyWx9s=",
+        "originContent": "If you wish to change the location of either, use an export command like this:",
+        "translatedContent": "Si desea cambiar la ubicación de cualquiera de ellos, use un comando export como este:"
+      },
+      {
+        "row": 34,
+        "rowsha": "xyoVQomURZwuTB5boQrlub4ZPDlymuoXG6mXQ+7BUCc=",
+        "originContent": " - `export MARS_INSTALL_DIR=/path/to/mars`",
+        "translatedContent": " - `export MARS_INSTALL_DIR=/path/to/mars`"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "HKkmwIKkh/ieiMP2kW0j8EIg0q9OdFbnoA5PMx2tBTQ=",
+        "originContent": "If you forget `--recurse-submodules` then run:",
+        "translatedContent": "Si olvida `--recurse-submodules` entonces ejecute:"
+      },
+      {
+        "row": 37,
+        "rowsha": "GnqY646LgalmrjYiy85EoCEcEmDQjPBNa5an3o9PfYI=",
+        "originContent": " - `git submodule init && git submodule update`",
+        "translatedContent": " - `git submodule init && git submodule update`"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "84w5X0UhmKu5AWgu8jm6Dmb3R0585SU1RR0SCOlDrBM=",
+        "originContent": "Also, it is **highly recommended** to use something like `-j8`, replacing the 8 with",
+        "translatedContent": "Además, se **recomienda encarecidamente** usar algo como `-j8`, reemplazando el 8 por"
+      },
+      {
+        "row": 40,
+        "rowsha": "7WfcRBwzjomnwk+053ZqUDZx1BSxy4H9wp1ZCO9F5Oc=",
+        "originContent": "the number of CPU cores you have. I've run into weird unexplainable problems with `-j`",
+        "translatedContent": "el número de núcleos de CPU que tenga. Me he encontrado con problemas extraños e inexplicables con `-j`"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "by itself, so please specify a number.\n\n---\n\nYou have 2 options for building GCC:\n - `make m68k-toolchain` - Without Newlib\n - `make m68k-toolchain-newlib` - With Newlib\n\nFor 32X, the `sh` toolchain must also be built.\nThe options are the same, swapping out `m68k` in the commands above with `sh`.\n\nIf you want a different GCC version, or to build specific languages:\n - `make m68k-toolchain-newlib GCC_VER=12.4.0 LANGS=c,c++`\n\n\n### 3. (Optional) SGDK\n\nSGDK requires Java, so Install it.\n  * Debian: `apt install openjdk-11-jre`\n  * RedHat: `yum install java-11-openjdk`\n  * Arch: `pacman -S jdk11-openjdk`\n  * Gentoo: `emerge dev-java/openjdk`\n  * macOS: `brew install java`\n\n---\n**Note for macOS**\n\nOpenJDK needs to be added to the PATH.\n - Open `~/.zshrc` (or `~/.bashrc` if you still use bash) and add the line:\n    - `export PATH=\"/usr/local/opt/openjdk/bin:$PATH\"`\n - Restart the terminal or run `source ~/.zshrc`\n\n---\n\nBuild SGDK:\n - `make sgdk`\n\nA specific version of SGDK can be specified with `SGDK_VER=<git tag>`,\nbut I cannot guarantee versions other than the default to work.\nAdventurous people who want to test the latest changes can specify `SGDK_VER=master` too.",
+    "ContentSha": "deeGI7dmEJqWghHcAfS9JeRkQvzeKV2rAszbSt5B7ew=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "por sí solo, así que por favor especifique un número.\n\n---\n\nTiene 2 opciones para construir GCC:\n - `make m68k-toolchain` - Sin Newlib\n - `make m68k-toolchain-newlib` - Con Newlib\n\nPara 32X, también debe construirse la cadena de herramientas `sh`.\nLas opciones son las mismas, reemplazando `m68k` en los comandos anteriores por `sh`.\n\nSi desea una versión diferente de GCC, o construir lenguajes específicos:\n - `make m68k-toolchain-newlib GCC_VER=12.4.0 LANGS=c,c++`\n\n\n### 3. (Opcional) SGDK\n\nSGDK requiere Java, así que instálelo.\n  * Debian: `apt install openjdk-11-jre`\n  * RedHat: `yum install java-11-openjdk`\n  * Arch: `pacman -S jdk11-openjdk`\n  * Gentoo: `emerge dev-java/openjdk`\n  * macOS: `brew install java`\n\n---\n**Nota para macOS**\n\nOpenJDK necesita ser añadido al PATH.\n - Abra `~/.zshrc` (o `~/.bashrc` si todavía usa bash) y agregue la línea:\n    - `export PATH=\"/usr/local/opt/openjdk/bin:$PATH\"`\n - Reinicie la terminal o ejecute `source ~/.zshrc`\n\n---\n\nConstruya SGDK:\n - `make sgdk`\n\nSe puede especificar una versión específica de SGDK con `SGDK_VER=<git tag>`,\npero no puedo garantizar que versiones distintas a la predeterminada funcionen.\nLas personas aventureras que quieran probar los últimos cambios también pueden especificar `SGDK_VER=master`.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "63uDJm8KZoBmVETEewfF/9CR4jfvl+hDJ46YQn5v0Rk=",
+        "originContent": "by itself, so please specify a number.",
+        "translatedContent": "por sí solo, así que por favor especifique un número."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "nsPZLZCQc67vtBNzrZtmUq/lew4S1CCJMLqq4fQbGY8=",
+        "originContent": "You have 2 options for building GCC:",
+        "translatedContent": "Tiene 2 opciones para construir GCC:"
+      },
+      {
+        "row": 6,
+        "rowsha": "7MbiCql39BSTnR28ZmJqdAmWqjIigKxHmdza3WXxHdA=",
+        "originContent": " - `make m68k-toolchain` - Without Newlib",
+        "translatedContent": " - `make m68k-toolchain` - Sin Newlib"
+      },
+      {
+        "row": 7,
+        "rowsha": "g++39d/XsvZbEFbW0IBgiR+AJ+3XseuRopZv0pxDpOU=",
+        "originContent": " - `make m68k-toolchain-newlib` - With Newlib",
+        "translatedContent": " - `make m68k-toolchain-newlib` - Con Newlib"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "wJHfyHUJYy6+XL9muTpkHxhApEYcYbmd7l5Fvjpe4EE=",
+        "originContent": "For 32X, the `sh` toolchain must also be built.",
+        "translatedContent": "Para 32X, también debe construirse la cadena de herramientas `sh`."
+      },
+      {
+        "row": 10,
+        "rowsha": "tpvPUaLsCU/I4CVp5foM+vUwfbc9k49FcUEL2O3QO3c=",
+        "originContent": "The options are the same, swapping out `m68k` in the commands above with `sh`.",
+        "translatedContent": "Las opciones son las mismas, reemplazando `m68k` en los comandos anteriores por `sh`."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "oWopUwbtIS6awDk444K/y2y+kSQVzB7+IATVJ4NFR3k=",
+        "originContent": "If you want a different GCC version, or to build specific languages:",
+        "translatedContent": "Si desea una versión diferente de GCC, o construir lenguajes específicos:"
+      },
+      {
+        "row": 13,
+        "rowsha": "2fpH30/ZNT/4DtDNgBov7cyoIjtgUwOuXteZCpaoXag=",
+        "originContent": " - `make m68k-toolchain-newlib GCC_VER=12.4.0 LANGS=c,c++`",
+        "translatedContent": " - `make m68k-toolchain-newlib GCC_VER=12.4.0 LANGS=c,c++`"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "YQp0z8x1cnyfcy6cEGP/Ck9dAApkZkB8ujZnuzAN7i0=",
+        "originContent": "### 3. (Optional) SGDK",
+        "translatedContent": "### 3. (Opcional) SGDK"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "R3ucfRkOwkNS+KClXY+8cscNHYpXfLJfPIAgPhLaybs=",
+        "originContent": "SGDK requires Java, so Install it.",
+        "translatedContent": "SGDK requiere Java, así que instálelo."
+      },
+      {
+        "row": 19,
+        "rowsha": "Nl4P/JjiPfr2k5RuWEG1GThghBAlmTLEB44J0xhXqrk=",
+        "originContent": "  * Debian: `apt install openjdk-11-jre`",
+        "translatedContent": "  * Debian: `apt install openjdk-11-jre`"
+      },
+      {
+        "row": 20,
+        "rowsha": "YkpbVOUKjqCDwOgUhxBhMIoM68jOIG/ePQNVAmjUHvQ=",
+        "originContent": "  * RedHat: `yum install java-11-openjdk`",
+        "translatedContent": "  * RedHat: `yum install java-11-openjdk`"
+      },
+      {
+        "row": 21,
+        "rowsha": "bZ32hq5DiYL7teoddBpt45oRT4jVOlx2YPdic3v375A=",
+        "originContent": "  * Arch: `pacman -S jdk11-openjdk`",
+        "translatedContent": "  * Arch: `pacman -S jdk11-openjdk`"
+      },
+      {
+        "row": 22,
+        "rowsha": "5zs+LSqQ5ap88g36tSwgKcHCKoOZi6cDGiLOnpBYSNY=",
+        "originContent": "  * Gentoo: `emerge dev-java/openjdk`",
+        "translatedContent": "  * Gentoo: `emerge dev-java/openjdk`"
+      },
+      {
+        "row": 23,
+        "rowsha": "X9zd29IgkRcuyGFegkIdQq83iFU1Y1s+IrvHj7CEHhI=",
+        "originContent": "  * macOS: `brew install java`",
+        "translatedContent": "  * macOS: `brew install java`"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 26,
+        "rowsha": "iSETU3EH7+/eNQ+R25+E4w3/D3weimQSD21Kw4+5TY0=",
+        "originContent": "**Note for macOS**",
+        "translatedContent": "**Nota para macOS**"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "iAh3rHGMJg3ZBOUns69gayZzDiNfQq2BA7l0ZG3c0ro=",
+        "originContent": "OpenJDK needs to be added to the PATH.",
+        "translatedContent": "OpenJDK necesita ser añadido al PATH."
+      },
+      {
+        "row": 29,
+        "rowsha": "5EQ5Zbzyrwywv4lTpDVJCXgrtD62OEh7NhRZVEctKf0=",
+        "originContent": " - Open `~/.zshrc` (or `~/.bashrc` if you still use bash) and add the line:",
+        "translatedContent": " - Abra `~/.zshrc` (o `~/.bashrc` si todavía usa bash) y agregue la línea:"
+      },
+      {
+        "row": 30,
+        "rowsha": "TJYol0RgMUsKDWvJVpiAGLUqqsN88RBcCH9lu5ydTdI=",
+        "originContent": "    - `export PATH=\"/usr/local/opt/openjdk/bin:$PATH\"`",
+        "translatedContent": "    - `export PATH=\"/usr/local/opt/openjdk/bin:$PATH\"`"
+      },
+      {
+        "row": 31,
+        "rowsha": "3d3lkPwIZnlP0Es6e6HUbjjwMzZqPMFinQul3nkJs/4=",
+        "originContent": " - Restart the terminal or run `source ~/.zshrc`",
+        "translatedContent": " - Reinicie la terminal o ejecute `source ~/.zshrc`"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "5nF92k30oHRSK85wjHlWmVT8AeG+OzYGct/0PWSIw9c=",
+        "originContent": "Build SGDK:",
+        "translatedContent": "Construya SGDK:"
+      },
+      {
+        "row": 36,
+        "rowsha": "hGrbiXu7li1iMfdeCIb+OZQYPSNLsyIn+VM34SdiVDc=",
+        "originContent": " - `make sgdk`",
+        "translatedContent": " - `make sgdk`"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "8AdF6J/dQ6KWRXjWbX6K5cHUticPE/JhHBfMI+bjtco=",
+        "originContent": "A specific version of SGDK can be specified with `SGDK_VER=<git tag>`,",
+        "translatedContent": "Se puede especificar una versión específica de SGDK con `SGDK_VER=<git tag>`,"
+      },
+      {
+        "row": 39,
+        "rowsha": "w0wTEhbCau1TE6Yh3zW/fdWciqs8+XlB0QsZXkLLG+o=",
+        "originContent": "but I cannot guarantee versions other than the default to work.",
+        "translatedContent": "pero no puedo garantizar que versiones distintas a la predeterminada funcionen."
+      },
+      {
+        "row": 40,
+        "rowsha": "w/zAK3fFhSjRAnC0KE1lb8TpbCPRMyNWxegCP20juTQ=",
+        "originContent": "Adventurous people who want to test the latest changes can specify `SGDK_VER=master` too.",
+        "translatedContent": "Las personas aventureras que quieran probar los últimos cambios también pueden especificar `SGDK_VER=master`."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n### 4.1 (Optional) Other Tools\n\nThe following targets are also available:\n - `make x68k-tools` - Sharp X68000 compatibility\n - `make mdtools-sik` - Contains mdtiler and some Echo stuff (req. libpng)\n - `make mdtools-flamewing` - Compression tools for data in Sonic games (req. boost)\n\n ### 4.2 (Experimental) LLVM\n\nNeed cmake, ninja and python3:\n - Debian: `apt install cmake ninja-build python3`\n - (TODO: Fill in the others)\n\nLLVM with clang for M68k can be built:\n - `make m68k-llvm`\n \nTesting hasn't been done yet and examples/skeleton projects still need to be made.\n\n\n### 5. Install\n\nJust run `sudo make install`. Remember the path to the environment setup script,\nand consider adding it to your ~/.bashrc (or ~/.zshrc).\n\n\n## Examples\n\nThe `examples` directory contains various skeleton/example projects to base others on.\nFor more information on each read [examples/README.md](https://raw.githubusercontent.com/andwn/marsdev/master/examples/README.md).\n\nShould be as easy as a `make` for any of them.\n\n\n## Occasionally Asked Questions\n\n### Whatever man, I just want to use SGDK on Linux\n\nInstall:\n",
+    "ContentSha": "3gv8LEoYHiQepM7zaaUO/tPQmgiJxZIS/HxlYubn5So=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 4.1 (Opcional) Otras Herramientas\n\nLos siguientes objetivos también están disponibles:\n - `make x68k-tools` - Compatibilidad con Sharp X68000\n - `make mdtools-sik` - Contiene mdtiler y algunas cosas de Echo (requiere libpng)\n - `make mdtools-flamewing` - Herramientas de compresión para datos en juegos Sonic (requiere boost)\n\n ### 4.2 (Experimental) LLVM\n\nSe necesitan cmake, ninja y python3:\n - Debian: `apt install cmake ninja-build python3`\n - (TODO: Completar los demás)\n\nLLVM con clang para M68k puede ser construido:\n - `make m68k-llvm`\n \nLas pruebas aún no se han realizado y los proyectos de ejemplo/esqueleto aún necesitan ser creados.\n\n\n### 5. Instalación\n\nSimplemente ejecuta `sudo make install`. Recuerda la ruta del script de configuración del entorno,\ny considera agregarla a tu ~/.bashrc (o ~/.zshrc).\n\n\n## Ejemplos\n\nEl directorio `examples` contiene varios proyectos esqueleto/ejemplo para basar otros.\nPara más información sobre cada uno lee [examples/README.md](https://raw.githubusercontent.com/andwn/marsdev/master/examples/README.md).\n\nDebería ser tan fácil como un `make` para cualquiera de ellos.\n\n\n## Preguntas Frecuentes Ocasionales\n\n### Lo que sea, solo quiero usar SGDK en Linux\n\nInstala:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "y9XX/CfxlzUTFQru9NrOGm+SCFXdR2Skfb/GI7tw0gA=",
+        "originContent": "### 4.1 (Optional) Other Tools",
+        "translatedContent": "### 4.1 (Opcional) Otras Herramientas"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "oIEWOcBXnZmTBDnW+W5SZYvCt9ltHbShBCLS8VUTN+4=",
+        "originContent": "The following targets are also available:",
+        "translatedContent": "Los siguientes objetivos también están disponibles:"
+      },
+      {
+        "row": 5,
+        "rowsha": "aO7bFslQsPSXbVdOMGHj5XnFfLazX/d1C+mimWSKQJQ=",
+        "originContent": " - `make x68k-tools` - Sharp X68000 compatibility",
+        "translatedContent": " - `make x68k-tools` - Compatibilidad con Sharp X68000"
+      },
+      {
+        "row": 6,
+        "rowsha": "Dn4sID3FNl7VtctVovV910RPzkbfuUQoM5MWFHnxdYk=",
+        "originContent": " - `make mdtools-sik` - Contains mdtiler and some Echo stuff (req. libpng)",
+        "translatedContent": " - `make mdtools-sik` - Contiene mdtiler y algunas cosas de Echo (requiere libpng)"
+      },
+      {
+        "row": 7,
+        "rowsha": "7nhFcb7Tthgv+ybm6aZ2OlGx9pwgsKuPyYczGVLjmBg=",
+        "originContent": " - `make mdtools-flamewing` - Compression tools for data in Sonic games (req. boost)",
+        "translatedContent": " - `make mdtools-flamewing` - Herramientas de compresión para datos en juegos Sonic (requiere boost)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "7Bt4rpLIs0ZF7Cllca5QM1XLWN+Hv5/X5xDcoAor4KY=",
+        "originContent": " ### 4.2 (Experimental) LLVM",
+        "translatedContent": " ### 4.2 (Experimental) LLVM"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "DIowwkJ8fG04QdKBVm3NKp8eEdKyLnjJc9P5/9Z1RFA=",
+        "originContent": "Need cmake, ninja and python3:",
+        "translatedContent": "Se necesitan cmake, ninja y python3:"
+      },
+      {
+        "row": 12,
+        "rowsha": "jGE3djAGGhXQI4u6eRmNmVOB57UBegnjeMGKThhVh24=",
+        "originContent": " - Debian: `apt install cmake ninja-build python3`",
+        "translatedContent": " - Debian: `apt install cmake ninja-build python3`"
+      },
+      {
+        "row": 13,
+        "rowsha": "/Q33Z44BVr+WixAStM5BnDrzrcJKpXtxZtvcCXEYYrQ=",
+        "originContent": " - (TODO: Fill in the others)",
+        "translatedContent": " - (TODO: Completar los demás)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "NCRC835BS0dNU7MdgW+WhVKxx760efrYZc7G2vknFts=",
+        "originContent": "LLVM with clang for M68k can be built:",
+        "translatedContent": "LLVM con clang para M68k puede ser construido:"
+      },
+      {
+        "row": 16,
+        "rowsha": "DBrSIPsf65BBOHbujejxEHi34JVwigPevnqSKBlNY6A=",
+        "originContent": " - `make m68k-llvm`",
+        "translatedContent": " - `make m68k-llvm`"
+      },
+      {
+        "row": 17,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": " "
+      },
+      {
+        "row": 18,
+        "rowsha": "1qX+/bvGd9ri234hB49YuimeXKwD2brzJsMHUrMjDYc=",
+        "originContent": "Testing hasn't been done yet and examples/skeleton projects still need to be made.",
+        "translatedContent": "Las pruebas aún no se han realizado y los proyectos de ejemplo/esqueleto aún necesitan ser creados."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "iFfBguErfwGTwXHcWHc/N3rmwwC4wDVqy1WAd7oOfXk=",
+        "originContent": "### 5. Install",
+        "translatedContent": "### 5. Instalación"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "McCIfKOoGdRDvPOJrnJKAYpjeuMcjyl3yQAahW3yyGU=",
+        "originContent": "Just run `sudo make install`. Remember the path to the environment setup script,",
+        "translatedContent": "Simplemente ejecuta `sudo make install`. Recuerda la ruta del script de configuración del entorno,"
+      },
+      {
+        "row": 24,
+        "rowsha": "3DjPbbvQ0/5EZ5AZVJNi8IQcAKzUe8HLMjH76Zhti0s=",
+        "originContent": "and consider adding it to your ~/.bashrc (or ~/.zshrc).",
+        "translatedContent": "y considera agregarla a tu ~/.bashrc (o ~/.zshrc)."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+        "originContent": "## Examples",
+        "translatedContent": "## Ejemplos"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "mc9e7gW0Pjz06z+7b9ZwY4da15XylNuU6pAk95qgVFk=",
+        "originContent": "The `examples` directory contains various skeleton/example projects to base others on.",
+        "translatedContent": "El directorio `examples` contiene varios proyectos esqueleto/ejemplo para basar otros."
+      },
+      {
+        "row": 30,
+        "rowsha": "dOS4qWqAdsJvz01tkHG0+5BExJQs95FLcQaKt49l4xk=",
+        "originContent": "For more information on each read [examples/README.md](https://raw.githubusercontent.com/andwn/marsdev/master/examples/README.md).",
+        "translatedContent": "Para más información sobre cada uno lee [examples/README.md](https://raw.githubusercontent.com/andwn/marsdev/master/examples/README.md)."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "vSIpnObvUyXK62nOEMLPywNSbvKusnlbGGjjveNuXkY=",
+        "originContent": "Should be as easy as a `make` for any of them.",
+        "translatedContent": "Debería ser tan fácil como un `make` para cualquiera de ellos."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "mtbKma5WPkR9agpVug3O+RYJZNUhwRD90obkKbP3ZMQ=",
+        "originContent": "## Occasionally Asked Questions",
+        "translatedContent": "## Preguntas Frecuentes Ocasionales"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "5IkzDzKJBLvqT79lo5GK5SxPDHbTUq06v5OgBx4FAU8=",
+        "originContent": "### Whatever man, I just want to use SGDK on Linux",
+        "translatedContent": "### Lo que sea, solo quiero usar SGDK en Linux"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "O+Zu3/m2wrPeCFf4lp5724xbxst86yoGssFXV375Jkw=",
+        "originContent": "Install:",
+        "translatedContent": "Instala:"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": " - `sudo apt install -y git build-essential texinfo wget openjdk-11-jre`\n - `git clone https://github.com/andwn/marsdev && cd marsdev`\n - `make sgdk -j8`\n - `sudo make install`\n\nBuild:\n\n - Grab the makefile from inside `examples/sgdk-skeleton` and drop it into your project.\n - `source /opt/toolchains/mars/mars.sh`\n - `make`\n\n### Can I build a Gendev project with Marsdev or vice-versa?\n\nNot easily. You'll need to mess with the Makefile to get it working.\nStart by comparing your current Makefile to one of the example projects.\nThe [Migration](https://raw.githubusercontent.com/andwn/marsdev/master/doc/migration.md) document may be helpful here.\n\n### How can I tell if an issue I'm having with SGDK is caused by Marsdev?\n\nIt should be possible to compile your project as-is with an official SGDK release.\nThe included Makefile is just a wrapper for `make -f $GDK/makefile.gen`.\n\nIf the issue persists, it's SGDK's fault. If the issue is fixed, it's Marsdev's fault.\n\n### How do I use this with my favorite IDE?\n\nThere are so many of these, and they all have different places you have to go to configure paths.\nIn general the only thing you should NEED to do, is point it to the headers.\n\n * GCC Headers: `$(MARSDEV)/m68k-elf/lib/gcc/m68k-elf/$(GCC_VER)/include`\n * SGDK Headers: `$(MARSDEV)/m68k-elf/include`\n * Newlib Headers: `$(MARSDEV)/m68k-elf/m68k-elf/include`\n \nIf your IDE lets you configure what the build/run buttons do, just have it run something like this.\n\n * Build: `make MARSDEV=/path/to/mars`\n * Run: `/path/to/an/emulator out.bin`\n\n\n### What about Windows?",
+    "ContentSha": "lb0hyml1QhLrh9F7bKzvcDtSxGyMrRWiQE4wbTSGauU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": " - `sudo apt install -y git build-essential texinfo wget openjdk-11-jre`\n - `git clone https://github.com/andwn/marsdev && cd marsdev`\n - `make sgdk -j8`\n - `sudo make install`\n\nCompilar:\n\n - Toma el makefile de dentro de `examples/sgdk-skeleton` y colócalo en tu proyecto.\n - `source /opt/toolchains/mars/mars.sh`\n - `make`\n\n### ¿Puedo compilar un proyecto Gendev con Marsdev o viceversa?\n\nNo fácilmente. Necesitarás modificar el Makefile para que funcione.\nEmpieza comparando tu Makefile actual con uno de los proyectos de ejemplo.\nEl documento de [Migración](https://raw.githubusercontent.com/andwn/marsdev/master/doc/migration.md) puede ser útil aquí.\n\n### ¿Cómo puedo saber si un problema que tengo con SGDK es causado por Marsdev?\n\nDebería ser posible compilar tu proyecto tal cual con una versión oficial de SGDK.\nEl Makefile incluido es solo un envoltorio para `make -f $GDK/makefile.gen`.\n\nSi el problema persiste, es culpa de SGDK. Si el problema se resuelve, es culpa de Marsdev.\n\n### ¿Cómo uso esto con mi IDE favorito?\n\nHay muchos de estos, y todos tienen diferentes lugares donde configurar las rutas.\nEn general, lo único que DEBERÍAS hacer es apuntar a los encabezados.\n\n * Encabezados GCC: `$(MARSDEV)/m68k-elf/lib/gcc/m68k-elf/$(GCC_VER)/include`\n * Encabezados SGDK: `$(MARSDEV)/m68k-elf/include`\n * Encabezados Newlib: `$(MARSDEV)/m68k-elf/m68k-elf/include`\n \nSi tu IDE te permite configurar lo que hacen los botones de construir/ejecutar, simplemente haz que ejecute algo como esto.\n\n * Construir: `make MARSDEV=/ruta/a/mars`\n * Ejecutar: `/ruta/a/un/emulador out.bin`\n\n\n### ¿Y qué pasa con Windows?",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6pG+/NqJqBMsjuzuI3xIvexvYfEUkPvTL4eEkcvwvYg=",
+        "originContent": " - `sudo apt install -y git build-essential texinfo wget openjdk-11-jre`",
+        "translatedContent": " - `sudo apt install -y git build-essential texinfo wget openjdk-11-jre`"
+      },
+      {
+        "row": 2,
+        "rowsha": "USDoH55xwHjLfWTFKr3vXu5XSeN+5HEAOisCJE+AEPQ=",
+        "originContent": " - `git clone https://github.com/andwn/marsdev && cd marsdev`",
+        "translatedContent": " - `git clone https://github.com/andwn/marsdev && cd marsdev`"
+      },
+      {
+        "row": 3,
+        "rowsha": "9hXkSiWuG4bL293SBh4ngZoToi7jgsAY323QTAD6wbY=",
+        "originContent": " - `make sgdk -j8`",
+        "translatedContent": " - `make sgdk -j8`"
+      },
+      {
+        "row": 4,
+        "rowsha": "iDzUm57aztaarefFJwOrTAStotSnODoyjRsE/T5Efc4=",
+        "originContent": " - `sudo make install`",
+        "translatedContent": " - `sudo make install`"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "+f2KKM8R1QPR2Bk1cBhcUysG9u6dOFUoVAW0eOoDQCM=",
+        "originContent": "Build:",
+        "translatedContent": "Compilar:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "hjo9Bnwid1TCnzGrG/9IG5ACtkr5WGOci92paRuLyPM=",
+        "originContent": " - Grab the makefile from inside `examples/sgdk-skeleton` and drop it into your project.",
+        "translatedContent": " - Toma el makefile de dentro de `examples/sgdk-skeleton` y colócalo en tu proyecto."
+      },
+      {
+        "row": 9,
+        "rowsha": "GDNCcxlwk7jEVO6ObxBfDf1U4C0Kubr6sk1ov10FYk4=",
+        "originContent": " - `source /opt/toolchains/mars/mars.sh`",
+        "translatedContent": " - `source /opt/toolchains/mars/mars.sh`"
+      },
+      {
+        "row": 10,
+        "rowsha": "vXI1WDuAy4ELEXImtw92GVqygXlFQdDSOPdXKMbPqIM=",
+        "originContent": " - `make`",
+        "translatedContent": " - `make`"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "V8npEB09fpypAuAPCcOjWsFAagUKi401hftZloi8fzk=",
+        "originContent": "### Can I build a Gendev project with Marsdev or vice-versa?",
+        "translatedContent": "### ¿Puedo compilar un proyecto Gendev con Marsdev o viceversa?"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "NlAGkTA2zWydVc7X8kgeLZ16PP9WNwXABILGAh8yi1c=",
+        "originContent": "Not easily. You'll need to mess with the Makefile to get it working.",
+        "translatedContent": "No fácilmente. Necesitarás modificar el Makefile para que funcione."
+      },
+      {
+        "row": 15,
+        "rowsha": "E6vxAwoNSVLX2dOssaNbRwkaWP8WyQXZ0lZ+k1cJV0g=",
+        "originContent": "Start by comparing your current Makefile to one of the example projects.",
+        "translatedContent": "Empieza comparando tu Makefile actual con uno de los proyectos de ejemplo."
+      },
+      {
+        "row": 16,
+        "rowsha": "Vhl32DIpNLtDc9Vh591UsZ9husM332t2P0zonMqh88I=",
+        "originContent": "The [Migration](https://raw.githubusercontent.com/andwn/marsdev/master/doc/migration.md) document may be helpful here.",
+        "translatedContent": "El documento de [Migración](https://raw.githubusercontent.com/andwn/marsdev/master/doc/migration.md) puede ser útil aquí."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "Ot/S/6wk1jja0XJd/h7c9utLFrssC/c1PrWoTTX6k8Y=",
+        "originContent": "### How can I tell if an issue I'm having with SGDK is caused by Marsdev?",
+        "translatedContent": "### ¿Cómo puedo saber si un problema que tengo con SGDK es causado por Marsdev?"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "PVlHaUUZHrNjzystiO0fHUF0N2xI44aBHhG0mIqbhiM=",
+        "originContent": "It should be possible to compile your project as-is with an official SGDK release.",
+        "translatedContent": "Debería ser posible compilar tu proyecto tal cual con una versión oficial de SGDK."
+      },
+      {
+        "row": 21,
+        "rowsha": "fDQyNYYfokBBwuemU/vOX7VCymMD6WHcXqPKbasEF/o=",
+        "originContent": "The included Makefile is just a wrapper for `make -f $GDK/makefile.gen`.",
+        "translatedContent": "El Makefile incluido es solo un envoltorio para `make -f $GDK/makefile.gen`."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "k8ms9y9i1ztv7/u8SHAT2KWirgUUItvKny2lwEja64M=",
+        "originContent": "If the issue persists, it's SGDK's fault. If the issue is fixed, it's Marsdev's fault.",
+        "translatedContent": "Si el problema persiste, es culpa de SGDK. Si el problema se resuelve, es culpa de Marsdev."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "SlDLXDpBZUdQjacaIvawuJOJEo9CcLR0uXVshwpax7Y=",
+        "originContent": "### How do I use this with my favorite IDE?",
+        "translatedContent": "### ¿Cómo uso esto con mi IDE favorito?"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "eMUp15igEmM/+zgIvSutm8DYPWCubR19s/tZKvIFvIk=",
+        "originContent": "There are so many of these, and they all have different places you have to go to configure paths.",
+        "translatedContent": "Hay muchos de estos, y todos tienen diferentes lugares donde configurar las rutas."
+      },
+      {
+        "row": 28,
+        "rowsha": "I0Wij8YF8cKSwMW4j2xq2XhSoVhupdeoIpjcUvVQGfs=",
+        "originContent": "In general the only thing you should NEED to do, is point it to the headers.",
+        "translatedContent": "En general, lo único que DEBERÍAS hacer es apuntar a los encabezados."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "V6lQT+IMUUwOd/LJH/czEy/3P6EqI501JQJfvwhEpho=",
+        "originContent": " * GCC Headers: `$(MARSDEV)/m68k-elf/lib/gcc/m68k-elf/$(GCC_VER)/include`",
+        "translatedContent": " * Encabezados GCC: `$(MARSDEV)/m68k-elf/lib/gcc/m68k-elf/$(GCC_VER)/include`"
+      },
+      {
+        "row": 31,
+        "rowsha": "HTZzCClYyKeiPRG1p0783bi9WxO9L7S0ojESI+qz3b4=",
+        "originContent": " * SGDK Headers: `$(MARSDEV)/m68k-elf/include`",
+        "translatedContent": " * Encabezados SGDK: `$(MARSDEV)/m68k-elf/include`"
+      },
+      {
+        "row": 32,
+        "rowsha": "IjCnlkCu5NvDFwx/iKsl2yHohrpQCjOR2k04dTL26l4=",
+        "originContent": " * Newlib Headers: `$(MARSDEV)/m68k-elf/m68k-elf/include`",
+        "translatedContent": " * Encabezados Newlib: `$(MARSDEV)/m68k-elf/m68k-elf/include`"
+      },
+      {
+        "row": 33,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": " "
+      },
+      {
+        "row": 34,
+        "rowsha": "z1CioUuwZw5zc1Nounn2R+qLjeEhmCzZK0mXVbJsEEc=",
+        "originContent": "If your IDE lets you configure what the build/run buttons do, just have it run something like this.",
+        "translatedContent": "Si tu IDE te permite configurar lo que hacen los botones de construir/ejecutar, simplemente haz que ejecute algo como esto."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "rSpM9y5SBxjISbf+i+OJH/+v4uLDUeXpq0wQ9j3WZjs=",
+        "originContent": " * Build: `make MARSDEV=/path/to/mars`",
+        "translatedContent": " * Construir: `make MARSDEV=/ruta/a/mars`"
+      },
+      {
+        "row": 37,
+        "rowsha": "I/I/fw5BurbELxdA3wF1KkgW/6OySITFjvlwRH5x8zU=",
+        "originContent": " * Run: `/path/to/an/emulator out.bin`",
+        "translatedContent": " * Ejecutar: `/ruta/a/un/emulador out.bin`"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "ITlkyZ9sYIxgSKLrpJ9nz5c3K5IVJEqPkV/OmAyx2tc=",
+        "originContent": "### What about Windows?",
+        "translatedContent": "### ¿Y qué pasa con Windows?"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "\nI highly recommend using [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)\nand follow the instructions for Debian.\nYou could also try using the Dockerfile, although that is contributed by others\nand I don't test it myself.\nI used to use [MSYS2](https://raw.githubusercontent.com/andwn/marsdev/master/doc/install_msys_legacy.md), but how slow and clunky it is can not be overstated.\n\nAn addendum, if you are just here to use SGDK and don't use Linux or macOS then\nI think Marsdev will be of little benefit to you anyway.\n\n\n### I don't like installing to /opt. I want the old ~/mars way back\n\nThat's easy.\n1. `export MARS_BUILD_DIR=${HOME}/mars`\n2. Do steps 1 - 4 normally\n3. Skip the installation step, instead add to your `~/.bashrc`:",
+    "ContentSha": "5VFXKSIEtsasqjUn10ZadGMe93OB7/Ty4okuPvHluFc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nRecomiendo encarecidamente usar [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)\ny seguir las instrucciones para Debian.\nTambién podrías intentar usar el Dockerfile, aunque ese fue aportado por otros\ny yo no lo pruebo personalmente.\nSolía usar [MSYS2](https://raw.githubusercontent.com/andwn/marsdev/master/doc/install_msys_legacy.md), pero no se puede exagerar lo lento y torpe que es.\n\nUn apéndice, si solo estás aquí para usar SGDK y no usas Linux o macOS entonces\ncreo que Marsdev te será de poco beneficio de todos modos.\n\n\n### No me gusta instalar en /opt. Quiero la forma antigua ~/mars\n\nEso es fácil.\n1. `export MARS_BUILD_DIR=${HOME}/mars`\n2. Realiza los pasos 1 - 4 normalmente\n3. Omite el paso de instalación, en su lugar agrega a tu `~/.bashrc`:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "P7n5uIG04GuW2EZJ1RUc+Zyqc2EbBB9WmgvMUkzC4Zw=",
+        "originContent": "I highly recommend using [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)",
+        "translatedContent": "Recomiendo encarecidamente usar [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)"
+      },
+      {
+        "row": 3,
+        "rowsha": "lXwhQtzq9aoNd8SQzTOKBYTPgwKnPb+Y+M5pOmoE8Xk=",
+        "originContent": "and follow the instructions for Debian.",
+        "translatedContent": "y seguir las instrucciones para Debian."
+      },
+      {
+        "row": 4,
+        "rowsha": "5ERUdfDwJ6rNYfp92VUGfP+90D/CdEoxcA894CEBGRI=",
+        "originContent": "You could also try using the Dockerfile, although that is contributed by others",
+        "translatedContent": "También podrías intentar usar el Dockerfile, aunque ese fue aportado por otros"
+      },
+      {
+        "row": 5,
+        "rowsha": "s/bWHvqs3KfSLg/3vWNEWVMFabvkPHmQvedxqiQd5ik=",
+        "originContent": "and I don't test it myself.",
+        "translatedContent": "y yo no lo pruebo personalmente."
+      },
+      {
+        "row": 6,
+        "rowsha": "mh7I0CAqvLo+ffQMEYGeOQ58Z7I18wm/ht9AeB7SndA=",
+        "originContent": "I used to use [MSYS2](https://raw.githubusercontent.com/andwn/marsdev/master/doc/install_msys_legacy.md), but how slow and clunky it is can not be overstated.",
+        "translatedContent": "Solía usar [MSYS2](https://raw.githubusercontent.com/andwn/marsdev/master/doc/install_msys_legacy.md), pero no se puede exagerar lo lento y torpe que es."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "SwFTfas9Rw3unF2HWPaBOjzFNxXT+r8YTKvVoH8X140=",
+        "originContent": "An addendum, if you are just here to use SGDK and don't use Linux or macOS then",
+        "translatedContent": "Un apéndice, si solo estás aquí para usar SGDK y no usas Linux o macOS entonces"
+      },
+      {
+        "row": 9,
+        "rowsha": "lF5ZqL7ybKJvxtTcOZiAk7Cqx8oiMr+Lok4mf+X4VG4=",
+        "originContent": "I think Marsdev will be of little benefit to you anyway.",
+        "translatedContent": "creo que Marsdev te será de poco beneficio de todos modos."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "85mKK6ZePI3s8ueJt/EFcTJMelBCyr1JgWw7NBmIOvA=",
+        "originContent": "### I don't like installing to /opt. I want the old ~/mars way back",
+        "translatedContent": "### No me gusta instalar en /opt. Quiero la forma antigua ~/mars"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "xgqoOHyUzINZtR+F1XtmG/YBIB4aUsa5nFld0IFIwjg=",
+        "originContent": "That's easy.",
+        "translatedContent": "Eso es fácil."
+      },
+      {
+        "row": 15,
+        "rowsha": "bQQR+ZKmbi/6A5Exq0mOGQ/xPDeP+cqbOCS8+3oGdjc=",
+        "originContent": "1. `export MARS_BUILD_DIR=${HOME}/mars`",
+        "translatedContent": "1. `export MARS_BUILD_DIR=${HOME}/mars`"
+      },
+      {
+        "row": 16,
+        "rowsha": "m7ORiMDz15oWS6RHSf/sAkIQP0eR5TkKqG6v8F4g+1o=",
+        "originContent": "2. Do steps 1 - 4 normally",
+        "translatedContent": "2. Realiza los pasos 1 - 4 normalmente"
+      },
+      {
+        "row": 17,
+        "rowsha": "A1etjuyyWjiT1XC5a5FYpht7Gf9yls6eOI9PoYMGhNg=",
+        "originContent": "3. Skip the installation step, instead add to your `~/.bashrc`:",
+        "translatedContent": "3. Omite el paso de instalación, en su lugar agrega a tu `~/.bashrc`:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nexport MARSDEV=${HOME}/mars\nexport GDK=${MARSDEV}/m68k-elf\n```",
+    "ContentSha": "WBME9qaa9ap19lddsuyP13Z6bqFBJcshDjJIjhO6BLo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nexport MARSDEV=${HOME}/mars\nexport GDK=${MARSDEV}/m68k-elf\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "N77Ti3OHmpTtNe/mTx+4GC9gFEeyskmAxC5ZWARWuns=",
+        "originContent": "export MARSDEV=${HOME}/mars",
+        "translatedContent": "export MARSDEV=${HOME}/mars"
+      },
+      {
+        "row": 3,
+        "rowsha": "6BvLoolhGsum+hS3a4D3VYsaV6XcbrSLRDFqNmdFNBA=",
+        "originContent": "export GDK=${MARSDEV}/m68k-elf",
+        "translatedContent": "export GDK=${MARSDEV}/m68k-elf"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### This takes so long to compile!\n\nGCC is a big boy, so we just have to be patient.\n\n\n# Things to do\n\n - [ ] Finish porting the important parts of libdos and getting Newlib to work with it\n",
+    "ContentSha": "U/sA6nfKl74XqRBitlWPeG1qbBaf6hAhUNtL0FIRFmk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### ¡Esto tarda tanto en compilar!\n\nGCC es un programa grande, así que solo tenemos que tener paciencia.\n\n\n# Cosas por hacer\n\n - [ ] Terminar de portar las partes importantes de libdos y lograr que Newlib funcione con él\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "IblPpOU5oWP4ase1B6j2tzwUvWfjIc8+dBU0aYoOS9Q=",
+        "originContent": "### This takes so long to compile!",
+        "translatedContent": "### ¡Esto tarda tanto en compilar!"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ZT3tR7BwTyIDA8HR3cGdScX1jyv5qhj7fhfy639t8wk=",
+        "originContent": "GCC is a big boy, so we just have to be patient.",
+        "translatedContent": "GCC es un programa grande, así que solo tenemos que tener paciencia."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "XGL1DxbjTuyfrMgHlrMuaBge5GLqTTnCu7oKT7YxQ7g=",
+        "originContent": "# Things to do",
+        "translatedContent": "# Cosas por hacer"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "OEktvv2NzlNbvh/OlyKNoAy6JM49GdcyniqfwdpLgFs=",
+        "originContent": " - [ ] Finish porting the important parts of libdos and getting Newlib to work with it",
+        "translatedContent": " - [ ] Terminar de portar las partes importantes de libdos y lograr que Newlib funcione con él"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
