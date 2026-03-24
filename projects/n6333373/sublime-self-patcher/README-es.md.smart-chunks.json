@@ -1,0 +1,547 @@
+[
+  {
+    "Id": 1,
+    "Content": "## Sublime Self Patcher\n\nThis is a Sublime Text 4 plugin which can patch Sublime Text and Sublime Merge.\n\n🔥 No third-party dependency is required. The only thing you need is Sublime Text.\n\n## Supported Environments\n\n| Sign | Meaning                                                                 |\n| ---- | ----------------------------------------------------------------------- |\n| ✅   | Supported.                                                              |\n| ⚠️   | Unstable patch patterns. You may have to update this plugin frequently. |\n| ☠️   | Sorry but I don't use it.                                               |\n\n|                   | Linux x64 | Windows x32 | Windows x64 | Others |\n| ----------------- | --------- | ----------- | ----------- | ------ |\n| **Sublime Text**  | ✅        | ✅          | ✅          | ☠️     |\n| **Sublime Merge** | ✅⚠️      |             | ✅          | ☠️     |\n\nIf you are on Windows 7, then [Service Pack 2](https://answers.microsoft.com/en-us/windows/forum/all/how-to-obtain-and-install-windows-7-sp2/c2c7009f-3a10-4199-9c89-48e1e883051e) is required.\n\n## Download\n\nhttps://github.com/n6333373/sublime-self-patcher/archive/refs/heads/main.zip\n\n## Installation\n\nFirst, you have to find out the `Packages` directory.\n\n- If you are using a portable version of Sublime Text, it is `Data/Packages`.\n- If you are using an installed version of Sublime Text,\n  - On Windows, it is `%appdata%\\Sublime Text\\Packages`.\n  - On Linux, it is `$HOME/.config/sublime_text/Packages`.\n\nNow, (decompress if necessary) put the downloaded directory into the `Packages` directory\nso that the directory structure looks like the following:\n",
+    "ContentSha": "zBmVMWLAxap6qkJzCRlnp9TJZ82gERzMRJ05IDNLH98=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Sublime Self Patcher\n\nEste es un plugin para Sublime Text 4 que puede parchear Sublime Text y Sublime Merge.\n\n🔥 No se requiere ninguna dependencia de terceros. Lo único que necesitas es Sublime Text.\n\n## Entornos Soportados\n\n| Signo | Significado                                                             |\n| ---- | ----------------------------------------------------------------------- |\n| ✅   | Soportado.                                                             |\n| ⚠️   | Patrones de parche inestables. Es posible que tengas que actualizar este plugin frecuentemente. |\n| ☠️   | Lo siento, pero no lo uso.                                             |\n\n|                   | Linux x64 | Windows x32 | Windows x64 | Otros  |\n| ----------------- | --------- | ----------- | ----------- | ------ |\n| **Sublime Text**  | ✅        | ✅          | ✅          | ☠️     |\n| **Sublime Merge** | ✅⚠️      |             | ✅          | ☠️     |\n\nSi estás en Windows 7, entonces se requiere el [Service Pack 2](https://answers.microsoft.com/en-us/windows/forum/all/how-to-obtain-and-install-windows-7-sp2/c2c7009f-3a10-4199-9c89-48e1e883051e).\n\n## Descarga\n\nhttps://github.com/n6333373/sublime-self-patcher/archive/refs/heads/main.zip\n\n## Instalación\n\nPrimero, tienes que localizar el directorio `Packages`.\n\n- Si usas una versión portátil de Sublime Text, es `Data/Packages`.\n- Si usas una versión instalada de Sublime Text,\n  - En Windows, es `%appdata%\\Sublime Text\\Packages`.\n  - En Linux, es `$HOME/.config/sublime_text/Packages`.\n\nAhora, (descomprime si es necesario) coloca el directorio descargado dentro del directorio `Packages`\nde modo que la estructura de directorios luzca así:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "NzdjDP1N0V+P8FEy9FFNZLU479K5WZ4CuCSDh7IiGbg=",
+        "originContent": "## Sublime Self Patcher",
+        "translatedContent": "## Sublime Self Patcher"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "WK6QUAU1nPP1Rv0VLFT+fOrc285uh9CNHD1QOOm3fag=",
+        "originContent": "This is a Sublime Text 4 plugin which can patch Sublime Text and Sublime Merge.",
+        "translatedContent": "Este es un plugin para Sublime Text 4 que puede parchear Sublime Text y Sublime Merge."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "OFiY5q/QkDT9attZLTJLZPpDrVk9Xx/XGdJvqsnrS/Y=",
+        "originContent": "🔥 No third-party dependency is required. The only thing you need is Sublime Text.",
+        "translatedContent": "🔥 No se requiere ninguna dependencia de terceros. Lo único que necesitas es Sublime Text."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "cZ8J/x6bl059KRCipVGBry8NZ0AQnJ4zqFBYT0N3h4U=",
+        "originContent": "## Supported Environments",
+        "translatedContent": "## Entornos Soportados"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "0CvZSID7HhJtkpqKIcqUJQzDVqBdLbDK6NPTZg2Gifo=",
+        "originContent": "| Sign | Meaning                                                                 |",
+        "translatedContent": "| Signo | Significado                                                             |"
+      },
+      {
+        "row": 10,
+        "rowsha": "Kh29b72CUuVhwQIcQIcDx+xAN5QurYBqw9VXye3Nkvw=",
+        "originContent": "| ---- | ----------------------------------------------------------------------- |",
+        "translatedContent": "| ---- | ----------------------------------------------------------------------- |"
+      },
+      {
+        "row": 11,
+        "rowsha": "ZcjsQZccJmGi4soZjUOTnXK9yDNFQUkQpbMTjwg6CnE=",
+        "originContent": "| ✅   | Supported.                                                              |",
+        "translatedContent": "| ✅   | Soportado.                                                             |"
+      },
+      {
+        "row": 12,
+        "rowsha": "Nd1z+8/y0CmtSsXLaBZSblPlz03Ce1ezp2LvyW3qklc=",
+        "originContent": "| ⚠️   | Unstable patch patterns. You may have to update this plugin frequently. |",
+        "translatedContent": "| ⚠️   | Patrones de parche inestables. Es posible que tengas que actualizar este plugin frecuentemente. |"
+      },
+      {
+        "row": 13,
+        "rowsha": "d9ZAhD7YamwDy9klQfqnU9228VZqcriMLOENd5ryNOc=",
+        "originContent": "| ☠️   | Sorry but I don't use it.                                               |",
+        "translatedContent": "| ☠️   | Lo siento, pero no lo uso.                                             |"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "XJJOAAh/+eG6/PIdQ8ql/xJmXb1THkVE2dTT4xiaJPU=",
+        "originContent": "|                   | Linux x64 | Windows x32 | Windows x64 | Others |",
+        "translatedContent": "|                   | Linux x64 | Windows x32 | Windows x64 | Otros  |"
+      },
+      {
+        "row": 16,
+        "rowsha": "Z1KHwU85LPsBNY3ALS0m/1SeB6qGcuyaxJJZzclo/+k=",
+        "originContent": "| ----------------- | --------- | ----------- | ----------- | ------ |",
+        "translatedContent": "| ----------------- | --------- | ----------- | ----------- | ------ |"
+      },
+      {
+        "row": 17,
+        "rowsha": "e1co/qBgBA5hXwEtkoYkNyjdG2nm8b2L7dLrSlUgx1o=",
+        "originContent": "| **Sublime Text**  | ✅        | ✅          | ✅          | ☠️     |",
+        "translatedContent": "| **Sublime Text**  | ✅        | ✅          | ✅          | ☠️     |"
+      },
+      {
+        "row": 18,
+        "rowsha": "WeLcav3vA6ibgq14hWQPRGD1W07PnAC4x4DSP5PC9Ps=",
+        "originContent": "| **Sublime Merge** | ✅⚠️      |             | ✅          | ☠️     |",
+        "translatedContent": "| **Sublime Merge** | ✅⚠️      |             | ✅          | ☠️     |"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "QdzMPIOeqeDu/V3VFOfLWrBt2bV5Rt1UOsO79duU9jk=",
+        "originContent": "If you are on Windows 7, then [Service Pack 2](https://answers.microsoft.com/en-us/windows/forum/all/how-to-obtain-and-install-windows-7-sp2/c2c7009f-3a10-4199-9c89-48e1e883051e) is required.",
+        "translatedContent": "Si estás en Windows 7, entonces se requiere el [Service Pack 2](https://answers.microsoft.com/en-us/windows/forum/all/how-to-obtain-and-install-windows-7-sp2/c2c7009f-3a10-4199-9c89-48e1e883051e)."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "QthUtrLFJhAm9mK+lb9STCileImPtOmEdm/neA89axg=",
+        "originContent": "## Download",
+        "translatedContent": "## Descarga"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "NRuVw5B7FNhyr9n+WI1V7p4kyuVVDNdWf7Q97/CjJwc=",
+        "originContent": "https://github.com/n6333373/sublime-self-patcher/archive/refs/heads/main.zip",
+        "translatedContent": "https://github.com/n6333373/sublime-self-patcher/archive/refs/heads/main.zip"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Instalación"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "MmQAha2pxNwGA0MHw3YjBR7uy8GgIiVVAduXMf5fJnY=",
+        "originContent": "First, you have to find out the `Packages` directory.",
+        "translatedContent": "Primero, tienes que localizar el directorio `Packages`."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "qSk8QmcknI1uxEA6ByZJ5YZbyfk7q6AFDppo/DfIXSU=",
+        "originContent": "- If you are using a portable version of Sublime Text, it is `Data/Packages`.",
+        "translatedContent": "- Si usas una versión portátil de Sublime Text, es `Data/Packages`."
+      },
+      {
+        "row": 31,
+        "rowsha": "ySEciuFNcoihDHTUYCh6hF+R42AbXD7vSMimUvjlQIs=",
+        "originContent": "- If you are using an installed version of Sublime Text,",
+        "translatedContent": "- Si usas una versión instalada de Sublime Text,"
+      },
+      {
+        "row": 32,
+        "rowsha": "WZjp821xYVDZmcFQBobrNYGbKyjL9YGEk6NIPlAoalE=",
+        "originContent": "  - On Windows, it is `%appdata%\\Sublime Text\\Packages`.",
+        "translatedContent": "  - En Windows, es `%appdata%\\Sublime Text\\Packages`."
+      },
+      {
+        "row": 33,
+        "rowsha": "4Fh+boz0NIDVYxO0RjWp0xVXNB6hIYsZixMZ+n6uDTM=",
+        "originContent": "  - On Linux, it is `$HOME/.config/sublime_text/Packages`.",
+        "translatedContent": "  - En Linux, es `$HOME/.config/sublime_text/Packages`."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "T/zS5pZoTCE8MEPbIPjnWQ9UQbL7uinjvZZ0iSMr5/E=",
+        "originContent": "Now, (decompress if necessary) put the downloaded directory into the `Packages` directory",
+        "translatedContent": "Ahora, (descomprime si es necesario) coloca el directorio descargado dentro del directorio `Packages`"
+      },
+      {
+        "row": 36,
+        "rowsha": "17nazx6y9YI1sra5xttaWu7lf4IuWndv1aJ0nwect1c=",
+        "originContent": "so that the directory structure looks like the following:",
+        "translatedContent": "de modo que la estructura de directorios luzca así:"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```text\nPackages/\n└── SelfPatcher/\n    ├── boot.py\n    ├── ...\n```",
+    "ContentSha": "OuGuvh2vs+S1O5PnlDu8fYpb54b89DGyTdIc42LQDZY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```text\nPackages/\n└── SelfPatcher/\n    ├── boot.py\n    ├── ...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
+        "originContent": "```text",
+        "translatedContent": "```text"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ykev3crQZgOxOUTLP5cNtFH97txvgQ/q9/NmyRTsHw0=",
+        "originContent": "Packages/",
+        "translatedContent": "Packages/"
+      },
+      {
+        "row": 3,
+        "rowsha": "owX6icBPDhGdapaSmpJevoKujCWTNPtvfQzJOEMJWYY=",
+        "originContent": "└── SelfPatcher/",
+        "translatedContent": "└── SelfPatcher/"
+      },
+      {
+        "row": 4,
+        "rowsha": "K7yF79iCRCBkjBKF5v1QxY1Rx4RasgeenHep+dk8bF8=",
+        "originContent": "    ├── boot.py",
+        "translatedContent": "    ├── boot.py"
+      },
+      {
+        "row": 5,
+        "rowsha": "ZWyHsEbB3Ryy3cYd+1AQ7Aqj1A4tOCH9uECJAW6olPw=",
+        "originContent": "    ├── ...",
+        "translatedContent": "    ├── ..."
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nAnd then restart Sublime Text if it's running.\n\n## Usage\n\n### Patch Self (The Current Sublime Text)\n\n- If you are using a unregistered dev build, this plugin should show a popup for patching when starting.\n- If you are using a stable build, you can patch from the menu: `Help ⇒ Patch This Application`\n\n### Patch External Sublime Text/Merge\n\nIf your application is installed in a place which requires admin/root permission to write,\nyou can use this plugin to create a patched executable in a temporarily directory.\n\nClick the menu: `Help ⇒ Patch External Sublime Text/Merge` and then select the executable of Sublime Text/Merge.\n\n## Q&A\n\n### How to Disable Sublime Text/Merge Auto Update?\n\nThis plugin usually just continues to work for future versions of Sublime Text/Merge.\nBut if you want to disable the application auto update, you can set the following settings:\n",
+    "ContentSha": "BaefVJgIgXkXK+yRyC7rg9hbFBOxTPv7Nti3QYGUiHg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nY luego reinicie Sublime Text si está en ejecución.\n\n## Uso\n\n### Parchear a sí mismo (El Sublime Text actual)\n\n- Si está utilizando una versión de desarrollo no registrada, este complemento debería mostrar un cuadro emergente para parchear al iniciar.\n- Si está utilizando una versión estable, puede parchear desde el menú: `Ayuda ⇒ Parchear esta aplicación`\n\n### Parchear Sublime Text/Merge externo\n\nSi su aplicación está instalada en un lugar que requiere permisos de administrador/root para escribir,\npuede usar este complemento para crear un ejecutable parcheado en un directorio temporal.\n\nHaga clic en el menú: `Ayuda ⇒ Parchear Sublime Text/Merge externo` y luego seleccione el ejecutable de Sublime Text/Merge.\n\n## Preguntas y Respuestas\n\n### ¿Cómo desactivar la actualización automática de Sublime Text/Merge?\n\nEste complemento usualmente sigue funcionando para versiones futuras de Sublime Text/Merge.\nPero si desea desactivar la actualización automática de la aplicación, puede configurar los siguientes ajustes:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "aCeg1wUXHK+1kfURwfqA3WISrpGEtgp4ywFAIkPEJ6g=",
+        "originContent": "And then restart Sublime Text if it's running.",
+        "translatedContent": "Y luego reinicie Sublime Text si está en ejecución."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Uso"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ymUfRha46HodIAySkuHKnqYWJKPKQ6Wwx06S6SO4Bqg=",
+        "originContent": "### Patch Self (The Current Sublime Text)",
+        "translatedContent": "### Parchear a sí mismo (El Sublime Text actual)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Z0+RGrs+9ivhAOopH0QwCZo0o8mij6c/myQUAvS7KIA=",
+        "originContent": "- If you are using a unregistered dev build, this plugin should show a popup for patching when starting.",
+        "translatedContent": "- Si está utilizando una versión de desarrollo no registrada, este complemento debería mostrar un cuadro emergente para parchear al iniciar."
+      },
+      {
+        "row": 9,
+        "rowsha": "HFa1cEPWS6IafwliTUsPo5JdGpiVtwjQH7BPFz5eeoE=",
+        "originContent": "- If you are using a stable build, you can patch from the menu: `Help ⇒ Patch This Application`",
+        "translatedContent": "- Si está utilizando una versión estable, puede parchear desde el menú: `Ayuda ⇒ Parchear esta aplicación`"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "eRIxf4QUM1np2z/BfXbFjPyvR3c+ahA9/T/wS6N8bFY=",
+        "originContent": "### Patch External Sublime Text/Merge",
+        "translatedContent": "### Parchear Sublime Text/Merge externo"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "LRTITI/u0+7D8j4qTGVSm5zF1kHbpVxmfKldPIuBOxA=",
+        "originContent": "If your application is installed in a place which requires admin/root permission to write,",
+        "translatedContent": "Si su aplicación está instalada en un lugar que requiere permisos de administrador/root para escribir,"
+      },
+      {
+        "row": 14,
+        "rowsha": "ZMmkFUhrspVUm8pFTmZ9GuG594iZTi1IberYyb2YSmg=",
+        "originContent": "you can use this plugin to create a patched executable in a temporarily directory.",
+        "translatedContent": "puede usar este complemento para crear un ejecutable parcheado en un directorio temporal."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "tdKmGmuZi3a9Qnj7Qldb3uQsz4hn52m4ChGTpWDvJhA=",
+        "originContent": "Click the menu: `Help ⇒ Patch External Sublime Text/Merge` and then select the executable of Sublime Text/Merge.",
+        "translatedContent": "Haga clic en el menú: `Ayuda ⇒ Parchear Sublime Text/Merge externo` y luego seleccione el ejecutable de Sublime Text/Merge."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "CAWBqSRvAdJOoqekIA4xTAlNxwZzMkWG+2fazPu5lEA=",
+        "originContent": "## Q&A",
+        "translatedContent": "## Preguntas y Respuestas"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "BQVndj3+bKADgVzxSTNik1vHrqvxcX95B7I7XH9jhuM=",
+        "originContent": "### How to Disable Sublime Text/Merge Auto Update?",
+        "translatedContent": "### ¿Cómo desactivar la actualización automática de Sublime Text/Merge?"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "6QHaXwtqJKlIa8ayzSL2zUNqI6eCSOulu7GxUs8ojo8=",
+        "originContent": "This plugin usually just continues to work for future versions of Sublime Text/Merge.",
+        "translatedContent": "Este complemento usualmente sigue funcionando para versiones futuras de Sublime Text/Merge."
+      },
+      {
+        "row": 23,
+        "rowsha": "P1NVObU4gULsRkpLaHWLLOqTPv7/db4HtMjLVNvNH5s=",
+        "originContent": "But if you want to disable the application auto update, you can set the following settings:",
+        "translatedContent": "Pero si desea desactivar la actualización automática de la aplicación, puede configurar los siguientes ajustes:"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```jsonc\n{\n    \"update_check\": false, // this works only if you have registered\n}\n```",
+    "ContentSha": "mbOzqz2mPSGbcNqX8GralmweYeio1vulbW6F0Y0Laio=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```jsonc\n{\n    \"update_check\": false, // this works only if you have registered\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "W2ZPLLHtPfT3jMb92CzOuo0EQJVZI/gmQ35tdkjvouA=",
+        "originContent": "```jsonc",
+        "translatedContent": "```jsonc"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "hUdi1+Uur3N5pPS1Et32oE0hEpVYhxFNG8k5rORGozA=",
+        "originContent": "    \"update_check\": false, // this works only if you have registered",
+        "translatedContent": "    \"update_check\": false, // this works only if you have registered"
+      },
+      {
+        "row": 4,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### This Plugin is Suspicious\n\nI don't think I do anything malicious, but you don't have to trust me. You can\n\n- Do patching in a virtual machine and take the patched executable out.\n- Do it by yourself. See https://gist.github.com/maboloshi/feaa63c35f4c2baab24c9aaf9b3f4e47\n",
+    "ContentSha": "QNK2H6xMV/ECBXD6QFi3Bb1i0p95ziHq8osyNFzPEkM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Este Plugin es Sospechoso\n\nNo creo hacer nada malicioso, pero no tienes que confiar en mí. Puedes\n\n- Hacer el parcheo en una máquina virtual y sacar el ejecutable parcheado.\n- Hacerlo tú mismo. Consulta https://gist.github.com/maboloshi/feaa63c35f4c2baab24c9aaf9b3f4e47\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "3XYmNRbfW5s+gF9VT9b6v5Dh9dSbHObXja9TW4os3w0=",
+        "originContent": "### This Plugin is Suspicious",
+        "translatedContent": "### Este Plugin es Sospechoso"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "R7uP8k6/SzR2eSDL4o57YTZ5E2MOCgo1VRKT/7AAap4=",
+        "originContent": "I don't think I do anything malicious, but you don't have to trust me. You can",
+        "translatedContent": "No creo hacer nada malicioso, pero no tienes que confiar en mí. Puedes"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "LAirZO3jv+O9K0n/V+sDpBdyIPU/7Azc60C2P9kCZ9c=",
+        "originContent": "- Do patching in a virtual machine and take the patched executable out.",
+        "translatedContent": "- Hacer el parcheo en una máquina virtual y sacar el ejecutable parcheado."
+      },
+      {
+        "row": 7,
+        "rowsha": "x/7YEoV7P5HgOCwZanbzlKQIojxlHdGl2yPzT18W/2c=",
+        "originContent": "- Do it by yourself. See https://gist.github.com/maboloshi/feaa63c35f4c2baab24c9aaf9b3f4e47",
+        "translatedContent": "- Hacerlo tú mismo. Consulta https://gist.github.com/maboloshi/feaa63c35f4c2baab24c9aaf9b3f4e47"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

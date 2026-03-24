@@ -1,0 +1,897 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n\n# UniSH: Unifying Scene and Human Reconstruction in a Feed-Forward Pass\n\n\n**Mengfei Li**<sup>1</sup>, **Peng Li**<sup>1</sup>, **Zheng Zhang**<sup>2</sup>, **Jiahao Lu**<sup>1</sup>, **Chengfeng Zhao**<sup>1</sup>, **Wei Xue**<sup>1</sup>,\n<br>\n**Qifeng Liu**<sup>1</sup>, **Sida Peng**<sup>3</sup>, **Wenxiao Zhang**<sup>1</sup>, **Wenhan Luo**<sup>1</sup>, **Yuan Liu**<sup>1†</sup>, **Yike Guo**<sup>1†</sup>\n\n<sup>1</sup>HKUST, <sup>2</sup>BUPT, <sup>3</sup>ZJU\n\n<br>\n\n<a href=\"https://arxiv.org/abs/2601.01222\" target=\"_blank\"><img src=\"https://img.shields.io/badge/arXiv-Paper-b31b1b.svg\" alt=\"arXiv\"></a>\n<a href=\"https://murphylmf.github.io/UniSH/\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Project-Page-orange\" alt=\"Project Page\"></a>\n<a href=\"https://huggingface.co/spaces/Murphyyyy/UniSH\" target=\"_blank\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow\" alt=\"Hugging Face Demo\"></a>\n<a href=\"https://huggingface.co/Murphyyyy/UniSH\" target=\"_blank\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue\" alt=\"Hugging Face Model\"></a>\n<a href=\"LICENSE\" target=\"_blank\"><img src=\"https://img.shields.io/badge/License-Apache_2.0-green.svg\" alt=\"License\"></a>\n\n</div>\n\n---\n\n### TL;DR\nGiven a monocular video as input, our UniSH is capable of jointly reconstructing scene and human in a single forward pass, enabling effective estimation of scene geometry, camera parameters and SMPL parameters.\n\n\n<video src=\"static/teaser_video_final.mp4\" autoplay loop muted playsinline width=\"100%\"></video>\n\n<img src=\"https://raw.githubusercontent.com/murphylmf/UniSH/main/static/teaser.svg\" width=\"100%\" style=\"background-color: white;\">\n\n## 🛠️ Installation\n\nWe provide a **sudo-free** installation method that works on most Linux servers (including headless ones).\n\n### Step 1: Clone Repository\n",
+    "ContentSha": "7IXO0CHiraRgRJVELOvz+5Ep5fyPa1+Z5ztL6cO1Iek=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n\n# UniSH: Unifying Scene and Human Reconstruction in a Feed-Forward Pass\n\n\n**Mengfei Li**<sup>1</sup>, **Peng Li**<sup>1</sup>, **Zheng Zhang**<sup>2</sup>, **Jiahao Lu**<sup>1</sup>, **Chengfeng Zhao**<sup>1</sup>, **Wei Xue**<sup>1</sup>,\n<br>\n**Qifeng Liu**<sup>1</sup>, **Sida Peng**<sup>3</sup>, **Wenxiao Zhang**<sup>1</sup>, **Wenhan Luo**<sup>1</sup>, **Yuan Liu**<sup>1†</sup>, **Yike Guo**<sup>1†</sup>\n\n<sup>1</sup>HKUST, <sup>2</sup>BUPT, <sup>3</sup>ZJU\n\n<br>\n\n<a href=\"https://arxiv.org/abs/2601.01222\" target=\"_blank\"><img src=\"https://img.shields.io/badge/arXiv-Paper-b31b1b.svg\" alt=\"arXiv\"></a>\n<a href=\"https://murphylmf.github.io/UniSH/\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Project-Page-orange\" alt=\"Project Page\"></a>\n<a href=\"https://huggingface.co/spaces/Murphyyyy/UniSH\" target=\"_blank\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow\" alt=\"Hugging Face Demo\"></a>\n<a href=\"https://huggingface.co/Murphyyyy/UniSH\" target=\"_blank\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue\" alt=\"Hugging Face Model\"></a>\n<a href=\"LICENSE\" target=\"_blank\"><img src=\"https://img.shields.io/badge/License-Apache_2.0-green.svg\" alt=\"License\"></a>\n\n</div>\n\n---\n\n### TL;DR\nGiven a monocular video as input, our UniSH is capable of jointly reconstructing scene and human in a single forward pass, enabling effective estimation of scene geometry, camera parameters and SMPL parameters.\n\n\n<video src=\"static/teaser_video_final.mp4\" autoplay loop muted playsinline width=\"100%\"></video>\n\n<img src=\"https://raw.githubusercontent.com/murphylmf/UniSH/main/static/teaser.svg\" width=\"100%\" style=\"background-color: white;\">\n\n## 🛠️ Installation\n\nWe provide a **sudo-free** installation method that works on most Linux servers (including headless ones).\n\n### Step 1: Clone Repository\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "3ZYfS2iPFnk0di5qblQwcGbS/rT9MBJ8WbRu0vppAoI=",
+        "originContent": "# UniSH: Unifying Scene and Human Reconstruction in a Feed-Forward Pass",
+        "translatedContent": "# UniSH: Unifying Scene and Human Reconstruction in a Feed-Forward Pass"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "rHV2NCcGfwdmUkIik5HBXgCFRMZgxPjwzI2JBuE+9a8=",
+        "originContent": "**Mengfei Li**<sup>1</sup>, **Peng Li**<sup>1</sup>, **Zheng Zhang**<sup>2</sup>, **Jiahao Lu**<sup>1</sup>, **Chengfeng Zhao**<sup>1</sup>, **Wei Xue**<sup>1</sup>,",
+        "translatedContent": "**Mengfei Li**<sup>1</sup>, **Peng Li**<sup>1</sup>, **Zheng Zhang**<sup>2</sup>, **Jiahao Lu**<sup>1</sup>, **Chengfeng Zhao**<sup>1</sup>, **Wei Xue**<sup>1</sup>,"
+      },
+      {
+        "row": 7,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 8,
+        "rowsha": "x5AiOXkfLvv4+nI1k73RlsJdLxIxU5Z8rmqlcrcbDq8=",
+        "originContent": "**Qifeng Liu**<sup>1</sup>, **Sida Peng**<sup>3</sup>, **Wenxiao Zhang**<sup>1</sup>, **Wenhan Luo**<sup>1</sup>, **Yuan Liu**<sup>1†</sup>, **Yike Guo**<sup>1†</sup>",
+        "translatedContent": "**Qifeng Liu**<sup>1</sup>, **Sida Peng**<sup>3</sup>, **Wenxiao Zhang**<sup>1</sup>, **Wenhan Luo**<sup>1</sup>, **Yuan Liu**<sup>1†</sup>, **Yike Guo**<sup>1†</sup>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "eSTucdtHBrXx/cSomul1jVTkWTqPpx0GpCkda5WQHWM=",
+        "originContent": "<sup>1</sup>HKUST, <sup>2</sup>BUPT, <sup>3</sup>ZJU",
+        "translatedContent": "<sup>1</sup>HKUST, <sup>2</sup>BUPT, <sup>3</sup>ZJU"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "MhzJCnQ4cIfdAwGgPyaN8t907SCi6QJaOIVB5v/QSlQ=",
+        "originContent": "<a href=\"https://arxiv.org/abs/2601.01222\" target=\"_blank\"><img src=\"https://img.shields.io/badge/arXiv-Paper-b31b1b.svg\" alt=\"arXiv\"></a>",
+        "translatedContent": "<a href=\"https://arxiv.org/abs/2601.01222\" target=\"_blank\"><img src=\"https://img.shields.io/badge/arXiv-Paper-b31b1b.svg\" alt=\"arXiv\"></a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "aDmcUn0PvOn2yCcfGlbBNVhr84i9+WFd37GfZk84cOA=",
+        "originContent": "<a href=\"https://murphylmf.github.io/UniSH/\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Project-Page-orange\" alt=\"Project Page\"></a>",
+        "translatedContent": "<a href=\"https://murphylmf.github.io/UniSH/\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Project-Page-orange\" alt=\"Project Page\"></a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "7EgDc3EHkgynWsbI7weXDpqTW4iJ6yzQ/Rv59IKaEIc=",
+        "originContent": "<a href=\"https://huggingface.co/spaces/Murphyyyy/UniSH\" target=\"_blank\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow\" alt=\"Hugging Face Demo\"></a>",
+        "translatedContent": "<a href=\"https://huggingface.co/spaces/Murphyyyy/UniSH\" target=\"_blank\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow\" alt=\"Hugging Face Demo\"></a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "JqejqD8KRsjx1tcX5HSiq8erpIM6cl3Qm/0iuB7yywo=",
+        "originContent": "<a href=\"https://huggingface.co/Murphyyyy/UniSH\" target=\"_blank\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue\" alt=\"Hugging Face Model\"></a>",
+        "translatedContent": "<a href=\"https://huggingface.co/Murphyyyy/UniSH\" target=\"_blank\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue\" alt=\"Hugging Face Model\"></a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "oTQm+vZAaUXbQ05TeU5IR1jTCcez9JZdaWoPAd33NWk=",
+        "originContent": "<a href=\"LICENSE\" target=\"_blank\"><img src=\"https://img.shields.io/badge/License-Apache_2.0-green.svg\" alt=\"License\"></a>",
+        "translatedContent": "<a href=\"LICENSE\" target=\"_blank\"><img src=\"https://img.shields.io/badge/License-Apache_2.0-green.svg\" alt=\"License\"></a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "IWN1z9QTVWIy70sRK3sGmzPwILm2Cr5E+dIFERNAx7k=",
+        "originContent": "### TL;DR",
+        "translatedContent": "### TL;DR"
+      },
+      {
+        "row": 25,
+        "rowsha": "DWlXMdPsi2FdR+mc6Nu4VnybkIN6tyUU4m3zrh28A50=",
+        "originContent": "Given a monocular video as input, our UniSH is capable of jointly reconstructing scene and human in a single forward pass, enabling effective estimation of scene geometry, camera parameters and SMPL parameters.",
+        "translatedContent": "Given a monocular video as input, our UniSH is capable of jointly reconstructing scene and human in a single forward pass, enabling effective estimation of scene geometry, camera parameters and SMPL parameters."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "9usDffYrvBfj/8wBYHHUiSKdXQKSaQYigvjhaZLXEcg=",
+        "originContent": "<video src=\"static/teaser_video_final.mp4\" autoplay loop muted playsinline width=\"100%\"></video>",
+        "translatedContent": "<video src=\"static/teaser_video_final.mp4\" autoplay loop muted playsinline width=\"100%\"></video>"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "AsWF8ODqVN3d7XepkLrguH3mZHBv7UtPZ4g09YWtmYU=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/murphylmf/UniSH/main/static/teaser.svg\" width=\"100%\" style=\"background-color: white;\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/murphylmf/UniSH/main/static/teaser.svg\" width=\"100%\" style=\"background-color: white;\">"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "mjxiuRZ1/CyihNdVofQBPNtawI9pDP9M+RFrU+so5kM=",
+        "originContent": "## 🛠️ Installation",
+        "translatedContent": "## 🛠️ Installation"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "ANCVMn5qpN8ii4cHD7hEjMZrI1lesa1v4ozL5hidElM=",
+        "originContent": "We provide a **sudo-free** installation method that works on most Linux servers (including headless ones).",
+        "translatedContent": "We provide a **sudo-free** installation method that works on most Linux servers (including headless ones)."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "GSKg7k7xSOOUyBI8Tp/p46Wh9VNRgUr9vqaXudaojhQ=",
+        "originContent": "### Step 1: Clone Repository",
+        "translatedContent": "### Step 1: Clone Repository"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngit clone https://github.com/murphylmf/UniSH.git\ncd UniSH\n```",
+    "ContentSha": "Zjxxderm7pL9ZjfHvV3d8Bz93lhywAOrMnR71PcuuSs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/murphylmf/UniSH.git\ncd UniSH\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "n9XQ0yHFavU7+FuiCE0/nntuQVQeR5Dxny6uiyukB+g=",
+        "originContent": "git clone https://github.com/murphylmf/UniSH.git",
+        "translatedContent": "git clone https://github.com/murphylmf/UniSH.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "Xb8hK2tYrq/IEQNoE4mU52I/NzsswXG9prWL+dX7ovo=",
+        "originContent": "cd UniSH",
+        "translatedContent": "cd UniSH"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Step 2: Create Conda Environment\nThis installs Python, system compilers, and OpenGL drivers.\n",
+    "ContentSha": "rISiNBm8SjBiMbQy6mMToSlWdho7/N1K85ltS/Q2HGQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Step 2: Create Conda Environment\nThis installs Python, system compilers, and OpenGL drivers.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "F5wZ/pviQOE35AQrZcCM6Y5Li1M3gnY3SdRE3eWnLm4=",
+        "originContent": "### Step 2: Create Conda Environment",
+        "translatedContent": "### Step 2: Create Conda Environment"
+      },
+      {
+        "row": 3,
+        "rowsha": "IJ9xie0wj/Mo9bWYh36r/7aP3ItsrRDtLNrvHerY/tI=",
+        "originContent": "This installs Python, system compilers, and OpenGL drivers.",
+        "translatedContent": "This installs Python, system compilers, and OpenGL drivers."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nconda env create -f environment.yml\nconda activate unish\n```",
+    "ContentSha": "zNBblWU3id82fWDeDG5WXd2DjGZva//8+iB5LdsP+5A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nconda env create -f environment.yml\nconda activate unish\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "I3A/ExbOxC8ZCCVG6lc7LYw0eJGRMwCPlgAQFOQeAdM=",
+        "originContent": "conda env create -f environment.yml",
+        "translatedContent": "conda env create -f environment.yml"
+      },
+      {
+        "row": 3,
+        "rowsha": "H4s1zkZ1n72EnktYOpjd0obExHjcTfCO01kRp/gqyxQ=",
+        "originContent": "conda activate unish",
+        "translatedContent": "conda activate unish"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Step 3: Compile Dependencies\nThis script compiles PyTorch3D, MMCV, and SAM2 from source using the compilers installed in Step 2.\n\nThe environment has been tested on **CUDA 12.1** and **CUDA 11.8**. You can specify the CUDA version by passing it as an argument to the installation script.\n",
+    "ContentSha": "GqYQPr4RIjCHNvy0Y3yLn80KmgD5Z7vh/mQL0QHAVuk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Step 3: Compile Dependencies\nThis script compiles PyTorch3D, MMCV, and SAM2 from source using the compilers installed in Step 2.\n\nThe environment has been tested on **CUDA 12.1** and **CUDA 11.8**. You can specify the CUDA version by passing it as an argument to the installation script.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Step 3: Compile Dependencies"
+      },
+      {
+        "row": 2,
+        "rowsha": "Cxad99vrihObLIEZaRxG7X3IiB2GWt7FMklko4CcJzM=",
+        "originContent": "### Step 3: Compile Dependencies",
+        "translatedContent": "This script compiles PyTorch3D, MMCV, and SAM2 from source using the compilers installed in Step 2."
+      },
+      {
+        "row": 3,
+        "rowsha": "cemvbo+JtY2NmivQtYeglCF2TFdHNuXL/TTE6RiIdZA=",
+        "originContent": "This script compiles PyTorch3D, MMCV, and SAM2 from source using the compilers installed in Step 2.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The environment has been tested on **CUDA 12.1** and **CUDA 11.8**. You can specify the CUDA version by passing it as an argument to the installation script."
+      },
+      {
+        "row": 5,
+        "rowsha": "dsuUYVCda+Zw0VqPCuYq2Nv6mMZcOE8nl32N+BJEQqc=",
+        "originContent": "The environment has been tested on **CUDA 12.1** and **CUDA 11.8**. You can specify the CUDA version by passing it as an argument to the installation script.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# Default (Auto-detect or 12.1)\nbash install.sh\n\n# For CUDA 11.8\nbash install.sh 11.8\n\n# For CUDA 12.1\nbash install.sh 12.1\n```",
+    "ContentSha": "c6irZUWDPCmbzhW5cS95MIWwDfjpTyBeiqMkf8B415E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Default (Auto-detect or 12.1)\nbash install.sh\n\n# For CUDA 11.8\nbash install.sh 11.8\n\n# For CUDA 12.1\nbash install.sh 12.1\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "J9vzbP6ePsE3oJrfIRtZD6DvzbAVLh86TTJv7ZfmOwU=",
+        "originContent": "# Default (Auto-detect or 12.1)",
+        "translatedContent": "# Default (Auto-detect or 12.1)"
+      },
+      {
+        "row": 3,
+        "rowsha": "6m7QiMuzjaax9Qrn9sbh5h5u/huElkXs0MU8BmonS40=",
+        "originContent": "bash install.sh",
+        "translatedContent": "bash install.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "DuaIuJdbRGyq6pk6ghHejg9LeQ9bTHwQoyMvDpmJlOQ=",
+        "originContent": "# For CUDA 11.8",
+        "translatedContent": "# For CUDA 11.8"
+      },
+      {
+        "row": 6,
+        "rowsha": "keAeMW2sn1tFgnyIygAOOS4p2YPLjiQ3GiYTACYRorQ=",
+        "originContent": "bash install.sh 11.8",
+        "translatedContent": "bash install.sh 11.8"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "kVtYYiIQDn2sOWefMokeGA3/LlyZA9ymsIPWeyWZvx4=",
+        "originContent": "# For CUDA 12.1",
+        "translatedContent": "# For CUDA 12.1"
+      },
+      {
+        "row": 9,
+        "rowsha": "I8hrXDAYuANszJr01UDsokz780Rzu7Y2bLmpZ2A/Dso=",
+        "originContent": "bash install.sh 12.1",
+        "translatedContent": "bash install.sh 12.1"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Step 4: Download SMPL Models\nPlease download the [SMPL](https://smpl.is.tue.mpg.de/) models and place them in the `body_models` folder.\nThe directory structure should be organized as follows:\n",
+    "ContentSha": "9+jA3YzaLglm2YJIQSqyEsJhWU0OgZbvD/vOF4Bakt0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Step 4: Download SMPL Models\nPlease download the [SMPL](https://smpl.is.tue.mpg.de/) models and place them in the `body_models` folder.\nThe directory structure should be organized as follows:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "RHQTsfDBl+VTOIZRfEsV6Ju4KSECTV7RI+7OBFpO0co=",
+        "originContent": "### Step 4: Download SMPL Models",
+        "translatedContent": "### Step 4: Download SMPL Models"
+      },
+      {
+        "row": 3,
+        "rowsha": "Z1i6FkUtNI9733saDxcJWiRviGdVwdJ3GJ78cxnpiyQ=",
+        "originContent": "Please download the [SMPL](https://smpl.is.tue.mpg.de/) models and place them in the `body_models` folder.",
+        "translatedContent": "Please download the [SMPL](https://smpl.is.tue.mpg.de/) models and place them in the `body_models` folder."
+      },
+      {
+        "row": 4,
+        "rowsha": "JFrf3NV5pCHE281QAvxzzl5eZsPzOY1e1ddH1rOCzAA=",
+        "originContent": "The directory structure should be organized as follows:",
+        "translatedContent": "The directory structure should be organized as follows:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```text\nUniSH/\n├── body_models/\n│   └── smpl/\n│       └── smpl/\n│           ├── SMPL_FEMALE.pkl\n│           ├── SMPL_MALE.pkl\n│           └── SMPL_NEUTRAL.pkl\n```",
+    "ContentSha": "0m8xW1Ki/Q6ZrKVlg7HQDoqBlGwQtWWRQ/+xUt4js+k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```text\nUniSH/\n├── body_models/\n│   └── smpl/\n│       └── smpl/\n│           ├── SMPL_FEMALE.pkl\n│           ├── SMPL_MALE.pkl\n│           └── SMPL_NEUTRAL.pkl\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
+        "originContent": "```text",
+        "translatedContent": "```text"
+      },
+      {
+        "row": 2,
+        "rowsha": "fImq+ZULk9mpEVKe97VyrN+l2Q3EitEJr6100nfQKFs=",
+        "originContent": "UniSH/",
+        "translatedContent": "UniSH/"
+      },
+      {
+        "row": 3,
+        "rowsha": "KcB+5MzPXp71yDAkjWxWLXZLIKdZoNp0OHaAQ8sseLE=",
+        "originContent": "├── body_models/",
+        "translatedContent": "├── body_models/"
+      },
+      {
+        "row": 4,
+        "rowsha": "xu2xalEv9mWeuXDT2+d3SxgE37vBV9gbhHJ6MjXWxZs=",
+        "originContent": "│   └── smpl/",
+        "translatedContent": "│   └── smpl/"
+      },
+      {
+        "row": 5,
+        "rowsha": "96Drw4zFocV0nkSe2SwtTicIfjhmQv/TrvKhwX/liOo=",
+        "originContent": "│       └── smpl/",
+        "translatedContent": "│       └── smpl/"
+      },
+      {
+        "row": 6,
+        "rowsha": "ElhS9eFvCTjzNMWv8OEOOn0jahBZbaAmC+YmVi0Ll3A=",
+        "originContent": "│           ├── SMPL_FEMALE.pkl",
+        "translatedContent": "│           ├── SMPL_FEMALE.pkl"
+      },
+      {
+        "row": 7,
+        "rowsha": "Hu8fNVjN1u+OWelKz3mNUBdP4AlsuDsPXjJJ/HcjQf4=",
+        "originContent": "│           ├── SMPL_MALE.pkl",
+        "translatedContent": "│           ├── SMPL_MALE.pkl"
+      },
+      {
+        "row": 8,
+        "rowsha": "KcQdVugG4H29KfkrHvzMLWft+PUYomb8dZTnpIbivKk=",
+        "originContent": "│           └── SMPL_NEUTRAL.pkl",
+        "translatedContent": "│           └── SMPL_NEUTRAL.pkl"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## 🚀 Quick Start (Inference)\n\n### Run Inference\nRun the following command to reconstruct the scene and human from the video:\n",
+    "ContentSha": "cANCRSySVEaNSQ1vq3sDmB+A45NWpg9yTrlC2gzcQSY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🚀 Quick Start (Inference)\n\n### Run Inference\nRun the following command to reconstruct the scene and human from the video:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "to4IKWdL03y+oXaAhd5O6VVNXTKyd5SnbdS64Mtunzs=",
+        "originContent": "## 🚀 Quick Start (Inference)",
+        "translatedContent": "## 🚀 Quick Start (Inference)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "jQY2YR5iUovunmPsBRBLU0PwkNC3Xah6cY4dQbgYPy4=",
+        "originContent": "### Run Inference",
+        "translatedContent": "### Run Inference"
+      },
+      {
+        "row": 5,
+        "rowsha": "Aa7JL9Pmp4fp0G+B/0dQq8V+k9LObqR8B7KIrjDjfb4=",
+        "originContent": "Run the following command to reconstruct the scene and human from the video:",
+        "translatedContent": "Run the following command to reconstruct the scene and human from the video:"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\npython inference.py --output_dir inference_results/example --video_path examples/example_video.mp4 \n```",
+    "ContentSha": "E1Pzd3HkgaVTU4YVWNCGCONrPidRpZptxlOdy16SqPw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython inference.py --output_dir inference_results/example --video_path examples/example_video.mp4 \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "gi6nXSJoZJvCIZto4eYF1gyCX190xVBimBgh01PjOhs=",
+        "originContent": "python inference.py --output_dir inference_results/example --video_path examples/example_video.mp4 ",
+        "translatedContent": "python inference.py --output_dir inference_results/example --video_path examples/example_video.mp4 "
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nPlease refer to `inference.py` for more information about additional parameters.\n\n## 📝 Citation\n\nIf you find this code useful for your research, please consider citing our paper:\n",
+    "ContentSha": "tMkRoO1c/Lwdu1FduuXsGF/Z7xxLhRlVtX4uSuH1AIw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nPlease refer to `inference.py` for more information about additional parameters.\n\n## 📝 Citation\n\nIf you find this code useful for your research, please consider citing our paper:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "B/TitsoRK12sofucv1h8Lkf/W9L66bOlP6gEPzba+sk=",
+        "originContent": "Please refer to `inference.py` for more information about additional parameters.",
+        "translatedContent": "Please refer to `inference.py` for more information about additional parameters."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "MZTy6RdMKyttaOCUNJhjiyQXvQF5dr7Ogih17OBDVMU=",
+        "originContent": "## 📝 Citation",
+        "translatedContent": "## 📝 Citation"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Ht2Is9P2n1ws4W37DAAQlLUozENmkH8o7ERtG8uZj7g=",
+        "originContent": "If you find this code useful for your research, please consider citing our paper:",
+        "translatedContent": "If you find this code useful for your research, please consider citing our paper:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bibtex\n@misc{li2026unishunifyingscenehuman,\n      title={UniSH: Unifying Scene and Human Reconstruction in a Feed-Forward Pass}, \n      author={Mengfei Li and Peng Li and Zheng Zhang and Jiahao Lu and Chengfeng Zhao and Wei Xue and Qifeng Liu and Sida Peng and Wenxiao Zhang and Wenhan Luo and Yuan Liu and Yike Guo},\n      year={2026},\n      eprint={2601.01222},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2601.01222}, \n}\n```",
+    "ContentSha": "gyWdgyuPY6qFzkwZ2W2IfYdRin64izq2qGav6vrrGPk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@misc{li2026unishunifyingscenehuman,\n      title={UniSH: Unifying Scene and Human Reconstruction in a Feed-Forward Pass}, \n      author={Mengfei Li and Peng Li and Zheng Zhang and Jiahao Lu and Chengfeng Zhao and Wei Xue and Qifeng Liu and Sida Peng and Wenxiao Zhang and Wenhan Luo and Yuan Liu and Yike Guo},\n      year={2026},\n      eprint={2601.01222},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2601.01222}, \n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "Yu5lC+sPop9MLWEmint9EgAThBSJHYbkT44c/EOym5E=",
+        "originContent": "@misc{li2026unishunifyingscenehuman,",
+        "translatedContent": "@misc{li2026unishunifyingscenehuman,"
+      },
+      {
+        "row": 3,
+        "rowsha": "IlT/xFxebnwJQwuMBme/x/K2WzOHEjhnyMVaZGHjFHY=",
+        "originContent": "      title={UniSH: Unifying Scene and Human Reconstruction in a Feed-Forward Pass}, ",
+        "translatedContent": "      title={UniSH: Unifying Scene and Human Reconstruction in a Feed-Forward Pass}, "
+      },
+      {
+        "row": 4,
+        "rowsha": "OBIlTft2wAJqMD9NMy7OCKMmhJOPhh7jOFXnzwrWILQ=",
+        "originContent": "      author={Mengfei Li and Peng Li and Zheng Zhang and Jiahao Lu and Chengfeng Zhao and Wei Xue and Qifeng Liu and Sida Peng and Wenxiao Zhang and Wenhan Luo and Yuan Liu and Yike Guo},",
+        "translatedContent": "      author={Mengfei Li and Peng Li and Zheng Zhang and Jiahao Lu and Chengfeng Zhao and Wei Xue and Qifeng Liu and Sida Peng and Wenxiao Zhang and Wenhan Luo and Yuan Liu and Yike Guo},"
+      },
+      {
+        "row": 5,
+        "rowsha": "m5HXEQoNkLTqPVqPLrObJvEugLSAwoj57J0iBfziquU=",
+        "originContent": "      year={2026},",
+        "translatedContent": "      year={2026},"
+      },
+      {
+        "row": 6,
+        "rowsha": "vOn/zP7o9vOu5ICCsI980oggYqhDa87IFmbzCPCEGWM=",
+        "originContent": "      eprint={2601.01222},",
+        "translatedContent": "      eprint={2601.01222},"
+      },
+      {
+        "row": 7,
+        "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
+        "originContent": "      archivePrefix={arXiv},",
+        "translatedContent": "      archivePrefix={arXiv},"
+      },
+      {
+        "row": 8,
+        "rowsha": "RPNBhgHdrY2A+XYLnuhpAr/aqag2LU2pAjasgtM0tg4=",
+        "originContent": "      primaryClass={cs.CV},",
+        "translatedContent": "      primaryClass={cs.CV},"
+      },
+      {
+        "row": 9,
+        "rowsha": "XCsb3umPU64tKCxWz/+H3k6KaL3fVeUogbiBwf81X+8=",
+        "originContent": "      url={https://arxiv.org/abs/2601.01222}, ",
+        "translatedContent": "      url={https://arxiv.org/abs/2601.01222}, "
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## 🙏 Acknowledgements\n\nWe acknowledge the excellent contributions from the following projects:\n\n* [GVHMR](https://github.com/zju3dv/GVHMR)\n* [BEDLAM](https://bedlam.is.tue.mpg.de/)\n* [SMPL](https://smpl.is.tue.mpg.de/)\n* [VGGT](https://github.com/facebookresearch/vggt)\n* [Pi3](https://github.com/yyfz/Pi3)\n* [MoGe2](https://github.com/microsoft/moge)\n\n## 📄 License\nThis project is licensed under the Apache 2.0 License. See [LICENSE](LICENSE) for details.\n",
+    "ContentSha": "wqgfG8rbj7Nf6BJPFsiGR25kHT8LYwjpcZ2r3hzBDik=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🙏 Acknowledgements\n\nWe acknowledge the excellent contributions from the following projects:\n\n* [GVHMR](https://github.com/zju3dv/GVHMR)\n* [BEDLAM](https://bedlam.is.tue.mpg.de/)\n* [SMPL](https://smpl.is.tue.mpg.de/)\n* [VGGT](https://github.com/facebookresearch/vggt)\n* [Pi3](https://github.com/yyfz/Pi3)\n* [MoGe2](https://github.com/microsoft/moge)\n\n## 📄 License\nThis project is licensed under the Apache 2.0 License. See [LICENSE](LICENSE) for details.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "xu64CG5WWAk6HrV6oWvSAQFXHyBWkQmb01SHddeshOI=",
+        "originContent": "## 🙏 Acknowledgements",
+        "translatedContent": "## 🙏 Acknowledgements"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "9VHgfu+vxtstzNxYrNfRG7SW0OE+pD9dq62h/eoaq6g=",
+        "originContent": "We acknowledge the excellent contributions from the following projects:",
+        "translatedContent": "We acknowledge the excellent contributions from the following projects:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "kqexXfCQjVMqt0IQgFh1ElY3AmBGe2FFkBepW1tbhTc=",
+        "originContent": "* [GVHMR](https://github.com/zju3dv/GVHMR)",
+        "translatedContent": "* [GVHMR](https://github.com/zju3dv/GVHMR)"
+      },
+      {
+        "row": 7,
+        "rowsha": "hhF73gSOovxPaBSXbb9VG+H56T9XQhXaxrI+irtf0Jg=",
+        "originContent": "* [BEDLAM](https://bedlam.is.tue.mpg.de/)",
+        "translatedContent": "* [BEDLAM](https://bedlam.is.tue.mpg.de/)"
+      },
+      {
+        "row": 8,
+        "rowsha": "70NaW/4cWg4MmWgG2fOMYLPSZdbSGfwRxCA+ZdYRZTU=",
+        "originContent": "* [SMPL](https://smpl.is.tue.mpg.de/)",
+        "translatedContent": "* [SMPL](https://smpl.is.tue.mpg.de/)"
+      },
+      {
+        "row": 9,
+        "rowsha": "cgKKmURQIanMydnvVYki36ooVn7j0ZRxKzRtDDEykgU=",
+        "originContent": "* [VGGT](https://github.com/facebookresearch/vggt)",
+        "translatedContent": "* [VGGT](https://github.com/facebookresearch/vggt)"
+      },
+      {
+        "row": 10,
+        "rowsha": "IL4b/nrp7TuPAIbbYr3bQ1Nf4XTdiP09MFQoMenjDgI=",
+        "originContent": "* [Pi3](https://github.com/yyfz/Pi3)",
+        "translatedContent": "* [Pi3](https://github.com/yyfz/Pi3)"
+      },
+      {
+        "row": 11,
+        "rowsha": "Gu9VvHhchEgIKC92KTOzM2rDs8WidtaNcuWvHmiKBQA=",
+        "originContent": "* [MoGe2](https://github.com/microsoft/moge)",
+        "translatedContent": "* [MoGe2](https://github.com/microsoft/moge)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
+        "originContent": "## 📄 License",
+        "translatedContent": "## 📄 License"
+      },
+      {
+        "row": 14,
+        "rowsha": "UwdZKWxmCdCLn8FuDW35JwQavsTJ2vR2yAoubE9zij0=",
+        "originContent": "This project is licensed under the Apache 2.0 License. See [LICENSE](LICENSE) for details.",
+        "translatedContent": "This project is licensed under the Apache 2.0 License. See [LICENSE](LICENSE) for details."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
