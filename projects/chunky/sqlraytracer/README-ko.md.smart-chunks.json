@@ -1,0 +1,1082 @@
+[
+  {
+    "Id": 1,
+    "Content": "# A Pure SQL Raytracer\n\nEveryone writes a raytracer sooner or later. This is mine.\n\n## Example Outputs\n",
+    "ContentSha": "KnYHtXHgcSe+6p4o+Dw/h5xFPN4H4KZxIqftLpN7r9M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 순수 SQL 레이트레이서\n\n누구나 언젠가는 레이트레이서를 작성합니다. 이것이 저의 작품입니다.\n\n## 예제 출력값들\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "gHzPxjYSwd6P1tsYdf3wCzg8s0pmWaqPepTQLN6wWHY=",
+        "originContent": "# A Pure SQL Raytracer",
+        "translatedContent": "# 순수 SQL 레이트레이서"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "O/26dtuDJZKKbONdkKxUaHPurqz86gbrV1847gpSlnc=",
+        "originContent": "Everyone writes a raytracer sooner or later. This is mine.",
+        "translatedContent": "누구나 언젠가는 레이트레이서를 작성합니다. 이것이 저의 작품입니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "8Jdl+g9CFa0UkDLGcksdfsWfjx9lCTAJeCSjaVNvlOY=",
+        "originContent": "## Example Outputs",
+        "translatedContent": "## 예제 출력값들"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "<img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/dielectricparty.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onemirrorball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/glassmatrix.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/airy.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onediamondball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneantiglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/adjacentballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreyball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/reflectiontest.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twodiffuseballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreenball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/threemirrors.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twomirrorballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/busyday.png\" width=200>",
+    "ContentSha": "RxeZhRYOsyQoDFlqqnPntaJJ4rz0cL9DKQjSiGorZ8U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/dielectricparty.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onemirrorball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/glassmatrix.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/airy.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onediamondball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneantiglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/adjacentballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreyball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/reflectiontest.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twodiffuseballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreenball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/threemirrors.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twomirrorballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/busyday.png\" width=200>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RxeZhRYOsyQoDFlqqnPntaJJ4rz0cL9DKQjSiGorZ8U=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/dielectricparty.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onemirrorball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/glassmatrix.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/airy.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onediamondball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneantiglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/adjacentballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreyball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/reflectiontest.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twodiffuseballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreenball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/threemirrors.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twomirrorballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/busyday.png\" width=200>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/dielectricparty.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onemirrorball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/glassmatrix.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/airy.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onediamondball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneantiglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/adjacentballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreyball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/reflectiontest.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twodiffuseballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreenball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/threemirrors.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twomirrorballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/busyday.png\" width=200>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Usage\n",
+    "ContentSha": "d4QdQvtMh2QXOhSJXnbLIKLQwW7kakrJbYZVgSkHQiE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 사용법\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```shell\nsh create.sh\n```",
+    "ContentSha": "p9aHgBOZel3eouLcdkZ+frcvCz0o2Sol7qITZaMKOAw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nsh create.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "68rVxnV3/aeVyzzmZkP7LiQU08TGJrRvH6E36+ilzYw=",
+        "originContent": "sh create.sh",
+        "translatedContent": "sh create.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```postgres_connection.sh``` contains host/database/user/pass/etc.\nThere are no exotic needs other than \"postgres, like version 10 and up\nor something\"\n\nFor what it's worth, I created mine thus on my ubuntu desktop:\n```shell",
+    "ContentSha": "8qYHBRaekQ5P6MxfSH/7mVZrjhTdmgc1h8mcEp3ocsI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```postgres_connection.sh``` 파일에는 호스트/데이터베이스/사용자/비밀번호 등이 포함되어 있습니다.  \n\"postgres, 버전 10 이상 같은 것\" 외에는 특별한 요구 사항이 없습니다.  \n\n참고로, 저는 우분투 데스크탑에서 다음과 같이 만들었습니다:  \n```shell\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4N+jv02+dOmrmrrXHmjFFf+f5onaPXS0s3WIgedrpGo=",
+        "originContent": "```postgres_connection.sh``` contains host/database/user/pass/etc.",
+        "translatedContent": "```postgres_connection.sh``` 파일에는 호스트/데이터베이스/사용자/비밀번호 등이 포함되어 있습니다.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "I4IjXDVlO1j7v8kJpN5fFvWw7bs2Ou+JVddUoe34Qn0=",
+        "originContent": "There are no exotic needs other than \"postgres, like version 10 and up",
+        "translatedContent": "\"postgres, 버전 10 이상 같은 것\" 외에는 특별한 요구 사항이 없습니다.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "6jOQkR5RcInJgSfDPrGB/65qnbDHfRyItjYSGGpXKLU=",
+        "originContent": "or something\"",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "참고로, 저는 우분투 데스크탑에서 다음과 같이 만들었습니다:  "
+      },
+      {
+        "row": 5,
+        "rowsha": "nhCJOVDu3iGCZ9y4qssy0kHNu+A0hZIen5X30fTUo08=",
+        "originContent": "For what it's worth, I created mine thus on my ubuntu desktop:",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 6,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "sudo su - postgres\ncreateuser --pwprompt raytracer\ncreatedb -O raytracer raytracer",
+    "ContentSha": "HtvQ7E0T7RkzYvYmzFAnNi8D4Vk/SYFWJdOB9rSFhK8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "sudo su - postgres\ncreateuser --pwprompt raytracer\ncreatedb -O raytracer raytracer",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QNkzymEHQQLLPTbloQ3+h+z1hpxteom1kvu9yE5x7VY=",
+        "originContent": "sudo su - postgres",
+        "translatedContent": "sudo su - postgres"
+      },
+      {
+        "row": 2,
+        "rowsha": "NGBFAnwWePaWX/dcE8FDr0KXGu80aqseetna0cmBQLw=",
+        "originContent": "createuser --pwprompt raytracer",
+        "translatedContent": "createuser --pwprompt raytracer"
+      },
+      {
+        "row": 3,
+        "rowsha": "Z9lS322ZCvrRYTAbXfLoyWWFdoFO30MkvEgkAwDFuU8=",
+        "originContent": "createdb -O raytracer raytracer",
+        "translatedContent": "createdb -O raytracer raytracer"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\n\n### Levers for development and rendering\n\nWhile doing development, obviously a few-minute render time is a pretty\npoor cycle time. There are a few levers you can pull to speed things up\nand reduce quality. They're on \"camera\" and \"img\" in setup.sql:\n\n* *samples\\_per\\_px* - This is the number of rays/sub-samples per pixel.\n  - 1 or 2 is fine during debugging\n  - 15-20 gives \"workable\" pictures\n  - Going above 50 doesn't generate much visible improvement\n* *max\\_ray\\_depth* - The maximum number of ray bounces\n  - For simple scenes, it usually makes no more than 5 or so bounces\n* *res\\_x* and *res\\_y* - Final image resolution\n  - Smaller is faster\n\nThe main CTE carries a lot of stuff that's unnecessary to final output.\nThis is so I can examine rays bouncing through the scene with:\n```sql",
+    "ContentSha": "8DurYrbzJNteaLVcqBRNAo5AMycfF+Cp6RpYmmFru0I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\n### 개발 및 렌더링을 위한 조절장치\n\n개발 중에는 몇 분 걸리는 렌더링 시간이 꽤\n느린 사이클 타임임이 분명합니다. 속도를 높이고 품질을 낮출 수 있는 몇 가지 조절장치가 있습니다.\n이들은 setup.sql의 \"camera\"와 \"img\"에 있습니다:\n\n* *samples\\_per\\_px* - 픽셀당 광선/서브 샘플 수입니다.\n  - 디버깅 중에는 1 또는 2가 적당합니다\n  - 15-20이면 \"실용적인\" 그림이 나옵니다\n  - 50을 넘으면 눈에 띄는 개선이 거의 없습니다\n* *max\\_ray\\_depth* - 최대 광선 반사 횟수\n  - 단순한 장면에서는 보통 5회 내외 반사만 발생합니다\n* *res\\_x* 및 *res\\_y* - 최종 이미지 해상도\n  - 작을수록 빠릅니다\n\n주요 CTE는 최종 출력에 불필요한 많은 내용을 포함합니다.\n이는 장면을 통과하는 광선 반사를 조사하기 위함입니다:\n```sql",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "GE+xvYyOpYPFh7nYNYhNwMPrEZCXh4cptlgZNBVgJlU=",
+        "originContent": "### Levers for development and rendering",
+        "translatedContent": "### 개발 및 렌더링을 위한 조절장치"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "X6rU/HLzETsz9/SuMHkcWC2QBpRlESmT3SmggRK48i8=",
+        "originContent": "While doing development, obviously a few-minute render time is a pretty",
+        "translatedContent": "개발 중에는 몇 분 걸리는 렌더링 시간이 꽤"
+      },
+      {
+        "row": 6,
+        "rowsha": "5CPLZ9cNZHh+aEC3LBRDq7pW4hyK9zpl90xCqRnQ0Vk=",
+        "originContent": "poor cycle time. There are a few levers you can pull to speed things up",
+        "translatedContent": "느린 사이클 타임임이 분명합니다. 속도를 높이고 품질을 낮출 수 있는 몇 가지 조절장치가 있습니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "nmw5K60pWsGH+g3AbrzcODKc7KqMcDu3jMtne11j+ik=",
+        "originContent": "and reduce quality. They're on \"camera\" and \"img\" in setup.sql:",
+        "translatedContent": "이들은 setup.sql의 \"camera\"와 \"img\"에 있습니다:"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "dWPYqoppyp05ZbQTEJWKc5nh8WrMWap3ZzBmQn9UgzY=",
+        "originContent": "* *samples\\_per\\_px* - This is the number of rays/sub-samples per pixel.",
+        "translatedContent": "* *samples\\_per\\_px* - 픽셀당 광선/서브 샘플 수입니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "mv0IOuuUWu88Y4TRDiqjXI422n8vv4s9OQqtFSE4A20=",
+        "originContent": "  - 1 or 2 is fine during debugging",
+        "translatedContent": "  - 디버깅 중에는 1 또는 2가 적당합니다"
+      },
+      {
+        "row": 11,
+        "rowsha": "zj9TeXtjoYu3vFi8ZwAG3JhnftYD0EI3zLD12y9zjKk=",
+        "originContent": "  - 15-20 gives \"workable\" pictures",
+        "translatedContent": "  - 15-20이면 \"실용적인\" 그림이 나옵니다"
+      },
+      {
+        "row": 12,
+        "rowsha": "AwxaX5cvPhPJErgvlPPzF9f5CYNMJ1xEcYC9eilRzbE=",
+        "originContent": "  - Going above 50 doesn't generate much visible improvement",
+        "translatedContent": "  - 50을 넘으면 눈에 띄는 개선이 거의 없습니다"
+      },
+      {
+        "row": 13,
+        "rowsha": "GuB2G7qlxSfKWJDKHwrfWQ/qcOnQNMeWj2UytJkZxq4=",
+        "originContent": "* *max\\_ray\\_depth* - The maximum number of ray bounces",
+        "translatedContent": "* *max\\_ray\\_depth* - 최대 광선 반사 횟수"
+      },
+      {
+        "row": 14,
+        "rowsha": "u9q8IQ9Z4NrjPWorfA2wvnfD1+dk53UZ4RqnU/bQY8g=",
+        "originContent": "  - For simple scenes, it usually makes no more than 5 or so bounces",
+        "translatedContent": "  - 단순한 장면에서는 보통 5회 내외 반사만 발생합니다"
+      },
+      {
+        "row": 15,
+        "rowsha": "IcKrPPw1KERsAo90c9y4rkzWk3AyRXaoELOl3EMgBHY=",
+        "originContent": "* *res\\_x* and *res\\_y* - Final image resolution",
+        "translatedContent": "* *res\\_x* 및 *res\\_y* - 최종 이미지 해상도"
+      },
+      {
+        "row": 16,
+        "rowsha": "jm17GDsRBAm2yHXIuT3MHkOW5PVN0mEruKvYKq2pQBY=",
+        "originContent": "  - Smaller is faster",
+        "translatedContent": "  - 작을수록 빠릅니다"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "RGgSxcJbLx1N1tM7vSsjYmJSk5hWhn+2kW/czj4Vkf8=",
+        "originContent": "The main CTE carries a lot of stuff that's unnecessary to final output.",
+        "translatedContent": "주요 CTE는 최종 출력에 불필요한 많은 내용을 포함합니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "T9hcA5M21ksqitbQ4KiqmC8JgZMdRIpWbz2uw0Nye5Y=",
+        "originContent": "This is so I can examine rays bouncing through the scene with:",
+        "translatedContent": "이는 장면을 통과하는 광선 반사를 조사하기 위함입니다:"
+      },
+      {
+        "row": 20,
+        "rowsha": "g1o8THvufeOeYrfmqc9x3kevZLvvR9V8UWqzt0ePck8=",
+        "originContent": "```sql",
+        "translatedContent": "```sql"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "SELECT * FROM rays WHERE img_x=100 AND img_y=250",
+    "ContentSha": "qMDiCbD7KKKkb2Vro7TjFJhi0KWnodplWZspJxNg7p4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "SELECT * FROM rays WHERE img_x=100 AND img_y=250",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qMDiCbD7KKKkb2Vro7TjFJhi0KWnodplWZspJxNg7p4=",
+        "originContent": "SELECT * FROM rays WHERE img_x=100 AND img_y=250",
+        "translatedContent": "SELECT * FROM rays WHERE img_x=100 AND img_y=250"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\n\nThere's a script to get a quick-and-dirty view of a scene using gnuplot;\nthe script ```show_scene.sh``` should generate a folder of outputs.\n\n## Database\n\nThis is implemented in pure SQL. It doesn't do anything like CREATE\nFUNCTION or other nonportables, except for the trigger to do animation,\nwhich obviously doesn't count.\n\nAt the same time, there are some not-entirely-common features of SQL\nthat it needs:\n\n* JOIN LATERAL\n* PARTITION BY inside of a RECURSIVE CTE\n* Math functions like SIN()\n\nSo although I started developing this in SQLite, I ended up leaning\non PostgreSQL. As I write this, it works in postgres and hasn't been\ntested in anything else.\n\n## Interesting Implementation Pieces\n\nSuch as it is, I did find myself solving some problems in interesting\nways.\n\n### JOIN LATERAL\n\nJOIN LATERAL is a way to do a correlated subquery in a JOIN, instead of\njust in a WHERE clause. I use this as a way to hoist calculations and\ndo many of them only once and, in some cases, avoid excessive duplication.\n\n### Diffuse Scattering\n\nThis requires sampling a uniform sphere. I generate a lot of random\nsamples ahead of time [sample with rejection -> scale points to sphere\nsurface], and number them.\n\nFiguring out a way to join each ray to a single random row from these\nprecalculated scatters was weird; can't just join to RANDOM() because\nevery ray got joined to the same, random, scatter. Can't just select\nwith a typical calculation on a normal because that leads to stripes\nin the picture.  So, instead, I schlep out a later few decimals of one\ndimension of a normal, then join to that. It's \"random\" but also\nunique-enough-per-ray.\n\n### Recursive CTEs\n\nRaytracing very naturally tracks how recursive CTEs work. One of the\nthings I ran into was a clean way to identify which ray is the one to\naccount for. Using a window function ordering by intercept (t) worked\nwell. Every iteration, this query intersects a ray with *everything*\nin front of it and does all of the associated calculations, but then in\nthe WHERE clause will reject everything except the thing the ray\nactually hit.\n\nAlso, there's something really beautiful about the simplicity of the\ncore of the final rollup [edited for clarity]:\n```sql",
+    "ContentSha": "VN3cCFFFk+TtORg97ARrfE44rZBjA86Caq213Lo2reU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\ngnuplot을 사용하여 장면을 빠르고 간단하게 볼 수 있는 스크립트가 있습니다;\n스크립트 ```show_scene.sh```는 출력물이 담긴 폴더를 생성해야 합니다.\n\n## 데이터베이스\n\n이것은 순수 SQL로 구현되었습니다. CREATE FUNCTION 같은 비이식적인 것은 하지 않으며,\n애니메이션을 위한 트리거를 제외하면 당연히 포함되지 않습니다.\n\n동시에, 이 SQL에서는 약간 덜 흔한 기능들이 필요합니다:\n\n* JOIN LATERAL\n* RECURSIVE CTE 내에서 PARTITION BY\n* SIN() 같은 수학 함수\n\n그래서 SQLite로 개발을 시작했지만 결국 PostgreSQL에 의존하게 되었습니다.\n이 글을 쓰는 시점에는 postgres에서 작동하며 다른 곳에서는 테스트되지 않았습니다.\n\n## 흥미로운 구현 요소\n\n이 정도이지만, 저는 흥미로운 방식으로 문제를 해결하는 경우가 있었습니다.\n\n### JOIN LATERAL\n\nJOIN LATERAL은 WHERE 절이 아니라 JOIN에서 상관 서브쿼리를 수행하는 방법입니다.\n저는 이를 계산을 끌어올리고 여러 번 하는 것을 한 번만 하게 하거나,\n경우에 따라 과도한 중복을 피하기 위해 사용합니다.\n\n### 확산 산란 (Diffuse Scattering)\n\n이는 균일한 구체 표본 추출을 필요로 합니다. 저는 많은 난수 샘플을 미리 생성합니다\n[거부 샘플링 -> 구체 표면에 점들을 스케일링], 그리고 번호를 매깁니다.\n\n각 광선을 미리 계산된 산란 샘플 중 하나에 연결하는 방법을 찾는 것이 이상했는데;\nRANDOM()에 단순히 조인하면 모든 광선이 같은, 임의의 산란에 연결됩니다.\n일반적인 법선 계산으로 선택하면 그림에 줄무늬가 생깁니다.\n그래서 대신, 법선의 한 차원의 소수점 이하 몇 자리를 꺼내어 거기에 조인합니다.\n이것은 \"무작위\"이면서도 광선마다 충분히 고유합니다.\n\n### 재귀 CTE\n\n레이 트레이싱은 재귀 CTE가 작동하는 방식을 매우 자연스럽게 따릅니다.\n제가 만난 것 중 하나는 어떤 광선을 처리할지 깔끔하게 식별하는 방법이었습니다.\n절편(t)으로 정렬하는 윈도우 함수가 잘 작동했습니다.\n매 반복마다, 이 쿼리는 광선을 앞에 있는 *모든* 것과 교차시키고\n연관된 모든 계산을 수행하지만, WHERE 절에서는 광선이 실제로 맞은 것만 남깁니다.\n\n또한, 최종 집계의 핵심 부분의 단순함에는 정말 아름다운 점이 있습니다 [명확성을 위해 편집됨]:\n```sql\n```\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Z2ccqTFKNEdkCvDqIuPuTcQIc9la+TsIU+D8XQHKebo=",
+        "originContent": "There's a script to get a quick-and-dirty view of a scene using gnuplot;",
+        "translatedContent": "gnuplot을 사용하여 장면을 빠르고 간단하게 볼 수 있는 스크립트가 있습니다;"
+      },
+      {
+        "row": 4,
+        "rowsha": "V2Lnd9JBTX+Ef5W4dm7dSshygi4hB41gwKG/y4YcNsQ=",
+        "originContent": "the script ```show_scene.sh``` should generate a folder of outputs.",
+        "translatedContent": "스크립트 ```show_scene.sh```는 출력물이 담긴 폴더를 생성해야 합니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "vMbgZh4T+X8OZjW57nT1HM2z1j6HVK3J2VqmT4oLlKA=",
+        "originContent": "## Database",
+        "translatedContent": "## 데이터베이스"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "7cZ552Q+3/9QKexe9VjkpgdhRZwkAFc/2LJDtgkKJNA=",
+        "originContent": "This is implemented in pure SQL. It doesn't do anything like CREATE",
+        "translatedContent": "이것은 순수 SQL로 구현되었습니다. CREATE FUNCTION 같은 비이식적인 것은 하지 않으며,"
+      },
+      {
+        "row": 9,
+        "rowsha": "3ruqdzZ/EIQwdH2szdbeWoC9tR9rJohhj7ipI+QYUiM=",
+        "originContent": "FUNCTION or other nonportables, except for the trigger to do animation,",
+        "translatedContent": "애니메이션을 위한 트리거를 제외하면 당연히 포함되지 않습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "EMbdAPiNtpFlch5gVb7CcUZPUUwHejMmGZmnhpr/NPk=",
+        "originContent": "which obviously doesn't count.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "동시에, 이 SQL에서는 약간 덜 흔한 기능들이 필요합니다:"
+      },
+      {
+        "row": 12,
+        "rowsha": "T8goVDuhGtaHUq+ZWiAesAjXt3dwwHbDmppT1f/Kf2U=",
+        "originContent": "At the same time, there are some not-entirely-common features of SQL",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "FuPNSGEGa4K7Ifj7pbUpQcTfDe0Dyyv3f7a6hbT4xvA=",
+        "originContent": "that it needs:",
+        "translatedContent": "* JOIN LATERAL"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* RECURSIVE CTE 내에서 PARTITION BY"
+      },
+      {
+        "row": 15,
+        "rowsha": "ZCPs3m7UOEhRacBZ6fz3/k0nR4PT7LI+4YK5g8LdcWI=",
+        "originContent": "* JOIN LATERAL",
+        "translatedContent": "* SIN() 같은 수학 함수"
+      },
+      {
+        "row": 16,
+        "rowsha": "8OR+nSJIcuTlk0hrr8X+Dfu6ghwYee/7rGGzp6jF7bI=",
+        "originContent": "* PARTITION BY inside of a RECURSIVE CTE",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "9lo06IKipceF8o8lwfEk+bD4eI6OVgdyz4TwXGXZoOM=",
+        "originContent": "* Math functions like SIN()",
+        "translatedContent": "그래서 SQLite로 개발을 시작했지만 결국 PostgreSQL에 의존하게 되었습니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 글을 쓰는 시점에는 postgres에서 작동하며 다른 곳에서는 테스트되지 않았습니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "OkAcMiztSrl4Fs9pTUJS90NMSqVDH/3Yigzl0eZhhOY=",
+        "originContent": "So although I started developing this in SQLite, I ended up leaning",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "uS/ysIVWegJveZs9CNs5ptCFnlw5vSrgT5o10CyOuQ4=",
+        "originContent": "on PostgreSQL. As I write this, it works in postgres and hasn't been",
+        "translatedContent": "## 흥미로운 구현 요소"
+      },
+      {
+        "row": 21,
+        "rowsha": "5b3r59BvFngcfYyBQn+5Y7bboowS8kYXthge6fh61qM=",
+        "originContent": "tested in anything else.",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 정도이지만, 저는 흥미로운 방식으로 문제를 해결하는 경우가 있었습니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "GZEogCrEUW+wzKs7K78qmIN3ROOChNeZJySz+M3D9rg=",
+        "originContent": "## Interesting Implementation Pieces",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### JOIN LATERAL"
+      },
+      {
+        "row": 25,
+        "rowsha": "1IKVl2T3elOd0OAsSXGp9URZaMCedYkquoi7FNb5CxI=",
+        "originContent": "Such as it is, I did find myself solving some problems in interesting",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "TYkLBn5Etf9XUw2syHMAzlZlSm56Pkre4jWQLaZmlR0=",
+        "originContent": "ways.",
+        "translatedContent": "JOIN LATERAL은 WHERE 절이 아니라 JOIN에서 상관 서브쿼리를 수행하는 방법입니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "저는 이를 계산을 끌어올리고 여러 번 하는 것을 한 번만 하게 하거나,"
+      },
+      {
+        "row": 28,
+        "rowsha": "u9R8gBrzIvBGVomD9tDcvlyQTn6j1SytRiMPGvePXdk=",
+        "originContent": "### JOIN LATERAL",
+        "translatedContent": "경우에 따라 과도한 중복을 피하기 위해 사용합니다."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "MzXHSSgvMmcflmPswOjR+qFy+Q0AzgJneDEX5ABaIF8=",
+        "originContent": "JOIN LATERAL is a way to do a correlated subquery in a JOIN, instead of",
+        "translatedContent": "### 확산 산란 (Diffuse Scattering)"
+      },
+      {
+        "row": 31,
+        "rowsha": "pYBtDxOkSjvWkl6+cC1oRN/FHGFa3AANK3YQhSSzn2U=",
+        "originContent": "just in a WHERE clause. I use this as a way to hoist calculations and",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "PBaXLtN/8Stnhx0bkh/6gHVHPQcOANro2RIsvT70bQc=",
+        "originContent": "do many of them only once and, in some cases, avoid excessive duplication.",
+        "translatedContent": "이는 균일한 구체 표본 추출을 필요로 합니다. 저는 많은 난수 샘플을 미리 생성합니다"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[거부 샘플링 -> 구체 표면에 점들을 스케일링], 그리고 번호를 매깁니다."
+      },
+      {
+        "row": 34,
+        "rowsha": "ti8ReqpcI0xy6VvpTPfkq0wQDv43o8WnZUgsqlgYvjA=",
+        "originContent": "### Diffuse Scattering",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "각 광선을 미리 계산된 산란 샘플 중 하나에 연결하는 방법을 찾는 것이 이상했는데;"
+      },
+      {
+        "row": 36,
+        "rowsha": "CqTE+bKVBW00j9Pvb/C/QTX/7ftOVWEdEs2k7/0izKk=",
+        "originContent": "This requires sampling a uniform sphere. I generate a lot of random",
+        "translatedContent": "RANDOM()에 단순히 조인하면 모든 광선이 같은, 임의의 산란에 연결됩니다."
+      },
+      {
+        "row": 37,
+        "rowsha": "eH9jfiz8QGHcdtPuU1oHnL0SUVommH8e38uPc6QCbFo=",
+        "originContent": "samples ahead of time [sample with rejection -> scale points to sphere",
+        "translatedContent": "일반적인 법선 계산으로 선택하면 그림에 줄무늬가 생깁니다."
+      },
+      {
+        "row": 38,
+        "rowsha": "JVn0H1wWAwbZC532W/6Jc49AC6IP2Bg1S1BzyUL8sKw=",
+        "originContent": "surface], and number them.",
+        "translatedContent": "그래서 대신, 법선의 한 차원의 소수점 이하 몇 자리를 꺼내어 거기에 조인합니다."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이것은 \"무작위\"이면서도 광선마다 충분히 고유합니다."
+      },
+      {
+        "row": 40,
+        "rowsha": "5cIby7idBqXvYtjK00W2E53hXxEmwRJUzzuNC6p6hoc=",
+        "originContent": "Figuring out a way to join each ray to a single random row from these",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "oNc+ffD3nafu0VbaPAZI20pGIN6TwuIy4eJSKsFjBEU=",
+        "originContent": "precalculated scatters was weird; can't just join to RANDOM() because",
+        "translatedContent": "### 재귀 CTE"
+      },
+      {
+        "row": 42,
+        "rowsha": "m7O3D+S15kx+qAFai6pPKhXbtAnHeK6vVN8VXAsNMYQ=",
+        "originContent": "every ray got joined to the same, random, scatter. Can't just select",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "NlGbtiPEB/c1lWcgucoBAkqK/aK3rOhJN4U7ie3lprk=",
+        "originContent": "with a typical calculation on a normal because that leads to stripes",
+        "translatedContent": "레이 트레이싱은 재귀 CTE가 작동하는 방식을 매우 자연스럽게 따릅니다."
+      },
+      {
+        "row": 44,
+        "rowsha": "4vpyD/5v03tM1re/V19Z5PMrl6+TGg7Z3PX616nqel8=",
+        "originContent": "in the picture.  So, instead, I schlep out a later few decimals of one",
+        "translatedContent": "제가 만난 것 중 하나는 어떤 광선을 처리할지 깔끔하게 식별하는 방법이었습니다."
+      },
+      {
+        "row": 45,
+        "rowsha": "lU1PlNhA2cFwL7tuL8eTmI0H6YoP9iNREMvhSHUmBIA=",
+        "originContent": "dimension of a normal, then join to that. It's \"random\" but also",
+        "translatedContent": "절편(t)으로 정렬하는 윈도우 함수가 잘 작동했습니다."
+      },
+      {
+        "row": 46,
+        "rowsha": "hdqdee+V3Bw9ZuvglbgBCQ2r0M/J0tXJjaeUJTBmjgM=",
+        "originContent": "unique-enough-per-ray.",
+        "translatedContent": "매 반복마다, 이 쿼리는 광선을 앞에 있는 *모든* 것과 교차시키고"
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "연관된 모든 계산을 수행하지만, WHERE 절에서는 광선이 실제로 맞은 것만 남깁니다."
+      },
+      {
+        "row": 48,
+        "rowsha": "pg/YIIHX/gwAmuD7aPoNfus1VciDWO/sftE7gZdKUp8=",
+        "originContent": "### Recursive CTEs",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "또한, 최종 집계의 핵심 부분의 단순함에는 정말 아름다운 점이 있습니다 [명확성을 위해 편집됨]:"
+      },
+      {
+        "row": 50,
+        "rowsha": "da/QlgDjT65odHd6ppmWwnkPww6QSFu2NZ835SXz2rE=",
+        "originContent": "Raytracing very naturally tracks how recursive CTEs work. One of the",
+        "translatedContent": "```sql"
+      },
+      {
+        "row": 51,
+        "rowsha": "CwSiFGPHAs6NRBzKZx7zTuCV2isvkAT8KYmwA8I3bdY=",
+        "originContent": "things I ran into was a clean way to identify which ray is the one to",
+        "translatedContent": "```"
+      },
+      {
+        "row": 52,
+        "rowsha": "U4Xge1k/rQXpDHA3bEGqdnCh7z6qP3ZR15UKu2F31xI=",
+        "originContent": "account for. Using a window function ordering by intercept (t) worked",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "gv4xadE396x96J6BtJWV8wljaghmIkMVnI3ynUMcdCA=",
+        "originContent": "well. Every iteration, this query intersects a ray with *everything*",
+        "translatedContent": ""
+      },
+      {
+        "row": 54,
+        "rowsha": "kv3uqWGvhKJI8xSLIWDxgMHFdkLsPWcwRiRPM0S810I=",
+        "originContent": "in front of it and does all of the associated calculations, but then in",
+        "translatedContent": ""
+      },
+      {
+        "row": 55,
+        "rowsha": "Z4hj64KmXPFhfGKsw0X0APRIFpAs6qCFz49XLyn3m1A=",
+        "originContent": "the WHERE clause will reject everything except the thing the ray",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "B3cIfComYqAXmZb1zVQ+ZeMfmN863n7PppONQ6EfNU0=",
+        "originContent": "actually hit.",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 58,
+        "rowsha": "wqIAHTEiJzNS6HZvFYEnAQdCuO8skn9pVt12sG3mPjw=",
+        "originContent": "Also, there's something really beautiful about the simplicity of the",
+        "translatedContent": ""
+      },
+      {
+        "row": 59,
+        "rowsha": "m/k9jd04oVhG2J6RX8W5wyFK3WD1Eiz3+/at6ENCS4M=",
+        "originContent": "core of the final rollup [edited for clarity]:",
+        "translatedContent": ""
+      },
+      {
+        "row": 60,
+        "rowsha": "g1o8THvufeOeYrfmqc9x3kevZLvvR9V8UWqzt0ePck8=",
+        "originContent": "```sql",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": " SELECT img_x, img_y,\n         SUM(POW(color_mult * ray_col_r/samples_per_px, gamma)) col_r,\n         SUM(POW(color_mult * ray_col_g/samples_per_px, gamma)) col_g,\n         SUM(POW(color_mult * ray_col_b/samples_per_px, gamma)) col_b\n    FROM rays\n    GROUP BY img_y, img_x",
+    "ContentSha": "D2i/CEsBL2IxuiG/yS6chvvsSX7/NYbU3hSHt3fRWVM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": " SELECT img_x, img_y,\n         SUM(POW(color_mult * ray_col_r/samples_per_px, gamma)) col_r,\n         SUM(POW(color_mult * ray_col_g/samples_per_px, gamma)) col_g,\n         SUM(POW(color_mult * ray_col_b/samples_per_px, gamma)) col_b\n    FROM rays\n    GROUP BY img_y, img_x",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uGLj8l4gPhOgzN8X7r615dksdg7Azy5l8rp4j/8jsdA=",
+        "originContent": " SELECT img_x, img_y,",
+        "translatedContent": " SELECT img_x, img_y,"
+      },
+      {
+        "row": 2,
+        "rowsha": "jtBRSGWxO7shCgkraERmT8klyq5xG30nUIhsoklHb4E=",
+        "originContent": "         SUM(POW(color_mult * ray_col_r/samples_per_px, gamma)) col_r,",
+        "translatedContent": "         SUM(POW(color_mult * ray_col_r/samples_per_px, gamma)) col_r,"
+      },
+      {
+        "row": 3,
+        "rowsha": "AbLGe9M48ouML3T475v0Ka9Ab9/PP50cJqvRePfT8TA=",
+        "originContent": "         SUM(POW(color_mult * ray_col_g/samples_per_px, gamma)) col_g,",
+        "translatedContent": "         SUM(POW(color_mult * ray_col_g/samples_per_px, gamma)) col_g,"
+      },
+      {
+        "row": 4,
+        "rowsha": "BNwDD2TzVvgmZsFPLRrn/zrTKncpYyAA3b5+dF5exnQ=",
+        "originContent": "         SUM(POW(color_mult * ray_col_b/samples_per_px, gamma)) col_b",
+        "translatedContent": "         SUM(POW(color_mult * ray_col_b/samples_per_px, gamma)) col_b"
+      },
+      {
+        "row": 5,
+        "rowsha": "4ZUliTXEzl3jsizO81PCdwUgwoZuxFCwncC7u999/Z0=",
+        "originContent": "    FROM rays",
+        "translatedContent": "    FROM rays"
+      },
+      {
+        "row": 6,
+        "rowsha": "8vT9ke2LTqZSG+15dIi7Uymc3S8SjlNHbJQp8casBHI=",
+        "originContent": "    GROUP BY img_y, img_x",
+        "translatedContent": "    GROUP BY img_y, img_x"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\n\n### Scenes, materials, etc\n\nBecause this is in SQL, I can store multiple scenes in the database. Which\none is actually rendered is selected in the \"camera\" table.\n\n## Standing on the Necks of Giants\n\nTwo years before I wrote this \"The most advanced MySQL raytracer on the\nmarket right now\" did the rounds on social media:\nhttps://www.pouet.net/prod.php?which=83222\n\nI had a few things in mind that I wanted to do differently [worse?]:\n\n* Demoscene is an artform. I'm not golfing, this isn't minified\n* Not a single query; that can be done with CTEs, but ehhhhhhhh\n* Animation as an endgame [see ```anim.sh```]\n* Mainly, I'm just buggering around with the wrong tool for the job\n\n### I asked Claude for an opinion\n\n*\"Why would someone write something like this in the first place?\"*\n\n> This is a fascinating example of SQL as a general-purpose programming language taken to an extreme. Someone wrote a complete ray tracer in PostgreSQL SQL, which is both impressive and... questionable.\n> \n> [...]\n> \n> This feels like either a brilliant computer science student's thesis project, a senior engineer's weekend experiment, or someone trapped in a very restrictive database-only environment who refused to give up on their ray tracing dreams.\n> \n> It's the programming equivalent of building a race car out of Lego - technically impressive, but you probably shouldn't actually drive it.\n\nI can't tell if I'm flattered or offended.\n\n## References\n\nMost of this is built following the \"Ray Tracing in One Weekend\"\nseries: https://raytracing.github.io/ , then making allowances for\nthe deliberately obtuse way I'm coding it.\n\n\nGary <chunky@icculus.org>\n\n",
+    "ContentSha": "wCT5ZmxLKsTuxekWgpWBTBY32SB2NYxepR1oJ1qUVIo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\n### 장면, 재료 등\n\n이것이 SQL로 되어 있기 때문에 데이터베이스에 여러 장면을 저장할 수 있습니다. 실제로 렌더링되는 장면은 \"camera\" 테이블에서 선택됩니다.\n\n## 거인의 어깨 위에 서서\n\n이 글을 쓰기 2년 전에 \"현재 시장에서 가장 진보된 MySQL 레이 트레이서\"가 소셜 미디어에서 화제를 모았습니다:\nhttps://www.pouet.net/prod.php?which=83222\n\n제가 다르게 하고 싶었던 몇 가지가 있었습니다 [더 나쁘게?]:\n\n* 데모신은 예술 형태입니다. 저는 골프 치는 게 아니고, 이건 압축된 코드가 아닙니다\n* 단일 쿼리 사용 안 함; CTE로 할 수는 있지만, 음...\n* 최종 목표로 애니메이션 구현 [```anim.sh``` 참고]\n* 주로, 저는 단지 부적절한 도구로 장난치는 중입니다\n\n### 저는 Claude에게 의견을 물었습니다\n\n*\"왜 누군가가 처음에 이런 것을 썼을까요?\"*\n\n> 이것은 SQL을 범용 프로그래밍 언어로 극단적으로 활용한 흥미로운 사례입니다. 누군가가 PostgreSQL SQL로 완전한 레이 트레이서를 작성했는데, 이는 인상적이면서도... 의심스럽습니다.\n> \n> [...]\n> \n> 이것은 아마도 뛰어난 컴퓨터 과학 학생의 논문 프로젝트, 시니어 엔지니어의 주말 실험, 또는 매우 제한적인 데이터베이스 전용 환경에 갇혀 레이 트레이싱 꿈을 포기하지 않은 누군가의 작품처럼 느껴집니다.\n> \n> 레고로 경주용 차를 만드는 프로그래밍의 비유와 같습니다 - 기술적으로 인상적이지만, 실제로 운전해서는 안 됩니다.\n\n칭찬인지 모욕인지 알 수가 없습니다.\n\n## 참고 문헌\n\n대부분은 \"Ray Tracing in One Weekend\" 시리즈를 따라 작성되었습니다:\nhttps://raytracing.github.io/ , 그리고 제가 일부러 난해하게 코딩하는 방식을 감안하여 조정하였습니다.\n\n\nGary <chunky@icculus.org>\n\n```\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "IFPmJVxaCiXmheEMFXD5rnTB2w/pHn2RirP4FDdluhg=",
+        "originContent": "### Scenes, materials, etc",
+        "translatedContent": "### 장면, 재료 등"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "1IUuy9O5ozoM11tOMMk/Rax++4LaZT3EAKAtqAGYR4c=",
+        "originContent": "Because this is in SQL, I can store multiple scenes in the database. Which",
+        "translatedContent": "이것이 SQL로 되어 있기 때문에 데이터베이스에 여러 장면을 저장할 수 있습니다. 실제로 렌더링되는 장면은 \"camera\" 테이블에서 선택됩니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "MviyDqf5HcH1w1i1DXHBw0O+e5946cWLvnWa24wvPoU=",
+        "originContent": "one is actually rendered is selected in the \"camera\" table.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 거인의 어깨 위에 서서"
+      },
+      {
+        "row": 8,
+        "rowsha": "4CoKnpNacT4dN4S1CInIeF3tNxr/S9ED+ElihL70aqk=",
+        "originContent": "## Standing on the Necks of Giants",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 글을 쓰기 2년 전에 \"현재 시장에서 가장 진보된 MySQL 레이 트레이서\"가 소셜 미디어에서 화제를 모았습니다:"
+      },
+      {
+        "row": 10,
+        "rowsha": "1xEi8e+OxIFvARN8p4dvo+dy1/A09qqA69y7HgWuLY0=",
+        "originContent": "Two years before I wrote this \"The most advanced MySQL raytracer on the",
+        "translatedContent": "https://www.pouet.net/prod.php?which=83222"
+      },
+      {
+        "row": 11,
+        "rowsha": "gd12yPega/L2wDnxKlj+Pv59v1FtCKNOFR0fwf8jBy0=",
+        "originContent": "market right now\" did the rounds on social media:",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "vS19zmsa26SkGMx9xnAdZ/O/1NZLKdGsd4TuYxxKghI=",
+        "originContent": "https://www.pouet.net/prod.php?which=83222",
+        "translatedContent": "제가 다르게 하고 싶었던 몇 가지가 있었습니다 [더 나쁘게?]:"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "ftrh7keBmTNpLYhcfG5q5TAACWzBIqIofo5NhthgGQ4=",
+        "originContent": "I had a few things in mind that I wanted to do differently [worse?]:",
+        "translatedContent": "* 데모신은 예술 형태입니다. 저는 골프 치는 게 아니고, 이건 압축된 코드가 아닙니다"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* 단일 쿼리 사용 안 함; CTE로 할 수는 있지만, 음..."
+      },
+      {
+        "row": 16,
+        "rowsha": "8uwbtsRWiPKAhoasmykff3Tx5k+oVniItuZDLYjipTY=",
+        "originContent": "* Demoscene is an artform. I'm not golfing, this isn't minified",
+        "translatedContent": "* 최종 목표로 애니메이션 구현 [```anim.sh``` 참고]"
+      },
+      {
+        "row": 17,
+        "rowsha": "CnWgDmF/XweKoVbUoHfsXAWuO65pZ+vMduEX8yX/4Us=",
+        "originContent": "* Not a single query; that can be done with CTEs, but ehhhhhhhh",
+        "translatedContent": "* 주로, 저는 단지 부적절한 도구로 장난치는 중입니다"
+      },
+      {
+        "row": 18,
+        "rowsha": "wT+nSOfzE8YTdyjP/AQW2WmUO+SfGQRaQBUJ1uiRmVc=",
+        "originContent": "* Animation as an endgame [see ```anim.sh```]",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "d+ficeS5P0KZdy311KwjuhYJaI4K1La/ah4bFdeqJUo=",
+        "originContent": "* Mainly, I'm just buggering around with the wrong tool for the job",
+        "translatedContent": "### 저는 Claude에게 의견을 물었습니다"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "PTA1e1cEnbMW8WDgZwg3aVgV/ARQTdHqxw8NDViypu0=",
+        "originContent": "### I asked Claude for an opinion",
+        "translatedContent": "*\"왜 누군가가 처음에 이런 것을 썼을까요?\"*"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "AfceIHHszlolxDeWbqqCjyJjl2ZAz7CWTxqQUHVHbBE=",
+        "originContent": "*\"Why would someone write something like this in the first place?\"*",
+        "translatedContent": "> 이것은 SQL을 범용 프로그래밍 언어로 극단적으로 활용한 흥미로운 사례입니다. 누군가가 PostgreSQL SQL로 완전한 레이 트레이서를 작성했는데, 이는 인상적이면서도... 의심스럽습니다."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> "
+      },
+      {
+        "row": 25,
+        "rowsha": "UJIYGl46xpoGpvLPVuBsXFl208t++i43znwzeOA7vdk=",
+        "originContent": "> This is a fascinating example of SQL as a general-purpose programming language taken to an extreme. Someone wrote a complete ray tracer in PostgreSQL SQL, which is both impressive and... questionable.",
+        "translatedContent": "> [...]"
+      },
+      {
+        "row": 26,
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": "> "
+      },
+      {
+        "row": 27,
+        "rowsha": "n3mfZoUv1GNdsfcVQLT0YE1YYkvocamjKPRpyGxTWIY=",
+        "originContent": "> [...]",
+        "translatedContent": "> 이것은 아마도 뛰어난 컴퓨터 과학 학생의 논문 프로젝트, 시니어 엔지니어의 주말 실험, 또는 매우 제한적인 데이터베이스 전용 환경에 갇혀 레이 트레이싱 꿈을 포기하지 않은 누군가의 작품처럼 느껴집니다."
+      },
+      {
+        "row": 28,
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": "> "
+      },
+      {
+        "row": 29,
+        "rowsha": "5Zrt+pH0OFFwIDGkJ+kJmYgIGbEP5/2WDurJqmLRHvs=",
+        "originContent": "> This feels like either a brilliant computer science student's thesis project, a senior engineer's weekend experiment, or someone trapped in a very restrictive database-only environment who refused to give up on their ray tracing dreams.",
+        "translatedContent": "> 레고로 경주용 차를 만드는 프로그래밍의 비유와 같습니다 - 기술적으로 인상적이지만, 실제로 운전해서는 안 됩니다."
+      },
+      {
+        "row": 30,
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "Lf22MHNb5+ERxqdlSE3vQ3eCZIR2mtkvyy68+cYry8w=",
+        "originContent": "> It's the programming equivalent of building a race car out of Lego - technically impressive, but you probably shouldn't actually drive it.",
+        "translatedContent": "칭찬인지 모욕인지 알 수가 없습니다."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "qLgb6JcDIV4nqp7Jf2t6NhsgEk5sSgn6h7aYs67loRU=",
+        "originContent": "I can't tell if I'm flattered or offended.",
+        "translatedContent": "## 참고 문헌"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
+        "originContent": "## References",
+        "translatedContent": "대부분은 \"Ray Tracing in One Weekend\" 시리즈를 따라 작성되었습니다:"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "https://raytracing.github.io/ , 그리고 제가 일부러 난해하게 코딩하는 방식을 감안하여 조정하였습니다."
+      },
+      {
+        "row": 37,
+        "rowsha": "T7sogbkT2wGQMnvlZVSs8qWyGM3yINRnOAToQBDm7P8=",
+        "originContent": "Most of this is built following the \"Ray Tracing in One Weekend\"",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "7rcX+LokfnSMn01XKqj1bl+RGin/drCjHbE8yXJDB88=",
+        "originContent": "series: https://raytracing.github.io/ , then making allowances for",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "YmDuGjIEtqagX7mHHVO02scp5ZVzA6/63aWsHl25MIE=",
+        "originContent": "the deliberately obtuse way I'm coding it.",
+        "translatedContent": "Gary <chunky@icculus.org>"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "```"
+      },
+      {
+        "row": 42,
+        "rowsha": "QNQmyM6V/3IDrP8NxqCnmKGkPktYy88kwiKVg13lFjM=",
+        "originContent": "Gary <chunky@icculus.org>",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

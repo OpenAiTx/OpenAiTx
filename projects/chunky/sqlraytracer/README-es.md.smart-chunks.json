@@ -1,0 +1,1082 @@
+[
+  {
+    "Id": 1,
+    "Content": "# A Pure SQL Raytracer\n\nEveryone writes a raytracer sooner or later. This is mine.\n\n## Example Outputs\n",
+    "ContentSha": "KnYHtXHgcSe+6p4o+Dw/h5xFPN4H4KZxIqftLpN7r9M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Un Raytracer Puro en SQL\n\nTodos escriben un raytracer tarde o temprano. Este es el mío.\n\n## Ejemplos de Resultados\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "gHzPxjYSwd6P1tsYdf3wCzg8s0pmWaqPepTQLN6wWHY=",
+        "originContent": "# A Pure SQL Raytracer",
+        "translatedContent": "# Un Raytracer Puro en SQL"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "O/26dtuDJZKKbONdkKxUaHPurqz86gbrV1847gpSlnc=",
+        "originContent": "Everyone writes a raytracer sooner or later. This is mine.",
+        "translatedContent": "Todos escriben un raytracer tarde o temprano. Este es el mío."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "8Jdl+g9CFa0UkDLGcksdfsWfjx9lCTAJeCSjaVNvlOY=",
+        "originContent": "## Example Outputs",
+        "translatedContent": "## Ejemplos de Resultados"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "<img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/dielectricparty.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onemirrorball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/glassmatrix.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/airy.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onediamondball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneantiglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/adjacentballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreyball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/reflectiontest.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twodiffuseballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreenball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/threemirrors.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twomirrorballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/busyday.png\" width=200>",
+    "ContentSha": "RxeZhRYOsyQoDFlqqnPntaJJ4rz0cL9DKQjSiGorZ8U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/dielectricparty.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onemirrorball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/glassmatrix.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/airy.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onediamondball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneantiglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/adjacentballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreyball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/reflectiontest.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twodiffuseballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreenball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/threemirrors.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twomirrorballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/busyday.png\" width=200>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RxeZhRYOsyQoDFlqqnPntaJJ4rz0cL9DKQjSiGorZ8U=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/dielectricparty.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onemirrorball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/glassmatrix.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/airy.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onediamondball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneantiglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/adjacentballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreyball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/reflectiontest.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twodiffuseballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreenball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/threemirrors.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twomirrorballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/busyday.png\" width=200>",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/dielectricparty.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onemirrorball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/glassmatrix.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/airy.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onediamondball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/oneantiglassball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/adjacentballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreyball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/reflectiontest.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twodiffuseballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/onegreenball.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/threemirrors.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/twomirrorballs.png\" width=200> <img src=\"https://raw.githubusercontent.com/chunky/sqlraytracer/master/example_outputs/busyday.png\" width=200>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Usage\n",
+    "ContentSha": "d4QdQvtMh2QXOhSJXnbLIKLQwW7kakrJbYZVgSkHQiE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Uso\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Uso"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```shell\nsh create.sh\n```",
+    "ContentSha": "p9aHgBOZel3eouLcdkZ+frcvCz0o2Sol7qITZaMKOAw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nsh create.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "68rVxnV3/aeVyzzmZkP7LiQU08TGJrRvH6E36+ilzYw=",
+        "originContent": "sh create.sh",
+        "translatedContent": "sh create.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```postgres_connection.sh``` contains host/database/user/pass/etc.\nThere are no exotic needs other than \"postgres, like version 10 and up\nor something\"\n\nFor what it's worth, I created mine thus on my ubuntu desktop:\n```shell",
+    "ContentSha": "8qYHBRaekQ5P6MxfSH/7mVZrjhTdmgc1h8mcEp3ocsI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```postgres_connection.sh``` contiene host/base de datos/usuario/contraseña/etc.\nNo hay necesidades exóticas aparte de \"postgres, como versión 10 en adelante\no algo así\"\n\nPara lo que vale, creé el mío así en mi escritorio Ubuntu:\n```shell",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4N+jv02+dOmrmrrXHmjFFf+f5onaPXS0s3WIgedrpGo=",
+        "originContent": "```postgres_connection.sh``` contains host/database/user/pass/etc.",
+        "translatedContent": "```postgres_connection.sh``` contiene host/base de datos/usuario/contraseña/etc."
+      },
+      {
+        "row": 2,
+        "rowsha": "I4IjXDVlO1j7v8kJpN5fFvWw7bs2Ou+JVddUoe34Qn0=",
+        "originContent": "There are no exotic needs other than \"postgres, like version 10 and up",
+        "translatedContent": "No hay necesidades exóticas aparte de \"postgres, como versión 10 en adelante"
+      },
+      {
+        "row": 3,
+        "rowsha": "6jOQkR5RcInJgSfDPrGB/65qnbDHfRyItjYSGGpXKLU=",
+        "originContent": "or something\"",
+        "translatedContent": "o algo así\""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "nhCJOVDu3iGCZ9y4qssy0kHNu+A0hZIen5X30fTUo08=",
+        "originContent": "For what it's worth, I created mine thus on my ubuntu desktop:",
+        "translatedContent": "Para lo que vale, creé el mío así en mi escritorio Ubuntu:"
+      },
+      {
+        "row": 6,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "sudo su - postgres\ncreateuser --pwprompt raytracer\ncreatedb -O raytracer raytracer",
+    "ContentSha": "HtvQ7E0T7RkzYvYmzFAnNi8D4Vk/SYFWJdOB9rSFhK8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "sudo su - postgres\ncreateuser --pwprompt raytracer\ncreatedb -O raytracer raytracer",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QNkzymEHQQLLPTbloQ3+h+z1hpxteom1kvu9yE5x7VY=",
+        "originContent": "sudo su - postgres",
+        "translatedContent": "sudo su - postgres"
+      },
+      {
+        "row": 2,
+        "rowsha": "NGBFAnwWePaWX/dcE8FDr0KXGu80aqseetna0cmBQLw=",
+        "originContent": "createuser --pwprompt raytracer",
+        "translatedContent": "createuser --pwprompt raytracer"
+      },
+      {
+        "row": 3,
+        "rowsha": "Z9lS322ZCvrRYTAbXfLoyWWFdoFO30MkvEgkAwDFuU8=",
+        "originContent": "createdb -O raytracer raytracer",
+        "translatedContent": "createdb -O raytracer raytracer"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\n\n### Levers for development and rendering\n\nWhile doing development, obviously a few-minute render time is a pretty\npoor cycle time. There are a few levers you can pull to speed things up\nand reduce quality. They're on \"camera\" and \"img\" in setup.sql:\n\n* *samples\\_per\\_px* - This is the number of rays/sub-samples per pixel.\n  - 1 or 2 is fine during debugging\n  - 15-20 gives \"workable\" pictures\n  - Going above 50 doesn't generate much visible improvement\n* *max\\_ray\\_depth* - The maximum number of ray bounces\n  - For simple scenes, it usually makes no more than 5 or so bounces\n* *res\\_x* and *res\\_y* - Final image resolution\n  - Smaller is faster\n\nThe main CTE carries a lot of stuff that's unnecessary to final output.\nThis is so I can examine rays bouncing through the scene with:\n```sql",
+    "ContentSha": "8DurYrbzJNteaLVcqBRNAo5AMycfF+Cp6RpYmmFru0I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\n### Palancas para el desarrollo y renderizado\n\nMientras se realiza el desarrollo, obviamente un tiempo de renderizado de varios minutos es un ciclo bastante\nlento. Hay algunas palancas que puedes accionar para acelerar las cosas\ny reducir la calidad. Están en \"camera\" y \"img\" en setup.sql:\n\n* *samples\\_per\\_px* - Este es el número de rayos/sub-muestras por píxel.\n  - 1 o 2 está bien durante la depuración\n  - 15-20 da imágenes \"trabajables\"\n  - Pasar de 50 no genera mucha mejora visible\n* *max\\_ray\\_depth* - El número máximo de rebotes del rayo\n  - Para escenas simples, usualmente no hace más de 5 rebotes\n* *res\\_x* y *res\\_y* - Resolución final de la imagen\n  - Más pequeño es más rápido\n\nEl CTE principal lleva muchas cosas que no son necesarias para la salida final.\nEsto es para que pueda examinar los rayos rebotando a través de la escena con:\n```sql",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "GE+xvYyOpYPFh7nYNYhNwMPrEZCXh4cptlgZNBVgJlU=",
+        "originContent": "### Levers for development and rendering",
+        "translatedContent": "### Palancas para el desarrollo y renderizado"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "X6rU/HLzETsz9/SuMHkcWC2QBpRlESmT3SmggRK48i8=",
+        "originContent": "While doing development, obviously a few-minute render time is a pretty",
+        "translatedContent": "Mientras se realiza el desarrollo, obviamente un tiempo de renderizado de varios minutos es un ciclo bastante"
+      },
+      {
+        "row": 6,
+        "rowsha": "5CPLZ9cNZHh+aEC3LBRDq7pW4hyK9zpl90xCqRnQ0Vk=",
+        "originContent": "poor cycle time. There are a few levers you can pull to speed things up",
+        "translatedContent": "lento. Hay algunas palancas que puedes accionar para acelerar las cosas"
+      },
+      {
+        "row": 7,
+        "rowsha": "nmw5K60pWsGH+g3AbrzcODKc7KqMcDu3jMtne11j+ik=",
+        "originContent": "and reduce quality. They're on \"camera\" and \"img\" in setup.sql:",
+        "translatedContent": "y reducir la calidad. Están en \"camera\" y \"img\" en setup.sql:"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "dWPYqoppyp05ZbQTEJWKc5nh8WrMWap3ZzBmQn9UgzY=",
+        "originContent": "* *samples\\_per\\_px* - This is the number of rays/sub-samples per pixel.",
+        "translatedContent": "* *samples\\_per\\_px* - Este es el número de rayos/sub-muestras por píxel."
+      },
+      {
+        "row": 10,
+        "rowsha": "mv0IOuuUWu88Y4TRDiqjXI422n8vv4s9OQqtFSE4A20=",
+        "originContent": "  - 1 or 2 is fine during debugging",
+        "translatedContent": "  - 1 o 2 está bien durante la depuración"
+      },
+      {
+        "row": 11,
+        "rowsha": "zj9TeXtjoYu3vFi8ZwAG3JhnftYD0EI3zLD12y9zjKk=",
+        "originContent": "  - 15-20 gives \"workable\" pictures",
+        "translatedContent": "  - 15-20 da imágenes \"trabajables\""
+      },
+      {
+        "row": 12,
+        "rowsha": "AwxaX5cvPhPJErgvlPPzF9f5CYNMJ1xEcYC9eilRzbE=",
+        "originContent": "  - Going above 50 doesn't generate much visible improvement",
+        "translatedContent": "  - Pasar de 50 no genera mucha mejora visible"
+      },
+      {
+        "row": 13,
+        "rowsha": "GuB2G7qlxSfKWJDKHwrfWQ/qcOnQNMeWj2UytJkZxq4=",
+        "originContent": "* *max\\_ray\\_depth* - The maximum number of ray bounces",
+        "translatedContent": "* *max\\_ray\\_depth* - El número máximo de rebotes del rayo"
+      },
+      {
+        "row": 14,
+        "rowsha": "u9q8IQ9Z4NrjPWorfA2wvnfD1+dk53UZ4RqnU/bQY8g=",
+        "originContent": "  - For simple scenes, it usually makes no more than 5 or so bounces",
+        "translatedContent": "  - Para escenas simples, usualmente no hace más de 5 rebotes"
+      },
+      {
+        "row": 15,
+        "rowsha": "IcKrPPw1KERsAo90c9y4rkzWk3AyRXaoELOl3EMgBHY=",
+        "originContent": "* *res\\_x* and *res\\_y* - Final image resolution",
+        "translatedContent": "* *res\\_x* y *res\\_y* - Resolución final de la imagen"
+      },
+      {
+        "row": 16,
+        "rowsha": "jm17GDsRBAm2yHXIuT3MHkOW5PVN0mEruKvYKq2pQBY=",
+        "originContent": "  - Smaller is faster",
+        "translatedContent": "  - Más pequeño es más rápido"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "RGgSxcJbLx1N1tM7vSsjYmJSk5hWhn+2kW/czj4Vkf8=",
+        "originContent": "The main CTE carries a lot of stuff that's unnecessary to final output.",
+        "translatedContent": "El CTE principal lleva muchas cosas que no son necesarias para la salida final."
+      },
+      {
+        "row": 19,
+        "rowsha": "T9hcA5M21ksqitbQ4KiqmC8JgZMdRIpWbz2uw0Nye5Y=",
+        "originContent": "This is so I can examine rays bouncing through the scene with:",
+        "translatedContent": "Esto es para que pueda examinar los rayos rebotando a través de la escena con:"
+      },
+      {
+        "row": 20,
+        "rowsha": "g1o8THvufeOeYrfmqc9x3kevZLvvR9V8UWqzt0ePck8=",
+        "originContent": "```sql",
+        "translatedContent": "```sql"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "SELECT * FROM rays WHERE img_x=100 AND img_y=250",
+    "ContentSha": "qMDiCbD7KKKkb2Vro7TjFJhi0KWnodplWZspJxNg7p4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "SELECT * FROM rays WHERE img_x=100 AND img_y=250",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qMDiCbD7KKKkb2Vro7TjFJhi0KWnodplWZspJxNg7p4=",
+        "originContent": "SELECT * FROM rays WHERE img_x=100 AND img_y=250",
+        "translatedContent": "SELECT * FROM rays WHERE img_x=100 AND img_y=250"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\n\nThere's a script to get a quick-and-dirty view of a scene using gnuplot;\nthe script ```show_scene.sh``` should generate a folder of outputs.\n\n## Database\n\nThis is implemented in pure SQL. It doesn't do anything like CREATE\nFUNCTION or other nonportables, except for the trigger to do animation,\nwhich obviously doesn't count.\n\nAt the same time, there are some not-entirely-common features of SQL\nthat it needs:\n\n* JOIN LATERAL\n* PARTITION BY inside of a RECURSIVE CTE\n* Math functions like SIN()\n\nSo although I started developing this in SQLite, I ended up leaning\non PostgreSQL. As I write this, it works in postgres and hasn't been\ntested in anything else.\n\n## Interesting Implementation Pieces\n\nSuch as it is, I did find myself solving some problems in interesting\nways.\n\n### JOIN LATERAL\n\nJOIN LATERAL is a way to do a correlated subquery in a JOIN, instead of\njust in a WHERE clause. I use this as a way to hoist calculations and\ndo many of them only once and, in some cases, avoid excessive duplication.\n\n### Diffuse Scattering\n\nThis requires sampling a uniform sphere. I generate a lot of random\nsamples ahead of time [sample with rejection -> scale points to sphere\nsurface], and number them.\n\nFiguring out a way to join each ray to a single random row from these\nprecalculated scatters was weird; can't just join to RANDOM() because\nevery ray got joined to the same, random, scatter. Can't just select\nwith a typical calculation on a normal because that leads to stripes\nin the picture.  So, instead, I schlep out a later few decimals of one\ndimension of a normal, then join to that. It's \"random\" but also\nunique-enough-per-ray.\n\n### Recursive CTEs\n\nRaytracing very naturally tracks how recursive CTEs work. One of the\nthings I ran into was a clean way to identify which ray is the one to\naccount for. Using a window function ordering by intercept (t) worked\nwell. Every iteration, this query intersects a ray with *everything*\nin front of it and does all of the associated calculations, but then in\nthe WHERE clause will reject everything except the thing the ray\nactually hit.\n\nAlso, there's something really beautiful about the simplicity of the\ncore of the final rollup [edited for clarity]:\n```sql",
+    "ContentSha": "VN3cCFFFk+TtORg97ARrfE44rZBjA86Caq213Lo2reU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\nHay un script para obtener una vista rápida y sencilla de una escena usando gnuplot;\nel script ```show_scene.sh``` debería generar una carpeta con salidas.\n\n## Base de Datos\n\nEsto está implementado en SQL puro. No hace nada como CREATE\nFUNCTION u otros no portables, excepto el trigger para hacer animación,\nque obviamente no cuenta.\n\nAl mismo tiempo, hay algunas características no del todo comunes de SQL\nque necesita:\n\n* JOIN LATERAL\n* PARTITION BY dentro de un CTE RECURSIVO\n* Funciones matemáticas como SIN()\n\nAsí que aunque empecé desarrollando esto en SQLite, terminé\napoyándome en PostgreSQL. Mientras escribo esto, funciona en postgres y no ha sido\nprobado en nada más.\n\n## Piezas Interesantes de la Implementación\n\nTal como es, me encontré resolviendo algunos problemas de maneras interesantes.\n\n### JOIN LATERAL\n\nJOIN LATERAL es una forma de hacer una subconsulta correlacionada en un JOIN, en lugar de\nsolo en una cláusula WHERE. Uso esto como una forma de extraer cálculos y\nhacer muchos de ellos solo una vez y, en algunos casos, evitar duplicaciones excesivas.\n\n### Dispersión Difusa\n\nEsto requiere muestrear una esfera uniforme. Genero muchas muestras aleatorias\ncon anticipación [muestreo con rechazo -> escalar puntos a la superficie de la esfera],\ny las numero.\n\nEncontrar una manera de unir cada rayo a una fila aleatoria única de estos\ndispersores precalculados fue raro; no se puede simplemente unir a RANDOM() porque\ncada rayo se uniría al mismo dispersor aleatorio. Tampoco se puede seleccionar\ncon un cálculo típico sobre una normal porque eso lleva a franjas\nen la imagen. Entonces, en cambio, saco unos pocos decimales posteriores de una\ndimensión de una normal, y luego uno con eso. Es \"aleatorio\" pero también\nlo suficientemente único por rayo.\n\n### CTEs Recursivos\n\nEl trazado de rayos sigue muy naturalmente cómo funcionan los CTEs recursivos. Una de las\ncosas que encontré fue una forma limpia de identificar cuál rayo es el que se debe\ncontabilizar. Usar una función ventana ordenando por intersección (t) funcionó\nbien. En cada iteración, esta consulta intersecta un rayo con *todo*\nlo que está delante de él y hace todos los cálculos asociados, pero luego en\nla cláusula WHERE rechaza todo excepto la cosa que el rayo\nrealmente golpeó.\n\nAdemás, hay algo realmente hermoso en la simplicidad del\nnúcleo del resumen final [editado para claridad]:\n```sql\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Z2ccqTFKNEdkCvDqIuPuTcQIc9la+TsIU+D8XQHKebo=",
+        "originContent": "There's a script to get a quick-and-dirty view of a scene using gnuplot;",
+        "translatedContent": "Hay un script para obtener una vista rápida y sencilla de una escena usando gnuplot;"
+      },
+      {
+        "row": 4,
+        "rowsha": "V2Lnd9JBTX+Ef5W4dm7dSshygi4hB41gwKG/y4YcNsQ=",
+        "originContent": "the script ```show_scene.sh``` should generate a folder of outputs.",
+        "translatedContent": "el script ```show_scene.sh``` debería generar una carpeta con salidas."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "vMbgZh4T+X8OZjW57nT1HM2z1j6HVK3J2VqmT4oLlKA=",
+        "originContent": "## Database",
+        "translatedContent": "## Base de Datos"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "7cZ552Q+3/9QKexe9VjkpgdhRZwkAFc/2LJDtgkKJNA=",
+        "originContent": "This is implemented in pure SQL. It doesn't do anything like CREATE",
+        "translatedContent": "Esto está implementado en SQL puro. No hace nada como CREATE"
+      },
+      {
+        "row": 9,
+        "rowsha": "3ruqdzZ/EIQwdH2szdbeWoC9tR9rJohhj7ipI+QYUiM=",
+        "originContent": "FUNCTION or other nonportables, except for the trigger to do animation,",
+        "translatedContent": "FUNCTION u otros no portables, excepto el trigger para hacer animación,"
+      },
+      {
+        "row": 10,
+        "rowsha": "EMbdAPiNtpFlch5gVb7CcUZPUUwHejMmGZmnhpr/NPk=",
+        "originContent": "which obviously doesn't count.",
+        "translatedContent": "que obviamente no cuenta."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "T8goVDuhGtaHUq+ZWiAesAjXt3dwwHbDmppT1f/Kf2U=",
+        "originContent": "At the same time, there are some not-entirely-common features of SQL",
+        "translatedContent": "Al mismo tiempo, hay algunas características no del todo comunes de SQL"
+      },
+      {
+        "row": 13,
+        "rowsha": "FuPNSGEGa4K7Ifj7pbUpQcTfDe0Dyyv3f7a6hbT4xvA=",
+        "originContent": "that it needs:",
+        "translatedContent": "que necesita:"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "ZCPs3m7UOEhRacBZ6fz3/k0nR4PT7LI+4YK5g8LdcWI=",
+        "originContent": "* JOIN LATERAL",
+        "translatedContent": "* JOIN LATERAL"
+      },
+      {
+        "row": 16,
+        "rowsha": "8OR+nSJIcuTlk0hrr8X+Dfu6ghwYee/7rGGzp6jF7bI=",
+        "originContent": "* PARTITION BY inside of a RECURSIVE CTE",
+        "translatedContent": "* PARTITION BY dentro de un CTE RECURSIVO"
+      },
+      {
+        "row": 17,
+        "rowsha": "9lo06IKipceF8o8lwfEk+bD4eI6OVgdyz4TwXGXZoOM=",
+        "originContent": "* Math functions like SIN()",
+        "translatedContent": "* Funciones matemáticas como SIN()"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "OkAcMiztSrl4Fs9pTUJS90NMSqVDH/3Yigzl0eZhhOY=",
+        "originContent": "So although I started developing this in SQLite, I ended up leaning",
+        "translatedContent": "Así que aunque empecé desarrollando esto en SQLite, terminé"
+      },
+      {
+        "row": 20,
+        "rowsha": "uS/ysIVWegJveZs9CNs5ptCFnlw5vSrgT5o10CyOuQ4=",
+        "originContent": "on PostgreSQL. As I write this, it works in postgres and hasn't been",
+        "translatedContent": "apoyándome en PostgreSQL. Mientras escribo esto, funciona en postgres y no ha sido"
+      },
+      {
+        "row": 21,
+        "rowsha": "5b3r59BvFngcfYyBQn+5Y7bboowS8kYXthge6fh61qM=",
+        "originContent": "tested in anything else.",
+        "translatedContent": "probado en nada más."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "GZEogCrEUW+wzKs7K78qmIN3ROOChNeZJySz+M3D9rg=",
+        "originContent": "## Interesting Implementation Pieces",
+        "translatedContent": "## Piezas Interesantes de la Implementación"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "1IKVl2T3elOd0OAsSXGp9URZaMCedYkquoi7FNb5CxI=",
+        "originContent": "Such as it is, I did find myself solving some problems in interesting",
+        "translatedContent": "Tal como es, me encontré resolviendo algunos problemas de maneras interesantes."
+      },
+      {
+        "row": 26,
+        "rowsha": "TYkLBn5Etf9XUw2syHMAzlZlSm56Pkre4jWQLaZmlR0=",
+        "originContent": "ways.",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### JOIN LATERAL"
+      },
+      {
+        "row": 28,
+        "rowsha": "u9R8gBrzIvBGVomD9tDcvlyQTn6j1SytRiMPGvePXdk=",
+        "originContent": "### JOIN LATERAL",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "JOIN LATERAL es una forma de hacer una subconsulta correlacionada en un JOIN, en lugar de"
+      },
+      {
+        "row": 30,
+        "rowsha": "MzXHSSgvMmcflmPswOjR+qFy+Q0AzgJneDEX5ABaIF8=",
+        "originContent": "JOIN LATERAL is a way to do a correlated subquery in a JOIN, instead of",
+        "translatedContent": "solo en una cláusula WHERE. Uso esto como una forma de extraer cálculos y"
+      },
+      {
+        "row": 31,
+        "rowsha": "pYBtDxOkSjvWkl6+cC1oRN/FHGFa3AANK3YQhSSzn2U=",
+        "originContent": "just in a WHERE clause. I use this as a way to hoist calculations and",
+        "translatedContent": "hacer muchos de ellos solo una vez y, en algunos casos, evitar duplicaciones excesivas."
+      },
+      {
+        "row": 32,
+        "rowsha": "PBaXLtN/8Stnhx0bkh/6gHVHPQcOANro2RIsvT70bQc=",
+        "originContent": "do many of them only once and, in some cases, avoid excessive duplication.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Dispersión Difusa"
+      },
+      {
+        "row": 34,
+        "rowsha": "ti8ReqpcI0xy6VvpTPfkq0wQDv43o8WnZUgsqlgYvjA=",
+        "originContent": "### Diffuse Scattering",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Esto requiere muestrear una esfera uniforme. Genero muchas muestras aleatorias"
+      },
+      {
+        "row": 36,
+        "rowsha": "CqTE+bKVBW00j9Pvb/C/QTX/7ftOVWEdEs2k7/0izKk=",
+        "originContent": "This requires sampling a uniform sphere. I generate a lot of random",
+        "translatedContent": "con anticipación [muestreo con rechazo -> escalar puntos a la superficie de la esfera],"
+      },
+      {
+        "row": 37,
+        "rowsha": "eH9jfiz8QGHcdtPuU1oHnL0SUVommH8e38uPc6QCbFo=",
+        "originContent": "samples ahead of time [sample with rejection -> scale points to sphere",
+        "translatedContent": "y las numero."
+      },
+      {
+        "row": 38,
+        "rowsha": "JVn0H1wWAwbZC532W/6Jc49AC6IP2Bg1S1BzyUL8sKw=",
+        "originContent": "surface], and number them.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Encontrar una manera de unir cada rayo a una fila aleatoria única de estos"
+      },
+      {
+        "row": 40,
+        "rowsha": "5cIby7idBqXvYtjK00W2E53hXxEmwRJUzzuNC6p6hoc=",
+        "originContent": "Figuring out a way to join each ray to a single random row from these",
+        "translatedContent": "dispersores precalculados fue raro; no se puede simplemente unir a RANDOM() porque"
+      },
+      {
+        "row": 41,
+        "rowsha": "oNc+ffD3nafu0VbaPAZI20pGIN6TwuIy4eJSKsFjBEU=",
+        "originContent": "precalculated scatters was weird; can't just join to RANDOM() because",
+        "translatedContent": "cada rayo se uniría al mismo dispersor aleatorio. Tampoco se puede seleccionar"
+      },
+      {
+        "row": 42,
+        "rowsha": "m7O3D+S15kx+qAFai6pPKhXbtAnHeK6vVN8VXAsNMYQ=",
+        "originContent": "every ray got joined to the same, random, scatter. Can't just select",
+        "translatedContent": "con un cálculo típico sobre una normal porque eso lleva a franjas"
+      },
+      {
+        "row": 43,
+        "rowsha": "NlGbtiPEB/c1lWcgucoBAkqK/aK3rOhJN4U7ie3lprk=",
+        "originContent": "with a typical calculation on a normal because that leads to stripes",
+        "translatedContent": "en la imagen. Entonces, en cambio, saco unos pocos decimales posteriores de una"
+      },
+      {
+        "row": 44,
+        "rowsha": "4vpyD/5v03tM1re/V19Z5PMrl6+TGg7Z3PX616nqel8=",
+        "originContent": "in the picture.  So, instead, I schlep out a later few decimals of one",
+        "translatedContent": "dimensión de una normal, y luego uno con eso. Es \"aleatorio\" pero también"
+      },
+      {
+        "row": 45,
+        "rowsha": "lU1PlNhA2cFwL7tuL8eTmI0H6YoP9iNREMvhSHUmBIA=",
+        "originContent": "dimension of a normal, then join to that. It's \"random\" but also",
+        "translatedContent": "lo suficientemente único por rayo."
+      },
+      {
+        "row": 46,
+        "rowsha": "hdqdee+V3Bw9ZuvglbgBCQ2r0M/J0tXJjaeUJTBmjgM=",
+        "originContent": "unique-enough-per-ray.",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### CTEs Recursivos"
+      },
+      {
+        "row": 48,
+        "rowsha": "pg/YIIHX/gwAmuD7aPoNfus1VciDWO/sftE7gZdKUp8=",
+        "originContent": "### Recursive CTEs",
+        "translatedContent": ""
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "El trazado de rayos sigue muy naturalmente cómo funcionan los CTEs recursivos. Una de las"
+      },
+      {
+        "row": 50,
+        "rowsha": "da/QlgDjT65odHd6ppmWwnkPww6QSFu2NZ835SXz2rE=",
+        "originContent": "Raytracing very naturally tracks how recursive CTEs work. One of the",
+        "translatedContent": "cosas que encontré fue una forma limpia de identificar cuál rayo es el que se debe"
+      },
+      {
+        "row": 51,
+        "rowsha": "CwSiFGPHAs6NRBzKZx7zTuCV2isvkAT8KYmwA8I3bdY=",
+        "originContent": "things I ran into was a clean way to identify which ray is the one to",
+        "translatedContent": "contabilizar. Usar una función ventana ordenando por intersección (t) funcionó"
+      },
+      {
+        "row": 52,
+        "rowsha": "U4Xge1k/rQXpDHA3bEGqdnCh7z6qP3ZR15UKu2F31xI=",
+        "originContent": "account for. Using a window function ordering by intercept (t) worked",
+        "translatedContent": "bien. En cada iteración, esta consulta intersecta un rayo con *todo*"
+      },
+      {
+        "row": 53,
+        "rowsha": "gv4xadE396x96J6BtJWV8wljaghmIkMVnI3ynUMcdCA=",
+        "originContent": "well. Every iteration, this query intersects a ray with *everything*",
+        "translatedContent": "lo que está delante de él y hace todos los cálculos asociados, pero luego en"
+      },
+      {
+        "row": 54,
+        "rowsha": "kv3uqWGvhKJI8xSLIWDxgMHFdkLsPWcwRiRPM0S810I=",
+        "originContent": "in front of it and does all of the associated calculations, but then in",
+        "translatedContent": "la cláusula WHERE rechaza todo excepto la cosa que el rayo"
+      },
+      {
+        "row": 55,
+        "rowsha": "Z4hj64KmXPFhfGKsw0X0APRIFpAs6qCFz49XLyn3m1A=",
+        "originContent": "the WHERE clause will reject everything except the thing the ray",
+        "translatedContent": "realmente golpeó."
+      },
+      {
+        "row": 56,
+        "rowsha": "B3cIfComYqAXmZb1zVQ+ZeMfmN863n7PppONQ6EfNU0=",
+        "originContent": "actually hit.",
+        "translatedContent": ""
+      },
+      {
+        "row": 57,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Además, hay algo realmente hermoso en la simplicidad del"
+      },
+      {
+        "row": 58,
+        "rowsha": "wqIAHTEiJzNS6HZvFYEnAQdCuO8skn9pVt12sG3mPjw=",
+        "originContent": "Also, there's something really beautiful about the simplicity of the",
+        "translatedContent": "núcleo del resumen final [editado para claridad]:"
+      },
+      {
+        "row": 59,
+        "rowsha": "m/k9jd04oVhG2J6RX8W5wyFK3WD1Eiz3+/at6ENCS4M=",
+        "originContent": "core of the final rollup [edited for clarity]:",
+        "translatedContent": "```sql"
+      },
+      {
+        "row": 60,
+        "rowsha": "g1o8THvufeOeYrfmqc9x3kevZLvvR9V8UWqzt0ePck8=",
+        "originContent": "```sql",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": " SELECT img_x, img_y,\n         SUM(POW(color_mult * ray_col_r/samples_per_px, gamma)) col_r,\n         SUM(POW(color_mult * ray_col_g/samples_per_px, gamma)) col_g,\n         SUM(POW(color_mult * ray_col_b/samples_per_px, gamma)) col_b\n    FROM rays\n    GROUP BY img_y, img_x",
+    "ContentSha": "D2i/CEsBL2IxuiG/yS6chvvsSX7/NYbU3hSHt3fRWVM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": " SELECT img_x, img_y,\n         SUM(POW(color_mult * ray_col_r/muestras_por_px, gamma)) col_r,\n         SUM(POW(color_mult * ray_col_g/muestras_por_px, gamma)) col_g,\n         SUM(POW(color_mult * ray_col_b/muestras_por_px, gamma)) col_b\n    FROM rays\n    GROUP BY img_y, img_x",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uGLj8l4gPhOgzN8X7r615dksdg7Azy5l8rp4j/8jsdA=",
+        "originContent": " SELECT img_x, img_y,",
+        "translatedContent": " SELECT img_x, img_y,"
+      },
+      {
+        "row": 2,
+        "rowsha": "jtBRSGWxO7shCgkraERmT8klyq5xG30nUIhsoklHb4E=",
+        "originContent": "         SUM(POW(color_mult * ray_col_r/samples_per_px, gamma)) col_r,",
+        "translatedContent": "         SUM(POW(color_mult * ray_col_r/muestras_por_px, gamma)) col_r,"
+      },
+      {
+        "row": 3,
+        "rowsha": "AbLGe9M48ouML3T475v0Ka9Ab9/PP50cJqvRePfT8TA=",
+        "originContent": "         SUM(POW(color_mult * ray_col_g/samples_per_px, gamma)) col_g,",
+        "translatedContent": "         SUM(POW(color_mult * ray_col_g/muestras_por_px, gamma)) col_g,"
+      },
+      {
+        "row": 4,
+        "rowsha": "BNwDD2TzVvgmZsFPLRrn/zrTKncpYyAA3b5+dF5exnQ=",
+        "originContent": "         SUM(POW(color_mult * ray_col_b/samples_per_px, gamma)) col_b",
+        "translatedContent": "         SUM(POW(color_mult * ray_col_b/muestras_por_px, gamma)) col_b"
+      },
+      {
+        "row": 5,
+        "rowsha": "4ZUliTXEzl3jsizO81PCdwUgwoZuxFCwncC7u999/Z0=",
+        "originContent": "    FROM rays",
+        "translatedContent": "    FROM rays"
+      },
+      {
+        "row": 6,
+        "rowsha": "8vT9ke2LTqZSG+15dIi7Uymc3S8SjlNHbJQp8casBHI=",
+        "originContent": "    GROUP BY img_y, img_x",
+        "translatedContent": "    GROUP BY img_y, img_x"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\n\n### Scenes, materials, etc\n\nBecause this is in SQL, I can store multiple scenes in the database. Which\none is actually rendered is selected in the \"camera\" table.\n\n## Standing on the Necks of Giants\n\nTwo years before I wrote this \"The most advanced MySQL raytracer on the\nmarket right now\" did the rounds on social media:\nhttps://www.pouet.net/prod.php?which=83222\n\nI had a few things in mind that I wanted to do differently [worse?]:\n\n* Demoscene is an artform. I'm not golfing, this isn't minified\n* Not a single query; that can be done with CTEs, but ehhhhhhhh\n* Animation as an endgame [see ```anim.sh```]\n* Mainly, I'm just buggering around with the wrong tool for the job\n\n### I asked Claude for an opinion\n\n*\"Why would someone write something like this in the first place?\"*\n\n> This is a fascinating example of SQL as a general-purpose programming language taken to an extreme. Someone wrote a complete ray tracer in PostgreSQL SQL, which is both impressive and... questionable.\n> \n> [...]\n> \n> This feels like either a brilliant computer science student's thesis project, a senior engineer's weekend experiment, or someone trapped in a very restrictive database-only environment who refused to give up on their ray tracing dreams.\n> \n> It's the programming equivalent of building a race car out of Lego - technically impressive, but you probably shouldn't actually drive it.\n\nI can't tell if I'm flattered or offended.\n\n## References\n\nMost of this is built following the \"Ray Tracing in One Weekend\"\nseries: https://raytracing.github.io/ , then making allowances for\nthe deliberately obtuse way I'm coding it.\n\n\nGary <chunky@icculus.org>\n\n",
+    "ContentSha": "wCT5ZmxLKsTuxekWgpWBTBY32SB2NYxepR1oJ1qUVIo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\n### Escenas, materiales, etc.\n\nComo esto está en SQL, puedo almacenar múltiples escenas en la base de datos. La que\nrealmente se renderiza se selecciona en la tabla \"camera\".\n\n## Parados sobre los hombros de gigantes\n\nDos años antes de que escribiera esto, \"El trazador de rayos MySQL más avanzado\ndel mercado en este momento\" circuló en las redes sociales:\nhttps://www.pouet.net/prod.php?which=83222\n\nTenía algunas cosas en mente que quería hacer de manera diferente [¿peor?]:\n\n* Demoscene es una forma de arte. No estoy haciendo golf, esto no está minimizado\n* Ni una sola consulta; eso se puede hacer con CTEs, pero eeeeeeh\n* Animación como objetivo final [ver ```anim.sh```]\n* Principalmente, solo estoy jugando con la herramienta equivocada para el trabajo\n\n### Le pedí a Claude una opinión\n\n*\"¿Por qué alguien escribiría algo así en primer lugar?\"*\n\n> Este es un ejemplo fascinante de SQL como lenguaje de programación de propósito general llevado al extremo. Alguien escribió un trazador de rayos completo en PostgreSQL SQL, lo cual es impresionante y... cuestionable.\n> \n> [...]\n> \n> Esto parece ser un proyecto de tesis de un brillante estudiante de informática, el experimento de fin de semana de un ingeniero senior, o alguien atrapado en un entorno muy restrictivo solo de base de datos que se negó a renunciar a sus sueños de trazado de rayos.\n> \n> Es el equivalente en programación a construir un coche de carreras con Lego: técnicamente impresionante, pero probablemente no deberías conducirlo en serio.\n\nNo sé si sentirme halagado o insultado.\n\n## Referencias\n\nLa mayor parte de esto está construido siguiendo la serie \"Ray Tracing in One Weekend\":\nhttps://raytracing.github.io/, y luego haciendo ajustes para la manera deliberadamente obtusa en que lo estoy codificando.\n\n\nGary <chunky@icculus.org>\n\n```\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "IFPmJVxaCiXmheEMFXD5rnTB2w/pHn2RirP4FDdluhg=",
+        "originContent": "### Scenes, materials, etc",
+        "translatedContent": "### Escenas, materiales, etc."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "1IUuy9O5ozoM11tOMMk/Rax++4LaZT3EAKAtqAGYR4c=",
+        "originContent": "Because this is in SQL, I can store multiple scenes in the database. Which",
+        "translatedContent": "Como esto está en SQL, puedo almacenar múltiples escenas en la base de datos. La que"
+      },
+      {
+        "row": 6,
+        "rowsha": "MviyDqf5HcH1w1i1DXHBw0O+e5946cWLvnWa24wvPoU=",
+        "originContent": "one is actually rendered is selected in the \"camera\" table.",
+        "translatedContent": "realmente se renderiza se selecciona en la tabla \"camera\"."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "4CoKnpNacT4dN4S1CInIeF3tNxr/S9ED+ElihL70aqk=",
+        "originContent": "## Standing on the Necks of Giants",
+        "translatedContent": "## Parados sobre los hombros de gigantes"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "1xEi8e+OxIFvARN8p4dvo+dy1/A09qqA69y7HgWuLY0=",
+        "originContent": "Two years before I wrote this \"The most advanced MySQL raytracer on the",
+        "translatedContent": "Dos años antes de que escribiera esto, \"El trazador de rayos MySQL más avanzado"
+      },
+      {
+        "row": 11,
+        "rowsha": "gd12yPega/L2wDnxKlj+Pv59v1FtCKNOFR0fwf8jBy0=",
+        "originContent": "market right now\" did the rounds on social media:",
+        "translatedContent": "del mercado en este momento\" circuló en las redes sociales:"
+      },
+      {
+        "row": 12,
+        "rowsha": "vS19zmsa26SkGMx9xnAdZ/O/1NZLKdGsd4TuYxxKghI=",
+        "originContent": "https://www.pouet.net/prod.php?which=83222",
+        "translatedContent": "https://www.pouet.net/prod.php?which=83222"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "ftrh7keBmTNpLYhcfG5q5TAACWzBIqIofo5NhthgGQ4=",
+        "originContent": "I had a few things in mind that I wanted to do differently [worse?]:",
+        "translatedContent": "Tenía algunas cosas en mente que quería hacer de manera diferente [¿peor?]:"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "8uwbtsRWiPKAhoasmykff3Tx5k+oVniItuZDLYjipTY=",
+        "originContent": "* Demoscene is an artform. I'm not golfing, this isn't minified",
+        "translatedContent": "* Demoscene es una forma de arte. No estoy haciendo golf, esto no está minimizado"
+      },
+      {
+        "row": 17,
+        "rowsha": "CnWgDmF/XweKoVbUoHfsXAWuO65pZ+vMduEX8yX/4Us=",
+        "originContent": "* Not a single query; that can be done with CTEs, but ehhhhhhhh",
+        "translatedContent": "* Ni una sola consulta; eso se puede hacer con CTEs, pero eeeeeeh"
+      },
+      {
+        "row": 18,
+        "rowsha": "wT+nSOfzE8YTdyjP/AQW2WmUO+SfGQRaQBUJ1uiRmVc=",
+        "originContent": "* Animation as an endgame [see ```anim.sh```]",
+        "translatedContent": "* Animación como objetivo final [ver ```anim.sh```]"
+      },
+      {
+        "row": 19,
+        "rowsha": "d+ficeS5P0KZdy311KwjuhYJaI4K1La/ah4bFdeqJUo=",
+        "originContent": "* Mainly, I'm just buggering around with the wrong tool for the job",
+        "translatedContent": "* Principalmente, solo estoy jugando con la herramienta equivocada para el trabajo"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "PTA1e1cEnbMW8WDgZwg3aVgV/ARQTdHqxw8NDViypu0=",
+        "originContent": "### I asked Claude for an opinion",
+        "translatedContent": "### Le pedí a Claude una opinión"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "AfceIHHszlolxDeWbqqCjyJjl2ZAz7CWTxqQUHVHbBE=",
+        "originContent": "*\"Why would someone write something like this in the first place?\"*",
+        "translatedContent": "*\"¿Por qué alguien escribiría algo así en primer lugar?\"*"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "UJIYGl46xpoGpvLPVuBsXFl208t++i43znwzeOA7vdk=",
+        "originContent": "> This is a fascinating example of SQL as a general-purpose programming language taken to an extreme. Someone wrote a complete ray tracer in PostgreSQL SQL, which is both impressive and... questionable.",
+        "translatedContent": "> Este es un ejemplo fascinante de SQL como lenguaje de programación de propósito general llevado al extremo. Alguien escribió un trazador de rayos completo en PostgreSQL SQL, lo cual es impresionante y... cuestionable."
+      },
+      {
+        "row": 26,
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": "> "
+      },
+      {
+        "row": 27,
+        "rowsha": "n3mfZoUv1GNdsfcVQLT0YE1YYkvocamjKPRpyGxTWIY=",
+        "originContent": "> [...]",
+        "translatedContent": "> [...]"
+      },
+      {
+        "row": 28,
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": "> "
+      },
+      {
+        "row": 29,
+        "rowsha": "5Zrt+pH0OFFwIDGkJ+kJmYgIGbEP5/2WDurJqmLRHvs=",
+        "originContent": "> This feels like either a brilliant computer science student's thesis project, a senior engineer's weekend experiment, or someone trapped in a very restrictive database-only environment who refused to give up on their ray tracing dreams.",
+        "translatedContent": "> Esto parece ser un proyecto de tesis de un brillante estudiante de informática, el experimento de fin de semana de un ingeniero senior, o alguien atrapado en un entorno muy restrictivo solo de base de datos que se negó a renunciar a sus sueños de trazado de rayos."
+      },
+      {
+        "row": 30,
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": "> "
+      },
+      {
+        "row": 31,
+        "rowsha": "Lf22MHNb5+ERxqdlSE3vQ3eCZIR2mtkvyy68+cYry8w=",
+        "originContent": "> It's the programming equivalent of building a race car out of Lego - technically impressive, but you probably shouldn't actually drive it.",
+        "translatedContent": "> Es el equivalente en programación a construir un coche de carreras con Lego: técnicamente impresionante, pero probablemente no deberías conducirlo en serio."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "qLgb6JcDIV4nqp7Jf2t6NhsgEk5sSgn6h7aYs67loRU=",
+        "originContent": "I can't tell if I'm flattered or offended.",
+        "translatedContent": "No sé si sentirme halagado o insultado."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
+        "originContent": "## References",
+        "translatedContent": "## Referencias"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "T7sogbkT2wGQMnvlZVSs8qWyGM3yINRnOAToQBDm7P8=",
+        "originContent": "Most of this is built following the \"Ray Tracing in One Weekend\"",
+        "translatedContent": "La mayor parte de esto está construido siguiendo la serie \"Ray Tracing in One Weekend\":"
+      },
+      {
+        "row": 38,
+        "rowsha": "7rcX+LokfnSMn01XKqj1bl+RGin/drCjHbE8yXJDB88=",
+        "originContent": "series: https://raytracing.github.io/ , then making allowances for",
+        "translatedContent": "https://raytracing.github.io/, y luego haciendo ajustes para la manera deliberadamente obtusa en que lo estoy codificando."
+      },
+      {
+        "row": 39,
+        "rowsha": "YmDuGjIEtqagX7mHHVO02scp5ZVzA6/63aWsHl25MIE=",
+        "originContent": "the deliberately obtuse way I'm coding it.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Gary <chunky@icculus.org>"
+      },
+      {
+        "row": 42,
+        "rowsha": "QNQmyM6V/3IDrP8NxqCnmKGkPktYy88kwiKVg13lFjM=",
+        "originContent": "Gary <chunky@icculus.org>",
+        "translatedContent": ""
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "```"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

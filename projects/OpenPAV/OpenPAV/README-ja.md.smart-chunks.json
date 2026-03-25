@@ -1,0 +1,454 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Open-PAV\n\nOpenPAV (Open Production Automated Vehicle) is an open platform designed to facilitate **data collection, behavior modeling, and performance evaluation** of production automated vehicle (PAV). It integrates diverse datasets and calibrated vehicle models, making it an essential tool for researchers and developers aiming to study PAV dynamics and their impacts. The project encourages contributions from the research community and provides ready-to-use model parameters for seamless integration with simulation tools. Check the [OpenPAV Website](https://openpav.github.io/OpenPAV) for more details.\n\n![Framework](https://raw.githubusercontent.com/OpenPAV/OpenPAV/main/./docs/images/Framework.png)\n\n## Data Sources and Contributors\n\n### Original Data Sources:\n\nCurrently the dataset has examined 14 open-source datasets from 7 providers, each providing distinct insights into AV behavior across various driving conditions and scenarios. They are:\n\n- **Argoverse 2 Motion Forecasting Dataset**. Collected from Austin in Texas, Detroit in Michigan, Miami in Florida, Pittsburgh in Pennsylvania, Palo Alto in California, and Washington, D.C. by Argo AI with researchers from Carnegie Mellon University and the Georgia Institute of Technology. Available at -  [Argoverse 2 Motion Forcasting Dataset](https://www.argoverse.org/av2.html).\n- **CATS Open Datasets**. Three datasets were gathered in Tampa, Florida, and Madison, Wisconsin by the CATS Lab. Available at - [CATS Lab](https://github.com/CATS-Lab).\n- **Central Ohio ACC Datasets**. Two datasets were collated in Ohio by UCLA Mobility Lab and Transportation Research Center. Available at - [Advanced Driver Assistance System (ADAS)-Equipped Single-Vehicle Data for Central Ohio](https://catalog.data.gov/dataset/advanced-driver-assistance-system-adas-equipped-single-vehicle-data-for-central-ohio).\n- **MircoSimACC Dataset**. Collected in four cities in Florida, including Delray Beach, Loxahatchee, Boca Raton, and Parkland by the Florida Atlantic University research group. Available at  - [microSIM-ACC](https://github.com/microSIM-ACC).\n- **OpenACC Database**. Four datasets were collected across Italy, Sweden, and Hungary by the European Commission's Joint Research Centre. Available at - [data.europa.eu](https://data.europa.eu/data/datasets/9702c950-c80f-4d2f-982f-44d06ea0009f?locale=en).\n- **Vanderbilt ACC Dataset**. Collected in Nashville, Tennessee by Vanderbilt University research group. Available at - [Adaptive Cruise Control Dataset](https://acc-dataset.github.io/).\n- **Waymo Open Dataset**. Two datasets were collected in six cities including San Francisco, Mountain View, and Los Angeles in California, Phoenix in Arizona, Detroit in Michigan, and Seattle in Washington by Waymo. Available at - [Waymo Motion Dataset](https://waymo.com/open/data/motion/) and [Vehicle trajectory data processed from the Waymo Open Dataset](https://data.mendeley.com/datasets/wfn2c3437n/2).\n\n<img src=\"https://raw.githubusercontent.com/OpenPAV/OpenPAV/main/./docs/images/Dataset.png\" alt=\"Major Components\" width=\"600\">\n\n### Processed Data Source:\n\nBy organizing the data from the above datasets, we processed a unified trajectory dataset ULTra-AV, in which all data are represented using a standardized format. Available at -  [A unified longitudinal trajectory dataset for automated vehicle](https://www.nature.com/articles/s41597-024-03795-y) and [ULTra-AV](https://github.com/CATS-Lab/Filed-Experiment-Data-ULTra-AV).\n\n## What's New\n\n- **March 2026:** The project has launched a new interface.\n- **November 2024:** Initial project startup with installation and user guides.\n\n\n## Major Components\n\nOpen-PAV consists of the following components:\n\n- **Data Process:** Given the raw AV data (LiDAR, images, videos, trajectories) as input, this module converts data of the same type into a unified format and performs preliminary data cleaning.\n- **Behavior Modeling:** Using the processed AV data, this module calibrates the vehicle kinematic models of automated vehicles and exports them for simulation use. Users can also directly input their AV software stack to test their developed AV system within this module.\n- **Accelerated Evaluation:** This module is designed to generate tailored safety-critical driving scenarios specific to a given AV model, aiming to evaluate its safety performance.\n",
+    "ContentSha": "EKA10lWVeAHHGHQxAcT0eaMU4EBbRh8fxtF5lr2fIa0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Open-PAV\n\nOpenPAV（Open Production Automated Vehicle）は、生産型自動運転車（PAV）の**データ収集、行動モデリング、および性能評価**を支援するために設計されたオープンプラットフォームです。多様なデータセットとキャリブレーション済み車両モデルを統合し、PAVの動態やその影響を研究する研究者や開発者にとって不可欠なツールとなっています。本プロジェクトは研究コミュニティからの貢献を促進し、シミュレーションツールとシームレスに統合可能なモデルパラメータを提供します。詳細は[OpenPAVウェブサイト](https://openpav.github.io/OpenPAV)をご覧ください。\n\n![Framework](https://raw.githubusercontent.com/OpenPAV/OpenPAV/main/./docs/images/Framework.png)\n\n## データソースと貢献者\n\n### オリジナルデータソース：\n\n現在、データセットは7つの提供元から14のオープンソースデータセットを検証しており、それぞれが様々な運転条件やシナリオにおける自動運転車の行動に関する独自の洞察を提供しています。以下の通りです：\n\n- **Argoverse 2 モーション予測データセット**。テキサス州オースティン、ミシガン州デトロイト、フロリダ州マイアミ、ペンシルベニア州ピッツバーグ、カリフォルニア州パロアルト、ワシントンD.C.でArgo AIとカーネギーメロン大学、ジョージア工科大学の研究者により収集。入手先 - [Argoverse 2 Motion Forecasting Dataset](https://www.argoverse.org/av2.html)。\n- **CATSオープンデータセット**。フロリダ州タンパおよびウィスコンシン州マディソンでCATSラボが収集した3つのデータセット。入手先 - [CATS Lab](https://github.com/CATS-Lab)。\n- **Central Ohio ACCデータセット**。オハイオ州でUCLAモビリティラボと交通研究センターが収集した2つのデータセット。入手先 - [Central Ohio向けADAS搭載単一車両データ](https://catalog.data.gov/dataset/advanced-driver-assistance-system-adas-equipped-single-vehicle-data-for-central-ohio)。\n- **MircoSimACCデータセット**。フロリダ州のデルレイビーチ、ロクサハッチー、ボカラトン、パークランドの4都市でフロリダ大西洋大学の研究グループにより収集。入手先 - [microSIM-ACC](https://github.com/microSIM-ACC)。\n- **OpenACCデータベース**。イタリア、スウェーデン、ハンガリーで欧州委員会の合同研究センターが収集した4つのデータセット。入手先 - [data.europa.eu](https://data.europa.eu/data/datasets/9702c950-c80f-4d2f-982f-44d06ea0009f?locale=en)。\n- **バンダービルトACCデータセット**。テネシー州ナッシュビルでバンダービルト大学の研究グループにより収集。入手先 - [Adaptive Cruise Control Dataset](https://acc-dataset.github.io/)。\n- **Waymoオープンデータセット**。カリフォルニア州サンフランシスコ、マウンテンビュー、ロサンゼルス、アリゾナ州フェニックス、ミシガン州デトロイト、ワシントン州シアトルの6都市でWaymoが収集した2つのデータセット。入手先 - [Waymo Motion Dataset](https://waymo.com/open/data/motion/)および[Waymoオープンデータセットから処理された車両軌跡データ](https://data.mendeley.com/datasets/wfn2c3437n/2)。\n\n<img src=\"https://raw.githubusercontent.com/OpenPAV/OpenPAV/main/./docs/images/Dataset.png\" alt=\"Major Components\" width=\"600\">\n\n### 処理済みデータソース：\n\n上記のデータセットからデータを整理し、すべてのデータが標準化されたフォーマットで表現される統一軌跡データセットULTra-AVを作成しました。入手先 - [自動運転車向け統一縦軌跡データセット](https://www.nature.com/articles/s41597-024-03795-y)および[ULTra-AV](https://github.com/CATS-Lab/Filed-Experiment-Data-ULTra-AV)。\n\n## 新着情報\n\n- **2026年3月：** 新インターフェースをリリースしました。\n- **2024年11月：** プロジェクト初期起動、インストールおよびユーザーガイドを公開。\n\n## 主要コンポーネント\n\nOpen-PAVは以下のコンポーネントで構成されています：\n\n- **データ処理：** 生の自動運転車データ（LiDAR、画像、動画、軌跡）を入力として受け取り、同種のデータを統一フォーマットに変換し、予備的なデータクリーニングを行います。\n- **行動モデリング：** 処理済みの自動運転車データを用いて、車両運動学モデルをキャリブレーションし、シミュレーション用にエクスポートします。ユーザーは自身の自動運転ソフトウェアスタックを直接入力し、このモジュール内で開発した自動運転システムをテストすることも可能です。\n- **加速評価：** 指定された自動運転車モデルに特化した安全性重視の運転シナリオを生成し、その安全性能を評価するためのモジュールです。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wltm4j5r5LDz9sfRLauKMD7UZYooGHSrA8vrY3NULpk=",
+        "originContent": "# Open-PAV",
+        "translatedContent": "# Open-PAV"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "O/HiO+xBZz6SvbbSVEQjiJS/h0jWj03Sw2rC9ArUyAE=",
+        "originContent": "OpenPAV (Open Production Automated Vehicle) is an open platform designed to facilitate **data collection, behavior modeling, and performance evaluation** of production automated vehicle (PAV). It integrates diverse datasets and calibrated vehicle models, making it an essential tool for researchers and developers aiming to study PAV dynamics and their impacts. The project encourages contributions from the research community and provides ready-to-use model parameters for seamless integration with simulation tools. Check the [OpenPAV Website](https://openpav.github.io/OpenPAV) for more details.",
+        "translatedContent": "OpenPAV（Open Production Automated Vehicle）は、生産型自動運転車（PAV）の**データ収集、行動モデリング、および性能評価**を支援するために設計されたオープンプラットフォームです。多様なデータセットとキャリブレーション済み車両モデルを統合し、PAVの動態やその影響を研究する研究者や開発者にとって不可欠なツールとなっています。本プロジェクトは研究コミュニティからの貢献を促進し、シミュレーションツールとシームレスに統合可能なモデルパラメータを提供します。詳細は[OpenPAVウェブサイト](https://openpav.github.io/OpenPAV)をご覧ください。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "/5eAEy6fRNXjm6vh7qqs4SygopNtb8+AhwDW2Hw+tro=",
+        "originContent": "![Framework](https://raw.githubusercontent.com/OpenPAV/OpenPAV/main/./docs/images/Framework.png)",
+        "translatedContent": "![Framework](https://raw.githubusercontent.com/OpenPAV/OpenPAV/main/./docs/images/Framework.png)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Pj/9n9v3hwtoaotflCcpaudfHr36rRXT/IOuBLrJ+TU=",
+        "originContent": "## Data Sources and Contributors",
+        "translatedContent": "## データソースと貢献者"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "TqNMr4r6Cg4s411lLUdlu2+V7SwtF2VUh53Cjb/o/vs=",
+        "originContent": "### Original Data Sources:",
+        "translatedContent": "### オリジナルデータソース："
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "1/oAoMbw2+hc0oDzZIDBubERRPtfpdyfmqX448HW0hI=",
+        "originContent": "Currently the dataset has examined 14 open-source datasets from 7 providers, each providing distinct insights into AV behavior across various driving conditions and scenarios. They are:",
+        "translatedContent": "現在、データセットは7つの提供元から14のオープンソースデータセットを検証しており、それぞれが様々な運転条件やシナリオにおける自動運転車の行動に関する独自の洞察を提供しています。以下の通りです："
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "q2u6zcvjq06bA26XdFwYJg+AInyZZRJeW7Gjo0hhsSw=",
+        "originContent": "- **Argoverse 2 Motion Forecasting Dataset**. Collected from Austin in Texas, Detroit in Michigan, Miami in Florida, Pittsburgh in Pennsylvania, Palo Alto in California, and Washington, D.C. by Argo AI with researchers from Carnegie Mellon University and the Georgia Institute of Technology. Available at -  [Argoverse 2 Motion Forcasting Dataset](https://www.argoverse.org/av2.html).",
+        "translatedContent": "- **Argoverse 2 モーション予測データセット**。テキサス州オースティン、ミシガン州デトロイト、フロリダ州マイアミ、ペンシルベニア州ピッツバーグ、カリフォルニア州パロアルト、ワシントンD.C.でArgo AIとカーネギーメロン大学、ジョージア工科大学の研究者により収集。入手先 - [Argoverse 2 Motion Forecasting Dataset](https://www.argoverse.org/av2.html)。"
+      },
+      {
+        "row": 14,
+        "rowsha": "Vhz8QhEhP5JdpP/APwSxc7zYGH9p9Ge0QvwBtKCxMPs=",
+        "originContent": "- **CATS Open Datasets**. Three datasets were gathered in Tampa, Florida, and Madison, Wisconsin by the CATS Lab. Available at - [CATS Lab](https://github.com/CATS-Lab).",
+        "translatedContent": "- **CATSオープンデータセット**。フロリダ州タンパおよびウィスコンシン州マディソンでCATSラボが収集した3つのデータセット。入手先 - [CATS Lab](https://github.com/CATS-Lab)。"
+      },
+      {
+        "row": 15,
+        "rowsha": "e9higgRQXqpoh4hJHFgGo1cyKAv+TIsbY+ssI6c0TmE=",
+        "originContent": "- **Central Ohio ACC Datasets**. Two datasets were collated in Ohio by UCLA Mobility Lab and Transportation Research Center. Available at - [Advanced Driver Assistance System (ADAS)-Equipped Single-Vehicle Data for Central Ohio](https://catalog.data.gov/dataset/advanced-driver-assistance-system-adas-equipped-single-vehicle-data-for-central-ohio).",
+        "translatedContent": "- **Central Ohio ACCデータセット**。オハイオ州でUCLAモビリティラボと交通研究センターが収集した2つのデータセット。入手先 - [Central Ohio向けADAS搭載単一車両データ](https://catalog.data.gov/dataset/advanced-driver-assistance-system-adas-equipped-single-vehicle-data-for-central-ohio)。"
+      },
+      {
+        "row": 16,
+        "rowsha": "CYyyV1bWKm5YmpPjUUYFDrD166V9UNF9vLrNg3ZM6h8=",
+        "originContent": "- **MircoSimACC Dataset**. Collected in four cities in Florida, including Delray Beach, Loxahatchee, Boca Raton, and Parkland by the Florida Atlantic University research group. Available at  - [microSIM-ACC](https://github.com/microSIM-ACC).",
+        "translatedContent": "- **MircoSimACCデータセット**。フロリダ州のデルレイビーチ、ロクサハッチー、ボカラトン、パークランドの4都市でフロリダ大西洋大学の研究グループにより収集。入手先 - [microSIM-ACC](https://github.com/microSIM-ACC)。"
+      },
+      {
+        "row": 17,
+        "rowsha": "FDeRCubWsXx6TJmitwhVImHCTtV7D2SdXoYjzu33ZWI=",
+        "originContent": "- **OpenACC Database**. Four datasets were collected across Italy, Sweden, and Hungary by the European Commission's Joint Research Centre. Available at - [data.europa.eu](https://data.europa.eu/data/datasets/9702c950-c80f-4d2f-982f-44d06ea0009f?locale=en).",
+        "translatedContent": "- **OpenACCデータベース**。イタリア、スウェーデン、ハンガリーで欧州委員会の合同研究センターが収集した4つのデータセット。入手先 - [data.europa.eu](https://data.europa.eu/data/datasets/9702c950-c80f-4d2f-982f-44d06ea0009f?locale=en)。"
+      },
+      {
+        "row": 18,
+        "rowsha": "hGgdCRNAOGOESEM+E7cH2SmQ3Ly2XADqnNg4C8UNzRc=",
+        "originContent": "- **Vanderbilt ACC Dataset**. Collected in Nashville, Tennessee by Vanderbilt University research group. Available at - [Adaptive Cruise Control Dataset](https://acc-dataset.github.io/).",
+        "translatedContent": "- **バンダービルトACCデータセット**。テネシー州ナッシュビルでバンダービルト大学の研究グループにより収集。入手先 - [Adaptive Cruise Control Dataset](https://acc-dataset.github.io/)。"
+      },
+      {
+        "row": 19,
+        "rowsha": "ioIz3DWjllSU5eO1n4EDv55mGqKEeUTfIWnBvTrINPg=",
+        "originContent": "- **Waymo Open Dataset**. Two datasets were collected in six cities including San Francisco, Mountain View, and Los Angeles in California, Phoenix in Arizona, Detroit in Michigan, and Seattle in Washington by Waymo. Available at - [Waymo Motion Dataset](https://waymo.com/open/data/motion/) and [Vehicle trajectory data processed from the Waymo Open Dataset](https://data.mendeley.com/datasets/wfn2c3437n/2).",
+        "translatedContent": "- **Waymoオープンデータセット**。カリフォルニア州サンフランシスコ、マウンテンビュー、ロサンゼルス、アリゾナ州フェニックス、ミシガン州デトロイト、ワシントン州シアトルの6都市でWaymoが収集した2つのデータセット。入手先 - [Waymo Motion Dataset](https://waymo.com/open/data/motion/)および[Waymoオープンデータセットから処理された車両軌跡データ](https://data.mendeley.com/datasets/wfn2c3437n/2)。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "1QkMP43PZLzeJqR0Jzb5JpWcts4y+XfKqCBdYMNBrq4=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/OpenPAV/OpenPAV/main/./docs/images/Dataset.png\" alt=\"Major Components\" width=\"600\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/OpenPAV/OpenPAV/main/./docs/images/Dataset.png\" alt=\"Major Components\" width=\"600\">"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "E+j6w7v722KnbU/EV/En9SWZa8xk4qKbGfr67VqYJWk=",
+        "originContent": "### Processed Data Source:",
+        "translatedContent": "### 処理済みデータソース："
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "duDIhE3bwEIt2w2iqoV0N0gBhb6wehNVUPibbnjcyfE=",
+        "originContent": "By organizing the data from the above datasets, we processed a unified trajectory dataset ULTra-AV, in which all data are represented using a standardized format. Available at -  [A unified longitudinal trajectory dataset for automated vehicle](https://www.nature.com/articles/s41597-024-03795-y) and [ULTra-AV](https://github.com/CATS-Lab/Filed-Experiment-Data-ULTra-AV).",
+        "translatedContent": "上記のデータセットからデータを整理し、すべてのデータが標準化されたフォーマットで表現される統一軌跡データセットULTra-AVを作成しました。入手先 - [自動運転車向け統一縦軌跡データセット](https://www.nature.com/articles/s41597-024-03795-y)および[ULTra-AV](https://github.com/CATS-Lab/Filed-Experiment-Data-ULTra-AV)。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "Enhi9JCH7H8/cfuDYRH9XtDnMoY5VQIiEDcRak9gBq4=",
+        "originContent": "## What's New",
+        "translatedContent": "## 新着情報"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "DZnTsJKv8kyn8z6RYvjY29odiKmz92H6EzZXiY6GYb0=",
+        "originContent": "- **March 2026:** The project has launched a new interface.",
+        "translatedContent": "- **2026年3月：** 新インターフェースをリリースしました。"
+      },
+      {
+        "row": 30,
+        "rowsha": "npx4E1bcGCQoHRU+QZorgzxwSwvz9WuHZVpuL5bz/ps=",
+        "originContent": "- **November 2024:** Initial project startup with installation and user guides.",
+        "translatedContent": "- **2024年11月：** プロジェクト初期起動、インストールおよびユーザーガイドを公開。"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 主要コンポーネント"
+      },
+      {
+        "row": 33,
+        "rowsha": "JKVZAT1Qo65kCPINOZYD4uAdEPblCmVGoNYG9JFFOpw=",
+        "originContent": "## Major Components",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Open-PAVは以下のコンポーネントで構成されています："
+      },
+      {
+        "row": 35,
+        "rowsha": "U60gNnbAKHTmZSjr6FGsqlzdujrU/qdB0VBDJ5dCztU=",
+        "originContent": "Open-PAV consists of the following components:",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **データ処理：** 生の自動運転車データ（LiDAR、画像、動画、軌跡）を入力として受け取り、同種のデータを統一フォーマットに変換し、予備的なデータクリーニングを行います。"
+      },
+      {
+        "row": 37,
+        "rowsha": "wyELsepl5rcsDs1ECeFupISCPaoYBPKAl9RHTDEg/R4=",
+        "originContent": "- **Data Process:** Given the raw AV data (LiDAR, images, videos, trajectories) as input, this module converts data of the same type into a unified format and performs preliminary data cleaning.",
+        "translatedContent": "- **行動モデリング：** 処理済みの自動運転車データを用いて、車両運動学モデルをキャリブレーションし、シミュレーション用にエクスポートします。ユーザーは自身の自動運転ソフトウェアスタックを直接入力し、このモジュール内で開発した自動運転システムをテストすることも可能です。"
+      },
+      {
+        "row": 38,
+        "rowsha": "ii1u+RNr4rx/NlRDcU0LnAuCEiHrp2uZgaS7xeLTSBs=",
+        "originContent": "- **Behavior Modeling:** Using the processed AV data, this module calibrates the vehicle kinematic models of automated vehicles and exports them for simulation use. Users can also directly input their AV software stack to test their developed AV system within this module.",
+        "translatedContent": "- **加速評価：** 指定された自動運転車モデルに特化した安全性重視の運転シナリオを生成し、その安全性能を評価するためのモジュールです。"
+      },
+      {
+        "row": 39,
+        "rowsha": "1qOQTcRt/1/U5PxuRrn/BzY6RIBAYVlW0jwmPOVvLr4=",
+        "originContent": "- **Accelerated Evaluation:** This module is designed to generate tailored safety-critical driving scenarios specific to a given AV model, aiming to evaluate its safety performance.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## Contributors\n\n### Contributing Groups\n\n[CATS Lab](https://catslab.engr.wisc.edu/) (PI: [Xiaopeng Li](https://catslab.engr.wisc.edu/staff/xiaopengli/))\n\n[CAT Lab](http://www.connectedandautonomoustransport.com/dr-zhengs-research.html) (PI: [Zuduo Zheng](https://civil.uq.edu.au/profile/857/zuduo-zheng))\n\n[SHINE Lab](https://sites.google.com/site/danjuechen/) (PI: Danjue Chen)\n\nNextGen-ITS Lab (PI: David Kan)\n\n### Technical Contributors:\n\n- [Hang Zhou](https://catslab.engr.wisc.edu/staff/zhou-hang/), [Ke Ma](https://markmaaaaa.github.io/KeMa.github.io/), Keke Long , Chengyuan Ma.\n\n### Related Publications:\n\n- Zhou, H., Ma, K., Liang, S., Li, X., and Qu, X. (2024). *A unified longitudinal trajectory dataset for automated vehicle*. *Scientific Data*, 11, 1123.\n\n### Acknowledgements:\n\nThis project is partially supported by the National Science Foundation (NSF) through \"[NSF\tCPS: Small: NSF-DST: Turning “Tragedy of the Commons (ToC)” into “Emergent Cooperative Behavior (ECB)” for Automated Vehicles at Intersections with Meta-Learning](https://www.nsf.gov/awardsearch/show-award?AWD_ID=2343167)\" (No. 2343167). We also acknowledge the support from [IEEE Intelligent Transportation Systems Society (ITSS) Emerging Transportation Technology Testing (ET3) Technical Committee](https://ieee-itss.org/chapters-committees/emerging-transportation-technology-testing).\n\nWe also sincerely appreciate all the dataset providers and contributors for making this work possible. \n\n## License\n\nOpen-PAV is released under the [MIT License](LICENSE). See the LICENSE file for details.\n\n",
+    "ContentSha": "wa2e9H6Tr5Iv1PrBb/ZoU0gDjueUc3JEvRKa32/exVY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 貢献者\n\n### 貢献グループ\n\n[CATS Lab](https://catslab.engr.wisc.edu/)（PI: [Xiaopeng Li](https://catslab.engr.wisc.edu/staff/xiaopengli/)）\n\n[CAT Lab](http://www.connectedandautonomoustransport.com/dr-zhengs-research.html)（PI: [Zuduo Zheng](https://civil.uq.edu.au/profile/857/zuduo-zheng)）\n\n[SHINE Lab](https://sites.google.com/site/danjuechen/)（PI: Danjue Chen）\n\nNextGen-ITS Lab（PI: David Kan）\n\n### 技術的貢献者：\n\n- [Hang Zhou](https://catslab.engr.wisc.edu/staff/zhou-hang/)、[Ke Ma](https://markmaaaaa.github.io/KeMa.github.io/)、Keke Long、Chengyuan Ma。\n\n### 関連出版物：\n\n- Zhou, H., Ma, K., Liang, S., Li, X., and Qu, X. (2024). *A unified longitudinal trajectory dataset for automated vehicle*. *Scientific Data*, 11, 1123.\n\n### 謝辞：\n\n本プロジェクトは、国立科学財団（NSF）による「[NSF CPS: Small: NSF-DST: Turning “Tragedy of the Commons (ToC)” into “Emergent Cooperative Behavior (ECB)” for Automated Vehicles at Intersections with Meta-Learning](https://www.nsf.gov/awardsearch/show-award?AWD_ID=2343167)」（番号 2343167）の一部支援を受けています。また、[IEEE Intelligent Transportation Systems Society (ITSS) Emerging Transportation Technology Testing (ET3) Technical Committee](https://ieee-itss.org/chapters-committees/emerging-transportation-technology-testing) の支援にも感謝いたします。\n\n本作業を可能にしたすべてのデータセット提供者および貢献者の皆様にも心より感謝申し上げます。\n\n## ライセンス\n\nOpen-PAV は [MIT ライセンス](LICENSE) の下で公開されています。詳細は LICENSE ファイルをご覧ください。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GMscHjUCoBEPz56g0tY/7ter43HRnA3db4DiaL3El9Y=",
+        "originContent": "## Contributors",
+        "translatedContent": "## 貢献者"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "yTN90dapTMOSppzY4oMVZF98Jru59mXa/UvzeBZwoCs=",
+        "originContent": "### Contributing Groups",
+        "translatedContent": "### 貢献グループ"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "e84oJbk88ZjcCKxy+k2/E4lHIyYB6miiPUuR4HWfB1E=",
+        "originContent": "[CATS Lab](https://catslab.engr.wisc.edu/) (PI: [Xiaopeng Li](https://catslab.engr.wisc.edu/staff/xiaopengli/))",
+        "translatedContent": "[CATS Lab](https://catslab.engr.wisc.edu/)（PI: [Xiaopeng Li](https://catslab.engr.wisc.edu/staff/xiaopengli/)）"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "p57hFwolGqb50TWu9sq8MuozhZ+GqVXxheA7FWchoic=",
+        "originContent": "[CAT Lab](http://www.connectedandautonomoustransport.com/dr-zhengs-research.html) (PI: [Zuduo Zheng](https://civil.uq.edu.au/profile/857/zuduo-zheng))",
+        "translatedContent": "[CAT Lab](http://www.connectedandautonomoustransport.com/dr-zhengs-research.html)（PI: [Zuduo Zheng](https://civil.uq.edu.au/profile/857/zuduo-zheng)）"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "FmRo7Z8s1LnTWKgZ+yiA/gehU5SLa9c98ZKR1KcKs3I=",
+        "originContent": "[SHINE Lab](https://sites.google.com/site/danjuechen/) (PI: Danjue Chen)",
+        "translatedContent": "[SHINE Lab](https://sites.google.com/site/danjuechen/)（PI: Danjue Chen）"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "MXXsCFPDApK6BK6GTn6UOZqnckZheEKL4GVDZatV7ak=",
+        "originContent": "NextGen-ITS Lab (PI: David Kan)",
+        "translatedContent": "NextGen-ITS Lab（PI: David Kan）"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "3ct+m77/vF5Xnjr/8zp1yh4pE05UfPiuSKqX4kXH0rc=",
+        "originContent": "### Technical Contributors:",
+        "translatedContent": "### 技術的貢献者："
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "lIufyPgotzTBqrT/8gzlDrLacgkkaTQpXuq5cctgtxU=",
+        "originContent": "- [Hang Zhou](https://catslab.engr.wisc.edu/staff/zhou-hang/), [Ke Ma](https://markmaaaaa.github.io/KeMa.github.io/), Keke Long , Chengyuan Ma.",
+        "translatedContent": "- [Hang Zhou](https://catslab.engr.wisc.edu/staff/zhou-hang/)、[Ke Ma](https://markmaaaaa.github.io/KeMa.github.io/)、Keke Long、Chengyuan Ma。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "GjqMHB5Rox/GAY+Y9ZKag25wPo9lB+N8rstqXJ/Jk3o=",
+        "originContent": "### Related Publications:",
+        "translatedContent": "### 関連出版物："
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "8GD1u8BZ+U6kCSJDxxO5Nl03Pnr+VUC0oiFs5zgdtFA=",
+        "originContent": "- Zhou, H., Ma, K., Liang, S., Li, X., and Qu, X. (2024). *A unified longitudinal trajectory dataset for automated vehicle*. *Scientific Data*, 11, 1123.",
+        "translatedContent": "- Zhou, H., Ma, K., Liang, S., Li, X., and Qu, X. (2024). *A unified longitudinal trajectory dataset for automated vehicle*. *Scientific Data*, 11, 1123."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "LhroG6d5zgwEM13Ys/RjdopfvWKLWPmCvOzV1eYcxD0=",
+        "originContent": "### Acknowledgements:",
+        "translatedContent": "### 謝辞："
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "cvWHdhb8HX6h280pSDPy9BoqBJ7owSb2vZS4nNGJwNc=",
+        "originContent": "This project is partially supported by the National Science Foundation (NSF) through \"[NSF\tCPS: Small: NSF-DST: Turning “Tragedy of the Commons (ToC)” into “Emergent Cooperative Behavior (ECB)” for Automated Vehicles at Intersections with Meta-Learning](https://www.nsf.gov/awardsearch/show-award?AWD_ID=2343167)\" (No. 2343167). We also acknowledge the support from [IEEE Intelligent Transportation Systems Society (ITSS) Emerging Transportation Technology Testing (ET3) Technical Committee](https://ieee-itss.org/chapters-committees/emerging-transportation-technology-testing).",
+        "translatedContent": "本プロジェクトは、国立科学財団（NSF）による「[NSF CPS: Small: NSF-DST: Turning “Tragedy of the Commons (ToC)” into “Emergent Cooperative Behavior (ECB)” for Automated Vehicles at Intersections with Meta-Learning](https://www.nsf.gov/awardsearch/show-award?AWD_ID=2343167)」（番号 2343167）の一部支援を受けています。また、[IEEE Intelligent Transportation Systems Society (ITSS) Emerging Transportation Technology Testing (ET3) Technical Committee](https://ieee-itss.org/chapters-committees/emerging-transportation-technology-testing) の支援にも感謝いたします。"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "POpZTF5+BJB1c79HvpHYf1+pDLXlU5Av3J7X9cGHdrg=",
+        "originContent": "We also sincerely appreciate all the dataset providers and contributors for making this work possible. ",
+        "translatedContent": "本作業を可能にしたすべてのデータセット提供者および貢献者の皆様にも心より感謝申し上げます。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "yYK2+1qZwtb8GGbuasfFBFqRFjlyIM3bmeTtSpZzdAc=",
+        "originContent": "Open-PAV is released under the [MIT License](LICENSE). See the LICENSE file for details.",
+        "translatedContent": "Open-PAV は [MIT ライセンス](LICENSE) の下で公開されています。詳細は LICENSE ファイルをご覧ください。"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
