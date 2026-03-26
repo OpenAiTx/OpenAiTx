@@ -24,7 +24,6 @@
         | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=as">অসমীয়া</
       </div>
     </div>
   </details>
@@ -34,25 +33,27 @@
 
 [詳細ドキュメント] https://deepwiki.com/JetXu-LLM/llama-github
 
-[![PyPI version](https://badge.fury.io/py/llama-github.svg)](https://badge.fury.io/py/llama-github)
-[![Downloads](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![PyPIバージョン](https://badge.fury.io/py/llama-github.svg)](https://badge.fury.io/py/llama-github)
+[![ダウンロード数](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)
+[![ライセンス](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Llama-githubは、Agentic RAGに基づき、GitHubから最も関連性の高いコードスニペット、イシュー、リポジトリ情報を検索し、価値ある知識コンテキストへと変換する強力なツールです。LLMチャットボット、AIエージェント、Auto-devエージェントが複雑なコーディングタスクを解決するための力を与えます。開発者が迅速なソリューションを求める場合でも、先進的なAuto Dev AIエージェントを実装するエンジニアであっても、llama-githubは簡単かつ効率的に利用できます。
-
-このプロジェクトが気に入ったり、可能性を感じた場合は、ぜひ⭐️を付けてください。皆さまのサポートが私たちの最大のモチベーションです！
+Llama-githubは、Agentic RAGに基づいて、GitHubから最も関連性の高いコードスニペット、イシュー、リポジトリ情報をクエリに基づいて取得し、それらを価値ある知識コンテキストに変換する強力なツールです。LLMチャットボット、AIエージェント、Auto-devエージェントに複雑なコーディングタスクの解決を支援します。開発者が素早く解決策を探す場合や、高度なAuto Dev AIエージェントを導入する技術者にも、llama-githubは簡単かつ効率的に利用できます。
+このプロジェクトが気に入った場合や可能性を感じた場合は、ぜひ⭐️を付けてください。あなたのサポートが私たちの最大の原動力です！
 
 ## アーキテクチャ
-![High Level Architecture](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)
+![ハイレベルアーキテクチャ](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)
 
 ## インストール
+
 ```
 pip install llama-github
 ```
 
+現在の維持されている実行対象: Python `3.10+`。
+
 ## 使用方法
 
-ここでは、llama-githubの簡単な使用例を示します:
+llama-githubの使用方法の簡単な例を以下に示します:
 
 ```python
 from llama_github import GithubRAG
@@ -66,77 +67,81 @@ github_rag = GithubRAG(
 
 # Retrieve context for a coding question (simple_mode is default set to False)
 query = "How to create a NumPy array in Python?"
-context = github_rag.retrieve_context(
-    query, # In professional mode, one query will take nearly 1 min to generate final contexts. You could set log level to INFO to monitor the retrieval progress
+contexts = github_rag.retrieve_context(
+    query,
     # simple_mode = True
 )
 
-print(context)
+print(contexts[0]["url"])
+print(contexts[0]["context"])
 ```
-より高度な使用例や詳細については、[ドキュメント](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md)をご参照ください。
+`retrieve_context()` はコンテキスト辞書のリストを返します。各アイテムには少なくとも `context` と `url` が含まれます。
+
+より高度な使い方や例については、[ドキュメント](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md) を参照してください。実行可能で低コストな例は [`examples/`](examples) にも用意されています。
 
 ## 主な特徴
 
-- **🔍 インテリジェントなGitHub検索**：ユーザーのクエリに基づき、llama-githubの力を活用してGitHubから関連性の高いコードスニペット、イシュー、リポジトリ情報を取得します。高度な検索技術により、最も適切な情報を迅速かつ効率的に見つけ出します。
+- **🔍 インテリジェントなGitHub検索**：llama-githubの力を活用し、ユーザーのクエリに基づいてGitHubから高い関連性を持つコードスニペット、イシュー、リポジトリ情報を取得できます。高度な検索技術により、最も適切な情報を迅速かつ効率的に見つけられます。
 
-- **⚡ リポジトリプールキャッシュ**：llama-githubは革新的なリポジトリプールキャッシュ機構を備えています。スレッド間でリポジトリ（README、構造、コード、イシューを含む）をキャッシュすることで、GitHub検索の取得効率を大幅に向上させ、GitHub APIトークンの消費を最小限に抑えます。マルチスレッドの本番環境に自信を持って導入でき、最適なパフォーマンスと貴重なリソースの節約を実現します。
+- **⚡ リポジトリプールキャッシュ**：llama-githubは革新的なリポジトリプールキャッシュ機構を備えています。スレッド間でリポジトリ（README、構造、コード、イシューを含む）をキャッシュすることで、GitHub検索の効率を大幅に向上させ、GitHub APIトークンの消費も最小限に抑えます。
 
-- **🧠 LLMによる質問分析**：最先端の言語モデルを活用してユーザーの質問を分析し、高精度な検索戦略と基準を生成します。llama-githubは複雑なクエリを賢く分解し、GitHubの膨大なリポジトリネットワークから最も関連性の高い情報を取得します。
+- **🧠 LLM駆動の質問解析**：最先端の言語モデルを活用し、ユーザーの質問を分析して非常に効果的な検索戦略と基準を生成します。llama-githubは複雑なクエリを知的に分解し、GitHubの広大なリポジトリネットワークから最も関連性の高い情報を引き出します。
 
-- **📚 包括的なコンテキスト生成**：GitHubから取得した情報と高度な言語モデルの推論能力をシームレスに組み合わせ、豊かで文脈に即した回答を生成します。llama-githubは複雑で長大な質問にも優れて対応し、開発ニーズを支援する広範なコンテキストを含む包括的で洞察に満ちた応答を提供します。
+- **📚 包括的なコンテキスト生成**：GitHubから取得した情報と高度な言語モデルの推論能力をシームレスに組み合わせることで、豊富でコンテキストに適した回答を生成します。llama-githubは、最も複雑で長大な質問にも対応し、開発ニーズを支える広範なコンテキストを含む包括的かつ洞察に富んだ応答を提供します。
 
-- **🚀 非同期処理の優位性**：llama-githubは非同期プログラミングの潜在能力を最大限に活用するように設計されています。コードベース全体に緻密に実装された非同期メカニズムにより、複数のリクエストを同時に処理でき、全体のパフォーマンスを大幅に向上させます。llama-githubが高速かつ高品質を損なうことなく大量のワークロードを効率的に管理する違いを体験してください。
+- **🚀 非同期処理の卓越性**：llama-githubは、非同期プログラミングの潜在能力を最大限に活用するよう設計されています。コードベース全体に緻密に実装された非同期メカニズムにより、複数リクエストを同時に処理し、全体的なパフォーマンスを大幅に向上させます。
 
-- **🔧 柔軟なLLM統合**：さまざまなLLMプロバイダー、埋め込みモデル、再ランキングモデルと容易に統合し、ライブラリの機能を特定の要件に合わせて調整できます。拡張可能なアーキテクチャにより、llama-githubの機能をカスタマイズおよび強化し、独自の開発環境にシームレスに適応させることが可能です。
+- **🔧 柔軟なLLM統合**：llama-githubは様々なLLMプロバイダ、埋め込みモデル、リランキングモデル、またはLangChain互換のチャットモデルとの統合を簡単に行え、ライブラリの機能を特定の要件に合わせてカスタマイズできます。
 
-- **🔒 強固な認証オプション**：llama-githubは個人アクセストークンとGitHub App認証の両方をサポートし、さまざまな開発環境に柔軟に統合できます。個人開発者でも組織内でも、安全で信頼性の高い認証メカニズムを提供します。
+- **🔒 強力な認証オプション**：llama-githubはパーソナルアクセストークンとGitHub App認証の両方をサポートし、さまざまな開発環境への統合が可能です。個人開発者でも組織環境でも、llama-githubは安全で信頼性の高い認証機構を提供します。
 
-- **🛠️ ロギングとエラーハンドリング**：スムーズな運用と容易なトラブルシューティングの重要性を理解しています。llama-githubには包括的なロギングとエラーハンドリング機構が備わっており、ライブラリの挙動を深く把握し、問題を迅速に診断し、安定した信頼性の高い開発ワークフローを維持できます。
+- **🛠️ ロギングとエラーハンドリング**：スムーズな運用と容易なトラブルシューティングの重要性を理解しています。そのため、llama-githubには包括的なロギングとエラーハンドリング機構が備わっています。ライブラリの挙動を詳細に把握し、問題を迅速に特定して、安定かつ信頼性の高い開発ワークフローを維持できます。
 
-## 🤖 AI搭載のPRレビューアシスタント「LlamaPReview」をお試しください
+## 🤖 AI搭載PRレビューアシスタント「LlamaPReview」をお試しください
 
-llama-githubがお役に立てる場合、AI搭載のGitHub PRレビューアシスタント「LlamaPReview」もご検討ください。開発ワークフローを補完し、コード品質をさらに向上させることを目的としています。
+llama-githubが役立つと感じた方には、AI駆動のGitHub PRレビューアシスタント「LlamaPReview」もおすすめします。開発ワークフローを補完し、さらなるコード品質向上を実現します。
 
 ### LlamaPReviewの主な特徴：
-- 🚀 ワンクリックインストール、設定不要で完全自動実行
-- 💯 現在無料で使用可能 - クレジットカードや支払い情報は不要
-- 🧠 AI搭載で深いコード理解による自動PRレビュー
-- 🌐 複数プログラミング言語に対応
+- 🚀 ワンクリックでインストール、設定不要、完全自動実行
+- 💯 現在無料で利用可能 - クレジットカードや支払い情報不要
+- 🧠 AI搭載で自動的にPRを深く理解しレビュー
+- 🌐 複数のプログラミング言語に対応
 
-**LlamaPReviewはllama-githubの高度なコンテキスト取得とLLMによる分析を活用し**、インテリジェントで文脈を考慮したコードレビューを提供します。リポジトリの全コンテキストを備えたシニア開発者がすべてのPRを自動的にレビューしてくれるかのようです！
+**LlamaPReviewはllama-githubの高度なコンテキスト取得とLLM解析を活用**し、インテリジェントかつコンテキスト認識型のコードレビューを提供します。まるでリポジトリの全コンテキストを把握したシニア開発者が、すべてのPRを自動でレビューしてくれるような体験です！
 
 👉 [今すぐLlamaPReviewをインストール](https://github.com/marketplace/llamapreview/)（無料）
 
-llama-githubによるコンテキスト取得とLlamaPReviewによるコードレビューの組み合わせで、強力なAI強化開発環境を構築できます。
+llama-githubでコンテキストを取得し、LlamaPReviewでコードレビューを行うことで、AIによる強力な開発環境を構築できます。
 
 ## ビジョンとロードマップ
 
+
 ### ビジョン
 
-私たちのビジョンは、AI駆動の開発ソリューションの未来において重要なモジュールとなり、GitHubとシームレスに統合してLLMが複雑なコーディング課題を自動的に解決できるようにすることです。
+私たちのビジョンは、AI駆動の開発ソリューションの未来において重要なモジュールとなり、GitHubとシームレスに統合して、LLMが複雑なコーディングタスクを自動的に解決できるよう支援することです。
 
-![Vision Architecture](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)
+![ビジョンアーキテクチャ](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)
 
 ### ロードマップ
 
-プロジェクトの詳細なロードマップは、[プロジェクトロードマップ](https://github.com/users/JetXu-LLM/projects/2)をご覧ください。
+初期のロードマップの履歴については、[ビジョンとロードマップ](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/VISION_AND_ROADMAP.md)をご覧ください。
 
 ## 謝辞
 
-次のオープンソースプロジェクトに感謝の意を表します。彼らの支援と貢献により、llama-githubの開発が可能となりました。
+以下のオープンソースプロジェクトのサポートと貢献に深く感謝いたします。
 
-- **[LangChain](https://github.com/langchain-ai/langchain)**：llama-githubのLLMプロンプトおよび処理機能を支える基盤フレームワークを提供。
-- **[Jina.ai](https://github.com/jina-ai/reader)**：s.jina.ai APIおよびオープンソースの再ランキングモデルと埋め込みモデルを提供し、llama-githubの生成コンテキストの精度と関連性を向上。
+- **[LangChain](https://github.com/langchain-ai/langchain)**: llama-githubのLLMプロンプトおよび処理機能を強化する基盤フレームワークの提供に感謝します。
+- **[Jina.ai](https://github.com/jina-ai/reader)**: s.jina.ai APIおよびオープンソースのリランカー・埋め込みモデルの提供によって、llama-githubで生成されるコンテキストの精度と関連性を向上させていただきました。
 
-彼らの貢献はllama-githubの開発に不可欠であり、より革新的なソリューションを探している方にはぜひ彼らのプロジェクトをチェックすることをお勧めします。
+これらの貢献はllama-githubの開発に不可欠であり、より革新的なソリューションを求める方はぜひ各プロジェクトをご覧ください。
 
-## 貢献について
+## コントリビューション
 
-llama-githubへの貢献を歓迎します！詳細は[貢献ガイドライン](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md)をご覧ください。
+llama-githubへのご貢献を歓迎します！詳細については、[貢献ガイドライン](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md)をご覧ください。
 
 ## ライセンス
 
-本プロジェクトはApache 2.0ライセンスの下で提供されています。詳細は[LICENSE](LICENSE)ファイルをご覧ください。
+本プロジェクトはApache 2.0ライセンスの条件の下で提供されています。詳細は[LICENSE](LICENSE)ファイルをご参照ください。
 
 ## お問い合わせ
 
@@ -144,12 +149,11 @@ llama-githubへの貢献を歓迎します！詳細は[貢献ガイドライン]
 
 ---
 
-llama-githubをお選びいただきありがとうございます！このライブラリが皆様のAI開発体験を向上させ、強力なアプリケーション構築の助けとなることを願っています。
-
+llama-githubをお選びいただきありがとうございます！このライブラリがAI開発体験を向上させ、強力なアプリケーションの構築に役立つことを願っています。
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-28
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-26
 
 ---

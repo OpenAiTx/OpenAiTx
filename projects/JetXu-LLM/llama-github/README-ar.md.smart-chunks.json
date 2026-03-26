@@ -1,307 +1,314 @@
 [
   {
     "Id": 1,
-    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# llama-github\n\n[Detail Document] https://deepwiki.com/JetXu-LLM/llama-github\n\n[![PyPI version](https://badge.fury.io/py/llama-github.svg)](https://badge.fury.io/py/llama-github)\n[![Downloads](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)\n[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n\nLlama-github is a powerful tool that helps you retrieve(based on Agentic RAG) the most relevant code snippets, issues, and repository information from GitHub based on your queries, transforming them into valuable knowledge context. It empowers LLM Chatbots, AI Agents, and Auto-dev Agents to solve complex coding tasks. Whether you're a developer looking for quick solutions or an engineer implementing advanced Auto Dev AI Agents, llama-github makes it easy and efficient.\n\nIf you like this project or believe it has potential, please give it a ⭐️. Your support is our greatest motivation!\n\n## Architecture\n![High Level Architecture](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)\n\n## Installation",
-    "ContentSha": "luGjPJ0t2eUH+w8RDBgGqCVyQiIo+mel0icgkq5phQc=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# llama-github\n\n[Detail Document] https://deepwiki.com/JetXu-LLM/llama-github\n\n[![PyPI version](https://badge.fury.io/py/llama-github.svg)](https://badge.fury.io/py/llama-github)\n[![Downloads](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)\n[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n\nLlama-github is a powerful tool that helps you retrieve(based on Agentic RAG) the most relevant code snippets, issues, and repository information from GitHub based on your queries, transforming them into valuable knowledge context. It empowers LLM Chatbots, AI Agents, and Auto-dev Agents to solve complex coding tasks. Whether you're a developer looking for quick solutions or an engineer implementing advanced Auto Dev AI Agents, llama-github makes it easy and efficient.",
+    "ContentSha": "SUqTmI7kzWfD0sv+NTdYM1zf6F6T8G3uWAtSrzcBqAw=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 اللغة</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# llama-github\n\n[وثيقة مفصلة] https://deepwiki.com/JetXu-LLM/llama-github\n\n[![إصدار PyPI](https://badge.fury.io/py/llama-github.svg)](https://badge.fury.io/py/llama-github)\n[![عدد التحميلات](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)\n[![الرخصة](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n\nLlama-github هو أداة قوية تساعدك على استرجاع (استنادًا إلى Agentic RAG) أكثر أجزاء الشيفرة والمواضيع ومعلومات المستودع صلة من GitHub استنادًا إلى استفساراتك، وتحويلها إلى سياق معرفي قيم. تمكن روبوتات الدردشة LLM، ووكلاء الذكاء الاصطناعي، ووكلاء التطوير التلقائي من حل المهام البرمجية المعقدة. سواء كنت مطورًا تبحث عن حلول سريعة أو مهندسًا يطبق وكلاء الذكاء الاصطناعي المتقدمين للتطوير التلقائي، فإن llama-github يجعل الأمر سهلاً وفعالاً.\n\nإذا أعجبك هذا المشروع أو تعتقد أنه ذو إمكانيات، يرجى منحه ⭐️. دعمك هو أعظم دافع لنا!\n\n## البنية المعمارية\n![البنية المعمارية عالية المستوى](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)\n\n## التثبيت",
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 اللغة</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# لاما-جيت هب\n\n[وثيقة التفاصيل] https://deepwiki.com/JetXu-LLM/llama-github\n\n[![إصدار PyPI](https://badge.fury.io/py/llama-github.svg)](https://badge.fury.io/py/llama-github)\n[![عدد التحميلات](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)\n[![الرخصة](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n\nلاما-جيت هب هو أداة قوية تساعدك على استرجاع (استنادًا إلى Agentic RAG) أكثر مقتطفات الشيفرة، والمشكلات، ومعلومات المستودع صلة من GitHub بناءً على استفساراتك، وتحويلها إلى سياق معرفي قيم. تمكّن روبوتات الدردشة LLM، ووكلاء الذكاء الاصطناعي، ووكلاء التطوير الذاتي من حل مهام البرمجة المعقدة. سواء كنت مطورًا تبحث عن حلول سريعة أو مهندسًا يقوم بتنفيذ وكلاء الذكاء الاصطناعي المتقدمين Auto Dev، يجعل لاما-جيت هب الأمر سهلاً وفعالاً.\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": ""
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 2,
         "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
         "originContent": "<div align=\"right\">",
-        "translatedContent": "<div align=\"right\">"
+        "translatedContent": "  <details>"
       },
       {
         "row": 3,
         "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
         "originContent": "  <details>",
-        "translatedContent": "  <details>"
+        "translatedContent": "    <summary >🌐 اللغة</summary>"
       },
       {
         "row": 4,
         "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
         "originContent": "    <summary >🌐 Language</summary>",
-        "translatedContent": "    <summary >🌐 اللغة</summary>"
+        "translatedContent": "    <div>"
       },
       {
         "row": 5,
         "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
         "originContent": "    <div>",
-        "translatedContent": "    <div>"
+        "translatedContent": "      <div align=\"center\">"
       },
       {
         "row": 6,
         "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
         "originContent": "      <div align=\"center\">",
-        "translatedContent": "      <div align=\"center\">"
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=en\">English</a>"
       },
       {
         "row": 7,
         "rowsha": "HkJ4Gkepsmtc5YEEOiqUG3+NzfI0rf4IVUDgqFAmscs=",
         "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=en\">English</a>",
-        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=en\">English</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-CN\">简体中文</a>"
       },
       {
         "row": 8,
         "rowsha": "SS8k2BQkHAHxyWP2X90nPl4mRZWm3fwXGqGF7mjnz18=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-CN\">简体中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-CN\">简体中文</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-TW\">繁體中文</a>"
       },
       {
         "row": 9,
         "rowsha": "VrMYTJ2mzoZzeIKdl57fntnJgzWRQqxW+Hh05WTobsc=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-TW\">繁體中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-TW\">繁體中文</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ja\">日本語</a>"
       },
       {
         "row": 10,
         "rowsha": "c+DqTRbRnir4FoupjpEksFzVENBVWRYltmlpDbwQZmM=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ja\">日本語</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ja\">日本語</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ko\">한국어</a>"
       },
       {
         "row": 11,
         "rowsha": "Tm7I5B+gkMpCeJ3LR+BslLE5wbSUneyFmLReBj+Kuws=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ko\">한국어</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ko\">한국어</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=hi\">हिन्दी</a>"
       },
       {
         "row": 12,
         "rowsha": "wfZ0J7KdM7EX/cxK3wFAeE2ngExW4GfEYqHcAGlGx0w=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=hi\">हिन्दी</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=hi\">हिन्दी</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=th\">ไทย</a>"
       },
       {
         "row": 13,
         "rowsha": "y2QtQCnUvpYYte3U998DjX4FmVJMdwyXZ6wpYmbQkLE=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=th\">ไทย</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=th\">ไทย</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fr\">Français</a>"
       },
       {
         "row": 14,
         "rowsha": "zIupl7qEGAUFd0PjTxnqfYLAOYVxukVObZ2TvLzJhFI=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fr\">Français</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fr\">Français</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=de\">Deutsch</a>"
       },
       {
         "row": 15,
         "rowsha": "NeTDxlUu1SaaYA+ZU+IrCgYKslSqZUFfuhtr46HJnA0=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=de\">Deutsch</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=de\">Deutsch</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=es\">Español</a>"
       },
       {
         "row": 16,
         "rowsha": "0ltGddRJZJCJAdD4E6lPYrnG+o9jxtvzFgZ6J422BVM=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=es\">Español</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=es\">Español</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=it\">Italiano</a>"
       },
       {
         "row": 17,
         "rowsha": "bzUdBLPtDNoKHOYQKJtE2KKD9trvdid+RiSJUXJ06jY=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=it\">Italiano</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=it\">Italiano</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ru\">Русский</a>"
       },
       {
         "row": 18,
         "rowsha": "0pozScPeqLIHLCyJkRlRQjDqqKb8HWwWqCv6uaxalEY=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ru\">Русский</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ru\">Русский</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pt\">Português</a>"
       },
       {
         "row": 19,
         "rowsha": "ACT6kxJUtjo44NDX/ea/HxspYPgjmIuENrgcnxQYNEc=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pt\">Português</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pt\">Português</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=nl\">Nederlands</a>"
       },
       {
         "row": 20,
         "rowsha": "P5r7piMIRIzTPNX8NrKqGo+P1glz8ZRuJCLyQL24/LA=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=nl\">Nederlands</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=nl\">Nederlands</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pl\">Polski</a>"
       },
       {
         "row": 21,
         "rowsha": "ZGMoXno6QdwcE1MCQ6a+39T9cMR9m1YyVj19nEOHOR8=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pl\">Polski</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pl\">Polski</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ar\">العربية</a>"
       },
       {
         "row": 22,
         "rowsha": "VKZ+5aGayrqfPfJYP0j0/ap6ocirm1axw5vVvu7xsEE=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ar\">العربية</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ar\">العربية</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fa\">فارسی</a>"
       },
       {
         "row": 23,
         "rowsha": "CWIbKiayiPOGqPcuulT54J/JKB9czskFXkMCgTgHrZs=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fa\">فارسی</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fa\">فارسی</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=tr\">Türkçe</a>"
       },
       {
         "row": 24,
         "rowsha": "I1WcwpKhgv19NGCtlw+KLX03QSTLreFKCC9Ta0pFqIs=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=tr\">Türkçe</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=tr\">Türkçe</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=vi\">Tiếng Việt</a>"
       },
       {
         "row": 25,
         "rowsha": "gIl9QJ2GwM0yfNYEXpcS2/xbtyKJbynqn4H4tnOyU2c=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=vi\">Tiếng Việt</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=vi\">Tiếng Việt</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=id\">Bahasa Indonesia</a>"
       },
       {
         "row": 26,
         "rowsha": "sMhilkGyfjhl6TXDHf4CKYnKDjhJR8fFg2lWQtaLDKc=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=id\">Bahasa Indonesia</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=id\">Bahasa Indonesia</a>"
-      },
-      {
-        "row": 27,
-        "rowsha": "SFIUIQN+2TXGoifui/NZlin5QtiRQtdF5of1FBBu7Gk=",
-        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=as\">অসমীয়া</",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=as\">অসমীয়া</"
-      },
-      {
-        "row": 28,
-        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
-        "originContent": "      </div>",
         "translatedContent": "      </div>"
       },
       {
-        "row": 29,
-        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
-        "originContent": "    </div>",
+        "row": 27,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
         "translatedContent": "    </div>"
       },
       {
-        "row": 30,
-        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
-        "originContent": "  </details>",
+        "row": 28,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
         "translatedContent": "  </details>"
       },
       {
-        "row": 31,
-        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
-        "originContent": "</div>",
+        "row": 29,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
         "translatedContent": "</div>"
       },
       {
-        "row": 32,
+        "row": 30,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
+        "translatedContent": "# لاما-جيت هب"
+      },
+      {
+        "row": 32,
+        "rowsha": "cAI8B2fw5xCydddeNcosOFY2wrQw8An1lrdomk97KBc=",
+        "originContent": "# llama-github",
         "translatedContent": ""
       },
       {
         "row": 33,
-        "rowsha": "cAI8B2fw5xCydddeNcosOFY2wrQw8An1lrdomk97KBc=",
-        "originContent": "# llama-github",
-        "translatedContent": "# llama-github"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[وثيقة التفاصيل] https://deepwiki.com/JetXu-LLM/llama-github"
       },
       {
         "row": 34,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "jSTPMiMb5qDjmRYlxqDSx6zbsKYKOv4c6HQQgjbDUqo=",
+        "originContent": "[Detail Document] https://deepwiki.com/JetXu-LLM/llama-github",
         "translatedContent": ""
       },
       {
         "row": 35,
-        "rowsha": "jSTPMiMb5qDjmRYlxqDSx6zbsKYKOv4c6HQQgjbDUqo=",
-        "originContent": "[Detail Document] https://deepwiki.com/JetXu-LLM/llama-github",
-        "translatedContent": "[وثيقة مفصلة] https://deepwiki.com/JetXu-LLM/llama-github"
-      },
-      {
-        "row": 36,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 37,
-        "rowsha": "48lo1Cg6fyAcQl554s/7eKSc41UYvSn/CD6yxtLVgjY=",
-        "originContent": "[![PyPI version](https://badge.fury.io/py/llama-github.svg)](https://badge.fury.io/py/llama-github)",
         "translatedContent": "[![إصدار PyPI](https://badge.fury.io/py/llama-github.svg)](https://badge.fury.io/py/llama-github)"
       },
       {
-        "row": 38,
-        "rowsha": "VG3AfiYLkBPipFZPAt/fJt5jj8aI773UKbmI1Z/kc2M=",
-        "originContent": "[![Downloads](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)",
+        "row": 36,
+        "rowsha": "48lo1Cg6fyAcQl554s/7eKSc41UYvSn/CD6yxtLVgjY=",
+        "originContent": "[![PyPI version](https://badge.fury.io/py/llama-github.svg)](https://badge.fury.io/py/llama-github)",
         "translatedContent": "[![عدد التحميلات](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)"
       },
       {
-        "row": 39,
-        "rowsha": "U0vs77tGfFYY+r4ScaOhTOZDgt8vSKCUyj59tU13ZtE=",
-        "originContent": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+        "row": 37,
+        "rowsha": "VG3AfiYLkBPipFZPAt/fJt5jj8aI773UKbmI1Z/kc2M=",
+        "originContent": "[![Downloads](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)",
         "translatedContent": "[![الرخصة](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
       },
       {
-        "row": 40,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "row": 38,
+        "rowsha": "U0vs77tGfFYY+r4ScaOhTOZDgt8vSKCUyj59tU13ZtE=",
+        "originContent": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
         "translatedContent": ""
       },
       {
-        "row": 41,
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "لاما-جيت هب هو أداة قوية تساعدك على استرجاع (استنادًا إلى Agentic RAG) أكثر مقتطفات الشيفرة، والمشكلات، ومعلومات المستودع صلة من GitHub بناءً على استفساراتك، وتحويلها إلى سياق معرفي قيم. تمكّن روبوتات الدردشة LLM، ووكلاء الذكاء الاصطناعي، ووكلاء التطوير الذاتي من حل مهام البرمجة المعقدة. سواء كنت مطورًا تبحث عن حلول سريعة أو مهندسًا يقوم بتنفيذ وكلاء الذكاء الاصطناعي المتقدمين Auto Dev، يجعل لاما-جيت هب الأمر سهلاً وفعالاً."
+      },
+      {
+        "row": 40,
         "rowsha": "y7xsY1R0s8pmwDQukNS2PQ5JqK6CRs8AwuPrZkBKiT8=",
         "originContent": "Llama-github is a powerful tool that helps you retrieve(based on Agentic RAG) the most relevant code snippets, issues, and repository information from GitHub based on your queries, transforming them into valuable knowledge context. It empowers LLM Chatbots, AI Agents, and Auto-dev Agents to solve complex coding tasks. Whether you're a developer looking for quick solutions or an engineer implementing advanced Auto Dev AI Agents, llama-github makes it easy and efficient.",
-        "translatedContent": "Llama-github هو أداة قوية تساعدك على استرجاع (استنادًا إلى Agentic RAG) أكثر أجزاء الشيفرة والمواضيع ومعلومات المستودع صلة من GitHub استنادًا إلى استفساراتك، وتحويلها إلى سياق معرفي قيم. تمكن روبوتات الدردشة LLM، ووكلاء الذكاء الاصطناعي، ووكلاء التطوير التلقائي من حل المهام البرمجية المعقدة. سواء كنت مطورًا تبحث عن حلول سريعة أو مهندسًا يطبق وكلاء الذكاء الاصطناعي المتقدمين للتطوير التلقائي، فإن llama-github يجعل الأمر سهلاً وفعالاً."
-      },
-      {
-        "row": 42,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
         "translatedContent": ""
-      },
-      {
-        "row": 43,
-        "rowsha": "6h9r25r7afHOT0YHlaj7xv1WU2JfjWqSqLUM7UgJNfQ=",
-        "originContent": "If you like this project or believe it has potential, please give it a ⭐️. Your support is our greatest motivation!",
-        "translatedContent": "إذا أعجبك هذا المشروع أو تعتقد أنه ذو إمكانيات، يرجى منحه ⭐️. دعمك هو أعظم دافع لنا!"
-      },
-      {
-        "row": 44,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 45,
-        "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
-        "originContent": "## Architecture",
-        "translatedContent": "## البنية المعمارية"
-      },
-      {
-        "row": 46,
-        "rowsha": "TiSukfY/+ter5MJ39DMtNdHlqRXwhZFkP3uTdAfvA0c=",
-        "originContent": "![High Level Architecture](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)",
-        "translatedContent": "![البنية المعمارية عالية المستوى](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)"
-      },
-      {
-        "row": 47,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 48,
-        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
-        "originContent": "## Installation",
-        "translatedContent": "## التثبيت"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
+    "Content": "\nIf you like this project or believe it has potential, please give it a ⭐️. Your support is our greatest motivation!\n\n## Architecture\n![High Level Architecture](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)\n\n## Installation",
+    "ContentSha": "XxFGQElRpNYk/dRCbH+xi8GGcpmNALfZjgeh4KcjeIE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "إذا أعجبك هذا المشروع أو تعتقد أنه ذو إمكانات، يرجى منحه نجمة ⭐️. دعمك هو أكبر دافع لنا!\n\n## البنية المعمارية\n![البنية المعمارية عالية المستوى](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)\n\n## التثبيت\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "إذا أعجبك هذا المشروع أو تعتقد أنه ذو إمكانات، يرجى منحه نجمة ⭐️. دعمك هو أكبر دافع لنا!"
+      },
+      {
+        "row": 2,
+        "rowsha": "6h9r25r7afHOT0YHlaj7xv1WU2JfjWqSqLUM7UgJNfQ=",
+        "originContent": "If you like this project or believe it has potential, please give it a ⭐️. Your support is our greatest motivation!",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## البنية المعمارية"
+      },
+      {
+        "row": 4,
+        "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+        "originContent": "## Architecture",
+        "translatedContent": "![البنية المعمارية عالية المستوى](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)"
+      },
+      {
+        "row": 5,
+        "rowsha": "TiSukfY/+ter5MJ39DMtNdHlqRXwhZFkP3uTdAfvA0c=",
+        "originContent": "![High Level Architecture](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## التثبيت"
+      },
+      {
+        "row": 7,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
     "Content": "```\npip install llama-github\n```",
     "ContentSha": "A7Ioj19mKQ2poo2/SNNEl/PUNM9x+13/7/ncgppdcgY=",
     "SectionType": "",
@@ -309,36 +316,17 @@
     "EndLine": 0,
     "Translation": "```\npip install llama-github\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "HUzQ8Fuh/Wg8Hu8KR8bezJLbFVpPKMpf5Pa7xDY6vYM=",
-        "originContent": "pip install llama-github",
-        "translatedContent": "pip install llama-github"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 3,
-    "Content": "\n## Usage\n\nHere's a simple example of how to use llama-github:\n",
-    "ContentSha": "oqzkRVGHtTMxKJniKYy+bJRBu/B3l8AYVVo5suNCmR4=",
+    "Id": 4,
+    "Content": "\nCurrent maintained runtime target: Python `3.10+`.\n\n## Usage\n\nHere's a simple example of how to use llama-github:\n",
+    "ContentSha": "c0HKBgiDCfw0YlLcs1ya5maWcJLWoHczL4Nt6kuN6lc=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "\n## الاستخدام\n\nإليك مثال بسيط عن كيفية استخدام llama-github:\n",
+    "Translation": "\nهدف التشغيل الحالي المدعوم: بايثون `3.10+`.\n\n## الاستخدام\n\nإليك مثال بسيط لكيفية استخدام llama-github:\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -349,9 +337,9 @@
       },
       {
         "row": 2,
-        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
-        "originContent": "## Usage",
-        "translatedContent": "## الاستخدام"
+        "rowsha": "im6csbfN6eKU45gjvKgz2nXJD5EvFTPuC0E0m2AuYtc=",
+        "originContent": "Current maintained runtime target: Python `3.10+`.",
+        "translatedContent": "هدف التشغيل الحالي المدعوم: بايثون `3.10+`."
       },
       {
         "row": 3,
@@ -361,12 +349,24 @@
       },
       {
         "row": 4,
-        "rowsha": "4zRpXijfFggW+Fd/VZ8qaLkuJwnjePE96Hy1hPxOIRE=",
-        "originContent": "Here's a simple example of how to use llama-github:",
-        "translatedContent": "إليك مثال بسيط عن كيفية استخدام llama-github:"
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## الاستخدام"
       },
       {
         "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "4zRpXijfFggW+Fd/VZ8qaLkuJwnjePE96Hy1hPxOIRE=",
+        "originContent": "Here's a simple example of how to use llama-github:",
+        "translatedContent": "إليك مثال بسيط لكيفية استخدام llama-github:"
+      },
+      {
+        "row": 7,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -375,13 +375,13 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 4,
-    "Content": "```python\nfrom llama_github import GithubRAG\n\n# Initialize GithubRAG with your credentials\ngithub_rag = GithubRAG(\n    github_access_token=\"your_github_access_token\", \n    openai_api_key=\"your_openai_api_key\", # Optional in Simple Mode\n    jina_api_key=\"your_jina_api_key\" # Optional - unless you want high concurrency production deployment (s.jina.ai API will be used in llama-github)\n)\n\n# Retrieve context for a coding question (simple_mode is default set to False)\nquery = \"How to create a NumPy array in Python?\"\ncontext = github_rag.retrieve_context(\n    query, # In professional mode, one query will take nearly 1 min to generate final contexts. You could set log level to INFO to monitor the retrieval progress\n    # simple_mode = True\n)\n\nprint(context)\n```",
-    "ContentSha": "HXBtstD3V5wfKLk68/A2T/KFqRB/TtW5s0tq89CzhFU=",
+    "Id": 5,
+    "Content": "```python\nfrom llama_github import GithubRAG\n\n# Initialize GithubRAG with your credentials\ngithub_rag = GithubRAG(\n    github_access_token=\"your_github_access_token\", \n    openai_api_key=\"your_openai_api_key\", # Optional in Simple Mode\n    jina_api_key=\"your_jina_api_key\" # Optional - unless you want high concurrency production deployment (s.jina.ai API will be used in llama-github)\n)\n\n# Retrieve context for a coding question (simple_mode is default set to False)\nquery = \"How to create a NumPy array in Python?\"\ncontexts = github_rag.retrieve_context(\n    query,\n    # simple_mode = True\n)\n\nprint(contexts[0][\"url\"])\nprint(contexts[0][\"context\"])\n```",
+    "ContentSha": "qguRwKPIabUCcLgaHIbKTxlOKChXZvyvRu3COZy5WWo=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```python\nfrom llama_github import GithubRAG\n\n# Initialize GithubRAG with your credentials\ngithub_rag = GithubRAG(\n    github_access_token=\"your_github_access_token\", \n    openai_api_key=\"your_openai_api_key\", # Optional in Simple Mode\n    jina_api_key=\"your_jina_api_key\" # Optional - unless you want high concurrency production deployment (s.jina.ai API will be used in llama-github)\n)\n\n# Retrieve context for a coding question (simple_mode is default set to False)\nquery = \"How to create a NumPy array in Python?\"\ncontext = github_rag.retrieve_context(\n    query, # In professional mode, one query will take nearly 1 min to generate final contexts. You could set log level to INFO to monitor the retrieval progress\n    # simple_mode = True\n)\n\nprint(context)\n```",
+    "Translation": "```python\nfrom llama_github import GithubRAG\n\n# Initialize GithubRAG with your credentials\ngithub_rag = GithubRAG(\n    github_access_token=\"your_github_access_token\", \n    openai_api_key=\"your_openai_api_key\", # Optional in Simple Mode\n    jina_api_key=\"your_jina_api_key\" # Optional - unless you want high concurrency production deployment (s.jina.ai API will be used in llama-github)\n)\n\n# Retrieve context for a coding question (simple_mode is default set to False)\nquery = \"How to create a NumPy array in Python?\"\ncontexts = github_rag.retrieve_context(\n    query,\n    # simple_mode = True\n)\n\nprint(contexts[0][\"url\"])\nprint(contexts[0][\"context\"])\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -458,15 +458,15 @@
       },
       {
         "row": 13,
-        "rowsha": "tMIfL+j+gxN0VAT5YvCwzTJ6i5aIIY3fcw3LxJWoTrQ=",
-        "originContent": "context = github_rag.retrieve_context(",
-        "translatedContent": "context = github_rag.retrieve_context("
+        "rowsha": "z4wtKK3v80u7pfHIQ75P9OwHLCEXNcSMEcE87DoqLiI=",
+        "originContent": "contexts = github_rag.retrieve_context(",
+        "translatedContent": "contexts = github_rag.retrieve_context("
       },
       {
         "row": 14,
-        "rowsha": "Q1vTmUoyeud2ZNyE6iVCY7OriQi61Wg6NLrSyM9pVLE=",
-        "originContent": "    query, # In professional mode, one query will take nearly 1 min to generate final contexts. You could set log level to INFO to monitor the retrieval progress",
-        "translatedContent": "    query, # In professional mode, one query will take nearly 1 min to generate final contexts. You could set log level to INFO to monitor the retrieval progress"
+        "rowsha": "ZRLGz3tSjE0Vpa9L/apJIX6e19aTOtdrAzDBPtK2qmg=",
+        "originContent": "    query,",
+        "translatedContent": "    query,"
       },
       {
         "row": 15,
@@ -488,12 +488,18 @@
       },
       {
         "row": 18,
-        "rowsha": "ZZEcMA2fivnNWsWr7Vg5FUhhpwQQJ/ThJU+S148t13E=",
-        "originContent": "print(context)",
-        "translatedContent": "print(context)"
+        "rowsha": "5ojbFjQhiJh3muNG5GtpSb2lrmH3cITiYs+Mef5qTlQ=",
+        "originContent": "print(contexts[0][\"url\"])",
+        "translatedContent": "print(contexts[0][\"url\"])"
       },
       {
         "row": 19,
+        "rowsha": "x2ewpZ71N2NfDRzeJn86xL5DbYgbBZdQACd8eEX6HqA=",
+        "originContent": "print(contexts[0][\"context\"])",
+        "translatedContent": "print(contexts[0][\"context\"])"
+      },
+      {
+        "row": 20,
         "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
         "originContent": "```",
         "translatedContent": "```"
@@ -502,13 +508,266 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 5,
-    "Content": "\nFor more advanced usage and examples, please refer to the [documentation](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md).\n\n## Key Features\n\n- **🔍 Intelligent GitHub Retrieval**: Harness the power of llama-github to retrieve highly relevant code snippets, issues, and repository information from GitHub based on user queries. Our advanced retrieval techniques ensure you find the most pertinent information quickly and efficiently.\n\n- **⚡ Repository Pool Caching**: Llama-github has an innovative repository pool caching mechanism. By caching repositories (including READMEs, structures, code, and issues) across threads, llama-github significantly accelerates GitHub search retrieval efficiency and minimizes the consumption of GitHub API tokens. Deploy llama-github in multi-threaded production environments with confidence, knowing that it will perform optimally and save you valuable resources.\n\n- **🧠 LLM-Powered Question Analysis**: Leverage state-of-the-art language models to analyze user questions and generate highly effective search strategies and criteria. Llama-github intelligently breaks down complex queries, ensuring that you retrieve the most relevant information from GitHub's vast repository network.\n\n- **📚 Comprehensive Context Generation**: Generate rich, contextually relevant answers by seamlessly combining information retrieved from GitHub with the reasoning capabilities of advanced language models. Llama-github excels at handling even the most complex and lengthy questions, providing comprehensive and insightful responses that include extensive context to support your development needs.\n\n- **🚀 Asynchronous Processing Excellence**: Llama-github is built from the ground up to leverage the full potential of asynchronous programming. With meticulously implemented asynchronous mechanisms woven throughout the codebase, llama-github can handle multiple requests concurrently, significantly boosting overall performance. Experience the difference as llama-github efficiently manages high-volume workloads without compromising on speed or quality.\n\n- **🔧 Flexible LLM Integration**: Easily integrate llama-github with various LLM providers, embedding models, and reranking models to tailor the library's capabilities to your specific requirements. Our extensible architecture allows you to customize and enhance llama-github's functionality, ensuring that it adapts seamlessly to your unique development environment.\n\n- **🔒 Robust Authentication Options**: Llama-github supports both personal access tokens and GitHub App authentication, providing you with the flexibility to integrate it into different development setups. Whether you're an individual developer or working within an organizational context, llama-github has you covered with secure and reliable authentication mechanisms.\n\n- **🛠️ Logging and Error Handling**: We understand the importance of smooth operations and easy troubleshooting. That's why llama-github comes equipped with comprehensive logging and error handling mechanisms. Gain deep insights into the library's behavior, quickly diagnose issues, and maintain a stable and reliable development workflow.\n\n## 🤖 Try Our AI-Powered PR Review Assistant: LlamaPReview\n\nIf you find llama-github useful, you might also be interested in our AI-powered GitHub PR review assistant, LlamaPReview. It's designed to complement your development workflow and further enhance code quality.\n\n### Key Features of LlamaPReview:\n- 🚀 One-click installation, zero configuration required, fully auto-run\n- 💯 Currently free to use - no credit card or payment info needed\n- 🧠 AI-powered, automatic PR reviews with deep code understanding\n- 🌐 Supports multiple programming languages\n\n**LlamaPReview utilizes llama-github's advanced context retrieval and LLM-powered analysis** to provide intelligent, context-aware code reviews. It's like having a senior developer, armed with the full context of your repository, review every PR automatically!\n\n👉 [Install LlamaPReview Now](https://github.com/marketplace/llamapreview/) (Free)\n\nBy using llama-github for context retrieval and LlamaPReview for code reviews, you can create a powerful, AI-enhanced development environment.\n\n## Vision and Roadmap\n\n### Vision\n\nOur vision is to become a pivotal module in the future of AI-driven development solutions, seamlessly integrating with GitHub to empower LLMs in automatically resolving complex coding tasks.\n\n![Vision Architecture](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)\n\n### Roadmap\n\nFor a detailed view of our project roadmap, please visit our [Project Roadmap](https://github.com/users/JetXu-LLM/projects/2).\n\n## Acknowledgments\n\nWe would like to express our gratitude to the following open-source projects for their support and contributions:\n\n- **[LangChain](https://github.com/langchain-ai/langchain)**: For providing the foundational framework that empowers the LLM prompting and processing capabilities in llama-github.\n- **[Jina.ai](https://github.com/jina-ai/reader)**: For offering s.jina.ai API and open source reranker and embedding models that enhance the accuracy and relevance of the generated contexts in llama-github.\n\nTheir contributions have been instrumental in the development of llama-github, and we highly recommend checking out their projects for more innovative solutions.\n\n## Contributing\n\nWe welcome contributions to llama-github! Please see our [contributing guidelines](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md) for more information.\n\n## License\n\nThis project is licensed under the terms of the Apache 2.0 license. See the [LICENSE](LICENSE) file for more details.\n\n## Contact\n\nIf you have any questions, suggestions, or feedback, please feel free to reach out to us at [Jet Xu's email](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/mailto:Voldemort.xu@foxmail.com).\n\n---\n\nThank you for choosing llama-github! We hope this library enhances your AI development experience and helps you build powerful applications with ease.\n",
-    "ContentSha": "9uwuSakxESmyLicwqpb9te9XJtaLzK41aW7HGRKfVFM=",
+    "Id": 6,
+    "Content": "\n`retrieve_context()` returns a list of context dictionaries. Each item contains at least `context` and `url`.\n\nFor more advanced usage and examples, please refer to the [documentation](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md). Runnable low-cost examples are also available in [`examples/`](examples).\n\n## Key Features\n\n- **🔍 Intelligent GitHub Retrieval**: Harness the power of llama-github to retrieve highly relevant code snippets, issues, and repository information from GitHub based on user queries. Our advanced retrieval techniques ensure you find the most pertinent information quickly and efficiently.\n\n- **⚡ Repository Pool Caching**: Llama-github has an innovative repository pool caching mechanism. By caching repositories (including READMEs, structures, code, and issues) across threads, llama-github significantly accelerates GitHub search retrieval efficiency and minimizes the consumption of GitHub API tokens.\n\n- **🧠 LLM-Powered Question Analysis**: Leverage state-of-the-art language models to analyze user questions and generate highly effective search strategies and criteria. Llama-github intelligently breaks down complex queries, ensuring that you retrieve the most relevant information from GitHub's vast repository network.\n\n- **📚 Comprehensive Context Generation**: Generate rich, contextually relevant answers by seamlessly combining information retrieved from GitHub with the reasoning capabilities of advanced language models. Llama-github excels at handling even the most complex and lengthy questions, providing comprehensive and insightful responses that include extensive context to support your development needs.\n\n- **🚀 Asynchronous Processing Excellence**: Llama-github is built from the ground up to leverage the full potential of asynchronous programming. With meticulously implemented asynchronous mechanisms woven throughout the codebase, llama-github can handle multiple requests concurrently, significantly boosting overall performance.\n\n- **🔧 Flexible LLM Integration**: Easily integrate llama-github with various LLM providers, embedding models, reranking models, or an injected LangChain-compatible chat model to tailor the library's capabilities to your specific requirements.\n\n- **🔒 Robust Authentication Options**: Llama-github supports both personal access tokens and GitHub App authentication, providing you with the flexibility to integrate it into different development setups. Whether you're an individual developer or working within an organizational context, llama-github has you covered with secure and reliable authentication mechanisms.\n\n- **🛠️ Logging and Error Handling**: We understand the importance of smooth operations and easy troubleshooting. That's why llama-github comes equipped with comprehensive logging and error handling mechanisms. Gain deep insights into the library's behavior, quickly diagnose issues, and maintain a stable and reliable development workflow.\n\n## 🤖 Try Our AI-Powered PR Review Assistant: LlamaPReview\n\nIf you find llama-github useful, you might also be interested in our AI-powered GitHub PR review assistant, LlamaPReview. It's designed to complement your development workflow and further enhance code quality.\n\n### Key Features of LlamaPReview:\n- 🚀 One-click installation, zero configuration required, fully auto-run\n- 💯 Currently free to use - no credit card or payment info needed\n- 🧠 AI-powered, automatic PR reviews with deep code understanding\n- 🌐 Supports multiple programming languages\n\n**LlamaPReview utilizes llama-github's advanced context retrieval and LLM-powered analysis** to provide intelligent, context-aware code reviews. It's like having a senior developer, armed with the full context of your repository, review every PR automatically!\n\n👉 [Install LlamaPReview Now](https://github.com/marketplace/llamapreview/) (Free)\n\nBy using llama-github for context retrieval and LlamaPReview for code reviews, you can create a powerful, AI-enhanced development environment.\n\n## Vision and Roadmap",
+    "ContentSha": "YYrzvEnLmo6dUM/TiZzAtoBmZhh36sIFgHPcxfLx0Cg=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "\nلمزيد من الاستخدامات المتقدمة والأمثلة، يرجى الرجوع إلى [التوثيق](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md).\n\n## الميزات الرئيسية\n\n- **🔍 استرجاع ذكي من GitHub**: استمتع بقوة llama-github لاسترجاع مقتطفات الشيفرة ذات الصلة، والمشكلات، ومعلومات المستودعات من GitHub بناءً على استفسارات المستخدم. تضمن تقنيات الاسترجاع المتقدمة لدينا أن تجد المعلومات الأكثر صلة بسرعة وكفاءة.\n\n- **⚡ تخزين مؤقت لمجمع المستودعات**: يحتوي llama-github على آلية تخزين مؤقت مبتكرة لمجمع المستودعات. من خلال تخزين المستودعات مؤقتًا (بما في ذلك ملفات README والهياكل والشيفرة والمشكلات) عبر الخيوط، يعزز llama-github كفاءة استرجاع البحث من GitHub بشكل كبير ويقلل من استهلاك رموز API الخاصة بـ GitHub. يمكنك نشر llama-github في بيئات الإنتاج متعددة الخيوط بثقة، مع العلم أنه سيعمل بأفضل أداء ويوفر لك مواردك القيمة.\n\n- **🧠 تحليل الأسئلة مدعوم بـ LLM**: استعن بأحدث نماذج اللغة لتحليل أسئلة المستخدمين وتوليد استراتيجيات ومعايير بحث فعالة للغاية. يقوم llama-github بتفكيك الاستفسارات المعقدة بذكاء، مما يضمن استرجاعك لأكثر المعلومات صلة من شبكة مستودعات GitHub الواسعة.\n\n- **📚 توليد سياق شامل**: أنشئ إجابات غنية وملائمة سياقيًا من خلال دمج المعلومات المسترجعة من GitHub بسلاسة مع قدرات الاستنتاج لنماذج اللغة المتقدمة. يبرع llama-github في التعامل مع أكثر الأسئلة تعقيدًا وطولًا، مقدمًا ردودًا شاملة وبصيرة تتضمن سياقًا واسعًا لدعم احتياجاتك التطويرية.\n\n- **🚀 التميز في المعالجة غير المتزامنة**: بُني llama-github من الأساس ليستفيد من الإمكانيات الكاملة للبرمجة غير المتزامنة. بفضل الآليات غير المتزامنة المنفذة بعناية في جميع أنحاء قاعدة الشيفرة، يمكن لـ llama-github معالجة طلبات متعددة في وقت واحد، مما يعزز الأداء العام بشكل كبير. اختبر الفرق بينما يدير llama-github أحمال العمل ذات الحجم الكبير بكفاءة دون التضحية بالسرعة أو الجودة.\n\n- **🔧 تكامل مرن مع LLM**: يمكنك دمج llama-github بسهولة مع مزودي LLM المختلفين، ونماذج التضمين، ونماذج إعادة الترتيب لتخصيص قدرات المكتبة وفقًا لمتطلباتك الخاصة. يسمح لك الهيكل القابل للتوسعة بتخصيص وتحسين وظائف llama-github، مما يضمن تكيفه بسلاسة مع بيئة تطويرك الفريدة.\n\n- **🔒 خيارات مصادقة قوية**: يدعم llama-github كلًا من رموز الوصول الشخصية ومصادقة تطبيق GitHub، مما يوفر لك المرونة لدمجه في إعدادات تطوير مختلفة. سواء كنت مطورًا فرديًا أو تعمل ضمن سياق تنظيمي، يضمن لك llama-github آليات مصادقة آمنة وموثوقة.\n\n- **🛠️ السجلات ومعالجة الأخطاء**: نحن ندرك أهمية العمليات السلسة وسهولة استكشاف الأخطاء. لهذا السبب يأتي llama-github مزودًا بآليات تسجيل شاملة ومعالجة أخطاء قوية. احصل على رؤى عميقة حول سلوك المكتبة، وشخّص المشكلات بسرعة، وحافظ على سير عمل تطوير مستقر وموثوق.\n\n## 🤖 جرّب مساعد مراجعة PR المدعوم بالذكاء الاصطناعي: LlamaPReview\n\nإذا وجدت أن llama-github مفيد، قد تهتم أيضًا بمساعد مراجعة PR على GitHub المدعوم بالذكاء الاصطناعي، LlamaPReview. تم تصميمه ليكمل سير عملك التطويري ويعزز جودة الشيفرة.\n\n### الميزات الرئيسية لـ LlamaPReview:\n- 🚀 تثبيت بنقرة واحدة، بدون إعدادات مطلوبة، تشغيل تلقائي بالكامل\n- 💯 مجاني حاليًا للاستخدام - لا حاجة لبطاقة ائتمان أو معلومات دفع\n- 🧠 مراجعات PR تلقائية مدعومة بالذكاء الاصطناعي مع فهم عميق للشيفرة\n- 🌐 يدعم عدة لغات برمجة\n\n**يستخدم LlamaPReview قدرات الاسترجاع المتقدم للسياق وتحليل LLM من llama-github** لتقديم مراجعات شيفرة ذكية وواعية بالسياق. إنه كأن لديك مطورًا كبيرًا، مطلعًا على سياق مستودعك بالكامل، يراجع كل PR تلقائيًا!\n\n👉 [ثبّت LlamaPReview الآن](https://github.com/marketplace/llamapreview/) (مجاني)\n\nباستخدام llama-github لاسترجاع السياق وLlamaPReview لمراجعة الشيفرة، يمكنك إنشاء بيئة تطوير قوية معززة بالذكاء الاصطناعي.\n\n## الرؤية وخارطة الطريق\n\n### الرؤية\n\nرؤيتنا أن نصبح وحدة محورية في مستقبل حلول التطوير المدفوعة بالذكاء الاصطناعي، من خلال التكامل السلس مع GitHub لتمكين LLMs من حل المهام البرمجية المعقدة تلقائيًا.\n\n![هندسة الرؤية](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)\n\n### خارطة الطريق\n\nللاطلاع على خارطة الطريق التفصيلية لمشروعنا، يرجى زيارة [خارطة المشروع](https://github.com/users/JetXu-LLM/projects/2).\n\n## الشكر والتقدير\n\nنود أن نعبر عن امتناننا للمشاريع مفتوحة المصدر التالية لدعمهم ومساهماتهم:\n\n- **[LangChain](https://github.com/langchain-ai/langchain)**: لتوفير الإطار الأساسي الذي يمكّن قدرات تحفيز ومعالجة LLM في llama-github.\n- **[Jina.ai](https://github.com/jina-ai/reader)**: لتقديم واجهة s.jina.ai API ونماذج إعادة الترتيب والتضمين مفتوحة المصدر التي تعزز دقة وملاءمة السياقات المولدة في llama-github.\n\nلقد كانت مساهماتهم أساسية في تطوير llama-github، ونوصي بشدة بالاطلاع على مشاريعهم لمزيد من الحلول المبتكرة.\n\n## المساهمة\n\nنرحب بمساهماتكم في llama-github! يرجى مراجعة [إرشادات المساهمة](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md) الخاصة بنا لمزيد من المعلومات.\n\n## الرخصة\n\nهذا المشروع مرخص وفقًا لشروط رخصة Apache 2.0. راجع ملف [الرخصة](LICENSE) لمزيد من التفاصيل.\n\n## التواصل\n\nإذا كان لديك أي أسئلة أو اقتراحات أو ملاحظات، لا تتردد في التواصل معنا عبر [بريد Jet Xu الإلكتروني](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/mailto:Voldemort.xu@foxmail.com).\n\n---\n\nشكرًا لاختيارك llama-github! نأمل أن تعزز هذه المكتبة تجربتك في تطوير الذكاء الاصطناعي وتساعدك على بناء تطبيقات قوية بسهولة.\n",
+    "Translation": "تعيد الدالة `retrieve_context()` قائمة من القواميس السياقية. يحتوي كل عنصر على الأقل على `context` و `url`.\n\nلمزيد من الاستخدامات المتقدمة والأمثلة، يرجى الرجوع إلى [التوثيق](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md). تتوفر أيضًا أمثلة عملية منخفضة التكلفة في [`examples/`](examples).\n\n## الميزات الرئيسية\n\n- **🔍 استرجاع ذكي من GitHub**: استفد من قوة llama-github لاسترجاع مقتطفات الشيفرة ذات الصلة العالية، والمسائل، ومعلومات المستودعات من GitHub بناءً على استفسارات المستخدم. تضمن تقنيات الاسترجاع المتقدمة لدينا أن تجد أكثر المعلومات صلة بسرعة وكفاءة.\n\n- **⚡ تخزين مؤقت لمجموعة المستودعات**: لدى llama-github آلية مبتكرة لتخزين مجموعة المستودعات مؤقتًا. من خلال تخزين المستودعات (بما في ذلك ملفات README والبُنى والشيفرة والمسائل) عبر الخيوط، يُسرّع llama-github بشكل كبير كفاءة استرجاع البحث من GitHub ويقلل بشكل كبير من استهلاك رموز GitHub API.\n\n- **🧠 تحليل الأسئلة المدعوم بالنماذج اللغوية**: استثمر أحدث نماذج اللغة لتحليل أسئلة المستخدمين وتوليد استراتيجيات ومعايير بحث فعالة للغاية. يقوم llama-github بتفكيك الاستفسارات المعقدة بذكاء، ما يضمن استرجاعك لأكثر المعلومات صلة من شبكة مستودعات GitHub الواسعة.\n\n- **📚 توليد سياق شامل**: أنشئ إجابات غنية وذات صلة بالسياق من خلال دمج المعلومات المسترجعة من GitHub مع قدرات الاستدلال للنماذج اللغوية المتقدمة. يتفوّق llama-github في معالجة حتى أكثر الأسئلة تعقيدًا وطولًا، ويقدّم إجابات شاملة وبصيرة تتضمن سياقًا واسعًا لدعم احتياجاتك التطويرية.\n\n- **🚀 التميز في المعالجة غير المتزامنة**: بُني llama-github من الألف إلى الياء للاستفادة الكاملة من برمجة العمليات غير المتزامنة. مع آليات غير متزامنة منفذة بعناية في جميع أنحاء قاعدة الشيفرة، يمكن لـ llama-github التعامل مع طلبات متعددة في وقت واحد، مما يزيد الأداء الإجمالي بشكل كبير.\n\n- **🔧 تكامل مرن مع النماذج اللغوية**: قم بدمج llama-github بسهولة مع مزودي النماذج اللغوية المختلفين، أو نماذج التضمين، أو نماذج إعادة الترتيب، أو نموذج محادثة متوافق مع LangChain لتخصيص قدرات المكتبة بما يتناسب مع متطلباتك الخاصة.\n\n- **🔒 خيارات مصادقة قوية**: يدعم llama-github رموز الوصول الشخصية بالإضافة إلى المصادقة عبر تطبيق GitHub، مما يوفر لك المرونة في دمجه مع بيئات تطوير مختلفة. سواء كنت مطورًا فرديًا أو تعمل ضمن إطار تنظيمي، يغطيك llama-github بآليات مصادقة آمنة وموثوقة.\n\n- **🛠️ السجل ومعالجة الأخطاء**: نحن ندرك أهمية العمليات السلسة وسهولة استكشاف الأخطاء وإصلاحها. لهذا يأتي llama-github مزودًا بآليات تسجيل شاملة ومعالجة متقدمة للأخطاء. احصل على رؤى عميقة حول سلوك المكتبة، وقم بتشخيص المشكلات بسرعة، واحتفظ بسير عمل تطوير مستقر وموثوق.\n\n## 🤖 جرب مساعد مراجعة PR المدعوم بالذكاء الاصطناعي: LlamaPReview\n\nإذا وجدت llama-github مفيدًا، قد تهتم أيضًا بمساعد مراجعة PR في GitHub المدعوم بالذكاء الاصطناعي LlamaPReview. إنه مصمم ليكمل سير عملك التطويري ويعزز جودة الشيفرة بشكل أكبر.\n\n### الميزات الرئيسية لـ LlamaPReview:\n- 🚀 تثبيت بنقرة واحدة، دون الحاجة لأي إعدادات، وتشغيل تلقائي كامل\n- 💯 مجاني حاليًا للاستخدام - لا حاجة لبطاقة ائتمان أو معلومات دفع\n- 🧠 مراجعات PR تلقائية ومدعومة بالذكاء الاصطناعي مع فهم عميق للشيفرة\n- 🌐 يدعم لغات برمجة متعددة\n\n**يستخدم LlamaPReview تقنيات الاسترجاع السياقي المتقدمة وتحليل النماذج اللغوية في llama-github** لتقديم مراجعات شيفرة ذكية وواعية للسياق. إنه أشبه بمطور كبير يراجع كل PR تلقائيًا ومعه كامل سياق المستودع!\n\n👉 [ثبت LlamaPReview الآن](https://github.com/marketplace/llamapreview/) (مجاني)\n\nباستخدام llama-github لاسترجاع السياق وLlamaPReview لمراجعة الشيفرة، يمكنك إنشاء بيئة تطوير قوية مدعومة بالذكاء الاصطناعي.\n\n## الرؤية وخارطة الطريق\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "تعيد الدالة `retrieve_context()` قائمة من القواميس السياقية. يحتوي كل عنصر على الأقل على `context` و `url`."
+      },
+      {
+        "row": 2,
+        "rowsha": "FeJTHZYbnJsPL+Dv5sDFYXaI0EZ0VFOd43kMVUC+xiA=",
+        "originContent": "`retrieve_context()` returns a list of context dictionaries. Each item contains at least `context` and `url`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "لمزيد من الاستخدامات المتقدمة والأمثلة، يرجى الرجوع إلى [التوثيق](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md). تتوفر أيضًا أمثلة عملية منخفضة التكلفة في [`examples/`](examples)."
+      },
+      {
+        "row": 4,
+        "rowsha": "DpmvEmAv8m641MQQ4xhpgPKL/d2Qa8Ew8gRR+tbZDEY=",
+        "originContent": "For more advanced usage and examples, please refer to the [documentation](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md). Runnable low-cost examples are also available in [`examples/`](examples).",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## الميزات الرئيسية"
+      },
+      {
+        "row": 6,
+        "rowsha": "khTPM/+Q4D8FMdf3qgrMDcjDejggkuMl1+JmWZMODFI=",
+        "originContent": "## Key Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **🔍 استرجاع ذكي من GitHub**: استفد من قوة llama-github لاسترجاع مقتطفات الشيفرة ذات الصلة العالية، والمسائل، ومعلومات المستودعات من GitHub بناءً على استفسارات المستخدم. تضمن تقنيات الاسترجاع المتقدمة لدينا أن تجد أكثر المعلومات صلة بسرعة وكفاءة."
+      },
+      {
+        "row": 8,
+        "rowsha": "DfE9NcmRSF011JyFgs3cD/a2VQqPhp+XXqaTnhAtBwc=",
+        "originContent": "- **🔍 Intelligent GitHub Retrieval**: Harness the power of llama-github to retrieve highly relevant code snippets, issues, and repository information from GitHub based on user queries. Our advanced retrieval techniques ensure you find the most pertinent information quickly and efficiently.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **⚡ تخزين مؤقت لمجموعة المستودعات**: لدى llama-github آلية مبتكرة لتخزين مجموعة المستودعات مؤقتًا. من خلال تخزين المستودعات (بما في ذلك ملفات README والبُنى والشيفرة والمسائل) عبر الخيوط، يُسرّع llama-github بشكل كبير كفاءة استرجاع البحث من GitHub ويقلل بشكل كبير من استهلاك رموز GitHub API."
+      },
+      {
+        "row": 10,
+        "rowsha": "a5W2rIwqg4/byufQnqc/UHVdzLGGCcquCd9VOWV3RL0=",
+        "originContent": "- **⚡ Repository Pool Caching**: Llama-github has an innovative repository pool caching mechanism. By caching repositories (including READMEs, structures, code, and issues) across threads, llama-github significantly accelerates GitHub search retrieval efficiency and minimizes the consumption of GitHub API tokens.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **🧠 تحليل الأسئلة المدعوم بالنماذج اللغوية**: استثمر أحدث نماذج اللغة لتحليل أسئلة المستخدمين وتوليد استراتيجيات ومعايير بحث فعالة للغاية. يقوم llama-github بتفكيك الاستفسارات المعقدة بذكاء، ما يضمن استرجاعك لأكثر المعلومات صلة من شبكة مستودعات GitHub الواسعة."
+      },
+      {
+        "row": 12,
+        "rowsha": "JeXb8RZZhv2Wmw97j628XoyPreY+fMdIPsxoUQiEvzw=",
+        "originContent": "- **🧠 LLM-Powered Question Analysis**: Leverage state-of-the-art language models to analyze user questions and generate highly effective search strategies and criteria. Llama-github intelligently breaks down complex queries, ensuring that you retrieve the most relevant information from GitHub's vast repository network.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **📚 توليد سياق شامل**: أنشئ إجابات غنية وذات صلة بالسياق من خلال دمج المعلومات المسترجعة من GitHub مع قدرات الاستدلال للنماذج اللغوية المتقدمة. يتفوّق llama-github في معالجة حتى أكثر الأسئلة تعقيدًا وطولًا، ويقدّم إجابات شاملة وبصيرة تتضمن سياقًا واسعًا لدعم احتياجاتك التطويرية."
+      },
+      {
+        "row": 14,
+        "rowsha": "yA7pWfx0KVCXQ2Eo49pVkbLR+DABI/mKnMw/tj/sCL0=",
+        "originContent": "- **📚 Comprehensive Context Generation**: Generate rich, contextually relevant answers by seamlessly combining information retrieved from GitHub with the reasoning capabilities of advanced language models. Llama-github excels at handling even the most complex and lengthy questions, providing comprehensive and insightful responses that include extensive context to support your development needs.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **🚀 التميز في المعالجة غير المتزامنة**: بُني llama-github من الألف إلى الياء للاستفادة الكاملة من برمجة العمليات غير المتزامنة. مع آليات غير متزامنة منفذة بعناية في جميع أنحاء قاعدة الشيفرة، يمكن لـ llama-github التعامل مع طلبات متعددة في وقت واحد، مما يزيد الأداء الإجمالي بشكل كبير."
+      },
+      {
+        "row": 16,
+        "rowsha": "krimHFrT+VgD7Q2YFmi9u/fO/LK0UoOf5aPuYQKdbhk=",
+        "originContent": "- **🚀 Asynchronous Processing Excellence**: Llama-github is built from the ground up to leverage the full potential of asynchronous programming. With meticulously implemented asynchronous mechanisms woven throughout the codebase, llama-github can handle multiple requests concurrently, significantly boosting overall performance.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **🔧 تكامل مرن مع النماذج اللغوية**: قم بدمج llama-github بسهولة مع مزودي النماذج اللغوية المختلفين، أو نماذج التضمين، أو نماذج إعادة الترتيب، أو نموذج محادثة متوافق مع LangChain لتخصيص قدرات المكتبة بما يتناسب مع متطلباتك الخاصة."
+      },
+      {
+        "row": 18,
+        "rowsha": "tIq7mXcWU8Vf0sbLHfpoHecPKWT3SNp8g8QmKqofj7Y=",
+        "originContent": "- **🔧 Flexible LLM Integration**: Easily integrate llama-github with various LLM providers, embedding models, reranking models, or an injected LangChain-compatible chat model to tailor the library's capabilities to your specific requirements.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **🔒 خيارات مصادقة قوية**: يدعم llama-github رموز الوصول الشخصية بالإضافة إلى المصادقة عبر تطبيق GitHub، مما يوفر لك المرونة في دمجه مع بيئات تطوير مختلفة. سواء كنت مطورًا فرديًا أو تعمل ضمن إطار تنظيمي، يغطيك llama-github بآليات مصادقة آمنة وموثوقة."
+      },
+      {
+        "row": 20,
+        "rowsha": "WH0+zgaxAP/W/KtIygVDuxydKTKp6imCYyXpqvXpjaM=",
+        "originContent": "- **🔒 Robust Authentication Options**: Llama-github supports both personal access tokens and GitHub App authentication, providing you with the flexibility to integrate it into different development setups. Whether you're an individual developer or working within an organizational context, llama-github has you covered with secure and reliable authentication mechanisms.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **🛠️ السجل ومعالجة الأخطاء**: نحن ندرك أهمية العمليات السلسة وسهولة استكشاف الأخطاء وإصلاحها. لهذا يأتي llama-github مزودًا بآليات تسجيل شاملة ومعالجة متقدمة للأخطاء. احصل على رؤى عميقة حول سلوك المكتبة، وقم بتشخيص المشكلات بسرعة، واحتفظ بسير عمل تطوير مستقر وموثوق."
+      },
+      {
+        "row": 22,
+        "rowsha": "IYhTxjMvy72M7T9kEBfrXUNMz08qwsXzETVoE3WSNyQ=",
+        "originContent": "- **🛠️ Logging and Error Handling**: We understand the importance of smooth operations and easy troubleshooting. That's why llama-github comes equipped with comprehensive logging and error handling mechanisms. Gain deep insights into the library's behavior, quickly diagnose issues, and maintain a stable and reliable development workflow.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🤖 جرب مساعد مراجعة PR المدعوم بالذكاء الاصطناعي: LlamaPReview"
+      },
+      {
+        "row": 24,
+        "rowsha": "QDeqAvaQEIQHPYjwq2KF5Bw3a76EiPq7ebbsGNKcRI8=",
+        "originContent": "## 🤖 Try Our AI-Powered PR Review Assistant: LlamaPReview",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "إذا وجدت llama-github مفيدًا، قد تهتم أيضًا بمساعد مراجعة PR في GitHub المدعوم بالذكاء الاصطناعي LlamaPReview. إنه مصمم ليكمل سير عملك التطويري ويعزز جودة الشيفرة بشكل أكبر."
+      },
+      {
+        "row": 26,
+        "rowsha": "laWUe+J402emMP2V1JeMqFpYefA8HTKWoI+lq7NfoyE=",
+        "originContent": "If you find llama-github useful, you might also be interested in our AI-powered GitHub PR review assistant, LlamaPReview. It's designed to complement your development workflow and further enhance code quality.",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### الميزات الرئيسية لـ LlamaPReview:"
+      },
+      {
+        "row": 28,
+        "rowsha": "J3M87xxuLQISS/m0fiv7phjnw7mYaznst6rel6n7MyY=",
+        "originContent": "### Key Features of LlamaPReview:",
+        "translatedContent": "- 🚀 تثبيت بنقرة واحدة، دون الحاجة لأي إعدادات، وتشغيل تلقائي كامل"
+      },
+      {
+        "row": 29,
+        "rowsha": "dGBd2SxNdlW1UATPSu01Iq95yCVz8fXbl7xxHqDYI7E=",
+        "originContent": "- 🚀 One-click installation, zero configuration required, fully auto-run",
+        "translatedContent": "- 💯 مجاني حاليًا للاستخدام - لا حاجة لبطاقة ائتمان أو معلومات دفع"
+      },
+      {
+        "row": 30,
+        "rowsha": "EP9hYUs4aYVAzXcYQyCGf3bjwo64OjAsqQHIN75oW60=",
+        "originContent": "- 💯 Currently free to use - no credit card or payment info needed",
+        "translatedContent": "- 🧠 مراجعات PR تلقائية ومدعومة بالذكاء الاصطناعي مع فهم عميق للشيفرة"
+      },
+      {
+        "row": 31,
+        "rowsha": "jjWF/iUqSzPriHJ5iiFIq0Q6Pzx+gzPlnLu0Z4wmsSg=",
+        "originContent": "- 🧠 AI-powered, automatic PR reviews with deep code understanding",
+        "translatedContent": "- 🌐 يدعم لغات برمجة متعددة"
+      },
+      {
+        "row": 32,
+        "rowsha": "Dsl+HsDM5NGI480TDo6eaFqgDcaofr3TDhLbUghSXhU=",
+        "originContent": "- 🌐 Supports multiple programming languages",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**يستخدم LlamaPReview تقنيات الاسترجاع السياقي المتقدمة وتحليل النماذج اللغوية في llama-github** لتقديم مراجعات شيفرة ذكية وواعية للسياق. إنه أشبه بمطور كبير يراجع كل PR تلقائيًا ومعه كامل سياق المستودع!"
+      },
+      {
+        "row": 34,
+        "rowsha": "GrzJg4j2iz94pupBQwJnFffhmsJ5IO9OkhqYvj0QEmo=",
+        "originContent": "**LlamaPReview utilizes llama-github's advanced context retrieval and LLM-powered analysis** to provide intelligent, context-aware code reviews. It's like having a senior developer, armed with the full context of your repository, review every PR automatically!",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "👉 [ثبت LlamaPReview الآن](https://github.com/marketplace/llamapreview/) (مجاني)"
+      },
+      {
+        "row": 36,
+        "rowsha": "4qGUTknerL/UTVikcUjFHvKzZlWho9opuf58fSIypyk=",
+        "originContent": "👉 [Install LlamaPReview Now](https://github.com/marketplace/llamapreview/) (Free)",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "باستخدام llama-github لاسترجاع السياق وLlamaPReview لمراجعة الشيفرة، يمكنك إنشاء بيئة تطوير قوية مدعومة بالذكاء الاصطناعي."
+      },
+      {
+        "row": 38,
+        "rowsha": "luTTMbXm2ikxAkHhFfh2iG9uPEwMYBRd2lolUoOY+3o=",
+        "originContent": "By using llama-github for context retrieval and LlamaPReview for code reviews, you can create a powerful, AI-enhanced development environment.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## الرؤية وخارطة الطريق"
+      },
+      {
+        "row": 40,
+        "rowsha": "W2b655gztUgECPmTnBIkK/WbBo7d68AbNAjMtkHS5xY=",
+        "originContent": "## Vision and Roadmap",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Vision\n\nOur vision is to become a pivotal module in the future of AI-driven development solutions, seamlessly integrating with GitHub to empower LLMs in automatically resolving complex coding tasks.\n\n![Vision Architecture](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)\n\n### Roadmap\n\nFor a historical view of the earlier roadmap, please visit [Vision and Roadmap](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/VISION_AND_ROADMAP.md).\n\n## Acknowledgments\n\nWe would like to express our gratitude to the following open-source projects for their support and contributions:\n\n- **[LangChain](https://github.com/langchain-ai/langchain)**: For providing the foundational framework that empowers the LLM prompting and processing capabilities in llama-github.\n- **[Jina.ai](https://github.com/jina-ai/reader)**: For offering s.jina.ai API and open source reranker and embedding models that enhance the accuracy and relevance of the generated contexts in llama-github.\n\nTheir contributions have been instrumental in the development of llama-github, and we highly recommend checking out their projects for more innovative solutions.\n\n## Contributing\n\nWe welcome contributions to llama-github! Please see our [contributing guidelines](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md) for more information.\n\n## License\n\nThis project is licensed under the terms of the Apache 2.0 license. See the [LICENSE](LICENSE) file for more details.\n\n## Contact\n\nIf you have any questions, suggestions, or feedback, please feel free to reach out to us at [Jet Xu's email](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/mailto:Voldemort.xu@foxmail.com).\n\n---\n\nThank you for choosing llama-github! We hope this library enhances your AI development experience and helps you build powerful applications with ease.\n",
+    "ContentSha": "W5cnsG11/tLTHzi7VNAGqCwyavngj/SiKdYUyO1Z5r4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### الرؤية\n\nرؤيتنا هي أن نصبح وحدة محورية في مستقبل حلول التطوير المعتمدة على الذكاء الاصطناعي، من خلال التكامل السلس مع GitHub لتمكين نماذج اللغة الكبيرة من حل المهام البرمجية المعقدة تلقائيًا.\n\n![هندسة الرؤية](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)\n\n### خارطة الطريق\n\nللاطلاع على العرض التاريخي لخارطة الطريق السابقة، يرجى زيارة [الرؤية وخارطة الطريق](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/VISION_AND_ROADMAP.md).\n\n## الشكر والتقدير\n\nنود أن نعبر عن امتناننا للمشاريع مفتوحة المصدر التالية لدعمها ومساهماتها:\n\n- **[LangChain](https://github.com/langchain-ai/langchain)**: لتوفير الإطار الأساسي الذي يدعم قدرات الاستدعاء والمعالجة لنماذج اللغة الكبيرة في llama-github.\n- **[Jina.ai](https://github.com/jina-ai/reader)**: لتقديم واجهة برمجة التطبيقات s.jina.ai ونماذج إعادة الترتيب والتضمين مفتوحة المصدر التي تعزز دقة وملاءمة السياقات المولدة في llama-github.\n\nلقد كانت مساهماتهم جوهرية في تطوير llama-github، ونوصي بشدة بالاطلاع على مشاريعهم للحصول على حلول مبتكرة أخرى.\n\n## المساهمة\n\nنرحب بالمساهمات في llama-github! يرجى مراجعة [إرشادات المساهمة](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md) لمزيد من المعلومات.\n\n## الترخيص\n\nهذا المشروع مرخص بموجب شروط ترخيص Apache 2.0. راجع ملف [الترخيص](LICENSE) لمزيد من التفاصيل.\n\n## التواصل\n\nإذا كانت لديك أي أسئلة أو اقتراحات أو ملاحظات، لا تتردد في التواصل معنا عبر [البريد الإلكتروني لـ Jet Xu](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/mailto:Voldemort.xu@foxmail.com).\n\n---\n\nشكرًا لاختيارك llama-github! نأمل أن تعزز هذه المكتبة تجربتك في تطوير الذكاء الاصطناعي وأن تساعدك في بناء تطبيقات قوية بسهولة.\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -519,9 +778,9 @@
       },
       {
         "row": 2,
-        "rowsha": "zrMByz3uboJewll5VwM0OlM3JCc+dvchgXugvMGdZyA=",
-        "originContent": "For more advanced usage and examples, please refer to the [documentation](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md).",
-        "translatedContent": "لمزيد من الاستخدامات المتقدمة والأمثلة، يرجى الرجوع إلى [التوثيق](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md)."
+        "rowsha": "Ewakmoa/Yb8fcDlChA12w7kAXVMFh8OrCLwVCTwIl84=",
+        "originContent": "### Vision",
+        "translatedContent": "### الرؤية"
       },
       {
         "row": 3,
@@ -531,9 +790,9 @@
       },
       {
         "row": 4,
-        "rowsha": "khTPM/+Q4D8FMdf3qgrMDcjDejggkuMl1+JmWZMODFI=",
-        "originContent": "## Key Features",
-        "translatedContent": "## الميزات الرئيسية"
+        "rowsha": "0e6GYQC4W2Y8Ky5Q9UNeMwDc+ebEjDIUb9h4gSLQJaI=",
+        "originContent": "Our vision is to become a pivotal module in the future of AI-driven development solutions, seamlessly integrating with GitHub to empower LLMs in automatically resolving complex coding tasks.",
+        "translatedContent": "رؤيتنا هي أن نصبح وحدة محورية في مستقبل حلول التطوير المعتمدة على الذكاء الاصطناعي، من خلال التكامل السلس مع GitHub لتمكين نماذج اللغة الكبيرة من حل المهام البرمجية المعقدة تلقائيًا."
       },
       {
         "row": 5,
@@ -543,9 +802,9 @@
       },
       {
         "row": 6,
-        "rowsha": "DfE9NcmRSF011JyFgs3cD/a2VQqPhp+XXqaTnhAtBwc=",
-        "originContent": "- **🔍 Intelligent GitHub Retrieval**: Harness the power of llama-github to retrieve highly relevant code snippets, issues, and repository information from GitHub based on user queries. Our advanced retrieval techniques ensure you find the most pertinent information quickly and efficiently.",
-        "translatedContent": "- **🔍 استرجاع ذكي من GitHub**: استمتع بقوة llama-github لاسترجاع مقتطفات الشيفرة ذات الصلة، والمشكلات، ومعلومات المستودعات من GitHub بناءً على استفسارات المستخدم. تضمن تقنيات الاسترجاع المتقدمة لدينا أن تجد المعلومات الأكثر صلة بسرعة وكفاءة."
+        "rowsha": "e3eGMrQR9LxN0lPlezIImRzi4tUu6n/GFfZsq5SBP4I=",
+        "originContent": "![Vision Architecture](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)",
+        "translatedContent": "![هندسة الرؤية](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)"
       },
       {
         "row": 7,
@@ -555,9 +814,9 @@
       },
       {
         "row": 8,
-        "rowsha": "OtNyTLgFLD0QDlCwfKWcttMbckHUBj2YJNKV9r+Uc54=",
-        "originContent": "- **⚡ Repository Pool Caching**: Llama-github has an innovative repository pool caching mechanism. By caching repositories (including READMEs, structures, code, and issues) across threads, llama-github significantly accelerates GitHub search retrieval efficiency and minimizes the consumption of GitHub API tokens. Deploy llama-github in multi-threaded production environments with confidence, knowing that it will perform optimally and save you valuable resources.",
-        "translatedContent": "- **⚡ تخزين مؤقت لمجمع المستودعات**: يحتوي llama-github على آلية تخزين مؤقت مبتكرة لمجمع المستودعات. من خلال تخزين المستودعات مؤقتًا (بما في ذلك ملفات README والهياكل والشيفرة والمشكلات) عبر الخيوط، يعزز llama-github كفاءة استرجاع البحث من GitHub بشكل كبير ويقلل من استهلاك رموز API الخاصة بـ GitHub. يمكنك نشر llama-github في بيئات الإنتاج متعددة الخيوط بثقة، مع العلم أنه سيعمل بأفضل أداء ويوفر لك مواردك القيمة."
+        "rowsha": "Q0D6oxy93TTXOZDvIiuco/ghaytG064tWvZdnLoKnOw=",
+        "originContent": "### Roadmap",
+        "translatedContent": "### خارطة الطريق"
       },
       {
         "row": 9,
@@ -567,9 +826,9 @@
       },
       {
         "row": 10,
-        "rowsha": "JeXb8RZZhv2Wmw97j628XoyPreY+fMdIPsxoUQiEvzw=",
-        "originContent": "- **🧠 LLM-Powered Question Analysis**: Leverage state-of-the-art language models to analyze user questions and generate highly effective search strategies and criteria. Llama-github intelligently breaks down complex queries, ensuring that you retrieve the most relevant information from GitHub's vast repository network.",
-        "translatedContent": "- **🧠 تحليل الأسئلة مدعوم بـ LLM**: استعن بأحدث نماذج اللغة لتحليل أسئلة المستخدمين وتوليد استراتيجيات ومعايير بحث فعالة للغاية. يقوم llama-github بتفكيك الاستفسارات المعقدة بذكاء، مما يضمن استرجاعك لأكثر المعلومات صلة من شبكة مستودعات GitHub الواسعة."
+        "rowsha": "K4zB6wUEEOZrlpbiwrefLTQyX+jV78TTlZtQTe700fI=",
+        "originContent": "For a historical view of the earlier roadmap, please visit [Vision and Roadmap](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/VISION_AND_ROADMAP.md).",
+        "translatedContent": "للاطلاع على العرض التاريخي لخارطة الطريق السابقة، يرجى زيارة [الرؤية وخارطة الطريق](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/VISION_AND_ROADMAP.md)."
       },
       {
         "row": 11,
@@ -579,9 +838,9 @@
       },
       {
         "row": 12,
-        "rowsha": "yA7pWfx0KVCXQ2Eo49pVkbLR+DABI/mKnMw/tj/sCL0=",
-        "originContent": "- **📚 Comprehensive Context Generation**: Generate rich, contextually relevant answers by seamlessly combining information retrieved from GitHub with the reasoning capabilities of advanced language models. Llama-github excels at handling even the most complex and lengthy questions, providing comprehensive and insightful responses that include extensive context to support your development needs.",
-        "translatedContent": "- **📚 توليد سياق شامل**: أنشئ إجابات غنية وملائمة سياقيًا من خلال دمج المعلومات المسترجعة من GitHub بسلاسة مع قدرات الاستنتاج لنماذج اللغة المتقدمة. يبرع llama-github في التعامل مع أكثر الأسئلة تعقيدًا وطولًا، مقدمًا ردودًا شاملة وبصيرة تتضمن سياقًا واسعًا لدعم احتياجاتك التطويرية."
+        "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
+        "originContent": "## Acknowledgments",
+        "translatedContent": "## الشكر والتقدير"
       },
       {
         "row": 13,
@@ -591,9 +850,9 @@
       },
       {
         "row": 14,
-        "rowsha": "qku0KFnzN0JDJsFtvSnr1U47mAfoIMLCUgoTAF0FV2Q=",
-        "originContent": "- **🚀 Asynchronous Processing Excellence**: Llama-github is built from the ground up to leverage the full potential of asynchronous programming. With meticulously implemented asynchronous mechanisms woven throughout the codebase, llama-github can handle multiple requests concurrently, significantly boosting overall performance. Experience the difference as llama-github efficiently manages high-volume workloads without compromising on speed or quality.",
-        "translatedContent": "- **🚀 التميز في المعالجة غير المتزامنة**: بُني llama-github من الأساس ليستفيد من الإمكانيات الكاملة للبرمجة غير المتزامنة. بفضل الآليات غير المتزامنة المنفذة بعناية في جميع أنحاء قاعدة الشيفرة، يمكن لـ llama-github معالجة طلبات متعددة في وقت واحد، مما يعزز الأداء العام بشكل كبير. اختبر الفرق بينما يدير llama-github أحمال العمل ذات الحجم الكبير بكفاءة دون التضحية بالسرعة أو الجودة."
+        "rowsha": "WodCIp8BqxoCo7bxE7dxagf/Dvpvw7nWeECf0qG6FGI=",
+        "originContent": "We would like to express our gratitude to the following open-source projects for their support and contributions:",
+        "translatedContent": "نود أن نعبر عن امتناننا للمشاريع مفتوحة المصدر التالية لدعمها ومساهماتها:"
       },
       {
         "row": 15,
@@ -603,354 +862,126 @@
       },
       {
         "row": 16,
-        "rowsha": "0g6jkIpIeIIz2Gt8w6I2VAjPUz51+RDJs7fxVchaN/k=",
-        "originContent": "- **🔧 Flexible LLM Integration**: Easily integrate llama-github with various LLM providers, embedding models, and reranking models to tailor the library's capabilities to your specific requirements. Our extensible architecture allows you to customize and enhance llama-github's functionality, ensuring that it adapts seamlessly to your unique development environment.",
-        "translatedContent": "- **🔧 تكامل مرن مع LLM**: يمكنك دمج llama-github بسهولة مع مزودي LLM المختلفين، ونماذج التضمين، ونماذج إعادة الترتيب لتخصيص قدرات المكتبة وفقًا لمتطلباتك الخاصة. يسمح لك الهيكل القابل للتوسعة بتخصيص وتحسين وظائف llama-github، مما يضمن تكيفه بسلاسة مع بيئة تطويرك الفريدة."
+        "rowsha": "HBIRZKkbsYOXsJY2Xepu1VxTAAdh869qSnsGbJ0cIg0=",
+        "originContent": "- **[LangChain](https://github.com/langchain-ai/langchain)**: For providing the foundational framework that empowers the LLM prompting and processing capabilities in llama-github.",
+        "translatedContent": "- **[LangChain](https://github.com/langchain-ai/langchain)**: لتوفير الإطار الأساسي الذي يدعم قدرات الاستدعاء والمعالجة لنماذج اللغة الكبيرة في llama-github."
       },
       {
         "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "l7sjWwbh0OUJwk4+yJE2ZbVGypyaPrzI1YYMP7Uw9X0=",
+        "originContent": "- **[Jina.ai](https://github.com/jina-ai/reader)**: For offering s.jina.ai API and open source reranker and embedding models that enhance the accuracy and relevance of the generated contexts in llama-github.",
+        "translatedContent": "- **[Jina.ai](https://github.com/jina-ai/reader)**: لتقديم واجهة برمجة التطبيقات s.jina.ai ونماذج إعادة الترتيب والتضمين مفتوحة المصدر التي تعزز دقة وملاءمة السياقات المولدة في llama-github."
       },
       {
         "row": 18,
-        "rowsha": "WH0+zgaxAP/W/KtIygVDuxydKTKp6imCYyXpqvXpjaM=",
-        "originContent": "- **🔒 Robust Authentication Options**: Llama-github supports both personal access tokens and GitHub App authentication, providing you with the flexibility to integrate it into different development setups. Whether you're an individual developer or working within an organizational context, llama-github has you covered with secure and reliable authentication mechanisms.",
-        "translatedContent": "- **🔒 خيارات مصادقة قوية**: يدعم llama-github كلًا من رموز الوصول الشخصية ومصادقة تطبيق GitHub، مما يوفر لك المرونة لدمجه في إعدادات تطوير مختلفة. سواء كنت مطورًا فرديًا أو تعمل ضمن سياق تنظيمي، يضمن لك llama-github آليات مصادقة آمنة وموثوقة."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "hrChp1vDZFs3UZia39niD4Kx9hT0wKUMxSSiiyYyi7A=",
+        "originContent": "Their contributions have been instrumental in the development of llama-github, and we highly recommend checking out their projects for more innovative solutions.",
+        "translatedContent": "لقد كانت مساهماتهم جوهرية في تطوير llama-github، ونوصي بشدة بالاطلاع على مشاريعهم للحصول على حلول مبتكرة أخرى."
       },
       {
         "row": 20,
-        "rowsha": "IYhTxjMvy72M7T9kEBfrXUNMz08qwsXzETVoE3WSNyQ=",
-        "originContent": "- **🛠️ Logging and Error Handling**: We understand the importance of smooth operations and easy troubleshooting. That's why llama-github comes equipped with comprehensive logging and error handling mechanisms. Gain deep insights into the library's behavior, quickly diagnose issues, and maintain a stable and reliable development workflow.",
-        "translatedContent": "- **🛠️ السجلات ومعالجة الأخطاء**: نحن ندرك أهمية العمليات السلسة وسهولة استكشاف الأخطاء. لهذا السبب يأتي llama-github مزودًا بآليات تسجيل شاملة ومعالجة أخطاء قوية. احصل على رؤى عميقة حول سلوك المكتبة، وشخّص المشكلات بسرعة، وحافظ على سير عمل تطوير مستقر وموثوق."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "QDeqAvaQEIQHPYjwq2KF5Bw3a76EiPq7ebbsGNKcRI8=",
-        "originContent": "## 🤖 Try Our AI-Powered PR Review Assistant: LlamaPReview",
-        "translatedContent": "## 🤖 جرّب مساعد مراجعة PR المدعوم بالذكاء الاصطناعي: LlamaPReview"
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "laWUe+J402emMP2V1JeMqFpYefA8HTKWoI+lq7NfoyE=",
-        "originContent": "If you find llama-github useful, you might also be interested in our AI-powered GitHub PR review assistant, LlamaPReview. It's designed to complement your development workflow and further enhance code quality.",
-        "translatedContent": "إذا وجدت أن llama-github مفيد، قد تهتم أيضًا بمساعد مراجعة PR على GitHub المدعوم بالذكاء الاصطناعي، LlamaPReview. تم تصميمه ليكمل سير عملك التطويري ويعزز جودة الشيفرة."
-      },
-      {
-        "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "J3M87xxuLQISS/m0fiv7phjnw7mYaznst6rel6n7MyY=",
-        "originContent": "### Key Features of LlamaPReview:",
-        "translatedContent": "### الميزات الرئيسية لـ LlamaPReview:"
-      },
-      {
-        "row": 27,
-        "rowsha": "dGBd2SxNdlW1UATPSu01Iq95yCVz8fXbl7xxHqDYI7E=",
-        "originContent": "- 🚀 One-click installation, zero configuration required, fully auto-run",
-        "translatedContent": "- 🚀 تثبيت بنقرة واحدة، بدون إعدادات مطلوبة، تشغيل تلقائي بالكامل"
-      },
-      {
-        "row": 28,
-        "rowsha": "EP9hYUs4aYVAzXcYQyCGf3bjwo64OjAsqQHIN75oW60=",
-        "originContent": "- 💯 Currently free to use - no credit card or payment info needed",
-        "translatedContent": "- 💯 مجاني حاليًا للاستخدام - لا حاجة لبطاقة ائتمان أو معلومات دفع"
-      },
-      {
-        "row": 29,
-        "rowsha": "jjWF/iUqSzPriHJ5iiFIq0Q6Pzx+gzPlnLu0Z4wmsSg=",
-        "originContent": "- 🧠 AI-powered, automatic PR reviews with deep code understanding",
-        "translatedContent": "- 🧠 مراجعات PR تلقائية مدعومة بالذكاء الاصطناعي مع فهم عميق للشيفرة"
-      },
-      {
-        "row": 30,
-        "rowsha": "Dsl+HsDM5NGI480TDo6eaFqgDcaofr3TDhLbUghSXhU=",
-        "originContent": "- 🌐 Supports multiple programming languages",
-        "translatedContent": "- 🌐 يدعم عدة لغات برمجة"
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 32,
-        "rowsha": "GrzJg4j2iz94pupBQwJnFffhmsJ5IO9OkhqYvj0QEmo=",
-        "originContent": "**LlamaPReview utilizes llama-github's advanced context retrieval and LLM-powered analysis** to provide intelligent, context-aware code reviews. It's like having a senior developer, armed with the full context of your repository, review every PR automatically!",
-        "translatedContent": "**يستخدم LlamaPReview قدرات الاسترجاع المتقدم للسياق وتحليل LLM من llama-github** لتقديم مراجعات شيفرة ذكية وواعية بالسياق. إنه كأن لديك مطورًا كبيرًا، مطلعًا على سياق مستودعك بالكامل، يراجع كل PR تلقائيًا!"
-      },
-      {
-        "row": 33,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 34,
-        "rowsha": "4qGUTknerL/UTVikcUjFHvKzZlWho9opuf58fSIypyk=",
-        "originContent": "👉 [Install LlamaPReview Now](https://github.com/marketplace/llamapreview/) (Free)",
-        "translatedContent": "👉 [ثبّت LlamaPReview الآن](https://github.com/marketplace/llamapreview/) (مجاني)"
-      },
-      {
-        "row": 35,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 36,
-        "rowsha": "luTTMbXm2ikxAkHhFfh2iG9uPEwMYBRd2lolUoOY+3o=",
-        "originContent": "By using llama-github for context retrieval and LlamaPReview for code reviews, you can create a powerful, AI-enhanced development environment.",
-        "translatedContent": "باستخدام llama-github لاسترجاع السياق وLlamaPReview لمراجعة الشيفرة، يمكنك إنشاء بيئة تطوير قوية معززة بالذكاء الاصطناعي."
-      },
-      {
-        "row": 37,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 38,
-        "rowsha": "W2b655gztUgECPmTnBIkK/WbBo7d68AbNAjMtkHS5xY=",
-        "originContent": "## Vision and Roadmap",
-        "translatedContent": "## الرؤية وخارطة الطريق"
-      },
-      {
-        "row": 39,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 40,
-        "rowsha": "Ewakmoa/Yb8fcDlChA12w7kAXVMFh8OrCLwVCTwIl84=",
-        "originContent": "### Vision",
-        "translatedContent": "### الرؤية"
-      },
-      {
-        "row": 41,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 42,
-        "rowsha": "0e6GYQC4W2Y8Ky5Q9UNeMwDc+ebEjDIUb9h4gSLQJaI=",
-        "originContent": "Our vision is to become a pivotal module in the future of AI-driven development solutions, seamlessly integrating with GitHub to empower LLMs in automatically resolving complex coding tasks.",
-        "translatedContent": "رؤيتنا أن نصبح وحدة محورية في مستقبل حلول التطوير المدفوعة بالذكاء الاصطناعي، من خلال التكامل السلس مع GitHub لتمكين LLMs من حل المهام البرمجية المعقدة تلقائيًا."
-      },
-      {
-        "row": 43,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 44,
-        "rowsha": "e3eGMrQR9LxN0lPlezIImRzi4tUu6n/GFfZsq5SBP4I=",
-        "originContent": "![Vision Architecture](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)",
-        "translatedContent": "![هندسة الرؤية](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)"
-      },
-      {
-        "row": 45,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 46,
-        "rowsha": "Q0D6oxy93TTXOZDvIiuco/ghaytG064tWvZdnLoKnOw=",
-        "originContent": "### Roadmap",
-        "translatedContent": "### خارطة الطريق"
-      },
-      {
-        "row": 47,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 48,
-        "rowsha": "UHmL4/lEZk2jitjRxUVuHtD8JilL4OTzFLbU8R72Ymc=",
-        "originContent": "For a detailed view of our project roadmap, please visit our [Project Roadmap](https://github.com/users/JetXu-LLM/projects/2).",
-        "translatedContent": "للاطلاع على خارطة الطريق التفصيلية لمشروعنا، يرجى زيارة [خارطة المشروع](https://github.com/users/JetXu-LLM/projects/2)."
-      },
-      {
-        "row": 49,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 50,
-        "rowsha": "N66ywbuGccMYNTyswaMSnFOlWqX+iaYP/myGJqr1tHo=",
-        "originContent": "## Acknowledgments",
-        "translatedContent": "## الشكر والتقدير"
-      },
-      {
-        "row": 51,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 52,
-        "rowsha": "WodCIp8BqxoCo7bxE7dxagf/Dvpvw7nWeECf0qG6FGI=",
-        "originContent": "We would like to express our gratitude to the following open-source projects for their support and contributions:",
-        "translatedContent": "نود أن نعبر عن امتناننا للمشاريع مفتوحة المصدر التالية لدعمهم ومساهماتهم:"
-      },
-      {
-        "row": 53,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 54,
-        "rowsha": "HBIRZKkbsYOXsJY2Xepu1VxTAAdh869qSnsGbJ0cIg0=",
-        "originContent": "- **[LangChain](https://github.com/langchain-ai/langchain)**: For providing the foundational framework that empowers the LLM prompting and processing capabilities in llama-github.",
-        "translatedContent": "- **[LangChain](https://github.com/langchain-ai/langchain)**: لتوفير الإطار الأساسي الذي يمكّن قدرات تحفيز ومعالجة LLM في llama-github."
-      },
-      {
-        "row": 55,
-        "rowsha": "l7sjWwbh0OUJwk4+yJE2ZbVGypyaPrzI1YYMP7Uw9X0=",
-        "originContent": "- **[Jina.ai](https://github.com/jina-ai/reader)**: For offering s.jina.ai API and open source reranker and embedding models that enhance the accuracy and relevance of the generated contexts in llama-github.",
-        "translatedContent": "- **[Jina.ai](https://github.com/jina-ai/reader)**: لتقديم واجهة s.jina.ai API ونماذج إعادة الترتيب والتضمين مفتوحة المصدر التي تعزز دقة وملاءمة السياقات المولدة في llama-github."
-      },
-      {
-        "row": 56,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 57,
-        "rowsha": "hrChp1vDZFs3UZia39niD4Kx9hT0wKUMxSSiiyYyi7A=",
-        "originContent": "Their contributions have been instrumental in the development of llama-github, and we highly recommend checking out their projects for more innovative solutions.",
-        "translatedContent": "لقد كانت مساهماتهم أساسية في تطوير llama-github، ونوصي بشدة بالاطلاع على مشاريعهم لمزيد من الحلول المبتكرة."
-      },
-      {
-        "row": 58,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 59,
         "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
         "originContent": "## Contributing",
         "translatedContent": "## المساهمة"
       },
       {
-        "row": 60,
+        "row": 22,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 61,
+        "row": 23,
         "rowsha": "JUWgAoIn9VhOEzmNL5dlAlHwcmo7N2Rm2GNx0g5Rijs=",
         "originContent": "We welcome contributions to llama-github! Please see our [contributing guidelines](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md) for more information.",
-        "translatedContent": "نرحب بمساهماتكم في llama-github! يرجى مراجعة [إرشادات المساهمة](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md) الخاصة بنا لمزيد من المعلومات."
+        "translatedContent": "نرحب بالمساهمات في llama-github! يرجى مراجعة [إرشادات المساهمة](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md) لمزيد من المعلومات."
       },
       {
-        "row": 62,
+        "row": 24,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 63,
+        "row": 25,
         "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
         "originContent": "## License",
-        "translatedContent": "## الرخصة"
+        "translatedContent": "## الترخيص"
       },
       {
-        "row": 64,
+        "row": 26,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 65,
+        "row": 27,
         "rowsha": "hUzQdbczna0Cd3FyH+bhS5SWBDzmVQyA+nCi/UZO6VI=",
         "originContent": "This project is licensed under the terms of the Apache 2.0 license. See the [LICENSE](LICENSE) file for more details.",
-        "translatedContent": "هذا المشروع مرخص وفقًا لشروط رخصة Apache 2.0. راجع ملف [الرخصة](LICENSE) لمزيد من التفاصيل."
+        "translatedContent": "هذا المشروع مرخص بموجب شروط ترخيص Apache 2.0. راجع ملف [الترخيص](LICENSE) لمزيد من التفاصيل."
       },
       {
-        "row": 66,
+        "row": 28,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 67,
+        "row": 29,
         "rowsha": "ZX9nbduzXgvmAaK8yTd+tNgwR7cV79HXV/+xbvL8suw=",
         "originContent": "## Contact",
         "translatedContent": "## التواصل"
       },
       {
-        "row": 68,
+        "row": 30,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 69,
+        "row": 31,
         "rowsha": "sZud9u8DDdJRsIyc+T0tdusx1FWC0pdv0Yn2hhndP9o=",
         "originContent": "If you have any questions, suggestions, or feedback, please feel free to reach out to us at [Jet Xu's email](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/mailto:Voldemort.xu@foxmail.com).",
-        "translatedContent": "إذا كان لديك أي أسئلة أو اقتراحات أو ملاحظات، لا تتردد في التواصل معنا عبر [بريد Jet Xu الإلكتروني](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/mailto:Voldemort.xu@foxmail.com)."
+        "translatedContent": "إذا كانت لديك أي أسئلة أو اقتراحات أو ملاحظات، لا تتردد في التواصل معنا عبر [البريد الإلكتروني لـ Jet Xu](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/mailto:Voldemort.xu@foxmail.com)."
       },
       {
-        "row": 70,
+        "row": 32,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 71,
+        "row": 33,
         "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
         "originContent": "---",
         "translatedContent": "---"
       },
       {
-        "row": 72,
+        "row": 34,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 73,
+        "row": 35,
         "rowsha": "98t5imS5RZt8kUxGAXqZcPmlZMcru27Gl/g31hb3g/c=",
         "originContent": "Thank you for choosing llama-github! We hope this library enhances your AI development experience and helps you build powerful applications with ease.",
-        "translatedContent": "شكرًا لاختيارك llama-github! نأمل أن تعزز هذه المكتبة تجربتك في تطوير الذكاء الاصطناعي وتساعدك على بناء تطبيقات قوية بسهولة."
+        "translatedContent": "شكرًا لاختيارك llama-github! نأمل أن تعزز هذه المكتبة تجربتك في تطوير الذكاء الاصطناعي وأن تساعدك في بناء تطبيقات قوية بسهولة."
       },
       {
-        "row": 74,
+        "row": 36,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

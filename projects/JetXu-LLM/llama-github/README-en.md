@@ -5,26 +5,25 @@
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-CN">Simplified Chinese</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-TW">Traditional Chinese</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ja">Japanese</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ko">Korean</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=hi">Hindi</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=th">Thai</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fr">French</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=de">German</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=es">Spanish</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=it">Italian</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ru">Russian</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pt">Portuguese</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=nl">Dutch</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pl">Polish</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ar">Arabic</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fa">Persian</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=tr">Turkish</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=vi">Vietnamese</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=id">Indonesian</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=as">Assamese</
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=id">Bahasa Indonesia</a>
       </div>
     </div>
   </details>
@@ -39,16 +38,18 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Llama-github is a powerful tool that helps you retrieve (based on Agentic RAG) the most relevant code snippets, issues, and repository information from GitHub based on your queries, transforming them into valuable knowledge context. It empowers LLM Chatbots, AI Agents, and Auto-dev Agents to solve complex coding tasks. Whether you're a developer looking for quick solutions or an engineer implementing advanced Auto Dev AI Agents, llama-github makes it easy and efficient.
-
 If you like this project or believe it has potential, please give it a ⭐️. Your support is our greatest motivation!
 
 ## Architecture
 ![High Level Architecture](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)
 
 ## Installation
+
 ```
 pip install llama-github
 ```
+
+Current maintained runtime target: Python `3.10+`.
 
 ## Usage
 
@@ -66,29 +67,32 @@ github_rag = GithubRAG(
 
 # Retrieve context for a coding question (simple_mode is default set to False)
 query = "How to create a NumPy array in Python?"
-context = github_rag.retrieve_context(
-    query, # In professional mode, one query will take nearly 1 min to generate final contexts. You could set log level to INFO to monitor the retrieval progress
+contexts = github_rag.retrieve_context(
+    query,
     # simple_mode = True
 )
 
-print(context)
+print(contexts[0]["url"])
+print(contexts[0]["context"])
 ```
 
-For more advanced usage and examples, please refer to the [documentation](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md).
+`retrieve_context()` returns a list of context dictionaries. Each item contains at least `context` and `url`.
+
+For more advanced usage and examples, please refer to the [documentation](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md). Runnable low-cost examples are also available in [`examples/`](examples).
 
 ## Key Features
 
 - **🔍 Intelligent GitHub Retrieval**: Harness the power of llama-github to retrieve highly relevant code snippets, issues, and repository information from GitHub based on user queries. Our advanced retrieval techniques ensure you find the most pertinent information quickly and efficiently.
 
-- **⚡ Repository Pool Caching**: Llama-github has an innovative repository pool caching mechanism. By caching repositories (including READMEs, structures, code, and issues) across threads, llama-github significantly accelerates GitHub search retrieval efficiency and minimizes the consumption of GitHub API tokens. Deploy llama-github in multi-threaded production environments with confidence, knowing that it will perform optimally and save you valuable resources.
+- **⚡ Repository Pool Caching**: Llama-github has an innovative repository pool caching mechanism. By caching repositories (including READMEs, structures, code, and issues) across threads, llama-github significantly accelerates GitHub search retrieval efficiency and minimizes the consumption of GitHub API tokens.
 
 - **🧠 LLM-Powered Question Analysis**: Leverage state-of-the-art language models to analyze user questions and generate highly effective search strategies and criteria. Llama-github intelligently breaks down complex queries, ensuring that you retrieve the most relevant information from GitHub's vast repository network.
 
 - **📚 Comprehensive Context Generation**: Generate rich, contextually relevant answers by seamlessly combining information retrieved from GitHub with the reasoning capabilities of advanced language models. Llama-github excels at handling even the most complex and lengthy questions, providing comprehensive and insightful responses that include extensive context to support your development needs.
 
-- **🚀 Asynchronous Processing Excellence**: Llama-github is built from the ground up to leverage the full potential of asynchronous programming. With meticulously implemented asynchronous mechanisms woven throughout the codebase, llama-github can handle multiple requests concurrently, significantly boosting overall performance. Experience the difference as llama-github efficiently manages high-volume workloads without compromising on speed or quality.
+- **🚀 Asynchronous Processing Excellence**: Llama-github is built from the ground up to leverage the full potential of asynchronous programming. With meticulously implemented asynchronous mechanisms woven throughout the codebase, llama-github can handle multiple requests concurrently, significantly boosting overall performance.
 
-- **🔧 Flexible LLM Integration**: Easily integrate llama-github with various LLM providers, embedding models, and reranking models to tailor the library's capabilities to your specific requirements. Our extensible architecture allows you to customize and enhance llama-github's functionality, ensuring that it adapts seamlessly to your unique development environment.
+- **🔧 Flexible LLM Integration**: Easily integrate llama-github with various LLM providers, embedding models, reranking models, or an injected LangChain-compatible chat model to tailor the library's capabilities to your specific requirements.
 
 - **🔒 Robust Authentication Options**: Llama-github supports both personal access tokens and GitHub App authentication, providing you with the flexibility to integrate it into different development setups. Whether you're an individual developer or working within an organizational context, llama-github has you covered with secure and reliable authentication mechanisms.
 
@@ -120,7 +124,7 @@ Our vision is to become a pivotal module in the future of AI-driven development 
 
 ### Roadmap
 
-For a detailed view of our project roadmap, please visit our [Project Roadmap](https://github.com/users/JetXu-LLM/projects/2).
+For a historical view of the earlier roadmap, please visit [Vision and Roadmap](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/VISION_AND_ROADMAP.md).
 
 ## Acknowledgments
 
@@ -150,6 +154,6 @@ Thank you for choosing llama-github! We hope this library enhances your AI devel
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-28
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-26
 
 ---

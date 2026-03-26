@@ -1,0 +1,2228 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Nzm6eLTFHU+1P3KOh0q+2rO5JOu02kL3lyknFqqaBh0=",
+    "originContent": "![image](https://user-images.githubusercontent.com/33346637/235085980-eb16eaa3-ec89-4293-9609-cf651a44f60e.png)",
+    "translatedContent": "![image](https://user-images.githubusercontent.com/33346637/235085980-eb16eaa3-ec89-4293-9609-cf651a44f60e.png)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "0MwpBfMlS2A9GPO2Ow5bn4e7cVljd8tNKle9g0CcdHA=",
+    "originContent": "Spring ViewComponent allows you to create typesafe, reusable & encapsulated server-rendered UI components.",
+    "translatedContent": "Spring ViewComponent は、型安全で再利用可能かつカプセル化されたサーバーサイドレンダリングUIコンポーネントを作成することを可能にします。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "rCAsFlwRFrI46yYGzF1Wz0OA4xDRfyRzBcunQeTfylA=",
+    "originContent": "##### Table of Contents",
+    "translatedContent": "##### 目次"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "8b6GQ0qhJRoC4CtnzjInmTVSlfymeMC7ofgKub2JYE8=",
+    "originContent": "- [What’s a ViewComponent?](#whats-a-viewcomponent)",
+    "translatedContent": "- [ViewComponentとは？](#whats-a-viewcomponent)"
+  },
+  {
+    "row": 8,
+    "rowsha": "E0lz4mHnx/dvYiHFImZ+Y3N44iknGLz7u9MdZZ80tpI=",
+    "originContent": "- [Render a ViewComponent](#render-a-viewcomponent)",
+    "translatedContent": "- [ViewComponentのレンダリング](#render-a-viewcomponent)"
+  },
+  {
+    "row": 9,
+    "rowsha": "axVu6gsVaUQCnQuX8gbwfJ4WKX/RElf3Q8cERWxnUuw=",
+    "originContent": "- [Nesting ViewComponents:](#nesting-viewcomponents)",
+    "translatedContent": "- [ViewComponentのネスト](#nesting-viewcomponents)"
+  },
+  {
+    "row": 10,
+    "rowsha": "2s7YIBAdB99MwcQkdPeRn+voNF7Kn3e59hyPEQIxVpk=",
+    "originContent": "- [Local Development Configuration](#local-development)",
+    "translatedContent": "- [ローカル開発設定](#local-development)"
+  },
+  {
+    "row": 11,
+    "rowsha": "VMLuINfpDdl+P3LnR43Zq4Prv9+Ly2tU74THUEbFIiw=",
+    "originContent": "- [Production Configuration](#production-configuration)",
+    "translatedContent": "- [本番環境設定](#production-configuration)"
+  },
+  {
+    "row": 12,
+    "rowsha": "Wl12oCRmfvQwHCfuvjGuhBK05j+rCEJcS20CJyqXCVA=",
+    "originContent": "- [Installation](#installation)",
+    "translatedContent": "- [インストール](#installation)"
+  },
+  {
+    "row": 13,
+    "rowsha": "/RWjni6+QepZdPGyVBqkIeoy8z+hqouIMMg1rxtWYjE=",
+    "originContent": "- [Technical Implementation](#technical-implementation)",
+    "translatedContent": "- [技術的実装](#technical-implementation)"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "p5omTr8daL4lzCSUQ4TZUHDhhgVQsFOp1Mj1yKy8E44=",
+    "originContent": "## What’s a ViewComponent?",
+    "translatedContent": "## ViewComponentとは？"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "oNBDhGmI/fQW3IuZlPKRfEIU0Qs17xXJAUIDOUQvqMA=",
+    "originContent": "ViewComponents consolidate the logic needed for a template into a single class,",
+    "translatedContent": "ViewComponentは、テンプレートに必要なロジックを単一のクラスに統合し、"
+  },
+  {
+    "row": 18,
+    "rowsha": "S0QnL8koHFohBTyZcL11fCzBfN8xcO9yxQfzUImTj50=",
+    "originContent": "resulting in a cohesive object that is easy to understand. ",
+    "translatedContent": "理解しやすい一貫したオブジェクトを生み出します。"
+  },
+  {
+    "row": 19,
+    "rowsha": "/0QcIZ0IZPMGDMuEAzd+MC8dt3wNfj7oUnmfhYt01wY=",
+    "originContent": "([Source: ViewComponent for Rails](https://viewcomponent.org/))",
+    "translatedContent": "（[出典: ViewComponent for Rails](https://viewcomponent.org/)）"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "hFosDxso6QM7uTgjZH0rdMYx97gGwLs4V4Gmofwi/2Q=",
+    "originContent": "A Spring ViewComponent is a Spring Bean that defines the context for our Template:",
+    "translatedContent": "Spring ViewComponentは、テンプレートのコンテキストを定義するSpring Beanです："
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+    "originContent": "<details open>",
+    "translatedContent": "<details open>"
+  },
+  {
+    "row": 24,
+    "rowsha": "NUrVxdscrqjYxQUxMMcH7UmS6MZGh14flDJREGoiH6A=",
+    "originContent": "    <summary>Java</summary>",
+    "translatedContent": "    <summary>Java</summary>"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "kmeUknZWvQqd6QHYymxyuEp9VJU1vtFuih5CAdsZd/g=",
+    "originContent": "@ViewComponent",
+    "translatedContent": "@ViewComponent"
+  },
+  {
+    "row": 29,
+    "rowsha": "RQBLcKp75sKXYHiZuZCF2DaHxVFlqEZDoImiQh6OhIw=",
+    "originContent": "public class SimpleViewComponent {",
+    "translatedContent": "public class SimpleViewComponent {"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "seY9GYmO7XUd0V8376XsFJNoFrjXQLnD4CYNc1hKo4Q=",
+    "originContent": "  public record SimpleView(String helloWorld) implements ViewContext {",
+    "translatedContent": "  public record SimpleView(String helloWorld) implements ViewContext {"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "yO3EotZ1qtbosvPoFOQop3gcXIP/RypBEwOxJO/wtwA=",
+    "originContent": "  public SimpleView render() {",
+    "translatedContent": "  public SimpleView render() {"
+  },
+  {
+    "row": 36,
+    "rowsha": "LSjLvKKUsvLyr062hi1cn42xN883I7hS9/b93cLpCvg=",
+    "originContent": "    return new SimpleView(\"Hello World\");",
+    "translatedContent": "    return new SimpleView(\"Hello World\");"
+  },
+  {
+    "row": 37,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 38,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 39,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "XzsYq3tqAP6I33UIsG7xfYxopS6bQ3FZFXF3sGXzc7U=",
+    "originContent": "We define the context by creating a record that implements the ViewContext interface",
+    "translatedContent": "ViewContextインターフェースを実装するレコードを作成してコンテキストを定義します"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "NSa7RzVaNS7mzpfDpjuKwFIhTpEVF+0RMRXjhkVP+dw=",
+    "originContent": "Next, we add the `@ViewComponent` annotation to a class and define a method that returns the `SimpleView` record.",
+    "translatedContent": "次に、クラスに`@ViewComponent`アノテーションを追加し、`SimpleView`レコードを返すメソッドを定義します"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 48,
+    "rowsha": "CW4ady3+GjQt3om0Zrv/1bXRKJLRlF8XICKfU3OdXxo=",
+    "originContent": "    <summary>Kotlin</summary>",
+    "translatedContent": "    <summary>Kotlin</summary>"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 51,
+    "rowsha": "pM6ZbY0Fu3SgR5vbLiZJrczyt2Q5m8CEHj9zQW4FrUU=",
+    "originContent": "// SimpleViewComponent.kt",
+    "translatedContent": "// SimpleViewComponent.kt"
+  },
+  {
+    "row": 52,
+    "rowsha": "kmeUknZWvQqd6QHYymxyuEp9VJU1vtFuih5CAdsZd/g=",
+    "originContent": "@ViewComponent",
+    "translatedContent": "@ViewComponent"
+  },
+  {
+    "row": 53,
+    "rowsha": "CVL7oOyW2+UfM0AYAUF1XtahJao5QeHaF4KJDHCSpmg=",
+    "originContent": "class SimpleViewComponent {",
+    "translatedContent": "class SimpleViewComponent {"
+  },
+  {
+    "row": 54,
+    "rowsha": "LXgFeIzP51QrvYwJKi3tX8tJauvn6M8cZjdk2a8+Yrs=",
+    "originContent": "    fun render() = SimpleView(\"Hello World\")",
+    "translatedContent": "    fun render() = SimpleView(\"Hello World\")"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "gIThpl7TTta+bl5kcpp/7DMlc4Bx2nJdIqavlUbpQrw=",
+    "originContent": "    data class SimpleView(val helloWorld: String) : ViewContext",
+    "translatedContent": "    data class SimpleView(val helloWorld: String) : ViewContext"
+  },
+  {
+    "row": 57,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 58,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "kJC0+IwnxeOR3x/FE73XmfYq3vf1ErmL1Dt5OCof3ZE=",
+    "originContent": "A ViewComponent always needs a corresponding HTML Template.",
+    "translatedContent": "ViewComponentには常に対応するHTMLテンプレートが必要です。  "
+  },
+  {
+    "row": 63,
+    "rowsha": "71GHju6QqM1RpfUjoqwqPxgNtzVhf5MNCVei+xEyctY=",
+    "originContent": "We define the Template in the SimpleViewComponent.[html/jte/kte] In the same package as our ViewComponent class.",
+    "translatedContent": "テンプレートはSimpleViewComponent.[html/jte/kte]で定義します。ViewComponentクラスと同じパッケージに置きます。"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "ueFU1BXAw/OR/C3lTwhsCCfjfTmVrMD6a4m9rPpLdmY=",
+    "originContent": "We can use [Thymeleaf](https://thymeleaf.org)",
+    "translatedContent": "[Thymeleaf](https://thymeleaf.org)を使用することもできます。"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "mf+fdkmJVa/jzHFv6rDK4Lr8naO2JTU4I85ptMk30SI=",
+    "originContent": "````html ",
+    "translatedContent": "````html "
+  },
+  {
+    "row": 68,
+    "rowsha": "6hnWSEhvi9e5WlUstdlK6raGjMSLqhVlSeLtkdRfSu8=",
+    "originContent": "// SimpleViewComponent.html",
+    "translatedContent": "// SimpleViewComponent.html"
+  },
+  {
+    "row": 69,
+    "rowsha": "gUHleLpgHzxkKlQxNuHxP+ci5ngzmWOwB9ARmE/+S0E=",
+    "originContent": "<!--/*@thymesVar id=\"d\" type=\"de.tschuehly.example.thymeleafjava.web.simple.SimpleViewComponent.SimpleView\"*/-->",
+    "translatedContent": "<!--/*@thymesVar id=\"d\" type=\"de.tschuehly.example.thymeleafjava.web.simple.SimpleViewComponent.SimpleView\"*/-->"
+  },
+  {
+    "row": 70,
+    "rowsha": "AWz1JSBjG6pTb2ZxXNrLzhRQ/21zqZq+nhSEGUV7x88=",
+    "originContent": "<div th:text=\"${simpleView.helloWorld()}\"></div>",
+    "translatedContent": "<div th:text=\"${simpleView.helloWorld()}\"></div>"
+  },
+  {
+    "row": 71,
+    "rowsha": "MpvA5TLaYie/8aAz02NkgKLlS+fOGFzbx44GNyxZMkg=",
+    "originContent": "````",
+    "translatedContent": "````"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "sS8ylNvRI0QwO7dej6iC0sBfmNNN1Q2cD5vk5vsxUKo=",
+    "originContent": "or [JTE](https://jte.gg/#5-minutes-example)",
+    "translatedContent": "または [JTE](https://jte.gg/#5-minutes-example)"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 76,
+    "rowsha": "zaZgYzRfYp8sSlGAIqu3OmfiHHN0RPBhjdd+8h8Myug=",
+    "originContent": "// SimpleViewComponent.jte",
+    "translatedContent": "// SimpleViewComponent.jte"
+  },
+  {
+    "row": 77,
+    "rowsha": "29bar2klZJGP+YKrjDMG+aGWs4C77lnZ+ufsnE1Twig=",
+    "originContent": "@param de.tschuehly.example.jte.web.simple.SimpleViewComponent.SimpleView simpleView",
+    "translatedContent": "@param de.tschuehly.example.jte.web.simple.SimpleViewComponent.SimpleView simpleView"
+  },
+  {
+    "row": 78,
+    "rowsha": "HPTGbhc/pW83x9BDdoJlmL/QD02/h3lU+sEIRw7EYWE=",
+    "originContent": "<div>${simpleView.helloWorld()}</div>",
+    "translatedContent": "<div>${simpleView.helloWorld()}</div>"
+  },
+  {
+    "row": 79,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "A3B06HYVKce0dOQav6VWJxJvzXGsTR1zSHNArrCbeT4=",
+    "originContent": "or [KTE](https://jte.gg/#5-minutes-example)",
+    "translatedContent": "または [KTE](https://jte.gg/#5-minutes-example)"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 84,
+    "rowsha": "OPB445gSGg/NYOh6Oia7d38wnfQ5DBdUWZH4CD6G87s=",
+    "originContent": "@param simpleView: de.tschuehly.kteviewcomponentexample.web.simple.SimpleViewComponent.SimpleView",
+    "translatedContent": "@param simpleView: de.tschuehly.kteviewcomponentexample.web.simple.SimpleViewComponent.SimpleView"
+  },
+  {
+    "row": 85,
+    "rowsha": "nkUn+xN/CzcfeDtOk14RpAo9+3G9PEheeFaPGaNcIe4=",
+    "originContent": "<div>",
+    "translatedContent": "<div>"
+  },
+  {
+    "row": 86,
+    "rowsha": "VrMra05EIa024cd8YPvdcPLytWF/Dq2JCnOZ0QsLLVk=",
+    "originContent": "  <h2>This is the SimpleViewComponent</h2>",
+    "translatedContent": "  <h2>This is the SimpleViewComponent</h2>"
+  },
+  {
+    "row": 87,
+    "rowsha": "qPBK/kNES/PeZyyWOPiuaZSIlNlZa3ZXz/bSFVvdg5s=",
+    "originContent": "  <div>${simpleView.helloWorld}</div>",
+    "translatedContent": "  <div>${simpleView.helloWorld}</div>"
+  },
+  {
+    "row": 88,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 89,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "w7PUnSo/UC84Y88GHcf7EKocGQ+NLv/eZs81jHx8wRY=",
+    "originContent": "## Render a ViewComponent",
+    "translatedContent": "## ViewComponentをレンダリングする"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "H5V9nk85QZoeGQXOsPd1dXQ37tUuZVvs2CcDJYkfdBk=",
+    "originContent": "We can then call the render method in our controller to render the template.",
+    "translatedContent": "次に、コントローラーでrenderメソッドを呼び出してテンプレートをレンダリングできます。"
+  },
+  {
+    "row": 94,
+    "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+    "originContent": "<details open>",
+    "translatedContent": "<details open>"
+  },
+  {
+    "row": 95,
+    "rowsha": "NUrVxdscrqjYxQUxMMcH7UmS6MZGh14flDJREGoiH6A=",
+    "originContent": "    <summary>Java</summary>",
+    "translatedContent": "    <summary>Java</summary>"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "YAykiiQVmGwk6leqOll66UftSwzkB4/EUx0ck5ZFAfk=",
+    "originContent": "@Controller",
+    "translatedContent": "@Controller"
+  },
+  {
+    "row": 100,
+    "rowsha": "cJsNhovXIieq7KySoQeOIh0FlIjES2lizJ7Q86YgRq4=",
+    "originContent": "public class SimpleController {",
+    "translatedContent": "public class SimpleController {"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "Cpf/SdR0zuyJD1dcIsj7JqTKmtSkS3+/nysNo1GnFvw=",
+    "originContent": "  private final SimpleViewComponent simpleViewComponent;",
+    "translatedContent": "  private final SimpleViewComponent simpleViewComponent;"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "fSsquLjds9Dwy6D4kk8haK9+T8vcX/Z5Y6IPTou6VtE=",
+    "originContent": "  public TestController(SimpleViewComponent simpleViewComponent) {",
+    "translatedContent": "  public TestController(SimpleViewComponent simpleViewComponent) {"
+  },
+  {
+    "row": 105,
+    "rowsha": "8KocEoBPoQTSkOPdoXg4Wu5BJRiKlUAt2sqE31z08BM=",
+    "originContent": "    this.simpleViewComponent = simpleViewComponent;",
+    "translatedContent": "    this.simpleViewComponent = simpleViewComponent;"
+  },
+  {
+    "row": 106,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "q7SyqZ7Z06C1YyhC9k7KRkGL+Q9r21FrERX1LE4XTnE=",
+    "originContent": "  @GetMapping(\"/\")",
+    "translatedContent": "  @GetMapping(\"/\")"
+  },
+  {
+    "row": 109,
+    "rowsha": "3hGwBv5XZ8yibcI+CCLd2KnuRRJPvPKB39dTAmtCF2o=",
+    "originContent": "  ViewContext simple() {",
+    "translatedContent": "  ViewContext simple() {"
+  },
+  {
+    "row": 110,
+    "rowsha": "gZ0BqVxLRxIp98wObwRo+LpQDlvzcfTogLR6Wv6yhH0=",
+    "originContent": "    return simpleViewComponent.render();",
+    "translatedContent": "    return simpleViewComponent.render();"
+  },
+  {
+    "row": 111,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 112,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 113,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 118,
+    "rowsha": "CW4ady3+GjQt3om0Zrv/1bXRKJLRlF8XICKfU3OdXxo=",
+    "originContent": "    <summary>Kotlin</summary>",
+    "translatedContent": "    <summary>Kotlin</summary>"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 121,
+    "rowsha": "KdnjYHuRMcHue/34kWT5nGtfaXKvINIZSUVGp0Q+tN8=",
+    "originContent": "// Router.kt",
+    "translatedContent": "// Router.kt"
+  },
+  {
+    "row": 122,
+    "rowsha": "YAykiiQVmGwk6leqOll66UftSwzkB4/EUx0ck5ZFAfk=",
+    "originContent": "@Controller",
+    "translatedContent": "@Controller"
+  },
+  {
+    "row": 123,
+    "rowsha": "RtgPDTkl5E03wk1gN13ThDbedOQdr9UMVO9zvw3A6jc=",
+    "originContent": "class SimpleController(",
+    "translatedContent": "class SimpleController("
+  },
+  {
+    "row": 124,
+    "rowsha": "QAhuhneuDgX61QJ8w1efggNHvSXNHWclX2wOVxwh7Qg=",
+    "originContent": "    private val simpleViewComponent: SimpleViewComponent,",
+    "translatedContent": "    private val simpleViewComponent: SimpleViewComponent,"
+  },
+  {
+    "row": 125,
+    "rowsha": "q/pZNwmDylL7qzgj65cLpvM2ts23AtFfsYPmzcteRmE=",
+    "originContent": ") {",
+    "translatedContent": ") {"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "4gIf4ln5Tk8931vWeAcGb9BSdsbrM9y6slFbsBl/dFA=",
+    "originContent": "    @GetMapping(\"/\")",
+    "translatedContent": "    @GetMapping(\"/\")"
+  },
+  {
+    "row": 128,
+    "rowsha": "LwwmMsm0K71IJcpY6d6Otw6tmn9goCbpZVFfPPUWouM=",
+    "originContent": "    fun simpleComponent() = simpleViewComponent.render()",
+    "translatedContent": "    fun simpleComponent() = simpleViewComponent.render()"
+  },
+  {
+    "row": 129,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 130,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+    "originContent": "## Examples",
+    "translatedContent": "## 例"
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "CUqmau//SzJWsEzI6iD4DzDywi3fsSBTqzFZJnG7Ts0=",
+    "originContent": "If you want to get started right away you can find examples for all possible language combinations here:",
+    "translatedContent": "すぐに始めたい場合は、すべての可能な言語の組み合わせの例がこちらにあります："
+  },
+  {
+    "row": 137,
+    "rowsha": "xwPn6IUcmZLVkj1kn5LwmaS3k4yd9ME2uyeTlhgSQys=",
+    "originContent": "[Examples](/examples/)",
+    "translatedContent": "[例](/examples/)"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "tolKZiXdoKuq+i9NRjN0rTKcyYIAGA1PmCoB8hYOYX0=",
+    "originContent": "## Nesting ViewComponents:",
+    "translatedContent": "## ViewComponentsのネスト："
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "HE31jAouCmsGT7v9Rs4FXF6Cnq3CSVRQxy8/Ju3egtE=",
+    "originContent": "We can nest components by passing a ViewContext as property of our record,",
+    "translatedContent": "レコードのプロパティとしてViewContextを渡すことでコンポーネントをネストできます。"
+  },
+  {
+    "row": 142,
+    "rowsha": "cEe/USEQml0IkmZj2JPffntHm9wI44bsFz5TSE+iYSs=",
+    "originContent": "if we also have it as parameter of our render method we can easily create layouts:",
+    "translatedContent": "レンダーメソッドのパラメータとしても持っていれば、簡単にレイアウトを作成できます："
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+    "originContent": "<details open>",
+    "translatedContent": "<details open>"
+  },
+  {
+    "row": 145,
+    "rowsha": "NUrVxdscrqjYxQUxMMcH7UmS6MZGh14flDJREGoiH6A=",
+    "originContent": "    <summary>Java</summary>",
+    "translatedContent": "    <summary>Java</summary>"
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "kmeUknZWvQqd6QHYymxyuEp9VJU1vtFuih5CAdsZd/g=",
+    "originContent": "@ViewComponent",
+    "translatedContent": "@ViewComponent"
+  },
+  {
+    "row": 150,
+    "rowsha": "76HzdddhlPpRo1Vql+ZB5haF+RTURpedpQpVGkMz/9c=",
+    "originContent": "public",
+    "translatedContent": "public"
+  },
+  {
+    "row": 151,
+    "rowsha": "hMFq7CGHcBLHtzSqGKnEknmaMXlFl4/KtTOrpnH9Cew=",
+    "originContent": "class LayoutViewComponent {",
+    "translatedContent": "class LayoutViewComponent {"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "0aisnO2xqroCpKTSWMiWLKnwUyVriHZqE+IuHDntG5M=",
+    "originContent": "  private record LayoutView(ViewContext nestedViewComponent) implements ViewContext {",
+    "translatedContent": "  private record LayoutView(ViewContext nestedViewComponent) implements ViewContext {"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "+2+tvpjaONG4Q39zYIYR5d43+e694t3+njqa2xMhx20=",
+    "originContent": "  public ViewContext render(ViewContext nestedViewComponent) {",
+    "translatedContent": "  public ViewContext render(ViewContext nestedViewComponent) {"
+  },
+  {
+    "row": 158,
+    "rowsha": "pyrGFliw2JpobqQKiubZx4bl2kqUNxrsh6LN1X56QbI=",
+    "originContent": "    return new LayoutView(nestedViewComponent);",
+    "translatedContent": "    return new LayoutView(nestedViewComponent);"
+  },
+  {
+    "row": 159,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 160,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 161,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 163,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "<details >"
+  },
+  {
+    "row": 164,
+    "rowsha": "vaE7Q+xZ1Gxsm6tYlqh+tBstj4ZwCciqSlE7FYnHJwg=",
+    "originContent": "<details >",
+    "translatedContent": "    <summary>Kotlin</summary>"
+  },
+  {
+    "row": 165,
+    "rowsha": "CW4ady3+GjQt3om0Zrv/1bXRKJLRlF8XICKfU3OdXxo=",
+    "originContent": "    <summary>Kotlin</summary>",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 168,
+    "rowsha": "kmeUknZWvQqd6QHYymxyuEp9VJU1vtFuih5CAdsZd/g=",
+    "originContent": "@ViewComponent",
+    "translatedContent": "@ViewComponent"
+  },
+  {
+    "row": 169,
+    "rowsha": "hMFq7CGHcBLHtzSqGKnEknmaMXlFl4/KtTOrpnH9Cew=",
+    "originContent": "class LayoutViewComponent {",
+    "translatedContent": "class LayoutViewComponent {"
+  },
+  {
+    "row": 170,
+    "rowsha": "gVxSG+J3Jb9XDwvj0oy1s8wgJ8h7ZjjNbrPrAOOMqaI=",
+    "originContent": "    data class LayoutView(val nestedViewComponent: ViewContext) : ViewContext",
+    "translatedContent": "    data class LayoutView(val nestedViewComponent: ViewContext) : ViewContext"
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "PjXvkYPyUXt10p4MX0y44mnjkJYAJ/CqAi+E6flqkx8=",
+    "originContent": "    fun render(nestedViewComponent: ViewContext) = LayoutView(nestedViewComponent)",
+    "translatedContent": "    fun render(nestedViewComponent: ViewContext) = LayoutView(nestedViewComponent)"
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 175,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "7nA+/dA0b3YVdAbXpWmNOD2YLcZAcfrkqkSJ2DQ/Jgc=",
+    "originContent": "### Thymeleaf",
+    "translatedContent": "### Thymeleaf"
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 181,
+    "rowsha": "UAFYjOh40LU/omDoJn9ws6f2tlNUQkSSAPHIVNaLYBc=",
+    "originContent": "In Thymeleaf we render the passed ViewComponent with the `view:component=\"${viewContext}\"` attribute.",
+    "translatedContent": "Thymeleafでは、渡されたViewComponentを`view:component=\"${viewContext}\"`属性でレンダリングします。"
+  },
+  {
+    "row": 182,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 183,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "AXYSTqdSU2R+tRs0rfZKOzMPmaf9oLwfeF1FKbry/IQ=",
+    "originContent": "<nav>",
+    "translatedContent": "<nav>"
+  },
+  {
+    "row": 186,
+    "rowsha": "gOt7YZddTMpujF70wBNpaJWXDebOUPh1yf3tfUDylEY=",
+    "originContent": "  This is a navbar",
+    "translatedContent": "  This is a navbar"
+  },
+  {
+    "row": 187,
+    "rowsha": "UND1kG3XMkjUFO/mAO80BCfxhPmF2KTnBg42DBQTcqA=",
+    "originContent": "</nav>",
+    "translatedContent": "</nav>"
+  },
+  {
+    "row": 188,
+    "rowsha": "/kSFVa/mxWZekt0Bnc74oSXwHCgO0lXPhcceiwrGThM=",
+    "originContent": "<!--/*@thymesVar id=\"layoutView\" type=\"de.tschuehly.example.thymeleafjava.web.layout.LayoutViewComponent.LayoutView\"*/-->",
+    "translatedContent": "<!--/*@thymesVar id=\"layoutView\" type=\"de.tschuehly.example.thymeleafjava.web.layout.LayoutViewComponent.LayoutView\"*/-->"
+  },
+  {
+    "row": 189,
+    "rowsha": "RqQw9FgitRZv1LmwvBniUsXrt/YMAbn4KfrEQu8GHco=",
+    "originContent": "<div view:component=\"${layoutView.nestedViewComponent()}\"></div>",
+    "translatedContent": "<div view:component=\"${layoutView.nestedViewComponent()}\"></div>"
+  },
+  {
+    "row": 190,
+    "rowsha": "pZMx2/+g6e2RZy46WLFlAUONyOWFh4NUr+OKbLI6wmQ=",
+    "originContent": "<footer>",
+    "translatedContent": "<footer>"
+  },
+  {
+    "row": 191,
+    "rowsha": "msKJkUDjJ2srso2Sod5FN9wKNES3UFH3yUJfxVaMC+k=",
+    "originContent": "  This is a footer",
+    "translatedContent": "  This is a footer"
+  },
+  {
+    "row": 192,
+    "rowsha": "aI9iVrM/BwinUFEOv3EaqMHNeDVuPFcTy6t+R5WIlyo=",
+    "originContent": "</footer>",
+    "translatedContent": "</footer>"
+  },
+  {
+    "row": 193,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "Wg4peuS9qKrCUVCgQpKCCKRqV6Pyw2jPtlXpkyk9+QY=",
+    "originContent": "### JTE / KTE",
+    "translatedContent": "### JTE / KTE"
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 197,
+    "rowsha": "WVsiGSZJxJjiZYtigfQmUZR/bLKXTdbRkqUFKssBOG8=",
+    "originContent": "In JTE/KTE we can just call the LayoutView record directly in an expression:",
+    "translatedContent": "JTE/KTEでは、レイアウトビューのレコードを式内で直接呼び出すことができます："
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 200,
+    "rowsha": "pV9ZHSeKYOUik1bwG3jA0JofFymGetHSOi1uk9ZrhRA=",
+    "originContent": "@param layoutView: de.tschuehly.kteviewcomponentexample.web.layout.LayoutViewComponent.LayoutView",
+    "translatedContent": "@param layoutView: de.tschuehly.kteviewcomponentexample.web.layout.LayoutViewComponent.LayoutView"
+  },
+  {
+    "row": 201,
+    "rowsha": "AXYSTqdSU2R+tRs0rfZKOzMPmaf9oLwfeF1FKbry/IQ=",
+    "originContent": "<nav>",
+    "translatedContent": "<nav>"
+  },
+  {
+    "row": 202,
+    "rowsha": "hVzBDdg+u5opmGb/Gbbh2zI+bJdyA9gs3Nxu/toR4RY=",
+    "originContent": "  This is a Navbar",
+    "translatedContent": "  This is a Navbar"
+  },
+  {
+    "row": 203,
+    "rowsha": "UND1kG3XMkjUFO/mAO80BCfxhPmF2KTnBg42DBQTcqA=",
+    "originContent": "</nav>",
+    "translatedContent": "</nav>"
+  },
+  {
+    "row": 204,
+    "rowsha": "mqv9Flz7lvxeFwhi5P2ckM+ipXBa9AFhfINvFSOY/OE=",
+    "originContent": "<body>",
+    "translatedContent": "<body>"
+  },
+  {
+    "row": 205,
+    "rowsha": "7EhLlcvJMLBRcjAEsqE58bQNWPp1QeXFQQHKQ/LNSQI=",
+    "originContent": "${layoutView.nestedViewComponent}",
+    "translatedContent": "${layoutView.nestedViewComponent}"
+  },
+  {
+    "row": 206,
+    "rowsha": "EkIH2EvcihB8vMBCEqCR6FFX4J178gj3r7SDlJj+8IM=",
+    "originContent": "</body>",
+    "translatedContent": "</body>"
+  },
+  {
+    "row": 207,
+    "rowsha": "pZMx2/+g6e2RZy46WLFlAUONyOWFh4NUr+OKbLI6wmQ=",
+    "originContent": "<footer>",
+    "translatedContent": "<footer>"
+  },
+  {
+    "row": 208,
+    "rowsha": "msKJkUDjJ2srso2Sod5FN9wKNES3UFH3yUJfxVaMC+k=",
+    "originContent": "  This is a footer",
+    "translatedContent": "  This is a footer"
+  },
+  {
+    "row": 209,
+    "rowsha": "aI9iVrM/BwinUFEOv3EaqMHNeDVuPFcTy6t+R5WIlyo=",
+    "originContent": "</footer>",
+    "translatedContent": "</footer>"
+  },
+  {
+    "row": 210,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 211,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 212,
+    "rowsha": "zxDGi9wFUkyU/lPmDeM7hhPOainQ3RnS4iCnBuykMaE=",
+    "originContent": "## Local Development Configuration",
+    "translatedContent": "## ローカル開発構成"
+  },
+  {
+    "row": 213,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 214,
+    "rowsha": "Co62wsvZ2LbccCdhQsfCkgKp3yz+i0w039h6GU66MDk=",
+    "originContent": "You can enable hot-reloading of the templates in development, you need to have Spring Boot DevTools as a dependency.",
+    "translatedContent": "テンプレートのホットリロードを開発環境で有効にするには、Spring Boot DevTools を依存関係に含める必要があります。"
+  },
+  {
+    "row": 215,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "7PCY8L4UWp+PfU5H31sdGaZpAbtkbTtzEqdEtnP5FVU=",
+    "originContent": "```properties",
+    "translatedContent": "```properties"
+  },
+  {
+    "row": 217,
+    "rowsha": "hEkq0tvKJ5N8TBUl8AMEQfsr/3JRXnRliP/+snKV5fI=",
+    "originContent": "spring.view-component.local-development=true",
+    "translatedContent": "spring.view-component.local-development=true"
+  },
+  {
+    "row": 218,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 220,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 221,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 222,
+    "rowsha": "rlQj48ZGvpP4mHfAFJYdwT/cVFIrPTchBXEUL+NKtqk=",
+    "originContent": "### Thymeleaf:",
+    "translatedContent": "### Thymeleaf:"
+  },
+  {
+    "row": 223,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 224,
+    "rowsha": "1uGmLzopbJIqBVXKN4hAhOomta5Duyz8bRjH5aCV0VQ=",
+    "originContent": "[LATEST_VERSION](https://central.sonatype.com/artifact/de.tschuehly/spring-view-component-thymeleaf) on Maven Central",
+    "translatedContent": "[Maven Centralの最新バージョン](https://central.sonatype.com/artifact/de.tschuehly/spring-view-component-thymeleaf)"
+  },
+  {
+    "row": 225,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 226,
+    "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+    "originContent": "<details open>",
+    "translatedContent": "<details open>"
+  },
+  {
+    "row": 227,
+    "rowsha": "4P8NoaMj8HFat23Gn413qXBxzdR7SQ/blO7ySpppt2M=",
+    "originContent": "    <summary>Gradle</summary>",
+    "translatedContent": "    <summary>Gradle</summary>"
+  },
+  {
+    "row": 228,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 229,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 230,
+    "rowsha": "tRzO+BAXBOayh1rgY4FEIW+KKs1v1O8qE62TpZNjDcM=",
+    "originContent": "implementation(\"de.tschuehly:spring-view-component-thymeleaf:0.9.1\")",
+    "translatedContent": "implementation(\"de.tschuehly:spring-view-component-thymeleaf:0.9.1\")"
+  },
+  {
+    "row": 231,
+    "rowsha": "7oYoWDVKIEcQRLGsfal9Ih0wDR8RDiWO/tsneNYVcu0=",
+    "originContent": "sourceSets {",
+    "translatedContent": "sourceSets {"
+  },
+  {
+    "row": 232,
+    "rowsha": "luVrAqJkTCIuhJQ7sp0EIlnifgmOBdvM2IvAuNS0dIk=",
+    "originContent": "    main {",
+    "translatedContent": "    main {"
+  },
+  {
+    "row": 233,
+    "rowsha": "8l+SFkJ7/thQqu97+aDZYgUM9gCZPnCxdZs+YSgRHyE=",
+    "originContent": "        resources {",
+    "translatedContent": "        resources {"
+  },
+  {
+    "row": 234,
+    "rowsha": "XWYI+PF9XScypWADpNqiQQe1u3/S1eTXP1ExGkJqv0o=",
+    "originContent": "            srcDir(\"src/main/java\")",
+    "translatedContent": "            srcDir(\"src/main/java\")"
+  },
+  {
+    "row": 235,
+    "rowsha": "24CoqS53ZUSHCkwjAri/H7AmwrmTnC19+9ZUyaVJwAk=",
+    "originContent": "            exclude(\"**/*.java\")",
+    "translatedContent": "            exclude(\"**/*.java\")"
+  },
+  {
+    "row": 236,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 237,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 238,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 239,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 240,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 241,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 242,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 243,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 244,
+    "rowsha": "PwB/ZZG0lLdNyLu5D7IO0eZfq9dG4Pruld7t8GqAAc4=",
+    "originContent": "    <summary>Maven</summary>",
+    "translatedContent": "    <summary>Maven</summary>"
+  },
+  {
+    "row": 245,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 246,
+    "rowsha": "t8tiRzaNtUnLbiIQGiHIAAk1ELMO6fTRRvBkkpFEsR4=",
+    "originContent": "```xml",
+    "translatedContent": "```xml"
+  },
+  {
+    "row": 247,
+    "rowsha": "MTzKgb3IJvUt4+SBxkzKFQapdiCoDZf57sbRxBblrrU=",
+    "originContent": "<project>",
+    "translatedContent": "<project>"
+  },
+  {
+    "row": 248,
+    "rowsha": "OpcVZ+H8YgSsnhmyGoi98KSBeHKn8C0WgY3sNeaaK4Y=",
+    "originContent": "  <dependencies>",
+    "translatedContent": "  <dependencies>"
+  },
+  {
+    "row": 249,
+    "rowsha": "iSdTcKaptAdOTjATKQ0ZZUvq5SulhD1G86I/5UfbRvE=",
+    "originContent": "    <dependency>",
+    "translatedContent": "    <dependency>"
+  },
+  {
+    "row": 250,
+    "rowsha": "8XPrNOZOKuGNvxv1+pZbYLcHYhaV8P9W9kSbZUjzVe4=",
+    "originContent": "      <groupId>de.tschuehly</groupId>",
+    "translatedContent": "      <groupId>de.tschuehly</groupId>"
+  },
+  {
+    "row": 251,
+    "rowsha": "GPwTK8Bpl/XnlsqgR5VTurdAYLiPCobr4XHrqKKP3Uo=",
+    "originContent": "      <artifactId>spring-view-component-thymeleaf</artifactId>",
+    "translatedContent": "      <artifactId>spring-view-component-thymeleaf</artifactId>"
+  },
+  {
+    "row": 252,
+    "rowsha": "J3d6ihSzSY4mSkyfvEZCYBYajvrcIr43CYaPT9hNsTo=",
+    "originContent": "      <version>0.9.1</version>",
+    "translatedContent": "      <version>0.9.1</version>"
+  },
+  {
+    "row": 253,
+    "rowsha": "mJv5+de0HxPfbhhevcDANWAuyh8coMOnkDxvZDl+rPI=",
+    "originContent": "    </dependency>",
+    "translatedContent": "    </dependency>"
+  },
+  {
+    "row": 254,
+    "rowsha": "qlzFQGlYcjB7W2rvgPW1SVnSToYZDbZ3hHnjFi5u59U=",
+    "originContent": "  </dependencies>",
+    "translatedContent": "  </dependencies>"
+  },
+  {
+    "row": 255,
+    "rowsha": "Dj24+tWAyZp/9qoaN42Hp4erionX7wfVF2wD5Xm/NJg=",
+    "originContent": "  <build>",
+    "translatedContent": "  <build>"
+  },
+  {
+    "row": 256,
+    "rowsha": "zqy8/Y4ExHCSbvS9wIAzbweg4iI6bgmQ6tSArLVtyNs=",
+    "originContent": "    <resources>",
+    "translatedContent": "    <resources>"
+  },
+  {
+    "row": 257,
+    "rowsha": "QmMe/x98ZUG99FeB6YyMlFgpGyMnxZMlYUUBz4lGgSY=",
+    "originContent": "      <resource>",
+    "translatedContent": "      <resource>"
+  },
+  {
+    "row": 258,
+    "rowsha": "jtUdwGoEUKjanXdHxKQxiz4eMyrjMGs8h1YJ6Ewxr0E=",
+    "originContent": "        <directory>src/main/java</directory>",
+    "translatedContent": "        <directory>src/main/java</directory>"
+  },
+  {
+    "row": 259,
+    "rowsha": "tnMV2tU+8nZ82gFxZ6Fc1FET3nq554ke9H8ePEZnY1o=",
+    "originContent": "        <includes>",
+    "translatedContent": "        <includes>"
+  },
+  {
+    "row": 260,
+    "rowsha": "LViLW9LewvwEi4jy+ZauKhbpLF34n6/b3IzuVGQjp+8=",
+    "originContent": "          <include>**/*.html</include>",
+    "translatedContent": "          <include>**/*.html</include>"
+  },
+  {
+    "row": 261,
+    "rowsha": "cMJHpX3iQ1wDLM9OuM79oOisbgsAAnKeE8R6cVa2HQU=",
+    "originContent": "        </includes>",
+    "translatedContent": "        </includes>"
+  },
+  {
+    "row": 262,
+    "rowsha": "0g+RAYcMyd0ULx9CPyHQA4df8e4nNAl212f56H/7vyo=",
+    "originContent": "      </resource>",
+    "translatedContent": "      </resource>"
+  },
+  {
+    "row": 263,
+    "rowsha": "QmMe/x98ZUG99FeB6YyMlFgpGyMnxZMlYUUBz4lGgSY=",
+    "originContent": "      <resource>",
+    "translatedContent": "      <resource>"
+  },
+  {
+    "row": 264,
+    "rowsha": "Jnr1cpdWoiaDSJR017W+z33NnPfEwT/3GilDLaHzQdw=",
+    "originContent": "        <directory>src/main/resources</directory>",
+    "translatedContent": "        <directory>src/main/resources</directory>"
+  },
+  {
+    "row": 265,
+    "rowsha": "0g+RAYcMyd0ULx9CPyHQA4df8e4nNAl212f56H/7vyo=",
+    "originContent": "      </resource>",
+    "translatedContent": "      </resource>"
+  },
+  {
+    "row": 266,
+    "rowsha": "0I3eyva8CjBaCF+5xGRr77iLMBcyQumU/lE7pyROEkI=",
+    "originContent": "    </resources>",
+    "translatedContent": "    </resources>"
+  },
+  {
+    "row": 267,
+    "rowsha": "lkgvBCBscvUyoiCqn1V+eK3IUpwZgOwPq/QhhQ2cURI=",
+    "originContent": "    <plugins>",
+    "translatedContent": "    <plugins>"
+  },
+  {
+    "row": 268,
+    "rowsha": "YqlAd86eHDEYN7yKEvh079rKDwhi6/0lSmW9CNH66Jc=",
+    "originContent": "      <plugin>",
+    "translatedContent": "      <plugin>"
+  },
+  {
+    "row": 269,
+    "rowsha": "Ez5t6HmDQYoUGScAaJogncjyuxk07BdUP5X/D8dtffg=",
+    "originContent": "        <artifactId>maven-resources-plugin</artifactId>",
+    "translatedContent": "        <artifactId>maven-resources-plugin</artifactId>"
+  },
+  {
+    "row": 270,
+    "rowsha": "UwcUJx00hCitFAlb0So+FHRQWlfwMjWzId+mqGFtzrc=",
+    "originContent": "        <version>3.3.0</version>",
+    "translatedContent": "        <version>3.3.0</version>"
+  },
+  {
+    "row": 271,
+    "rowsha": "+0rjUIAHH4eL84fPIHsclMafhZI9z/qk2qzg4/ft29A=",
+    "originContent": "      </plugin>",
+    "translatedContent": "      </plugin>"
+  },
+  {
+    "row": 272,
+    "rowsha": "yp4TgP29I7cZNYW9YhXyEgrclfj2YnXEoLWTwye0cL0=",
+    "originContent": "    </plugins>",
+    "translatedContent": "    </plugins>"
+  },
+  {
+    "row": 273,
+    "rowsha": "dqdqNKpQrG+qkTrq5D84i6Pzn/pPLk7WiMeZ64ic5YM=",
+    "originContent": "  </build>",
+    "translatedContent": "  </build>"
+  },
+  {
+    "row": 274,
+    "rowsha": "nU/utRnsBvktgcoaRqj1gFuVZdugNgbAqgMYKpavU4k=",
+    "originContent": "</project>",
+    "translatedContent": "</project>"
+  },
+  {
+    "row": 275,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 276,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 277,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 278,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 279,
+    "rowsha": "Oiq5T1GF4EBbKzQz4lM2LAokgDxjSzsBPXU4LFflea0=",
+    "originContent": "### JTE",
+    "translatedContent": "### JTE"
+  },
+  {
+    "row": 280,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 281,
+    "rowsha": "IwYJCMqzngfd7Igyy5by6Md7EWtWaIgibSb2QWtHsGg=",
+    "originContent": "[LATEST_VERSION](https://central.sonatype.com/artifact/de.tschuehly/spring-view-component-jte) on Maven Central",
+    "translatedContent": "[Maven Centralの最新バージョン](https://central.sonatype.com/artifact/de.tschuehly/spring-view-component-jte)"
+  },
+  {
+    "row": 282,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 283,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 284,
+    "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+    "originContent": "<details open>",
+    "translatedContent": "<details open>"
+  },
+  {
+    "row": 285,
+    "rowsha": "4P8NoaMj8HFat23Gn413qXBxzdR7SQ/blO7ySpppt2M=",
+    "originContent": "    <summary>Gradle</summary>",
+    "translatedContent": "    <summary>Gradle</summary>"
+  },
+  {
+    "row": 286,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 287,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 288,
+    "rowsha": "TpXRua9oA1LlGXbJ4v1/1JiwKOLUGgxp/cVta+YFvR0=",
+    "originContent": "plugins {",
+    "translatedContent": "plugins {"
+  },
+  {
+    "row": 289,
+    "rowsha": "cM4hi9zhA30YaPduTftd5SkJAE/dc9vdd9fLMm0cGVk=",
+    "originContent": "    id(\"gg.jte.gradle\") version(\"3.2.1\")",
+    "translatedContent": "    id(\"gg.jte.gradle\") version(\"3.2.1\")"
+  },
+  {
+    "row": 290,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 291,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 292,
+    "rowsha": "z+Rawz+ZZRaiIyNbOcuTmtocsoG9CpKSrBXcdcV3tAI=",
+    "originContent": "implementation(\"de.tschuehly:spring-view-component-jte:0.9.1\")",
+    "translatedContent": "implementation(\"de.tschuehly:spring-view-component-jte:0.9.1\")"
+  },
+  {
+    "row": 293,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 294,
+    "rowsha": "LwGPMU9Fi3301hScH31Fj1vw3x4kq1kutCak/5eg+oI=",
+    "originContent": "jte{",
+    "translatedContent": "jte{"
+  },
+  {
+    "row": 295,
+    "rowsha": "lZL04AzbD9axtOTztLnB++3EzIlEOGjU5VVnh6JiXG4=",
+    "originContent": "    generate()",
+    "translatedContent": "    generate()"
+  },
+  {
+    "row": 296,
+    "rowsha": "znNhPjboCzDbEwoD8Sm9CfmP6Rp/glylBl4w1erzoRM=",
+    "originContent": "    sourceDirectory.set(kotlin.io.path.Path(\"src/main/java\"))",
+    "translatedContent": "    sourceDirectory.set(kotlin.io.path.Path(\"src/main/java\"))"
+  },
+  {
+    "row": 297,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 298,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 299,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 300,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 301,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 302,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 303,
+    "rowsha": "PwB/ZZG0lLdNyLu5D7IO0eZfq9dG4Pruld7t8GqAAc4=",
+    "originContent": "    <summary>Maven</summary>",
+    "translatedContent": "    <summary>Maven</summary>"
+  },
+  {
+    "row": 304,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 305,
+    "rowsha": "t8tiRzaNtUnLbiIQGiHIAAk1ELMO6fTRRvBkkpFEsR4=",
+    "originContent": "```xml",
+    "translatedContent": "```xml"
+  },
+  {
+    "row": 306,
+    "rowsha": "kNuIInDrs2ES9a6Tn5K+dPinSTuXYynL0Dh3T4H1P24=",
+    "originContent": "<project >",
+    "translatedContent": "<project >"
+  },
+  {
+    "row": 307,
+    "rowsha": "OpcVZ+H8YgSsnhmyGoi98KSBeHKn8C0WgY3sNeaaK4Y=",
+    "originContent": "  <dependencies>",
+    "translatedContent": "  <dependencies>"
+  },
+  {
+    "row": 308,
+    "rowsha": "iSdTcKaptAdOTjATKQ0ZZUvq5SulhD1G86I/5UfbRvE=",
+    "originContent": "    <dependency>",
+    "translatedContent": "    <dependency>"
+  },
+  {
+    "row": 309,
+    "rowsha": "8XPrNOZOKuGNvxv1+pZbYLcHYhaV8P9W9kSbZUjzVe4=",
+    "originContent": "      <groupId>de.tschuehly</groupId>",
+    "translatedContent": "      <groupId>de.tschuehly</groupId>"
+  },
+  {
+    "row": 310,
+    "rowsha": "p4TUTs/BCWaqi1ENlPQ7IN6w0bhZ8Ftb4aLRXfuHj8o=",
+    "originContent": "      <artifactId>spring-view-component-jte</artifactId>",
+    "translatedContent": "      <artifactId>spring-view-component-jte</artifactId>"
+  },
+  {
+    "row": 311,
+    "rowsha": "J3d6ihSzSY4mSkyfvEZCYBYajvrcIr43CYaPT9hNsTo=",
+    "originContent": "      <version>0.9.1</version>",
+    "translatedContent": "      <version>0.9.1</version>"
+  },
+  {
+    "row": 312,
+    "rowsha": "mJv5+de0HxPfbhhevcDANWAuyh8coMOnkDxvZDl+rPI=",
+    "originContent": "    </dependency>",
+    "translatedContent": "    </dependency>"
+  },
+  {
+    "row": 313,
+    "rowsha": "qlzFQGlYcjB7W2rvgPW1SVnSToYZDbZ3hHnjFi5u59U=",
+    "originContent": "  </dependencies>",
+    "translatedContent": "  </dependencies>"
+  },
+  {
+    "row": 314,
+    "rowsha": "Dj24+tWAyZp/9qoaN42Hp4erionX7wfVF2wD5Xm/NJg=",
+    "originContent": "  <build>",
+    "translatedContent": "  <build>"
+  },
+  {
+    "row": 315,
+    "rowsha": "lkgvBCBscvUyoiCqn1V+eK3IUpwZgOwPq/QhhQ2cURI=",
+    "originContent": "    <plugins>",
+    "translatedContent": "    <plugins>"
+  },
+  {
+    "row": 316,
+    "rowsha": "YqlAd86eHDEYN7yKEvh079rKDwhi6/0lSmW9CNH66Jc=",
+    "originContent": "      <plugin>",
+    "translatedContent": "      <plugin>"
+  },
+  {
+    "row": 317,
+    "rowsha": "Mm4WAbfLU0SQUzOemGWkNNGWFmz4lRC6sESV9sXJKfU=",
+    "originContent": "        <groupId>gg.jte</groupId>",
+    "translatedContent": "        <groupId>gg.jte</groupId>"
+  },
+  {
+    "row": 318,
+    "rowsha": "jFD68PhzIsTPLf+w3ZSWAMbFnnaQlZnUtRUmVrm19RM=",
+    "originContent": "        <artifactId>jte-maven-plugin</artifactId>",
+    "translatedContent": "        <artifactId>jte-maven-plugin</artifactId>"
+  },
+  {
+    "row": 319,
+    "rowsha": "js2sW8JtkqMpGG2/YEx74s76+ICeEv/lU2YsbfxyINQ=",
+    "originContent": "        <version>3.1.12</version>",
+    "translatedContent": "        <version>3.1.12</version>"
+  },
+  {
+    "row": 320,
+    "rowsha": "c4ZLIh25+7rWWKfNtGEQhFseIuiwYimlwMGxolc87wQ=",
+    "originContent": "        <configuration>",
+    "translatedContent": "        <configuration>"
+  },
+  {
+    "row": 321,
+    "rowsha": "5SvY9QpM+doY02IzXGo7z4Gy0bwxo6WkUmPgCDEz86M=",
+    "originContent": "          <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>",
+    "translatedContent": "          <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>"
+  },
+  {
+    "row": 322,
+    "rowsha": "ShoUK3n6ldv6BQ7MxkbeSirOzNB4dopCRbOuRv5mLN4=",
+    "originContent": "          <contentType>Html</contentType>",
+    "translatedContent": "          <contentType>Html</contentType>"
+  },
+  {
+    "row": 323,
+    "rowsha": "/9/RUzMOi99vhOCHRHJVxMcu5Y1Z3Olf5Do2kNZb1ck=",
+    "originContent": "        </configuration>",
+    "translatedContent": "        </configuration>"
+  },
+  {
+    "row": 324,
+    "rowsha": "O/MyA8PoT11ney+fTZJUEGD34TwIx/w4MHg5LMn/kps=",
+    "originContent": "        <executions>",
+    "translatedContent": "        <executions>"
+  },
+  {
+    "row": 325,
+    "rowsha": "rUE4D0jekaF/CAwBTrkR/hxGHLNAIPldF67/uL5wlyI=",
+    "originContent": "          <execution>",
+    "translatedContent": "          <execution>"
+  },
+  {
+    "row": 326,
+    "rowsha": "VH2ElQ+O/qTtyurXsIjAUdCFZ+1KfG5nLJNc2Rwy05c=",
+    "originContent": "            <phase>generate-sources</phase>",
+    "translatedContent": "            <phase>generate-sources</phase>"
+  },
+  {
+    "row": 327,
+    "rowsha": "qiHTDl+mNsRG2/MRxezpjNAaxX1ckjZ5OiYnr5OUKDk=",
+    "originContent": "            <goals>",
+    "translatedContent": "            <goals>"
+  },
+  {
+    "row": 328,
+    "rowsha": "jx4u1FFlVLOKBMGrEbn7kzcPu/6uRP/Mq3gFdV9GBro=",
+    "originContent": "              <goal>generate</goal>",
+    "translatedContent": "              <goal>generate</goal>"
+  },
+  {
+    "row": 329,
+    "rowsha": "S1+B7E+vO0JVAQRMZzENtxqxLt7/cEk4wMIJp2ixdzQ=",
+    "originContent": "            </goals>",
+    "translatedContent": "            </goals>"
+  },
+  {
+    "row": 330,
+    "rowsha": "4MJeNsIsFTl8YmypHgHfCPTAGE3G4PbzGefN4Rtni4w=",
+    "originContent": "          </execution>",
+    "translatedContent": "          </execution>"
+  },
+  {
+    "row": 331,
+    "rowsha": "CIXO+BuHU33+7S79CRRdtGcLwwoVBeX0riFmyj43Vms=",
+    "originContent": "        </executions>",
+    "translatedContent": "        </executions>"
+  },
+  {
+    "row": 332,
+    "rowsha": "+0rjUIAHH4eL84fPIHsclMafhZI9z/qk2qzg4/ft29A=",
+    "originContent": "      </plugin>",
+    "translatedContent": "      </plugin>"
+  },
+  {
+    "row": 333,
+    "rowsha": "yp4TgP29I7cZNYW9YhXyEgrclfj2YnXEoLWTwye0cL0=",
+    "originContent": "    </plugins>",
+    "translatedContent": "    </plugins>"
+  },
+  {
+    "row": 334,
+    "rowsha": "dqdqNKpQrG+qkTrq5D84i6Pzn/pPLk7WiMeZ64ic5YM=",
+    "originContent": "  </build>",
+    "translatedContent": "  </build>"
+  },
+  {
+    "row": 335,
+    "rowsha": "nU/utRnsBvktgcoaRqj1gFuVZdugNgbAqgMYKpavU4k=",
+    "originContent": "</project>",
+    "translatedContent": "</project>"
+  },
+  {
+    "row": 336,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 337,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 338,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": ""
+  },
+  {
+    "row": 339,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### KTE"
+  },
+  {
+    "row": 340,
+    "rowsha": "5tv3a6gPGhmC/c1N+fFDroUjvPeRhdCvjRAGghLmnHs=",
+    "originContent": "### KTE",
+    "translatedContent": ""
+  },
+  {
+    "row": 341,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[Maven CentralのLATEST_VERSION](https://central.sonatype.com/artifact/de.tschuehly/spring-view-component-kte)"
+  },
+  {
+    "row": 342,
+    "rowsha": "pCjgwDjWPyb/Eik5DtXX0ymENAykey2uX6yHscwBRVE=",
+    "originContent": "[LATEST_VERSION](https://central.sonatype.com/artifact/de.tschuehly/spring-view-component-kte) on Maven Central",
+    "translatedContent": ""
+  },
+  {
+    "row": 343,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 344,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<details open>"
+  },
+  {
+    "row": 345,
+    "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+    "originContent": "<details open>",
+    "translatedContent": "    <summary>Gradle</summary>"
+  },
+  {
+    "row": 346,
+    "rowsha": "4P8NoaMj8HFat23Gn413qXBxzdR7SQ/blO7ySpppt2M=",
+    "originContent": "    <summary>Gradle</summary>",
+    "translatedContent": ""
+  },
+  {
+    "row": 347,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 348,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 349,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 350,
+    "rowsha": "TpXRua9oA1LlGXbJ4v1/1JiwKOLUGgxp/cVta+YFvR0=",
+    "originContent": "plugins {",
+    "translatedContent": "plugins {"
+  },
+  {
+    "row": 351,
+    "rowsha": "26SfcpYFK0ij83+cLuFcomYnHHquSvSuRJXPhRtiEW0=",
+    "originContent": "    id(\"gg.jte.gradle\") version (\"3.1.12\")",
+    "translatedContent": "    id(\"gg.jte.gradle\") version (\"3.1.12\")"
+  },
+  {
+    "row": 352,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 353,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 354,
+    "rowsha": "YiU0BYrj6/iCE+VQzVtTmQYPeT0yaMuVWxaQJ1+t/zA=",
+    "originContent": "dependencies {",
+    "translatedContent": "dependencies {"
+  },
+  {
+    "row": 355,
+    "rowsha": "V0Ve7WcApAIvaUsTgBupV0Zl7XlyxegZN+PXFxT8Mp8=",
+    "originContent": "    implementation(\"de.tschuehly:spring-view-component-kte:0.9.1\")",
+    "translatedContent": "    implementation(\"de.tschuehly:spring-view-component-kte:0.9.1\")"
+  },
+  {
+    "row": 356,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 357,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 358,
+    "rowsha": "G24OM2hwoKR8dp9k6WLjQrFonFfn7UV4ySXEwtLUqa4=",
+    "originContent": "jte {",
+    "translatedContent": "jte {"
+  },
+  {
+    "row": 359,
+    "rowsha": "lZL04AzbD9axtOTztLnB++3EzIlEOGjU5VVnh6JiXG4=",
+    "originContent": "    generate()",
+    "translatedContent": "    generate()"
+  },
+  {
+    "row": 360,
+    "rowsha": "pAKcyWLeoMi/cxBOofYvO22W2j4rCF5TEjdAjOyqrSg=",
+    "originContent": "    sourceDirectory.set(kotlin.io.path.Path(\"src/main/kotlin\"))",
+    "translatedContent": "    sourceDirectory.set(kotlin.io.path.Path(\"src/main/kotlin\"))"
+  },
+  {
+    "row": 361,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 362,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 363,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 364,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 365,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 366,
+    "rowsha": "levVL/eOBuOTgf0kavUi/eCbI+FtMmOIfKOrkx/cGVg=",
+    "originContent": "## Technical Implementation",
+    "translatedContent": "## 技術的実装"
+  },
+  {
+    "row": 367,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 368,
+    "rowsha": "BIIJ3LO2+S8IvBmmLGtTfzU03nNVBzX/bgH67xW2Y2c=",
+    "originContent": "Spring ViewComponent wraps the Spring MVC container using an AspectJ Aspect and automatically resolves the template and puts the ViewContext in the ModelAndViewContainer",
+    "translatedContent": "Spring ViewComponentはAspectJのアスペクトを使用してSpring MVCコンテナをラップし、自動的にテンプレートを解決してViewContextをModelAndViewContainerに配置します"
+  },
+  {
+    "row": 369,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 370,
+    "rowsha": "4snM7KTAnePQXEklQtbXqYqLnIC/bw2jSQHTYW+VcD0=",
+    "originContent": "![image](https://github.com/tschuehly/spring-view-component/assets/33346637/ad2f2517-7eab-4b07-9249-59aeaae1e778)",
+    "translatedContent": "![image](https://github.com/tschuehly/spring-view-component/assets/33346637/ad2f2517-7eab-4b07-9249-59aeaae1e778)"
+  },
+  {
+    "row": 371,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

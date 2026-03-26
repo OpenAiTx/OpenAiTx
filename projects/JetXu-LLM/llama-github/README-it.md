@@ -24,7 +24,6 @@
         | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=as">অসমীয়া</
       </div>
     </div>
   </details>
@@ -38,9 +37,9 @@
 [![Download](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)
 [![Licenza](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Llama-github è un potente strumento che ti aiuta a recuperare (basato su Agentic RAG) i frammenti di codice, le issue e le informazioni sui repository più rilevanti da GitHub in base alle tue query, trasformandoli in un contesto di conoscenza prezioso. Potenzia Chatbot LLM, Agenti AI e Auto-dev Agent per risolvere compiti di codifica complessi. Che tu sia uno sviluppatore alla ricerca di soluzioni rapide o un ingegnere che implementa avanzati Agenti AI per Auto Dev, llama-github rende tutto semplice ed efficiente.
+Llama-github è uno strumento potente che ti aiuta a recuperare (basato su Agentic RAG) i frammenti di codice più rilevanti, problemi e informazioni sui repository da GitHub in base alle tue richieste, trasformandoli in un prezioso contesto di conoscenza. Potenzia Chatbot LLM, Agenti AI e Auto-dev Agents per risolvere compiti di programmazione complessi. Che tu sia uno sviluppatore in cerca di soluzioni rapide o un ingegnere che implementa avanzati Auto Dev AI Agents, llama-github rende tutto facile ed efficiente.
 
-Se ti piace questo progetto o pensi che abbia del potenziale, lasciaci una ⭐️. Il tuo supporto è la nostra più grande motivazione!
+Se ti piace questo progetto o pensi che abbia del potenziale, lasciagli una ⭐️. Il tuo supporto è la nostra più grande motivazione!
 
 ## Architettura
 ![Architettura di Alto Livello](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)
@@ -50,9 +49,11 @@ Se ti piace questo progetto o pensi che abbia del potenziale, lasciaci una ⭐�
 pip install llama-github
 ```
 
+Target attuale di runtime mantenuto: Python `3.10+`.
+
 ## Utilizzo
 
-Ecco un semplice esempio su come utilizzare llama-github:
+Ecco un semplice esempio di come usare llama-github:
 
 ```python
 from llama_github import GithubRAG
@@ -66,90 +67,93 @@ github_rag = GithubRAG(
 
 # Retrieve context for a coding question (simple_mode is default set to False)
 query = "How to create a NumPy array in Python?"
-context = github_rag.retrieve_context(
-    query, # In professional mode, one query will take nearly 1 min to generate final contexts. You could set log level to INFO to monitor the retrieval progress
+contexts = github_rag.retrieve_context(
+    query,
     # simple_mode = True
 )
 
-print(context)
+print(contexts[0]["url"])
+print(contexts[0]["context"])
 ```
 
-Per un utilizzo più avanzato ed esempi, consulta la [documentazione](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md).
+`retrieve_context()` restituisce un elenco di dizionari di contesto. Ogni elemento contiene almeno `context` e `url`.
+
+Per un utilizzo più avanzato ed esempi, consulta la [documentazione](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md). Esempi eseguibili a basso costo sono disponibili anche in [`examples/`](examples).
 
 ## Caratteristiche Principali
 
-- **🔍 Recupero Intelligente da GitHub**: Sfrutta la potenza di llama-github per recuperare snippet di codice, issue e informazioni sui repository altamente pertinenti da GitHub in base alle richieste dell’utente. Le nostre tecniche avanzate di recupero assicurano che tu possa trovare rapidamente ed efficientemente le informazioni più rilevanti.
+- **🔍 Recupero Intelligente da GitHub**: Sfrutta la potenza di llama-github per recuperare frammenti di codice altamente pertinenti, issue e informazioni sui repository da GitHub in base alle richieste dell’utente. Le nostre tecniche avanzate di recupero ti garantiscono di trovare rapidamente ed efficientemente le informazioni più rilevanti.
 
-- **⚡ Caching del Pool di Repository**: Llama-github possiede un innovativo meccanismo di caching del pool di repository. Caching dei repository (inclusi README, strutture, codice e issue) attraverso i thread, llama-github accelera notevolmente l’efficienza del recupero delle ricerche su GitHub e minimizza il consumo di token API GitHub. Distribuisci llama-github in ambienti di produzione multi-thread con fiducia, sapendo che funzionerà al meglio e ti farà risparmiare risorse preziose.
+- **⚡ Caching del Pool di Repository**: Llama-github dispone di un innovativo meccanismo di caching del pool di repository. Memorizzando nella cache i repository (inclusi README, strutture, codice e issue) tra i thread, llama-github accelera notevolmente l’efficienza della ricerca su GitHub e riduce al minimo il consumo dei token API di GitHub.
 
-- **🧠 Analisi delle Domande Basata su LLM**: Sfrutta modelli linguistici all’avanguardia per analizzare le domande degli utenti e generare strategie e criteri di ricerca altamente efficaci. Llama-github scompone intelligentemente query complesse, assicurando che tu possa recuperare le informazioni più pertinenti dalla vasta rete di repository di GitHub.
+- **🧠 Analisi delle Domande Alimentata da LLM**: Sfrutta i più avanzati modelli linguistici per analizzare le domande degli utenti e generare strategie e criteri di ricerca estremamente efficaci. Llama-github scompone in modo intelligente le query complesse, assicurando il recupero delle informazioni più rilevanti dalla vasta rete di repository di GitHub.
 
-- **📚 Generazione di Contesto Completa**: Genera risposte ricche e contestualmente rilevanti combinando senza problemi le informazioni recuperate da GitHub con le capacità di ragionamento dei modelli linguistici avanzati. Llama-github eccelle nella gestione di domande anche molto complesse e lunghe, fornendo risposte approfondite e ricche di contesto per supportare le tue esigenze di sviluppo.
+- **📚 Generazione di Contesto Completa**: Genera risposte ricche e contestualmente pertinenti combinando senza soluzione di continuità le informazioni recuperate da GitHub con le capacità di ragionamento dei modelli linguistici avanzati. Llama-github eccelle nella gestione di domande anche molto complesse e lunghe, fornendo risposte complete e approfondite con ampio contesto a supporto delle tue esigenze di sviluppo.
 
-- **🚀 Eccellenza nell’Elaborazione Asincrona**: Llama-github è costruito da zero per sfruttare il pieno potenziale della programmazione asincrona. Con meccanismi asincroni implementati meticolosamente in tutto il codice, llama-github può gestire più richieste contemporaneamente, aumentando notevolmente le prestazioni complessive. Prova la differenza mentre llama-github gestisce efficientemente carichi di lavoro elevati senza compromettere velocità o qualità.
+- **🚀 Eccellenza nell’Elaborazione Asincrona**: Llama-github è stato progettato da zero per sfruttare al massimo il potenziale della programmazione asincrona. Grazie a meccanismi asincroni implementati meticolosamente in tutto il codice, llama-github può gestire più richieste contemporaneamente, aumentando notevolmente le prestazioni complessive.
 
-- **🔧 Integrazione Flessibile con LLM**: Integra facilmente llama-github con diversi provider LLM, modelli di embedding e modelli di reranking per adattare le capacità della libreria ai tuoi requisiti specifici. La nostra architettura estensibile ti consente di personalizzare e migliorare le funzionalità di llama-github, assicurando un’integrazione fluida con il tuo ambiente di sviluppo.
+- **🔧 Integrazione Flessibile con LLM**: Integra facilmente llama-github con vari provider LLM, modelli di embedding, modelli di reranking o un modello chat compatibile con LangChain iniettato, per adattare le capacità della libreria alle tue specifiche esigenze.
 
-- **🔒 Opzioni di Autenticazione Robuste**: Llama-github supporta sia i token di accesso personale sia l’autenticazione tramite GitHub App, offrendoti la flessibilità per integrarlo in diversi ambienti di sviluppo. Che tu sia uno sviluppatore individuale o lavori in un contesto organizzativo, llama-github ti offre meccanismi di autenticazione sicuri e affidabili.
+- **🔒 Opzioni di Autenticazione Robuste**: Llama-github supporta sia token di accesso personali che autenticazione tramite GitHub App, offrendo flessibilità di integrazione in diversi contesti di sviluppo. Che tu sia uno sviluppatore singolo o lavori in un'organizzazione, llama-github ti offre meccanismi di autenticazione sicuri ed affidabili.
 
-- **🛠️ Logging e Gestione Errori**: Comprendiamo l’importanza di un funzionamento fluido e di una facile risoluzione dei problemi. Per questo llama-github è dotato di meccanismi completi di logging e gestione degli errori. Ottieni approfondimenti dettagliati sul comportamento della libreria, diagnostica rapidamente i problemi e mantieni un workflow di sviluppo stabile e affidabile.
+- **🛠️ Logging e Gestione degli Errori**: Sappiamo quanto siano importanti le operazioni fluide e la facile risoluzione dei problemi. Per questo llama-github è dotato di un sistema completo di logging e gestione degli errori. Ottieni profonde informazioni sul comportamento della libreria, diagnostica rapidamente i problemi e mantieni un flusso di lavoro di sviluppo stabile e affidabile.
 
-## 🤖 Prova il Nostro Assistant AI per la Revisione PR: LlamaPReview
+## 🤖 Prova il Nostro Assistente di Revisione PR AI: LlamaPReview
 
-Se trovi utile llama-github, potresti essere interessato anche al nostro assistente AI per la revisione di PR su GitHub, LlamaPReview. È progettato per integrare il tuo workflow di sviluppo e migliorare ulteriormente la qualità del codice.
+Se trovi utile llama-github, potresti essere interessato anche al nostro assistente AI per la revisione delle PR su GitHub, LlamaPReview. È progettato per completare il tuo flusso di lavoro di sviluppo e migliorare ulteriormente la qualità del codice.
 
 ### Caratteristiche Principali di LlamaPReview:
 - 🚀 Installazione con un clic, nessuna configurazione richiesta, esecuzione completamente automatica
-- 💯 Attualmente gratuito - nessuna carta di credito o pagamento richiesto
-- 🧠 Recensioni PR automatiche, basate su AI, con profonda comprensione del codice
+- 💯 Attualmente gratuito - nessuna carta di credito o info di pagamento richiesta
+- 🧠 Revisioni PR automatiche alimentate da AI con profonda comprensione del codice
 - 🌐 Supporta molteplici linguaggi di programmazione
 
-**LlamaPReview utilizza il recupero di contesto avanzato e l’analisi LLM di llama-github** per offrire revisioni intelligenti e consapevoli del contesto. È come avere un senior developer, armato del contesto completo del tuo repository, che rivede ogni PR automaticamente!
+**LlamaPReview utilizza il recupero di contesto avanzato e l’analisi LLM di llama-github** per fornire revisioni del codice intelligenti e consapevoli del contesto. È come avere uno sviluppatore senior, armato del pieno contesto del tuo repository, che revisiona ogni PR automaticamente!
 
 👉 [Installa LlamaPReview Ora](https://github.com/marketplace/llamapreview/) (Gratis)
 
-Utilizzando llama-github per il recupero del contesto e LlamaPReview per le revisioni del codice, puoi creare un potente ambiente di sviluppo potenziato dall’AI.
+Utilizzando llama-github per il recupero del contesto e LlamaPReview per le revisioni del codice, puoi creare un potente ambiente di sviluppo potenziato dall’IA.
 
-## Visione e Roadmap
+## Vision e Roadmap
 
 ### Visione
 
-La nostra visione è diventare un modulo fondamentale nel futuro delle soluzioni di sviluppo guidate dall’AI, integrandoci perfettamente con GitHub per consentire agli LLM di risolvere automaticamente compiti di coding complessi.
+La nostra visione è diventare un modulo fondamentale nel futuro delle soluzioni di sviluppo guidate dall’IA, integrandoci perfettamente con GitHub per consentire agli LLM di risolvere automaticamente compiti di codifica complessi.
 
-![Vision Architecture](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)
+![Architettura della Visione](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)
 
 ### Roadmap
 
-Per una panoramica dettagliata della nostra roadmap, visita il nostro [Project Roadmap](https://github.com/users/JetXu-LLM/projects/2).
+Per una panoramica storica della roadmap precedente, visita [Vision and Roadmap](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/VISION_AND_ROADMAP.md).
 
-## Riconoscimenti
+## Ringraziamenti
 
-Desideriamo esprimere la nostra gratitudine ai seguenti progetti open-source per il loro supporto e contributo:
+Vorremmo esprimere la nostra gratitudine ai seguenti progetti open-source per il loro supporto e contributo:
 
-- **[LangChain](https://github.com/langchain-ai/langchain)**: Per aver fornito il framework di base che potenzia le capacità di prompting e processing LLM in llama-github.
-- **[Jina.ai](https://github.com/jina-ai/reader)**: Per aver offerto API s.jina.ai e modelli open source di reranking ed embedding che migliorano la precisione e la pertinenza dei contesti generati in llama-github.
+- **[LangChain](https://github.com/langchain-ai/langchain)**: Per aver fornito il framework di base che potenzia le capacità di prompting e processing degli LLM in llama-github.
+- **[Jina.ai](https://github.com/jina-ai/reader)**: Per aver messo a disposizione l’API s.jina.ai e modelli open source di reranker ed embedding che migliorano l’accuratezza e la rilevanza dei contesti generati in llama-github.
 
-I loro contributi sono stati fondamentali per lo sviluppo di llama-github e raccomandiamo vivamente di esplorare i loro progetti per altre soluzioni innovative.
+I loro contributi sono stati fondamentali per lo sviluppo di llama-github e consigliamo vivamente di consultare i loro progetti per soluzioni ancora più innovative.
 
 ## Contribuire
 
-Accogliamo con piacere i contributi a llama-github! Consulta le nostre [linee guida per i contributi](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md) per maggiori informazioni.
+Siamo lieti di accogliere contributi a llama-github! Consulta le nostre [linee guida per i contributori](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md) per ulteriori informazioni.
 
 ## Licenza
 
-Questo progetto è rilasciato secondo i termini della licenza Apache 2.0. Consulta il file [LICENSE](LICENSE) per maggiori dettagli.
+Questo progetto è concesso in licenza secondo i termini della licenza Apache 2.0. Consulta il file [LICENSE](LICENSE) per maggiori dettagli.
 
 ## Contatti
 
-Se hai domande, suggerimenti o feedback, sentiti libero di contattarci a [l’email di Jet Xu](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/mailto:Voldemort.xu@foxmail.com).
+Se hai domande, suggerimenti o feedback, non esitare a contattarci all’indirizzo email di [Jet Xu](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/mailto:Voldemort.xu@foxmail.com).
 
 ---
 
-Grazie per aver scelto llama-github! Speriamo che questa libreria migliori la tua esperienza di sviluppo AI e ti aiuti a costruire potenti applicazioni con facilità.
+Grazie per aver scelto llama-github! Speriamo che questa libreria migliori la tua esperienza nello sviluppo AI e ti aiuti a costruire potenti applicazioni con facilità.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-28
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-26
 
 ---

@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Dil</summary>
@@ -24,7 +23,6 @@
         | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=as">অসমীয়া</
       </div>
     </div>
   </details>
@@ -32,27 +30,30 @@
 
 # llama-github
 
-[Ayrıntılı Doküman] https://deepwiki.com/JetXu-LLM/llama-github
+[Ayrıntılı Belge] https://deepwiki.com/JetXu-LLM/llama-github
 
-[![PyPI versiyonu](https://badge.fury.io/py/llama-github.svg)](https://badge.fury.io/py/llama-github)
-[![İndirme](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)
+[![PyPI sürümü](https://badge.fury.io/py/llama-github.svg)](https://badge.fury.io/py/llama-github)
+[![İndirmeler](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)
 [![Lisans](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Llama-github, sorgularınıza dayalı olarak GitHub'dan en alakalı kod parçacıklarını, sorunları ve depo bilgilerini (Agentic RAG tabanlı) almanıza yardımcı olan güçlü bir araçtır ve bunları değerli bilgi bağlamına dönüştürür. LLM Sohbet Botlarını, Yapay Zeka Ajanlarını ve Otomatik Geliştirici Ajanlarını karmaşık kodlama görevlerini çözmeleri için güçlendirir. İster hızlı çözümler arayan bir geliştirici, ister gelişmiş Otomatik Geliştirici AI Ajanları uygulayan bir mühendis olun, llama-github bunu kolay ve verimli hale getirir.
+Llama-github, sorgularınıza göre GitHub'daki en alakalı kod parçacıklarını, sorunları ve depo bilgilerini (Agentic RAG tabanlı) bulmanıza yardımcı olan güçlü bir araçtır; bunları değerli bilgi bağlamına dönüştürür. LLM Sohbetbotlarını, AI Ajanlarını ve Otomatik geliştirme Ajanlarını karmaşık kodlama görevlerini çözmek için güçlendirir. İster hızlı çözümler arayan bir geliştirici, ister gelişmiş Otomatik Geliştirme AI Ajanlarını uygulayan bir mühendis olun, llama-github bunu kolay ve verimli hale getirir.
 
-Eğer bu projeyi beğendiyseniz veya potansiyeli olduğunu düşünüyorsanız, lütfen bir ⭐️ verin. Desteğiniz en büyük motivasyon kaynağımız!
+
+Eğer bu projeyi beğendiyseniz veya potansiyeli olduğuna inanıyorsanız, lütfen bir ⭐️ verin. Desteğiniz en büyük motivasyonumuz!
 
 ## Mimari
-![Yüksek Seviye Mimari](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)
+![Yüksek Seviyede Mimari](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)
 
 ## Kurulum
 ```
 pip install llama-github
 ```
 
+Mevcut desteklenen çalışma zamanı hedefi: Python `3.10+`.
+
 ## Kullanım
 
-llama-github'un nasıl kullanılacağına dair basit bir örnek:
+llama-github'u nasıl kullanacağınızla ilgili basit bir örnek:
 
 ```python
 from llama_github import GithubRAG
@@ -66,90 +67,93 @@ github_rag = GithubRAG(
 
 # Retrieve context for a coding question (simple_mode is default set to False)
 query = "How to create a NumPy array in Python?"
-context = github_rag.retrieve_context(
-    query, # In professional mode, one query will take nearly 1 min to generate final contexts. You could set log level to INFO to monitor the retrieval progress
+contexts = github_rag.retrieve_context(
+    query,
     # simple_mode = True
 )
 
-print(context)
+print(contexts[0]["url"])
+print(contexts[0]["context"])
 ```
 
-Daha gelişmiş kullanım ve örnekler için lütfen [dokümantasyona](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md) başvurun.
+`retrieve_context()` bir liste halinde bağlam (context) sözlükleri döndürür. Her bir öğe en az `context` ve `url` içerir.
+
+Daha gelişmiş kullanım ve örnekler için lütfen [dokümantasyonu](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md) inceleyin. Çalıştırılabilir düşük maliyetli örnekler ise [`examples/`](examples) klasöründe mevcuttur.
 
 ## Temel Özellikler
 
-- **🔍 Akıllı GitHub Getirme**: Llama-github'un gücünü kullanarak, kullanıcı sorgularına göre GitHub'dan son derece alakalı kod parçacıkları, sorunlar ve depo bilgileri alın. Gelişmiş getirme tekniklerimizle en alakalı bilgilere hızlı ve verimli bir şekilde ulaşın.
+- **🔍 Akıllı GitHub Alımı**: Llama-github ile kullanıcı sorgularına göre oldukça ilgili kod parçacıkları, sorunlar ve depo bilgilerini GitHub’dan alın. Gelişmiş alım tekniklerimiz, en alakalı bilgilere hızlı ve verimli şekilde ulaşmanızı sağlar.
 
-- **⚡ Depo Havuzu Önbellekleme**: Llama-github yenilikçi bir depo havuzu önbellekleme mekanizmasına sahiptir. Depoları (README'ler, yapılar, kod ve sorunlar dahil) iş parçacıkları arasında önbelleğe alarak, llama-github GitHub arama getirme verimliliğini önemli ölçüde artırır ve GitHub API belirteci tüketimini en aza indirir. Llama-github'u çoklu iş parçacıklı üretim ortamlarında güvenle kullanın; optimum performans göstereceğinden ve değerli kaynaklarınızı koruyacağından emin olun.
+- **⚡ Depo Havuzu Önbellekleme**: Llama-github yenilikçi bir depo havuzu önbellekleme mekanizmasına sahiptir. Depoları (README’ler, yapılar, kodlar ve sorunlar dahil) iplikler arasında önbelleğe alarak, llama-github GitHub arama alım verimliliğini önemli ölçüde artırır ve GitHub API token tüketimini en aza indirir.
 
-- **🧠 LLM Destekli Soru Analizi**: Kullanıcı sorularını analiz etmek ve son derece etkili arama stratejileri ile kriterleri oluşturmak için son teknoloji dil modellerinden yararlanın. Llama-github karmaşık sorguları akıllıca parçalara ayırır, GitHub'ın geniş depo ağından en alakalı bilgileri almanızı sağlar.
+- **🧠 LLM Destekli Soru Analizi**: Kullanıcı sorularını analiz etmek ve oldukça etkili arama stratejileri ile kriterler üretmek için son teknoloji dil modellerinden yararlanın. Llama-github karmaşık sorguları akıllıca parçalara ayırır ve GitHub’ın geniş depo ağı içinden en alakalı bilgileri elde etmenizi sağlar.
 
-- **📚 Kapsamlı Bağlam Oluşturma**: GitHub'dan alınan bilgileri gelişmiş dil modellerinin çıkarım yetenekleriyle sorunsuz bir şekilde birleştirerek zengin, bağlamsal olarak alakalı yanıtlar oluşturun. Llama-github, en karmaşık ve uzun soruları bile başarıyla ele alır, geliştirme ihtiyaçlarınızı destekleyecek kapsamlı ve içgörülü yanıtlar sunar.
+- **📚 Kapsamlı Bağlam Üretimi**: GitHub’dan alınan bilgileri gelişmiş dil modellerinin çıkarım yetenekleriyle kusursuzca birleştirerek zengin, bağlamsal olarak alakalı yanıtlar üretin. Llama-github en karmaşık ve uzun soruları bile ele alır; geliştirme ihtiyaçlarınızı destekleyecek şekilde kapsamlı, içgörülü ve geniş bağlamlı yanıtlar sunar.
 
-- **🚀 Asenkron İşleme Mükemmelliği**: Llama-github baştan sona asenkron programlamanın tüm potansiyelinden yararlanacak şekilde inşa edilmiştir. Kod tabanında titizlikle uygulanan asenkron mekanizmalar sayesinde, llama-github birden fazla isteği eşzamanlı olarak işleyebilir ve genel performansı önemli ölçüde artırır. Llama-github'un yüksek hacimli iş yüklerini hızdan veya kaliteden ödün vermeden nasıl yönettiğini deneyimleyin.
+- **🚀 Asenkron İşlem Mükemmelliği**: Llama-github tamamen asenkron programlamanın tüm potansiyelinden yararlanacak şekilde sıfırdan inşa edilmiştir. Kod tabanına özenle işlenmiş asenkron mekanizmalar sayesinde, llama-github birden fazla isteği aynı anda işleyebilir ve genel performansı önemli ölçüde artırır.
 
-- **🔧 Esnek LLM Entegrasyonu**: Llama-github'u çeşitli LLM sağlayıcıları, gömme modelleri ve yeniden sıralama modelleriyle kolayca entegre edin ve kütüphanenin yeteneklerini özel gereksinimlerinize göre uyarlayın. Genişletilebilir mimarimiz sayesinde llama-github'un işlevselliğini özelleştirebilir ve geliştirebilir, böylece kendi geliştirme ortamınıza sorunsuzca uyum sağlar.
+- **🔧 Esnek LLM Entegrasyonu**: Llama-github’ı çeşitli LLM sağlayıcıları, gömülü modeller, yeniden sıralama modelleri veya LangChain uyumlu bir sohbet modeli ile kolayca entegre edin; kütüphanenin yeteneklerini kendi ihtiyaçlarınıza göre özelleştirin.
 
-- **🔒 Güçlü Kimlik Doğrulama Seçenekleri**: Llama-github hem kişisel erişim belirteçlerini hem de GitHub Uygulama kimlik doğrulamasını destekler; bu da onu farklı geliştirme kurulumlarına entegre etme esnekliği sunar. Bireysel bir geliştirici olun ya da kurumsal bir ortamda çalışıyor olun, llama-github güvenli ve güvenilir kimlik doğrulama mekanizmaları ile ihtiyacınızı karşılar.
+- **🔒 Güçlü Kimlik Doğrulama Seçenekleri**: Llama-github hem kişisel erişim token’ları hem de GitHub Uygulama kimlik doğrulamasını destekler; farklı geliştirme ortamlarına entegre etmek için esneklik sunar. Bireysel bir geliştirici olun ya da kurumsal ortamda çalışın, llama-github güvenli ve güvenilir kimlik doğrulama mekanizmalarıyla hizmetinizde.
 
-- **🛠️ Günlükleme ve Hata Yönetimi**: Sorunsuz operasyonlar ve kolay sorun giderme bizim için önemlidir. Bu nedenle llama-github kapsamlı günlükleme ve hata yönetimi mekanizmalarıyla donatılmıştır. Kütüphanenin davranışına derinlemesine bakış elde edin, sorunları hızla teşhis edin ve istikrarlı, güvenilir bir geliştirme iş akışı sürdürün.
+- **🛠️ Kayıt ve Hata Yönetimi**: Sorunsuz operasyonlar ve kolay hata ayıklamanın önemini biliyoruz. Bu yüzden llama-github, kapsamlı kayıt tutma ve hata yönetimi mekanizmalarıyla donatılmıştır. Kütüphanenin davranışına derinlemesine bakış kazanın, sorunları hızla teşhis edin ve istikrarlı, güvenilir bir geliştirme akışı sağlayın.
 
 ## 🤖 Yapay Zeka Destekli PR İnceleme Asistanımızı Deneyin: LlamaPReview
 
-Llama-github'u faydalı buluyorsanız, yapay zeka destekli GitHub PR inceleme asistanımız LlamaPReview ile de ilgilenebilirsiniz. Geliştirme iş akışınızı tamamlamak ve kod kalitesini daha da artırmak için tasarlanmıştır.
+Llama-github’ı faydalı buluyorsanız, yapay zeka destekli GitHub PR inceleme asistanımız LlamaPReview ile de ilgilenebilirsiniz. Geliştirme iş akışınızı tamamlamak ve kod kalitesini daha da artırmak için tasarlanmıştır.
 
-### LlamaPReview'un Temel Özellikleri:
-- 🚀 Tek tıkla kurulum, yapılandırma gerekmez, tamamen otomatik çalışır
-- 💯 Şu anda ücretsiz kullanım - kredi kartı veya ödeme bilgisi gerekmez
-- 🧠 Yapay zeka destekli, derin kod anlayışıyla otomatik PR incelemeleri
-- 🌐 Birden fazla programlama dili desteği
+### LlamaPReview’ın Temel Özellikleri:
+- 🚀 Tek tıklamayla kurulum, sıfır yapılandırma, tamamen otomatik çalışma
+- 💯 Şu anda ücretsizdir – kredi kartı veya ödeme bilgisi gerektirmez
+- 🧠 Yapay zeka destekli, otomatik PR incelemeleriyle derinlemesine kod anlayışı
+- 🌐 Birden fazla programlama dilini destekler
 
-**LlamaPReview, llama-github'un gelişmiş bağlam getirme ve LLM destekli analizini kullanarak** akıllı, bağlamdan haberdar kod incelemeleri sunar. Sanki deponuzun tüm bağlamına sahip kıdemli bir geliştirici her PR'ı otomatik olarak inceliyor gibi!
+**LlamaPReview, akıllı ve bağlama duyarlı kod incelemeleri sağlamak için llama-github’ın gelişmiş bağlam alımı ve LLM destekli analizini kullanır.** Sanki deponuzun tüm bağlamına hakim kıdemli bir geliştirici her PR’ı otomatik olarak inceliyor gibi!
 
-👉 [LlamaPReview'i Hemen Kurun](https://github.com/marketplace/llamapreview/) (Ücretsiz)
+👉 [LlamaPReview’i Şimdi Kurun](https://github.com/marketplace/llamapreview/) (Ücretsiz)
 
-Bağlam getirme için llama-github'u, kod incelemeleri için LlamaPReview'u kullanarak güçlü, yapay zeka destekli bir geliştirme ortamı oluşturabilirsiniz.
+Bağlam alımı için llama-github’ı ve kod incelemeleri için LlamaPReview’i kullanarak güçlü, yapay zeka destekli bir geliştirme ortamı oluşturabilirsiniz.
 
 ## Vizyon ve Yol Haritası
 
 ### Vizyon
 
-Vizyonumuz, GitHub ile sorunsuz bir şekilde entegre olarak LLM'leri otomatik olarak karmaşık kodlama görevlerini çözmede güçlendiren, yapay zeka odaklı geliştirme çözümlerinin geleceğinde merkezi bir modül olmaktır.
+Vizyonumuz, GitHub ile sorunsuz bir şekilde entegre olarak LLM’lerin karmaşık kodlama görevlerini otomatik olarak çözmesini sağlayan, AI tabanlı geliştirme çözülerinin geleceğinde kilit bir modül olmaktır.
 
 ![Vizyon Mimarisi](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)
 
 ### Yol Haritası
 
-Proje yol haritamızın ayrıntılı bir görünümü için lütfen [Proje Yol Haritası](https://github.com/users/JetXu-LLM/projects/2) sayfamızı ziyaret edin.
+Önceki yol haritasının tarihsel görünümü için lütfen [Vizyon ve Yol Haritası](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/VISION_AND_ROADMAP.md) adresini ziyaret edin.
 
 ## Teşekkürler
 
 Aşağıdaki açık kaynak projelere destekleri ve katkıları için teşekkürlerimizi sunarız:
 
-- **[LangChain](https://github.com/langchain-ai/langchain)**: Llama-github'daki LLM istemi ve işleme yeteneklerine güç veren temel çerçeveyi sağladığı için.
-- **[Jina.ai](https://github.com/jina-ai/reader)**: s.jina.ai API'si ve llama-github'daki oluşturulan bağlamların doğruluk ve alakasını artıran açık kaynak yeniden sıralayıcı ve gömme modelleri sunduğu için.
+- **[LangChain](https://github.com/langchain-ai/langchain)**: Llama-github’da LLM tetikleme ve işleme yeteneklerini güçlendiren temel framework’ü sağladığı için.
+- **[Jina.ai](https://github.com/jina-ai/reader)**: Llama-github’da üretilen bağlamların doğruluğunu ve alaka düzeyini artıran s.jina.ai API’si ile açık kaynaklı reranker ve embedding modellerini sunduğu için.
 
-Katkıları, llama-github'un geliştirilmesinde çok önemli olmuştur ve daha yenilikçi çözümler için projelerini incelemenizi kesinlikle tavsiye ederiz.
+Katkıları, llama-github’ın geliştirilmesinde çok önemli olmuştur ve daha yenilikçi çözümler için projelerini incelemenizi tavsiye ederiz.
 
-## Katkıda Bulunma
+## Katkı
 
-Llama-github'a katkıda bulunmak isteyenleri memnuniyetle karşılıyoruz! Daha fazla bilgi için lütfen [katkı yönergelerimizi](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md) inceleyin.
+Llama-github’a katkıda bulunmak isteyenleri memnuniyetle karşılıyoruz! Daha fazla bilgi için [katkı yönergelerimize](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md) göz atın.
 
 ## Lisans
 
-Bu proje Apache 2.0 lisansı koşullarında lisanslanmıştır. Daha fazla ayrıntı için [LİSANS](LICENSE) dosyasına bakınız.
+Bu proje, Apache 2.0 lisansı kapsamında lisanslanmıştır. Daha fazla ayrıntı için [LİSANS](LICENSE) dosyasını inceleyin.
 
 ## İletişim
 
-Sorularınız, önerileriniz veya geri bildiriminiz varsa lütfen [Jet Xu'nun e-postası](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/mailto:Voldemort.xu@foxmail.com) üzerinden bizimle iletişime geçmekten çekinmeyin.
+Herhangi bir sorunuz, öneriniz veya geri bildiriminiz varsa, lütfen [Jet Xu’nun e-postasına](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/mailto:Voldemort.xu@foxmail.com) ulaşmaktan çekinmeyin.
 
 ---
 
-Llama-github'u seçtiğiniz için teşekkür ederiz! Bu kütüphanenin yapay zeka geliştirme deneyiminizi artırmasını ve güçlü uygulamaları kolayca oluşturmanıza yardımcı olmasını umuyoruz.
+Llama-github’ı seçtiğiniz için teşekkür ederiz! Bu kütüphanenin AI geliştirme deneyiminizi artırmasını ve güçlü uygulamalar oluşturmanıza yardımcı olmasını umuyoruz.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-28
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-26
 
 ---

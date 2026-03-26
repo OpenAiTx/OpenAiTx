@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Bahasa</summary>
@@ -24,7 +23,6 @@
         | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=JetXu-LLM&project=llama-github&lang=as">অসমীয়া</
       </div>
     </div>
   </details>
@@ -38,9 +36,10 @@
 [![Unduhan](https://static.pepy.tech/badge/Llama-github)](https://pepy.tech/project/Llama-github)
 [![Lisensi](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Llama-github adalah alat yang kuat yang membantu Anda mengambil (berbasis Agentic RAG) potongan kode, isu, dan informasi repositori paling relevan dari GitHub berdasarkan kueri Anda, mengubahnya menjadi konteks pengetahuan yang berharga. Ini memberdayakan Chatbot LLM, AI Agent, dan Auto-dev Agent untuk menyelesaikan tugas pengkodean yang kompleks. Baik Anda seorang pengembang yang mencari solusi cepat atau insinyur yang mengimplementasikan Auto Dev AI Agent tingkat lanjut, llama-github membuatnya mudah dan efisien.
+Llama-github adalah alat yang kuat yang membantu Anda mengambil (berbasis Agentic RAG) potongan kode, isu, dan informasi repositori paling relevan dari GitHub berdasarkan permintaan Anda, mengubahnya menjadi konteks pengetahuan yang berharga. Ini memperkuat Chatbot LLM, Agen AI, dan Agen Auto-dev untuk menyelesaikan tugas pengkodean yang kompleks. Baik Anda pengembang yang mencari solusi cepat atau insinyur yang menerapkan Agen AI Auto Dev tingkat lanjut, llama-github membuatnya mudah dan efisien.
 
-Jika Anda menyukai proyek ini atau percaya proyek ini memiliki potensi, silakan beri ⭐️. Dukungan Anda adalah motivasi terbesar kami!
+
+Jika Anda menyukai proyek ini atau percaya bahwa proyek ini memiliki potensi, silakan beri ⭐️. Dukungan Anda adalah motivasi terbesar kami!
 
 ## Arsitektur
 ![Arsitektur Tingkat Tinggi](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/high_level_architecture.drawio.svg)
@@ -49,6 +48,8 @@ Jika Anda menyukai proyek ini atau percaya proyek ini memiliki potensi, silakan 
 ```
 pip install llama-github
 ```
+
+Target runtime yang dipelihara saat ini: Python `3.10+`.
 
 ## Penggunaan
 
@@ -66,46 +67,50 @@ github_rag = GithubRAG(
 
 # Retrieve context for a coding question (simple_mode is default set to False)
 query = "How to create a NumPy array in Python?"
-context = github_rag.retrieve_context(
-    query, # In professional mode, one query will take nearly 1 min to generate final contexts. You could set log level to INFO to monitor the retrieval progress
+contexts = github_rag.retrieve_context(
+    query,
     # simple_mode = True
 )
 
-print(context)
+print(contexts[0]["url"])
+print(contexts[0]["context"])
 ```
-Untuk penggunaan dan contoh yang lebih lanjut, silakan merujuk ke [dokumentasi](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md).
+
+`retrieve_context()` mengembalikan daftar kamus konteks. Setiap item berisi setidaknya `context` dan `url`.
+
+Untuk penggunaan yang lebih lanjut dan contoh, silakan merujuk ke [dokumentasi](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/docs/usage.md). Contoh yang dapat dijalankan dengan biaya rendah juga tersedia di [`examples/`](examples).
 
 ## Fitur Utama
 
-- **🔍 Pengambilan GitHub Cerdas**: Manfaatkan kekuatan llama-github untuk mengambil cuplikan kode, isu, dan informasi repositori yang sangat relevan dari GitHub berdasarkan pertanyaan pengguna. Teknik pengambilan canggih kami memastikan Anda menemukan informasi paling relevan dengan cepat dan efisien.
+- **🔍 Pengambilan GitHub Cerdas**: Manfaatkan kekuatan llama-github untuk mengambil potongan kode, isu, dan informasi repositori yang sangat relevan dari GitHub berdasarkan permintaan pengguna. Teknik pengambilan canggih kami memastikan Anda menemukan informasi paling penting dengan cepat dan efisien.
 
-- **⚡ Caching Pool Repositori**: Llama-github memiliki mekanisme caching pool repositori yang inovatif. Dengan menyimpan cache repositori (termasuk README, struktur, kode, dan isu) di seluruh thread, llama-github secara signifikan mempercepat efisiensi pencarian GitHub dan meminimalisir konsumsi token API GitHub. Gunakan llama-github di lingkungan produksi multi-thread dengan percaya diri, karena akan bekerja optimal dan menghemat sumber daya Anda.
+- **⚡ Cache Pool Repositori**: Llama-github memiliki mekanisme cache pool repositori yang inovatif. Dengan melakukan cache repositori (termasuk README, struktur, kode, dan isu) di seluruh thread, llama-github secara signifikan mempercepat efisiensi pencarian GitHub dan meminimalkan konsumsi token API GitHub.
 
-- **🧠 Analisis Pertanyaan Berbasis LLM**: Manfaatkan model bahasa mutakhir untuk menganalisis pertanyaan pengguna dan menghasilkan strategi serta kriteria pencarian yang sangat efektif. Llama-github secara cerdas memecah pertanyaan kompleks, memastikan Anda mendapatkan informasi paling relevan dari jaringan repositori GitHub yang luas.
+- **🧠 Analisis Pertanyaan Berbasis LLM**: Manfaatkan model bahasa mutakhir untuk menganalisis pertanyaan pengguna dan menghasilkan strategi serta kriteria pencarian yang sangat efektif. Llama-github dengan cerdas memecah permintaan kompleks, memastikan Anda mendapatkan informasi paling relevan dari jaringan repositori GitHub yang luas.
 
-- **📚 Generasi Konteks Komprehensif**: Hasilkan jawaban kaya dan relevan secara kontekstual dengan menggabungkan informasi dari GitHub dan kemampuan penalaran model bahasa canggih. Llama-github unggul dalam menangani pertanyaan yang paling kompleks dan panjang, menyediakan respons komprehensif dan mendalam yang mencakup banyak konteks untuk mendukung kebutuhan pengembangan Anda.
+- **📚 Generasi Konteks Komprehensif**: Hasilkan jawaban yang kaya dan relevan secara kontekstual dengan menggabungkan informasi yang diambil dari GitHub dengan kemampuan penalaran model bahasa canggih. Llama-github unggul dalam menangani pertanyaan yang paling kompleks dan panjang, memberikan respons komprehensif dan mendalam yang mencakup konteks luas untuk mendukung kebutuhan pengembangan Anda.
 
-- **🚀 Keunggulan Pemrosesan Asinkron**: Llama-github dibangun dari awal untuk memaksimalkan potensi pemrograman asinkron. Dengan mekanisme asinkron yang diimplementasikan secara teliti di seluruh kode, llama-github dapat menangani banyak permintaan secara bersamaan, meningkatkan performa secara signifikan. Rasakan perbedaannya saat llama-github mengelola beban kerja besar tanpa mengorbankan kecepatan atau kualitas.
+- **🚀 Keunggulan Pemrosesan Asinkron**: Llama-github dibangun dari awal untuk memanfaatkan potensi penuh pemrograman asinkron. Dengan mekanisme asinkron yang diterapkan secara cermat di seluruh kode, llama-github dapat menangani banyak permintaan secara bersamaan, meningkatkan performa secara signifikan.
 
-- **🔧 Integrasi LLM yang Fleksibel**: Integrasikan llama-github dengan berbagai penyedia LLM, model embedding, dan model reranking dengan mudah untuk menyesuaikan kemampuan library sesuai kebutuhan spesifik Anda. Arsitektur kami yang dapat dikembangkan memungkinkan Anda menyesuaikan dan meningkatkan fungsionalitas llama-github, memastikan adaptasi mulus ke lingkungan pengembangan unik Anda.
+- **🔧 Integrasi LLM yang Fleksibel**: Mudah mengintegrasikan llama-github dengan berbagai penyedia LLM, model embedding, model reranking, atau model chat yang kompatibel dengan LangChain untuk menyesuaikan kemampuan pustaka sesuai kebutuhan spesifik Anda.
 
-- **🔒 Opsi Autentikasi Tangguh**: Llama-github mendukung token akses pribadi maupun autentikasi GitHub App, memberikan fleksibilitas dalam integrasi ke berbagai pengaturan pengembangan. Baik Anda pengembang individu maupun bekerja dalam konteks organisasi, llama-github siap dengan mekanisme autentikasi yang aman dan andal.
+- **🔒 Opsi Autentikasi yang Kuat**: Llama-github mendukung token akses pribadi dan autentikasi GitHub App, memberikan fleksibilitas untuk integrasi dalam berbagai pengaturan pengembangan. Baik Anda pengembang individu atau bekerja dalam konteks organisasi, llama-github siap dengan mekanisme autentikasi yang aman dan andal.
 
-- **🛠️ Logging dan Penanganan Error**: Kami memahami pentingnya operasi yang lancar dan pemecahan masalah yang mudah. Itulah sebabnya llama-github dilengkapi dengan mekanisme logging dan penanganan error yang komprehensif. Dapatkan wawasan mendalam tentang perilaku library, diagnosa masalah dengan cepat, dan pertahankan workflow pengembangan yang stabil dan andal.
+- **🛠️ Logging dan Penanganan Error**: Kami memahami pentingnya operasi yang lancar dan pemecahan masalah yang mudah. Itulah mengapa llama-github dilengkapi dengan mekanisme logging dan penanganan error yang komprehensif. Dapatkan wawasan mendalam tentang perilaku pustaka, diagnosis masalah dengan cepat, dan pertahankan workflow pengembangan yang stabil dan andal.
 
-## 🤖 Coba Asisten Review PR Berbasis AI: LlamaPReview
+## 🤖 Coba Asisten Review PR AI Kami: LlamaPReview
 
-Jika Anda merasa llama-github bermanfaat, Anda mungkin juga tertarik dengan asisten review PR GitHub berbasis AI kami, LlamaPReview. Dirancang untuk melengkapi workflow pengembangan Anda dan semakin meningkatkan kualitas kode.
+Jika Anda merasa llama-github bermanfaat, Anda mungkin juga tertarik dengan asisten review PR GitHub bertenaga AI kami, LlamaPReview. Dirancang untuk melengkapi workflow pengembangan dan meningkatkan kualitas kode.
 
 ### Fitur Utama LlamaPReview:
 - 🚀 Instalasi sekali klik, tanpa konfigurasi, langsung berjalan otomatis
-- 💯 Saat ini gratis digunakan - tidak perlu kartu kredit atau info pembayaran
-- 🧠 Review PR otomatis berbasis AI dengan pemahaman kode yang mendalam
-- 🌐 Mendukung banyak bahasa pemrograman
+- 💯 Gratis digunakan saat ini - tanpa kartu kredit atau info pembayaran
+- 🧠 Review PR otomatis bertenaga AI dengan pemahaman kode mendalam
+- 🌐 Mendukung berbagai bahasa pemrograman
 
-**LlamaPReview memanfaatkan pengambilan konteks canggih dan analisis berbasis LLM dari llama-github** untuk menyediakan review kode yang cerdas dan kontekstual. Seperti memiliki pengembang senior, lengkap dengan konteks penuh dari repositori Anda, yang meninjau setiap PR secara otomatis!
+**LlamaPReview memanfaatkan pengambilan konteks canggih dan analisis LLM dari llama-github** untuk menyediakan review kode yang cerdas dan sadar konteks. Seperti memiliki senior developer yang meninjau setiap PR Anda secara otomatis dengan konteks penuh repositori!
 
-👉 [Instal LlamaPReview Sekarang](https://github.com/marketplace/llamapreview/) (Gratis)
+👉 [Pasang LlamaPReview Sekarang](https://github.com/marketplace/llamapreview/) (Gratis)
 
 Dengan menggunakan llama-github untuk pengambilan konteks dan LlamaPReview untuk review kode, Anda dapat menciptakan lingkungan pengembangan bertenaga AI yang kuat.
 
@@ -113,30 +118,30 @@ Dengan menggunakan llama-github untuk pengambilan konteks dan LlamaPReview untuk
 
 ### Visi
 
-Visi kami adalah menjadi modul penting dalam solusi pengembangan berbasis AI di masa depan, terintegrasi mulus dengan GitHub untuk memberdayakan LLM dalam menyelesaikan tugas pengkodean kompleks secara otomatis.
+Visi kami adalah menjadi modul penting dalam solusi pengembangan berbasis AI di masa depan, terintegrasi secara mulus dengan GitHub untuk memberdayakan LLM dalam secara otomatis menyelesaikan tugas pengkodean yang kompleks.
 
 ![Arsitektur Visi](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/./docs/vision.drawio.svg)
 
-### Roadmap
+### Peta Jalan
 
-Untuk melihat roadmap proyek kami secara detail, silakan kunjungi [Roadmap Proyek](https://github.com/users/JetXu-LLM/projects/2).
+Untuk melihat peta jalan sebelumnya secara historis, silakan kunjungi [Vision and Roadmap](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/VISION_AND_ROADMAP.md).
 
 ## Ucapan Terima Kasih
 
-Kami ingin mengucapkan terima kasih kepada proyek-proyek open-source berikut atas dukungan dan kontribusinya:
+Kami ingin mengucapkan terima kasih kepada proyek open-source berikut atas dukungan dan kontribusinya:
 
-- **[LangChain](https://github.com/langchain-ai/langchain)**: Telah menyediakan kerangka dasar yang memperkuat kemampuan prompting dan pemrosesan LLM di llama-github.
-- **[Jina.ai](https://github.com/jina-ai/reader)**: Telah menawarkan API s.jina.ai serta model reranker dan embedding open-source yang meningkatkan akurasi dan relevansi konteks yang dihasilkan llama-github.
+- **[LangChain](https://github.com/langchain-ai/langchain)**: Untuk menyediakan kerangka dasar yang memberdayakan kemampuan prompting dan pemrosesan LLM di llama-github.
+- **[Jina.ai](https://github.com/jina-ai/reader)**: Untuk menawarkan API s.jina.ai serta model reranker dan embedding open source yang meningkatkan akurasi dan relevansi konteks yang dihasilkan di llama-github.
 
-Kontribusi mereka sangat penting dalam pengembangan llama-github, dan kami sangat merekomendasikan untuk mengecek proyek mereka untuk solusi inovatif lainnya.
+Kontribusi mereka sangat berperan dalam pengembangan llama-github, dan kami sangat merekomendasikan untuk melihat proyek mereka demi solusi yang lebih inovatif.
 
 ## Kontribusi
 
-Kami sangat menyambut kontribusi untuk llama-github! Silakan lihat [panduan kontribusi](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md) kami untuk informasi lebih lanjut.
+Kami menyambut kontribusi ke llama-github! Silakan lihat [panduan kontribusi](https://raw.githubusercontent.com/JetXu-LLM/llama-github/main/CONTRIBUTING.md) kami untuk informasi lebih lanjut.
 
 ## Lisensi
 
-Proyek ini dilisensikan di bawah lisensi Apache 2.0. Lihat berkas [LICENSE](LICENSE) untuk detail lebih lanjut.
+Proyek ini dilisensikan di bawah ketentuan lisensi Apache 2.0. Lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
 
 ## Kontak
 
@@ -144,12 +149,11 @@ Jika Anda memiliki pertanyaan, saran, atau masukan, silakan hubungi kami di [ema
 
 ---
 
-Terima kasih telah memilih llama-github! Kami berharap library ini meningkatkan pengalaman pengembangan AI Anda dan membantu membangun aplikasi yang kuat dengan mudah.
-
+Terima kasih telah memilih llama-github! Kami berharap pustaka ini meningkatkan pengalaman pengembangan AI Anda dan membantu Anda membangun aplikasi yang kuat dengan mudah.
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-28
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-26
 
 ---
