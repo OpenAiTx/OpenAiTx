@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Taal</summary>
@@ -23,7 +22,7 @@
         | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=fa">Perzisch</a>
         | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=tr">Turks</a>
         | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=vi">Vietnamees</a>
-        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=id">Bahasa Indonesisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=id">Bahasa Indonesia</a>
         | <a href="https://openaitx.github.io/view.html?user=FlutterGenerator&project=FlutterGenerator&lang=as">অসমীয়া</
       </div>
     </div>
@@ -33,14 +32,15 @@
 
 # FlutterGenerator Installatie
 
-1. Download en installeer het PY-bestand (fwGenerator.py) van [GitHub Releases](https://github.com/FlutterGenerator/FlutterGenerator/releases)
-2. Download Termux en voer fwGenerator.py uit, kopieer het bestand en upload het naar je Github met de naam.
+1. Download en installeer het PY-bestand (fwGeneratorOld.py) van [GitHub Releases](https://gist.github.com/7b65cb208155a30d43bfda55568843c7.git)
+2. Download Termux en voer fwGenerator.py uit, kopieer het bestand en upload het naar je GitHub met de naam.
+
 ```
 .github/workflows
 ```
 # Flutter YML Oud 32bit 64bit
 ```
-name: Flutter Build
+name: Flutter Build Old
 
 on:
   push:
@@ -84,13 +84,13 @@ jobs:
           flutter build apk --release --target-platform android-arm,android-arm64
 
       - name: Upload libflutter.so for arm64
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: libflutter_so_arm64
           path: flutter_so/build/app/intermediates/merged_native_libs/release/out/lib/arm64-v8a/libflutter.so
 
       - name: Upload libflutter.so for armeabi-v7a
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: libflutter_so_armeabi_v7a
           path: flutter_so/build/app/intermediates/merged_native_libs/release/out/lib/armeabi-v7a/libflutter.so
@@ -113,19 +113,26 @@ pkg install python -y
 python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 ```
 # Tutorial Video
-[![Afspelen op Youtube](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
+[![Play on Youtube](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
 
 # [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)
 
 # Info
 
-**🚀 Dart Versie: 𒁍 2.7.0-dev.2.1 ➢ 3.11.0**
+**🚀 Dart Version: 𒁍 2.7.0-dev.2.1 ➢ 3.11.3**
 
-**🚀 Flutter Versie: 𒁍 v1.12.13+hotfix.5 ➢ 3.41.0**
+**🚀 Flutter Version: 𒁍 v1.12.13+hotfix.5 ➢ 3.41.5**
+
+
+
+
+
+
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-27
 
 ---

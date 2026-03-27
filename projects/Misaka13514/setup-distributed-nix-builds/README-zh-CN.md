@@ -1,21 +1,53 @@
-# ❄️ 设置分布式 Nix 构建
 
-一个 GitHub Action，可即时使用标准的[GitHub 托管运行器](https://docs.github.com/en/actions/reference/runners/github-hosted-runners)通过 Tailscale 安全连接，配置一个临时的跨平台[分布式 Nix 构建](https://wiki.nixos.org/wiki/Distributed_build)集群。
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
 
-此 Action 允许你启动一个次级 GitHub 运行器矩阵（**构建器**），并通过 Tailscale SSH 无缝连接到主运行器（**协调器**）。协调器自动配置 Nix 使用这些节点作为远程构建器，最大化并发构建性能，无需管理外部基础设施！非常适合构建多架构包或在一组 x86 运行器上水平扩展重负载的 NixOS 系统闭包。
+# ❄️ 配置分布式 Nix 构建
+
+一个 GitHub Action，可即时使用标准的 [GitHub 托管运行器](https://docs.github.com/en/actions/reference/runners/github-hosted-runners) 通过 Tailscale 安全连接，快速搭建临时的、跨平台的 [分布式 Nix 构建](https://wiki.nixos.org/wiki/Distributed_build) 集群。
+
+此 Action 允许你启动一组作为辅助 GitHub 运行器（即 **构建者**），并通过 Tailscale SSH 无缝连接到主运行器（即 **协调者**）。协调者会自动配置 Nix 使用这些节点作为远程构建器，无需管理外部基础设施，即可最大化并发构建性能！非常适合构建多架构软件包，或在大量 x86 运行器间横向扩展 NixOS 系统闭包的重负载构建。
 
 ## 功能
 
 - 🚀 **零配置远程构建器：** 自动配置 `/etc/nix/machines` 并通过 Tailscale SSH 连接节点（无需手动 SSH 密钥！）。
-- 🌍 **跨平台与多架构：** 在同一构建中混合使用 Ubuntu（x86、ARM）和 macOS（Intel、Apple Silicon）运行器。
-- ⚖️ **NixOS 水平扩展：** 需要评估和构建大型 NixOS 配置？启动一整组相同节点（例如五个 `ubuntu-24.04` 运行器），让 Nix 自动将并行衍生构建分布到集群中的所有可用 CPU 核心。
-- 🧹 **最大磁盘空间：** 自动清理 Linux 运行器上的预装软件（通过 [nothing-but-nix](https://github.com/wimpysworld/nothing-but-nix)），为你的 Nix 存储提供最大空间。
-- ⚡ **内置缓存：** 集成 [magic-nix-cache](https://github.com/DeterminateSystems/magic-nix-cache-action)，加速 flake 评估和本地构建。
-- 🛑 **优雅关闭：** 构建器空闲等待任务，在协调器完成后优雅自我终止。
+- 🌍 **跨平台 & 多架构：** 可在同一次构建中混合使用 Ubuntu（x86，ARM）和 macOS（Intel，Apple Silicon）运行器。
+- ⚖️ **NixOS 水平扩展：** 需要评估和构建庞大的 NixOS 配置？可启动一整个相同节点的集群（如五个 `ubuntu-24.04` 运行器），让 Nix 自动将并行派生构建分发到集群中所有可用 CPU 核心。
+- 🧹 **最大磁盘空间：** 自动清理 Linux 运行器上预装软件（通过 [nothing-but-nix](https://github.com/wimpysworld/nothing-but-nix)），为 Nix store 腾出最大空间。
+- ⚡ **内置缓存：** 集成 [magic-nix-cache](https://github.com/DeterminateSystems/magic-nix-cache-action) 加速 flake 评估和本地构建。
+- 🛑 **优雅拆解：** 构建器空闲等待任务，并在协调器完成后优雅自我终止。
 
 ## 工作原理
 
-工作流将运行器分为两个角色：`builder` 和 `coordinator`。
+工作流将运行器分为两类角色：`builder` 和 `coordinator`。
 
 ```mermaid
 sequenceDiagram
@@ -206,6 +238,6 @@ jobs:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-27
 
 ---

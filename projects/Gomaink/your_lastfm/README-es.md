@@ -1,61 +1,93 @@
-[![Estado](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/seuusuario/wakeonweb)
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+[![Estado](https://img.shields.io/badge/status-activo-brightgreen)](https://github.com/seuusuario/wakeonweb)
 [![Licencia](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 # Your LastFM
 
-Una aplicación Node.js containerizada que sincroniza scrobbleos desde **Last.fm**, los almacena en una base de datos local **SQLite**, y ofrece un panel web.
+Una aplicación Node.js contenerizada que sincroniza scrobbles de **Last.fm**, los almacena en una base de datos local **SQLite** y ofrece un panel web.
 
-<img width="1718" height="1066" alt="imagen" src="https://github.com/user-attachments/assets/97d5a9f1-b39a-42ea-9acf-2b4546426a11" />
-
+<img width="1718" height="1066" alt="image" src="https://github.com/user-attachments/assets/97d5a9f1-b39a-42ea-9acf-2b4546426a11" />
 ---
 
 ## Proyecto
 
-**Your LastFM** es una aplicación Node.js diseñada para **sincronizar automáticamente los scrobbleos de música** desde Last.fm. Conserva tu historial de escucha en una base de datos SQLite local y ofrece una interfaz web para la visualización de datos.
+**Your LastFM** es una aplicación Node.js diseñada para **sincronizar automáticamente los scrobbleos de música** desde Last.fm. Conserva tu historial de escucha en una base de datos local SQLite y ofrece una interfaz web para la visualización de datos.
 
-El proyecto está completamente containerizado con **Docker**, usando un punto de entrada automatizado para manejar la inicialización de la base de datos y la ejecución secuencial (Sincronizando primero, luego lanzando la API web). También utiliza **PM2** como gestor de procesos dentro del contenedor para asegurar que el servicio web permanezca activo y resiliente.
+El proyecto está completamente containerizado con **Docker**, utilizando un punto de entrada automatizado para manejar la inicialización de la base de datos y la ejecución secuencial (primero la sincronización, luego el lanzamiento de la API web). También utiliza **PM2** como gestor de procesos dentro del contenedor para asegurar que el servicio web permanezca activo y resiliente.
 
 ## Características
 ### Panel Web Interactivo
 
 - Interfaz web limpia y moderna para visualizar tu actividad musical.
 
-### Sincronización Automática de Scrobbles de Last.fm
+### Sincronización Automática de Scrobbleos de Last.fm
 
-- Recupera y almacena periódicamente tu historial de escucha (scrobbles) desde Last.fm.
-- Garantiza que tus datos estén siempre actualizados sin intervención manual.
+- Obtiene y almacena periódicamente tu historial de escucha (scrobbleos) de Last.fm.
+- Asegura que tus datos estén siempre actualizados sin intervención manual.
 
 ### Base de Datos Local de Historial Musical
 
-- Persiste todos los scrobbles en una base de datos SQLite local.
+- Persiste todos los scrobbleos en una base de datos SQLite local.
 - Permite consultas rápidas y acceso offline a datos históricos de escucha.
 
-### Vista de Scrobbles Recientes
+### Vista de Scrobbleos Recientes
 
 - Muestra tus pistas más recientes.
-- Lógica inteligente de imágenes de respaldo para pistas, álbumes y artistas.
+- Lógica inteligente de imagen de respaldo para pistas, álbumes y artistas.
 
 ### Comparación con Amigos (Vista de Compatibilidad)
 
 - Compara tu gusto musical con amigos de Last.fm.
-- Muestra el nivel de compatibilidad (Muy Bajo → Súper).  
-- Muestra los artistas, álbumes y pistas principales comunes.  
-- Calcula y normaliza la compatibilidad basada en datos reales de escucha.  
+- Muestra el nivel de compatibilidad (Muy Bajo → Súper).
+- Visualiza artistas, álbumes y pistas principales en común.
+- Calcula y normaliza la compatibilidad basada en datos reales de escucha.
 
-### Tarjetas de Música Compartibles  
+### Tarjetas Musicales Compartibles
 
-- Genera imágenes dinámicas basadas en tus datos de escucha.  
-- Diseños optimizados para publicaciones en el feed e historias de Instagram (9:16)  
-- Construido usando node-canvas para renderizado de imágenes del lado del servidor.  
+- Genera imágenes dinámicas basadas en tus datos de escucha.
+- Diseños optimizados para publicaciones en feeds y stories de instagram (9:16)
 
-## Requisitos Previos  
+- Construido utilizando node-canvas para renderizado de imágenes del lado del servidor.
 
-* [Docker](https://docs.docker.com/get-docker/)  
-* [Docker Compose](https://docs.docker.com/compose/install/)  
+## Requisitos previos
 
-## Instalación  
+* [Docker](https://docs.docker.com/get-docker/)
+* [Docker Compose](https://docs.docker.com/compose/install/)
 
-### Crear un archivo `.env`
+## Instalación
+
+### Cree un archivo `.env`
 
 ```env
 LASTFM_API_KEY=your_lastfm_api_key
@@ -97,6 +129,6 @@ Este proyecto está licenciado bajo la Licencia MIT.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-27
 
 ---

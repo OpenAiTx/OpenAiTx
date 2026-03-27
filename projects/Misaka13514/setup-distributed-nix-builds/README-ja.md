@@ -1,21 +1,53 @@
-# ❄️ 分散Nixビルドのセットアップ
 
-GitHub Actionsを使って、標準の[GitHubホストランナー](https://docs.github.com/en/actions/reference/runners/github-hosted-runners)を用い、Tailscale経由で安全に接続された一時的でクロスプラットフォームな[分散Nixビルド](https://wiki.nixos.org/wiki/Distributed_build)クラスターを即座に構築します。
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
 
-このアクションは、二次的なGitHubランナー（**ビルダー**）のマトリックスを立ち上げ、プライマリランナー（**コーディネーター**）にTailscale SSHでシームレスに接続します。コーディネーターはこれらのノードをリモートビルダーとしてNixに自動設定し、外部インフラを管理することなくビルドの並列性能を最大化します！マルチアーキテクチャパッケージのビルドや、x86ランナー群にまたがる大規模なNixOSシステムクロージャの水平スケーリングに最適です。
+# ❄️ 分散型Nixビルドのセットアップ
+
+GitHub Hosted RunnerとTailscaleを用いて、[Distributed Nix Build](https://wiki.nixos.org/wiki/Distributed_build) クラスターを瞬時にクロスプラットフォームで一時的にプロビジョニングするGitHub Actionsです。
+
+このアクションでは、複数のセカンダリGitHubランナー（**ビルダー**）をマトリクスで起動し、プライマリランナー（**コーディネーター**）にTailscale SSH経由でシームレスに接続できます。コーディネーターは自動的にNixを設定し、これらのノードをリモートビルダーとして利用できるようにします。外部インフラ管理不要で同時ビルド性能を最大化！マルチアーキテクチャパッケージや、x86ランナー群で重いNixOSシステムクロージャーを水平スケーリングしてビルドするのに最適です。
 
 ## 特徴
 
-- 🚀 **ゼロコンフィグのリモートビルダー：** `/etc/nix/machines`を自動設定し、Tailscale SSHでノードを接続（手動のSSHキー不要！）。
-- 🌍 **クロスプラットフォーム＆マルチアーキテクチャ：** 同一ビルド内でUbuntu（x86、ARM）とmacOS（Intel、Apple Silicon）ランナーを組み合わせ可能。
-- ⚖️ **NixOSの水平スケーリング：** 大規模なNixOS構成の評価・ビルドが必要ですか？同一ノード（例：5台の`ubuntu-24.04`ランナー）をファームとして立ち上げ、Nixが利用可能な全CPUコアに並列派生ビルドを自動分散します。
-- 🧹 **最大ディスクスペース：** Linuxランナー上のプリインストール済みソフトウェアを自動クリーンアップ（[nothing-but-nix](https://github.com/wimpysworld/nothing-but-nix)経由）し、Nixストアに最大の余裕を確保。
-- ⚡ **組み込みキャッシュ：** [magic-nix-cache](https://github.com/DeterminateSystems/magic-nix-cache-action)と統合し、フレーク評価やローカルビルドを高速化。
-- 🛑 **優雅なシャットダウン：** ビルダーはタスクを待機し、コーディネーターの終了時に自動で優雅に終了。
+- 🚀 **ゼロコンフィグ・リモートビルダー:** `/etc/nix/machines` を自動的に設定し、Tailscale SSH 経由でノードを接続します（手動でSSHキーを用意する必要はありません！）。
+- 🌍 **クロスプラットフォーム & マルチアーキ:** Ubuntu（x86, ARM）とmacOS（Intel, Apple Silicon）のランナーを同じビルド内で自由に組み合わせ可能です。
+- ⚖️ **NixOSの水平スケーリング:** 大規模なNixOS構成を評価・ビルドしたい場合、同一ノード（例：`ubuntu-24.04` ランナー5台）のファームを起動し、NixがすべてのクラスタCPUコアに自動で並列ビルドを分散します。
+- 🧹 **最大限のディスク容量:** Linuxランナー上のプリインストールソフトウェアを[nothing-but-nix](https://github.com/wimpysworld/nothing-but-nix)で自動的にクリーンアップし、Nixストアに最大限の空きを確保します。
+- ⚡ **ビルトインキャッシュ:** [magic-nix-cache](https://github.com/DeterminateSystems/magic-nix-cache-action)と統合し、フレークの評価やローカルビルドを高速化します。
+- 🛑 **グレースフルな終了:** ビルダーはタスクを待機し、コーディネータが完了すると自動的に終了します。
 
-## 動作概要
+## 仕組み
 
-ワークフローはランナーを`builder`と`coordinator`の2つの役割に分けます。
+ワークフローはランナーを `builder` と `coordinator` の2つの役割に分けます。
 
 ```mermaid
 sequenceDiagram
@@ -206,6 +238,6 @@ jobs:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-27
 
 ---

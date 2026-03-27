@@ -1,0 +1,1528 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# ❄️ Setup Distributed Nix Builds\n\nA GitHub Action to instantly provision an ephemeral, cross-platform [Distributed Nix Build](https://wiki.nixos.org/wiki/Distributed_build) cluster using standard [GitHub Hosted Runners](https://docs.github.com/en/actions/reference/runners/github-hosted-runners) securely connected via Tailscale.\n\nThis action allows you to spin up a matrix of secondary GitHub runners (the **Builders**) and connect them to a primary runner (the **Coordinator**) seamlessly over Tailscale SSH. The Coordinator automatically configures Nix to use these nodes as remote builders, maximizing concurrent build performance without managing external infrastructure! It is perfect for building multi-architecture packages or horizontally scaling heavy NixOS system closures across a fleet of x86 runners.\n\n## Features\n",
+    "ContentSha": "ZKmol84jWkrLeRZQKct9FXXwf7cDC5je0E4IORiQejE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 زبان</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# ❄️ راه‌اندازی بیلدهای توزیع‌شده نیکس\n\nیک اکشن گیت‌هاب برای راه‌اندازی فوری خوشه‌ای اپیمرال و چندسکویی [بیلد توزیع‌شده نیکس](https://wiki.nixos.org/wiki/Distributed_build) با استفاده از [رانرهای میزبانی‌شده گیت‌هاب](https://docs.github.com/en/actions/reference/runners/github-hosted-runners) که از طریق تیل‌اسکیل به طور امن متصل می‌شوند.\n\nاین اکشن به شما امکان می‌دهد یک ماتریس از رانرهای ثانویه گیت‌هاب (که **بیلدرها** هستند) را راه‌اندازی کنید و آن‌ها را به رانر اصلی (که **هماهنگ‌کننده** است) به طور یکپارچه از طریق SSH تیل‌اسکیل متصل نمایید. هماهنگ‌کننده به طور خودکار نیکس را پیکربندی می‌کند تا از این گره‌ها به عنوان بیلدرهای راه دور استفاده کند و عملکرد بیلد همزمان را بدون مدیریت زیرساخت خارجی به حداکثر می‌رساند! این راهکار برای ساخت پکیج‌های چندمعماری یا افزایش افقی بیلدهای سنگین سیستم NixOS بر روی ناوگانی از رانرهای x86 کاملاً مناسب است.\n\n## ویژگی‌ها\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 زبان</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=en\">English</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "CHyEr0NUVr4u49UWtfnZYAsWyVQTWW0Lq16SLqPxikg=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "NVQ22O2s1r9BkjMgrnmCPiysPqtcEkN5tQsBps8JrZE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "vovCuSeGC1G57U7+YOqGBpu9ePV2k6CThbEeDocKcyk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "sI4kSTlapcMEio2jIwzxkBQ5ddHgzDSqRPRafCUNFpk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "rwFKOwhLx9aPNVChiclTwicZPRfeFgGCV4it20bqMv4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "zb8TA8aIT8Y/uyCCrblya3is9PvYr9QuwqhaPGIHcZE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "CuMUq0DZWV9JWarPQidknTRsDWyTBNSk6c18O6q+CGU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=fr\">Français</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "5sa/JRXl2/9JYMpGYGqSoyE0Obwjk+lEKOTyGkWgDQU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "TrkQhfR3GUYQoVZHbq5nqqzr8Mjb66Io1tRkCAWZKQo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=es\">Español</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "SnR1y0NqtuLeyoTVq928BQuFjh3MLoYoNVaK7/6O/fM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "630AS31At45WDtyUR9t5/HjFQCFCkg4UamIrWPxRf8s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "CF0IYr7UGWMa6GtYBCO+uDs/7R8lBuJuzjCUqZJAnsk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=pt\">Português</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "Qw4a/8lg6NtFBKnHM4GOrrPqXh9wLnj9ZpYN6tdhBac=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "wuplNrMuPaLOyPfQaGQwbdMh3B0iif+PIgRpjk9WjL0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "fbJmA3uTQonOfTppsw8Tg32SBOBQ/1N83cNGX8nq7Xo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "nzAdd6Quh8Cl3yTveu9u+P+Y4u1R1Rph4b+9QC2JkkA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "zEZPF4jzPjVU6wbFP0l0fpjilxnHAw+rtVFEvKFCHZc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "ZOmIPzsipWR5vt/PvE+fbvxGV/LCnGYNRnNsFsUJZGw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "oFX9N4+IuQkrsCHbrgzoG6ZttguODXhrPxq4jl21TI4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "ksBeN+VjWKTTQK8JppMw4XheSgrhq9qFhglf0SFshvk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 27,
+        "rowsha": "cWHgK3jEiTS/9MYrf5d2+5Edr4hAaQHWRddx8/y8Pi8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Misaka13514&project=setup-distributed-nix-builds&lang=as\">অসমীয়া</",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# ❄️ راه‌اندازی بیلدهای توزیع‌شده نیکس"
+      },
+      {
+        "row": 33,
+        "rowsha": "7jJnCNiV0mXYD7hBjpPokq4tNgErMz1e4ZHG4ipYpTw=",
+        "originContent": "# ❄️ Setup Distributed Nix Builds",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "یک اکشن گیت‌هاب برای راه‌اندازی فوری خوشه‌ای اپیمرال و چندسکویی [بیلد توزیع‌شده نیکس](https://wiki.nixos.org/wiki/Distributed_build) با استفاده از [رانرهای میزبانی‌شده گیت‌هاب](https://docs.github.com/en/actions/reference/runners/github-hosted-runners) که از طریق تیل‌اسکیل به طور امن متصل می‌شوند."
+      },
+      {
+        "row": 35,
+        "rowsha": "leiqao1RODulC9Z+GpkAijLn1EaGUOGmAvSS++3hMSg=",
+        "originContent": "A GitHub Action to instantly provision an ephemeral, cross-platform [Distributed Nix Build](https://wiki.nixos.org/wiki/Distributed_build) cluster using standard [GitHub Hosted Runners](https://docs.github.com/en/actions/reference/runners/github-hosted-runners) securely connected via Tailscale.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "این اکشن به شما امکان می‌دهد یک ماتریس از رانرهای ثانویه گیت‌هاب (که **بیلدرها** هستند) را راه‌اندازی کنید و آن‌ها را به رانر اصلی (که **هماهنگ‌کننده** است) به طور یکپارچه از طریق SSH تیل‌اسکیل متصل نمایید. هماهنگ‌کننده به طور خودکار نیکس را پیکربندی می‌کند تا از این گره‌ها به عنوان بیلدرهای راه دور استفاده کند و عملکرد بیلد همزمان را بدون مدیریت زیرساخت خارجی به حداکثر می‌رساند! این راهکار برای ساخت پکیج‌های چندمعماری یا افزایش افقی بیلدهای سنگین سیستم NixOS بر روی ناوگانی از رانرهای x86 کاملاً مناسب است."
+      },
+      {
+        "row": 37,
+        "rowsha": "QC4JnzyfdM46MJIFl7oOmJ+C4OXeStn8yqo6GnRfKLw=",
+        "originContent": "This action allows you to spin up a matrix of secondary GitHub runners (the **Builders**) and connect them to a primary runner (the **Coordinator**) seamlessly over Tailscale SSH. The Coordinator automatically configures Nix to use these nodes as remote builders, maximizing concurrent build performance without managing external infrastructure! It is perfect for building multi-architecture packages or horizontally scaling heavy NixOS system closures across a fleet of x86 runners.",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ویژگی‌ها"
+      },
+      {
+        "row": 39,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- 🚀 **Zero-Config Remote Builders:** Automatically configures `/etc/nix/machines` and connects nodes via Tailscale SSH (no manual SSH keys required!).\n- 🌍 **Cross-Platform & Multi-Arch:** Mix and match Ubuntu (x86, ARM) and macOS (Intel, Apple Silicon) runners in the same build.\n- ⚖️ **Horizontal Scaling for NixOS:** Need to evaluate and build a massive NixOS configuration? Spin up an entire farm of identical nodes (e.g., five `ubuntu-24.04` runners) and let Nix automatically distribute parallel derivation builds across all available CPU cores in the cluster.\n- 🧹 **Maximum Disk Space:** Automatically cleans up pre-installed software on Linux runners (via [nothing-but-nix](https://github.com/wimpysworld/nothing-but-nix)) to give your Nix store maximum breathing room.\n- ⚡ **Built-in Caching:** Integrates [magic-nix-cache](https://github.com/DeterminateSystems/magic-nix-cache-action) to speed up flake evaluations and local builds.\n- 🛑 **Graceful Teardown:** Builders wait idly for tasks and self-terminate gracefully when the Coordinator finishes.\n\n## How It Works\n\nThe workflow separates runners into two roles: `builder` and `coordinator`.\n",
+    "ContentSha": "GR3LmlclksWPNrzvs85Cg/CkzPhXkIzqpEkKLaT6geI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 🚀 **سازنده‌های راه دور بدون نیاز به پیکربندی:** به طور خودکار فایل `/etc/nix/machines` را پیکربندی می‌کند و گره‌ها را از طریق SSH تیلز‌اسکیل متصل می‌سازد (نیازی به کلیدهای SSH دستی نیست!).\n- 🌍 **چندسکویی و چندمعماری:** می‌توانید اجراکننده‌های Ubuntu (x86، ARM) و macOS (Intel، Apple Silicon) را در یک ساخت ترکیب کنید.\n- ⚖️ **مقیاس‌پذیری افقی برای NixOS:** نیاز به ارزیابی و ساخت یک پیکربندی عظیم NixOS دارید؟ یک مزرعه کامل از گره‌های مشابه (مثلاً پنج اجراکننده `ubuntu-24.04`) راه‌اندازی کنید و اجازه دهید Nix ساخت‌های مشتق موازی را به طور خودکار بین همه هسته‌های CPU موجود در خوشه توزیع کند.\n- 🧹 **حداکثر فضای دیسک:** به طور خودکار نرم‌افزارهای از پیش نصب‌شده روی اجراکننده‌های لینوکس را پاک می‌کند (از طریق [nothing-but-nix](https://github.com/wimpysworld/nothing-but-nix)) تا فضای کافی برای فروشگاه Nix شما فراهم شود.\n- ⚡ **کش داخلی:** با [magic-nix-cache](https://github.com/DeterminateSystems/magic-nix-cache-action) ادغام شده تا ارزیابی فلک و ساخت‌های محلی را سرعت بخشد.\n- 🛑 **جمع‌آوری آرام:** سازنده‌ها در انتظار وظایف می‌مانند و پس از پایان کار هماهنگ‌کننده، به طور آرام خود را خاموش می‌کنند.\n\n## نحوه عملکرد\n\nاین گردش‌کار اجراکننده‌ها را به دو نقش تقسیم می‌کند: `builder` و `coordinator`.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UB/TR/1ZSC8i9GvlHb1bqExe6bl6JSk+UIUArWlD58g=",
+        "originContent": "- 🚀 **Zero-Config Remote Builders:** Automatically configures `/etc/nix/machines` and connects nodes via Tailscale SSH (no manual SSH keys required!).",
+        "translatedContent": "- 🚀 **سازنده‌های راه دور بدون نیاز به پیکربندی:** به طور خودکار فایل `/etc/nix/machines` را پیکربندی می‌کند و گره‌ها را از طریق SSH تیلز‌اسکیل متصل می‌سازد (نیازی به کلیدهای SSH دستی نیست!)."
+      },
+      {
+        "row": 2,
+        "rowsha": "qiKChs8G/CzLRRD5hhfzRN2O51zwj9CijZq05wOLuUg=",
+        "originContent": "- 🌍 **Cross-Platform & Multi-Arch:** Mix and match Ubuntu (x86, ARM) and macOS (Intel, Apple Silicon) runners in the same build.",
+        "translatedContent": "- 🌍 **چندسکویی و چندمعماری:** می‌توانید اجراکننده‌های Ubuntu (x86، ARM) و macOS (Intel، Apple Silicon) را در یک ساخت ترکیب کنید."
+      },
+      {
+        "row": 3,
+        "rowsha": "2Pb2q4R3plbjxdH6WYnX+AnHMnW9HXmHlQg2WxiHZ5I=",
+        "originContent": "- ⚖️ **Horizontal Scaling for NixOS:** Need to evaluate and build a massive NixOS configuration? Spin up an entire farm of identical nodes (e.g., five `ubuntu-24.04` runners) and let Nix automatically distribute parallel derivation builds across all available CPU cores in the cluster.",
+        "translatedContent": "- ⚖️ **مقیاس‌پذیری افقی برای NixOS:** نیاز به ارزیابی و ساخت یک پیکربندی عظیم NixOS دارید؟ یک مزرعه کامل از گره‌های مشابه (مثلاً پنج اجراکننده `ubuntu-24.04`) راه‌اندازی کنید و اجازه دهید Nix ساخت‌های مشتق موازی را به طور خودکار بین همه هسته‌های CPU موجود در خوشه توزیع کند."
+      },
+      {
+        "row": 4,
+        "rowsha": "KogMslwrH3aRt5XowJaFw+k86O8a4wyGAEX3kgzaRqM=",
+        "originContent": "- 🧹 **Maximum Disk Space:** Automatically cleans up pre-installed software on Linux runners (via [nothing-but-nix](https://github.com/wimpysworld/nothing-but-nix)) to give your Nix store maximum breathing room.",
+        "translatedContent": "- 🧹 **حداکثر فضای دیسک:** به طور خودکار نرم‌افزارهای از پیش نصب‌شده روی اجراکننده‌های لینوکس را پاک می‌کند (از طریق [nothing-but-nix](https://github.com/wimpysworld/nothing-but-nix)) تا فضای کافی برای فروشگاه Nix شما فراهم شود."
+      },
+      {
+        "row": 5,
+        "rowsha": "AKHQMWb54HIBQZZyYIL+xA9/vIxJjnUx4LQqNpi55cE=",
+        "originContent": "- ⚡ **Built-in Caching:** Integrates [magic-nix-cache](https://github.com/DeterminateSystems/magic-nix-cache-action) to speed up flake evaluations and local builds.",
+        "translatedContent": "- ⚡ **کش داخلی:** با [magic-nix-cache](https://github.com/DeterminateSystems/magic-nix-cache-action) ادغام شده تا ارزیابی فلک و ساخت‌های محلی را سرعت بخشد."
+      },
+      {
+        "row": 6,
+        "rowsha": "8y/NBrVVaUVBdh0V1JaxJ8UOiKZmsmgWsxkVxkmj6t0=",
+        "originContent": "- 🛑 **Graceful Teardown:** Builders wait idly for tasks and self-terminate gracefully when the Coordinator finishes.",
+        "translatedContent": "- 🛑 **جمع‌آوری آرام:** سازنده‌ها در انتظار وظایف می‌مانند و پس از پایان کار هماهنگ‌کننده، به طور آرام خود را خاموش می‌کنند."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+        "originContent": "## How It Works",
+        "translatedContent": "## نحوه عملکرد"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "wAiZ2dXsTKT+J0hYgrQB8BvsnQWhMZt5PybGKXfzqPQ=",
+        "originContent": "The workflow separates runners into two roles: `builder` and `coordinator`.",
+        "translatedContent": "این گردش‌کار اجراکننده‌ها را به دو نقش تقسیم می‌کند: `builder` و `coordinator`."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```mermaid\nsequenceDiagram\n  participant GH as GitHub Actions\n  participant Coord as Coordinator (Ubuntu)\n  participant B1 as Builder 1 (Ubuntu ARM)\n  participant B2 as Builder 2 (macOS)\n  participant TS as Tailscale Network\n\n  GH->>B1: Spawn Builder Node\n  GH->>B2: Spawn Builder Node\n  GH->>Coord: Spawn Coordinator Node\n\n  B1->>TS: Auth & Idle Wait\n  B2->>TS: Auth & Idle Wait\n  Coord->>TS: Auth & Wait for Builders\n\n  TS-->>Coord: Builders Online!\n\n  Note over Coord: Tests Nix connection &<br/>Updates /etc/nix/machines\n\n  Coord->>B1: Send aarch64-linux build tasks via SSH\n  Coord->>B2: Send aarch64-darwin build tasks via SSH\n\n  B1-->>Coord: Return Build Artifacts\n  B2-->>Coord: Return Build Artifacts\n\n  Note over Coord: Build Completes\n  Coord->>B1: Send Teardown Signal\n  Coord->>B2: Send Teardown Signal\n```",
+    "ContentSha": "rETikoGWtnkZLIRVQpHwyrQReJPdCtSJNRRf9VvMdTc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```mermaid\nsequenceDiagram\n  participant GH as GitHub Actions\n  participant Coord as Coordinator (Ubuntu)\n  participant B1 as Builder 1 (Ubuntu ARM)\n  participant B2 as Builder 2 (macOS)\n  participant TS as Tailscale Network\n\n  GH->>B1: Spawn Builder Node\n  GH->>B2: Spawn Builder Node\n  GH->>Coord: Spawn Coordinator Node\n\n  B1->>TS: Auth & Idle Wait\n  B2->>TS: Auth & Idle Wait\n  Coord->>TS: Auth & Wait for Builders\n\n  TS-->>Coord: Builders Online!\n\n  Note over Coord: Tests Nix connection &<br/>Updates /etc/nix/machines\n\n  Coord->>B1: Send aarch64-linux build tasks via SSH\n  Coord->>B2: Send aarch64-darwin build tasks via SSH\n\n  B1-->>Coord: Return Build Artifacts\n  B2-->>Coord: Return Build Artifacts\n\n  Note over Coord: Build Completes\n  Coord->>B1: Send Teardown Signal\n  Coord->>B2: Send Teardown Signal\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RtlHQpG+V59KLQkk05f8+fLlxsq4KdWUwAAs6jH0zbs=",
+        "originContent": "```mermaid",
+        "translatedContent": "```mermaid"
+      },
+      {
+        "row": 2,
+        "rowsha": "U29SrB950JGDYP1CLGrIRn2Ml0cCT/hLy5WYzqhNVWc=",
+        "originContent": "sequenceDiagram",
+        "translatedContent": "sequenceDiagram"
+      },
+      {
+        "row": 3,
+        "rowsha": "b1xRGxurCxKCOui51WsMSvg67ygHmGLVyAeOKvOnbvo=",
+        "originContent": "  participant GH as GitHub Actions",
+        "translatedContent": "  participant GH as GitHub Actions"
+      },
+      {
+        "row": 4,
+        "rowsha": "PaaH1g5pcEa9k1UrB1mL47Gl7CI6mwY43heydyP5J+Q=",
+        "originContent": "  participant Coord as Coordinator (Ubuntu)",
+        "translatedContent": "  participant Coord as Coordinator (Ubuntu)"
+      },
+      {
+        "row": 5,
+        "rowsha": "HPCmonmZHCRKMT1+IxIZXd8dyxLXCriF28Uda7Hx1ZY=",
+        "originContent": "  participant B1 as Builder 1 (Ubuntu ARM)",
+        "translatedContent": "  participant B1 as Builder 1 (Ubuntu ARM)"
+      },
+      {
+        "row": 6,
+        "rowsha": "zixrWvml09eQCTOYD0R+uaEPlBhM5sxLY7d0AujG1js=",
+        "originContent": "  participant B2 as Builder 2 (macOS)",
+        "translatedContent": "  participant B2 as Builder 2 (macOS)"
+      },
+      {
+        "row": 7,
+        "rowsha": "6kA5eIJFXyE0WujtoT60N7mPO2w1l95PnBSSHTkMEr8=",
+        "originContent": "  participant TS as Tailscale Network",
+        "translatedContent": "  participant TS as Tailscale Network"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "EhvgDxzPyKB3h6tBstihq57HnfoLw1s6p8YPuc1uZMg=",
+        "originContent": "  GH->>B1: Spawn Builder Node",
+        "translatedContent": "  GH->>B1: Spawn Builder Node"
+      },
+      {
+        "row": 10,
+        "rowsha": "XyvzjiMi29Ai4Cb+zoN2EXnMmPPlt8gu6EoSylcsw8A=",
+        "originContent": "  GH->>B2: Spawn Builder Node",
+        "translatedContent": "  GH->>B2: Spawn Builder Node"
+      },
+      {
+        "row": 11,
+        "rowsha": "vJSUGy7qmm+K/OUP0td9u8l06rHlA8hotuelgE7eSb4=",
+        "originContent": "  GH->>Coord: Spawn Coordinator Node",
+        "translatedContent": "  GH->>Coord: Spawn Coordinator Node"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "yXk/3Hjmo9HGZ7vfwHPbOvkuO80EpeI3oXqR4xYzp4U=",
+        "originContent": "  B1->>TS: Auth & Idle Wait",
+        "translatedContent": "  B1->>TS: Auth & Idle Wait"
+      },
+      {
+        "row": 14,
+        "rowsha": "hk/Y3kN9VIVbe0LjpLxRT2f7NIkRX0y0vqs8ot4IsAI=",
+        "originContent": "  B2->>TS: Auth & Idle Wait",
+        "translatedContent": "  B2->>TS: Auth & Idle Wait"
+      },
+      {
+        "row": 15,
+        "rowsha": "FzRgTBraFTlGXSlhgL42ANJ6WOIXzLnF6jIHiO7WTsQ=",
+        "originContent": "  Coord->>TS: Auth & Wait for Builders",
+        "translatedContent": "  Coord->>TS: Auth & Wait for Builders"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "77y/PEFyet7F9pxv3ziFXhLqG4klMaP+y/ALf1oNIC0=",
+        "originContent": "  TS-->>Coord: Builders Online!",
+        "translatedContent": "  TS-->>Coord: Builders Online!"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "VJOuBm2dmztW94jHBHcb4JWHfkV0jldwsdJbCoQKvXo=",
+        "originContent": "  Note over Coord: Tests Nix connection &<br/>Updates /etc/nix/machines",
+        "translatedContent": "  Note over Coord: Tests Nix connection &<br/>Updates /etc/nix/machines"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "JJm+whOwvSid9esQ9GyvTwccQH3NdzWlDE5am/8UyyQ=",
+        "originContent": "  Coord->>B1: Send aarch64-linux build tasks via SSH",
+        "translatedContent": "  Coord->>B1: Send aarch64-linux build tasks via SSH"
+      },
+      {
+        "row": 22,
+        "rowsha": "/onznAj6HB9+YrLqryUnYtXyA31zMT4SeAWfCQqlMjo=",
+        "originContent": "  Coord->>B2: Send aarch64-darwin build tasks via SSH",
+        "translatedContent": "  Coord->>B2: Send aarch64-darwin build tasks via SSH"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "0tq29CGtudtO8rMpwfytCArU1r6LorTNCbtUa4lfpxs=",
+        "originContent": "  B1-->>Coord: Return Build Artifacts",
+        "translatedContent": "  B1-->>Coord: Return Build Artifacts"
+      },
+      {
+        "row": 25,
+        "rowsha": "RdFPU/FFOUxVFEeZAoUyntPac5FfSMtP5Lv0Cor/WC4=",
+        "originContent": "  B2-->>Coord: Return Build Artifacts",
+        "translatedContent": "  B2-->>Coord: Return Build Artifacts"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "aCwaxQLTwMFc+X0eCCuOIrBb86U1OiIgBXVWNiFM+dc=",
+        "originContent": "  Note over Coord: Build Completes",
+        "translatedContent": "  Note over Coord: Build Completes"
+      },
+      {
+        "row": 28,
+        "rowsha": "EmIdMqI0EM3DHIh9U5fM9yRxbR3x4MCQUSeUK/TfdGI=",
+        "originContent": "  Coord->>B1: Send Teardown Signal",
+        "translatedContent": "  Coord->>B1: Send Teardown Signal"
+      },
+      {
+        "row": 29,
+        "rowsha": "j8uhqlCEXl/84CnoaST/zyQAcUtVber5IRWGI2DX6Bc=",
+        "originContent": "  Coord->>B2: Send Teardown Signal",
+        "translatedContent": "  Coord->>B2: Send Teardown Signal"
+      },
+      {
+        "row": 30,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## Prerequisites\n\nBefore using this action, you need to configure a Tailscale network for the runners to communicate securely.\n\n1. **Configure Tailscale ACLs:**\n   Ensure your Tailscale has tag groups created and ACLs allow the coordinator to SSH into the builders seamlessly using Tailscale SSH.\n   Add the following to your [Tailscale Access Controls](https://login.tailscale.com/admin/acls/file):\n\n<details>\n<summary>Click to view required Tailscale ACL configuration</summary>\n",
+    "ContentSha": "T3gUVsQ66JIKLLWJUZ9ijU9NdkDbPIjzMYU4rIbiLmQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## پیش‌نیازها\n\nقبل از استفاده از این اکشن، باید یک شبکه Tailscale برای ارتباط امن رانرها پیکربندی کنید.\n\n1. **پیکربندی ACLهای Tailscale:**\n   اطمینان حاصل کنید که گروه‌های تگ در Tailscale ایجاد شده‌اند و ACLها به هماهنگ‌کننده اجازه می‌دهند تا با استفاده از Tailscale SSH بدون مشکل به بیلدرها متصل شود.\n   موارد زیر را به [کنترل دسترسی Tailscale](https://login.tailscale.com/admin/acls/file) خود اضافه کنید:\n\n<details>\n<summary>برای مشاهده پیکربندی مورد نیاز ACLهای Tailscale کلیک کنید</summary>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+        "originContent": "## Prerequisites",
+        "translatedContent": "## پیش‌نیازها"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "gncnUTsyWPXb6PjzO8cLq4i+sRtkzcFkv6P1EOKRWnA=",
+        "originContent": "Before using this action, you need to configure a Tailscale network for the runners to communicate securely.",
+        "translatedContent": "قبل از استفاده از این اکشن، باید یک شبکه Tailscale برای ارتباط امن رانرها پیکربندی کنید."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "1VEfH4pQMq0sqfpbnuLoOcyattZYT9EiLgH0gbaYuZ8=",
+        "originContent": "1. **Configure Tailscale ACLs:**",
+        "translatedContent": "1. **پیکربندی ACLهای Tailscale:**"
+      },
+      {
+        "row": 7,
+        "rowsha": "wSalQ8ziDspYafb8+LaFk5q6UT5M6lrsHJ+4jJZEJik=",
+        "originContent": "   Ensure your Tailscale has tag groups created and ACLs allow the coordinator to SSH into the builders seamlessly using Tailscale SSH.",
+        "translatedContent": "   اطمینان حاصل کنید که گروه‌های تگ در Tailscale ایجاد شده‌اند و ACLها به هماهنگ‌کننده اجازه می‌دهند تا با استفاده از Tailscale SSH بدون مشکل به بیلدرها متصل شود."
+      },
+      {
+        "row": 8,
+        "rowsha": "qt+xplITr56JeWVULTiiFjWqnymBlxNe9grkmiPsw34=",
+        "originContent": "   Add the following to your [Tailscale Access Controls](https://login.tailscale.com/admin/acls/file):",
+        "translatedContent": "   موارد زیر را به [کنترل دسترسی Tailscale](https://login.tailscale.com/admin/acls/file) خود اضافه کنید:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 11,
+        "rowsha": "ZRVufarnp1alOubq3970wmudBNktpZfegovFIE6fef0=",
+        "originContent": "<summary>Click to view required Tailscale ACL configuration</summary>",
+        "translatedContent": "<summary>برای مشاهده پیکربندی مورد نیاز ACLهای Tailscale کلیک کنید</summary>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```json\n{\n  \"grants\": [\n    {\n      \"src\": [\"tag:nix-ci-builder\", \"tag:nix-ci-coordinator\"],\n      \"dst\": [\"tag:nix-ci-builder\", \"tag:nix-ci-coordinator\"],\n      \"ip\": [\"*\"]\n    }\n  ],\n  \"ssh\": [\n    {\n      \"src\": [\"tag:nix-ci-coordinator\"],\n      \"dst\": [\"tag:nix-ci-builder\"],\n      \"users\": [\"autogroup:nonroot\", \"root\"],\n      \"action\": \"accept\"\n    }\n  ],\n  \"tagOwners\": {\n    \"tag:nix-ci-coordinator\": [\"autogroup:admin\", \"tag:nix-ci-coordinator\"],\n    \"tag:nix-ci-builder\": [\"autogroup:admin\", \"tag:nix-ci-builder\"]\n  }\n}\n```",
+    "ContentSha": "jWQZJcXB2K6LVDG4goSjSX725VUYG2fU9cf5czk2QGM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"grants\": [\n    {\n      \"src\": [\"tag:nix-ci-builder\", \"tag:nix-ci-coordinator\"],\n      \"dst\": [\"tag:nix-ci-builder\", \"tag:nix-ci-coordinator\"],\n      \"ip\": [\"*\"]\n    }\n  ],\n  \"ssh\": [\n    {\n      \"src\": [\"tag:nix-ci-coordinator\"],\n      \"dst\": [\"tag:nix-ci-builder\"],\n      \"users\": [\"autogroup:nonroot\", \"root\"],\n      \"action\": \"accept\"\n    }\n  ],\n  \"tagOwners\": {\n    \"tag:nix-ci-coordinator\": [\"autogroup:admin\", \"tag:nix-ci-coordinator\"],\n    \"tag:nix-ci-builder\": [\"autogroup:admin\", \"tag:nix-ci-builder\"]\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "h9hNManL7wrWy9h2EkumfMW7t7qMTf9RMTqVXJMa9W4=",
+        "originContent": "  \"grants\": [",
+        "translatedContent": "  \"grants\": ["
+      },
+      {
+        "row": 4,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 5,
+        "rowsha": "hh/mKyPZkfOhANTTJVV07qpwpVXQGS1lmpy0829JKgc=",
+        "originContent": "      \"src\": [\"tag:nix-ci-builder\", \"tag:nix-ci-coordinator\"],",
+        "translatedContent": "      \"src\": [\"tag:nix-ci-builder\", \"tag:nix-ci-coordinator\"],"
+      },
+      {
+        "row": 6,
+        "rowsha": "6ulG4NmjRHTOlMNiDKm1umQjujg2F3Vwir0XKaEvTcE=",
+        "originContent": "      \"dst\": [\"tag:nix-ci-builder\", \"tag:nix-ci-coordinator\"],",
+        "translatedContent": "      \"dst\": [\"tag:nix-ci-builder\", \"tag:nix-ci-coordinator\"],"
+      },
+      {
+        "row": 7,
+        "rowsha": "7cFu9F/eYCm/PnE+8NHSN6kMMvJWbIhPuTUvPdCQjVo=",
+        "originContent": "      \"ip\": [\"*\"]",
+        "translatedContent": "      \"ip\": [\"*\"]"
+      },
+      {
+        "row": 8,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 9,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 10,
+        "rowsha": "I1TMpGK5F9Ci9o+Vr2VQnuqdFRLTw8fVfWfweswR2Xc=",
+        "originContent": "  \"ssh\": [",
+        "translatedContent": "  \"ssh\": ["
+      },
+      {
+        "row": 11,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 12,
+        "rowsha": "JT2Xt8ea7CjwhSwA73cje/0uF77OF8eoDSnn+P/xd6g=",
+        "originContent": "      \"src\": [\"tag:nix-ci-coordinator\"],",
+        "translatedContent": "      \"src\": [\"tag:nix-ci-coordinator\"],"
+      },
+      {
+        "row": 13,
+        "rowsha": "CbzLWBin+8kKqhdZrCIB5toMkKp2pgxjrMD3bbkK2n0=",
+        "originContent": "      \"dst\": [\"tag:nix-ci-builder\"],",
+        "translatedContent": "      \"dst\": [\"tag:nix-ci-builder\"],"
+      },
+      {
+        "row": 14,
+        "rowsha": "6bbJZ4leqIiL0jat+XoEvsx2rcgjIT+0OfJGIZyz72I=",
+        "originContent": "      \"users\": [\"autogroup:nonroot\", \"root\"],",
+        "translatedContent": "      \"users\": [\"autogroup:nonroot\", \"root\"],"
+      },
+      {
+        "row": 15,
+        "rowsha": "mCanNgYNXZivBWbxYIHFIuJy7VjBwziC1S0EvT+jTZk=",
+        "originContent": "      \"action\": \"accept\"",
+        "translatedContent": "      \"action\": \"accept\""
+      },
+      {
+        "row": 16,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 17,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 18,
+        "rowsha": "OThrt9iJFEgyP9oFda2yPfoy/cBrdA+Swbv2UBCZQW4=",
+        "originContent": "  \"tagOwners\": {",
+        "translatedContent": "  \"tagOwners\": {"
+      },
+      {
+        "row": 19,
+        "rowsha": "lW/yWIyGe2LFTl/yjtHLW1uod8hpy8dxw7pU/4vIHnY=",
+        "originContent": "    \"tag:nix-ci-coordinator\": [\"autogroup:admin\", \"tag:nix-ci-coordinator\"],",
+        "translatedContent": "    \"tag:nix-ci-coordinator\": [\"autogroup:admin\", \"tag:nix-ci-coordinator\"],"
+      },
+      {
+        "row": 20,
+        "rowsha": "1pb0ozWkwsYDtKo3kZ63/vXYkh6m/fn9lN0MwPlFn88=",
+        "originContent": "    \"tag:nix-ci-builder\": [\"autogroup:admin\", \"tag:nix-ci-builder\"]",
+        "translatedContent": "    \"tag:nix-ci-builder\": [\"autogroup:admin\", \"tag:nix-ci-builder\"]"
+      },
+      {
+        "row": 21,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 22,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 23,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "</details>\n\n2. **Create a Tailscale OAuth Client:**\n   Generate an OAuth Client Secret in your [Tailscale Admin panel](https://login.tailscale.com/admin/settings/trust-credentials), with `auth_keys` write scope and `nix-ci-builder` `nix-ci-coordinator` tags.\n   Add this secret to your GitHub Repository Secrets as `TS_OAUTH_SECRET`.\n\n## Inputs\n\n| Input                | Description                                                                                     | Required | Default     |\n| -------------------- | ----------------------------------------------------------------------------------------------- | -------- | ----------- |\n| `tailscale_authkey`  | Tailscale OAuth client secret or Auth Key.                                                      | **Yes**  | N/A         |\n| `tailscale_hostname` | Hostname to register with Tailscale.                                                            | **Yes**  | N/A         |\n| `tailscale_tags`     | Tags to advertise to Tailscale (e.g. `tag:nix-ci-builder`).                                     | **Yes**  | N/A         |\n| `role`               | Role of the current job: `\"builder\"` or `\"coordinator\"`.                                        | Yes      | `\"builder\"` |\n| `builders`           | Space separated list of full builder hostnames to wait for. (_Required if role is coordinator_) | No       | `\"\"`        |\n| `builder_timeout`    | Maximum time (in seconds) the builder should wait before self-terminating.                      | No       | `\"300\"`     |\n| `extra_nix_config`   | Extra Nix configuration to append to `/etc/nix/nix.conf`.                                       | No       | `\"\"`        |\n\n## Usage\n\n### Full Distributed Build Example\n\nBelow is a complete workflow (`nix-build.yml`) that dynamically spins up multiple runner architectures (Ubuntu x86, Ubuntu ARM, macOS x86, macOS Apple Silicon), connects them together, and runs a distributed Nix build.\n\nIf you are building a heavy NixOS configuration and simply want to speed it up using horizontal scaling, you can change the `BUILDER_COUNTS` to spawn multiple identical x86 runners. For example:\n`BUILDER_COUNTS: '{\"ubuntu-24.04\": 4}'` \nThis will instantly give you a build farm with 16 CPU cores (4 runners × 4 cores) to process derivations in parallel.\n\nSince GitHub Hosted Runners are ephemeral, all build artifacts in the Nix store will be lost when the workflow finishes. To reap the benefits of your distributed builds in future CI runs or on your local machines, it is highly recommended to push the results to a binary cache like [Cachix](https://www.cachix.org) or [Attic](https://github.com/zhaofengli/attic).\n",
+    "ContentSha": "SiaS1YdNkAGO2Gx/KlQtyQSSKRBrFEILlxHm3tPF9bU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "</details>\n\n2. **ایجاد یک کلاینت OAuth برای Tailscale:**\n   یک OAuth Client Secret را در [پنل مدیریت Tailscale](https://login.tailscale.com/admin/settings/trust-credentials) ایجاد کنید، با دسترسی `auth_keys` و تگ‌های `nix-ci-builder` و `nix-ci-coordinator`.\n   این رمز را به عنوان `TS_OAUTH_SECRET` به بخش Secrets مخزن GitHub خود اضافه کنید.\n\n## ورودی‌ها\n\n| ورودی                 | توضیحات                                                                                         | ضروری    | پیش‌فرض     |\n| --------------------- | ----------------------------------------------------------------------------------------------- | -------- | ----------- |\n| `tailscale_authkey`   | کلاینت سکرت یا Auth Key مربوط به Tailscale OAuth.                                               | **بله**  | N/A         |\n| `tailscale_hostname`  | نام میزبان جهت ثبت در Tailscale.                                                                | **بله**  | N/A         |\n| `tailscale_tags`      | تگ‌هایی که به Tailscale معرفی می‌شوند (مثلاً `tag:nix-ci-builder`).                             | **بله**  | N/A         |\n| `role`                | نقش این job: `\"builder\"` یا `\"coordinator\"`.                                                    | بله      | `\"builder\"` |\n| `builders`            | لیست نام‌های کامل میزبان‌های builder که باید منتظرشان ماند. (_در صورت coordinator بودن نقش الزامی است_) | خیر      | `\"\"`        |\n| `builder_timeout`     | حداکثر زمان (بر حسب ثانیه) که builder باید قبل از خاتمه خودکار منتظر بماند.                     | خیر      | `\"300\"`     |\n| `extra_nix_config`    | پیکربندی اضافی Nix برای اضافه شدن به `/etc/nix/nix.conf`.                                      | خیر      | `\"\"`        |\n\n## نحوه استفاده\n\n### نمونه ساخت توزیع‌شده کامل\n\nدر زیر یک workflow کامل (`nix-build.yml`) آمده است که چندین runner با معماری مختلف (اوبونتو x86، اوبونتو ARM، مک x86، مک اپل سیلیکون) را به صورت پویا راه‌اندازی، به هم متصل و یک ساخت توزیع‌شده Nix را اجرا می‌کند.\n\nاگر قصد دارید یک پیکربندی سنگین NixOS را ساخته و فقط می‌خواهید با مقیاس‌پذیری افقی سرعت آن را افزایش دهید، می‌توانید مقدار `BUILDER_COUNTS` را تغییر دهید تا چند runner x86 یکسان ایجاد شود. برای مثال:\n`BUILDER_COUNTS: '{\"ubuntu-24.04\": 4}'` \nاین کار فوراً یک build farm با ۱۶ هسته CPU (۴ runner × ۴ هسته) برای پردازش موازی مشتقات در اختیار شما قرار می‌دهد.\n\nاز آنجا که GitHub Hosted Runners موقت هستند، پس از پایان workflow تمام محصولات ساخت‌شده در Nix store از بین می‌روند. برای بهره‌مندی از نتایج ساخت توزیع‌شده در اجراهای بعدی CI یا روی ماشین‌های شخصی، توصیه می‌شود نتایج را به یک binary cache مانند [Cachix](https://www.cachix.org) یا [Attic](https://github.com/zhaofengli/attic) ارسال کنید.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "IW4Tp9gzDgRnGC1GLz7YfkIOXbAR54liTTPUv1d8xYM=",
+        "originContent": "2. **Create a Tailscale OAuth Client:**",
+        "translatedContent": "2. **ایجاد یک کلاینت OAuth برای Tailscale:**"
+      },
+      {
+        "row": 4,
+        "rowsha": "d1mFxqcYRSrOUWXtG4kHw46FUp19M3UxqXzJDlUEhoE=",
+        "originContent": "   Generate an OAuth Client Secret in your [Tailscale Admin panel](https://login.tailscale.com/admin/settings/trust-credentials), with `auth_keys` write scope and `nix-ci-builder` `nix-ci-coordinator` tags.",
+        "translatedContent": "   یک OAuth Client Secret را در [پنل مدیریت Tailscale](https://login.tailscale.com/admin/settings/trust-credentials) ایجاد کنید، با دسترسی `auth_keys` و تگ‌های `nix-ci-builder` و `nix-ci-coordinator`."
+      },
+      {
+        "row": 5,
+        "rowsha": "FS8ZI19lYVDACOzetzG+WcoY2dYsqC7bwrrxVMywefg=",
+        "originContent": "   Add this secret to your GitHub Repository Secrets as `TS_OAUTH_SECRET`.",
+        "translatedContent": "   این رمز را به عنوان `TS_OAUTH_SECRET` به بخش Secrets مخزن GitHub خود اضافه کنید."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "dW/hizPa89diSo/S5gJ7ZGZPLUE7nwR+KFNE9IYCCmA=",
+        "originContent": "## Inputs",
+        "translatedContent": "## ورودی‌ها"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "uv8pYwFh4jUdjWhyLaj/SNjbjwE0JHJC7bImlCqSWD8=",
+        "originContent": "| Input                | Description                                                                                     | Required | Default     |",
+        "translatedContent": "| ورودی                 | توضیحات                                                                                         | ضروری    | پیش‌فرض     |"
+      },
+      {
+        "row": 10,
+        "rowsha": "8+Pq0Yq6rBGyliQhzDgS2Yo1RJjG4A/RNPCOaMZrA0E=",
+        "originContent": "| -------------------- | ----------------------------------------------------------------------------------------------- | -------- | ----------- |",
+        "translatedContent": "| --------------------- | ----------------------------------------------------------------------------------------------- | -------- | ----------- |"
+      },
+      {
+        "row": 11,
+        "rowsha": "QwZO3+zeiRN1FM16dhM9unIrYarI0yiwVOcSv+aUWAk=",
+        "originContent": "| `tailscale_authkey`  | Tailscale OAuth client secret or Auth Key.                                                      | **Yes**  | N/A         |",
+        "translatedContent": "| `tailscale_authkey`   | کلاینت سکرت یا Auth Key مربوط به Tailscale OAuth.                                               | **بله**  | N/A         |"
+      },
+      {
+        "row": 12,
+        "rowsha": "+cekAwWKUzrPweGqnZYbKZgiLh2JfqWz8maDiUofV+o=",
+        "originContent": "| `tailscale_hostname` | Hostname to register with Tailscale.                                                            | **Yes**  | N/A         |",
+        "translatedContent": "| `tailscale_hostname`  | نام میزبان جهت ثبت در Tailscale.                                                                | **بله**  | N/A         |"
+      },
+      {
+        "row": 13,
+        "rowsha": "KI3MoAQDN4VViwXqtVLVbu0QAl2AzXlo5z2XaTM1t8Y=",
+        "originContent": "| `tailscale_tags`     | Tags to advertise to Tailscale (e.g. `tag:nix-ci-builder`).                                     | **Yes**  | N/A         |",
+        "translatedContent": "| `tailscale_tags`      | تگ‌هایی که به Tailscale معرفی می‌شوند (مثلاً `tag:nix-ci-builder`).                             | **بله**  | N/A         |"
+      },
+      {
+        "row": 14,
+        "rowsha": "knWQDP6lPESY+QzlzHAQEUw79+oxJhZi9Xl6Vq5/zxk=",
+        "originContent": "| `role`               | Role of the current job: `\"builder\"` or `\"coordinator\"`.                                        | Yes      | `\"builder\"` |",
+        "translatedContent": "| `role`                | نقش این job: `\"builder\"` یا `\"coordinator\"`.                                                    | بله      | `\"builder\"` |"
+      },
+      {
+        "row": 15,
+        "rowsha": "dxLYq4h0jBE+J2z+2hOK8k9D75SJ0jsMt+RhGpw8WS0=",
+        "originContent": "| `builders`           | Space separated list of full builder hostnames to wait for. (_Required if role is coordinator_) | No       | `\"\"`        |",
+        "translatedContent": "| `builders`            | لیست نام‌های کامل میزبان‌های builder که باید منتظرشان ماند. (_در صورت coordinator بودن نقش الزامی است_) | خیر      | `\"\"`        |"
+      },
+      {
+        "row": 16,
+        "rowsha": "iIrB9dsoPdBFNmot+aZ71FUhDS00M/ZOAT8bSmnoP5c=",
+        "originContent": "| `builder_timeout`    | Maximum time (in seconds) the builder should wait before self-terminating.                      | No       | `\"300\"`     |",
+        "translatedContent": "| `builder_timeout`     | حداکثر زمان (بر حسب ثانیه) که builder باید قبل از خاتمه خودکار منتظر بماند.                     | خیر      | `\"300\"`     |"
+      },
+      {
+        "row": 17,
+        "rowsha": "DC8W3x80dU3dgjz4ctSh9fBKuO07oyZVjKg+QD3ZKiA=",
+        "originContent": "| `extra_nix_config`   | Extra Nix configuration to append to `/etc/nix/nix.conf`.                                       | No       | `\"\"`        |",
+        "translatedContent": "| `extra_nix_config`    | پیکربندی اضافی Nix برای اضافه شدن به `/etc/nix/nix.conf`.                                      | خیر      | `\"\"`        |"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## نحوه استفاده"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "92xhw5mFxrR4vO4r/oq+riyuyHMu68doMkZUTMg0Dqg=",
+        "originContent": "### Full Distributed Build Example",
+        "translatedContent": "### نمونه ساخت توزیع‌شده کامل"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "/oQxugUOiU1Zp3UlaS3ib5uO9WAoBsoMrRDGUg7WFuo=",
+        "originContent": "Below is a complete workflow (`nix-build.yml`) that dynamically spins up multiple runner architectures (Ubuntu x86, Ubuntu ARM, macOS x86, macOS Apple Silicon), connects them together, and runs a distributed Nix build.",
+        "translatedContent": "در زیر یک workflow کامل (`nix-build.yml`) آمده است که چندین runner با معماری مختلف (اوبونتو x86، اوبونتو ARM، مک x86، مک اپل سیلیکون) را به صورت پویا راه‌اندازی، به هم متصل و یک ساخت توزیع‌شده Nix را اجرا می‌کند."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "vXMN4L2J76dgThR86xX1987FbMCm97PUavE5OkyCBx0=",
+        "originContent": "If you are building a heavy NixOS configuration and simply want to speed it up using horizontal scaling, you can change the `BUILDER_COUNTS` to spawn multiple identical x86 runners. For example:",
+        "translatedContent": "اگر قصد دارید یک پیکربندی سنگین NixOS را ساخته و فقط می‌خواهید با مقیاس‌پذیری افقی سرعت آن را افزایش دهید، می‌توانید مقدار `BUILDER_COUNTS` را تغییر دهید تا چند runner x86 یکسان ایجاد شود. برای مثال:"
+      },
+      {
+        "row": 26,
+        "rowsha": "GHSFbbd15YiLhMSlPa7GcyERbk7OKNNZ5hFsX2DaBwQ=",
+        "originContent": "`BUILDER_COUNTS: '{\"ubuntu-24.04\": 4}'` ",
+        "translatedContent": "`BUILDER_COUNTS: '{\"ubuntu-24.04\": 4}'` "
+      },
+      {
+        "row": 27,
+        "rowsha": "bYS3hvn7JyX1zo2PJn4VDSI1adyeZYoWU5m5g+4Zkus=",
+        "originContent": "This will instantly give you a build farm with 16 CPU cores (4 runners × 4 cores) to process derivations in parallel.",
+        "translatedContent": "این کار فوراً یک build farm با ۱۶ هسته CPU (۴ runner × ۴ هسته) برای پردازش موازی مشتقات در اختیار شما قرار می‌دهد."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "Q1DI2M2GyATgRj77Cv7s/LYTmoeAeygy1x/DqF/kjRI=",
+        "originContent": "Since GitHub Hosted Runners are ephemeral, all build artifacts in the Nix store will be lost when the workflow finishes. To reap the benefits of your distributed builds in future CI runs or on your local machines, it is highly recommended to push the results to a binary cache like [Cachix](https://www.cachix.org) or [Attic](https://github.com/zhaofengli/attic).",
+        "translatedContent": "از آنجا که GitHub Hosted Runners موقت هستند، پس از پایان workflow تمام محصولات ساخت‌شده در Nix store از بین می‌روند. برای بهره‌مندی از نتایج ساخت توزیع‌شده در اجراهای بعدی CI یا روی ماشین‌های شخصی، توصیه می‌شود نتایج را به یک binary cache مانند [Cachix](https://www.cachix.org) یا [Attic](https://github.com/zhaofengli/attic) ارسال کنید."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```yaml\nname: Distributed Nix Build\n\non:\n  workflow_dispatch:\n\nenv:\n  # Define exactly how many runners of each OS type you want\n  BUILDER_COUNTS: '{\"ubuntu-24.04\": 1, \"ubuntu-24.04-arm\": 1, \"macos-26-intel\": 1, \"macos-26\": 1}'\n\njobs:\n  config:\n    runs-on: ubuntu-slim\n    outputs:\n      builder_matrix: ${{ steps.set.outputs.builder_matrix }}\n      builders_list: ${{ steps.set.outputs.builders_list }}\n      run_suffix: ${{ steps.set.outputs.run_suffix }}\n    steps:\n      - id: set\n        run: |\n          SUFFIX=$(openssl rand -hex 3)\n          echo \"run_suffix=$SUFFIX\" >> \"$GITHUB_OUTPUT\"\n\n          # Dynamically generate the Matrix JSON based on BUILDER_COUNTS\n          MATRIX_JSON=$(echo '${{ env.BUILDER_COUNTS }}' | jq -c '[\n              to_entries[] | .key as $os | .value as $count |\n              range(1; $count + 1) | { os: $os, id: \"\\($os)-\\(.)\" }\n            ]\n          ')\n          echo \"builder_matrix=$MATRIX_JSON\" >> \"$GITHUB_OUTPUT\"\n\n          # Create a space-separated list of hostnames for the coordinator\n          BUILDERS_LIST=$(echo \"$MATRIX_JSON\" | jq -r --arg suffix \"$SUFFIX\" 'map(\"nix-builder-\\($suffix)-\\(.id)\") | join(\" \")')\n          echo \"builders_list=$BUILDERS_LIST\" >> \"$GITHUB_OUTPUT\"\n\n  builder:\n    needs: config\n    name: Builder ${{ matrix.builder.id }} (${{ needs.config.outputs.run_suffix }})\n    runs-on: ${{ matrix.builder.os }}\n    strategy:\n      fail-fast: false\n      matrix:\n        builder: ${{ fromJSON(needs.config.outputs.builder_matrix) }}\n    steps:\n      - name: Setup Distributed Nix Builder\n        uses: Misaka13514/setup-distributed-nix-builds@main\n        with:\n          tailscale_authkey: ${{ secrets.TS_OAUTH_SECRET }}\n          tailscale_hostname: nix-builder-${{ needs.config.outputs.run_suffix }}-${{ matrix.builder.id }}\n          tailscale_tags: tag:nix-ci-builder\n          role: builder\n\n      # Optionally configure your Cachix/Attic or other caching here\n      # - uses: cachix/cachix-action@v17\n\n  coordinator:\n    needs: config\n    name: Coordinator (${{ needs.config.outputs.run_suffix }})\n    runs-on: ubuntu-24.04\n    steps:\n      - name: Setup Coordinator & Connect Builders\n        uses: Misaka13514/setup-distributed-nix-builds@main\n        with:\n          tailscale_authkey: ${{ secrets.TS_OAUTH_SECRET }}\n          tailscale_hostname: nix-coordinator-${{ needs.config.outputs.run_suffix }}\n          tailscale_tags: tag:nix-ci-coordinator\n          role: coordinator\n          builders: ${{ needs.config.outputs.builders_list }}\n\n      # Optionally configure your Cachix/Attic or other caching here\n      # - uses: cachix/cachix-action@v17\n\n      - name: Execute Distributed Build\n        run: |\n          # Your build command here. Because builders are registered in /etc/nix/machines,\n          # Nix will automatically offload tasks to the correct architecture node.\n          nix build -L --max-jobs 0 .#my-package\n\n      # Signal builders to terminate if they are not needed anymore\n      - name: Teardown Builders\n        run: stop-nix-builders\n\n      # Push build results to Cachix/Attic or other cache here if desired\n      # - name: Push to Cachix\n      #   run: cachix push mycache --all\n```",
+    "ContentSha": "6e097szRCRcBVQdgnRtlx7nf5bdyBY/qmDV9orHWTCI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nname: Distributed Nix Build\n\non:\n  workflow_dispatch:\n\nenv:\n  # Define exactly how many runners of each OS type you want\n  BUILDER_COUNTS: '{\"ubuntu-24.04\": 1, \"ubuntu-24.04-arm\": 1, \"macos-26-intel\": 1, \"macos-26\": 1}'\n\njobs:\n  config:\n    runs-on: ubuntu-slim\n    outputs:\n      builder_matrix: ${{ steps.set.outputs.builder_matrix }}\n      builders_list: ${{ steps.set.outputs.builders_list }}\n      run_suffix: ${{ steps.set.outputs.run_suffix }}\n    steps:\n      - id: set\n        run: |\n          SUFFIX=$(openssl rand -hex 3)\n          echo \"run_suffix=$SUFFIX\" >> \"$GITHUB_OUTPUT\"\n\n          # Dynamically generate the Matrix JSON based on BUILDER_COUNTS\n          MATRIX_JSON=$(echo '${{ env.BUILDER_COUNTS }}' | jq -c '[\n              to_entries[] | .key as $os | .value as $count |\n              range(1; $count + 1) | { os: $os, id: \"\\($os)-\\(.)\" }\n            ]\n          ')\n          echo \"builder_matrix=$MATRIX_JSON\" >> \"$GITHUB_OUTPUT\"\n\n          # Create a space-separated list of hostnames for the coordinator\n          BUILDERS_LIST=$(echo \"$MATRIX_JSON\" | jq -r --arg suffix \"$SUFFIX\" 'map(\"nix-builder-\\($suffix)-\\(.id)\") | join(\" \")')\n          echo \"builders_list=$BUILDERS_LIST\" >> \"$GITHUB_OUTPUT\"\n\n  builder:\n    needs: config\n    name: Builder ${{ matrix.builder.id }} (${{ needs.config.outputs.run_suffix }})\n    runs-on: ${{ matrix.builder.os }}\n    strategy:\n      fail-fast: false\n      matrix:\n        builder: ${{ fromJSON(needs.config.outputs.builder_matrix) }}\n    steps:\n      - name: Setup Distributed Nix Builder\n        uses: Misaka13514/setup-distributed-nix-builds@main\n        with:\n          tailscale_authkey: ${{ secrets.TS_OAUTH_SECRET }}\n          tailscale_hostname: nix-builder-${{ needs.config.outputs.run_suffix }}-${{ matrix.builder.id }}\n          tailscale_tags: tag:nix-ci-builder\n          role: builder\n\n      # Optionally configure your Cachix/Attic or other caching here\n      # - uses: cachix/cachix-action@v17\n\n  coordinator:\n    needs: config\n    name: Coordinator (${{ needs.config.outputs.run_suffix }})\n    runs-on: ubuntu-24.04\n    steps:\n      - name: Setup Coordinator & Connect Builders\n        uses: Misaka13514/setup-distributed-nix-builds@main\n        with:\n          tailscale_authkey: ${{ secrets.TS_OAUTH_SECRET }}\n          tailscale_hostname: nix-coordinator-${{ needs.config.outputs.run_suffix }}\n          tailscale_tags: tag:nix-ci-coordinator\n          role: coordinator\n          builders: ${{ needs.config.outputs.builders_list }}\n\n      # Optionally configure your Cachix/Attic or other caching here\n      # - uses: cachix/cachix-action@v17\n\n      - name: Execute Distributed Build\n        run: |\n          # Your build command here. Because builders are registered in /etc/nix/machines,\n          # Nix will automatically offload tasks to the correct architecture node.\n          nix build -L --max-jobs 0 .#my-package\n\n      # Signal builders to terminate if they are not needed anymore\n      - name: Teardown Builders\n        run: stop-nix-builders\n\n      # Push build results to Cachix/Attic or other cache here if desired\n      # - name: Push to Cachix\n      #   run: cachix push mycache --all\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "eed2ETolwzyEpKPLBCP4xszwjYVe24nJO9J6vgIKCYI=",
+        "originContent": "name: Distributed Nix Build",
+        "translatedContent": "name: Distributed Nix Build"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "/IE1/RJkFioKmx+0E886tYovB6DXhxfe14EIqVDqe3U=",
+        "originContent": "on:",
+        "translatedContent": "on:"
+      },
+      {
+        "row": 5,
+        "rowsha": "Me8QFl/phJKnUjTiIdU4kl3EAHv9JN6PVide+Xfp9WQ=",
+        "originContent": "  workflow_dispatch:",
+        "translatedContent": "  workflow_dispatch:"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "jbcAYX8ZWUk0uFqwPIBwFPAOqOl/jPyiqgyEJA1xSyg=",
+        "originContent": "env:",
+        "translatedContent": "env:"
+      },
+      {
+        "row": 8,
+        "rowsha": "DrhAe17RxVLiIclfglGp3jkgh2kouL5kvBk740r09UU=",
+        "originContent": "  # Define exactly how many runners of each OS type you want",
+        "translatedContent": "  # Define exactly how many runners of each OS type you want"
+      },
+      {
+        "row": 9,
+        "rowsha": "HFPfvV+lUtGn90zRwfGLhQ8d/z0CPVrX8D+vfrgqN3M=",
+        "originContent": "  BUILDER_COUNTS: '{\"ubuntu-24.04\": 1, \"ubuntu-24.04-arm\": 1, \"macos-26-intel\": 1, \"macos-26\": 1}'",
+        "translatedContent": "  BUILDER_COUNTS: '{\"ubuntu-24.04\": 1, \"ubuntu-24.04-arm\": 1, \"macos-26-intel\": 1, \"macos-26\": 1}'"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "MdlDD0SwaBhkENfsyIRY4M9eZ7Q5lR8Dw5HPCs4/H/4=",
+        "originContent": "jobs:",
+        "translatedContent": "jobs:"
+      },
+      {
+        "row": 12,
+        "rowsha": "gD7dAHEctum93X9cwfB+l8l8icZ+XTztkoTFbLcKMlg=",
+        "originContent": "  config:",
+        "translatedContent": "  config:"
+      },
+      {
+        "row": 13,
+        "rowsha": "C3BRgnnb2y11r8kFoU23lwyraP1lqQANzU7Rl2mI0PQ=",
+        "originContent": "    runs-on: ubuntu-slim",
+        "translatedContent": "    runs-on: ubuntu-slim"
+      },
+      {
+        "row": 14,
+        "rowsha": "6iSz5EOQMZwyJrA4VgWx0YzeOYJTCO7BPSjAFren4sM=",
+        "originContent": "    outputs:",
+        "translatedContent": "    outputs:"
+      },
+      {
+        "row": 15,
+        "rowsha": "o7RxjicBOvTMzc4ReXmnQxcZp43bFLnV0n9VebvKWxw=",
+        "originContent": "      builder_matrix: ${{ steps.set.outputs.builder_matrix }}",
+        "translatedContent": "      builder_matrix: ${{ steps.set.outputs.builder_matrix }}"
+      },
+      {
+        "row": 16,
+        "rowsha": "LEfiBUuWJPOI1Qvh/clRi+uDnekvWVY2xpKX+u3xgmI=",
+        "originContent": "      builders_list: ${{ steps.set.outputs.builders_list }}",
+        "translatedContent": "      builders_list: ${{ steps.set.outputs.builders_list }}"
+      },
+      {
+        "row": 17,
+        "rowsha": "99J6QjxRdAXXAfSivr1g3RG6pNi+IxaNEy0ex2/0Rsw=",
+        "originContent": "      run_suffix: ${{ steps.set.outputs.run_suffix }}",
+        "translatedContent": "      run_suffix: ${{ steps.set.outputs.run_suffix }}"
+      },
+      {
+        "row": 18,
+        "rowsha": "hS4CmHrAmWwwZHAnLuwnwgytfTId/6QpTYuGJvdvdwg=",
+        "originContent": "    steps:",
+        "translatedContent": "    steps:"
+      },
+      {
+        "row": 19,
+        "rowsha": "H48Gt2EUpG42UnpCq5nz81rsOLPMwdux3eqj9orNYtI=",
+        "originContent": "      - id: set",
+        "translatedContent": "      - id: set"
+      },
+      {
+        "row": 20,
+        "rowsha": "DOQ3SJWha68JkKp062R172o+bvEGb2I+dg3VJ6e0ZQM=",
+        "originContent": "        run: |",
+        "translatedContent": "        run: |"
+      },
+      {
+        "row": 21,
+        "rowsha": "zHZWM3BCi+dARr44KnQBLSvw4h4jxmuMvTdbba/Ld7Q=",
+        "originContent": "          SUFFIX=$(openssl rand -hex 3)",
+        "translatedContent": "          SUFFIX=$(openssl rand -hex 3)"
+      },
+      {
+        "row": 22,
+        "rowsha": "ZqZaP+ywShxVWapshd2F7X11yHNK4RHNIL9eSVmGQzI=",
+        "originContent": "          echo \"run_suffix=$SUFFIX\" >> \"$GITHUB_OUTPUT\"",
+        "translatedContent": "          echo \"run_suffix=$SUFFIX\" >> \"$GITHUB_OUTPUT\""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "2L4WiFfth1az9obWi8uLoNUrmbycxKifBV4k7ijg3S4=",
+        "originContent": "          # Dynamically generate the Matrix JSON based on BUILDER_COUNTS",
+        "translatedContent": "          # Dynamically generate the Matrix JSON based on BUILDER_COUNTS"
+      },
+      {
+        "row": 25,
+        "rowsha": "V2ED2lhni/850T123u+i+tqkmXhK5cGz5MKbvdGS30A=",
+        "originContent": "          MATRIX_JSON=$(echo '${{ env.BUILDER_COUNTS }}' | jq -c '[",
+        "translatedContent": "          MATRIX_JSON=$(echo '${{ env.BUILDER_COUNTS }}' | jq -c '["
+      },
+      {
+        "row": 26,
+        "rowsha": "Q0UzQqorhwQT4/1lFiIperG6ySAoOYgbjdHzioFCcTs=",
+        "originContent": "              to_entries[] | .key as $os | .value as $count |",
+        "translatedContent": "              to_entries[] | .key as $os | .value as $count |"
+      },
+      {
+        "row": 27,
+        "rowsha": "gk06Gq0MnKWnGk4sWNhPQOgOQ2lyHtpCljkiZFHglQE=",
+        "originContent": "              range(1; $count + 1) | { os: $os, id: \"\\($os)-\\(.)\" }",
+        "translatedContent": "              range(1; $count + 1) | { os: $os, id: \"\\($os)-\\(.)\" }"
+      },
+      {
+        "row": 28,
+        "rowsha": "1wsUjn7tMYnIgufr7rUZpqeC2jIP8qW4RtQKA3De+jQ=",
+        "originContent": "            ]",
+        "translatedContent": "            ]"
+      },
+      {
+        "row": 29,
+        "rowsha": "JOMyIa9PoJi8uFAbHNcDXIJuN8MUEtHOVywERyGwB7w=",
+        "originContent": "          ')",
+        "translatedContent": "          ')"
+      },
+      {
+        "row": 30,
+        "rowsha": "yVV32kosM7Y8oYTsB8hm4K/D/wQPOXPqloL+SZApTQs=",
+        "originContent": "          echo \"builder_matrix=$MATRIX_JSON\" >> \"$GITHUB_OUTPUT\"",
+        "translatedContent": "          echo \"builder_matrix=$MATRIX_JSON\" >> \"$GITHUB_OUTPUT\""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "v1r8RGSLRrmt+FT8SRi/uKVbaE7Odi5Yr84Um3Q7NzY=",
+        "originContent": "          # Create a space-separated list of hostnames for the coordinator",
+        "translatedContent": "          # Create a space-separated list of hostnames for the coordinator"
+      },
+      {
+        "row": 33,
+        "rowsha": "K7bAilLMBm2amweq6hG6nHxbn/zjrrphl9nuj99fvhQ=",
+        "originContent": "          BUILDERS_LIST=$(echo \"$MATRIX_JSON\" | jq -r --arg suffix \"$SUFFIX\" 'map(\"nix-builder-\\($suffix)-\\(.id)\") | join(\" \")')",
+        "translatedContent": "          BUILDERS_LIST=$(echo \"$MATRIX_JSON\" | jq -r --arg suffix \"$SUFFIX\" 'map(\"nix-builder-\\($suffix)-\\(.id)\") | join(\" \")')"
+      },
+      {
+        "row": 34,
+        "rowsha": "2u44Mh4FD2H+CzvRY32oRNAsiNTNtMvPUTfpsMDBzoI=",
+        "originContent": "          echo \"builders_list=$BUILDERS_LIST\" >> \"$GITHUB_OUTPUT\"",
+        "translatedContent": "          echo \"builders_list=$BUILDERS_LIST\" >> \"$GITHUB_OUTPUT\""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "ljLC7XCoe0vPgVR4lPzrF3zK4fdBIqo4wdV5A+AspI4=",
+        "originContent": "  builder:",
+        "translatedContent": "  builder:"
+      },
+      {
+        "row": 37,
+        "rowsha": "uX+sxhnbe/QiWXh/6L3IFoyDmCWDP2DoI1eSXcEaOto=",
+        "originContent": "    needs: config",
+        "translatedContent": "    needs: config"
+      },
+      {
+        "row": 38,
+        "rowsha": "GKq+AaBat9cZFS5sNvtXy4o8bpbBmPlZCxCByo/7AcA=",
+        "originContent": "    name: Builder ${{ matrix.builder.id }} (${{ needs.config.outputs.run_suffix }})",
+        "translatedContent": "    name: Builder ${{ matrix.builder.id }} (${{ needs.config.outputs.run_suffix }})"
+      },
+      {
+        "row": 39,
+        "rowsha": "5e1liNeXuII3LM9DcnabQD+fQ2B1eFTA5Wgyx/SjJoI=",
+        "originContent": "    runs-on: ${{ matrix.builder.os }}",
+        "translatedContent": "    runs-on: ${{ matrix.builder.os }}"
+      },
+      {
+        "row": 40,
+        "rowsha": "QsSSukIQ5F4y3JqLPVIPnb1e/5CHyu07DRE/YZ/NXAM=",
+        "originContent": "    strategy:",
+        "translatedContent": "    strategy:"
+      },
+      {
+        "row": 41,
+        "rowsha": "HIt5WoQZNHtK37saL/JRUnISGUyEVSYWsw5YZIrfOXs=",
+        "originContent": "      fail-fast: false",
+        "translatedContent": "      fail-fast: false"
+      },
+      {
+        "row": 42,
+        "rowsha": "tP4ArdYZDthsltOAk47/KAPCPBrqf1BsPwQRdoOTVL4=",
+        "originContent": "      matrix:",
+        "translatedContent": "      matrix:"
+      },
+      {
+        "row": 43,
+        "rowsha": "xMzQFCwMbvQ2COUb2g/A+R4yr7EBZ3Xry4XhRVcgVh8=",
+        "originContent": "        builder: ${{ fromJSON(needs.config.outputs.builder_matrix) }}",
+        "translatedContent": "        builder: ${{ fromJSON(needs.config.outputs.builder_matrix) }}"
+      },
+      {
+        "row": 44,
+        "rowsha": "hS4CmHrAmWwwZHAnLuwnwgytfTId/6QpTYuGJvdvdwg=",
+        "originContent": "    steps:",
+        "translatedContent": "    steps:"
+      },
+      {
+        "row": 45,
+        "rowsha": "oHIQOT1NfaSHd8Hg3OKtUqIjBt8DRUV6/h+qFv7aE4Y=",
+        "originContent": "      - name: Setup Distributed Nix Builder",
+        "translatedContent": "      - name: Setup Distributed Nix Builder"
+      },
+      {
+        "row": 46,
+        "rowsha": "g4NvfijjntdYLtlOlCZB9OqpPRVN4hSJPBoCY7PUU/E=",
+        "originContent": "        uses: Misaka13514/setup-distributed-nix-builds@main",
+        "translatedContent": "        uses: Misaka13514/setup-distributed-nix-builds@main"
+      },
+      {
+        "row": 47,
+        "rowsha": "Lu8+iomrI/Mtd0xcO7VunVyqrK7xc/iXHS5ehYng/5M=",
+        "originContent": "        with:",
+        "translatedContent": "        with:"
+      },
+      {
+        "row": 48,
+        "rowsha": "f/r3TRBDc1ld5/zD7D2fDMt1TCU6v2HY7H0iK529VDQ=",
+        "originContent": "          tailscale_authkey: ${{ secrets.TS_OAUTH_SECRET }}",
+        "translatedContent": "          tailscale_authkey: ${{ secrets.TS_OAUTH_SECRET }}"
+      },
+      {
+        "row": 49,
+        "rowsha": "RtPPBleIBwi51IYP0iq2NhNcITYCQ8JtCXZ4QNJR7hA=",
+        "originContent": "          tailscale_hostname: nix-builder-${{ needs.config.outputs.run_suffix }}-${{ matrix.builder.id }}",
+        "translatedContent": "          tailscale_hostname: nix-builder-${{ needs.config.outputs.run_suffix }}-${{ matrix.builder.id }}"
+      },
+      {
+        "row": 50,
+        "rowsha": "Nt1FCicayvyr08y65JIyU+xQf1mKa9YPSf5MP68W/Z4=",
+        "originContent": "          tailscale_tags: tag:nix-ci-builder",
+        "translatedContent": "          tailscale_tags: tag:nix-ci-builder"
+      },
+      {
+        "row": 51,
+        "rowsha": "V9x9gf5iA8daWqcyb4giarvFQW4xpwkIXYomr8eDa9I=",
+        "originContent": "          role: builder",
+        "translatedContent": "          role: builder"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "JzpRNq9ymSWVG/CgcL8lMw6G0KLaUgaaCq9PwfnSbSw=",
+        "originContent": "      # Optionally configure your Cachix/Attic or other caching here",
+        "translatedContent": "      # Optionally configure your Cachix/Attic or other caching here"
+      },
+      {
+        "row": 54,
+        "rowsha": "1joaj9FmbloAzikCHbUYDgxf+FknEj/146f3d8SMjNc=",
+        "originContent": "      # - uses: cachix/cachix-action@v17",
+        "translatedContent": "      # - uses: cachix/cachix-action@v17"
+      },
+      {
+        "row": 55,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 56,
+        "rowsha": "D37+lPVRmV10iu9SdrVugSuPRR1xI78E6Sgpw6IIzDY=",
+        "originContent": "  coordinator:",
+        "translatedContent": "  coordinator:"
+      },
+      {
+        "row": 57,
+        "rowsha": "uX+sxhnbe/QiWXh/6L3IFoyDmCWDP2DoI1eSXcEaOto=",
+        "originContent": "    needs: config",
+        "translatedContent": "    needs: config"
+      },
+      {
+        "row": 58,
+        "rowsha": "qHGjMb8COkccbiFfjdcCHhrUC6YXy2hb2XdzRQcAwLY=",
+        "originContent": "    name: Coordinator (${{ needs.config.outputs.run_suffix }})",
+        "translatedContent": "    name: Coordinator (${{ needs.config.outputs.run_suffix }})"
+      },
+      {
+        "row": 59,
+        "rowsha": "hpYyi7NXjnMAfetzlR8ZLdbZ5YlIWKCZjEE3ulneVT0=",
+        "originContent": "    runs-on: ubuntu-24.04",
+        "translatedContent": "    runs-on: ubuntu-24.04"
+      },
+      {
+        "row": 60,
+        "rowsha": "hS4CmHrAmWwwZHAnLuwnwgytfTId/6QpTYuGJvdvdwg=",
+        "originContent": "    steps:",
+        "translatedContent": "    steps:"
+      },
+      {
+        "row": 61,
+        "rowsha": "6s271Cqe291sGOVNNv9PRCyHLoiBGs1ChzW+Ckt4rq8=",
+        "originContent": "      - name: Setup Coordinator & Connect Builders",
+        "translatedContent": "      - name: Setup Coordinator & Connect Builders"
+      },
+      {
+        "row": 62,
+        "rowsha": "g4NvfijjntdYLtlOlCZB9OqpPRVN4hSJPBoCY7PUU/E=",
+        "originContent": "        uses: Misaka13514/setup-distributed-nix-builds@main",
+        "translatedContent": "        uses: Misaka13514/setup-distributed-nix-builds@main"
+      },
+      {
+        "row": 63,
+        "rowsha": "Lu8+iomrI/Mtd0xcO7VunVyqrK7xc/iXHS5ehYng/5M=",
+        "originContent": "        with:",
+        "translatedContent": "        with:"
+      },
+      {
+        "row": 64,
+        "rowsha": "f/r3TRBDc1ld5/zD7D2fDMt1TCU6v2HY7H0iK529VDQ=",
+        "originContent": "          tailscale_authkey: ${{ secrets.TS_OAUTH_SECRET }}",
+        "translatedContent": "          tailscale_authkey: ${{ secrets.TS_OAUTH_SECRET }}"
+      },
+      {
+        "row": 65,
+        "rowsha": "TEK0Mp485gRnPYNeGE8TlEKNEiNalnlTYMrcgTdNsHo=",
+        "originContent": "          tailscale_hostname: nix-coordinator-${{ needs.config.outputs.run_suffix }}",
+        "translatedContent": "          tailscale_hostname: nix-coordinator-${{ needs.config.outputs.run_suffix }}"
+      },
+      {
+        "row": 66,
+        "rowsha": "ReLB4UjsFgx6B/lhrVSUWVsQrXiPH0qQdJiVLHtv/A0=",
+        "originContent": "          tailscale_tags: tag:nix-ci-coordinator",
+        "translatedContent": "          tailscale_tags: tag:nix-ci-coordinator"
+      },
+      {
+        "row": 67,
+        "rowsha": "j2/msH2rweT1yLyqJxiGKUvXOqrKq4oPD1N6hWXfJpc=",
+        "originContent": "          role: coordinator",
+        "translatedContent": "          role: coordinator"
+      },
+      {
+        "row": 68,
+        "rowsha": "S6SIa8uoA7uJRfqWZAOwWRK1E30UxXQu+dr4nphdvvs=",
+        "originContent": "          builders: ${{ needs.config.outputs.builders_list }}",
+        "translatedContent": "          builders: ${{ needs.config.outputs.builders_list }}"
+      },
+      {
+        "row": 69,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 70,
+        "rowsha": "JzpRNq9ymSWVG/CgcL8lMw6G0KLaUgaaCq9PwfnSbSw=",
+        "originContent": "      # Optionally configure your Cachix/Attic or other caching here",
+        "translatedContent": "      # Optionally configure your Cachix/Attic or other caching here"
+      },
+      {
+        "row": 71,
+        "rowsha": "1joaj9FmbloAzikCHbUYDgxf+FknEj/146f3d8SMjNc=",
+        "originContent": "      # - uses: cachix/cachix-action@v17",
+        "translatedContent": "      # - uses: cachix/cachix-action@v17"
+      },
+      {
+        "row": 72,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 73,
+        "rowsha": "uKss/QtIsGBnIUvJ2ZoUh1EKYD/ghrYOh1yXYWSpvLA=",
+        "originContent": "      - name: Execute Distributed Build",
+        "translatedContent": "      - name: Execute Distributed Build"
+      },
+      {
+        "row": 74,
+        "rowsha": "DOQ3SJWha68JkKp062R172o+bvEGb2I+dg3VJ6e0ZQM=",
+        "originContent": "        run: |",
+        "translatedContent": "        run: |"
+      },
+      {
+        "row": 75,
+        "rowsha": "b2Wax5CG5fDFWtmsBcZHbQ9jIuGXz5x7OO/lu0l3nQY=",
+        "originContent": "          # Your build command here. Because builders are registered in /etc/nix/machines,",
+        "translatedContent": "          # Your build command here. Because builders are registered in /etc/nix/machines,"
+      },
+      {
+        "row": 76,
+        "rowsha": "EQ54IVdCCoHhec+HPRN/XUtNA7mRi4ao1mei9c/2vSo=",
+        "originContent": "          # Nix will automatically offload tasks to the correct architecture node.",
+        "translatedContent": "          # Nix will automatically offload tasks to the correct architecture node."
+      },
+      {
+        "row": 77,
+        "rowsha": "fyvQgJLKeT1f9WoeEDthxn06gLYzefjJyey30YATCyE=",
+        "originContent": "          nix build -L --max-jobs 0 .#my-package",
+        "translatedContent": "          nix build -L --max-jobs 0 .#my-package"
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
+        "rowsha": "fJai5kqbGhTvRumcwa2J9JkmDOqrknq8Z75WTjsVdC8=",
+        "originContent": "      # Signal builders to terminate if they are not needed anymore",
+        "translatedContent": "      # Signal builders to terminate if they are not needed anymore"
+      },
+      {
+        "row": 80,
+        "rowsha": "Tkj7NSUGnh58OK7GQZppUpv8lQpbSw2Vzf0e8gNg1A8=",
+        "originContent": "      - name: Teardown Builders",
+        "translatedContent": "      - name: Teardown Builders"
+      },
+      {
+        "row": 81,
+        "rowsha": "D8JX9DFKHsq/hDStE2SnaPU7KQulP/bIbyda2dXBOss=",
+        "originContent": "        run: stop-nix-builders",
+        "translatedContent": "        run: stop-nix-builders"
+      },
+      {
+        "row": 82,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 83,
+        "rowsha": "ju0EqFTUuBUxIp0bmAvGpVuEjUtTpfnp4KbfV1qXdoI=",
+        "originContent": "      # Push build results to Cachix/Attic or other cache here if desired",
+        "translatedContent": "      # Push build results to Cachix/Attic or other cache here if desired"
+      },
+      {
+        "row": 84,
+        "rowsha": "MtzAYF1nGu4hZrN9RMx6n4ZYCpmk52c4bETaxIU/brI=",
+        "originContent": "      # - name: Push to Cachix",
+        "translatedContent": "      # - name: Push to Cachix"
+      },
+      {
+        "row": 85,
+        "rowsha": "fD1dOzfVOuEDOMiqX2zcjVXvBPDEiiEDnlNXYl3DeDo=",
+        "originContent": "      #   run: cachix push mycache --all",
+        "translatedContent": "      #   run: cachix push mycache --all"
+      },
+      {
+        "row": 86,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n## License\n\nThis project is licensed under the [MIT License](LICENSE).\n",
+    "ContentSha": "NFosyx4EB6jTdRnUnreQy3vBN0o3JSNYmniqB4VCzpA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## مجوز\n\nاین پروژه تحت [مجوز MIT](LICENSE) منتشر شده است.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## مجوز"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "MswBhfOOWTsjEByUXyqqJntjLaIy1mJ9TacCLm3qM3A=",
+        "originContent": "This project is licensed under the [MIT License](LICENSE).",
+        "translatedContent": "این پروژه تحت [مجوز MIT](LICENSE) منتشر شده است."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -2,46 +2,136 @@
   "fullName": "Misaka13514/setup-distributed-nix-builds",
   "htmlUrl": "https://github.com/Misaka13514/setup-distributed-nix-builds",
   "readmeUrl": "https://raw.githubusercontent.com/Misaka13514/setup-distributed-nix-builds/main/README.md",
-  "sha": "a31b2c880c6dbcb0117a1adee1a8ec46e7da3b41",
-  "siz": 9777,
-  "stargazers_count": 0,
-  "indexTime": "2026-03-26T05:08:20.2954881Z",
+  "sha": "56f21db3155aa7ff0f71e3b0ce472f8cce0dc39f",
+  "siz": 12797,
+  "stargazers_count": 1,
+  "indexTime": "2026-03-27T05:10:18.4421254Z",
   "TokenUsage": [
     {
       "Language": "zh-CN",
-      "PromptTokens": 1908,
-      "CompletionTokens": 1331,
-      "TotalTokens": 3239
-    },
-    {
-      "Language": "ja",
-      "PromptTokens": 1896,
-      "CompletionTokens": 1612,
-      "TotalTokens": 3508
-    },
-    {
-      "Language": "es",
-      "PromptTokens": 1900,
-      "CompletionTokens": 1334,
-      "TotalTokens": 3234
-    },
-    {
-      "Language": "fr",
-      "PromptTokens": 1896,
-      "CompletionTokens": 1310,
-      "TotalTokens": 3206
-    },
-    {
-      "Language": "en",
-      "PromptTokens": 1892,
-      "CompletionTokens": 1140,
-      "TotalTokens": 3032
+      "PromptTokens": 1759,
+      "CompletionTokens": 1465,
+      "TotalTokens": 3224
     },
     {
       "Language": "ko",
-      "PromptTokens": 1896,
-      "CompletionTokens": 1441,
+      "PromptTokens": 1753,
+      "CompletionTokens": 1523,
+      "TotalTokens": 3276
+    },
+    {
+      "Language": "fr",
+      "PromptTokens": 1753,
+      "CompletionTokens": 1469,
+      "TotalTokens": 3222
+    },
+    {
+      "Language": "es",
+      "PromptTokens": 1755,
+      "CompletionTokens": 1476,
+      "TotalTokens": 3231
+    },
+    {
+      "Language": "en",
+      "PromptTokens": 1751,
+      "CompletionTokens": 1375,
+      "TotalTokens": 3126
+    },
+    {
+      "Language": "ja",
+      "PromptTokens": 1753,
+      "CompletionTokens": 1584,
       "TotalTokens": 3337
+    },
+    {
+      "Language": "zh-TW",
+      "PromptTokens": 3029,
+      "CompletionTokens": 2406,
+      "TotalTokens": 5435
+    },
+    {
+      "Language": "as",
+      "PromptTokens": 3019,
+      "CompletionTokens": 2815,
+      "TotalTokens": 5834
+    },
+    {
+      "Language": "hi",
+      "PromptTokens": 3024,
+      "CompletionTokens": 2605,
+      "TotalTokens": 5629
+    },
+    {
+      "Language": "th",
+      "PromptTokens": 3014,
+      "CompletionTokens": 2482,
+      "TotalTokens": 5496
+    },
+    {
+      "Language": "ru",
+      "PromptTokens": 3019,
+      "CompletionTokens": 2347,
+      "TotalTokens": 5366
+    },
+    {
+      "Language": "it",
+      "PromptTokens": 3019,
+      "CompletionTokens": 2305,
+      "TotalTokens": 5324
+    },
+    {
+      "Language": "id",
+      "PromptTokens": 3024,
+      "CompletionTokens": 2224,
+      "TotalTokens": 5248
+    },
+    {
+      "Language": "de",
+      "PromptTokens": 3014,
+      "CompletionTokens": 2322,
+      "TotalTokens": 5336
+    },
+    {
+      "Language": "tr",
+      "PromptTokens": 3024,
+      "CompletionTokens": 2471,
+      "TotalTokens": 5495
+    },
+    {
+      "Language": "vi",
+      "PromptTokens": 3024,
+      "CompletionTokens": 2323,
+      "TotalTokens": 5347
+    },
+    {
+      "Language": "ar",
+      "PromptTokens": 3019,
+      "CompletionTokens": 2334,
+      "TotalTokens": 5353
+    },
+    {
+      "Language": "fa",
+      "PromptTokens": 3019,
+      "CompletionTokens": 2518,
+      "TotalTokens": 5537
+    },
+    {
+      "Language": "pl",
+      "PromptTokens": 3019,
+      "CompletionTokens": 2512,
+      "TotalTokens": 5531
+    },
+    {
+      "Language": "pt",
+      "PromptTokens": 3019,
+      "CompletionTokens": 2243,
+      "TotalTokens": 5262
+    },
+    {
+      "Language": "nl",
+      "PromptTokens": 3024,
+      "CompletionTokens": 2246,
+      "TotalTokens": 5270
     }
   ],
   "status": 0,
@@ -55,21 +145,36 @@
     "html_url": "https://github.com/Misaka13514/setup-distributed-nix-builds",
     "description": "Instantly provision a cross-platform, distributed Nix build cluster in GitHub Actions using Tailscale.",
     "created_at": "2026-03-24T03:51:13+00:00",
-    "updated_at": "2026-03-25T05:11:10+00:00",
-    "pushed_at": "2026-03-25T05:17:35+00:00",
+    "updated_at": "2026-03-27T00:59:42+00:00",
+    "pushed_at": "2026-03-27T00:59:38+00:00",
     "language": "",
-    "stargazers_count": 0,
-    "watchers_count": 0,
-    "forks_count": 1,
-    "size": 23,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "forks_count": 2,
+    "size": 28,
     "default_branch": "main"
   },
   "TranslatedDescriptions": {
-    "zh-CN": "使用 Tailscale 在 GitHub Actions 中即时配置跨平台分布式 Nix 构建集群。",
-    "ja": "Tailscaleを使用して、GitHub Actionsでクロスプラットフォームの分散Nixビルドクラスターを即座にプロビジョニングします。",
+    "zh-CN": "使用 Tailscale 在 GitHub Actions 中即时部署跨平台分布式 Nix 构建集群。",
+    "zh-TW": "使用 Tailscale，在 GitHub Actions 中即時部署跨平台、分散式的 Nix 建置叢集。",
+    "ja": "Tailscale を使用して、GitHub Actions でクロスプラットフォームの分散 Nix ビルドクラスタを即座に構築します。",
+    "ko": "Tailscale을 사용하여 GitHub Actions에서 크로스 플랫폼 분산 Nix 빌드 클러스터를 즉시 프로비저닝합니다.",
+    "hi": "Tailscale का उपयोग करके GitHub Actions में क्रॉस-प्लेटफ़ॉर्म, वितरित Nix बिल्ड क्लस्टर तुरंत प्रोविजन करें।",
+    "th": "จัดเตรียมคลัสเตอร์การสร้าง Nix แบบกระจายข้ามแพลตฟอร์มใน GitHub Actions ด้วย Tailscale ได้ทันที",
     "en": "Instantly provision a cross-platform, distributed Nix build cluster in GitHub Actions using Tailscale.",
-    "ko": "Tailscale을 사용하여 GitHub Actions에서 즉시 크로스 플랫폼 분산 Nix 빌드 클러스터를 프로비저닝합니다.",
-    "fr": "Provisionnez instantanément un cluster de build Nix distribué et multiplateforme dans GitHub Actions en utilisant Tailscale.",
-    "es": "Provisiona al instante un clúster de compilación Nix distribuido y multiplataforma en GitHub Actions usando Tailscale."
+    "de": "Stellen Sie sofort einen plattformübergreifenden, verteilten Nix-Build-Cluster in GitHub Actions mit Tailscale bereit.",
+    "fr": "Provisionnez instantanément un cluster de compilation Nix distribué et multiplateforme dans GitHub Actions à l’aide de Tailscale.",
+    "it": "Provisiona istantaneamente un cluster di build Nix distribuito e cross-platform in GitHub Actions utilizzando Tailscale.",
+    "es": "Provisiona instantáneamente un clúster de compilación Nix distribuido y multiplataforma en GitHub Actions usando Tailscale.",
+    "ru": "Мгновенно создавайте кроссплатформенный распределённый кластер сборки Nix в GitHub Actions с помощью Tailscale.",
+    "pt": "Provisione instantaneamente um cluster de compilação Nix distribuído e multiplataforma no GitHub Actions usando Tailscale.",
+    "pl": "Natychmiastowe uruchamianie wieloplatformowego, rozproszonego klastra Nix do budowania w GitHub Actions z użyciem Tailscale.",
+    "nl": "Voorzie direct een cross-platform, gedistribueerde Nix build-cluster in GitHub Actions met Tailscale.",
+    "fa": "ایجاد فوری یک خوشه ساخت توزیع‌شده Nix چندسکویی در GitHub Actions با استفاده از Tailscale.",
+    "ar": "قم بتوفير عنقود بناء Nix موزع وعبر الأنظمة فورًا في GitHub Actions باستخدام Tailscale.",
+    "vi": "Cung cấp ngay lập tức một cụm xây dựng Nix phân tán, đa nền tảng trong GitHub Actions bằng Tailscale.",
+    "tr": "GitHub Actions'da Tailscale kullanarak anında çapraz platformlu, dağıtık bir Nix derleme kümesi oluşturun.",
+    "as": "GitHub Actions-ত Tailscale ব্যৱহাৰ কৰি, cross-platform আৰু distributed Nix build cluster তৎক্ষণাৎ provision কৰক।",
+    "id": "Langsung menyediakan klaster build Nix terdistribusi lintas platform di GitHub Actions menggunakan Tailscale."
   }
 }

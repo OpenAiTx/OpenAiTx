@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 [![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/seuusuario/wakeonweb)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
@@ -97,6 +129,6 @@ This project is licensed under the MIT License.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-27
 
 ---

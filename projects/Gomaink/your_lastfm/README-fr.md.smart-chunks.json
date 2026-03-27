@@ -1,199 +1,199 @@
 [
   {
     "Id": 1,
-    "Content": "[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/seuusuario/wakeonweb)\n[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)\n\n# Your LastFM\n\nA containerized Node.js application that synchronizes scrobbles from **Last.fm**, stores them in a local **SQLite** database, and serves a web dashboard.\n\n<img width=\"1718\" height=\"1066\" alt=\"image\" src=\"https://github.com/user-attachments/assets/97d5a9f1-b39a-42ea-9acf-2b4546426a11\" />\n\n---\n\n## Project\n\n**Your LastFM** is a Node.js application designed to **automatically synchronize music scrobbles** from Last.fm. It preserves your listening history in a local SQLite database and serves a web interface for data visualization.\n\nThe project is fully containerized with **Docker**, using an automated entrypoint to handle database initialization and sequential execution (Syncing first, then launching the Web API). It also utilizes **PM2** as a process manager inside the container to ensure the web service remains active and resilient.\n\n## Features\n### Interactive Web Dashboard\n\n- Clean, modern web interface to visualize your music activity.\n\n### Automatic Last.fm Scrobble Synchronization\n\n- Periodically fetches and stores your listening history (scrobbles) from Last.fm.\n- Ensures your data is always up to date without manual intervention.\n\n### Local Music History Database\n\n- Persists all scrobbles in a local SQLite database.\n- Allows fast queries and offline access to historical listening data.\n\n### Recent Scrobbles View\n\n- Displays your most recent tracks.\n- Smart image fallback logic for tracks, albums, and artists.\n\n### Friends Comparison (Compatibility View)\n\n- Compare your music taste with Last.fm friends.",
-    "ContentSha": "EMjvPM3npim4Rmc5NHEgOXGMjHv7JxpdleQgTRs3jPM=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/seuusuario/wakeonweb)\n[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)\n\n# Your LastFM\n\nA containerized Node.js application that synchronizes scrobbles from **Last.fm**, stores them in a local **SQLite** database, and serves a web dashboard.\n\n<img width=\"1718\" height=\"1066\" alt=\"image\" src=\"https://github.com/user-attachments/assets/97d5a9f1-b39a-42ea-9acf-2b4546426a11\" />",
+    "ContentSha": "mX7BNJQLG0cfjSva9xZBxKfxz1OPdIOYogZ9/9nOCV8=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "[![Statut](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/seuusuario/wakeonweb)\n[![Licence](https://img.shields.io/badge/license-MIT-blue)](LICENSE)\n\n# Your LastFM\n\nUne application Node.js containerisée qui synchronise les scrobbles de **Last.fm**, les stocke dans une base de données **SQLite** locale, et propose un tableau de bord web.\n\n<img width=\"1718\" height=\"1066\" alt=\"image\" src=\"https://github.com/user-attachments/assets/97d5a9f1-b39a-42ea-9acf-2b4546426a11\" />\n\n---\n\n## Projet\n\n**Your LastFM** est une application Node.js conçue pour **synchroniser automatiquement les scrobbles** de musique depuis Last.fm. Elle conserve votre historique d’écoute dans une base de données SQLite locale et propose une interface web pour la visualisation des données.\n\nLe projet est entièrement containerisé avec **Docker**, utilisant un point d’entrée automatisé pour gérer l’initialisation de la base de données et l’exécution séquentielle (synchronisation d’abord, puis lancement de l’API Web). Il utilise également **PM2** comme gestionnaire de processus à l’intérieur du container pour garantir que le service web reste actif et résilient.\n\n## Fonctionnalités\n### Tableau de bord web interactif\n\n- Interface web propre et moderne pour visualiser votre activité musicale.\n\n### Synchronisation automatique des scrobbles Last.fm\n\n- Récupère et stocke périodiquement votre historique d’écoute (scrobbles) depuis Last.fm.\n- Assure que vos données sont toujours à jour sans intervention manuelle.\n\n### Base de données locale de l’historique musical\n\n- Persiste tous les scrobbles dans une base de données SQLite locale.\n- Permet des requêtes rapides et un accès hors ligne aux données d’écoute historiques.\n\n### Vue des scrobbles récents\n\n- Affiche vos morceaux les plus récents.\n- Logique intelligente de repli d’image pour les morceaux, albums et artistes.\n\n### Comparaison avec les amis (Vue de compatibilité)\n\n- Comparez vos goûts musicaux avec ceux de vos amis Last.fm.",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Langue</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n[![Statut](https://img.shields.io/badge/status-actif-brightgreen)](https://github.com/seuusuario/wakeonweb)\n[![Licence](https://img.shields.io/badge/license-MIT-blue)](LICENSE)\n\n# Your LastFM\n\nUne application Node.js conteneurisée qui synchronise les scrobbles de **Last.fm**, les stocke dans une base de données locale **SQLite**, et propose un tableau de bord web.\n\n<img width=\"1718\" height=\"1066\" alt=\"image\" src=\"https://github.com/user-attachments/assets/97d5a9f1-b39a-42ea-9acf-2b4546426a11\" />",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "W+zx0K27/f0IB62sbMWKU5xZ6d4BCLiIJN1OwY3hQmM=",
-        "originContent": "[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/seuusuario/wakeonweb)",
-        "translatedContent": "[![Statut](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/seuusuario/wakeonweb)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 2,
-        "rowsha": "kMO7mVv8sMy2kqBHsaSmrTJjePM3G/OpZJ22HmCaWhg=",
-        "originContent": "[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)",
-        "translatedContent": "[![Licence](https://img.shields.io/badge/license-MIT-blue)](LICENSE)"
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
       },
       {
         "row": 4,
-        "rowsha": "6akPQ8kT/gK7ZQxDZm1O9vzl/8I/UZlJuLkKfDWchU0=",
-        "originContent": "# Your LastFM",
-        "translatedContent": "# Your LastFM"
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Langue</summary>"
       },
       {
         "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
       },
       {
         "row": 6,
-        "rowsha": "cr39gg2I05XqVqKipD71Lv+E5QsZsSLS9VHisvImdE4=",
-        "originContent": "A containerized Node.js application that synchronizes scrobbles from **Last.fm**, stores them in a local **SQLite** database, and serves a web dashboard.",
-        "translatedContent": "Une application Node.js containerisée qui synchronise les scrobbles de **Last.fm**, les stocke dans une base de données **SQLite** locale, et propose un tableau de bord web."
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
       },
       {
         "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "9KaVO8qQd9rAI49snjN9zw1H0WiT2j1GLSja2X8StwE=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=en\">English</a>"
       },
       {
         "row": 8,
-        "rowsha": "AO5HyVyVU1txLqeBAefQQZer8vKsLa21Z413FijIBU4=",
-        "originContent": "<img width=\"1718\" height=\"1066\" alt=\"image\" src=\"https://github.com/user-attachments/assets/97d5a9f1-b39a-42ea-9acf-2b4546426a11\" />",
-        "translatedContent": "<img width=\"1718\" height=\"1066\" alt=\"image\" src=\"https://github.com/user-attachments/assets/97d5a9f1-b39a-42ea-9acf-2b4546426a11\" />"
+        "rowsha": "5xWbNBjhHqreFm3BmXiH/m6WfILlg04xdtwOKW/cMOk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=zh-CN\">简体中文</a>"
       },
       {
         "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "TuWRxCwPY9HrvfeKPGGDunnlKQLtkzFv47C3scBKbnQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=zh-TW\">繁體中文</a>"
       },
       {
         "row": 10,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
+        "rowsha": "jBCAio8yM90ls+t4HavNRnDJn8m9f95HB5uZTfBbJ2A=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ja\">日本語</a>"
       },
       {
         "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "WBmFp/KDycFv1Y/VfAN2MFn2nkJLWICkhMAVwXhJIsw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ko\">한국어</a>"
       },
       {
         "row": 12,
-        "rowsha": "UEyJIRee8FlHazLCwSMkT0fhllnRQyyGszrxan/NdDI=",
-        "originContent": "## Project",
-        "translatedContent": "## Projet"
+        "rowsha": "5z7TD+D7Gpx9jhm3mSB8OFsp/4GgQPCvTAxbqRS4DOI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=hi\">हिन्दी</a>"
       },
       {
         "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "+mgFkQqMy4QVMducPFnyLS30o8bZmrYC9bBOFed02B0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=th\">ไทย</a>"
       },
       {
         "row": 14,
-        "rowsha": "fyHd4mYxoJRS8k02u1BvPWQpshaA1DgLAKwM3YBjxYM=",
-        "originContent": "**Your LastFM** is a Node.js application designed to **automatically synchronize music scrobbles** from Last.fm. It preserves your listening history in a local SQLite database and serves a web interface for data visualization.",
-        "translatedContent": "**Your LastFM** est une application Node.js conçue pour **synchroniser automatiquement les scrobbles** de musique depuis Last.fm. Elle conserve votre historique d’écoute dans une base de données SQLite locale et propose une interface web pour la visualisation des données."
+        "rowsha": "H53nzemXGNJjxhyelLjGlAbJ4AYqf8OnG+y/lYfF/2o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=fr\">Français</a>"
       },
       {
         "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "HJ/8X4xFwMULd540r4O8YOiT6XmsjgXnY+SbFwo86GQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=de\">Deutsch</a>"
       },
       {
         "row": 16,
-        "rowsha": "AWvh0kDqhvKxCinJFN4+7eK2SgQAELfLyxim/Y0gdyE=",
-        "originContent": "The project is fully containerized with **Docker**, using an automated entrypoint to handle database initialization and sequential execution (Syncing first, then launching the Web API). It also utilizes **PM2** as a process manager inside the container to ensure the web service remains active and resilient.",
-        "translatedContent": "Le projet est entièrement containerisé avec **Docker**, utilisant un point d’entrée automatisé pour gérer l’initialisation de la base de données et l’exécution séquentielle (synchronisation d’abord, puis lancement de l’API Web). Il utilise également **PM2** comme gestionnaire de processus à l’intérieur du container pour garantir que le service web reste actif et résilient."
+        "rowsha": "1nqHWRmJWFCsSMKu36aDI6yLblgD1CF5urPGzuD4ZBg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=es\">Español</a>"
       },
       {
         "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "U6NfjUSd/wk30NOluq6B/ay5b+lx+/QqimcktONhFfs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=it\">Italiano</a>"
       },
       {
         "row": 18,
-        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
-        "originContent": "## Features",
-        "translatedContent": "## Fonctionnalités"
+        "rowsha": "TaOa8NPmEc7L2OgcNlhwF4ma1nFZvHxbiX3bdNvifyE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ru\">Русский</a>"
       },
       {
         "row": 19,
-        "rowsha": "Ww5/bT1hhgROJsxSXj/HKxA6DxXytnOXB5OT2E5oKcY=",
-        "originContent": "### Interactive Web Dashboard",
-        "translatedContent": "### Tableau de bord web interactif"
+        "rowsha": "nepaXu5Xayxc1UfI0sULfBU/CuaCO4kzM1TUb638GfI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=pt\">Português</a>"
       },
       {
         "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "k/F1rpGalXO3zBRzHbP6+pMrvqEQbv3L/g38nAxBjR0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=nl\">Nederlands</a>"
       },
       {
         "row": 21,
-        "rowsha": "CT2HxkRYI04sGazT8aNXk2PHXWRN0B4hTXfZj6awubA=",
-        "originContent": "- Clean, modern web interface to visualize your music activity.",
-        "translatedContent": "- Interface web propre et moderne pour visualiser votre activité musicale."
+        "rowsha": "Ka4rnEX7/6uiqsOiHDvVbKlinLagRBXJ95VgDiEui0U=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=pl\">Polski</a>"
       },
       {
         "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "8wAbwJRpYWkmrGORPOcB/S/W+u+Rr7URIpOkWEn0224=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=ar\">العربية</a>"
       },
       {
         "row": 23,
-        "rowsha": "UvLxj7riO5qAiUC0iXKZsq8YeiFo+DYO+TwnZ6HI+ZA=",
-        "originContent": "### Automatic Last.fm Scrobble Synchronization",
-        "translatedContent": "### Synchronisation automatique des scrobbles Last.fm"
+        "rowsha": "9xQaBf5BUzGQVreFd9ZlthpVOg3UKNLOBzEOexnaZ+I=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=fa\">فارسی</a>"
       },
       {
         "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "1n69x8tuVCEx0Hk8+RPmkVds7OWRqNnTz7Xt7gNEQeQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=tr\">Türkçe</a>"
       },
       {
         "row": 25,
-        "rowsha": "H6K/ErB5uWtb06N/7fHYh9iTWdSPJoFERwPVWGc9PbY=",
-        "originContent": "- Periodically fetches and stores your listening history (scrobbles) from Last.fm.",
-        "translatedContent": "- Récupère et stocke périodiquement votre historique d’écoute (scrobbles) depuis Last.fm."
+        "rowsha": "olFkSnu1f4bmZyjruQqJDOZ/zAuby6t3UPeqr30XcGk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=vi\">Tiếng Việt</a>"
       },
       {
         "row": 26,
-        "rowsha": "3hPXvkgUAqmxeCgPdzENccVaMXeToT+IQa5GKD+7YBI=",
-        "originContent": "- Ensures your data is always up to date without manual intervention.",
-        "translatedContent": "- Assure que vos données sont toujours à jour sans intervention manuelle."
+        "rowsha": "T0Tch08jZoeF6f9GQc+Dn7th30Aec62M/eHuTmjfHSI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=id\">Bahasa Indonesia</a>"
       },
       {
         "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "9TG8/c7tRWFLi4/1Z+s0Y2s4vn5uENengk3orlys+U0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Gomaink&project=your_lastfm&lang=as\">অসমীয়া</"
       },
       {
         "row": 28,
-        "rowsha": "ntBiFlqhtWSfX/MtA1J3OBHZq8/kvqhsYDOL3xOA5UQ=",
-        "originContent": "### Local Music History Database",
-        "translatedContent": "### Base de données locale de l’historique musical"
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
       },
       {
         "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
       },
       {
         "row": 30,
-        "rowsha": "s68Ra/3sF6RkIAGw575BF4otSEcc9rIihkRFSve6Kdo=",
-        "originContent": "- Persists all scrobbles in a local SQLite database.",
-        "translatedContent": "- Persiste tous les scrobbles dans une base de données SQLite locale."
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
       },
       {
         "row": 31,
-        "rowsha": "gC9EpaA4EYf2Czos2ssGN2pt49NVaQ0c0BZePvaxNpQ=",
-        "originContent": "- Allows fast queries and offline access to historical listening data.",
-        "translatedContent": "- Permet des requêtes rapides et un accès hors ligne aux données d’écoute historiques."
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
       },
       {
         "row": 32,
@@ -203,27 +203,27 @@
       },
       {
         "row": 33,
-        "rowsha": "IOT2ExHGRZ53tgCyKGbRtaI+XI5JShrbuwHjVtZAIOQ=",
-        "originContent": "### Recent Scrobbles View",
-        "translatedContent": "### Vue des scrobbles récents"
+        "rowsha": "W+zx0K27/f0IB62sbMWKU5xZ6d4BCLiIJN1OwY3hQmM=",
+        "originContent": "[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/seuusuario/wakeonweb)",
+        "translatedContent": "[![Statut](https://img.shields.io/badge/status-actif-brightgreen)](https://github.com/seuusuario/wakeonweb)"
       },
       {
         "row": 34,
+        "rowsha": "kMO7mVv8sMy2kqBHsaSmrTJjePM3G/OpZJ22HmCaWhg=",
+        "originContent": "[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)",
+        "translatedContent": "[![Licence](https://img.shields.io/badge/license-MIT-blue)](LICENSE)"
+      },
+      {
+        "row": 35,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 35,
-        "rowsha": "UxQcCaWeqcAynoDq851szquBA3rnxsKTWd7jb1fETZM=",
-        "originContent": "- Displays your most recent tracks.",
-        "translatedContent": "- Affiche vos morceaux les plus récents."
-      },
-      {
         "row": 36,
-        "rowsha": "vGS36g0X4ncNDDuRfPH2GxFzVGDRMPnZeUChDtr55qk=",
-        "originContent": "- Smart image fallback logic for tracks, albums, and artists.",
-        "translatedContent": "- Logique intelligente de repli d’image pour les morceaux, albums et artistes."
+        "rowsha": "6akPQ8kT/gK7ZQxDZm1O9vzl/8I/UZlJuLkKfDWchU0=",
+        "originContent": "# Your LastFM",
+        "translatedContent": "# Your LastFM"
       },
       {
         "row": 37,
@@ -233,9 +233,9 @@
       },
       {
         "row": 38,
-        "rowsha": "0I/ovdSqL5jQaybFfaPRKViSRchDeChYnjIUrfnCTb4=",
-        "originContent": "### Friends Comparison (Compatibility View)",
-        "translatedContent": "### Comparaison avec les amis (Vue de compatibilité)"
+        "rowsha": "cr39gg2I05XqVqKipD71Lv+E5QsZsSLS9VHisvImdE4=",
+        "originContent": "A containerized Node.js application that synchronizes scrobbles from **Last.fm**, stores them in a local **SQLite** database, and serves a web dashboard.",
+        "translatedContent": "Une application Node.js conteneurisée qui synchronise les scrobbles de **Last.fm**, les stocke dans une base de données locale **SQLite**, et propose un tableau de bord web."
       },
       {
         "row": 39,
@@ -245,135 +245,261 @@
       },
       {
         "row": 40,
-        "rowsha": "OoSkrutn/zk2KkhGN2XLibjbe5zO3sHno36JL7zGq5o=",
-        "originContent": "- Compare your music taste with Last.fm friends.",
-        "translatedContent": "- Comparez vos goûts musicaux avec ceux de vos amis Last.fm."
+        "rowsha": "AO5HyVyVU1txLqeBAefQQZer8vKsLa21Z413FijIBU4=",
+        "originContent": "<img width=\"1718\" height=\"1066\" alt=\"image\" src=\"https://github.com/user-attachments/assets/97d5a9f1-b39a-42ea-9acf-2b4546426a11\" />",
+        "translatedContent": "<img width=\"1718\" height=\"1066\" alt=\"image\" src=\"https://github.com/user-attachments/assets/97d5a9f1-b39a-42ea-9acf-2b4546426a11\" />"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "- Shows compatibility level (Very Low → Super).\n- Displays common top artists, albums, and tracks.\n- Calculates and normalizes compatibility based on real listening data.\n\n### Shareable Music Cards\n\n- Generate dynamic images based on your listening data.\n- Optimized layouts for feed posts and instagram stories (9:16)\n- Built using node-canvas for server-side image rendering.\n\n## Prerequisites\n\n* [Docker](https://docs.docker.com/get-docker/)\n* [Docker Compose](https://docs.docker.com/compose/install/)\n\n## Installation\n\n### Create a `.env` file\n",
-    "ContentSha": "j/NJaUkb1LKq1yLT1o/jGDQjj4AjspZQxQhTQAQQ2II=",
+    "Content": "\n---\n\n## Project\n\n**Your LastFM** is a Node.js application designed to **automatically synchronize music scrobbles** from Last.fm. It preserves your listening history in a local SQLite database and serves a web interface for data visualization.\n\nThe project is fully containerized with **Docker**, using an automated entrypoint to handle database initialization and sequential execution (Syncing first, then launching the Web API). It also utilizes **PM2** as a process manager inside the container to ensure the web service remains active and resilient.\n\n## Features\n### Interactive Web Dashboard\n\n- Clean, modern web interface to visualize your music activity.\n\n### Automatic Last.fm Scrobble Synchronization\n\n- Periodically fetches and stores your listening history (scrobbles) from Last.fm.\n- Ensures your data is always up to date without manual intervention.\n\n### Local Music History Database\n\n- Persists all scrobbles in a local SQLite database.\n- Allows fast queries and offline access to historical listening data.\n\n### Recent Scrobbles View\n\n- Displays your most recent tracks.\n- Smart image fallback logic for tracks, albums, and artists.\n\n### Friends Comparison (Compatibility View)\n\n- Compare your music taste with Last.fm friends.\n- Shows compatibility level (Very Low → Super).\n- Displays common top artists, albums, and tracks.\n- Calculates and normalizes compatibility based on real listening data.\n\n### Shareable Music Cards\n\n- Generate dynamic images based on your listening data.\n- Optimized layouts for feed posts and instagram stories (9:16)",
+    "ContentSha": "28MikUvk0bXRa1sDe6x5A+0Itx48wDZ2XAiEbt92Sok=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- Affiche le niveau de compatibilité (Très Faible → Super).\n- Affiche les artistes, albums et morceaux les plus communs.\n- Calcule et normalise la compatibilité basée sur les données d’écoute réelles.\n\n### Cartes musicales partageables\n\n- Génère des images dynamiques basées sur vos données d’écoute.\n- Mises en page optimisées pour les publications de fil et les stories Instagram (9:16)\n- Construit avec node-canvas pour le rendu d’images côté serveur.\n\n## Prérequis\n\n* [Docker](https://docs.docker.com/get-docker/)\n* [Docker Compose](https://docs.docker.com/compose/install/)\n\n## Installation\n\n### Créer un fichier `.env`\n",
+    "Translation": "---\n\n## Projet\n\n**Your LastFM** est une application Node.js conçue pour **synchroniser automatiquement les scrobbles musicaux** depuis Last.fm. Elle conserve votre historique d’écoute dans une base de données SQLite locale et propose une interface web pour la visualisation des données.\n\nLe projet est entièrement conteneurisé avec **Docker**, utilisant un point d’entrée automatisé pour gérer l’initialisation de la base de données et l’exécution séquentielle (synchronisation d’abord, puis lancement de l’API Web). Il utilise également **PM2** comme gestionnaire de processus à l’intérieur du conteneur afin d’assurer la disponibilité et la résilience du service web.\n\n## Fonctionnalités\n### Tableau de bord web interactif\n\n- Interface web moderne et épurée pour visualiser votre activité musicale.\n\n### Synchronisation automatique des scrobbles Last.fm\n\n- Récupère et stocke périodiquement votre historique d’écoute (scrobbles) depuis Last.fm.\n- Garantit que vos données sont toujours à jour sans intervention manuelle.\n\n### Base de données locale de l’historique musical\n\n- Conserve tous les scrobbles dans une base SQLite locale.\n- Permet des requêtes rapides et un accès hors ligne à l’historique d’écoute.\n\n### Vue des scrobbles récents\n\n- Affiche vos morceaux les plus récents.\n- Logique intelligente de remplacement d’image pour les morceaux, albums et artistes.\n\n### Comparaison avec des amis (vue de compatibilité)\n\n- Comparez vos goûts musicaux avec ceux de vos amis Last.fm.\n- Affiche le niveau de compatibilité (Très faible → Super).\n- Affiche les artistes, albums et morceaux communs les plus écoutés.\n- Calcule et normalise la compatibilité à partir des données d’écoute réelles.\n\n### Cartes musicales partageables\n\n- Génère des images dynamiques basées sur vos données d’écoute.\n- Dispositions optimisées pour les publications sur les fils d’actualité et les stories Instagram (9:16)\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "rSvO2puNl2xFnpsRWE0Y2+4POvrTeLbro4IyzVw0niU=",
-        "originContent": "- Shows compatibility level (Very Low → Super).",
-        "translatedContent": "- Affiche le niveau de compatibilité (Très Faible → Super)."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
       },
       {
         "row": 2,
-        "rowsha": "Jy90JfdTysZMuItcBuaqdV+duiw5xtD+hE6UaXQjGyE=",
-        "originContent": "- Displays common top artists, albums, and tracks.",
-        "translatedContent": "- Affiche les artistes, albums et morceaux les plus communs."
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
       },
       {
         "row": 3,
-        "rowsha": "LbqYFF1GxnCnDeUDnUU29FhdLruZF4m6gFGdmUY0xV0=",
-        "originContent": "- Calculates and normalizes compatibility based on real listening data.",
-        "translatedContent": "- Calcule et normalise la compatibilité basée sur les données d’écoute réelles."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Projet"
       },
       {
         "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "UEyJIRee8FlHazLCwSMkT0fhllnRQyyGszrxan/NdDI=",
+        "originContent": "## Project",
         "translatedContent": ""
       },
       {
         "row": 5,
-        "rowsha": "7Eu+hK0STSUmDaVQNdc5vmw6NXQWIfq2NDE4RjdoIxc=",
-        "originContent": "### Shareable Music Cards",
-        "translatedContent": "### Cartes musicales partageables"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Your LastFM** est une application Node.js conçue pour **synchroniser automatiquement les scrobbles musicaux** depuis Last.fm. Elle conserve votre historique d’écoute dans une base de données SQLite locale et propose une interface web pour la visualisation des données."
       },
       {
         "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "fyHd4mYxoJRS8k02u1BvPWQpshaA1DgLAKwM3YBjxYM=",
+        "originContent": "**Your LastFM** is a Node.js application designed to **automatically synchronize music scrobbles** from Last.fm. It preserves your listening history in a local SQLite database and serves a web interface for data visualization.",
         "translatedContent": ""
       },
       {
         "row": 7,
-        "rowsha": "sDQ0kVGhVrG+PhlIe4ZD+1EduZl32p14Pjjqk90m75o=",
-        "originContent": "- Generate dynamic images based on your listening data.",
-        "translatedContent": "- Génère des images dynamiques basées sur vos données d’écoute."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Le projet est entièrement conteneurisé avec **Docker**, utilisant un point d’entrée automatisé pour gérer l’initialisation de la base de données et l’exécution séquentielle (synchronisation d’abord, puis lancement de l’API Web). Il utilise également **PM2** comme gestionnaire de processus à l’intérieur du conteneur afin d’assurer la disponibilité et la résilience du service web."
       },
       {
         "row": 8,
-        "rowsha": "WsstKQo29jwmuyGmJvVO5WRljJflBE+BjAOTxa6AYbE=",
-        "originContent": "- Optimized layouts for feed posts and instagram stories (9:16)",
-        "translatedContent": "- Mises en page optimisées pour les publications de fil et les stories Instagram (9:16)"
-      },
-      {
-        "row": 9,
-        "rowsha": "zeJkdBNvEs9MIz9PaP6uopsouQ0ztSZ4f8Wco8yc/9U=",
-        "originContent": "- Built using node-canvas for server-side image rendering.",
-        "translatedContent": "- Construit avec node-canvas pour le rendu d’images côté serveur."
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "AWvh0kDqhvKxCinJFN4+7eK2SgQAELfLyxim/Y0gdyE=",
+        "originContent": "The project is fully containerized with **Docker**, using an automated entrypoint to handle database initialization and sequential execution (Syncing first, then launching the Web API). It also utilizes **PM2** as a process manager inside the container to ensure the web service remains active and resilient.",
         "translatedContent": ""
       },
       {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Fonctionnalités"
+      },
+      {
+        "row": 10,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "### Tableau de bord web interactif"
+      },
+      {
         "row": 11,
-        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
-        "originContent": "## Prerequisites",
-        "translatedContent": "## Prérequis"
+        "rowsha": "Ww5/bT1hhgROJsxSXj/HKxA6DxXytnOXB5OT2E5oKcY=",
+        "originContent": "### Interactive Web Dashboard",
+        "translatedContent": ""
       },
       {
         "row": 12,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": ""
+        "translatedContent": "- Interface web moderne et épurée pour visualiser votre activité musicale."
       },
       {
         "row": 13,
-        "rowsha": "yrL0zOCpGC6zmpVFdAWIXA4QHsMskRU6ZfsiCAnKAiQ=",
-        "originContent": "* [Docker](https://docs.docker.com/get-docker/)",
-        "translatedContent": "* [Docker](https://docs.docker.com/get-docker/)"
+        "rowsha": "CT2HxkRYI04sGazT8aNXk2PHXWRN0B4hTXfZj6awubA=",
+        "originContent": "- Clean, modern web interface to visualize your music activity.",
+        "translatedContent": ""
       },
       {
         "row": 14,
-        "rowsha": "AoGv8K95YdNTGrjddKxJR8gdyxMXhut3QCFXe8kshTE=",
-        "originContent": "* [Docker Compose](https://docs.docker.com/compose/install/)",
-        "translatedContent": "* [Docker Compose](https://docs.docker.com/compose/install/)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Synchronisation automatique des scrobbles Last.fm"
       },
       {
         "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "UvLxj7riO5qAiUC0iXKZsq8YeiFo+DYO+TwnZ6HI+ZA=",
+        "originContent": "### Automatic Last.fm Scrobble Synchronization",
         "translatedContent": ""
       },
       {
         "row": 16,
-        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
-        "originContent": "## Installation",
-        "translatedContent": "## Installation"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Récupère et stocke périodiquement votre historique d’écoute (scrobbles) depuis Last.fm."
       },
       {
         "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "H6K/ErB5uWtb06N/7fHYh9iTWdSPJoFERwPVWGc9PbY=",
+        "originContent": "- Periodically fetches and stores your listening history (scrobbles) from Last.fm.",
+        "translatedContent": "- Garantit que vos données sont toujours à jour sans intervention manuelle."
       },
       {
         "row": 18,
-        "rowsha": "bc3g97eCgXOrGyNYgPmenGbt4dwF2tcursM79WX6rUA=",
-        "originContent": "### Create a `.env` file",
-        "translatedContent": "### Créer un fichier `.env`"
+        "rowsha": "3hPXvkgUAqmxeCgPdzENccVaMXeToT+IQa5GKD+7YBI=",
+        "originContent": "- Ensures your data is always up to date without manual intervention.",
+        "translatedContent": ""
       },
       {
         "row": 19,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
+        "translatedContent": "### Base de données locale de l’historique musical"
+      },
+      {
+        "row": 20,
+        "rowsha": "ntBiFlqhtWSfX/MtA1J3OBHZq8/kvqhsYDOL3xOA5UQ=",
+        "originContent": "### Local Music History Database",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Conserve tous les scrobbles dans une base SQLite locale."
+      },
+      {
+        "row": 22,
+        "rowsha": "s68Ra/3sF6RkIAGw575BF4otSEcc9rIihkRFSve6Kdo=",
+        "originContent": "- Persists all scrobbles in a local SQLite database.",
+        "translatedContent": "- Permet des requêtes rapides et un accès hors ligne à l’historique d’écoute."
+      },
+      {
+        "row": 23,
+        "rowsha": "gC9EpaA4EYf2Czos2ssGN2pt49NVaQ0c0BZePvaxNpQ=",
+        "originContent": "- Allows fast queries and offline access to historical listening data.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Vue des scrobbles récents"
+      },
+      {
+        "row": 25,
+        "rowsha": "IOT2ExHGRZ53tgCyKGbRtaI+XI5JShrbuwHjVtZAIOQ=",
+        "originContent": "### Recent Scrobbles View",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Affiche vos morceaux les plus récents."
+      },
+      {
+        "row": 27,
+        "rowsha": "UxQcCaWeqcAynoDq851szquBA3rnxsKTWd7jb1fETZM=",
+        "originContent": "- Displays your most recent tracks.",
+        "translatedContent": "- Logique intelligente de remplacement d’image pour les morceaux, albums et artistes."
+      },
+      {
+        "row": 28,
+        "rowsha": "vGS36g0X4ncNDDuRfPH2GxFzVGDRMPnZeUChDtr55qk=",
+        "originContent": "- Smart image fallback logic for tracks, albums, and artists.",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Comparaison avec des amis (vue de compatibilité)"
+      },
+      {
+        "row": 30,
+        "rowsha": "0I/ovdSqL5jQaybFfaPRKViSRchDeChYnjIUrfnCTb4=",
+        "originContent": "### Friends Comparison (Compatibility View)",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Comparez vos goûts musicaux avec ceux de vos amis Last.fm."
+      },
+      {
+        "row": 32,
+        "rowsha": "OoSkrutn/zk2KkhGN2XLibjbe5zO3sHno36JL7zGq5o=",
+        "originContent": "- Compare your music taste with Last.fm friends.",
+        "translatedContent": "- Affiche le niveau de compatibilité (Très faible → Super)."
+      },
+      {
+        "row": 33,
+        "rowsha": "rSvO2puNl2xFnpsRWE0Y2+4POvrTeLbro4IyzVw0niU=",
+        "originContent": "- Shows compatibility level (Very Low → Super).",
+        "translatedContent": "- Affiche les artistes, albums et morceaux communs les plus écoutés."
+      },
+      {
+        "row": 34,
+        "rowsha": "Jy90JfdTysZMuItcBuaqdV+duiw5xtD+hE6UaXQjGyE=",
+        "originContent": "- Displays common top artists, albums, and tracks.",
+        "translatedContent": "- Calcule et normalise la compatibilité à partir des données d’écoute réelles."
+      },
+      {
+        "row": 35,
+        "rowsha": "LbqYFF1GxnCnDeUDnUU29FhdLruZF4m6gFGdmUY0xV0=",
+        "originContent": "- Calculates and normalizes compatibility based on real listening data.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Cartes musicales partageables"
+      },
+      {
+        "row": 37,
+        "rowsha": "7Eu+hK0STSUmDaVQNdc5vmw6NXQWIfq2NDE4RjdoIxc=",
+        "originContent": "### Shareable Music Cards",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Génère des images dynamiques basées sur vos données d’écoute."
+      },
+      {
+        "row": 39,
+        "rowsha": "sDQ0kVGhVrG+PhlIe4ZD+1EduZl32p14Pjjqk90m75o=",
+        "originContent": "- Generate dynamic images based on your listening data.",
+        "translatedContent": "- Dispositions optimisées pour les publications sur les fils d’actualité et les stories Instagram (9:16)"
+      },
+      {
+        "row": 40,
+        "rowsha": "WsstKQo29jwmuyGmJvVO5WRljJflBE+BjAOTxa6AYbE=",
+        "originContent": "- Optimized layouts for feed posts and instagram stories (9:16)",
         "translatedContent": ""
       }
     ],
@@ -381,6 +507,85 @@
   },
   {
     "Id": 3,
+    "Content": "- Built using node-canvas for server-side image rendering.\n\n## Prerequisites\n\n* [Docker](https://docs.docker.com/get-docker/)\n* [Docker Compose](https://docs.docker.com/compose/install/)\n\n## Installation\n\n### Create a `.env` file\n",
+    "ContentSha": "jXPsRKc0wZiTP+wZOmA/vmoAHU0CAzza8Cbxh7mIK4U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Construit à l'aide de node-canvas pour le rendu d'images côté serveur.\n\n## Prérequis\n\n* [Docker](https://docs.docker.com/get-docker/)\n* [Docker Compose](https://docs.docker.com/compose/install/)\n\n## Installation\n\n### Créez un fichier `.env`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "zeJkdBNvEs9MIz9PaP6uopsouQ0ztSZ4f8Wco8yc/9U=",
+        "originContent": "- Built using node-canvas for server-side image rendering.",
+        "translatedContent": "- Construit à l'aide de node-canvas pour le rendu d'images côté serveur."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+        "originContent": "## Prerequisites",
+        "translatedContent": "## Prérequis"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yrL0zOCpGC6zmpVFdAWIXA4QHsMskRU6ZfsiCAnKAiQ=",
+        "originContent": "* [Docker](https://docs.docker.com/get-docker/)",
+        "translatedContent": "* [Docker](https://docs.docker.com/get-docker/)"
+      },
+      {
+        "row": 6,
+        "rowsha": "AoGv8K95YdNTGrjddKxJR8gdyxMXhut3QCFXe8kshTE=",
+        "originContent": "* [Docker Compose](https://docs.docker.com/compose/install/)",
+        "translatedContent": "* [Docker Compose](https://docs.docker.com/compose/install/)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "bc3g97eCgXOrGyNYgPmenGbt4dwF2tcursM79WX6rUA=",
+        "originContent": "### Create a `.env` file",
+        "translatedContent": "### Créez un fichier `.env`"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
     "Content": "```env\nLASTFM_API_KEY=your_lastfm_api_key\nLASTFM_USERNAME=your_lastfm_username\n```",
     "ContentSha": "ai0d9h5ME7ZfGRY0jZuiQs1DSRTHuR1G929vBoWH/gk=",
     "SectionType": "",
@@ -388,36 +593,11 @@
     "EndLine": 0,
     "Translation": "```env\nLASTFM_API_KEY=your_lastfm_api_key\nLASTFM_USERNAME=your_lastfm_username\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "dbgwbak9HW5TgEbWtR5ZtVRsu2dvkT/Yje52/4cKD48=",
-        "originContent": "```env",
-        "translatedContent": "```env"
-      },
-      {
-        "row": 2,
-        "rowsha": "gLVUG2VtObgjN96dbH/bRT3X+Z/gH80J00XqsxkYx9Y=",
-        "originContent": "LASTFM_API_KEY=your_lastfm_api_key",
-        "translatedContent": "LASTFM_API_KEY=your_lastfm_api_key"
-      },
-      {
-        "row": 3,
-        "rowsha": "tDwQniowLPZoZQ/ZWBOall41kdP6pDZq5MmMQmuzwOc=",
-        "originContent": "LASTFM_USERNAME=your_lastfm_username",
-        "translatedContent": "LASTFM_USERNAME=your_lastfm_username"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 4,
+    "Id": 5,
     "Content": "\nLast.fm: Create an API account [here](https://www.last.fm/api/account/create) to get your API Key.\n\n### Docker Compose\n",
     "ContentSha": "VlkvS2dYhyPbTy2uBhZAjMOJAKBtfQVFuZorQ4zknwQ=",
     "SectionType": "",
@@ -425,42 +605,11 @@
     "EndLine": 0,
     "Translation": "\nLast.fm : Créez un compte API [ici](https://www.last.fm/api/account/create) pour obtenir votre clé API.\n\n### Docker Compose\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "6GScdQsDKicDsdOfyasQlhShm+T4WQudJ4moitlAw1g=",
-        "originContent": "Last.fm: Create an API account [here](https://www.last.fm/api/account/create) to get your API Key.",
-        "translatedContent": "Last.fm : Créez un compte API [ici](https://www.last.fm/api/account/create) pour obtenir votre clé API."
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "mHeRlyN3/ar41NP6ofGTgxSTWrRpMVYBvdIUnZmMaAY=",
-        "originContent": "### Docker Compose",
-        "translatedContent": "### Docker Compose"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 5,
+    "Id": 6,
     "Content": "```yml\nservices:\n  your-lastfm:\n    image: gomaink/your-lastfm\n    container_name: your-lastfm\n    ports:\n      - \"1533:1533\"\n    env_file:\n      - .env\n    volumes:\n      - ./data:/app/data\n    restart: unless-stopped\n```",
     "ContentSha": "verhiVqla/rYTdjHtD94N33Y6g+luPA2rzIEGAjpjjQ=",
     "SectionType": "",
@@ -468,90 +617,11 @@
     "EndLine": 0,
     "Translation": "```yml\nservices:\n  your-lastfm:\n    image: gomaink/your-lastfm\n    container_name: your-lastfm\n    ports:\n      - \"1533:1533\"\n    env_file:\n      - .env\n    volumes:\n      - ./data:/app/data\n    restart: unless-stopped\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "6VNIqwd5UaB+zEc8iEtqBBwl4sYpXCRu1rbb2Tb5ApI=",
-        "originContent": "```yml",
-        "translatedContent": "```yml"
-      },
-      {
-        "row": 2,
-        "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
-        "originContent": "services:",
-        "translatedContent": "services:"
-      },
-      {
-        "row": 3,
-        "rowsha": "iOiG+fwPQjiL8OXTZt0gnyy318beQY+zZIMbKRfVdzA=",
-        "originContent": "  your-lastfm:",
-        "translatedContent": "  your-lastfm:"
-      },
-      {
-        "row": 4,
-        "rowsha": "ssLfBP/thnWTecb/CxI3gUNAYCLg9yNYATiQdGFOjA8=",
-        "originContent": "    image: gomaink/your-lastfm",
-        "translatedContent": "    image: gomaink/your-lastfm"
-      },
-      {
-        "row": 5,
-        "rowsha": "9VTyW5lC3jWCvkejnEaEuTyXmcLSWEw65vzLdGpytAQ=",
-        "originContent": "    container_name: your-lastfm",
-        "translatedContent": "    container_name: your-lastfm"
-      },
-      {
-        "row": 6,
-        "rowsha": "zC/pizDWyg3Eifixwj057XWlvpROf11Egbzi6yNsUnM=",
-        "originContent": "    ports:",
-        "translatedContent": "    ports:"
-      },
-      {
-        "row": 7,
-        "rowsha": "2WqTDOpzr0shcyxjNQJWJ7jGBmn+uItNz6gvtriujJY=",
-        "originContent": "      - \"1533:1533\"",
-        "translatedContent": "      - \"1533:1533\""
-      },
-      {
-        "row": 8,
-        "rowsha": "a+saynMzh60Zy/6/TyX+CrZJKo43DIk6HyvzkF9F22Y=",
-        "originContent": "    env_file:",
-        "translatedContent": "    env_file:"
-      },
-      {
-        "row": 9,
-        "rowsha": "pG+WcmDxfNyyYOJwXKWaPErPEqWIkuE6rujIddkdjk8=",
-        "originContent": "      - .env",
-        "translatedContent": "      - .env"
-      },
-      {
-        "row": 10,
-        "rowsha": "1pMKVoreY6K5n87lYgkNRSAOv421w0HqHzH2XFXyySw=",
-        "originContent": "    volumes:",
-        "translatedContent": "    volumes:"
-      },
-      {
-        "row": 11,
-        "rowsha": "Di6szQum/bQ7vE66r/U8S2TmMboZct/YESGDO20cvg0=",
-        "originContent": "      - ./data:/app/data",
-        "translatedContent": "      - ./data:/app/data"
-      },
-      {
-        "row": 12,
-        "rowsha": "oqdQNjD0F32EJ8w6vZoeVMg3BE8Mgh+0Cyujme5MEyg=",
-        "originContent": "    restart: unless-stopped",
-        "translatedContent": "    restart: unless-stopped"
-      },
-      {
-        "row": 13,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 6,
+    "Id": 7,
     "Content": "\nOn terminal:\n`docker compose up -d`\n\nThen access:",
     "ContentSha": "b/dQOgFIsY3DiOa8aU2CTkyubKZEVFFsOeMInaGVHHs=",
     "SectionType": "",
@@ -559,42 +629,11 @@
     "EndLine": 0,
     "Translation": "\nDans le terminal :  \n`docker compose up -d`  \n\nPuis accédez à :",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "Q4Zgy9tgyvJ7wyF6wCRZbPixqtvFy6OfJxgfrxcpBeg=",
-        "originContent": "On terminal:",
-        "translatedContent": "Dans le terminal :  "
-      },
-      {
-        "row": 3,
-        "rowsha": "eK6znwENTkx8tRdN1tCmuWNi+nc4Qs6Tf0r7xjoNIkc=",
-        "originContent": "`docker compose up -d`",
-        "translatedContent": "`docker compose up -d`  "
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "WjsYOSUs7xvsqde/7+trLvZL0bt4mguovNKNZB/ZYpE=",
-        "originContent": "Then access:",
-        "translatedContent": "Puis accédez à :"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 7,
+    "Id": 8,
     "Content": "```\nhttp://localhost:1533\n```",
     "ContentSha": "8bfSB4qCFKxdGpESFNQpwY161HPFMpVDcA4X3gcmxUo=",
     "SectionType": "",
@@ -602,30 +641,11 @@
     "EndLine": 0,
     "Translation": "```\nhttp://localhost:1533\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "RqbgwzwbF8E5jElckyM+Fs8fVgA0TnP9Rs2gVsWM+wY=",
-        "originContent": "http://localhost:1533",
-        "translatedContent": "http://localhost:1533"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 8,
+    "Id": 9,
     "Content": "\n(or replace `localhost` with your server IP)\n\n## License\n\nThis project is licensed under the MIT License.\n",
     "ContentSha": "UorV+wDhoUVhIUZZ4U6SoX9pWCTvFU+V8zI74LGUDC0=",
     "SectionType": "",
@@ -633,50 +653,7 @@
     "EndLine": 0,
     "Translation": "\n(ou remplacez `localhost` par l'adresse IP de votre serveur)\n\n## Licence\n\nCe projet est sous licence MIT.\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "1y98c/7oNpNHjhTc4g8fOEGAI0bpNZXVvFDplLcDMRA=",
-        "originContent": "(or replace `localhost` with your server IP)",
-        "translatedContent": "(ou remplacez `localhost` par l'adresse IP de votre serveur)"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
-        "originContent": "## License",
-        "translatedContent": "## Licence"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "gtu85hIXUxetDap6Yrt3a4PQb/z5w/vJILgXMQFBqDk=",
-        "originContent": "This project is licensed under the MIT License.",
-        "translatedContent": "Ce projet est sous licence MIT."
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

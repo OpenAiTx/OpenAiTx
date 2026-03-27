@@ -33,14 +33,14 @@
 
 # Instalasi FlutterGenerator
 
-1. Unduh dan instal file PY (fwGenerator.py) dari [GitHub Releases](https://github.com/FlutterGenerator/FlutterGenerator/releases)
-2. Unduh Termux dan jalankan fwGenerator.py lalu salin file tersebut dan unggah ke Github Anda dengan nama yang diinginkan.
+1. Unduh dan pasang PY (fwGeneratorOld.py) dari [GitHub Releases](https://gist.github.com/7b65cb208155a30d43bfda55568843c7.git)
+2. Unduh Termux dan jalankan fwGenerator.py lalu salin file dan unggah ke GitHub Anda dengan nama tersebut.
 ```
 .github/workflows
 ```
 # Flutter YML Lama 32bit 64bit
 ```
-name: Flutter Build
+name: Flutter Build Old
 
 on:
   push:
@@ -84,13 +84,13 @@ jobs:
           flutter build apk --release --target-platform android-arm,android-arm64
 
       - name: Upload libflutter.so for arm64
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: libflutter_so_arm64
           path: flutter_so/build/app/intermediates/merged_native_libs/release/out/lib/arm64-v8a/libflutter.so
 
       - name: Upload libflutter.so for armeabi-v7a
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: libflutter_so_armeabi_v7a
           path: flutter_so/build/app/intermediates/merged_native_libs/release/out/lib/armeabi-v7a/libflutter.so
@@ -112,20 +112,27 @@ apt upgrade
 pkg install python -y
 python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so
 ```
-# Video Tutorial
-[![Tonton di Youtube](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
+# Tutorial Video
+[![Play on Youtube](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)
 
 # [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)
 
 # Info
 
-**🚀 Versi Dart: 𒁍 2.7.0-dev.2.1 ➢ 3.11.0**
+**🚀 Dart Version: 𒁍 2.7.0-dev.2.1 ➢ 3.11.3**
 
-**🚀 Versi Flutter: 𒁍 v1.12.13+hotfix.5 ➢ 3.41.0**
+**🚀 Flutter Version: 𒁍 v1.12.13+hotfix.5 ➢ 3.41.5**
+
+
+
+
+
+
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-27
 
 ---
