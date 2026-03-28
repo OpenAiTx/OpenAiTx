@@ -1,247 +1,247 @@
 [
   {
     "Id": 1,
-    "Content": "# WineZGUI\n\n#### Wine GUI using Zenity - Play and Share!\n\n![](https://raw.githubusercontent.com/fastrizwaan/WineZGUI/main/assets/winezgui.svg) <a href=\"https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI\"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>\n\n![](https://github.com/fastrizwaan/WineZGUI/releases/download/0.97.12/winezgui-0.97.14.png)\n\n## What is WineZGUI\n\nWineZGUI (pronounced Wine-Zee-Goo-Eee) is a wine frontend for playing windows games with wine easily. It is a collection of Bash scripts for Wine Prefix Management and Linux Desktop Integration for easier wine gaming experience using Zenity. It allows quick launching of Direct play (not installed) EXE application or game from File Manager like Nautilus and allow creating separate wine prefix for each Windows' EXE binary.\n\n## Why WineZGUI?\n\n1. Runs windows games or exe files from file manager\n2. Creates application shortcut for easier access.\n3. Focus on playing games and not setting up prefixes.\n4. Backup and Restore prefixes for later use.\n5. Create Game Bundles for sharing (prefix+game)\n\n## How it works\n\n1. When a windows binary or exe is opened with WineZGUI, \n2. It create a new prefix (copies template) and a desktop shortcut with the EXE filename.\n3. When the user launches the script, the exe is launched. \n4. If it is a setup, it will detect installed exe and creates shortcuts in Games menu category.\n\n## How to run a Game or Program on another drive or directory\n\nOpen your Terminal and type this:\n\n`flatpak override --user --filesystem=/path/to/your/drive io.github.fastrizwaan.WineZGUI`\n\n### Install WineZGUI\n\nWineZGUI is available as a Flatpak on Flathub:\n\n<a href=\"https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI\"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>\n\n",
-    "ContentSha": "qLHISBKbkTWbDsK6d3xcpoLBVrb7E3osl35OicE6h1M=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# WineZGUI\n\n#### Wine GUI using Zenity - Play and Share!\n\n![](https://raw.githubusercontent.com/fastrizwaan/WineZGUI/main/assets/winezgui.svg) <a href=\"https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI\"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>\n\n![](https://github.com/fastrizwaan/WineZGUI/releases/download/0.97.12/winezgui-0.97.14.png)\n",
+    "ContentSha": "PoUjNLZGiK5PUl7jWRXA4woFKChVW4X47iBnORRFJ08=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# WineZGUI\n\n#### Wine GUI using Zenity - Play and Share!\n\n![](https://raw.githubusercontent.com/fastrizwaan/WineZGUI/main/assets/winezgui.svg) <a href=\"https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI\"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>\n\n![](https://github.com/fastrizwaan/WineZGUI/releases/download/0.97.12/winezgui-0.97.14.png)\n\n## What is WineZGUI\n\nWineZGUI (pronounced Wine-Zee-Goo-Eee) is a wine frontend for playing windows games with wine easily. It is a collection of Bash scripts for Wine Prefix Management and Linux Desktop Integration for easier wine gaming experience using Zenity. It allows quick launching of Direct play (not installed) EXE application or game from File Manager like Nautilus and allow creating separate wine prefix for each Windows' EXE binary.\n\n## Why WineZGUI?\n\n1. Runs windows games or exe files from file manager\n2. Creates application shortcut for easier access.\n3. Focus on playing games and not setting up prefixes.\n4. Backup and Restore prefixes for later use.\n5. Create Game Bundles for sharing (prefix+game)\n\n## How it works\n\n1. When a windows binary or exe is opened with WineZGUI, \n2. It create a new prefix (copies template) and a desktop shortcut with the EXE filename.\n3. When the user launches the script, the exe is launched. \n4. If it is a setup, it will detect installed exe and creates shortcuts in Games menu category.\n\n## How to run a Game or Program on another drive or directory\n\nOpen your Terminal and type this:\n\n`flatpak override --user --filesystem=/path/to/your/drive io.github.fastrizwaan.WineZGUI`\n\n### Install WineZGUI\n\nWineZGUI is available as a Flatpak on Flathub:\n\n<a href=\"https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI\"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>\n\n",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=zh-CN\">Simplified Chinese</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=zh-TW\">Traditional Chinese</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ja\">Japanese</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ko\">Korean</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=hi\">Hindi</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=th\">Thai</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=fr\">French</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=de\">German</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=es\">Spanish</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=it\">Italian</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ru\">Russian</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=pt\">Portuguese</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=nl\">Dutch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=pl\">Polish</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ar\">Arabic</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=fa\">Persian</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=tr\">Turkish</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=vi\">Vietnamese</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=id\">Indonesian</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=as\">Assamese</\n      </div>\n    </div>\n  </details>\n</div>\n\n# WineZGUI\n\n#### Wine GUI using Zenity - Play and Share!\n\n![](https://raw.githubusercontent.com/fastrizwaan/WineZGUI/main/assets/winezgui.svg) <a href=\"https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI\"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>\n\n![](https://github.com/fastrizwaan/WineZGUI/releases/download/0.97.12/winezgui-0.97.14.png)\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Language</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "MKI+Zy33UpWBnIt8WwpE7CShR29ig1vAhgaZWMYtWHQ=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "hOhVT0sFJxMyn318IF29iRmCFvZ0gMxzSYn1HhiedtE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=zh-CN\">Simplified Chinese</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "BjJpee4cqQpsXm2LDCw7JtHMks3PCRxTIRdi+SRyC40=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=zh-TW\">Traditional Chinese</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "hLAifLn/q9Ua78wCsTVDpBhJY5nLDJQB8V3SnFcAeJg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ja\">Japanese</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "kHSv44YX5H4pSTYm2com7DBrk5ZlmrE6Z2I9Fww0crI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ko\">Korean</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "Mpi8cY3PGN5KxUKEc94tSd1gp93s7suC1n8XgH5aYp4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=hi\">Hindi</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "TnrBXXVdMJPoRsnTmIu60kg2VD3UkVIcoN7Q9nHygqY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=th\">Thai</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "OVY1TdsYsIrlnjXjEj7ttIj1GQ2C/98PzmvPPgN/tfE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=fr\">French</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "ZQYQsOX7yO0MpE4rWiY8VGieFwAFbLXt8gtOGy/fBAQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=de\">German</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "ZdVrRJCSp1lTsuHF9m45MY2pKRTeoap+tGokTUfjGEU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=es\">Spanish</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "FWRvJWIa3OaMOtsNn66X8r+dgT8jzrjSH33boDVzbnk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=it\">Italian</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "PD5o1JfRN5LQ3U0y9qEFPF/3m6z9GDhf3178TQdWkdM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ru\">Russian</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "ioAF7jE5eJXz6+LELePjsDbMqfzYVKcvMu6g0qTWII4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=pt\">Portuguese</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "UaAFm4tdV9AVigyvPYFhgIKDfNxj3JCvggEIqrrMob4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=nl\">Dutch</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "/X0FQGi3j1kW/mnWJposUPGix+u9A6ss3HD6b3s5zqA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=pl\">Polish</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "FOIfXhG9Lby957SMpP0u/TqgDETdER7yuXohsgL8KcE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ar\">Arabic</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "DmJJg+F6xfLWX79VwUMDqbfdaoU4qgniQihA/TInVYo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=fa\">Persian</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "w86MCuOxRW+VDlzI+VSaJgpqA0ghnutHymqvj0RuPao=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=tr\">Turkish</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "QAP8v9BWuTbhD7iWwI2BIHCWtV0aqRBZ/BmaklzHQPM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=vi\">Vietnamese</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "pkpNnUROOu5brwAdRNCDA5bH9nMdO3AMdQ5cCdm8FQY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=id\">Indonesian</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "AIm6srPRat5PthpoLexGAvnycxIn11wUzxMKk6jKGSI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=as\">Assamese</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
         "rowsha": "c2zV69WwBMPsYbL+aTanz8bsLL6hXJJmAnBcgZAV9t0=",
         "originContent": "# WineZGUI",
         "translatedContent": "# WineZGUI"
       },
       {
-        "row": 2,
+        "row": 34,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 3,
+        "row": 35,
         "rowsha": "g2rVipRBdflDbFUWyhgiJOToVD6aMRJi3urAyR1BzSU=",
         "originContent": "#### Wine GUI using Zenity - Play and Share!",
         "translatedContent": "#### Wine GUI using Zenity - Play and Share!"
       },
       {
-        "row": 4,
+        "row": 36,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 5,
+        "row": 37,
         "rowsha": "+lcjcXakRg1xoMSrLYbW6rgeo/540k0VN1KVDrrpQzY=",
         "originContent": "![](https://raw.githubusercontent.com/fastrizwaan/WineZGUI/main/assets/winezgui.svg) <a href=\"https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI\"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>",
         "translatedContent": "![](https://raw.githubusercontent.com/fastrizwaan/WineZGUI/main/assets/winezgui.svg) <a href=\"https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI\"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>"
       },
       {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "tVUTvUSXcThSLvHLghlH7b7iXG6NQK0Fa8U/9Nt8LPY=",
-        "originContent": "![](https://github.com/fastrizwaan/WineZGUI/releases/download/0.97.12/winezgui-0.97.14.png)",
-        "translatedContent": "![](https://github.com/fastrizwaan/WineZGUI/releases/download/0.97.12/winezgui-0.97.14.png)"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "jXNiaYUH3KjCoq30eYWPsL+tL3O1T5xCJt/fLmBzKs4=",
-        "originContent": "## What is WineZGUI",
-        "translatedContent": "## What is WineZGUI"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "oUjh4FilykS7En0RupZwSqYo8Fh3NLlmTuGCady3MjA=",
-        "originContent": "WineZGUI (pronounced Wine-Zee-Goo-Eee) is a wine frontend for playing windows games with wine easily. It is a collection of Bash scripts for Wine Prefix Management and Linux Desktop Integration for easier wine gaming experience using Zenity. It allows quick launching of Direct play (not installed) EXE application or game from File Manager like Nautilus and allow creating separate wine prefix for each Windows' EXE binary.",
-        "translatedContent": "WineZGUI (pronounced Wine-Zee-Goo-Eee) is a wine frontend for playing windows games with wine easily. It is a collection of Bash scripts for Wine Prefix Management and Linux Desktop Integration for easier wine gaming experience using Zenity. It allows quick launching of Direct play (not installed) EXE application or game from File Manager like Nautilus and allow creating separate wine prefix for each Windows' EXE binary."
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "2dGMv27SPxfRZf5e8xOMqrpU7POJD1U0DVnQC3deVb8=",
-        "originContent": "## Why WineZGUI?",
-        "translatedContent": "## Why WineZGUI?"
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "tjKC6etomfsNbgYLP+VMMBEb+ygY+4bV8n+mBeUv0J0=",
-        "originContent": "1. Runs windows games or exe files from file manager",
-        "translatedContent": "1. Runs windows games or exe files from file manager"
-      },
-      {
-        "row": 16,
-        "rowsha": "OWf/+qj3mQtsnU1pfA8P37YjEYoBcXh3oyTd/PbPqj0=",
-        "originContent": "2. Creates application shortcut for easier access.",
-        "translatedContent": "2. Creates application shortcut for easier access."
-      },
-      {
-        "row": 17,
-        "rowsha": "w0obmYPHBaoTLTYjYyiWJs8CJASFYhcxjrCTkpKHnd0=",
-        "originContent": "3. Focus on playing games and not setting up prefixes.",
-        "translatedContent": "3. Focus on playing games and not setting up prefixes."
-      },
-      {
-        "row": 18,
-        "rowsha": "iOSR26bBSrFIyMj/eBZMPzv5XPT8plgYaE9Y1RKxmMs=",
-        "originContent": "4. Backup and Restore prefixes for later use.",
-        "translatedContent": "4. Backup and Restore prefixes for later use."
-      },
-      {
-        "row": 19,
-        "rowsha": "GgsHmu0UyccfuZ9UDefLIjFfA2EoMZ9V/GB+290gXto=",
-        "originContent": "5. Create Game Bundles for sharing (prefix+game)",
-        "translatedContent": "5. Create Game Bundles for sharing (prefix+game)"
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "WuQ4YQzxbjHrWEpFPXb0XZT20bsUdRRGrE6Z4+N8M6g=",
-        "originContent": "## How it works",
-        "translatedContent": "## How it works"
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "s9HWJQD+maAk0vbhGZBlvZ3OOmZ3fR/4mXb1rN9nxf0=",
-        "originContent": "1. When a windows binary or exe is opened with WineZGUI, ",
-        "translatedContent": "1. When a windows binary or exe is opened with WineZGUI, "
-      },
-      {
-        "row": 24,
-        "rowsha": "HrviZBPArT+Zw9YdUkKxbp5oYVH4pKXZlm9cebEFpek=",
-        "originContent": "2. It create a new prefix (copies template) and a desktop shortcut with the EXE filename.",
-        "translatedContent": "2. It create a new prefix (copies template) and a desktop shortcut with the EXE filename."
-      },
-      {
-        "row": 25,
-        "rowsha": "/NEHJZkST23nmBwHP11Nv/KDVyvBogEP4zsgVVShoMI=",
-        "originContent": "3. When the user launches the script, the exe is launched. ",
-        "translatedContent": "3. When the user launches the script, the exe is launched. "
-      },
-      {
-        "row": 26,
-        "rowsha": "H8CKs9TwwM1lqomoZYBca4TF00LJPJEPRm1+RIqg0bs=",
-        "originContent": "4. If it is a setup, it will detect installed exe and creates shortcuts in Games menu category.",
-        "translatedContent": "4. If it is a setup, it will detect installed exe and creates shortcuts in Games menu category."
-      },
-      {
-        "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 28,
-        "rowsha": "qKCY9i3Gf0qbp/MnL7soPhwbuH1MRGoF2IGTyCQ/5EQ=",
-        "originContent": "## How to run a Game or Program on another drive or directory",
-        "translatedContent": "## How to run a Game or Program on another drive or directory"
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 30,
-        "rowsha": "K5uxX7jwofykCsVo3foSt1Ui0dj06gNRncwohz0hMzc=",
-        "originContent": "Open your Terminal and type this:",
-        "translatedContent": "Open your Terminal and type this:"
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 32,
-        "rowsha": "qlAQxMPIoBvrFipf5Da4Es0AueKEvMNzZCZSo+3dT0g=",
-        "originContent": "`flatpak override --user --filesystem=/path/to/your/drive io.github.fastrizwaan.WineZGUI`",
-        "translatedContent": "`flatpak override --user --filesystem=/path/to/your/drive io.github.fastrizwaan.WineZGUI`"
-      },
-      {
-        "row": 33,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 34,
-        "rowsha": "sp+nxwb3nrbqpFQPMQ34ovd0GZzjbbJ9CwDaYjP3wkk=",
-        "originContent": "### Install WineZGUI",
-        "translatedContent": "### Install WineZGUI"
-      },
-      {
-        "row": 35,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 36,
-        "rowsha": "Hn2CECpZ6gafmSspYsZcbIjoMauaHRX+MZ6enAkeLcA=",
-        "originContent": "WineZGUI is available as a Flatpak on Flathub:",
-        "translatedContent": "WineZGUI is available as a Flatpak on Flathub:"
-      },
-      {
-        "row": 37,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
         "row": 38,
-        "rowsha": "vU6ewqzhkTeom6RI2o/MBFNk2GQUr/Vk50XPNGAqXHY=",
-        "originContent": "<a href=\"https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI\"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>",
-        "translatedContent": "<a href=\"https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI\"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 39,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "tVUTvUSXcThSLvHLghlH7b7iXG6NQK0Fa8U/9Nt8LPY=",
+        "originContent": "![](https://github.com/fastrizwaan/WineZGUI/releases/download/0.97.12/winezgui-0.97.14.png)",
+        "translatedContent": "![](https://github.com/fastrizwaan/WineZGUI/releases/download/0.97.12/winezgui-0.97.14.png)"
       },
       {
         "row": 40,
@@ -254,19 +254,19 @@
   },
   {
     "Id": 2,
-    "Content": "Flathub WineZGUI can only access Desktop, Documents, Downloads, Music, Pictures, Videos direcotories. To access files from other locations or other mounted partitions or drives, either copy them to the previously mentioned directories (Downloads etc.) or it needs read permission, which can be given using Flatseal app or using command line  `flatpak --user override --filesystem=host:ro io.github.fastrizwaan.WineZGUI`\n\nI highly recommend using flatpak version, because, distro based wine (wine-staging) keeps on updating and games may break every few days. Using wine stable from flathub is better or use wine stable 5.0 or 7.0 from the distro packages.\n\n#### Install WineZGUI flatpak on [supported Linux distros](https://flatpak.org/setup/)\n\nWineZGUI is packaged in flatpak-wine by yours truly. [WineZGUI Flathub](https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI) my other flatpak now deprecated [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine) \n\n### SETUP on a Linux system, see [Requirements](https://github.com/fastrizwaan/WineZGUI#requirements)\n\nSetup is instant as it copies a few files to specific directories.\n\n##### Version 0.99.13\n\nDownoad source [WineZGUI-0.99.13.tar.gz](https://github.com/fastrizwaan/WineZGUI/archive/refs/tags/0.99.13.tar.gz) or use `git tag 0.99.13`\n\n##### Using tar.gz\n",
-    "ContentSha": "tKmF0d4Nev3O4485P0qVJePvz/eenPSCO/YvymM66wo=",
+    "Content": "## What is WineZGUI\n\nWineZGUI (pronounced Wine-Zee-Goo-Eee) is a wine frontend for playing windows games with wine easily. It is a collection of Bash scripts for Wine Prefix Management and Linux Desktop Integration for easier wine gaming experience using Zenity. It allows quick launching of Direct play (not installed) EXE application or game from File Manager like Nautilus and allow creating separate wine prefix for each Windows' EXE binary.\n\n## Why WineZGUI?\n\n1. Runs windows games or exe files from file manager\n2. Creates application shortcut for easier access.\n3. Focus on playing games and not setting up prefixes.\n4. Backup and Restore prefixes for later use.\n5. Create Game Bundles for sharing (prefix+game)\n\n## How it works\n\n1. When a windows binary or exe is opened with WineZGUI, \n2. It create a new prefix (copies template) and a desktop shortcut with the EXE filename.\n3. When the user launches the script, the exe is launched. \n4. If it is a setup, it will detect installed exe and creates shortcuts in Games menu category.\n\n## How to run a Game or Program on another drive or directory\n\nOpen your Terminal and type this:\n\n`flatpak override --user --filesystem=/path/to/your/drive io.github.fastrizwaan.WineZGUI`\n\n### Install WineZGUI\n\nWineZGUI is available as a Flatpak on Flathub:\n\n<a href=\"https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI\"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>\n\n\nFlathub WineZGUI can only access Desktop, Documents, Downloads, Music, Pictures, Videos direcotories. To access files from other locations or other mounted partitions or drives, either copy them to the previously mentioned directories (Downloads etc.) or it needs read permission, which can be given using Flatseal app or using command line  `flatpak --user override --filesystem=host:ro io.github.fastrizwaan.WineZGUI`\n\nI highly recommend using flatpak version, because, distro based wine (wine-staging) keeps on updating and games may break every few days. Using wine stable from flathub is better or use wine stable 5.0 or 7.0 from the distro packages.\n\n#### Install WineZGUI flatpak on [supported Linux distros](https://flatpak.org/setup/)\n\nWineZGUI is packaged in flatpak-wine by yours truly. [WineZGUI Flathub](https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI) my other flatpak now deprecated [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine) \n",
+    "ContentSha": "vQvdHugeYVs5UbAiCsKpDmVbXxsOarwSA74qxEoI3D0=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "Flathub WineZGUI can only access Desktop, Documents, Downloads, Music, Pictures, Videos directories. To access files from other locations or other mounted partitions or drives, either copy them to the previously mentioned directories (Downloads etc.) or it needs read permission, which can be given using Flatseal app or using command line  `flatpak --user override --filesystem=host:ro io.github.fastrizwaan.WineZGUI`\n\nI highly recommend using flatpak version, because, distro based wine (wine-staging) keeps on updating and games may break every few days. Using wine stable from flathub is better or use wine stable 5.0 or 7.0 from the distro packages.\n\n#### Install WineZGUI flatpak on [supported Linux distros](https://flatpak.org/setup/)\n\nWineZGUI is packaged in flatpak-wine by yours truly. [WineZGUI Flathub](https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI) my other flatpak now deprecated [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine) \n\n### SETUP on a Linux system, see [Requirements](https://github.com/fastrizwaan/WineZGUI#requirements)\n\nSetup is instant as it copies a few files to specific directories.\n\n##### Version 0.99.13\n\nDownload source [WineZGUI-0.99.13.tar.gz](https://github.com/fastrizwaan/WineZGUI/archive/refs/tags/0.99.13.tar.gz) or use `git tag 0.99.13`\n\n##### Using tar.gz\n",
+    "Translation": "## What is WineZGUI\n\nWineZGUI (pronounced Wine-Zee-Goo-Eee) is a wine frontend for playing Windows games with wine easily. It is a collection of Bash scripts for Wine Prefix Management and Linux Desktop Integration for an easier wine gaming experience using Zenity. It allows quick launching of direct play (not installed) EXE applications or games from File Manager like Nautilus and allows creating a separate wine prefix for each Windows EXE binary.\n\n## Why WineZGUI?\n\n1. Runs Windows games or exe files from the file manager\n2. Creates application shortcuts for easier access.\n3. Focuses on playing games and not on setting up prefixes.\n4. Backup and Restore prefixes for later use.\n5. Create Game Bundles for sharing (prefix+game)\n\n## How it works\n\n1. When a Windows binary or exe is opened with WineZGUI,\n2. It creates a new prefix (copies template) and a desktop shortcut with the EXE filename.\n3. When the user launches the script, the exe is launched.\n4. If it is a setup, it will detect the installed exe and create shortcuts in the Games menu category.\n\n## How to run a Game or Program on another drive or directory\n\nOpen your Terminal and type this:\n\n`flatpak override --user --filesystem=/path/to/your/drive io.github.fastrizwaan.WineZGUI`\n\n### Install WineZGUI\n\nWineZGUI is available as a Flatpak on Flathub:\n\n<a href=\"https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI\"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>\n\n\nFlathub WineZGUI can only access Desktop, Documents, Downloads, Music, Pictures, Videos directories. To access files from other locations or other mounted partitions or drives, either copy them to the previously mentioned directories (Downloads etc.) or it needs read permission, which can be given using Flatseal app or using the command line `flatpak --user override --filesystem=host:ro io.github.fastrizwaan.WineZGUI`\n\nI highly recommend using the flatpak version, because distro-based wine (wine-staging) keeps updating and games may break every few days. Using wine stable from flathub is better or use wine stable 5.0 or 7.0 from the distro packages.\n\n#### Install WineZGUI flatpak on [supported Linux distros](https://flatpak.org/setup/)\n\nWineZGUI is packaged in flatpak-wine by yours truly. [WineZGUI Flathub](https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI) my other flatpak now deprecated [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine)\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "9GRgFCBIr3L5lKj4POFieEY2+znA6+WdJRBJbc2OVpA=",
-        "originContent": "Flathub WineZGUI can only access Desktop, Documents, Downloads, Music, Pictures, Videos direcotories. To access files from other locations or other mounted partitions or drives, either copy them to the previously mentioned directories (Downloads etc.) or it needs read permission, which can be given using Flatseal app or using command line  `flatpak --user override --filesystem=host:ro io.github.fastrizwaan.WineZGUI`",
-        "translatedContent": "Flathub WineZGUI can only access Desktop, Documents, Downloads, Music, Pictures, Videos directories. To access files from other locations or other mounted partitions or drives, either copy them to the previously mentioned directories (Downloads etc.) or it needs read permission, which can be given using Flatseal app or using command line  `flatpak --user override --filesystem=host:ro io.github.fastrizwaan.WineZGUI`"
+        "rowsha": "jXNiaYUH3KjCoq30eYWPsL+tL3O1T5xCJt/fLmBzKs4=",
+        "originContent": "## What is WineZGUI",
+        "translatedContent": "## What is WineZGUI"
       },
       {
         "row": 2,
@@ -276,9 +276,9 @@
       },
       {
         "row": 3,
-        "rowsha": "qwJ0dhua1ypoog+04KOpi0MIHXbME2HMudcS6nVugtQ=",
-        "originContent": "I highly recommend using flatpak version, because, distro based wine (wine-staging) keeps on updating and games may break every few days. Using wine stable from flathub is better or use wine stable 5.0 or 7.0 from the distro packages.",
-        "translatedContent": "I highly recommend using flatpak version, because, distro based wine (wine-staging) keeps on updating and games may break every few days. Using wine stable from flathub is better or use wine stable 5.0 or 7.0 from the distro packages."
+        "rowsha": "oUjh4FilykS7En0RupZwSqYo8Fh3NLlmTuGCady3MjA=",
+        "originContent": "WineZGUI (pronounced Wine-Zee-Goo-Eee) is a wine frontend for playing windows games with wine easily. It is a collection of Bash scripts for Wine Prefix Management and Linux Desktop Integration for easier wine gaming experience using Zenity. It allows quick launching of Direct play (not installed) EXE application or game from File Manager like Nautilus and allow creating separate wine prefix for each Windows' EXE binary.",
+        "translatedContent": "WineZGUI (pronounced Wine-Zee-Goo-Eee) is a wine frontend for playing Windows games with wine easily. It is a collection of Bash scripts for Wine Prefix Management and Linux Desktop Integration for an easier wine gaming experience using Zenity. It allows quick launching of direct play (not installed) EXE applications or games from File Manager like Nautilus and allows creating a separate wine prefix for each Windows EXE binary."
       },
       {
         "row": 4,
@@ -288,9 +288,9 @@
       },
       {
         "row": 5,
-        "rowsha": "NzNFIFJ7iw+8CooNwYF6ZygbqisB4HaHtx3ihE9emlg=",
-        "originContent": "#### Install WineZGUI flatpak on [supported Linux distros](https://flatpak.org/setup/)",
-        "translatedContent": "#### Install WineZGUI flatpak on [supported Linux distros](https://flatpak.org/setup/)"
+        "rowsha": "2dGMv27SPxfRZf5e8xOMqrpU7POJD1U0DVnQC3deVb8=",
+        "originContent": "## Why WineZGUI?",
+        "translatedContent": "## Why WineZGUI?"
       },
       {
         "row": 6,
@@ -300,33 +300,33 @@
       },
       {
         "row": 7,
-        "rowsha": "6xQuSdcqzaRDCurhByboyf6KQgqnHZyCIeQ3aSGJtiI=",
-        "originContent": "WineZGUI is packaged in flatpak-wine by yours truly. [WineZGUI Flathub](https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI) my other flatpak now deprecated [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine) ",
-        "translatedContent": "WineZGUI is packaged in flatpak-wine by yours truly. [WineZGUI Flathub](https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI) my other flatpak now deprecated [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine) "
+        "rowsha": "tjKC6etomfsNbgYLP+VMMBEb+ygY+4bV8n+mBeUv0J0=",
+        "originContent": "1. Runs windows games or exe files from file manager",
+        "translatedContent": "1. Runs Windows games or exe files from the file manager"
       },
       {
         "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "OWf/+qj3mQtsnU1pfA8P37YjEYoBcXh3oyTd/PbPqj0=",
+        "originContent": "2. Creates application shortcut for easier access.",
+        "translatedContent": "2. Creates application shortcuts for easier access."
       },
       {
         "row": 9,
-        "rowsha": "bvdwGN6p3towb4k8fhrBKJQ+AbJSD9CnrDP3t+mHF8M=",
-        "originContent": "### SETUP on a Linux system, see [Requirements](https://github.com/fastrizwaan/WineZGUI#requirements)",
-        "translatedContent": "### SETUP on a Linux system, see [Requirements](https://github.com/fastrizwaan/WineZGUI#requirements)"
+        "rowsha": "w0obmYPHBaoTLTYjYyiWJs8CJASFYhcxjrCTkpKHnd0=",
+        "originContent": "3. Focus on playing games and not setting up prefixes.",
+        "translatedContent": "3. Focuses on playing games and not on setting up prefixes."
       },
       {
         "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "iOSR26bBSrFIyMj/eBZMPzv5XPT8plgYaE9Y1RKxmMs=",
+        "originContent": "4. Backup and Restore prefixes for later use.",
+        "translatedContent": "4. Backup and Restore prefixes for later use."
       },
       {
         "row": 11,
-        "rowsha": "EhIwNc7+7isvryx8BaqIld5/Toaa/eZHUr7fuUDG22w=",
-        "originContent": "Setup is instant as it copies a few files to specific directories.",
-        "translatedContent": "Setup is instant as it copies a few files to specific directories."
+        "rowsha": "GgsHmu0UyccfuZ9UDefLIjFfA2EoMZ9V/GB+290gXto=",
+        "originContent": "5. Create Game Bundles for sharing (prefix+game)",
+        "translatedContent": "5. Create Game Bundles for sharing (prefix+game)"
       },
       {
         "row": 12,
@@ -336,9 +336,9 @@
       },
       {
         "row": 13,
-        "rowsha": "vu9TVoA9cvDtCt58N3MwRA8EGzsU8WX100WDSbUypM8=",
-        "originContent": "##### Version 0.99.13",
-        "translatedContent": "##### Version 0.99.13"
+        "rowsha": "WuQ4YQzxbjHrWEpFPXb0XZT20bsUdRRGrE6Z4+N8M6g=",
+        "originContent": "## How it works",
+        "translatedContent": "## How it works"
       },
       {
         "row": 14,
@@ -348,24 +348,156 @@
       },
       {
         "row": 15,
-        "rowsha": "QPVeKT5+TsT6m4z163duM02yE+Mtz1tt1r3htKiuoUA=",
-        "originContent": "Downoad source [WineZGUI-0.99.13.tar.gz](https://github.com/fastrizwaan/WineZGUI/archive/refs/tags/0.99.13.tar.gz) or use `git tag 0.99.13`",
-        "translatedContent": "Download source [WineZGUI-0.99.13.tar.gz](https://github.com/fastrizwaan/WineZGUI/archive/refs/tags/0.99.13.tar.gz) or use `git tag 0.99.13`"
+        "rowsha": "s9HWJQD+maAk0vbhGZBlvZ3OOmZ3fR/4mXb1rN9nxf0=",
+        "originContent": "1. When a windows binary or exe is opened with WineZGUI, ",
+        "translatedContent": "1. When a Windows binary or exe is opened with WineZGUI,"
       },
       {
         "row": 16,
+        "rowsha": "HrviZBPArT+Zw9YdUkKxbp5oYVH4pKXZlm9cebEFpek=",
+        "originContent": "2. It create a new prefix (copies template) and a desktop shortcut with the EXE filename.",
+        "translatedContent": "2. It creates a new prefix (copies template) and a desktop shortcut with the EXE filename."
+      },
+      {
+        "row": 17,
+        "rowsha": "/NEHJZkST23nmBwHP11Nv/KDVyvBogEP4zsgVVShoMI=",
+        "originContent": "3. When the user launches the script, the exe is launched. ",
+        "translatedContent": "3. When the user launches the script, the exe is launched."
+      },
+      {
+        "row": 18,
+        "rowsha": "H8CKs9TwwM1lqomoZYBca4TF00LJPJEPRm1+RIqg0bs=",
+        "originContent": "4. If it is a setup, it will detect installed exe and creates shortcuts in Games menu category.",
+        "translatedContent": "4. If it is a setup, it will detect the installed exe and create shortcuts in the Games menu category."
+      },
+      {
+        "row": 19,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 17,
-        "rowsha": "IANjbMaHlNgoXhJbYIvTasneYjub4RziCQ/KMRZk/f8=",
-        "originContent": "##### Using tar.gz",
-        "translatedContent": "##### Using tar.gz"
+        "row": 20,
+        "rowsha": "qKCY9i3Gf0qbp/MnL7soPhwbuH1MRGoF2IGTyCQ/5EQ=",
+        "originContent": "## How to run a Game or Program on another drive or directory",
+        "translatedContent": "## How to run a Game or Program on another drive or directory"
       },
       {
-        "row": 18,
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "K5uxX7jwofykCsVo3foSt1Ui0dj06gNRncwohz0hMzc=",
+        "originContent": "Open your Terminal and type this:",
+        "translatedContent": "Open your Terminal and type this:"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "qlAQxMPIoBvrFipf5Da4Es0AueKEvMNzZCZSo+3dT0g=",
+        "originContent": "`flatpak override --user --filesystem=/path/to/your/drive io.github.fastrizwaan.WineZGUI`",
+        "translatedContent": "`flatpak override --user --filesystem=/path/to/your/drive io.github.fastrizwaan.WineZGUI`"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "sp+nxwb3nrbqpFQPMQ34ovd0GZzjbbJ9CwDaYjP3wkk=",
+        "originContent": "### Install WineZGUI",
+        "translatedContent": "### Install WineZGUI"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "Hn2CECpZ6gafmSspYsZcbIjoMauaHRX+MZ6enAkeLcA=",
+        "originContent": "WineZGUI is available as a Flatpak on Flathub:",
+        "translatedContent": "WineZGUI is available as a Flatpak on Flathub:"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "vU6ewqzhkTeom6RI2o/MBFNk2GQUr/Vk50XPNGAqXHY=",
+        "originContent": "<a href=\"https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI\"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>",
+        "translatedContent": "<a href=\"https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI\"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "9GRgFCBIr3L5lKj4POFieEY2+znA6+WdJRBJbc2OVpA=",
+        "originContent": "Flathub WineZGUI can only access Desktop, Documents, Downloads, Music, Pictures, Videos direcotories. To access files from other locations or other mounted partitions or drives, either copy them to the previously mentioned directories (Downloads etc.) or it needs read permission, which can be given using Flatseal app or using command line  `flatpak --user override --filesystem=host:ro io.github.fastrizwaan.WineZGUI`",
+        "translatedContent": "Flathub WineZGUI can only access Desktop, Documents, Downloads, Music, Pictures, Videos directories. To access files from other locations or other mounted partitions or drives, either copy them to the previously mentioned directories (Downloads etc.) or it needs read permission, which can be given using Flatseal app or using the command line `flatpak --user override --filesystem=host:ro io.github.fastrizwaan.WineZGUI`"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "qwJ0dhua1ypoog+04KOpi0MIHXbME2HMudcS6nVugtQ=",
+        "originContent": "I highly recommend using flatpak version, because, distro based wine (wine-staging) keeps on updating and games may break every few days. Using wine stable from flathub is better or use wine stable 5.0 or 7.0 from the distro packages.",
+        "translatedContent": "I highly recommend using the flatpak version, because distro-based wine (wine-staging) keeps updating and games may break every few days. Using wine stable from flathub is better or use wine stable 5.0 or 7.0 from the distro packages."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "NzNFIFJ7iw+8CooNwYF6ZygbqisB4HaHtx3ihE9emlg=",
+        "originContent": "#### Install WineZGUI flatpak on [supported Linux distros](https://flatpak.org/setup/)",
+        "translatedContent": "#### Install WineZGUI flatpak on [supported Linux distros](https://flatpak.org/setup/)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "6xQuSdcqzaRDCurhByboyf6KQgqnHZyCIeQ3aSGJtiI=",
+        "originContent": "WineZGUI is packaged in flatpak-wine by yours truly. [WineZGUI Flathub](https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI) my other flatpak now deprecated [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine) ",
+        "translatedContent": "WineZGUI is packaged in flatpak-wine by yours truly. [WineZGUI Flathub](https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI) my other flatpak now deprecated [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine)"
+      },
+      {
+        "row": 40,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -375,6 +507,79 @@
   },
   {
     "Id": 3,
+    "Content": "### SETUP on a Linux system, see [Requirements](https://github.com/fastrizwaan/WineZGUI#requirements)\n\nSetup is instant as it copies a few files to specific directories.\n\n##### Version 0.99.13\n\nDownoad source [WineZGUI-0.99.13.tar.gz](https://github.com/fastrizwaan/WineZGUI/archive/refs/tags/0.99.13.tar.gz) or use `git tag 0.99.13`\n\n##### Using tar.gz\n",
+    "ContentSha": "epM0giy2wCXngoT/Vatj/wj+7kRylHAZWU/A11sSEVk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### SETUP on a Linux system, see [Requirements](https://github.com/fastrizwaan/WineZGUI#requirements)\n\nSetup is instant as it copies a few files to specific directories.\n\n##### Version 0.99.13\n\nDownload source [WineZGUI-0.99.13.tar.gz](https://github.com/fastrizwaan/WineZGUI/archive/refs/tags/0.99.13.tar.gz) or use `git tag 0.99.13`\n\n##### Using tar.gz\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bvdwGN6p3towb4k8fhrBKJQ+AbJSD9CnrDP3t+mHF8M=",
+        "originContent": "### SETUP on a Linux system, see [Requirements](https://github.com/fastrizwaan/WineZGUI#requirements)",
+        "translatedContent": "### SETUP on a Linux system, see [Requirements](https://github.com/fastrizwaan/WineZGUI#requirements)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "EhIwNc7+7isvryx8BaqIld5/Toaa/eZHUr7fuUDG22w=",
+        "originContent": "Setup is instant as it copies a few files to specific directories.",
+        "translatedContent": "Setup is instant as it copies a few files to specific directories."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "vu9TVoA9cvDtCt58N3MwRA8EGzsU8WX100WDSbUypM8=",
+        "originContent": "##### Version 0.99.13",
+        "translatedContent": "##### Version 0.99.13"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "QPVeKT5+TsT6m4z163duM02yE+Mtz1tt1r3htKiuoUA=",
+        "originContent": "Downoad source [WineZGUI-0.99.13.tar.gz](https://github.com/fastrizwaan/WineZGUI/archive/refs/tags/0.99.13.tar.gz) or use `git tag 0.99.13`",
+        "translatedContent": "Download source [WineZGUI-0.99.13.tar.gz](https://github.com/fastrizwaan/WineZGUI/archive/refs/tags/0.99.13.tar.gz) or use `git tag 0.99.13`"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "IANjbMaHlNgoXhJbYIvTasneYjub4RziCQ/KMRZk/f8=",
+        "originContent": "##### Using tar.gz",
+        "translatedContent": "##### Using tar.gz"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
     "Content": "```\nwget https://github.com/fastrizwaan/WineZGUI/archive/refs/tags/0.99.13.tar.gz\ntar -zxvf 0.99.13.tar.gz\ncd WineZGUI-0.99.13\nsudo ./setup --install ; #systemwide\n```",
     "ContentSha": "ejA9KtCcuUaC8AQvjNOmcn1mmwFC63kYZDedXlmGZjo=",
     "SectionType": "",
@@ -382,48 +587,11 @@
     "EndLine": 0,
     "Translation": "```\nwget https://github.com/fastrizwaan/WineZGUI/archive/refs/tags/0.99.13.tar.gz\ntar -zxvf 0.99.13.tar.gz\ncd WineZGUI-0.99.13\nsudo ./setup --install ; #systemwide\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "0b7wOfUBwVURDLXlVjvAUhsYybdwmwyjBUaIW2Yj65U=",
-        "originContent": "wget https://github.com/fastrizwaan/WineZGUI/archive/refs/tags/0.99.13.tar.gz",
-        "translatedContent": "wget https://github.com/fastrizwaan/WineZGUI/archive/refs/tags/0.99.13.tar.gz"
-      },
-      {
-        "row": 3,
-        "rowsha": "SLA508XJyujrWs/XBIS4+V0jZlbQ1QQkcoFerW62eLw=",
-        "originContent": "tar -zxvf 0.99.13.tar.gz",
-        "translatedContent": "tar -zxvf 0.99.13.tar.gz"
-      },
-      {
-        "row": 4,
-        "rowsha": "sYQA+twhRXS5WS8V/GRYQS8hR81Zu42Gc3GKPnbyoww=",
-        "originContent": "cd WineZGUI-0.99.13",
-        "translatedContent": "cd WineZGUI-0.99.13"
-      },
-      {
-        "row": 5,
-        "rowsha": "yiBIz0t/A6Vcwh9vtBszf4N6vZAT5LlQTreOoFU0QSo=",
-        "originContent": "sudo ./setup --install ; #systemwide",
-        "translatedContent": "sudo ./setup --install ; #systemwide"
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 4,
+    "Id": 5,
     "Content": "\n##### git tag 0.99.13\n",
     "ContentSha": "diqZmqREcO52qVHwG7WMRrdGPIEZX99YuT5ZemYWb+Q=",
     "SectionType": "",
@@ -431,30 +599,11 @@
     "EndLine": 0,
     "Translation": "##### git tag 0.99.13\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "##### git tag 0.99.13"
-      },
-      {
-        "row": 2,
-        "rowsha": "z+5AXMTHKlZqvEaly/WoHdDAoaMlRv+xgoAkMLbmhX4=",
-        "originContent": "##### git tag 0.99.13",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 5,
+    "Id": 6,
     "Content": "```\ngit clone --depth 1 --branch 0.99.13 https://github.com/fastrizwaan/WineZGUI.git\ncd WineZGUI\nsudo ./setup --install ; #systemwide\n```",
     "ContentSha": "cKbwfMA+hk+Fql1Kveeai59MS44FDzh2xbjh4BgxDlo=",
     "SectionType": "",
@@ -462,42 +611,11 @@
     "EndLine": 0,
     "Translation": "```\ngit clone --depth 1 --branch 0.99.13 https://github.com/fastrizwaan/WineZGUI.git\ncd WineZGUI\nsudo ./setup --install ; #systemwide\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "CX4eWNFIf+TkTu/y8DNI0+DhusZMDee3/HPaJkh+0JA=",
-        "originContent": "git clone --depth 1 --branch 0.99.13 https://github.com/fastrizwaan/WineZGUI.git",
-        "translatedContent": "git clone --depth 1 --branch 0.99.13 https://github.com/fastrizwaan/WineZGUI.git"
-      },
-      {
-        "row": 3,
-        "rowsha": "NhnkEf+ybE/lC/5mmbKdHvrydb2zpHLDHWfVhOn5Efk=",
-        "originContent": "cd WineZGUI",
-        "translatedContent": "cd WineZGUI"
-      },
-      {
-        "row": 4,
-        "rowsha": "yiBIz0t/A6Vcwh9vtBszf4N6vZAT5LlQTreOoFU0QSo=",
-        "originContent": "sudo ./setup --install ; #systemwide",
-        "translatedContent": "sudo ./setup --install ; #systemwide"
-      },
-      {
-        "row": 5,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 6,
+    "Id": 7,
     "Content": "\n##### Development version\n",
     "ContentSha": "g7pY1KG9mIBcj/sQbqSBN8YVMFh94S01i7LQhiNPfgk=",
     "SectionType": "",
@@ -505,30 +623,11 @@
     "EndLine": 0,
     "Translation": "##### Development version\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "##### Development version"
-      },
-      {
-        "row": 2,
-        "rowsha": "t7IbefZMLupRnH0QFu3CAgq7guo7vgjO6o7i84OJ6uk=",
-        "originContent": "##### Development version",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 7,
+    "Id": 8,
     "Content": "```\ngit clone https://github.com/fastrizwaan/WineZGUI.git\ncd WineZGUI\nsudo ./setup --install ; #systemwide\n```",
     "ContentSha": "dEgmDP+U1DxHT0+Hzws64+qwTYz+r8o53aoYrfWkwDI=",
     "SectionType": "",
@@ -536,42 +635,11 @@
     "EndLine": 0,
     "Translation": "```\ngit clone https://github.com/fastrizwaan/WineZGUI.git\ncd WineZGUI\nsudo ./setup --install ; #systemwide\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "Fp7xKcu2uSTs/pUdrY8qY4vpqj6JVgg8Xc6LewABCYU=",
-        "originContent": "git clone https://github.com/fastrizwaan/WineZGUI.git",
-        "translatedContent": "git clone https://github.com/fastrizwaan/WineZGUI.git"
-      },
-      {
-        "row": 3,
-        "rowsha": "NhnkEf+ybE/lC/5mmbKdHvrydb2zpHLDHWfVhOn5Efk=",
-        "originContent": "cd WineZGUI",
-        "translatedContent": "cd WineZGUI"
-      },
-      {
-        "row": 4,
-        "rowsha": "yiBIz0t/A6Vcwh9vtBszf4N6vZAT5LlQTreOoFU0QSo=",
-        "originContent": "sudo ./setup --install ; #systemwide",
-        "translatedContent": "sudo ./setup --install ; #systemwide"
-      },
-      {
-        "row": 5,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 8,
+    "Id": 9,
     "Content": "\n### Uninstall WineZGUI\n\n##### Flatpak uninstall\n",
     "ContentSha": "3CSKecfGEeBJFC7GlLDJZOWjzeiCXsvYcb+kxSel58c=",
     "SectionType": "",
@@ -579,42 +647,11 @@
     "EndLine": 0,
     "Translation": "\n### Uninstall WineZGUI\n\n##### Flatpak uninstall\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "UyZJ5ONKIy12V9TalcgQ+WAIevOj8NPrU5Xs+Td/L18=",
-        "originContent": "### Uninstall WineZGUI",
-        "translatedContent": "### Uninstall WineZGUI"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "ZoOqxrojQ4yafUy5ddDtHCdKGy5BaYQbqQGjems1qyY=",
-        "originContent": "##### Flatpak uninstall",
-        "translatedContent": "##### Flatpak uninstall"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 9,
+    "Id": 10,
     "Content": "```\nflatpak remove io.github.fastrizwaan.WineZGUI\n```",
     "ContentSha": "hZAROpP5S0+Gw67Ko633VCX/xsp9us8Lr9BhEnc3TSU=",
     "SectionType": "",
@@ -622,30 +659,11 @@
     "EndLine": 0,
     "Translation": "```\nflatpak remove io.github.fastrizwaan.WineZGUI\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "14W1fG8C42S0px1EtHSKzBxfvYlRXCE7E/sN/3k2AEc=",
-        "originContent": "flatpak remove io.github.fastrizwaan.WineZGUI",
-        "translatedContent": "flatpak remove io.github.fastrizwaan.WineZGUI"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 10,
+    "Id": 11,
     "Content": "\n##### System  uninstall\n\nRun `uninstall` from the same installation source directory\n",
     "ContentSha": "BsWyal/M663LixVEypbgYD40jOYDkttOWue0j/stOdw=",
     "SectionType": "",
@@ -653,42 +671,11 @@
     "EndLine": 0,
     "Translation": "\n##### System  uninstall\n\nRun `uninstall` from the same installation source directory\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "SNqRbhiYwHmEmgyo02TjTW4XDb+XaxVscnvImTIZYC0=",
-        "originContent": "##### System  uninstall",
-        "translatedContent": "##### System  uninstall"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "H8KnDlXVt+jq1HE+uWauhvFij7s5l8QouqbqImlyktc=",
-        "originContent": "Run `uninstall` from the same installation source directory",
-        "translatedContent": "Run `uninstall` from the same installation source directory"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 11,
+    "Id": 12,
     "Content": "```\nsudo ./setup --uninstall\n```",
     "ContentSha": "Zg1TakhSChZaPKl67ni4fmz7MUi+RsxYQyJn6KsUWD4=",
     "SectionType": "",
@@ -696,30 +683,11 @@
     "EndLine": 0,
     "Translation": "```\nsudo ./setup --uninstall\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "MedTWPVC9itZ8UvFyZz2Q9oWtkKesuSobtAhtqR/ruU=",
-        "originContent": "sudo ./setup --uninstall",
-        "translatedContent": "sudo ./setup --uninstall"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 12,
+    "Id": 13,
     "Content": "\n## Requirements\n\n`wine` - main program\n\n`winetricks` - must have wine addon script\n\n`perl‑image‑exiftool` - to extract application/game name\n\n`icoutils` - to extract icon from exe file\n\n`gnome-terminal` - (optional) to access prefix directory in shell\n\n## Install Requirements for Linux OS\n\n### Flatpak Supported Distros\n\nGet [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine/releases) which includes all dependencies. Useful for distros who do not package wine.\n",
     "ContentSha": "Okte9xYARw7ZonKm/5iZxGZ1ZU00mqTCQsqSyj9jXtg=",
     "SectionType": "",
@@ -727,126 +695,11 @@
     "EndLine": 0,
     "Translation": "\n## Requirements\n\n`wine` - main program\n\n`winetricks` - must have wine addon script\n\n`perl‑image‑exiftool` - to extract application/game name\n\n`icoutils` - to extract icon from exe file\n\n`gnome-terminal` - (optional) to access prefix directory in shell\n\n## Install Requirements for Linux OS\n\n### Flatpak Supported Distros\n\nGet [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine/releases) which includes all dependencies. Useful for distros who do not package wine.\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
-        "originContent": "## Requirements",
-        "translatedContent": "## Requirements"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "M3DMj6RZYl2EBdVJmgOGdzx0nTt1S+EaQd7Rvw5RD2Q=",
-        "originContent": "`wine` - main program",
-        "translatedContent": "`wine` - main program"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "YzGnDM5f9Xcp72UKSGly3D+6fs2rFJG23v+ZPhsUdK4=",
-        "originContent": "`winetricks` - must have wine addon script",
-        "translatedContent": "`winetricks` - must have wine addon script"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "tujvHLcA6qqBnh4G5BWRccL9l9TR1f2QaktV0LKfR80=",
-        "originContent": "`perl‑image‑exiftool` - to extract application/game name",
-        "translatedContent": "`perl‑image‑exiftool` - to extract application/game name"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "Hs+JM0LUf418rXC0IrpgmpCAzIJTghNN6KMaekLaRtc=",
-        "originContent": "`icoutils` - to extract icon from exe file",
-        "translatedContent": "`icoutils` - to extract icon from exe file"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "yACuCHex1UAPt3QBIIh/ExqjVaXFatYCo5zX3nYRMhc=",
-        "originContent": "`gnome-terminal` - (optional) to access prefix directory in shell",
-        "translatedContent": "`gnome-terminal` - (optional) to access prefix directory in shell"
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "uWz/vndUVpEY3UxxCS3H7avl8fWU2DQsrSwBUUjDWY8=",
-        "originContent": "## Install Requirements for Linux OS",
-        "translatedContent": "## Install Requirements for Linux OS"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "8gQa32QJX0nixS+08k2uFv/l/XRdOpiPlTwufzykd0c=",
-        "originContent": "### Flatpak Supported Distros",
-        "translatedContent": "### Flatpak Supported Distros"
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "8k6atPBmxXdcRvkcHonPtdpWvIfk5ImYkeMNDDZ3LBA=",
-        "originContent": "Get [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine/releases) which includes all dependencies. Useful for distros who do not package wine.",
-        "translatedContent": "Get [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine/releases) which includes all dependencies. Useful for distros who do not package wine."
-      },
-      {
-        "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 13,
+    "Id": 14,
     "Content": "```\nflatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo\nflatpak --user -y install flathub org.winehq.Wine/x86_64/stable-24.08\n```",
     "ContentSha": "Y9pBSEVJTTpHqIMru3dKaNGEZNNwGAotZaew1noC77E=",
     "SectionType": "",
@@ -854,36 +707,11 @@
     "EndLine": 0,
     "Translation": "```\nflatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo\nflatpak --user -y install flathub org.winehq.Wine/x86_64/stable-24.08\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "TBeaRQAIibBaYoZeXaijAIPrGQmvBUkkprKOaTOTfD4=",
-        "originContent": "flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo",
-        "translatedContent": "flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo"
-      },
-      {
-        "row": 3,
-        "rowsha": "3W82rvC2z2A7VYj3o7LRsLogl0uwcD5opEpVuYcGSvg=",
-        "originContent": "flatpak --user -y install flathub org.winehq.Wine/x86_64/stable-24.08",
-        "translatedContent": "flatpak --user -y install flathub org.winehq.Wine/x86_64/stable-24.08"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 14,
+    "Id": 15,
     "Content": "\n## Runtime Dependencies:\n\n### Fedora 36\n\n`sudo dnf install zenity wine winetricks perl-Image-ExifTool icoutils gnome-terminal wget zstd samba-winbind-clients.x86_64 samba-winbind-clients.i686`\n\n### Debian / Ubuntu / Linux Mint\n",
     "ContentSha": "3pIGQiMtIWEX0NwHmxFU6pJOq9bhySHGNW/xrWAZApc=",
     "SectionType": "",
@@ -891,66 +719,11 @@
     "EndLine": 0,
     "Translation": "\n## Runtime Dependencies:\n\n### Fedora 36\n\n`sudo dnf install zenity wine winetricks perl-Image-ExifTool icoutils gnome-terminal wget zstd samba-winbind-clients.x86_64 samba-winbind-clients.i686`\n\n### Debian / Ubuntu / Linux Mint\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "Q7Nf+E690p7M05V/ZiY8+eRoqFM1dt7ibiBwnaUb59E=",
-        "originContent": "## Runtime Dependencies:",
-        "translatedContent": "## Runtime Dependencies:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "J2CbNEwWo7xFmQ1rOAbPeT+u2pxy7VDS2FjC7ZTgQpQ=",
-        "originContent": "### Fedora 36",
-        "translatedContent": "### Fedora 36"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "OLNMpb+aOpXiyMAkWjvtzsqRMcXlFqt5E6D6Vc2unh4=",
-        "originContent": "`sudo dnf install zenity wine winetricks perl-Image-ExifTool icoutils gnome-terminal wget zstd samba-winbind-clients.x86_64 samba-winbind-clients.i686`",
-        "translatedContent": "`sudo dnf install zenity wine winetricks perl-Image-ExifTool icoutils gnome-terminal wget zstd samba-winbind-clients.x86_64 samba-winbind-clients.i686`"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "Gwwq9+54tyCfUhcSmbt24936WWfW6gjwUSv4OWPJMfE=",
-        "originContent": "### Debian / Ubuntu / Linux Mint",
-        "translatedContent": "### Debian / Ubuntu / Linux Mint"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 15,
+    "Id": 16,
     "Content": "```\nsudo dpkg --add-architecture i386 && sudo apt update\nsudo apt install zenity wine wine32 wine64 winetricks libimage-exiftool-perl icoutils gnome-terminal wget zstd winbind\n```",
     "ContentSha": "aCp4X9RDXFvQroX4XuVVG4R0cju2QklTKQO+EjFK7qo=",
     "SectionType": "",
@@ -958,36 +731,11 @@
     "EndLine": 0,
     "Translation": "```\nsudo dpkg --add-architecture i386 && sudo apt update\nsudo apt install zenity wine wine32 wine64 winetricks libimage-exiftool-perl icoutils gnome-terminal wget zstd winbind\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "/Aa+8qut4F8DSvEGX1eVz6vMzSzbeUFc9MuKZYanXwo=",
-        "originContent": "sudo dpkg --add-architecture i386 && sudo apt update",
-        "translatedContent": "sudo dpkg --add-architecture i386 && sudo apt update"
-      },
-      {
-        "row": 3,
-        "rowsha": "3NtAvip6zdUtgaRmAM+4K5AcgtklWL9bNKlu59zp/rE=",
-        "originContent": "sudo apt install zenity wine wine32 wine64 winetricks libimage-exiftool-perl icoutils gnome-terminal wget zstd winbind",
-        "translatedContent": "sudo apt install zenity wine wine32 wine64 winetricks libimage-exiftool-perl icoutils gnome-terminal wget zstd winbind"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 16,
+    "Id": 17,
     "Content": "\n### Solus\n",
     "ContentSha": "KShrjGFeA5DraGOmjRKbgLY5//41vKPpH+xsUZmqDI8=",
     "SectionType": "",
@@ -995,30 +743,11 @@
     "EndLine": 0,
     "Translation": "\n### Solus\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "3W4pYVx0Qo4mnIIVrHnYbYJidEv/R3zQLKCfh5iJ1NY=",
-        "originContent": "### Solus",
-        "translatedContent": "### Solus"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 17,
+    "Id": 18,
     "Content": "```\nsudo eopkg it zenity wine wine-32bit winetricks perl-image-exiftool icoutils gnome-terminal wget zstd diffutils samba-devel\n```",
     "ContentSha": "/KV9NHqmIjpy0Pxgj1wl47DA7lCeIG5KU5+lHE1OTFs=",
     "SectionType": "",
@@ -1026,30 +755,11 @@
     "EndLine": 0,
     "Translation": "```\nsudo eopkg it zenity wine wine-32bit winetricks perl-image-exiftool icoutils gnome-terminal wget zstd diffutils samba-devel\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "/KN9W7qwVL+vokc2keMnSmWhZuFfsov67b+w9WxOtAw=",
-        "originContent": "sudo eopkg it zenity wine wine-32bit winetricks perl-image-exiftool icoutils gnome-terminal wget zstd diffutils samba-devel",
-        "translatedContent": "sudo eopkg it zenity wine wine-32bit winetricks perl-image-exiftool icoutils gnome-terminal wget zstd diffutils samba-devel"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 18,
+    "Id": 19,
     "Content": "\n### Arch Linux / EndeavourOS\n",
     "ContentSha": "deksa0yp1M5umaFs4kqaoO9rIafG2WW6d7Xoaaaq4/k=",
     "SectionType": "",
@@ -1057,30 +767,11 @@
     "EndLine": 0,
     "Translation": "\n### Arch Linux / EndeavourOS\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "NhrXCHMRN24wuwOKpepwxyvdrh/jLwB9QDvSOheIaoM=",
-        "originContent": "### Arch Linux / EndeavourOS",
-        "translatedContent": "### Arch Linux / EndeavourOS"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 19,
+    "Id": 20,
     "Content": "```\nsudo pacman -Sy zenity wine winetricks perl-image-exiftool icoutils gnome-terminal wget \\\n                lib32-alsa-plugins lib32-libpulse lib32-openal zstd samba\n```",
     "ContentSha": "mDnDqzv7F/yZz/rm7BMkMYE7e0+C2JnS7HM2sjZ3iu8=",
     "SectionType": "",
@@ -1088,36 +779,11 @@
     "EndLine": 0,
     "Translation": "```\nsudo pacman -Sy zenity wine winetricks perl-image-exiftool icoutils gnome-terminal wget \\\n                lib32-alsa-plugins lib32-libpulse lib32-openal zstd samba\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "Lh6mjbN6NxKviZb/UrbKlviBLAnFD1yai4LWG88ebEo=",
-        "originContent": "sudo pacman -Sy zenity wine winetricks perl-image-exiftool icoutils gnome-terminal wget \\",
-        "translatedContent": "sudo pacman -Sy zenity wine winetricks perl-image-exiftool icoutils gnome-terminal wget \\"
-      },
-      {
-        "row": 3,
-        "rowsha": "Ojhaj0egj77hjiTJIS1Xed7/b1Y48HEVW3QRbhml2XE=",
-        "originContent": "                lib32-alsa-plugins lib32-libpulse lib32-openal zstd samba",
-        "translatedContent": "                lib32-alsa-plugins lib32-libpulse lib32-openal zstd samba"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 20,
+    "Id": 21,
     "Content": "\n#### XBOX compatible controllers\n\nbuild and install kernel drivers for xbox 360 compatible controllers from https://github.com/paroj/xpad\n",
     "ContentSha": "TqGJPmqVmgAxQLPlV3uF1jOEJc/GbLineusA005rRhw=",
     "SectionType": "",
@@ -1125,38 +791,7 @@
     "EndLine": 0,
     "Translation": "\n#### XBOX compatible controllers\n\nbuild and install kernel drivers for xbox 360 compatible controllers from https://github.com/paroj/xpad\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "sSXFQqpJBgcddIv9ogwU+X7PIw8x+ayZOWGTW6q4OM0=",
-        "originContent": "#### XBOX compatible controllers",
-        "translatedContent": "#### XBOX compatible controllers"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "vwWRkIIDP9CALDWPcEjvdUl/n9cK5gwY1qwMNlBEyDE=",
-        "originContent": "build and install kernel drivers for xbox 360 compatible controllers from https://github.com/paroj/xpad",
-        "translatedContent": "build and install kernel drivers for xbox 360 compatible controllers from https://github.com/paroj/xpad"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

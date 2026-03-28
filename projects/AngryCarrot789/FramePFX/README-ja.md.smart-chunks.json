@@ -1,0 +1,1028 @@
+[
+  {
+    "Id": 1,
+    "Content": "# FramePFX\n\nFramePFX is an open source, non-linear video editor, written in C# using Avalonia for the UI.\n\n## Remake\nI am currently working on a complete remake (in the remake branch). The main differences being a new audio engine, audio driven playback rather than by video, and TimeSpan based positioning rather than by frame.\n\n# Docs\n\nHere are some links to the documentation files, if you want to learn more about the frontend and backend\n\n[Plugin system + FramePFX API](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Plugins.md)\n\n[Automation/Animation System](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Automation.md)\n\n[Command system, Context Menu System, Shortcuts](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Command%20System%20and%20Shortcuts.md)\n\n[Rendering System](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Rendering.md)\n\n[Shortcut System Overview](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Shortcuts.md)\n\n[UI Overview](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/TheUI.md)\n\n# Previews\n\nThis is the latest version using Avalonia:\n![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-06_17.33.20.png)\n\nHere is a preview of the export process. Export button is in File>Export, you specify a path and then click Export.\nTo cancel the render you just click Cancel on the dialog behind the export progress window\n\nThe grey panel below \"Exporter: FFmpeg\" is encoder-specific details\n![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-07_00.13.06.png)\n\n## Customisable GUI!\nThemes can be customised to your linking. They can be saved to disk and modified in-app. The built-in \nthemes (Dark and Light) should not be modified because changes aren't saved. You should create a copy and modify that copy instead\n![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-29_08.30.49.png)\n\n# Building",
+    "ContentSha": "7zUGU/4w0OBQ+WSG4pDDJ4tLWsNXUIj2Aj3I38AMOmo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# FramePFX\n\nFramePFXは、UIにAvaloniaを使用してC#で書かれたオープンソースの非線形ビデオエディタです。\n\n## リメイク\n現在、完全なリメイク（remakeブランチ）に取り組んでいます。主な違いは、新しいオーディオエンジン、動画ではなくオーディオ駆動の再生、フレーム単位ではなくTimeSpanベースの位置指定です。\n\n# ドキュメント\n\nフロントエンドとバックエンドについてもっと知りたい場合は、以下のドキュメントファイルのリンクをご覧ください。\n\n[プラグインシステム + FramePFX API](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Plugins.md)\n\n[オートメーション/アニメーションシステム](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Automation.md)\n\n[コマンドシステム、コンテキストメニューシステム、ショートカット](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Command%20System%20and%20Shortcuts.md)\n\n[レンダリングシステム](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Rendering.md)\n\n[ショートカットシステム概要](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Shortcuts.md)\n\n[UI概要](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/TheUI.md)\n\n# プレビュー\n\nこれはAvaloniaを使用した最新バージョンです:\n![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-06_17.33.20.png)\n\nこちらはエクスポートプロセスのプレビューです。エクスポートボタンはファイル>エクスポートにあり、パスを指定してからエクスポートをクリックします。\nレンダリングをキャンセルするには、エクスポート進行ウィンドウの背後にあるダイアログでキャンセルをクリックします。\n\n「Exporter: FFmpeg」の下のグレーパネルはエンコーダー固有の詳細です\n![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-07_00.13.06.png)\n\n## カスタマイズ可能なGUI！\nテーマはお好みに合わせてカスタマイズできます。テーマはディスクに保存でき、アプリ内で編集可能です。組み込みの\nテーマ（ダークとライト）は変更が保存されないため、変更しないでください。代わりにコピーを作成してそのコピーを修正してください。\n![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-29_08.30.49.png)\n\n# ビルド",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0JYk6KDkKVkbC9JhKCUT2B6lFxVYvk/lFb7k2BBrzXU=",
+        "originContent": "# FramePFX",
+        "translatedContent": "# FramePFX"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "BljyUBRrPlbXojSNRJ9gsj1mPnF82l4toYChuHeAN6k=",
+        "originContent": "FramePFX is an open source, non-linear video editor, written in C# using Avalonia for the UI.",
+        "translatedContent": "FramePFXは、UIにAvaloniaを使用してC#で書かれたオープンソースの非線形ビデオエディタです。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "+YPJgVrf+B3EgTlMEvLD35xfjvcXVZCIJ+bIqlHThJc=",
+        "originContent": "## Remake",
+        "translatedContent": "## リメイク"
+      },
+      {
+        "row": 6,
+        "rowsha": "6S++y4mFjLHQkkToqnxTteiEp8q7xUtbQrYJLmYyShE=",
+        "originContent": "I am currently working on a complete remake (in the remake branch). The main differences being a new audio engine, audio driven playback rather than by video, and TimeSpan based positioning rather than by frame.",
+        "translatedContent": "現在、完全なリメイク（remakeブランチ）に取り組んでいます。主な違いは、新しいオーディオエンジン、動画ではなくオーディオ駆動の再生、フレーム単位ではなくTimeSpanベースの位置指定です。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "DOplN1TfhboLxQJE3MrCVv1ENhEU5qmOD+TZMhXjSgY=",
+        "originContent": "# Docs",
+        "translatedContent": "# ドキュメント"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "bzCWbxb8EfSbjK0gJkjWVYK7J8XrLkLHoEsy7V2l6sI=",
+        "originContent": "Here are some links to the documentation files, if you want to learn more about the frontend and backend",
+        "translatedContent": "フロントエンドとバックエンドについてもっと知りたい場合は、以下のドキュメントファイルのリンクをご覧ください。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "lZ3+2yIwbxgodJ/2visuGwWimMMg3PwS8h/uejUrLq8=",
+        "originContent": "[Plugin system + FramePFX API](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Plugins.md)",
+        "translatedContent": "[プラグインシステム + FramePFX API](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Plugins.md)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "UXG7Wbn8VXxIm6Bj2AIv1+a+cJdqIG2LC3gFgvK5pV4=",
+        "originContent": "[Automation/Animation System](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Automation.md)",
+        "translatedContent": "[オートメーション/アニメーションシステム](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Automation.md)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "ThB7XDDix5xjgAosWkXbhDiW1OE8NsDNK1NXYBMv9Io=",
+        "originContent": "[Command system, Context Menu System, Shortcuts](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Command%20System%20and%20Shortcuts.md)",
+        "translatedContent": "[コマンドシステム、コンテキストメニューシステム、ショートカット](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Command%20System%20and%20Shortcuts.md)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "8J2VC6mINzVVYgGYlRiIVlO0e/px84pqJc+qDdFUKJY=",
+        "originContent": "[Rendering System](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Rendering.md)",
+        "translatedContent": "[レンダリングシステム](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Rendering.md)"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "K6K+bzCEtuZGRIdsHj4s2TuvqD6GudaCeVBWBS3UnAw=",
+        "originContent": "[Shortcut System Overview](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Shortcuts.md)",
+        "translatedContent": "[ショートカットシステム概要](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Shortcuts.md)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "j71pQPDmCCW2kfkioHEnf1q0mhzF/H/W4XZNwooCuiI=",
+        "originContent": "[UI Overview](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/TheUI.md)",
+        "translatedContent": "[UI概要](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/TheUI.md)"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "VcApYP5zMa0+WThpWZ3bP2YCJ9Aje3+lxtVFTNnAEpE=",
+        "originContent": "# Previews",
+        "translatedContent": "# プレビュー"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "AFEoQ3F7ihEoe4lITm9zBnI89TGc/GQUMr1TR9IJvdA=",
+        "originContent": "This is the latest version using Avalonia:",
+        "translatedContent": "これはAvaloniaを使用した最新バージョンです:"
+      },
+      {
+        "row": 27,
+        "rowsha": "Wt0gsao57dbWX2fYXeDg5TGJcRTw5g7Z4Pw4UE2VaOA=",
+        "originContent": "![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-06_17.33.20.png)",
+        "translatedContent": "![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-06_17.33.20.png)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "GaQansLWl/DRfN4RBIVn1HbFz0CXOy63ofi3cKCPUM0=",
+        "originContent": "Here is a preview of the export process. Export button is in File>Export, you specify a path and then click Export.",
+        "translatedContent": "こちらはエクスポートプロセスのプレビューです。エクスポートボタンはファイル>エクスポートにあり、パスを指定してからエクスポートをクリックします。"
+      },
+      {
+        "row": 30,
+        "rowsha": "N2i2TVn4MFp4TR2b9m7raNbMXY/Db7doAjBIuXQ5WDI=",
+        "originContent": "To cancel the render you just click Cancel on the dialog behind the export progress window",
+        "translatedContent": "レンダリングをキャンセルするには、エクスポート進行ウィンドウの背後にあるダイアログでキャンセルをクリックします。"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "EkwOAU37ztR8lg/zeQBQ9BxmZbWMAlW6e3niNhllTh0=",
+        "originContent": "The grey panel below \"Exporter: FFmpeg\" is encoder-specific details",
+        "translatedContent": "「Exporter: FFmpeg」の下のグレーパネルはエンコーダー固有の詳細です"
+      },
+      {
+        "row": 33,
+        "rowsha": "3rZVsFync8CBy2xJnU2wo9ojEBlOK888dPRVb3uS0dw=",
+        "originContent": "![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-07_00.13.06.png)",
+        "translatedContent": "![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-07_00.13.06.png)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "4EtCTE9TEn9jXn0Eg4Po6+0sR+/yFN7aY+wu6m1+RY0=",
+        "originContent": "## Customisable GUI!",
+        "translatedContent": "## カスタマイズ可能なGUI！"
+      },
+      {
+        "row": 36,
+        "rowsha": "plwry006LHLkIQcGJOfYnGtxDqRMErTBT3jfr80KPcc=",
+        "originContent": "Themes can be customised to your linking. They can be saved to disk and modified in-app. The built-in ",
+        "translatedContent": "テーマはお好みに合わせてカスタマイズできます。テーマはディスクに保存でき、アプリ内で編集可能です。組み込みの"
+      },
+      {
+        "row": 37,
+        "rowsha": "toR25QFOF5l9V8TYiWMsi9pRLStRg5R0ea/bXgf9Apo=",
+        "originContent": "themes (Dark and Light) should not be modified because changes aren't saved. You should create a copy and modify that copy instead",
+        "translatedContent": "テーマ（ダークとライト）は変更が保存されないため、変更しないでください。代わりにコピーを作成してそのコピーを修正してください。"
+      },
+      {
+        "row": 38,
+        "rowsha": "765iS4s7s/9bRmxknlVHd0Q3PcFCHU1LKlWxsm4nyfQ=",
+        "originContent": "![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-29_08.30.49.png)",
+        "translatedContent": "![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-29_08.30.49.png)"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "4jMB2dnHp7eV36PlOVdpxYRbZ0vhKKOMhNSNCgr4x0c=",
+        "originContent": "# Building",
+        "translatedContent": "# ビルド"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "FramePFX assumes everything is 64 bit --- x86/32-bit/AnyCPU won't work properly!\n\nThe native projects are automatically downloaded and compiled when you first build the C# projects, \nhowever, if you want media clips and exporting to work, FFmpeg needs to be downloaded separately. \nHere is the specific version that works currently (windows only):\nhttps://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2024-09-30-15-36/ffmpeg-N-117275-g04182b5549-win64-gpl-shared.zip\n\n## Downloading\nClone the project recursively:\n\n`git clone --recursive https://github.com/AngryCarrot789/FramePFX`\n\nIf you want to install FFmpeg to use video media clips and FFmpeg export:\n- Create ffmpeg folder in solution: `cd FramePFX && mkdir ffmpeg`\n- From the downloaded ffmpeg archive, copy the 4 dirs and the LICENCE.txt into that new ffmpeg folder\n\n>There should be 8 DLL files in `\\FramePFX\\ffmpeg\\bin`, and one of them should be avcodec-61.dll. If it's not 61 you have the wrong version of FFmpeg.\nYou can delete the EXE files if you want, since they aren't used\n\n## Build project\n- Open FramePFX.sln. You will get an error about the `portaudio` project not being loaded; Ignore it, and build the solution by going to the `Build` menu and clicking `Build Solution` \n\nHopefully then you should be able to run and modify FramePFX projects without issue. This project uses Avalonia 11.2.2 and .NET 8 (C# 12). \n\n>Don't modify the portaudio project because it's automatically generated by cmake, so your changes may be overwritten.\n\n### Windows only commands\n\nThe projects in the solution use windows commands like mkdir and xcopy, which may not work on other platforms.\nFeel free to create a pull request on a more cross-platform solution!\n\n### Possible build problems\nSometimes, the SkiaSharp nuget library doesn't copy the skia library files to the bin folder when you clone this repo and built. There are 2 fixes I found:\n- Copy `\\packages\\SkiaSharp.2.88.7\\runtimes\\win-x64\\native\\libSkiaSharp.dll` into the editor's bin folder.\n- Or, delete the `packages` folder in the solution dir, then right-click the solution in visual studio and click \"Clean Solution\", then click Restore Nuget Packages, then rebuild all.\n  If none of these work, try uninstalling SkiaSharp in the nuget manager and then reinstalling. If that still does not work, then I really don't know what's going on...\n\n# Plugins!\nFramePFX now supports plugins! The plugin API is very work in progress, but it can load plugins. \nPlugins currently must be compiled using the same dependency versions that FramePFX uses, since we don't use AssemblyLoadContext",
+    "ContentSha": "KDattXZwWVSICZJtEAvrTfEso5VmgEVGdKcAqY8N0rI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "FramePFXはすべて64ビットを前提としています --- x86/32ビット/AnyCPUは正しく動作しません！\n\nネイティブプロジェクトは最初にC#プロジェクトをビルドすると自動的にダウンロードされコンパイルされますが、  \nメディアクリップやエクスポートを使用するには、FFmpegを別途ダウンロードする必要があります。  \n現在動作する特定のバージョンはこちらです（Windowsのみ）：  \nhttps://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2024-09-30-15-36/ffmpeg-N-117275-g04182b5549-win64-gpl-shared.zip\n\n## ダウンロード\nプロジェクトを再帰的にクローンします：\n\n`git clone --recursive https://github.com/AngryCarrot789/FramePFX`\n\nFFmpegをインストールしてビデオメディアクリップやFFmpegエクスポートを使用する場合：  \n- ソリューション内にffmpegフォルダを作成：`cd FramePFX && mkdir ffmpeg`  \n- ダウンロードしたffmpegアーカイブから4つのディレクトリとLICENCE.txtを新しいffmpegフォルダにコピーします\n\n>`\\FramePFX\\ffmpeg\\bin`には8つのDLLファイルがあるはずで、そのうちの1つはavcodec-61.dllでなければなりません。61でない場合は間違ったバージョンのFFmpegを使っています。  \n使用されないため、EXEファイルは削除しても構いません。\n\n## プロジェクトのビルド\n- FramePFX.slnを開きます。`portaudio`プロジェクトが読み込まれないエラーが出ますが無視して、`ビルド`メニューから`ソリューションのビルド`を実行してください。\n\nこれで問題なくFramePFXプロジェクトの実行・修正ができるはずです。このプロジェクトはAvalonia 11.2.2と.NET 8（C# 12）を使用しています。\n\n>`portaudio`プロジェクトはcmakeによって自動生成されるため変更しないでください。変更は上書きされる可能性があります。\n\n### Windows限定コマンド\n\nソリューション内のプロジェクトはmkdirやxcopyなどのWindowsコマンドを使用しており、他のプラットフォームでは動作しない可能性があります。  \nよりクロスプラットフォームな解決策を作成した場合はプルリクエストを歓迎します！\n\n### ビルドの問題例\nSkiaSharpのnugetライブラリがクローン後のビルド時にskiaライブラリファイルをbinフォルダにコピーしないことがあります。以下の2つの修正方法があります：  \n- `\\packages\\SkiaSharp.2.88.7\\runtimes\\win-x64\\native\\libSkiaSharp.dll`をエディターのbinフォルダにコピーする。  \n- または、ソリューションディレクトリの`packages`フォルダを削除し、Visual Studioでソリューションを右クリックして「ソリューションのクリーン」を実行後、Nugetパッケージの復元をしてから再ビルドする。  \n  これでも解決しない場合は、NugetマネージャーでSkiaSharpをアンインストールして再インストールを試してください。それでも直らない場合は原因がわかりません…\n\n# プラグイン！\nFramePFXはプラグインをサポートします！プラグインAPIはまだ開発途中ですが、プラグインの読み込みは可能です。  \n現在プラグインはFramePFXと同じ依存関係のバージョンでコンパイルする必要があります。AssemblyLoadContextを使用していないためです。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "AMKFRv5OwmL7kGBZzzyFAgStPo1aFLGs9RYd6U5H6kU=",
+        "originContent": "FramePFX assumes everything is 64 bit --- x86/32-bit/AnyCPU won't work properly!",
+        "translatedContent": "FramePFXはすべて64ビットを前提としています --- x86/32ビット/AnyCPUは正しく動作しません！"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "bJPnbaKP+4ha5KkNPBy/wEccZHxuS9LwiLfkvazRMLU=",
+        "originContent": "The native projects are automatically downloaded and compiled when you first build the C# projects, ",
+        "translatedContent": "ネイティブプロジェクトは最初にC#プロジェクトをビルドすると自動的にダウンロードされコンパイルされますが、  "
+      },
+      {
+        "row": 4,
+        "rowsha": "3xYF+v481mCDEXAqYphsmWUAYvoX781aRMgZb4mqKLc=",
+        "originContent": "however, if you want media clips and exporting to work, FFmpeg needs to be downloaded separately. ",
+        "translatedContent": "メディアクリップやエクスポートを使用するには、FFmpegを別途ダウンロードする必要があります。  "
+      },
+      {
+        "row": 5,
+        "rowsha": "cMf1/92te9Jj5dWGiTZgQeYBydc1n8lAlHfEvOYMzX0=",
+        "originContent": "Here is the specific version that works currently (windows only):",
+        "translatedContent": "現在動作する特定のバージョンはこちらです（Windowsのみ）：  "
+      },
+      {
+        "row": 6,
+        "rowsha": "hT9rx9pCcqrYelLVoLOXWHw4LPvRMGcbJpPesJN9XwQ=",
+        "originContent": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2024-09-30-15-36/ffmpeg-N-117275-g04182b5549-win64-gpl-shared.zip",
+        "translatedContent": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2024-09-30-15-36/ffmpeg-N-117275-g04182b5549-win64-gpl-shared.zip"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "kBgfINwcG1oKerSGqVM9Q/cdcL2kJy/mTkIaizJyW0g=",
+        "originContent": "## Downloading",
+        "translatedContent": "## ダウンロード"
+      },
+      {
+        "row": 9,
+        "rowsha": "nTdMsdgZBigfxu6xr74G/Lu+ZoBZtHsB+ugBxEMiaHc=",
+        "originContent": "Clone the project recursively:",
+        "translatedContent": "プロジェクトを再帰的にクローンします："
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "6rYcjwksAFGVw7NA1ggcKJ4Lj5gvy7RRJXWwjgpEwl8=",
+        "originContent": "`git clone --recursive https://github.com/AngryCarrot789/FramePFX`",
+        "translatedContent": "`git clone --recursive https://github.com/AngryCarrot789/FramePFX`"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "s6yvX4TTr63RrXBBN5IhmpEj907vQCmq749sNOWJdAI=",
+        "originContent": "If you want to install FFmpeg to use video media clips and FFmpeg export:",
+        "translatedContent": "FFmpegをインストールしてビデオメディアクリップやFFmpegエクスポートを使用する場合：  "
+      },
+      {
+        "row": 14,
+        "rowsha": "eGy+Ecvj/2UjPJgSc4mwRUrcR/Qujorp6d2BXo6HlGo=",
+        "originContent": "- Create ffmpeg folder in solution: `cd FramePFX && mkdir ffmpeg`",
+        "translatedContent": "- ソリューション内にffmpegフォルダを作成：`cd FramePFX && mkdir ffmpeg`  "
+      },
+      {
+        "row": 15,
+        "rowsha": "vz7F/vKpSMxSoRYzx9Q5kZHKWhFP8jL5Xa1BII96x9o=",
+        "originContent": "- From the downloaded ffmpeg archive, copy the 4 dirs and the LICENCE.txt into that new ffmpeg folder",
+        "translatedContent": "- ダウンロードしたffmpegアーカイブから4つのディレクトリとLICENCE.txtを新しいffmpegフォルダにコピーします"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "1wHO1Z71tQGAht3ewF7GBm8c7GclE+biddJCCAIndLc=",
+        "originContent": ">There should be 8 DLL files in `\\FramePFX\\ffmpeg\\bin`, and one of them should be avcodec-61.dll. If it's not 61 you have the wrong version of FFmpeg.",
+        "translatedContent": ">`\\FramePFX\\ffmpeg\\bin`には8つのDLLファイルがあるはずで、そのうちの1つはavcodec-61.dllでなければなりません。61でない場合は間違ったバージョンのFFmpegを使っています。  "
+      },
+      {
+        "row": 18,
+        "rowsha": "6Rhtd0FmO2bhyf34vDCGkHB95J56zqsyA6gepiwpy2Y=",
+        "originContent": "You can delete the EXE files if you want, since they aren't used",
+        "translatedContent": "使用されないため、EXEファイルは削除しても構いません。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "USxmSOm0RGeQqvSs2tzquZ9h5bmmuy0dxUeXr1skdu8=",
+        "originContent": "## Build project",
+        "translatedContent": "## プロジェクトのビルド"
+      },
+      {
+        "row": 21,
+        "rowsha": "V52L1QdBhu2pZTH5eM6zp0jlQOwNRkMgWss08nutXxE=",
+        "originContent": "- Open FramePFX.sln. You will get an error about the `portaudio` project not being loaded; Ignore it, and build the solution by going to the `Build` menu and clicking `Build Solution` ",
+        "translatedContent": "- FramePFX.slnを開きます。`portaudio`プロジェクトが読み込まれないエラーが出ますが無視して、`ビルド`メニューから`ソリューションのビルド`を実行してください。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "e+RgXo0sBeh2QvE3z+EfPWCkONBhLgFVV8cpoeTZdGo=",
+        "originContent": "Hopefully then you should be able to run and modify FramePFX projects without issue. This project uses Avalonia 11.2.2 and .NET 8 (C# 12). ",
+        "translatedContent": "これで問題なくFramePFXプロジェクトの実行・修正ができるはずです。このプロジェクトはAvalonia 11.2.2と.NET 8（C# 12）を使用しています。"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "lYi136aRZKs7FaKKDLp1cAv1pANU6+NNtP84hD+jdr8=",
+        "originContent": ">Don't modify the portaudio project because it's automatically generated by cmake, so your changes may be overwritten.",
+        "translatedContent": ">`portaudio`プロジェクトはcmakeによって自動生成されるため変更しないでください。変更は上書きされる可能性があります。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "bpDnqBpRXksnDROlBpKpPPLsJGlaTAImqFeQL5xyEqU=",
+        "originContent": "### Windows only commands",
+        "translatedContent": "### Windows限定コマンド"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "nDwPHmhb1iGSO74CyDADBJzPGjSNU6UZnwS0EQBvcZo=",
+        "originContent": "The projects in the solution use windows commands like mkdir and xcopy, which may not work on other platforms.",
+        "translatedContent": "ソリューション内のプロジェクトはmkdirやxcopyなどのWindowsコマンドを使用しており、他のプラットフォームでは動作しない可能性があります。  "
+      },
+      {
+        "row": 30,
+        "rowsha": "6rGWgH5YW81UrPnxqY/7rvxKfKirX9hnkHXa2H3IvfU=",
+        "originContent": "Feel free to create a pull request on a more cross-platform solution!",
+        "translatedContent": "よりクロスプラットフォームな解決策を作成した場合はプルリクエストを歓迎します！"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "bFgWdX/Tb7ElrJMaeGIyeGbBEMcRjH5PbUm/uj/+OWs=",
+        "originContent": "### Possible build problems",
+        "translatedContent": "### ビルドの問題例"
+      },
+      {
+        "row": 33,
+        "rowsha": "0ysRLkHoAd8zsXwEIeCv58qAz9RTGjik3ypA25C5Mow=",
+        "originContent": "Sometimes, the SkiaSharp nuget library doesn't copy the skia library files to the bin folder when you clone this repo and built. There are 2 fixes I found:",
+        "translatedContent": "SkiaSharpのnugetライブラリがクローン後のビルド時にskiaライブラリファイルをbinフォルダにコピーしないことがあります。以下の2つの修正方法があります：  "
+      },
+      {
+        "row": 34,
+        "rowsha": "2n0KeyjquX1Gh00rjlml3H3O9oYvhZgamy7tK9+Xj9I=",
+        "originContent": "- Copy `\\packages\\SkiaSharp.2.88.7\\runtimes\\win-x64\\native\\libSkiaSharp.dll` into the editor's bin folder.",
+        "translatedContent": "- `\\packages\\SkiaSharp.2.88.7\\runtimes\\win-x64\\native\\libSkiaSharp.dll`をエディターのbinフォルダにコピーする。  "
+      },
+      {
+        "row": 35,
+        "rowsha": "3BG9PWp4GU/T4qfRVzGFJb2y9IlltJOor6FEkBuyvao=",
+        "originContent": "- Or, delete the `packages` folder in the solution dir, then right-click the solution in visual studio and click \"Clean Solution\", then click Restore Nuget Packages, then rebuild all.",
+        "translatedContent": "- または、ソリューションディレクトリの`packages`フォルダを削除し、Visual Studioでソリューションを右クリックして「ソリューションのクリーン」を実行後、Nugetパッケージの復元をしてから再ビルドする。  "
+      },
+      {
+        "row": 36,
+        "rowsha": "KEqKwTaIjaKXDZjKN3P4wTTrxSN2KGI/wTCq1ywK0wk=",
+        "originContent": "  If none of these work, try uninstalling SkiaSharp in the nuget manager and then reinstalling. If that still does not work, then I really don't know what's going on...",
+        "translatedContent": "  これでも解決しない場合は、NugetマネージャーでSkiaSharpをアンインストールして再インストールを試してください。それでも直らない場合は原因がわかりません…"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "FtbMjNksMMg+0HQuzr2gfRMrXS5Sdqk4p9BSAf8GMG4=",
+        "originContent": "# Plugins!",
+        "translatedContent": "# プラグイン！"
+      },
+      {
+        "row": 39,
+        "rowsha": "+JBfxb0QZmMFdmLo/OEVF66h4Wq3wf8tHpS744dw9l0=",
+        "originContent": "FramePFX now supports plugins! The plugin API is very work in progress, but it can load plugins. ",
+        "translatedContent": "FramePFXはプラグインをサポートします！プラグインAPIはまだ開発途中ですが、プラグインの読み込みは可能です。  "
+      },
+      {
+        "row": 40,
+        "rowsha": "s40a61JSCblAA1wc/UKYIq6aA0Fzk3EtCk6jFaHngrM=",
+        "originContent": "Plugins currently must be compiled using the same dependency versions that FramePFX uses, since we don't use AssemblyLoadContext",
+        "translatedContent": "現在プラグインはFramePFXと同じ依存関係のバージョンでコンパイルする必要があります。AssemblyLoadContextを使用していないためです。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\nYou can find more info here: [Plugin system + FramePFX API](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Plugins.md) \n\n### Examples\nThe `AnotherTestPlugin` plugin adds a test configuration page (found in `File > Open Editor Settings`), and also adds a useless test exporter to the export dialog.\n\nAdding the page is very simple, and is doable from the plugin's `OnApplicationLoaded` handler:\n",
+    "ContentSha": "3/HYzufvbyR2NSxJs8sDfm0jzrx/SUha1nWPrzEInOU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n詳細情報はこちらをご覧ください: [プラグインシステム + FramePFX API](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Plugins.md) \n\n### 例\n`AnotherTestPlugin` プラグインはテスト設定ページ（`ファイル > エディター設定を開く`にあります）を追加し、エクスポートダイアログに役に立たないテストエクスポーターも追加します。\n\nページの追加は非常に簡単で、プラグインの `OnApplicationLoaded` ハンドラーから実行可能です：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "/07tkhMz34PEjELNyUdnUw+KibSUX9tXT1RT+nPAjvk=",
+        "originContent": "You can find more info here: [Plugin system + FramePFX API](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Plugins.md) ",
+        "translatedContent": "詳細情報はこちらをご覧ください: [プラグインシステム + FramePFX API](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/docs/Plugins.md) "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "hnzbP5n92VqN57hTx4TGZdA7PXpVlf8mcU9W4gP7SoE=",
+        "originContent": "### Examples",
+        "translatedContent": "### 例"
+      },
+      {
+        "row": 5,
+        "rowsha": "J6MLgLC9wR4SLzw2AmUvoYYXXGUrLNioSYp4T0mwpag=",
+        "originContent": "The `AnotherTestPlugin` plugin adds a test configuration page (found in `File > Open Editor Settings`), and also adds a useless test exporter to the export dialog.",
+        "translatedContent": "`AnotherTestPlugin` プラグインはテスト設定ページ（`ファイル > エディター設定を開く`にあります）を追加し、エクスポートダイアログに役に立たないテストエクスポーターも追加します。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "O0hvdHp8WY7YKFGIK7hOEUSXEdxhh+XO+Iqvusafk7w=",
+        "originContent": "Adding the page is very simple, and is doable from the plugin's `OnApplicationLoaded` handler:",
+        "translatedContent": "ページの追加は非常に簡単で、プラグインの `OnApplicationLoaded` ハンドラーから実行可能です："
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```cs\npublic override async Task OnApplicationLoaded() {\n    ApplicationConfigurationManager.Instance.RootEntry.AddEntry(new ConfigurationEntry() {\n        DisplayName = \"Test Plugin Settings\", \n        Id = \"config.testplugineditorsettings\",\n        \n        // This page is just a PropertyEditor page. \n        // Completely custom xaml pages are a bit wonky at the moment, \n        // only user controls will work properly due to resource dictionaries\n        Page = new TestPluginConfigurationPage()\n    });\n}\n```",
+    "ContentSha": "pn+g+zAlRIkLt+E+XRhDNaOAkawP7KnrmVNEXxma6Dw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```cs\npublic override async Task OnApplicationLoaded() {\n    ApplicationConfigurationManager.Instance.RootEntry.AddEntry(new ConfigurationEntry() {\n        DisplayName = \"Test Plugin Settings\", \n        Id = \"config.testplugineditorsettings\",\n        \n        // This page is just a PropertyEditor page. \n        // Completely custom xaml pages are a bit wonky at the moment, \n        // only user controls will work properly due to resource dictionaries\n        Page = new TestPluginConfigurationPage()\n    });\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E9RdFJ8k1jGivEbtYxhSbfHbUz8zrSHMSotg9vX5yR0=",
+        "originContent": "```cs",
+        "translatedContent": "```cs"
+      },
+      {
+        "row": 2,
+        "rowsha": "eHBy4RXK0zKBqWI1GaAfmd8mHkjtg9KNNM0WXE5kt3s=",
+        "originContent": "public override async Task OnApplicationLoaded() {",
+        "translatedContent": "public override async Task OnApplicationLoaded() {"
+      },
+      {
+        "row": 3,
+        "rowsha": "g+FBd1PJdaoxdmMepAxVaOUoRbESOJYjMheltlNRKfQ=",
+        "originContent": "    ApplicationConfigurationManager.Instance.RootEntry.AddEntry(new ConfigurationEntry() {",
+        "translatedContent": "    ApplicationConfigurationManager.Instance.RootEntry.AddEntry(new ConfigurationEntry() {"
+      },
+      {
+        "row": 4,
+        "rowsha": "37gWdxz0NsZwP6+BEZowOEcoOawNaHfm4Lx3L5uDzSs=",
+        "originContent": "        DisplayName = \"Test Plugin Settings\", ",
+        "translatedContent": "        DisplayName = \"Test Plugin Settings\", "
+      },
+      {
+        "row": 5,
+        "rowsha": "wfP+7oTjkHUCiuUEht//8qRuzEVT76UvXB0OictqOPs=",
+        "originContent": "        Id = \"config.testplugineditorsettings\",",
+        "translatedContent": "        Id = \"config.testplugineditorsettings\","
+      },
+      {
+        "row": 6,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 7,
+        "rowsha": "kpfRuG9kfqfQeAvufQ32x5qT1g4whzi/u8J48Ck4Qto=",
+        "originContent": "        // This page is just a PropertyEditor page. ",
+        "translatedContent": "        // This page is just a PropertyEditor page. "
+      },
+      {
+        "row": 8,
+        "rowsha": "yOmES6C9N3jebGbKVuIL4KbAHksFkpKtLySocbq9F2M=",
+        "originContent": "        // Completely custom xaml pages are a bit wonky at the moment, ",
+        "translatedContent": "        // Completely custom xaml pages are a bit wonky at the moment, "
+      },
+      {
+        "row": 9,
+        "rowsha": "qY4op+lj1hv13ihO/Qp8S9F036TWt70gRknbKH4Ta6g=",
+        "originContent": "        // only user controls will work properly due to resource dictionaries",
+        "translatedContent": "        // only user controls will work properly due to resource dictionaries"
+      },
+      {
+        "row": 10,
+        "rowsha": "/RVfcreb7gr58m3OWLvjbtusqCc2nyIbpua+mrpTIc8=",
+        "originContent": "        Page = new TestPluginConfigurationPage()",
+        "translatedContent": "        Page = new TestPluginConfigurationPage()"
+      },
+      {
+        "row": 11,
+        "rowsha": "J1qSMWPEACGxjVVVepYn/QGoe0S8Ili1BNZcMfXgap0=",
+        "originContent": "    });",
+        "translatedContent": "    });"
+      },
+      {
+        "row": 12,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nThis results in:\n![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-27_03.33.53.png)\n\n# TODO\n### Avalonia Remake:\n- Implement UI for Effects list that can be dropped into a clip/track\n### Rendering Engine\n- While we have access to port-audio, I think the entire rendering engine needs an overhaul. \n  Previously, rendering audio by extracting an exact number of bytes from a clip based on the\n  project frame rate. However, this results in a lot of crackling since the playback FPS isn't pinpoint accurate\n\n  Rendering video too needs to be redone, since the view port is typically quite small, but we are rendering full-sized video \n  frames of each clip and then just scaling down. This isn't so bad for, say, rectangles and basic primitive shapes. \n  However, rendering a 4K video frame from an MP4 file is a long and nasty task, then scaling down to 1080p (or whatever the MediaScale of the clip is) \n  and then finally down to the viewport (typically around the 500x300 size) in the end is just hugely wasteful, so we need either RenderFull and \n  RenderPreview methods, or, a new rendering system. The current technique of async-rendering doesn't seem so bad. \n### Automation Engine\n- Add support for smooth interpolation (e.g. a curve between 2 key frames). I tried doing this, but had a hard time figuring out the math to do the interpolation, and also doing the hit testing for the UI\n### Clips\n- AVMediaVideoClip is extremely slow for large resolution videos (e.g. 4K takes around 40ms to decode and render onscreen), \n  and only a few video codecs even seem to work. Lots of common file formats give an error like \"found invalid \n  data while decoding\". I don't know FFmpeg much but I hope to somehow fix this at some point\n- Implement fading between 2 clips\n### History system\n- There's no undo functionality yet. I might try and implement this once I implement a few of the other features like audio and maybe hardware accelerated final-frame assembly in the renderer\n### Bugs to fix\n- Importing certain video files can cause the render to fail (some sort of \"found invalid data while decoding\" error)\n### Multi-thread synchronisation\n- We need to create locks to make accessing and modifying the application state safer, especially now that the activity system works. \n \n  Maybe an application-wide lock for writing into the state of the models? This is similar to how IntelliJ IDEA works; a mostly-read, read-write lock. \n  Write locks are only acquirable on the main thread (we use the dispatcher to get on there), but any thread can take the read lock. Taking the \n  read lock requires blocking until no write operations are left, and taking the write-lock requires blocking until all readers are done (and \n  there's also an event fired when trying to acquire the write lock, to let readers cancel their operations to avoid freezing the UI)\n\n## Contributing\nContributions are welcomed with open arms! Just create a pull request, or an issue then PR, whichever you fancy. \nYou can find information on how to compile and run/debug the app if you scroll up a bit.\nThe TODO list is above, but you can also just search `// TODO:` in the code base",
+    "ContentSha": "rmHyQgRAKC1YfWDRLlbH3JA9ScrqxRiweEpARUDgaRc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "これにより以下の結果となります：\n![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-27_03.33.53.png)\n\n# TODO\n### Avaloniaリメイク：\n- クリップ/トラックにドロップできるエフェクトリストのUIを実装する\n### レンダリングエンジン\n- port-audioにはアクセスできるものの、レンダリングエンジン全体の見直しが必要だと思います。  \n  以前は、プロジェクトのフレームレートに基づいてクリップから正確なバイト数を抽出して音声をレンダリングしていました。  \n  しかし、これにより再生FPSが正確でないため、多くのノイズが発生してしまいます。\n\n  ビデオのレンダリングもやり直す必要があります。通常、ビューポートはかなり小さいですが、各クリップのフルサイズのビデオ  \n  フレームをレンダリングしてから縮小しているためです。矩形や基本的なプリミティブ形状ならそれほど悪くありません。  \n  しかし、MP4ファイルから4Kのビデオフレームをレンダリングし、それを1080p（またはクリップのMediaScale）に縮小し、  \n  最終的にビューポート（通常約500x300サイズ）まで縮小するのは非常に無駄が多いです。  \n  そのため、RenderFullとRenderPreviewのメソッド、または新しいレンダリングシステムが必要です。現在の非同期レンダリング技術は悪くなさそうです。\n### オートメーションエンジン\n- スムーズな補間（例：2つのキーフレーム間のカーブ）をサポートする機能を追加する。試みたものの、補間の数学的計算とUIのヒットテストが難しかったです。\n### クリップ\n- AVMediaVideoClipは高解像度のビデオ（例：4Kはデコードと画面描画に約40msかかる）で非常に遅く、  \n  動作するビデオコーデックも限られています。多くの一般的なファイル形式では「デコード中に無効なデータを検出した」というエラーが出ます。  \n  FFmpegについてはあまり詳しくありませんが、いつか何とかこれを修正したいと思っています。\n- 2つのクリップ間のフェードを実装する\n### 履歴システム\n- まだアンドゥ機能はありません。音声やハードウェアアクセラレーションを使った最終フレームの組み立てなど、他の機能を実装した後に挑戦するかもしれません。\n### 修正すべきバグ\n- 特定のビデオファイルのインポートでレンダリングが失敗することがある（「デコード中に無効なデータを検出した」エラーのようなもの）\n### マルチスレッド同期\n- アプリケーションの状態へのアクセスと変更をより安全にするためにロックを作成する必要があります。特にアクティビティシステムが動作している今は重要です。\n\n  モデルの状態に書き込みを行うためのアプリケーション全体のロックでしょうか？これはIntelliJ IDEAの仕組みに似ています。  \n  ほとんどが読み取り用の読み書きロックで、書き込みロックはメインスレッドのみで取得可能（ディスパッチャを使ってそこに乗ります）、  \n  しかし任意のスレッドが読み取りロックを取得できます。読み取りロックを取得するには書き込み操作が残っていないことを待ち、  \n  書き込みロックを取得するにはすべての読み取りが完了するまで待つ必要があります（また書き込みロック取得時にイベントが発生し、  \n  読み取り中の処理をキャンセルしてUIのフリーズを防ぐことができます）。\n\n## 貢献について\n貢献は大歓迎です！プルリクエストを作成するか、まずIssueを立ててからPRを作成してください。  \nアプリのコンパイルや実行・デバッグ方法は少し上にスクロールすると見つかります。  \nTODOリストは上記にありますが、コードベース内で`// TODO:`を検索しても見つけられます。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "これにより以下の結果となります："
+      },
+      {
+        "row": 2,
+        "rowsha": "PqB5HxySVcxT8Z4xZ41DAEi0L6gYKet9JpXUMdaj1Ec=",
+        "originContent": "This results in:",
+        "translatedContent": "![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-27_03.33.53.png)"
+      },
+      {
+        "row": 3,
+        "rowsha": "vj/VIWL3kmpDm7wwJi+oQ6EJc66ptABMFx3DGL4QTBs=",
+        "originContent": "![](https://raw.githubusercontent.com/AngryCarrot789/FramePFX/master/FramePFX-DesktopUI_2024-12-27_03.33.53.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# TODO"
+      },
+      {
+        "row": 5,
+        "rowsha": "chG3GNX2BBDTWIuSVfZUJ/YF/ZVBSoel2d/AN0OChS0=",
+        "originContent": "# TODO",
+        "translatedContent": "### Avaloniaリメイク："
+      },
+      {
+        "row": 6,
+        "rowsha": "BlzBmATayHqZ2fgQ9sk6+TmqcUm6d4Y8ZncqeMn4nj0=",
+        "originContent": "### Avalonia Remake:",
+        "translatedContent": "- クリップ/トラックにドロップできるエフェクトリストのUIを実装する"
+      },
+      {
+        "row": 7,
+        "rowsha": "9h8VPpB1dWxqte2TIdUw8ofaIbe9Sv7aNH2nTvHmNSM=",
+        "originContent": "- Implement UI for Effects list that can be dropped into a clip/track",
+        "translatedContent": "### レンダリングエンジン"
+      },
+      {
+        "row": 8,
+        "rowsha": "/BkRR/z1x7YX1cnJd1G+ctCVH7Yi8KqDKbsUz7TPk3Y=",
+        "originContent": "### Rendering Engine",
+        "translatedContent": "- port-audioにはアクセスできるものの、レンダリングエンジン全体の見直しが必要だと思います。  "
+      },
+      {
+        "row": 9,
+        "rowsha": "cyi0nueVC0Jd/jooP0tT2N+MFOUtdVr426kBBHsxAGo=",
+        "originContent": "- While we have access to port-audio, I think the entire rendering engine needs an overhaul. ",
+        "translatedContent": "  以前は、プロジェクトのフレームレートに基づいてクリップから正確なバイト数を抽出して音声をレンダリングしていました。  "
+      },
+      {
+        "row": 10,
+        "rowsha": "TWxAUBIg5fDqvhVKuttTGJK5xP0+b0blN8DpQTeuhO0=",
+        "originContent": "  Previously, rendering audio by extracting an exact number of bytes from a clip based on the",
+        "translatedContent": "  しかし、これにより再生FPSが正確でないため、多くのノイズが発生してしまいます。"
+      },
+      {
+        "row": 11,
+        "rowsha": "ZvsZElTzYyM/E9+656j099Tc8TNfC2Hv1pdFpBzkVaM=",
+        "originContent": "  project frame rate. However, this results in a lot of crackling since the playback FPS isn't pinpoint accurate",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  ビデオのレンダリングもやり直す必要があります。通常、ビューポートはかなり小さいですが、各クリップのフルサイズのビデオ  "
+      },
+      {
+        "row": 13,
+        "rowsha": "ocMRfLZKUPB08IgfmwZrhyotUDUMDvx80QZ3L58vZp0=",
+        "originContent": "  Rendering video too needs to be redone, since the view port is typically quite small, but we are rendering full-sized video ",
+        "translatedContent": "  フレームをレンダリングしてから縮小しているためです。矩形や基本的なプリミティブ形状ならそれほど悪くありません。  "
+      },
+      {
+        "row": 14,
+        "rowsha": "TQxewgmSxnoMQZSLrNOr2LwnmuTd+cR0iQiWzDlfZcc=",
+        "originContent": "  frames of each clip and then just scaling down. This isn't so bad for, say, rectangles and basic primitive shapes. ",
+        "translatedContent": "  しかし、MP4ファイルから4Kのビデオフレームをレンダリングし、それを1080p（またはクリップのMediaScale）に縮小し、  "
+      },
+      {
+        "row": 15,
+        "rowsha": "wLKz94oNtxUnoItz4a66GeZVVR+CDtfCTZvyc3/3Fzo=",
+        "originContent": "  However, rendering a 4K video frame from an MP4 file is a long and nasty task, then scaling down to 1080p (or whatever the MediaScale of the clip is) ",
+        "translatedContent": "  最終的にビューポート（通常約500x300サイズ）まで縮小するのは非常に無駄が多いです。  "
+      },
+      {
+        "row": 16,
+        "rowsha": "R87wysUP5zFpH3in047Z6TruWzZd87Anf71w2PzHR2s=",
+        "originContent": "  and then finally down to the viewport (typically around the 500x300 size) in the end is just hugely wasteful, so we need either RenderFull and ",
+        "translatedContent": "  そのため、RenderFullとRenderPreviewのメソッド、または新しいレンダリングシステムが必要です。現在の非同期レンダリング技術は悪くなさそうです。"
+      },
+      {
+        "row": 17,
+        "rowsha": "v6V+FCVo5ceB4l72TUFUpG44zDbUbr5fK0iOwfZ3cfU=",
+        "originContent": "  RenderPreview methods, or, a new rendering system. The current technique of async-rendering doesn't seem so bad. ",
+        "translatedContent": "### オートメーションエンジン"
+      },
+      {
+        "row": 18,
+        "rowsha": "/5D7uF86nM8bhmM3gv77+AA9kKMpZa36mb61RoViLpQ=",
+        "originContent": "### Automation Engine",
+        "translatedContent": "- スムーズな補間（例：2つのキーフレーム間のカーブ）をサポートする機能を追加する。試みたものの、補間の数学的計算とUIのヒットテストが難しかったです。"
+      },
+      {
+        "row": 19,
+        "rowsha": "wv1h+UCK7P9NTLcZDMx9QYcWXQ1s6Fyc0ZUNjAIep/0=",
+        "originContent": "- Add support for smooth interpolation (e.g. a curve between 2 key frames). I tried doing this, but had a hard time figuring out the math to do the interpolation, and also doing the hit testing for the UI",
+        "translatedContent": "### クリップ"
+      },
+      {
+        "row": 20,
+        "rowsha": "lB5S/CTMVy3qSqiqnrWDIo2s8+BYRFwhai8qr8Y+6zc=",
+        "originContent": "### Clips",
+        "translatedContent": "- AVMediaVideoClipは高解像度のビデオ（例：4Kはデコードと画面描画に約40msかかる）で非常に遅く、  "
+      },
+      {
+        "row": 21,
+        "rowsha": "LbJYB5Q2sU81yJnz54fxR272pYlAlLyOZJ+O+7ZSIxk=",
+        "originContent": "- AVMediaVideoClip is extremely slow for large resolution videos (e.g. 4K takes around 40ms to decode and render onscreen), ",
+        "translatedContent": "  動作するビデオコーデックも限られています。多くの一般的なファイル形式では「デコード中に無効なデータを検出した」というエラーが出ます。  "
+      },
+      {
+        "row": 22,
+        "rowsha": "xHxpiVS3QdUTQ8Yk9jpp2JiF0IhoZnglDMIR7O9YaRY=",
+        "originContent": "  and only a few video codecs even seem to work. Lots of common file formats give an error like \"found invalid ",
+        "translatedContent": "  FFmpegについてはあまり詳しくありませんが、いつか何とかこれを修正したいと思っています。"
+      },
+      {
+        "row": 23,
+        "rowsha": "tUDOzOX0VWQo2VeXi4/NlNSozKwZMqAV1SmWpthHF38=",
+        "originContent": "  data while decoding\". I don't know FFmpeg much but I hope to somehow fix this at some point",
+        "translatedContent": "- 2つのクリップ間のフェードを実装する"
+      },
+      {
+        "row": 24,
+        "rowsha": "IUocHsUtQf3fSvgxrAe6npAHVielkkrPtiQWQ2iQ03g=",
+        "originContent": "- Implement fading between 2 clips",
+        "translatedContent": "### 履歴システム"
+      },
+      {
+        "row": 25,
+        "rowsha": "wddVbhcXs5P0K+HVNv0YWMatAcOo+cu7S3grt8ihKeo=",
+        "originContent": "### History system",
+        "translatedContent": "- まだアンドゥ機能はありません。音声やハードウェアアクセラレーションを使った最終フレームの組み立てなど、他の機能を実装した後に挑戦するかもしれません。"
+      },
+      {
+        "row": 26,
+        "rowsha": "fm697F1Sm0vkLGTWcV4WOQg4qhLtMOZMo2ObkS7Rm0k=",
+        "originContent": "- There's no undo functionality yet. I might try and implement this once I implement a few of the other features like audio and maybe hardware accelerated final-frame assembly in the renderer",
+        "translatedContent": "### 修正すべきバグ"
+      },
+      {
+        "row": 27,
+        "rowsha": "KsQWL1QEsvBauAgjXD2JjzNpw2zx6eYvcC5qg4Yw16c=",
+        "originContent": "### Bugs to fix",
+        "translatedContent": "- 特定のビデオファイルのインポートでレンダリングが失敗することがある（「デコード中に無効なデータを検出した」エラーのようなもの）"
+      },
+      {
+        "row": 28,
+        "rowsha": "wxcOjChkz51f/ADbzNnnhCXlJcNw7R88niSoMoueJDw=",
+        "originContent": "- Importing certain video files can cause the render to fail (some sort of \"found invalid data while decoding\" error)",
+        "translatedContent": "### マルチスレッド同期"
+      },
+      {
+        "row": 29,
+        "rowsha": "IP2RsPp6m6xO/le9Ps8WfgdGtEwFBfACJWmmx8AcLOI=",
+        "originContent": "### Multi-thread synchronisation",
+        "translatedContent": "- アプリケーションの状態へのアクセスと変更をより安全にするためにロックを作成する必要があります。特にアクティビティシステムが動作している今は重要です。"
+      },
+      {
+        "row": 30,
+        "rowsha": "a4AoEm6BzdGbJ4pVJA90/6jQ05wR4kQVA4QsQ69hQOg=",
+        "originContent": "- We need to create locks to make accessing and modifying the application state safer, especially now that the activity system works. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": "  モデルの状態に書き込みを行うためのアプリケーション全体のロックでしょうか？これはIntelliJ IDEAの仕組みに似ています。  "
+      },
+      {
+        "row": 32,
+        "rowsha": "kqtZv7r8oKcgAjApA8bW2a32XAk22nwXMgHqSDbnw+A=",
+        "originContent": "  Maybe an application-wide lock for writing into the state of the models? This is similar to how IntelliJ IDEA works; a mostly-read, read-write lock. ",
+        "translatedContent": "  ほとんどが読み取り用の読み書きロックで、書き込みロックはメインスレッドのみで取得可能（ディスパッチャを使ってそこに乗ります）、  "
+      },
+      {
+        "row": 33,
+        "rowsha": "2+NrG9bTB+CCzDC/a3DNJVLqfRx7O2xmt+3wM8nhFwg=",
+        "originContent": "  Write locks are only acquirable on the main thread (we use the dispatcher to get on there), but any thread can take the read lock. Taking the ",
+        "translatedContent": "  しかし任意のスレッドが読み取りロックを取得できます。読み取りロックを取得するには書き込み操作が残っていないことを待ち、  "
+      },
+      {
+        "row": 34,
+        "rowsha": "EVWaTaL0aUtYb/HHKbwdg9nPea0Wyd94Hqw3ufS5msI=",
+        "originContent": "  read lock requires blocking until no write operations are left, and taking the write-lock requires blocking until all readers are done (and ",
+        "translatedContent": "  書き込みロックを取得するにはすべての読み取りが完了するまで待つ必要があります（また書き込みロック取得時にイベントが発生し、  "
+      },
+      {
+        "row": 35,
+        "rowsha": "OWop43szNb3INUKmN2KLokU5RwAeLyFrYTp6SV6PyQA=",
+        "originContent": "  there's also an event fired when trying to acquire the write lock, to let readers cancel their operations to avoid freezing the UI)",
+        "translatedContent": "  読み取り中の処理をキャンセルしてUIのフリーズを防ぐことができます）。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 貢献について"
+      },
+      {
+        "row": 38,
+        "rowsha": "CmzOUPIkiR4wEMOWqMwPjiPrBkUF9k79/34CqW/RlVI=",
+        "originContent": "Contributions are welcomed with open arms! Just create a pull request, or an issue then PR, whichever you fancy. ",
+        "translatedContent": "貢献は大歓迎です！プルリクエストを作成するか、まずIssueを立ててからPRを作成してください。  "
+      },
+      {
+        "row": 39,
+        "rowsha": "aTCQBWgEQQpzYrCIaBZ0nDrDutSLvq40U//JJXr4U74=",
+        "originContent": "You can find information on how to compile and run/debug the app if you scroll up a bit.",
+        "translatedContent": "アプリのコンパイルや実行・デバッグ方法は少し上にスクロールすると見つかります。  "
+      },
+      {
+        "row": 40,
+        "rowsha": "WddClTYeadAT8VPxh3fdATDO/sFIctx1BuTaEqfw2DY=",
+        "originContent": "The TODO list is above, but you can also just search `// TODO:` in the code base",
+        "translatedContent": "TODOリストは上記にありますが、コードベース内で`// TODO:`を検索しても見つけられます。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "\nYou can find detailed explanations in the docs folder, which explains the core parts of the editor (such as the\ncommands, automation, etc.). There's still lots to be documented so it doesn't explain everything\n\nThe code base isn't perfect so feel free to help try and standardize things!\n\n# Licence\nAll source files in FramePFX are under the GNU General Public License version 3.0 or later (GPL v3.0+).\nFramePFX uses libraries that have other licences, such as MIT/LGPL licences.\n\nIf any source file is missing a copyright notice, it is assumed to be licenced under the same\nlicence as FramePFX\n\nCurrently, the used LGPL parts are:\n- FFmpeg.AutoGen, which is licenced under the GNU Lesser General Public License version 3.0 (LGPL v3.0)\n- FFmpeg\n",
+    "ContentSha": "gGyWu4FhYBGfhxwnfRYxS5rK7HCFtSIuszUe8OA687U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "詳細な説明はdocsフォルダーにあります。ここではエディターのコア部分（コマンド、自動化など）について説明しています。  \nまだ多くが未記載のため、すべてを説明しているわけではありません。  \n\nコードベースは完璧ではないので、標準化のための支援は大歓迎です！  \n\n# ライセンス  \nFramePFXのすべてのソースファイルはGNU一般公衆利用許諾契約書バージョン3.0以降（GPL v3.0+）の下で配布されています。  \nFramePFXはMIT/LGPLライセンスなどの他のライブラリも使用しています。  \n\nもし著作権表示が欠けているソースファイルがあれば、FramePFXと同じライセンスの下で提供されているものとみなされます。  \n\n現在使用されているLGPLの部分は以下の通りです：  \n- FFmpeg.AutoGen（GNU一般公衆利用許諾契約書のより緩やかなバージョンであるLGPL v3.0の下でライセンスされています）  \n- FFmpeg\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "詳細な説明はdocsフォルダーにあります。ここではエディターのコア部分（コマンド、自動化など）について説明しています。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "tnIBq8eqQpm2QB9Htjd0UkPY+fqzXpHS0aOatiQ8KL8=",
+        "originContent": "You can find detailed explanations in the docs folder, which explains the core parts of the editor (such as the",
+        "translatedContent": "まだ多くが未記載のため、すべてを説明しているわけではありません。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "ihKhW1mizTYnj+2cuYULBbDZtETF6CSfade/l/C2qds=",
+        "originContent": "commands, automation, etc.). There's still lots to be documented so it doesn't explain everything",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "コードベースは完璧ではないので、標準化のための支援は大歓迎です！  "
+      },
+      {
+        "row": 5,
+        "rowsha": "YyZXHD7t8TT+GhJGl0ojzYK+hd21UX4WLpGBEtwaLSk=",
+        "originContent": "The code base isn't perfect so feel free to help try and standardize things!",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# ライセンス  "
+      },
+      {
+        "row": 7,
+        "rowsha": "3kWG8zBAM5dia9sGYF5pLjEtmGF0EsWrucv5AcICcJA=",
+        "originContent": "# Licence",
+        "translatedContent": "FramePFXのすべてのソースファイルはGNU一般公衆利用許諾契約書バージョン3.0以降（GPL v3.0+）の下で配布されています。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "bDW6Edn2m9PjLmtafm29up38FqbnxmN/Q1SP6cCDqMU=",
+        "originContent": "All source files in FramePFX are under the GNU General Public License version 3.0 or later (GPL v3.0+).",
+        "translatedContent": "FramePFXはMIT/LGPLライセンスなどの他のライブラリも使用しています。  "
+      },
+      {
+        "row": 9,
+        "rowsha": "bJHtQbt1M7uja6ATXo/qoRslkmd5XMzXt7O3lq03twA=",
+        "originContent": "FramePFX uses libraries that have other licences, such as MIT/LGPL licences.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "もし著作権表示が欠けているソースファイルがあれば、FramePFXと同じライセンスの下で提供されているものとみなされます。  "
+      },
+      {
+        "row": 11,
+        "rowsha": "wEpi2STcSMI/FJcPyeXXLDq2yrqYDXnc2eu/4lyIGWc=",
+        "originContent": "If any source file is missing a copyright notice, it is assumed to be licenced under the same",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "uorHRTNwHdbHAdA/BnRLinmKbRL/nZu+SdiZMKfsNGo=",
+        "originContent": "licence as FramePFX",
+        "translatedContent": "現在使用されているLGPLの部分は以下の通りです：  "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- FFmpeg.AutoGen（GNU一般公衆利用許諾契約書のより緩やかなバージョンであるLGPL v3.0の下でライセンスされています）  "
+      },
+      {
+        "row": 14,
+        "rowsha": "u2dSj1CiiO96k6WkFzYyoWxECzPevRUpFHW7PKNdu+I=",
+        "originContent": "Currently, the used LGPL parts are:",
+        "translatedContent": "- FFmpeg"
+      },
+      {
+        "row": 15,
+        "rowsha": "5PMznZCmb5/Mtpmhi/m2HMtGYbZtffsDNot45pVqqVM=",
+        "originContent": "- FFmpeg.AutoGen, which is licenced under the GNU Lesser General Public License version 3.0 (LGPL v3.0)",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "98iEwshehd7pEhbthjBnjSH40FVKFehs1UjdTcGoCqY=",
+        "originContent": "- FFmpeg",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

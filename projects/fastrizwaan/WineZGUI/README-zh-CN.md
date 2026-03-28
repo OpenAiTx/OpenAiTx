@@ -1,31 +1,63 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # WineZGUI
 
-#### 使用 Zenity 的 Wine 图形界面 - 玩游戏并分享！
+#### 基于 Zenity 的 Wine 图形界面 - 轻松运行与分享！
 
-![](https://raw.githubusercontent.com/fastrizwaan/WineZGUI/main/assets/winezgui.svg) <a href="https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI"><img width='240' alt='在 Flathub 下载' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>
+![](https://raw.githubusercontent.com/fastrizwaan/WineZGUI/main/assets/winezgui.svg) <a href="https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI"><img width='240' alt='在 Flathub 上下载' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>
 
 ![](https://github.com/fastrizwaan/WineZGUI/releases/download/0.97.12/winezgui-0.97.14.png)
 
 ## 什么是 WineZGUI
 
-WineZGUI（发音为 Wine-Zee-Goo-Eee）是一个用于轻松使用 Wine 玩 Windows 游戏的 Wine 前端。它是一个用于 Wine 前缀管理和 Linux 桌面集成的 Bash 脚本集合，通过 Zenity 提供更便捷的 Wine 游戏体验。它允许从文件管理器（如 Nautilus）快速启动直接运行（无需安装）的 EXE 应用程序或游戏，并允许为每个 Windows EXE 二进制文件创建独立的 Wine 前缀。
+WineZGUI（发音为 Wine-Zee-Goo-Eee）是一个用于轻松通过 wine 玩 Windows 游戏的 wine 前端。它是用于 Wine 前缀管理和 Linux 桌面集成的一组 Bash 脚本，利用 Zenity 提供更简单的 wine 游戏体验。它允许通过文件管理器（如 Nautilus）快速启动未安装的 Direct play EXE 应用或游戏，并为每个 Windows EXE 文件创建单独的 wine 前缀。
 
 ## 为什么选择 WineZGUI？
 
-1. 从文件管理器运行 Windows 游戏或 EXE 文件  
-2. 创建应用程序快捷方式，方便访问。  
-3. 专注于玩游戏，而不是设置前缀。  
-4. 备份和恢复前缀以便以后使用。  
-5. 创建游戏包以便分享（前缀+游戏）
+1. 可以从文件管理器运行 Windows 游戏或 exe 文件
+2. 创建应用快捷方式，方便访问。
+3. 专注于玩游戏而非设置前缀。
+4. 支持前缀备份和恢复，方便后续使用。
+5. 创建游戏包用于分享（前缀+游戏）
 
-## 它是如何工作的
+## 工作原理
 
-1. 当用 WineZGUI 打开一个 Windows 二进制文件或 EXE 时，  
-2. 它会创建一个新的前缀（复制模板）和一个以 EXE 文件名命名的桌面快捷方式。  
-3. 当用户启动脚本时，EXE 会被运行。  
-4. 如果是安装程序，它会检测已安装的 EXE 并在游戏菜单类别中创建快捷方式。
+1. 当用 WineZGUI 打开一个 Windows 二进制文件或 exe 时，
+2. 它会创建一个新的前缀（复制模板）并以 EXE 文件名生成桌面快捷方式。
+3. 当用户启动脚本时，exe 会被启动。
+4. 如果是安装程序，它会检测已安装的 exe 并在游戏菜单类别中创建快捷方式。
 
-## 如何在另一驱动器或目录运行游戏或程序
+## 如何在其他驱动器或目录运行游戏或程序
 
 打开终端并输入：
 
@@ -33,22 +65,22 @@ WineZGUI（发音为 Wine-Zee-Goo-Eee）是一个用于轻松使用 Wine 玩 Win
 
 ### 安装 WineZGUI
 
-WineZGUI 可作为 Flathub 上的 Flatpak 应用使用：
+WineZGUI 在 Flathub 以 Flatpak 形式提供：
 
-<a href="https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI"><img width='240' alt='在 Flathub 下载' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>
+<a href="https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>
 
 
-Flathub WineZGUI 只能访问桌面、文档、下载、音乐、图片、视频目录。要访问其他位置或其他挂载的分区或驱动器中的文件，要么将它们复制到上述目录（如下载等），要么需要读取权限，可以使用 Flatseal 应用程序授予，或使用命令行 `flatpak --user override --filesystem=host:ro io.github.fastrizwaan.WineZGUI`
+Flathub WineZGUI 只能访问 Desktop、Documents、Downloads、Music、Pictures、Videos 目录。要访问其他位置或挂载的分区或驱动器上的文件，可以将它们复制到上述目录（如 Downloads 等），或者需要读取权限，可以通过 Flatseal 应用或命令行 `flatpak --user override --filesystem=host:ro io.github.fastrizwaan.WineZGUI` 授予权限。
 
-我强烈建议使用 flatpak 版本，因为基于发行版的 wine（wine-staging）会不断更新，游戏可能每隔几天就会崩溃。使用来自 flathub 的 wine 稳定版更好，或者使用发行版包中的 wine 稳定版 5.0 或 7.0。
+强烈推荐使用 flatpak 版本，因为基于发行版的 wine（wine-staging）经常更新，游戏可能每几天就会出问题。使用 flathub 的 wine stable 更好，或者使用发行版包里的 wine stable 5.0 或 7.0。
 
 #### 在[支持的 Linux 发行版](https://flatpak.org/setup/)上安装 WineZGUI flatpak
 
-WineZGUI 由本人打包在 flatpak-wine 中。[WineZGUI Flathub](https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI) 是我现在弃用的另一个 flatpak 项目 [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine)
+WineZGUI 由本人以 flatpak-wine 打包。[WineZGUI Flathub](https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI) 我的其他 flatpak 现在已弃用 [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine)
 
-### 在 Linux 系统上的设置，详见[需求](https://github.com/fastrizwaan/WineZGUI#requirements)
+### 在 Linux 系统上进行设置，请参见 [需求](https://github.com/fastrizwaan/WineZGUI#requirements)
 
-设置非常快速，只需将几个文件复制到特定目录。
+设置非常快捷，因为它只需将几个文件复制到特定目录。
 
 ##### 版本 0.99.13
 
@@ -151,6 +183,6 @@ sudo pacman -Sy zenity wine winetricks perl-image-exiftool icoutils gnome-termin
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-28
 
 ---

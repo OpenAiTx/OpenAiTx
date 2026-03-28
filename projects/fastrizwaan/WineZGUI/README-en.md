@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=fastrizwaan&project=WineZGUI&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 # WineZGUI
 
 #### Wine GUI using Zenity - Play and Share!
@@ -8,22 +40,22 @@
 
 ## What is WineZGUI
 
-WineZGUI (pronounced Wine-Zee-Goo-Eee) is a wine frontend for playing windows games with wine easily. It is a collection of Bash scripts for Wine Prefix Management and Linux Desktop Integration for easier wine gaming experience using Zenity. It allows quick launching of Direct play (not installed) EXE application or game from File Manager like Nautilus and allow creating separate wine prefix for each Windows' EXE binary.
+WineZGUI (pronounced Wine-Zee-Goo-Eee) is a wine frontend for playing Windows games with wine easily. It is a collection of Bash scripts for Wine Prefix Management and Linux Desktop Integration for an easier wine gaming experience using Zenity. It allows quick launching of direct play (not installed) EXE applications or games from File Manager like Nautilus and allows creating a separate wine prefix for each Windows EXE binary.
 
 ## Why WineZGUI?
 
-1. Runs windows games or exe files from file manager
-2. Creates application shortcut for easier access.
-3. Focus on playing games and not setting up prefixes.
+1. Runs Windows games or exe files from the file manager
+2. Creates application shortcuts for easier access.
+3. Focuses on playing games and not on setting up prefixes.
 4. Backup and Restore prefixes for later use.
 5. Create Game Bundles for sharing (prefix+game)
 
 ## How it works
 
-1. When a windows binary or exe is opened with WineZGUI, 
-2. It create a new prefix (copies template) and a desktop shortcut with the EXE filename.
-3. When the user launches the script, the exe is launched. 
-4. If it is a setup, it will detect installed exe and creates shortcuts in Games menu category.
+1. When a Windows binary or exe is opened with WineZGUI,
+2. It creates a new prefix (copies template) and a desktop shortcut with the EXE filename.
+3. When the user launches the script, the exe is launched.
+4. If it is a setup, it will detect the installed exe and create shortcuts in the Games menu category.
 
 ## How to run a Game or Program on another drive or directory
 
@@ -38,13 +70,13 @@ WineZGUI is available as a Flatpak on Flathub:
 <a href="https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI"><img width='240' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>
 
 
-Flathub WineZGUI can only access Desktop, Documents, Downloads, Music, Pictures, Videos directories. To access files from other locations or other mounted partitions or drives, either copy them to the previously mentioned directories (Downloads etc.) or it needs read permission, which can be given using Flatseal app or using command line  `flatpak --user override --filesystem=host:ro io.github.fastrizwaan.WineZGUI`
+Flathub WineZGUI can only access Desktop, Documents, Downloads, Music, Pictures, Videos directories. To access files from other locations or other mounted partitions or drives, either copy them to the previously mentioned directories (Downloads etc.) or it needs read permission, which can be given using Flatseal app or using the command line `flatpak --user override --filesystem=host:ro io.github.fastrizwaan.WineZGUI`
 
-I highly recommend using flatpak version, because, distro based wine (wine-staging) keeps on updating and games may break every few days. Using wine stable from flathub is better or use wine stable 5.0 or 7.0 from the distro packages.
+I highly recommend using the flatpak version, because distro-based wine (wine-staging) keeps updating and games may break every few days. Using wine stable from flathub is better or use wine stable 5.0 or 7.0 from the distro packages.
 
 #### Install WineZGUI flatpak on [supported Linux distros](https://flatpak.org/setup/)
 
-WineZGUI is packaged in flatpak-wine by yours truly. [WineZGUI Flathub](https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI) my other flatpak now deprecated [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine) 
+WineZGUI is packaged in flatpak-wine by yours truly. [WineZGUI Flathub](https://flathub.org/apps/details/io.github.fastrizwaan.WineZGUI) my other flatpak now deprecated [flatpak-wine](https://github.com/fastrizwaan/flatpak-wine)
 
 ### SETUP on a Linux system, see [Requirements](https://github.com/fastrizwaan/WineZGUI#requirements)
 
@@ -151,6 +183,6 @@ build and install kernel drivers for xbox 360 compatible controllers from https:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-28
 
 ---
