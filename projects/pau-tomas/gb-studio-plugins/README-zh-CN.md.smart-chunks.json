@@ -1,0 +1,846 @@
+[
+  {
+    "Id": 1,
+    "Content": "# GB Studio 4.2 - Plugin Pak\n\nA set of experimental plugins for GB Studio 4.2. Use them at your own risk :)\n\n> [!NOTE]\n> A handful of previously available event plugins are now deprecated, as their functionality is part of GB Studio. [See the list below](#deprecated-plugins).\n\n## Dialogue & Menus\n\n### Draw Lifebar\n\nDraw a (life/power/mana)bar to a specified position on the overlay.\n\n- `X`, `Y`: Tile coordinates on the overlay.\n- `Tileset`: A tileset that includes the tiles for the bar in consecutive order.\n- `Tile`: The first tile of the bar in the tileset (usually the empty tile).\n- `Value`: The current value to be represented by the bar.\n- `Max Value`: The maximum value that can be represented by the bar.\n- `Steps`: The number of tiles needed to \"fill\" an item in the bar (not including the empty one).\n\n[Example project](examples/Draw%20Lifebar/)\n\n_Note:_ The tileset will load at tile 128 of VRAM (right after the sprites block). This allows combining lifebar rendering with `Draw Text` on the overlay. The VRAM index can be changed by editing the `const VRAM_BASE_START_TILE = 128` line in the plugin file.\n\n<img width=\"300\" alt=\"Draw Lifebar\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar.png\"/>\n\n<img width=\"300\" alt=\"Draw Lifebar\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar_screenshot.png\"/>\n\n### Display Advanced Menu\n\nDisplay a menu of multiple options and set the specified variable to the value of the chosen option. Menu option position and navigation order can be set for each item in the `Items` tab. You can optionally set the 'B' button to close the menu setting the variable to '0' and can also make the last menu item return '0' when selected. The dialogue box size, opening and closing direction, and the position of the menu (top or bottom) can be set in the `Layout` tab. The opening and closing speed of the menu can be set in the `Behavior` tab.\n\nThere's no maximum character length per item, but the total number of displayed characters is limited by the number of tiles reserved for UI text (52 for non-color mode).\n\n_Note:_ The event can become very long when there are many items.\n\n<img width=\"300\" alt=\"Advanced Menu Items\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_items.png\"/> <img width=\"300\" alt=\"Advanced Menu Screenshot\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_screenshot.png\"/>\n\n<img width=\"300\" alt=\"Advanced Menu Layout\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_layout.png\"/>\n",
+    "ContentSha": "u9dtzexXL3xi65sv6sYzwcz5Zo1dJfRuDwxGRvB6e+A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# GB Studio 4.2 - 插件包\n\n一组针对 GB Studio 4.2 的实验性插件。使用风险自负 :)\n\n> [!注意]\n> 一些之前可用的事件插件现已弃用，因为它们的功能已被集成到 GB Studio 中。[请参见下方列表](#deprecated-plugins)。\n\n## 对话与菜单\n\n### 绘制生命条\n\n在覆盖层的指定位置绘制一个（生命/能量/魔力）条。\n\n- `X`, `Y`：覆盖层上的瓦片坐标。\n- `Tileset`：包含连续顺序条形瓦片的瓦片集。\n- `Tile`：条形瓦片集中的第一个瓦片（通常为空瓦片）。\n- `Value`：当前条形所表示的值。\n- `Max Value`：条形所能表示的最大值。\n- `Steps`：填充条形中一个单位所需的瓦片数量（不包括空瓦片）。\n\n[示例项目](examples/Draw%20Lifebar/)\n\n_注意：_ 瓦片集将加载到 VRAM 的第 128 号瓦片（紧跟在精灵块之后）。这允许在覆盖层上将生命条渲染与 `绘制文本` 结合使用。VRAM 索引可通过编辑插件文件中的 `const VRAM_BASE_START_TILE = 128` 行进行更改。\n\n<img width=\"300\" alt=\"绘制生命条\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar.png\"/>\n\n<img width=\"300\" alt=\"绘制生命条\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar_screenshot.png\"/>\n\n### 显示高级菜单\n\n显示一个多选项菜单，并将指定变量设置为所选选项的值。菜单选项的位置和导航顺序可在 `Items` 标签中为每个项目设置。您可以选择设置 'B' 按钮关闭菜单并将变量设为 '0'，也可以让最后一个菜单项被选中时返回 '0'。对话框大小、打开和关闭方向，以及菜单的位置（顶部或底部）可在 `Layout` 标签中设置。菜单的打开和关闭速度可在 `Behavior` 标签中设置。\n\n每个项目没有最大字符长度限制，但显示的总字符数受到 UI 文本保留瓦片数量的限制（非彩色模式为 52 瓦片）。\n\n_注意：_ 当项目数量较多时，事件可能会变得非常长。\n\n<img width=\"300\" alt=\"高级菜单项目\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_items.png\"/> <img width=\"300\" alt=\"高级菜单截图\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_screenshot.png\"/>\n\n<img width=\"300\" alt=\"高级菜单布局\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_layout.png\"/>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "95OKcWwGfQqGLM1u+B730aFAQC24/PqBei0EcKZ2NBc=",
+        "originContent": "# GB Studio 4.2 - Plugin Pak",
+        "translatedContent": "# GB Studio 4.2 - 插件包"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "dGTjeVU+io369UJAjR7ijAJx8UvSK3vSBs1FAcUUfQ4=",
+        "originContent": "A set of experimental plugins for GB Studio 4.2. Use them at your own risk :)",
+        "translatedContent": "一组针对 GB Studio 4.2 的实验性插件。使用风险自负 :)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!注意]"
+      },
+      {
+        "row": 6,
+        "rowsha": "vrIDPX9/LWBls7CwSrIrIIEvnCZzgpf8RCr+1ruCQ1Q=",
+        "originContent": "> A handful of previously available event plugins are now deprecated, as their functionality is part of GB Studio. [See the list below](#deprecated-plugins).",
+        "translatedContent": "> 一些之前可用的事件插件现已弃用，因为它们的功能已被集成到 GB Studio 中。[请参见下方列表](#deprecated-plugins)。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "+9j9iyvhROzLQOI44N4mpEA5lpXzKXaB1E0XsJeySX0=",
+        "originContent": "## Dialogue & Menus",
+        "translatedContent": "## 对话与菜单"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "3+01yYenH3WwgQ1y96T4lCEn5+7sU3FeDPI/dZMDRhQ=",
+        "originContent": "### Draw Lifebar",
+        "translatedContent": "### 绘制生命条"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "5wL471phEuUXmv+qBsCTw6W+UU7ZN7uPSDct0cOdmkM=",
+        "originContent": "Draw a (life/power/mana)bar to a specified position on the overlay.",
+        "translatedContent": "在覆盖层的指定位置绘制一个（生命/能量/魔力）条。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "+euZIWd3kNviNVu4Czqfd5t50w/UaCzLC5brQNyZLZM=",
+        "originContent": "- `X`, `Y`: Tile coordinates on the overlay.",
+        "translatedContent": "- `X`, `Y`：覆盖层上的瓦片坐标。"
+      },
+      {
+        "row": 15,
+        "rowsha": "Ic9FMHcOt3ffyk65C6BDi0JFPt7IheSVOxqpmaE7blw=",
+        "originContent": "- `Tileset`: A tileset that includes the tiles for the bar in consecutive order.",
+        "translatedContent": "- `Tileset`：包含连续顺序条形瓦片的瓦片集。"
+      },
+      {
+        "row": 16,
+        "rowsha": "KFOLvXRywk+PFtw2CJtV/EsgwToc80JN4ChuEyFZ/O0=",
+        "originContent": "- `Tile`: The first tile of the bar in the tileset (usually the empty tile).",
+        "translatedContent": "- `Tile`：条形瓦片集中的第一个瓦片（通常为空瓦片）。"
+      },
+      {
+        "row": 17,
+        "rowsha": "EVqZ1sgpOsthD9rmtTv1lxbnv/hH3Zbgxf9rEDMF08o=",
+        "originContent": "- `Value`: The current value to be represented by the bar.",
+        "translatedContent": "- `Value`：当前条形所表示的值。"
+      },
+      {
+        "row": 18,
+        "rowsha": "EaWN/qik9Mmit4ZzLAB1H0DAFJIxgECuVtXYnaQMH3I=",
+        "originContent": "- `Max Value`: The maximum value that can be represented by the bar.",
+        "translatedContent": "- `Max Value`：条形所能表示的最大值。"
+      },
+      {
+        "row": 19,
+        "rowsha": "LjEXqjYHHPEy9/BwlezSCJ4swzK533xuy1RRLwHOE7s=",
+        "originContent": "- `Steps`: The number of tiles needed to \"fill\" an item in the bar (not including the empty one).",
+        "translatedContent": "- `Steps`：填充条形中一个单位所需的瓦片数量（不包括空瓦片）。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "dFaiWH9rmnQ/RxQxNqCnz4ac7FKOX1gaZ3S+skqfvtw=",
+        "originContent": "[Example project](examples/Draw%20Lifebar/)",
+        "translatedContent": "[示例项目](examples/Draw%20Lifebar/)"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "3qZDv0UHepjo73ZAEiahXxFEjfjal+jEJNP6kuPjvog=",
+        "originContent": "_Note:_ The tileset will load at tile 128 of VRAM (right after the sprites block). This allows combining lifebar rendering with `Draw Text` on the overlay. The VRAM index can be changed by editing the `const VRAM_BASE_START_TILE = 128` line in the plugin file.",
+        "translatedContent": "_注意：_ 瓦片集将加载到 VRAM 的第 128 号瓦片（紧跟在精灵块之后）。这允许在覆盖层上将生命条渲染与 `绘制文本` 结合使用。VRAM 索引可通过编辑插件文件中的 `const VRAM_BASE_START_TILE = 128` 行进行更改。"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "JCpR5Aixv/woi+V4VGQ/KNv0YrawvwuXC+1q/ef0Fp8=",
+        "originContent": "<img width=\"300\" alt=\"Draw Lifebar\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"绘制生命条\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar.png\"/>"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "zzfzZ+cFs8XTpTgiDRrvFpu70WWIIbQykdcysrwUbM8=",
+        "originContent": "<img width=\"300\" alt=\"Draw Lifebar\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar_screenshot.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"绘制生命条\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar_screenshot.png\"/>"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "MkosR4ljDP+QtDJiOZdSMnRj8FtdJ06pMVEO3Tkx6J4=",
+        "originContent": "### Display Advanced Menu",
+        "translatedContent": "### 显示高级菜单"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "QBMiLOJxSkhEH4iBux6h/fy5w8XtdHRDcmLkTOqeBnk=",
+        "originContent": "Display a menu of multiple options and set the specified variable to the value of the chosen option. Menu option position and navigation order can be set for each item in the `Items` tab. You can optionally set the 'B' button to close the menu setting the variable to '0' and can also make the last menu item return '0' when selected. The dialogue box size, opening and closing direction, and the position of the menu (top or bottom) can be set in the `Layout` tab. The opening and closing speed of the menu can be set in the `Behavior` tab.",
+        "translatedContent": "显示一个多选项菜单，并将指定变量设置为所选选项的值。菜单选项的位置和导航顺序可在 `Items` 标签中为每个项目设置。您可以选择设置 'B' 按钮关闭菜单并将变量设为 '0'，也可以让最后一个菜单项被选中时返回 '0'。对话框大小、打开和关闭方向，以及菜单的位置（顶部或底部）可在 `Layout` 标签中设置。菜单的打开和关闭速度可在 `Behavior` 标签中设置。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "E5B7BlA8dC/UEIf4dpI00U2EXBvFqsnySpxZ0ZEFxNA=",
+        "originContent": "There's no maximum character length per item, but the total number of displayed characters is limited by the number of tiles reserved for UI text (52 for non-color mode).",
+        "translatedContent": "每个项目没有最大字符长度限制，但显示的总字符数受到 UI 文本保留瓦片数量的限制（非彩色模式为 52 瓦片）。"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "5gkDhRLZ25TgwryEhEDhRe2bDz8NiwKaPXV1/d1/Bns=",
+        "originContent": "_Note:_ The event can become very long when there are many items.",
+        "translatedContent": "_注意：_ 当项目数量较多时，事件可能会变得非常长。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "pfNhVzI8St+E0xOfMX3cDJ0MCwnN3byJJHtQ8TFbv6M=",
+        "originContent": "<img width=\"300\" alt=\"Advanced Menu Items\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_items.png\"/> <img width=\"300\" alt=\"Advanced Menu Screenshot\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_screenshot.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"高级菜单项目\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_items.png\"/> <img width=\"300\" alt=\"高级菜单截图\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_screenshot.png\"/>"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "VKoz5x4mIQmfquA2rWlwTXw/PxC5WcB0ZHz/fgFv618=",
+        "originContent": "<img width=\"300\" alt=\"Advanced Menu Layout\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_layout.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"高级菜单布局\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_layout.png\"/>"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## Real Time Clock\n\nA set of events that provide access to the Real Time Clock functionality present in some GB cartridges.\n\n_Note:_ Cartridge type needs to be set to `MBC3` in the project settings for the RTC to work.\n\n### Set Clock Time\n\nSet the values of the real time clock fields to a number or the value of a variable.\n\n<img width=\"300\" alt=\"Set Clock Time\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/set_clock_time.png\"/>\n\n### Store Clock Time In Variables\n\nStore the current time in one variable for each value.\n\n<img width=\"300\" alt=\"Store Clock Time In Variables\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/store_time_in_var.png\"/>\n\n### Start Clock\n\nStarts the real time clock.\n\n<img width=\"300\" alt=\"Start Clock\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/start_clock.png\"/>\n\n### Stop Clock\n\nStops the real time clock.\n\n<img width=\"300\" alt=\"Stop Clock\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/stop_clock.png\"/>\n\n## Screen\n\n### Smooth Fade\n\n**Color Mode Only**\n\nFade some or all of the current scene's background or sprite palettes to or from a white or black screen, interpolating the color values for a smooth fade.\n\n<img width=\"300\" alt=\"Player Field Update\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Smooth Fade/screenshots/smooth_fade.png\"/>\n",
+    "ContentSha": "YatX2IKNFesH1TwCvDkqJnd2A0PH8VqQ0F2DLLHUOsY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 实时时钟\n\n一组事件，提供访问某些GB卡带中实时时钟功能的能力。\n\n_注意：_ 项目设置中卡带类型需要设置为 `MBC3`，实时时钟功能才能正常工作。\n\n### 设置时钟时间\n\n将实时时钟字段的值设置为数字或变量的值。\n\n<img width=\"300\" alt=\"设置时钟时间\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/set_clock_time.png\"/>\n\n### 将时钟时间存储到变量中\n\n将当前时间的每个值分别存储到一个变量中。\n\n<img width=\"300\" alt=\"将时钟时间存储到变量中\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/store_time_in_var.png\"/>\n\n### 启动时钟\n\n启动实时时钟。\n\n<img width=\"300\" alt=\"启动时钟\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/start_clock.png\"/>\n\n### 停止时钟\n\n停止实时时钟。\n\n<img width=\"300\" alt=\"停止时钟\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/stop_clock.png\"/>\n\n## 屏幕\n\n### 平滑淡入淡出\n\n**仅限颜色模式**\n\n将当前场景的部分或全部背景或精灵调色板淡入或淡出到白色或黑色屏幕，插值颜色值以实现平滑的淡入淡出效果。\n\n<img width=\"300\" alt=\"玩家字段更新\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Smooth Fade/screenshots/smooth_fade.png\"/>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fTnVxUKMQZANcJmWoZftrXHYJWyncLxe5KPdXOR7dmo=",
+        "originContent": "## Real Time Clock",
+        "translatedContent": "## 实时时钟"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ttW0HU7HmwMA+BWWwTPVhu186FmFovscuMaQxctwmYE=",
+        "originContent": "A set of events that provide access to the Real Time Clock functionality present in some GB cartridges.",
+        "translatedContent": "一组事件，提供访问某些GB卡带中实时时钟功能的能力。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "IkZWwQA1K1WfidW6096BVFy6Vb4PmBAZ1W/gis906xI=",
+        "originContent": "_Note:_ Cartridge type needs to be set to `MBC3` in the project settings for the RTC to work.",
+        "translatedContent": "_注意：_ 项目设置中卡带类型需要设置为 `MBC3`，实时时钟功能才能正常工作。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "EEhGZJL5XMV8GoAubwdGWo7dfh4Cqq7czjy2WjRWMlI=",
+        "originContent": "### Set Clock Time",
+        "translatedContent": "### 设置时钟时间"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "cYiHcxGVI435JNF3Qfl/5DGvU/Tk4Jy0BPy6PLyfbDs=",
+        "originContent": "Set the values of the real time clock fields to a number or the value of a variable.",
+        "translatedContent": "将实时时钟字段的值设置为数字或变量的值。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "+K2E57Rs0AllCZnVbqE1FqJIiHEt2TuOMQEX4RJ+bmM=",
+        "originContent": "<img width=\"300\" alt=\"Set Clock Time\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/set_clock_time.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"设置时钟时间\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/set_clock_time.png\"/>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "+UtAkylnI6LxBvyOuLrg4mcNcEz429QdfV0+orMYOyc=",
+        "originContent": "### Store Clock Time In Variables",
+        "translatedContent": "### 将时钟时间存储到变量中"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "fry8+ScbQHCZnJ0SR30ctVPjUsUuEu3swV2fgNXtJMI=",
+        "originContent": "Store the current time in one variable for each value.",
+        "translatedContent": "将当前时间的每个值分别存储到一个变量中。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "pwrqCJ5bg0Rcsn0iYMljQ7l0PCENyrw3YSlAuNg0Ybo=",
+        "originContent": "<img width=\"300\" alt=\"Store Clock Time In Variables\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/store_time_in_var.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"将时钟时间存储到变量中\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/store_time_in_var.png\"/>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "IIRxfwe4s0eZSpjxpuk0/bzHCi1RmHjipvgzAi87bQQ=",
+        "originContent": "### Start Clock",
+        "translatedContent": "### 启动时钟"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "AfSYJEK3aksoIJRJEoUIRThbOUvLvsJf5aefr3MWV1g=",
+        "originContent": "Starts the real time clock.",
+        "translatedContent": "启动实时时钟。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "9gAv8XPEMHf5sl+Mi17YWFNltF/KprCtEFgOj4IoZ4U=",
+        "originContent": "<img width=\"300\" alt=\"Start Clock\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/start_clock.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"启动时钟\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/start_clock.png\"/>"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "rWX5fE1gdwdmBAuD357Hqu2LZahUKeHIP/gEHmT3JYU=",
+        "originContent": "### Stop Clock",
+        "translatedContent": "### 停止时钟"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "56OJPmR71VCZyr6KiHhd7JaeLs3zZIeH8U3MS+G3qXk=",
+        "originContent": "Stops the real time clock.",
+        "translatedContent": "停止实时时钟。"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "XclWXZolOl7YtK2FuOoOnp2wpaRIaYi7nKygeFzq1jU=",
+        "originContent": "<img width=\"300\" alt=\"Stop Clock\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/stop_clock.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"停止时钟\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/stop_clock.png\"/>"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "qm5ikkPBdkxGDtU9dioxpcWzAizO27TcWtrSscaHfMg=",
+        "originContent": "## Screen",
+        "translatedContent": "## 屏幕"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "qdawmP7sukUVmGgzyfU6vHdgLmKnvRci0GY8aWOe4iI=",
+        "originContent": "### Smooth Fade",
+        "translatedContent": "### 平滑淡入淡出"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "s8FqSn2aOsozSAlMyJ4bsdYfxmRvlqXR3NPcVI0MdT8=",
+        "originContent": "**Color Mode Only**",
+        "translatedContent": "**仅限颜色模式**"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "bWVzLSTCfFPjuWJp+G923r4G4FtuEtvwXDszjzbLKf0=",
+        "originContent": "Fade some or all of the current scene's background or sprite palettes to or from a white or black screen, interpolating the color values for a smooth fade.",
+        "translatedContent": "将当前场景的部分或全部背景或精灵调色板淡入或淡出到白色或黑色屏幕，插值颜色值以实现平滑的淡入淡出效果。"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "abZPSuAuggiWS13gU5LJUdmlBeqWSacZZxdFJadrwK8=",
+        "originContent": "<img width=\"300\" alt=\"Player Field Update\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Smooth Fade/screenshots/smooth_fade.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"玩家字段更新\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Smooth Fade/screenshots/smooth_fade.png\"/>"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "## β Plugins\n\nThe plugins in this category are even more experimental than the ones above and might change in the future.\n\n- **Move Variable Actor To** and **Store Variable Actor Position n Variables**:\n  - These events duplicate existing GB Studio Actor events, but instead of using a dropdown to select the actor, they use a variable. The value of the variable represents the index of the actor in the scene (the player is always `0`, and the rest of the actors have an index assigned based on when they were added to the scene).\n\n- **Pin Actor to Screen** and **Unpin Actor from Screen**:\n  - Pin or unpin the actor to its current screen coordinates.\\nBe aware of the current state of the actor: if it's already pinned or unpinned when the event is called, its position will be wrongly offset based on the scroll position.\n\n## How to Install\n\nDrop the `plugins` folder into your project. All the above events will be available from the `Add Event` button.\n\n## More plugins from other authors:\n\n- [NalaFala (Yousurname)'s GB Studio Plugin Collection](https://github.com/Y0UR-U5ERNAME/gbs-plugin-collection)\n- [Platformer+](https://github.com/becomingplural/GBS_PlatformerPlus)\n- [Advanced Dialog and Menu vB](https://github.com/dochardware/Advanced-Dialog-and-Menu)\n- [Shin's GB Studio plugins](https://github.com/shin-gamedev/gbs-plugins)\n- [Gud GBS Plugins](https://github.com/mikeleisz/gud_gbs_plugins)\n- [Fade Street](https://gearfo.itch.io/fade-street)\n- [Scroll Scene transition](https://github.com/Mico27/GBS-scrollScenePlugin) and more [Mico27's plugins](https://github.com/Mico27/)\n\n## Deprecated Plugin Events\n\nThe following event plugins are no longer available as part of the Plugin Pak, as their functionality has been added to GB Studio natively.\n\nSince 4.2:\n\n- Player Field Update\n- Store Player Field In Variable\n- Store Camera Field In Variable\n\nSince 4.1:\n\n- Display Advanced Dialogue\n- Display Background Text\n- Print Screen Background\n- Mute Channel",
+    "ContentSha": "kJ0bkFAIBGtNkCOetOm/pIlEbGc9OK601dlKW892vDQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## β 插件\n\n此类别中的插件比上述插件更加实验性，未来可能会有所变动。\n\n- **移动变量角色到** 和 **存储变量角色位置到n变量**：\n  - 这些事件是现有 GB Studio 角色事件的复制版本，但不是通过下拉菜单选择角色，而是使用变量。变量的值表示场景中角色的索引（玩家始终为 `0`，其余角色根据添加到场景的顺序分配索引）。\n\n- **将角色固定到屏幕** 和 **将角色从屏幕取消固定**：\n  - 将角色固定或取消固定到其当前屏幕坐标。\\n注意角色的当前状态：如果事件调用时角色已经被固定或取消固定，其位置将基于滚动位置错误偏移。\n\n## 安装方法\n\n将 `plugins` 文件夹放入你的项目中。上述所有事件将通过 `添加事件` 按钮可用。\n\n## 其他作者的更多插件：\n\n- [NalaFala (你的用户名) 的 GB Studio 插件合集](https://github.com/Y0UR-U5ERNAME/gbs-plugin-collection)\n- [Platformer+](https://github.com/becomingplural/GBS_PlatformerPlus)\n- [高级对话和菜单 vB](https://github.com/dochardware/Advanced-Dialog-and-Menu)\n- [Shin 的 GB Studio 插件](https://github.com/shin-gamedev/gbs-plugins)\n- [Gud GBS 插件](https://github.com/mikeleisz/gud_gbs_plugins)\n- [Fade Street](https://gearfo.itch.io/fade-street)\n- [滚动场景过渡](https://github.com/Mico27/GBS-scrollScenePlugin) 及更多 [Mico27 的插件](https://github.com/Mico27/)\n\n## 已废弃插件事件\n\n以下事件插件已不再作为插件包的一部分提供，其功能已被原生集成到 GB Studio 中。\n\n自 4.2 版本起：\n\n- 玩家字段更新\n- 将玩家字段存储到变量\n- 将摄像机字段存储到变量\n\n自 4.1 版本起：\n\n- 显示高级对话\n- 显示背景文本\n- 打印屏幕背景\n- 静音频道",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "gDO/cM7Z+FI2wvhUSNW/kqr+BIYAZVoM24HCkM6ywAQ=",
+        "originContent": "## β Plugins",
+        "translatedContent": "## β 插件"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "P4kwyOc7CM1YQ7hhzPseI1LMsN/DJAiE5yNZeBCs1gs=",
+        "originContent": "The plugins in this category are even more experimental than the ones above and might change in the future.",
+        "translatedContent": "此类别中的插件比上述插件更加实验性，未来可能会有所变动。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "n5kQXV+AUX9d55v3wKDKLs1qwdjBQpB8Vdl+S0zCBFY=",
+        "originContent": "- **Move Variable Actor To** and **Store Variable Actor Position n Variables**:",
+        "translatedContent": "- **移动变量角色到** 和 **存储变量角色位置到n变量**："
+      },
+      {
+        "row": 6,
+        "rowsha": "32YDHX/Kcn9YpOlJMFyaylqZB3543hTzkYzlvBD/2Pc=",
+        "originContent": "  - These events duplicate existing GB Studio Actor events, but instead of using a dropdown to select the actor, they use a variable. The value of the variable represents the index of the actor in the scene (the player is always `0`, and the rest of the actors have an index assigned based on when they were added to the scene).",
+        "translatedContent": "  - 这些事件是现有 GB Studio 角色事件的复制版本，但不是通过下拉菜单选择角色，而是使用变量。变量的值表示场景中角色的索引（玩家始终为 `0`，其余角色根据添加到场景的顺序分配索引）。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "VU5JisjjzD63xHP1fJuuD6FU1xPsXOMkPooLHFlU7LY=",
+        "originContent": "- **Pin Actor to Screen** and **Unpin Actor from Screen**:",
+        "translatedContent": "- **将角色固定到屏幕** 和 **将角色从屏幕取消固定**："
+      },
+      {
+        "row": 9,
+        "rowsha": "1TPPhewAnYXhLMENuNuj23eXCfyXCou+wnlEB8bWPhs=",
+        "originContent": "  - Pin or unpin the actor to its current screen coordinates.\\nBe aware of the current state of the actor: if it's already pinned or unpinned when the event is called, its position will be wrongly offset based on the scroll position.",
+        "translatedContent": "  - 将角色固定或取消固定到其当前屏幕坐标。\\n注意角色的当前状态：如果事件调用时角色已经被固定或取消固定，其位置将基于滚动位置错误偏移。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "+O79kisZq2s7Tjb/B8RU5YoPZSN0Dd74qP0e6mnXQ5o=",
+        "originContent": "## How to Install",
+        "translatedContent": "## 安装方法"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "GhausHNAAtg1WNerBTK8+11u6Dxs7cjMa097jg1AJlI=",
+        "originContent": "Drop the `plugins` folder into your project. All the above events will be available from the `Add Event` button.",
+        "translatedContent": "将 `plugins` 文件夹放入你的项目中。上述所有事件将通过 `添加事件` 按钮可用。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "ZfkIIdN9zXUnDtV9d2KtsR8rRJjTb/Cj+nNtkXTXknA=",
+        "originContent": "## More plugins from other authors:",
+        "translatedContent": "## 其他作者的更多插件："
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "JlBrenCHxUB51C8W/sfhcl+JExa7UckXlSiRhQ4eVho=",
+        "originContent": "- [NalaFala (Yousurname)'s GB Studio Plugin Collection](https://github.com/Y0UR-U5ERNAME/gbs-plugin-collection)",
+        "translatedContent": "- [NalaFala (你的用户名) 的 GB Studio 插件合集](https://github.com/Y0UR-U5ERNAME/gbs-plugin-collection)"
+      },
+      {
+        "row": 18,
+        "rowsha": "7xCZ5tZ+5P7Tx5RiMYUCsLrzUpncaebDwfCnIjEm/ik=",
+        "originContent": "- [Platformer+](https://github.com/becomingplural/GBS_PlatformerPlus)",
+        "translatedContent": "- [Platformer+](https://github.com/becomingplural/GBS_PlatformerPlus)"
+      },
+      {
+        "row": 19,
+        "rowsha": "dL9RcEn0ZQbakAN8QRGp30hlsnBhWDK2dFk1FBAMtHw=",
+        "originContent": "- [Advanced Dialog and Menu vB](https://github.com/dochardware/Advanced-Dialog-and-Menu)",
+        "translatedContent": "- [高级对话和菜单 vB](https://github.com/dochardware/Advanced-Dialog-and-Menu)"
+      },
+      {
+        "row": 20,
+        "rowsha": "fZD96+TeMm7ImQidJLfcmGvhzTmD83X0Ew+A2HVSzt8=",
+        "originContent": "- [Shin's GB Studio plugins](https://github.com/shin-gamedev/gbs-plugins)",
+        "translatedContent": "- [Shin 的 GB Studio 插件](https://github.com/shin-gamedev/gbs-plugins)"
+      },
+      {
+        "row": 21,
+        "rowsha": "0buJ9qZvVQnHQhT1eYpAv5Yj5NOD4pr9j/k5KUe7qsI=",
+        "originContent": "- [Gud GBS Plugins](https://github.com/mikeleisz/gud_gbs_plugins)",
+        "translatedContent": "- [Gud GBS 插件](https://github.com/mikeleisz/gud_gbs_plugins)"
+      },
+      {
+        "row": 22,
+        "rowsha": "P4NF6IQ3rMkFyt7dK2uJdXGNadTUs4RBSzUnXFkITWg=",
+        "originContent": "- [Fade Street](https://gearfo.itch.io/fade-street)",
+        "translatedContent": "- [Fade Street](https://gearfo.itch.io/fade-street)"
+      },
+      {
+        "row": 23,
+        "rowsha": "MkViutnSIlo1yjmpjf7h5fS5u/fD160GRx63B8rNoDk=",
+        "originContent": "- [Scroll Scene transition](https://github.com/Mico27/GBS-scrollScenePlugin) and more [Mico27's plugins](https://github.com/Mico27/)",
+        "translatedContent": "- [滚动场景过渡](https://github.com/Mico27/GBS-scrollScenePlugin) 及更多 [Mico27 的插件](https://github.com/Mico27/)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "zgG5mGAzGSpxuRTJ1c5kmecNF3Kef9jSkJkS9pogoA0=",
+        "originContent": "## Deprecated Plugin Events",
+        "translatedContent": "## 已废弃插件事件"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "RZy4+jYwd9QrkTBM33W4h9RPGfzUTbB9dKrrphxklVc=",
+        "originContent": "The following event plugins are no longer available as part of the Plugin Pak, as their functionality has been added to GB Studio natively.",
+        "translatedContent": "以下事件插件已不再作为插件包的一部分提供，其功能已被原生集成到 GB Studio 中。"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "a5B9CdAUwUoufqMGi1o3BMvNjmrzx8Mn8OAP/2jLoo8=",
+        "originContent": "Since 4.2:",
+        "translatedContent": "自 4.2 版本起："
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "fGacNTjTzmDtR3uHDWmDjNmUjgSZkWnnxgAimHa8tfM=",
+        "originContent": "- Player Field Update",
+        "translatedContent": "- 玩家字段更新"
+      },
+      {
+        "row": 32,
+        "rowsha": "wwnfthj1cZBAMMIecNVrUOyE1t0dUn+im/kcUhWdT5I=",
+        "originContent": "- Store Player Field In Variable",
+        "translatedContent": "- 将玩家字段存储到变量"
+      },
+      {
+        "row": 33,
+        "rowsha": "cAYiw/Z6ljiVdaibzd+0BCWLBHcCT1/7GRBEvB1NfMM=",
+        "originContent": "- Store Camera Field In Variable",
+        "translatedContent": "- 将摄像机字段存储到变量"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "/d6svYVMVRgYpcYxGNCzhb37NjnXpWHB3+V+LgBTInw=",
+        "originContent": "Since 4.1:",
+        "translatedContent": "自 4.1 版本起："
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "TP33xklzFF03uM0909GO08iYO/nN/MK63zeoFzFJcp0=",
+        "originContent": "- Display Advanced Dialogue",
+        "translatedContent": "- 显示高级对话"
+      },
+      {
+        "row": 38,
+        "rowsha": "IcryexfINRtLfsCachyNOmR8Rs/441skzkp9AFKJllA=",
+        "originContent": "- Display Background Text",
+        "translatedContent": "- 显示背景文本"
+      },
+      {
+        "row": 39,
+        "rowsha": "rUgKKJ5URAcMEf+LdVFHCEzadnjfJPQKKNc4F9ywV+8=",
+        "originContent": "- Print Screen Background",
+        "translatedContent": "- 打印屏幕背景"
+      },
+      {
+        "row": 40,
+        "rowsha": "GRV9NivthgUx6ZZbIXDcP15IfuXLKcGwjyOqHoCFSoQ=",
+        "originContent": "- Mute Channel",
+        "translatedContent": "- 静音频道"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "- Camera Field Update\n- Set Dialogue Frame\n- Actor FX\n\nSince 4.0:\n\n- Locked Event Group\n- Unlocked Event Group\n\n\nIf you're not using GB Studio 4.2 or above, you can still find the above [here](https://github.com/pau-tomas/gb-studio-plugins/tree/4.1). For plugins compatible with 4.0 check [here](https://github.com/pau-tomas/gb-studio-plugins/tree/4.0)\n",
+    "ContentSha": "nsK8N68G+uCI6RYm0rj7bt1R9W2LRD1U+9Pwj3sTiaQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 摄像机视野更新  \n- 设置对话框框架  \n- 角色特效  \n\n自4.0版本起：  \n\n- 锁定事件组  \n- 解锁事件组  \n\n如果您未使用GB Studio 4.2或更高版本，仍然可以在[这里](https://github.com/pau-tomas/gb-studio-plugins/tree/4.1)找到上述内容。兼容4.0版本的插件请查看[这里](https://github.com/pau-tomas/gb-studio-plugins/tree/4.0)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fstUhQAyROGa6rSOsMbItHtnM78Op4EHTbrJQK/MQuw=",
+        "originContent": "- Camera Field Update",
+        "translatedContent": "- 摄像机视野更新  "
+      },
+      {
+        "row": 2,
+        "rowsha": "vMBbv0zQndYbHPaq3qOEUN1UbNNA9FTvz7VNv5/Omlk=",
+        "originContent": "- Set Dialogue Frame",
+        "translatedContent": "- 设置对话框框架  "
+      },
+      {
+        "row": 3,
+        "rowsha": "GRu+muAGN+Wcu+U5v1bnuZLEijUFSEUxorZOz5vdTI0=",
+        "originContent": "- Actor FX",
+        "translatedContent": "- 角色特效  "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "1K3nE72dG0OP9jQeh/GqqJax06o+nWxgGesP1mRhlns=",
+        "originContent": "Since 4.0:",
+        "translatedContent": "自4.0版本起：  "
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "KXnbtZht8jXWJGBdpigyUFA0UlqhLMSmlV1PDVIHH38=",
+        "originContent": "- Locked Event Group",
+        "translatedContent": "- 锁定事件组  "
+      },
+      {
+        "row": 8,
+        "rowsha": "jDIPB6CZJzTvAKQU45kIPkHnk09o9A+5bOCC1hKu+SY=",
+        "originContent": "- Unlocked Event Group",
+        "translatedContent": "- 解锁事件组  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果您未使用GB Studio 4.2或更高版本，仍然可以在[这里](https://github.com/pau-tomas/gb-studio-plugins/tree/4.1)找到上述内容。兼容4.0版本的插件请查看[这里](https://github.com/pau-tomas/gb-studio-plugins/tree/4.0)"
+      },
+      {
+        "row": 11,
+        "rowsha": "DLKAsBRwxrTdr1qFJFFGwmqO752NBtanZ1h59PaynH4=",
+        "originContent": "If you're not using GB Studio 4.2 or above, you can still find the above [here](https://github.com/pau-tomas/gb-studio-plugins/tree/4.1). For plugins compatible with 4.0 check [here](https://github.com/pau-tomas/gb-studio-plugins/tree/4.0)",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

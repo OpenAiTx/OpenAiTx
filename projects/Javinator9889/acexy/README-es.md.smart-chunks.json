@@ -1,0 +1,1816 @@
+[
+  {
+    "Id": 1,
+    "Content": "# `acexy` - An AceStream Proxy Written In Go! ⚡\n\n[![Go Build](https://github.com/Javinator9889/acexy/actions/workflows/build.yaml/badge.svg)](https://github.com/Javinator9889/acexy/actions/workflows/build.yaml)\n[![Docker Release](https://github.com/Javinator9889/acexy/actions/workflows/release.yaml/badge.svg?event=release)](https://github.com/Javinator9889/acexy/actions/workflows/release.yaml)\n\n## Table of Contents\n\n- [How It Works? 🛠](#how-it-works-)\n- [Key Features 🔗](#key-features-)\n- [Usage 📐](#usage-)\n- [Optimizing 🚀](#optimizing-)\n  - [Alternative 🧃](#alternative-)\n- [Configuration Options ⚙](#configuration-options-)\n\n## How It Works? 🛠\n\nThis project is a wrapper around the\n[AceStream middleware HTTP API](https://docs.acestream.net/developers/start-playback/#using-middleware), allowing both\n[HLS](https://en.wikipedia.org/wiki/HTTP_Live_Streaming) and\n[MPEG-TS](https://en.wikipedia.org/wiki/HTTP_Live_Streaming) playback\nof a stream.\n\nI was tired of the limitations of AceStream and some of the problems that \nexist when playing a stream 📽. For example, it is only possible to play\nthe same channel for **1 single client**. For having multiple clients\nplaying **different streams**, you must manually add a unique `pid` per \nclient. If there was an error during the transmission, the **whole stream\ngoes down**, etc.\n\nI found quite frustrating the experience of using AceStream in a home network\nwith a single server and multiple clients, to try to optimize resources. This\nis the topology for which I am using AceStream:\n\n![AceStream Topology For My Network](https://raw.githubusercontent.com/Javinator9889/acexy/main/doc/img/topology.svg)\n\nThere are some problems:\n\n* Only **one client** can play the same stream at a time 🚫.\n* Having each client to run AceStream on their own is a waste of resources\n  and saturates the network 📉.",
+    "ContentSha": "7ALSlJdwvtJb//JRw5PaAcuSk5qwzCLT3ac2BLhREmM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# `acexy` - ¡Un Proxy AceStream Escrito en Go! ⚡\n\n[![Go Build](https://github.com/Javinator9889/acexy/actions/workflows/build.yaml/badge.svg)](https://github.com/Javinator9889/acexy/actions/workflows/build.yaml)\n[![Docker Release](https://github.com/Javinator9889/acexy/actions/workflows/release.yaml/badge.svg?event=release)](https://github.com/Javinator9889/acexy/actions/workflows/release.yaml)\n\n## Tabla de Contenidos\n\n- [¿Cómo Funciona? 🛠](#cómo-funciona-)\n- [Características Clave 🔗](#características-clave-)\n- [Uso 📐](#uso-)\n- [Optimización 🚀](#optimización-)\n  - [Alternativa 🧃](#alternativa-)\n- [Opciones de Configuración ⚙](#opciones-de-configuración-)\n\n## ¿Cómo Funciona? 🛠\n\nEste proyecto es un envoltorio alrededor de la\n[API HTTP intermedia de AceStream](https://docs.acestream.net/developers/start-playback/#using-middleware), que permite tanto\n[HLS](https://es.wikipedia.org/wiki/HTTP_Live_Streaming) como\n[reproducción MPEG-TS](https://es.wikipedia.org/wiki/HTTP_Live_Streaming)\nde una transmisión.\n\nEstaba cansado de las limitaciones de AceStream y algunos de los problemas que \nexisten al reproducir una transmisión 📽. Por ejemplo, solo es posible reproducir\nel mismo canal para **1 solo cliente**. Para tener múltiples clientes\nreproduciendo **diferentes transmisiones**, debes agregar manualmente un `pid` único por \ncliente. Si hubo un error durante la transmisión, **toda la transmisión\nse cae**, etc.\n\nEncontré bastante frustrante la experiencia de usar AceStream en una red doméstica\ncon un solo servidor y múltiples clientes, para intentar optimizar recursos. Esta\nes la topología para la que estoy usando AceStream:\n\n![Topología AceStream Para Mi Red](https://raw.githubusercontent.com/Javinator9889/acexy/main/doc/img/topology.svg)\n\nHay algunos problemas:\n\n* Solo **un cliente** puede reproducir la misma transmisión a la vez 🚫.\n* Que cada cliente ejecute AceStream por su cuenta es un desperdicio de recursos\n  y satura la red 📉.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wLjU3VSzIy6tubR2dmEoJtx8tvj3VMHcoJhL4MkFanU=",
+        "originContent": "# `acexy` - An AceStream Proxy Written In Go! ⚡",
+        "translatedContent": "# `acexy` - ¡Un Proxy AceStream Escrito en Go! ⚡"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "e56MCNNPVMWJgjsXUJuSNOSf2x99vkzmmnxT4vUgNb0=",
+        "originContent": "[![Go Build](https://github.com/Javinator9889/acexy/actions/workflows/build.yaml/badge.svg)](https://github.com/Javinator9889/acexy/actions/workflows/build.yaml)",
+        "translatedContent": "[![Go Build](https://github.com/Javinator9889/acexy/actions/workflows/build.yaml/badge.svg)](https://github.com/Javinator9889/acexy/actions/workflows/build.yaml)"
+      },
+      {
+        "row": 4,
+        "rowsha": "xCY+YrZZ1fxlhsKpcsgGiKxuaQkbd89B/ipim5soOZI=",
+        "originContent": "[![Docker Release](https://github.com/Javinator9889/acexy/actions/workflows/release.yaml/badge.svg?event=release)](https://github.com/Javinator9889/acexy/actions/workflows/release.yaml)",
+        "translatedContent": "[![Docker Release](https://github.com/Javinator9889/acexy/actions/workflows/release.yaml/badge.svg?event=release)](https://github.com/Javinator9889/acexy/actions/workflows/release.yaml)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## Tabla de Contenidos"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "aRryMbKrK3VOUA+IVcXiLUqI9dzVALP+10iBTrSjA+E=",
+        "originContent": "- [How It Works? 🛠](#how-it-works-)",
+        "translatedContent": "- [¿Cómo Funciona? 🛠](#cómo-funciona-)"
+      },
+      {
+        "row": 9,
+        "rowsha": "lh5SZuQE95cy7TzhTuPwgROGZqalPyJMh2g+jpId5KY=",
+        "originContent": "- [Key Features 🔗](#key-features-)",
+        "translatedContent": "- [Características Clave 🔗](#características-clave-)"
+      },
+      {
+        "row": 10,
+        "rowsha": "+jExYcpVp1PozFMFeze5jTRnwV3h6eM5xzwIydzPuE8=",
+        "originContent": "- [Usage 📐](#usage-)",
+        "translatedContent": "- [Uso 📐](#uso-)"
+      },
+      {
+        "row": 11,
+        "rowsha": "t8iyxSiEc9H8nWZwCS0OJv0WgUV7TSgLek5mwxSZgJk=",
+        "originContent": "- [Optimizing 🚀](#optimizing-)",
+        "translatedContent": "- [Optimización 🚀](#optimización-)"
+      },
+      {
+        "row": 12,
+        "rowsha": "Rn2NBUUJ4WP+SEe3NpcON/9m/uQ62XG2a8Hq7AE6SG0=",
+        "originContent": "  - [Alternative 🧃](#alternative-)",
+        "translatedContent": "  - [Alternativa 🧃](#alternativa-)"
+      },
+      {
+        "row": 13,
+        "rowsha": "64oeW2GbI3Iu+o3yGcE1rKgt7zBXFqnCNOMqJ45XZyI=",
+        "originContent": "- [Configuration Options ⚙](#configuration-options-)",
+        "translatedContent": "- [Opciones de Configuración ⚙](#opciones-de-configuración-)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "uf8QBXC2v0Ah6mfGvogc5asgwhU2qDQ5QS7XNq52xGI=",
+        "originContent": "## How It Works? 🛠",
+        "translatedContent": "## ¿Cómo Funciona? 🛠"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "ESA5rx3eZLWsmdEf+ojX2q/nJYlCXrsUwikYw9jq7zo=",
+        "originContent": "This project is a wrapper around the",
+        "translatedContent": "Este proyecto es un envoltorio alrededor de la"
+      },
+      {
+        "row": 18,
+        "rowsha": "1BDCceHPjOtHM1wY5ZBbZL581mfjfZf2b1s429tJgoE=",
+        "originContent": "[AceStream middleware HTTP API](https://docs.acestream.net/developers/start-playback/#using-middleware), allowing both",
+        "translatedContent": "[API HTTP intermedia de AceStream](https://docs.acestream.net/developers/start-playback/#using-middleware), que permite tanto"
+      },
+      {
+        "row": 19,
+        "rowsha": "R2srGo6r/SySxw/CPleLLX/+xTFyAxu4BzrNSYMWx7o=",
+        "originContent": "[HLS](https://en.wikipedia.org/wiki/HTTP_Live_Streaming) and",
+        "translatedContent": "[HLS](https://es.wikipedia.org/wiki/HTTP_Live_Streaming) como"
+      },
+      {
+        "row": 20,
+        "rowsha": "cGGpRaR7lzRfzPT+KgufvK7s9rYCCZoelaUr215Y574=",
+        "originContent": "[MPEG-TS](https://en.wikipedia.org/wiki/HTTP_Live_Streaming) playback",
+        "translatedContent": "[reproducción MPEG-TS](https://es.wikipedia.org/wiki/HTTP_Live_Streaming)"
+      },
+      {
+        "row": 21,
+        "rowsha": "3V4HkEl7ep8WQxdhoczEHm2SmN5zr8nNk/QjC/FLGug=",
+        "originContent": "of a stream.",
+        "translatedContent": "de una transmisión."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "ewOY6pj1i4SzXOuDOkPjZh+FSahbnodn8EK2dG3yhbM=",
+        "originContent": "I was tired of the limitations of AceStream and some of the problems that ",
+        "translatedContent": "Estaba cansado de las limitaciones de AceStream y algunos de los problemas que "
+      },
+      {
+        "row": 24,
+        "rowsha": "dPC+FannYLDpD2sIac0Eek8uZwdEBToj3sYebpHXQEU=",
+        "originContent": "exist when playing a stream 📽. For example, it is only possible to play",
+        "translatedContent": "existen al reproducir una transmisión 📽. Por ejemplo, solo es posible reproducir"
+      },
+      {
+        "row": 25,
+        "rowsha": "YjJbAJlQJYB4sgbuyQ1E6ACZ/glFHTzfSUtZQ1yUiFI=",
+        "originContent": "the same channel for **1 single client**. For having multiple clients",
+        "translatedContent": "el mismo canal para **1 solo cliente**. Para tener múltiples clientes"
+      },
+      {
+        "row": 26,
+        "rowsha": "aO7NmKA3q0m9Afn6f8rV04RuHFPaehMqi6dKWZk+p98=",
+        "originContent": "playing **different streams**, you must manually add a unique `pid` per ",
+        "translatedContent": "reproduciendo **diferentes transmisiones**, debes agregar manualmente un `pid` único por "
+      },
+      {
+        "row": 27,
+        "rowsha": "C63aaBQtG7fhpH83lh6ZMb9CN6lh5jy3GrGlg8HfIvE=",
+        "originContent": "client. If there was an error during the transmission, the **whole stream",
+        "translatedContent": "cliente. Si hubo un error durante la transmisión, **toda la transmisión"
+      },
+      {
+        "row": 28,
+        "rowsha": "ZU0Mvvzb/QazGw4tP2isEL5hU9sSepOYdh0iJZ0HZP4=",
+        "originContent": "goes down**, etc.",
+        "translatedContent": "se cae**, etc."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "5Gxeft4fDdjV+NFeM7c5wxMqBRN2KClADrPeQq3LQ2s=",
+        "originContent": "I found quite frustrating the experience of using AceStream in a home network",
+        "translatedContent": "Encontré bastante frustrante la experiencia de usar AceStream en una red doméstica"
+      },
+      {
+        "row": 31,
+        "rowsha": "Xue36uS4xel+VoSSiqEKcDIOOZWcBggwQATIDhM9An8=",
+        "originContent": "with a single server and multiple clients, to try to optimize resources. This",
+        "translatedContent": "con un solo servidor y múltiples clientes, para intentar optimizar recursos. Esta"
+      },
+      {
+        "row": 32,
+        "rowsha": "EPaVEIPMH+fqM3WtaU4C7p79yznKFsRQwM3FxElIJvc=",
+        "originContent": "is the topology for which I am using AceStream:",
+        "translatedContent": "es la topología para la que estoy usando AceStream:"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "9B1cNkHSknSG7xcfrbmCbJ5wPYfftMi8Z5/auWJNWO0=",
+        "originContent": "![AceStream Topology For My Network](https://raw.githubusercontent.com/Javinator9889/acexy/main/doc/img/topology.svg)",
+        "translatedContent": "![Topología AceStream Para Mi Red](https://raw.githubusercontent.com/Javinator9889/acexy/main/doc/img/topology.svg)"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "xm4jJO4Js3NzMV0u3L6HsqkjfbB+9GRfiRQ6kFLhvQw=",
+        "originContent": "There are some problems:",
+        "translatedContent": "Hay algunos problemas:"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "HIPmXGDrG+ZfyHYtEkIKpwsBCPorMIvsLZPaI6jWKho=",
+        "originContent": "* Only **one client** can play the same stream at a time 🚫.",
+        "translatedContent": "* Solo **un cliente** puede reproducir la misma transmisión a la vez 🚫."
+      },
+      {
+        "row": 39,
+        "rowsha": "X5lqglZ2/ht3Ib8/eZMRN9pd36+hFSQ4nxeVYzPhqFA=",
+        "originContent": "* Having each client to run AceStream on their own is a waste of resources",
+        "translatedContent": "* Que cada cliente ejecute AceStream por su cuenta es un desperdicio de recursos"
+      },
+      {
+        "row": 40,
+        "rowsha": "AF19w45YTgMz6U4JPjBPbKkYVGz/4jLo7XDplMHvbII=",
+        "originContent": "  and saturates the network 📉.",
+        "translatedContent": "  y satura la red 📉."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "* Multiple clients can play different streams if they have a unique `pid`\n  (Player ID) associated 🔓.\n* The standard AceStream HTTP API is not resilient enough against errors,\n  if the transmission stops it stops for every client ❌.\n\n## Key Features 🔗\n\nWhen using `acexy`, you automatically have:\n\n* A single, centralized server running **all your AceStream streams** ⛓.\n* Automatic assignation of a unique `pid` (Player ID) **per client per stream** 🪪.\n* **Stream Multiplexing** 🕎: The same stream can be reproduced *at the\n  same time in multiple clients*.\n* **Resilient, error-proof** streaming thanks to the HTTP Middleware 🛡.\n* *Blazing fast, minimal proxy* ☄ written in Go!\n\nWith this proxy, the following architecture is now possible:\n\n![acexy Topology](https://raw.githubusercontent.com/Javinator9889/acexy/main/doc/img/acexy.svg)\n\n## Usage 📐\n\n`acexy` is available and published as a Docker image. Make sure you have\nthe latest [Docker](https://docker.com) image installed and available.\n\nThe Acexy container will connect against an AceStream server. You need to\ndeploy either a Docker image, and link Acexy within the same network; Or\nhave a running AceStream version on your host and run Acexy in host-networked\nmode.\n\n> **INFO**: There is a `docker-compose.yml` file in the repo you can directly\n> use to launch the whole block. This is **the recommended setup starting\n> from `v0.2.0`**.\n\nTo run the services block, first grab the `docker-compose.yml` file, and run:\n",
+    "ContentSha": "8FW6E+WKOjitJwOScgc2u/Ct7pyfrTUL9y/gm8sHmuI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* Varios clientes pueden reproducir diferentes streams si tienen un `pid`\n  (ID de Reproductor) único asociado 🔓.\n* La API HTTP estándar de AceStream no es lo suficientemente resistente a errores,\n  si la transmisión se detiene, se detiene para todos los clientes ❌.\n\n## Características Clave 🔗\n\nAl usar `acexy`, automáticamente tienes:\n\n* Un servidor único y centralizado ejecutando **todas tus transmisiones AceStream** ⛓.\n* Asignación automática de un `pid` único (ID de Reproductor) **por cliente por stream** 🪪.\n* **Multiplexación de Streams** 🕎: El mismo stream puede reproducirse *al\n  mismo tiempo en múltiples clientes*.\n* Streaming **resistente y a prueba de errores** gracias al Middleware HTTP 🛡.\n* *Proxy ultrarrápido y minimalista* ☄ escrito en Go!\n\nCon este proxy, ahora es posible la siguiente arquitectura:\n\n![acexy Topology](https://raw.githubusercontent.com/Javinator9889/acexy/main/doc/img/acexy.svg)\n\n## Uso 📐\n\n`acexy` está disponible y publicado como una imagen Docker. Asegúrate de tener\nla última imagen de [Docker](https://docker.com) instalada y disponible.\n\nEl contenedor Acexy se conectará a un servidor AceStream. Necesitas\ndesplegar una imagen Docker, y vincular Acexy dentro de la misma red; O\ntener una versión de AceStream ejecutándose en tu host y correr Acexy en modo red de host.\n\n> **INFO**: Hay un archivo `docker-compose.yml` en el repositorio que puedes\n> usar directamente para lanzar todo el bloque. Esta es **la configuración recomendada a partir de `v0.2.0`**.\n\nPara ejecutar el bloque de servicios, primero obtén el archivo `docker-compose.yml`, y ejecuta:\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LUhoB3aK33J/c7/qsLtCxn/EXtUqePrGfabtcMtQvMY=",
+        "originContent": "* Multiple clients can play different streams if they have a unique `pid`",
+        "translatedContent": "* Varios clientes pueden reproducir diferentes streams si tienen un `pid`"
+      },
+      {
+        "row": 2,
+        "rowsha": "whd2oBorTnlTYzCUdYCq+7V57UIzmq1GQN4XZby+KJk=",
+        "originContent": "  (Player ID) associated 🔓.",
+        "translatedContent": "  (ID de Reproductor) único asociado 🔓."
+      },
+      {
+        "row": 3,
+        "rowsha": "qJFx5hQWkPhobKRLCfaqJhh/PKYeZbsCqf6OVUSkTMw=",
+        "originContent": "* The standard AceStream HTTP API is not resilient enough against errors,",
+        "translatedContent": "* La API HTTP estándar de AceStream no es lo suficientemente resistente a errores,"
+      },
+      {
+        "row": 4,
+        "rowsha": "QUdRGo2m43vw+tUEZhnzu1cuDqffn5oIOQ1RzVi9Z1Y=",
+        "originContent": "  if the transmission stops it stops for every client ❌.",
+        "translatedContent": "  si la transmisión se detiene, se detiene para todos los clientes ❌."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ki4T7G4vBZvLC/5bQDpQlbVQe4iuIxAfaMC5cLsqNPQ=",
+        "originContent": "## Key Features 🔗",
+        "translatedContent": "## Características Clave 🔗"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "XPSPrnx1KCvyczMIpnAtWSx20Ehi0QK7dl/3OYcU7UE=",
+        "originContent": "When using `acexy`, you automatically have:",
+        "translatedContent": "Al usar `acexy`, automáticamente tienes:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "zz+GoykoT2wjaUAT+eJ6XPTdSYToTs/+NG6McGer7EY=",
+        "originContent": "* A single, centralized server running **all your AceStream streams** ⛓.",
+        "translatedContent": "* Un servidor único y centralizado ejecutando **todas tus transmisiones AceStream** ⛓."
+      },
+      {
+        "row": 11,
+        "rowsha": "M9zryoskToxbQIWK7cR6jNPaO488kS6d+7nQBFOCEkU=",
+        "originContent": "* Automatic assignation of a unique `pid` (Player ID) **per client per stream** 🪪.",
+        "translatedContent": "* Asignación automática de un `pid` único (ID de Reproductor) **por cliente por stream** 🪪."
+      },
+      {
+        "row": 12,
+        "rowsha": "g1uH7L/oRdu1USJ+s/ZdjtMCM8AFgyJDmiIpwwSQ2qA=",
+        "originContent": "* **Stream Multiplexing** 🕎: The same stream can be reproduced *at the",
+        "translatedContent": "* **Multiplexación de Streams** 🕎: El mismo stream puede reproducirse *al"
+      },
+      {
+        "row": 13,
+        "rowsha": "JfX9HoyI2VoLfyTjFpnYrdHPSS9N0Xq2FhBrxpPBgl8=",
+        "originContent": "  same time in multiple clients*.",
+        "translatedContent": "  mismo tiempo en múltiples clientes*."
+      },
+      {
+        "row": 14,
+        "rowsha": "bYWnO90eBEVrxe634OIPYFDbQdn0gjdMfnvzZKxJ5zw=",
+        "originContent": "* **Resilient, error-proof** streaming thanks to the HTTP Middleware 🛡.",
+        "translatedContent": "* Streaming **resistente y a prueba de errores** gracias al Middleware HTTP 🛡."
+      },
+      {
+        "row": 15,
+        "rowsha": "q3vtvpKk+RGqN2Y9ZfGBYFdwqcIN5/03+7wesV5sJLE=",
+        "originContent": "* *Blazing fast, minimal proxy* ☄ written in Go!",
+        "translatedContent": "* *Proxy ultrarrápido y minimalista* ☄ escrito en Go!"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "yz2ULAi17cQBEF9iL55kwutThD8F9EhQ/9vWIRUOvxU=",
+        "originContent": "With this proxy, the following architecture is now possible:",
+        "translatedContent": "Con este proxy, ahora es posible la siguiente arquitectura:"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "7ISVb+xhpCJ8Nu76ztBW69XsX97UbzapY23iqcmcLog=",
+        "originContent": "![acexy Topology](https://raw.githubusercontent.com/Javinator9889/acexy/main/doc/img/acexy.svg)",
+        "translatedContent": "![acexy Topology](https://raw.githubusercontent.com/Javinator9889/acexy/main/doc/img/acexy.svg)"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "cvXCiomBSbxthYtiZ2f5q1R89dkcHcYtsxfjQvqpiV0=",
+        "originContent": "## Usage 📐",
+        "translatedContent": "## Uso 📐"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "QcKNgMKbZ3BJx+oet6jsiHdbS5eQBL+eaBRdPfVwnU4=",
+        "originContent": "`acexy` is available and published as a Docker image. Make sure you have",
+        "translatedContent": "`acexy` está disponible y publicado como una imagen Docker. Asegúrate de tener"
+      },
+      {
+        "row": 24,
+        "rowsha": "1BB9mJz+UGWfXQZ5HInf+7875G8LVUT9dK2vtk6ts2s=",
+        "originContent": "the latest [Docker](https://docker.com) image installed and available.",
+        "translatedContent": "la última imagen de [Docker](https://docker.com) instalada y disponible."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "bT20nS8tEeySkX0KehyDUO0iaqvIOJmsVAnv8ozZ60U=",
+        "originContent": "The Acexy container will connect against an AceStream server. You need to",
+        "translatedContent": "El contenedor Acexy se conectará a un servidor AceStream. Necesitas"
+      },
+      {
+        "row": 27,
+        "rowsha": "p9QZyKgOO5UtntX2YFU02cV9gk7/TRbpWB3SGhNLeL4=",
+        "originContent": "deploy either a Docker image, and link Acexy within the same network; Or",
+        "translatedContent": "desplegar una imagen Docker, y vincular Acexy dentro de la misma red; O"
+      },
+      {
+        "row": 28,
+        "rowsha": "Dilgaee+vl+V7u3jrzWSTCL+E8s4+A4D8a/at2/ak+0=",
+        "originContent": "have a running AceStream version on your host and run Acexy in host-networked",
+        "translatedContent": "tener una versión de AceStream ejecutándose en tu host y correr Acexy en modo red de host."
+      },
+      {
+        "row": 29,
+        "rowsha": "7OejHpCUBzoIYTBvf+k/Tmu5ft3077flsRB4AyrLLHc=",
+        "originContent": "mode.",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> **INFO**: Hay un archivo `docker-compose.yml` en el repositorio que puedes"
+      },
+      {
+        "row": 31,
+        "rowsha": "QlyLnRD78dQn0IoEFZvPdSke1vNS5LtfoDizUep+uTk=",
+        "originContent": "> **INFO**: There is a `docker-compose.yml` file in the repo you can directly",
+        "translatedContent": "> usar directamente para lanzar todo el bloque. Esta es **la configuración recomendada a partir de `v0.2.0`**."
+      },
+      {
+        "row": 32,
+        "rowsha": "E1RSKMk0BRPpfyNR0bHtW9OPFKsQi50PtAGPBuAl+vA=",
+        "originContent": "> use to launch the whole block. This is **the recommended setup starting",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "VzG4q2yUJN56kceoGxq3Xp6+Z5QcIzkU8/FckXflRlM=",
+        "originContent": "> from `v0.2.0`**.",
+        "translatedContent": "Para ejecutar el bloque de servicios, primero obtén el archivo `docker-compose.yml`, y ejecuta:"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "dSCFgXqp6v9/QyKUcKDW8TBFn320u69rD/oRFvS8Wbw=",
+        "originContent": "To run the services block, first grab the `docker-compose.yml` file, and run:",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```shell\nwget https://raw.githubusercontent.com/Javinator9889/acexy/refs/heads/main/docker-compose.yml\ndocker compose run -d\n```",
+    "ContentSha": "dCkFy/Ru23AEdaH11QRfGk779lvNlXJ16rORZGNmgb0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nwget https://raw.githubusercontent.com/Javinator9889/acexy/refs/heads/main/docker-compose.yml\ndocker compose run -d\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "IBhazMio88WX5cBBbiBpOs2bAO3Q9A9Fibn7s8D/qi0=",
+        "originContent": "wget https://raw.githubusercontent.com/Javinator9889/acexy/refs/heads/main/docker-compose.yml",
+        "translatedContent": "wget https://raw.githubusercontent.com/Javinator9889/acexy/refs/heads/main/docker-compose.yml"
+      },
+      {
+        "row": 3,
+        "rowsha": "iAr4giZ5E13Z01y0sxtqg+MONTzhk9aXv53I1pa65HI=",
+        "originContent": "docker compose run -d",
+        "translatedContent": "docker compose run -d"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nIf you don't want to use Docker Compose, assuming you already have an\nAceStream server, another way could be:\n",
+    "ContentSha": "ykrX7X7UYagN1Fre61CDnoGT7JnfPc3qpE/Mhk9TEio=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nSi no quieres usar Docker Compose, asumiendo que ya tienes un\nservidor AceStream, otra forma podría ser:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "zCgrf5KCtU6+T0mICXqq0WJB8c36IQFUx0hdrUdNPZE=",
+        "originContent": "If you don't want to use Docker Compose, assuming you already have an",
+        "translatedContent": "Si no quieres usar Docker Compose, asumiendo que ya tienes un"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZQpXggbeNzyQiG6ym9EOKFmuYtIuyLFvzVsZ08uykuc=",
+        "originContent": "AceStream server, another way could be:",
+        "translatedContent": "servidor AceStream, otra forma podría ser:"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```shell\ndocker run --network host ghcr.io/javinator9889/acexy\n```",
+    "ContentSha": "hq+ysUBM2fESSgUSuoe+qwlcX0U9GcaKiJmPZpqe4Vs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\ndocker run --network host ghcr.io/javinator9889/acexy\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "Y0fvHS6iAcaVULCXOXLP9f4aULTfR8EIu5clzjjaHEQ=",
+        "originContent": "docker run --network host ghcr.io/javinator9889/acexy",
+        "translatedContent": "docker run --network host ghcr.io/javinator9889/acexy"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n> **NOTE**: For your convenience, a `docker-compose.yml` file is given with\n> all the possible adjustable parameters. It should be ready to run, and it's\n> the recommended way starting from `v0.2.0`.\n\nBy default, the proxy will work in MPEG-TS mode. For switching between them,\nyou must add the **`-m3u8` flag** or set **`ACEXY_M3U8=true` environment\nvariable**.\n\n> **NOTE**: The HLS mode - `ACEXY_M3U8` or `-m3u8` flag - is in a non-tested\n> status. Using it is discouraged and not guaranteed to work.\n\nThere is a single available endpoint: `/ace/getstream` which takes the same\nparameters as the standard\n[AceStream Middleware/HTTP API](https://docs.acestream.net/developers/api-reference/). Therefore,\nfor running a stream, just open the following link in your preferred application - such as VLC:\n",
+    "ContentSha": "T0YgGkJfM6u2CBGaYkbp1zWuakqMF7892kfVT12jqzY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> **NOTA**: Para su conveniencia, se proporciona un archivo `docker-compose.yml` con\n> todos los parámetros ajustables posibles. Debe estar listo para ejecutarse y es\n> la forma recomendada a partir de la versión `v0.2.0`.\n\nPor defecto, el proxy funcionará en modo MPEG-TS. Para cambiar entre ellos,\ndebe agregar el **flag `-m3u8`** o establecer la **variable de entorno `ACEXY_M3U8=true`**.\n\n> **NOTA**: El modo HLS - `ACEXY_M3U8` o flag `-m3u8` - está en estado no probado.\n> Se desaconseja su uso y no se garantiza que funcione.\n\nHay un único endpoint disponible: `/ace/getstream` que acepta los mismos\nparámetros que la\n[AceStream Middleware/HTTP API estándar](https://docs.acestream.net/developers/api-reference/). Por lo tanto,\npara ejecutar un stream, simplemente abra el siguiente enlace en su aplicación preferida, como VLC:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "uhuzuD6nZ9biV+RRQ81rvGD2sy8uFB/RZbbIpNEtz8E=",
+        "originContent": "> **NOTE**: For your convenience, a `docker-compose.yml` file is given with",
+        "translatedContent": "> **NOTA**: Para su conveniencia, se proporciona un archivo `docker-compose.yml` con"
+      },
+      {
+        "row": 3,
+        "rowsha": "bLOrRCqo+bsRtw8i2CLeoBdgXFth7F+h7soA/WdMi4o=",
+        "originContent": "> all the possible adjustable parameters. It should be ready to run, and it's",
+        "translatedContent": "> todos los parámetros ajustables posibles. Debe estar listo para ejecutarse y es"
+      },
+      {
+        "row": 4,
+        "rowsha": "nHnyU/dM4lcDcmAGNkwE9XOHNwaE3OvQdlXuk7DtGj8=",
+        "originContent": "> the recommended way starting from `v0.2.0`.",
+        "translatedContent": "> la forma recomendada a partir de la versión `v0.2.0`."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "/DoKW9nf9F8IQXKdwAyweRZ7Eg/322iUGbnUmZpg0k4=",
+        "originContent": "By default, the proxy will work in MPEG-TS mode. For switching between them,",
+        "translatedContent": "Por defecto, el proxy funcionará en modo MPEG-TS. Para cambiar entre ellos,"
+      },
+      {
+        "row": 7,
+        "rowsha": "3a93Ni6HbR2Zlv7Qhildt0A8lWxZ73lO7i6NkzMW7go=",
+        "originContent": "you must add the **`-m3u8` flag** or set **`ACEXY_M3U8=true` environment",
+        "translatedContent": "debe agregar el **flag `-m3u8`** o establecer la **variable de entorno `ACEXY_M3U8=true`**."
+      },
+      {
+        "row": 8,
+        "rowsha": "tsnYHx55P7ck1Hsa+Tyzvpb9Q/LDXTBF9BCY2TvV/Gs=",
+        "originContent": "variable**.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> **NOTA**: El modo HLS - `ACEXY_M3U8` o flag `-m3u8` - está en estado no probado."
+      },
+      {
+        "row": 10,
+        "rowsha": "OWEEcXqfcaz5YB8EK+/D4EbxzrU4KGcsKs4drPD7N+E=",
+        "originContent": "> **NOTE**: The HLS mode - `ACEXY_M3U8` or `-m3u8` flag - is in a non-tested",
+        "translatedContent": "> Se desaconseja su uso y no se garantiza que funcione."
+      },
+      {
+        "row": 11,
+        "rowsha": "bxVbVhe3D8WG5nA3liXDOh3TrPhzev/7MkMJQdlIxmU=",
+        "originContent": "> status. Using it is discouraged and not guaranteed to work.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Hay un único endpoint disponible: `/ace/getstream` que acepta los mismos"
+      },
+      {
+        "row": 13,
+        "rowsha": "S3qMRWaP4dO0r9C+H4BsZnL+SkIaIcSYIyiYyDiTYao=",
+        "originContent": "There is a single available endpoint: `/ace/getstream` which takes the same",
+        "translatedContent": "parámetros que la"
+      },
+      {
+        "row": 14,
+        "rowsha": "7+Hsdm0zXzEJ9Ic14ajvYgpFEEXyIAKOdvWc3H3l4bg=",
+        "originContent": "parameters as the standard",
+        "translatedContent": "[AceStream Middleware/HTTP API estándar](https://docs.acestream.net/developers/api-reference/). Por lo tanto,"
+      },
+      {
+        "row": 15,
+        "rowsha": "fZ6cThvbrhJqG06ORAzkQSEeLzJHMt7wIW6ngP6r/6I=",
+        "originContent": "[AceStream Middleware/HTTP API](https://docs.acestream.net/developers/api-reference/). Therefore,",
+        "translatedContent": "para ejecutar un stream, simplemente abra el siguiente enlace en su aplicación preferida, como VLC:"
+      },
+      {
+        "row": 16,
+        "rowsha": "GjlQTsE2FGcUIS3iJMDzrR+r4Be2ilqBXBOzStLlsZs=",
+        "originContent": "for running a stream, just open the following link in your preferred application - such as VLC:",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```\nhttp://127.0.0.1:8080/ace/getstream?id=dd1e67078381739d14beca697356ab76d49d1a2\n```",
+    "ContentSha": "c5W+m3Z8t4zSlGyFiF/2zn70rzfompqQ3QcKS5+S6Q0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nhttp://127.0.0.1:8080/ace/getstream?id=dd1e67078381739d14beca697356ab76d49d1a2\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "cniJSJytN5bwc6Wjyd8cdOnb0BMFLptI4Sci8C/8lpQ=",
+        "originContent": "http://127.0.0.1:8080/ace/getstream?id=dd1e67078381739d14beca697356ab76d49d1a2",
+        "translatedContent": "http://127.0.0.1:8080/ace/getstream?id=dd1e67078381739d14beca697356ab76d49d1a2"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\nwhere `dd1e67078381739d14beca697356ab76d49d1a2` is the ID of the AceStream \nchannel.\n\n## Optimizing 🚀\n\nThe AceStream Engine running behind of the proxy has a number of ports that can\nbe exposed to optimize the performance. Those are, by default:\n\n- `8621/tcp`\n- `8621/udp`\n\n> NOTE: They can be adjusted through the `EXTRA_FLAGS` variable - within Docker - by\n> using the `--port` flag.\n\nExposing those ports should help getting a more stable streaming experience. Notice\nthat you will need to open up those ports on your gateway too.\n\nFor reference, this is how you should run the Docker command:\n",
+    "ContentSha": "4iIA1clyQ2z+rm+ttgjdcMBf8tcgeRmxU26SoE1nODI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "donde `dd1e67078381739d14beca697356ab76d49d1a2` es el ID del canal AceStream.\n\n## Optimización 🚀\n\nEl motor AceStream que se ejecuta detrás del proxy tiene varios puertos que se pueden\nexponer para optimizar el rendimiento. Por defecto, son:\n\n- `8621/tcp`\n- `8621/udp`\n\n> NOTA: Pueden ajustarse mediante la variable `EXTRA_FLAGS` - dentro de Docker - usando\n> la bandera `--port`.\n\nExponer esos puertos debería ayudar a obtener una experiencia de streaming más estable. Ten en\ncuenta que también necesitarás abrir esos puertos en tu gateway.\n\nPara referencia, así es como deberías ejecutar el comando Docker:\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "donde `dd1e67078381739d14beca697356ab76d49d1a2` es el ID del canal AceStream."
+      },
+      {
+        "row": 2,
+        "rowsha": "MwnJpxdgMW0eeIwy6EqywsIOkPfJEbkW3nd1k85DDvM=",
+        "originContent": "where `dd1e67078381739d14beca697356ab76d49d1a2` is the ID of the AceStream ",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "nyrBtAslAY5nbV/gIVUcbbNDlZomEdUAZYzZr0tYb9Q=",
+        "originContent": "channel.",
+        "translatedContent": "## Optimización 🚀"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "10MeURYlKtZ18NB/W07GZUNGY28HtpUSrcBO73MEyyw=",
+        "originContent": "## Optimizing 🚀",
+        "translatedContent": "El motor AceStream que se ejecuta detrás del proxy tiene varios puertos que se pueden"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "exponer para optimizar el rendimiento. Por defecto, son:"
+      },
+      {
+        "row": 7,
+        "rowsha": "wC5d8YyDD5ITUh5PrzWnKgj1qDjWNOFapw/oV4+GBAg=",
+        "originContent": "The AceStream Engine running behind of the proxy has a number of ports that can",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "YIS15gb5uoe7t7xCg8a1fCnriQYUXci/MBaE8DYJc/c=",
+        "originContent": "be exposed to optimize the performance. Those are, by default:",
+        "translatedContent": "- `8621/tcp`"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `8621/udp`"
+      },
+      {
+        "row": 10,
+        "rowsha": "5BtZc2SkPt9iX+RjNbocrtfSAqL6OqLB3cPC4cIQfsA=",
+        "originContent": "- `8621/tcp`",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "sGK6twZat0M3BB6eHefbwJLKmx4/ZDwiMrhMsXO+ZVg=",
+        "originContent": "- `8621/udp`",
+        "translatedContent": "> NOTA: Pueden ajustarse mediante la variable `EXTRA_FLAGS` - dentro de Docker - usando"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> la bandera `--port`."
+      },
+      {
+        "row": 13,
+        "rowsha": "Jng+axKbz48xOR+iGRpamb3BGw6H3Hb1084EONPCWBc=",
+        "originContent": "> NOTE: They can be adjusted through the `EXTRA_FLAGS` variable - within Docker - by",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "k73BFcQN8ejDXVLaVmSXgwC6pWs+ggZ5xBtxu1y9mUY=",
+        "originContent": "> using the `--port` flag.",
+        "translatedContent": "Exponer esos puertos debería ayudar a obtener una experiencia de streaming más estable. Ten en"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "cuenta que también necesitarás abrir esos puertos en tu gateway."
+      },
+      {
+        "row": 16,
+        "rowsha": "oCZWEC915sfQ0CJ2j2XE+VHvsb/DPhOJ6J/pVLX2sR4=",
+        "originContent": "Exposing those ports should help getting a more stable streaming experience. Notice",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "iwOza/9KGmgAv/volFttXu3Pr7ee9iJh8DcdCEzUGdA=",
+        "originContent": "that you will need to open up those ports on your gateway too.",
+        "translatedContent": "Para referencia, así es como deberías ejecutar el comando Docker:"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "GKb22f65wxRZUilknMjczgymQyDC+sJS0ReJfrRHr9c=",
+        "originContent": "For reference, this is how you should run the Docker command:",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```shell\ndocker run -t -p 8080:8080 -p 8621:8621 ghcr.io/javinator9889/acexy\n```",
+    "ContentSha": "KRRjcW13TTEVTrFNMT7os39xVf2vSDnC8Orrz8pWWNU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\ndocker run -t -p 8080:8080 -p 8621:8621 ghcr.io/javinator9889/acexy\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "McMBzMXj+j6bkp9V87kDiEZcskD12I1uks0gEsbdmEM=",
+        "originContent": "docker run -t -p 8080:8080 -p 8621:8621 ghcr.io/javinator9889/acexy",
+        "translatedContent": "docker run -t -p 8080:8080 -p 8621:8621 ghcr.io/javinator9889/acexy"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n### Alternative 🧃\n\nAceStream underneath attempts to use UPnP IGD to connect against a remote machine.\nThe problem is that this is not working because of the bridging layer added by Docker\n(see: https://docs.docker.com/engine/network/drivers/bridge/).\n\nIf you are running a single instance of Acexy - and a single instance of AceStream -\nit should be safe for you to run the container with *host networking*. This means:\n\n- The container **can access** any other application bridged to your main network.\n- You **don't need** to expose any ports.\n- Performance **is optimized** a little bit.\n\n> NOTE: This only works on Linux environments. See https://docs.docker.com/engine/network/drivers/host/\n> for more information.\n\nThe command is quite straightforward:\n",
+    "ContentSha": "r+w/VGcIIh9vL4p9Yr3xwsUAFa5dcdf3y8kD2Tbpf90=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Alternativa 🧃\n\nAceStream intenta usar UPnP IGD para conectarse a una máquina remota.\nEl problema es que esto no funciona debido a la capa de puente que añade Docker\n(ver: https://docs.docker.com/engine/network/drivers/bridge/).\n\nSi estás ejecutando una sola instancia de Acexy - y una sola instancia de AceStream -\ndebería ser seguro para ti ejecutar el contenedor con *host networking*. Esto significa:\n\n- El contenedor **puede acceder** a cualquier otra aplicación conectada a tu red principal.\n- **No necesitas** exponer ningún puerto.\n- El rendimiento **se optimiza** un poco.\n\n> NOTA: Esto solo funciona en entornos Linux. Consulta https://docs.docker.com/engine/network/drivers/host/\n> para más información.\n\nEl comando es bastante sencillo:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "65g3wDlq1pqcUPbW9ROwEIPUOqKUoOsG5up51Oar6ws=",
+        "originContent": "### Alternative 🧃",
+        "translatedContent": "### Alternativa 🧃"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "QbDG+33pIcEbnpPWlQcaJl/ZT1frgG1N+vNuWRzQaY0=",
+        "originContent": "AceStream underneath attempts to use UPnP IGD to connect against a remote machine.",
+        "translatedContent": "AceStream intenta usar UPnP IGD para conectarse a una máquina remota."
+      },
+      {
+        "row": 5,
+        "rowsha": "Hs1nHfvqMdE6NEHzmogGc59QpJkae03nxmrravGzQXw=",
+        "originContent": "The problem is that this is not working because of the bridging layer added by Docker",
+        "translatedContent": "El problema es que esto no funciona debido a la capa de puente que añade Docker"
+      },
+      {
+        "row": 6,
+        "rowsha": "Dgjx7Wm+wLUiQOKnDYYIaTv0CojBFo2vYAo9vC+++tA=",
+        "originContent": "(see: https://docs.docker.com/engine/network/drivers/bridge/).",
+        "translatedContent": "(ver: https://docs.docker.com/engine/network/drivers/bridge/)."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "x7ZFaDMlepR98FRPIEyo+6sQ2N36LO3zHz9HglzFdTE=",
+        "originContent": "If you are running a single instance of Acexy - and a single instance of AceStream -",
+        "translatedContent": "Si estás ejecutando una sola instancia de Acexy - y una sola instancia de AceStream -"
+      },
+      {
+        "row": 9,
+        "rowsha": "JowQGtOXphEua6nGcTW0Fkdo4y+iCTf9md4JiRCYxEM=",
+        "originContent": "it should be safe for you to run the container with *host networking*. This means:",
+        "translatedContent": "debería ser seguro para ti ejecutar el contenedor con *host networking*. Esto significa:"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "VGQKNi88L8PhdmRBI+hiAYZff3T6Fa1CMKc//4eizFA=",
+        "originContent": "- The container **can access** any other application bridged to your main network.",
+        "translatedContent": "- El contenedor **puede acceder** a cualquier otra aplicación conectada a tu red principal."
+      },
+      {
+        "row": 12,
+        "rowsha": "7Sm+n0TT1TNTqdbRK6N5u7HwOlQrIAtqyPdE9KxTYfI=",
+        "originContent": "- You **don't need** to expose any ports.",
+        "translatedContent": "- **No necesitas** exponer ningún puerto."
+      },
+      {
+        "row": 13,
+        "rowsha": "lPh9xQzYObKbMzeGfZ18GdV6UFiibpPWoM4StCSeRfA=",
+        "originContent": "- Performance **is optimized** a little bit.",
+        "translatedContent": "- El rendimiento **se optimiza** un poco."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "TQttLKfy9vFG9Uz9XkhDuTSdQRJxL6b2u/8nZzFRJWA=",
+        "originContent": "> NOTE: This only works on Linux environments. See https://docs.docker.com/engine/network/drivers/host/",
+        "translatedContent": "> NOTA: Esto solo funciona en entornos Linux. Consulta https://docs.docker.com/engine/network/drivers/host/"
+      },
+      {
+        "row": 16,
+        "rowsha": "2QQipyoYkFnaC6W5bAgUIp7OOUF1u2OhW79TRC2tdFk=",
+        "originContent": "> for more information.",
+        "translatedContent": "> para más información."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "uyg1T+wY16ph4yLAMg4Aomim87j0vAKNYkv8kg+jB6g=",
+        "originContent": "The command is quite straightforward:",
+        "translatedContent": "El comando es bastante sencillo:"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```shell\ndocker run -t --network host ghcr.io/javinator9889/acexy\n```",
+    "ContentSha": "Xt/8dsQm1r9fwafk5MA0pNMFo5PDTOq6FL4ZLuS8Qxw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\ndocker run -t --network host ghcr.io/javinator9889/acexy\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "oAaZeeE9LhxjrDB0fLEST2p6mAZ2WVW0N6dtypFC7sM=",
+        "originContent": "docker run -t --network host ghcr.io/javinator9889/acexy",
+        "translatedContent": "docker run -t --network host ghcr.io/javinator9889/acexy"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\nThat should enable AceStream to use UPnP freely.\n\n## Configuration Options ⚙\n\nAcexy has tons of configuration options that allow you to customize the behavior. All of them have\ndefault values that were tested for the optimal experience, but you may need to adjust them\nto fit your needs.\n\n> **PRO-TIP**: You can issue `acexy -help` to have a complete view of all the available options.\n\nAs Acexy was thought to be run inside a Docker container, all the variables and settings are\nadjustable by using environment variables.\n\n\n<table>\n  <thead>\n    <tr>\n      <th>Flag</th>\n      <th>Environment Variable</th>\n      <th>Description</th>\n      <th>Default</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th><code>-license</code></th>\n      <th>-</th>\n      <th>Prints the program license and exits</th>\n      <th>-</th>\n    <tr>\n    <tr>\n      <th><code>-help</code></th>\n      <th>-</th>\n      <th>Prints the help message and exits</th>\n      <th>-</th>\n    <tr>\n    <tr>\n      <th><code>-addr</code></th>\n      <th><code>ACEXY_LISTEN_ADDR</code></th>",
+    "ContentSha": "AjMJDCPqWK+agGryEr/3BrBsoZBqxBIh8XIbp9YG4o4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEso debería permitir que AceStream use UPnP libremente.\n\n## Opciones de Configuración ⚙\n\nAcexy tiene montones de opciones de configuración que te permiten personalizar el comportamiento. Todas ellas tienen\nvalores predeterminados que fueron probados para una experiencia óptima, pero puede que necesites ajustarlas\npara que se adapten a tus necesidades.\n\n> **PRO-TIP**: Puedes ejecutar `acexy -help` para obtener una vista completa de todas las opciones disponibles.\n\nComo Acexy fue pensado para ejecutarse dentro de un contenedor Docker, todas las variables y configuraciones son\najustables mediante variables de entorno.\n\n\n<table>\n  <thead>\n    <tr>\n      <th>Flag</th>\n      <th>Variable de Entorno</th>\n      <th>Descripción</th>\n      <th>Predeterminado</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th><code>-license</code></th>\n      <th>-</th>\n      <th>Imprime la licencia del programa y sale</th>\n      <th>-</th>\n    <tr>\n    <tr>\n      <th><code>-help</code></th>\n      <th>-</th>\n      <th>Imprime el mensaje de ayuda y sale</th>\n      <th>-</th>\n    <tr>\n    <tr>\n      <th><code>-addr</code></th>\n      <th><code>ACEXY_LISTEN_ADDR</code></th>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "DENugP+NWUCimuB3D3g/NsgfTFJwN8proXT7ovzqE44=",
+        "originContent": "That should enable AceStream to use UPnP freely.",
+        "translatedContent": "Eso debería permitir que AceStream use UPnP libremente."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "EK+o3zFsHLzeKbkj0k2pXN8gqQQWYYx7FXZWdXDzEk4=",
+        "originContent": "## Configuration Options ⚙",
+        "translatedContent": "## Opciones de Configuración ⚙"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "YUET1E42hCoe5tFJGfza0p6P5sK5Mw8YSF65RDt6oc4=",
+        "originContent": "Acexy has tons of configuration options that allow you to customize the behavior. All of them have",
+        "translatedContent": "Acexy tiene montones de opciones de configuración que te permiten personalizar el comportamiento. Todas ellas tienen"
+      },
+      {
+        "row": 7,
+        "rowsha": "XIs1/d/IV/WkGOPY+/wCUwBpkQFWU7pDmBU0os8OmgI=",
+        "originContent": "default values that were tested for the optimal experience, but you may need to adjust them",
+        "translatedContent": "valores predeterminados que fueron probados para una experiencia óptima, pero puede que necesites ajustarlas"
+      },
+      {
+        "row": 8,
+        "rowsha": "chdyvIM2FPIOXxnTXBzNF/lip1BFhnvKEzdP/T4DQrU=",
+        "originContent": "to fit your needs.",
+        "translatedContent": "para que se adapten a tus necesidades."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "vphbhjo7bGAYmAW1Cbml0KkqEzkBai2sPj2DKLnD8VE=",
+        "originContent": "> **PRO-TIP**: You can issue `acexy -help` to have a complete view of all the available options.",
+        "translatedContent": "> **PRO-TIP**: Puedes ejecutar `acexy -help` para obtener una vista completa de todas las opciones disponibles."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "5Wd8Vv0/d9WSsBxJHHRyd84pIcXoK45wBIeociEXE0U=",
+        "originContent": "As Acexy was thought to be run inside a Docker container, all the variables and settings are",
+        "translatedContent": "Como Acexy fue pensado para ejecutarse dentro de un contenedor Docker, todas las variables y configuraciones son"
+      },
+      {
+        "row": 13,
+        "rowsha": "8vPUWAPdvg96CH9bv9rwP9lQP2SnTMBI89YPw5giMLU=",
+        "originContent": "adjustable by using environment variables.",
+        "translatedContent": "ajustables mediante variables de entorno."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+        "originContent": "<table>",
+        "translatedContent": "<table>"
+      },
+      {
+        "row": 17,
+        "rowsha": "fVeZa2zHTj+GejNZeOMEq73p8lrPy91L7a2SAORQGww=",
+        "originContent": "  <thead>",
+        "translatedContent": "  <thead>"
+      },
+      {
+        "row": 18,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 19,
+        "rowsha": "EB2Srp9d3iDucD/wLtYHU4mehfVoQpp9ApsnuQn7AbM=",
+        "originContent": "      <th>Flag</th>",
+        "translatedContent": "      <th>Flag</th>"
+      },
+      {
+        "row": 20,
+        "rowsha": "lVgEsPUGa3SSaUQREsFd1eMHxhkofRDWRBo59ZxuL1k=",
+        "originContent": "      <th>Environment Variable</th>",
+        "translatedContent": "      <th>Variable de Entorno</th>"
+      },
+      {
+        "row": 21,
+        "rowsha": "O/DS90B9w8GpepemJkQp634TTVY3fEDiLIPL5Ltaq78=",
+        "originContent": "      <th>Description</th>",
+        "translatedContent": "      <th>Descripción</th>"
+      },
+      {
+        "row": 22,
+        "rowsha": "bp3CQHFMOtHTG2djOYEZ24wwXFbi/e14P/+/2AJSoBQ=",
+        "originContent": "      <th>Default</th>",
+        "translatedContent": "      <th>Predeterminado</th>"
+      },
+      {
+        "row": 23,
+        "rowsha": "qMXSfcecmgpTcWjU4/DonhxZrtbJe20/4kuvSQqv9HU=",
+        "originContent": "    </tr>",
+        "translatedContent": "    </tr>"
+      },
+      {
+        "row": 24,
+        "rowsha": "QAgj2Ue5ZqUAelXIN3OwGwnCFXD2scHVIkAz9iHowbw=",
+        "originContent": "  </thead>",
+        "translatedContent": "  </thead>"
+      },
+      {
+        "row": 25,
+        "rowsha": "V8SoadU3qlQEyQXfcDO5Evu+vSduzv+IQXpGHlNEQ4M=",
+        "originContent": "  <tbody>",
+        "translatedContent": "  <tbody>"
+      },
+      {
+        "row": 26,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 27,
+        "rowsha": "5baIIKFdL5PR0iQNNfMJc1zKD6iVrgXaXefOSHNGzi4=",
+        "originContent": "      <th><code>-license</code></th>",
+        "translatedContent": "      <th><code>-license</code></th>"
+      },
+      {
+        "row": 28,
+        "rowsha": "hju8eWYZX3rkc+v1EXT24leC5NgwChGVcBF/8QNAG8E=",
+        "originContent": "      <th>-</th>",
+        "translatedContent": "      <th>-</th>"
+      },
+      {
+        "row": 29,
+        "rowsha": "5fHt+4/kUk0NN/7YoXti5TOMr+b16oLDsMn6IJ6zySg=",
+        "originContent": "      <th>Prints the program license and exits</th>",
+        "translatedContent": "      <th>Imprime la licencia del programa y sale</th>"
+      },
+      {
+        "row": 30,
+        "rowsha": "hju8eWYZX3rkc+v1EXT24leC5NgwChGVcBF/8QNAG8E=",
+        "originContent": "      <th>-</th>",
+        "translatedContent": "      <th>-</th>"
+      },
+      {
+        "row": 31,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 32,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 33,
+        "rowsha": "nxCl+UMuorTHHalsHvTJYFAp5KiEO3vWvO6uegf2X1I=",
+        "originContent": "      <th><code>-help</code></th>",
+        "translatedContent": "      <th><code>-help</code></th>"
+      },
+      {
+        "row": 34,
+        "rowsha": "hju8eWYZX3rkc+v1EXT24leC5NgwChGVcBF/8QNAG8E=",
+        "originContent": "      <th>-</th>",
+        "translatedContent": "      <th>-</th>"
+      },
+      {
+        "row": 35,
+        "rowsha": "VuiZWWzbZQXl73Cs07qcI99iXkTLqAeeQKs0RvqOcmY=",
+        "originContent": "      <th>Prints the help message and exits</th>",
+        "translatedContent": "      <th>Imprime el mensaje de ayuda y sale</th>"
+      },
+      {
+        "row": 36,
+        "rowsha": "hju8eWYZX3rkc+v1EXT24leC5NgwChGVcBF/8QNAG8E=",
+        "originContent": "      <th>-</th>",
+        "translatedContent": "      <th>-</th>"
+      },
+      {
+        "row": 37,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 38,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 39,
+        "rowsha": "GAYQdFWvq79po3yutleAAnvGYSe257uyYXY3M73kjig=",
+        "originContent": "      <th><code>-addr</code></th>",
+        "translatedContent": "      <th><code>-addr</code></th>"
+      },
+      {
+        "row": 40,
+        "rowsha": "m7+u0PgHg417AqnbVDKnwy3p0XU/h0+339OELaP8onk=",
+        "originContent": "      <th><code>ACEXY_LISTEN_ADDR</code></th>",
+        "translatedContent": "      <th><code>ACEXY_LISTEN_ADDR</code></th>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "      <th>Address where Acexy is listening to. Useful when running in <code>host</code> mode.</th>\n      <th><code>:8080</code></th>\n    <tr>\n    <tr>\n      <th><code>-scheme</code></th>\n      <th><code>ACEXY_SCHEME</code></th>\n      <th>\n        The scheme of the AceStream middleware. If you have configured AceStream to work in HTTPS,\n        you will have to tweak this value.\n      </th>\n      <th><code>http</code></th>\n    <tr>\n    <tr>\n      <th><code>-acestream-host</code></th>\n      <th><code>ACEXY_HOST</code></th>\n      <th>\n        Where the AceStream middleware is located. Change it if you need Acexy to connect to a\n        different AceStream Engine.\n      </th>\n      <th><code>localhost</code></th>\n    <tr>\n    <tr>\n      <th><code>-acestream-port</code></th>\n      <th><code>ACEXY_PORT</code></th>\n      <th>\n        The port to connect to the AceStream middleware. Change it if you need Acexy to connect\n        to a different AceStream Engine.\n      </th>\n      <th><code>6878</code></th>\n    <tr>\n    <tr>\n      <th><code>-m3u8-stream-timeout</code></th>\n      <th><code>ACEXY_M3U8_STREAM_TIMEOUT</code></th>\n      <th>\n        When running Acexy in M3U8 mode, the timeout to consider a stream is done.\n      </th>\n      <th><code>60s</code></th>\n    <tr>\n    <tr>\n      <th><code>-m3u8</code></th>",
+    "ContentSha": "AxSxirpAsOFGIs7tfFW2upmRC8/meU/xJT7+Y7Cb6xQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "      <th>Dirección donde Acexy está escuchando. Útil cuando se ejecuta en modo <code>host</code>.</th>\n      <th><code>:8080</code></th>\n    <tr>\n    <tr>\n      <th><code>-scheme</code></th>\n      <th><code>ACEXY_SCHEME</code></th>\n      <th>\n        El esquema del middleware AceStream. Si ha configurado AceStream para trabajar con HTTPS,\n        tendrá que ajustar este valor.\n      </th>\n      <th><code>http</code></th>\n    <tr>\n    <tr>\n      <th><code>-acestream-host</code></th>\n      <th><code>ACEXY_HOST</code></th>\n      <th>\n        Dónde se encuentra el middleware AceStream. Cambie esto si necesita que Acexy se conecte a un\n        motor AceStream diferente.\n      </th>\n      <th><code>localhost</code></th>\n    <tr>\n    <tr>\n      <th><code>-acestream-port</code></th>\n      <th><code>ACEXY_PORT</code></th>\n      <th>\n        El puerto para conectar con el middleware AceStream. Cambie esto si necesita que Acexy se conecte\n        a un motor AceStream diferente.\n      </th>\n      <th><code>6878</code></th>\n    <tr>\n    <tr>\n      <th><code>-m3u8-stream-timeout</code></th>\n      <th><code>ACEXY_M3U8_STREAM_TIMEOUT</code></th>\n      <th>\n        Al ejecutar Acexy en modo M3U8, el tiempo de espera para considerar que una transmisión ha finalizado.\n      </th>\n      <th><code>60s</code></th>\n    <tr>\n    <tr>\n      <th><code>-m3u8</code></th>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rnLiw+d8ZzO8/WDK0KDYB4aUTfQUPtl7SnhEeP7Cy70=",
+        "originContent": "      <th>Address where Acexy is listening to. Useful when running in <code>host</code> mode.</th>",
+        "translatedContent": "      <th>Dirección donde Acexy está escuchando. Útil cuando se ejecuta en modo <code>host</code>.</th>"
+      },
+      {
+        "row": 2,
+        "rowsha": "+F1U9O0TKOpg2jYQH8VcgzV8yzy42JyI6kyZbqiaRks=",
+        "originContent": "      <th><code>:8080</code></th>",
+        "translatedContent": "      <th><code>:8080</code></th>"
+      },
+      {
+        "row": 3,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 4,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 5,
+        "rowsha": "1aywh/RISaZfQTTMtjTAQib0JlKWy/xr0O1kzVHc23k=",
+        "originContent": "      <th><code>-scheme</code></th>",
+        "translatedContent": "      <th><code>-scheme</code></th>"
+      },
+      {
+        "row": 6,
+        "rowsha": "50k2oFZZ06jFqOJqf1wjB9cfjqUEVhooG1OLmHk3nes=",
+        "originContent": "      <th><code>ACEXY_SCHEME</code></th>",
+        "translatedContent": "      <th><code>ACEXY_SCHEME</code></th>"
+      },
+      {
+        "row": 7,
+        "rowsha": "Ls2W0m3mtu7PcQv+yQD8NVlhM4mws6CeHPebkj8gJvg=",
+        "originContent": "      <th>",
+        "translatedContent": "      <th>"
+      },
+      {
+        "row": 8,
+        "rowsha": "tgQM7eVfA280ECuoTdfsGXyjGF9ms2DQ1lsmM0KgiOc=",
+        "originContent": "        The scheme of the AceStream middleware. If you have configured AceStream to work in HTTPS,",
+        "translatedContent": "        El esquema del middleware AceStream. Si ha configurado AceStream para trabajar con HTTPS,"
+      },
+      {
+        "row": 9,
+        "rowsha": "D5m4EeqwmTdmPICLFC7FPypKcKj0FNGunJcSHmsoZBQ=",
+        "originContent": "        you will have to tweak this value.",
+        "translatedContent": "        tendrá que ajustar este valor."
+      },
+      {
+        "row": 10,
+        "rowsha": "Cbwo8+SjeFUrR/qivnrocWE7uSaL2IKEos2Qum+IPEg=",
+        "originContent": "      </th>",
+        "translatedContent": "      </th>"
+      },
+      {
+        "row": 11,
+        "rowsha": "UFqKaBaRto4qYGnDH8Ijm133GGLK6dRbes6D+D9dpag=",
+        "originContent": "      <th><code>http</code></th>",
+        "translatedContent": "      <th><code>http</code></th>"
+      },
+      {
+        "row": 12,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 13,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 14,
+        "rowsha": "HTau+ipRZ0n4/DqNlJICv54ObymR3ECcVaDVy1DD9Jk=",
+        "originContent": "      <th><code>-acestream-host</code></th>",
+        "translatedContent": "      <th><code>-acestream-host</code></th>"
+      },
+      {
+        "row": 15,
+        "rowsha": "7hJBOsRytodrfhilBIprzHKnVH2xE0KJl75JkW9aPF4=",
+        "originContent": "      <th><code>ACEXY_HOST</code></th>",
+        "translatedContent": "      <th><code>ACEXY_HOST</code></th>"
+      },
+      {
+        "row": 16,
+        "rowsha": "Ls2W0m3mtu7PcQv+yQD8NVlhM4mws6CeHPebkj8gJvg=",
+        "originContent": "      <th>",
+        "translatedContent": "      <th>"
+      },
+      {
+        "row": 17,
+        "rowsha": "2aHxBjmlNENkx4/C/YTrHSE6XBc/yzWjfzhKlfRFpR4=",
+        "originContent": "        Where the AceStream middleware is located. Change it if you need Acexy to connect to a",
+        "translatedContent": "        Dónde se encuentra el middleware AceStream. Cambie esto si necesita que Acexy se conecte a un"
+      },
+      {
+        "row": 18,
+        "rowsha": "kvW4R7a3t0vJtHMB4jLNm5JAKFKx+XuPcdaoK0P22a8=",
+        "originContent": "        different AceStream Engine.",
+        "translatedContent": "        motor AceStream diferente."
+      },
+      {
+        "row": 19,
+        "rowsha": "Cbwo8+SjeFUrR/qivnrocWE7uSaL2IKEos2Qum+IPEg=",
+        "originContent": "      </th>",
+        "translatedContent": "      </th>"
+      },
+      {
+        "row": 20,
+        "rowsha": "r5fpYF3+E02TiQYXSEJCBHElLHNs8MCeLyXJtGNT750=",
+        "originContent": "      <th><code>localhost</code></th>",
+        "translatedContent": "      <th><code>localhost</code></th>"
+      },
+      {
+        "row": 21,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 22,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 23,
+        "rowsha": "fM/PFR8SX99VgAseVj/MfvSBMH9XxVXR7aRThI7iuB0=",
+        "originContent": "      <th><code>-acestream-port</code></th>",
+        "translatedContent": "      <th><code>-acestream-port</code></th>"
+      },
+      {
+        "row": 24,
+        "rowsha": "pXweuWiwMtL6RXATsTr+DSBKuUqbCd7OehtRq7tyhz0=",
+        "originContent": "      <th><code>ACEXY_PORT</code></th>",
+        "translatedContent": "      <th><code>ACEXY_PORT</code></th>"
+      },
+      {
+        "row": 25,
+        "rowsha": "Ls2W0m3mtu7PcQv+yQD8NVlhM4mws6CeHPebkj8gJvg=",
+        "originContent": "      <th>",
+        "translatedContent": "      <th>"
+      },
+      {
+        "row": 26,
+        "rowsha": "DuGcAfIkbZZwYm/JLd2XDHvh/1DCjCSIvRq4tofBeIY=",
+        "originContent": "        The port to connect to the AceStream middleware. Change it if you need Acexy to connect",
+        "translatedContent": "        El puerto para conectar con el middleware AceStream. Cambie esto si necesita que Acexy se conecte"
+      },
+      {
+        "row": 27,
+        "rowsha": "VhTR4ZgR12EUpF/NoQijCqAtmTVrFr1DaR//k0roqI8=",
+        "originContent": "        to a different AceStream Engine.",
+        "translatedContent": "        a un motor AceStream diferente."
+      },
+      {
+        "row": 28,
+        "rowsha": "Cbwo8+SjeFUrR/qivnrocWE7uSaL2IKEos2Qum+IPEg=",
+        "originContent": "      </th>",
+        "translatedContent": "      </th>"
+      },
+      {
+        "row": 29,
+        "rowsha": "7I9YKUggjzn6i8t1kwp2/NYHVIpqdYc/xPbokSoyf/4=",
+        "originContent": "      <th><code>6878</code></th>",
+        "translatedContent": "      <th><code>6878</code></th>"
+      },
+      {
+        "row": 30,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 31,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 32,
+        "rowsha": "CF0s1wFCM3uUwdhd8Ab0GqHl4eO2jUmpzvbep9MoBdQ=",
+        "originContent": "      <th><code>-m3u8-stream-timeout</code></th>",
+        "translatedContent": "      <th><code>-m3u8-stream-timeout</code></th>"
+      },
+      {
+        "row": 33,
+        "rowsha": "uZgLWwwQBpxoOOh/MviFnn6B5l7Orbw4fP9hjhDz32E=",
+        "originContent": "      <th><code>ACEXY_M3U8_STREAM_TIMEOUT</code></th>",
+        "translatedContent": "      <th><code>ACEXY_M3U8_STREAM_TIMEOUT</code></th>"
+      },
+      {
+        "row": 34,
+        "rowsha": "Ls2W0m3mtu7PcQv+yQD8NVlhM4mws6CeHPebkj8gJvg=",
+        "originContent": "      <th>",
+        "translatedContent": "      <th>"
+      },
+      {
+        "row": 35,
+        "rowsha": "7YIc29UN61gDEtABkoPiGxPkVg3AqEOq35+o9Vaz0a8=",
+        "originContent": "        When running Acexy in M3U8 mode, the timeout to consider a stream is done.",
+        "translatedContent": "        Al ejecutar Acexy en modo M3U8, el tiempo de espera para considerar que una transmisión ha finalizado."
+      },
+      {
+        "row": 36,
+        "rowsha": "Cbwo8+SjeFUrR/qivnrocWE7uSaL2IKEos2Qum+IPEg=",
+        "originContent": "      </th>",
+        "translatedContent": "      </th>"
+      },
+      {
+        "row": 37,
+        "rowsha": "TuFruTAV0U8/Yk4nN7xxc47IWJOkiUDuCrkLpOYrmvA=",
+        "originContent": "      <th><code>60s</code></th>",
+        "translatedContent": "      <th><code>60s</code></th>"
+      },
+      {
+        "row": 38,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 39,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 40,
+        "rowsha": "zPFx2lB//6QcFqfWV0YRzIkGEdX8HY4AliF0eiWPR04=",
+        "originContent": "      <th><code>-m3u8</code></th>",
+        "translatedContent": "      <th><code>-m3u8</code></th>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "      <th><code>ACEXY_M3U8</code></th>\n      <th>\n        Enable M3U8 mode in Acexy. <b>WARNING</b>: This mode is experimental and may not work as expected.\n      </th>\n      <th>Disabled</th>\n    <tr>\n    <tr>\n      <th><code>-empty-timeout</code></th>\n      <th><code>ACEXY_EMPTY_TIMEOUT</code></th>\n      <th>\n        Timeout to consider a stream is finished once empty information is received from\n        the middleware. Useless when in M3U8 mode.\n      </th>\n      <th><code>1m</code></th>\n    <tr>\n    <tr>\n      <th><code>-buffer-size</code></th>\n      <th><code>ACEXY_BUFFER_SIZE</code></th>\n      <th>\n        Buffers up-to <code>buffer-size</code> bytes of a stream before copying the data to the\n        player. Useful to have better stability during plays.\n      </th>\n      <th><code>4.2MiB</code></th>\n    <tr>\n    <tr>\n      <th><code>-no-response-timeout</code></th>\n      <th><code>ACEXY_NO_RESPONSE_TIMEOUT</code></th>\n      <th>\n        Time to wait for the AceStream middleware to return a response for a newly opened stream.\n        This must be as low as possible unless your Internet connection is really bad\n        (ie: You have very big latencies).\n      </th>\n      <th><code>1s</code></th>\n    <tr>\n  </tbody>\n</table>\n\n> **NOTE**: The list of options is extensive but could be outdated. Always refer to the\n> Acexy binary `-help` output when in doubt.\n",
+    "ContentSha": "+fIqt5KzOzPQNxQAAVsAaQK4nXTuGXXQJHTv35FQrG4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "      <th><code>ACEXY_M3U8</code></th>\n      <th>\n        Habilitar el modo M3U8 en Acexy. <b>ADVERTENCIA</b>: Este modo es experimental y puede no funcionar como se espera.\n      </th>\n      <th>Deshabilitado</th>\n    <tr>\n    <tr>\n      <th><code>-empty-timeout</code></th>\n      <th><code>ACEXY_EMPTY_TIMEOUT</code></th>\n      <th>\n        Tiempo de espera para considerar que una transmisión ha finalizado una vez que se recibe información vacía del\n        middleware. Inútil cuando se está en modo M3U8.\n      </th>\n      <th><code>1m</code></th>\n    <tr>\n    <tr>\n      <th><code>-buffer-size</code></th>\n      <th><code>ACEXY_BUFFER_SIZE</code></th>\n      <th>\n        Almacena en búfer hasta <code>buffer-size</code> bytes de una transmisión antes de copiar los datos al\n        reproductor. Útil para tener mejor estabilidad durante las reproducciones.\n      </th>\n      <th><code>4.2MiB</code></th>\n    <tr>\n    <tr>\n      <th><code>-no-response-timeout</code></th>\n      <th><code>ACEXY_NO_RESPONSE_TIMEOUT</code></th>\n      <th>\n        Tiempo de espera para que el middleware AceStream devuelva una respuesta para una transmisión recién abierta.\n        Esto debe ser lo más bajo posible a menos que tu conexión a Internet sea realmente mala\n        (es decir: tengas latencias muy altas).\n      </th>\n      <th><code>1s</code></th>\n    <tr>\n  </tbody>\n</table>\n\n> **NOTA**: La lista de opciones es extensa pero podría estar desactualizada. Siempre consulta la\n> salida del binario Acexy con `-help` en caso de duda.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uGK4tuM3jXO6LAyq1wrvFinbTn24FtZMBkiKZQlEJyI=",
+        "originContent": "      <th><code>ACEXY_M3U8</code></th>",
+        "translatedContent": "      <th><code>ACEXY_M3U8</code></th>"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ls2W0m3mtu7PcQv+yQD8NVlhM4mws6CeHPebkj8gJvg=",
+        "originContent": "      <th>",
+        "translatedContent": "      <th>"
+      },
+      {
+        "row": 3,
+        "rowsha": "uzaAZtD25CSBfe68zJYPcbSXe9zofRl+Meepioa7R3w=",
+        "originContent": "        Enable M3U8 mode in Acexy. <b>WARNING</b>: This mode is experimental and may not work as expected.",
+        "translatedContent": "        Habilitar el modo M3U8 en Acexy. <b>ADVERTENCIA</b>: Este modo es experimental y puede no funcionar como se espera."
+      },
+      {
+        "row": 4,
+        "rowsha": "Cbwo8+SjeFUrR/qivnrocWE7uSaL2IKEos2Qum+IPEg=",
+        "originContent": "      </th>",
+        "translatedContent": "      </th>"
+      },
+      {
+        "row": 5,
+        "rowsha": "ep3j1BJAWt5kTwuBcHVQqKCzBz7eYlqV4jWfPYF6BT4=",
+        "originContent": "      <th>Disabled</th>",
+        "translatedContent": "      <th>Deshabilitado</th>"
+      },
+      {
+        "row": 6,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 7,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 8,
+        "rowsha": "A5ydnm2XjiWjo64ZuOPg/k+Vc3oXtiaAtoAek9LXDjI=",
+        "originContent": "      <th><code>-empty-timeout</code></th>",
+        "translatedContent": "      <th><code>-empty-timeout</code></th>"
+      },
+      {
+        "row": 9,
+        "rowsha": "GHhGHSaL57ZdYOm1ymfkdw5yOIghxHlUITtiVGpioWc=",
+        "originContent": "      <th><code>ACEXY_EMPTY_TIMEOUT</code></th>",
+        "translatedContent": "      <th><code>ACEXY_EMPTY_TIMEOUT</code></th>"
+      },
+      {
+        "row": 10,
+        "rowsha": "Ls2W0m3mtu7PcQv+yQD8NVlhM4mws6CeHPebkj8gJvg=",
+        "originContent": "      <th>",
+        "translatedContent": "      <th>"
+      },
+      {
+        "row": 11,
+        "rowsha": "zvcqoaCG4aCulxjUWu6Vt60uXgeiMAOcwSjZ20S3S74=",
+        "originContent": "        Timeout to consider a stream is finished once empty information is received from",
+        "translatedContent": "        Tiempo de espera para considerar que una transmisión ha finalizado una vez que se recibe información vacía del"
+      },
+      {
+        "row": 12,
+        "rowsha": "Fn2nQLAkMJHpiKxoZZHeLeW4gGCMjQU+tVovKRPch2E=",
+        "originContent": "        the middleware. Useless when in M3U8 mode.",
+        "translatedContent": "        middleware. Inútil cuando se está en modo M3U8."
+      },
+      {
+        "row": 13,
+        "rowsha": "Cbwo8+SjeFUrR/qivnrocWE7uSaL2IKEos2Qum+IPEg=",
+        "originContent": "      </th>",
+        "translatedContent": "      </th>"
+      },
+      {
+        "row": 14,
+        "rowsha": "gBGrYZCztR11xCyY00UrymE3rM0zVoUk/DkcVk5EG2I=",
+        "originContent": "      <th><code>1m</code></th>",
+        "translatedContent": "      <th><code>1m</code></th>"
+      },
+      {
+        "row": 15,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 16,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 17,
+        "rowsha": "b+oXNjB7bpACu/bD8PUTzvZ/t3fqOza3+y/zxMHtFoo=",
+        "originContent": "      <th><code>-buffer-size</code></th>",
+        "translatedContent": "      <th><code>-buffer-size</code></th>"
+      },
+      {
+        "row": 18,
+        "rowsha": "XuAqyxHhMwyO0R8BU2psBbQnXeFDfJET37eDqXJhkvk=",
+        "originContent": "      <th><code>ACEXY_BUFFER_SIZE</code></th>",
+        "translatedContent": "      <th><code>ACEXY_BUFFER_SIZE</code></th>"
+      },
+      {
+        "row": 19,
+        "rowsha": "Ls2W0m3mtu7PcQv+yQD8NVlhM4mws6CeHPebkj8gJvg=",
+        "originContent": "      <th>",
+        "translatedContent": "      <th>"
+      },
+      {
+        "row": 20,
+        "rowsha": "BzBCWzWCa2A2HbepdaiCJPSdjrJzvZVrU5gK2TyaB30=",
+        "originContent": "        Buffers up-to <code>buffer-size</code> bytes of a stream before copying the data to the",
+        "translatedContent": "        Almacena en búfer hasta <code>buffer-size</code> bytes de una transmisión antes de copiar los datos al"
+      },
+      {
+        "row": 21,
+        "rowsha": "xrgpCwRM9sQ5WHqIcLZjCSJAitDy+H3tDPIX/1RLH1E=",
+        "originContent": "        player. Useful to have better stability during plays.",
+        "translatedContent": "        reproductor. Útil para tener mejor estabilidad durante las reproducciones."
+      },
+      {
+        "row": 22,
+        "rowsha": "Cbwo8+SjeFUrR/qivnrocWE7uSaL2IKEos2Qum+IPEg=",
+        "originContent": "      </th>",
+        "translatedContent": "      </th>"
+      },
+      {
+        "row": 23,
+        "rowsha": "RTBM4K+zJvjy7+rlyQVXb0fQQ75p/hTdRluqWKWAyrQ=",
+        "originContent": "      <th><code>4.2MiB</code></th>",
+        "translatedContent": "      <th><code>4.2MiB</code></th>"
+      },
+      {
+        "row": 24,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 25,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 26,
+        "rowsha": "8FLtfc7KHR26hRf/+3rFcZgABzcWgkbzgFb7wXUo4mc=",
+        "originContent": "      <th><code>-no-response-timeout</code></th>",
+        "translatedContent": "      <th><code>-no-response-timeout</code></th>"
+      },
+      {
+        "row": 27,
+        "rowsha": "QhbP1Z0bPjfcYtPjtd4n8daLvXj/WYMxOFoCedcsBs8=",
+        "originContent": "      <th><code>ACEXY_NO_RESPONSE_TIMEOUT</code></th>",
+        "translatedContent": "      <th><code>ACEXY_NO_RESPONSE_TIMEOUT</code></th>"
+      },
+      {
+        "row": 28,
+        "rowsha": "Ls2W0m3mtu7PcQv+yQD8NVlhM4mws6CeHPebkj8gJvg=",
+        "originContent": "      <th>",
+        "translatedContent": "      <th>"
+      },
+      {
+        "row": 29,
+        "rowsha": "l8CRLz9RULxqOpKVaA+3jz/lt7/6ffP+k18kuvrhQ1Q=",
+        "originContent": "        Time to wait for the AceStream middleware to return a response for a newly opened stream.",
+        "translatedContent": "        Tiempo de espera para que el middleware AceStream devuelva una respuesta para una transmisión recién abierta."
+      },
+      {
+        "row": 30,
+        "rowsha": "Hha6gHU8PxL1n3ttwQ2J59pcJRcEuIdqGV24T2Sjj+g=",
+        "originContent": "        This must be as low as possible unless your Internet connection is really bad",
+        "translatedContent": "        Esto debe ser lo más bajo posible a menos que tu conexión a Internet sea realmente mala"
+      },
+      {
+        "row": 31,
+        "rowsha": "mo5dt7mpbQoaOawXSNgJjRHZeOtctmydJuVExk+uLig=",
+        "originContent": "        (ie: You have very big latencies).",
+        "translatedContent": "        (es decir: tengas latencias muy altas)."
+      },
+      {
+        "row": 32,
+        "rowsha": "Cbwo8+SjeFUrR/qivnrocWE7uSaL2IKEos2Qum+IPEg=",
+        "originContent": "      </th>",
+        "translatedContent": "      </th>"
+      },
+      {
+        "row": 33,
+        "rowsha": "UKwOAvJHroXR5O82uZXTvs9vVfJmkSlzFwnc7lX83zo=",
+        "originContent": "      <th><code>1s</code></th>",
+        "translatedContent": "      <th><code>1s</code></th>"
+      },
+      {
+        "row": 34,
+        "rowsha": "mQe8Du3ITIgeK5HrAaAmVDg4p8IDxaiLEnVYSpNSPoQ=",
+        "originContent": "    <tr>",
+        "translatedContent": "    <tr>"
+      },
+      {
+        "row": 35,
+        "rowsha": "HgAQR47u7qD0p8NwuwwZJ7dDJg35+B/lslvDHWuZaBU=",
+        "originContent": "  </tbody>",
+        "translatedContent": "  </tbody>"
+      },
+      {
+        "row": 36,
+        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+        "originContent": "</table>",
+        "translatedContent": "</table>"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "CPWE2Hx71dtfmma374ZclNDy4ZxBPQVFdwQ+CR/MYNU=",
+        "originContent": "> **NOTE**: The list of options is extensive but could be outdated. Always refer to the",
+        "translatedContent": "> **NOTA**: La lista de opciones es extensa pero podría estar desactualizada. Siempre consulta la"
+      },
+      {
+        "row": 39,
+        "rowsha": "xXDkiATmHNXhSniw+fMU0uaZudqecX8w94yag5SXQks=",
+        "originContent": "> Acexy binary `-help` output when in doubt.",
+        "translatedContent": "> salida del binario Acexy con `-help` en caso de duda."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

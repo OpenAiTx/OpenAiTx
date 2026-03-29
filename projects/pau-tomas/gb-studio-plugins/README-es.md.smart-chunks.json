@@ -1,0 +1,846 @@
+[
+  {
+    "Id": 1,
+    "Content": "# GB Studio 4.2 - Plugin Pak\n\nA set of experimental plugins for GB Studio 4.2. Use them at your own risk :)\n\n> [!NOTE]\n> A handful of previously available event plugins are now deprecated, as their functionality is part of GB Studio. [See the list below](#deprecated-plugins).\n\n## Dialogue & Menus\n\n### Draw Lifebar\n\nDraw a (life/power/mana)bar to a specified position on the overlay.\n\n- `X`, `Y`: Tile coordinates on the overlay.\n- `Tileset`: A tileset that includes the tiles for the bar in consecutive order.\n- `Tile`: The first tile of the bar in the tileset (usually the empty tile).\n- `Value`: The current value to be represented by the bar.\n- `Max Value`: The maximum value that can be represented by the bar.\n- `Steps`: The number of tiles needed to \"fill\" an item in the bar (not including the empty one).\n\n[Example project](examples/Draw%20Lifebar/)\n\n_Note:_ The tileset will load at tile 128 of VRAM (right after the sprites block). This allows combining lifebar rendering with `Draw Text` on the overlay. The VRAM index can be changed by editing the `const VRAM_BASE_START_TILE = 128` line in the plugin file.\n\n<img width=\"300\" alt=\"Draw Lifebar\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar.png\"/>\n\n<img width=\"300\" alt=\"Draw Lifebar\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar_screenshot.png\"/>\n\n### Display Advanced Menu\n\nDisplay a menu of multiple options and set the specified variable to the value of the chosen option. Menu option position and navigation order can be set for each item in the `Items` tab. You can optionally set the 'B' button to close the menu setting the variable to '0' and can also make the last menu item return '0' when selected. The dialogue box size, opening and closing direction, and the position of the menu (top or bottom) can be set in the `Layout` tab. The opening and closing speed of the menu can be set in the `Behavior` tab.\n\nThere's no maximum character length per item, but the total number of displayed characters is limited by the number of tiles reserved for UI text (52 for non-color mode).\n\n_Note:_ The event can become very long when there are many items.\n\n<img width=\"300\" alt=\"Advanced Menu Items\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_items.png\"/> <img width=\"300\" alt=\"Advanced Menu Screenshot\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_screenshot.png\"/>\n\n<img width=\"300\" alt=\"Advanced Menu Layout\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_layout.png\"/>\n",
+    "ContentSha": "u9dtzexXL3xi65sv6sYzwcz5Zo1dJfRuDwxGRvB6e+A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# GB Studio 4.2 - Paquete de Plugins\n\nUn conjunto de plugins experimentales para GB Studio 4.2. Úselos bajo su propio riesgo :)\n\n> [!NOTA]\n> Un puñado de plugins de eventos previamente disponibles ahora están obsoletos, ya que su funcionalidad forma parte de GB Studio. [Ver la lista a continuación](#plugins-obsoletos).\n\n## Diálogo y Menús\n\n### Dibujar Barra de Vida\n\nDibuja una barra (de vida/poder/mana) en una posición especificada sobre la superposición.\n\n- `X`, `Y`: Coordenadas de mosaicos en la superposición.\n- `Tileset`: Un conjunto de mosaicos que incluye los mosaicos para la barra en orden consecutivo.\n- `Tile`: El primer mosaico de la barra en el conjunto de mosaicos (usualmente el mosaico vacío).\n- `Value`: El valor actual que será representado por la barra.\n- `Max Value`: El valor máximo que puede ser representado por la barra.\n- `Steps`: El número de mosaicos necesarios para \"llenar\" un elemento en la barra (sin incluir el vacío).\n\n[Proyecto de ejemplo](examples/Draw%20Lifebar/)\n\n_Nota:_ El conjunto de mosaicos se cargará en el mosaico 128 de VRAM (justo después del bloque de sprites). Esto permite combinar el renderizado de la barra de vida con `Dibujar Texto` en la superposición. El índice de VRAM puede cambiarse editando la línea `const VRAM_BASE_START_TILE = 128` en el archivo del plugin.\n\n<img width=\"300\" alt=\"Dibujar Barra de Vida\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar.png\"/>\n\n<img width=\"300\" alt=\"Dibujar Barra de Vida\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar_screenshot.png\"/>\n\n### Mostrar Menú Avanzado\n\nMuestra un menú con múltiples opciones y asigna la variable especificada al valor de la opción elegida. La posición de la opción del menú y el orden de navegación pueden configurarse para cada elemento en la pestaña `Items`. Opcionalmente, se puede configurar el botón 'B' para cerrar el menú asignando a la variable el valor '0' y también se puede hacer que el último ítem del menú retorne '0' cuando se seleccione. El tamaño del cuadro de diálogo, la dirección de apertura y cierre, y la posición del menú (arriba o abajo) pueden configurarse en la pestaña `Layout`. La velocidad de apertura y cierre del menú puede ajustarse en la pestaña `Behavior`.\n\nNo hay un límite máximo de caracteres por ítem, pero el número total de caracteres mostrados está limitado por el número de mosaicos reservados para texto de interfaz (52 para modo sin color).\n\n_Nota:_ El evento puede volverse muy largo cuando hay muchos ítems.\n\n<img width=\"300\" alt=\"Ítems de Menú Avanzado\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_items.png\"/> <img width=\"300\" alt=\"Captura de Menú Avanzado\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_screenshot.png\"/>\n\n<img width=\"300\" alt=\"Diseño de Menú Avanzado\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_layout.png\"/>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "95OKcWwGfQqGLM1u+B730aFAQC24/PqBei0EcKZ2NBc=",
+        "originContent": "# GB Studio 4.2 - Plugin Pak",
+        "translatedContent": "# GB Studio 4.2 - Paquete de Plugins"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "dGTjeVU+io369UJAjR7ijAJx8UvSK3vSBs1FAcUUfQ4=",
+        "originContent": "A set of experimental plugins for GB Studio 4.2. Use them at your own risk :)",
+        "translatedContent": "Un conjunto de plugins experimentales para GB Studio 4.2. Úselos bajo su propio riesgo :)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!NOTA]"
+      },
+      {
+        "row": 6,
+        "rowsha": "vrIDPX9/LWBls7CwSrIrIIEvnCZzgpf8RCr+1ruCQ1Q=",
+        "originContent": "> A handful of previously available event plugins are now deprecated, as their functionality is part of GB Studio. [See the list below](#deprecated-plugins).",
+        "translatedContent": "> Un puñado de plugins de eventos previamente disponibles ahora están obsoletos, ya que su funcionalidad forma parte de GB Studio. [Ver la lista a continuación](#plugins-obsoletos)."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "+9j9iyvhROzLQOI44N4mpEA5lpXzKXaB1E0XsJeySX0=",
+        "originContent": "## Dialogue & Menus",
+        "translatedContent": "## Diálogo y Menús"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "3+01yYenH3WwgQ1y96T4lCEn5+7sU3FeDPI/dZMDRhQ=",
+        "originContent": "### Draw Lifebar",
+        "translatedContent": "### Dibujar Barra de Vida"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "5wL471phEuUXmv+qBsCTw6W+UU7ZN7uPSDct0cOdmkM=",
+        "originContent": "Draw a (life/power/mana)bar to a specified position on the overlay.",
+        "translatedContent": "Dibuja una barra (de vida/poder/mana) en una posición especificada sobre la superposición."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "+euZIWd3kNviNVu4Czqfd5t50w/UaCzLC5brQNyZLZM=",
+        "originContent": "- `X`, `Y`: Tile coordinates on the overlay.",
+        "translatedContent": "- `X`, `Y`: Coordenadas de mosaicos en la superposición."
+      },
+      {
+        "row": 15,
+        "rowsha": "Ic9FMHcOt3ffyk65C6BDi0JFPt7IheSVOxqpmaE7blw=",
+        "originContent": "- `Tileset`: A tileset that includes the tiles for the bar in consecutive order.",
+        "translatedContent": "- `Tileset`: Un conjunto de mosaicos que incluye los mosaicos para la barra en orden consecutivo."
+      },
+      {
+        "row": 16,
+        "rowsha": "KFOLvXRywk+PFtw2CJtV/EsgwToc80JN4ChuEyFZ/O0=",
+        "originContent": "- `Tile`: The first tile of the bar in the tileset (usually the empty tile).",
+        "translatedContent": "- `Tile`: El primer mosaico de la barra en el conjunto de mosaicos (usualmente el mosaico vacío)."
+      },
+      {
+        "row": 17,
+        "rowsha": "EVqZ1sgpOsthD9rmtTv1lxbnv/hH3Zbgxf9rEDMF08o=",
+        "originContent": "- `Value`: The current value to be represented by the bar.",
+        "translatedContent": "- `Value`: El valor actual que será representado por la barra."
+      },
+      {
+        "row": 18,
+        "rowsha": "EaWN/qik9Mmit4ZzLAB1H0DAFJIxgECuVtXYnaQMH3I=",
+        "originContent": "- `Max Value`: The maximum value that can be represented by the bar.",
+        "translatedContent": "- `Max Value`: El valor máximo que puede ser representado por la barra."
+      },
+      {
+        "row": 19,
+        "rowsha": "LjEXqjYHHPEy9/BwlezSCJ4swzK533xuy1RRLwHOE7s=",
+        "originContent": "- `Steps`: The number of tiles needed to \"fill\" an item in the bar (not including the empty one).",
+        "translatedContent": "- `Steps`: El número de mosaicos necesarios para \"llenar\" un elemento en la barra (sin incluir el vacío)."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "dFaiWH9rmnQ/RxQxNqCnz4ac7FKOX1gaZ3S+skqfvtw=",
+        "originContent": "[Example project](examples/Draw%20Lifebar/)",
+        "translatedContent": "[Proyecto de ejemplo](examples/Draw%20Lifebar/)"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "3qZDv0UHepjo73ZAEiahXxFEjfjal+jEJNP6kuPjvog=",
+        "originContent": "_Note:_ The tileset will load at tile 128 of VRAM (right after the sprites block). This allows combining lifebar rendering with `Draw Text` on the overlay. The VRAM index can be changed by editing the `const VRAM_BASE_START_TILE = 128` line in the plugin file.",
+        "translatedContent": "_Nota:_ El conjunto de mosaicos se cargará en el mosaico 128 de VRAM (justo después del bloque de sprites). Esto permite combinar el renderizado de la barra de vida con `Dibujar Texto` en la superposición. El índice de VRAM puede cambiarse editando la línea `const VRAM_BASE_START_TILE = 128` en el archivo del plugin."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "JCpR5Aixv/woi+V4VGQ/KNv0YrawvwuXC+1q/ef0Fp8=",
+        "originContent": "<img width=\"300\" alt=\"Draw Lifebar\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"Dibujar Barra de Vida\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar.png\"/>"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "zzfzZ+cFs8XTpTgiDRrvFpu70WWIIbQykdcysrwUbM8=",
+        "originContent": "<img width=\"300\" alt=\"Draw Lifebar\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar_screenshot.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"Dibujar Barra de Vida\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar_screenshot.png\"/>"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "MkosR4ljDP+QtDJiOZdSMnRj8FtdJ06pMVEO3Tkx6J4=",
+        "originContent": "### Display Advanced Menu",
+        "translatedContent": "### Mostrar Menú Avanzado"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "QBMiLOJxSkhEH4iBux6h/fy5w8XtdHRDcmLkTOqeBnk=",
+        "originContent": "Display a menu of multiple options and set the specified variable to the value of the chosen option. Menu option position and navigation order can be set for each item in the `Items` tab. You can optionally set the 'B' button to close the menu setting the variable to '0' and can also make the last menu item return '0' when selected. The dialogue box size, opening and closing direction, and the position of the menu (top or bottom) can be set in the `Layout` tab. The opening and closing speed of the menu can be set in the `Behavior` tab.",
+        "translatedContent": "Muestra un menú con múltiples opciones y asigna la variable especificada al valor de la opción elegida. La posición de la opción del menú y el orden de navegación pueden configurarse para cada elemento en la pestaña `Items`. Opcionalmente, se puede configurar el botón 'B' para cerrar el menú asignando a la variable el valor '0' y también se puede hacer que el último ítem del menú retorne '0' cuando se seleccione. El tamaño del cuadro de diálogo, la dirección de apertura y cierre, y la posición del menú (arriba o abajo) pueden configurarse en la pestaña `Layout`. La velocidad de apertura y cierre del menú puede ajustarse en la pestaña `Behavior`."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "E5B7BlA8dC/UEIf4dpI00U2EXBvFqsnySpxZ0ZEFxNA=",
+        "originContent": "There's no maximum character length per item, but the total number of displayed characters is limited by the number of tiles reserved for UI text (52 for non-color mode).",
+        "translatedContent": "No hay un límite máximo de caracteres por ítem, pero el número total de caracteres mostrados está limitado por el número de mosaicos reservados para texto de interfaz (52 para modo sin color)."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "5gkDhRLZ25TgwryEhEDhRe2bDz8NiwKaPXV1/d1/Bns=",
+        "originContent": "_Note:_ The event can become very long when there are many items.",
+        "translatedContent": "_Nota:_ El evento puede volverse muy largo cuando hay muchos ítems."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "pfNhVzI8St+E0xOfMX3cDJ0MCwnN3byJJHtQ8TFbv6M=",
+        "originContent": "<img width=\"300\" alt=\"Advanced Menu Items\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_items.png\"/> <img width=\"300\" alt=\"Advanced Menu Screenshot\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_screenshot.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"Ítems de Menú Avanzado\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_items.png\"/> <img width=\"300\" alt=\"Captura de Menú Avanzado\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_screenshot.png\"/>"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "VKoz5x4mIQmfquA2rWlwTXw/PxC5WcB0ZHz/fgFv618=",
+        "originContent": "<img width=\"300\" alt=\"Advanced Menu Layout\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_layout.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"Diseño de Menú Avanzado\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_layout.png\"/>"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## Real Time Clock\n\nA set of events that provide access to the Real Time Clock functionality present in some GB cartridges.\n\n_Note:_ Cartridge type needs to be set to `MBC3` in the project settings for the RTC to work.\n\n### Set Clock Time\n\nSet the values of the real time clock fields to a number or the value of a variable.\n\n<img width=\"300\" alt=\"Set Clock Time\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/set_clock_time.png\"/>\n\n### Store Clock Time In Variables\n\nStore the current time in one variable for each value.\n\n<img width=\"300\" alt=\"Store Clock Time In Variables\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/store_time_in_var.png\"/>\n\n### Start Clock\n\nStarts the real time clock.\n\n<img width=\"300\" alt=\"Start Clock\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/start_clock.png\"/>\n\n### Stop Clock\n\nStops the real time clock.\n\n<img width=\"300\" alt=\"Stop Clock\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/stop_clock.png\"/>\n\n## Screen\n\n### Smooth Fade\n\n**Color Mode Only**\n\nFade some or all of the current scene's background or sprite palettes to or from a white or black screen, interpolating the color values for a smooth fade.\n\n<img width=\"300\" alt=\"Player Field Update\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Smooth Fade/screenshots/smooth_fade.png\"/>\n",
+    "ContentSha": "YatX2IKNFesH1TwCvDkqJnd2A0PH8VqQ0F2DLLHUOsY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Reloj en Tiempo Real\n\nUn conjunto de eventos que proporcionan acceso a la funcionalidad del Reloj en Tiempo Real presente en algunos cartuchos de GB.\n\n_Nota:_ El tipo de cartucho debe estar configurado en `MBC3` en la configuración del proyecto para que el RTC funcione.\n\n### Establecer Hora del Reloj\n\nEstablece los valores de los campos del reloj en tiempo real a un número o al valor de una variable.\n\n<img width=\"300\" alt=\"Establecer Hora del Reloj\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/set_clock_time.png\"/>\n\n### Almacenar Hora del Reloj en Variables\n\nAlmacena la hora actual en una variable para cada valor.\n\n<img width=\"300\" alt=\"Almacenar Hora del Reloj en Variables\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/store_time_in_var.png\"/>\n\n### Iniciar Reloj\n\nInicia el reloj en tiempo real.\n\n<img width=\"300\" alt=\"Iniciar Reloj\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/start_clock.png\"/>\n\n### Detener Reloj\n\nDetiene el reloj en tiempo real.\n\n<img width=\"300\" alt=\"Detener Reloj\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/stop_clock.png\"/>\n\n## Pantalla\n\n### Fundido Suave\n\n**Solo Modo Color**\n\nFundir algunas o todas las paletas de fondo o sprites de la escena actual hacia o desde una pantalla blanca o negra, interpolando los valores de color para un fundido suave.\n\n<img width=\"300\" alt=\"Actualización de Campo del Jugador\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Smooth Fade/screenshots/smooth_fade.png\"/>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fTnVxUKMQZANcJmWoZftrXHYJWyncLxe5KPdXOR7dmo=",
+        "originContent": "## Real Time Clock",
+        "translatedContent": "## Reloj en Tiempo Real"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ttW0HU7HmwMA+BWWwTPVhu186FmFovscuMaQxctwmYE=",
+        "originContent": "A set of events that provide access to the Real Time Clock functionality present in some GB cartridges.",
+        "translatedContent": "Un conjunto de eventos que proporcionan acceso a la funcionalidad del Reloj en Tiempo Real presente en algunos cartuchos de GB."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "IkZWwQA1K1WfidW6096BVFy6Vb4PmBAZ1W/gis906xI=",
+        "originContent": "_Note:_ Cartridge type needs to be set to `MBC3` in the project settings for the RTC to work.",
+        "translatedContent": "_Nota:_ El tipo de cartucho debe estar configurado en `MBC3` en la configuración del proyecto para que el RTC funcione."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "EEhGZJL5XMV8GoAubwdGWo7dfh4Cqq7czjy2WjRWMlI=",
+        "originContent": "### Set Clock Time",
+        "translatedContent": "### Establecer Hora del Reloj"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "cYiHcxGVI435JNF3Qfl/5DGvU/Tk4Jy0BPy6PLyfbDs=",
+        "originContent": "Set the values of the real time clock fields to a number or the value of a variable.",
+        "translatedContent": "Establece los valores de los campos del reloj en tiempo real a un número o al valor de una variable."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "+K2E57Rs0AllCZnVbqE1FqJIiHEt2TuOMQEX4RJ+bmM=",
+        "originContent": "<img width=\"300\" alt=\"Set Clock Time\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/set_clock_time.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"Establecer Hora del Reloj\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/set_clock_time.png\"/>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "+UtAkylnI6LxBvyOuLrg4mcNcEz429QdfV0+orMYOyc=",
+        "originContent": "### Store Clock Time In Variables",
+        "translatedContent": "### Almacenar Hora del Reloj en Variables"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "fry8+ScbQHCZnJ0SR30ctVPjUsUuEu3swV2fgNXtJMI=",
+        "originContent": "Store the current time in one variable for each value.",
+        "translatedContent": "Almacena la hora actual en una variable para cada valor."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "pwrqCJ5bg0Rcsn0iYMljQ7l0PCENyrw3YSlAuNg0Ybo=",
+        "originContent": "<img width=\"300\" alt=\"Store Clock Time In Variables\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/store_time_in_var.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"Almacenar Hora del Reloj en Variables\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/store_time_in_var.png\"/>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "IIRxfwe4s0eZSpjxpuk0/bzHCi1RmHjipvgzAi87bQQ=",
+        "originContent": "### Start Clock",
+        "translatedContent": "### Iniciar Reloj"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "AfSYJEK3aksoIJRJEoUIRThbOUvLvsJf5aefr3MWV1g=",
+        "originContent": "Starts the real time clock.",
+        "translatedContent": "Inicia el reloj en tiempo real."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "9gAv8XPEMHf5sl+Mi17YWFNltF/KprCtEFgOj4IoZ4U=",
+        "originContent": "<img width=\"300\" alt=\"Start Clock\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/start_clock.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"Iniciar Reloj\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/start_clock.png\"/>"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "rWX5fE1gdwdmBAuD357Hqu2LZahUKeHIP/gEHmT3JYU=",
+        "originContent": "### Stop Clock",
+        "translatedContent": "### Detener Reloj"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "56OJPmR71VCZyr6KiHhd7JaeLs3zZIeH8U3MS+G3qXk=",
+        "originContent": "Stops the real time clock.",
+        "translatedContent": "Detiene el reloj en tiempo real."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "XclWXZolOl7YtK2FuOoOnp2wpaRIaYi7nKygeFzq1jU=",
+        "originContent": "<img width=\"300\" alt=\"Stop Clock\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/stop_clock.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"Detener Reloj\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/stop_clock.png\"/>"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "qm5ikkPBdkxGDtU9dioxpcWzAizO27TcWtrSscaHfMg=",
+        "originContent": "## Screen",
+        "translatedContent": "## Pantalla"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "qdawmP7sukUVmGgzyfU6vHdgLmKnvRci0GY8aWOe4iI=",
+        "originContent": "### Smooth Fade",
+        "translatedContent": "### Fundido Suave"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "s8FqSn2aOsozSAlMyJ4bsdYfxmRvlqXR3NPcVI0MdT8=",
+        "originContent": "**Color Mode Only**",
+        "translatedContent": "**Solo Modo Color**"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "bWVzLSTCfFPjuWJp+G923r4G4FtuEtvwXDszjzbLKf0=",
+        "originContent": "Fade some or all of the current scene's background or sprite palettes to or from a white or black screen, interpolating the color values for a smooth fade.",
+        "translatedContent": "Fundir algunas o todas las paletas de fondo o sprites de la escena actual hacia o desde una pantalla blanca o negra, interpolando los valores de color para un fundido suave."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "abZPSuAuggiWS13gU5LJUdmlBeqWSacZZxdFJadrwK8=",
+        "originContent": "<img width=\"300\" alt=\"Player Field Update\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Smooth Fade/screenshots/smooth_fade.png\"/>",
+        "translatedContent": "<img width=\"300\" alt=\"Actualización de Campo del Jugador\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Smooth Fade/screenshots/smooth_fade.png\"/>"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "## β Plugins\n\nThe plugins in this category are even more experimental than the ones above and might change in the future.\n\n- **Move Variable Actor To** and **Store Variable Actor Position n Variables**:\n  - These events duplicate existing GB Studio Actor events, but instead of using a dropdown to select the actor, they use a variable. The value of the variable represents the index of the actor in the scene (the player is always `0`, and the rest of the actors have an index assigned based on when they were added to the scene).\n\n- **Pin Actor to Screen** and **Unpin Actor from Screen**:\n  - Pin or unpin the actor to its current screen coordinates.\\nBe aware of the current state of the actor: if it's already pinned or unpinned when the event is called, its position will be wrongly offset based on the scroll position.\n\n## How to Install\n\nDrop the `plugins` folder into your project. All the above events will be available from the `Add Event` button.\n\n## More plugins from other authors:\n\n- [NalaFala (Yousurname)'s GB Studio Plugin Collection](https://github.com/Y0UR-U5ERNAME/gbs-plugin-collection)\n- [Platformer+](https://github.com/becomingplural/GBS_PlatformerPlus)\n- [Advanced Dialog and Menu vB](https://github.com/dochardware/Advanced-Dialog-and-Menu)\n- [Shin's GB Studio plugins](https://github.com/shin-gamedev/gbs-plugins)\n- [Gud GBS Plugins](https://github.com/mikeleisz/gud_gbs_plugins)\n- [Fade Street](https://gearfo.itch.io/fade-street)\n- [Scroll Scene transition](https://github.com/Mico27/GBS-scrollScenePlugin) and more [Mico27's plugins](https://github.com/Mico27/)\n\n## Deprecated Plugin Events\n\nThe following event plugins are no longer available as part of the Plugin Pak, as their functionality has been added to GB Studio natively.\n\nSince 4.2:\n\n- Player Field Update\n- Store Player Field In Variable\n- Store Camera Field In Variable\n\nSince 4.1:\n\n- Display Advanced Dialogue\n- Display Background Text\n- Print Screen Background\n- Mute Channel",
+    "ContentSha": "kJ0bkFAIBGtNkCOetOm/pIlEbGc9OK601dlKW892vDQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Plugins β\n\nLos plugins en esta categoría son aún más experimentales que los anteriores y podrían cambiar en el futuro.\n\n- **Mover Actor Variable A** y **Almacenar Posición del Actor Variable n Variables**:\n  - Estos eventos duplican eventos existentes de actores en GB Studio, pero en lugar de usar un menú desplegable para seleccionar el actor, usan una variable. El valor de la variable representa el índice del actor en la escena (el jugador siempre es `0`, y el resto de los actores tienen un índice asignado según cuándo fueron añadidos a la escena).\n\n- **Fijar Actor a la Pantalla** y **Desfijar Actor de la Pantalla**:\n  - Fija o desfija al actor en sus coordenadas actuales en pantalla.\\nTen en cuenta el estado actual del actor: si ya está fijado o desfijado cuando se llama el evento, su posición se desplazará incorrectamente según la posición del desplazamiento.\n\n## Cómo Instalar\n\nColoca la carpeta `plugins` dentro de tu proyecto. Todos los eventos anteriores estarán disponibles desde el botón `Agregar Evento`.\n\n## Más plugins de otros autores:\n\n- [Colección de Plugins de GB Studio de NalaFala (Yousurname)](https://github.com/Y0UR-U5ERNAME/gbs-plugin-collection)\n- [Platformer+](https://github.com/becomingplural/GBS_PlatformerPlus)\n- [Diálogo Avanzado y Menú vB](https://github.com/dochardware/Advanced-Dialog-and-Menu)\n- [Plugins GB Studio de Shin](https://github.com/shin-gamedev/gbs-plugins)\n- [Gud GBS Plugins](https://github.com/mikeleisz/gud_gbs_plugins)\n- [Fade Street](https://gearfo.itch.io/fade-street)\n- [Transición de Escena con Desplazamiento](https://github.com/Mico27/GBS-scrollScenePlugin) y más [plugins de Mico27](https://github.com/Mico27/)\n\n## Eventos de Plugins Obsoletos\n\nLos siguientes plugins de eventos ya no están disponibles como parte del paquete de plugins, ya que su funcionalidad ha sido añadida nativamente a GB Studio.\n\nDesde la versión 4.2:\n\n- Actualizar Campo del Jugador\n- Almacenar Campo del Jugador en Variable\n- Almacenar Campo de la Cámara en Variable\n\nDesde la versión 4.1:\n\n- Mostrar Diálogo Avanzado\n- Mostrar Texto de Fondo\n- Imprimir Fondo de Pantalla\n- Silenciar Canal",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "gDO/cM7Z+FI2wvhUSNW/kqr+BIYAZVoM24HCkM6ywAQ=",
+        "originContent": "## β Plugins",
+        "translatedContent": "## Plugins β"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "P4kwyOc7CM1YQ7hhzPseI1LMsN/DJAiE5yNZeBCs1gs=",
+        "originContent": "The plugins in this category are even more experimental than the ones above and might change in the future.",
+        "translatedContent": "Los plugins en esta categoría son aún más experimentales que los anteriores y podrían cambiar en el futuro."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "n5kQXV+AUX9d55v3wKDKLs1qwdjBQpB8Vdl+S0zCBFY=",
+        "originContent": "- **Move Variable Actor To** and **Store Variable Actor Position n Variables**:",
+        "translatedContent": "- **Mover Actor Variable A** y **Almacenar Posición del Actor Variable n Variables**:"
+      },
+      {
+        "row": 6,
+        "rowsha": "32YDHX/Kcn9YpOlJMFyaylqZB3543hTzkYzlvBD/2Pc=",
+        "originContent": "  - These events duplicate existing GB Studio Actor events, but instead of using a dropdown to select the actor, they use a variable. The value of the variable represents the index of the actor in the scene (the player is always `0`, and the rest of the actors have an index assigned based on when they were added to the scene).",
+        "translatedContent": "  - Estos eventos duplican eventos existentes de actores en GB Studio, pero en lugar de usar un menú desplegable para seleccionar el actor, usan una variable. El valor de la variable representa el índice del actor en la escena (el jugador siempre es `0`, y el resto de los actores tienen un índice asignado según cuándo fueron añadidos a la escena)."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "VU5JisjjzD63xHP1fJuuD6FU1xPsXOMkPooLHFlU7LY=",
+        "originContent": "- **Pin Actor to Screen** and **Unpin Actor from Screen**:",
+        "translatedContent": "- **Fijar Actor a la Pantalla** y **Desfijar Actor de la Pantalla**:"
+      },
+      {
+        "row": 9,
+        "rowsha": "1TPPhewAnYXhLMENuNuj23eXCfyXCou+wnlEB8bWPhs=",
+        "originContent": "  - Pin or unpin the actor to its current screen coordinates.\\nBe aware of the current state of the actor: if it's already pinned or unpinned when the event is called, its position will be wrongly offset based on the scroll position.",
+        "translatedContent": "  - Fija o desfija al actor en sus coordenadas actuales en pantalla.\\nTen en cuenta el estado actual del actor: si ya está fijado o desfijado cuando se llama el evento, su posición se desplazará incorrectamente según la posición del desplazamiento."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "+O79kisZq2s7Tjb/B8RU5YoPZSN0Dd74qP0e6mnXQ5o=",
+        "originContent": "## How to Install",
+        "translatedContent": "## Cómo Instalar"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "GhausHNAAtg1WNerBTK8+11u6Dxs7cjMa097jg1AJlI=",
+        "originContent": "Drop the `plugins` folder into your project. All the above events will be available from the `Add Event` button.",
+        "translatedContent": "Coloca la carpeta `plugins` dentro de tu proyecto. Todos los eventos anteriores estarán disponibles desde el botón `Agregar Evento`."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "ZfkIIdN9zXUnDtV9d2KtsR8rRJjTb/Cj+nNtkXTXknA=",
+        "originContent": "## More plugins from other authors:",
+        "translatedContent": "## Más plugins de otros autores:"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "JlBrenCHxUB51C8W/sfhcl+JExa7UckXlSiRhQ4eVho=",
+        "originContent": "- [NalaFala (Yousurname)'s GB Studio Plugin Collection](https://github.com/Y0UR-U5ERNAME/gbs-plugin-collection)",
+        "translatedContent": "- [Colección de Plugins de GB Studio de NalaFala (Yousurname)](https://github.com/Y0UR-U5ERNAME/gbs-plugin-collection)"
+      },
+      {
+        "row": 18,
+        "rowsha": "7xCZ5tZ+5P7Tx5RiMYUCsLrzUpncaebDwfCnIjEm/ik=",
+        "originContent": "- [Platformer+](https://github.com/becomingplural/GBS_PlatformerPlus)",
+        "translatedContent": "- [Platformer+](https://github.com/becomingplural/GBS_PlatformerPlus)"
+      },
+      {
+        "row": 19,
+        "rowsha": "dL9RcEn0ZQbakAN8QRGp30hlsnBhWDK2dFk1FBAMtHw=",
+        "originContent": "- [Advanced Dialog and Menu vB](https://github.com/dochardware/Advanced-Dialog-and-Menu)",
+        "translatedContent": "- [Diálogo Avanzado y Menú vB](https://github.com/dochardware/Advanced-Dialog-and-Menu)"
+      },
+      {
+        "row": 20,
+        "rowsha": "fZD96+TeMm7ImQidJLfcmGvhzTmD83X0Ew+A2HVSzt8=",
+        "originContent": "- [Shin's GB Studio plugins](https://github.com/shin-gamedev/gbs-plugins)",
+        "translatedContent": "- [Plugins GB Studio de Shin](https://github.com/shin-gamedev/gbs-plugins)"
+      },
+      {
+        "row": 21,
+        "rowsha": "0buJ9qZvVQnHQhT1eYpAv5Yj5NOD4pr9j/k5KUe7qsI=",
+        "originContent": "- [Gud GBS Plugins](https://github.com/mikeleisz/gud_gbs_plugins)",
+        "translatedContent": "- [Gud GBS Plugins](https://github.com/mikeleisz/gud_gbs_plugins)"
+      },
+      {
+        "row": 22,
+        "rowsha": "P4NF6IQ3rMkFyt7dK2uJdXGNadTUs4RBSzUnXFkITWg=",
+        "originContent": "- [Fade Street](https://gearfo.itch.io/fade-street)",
+        "translatedContent": "- [Fade Street](https://gearfo.itch.io/fade-street)"
+      },
+      {
+        "row": 23,
+        "rowsha": "MkViutnSIlo1yjmpjf7h5fS5u/fD160GRx63B8rNoDk=",
+        "originContent": "- [Scroll Scene transition](https://github.com/Mico27/GBS-scrollScenePlugin) and more [Mico27's plugins](https://github.com/Mico27/)",
+        "translatedContent": "- [Transición de Escena con Desplazamiento](https://github.com/Mico27/GBS-scrollScenePlugin) y más [plugins de Mico27](https://github.com/Mico27/)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "zgG5mGAzGSpxuRTJ1c5kmecNF3Kef9jSkJkS9pogoA0=",
+        "originContent": "## Deprecated Plugin Events",
+        "translatedContent": "## Eventos de Plugins Obsoletos"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "RZy4+jYwd9QrkTBM33W4h9RPGfzUTbB9dKrrphxklVc=",
+        "originContent": "The following event plugins are no longer available as part of the Plugin Pak, as their functionality has been added to GB Studio natively.",
+        "translatedContent": "Los siguientes plugins de eventos ya no están disponibles como parte del paquete de plugins, ya que su funcionalidad ha sido añadida nativamente a GB Studio."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "a5B9CdAUwUoufqMGi1o3BMvNjmrzx8Mn8OAP/2jLoo8=",
+        "originContent": "Since 4.2:",
+        "translatedContent": "Desde la versión 4.2:"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "fGacNTjTzmDtR3uHDWmDjNmUjgSZkWnnxgAimHa8tfM=",
+        "originContent": "- Player Field Update",
+        "translatedContent": "- Actualizar Campo del Jugador"
+      },
+      {
+        "row": 32,
+        "rowsha": "wwnfthj1cZBAMMIecNVrUOyE1t0dUn+im/kcUhWdT5I=",
+        "originContent": "- Store Player Field In Variable",
+        "translatedContent": "- Almacenar Campo del Jugador en Variable"
+      },
+      {
+        "row": 33,
+        "rowsha": "cAYiw/Z6ljiVdaibzd+0BCWLBHcCT1/7GRBEvB1NfMM=",
+        "originContent": "- Store Camera Field In Variable",
+        "translatedContent": "- Almacenar Campo de la Cámara en Variable"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "/d6svYVMVRgYpcYxGNCzhb37NjnXpWHB3+V+LgBTInw=",
+        "originContent": "Since 4.1:",
+        "translatedContent": "Desde la versión 4.1:"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "TP33xklzFF03uM0909GO08iYO/nN/MK63zeoFzFJcp0=",
+        "originContent": "- Display Advanced Dialogue",
+        "translatedContent": "- Mostrar Diálogo Avanzado"
+      },
+      {
+        "row": 38,
+        "rowsha": "IcryexfINRtLfsCachyNOmR8Rs/441skzkp9AFKJllA=",
+        "originContent": "- Display Background Text",
+        "translatedContent": "- Mostrar Texto de Fondo"
+      },
+      {
+        "row": 39,
+        "rowsha": "rUgKKJ5URAcMEf+LdVFHCEzadnjfJPQKKNc4F9ywV+8=",
+        "originContent": "- Print Screen Background",
+        "translatedContent": "- Imprimir Fondo de Pantalla"
+      },
+      {
+        "row": 40,
+        "rowsha": "GRV9NivthgUx6ZZbIXDcP15IfuXLKcGwjyOqHoCFSoQ=",
+        "originContent": "- Mute Channel",
+        "translatedContent": "- Silenciar Canal"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "- Camera Field Update\n- Set Dialogue Frame\n- Actor FX\n\nSince 4.0:\n\n- Locked Event Group\n- Unlocked Event Group\n\n\nIf you're not using GB Studio 4.2 or above, you can still find the above [here](https://github.com/pau-tomas/gb-studio-plugins/tree/4.1). For plugins compatible with 4.0 check [here](https://github.com/pau-tomas/gb-studio-plugins/tree/4.0)\n",
+    "ContentSha": "nsK8N68G+uCI6RYm0rj7bt1R9W2LRD1U+9Pwj3sTiaQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Actualización del Campo de Cámara\n- Establecer Marco de Diálogo\n- Efectos de Actor\n\nDesde la 4.0:\n\n- Grupo de Evento Bloqueado\n- Grupo de Evento Desbloqueado\n\n\nSi no estás usando GB Studio 4.2 o superior, aún puedes encontrar lo anterior [aquí](https://github.com/pau-tomas/gb-studio-plugins/tree/4.1). Para plugins compatibles con la 4.0, consulta [aquí](https://github.com/pau-tomas/gb-studio-plugins/tree/4.0)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fstUhQAyROGa6rSOsMbItHtnM78Op4EHTbrJQK/MQuw=",
+        "originContent": "- Camera Field Update",
+        "translatedContent": "- Actualización del Campo de Cámara"
+      },
+      {
+        "row": 2,
+        "rowsha": "vMBbv0zQndYbHPaq3qOEUN1UbNNA9FTvz7VNv5/Omlk=",
+        "originContent": "- Set Dialogue Frame",
+        "translatedContent": "- Establecer Marco de Diálogo"
+      },
+      {
+        "row": 3,
+        "rowsha": "GRu+muAGN+Wcu+U5v1bnuZLEijUFSEUxorZOz5vdTI0=",
+        "originContent": "- Actor FX",
+        "translatedContent": "- Efectos de Actor"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "1K3nE72dG0OP9jQeh/GqqJax06o+nWxgGesP1mRhlns=",
+        "originContent": "Since 4.0:",
+        "translatedContent": "Desde la 4.0:"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "KXnbtZht8jXWJGBdpigyUFA0UlqhLMSmlV1PDVIHH38=",
+        "originContent": "- Locked Event Group",
+        "translatedContent": "- Grupo de Evento Bloqueado"
+      },
+      {
+        "row": 8,
+        "rowsha": "jDIPB6CZJzTvAKQU45kIPkHnk09o9A+5bOCC1hKu+SY=",
+        "originContent": "- Unlocked Event Group",
+        "translatedContent": "- Grupo de Evento Desbloqueado"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "DLKAsBRwxrTdr1qFJFFGwmqO752NBtanZ1h59PaynH4=",
+        "originContent": "If you're not using GB Studio 4.2 or above, you can still find the above [here](https://github.com/pau-tomas/gb-studio-plugins/tree/4.1). For plugins compatible with 4.0 check [here](https://github.com/pau-tomas/gb-studio-plugins/tree/4.0)",
+        "translatedContent": "Si no estás usando GB Studio 4.2 o superior, aún puedes encontrar lo anterior [aquí](https://github.com/pau-tomas/gb-studio-plugins/tree/4.1). Para plugins compatibles con la 4.0, consulta [aquí](https://github.com/pau-tomas/gb-studio-plugins/tree/4.0)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

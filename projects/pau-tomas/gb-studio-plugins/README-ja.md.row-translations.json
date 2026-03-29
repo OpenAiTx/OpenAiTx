@@ -1,0 +1,794 @@
+[
+  {
+    "row": 1,
+    "rowsha": "95OKcWwGfQqGLM1u+B730aFAQC24/PqBei0EcKZ2NBc=",
+    "originContent": "# GB Studio 4.2 - Plugin Pak",
+    "translatedContent": "# GB Studio 4.2 - プラグインパック"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "dGTjeVU+io369UJAjR7ijAJx8UvSK3vSBs1FAcUUfQ4=",
+    "originContent": "A set of experimental plugins for GB Studio 4.2. Use them at your own risk :)",
+    "translatedContent": "GB Studio 4.2向けの実験的なプラグインセットです。使用は自己責任でお願いします :)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+    "originContent": "> [!NOTE]",
+    "translatedContent": "> [!注意]"
+  },
+  {
+    "row": 6,
+    "rowsha": "vrIDPX9/LWBls7CwSrIrIIEvnCZzgpf8RCr+1ruCQ1Q=",
+    "originContent": "> A handful of previously available event plugins are now deprecated, as their functionality is part of GB Studio. [See the list below](#deprecated-plugins).",
+    "translatedContent": "> 以前利用可能だった一部のイベントプラグインは非推奨となりました。これらの機能はGB Studioに組み込まれています。[以下のリストを参照](#deprecated-plugins)。"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "+9j9iyvhROzLQOI44N4mpEA5lpXzKXaB1E0XsJeySX0=",
+    "originContent": "## Dialogue & Menus",
+    "translatedContent": "## ダイアログ＆メニュー"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "3+01yYenH3WwgQ1y96T4lCEn5+7sU3FeDPI/dZMDRhQ=",
+    "originContent": "### Draw Lifebar",
+    "translatedContent": "### ライフバー描画"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "5wL471phEuUXmv+qBsCTw6W+UU7ZN7uPSDct0cOdmkM=",
+    "originContent": "Draw a (life/power/mana)bar to a specified position on the overlay.",
+    "translatedContent": "オーバーレイ上の指定位置に（ライフ/パワー/マナ）バーを描画します。"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "+euZIWd3kNviNVu4Czqfd5t50w/UaCzLC5brQNyZLZM=",
+    "originContent": "- `X`, `Y`: Tile coordinates on the overlay.",
+    "translatedContent": "- `X`, `Y`: オーバーレイ上のタイル座標。"
+  },
+  {
+    "row": 15,
+    "rowsha": "Ic9FMHcOt3ffyk65C6BDi0JFPt7IheSVOxqpmaE7blw=",
+    "originContent": "- `Tileset`: A tileset that includes the tiles for the bar in consecutive order.",
+    "translatedContent": "- `Tileset`: バーのタイルが連続して含まれるタイルセット。"
+  },
+  {
+    "row": 16,
+    "rowsha": "KFOLvXRywk+PFtw2CJtV/EsgwToc80JN4ChuEyFZ/O0=",
+    "originContent": "- `Tile`: The first tile of the bar in the tileset (usually the empty tile).",
+    "translatedContent": "- `Tile`: タイルセット内のバーの最初のタイル（通常は空のタイル）。"
+  },
+  {
+    "row": 17,
+    "rowsha": "EVqZ1sgpOsthD9rmtTv1lxbnv/hH3Zbgxf9rEDMF08o=",
+    "originContent": "- `Value`: The current value to be represented by the bar.",
+    "translatedContent": "- `Value`: バーで表現する現在の値。"
+  },
+  {
+    "row": 18,
+    "rowsha": "EaWN/qik9Mmit4ZzLAB1H0DAFJIxgECuVtXYnaQMH3I=",
+    "originContent": "- `Max Value`: The maximum value that can be represented by the bar.",
+    "translatedContent": "- `Max Value`: バーで表現可能な最大値。"
+  },
+  {
+    "row": 19,
+    "rowsha": "LjEXqjYHHPEy9/BwlezSCJ4swzK533xuy1RRLwHOE7s=",
+    "originContent": "- `Steps`: The number of tiles needed to \"fill\" an item in the bar (not including the empty one).",
+    "translatedContent": "- `Steps`: バー内のアイテムを「満たす」のに必要なタイル数（空のタイルを除く）。"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "dFaiWH9rmnQ/RxQxNqCnz4ac7FKOX1gaZ3S+skqfvtw=",
+    "originContent": "[Example project](examples/Draw%20Lifebar/)",
+    "translatedContent": "[サンプルプロジェクト](examples/Draw%20Lifebar/)"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "3qZDv0UHepjo73ZAEiahXxFEjfjal+jEJNP6kuPjvog=",
+    "originContent": "_Note:_ The tileset will load at tile 128 of VRAM (right after the sprites block). This allows combining lifebar rendering with `Draw Text` on the overlay. The VRAM index can be changed by editing the `const VRAM_BASE_START_TILE = 128` line in the plugin file.",
+    "translatedContent": "_注意:_ タイルセットはVRAMのタイル128番から読み込まれます（スプライトブロックの直後）。これにより、オーバーレイ上の`Draw Text`との組み合わせ描画が可能です。VRAMインデックスはプラグインファイル内の`const VRAM_BASE_START_TILE = 128`の行を編集することで変更できます。"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "JCpR5Aixv/woi+V4VGQ/KNv0YrawvwuXC+1q/ef0Fp8=",
+    "originContent": "<img width=\"300\" alt=\"Draw Lifebar\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar.png\"/>",
+    "translatedContent": "<img width=\"300\" alt=\"Draw Lifebar\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar.png\"/>"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "zzfzZ+cFs8XTpTgiDRrvFpu70WWIIbQykdcysrwUbM8=",
+    "originContent": "<img width=\"300\" alt=\"Draw Lifebar\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar_screenshot.png\"/>",
+    "translatedContent": "<img width=\"300\" alt=\"Draw Lifebar\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Draw Lifebar/screenshots/draw_lifebar_screenshot.png\"/>"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "MkosR4ljDP+QtDJiOZdSMnRj8FtdJ06pMVEO3Tkx6J4=",
+    "originContent": "### Display Advanced Menu",
+    "translatedContent": "### 高度なメニュー表示"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "QBMiLOJxSkhEH4iBux6h/fy5w8XtdHRDcmLkTOqeBnk=",
+    "originContent": "Display a menu of multiple options and set the specified variable to the value of the chosen option. Menu option position and navigation order can be set for each item in the `Items` tab. You can optionally set the 'B' button to close the menu setting the variable to '0' and can also make the last menu item return '0' when selected. The dialogue box size, opening and closing direction, and the position of the menu (top or bottom) can be set in the `Layout` tab. The opening and closing speed of the menu can be set in the `Behavior` tab.",
+    "translatedContent": "複数の選択肢からなるメニューを表示し、選択された項目の値を指定変数にセットします。`Items`タブでメニュー項目の位置やナビゲーション順を設定可能です。オプションで「B」ボタンで変数を「0」にしてメニューを閉じる設定や、最後のメニュー項目を選択した際に「0」を返す設定も可能です。ダイアログボックスのサイズ、開閉方向、メニューの位置（上または下）は`Layout`タブで設定します。メニューの開閉速度は`Behavior`タブで設定できます。"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "E5B7BlA8dC/UEIf4dpI00U2EXBvFqsnySpxZ0ZEFxNA=",
+    "originContent": "There's no maximum character length per item, but the total number of displayed characters is limited by the number of tiles reserved for UI text (52 for non-color mode).",
+    "translatedContent": "1項目あたりの最大文字数に制限はありませんが、表示可能な合計文字数はUIテキスト用に確保されたタイル数（非カラー モードでは52）によって制限されます。"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "5gkDhRLZ25TgwryEhEDhRe2bDz8NiwKaPXV1/d1/Bns=",
+    "originContent": "_Note:_ The event can become very long when there are many items.",
+    "translatedContent": "_注意:_ 項目数が多いとイベントが非常に長くなることがあります。"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "pfNhVzI8St+E0xOfMX3cDJ0MCwnN3byJJHtQ8TFbv6M=",
+    "originContent": "<img width=\"300\" alt=\"Advanced Menu Items\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_items.png\"/> <img width=\"300\" alt=\"Advanced Menu Screenshot\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_screenshot.png\"/>",
+    "translatedContent": "<img width=\"300\" alt=\"Advanced Menu Items\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_items.png\"/> <img width=\"300\" alt=\"Advanced Menu Screenshot\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_screenshot.png\"/>"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "VKoz5x4mIQmfquA2rWlwTXw/PxC5WcB0ZHz/fgFv618=",
+    "originContent": "<img width=\"300\" alt=\"Advanced Menu Layout\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_layout.png\"/>",
+    "translatedContent": "<img width=\"300\" alt=\"Advanced Menu Layout\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Advanced Menu/screenshots/advanced_menu_layout.png\"/>"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "fTnVxUKMQZANcJmWoZftrXHYJWyncLxe5KPdXOR7dmo=",
+    "originContent": "## Real Time Clock",
+    "translatedContent": "## リアルタイムクロック"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "ttW0HU7HmwMA+BWWwTPVhu186FmFovscuMaQxctwmYE=",
+    "originContent": "A set of events that provide access to the Real Time Clock functionality present in some GB cartridges.",
+    "translatedContent": "一部のGBカートリッジに搭載されているリアルタイムクロック機能にアクセスするための一連のイベント。"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "IkZWwQA1K1WfidW6096BVFy6Vb4PmBAZ1W/gis906xI=",
+    "originContent": "_Note:_ Cartridge type needs to be set to `MBC3` in the project settings for the RTC to work.",
+    "translatedContent": "_注意:_ RTCを動作させるには、プロジェクト設定でカートリッジタイプを`MBC3`に設定する必要があります。"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "EEhGZJL5XMV8GoAubwdGWo7dfh4Cqq7czjy2WjRWMlI=",
+    "originContent": "### Set Clock Time",
+    "translatedContent": "### 時計の時間を設定"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "cYiHcxGVI435JNF3Qfl/5DGvU/Tk4Jy0BPy6PLyfbDs=",
+    "originContent": "Set the values of the real time clock fields to a number or the value of a variable.",
+    "translatedContent": "リアルタイムクロックの各フィールドの値を数値または変数の値に設定します。"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "+K2E57Rs0AllCZnVbqE1FqJIiHEt2TuOMQEX4RJ+bmM=",
+    "originContent": "<img width=\"300\" alt=\"Set Clock Time\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/set_clock_time.png\"/>",
+    "translatedContent": "<img width=\"300\" alt=\"Set Clock Time\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/set_clock_time.png\"/>"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "+UtAkylnI6LxBvyOuLrg4mcNcEz429QdfV0+orMYOyc=",
+    "originContent": "### Store Clock Time In Variables",
+    "translatedContent": "### 時計の時間を変数に保存"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "fry8+ScbQHCZnJ0SR30ctVPjUsUuEu3swV2fgNXtJMI=",
+    "originContent": "Store the current time in one variable for each value.",
+    "translatedContent": "現在の時間をそれぞれの値ごとに1つの変数に保存します。"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "pwrqCJ5bg0Rcsn0iYMljQ7l0PCENyrw3YSlAuNg0Ybo=",
+    "originContent": "<img width=\"300\" alt=\"Store Clock Time In Variables\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/store_time_in_var.png\"/>",
+    "translatedContent": "<img width=\"300\" alt=\"Store Clock Time In Variables\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/store_time_in_var.png\"/>"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "IIRxfwe4s0eZSpjxpuk0/bzHCi1RmHjipvgzAi87bQQ=",
+    "originContent": "### Start Clock",
+    "translatedContent": "### 時計を開始"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "AfSYJEK3aksoIJRJEoUIRThbOUvLvsJf5aefr3MWV1g=",
+    "originContent": "Starts the real time clock.",
+    "translatedContent": "リアルタイムクロックを開始します。"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "9gAv8XPEMHf5sl+Mi17YWFNltF/KprCtEFgOj4IoZ4U=",
+    "originContent": "<img width=\"300\" alt=\"Start Clock\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/start_clock.png\"/>",
+    "translatedContent": "<img width=\"300\" alt=\"Start Clock\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/start_clock.png\"/>"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "rWX5fE1gdwdmBAuD357Hqu2LZahUKeHIP/gEHmT3JYU=",
+    "originContent": "### Stop Clock",
+    "translatedContent": "### 時計を停止"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "56OJPmR71VCZyr6KiHhd7JaeLs3zZIeH8U3MS+G3qXk=",
+    "originContent": "Stops the real time clock.",
+    "translatedContent": "リアルタイムクロックを停止します。"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "XclWXZolOl7YtK2FuOoOnp2wpaRIaYi7nKygeFzq1jU=",
+    "originContent": "<img width=\"300\" alt=\"Stop Clock\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/stop_clock.png\"/>",
+    "translatedContent": "<img width=\"300\" alt=\"Stop Clock\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/RTC/screenshots/stop_clock.png\"/>"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "qm5ikkPBdkxGDtU9dioxpcWzAizO27TcWtrSscaHfMg=",
+    "originContent": "## Screen",
+    "translatedContent": "## 画面"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "qdawmP7sukUVmGgzyfU6vHdgLmKnvRci0GY8aWOe4iI=",
+    "originContent": "### Smooth Fade",
+    "translatedContent": "### スムーズフェード"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "s8FqSn2aOsozSAlMyJ4bsdYfxmRvlqXR3NPcVI0MdT8=",
+    "originContent": "**Color Mode Only**",
+    "translatedContent": "**カラー表示モードのみ**"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "bWVzLSTCfFPjuWJp+G923r4G4FtuEtvwXDszjzbLKf0=",
+    "originContent": "Fade some or all of the current scene's background or sprite palettes to or from a white or black screen, interpolating the color values for a smooth fade.",
+    "translatedContent": "現在のシーンの背景またはスプライトのパレットの一部またはすべてを、白または黒の画面にフェードイン・フェードアウトさせ、色の値を補間して滑らかなフェードを実現します。"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "abZPSuAuggiWS13gU5LJUdmlBeqWSacZZxdFJadrwK8=",
+    "originContent": "<img width=\"300\" alt=\"Player Field Update\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Smooth Fade/screenshots/smooth_fade.png\"/>",
+    "translatedContent": "<img width=\"300\" alt=\"Player Field Update\" src=\"https://raw.githubusercontent.com/pau-tomas/gb-studio-plugins/main/plugins/Smooth Fade/screenshots/smooth_fade.png\"/>"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "gDO/cM7Z+FI2wvhUSNW/kqr+BIYAZVoM24HCkM6ywAQ=",
+    "originContent": "## β Plugins",
+    "translatedContent": "## β プラグイン"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "P4kwyOc7CM1YQ7hhzPseI1LMsN/DJAiE5yNZeBCs1gs=",
+    "originContent": "The plugins in this category are even more experimental than the ones above and might change in the future.",
+    "translatedContent": "このカテゴリのプラグインは、上記のものよりもさらに実験的であり、将来的に変更される可能性があります。"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "n5kQXV+AUX9d55v3wKDKLs1qwdjBQpB8Vdl+S0zCBFY=",
+    "originContent": "- **Move Variable Actor To** and **Store Variable Actor Position n Variables**:",
+    "translatedContent": "- **Move Variable Actor To** と **Store Variable Actor Position n Variables**:"
+  },
+  {
+    "row": 86,
+    "rowsha": "32YDHX/Kcn9YpOlJMFyaylqZB3543hTzkYzlvBD/2Pc=",
+    "originContent": "  - These events duplicate existing GB Studio Actor events, but instead of using a dropdown to select the actor, they use a variable. The value of the variable represents the index of the actor in the scene (the player is always `0`, and the rest of the actors have an index assigned based on when they were added to the scene).",
+    "translatedContent": "  - これらのイベントは既存のGB Studioのアクターイベントを複製していますが、アクターを選択するためのドロップダウンの代わりに変数を使用します。変数の値はシーン内のアクターのインデックスを表します（プレイヤーは常に `0` で、その他のアクターはシーンに追加された順にインデックスが割り当てられます）。"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "VU5JisjjzD63xHP1fJuuD6FU1xPsXOMkPooLHFlU7LY=",
+    "originContent": "- **Pin Actor to Screen** and **Unpin Actor from Screen**:",
+    "translatedContent": "- **Pin Actor to Screen** と **Unpin Actor from Screen**:"
+  },
+  {
+    "row": 89,
+    "rowsha": "1TPPhewAnYXhLMENuNuj23eXCfyXCou+wnlEB8bWPhs=",
+    "originContent": "  - Pin or unpin the actor to its current screen coordinates.\\nBe aware of the current state of the actor: if it's already pinned or unpinned when the event is called, its position will be wrongly offset based on the scroll position.",
+    "translatedContent": "  - アクターを現在の画面座標にピン留めまたはピン留め解除します。\\nイベントが呼び出された時点で、アクターがすでにピン留めされているか解除されているかの状態に注意してください。そうでない場合、スクロール位置に基づいて位置が誤ってオフセットされます。"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "+O79kisZq2s7Tjb/B8RU5YoPZSN0Dd74qP0e6mnXQ5o=",
+    "originContent": "## How to Install",
+    "translatedContent": "## インストール方法"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "GhausHNAAtg1WNerBTK8+11u6Dxs7cjMa097jg1AJlI=",
+    "originContent": "Drop the `plugins` folder into your project. All the above events will be available from the `Add Event` button.",
+    "translatedContent": "`plugins` フォルダをプロジェクトにドロップしてください。上記のすべてのイベントが `Add Event` ボタンから利用可能になります。"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "ZfkIIdN9zXUnDtV9d2KtsR8rRJjTb/Cj+nNtkXTXknA=",
+    "originContent": "## More plugins from other authors:",
+    "translatedContent": "## 他の作者によるプラグイン："
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "JlBrenCHxUB51C8W/sfhcl+JExa7UckXlSiRhQ4eVho=",
+    "originContent": "- [NalaFala (Yousurname)'s GB Studio Plugin Collection](https://github.com/Y0UR-U5ERNAME/gbs-plugin-collection)",
+    "translatedContent": "- [NalaFala (Yousurname) の GB Studio プラグインコレクション](https://github.com/Y0UR-U5ERNAME/gbs-plugin-collection)"
+  },
+  {
+    "row": 98,
+    "rowsha": "7xCZ5tZ+5P7Tx5RiMYUCsLrzUpncaebDwfCnIjEm/ik=",
+    "originContent": "- [Platformer+](https://github.com/becomingplural/GBS_PlatformerPlus)",
+    "translatedContent": "- [Platformer+](https://github.com/becomingplural/GBS_PlatformerPlus)"
+  },
+  {
+    "row": 99,
+    "rowsha": "dL9RcEn0ZQbakAN8QRGp30hlsnBhWDK2dFk1FBAMtHw=",
+    "originContent": "- [Advanced Dialog and Menu vB](https://github.com/dochardware/Advanced-Dialog-and-Menu)",
+    "translatedContent": "- [Advanced Dialog and Menu vB](https://github.com/dochardware/Advanced-Dialog-and-Menu)"
+  },
+  {
+    "row": 100,
+    "rowsha": "fZD96+TeMm7ImQidJLfcmGvhzTmD83X0Ew+A2HVSzt8=",
+    "originContent": "- [Shin's GB Studio plugins](https://github.com/shin-gamedev/gbs-plugins)",
+    "translatedContent": "- [Shin の GB Studio プラグイン](https://github.com/shin-gamedev/gbs-plugins)"
+  },
+  {
+    "row": 101,
+    "rowsha": "0buJ9qZvVQnHQhT1eYpAv5Yj5NOD4pr9j/k5KUe7qsI=",
+    "originContent": "- [Gud GBS Plugins](https://github.com/mikeleisz/gud_gbs_plugins)",
+    "translatedContent": "- [Gud GBS プラグイン](https://github.com/mikeleisz/gud_gbs_plugins)"
+  },
+  {
+    "row": 102,
+    "rowsha": "P4NF6IQ3rMkFyt7dK2uJdXGNadTUs4RBSzUnXFkITWg=",
+    "originContent": "- [Fade Street](https://gearfo.itch.io/fade-street)",
+    "translatedContent": "- [Fade Street](https://gearfo.itch.io/fade-street)"
+  },
+  {
+    "row": 103,
+    "rowsha": "MkViutnSIlo1yjmpjf7h5fS5u/fD160GRx63B8rNoDk=",
+    "originContent": "- [Scroll Scene transition](https://github.com/Mico27/GBS-scrollScenePlugin) and more [Mico27's plugins](https://github.com/Mico27/)",
+    "translatedContent": "- [Scroll Scene transition](https://github.com/Mico27/GBS-scrollScenePlugin) とその他の [Mico27 のプラグイン](https://github.com/Mico27/)"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "zgG5mGAzGSpxuRTJ1c5kmecNF3Kef9jSkJkS9pogoA0=",
+    "originContent": "## Deprecated Plugin Events",
+    "translatedContent": "## 廃止されたプラグインイベント"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "RZy4+jYwd9QrkTBM33W4h9RPGfzUTbB9dKrrphxklVc=",
+    "originContent": "The following event plugins are no longer available as part of the Plugin Pak, as their functionality has been added to GB Studio natively.",
+    "translatedContent": "以下のイベントプラグインは、機能がGB Studioにネイティブで追加されたため、Plugin Pakの一部としてはもう利用できません。"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "a5B9CdAUwUoufqMGi1o3BMvNjmrzx8Mn8OAP/2jLoo8=",
+    "originContent": "Since 4.2:",
+    "translatedContent": "4.2以降："
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "fGacNTjTzmDtR3uHDWmDjNmUjgSZkWnnxgAimHa8tfM=",
+    "originContent": "- Player Field Update",
+    "translatedContent": "- Player Field Update"
+  },
+  {
+    "row": 112,
+    "rowsha": "wwnfthj1cZBAMMIecNVrUOyE1t0dUn+im/kcUhWdT5I=",
+    "originContent": "- Store Player Field In Variable",
+    "translatedContent": "- Store Player Field In Variable"
+  },
+  {
+    "row": 113,
+    "rowsha": "cAYiw/Z6ljiVdaibzd+0BCWLBHcCT1/7GRBEvB1NfMM=",
+    "originContent": "- Store Camera Field In Variable",
+    "translatedContent": "- Store Camera Field In Variable"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "/d6svYVMVRgYpcYxGNCzhb37NjnXpWHB3+V+LgBTInw=",
+    "originContent": "Since 4.1:",
+    "translatedContent": "4.1以降："
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "TP33xklzFF03uM0909GO08iYO/nN/MK63zeoFzFJcp0=",
+    "originContent": "- Display Advanced Dialogue",
+    "translatedContent": "- Display Advanced Dialogue"
+  },
+  {
+    "row": 118,
+    "rowsha": "IcryexfINRtLfsCachyNOmR8Rs/441skzkp9AFKJllA=",
+    "originContent": "- Display Background Text",
+    "translatedContent": "- Display Background Text"
+  },
+  {
+    "row": 119,
+    "rowsha": "rUgKKJ5URAcMEf+LdVFHCEzadnjfJPQKKNc4F9ywV+8=",
+    "originContent": "- Print Screen Background",
+    "translatedContent": "- Print Screen Background"
+  },
+  {
+    "row": 120,
+    "rowsha": "GRV9NivthgUx6ZZbIXDcP15IfuXLKcGwjyOqHoCFSoQ=",
+    "originContent": "- Mute Channel",
+    "translatedContent": "- Mute Channel"
+  },
+  {
+    "row": 121,
+    "rowsha": "fstUhQAyROGa6rSOsMbItHtnM78Op4EHTbrJQK/MQuw=",
+    "originContent": "- Camera Field Update",
+    "translatedContent": "- カメラフィールドの更新  "
+  },
+  {
+    "row": 122,
+    "rowsha": "vMBbv0zQndYbHPaq3qOEUN1UbNNA9FTvz7VNv5/Omlk=",
+    "originContent": "- Set Dialogue Frame",
+    "translatedContent": "- ダイアログフレームの設定  "
+  },
+  {
+    "row": 123,
+    "rowsha": "GRu+muAGN+Wcu+U5v1bnuZLEijUFSEUxorZOz5vdTI0=",
+    "originContent": "- Actor FX",
+    "translatedContent": "- アクターFX  "
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "1K3nE72dG0OP9jQeh/GqqJax06o+nWxgGesP1mRhlns=",
+    "originContent": "Since 4.0:",
+    "translatedContent": "4.0以降:  "
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "KXnbtZht8jXWJGBdpigyUFA0UlqhLMSmlV1PDVIHH38=",
+    "originContent": "- Locked Event Group",
+    "translatedContent": "- ロックされたイベントグループ  "
+  },
+  {
+    "row": 128,
+    "rowsha": "jDIPB6CZJzTvAKQU45kIPkHnk09o9A+5bOCC1hKu+SY=",
+    "originContent": "- Unlocked Event Group",
+    "translatedContent": "- ロック解除されたイベントグループ  "
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "DLKAsBRwxrTdr1qFJFFGwmqO752NBtanZ1h59PaynH4=",
+    "originContent": "If you're not using GB Studio 4.2 or above, you can still find the above [here](https://github.com/pau-tomas/gb-studio-plugins/tree/4.1). For plugins compatible with 4.0 check [here](https://github.com/pau-tomas/gb-studio-plugins/tree/4.0)",
+    "translatedContent": "GB Studio 4.2以上を使用していない場合でも、上記は[こちら](https://github.com/pau-tomas/gb-studio-plugins/tree/4.1)で見つけることができます。4.0互換のプラグインは[こちら](https://github.com/pau-tomas/gb-studio-plugins/tree/4.0)をご確認ください。"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
