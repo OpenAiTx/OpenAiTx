@@ -1,99 +1,131 @@
-# Elucidate
 
-- [プロジェクト説明](#project-description)
-- [システム要件](#os-requirements)
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+﻿# Elucidate
+
+- [プロジェクト概要](#project-description)
+- [システム要件:](#os-requirements)
 - [よくある質問](#faqs)
 - [ロードマップ](#roadmap)
 - [スクリーンショット](#screenshots)
 
-## Project Description
+## プロジェクト概要
 
-ElucidateはコマンドラインのSnapRAIDアプリケーション用のWindows GUIフロントエンドです。
+Elucidateは、コマンドラインSnapRAIDアプリケーションのWindows GUIフロントエンドです。
 
-*このプロジェクトは私自身と他の貢献者による素晴らしい作業の融合を継続しています。
+*このプロジェクトは、私自身と他の貢献者による素晴らしい作業の融合を継続しています。
 
-## System Requirements
+## システム要件
 
 - Windowsオペレーティングシステム
-- .Net Runtime 4.8.0
-- SnapRaid バージョン11.5以下
+- .Netランタイム 4.8.0
+- SnapRaid バージョン 11.5 以下
 - 対象ドライブに10MBの空き容量
 
-## FAQs
+## よくある質問
 
 **Q**: SnapRAIDとは何ですか？<br/>
-**A**: SnapRAIDはWindowsおよびLinuxオペレーティングシステム向けのソフトウェア定義スナップショットパリティエンジンです。基本的には、管理下のファイルシステムの内容を保護するために、その構成ファイルのハッシュを計算し、結果をパリティファイルに保存します。完全なハードドライブ障害が発生した場合、このパリティファイルを使用して失われたデータを復元できます。詳細については、SnapRAIDの[公式ファイル保護エンジン比較](http://snapraid.sourceforge.net/compare.html)をご覧ください。
+**A**: SnapRAIDは、WindowsおよびLinuxオペレーティングシステム向けのソフトウェア定義型スナップショットパリティエンジンです。最も基本的なレベルでは、構成ファイルのハッシュを計算し、その結果をパリティファイルに保存することで、ファイルシステムの内容を保護します。完全なハードドライブ障害が発生した場合、このパリティファイルを使用して失われたデータを復元できます。詳細はSnapRAIDの[公式ファイル保護エンジン比較](http://snapraid.sourceforge.net/compare.html)をご覧ください。
 
-**Q**: なぜGUIが必要なのですか？コマンドラインで十分では？<br/>
-**A**: 大きな目標は、機能が完全なGUIを作成し、SnapRAID環境の維持を支援する追加の管理機能を提供することです。初心者が始めやすいように「ポイントアンドクリック」が時に便利です。SnapRAIDの技術文書や高度な設定は、試してみたい人にとっては敷居が高く感じられることがあります！
+**Q**: GUIが必要ですか？コマンドラインで十分では？<br/>
+**A**: より大きな目標は、ユーザーがSnapRAID環境の維持を支援する追加管理機能を備えた、機能完備のGUIを作成することです。初心者が始める際には「ポイント＆クリック」が簡単な場合もあります。SnapRAIDの技術文書や深い設定は、試してみたい人にとって敷居が高く感じることがあります！
 
-**Q**: まだ不明な点があります。もっとありますか？<br/>
-**A**: はい、[ドキュメント](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./docs/Documentation.md)で画像などを参照してください。
+**Q**: まだ不安です。他に情報はありますか？<br/>
+**A**: はい、[ドキュメント](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./docs/Documentation.md)に画像などがありますのでご覧ください。
 
-**Q**: 「大きな目標」とは何ですか？<br/>
-**A**: 完全な内訳は下記の__ロードマップ__をご覧ください。
+**Q**: 「より大きな目標」とは何ですか？<br/>
+**A**: 下記の__ロードマップ__をご覧ください。
 
-## Roadmap
+## ロードマップ
 
 - [x] フェーズI
-  - [x] 最新のSnapRAIDの最小サポートに追随する試み。 - __進行中。__
+  - [x] 最新SnapRAIDの最低サポート維持を目指す - __継続中。__
   - [x] 使いやすさ
-  - [x] SnapRAIDには3つのコマンドがあるので、初心者が簡単にアクセスできるようにします 
-  - [x] 進行状況インジケーター 
-  - [x] ロギング「インタラクティブ」と直接ログへ。 
-  - [x] ユーザーログイン時の自動起動 
-  - [x] ツールチップで案内 •
+  - [x] SnapRAIDには3つのコマンドがあるので、初心者が簡単にアクセスできるように
+  - [x] 進行状況インジケーター
+  - [x] 「インタラクティブ」ログおよび直接ログ記録
+  - [x] ユーザーのログイン時に自動起動
+  - [x] ツールチップによるガイド •
 
-- [x] フェーズII フェーズIIの機能要求
-  - [x] 一時停止、優先度変更、中止。
-  - [x] コマンド拡張 - 「デフォルトで使用される追加パラメータを許可する。」
-  - [x] スケジューリング 
-    - 削除、コマンドラインを使用
-  - [x] 保護データのグラフィカルビュー。
+- [x] フェーズII フェーズII機能要望
+  - [x] 一時停止、優先度変更、中止
+  - [x] コマンド拡張 - 「デフォルトで使用されるパラメータに追加パラメータを許可」
+  - [x] スケジューリング
+    - 削除済み、コマンドラインを使用してください
+  - [x] 保護されたデータのグラフィカルビュー
 
-- [ ] フェーズIII（2017-03以降の再開）
-  - [x] 新しいコンパイラーと .Net 4.7.x	
-  - [x] コマンドラインインターフェース
-  - [ ] Krypton Toolkit / Navigator / その他による新レイアウト 
-    - 進行中
-  - [ ] 翻訳 
-  - [x] 新コマンド
-  - [ ] ステータスレポート付きメール送信機能
-  - [ ] テスト手順の文書化
-    - 進行中
-  - [ ] ドキュメントへの追加 / 画像の更新
-    - 進行中
-  - [ ] _Windows EventLog_ でのエラー報告の追加
-  - [x] 例外のオンライン報告のための _ExceptionLess_ の追加
-  - [x] 回復可能な内容の表示。 
+- [ ] フェーズIII（2017-03以降の再始動）
+  - [x] 新しいコンパイラと .Net 4.7.x
+  - [x] コマンドラインインターフェイス
+  - [ ] Krypton Toolkit / Navigator などによる新しいレイアウト
+    - 作業中
+  - [ ] 翻訳
+  - [x] 新しいコマンド
+  - [ ] ステータスレポート付きメール送信
+  - [ ] テスト手順のドキュメント化
+    - 作業中
+  - [ ] ドキュメントへの追加／画像の更新
+    - 作業中
+  - [ ] エラーの _Windows EventLog_ 報告を追加
+  - [x] 例外のオンライン報告用に _ExceptionLess_ を追加
+  - [x] 復元可能な内容を表示
 
-- [ ] フェーズIV（新しいSnapRAIDコマンド？） 
-  - [ ] ディスク回復を含む拡張ヘルプ - インタラクティブガイドなど 
-  - [ ] SnapRAIDのバージョンが古い場合にユーザーに通知
-  - [ ] SnapRAIDログの解釈（以下の変更で使用）
-  - [ ] コマンド実行後のアレイの状態提供
-  - [ ] syncコマンドを初期差分を含むように修正
-  - [ ] 差分が閾値を超える問題を報告した場合に警告を出すようsyncコマンドを修正
-  - [ ] sync閾値要件のユーザー設定可能な設定を追加
-
+- [ ] フェーズIV（新しい SnapRAID コマンド？）
+  - [ ] ディスク復旧のための拡張ヘルプ - 対話型ガイドなど
+  - [ ] SnapRAID のバージョンが古い場合にユーザーへ通知
+  - [ ] SnapRAID ログの解釈（以下の変更で使用）
+  - [ ] コマンド実行後のアレイのステータスを表示
+  - [ ] 初回の diff を含めるよう sync コマンドを修正
+  - [ ] diff でしきい値を超える問題が報告された場合に sync コマンドで警告を出すよう修正
+  - [ ] sync のしきい値要件をユーザーが設定可能にする
 
 ## スクリーンショット
 
-![Starting View](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./Images/starting_view.png)
+![開始画面](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./Images/starting_view.png)
 
-![Settings Form](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./Images/Settings_Form.PNG)
+![設定フォーム](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./Images/Settings_Form.PNG)
+
+## ご協力いただけますか？
+- テスターを募集しています（すべての .Net プラットフォーム）
 
 
-## お手伝いいただけますか？ 
-- テスター募集（すべての .Net プラットフォーム） 
-- 翻訳の支援 
-- ヘルプ / ユーザーインターフェースガイド 
-- その他のアイデア :-) 
-- アイデアのための開発者募集 
+- 翻訳を手伝うことができます
+- ヘルプ／ユーザーインターフェースガイド
+- その他のアイデア :-)
+- アイデアのための開発者
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-30
 
 ---

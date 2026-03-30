@@ -1,4 +1,36 @@
-# Elucidate
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
+﻿# Elucidate
 
 - [Project Description](#project-description)
 - [System Requirements:](#os-requirements)
@@ -10,7 +42,7 @@
 
 Elucidate is a Windows GUI front-end for the command-line SnapRAID application.
 
-*This project is continues the amalgamation of the great work done by myself and other contributors.
+*This project continues the amalgamation of the great work done by myself and other contributors.
 
 ## System Requirements
 
@@ -22,13 +54,13 @@ Elucidate is a Windows GUI front-end for the command-line SnapRAID application.
 ## FAQs
 
 **Q**: What is SnapRAID?<br/>
-**A**: SnapRAID is a software-defined snapshot-parity engine for Windows and Linux operating systems. On the most basic level, it offers protection to the contents of a file-system under its umbrella by computing the hashes of its component files and storing the results on a parity file. In the event of a complete hard drive failure, this parity file can be used to reconstruct the lost data. For full detail, visit SnapRAID's [official comparison of file protection engines.](http://snapraid.sourceforge.net/compare.html)
+**A**: SnapRAID is a software-defined snapshot-parity engine for Windows and Linux operating systems. At its most basic, it offers protection to the contents of a file-system under its management by computing the hashes of its component files and storing the results in a parity file. In the event of a complete hard drive failure, this parity file can be used to reconstruct the lost data. For full detail, visit SnapRAID's [official comparison of file protection engines.](http://snapraid.sourceforge.net/compare.html)
 
 **Q**: Why a GUI, the Command Line works!<br/>
-**A**: The larger goal is to create a feature-complete GUI with additional management features designed to aid a user in maintaining a functioning SnapRAID environment. Sometimes, ‘point and clicks’ are easier for a novice to get going with. SnapRAID's technical documentation and deep configurability can make adopting it off-putting to those looking to try it out!
+**A**: The larger goal is to create a feature-complete GUI with additional management features designed to help a user maintain a functioning SnapRAID environment. Sometimes, ‘point and click’ is easier for a novice to get started with. SnapRAID's technical documentation and deep configurability can make adoption intimidating for those looking to try it out!
 
 **Q**: I'm still uncertain, is there more ?<br/>
-**A**: Yes, Have a look at the [documentation](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./docs/Documentation.md) for pictures etc.
+**A**: Yes, have a look at the [documentation](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./docs/Documentation.md) for pictures etc.
 
 **Q**: So what are the "Larger Goals" ?<br/>
 **A**: See the __Roadmap__ below for a complete breakdown.
@@ -86,14 +118,14 @@ Elucidate is a Windows GUI front-end for the command-line SnapRAID application.
 
 ## Can you Help ? 
 - Looking for testers (All .Net platforms) 
-- Can help translate 
-- Help / User interface guides 
-- Any other ideas :-) 
-- Developers for the ideas 
+- Can help translate
+- Help / User interface guides
+- Any other ideas :-)
+- Developers for the ideas
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-30
 
 ---

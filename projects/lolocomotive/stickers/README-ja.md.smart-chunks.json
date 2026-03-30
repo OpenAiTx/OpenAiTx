@@ -1,0 +1,1011 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Stickers\n\nSimple android sticker maker for WhatsApp without ads.\n\n[![](https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)](https://play.google.com/store/apps/details?id=de.loicezt.stickers)\n\nOr download from the latest [GitHub Release](https://github.com/lolocomotive/stickers/releases)\n\n## Features\n\n- Quick mode: sharing an image to the app automatically adds it to whatsapp\n- Editor\n    - Crop your sticker to your heart's content\n    - Add texts with different sizes, fonts and colors\n    - Draw with different colors and brush sizes, with undo/redo support\n    - Every element has its own layer unde the hood, so you can draw above and below texts\n- Import/Export\n    - Export to `.zip` to share or backup your packs\n    - Import from various formats (own `.zip` format, `.wastickers`, `.stickify`, shouldn't be too\n      hard to add more because most of them are just a ZIP file with pictures and a simple manifest)\n- Create, edit and delete multiple packs and their metadata (author, title, tray icon and more)\n\n## Screenshots\n\n| Home                              | Pack view                         | Editor                                |\n|-----------------------------------|-----------------------------------|---------------------------------------|\n| ![home.png](https://raw.githubusercontent.com/lolocomotive/stickers/main/screenshots/home.png) | ![pack.png](https://raw.githubusercontent.com/lolocomotive/stickers/main/screenshots/pack.png) | ![editor.png](https://raw.githubusercontent.com/lolocomotive/stickers/main/screenshots/editor.png) |\n\n## Building\n\n`flutter run` should work just fine, however if you want to build the release version of the app,\nyou'll need to either:\n\n<details>\n<summary>Use your own signing key</summary>\n\nIn `android/` create `key.properties` with\n",
+    "ContentSha": "QvSliAZZCCMOxYas9f7lx1xj3TSWsSh4/38z72Q7Bm0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ステッカー\n\n広告なしのシンプルなWhatsApp用Androidステッカー作成アプリ。\n\n[![](https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)](https://play.google.com/store/apps/details?id=de.loicezt.stickers)\n\nまたは最新の[GitHubリリース](https://github.com/lolocomotive/stickers/releases)からダウンロード\n\n## 機能\n\n- クイックモード: 画像をアプリに共有すると自動的にWhatsAppに追加される\n- エディター\n    - ステッカーを好きなだけトリミング\n    - サイズ、フォント、色を変えたテキストを追加\n    - 色やブラシサイズの異なる描画、元に戻す/やり直し対応\n    - 各要素は独自のレイヤーを持ち、テキストの上や下に描画可能\n- インポート/エクスポート\n    - `.zip`形式でパックを共有やバックアップ可能\n    - さまざまな形式からインポート（独自の`.zip`形式、`.wastickers`、`.stickify`など、ほとんどが画像と簡単なマニフェストを含むZIPファイルなので他も追加しやすい）\n- 複数のパックとそのメタデータ（作者、タイトル、トレイアイコンなど）を作成、編集、削除可能\n\n## スクリーンショット\n\n| ホーム                             | パックビュー                      | エディター                             |\n|-----------------------------------|-----------------------------------|---------------------------------------|\n| ![home.png](https://raw.githubusercontent.com/lolocomotive/stickers/main/screenshots/home.png) | ![pack.png](https://raw.githubusercontent.com/lolocomotive/stickers/main/screenshots/pack.png) | ![editor.png](https://raw.githubusercontent.com/lolocomotive/stickers/main/screenshots/editor.png) |\n\n## ビルド\n\n`flutter run` で問題なく動作しますが、リリース版をビルドしたい場合は次のいずれかが必要です：\n\n<details>\n<summary>独自の署名キーを使用する</summary>\n\n`android/` に `key.properties` を作成し、\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5xO76+J2Id95gc9S81hs1ueFGfnhiLRcO9EBNH6r4aI=",
+        "originContent": "# Stickers",
+        "translatedContent": "# ステッカー"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "gsqZjtDp9GJLV+ILhi+MvmxbdNs5rF2YQZXH7oY3QuA=",
+        "originContent": "Simple android sticker maker for WhatsApp without ads.",
+        "translatedContent": "広告なしのシンプルなWhatsApp用Androidステッカー作成アプリ。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "L1Ei0XpZEmrbSXQpZkrYli9KGnVNCt+FN4o3a5RgKJ0=",
+        "originContent": "[![](https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)](https://play.google.com/store/apps/details?id=de.loicezt.stickers)",
+        "translatedContent": "[![](https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg)](https://play.google.com/store/apps/details?id=de.loicezt.stickers)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "RXBPaZSD/QIcY0oOpxcUHmO/0Qu/lMiZjyB6krZCw0E=",
+        "originContent": "Or download from the latest [GitHub Release](https://github.com/lolocomotive/stickers/releases)",
+        "translatedContent": "または最新の[GitHubリリース](https://github.com/lolocomotive/stickers/releases)からダウンロード"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 機能"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "e8PYIVOa+cE8AhZ4H34MKyNj6fk+OrWaqoK3w5bSUVA=",
+        "originContent": "- Quick mode: sharing an image to the app automatically adds it to whatsapp",
+        "translatedContent": "- クイックモード: 画像をアプリに共有すると自動的にWhatsAppに追加される"
+      },
+      {
+        "row": 12,
+        "rowsha": "jSgd6+Q6Kw3GHeGgZcx1i73wkSoGXW3HnbZqBM+2hpo=",
+        "originContent": "- Editor",
+        "translatedContent": "- エディター"
+      },
+      {
+        "row": 13,
+        "rowsha": "ecrw3A3NDj7jeOsmKfWKzM/5YxobPf3Lab7u+HzvohM=",
+        "originContent": "    - Crop your sticker to your heart's content",
+        "translatedContent": "    - ステッカーを好きなだけトリミング"
+      },
+      {
+        "row": 14,
+        "rowsha": "rHOPLK/WWRDVyECpUI5ZCcmfaxg8GzkscmwaKKRxFGQ=",
+        "originContent": "    - Add texts with different sizes, fonts and colors",
+        "translatedContent": "    - サイズ、フォント、色を変えたテキストを追加"
+      },
+      {
+        "row": 15,
+        "rowsha": "pGkq0TuhI7q3lLplpFxiB8KVVRI9e/HcFumfP9QZEUs=",
+        "originContent": "    - Draw with different colors and brush sizes, with undo/redo support",
+        "translatedContent": "    - 色やブラシサイズの異なる描画、元に戻す/やり直し対応"
+      },
+      {
+        "row": 16,
+        "rowsha": "nQw/CVLwTP6BNuzjLs7wOnB1384/XCAmUHf/ODrfhPI=",
+        "originContent": "    - Every element has its own layer unde the hood, so you can draw above and below texts",
+        "translatedContent": "    - 各要素は独自のレイヤーを持ち、テキストの上や下に描画可能"
+      },
+      {
+        "row": 17,
+        "rowsha": "iEQ36jbICMhoLiWezwSCic8syqcCOfbLelE+fk/amSg=",
+        "originContent": "- Import/Export",
+        "translatedContent": "- インポート/エクスポート"
+      },
+      {
+        "row": 18,
+        "rowsha": "V+X8jxF9HmeV7At4FE3iVBAUCwiU0xpc/GB8mUHT1Vs=",
+        "originContent": "    - Export to `.zip` to share or backup your packs",
+        "translatedContent": "    - `.zip`形式でパックを共有やバックアップ可能"
+      },
+      {
+        "row": 19,
+        "rowsha": "+aLVLWHt+swB6STo/5WRXR8dRnTB26GxLvrxsqS0d5U=",
+        "originContent": "    - Import from various formats (own `.zip` format, `.wastickers`, `.stickify`, shouldn't be too",
+        "translatedContent": "    - さまざまな形式からインポート（独自の`.zip`形式、`.wastickers`、`.stickify`など、ほとんどが画像と簡単なマニフェストを含むZIPファイルなので他も追加しやすい）"
+      },
+      {
+        "row": 20,
+        "rowsha": "AtfsAu5gWTaSZRl56tCFEAw1VwkZ883N2qe2nyqoUmA=",
+        "originContent": "      hard to add more because most of them are just a ZIP file with pictures and a simple manifest)",
+        "translatedContent": "- 複数のパックとそのメタデータ（作者、タイトル、トレイアイコンなど）を作成、編集、削除可能"
+      },
+      {
+        "row": 21,
+        "rowsha": "lPUSrvjFFhCB+dGCzxZqDuR9YAnERfMpfKn+j+tc/Yo=",
+        "originContent": "- Create, edit and delete multiple packs and their metadata (author, title, tray icon and more)",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## スクリーンショット"
+      },
+      {
+        "row": 23,
+        "rowsha": "CrQ1XO/et1agLOmJnlaLYfcfQdvL77gCZWQqAUysVwM=",
+        "originContent": "## Screenshots",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| ホーム                             | パックビュー                      | エディター                             |"
+      },
+      {
+        "row": 25,
+        "rowsha": "iUS9SACK+lpFdARbtTKDBS6hYbgfHw1VNxPvITMAtS4=",
+        "originContent": "| Home                              | Pack view                         | Editor                                |",
+        "translatedContent": "|-----------------------------------|-----------------------------------|---------------------------------------|"
+      },
+      {
+        "row": 26,
+        "rowsha": "4oeFFPr/JmOPCNHJ7tDiyKkzGjbC2dcG5+ngCMvl0IY=",
+        "originContent": "|-----------------------------------|-----------------------------------|---------------------------------------|",
+        "translatedContent": "| ![home.png](https://raw.githubusercontent.com/lolocomotive/stickers/main/screenshots/home.png) | ![pack.png](https://raw.githubusercontent.com/lolocomotive/stickers/main/screenshots/pack.png) | ![editor.png](https://raw.githubusercontent.com/lolocomotive/stickers/main/screenshots/editor.png) |"
+      },
+      {
+        "row": 27,
+        "rowsha": "F01CgNxZgUdjqCMooQpeZc08EJ5NSnh55QFsGT3k0bk=",
+        "originContent": "| ![home.png](https://raw.githubusercontent.com/lolocomotive/stickers/main/screenshots/home.png) | ![pack.png](https://raw.githubusercontent.com/lolocomotive/stickers/main/screenshots/pack.png) | ![editor.png](https://raw.githubusercontent.com/lolocomotive/stickers/main/screenshots/editor.png) |",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ビルド"
+      },
+      {
+        "row": 29,
+        "rowsha": "7yG6yJKPL5cg9brIizwUDQZkeD/r3QuaAXwB7XbI5xs=",
+        "originContent": "## Building",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`flutter run` で問題なく動作しますが、リリース版をビルドしたい場合は次のいずれかが必要です："
+      },
+      {
+        "row": 31,
+        "rowsha": "NHS6mN/oNUiJvTSMrBFwNF010Eq1BhdmIFAHV8DeWIc=",
+        "originContent": "`flutter run` should work just fine, however if you want to build the release version of the app,",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "uxwh813UvuktpqZha1F3ywXWMLMyAGWGUTlCBZvFw1s=",
+        "originContent": "you'll need to either:",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<summary>独自の署名キーを使用する</summary>"
+      },
+      {
+        "row": 34,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "eV5DqaUZ1II75WedjnBgD/ldYq+x7XY1t3DvGKqAeBU=",
+        "originContent": "<summary>Use your own signing key</summary>",
+        "translatedContent": "`android/` に `key.properties` を作成し、"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "WZw0N6lHLRw3a/c7s8fH5Yrl3hNnj0UrAqhjl6zOBVU=",
+        "originContent": "In `android/` create `key.properties` with",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```properties\nstoreFile=path/to/keystore.jks\nkeyAlias=your key alias\nstorePassword=your store password\nkeyPassword=your key password\n```",
+    "ContentSha": "882AaFx8wUxyXwGwMWG82CZAZPVarndXwteP+/81OxY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```properties\nstoreFile=path/to/keystore.jks\nkeyAlias=your key alias\nstorePassword=your store password\nkeyPassword=your key password\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7PCY8L4UWp+PfU5H31sdGaZpAbtkbTtzEqdEtnP5FVU=",
+        "originContent": "```properties",
+        "translatedContent": "```properties"
+      },
+      {
+        "row": 2,
+        "rowsha": "5uwZCD89vCOArafKfrFOhvbqjBPhPL8Ovf+UO7KbJEo=",
+        "originContent": "storeFile=path/to/keystore.jks",
+        "translatedContent": "storeFile=path/to/keystore.jks"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ic7OBLTjGDA9AeJ3U9aPj4D1yT81Y0bvl/h+ZQzeh9s=",
+        "originContent": "keyAlias=your key alias",
+        "translatedContent": "keyAlias=your key alias"
+      },
+      {
+        "row": 4,
+        "rowsha": "yfdvXcELF9bBQPByya8PAZU5Xi1AEXtne+i+Sc/IP1E=",
+        "originContent": "storePassword=your store password",
+        "translatedContent": "storePassword=your store password"
+      },
+      {
+        "row": 5,
+        "rowsha": "jHtGCS6a6mVKflW1GSEzfT88yGNAO27F8YpFGn2YB1w=",
+        "originContent": "keyPassword=your key password",
+        "translatedContent": "keyPassword=your key password"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nMore details: https://docs.flutter.dev/deployment/android#sign-the-app\n\n</details>\n\nor\n\n<details>\n<summary>Use the debug signing config</summary>\n\nIn `android/app/build.gradle` around line 29\n",
+    "ContentSha": "mlytTusOwdRU/gMITJo3j9mlKSRKmCHa1zxzDV4QxH4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n詳細はこちら: https://docs.flutter.dev/deployment/android#sign-the-app\n\n</details>\n\nまたは\n\n<details>\n<summary>デバッグ署名設定を使用する</summary>\n\n`android/app/build.gradle` の29行目付近で\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "xw4fawux/tULpYofKxUaH50uqlof+DBNcpVSiZY+ig0=",
+        "originContent": "More details: https://docs.flutter.dev/deployment/android#sign-the-app",
+        "translatedContent": "詳細はこちら: https://docs.flutter.dev/deployment/android#sign-the-app"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "cXVRejcLXNLmZOP9KcTqnbXOFwWOuXcv4JClSF5J2tY=",
+        "originContent": "or",
+        "translatedContent": "または"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 9,
+        "rowsha": "io5qgY6pPDX+8ePGLyfSM8giYxYJa6N7nODzV+zH9tE=",
+        "originContent": "<summary>Use the debug signing config</summary>",
+        "translatedContent": "<summary>デバッグ署名設定を使用する</summary>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "7nWNrb3Q2nhAyBWvmosv9Ah8pQS33st3QEKjucumrN0=",
+        "originContent": "In `android/app/build.gradle` around line 29",
+        "translatedContent": "`android/app/build.gradle` の29行目付近で"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\nbuildTypes {\n  release {\n    signingConfig signingConfigs.release\n  }\n}\n```",
+    "ContentSha": "XaYS9QsoufH2WtQZ3Y7Wozj13LL10sGtRzk+6XKklak=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nbuildTypes {\n  release {\n    signingConfig signingConfigs.release\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "02+4fLkB/W/gMh78s1WU5ASB9MnbnalkdQKqXa3801E=",
+        "originContent": "buildTypes {",
+        "translatedContent": "buildTypes {"
+      },
+      {
+        "row": 3,
+        "rowsha": "arBD8DA3lSjJu0QU4Gj7VshKDlMtArS0AGC43b/fNGU=",
+        "originContent": "  release {",
+        "translatedContent": "  release {"
+      },
+      {
+        "row": 4,
+        "rowsha": "BFrfjjmLziZIQt130epRLx0B8B1QIuR9gHHGF9EQ880=",
+        "originContent": "    signingConfig signingConfigs.release",
+        "translatedContent": "    signingConfig signingConfigs.release"
+      },
+      {
+        "row": 5,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nreplace `signingConfigs.release` with `signingConfigs.debug` and remove\n",
+    "ContentSha": "Odsrm73NnBlu+XS6yOkluWRdLomcmoLsQh5612Gs8x4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n`signingConfigs.release` を `signingConfigs.debug` に置き換え、削除してください\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "M3hlCMdXrPA24065WmBQXpYOz1lvBaHzAjpoLTijY90=",
+        "originContent": "replace `signingConfigs.release` with `signingConfigs.debug` and remove",
+        "translatedContent": "`signingConfigs.release` を `signingConfigs.debug` に置き換え、削除してください"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\ndef keystoreProperties = new Properties()\ndef keystorePropertiesFile = rootProject.file(\"key.properties\")\nif (keystorePropertiesFile.exists()) {\n    keystorePropertiesFile.withReader('UTF-8') { reader ->\n        keystoreProperties.load(reader)\n    }\n}\n```",
+    "ContentSha": "2TvaMrAk2sZw/1eF3e45I94kV9z/hg/Aizzw+NRsKOE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ndef keystoreProperties = new Properties()\ndef keystorePropertiesFile = rootProject.file(\"key.properties\")\nif (keystorePropertiesFile.exists()) {\n    keystorePropertiesFile.withReader('UTF-8') { reader ->\n        keystoreProperties.load(reader)\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "oh/0Ai7SlD4N1rUzdZEUo36l/4zCxap0PICXmVMC71E=",
+        "originContent": "def keystoreProperties = new Properties()",
+        "translatedContent": "def keystoreProperties = new Properties()"
+      },
+      {
+        "row": 3,
+        "rowsha": "2uBIk9moow8izWI+/iKbn6gL55QOzeEHNOfXAHR4rTk=",
+        "originContent": "def keystorePropertiesFile = rootProject.file(\"key.properties\")",
+        "translatedContent": "def keystorePropertiesFile = rootProject.file(\"key.properties\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "hkEjycv8TpLdmsYROlPmYf123hK4ltcmkNdEunp0rqE=",
+        "originContent": "if (keystorePropertiesFile.exists()) {",
+        "translatedContent": "if (keystorePropertiesFile.exists()) {"
+      },
+      {
+        "row": 5,
+        "rowsha": "I77EMZRnb2jYWyoxChUCZtIRShNNpe+g8e0B8kHJvks=",
+        "originContent": "    keystorePropertiesFile.withReader('UTF-8') { reader ->",
+        "translatedContent": "    keystorePropertiesFile.withReader('UTF-8') { reader ->"
+      },
+      {
+        "row": 6,
+        "rowsha": "HffFT8ZmafddHmCnhxUyx/XsNrdTKrU8NvaW0LcxDHA=",
+        "originContent": "        keystoreProperties.load(reader)",
+        "translatedContent": "        keystoreProperties.load(reader)"
+      },
+      {
+        "row": 7,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 8,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nand\n",
+    "ContentSha": "TlB7C7HyrzhEXGyWuZXG9BkLML33CDDkHrwkY9noujQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nand\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "YgERG4Ogy1sJIss3zEQrmkDiTjsc4QCkuyBPTGP9KsA=",
+        "originContent": "and",
+        "translatedContent": "and"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\nsigningConfigs {\n    create(\"release\") {\n        keyAlias = keystoreProperties[\"keyAlias\"]\n        keyPassword = keystoreProperties[\"keyPassword\"]\n        storeFile = new File(keystoreProperties[\"storeFile\"])\n        storePassword = keystoreProperties[\"storePassword\"]\n    }\n}\n```",
+    "ContentSha": "TxVYHYlxABTioz7MzAszYRQRJ2s0mll0LqJLFRV8roU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nsigningConfigs {\n    create(\"release\") {\n        keyAlias = keystoreProperties[\"keyAlias\"]\n        keyPassword = keystoreProperties[\"keyPassword\"]\n        storeFile = new File(keystoreProperties[\"storeFile\"])\n        storePassword = keystoreProperties[\"storePassword\"]\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "vxRnlBaAj/dK3I+fb7T4UhNKkXGC4xiYPVEmfmzDjUI=",
+        "originContent": "signingConfigs {",
+        "translatedContent": "signingConfigs {"
+      },
+      {
+        "row": 3,
+        "rowsha": "oB1FFmmb1pi38Y94DvwYNyoOKQgHfvHUmmBmCTlypnw=",
+        "originContent": "    create(\"release\") {",
+        "translatedContent": "    create(\"release\") {"
+      },
+      {
+        "row": 4,
+        "rowsha": "Y4Vzfqx2V9ui4j4+amIlN+P4Uj235kcM6tMRormiMKQ=",
+        "originContent": "        keyAlias = keystoreProperties[\"keyAlias\"]",
+        "translatedContent": "        keyAlias = keystoreProperties[\"keyAlias\"]"
+      },
+      {
+        "row": 5,
+        "rowsha": "9IB152VuVoT559FQzWVcxBnpetoet1TyseprBVIU+iI=",
+        "originContent": "        keyPassword = keystoreProperties[\"keyPassword\"]",
+        "translatedContent": "        keyPassword = keystoreProperties[\"keyPassword\"]"
+      },
+      {
+        "row": 6,
+        "rowsha": "2v3AEFqFlAaY6UFxS0ubsmH+57WA1ngNFpa9FtbxCyI=",
+        "originContent": "        storeFile = new File(keystoreProperties[\"storeFile\"])",
+        "translatedContent": "        storeFile = new File(keystoreProperties[\"storeFile\"])"
+      },
+      {
+        "row": 7,
+        "rowsha": "W7gZv0sXuzbdVH8JSOD0a+MuxTa4ET7wT1WDwDBiGI8=",
+        "originContent": "        storePassword = keystoreProperties[\"storePassword\"]",
+        "translatedContent": "        storePassword = keystoreProperties[\"storePassword\"]"
+      },
+      {
+        "row": 8,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nAnd it *should* work, only use for testing.\n</details>\n\nAnd the you just need to\n",
+    "ContentSha": "a2QIWLLquPTDQLUOHhAZXEyqdVGHe21B9zn9+d1RqEo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "そして、それは*動作するはず*です、テスト用にのみ使用してください。\n</details>\n\nそして、次にあなたがする必要があるのは\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "そして、それは*動作するはず*です、テスト用にのみ使用してください。"
+      },
+      {
+        "row": 2,
+        "rowsha": "husruG6FwLW1kdKt5+ufrt1Yxa/R4MaiSfYFwDiP1Lc=",
+        "originContent": "And it *should* work, only use for testing.",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "そして、次にあなたがする必要があるのは"
+      },
+      {
+        "row": 5,
+        "rowsha": "C4vv0AAWo9XL+h/GBbUtGMd0Sz4fPgZ5/FBFqqO8Pe8=",
+        "originContent": "And the you just need to",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\nflutter build apk\n```",
+    "ContentSha": "MQt9zo7aOKS9ANpPhw76vSLOx0ETRTlFPamjUfpV0Mo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nflutter build apk\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "0Efn7t3VuWBkCtmSSmjQrfTC1tU8aBdtQppu57son48=",
+        "originContent": "flutter build apk",
+        "translatedContent": "flutter build apk"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Contributing\n\nAny contributions (Pull requests, feature requests and bug reports) are very welcome!\nBe aware that I set my line width to 120 instead of 80, so be careful before reformatting entire\nfiles. If you're using vscode put the following in `.vscode/settings.json` .\n",
+    "ContentSha": "mcoeJwLGFYvaoYLmbiClL5rkipVDX9JMVFQcRKZ8iyA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 貢献について\n\nプルリクエスト、機能要望、バグ報告など、どんな貢献も大歓迎です！\n私の行幅は80ではなく120に設定しているので、ファイル全体を再フォーマットする際は注意してください。\nvscodeを使用している場合は、`.vscode/settings.json` に以下を設定してください。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 貢献について"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "7dks4Bm9iu8wyshlF69Q6P9V8kYpqd0vz37VYjbgzdw=",
+        "originContent": "Any contributions (Pull requests, feature requests and bug reports) are very welcome!",
+        "translatedContent": "プルリクエスト、機能要望、バグ報告など、どんな貢献も大歓迎です！"
+      },
+      {
+        "row": 5,
+        "rowsha": "r6HzS4D5S214AlbFMfq0KEk8PgKnMrllo7QYK/u6WrA=",
+        "originContent": "Be aware that I set my line width to 120 instead of 80, so be careful before reformatting entire",
+        "translatedContent": "私の行幅は80ではなく120に設定しているので、ファイル全体を再フォーマットする際は注意してください。"
+      },
+      {
+        "row": 6,
+        "rowsha": "UELBBJzh7UgMD41RINaoBtDfLND0+6a2UjBaDWURaeM=",
+        "originContent": "files. If you're using vscode put the following in `.vscode/settings.json` .",
+        "translatedContent": "vscodeを使用している場合は、`.vscode/settings.json` に以下を設定してください。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```json\n{\n  \"dart.lineLength\": 120,\n  \"[dart]\": {\n    \"editor.rulers\": [\n      120\n    ]\n  }\n}\n```",
+    "ContentSha": "WcL/dFpvK1as/q1BRkgcxbqqzX7rbPWVNdimRRFj4JQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"dart.lineLength\": 120,\n  \"[dart]\": {\n    \"editor.rulers\": [\n      120\n    ]\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "CFXl63N910fgmk8jaCopYE+GnA2HimC34dzxHctYLRA=",
+        "originContent": "  \"dart.lineLength\": 120,",
+        "translatedContent": "  \"dart.lineLength\": 120,"
+      },
+      {
+        "row": 4,
+        "rowsha": "RTAxKTNzu7r7aG2X9DFLKHwPwtlUrZ36oce3S7WlnKM=",
+        "originContent": "  \"[dart]\": {",
+        "translatedContent": "  \"[dart]\": {"
+      },
+      {
+        "row": 5,
+        "rowsha": "vp43BRC7JCSh6i30GcrzuPnmfiV1QItQ0Xb9WRkK/y8=",
+        "originContent": "    \"editor.rulers\": [",
+        "translatedContent": "    \"editor.rulers\": ["
+      },
+      {
+        "row": 6,
+        "rowsha": "FkCt6ou60XxcsIcldLTrDqFoB8FQVc1gEH0cTbdsduc=",
+        "originContent": "      120",
+        "translatedContent": "      120"
+      },
+      {
+        "row": 7,
+        "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+        "originContent": "    ]",
+        "translatedContent": "    ]"
+      },
+      {
+        "row": 8,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nAlso the code is not very well documented yet so sorry in advance to anyone trying to read it.\n\n## TODO\n\nSome features I plan to work on in the future\n\n- [ ] Selecting multiple packs at once in the home screen\n- [ ] Add option to add a background to texts\n- [ ] Image layers on stickers\n- [ ] Start with an existing sticker\n- [ ] Create animated stickers from gifs\n- [ ] Crop and rotate videos\n\n## iOS Support\n\nI don't own any Apple devices, therefore I can't build for iOS nor test the iOS app. It's a flutter\napp so it should more or less work.\nIf you want to add iOS support, you're welcome! Here's some things to look out for:\n\n- `image_editor` would have to be modified to support WEBP on iOS (I only added support for WEBP on\n  Android)\n- `whatsapp_stickers_plus` package might not work (it didn't on Android).\n- Many widgets would have to be replaced with their `.adaptive` equivalent if you want it to look\n  like an iOS app\n",
+    "ContentSha": "BvhhLzUvvav8zyWHn6S2TiYc4XR45xXkVnaj71RdWkU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "また、コードはまだあまりよくドキュメント化されていないため、読もうとする方にはあらかじめお詫びします。\n\n## TODO\n\n将来的に取り組む予定の機能\n\n- [ ] ホーム画面で複数のパックを同時に選択する機能\n- [ ] テキストに背景を追加するオプションを追加\n- [ ] ステッカーの画像レイヤー\n- [ ] 既存のステッカーから開始\n- [ ] GIFからアニメーションステッカーを作成\n- [ ] ビデオのトリミングと回転\n\n## iOSサポート\n\n私はApple製品を所有していないため、iOS向けのビルドやiOSアプリのテストはできません。Flutter製の\nアプリなので、だいたい動くはずです。\niOSサポートを追加したい場合は歓迎します！以下の点に注意してください：\n\n- `image_editor`はiOSでWEBPをサポートするように修正する必要があります（私はAndroidでのみ\n  WEBPサポートを追加しました）\n- `whatsapp_stickers_plus`パッケージは動作しない可能性があります（Androidでは動きませんでした）。\n- iOSアプリのように見せたい場合、多くのウィジェットを`.adaptive`相当のものに置き換える必要があります\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "また、コードはまだあまりよくドキュメント化されていないため、読もうとする方にはあらかじめお詫びします。"
+      },
+      {
+        "row": 2,
+        "rowsha": "IA8ZHjGaFPMI2LTnWjrMj+bJNd+zkA0u8AgtfWUI3CU=",
+        "originContent": "Also the code is not very well documented yet so sorry in advance to anyone trying to read it.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## TODO"
+      },
+      {
+        "row": 4,
+        "rowsha": "9BLUDKwF41c3H3chgITZX6+GIbUGQvr0NT8MtLsceMw=",
+        "originContent": "## TODO",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "将来的に取り組む予定の機能"
+      },
+      {
+        "row": 6,
+        "rowsha": "ChTxTFGP5FjAxzQqetHpLokSrkSywsfQHM37XZXI0kg=",
+        "originContent": "Some features I plan to work on in the future",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [ ] ホーム画面で複数のパックを同時に選択する機能"
+      },
+      {
+        "row": 8,
+        "rowsha": "EaGkXJTMhuar9Qoq1WbfRliquwF/OaPdktnUFvFkdyI=",
+        "originContent": "- [ ] Selecting multiple packs at once in the home screen",
+        "translatedContent": "- [ ] テキストに背景を追加するオプションを追加"
+      },
+      {
+        "row": 9,
+        "rowsha": "KOTiwJUqsJs8DSiMgdWMsklIknwDnqNnW86XBRMglUI=",
+        "originContent": "- [ ] Add option to add a background to texts",
+        "translatedContent": "- [ ] ステッカーの画像レイヤー"
+      },
+      {
+        "row": 10,
+        "rowsha": "y7zfwMpjIET/9Cba9Ic/l7aZWihUAIG8aFoONpCWeT8=",
+        "originContent": "- [ ] Image layers on stickers",
+        "translatedContent": "- [ ] 既存のステッカーから開始"
+      },
+      {
+        "row": 11,
+        "rowsha": "rRR1zbuAEH5Rc5lgIYZoOrKmZrjFy2Cxs4CJY9lixJQ=",
+        "originContent": "- [ ] Start with an existing sticker",
+        "translatedContent": "- [ ] GIFからアニメーションステッカーを作成"
+      },
+      {
+        "row": 12,
+        "rowsha": "y3KDf61rFo5bJsfavtb3JrFRE0a9Vo7e+pBoAy4cyvM=",
+        "originContent": "- [ ] Create animated stickers from gifs",
+        "translatedContent": "- [ ] ビデオのトリミングと回転"
+      },
+      {
+        "row": 13,
+        "rowsha": "Wh8+TnCpqWGOtpkS+onPG1P4YxpcefUcC9p7jDQuWD0=",
+        "originContent": "- [ ] Crop and rotate videos",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## iOSサポート"
+      },
+      {
+        "row": 15,
+        "rowsha": "bGJJc2z94bR9dYnXHIJAfgYkvwyGDx2Wflu6yqB+1P4=",
+        "originContent": "## iOS Support",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "私はApple製品を所有していないため、iOS向けのビルドやiOSアプリのテストはできません。Flutter製の"
+      },
+      {
+        "row": 17,
+        "rowsha": "bqEmqeNree9dADBNYVlD+IdZ3DL6LA3xzNGfBqckotM=",
+        "originContent": "I don't own any Apple devices, therefore I can't build for iOS nor test the iOS app. It's a flutter",
+        "translatedContent": "アプリなので、だいたい動くはずです。"
+      },
+      {
+        "row": 18,
+        "rowsha": "dvBRR2Jw6fZkKbXBxm13GUx51kGG6veLL5s1nfMMROY=",
+        "originContent": "app so it should more or less work.",
+        "translatedContent": "iOSサポートを追加したい場合は歓迎します！以下の点に注意してください："
+      },
+      {
+        "row": 19,
+        "rowsha": "ichd36OBhAVfU4HAubVZ/3x3Mp1g3wNbKq/bh7DB5Oo=",
+        "originContent": "If you want to add iOS support, you're welcome! Here's some things to look out for:",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `image_editor`はiOSでWEBPをサポートするように修正する必要があります（私はAndroidでのみ"
+      },
+      {
+        "row": 21,
+        "rowsha": "1ACFR5tLA2YlsJwHMo2Y6Ctup4g2HXeQYQuwQjOLmlQ=",
+        "originContent": "- `image_editor` would have to be modified to support WEBP on iOS (I only added support for WEBP on",
+        "translatedContent": "  WEBPサポートを追加しました）"
+      },
+      {
+        "row": 22,
+        "rowsha": "NwJBeR31j5tQCWwxZ5RuxmP6szO8lQAnYIsRB6FOt+I=",
+        "originContent": "  Android)",
+        "translatedContent": "- `whatsapp_stickers_plus`パッケージは動作しない可能性があります（Androidでは動きませんでした）。"
+      },
+      {
+        "row": 23,
+        "rowsha": "A9mJFFSFMXtX7Bzq8+cvKnQUWADGNv2arbhjGKtscU0=",
+        "originContent": "- `whatsapp_stickers_plus` package might not work (it didn't on Android).",
+        "translatedContent": "- iOSアプリのように見せたい場合、多くのウィジェットを`.adaptive`相当のものに置き換える必要があります"
+      },
+      {
+        "row": 24,
+        "rowsha": "L7rK8bKMEqe7i9S7a5qWmrbPdc4KJFln13fxGesUJ2Y=",
+        "originContent": "- Many widgets would have to be replaced with their `.adaptive` equivalent if you want it to look",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "KycLY2dTFC0eLba/8vU+17UN+9mvrkpWCws6bHOa968=",
+        "originContent": "  like an iOS app",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

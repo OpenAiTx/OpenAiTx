@@ -1,83 +1,115 @@
-# Elucidate
+
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=en">Anglais</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Smurf-IV&project=Elucidate&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+﻿# Elucidate
 
 - [Description du projet](#project-description)
-- [Exigences système :](#os-requirements)
+- [Configuration requise du système :](#os-requirements)
 - [FAQ](#faqs)
-- [Feuille de route](#roadmap)
+- [feuille de route](#roadmap)
 - [Captures d'écran](#screenshots)
 
 ## Description du projet
 
-Elucidate est une interface graphique Windows pour l'application SnapRAID en ligne de commande.
+Elucidate est une interface graphique Windows pour l’application en ligne de commande SnapRAID.
 
-*Ce projet poursuit la fusion du travail remarquable réalisé par moi-même et d'autres contributeurs.
+*Ce projet poursuit l’amalgame de l’excellent travail réalisé par moi-même et d’autres contributeurs.
 
-## Exigences système
+## Configuration requise
 
-- Système d'exploitation Windows
+- Système d’exploitation Windows
 - .Net Runtime 4.8.0
-- SnapRaid Version 11.5 ou inférieure
-- 10 Mo d'espace libre sur le disque cible
+- SnapRAID version 11.5 ou inférieure
+- 10 Mo d’espace libre sur le disque cible
 
 ## FAQ
 
-**Q** : Qu'est-ce que SnapRAID ?<br/>
-**R** : SnapRAID est un moteur de parité instantanée défini par logiciel pour les systèmes d'exploitation Windows et Linux. Au niveau le plus basique, il offre une protection au contenu d'un système de fichiers sous sa supervision en calculant les hachages de ses fichiers composants et en stockant les résultats dans un fichier de parité. En cas de défaillance complète d'un disque dur, ce fichier de parité peut être utilisé pour reconstruire les données perdues. Pour plus de détails, consultez la [comparaison officielle des moteurs de protection de fichiers](http://snapraid.sourceforge.net/compare.html) de SnapRAID.
+**Q** : Qu’est-ce que SnapRAID ?<br/>
+**R** : SnapRAID est un moteur de parité instantanée défini par logiciel pour les systèmes d’exploitation Windows et Linux. Au niveau le plus basique, il offre une protection au contenu d’un système de fichiers sous sa gestion en calculant les hachages de ses fichiers composants et en stockant les résultats dans un fichier de parité. En cas de défaillance totale d’un disque dur, ce fichier de parité peut être utilisé pour reconstruire les données perdues. Pour plus de détails, consultez la [comparaison officielle des moteurs de protection de fichiers de SnapRAID.](http://snapraid.sourceforge.net/compare.html)
 
 **Q** : Pourquoi une interface graphique, la ligne de commande fonctionne !<br/>
-**R** : L'objectif plus large est de créer une interface graphique complète avec des fonctionnalités de gestion supplémentaires conçues pour aider un utilisateur à maintenir un environnement SnapRAID fonctionnel. Parfois, les « pointer-cliquer » sont plus simples pour un novice. La documentation technique de SnapRAID et sa grande configurabilité peuvent rendre son adoption rebutante pour ceux qui veulent l’essayer !
+**R** : L’objectif global est de créer une interface graphique complète avec des fonctionnalités de gestion supplémentaires conçues pour aider l’utilisateur à maintenir un environnement SnapRAID fonctionnel. Parfois, le “pointer-cliquer” est plus accessible pour un novice. La documentation technique de SnapRAID et ses nombreuses options de configuration peuvent rebuter ceux qui souhaitent l’essayer !
 
-**Q** : Je suis encore incertain, y a-t-il plus ?<br/>
-**R** : Oui, jetez un œil à la [documentation](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./docs/Documentation.md) pour des images, etc.
+**Q** : Je ne suis pas encore convaincu, y a-t-il plus ?<br/>
+**R** : Oui, consultez la [documentation](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./docs/Documentation.md) pour des images, etc.
 
-**Q** : Alors quels sont les « Objectifs plus larges » ?<br/>
-**R** : Voir la __Feuille de route__ ci-dessous pour une description complète.
+**Q** : Quels sont donc les "objectifs plus larges" ?<br/>
+**R** : Voir le __Roadmap__ ci-dessous pour une ventilation complète.
 
 ## Feuille de route
 
 - [x] Phase I
-  - [x] Tentative de suivre le support minimum de la dernière version de SnapRAID. - __En cours.__
+  - [x] Tenter de maintenir le support minimum de la dernière version de SnapRAID. - __En cours.__
   - [x] Facilité d’utilisation
-  - [x] SnapRAID a trois commandes, donc rendons-les simples d'accès pour un novice 
+  - [x] SnapRAID a trois commandes, rendons-les simples d’accès pour un novice 
   - [x] Indicateur(s) de progression 
-  - [x] Journalisation "Interactive" et directement dans le journal. 
-  - [x] Démarrage automatique à la connexion de l'utilisateur 
-  - [x] Info-bulles pour guider •
+  - [x] Journalisation "Interactive" et directe vers le log. 
+  - [x] Démarrage automatique à la connexion de l’utilisateur 
+  - [x] Infobulles d’aide •	
 
-- [x] Phase II Phase II Demandes de fonctionnalités
-  - [x] Pause, Changer la priorité, Annuler.
-  - [x] Extension de commande - "Permettre des paramètres supplémentaires aux valeurs par défaut utilisées."
+- [x] Phase II Fonctionnalités demandées de la phase II
+  - [x] Pause, changement de priorité, arrêt.
+  - [x] Extension de commande - "Autoriser des paramètres supplémentaires aux valeurs par défaut utilisées."
   - [x] Planification 
-    - Supprimé, utiliser la ligne de commande
+    - Supprimé, utilisez la ligne de commande
   - [x] Vue(s) graphique(s) des données protégées.
 
-- [ ] Phase III (Redémarrage pour 2017-03 et au-delà)
+- [ ] Phase III (Reprise à partir de 2017-03)
   - [x] Nouveau compilateur et .Net 4.7.x	
   - [x] Interface en ligne de commande
-  - [ ] Nouvelle disposition via Krypton Toolkit / Navigator / etc. 
+  - [ ] Nouvelle mise en page via Krypton Toolkit / Navigator / etc. 
     - En cours
   - [ ] Traductions 
   - [x] Nouvelles commandes
-  - [ ] Envoi de mails avec rapports d’état
+  - [ ] Module d'envoi de mails avec rapports de statut
   - [ ] Documenter les étapes de test
     - En cours
   - [ ] Ajouter à la documentation / Mettre à jour les images
     - En cours
   - [ ] Ajouter un rapport _Windows EventLog_ des erreurs
   - [x] Ajouter _ExceptionLess_ pour le rapport en ligne des exceptions
-  - [x] Montrer ce qui pourrait être récupéré. 
+  - [x] Afficher ce qui pourrait être récupéré. 
 
 - [ ] Phase IV (nouvelles commandes SnapRAID ?) 
-  - [ ] Aide étendue avec récupération de disque - guides interactifs, etc. 
+  - [ ] Aide étendue avec récupération de disque - guides interactifs, etc.
   - [ ] Notifier l'utilisateur si sa version de SnapRAID est obsolète
-  - [ ] Interpréter les journaux SnapRAID (utilisés par les modifications ci-dessous)
-  - [ ] Fournir le statut du tableau après l'exécution d'une commande
-  - [ ] Modifier la commande sync pour inclure un diff initial
-  - [ ] Modifier la commande sync pour générer un avertissement si le diff a signalé des problèmes au-delà d’un seuil
-  - [ ] Ajouter des paramètres configurables par l’utilisateur pour les exigences de seuil de synchronisation
+  - [ ] Interpréter les journaux SnapRAID (utilisé par les changements ci-dessous)
+  - [ ] Fournir l’état de l’ensemble après l’exécution d’une commande
+  - [ ] Modifier la commande de synchronisation pour inclure un diff initial
+  - [ ] Modifier la commande de synchronisation pour afficher un avertissement si le diff signale des problèmes au-dessus d’un seuil
+  - [ ] Ajouter des paramètres configurables par l'utilisateur pour les exigences de seuil de synchronisation
 
 
-## Captures d’écran
+## Captures d'écran
 
 ![Vue de départ](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./Images/starting_view.png)
 
@@ -85,15 +117,15 @@ Elucidate est une interface graphique Windows pour l'application SnapRAID en lig
 
 
 ## Pouvez-vous aider ? 
-- Recherche de testeurs (toutes plateformes .Net) 
-- Peut aider à la traduction 
-- Guides d’aide / interface utilisateur 
-- Toute autre idée :-) 
+- Recherche de testeurs (toutes plateformes .Net)
+- Peut aider à traduire 
+- Guides d'aide / interface utilisateur 
+- Toutes autres idées :-) 
 - Développeurs pour les idées 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-30
 
 ---
