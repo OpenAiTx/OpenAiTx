@@ -1,0 +1,254 @@
+[
+  {
+    "row": 1,
+    "rowsha": "pMZ4HtCUVj7SQXWXniShcrwBnSecQd2J7teKLRITRu0=",
+    "originContent": "# Avalonia Progress Ring",
+    "translatedContent": "# Avalonia プログレスリング"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "EWMThRnd5TvVcZeQ/mX2Mf5weCd6qZake5Q0tZKY6+0=",
+    "originContent": "[![NuGet](https://img.shields.io/nuget/v/Deadpikle.AvaloniaProgressRing.svg?style=flat-square)](https://www.nuget.org/packages/Deadpikle.AvaloniaProgressRing/) [![NuGet](https://img.shields.io/nuget/vpre/Deadpikle.AvaloniaProgressRing.svg?style=flat-square&label=nuget-pre)](https://www.nuget.org/packages/Deadpikle.AvaloniaProgressRing/) [![NuGet](https://img.shields.io/nuget/dt/Deadpikle.AvaloniaProgressRing.svg?style=flat-square)](https://www.nuget.org/packages/Deadpikle.AvaloniaProgressRing/) [![NuGet](https://img.shields.io/github/issues/Deadpikle/AvaloniaProgressRing.svg?style=flat-square)](https://github.com/Deadpikle/AvaloniaProgressRing/issues/)",
+    "translatedContent": "[![NuGet](https://img.shields.io/nuget/v/Deadpikle.AvaloniaProgressRing.svg?style=flat-square)](https://www.nuget.org/packages/Deadpikle.AvaloniaProgressRing/) [![NuGet](https://img.shields.io/nuget/vpre/Deadpikle.AvaloniaProgressRing.svg?style=flat-square&label=nuget-pre)](https://www.nuget.org/packages/Deadpikle.AvaloniaProgressRing/) [![NuGet](https://img.shields.io/nuget/dt/Deadpikle.AvaloniaProgressRing.svg?style=flat-square)](https://www.nuget.org/packages/Deadpikle.AvaloniaProgressRing/) [![NuGet](https://img.shields.io/github/issues/Deadpikle/AvaloniaProgressRing.svg?style=flat-square)](https://github.com/Deadpikle/AvaloniaProgressRing/issues/)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "sDsNriJ+UlvOanFdQSzO1kM/lUU7/uleZYHG+IvEkMw=",
+    "originContent": "This project is a simple progress ring for Avalonia that's modeled off of [ModernWpf's](https://github.com/Kinnara/ModernWpf) progress ring. Credit to ModernWpf for the initial code and design! v0.8.x works on Avalonia 0.9.x, and v0.9.x is compatible with Avalonia 0.10.x. v0.10.x is compatible with Avalonia 11 Preview 2+ (0.10.7+ builds on Avalonia 11.1+). v0.11.x is compatible with Avalonia 12 Preview 1.",
+    "translatedContent": "このプロジェクトは、[ModernWpf](https://github.com/Kinnara/ModernWpf) のプログレスリングをモデルにした Avalonia 用のシンプルなプログレスリングです。初期のコードとデザインは ModernWpf に感謝します！v0.8.x は Avalonia 0.9.x で動作し、v0.9.x は Avalonia 0.10.x と互換性があります。v0.10.x は Avalonia 11 Preview 2+（0.10.7+ は Avalonia 11.1+ 上でビルド）と互換性があります。v0.11.x は Avalonia 12 Preview 1 と互換性があります。"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "J3LXLb23kjtXkoagmZ0FTKd17UH1phL0CSFkcDg+Ni0=",
+    "originContent": "![Progress Ring GIF](https://raw.githubusercontent.com/Deadpikle/AvaloniaProgressRing/develop/img/avalonia-60-fps.gif)",
+    "translatedContent": "![プログレスリング GIF](https://raw.githubusercontent.com/Deadpikle/AvaloniaProgressRing/develop/img/avalonia-60-fps.gif)"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "5qpChsPFlpaIEUrsoZiFkLoyz3Jro0Wk6B4c1aUqJSw=",
+    "originContent": "## Using in Your Project",
+    "translatedContent": "## プロジェクトでの使用方法"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "VxFcj76Zv4uS0WiD7YkTYp15K9NQWUaBa0KHS7T8dBQ=",
+    "originContent": "Add `Deadpikle.AvaloniaProgressRing` to your NuGet references, then add the following to your `App.xaml` in `Application.Styles`:",
+    "translatedContent": "NuGet 参照に `Deadpikle.AvaloniaProgressRing` を追加し、次に `App.xaml` の `Application.Styles` に以下を追加してください："
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "t8tiRzaNtUnLbiIQGiHIAAk1ELMO6fTRRvBkkpFEsR4=",
+    "originContent": "```xml",
+    "translatedContent": "```xml"
+  },
+  {
+    "row": 15,
+    "rowsha": "4YRf2bPicQagrDfy/vIJoougG3zIYGZfFvPNevl5CcA=",
+    "originContent": "<StyleInclude Source=\"avares://AvaloniaProgressRing/Styles/ProgressRing.xaml\"/>",
+    "translatedContent": "<StyleInclude Source=\"avares://AvaloniaProgressRing/Styles/ProgressRing.xaml\"/>"
+  },
+  {
+    "row": 16,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "あなたの`UserControl`に、次の内容を追加してください:"
+  },
+  {
+    "row": 18,
+    "rowsha": "0cwG2iA8XJa44yVww43Eay2Bs/wXKlvnB/shSJjhYPc=",
+    "originContent": "In your `UserControl`, add the following:",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "t8tiRzaNtUnLbiIQGiHIAAk1ELMO6fTRRvBkkpFEsR4=",
+    "originContent": "```xml",
+    "translatedContent": "```xml"
+  },
+  {
+    "row": 21,
+    "rowsha": "flPUaymtY7nMwR18IfDGtRLX8RTBcW8CTRP3mPmtqB4=",
+    "originContent": "<UserControl xmlns=\"https://github.com/avaloniaui\"",
+    "translatedContent": "<UserControl xmlns=\"https://github.com/avaloniaui\""
+  },
+  {
+    "row": 22,
+    "rowsha": "d7p4bIxolbHlxBRTFwcE3+N/9qPOZfy3XIWAOYjOmMQ=",
+    "originContent": "             xmlns:progRing=\"clr-namespace:AvaloniaProgressRing;assembly=AvaloniaProgressRing\">",
+    "translatedContent": "             xmlns:progRing=\"clr-namespace:AvaloniaProgressRing;assembly=AvaloniaProgressRing\">"
+  },
+  {
+    "row": 23,
+    "rowsha": "t44bpH9ybJHs3OTNPR3+nPMl8i+yCOtJwBcTgJnY8uo=",
+    "originContent": "    <progRing:ProgressRing Width=\"80\" ",
+    "translatedContent": "    <progRing:ProgressRing Width=\"80\" "
+  },
+  {
+    "row": 24,
+    "rowsha": "mTi/2LfcV9ODEJHAttmsEoPrwRSI1gT9+qeHSkAm9DE=",
+    "originContent": "                           Height=\"80\"",
+    "translatedContent": "                           Height=\"80\""
+  },
+  {
+    "row": 25,
+    "rowsha": "jiBKWb789SAYN5RlqwHeGe2UWZixy71+zH89Ql+vnVQ=",
+    "originContent": "                           IsActive=\"True\"",
+    "translatedContent": "                           IsActive=\"True\""
+  },
+  {
+    "row": 26,
+    "rowsha": "yKmWjUIN9O+bTlEa9et6heIyFIBVQjk0klOjgkVSyNE=",
+    "originContent": "                           HorizontalAlignment=\"Left\"",
+    "translatedContent": "                           HorizontalAlignment=\"Left\""
+  },
+  {
+    "row": 27,
+    "rowsha": "JmcDhqDCQRlmVuRa2+9xrOvedGQMtf8RPg/q9PgnBQk=",
+    "originContent": "                           VerticalAlignment=\"Top\"",
+    "translatedContent": "                           VerticalAlignment=\"Top\""
+  },
+  {
+    "row": 28,
+    "rowsha": "njvsCr9seHneMkgONEJ2qgXsXLOMbvDFmofToed/GXI=",
+    "originContent": "                           Foreground=\"Green\"",
+    "translatedContent": "                           Foreground=\"Green\""
+  },
+  {
+    "row": 29,
+    "rowsha": "+XdFNmMXDm4AB2osfR4qZseJRTAJClCiOMJx5V8yyL8=",
+    "originContent": "                           Margin=\"10,20,0,0\"/>",
+    "translatedContent": "                           Margin=\"10,20,0,0\"/>"
+  },
+  {
+    "row": 30,
+    "rowsha": "STg+UkCTl+6I66vzJwFbBxn6J4wiTCidT0i0ggJMoaM=",
+    "originContent": "</UserControl>",
+    "translatedContent": "</UserControl>"
+  },
+  {
+    "row": 31,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "zbVW3hHmG/o1jf7sIm7zmZ9rlh21amcyotgO/UwEFfY=",
+    "originContent": "Make sure that you bind to `IsActive` to show/hide the progress ring!",
+    "translatedContent": "`IsActive` にバインドしてプログレスリングの表示/非表示を制御してください！"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## 貢献"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "+hkyDv5M2wJKkyyc14ALfxwbZtG2Xkz8upV6GaQqDh4=",
+    "originContent": "All contributions and improvements are welcome! Thanks for your involvement!",
+    "translatedContent": "すべての貢献や改善を歓迎します！ご参加ありがとうございます！"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## ライセンス"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "XEFDYI5OhWGXV/AgSAo+ei3klAUwvGsFYfm+5wLJMBc=",
+    "originContent": "MIT. Thanks!",
+    "translatedContent": "MIT。ありがとうございます！"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
