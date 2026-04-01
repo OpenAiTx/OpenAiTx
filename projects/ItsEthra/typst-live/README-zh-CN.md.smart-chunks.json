@@ -1,0 +1,303 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Typst-live\nThis is a simple utility to watch for changes in your [typst](https://github.com/typst/typst) file and automatically\nrecompile them for live feedback. `typst-live` allows you to open a tab in your browser with typst generated pdf and have it automatically reload\nwhenever your source `.typ` files are changed.\n\n## Difference from `--watch` flag\n`typst-live` hosts a webserver that automatically refreshes the page so you don't have to manually reload it with `typst --watch`\n\n## Installation\nIf you have [rust](https://www.rust-lang.org) setup use the following command:",
+    "ContentSha": "nzz68VB8cDglnM37uP2ACiHm6TIGucH1Vr9BnE8p3V8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Typst-live\n这是一个简单的工具，用于监视您的 [typst](https://github.com/typst/typst) 文件的更改并自动\n重新编译它们以实现实时反馈。`typst-live` 允许您在浏览器中打开一个标签页，显示 typst 生成的 pdf，并在源 `.typ` 文件更改时自动重新加载。\n\n## 与 `--watch` 标志的区别\n`typst-live` 托管一个网页服务器，自动刷新页面，因此您无需像使用 `typst --watch` 那样手动刷新页面。\n\n## 安装\n如果您已经安装了 [rust](https://www.rust-lang.org)，请使用以下命令：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "45zW9k8571xmci/1+u334V78qThutNUJADvBhwZXIUA=",
+        "originContent": "# Typst-live",
+        "translatedContent": "# Typst-live"
+      },
+      {
+        "row": 2,
+        "rowsha": "9YGi/o4yxocRIJ+8IgjZ+MeFmrwUpZQN4Ae4tUZy27A=",
+        "originContent": "This is a simple utility to watch for changes in your [typst](https://github.com/typst/typst) file and automatically",
+        "translatedContent": "这是一个简单的工具，用于监视您的 [typst](https://github.com/typst/typst) 文件的更改并自动"
+      },
+      {
+        "row": 3,
+        "rowsha": "I8GoNqmjKrLQdRbcbAPsxB+SHFOmEnzZK0ZeHSpHIQ0=",
+        "originContent": "recompile them for live feedback. `typst-live` allows you to open a tab in your browser with typst generated pdf and have it automatically reload",
+        "translatedContent": "重新编译它们以实现实时反馈。`typst-live` 允许您在浏览器中打开一个标签页，显示 typst 生成的 pdf，并在源 `.typ` 文件更改时自动重新加载。"
+      },
+      {
+        "row": 4,
+        "rowsha": "k872w3Oi9Z3onGXaSSLJMdpE/h7g+bLqPLcce9008pg=",
+        "originContent": "whenever your source `.typ` files are changed.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 与 `--watch` 标志的区别"
+      },
+      {
+        "row": 6,
+        "rowsha": "TVfPA+uX+bDeTxnCgkmpSeT4QGFrs9MuV3/8LvMx3hg=",
+        "originContent": "## Difference from `--watch` flag",
+        "translatedContent": "`typst-live` 托管一个网页服务器，自动刷新页面，因此您无需像使用 `typst --watch` 那样手动刷新页面。"
+      },
+      {
+        "row": 7,
+        "rowsha": "pPS8wg+9sCKEpi520bp/zvkw2VcEAbVZJB0Kll/QPTk=",
+        "originContent": "`typst-live` hosts a webserver that automatically refreshes the page so you don't have to manually reload it with `typst --watch`",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 9,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "如果您已经安装了 [rust](https://www.rust-lang.org)，请使用以下命令："
+      },
+      {
+        "row": 10,
+        "rowsha": "pK1DdVG5OdN3/B53ki5us35kuXa+5rYnLLi6oZRtXcM=",
+        "originContent": "If you have [rust](https://www.rust-lang.org) setup use the following command:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\ncargo install typst-live\n```",
+    "ContentSha": "FFX056Z1+UfDjz3cbKWa/wrKHMCLNXsDA8NmIE8w32k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncargo install typst-live\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "aWEnRfMneQAIfLDJNncqGCqrAQ/B3b3Jl/AlResnN+k=",
+        "originContent": "cargo install typst-live",
+        "translatedContent": "cargo install typst-live"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nIf you use Nix, you can run typst-live directly from the GitHub repository using the following command:",
+    "ContentSha": "PESzrTyIAK5E87HFwGz7CGdlPTBK+gYIHzwtvahA2jA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "如果您使用 Nix，可以使用以下命令直接从 GitHub 仓库运行 typst-live：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果您使用 Nix，可以使用以下命令直接从 GitHub 仓库运行 typst-live："
+      },
+      {
+        "row": 2,
+        "rowsha": "vS/qNVsJq3LVdPqgeEdDXtuAsFyz5JYbo/HNcJKWxWY=",
+        "originContent": "If you use Nix, you can run typst-live directly from the GitHub repository using the following command:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\nnix run github:ItsEthra/typst-live\n```",
+    "ContentSha": "tLtndhbHMxTyXlQXmVmI0aQ+6K3+y0NmeCo+9n0eIhk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nnix run github:ItsEthra/typst-live\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "p3mXrrsZhy7oqSnwrs8BVt0b4brnzWaifIUvm5rNdTE=",
+        "originContent": "nix run github:ItsEthra/typst-live",
+        "translatedContent": "nix run github:ItsEthra/typst-live"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Usage\n### 1. With auto recompilation\n* Launch `typst-live` from your terminal:",
+    "ContentSha": "ZNdKo7Os8hrbSSfFrp9Oq1D0+WL8mHmFVXonqRUh2vM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 使用方法\n### 1. 自动重新编译\n* 从终端启动 `typst-live`：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 3,
+        "rowsha": "m0NnuGDfNyT9Zk2kUwx4DzpxSEvkaDHcVcsP5GU8UHE=",
+        "originContent": "### 1. With auto recompilation",
+        "translatedContent": "### 1. 自动重新编译"
+      },
+      {
+        "row": 4,
+        "rowsha": "x0kso/g6nrjVczbiLLTQGPX/9KTB7ycgIzqKC6++5fI=",
+        "originContent": "* Launch `typst-live` from your terminal:",
+        "translatedContent": "* 从终端启动 `typst-live`："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\n$ typst-live <file.typ>\nServer is listening on http://127.0.0.1:5599/\n```",
+    "ContentSha": "Xw1d59zd5p2/3ZC5vX+7xkzaH3LlKTPyB40qaZlg/d0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n$ typst-live <file.typ>\nServer is listening on http://127.0.0.1:5599/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "cpdLCQxVLgsEHxaOEeao092t/7jHj3marQGUoxuOnyE=",
+        "originContent": "$ typst-live <file.typ>",
+        "translatedContent": "$ typst-live <file.typ>"
+      },
+      {
+        "row": 3,
+        "rowsha": "q0ZF9MV6e87/r0yisGcCxujvG6wmmQdcQrrLgXHwzy8=",
+        "originContent": "Server is listening on http://127.0.0.1:5599/",
+        "translatedContent": "Server is listening on http://127.0.0.1:5599/"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "* Go to `http://127.0.0.1:5599/` in your browser.\n* Now edit your `file.typ` and watch changes appear in browser tab.\n\n### 2. With manual recompilation\nYou can use `typst-live` to reload pdf files without recompilation of source files.\nFor that you want to use `--no-recompile` option which disables recompilation and just hosts\nyour pdf file in browser tab, you will need to specify `filename` as pdf instead of source `.typ` file.\nWhenever pdf file changes browser tab will be refreshed.\n",
+    "ContentSha": "pTL3OFtVfNbYra2e+A97NThJ16L0AA5Wu5t/4DxW8+Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* 在浏览器中访问 `http://127.0.0.1:5599/`。\n* 现在编辑你的 `file.typ`，浏览器标签页中会实时显示更改。\n\n### 2. 手动重新编译方式\n你可以使用 `typst-live` 来在不重新编译源文件的情况下重新加载 pdf 文件。\n为此，你需要使用 `--no-recompile` 选项，该选项禁用重新编译，仅在浏览器标签页中托管\n你的 pdf 文件，你需要指定的 `filename` 为 pdf 文件而非源 `.typ` 文件。\n每当 pdf 文件发生变化，浏览器标签页将自动刷新。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LdHK6idRuiu8oVC43+//KDqhHEd9ROiQoe6+5fU+pfc=",
+        "originContent": "* Go to `http://127.0.0.1:5599/` in your browser.",
+        "translatedContent": "* 在浏览器中访问 `http://127.0.0.1:5599/`。"
+      },
+      {
+        "row": 2,
+        "rowsha": "XU5Gjhq4+0uXjh0gxRM8H79i6qoLYq+5atWTsMef9Zw=",
+        "originContent": "* Now edit your `file.typ` and watch changes appear in browser tab.",
+        "translatedContent": "* 现在编辑你的 `file.typ`，浏览器标签页中会实时显示更改。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+sj8O8S8htUFl94k2dwQDhO4a0Qn5qxZdwfqDbNtW1w=",
+        "originContent": "### 2. With manual recompilation",
+        "translatedContent": "### 2. 手动重新编译方式"
+      },
+      {
+        "row": 5,
+        "rowsha": "Tg8gVC84vmCX5Wc5sA3jqEOz9nA+DGK4rZ2roJsIBMY=",
+        "originContent": "You can use `typst-live` to reload pdf files without recompilation of source files.",
+        "translatedContent": "你可以使用 `typst-live` 来在不重新编译源文件的情况下重新加载 pdf 文件。"
+      },
+      {
+        "row": 6,
+        "rowsha": "9cZaEIhvlC8pLR0bg85/VsWka2/icVaw/F9F+uvQVNM=",
+        "originContent": "For that you want to use `--no-recompile` option which disables recompilation and just hosts",
+        "translatedContent": "为此，你需要使用 `--no-recompile` 选项，该选项禁用重新编译，仅在浏览器标签页中托管"
+      },
+      {
+        "row": 7,
+        "rowsha": "92j1DBarg2p3ay1YCLp9PuRg281n4IISxmtan9rKjgY=",
+        "originContent": "your pdf file in browser tab, you will need to specify `filename` as pdf instead of source `.typ` file.",
+        "translatedContent": "你的 pdf 文件，你需要指定的 `filename` 为 pdf 文件而非源 `.typ` 文件。"
+      },
+      {
+        "row": 8,
+        "rowsha": "rWhJbUz/TGZfy+1v2u7MPt1SQkh5lhYiXnWDxyeiKf4=",
+        "originContent": "Whenever pdf file changes browser tab will be refreshed.",
+        "translatedContent": "每当 pdf 文件发生变化，浏览器标签页将自动刷新。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

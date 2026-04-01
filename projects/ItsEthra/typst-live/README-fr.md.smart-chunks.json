@@ -1,0 +1,303 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Typst-live\nThis is a simple utility to watch for changes in your [typst](https://github.com/typst/typst) file and automatically\nrecompile them for live feedback. `typst-live` allows you to open a tab in your browser with typst generated pdf and have it automatically reload\nwhenever your source `.typ` files are changed.\n\n## Difference from `--watch` flag\n`typst-live` hosts a webserver that automatically refreshes the page so you don't have to manually reload it with `typst --watch`\n\n## Installation\nIf you have [rust](https://www.rust-lang.org) setup use the following command:",
+    "ContentSha": "nzz68VB8cDglnM37uP2ACiHm6TIGucH1Vr9BnE8p3V8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Typst-live\nCeci est un utilitaire simple pour surveiller les modifications de votre fichier [typst](https://github.com/typst/typst) et les\nrecompiler automatiquement pour un retour en temps réel. `typst-live` vous permet d’ouvrir un onglet dans votre navigateur avec le pdf généré par typst et de le recharger automatiquement\nchaque fois que vos fichiers source `.typ` sont modifiés.\n\n## Différence avec le flag `--watch`\n`typst-live` héberge un serveur web qui actualise automatiquement la page afin que vous n’ayez pas à la recharger manuellement avec `typst --watch`\n\n## Installation\nSi vous avez [rust](https://www.rust-lang.org) installé, utilisez la commande suivante :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "45zW9k8571xmci/1+u334V78qThutNUJADvBhwZXIUA=",
+        "originContent": "# Typst-live",
+        "translatedContent": "# Typst-live"
+      },
+      {
+        "row": 2,
+        "rowsha": "9YGi/o4yxocRIJ+8IgjZ+MeFmrwUpZQN4Ae4tUZy27A=",
+        "originContent": "This is a simple utility to watch for changes in your [typst](https://github.com/typst/typst) file and automatically",
+        "translatedContent": "Ceci est un utilitaire simple pour surveiller les modifications de votre fichier [typst](https://github.com/typst/typst) et les"
+      },
+      {
+        "row": 3,
+        "rowsha": "I8GoNqmjKrLQdRbcbAPsxB+SHFOmEnzZK0ZeHSpHIQ0=",
+        "originContent": "recompile them for live feedback. `typst-live` allows you to open a tab in your browser with typst generated pdf and have it automatically reload",
+        "translatedContent": "recompiler automatiquement pour un retour en temps réel. `typst-live` vous permet d’ouvrir un onglet dans votre navigateur avec le pdf généré par typst et de le recharger automatiquement"
+      },
+      {
+        "row": 4,
+        "rowsha": "k872w3Oi9Z3onGXaSSLJMdpE/h7g+bLqPLcce9008pg=",
+        "originContent": "whenever your source `.typ` files are changed.",
+        "translatedContent": "chaque fois que vos fichiers source `.typ` sont modifiés."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "TVfPA+uX+bDeTxnCgkmpSeT4QGFrs9MuV3/8LvMx3hg=",
+        "originContent": "## Difference from `--watch` flag",
+        "translatedContent": "## Différence avec le flag `--watch`"
+      },
+      {
+        "row": 7,
+        "rowsha": "pPS8wg+9sCKEpi520bp/zvkw2VcEAbVZJB0Kll/QPTk=",
+        "originContent": "`typst-live` hosts a webserver that automatically refreshes the page so you don't have to manually reload it with `typst --watch`",
+        "translatedContent": "`typst-live` héberge un serveur web qui actualise automatiquement la page afin que vous n’ayez pas à la recharger manuellement avec `typst --watch`"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 10,
+        "rowsha": "pK1DdVG5OdN3/B53ki5us35kuXa+5rYnLLi6oZRtXcM=",
+        "originContent": "If you have [rust](https://www.rust-lang.org) setup use the following command:",
+        "translatedContent": "Si vous avez [rust](https://www.rust-lang.org) installé, utilisez la commande suivante :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\ncargo install typst-live\n```",
+    "ContentSha": "FFX056Z1+UfDjz3cbKWa/wrKHMCLNXsDA8NmIE8w32k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncargo install typst-live\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "aWEnRfMneQAIfLDJNncqGCqrAQ/B3b3Jl/AlResnN+k=",
+        "originContent": "cargo install typst-live",
+        "translatedContent": "cargo install typst-live"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nIf you use Nix, you can run typst-live directly from the GitHub repository using the following command:",
+    "ContentSha": "PESzrTyIAK5E87HFwGz7CGdlPTBK+gYIHzwtvahA2jA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nSi vous utilisez Nix, vous pouvez exécuter typst-live directement depuis le dépôt GitHub en utilisant la commande suivante :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "vS/qNVsJq3LVdPqgeEdDXtuAsFyz5JYbo/HNcJKWxWY=",
+        "originContent": "If you use Nix, you can run typst-live directly from the GitHub repository using the following command:",
+        "translatedContent": "Si vous utilisez Nix, vous pouvez exécuter typst-live directement depuis le dépôt GitHub en utilisant la commande suivante :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\nnix run github:ItsEthra/typst-live\n```",
+    "ContentSha": "tLtndhbHMxTyXlQXmVmI0aQ+6K3+y0NmeCo+9n0eIhk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nnix run github:ItsEthra/typst-live\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "p3mXrrsZhy7oqSnwrs8BVt0b4brnzWaifIUvm5rNdTE=",
+        "originContent": "nix run github:ItsEthra/typst-live",
+        "translatedContent": "nix run github:ItsEthra/typst-live"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Usage\n### 1. With auto recompilation\n* Launch `typst-live` from your terminal:",
+    "ContentSha": "ZNdKo7Os8hrbSSfFrp9Oq1D0+WL8mHmFVXonqRUh2vM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Utilisation\n### 1. Avec recompilation automatique\n* Lancez `typst-live` depuis votre terminal :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Utilisation"
+      },
+      {
+        "row": 3,
+        "rowsha": "m0NnuGDfNyT9Zk2kUwx4DzpxSEvkaDHcVcsP5GU8UHE=",
+        "originContent": "### 1. With auto recompilation",
+        "translatedContent": "### 1. Avec recompilation automatique"
+      },
+      {
+        "row": 4,
+        "rowsha": "x0kso/g6nrjVczbiLLTQGPX/9KTB7ycgIzqKC6++5fI=",
+        "originContent": "* Launch `typst-live` from your terminal:",
+        "translatedContent": "* Lancez `typst-live` depuis votre terminal :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\n$ typst-live <file.typ>\nServer is listening on http://127.0.0.1:5599/\n```",
+    "ContentSha": "Xw1d59zd5p2/3ZC5vX+7xkzaH3LlKTPyB40qaZlg/d0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n$ typst-live <file.typ>\nServer is listening on http://127.0.0.1:5599/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "cpdLCQxVLgsEHxaOEeao092t/7jHj3marQGUoxuOnyE=",
+        "originContent": "$ typst-live <file.typ>",
+        "translatedContent": "$ typst-live <file.typ>"
+      },
+      {
+        "row": 3,
+        "rowsha": "q0ZF9MV6e87/r0yisGcCxujvG6wmmQdcQrrLgXHwzy8=",
+        "originContent": "Server is listening on http://127.0.0.1:5599/",
+        "translatedContent": "Server is listening on http://127.0.0.1:5599/"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "* Go to `http://127.0.0.1:5599/` in your browser.\n* Now edit your `file.typ` and watch changes appear in browser tab.\n\n### 2. With manual recompilation\nYou can use `typst-live` to reload pdf files without recompilation of source files.\nFor that you want to use `--no-recompile` option which disables recompilation and just hosts\nyour pdf file in browser tab, you will need to specify `filename` as pdf instead of source `.typ` file.\nWhenever pdf file changes browser tab will be refreshed.\n",
+    "ContentSha": "pTL3OFtVfNbYra2e+A97NThJ16L0AA5Wu5t/4DxW8+Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* Allez à `http://127.0.0.1:5599/` dans votre navigateur.\n* Modifiez maintenant votre `file.typ` et regardez les changements apparaître dans l’onglet du navigateur.\n\n### 2. Avec recompilation manuelle\nVous pouvez utiliser `typst-live` pour recharger les fichiers pdf sans recompilation des fichiers sources.\nPour cela, vous devez utiliser l’option `--no-recompile` qui désactive la recompilation et héberge simplement\nvotre fichier pdf dans un onglet du navigateur, vous devrez spécifier le `filename` en tant que pdf au lieu du fichier source `.typ`.\nChaque fois que le fichier pdf change, l’onglet du navigateur sera rafraîchi.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LdHK6idRuiu8oVC43+//KDqhHEd9ROiQoe6+5fU+pfc=",
+        "originContent": "* Go to `http://127.0.0.1:5599/` in your browser.",
+        "translatedContent": "* Allez à `http://127.0.0.1:5599/` dans votre navigateur."
+      },
+      {
+        "row": 2,
+        "rowsha": "XU5Gjhq4+0uXjh0gxRM8H79i6qoLYq+5atWTsMef9Zw=",
+        "originContent": "* Now edit your `file.typ` and watch changes appear in browser tab.",
+        "translatedContent": "* Modifiez maintenant votre `file.typ` et regardez les changements apparaître dans l’onglet du navigateur."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+sj8O8S8htUFl94k2dwQDhO4a0Qn5qxZdwfqDbNtW1w=",
+        "originContent": "### 2. With manual recompilation",
+        "translatedContent": "### 2. Avec recompilation manuelle"
+      },
+      {
+        "row": 5,
+        "rowsha": "Tg8gVC84vmCX5Wc5sA3jqEOz9nA+DGK4rZ2roJsIBMY=",
+        "originContent": "You can use `typst-live` to reload pdf files without recompilation of source files.",
+        "translatedContent": "Vous pouvez utiliser `typst-live` pour recharger les fichiers pdf sans recompilation des fichiers sources."
+      },
+      {
+        "row": 6,
+        "rowsha": "9cZaEIhvlC8pLR0bg85/VsWka2/icVaw/F9F+uvQVNM=",
+        "originContent": "For that you want to use `--no-recompile` option which disables recompilation and just hosts",
+        "translatedContent": "Pour cela, vous devez utiliser l’option `--no-recompile` qui désactive la recompilation et héberge simplement"
+      },
+      {
+        "row": 7,
+        "rowsha": "92j1DBarg2p3ay1YCLp9PuRg281n4IISxmtan9rKjgY=",
+        "originContent": "your pdf file in browser tab, you will need to specify `filename` as pdf instead of source `.typ` file.",
+        "translatedContent": "votre fichier pdf dans un onglet du navigateur, vous devrez spécifier le `filename` en tant que pdf au lieu du fichier source `.typ`."
+      },
+      {
+        "row": 8,
+        "rowsha": "rWhJbUz/TGZfy+1v2u7MPt1SQkh5lhYiXnWDxyeiKf4=",
+        "originContent": "Whenever pdf file changes browser tab will be refreshed.",
+        "translatedContent": "Chaque fois que le fichier pdf change, l’onglet du navigateur sera rafraîchi."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
