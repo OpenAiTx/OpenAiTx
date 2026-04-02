@@ -1,195 +1,195 @@
 [
   {
     "row": 1,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "OCI2Git স্বয়ংক্ৰিয়ভাৱে ছবিসমূহৰ মাজত শ্বেয়াৰ কৰা স্তৰসমূহ চিনাক্ত কৰে আৰু এটি শাখাবদ্ধ গঠন সৃষ্টি কৰে যি তেওঁলোকৰ সাধাৰণ আধাৰক প্ৰতিফলিত কৰে। Git ইতিহাসত দেখা যাব:"
+    "rowsha": "LtxXdAOUhhqLLjUc6gpeUOBxxlQLk3nEvgWZAgWSp4w=",
+    "originContent": "[![Downloads](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)",
+    "translatedContent": "[![Downloads](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)"
   },
   {
     "row": 2,
-    "rowsha": "6LTUD8+pcJMZgBPG/5v5lVPVQ9Hxe2XEKoMOmBTTGLI=",
-    "originContent": "OCI2Git automatically detects shared layers between images and creates a branching structure that reflects their common base. The Git history will show:",
-    "translatedContent": "- সকলো শ্বেয়াৰ কৰা স্তৰৰ সৈতে এটি সাধাৰণ মূল"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 3,
-    "rowsha": "uIJA8N3Yn8nJIShppfbe5/VqQwvEjS/vdXZMLV74Dqw=",
-    "originContent": "- A common trunk containing all shared layers",
-    "translatedContent": "- পৃথক শাখাসমূহ যি কেৱল ছবিসমূহ বাস্তৱতে ভিন্ন হ’লে বিভক্ত হয়"
+    "rowsha": "XgJK70AM/4trnziWqgjv6ub3d65c5Jisp2V0S60fPX0=",
+    "originContent": "[//]: # (mock for future test.yaml)",
+    "translatedContent": "[//]: # (mock for future test.yaml)"
   },
   {
     "row": 4,
-    "rowsha": "IB8n3F4BtXDld8GlF6SeKKkZ+a+kXrWm27CNe0cgv1c=",
-    "originContent": "- Separate branches that diverge only when the images actually differ",
-    "translatedContent": "- স্পষ্ট ভিজুৱালাইজেশ্বন ক’ত ছবিসমূহে সাধাৰণ বংশধৰ ভাগ-বতৰা কৰে আৰু ক’ত তেওঁলোক পৃথক হয়"
+    "rowsha": "LqZcck6pb0UTHO1JCwWaQxPCcrui/gItmqwWx3+WQ1E=",
+    "originContent": "[//]: # ([![Test Status]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)",
+    "translatedContent": "[//]: # ([![Test Status]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)"
   },
   {
     "row": 5,
-    "rowsha": "UBel4LiGyWz4YAk730NGfcSjHY1kk3xu3gBC3H2hfxk=",
-    "originContent": "- Clear visualization of where images share common ancestry vs. where they become unique",
-    "translatedContent": "- বুদ্ধিমান নকল হেণ্ডলিং: একে ছবিখন দুবাৰ প্ৰক্ৰিয়া কৰিলে, অ্যালগৰিদমে চূড়ান্ত মেটাডাটা কমিটৰ আগতে এইটো চিনাক্ত কৰে আৰু নকল শাখা সৃষ্টি নকৰে"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 6,
-    "rowsha": "Yq5IgSM+QgVoSd6smqIoif4IAvi+RdxFI+4nvv5uH28=",
-    "originContent": "- Smart duplicate handling: if the exact same image is processed twice, the algorithm detects this before the final metadata commit and skips creating a duplicate branch",
-    "translatedContent": ""
+    "rowsha": "1DC0OUuBiVu+pxfsbdZC+N+H6jD4OglQc73WP/vlpjQ=",
+    "originContent": "<div align=\"left\"> </div>  ",
+    "translatedContent": "<div align=\"left\"> </div>  "
   },
   {
     "row": 7,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "এই পদ্ধতিটো বিশেষভাৱে মূল্যবান:"
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
   },
   {
     "row": 8,
-    "rowsha": "PakMj8z4HRkjhYpL7PjDSNw57Y3OGyZeSLa/Z16wQf4=",
-    "originContent": "This approach is particularly valuable for:",
-    "translatedContent": "- **ছবি পৰিয়াল বিশ্লেষণ**: এটা ছবিৰ বিভিন্ন ভেৰিয়েণ্ট (বিভিন্ন সংস্কৰণ, স্থাপত্য, বা কনফিগাৰেচন) কেনেকৈ একে-একে সম্পৰ্কিত, সেইটো বুজা"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 9,
-    "rowsha": "uSDvHuhYhLUIzktSDixyAwvQpUrpMzLQRnssT0JsguQ=",
-    "originContent": "- **Image Family Analysis**: Understanding how different variants of an image (different versions, architectures, or configurations) relate to each other",
-    "translatedContent": "- **আধাৰ ছবিৰ প্ৰভাৱ**: আধাৰ ছবিত হোৱা পৰিৱর্তনে কেনেকৈ বহুতো নিৰ্ভৰশীল ছবিত প্ৰভাৱ পেলায়, সেয়া দেখা"
+    "rowsha": "YNehJOtoNwjn/MON3EXh3y41UBBGl0ALvZuSZCJMDRI=",
+    "originContent": "A Rust application that converts container images (Docker, etc.) to Git repositories, and generates filesystem bill of materials (fsbom) in YAML. Each container layer is represented as a Git commit, preserving the history and structure of the original image.",
+    "translatedContent": "এটা Rust এপ্লিকেচন যি কণ্টেইনাৰ ইমেজ (Docker, আদি) গিট ৰেপজিটৰিত ৰূপান্তৰ কৰে, আৰু YAML ফৰ্মেটত ফাইল ছিষ্টেম বিল অফ মেটেৰিয়েলছ (fsbom) নিৰ্মাণ কৰে। প্ৰতিটো কণ্টেইনাৰ স্তৰ গিট কমিট হিচাপে উপস্থাপন কৰা হয়, মূল ইমেজৰ ইতিহাস আৰু গঠন সংৰক্ষণ কৰি।"
   },
   {
     "row": 10,
-    "rowsha": "Yo0kOfD+YrkFq8V58X2u2Cb7DBS35yn5ifLYnG6+XB0=",
-    "originContent": "- **Base Image Impact**: Seeing exactly how changes to a base image affect multiple derived images",
-    "translatedContent": "- **অপ্টিমাইজেশ্বন সুযোগ**: ভাগ-বতৰা কৰা উপাদানবোৰ চিনাক্ত কৰা, যি ছবিৰ ভেৰিয়েণ্টসমূহত বেছি ভাল ব্যৱহাৰ কৰিব পৰা যায়"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 11,
-    "rowsha": "ki3fH0UPzJ7A7KweKewJ0qO2e8h0iAP1uwwL64nh5VI=",
-    "originContent": "- **Optimization Opportunities**: Identifying shared components that could be better leveraged across image variants",
-    "translatedContent": ""
+    "rowsha": "//FYkPzWahj3gIMXsIh1taqlY2/2UrYXdlAZmRJvT+U=",
+    "originContent": "![Demo of OCI2Git converting the nginx image](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)",
+    "translatedContent": "![Demo of OCI2Git converting the nginx image](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)"
   },
   {
     "row": 12,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "![শ্বেয়াৰ কৰা আধাৰ আৰু বিভাজিত শাখাৰ সৈতে বহু-ছবি ৰেপ’জিট’ৰি গঠন](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)"
+    "translatedContent": ""
   },
   {
     "row": 13,
-    "rowsha": "BbN5OLYB4s+kmmpRubPeS7o9xcI4EIqsB8NFc29QUQI=",
-    "originContent": "![Multi-image repository structure showing shared base and diverging branches](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)",
-    "translatedContent": ""
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## বৈশিষ্ট্যসমূহ"
   },
   {
     "row": 14,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "### অতিৰিক্ত ব্যৱহাৰ ক্ষেত্ৰ"
-  },
-  {
-    "row": 15,
-    "rowsha": "D4/0KP+uRgYhIhVFEBoyiqt95uyOgb7+oYn24/0QCdY=",
-    "originContent": "### Additional Use Cases",
     "translatedContent": ""
   },
   {
+    "row": 15,
+    "rowsha": "fi1muZ1SfkNwRATe0FyTwPtiBpXzDttmmQkrpmT5c14=",
+    "originContent": "- Analyze Docker images and extract layer information",
+    "translatedContent": "- Docker ইমেজ বিশ্লেষণ আৰু স্তৰৰ তথ্য আহৰণ"
+  },
+  {
     "row": 16,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "- **নিরাপত্তা অডিটিং**: কেতিয়া সংকটজনক পেকেজ বা কনফিগাৰেচন যোগ হৈছিল, সেয়া ঠিক চিনাক্ত কৰক আৰু নিৰ্দিষ্ট বিল্ড নিৰ্দেশনালৈ উলিয়াই লৈ যাওক।"
+    "rowsha": "TxXPmzDPxz/0RRZZZGt/NJCbHCtSGYEBc8ztOOE4rSI=",
+    "originContent": "- Create a Git repository where each image layer is represented as a commit",
+    "translatedContent": "- গিট ৰেপজিটৰি নিৰ্মাণ, য’ত প্ৰতিটো ইমেজ স্তৰ এটা কমিট হিচাপে দেখুওৱা হয়"
   },
   {
     "row": 17,
-    "rowsha": "XpiOHvscMgQVCt9dw8vIqza+SY8H4+PornFuTrVyvvg=",
-    "originContent": "- **Security Auditing**: Identify exactly when vulnerable packages or configurations were introduced and trace them back to specific build instructions.",
-    "translatedContent": "- **ছবি অপ্টিমাইজেশ্বন**: স্তৰৰ গঠন বিশ্লেষণ কৰি নকল অপাৰেচন বা বৃহৎ ফাইল বিচাৰি উলিয়াওক, যি সংহত কৰি ছবিৰ আকাৰ কমাবলৈ সহায় কৰিব।"
+    "rowsha": "lq5FiPzt+0Gr+HwM+7HZPqU06sg8I8O2Vq0VheGt4Ps=",
+    "originContent": "- Generate a YAML filesystem bill of materials (fsbom) with per-layer file listings",
+    "translatedContent": "- প্ৰতিটো স্তৰৰ ফাইল তালিকাৰ সৈতে YAML ফাইল ছিষ্টেম বিল অফ মেটেৰিয়েলছ (fsbom) তৈয়াৰ কৰক"
   },
   {
     "row": 18,
-    "rowsha": "ht04W08EP7CJDOoh0DwD/Dozp/1fC8UYEIX5+R6ICwk=",
-    "originContent": "- **Image Optimization**: Analyze layer structures to find redundant operations or large files that could be consolidated, helping to reduce image size.",
-    "translatedContent": "- **নির্ভৰশীলতা ব্যৱস্থাপনা**: ছবি ইতিহাসৰ মাজত কেতিয়া নিৰ্ভৰশীলতা যোগ, উন্নীত, বা আঁতৰ কৰা হৈছিল সেয়া মনিটৰ কৰক।"
+    "rowsha": "dqDneuJMUNFjBUZjZ5o0yVWsx1+CA1cQkulQ4mWkh7U=",
+    "originContent": "- Support for empty layers (ENV, WORKDIR, etc.) as empty commits",
+    "translatedContent": "- খালী স্তৰৰ (ENV, WORKDIR, আদি) সমৰ্থন খালী কমিট হিচাপে"
   },
   {
     "row": 19,
-    "rowsha": "U4Wj74BqfCGU6N6MlI+ZwqdXxuJ9sFOjYpdn5xAp8Uw=",
-    "originContent": "- **Dependency Management**: Monitor when dependencies were added, upgraded, or removed across the image history.",
-    "translatedContent": "- **বিল্ড প্ৰক্ৰিয়া উন্নতি**: Dockerfile নিৰ্দেশনা অপ্টিমাইজ কৰিবলৈ স্তৰৰ সংযোজন পৰীক্ষা কৰক যাতে বেছি ভাল কেছিং আৰু সৰু ছবি আকাৰ পাওয়া যায়।"
+    "rowsha": "JbJcIVQyhw9GQGyK3J8ORqxjXbhGYb27Zt6bioFGlxY=",
+    "originContent": "- Complete metadata extraction to Markdown format",
+    "translatedContent": "- সম্পূৰ্ণ মেটাডাটা Markdown ফৰ্মেটলৈ আহৰণ"
   },
   {
     "row": 20,
-    "rowsha": "N42jLPvwR5fiEcM4X17ISprr2UjtkFiYkMmB4n8GuP4=",
-    "originContent": "- **Build Process Improvement**: Examine layer composition to optimize Dockerfile instructions for better caching and smaller image size.",
-    "translatedContent": "- **আনুমানিক ছবি তুলনা**: বহুতো সম্পৰ্কিত ছবিক Git ৰেপ’জিট’ৰিলৈ ৰূপান্তৰ কৰক আৰু Git ৰ তুলনামূলক টুল ব্যৱহাৰ কৰি তেওঁলোকৰ পাৰ্থক্য আৰু মিল বিশ্লেষণ কৰক।"
+    "rowsha": "WM41v1kLx5sRbXDs3mG8K5UtB9rj6VGAWT1oaxlLWh4=",
+    "originContent": "- Extensible architecture for supporting different container engines",
+    "translatedContent": "- বিভিন্ন কণ্টেইনাৰ ইঞ্জিনৰ সমৰ্থনৰ বাবে বঢ়াব পৰা আৰ্হি"
   },
   {
     "row": 21,
-    "rowsha": "qLA3g0haMoRlswu5jqH5D9IkPYPNZxCHuo51hYpI4Po=",
-    "originContent": "- **Cross-Image Comparison**: Convert multiple related images to Git repositories and use Git's comparison tools to analyze their differences and commonalities.",
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
     "translatedContent": ""
   },
   {
     "row": 22,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "## ইনষ্টলেশ্বন"
+    "rowsha": "4vWujHs5Ye7w1xO1jq955leyFikp9SiNLFJmgYQgCYI=",
+    "originContent": "## Use Cases",
+    "translatedContent": "## ব্যৱহাৰ ক্ষেত্ৰসমূহ"
   },
   {
     "row": 23,
-    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
-    "originContent": "## Installation",
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
     "translatedContent": ""
   },
   {
     "row": 24,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "### পেকেজ মেনেজাৰসমূহ"
+    "rowsha": "E2n7dPydQYzOmSYdIJYX2UpgFCHpPJ++RZpX+UyckS8=",
+    "originContent": "### Layer Diffing",
+    "translatedContent": "### স্তৰ তুলনা (Layer Diffing)"
   },
   {
     "row": 25,
-    "rowsha": "9G0JP0VtV5B7bSn/YL0R0i5LABsflesxBvXGiBeLWHA=",
-    "originContent": "### Package Managers",
-    "translatedContent": ""
+    "rowsha": "zWiOMkvkQsg7Ro/wIs9arXxy5pz3SvWMD4RVFmqGY2Q=",
+    "originContent": "When troubleshooting container issues, you can use Git's powerful diffing capabilities to identify exactly what changed between any two layers. By running `git diff` between commits, engineers can see precisely which files were added, modified, or deleted, making it much easier to understand the impact of each Dockerfile instruction and locate problematic changes.",
+    "translatedContent": "কণ্টেইনাৰ সমস্যা সমাধান কৰাৰ সময়ত, Git ৰ শক্তিশালী diffing সক্ষমতা ব্যৱহাৰ কৰি যিকোনো দুইটা স্তৰৰ মাজত ঠিক কি পৰিৱর্তন ঘটিছে চাব পাৰি। `git diff` চলাই ইঞ্জিনিয়াৰসকলে কোন ফাইল যোগ, সংশোধন বা ডিলিট হৈছে সঠিকভাৱে চাব পাৰে, যাৰ ফলত প্ৰতিটো Dockerfile নিৰ্দেশনাৰ প্ৰভাৱ বুজা আৰু সমস্যাসকল চিনাক্ত কৰা সহজ হয়।"
   },
   {
     "row": 26,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "#### macOS / Linux (Homebrew)"
+    "rowsha": "CasDr/NfxbBl9ND+Q9c/7Qle4eGEAJW/lMJqrYGVKtY=",
+    "originContent": "![Example for layer diff](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)",
+    "translatedContent": "![Example for layer diff](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)"
   },
   {
     "row": 27,
-    "rowsha": "MCZPYf4c73i2wdbozDPKu/UmZMWRvFUkCe6v8U33pDo=",
-    "originContent": "#### macOS / Linux (Homebrew)",
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
     "translatedContent": ""
   },
   {
     "row": 28,
+    "rowsha": "E/blJ113pQ9M93xEk5CafWzLs7QhCQbHp1pPdtKgLpw=",
+    "originContent": "### Origin Tracking",
+    "translatedContent": "### উৎস অনুসৰণ (Origin Tracking)"
+  },
+  {
+    "row": 29,
+    "rowsha": "6BJyqkc8ucX6zX6CQ5KR2G4e+XqwZeBjzU6vd8G128Y=",
+    "originContent": "Using `git blame`, developers can quickly determine which layer introduced a specific file or line of code. This is particularly valuable when diagnosing issues with configuration files or dependencies. Instead of manually inspecting each layer, you can immediately trace the origin of any file back to its source layer and corresponding Dockerfile instruction.",
+    "translatedContent": "`git blame` ব্যৱহাৰ কৰি, ডেভেলপাৰসকলে কেতিয়া বিশেষ ফাইল বা কোডৰ শাৰী কোন স্তৰে যোগ হৈছিল সোনকালে জানিব পাৰে। এইটো বিশেষকৈ কনফিগাৰেচন ফাইল বা ডিপেণ্ডেঞ্চি সংক্রান্ত সমস্যাৰ সময়ত গুৰুত্বপূর্ণ। প্ৰতিটো স্তৰ হাতৰেপে পৰীক্ষা নকৰাকৈ, যিকোনো ফাইলৰ উৎস স্তৰ আৰু সংশ্লিষ্ট Dockerfile নিৰ্দেশনা তৎক্ষণাত বিচাৰি পাব পাৰে।"
+  },
+  {
+    "row": 30,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 29,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 30,
-    "rowsha": "kd9aHvNIZbRVcG+zY0Gb/GJurXyov9fF5rP6lXWkt5Q=",
-    "originContent": "brew tap virviil/oci2git",
-    "translatedContent": "brew tap virviil/oci2git"
-  },
-  {
     "row": 31,
-    "rowsha": "p5oaOWkTPCuAFDNYMDE/sCIHpnxx7dEeKCCPfO3m0uM=",
-    "originContent": "brew install oci2git",
-    "translatedContent": "brew install oci2git"
+    "rowsha": "tjbbryF+A9tu7pgePp78TjDMWcBFPeqdNCHhWbK20/I=",
+    "originContent": "### File Lifecycle Tracking",
+    "translatedContent": "### ফাইল লাইফচাইকেল অনুসৰণ (File Lifecycle Tracking)"
   },
   {
     "row": 32,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
+    "rowsha": "X7Ul9KO1ZSdjb3AA/dyMaOUGjVoEq/TVN3ic4n8hwVU=",
+    "originContent": "OCI2Git enables you to follow a specific file's journey throughout the container image's history. You can observe when a file was initially created, how it was modified across layers, and if/when it was eventually removed. This comprehensive view helps understand file evolution without having to manually track changes across potentially dozens of layers.",
+    "translatedContent": "OCI2Git এ আপোনাক কণ্টেইনাৰ ইমেজৰ ইতিহাসত এটা নিৰ্দিষ্ট ফাইলৰ যাত্ৰা অনুসৰণৰ সুবিধা দিয়ে। কেতিয়া ফাইলটো সৃষ্টি হৈছিল, কেনেকৈ স্তৰসমূহত সলনি হৈছিল, আৰু কেতিয়া মচি পেলোৱা হৈছিল তাক চাব পাৰে। এই বিস্তৃত দৃশ্যই ফাইলৰ পৰিবর্তন বুজিবলৈ সহায় কৰে, স্তৰসমূহত হাতৰেপে অনুসৰণ নকৰাকৈ।"
   },
   {
     "row": 33,
@@ -199,9 +199,9 @@
   },
   {
     "row": 34,
-    "rowsha": "uOTowcjH0Z4wV/A4MrDl170hNsDf5bSQhFc95uGc6+s=",
-    "originContent": "#### Debian / Ubuntu",
-    "translatedContent": "#### ডেবিয়ান / উবুন্টু"
+    "rowsha": "CFZY3Krc9gFeR7X13SIQ0WBlPsXpXqk4COWVuQ+negw=",
+    "originContent": "To track the history of a file in your container image — including when it first appeared, was changed, or deleted — you can use these Git commands after conversion:",
+    "translatedContent": "আপোনাৰ কণ্টেইনাৰ ইমেজত এটা ফাইলৰ ইতিহাস, কেতিয়া প্রথমে দেখা গৈছিল, সলনি বা ডিলিট হৈছিল জানিবলৈ, ৰূপান্তৰৰ পিছত এই Git কমাণ্ডসমূহ ব্যৱহাৰ কৰিব পাৰি:"
   },
   {
     "row": 35,
@@ -211,123 +211,123 @@
   },
   {
     "row": 36,
-    "rowsha": "+FIFt9pM6OmPNs3SBT7CAFiYBrnUCW3tN9FXBipVVr8=",
-    "originContent": "Download and install the .deb package from the [latest release](https://github.com/virviil/oci2git/releases/latest):",
-    "translatedContent": "[সৰ্বশেষ মুক্তি](https://github.com/virviil/oci2git/releases/latest)ৰ পৰা .deb পেকেজটো ডাউনলোড কৰি ইনষ্টল কৰক:"
-  },
-  {
-    "row": 37,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 38,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 39,
-    "rowsha": "JS0pXpd3Yz45NI6iGhmjWT03AT5ZWAfYwhvIrA+X9vY=",
-    "originContent": "# For amd64 (x86_64)",
-    "translatedContent": "# For amd64 (x86_64)"
-  },
-  {
-    "row": 40,
-    "rowsha": "6i/4pv0ZXZ9h+788Tyc8PFKbnOVXyrN6PpOu8yXoETo=",
-    "originContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_amd64.deb",
-    "translatedContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_amd64.deb"
-  },
-  {
-    "row": 41,
-    "rowsha": "ZDo3pITay5bG5r7NtWrJfDUHnEOxW4XGzZOTGdh8/Zc=",
-    "originContent": "sudo dpkg -i oci2git_VERSION_amd64.deb",
-    "translatedContent": "sudo dpkg -i oci2git_VERSION_amd64.deb"
-  },
-  {
-    "row": 42,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 43,
-    "rowsha": "Zkr/Yoz7KF93F0yl6PyK/lOb9ITYju5QDBHEPX/pz8E=",
-    "originContent": "# For arm64",
-    "translatedContent": "# For arm64"
-  },
-  {
-    "row": 44,
-    "rowsha": "aIyp86qfHjgmDW8kH638ITAyQaDPJTebtXPNZnZ6RCw=",
-    "originContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_arm64.deb",
-    "translatedContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_arm64.deb"
-  },
-  {
-    "row": 45,
-    "rowsha": "vT8QtUGsll1lxVe++r2o6WRXKdYDAizhn7GPD6n0p14=",
-    "originContent": "sudo dpkg -i oci2git_VERSION_arm64.deb",
-    "translatedContent": "sudo dpkg -i oci2git_VERSION_arm64.deb"
-  },
-  {
-    "row": 46,
     "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
     "originContent": "```",
     "translatedContent": "```"
   },
   {
-    "row": 47,
+    "row": 37,
+    "rowsha": "2WRwWCw177jhmY5buD8ojF4vHlooOLdyRvwnmrgEYWo=",
+    "originContent": "oci2git [OPTIONS] <IMAGE>",
+    "translatedContent": "oci2git [OPTIONS] <IMAGE>"
+  },
+  {
+    "row": 38,
+    "rowsha": "80Q6lP9XnCZbT/qS8XAO3E8lYADGUSJ7cULZA/MBCgU=",
+    "originContent": "oci2git convert [OPTIONS] <IMAGE>",
+    "translatedContent": "oci2git convert [OPTIONS] <IMAGE>"
+  },
+  {
+    "row": 39,
+    "rowsha": "wXqjXyCa8qKwuZ8LldRbLK5lecM/25USyRtES+Cb4EQ=",
+    "originContent": "oci2git fsbom [OPTIONS] <IMAGE>",
+    "translatedContent": "oci2git fsbom [OPTIONS] <IMAGE>"
+  },
+  {
+    "row": 40,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 41,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 48,
-    "rowsha": "v97OByO97nlO6Knih2Kh9XK+mQD5qdIiHfoosqV8xzk=",
-    "originContent": "#### Arch Linux (AUR)",
-    "translatedContent": "#### আৰ্চ লিনাক্স (AUR)"
+    "row": 42,
+    "rowsha": "c8LfMBY/L42eR6R0e4OMGFmqAu2vdFt+Tcr1ObPKcf4=",
+    "originContent": "### `convert` — OCI image → Git repository",
+    "translatedContent": "### `convert` — OCI ইমেজ → Git ৰিপ'জিট'ৰি"
   },
   {
-    "row": 49,
+    "row": 43,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 50,
+    "row": 44,
     "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
     "originContent": "```bash",
     "translatedContent": "```bash"
   },
   {
+    "row": 45,
+    "rowsha": "80Q6lP9XnCZbT/qS8XAO3E8lYADGUSJ7cULZA/MBCgU=",
+    "originContent": "oci2git convert [OPTIONS] <IMAGE>",
+    "translatedContent": "oci2git convert [OPTIONS] <IMAGE>"
+  },
+  {
+    "row": 46,
+    "rowsha": "7kiR3AYJ9Kehf+Ad13BfmzDHNZz2JMJjIsIBfMFHlis=",
+    "originContent": "# or simply:",
+    "translatedContent": "# or simply:"
+  },
+  {
+    "row": 47,
+    "rowsha": "HIR1VnMo0TvaoxmBZ3OZRUfal9P8yQ8gve4MvoVXNV8=",
+    "originContent": "oci2git <IMAGE>",
+    "translatedContent": "oci2git <IMAGE>"
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "বিকল্পসমূহ:"
+  },
+  {
+    "row": 50,
+    "rowsha": "NnQx/WZLtobZ/9ITM5sTgv2OFQnCH83If6v2i9FvEzM=",
+    "originContent": "Options:",
+    "translatedContent": "  `-o, --output <OUTPUT>`  Git ৰিপজিটৰীৰ বাবে আউটপুট ডাইৰেক্টৰি [ডিফল্ট: ./container_repo]"
+  },
+  {
     "row": 51,
-    "rowsha": "l5nu4AIesIcdLg+07bnDUyFkTg3s/YeUlAAeMUVgb1k=",
-    "originContent": "# Using yay",
-    "translatedContent": "# Using yay"
+    "rowsha": "ZQ6KwRi1I0LsDmBdRdZvS7ahdxEer6E5Mw9+X2Fsn10=",
+    "originContent": "  `-o, --output <OUTPUT>`  Output directory for Git repository [default: ./container_repo]",
+    "translatedContent": "  `-e, --engine <ENGINE>`  ব্যৱহাৰ কৰিবলগীয়া কণ্টেইনাৰ ইঞ্জিন (docker, nerdctl, tar) [ডিফল্ট: docker]"
   },
   {
     "row": 52,
-    "rowsha": "0xQBjUbpIUIsjnLZBzRyk5WqRLXfctjPowaqDOYe13k=",
-    "originContent": "yay -S oci2git-bin",
-    "translatedContent": "yay -S oci2git-bin"
+    "rowsha": "a9fQWVyCS1P9nAlLPlXbfd+NJtje69DmQ3azfee4ix4=",
+    "originContent": "  `-e, --engine <ENGINE>`  Container engine to use (docker, nerdctl, tar) [default: docker]",
+    "translatedContent": "  `-v, --verbose`          বিস্তৃত মোড (-v তথ্যৰ বাবে, -vv ডিবাগৰ বাবে, -vvv ট্ৰেছৰ বাবে)"
   },
   {
     "row": 53,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
+    "rowsha": "kMUCHHjPTBbjBLnPf4mREhrzFBTARfdbpmnNG3u3Ri8=",
+    "originContent": "  `-v, --verbose`          Verbose mode (-v for info, -vv for debug, -vvv for trace)",
     "translatedContent": ""
   },
   {
     "row": 54,
-    "rowsha": "Y2jBRHNDECzu7zTPULN1feawKcJPnlOWc6E9RHKbtA0=",
-    "originContent": "# Using paru",
-    "translatedContent": "# Using paru"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### `fsbom` — ফাইলচিষ্টেম বিল অফ মেটেৰিয়েলছ"
   },
   {
     "row": 55,
-    "rowsha": "gwPUuUF/jQwkzAEGCKe7gNWXhSqvfyI6bFt0VZAG2R4=",
-    "originContent": "paru -S oci2git-bin",
-    "translatedContent": "paru -S oci2git-bin"
+    "rowsha": "OvxtIacrb7VOO9oD0xUug20Ah+p1ZwQdZCCks+YU5rY=",
+    "originContent": "### `fsbom` — Filesystem bill of materials",
+    "translatedContent": ""
   },
   {
     "row": 56,
@@ -337,156 +337,558 @@
   },
   {
     "row": 57,
-    "rowsha": "42F+gsp+KaSVyEPF9T+dQg5zKrLSnMktMYkSUIKfysk=",
-    "originContent": "# Manual installation",
-    "translatedContent": "# Manual installation"
-  },
-  {
-    "row": 58,
-    "rowsha": "5M7x1/h7SwUt5KtJyPPXxRMYcEVp+W5GtbcxUCdFDsY=",
-    "originContent": "git clone https://aur.archlinux.org/oci2git-bin.git",
-    "translatedContent": "git clone https://aur.archlinux.org/oci2git-bin.git"
-  },
-  {
-    "row": 59,
-    "rowsha": "nP3mSTqyEsK42ceSy7KQhIC8Ewzx4DncRg6dy2VevhY=",
-    "originContent": "cd oci2git-bin",
-    "translatedContent": "cd oci2git-bin"
-  },
-  {
-    "row": 60,
-    "rowsha": "cIwaG7dyiMasaSjERM86GecL3HnXV2KtLuaQ6PVMTT8=",
-    "originContent": "makepkg -si",
-    "translatedContent": "makepkg -si"
-  },
-  {
-    "row": 61,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 62,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 63,
-    "rowsha": "K9YscAQbIl3IW+q1FqYtWuEYkZKNt/MLTUaZEr/O3gY=",
-    "originContent": "### Pre-built Binaries",
-    "translatedContent": "### আগতে নিৰ্মিত বাইনেৰিসমূহ"
-  },
-  {
-    "row": 64,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 65,
-    "rowsha": "tpOUOxcPw6WxOUcqzbB3U87UG3EW/qwtmg01YvV0W+I=",
-    "originContent": "Download the appropriate binary for your platform from the [latest release](https://github.com/virviil/oci2git/releases/latest):",
-    "translatedContent": "আপোনাৰ প্লেটফৰ্মৰ বাবে উপযুক্ত বাইনেৰীটো [সৰ্বশেষ ৰিলিজ](https://github.com/virviil/oci2git/releases/latest)ৰ পৰা ডাউনলোড কৰক:"
-  },
-  {
-    "row": 66,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 67,
     "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
     "originContent": "```bash",
     "translatedContent": "```bash"
   },
   {
-    "row": 68,
-    "rowsha": "VYlR/+cwIsYjpX2QCP2SLaSS2AMpxrlX7MHpLcWYUmY=",
-    "originContent": "# Linux x86_64",
-    "translatedContent": "# Linux x86_64"
+    "row": 58,
+    "rowsha": "wXqjXyCa8qKwuZ8LldRbLK5lecM/25USyRtES+Cb4EQ=",
+    "originContent": "oci2git fsbom [OPTIONS] <IMAGE>",
+    "translatedContent": "oci2git fsbom [OPTIONS] <IMAGE>"
   },
   {
-    "row": 69,
-    "rowsha": "zmRVgqZs6QlbWw4MND3/U/mf4wAC0k7HF1GQHDRg3MA=",
-    "originContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-linux-x86_64.tar.gz",
-    "translatedContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-linux-x86_64.tar.gz"
-  },
-  {
-    "row": 70,
-    "rowsha": "CrmBqaLKLq4SoKEvcOlFBdRXZG0dDp+Ygs5AbqrYamU=",
-    "originContent": "tar xzf oci2git-linux-x86_64.tar.gz",
-    "translatedContent": "tar xzf oci2git-linux-x86_64.tar.gz"
-  },
-  {
-    "row": 71,
-    "rowsha": "D9+FURiaz77wqmLNJYFvgleCDLfHcZxPSitQz2T7ApE=",
-    "originContent": "sudo mv oci2git-linux-x86_64 /usr/local/bin/oci2git",
-    "translatedContent": "sudo mv oci2git-linux-x86_64 /usr/local/bin/oci2git"
-  },
-  {
-    "row": 72,
-    "rowsha": "wC6ZMcMdGKyLh9C5rEAbKzuzHggXTVmXG5NVNyVXZaY=",
-    "originContent": "chmod +x /usr/local/bin/oci2git",
-    "translatedContent": "chmod +x /usr/local/bin/oci2git"
-  },
-  {
-    "row": 73,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 74,
-    "rowsha": "AzlLD2pWk3POM1HrZ3E5ATnTlrLzkJYG7TSxLtTOKDw=",
-    "originContent": "# macOS (Apple Silicon)",
-    "translatedContent": "# macOS (Apple Silicon)"
-  },
-  {
-    "row": 75,
-    "rowsha": "viX2LO7w9doh80dXKwTSg1b/SyJoGuFM9Np3IEv1xc4=",
-    "originContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-darwin-aarch64.tar.gz",
-    "translatedContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-darwin-aarch64.tar.gz"
-  },
-  {
-    "row": 76,
-    "rowsha": "xkrjZeBGTz19g6qQ0Of0AidDB9K5orKOUzeGAFDkqFc=",
-    "originContent": "tar xzf oci2git-darwin-aarch64.tar.gz",
-    "translatedContent": "tar xzf oci2git-darwin-aarch64.tar.gz"
-  },
-  {
-    "row": 77,
-    "rowsha": "pLCvsg08x6x8gbirN5jbaPb8zpdUR81ZVKtrH+n6vWk=",
-    "originContent": "sudo mv oci2git-darwin-aarch64 /usr/local/bin/oci2git",
-    "translatedContent": "sudo mv oci2git-darwin-aarch64 /usr/local/bin/oci2git"
-  },
-  {
-    "row": 78,
-    "rowsha": "wC6ZMcMdGKyLh9C5rEAbKzuzHggXTVmXG5NVNyVXZaY=",
-    "originContent": "chmod +x /usr/local/bin/oci2git",
-    "translatedContent": "chmod +x /usr/local/bin/oci2git"
-  },
-  {
-    "row": 79,
+    "row": 59,
     "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
     "originContent": "```",
     "translatedContent": "```"
   },
   {
-    "row": 80,
+    "row": 60,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 61,
+    "rowsha": "NnQx/WZLtobZ/9ITM5sTgv2OFQnCH83If6v2i9FvEzM=",
+    "originContent": "Options:",
+    "translatedContent": "বিকল্পসমূহ:"
+  },
+  {
+    "row": 62,
+    "rowsha": "oXOzIEeqQu2Z1qo8EmMUlwUyZ2lmThq9TBOMcKki5Ms=",
+    "originContent": "  `-o, --output <OUTPUT>`  Output path for the YAML BOM file [default: ./fsbom.yml]",
+    "translatedContent": "  `-o, --output <OUTPUT>`  YAML BOM ফাইলৰ বাবে আউটপুট পথ [ডিফল্ট: ./fsbom.yml]"
+  },
+  {
+    "row": 63,
+    "rowsha": "a9fQWVyCS1P9nAlLPlXbfd+NJtje69DmQ3azfee4ix4=",
+    "originContent": "  `-e, --engine <ENGINE>`  Container engine to use (docker, nerdctl, tar) [default: docker]",
+    "translatedContent": "  `-e, --engine <ENGINE>`  ব্যৱহাৰ কৰিব লগা কণ্টেইনাৰ ইঞ্জিন (docker, nerdctl, tar) [ডিফল্ট: docker]"
+  },
+  {
+    "row": 64,
+    "rowsha": "kMUCHHjPTBbjBLnPf4mREhrzFBTARfdbpmnNG3u3Ri8=",
+    "originContent": "  `-v, --verbose`          Verbose mode (-v for info, -vv for debug, -vvv for trace)",
+    "translatedContent": "  `-v, --verbose`          Verbose মোড (-v তথ্যৰ বাবে, -vv ডিবাগৰ বাবে, -vvv ট্ৰেচৰ বাবে)"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "YGL4UqTuaFB0ZGIuBIgF08qREavcDoYEpCh+1s8q9Hw=",
+    "originContent": "Environment Variables:",
+    "translatedContent": "পৰিৱেশ ভেৰিয়েবলসমূহ:"
+  },
+  {
+    "row": 67,
+    "rowsha": "L/o5NQhvt3s5wMDzH0UBcCbYTr+YSY+3NRMsKy0uOts=",
+    "originContent": "  `TMPDIR`  Set this environment variable to change the default location used for intermediate data processing. This is platform-dependent (e.g., `TMPDIR` on Unix/macOS, `TEMP` or `TMP` on Windows).",
+    "translatedContent": "  `TMPDIR`  ইন্টাৰমিডিয়েট ডাটা প্ৰসেসিংৰ বাবে ব্যৱহৃত ডিফল্ট স্থান সলনি কৰিবলৈ এই পৰিৱেশ ভেৰিয়েবল ছেট কৰক। এইটো প্লেটফৰ্ম-নির্ভৰ (উদাহৰণস্বৰূপ, Unix/macOS-ত `TMPDIR`, Windows-ত `TEMP` বা `TMP`)."
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+    "originContent": "## Examples",
+    "translatedContent": "## উদাহৰণসমূহ"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "Pao+oh1LBV8FeCl/RjLTZn3FTWny5/KMF9gq41tSQPE=",
+    "originContent": "### Convert",
+    "translatedContent": "### ৰূপান্তৰ"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "tOe+OVX+wmFfmqDbxSgitmk7kWcEwwrN773KBCziJHI=",
+    "originContent": "Using Docker engine (default):",
+    "translatedContent": "Docker ইঞ্জিন ব্যৱহাৰ কৰি (ডিফল্ট):"
+  },
+  {
+    "row": 74,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 75,
+    "rowsha": "MdfWtTN3oDkVupUIgqWp4zCy9xQk2T0cniMfQzFsb2Y=",
+    "originContent": "oci2git ubuntu:latest",
+    "translatedContent": "oci2git ubuntu:latest"
+  },
+  {
+    "row": 76,
+    "rowsha": "7IyA2dLzabOfwJt1hho/fU8513rZRxzQkOtx4uwERWU=",
+    "originContent": "# or explicitly:",
+    "translatedContent": "# or explicitly:"
+  },
+  {
+    "row": 77,
+    "rowsha": "JPasMx+1ZPtvbJIukocHf99CRB1SSbPpyS8UGQlhuDg=",
+    "originContent": "oci2git convert ubuntu:latest -o ./ubuntu-repo",
+    "translatedContent": "oci2git convert ubuntu:latest -o ./ubuntu-repo"
+  },
+  {
+    "row": 78,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 79,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 80,
+    "rowsha": "SJYIC3ko6tttwILKcG759fyc0I83OEVrxF62scTM0Uw=",
+    "originContent": "oci2git convert -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar",
+    "translatedContent": "oci2git convert -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar"
+  },
+  {
     "row": 81,
-    "rowsha": "smCviOjFIAlOvuDZi5hcf9TF4fvruU1pMREpfc9h7z4=",
-    "originContent": "### From Source",
-    "translatedContent": "### উৎসৰ পৰা"
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
   },
   {
     "row": 82,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 83,
+    "rowsha": "swtiJp2yNOZ6Ht2Rb0LC9bkkw94oTuAnkm9LK8A2Blo=",
+    "originContent": "# Create a tarball from a local Docker image",
+    "translatedContent": "# Create a tarball from a local Docker image"
+  },
+  {
+    "row": 84,
+    "rowsha": "0dJQePuNnqBLk40Y93ZgPm8P3Swzsjd/UCAkmwLsRmw=",
+    "originContent": "docker save -o ubuntu-latest.tar ubuntu:latest",
+    "translatedContent": "docker save -o ubuntu-latest.tar ubuntu:latest"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "ezIq3aqK4rOW/G624kkj8OmBApTf0SM6DdJ3trUC8Sk=",
+    "originContent": "# Convert the tarball to a Git repository",
+    "translatedContent": "# Convert the tarball to a Git repository"
+  },
+  {
+    "row": 87,
+    "rowsha": "ulIbNN790PIwc5RBGi7L3BXPLBrmoV7KqgYgS2BJjbE=",
+    "originContent": "oci2git convert -e tar -o ./ubuntu-repo ubuntu-latest.tar",
+    "translatedContent": "oci2git convert -e tar -o ./ubuntu-repo ubuntu-latest.tar"
+  },
+  {
+    "row": 88,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "OOWYf6W46cviTyPAAxNpPJfVj3Fz3L4yTa0jzxfElPw=",
+    "originContent": "This will create a Git repository in `./ubuntu-repo` containing:",
+    "translatedContent": "এইটো `./ubuntu-repo` ত এটা Git ৰিপ'জিট'ৰি সৃষ্টি কৰিব য'ত এইবোৰ থাকিব:"
+  },
+  {
+    "row": 91,
+    "rowsha": "r5qWFXFkojxcgiNwLnGMlSadWVnCbfub6qM8e9q/8Nw=",
+    "originContent": "- `Image.md` - Complete metadata about the image in Markdown format",
+    "translatedContent": "- `Image.md` - চিত্ৰটোৰ সম্পূৰ্ণ মেটাডেটা Markdown ফৰ্মেটত"
+  },
+  {
+    "row": 92,
+    "rowsha": "maGh1e8JV7Pxg6B5BF5ccKdr3748ZRk9+1VXfyfkCCk=",
+    "originContent": "- `rootfs/` - The filesystem content from the container",
+    "translatedContent": "- `rootfs/` - কণ্টেইনাৰৰ পৰা আহৰণ কৰা ফাইলচিষ্টেমৰ সামগ্ৰী"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "wCWXhTKQ6DvpyP8SADyuKHM/QiDACq4ZQnoi9qcq+n8=",
+    "originContent": "The Git history reflects the container's layer history:",
+    "translatedContent": "Git ইতিহাসটো কণ্টেইনাৰৰ স্তৰৰ ইতিহাস প্ৰতিফলিত কৰে:"
+  },
+  {
+    "row": 95,
+    "rowsha": "mKSS8K3EnUBF75usNbBpi8f03aCRxjCDSod1fw5UlPo=",
+    "originContent": "- The first commit contains only the `Image.md` file with full metadata",
+    "translatedContent": "- প্ৰথম কমিটত কেৱল `Image.md` ফাইলটো সম্পূৰ্ণ মেটাডেটাৰ সৈতে থাকে"
+  },
+  {
+    "row": 96,
+    "rowsha": "DumNUFJcRb5coqibkEQ+d640i1Rp+R8PheJDIxOPrIs=",
+    "originContent": "- Each subsequent commit represents a layer from the original image",
+    "translatedContent": "- পাছৰ প্ৰতিটো কমিট মূল চিত্ৰৰ এটা স্তৰক প্ৰতিনিধিত্ব কৰে"
+  },
+  {
+    "row": 97,
+    "rowsha": "nAIJv9HcEeQMdJh37pgdGN/infZD9mMXC360e1LQkdY=",
+    "originContent": "- Commits include the Dockerfile command as the commit message",
+    "translatedContent": "- কমিটবোৰত Dockerfile কমাণ্ডটো কমিট মেছেজ হিচাপে থাকে"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "0CnWHmduxxdtr1gQjKYcEr0ArQnIBSn6wIug0l6Z4T8=",
+    "originContent": "### Filesystem Bill of Materials (fsbom)",
+    "translatedContent": "### ফাইলচিষ্টেম বিল অফ মেটেৰিয়েলছ (fsbom)"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "lpRDsUM7vB0qJdxfZNT2VWx9EWC3vETrMf0BQI0+kuo=",
+    "originContent": "Generate a YAML listing of every file introduced or modified per layer:",
+    "translatedContent": "প্ৰত্যেকটা স্তৰত অন্তৰ্ভুক্ত বা পৰিবৰ্তিত কৰা প্ৰতিটো ফাইলৰ YAML তালিকা উত্পন্ন কৰক:"
+  },
+  {
+    "row": 102,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 103,
+    "rowsha": "F6U4VTYQ37pVucEAA95nsHG+m4Q/3/2zIDzOgXqtVbM=",
+    "originContent": "oci2git fsbom ubuntu:latest -o ubuntu.yml",
+    "translatedContent": "oci2git fsbom ubuntu:latest -o ubuntu.yml"
+  },
+  {
+    "row": 104,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "এটা টাৰবল ব্যৱহাৰ কৰা:"
+  },
+  {
+    "row": 106,
+    "rowsha": "yf+ysJt5J5mABr+zvLKAO7pJNGoeu0zdoBwu7slxQTc=",
+    "originContent": "Using a tarball:",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 108,
+    "rowsha": "gyYGXtU7elUWGusPphNfl3TRVlUMRGsAFZ3CNALEQM4=",
+    "originContent": "oci2git fsbom -e tar image.tar -o image-bom.yml",
+    "translatedContent": "oci2git fsbom -e tar image.tar -o image-bom.yml"
+  },
+  {
+    "row": 109,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "আউটপুট YAML-এ প্ৰতিটো স্তৰৰ তালিকা থাকে, তাৰ প্ৰৱিষ্টিসমূহ প্ৰকাৰ (`file`, `hardlink`, `symlink`, `directory`) আৰু স্থিতি (`n:uid:gid` নতুনৰ বাবে, `m:uid:gid` পৰিবৰ্তিতৰ বাবে) অনুসৰি টেগ কৰা থাকে। মচি দিয়া ফাইলসমূহ (OCI whiteouts) বাদ দিয়া হয়।"
+  },
+  {
+    "row": 111,
+    "rowsha": "2mQsH/DDiP8OO78b0r7L1lkSQGCmGWV/SQa6xNutRf0=",
+    "originContent": "The output YAML lists every layer with its entries tagged by type (`file`, `hardlink`, `symlink`, `directory`) and status (`n:uid:gid` for new, `m:uid:gid` for modified). Deleted files (OCI whiteouts) are excluded.",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 114,
+    "rowsha": "sjEEG182ukFAXOFcyN10RRVUNMFbV+6oUjhrAV7pVxc=",
+    "originContent": "layers:",
+    "translatedContent": "layers:"
+  },
+  {
+    "row": 115,
+    "rowsha": "Vi1zJV8Gr0y1LEs/FZVqoHT/3Yho2+u0Rl8ljq96xzI=",
+    "originContent": "  - index: 0",
+    "translatedContent": "  - index: 0"
+  },
+  {
+    "row": 116,
+    "rowsha": "klemnDi3MWL1x3WOgWWw4Dw9E8ktDcCfH8ijR80vqaU=",
+    "originContent": "    command: \"ADD rootfs.tar.gz / # buildkit\"",
+    "translatedContent": "    command: \"ADD rootfs.tar.gz / # buildkit\""
+  },
+  {
+    "row": 117,
+    "rowsha": "tzAU53IMLvz7HXgmy2Ih5+29rWeWnU0Q+D9ophzsznk=",
+    "originContent": "    digest: \"sha256:45f3ea58...\"",
+    "translatedContent": "    digest: \"sha256:45f3ea58...\""
+  },
+  {
+    "row": 118,
+    "rowsha": "JJDDx+86Wexy8mwHvulhMRf+GqIfvZX2zBSvNqJcWJg=",
+    "originContent": "    entries:",
+    "translatedContent": "    entries:"
+  },
+  {
+    "row": 119,
+    "rowsha": "ZRBKkptGkTsozdQysLzRr6R1xObZ5o59CVWndfrZ1P0=",
+    "originContent": "      - type: file",
+    "translatedContent": "      - type: file"
+  },
+  {
+    "row": 120,
+    "rowsha": "z+aKYH7PhASTcAYGXWlflYT4avCRJm6ZTeSXnvysjyA=",
+    "originContent": "        path: \"bin/busybox\"",
+    "translatedContent": "        path: \"bin/busybox\""
+  },
+  {
+    "row": 121,
+    "rowsha": "2ntJJnWsKmD+dQxADzfqQszOSrUGndjUr9kywRJdQbo=",
+    "originContent": "        size: 919304",
+    "translatedContent": "        size: 919304"
+  },
+  {
+    "row": 122,
+    "rowsha": "Ivd1o/p648V0K53uoQmNPfy63uNijM3PrVFLNB1pqgo=",
+    "originContent": "        mode: 493",
+    "translatedContent": "        mode: 493"
+  },
+  {
+    "row": 123,
+    "rowsha": "69EaF9H3zEQu31zyYaGj/xN+mlRWcgZV+Iw56cHwYZI=",
+    "originContent": "        stat: \"n:0:0\"",
+    "translatedContent": "        stat: \"n:0:0\""
+  },
+  {
+    "row": 124,
+    "rowsha": "rK+13kTfvzLTGRTK62Rvsw3g/r6H11nTLbVuwW07ATU=",
+    "originContent": "      - type: hardlink",
+    "translatedContent": "      - type: hardlink"
+  },
+  {
+    "row": 125,
+    "rowsha": "NnG+Gea2pemBbEnciCzqs3noSX15EZUOqyhsTBTdI4I=",
+    "originContent": "        path: \"bin/sh\"",
+    "translatedContent": "        path: \"bin/sh\""
+  },
+  {
+    "row": 126,
+    "rowsha": "bEZvcHnZix98kX5VUV0zwy+b5CXTfCZwWZdKmngwOck=",
+    "originContent": "        target: \"bin/busybox\"",
+    "translatedContent": "        target: \"bin/busybox\""
+  },
+  {
+    "row": 127,
+    "rowsha": "69EaF9H3zEQu31zyYaGj/xN+mlRWcgZV+Iw56cHwYZI=",
+    "originContent": "        stat: \"n:0:0\"",
+    "translatedContent": "        stat: \"n:0:0\""
+  },
+  {
+    "row": 128,
+    "rowsha": "CHXWX7I4PGpd9O61hgMOERcTAH347MaOCp27/YpIfGo=",
+    "originContent": "      - type: symlink",
+    "translatedContent": "      - type: symlink"
+  },
+  {
+    "row": 129,
+    "rowsha": "t53XBwyVajlHqZoLBSaE93cxuI5FA3RTiEttoudlIV0=",
+    "originContent": "        path: \"lib64\"",
+    "translatedContent": "        path: \"lib64\""
+  },
+  {
+    "row": 130,
+    "rowsha": "wYoT4Np8N0BWtI5Sl6m13H25+TbXpIcGGyBcYvsWHdg=",
+    "originContent": "        target: \"lib\"",
+    "translatedContent": "        target: \"lib\""
+  },
+  {
+    "row": 131,
+    "rowsha": "69EaF9H3zEQu31zyYaGj/xN+mlRWcgZV+Iw56cHwYZI=",
+    "originContent": "        stat: \"n:0:0\"",
+    "translatedContent": "        stat: \"n:0:0\""
+  },
+  {
+    "row": 132,
+    "rowsha": "jIMUY6mKK60ADyPn4OXCCDhlyKP3ncGysgUjGFW1oHc=",
+    "originContent": "  - index: 1",
+    "translatedContent": "  - index: 1"
+  },
+  {
+    "row": 133,
+    "rowsha": "TvjvoUhLdPJhKgOgNmM5PMhc0EkAwRceK0wikEAokAs=",
+    "originContent": "    command: \"RUN apk add --no-cache curl\"",
+    "translatedContent": "    command: \"RUN apk add --no-cache curl\""
+  },
+  {
+    "row": 134,
+    "rowsha": "2OuJ5nkeB4JMSqLK6KOmllvEmmeMgDrJqVzhJ8hWBsA=",
+    "originContent": "    digest: \"sha256:...\"",
+    "translatedContent": "    digest: \"sha256:...\""
+  },
+  {
+    "row": 135,
+    "rowsha": "JJDDx+86Wexy8mwHvulhMRf+GqIfvZX2zBSvNqJcWJg=",
+    "originContent": "    entries:",
+    "translatedContent": "    entries:"
+  },
+  {
+    "row": 136,
+    "rowsha": "ZRBKkptGkTsozdQysLzRr6R1xObZ5o59CVWndfrZ1P0=",
+    "originContent": "      - type: file",
+    "translatedContent": "      - type: file"
+  },
+  {
+    "row": 137,
+    "rowsha": "H4B8xAJCM2w2HLkLCDfnEJUT2Hqp7/VG5zHPQ2ipxM4=",
+    "originContent": "        path: \"usr/bin/curl\"",
+    "translatedContent": "        path: \"usr/bin/curl\""
+  },
+  {
+    "row": 138,
+    "rowsha": "C2BaSpJXpXbFq5lpKatVVrgB8G7WrU5ULqhPhs6oJp0=",
+    "originContent": "        size: 204800",
+    "translatedContent": "        size: 204800"
+  },
+  {
+    "row": 139,
+    "rowsha": "Ivd1o/p648V0K53uoQmNPfy63uNijM3PrVFLNB1pqgo=",
+    "originContent": "        mode: 493",
+    "translatedContent": "        mode: 493"
+  },
+  {
+    "row": 140,
+    "rowsha": "69EaF9H3zEQu31zyYaGj/xN+mlRWcgZV+Iw56cHwYZI=",
+    "originContent": "        stat: \"n:0:0\"",
+    "translatedContent": "        stat: \"n:0:0\""
+  },
+  {
+    "row": 141,
+    "rowsha": "ZRBKkptGkTsozdQysLzRr6R1xObZ5o59CVWndfrZ1P0=",
+    "originContent": "      - type: file",
+    "translatedContent": "      - type: file"
+  },
+  {
+    "row": 142,
+    "rowsha": "cavwTVZio9PjLzE4T7Xkwsr2ZEqckmnZs7CgzsDJRKU=",
+    "originContent": "        path: \"etc/apk/world\"",
+    "translatedContent": "        path: \"etc/apk/world\""
+  },
+  {
+    "row": 143,
+    "rowsha": "IAM8D2x+ypPe8F67UYKB1TJT1zaFjICJxg4vxnNSmOk=",
+    "originContent": "        size: 32",
+    "translatedContent": "        size: 32"
+  },
+  {
+    "row": 144,
+    "rowsha": "viVT9YenRjiCFclBvMyAEItPv0ZAmjO4UpGDZouk1gY=",
+    "originContent": "        mode: 420",
+    "translatedContent": "        mode: 420"
+  },
+  {
+    "row": 145,
+    "rowsha": "J0dfg1D0EOhTvwBzUrmN3r8kc8/Hj+n36AAt3/s0FFc=",
+    "originContent": "        stat: \"m:0:0\"",
+    "translatedContent": "        stat: \"m:0:0\""
+  },
+  {
+    "row": 146,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "4YmSzpzFxS1sIl9f+qnViulCsiQaK92OjsAy48LamXw=",
+    "originContent": "## Repository Structure",
+    "translatedContent": "## ৰিপ'জিট'ৰী গঠন"
+  },
+  {
+    "row": 149,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""

@@ -38,39 +38,40 @@
 [![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
 [![مجوز](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
 
-[![تعداد دانلودها](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
+[![دانلودها](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
-[//]: # (شبیه‌سازی برای test.yaml آینده)
+[//]: # (شبیه‌سازی برای تست آینده test.yaml)
 [//]: # ([![وضعیت تست]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
 
 <div align="left"> </div>  
 </div>
 
-یک برنامه Rust که تصاویر کانتینری (Docker و غیره) را به مخازن Git تبدیل می‌کند. هر لایه کانتینر به صورت یک commit در Git نمایش داده می‌شود و تاریخچه و ساختار تصویر اصلی را حفظ می‌کند.
+یک برنامه Rust که تصاویر کانتینر (Docker و غیره) را به مخزن‌های Git تبدیل می‌کند و صورت‌حساب فایل‌های سیستم (fsbom) را به صورت YAML تولید می‌کند. هر لایه کانتینر به عنوان یک کامیت Git نمایش داده می‌شود، و تاریخچه و ساختار تصویر اصلی حفظ می‌شود.
 
-![نمایش دمو از OCI2Git هنگام تبدیل تصویر nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+![دموی تبدیل تصویر nginx توسط OCI2Git](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
-## ویژگی‌ها
+## امکانات
 
 - تحلیل تصاویر Docker و استخراج اطلاعات لایه‌ها
-- ایجاد یک مخزن Git که هر لایه تصویر به صورت یک commit نمایش داده می‌شود
-- پشتیبانی از لایه‌های خالی (ENV، WORKDIR و غیره) به عنوان commitهای خالی
-- استخراج کامل اطلاعات متادیتا به فرمت Markdown
-- معماری قابل توسعه برای پشتیبانی از موتورهای مختلف کانتینر
+- ایجاد مخزن Git که هر لایه تصویر به عنوان یک کامیت نمایش داده می‌شود
+- تولید صورت‌حساب فایل سیستم (fsbom) به صورت YAML با لیست فایل‌های هر لایه
+- پشتیبانی از لایه‌های خالی (ENV، WORKDIR و غیره) به عنوان کامیت‌های خالی
+- استخراج کامل متادیتا به فرمت Markdown
+- معماری قابل توسعه برای پشتیبانی از موتورهای کانتینر مختلف
 
-## کاربردها
+## موارد استفاده
 
-### مقایسه لایه‌ها (Layer Diffing)
-هنگام عیب‌یابی مشکلات کانتینر، می‌توانید از قابلیت مقایسه قدرتمند Git برای شناسایی دقیق تغییرات بین دو لایه استفاده کنید. با اجرای `git diff` بین commitها، مهندسان می‌توانند دقیقا مشاهده کنند چه فایل‌هایی اضافه، ویرایش یا حذف شده‌اند، که درک تاثیر هر دستور Dockerfile و یافتن تغییرات مشکل‌ساز را بسیار ساده‌تر می‌کند.
-![نمونه‌ای برای مقایسه لایه‌ها](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### مقایسه لایه‌ها
+هنگام رفع اشکال کانتینر، می‌توانید از قابلیت مقایسه قدرتمند Git برای شناسایی دقیق تغییرات بین هر دو لایه استفاده کنید. با اجرای `git diff` بین کامیت‌ها، مهندسان می‌توانند دقیقا مشاهده کنند چه فایل‌هایی اضافه، اصلاح یا حذف شده‌اند، که درک تاثیر هر دستور Dockerfile و یافتن تغییرات مشکل‌ساز را بسیار آسان‌تر می‌کند.
+![نمونه مقایسه لایه‌ها](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
-### رهگیری منشاء (Origin Tracking)
-با استفاده از `git blame`، توسعه‌دهندگان می‌توانند به سرعت تعیین کنند که کدام لایه یک فایل یا خط خاص را معرفی کرده است. این موضوع به‌ویژه هنگام عیب‌یابی فایل‌های پیکربندی یا وابستگی‌ها بسیار ارزشمند است. به جای بررسی دستی هر لایه، می‌توانید بلافاصله منشاء هر فایل را تا لایه مبدا و دستور Dockerfile مرتبط دنبال کنید.
+### ردیابی منبع
+با استفاده از `git blame`، توسعه‌دهندگان می‌توانند به سرعت تشخیص دهند کدام لایه یک فایل یا خط کد خاص را وارد کرده است. این قابلیت به ویژه هنگام رفع اشکال فایل‌های پیکربندی یا وابستگی‌ها ارزشمند است. به جای بررسی دستی هر لایه، می‌توانید منبع هر فایل را فوراً تا لایه مبدأ و دستور مربوطه Dockerfile ردیابی کنید.
 
-### رهگیری چرخه عمر فایل (File Lifecycle Tracking)
-OCI2Git این امکان را به شما می‌دهد که مسیر یک فایل خاص را در کل تاریخچه تصویر کانتینری دنبال کنید. می‌توانید مشاهده کنید که یک فایل چه زمانی ایجاد شد، در لایه‌های مختلف چگونه تغییر کرد و چه زمانی (در صورت وجود) حذف شد. این دید جامع به درک سیر تحول فایل کمک می‌کند بدون نیاز به ردیابی دستی تغییرات در ده‌ها لایه احتمالی.
+### ردیابی چرخه عمر فایل
+OCI2Git این امکان را فراهم می‌کند تا مسیر یک فایل خاص را در طول تاریخچه تصویر کانتینر دنبال کنید. می‌توانید مشاهده کنید چه زمانی یک فایل برای اولین بار ایجاد شد، چگونه در لایه‌های مختلف تغییر کرد و آیا در نهایت حذف شد یا خیر. این دید جامع به فهم تکامل فایل‌ها کمک می‌کند بدون نیاز به پیگیری دستی تغییرات در ده‌ها لایه احتمالی.
 
-برای رهگیری تاریخچه یک فایل در تصویر کانتینر خود — از جمله زمانی که برای اولین بار ظاهر شد، تغییر یافت یا حذف شد — می‌توانید پس از تبدیل از این دستورات Git استفاده کنید:
+برای ردیابی تاریخچه یک فایل در تصویر کانتینر خود — از جمله زمان ایجاد، تغییر یا حذف آن — پس از تبدیل می‌توانید از این فرمان‌های Git استفاده کنید:
 
 ```bash
 # Full history of a file (including renames)
@@ -208,32 +209,53 @@ cargo install --path .
 
 ## استفاده
 
-```bash
+```
 oci2git [OPTIONS] <IMAGE>
+oci2git convert [OPTIONS] <IMAGE>
+oci2git fsbom [OPTIONS] <IMAGE>
 ```
 
-آرگومان‌ها:
-  `<IMAGE>`  نام تصویری که باید تبدیل شود (مثلاً 'ubuntu:latest') یا مسیر فایل tar هنگام استفاده از موتور tar
+### `convert` — تصویر OCI → مخزن گیت
+
+```bash
+oci2git convert [OPTIONS] <IMAGE>
+# or simply:
+oci2git <IMAGE>
+```
 
 گزینه‌ها:
-  `-o, --output <o>`  مسیر دایرکتوری خروجی برای مخزن Git [پیش‌فرض: ./container_repo]
+  `-o, --output <OUTPUT>`  پوشه خروجی برای مخزن گیت [پیش‌فرض: ./container_repo]
   `-e, --engine <ENGINE>`  موتور کانتینر مورد استفاده (docker، nerdctl، tar) [پیش‌فرض: docker]
-  `-h, --help`            نمایش اطلاعات راهنما
-  `-V, --version`         نمایش اطلاعات نسخه
+  `-v, --verbose`          حالت پرجزئیات (-v برای اطلاعات، -vv برای اشکال‌زدایی، -vvv برای ردیابی)
+
+### `fsbom` — فهرست اجزای فایل‌سیستم
+
+```bash
+oci2git fsbom [OPTIONS] <IMAGE>
+```
+گزینه‌ها:
+  `-o, --output <OUTPUT>`  مسیر خروجی برای فایل BOM در قالب YAML [پیش‌فرض: ./fsbom.yml]
+  `-e, --engine <ENGINE>`  موتور کانتینر مورد استفاده (docker، nerdctl، tar) [پیش‌فرض: docker]
+  `-v, --verbose`          حالت پرجزئیات (-v برای اطلاعات، -vv برای اشکال‌زدایی، -vvv برای ردیابی)
 
 متغیرهای محیطی:
-  `TMPDIR`  این متغیر محیطی را برای تغییر محل پیش‌فرض پردازش داده‌های واسطه تنظیم کنید. این مقدار به پلتفرم بستگی دارد (مثلاً `TMPDIR` در یونیکس/macOS، `TEMP` یا `TMP` در ویندوز).
+  `TMPDIR`  این متغیر محیطی را برای تغییر مکان پیش‌فرض مورد استفاده در پردازش داده‌های واسطه تنظیم کنید. این متغیر وابسته به پلتفرم است (مثلاً `TMPDIR` در یونیکس/macOS، `TEMP` یا `TMP` در ویندوز).
 
 ## مثال‌ها
 
+### تبدیل
+
 استفاده از موتور Docker (پیش‌فرض):
+
 ```bash
-oci2git -o ./ubuntu-repo ubuntu:latest
+oci2git ubuntu:latest
+# or explicitly:
+oci2git convert ubuntu:latest -o ./ubuntu-repo
 ```
 استفاده از یک بسته فشرده تصویر که قبلاً دانلود شده است:
 
 ```bash
-oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
 ```
 موتور tar انتظار یک فایل tar با فرمت معتبر OCI را دارد که معمولاً با دستور `docker save` ایجاد می‌شود:
 
@@ -242,19 +264,68 @@ oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
 docker save -o ubuntu-latest.tar ubuntu:latest
 
 # Convert the tarball to a Git repository
-oci2git -e tar -o ./ubuntu-repo ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo ubuntu-latest.tar
 ```
-این کار یک مخزن گیت در مسیر `./ubuntu-repo` ایجاد می‌کند که شامل موارد زیر است:
-- `Image.md` - فراداده کامل درباره تصویر به صورت فرمت Markdown
-- `rootfs/` - محتوای سیستم‌فایل استخراج‌شده از کانتینر
+این کار یک مخزن گیت در `./ubuntu-repo` ایجاد می‌کند که شامل موارد زیر است:
+- `Image.md` - فراداده کامل درباره تصویر به صورت مارک‌داون
+- `rootfs/` - محتوای سیستم فایل از کانتینر
 
-تاریخچه گیت بازتاب‌دهنده تاریخچه لایه‌های کانتینر است:
+تاریخچه گیت منعکس‌کننده تاریخچه لایه‌های کانتینر است:
 - اولین کامیت فقط شامل فایل `Image.md` با فراداده کامل است
 - هر کامیت بعدی نمایانگر یک لایه از تصویر اصلی است
-- پیام کامیت شامل دستور Dockerfile مربوط به آن لایه است
+- کامیت‌ها شامل فرمان Dockerfile به عنوان پیام کامیت هستند
+
+### صورت مواد سیستم فایل (fsbom)
+
+تولید یک فایل YAML که هر فایل معرفی‌شده یا تغییر یافته در هر لایه را لیست می‌کند:
+
+```bash
+oci2git fsbom ubuntu:latest -o ubuntu.yml
+```
+استفاده از یک بسته فشرده (tarball):
+
+```bash
+oci2git fsbom -e tar image.tar -o image-bom.yml
+```
+
+خروجی YAML هر لایه را با ورودی‌هایش که بر اساس نوع (`file`، `hardlink`، `symlink`، `directory`) و وضعیت (`n:uid:gid` برای جدید، `m:uid:gid` برای اصلاح‌شده) برچسب‌گذاری شده‌اند، فهرست می‌کند. فایل‌های حذف‌شده (سفیدپوش‌های OCI) مستثنی شده‌اند.
+
+```yaml
+layers:
+  - index: 0
+    command: "ADD rootfs.tar.gz / # buildkit"
+    digest: "sha256:45f3ea58..."
+    entries:
+      - type: file
+        path: "bin/busybox"
+        size: 919304
+        mode: 493
+        stat: "n:0:0"
+      - type: hardlink
+        path: "bin/sh"
+        target: "bin/busybox"
+        stat: "n:0:0"
+      - type: symlink
+        path: "lib64"
+        target: "lib"
+        stat: "n:0:0"
+  - index: 1
+    command: "RUN apk add --no-cache curl"
+    digest: "sha256:..."
+    entries:
+      - type: file
+        path: "usr/bin/curl"
+        size: 204800
+        mode: 493
+        stat: "n:0:0"
+      - type: file
+        path: "etc/apk/world"
+        size: 32
+        mode: 420
+        stat: "m:0:0"
+```
 
 ## ساختار مخزن
-
 
 ```
 repository/
@@ -279,6 +350,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-02
 
 ---

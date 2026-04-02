@@ -1,195 +1,195 @@
 [
   {
     "row": 1,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "OCI2Git secara otomatis mendeteksi lapisan yang dibagikan antar image dan membuat struktur percabangan yang mencerminkan basis bersama mereka. Riwayat Git akan menampilkan:"
+    "rowsha": "LtxXdAOUhhqLLjUc6gpeUOBxxlQLk3nEvgWZAgWSp4w=",
+    "originContent": "[![Downloads](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)",
+    "translatedContent": "[![Unduhan](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)"
   },
   {
     "row": 2,
-    "rowsha": "6LTUD8+pcJMZgBPG/5v5lVPVQ9Hxe2XEKoMOmBTTGLI=",
-    "originContent": "OCI2Git automatically detects shared layers between images and creates a branching structure that reflects their common base. The Git history will show:",
-    "translatedContent": "- Sebuah batang utama yang berisi semua lapisan bersama"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 3,
-    "rowsha": "uIJA8N3Yn8nJIShppfbe5/VqQwvEjS/vdXZMLV74Dqw=",
-    "originContent": "- A common trunk containing all shared layers",
-    "translatedContent": "- Cabang-cabang terpisah yang hanya bercabang ketika image benar-benar berbeda"
+    "rowsha": "XgJK70AM/4trnziWqgjv6ub3d65c5Jisp2V0S60fPX0=",
+    "originContent": "[//]: # (mock for future test.yaml)",
+    "translatedContent": "[//]: # (mock untuk test.yaml di masa depan)"
   },
   {
     "row": 4,
-    "rowsha": "IB8n3F4BtXDld8GlF6SeKKkZ+a+kXrWm27CNe0cgv1c=",
-    "originContent": "- Separate branches that diverge only when the images actually differ",
-    "translatedContent": "- Visualisasi yang jelas tentang di mana image memiliki leluhur yang sama vs. di mana mereka menjadi unik"
+    "rowsha": "LqZcck6pb0UTHO1JCwWaQxPCcrui/gItmqwWx3+WQ1E=",
+    "originContent": "[//]: # ([![Test Status]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)",
+    "translatedContent": "[//]: # ([![Status Tes]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)"
   },
   {
     "row": 5,
-    "rowsha": "UBel4LiGyWz4YAk730NGfcSjHY1kk3xu3gBC3H2hfxk=",
-    "originContent": "- Clear visualization of where images share common ancestry vs. where they become unique",
-    "translatedContent": "- Penanganan duplikat cerdas: jika image yang sama persis diproses dua kali, algoritma akan mendeteksi ini sebelum komit metadata akhir dan melewati pembuatan cabang duplikat"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 6,
-    "rowsha": "Yq5IgSM+QgVoSd6smqIoif4IAvi+RdxFI+4nvv5uH28=",
-    "originContent": "- Smart duplicate handling: if the exact same image is processed twice, the algorithm detects this before the final metadata commit and skips creating a duplicate branch",
-    "translatedContent": ""
+    "rowsha": "1DC0OUuBiVu+pxfsbdZC+N+H6jD4OglQc73WP/vlpjQ=",
+    "originContent": "<div align=\"left\"> </div>  ",
+    "translatedContent": "<div align=\"left\"> </div>  "
   },
   {
     "row": 7,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "Pendekatan ini sangat berharga untuk:"
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
   },
   {
     "row": 8,
-    "rowsha": "PakMj8z4HRkjhYpL7PjDSNw57Y3OGyZeSLa/Z16wQf4=",
-    "originContent": "This approach is particularly valuable for:",
-    "translatedContent": "- **Analisis Keluarga Image**: Memahami bagaimana varian berbeda dari sebuah image (versi berbeda, arsitektur, atau konfigurasi) saling berhubungan"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 9,
-    "rowsha": "uSDvHuhYhLUIzktSDixyAwvQpUrpMzLQRnssT0JsguQ=",
-    "originContent": "- **Image Family Analysis**: Understanding how different variants of an image (different versions, architectures, or configurations) relate to each other",
-    "translatedContent": "- **Dampak Image Dasar**: Melihat secara pasti bagaimana perubahan pada image dasar mempengaruhi banyak image turunan"
+    "rowsha": "YNehJOtoNwjn/MON3EXh3y41UBBGl0ALvZuSZCJMDRI=",
+    "originContent": "A Rust application that converts container images (Docker, etc.) to Git repositories, and generates filesystem bill of materials (fsbom) in YAML. Each container layer is represented as a Git commit, preserving the history and structure of the original image.",
+    "translatedContent": "Aplikasi Rust yang mengonversi image kontainer (Docker, dll.) ke repository Git, dan menghasilkan filesystem bill of materials (fsbom) dalam format YAML. Setiap layer kontainer direpresentasikan sebagai commit Git, menjaga riwayat dan struktur image asli."
   },
   {
     "row": 10,
-    "rowsha": "Yo0kOfD+YrkFq8V58X2u2Cb7DBS35yn5ifLYnG6+XB0=",
-    "originContent": "- **Base Image Impact**: Seeing exactly how changes to a base image affect multiple derived images",
-    "translatedContent": "- **Peluang Optimasi**: Mengidentifikasi komponen bersama yang bisa lebih dimanfaatkan di antara varian image"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 11,
-    "rowsha": "ki3fH0UPzJ7A7KweKewJ0qO2e8h0iAP1uwwL64nh5VI=",
-    "originContent": "- **Optimization Opportunities**: Identifying shared components that could be better leveraged across image variants",
-    "translatedContent": ""
+    "rowsha": "//FYkPzWahj3gIMXsIh1taqlY2/2UrYXdlAZmRJvT+U=",
+    "originContent": "![Demo of OCI2Git converting the nginx image](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)",
+    "translatedContent": "![Demo OCI2Git mengonversi image nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)"
   },
   {
     "row": 12,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "![Struktur repositori multi-image yang menunjukkan basis bersama dan percabangan](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)"
+    "translatedContent": ""
   },
   {
     "row": 13,
-    "rowsha": "BbN5OLYB4s+kmmpRubPeS7o9xcI4EIqsB8NFc29QUQI=",
-    "originContent": "![Multi-image repository structure showing shared base and diverging branches](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/multiimage.png)",
-    "translatedContent": ""
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Fitur"
   },
   {
     "row": 14,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "### Kasus Penggunaan Tambahan"
-  },
-  {
-    "row": 15,
-    "rowsha": "D4/0KP+uRgYhIhVFEBoyiqt95uyOgb7+oYn24/0QCdY=",
-    "originContent": "### Additional Use Cases",
     "translatedContent": ""
   },
   {
+    "row": 15,
+    "rowsha": "fi1muZ1SfkNwRATe0FyTwPtiBpXzDttmmQkrpmT5c14=",
+    "originContent": "- Analyze Docker images and extract layer information",
+    "translatedContent": "- Menganalisis image Docker dan mengekstrak informasi layer"
+  },
+  {
     "row": 16,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "- **Audit Keamanan**: Mengidentifikasi dengan tepat kapan paket atau konfigurasi rentan diperkenalkan dan menelusurinya hingga instruksi build tertentu."
+    "rowsha": "TxXPmzDPxz/0RRZZZGt/NJCbHCtSGYEBc8ztOOE4rSI=",
+    "originContent": "- Create a Git repository where each image layer is represented as a commit",
+    "translatedContent": "- Membuat repository Git di mana setiap layer image direpresentasikan sebagai commit"
   },
   {
     "row": 17,
-    "rowsha": "XpiOHvscMgQVCt9dw8vIqza+SY8H4+PornFuTrVyvvg=",
-    "originContent": "- **Security Auditing**: Identify exactly when vulnerable packages or configurations were introduced and trace them back to specific build instructions.",
-    "translatedContent": "- **Optimasi Image**: Menganalisis struktur layer untuk menemukan operasi redundan atau file besar yang bisa dikonsolidasikan, membantu mengurangi ukuran image."
+    "rowsha": "lq5FiPzt+0Gr+HwM+7HZPqU06sg8I8O2Vq0VheGt4Ps=",
+    "originContent": "- Generate a YAML filesystem bill of materials (fsbom) with per-layer file listings",
+    "translatedContent": "- Menghasilkan filesystem bill of materials (fsbom) dalam YAML dengan daftar file per layer"
   },
   {
     "row": 18,
-    "rowsha": "ht04W08EP7CJDOoh0DwD/Dozp/1fC8UYEIX5+R6ICwk=",
-    "originContent": "- **Image Optimization**: Analyze layer structures to find redundant operations or large files that could be consolidated, helping to reduce image size.",
-    "translatedContent": "- **Manajemen Dependensi**: Memantau kapan dependensi ditambahkan, diperbarui, atau dihapus sepanjang riwayat image."
+    "rowsha": "dqDneuJMUNFjBUZjZ5o0yVWsx1+CA1cQkulQ4mWkh7U=",
+    "originContent": "- Support for empty layers (ENV, WORKDIR, etc.) as empty commits",
+    "translatedContent": "- Dukungan untuk layer kosong (ENV, WORKDIR, dll.) sebagai commit kosong"
   },
   {
     "row": 19,
-    "rowsha": "U4Wj74BqfCGU6N6MlI+ZwqdXxuJ9sFOjYpdn5xAp8Uw=",
-    "originContent": "- **Dependency Management**: Monitor when dependencies were added, upgraded, or removed across the image history.",
-    "translatedContent": "- **Perbaikan Proses Build**: Memeriksa komposisi layer untuk mengoptimalkan instruksi Dockerfile demi caching lebih baik dan ukuran image yang lebih kecil."
+    "rowsha": "JbJcIVQyhw9GQGyK3J8ORqxjXbhGYb27Zt6bioFGlxY=",
+    "originContent": "- Complete metadata extraction to Markdown format",
+    "translatedContent": "- Ekstraksi metadata lengkap ke format Markdown"
   },
   {
     "row": 20,
-    "rowsha": "N42jLPvwR5fiEcM4X17ISprr2UjtkFiYkMmB4n8GuP4=",
-    "originContent": "- **Build Process Improvement**: Examine layer composition to optimize Dockerfile instructions for better caching and smaller image size.",
-    "translatedContent": "- **Perbandingan Lintas-Image**: Konversi beberapa image terkait ke repositori Git dan gunakan alat perbandingan Git untuk menganalisis perbedaan dan kesamaan mereka."
+    "rowsha": "WM41v1kLx5sRbXDs3mG8K5UtB9rj6VGAWT1oaxlLWh4=",
+    "originContent": "- Extensible architecture for supporting different container engines",
+    "translatedContent": "- Arsitektur yang dapat diperluas untuk mendukung berbagai engine kontainer"
   },
   {
     "row": 21,
-    "rowsha": "qLA3g0haMoRlswu5jqH5D9IkPYPNZxCHuo51hYpI4Po=",
-    "originContent": "- **Cross-Image Comparison**: Convert multiple related images to Git repositories and use Git's comparison tools to analyze their differences and commonalities.",
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
     "translatedContent": ""
   },
   {
     "row": 22,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "## Instalasi"
+    "rowsha": "4vWujHs5Ye7w1xO1jq955leyFikp9SiNLFJmgYQgCYI=",
+    "originContent": "## Use Cases",
+    "translatedContent": "## Kasus Penggunaan"
   },
   {
     "row": 23,
-    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
-    "originContent": "## Installation",
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
     "translatedContent": ""
   },
   {
     "row": 24,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "### Pengelola Paket"
+    "rowsha": "E2n7dPydQYzOmSYdIJYX2UpgFCHpPJ++RZpX+UyckS8=",
+    "originContent": "### Layer Diffing",
+    "translatedContent": "### Perbandingan Layer"
   },
   {
     "row": 25,
-    "rowsha": "9G0JP0VtV5B7bSn/YL0R0i5LABsflesxBvXGiBeLWHA=",
-    "originContent": "### Package Managers",
-    "translatedContent": ""
+    "rowsha": "zWiOMkvkQsg7Ro/wIs9arXxy5pz3SvWMD4RVFmqGY2Q=",
+    "originContent": "When troubleshooting container issues, you can use Git's powerful diffing capabilities to identify exactly what changed between any two layers. By running `git diff` between commits, engineers can see precisely which files were added, modified, or deleted, making it much easier to understand the impact of each Dockerfile instruction and locate problematic changes.",
+    "translatedContent": "Saat melakukan troubleshooting masalah kontainer, Anda dapat menggunakan kapabilitas diffing dari Git untuk mengidentifikasi perubahan antara dua layer. Dengan menjalankan `git diff` antar commit, engineer dapat melihat file mana yang ditambahkan, diubah, atau dihapus, sehingga lebih mudah memahami dampak setiap instruksi Dockerfile dan menemukan perubahan bermasalah."
   },
   {
     "row": 26,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "#### macOS / Linux (Homebrew)"
+    "rowsha": "CasDr/NfxbBl9ND+Q9c/7Qle4eGEAJW/lMJqrYGVKtY=",
+    "originContent": "![Example for layer diff](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)",
+    "translatedContent": "![Contoh perbandingan layer](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)"
   },
   {
     "row": 27,
-    "rowsha": "MCZPYf4c73i2wdbozDPKu/UmZMWRvFUkCe6v8U33pDo=",
-    "originContent": "#### macOS / Linux (Homebrew)",
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
     "translatedContent": ""
   },
   {
     "row": 28,
+    "rowsha": "E/blJ113pQ9M93xEk5CafWzLs7QhCQbHp1pPdtKgLpw=",
+    "originContent": "### Origin Tracking",
+    "translatedContent": "### Pelacakan Asal"
+  },
+  {
+    "row": 29,
+    "rowsha": "6BJyqkc8ucX6zX6CQ5KR2G4e+XqwZeBjzU6vd8G128Y=",
+    "originContent": "Using `git blame`, developers can quickly determine which layer introduced a specific file or line of code. This is particularly valuable when diagnosing issues with configuration files or dependencies. Instead of manually inspecting each layer, you can immediately trace the origin of any file back to its source layer and corresponding Dockerfile instruction.",
+    "translatedContent": "Dengan menggunakan `git blame`, developer dapat dengan cepat menentukan layer mana yang memasukkan file atau baris kode tertentu. Ini sangat berguna saat mendiagnosis masalah pada file konfigurasi atau dependensi. Alih-alih memeriksa setiap layer secara manual, Anda dapat langsung melacak asal suatu file ke layer sumber dan instruksi Dockerfile yang sesuai."
+  },
+  {
+    "row": 30,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 29,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 30,
-    "rowsha": "kd9aHvNIZbRVcG+zY0Gb/GJurXyov9fF5rP6lXWkt5Q=",
-    "originContent": "brew tap virviil/oci2git",
-    "translatedContent": "brew tap virviil/oci2git"
-  },
-  {
     "row": 31,
-    "rowsha": "p5oaOWkTPCuAFDNYMDE/sCIHpnxx7dEeKCCPfO3m0uM=",
-    "originContent": "brew install oci2git",
-    "translatedContent": "brew install oci2git"
+    "rowsha": "tjbbryF+A9tu7pgePp78TjDMWcBFPeqdNCHhWbK20/I=",
+    "originContent": "### File Lifecycle Tracking",
+    "translatedContent": "### Pelacakan Siklus Hidup File"
   },
   {
     "row": 32,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
+    "rowsha": "X7Ul9KO1ZSdjb3AA/dyMaOUGjVoEq/TVN3ic4n8hwVU=",
+    "originContent": "OCI2Git enables you to follow a specific file's journey throughout the container image's history. You can observe when a file was initially created, how it was modified across layers, and if/when it was eventually removed. This comprehensive view helps understand file evolution without having to manually track changes across potentially dozens of layers.",
+    "translatedContent": "OCI2Git memungkinkan Anda menelusuri perjalanan file tertentu sepanjang riwayat image kontainer. Anda dapat melihat kapan file pertama kali dibuat, bagaimana file itu diubah di tiap layer, dan jika/kapan akhirnya dihapus. Pandangan komprehensif ini membantu memahami evolusi file tanpa harus melacak perubahan secara manual di puluhan layer."
   },
   {
     "row": 33,
@@ -199,9 +199,9 @@
   },
   {
     "row": 34,
-    "rowsha": "uOTowcjH0Z4wV/A4MrDl170hNsDf5bSQhFc95uGc6+s=",
-    "originContent": "#### Debian / Ubuntu",
-    "translatedContent": "#### Debian / Ubuntu"
+    "rowsha": "CFZY3Krc9gFeR7X13SIQ0WBlPsXpXqk4COWVuQ+negw=",
+    "originContent": "To track the history of a file in your container image — including when it first appeared, was changed, or deleted — you can use these Git commands after conversion:",
+    "translatedContent": "Untuk melacak riwayat file dalam image kontainer Anda — termasuk kapan pertama kali muncul, diubah, atau dihapus — Anda dapat menggunakan perintah Git berikut setelah konversi:"
   },
   {
     "row": 35,
@@ -211,81 +211,81 @@
   },
   {
     "row": 36,
-    "rowsha": "+FIFt9pM6OmPNs3SBT7CAFiYBrnUCW3tN9FXBipVVr8=",
-    "originContent": "Download and install the .deb package from the [latest release](https://github.com/virviil/oci2git/releases/latest):",
-    "translatedContent": "Unduh dan instal paket .deb dari [rilis terbaru](https://github.com/virviil/oci2git/releases/latest):"
-  },
-  {
-    "row": 37,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 38,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
-  },
-  {
-    "row": 39,
-    "rowsha": "JS0pXpd3Yz45NI6iGhmjWT03AT5ZWAfYwhvIrA+X9vY=",
-    "originContent": "# For amd64 (x86_64)",
-    "translatedContent": "# For amd64 (x86_64)"
-  },
-  {
-    "row": 40,
-    "rowsha": "6i/4pv0ZXZ9h+788Tyc8PFKbnOVXyrN6PpOu8yXoETo=",
-    "originContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_amd64.deb",
-    "translatedContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_amd64.deb"
-  },
-  {
-    "row": 41,
-    "rowsha": "ZDo3pITay5bG5r7NtWrJfDUHnEOxW4XGzZOTGdh8/Zc=",
-    "originContent": "sudo dpkg -i oci2git_VERSION_amd64.deb",
-    "translatedContent": "sudo dpkg -i oci2git_VERSION_amd64.deb"
-  },
-  {
-    "row": 42,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 43,
-    "rowsha": "Zkr/Yoz7KF93F0yl6PyK/lOb9ITYju5QDBHEPX/pz8E=",
-    "originContent": "# For arm64",
-    "translatedContent": "# For arm64"
-  },
-  {
-    "row": 44,
-    "rowsha": "aIyp86qfHjgmDW8kH638ITAyQaDPJTebtXPNZnZ6RCw=",
-    "originContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_arm64.deb",
-    "translatedContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git_VERSION_arm64.deb"
-  },
-  {
-    "row": 45,
-    "rowsha": "vT8QtUGsll1lxVe++r2o6WRXKdYDAizhn7GPD6n0p14=",
-    "originContent": "sudo dpkg -i oci2git_VERSION_arm64.deb",
-    "translatedContent": "sudo dpkg -i oci2git_VERSION_arm64.deb"
-  },
-  {
-    "row": 46,
     "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
     "originContent": "```",
     "translatedContent": "```"
   },
   {
-    "row": 47,
+    "row": 37,
+    "rowsha": "2WRwWCw177jhmY5buD8ojF4vHlooOLdyRvwnmrgEYWo=",
+    "originContent": "oci2git [OPTIONS] <IMAGE>",
+    "translatedContent": "oci2git [OPTIONS] <IMAGE>"
+  },
+  {
+    "row": 38,
+    "rowsha": "80Q6lP9XnCZbT/qS8XAO3E8lYADGUSJ7cULZA/MBCgU=",
+    "originContent": "oci2git convert [OPTIONS] <IMAGE>",
+    "translatedContent": "oci2git convert [OPTIONS] <IMAGE>"
+  },
+  {
+    "row": 39,
+    "rowsha": "wXqjXyCa8qKwuZ8LldRbLK5lecM/25USyRtES+Cb4EQ=",
+    "originContent": "oci2git fsbom [OPTIONS] <IMAGE>",
+    "translatedContent": "oci2git fsbom [OPTIONS] <IMAGE>"
+  },
+  {
+    "row": 40,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 41,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 42,
+    "rowsha": "c8LfMBY/L42eR6R0e4OMGFmqAu2vdFt+Tcr1ObPKcf4=",
+    "originContent": "### `convert` — OCI image → Git repository",
+    "translatedContent": "### `convert` — Gambar OCI → Repositori Git"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 45,
+    "rowsha": "80Q6lP9XnCZbT/qS8XAO3E8lYADGUSJ7cULZA/MBCgU=",
+    "originContent": "oci2git convert [OPTIONS] <IMAGE>",
+    "translatedContent": "oci2git convert [OPTIONS] <IMAGE>"
+  },
+  {
+    "row": 46,
+    "rowsha": "7kiR3AYJ9Kehf+Ad13BfmzDHNZz2JMJjIsIBfMFHlis=",
+    "originContent": "# or simply:",
+    "translatedContent": "# or simply:"
+  },
+  {
+    "row": 47,
+    "rowsha": "HIR1VnMo0TvaoxmBZ3OZRUfal9P8yQ8gve4MvoVXNV8=",
+    "originContent": "oci2git <IMAGE>",
+    "translatedContent": "oci2git <IMAGE>"
+  },
+  {
     "row": 48,
-    "rowsha": "v97OByO97nlO6Knih2Kh9XK+mQD5qdIiHfoosqV8xzk=",
-    "originContent": "#### Arch Linux (AUR)",
-    "translatedContent": "#### Arch Linux (AUR)"
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
   },
   {
     "row": 49,
@@ -295,39 +295,39 @@
   },
   {
     "row": 50,
-    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-    "originContent": "```bash",
-    "translatedContent": "```bash"
+    "rowsha": "NnQx/WZLtobZ/9ITM5sTgv2OFQnCH83If6v2i9FvEzM=",
+    "originContent": "Options:",
+    "translatedContent": "Opsi:"
   },
   {
     "row": 51,
-    "rowsha": "l5nu4AIesIcdLg+07bnDUyFkTg3s/YeUlAAeMUVgb1k=",
-    "originContent": "# Using yay",
-    "translatedContent": "# Using yay"
+    "rowsha": "ZQ6KwRi1I0LsDmBdRdZvS7ahdxEer6E5Mw9+X2Fsn10=",
+    "originContent": "  `-o, --output <OUTPUT>`  Output directory for Git repository [default: ./container_repo]",
+    "translatedContent": "  `-o, --output <OUTPUT>`  Direktori output untuk repositori Git [default: ./container_repo]"
   },
   {
     "row": 52,
-    "rowsha": "0xQBjUbpIUIsjnLZBzRyk5WqRLXfctjPowaqDOYe13k=",
-    "originContent": "yay -S oci2git-bin",
-    "translatedContent": "yay -S oci2git-bin"
+    "rowsha": "a9fQWVyCS1P9nAlLPlXbfd+NJtje69DmQ3azfee4ix4=",
+    "originContent": "  `-e, --engine <ENGINE>`  Container engine to use (docker, nerdctl, tar) [default: docker]",
+    "translatedContent": "  `-e, --engine <ENGINE>`  Engine kontainer yang digunakan (docker, nerdctl, tar) [default: docker]"
   },
   {
     "row": 53,
+    "rowsha": "kMUCHHjPTBbjBLnPf4mREhrzFBTARfdbpmnNG3u3Ri8=",
+    "originContent": "  `-v, --verbose`          Verbose mode (-v for info, -vv for debug, -vvv for trace)",
+    "translatedContent": "  `-v, --verbose`          Mode verbose (-v untuk info, -vv untuk debug, -vvv untuk trace)"
+  },
+  {
+    "row": 54,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 54,
-    "rowsha": "Y2jBRHNDECzu7zTPULN1feawKcJPnlOWc6E9RHKbtA0=",
-    "originContent": "# Using paru",
-    "translatedContent": "# Using paru"
-  },
-  {
     "row": 55,
-    "rowsha": "gwPUuUF/jQwkzAEGCKe7gNWXhSqvfyI6bFt0VZAG2R4=",
-    "originContent": "paru -S oci2git-bin",
-    "translatedContent": "paru -S oci2git-bin"
+    "rowsha": "OvxtIacrb7VOO9oD0xUug20Ah+p1ZwQdZCCks+YU5rY=",
+    "originContent": "### `fsbom` — Filesystem bill of materials",
+    "translatedContent": "### `fsbom` — Daftar material filesystem"
   },
   {
     "row": 56,
@@ -337,156 +337,558 @@
   },
   {
     "row": 57,
-    "rowsha": "42F+gsp+KaSVyEPF9T+dQg5zKrLSnMktMYkSUIKfysk=",
-    "originContent": "# Manual installation",
-    "translatedContent": "# Manual installation"
-  },
-  {
-    "row": 58,
-    "rowsha": "5M7x1/h7SwUt5KtJyPPXxRMYcEVp+W5GtbcxUCdFDsY=",
-    "originContent": "git clone https://aur.archlinux.org/oci2git-bin.git",
-    "translatedContent": "git clone https://aur.archlinux.org/oci2git-bin.git"
-  },
-  {
-    "row": 59,
-    "rowsha": "nP3mSTqyEsK42ceSy7KQhIC8Ewzx4DncRg6dy2VevhY=",
-    "originContent": "cd oci2git-bin",
-    "translatedContent": "cd oci2git-bin"
-  },
-  {
-    "row": 60,
-    "rowsha": "cIwaG7dyiMasaSjERM86GecL3HnXV2KtLuaQ6PVMTT8=",
-    "originContent": "makepkg -si",
-    "translatedContent": "makepkg -si"
-  },
-  {
-    "row": 61,
-    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-    "originContent": "```",
-    "translatedContent": "```"
-  },
-  {
-    "row": 62,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 63,
-    "rowsha": "K9YscAQbIl3IW+q1FqYtWuEYkZKNt/MLTUaZEr/O3gY=",
-    "originContent": "### Pre-built Binaries",
-    "translatedContent": "### Binary yang Sudah Dibangun"
-  },
-  {
-    "row": 64,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 65,
-    "rowsha": "tpOUOxcPw6WxOUcqzbB3U87UG3EW/qwtmg01YvV0W+I=",
-    "originContent": "Download the appropriate binary for your platform from the [latest release](https://github.com/virviil/oci2git/releases/latest):",
-    "translatedContent": "Unduh binary yang sesuai untuk platform Anda dari [rilis terbaru](https://github.com/virviil/oci2git/releases/latest):"
-  },
-  {
-    "row": 66,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 67,
     "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
     "originContent": "```bash",
     "translatedContent": "```bash"
   },
   {
-    "row": 68,
-    "rowsha": "VYlR/+cwIsYjpX2QCP2SLaSS2AMpxrlX7MHpLcWYUmY=",
-    "originContent": "# Linux x86_64",
-    "translatedContent": "# Linux x86_64"
+    "row": 58,
+    "rowsha": "wXqjXyCa8qKwuZ8LldRbLK5lecM/25USyRtES+Cb4EQ=",
+    "originContent": "oci2git fsbom [OPTIONS] <IMAGE>",
+    "translatedContent": "oci2git fsbom [OPTIONS] <IMAGE>"
   },
   {
-    "row": 69,
-    "rowsha": "zmRVgqZs6QlbWw4MND3/U/mf4wAC0k7HF1GQHDRg3MA=",
-    "originContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-linux-x86_64.tar.gz",
-    "translatedContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-linux-x86_64.tar.gz"
-  },
-  {
-    "row": 70,
-    "rowsha": "CrmBqaLKLq4SoKEvcOlFBdRXZG0dDp+Ygs5AbqrYamU=",
-    "originContent": "tar xzf oci2git-linux-x86_64.tar.gz",
-    "translatedContent": "tar xzf oci2git-linux-x86_64.tar.gz"
-  },
-  {
-    "row": 71,
-    "rowsha": "D9+FURiaz77wqmLNJYFvgleCDLfHcZxPSitQz2T7ApE=",
-    "originContent": "sudo mv oci2git-linux-x86_64 /usr/local/bin/oci2git",
-    "translatedContent": "sudo mv oci2git-linux-x86_64 /usr/local/bin/oci2git"
-  },
-  {
-    "row": 72,
-    "rowsha": "wC6ZMcMdGKyLh9C5rEAbKzuzHggXTVmXG5NVNyVXZaY=",
-    "originContent": "chmod +x /usr/local/bin/oci2git",
-    "translatedContent": "chmod +x /usr/local/bin/oci2git"
-  },
-  {
-    "row": 73,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 74,
-    "rowsha": "AzlLD2pWk3POM1HrZ3E5ATnTlrLzkJYG7TSxLtTOKDw=",
-    "originContent": "# macOS (Apple Silicon)",
-    "translatedContent": "# macOS (Apple Silicon)"
-  },
-  {
-    "row": 75,
-    "rowsha": "viX2LO7w9doh80dXKwTSg1b/SyJoGuFM9Np3IEv1xc4=",
-    "originContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-darwin-aarch64.tar.gz",
-    "translatedContent": "wget https://github.com/virviil/oci2git/releases/latest/download/oci2git-darwin-aarch64.tar.gz"
-  },
-  {
-    "row": 76,
-    "rowsha": "xkrjZeBGTz19g6qQ0Of0AidDB9K5orKOUzeGAFDkqFc=",
-    "originContent": "tar xzf oci2git-darwin-aarch64.tar.gz",
-    "translatedContent": "tar xzf oci2git-darwin-aarch64.tar.gz"
-  },
-  {
-    "row": 77,
-    "rowsha": "pLCvsg08x6x8gbirN5jbaPb8zpdUR81ZVKtrH+n6vWk=",
-    "originContent": "sudo mv oci2git-darwin-aarch64 /usr/local/bin/oci2git",
-    "translatedContent": "sudo mv oci2git-darwin-aarch64 /usr/local/bin/oci2git"
-  },
-  {
-    "row": 78,
-    "rowsha": "wC6ZMcMdGKyLh9C5rEAbKzuzHggXTVmXG5NVNyVXZaY=",
-    "originContent": "chmod +x /usr/local/bin/oci2git",
-    "translatedContent": "chmod +x /usr/local/bin/oci2git"
-  },
-  {
-    "row": 79,
+    "row": 59,
     "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
     "originContent": "```",
     "translatedContent": "```"
   },
   {
-    "row": 80,
+    "row": 60,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 61,
+    "rowsha": "NnQx/WZLtobZ/9ITM5sTgv2OFQnCH83If6v2i9FvEzM=",
+    "originContent": "Options:",
+    "translatedContent": "Opsi:"
+  },
+  {
+    "row": 62,
+    "rowsha": "oXOzIEeqQu2Z1qo8EmMUlwUyZ2lmThq9TBOMcKki5Ms=",
+    "originContent": "  `-o, --output <OUTPUT>`  Output path for the YAML BOM file [default: ./fsbom.yml]",
+    "translatedContent": "  `-o, --output <OUTPUT>`  Jalur output untuk file YAML BOM [default: ./fsbom.yml]"
+  },
+  {
+    "row": 63,
+    "rowsha": "a9fQWVyCS1P9nAlLPlXbfd+NJtje69DmQ3azfee4ix4=",
+    "originContent": "  `-e, --engine <ENGINE>`  Container engine to use (docker, nerdctl, tar) [default: docker]",
+    "translatedContent": "  `-e, --engine <ENGINE>`  Mesin kontainer yang digunakan (docker, nerdctl, tar) [default: docker]"
+  },
+  {
+    "row": 64,
+    "rowsha": "kMUCHHjPTBbjBLnPf4mREhrzFBTARfdbpmnNG3u3Ri8=",
+    "originContent": "  `-v, --verbose`          Verbose mode (-v for info, -vv for debug, -vvv for trace)",
+    "translatedContent": "  `-v, --verbose`          Mode verbose (-v untuk info, -vv untuk debug, -vvv untuk trace)"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "YGL4UqTuaFB0ZGIuBIgF08qREavcDoYEpCh+1s8q9Hw=",
+    "originContent": "Environment Variables:",
+    "translatedContent": "Variabel Lingkungan:"
+  },
+  {
+    "row": 67,
+    "rowsha": "L/o5NQhvt3s5wMDzH0UBcCbYTr+YSY+3NRMsKy0uOts=",
+    "originContent": "  `TMPDIR`  Set this environment variable to change the default location used for intermediate data processing. This is platform-dependent (e.g., `TMPDIR` on Unix/macOS, `TEMP` or `TMP` on Windows).",
+    "translatedContent": "  `TMPDIR`  Atur variabel lingkungan ini untuk mengubah lokasi default yang digunakan untuk pemrosesan data sementara. Ini tergantung pada platform (misal, `TMPDIR` di Unix/macOS, `TEMP` atau `TMP` di Windows)."
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+    "originContent": "## Examples",
+    "translatedContent": "## Contoh"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "Pao+oh1LBV8FeCl/RjLTZn3FTWny5/KMF9gq41tSQPE=",
+    "originContent": "### Convert",
+    "translatedContent": "### Konversi"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "tOe+OVX+wmFfmqDbxSgitmk7kWcEwwrN773KBCziJHI=",
+    "originContent": "Using Docker engine (default):",
+    "translatedContent": "Menggunakan mesin Docker (default):"
+  },
+  {
+    "row": 74,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 75,
+    "rowsha": "MdfWtTN3oDkVupUIgqWp4zCy9xQk2T0cniMfQzFsb2Y=",
+    "originContent": "oci2git ubuntu:latest",
+    "translatedContent": "oci2git ubuntu:latest"
+  },
+  {
+    "row": 76,
+    "rowsha": "7IyA2dLzabOfwJt1hho/fU8513rZRxzQkOtx4uwERWU=",
+    "originContent": "# or explicitly:",
+    "translatedContent": "# or explicitly:"
+  },
+  {
+    "row": 77,
+    "rowsha": "JPasMx+1ZPtvbJIukocHf99CRB1SSbPpyS8UGQlhuDg=",
+    "originContent": "oci2git convert ubuntu:latest -o ./ubuntu-repo",
+    "translatedContent": "oci2git convert ubuntu:latest -o ./ubuntu-repo"
+  },
+  {
+    "row": 78,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 79,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 80,
+    "rowsha": "SJYIC3ko6tttwILKcG759fyc0I83OEVrxF62scTM0Uw=",
+    "originContent": "oci2git convert -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar",
+    "translatedContent": "oci2git convert -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar"
+  },
+  {
     "row": 81,
-    "rowsha": "smCviOjFIAlOvuDZi5hcf9TF4fvruU1pMREpfc9h7z4=",
-    "originContent": "### From Source",
-    "translatedContent": "### Dari Sumber"
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
   },
   {
     "row": 82,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 83,
+    "rowsha": "swtiJp2yNOZ6Ht2Rb0LC9bkkw94oTuAnkm9LK8A2Blo=",
+    "originContent": "# Create a tarball from a local Docker image",
+    "translatedContent": "# Create a tarball from a local Docker image"
+  },
+  {
+    "row": 84,
+    "rowsha": "0dJQePuNnqBLk40Y93ZgPm8P3Swzsjd/UCAkmwLsRmw=",
+    "originContent": "docker save -o ubuntu-latest.tar ubuntu:latest",
+    "translatedContent": "docker save -o ubuntu-latest.tar ubuntu:latest"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "ezIq3aqK4rOW/G624kkj8OmBApTf0SM6DdJ3trUC8Sk=",
+    "originContent": "# Convert the tarball to a Git repository",
+    "translatedContent": "# Convert the tarball to a Git repository"
+  },
+  {
+    "row": 87,
+    "rowsha": "ulIbNN790PIwc5RBGi7L3BXPLBrmoV7KqgYgS2BJjbE=",
+    "originContent": "oci2git convert -e tar -o ./ubuntu-repo ubuntu-latest.tar",
+    "translatedContent": "oci2git convert -e tar -o ./ubuntu-repo ubuntu-latest.tar"
+  },
+  {
+    "row": 88,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "OOWYf6W46cviTyPAAxNpPJfVj3Fz3L4yTa0jzxfElPw=",
+    "originContent": "This will create a Git repository in `./ubuntu-repo` containing:",
+    "translatedContent": "Ini akan membuat repository Git di `./ubuntu-repo` yang berisi:"
+  },
+  {
+    "row": 91,
+    "rowsha": "r5qWFXFkojxcgiNwLnGMlSadWVnCbfub6qM8e9q/8Nw=",
+    "originContent": "- `Image.md` - Complete metadata about the image in Markdown format",
+    "translatedContent": "- `Image.md` - Metadata lengkap tentang image dalam format Markdown"
+  },
+  {
+    "row": 92,
+    "rowsha": "maGh1e8JV7Pxg6B5BF5ccKdr3748ZRk9+1VXfyfkCCk=",
+    "originContent": "- `rootfs/` - The filesystem content from the container",
+    "translatedContent": "- `rootfs/` - Isi filesystem dari container"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "wCWXhTKQ6DvpyP8SADyuKHM/QiDACq4ZQnoi9qcq+n8=",
+    "originContent": "The Git history reflects the container's layer history:",
+    "translatedContent": "Riwayat Git mencerminkan riwayat layer container:"
+  },
+  {
+    "row": 95,
+    "rowsha": "mKSS8K3EnUBF75usNbBpi8f03aCRxjCDSod1fw5UlPo=",
+    "originContent": "- The first commit contains only the `Image.md` file with full metadata",
+    "translatedContent": "- Commit pertama hanya berisi file `Image.md` dengan metadata lengkap"
+  },
+  {
+    "row": 96,
+    "rowsha": "DumNUFJcRb5coqibkEQ+d640i1Rp+R8PheJDIxOPrIs=",
+    "originContent": "- Each subsequent commit represents a layer from the original image",
+    "translatedContent": "- Setiap commit berikutnya merepresentasikan satu layer dari image asli"
+  },
+  {
+    "row": 97,
+    "rowsha": "nAIJv9HcEeQMdJh37pgdGN/infZD9mMXC360e1LQkdY=",
+    "originContent": "- Commits include the Dockerfile command as the commit message",
+    "translatedContent": "- Commit mencantumkan perintah Dockerfile sebagai pesan commit"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "0CnWHmduxxdtr1gQjKYcEr0ArQnIBSn6wIug0l6Z4T8=",
+    "originContent": "### Filesystem Bill of Materials (fsbom)",
+    "translatedContent": "### Daftar Bahan Filesystem (fsbom)"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "lpRDsUM7vB0qJdxfZNT2VWx9EWC3vETrMf0BQI0+kuo=",
+    "originContent": "Generate a YAML listing of every file introduced or modified per layer:",
+    "translatedContent": "Hasilkan YAML yang mencantumkan setiap file yang ditambahkan atau diubah per layer:"
+  },
+  {
+    "row": 102,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 103,
+    "rowsha": "F6U4VTYQ37pVucEAA95nsHG+m4Q/3/2zIDzOgXqtVbM=",
+    "originContent": "oci2git fsbom ubuntu:latest -o ubuntu.yml",
+    "translatedContent": "oci2git fsbom ubuntu:latest -o ubuntu.yml"
+  },
+  {
+    "row": 104,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Menggunakan tarball:"
+  },
+  {
+    "row": 106,
+    "rowsha": "yf+ysJt5J5mABr+zvLKAO7pJNGoeu0zdoBwu7slxQTc=",
+    "originContent": "Using a tarball:",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 108,
+    "rowsha": "gyYGXtU7elUWGusPphNfl3TRVlUMRGsAFZ3CNALEQM4=",
+    "originContent": "oci2git fsbom -e tar image.tar -o image-bom.yml",
+    "translatedContent": "oci2git fsbom -e tar image.tar -o image-bom.yml"
+  },
+  {
+    "row": 109,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Output YAML mencantumkan setiap lapisan dengan entri-entrinya yang ditandai berdasarkan tipe (`file`, `hardlink`, `symlink`, `directory`) dan status (`n:uid:gid` untuk baru, `m:uid:gid` untuk dimodifikasi). Berkas yang dihapus (OCI whiteouts) tidak disertakan."
+  },
+  {
+    "row": 111,
+    "rowsha": "2mQsH/DDiP8OO78b0r7L1lkSQGCmGWV/SQa6xNutRf0=",
+    "originContent": "The output YAML lists every layer with its entries tagged by type (`file`, `hardlink`, `symlink`, `directory`) and status (`n:uid:gid` for new, `m:uid:gid` for modified). Deleted files (OCI whiteouts) are excluded.",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 114,
+    "rowsha": "sjEEG182ukFAXOFcyN10RRVUNMFbV+6oUjhrAV7pVxc=",
+    "originContent": "layers:",
+    "translatedContent": "layers:"
+  },
+  {
+    "row": 115,
+    "rowsha": "Vi1zJV8Gr0y1LEs/FZVqoHT/3Yho2+u0Rl8ljq96xzI=",
+    "originContent": "  - index: 0",
+    "translatedContent": "  - index: 0"
+  },
+  {
+    "row": 116,
+    "rowsha": "klemnDi3MWL1x3WOgWWw4Dw9E8ktDcCfH8ijR80vqaU=",
+    "originContent": "    command: \"ADD rootfs.tar.gz / # buildkit\"",
+    "translatedContent": "    command: \"ADD rootfs.tar.gz / # buildkit\""
+  },
+  {
+    "row": 117,
+    "rowsha": "tzAU53IMLvz7HXgmy2Ih5+29rWeWnU0Q+D9ophzsznk=",
+    "originContent": "    digest: \"sha256:45f3ea58...\"",
+    "translatedContent": "    digest: \"sha256:45f3ea58...\""
+  },
+  {
+    "row": 118,
+    "rowsha": "JJDDx+86Wexy8mwHvulhMRf+GqIfvZX2zBSvNqJcWJg=",
+    "originContent": "    entries:",
+    "translatedContent": "    entries:"
+  },
+  {
+    "row": 119,
+    "rowsha": "ZRBKkptGkTsozdQysLzRr6R1xObZ5o59CVWndfrZ1P0=",
+    "originContent": "      - type: file",
+    "translatedContent": "      - type: file"
+  },
+  {
+    "row": 120,
+    "rowsha": "z+aKYH7PhASTcAYGXWlflYT4avCRJm6ZTeSXnvysjyA=",
+    "originContent": "        path: \"bin/busybox\"",
+    "translatedContent": "        path: \"bin/busybox\""
+  },
+  {
+    "row": 121,
+    "rowsha": "2ntJJnWsKmD+dQxADzfqQszOSrUGndjUr9kywRJdQbo=",
+    "originContent": "        size: 919304",
+    "translatedContent": "        size: 919304"
+  },
+  {
+    "row": 122,
+    "rowsha": "Ivd1o/p648V0K53uoQmNPfy63uNijM3PrVFLNB1pqgo=",
+    "originContent": "        mode: 493",
+    "translatedContent": "        mode: 493"
+  },
+  {
+    "row": 123,
+    "rowsha": "69EaF9H3zEQu31zyYaGj/xN+mlRWcgZV+Iw56cHwYZI=",
+    "originContent": "        stat: \"n:0:0\"",
+    "translatedContent": "        stat: \"n:0:0\""
+  },
+  {
+    "row": 124,
+    "rowsha": "rK+13kTfvzLTGRTK62Rvsw3g/r6H11nTLbVuwW07ATU=",
+    "originContent": "      - type: hardlink",
+    "translatedContent": "      - type: hardlink"
+  },
+  {
+    "row": 125,
+    "rowsha": "NnG+Gea2pemBbEnciCzqs3noSX15EZUOqyhsTBTdI4I=",
+    "originContent": "        path: \"bin/sh\"",
+    "translatedContent": "        path: \"bin/sh\""
+  },
+  {
+    "row": 126,
+    "rowsha": "bEZvcHnZix98kX5VUV0zwy+b5CXTfCZwWZdKmngwOck=",
+    "originContent": "        target: \"bin/busybox\"",
+    "translatedContent": "        target: \"bin/busybox\""
+  },
+  {
+    "row": 127,
+    "rowsha": "69EaF9H3zEQu31zyYaGj/xN+mlRWcgZV+Iw56cHwYZI=",
+    "originContent": "        stat: \"n:0:0\"",
+    "translatedContent": "        stat: \"n:0:0\""
+  },
+  {
+    "row": 128,
+    "rowsha": "CHXWX7I4PGpd9O61hgMOERcTAH347MaOCp27/YpIfGo=",
+    "originContent": "      - type: symlink",
+    "translatedContent": "      - type: symlink"
+  },
+  {
+    "row": 129,
+    "rowsha": "t53XBwyVajlHqZoLBSaE93cxuI5FA3RTiEttoudlIV0=",
+    "originContent": "        path: \"lib64\"",
+    "translatedContent": "        path: \"lib64\""
+  },
+  {
+    "row": 130,
+    "rowsha": "wYoT4Np8N0BWtI5Sl6m13H25+TbXpIcGGyBcYvsWHdg=",
+    "originContent": "        target: \"lib\"",
+    "translatedContent": "        target: \"lib\""
+  },
+  {
+    "row": 131,
+    "rowsha": "69EaF9H3zEQu31zyYaGj/xN+mlRWcgZV+Iw56cHwYZI=",
+    "originContent": "        stat: \"n:0:0\"",
+    "translatedContent": "        stat: \"n:0:0\""
+  },
+  {
+    "row": 132,
+    "rowsha": "jIMUY6mKK60ADyPn4OXCCDhlyKP3ncGysgUjGFW1oHc=",
+    "originContent": "  - index: 1",
+    "translatedContent": "  - index: 1"
+  },
+  {
+    "row": 133,
+    "rowsha": "TvjvoUhLdPJhKgOgNmM5PMhc0EkAwRceK0wikEAokAs=",
+    "originContent": "    command: \"RUN apk add --no-cache curl\"",
+    "translatedContent": "    command: \"RUN apk add --no-cache curl\""
+  },
+  {
+    "row": 134,
+    "rowsha": "2OuJ5nkeB4JMSqLK6KOmllvEmmeMgDrJqVzhJ8hWBsA=",
+    "originContent": "    digest: \"sha256:...\"",
+    "translatedContent": "    digest: \"sha256:...\""
+  },
+  {
+    "row": 135,
+    "rowsha": "JJDDx+86Wexy8mwHvulhMRf+GqIfvZX2zBSvNqJcWJg=",
+    "originContent": "    entries:",
+    "translatedContent": "    entries:"
+  },
+  {
+    "row": 136,
+    "rowsha": "ZRBKkptGkTsozdQysLzRr6R1xObZ5o59CVWndfrZ1P0=",
+    "originContent": "      - type: file",
+    "translatedContent": "      - type: file"
+  },
+  {
+    "row": 137,
+    "rowsha": "H4B8xAJCM2w2HLkLCDfnEJUT2Hqp7/VG5zHPQ2ipxM4=",
+    "originContent": "        path: \"usr/bin/curl\"",
+    "translatedContent": "        path: \"usr/bin/curl\""
+  },
+  {
+    "row": 138,
+    "rowsha": "C2BaSpJXpXbFq5lpKatVVrgB8G7WrU5ULqhPhs6oJp0=",
+    "originContent": "        size: 204800",
+    "translatedContent": "        size: 204800"
+  },
+  {
+    "row": 139,
+    "rowsha": "Ivd1o/p648V0K53uoQmNPfy63uNijM3PrVFLNB1pqgo=",
+    "originContent": "        mode: 493",
+    "translatedContent": "        mode: 493"
+  },
+  {
+    "row": 140,
+    "rowsha": "69EaF9H3zEQu31zyYaGj/xN+mlRWcgZV+Iw56cHwYZI=",
+    "originContent": "        stat: \"n:0:0\"",
+    "translatedContent": "        stat: \"n:0:0\""
+  },
+  {
+    "row": 141,
+    "rowsha": "ZRBKkptGkTsozdQysLzRr6R1xObZ5o59CVWndfrZ1P0=",
+    "originContent": "      - type: file",
+    "translatedContent": "      - type: file"
+  },
+  {
+    "row": 142,
+    "rowsha": "cavwTVZio9PjLzE4T7Xkwsr2ZEqckmnZs7CgzsDJRKU=",
+    "originContent": "        path: \"etc/apk/world\"",
+    "translatedContent": "        path: \"etc/apk/world\""
+  },
+  {
+    "row": 143,
+    "rowsha": "IAM8D2x+ypPe8F67UYKB1TJT1zaFjICJxg4vxnNSmOk=",
+    "originContent": "        size: 32",
+    "translatedContent": "        size: 32"
+  },
+  {
+    "row": 144,
+    "rowsha": "viVT9YenRjiCFclBvMyAEItPv0ZAmjO4UpGDZouk1gY=",
+    "originContent": "        mode: 420",
+    "translatedContent": "        mode: 420"
+  },
+  {
+    "row": 145,
+    "rowsha": "J0dfg1D0EOhTvwBzUrmN3r8kc8/Hj+n36AAt3/s0FFc=",
+    "originContent": "        stat: \"m:0:0\"",
+    "translatedContent": "        stat: \"m:0:0\""
+  },
+  {
+    "row": 146,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "4YmSzpzFxS1sIl9f+qnViulCsiQaK92OjsAy48LamXw=",
+    "originContent": "## Repository Structure",
+    "translatedContent": "## Struktur Repository"
+  },
+  {
+    "row": 149,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""

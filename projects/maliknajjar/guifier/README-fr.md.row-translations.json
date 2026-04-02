@@ -1,0 +1,482 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Zvd2ee1W37iV9Qndlin9WRMtCZLb8VJZZzUlCTx9z+4=",
+    "originContent": "> ⚠️ **Warning:** This README is slightly outdated. The tutorial sections may not match Guifier V2. Updated docs are coming soon.",
+    "translatedContent": "> ⚠️ **Avertissement :** Ce README est légèrement obsolète. Les sections du tutoriel peuvent ne pas correspondre à Guifier V2. Des documents mis à jour arrivent bientôt."
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "efiTPgZKewdjcWiQC1zFpfZkdDAPJe8PkrM7vqbYtqI=",
+    "originContent": "# Guifier",
+    "translatedContent": "# Guifier"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "wFHYgl0kTjqNGXkkxbZi92EfvryBV6YiNK2WM8ofir8=",
+    "originContent": "An interactive front-end toolkit simplifying JSON, YAML, TOML, and XML data. Visualize, edit, and perform real-time data manipulations. Empower your data-driven apps with user-friendly data processing and interactive visualization.",
+    "translatedContent": "Une boîte à outils frontale interactive simplifiant les données JSON, YAML, TOML et XML. Visualisez, modifiez et effectuez des manipulations de données en temps réel. Donnez du pouvoir à vos applications basées sur les données grâce à un traitement convivial des données et une visualisation interactive."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "eetlngBf9IRRYZknBdo+Zo5q71Wk5hbFmnHDAzfrtps=",
+    "originContent": "## Getting started",
+    "translatedContent": "## Pour commencer"
+  },
+  {
+    "row": 8,
+    "rowsha": "ZqxJMDqpDEL6SawSmJptvUmeXqVuqqZ45oqu0LA1AMQ=",
+    "originContent": "### Installing",
+    "translatedContent": "### Installation"
+  },
+  {
+    "row": 9,
+    "rowsha": "uaJaIzrxtvKTChkfYk9flxUY7MHujKyhY6mh3G6EWqk=",
+    "originContent": "By executing this command on your npm project, you can effortlessly install guifier.",
+    "translatedContent": "En exécutant cette commande dans votre projet npm, vous pouvez installer guifier sans effort."
+  },
+  {
+    "row": 10,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 11,
+    "rowsha": "Z5v6jdVddXo0EBiGMseR209FUT/qGhThCh6xrfufDvU=",
+    "originContent": "npm install guifier",
+    "translatedContent": "npm install guifier"
+  },
+  {
+    "row": 12,
+    "rowsha": "6l+f1PdAzkOkp8zjbFbdg+1TVGfcHDKpp/EmFpFzj+4=",
+    "originContent": "``` ",
+    "translatedContent": "``` "
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "EI3Mo7MLsGCmBN34zCPo/fovFSsL2o9fG3wMkVQNCnw=",
+    "originContent": "### Importing",
+    "translatedContent": "### Importation"
+  },
+  {
+    "row": 15,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 16,
+    "rowsha": "pgVeC79VBo+iseiBQyBcqQ/Zlb1FbZ2wtVvfPEj2Udg=",
+    "originContent": "import Guifier from 'guifier'",
+    "translatedContent": "import Guifier from 'guifier'"
+  },
+  {
+    "row": 17,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 18,
+    "rowsha": "NzIwhP3jhrlxPh/v/CBDCx/tPSPCcefbV9qHO9TBrvU=",
+    "originContent": "Or import it as a cdn by adding this script tag to your html page",
+    "translatedContent": "Ou importez-le en tant que CDN en ajoutant cette balise script à votre page HTML"
+  },
+  {
+    "row": 19,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 20,
+    "rowsha": "mJn9uDugp5LKEkrrRqwtzuZefE9V4WWVPFO5jq0uxSs=",
+    "originContent": "<script src=\"https://cdn.jsdelivr.net/npm/guifier/dist/Guifier.js\"></script>",
+    "translatedContent": "<script src=\"https://cdn.jsdelivr.net/npm/guifier/dist/Guifier.js\"></script>"
+  },
+  {
+    "row": 21,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Vous pouvez spécifier une version comme ceci"
+  },
+  {
+    "row": 23,
+    "rowsha": "r4S1YFe+QceYMz7nNt2DgNgkY1UfqUD/HxELXKWNxcY=",
+    "originContent": "You can specify a version like this",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 25,
+    "rowsha": "PKrAv42fNSW2RY9S95KwQIYU6SWWiW+T8ca2Ml0siKw=",
+    "originContent": "<script src=\"https://cdn.jsdelivr.net/npm/guifier@1.0.8/dist/Guifier.js\"></script>",
+    "translatedContent": "<script src=\"https://cdn.jsdelivr.net/npm/guifier@1.0.8/dist/Guifier.js\"></script>"
+  },
+  {
+    "row": 26,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "OjeZAFQSpi9e2WNfIgJ3N5eWtL8FKhptOz1SK2xysNQ=",
+    "originContent": "### Hello world example",
+    "translatedContent": "### Exemple Bonjour le monde"
+  },
+  {
+    "row": 29,
+    "rowsha": "e80L7a48C4Kr9PLFGFITdX9FsjnzsEJZfgdQvXj34Gw=",
+    "originContent": "Below, you'll find an example demonstrating how to generate an HTML representation based on the data you provided to the Guifier class.",
+    "translatedContent": "Ci-dessous, vous trouverez un exemple démontrant comment générer une représentation HTML basée sur les données que vous avez fournies à la classe Guifier."
+  },
+  {
+    "row": 30,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 31,
+    "rowsha": "8w9JrxY8SptpjthxI68sLZP66/0YxmP8aNxwqVXeB+A=",
+    "originContent": "const jsonString = '{",
+    "translatedContent": "const jsonString = '{"
+  },
+  {
+    "row": 32,
+    "rowsha": "if57rbqR6y0C/++3vJPZypQdEgbfxh+B5aSH1VGz+HA=",
+    "originContent": "  \"name\": \"Alice\",",
+    "translatedContent": "  \"name\": \"Alice\","
+  },
+  {
+    "row": 33,
+    "rowsha": "XGGNkNQLmMDdaxzhTt3RI75W0jreSU3NyNIRbBC3ORA=",
+    "originContent": "  \"age\": 25,",
+    "translatedContent": "  \"age\": 25,"
+  },
+  {
+    "row": 34,
+    "rowsha": "kYVQEr7Z857+UU3NM7qEX0duWpcpY6m+8RmQ3dJtlP8=",
+    "originContent": "  \"isStudent\": true,",
+    "translatedContent": "  \"isStudent\": true,"
+  },
+  {
+    "row": 35,
+    "rowsha": "t+97h55V+bCbFjQcCD/kMbcUTC5npfu7dPXn75CtA8M=",
+    "originContent": "  \"hobbies\": [\"reading\", \"painting\"],",
+    "translatedContent": "  \"hobbies\": [\"reading\", \"painting\"],"
+  },
+  {
+    "row": 36,
+    "rowsha": "gPYPnduE6AL4sUT9VBCjjXihYpxLyuBfb1j8mUhGxCQ=",
+    "originContent": "  \"address\": {",
+    "translatedContent": "  \"address\": {"
+  },
+  {
+    "row": 37,
+    "rowsha": "S9AyYFitva2qz1aymvLbMQEGqTVjzD3Tub9BJKZkoac=",
+    "originContent": "    \"city\": \"London\",",
+    "translatedContent": "    \"city\": \"London\","
+  },
+  {
+    "row": 38,
+    "rowsha": "8Ex8ExznzsRshCbONAKhLGKO3yecmT3Ph4tcuAw87jo=",
+    "originContent": "    \"zipcode\": \"SW1A 1AA\",",
+    "translatedContent": "    \"zipcode\": \"SW1A 1AA\","
+  },
+  {
+    "row": 39,
+    "rowsha": "aq7xQndFY9zylsfWILfJ5EgNTWE/LrVUMf4PMcyk7wM=",
+    "originContent": "    \"country\": \"United Kingdom\"",
+    "translatedContent": "    \"country\": \"United Kingdom\""
+  },
+  {
+    "row": 40,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 41,
+    "rowsha": "/AdanXNzkVmSsDb2LldV8uPi9OVaksD/sKnvvWPLWZY=",
+    "originContent": "}'",
+    "translatedContent": "}'"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "T21HFj+dCzo6/1b+ARpYMc+rQd8/+45ZdlOe5E8kToc=",
+    "originContent": "const params = {",
+    "translatedContent": "const params = {"
+  },
+  {
+    "row": 44,
+    "rowsha": "MtwIMmhtXCmksTNqhG8/NIrl+2lRLcTBcKGg0dUdyyA=",
+    "originContent": "    // To select a container element, you can use a selector",
+    "translatedContent": "    // To select a container element, you can use a selector"
+  },
+  {
+    "row": 45,
+    "rowsha": "1sto9P42pIwBYWjN5CfRkSZbNlTbeW4Um7afD7muT1k=",
+    "originContent": "    // such as a hashtag followed by the element's id (similar to CSS selectors).",
+    "translatedContent": "    // such as a hashtag followed by the element's id (similar to CSS selectors)."
+  },
+  {
+    "row": 46,
+    "rowsha": "12vgs28Dqv2HyTRKc0gr0X4Yd+HDau5q/pkLWAxZFYM=",
+    "originContent": "    elementSelector: '#app',",
+    "translatedContent": "    elementSelector: '#app',"
+  },
+  {
+    "row": 47,
+    "rowsha": "GZ+1Bq3muk1XJIO7/ryG/wI7lPoZf+9X25kNznN+LxA=",
+    "originContent": "    // Here, you need to specify the JSON string.",
+    "translatedContent": "    // Here, you need to specify the JSON string."
+  },
+  {
+    "row": 48,
+    "rowsha": "AwcQGLrZyEdk4ekogyOGST8YHMhAhFjbTZO6ULbxT14=",
+    "originContent": "    data: jsonString,",
+    "translatedContent": "    data: jsonString,"
+  },
+  {
+    "row": 49,
+    "rowsha": "dMBjjvEMFQW6ZAhxLo7T9ojfXvPqW1Qs7WkrTQc8Wek=",
+    "originContent": "    // You should specify the data type (in this case, JSON)",
+    "translatedContent": "    // You should specify the data type (in this case, JSON)"
+  },
+  {
+    "row": 50,
+    "rowsha": "b7jCiG4A1IcxQTkob1/F5Wd4B2XN1tt+m8nELRuGFxU=",
+    "originContent": "    // as Guifier supports five data formats: 'json', 'yaml', 'xml', 'toml' and 'js' (javascipt object).",
+    "translatedContent": "    // as Guifier supports five data formats: 'json', 'yaml', 'xml', 'toml' and 'js' (javascipt object)."
+  },
+  {
+    "row": 51,
+    "rowsha": "HycpploKRuER1zrvZIkt5yNDwr4JM4W0EB2yBUe+wEA=",
+    "originContent": "    dataType: 'json'",
+    "translatedContent": "    dataType: 'json'"
+  },
+  {
+    "row": 52,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "avcHzUd3KUh42RLwa5riyeORPVL4SAYdesXIdQft7PY=",
+    "originContent": "const guifier = new Guifier(params)",
+    "translatedContent": "const guifier = new Guifier(params)"
+  },
+  {
+    "row": 55,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "Wx626AM837IMdOrLZffoYTNzEPVCE0D57r9t1uOlTzM=",
+    "originContent": "That's it! When you execute this code, it will parse your data, generate an HTML GUI, and paste it into the element you selected using the elementSelector property of the params.",
+    "translatedContent": "That's it! When you execute this code, it will parse your data, generate an HTML GUI, and paste it into the element you selected using the elementSelector property of the params."
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "XBfyD76/y8nmR15DuF2GpyqgnBlKbYMfyeqGBmvDpOw=",
+    "originContent": "![Example Image](https://guifier.com/images/image_1.png)",
+    "translatedContent": "![Example Image](https://guifier.com/images/image_1.png)"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "M85pPcJ6kffLDRrqhFgLl56acnLTsrnbbXiXqEGl6OA=",
+    "originContent": "This GUI will allow you to visualize and edit your JSON data easily. Once you've made the necessary modifications, you can obtain the edited version of your JSON data simply by executing this Guifier method.",
+    "translatedContent": "This GUI will allow you to visualize and edit your JSON data easily. Once you've made the necessary modifications, you can obtain the edited version of your JSON data simply by executing this Guifier method."
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 64,
+    "rowsha": "IeKWlkm4ZJhuHKaBjIWzzZ21+WWJ9huB1l3RaaPtGMM=",
+    "originContent": "// The first parameter is used to indicate the data format in which you wish to receive your data.",
+    "translatedContent": "// The first parameter is used to indicate the data format in which you wish to receive your data."
+  },
+  {
+    "row": 65,
+    "rowsha": "dIoQDpv29ZdSiLQso7vEmruB2vwT+EwUjGv75JI670Q=",
+    "originContent": "const editedData = guifier.getData('json')",
+    "translatedContent": "const editedData = guifier.getData('json')"
+  },
+  {
+    "row": 66,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "zFtYjYX/VJGMIuoJrHVPdquNW2zkucYwyQHJs7WvvZU=",
+    "originContent": "We offer support for exporting data in five formats: 'json', 'yaml', 'xml', 'toml' and 'js'. Therefore, you can import your data as JSON, make the necessary edits, and then export it in the desired format, such as TOML, YAML, XML or native javascript object.",
+    "translatedContent": "Nous offrons un support pour l'exportation des données dans cinq formats : 'json', 'yaml', 'xml', 'toml' et 'js'. Par conséquent, vous pouvez importer vos données au format JSON, effectuer les modifications nécessaires, puis les exporter dans le format souhaité, tel que TOML, YAML, XML ou objet javascript natif."
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "J5MmdhQvviCuilCzwJm4+C2UjuB640KDh8ShmMzaFGs=",
+    "originContent": "If you wish to modify the data displayed in the GUI representation, you can execute the method.",
+    "translatedContent": "Si vous souhaitez modifier les données affichées dans la représentation GUI, vous pouvez exécuter la méthode."
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 73,
+    "rowsha": "wltJYl110eaBcOGXT4mh9aVRNST10OvpRDSRmuYhEK8=",
+    "originContent": "// The first parameter is used to indicate the data format in which you wish to set your data.",
+    "translatedContent": "// The first parameter is used to indicate the data format in which you wish to set your data."
+  },
+  {
+    "row": 74,
+    "rowsha": "6gVqFEObclNlaqNibK5g52/wJdmlOQZWYswA2LnLKhM=",
+    "originContent": "guifier.setData('[1,2,3]', 'json')",
+    "translatedContent": "guifier.setData('[1,2,3]', 'json')"
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "1ortCjjugCDw4VSJ0d+fI3iQMW/a+Zh0HL/E50D1Ifs=",
+    "originContent": "After executing this method, your GUI representation element will be updated to accommodate your new data.",
+    "translatedContent": "After executing this method, your GUI representation element will be updated to accommodate your new data."
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "PHpxEjZkPEH4niHRFJ/KkT0Q1K1hk1yWtfgJg2ZHszU=",
+    "originContent": "![Example Image](https://guifier.com/images/image_2.png)",
+    "translatedContent": "![Example Image](https://guifier.com/images/image_2.png)"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

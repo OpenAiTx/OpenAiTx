@@ -46,7 +46,7 @@
 <div align="left"> </div>  
 </div>
 
-Aplikasi Rust yang mengonversi image container (Docker, dll.) menjadi repository Git. Setiap layer container direpresentasikan sebagai commit Git, menjaga riwayat dan struktur dari image asli.
+Aplikasi Rust yang mengonversi image kontainer (Docker, dll.) ke repository Git, dan menghasilkan filesystem bill of materials (fsbom) dalam format YAML. Setiap layer kontainer direpresentasikan sebagai commit Git, menjaga riwayat dan struktur image asli.
 
 ![Demo OCI2Git mengonversi image nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
@@ -54,23 +54,24 @@ Aplikasi Rust yang mengonversi image container (Docker, dll.) menjadi repository
 
 - Menganalisis image Docker dan mengekstrak informasi layer
 - Membuat repository Git di mana setiap layer image direpresentasikan sebagai commit
+- Menghasilkan filesystem bill of materials (fsbom) dalam YAML dengan daftar file per layer
 - Dukungan untuk layer kosong (ENV, WORKDIR, dll.) sebagai commit kosong
-- Ekstraksi metadata secara lengkap ke format Markdown
-- Arsitektur yang dapat diperluas untuk mendukung berbagai engine container
+- Ekstraksi metadata lengkap ke format Markdown
+- Arsitektur yang dapat diperluas untuk mendukung berbagai engine kontainer
 
 ## Kasus Penggunaan
 
 ### Perbandingan Layer
-Saat menelusuri masalah container, Anda dapat menggunakan kemampuan diffing Git yang kuat untuk mengidentifikasi perubahan tepat antara dua layer mana pun. Dengan menjalankan `git diff` antar commit, engineer dapat melihat secara persis file mana yang ditambahkan, diubah, atau dihapus, sehingga lebih mudah memahami dampak dari setiap instruksi Dockerfile dan menemukan perubahan bermasalah.
-![Contoh diff layer](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+Saat melakukan troubleshooting masalah kontainer, Anda dapat menggunakan kapabilitas diffing dari Git untuk mengidentifikasi perubahan antara dua layer. Dengan menjalankan `git diff` antar commit, engineer dapat melihat file mana yang ditambahkan, diubah, atau dihapus, sehingga lebih mudah memahami dampak setiap instruksi Dockerfile dan menemukan perubahan bermasalah.
+![Contoh perbandingan layer](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
 ### Pelacakan Asal
-Dengan menggunakan `git blame`, developer dapat dengan cepat menentukan layer mana yang memperkenalkan file atau baris kode tertentu. Ini sangat berguna saat mendiagnosis masalah pada file konfigurasi atau dependensi. Alih-alih memeriksa setiap layer secara manual, Anda dapat langsung menelusuri asal file mana pun kembali ke layer sumbernya dan instruksi Dockerfile yang sesuai.
+Dengan menggunakan `git blame`, developer dapat dengan cepat menentukan layer mana yang memasukkan file atau baris kode tertentu. Ini sangat berguna saat mendiagnosis masalah pada file konfigurasi atau dependensi. Alih-alih memeriksa setiap layer secara manual, Anda dapat langsung melacak asal suatu file ke layer sumber dan instruksi Dockerfile yang sesuai.
 
 ### Pelacakan Siklus Hidup File
-OCI2Git memungkinkan Anda mengikuti perjalanan file tertentu sepanjang riwayat image container. Anda dapat mengamati kapan sebuah file pertama kali dibuat, bagaimana file tersebut diubah di berbagai layer, dan jika/kapan akhirnya dihapus. Pandangan komprehensif ini membantu memahami evolusi file tanpa harus melacak perubahan secara manual di puluhan layer.
+OCI2Git memungkinkan Anda menelusuri perjalanan file tertentu sepanjang riwayat image kontainer. Anda dapat melihat kapan file pertama kali dibuat, bagaimana file itu diubah di tiap layer, dan jika/kapan akhirnya dihapus. Pandangan komprehensif ini membantu memahami evolusi file tanpa harus melacak perubahan secara manual di puluhan layer.
 
-Untuk melacak riwayat suatu file dalam image container Anda — termasuk kapan file itu pertama kali muncul, diubah, atau dihapus — Anda dapat menggunakan perintah Git berikut setelah konversi:
+Untuk melacak riwayat file dalam image kontainer Anda — termasuk kapan pertama kali muncul, diubah, atau dihapus — Anda dapat menggunakan perintah Git berikut setelah konversi:
 
 ```bash
 # Full history of a file (including renames)
@@ -208,32 +209,53 @@ cargo install --path .
 
 ## Penggunaan
 
-```bash
+```
 oci2git [OPTIONS] <IMAGE>
+oci2git convert [OPTIONS] <IMAGE>
+oci2git fsbom [OPTIONS] <IMAGE>
 ```
 
-Argumen:
-  `<IMAGE>`  Nama image yang akan dikonversi (misal, 'ubuntu:latest') atau path ke tarball saat menggunakan engine tar
+### `convert` — Gambar OCI → Repositori Git
+
+```bash
+oci2git convert [OPTIONS] <IMAGE>
+# or simply:
+oci2git <IMAGE>
+```
 
 Opsi:
-  `-o, --output <o>`  Direktori output untuk repositori Git [default: ./container_repo]
-  `-e, --engine <ENGINE>`  Engine container yang digunakan (docker, nerdctl, tar) [default: docker]
-  `-h, --help`            Cetak informasi bantuan
-  `-V, --version`         Cetak informasi versi
+  `-o, --output <OUTPUT>`  Direktori output untuk repositori Git [default: ./container_repo]
+  `-e, --engine <ENGINE>`  Engine kontainer yang digunakan (docker, nerdctl, tar) [default: docker]
+  `-v, --verbose`          Mode verbose (-v untuk info, -vv untuk debug, -vvv untuk trace)
+
+### `fsbom` — Daftar material filesystem
+
+```bash
+oci2git fsbom [OPTIONS] <IMAGE>
+```
+
+Opsi:
+  `-o, --output <OUTPUT>`  Jalur output untuk file YAML BOM [default: ./fsbom.yml]
+  `-e, --engine <ENGINE>`  Mesin kontainer yang digunakan (docker, nerdctl, tar) [default: docker]
+  `-v, --verbose`          Mode verbose (-v untuk info, -vv untuk debug, -vvv untuk trace)
 
 Variabel Lingkungan:
-  `TMPDIR`  Atur variabel lingkungan ini untuk mengubah lokasi default yang digunakan untuk pemrosesan data sementara. Ini bergantung pada platform (misal, `TMPDIR` di Unix/macOS, `TEMP` atau `TMP` di Windows).
+  `TMPDIR`  Atur variabel lingkungan ini untuk mengubah lokasi default yang digunakan untuk pemrosesan data sementara. Ini tergantung pada platform (misal, `TMPDIR` di Unix/macOS, `TEMP` atau `TMP` di Windows).
 
 ## Contoh
 
-Menggunakan engine Docker (default):
+### Konversi
+
+Menggunakan mesin Docker (default):
 ```bash
-oci2git -o ./ubuntu-repo ubuntu:latest
+oci2git ubuntu:latest
+# or explicitly:
+oci2git convert ubuntu:latest -o ./ubuntu-repo
 ```
 Menggunakan tarball citra yang sudah diunduh:
 
 ```bash
-oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
 ```
 
 Mesin tar mengharapkan tarball format OCI yang valid, yang biasanya dibuat dengan `docker save`:
@@ -242,19 +264,68 @@ Mesin tar mengharapkan tarball format OCI yang valid, yang biasanya dibuat denga
 docker save -o ubuntu-latest.tar ubuntu:latest
 
 # Convert the tarball to a Git repository
-oci2git -e tar -o ./ubuntu-repo ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo ubuntu-latest.tar
 ```
 
-Ini akan membuat repositori Git di `./ubuntu-repo` yang berisi:
+Ini akan membuat repository Git di `./ubuntu-repo` yang berisi:
 - `Image.md` - Metadata lengkap tentang image dalam format Markdown
-- `rootfs/` - Konten filesystem dari container
+- `rootfs/` - Isi filesystem dari container
 
 Riwayat Git mencerminkan riwayat layer container:
 - Commit pertama hanya berisi file `Image.md` dengan metadata lengkap
-- Setiap commit berikutnya mewakili satu layer dari image asli
+- Setiap commit berikutnya merepresentasikan satu layer dari image asli
 - Commit mencantumkan perintah Dockerfile sebagai pesan commit
 
-## Struktur Repositori
+### Daftar Bahan Filesystem (fsbom)
+
+Hasilkan YAML yang mencantumkan setiap file yang ditambahkan atau diubah per layer:
+```bash
+oci2git fsbom ubuntu:latest -o ubuntu.yml
+```
+Menggunakan tarball:
+
+```bash
+oci2git fsbom -e tar image.tar -o image-bom.yml
+```
+Output YAML mencantumkan setiap lapisan dengan entri-entrinya yang ditandai berdasarkan tipe (`file`, `hardlink`, `symlink`, `directory`) dan status (`n:uid:gid` untuk baru, `m:uid:gid` untuk dimodifikasi). Berkas yang dihapus (OCI whiteouts) tidak disertakan.
+
+
+```yaml
+layers:
+  - index: 0
+    command: "ADD rootfs.tar.gz / # buildkit"
+    digest: "sha256:45f3ea58..."
+    entries:
+      - type: file
+        path: "bin/busybox"
+        size: 919304
+        mode: 493
+        stat: "n:0:0"
+      - type: hardlink
+        path: "bin/sh"
+        target: "bin/busybox"
+        stat: "n:0:0"
+      - type: symlink
+        path: "lib64"
+        target: "lib"
+        stat: "n:0:0"
+  - index: 1
+    command: "RUN apk add --no-cache curl"
+    digest: "sha256:..."
+    entries:
+      - type: file
+        path: "usr/bin/curl"
+        size: 204800
+        mode: 493
+        stat: "n:0:0"
+      - type: file
+        path: "etc/apk/world"
+        size: 32
+        mode: 420
+        stat: "m:0:0"
+```
+
+## Struktur Repository
 
 ```
 repository/
@@ -279,6 +350,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-02
 
 ---

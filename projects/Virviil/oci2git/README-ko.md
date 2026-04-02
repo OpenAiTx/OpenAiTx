@@ -38,39 +38,40 @@
 [![문서](https://docs.rs/oci2git/badge.svg)][documentation]
 [![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
 [![라이선스](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
-[![다운로드](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
+[![Downloads](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
-[//]: # (향후 test.yaml을 위한 목업)
-[//]: # ([![테스트 상태]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
+[//]: # (mock for future test.yaml)
+[//]: # ([![Test Status]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
 
 <div align="left"> </div>  
 </div>
 
-컨테이너 이미지(Docker 등)를 Git 저장소로 변환하는 Rust 애플리케이션입니다. 각 컨테이너 레이어는 Git 커밋으로 표현되어 원본 이미지의 히스토리와 구조를 보존합니다.
+Rust로 작성된 이 애플리케이션은 컨테이너 이미지(Docker 등)를 Git 저장소로 변환하고, YAML 형식의 파일 시스템 명세서(fsbom)를 생성합니다. 각 컨테이너 레이어는 Git 커밋으로 표현되어, 원본 이미지의 히스토리와 구조를 보존합니다.
 
 ![OCI2Git가 nginx 이미지를 변환하는 데모](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
-## 특징
+## 주요 기능
 
 - Docker 이미지를 분석하고 레이어 정보를 추출
-- 각 이미지 레이어를 커밋으로 표현하는 Git 저장소 생성
-- 빈 레이어(ENV, WORKDIR 등)를 빈 커밋으로 지원
-- 메타데이터를 완전히 추출하여 Markdown 형식으로 변환
-- 다양한 컨테이너 엔진 지원을 위한 확장 가능한 아키텍처
+- 각 이미지 레이어를 커밋으로 표현한 Git 저장소 생성
+- 레이어별 파일 목록이 포함된 YAML 파일 시스템 명세서(fsbom) 생성
+- 빈 레이어(ENV, WORKDIR 등)는 빈 커밋으로 지원
+- Markdown 형식의 완전한 메타데이터 추출
+- 다양한 컨테이너 엔진을 지원하기 위한 확장 가능한 아키텍처
 
-## 사용 사례
+## 활용 사례
 
-### 레이어 디프(Layer Diffing)
-컨테이너 문제를 해결할 때, Git의 강력한 diff 기능을 사용하여 두 레이어 사이에 정확히 어떤 변화가 있었는지 식별할 수 있습니다. 커밋 간에 `git diff`를 실행하면 엔지니어는 어떤 파일이 추가, 수정, 삭제되었는지 정확히 볼 수 있어 각 Dockerfile 명령의 영향과 문제의 원인을 쉽게 파악할 수 있습니다.
-![레이어 디프 예시](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### 레이어 비교
+컨테이너 문제를 해결할 때, Git의 강력한 diff 기능을 사용해 두 레이어 간에 무엇이 변경되었는지 정확히 식별할 수 있습니다. 커밋 간 `git diff`를 실행하면, 엔지니어는 어떤 파일이 추가, 수정, 삭제되었는지 정확하게 볼 수 있어 각 Dockerfile 명령의 영향을 쉽게 이해하고 문제를 찾을 수 있습니다.
+![레이어 차이 예시](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
-### 변경 출처 추적(Origin Tracking)
-`git blame`을 사용하면 개발자는 특정 파일이나 코드 라인이 어떤 레이어에서 도입되었는지 빠르게 확인할 수 있습니다. 이는 설정 파일이나 의존성 문제를 진단할 때 특히 유용합니다. 각 레이어를 수동으로 확인할 필요 없이 모든 파일의 출처를 즉시 해당 레이어와 Dockerfile 명령으로 추적할 수 있습니다.
+### 변경 원인 추적
+`git blame`을 사용하면 개발자는 특정 파일이나 코드 라인이 어떤 레이어에서 도입되었는지 신속하게 확인할 수 있습니다. 이는 설정 파일이나 의존성 문제를 진단할 때 특히 유용합니다. 각 레이어를 수동으로 확인하지 않고도 모든 파일의 출처 레이어와 해당 Dockerfile 명령을 바로 추적할 수 있습니다.
 
-### 파일 생애주기 추적(File Lifecycle Tracking)
-OCI2Git을 사용하면 컨테이너 이미지의 히스토리에서 특정 파일이 어떻게 변화하는지 전체 과정을 추적할 수 있습니다. 파일이 처음 생성된 시점, 각 레이어에서 어떻게 수정되었는지, 그리고 언제 삭제되었는지를 모두 관찰할 수 있어 수십 개의 레이어에서 수동으로 변경 내역을 추적하지 않아도 파일의 진화를 한눈에 파악할 수 있습니다.
+### 파일 생애주기 추적
+OCI2Git는 특정 파일이 컨테이너 이미지 내에서 어떻게 변화했는지 전체 과정을 따라갈 수 있게 해줍니다. 파일이 처음 생성된 시점, 레이어별로 어떻게 수정되었는지, 최종적으로 삭제되었는지 등을 관찰할 수 있어, 여러 레이어에 걸친 변경을 수동으로 추적하지 않아도 파일의 변천사를 쉽게 파악할 수 있습니다.
 
-컨테이너 이미지에서 파일의 히스토리를 추적하고(처음 등장, 변경, 삭제 시점 포함) 변환 이후에 다음 Git 명령어로 확인할 수 있습니다:
+컨테이너 이미지 내 파일의 생성, 변경, 삭제 시점을 추적하려면 변환 후 다음과 같은 Git 명령을 사용할 수 있습니다:
 
 ```bash
 # Full history of a file (including renames)
@@ -208,32 +209,53 @@ cargo install --path .
 
 ## 사용법
 
-```bash
-oci2git [OPTIONS] <IMAGE>
 ```
-Arguments:
-  `<IMAGE>`  변환할 이미지 이름 (예: 'ubuntu:latest') 또는 tar 엔진 사용 시 tarball 경로
+oci2git [OPTIONS] <IMAGE>
+oci2git convert [OPTIONS] <IMAGE>
+oci2git fsbom [OPTIONS] <IMAGE>
+```
 
-Options:
-  `-o, --output <o>`  Git 저장소의 출력 디렉토리 [기본값: ./container_repo]
-  `-e, --engine <ENGINE>`  사용할 컨테이너 엔진 (docker, nerdctl, tar) [기본값: docker]
-  `-h, --help`            도움말 정보 출력
-  `-V, --version`         버전 정보 출력
-
-Environment Variables:
-  `TMPDIR`  중간 데이터 처리를 위한 기본 위치를 변경하려면 이 환경 변수를 설정하세요. 플랫폼에 따라 다릅니다(예: Unix/macOS는 `TMPDIR`, Windows는 `TEMP` 또는 `TMP`).
-
-## Examples
-
-Using Docker engine (default):
+### `convert` — OCI 이미지 → Git 저장소
 
 ```bash
-oci2git -o ./ubuntu-repo ubuntu:latest
+oci2git convert [OPTIONS] <IMAGE>
+# or simply:
+oci2git <IMAGE>
+```
+옵션:
+  `-o, --output <OUTPUT>`  Git 저장소의 출력 디렉터리 [기본값: ./container_repo]
+  `-e, --engine <ENGINE>`  사용할 컨테이너 엔진 (docker, nerdctl, tar) [기본값: docker]
+  `-v, --verbose`          자세한 모드 (-v: 정보, -vv: 디버그, -vvv: 추적)
+
+### `fsbom` — 파일 시스템 자재 명세서
+
+
+```bash
+oci2git fsbom [OPTIONS] <IMAGE>
+```
+옵션:
+  `-o, --output <OUTPUT>`  YAML BOM 파일의 출력 경로 [기본값: ./fsbom.yml]
+  `-e, --engine <ENGINE>`  사용할 컨테이너 엔진 (docker, nerdctl, tar) [기본값: docker]
+  `-v, --verbose`          자세한 모드 (-v: 정보, -vv: 디버그, -vvv: 트레이스)
+
+환경 변수:
+  `TMPDIR`  이 환경 변수를 설정하여 중간 데이터 처리를 위한 기본 위치를 변경할 수 있습니다. 이는 플랫폼에 따라 다릅니다 (예: Unix/macOS에서는 `TMPDIR`, Windows에서는 `TEMP` 또는 `TMP`).
+
+## 예제
+
+### 변환
+
+Docker 엔진 사용(기본값):
+
+```bash
+oci2git ubuntu:latest
+# or explicitly:
+oci2git convert ubuntu:latest -o ./ubuntu-repo
 ```
 
 이미 다운로드된 이미지 tarball 사용:
 ```bash
-oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
 ```
 tar 엔진은 일반적으로 `docker save`로 생성된 유효한 OCI 형식의 tarball을 예상합니다:
 
@@ -242,17 +264,66 @@ tar 엔진은 일반적으로 `docker save`로 생성된 유효한 OCI 형식의
 docker save -o ubuntu-latest.tar ubuntu:latest
 
 # Convert the tarball to a Git repository
-oci2git -e tar -o ./ubuntu-repo ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo ubuntu-latest.tar
 ```
 
-이 명령은 `./ubuntu-repo`에 Git 저장소를 생성하며 다음을 포함합니다:
-- `Image.md` - 이미지에 대한 완전한 메타데이터를 Markdown 형식으로 작성
-- `rootfs/` - 컨테이너에서 가져온 파일 시스템 내용
+이 명령은 `./ubuntu-repo`에 Git 저장소를 생성하며, 다음을 포함합니다:
+- `Image.md` - 이미지에 대한 전체 메타데이터가 Markdown 형식으로 저장됨
+- `rootfs/` - 컨테이너의 파일 시스템 내용
 
 Git 히스토리는 컨테이너의 레이어 히스토리를 반영합니다:
-- 첫 번째 커밋은 전체 메타데이터가 포함된 `Image.md` 파일만 포함
-- 이후 각 커밋은 원본 이미지의 한 레이어를 나타냄
-- 커밋 메시지에는 Dockerfile 명령어가 포함됨
+- 첫 번째 커밋에는 전체 메타데이터가 담긴 `Image.md` 파일만 포함됩니다
+- 이후 각 커밋은 원본 이미지의 각 레이어를 나타냅니다
+- 커밋 메시지에는 Dockerfile 명령어가 포함됩니다
+
+### 파일 시스템 자재 명세서 (fsbom)
+
+각 레이어별로 추가되거나 수정된 모든 파일을 YAML로 나열합니다:
+```bash
+oci2git fsbom ubuntu:latest -o ubuntu.yml
+```
+
+tarball 사용하기:
+```bash
+oci2git fsbom -e tar image.tar -o image-bom.yml
+```
+출력 YAML은 각 레이어를 나열하며, 각 항목은 타입(`file`, `hardlink`, `symlink`, `directory`)과 상태(`n:uid:gid`는 신규, `m:uid:gid`는 수정됨)로 태그가 지정됩니다.
+삭제된 파일(OCI 화이트아웃)은 제외됩니다.
+
+```yaml
+layers:
+  - index: 0
+    command: "ADD rootfs.tar.gz / # buildkit"
+    digest: "sha256:45f3ea58..."
+    entries:
+      - type: file
+        path: "bin/busybox"
+        size: 919304
+        mode: 493
+        stat: "n:0:0"
+      - type: hardlink
+        path: "bin/sh"
+        target: "bin/busybox"
+        stat: "n:0:0"
+      - type: symlink
+        path: "lib64"
+        target: "lib"
+        stat: "n:0:0"
+  - index: 1
+    command: "RUN apk add --no-cache curl"
+    digest: "sha256:..."
+    entries:
+      - type: file
+        path: "usr/bin/curl"
+        size: 204800
+        mode: 493
+        stat: "n:0:0"
+      - type: file
+        path: "etc/apk/world"
+        size: 32
+        mode: 420
+        stat: "m:0:0"
+```
 
 ## 저장소 구조
 
@@ -279,6 +350,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-02
 
 ---

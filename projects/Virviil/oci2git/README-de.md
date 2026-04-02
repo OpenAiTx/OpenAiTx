@@ -41,36 +41,37 @@
 [![Downloads](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
 [//]: # (Mock für zukünftige test.yaml)
-[//]: # ([![Teststatus]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
+[//]: # ([![Test Status]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
 
 <div align="left"> </div>  
 </div>
 
-Eine Rust-Anwendung, die Container-Images (Docker, etc.) in Git-Repositories umwandelt. Jede Container-Schicht wird als Git-Commit dargestellt, wobei die Historie und Struktur des Original-Images erhalten bleiben.
+Eine Rust-Anwendung, die Container-Images (Docker usw.) in Git-Repositories umwandelt und ein Filesystem Bill of Materials (fsbom) im YAML-Format erstellt. Jede Containerschicht wird als ein Git-Commit abgebildet, wodurch die Historie und Struktur des Original-Images erhalten bleiben.
 
-![Demo von OCI2Git bei der Konvertierung des nginx-Images](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+![Demo von OCI2Git beim Konvertieren des nginx-Images](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## Funktionen
 
-- Analysieren von Docker-Images und Extrahieren von Schichtinformationen
-- Erstellen eines Git-Repositories, in dem jede Image-Schicht als Commit dargestellt wird
-- Unterstützung für leere Schichten (ENV, WORKDIR, etc.) als leere Commits
-- Vollständige Metadatenextraktion im Markdown-Format
+- Analysiert Docker-Images und extrahiert Schichtinformationen
+- Erstellt ein Git-Repository, in dem jede Imageschicht als Commit dargestellt ist
+- Generiert ein YAML-Filesystem Bill of Materials (fsbom) mit Dateiauflistungen pro Schicht
+- Unterstützung für leere Schichten (ENV, WORKDIR, usw.) als leere Commits
+- Vollständige Metadatenextraktion ins Markdown-Format
 - Erweiterbare Architektur zur Unterstützung verschiedener Container-Engines
 
 ## Anwendungsfälle
 
-### Layer-Diffing
-Beim Troubleshooting von Container-Problemen können Sie mit den leistungsfähigen Diff-Funktionen von Git genau feststellen, was sich zwischen zwei Schichten geändert hat. Durch Ausführen von `git diff` zwischen Commits sehen Entwickler exakt, welche Dateien hinzugefügt, geändert oder gelöscht wurden, was das Verständnis der Auswirkungen jeder Dockerfile-Anweisung erleichtert und problematische Änderungen schnell auffindbar macht.
-![Beispiel für Layer-Diff](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### Layer-Vergleich
+Beim Troubleshooting von Containern können Sie die leistungsfähigen Diff-Funktionen von Git nutzen, um genau zu erkennen, was sich zwischen zwei Schichten geändert hat. Mit `git diff` zwischen Commits sehen Ingenieure exakt, welche Dateien hinzugefügt, geändert oder gelöscht wurden. So lassen sich die Auswirkungen jeder Dockerfile-Anweisung und problematische Änderungen leichter nachvollziehen.
+![Beispiel für Layer-Vergleich](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
 ### Herkunftsnachverfolgung
-Mit `git blame` können Entwickler schnell ermitteln, welche Schicht eine bestimmte Datei oder Codezeile eingeführt hat. Dies ist besonders wertvoll bei der Fehlersuche in Konfigurationsdateien oder Abhängigkeiten. Anstatt jede Schicht manuell zu prüfen, können Sie die Herkunft jeder Datei sofort bis zur Ursprungs-Schicht und der zugehörigen Dockerfile-Anweisung zurückverfolgen.
+Mit `git blame` können Entwickler schnell feststellen, welche Schicht eine bestimmte Datei oder Codezeile eingeführt hat. Das ist besonders nützlich bei der Fehlersuche in Konfigurationsdateien oder Abhängigkeiten. Statt jede Schicht einzeln zu untersuchen, lässt sich der Ursprung einer Datei sofort zur entsprechenden Schicht und Dockerfile-Anweisung zurückverfolgen.
 
-### Lebenszyklus-Verfolgung von Dateien
-OCI2Git ermöglicht es, die Entwicklung einer bestimmten Datei über die gesamte Historie eines Container-Images hinweg nachzuverfolgen. Sie sehen, wann eine Datei erstmals erstellt, wie sie über die Schichten hinweg verändert und ob/wann sie schließlich entfernt wurde. Diese umfassende Ansicht hilft, die Entwicklung von Dateien nachzuvollziehen, ohne Änderungen über dutzende Schichten manuell verfolgen zu müssen.
+### Dateilebenszyklus-Verfolgung
+OCI2Git ermöglicht es Ihnen, den Lebenszyklus einer bestimmten Datei im Verlauf des Container-Images zu verfolgen. Sie sehen, wann die Datei erstmals angelegt wurde, wie sie sich über die Schichten hinweg verändert hat und ob bzw. wann sie entfernt wurde. Diese umfassende Sicht hilft, die Entwicklung einer Datei nachzuvollziehen, ohne Änderungen über dutzende Schichten hinweg manuell nachzuverfolgen.
 
-Um die Historie einer Datei in Ihrem Container-Image nachzuverfolgen – einschließlich wann sie erstmals auftrat, geändert oder gelöscht wurde – können Sie nach der Konvertierung diese Git-Befehle verwenden:
+Um die Historie einer Datei im Container-Image zu verfolgen – einschließlich wann sie erstmals erschien, geändert oder gelöscht wurde – können Sie nach der Konvertierung diese Git-Befehle verwenden:
 
 ```bash
 # Full history of a file (including renames)
@@ -208,32 +209,53 @@ cargo install --path .
 
 ## Verwendung
 
-```bash
+```
 oci2git [OPTIONS] <IMAGE>
+oci2git convert [OPTIONS] <IMAGE>
+oci2git fsbom [OPTIONS] <IMAGE>
 ```
 
-Argumente:
-  `<IMAGE>`  Name des zu konvertierenden Images (z. B. 'ubuntu:latest') oder Pfad zur Tarball-Datei bei Verwendung der Tar-Engine
+### `convert` — OCI-Image → Git-Repository
+
+```bash
+oci2git convert [OPTIONS] <IMAGE>
+# or simply:
+oci2git <IMAGE>
+```
 
 Optionen:
-  `-o, --output <o>`  Ausgabeverzeichnis für das Git-Repository [Standard: ./container_repo]
+  `-o, --output <OUTPUT>`  Ausgabeverzeichnis für Git-Repository [Standard: ./container_repo]
   `-e, --engine <ENGINE>`  Zu verwendende Container-Engine (docker, nerdctl, tar) [Standard: docker]
-  `-h, --help`             Hilfeinformationen anzeigen
-  `-V, --version`          Versionsinformationen anzeigen
+  `-v, --verbose`          Ausführlicher Modus (-v für Info, -vv für Debug, -vvv für Trace)
+
+### `fsbom` — Dateisystem-Bill of Materials
+
+```bash
+oci2git fsbom [OPTIONS] <IMAGE>
+```
+Optionen:
+  `-o, --output <OUTPUT>`  Ausgabepfad für die YAML-BOM-Datei [Standard: ./fsbom.yml]
+  `-e, --engine <ENGINE>`  Zu verwendende Container-Engine (docker, nerdctl, tar) [Standard: docker]
+  `-v, --verbose`          Ausführlicher Modus (-v für Info, -vv für Debug, -vvv für Trace)
 
 Umgebungsvariablen:
   `TMPDIR`  Setzen Sie diese Umgebungsvariable, um den Standardort für die Verarbeitung von Zwischendaten zu ändern. Dies ist plattformabhängig (z. B. `TMPDIR` unter Unix/macOS, `TEMP` oder `TMP` unter Windows).
 
 ## Beispiele
 
+### Konvertieren
+
 Verwendung der Docker-Engine (Standard):
+
 ```bash
-oci2git -o ./ubuntu-repo ubuntu:latest
+oci2git ubuntu:latest
+# or explicitly:
+oci2git convert ubuntu:latest -o ./ubuntu-repo
 ```
 Verwendung eines bereits heruntergeladenen Image-Tarballs:
 
 ```bash
-oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
 ```
 
 Die Tar-Engine erwartet ein gültiges OCI-Format-Tarball, das typischerweise mit `docker save` erstellt wird:
@@ -242,17 +264,66 @@ Die Tar-Engine erwartet ein gültiges OCI-Format-Tarball, das typischerweise mit
 docker save -o ubuntu-latest.tar ubuntu:latest
 
 # Convert the tarball to a Git repository
-oci2git -e tar -o ./ubuntu-repo ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo ubuntu-latest.tar
 ```
 
 Dadurch wird ein Git-Repository in `./ubuntu-repo` erstellt, das Folgendes enthält:
-- `Image.md` - Vollständige Metadaten über das Image im Markdown-Format
+- `Image.md` - Vollständige Metadaten zum Image im Markdown-Format
 - `rootfs/` - Den Dateisysteminhalt aus dem Container
 
-Die Git-Historie spiegelt die Layer-Historie des Containers wider:
+Der Git-Verlauf spiegelt die Layer-Historie des Containers wider:
 - Der erste Commit enthält nur die Datei `Image.md` mit vollständigen Metadaten
-- Jeder nachfolgende Commit repräsentiert einen Layer aus dem Original-Image
-- Commits enthalten den Dockerfile-Befehl als Commit-Nachricht
+- Jeder weitere Commit repräsentiert eine Ebene aus dem Original-Image
+- Commits verwenden den Dockerfile-Befehl als Commit-Nachricht
+
+### Filesystem Bill of Materials (fsbom)
+
+Erstellen Sie eine YAML-Liste mit allen Dateien, die pro Layer hinzugefügt oder geändert wurden:
+```bash
+oci2git fsbom ubuntu:latest -o ubuntu.yml
+```
+
+Verwendung eines Tarballs:
+```bash
+oci2git fsbom -e tar image.tar -o image-bom.yml
+```
+
+Die Ausgabe-YAML listet jede Schicht mit ihren Einträgen, die nach Typ (`file`, `hardlink`, `symlink`, `directory`) und Status (`n:uid:gid` für neu, `m:uid:gid` für geändert) gekennzeichnet sind, auf. Gelöschte Dateien (OCI-Whiteouts) sind ausgeschlossen.
+
+```yaml
+layers:
+  - index: 0
+    command: "ADD rootfs.tar.gz / # buildkit"
+    digest: "sha256:45f3ea58..."
+    entries:
+      - type: file
+        path: "bin/busybox"
+        size: 919304
+        mode: 493
+        stat: "n:0:0"
+      - type: hardlink
+        path: "bin/sh"
+        target: "bin/busybox"
+        stat: "n:0:0"
+      - type: symlink
+        path: "lib64"
+        target: "lib"
+        stat: "n:0:0"
+  - index: 1
+    command: "RUN apk add --no-cache curl"
+    digest: "sha256:..."
+    entries:
+      - type: file
+        path: "usr/bin/curl"
+        size: 204800
+        mode: 493
+        stat: "n:0:0"
+      - type: file
+        path: "etc/apk/world"
+        size: 32
+        mode: 420
+        stat: "m:0:0"
+```
 
 ## Repository-Struktur
 
@@ -279,6 +350,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-02
 
 ---

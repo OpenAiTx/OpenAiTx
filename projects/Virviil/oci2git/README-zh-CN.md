@@ -40,37 +40,38 @@
 [![许可证](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
 [![下载量](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
-[//]: # (mock for future test.yaml)
+[//]: # (为未来的 test.yaml 预留的 mock)
 [//]: # ([![测试状态]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
 
 <div align="left"> </div>  
 </div>
 
-一个将容器镜像（如 Docker 等）转换为 Git 仓库的 Rust 应用程序。每个容器层都表示为一个 Git 提交，保留了原始镜像的历史和结构。
+这是一个 Rust 应用程序，可将容器镜像（如 Docker 等）转换为 Git 仓库，并以 YAML 生成文件系统物料清单（fsbom）。每个容器层被表示为一个 Git 提交，保留原始镜像的历史和结构。
 
 ![OCI2Git 转换 nginx 镜像的演示](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## 功能特性
 
 - 分析 Docker 镜像并提取层信息
-- 创建一个每个镜像层都作为提交的 Git 仓库
-- 支持空层（ENV、WORKDIR 等）作为空提交
-- 完整元数据提取并转为 Markdown 格式
+- 创建一个 Git 仓库，每个镜像层作为一次提交
+- 生成每层文件清单的 YAML 文件系统物料清单（fsbom）
+- 支持空层（如 ENV、WORKDIR 等）以空提交形式存在
+- 完整的元数据提取为 Markdown 格式
 - 可扩展架构以支持不同的容器引擎
 
-## 应用场景
+## 使用场景
 
-### 层间差异分析
-在容器故障排查时，可以利用 Git 强大的差异分析功能，精确识别任意两层之间发生了什么变化。通过在提交间运行 `git diff`，工程师可以清楚看到哪些文件被添加、修改或删除，从而更容易理解每条 Dockerfile 指令的影响并定位有问题的变更。
-![层差异示例](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### 层级差异对比
+在排查容器问题时，可以利用 Git 强大的差异对比功能，准确识别任意两层之间的变更内容。通过在提交间运行 `git diff`，工程师可以精确看到哪些文件被添加、修改或删除，大大简化了理解每条 Dockerfile 指令影响和定位问题变更的过程。
+![层级差异示例](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
 ### 源头追踪
-使用 `git blame`，开发者可以快速确定是哪个层引入了特定文件或代码行。这在诊断配置文件或依赖项问题时尤其有价值。无需手动检查每个层，您可以立即追溯任意文件的来源层及其对应的 Dockerfile 指令。
+通过使用 `git blame`，开发者可以快速确定是哪个层引入了某个特定文件或代码行。这在排查配置文件或依赖项问题时尤其有价值。无需手动检查每一层，您可以直接追溯任意文件的来源层及对应的 Dockerfile 指令。
 
 ### 文件生命周期追踪
-OCI2Git 让您能够跟踪特定文件在容器镜像历史中的演变过程。可以观察文件最初创建时间、在各层中的修改情况，以及最终是否被删除。这种全面视角有助于理解文件的演化，无需手动在可能多达数十层间逐步检查变更。
+OCI2Git 让您能够跟踪特定文件在容器镜像历史中的变化历程。您可以观察文件最初何时被创建、在各层中如何被修改以及是否/何时被删除。这种全景视角帮助理解文件的演变，无需手动追踪数十层的变更。
 
-要追踪容器镜像中特定文件的历史——包括首次出现、变更和删除时间——在转换后可以使用以下 Git 命令：
+要在容器镜像中追踪某个文件的历史（包括首次出现、被修改或删除的时间），转换完成后可使用以下 Git 命令：
 
 ```bash
 # Full history of a file (including renames)
@@ -208,32 +209,53 @@ cargo install --path .
 
 ## 用法
 
-```bash
+```
 oci2git [OPTIONS] <IMAGE>
+oci2git convert [OPTIONS] <IMAGE>
+oci2git fsbom [OPTIONS] <IMAGE>
 ```
 
-Arguments:
-  `<IMAGE>`  要转换的镜像名称（例如，'ubuntu:latest'）或使用 tar 引擎时的 tar 包路径
+### `convert` — OCI镜像 → Git仓库
 
-Options:
-  `-o, --output <o>`  Git 仓库输出目录 [默认值: ./container_repo]
-  `-e, --engine <ENGINE>`  使用的容器引擎（docker、nerdctl、tar）[默认值: docker]
-  `-h, --help`            打印帮助信息
-  `-V, --version`         打印版本信息
+```bash
+oci2git convert [OPTIONS] <IMAGE>
+# or simply:
+oci2git <IMAGE>
+```
 
-Environment Variables:
-  `TMPDIR`  设置此环境变量以更改用于中间数据处理的默认位置。此位置依赖于平台（例如，Unix/macOS 上的 `TMPDIR`，Windows 上的 `TEMP` 或 `TMP`）。
+选项：
+  `-o, --output <OUTPUT>`  Git仓库的输出目录 [默认值: ./container_repo]
+  `-e, --engine <ENGINE>`  要使用的容器引擎（docker, nerdctl, tar）[默认值: docker]
+  `-v, --verbose`          详细模式（-v为信息，-vv为调试，-vvv为跟踪）
 
-## Examples
+### `fsbom` — 文件系统物料清单
+
+```bash
+oci2git fsbom [OPTIONS] <IMAGE>
+```
+
+选项：
+  `-o, --output <OUTPUT>`  YAML BOM 文件的输出路径 [默认值: ./fsbom.yml]
+  `-e, --engine <ENGINE>`  要使用的容器引擎（docker、nerdctl、tar）[默认值: docker]
+  `-v, --verbose`          详细模式（-v 表示信息，-vv 表示调试，-vvv 表示跟踪）
+
+环境变量：
+  `TMPDIR`  设置此环境变量以更改用于中间数据处理的默认位置。此设置依赖于平台（例如，Unix/macOS 上为 `TMPDIR`，Windows 上为 `TEMP` 或 `TMP`）。
+
+## 示例
+
+### 转换
 
 使用 Docker 引擎（默认）：
 ```bash
-oci2git -o ./ubuntu-repo ubuntu:latest
+oci2git ubuntu:latest
+# or explicitly:
+oci2git convert ubuntu:latest -o ./ubuntu-repo
 ```
 
 使用已下载的镜像 tar 包：
 ```bash
-oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
 ```
 
 tar 引擎期望一个有效的 OCI 格式 tar 包，通常使用 `docker save` 创建：
@@ -242,19 +264,68 @@ tar 引擎期望一个有效的 OCI 格式 tar 包，通常使用 `docker save` 
 docker save -o ubuntu-latest.tar ubuntu:latest
 
 # Convert the tarball to a Git repository
-oci2git -e tar -o ./ubuntu-repo ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo ubuntu-latest.tar
 ```
-这将在 `./ubuntu-repo` 中创建一个 Git 仓库，包含：
-- `Image.md` - 以 Markdown 格式完整描述镜像的元数据
+
+这将在 `./ubuntu-repo` 中创建一个 Git 仓库，包含以下内容：
+- `Image.md` - 关于镜像的完整元数据，采用 Markdown 格式
 - `rootfs/` - 来自容器的文件系统内容
 
 Git 历史反映了容器的层历史：
 - 第一次提交仅包含带有完整元数据的 `Image.md` 文件
-- 之后的每次提交代表原始镜像的一个层
-- 提交包含 Dockerfile 命令作为提交信息
+- 每个后续提交代表原始镜像中的一个层
+- 提交信息包含 Dockerfile 命令作为提交消息
+
+### 文件系统物料清单（fsbom）
+
+生成一个 YAML，列出每一层引入或修改的所有文件：
+```bash
+oci2git fsbom ubuntu:latest -o ubuntu.yml
+```
+
+使用 tar 包：
+```bash
+oci2git fsbom -e tar image.tar -o image-bom.yml
+```
+输出的 YAML 会列出每一层，并将其条目按类型（`file`、`hardlink`、`symlink`、`directory`）和状态（新建为 `n:uid:gid`，修改为 `m:uid:gid`）标记。已删除的文件（OCI whiteout）不会包含在内。
+
+
+```yaml
+layers:
+  - index: 0
+    command: "ADD rootfs.tar.gz / # buildkit"
+    digest: "sha256:45f3ea58..."
+    entries:
+      - type: file
+        path: "bin/busybox"
+        size: 919304
+        mode: 493
+        stat: "n:0:0"
+      - type: hardlink
+        path: "bin/sh"
+        target: "bin/busybox"
+        stat: "n:0:0"
+      - type: symlink
+        path: "lib64"
+        target: "lib"
+        stat: "n:0:0"
+  - index: 1
+    command: "RUN apk add --no-cache curl"
+    digest: "sha256:..."
+    entries:
+      - type: file
+        path: "usr/bin/curl"
+        size: 204800
+        mode: 493
+        stat: "n:0:0"
+      - type: file
+        path: "etc/apk/world"
+        size: 32
+        mode: 420
+        stat: "m:0:0"
+```
 
 ## 仓库结构
-
 
 ```
 repository/
@@ -279,6 +350,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-02
 
 ---

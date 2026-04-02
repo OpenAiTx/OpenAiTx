@@ -38,39 +38,40 @@
 [![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
 [![License](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
 
-[![ডাউনলোড](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
+[![Downloads](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
-[//]: # (ভৱিষ্যতৰ test.yaml ৰ বাবে mock)
+[//]: # (mock for future test.yaml)
 [//]: # ([![Test Status]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
 
 <div align="left"> </div>  
 </div>
 
-এখন Rust এপ্লিকেচন, যি container image (Docker, আদি) Git repository লৈ ৰূপান্তৰ কৰে। প্রতিটো container layer Git commit হিচাপে প্ৰতিনিধিত্ব কৰে, মূল image ৰ ইতিহাস আৰু গঠন সংৰক্ষণ কৰে।
+এটা Rust এপ্লিকেচন যি কণ্টেইনাৰ ইমেজ (Docker, আদি) গিট ৰেপজিটৰিত ৰূপান্তৰ কৰে, আৰু YAML ফৰ্মেটত ফাইল ছিষ্টেম বিল অফ মেটেৰিয়েলছ (fsbom) নিৰ্মাণ কৰে। প্ৰতিটো কণ্টেইনাৰ স্তৰ গিট কমিট হিচাপে উপস্থাপন কৰা হয়, মূল ইমেজৰ ইতিহাস আৰু গঠন সংৰক্ষণ কৰি।
 
-![OCI2Git এ nginx image ৰূপান্তৰৰ ডেমো](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+![Demo of OCI2Git converting the nginx image](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## বৈশিষ্ট্যসমূহ
 
-- Docker image বিশ্লেষণ আৰু layer তথ্য উলিয়াই আনে
-- প্রতিটো image layer commit হিচাপে প্ৰতিনিধিত্ব কৰা Git repository সৃষ্টি কৰে
-- খালী layer (ENV, WORKDIR, আদি) খালী commit হিচাপে সমৰ্থন কৰে
-- সম্পূর্ণ metadata Markdown ৰূপত উলিয়াই আনে
-- বিভিন্ন container engine সমৰ্থনৰ বাবে বিস্তৃত স্থাপত্য
+- Docker ইমেজ বিশ্লেষণ আৰু স্তৰৰ তথ্য আহৰণ
+- গিট ৰেপজিটৰি নিৰ্মাণ, য’ত প্ৰতিটো ইমেজ স্তৰ এটা কমিট হিচাপে দেখুওৱা হয়
+- প্ৰতিটো স্তৰৰ ফাইল তালিকাৰ সৈতে YAML ফাইল ছিষ্টেম বিল অফ মেটেৰিয়েলছ (fsbom) তৈয়াৰ কৰক
+- খালী স্তৰৰ (ENV, WORKDIR, আদি) সমৰ্থন খালী কমিট হিচাপে
+- সম্পূৰ্ণ মেটাডাটা Markdown ফৰ্মেটলৈ আহৰণ
+- বিভিন্ন কণ্টেইনাৰ ইঞ্জিনৰ সমৰ্থনৰ বাবে বঢ়াব পৰা আৰ্হি
 
-## ব্যৱহাৰৰ ক্ষেত্ৰসমূহ
+## ব্যৱহাৰ ক্ষেত্ৰসমূহ
 
-### Layer Diffing
-Container সমস্যাৰ troubleshooting কৰোঁতে, Git ৰ শক্তিশালী diffing ক্ষমতা ব্যৱহাৰ কৰি যিকোনো দুটা layer ৰ মাজত কি পৰিবৰ্তন হৈছে ঠিককৈ চিনাক্ত কৰিব পাৰি। `git diff` commit ৰ মাজত চলালে, ইঞ্জিনিয়াৰসকলে স্পষ্টকৈ চাব পাৰে কোন ফাইল যোগ, সংশোধন বা মচি পেলোৱা হৈছে, যাৰ দ্বাৰা প্ৰত্যেক Dockerfile instruction ৰ প্ৰভাৱ বুজা সহজ হয় আৰু সমস্যা থকা পৰিবৰ্তন চাব পাৰি।
-![layer diff ৰ উদাহৰণ](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### স্তৰ তুলনা (Layer Diffing)
+কণ্টেইনাৰ সমস্যা সমাধান কৰাৰ সময়ত, Git ৰ শক্তিশালী diffing সক্ষমতা ব্যৱহাৰ কৰি যিকোনো দুইটা স্তৰৰ মাজত ঠিক কি পৰিৱর্তন ঘটিছে চাব পাৰি। `git diff` চলাই ইঞ্জিনিয়াৰসকলে কোন ফাইল যোগ, সংশোধন বা ডিলিট হৈছে সঠিকভাৱে চাব পাৰে, যাৰ ফলত প্ৰতিটো Dockerfile নিৰ্দেশনাৰ প্ৰভাৱ বুজা আৰু সমস্যাসকল চিনাক্ত কৰা সহজ হয়।
+![Example for layer diff](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
-### Origin Tracking
-`git blame` ব্যৱহাৰ কৰি, ডেভেলপাৰসকলে দ্রুতকৈ চাব পাৰে কোন layer এ নিৰ্দিষ্ট ফাইল বা কোডৰ line আনিছে। বিশেষকৈ configuration file বা dependency ৰ সমস্যাৰ নিৰ্ণয়ত এইটো মূল্যবান। প্রতিটো layer manually পৰীক্ষা নকৰি, যিকোনো ফাইলৰ উৎস layer আৰু Dockerfile instruction সহজে চাব পাৰি।
+### উৎস অনুসৰণ (Origin Tracking)
+`git blame` ব্যৱহাৰ কৰি, ডেভেলপাৰসকলে কেতিয়া বিশেষ ফাইল বা কোডৰ শাৰী কোন স্তৰে যোগ হৈছিল সোনকালে জানিব পাৰে। এইটো বিশেষকৈ কনফিগাৰেচন ফাইল বা ডিপেণ্ডেঞ্চি সংক্রান্ত সমস্যাৰ সময়ত গুৰুত্বপূর্ণ। প্ৰতিটো স্তৰ হাতৰেপে পৰীক্ষা নকৰাকৈ, যিকোনো ফাইলৰ উৎস স্তৰ আৰু সংশ্লিষ্ট Dockerfile নিৰ্দেশনা তৎক্ষণাত বিচাৰি পাব পাৰে।
 
-### File Lifecycle Tracking
-OCI2Git এ আপোনাক container image ৰ ইতিহাসত নিৰ্দিষ্ট ফাইলৰ যাত্ৰা অনুসৰণ কৰিবলৈ সক্ষম কৰে। কোন সময়ত ফাইলটো সৃষ্টি হৈছিল, কিদৰে বিভিন্ন layerত সংশোধন হৈছিল, আৰু কেতিয়া মচি পেলোৱা হৈছিল - সকলো চাব পাৰি। এই বিস্তৃত দৃশ্যই বহু layerৰ মাজত নিজে নিজে পৰিবৰ্তন অনুসৰণ নকৰাকৈ ফাইল evolution বুজিবলৈ সহায় কৰে।
+### ফাইল লাইফচাইকেল অনুসৰণ (File Lifecycle Tracking)
+OCI2Git এ আপোনাক কণ্টেইনাৰ ইমেজৰ ইতিহাসত এটা নিৰ্দিষ্ট ফাইলৰ যাত্ৰা অনুসৰণৰ সুবিধা দিয়ে। কেতিয়া ফাইলটো সৃষ্টি হৈছিল, কেনেকৈ স্তৰসমূহত সলনি হৈছিল, আৰু কেতিয়া মচি পেলোৱা হৈছিল তাক চাব পাৰে। এই বিস্তৃত দৃশ্যই ফাইলৰ পৰিবর্তন বুজিবলৈ সহায় কৰে, স্তৰসমূহত হাতৰেপে অনুসৰণ নকৰাকৈ।
 
-আপোনাৰ container image ৰ ভিতৰত এজন ফাইলৰ ইতিহাস অনুসৰণ কৰিবলৈ — কেতিয়া সৃষ্টি, পৰিবৰ্তিত, বা মচি পেলোৱা হৈছিল — ৰূপান্তৰৰ পাছত এই Git command সমূহ ব্যৱহাৰ কৰিব পাৰি:
+আপোনাৰ কণ্টেইনাৰ ইমেজত এটা ফাইলৰ ইতিহাস, কেতিয়া প্রথমে দেখা গৈছিল, সলনি বা ডিলিট হৈছিল জানিবলৈ, ৰূপান্তৰৰ পিছত এই Git কমাণ্ডসমূহ ব্যৱহাৰ কৰিব পাৰি:
 
 ```bash
 # Full history of a file (including renames)
@@ -208,32 +209,53 @@ cargo install --path .
 
 ## ব্যৱহাৰ
 
-```bash
+```
 oci2git [OPTIONS] <IMAGE>
+oci2git convert [OPTIONS] <IMAGE>
+oci2git fsbom [OPTIONS] <IMAGE>
 ```
 
-আৰ্গুমেন্টসমূহ:
-  `<IMAGE>`  ৰূপান্তৰ কৰিবলৈ ছবি নাম (উদাহৰণস্বৰূপে, 'ubuntu:latest') অথবা টাৰ ইঞ্জিন ব্যৱহাৰ কৰাৰ সময়ত টাৰবলৰ পথ
+### `convert` — OCI ইমেজ → Git ৰিপ'জিট'ৰি
+
+```bash
+oci2git convert [OPTIONS] <IMAGE>
+# or simply:
+oci2git <IMAGE>
+```
+বিকল্পসমূহ:
+  `-o, --output <OUTPUT>`  Git ৰিপজিটৰীৰ বাবে আউটপুট ডাইৰেক্টৰি [ডিফল্ট: ./container_repo]
+  `-e, --engine <ENGINE>`  ব্যৱহাৰ কৰিবলগীয়া কণ্টেইনাৰ ইঞ্জিন (docker, nerdctl, tar) [ডিফল্ট: docker]
+  `-v, --verbose`          বিস্তৃত মোড (-v তথ্যৰ বাবে, -vv ডিবাগৰ বাবে, -vvv ট্ৰেছৰ বাবে)
+
+### `fsbom` — ফাইলচিষ্টেম বিল অফ মেটেৰিয়েলছ
+
+
+```bash
+oci2git fsbom [OPTIONS] <IMAGE>
+```
 
 বিকল্পসমূহ:
-  `-o, --output <o>`  গিট ৰেপ'জিটৰীৰ বাবে আউটপুট ডাইৰেক্টৰি [ডিফল্ট: ./container_repo]
-  `-e, --engine <ENGINE>`  ব্যৱহাৰ কৰিবলৈ কণ্টেইনাৰ ইঞ্জিন (docker, nerdctl, tar) [ডিফল্ট: docker]
-  `-h, --help`            সহায় তথ্য ছাপ কৰক
-  `-V, --version`         সংস্কৰণ তথ্য ছাপ কৰক
+  `-o, --output <OUTPUT>`  YAML BOM ফাইলৰ বাবে আউটপুট পথ [ডিফল্ট: ./fsbom.yml]
+  `-e, --engine <ENGINE>`  ব্যৱহাৰ কৰিব লগা কণ্টেইনাৰ ইঞ্জিন (docker, nerdctl, tar) [ডিফল্ট: docker]
+  `-v, --verbose`          Verbose মোড (-v তথ্যৰ বাবে, -vv ডিবাগৰ বাবে, -vvv ট্ৰেচৰ বাবে)
 
-পৰিবেশ ভেৰিয়েব্‌লসমূহ:
-  `TMPDIR`  ইন্টাৰমিডিয়েট ডাটা প্ৰসেছিংৰ বাবে ডিফল্ট স্থান সলনি কৰিবলৈ এই পৰিবেশ ভেৰিয়েব্‌লটো ছেট কৰক। এইটো প্লেটফৰ্ম-নির্ভৰ (উদাহৰণস্বৰূপে, ইউনিক্স/মেক'ত `TMPDIR`, উইণ্ড'জত `TEMP` বা `TMP`)।
+পৰিৱেশ ভেৰিয়েবলসমূহ:
+  `TMPDIR`  ইন্টাৰমিডিয়েট ডাটা প্ৰসেসিংৰ বাবে ব্যৱহৃত ডিফল্ট স্থান সলনি কৰিবলৈ এই পৰিৱেশ ভেৰিয়েবল ছেট কৰক। এইটো প্লেটফৰ্ম-নির্ভৰ (উদাহৰণস্বৰূপ, Unix/macOS-ত `TMPDIR`, Windows-ত `TEMP` বা `TMP`).
 
 ## উদাহৰণসমূহ
 
-ডকৰ ইঞ্জিন ব্যৱহাৰ কৰি (ডিফল্ট):
+### ৰূপান্তৰ
+
+Docker ইঞ্জিন ব্যৱহাৰ কৰি (ডিফল্ট):
 ```bash
-oci2git -o ./ubuntu-repo ubuntu:latest
+oci2git ubuntu:latest
+# or explicitly:
+oci2git convert ubuntu:latest -o ./ubuntu-repo
 ```
 আজি ডাউনলোড কৰা ইমেজ টাৰবল ব্যৱহাৰ কৰি:
 
 ```bash
-oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
 ```
 
 টাৰ ইঞ্জিনে এটা বৈধ OCI ফৰ্মেট টাৰবল আশা কৰে, যি সাধাৰণতে `docker save` ব্যৱহাৰ কৰি সৃষ্টি কৰা হয়:
@@ -242,19 +264,68 @@ oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
 docker save -o ubuntu-latest.tar ubuntu:latest
 
 # Convert the tarball to a Git repository
-oci2git -e tar -o ./ubuntu-repo ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo ubuntu-latest.tar
 ```
 
-এইটো `./ubuntu-repo`-ত এটা Git ৰেপ'জিট'ৰি সৃষ্টি কৰিব:
-- `Image.md` - Markdown ফৰ্মেটত চিত্ৰখনৰ সম্পূৰ্ণ মেটাডাটা
-- `rootfs/` - কণ্টেইনাৰৰ পৰা ফাইলচিষ্টেমৰ সমগ্ৰ সামগ্ৰী
+এইটো `./ubuntu-repo` ত এটা Git ৰিপ'জিট'ৰি সৃষ্টি কৰিব য'ত এইবোৰ থাকিব:
+- `Image.md` - চিত্ৰটোৰ সম্পূৰ্ণ মেটাডেটা Markdown ফৰ্মেটত
+- `rootfs/` - কণ্টেইনাৰৰ পৰা আহৰণ কৰা ফাইলচিষ্টেমৰ সামগ্ৰী
 
-Git-ৰ ইতিহাসত কণ্টেইনাৰৰ লেয়াৰ ইতিহাস প্ৰদর্শিত হয়:
-- প্ৰথম কমিটত কেৱল `Image.md` ফাইলটো থাকে, য'ত সম্পূৰ্ণ মেটাডাটা থাকে
-- প্ৰতিটো পাছৰ কমিট মূল চিত্ৰৰ এটা লেয়াৰ প্ৰতিনিধিত্ব কৰে
-- কমিটসমূহত Dockerfile-ৰ কমাণ্ড কমিট মেছেজ হিচাপে থাকে
+Git ইতিহাসটো কণ্টেইনাৰৰ স্তৰৰ ইতিহাস প্ৰতিফলিত কৰে:
+- প্ৰথম কমিটত কেৱল `Image.md` ফাইলটো সম্পূৰ্ণ মেটাডেটাৰ সৈতে থাকে
+- পাছৰ প্ৰতিটো কমিট মূল চিত্ৰৰ এটা স্তৰক প্ৰতিনিধিত্ব কৰে
+- কমিটবোৰত Dockerfile কমাণ্ডটো কমিট মেছেজ হিচাপে থাকে
 
-## ৰেপ'জিট'ৰি গঠন
+### ফাইলচিষ্টেম বিল অফ মেটেৰিয়েলছ (fsbom)
+
+প্ৰত্যেকটা স্তৰত অন্তৰ্ভুক্ত বা পৰিবৰ্তিত কৰা প্ৰতিটো ফাইলৰ YAML তালিকা উত্পন্ন কৰক:
+```bash
+oci2git fsbom ubuntu:latest -o ubuntu.yml
+```
+এটা টাৰবল ব্যৱহাৰ কৰা:
+
+```bash
+oci2git fsbom -e tar image.tar -o image-bom.yml
+```
+আউটপুট YAML-এ প্ৰতিটো স্তৰৰ তালিকা থাকে, তাৰ প্ৰৱিষ্টিসমূহ প্ৰকাৰ (`file`, `hardlink`, `symlink`, `directory`) আৰু স্থিতি (`n:uid:gid` নতুনৰ বাবে, `m:uid:gid` পৰিবৰ্তিতৰ বাবে) অনুসৰি টেগ কৰা থাকে। মচি দিয়া ফাইলসমূহ (OCI whiteouts) বাদ দিয়া হয়।
+
+
+```yaml
+layers:
+  - index: 0
+    command: "ADD rootfs.tar.gz / # buildkit"
+    digest: "sha256:45f3ea58..."
+    entries:
+      - type: file
+        path: "bin/busybox"
+        size: 919304
+        mode: 493
+        stat: "n:0:0"
+      - type: hardlink
+        path: "bin/sh"
+        target: "bin/busybox"
+        stat: "n:0:0"
+      - type: symlink
+        path: "lib64"
+        target: "lib"
+        stat: "n:0:0"
+  - index: 1
+    command: "RUN apk add --no-cache curl"
+    digest: "sha256:..."
+    entries:
+      - type: file
+        path: "usr/bin/curl"
+        size: 204800
+        mode: 493
+        stat: "n:0:0"
+      - type: file
+        path: "etc/apk/world"
+        size: 32
+        mode: 420
+        stat: "m:0:0"
+```
+
+## ৰিপ'জিট'ৰী গঠন
 
 ```
 repository/
@@ -279,6 +350,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-02
 
 ---

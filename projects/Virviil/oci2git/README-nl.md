@@ -41,36 +41,37 @@
 [![Downloads](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
 [//]: # (mock voor toekomstige test.yaml)
-[//]: # ([![Teststatus]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
+[//]: # ([![Test Status]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
 
 <div align="left"> </div>  
 </div>
 
-Een Rust-applicatie die containerimages (Docker, enz.) omzet naar Git-repositories. Elke containerlaag wordt weergegeven als een Git-commit, waarbij de geschiedenis en structuur van het originele image behouden blijven.
+Een Rust-applicatie die container images (Docker, enz.) converteert naar Git-repositories en een filesystem bill of materials (fsbom) in YAML genereert. Elke containerlaag wordt weergegeven als een Git-commit, waarbij de geschiedenis en structuur van het oorspronkelijke image behouden blijven.
 
 ![Demo van OCI2Git die het nginx-image converteert](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## Functies
 
-- Analyseer Docker-images en haal laaginformatie op
+- Analyseer Docker-images en extraheer laaginformatie
 - Maak een Git-repository waarbij elke imagelaag als een commit wordt weergegeven
+- Genereer een YAML filesystem bill of materials (fsbom) met bestandslijsten per laag
 - Ondersteuning voor lege lagen (ENV, WORKDIR, enz.) als lege commits
 - Volledige metadata-extractie naar Markdown-formaat
 - Uitbreidbare architectuur voor ondersteuning van verschillende container-engines
 
-## Gebruikssituaties
+## Gebruiksscenario's
 
-### Laagvergelijking
-Bij het oplossen van containerproblemen kun je de krachtige vergelijkingstools van Git gebruiken om precies te zien wat er veranderd is tussen twee lagen. Door `git diff` uit te voeren tussen commits kunnen engineers exact zien welke bestanden zijn toegevoegd, gewijzigd of verwijderd, wat het veel eenvoudiger maakt om de impact van elke Dockerfile-instructie te begrijpen en problematische wijzigingen te vinden.
-![Voorbeeld van laagvergelijking](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### Laagverschillen vergelijken
+Bij het oplossen van containerproblemen kun je de krachtige vergelijkingsmogelijkheden van Git gebruiken om exact te identificeren wat er tussen twee lagen is gewijzigd. Door `git diff` tussen commits uit te voeren, kunnen engineers precies zien welke bestanden zijn toegevoegd, gewijzigd of verwijderd. Dit maakt het veel eenvoudiger om het effect van elke Dockerfile-instructie te begrijpen en problematische wijzigingen te lokaliseren.
+![Voorbeeld van laagverschil](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
 ### Herkomstbepaling
-Met `git blame` kunnen ontwikkelaars snel bepalen welke laag een specifiek bestand of code-regel heeft geïntroduceerd. Dit is bijzonder waardevol bij het diagnosticeren van problemen met configuratiebestanden of afhankelijkheden. In plaats van elke laag handmatig te inspecteren, kun je direct de oorsprong van een bestand terugvinden tot de bronlaag en bijbehorende Dockerfile-instructie.
+Met `git blame` kunnen ontwikkelaars snel bepalen welke laag een specifiek bestand of regel code heeft geïntroduceerd. Dit is vooral waardevol bij het diagnosticeren van problemen met configuratiebestanden of afhankelijkheden. In plaats van elke laag handmatig te inspecteren, kun je direct de herkomst van een bestand terugtraceren naar de bronlaag en bijbehorende Dockerfile-instructie.
 
-### Volgen van levenscyclus van bestand
-OCI2Git stelt je in staat om de reis van een specifiek bestand door de geschiedenis van een containerimage te volgen. Je kunt zien wanneer een bestand voor het eerst is aangemaakt, hoe het in lagen is gewijzigd en of/wanneer het uiteindelijk is verwijderd. Dit uitgebreide overzicht helpt om de evolutie van bestanden te begrijpen zonder handmatig wijzigingen door tientallen lagen te moeten volgen.
+### Volgen van bestandsgeschiedenis
+OCI2Git stelt je in staat de reis van een specifiek bestand door de geschiedenis van het containerimage te volgen. Je kunt zien wanneer een bestand voor het eerst is aangemaakt, hoe het is aangepast in verschillende lagen en of/wanneer het uiteindelijk is verwijderd. Dit complete overzicht helpt om de evolutie van een bestand te begrijpen zonder handmatig wijzigingen over tientallen lagen te hoeven volgen.
 
-Om de geschiedenis van een bestand in je containerimage te volgen — inclusief wanneer het voor het eerst verscheen, is veranderd of verwijderd — kun je na conversie deze Git-commando’s gebruiken:
+Om de geschiedenis van een bestand in je containerimage te volgen — inclusief wanneer het voor het eerst verscheen, werd gewijzigd of verwijderd — kun je na conversie deze Git-commando's gebruiken:
 
 ```bash
 # Full history of a file (including renames)
@@ -208,32 +209,53 @@ cargo install --path .
 
 ## Gebruik
 
-```bash
+```
 oci2git [OPTIONS] <IMAGE>
+oci2git convert [OPTIONS] <IMAGE>
+oci2git fsbom [OPTIONS] <IMAGE>
 ```
 
-Argumenten:
-  `<IMAGE>`  Naam van het te converteren image (bijv. 'ubuntu:latest') of pad naar tarball bij gebruik van de tar-engine
+### `convert` — OCI-afbeelding → Git-repository
 
+```bash
+oci2git convert [OPTIONS] <IMAGE>
+# or simply:
+oci2git <IMAGE>
+```
 Opties:
-  `-o, --output <o>`  Uitvoermap voor Git-repository [standaard: ./container_repo]
+  `-o, --output <OUTPUT>`  Uitvoermap voor Git-repository [standaard: ./container_repo]
   `-e, --engine <ENGINE>`  Te gebruiken container-engine (docker, nerdctl, tar) [standaard: docker]
-  `-h, --help`            Print help-informatie
-  `-V, --version`         Print versie-informatie
+  `-v, --verbose`          Uitgebreide modus (-v voor info, -vv voor debug, -vvv voor trace)
+
+### `fsbom` — Bestandsysteemstuklijst
+
+
+```bash
+oci2git fsbom [OPTIONS] <IMAGE>
+```
+Opties:
+  `-o, --output <UITVOER>`  Uitvoerpad voor het YAML BOM-bestand [standaard: ./fsbom.yml]
+  `-e, --engine <ENGINE>`   Te gebruiken container-engine (docker, nerdctl, tar) [standaard: docker]
+  `-v, --verbose`           Uitgebreide modus (-v voor info, -vv voor debug, -vvv voor trace)
 
 Omgevingsvariabelen:
   `TMPDIR`  Stel deze omgevingsvariabele in om de standaardlocatie voor tussentijdse gegevensverwerking te wijzigen. Dit is platformafhankelijk (bijv. `TMPDIR` op Unix/macOS, `TEMP` of `TMP` op Windows).
 
 ## Voorbeelden
 
+### Converteren
+
 Gebruik van Docker-engine (standaard):
+
 ```bash
-oci2git -o ./ubuntu-repo ubuntu:latest
+oci2git ubuntu:latest
+# or explicitly:
+oci2git convert ubuntu:latest -o ./ubuntu-repo
 ```
 
 Een reeds gedownloade image-tarball gebruiken:
 ```bash
-oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
 ```
 
 De tar-engine verwacht een geldig OCI-formaat tarball, die meestal wordt aangemaakt met `docker save`:
@@ -242,19 +264,68 @@ De tar-engine verwacht een geldig OCI-formaat tarball, die meestal wordt aangema
 docker save -o ubuntu-latest.tar ubuntu:latest
 
 # Convert the tarball to a Git repository
-oci2git -e tar -o ./ubuntu-repo ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo ubuntu-latest.tar
 ```
-Dit maakt een Git-repository aan in `./ubuntu-repo` met de volgende inhoud:
-- `Image.md` - Complete metadata over het image in Markdown-formaat
-- `rootfs/` - De bestandssysteeminhoud van de container
+
+Dit maakt een Git-repository aan in `./ubuntu-repo` met:
+- `Image.md` - Volledige metadata over het image in Markdown-indeling
+- `rootfs/` - De bestandssysteeminhoud uit de container
 
 De Git-geschiedenis weerspiegelt de laaggeschiedenis van de container:
-- De eerste commit bevat alleen het `Image.md`-bestand met volledige metadata
-- Elke volgende commit vertegenwoordigt een laag van het originele image
-- Commits bevatten het Dockerfile-commando als commitbericht
+- De eerste commit bevat alleen het bestand `Image.md` met volledige metadata
+- Elke volgende commit vertegenwoordigt een laag uit het originele image
+- Commits bevatten de Dockerfile-opdracht als commitbericht
+
+### Filesystem Bill of Materials (fsbom)
+
+Genereer een YAML-overzicht van elk bestand dat is toegevoegd of gewijzigd per laag:
+```bash
+oci2git fsbom ubuntu:latest -o ubuntu.yml
+```
+
+Een tarball gebruiken:
+```bash
+oci2git fsbom -e tar image.tar -o image-bom.yml
+```
+
+De uitvoer YAML somt elke laag op met zijn entries getagd op type (`file`, `hardlink`, `symlink`, `directory`) en status (`n:uid:gid` voor nieuw, `m:uid:gid` voor gewijzigd). Verwijderde bestanden (OCI whiteouts) worden uitgesloten.
+
+```yaml
+layers:
+  - index: 0
+    command: "ADD rootfs.tar.gz / # buildkit"
+    digest: "sha256:45f3ea58..."
+    entries:
+      - type: file
+        path: "bin/busybox"
+        size: 919304
+        mode: 493
+        stat: "n:0:0"
+      - type: hardlink
+        path: "bin/sh"
+        target: "bin/busybox"
+        stat: "n:0:0"
+      - type: symlink
+        path: "lib64"
+        target: "lib"
+        stat: "n:0:0"
+  - index: 1
+    command: "RUN apk add --no-cache curl"
+    digest: "sha256:..."
+    entries:
+      - type: file
+        path: "usr/bin/curl"
+        size: 204800
+        mode: 493
+        stat: "n:0:0"
+      - type: file
+        path: "etc/apk/world"
+        size: 32
+        mode: 420
+        stat: "m:0:0"
+```
 
 ## Repositorystructuur
-
 
 ```
 repository/
@@ -279,6 +350,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-02
 
 ---

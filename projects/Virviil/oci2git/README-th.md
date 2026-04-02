@@ -46,31 +46,32 @@
 <div align="left"> </div>  
 </div>
 
-แอปพลิเคชัน Rust ที่แปลงอิมเมจคอนเทนเนอร์ (Docker ฯลฯ) เป็นคลัง Git โดยแต่ละเลเยอร์ของคอนเทนเนอร์จะถูกแทนด้วย commit ใน Git เพื่อรักษาประวัติและโครงสร้างของอิมเมจต้นฉบับ
+แอปพลิเคชัน Rust ที่ใช้แปลงอิมเมจคอนเทนเนอร์ (Docker ฯลฯ) เป็น Git repository และสร้างไฟล์ bill of materials ของไฟล์ระบบ (fsbom) ในรูปแบบ YAML โดยแต่ละเลเยอร์ของคอนเทนเนอร์จะถูกแทนด้วย Git commit เพื่อรักษาประวัติและโครงสร้างของอิมเมจต้นฉบับ
 
-![ตัวอย่างการทำงานของ OCI2Git กับอิมเมจ nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+![เดโม OCI2Git ที่แปลงอิมเมจ nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## คุณสมบัติ
 
-- วิเคราะห์อิมเมจ Docker และดึงข้อมูลเลเยอร์ออกมา
-- สร้างคลัง Git ที่แต่ละเลเยอร์ของอิมเมจเป็น commit
-- รองรับเลเยอร์ว่าง (เช่น ENV, WORKDIR ฯลฯ) เป็น commit ว่าง
-- ดึงข้อมูลเมตาดาต้าออกมาเป็นรูปแบบ Markdown ได้อย่างสมบูรณ์
-- สถาปัตยกรรมที่สามารถขยายได้เพื่อรองรับเอนจินคอนเทนเนอร์ต่างๆ
+- วิเคราะห์อิมเมจ Docker และดึงข้อมูลเลเยอร์
+- สร้าง Git repository ที่แต่ละเลเยอร์ของอิมเมจแทนด้วย commit
+- สร้างไฟล์ bill of materials ของไฟล์ระบบ (fsbom) ในรูปแบบ YAML พร้อมรายการไฟล์แยกแต่ละเลเยอร์
+- รองรับเลเยอร์ว่าง (ENV, WORKDIR ฯลฯ) เป็น commit ว่าง
+- ดึงข้อมูลเมทาดาทาครบถ้วนเป็นรูปแบบ Markdown
+- สถาปัตยกรรมที่ขยายได้สำหรับรองรับ engine คอนเทนเนอร์ต่าง ๆ
 
-## กรณีการใช้งาน
+## กรณีใช้งาน
 
 ### เปรียบเทียบเลเยอร์ (Layer Diffing)
-เมื่อแก้ไขปัญหาคอนเทนเนอร์ คุณสามารถใช้ความสามารถ diff ของ Git เพื่อดูว่าอะไรเปลี่ยนแปลงระหว่างเลเยอร์ได้อย่างแม่นยำ โดยการรัน `git diff` ระหว่าง commit วิศวกรจะเห็นได้ชัดเจนว่าไฟล์ใดถูกเพิ่ม แก้ไข หรือลบออก ช่วยให้เข้าใจผลกระทบของคำสั่ง Dockerfile แต่ละบรรทัดและหาต้นตอของปัญหาได้ง่ายขึ้น
-![ตัวอย่างเปรียบเทียบเลเยอร์](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+เมื่อทำการแก้ไขปัญหาของคอนเทนเนอร์ คุณสามารถใช้ความสามารถ diff อันทรงพลังของ Git เพื่อตรวจสอบอย่างแม่นยำว่ามีอะไรเปลี่ยนแปลงระหว่างสองเลเยอร์ การใช้ `git diff` ระหว่าง commit วิศวกรจะเห็นได้ชัดเจนว่าไฟล์ใดถูกเพิ่ม แก้ไข หรือลบออก ทำให้เข้าใจผลกระทบของแต่ละคำสั่งใน Dockerfile และหาตำแหน่งของการเปลี่ยนแปลงที่มีปัญหาได้ง่ายขึ้น
+![ตัวอย่างการเปรียบเทียบเลเยอร์](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
 ### การติดตามต้นกำเนิด (Origin Tracking)
-โดยใช้ `git blame` นักพัฒนาสามารถตรวจสอบได้ทันทีว่าเลเยอร์ใดเป็นผู้เพิ่มไฟล์หรือโค้ดบรรทัดนั้นๆ โดยตรง มีประโยชน์มากในการวิเคราะห์ปัญหาเกี่ยวกับไฟล์คอนฟิกหรือ dependency แทนที่จะต้องตรวจสอบแต่ละเลเยอร์ด้วยตนเอง คุณสามารถย้อนกลับไปยังต้นกำเนิดของไฟล์และคำสั่ง Dockerfile ที่เกี่ยวข้องได้ทันที
+โดยใช้ `git blame` นักพัฒนาสามารถตรวจสอบได้อย่างรวดเร็วว่าเลเยอร์ใดสร้างไฟล์หรือโค้ดบรรทัดใดขึ้นมา โดยเฉพาะอย่างยิ่งเมื่อแก้ไขปัญหาไฟล์คอนฟิกหรือ dependencies แทนที่จะต้องตรวจสอบแต่ละเลเยอร์ด้วยตนเอง คุณสามารถติดตามต้นกำเนิดของไฟล์ใด ๆ กลับไปยังเลเยอร์ต้นทางและ Dockerfile ที่เกี่ยวข้องได้ทันที
 
 ### การติดตามวงจรชีวิตไฟล์ (File Lifecycle Tracking)
-OCI2Git ช่วยให้คุณติดตามประวัติของไฟล์แต่ละไฟล์ตลอดการเปลี่ยนแปลงในอิมเมจคอนเทนเนอร์ คุณจะเห็นได้ว่าไฟล์ถูกสร้างขึ้นเมื่อใด มีการแก้ไขในเลเยอร์ใดบ้าง และถูกลบออกเมื่อใด มุมมองนี้ช่วยให้เข้าใจวิวัฒนาการของไฟล์โดยไม่ต้องตรวจสอบการเปลี่ยนแปลงแต่ละเลเยอร์ด้วยตนเอง
+OCI2Git ช่วยให้คุณติดตามเส้นทางของไฟล์เฉพาะตลอดประวัติของอิมเมจคอนเทนเนอร์ คุณสามารถดูได้ว่าไฟล์ถูกสร้างขึ้นเมื่อใด มีการแก้ไขอย่างไรในแต่ละเลเยอร์ และถูกลบออกเมื่อใด การมองเห็นภาพรวมนี้ช่วยให้เข้าใจวิวัฒนาการของไฟล์โดยไม่ต้องติดตามการเปลี่ยนแปลงทีละเลเยอร์ด้วยตนเอง
 
-เพื่อดูประวัติไฟล์ในอิมเมจคอนเทนเนอร์ของคุณ — ว่าปรากฏเมื่อใด มีการเปลี่ยนแปลง หรือถูกลบ — สามารถใช้คำสั่ง Git เหล่านี้หลังจากแปลงแล้ว:
+หากต้องการติดตามประวัติของไฟล์ในอิมเมจคอนเทนเนอร์ของคุณ — รวมถึงช่วงเวลาที่ไฟล์ถูกสร้างขึ้นครั้งแรก มีการเปลี่ยนแปลง หรือถูกลบ — สามารถใช้คำสั่ง Git เหล่านี้หลังจากแปลงอิมเมจแล้ว:
 
 ```bash
 # Full history of a file (including renames)
@@ -208,32 +209,53 @@ cargo install --path .
 
 ## การใช้งาน
 
-```bash
-oci2git [OPTIONS] <IMAGE>
 ```
-อาร์กิวเมนต์:
-  `<IMAGE>`  ชื่ออิมเมจที่จะทำการแปลง (เช่น 'ubuntu:latest') หรือเส้นทางไปยังไฟล์ tar เมื่อต้องการใช้ tar engine
+oci2git [OPTIONS] <IMAGE>
+oci2git convert [OPTIONS] <IMAGE>
+oci2git fsbom [OPTIONS] <IMAGE>
+```
+
+### `convert` — ภาพ OCI → ที่เก็บ Git
+
+```bash
+oci2git convert [OPTIONS] <IMAGE>
+# or simply:
+oci2git <IMAGE>
+```
 
 ตัวเลือก:
-  `-o, --output <o>`  ไดเรกทอรีสำหรับผลลัพธ์เป็น Git repository [ค่าเริ่มต้น: ./container_repo]
-  `-e, --engine <ENGINE>`  คอนเทนเนอร์เอนจินที่จะใช้ (docker, nerdctl, tar) [ค่าเริ่มต้น: docker]
-  `-h, --help`            แสดงข้อมูลช่วยเหลือ
-  `-V, --version`         แสดงข้อมูลเวอร์ชัน
+  `-o, --output <OUTPUT>`  ไดเรกทอรีเอาต์พุตสำหรับที่เก็บ Git [ค่าเริ่มต้น: ./container_repo]
+  `-e, --engine <ENGINE>`  เอนจินคอนเทนเนอร์ที่ใช้ (docker, nerdctl, tar) [ค่าเริ่มต้น: docker]
+  `-v, --verbose`          โหมดแสดงรายละเอียด (-v สำหรับ info, -vv สำหรับ debug, -vvv สำหรับ trace)
+
+### `fsbom` — รายการวัสดุของระบบไฟล์
+
+```bash
+oci2git fsbom [OPTIONS] <IMAGE>
+```
+
+ตัวเลือก:
+  `-o, --output <OUTPUT>`  เส้นทางสำหรับไฟล์ YAML BOM [ค่าเริ่มต้น: ./fsbom.yml]
+  `-e, --engine <ENGINE>`  เครื่องมือคอนเทนเนอร์ที่จะใช้ (docker, nerdctl, tar) [ค่าเริ่มต้น: docker]
+  `-v, --verbose`          โหมดแสดงรายละเอียด (-v สำหรับ info, -vv สำหรับ debug, -vvv สำหรับ trace)
 
 ตัวแปรสภาพแวดล้อม:
-  `TMPDIR`  กำหนดตัวแปรสภาพแวดล้อมนี้เพื่อเปลี่ยนตำแหน่งเริ่มต้นที่ใช้สำหรับการประมวลผลข้อมูลชั่วคราว ซึ่งขึ้นอยู่กับแพลตฟอร์ม (เช่น `TMPDIR` บน Unix/macOS, `TEMP` หรือ `TMP` บน Windows)
+  `TMPDIR`  ตั้งค่าตัวแปรสภาพแวดล้อมนี้เพื่อเปลี่ยนตำแหน่งเริ่มต้นที่ใช้สำหรับการประมวลผลข้อมูลชั่วคราว ตำแหน่งนี้ขึ้นอยู่กับแพลตฟอร์ม (เช่น `TMPDIR` บน Unix/macOS, `TEMP` หรือ `TMP` บน Windows)
 
 ## ตัวอย่าง
 
-การใช้งาน Docker engine (ค่าเริ่มต้น):
+### แปลง
 
+ใช้งาน Docker engine (ค่าเริ่มต้น):
 ```bash
-oci2git -o ./ubuntu-repo ubuntu:latest
+oci2git ubuntu:latest
+# or explicitly:
+oci2git convert ubuntu:latest -o ./ubuntu-repo
 ```
 
 การใช้ไฟล์อิมเมจ tarball ที่ดาวน์โหลดมาแล้ว:
 ```bash
-oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
 ```
 
 เอนจิน tar ต้องการไฟล์ tarball รูปแบบ OCI ที่ถูกต้อง ซึ่งโดยปกติจะถูกสร้างด้วยคำสั่ง `docker save`:
@@ -242,19 +264,68 @@ oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
 docker save -o ubuntu-latest.tar ubuntu:latest
 
 # Convert the tarball to a Git repository
-oci2git -e tar -o ./ubuntu-repo ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo ubuntu-latest.tar
 ```
 
-สิ่งนี้จะสร้าง Git repository ใน `./ubuntu-repo` ที่ประกอบด้วย:
-- `Image.md` - ข้อมูลเมตาทั้งหมดเกี่ยวกับอิมเมจในรูปแบบ Markdown
-- `rootfs/` - เนื้อหาของไฟล์ระบบจากคอนเทนเนอร์
+จะสร้างที่เก็บ Git ใน `./ubuntu-repo` ที่มี:
+- `Image.md` - เมตาดาต้าครบถ้วนเกี่ยวกับอิมเมจในรูปแบบ Markdown
+- `rootfs/` - เนื้อหาของระบบไฟล์จากคอนเทนเนอร์
 
-ประวัติของ Git จะสะท้อนประวัติเลเยอร์ของคอนเทนเนอร์:
-- คอมมิตแรกประกอบด้วยไฟล์ `Image.md` เท่านั้นพร้อมข้อมูลเมตาเต็มรูปแบบ
-- คอมมิตถัดไปแต่ละอันจะแสดงถึงเลเยอร์จากอิมเมจต้นฉบับ
-- คอมมิตจะมีคำสั่ง Dockerfile เป็นข้อความคอมมิต
+ประวัติ Git สะท้อนประวัติเลเยอร์ของคอนเทนเนอร์:
+- คอมมิทแรกมีแค่ไฟล์ `Image.md` พร้อมเมตาดาต้าครบถ้วน
+- คอมมิทถัดไปแต่ละอันแสดงเลเยอร์จากอิมเมจต้นฉบับ
+- คอมมิทจะมีคำสั่ง Dockerfile เป็นข้อความคอมมิท
 
-## โครงสร้างของรีโพสิตอรี
+### รายการวัสดุของระบบไฟล์ (fsbom)
+
+สร้าง YAML ที่แสดงไฟล์ทุกไฟล์ที่ถูกเพิ่มหรือแก้ไขในแต่ละเลเยอร์:
+```bash
+oci2git fsbom ubuntu:latest -o ubuntu.yml
+```
+
+การใช้ไฟล์ tarball:
+```bash
+oci2git fsbom -e tar image.tar -o image-bom.yml
+```
+
+เอาต์พุต YAML จะแสดงทุกเลเยอร์โดยมีรายการที่ระบุประเภท (`file`, `hardlink`, `symlink`, `directory`) และสถานะ (`n:uid:gid` สำหรับใหม่, `m:uid:gid` สำหรับที่ถูกแก้ไข) ไฟล์ที่ถูกลบ (OCI whiteouts) จะไม่ถูกแสดง
+
+```yaml
+layers:
+  - index: 0
+    command: "ADD rootfs.tar.gz / # buildkit"
+    digest: "sha256:45f3ea58..."
+    entries:
+      - type: file
+        path: "bin/busybox"
+        size: 919304
+        mode: 493
+        stat: "n:0:0"
+      - type: hardlink
+        path: "bin/sh"
+        target: "bin/busybox"
+        stat: "n:0:0"
+      - type: symlink
+        path: "lib64"
+        target: "lib"
+        stat: "n:0:0"
+  - index: 1
+    command: "RUN apk add --no-cache curl"
+    digest: "sha256:..."
+    entries:
+      - type: file
+        path: "usr/bin/curl"
+        size: 204800
+        mode: 493
+        stat: "n:0:0"
+      - type: file
+        path: "etc/apk/world"
+        size: 32
+        mode: 420
+        stat: "m:0:0"
+```
+
+## โครงสร้างที่เก็บข้อมูล
 
 ```
 repository/
@@ -279,6 +350,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-02
 
 ---

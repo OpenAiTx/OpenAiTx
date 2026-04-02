@@ -40,37 +40,38 @@
 [![Lisans](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
 [![İndirmeler](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
-[//]: # (gelecekteki test.yaml için mock)
+[//]: # (mock for future test.yaml)
 [//]: # ([![Test Durumu]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
 
 <div align="left"> </div>  
 </div>
 
-Konteyner imajlarını (Docker, vb.) Git deposuna dönüştüren bir Rust uygulamasıdır. Her konteyner katmanı bir Git commit'i olarak temsil edilir, orijinal imajın geçmişi ve yapısı korunur.
+Konteyner imajlarını (Docker, vb.) Git depolarına dönüştüren ve YAML formatında dosya sistemi malzeme listesi (fsbom) oluşturan bir Rust uygulamasıdır. Her konteyner katmanı, orijinal imajın geçmişini ve yapısını koruyarak bir Git commit'i olarak temsil edilir.
 
 ![OCI2Git'in nginx imajını dönüştürme demosu](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## Özellikler
 
-- Docker imajlarını analiz eder ve katman bilgilerini çıkarır
-- Her imaj katmanının bir commit olarak temsil edildiği bir Git deposu oluşturur
+- Docker imajlarını analiz etme ve katman bilgisi çıkarımı
+- Her imaj katmanının bir commit olarak temsil edildiği bir Git deposu oluşturma
+- Katmanlara göre dosya listeleriyle YAML biçiminde dosya sistemi malzeme listesi (fsbom) üretme
 - Boş katmanlar (ENV, WORKDIR, vb.) için boş commit desteği
-- Tüm meta verileri Markdown formatında çıkarma
+- Markdown formatına tam metadata çıkarımı
 - Farklı konteyner motorlarını desteklemek için genişletilebilir mimari
 
-## Kullanım Alanları
+## Kullanım Senaryoları
 
-### Katman Karşılaştırma
-Konteyner sorunlarını giderirken, Git'in güçlü karşılaştırma (diff) yeteneklerini kullanarak herhangi iki katman arasında tam olarak neyin değiştiğini belirleyebilirsiniz. Commitler arasında `git diff` çalıştırarak, mühendisler hangi dosyaların eklendiğini, değiştirildiğini veya silindiğini net bir şekilde görebilir, böylece her Dockerfile talimatının etkisini anlamak ve sorunlu değişiklikleri bulmak çok daha kolay hale gelir.
-![Katman karşılaştırma örneği](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### Katman Karşılaştırması (Layer Diffing)
+Konteyner sorunlarını giderirken, Git'in güçlü karşılaştırma (diff) yetenekleriyle herhangi iki katman arasındaki değişiklikleri tam olarak belirleyebilirsiniz. Commit'ler arasında `git diff` çalıştırarak mühendisler hangi dosyaların eklendiğini, değiştirildiğini veya silindiğini kesin olarak görebilir, böylece her Dockerfile talimatının etkisini anlamak ve sorunlu değişiklikleri tespit etmek çok daha kolay olur.
+![Katman diff örneği](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
-### Kaynak Takibi
-`git blame` kullanarak geliştiriciler, belirli bir dosya veya kod satırının hangi katmanda eklendiğini hızlıca belirleyebilir. Bu, özellikle yapılandırma dosyaları veya bağımlılıklarla ilgili sorunları teşhis ederken çok değerlidir. Her katmanı manuel olarak incelemek yerine, herhangi bir dosyanın kaynağını anında bulabilir ve ilgili Dockerfile talimatına kadar izleyebilirsiniz.
+### Kaynak Takibi (Origin Tracking)
+`git blame` kullanarak geliştiriciler, belirli bir dosya veya kod satırının hangi katmanda eklendiğini hızlıca tespit edebilir. Bu, özellikle yapılandırma dosyaları veya bağımlılıklarla ilgili sorunları çözerken çok değerlidir. Her katmanı manuel olarak incelemek yerine, herhangi bir dosyanın kaynağını ve ilgili Dockerfile talimatını anında takip edebilirsiniz.
 
-### Dosya Yaşam Döngüsü Takibi
-OCI2Git sayesinde, bir dosyanın konteyner imajı boyunca izlediği yolu takip edebilirsiniz. Bir dosyanın ilk ne zaman oluşturulduğunu, katmanlar boyunca nasıl değiştirildiğini ve en sonunda ne zaman silindiğini gözlemleyebilirsiniz. Bu kapsamlı görünüm, dosyanın evrimini anlamanızı sağlar ve potansiyel olarak onlarca katman arasında değişiklikleri manuel olarak takip etme ihtiyacını ortadan kaldırır.
+### Dosya Yaşam Döngüsü Takibi (File Lifecycle Tracking)
+OCI2Git, belirli bir dosyanın konteyner imajının geçmişindeki yolculuğunu izlemenizi sağlar. Bir dosyanın ilk ne zaman oluşturulduğunu, katmanlar boyunca nasıl değiştirildiğini ve ne zaman/varsa silindiğini görebilirsiniz. Bu kapsamlı görünüm, potansiyel olarak onlarca katman arasında değişiklikleri manuel olarak takip etmek zorunda kalmadan dosya evrimini anlamanıza yardımcı olur.
 
-Konteyner imajınızdaki bir dosyanın geçmişini — ilk ne zaman göründüğünü, değiştirildiğini veya silindiğini — dönüştürmeden sonra aşağıdaki Git komutları ile takip edebilirsiniz:
+Konteyner imajınızdaki bir dosyanın geçmişini — ilk ne zaman göründüğü, değiştirildiği veya silindiği dahil — takip etmek için, dönüşümden sonra şu Git komutlarını kullanabilirsiniz:
 
 ```bash
 # Full history of a file (including renames)
@@ -208,32 +209,53 @@ cargo install --path .
 
 ## Kullanım
 
-```bash
+```
 oci2git [OPTIONS] <IMAGE>
+oci2git convert [OPTIONS] <IMAGE>
+oci2git fsbom [OPTIONS] <IMAGE>
 ```
 
-Argümanlar:
-  `<IMAGE>`  Dönüştürülecek imaj adı (örn., 'ubuntu:latest') veya tar motoru kullanılırken tarball yolu
+### `convert` — OCI imajı → Git deposu
+
+```bash
+oci2git convert [OPTIONS] <IMAGE>
+# or simply:
+oci2git <IMAGE>
+```
 
 Seçenekler:
-  `-o, --output <o>`  Git deposu için çıktı dizini [varsayılan: ./container_repo]
+  `-o, --output <OUTPUT>`  Git deposu için çıktı dizini [varsayılan: ./container_repo]
   `-e, --engine <ENGINE>`  Kullanılacak konteyner motoru (docker, nerdctl, tar) [varsayılan: docker]
-  `-h, --help`            Yardım bilgisini yazdır
-  `-V, --version`         Sürüm bilgisini yazdır
+  `-v, --verbose`          Ayrıntılı mod (-v bilgi için, -vv hata ayıklama için, -vvv izleme için)
+
+### `fsbom` — Dosya sistemi bileşen listesi
+
+```bash
+oci2git fsbom [OPTIONS] <IMAGE>
+```
+
+Seçenekler:
+  `-o, --output <OUTPUT>`  YAML BOM dosyası için çıktı yolu [varsayılan: ./fsbom.yml]
+  `-e, --engine <ENGINE>`  Kullanılacak konteyner motoru (docker, nerdctl, tar) [varsayılan: docker]
+  `-v, --verbose`          Ayrıntılı mod (-v bilgi için, -vv hata ayıklama için, -vvv izleme için)
 
 Ortam Değişkenleri:
-  `TMPDIR`  Varsayılan olarak ara veri işlemede kullanılan konumu değiştirmek için bu ortam değişkenini ayarlayın. Bu, platforma bağlıdır (örn., Unix/macOS'ta `TMPDIR`, Windows'ta `TEMP` veya `TMP`).
+  `TMPDIR`  Varsayılan olarak ara veri işlemesi için kullanılan konumu değiştirmek için bu ortam değişkenini ayarlayın. Bu platforma bağlıdır (örneğin, Unix/macOS için `TMPDIR`, Windows için `TEMP` veya `TMP`).
 
 ## Örnekler
 
-Docker motorunu kullanmak (varsayılan):
+### Dönüştür
+
+Docker motoru kullanılarak (varsayılan):
 ```bash
-oci2git -o ./ubuntu-repo ubuntu:latest
+oci2git ubuntu:latest
+# or explicitly:
+oci2git convert ubuntu:latest -o ./ubuntu-repo
 ```
 
 Zaten indirilmiş bir imaj tarball'ını kullanmak:
 ```bash
-oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
 ```
 
 Tar motoru, genellikle `docker save` ile oluşturulan geçerli bir OCI formatında tarball bekler:
@@ -242,17 +264,66 @@ Tar motoru, genellikle `docker save` ile oluşturulan geçerli bir OCI formatın
 docker save -o ubuntu-latest.tar ubuntu:latest
 
 # Convert the tarball to a Git repository
-oci2git -e tar -o ./ubuntu-repo ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo ubuntu-latest.tar
 ```
 
-Bu, `./ubuntu-repo` dizininde bir Git deposu oluşturacak ve şunları içerecek:
-- `Image.md` - Görüntüyle ilgili tüm meta veriler Markdown formatında
+Bu, `./ubuntu-repo` dizininde aşağıdakileri içeren bir Git deposu oluşturacaktır:
+- `Image.md` - Görüntü hakkında Markdown formatında tam meta veriler
 - `rootfs/` - Kaptan alınan dosya sistemi içeriği
 
 Git geçmişi, konteynerin katman geçmişini yansıtır:
-- İlk commit yalnızca tam meta veriye sahip `Image.md` dosyasını içerir
-- Sonraki her commit, orijinal görüntüden bir katmanı temsil eder
-- Commit mesajı olarak Dockerfile komutunu içerir
+- İlk commit yalnızca tam meta verilerle `Image.md` dosyasını içerir
+- Her sonraki commit, orijinal görüntüden bir katmanı temsil eder
+- Commit mesajı olarak Dockerfile komutu eklenir
+
+### Dosya Sistemi Malzeme Faturası (fsbom)
+
+Her katmanda eklenen veya değiştirilen tüm dosyaların YAML listesi oluşturulur:
+```bash
+oci2git fsbom ubuntu:latest -o ubuntu.yml
+```
+
+Bir tarball kullanarak:
+```bash
+oci2git fsbom -e tar image.tar -o image-bom.yml
+```
+
+Çıktı YAML, her katmanı girdileri türüne göre etiketlenmiş olarak (`file`, `hardlink`, `symlink`, `directory`) ve durumu ile birlikte (`n:uid:gid` yeni için, `m:uid:gid` değiştirilmiş için) listeler. Silinen dosyalar (OCI whiteout'ları) hariç tutulmuştur.
+
+```yaml
+layers:
+  - index: 0
+    command: "ADD rootfs.tar.gz / # buildkit"
+    digest: "sha256:45f3ea58..."
+    entries:
+      - type: file
+        path: "bin/busybox"
+        size: 919304
+        mode: 493
+        stat: "n:0:0"
+      - type: hardlink
+        path: "bin/sh"
+        target: "bin/busybox"
+        stat: "n:0:0"
+      - type: symlink
+        path: "lib64"
+        target: "lib"
+        stat: "n:0:0"
+  - index: 1
+    command: "RUN apk add --no-cache curl"
+    digest: "sha256:..."
+    entries:
+      - type: file
+        path: "usr/bin/curl"
+        size: 204800
+        mode: 493
+        stat: "n:0:0"
+      - type: file
+        path: "etc/apk/world"
+        size: 32
+        mode: 420
+        stat: "m:0:0"
+```
 
 ## Depo Yapısı
 
@@ -279,6 +350,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-02
 
 ---

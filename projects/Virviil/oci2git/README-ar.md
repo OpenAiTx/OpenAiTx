@@ -40,37 +40,38 @@
 [![الرخصة](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
 [![التنزيلات](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
-[//]: # (محاكاة لملف test.yaml مستقبلي)
+[//]: # (محاكاة لاختبار test.yaml مستقبلاً)
 [//]: # ([![حالة الاختبار]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
 
 <div align="left"> </div>  
 </div>
 
-تطبيق بلغة Rust يقوم بتحويل صور الحاويات (Docker، وغيرها) إلى مستودعات Git. كل طبقة في الحاوية تمثل كتزامن في Git، مع الحفاظ على السجل والبنية للصورة الأصلية.
+تطبيق بلغة Rust يقوم بتحويل صور الحاويات (Docker، وغيرها) إلى مستودعات Git، وينتج فاتورة مواد نظام الملفات (fsbom) بصيغة YAML. كل طبقة من طبقات الحاوية تمثل كتزامن (commit) في Git، مع الحفاظ على تاريخ وهيكل الصورة الأصلية.
 
-![عرض توضيحي لتحويل صورة nginx بواسطة OCI2Git](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+![عرض توضيحي لـ OCI2Git أثناء تحويل صورة nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## الميزات
 
 - تحليل صور Docker واستخراج معلومات الطبقات
-- إنشاء مستودع Git حيث تمثل كل طبقة صورة تزامنًا منفصلاً
-- دعم الطبقات الفارغة (ENV، WORKDIR، إلخ) كتزامنات فارغة
-- استخراج كامل للبيانات الوصفية بتنسيق Markdown
+- إنشاء مستودع Git بحيث تمثل كل طبقة من الصورة تزامناً منفصلاً
+- توليد فاتورة مواد نظام الملفات (fsbom) بصيغة YAML مع قائمة ملفات لكل طبقة
+- دعم الطبقات الفارغة (ENV, WORKDIR, وغيرها) كعمليات تزامن فارغة
+- استخراج بيانات التعريف بالكامل إلى صيغة Markdown
 - بنية قابلة للتوسعة لدعم محركات الحاويات المختلفة
 
 ## حالات الاستخدام
 
 ### مقارنة الطبقات
-عند استكشاف مشاكل الحاويات، يمكنك استخدام قدرات Git القوية للمقارنة لمعرفة التغييرات الدقيقة بين أي طبقتين. باستخدام أمر `git diff` بين التزامين، يمكن للمهندسين رؤية الملفات التي تمت إضافتها أو تعديلها أو حذفها بدقة، مما يسهل فهم أثر كل تعليمة Dockerfile وتحديد التغييرات المسببة للمشاكل.
+عند استكشاف مشكلات الحاويات، يمكنك الاستفادة من قدرات مقارنة Git القوية لتحديد التغييرات بين أي طبقتين. عبر تنفيذ أمر `git diff` بين التزامين، يمكن للمهندسين معرفة الملفات التي تمت إضافتها أو تعديلها أو حذفها بدقة، مما يسهل فهم تأثير كل تعليمة Dockerfile وتحديد التغييرات المسببة للمشاكل.
 ![مثال لمقارنة الطبقات](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
 ### تتبع الأصل
-باستخدام `git blame`، يمكن للمطورين بسرعة تحديد الطبقة التي أدخلت ملفًا معينًا أو سطرًا من الشيفرة. هذا مفيد بشكل خاص عند تشخيص مشاكل ملفات الإعداد أو الاعتمادات. بدلاً من تفقد كل طبقة يدويًا، يمكنك تتبع أصل أي ملف مباشرة إلى الطبقة الأصلية وتعليمة Dockerfile المقابلة.
+باستخدام أمر `git blame`، يمكن للمطورين بسرعة معرفة الطبقة التي أدخلت ملفاً أو سطراً معيناً من الشيفرة. هذا مفيد جداً عند تشخيص مشاكل ملفات الإعدادات أو الاعتمادات. بدلاً من فحص كل طبقة يدوياً، يمكنك تتبع أصل أي ملف مباشرةً إلى طبقته الأصلية وتعليمة Dockerfile المقابلة.
 
 ### تتبع دورة حياة الملفات
-تتيح لك أداة OCI2Git متابعة مسار أي ملف عبر تاريخ صورة الحاوية. يمكنك معرفة متى تم إنشاء الملف لأول مرة، وكيف تم تعديله عبر الطبقات، وإذا أو متى تم حذفه في النهاية. توفر هذه الرؤية الشاملة فهماً لتطور الملف دون الحاجة لتعقب التغييرات يدويًا عبر العديد من الطبقات.
+يتيح لك OCI2Git تتبع مسار ملف محدد خلال تاريخ صورة الحاوية. يمكنك ملاحظة متى تم إنشاء الملف لأول مرة، وكيف تم تعديله عبر الطبقات، وإذا/متى تمت إزالته في النهاية. هذه الرؤية الشاملة تساعد على فهم تطور الملف دون الحاجة لتتبع التغييرات يدوياً عبر العديد من الطبقات.
 
-لتتبع تاريخ ملف في صورة الحاوية — بما في ذلك وقت ظهوره الأول، أو تغييره، أو حذفه — يمكنك استخدام أوامر Git التالية بعد التحويل:
+لتتبع تاريخ ملف في صورة الحاوية الخاصة بك — بما في ذلك متى ظهر لأول مرة أو تم تعديله أو حذفه — يمكنك استخدام أوامر Git التالية بعد التحويل:
 
 ```bash
 # Full history of a file (including renames)
@@ -208,32 +209,53 @@ cargo install --path .
 
 ## الاستخدام
 
-```bash
+```
 oci2git [OPTIONS] <IMAGE>
+oci2git convert [OPTIONS] <IMAGE>
+oci2git fsbom [OPTIONS] <IMAGE>
 ```
 
-المعطيات:
-  `<IMAGE>`  اسم الصورة المراد تحويلها (مثال: 'ubuntu:latest') أو مسار ملف tar عند استخدام محرك tar
+### `convert` — صورة OCI → مستودع Git
 
+```bash
+oci2git convert [OPTIONS] <IMAGE>
+# or simply:
+oci2git <IMAGE>
+```
+
+خيارات:
+  `-o, --output <OUTPUT>`  دليل الإخراج لمستودع Git [الافتراضي: ./container_repo]
+  `-e, --engine <ENGINE>`  محرك الحاوية المراد استخدامه (docker، nerdctl، tar) [الافتراضي: docker]
+  `-v, --verbose`          وضع الإيضاح (-v للمعلومات، -vv للتصحيح، -vvv للتتبع)
+
+### `fsbom` — قائمة المواد لنظام الملفات
+
+```bash
+oci2git fsbom [OPTIONS] <IMAGE>
+```
 الخيارات:
-  `-o, --output <o>`  دليل الإخراج لمستودع Git [القيمة الافتراضية: ./container_repo]
-  `-e, --engine <ENGINE>`  محرك الحاوية المراد استخدامه (docker، nerdctl، tar) [القيمة الافتراضية: docker]
-  `-h, --help`            طباعة معلومات المساعدة
-  `-V, --version`         طباعة معلومات الإصدار
+  `-o, --output <OUTPUT>`  مسار إخراج ملف BOM بصيغة YAML [القيمة الافتراضية: ./fsbom.yml]
+  `-e, --engine <ENGINE>`  محرك الحاويات المستخدم (docker, nerdctl, tar) [القيمة الافتراضية: docker]
+  `-v, --verbose`          وضع الإيضاح (-v للمعلومات، -vv للتنقيح، -vvv للتتبع)
 
 متغيرات البيئة:
-  `TMPDIR`  قم بتعيين هذا المتغير البيئي لتغيير الموقع الافتراضي المستخدم لمعالجة البيانات الوسيطة. هذا يعتمد على نظام التشغيل (مثال: `TMPDIR` على Unix/macOS، أو `TEMP` أو `TMP` على Windows).
+  `TMPDIR`  ضبط متغير البيئة هذا لتغيير الموقع الافتراضي المستخدم لمعالجة البيانات الوسيطة. هذا يعتمد على النظام الأساسي (مثلاً، `TMPDIR` على Unix/macOS، و`TEMP` أو `TMP` على Windows).
 
 ## أمثلة
 
-استخدام محرك Docker (افتراضي):
+### التحويل
+
+باستخدام محرك Docker (الافتراضي):
+
 ```bash
-oci2git -o ./ubuntu-repo ubuntu:latest
+oci2git ubuntu:latest
+# or explicitly:
+oci2git convert ubuntu:latest -o ./ubuntu-repo
 ```
 
 استخدام أرشيف صورة تم تنزيله مسبقًا:
 ```bash
-oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
 ```
 يتوقع محرك tar ملف tarball صالح بتنسيق OCI، والذي يتم إنشاؤه عادةً باستخدام الأمر `docker save`:
 
@@ -242,17 +264,66 @@ oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
 docker save -o ubuntu-latest.tar ubuntu:latest
 
 # Convert the tarball to a Git repository
-oci2git -e tar -o ./ubuntu-repo ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo ubuntu-latest.tar
 ```
 
-سيؤدي هذا إلى إنشاء مستودع Git في `./ubuntu-repo` يحتوي على:
-- `Image.md` - بيانات وصفية كاملة عن الصورة بتنسيق Markdown
+سيؤدي ذلك إلى إنشاء مستودع Git في `./ubuntu-repo` يحتوي على:
+- `Image.md` - بيانات وصفية كاملة حول الصورة بتنسيق Markdown
 - `rootfs/` - محتوى نظام الملفات من الحاوية
 
 يعكس سجل Git تاريخ طبقات الحاوية:
-- يحتوي الالتزام الأول فقط على ملف `Image.md` مع جميع البيانات الوصفية
-- يمثل كل التزام لاحق طبقة من الصورة الأصلية
-- تتضمن الالتزامات أمر Dockerfile كرسالة الالتزام
+- تحتوي أول عملية إدخال على ملف `Image.md` فقط مع جميع البيانات الوصفية
+- تمثل كل عملية إدخال لاحقة طبقة من الصورة الأصلية
+- تتضمن عمليات الإدخال أمر Dockerfile كرسالة الإدخال
+
+### قائمة مكونات نظام الملفات (fsbom)
+
+توليد ملف YAML يسرد كل ملف تم إدخاله أو تعديله في كل طبقة:
+```bash
+oci2git fsbom ubuntu:latest -o ubuntu.yml
+```
+
+استخدام ملف tarball:
+```bash
+oci2git fsbom -e tar image.tar -o image-bom.yml
+```
+
+يُدرج ملف YAML الناتج كل طبقة مع إدخالاتها المميزة حسب النوع (`file`، `hardlink`، `symlink`، `directory`) والحالة (`n:uid:gid` للجديدة، `m:uid:gid` للمعدلة). الملفات المحذوفة (OCI whiteouts) مستثناة.
+
+```yaml
+layers:
+  - index: 0
+    command: "ADD rootfs.tar.gz / # buildkit"
+    digest: "sha256:45f3ea58..."
+    entries:
+      - type: file
+        path: "bin/busybox"
+        size: 919304
+        mode: 493
+        stat: "n:0:0"
+      - type: hardlink
+        path: "bin/sh"
+        target: "bin/busybox"
+        stat: "n:0:0"
+      - type: symlink
+        path: "lib64"
+        target: "lib"
+        stat: "n:0:0"
+  - index: 1
+    command: "RUN apk add --no-cache curl"
+    digest: "sha256:..."
+    entries:
+      - type: file
+        path: "usr/bin/curl"
+        size: 204800
+        mode: 493
+        stat: "n:0:0"
+      - type: file
+        path: "etc/apk/world"
+        size: 32
+        mode: 420
+        stat: "m:0:0"
+```
 
 ## هيكل المستودع
 
@@ -279,6 +350,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-02
 
 ---

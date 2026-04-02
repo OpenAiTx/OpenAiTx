@@ -40,37 +40,38 @@
 [![Licence](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
 [![Téléchargements](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
-[//]: # (simulation pour un futur test.yaml)
+[//]: # (mock pour futur test.yaml)
 [//]: # ([![Statut du test]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
 
 <div align="left"> </div>  
 </div>
 
-Une application Rust qui convertit des images de conteneur (Docker, etc.) en dépôts Git. Chaque couche du conteneur est représentée comme un commit Git, préservant l’historique et la structure de l’image d’origine.
+Une application Rust qui convertit les images de conteneurs (Docker, etc.) en dépôts Git, et génère des bills of materials de système de fichiers (fsbom) au format YAML. Chaque couche de conteneur est représentée comme un commit Git, préservant l’historique et la structure de l’image d’origine.
 
 ![Démonstration d’OCI2Git convertissant l’image nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## Fonctionnalités
 
-- Analyse des images Docker et extraction des informations de couche
+- Analyse des images Docker et extraction des informations de couches
 - Création d’un dépôt Git où chaque couche d’image est représentée comme un commit
-- Prise en charge des couches vides (ENV, WORKDIR, etc.) comme commits vides
+- Génération d’un bill of materials du système de fichiers (fsbom) en YAML avec la liste des fichiers par couche
+- Prise en charge des couches vides (ENV, WORKDIR, etc.) comme des commits vides
 - Extraction complète des métadonnées au format Markdown
-- Architecture extensible pour la prise en charge de différents moteurs de conteneur
+- Architecture extensible pour supporter différents moteurs de conteneurs
 
 ## Cas d’utilisation
 
-### Différenciation des couches
-Pour le dépannage des problèmes de conteneur, vous pouvez utiliser les puissantes fonctionnalités de comparaison de Git pour identifier exactement ce qui a changé entre deux couches. En exécutant `git diff` entre des commits, les ingénieurs peuvent voir précisément quels fichiers ont été ajoutés, modifiés ou supprimés, ce qui facilite grandement la compréhension de l’impact de chaque instruction Dockerfile et la localisation des modifications problématiques.
+### Diff de couches
+Lors du dépannage de problèmes de conteneur, vous pouvez utiliser les puissantes capacités de diff de Git pour identifier exactement ce qui a changé entre deux couches. En exécutant `git diff` entre des commits, les ingénieurs peuvent voir précisément quels fichiers ont été ajoutés, modifiés ou supprimés, facilitant ainsi la compréhension de l’impact de chaque instruction Dockerfile et la localisation des modifications problématiques.
 ![Exemple de diff de couche](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
-### Traçabilité de l’origine
-Grâce à `git blame`, les développeurs peuvent rapidement déterminer quelle couche a introduit un fichier ou une ligne de code spécifique. Ceci est particulièrement utile lors du diagnostic de problèmes avec des fichiers de configuration ou des dépendances. Au lieu d’inspecter manuellement chaque couche, vous pouvez immédiatement retracer l’origine de n’importe quel fichier jusqu’à sa couche source et l’instruction Dockerfile correspondante.
+### Suivi de l’origine
+Avec `git blame`, les développeurs peuvent rapidement déterminer quelle couche a introduit un fichier ou une ligne de code spécifique. Ceci est particulièrement utile lors du diagnostic de problèmes liés aux fichiers de configuration ou dépendances. Au lieu d’inspecter manuellement chaque couche, vous pouvez immédiatement retracer l’origine de n’importe quel fichier jusqu’à sa couche source et l’instruction Dockerfile correspondante.
 
-### Suivi du cycle de vie d’un fichier
-OCI2Git vous permet de suivre le parcours d’un fichier spécifique à travers l’historique de l’image du conteneur. Vous pouvez observer quand un fichier a été créé, comment il a été modifié à travers les couches, et s’il a éventuellement été supprimé. Cette vue complète aide à comprendre l’évolution d’un fichier sans avoir à suivre manuellement les changements sur des dizaines de couches potentielles.
+### Suivi du cycle de vie des fichiers
+OCI2Git vous permet de suivre le parcours d’un fichier spécifique à travers l’historique de l’image de conteneur. Vous pouvez observer quand un fichier a été créé, comment il a été modifié à travers les couches, et s’il a été supprimé. Cette vue d’ensemble facilite la compréhension de l’évolution d’un fichier sans avoir à suivre manuellement les changements sur potentiellement des dizaines de couches.
 
-Pour suivre l’historique d’un fichier dans votre image de conteneur — y compris sa première apparition, ses modifications ou sa suppression — vous pouvez utiliser ces commandes Git après conversion :
+Pour suivre l’historique d’un fichier dans votre image de conteneur — y compris quand il est apparu, modifié ou supprimé — vous pouvez utiliser ces commandes Git après conversion :
 
 ```bash
 # Full history of a file (including renames)
@@ -208,32 +209,53 @@ cargo install --path .
 
 ## Utilisation
 
-```bash
-oci2git [OPTIONS] <IMAGE>
 ```
-Arguments :
-  `<IMAGE>`  Nom de l'image à convertir (par exemple, 'ubuntu:latest') ou chemin vers une archive tar lors de l'utilisation du moteur tar
+oci2git [OPTIONS] <IMAGE>
+oci2git convert [OPTIONS] <IMAGE>
+oci2git fsbom [OPTIONS] <IMAGE>
+```
+
+### `convert` — Image OCI → Répertoire Git
+
+```bash
+oci2git convert [OPTIONS] <IMAGE>
+# or simply:
+oci2git <IMAGE>
+```
 
 Options :
-  `-o, --output <o>`  Répertoire de sortie pour le dépôt Git [par défaut : ./container_repo]
+  `-o, --output <OUTPUT>`  Répertoire de sortie pour le dépôt Git [par défaut : ./container_repo]
   `-e, --engine <ENGINE>`  Moteur de conteneur à utiliser (docker, nerdctl, tar) [par défaut : docker]
-  `-h, --help`            Afficher l'aide
-  `-V, --version`         Afficher la version
+  `-v, --verbose`          Mode verbeux (-v pour info, -vv pour debug, -vvv pour trace)
+
+### `fsbom` — Liste de matériaux du système de fichiers
+
+```bash
+oci2git fsbom [OPTIONS] <IMAGE>
+```
+
+Options :
+  `-o, --output <OUTPUT>`  Chemin de sortie pour le fichier BOM YAML [par défaut : ./fsbom.yml]
+  `-e, --engine <ENGINE>`  Moteur de conteneur à utiliser (docker, nerdctl, tar) [par défaut : docker]
+  `-v, --verbose`          Mode verbeux (-v pour info, -vv pour debug, -vvv pour trace)
 
 Variables d'environnement :
-  `TMPDIR`  Définissez cette variable d'environnement pour modifier l'emplacement par défaut utilisé pour le traitement intermédiaire des données. Cela dépend de la plateforme (par exemple, `TMPDIR` sous Unix/macOS, `TEMP` ou `TMP` sous Windows).
+  `TMPDIR`  Définissez cette variable d'environnement pour changer l'emplacement par défaut utilisé pour le traitement des données intermédiaires. Ceci dépend de la plateforme (par exemple, `TMPDIR` sur Unix/macOS, `TEMP` ou `TMP` sur Windows).
 
 ## Exemples
 
-Utilisation du moteur Docker (par défaut) :
+### Conversion
 
+Utilisation du moteur Docker (par défaut) :
 ```bash
-oci2git -o ./ubuntu-repo ubuntu:latest
+oci2git ubuntu:latest
+# or explicitly:
+oci2git convert ubuntu:latest -o ./ubuntu-repo
 ```
 
 Utilisation d’une archive d’image déjà téléchargée :
 ```bash
-oci2git -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo /path/to/ubuntu-latest.tar
 ```
 Le moteur tar attend une archive tar au format OCI valide, généralement créée avec `docker save` :
 
@@ -242,17 +264,66 @@ Le moteur tar attend une archive tar au format OCI valide, généralement créé
 docker save -o ubuntu-latest.tar ubuntu:latest
 
 # Convert the tarball to a Git repository
-oci2git -e tar -o ./ubuntu-repo ubuntu-latest.tar
+oci2git convert -e tar -o ./ubuntu-repo ubuntu-latest.tar
 ```
 
 Cela créera un dépôt Git dans `./ubuntu-repo` contenant :
 - `Image.md` - Métadonnées complètes sur l'image au format Markdown
-- `rootfs/` - Le contenu du système de fichiers du conteneur
+- `rootfs/` - Le contenu du système de fichiers provenant du conteneur
 
 L'historique Git reflète l'historique des couches du conteneur :
 - Le premier commit contient uniquement le fichier `Image.md` avec toutes les métadonnées
-- Chaque commit suivant représente une couche de l'image originale
+- Chaque commit suivant représente une couche de l'image d'origine
 - Les commits incluent la commande Dockerfile comme message de commit
+
+### Inventaire du système de fichiers (fsbom)
+
+Générez un fichier YAML listant chaque fichier introduit ou modifié par couche :
+```bash
+oci2git fsbom ubuntu:latest -o ubuntu.yml
+```
+
+Utilisation d'une archive tar :
+```bash
+oci2git fsbom -e tar image.tar -o image-bom.yml
+```
+La sortie YAML répertorie chaque couche avec ses entrées étiquetées par type (`file`, `hardlink`, `symlink`, `directory`) et statut (`n:uid:gid` pour nouveau, `m:uid:gid` pour modifié). Les fichiers supprimés (whiteouts OCI) sont exclus.
+
+
+```yaml
+layers:
+  - index: 0
+    command: "ADD rootfs.tar.gz / # buildkit"
+    digest: "sha256:45f3ea58..."
+    entries:
+      - type: file
+        path: "bin/busybox"
+        size: 919304
+        mode: 493
+        stat: "n:0:0"
+      - type: hardlink
+        path: "bin/sh"
+        target: "bin/busybox"
+        stat: "n:0:0"
+      - type: symlink
+        path: "lib64"
+        target: "lib"
+        stat: "n:0:0"
+  - index: 1
+    command: "RUN apk add --no-cache curl"
+    digest: "sha256:..."
+    entries:
+      - type: file
+        path: "usr/bin/curl"
+        size: 204800
+        mode: 493
+        stat: "n:0:0"
+      - type: file
+        path: "etc/apk/world"
+        size: 32
+        mode: 420
+        stat: "m:0:0"
+```
 
 ## Structure du dépôt
 
@@ -279,6 +350,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-02
 
 ---
