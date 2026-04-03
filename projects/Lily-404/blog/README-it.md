@@ -24,7 +24,7 @@
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
@@ -32,32 +32,51 @@
 
 # Blog di Jimmy
 
-Un sistema di blog personale minimalista basato su Next.js 15+.
+Un sistema di blog personale minimalista basato su Next.js 15+, che supporta la creazione online e il deployment statico.
 
 ## Stack Tecnologico
 
-- **Framework**: Next.js 13+ (App Router)
+- **Framework**: Next.js 15+ (App Router)
+- **Linguaggio**: TypeScript
 - **Stile**: Tailwind CSS
 - **Icone**: Lucide Icons
-- **Tema**: Supporto per la modalità chiara/scura
-- **Distribuzione**: Vercel
+- **Contenuto**: Markdown + Gray Matter + Remark
+- **Autenticazione**: GitHub OAuth
+- **Deploy**: Vercel
 
 ## Caratteristiche principali
 
-- 📝 Supporto per articoli Markdown
-- 🌓 Cambio tema chiaro/scuro
-- 📱 Design responsive
-- ⚡ Caricamento rapido
-- 📅 Visualizzazione timeline degli articoli
-- 🔐 Pannello di amministrazione online (creazione articoli diretta tramite API GitHub)
+### Lato lettore
+
+- 📝 Rendering articoli Markdown + GFM (inclusa visualizzazione formule matematiche)
+- 🏷️ Filtraggio per tag, paginazione, archiviazione (per anno/tag)
+- 📚 Navigazione indice articoli (TOC) e copia codice con un clic
+- 📱 Layout responsive e switch tema chiaro/scuro
+- 🔥 Mappa di calore calendario di scrittura fluttuante (articoli + pensieri)
+- 📡 Output abbonamento RSS (`/rss.xml`)
+
+### Lato creazione (backend amministrazione)
+
+- 🔐 Login GitHub OAuth (verifica permessi proprietario/collaboratore)
+- ✍️ Creazione, modifica, eliminazione articoli/pensieri online
+- 🆔 ID file personalizzato + gestione automatica conflitti
+- 👀 Modalità scrittura: modifica / anteprima / split-screen
+- 📊 Dashboard statistiche (totale, produzione settimanale/mensile, tag più usati)
+
+### Lato ingegneristico
+
+- ⚡ Output statico multi-pagina (`force-static`) per migliorare performance e stabilità
+- 🧭 Sitemap e robots integrati
+- 🧩 Cache lettura contenuti e struttura API modulare
 
 ## Struttura del progetto
 
 ```
 .
-├── app/
-│   ├── lib/           # 工具函数和数据处理
-│   ├── posts/         # 博客文章
+├── app/               # 页面、API 路由、Server Actions
+│   ├── api/           # 接口（OAuth、统计、校验、Markdown 等）
+│   ├── actions/       # 内容管理相关服务端动作
+│   ├── posts/         # 文章详情页
 │   └── page.tsx       # 首页
 ├── content/
 │   ├── notes/         # 随笔
@@ -99,15 +118,15 @@ npm run build
 ### Metodo 1: Pannello di amministrazione online (consigliato)
 
 1. Accedi alla pagina `/admin`
-2. Accedi utilizzando la password amministratore
+2. Effettua il login tramite GitHub OAuth
 3. Compila le informazioni dell'articolo e invia
-4. L'articolo verrà creato automaticamente tramite GitHub API e Vercel effettuerà il redeploy automatico
+4. L'articolo verrà creato automaticamente tramite GitHub API e Vercel ridistribuirà automaticamente
 
 ### Metodo 2: Aggiunta manuale del file
 
-1. Crea un nuovo file Markdown nella directory `content/posts`
-2. Formato del nome file: xxx.md`
-3. Aggiungi i metadati nell'intestazione del file:
+1. Crea un nuovo file Markdown nella cartella `content/posts`
+2. Formato del nome file: `xxx.md`
+3. Aggiungi i metadati all'inizio del file:
 
 ```markdown
 ---
@@ -180,36 +199,44 @@ Nelle impostazioni del progetto Vercel, assicurati di impostare:
 NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
 ```
 
-⚠️ **Attenzione**:
+⚠️ **Attenzione**: 
 - Il file `.env.local` è stato aggiunto a `.gitignore` e non verrà inviato su Git
-- Durante lo sviluppo locale, assicurati che la Callback URL dell'app OAuth sia impostata su `http://localhost:3000/api/auth/github/callback`
-- **In produzione è necessario impostare `NEXT_PUBLIC_BASE_URL` su `https://www.jimmy-blog.top`**
-- La Callback URL dell'app OAuth in produzione dovrebbe essere: `https://www.jimmy-blog.top/api/auth/github/callback`
+- In sviluppo locale, assicurati che la callback URL dell’OAuth App sia impostata su `http://localhost:3000/api/auth/github/callback`
+- **In produzione è obbligatorio impostare `NEXT_PUBLIC_BASE_URL` su `https://www.jimmy-blog.top`**
+- La callback URL dell’OAuth App in produzione deve essere: `https://www.jimmy-blog.top/api/auth/github/callback`
 
 ## Deploy
 
-Il progetto è configurato per il deploy su Vercel, supportando il deploy automatico. Basta pushare il codice su un repository GitHub e Vercel costruirà e distribuirà automaticamente.
+Il progetto è già configurato per il deploy su Vercel e supporta il deploy automatico. Basta pushare il codice sul repository GitHub e Vercel costruirà e pubblicherà automaticamente.
 
-### Vantaggi dell'utilizzo del pannello di amministrazione
+### Vantaggi dell’uso del pannello amministrativo
 
 - ✅ Nessun bisogno di ambiente di sviluppo locale
-- ✅ Possibilità di aggiungere articoli ovunque e in qualsiasi momento
-- ✅ Trigger automatico del redeploy su Vercel
-- ✅ Completamente gratuito (GitHub OAuth e Vercel sono gratuiti entro i limiti base)
-- ✅ Sicuro (autenticazione OAuth di GitHub, accesso solo per proprietari/collaboratori del repository)
+- ✅ Aggiungi articoli ovunque e in qualsiasi momento
+- ✅ Trigger automatico del redeploy Vercel
+- ✅ Completamente gratuito (sia GitHub OAuth che Vercel nel piano free)
+- ✅ Sicuro (autenticazione GitHub OAuth, accesso solo a owner/collaboratori repo)
 - ✅ Nessuna gestione password, login tramite account GitHub
+- ✅ Supporto per modifica online dei contenuti esistenti (non solo nuovi)
+- ✅ Gestione automatica dei conflitti ID file, evita sovrascrittura e rinomina manuale
+- ✅ Statistiche di creazione integrate, utili per la gestione continua dei contenuti
+
+## Analisi del progetto e piani futuri
+
+- Documento di analisi del progetto: [`docs/project-analysis.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/project-analysis.md)
+- Documento roadmap futura: [`docs/future-roadmap.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/future-roadmap.md)
 
 ## Contributi
 
-Sono benvenute Issue e Pull Request!
+Sono benvenuti Issue e Pull Request!
 
 ## Licenza
 
-Licenza MIT
+MIT License
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-03
 
 ---

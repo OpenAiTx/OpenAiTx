@@ -24,7 +24,7 @@
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
@@ -32,32 +32,51 @@
 
 # Blog de Jimmy
 
-Un sistema de blog personal minimalista construido sobre Next.js 15+.
+Un sistema de blog personal minimalista construido con Next.js 15+, que soporta creación en línea y despliegue estático.
 
 ## Stack tecnológico
 
-- **Framework**: Next.js 13+ (App Router)
+- **Framework**: Next.js 15+ (App Router)
+- **Lenguaje**: TypeScript
 - **Estilos**: Tailwind CSS
 - **Iconos**: Lucide Icons
-- **Tema**: Soporta cambio entre modo claro/oscuro
+- **Contenido**: Markdown + Gray Matter + Remark
+- **Autenticación**: GitHub OAuth
 - **Despliegue**: Vercel
 
 ## Características
 
-- 📝 Soporte para artículos en Markdown
-- 🌓 Cambio entre tema claro/oscuro
-- 📱 Diseño responsivo
-- ⚡ Carga rápida
-- 📅 Visualización de la línea de tiempo de artículos
-- 🔐 Panel de administración en línea (creación directa de artículos mediante la API de GitHub)
+### Lado lector
+
+- 📝 Renderizado de artículos Markdown + GFM (incluye visualización de fórmulas matemáticas)
+- 🏷️ Filtrado por etiquetas, paginación, archivo (por año/etiqueta)
+- 📚 Navegación por tabla de contenidos (TOC) y copia de bloques de código con un clic
+- 📱 Diseño responsivo y cambio entre temas claro/oscuro
+- 🔥 Mapa de calor flotante de calendario de creación (artículos + ensayos)
+- 📡 Salida de suscripción RSS (`/rss.xml`)
+
+### Lado creador (panel de administración)
+
+- 🔐 Inicio de sesión con GitHub OAuth (verificación de permisos de propietario/colaborador)
+- ✍️ Creación, edición y eliminación en línea de artículos/ensayos
+- 🆔 ID de archivo personalizado + prevención automática de conflictos
+- 👀 Tres modos de escritura: editar / vista previa / pantalla dividida
+- 📊 Panel de estadísticas de creación (total, producción semanal/mensual, etiquetas populares)
+
+### Lado ingeniería
+
+- ⚡ Salida estática multipágina (`force-static`) para mejorar rendimiento y estabilidad
+- 🧭 Sitemap y robots integrados
+- 🧩 Caché de lectura de contenido y estructura API modular
 
 ## Estructura del proyecto
 
 ```
 .
-├── app/
-│   ├── lib/           # 工具函数和数据处理
-│   ├── posts/         # 博客文章
+├── app/               # 页面、API 路由、Server Actions
+│   ├── api/           # 接口（OAuth、统计、校验、Markdown 等）
+│   ├── actions/       # 内容管理相关服务端动作
+│   ├── posts/         # 文章详情页
 │   └── page.tsx       # 首页
 ├── content/
 │   ├── notes/         # 随笔
@@ -99,15 +118,15 @@ npm run build
 ### Método 1: Panel de administración en línea (recomendado)
 
 1. Accede a la página `/admin`
-2. Inicia sesión con la contraseña de administrador
-3. Rellena la información del artículo y envíala
-4. El artículo se creará automáticamente a través de la API de GitHub y Vercel realizará el despliegue automáticamente
+2. Inicia sesión usando GitHub OAuth
+3. Completa la información del artículo y envíala
+4. El artículo se creará automáticamente a través de la API de GitHub y Vercel se volverá a desplegar automáticamente
 
 ### Método 2: Añadir archivos manualmente
 
 1. Crea un nuevo archivo Markdown en el directorio `content/posts`
-2. Formato de nombre de archivo: xxx.md`
-3. Añade los metadatos en la cabecera del archivo:
+2. Formato de nombre de archivo: `xxx.md`
+3. Añade metadatos en la cabecera del archivo:
 
 ```markdown
 ---
@@ -181,35 +200,43 @@ NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
 ```
 
 ⚠️ **Nota**: 
-- El archivo `.env.local` ya está añadido a `.gitignore`, por lo que no se subirá a Git
-- Durante el desarrollo local, asegúrate de que la URL de callback de la app OAuth esté configurada como `http://localhost:3000/api/auth/github/callback`
-- **En producción, se debe establecer `NEXT_PUBLIC_BASE_URL` como `https://www.jimmy-blog.top`**
-- La URL de callback de la app OAuth en producción debe configurarse como: `https://www.jimmy-blog.top/api/auth/github/callback`
+- El archivo `.env.local` ya está añadido a `.gitignore` y no se subirá a Git
+- Durante el desarrollo local, asegúrate de que la URL de callback del OAuth App esté configurada como `http://localhost:3000/api/auth/github/callback`
+- **En producción, debes configurar `NEXT_PUBLIC_BASE_URL` como `https://www.jimmy-blog.top`**
+- La URL de callback del OAuth App en producción debe ser: `https://www.jimmy-blog.top/api/auth/github/callback`
 
 ## Despliegue
 
-El proyecto está configurado para desplegarse en Vercel, soportando despliegue automático. Solo tienes que enviar el código al repositorio de GitHub y Vercel construirá y desplegará automáticamente.
+El proyecto está configurado para desplegarse en Vercel, con soporte para despliegue automático. Solo tienes que hacer push del código al repositorio de GitHub y Vercel lo construirá y desplegará automáticamente.
 
 ### Ventajas de usar el panel de administración
 
 - ✅ No necesitas un entorno de desarrollo local
-- ✅ Puedes añadir artículos en cualquier momento y lugar
-- ✅ Despliegue en Vercel se reactiva automáticamente
-- ✅ Completamente gratuito (GitHub OAuth y Vercel dentro del plan gratuito)
-- ✅ Seguro (verificación de GitHub OAuth, solo el propietario/colaboradores del repositorio pueden acceder)
-- ✅ No necesitas gestionar contraseñas, solo inicia sesión con tu cuenta de GitHub
+- ✅ Agrega artículos en cualquier momento y lugar
+- ✅ Vercel se vuelve a desplegar automáticamente
+- ✅ Completamente gratis (GitHub OAuth y Vercel dentro del plan gratuito)
+- ✅ Seguro (autenticación por GitHub OAuth, solo propietarios/colaboradores del repo pueden acceder)
+- ✅ Sin gestión de contraseñas, inicia sesión con tu cuenta de GitHub
+- ✅ Soporta edición en línea de contenido existente (no solo nuevos)
+- ✅ Manejo automático de conflictos de ID de archivos, evita sobrescribir o renombrar manualmente
+- ✅ El panel incluye estadísticas de creación, facilitando la operación continua de contenido
+
+## Análisis del proyecto y planificación futura
+
+- Documento de análisis del proyecto: [`docs/project-analysis.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/project-analysis.md)
+- Documento de planificación futura: [`docs/future-roadmap.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/future-roadmap.md)
 
 ## Contribuciones
 
-¡Bienvenidos a enviar Issues y Pull Requests!
+¡Bienvenidas las Issues y Pull Requests!
 
 ## Licencia
 
-Licencia MIT
+MIT License
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-03
 
 ---

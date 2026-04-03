@@ -4,27 +4,27 @@
     <summary >🌐 言語</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-TW">繁體中文</a>
+        <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=en">英語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-CN">簡体中国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-TW">繁体中国語</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ko">韓国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=hi">ヒンディー語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=th">タイ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fr">フランス語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=de">ドイツ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=es">スペイン語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=it">イタリア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ru">ロシア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pt">ポルトガル語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=nl">オランダ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pl">ポーランド語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ar">アラビア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fa">ペルシャ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">トルコ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">ベトナム語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">インドネシア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">アッサム語</a>
       </div>
     </div>
   </details>
@@ -32,32 +32,51 @@
 
 # Jimmyのブログ
 
-Next.js 15+ をベースに構築されたミニマルな個人ブログシステムです。
+Next.js 15+ をベースに構築されたシンプルな個人ブログシステムで、オンライン創作と静的デプロイに対応しています。
 
 ## 技術スタック
 
-- **フレームワーク**: Next.js 13+ (App Router)
+- **フレームワーク**: Next.js 15+（App Router）
+- **言語**: TypeScript
 - **スタイル**: Tailwind CSS
 - **アイコン**: Lucide Icons
-- **テーマ**: ダーク/ライトモード切替対応
+- **内容**: Markdown + Gray Matter + Remark
+- **認証**: GitHub OAuth
 - **デプロイ**: Vercel
 
 ## 機能特徴
 
-- 📝 Markdown記事対応
-- 🌓 ダーク/ライトテーマ切替
-- 📱 レスポンシブデザイン
-- ⚡ 高速読み込み
-- 📅 記事タイムライン表示
-- 🔐 オンライン管理画面（GitHub APIで直接記事作成）
+### 読者側
+
+- 📝 Markdown + GFM 記事レンダリング（数式表示対応）
+- 🏷️ タグによる絞り込み、ページング、アーカイブ（年別/タグ別）
+- 📚 記事目次ナビゲーション（TOC）とコードブロックのワンクリックコピー
+- 📱 レスポンシブレイアウトとダーク/ライトテーマ切り替え
+- 🔥 ホバー創作カレンダーのヒートマップ（記事 + エッセイ）
+- 📡 RSS 配信出力（`/rss.xml`）
+
+### 創作側（管理画面）
+
+- 🔐 GitHub OAuth ログイン（オーナー/協力者権限確認）
+- ✍️ 記事/エッセイのオンライン作成、編集、削除
+- 🆔 ファイルIDのカスタマイズ + 自動衝突回避
+- 👀 編集 / プレビュー / 分割画面の三つの執筆モード
+- 📊 創作統計パネル（総数、週/月の産出、人気タグ）
+
+### エンジニアリング側
+
+- ⚡ マルチページ静的出力（`force-static`）による性能と安定性向上
+- 🧭 組み込み sitemap と robots
+- 🧩 コンテンツ読込キャッシュとモジュール型API構造
 
 ## プロジェクト構成
 
 ```
 .
-├── app/
-│   ├── lib/           # 工具函数和数据处理
-│   ├── posts/         # 博客文章
+├── app/               # 页面、API 路由、Server Actions
+│   ├── api/           # 接口（OAuth、统计、校验、Markdown 等）
+│   ├── actions/       # 内容管理相关服务端动作
+│   ├── posts/         # 文章详情页
 │   └── page.tsx       # 首页
 ├── content/
 │   ├── notes/         # 随笔
@@ -99,14 +118,14 @@ npm run build
 ### 方法1：オンライン管理画面（推奨）
 
 1. `/admin` ページにアクセス
-2. 管理者パスワードでログイン
+2. GitHub OAuthでログイン
 3. 記事情報を入力して送信
-4. GitHub API により記事が自動作成され、Vercel が自動で再デプロイ
+4. 記事がGitHub APIを通じて自動作成され、Vercelが自動的に再デプロイします
 
-### 方法2：ファイルを手動で追加
+### 方法2：手動でファイルを追加
 
-1. `content/posts` ディレクトリに新しい Markdown ファイルを作成
-2. ファイル名の形式：xxx.md`
+1. `content/posts` ディレクトリに新しいMarkdownファイルを作成
+2. ファイルの命名形式：`xxx.md`
 3. ファイルの先頭にメタデータを追加：
 
 ```markdown
@@ -182,34 +201,42 @@ NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
 
 ⚠️ **注意**: 
 - `.env.local` ファイルは `.gitignore` に追加されており、Git にコミットされません
-- ローカル開発時は、OAuth App のコールバック URL を `http://localhost:3000/api/auth/github/callback` に設定してください
+- ローカル開発時は、OAuth アプリのコールバック URL を `http://localhost:3000/api/auth/github/callback` に設定してください
 - **本番環境では `NEXT_PUBLIC_BASE_URL` を `https://www.jimmy-blog.top` に設定してください**
-- 本番環境の OAuth App コールバック URL は次のように設定してください: `https://www.jimmy-blog.top/api/auth/github/callback`
+- 本番環境の OAuth アプリのコールバック URL は次のように設定してください: `https://www.jimmy-blog.top/api/auth/github/callback`
 
 ## デプロイ
 
-本プロジェクトは Vercel デプロイが設定されており、自動デプロイをサポートしています。コードを GitHub リポジトリにプッシュするだけで、Vercel が自動でビルドとデプロイを行います。
+本プロジェクトは Vercel デプロイが設定されており、自動デプロイに対応しています。コードを GitHub リポジトリにプッシュするだけで、Vercel が自動的にビルド・デプロイします。
 
-### 管理画面を使う利点
+### 管理画面を使うメリット
 
 - ✅ ローカル開発環境が不要
-- ✅ いつでもどこでも記事を追加できる
-- ✅ Vercel の再デプロイを自動トリガー
-- ✅ 完全無料（GitHub OAuth と Vercel は無料枠内）
-- ✅ 安全（GitHub OAuth 認証、リポジトリ所有者・協力者のみアクセス可能）
+- ✅ いつでもどこでも記事を追加可能
+- ✅ Vercel の再デプロイを自動でトリガー
+- ✅ 完全無料（GitHub OAuth と Vercel は無料枠で利用可）
+- ✅ セキュア（GitHub OAuth 認証、リポジトリ所有者/コラボレーターのみアクセス可）
 - ✅ パスワード管理不要、GitHub アカウントでログイン可能
+- ✅ 既存コンテンツもオンライン編集対応（新規だけでなく）
+- ✅ ファイル ID の衝突を自動処理、上書きや手動リネーム不要
+- ✅ 管理画面に創作統計が標準搭載、継続的なコンテンツ運用に便利
 
-## コントリビュート
+## プロジェクト分析と今後の計画
+
+- プロジェクト分析ドキュメント：[`docs/project-analysis.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/project-analysis.md)
+- 今後の計画ドキュメント：[`docs/future-roadmap.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/future-roadmap.md)
+
+## 貢献
 
 Issue や Pull Request の提出を歓迎します！
 
 ## ライセンス
 
-MIT ライセンス
+MIT License
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-03
 
 ---

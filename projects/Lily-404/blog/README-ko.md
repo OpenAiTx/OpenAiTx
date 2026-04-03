@@ -24,7 +24,7 @@
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
@@ -32,32 +32,51 @@
 
 # Jimmy의 블로그
 
-Next.js 15+를 기반으로 제작된 미니멀리즘 개인 블로그 시스템입니다.
+Next.js 15+ 기반으로 구축된 미니멀한 개인 블로그 시스템으로, 온라인 창작 및 정적 배포를 지원합니다.
 
 ## 기술 스택
 
-- **프레임워크**: Next.js 13+ (App Router)
+- **프레임워크**: Next.js 15+ (App Router)
+- **언어**: TypeScript
 - **스타일**: Tailwind CSS
 - **아이콘**: Lucide Icons
-- **테마**: 다크/라이트 모드 전환 지원
+- **콘텐츠**: Markdown + Gray Matter + Remark
+- **인증**: GitHub OAuth
 - **배포**: Vercel
 
 ## 기능 특징
 
-- 📝 Markdown 문서 지원
-- 🌓 다크/라이트 테마 전환
-- 📱 반응형 디자인
-- ⚡ 빠른 로딩
-- 📅 게시글 타임라인 표시
-- 🔐 온라인 관리 백오피스(GitHub API로 직접 게시글 생성)
+### 독자 측
+
+- 📝 Markdown + GFM 문서 렌더링(수식 공식 포함)
+- 🏷️ 태그 필터링, 페이지네이션, 아카이브(연도/태그별)
+- 📚 문서 목차(TOC) 및 코드 블록 원클릭 복사
+- 📱 반응형 레이아웃 및 다크/라이트 테마 전환
+- 🔥 떠다니는 창작 캘린더 히트맵(문서 + 에세이)
+- 📡 RSS 구독 출력(`/rss.xml`)
+
+### 창작 측(관리 백오피스)
+
+- 🔐 GitHub OAuth 로그인(소유자/협력자 권한 검증)
+- ✍️ 문서/에세이 온라인 생성, 편집, 삭제
+- 🆔 커스텀 파일 ID + 자동 충돌 방지
+- 👀 편집/미리보기/분할 화면 3가지 작성 모드
+- 📊 창작 통계 패널(전체, 주/월별 생산량, 인기 태그)
+
+### 엔지니어링 측
+
+- ⚡ 다중 페이지 정적화 출력(`force-static`)으로 성능 및 안정성 향상
+- 🧭 내장 sitemap 및 robots
+- 🧩 콘텐츠 읽기 캐싱 및 모듈형 API 구조
 
 ## 프로젝트 구조
 
 ```
 .
-├── app/
-│   ├── lib/           # 工具函数和数据处理
-│   ├── posts/         # 博客文章
+├── app/               # 页面、API 路由、Server Actions
+│   ├── api/           # 接口（OAuth、统计、校验、Markdown 等）
+│   ├── actions/       # 内容管理相关服务端动作
+│   ├── posts/         # 文章详情页
 │   └── page.tsx       # 首页
 ├── content/
 │   ├── notes/         # 随笔
@@ -96,17 +115,17 @@ npm run build
 
 ## 새 글 추가
 
-### 방법 1: 온라인 관리 백엔드 (추천)
+### 방법 1: 온라인 관리 백엔드(추천)
 
 1. `/admin` 페이지에 접속
-2. 관리자 비밀번호로 로그인
+2. GitHub OAuth로 로그인
 3. 글 정보를 입력하고 제출
-4. 글이 GitHub API를 통해 자동 생성되며, Vercel이 자동으로 재배포함
+4. 글이 GitHub API를 통해 자동 생성되며, Vercel이 자동으로 다시 배포함
 
-### 방법 2: 파일을 직접 추가
+### 방법 2: 파일 수동 추가
 
-1. `content/posts` 디렉터리에 새 Markdown 파일 생성
-2. 파일 이름 형식: xxx.md`
+1. `content/posts` 디렉터리에서 새로운 Markdown 파일 생성
+2. 파일 이름 형식: `xxx.md`
 3. 파일 상단에 메타데이터 추가:
 
 ```markdown
@@ -179,24 +198,33 @@ Vercel 프로젝트 설정에서 다음을 반드시 설정하세요:
 ```env
 NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
 ```
-⚠️ **주의**: 
-- `.env.local` 파일은 `.gitignore`에 추가되어 Git에 커밋되지 않습니다.
-- 로컬 개발 시, OAuth App의 콜백 URL을 `http://localhost:3000/api/auth/github/callback`으로 설정해야 합니다.
-- **프로덕션 환경에서는 반드시 `NEXT_PUBLIC_BASE_URL`을 `https://www.jimmy-blog.top`으로 설정해야 합니다.**
+
+⚠️ **주의**:
+- `.env.local` 파일은 `.gitignore`에 추가되어 있으므로 Git에 커밋되지 않습니다
+- 로컬 개발 시 OAuth App의 콜백 URL을 `http://localhost:3000/api/auth/github/callback`으로 설정하세요
+- **프로덕션 환경에서는 반드시 `NEXT_PUBLIC_BASE_URL`을 `https://www.jimmy-blog.top`으로 설정해야 합니다**
 - 프로덕션 환경의 OAuth App 콜백 URL은 다음과 같이 설정해야 합니다: `https://www.jimmy-blog.top/api/auth/github/callback`
 
 ## 배포
 
-본 프로젝트는 Vercel 배포가 구성되어 있으며, 자동 배포를 지원합니다. 코드를 GitHub 저장소에 푸시하면 Vercel이 자동으로 빌드 및 배포를 진행합니다.
+프로젝트는 Vercel 배포가 구성되어 있어 자동 배포를 지원합니다. 코드를 GitHub 저장소에 푸시하면 Vercel이 자동으로 빌드 및 배포합니다.
 
 ### 관리 백오피스 사용의 장점
 
-- ✅ 로컬 개발 환경 불필요
+- ✅ 로컬 개발 환경이 필요 없음
 - ✅ 언제 어디서나 글 추가 가능
 - ✅ Vercel 재배포 자동 트리거
-- ✅ 완전 무료 (GitHub OAuth와 Vercel은 모두 무료 요금제 내 사용)
-- ✅ 안전 (GitHub OAuth 인증, 저장소 소유자/협력자만 접근 가능)
-- ✅ 비밀번호 관리 불필요, GitHub 계정으로 로그인
+- ✅ 완전 무료 (GitHub OAuth 및 Vercel 모두 무료 요금제 범위 내)
+- ✅ 안전함 (GitHub OAuth 인증, 저장소 소유자/협업자만 접근 가능)
+- ✅ 비밀번호 관리 불필요, GitHub 계정으로 로그인 가능
+- ✅ 기존 콘텐츠 온라인 편집 지원 (신규뿐만 아니라)
+- ✅ 파일 ID 충돌 자동 처리, 덮어쓰기 및 수동 이름 변경 방지
+- ✅ 백오피스 내 창작 통계 제공, 지속적인 콘텐츠 운영에 용이
+
+## 프로젝트 분석 및 향후 계획
+
+- 프로젝트 분석 문서: [`docs/project-analysis.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/project-analysis.md)
+- Future 계획 문서: [`docs/future-roadmap.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/future-roadmap.md)
 
 ## 기여
 
@@ -207,9 +235,8 @@ Issue 및 Pull Request 제출을 환영합니다!
 MIT License
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-03
 
 ---

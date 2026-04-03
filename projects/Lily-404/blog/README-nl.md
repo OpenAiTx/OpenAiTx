@@ -4,27 +4,27 @@
     <summary >🌐 Taal</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=en">English</a>
+        <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=en">Engels</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ja">Japans</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ko">Koreaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=th">Thais</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fr">Frans</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=de">Duits</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=es">Spaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=it">Italiaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ru">Russisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pt">Portugees</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pl">Pools</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ar">Arabisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fa">Perzisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">Turks</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">Vietnamees</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">Indonesisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">Assamees</a>
       </div>
     </div>
   </details>
@@ -32,32 +32,51 @@
 
 # Jimmy's Blog
 
-Een minimalistisch persoonlijk blogsysteem gebouwd op Next.js 15+.
+Een minimalistisch persoonlijk blogsysteem gebouwd met Next.js 15+, dat online creatie en statische implementatie ondersteunt.
 
-## Technische Stack
+## Technische stack
 
-- **Framework**: Next.js 13+ (App Router)
+- **Framework**: Next.js 15+ (App Router)
+- **Taal**: TypeScript
 - **Stijl**: Tailwind CSS
 - **Pictogrammen**: Lucide Icons
-- **Thema**: Ondersteunt schakelen tussen donkere/lichte modus
+- **Inhoud**: Markdown + Gray Matter + Remark
+- **Authenticatie**: GitHub OAuth
 - **Deploy**: Vercel
 
 ## Functiekenmerken
 
-- 📝 Ondersteuning voor Markdown-artikelen
-- 🌓 Schakelen tussen donker/licht thema
-- 📱 Responsief ontwerp
-- ⚡ Snelle laadtijden
-- 📅 Artikel tijdlijnweergave
-- 🔐 Online beheerderspaneel (direct artikelen aanmaken via GitHub API)
+### Lezerszijde
+
+- 📝 Markdown + GFM artikelrendering (inclusief wiskundige formules)
+- 🏷️ Label-filtering, paginering, archivering (per jaar/label)
+- 📚 Artikelinhoudsopgave (TOC) en éénklik kopiëren van codeblokken
+- 📱 Responsieve lay-out en donker/licht thema wisseling
+- 🔥 Zwevende creatiekalender-heatmap (artikelen + notities)
+- 📡 RSS-feed uitvoer (`/rss.xml`)
+
+### Creatiekant (beheeromgeving)
+
+- 🔐 GitHub OAuth login (eigenaar/medewerker rechtencontrole)
+- ✍️ Artikelen/notities online aanmaken, bewerken, verwijderen
+- 🆔 Aangepaste bestand-ID + automatische conflictvermijding
+- 👀 Bewerken / Voorbeeld / Gesplitst scherm drie schrijfmodi
+- 📊 Creatiestatistiekpaneel (totaal, week/maand output, populaire labels)
+
+### Engineeringzijde
+
+- ⚡ Multi-pagina statische output (`force-static`) voor betere prestaties en stabiliteit
+- 🧭 Ingebouwde sitemap en robots
+- 🧩 Inhoudscache en modulaire API-structuur
 
 ## Projectstructuur
 
 ```
 .
-├── app/
-│   ├── lib/           # 工具函数和数据处理
-│   ├── posts/         # 博客文章
+├── app/               # 页面、API 路由、Server Actions
+│   ├── api/           # 接口（OAuth、统计、校验、Markdown 等）
+│   ├── actions/       # 内容管理相关服务端动作
+│   ├── posts/         # 文章详情页
 │   └── page.tsx       # 首页
 ├── content/
 │   ├── notes/         # 随笔
@@ -94,19 +113,19 @@ npm run dev
 npm run build
 ```
 
-## Nieuwe Artikel Toevoegen
+## Nieuwe artikelen toevoegen
 
-### Methode 1: Online Beheerinterface (Aanbevolen)
+### Methode 1: Online beheerderspaneel (aanbevolen)
 
-1. Ga naar de `/admin` pagina
-2. Log in met het beheerderswachtwoord
-3. Vul de artikelinformatie in en dien in
-4. Het artikel wordt automatisch aangemaakt via de GitHub API, Vercel zal automatisch herdeployen
+1. Ga naar de pagina `/admin`
+2. Log in met GitHub OAuth
+3. Vul de artikelgegevens in en dien in
+4. Het artikel wordt automatisch aangemaakt via de GitHub API, Vercel zal automatisch opnieuw worden gedeployed
 
-### Methode 2: Handmatig Bestand Toevoegen
+### Methode 2: Handmatig bestanden toevoegen
 
 1. Maak een nieuw Markdown-bestand aan in de map `content/posts`
-2. Bestandsnaam formaat: xxx.md
+2. Bestandsnaam formaat: `xxx.md`
 3. Voeg metadata toe aan het begin van het bestand:
 
 ```markdown
@@ -181,23 +200,31 @@ NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
 ```
 
 ⚠️ **Let op**: 
-- Het `.env.local` bestand is toegevoegd aan `.gitignore` en wordt niet gecommit naar Git
+- Het `.env.local` bestand is toegevoegd aan `.gitignore` en wordt niet meegecommit naar Git
 - Zorg er bij lokale ontwikkeling voor dat de callback-URL van de OAuth App is ingesteld op `http://localhost:3000/api/auth/github/callback`
-- **In productie moet `NEXT_PUBLIC_BASE_URL` worden ingesteld op `https://www.jimmy-blog.top`**
-- De callback-URL van de OAuth App in productie moet worden ingesteld op: `https://www.jimmy-blog.top/api/auth/github/callback`
+- **In de productieomgeving moet `NEXT_PUBLIC_BASE_URL` worden ingesteld op `https://www.jimmy-blog.top`**
+- De callback-URL van de OAuth App in productie moet zijn: `https://www.jimmy-blog.top/api/auth/github/callback`
 
 ## Deployen
 
-Het project is geconfigureerd voor Vercel deployment en ondersteunt automatische deployment. Je hoeft alleen de code naar de GitHub repository te pushen; Vercel bouwt en deployed automatisch.
+Het project is geconfigureerd voor deployment via Vercel en ondersteunt automatische deployment. Je hoeft alleen de code naar de GitHub repository te pushen, waarna Vercel automatisch bouwt en deployt.
 
-### Voordelen van het gebruik van het beheer dashboard
+### Voordelen van het gebruik van de beheeromgeving
 
 - ✅ Geen lokale ontwikkelomgeving nodig
-- ✅ Voeg overal en altijd artikelen toe
-- ✅ Automatisch Vercel herdeploy triggeren
+- ✅ Artikelen toevoegen waar en wanneer je wilt
+- ✅ Vercel wordt automatisch opnieuw gedeployed
 - ✅ Volledig gratis (GitHub OAuth en Vercel vallen binnen het gratis quotum)
-- ✅ Veilig (GitHub OAuth authenticatie, alleen repo-eigenaar/medewerkers hebben toegang)
-- ✅ Geen wachtwoordbeheer nodig, inloggen met GitHub account
+- ✅ Veilig (GitHub OAuth verificatie, alleen repository eigenaar/collaborators hebben toegang)
+- ✅ Geen wachtwoordbeheer nodig, inloggen met GitHub-account
+- ✅ Online bewerken van bestaande content mogelijk (niet alleen nieuw aanmaken)
+- ✅ Automatische afhandeling van bestand-ID conflicten, voorkomt overschrijven en handmatig hernoemen
+- ✅ Beheeromgeving bevat statistieken over creatie, handig voor continu contentbeheer
+
+## Projectanalyse en toekomstplannen
+
+- Projectanalyse-document: [`docs/project-analysis.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/project-analysis.md)
+- Future roadmap-document: [`docs/future-roadmap.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/future-roadmap.md)
 
 ## Bijdragen
 
@@ -210,6 +237,6 @@ MIT License
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-03
 
 ---

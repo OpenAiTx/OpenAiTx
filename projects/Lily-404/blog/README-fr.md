@@ -24,7 +24,7 @@
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
@@ -32,32 +32,51 @@
 
 # Blog de Jimmy
 
-Un système de blog personnel minimaliste basé sur Next.js 15+.
+Un système de blog personnel minimaliste construit avec Next.js 15+, prenant en charge la création en ligne et le déploiement statique.
 
-## Pile technologique
+## Pile technique
 
-- **Framework** : Next.js 13+ (App Router)
+- **Framework** : Next.js 15+ (App Router)
+- **Langage** : TypeScript
 - **Style** : Tailwind CSS
 - **Icônes** : Lucide Icons
-- **Thème** : Prise en charge du mode sombre/clair
+- **Contenu** : Markdown + Gray Matter + Remark
+- **Authentification** : GitHub OAuth
 - **Déploiement** : Vercel
 
 ## Fonctionnalités
 
-- 📝 Prise en charge des articles Markdown
-- 🌓 Changement de thème sombre/clair
-- 📱 Design responsive
-- ⚡ Chargement rapide
-- 📅 Affichage de la chronologie des articles
-- 🔐 Interface d'administration en ligne (création directe d'articles via l'API GitHub)
+### Côté lecteur
+
+- 📝 Rendu des articles Markdown + GFM (avec affichage des formules mathématiques)
+- 🏷️ Filtrage par tags, pagination, archivage (par année/tag)
+- 📚 Navigation dans la table des matières (TOC) et copie en un clic des blocs de code
+- 📱 Mise en page responsive et bascule entre thème clair/sombre
+- 🔥 Carte de chaleur du calendrier de création en survol (articles + essais)
+- 📡 Sortie d'abonnement RSS (`/rss.xml`)
+
+### Côté création (interface d'administration)
+
+- 🔐 Connexion via GitHub OAuth (vérification des droits propriétaire/collaborateur)
+- ✍️ Création, édition et suppression d'articles/essais en ligne
+- 🆔 ID de fichier personnalisé + évitement automatique des conflits
+- 👀 Trois modes d'écriture : édition / aperçu / écran partagé
+- 📊 Tableau de statistiques de création (total, production hebdo/mois, tags populaires)
+
+### Côté ingénierie
+
+- ⚡ Sortie statique multipages (`force-static`) pour améliorer performance et stabilité
+- 🧭 Sitemap et robots intégrés
+- 🧩 Cache de lecture de contenu et API modulaire
 
 ## Structure du projet
 
 ```
 .
-├── app/
-│   ├── lib/           # 工具函数和数据处理
-│   ├── posts/         # 博客文章
+├── app/               # 页面、API 路由、Server Actions
+│   ├── api/           # 接口（OAuth、统计、校验、Markdown 等）
+│   ├── actions/       # 内容管理相关服务端动作
+│   ├── posts/         # 文章详情页
 │   └── page.tsx       # 首页
 ├── content/
 │   ├── notes/         # 随笔
@@ -96,18 +115,18 @@ npm run build
 
 ## Ajouter un nouvel article
 
-### Méthode 1 : Interface d'administration en ligne (recommandé)
+### Méthode 1 : Interface d’administration en ligne (recommandé)
 
 1. Accédez à la page `/admin`
-2. Connectez-vous avec le mot de passe administrateur
-3. Remplissez les informations de l'article et soumettez
-4. L'article sera automatiquement créé via l'API GitHub et Vercel redéploiera automatiquement
+2. Connectez-vous avec GitHub OAuth
+3. Remplissez les informations de l’article et soumettez
+4. L’article sera automatiquement créé via l’API GitHub, et Vercel redéploiera automatiquement
 
 ### Méthode 2 : Ajout manuel de fichier
 
 1. Créez un nouveau fichier Markdown dans le dossier `content/posts`
-2. Format de nommage du fichier : xxx.md`
-3. Ajoutez les métadonnées en haut du fichier :
+2. Format de nommage du fichier : `xxx.md`
+3. Ajoutez les métadonnées en en-tête du fichier :
 
 ```markdown
 ---
@@ -180,36 +199,44 @@ Dans les paramètres du projet Vercel, assurez-vous de configurer :
 NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
 ```
 
-⚠️ **Remarque** : 
+⚠️ **Attention** : 
 - Le fichier `.env.local` a été ajouté à `.gitignore` et ne sera pas soumis à Git
-- Lors du développement local, assurez-vous que l’URL de rappel de l’application OAuth est définie sur `http://localhost:3000/api/auth/github/callback`
-- **En production, il faut impérativement définir `NEXT_PUBLIC_BASE_URL` sur `https://www.jimmy-blog.top`**
-- L’URL de rappel de l’application OAuth en production doit être définie sur : `https://www.jimmy-blog.top/api/auth/github/callback`
+- En développement local, assurez-vous que l’URL de rappel de l’application OAuth est définie sur `http://localhost:3000/api/auth/github/callback`
+- **En production, il faut absolument définir `NEXT_PUBLIC_BASE_URL` sur `https://www.jimmy-blog.top`**
+- L’URL de rappel OAuth App en production doit être : `https://www.jimmy-blog.top/api/auth/github/callback`
 
 ## Déploiement
 
-Le projet est configuré pour le déploiement sur Vercel et prend en charge le déploiement automatique. Il suffit de pousser le code sur le dépôt GitHub, Vercel se chargera de la construction et du déploiement automatiquement.
+Le projet est déjà configuré pour le déploiement sur Vercel, avec support du déploiement automatique. Il suffit de pousser le code sur le dépôt GitHub, Vercel va automatiquement construire et déployer.
 
 ### Avantages de l’utilisation du back-office
 
 - ✅ Pas besoin d’environnement de développement local
-- ✅ Ajout d’articles à tout moment, de n’importe où
-- ✅ Déclenchement automatique d’un redéploiement sur Vercel
-- ✅ Entièrement gratuit (GitHub OAuth et Vercel inclus dans les quotas gratuits)
-- ✅ Sécurité (authentification GitHub OAuth, seuls les propriétaires/collaborateurs du dépôt y ont accès)
-- ✅ Pas besoin de gérer des mots de passe, connexion avec le compte GitHub
+- ✅ Ajouter des articles à tout moment, n’importe où
+- ✅ Déclenche automatiquement le redéploiement Vercel
+- ✅ Entièrement gratuit (GitHub OAuth et Vercel dans la limite gratuite)
+- ✅ Sécurisé (authentification GitHub OAuth, seul le propriétaire/collaborateur du dépôt peut accéder)
+- ✅ Aucune gestion de mot de passe, connexion possible avec un compte GitHub
+- ✅ Prise en charge de l’édition en ligne des contenus existants (pas seulement la création)
+- ✅ Gestion automatique des conflits d’ID de fichier, évite les écrasements et renommages manuels
+- ✅ Statistiques de création intégrées dans le back-office, facilitant l’exploitation continue du contenu
+
+## Analyse du projet et feuille de route future
+
+- Document d’analyse du projet : [`docs/project-analysis.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/project-analysis.md)
+- Document de feuille de route Future : [`docs/future-roadmap.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/future-roadmap.md)
 
 ## Contribution
 
-Les Issues et Pull Requests sont les bienvenus !
+Issues et Pull Requests sont les bienvenus !
 
 ## Licence
 
-Licence MIT
+MIT License
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-03
 
 ---

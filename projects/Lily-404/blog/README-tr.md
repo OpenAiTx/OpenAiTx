@@ -7,24 +7,24 @@
         <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=en">English</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ja">Japonca</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ko">Korece</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=hi">Hintçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=th">Tayca</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fr">Fransızca</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=de">Almanca</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=es">İspanyolca</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=it">İtalyanca</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ru">Rusça</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pt">Portekizce</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=nl">Flemenkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pl">Lehçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ar">Arapça</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fa">Farsça</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">Vietnamca</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">Endonezce</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">Assamca</a>
       </div>
     </div>
   </details>
@@ -32,32 +32,51 @@
 
 # Jimmy'nin Blogu
 
-Next.js 15+ tabanlı, sade bir kişisel blog sistemi.
+Next.js 15+ tabanlı, çevrimiçi içerik oluşturmayı ve statik dağıtımı destekleyen sade bir kişisel blog sistemi.
 
 ## Teknoloji Yığını
 
-- **Çerçeve**: Next.js 13+ (App Router)
+- **Çerçeve**: Next.js 15+ (App Router)
+- **Dil**: TypeScript
 - **Stil**: Tailwind CSS
-- **İkonlar**: Lucide Icons
-- **Tema**: Koyu/Açık mod desteği
+- **İkon**: Lucide Icons
+- **İçerik**: Markdown + Gray Matter + Remark
+- **Kimlik Doğrulama**: GitHub OAuth
 - **Dağıtım**: Vercel
 
 ## Özellikler
 
-- 📝 Markdown makale desteği
-- 🌓 Koyu/Açık tema geçişi
-- 📱 Duyarlı tasarım
-- ⚡ Hızlı yükleme
-- 📅 Makale zaman çizelgesi gösterimi
-- 🔐 Çevrimiçi yönetim paneli (GitHub API ile doğrudan makale oluşturma)
+### Okuyucu tarafı
+
+- 📝 Markdown + GFM makale renderı (matematik formülü gösterimi dahil)
+- 🏷️ Etiket filtreleme, sayfalama, arşivleme (yıl/etiket bazında)
+- 📚 Makale içindekiler navigasyonu (TOC) ve kod bloğu tek tıkla kopyalama
+- 📱 Duyarlı tasarım ve koyu/açık tema geçişi
+- 🔥 Hover ile yazı takvimi ısı haritası (makale + deneme)
+- 📡 RSS abonelik çıkışı (`/rss.xml`)
+
+### Yazarlık tarafı (yönetim paneli)
+
+- 🔐 GitHub OAuth ile giriş (sahip/işbirlikçi yetki doğrulaması)
+- ✍️ Makale/deneme çevrimiçi oluşturma, düzenleme, silme
+- 🆔 Özelleştirilebilir dosya ID + otomatik çakışma önleme
+- 👀 Düzenleme / Önizleme / Bölünmüş ekran üç yazım modu
+- 📊 Yazarlık istatistik paneli (toplam, haftalık/aylık üretim, popüler etiketler)
+
+### Teknik taraf
+
+- ⚡ Çoklu sayfa statik çıktı (`force-static`) ile performans ve stabilite artışı
+- 🧭 Dahili sitemap ve robots
+- 🧩 İçerik okuma önbelleği ve modüler API yapısı
 
 ## Proje Yapısı
 
 ```
 .
-├── app/
-│   ├── lib/           # 工具函数和数据处理
-│   ├── posts/         # 博客文章
+├── app/               # 页面、API 路由、Server Actions
+│   ├── api/           # 接口（OAuth、统计、校验、Markdown 等）
+│   ├── actions/       # 内容管理相关服务端动作
+│   ├── posts/         # 文章详情页
 │   └── page.tsx       # 首页
 ├── content/
 │   ├── notes/         # 随笔
@@ -96,18 +115,18 @@ npm run build
 
 ## Yeni Makale Ekleme
 
-### Yöntem 1: Çevrimiçi Yönetim Paneli (Tavsiye Edilir)
+### Yöntem 1: Çevrimiçi Yönetim Paneli (Önerilir)
 
 1. `/admin` sayfasını ziyaret edin
-2. Yönetici şifresiyle giriş yapın
+2. GitHub OAuth ile giriş yapın
 3. Makale bilgilerini doldurun ve gönderin
-4. Makale GitHub API aracılığıyla otomatik olarak oluşturulur, Vercel otomatik olarak yeniden dağıtım yapar
+4. Makale, GitHub API ile otomatik olarak oluşturulur, Vercel otomatik olarak yeniden dağıtır
 
 ### Yöntem 2: Dosya Manuel Ekleme
 
 1. `content/posts` dizininde yeni bir Markdown dosyası oluşturun
-2. Dosya adlandırma formatı: xxx.md`
-3. Dosyanın başına meta veri ekleyin:
+2. Dosya adlandırma formatı: `xxx.md`
+3. Dosyanın başına meta verisi ekleyin:
 
 ```markdown
 ---
@@ -180,28 +199,36 @@ Vercel proje ayarlarında, aşağıdakilerin yapılandırıldığından emin olu
 NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
 ```
 
-⚠️ **Dikkat**: 
+⚠️ **Dikkat**:
 - `.env.local` dosyası `.gitignore`'a eklendi, Git'e gönderilmeyecek
-- Yerel geliştirme sırasında, OAuth Uygulamasının callback URL'sinin `http://localhost:3000/api/auth/github/callback` olarak ayarlandığından emin olun
-- **Üretim ortamında `NEXT_PUBLIC_BASE_URL` mutlaka `https://www.jimmy-blog.top` olarak ayarlanmalıdır**
-- Üretim ortamında OAuth Uygulamasının callback URL'si şöyle ayarlanmalıdır: `https://www.jimmy-blog.top/api/auth/github/callback`
+- Yerel geliştirme sırasında, OAuth App'in callback URL'sinin `http://localhost:3000/api/auth/github/callback` olarak ayarlandığından emin olun
+- **Üretim ortamında `NEXT_PUBLIC_BASE_URL` mutlaka `https://www.jimmy-blog.top` olarak ayarlanmalı**
+- Üretim ortamındaki OAuth App callback URL'i şu şekilde ayarlanmalı: `https://www.jimmy-blog.top/api/auth/github/callback`
 
 ## Dağıtım
 
-Proje Vercel dağıtımı için yapılandırılmıştır ve otomatik dağıtımı destekler. Kodu GitHub deposuna göndermeniz yeterli, Vercel otomatik olarak oluşturup dağıtacaktır.
+Proje Vercel dağıtımı ile yapılandırılmıştır, otomatik dağıtımı destekler. Sadece kodu GitHub deposuna gönderin, Vercel otomatik olarak derleyip dağıtacaktır.
 
 ### Yönetim paneli kullanmanın avantajları
 
 - ✅ Yerel geliştirme ortamına gerek yok
-- ✅ Her zaman, her yerde makale ekleyebilirsiniz
-- ✅ Vercel yeniden dağıtımı otomatik olarak tetiklenir
-- ✅ Tamamen ücretsiz (GitHub OAuth ve Vercel ücretsiz kontenjan dahilinde)
-- ✅ Güvenli (GitHub OAuth doğrulaması, yalnızca depo sahibi/işbirlikçi erişebilir)
-- ✅ Şifre yönetimine gerek yok, GitHub hesabıyla giriş yapılabilir
+- ✅ Her yerden ve her zaman makale ekleyebilirsiniz
+- ✅ Vercel'in yeniden dağıtımı otomatik tetiklenir
+- ✅ Tamamen ücretsiz (GitHub OAuth ve Vercel ücretsiz kotada)
+- ✅ Güvenli (GitHub OAuth doğrulaması, yalnızca depo sahibi/işbirlikçiler erişebilir)
+- ✅ Şifre yönetimine gerek yok, GitHub hesabınızla giriş yapabilirsiniz
+- ✅ Mevcut içerikleri çevrimiçi düzenleme desteği (sadece yeni oluşturma değil)
+- ✅ Dosya ID çakışmalarını otomatik işler, üzerine yazma ve manuel yeniden adlandırma gerektirmez
+- ✅ Panelde yerleşik üretim istatistikleri, sürekli içerik yönetimi için kolaylık sağlar
+
+## Proje Analizi ve Gelecek Planı
+
+- Proje analiz dokümanı: [`docs/project-analysis.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/project-analysis.md)
+- Gelecek planı dokümanı: [`docs/future-roadmap.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/future-roadmap.md)
 
 ## Katkı
 
-Issue ve Pull Request göndermekten memnuniyet duyarız!
+Issue ve Pull Request göndermeye hoş geldiniz!
 
 ## Lisans
 
@@ -210,6 +237,6 @@ MIT Lisansı
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-03
 
 ---

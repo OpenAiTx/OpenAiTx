@@ -117,13 +117,13 @@
     "row": 20,
     "rowsha": "qR/iuiQWsQ7j83o7cAhbO3yM99qEPz8jw9z3H616J9o=",
     "originContent": "Please note that before your evaluation process, when Docker loads the databases, errors may occasionally occur due to environment inconsistency (these will not terminate the process but will appear in the Docker logs). As a result, some databases may fail to load properly, leading to empty databases. This will cause the evaluation results to be abnormally low.  ",
-    "translatedContent": "कृपया ध्यान दें कि आपके मूल्यांकन प्रक्रिया से पहले, जब Docker डेटाबेस लोड करता है, पर्यावरण असंगति के कारण कभी-कभी त्रुटियाँ आ सकती हैं (ये प्रक्रिया को समाप्त नहीं करेंगी लेकिन Docker लॉग में दिखाई देंगी)। इसके परिणामस्वरूप कुछ डेटाबेस सही ढंग से लोड नहीं हो सकते हैं, जिससे खाली डेटाबेस हो सकते हैं। इससे मूल्यांकन परिणाम असामान्य रूप से कम हो जाएंगे।  "
+    "translatedContent": "कृपया ध्यान दें कि आपके मूल्यांकन प्रक्रिया से पहले, जब Docker डेटाबेस लोड करता है, तो पर्यावरण असंगति के कारण कभी-कभी त्रुटियाँ आ सकती हैं (ये प्रक्रिया को समाप्त नहीं करेंगी, लेकिन Docker लॉग में दिखाई देंगी)। परिणामस्वरूप, कुछ डेटाबेस सही तरीके से लोड नहीं हो पाएंगी, जिससे खाली डेटाबेस बनेंगी। यह मूल्यांकन परिणामों को असामान्य रूप से कम कर देगा।  "
   },
   {
     "row": 21,
     "rowsha": "j3WE+j5u8Ng3SBgrMG35Bm6kDWNOXEnVhxpRhR2BM9w=",
     "originContent": "👉 Therefore, we strongly recommend checking the Docker logs for any errors **before running the evaluation** and verifying that all databases have been successfully loaded.",
-    "translatedContent": "👉 इसलिए, हम दृढ़ता से अनुशंसा करते हैं कि मूल्यांकन चलाने से **पहले** Docker लॉग में किसी भी त्रुटि की जाँच करें और सुनिश्चित करें कि सभी डेटाबेस सफलतापूर्वक लोड हो गए हैं।"
+    "translatedContent": "👉 इसलिए, हम दृढ़ता से अनुशंसा करते हैं कि **मूल्यांकन चलाने से पहले** Docker लॉग में किसी भी त्रुटि की जाँच करें और यह सुनिश्चित करें कि सभी डेटाबेस सफलतापूर्वक लोड हो गई हैं।"
   },
   {
     "row": 22,
@@ -135,7 +135,7 @@
     "row": 23,
     "rowsha": "KZY6Bs9wH08P6UdsDB5l8Z8KG67bCsVs1bNYgNPcdj8=",
     "originContent": "👉 We have updated the **Submission Guidelines**, where the customized agent scaffolds are supported. Please feel free to take a look at our detailed submission guidelines [here](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true).",
-    "translatedContent": "👉 हमने **Submission Guidelines** को अपडेट किया है, जिसमें कस्टमाइज्ड एजेंट स्कैफोल्ड्स को सपोर्ट किया गया है। कृपया हमारे विस्तृत सबमिशन दिशानिर्देशों को [यहाँ](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true) देखें।"
+    "translatedContent": "👉 हमने **सबमिशन गाइडलाइन्स** को अपडेट किया है, जिसमें कस्टमाइज्ड एजेंट स्कैफोल्ड्स सपोर्टेड हैं। कृपया हमारे विस्तृत सबमिशन गाइडलाइन्स को [यहाँ](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true) देखें।"
   },
   {
     "row": 24,
@@ -157,9 +157,9 @@
   },
   {
     "row": 27,
-    "rowsha": "reJG5vUvGg3VLe761fXkWTV0AFcCTZQSTJylxcqjU54=",
-    "originContent": "- [2026-02-08] 🔥🔥🔥 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** has beed accepted at **ICLR 2026 (Oral)**! See you in Rio 🇧🇷!  ",
-    "translatedContent": "- [2026-02-08] 🔥🔥🔥 हमारा **[Bird-Interact पेपर](https://huggingface.co/papers/2510.05318)** **ICLR 2026 (Oral)** में स्वीकार हो गया है! मिलते हैं रियो 🇧🇷 में!  "
+    "rowsha": "Nr837Y4ROKJUwP7LbyViQ0/aDKhL6OpRwXQ3tEhCgoM=",
+    "originContent": "- [2026-03-29] 🔥🔥🔥 **BIRD-Interact-ADK**: We release **[BIRD-Interact-ADK](./BIRD-Interact-ADK/)**, a Google ADK-based implementation with modular 3-microservices (agent, user simulator, and DB Env) architecture. Easily swap in your own agent, user simulator, or DB environment. Supports parallel execution and any [LiteLlm-compatible](https://docs.litellm.ai/docs/providers) LLM provider. Recommend to use this implementation for your research.",
+    "translatedContent": "- [2026-03-29] 🔥🔥🔥 **BIRD-Interact-ADK**: हम **[BIRD-Interact-ADK](./BIRD-Interact-ADK/)** जारी कर रहे हैं, जो Google ADK-आधारित कार्यान्वयन है जिसमें 3-माइक्रोसर्विस (एजेंट, यूजर सिम्युलेटर, और DB Env) के मॉड्यूलर आर्किटेक्चर हैं। आप आसानी से अपना खुद का एजेंट, यूजर सिम्युलेटर या DB वातावरण बदल सकते हैं। समानांतर निष्पादन और किसी भी [LiteLlm-संगत](https://docs.litellm.ai/docs/providers) LLM प्रदाता को सपोर्ट करता है। आपके अनुसंधान के लिए इस कार्यान्वयन का उपयोग करने की सलाह दी जाती है।"
   },
   {
     "row": 28,
@@ -169,9 +169,9 @@
   },
   {
     "row": 29,
-    "rowsha": "Z1U72G8iUw35F0VXT/QQ4hHQgL/nwD4xFuSMH8lzboc=",
-    "originContent": "- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.",
-    "translatedContent": "- [2025-11-06] 🐛 **बग फिक्स** & 🐳 **Docker अपडेट**: sqlglot संस्करण को 26.16.4 में अपडेट किया गया है ताकि उपयोगकर्ता सिम्युलेटर के लिए SQL पार्सर SQL को सही से पार्स नहीं कर पाने की समस्या का समाधान किया जा सके। आप इसे `pip install sqlglot==26.16.4` द्वारा `bird_interact_eval` एन्वायरमेंट में पुनः स्थापित कर सकते हैं। `bird_interact_eval` इमेज भी अपडेट की गई है, इसलिए आप उसे खींच सकते हैं और `bird_interact_eval` कंटेनर को फिर से बना सकते हैं।"
+    "rowsha": "reJG5vUvGg3VLe761fXkWTV0AFcCTZQSTJylxcqjU54=",
+    "originContent": "- [2026-02-08] 🔥🔥🔥 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** has beed accepted at **ICLR 2026 (Oral)**! See you in Rio 🇧🇷!  ",
+    "translatedContent": "- [2026-02-08] 🔥🔥🔥 हमारा **[Bird-Interact पेपर](https://huggingface.co/papers/2510.05318)** **ICLR 2026 (ओरल)** में स्वीकार किया गया है! रियो 🇧🇷 में मिलते हैं!  "
   },
   {
     "row": 30,
@@ -181,9 +181,9 @@
   },
   {
     "row": 31,
-    "rowsha": "lMr4RDYFItZ9CRw58CMm96RH+m1TG6qtPaypnv8airE=",
-    "originContent": "- [2025-10-21] 🐳 **Docker update**: We added the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually!",
-    "translatedContent": "- [2025-10-21] 🐳 **Docker अपडेट**: हमने Full DB Env के लिए docker जोड़ा है। और हमने 3 docker इमेज (Base/Full DB Env और मूल्यांकन के लिए दोनों `a-Interact` और `c-Interact`) Docker Hub पर अपलोड की हैं ताकि पर्यावरण सेटअप आसान हो सके। अब DB dumps डाउनलोड करने और इमेज मैन्युअली बनाने की ज़रूरत नहीं है!"
+    "rowsha": "Z1U72G8iUw35F0VXT/QQ4hHQgL/nwD4xFuSMH8lzboc=",
+    "originContent": "- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.",
+    "translatedContent": "- [2025-11-06] 🐛 **बग फिक्स** & 🐳 **Docker अपडेट**: sqlglot संस्करण को 26.16.4 पर अपडेट किया गया है ताकि यूजर सिम्युलेटर के लिए SQL पार्सर में सही SQL पार्सिंग की समस्या ठीक की जा सके। आप इसे `pip install sqlglot==26.16.4` कमांड से `bird_interact_eval` वातावरण में फिर से इंस्टॉल कर सकते हैं। `bird_interact_eval` इमेज भी अपडेट की गई है, तो आप इसे पुल करके `bird_interact_eval` कंटेनर को फिर से बना सकते हैं।"
   },
   {
     "row": 32,
@@ -193,93 +193,93 @@
   },
   {
     "row": 33,
+    "rowsha": "lMr4RDYFItZ9CRw58CMm96RH+m1TG6qtPaypnv8airE=",
+    "originContent": "- [2025-10-21] 🐳 **Docker update**: We added the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually!",
+    "translatedContent": "- [2025-10-21] 🐳 **Docker अपडेट**: हमने Full DB Env के लिए docker जोड़ दिया है। और हमने 3 docker इमेज (Base/Full DB Env और मूल्यांकन वातावरण दोनों के लिए `a-Interact` और `c-Interact`) Docker Hub पर अपलोड की हैं ताकि पर्यावरण सेटअप आसान हो सके। अब DB dumps डाउनलोड करने और इमेज मैन्युअली बनाने की जरूरत नहीं!"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
     "rowsha": "1Idw1dJinQ5ViE9XSo3nl6paFvPhRHLVF82HX7wrKMQ=",
     "originContent": "- [2025-10-08] 📝 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** is now publicly available!  ",
     "translatedContent": "- [2025-10-08] 📝 हमारा **[Bird-Interact पेपर](https://huggingface.co/papers/2510.05318)** अब सार्वजनिक रूप से उपलब्ध है!  "
   },
   {
-    "row": 34,
+    "row": 36,
     "rowsha": "CyhZ3V3Xw21cqVgFeKohnC9M+zgHFv7iAcLiXcj7GyI=",
     "originContent": "  It presents the full details, methodology, and evaluation of our interactive text-to-SQL benchmark.  ",
-    "translatedContent": "  इसमें हमारे इंटरएक्टिव टेक्स्ट-टू-SQL बेंचमार्क की पूरी जानकारी, कार्यप्रणाली और मूल्यांकन प्रस्तुत किया गया है।  "
+    "translatedContent": "  इसमें हमारे इंटरएक्टिव टेक्स्ट-टू-SQL बेंचमार्क की पूरी जानकारी, कार्यप्रणाली, और मूल्यांकन प्रस्तुत किए गए हैं।  "
   },
   {
-    "row": 35,
+    "row": 37,
     "rowsha": "5LLNJEctcvyORsxcmNT01K5A7hUbbXe73EKwGwkOgMI=",
     "originContent": "  👉 Check it out and know more about the ideas behind [BIRD-Interact](https://bird-interact.github.io/).",
-    "translatedContent": "  👉 इसे देखें और [BIRD-Interact](https://bird-interact.github.io/) के पीछे के विचारों को जानें।"
+    "translatedContent": "  👉 इसे देखें और [BIRD-Interact](https://bird-interact.github.io/) के पीछे के विचारों के बारे में जानें।"
   },
   {
-    "row": 36,
+    "row": 38,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 37,
+    "row": 39,
     "rowsha": "p8U7kXBDyt7dTwl5nGd41SRQeVKq/0RgaX0XX6TqnW4=",
     "originContent": "- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  ",
-    "translatedContent": "- [2025-08-26] 🚀 हम **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** सेट के रिलीज की घोषणा करते हुए उत्साहित हैं!  "
+    "translatedContent": "- [2025-08-26] 🚀 हमें **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** सेट जारी करने की घोषणा करते हुए खुशी हो रही है!  "
   },
   {
-    "row": 38,
+    "row": 40,
     "rowsha": "cZRLL0Cl1abpLmEsXUNPMa1FqgTG/AiR4Rta4dhhpzk=",
     "originContent": "It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  ",
-    "translatedContent": "यह कठिन है — सर्वश्रेष्ठ LLMs केवल **16.33%** सफलता दर प्राप्त कर रहे हैं, जिसमें `c-interact` और `a-interact` हिस्सों पर सिर्फ **10.0%** है।  "
+    "translatedContent": "यह कठिन है — सर्वश्रेष्ठ LLMs केवल **16.33%** सफलता दर प्राप्त कर रहे हैं, और `c-interact` व `a-interact` हिस्सों में केवल **10.0%**।  "
   },
   {
-    "row": 39,
+    "row": 41,
     "rowsha": "uTh0Lj92DZu8zFDeupB/DHZqDkNrQJVNtDYmELxeRQg=",
     "originContent": "👉 For more details, please visit our [project website](https://bird-interact.github.io/).",
     "translatedContent": "👉 अधिक जानकारी के लिए कृपया हमारे [प्रोजेक्ट वेबसाइट](https://bird-interact.github.io/) पर जाएँ।"
   },
   {
-    "row": 40,
+    "row": 42,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
-  },
-  {
-    "row": 41,
-    "rowsha": "njQxscmq+qoQRPFHu4zV50Xh0Om7eNBkzAW8d5sodrI=",
-    "originContent": "- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  ",
-    "translatedContent": "- [2025-08-26] 📬 हम इस सप्ताह अपने मेलिंग लिस्ट को **ग्राउंड ट्रुथ और टेस्ट केस** भेजेंगे।  "
-  },
-  {
-    "row": 42,
-    "rowsha": "HwzWO9mNhKPLTQfQ12WsbYV1MagdQY+HJT7EgFcBByA=",
-    "originContent": "If you want early access, please send an email as instructed on the site for an **automatic download**.  ",
-    "translatedContent": "यदि आप शीघ्र एक्सेस चाहते हैं, तो साइट पर दिए गए निर्देशानुसार ईमेल भेजें ताकि **स्वचालित डाउनलोड** प्राप्त कर सकें।  "
   },
   {
     "row": 43,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "njQxscmq+qoQRPFHu4zV50Xh0Om7eNBkzAW8d5sodrI=",
+    "originContent": "- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  ",
+    "translatedContent": "- [2025-08-26] 📬 हम इस सप्ताह अपने मेलिंग लिस्ट पर **ग्राउंड ट्रूथ और टेस्ट केस** भेजेंगे।  "
   },
   {
     "row": 44,
-    "rowsha": "PdfleL4UEb/TpBvwZuRBaqVEtkXfwgIc/mpYLMRWtyc=",
-    "originContent": "- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  ",
-    "translatedContent": "- [2025-08-26] 💾 एक और जानकारी के लिए, हमने **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** का SQLite संस्करण भी जारी किया है, जिससे स्थानीय शोध आसान हो सके।  "
+    "rowsha": "HwzWO9mNhKPLTQfQ12WsbYV1MagdQY+HJT7EgFcBByA=",
+    "originContent": "If you want early access, please send an email as instructed on the site for an **automatic download**.  ",
+    "translatedContent": "यदि आप जल्दी एक्सेस चाहते हैं, तो साइट पर दिए गए निर्देशानुसार ईमेल भेजें ताकि आपको **स्वचालित डाउनलोड** मिल सके।  "
   },
   {
     "row": 45,
-    "rowsha": "VxoqSMB6TpN2zObl1GDfFf/otbnzKtVIHirvSq2F8zI=",
-    "originContent": "The full **LiveSQLBench-Base** and **-Large** versions are coming soon!",
-    "translatedContent": "पूर्ण **LiveSQLBench-Base** और **-Large** संस्करण जल्द ही आ रहे हैं!"
-  },
-  {
-    "row": 46,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 46,
+    "rowsha": "PdfleL4UEb/TpBvwZuRBaqVEtkXfwgIc/mpYLMRWtyc=",
+    "originContent": "- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  ",
+    "translatedContent": "- [2025-08-26] 💾 एक अन्य सूचना में, हमने **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** का SQLite संस्करण भी जारी किया है ताकि स्थानीय शोध आसान हो सके।  "
+  },
+  {
     "row": 47,
-    "rowsha": "73VPSBicTOvoCvqOPfsvXHp4/SFquVX6NiITz3mxcnk=",
-    "originContent": "- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
-    "translatedContent": "- [2025-08-22] **बग फिक्स**: Bird-Interact-Agent कोड में, हमने एक बग ठीक किया है जिसमें phase-2 SQL के मूल्यांकन के दौरान, स्टोर किया गया phase-1 SQL सफलतापूर्वक निष्पादित नहीं हो पाता था, जिससे Phase-2 की सफलता दर कम हो जाती थी। यह बग केवल उन्हीं कार्यों को प्रभावित करता है जहाँ phase1 sql डेटाबेस पर कोई ऑपरेशन करता है, जैसे CREATE table आदि।"
+    "rowsha": "VxoqSMB6TpN2zObl1GDfFf/otbnzKtVIHirvSq2F8zI=",
+    "originContent": "The full **LiveSQLBench-Base** and **-Large** versions are coming soon!",
+    "translatedContent": "पूर्ण **LiveSQLBench-Base** और **-Large** संस्करण जल्द ही आ रहे हैं!"
   },
   {
     "row": 48,
@@ -289,9 +289,9 @@
   },
   {
     "row": 49,
-    "rowsha": "QhSpt0Gs7Alk+veU+/7r5eBWjEmUPNckehpOkHHTFfY=",
-    "originContent": "## 🧸 Overview",
-    "translatedContent": "## 🧸 अवलोकन"
+    "rowsha": "73VPSBicTOvoCvqOPfsvXHp4/SFquVX6NiITz3mxcnk=",
+    "originContent": "- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
+    "translatedContent": "- [2025-08-22] **बग फिक्स**: Bird-Interact-Agent कोड में, हमने एक बग ठीक किया है जिसमें फेज-2 SQL का मूल्यांकन करते समय, स्टोर किया गया फेज-1 SQL सफलतापूर्वक निष्पादित नहीं हो पाता था, जिससे फेज-2 की सफलता दर कम हो जाती थी। यह बग केवल उन कार्यों को प्रभावित करता था जहां फेज-1 SQL डेटाबेस पर कुछ ऑपरेशन्स करता है, जैसे CREATE table आदि।"
   },
   {
     "row": 50,
@@ -301,69 +301,69 @@
   },
   {
     "row": 51,
-    "rowsha": "9U1B81vOnyeDPKlxb6O3XC4FXh0hbLXH8V57gCGlb0Q=",
-    "originContent": "BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.",
-    "translatedContent": "BIRD-INTERACT, एक इंटरएक्टिव टेक्स्ट-टू-SQL बेंचमार्क है, जो **Text-to-SQL मूल्यांकन को डायनामिक इंटरएक्शन के दृष्टिकोण से पुनः परिभाषित करता है**।"
+    "rowsha": "QhSpt0Gs7Alk+veU+/7r5eBWjEmUPNckehpOkHHTFfY=",
+    "originContent": "## 🧸 Overview",
+    "translatedContent": "## 🧸 अवलोकन"
   },
   {
     "row": 52,
-    "rowsha": "84g83RdosxtgIw+gRwhL1ror9irKd50meUk3EOxrDGA=",
-    "originContent": "The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.",
-    "translatedContent": "यह वातावरण एक पदानुक्रमित ज्ञान आधार, डेटाबेस डाक्यूमेंटेशन और एक फंक्शन-चालित यूजर सिम्युलेटर को मिलाकर प्रामाणिक एंटरप्राइज वातावरण तैयार करता है, जिसमें पूर्ण **CRUD** संचालन शामिल हैं।"
-  },
-  {
-    "row": 53,
-    "rowsha": "9KzX3dvnS81NZYRZ9Lky7nqmWEbBkaBCTMs8AamBzSA=",
-    "originContent": "It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.",
-    "translatedContent": "यह दो कठोर परीक्षण मोड्स प्रदान करता है: (1) निष्क्रिय **संवादी इंटरएक्शन** और (2) सक्रिय **एजेंटिक इंटरएक्शन**, जिसमें 600 एनोटेटेड टास्क्स शामिल हैं जैसे बिजनेस इंटेलिजेंस (BI), CRUD संचालन आदि, प्रत्येक कार्य के लिए निष्पाद्य टेस्ट केस द्वारा संरक्षित।"
-  },
-  {
-    "row": 54,
-    "rowsha": "mpc5AeXDAHxdj52GwIefEDRc0bpXki0gsoYNYWijI0c=",
-    "originContent": "Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.",
-    "translatedContent": "सामान्य मूल्यांकन में मॉडल और यूजर सिम्युलेटर के बीच 1,968-5,496 इंटरएक्शन टर्न्स होते हैं, जबकि अत्याधुनिक रीजनिंग मॉडल वर्तमान में केवल **≈24%** और **≈18%** कार्य ही हल कर पाते हैं, जो बेंचमार्क की चुनौती को दर्शाता है।"
-  },
-  {
-    "row": 55,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 53,
+    "rowsha": "9U1B81vOnyeDPKlxb6O3XC4FXh0hbLXH8V57gCGlb0Q=",
+    "originContent": "BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.",
+    "translatedContent": "BIRD-INTERACT, एक इंटरएक्टिव टेक्स्ट-टू-SQL बेंचमार्क, **डायनामिक इंटरैक्शन के दृष्टिकोण से Text-to-SQL मूल्यांकन की पुनर्कल्पना करता है**।"
+  },
+  {
+    "row": 54,
+    "rowsha": "84g83RdosxtgIw+gRwhL1ror9irKd50meUk3EOxrDGA=",
+    "originContent": "The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.",
+    "translatedContent": "यह वातावरण एक पदानुक्रमित नॉलेज बेस, डेटाबेस डाक्यूमेंटेशन और फंक्शन-ड्रिवन यूजर सिम्युलेटर को मिलाकर प्रामाणिक एंटरप्राइज वातावरण की पुनर्रचना करता है, जिसमें पूर्ण **CRUD** ऑपरेशन्स शामिल हैं।"
+  },
+  {
+    "row": 55,
+    "rowsha": "9KzX3dvnS81NZYRZ9Lky7nqmWEbBkaBCTMs8AamBzSA=",
+    "originContent": "It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.",
+    "translatedContent": "यह दो सख्त टेस्ट मोड प्रदान करता है: (1) पैसिव **कन्वर्सेशनल इंटरैक्शन** और (2) एक्टिव **एजेंटिक इंटरैक्शन**, जिसमें 600 एनोटेटेड टास्क्स शामिल हैं जैसे कि बिजनेस इंटेलिजेंस (BI), CRUD ऑपरेशन्स आदि, प्रत्येक को निष्पादनीय टेस्ट केस द्वारा सुरक्षित किया गया है।"
+  },
+  {
     "row": 56,
+    "rowsha": "mpc5AeXDAHxdj52GwIefEDRc0bpXki0gsoYNYWijI0c=",
+    "originContent": "Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.",
+    "translatedContent": "टिपिकल मूल्यांकन में मॉडल और यूजर सिम्युलेटर के बीच 1,968-5,496 इंटरैक्शन टर्न्स होते हैं, जबकि अत्याधुनिक रीजनिंग मॉडल फिलहाल केवल **≈24%** और **≈18%** कार्य हल कर पाते हैं, जो बेंचमार्क की चुनौती को दर्शाता है।"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
     "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
     "originContent": "<p align=\"center\">",
     "translatedContent": "<p align=\"center\">"
   },
   {
-    "row": 57,
+    "row": 59,
     "rowsha": "75rx/bZj6j98j3RNS6gpBC2JCE4XvCP27x7SUM1Pp/k=",
     "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" ",
     "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" "
   },
   {
-    "row": 58,
+    "row": 60,
     "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
     "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
     "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
   },
   {
-    "row": 59,
+    "row": 61,
     "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
     "originContent": "</p>",
     "translatedContent": "</p>"
-  },
-  {
-    "row": 60,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 61,
-    "rowsha": "a+eobES8Y0aPdgWyMeEskYpAfe5mRRebAHJzTW4BWXY=",
-    "originContent": "### ✅ Two Evaluation Modes",
-    "translatedContent": "### ✅ दो मूल्यांकन मोड"
   },
   {
     "row": 62,
@@ -373,9 +373,9 @@
   },
   {
     "row": 63,
-    "rowsha": "rQgxc4D2aLnRS+OWIF63LnqSZtF255KZkRId/tY989s=",
-    "originContent": "BIRD-INTERACT supports two evaluation modes as mentioned above:",
-    "translatedContent": "BIRD-INTERACT उपरोक्त दोनों मूल्यांकन मोड का समर्थन करता है:"
+    "rowsha": "a+eobES8Y0aPdgWyMeEskYpAfe5mRRebAHJzTW4BWXY=",
+    "originContent": "### ✅ Two Evaluation Modes",
+    "translatedContent": "### ✅ दो मूल्यांकन मोड"
   },
   {
     "row": 64,
@@ -385,33 +385,33 @@
   },
   {
     "row": 65,
-    "rowsha": "doLQcF2moo95fuQb//rTr1wBmz+PRVTsyIDgCDLJCr0=",
-    "originContent": "   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.",
-    "translatedContent": "   - **c-Interact**: संवादी इंटरएक्शन, जो एक निष्क्रिय मोड है और इसका वर्कफ्लो फिक्स्ड है। कोड और विस्तृत जानकारी `bird_interact_conv` में पाई जा सकती है।"
+    "rowsha": "rQgxc4D2aLnRS+OWIF63LnqSZtF255KZkRId/tY989s=",
+    "originContent": "BIRD-INTERACT supports two evaluation modes as mentioned above:",
+    "translatedContent": "BIRD-INTERACT उपर्युक्त दो मूल्यांकन मोड का समर्थन करता है:"
   },
   {
     "row": 66,
-    "rowsha": "DPbnNKRyhiwaDJCP/LcyBaIbe1AFeT6wnnTq78NCOrw=",
-    "originContent": "   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.",
-    "translatedContent": "   - **a-Interact**: एजेंटिक इंटरएक्शन, जो एक सजीव सक्रिय मोड है जहाँ वर्कफ्लो डायनामिक होता है और मॉडल द्वारा संचालित होता है। कोड और विस्तृत जानकारी `bird_interact_agent` में पाई जा सकती है।"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 67,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "doLQcF2moo95fuQb//rTr1wBmz+PRVTsyIDgCDLJCr0=",
+    "originContent": "   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.",
+    "translatedContent": "   - **c-Interact**: कन्वर्सेशनल इंटरैक्शन, जो एक पैसिव मोड है और वर्कफ़्लो फिक्स्ड है। कोड और विस्तृत जानकारी `bird_interact_conv` में मिल सकती है।"
   },
   {
     "row": 68,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "DPbnNKRyhiwaDJCP/LcyBaIbe1AFeT6wnnTq78NCOrw=",
+    "originContent": "   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.",
+    "translatedContent": "   - **a-Interact**: एजेंटिक इंटरैक्शन, जो एक एम्बॉडीड एक्टिव मोड है, जिसमें वर्कफ़्लो डायनामिक होता है और मॉडल्स द्वारा संचालित होता है। कोड और विस्तृत जानकारी `bird_interact_agent` में मिल सकती है।"
   },
   {
     "row": 69,
-    "rowsha": "q5RzZ4z97zBrs0+Wz0A587XCSPhq1czDbEhkpV+/69A=",
-    "originContent": "### 🐣 Lite Version",
-    "translatedContent": "### 🐣 लाइट संस्करण"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 70,
@@ -421,9 +421,9 @@
   },
   {
     "row": 71,
-    "rowsha": "2CBSzGJ6FluIx3SWGBCAVjhuaYkr5V5Oouf6TjmieCI=",
-    "originContent": "We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. ",
-    "translatedContent": "हम BIRD-INTERACT का एक लाइट संस्करण जारी कर रहे हैं, `bird-interact-lite-exp`, जिसमें PostgreSQL के लिए विशेष रूप से 270 उच्च गुणवत्ता वाले वास्तविक कार्य शामिल हैं। यह त्वरित प्रयोग के लिए एक अच्छा प्रारंभिक बिंदु है। "
+    "rowsha": "q5RzZ4z97zBrs0+Wz0A587XCSPhq1czDbEhkpV+/69A=",
+    "originContent": "### 🐣 Lite Version",
+    "translatedContent": "### 🐣 लाइट संस्करण"
   },
   {
     "row": 72,
@@ -433,9 +433,9 @@
   },
   {
     "row": 73,
-    "rowsha": "4NEf5b/8pW3NO+wyiruRc0fUjzemeI1cDyHO3LSPcQ8=",
-    "originContent": "### 🦜 Full Version",
-    "translatedContent": "### 🦜 पूर्ण संस्करण"
+    "rowsha": "2CBSzGJ6FluIx3SWGBCAVjhuaYkr5V5Oouf6TjmieCI=",
+    "originContent": "We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. ",
+    "translatedContent": "हम BIRD-INTERACT का एक लाइट संस्करण, `bird-interact-lite-exp`, जारी कर रहे हैं, जिसमें विशेष रूप से PostgreSQL के लिए 270 उच्च-गुणवत्ता वाले वास्तविक-विश्व कार्य शामिल हैं। यह त्वरित प्रयोग के लिए एक अच्छा प्रारंभिक बिंदु है। "
   },
   {
     "row": 74,
@@ -445,9 +445,9 @@
   },
   {
     "row": 75,
-    "rowsha": "qxVDafA3gAj2+/1PZQ/Sh9MVXNARM4e0D2YJ1qokJO8=",
-    "originContent": "The full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.",
-    "translatedContent": "BIRD-INTERACT का पूर्ण संस्करण, `bird-interact-full`, एक व्यापक बेंचमार्क है जिसमें PostgreSQL के लिए 600 कार्य शामिल हैं। इसमें SQL संचालन और यूजर क्वेरीज़ की विस्तृत श्रृंखला शामिल है। पूर्ण संस्करण शीघ्र ही आ रहा है।"
+    "rowsha": "4NEf5b/8pW3NO+wyiruRc0fUjzemeI1cDyHO3LSPcQ8=",
+    "originContent": "### 🦜 Full Version",
+    "translatedContent": "### 🦜 पूर्ण संस्करण"
   },
   {
     "row": 76,
@@ -457,9 +457,9 @@
   },
   {
     "row": 77,
-    "rowsha": "e1fVIRnf5DJBlNl7U6EoyQI0eVJkYgfI3rTGBDoYd2M=",
-    "originContent": "### Model Performance Results on BIRD-INTERACT-FULL",
-    "translatedContent": "### BIRD-INTERACT-FULL पर मॉडल प्रदर्शन परिणाम"
+    "rowsha": "qxVDafA3gAj2+/1PZQ/Sh9MVXNARM4e0D2YJ1qokJO8=",
+    "originContent": "The full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.",
+    "translatedContent": "BIRD-INTERACT का पूर्ण संस्करण, `bird-interact-full`, एक व्यापक बेंचमार्क है जिसमें PostgreSQL के लिए 600 कार्य शामिल हैं। इसमें विभिन्न प्रकार के SQL ऑपरेशन्स और यूजर क्वेरीज़ शामिल हैं। पूर्ण संस्करण जल्द आ रहा है।"
   },
   {
     "row": 78,
@@ -469,141 +469,141 @@
   },
   {
     "row": 79,
-    "rowsha": "R2z5Tn93qsANHvoKru7vIhL4TbniwafDJfbyihPd/Ug=",
-    "originContent": "#### 1. **c-Interact Text-to-SQL** Performance",
-    "translatedContent": "#### 1. **c-Interact टेक्स्ट-टू-SQL** प्रदर्शन"
+    "rowsha": "e1fVIRnf5DJBlNl7U6EoyQI0eVJkYgfI3rTGBDoYd2M=",
+    "originContent": "### Model Performance Results on BIRD-INTERACT-FULL",
+    "translatedContent": "### BIRD-INTERACT-FULL पर मॉडल प्रदर्शन परिणाम"
   },
   {
     "row": 80,
-    "rowsha": "Jq9h6d3xn5I7dko6pYZ1kyE7T6AkdSWLxen/zAFM3fQ=",
-    "originContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level              |",
-    "translatedContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level              |"
-  },
-  {
-    "row": 81,
-    "rowsha": "qk5BEHvGn26A4xMQOUxlM81RNWe62xncRk4IjTUEgFk=",
-    "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|",
-    "translatedContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|"
-  },
-  {
-    "row": 82,
-    "rowsha": "niovxHIv8QBH9Vb49dzVyYEQLTFso9bR0DXVaoZc0Tc=",
-    "originContent": "| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 Excellent Chat  |",
-    "translatedContent": "| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 उत्कृष्ट चैट    |"
-  },
-  {
-    "row": 83,
-    "rowsha": "efdWY6XZofU3BTXM7X1QSU3bodDl2zUs6qXYgYo/lDQ=",
-    "originContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 Excellent Chat  |",
-    "translatedContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 उत्कृष्ट चैट    |"
-  },
-  {
-    "row": 84,
-    "rowsha": "nviRDKmcMgsryACogpf/kuPovN+vvfQZ7jOR25fdTZs=",
-    "originContent": "| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 Good Chat       |",
-    "translatedContent": "| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 अच्छा चैट       |"
-  },
-  {
-    "row": 85,
-    "rowsha": "RvN9yOCl1wRxaTwNu/KOntIycX4eUDfB5hhxokbPVMk=",
-    "originContent": "| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 Good Chat       |",
-    "translatedContent": "| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 अच्छा चैट       |"
-  },
-  {
-    "row": 86,
-    "rowsha": "XnrIVaEU6JsLcBVIdTctBZgL3b5qOsvnbLFzA/dVvuc=",
-    "originContent": "| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ Standard        |",
-    "translatedContent": "| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ मानक            |"
-  },
-  {
-    "row": 87,
-    "rowsha": "i38LlBHIyjGbWdptOTFVCVg9koB64mcJiF+2JcIiv8M=",
-    "originContent": "| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ Standard        |",
-    "translatedContent": "| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ मानक            |"
-  },
-  {
-    "row": 88,
-    "rowsha": "YfmrCm2i7EZR0ehYI/xncYwVmDUeNwVfSh2xtrrWf0g=",
-    "originContent": "| 7    | GPT-5              | 12.58             | $0.08               | ⚪ Basic           |",
-    "translatedContent": "| 7    | GPT-5              | 12.58             | $0.08               | ⚪ बुनियादी        |"
-  },
-  {
-    "row": 89,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 81,
+    "rowsha": "R2z5Tn93qsANHvoKru7vIhL4TbniwafDJfbyihPd/Ug=",
+    "originContent": "#### 1. **c-Interact Text-to-SQL** Performance",
+    "translatedContent": "#### 1. **c-Interact Text-to-SQL** प्रदर्शन"
+  },
+  {
+    "row": 82,
+    "rowsha": "Jq9h6d3xn5I7dko6pYZ1kyE7T6AkdSWLxen/zAFM3fQ=",
+    "originContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level              |",
+    "translatedContent": "| Rank | मॉडल नाम           | सामान्यीकृत इनाम   | औसत लागत (USD)/कार्य | स्तर                |"
+  },
+  {
+    "row": 83,
+    "rowsha": "qk5BEHvGn26A4xMQOUxlM81RNWe62xncRk4IjTUEgFk=",
+    "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|",
+    "translatedContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:-------------------:|"
+  },
+  {
+    "row": 84,
+    "rowsha": "niovxHIv8QBH9Vb49dzVyYEQLTFso9bR0DXVaoZc0Tc=",
+    "originContent": "| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 Excellent Chat  |",
+    "translatedContent": "| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 उत्कृष्ट चैट      |"
+  },
+  {
+    "row": 85,
+    "rowsha": "efdWY6XZofU3BTXM7X1QSU3bodDl2zUs6qXYgYo/lDQ=",
+    "originContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 Excellent Chat  |",
+    "translatedContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 उत्कृष्ट चैट      |"
+  },
+  {
+    "row": 86,
+    "rowsha": "nviRDKmcMgsryACogpf/kuPovN+vvfQZ7jOR25fdTZs=",
+    "originContent": "| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 Good Chat       |",
+    "translatedContent": "| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 अच्छा चैट         |"
+  },
+  {
+    "row": 87,
+    "rowsha": "RvN9yOCl1wRxaTwNu/KOntIycX4eUDfB5hhxokbPVMk=",
+    "originContent": "| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 Good Chat       |",
+    "translatedContent": "| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 अच्छा चैट         |"
+  },
+  {
+    "row": 88,
+    "rowsha": "XnrIVaEU6JsLcBVIdTctBZgL3b5qOsvnbLFzA/dVvuc=",
+    "originContent": "| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ Standard        |",
+    "translatedContent": "| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ मानक             |"
+  },
+  {
+    "row": 89,
+    "rowsha": "i38LlBHIyjGbWdptOTFVCVg9koB64mcJiF+2JcIiv8M=",
+    "originContent": "| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ Standard        |",
+    "translatedContent": "| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ मानक             |"
+  },
+  {
     "row": 90,
+    "rowsha": "YfmrCm2i7EZR0ehYI/xncYwVmDUeNwVfSh2xtrrWf0g=",
+    "originContent": "| 7    | GPT-5              | 12.58             | $0.08               | ⚪ Basic           |",
+    "translatedContent": "| 7    | GPT-5              | 12.58             | $0.08               | ⚪ बुनियादी          |"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
     "rowsha": "Tqql2jza5bb6QlmVOGBB9geprkhJKPZ1jY96SFwnhVQ=",
     "originContent": "#### 2. **a-Interact Text-to-SQL** Performance",
     "translatedContent": "#### 2. **a-Interact Text-to-SQL** प्रदर्शन"
   },
   {
-    "row": 91,
+    "row": 93,
     "rowsha": "0k1L/YlMi6EJx2r9l/+p0/MoPxfokyl2yBuqVKYHrvc=",
     "originContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level                    |",
-    "translatedContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level                    |"
-  },
-  {
-    "row": 92,
-    "rowsha": "Nj7icDShMepIyOwnKPfnjIUuMT7zkHPHYxjVXL2S9PU=",
-    "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|",
-    "translatedContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|"
-  },
-  {
-    "row": 93,
-    "rowsha": "HPUqjETPdas09RgDiB02Y5JusE3mBlNYD8nz+Dx7c74=",
-    "originContent": "| 1    | GPT-5              | 25.52             | $0.24               | 🏆 Excellent Interaction |",
-    "translatedContent": "| 1    | GPT-5              | 25.52             | $0.24               | 🏆 उत्कृष्ट इंटरैक्शन    |"
+    "translatedContent": "| Rank | मॉडल नाम           | सामान्यीकृत इनाम   | औसत लागत (USD)/कार्य | स्तर                       |"
   },
   {
     "row": 94,
-    "rowsha": "bMQ3A+A1VULUzBWGbNnUcN0XlHUVtuXIr4V4Jz8vwVc=",
-    "originContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 Excellent Interaction |",
-    "translatedContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 उत्कृष्ट इंटरैक्शन    |"
+    "rowsha": "Nj7icDShMepIyOwnKPfnjIUuMT7zkHPHYxjVXL2S9PU=",
+    "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|",
+    "translatedContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:--------------------------:|"
   },
   {
     "row": 95,
-    "rowsha": "rGnh3lbAUKn9WmgeJfVg6KftnPVmhopzlz9DWoXVIXE=",
-    "originContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 Good Interaction      |",
-    "translatedContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 अच्छा इंटरैक्शन       |"
+    "rowsha": "HPUqjETPdas09RgDiB02Y5JusE3mBlNYD8nz+Dx7c74=",
+    "originContent": "| 1    | GPT-5              | 25.52             | $0.24               | 🏆 Excellent Interaction |",
+    "translatedContent": "| 1    | GPT-5              | 25.52             | $0.24               | 🏆 उत्कृष्ट इंटरैक्शन      |"
   },
   {
     "row": 96,
-    "rowsha": "4j/e+hmJNdDkZIiDoN6zuuevmfNQ0LZbddfDB7qMFQo=",
-    "originContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 Good Interaction      |",
-    "translatedContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 अच्छा इंटरैक्शन       |"
+    "rowsha": "bMQ3A+A1VULUzBWGbNnUcN0XlHUVtuXIr4V4Jz8vwVc=",
+    "originContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 Excellent Interaction |",
+    "translatedContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 उत्कृष्ट इंटरैक्शन      |"
   },
   {
     "row": 97,
-    "rowsha": "Qat+3srGhiJLNyet0Hc4k2JCHILQ8OY4Styi9pEkXmE=",
-    "originContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ Standard              |",
-    "translatedContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ मानक                 |"
+    "rowsha": "rGnh3lbAUKn9WmgeJfVg6KftnPVmhopzlz9DWoXVIXE=",
+    "originContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 Good Interaction      |",
+    "translatedContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 अच्छा इंटरैक्शन         |"
   },
   {
     "row": 98,
-    "rowsha": "J8+i15WAOqjKWwsNKKoZQtRjkMj9kns+HaUE16WPSaY=",
-    "originContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ Standard              |",
-    "translatedContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ मानक                 |"
+    "rowsha": "4j/e+hmJNdDkZIiDoN6zuuevmfNQ0LZbddfDB7qMFQo=",
+    "originContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 Good Interaction      |",
+    "translatedContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 अच्छा इंटरैक्शन         |"
   },
   {
     "row": 99,
-    "rowsha": "cAR/cpPakbQWvBq/RxtLIJ5sSCyZ8d5CpAtjqa0S1L8=",
-    "originContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ Basic                 |",
-    "translatedContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ बुनियादी              |"
+    "rowsha": "Qat+3srGhiJLNyet0Hc4k2JCHILQ8OY4Styi9pEkXmE=",
+    "originContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ Standard              |",
+    "translatedContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ मानक                   |"
   },
   {
     "row": 100,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "J8+i15WAOqjKWwsNKKoZQtRjkMj9kns+HaUE16WPSaY=",
+    "originContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ Standard              |",
+    "translatedContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ मानक                   |"
   },
   {
     "row": 101,
-    "rowsha": "+Jpw7DNyX62i16RieTingm/y9I/fbyKt3QION65wVVM=",
-    "originContent": "> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.",
-    "translatedContent": "> \\* बजट पैरामीटर: प्रारंभिक बजट/उपयोगकर्ता धैर्य बजट, हमारी वर्चुअल मुद्रा *bird-coin*s द्वारा मापा जाता है <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">। अधिक जानकारी के लिए देखें [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)।"
+    "rowsha": "cAR/cpPakbQWvBq/RxtLIJ5sSCyZ8d5CpAtjqa0S1L8=",
+    "originContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ Basic                 |",
+    "translatedContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ बुनियादी                |"
   },
   {
     "row": 102,
@@ -613,9 +613,9 @@
   },
   {
     "row": 103,
-    "rowsha": "5u3FiJW4Jxe5q1dPL28qg/MUDpTFWL7rKBi3H4FV4ns=",
-    "originContent": "### Interaction-Time Scaling (ITS)",
-    "translatedContent": "### इंटरैक्शन-टाइम स्केलिंग (ITS)"
+    "rowsha": "+Jpw7DNyX62i16RieTingm/y9I/fbyKt3QION65wVVM=",
+    "originContent": "> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.",
+    "translatedContent": "> \\* बजट पैरामीटर: प्रारंभिक बजट/यूज़र धैर्य बजट, जिसे हमारी वर्चुअल करेंसी *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\"> द्वारा मापा जाता है। अधिक जानकारी के लिए देखें [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)।"
   },
   {
     "row": 104,
@@ -625,9 +625,9 @@
   },
   {
     "row": 105,
-    "rowsha": "NwBIsVzW+kYLShpJ6rffKZncWEjgGCQhf/Ih+5DLlLU=",
-    "originContent": "Interaction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.",
-    "translatedContent": "इंटरैक्शन-टाइम स्केलिंग (ITS) एक मॉडल की क्षमता को दर्शाता है कि वह बहु-टर्न संवाद के माध्यम से लगातार अपनी अंतिम प्रदर्शन बढ़ा सकता है। जब यह इंटरैक्टिव प्रदर्शन मॉडल की आदर्श एकल-टर्न प्रदर्शन को पूरी तरह निर्दिष्ट, अस्पष्टता रहित कार्य पर पार कर जाता है, तो हम कहते हैं कि यह **ITS कानून** को संतुष्ट करता है। जैसे-जैसे उपयोगकर्ता का धैर्य बढ़ता है और इंटरैक्शन टर्न्स बढ़ते हैं, प्रदर्शन में सुधार जारी रहता है, यह दर्शाता है कि मॉडल लंबी संवाद में प्रभावी संचार बनाए रख सकता है। वर्तमान में, हम केवल claude-3-7-sonnet को ITS कानून को संतुष्ट करते हुए पाते हैं।"
+    "rowsha": "5u3FiJW4Jxe5q1dPL28qg/MUDpTFWL7rKBi3H4FV4ns=",
+    "originContent": "### Interaction-Time Scaling (ITS)",
+    "translatedContent": "### इंटरैक्शन-टाइम स्केलिंग (ITS)"
   },
   {
     "row": 106,
@@ -637,39 +637,39 @@
   },
   {
     "row": 107,
-    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
-    "originContent": "<p align=\"center\">",
-    "translatedContent": "<p align=\"center\">"
+    "rowsha": "NwBIsVzW+kYLShpJ6rffKZncWEjgGCQhf/Ih+5DLlLU=",
+    "originContent": "Interaction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.",
+    "translatedContent": "इंटरैक्शन-टाइम स्केलिंग (ITS) एक मॉडल की बहु-टर्न इंटरैक्शन के माध्यम से अपने अंतिम प्रदर्शन को लगातार बढ़ाने की क्षमता को दर्शाता है। जब यह इंटरैक्टिव प्रदर्शन मॉडल के आदर्श एकल-टर्न प्रदर्शन को पूरी तरह निर्दिष्ट, अस्पष्ट रहित कार्य पर पार कर जाता है, तब हम कहते हैं कि यह **ITS नियम** को संतुष्ट करता है। जैसे-जैसे यूज़र का धैर्य बढ़ता है और इंटरैक्शन टर्न बढ़ते हैं, प्रदर्शन में सुधार होता रहता है, यह दर्शाता है कि मॉडल विस्तारित संवाद के दौरान प्रभावी संचार बनाए रख सकता है। वर्तमान में, केवल claude-3-7-sonnet को ही ITS नियम को पूरा करते पाया गया है।"
   },
   {
     "row": 108,
-    "rowsha": "TW0AIFALwgyvJujlCuN+wyzJWtuuF1VkgusDlug821c=",
-    "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" ",
-    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" "
-  },
-  {
-    "row": 109,
-    "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
-    "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
-    "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
-  },
-  {
-    "row": 110,
-    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-    "originContent": "</p>",
-    "translatedContent": "</p>"
-  },
-  {
-    "row": 111,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 109,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 110,
+    "rowsha": "TW0AIFALwgyvJujlCuN+wyzJWtuuF1VkgusDlug821c=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" ",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" "
+  },
+  {
+    "row": 111,
+    "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
+    "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
+    "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
+  },
+  {
     "row": 112,
-    "rowsha": "GRA0o2JYSxg8X2purzLLk9Zt8XnGE8h4/VlGeFmnX9M=",
-    "originContent": "## Environment Setup",
-    "translatedContent": "## पर्यावरण सेटअप"
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
   },
   {
     "row": 113,
@@ -679,21 +679,21 @@
   },
   {
     "row": 114,
-    "rowsha": "tDbEdv5pYPB1U4PN122epOKraa/YbzS/P35WOUd0B4g=",
-    "originContent": "1. Run Docker containers for bird-interact-lite database, bird-interact-full database, and evaluation environment:",
-    "translatedContent": "1. bird-interact-lite डेटाबेस, bird-interact-full डेटाबेस, और मूल्यांकन पर्यावरण के लिए Docker कंटेनर चलाएँ:"
+    "rowsha": "GRA0o2JYSxg8X2purzLLk9Zt8XnGE8h4/VlGeFmnX9M=",
+    "originContent": "## Environment Setup",
+    "translatedContent": "## पर्यावरण सेटअप"
   },
   {
     "row": 115,
-    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
-    "originContent": "  ",
-    "translatedContent": "  "
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 116,
-    "rowsha": "4mfOdzHzqWZKB8ryaBS2m9y2OzM2DrTzHMY36nSzYxw=",
-    "originContent": "  > If you just want to evaluate on `bird-interact-lite`, you could comment out the [`postgresql_full` service](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) in `docker-compose.yml` to speed up the environment setup.",
-    "translatedContent": "  > यदि आप केवल `bird-interact-lite` पर मूल्यांकन करना चाहते हैं, तो आप [`postgresql_full` सेवा](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) को `docker-compose.yml` में टिप्पणी कर सकते हैं ताकि पर्यावरण सेटअप तेज हो सके।"
+    "rowsha": "tDbEdv5pYPB1U4PN122epOKraa/YbzS/P35WOUd0B4g=",
+    "originContent": "1. Run Docker containers for bird-interact-lite database, bird-interact-full database, and evaluation environment:",
+    "translatedContent": "1. bird-interact-lite डेटाबेस, bird-interact-full डेटाबेस और मूल्यांकन वातावरण के लिए Docker कंटेनर चलाएँ:"
   },
   {
     "row": 117,
@@ -703,105 +703,105 @@
   },
   {
     "row": 118,
-    "rowsha": "cZZ1ihyKvQOGnE8KvasnKgESAfFl1bO6WjZnSt9gOKs=",
-    "originContent": "  Start the environment by running: ",
-    "translatedContent": "  वातावरण शुरू करने के लिए निम्नलिखित चलाएँ:"
+    "rowsha": "4mfOdzHzqWZKB8ryaBS2m9y2OzM2DrTzHMY36nSzYxw=",
+    "originContent": "  > If you just want to evaluate on `bird-interact-lite`, you could comment out the [`postgresql_full` service](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) in `docker-compose.yml` to speed up the environment setup.",
+    "translatedContent": "  > यदि आप केवल `bird-interact-lite` पर मूल्यांकन करना चाहते हैं, तो आप `docker-compose.yml` में [`postgresql_full` सेवा](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) को कॉमेंट कर सकते हैं, जिससे पर्यावरण सेटअप तेज़ होगा।"
   },
   {
     "row": 119,
-    "rowsha": "GE0AusEadGNk/GYr/BF/88UKsGyopy2r8aCnyXHh4HI=",
-    "originContent": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; and **c-interact** can be found in `./bird_interact_conv/README.md`.",
-    "translatedContent": "**a-interact** चलाने के बारे में विवरण `./bird_interact_agent/README.md` में पाया जा सकता है; और **c-interact** के लिए `./bird_interact_conv/README.md` में देखा जा सकता है।"
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
   },
   {
     "row": 120,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "cZZ1ihyKvQOGnE8KvasnKgESAfFl1bO6WjZnSt9gOKs=",
+    "originContent": "  Start the environment by running: ",
+    "translatedContent": "  वातावरण शुरू करने के लिए चलाएँ:"
   },
   {
     "row": 121,
-    "rowsha": "f6chlfSVENLsNAyFyteH0qZqANkTbg9qD38E3rR7+l4=",
-    "originContent": "## 📋 Todo Lists",
-    "translatedContent": "## 📋 कार्य सूची"
+    "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+    "originContent": "   ",
+    "translatedContent": "   "
   },
   {
     "row": 122,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "B5pSKtG/+9GMzzpOYnLe7qrK6mhxroVzNZXAMDLU7hw=",
+    "originContent": "   Expected results:",
+    "translatedContent": "   अपेक्षित परिणाम:"
   },
   {
     "row": 123,
-    "rowsha": "EL1NQH2bug6G0ymI/d6FG7PFV2GnkPXixeKmwZPR78w=",
-    "originContent": "- [x] Release lite version, bird-interact-lite (270).",
-    "translatedContent": "- [x] लाइट संस्करण जारी किया गया, bird-interact-lite (270)।"
+    "rowsha": "FkBt4PLZIutayIU1YZJtJRqONA4bkIfhbQ275Yq+F5s=",
+    "originContent": "   - **bird-interact-lite**: ",
+    "translatedContent": "   - **bird-interact-lite**: "
   },
   {
     "row": 124,
-    "rowsha": "hKBdzfGYA7Z4jZ++QUac0jtKAk4XdrT5WpTUG30vQPQ=",
-    "originContent": "- [x] Release conversational version, bird-interact-conv.",
-    "translatedContent": "- [x] संवादात्मक संस्करण जारी किया गया, bird-interact-conv।"
+    "rowsha": "5NWsT0Fd8R2v0vCGbwQKqvSwN3EhM1t4XrItZ4IyQq0=",
+    "originContent": "     - 📈 Total Databases: 18",
+    "translatedContent": "     - 📈 कुल डाटाबेस: 18"
   },
   {
     "row": 125,
-    "rowsha": "WfzwLUQQqs71qDxmOxFIOr3TUazlzzHDkM2e4UDJDn8=",
-    "originContent": "- [x] Release agent version, bird-interact-agent.",
-    "translatedContent": "- [x] एजेंट संस्करण जारी किया गया, bird-interact-agent।"
+    "rowsha": "GxkB9TjFkjTTX7ePGuhRqlpSlH6sSUyesgmiaEDNM4s=",
+    "originContent": "     - 📋 Total Tables: 175",
+    "translatedContent": "     - 📋 कुल टेबल: 175"
   },
   {
     "row": 126,
-    "rowsha": "tfR+oV/Tx2mEPN6r3D2jkGwWZXobjbuEMudF9OxNLv0=",
-    "originContent": "- [x] Release Full bird-interact-full (600).",
-    "translatedContent": "- [x] पूर्ण संस्करण जारी किया गया, bird-interact-full (600)।"
+    "rowsha": "64NK/0JFIHOBULGy3WKnKPHhEkS+4lQrhVtsfO6n7LA=",
+    "originContent": "     - 🔢 Total Columns: 2286",
+    "translatedContent": "     - 🔢 कुल कॉलम: 2286"
   },
   {
     "row": 127,
-    "rowsha": "vFAJSKqY7icL0MP2UvbRlITQrKGIlzdRt4TZvsoGFb0=",
-    "originContent": "- [ ] SFT / RL an User Simulator",
-    "translatedContent": "- [ ] SFT / RL एक यूज़र सिम्युलेटर"
+    "rowsha": "vp0WOneltYTksEwVArBR77uaVP0nMGm65qwAyAYgQYQ=",
+    "originContent": "     - 📈 Avg Rows per Table: 1,038.48",
+    "translatedContent": "     - 📈 प्रति टेबल औसत पंक्तियाँ: 1,038.48"
   },
   {
     "row": 128,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "smSM6RGIjqKiM6lSQbAwIbd+5ZvegnsC6Md/+O+p92o=",
+    "originContent": "     - 💾 Total Size: 207.15 MB (around)",
+    "translatedContent": "     - 💾 कुल आकार: 207.15 MB (लगभग)"
   },
   {
     "row": 129,
-    "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
-    "originContent": "## Acknowledgement",
-    "translatedContent": "## आभार"
+    "rowsha": "q97PZFA/39lTNwJk+iElAfEJ8GvYoZqsb0ikWfAPV0w=",
+    "originContent": "   - **bird-interact-full**: ",
+    "translatedContent": "   - **bird-interact-full**: "
   },
   {
     "row": 130,
-    "rowsha": "m2QkSisvveyCZX6DzbZF2v3cmidtsWxZeJ2QRiUaFs4=",
-    "originContent": "We would like to express our sincere gratitude to **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, and Professor **Shinji Watanabe** for their fruitful discussions and valuable insights that helped improve this project.",
-    "translatedContent": "हम अपनी हार्दिक कृतज्ञता व्यक्त करना चाहते हैं **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, और प्रोफेसर **Shinji Watanabe** को, जिनकी फलदायक चर्चाओं और बहुमूल्य सुझावों ने इस परियोजना को बेहतर बनाने में मदद की।"
+    "rowsha": "RdvWgS8iUhAiF5quZdhTZBus0/m4rU7nqPh3LoKZ6x8=",
+    "originContent": "     - 📈 Total Databases: 22",
+    "translatedContent": "     - 📈 कुल डाटाबेस: 22"
   },
   {
     "row": 131,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "Mxos3+6xN1g+Da5EobFbmY/eHApVkRRmfEF2OW4RH3A=",
+    "originContent": "     - 📋 Total Tables: 244",
+    "translatedContent": "     - 📋 कुल टेबल: 244"
   },
   {
     "row": 132,
-    "rowsha": "mhQeFc5wMr+mccgqoEwgaSGTbadrwRv17Z+l5irQ6EI=",
-    "originContent": "## Created By:",
-    "translatedContent": "## निर्माताः"
+    "rowsha": "1PoYS/otqkIuh9Jz/geFtvrHFHStUi2+8NE+UMA9K8A=",
+    "originContent": "     - 🔢 Total Columns: 2011",
+    "translatedContent": "     - 🔢 कुल कॉलम: 2011"
   },
   {
     "row": 133,
-    "rowsha": "BcslIbMQUwitDZ/R23YsQQIVge1FMTXdOH6FqEchx/I=",
-    "originContent": "BIRD Team & Google Cloud",
-    "translatedContent": "BIRD टीम एवं Google Cloud"
+    "rowsha": "4EW0pGD4/KBIHDsNlFvK+POLaGR09I9BWl5eGftNlwE=",
+    "originContent": "     - 📈 Avg Rows per Table: 1,121.19",
+    "translatedContent": "     - 📈 प्रति टेबल औसत पंक्तियाँ: 1,121.19"
   },
   {
     "row": 134,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "b5bo53OBUMszCF5iwS5PzApDi4vHki5mOoloknRFcgk=",
+    "originContent": "     - 💾 Total Size: 272.00 MB (around)",
+    "translatedContent": "     - 💾 कुल आकार: 272.00 MB (लगभग)"
   },
   {
     "row": 135,
@@ -817,9 +817,9 @@
   },
   {
     "row": 137,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "+k7Ca++d5jxjDrqQWYaSmQV+QrsPLeOVDWwp4LEOnLg=",
+    "originContent": "## 📦 Dataset Details",
+    "translatedContent": "## 📦 डेटासेट विवरण"
   },
   {
     "row": 138,
@@ -829,9 +829,9 @@
   },
   {
     "row": 139,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "0CAgopT4uCrcP2XugQo54SQ7+3o6EmaZDPuISb7ZpYs=",
+    "originContent": "### Dataset Description",
+    "translatedContent": "### डेटासेट विवरण"
   },
   {
     "row": 140,
@@ -841,42 +841,516 @@
   },
   {
     "row": 141,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "pkqV5xWW8I11T7Zl8mUQKLCjeKF4+mgKL0ur0oD13wg=",
+    "originContent": "- **Database:** The complete PostgreSQL database can be download from [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) and [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view).",
+    "translatedContent": "- **डेटाबेस:** संपूर्ण PostgreSQL डेटाबेस [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) और [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view) से डाउनलोड किया जा सकता है।"
   },
   {
     "row": 142,
-    "rowsha": "Yy1L+liWEPiygBFNsm9+4WmZQmi0NpcYvH+ZHWiB74A=",
-    "originContent": "## Change Log",
-    "translatedContent": "## परिवर्तन लॉग"
+    "rowsha": "Rg/lq5RTpV9VpKctp3slYhtbuoFhbkfaorRPygzg6Gk=",
+    "originContent": "- **data:** Each data instance contain the following main parts:",
+    "translatedContent": "- **data:** प्रत्येक डेटा उदाहरण में निम्नलिखित मुख्य भाग होते हैं:"
   },
   {
     "row": 143,
+    "rowsha": "oeZ/uzqCsA5VNpsUV6Q5FUwcPz5hnWM75+LkGTHBx5Y=",
+    "originContent": "   - `selected_database`: The name of the database.  ",
+    "translatedContent": "   - `selected_database`: डेटाबेस का नाम।  "
+  },
+  {
+    "row": 144,
+    "rowsha": "oPNVshV/MIPpyhRk3j2Nxvx6eiSjlh78678fwhXHkyY=",
+    "originContent": "   - `query`: The unambiguous user query.  ",
+    "translatedContent": "   - `query`: स्पष्ट उपयोगकर्ता क्वेरी।  "
+  },
+  {
+    "row": 145,
+    "rowsha": "FCnlkL1lk997F3W0Z2i178PvvixkNotyQ/PDUSEBG3I=",
+    "originContent": "   - `amb_user_query`: The user query with injected ambiguities.",
+    "translatedContent": "   - `amb_user_query`: अस्पष्टता डाली गई उपयोगकर्ता क्वेरी।"
+  },
+  {
+    "row": 146,
+    "rowsha": "dwSIKvWoOZ0bAk3/MuxBQZx+roDRkZ8De8Z9EV1g+YE=",
+    "originContent": "   - `user_query_ambiguity`: The ambiguities injected into the user query.",
+    "translatedContent": "   - `user_query_ambiguity`: उपयोगकर्ता क्वेरी में डाली गई अस्पष्टताएँ।"
+  },
+  {
+    "row": 147,
+    "rowsha": "2uIaqS3MsNEQQa0yxeGCprcga3iAl7rbNcCeOhVqcms=",
+    "originContent": "   - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.",
+    "translatedContent": "   - `non_critical_ambiguity`: गैर-महत्वपूर्ण अस्पष्टताएँ जैसे क्रम, सीमा आदि।"
+  },
+  {
+    "row": 148,
+    "rowsha": "jcfQ3RBzqQ5IoWI85TqetWQboWoj/TWcS2YjEGz1euw=",
+    "originContent": "   - `knowledge_ambiguity`: The ambiguities created by masked external knowledges. ",
+    "translatedContent": "   - `knowledge_ambiguity`: छुपाए गए बाहरी ज्ञान द्वारा उत्पन्न अस्पष्टताएँ। "
+  },
+  {
+    "row": 149,
+    "rowsha": "/i3/thp7p1thZ/xCsBw3OHgDabXZMsKgumrhx3ZwzjQ=",
+    "originContent": "   - `sol_sql`: The ground truth SQL solution.  ",
+    "translatedContent": "   - `sol_sql`: ग्राउंड ट्रुथ SQL समाधान।  "
+  },
+  {
+    "row": 150,
+    "rowsha": "c+FiZvziVNHQ0BSlQNBGyAERMve99Hh3QFKIpYMnmY4=",
+    "originContent": "   - `preprocess_sql`: SQL queries to run before executing the solution or prediction.  ",
+    "translatedContent": "   - `preprocess_sql`: समाधान या भविष्यवाणी से पहले चलाने के लिए SQL क्वेरी।  "
+  },
+  {
+    "row": 151,
+    "rowsha": "xRrHhJsIZKbVIUl3a4LFJeid+TCYKXtGm2FO2voDCJA=",
+    "originContent": "   - `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  ",
+    "translatedContent": "   - `clean_up_sql`: परीक्षण मामलों के बाद डेटाबेस में किए गए बदलावों को वापस लेने के लिए SQL क्वेरी।  "
+  },
+  {
+    "row": 152,
+    "rowsha": "AN8KsW9EANalz2xbGaJpzkDyz8Piw1aD8GW5coktVLI=",
+    "originContent": "   - `test_cases`: A set of test cases to validate the predicted corrected SQL.",
+    "translatedContent": "   - `test_cases`: भविष्यवाणी किए गए सही SQL को सत्यापित करने के लिए परीक्षण मामलों का सेट।"
+  },
+  {
+    "row": 153,
+    "rowsha": "CJy/lmct2AT3OvidWiH5FLxFjM+3NIuJGemuO6IO3/I=",
+    "originContent": "   - `follow_up`: The labeled follow up questions.",
+    "translatedContent": "   - `follow_up`: लेबल किए गए फॉलो अप प्रश्न।"
+  },
+  {
+    "row": 154,
+    "rowsha": "rUHKXvHeVB4UqqvGBnj9yJY3C0rN/Oz3IsSbOVCSOLE=",
+    "originContent": "   - `external_knowledge`: The external knowledge related to the specific task.",
+    "translatedContent": "   - `external_knowledge`: विशिष्ट कार्य से संबंधित बाहरी ज्ञान।"
+  },
+  {
+    "row": 155,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 144,
+    "row": 156,
+    "rowsha": "hQpiCMxX9dK0D0byHCQ4cUtoa8tKtWMoWCxcRBrGSks=",
+    "originContent": "- **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.",
+    "translatedContent": "- **मूल्यांकन:** मूल्यांकन कोड [`./evaluation`](./evaluation) डायरेक्टरी में उपलब्ध है।"
+  },
+  {
+    "row": 157,
+    "rowsha": "v59KK3oH49UautE6oU56wvhU8e75NEkRJddOGbaFnyo=",
+    "originContent": "- **Curated by:** BIRD Team & Google Cloud",
+    "translatedContent": "- **क्यूरेटेड बाय:** BIRD टीम एवं Google Cloud"
+  },
+  {
+    "row": 158,
+    "rowsha": "1/kQI3qUNugGt6yUagQdmVhx1FDPb1fFeNnmxrbHjpM=",
+    "originContent": "- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)",
+    "translatedContent": "- **लाइसेंस:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+  },
+  {
+    "row": 159,
+    "rowsha": "EQ6KhGw1snJI5U6ZFWIjj/IpN04AkABGwoqpo5JQnkQ=",
+    "originContent": "- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)",
+    "translatedContent": "- **HuggingFace डेटासेट कार्ड:** PostgreSQL के लिए [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)"
+  },
+  {
+    "row": 160,
+    "rowsha": "O8AjJTL2RWO1kYl3e3uSnI/e0cAoXdHF9HVGPc7mxug=",
+    "originContent": "  and [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full) for PostgreSQL; and [mini-interact](https://huggingface.co/datasets/birdsql/mini-interact) for SQLite.",
+    "translatedContent": "  और [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full); तथा SQLite के लिए [mini-interact](https://huggingface.co/datasets/birdsql/mini-interact)।"
+  },
+  {
+    "row": 161,
+    "rowsha": "eBv7zL5k1TMCOM1StXazHH570ymiakAwkC4j0AVtzpM=",
+    "originContent": "```ultree",
+    "translatedContent": "```ultree"
+  },
+  {
+    "row": 162,
+    "rowsha": "zbTuKuppzGqDMxu+ltwsqpopnSEynvsDNvwCqC4YOag=",
+    "originContent": ".",
+    "translatedContent": "."
+  },
+  {
+    "row": 163,
+    "rowsha": "qjFZW+CH7vA3mZn1LMINwV6O4bbCxoSaYNxQcl/8P2g=",
+    "originContent": "├── LICENSE",
+    "translatedContent": "├── LICENSE"
+  },
+  {
+    "row": 164,
+    "rowsha": "LoTAQfuqjLD8IIK02XWaCUrSST7uB7c6SX0sC1UqV4I=",
+    "originContent": "├── README.md",
+    "translatedContent": "├── README.md"
+  },
+  {
+    "row": 165,
+    "rowsha": "10NVJ7vcLBpn9q+ni1SOLTSQZ8hBkul07frGvDwqOhI=",
+    "originContent": "├── BIRD-Interact-ADK",
+    "translatedContent": "├── BIRD-Interact-ADK"
+  },
+  {
+    "row": 166,
+    "rowsha": "nXKu1VVyaf/uhkjN7z6RSTeeZoRhNnRzqY84MhYnCJY=",
+    "originContent": "│   ├── ...",
+    "translatedContent": "│   ├── ..."
+  },
+  {
+    "row": 167,
+    "rowsha": "PBuqlrGjnAeVzGL75CmS6Z6Efgkuoqlrp+a0pSX7nOA=",
+    "originContent": "│   └── README.md",
+    "translatedContent": "│   └── README.md"
+  },
+  {
+    "row": 168,
+    "rowsha": "e+LFjoxUGYOJKyqrbPhLw039cbaPmE9xext8WWWBGbM=",
+    "originContent": "├── bird_interact_conv",
+    "translatedContent": "├── bird_interact_conv"
+  },
+  {
+    "row": 169,
+    "rowsha": "/FthLrvkUUX7N/0MDpsdNOm5ukW/7z2I4QQPWujHxps=",
+    "originContent": "│   ├── ...",
+    "translatedContent": "│   ├── ..."
+  },
+  {
+    "row": 170,
+    "rowsha": "VGSslS2XSRjAj/mACUcqCUWhtN6ZtslYPoL9dzv14jM=",
+    "originContent": "│   └── README.md",
+    "translatedContent": "│   └── README.md"
+  },
+  {
+    "row": 171,
+    "rowsha": "nGl2ENeStw0G2gisxuefpyLXlfx5QTnz7UJCeMC4GQA=",
+    "originContent": "├── bird_interact_agent",
+    "translatedContent": "├── bird_interact_agent"
+  },
+  {
+    "row": 172,
+    "rowsha": "/FthLrvkUUX7N/0MDpsdNOm5ukW/7z2I4QQPWujHxps=",
+    "originContent": "│   ├── ...",
+    "translatedContent": "│   ├── ..."
+  },
+  {
+    "row": 173,
+    "rowsha": "VGSslS2XSRjAj/mACUcqCUWhtN6ZtslYPoL9dzv14jM=",
+    "originContent": "│   └── README.md",
+    "translatedContent": "│   └── README.md"
+  },
+  {
+    "row": 174,
+    "rowsha": "tMucDK/CQLCYCnTYc5dnlt4Znkuxo5N6Tn/xy7/3zX8=",
+    "originContent": "├── evaluation",
+    "translatedContent": "├── evaluation"
+  },
+  {
+    "row": 175,
+    "rowsha": "p1uv3noF50YVzYKMeIYN57LNUFPrSRB96Nk0RaQfRmk=",
+    "originContent": "│   ├── docker-compose.yml",
+    "translatedContent": "│   ├── docker-compose.yml"
+  },
+  {
+    "row": 176,
+    "rowsha": "D063pfXhcQ/wxqLeg4rK+BQ9G8UlKJ0rstboyU/OX20=",
+    "originContent": "│   ├── env",
+    "translatedContent": "│   ├── env"
+  },
+  {
+    "row": 177,
+    "rowsha": "Bucc8pFYSe5V1PcCgmXolWTNjItvBSc3BcTgl5B8yiw=",
+    "originContent": "│   ├── postgre_table_dumps",
+    "translatedContent": "│   ├── postgre_table_dumps"
+  },
+  {
+    "row": 178,
+    "rowsha": "YkFhRtZQdoHRWHFRWso+EMl/ZT86nzk9TksshvgZp4Y=",
+    "originContent": "│   ├── run",
+    "translatedContent": "│   ├── run"
+  },
+  {
+    "row": 179,
+    "rowsha": "8i2oQlcwKa2HbCy6oJ2GnbgqgkHWxIpkwesU8Sho1P4=",
+    "originContent": "│   └── src",
+    "translatedContent": "│   └── src"
+  },
+  {
+    "row": 180,
+    "rowsha": "C1rgYDVWb3F+/zJPBSuEPaxRhkOfBjTSUOkVayTs2go=",
+    "originContent": "├── materials",
+    "translatedContent": "├── materials"
+  },
+  {
+    "row": 181,
+    "rowsha": "/FthLrvkUUX7N/0MDpsdNOm5ukW/7z2I4QQPWujHxps=",
+    "originContent": "│   ├── ...",
+    "translatedContent": "│   ├── ..."
+  },
+  {
+    "row": 182,
+    "rowsha": "6nANypW2KXZhNpct/4WcqntssXjXUMey3MYj6/tQvhA=",
+    "originContent": "└── requirements.txt",
+    "translatedContent": "└── requirements.txt"
+  },
+  {
+    "row": 183,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 184,
+    "rowsha": "0X3pqPbuJPkZPnZLIumfSpdH4fgLB+BBq4ihdxHrQWQ=",
+    "originContent": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; **c-interact** can be found in `./bird_interact_conv/README.md`; and the **ADK-based implementation** can be found in `./BIRD-Interact-ADK/README.md`.",
+    "translatedContent": "**a-interact** को चलाने के विवरण `./bird_interact_agent/README.md` में मिल सकते हैं; **c-interact** के विवरण `./bird_interact_conv/README.md` में मिल सकते हैं; और **ADK-आधारित कार्यान्वयन** का विवरण `./BIRD-Interact-ADK/README.md` में मिल सकता है।"
+  },
+  {
+    "row": 185,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "f6chlfSVENLsNAyFyteH0qZqANkTbg9qD38E3rR7+l4=",
+    "originContent": "## 📋 Todo Lists",
+    "translatedContent": "## 📋 कार्य-सूची"
+  },
+  {
+    "row": 187,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 188,
+    "rowsha": "EL1NQH2bug6G0ymI/d6FG7PFV2GnkPXixeKmwZPR78w=",
+    "originContent": "- [x] Release lite version, bird-interact-lite (270).",
+    "translatedContent": "- [x] लाइट वर्शन जारी करें, bird-interact-lite (270)।"
+  },
+  {
+    "row": 189,
+    "rowsha": "hKBdzfGYA7Z4jZ++QUac0jtKAk4XdrT5WpTUG30vQPQ=",
+    "originContent": "- [x] Release conversational version, bird-interact-conv.",
+    "translatedContent": "- [x] संवादात्मक वर्शन जारी करें, bird-interact-conv।"
+  },
+  {
+    "row": 190,
+    "rowsha": "WfzwLUQQqs71qDxmOxFIOr3TUazlzzHDkM2e4UDJDn8=",
+    "originContent": "- [x] Release agent version, bird-interact-agent.",
+    "translatedContent": "- [x] एजेंट वर्शन जारी करें, bird-interact-agent।"
+  },
+  {
+    "row": 191,
+    "rowsha": "tfR+oV/Tx2mEPN6r3D2jkGwWZXobjbuEMudF9OxNLv0=",
+    "originContent": "- [x] Release Full bird-interact-full (600).",
+    "translatedContent": "- [x] पूर्ण वर्शन जारी करें, bird-interact-full (600)।"
+  },
+  {
+    "row": 192,
+    "rowsha": "mDYQudS6unZYhqGl9aqfEovwaKC/AKuWLGYHfmxiFrg=",
+    "originContent": "- [x] Release ADK-based implementation, BIRD-Interact-ADK.",
+    "translatedContent": "- [x] ADK-आधारित कार्यान्वयन जारी करें, BIRD-Interact-ADK।"
+  },
+  {
+    "row": 193,
+    "rowsha": "vFAJSKqY7icL0MP2UvbRlITQrKGIlzdRt4TZvsoGFb0=",
+    "originContent": "- [ ] SFT / RL an User Simulator",
+    "translatedContent": "- [ ] SFT / RL एक यूजर सिम्युलेटर"
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+    "originContent": "## Acknowledgement",
+    "translatedContent": "## आभार"
+  },
+  {
+    "row": 196,
+    "rowsha": "m2QkSisvveyCZX6DzbZF2v3cmidtsWxZeJ2QRiUaFs4=",
+    "originContent": "We would like to express our sincere gratitude to **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, and Professor **Shinji Watanabe** for their fruitful discussions and valuable insights that helped improve this project.",
+    "translatedContent": "हम अपनी हार्दिक कृतज्ञता व्यक्त करते हैं **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, और प्रोफेसर **Shinji Watanabe** को, जिनकी फलदायक चर्चाओं और बहुमूल्य सुझावों ने इस परियोजना को बेहतर बनाने में मदद की।"
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "mhQeFc5wMr+mccgqoEwgaSGTbadrwRv17Z+l5irQ6EI=",
+    "originContent": "## Created By:",
+    "translatedContent": "## द्वारा निर्मित:"
+  },
+  {
+    "row": 199,
+    "rowsha": "BcslIbMQUwitDZ/R23YsQQIVge1FMTXdOH6FqEchx/I=",
+    "originContent": "BIRD Team & Google Cloud",
+    "translatedContent": "BIRD टीम और Google Cloud"
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 207,
+    "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+    "originContent": "## Citation",
+    "translatedContent": "## संदर्भ"
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 209,
+    "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+    "originContent": "```bibtex",
+    "translatedContent": "```bibtex"
+  },
+  {
+    "row": 210,
+    "rowsha": "a41gvp9ljXe3n/DGTCbh/H1WaYS4oApt/l2rGBizMj0=",
+    "originContent": "@inproceedings{",
+    "translatedContent": "@inproceedings{"
+  },
+  {
+    "row": 211,
+    "rowsha": "J8GIoMUJheBiqjyYJWQHLghPUHQviBQhGBIu5dPCRYQ=",
+    "originContent": "huo2026birdinteract,",
+    "translatedContent": "huo2026birdinteract,"
+  },
+  {
+    "row": 212,
+    "rowsha": "XGnPGVTp+NaKDO92eA6YI4AkisFbPVEwpZF/xQGmBLI=",
+    "originContent": "title={{BIRD}-{INTERACT}: Re-imagining Text-to-{SQL} Evaluation via Lens of Dynamic Interactions},",
+    "translatedContent": "title={{BIRD}-{INTERACT}: Re-imagining Text-to-{SQL} Evaluation via Lens of Dynamic Interactions},"
+  },
+  {
+    "row": 213,
+    "rowsha": "8y4re8h87hd3bTeE50uafjmpZ39llDgrWDphld+8JpM=",
+    "originContent": "author={Nan Huo and Xiaohan Xu and Jinyang Li and Per Jacobsson and Shipei Lin and Bowen Qin and Binyuan Hui and Xiaolong Li and Ge Qu and Shuzheng Si and Linheng Han and Edward Alexander and Xintong Zhu and Rui Qin and Ruihan Yu and Yiyao Jin and Feige Zhou and Weihao Zhong and Yun Chen and Hongyu Liu and Chenhao Ma and Fatma Ozcan and Yannis Papakonstantinou and Reynold Cheng},",
+    "translatedContent": "author={Nan Huo and Xiaohan Xu and Jinyang Li and Per Jacobsson and Shipei Lin and Bowen Qin and Binyuan Hui and Xiaolong Li and Ge Qu and Shuzheng Si and Linheng Han and Edward Alexander and Xintong Zhu and Rui Qin and Ruihan Yu and Yiyao Jin and Feige Zhou and Weihao Zhong and Yun Chen and Hongyu Liu and Chenhao Ma and Fatma Ozcan and Yannis Papakonstantinou and Reynold Cheng},"
+  },
+  {
+    "row": 214,
+    "rowsha": "OhPjmMwNhSnj0bfmNyYWIEtSHe1C2JLO8Wn5B+P0qB4=",
+    "originContent": "booktitle={The Fourteenth International Conference on Learning Representations},",
+    "translatedContent": "booktitle={The Fourteenth International Conference on Learning Representations},"
+  },
+  {
+    "row": 215,
+    "rowsha": "pZDT0ZGqf48i7MntOFrhCIBdfEnDj0VfrT8p96Mpb94=",
+    "originContent": "year={2026},",
+    "translatedContent": "year={2026},"
+  },
+  {
+    "row": 216,
+    "rowsha": "tUbZLXY9+oSc58iAGRSd3MbE5qoDimiFsExE3nxyNvs=",
+    "originContent": "url={https://openreview.net/forum?id=nHrYBGujps}",
+    "translatedContent": "url={https://openreview.net/forum?id=nHrYBGujps}"
+  },
+  {
+    "row": 217,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 218,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 220,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## परिवर्तन लॉग"
+  },
+  {
+    "row": 221,
+    "rowsha": "Yy1L+liWEPiygBFNsm9+4WmZQmi0NpcYvH+ZHWiB74A=",
+    "originContent": "## Change Log",
+    "translatedContent": ""
+  },
+  {
+    "row": 222,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [2025-11-06] 🐛 **बग फिक्स** और 🐳 **डॉकर अपडेट**: sqlglot संस्करण को 26.16.4 में अपडेट किया ताकि यूजर सिम्युलेटर के लिए SQL पार्सर SQL को सही से पार्स न कर पाने की बग को ठीक किया जा सके। आप इसे `bird_interact_eval` एनवायरनमेंट में `pip install sqlglot==26.16.4` के द्वारा दोबारा इंस्टॉल करके ठीक कर सकते हैं। `bird_interact_eval` इमेज भी अपडेट की गई है, तो आप इसे भी पुल करके `bird_interact_eval` कंटेनर को फिर से बना सकते हैं।"
+  },
+  {
+    "row": 223,
     "rowsha": "Z1U72G8iUw35F0VXT/QQ4hHQgL/nwD4xFuSMH8lzboc=",
     "originContent": "- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.",
-    "translatedContent": "- [2025-11-06] 🐛 **बग फिक्स** एवं 🐳 **डॉकर अपडेट**: sqlglot संस्करण को 26.16.4 में अपडेट किया गया ताकि यूज़र सिम्युलेटर के लिए SQL पार्सर SQL को सही ढंग से पार्स न कर पाने वाली समस्या का समाधान हो सके। आप इसे `bird_interact_eval` एनवायरनमेंट में `pip install sqlglot==26.16.4` द्वारा पुनः इंस्टॉल कर ठीक कर सकते हैं। `bird_interact_eval` इमेज भी अपडेट की गई है, अतः आप इसे पुल कर सकते हैं और `bird_interact_eval` कंटेनर फिर से बना सकते हैं।"
+    "translatedContent": "- [2025-10-21] 🐳 **डॉकर अपडेट**: Full DB Env के लिए डॉकर जोड़ा गया। हमने 3 डॉकर इमेज (Base/Full DB Env और दोनों `a-Interact` और `c-Interact` के लिए मूल्यांकन एनवायरनमेंट) डॉकर हब पर पुश की हैं ताकि एनवायरनमेंट सेटअप आसान हो सके। अब DB डंप डाउनलोड करने और इमेजेस मैन्युअली बनाने की जरूरत नहीं है! कृपया डॉकर हब से नवीनतम इमेजेस पुल करें और कंटेनर रीक्रिएट करें, जैसे `docker compose down -v && docker compose pull && docker compose up -d --force-recreate` का उपयोग करके।"
   },
   {
-    "row": 145,
+    "row": 224,
     "rowsha": "AOso64cmDJc8FxEExtaKElXz++MYq2Lc8TtifY/dAWY=",
     "originContent": "- [2025-10-21] 🐳 **Docker update**: Add the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually! Please pull the latest images from Docker Hub and recreates the containers, e.g. using `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`.",
-    "translatedContent": "- [2025-10-21] 🐳 **डॉकर अपडेट**: फुल DB एनवायरनमेंट के लिए डॉकर जोड़ा गया। और हमने 3 डॉकर इमेज (Base/Full DB Env तथा दोनों `a-Interact` और `c-Interact` के लिए मूल्यांकन एनवायरनमेंट) Docker Hub पर पुश की हैं ताकि एनवायरनमेंट सेटअप आसान हो। DB डंप डाउनलोड करने और इमेज मैन्युअली बनाने की आवश्यकता नहीं! कृपया Docker Hub से नवीनतम इमेज पुल करें और कंटेनर फिर से बनाएं, जैसे कि `docker compose down -v && docker compose pull && docker compose up -d --force-recreate` का उपयोग करके।"
+    "translatedContent": "- [2025-08-22]  🐛 **बग फिक्स**: उस बग को ठीक किया जिसमें phase-2 SQL का मूल्यांकन करते समय, स्टोर किए गए phase-1 SQL को सफलतापूर्वक निष्पादित नहीं किया जा सकता था, जिससे Phase-2 की सफलता दर कम हो जाती थी। यह बग केवल उन कार्यों को प्रभावित करता था जहां phase1 SQL डेटाबेस पर कुछ ऑपरेशन करता है, जैसे CREATE table आदि।"
   },
   {
-    "row": 146,
+    "row": 225,
     "rowsha": "H6Zyonsv0aL1AyBf5xeZKrbsY19tVfLl445zOVlMBJc=",
     "originContent": "- [2025-08-22]  🐛 **Bug Fix**: Fix the bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
-    "translatedContent": "- [2025-08-22]  🐛 **बग फिक्स**: वह बग ठीक किया गया जिसमें phase-2 SQL का मूल्यांकन करते समय, स्टोर किया गया phase-1 SQL सफलतापूर्वक निष्पादित नहीं हो पाता था, जिससे Phase-2 की सफलता दर कम हो जाती थी। यह बग केवल उन्हीं कार्यों को प्रभावित करता था जहाँ phase1 sql डेटाबेस पर कुछ ऑपरेशन करता है, जैसे कि CREATE table आदि।"
+    "translatedContent": ""
   },
   {
-    "row": 147,
+    "row": 226,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""

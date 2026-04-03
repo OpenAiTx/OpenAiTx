@@ -24,7 +24,7 @@
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
@@ -32,32 +32,51 @@
 
 # Jimmy's Blog
 
-一个基于 Next.js 15+ 构建的简约个人博客系统。
+一个基于 Next.js 15+ 构建的简约个人博客系统，支持在线创作与静态化部署。
 
 ## 技术栈
 
-- **框架**: Next.js 13+ (App Router)
+- **框架**: Next.js 15+ (App Router)
+- **语言**: TypeScript
 - **样式**: Tailwind CSS
 - **图标**: Lucide Icons
-- **主题**: 支持深色/浅色模式切换
+- **内容**: Markdown + Gray Matter + Remark
+- **鉴权**: GitHub OAuth
 - **部署**: Vercel
 
 ## 功能特点
 
-- 📝 Markdown 文章支持
-- 🌓 深色/浅色主题切换
-- 📱 响应式设计
-- ⚡ 快速加载
-- 📅 文章时间线展示
-- 🔐 在线管理后台（通过 GitHub API 直接创建文章）
+### 读者侧
+
+- 📝 Markdown + GFM 文章渲染（含数学公式展示）
+- 🏷️ 标签筛选、分页、归档（按年份/标签）
+- 📚 文章目录导航（TOC）与代码块一键复制
+- 📱 响应式布局与深色/浅色主题切换
+- 🔥 悬浮创作日历热力图（文章 + 随笔）
+- 📡 RSS 订阅输出（`/rss.xml`）
+
+### 创作侧（管理后台）
+
+- 🔐 GitHub OAuth 登录（所有者/协作者权限校验）
+- ✍️ 文章/随笔在线创建、编辑、删除
+- 🆔 自定义文件 ID + 自动冲突规避
+- 👀 编辑 / 预览 / 分屏三种写作模式
+- 📊 创作统计面板（总量、周/月产出、热门标签）
+
+### 工程侧
+
+- ⚡ 多页面静态化输出（`force-static`）提升性能与稳定性
+- 🧭 内置 sitemap 与 robots
+- 🧩 内容读取缓存与模块化 API 结构
 
 ## 项目结构
 
 ```
 .
-├── app/
-│   ├── lib/           # 工具函数和数据处理
-│   ├── posts/         # 博客文章
+├── app/               # 页面、API 路由、Server Actions
+│   ├── api/           # 接口（OAuth、统计、校验、Markdown 等）
+│   ├── actions/       # 内容管理相关服务端动作
+│   ├── posts/         # 文章详情页
 │   └── page.tsx       # 首页
 ├── content/
 │   ├── notes/         # 随笔
@@ -99,14 +118,14 @@ npm run build
 ### 方式一：在线管理后台（推荐）
 
 1. 访问 `/admin` 页面
-2. 使用管理员密码登录
+2. 使用 GitHub OAuth 登录
 3. 填写文章信息并提交
 4. 文章会自动通过 GitHub API 创建，Vercel 会自动重新部署
 
 ### 方式二：手动添加文件
 
 1. 在 `content/posts` 目录下创建新的 Markdown 文件
-2. 文件命名格式：xxx.md`
+2. 文件命名格式：`xxx.md`
 3. 在文件头部添加元数据：
 
 ```markdown
@@ -198,6 +217,14 @@ NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
 - ✅ 完全免费（GitHub OAuth 和 Vercel 都在免费额度内）
 - ✅ 安全（GitHub OAuth 验证，只有仓库所有者/协作者可访问）
 - ✅ 无需管理密码，使用 GitHub 账号即可登录
+- ✅ 支持在线编辑已有内容（不仅是新建）
+- ✅ 自动处理文件 ID 冲突，避免覆盖和手动重命名
+- ✅ 后台自带创作统计，便于持续内容运营
+
+## 项目分析与未来规划
+
+- 项目分析文档：[`docs/project-analysis.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/project-analysis.md)
+- Future 规划文档：[`docs/future-roadmap.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/future-roadmap.md)
 
 ## 贡献
 

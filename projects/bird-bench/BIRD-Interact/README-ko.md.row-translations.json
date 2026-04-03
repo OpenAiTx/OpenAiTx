@@ -117,13 +117,13 @@
     "row": 20,
     "rowsha": "qR/iuiQWsQ7j83o7cAhbO3yM99qEPz8jw9z3H616J9o=",
     "originContent": "Please note that before your evaluation process, when Docker loads the databases, errors may occasionally occur due to environment inconsistency (these will not terminate the process but will appear in the Docker logs). As a result, some databases may fail to load properly, leading to empty databases. This will cause the evaluation results to be abnormally low.  ",
-    "translatedContent": "Docker가 데이터베이스를 로드하는 동안 환경 불일치로 인해 가끔 오류가 발생할 수 있습니다(이 오류는 프로세스를 중단시키지 않지만 Docker 로그에 표시됩니다). 그 결과 일부 데이터베이스가 정상적으로 로드되지 않아 빈 데이터베이스가 생성될 수 있습니다. 이로 인해 평가 결과가 비정상적으로 낮게 나올 수 있습니다.  "
+    "translatedContent": "평가 과정을 시작하기 전에 Docker가 데이터베이스를 로드할 때 환경 불일치로 인해 간헐적으로 오류가 발생할 수 있습니다(이 오류는 프로세스를 종료시키지는 않지만 Docker 로그에 표시됩니다). 이로 인해 일부 데이터베이스가 제대로 로드되지 않아 빈 데이터베이스가 생성될 수 있습니다. 이 경우 평가 결과가 비정상적으로 낮게 나올 수 있습니다.  "
   },
   {
     "row": 21,
     "rowsha": "j3WE+j5u8Ng3SBgrMG35Bm6kDWNOXEnVhxpRhR2BM9w=",
     "originContent": "👉 Therefore, we strongly recommend checking the Docker logs for any errors **before running the evaluation** and verifying that all databases have been successfully loaded.",
-    "translatedContent": "👉 따라서 **평가를 실행하기 전**에 Docker 로그에서 오류가 있는지 확인하고, 모든 데이터베이스가 정상적으로 로드되었는지 반드시 검증하실 것을 강력히 권장합니다."
+    "translatedContent": "👉 따라서, **평가를 실행하기 전에** Docker 로그에서 오류를 확인하고 모든 데이터베이스가 정상적으로 로드되었는지 반드시 점검할 것을 강력히 권장합니다."
   },
   {
     "row": 22,
@@ -135,7 +135,7 @@
     "row": 23,
     "rowsha": "KZY6Bs9wH08P6UdsDB5l8Z8KG67bCsVs1bNYgNPcdj8=",
     "originContent": "👉 We have updated the **Submission Guidelines**, where the customized agent scaffolds are supported. Please feel free to take a look at our detailed submission guidelines [here](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true).",
-    "translatedContent": "👉 **제출 가이드라인**이 업데이트되어 맞춤형 에이전트 스캐폴드가 지원됩니다. 자세한 제출 가이드라인은 [여기](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true)에서 확인하실 수 있습니다."
+    "translatedContent": "👉 **제출 가이드라인**이 업데이트되었으며, 커스텀 에이전트 스캐폴드를 지원합니다. 자세한 제출 가이드라인은 [여기](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true)에서 확인하실 수 있습니다."
   },
   {
     "row": 24,
@@ -147,7 +147,7 @@
     "row": 25,
     "rowsha": "0YeCyxpcm7/4RDbaM+OQoI8YfqEHQzDkpGW15VZdi1U=",
     "originContent": "## 📰 News",
-    "translatedContent": "## 📰 뉴스"
+    "translatedContent": "## 📰 소식"
   },
   {
     "row": 26,
@@ -157,9 +157,9 @@
   },
   {
     "row": 27,
-    "rowsha": "reJG5vUvGg3VLe761fXkWTV0AFcCTZQSTJylxcqjU54=",
-    "originContent": "- [2026-02-08] 🔥🔥🔥 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** has beed accepted at **ICLR 2026 (Oral)**! See you in Rio 🇧🇷!  ",
-    "translatedContent": "- [2026-02-08] 🔥🔥🔥 저희 **[Bird-Interact 논문](https://huggingface.co/papers/2510.05318)**이 **ICLR 2026 (Oral)**에 채택되었습니다! 리우에서 만나요 🇧🇷!  "
+    "rowsha": "Nr837Y4ROKJUwP7LbyViQ0/aDKhL6OpRwXQ3tEhCgoM=",
+    "originContent": "- [2026-03-29] 🔥🔥🔥 **BIRD-Interact-ADK**: We release **[BIRD-Interact-ADK](./BIRD-Interact-ADK/)**, a Google ADK-based implementation with modular 3-microservices (agent, user simulator, and DB Env) architecture. Easily swap in your own agent, user simulator, or DB environment. Supports parallel execution and any [LiteLlm-compatible](https://docs.litellm.ai/docs/providers) LLM provider. Recommend to use this implementation for your research.",
+    "translatedContent": "- [2026-03-29] 🔥🔥🔥 **BIRD-Interact-ADK**: **[BIRD-Interact-ADK](./BIRD-Interact-ADK/)**를 출시했습니다. Google ADK 기반으로, 모듈형 3-마이크로서비스(에이전트, 사용자 시뮬레이터, DB 환경) 아키텍처를 제공합니다. 본인만의 에이전트, 사용자 시뮬레이터, DB 환경을 쉽게 교체할 수 있습니다. 병렬 실행과 [LiteLlm 호환](https://docs.litellm.ai/docs/providers) LLM 제공자를 모두 지원합니다. 연구에 이 구현체 사용을 권장합니다."
   },
   {
     "row": 28,
@@ -169,9 +169,9 @@
   },
   {
     "row": 29,
-    "rowsha": "Z1U72G8iUw35F0VXT/QQ4hHQgL/nwD4xFuSMH8lzboc=",
-    "originContent": "- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.",
-    "translatedContent": "- [2025-11-06] 🐛 **버그 수정** & 🐳 **Docker 업데이트**: 사용자 시뮬레이터에서 SQL 파서를 올바르게 해석하지 못하는 버그를 수정하기 위해 sqlglot 버전을 26.16.4로 업데이트했습니다. `bird_interact_eval` 환경에서 `pip install sqlglot==26.16.4`로 재설치하시면 해결됩니다. `bird_interact_eval` 이미지도 업데이트되었으니, 이미지를 다시 받아서 컨테이너를 재생성하실 수 있습니다."
+    "rowsha": "reJG5vUvGg3VLe761fXkWTV0AFcCTZQSTJylxcqjU54=",
+    "originContent": "- [2026-02-08] 🔥🔥🔥 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** has beed accepted at **ICLR 2026 (Oral)**! See you in Rio 🇧🇷!  ",
+    "translatedContent": "- [2026-02-08] 🔥🔥🔥 저희 **[Bird-Interact 논문](https://huggingface.co/papers/2510.05318)**이 **ICLR 2026 (Oral)**에 채택되었습니다! 리우에서 만나요 🇧🇷!  "
   },
   {
     "row": 30,
@@ -181,9 +181,9 @@
   },
   {
     "row": 31,
-    "rowsha": "lMr4RDYFItZ9CRw58CMm96RH+m1TG6qtPaypnv8airE=",
-    "originContent": "- [2025-10-21] 🐳 **Docker update**: We added the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually!",
-    "translatedContent": "- [2025-10-21] 🐳 **Docker 업데이트**: Full DB Env용 도커를 추가했습니다. Base/Full DB Env 및 `a-Interact`, `c-Interact` 평가 환경용 3가지 도커 이미지를 Docker Hub에 업로드하여 환경 설정이 쉬워졌습니다. 이제 DB 덤프를 직접 다운로드하거나 이미지를 수동으로 빌드할 필요가 없습니다!"
+    "rowsha": "Z1U72G8iUw35F0VXT/QQ4hHQgL/nwD4xFuSMH8lzboc=",
+    "originContent": "- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.",
+    "translatedContent": "- [2025-11-06] 🐛 **버그 수정** & 🐳 **Docker 업데이트**: 사용자 시뮬레이터의 SQL 파서를 올바르게 해석하지 못하는 버그를 해결하기 위해 sqlglot 버전을 26.16.4로 업데이트했습니다. `bird_interact_eval` 환경에서 `pip install sqlglot==26.16.4`로 재설치하시면 됩니다. `bird_interact_eval` 이미지를 업데이트했으니, 새로 이미지를 pull하고 컨테이너를 재생성해도 됩니다."
   },
   {
     "row": 32,
@@ -193,93 +193,93 @@
   },
   {
     "row": 33,
+    "rowsha": "lMr4RDYFItZ9CRw58CMm96RH+m1TG6qtPaypnv8airE=",
+    "originContent": "- [2025-10-21] 🐳 **Docker update**: We added the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually!",
+    "translatedContent": "- [2025-10-21] 🐳 **Docker 업데이트**: Full DB Env용 도커 이미지를 추가했습니다. Base/Full DB Env 및 평가 환경(a-Interact와 c-Interact 모두 적용)용 3개 이미지를 Docker Hub에 업로드하였으니, DB 덤프를 수동으로 다운로드하거나 이미지를 직접 빌드하지 않아도 됩니다!"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
     "rowsha": "1Idw1dJinQ5ViE9XSo3nl6paFvPhRHLVF82HX7wrKMQ=",
     "originContent": "- [2025-10-08] 📝 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** is now publicly available!  ",
     "translatedContent": "- [2025-10-08] 📝 저희 **[Bird-Interact 논문](https://huggingface.co/papers/2510.05318)**이 공개되었습니다!  "
   },
   {
-    "row": 34,
+    "row": 36,
     "rowsha": "CyhZ3V3Xw21cqVgFeKohnC9M+zgHFv7iAcLiXcj7GyI=",
     "originContent": "  It presents the full details, methodology, and evaluation of our interactive text-to-SQL benchmark.  ",
-    "translatedContent": "  본 논문은 인터랙티브 텍스트-투-SQL 벤치마크의 전체 세부사항, 방법론, 평가를 다룹니다.  "
-  },
-  {
-    "row": 35,
-    "rowsha": "5LLNJEctcvyORsxcmNT01K5A7hUbbXe73EKwGwkOgMI=",
-    "originContent": "  👉 Check it out and know more about the ideas behind [BIRD-Interact](https://bird-interact.github.io/).",
-    "translatedContent": "  👉 [BIRD-Interact](https://bird-interact.github.io/)의 아이디어를 더 알고 싶으시다면 확인해보세요."
-  },
-  {
-    "row": 36,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "translatedContent": "  본 논문은 인터랙티브 텍스트-투-SQL 벤치마크의 전체 세부 정보, 방법론 및 평가를 제시합니다.  "
   },
   {
     "row": 37,
-    "rowsha": "p8U7kXBDyt7dTwl5nGd41SRQeVKq/0RgaX0XX6TqnW4=",
-    "originContent": "- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  ",
-    "translatedContent": "- [2025-08-26] 🚀 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** 세트 출시를 알리게 되어 기쁩니다!  "
+    "rowsha": "5LLNJEctcvyORsxcmNT01K5A7hUbbXe73EKwGwkOgMI=",
+    "originContent": "  👉 Check it out and know more about the ideas behind [BIRD-Interact](https://bird-interact.github.io/).",
+    "translatedContent": "  👉 [BIRD-Interact](https://bird-interact.github.io/)의 아이디어가 궁금하다면 확인해보세요."
   },
   {
     "row": 38,
-    "rowsha": "cZRLL0Cl1abpLmEsXUNPMa1FqgTG/AiR4Rta4dhhpzk=",
-    "originContent": "It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  ",
-    "translatedContent": "매우 까다로운 데이터셋으로, 최고의 LLM도 **16.33%** 성공률, `c-interact` 및 `a-interact` 부분에서는 단 **10.0%** 성공률을 보이고 있습니다.  "
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 39,
-    "rowsha": "uTh0Lj92DZu8zFDeupB/DHZqDkNrQJVNtDYmELxeRQg=",
-    "originContent": "👉 For more details, please visit our [project website](https://bird-interact.github.io/).",
-    "translatedContent": "👉 더 자세한 내용은 [프로젝트 웹사이트](https://bird-interact.github.io/)를 방문하세요."
+    "rowsha": "p8U7kXBDyt7dTwl5nGd41SRQeVKq/0RgaX0XX6TqnW4=",
+    "originContent": "- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  ",
+    "translatedContent": "- [2025-08-26] 🚀 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** 세트를 출시하게 되어 기쁩니다!  "
   },
   {
     "row": 40,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "cZRLL0Cl1abpLmEsXUNPMa1FqgTG/AiR4Rta4dhhpzk=",
+    "originContent": "It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  ",
+    "translatedContent": "이번 세트는 매우 어렵습니다 — 최고 LLM도 성공률이 **16.33%**에 불과하며, `c-interact`와 `a-interact` 부분에서는 **10.0%**에 머무르고 있습니다.  "
   },
   {
     "row": 41,
-    "rowsha": "njQxscmq+qoQRPFHu4zV50Xh0Om7eNBkzAW8d5sodrI=",
-    "originContent": "- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  ",
-    "translatedContent": "- [2025-08-26] 📬 이번 주에는 **Ground Truth & Test cases**를 메일링 리스트에 발송할 예정입니다.  "
+    "rowsha": "uTh0Lj92DZu8zFDeupB/DHZqDkNrQJVNtDYmELxeRQg=",
+    "originContent": "👉 For more details, please visit our [project website](https://bird-interact.github.io/).",
+    "translatedContent": "👉 자세한 내용은 [프로젝트 웹사이트](https://bird-interact.github.io/)를 방문해 주세요."
   },
   {
     "row": 42,
-    "rowsha": "HwzWO9mNhKPLTQfQ12WsbYV1MagdQY+HJT7EgFcBByA=",
-    "originContent": "If you want early access, please send an email as instructed on the site for an **automatic download**.  ",
-    "translatedContent": "조기 접근을 원하시면, 사이트에 안내된 대로 이메일을 보내 **자동 다운로드**를 받으시기 바랍니다.  "
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 43,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "njQxscmq+qoQRPFHu4zV50Xh0Om7eNBkzAW8d5sodrI=",
+    "originContent": "- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  ",
+    "translatedContent": "- [2025-08-26] 📬 이번 주에 **Ground Truth & Test cases**를 메일링 리스트로 발송할 예정입니다.  "
   },
   {
     "row": 44,
-    "rowsha": "PdfleL4UEb/TpBvwZuRBaqVEtkXfwgIc/mpYLMRWtyc=",
-    "originContent": "- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  ",
-    "translatedContent": "- [2025-08-26] 💾 또 다른 소식으로, 로컬 연구를 위해 **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)**의 SQLite 버전을 출시했습니다.  "
+    "rowsha": "HwzWO9mNhKPLTQfQ12WsbYV1MagdQY+HJT7EgFcBByA=",
+    "originContent": "If you want early access, please send an email as instructed on the site for an **automatic download**.  ",
+    "translatedContent": "조기 접근을 원하시면, 사이트 안내에 따라 이메일을 보내 **자동 다운로드**를 받으실 수 있습니다.  "
   },
   {
     "row": 45,
-    "rowsha": "VxoqSMB6TpN2zObl1GDfFf/otbnzKtVIHirvSq2F8zI=",
-    "originContent": "The full **LiveSQLBench-Base** and **-Large** versions are coming soon!",
-    "translatedContent": "전체 버전인 **LiveSQLBench-Base**와 **-Large**는 곧 출시될 예정입니다!"
-  },
-  {
-    "row": 46,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 46,
+    "rowsha": "PdfleL4UEb/TpBvwZuRBaqVEtkXfwgIc/mpYLMRWtyc=",
+    "originContent": "- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  ",
+    "translatedContent": "- [2025-08-26] 💾 추가로, 로컬 연구를 쉽게 할 수 있도록 SQLite 버전 **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)**를 출시하였습니다.  "
+  },
+  {
     "row": 47,
-    "rowsha": "73VPSBicTOvoCvqOPfsvXHp4/SFquVX6NiITz3mxcnk=",
-    "originContent": "- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
-    "translatedContent": "- [2025-08-22] **버그 수정**: Bird-Interact-Agent 코드에서 phase-2 SQL을 평가할 때 저장된 phase-1 SQL이 성공적으로 실행되지 않아 Phase-2의 성공률이 낮아지는 버그를 수정했습니다. 이 버그는 phase1 sql이 데이터베이스에서 CREATE table 등 작업을 수행하는 경우에만 영향을 미칩니다."
+    "rowsha": "VxoqSMB6TpN2zObl1GDfFf/otbnzKtVIHirvSq2F8zI=",
+    "originContent": "The full **LiveSQLBench-Base** and **-Large** versions are coming soon!",
+    "translatedContent": "전체 **LiveSQLBench-Base** 및 **-Large** 버전도 곧 출시될 예정입니다!"
   },
   {
     "row": 48,
@@ -289,9 +289,9 @@
   },
   {
     "row": 49,
-    "rowsha": "QhSpt0Gs7Alk+veU+/7r5eBWjEmUPNckehpOkHHTFfY=",
-    "originContent": "## 🧸 Overview",
-    "translatedContent": "## 🧸 개요"
+    "rowsha": "73VPSBicTOvoCvqOPfsvXHp4/SFquVX6NiITz3mxcnk=",
+    "originContent": "- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
+    "translatedContent": "- [2025-08-22] **버그 수정**: Bird-Interact-Agent 코드에서 phase-2 SQL 평가 시, 저장된 phase-1 SQL이 정상적으로 실행되지 않아 Phase-2 성공률이 낮아지는 버그를 수정했습니다. 이 버그는 phase1 sql이 데이터베이스에서 CREATE table 등 작업을 수행하는 과제에만 영향을 미칩니다."
   },
   {
     "row": 50,
@@ -301,69 +301,69 @@
   },
   {
     "row": 51,
-    "rowsha": "9U1B81vOnyeDPKlxb6O3XC4FXh0hbLXH8V57gCGlb0Q=",
-    "originContent": "BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.",
-    "translatedContent": "BIRD-INTERACT는 대화형 text-to-SQL 벤치마크로, **동적 상호작용 관점에서 Text-to-SQL 평가를 새롭게 정의합니다**."
+    "rowsha": "QhSpt0Gs7Alk+veU+/7r5eBWjEmUPNckehpOkHHTFfY=",
+    "originContent": "## 🧸 Overview",
+    "translatedContent": "## 🧸 개요"
   },
   {
     "row": 52,
-    "rowsha": "84g83RdosxtgIw+gRwhL1ror9irKd50meUk3EOxrDGA=",
-    "originContent": "The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.",
-    "translatedContent": "이 환경은 계층적 지식 베이스, 데이터베이스 문서화, 함수 기반 사용자 시뮬레이터를 결합하여 실제 기업 환경에서 전체 **CRUD** 작업을 재현합니다."
-  },
-  {
-    "row": 53,
-    "rowsha": "9KzX3dvnS81NZYRZ9Lky7nqmWEbBkaBCTMs8AamBzSA=",
-    "originContent": "It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.",
-    "translatedContent": "2가지 엄격한 테스트 모드가 제공됩니다: (1) 패시브 **대화형 상호작용**과 (2) 액티브 **에이전트 상호작용**으로, 각각 실행 가능한 테스트 케이스가 포함된 600개의 주석 작업(BI, CRUD 등)을 포함합니다."
-  },
-  {
-    "row": 54,
-    "rowsha": "mpc5AeXDAHxdj52GwIefEDRc0bpXki0gsoYNYWijI0c=",
-    "originContent": "Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.",
-    "translatedContent": "일반적인 평가는 모델과 사용자 시뮬레이터 간 1,968~5,496회의 상호작용 턴을 유발하며, 최신 추론 모델도 **약 24%** 및 **약 18%**의 작업만 해결해 이 벤치마크의 도전적 난이도를 보여줍니다."
-  },
-  {
-    "row": 55,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 53,
+    "rowsha": "9U1B81vOnyeDPKlxb6O3XC4FXh0hbLXH8V57gCGlb0Q=",
+    "originContent": "BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.",
+    "translatedContent": "BIRD-INTERACT는 인터랙티브 텍스트-to-SQL 벤치마크로, **동적 상호작용의 관점에서 Text-to-SQL 평가를 재구성합니다**."
+  },
+  {
+    "row": 54,
+    "rowsha": "84g83RdosxtgIw+gRwhL1ror9irKd50meUk3EOxrDGA=",
+    "originContent": "The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.",
+    "translatedContent": "이 환경은 계층적 지식베이스, 데이터베이스 문서, 함수 기반 사용자 시뮬레이터를 결합하여 실제 기업 환경을 완전한 **CRUD** 작업 전반에 걸쳐 재현합니다."
+  },
+  {
+    "row": 55,
+    "rowsha": "9KzX3dvnS81NZYRZ9Lky7nqmWEbBkaBCTMs8AamBzSA=",
+    "originContent": "It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.",
+    "translatedContent": "엄격한 두 가지 테스트 모드: (1) 수동 **대화형 상호작용**과 (2) 능동 **Agentic 상호작용**을 제공하며, BI, CRUD 등 600개의 주석이 달린 과제와 실행 가능한 테스트 케이스로 보호됩니다."
+  },
+  {
     "row": 56,
+    "rowsha": "mpc5AeXDAHxdj52GwIefEDRc0bpXki0gsoYNYWijI0c=",
+    "originContent": "Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.",
+    "translatedContent": "일반 평가에서는 모델과 사용자 시뮬레이터 간에 1,968~5,496회 상호작용 턴이 발생하며, 최신 추론 모델은 현재 과제의 **약 24%**와 **약 18%**만 해결하여 벤치마크의 난이도를 보여줍니다."
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
     "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
     "originContent": "<p align=\"center\">",
     "translatedContent": "<p align=\"center\">"
   },
   {
-    "row": 57,
+    "row": 59,
     "rowsha": "75rx/bZj6j98j3RNS6gpBC2JCE4XvCP27x7SUM1Pp/k=",
     "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" ",
     "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" "
   },
   {
-    "row": 58,
+    "row": 60,
     "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
     "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
     "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
   },
   {
-    "row": 59,
+    "row": 61,
     "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
     "originContent": "</p>",
     "translatedContent": "</p>"
-  },
-  {
-    "row": 60,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 61,
-    "rowsha": "a+eobES8Y0aPdgWyMeEskYpAfe5mRRebAHJzTW4BWXY=",
-    "originContent": "### ✅ Two Evaluation Modes",
-    "translatedContent": "### ✅ 두 가지 평가 모드"
   },
   {
     "row": 62,
@@ -373,9 +373,9 @@
   },
   {
     "row": 63,
-    "rowsha": "rQgxc4D2aLnRS+OWIF63LnqSZtF255KZkRId/tY989s=",
-    "originContent": "BIRD-INTERACT supports two evaluation modes as mentioned above:",
-    "translatedContent": "BIRD-INTERACT는 위에서 언급한 두 가지 평가 모드를 지원합니다:"
+    "rowsha": "a+eobES8Y0aPdgWyMeEskYpAfe5mRRebAHJzTW4BWXY=",
+    "originContent": "### ✅ Two Evaluation Modes",
+    "translatedContent": "### ✅ 두 가지 평가 모드"
   },
   {
     "row": 64,
@@ -385,225 +385,225 @@
   },
   {
     "row": 65,
-    "rowsha": "doLQcF2moo95fuQb//rTr1wBmz+PRVTsyIDgCDLJCr0=",
-    "originContent": "   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.",
-    "translatedContent": "   - **c-Interact**: 대화형 상호작용(패시브 모드)으로, 워크플로우가 고정되어 있습니다. 코드와 자세한 정보는 `bird_interact_conv`에서 확인할 수 있습니다."
+    "rowsha": "rQgxc4D2aLnRS+OWIF63LnqSZtF255KZkRId/tY989s=",
+    "originContent": "BIRD-INTERACT supports two evaluation modes as mentioned above:",
+    "translatedContent": "BIRD-INTERACT는 위에서 언급한 두 가지 평가 모드를 지원합니다:"
   },
   {
     "row": 66,
-    "rowsha": "DPbnNKRyhiwaDJCP/LcyBaIbe1AFeT6wnnTq78NCOrw=",
-    "originContent": "   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.",
-    "translatedContent": "   - **a-Interact**: 에이전트 상호작용(액티브 모드)으로, 워크플로우가 동적으로 모델에 의해 주도됩니다. 코드와 자세한 정보는 `bird_interact_agent`에서 확인할 수 있습니다."
-  },
-  {
-    "row": 67,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 67,
+    "rowsha": "doLQcF2moo95fuQb//rTr1wBmz+PRVTsyIDgCDLJCr0=",
+    "originContent": "   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.",
+    "translatedContent": "   - **c-Interact**: 대화형 상호작용으로, 수동 모드이며 워크플로우가 고정되어 있습니다. 코드와 자세한 정보는 `bird_interact_conv`에서 확인할 수 있습니다."
+  },
+  {
     "row": 68,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "### 🐣 라이트 버전"
+    "rowsha": "DPbnNKRyhiwaDJCP/LcyBaIbe1AFeT6wnnTq78NCOrw=",
+    "originContent": "   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.",
+    "translatedContent": "   - **a-Interact**: Agentic 상호작용으로, 모델이 주도하는 능동적이고 워크플로우가 동적입니다. 코드와 자세한 정보는 `bird_interact_agent`에서 확인할 수 있습니다."
   },
   {
     "row": 69,
-    "rowsha": "q5RzZ4z97zBrs0+Wz0A587XCSPhq1czDbEhkpV+/69A=",
-    "originContent": "### 🐣 Lite Version",
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
     "translatedContent": ""
   },
   {
     "row": 70,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "PostgreSQL 전용으로 270개의 고품질 실제 작업이 포함된 BIRD-INTERACT의 라이트 버전인 `bird-interact-lite-exp`를 출시합니다. 빠른 실험을 위한 좋은 시작점입니다."
+    "translatedContent": ""
   },
   {
     "row": 71,
-    "rowsha": "2CBSzGJ6FluIx3SWGBCAVjhuaYkr5V5Oouf6TjmieCI=",
-    "originContent": "We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. ",
-    "translatedContent": ""
+    "rowsha": "q5RzZ4z97zBrs0+Wz0A587XCSPhq1czDbEhkpV+/69A=",
+    "originContent": "### 🐣 Lite Version",
+    "translatedContent": "### 🐣 라이트 버전"
   },
   {
     "row": 72,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "### 🦜 전체 버전"
+    "translatedContent": ""
   },
   {
     "row": 73,
-    "rowsha": "4NEf5b/8pW3NO+wyiruRc0fUjzemeI1cDyHO3LSPcQ8=",
-    "originContent": "### 🦜 Full Version",
-    "translatedContent": ""
+    "rowsha": "2CBSzGJ6FluIx3SWGBCAVjhuaYkr5V5Oouf6TjmieCI=",
+    "originContent": "We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. ",
+    "translatedContent": "BIRD-INTERACT의 라이트 버전인 `bird-interact-lite-exp`를 공개합니다. 이 버전은 PostgreSQL을 위한 270개의 고품질 실제 과제를 포함하고 있습니다. 빠른 실험에 적합한 출발점입니다."
   },
   {
     "row": 74,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "`bird-interact-full` 전체 버전은 PostgreSQL용 600개의 작업을 포함하는 종합 벤치마크입니다. 다양한 SQL 작업과 사용자 질의를 다루며, 전체 버전은 곧 출시될 예정입니다."
+    "translatedContent": ""
   },
   {
     "row": 75,
-    "rowsha": "qxVDafA3gAj2+/1PZQ/Sh9MVXNARM4e0D2YJ1qokJO8=",
-    "originContent": "The full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.",
-    "translatedContent": ""
+    "rowsha": "4NEf5b/8pW3NO+wyiruRc0fUjzemeI1cDyHO3LSPcQ8=",
+    "originContent": "### 🦜 Full Version",
+    "translatedContent": "### 🦜 풀 버전"
   },
   {
     "row": 76,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "### BIRD-INTERACT-FULL에서의 모델 성능 결과"
+    "translatedContent": ""
   },
   {
     "row": 77,
-    "rowsha": "e1fVIRnf5DJBlNl7U6EoyQI0eVJkYgfI3rTGBDoYd2M=",
-    "originContent": "### Model Performance Results on BIRD-INTERACT-FULL",
-    "translatedContent": ""
+    "rowsha": "qxVDafA3gAj2+/1PZQ/Sh9MVXNARM4e0D2YJ1qokJO8=",
+    "originContent": "The full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.",
+    "translatedContent": "BIRD-INTERACT의 풀 버전인 `bird-interact-full`은 PostgreSQL을 위한 600개의 과제를 포함하는 종합 벤치마크입니다. 다양한 SQL 작업과 사용자 쿼리를 포괄합니다. 풀 버전은 곧 출시될 예정입니다."
   },
   {
     "row": 78,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "#### 1. **c-Interact Text-to-SQL** 성능"
-  },
-  {
-    "row": 79,
-    "rowsha": "R2z5Tn93qsANHvoKru7vIhL4TbniwafDJfbyihPd/Ug=",
-    "originContent": "#### 1. **c-Interact Text-to-SQL** Performance",
-    "translatedContent": "| 순위 | 모델명           | 정규화 보상        | 평균 비용(USD)/작업 | 수준               |"
-  },
-  {
-    "row": 80,
-    "rowsha": "Jq9h6d3xn5I7dko6pYZ1kyE7T6AkdSWLxen/zAFM3fQ=",
-    "originContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level              |",
     "translatedContent": ""
   },
   {
-    "row": 81,
-    "rowsha": "qk5BEHvGn26A4xMQOUxlM81RNWe62xncRk4IjTUEgFk=",
-    "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|",
-    "translatedContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|"
+    "row": 79,
+    "rowsha": "e1fVIRnf5DJBlNl7U6EoyQI0eVJkYgfI3rTGBDoYd2M=",
+    "originContent": "### Model Performance Results on BIRD-INTERACT-FULL",
+    "translatedContent": "### BIRD-INTERACT-FULL에서의 모델 성능 결과"
   },
   {
-    "row": 82,
-    "rowsha": "niovxHIv8QBH9Vb49dzVyYEQLTFso9bR0DXVaoZc0Tc=",
-    "originContent": "| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 Excellent Chat  |",
-    "translatedContent": "| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 우수한 채팅      |"
-  },
-  {
-    "row": 83,
-    "rowsha": "efdWY6XZofU3BTXM7X1QSU3bodDl2zUs6qXYgYo/lDQ=",
-    "originContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 Excellent Chat  |",
-    "translatedContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 우수한 채팅      |"
-  },
-  {
-    "row": 84,
-    "rowsha": "nviRDKmcMgsryACogpf/kuPovN+vvfQZ7jOR25fdTZs=",
-    "originContent": "| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 Good Chat       |",
-    "translatedContent": "| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 좋은 채팅        |"
-  },
-  {
-    "row": 85,
-    "rowsha": "RvN9yOCl1wRxaTwNu/KOntIycX4eUDfB5hhxokbPVMk=",
-    "originContent": "| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 Good Chat       |",
-    "translatedContent": "| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 좋은 채팅        |"
-  },
-  {
-    "row": 86,
-    "rowsha": "XnrIVaEU6JsLcBVIdTctBZgL3b5qOsvnbLFzA/dVvuc=",
-    "originContent": "| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ Standard        |",
-    "translatedContent": "| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ 표준             |"
-  },
-  {
-    "row": 87,
-    "rowsha": "i38LlBHIyjGbWdptOTFVCVg9koB64mcJiF+2JcIiv8M=",
-    "originContent": "| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ Standard        |",
-    "translatedContent": "| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ 표준             |"
-  },
-  {
-    "row": 88,
-    "rowsha": "YfmrCm2i7EZR0ehYI/xncYwVmDUeNwVfSh2xtrrWf0g=",
-    "originContent": "| 7    | GPT-5              | 12.58             | $0.08               | ⚪ Basic           |",
-    "translatedContent": "| 7    | GPT-5              | 12.58             | $0.08               | ⚪ 기본             |"
-  },
-  {
-    "row": 89,
+    "row": 80,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 81,
+    "rowsha": "R2z5Tn93qsANHvoKru7vIhL4TbniwafDJfbyihPd/Ug=",
+    "originContent": "#### 1. **c-Interact Text-to-SQL** Performance",
+    "translatedContent": "#### 1. **c-Interact Text-to-SQL** 성능"
+  },
+  {
+    "row": 82,
+    "rowsha": "Jq9h6d3xn5I7dko6pYZ1kyE7T6AkdSWLxen/zAFM3fQ=",
+    "originContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level              |",
+    "translatedContent": "| 순위 | 모델명              | 정규화 보상        | 평균 비용 (USD)/작업 | 등급                 |"
+  },
+  {
+    "row": 83,
+    "rowsha": "qk5BEHvGn26A4xMQOUxlM81RNWe62xncRk4IjTUEgFk=",
+    "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|",
+    "translatedContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:--------------------:|"
+  },
+  {
+    "row": 84,
+    "rowsha": "niovxHIv8QBH9Vb49dzVyYEQLTFso9bR0DXVaoZc0Tc=",
+    "originContent": "| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 Excellent Chat  |",
+    "translatedContent": "| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 우수한 채팅       |"
+  },
+  {
+    "row": 85,
+    "rowsha": "efdWY6XZofU3BTXM7X1QSU3bodDl2zUs6qXYgYo/lDQ=",
+    "originContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 Excellent Chat  |",
+    "translatedContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 우수한 채팅       |"
+  },
+  {
+    "row": 86,
+    "rowsha": "nviRDKmcMgsryACogpf/kuPovN+vvfQZ7jOR25fdTZs=",
+    "originContent": "| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 Good Chat       |",
+    "translatedContent": "| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 좋은 채팅         |"
+  },
+  {
+    "row": 87,
+    "rowsha": "RvN9yOCl1wRxaTwNu/KOntIycX4eUDfB5hhxokbPVMk=",
+    "originContent": "| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 Good Chat       |",
+    "translatedContent": "| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 좋은 채팅         |"
+  },
+  {
+    "row": 88,
+    "rowsha": "XnrIVaEU6JsLcBVIdTctBZgL3b5qOsvnbLFzA/dVvuc=",
+    "originContent": "| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ Standard        |",
+    "translatedContent": "| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ 표준              |"
+  },
+  {
+    "row": 89,
+    "rowsha": "i38LlBHIyjGbWdptOTFVCVg9koB64mcJiF+2JcIiv8M=",
+    "originContent": "| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ Standard        |",
+    "translatedContent": "| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ 표준              |"
+  },
+  {
     "row": 90,
+    "rowsha": "YfmrCm2i7EZR0ehYI/xncYwVmDUeNwVfSh2xtrrWf0g=",
+    "originContent": "| 7    | GPT-5              | 12.58             | $0.08               | ⚪ Basic           |",
+    "translatedContent": "| 7    | GPT-5              | 12.58             | $0.08               | ⚪ 기본              |"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
     "rowsha": "Tqql2jza5bb6QlmVOGBB9geprkhJKPZ1jY96SFwnhVQ=",
     "originContent": "#### 2. **a-Interact Text-to-SQL** Performance",
     "translatedContent": "#### 2. **a-Interact Text-to-SQL** 성능"
   },
   {
-    "row": 91,
+    "row": 93,
     "rowsha": "0k1L/YlMi6EJx2r9l/+p0/MoPxfokyl2yBuqVKYHrvc=",
     "originContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level                    |",
-    "translatedContent": "| Rank | 모델명               | 정규화된 리워드     | 평균 비용 (USD)/작업   | 등급                      |"
-  },
-  {
-    "row": 92,
-    "rowsha": "Nj7icDShMepIyOwnKPfnjIUuMT7zkHPHYxjVXL2S9PU=",
-    "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|",
-    "translatedContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|"
-  },
-  {
-    "row": 93,
-    "rowsha": "HPUqjETPdas09RgDiB02Y5JusE3mBlNYD8nz+Dx7c74=",
-    "originContent": "| 1    | GPT-5              | 25.52             | $0.24               | 🏆 Excellent Interaction |",
-    "translatedContent": "| 1    | GPT-5              | 25.52             | $0.24               | 🏆 우수한 상호작용        |"
+    "translatedContent": "| 순위 | 모델명              | 정규화 보상        | 평균 비용 (USD)/작업 | 등급                      |"
   },
   {
     "row": 94,
-    "rowsha": "bMQ3A+A1VULUzBWGbNnUcN0XlHUVtuXIr4V4Jz8vwVc=",
-    "originContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 Excellent Interaction |",
-    "translatedContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 우수한 상호작용        |"
+    "rowsha": "Nj7icDShMepIyOwnKPfnjIUuMT7zkHPHYxjVXL2S9PU=",
+    "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|",
+    "translatedContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:--------------------------:|"
   },
   {
     "row": 95,
-    "rowsha": "rGnh3lbAUKn9WmgeJfVg6KftnPVmhopzlz9DWoXVIXE=",
-    "originContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 Good Interaction      |",
-    "translatedContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 좋은 상호작용          |"
+    "rowsha": "HPUqjETPdas09RgDiB02Y5JusE3mBlNYD8nz+Dx7c74=",
+    "originContent": "| 1    | GPT-5              | 25.52             | $0.24               | 🏆 Excellent Interaction |",
+    "translatedContent": "| 1    | GPT-5              | 25.52             | $0.24               | 🏆 우수한 상호작용         |"
   },
   {
     "row": 96,
-    "rowsha": "4j/e+hmJNdDkZIiDoN6zuuevmfNQ0LZbddfDB7qMFQo=",
-    "originContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 Good Interaction      |",
-    "translatedContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 좋은 상호작용          |"
+    "rowsha": "bMQ3A+A1VULUzBWGbNnUcN0XlHUVtuXIr4V4Jz8vwVc=",
+    "originContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 Excellent Interaction |",
+    "translatedContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 우수한 상호작용         |"
   },
   {
     "row": 97,
-    "rowsha": "Qat+3srGhiJLNyet0Hc4k2JCHILQ8OY4Styi9pEkXmE=",
-    "originContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ Standard              |",
-    "translatedContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ 표준                   |"
+    "rowsha": "rGnh3lbAUKn9WmgeJfVg6KftnPVmhopzlz9DWoXVIXE=",
+    "originContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 Good Interaction      |",
+    "translatedContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 좋은 상호작용           |"
   },
   {
     "row": 98,
-    "rowsha": "J8+i15WAOqjKWwsNKKoZQtRjkMj9kns+HaUE16WPSaY=",
-    "originContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ Standard              |",
-    "translatedContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ 표준                   |"
+    "rowsha": "4j/e+hmJNdDkZIiDoN6zuuevmfNQ0LZbddfDB7qMFQo=",
+    "originContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 Good Interaction      |",
+    "translatedContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 좋은 상호작용           |"
   },
   {
     "row": 99,
-    "rowsha": "cAR/cpPakbQWvBq/RxtLIJ5sSCyZ8d5CpAtjqa0S1L8=",
-    "originContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ Basic                 |",
-    "translatedContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ 기본                   |"
+    "rowsha": "Qat+3srGhiJLNyet0Hc4k2JCHILQ8OY4Styi9pEkXmE=",
+    "originContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ Standard              |",
+    "translatedContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ 표준                    |"
   },
   {
     "row": 100,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "J8+i15WAOqjKWwsNKKoZQtRjkMj9kns+HaUE16WPSaY=",
+    "originContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ Standard              |",
+    "translatedContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ 표준                    |"
   },
   {
     "row": 101,
-    "rowsha": "+Jpw7DNyX62i16RieTingm/y9I/fbyKt3QION65wVVM=",
-    "originContent": "> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.",
-    "translatedContent": "> \\* 예산 파라미터: 시작 예산/사용자 인내심 예산, 자체 가상화폐 *bird-coin* <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\"> 으로 측정합니다. 자세한 내용은 [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) 를 참고하세요."
+    "rowsha": "cAR/cpPakbQWvBq/RxtLIJ5sSCyZ8d5CpAtjqa0S1L8=",
+    "originContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ Basic                 |",
+    "translatedContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ 기본                    |"
   },
   {
     "row": 102,
@@ -613,9 +613,9 @@
   },
   {
     "row": 103,
-    "rowsha": "5u3FiJW4Jxe5q1dPL28qg/MUDpTFWL7rKBi3H4FV4ns=",
-    "originContent": "### Interaction-Time Scaling (ITS)",
-    "translatedContent": "### 상호작용 시간 스케일링(ITS)"
+    "rowsha": "+Jpw7DNyX62i16RieTingm/y9I/fbyKt3QION65wVVM=",
+    "originContent": "> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.",
+    "translatedContent": "> \\* 예산 매개변수: 시작 예산/사용자 인내 예산, 당사 가상 화폐 *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">로 측정됩니다. 자세한 내용은 [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)을 참조하세요."
   },
   {
     "row": 104,
@@ -625,9 +625,9 @@
   },
   {
     "row": 105,
-    "rowsha": "NwBIsVzW+kYLShpJ6rffKZncWEjgGCQhf/Ih+5DLlLU=",
-    "originContent": "Interaction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.",
-    "translatedContent": "상호작용 시간 스케일링(ITS)은 모델이 다중 턴 상호작용을 통해 최종 성능을 지속적으로 향상시킬 수 있는 능력을 의미합니다. 이 상호작용적 성능이 명확하게 지정된 단일 턴 작업에서의 모델의 이상적 성능을 능가할 때, 우리는 **ITS 법칙**을 만족한다고 말합니다. 사용자의 인내심이 커지고 상호작용 턴이 누적될수록 성능이 계속 향상되어, 모델이 장기간의 대화에서도 효과적으로 소통할 수 있음을 보여줍니다. 현재 claude-3-7-sonnet만이 ITS 법칙을 만족하는 것으로 확인되었습니다."
+    "rowsha": "5u3FiJW4Jxe5q1dPL28qg/MUDpTFWL7rKBi3H4FV4ns=",
+    "originContent": "### Interaction-Time Scaling (ITS)",
+    "translatedContent": "### 상호작용 시간 스케일링(ITS)"
   },
   {
     "row": 106,
@@ -637,39 +637,39 @@
   },
   {
     "row": 107,
-    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
-    "originContent": "<p align=\"center\">",
-    "translatedContent": "<p align=\"center\">"
+    "rowsha": "NwBIsVzW+kYLShpJ6rffKZncWEjgGCQhf/Ih+5DLlLU=",
+    "originContent": "Interaction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.",
+    "translatedContent": "상호작용 시간 스케일링(ITS)은 모델이 다회전 상호작용을 통해 최종 성능을 지속적으로 높일 수 있는 능력을 의미합니다. 이 상호작용 성능이 명확하게 지정된 단일 회차 작업에서 모델의 이상적 성능을 초과할 때, 해당 모델이 **ITS 법칙**을 만족한다고 합니다. 사용자의 인내심이 커지고 상호작용 횟수가 누적될수록 성능이 계속 향상되어, 모델이 장기간 대화에서도 효과적으로 소통할 수 있음을 보여줍니다. 현재로서는 claude-3-7-sonnet만이 ITS 법칙을 만족하는 것으로 확인되었습니다."
   },
   {
     "row": 108,
-    "rowsha": "TW0AIFALwgyvJujlCuN+wyzJWtuuF1VkgusDlug821c=",
-    "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" ",
-    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" "
-  },
-  {
-    "row": 109,
-    "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
-    "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
-    "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
-  },
-  {
-    "row": 110,
-    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-    "originContent": "</p>",
-    "translatedContent": "</p>"
-  },
-  {
-    "row": 111,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 109,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 110,
+    "rowsha": "TW0AIFALwgyvJujlCuN+wyzJWtuuF1VkgusDlug821c=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" ",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" "
+  },
+  {
+    "row": 111,
+    "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
+    "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
+    "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
+  },
+  {
     "row": 112,
-    "rowsha": "GRA0o2JYSxg8X2purzLLk9Zt8XnGE8h4/VlGeFmnX9M=",
-    "originContent": "## Environment Setup",
-    "translatedContent": "## 환경 설정"
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
   },
   {
     "row": 113,
@@ -679,21 +679,21 @@
   },
   {
     "row": 114,
-    "rowsha": "tDbEdv5pYPB1U4PN122epOKraa/YbzS/P35WOUd0B4g=",
-    "originContent": "1. Run Docker containers for bird-interact-lite database, bird-interact-full database, and evaluation environment:",
-    "translatedContent": "1. bird-interact-lite 데이터베이스, bird-interact-full 데이터베이스, 평가 환경을 위한 도커 컨테이너를 실행합니다:"
+    "rowsha": "GRA0o2JYSxg8X2purzLLk9Zt8XnGE8h4/VlGeFmnX9M=",
+    "originContent": "## Environment Setup",
+    "translatedContent": "## 환경 설정"
   },
   {
     "row": 115,
-    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
-    "originContent": "  ",
-    "translatedContent": "  "
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 116,
-    "rowsha": "4mfOdzHzqWZKB8ryaBS2m9y2OzM2DrTzHMY36nSzYxw=",
-    "originContent": "  > If you just want to evaluate on `bird-interact-lite`, you could comment out the [`postgresql_full` service](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) in `docker-compose.yml` to speed up the environment setup.",
-    "translatedContent": "  > `bird-interact-lite`에서만 평가하고 싶다면, 환경 설정 속도를 높이기 위해 `docker-compose.yml` 파일에서 [`postgresql_full` 서비스](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31)를 주석 처리할 수 있습니다."
+    "rowsha": "tDbEdv5pYPB1U4PN122epOKraa/YbzS/P35WOUd0B4g=",
+    "originContent": "1. Run Docker containers for bird-interact-lite database, bird-interact-full database, and evaluation environment:",
+    "translatedContent": "1. bird-interact-lite 데이터베이스, bird-interact-full 데이터베이스, 평가 환경용 Docker 컨테이너를 실행하세요:"
   },
   {
     "row": 117,
@@ -703,105 +703,105 @@
   },
   {
     "row": 118,
-    "rowsha": "cZZ1ihyKvQOGnE8KvasnKgESAfFl1bO6WjZnSt9gOKs=",
-    "originContent": "  Start the environment by running: ",
-    "translatedContent": "  환경을 시작하려면 다음을 실행하세요:"
+    "rowsha": "4mfOdzHzqWZKB8ryaBS2m9y2OzM2DrTzHMY36nSzYxw=",
+    "originContent": "  > If you just want to evaluate on `bird-interact-lite`, you could comment out the [`postgresql_full` service](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) in `docker-compose.yml` to speed up the environment setup.",
+    "translatedContent": "  > `bird-interact-lite`에서만 평가하려면, 환경 설정 속도를 높이기 위해 [`postgresql_full` 서비스](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31)를 `docker-compose.yml`에서 주석 처리할 수 있습니다."
   },
   {
     "row": 119,
-    "rowsha": "GE0AusEadGNk/GYr/BF/88UKsGyopy2r8aCnyXHh4HI=",
-    "originContent": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; and **c-interact** can be found in `./bird_interact_conv/README.md`.",
-    "translatedContent": "**a-interact** 실행에 대한 자세한 내용은 `./bird_interact_agent/README.md`에서 확인할 수 있으며, **c-interact**는 `./bird_interact_conv/README.md`에서 확인할 수 있습니다."
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
   },
   {
     "row": 120,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "cZZ1ihyKvQOGnE8KvasnKgESAfFl1bO6WjZnSt9gOKs=",
+    "originContent": "  Start the environment by running: ",
+    "translatedContent": "  다음 명령으로 환경을 시작하세요:"
   },
   {
     "row": 121,
-    "rowsha": "f6chlfSVENLsNAyFyteH0qZqANkTbg9qD38E3rR7+l4=",
-    "originContent": "## 📋 Todo Lists",
-    "translatedContent": "## 📋 할 일 목록"
+    "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+    "originContent": "   ",
+    "translatedContent": "   "
   },
   {
     "row": 122,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "B5pSKtG/+9GMzzpOYnLe7qrK6mhxroVzNZXAMDLU7hw=",
+    "originContent": "   Expected results:",
+    "translatedContent": "   예상 결과:"
   },
   {
     "row": 123,
-    "rowsha": "EL1NQH2bug6G0ymI/d6FG7PFV2GnkPXixeKmwZPR78w=",
-    "originContent": "- [x] Release lite version, bird-interact-lite (270).",
-    "translatedContent": "- [x] 라이트 버전 bird-interact-lite (270) 공개."
+    "rowsha": "FkBt4PLZIutayIU1YZJtJRqONA4bkIfhbQ275Yq+F5s=",
+    "originContent": "   - **bird-interact-lite**: ",
+    "translatedContent": "   - **bird-interact-lite**: "
   },
   {
     "row": 124,
-    "rowsha": "hKBdzfGYA7Z4jZ++QUac0jtKAk4XdrT5WpTUG30vQPQ=",
-    "originContent": "- [x] Release conversational version, bird-interact-conv.",
-    "translatedContent": "- [x] 대화형 버전 bird-interact-conv 공개."
+    "rowsha": "5NWsT0Fd8R2v0vCGbwQKqvSwN3EhM1t4XrItZ4IyQq0=",
+    "originContent": "     - 📈 Total Databases: 18",
+    "translatedContent": "     - 📈 총 데이터베이스: 18"
   },
   {
     "row": 125,
-    "rowsha": "WfzwLUQQqs71qDxmOxFIOr3TUazlzzHDkM2e4UDJDn8=",
-    "originContent": "- [x] Release agent version, bird-interact-agent.",
-    "translatedContent": "- [x] 에이전트 버전 bird-interact-agent 공개."
+    "rowsha": "GxkB9TjFkjTTX7ePGuhRqlpSlH6sSUyesgmiaEDNM4s=",
+    "originContent": "     - 📋 Total Tables: 175",
+    "translatedContent": "     - 📋 총 테이블: 175"
   },
   {
     "row": 126,
-    "rowsha": "tfR+oV/Tx2mEPN6r3D2jkGwWZXobjbuEMudF9OxNLv0=",
-    "originContent": "- [x] Release Full bird-interact-full (600).",
-    "translatedContent": "- [x] 전체 버전 bird-interact-full (600) 공개."
+    "rowsha": "64NK/0JFIHOBULGy3WKnKPHhEkS+4lQrhVtsfO6n7LA=",
+    "originContent": "     - 🔢 Total Columns: 2286",
+    "translatedContent": "     - 🔢 총 컬럼: 2286"
   },
   {
     "row": 127,
-    "rowsha": "vFAJSKqY7icL0MP2UvbRlITQrKGIlzdRt4TZvsoGFb0=",
-    "originContent": "- [ ] SFT / RL an User Simulator",
-    "translatedContent": "- [ ] SFT / RL 사용자 시뮬레이터"
+    "rowsha": "vp0WOneltYTksEwVArBR77uaVP0nMGm65qwAyAYgQYQ=",
+    "originContent": "     - 📈 Avg Rows per Table: 1,038.48",
+    "translatedContent": "     - 📈 테이블당 평균 행 수: 1,038.48"
   },
   {
     "row": 128,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "smSM6RGIjqKiM6lSQbAwIbd+5ZvegnsC6Md/+O+p92o=",
+    "originContent": "     - 💾 Total Size: 207.15 MB (around)",
+    "translatedContent": "     - 💾 총 크기: 207.15 MB (대략)"
   },
   {
     "row": 129,
-    "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
-    "originContent": "## Acknowledgement",
-    "translatedContent": "## 감사의 말씀"
+    "rowsha": "q97PZFA/39lTNwJk+iElAfEJ8GvYoZqsb0ikWfAPV0w=",
+    "originContent": "   - **bird-interact-full**: ",
+    "translatedContent": "   - **bird-interact-full**: "
   },
   {
     "row": 130,
-    "rowsha": "m2QkSisvveyCZX6DzbZF2v3cmidtsWxZeJ2QRiUaFs4=",
-    "originContent": "We would like to express our sincere gratitude to **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, and Professor **Shinji Watanabe** for their fruitful discussions and valuable insights that helped improve this project.",
-    "translatedContent": "본 프로젝트의 발전에 기여해 주신 **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi** 그리고 **Shinji Watanabe** 교수님께 진심으로 감사드립니다."
+    "rowsha": "RdvWgS8iUhAiF5quZdhTZBus0/m4rU7nqPh3LoKZ6x8=",
+    "originContent": "     - 📈 Total Databases: 22",
+    "translatedContent": "     - 📈 총 데이터베이스: 22"
   },
   {
     "row": 131,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "Mxos3+6xN1g+Da5EobFbmY/eHApVkRRmfEF2OW4RH3A=",
+    "originContent": "     - 📋 Total Tables: 244",
+    "translatedContent": "     - 📋 총 테이블: 244"
   },
   {
     "row": 132,
-    "rowsha": "mhQeFc5wMr+mccgqoEwgaSGTbadrwRv17Z+l5irQ6EI=",
-    "originContent": "## Created By:",
-    "translatedContent": "## 제작자:"
+    "rowsha": "1PoYS/otqkIuh9Jz/geFtvrHFHStUi2+8NE+UMA9K8A=",
+    "originContent": "     - 🔢 Total Columns: 2011",
+    "translatedContent": "     - 🔢 총 컬럼: 2011"
   },
   {
     "row": 133,
-    "rowsha": "BcslIbMQUwitDZ/R23YsQQIVge1FMTXdOH6FqEchx/I=",
-    "originContent": "BIRD Team & Google Cloud",
-    "translatedContent": "BIRD 팀 & Google Cloud"
+    "rowsha": "4EW0pGD4/KBIHDsNlFvK+POLaGR09I9BWl5eGftNlwE=",
+    "originContent": "     - 📈 Avg Rows per Table: 1,121.19",
+    "translatedContent": "     - 📈 테이블당 평균 행 수: 1,121.19"
   },
   {
     "row": 134,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "b5bo53OBUMszCF5iwS5PzApDi4vHki5mOoloknRFcgk=",
+    "originContent": "     - 💾 Total Size: 272.00 MB (around)",
+    "translatedContent": "     - 💾 총 크기: 272.00 MB (대략)"
   },
   {
     "row": 135,
@@ -817,9 +817,9 @@
   },
   {
     "row": 137,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "+k7Ca++d5jxjDrqQWYaSmQV+QrsPLeOVDWwp4LEOnLg=",
+    "originContent": "## 📦 Dataset Details",
+    "translatedContent": "## 📦 데이터셋 상세"
   },
   {
     "row": 138,
@@ -829,9 +829,9 @@
   },
   {
     "row": 139,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "0CAgopT4uCrcP2XugQo54SQ7+3o6EmaZDPuISb7ZpYs=",
+    "originContent": "### Dataset Description",
+    "translatedContent": "### 데이터셋 설명"
   },
   {
     "row": 140,
@@ -841,42 +841,516 @@
   },
   {
     "row": 141,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "pkqV5xWW8I11T7Zl8mUQKLCjeKF4+mgKL0ur0oD13wg=",
+    "originContent": "- **Database:** The complete PostgreSQL database can be download from [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) and [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view).",
+    "translatedContent": "- **데이터베이스:** 전체 PostgreSQL 데이터베이스는 [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) 및 [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view)에서 다운로드할 수 있습니다."
   },
   {
     "row": 142,
-    "rowsha": "Yy1L+liWEPiygBFNsm9+4WmZQmi0NpcYvH+ZHWiB74A=",
-    "originContent": "## Change Log",
-    "translatedContent": "## 변경 로그"
+    "rowsha": "Rg/lq5RTpV9VpKctp3slYhtbuoFhbkfaorRPygzg6Gk=",
+    "originContent": "- **data:** Each data instance contain the following main parts:",
+    "translatedContent": "- **data:** 각 데이터 인스턴스는 다음 주요 부분을 포함합니다:"
   },
   {
     "row": 143,
+    "rowsha": "oeZ/uzqCsA5VNpsUV6Q5FUwcPz5hnWM75+LkGTHBx5Y=",
+    "originContent": "   - `selected_database`: The name of the database.  ",
+    "translatedContent": "   - `selected_database`: 데이터베이스의 이름.  "
+  },
+  {
+    "row": 144,
+    "rowsha": "oPNVshV/MIPpyhRk3j2Nxvx6eiSjlh78678fwhXHkyY=",
+    "originContent": "   - `query`: The unambiguous user query.  ",
+    "translatedContent": "   - `query`: 명확한 사용자 질의.  "
+  },
+  {
+    "row": 145,
+    "rowsha": "FCnlkL1lk997F3W0Z2i178PvvixkNotyQ/PDUSEBG3I=",
+    "originContent": "   - `amb_user_query`: The user query with injected ambiguities.",
+    "translatedContent": "   - `amb_user_query`: 모호성이 삽입된 사용자 질의."
+  },
+  {
+    "row": 146,
+    "rowsha": "dwSIKvWoOZ0bAk3/MuxBQZx+roDRkZ8De8Z9EV1g+YE=",
+    "originContent": "   - `user_query_ambiguity`: The ambiguities injected into the user query.",
+    "translatedContent": "   - `user_query_ambiguity`: 사용자 질의에 삽입된 모호성."
+  },
+  {
+    "row": 147,
+    "rowsha": "2uIaqS3MsNEQQa0yxeGCprcga3iAl7rbNcCeOhVqcms=",
+    "originContent": "   - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.",
+    "translatedContent": "   - `non_critical_ambiguity`: 순서, 제한 등과 같은 비중요 모호성."
+  },
+  {
+    "row": 148,
+    "rowsha": "jcfQ3RBzqQ5IoWI85TqetWQboWoj/TWcS2YjEGz1euw=",
+    "originContent": "   - `knowledge_ambiguity`: The ambiguities created by masked external knowledges. ",
+    "translatedContent": "   - `knowledge_ambiguity`: 외부 지식이 마스킹되어 생성된 모호성. "
+  },
+  {
+    "row": 149,
+    "rowsha": "/i3/thp7p1thZ/xCsBw3OHgDabXZMsKgumrhx3ZwzjQ=",
+    "originContent": "   - `sol_sql`: The ground truth SQL solution.  ",
+    "translatedContent": "   - `sol_sql`: 정답 SQL 솔루션.  "
+  },
+  {
+    "row": 150,
+    "rowsha": "c+FiZvziVNHQ0BSlQNBGyAERMve99Hh3QFKIpYMnmY4=",
+    "originContent": "   - `preprocess_sql`: SQL queries to run before executing the solution or prediction.  ",
+    "translatedContent": "   - `preprocess_sql`: 솔루션이나 예측 실행 전에 실행할 SQL 질의.  "
+  },
+  {
+    "row": 151,
+    "rowsha": "xRrHhJsIZKbVIUl3a4LFJeid+TCYKXtGm2FO2voDCJA=",
+    "originContent": "   - `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  ",
+    "translatedContent": "   - `clean_up_sql`: 테스트 케이스 후 데이터베이스 변경 사항을 되돌리기 위해 실행할 SQL 질의.  "
+  },
+  {
+    "row": 152,
+    "rowsha": "AN8KsW9EANalz2xbGaJpzkDyz8Piw1aD8GW5coktVLI=",
+    "originContent": "   - `test_cases`: A set of test cases to validate the predicted corrected SQL.",
+    "translatedContent": "   - `test_cases`: 예측된 수정 SQL을 검증하는 테스트 케이스 세트."
+  },
+  {
+    "row": 153,
+    "rowsha": "CJy/lmct2AT3OvidWiH5FLxFjM+3NIuJGemuO6IO3/I=",
+    "originContent": "   - `follow_up`: The labeled follow up questions.",
+    "translatedContent": "   - `follow_up`: 라벨링된 후속 질문."
+  },
+  {
+    "row": 154,
+    "rowsha": "rUHKXvHeVB4UqqvGBnj9yJY3C0rN/Oz3IsSbOVCSOLE=",
+    "originContent": "   - `external_knowledge`: The external knowledge related to the specific task.",
+    "translatedContent": "   - `external_knowledge`: 특정 작업과 관련된 외부 지식."
+  },
+  {
+    "row": 155,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 144,
+    "row": 156,
+    "rowsha": "hQpiCMxX9dK0D0byHCQ4cUtoa8tKtWMoWCxcRBrGSks=",
+    "originContent": "- **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.",
+    "translatedContent": "- **평가:** 평가 코드는 [`./evaluation`](./evaluation) 디렉토리에서 제공됩니다."
+  },
+  {
+    "row": 157,
+    "rowsha": "v59KK3oH49UautE6oU56wvhU8e75NEkRJddOGbaFnyo=",
+    "originContent": "- **Curated by:** BIRD Team & Google Cloud",
+    "translatedContent": "- **큐레이션:** BIRD 팀 & Google Cloud"
+  },
+  {
+    "row": 158,
+    "rowsha": "1/kQI3qUNugGt6yUagQdmVhx1FDPb1fFeNnmxrbHjpM=",
+    "originContent": "- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)",
+    "translatedContent": "- **라이선스:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+  },
+  {
+    "row": 159,
+    "rowsha": "EQ6KhGw1snJI5U6ZFWIjj/IpN04AkABGwoqpo5JQnkQ=",
+    "originContent": "- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)",
+    "translatedContent": "- **HuggingFace 데이터셋 카드:** PostgreSQL용 [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)"
+  },
+  {
+    "row": 160,
+    "rowsha": "O8AjJTL2RWO1kYl3e3uSnI/e0cAoXdHF9HVGPc7mxug=",
+    "originContent": "  and [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full) for PostgreSQL; and [mini-interact](https://huggingface.co/datasets/birdsql/mini-interact) for SQLite.",
+    "translatedContent": "  및 [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full); SQLite용 [mini-interact](https://huggingface.co/datasets/birdsql/mini-interact)"
+  },
+  {
+    "row": 161,
+    "rowsha": "eBv7zL5k1TMCOM1StXazHH570ymiakAwkC4j0AVtzpM=",
+    "originContent": "```ultree",
+    "translatedContent": "```ultree"
+  },
+  {
+    "row": 162,
+    "rowsha": "zbTuKuppzGqDMxu+ltwsqpopnSEynvsDNvwCqC4YOag=",
+    "originContent": ".",
+    "translatedContent": "."
+  },
+  {
+    "row": 163,
+    "rowsha": "qjFZW+CH7vA3mZn1LMINwV6O4bbCxoSaYNxQcl/8P2g=",
+    "originContent": "├── LICENSE",
+    "translatedContent": "├── LICENSE"
+  },
+  {
+    "row": 164,
+    "rowsha": "LoTAQfuqjLD8IIK02XWaCUrSST7uB7c6SX0sC1UqV4I=",
+    "originContent": "├── README.md",
+    "translatedContent": "├── README.md"
+  },
+  {
+    "row": 165,
+    "rowsha": "10NVJ7vcLBpn9q+ni1SOLTSQZ8hBkul07frGvDwqOhI=",
+    "originContent": "├── BIRD-Interact-ADK",
+    "translatedContent": "├── BIRD-Interact-ADK"
+  },
+  {
+    "row": 166,
+    "rowsha": "nXKu1VVyaf/uhkjN7z6RSTeeZoRhNnRzqY84MhYnCJY=",
+    "originContent": "│   ├── ...",
+    "translatedContent": "│   ├── ..."
+  },
+  {
+    "row": 167,
+    "rowsha": "PBuqlrGjnAeVzGL75CmS6Z6Efgkuoqlrp+a0pSX7nOA=",
+    "originContent": "│   └── README.md",
+    "translatedContent": "│   └── README.md"
+  },
+  {
+    "row": 168,
+    "rowsha": "e+LFjoxUGYOJKyqrbPhLw039cbaPmE9xext8WWWBGbM=",
+    "originContent": "├── bird_interact_conv",
+    "translatedContent": "├── bird_interact_conv"
+  },
+  {
+    "row": 169,
+    "rowsha": "/FthLrvkUUX7N/0MDpsdNOm5ukW/7z2I4QQPWujHxps=",
+    "originContent": "│   ├── ...",
+    "translatedContent": "│   ├── ..."
+  },
+  {
+    "row": 170,
+    "rowsha": "VGSslS2XSRjAj/mACUcqCUWhtN6ZtslYPoL9dzv14jM=",
+    "originContent": "│   └── README.md",
+    "translatedContent": "│   └── README.md"
+  },
+  {
+    "row": 171,
+    "rowsha": "nGl2ENeStw0G2gisxuefpyLXlfx5QTnz7UJCeMC4GQA=",
+    "originContent": "├── bird_interact_agent",
+    "translatedContent": "├── bird_interact_agent"
+  },
+  {
+    "row": 172,
+    "rowsha": "/FthLrvkUUX7N/0MDpsdNOm5ukW/7z2I4QQPWujHxps=",
+    "originContent": "│   ├── ...",
+    "translatedContent": "│   ├── ..."
+  },
+  {
+    "row": 173,
+    "rowsha": "VGSslS2XSRjAj/mACUcqCUWhtN6ZtslYPoL9dzv14jM=",
+    "originContent": "│   └── README.md",
+    "translatedContent": "│   └── README.md"
+  },
+  {
+    "row": 174,
+    "rowsha": "tMucDK/CQLCYCnTYc5dnlt4Znkuxo5N6Tn/xy7/3zX8=",
+    "originContent": "├── evaluation",
+    "translatedContent": "├── evaluation"
+  },
+  {
+    "row": 175,
+    "rowsha": "p1uv3noF50YVzYKMeIYN57LNUFPrSRB96Nk0RaQfRmk=",
+    "originContent": "│   ├── docker-compose.yml",
+    "translatedContent": "│   ├── docker-compose.yml"
+  },
+  {
+    "row": 176,
+    "rowsha": "D063pfXhcQ/wxqLeg4rK+BQ9G8UlKJ0rstboyU/OX20=",
+    "originContent": "│   ├── env",
+    "translatedContent": "│   ├── env"
+  },
+  {
+    "row": 177,
+    "rowsha": "Bucc8pFYSe5V1PcCgmXolWTNjItvBSc3BcTgl5B8yiw=",
+    "originContent": "│   ├── postgre_table_dumps",
+    "translatedContent": "│   ├── postgre_table_dumps"
+  },
+  {
+    "row": 178,
+    "rowsha": "YkFhRtZQdoHRWHFRWso+EMl/ZT86nzk9TksshvgZp4Y=",
+    "originContent": "│   ├── run",
+    "translatedContent": "│   ├── run"
+  },
+  {
+    "row": 179,
+    "rowsha": "8i2oQlcwKa2HbCy6oJ2GnbgqgkHWxIpkwesU8Sho1P4=",
+    "originContent": "│   └── src",
+    "translatedContent": "│   └── src"
+  },
+  {
+    "row": 180,
+    "rowsha": "C1rgYDVWb3F+/zJPBSuEPaxRhkOfBjTSUOkVayTs2go=",
+    "originContent": "├── materials",
+    "translatedContent": "├── materials"
+  },
+  {
+    "row": 181,
+    "rowsha": "/FthLrvkUUX7N/0MDpsdNOm5ukW/7z2I4QQPWujHxps=",
+    "originContent": "│   ├── ...",
+    "translatedContent": "│   ├── ..."
+  },
+  {
+    "row": 182,
+    "rowsha": "6nANypW2KXZhNpct/4WcqntssXjXUMey3MYj6/tQvhA=",
+    "originContent": "└── requirements.txt",
+    "translatedContent": "└── requirements.txt"
+  },
+  {
+    "row": 183,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 184,
+    "rowsha": "0X3pqPbuJPkZPnZLIumfSpdH4fgLB+BBq4ihdxHrQWQ=",
+    "originContent": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; **c-interact** can be found in `./bird_interact_conv/README.md`; and the **ADK-based implementation** can be found in `./BIRD-Interact-ADK/README.md`.",
+    "translatedContent": "**a-interact** 실행에 대한 자세한 내용은 `./bird_interact_agent/README.md`에서 확인할 수 있으며, **c-interact**에 대한 내용은 `./bird_interact_conv/README.md`에서 확인할 수 있습니다. **ADK 기반 구현**은 `./BIRD-Interact-ADK/README.md`에서 확인 가능합니다."
+  },
+  {
+    "row": 185,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "f6chlfSVENLsNAyFyteH0qZqANkTbg9qD38E3rR7+l4=",
+    "originContent": "## 📋 Todo Lists",
+    "translatedContent": "## 📋 할 일 목록"
+  },
+  {
+    "row": 187,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 188,
+    "rowsha": "EL1NQH2bug6G0ymI/d6FG7PFV2GnkPXixeKmwZPR78w=",
+    "originContent": "- [x] Release lite version, bird-interact-lite (270).",
+    "translatedContent": "- [x] 라이트 버전 출시, bird-interact-lite (270)."
+  },
+  {
+    "row": 189,
+    "rowsha": "hKBdzfGYA7Z4jZ++QUac0jtKAk4XdrT5WpTUG30vQPQ=",
+    "originContent": "- [x] Release conversational version, bird-interact-conv.",
+    "translatedContent": "- [x] 대화형 버전 출시, bird-interact-conv."
+  },
+  {
+    "row": 190,
+    "rowsha": "WfzwLUQQqs71qDxmOxFIOr3TUazlzzHDkM2e4UDJDn8=",
+    "originContent": "- [x] Release agent version, bird-interact-agent.",
+    "translatedContent": "- [x] 에이전트 버전 출시, bird-interact-agent."
+  },
+  {
+    "row": 191,
+    "rowsha": "tfR+oV/Tx2mEPN6r3D2jkGwWZXobjbuEMudF9OxNLv0=",
+    "originContent": "- [x] Release Full bird-interact-full (600).",
+    "translatedContent": "- [x] 전체 버전 출시, bird-interact-full (600)."
+  },
+  {
+    "row": 192,
+    "rowsha": "mDYQudS6unZYhqGl9aqfEovwaKC/AKuWLGYHfmxiFrg=",
+    "originContent": "- [x] Release ADK-based implementation, BIRD-Interact-ADK.",
+    "translatedContent": "- [x] ADK 기반 구현 출시, BIRD-Interact-ADK."
+  },
+  {
+    "row": 193,
+    "rowsha": "vFAJSKqY7icL0MP2UvbRlITQrKGIlzdRt4TZvsoGFb0=",
+    "originContent": "- [ ] SFT / RL an User Simulator",
+    "translatedContent": "- [ ] SFT / RL 사용자 시뮬레이터"
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+    "originContent": "## Acknowledgement",
+    "translatedContent": "## 감사의 말씀"
+  },
+  {
+    "row": 196,
+    "rowsha": "m2QkSisvveyCZX6DzbZF2v3cmidtsWxZeJ2QRiUaFs4=",
+    "originContent": "We would like to express our sincere gratitude to **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, and Professor **Shinji Watanabe** for their fruitful discussions and valuable insights that helped improve this project.",
+    "translatedContent": "본 프로젝트의 발전에 도움을 주신 **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, 그리고 **Shinji Watanabe** 교수님께 진심으로 감사의 말씀을 전합니다."
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "mhQeFc5wMr+mccgqoEwgaSGTbadrwRv17Z+l5irQ6EI=",
+    "originContent": "## Created By:",
+    "translatedContent": "## 제작자:"
+  },
+  {
+    "row": 199,
+    "rowsha": "BcslIbMQUwitDZ/R23YsQQIVge1FMTXdOH6FqEchx/I=",
+    "originContent": "BIRD Team & Google Cloud",
+    "translatedContent": "BIRD 팀 & Google Cloud"
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 207,
+    "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+    "originContent": "## Citation",
+    "translatedContent": "## 인용"
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 209,
+    "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+    "originContent": "```bibtex",
+    "translatedContent": "```bibtex"
+  },
+  {
+    "row": 210,
+    "rowsha": "a41gvp9ljXe3n/DGTCbh/H1WaYS4oApt/l2rGBizMj0=",
+    "originContent": "@inproceedings{",
+    "translatedContent": "@inproceedings{"
+  },
+  {
+    "row": 211,
+    "rowsha": "J8GIoMUJheBiqjyYJWQHLghPUHQviBQhGBIu5dPCRYQ=",
+    "originContent": "huo2026birdinteract,",
+    "translatedContent": "huo2026birdinteract,"
+  },
+  {
+    "row": 212,
+    "rowsha": "XGnPGVTp+NaKDO92eA6YI4AkisFbPVEwpZF/xQGmBLI=",
+    "originContent": "title={{BIRD}-{INTERACT}: Re-imagining Text-to-{SQL} Evaluation via Lens of Dynamic Interactions},",
+    "translatedContent": "title={{BIRD}-{INTERACT}: Re-imagining Text-to-{SQL} Evaluation via Lens of Dynamic Interactions},"
+  },
+  {
+    "row": 213,
+    "rowsha": "8y4re8h87hd3bTeE50uafjmpZ39llDgrWDphld+8JpM=",
+    "originContent": "author={Nan Huo and Xiaohan Xu and Jinyang Li and Per Jacobsson and Shipei Lin and Bowen Qin and Binyuan Hui and Xiaolong Li and Ge Qu and Shuzheng Si and Linheng Han and Edward Alexander and Xintong Zhu and Rui Qin and Ruihan Yu and Yiyao Jin and Feige Zhou and Weihao Zhong and Yun Chen and Hongyu Liu and Chenhao Ma and Fatma Ozcan and Yannis Papakonstantinou and Reynold Cheng},",
+    "translatedContent": "author={Nan Huo and Xiaohan Xu and Jinyang Li and Per Jacobsson and Shipei Lin and Bowen Qin and Binyuan Hui and Xiaolong Li and Ge Qu and Shuzheng Si and Linheng Han and Edward Alexander and Xintong Zhu and Rui Qin and Ruihan Yu and Yiyao Jin and Feige Zhou and Weihao Zhong and Yun Chen and Hongyu Liu and Chenhao Ma and Fatma Ozcan and Yannis Papakonstantinou and Reynold Cheng},"
+  },
+  {
+    "row": 214,
+    "rowsha": "OhPjmMwNhSnj0bfmNyYWIEtSHe1C2JLO8Wn5B+P0qB4=",
+    "originContent": "booktitle={The Fourteenth International Conference on Learning Representations},",
+    "translatedContent": "booktitle={The Fourteenth International Conference on Learning Representations},"
+  },
+  {
+    "row": 215,
+    "rowsha": "pZDT0ZGqf48i7MntOFrhCIBdfEnDj0VfrT8p96Mpb94=",
+    "originContent": "year={2026},",
+    "translatedContent": "year={2026},"
+  },
+  {
+    "row": 216,
+    "rowsha": "tUbZLXY9+oSc58iAGRSd3MbE5qoDimiFsExE3nxyNvs=",
+    "originContent": "url={https://openreview.net/forum?id=nHrYBGujps}",
+    "translatedContent": "url={https://openreview.net/forum?id=nHrYBGujps}"
+  },
+  {
+    "row": 217,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 218,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 변경 로그"
+  },
+  {
+    "row": 220,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 221,
+    "rowsha": "Yy1L+liWEPiygBFNsm9+4WmZQmi0NpcYvH+ZHWiB74A=",
+    "originContent": "## Change Log",
+    "translatedContent": "- [2025-11-06] 🐛 **버그 수정** & 🐳 **도커 업데이트**: 사용자 시뮬레이터에서 SQL 파서를 통해 SQL을 올바르게 파싱하지 못하는 버그를 수정하기 위해 sqlglot 버전을 26.16.4로 업데이트했습니다. `bird_interact_eval` 환경에서 `pip install sqlglot==26.16.4`로 재설치하여 해결할 수 있습니다. `bird_interact_eval` 이미지도 업데이트되었으므로, 이미지를 다시 받아 `bird_interact_eval` 컨테이너를 재생성할 수 있습니다."
+  },
+  {
+    "row": 222,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [2025-10-21] 🐳 **도커 업데이트**: Full DB Env용 도커를 추가했습니다. Base/Full DB Env 및 `a-Interact`와 `c-Interact` 평가 환경의 3가지 도커 이미지를 환경 구성을 용이하게 하기 위해 Docker Hub에 푸시했습니다. DB 덤프를 다운로드하고 이미지를 수동으로 빌드할 필요가 없습니다! Docker Hub에서 최신 이미지를 받고 컨테이너를 재생성하세요. 예: `docker compose down -v && docker compose pull && docker compose up -d --force-recreate` 명령 사용."
+  },
+  {
+    "row": 223,
     "rowsha": "Z1U72G8iUw35F0VXT/QQ4hHQgL/nwD4xFuSMH8lzboc=",
     "originContent": "- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.",
-    "translatedContent": "- [2025-11-06] 🐛 **버그 수정** & 🐳 **도커 업데이트**: 사용자 시뮬레이터에서 sql 파서가 SQL을 올바르게 파싱하지 못하는 버그를 수정하기 위해 sqlglot 버전을 26.16.4로 업데이트했습니다. `bird_interact_eval` 환경에서 `pip install sqlglot==26.16.4`로 재설치하면 수정할 수 있습니다. `bird_interact_eval` 이미지도 업데이트되어, 이미지를 pull한 후 컨테이너를 새로 생성하면 됩니다."
+    "translatedContent": "- [2025-08-22]  🐛 **버그 수정**: Phase-2 SQL 평가 시, 저장된 phase-1 SQL이 성공적으로 실행되지 않아 Phase-2 성공률이 낮아지는 버그를 수정했습니다. 이 버그는 phase1 SQL이 데이터베이스에서 CREATE table 등 일부 작업을 수행하는 작업에만 영향을 미칩니다."
   },
   {
-    "row": 145,
+    "row": 224,
     "rowsha": "AOso64cmDJc8FxEExtaKElXz++MYq2Lc8TtifY/dAWY=",
     "originContent": "- [2025-10-21] 🐳 **Docker update**: Add the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually! Please pull the latest images from Docker Hub and recreates the containers, e.g. using `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`.",
-    "translatedContent": "- [2025-10-21] 🐳 **도커 업데이트**: Full DB Env용 도커 추가. Base/Full DB Env 및 `a-Interact`와 `c-Interact` 평가 환경 등 3개의 도커 이미지를 Docker Hub에 업로드하여 환경 구축을 용이하게 했습니다. DB 덤프를 다운로드하거나 이미지를 수동으로 빌드할 필요가 없습니다! Docker Hub에서 최신 이미지를 pull하고 컨테이너를 다시 생성하세요. 예: `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`."
+    "translatedContent": ""
   },
   {
-    "row": 146,
+    "row": 225,
     "rowsha": "H6Zyonsv0aL1AyBf5xeZKrbsY19tVfLl445zOVlMBJc=",
     "originContent": "- [2025-08-22]  🐛 **Bug Fix**: Fix the bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
-    "translatedContent": "- [2025-08-22]  🐛 **버그 수정**: phase-2 SQL 평가 시 저장된 phase-1 SQL이 성공적으로 실행되지 않아 Phase-2 성공률이 낮아지는 버그를 수정했습니다. 이 버그는 주로 phase1 sql이 데이터베이스에서 CREATE table 등 작업을 수행하는 작업에만 영향을 미칩니다."
+    "translatedContent": ""
   },
   {
-    "row": 147,
+    "row": 226,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""

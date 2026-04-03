@@ -24,7 +24,7 @@
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
@@ -32,32 +32,51 @@
 
 # Blog của Jimmy
 
-Một hệ thống blog cá nhân tối giản được xây dựng dựa trên Next.js 15+.
+Một hệ thống blog cá nhân tối giản được xây dựng dựa trên Next.js 15+, hỗ trợ sáng tác trực tuyến và triển khai dạng tĩnh.
 
 ## Công nghệ sử dụng
 
-- **Framework**: Next.js 13+ (App Router)
-- **Giao diện**: Tailwind CSS
+- **Framework**: Next.js 15+ (App Router)
+- **Ngôn ngữ**: TypeScript
+- **Kiểu dáng**: Tailwind CSS
 - **Biểu tượng**: Lucide Icons
-- **Chủ đề**: Hỗ trợ chuyển đổi chế độ sáng/tối
+- **Nội dung**: Markdown + Gray Matter + Remark
+- **Xác thực**: GitHub OAuth
 - **Triển khai**: Vercel
 
 ## Tính năng nổi bật
 
-- 📝 Hỗ trợ bài viết Markdown
-- 🌓 Chuyển đổi chủ đề sáng/tối
-- 📱 Thiết kế đáp ứng
-- ⚡ Tải nhanh
-- 📅 Hiển thị dòng thời gian bài viết
-- 🔐 Quản trị trực tuyến (tạo bài viết trực tiếp qua GitHub API)
+### Phía người đọc
+
+- 📝 Kết xuất bài viết Markdown + GFM (bao gồm hiển thị công thức toán học)
+- 🏷️ Lọc thẻ, phân trang, lưu trữ (theo năm/thẻ)
+- 📚 Điều hướng mục lục bài viết (TOC) và sao chép khối mã chỉ với một cú nhấp
+- 📱 Giao diện đáp ứng và chuyển đổi chủ đề sáng/tối
+- 🔥 Biểu đồ nhiệt lịch sáng tạo nổi trên (bài viết + tuỳ bút)
+- 📡 Đầu ra RSS đăng ký theo dõi (`/rss.xml`)
+
+### Phía sáng tác (quản trị)
+
+- 🔐 Đăng nhập GitHub OAuth (kiểm tra quyền chủ sở hữu/cộng tác viên)
+- ✍️ Tạo, chỉnh sửa, xoá bài viết/tuỳ bút trực tuyến
+- 🆔 Tùy chỉnh ID tệp + tự động tránh xung đột
+- 👀 Ba chế độ viết: chỉnh sửa / xem trước / chia đôi màn hình
+- 📊 Bảng thống kê sáng tác (tổng số, sản lượng tuần/tháng, thẻ phổ biến)
+
+### Phía kỹ thuật
+
+- ⚡ Xuất tĩnh nhiều trang (`force-static`) tăng hiệu năng & ổn định
+- 🧭 Tích hợp sitemap và robots
+- 🧩 Bộ đệm đọc nội dung & cấu trúc API mô-đun
 
 ## Cấu trúc dự án
 
 ```
 .
-├── app/
-│   ├── lib/           # 工具函数和数据处理
-│   ├── posts/         # 博客文章
+├── app/               # 页面、API 路由、Server Actions
+│   ├── api/           # 接口（OAuth、统计、校验、Markdown 等）
+│   ├── actions/       # 内容管理相关服务端动作
+│   ├── posts/         # 文章详情页
 │   └── page.tsx       # 首页
 ├── content/
 │   ├── notes/         # 随笔
@@ -96,18 +115,18 @@ npm run build
 
 ## Thêm bài viết mới
 
-### Cách 1: Quản lý trực tuyến qua trang quản trị (khuyến nghị)
+### Cách 1: Quản lý qua trang quản trị trực tuyến (khuyến nghị)
 
 1. Truy cập trang `/admin`
-2. Đăng nhập bằng mật khẩu quản trị viên
+2. Đăng nhập bằng GitHub OAuth
 3. Điền thông tin bài viết và gửi
 4. Bài viết sẽ được tạo tự động qua GitHub API, Vercel sẽ tự động triển khai lại
 
-### Cách 2: Thêm file thủ công
+### Cách 2: Thêm tệp thủ công
 
-1. Tạo file Markdown mới trong thư mục `content/posts`
-2. Định dạng tên file: xxx.md`
-3. Thêm metadata ở đầu file:
+1. Tạo tệp Markdown mới trong thư mục `content/posts`
+2. Định dạng tên tệp: `xxx.md`
+3. Thêm metadata vào đầu tệp:
 
 ```markdown
 ---
@@ -181,26 +200,34 @@ NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
 ```
 ⚠️ **Lưu ý**: 
 - Tệp `.env.local` đã được thêm vào `.gitignore`, sẽ không bị đẩy lên Git
-- Khi phát triển cục bộ, đảm bảo URL callback của OAuth App được đặt là `http://localhost:3000/api/auth/github/callback`
-- **Môi trường sản xuất bắt buộc phải đặt `NEXT_PUBLIC_BASE_URL` là `https://www.jimmy-blog.top`**
-- URL callback của OAuth App ở môi trường sản xuất nên được đặt là: `https://www.jimmy-blog.top/api/auth/github/callback`
+- Khi phát triển tại máy, đảm bảo URL callback của OAuth App được đặt là `http://localhost:3000/api/auth/github/callback`
+- **Trong môi trường sản xuất phải đặt `NEXT_PUBLIC_BASE_URL` là `https://www.jimmy-blog.top`**
+- URL callback của OAuth App trong môi trường sản xuất nên đặt là: `https://www.jimmy-blog.top/api/auth/github/callback`
 
 ## Triển khai
 
-Dự án đã được cấu hình triển khai trên Vercel, hỗ trợ triển khai tự động. Chỉ cần đẩy mã nguồn lên kho GitHub, Vercel sẽ tự động build và triển khai.
+Dự án đã cấu hình triển khai với Vercel, hỗ trợ tự động triển khai. Chỉ cần đẩy mã nguồn lên kho GitHub, Vercel sẽ tự động build và triển khai.
 
 ### Ưu điểm khi sử dụng trang quản trị
 
-- ✅ Không cần môi trường phát triển cục bộ
+- ✅ Không cần môi trường phát triển tại máy
 - ✅ Thêm bài viết mọi lúc mọi nơi
 - ✅ Tự động kích hoạt Vercel triển khai lại
-- ✅ Hoàn toàn miễn phí (GitHub OAuth và Vercel đều trong hạn mức miễn phí)
-- ✅ An toàn (Xác thực GitHub OAuth, chỉ chủ kho/kho cộng tác viên mới truy cập được)
-- ✅ Không cần quản lý mật khẩu, chỉ cần đăng nhập bằng tài khoản GitHub
+- ✅ Miễn phí hoàn toàn (GitHub OAuth và Vercel đều trong mức miễn phí)
+- ✅ An toàn (Xác thực GitHub OAuth, chỉ chủ kho hoặc cộng tác viên mới truy cập)
+- ✅ Không cần quản lý mật khẩu, đăng nhập bằng tài khoản GitHub
+- ✅ Hỗ trợ chỉnh sửa nội dung hiện có trực tuyến (không chỉ tạo mới)
+- ✅ Tự động xử lý xung đột ID tệp, tránh ghi đè và đổi tên thủ công
+- ✅ Trang quản trị có thống kê sáng tác, thuận tiện vận hành nội dung lâu dài
+
+## Phân tích dự án & Kế hoạch tương lai
+
+- Tài liệu phân tích dự án: [`docs/project-analysis.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/project-analysis.md)
+- Tài liệu kế hoạch tương lai: [`docs/future-roadmap.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/future-roadmap.md)
 
 ## Đóng góp
 
-Hoan nghênh gửi Issue và Pull Request!
+Chào mừng gửi Issue và Pull Request!
 
 ## Giấy phép
 
@@ -210,6 +237,6 @@ MIT License
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-03
 
 ---

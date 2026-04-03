@@ -1,63 +1,82 @@
 
 <div align="right">
   <details>
-    <summary >🌐 Language</summary>
+    <summary >🌐 ভাষা</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</
+        <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=en">ইংৰাজী</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-CN">সৰল চীনীয়া</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-TW">প্ৰচলিত চীনীয়া</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ja">জাপানী</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ko">কোৰিয়ান</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=hi">হিন্দী</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=th">থাই</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fr">ফ্ৰেঞ্চ</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=de">জাৰ্মান</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=es">স্পেনী</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=it">ইটালিয়ান</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ru">ৰাছিয়ান</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pt">পৰ্তুগীজ</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=nl">নেদাৰলেণ্ডছ</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pl">পোলিশ</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ar">আৰবী</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fa">ফাৰ্চি</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">তুৰ্কী</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">ভিয়েটনামী</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">ইন্দোনেছিয়ান</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
-# Jimmy'ৰ ব্লগ
+# জিম্মিৰ ব্লগ
 
-Next.js 15+ ৰ আধাৰত নিৰ্মিত এটা সহজ ব্যক্তিগত ব্লগ ব্যৱস্থা।
+Next.js 15+ ভিত্তিত নিৰ্মিত এটা সৰল ব্যক্তিগত ব্লগ ব্যৱস্থা, অনলাইন সৃষ্টি আৰু স্থিৰ ডেপ্লয়মেন্টৰ সহায়ত।
 
-## প্ৰযুক্তি ধৰা
+## প্ৰযুক্তি স্তৰ
 
-- **ফ্ৰেমৱৰ্ক**: Next.js 13+ (App Router)
-- **ষ্টাইলিং**: Tailwind CSS
-- **আইকন**: Lucide Icons
-- **থীম**: ডাৰ্ক/লাইট ম'ড ছুইচ সমৰ্থন
+- **ফ্ৰেমৱৰ্ক**: Next.js 15+ (App Router)
+- **ভাষা**: TypeScript
+- **শৈলী**: Tailwind CSS
+- **চিহ্ন**: Lucide Icons
+- **সমগ্ৰী**: Markdown + Gray Matter + Remark
+- **প্ৰমাণীকৰণ**: GitHub OAuth
 - **ডিপ্লয়মেণ্ট**: Vercel
 
-## বৈশিষ্ট্যসমূহ
+## ফিচাৰ বৈশিষ্ট্য
 
-- 📝 Markdown প্ৰবন্ধ সমৰ্থন
-- 🌓 ডাৰ্ক/লাইট থীম ছুইচ
-- 📱 ৰেছপনচিভ ডিজাইন
-- ⚡ দ্ৰুত লোডিং
-- 📅 প্ৰবন্ধ টাইমলাইন প্ৰদৰ্শন
-- 🔐 অনলাইন পৰিচালনা বেকএণ্ড (GitHub APIৰ জৰিয়তে প্ৰবন্ধ সৃষ্টি)
+### পঢ়োঁতা ফাল
 
-## প্ৰকল্প গঠন
+- 📝 Markdown + GFM প্ৰবন্ধ ৰেণ্ডাৰিং (গণিত সূত্ৰ সহ দেখুৱাব)
+- 🏷️ টেগ চয়ন, পৃষ্ঠাবিভাজন, সংৰক্ষণ (বৰ্ষ/টেগ অনুসৰি)
+- 📚 প্ৰবন্ধৰ সূচীপত্ৰ নেভিগেশন (TOC) আৰু ক'ড ব্লক এটা ক্লিকত কপি কৰা
+- 📱 প্ৰতিত্ত্বাত্মক লেআউট আৰু ডাৰ্ক/লাইট থিম পৰিবৰ্তন
+- 🔥 ভৱমান সৃষ্টিৰ কেলেণ্ডাৰ হিটম্যাপ (প্ৰবন্ধ + চিত্ৰ)
+- 📡 RSS চাবনীৰ আউটপুট (`/rss.xml`)
+
+### সৃষ্টি ফাল (প্ৰশাসনিক ডেশ্ব'ৰ্ড)
+
+- 🔐 GitHub OAuth লগইন (মালিক/সহকাৰী অনুমতি যাচাই)
+- ✍️ প্ৰবন্ধ/চিত্ৰ অনলাইন সৃষ্টি, সম্পাদনা, মচা
+- 🆔 কাষ্টম ফাইল ID + স্বয়ংক্ৰিয় সংঘাত এৰাই চলা
+- 👀 সম্পাদনা / পূৰ্বদর্শন / বিভাজিত স্ক্ৰীণ তিনিধৰণৰ লেখা ম'ড
+- 📊 সৃষ্টি পৰিসংখ্যা পেনেল (মুঠ, সপ্তাহ/মাহ উৎপাদন, জনপ্ৰিয় টেগ)
+
+### ইঞ্জিনিয়াৰিং ফাল
+
+- ⚡ বহু পৃষ্ঠা স্থায়ীভাৱে আউটপুট (`force-static`) কাৰ্যক্ষমতা আৰু স্থিৰতা বৃদ্ধি
+- 🧭 অন্তর্নির্মিত sitemap আৰু robots
+- 🧩 সমগ্ৰ পঢ়া কেশ্ব আৰু মডুলাৰ API গঠন
+
+## প্ৰকল্পৰ গঠন
 
 ```
 .
-├── app/
-│   ├── lib/           # 工具函数和数据处理
-│   ├── posts/         # 博客文章
+├── app/               # 页面、API 路由、Server Actions
+│   ├── api/           # 接口（OAuth、统计、校验、Markdown 等）
+│   ├── actions/       # 内容管理相关服务端动作
+│   ├── posts/         # 文章详情页
 │   └── page.tsx       # 首页
 ├── content/
 │   ├── notes/         # 随笔
@@ -94,20 +113,20 @@ npm run dev
 npm run build
 ```
 
-## নতুন প্ৰবন্ধ যোগ কৰা
+## নতুন প্ৰবন্ধ যোগ কৰক
 
-### পদ্ধতি এটা: অনলাইন পৰিচালনা বেকএণ্ড (পৰামৰ্শযোগ্য)
+### পদ্ধতি ১: অনলাইন পৰিচালনা ব্যাকএণ্ড (পৰামৰ্শযোগ্য)
 
-1. `/admin` পৃষ্ঠালৈ যান
-2. পৰিচালক পাছৱৰ্ড ব্যৱহাৰ কৰি লগইন কৰক
-3. প্ৰবন্ধৰ তথ্য পূৰণ কৰি জমা কৰক
-4. প্ৰবন্ধটো GitHub API ৰ জৰিয়তে স্বয়ংক্ৰিয়ভাৱে সৃষ্টি হ'ব, Vercel স্বয়ংক্ৰিয়ভাৱে পুনৰ ডিপ্লয় কৰিব
+1. `/admin` পৃষ্ঠা খুলক
+2. GitHub OAuth ব্যৱহাৰ কৰি প্ৰৱেশ কৰক
+3. প্ৰবন্ধৰ তথ্য পূৰণ কৰি জমা দিয়ক
+4. প্ৰবন্ধটো স্বচালিতভাৱে GitHub API ৰ জৰিয়তে সৃষ্টি হ'ব, আৰু Vercel স্বয়ংক্ৰিয়ভাৱে পুনৰ ডিপ্লয় কৰিব
 
-### পদ্ধতি দুই: ফাইল হাতেদি যোগ কৰা
+### পদ্ধতি ২: ফাইল হাতেহাতে যোগ কৰা
 
-1. `content/posts` ডাইৰেক্টৰীত নতুন Markdown ফাইল সৃষ্টি কৰক
-2. ফাইল নামকৰণৰ ফৰ্মেট: xxx.md`
-3. ফাইলৰ মুৰত মেটাডাটা যোগ কৰক:
+1. `content/posts` ফোল্ডাৰত নতুন Markdown ফাইল সৃষ্টি কৰক
+2. ফাইলৰ নামকৰণ ধৰণ: `xxx.md`
+3. ফাইলৰ মূৰত মেটাডাটা যোগ কৰক:
 
 ```markdown
 ---
@@ -181,35 +200,43 @@ NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
 ```
 
 ⚠️ **সতৰ্কবাণী**: 
-- `.env.local` ফাইলটো `.gitignore` ত যোগ কৰা হৈছে, Git লৈ জমা নহ'ব
-- স্থানীয় বিকাশত, নিশ্চিত কৰক যে OAuth App ৰ কলব্যাক URL `http://localhost:3000/api/auth/github/callback` হিচাপে ছেট কৰা আছে
-- **উৎপাদন পৰিবেশত `NEXT_PUBLIC_BASE_URL` অব্যাহতভাৱে `https://www.jimmy-blog.top` হিচাপে ছেট কৰা হব লাগিব**
-- উৎপাদন পৰিবেশৰ OAuth App ৰ কলব্যাক URL ছেট হব লাগিব: `https://www.jimmy-blog.top/api/auth/github/callback`
+- `.env.local` ফাইলটো `.gitignore` ত যোগ কৰা হৈছে, Git ত দাখিল নহ’ব
+- স্থানীয় ডেভেলপমেন্টত, নিশ্চিত কৰক যে OAuth App ৰ ৰিডাইৰেক্ট URL `http://localhost:3000/api/auth/github/callback` হিচাপে ছেট কৰা হৈছে
+- **প্ৰডাকশ্যন পৰিবেশত `NEXT_PUBLIC_BASE_URL` ক `https://www.jimmy-blog.top` হিচাপে ছেট কৰা বাধ্যতামূলক**
+- প্ৰডাকশ্যনৰ OAuth App ৰ ৰিডাইৰেক্ট URL ছেট হ’ব লাগে: `https://www.jimmy-blog.top/api/auth/github/callback`
 
-## ডিপ্লয়মেন্ট
+## ডিপ্লয়মেণ্ট
 
-প্ৰকল্পটো Vercel ডিপ্লয়মেন্টৰ বাবে কনফিগাৰ কৰা হৈছে, স্বয়ংক্ৰিয় ডিপ্লয়মেন্ট সমৰ্থন কৰে। কেৱল কোডটো GitHub ৰেপ'ত ঠেলি দিয়ক, Vercel এ স্বয়ংক্ৰিয়ভাৱে বিল্ড আৰু ডিপ্লয় কৰিব।
+প্ৰকল্পটো Vercel ডিপ্লয়ৰ বাবে কনফিগাৰ কৰা হৈছে, স্বয়ংক্ৰিয় ডিপ্লয় সমৰ্থিত। কেৱল কোডটো GitHub ৰেপ’ত পুশ কৰক, Vercel এ স্বয়ংক্ৰিয়ভাৱে বিল্ড আৰু ডিপ্লয় কৰিব।
 
-### ব্যৱস্থাপনা ডেছব'ৰ্ড ব্যৱহাৰৰ সুবিধাসমূহ
+### মেনেজমেণ্ট বেকএণ্ড ব্যৱহাৰৰ সুবিধাসমূহ
 
-- ✅ স্থানীয় বিকাশ পৰিবেশৰ প্ৰয়োজন নাই
-- ✅ যিকোনো সময়ত, যিকোনো ঠাইৰ পৰা প্ৰবন্ধ যোগ কৰিব পাৰিব
-- ✅ Vercel পুনৰ ডিপ্লয় স্বয়ংক্ৰিয়ভাৱে আৰম্ভ হয়
-- ✅ সম্পূৰ্ণ বিনামূলীয়া (GitHub OAuth আৰু Vercel দুয়োটাই বিনামূলীয়া সীমাৰ ভিতৰত)
-- ✅ নিৰাপদ (GitHub OAuth ভেৰিফিকেচন, কেৱল ৰেপ'ৰ মালিক/সহযোগীহে এক্সেছ কৰিব পাৰে)
-- ✅ পাছৱাৰ্ড মেনেজ কৰাৰ প্ৰয়োজন নাই, GitHub একাউণ্টে লগইন কৰিব পাৰিব
+- ✅ স্থানীয় ডেভেলপমেণ্ট এনভাইৰনমেণ্টৰ প্ৰয়োজন নাই
+- ✅ যিকোনো ঠাইৰ পৰা যিকোনো সময়ত লিপি যোগ কৰিব পাৰি
+- ✅ স্বয়ংক্ৰিয়ভাৱে Vercel ৰি-ডিপ্লয় ট্রিগাৰ কৰে
+- ✅ সম্পূৰ্ণৰূপে মাফ (GitHub OAuth আৰু Vercel দুয়ো মাফ সীমাৰ ভিতৰত)
+- ✅ নিৰাপদ (GitHub OAuth ভেৰিফিকেশ্বন, কেৱল ৰেপ’ৰ মালিক/সহযোগীয়ে প্ৰৱেশ কৰিব পাৰে)
+- ✅ পাছৱাৰ্ড ব্যৱস্থাপনা কৰাৰ প্ৰয়োজন নাই, কেৱল GitHub একাউণ্ট ব্যৱহাৰ কৰি লগইন কৰিব পাৰি
+- ✅ ইতিমধ্যে থকা সমগ্ৰী অনলাইন সম্পাদনা সমৰ্থন (নতুন যুক্তিৰে সীমাবদ্ধ নহয়)
+- ✅ ফাইল ID কনফ্লিক্ট স্বয়ংক্ৰিয়ভাৱে হেণ্ডল কৰে, অভাৰলেপ আৰু হস্তচালিত পুনৰ নামকৰণ এৰাই যায়
+- ✅ বেকএণ্ডত ক্ৰিয়েটিভ ষ্টেটিসটিক্স উপলব্ধ, ধাৰাবাহিক কনটেণ্ট অপাৰেশ্যন সহজ
+
+## প্ৰকল্প বিশ্লেষণ আৰু ভৱিষ্যৎ পৰিকল্পনা
+
+- প্ৰকল্প বিশ্লেষণ নথি: [`docs/project-analysis.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/project-analysis.md)
+- Future পৰিকল্পনা নথি: [`docs/future-roadmap.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/future-roadmap.md)
 
 ## অৱদান
 
-Issue আৰু Pull Request জমা দিয়াটো স্বাগতম!
+Issue আৰু Pull Request দাখিল কৰিবলৈ স্বাগতম!
 
-## অনুজ্ঞাপত্ৰ
+## লাইচেন্স
 
 MIT License
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-03
 
 ---

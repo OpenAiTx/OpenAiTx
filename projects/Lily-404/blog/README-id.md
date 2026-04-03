@@ -24,7 +24,7 @@
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
@@ -32,32 +32,51 @@
 
 # Blog Jimmy
 
-Sebuah sistem blog pribadi minimalis yang dibangun dengan Next.js 15+.
+Sebuah sistem blog pribadi minimalis yang dibangun dengan Next.js 15+, mendukung pembuatan online dan deployment statis.
 
 ## Teknologi yang Digunakan
 
-- **Framework**: Next.js 13+ (App Router)
+- **Framework**: Next.js 15+ (App Router)
+- **Bahasa**: TypeScript
 - **Gaya**: Tailwind CSS
 - **Ikon**: Lucide Icons
-- **Tema**: Mendukung pergantian mode gelap/terang
+- **Konten**: Markdown + Gray Matter + Remark
+- **Otentikasi**: GitHub OAuth
 - **Deploy**: Vercel
 
 ## Fitur Utama
 
-- 📝 Dukungan artikel Markdown
-- 🌓 Pergantian tema gelap/terang
-- 📱 Desain responsif
-- ⚡ Pemrosesan cepat
-- 📅 Tampilan linimasa artikel
-- 🔐 Panel admin online (buat artikel langsung melalui GitHub API)
+### Sisi Pembaca
+
+- 📝 Render artikel Markdown + GFM (termasuk tampilan rumus matematika)
+- 🏷️ Filter tag, pagination, arsip (berdasarkan tahun/tag)
+- 📚 Navigasi daftar isi artikel (TOC) dan salin kode satu klik
+- 📱 Tata letak responsif dan pengalihan tema gelap/terang
+- 🔥 Heatmap kalender kreatif melayang (artikel + catatan)
+- 📡 Output langganan RSS (`/rss.xml`)
+
+### Sisi Penulis (Manajemen Backend)
+
+- 🔐 Login GitHub OAuth (verifikasi hak pemilik/kolaborator)
+- ✍️ Pembuatan, pengeditan, penghapusan artikel/catatan secara online
+- 🆔 Kustom ID file + penghindaran konflik otomatis
+- 👀 Mode menulis Edit / Pratinjau / Split
+- 📊 Panel statistik kreatif (total, produksi minggu/bulan, tag populer)
+
+### Sisi Engineering
+
+- ⚡ Output statis multi-halaman (`force-static`) untuk performa & stabilitas
+- 🧭 Sitemap dan robots bawaan
+- 🧩 Cache pembacaan konten dan struktur API modular
 
 ## Struktur Proyek
 
 ```
 .
-├── app/
-│   ├── lib/           # 工具函数和数据处理
-│   ├── posts/         # 博客文章
+├── app/               # 页面、API 路由、Server Actions
+│   ├── api/           # 接口（OAuth、统计、校验、Markdown 等）
+│   ├── actions/       # 内容管理相关服务端动作
+│   ├── posts/         # 文章详情页
 │   └── page.tsx       # 首页
 ├── content/
 │   ├── notes/         # 随笔
@@ -96,18 +115,18 @@ npm run build
 
 ## Menambahkan Artikel Baru
 
-### Metode 1: Melalui Panel Admin Online (Direkomendasikan)
+### Cara 1: Melalui Panel Admin Online (Direkomendasikan)
 
 1. Kunjungi halaman `/admin`
-2. Login menggunakan kata sandi administrator
-3. Isi informasi artikel dan submit
+2. Login menggunakan GitHub OAuth
+3. Isi informasi artikel dan kirimkan
 4. Artikel akan otomatis dibuat melalui GitHub API, Vercel akan melakukan redeploy secara otomatis
 
-### Metode 2: Menambahkan File Secara Manual
+### Cara 2: Menambahkan File Secara Manual
 
 1. Buat file Markdown baru di direktori `content/posts`
-2. Format penamaan file: xxx.md`
-3. Tambahkan metadata di bagian atas file:
+2. Format penamaan file: `xxx.md`
+3. Tambahkan metadata di bagian awal file:
 
 ```markdown
 ---
@@ -180,24 +199,32 @@ Di pengaturan proyek Vercel, pastikan untuk mengatur:
 NEXT_PUBLIC_BASE_URL=https://www.jimmy-blog.top
 ```
 
-⚠️ **Perhatian**:
-- File `.env.local` sudah ditambahkan ke `.gitignore`, sehingga tidak akan dikirim ke Git
-- Saat pengembangan lokal, pastikan URL callback OAuth App disetel ke `http://localhost:3000/api/auth/github/callback`
-- **Pada lingkungan produksi wajib mengatur `NEXT_PUBLIC_BASE_URL` ke `https://www.jimmy-blog.top`**
-- URL callback OAuth App untuk produksi harus disetel ke: `https://www.jimmy-blog.top/api/auth/github/callback`
+⚠️ **Perhatian**: 
+- File `.env.local` telah ditambahkan ke `.gitignore`, sehingga tidak akan dikomit ke Git
+- Saat pengembangan lokal, pastikan URL callback OAuth App diatur ke `http://localhost:3000/api/auth/github/callback`
+- **Pada lingkungan produksi, `NEXT_PUBLIC_BASE_URL` harus diatur ke `https://www.jimmy-blog.top`**
+- URL callback OAuth App untuk lingkungan produksi harus diatur ke: `https://www.jimmy-blog.top/api/auth/github/callback`
 
 ## Deploy
 
-Proyek sudah dikonfigurasi untuk deployment di Vercel, mendukung deploy otomatis. Cukup dorong kode ke repositori GitHub, Vercel akan otomatis membangun dan melakukan deploy.
+Proyek telah dikonfigurasi untuk deployment di Vercel, mendukung deployment otomatis. Cukup dorong kode ke repository GitHub, Vercel akan secara otomatis membangun dan mendepoy.
 
-### Keunggulan menggunakan halaman admin
+### Keunggulan menggunakan dashboard admin
 
 - ✅ Tidak perlu lingkungan pengembangan lokal
-- ✅ Bisa menambah artikel kapan saja di mana saja
-- ✅ Secara otomatis memicu Vercel untuk redeploy
-- ✅ Sepenuhnya gratis (GitHub OAuth dan Vercel dalam batas gratis)
-- ✅ Aman (Verifikasi GitHub OAuth, hanya pemilik/kolaborator repo yang bisa akses)
+- ✅ Dapat menambah artikel kapan saja dan di mana saja
+- ✅ Otomatis memicu Vercel untuk redeploy
+- ✅ Sepenuhnya gratis (GitHub OAuth dan Vercel dalam kuota gratis)
+- ✅ Aman (verifikasi GitHub OAuth, hanya pemilik/kolaborator repo yang dapat mengakses)
 - ✅ Tidak perlu mengelola password, login dengan akun GitHub
+- ✅ Mendukung edit online untuk konten yang sudah ada (bukan hanya membuat baru)
+- ✅ Otomatis menangani konflik ID file, mencegah overwrite dan rename manual
+- ✅ Statistik kreator bawaan di dashboard, memudahkan pengelolaan konten berkelanjutan
+
+## Analisis Proyek & Perencanaan Masa Depan
+
+- Dokumen analisis proyek: [`docs/project-analysis.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/project-analysis.md)
+- Dokumen rencana masa depan: [`docs/future-roadmap.md`](https://raw.githubusercontent.com/Lily-404/blog/main/docs/future-roadmap.md)
 
 ## Kontribusi
 
@@ -210,6 +237,6 @@ MIT License
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-03
 
 ---

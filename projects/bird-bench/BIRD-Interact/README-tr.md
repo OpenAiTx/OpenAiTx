@@ -40,10 +40,10 @@
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
   <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
-    <img src="https://img.shields.io/badge/License-CC%20By%20SA%204.0-orange.svg" alt="License">
+    <img src="https://img.shields.io/badge/License-CC%20By%20SA%204.0-orange.svg" alt="Lisans">
   </a>
   <a href="https://bird-interact.github.io/">
-    <img src="https://img.shields.io/badge/Leaderboard-2025-28a745.svg" alt="Leaderboard">
+    <img src="https://img.shields.io/badge/Leaderboard-2025-28a745.svg" alt="Liderlik Tablosu">
   </a>
   <a href="https://huggingface.co/datasets/birdsql/bird-interact-lite/tree/main">
     <img src="https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg" alt="HuggingFace">
@@ -57,41 +57,43 @@
 </div>
 
 ## ⚠️ Duyuru  
-Lütfen değerlendirme sürecinizden önce, Docker veritabanlarını yüklerken ortam tutarsızlığından dolayı bazen hatalar oluşabileceğini unutmayın (bu hatalar süreci sonlandırmaz ancak Docker loglarında görünebilir). Sonuç olarak, bazı veritabanları düzgün yüklenmeyebilir ve bu da boş veritabanlarına yol açabilir. Bu durum değerlendirme sonuçlarının anormal derecede düşük olmasına neden olur.  
-👉 Bu nedenle, **değerlendirmeyi çalıştırmadan önce** Docker loglarında herhangi bir hata olup olmadığını kontrol etmenizi ve tüm veritabanlarının başarıyla yüklendiğini doğrulamanızı önemle tavsiye ederiz.
+Lütfen değerlendirme sürecinizden önce, Docker veritabanlarını yüklerken, ortam tutarsızlığı nedeniyle zaman zaman hatalar oluşabileceğini unutmayın (bunlar süreci sonlandırmaz ancak Docker günlüklerinde görünecektir). Sonuç olarak, bazı veritabanları düzgün şekilde yüklenemeyebilir ve boş veritabanlarına yol açabilir. Bu da değerlendirme sonuçlarının anormal derecede düşük olmasına neden olur.  
+👉 Bu nedenle, **değerlendirmeyi çalıştırmadan önce** Docker günlüklerinde herhangi bir hata olup olmadığını kontrol etmenizi ve tüm veritabanlarının başarıyla yüklendiğinden emin olmanızı şiddetle tavsiye ederiz.
 
-👉 **Başvuru Kılavuzları** güncellendi, artık özelleştirilmiş ajan iskeletleri destekleniyor. Detaylı başvuru kılavuzumuzu [buradan](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true) inceleyebilirsiniz.
+👉 **Gönderim Yönergeleri** güncellendi ve artık özelleştirilmiş ajan iskeletleri desteklenmektedir. Lütfen ayrıntılı gönderim yönergelerimize [buradan](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true) göz atabilirsiniz.
 
 ## 📰 Haberler
 
-- [2026-02-08] 🔥🔥🔥 **[Bird-Interact makalemiz](https://huggingface.co/papers/2510.05318)** **ICLR 2026 (Sözlü Sunum)**'da kabul edildi! Rio'da görüşmek üzere 🇧🇷!  
+- [2026-03-29] 🔥🔥🔥 **BIRD-Interact-ADK**: **[BIRD-Interact-ADK](./BIRD-Interact-ADK/)** sürümünü yayınladık. Google ADK tabanlı, modüler 3-mikroservis (ajan, kullanıcı simülatörü ve DB ortamı) mimarisiyle gelir. Kendi ajanınızı, kullanıcı simülatörünüzü veya veritabanı ortamınızı kolayca entegre edin. Paralel çalıştırma ve herhangi bir [LiteLlm-uyumlu](https://docs.litellm.ai/docs/providers) LLM sağlayıcı desteği sunar. Araştırmalarınızda bu uygulamayı kullanmanızı öneririz.
 
-- [2025-11-06] 🐛 **Hata Düzeltmesi** & 🐳 **Docker güncellemesi**: Kullanıcı simülatörü için SQL'i doğru şekilde ayrıştıramayan sql ayrıştırıcı hatasını düzeltmek için sqlglot sürümü 26.16.4'e güncellendi. `bird_interact_eval` ortamında `pip install sqlglot==26.16.4` ile tekrar kurarak sorunu çözebilirsiniz. Ayrıca `bird_interact_eval` imajı da güncellendi; imajı çekip `bird_interact_eval` konteynerini yeniden oluşturabilirsiniz.
+- [2026-02-08] 🔥🔥🔥 **[Bird-Interact makalemiz](https://huggingface.co/papers/2510.05318)** **ICLR 2026 (Sözlü)**'de kabul edildi! Rio'da görüşmek üzere 🇧🇷!
 
-- [2025-10-21] 🐳 **Docker güncellemesi**: Tam Veritabanı Ortamı için docker eklendi. Base/Tam DB Ortamı ve `a-Interact` ile `c-Interact` için değerlendirme ortamına ait 3 docker imajı Docker Hub'a yüklendi. Artık DB dökümlerini indirip imajları manuel oluşturmanıza gerek yok!
+- [2025-11-06] 🐛 **Hata Düzeltmesi** & 🐳 **Docker güncellemesi**: Kullanıcı simülatörü için SQL'i doğru şekilde ayrıştıramayan sqlglot hatasını gidermek üzere sqlglot sürümü 26.16.4'e güncellendi. Bunu `bird_interact_eval` ortamında `pip install sqlglot==26.16.4` ile yeniden kurarak çözebilirsiniz. `bird_interact_eval` imajı da güncellendi; yeni imajı çekip `bird_interact_eval` konteynerini yeniden oluşturabilirsiniz.
+
+- [2025-10-21] 🐳 **Docker güncellemesi**: Full DB Env için docker eklendi. 3 docker imajı (Base/Full DB Env ve hem `a-Interact` hem de `c-Interact` için değerlendirme ortamı) Docker Hub'a yüklendi, böylece ortam kurulumunuz kolaylaşıyor. DB dump'larını indirip imajları manuel olarak oluşturmanıza gerek yok!
 
 - [2025-10-08] 📝 **[Bird-Interact makalemiz](https://huggingface.co/papers/2510.05318)** artık herkese açık!  
-  Tüm detayları, yöntemi ve etkileşimli text-to-SQL benchmark değerlendirmesini sunmaktadır.  
-  👉 [BIRD-Interact](https://bird-interact.github.io/) arkasındaki fikirleri öğrenmek için inceleyin.
+  Tüm ayrıntılar, metodoloji ve etkileşimli text-to-SQL benchmark'ımızın değerlendirmesini sunuyor.  
+  👉 [BIRD-Interact](https://bird-interact.github.io/) arkasındaki fikirleri öğrenmek için göz atın.
 
 - [2025-08-26] 🚀 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** setinin yayınlandığını duyurmaktan heyecan duyuyoruz!  
-Bu set oldukça zorlu — en iyi LLM'ler sadece **%16,33** başarı oranına ulaşıyor ve `c-interact` ile `a-interact` bölümlerinde ise sadece **%10,0** oranında başarılı oluyor.  
-👉 Daha fazla bilgi için [proje web sitemizi](https://bird-interact.github.io/) ziyaret edin.
+Bu oldukça zorlu — en iyi LLM'ler sadece **%16,33** başarı oranına ulaşıyor; `c-interact` ve `a-interact` bölümlerinde ise yalnızca **%10,0** başarı mevcut.
+👉 Daha fazla detay için lütfen [proje web sitemizi](https://bird-interact.github.io/) ziyaret edin.
 
-- [2025-08-26] 📬 **Gerçek Değer & Test vakalarını** bu hafta posta listemize göndereceğiz.  
-Erken erişim istiyorsanız, sitede belirtildiği şekilde e-posta göndererek **otomatik indirme** yapabilirsiniz.  
+- [2025-08-26] 📬 Bu hafta **Gerçek Doğrular & Test vakalarını** posta listemize göndereceğiz.  
+Erken erişim istiyorsanız, sitede belirtildiği gibi bir e-posta göndererek **otomatik indirme** talebinde bulunabilirsiniz.  
 
-- [2025-08-26] 💾 Ayrıca, yerel araştırmalar için daha kolay bir SQLite sürümü olan **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)**'ı yayınladık.  
-Tam **LiveSQLBench-Base** ve **-Large** sürümleri yakında geliyor!
+- [2025-08-26] 💾 Ayrıca, yerel araştırmalar için daha kolay olması adına **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)**’ın SQLite versiyonunu yayınladık.  
+Tam **LiveSQLBench-Base** ve **-Large** sürümleri çok yakında geliyor!
 
-- [2025-08-22] **Hata Düzeltmesi**: Bird-Interact-Agent kodunda, faz-2 SQL değerlendirilirken, saklanan faz-1 SQL’in başarıyla çalıştırılamamasına neden olan ve Faz-2’nin başarı oranını düşüren bir hata düzeltildi. Bu hata sadece faz1 sql'in veritabanında CREATE table gibi bazı işlemler yaptığı görevleri etkiler.
+- [2025-08-22] **Hata Düzeltmesi**: Bird-Interact-Agent kodunda, faz-2 SQL değerlendirilirken, depolanan faz-1 SQL'in başarıyla çalıştırılamamasına ve Faz-2'nin başarı oranının düşmesine neden olan bir hata düzeltildi. Bu hata yalnızca faz1 sql'in veritabanında bazı işlemler yaptığı (örn. CREATE table) görevleri etkiler.
 
 ## 🧸 Genel Bakış
 
-BIRD-INTERACT, etkileşimli bir text-to-SQL kıyaslaması olarak, **Text-to-SQL değerlendirmesini dinamik etkileşimler perspektifinden yeniden tasarlar**.
-Ortam, hiyerarşik bir bilgi tabanı, veritabanı dokümantasyonu ve fonksiyon odaklı bir kullanıcı simülatörü ile, tam **CRUD** işlemlerini kapsayan gerçekçi kurumsal ortamlar oluşturur.
-İki titiz test modu sunar: (1) pasif **Konuşmalı Etkileşim** ve (2) aktif **Ajan Etkileşimi**, her biri çalıştırılabilir test vakaları ile korunan 600 açıklamalı görevi kapsar (İş Zekâsı (BI), CRUD işlemleri, vb.).
-Tipik değerlendirmeler, model ve kullanıcı simülatörü arasında 1.968-5.496 etkileşim turunu tetikler; son teknoloji çıkarım modelleri ise şu anda sadece **≈%24** ve **≈%18** görev çözebiliyor, bu da kıyaslamanın zorluğunu gösteriyor.
+BIRD-INTERACT, interaktif bir metinden-SQL'e kıyaslama seti olup, **Metinden-SQL değerlendirmesini dinamik etkileşimler merceğinden yeniden tasarlar**.
+Ortam, hiyerarşik bir bilgi tabanı, veritabanı dokümantasyonu ve işlev odaklı bir kullanıcı simülatörü harmanlayarak, eksiksiz **CRUD** işlemlerini kapsayan otantik kurumsal ortamları yeniden oluşturur.
+İki titiz test modu sunar: (1) pasif **Konuşma Etkileşimi** ve (2) aktif **Ajan Etkileşimi**; 600 etiketli görevi kapsar (İş Zekası (BI), CRUD işlemleri ve benzeri), her biri çalıştırılabilir test vakalarıyla korunur.
+Tipik değerlendirmeler model ve kullanıcı simülatörü arasında 1.968-5.496 etkileşim dönüşünü tetiklerken, son teknoloji akıl yürütme modelleri şu anda yalnızca **≈%24** ve **≈%18** görevi çözebiliyor, bu da kıyaslama setinin zorluğunu vurguluyor.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png" 
@@ -102,47 +104,47 @@ Tipik değerlendirmeler, model ve kullanıcı simülatörü arasında 1.968-5.49
 
 BIRD-INTERACT yukarıda bahsedilen iki değerlendirme modunu destekler:
 
-   - **c-Interact**: Konuşmalı Etkileşim, pasif bir mod olup iş akışı sabittir. Kod ve detaylı bilgi `bird_interact_conv` içinde bulunabilir.
-   - **a-Interact**: Ajan Etkileşimi, gömülü ve aktif bir mod olup iş akışı dinamik ve modellere bağlıdır. Kod ve detaylı bilgi `bird_interact_agent` içinde bulunabilir.
+   - **c-Interact**: Konuşma Etkileşimi, pasif bir moddur ve iş akışı sabittir. Kod ve detaylı bilgi `bird_interact_conv` içindedir.
+   - **a-Interact**: Ajan Etkileşimi, iş akışının dinamik ve modeller tarafından yönlendirildiği somut aktif bir moddur. Kod ve detaylı bilgi `bird_interact_agent` içindedir.
 
 
-### 🐣 Hafif Sürüm
+### 🐣 Lite Versiyon
 
-BIRD-INTERACT’in hafif sürümü olan `bird-interact-lite-exp`i yayımlıyoruz; bu sürüm, özellikle PostgreSQL için hazırlanmış 270 yüksek kaliteli gerçek dünya görevini içeriyor. Hızlı denemeler için iyi bir başlangıç noktasıdır.
+BIRD-INTERACT'ın hafif sürümü olan `bird-interact-lite-exp`, özellikle PostgreSQL için 270 yüksek kaliteli gerçek dünya görevini içerir. Hızlı denemeler için iyi bir başlangıç noktasıdır.
 
-### 🦜 Tam Sürüm
+### 🦜 Tam Versiyon
 
-BIRD-INTERACT’in tam sürümü olan `bird-interact-full`, PostgreSQL için 600 görevi kapsayan kapsamlı bir kıyaslamadır. Çok çeşitli SQL işlemleri ve kullanıcı sorgularını içerir. Tam sürüm yakında yayımlanacak.
+BIRD-INTERACT'ın tam sürümü olan `bird-interact-full`, PostgreSQL için 600 görevi içeren kapsamlı bir kıyaslama setidir. Geniş bir SQL işlemi ve kullanıcı sorgusu yelpazesini kapsar. Tam sürüm çok yakında geliyor.
 
-### BIRD-INTERACT-FULL’de Model Performans Sonuçları
+### BIRD-INTERACT-FULL Üzerinde Model Performans Sonuçları
 
-#### 1. **c-Interact Text-to-SQL** Performansı
-| Sıra | Model Adı         | Normalize Ödül | Ortalama Maliyet (USD)/Görev | Seviye              |
-|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|
-| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 Mükemmel Sohbet  |
-| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 Mükemmel Sohbet  |
-| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 İyi Sohbet       |
-| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 İyi Sohbet       |
-| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ Standart         |
-| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ Standart         |
-| 7    | GPT-5              | 12.58             | $0.08               | ⚪ Temel            |
+#### 1. **c-Interact Metinden-SQL'e** Performansı
+| Sıra | Model Adı          | Normalize Ödül    | Ortalama Maliyet (USD)/Görev | Seviye              |
+|:----:|:-------------------|:-----------------:|:----------------------------:|:--------------------:|
+| 1    | Gemini-2.5-Pro     | 20.92             | $0.04                        | 🏆 Mükemmel Sohbet   |
+| 2    | O3-Mini            | 20.27             | $0.07                        | 🏆 Mükemmel Sohbet   |
+| 3    | Claude-Sonnet-4    | 18.35             | $0.29                        | 💎 İyi Sohbet        |
+| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11                        | 💎 İyi Sohbet        |
+| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12                        | ✨ Standart          |
+| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29                        | ✨ Standart          |
+| 7    | GPT-5              | 12.58             | $0.08                        | ⚪ Temel             |
 
 #### 2. **a-Interact Metinden-SQL'e** Performansı
-| Rank | Model Adı          | Normalize Ödül    | Ortalama Maliyet (USD)/Görev | Seviye                   |
-|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|
-| 1    | GPT-5              | 25.52             | $0.24               | 🏆 Mükemmel Etkileşim    |
-| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 Mükemmel Etkileşim    |
-| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 İyi Etkileşim         |
-| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 İyi Etkileşim         |
-| 5    | O3-Mini            | 16.43             | $0.06               | ✨ Standart              |
-| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ Standart              |
-| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ Temel                 |
+| Sıra | Model Adı          | Normalize Ödül    | Ortalama Maliyet (USD)/Görev | Seviye                     |
+|:----:|:-------------------|:-----------------:|:----------------------------:|:--------------------------:|
+| 1    | GPT-5              | 25.52             | $0.24                        | 🏆 Mükemmel Etkileşim      |
+| 2    | Claude-Sonnet-4    | 23.28             | $0.51                        | 🏆 Mükemmel Etkileşim      |
+| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60                        | 💎 İyi Etkileşim           |
+| 4    | Gemini-2.5-Pro     | 17.33             | $0.22                        | 💎 İyi Etkileşim           |
+| 5    | O3-Mini            | 16.43             | $0.06                        | ✨ Standart                |
+| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06                        | ✨ Standart                |
+| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07                        | ⚪ Temel                   |
 
-> \* Bütçe Parametreleri: Başlangıç Bütçesi/Kullanıcı Sabır Bütçesi, sanal para birimimiz *bird-coin* ile ölçülür <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;">. Daha fazla bilgi için [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) adresine başvurun.
+> \* Bütçe Parametreleri: Başlangıç Bütçesi/Kullanıcı Sabır Bütçesi, sanal para birimimiz *bird-coin*s <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;"> ile ölçülür. Daha fazla bilgi için [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) dosyasına bakınız.
 
-### Etkileşim-Zamanı Ölçeklendirmesi (ITS)
+### Etkileşim-Zaman Ölçekleme (ITS)
 
-Etkileşim-Zamanı Ölçeklendirmesi (ITS), bir modelin çoklu dönüşlü etkileşimler yoluyla nihai performansını sürekli artırabilme yeteneğini ifade eder. Bu etkileşimli performans, modelin tamamen belirlenmiş, açık bir görevdeki ideal tek dönüşlü performansını aştığında, modelin **ITS yasasını** sağladığı söylenir. Kullanıcı sabrı arttıkça ve etkileşim sayısı biriktikçe performans yükselmeye devam eder; bu, modelin uzun süreli diyaloglarda etkin iletişimi sürdürebildiğini gösterir. Şu anda yalnızca claude-3-7-sonnet modelinin ITS yasasını sağladığını bulduk.
+Etkileşim-Zaman Ölçekleme (ITS), bir modelin çoklu tur etkileşimler yoluyla nihai performansını sürekli artırma yeteneğini ifade eder. Bu etkileşimli performans, modelin tam olarak belirtilmiş, belirsizliği olmayan bir görevdeki ideal tek tur performansını aştığında, modelin **ITS yasasını** sağladığını söyleriz. Kullanıcı sabrı arttıkça ve etkileşim turları biriktikçe, performans gelişmeye devam eder; bu da modelin uzun süreli diyaloglarda etkili iletişimi sürdürebildiğini gösterir. Şu anda yalnızca claude-3-7-sonnet modelinin ITS yasasını sağladığını gözlemliyoruz.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png" 
@@ -153,9 +155,9 @@ Etkileşim-Zamanı Ölçeklendirmesi (ITS), bir modelin çoklu dönüşlü etkil
 
 1. bird-interact-lite veritabanı, bird-interact-full veritabanı ve değerlendirme ortamı için Docker konteynerlerini çalıştırın:
   
-  > Sadece `bird-interact-lite` üzerinde değerlendirme yapmak istiyorsanız, ortam kurulumunu hızlandırmak için `docker-compose.yml` dosyasındaki [`postgresql_full` servisini](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) yorum satırı haline getirebilirsiniz.
+  > Sadece `bird-interact-lite` üzerinde değerlendirme yapmak istiyorsanız, ortamı daha hızlı kurmak için `docker-compose.yml` dosyasındaki [`postgresql_full` servisini](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) yorum satırı haline getirebilirsiniz.
   
-  Ortamı başlatmak için şunu çalıştırın:
+  Ortamı başlatmak için şu komutu çalıştırın:
    ```bash
    cd env
    docker compose pull 
@@ -242,25 +244,25 @@ Etkileşim-Zamanı Ölçeklendirmesi (ITS), bir modelin çoklu dönüşlü etkil
 ### Veri Kümesi Açıklaması
 
 - **Veritabanı:** Tam PostgreSQL veritabanı [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) ve [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view) adreslerinden indirilebilir.
-- **data:** Her veri örneği aşağıdaki ana bölümleri içerir:
+- **veri:** Her veri örneği aşağıdaki ana bölümleri içerir:
    - `selected_database`: Veritabanının adı.  
-   - `query`: Açık ve kesin kullanıcı sorgusu.  
-   - `amb_user_query`: Belirsizlikler eklenmiş kullanıcı sorgusu.
-   - `user_query_ambiguity`: Kullanıcı sorgusuna enjekte edilen belirsizlikler.
-   - `non_critical_ambiguity`: Sıralama, limit vb. kritik olmayan belirsizlikler.
-   - `knowledge_ambiguity`: Maskelenmiş dış bilgilerle oluşturulan belirsizlikler. 
-   - `sol_sql`: Gerçek SQL çözümü.  
-   - `preprocess_sql`: Çözüm veya tahmin çalıştırılmadan önce çalıştırılacak SQL sorguları.  
-   - `clean_up_sql`: Test vakalarından sonra veritabanında yapılan değişiklikleri geri almak için çalıştırılacak SQL sorguları.  
-   - `test_cases`: Tahmin edilen düzeltilmiş SQL'i doğrulamak için bir test vakası seti.
-   - `follow_up`: Etiketlenmiş takip soruları.
-   - `external_knowledge`: Belirli görevle ilgili dış bilgi.
+   - `query`: Belirgin kullanıcı sorgusu.  
+   - `amb_user_query`: Belirsizlik eklenmiş kullanıcı sorgusu.
+   - `user_query_ambiguity`: Kullanıcı sorgusuna eklenen belirsizlikler.
+   - `non_critical_ambiguity`: Sıra, limit gibi kritik olmayan belirsizlikler.
+   - `knowledge_ambiguity`: Maskelenmiş harici bilgilerden kaynaklanan belirsizlikler. 
+   - `sol_sql`: Doğru SQL çözümü.  
+   - `preprocess_sql`: Çözüm veya tahminden önce çalıştırılacak SQL sorguları.  
+   - `clean_up_sql`: Testlerden sonra veritabanında yapılan değişiklikleri geri almak için çalıştırılacak SQL sorguları.  
+   - `test_cases`: Tahmin edilen düzeltilmiş SQL'i doğrulamak için test vakaları kümesi.
+   - `follow_up`: Etiketli takip soruları.
+   - `external_knowledge`: Özel görevle ilgili harici bilgiler.
 
-- **evaluation:** Değerlendirme kodu [`./evaluation`](./evaluation) dizininde mevcuttur.
-- **Hazırlayan:** BIRD Ekibi & Google Cloud
+- **değerlendirme:** Değerlendirme kodu [`./evaluation`](./evaluation) dizininde mevcuttur.
+- **Hazırlayanlar:** BIRD Takımı & Google Cloud
 - **Lisans:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-- **HuggingFace Veri Kümesi Kartı:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)
-  ve [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full)
+- **HuggingFace Veri Kümesi Kartı:** PostgreSQL için [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)
+  ve [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full); SQLite için [mini-interact](https://huggingface.co/datasets/birdsql/mini-interact).
 ### Veri Kümesi Kullanımları
 
 Otomatik taramayla veri sızıntısını önlemek için GT çözüm sql'leri ve test vakalarını veriyle birlikte dahil etmiyoruz.
@@ -317,6 +319,9 @@ python pull_data.py \
 .
 ├── LICENSE
 ├── README.md
+├── BIRD-Interact-ADK
+│   ├── ...
+│   └── README.md
 ├── bird_interact_conv
 │   ├── ...
 │   └── README.md
@@ -333,18 +338,19 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-**a-interact** çalıştırma ile ilgili detaylar `./bird_interact_agent/README.md` dosyasında bulunabilir; ve **c-interact** ile ilgili detaylar ise `./bird_interact_conv/README.md` dosyasında bulunabilir.
+**a-interact** çalıştırma ile ilgili detaylar `./bird_interact_agent/README.md` dosyasında bulunabilir; **c-interact** ile ilgili bilgiler `./bird_interact_conv/README.md` dosyasında bulunabilir; ve **ADK tabanlı uygulama** ise `./BIRD-Interact-ADK/README.md` dosyasında bulunabilir.
 
 ## 📋 Yapılacaklar Listesi
 
-- [x] Lite sürümünü yayınla, bird-interact-lite (270).
-- [x] Konuşma sürümünü yayınla, bird-interact-conv.
-- [x] Ajan sürümünü yayınla, bird-interact-agent.
-- [x] Tam sürümünü yayınla, bird-interact-full (600).
-- [ ] SFT / RL bir Kullanıcı Simülatörü
+- [x] Lite versiyonu yayınla, bird-interact-lite (270).
+- [x] Konuşma versiyonunu yayınla, bird-interact-conv.
+- [x] Agent versiyonunu yayınla, bird-interact-agent.
+- [x] Tam versiyonu yayınla, bird-interact-full (600).
+- [x] ADK tabanlı uygulamayı yayınla, BIRD-Interact-ADK.
+- [ ] SFT / RL ve Kullanıcı Simülatörü
 
 ## Teşekkür
-Bu projeyi geliştirmede katkı sağlayan **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi** ve Profesör **Shinji Watanabe**'ye verimli tartışmaları ve değerli görüşleri için içten teşekkürlerimizi sunarız.
+Bu projeyi geliştirmemize katkı sağlayan değerli tartışmaları ve içgörüleri için **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi** ve Profesör **Shinji Watanabe**'ye içten teşekkürlerimizi sunarız.
 
 ## Oluşturanlar:
 BIRD Ekibi & Google Cloud
@@ -355,16 +361,29 @@ BIRD Ekibi & Google Cloud
 
 
 
+## Atıf
 
+```bibtex
+@inproceedings{
+huo2026birdinteract,
+title={{BIRD}-{INTERACT}: Re-imagining Text-to-{SQL} Evaluation via Lens of Dynamic Interactions},
+author={Nan Huo and Xiaohan Xu and Jinyang Li and Per Jacobsson and Shipei Lin and Bowen Qin and Binyuan Hui and Xiaolong Li and Ge Qu and Shuzheng Si and Linheng Han and Edward Alexander and Xintong Zhu and Rui Qin and Ruihan Yu and Yiyao Jin and Feige Zhou and Weihao Zhong and Yun Chen and Hongyu Liu and Chenhao Ma and Fatma Ozcan and Yannis Papakonstantinou and Reynold Cheng},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=nHrYBGujps}
+}
+```
 ## Değişiklik Günlüğü
 
-- [2025-11-06] 🐛 **Hata Düzeltmesi** & 🐳 **Docker güncellemesi**: sqlglot sürümü 26.16.4'e güncellendi, böylece kullanıcı simülatörü için SQL ayrıştırıcısının SQL'i doğru şekilde ayrıştıramaması hatası düzeltildi. Bunu, `bird_interact_eval` ortamında `pip install sqlglot==26.16.4` ile yeniden yükleyerek düzeltebilirsiniz. `bird_interact_eval` imajı da güncellendi, bu yüzden ayrıca çekip `bird_interact_eval` konteynerini yeniden oluşturabilirsiniz.
-- [2025-10-21] 🐳 **Docker güncellemesi**: Tam DB ortamı için docker eklendi. Ve ortam kurulumu kolaylaştırmak için 3 docker imajı (Base/Tam DB ortamı ve hem `a-Interact` hem de `c-Interact` için değerlendirme ortamı) Docker Hub'a gönderildi. DB dökümlerini indirip imajları manuel olarak oluşturmanıza gerek yok! Lütfen en yeni imajları Docker Hub'dan çekin ve konteynerleri yeniden oluşturun, örneğin `docker compose down -v && docker compose pull && docker compose up -d --force-recreate` komutunu kullanarak.
-- [2025-08-22]  🐛 **Hata Düzeltmesi**: Phase-2 SQL değerlendirilirken, depolanan phase-1 SQL'in başarıyla çalıştırılamamasına ve bu nedenle Phase-2'nin başarı oranının düşmesine neden olan hata düzeltildi. Bu hata sadece phase1 sql'in veritabanında bazı işlemler yaptığı görevleri etkiliyordu, örneğin CREATE table gibi.
+- [2025-11-06] 🐛 **Hata Düzeltmesi** & 🐳 **Docker güncellemesi**: Kullanıcı simülatörü için sql ayrıştırıcısının SQL'i doğru şekilde ayrıştıramaması hatasını düzeltmek için sqlglot sürümünü 26.16.4'e güncelleyin. Bunu `bird_interact_eval` ortamında `pip install sqlglot==26.16.4` komutuyla yeniden kurarak düzeltebilirsiniz. `bird_interact_eval` imajı da güncellendi, bu yüzden imajı çekip `bird_interact_eval` konteynerini yeniden oluşturabilirsiniz.
+- [2025-10-21] 🐳 **Docker güncellemesi**: Full DB Env için docker eklendi. Ayrıca 3 docker imajını (Base/Full DB Env ve hem `a-Interact` hem de `c-Interact` için değerlendirme ortamı) Docker Hub'a yükledik, böylece ortam kurulumunu kolaylaştırdık. DB dökümlerini indirip imajları elle oluşturmanıza gerek yok! Lütfen Docker Hub'dan en güncel imajları çekin ve konteynerleri yeniden oluşturun, örneğin `docker compose down -v && docker compose pull && docker compose up -d --force-recreate` komutunu kullanarak.
+- [2025-08-22]  🐛 **Hata Düzeltmesi**: Faz-2 SQL değerlendirilirken, saklanan faz-1 SQL'in başarıyla çalıştırılamaması ve bu yüzden Faz-2'nin başarı oranının düşmesine neden olan hata düzeltildi. Bu hata sadece faz1 sql'in veritabanı üzerinde CREATE table gibi bazı işlemler yaptığı görevleri etkiler.
+
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-03
 
 ---

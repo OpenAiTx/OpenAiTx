@@ -13,12 +13,12 @@
   },
   {
     "Id": 2,
-    "Content": "<div style=\"display: flex; justify-content: center; align-items: center; gap: 10px;\">\n  <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">\n    <img src=\"https://img.shields.io/badge/License-CC%20By%20SA%204.0-orange.svg\" alt=\"License\">\n  </a>\n  <a href=\"https://bird-interact.github.io/\">\n    <img src=\"https://img.shields.io/badge/Leaderboard-2025-28a745.svg\" alt=\"Leaderboard\">\n  </a>\n  <a href=\"https://huggingface.co/datasets/birdsql/bird-interact-lite/tree/main\">\n    <img src=\"https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg\" alt=\"HuggingFace\">\n  </a>\n  <a href=\"https://www.python.org/downloads/release/python-310/\">\n    <img src=\"https://img.shields.io/badge/Python-3.10+-teal.svg\" alt=\"Python\">\n  </a>\n  <a href=\"https://pypi.org/project/openai/\">\n    <img src=\"https://img.shields.io/badge/OpenAI-1.40+-beige.svg\" alt=\"OpenAI\">\n  </a>\n</div>\n\n## ⚠️ Announcement  \nPlease note that before your evaluation process, when Docker loads the databases, errors may occasionally occur due to environment inconsistency (these will not terminate the process but will appear in the Docker logs). As a result, some databases may fail to load properly, leading to empty databases. This will cause the evaluation results to be abnormally low.  \n👉 Therefore, we strongly recommend checking the Docker logs for any errors **before running the evaluation** and verifying that all databases have been successfully loaded.\n\n👉 We have updated the **Submission Guidelines**, where the customized agent scaffolds are supported. Please feel free to take a look at our detailed submission guidelines [here](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true).\n\n## 📰 News\n\n- [2026-02-08] 🔥🔥🔥 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** has beed accepted at **ICLR 2026 (Oral)**! See you in Rio 🇧🇷!  \n\n- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.\n\n- [2025-10-21] 🐳 **Docker update**: We added the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually!\n\n- [2025-10-08] 📝 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** is now publicly available!  \n  It presents the full details, methodology, and evaluation of our interactive text-to-SQL benchmark.  \n  👉 Check it out and know more about the ideas behind [BIRD-Interact](https://bird-interact.github.io/).\n\n- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  \nIt's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  \n👉 For more details, please visit our [project website](https://bird-interact.github.io/).\n",
-    "ContentSha": "y79ATuLdfyhgR0HU7VDWIzfQVBaWWCmQkKBIlgII7Do=",
+    "Content": "<div style=\"display: flex; justify-content: center; align-items: center; gap: 10px;\">\n  <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">\n    <img src=\"https://img.shields.io/badge/License-CC%20By%20SA%204.0-orange.svg\" alt=\"License\">\n  </a>\n  <a href=\"https://bird-interact.github.io/\">\n    <img src=\"https://img.shields.io/badge/Leaderboard-2025-28a745.svg\" alt=\"Leaderboard\">\n  </a>\n  <a href=\"https://huggingface.co/datasets/birdsql/bird-interact-lite/tree/main\">\n    <img src=\"https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg\" alt=\"HuggingFace\">\n  </a>\n  <a href=\"https://www.python.org/downloads/release/python-310/\">\n    <img src=\"https://img.shields.io/badge/Python-3.10+-teal.svg\" alt=\"Python\">\n  </a>\n  <a href=\"https://pypi.org/project/openai/\">\n    <img src=\"https://img.shields.io/badge/OpenAI-1.40+-beige.svg\" alt=\"OpenAI\">\n  </a>\n</div>\n\n## ⚠️ Announcement  \nPlease note that before your evaluation process, when Docker loads the databases, errors may occasionally occur due to environment inconsistency (these will not terminate the process but will appear in the Docker logs). As a result, some databases may fail to load properly, leading to empty databases. This will cause the evaluation results to be abnormally low.  \n👉 Therefore, we strongly recommend checking the Docker logs for any errors **before running the evaluation** and verifying that all databases have been successfully loaded.\n\n👉 We have updated the **Submission Guidelines**, where the customized agent scaffolds are supported. Please feel free to take a look at our detailed submission guidelines [here](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true).\n\n## 📰 News\n\n- [2026-03-29] 🔥🔥🔥 **BIRD-Interact-ADK**: We release **[BIRD-Interact-ADK](./BIRD-Interact-ADK/)**, a Google ADK-based implementation with modular 3-microservices (agent, user simulator, and DB Env) architecture. Easily swap in your own agent, user simulator, or DB environment. Supports parallel execution and any [LiteLlm-compatible](https://docs.litellm.ai/docs/providers) LLM provider. Recommend to use this implementation for your research.\n\n- [2026-02-08] 🔥🔥🔥 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** has beed accepted at **ICLR 2026 (Oral)**! See you in Rio 🇧🇷!  \n\n- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.\n\n- [2025-10-21] 🐳 **Docker update**: We added the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually!\n\n- [2025-10-08] 📝 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** is now publicly available!  \n  It presents the full details, methodology, and evaluation of our interactive text-to-SQL benchmark.  \n  👉 Check it out and know more about the ideas behind [BIRD-Interact](https://bird-interact.github.io/).\n\n- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  \nIt's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  ",
+    "ContentSha": "w4dpUL5h0ciNcP9fOk5CkgEGPqe0FDN9RHaE7Iz+oM0=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<div style=\"display: flex; justify-content: center; align-items: center; gap: 10px;\">\n  <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">\n    <img src=\"https://img.shields.io/badge/License-CC%20By%20SA%204.0-orange.svg\" alt=\"License\">\n  </a>\n  <a href=\"https://bird-interact.github.io/\">\n    <img src=\"https://img.shields.io/badge/Leaderboard-2025-28a745.svg\" alt=\"Leaderboard\">\n  </a>\n  <a href=\"https://huggingface.co/datasets/birdsql/bird-interact-lite/tree/main\">\n    <img src=\"https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg\" alt=\"HuggingFace\">\n  </a>\n  <a href=\"https://www.python.org/downloads/release/python-310/\">\n    <img src=\"https://img.shields.io/badge/Python-3.10+-teal.svg\" alt=\"Python\">\n  </a>\n  <a href=\"https://pypi.org/project/openai/\">\n    <img src=\"https://img.shields.io/badge/OpenAI-1.40+-beige.svg\" alt=\"OpenAI\">\n  </a>\n</div>\n\n## ⚠️ 公告  \n請注意，在您的評測流程開始前，當 Docker 載入資料庫時，偶爾會因環境不一致而出現錯誤（這些錯誤不會終止流程，但會顯示於 Docker 日誌中）。因此，部分資料庫可能無法正確載入，導致資料庫為空。這將造成評測結果異常偏低。  \n👉 因此，我們強烈建議您在**執行評測前檢查 Docker 日誌**以查看是否有錯誤，並確認所有資料庫已成功載入。\n\n👉 我們已更新**提交指引**，現已支援自訂化代理程式骨架。請隨時參閱我們的詳細提交規則 [這裡](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true)。\n\n## 📰 最新消息\n\n- [2026-02-08] 🔥🔥🔥 我們的**[Bird-Interact 論文](https://huggingface.co/papers/2510.05318)** 已被 **ICLR 2026（Oral）** 接受！里約再見 🇧🇷！  \n\n- [2025-11-06] 🐛 **修復錯誤** & 🐳 **Docker 更新**：將 sqlglot 版本升級至 26.16.4，以修正 sql 解析器於用戶模擬器無法正確解析 SQL 的錯誤。您可於 `bird_interact_eval` 環境中執行 `pip install sqlglot==26.16.4` 修復此問題。`bird_interact_eval` 映像也已更新，亦可直接拉取並重新建立 `bird_interact_eval` 容器。\n\n- [2025-10-21] 🐳 **Docker 更新**：我們已加入 Full DB Env 的 docker，並將 3 個 docker 映像（Base/Full DB Env 及 `a-Interact`、`c-Interact` 的評測環境）推送至 Docker Hub，方便環境設置。無需手動下載 DB dump 與建構映像！\n\n- [2025-10-08] 📝 我們的**[Bird-Interact 論文](https://huggingface.co/papers/2510.05318)** 現已公開！  \n  詳細介紹了我們互動式 text-to-SQL 基準的所有細節、方法論及評測。  \n  👉 歡迎前往 [BIRD-Interact](https://bird-interact.github.io/) 深入了解背後理念。\n\n- [2025-08-26] 🚀 我們很高興宣布**[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** 集正式發布！  \n這是一個高難度挑戰 — 最強大的 LLM 成功率僅為 **16.33%**，`c-interact` 與 `a-interact` 部分僅有 **10.0%**。  \n👉 更多詳情請參見我們的[專案網站](https://bird-interact.github.io/)。\n",
+    "Translation": "<div style=\"display: flex; justify-content: center; align-items: center; gap: 10px;\">\n  <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">\n    <img src=\"https://img.shields.io/badge/License-CC%20By%20SA%204.0-orange.svg\" alt=\"License\">\n  </a>\n  <a href=\"https://bird-interact.github.io/\">\n    <img src=\"https://img.shields.io/badge/Leaderboard-2025-28a745.svg\" alt=\"Leaderboard\">\n  </a>\n  <a href=\"https://huggingface.co/datasets/birdsql/bird-interact-lite/tree/main\">\n    <img src=\"https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg\" alt=\"HuggingFace\">\n  </a>\n  <a href=\"https://www.python.org/downloads/release/python-310/\">\n    <img src=\"https://img.shields.io/badge/Python-3.10+-teal.svg\" alt=\"Python\">\n  </a>\n  <a href=\"https://pypi.org/project/openai/\">\n    <img src=\"https://img.shields.io/badge/OpenAI-1.40+-beige.svg\" alt=\"OpenAI\">\n  </a>\n</div>\n\n## ⚠️ 公告  \n請注意，在您的評估流程開始之前，當 Docker 載入資料庫時，偶爾會因為環境不一致而發生錯誤（這些錯誤不會終止流程，但會顯示在 Docker 日誌中）。因此，有些資料庫可能無法正確載入，導致資料庫為空。這將導致評估結果異常偏低。  \n👉 因此，我們強烈建議在**執行評估前**，先檢查 Docker 日誌是否有錯誤，並確認所有資料庫都已成功載入。\n\n👉 我們已更新**提交規則**，現已支援自訂代理腳手架。歡迎參閱我們的詳細提交規範 [這裡](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true)。\n\n## 📰 最新消息\n\n- [2026-03-29] 🔥🔥🔥 **BIRD-Interact-ADK**：我們釋出了**[BIRD-Interact-ADK](./BIRD-Interact-ADK/)**，這是一個基於 Google ADK 的實作，具備模組化 3 微服務（代理、人類模擬器與 DB 環境）架構。可輕鬆更換自己的代理、人類模擬器或 DB 環境。支援平行執行及所有 [LiteLlm 兼容](https://docs.litellm.ai/docs/providers) 的 LLM 供應商。建議您將此實作用於研究。\n\n- [2026-02-08] 🔥🔥🔥 我們的**[Bird-Interact 論文](https://huggingface.co/papers/2510.05318)** 已被 **ICLR 2026（口頭報告）** 接收！里約見 🇧🇷！  \n\n- [2025-11-06] 🐛 **錯誤修正** & 🐳 **Docker 更新**：將 sqlglot 版本升級至 26.16.4，以修正用戶模擬器無法正確解析 SQL 的問題。您可在 `bird_interact_eval` 環境中使用 `pip install sqlglot==26.16.4` 重新安裝修正。`bird_interact_eval` 映像檔也已更新，可直接拉取並重建 `bird_interact_eval` 容器。\n\n- [2025-10-21] 🐳 **Docker 更新**：我們新增了 Full DB Env 的 docker，並已將 3 個 docker 映像檔（Base/Full DB Env 和 `a-Interact`、`c-Interact` 評估環境）推送至 Docker Hub，方便您進行環境部署。無須手動下載資料庫轉存檔並自行建構映像檔！\n\n- [2025-10-08] 📝 我們的**[Bird-Interact 論文](https://huggingface.co/papers/2510.05318)** 現已公開！  \n  內容詳述了我們互動式 text-to-SQL 基準的完整細節、方法論與評估。  \n  👉 歡迎查看，深入了解 [BIRD-Interact](https://bird-interact.github.io/) 的設計理念。\n\n- [2025-08-26] 🚀 我們很高興宣布 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** 數據集正式釋出！  \n這是一組極具挑戰性的測試——最佳 LLM 僅達到 **16.33%** 成功率，`c-interact` 與 `a-interact` 區塊僅有 **10.0%**。  ",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -139,13 +139,13 @@
         "row": 20,
         "rowsha": "qR/iuiQWsQ7j83o7cAhbO3yM99qEPz8jw9z3H616J9o=",
         "originContent": "Please note that before your evaluation process, when Docker loads the databases, errors may occasionally occur due to environment inconsistency (these will not terminate the process but will appear in the Docker logs). As a result, some databases may fail to load properly, leading to empty databases. This will cause the evaluation results to be abnormally low.  ",
-        "translatedContent": "請注意，在您的評測流程開始前，當 Docker 載入資料庫時，偶爾會因環境不一致而出現錯誤（這些錯誤不會終止流程，但會顯示於 Docker 日誌中）。因此，部分資料庫可能無法正確載入，導致資料庫為空。這將造成評測結果異常偏低。  "
+        "translatedContent": "請注意，在您的評估流程開始之前，當 Docker 載入資料庫時，偶爾會因為環境不一致而發生錯誤（這些錯誤不會終止流程，但會顯示在 Docker 日誌中）。因此，有些資料庫可能無法正確載入，導致資料庫為空。這將導致評估結果異常偏低。  "
       },
       {
         "row": 21,
         "rowsha": "j3WE+j5u8Ng3SBgrMG35Bm6kDWNOXEnVhxpRhR2BM9w=",
         "originContent": "👉 Therefore, we strongly recommend checking the Docker logs for any errors **before running the evaluation** and verifying that all databases have been successfully loaded.",
-        "translatedContent": "👉 因此，我們強烈建議您在**執行評測前檢查 Docker 日誌**以查看是否有錯誤，並確認所有資料庫已成功載入。"
+        "translatedContent": "👉 因此，我們強烈建議在**執行評估前**，先檢查 Docker 日誌是否有錯誤，並確認所有資料庫都已成功載入。"
       },
       {
         "row": 22,
@@ -157,7 +157,7 @@
         "row": 23,
         "rowsha": "KZY6Bs9wH08P6UdsDB5l8Z8KG67bCsVs1bNYgNPcdj8=",
         "originContent": "👉 We have updated the **Submission Guidelines**, where the customized agent scaffolds are supported. Please feel free to take a look at our detailed submission guidelines [here](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true).",
-        "translatedContent": "👉 我們已更新**提交指引**，現已支援自訂化代理程式骨架。請隨時參閱我們的詳細提交規則 [這裡](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true)。"
+        "translatedContent": "👉 我們已更新**提交規則**，現已支援自訂代理腳手架。歡迎參閱我們的詳細提交規範 [這裡](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true)。"
       },
       {
         "row": 24,
@@ -179,9 +179,9 @@
       },
       {
         "row": 27,
-        "rowsha": "reJG5vUvGg3VLe761fXkWTV0AFcCTZQSTJylxcqjU54=",
-        "originContent": "- [2026-02-08] 🔥🔥🔥 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** has beed accepted at **ICLR 2026 (Oral)**! See you in Rio 🇧🇷!  ",
-        "translatedContent": "- [2026-02-08] 🔥🔥🔥 我們的**[Bird-Interact 論文](https://huggingface.co/papers/2510.05318)** 已被 **ICLR 2026（Oral）** 接受！里約再見 🇧🇷！  "
+        "rowsha": "Nr837Y4ROKJUwP7LbyViQ0/aDKhL6OpRwXQ3tEhCgoM=",
+        "originContent": "- [2026-03-29] 🔥🔥🔥 **BIRD-Interact-ADK**: We release **[BIRD-Interact-ADK](./BIRD-Interact-ADK/)**, a Google ADK-based implementation with modular 3-microservices (agent, user simulator, and DB Env) architecture. Easily swap in your own agent, user simulator, or DB environment. Supports parallel execution and any [LiteLlm-compatible](https://docs.litellm.ai/docs/providers) LLM provider. Recommend to use this implementation for your research.",
+        "translatedContent": "- [2026-03-29] 🔥🔥🔥 **BIRD-Interact-ADK**：我們釋出了**[BIRD-Interact-ADK](./BIRD-Interact-ADK/)**，這是一個基於 Google ADK 的實作，具備模組化 3 微服務（代理、人類模擬器與 DB 環境）架構。可輕鬆更換自己的代理、人類模擬器或 DB 環境。支援平行執行及所有 [LiteLlm 兼容](https://docs.litellm.ai/docs/providers) 的 LLM 供應商。建議您將此實作用於研究。"
       },
       {
         "row": 28,
@@ -191,9 +191,9 @@
       },
       {
         "row": 29,
-        "rowsha": "Z1U72G8iUw35F0VXT/QQ4hHQgL/nwD4xFuSMH8lzboc=",
-        "originContent": "- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.",
-        "translatedContent": "- [2025-11-06] 🐛 **修復錯誤** & 🐳 **Docker 更新**：將 sqlglot 版本升級至 26.16.4，以修正 sql 解析器於用戶模擬器無法正確解析 SQL 的錯誤。您可於 `bird_interact_eval` 環境中執行 `pip install sqlglot==26.16.4` 修復此問題。`bird_interact_eval` 映像也已更新，亦可直接拉取並重新建立 `bird_interact_eval` 容器。"
+        "rowsha": "reJG5vUvGg3VLe761fXkWTV0AFcCTZQSTJylxcqjU54=",
+        "originContent": "- [2026-02-08] 🔥🔥🔥 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** has beed accepted at **ICLR 2026 (Oral)**! See you in Rio 🇧🇷!  ",
+        "translatedContent": "- [2026-02-08] 🔥🔥🔥 我們的**[Bird-Interact 論文](https://huggingface.co/papers/2510.05318)** 已被 **ICLR 2026（口頭報告）** 接收！里約見 🇧🇷！  "
       },
       {
         "row": 30,
@@ -203,9 +203,9 @@
       },
       {
         "row": 31,
-        "rowsha": "lMr4RDYFItZ9CRw58CMm96RH+m1TG6qtPaypnv8airE=",
-        "originContent": "- [2025-10-21] 🐳 **Docker update**: We added the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually!",
-        "translatedContent": "- [2025-10-21] 🐳 **Docker 更新**：我們已加入 Full DB Env 的 docker，並將 3 個 docker 映像（Base/Full DB Env 及 `a-Interact`、`c-Interact` 的評測環境）推送至 Docker Hub，方便環境設置。無需手動下載 DB dump 與建構映像！"
+        "rowsha": "Z1U72G8iUw35F0VXT/QQ4hHQgL/nwD4xFuSMH8lzboc=",
+        "originContent": "- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.",
+        "translatedContent": "- [2025-11-06] 🐛 **錯誤修正** & 🐳 **Docker 更新**：將 sqlglot 版本升級至 26.16.4，以修正用戶模擬器無法正確解析 SQL 的問題。您可在 `bird_interact_eval` 環境中使用 `pip install sqlglot==26.16.4` 重新安裝修正。`bird_interact_eval` 映像檔也已更新，可直接拉取並重建 `bird_interact_eval` 容器。"
       },
       {
         "row": 32,
@@ -215,106 +215,106 @@
       },
       {
         "row": 33,
+        "rowsha": "lMr4RDYFItZ9CRw58CMm96RH+m1TG6qtPaypnv8airE=",
+        "originContent": "- [2025-10-21] 🐳 **Docker update**: We added the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually!",
+        "translatedContent": "- [2025-10-21] 🐳 **Docker 更新**：我們新增了 Full DB Env 的 docker，並已將 3 個 docker 映像檔（Base/Full DB Env 和 `a-Interact`、`c-Interact` 評估環境）推送至 Docker Hub，方便您進行環境部署。無須手動下載資料庫轉存檔並自行建構映像檔！"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
         "rowsha": "1Idw1dJinQ5ViE9XSo3nl6paFvPhRHLVF82HX7wrKMQ=",
         "originContent": "- [2025-10-08] 📝 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** is now publicly available!  ",
         "translatedContent": "- [2025-10-08] 📝 我們的**[Bird-Interact 論文](https://huggingface.co/papers/2510.05318)** 現已公開！  "
       },
       {
-        "row": 34,
+        "row": 36,
         "rowsha": "CyhZ3V3Xw21cqVgFeKohnC9M+zgHFv7iAcLiXcj7GyI=",
         "originContent": "  It presents the full details, methodology, and evaluation of our interactive text-to-SQL benchmark.  ",
-        "translatedContent": "  詳細介紹了我們互動式 text-to-SQL 基準的所有細節、方法論及評測。  "
-      },
-      {
-        "row": 35,
-        "rowsha": "5LLNJEctcvyORsxcmNT01K5A7hUbbXe73EKwGwkOgMI=",
-        "originContent": "  👉 Check it out and know more about the ideas behind [BIRD-Interact](https://bird-interact.github.io/).",
-        "translatedContent": "  👉 歡迎前往 [BIRD-Interact](https://bird-interact.github.io/) 深入了解背後理念。"
-      },
-      {
-        "row": 36,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "translatedContent": "  內容詳述了我們互動式 text-to-SQL 基準的完整細節、方法論與評估。  "
       },
       {
         "row": 37,
-        "rowsha": "p8U7kXBDyt7dTwl5nGd41SRQeVKq/0RgaX0XX6TqnW4=",
-        "originContent": "- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  ",
-        "translatedContent": "- [2025-08-26] 🚀 我們很高興宣布**[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** 集正式發布！  "
+        "rowsha": "5LLNJEctcvyORsxcmNT01K5A7hUbbXe73EKwGwkOgMI=",
+        "originContent": "  👉 Check it out and know more about the ideas behind [BIRD-Interact](https://bird-interact.github.io/).",
+        "translatedContent": "  👉 歡迎查看，深入了解 [BIRD-Interact](https://bird-interact.github.io/) 的設計理念。"
       },
       {
         "row": 38,
-        "rowsha": "cZRLL0Cl1abpLmEsXUNPMa1FqgTG/AiR4Rta4dhhpzk=",
-        "originContent": "It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  ",
-        "translatedContent": "這是一個高難度挑戰 — 最強大的 LLM 成功率僅為 **16.33%**，`c-interact` 與 `a-interact` 部分僅有 **10.0%**。  "
-      },
-      {
-        "row": 39,
-        "rowsha": "uTh0Lj92DZu8zFDeupB/DHZqDkNrQJVNtDYmELxeRQg=",
-        "originContent": "👉 For more details, please visit our [project website](https://bird-interact.github.io/).",
-        "translatedContent": "👉 更多詳情請參見我們的[專案網站](https://bird-interact.github.io/)。"
-      },
-      {
-        "row": 40,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "p8U7kXBDyt7dTwl5nGd41SRQeVKq/0RgaX0XX6TqnW4=",
+        "originContent": "- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  ",
+        "translatedContent": "- [2025-08-26] 🚀 我們很高興宣布 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** 數據集正式釋出！  "
+      },
+      {
+        "row": 40,
+        "rowsha": "cZRLL0Cl1abpLmEsXUNPMa1FqgTG/AiR4Rta4dhhpzk=",
+        "originContent": "It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  ",
+        "translatedContent": "這是一組極具挑戰性的測試——最佳 LLM 僅達到 **16.33%** 成功率，`c-interact` 與 `a-interact` 區塊僅有 **10.0%**。  "
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 3,
-    "Content": "- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  \nIf you want early access, please send an email as instructed on the site for an **automatic download**.  \n\n- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  \nThe full **LiveSQLBench-Base** and **-Large** versions are coming soon!\n\n- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.\n\n## 🧸 Overview\n\nBIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.\nThe environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.\nIt offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.\nTypical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n### ✅ Two Evaluation Modes\n\nBIRD-INTERACT supports two evaluation modes as mentioned above:\n\n   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.\n   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.\n\n\n### 🐣 Lite Version\n\nWe are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. \n\n### 🦜 Full Version\n\nThe full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.\n\n### Model Performance Results on BIRD-INTERACT-FULL\n\n#### 1. **c-Interact Text-to-SQL** Performance\n| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level              |",
-    "ContentSha": "iVxxZm8lVKDajaO5ExQ+6hD8oAI37eoqALFCgZZf3vo=",
+    "Content": "👉 For more details, please visit our [project website](https://bird-interact.github.io/).\n\n- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  \nIf you want early access, please send an email as instructed on the site for an **automatic download**.  \n\n- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  \nThe full **LiveSQLBench-Base** and **-Large** versions are coming soon!\n\n- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.\n\n## 🧸 Overview\n\nBIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.\nThe environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.\nIt offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.\nTypical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n### ✅ Two Evaluation Modes\n\nBIRD-INTERACT supports two evaluation modes as mentioned above:\n\n   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.\n   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.\n\n\n### 🐣 Lite Version\n\nWe are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. \n\n### 🦜 Full Version\n\nThe full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.\n\n### Model Performance Results on BIRD-INTERACT-FULL\n",
+    "ContentSha": "rc1f0caVRa8jy8ShgHVfe7mtOgq0FwKmuxjmYaw44OI=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- [2025-08-26] 📬 本週我們將會把 **Ground Truth & Test cases** 發送到我們的郵件訂閱名單。  \n如果你想要提前取得，請按照網站上的說明發送電子郵件以獲得**自動下載**。  \n\n- [2025-08-26] 💾 另外，我們已經釋出了 **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** 的 SQLite 版本，方便本地端研究。  \n完整版 **LiveSQLBench-Base** 和 **-Large** 即將推出！\n\n- [2025-08-22] **錯誤修正**：在 Bird-Interact-Agent 代碼中，我們修正了一個錯誤，當評估 phase-2 SQL 時，存儲的 phase-1 SQL 無法成功執行，導致 Phase-2 的成功率降低。此錯誤僅影響 phase1 sql 會對資料庫進行操作（如 CREATE table 等）的任務。\n\n## 🧸 總覽\n\nBIRD-INTERACT 是一個互動式 text-to-SQL 基準，**從動態互動角度重新定義 Text-to-SQL 評測方式**。\n該環境融合了分層知識庫、資料庫文件及基於功能的用戶模擬器，重現企業級環境中的完整 **CRUD** 操作。\n它提供兩種嚴謹的測試模式：（1）被動的**會話互動**、（2）主動的**代理互動**，涵蓋 600 個標註任務，包括商業智能（BI）、CRUD 操作等，每個任務都附有可執行測試案例。\n典型評測會觸發模型與用戶模擬器間 1,968-5,496 次互動，而目前最先進的推理模型僅能解決約 **24%** 及 **18%** 的任務，突顯本基準的挑戰性。\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n### ✅ 兩種評測模式\n\nBIRD-INTERACT 支援上述兩種評測模式：\n\n   - **c-Interact**：會話互動，屬於被動模式，流程固定。相關程式與詳細資訊請見 `bird_interact_conv`。\n   - **a-Interact**：代理互動，屬於主動體現模式，流程由模型主導，動態調整。相關程式與詳細資訊請見 `bird_interact_agent`。\n\n\n### 🐣 輕量版\n\n我們釋出了 BIRD-INTERACT 的輕量版 `bird-interact-lite-exp`，內含 270 個專為 PostgreSQL 設計的高品質真實世界任務，是快速實驗的良好起點。\n\n### 🦜 完整版\n\nBIRD-INTERACT 的完整版 `bird-interact-full` 是一套涵蓋 600 個 PostgreSQL 任務的全面基準，範圍涵蓋多種 SQL 操作與使用者查詢。完整版即將推出。\n\n### BIRD-INTERACT-FULL 的模型效能結果\n\n#### 1. **c-Interact Text-to-SQL** 效能\n| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level              |",
+    "Translation": "👉 欲了解更多詳情，請參閱我們的 [專案網站](https://bird-interact.github.io/)。\n\n- [2025-08-26] 📬 本週我們將會把 **Ground Truth & Test cases** 發送至郵件訂閱名單。  \n如需提前獲取，請依網站說明發送郵件以取得**自動下載**。\n\n- [2025-08-26] 💾 另外，我們也釋出了**[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** 的 SQLite 版本，方便本地研究使用。  \n完整版 **LiveSQLBench-Base** 與 **-Large** 即將推出！\n\n- [2025-08-22] **錯誤修復**：在 Bird-Interact-Agent 代碼中，我們修正了一個錯誤，當評估 phase-2 SQL 時，儲存的 phase-1 SQL 無法成功執行，導致第二階段成功率降低。此錯誤僅影響 phase1 sql 會對資料庫進行操作（如 CREATE table 等）的任務。\n\n## 🧸 總覽\n\nBIRD-INTERACT 是一個互動式 text-to-SQL 基準測試，**以動態互動的視角重新定義 Text-to-SQL 評估**。\n該環境結合了分層知識庫、資料庫文件和以函式為驅動的用戶模擬器，重現企業級真實場景，涵蓋完整 **CRUD** 操作。\n它提供兩種嚴謹測試模式：（1）被動式 **對話互動** 及（2）主動式 **智能體互動**，涵蓋 600 筆帶註釋任務，包含商業智慧（BI）、CRUD 操作等，每項皆有可執行測試案例。\n標準評測過程中，模型與用戶模擬器之間會產生 1,968-5,496 次互動，目前最先進推理模型僅能解決 **≈24%** 與 **≈18%** 任務，突顯此基準的挑戰性。\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n### ✅ 兩種評測模式\n\nBIRD-INTERACT 支援上述兩種評測模式：\n\n   - **c-Interact**：對話互動，屬於被動模式，流程固定。代碼及詳細資訊可於 `bird_interact_conv` 查詢。\n   - **a-Interact**：智能體互動，屬於具體化主動模式，流程由模型動態主導。代碼及詳細資訊可於 `bird_interact_agent` 查詢。\n\n\n### 🐣 輕量版\n\n我們釋出了 BIRD-INTERACT 的輕量版 `bird-interact-lite-exp`，包含 270 筆高品質真實世界任務，專為 PostgreSQL 設計，是快速實驗的良好起點。\n\n### 🦜 完整版\n\nBIRD-INTERACT 的完整版 `bird-interact-full` 是一套涵蓋 600 項 PostgreSQL 任務的綜合基準，範圍廣泛，涵蓋多種 SQL 操作與用戶查詢。完整版即將推出。\n\n### BIRD-INTERACT-FULL 的模型表現結果\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "njQxscmq+qoQRPFHu4zV50Xh0Om7eNBkzAW8d5sodrI=",
-        "originContent": "- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  ",
-        "translatedContent": "- [2025-08-26] 📬 本週我們將會把 **Ground Truth & Test cases** 發送到我們的郵件訂閱名單。  "
+        "rowsha": "uTh0Lj92DZu8zFDeupB/DHZqDkNrQJVNtDYmELxeRQg=",
+        "originContent": "👉 For more details, please visit our [project website](https://bird-interact.github.io/).",
+        "translatedContent": "👉 欲了解更多詳情，請參閱我們的 [專案網站](https://bird-interact.github.io/)。"
       },
       {
         "row": 2,
-        "rowsha": "HwzWO9mNhKPLTQfQ12WsbYV1MagdQY+HJT7EgFcBByA=",
-        "originContent": "If you want early access, please send an email as instructed on the site for an **automatic download**.  ",
-        "translatedContent": "如果你想要提前取得，請按照網站上的說明發送電子郵件以獲得**自動下載**。  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "njQxscmq+qoQRPFHu4zV50Xh0Om7eNBkzAW8d5sodrI=",
+        "originContent": "- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  ",
+        "translatedContent": "- [2025-08-26] 📬 本週我們將會把 **Ground Truth & Test cases** 發送至郵件訂閱名單。  "
       },
       {
         "row": 4,
-        "rowsha": "PdfleL4UEb/TpBvwZuRBaqVEtkXfwgIc/mpYLMRWtyc=",
-        "originContent": "- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  ",
-        "translatedContent": "- [2025-08-26] 💾 另外，我們已經釋出了 **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** 的 SQLite 版本，方便本地端研究。  "
+        "rowsha": "HwzWO9mNhKPLTQfQ12WsbYV1MagdQY+HJT7EgFcBByA=",
+        "originContent": "If you want early access, please send an email as instructed on the site for an **automatic download**.  ",
+        "translatedContent": "如需提前獲取，請依網站說明發送郵件以取得**自動下載**。"
       },
       {
         "row": 5,
-        "rowsha": "VxoqSMB6TpN2zObl1GDfFf/otbnzKtVIHirvSq2F8zI=",
-        "originContent": "The full **LiveSQLBench-Base** and **-Large** versions are coming soon!",
-        "translatedContent": "完整版 **LiveSQLBench-Base** 和 **-Large** 即將推出！"
-      },
-      {
-        "row": 6,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 6,
+        "rowsha": "PdfleL4UEb/TpBvwZuRBaqVEtkXfwgIc/mpYLMRWtyc=",
+        "originContent": "- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  ",
+        "translatedContent": "- [2025-08-26] 💾 另外，我們也釋出了**[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** 的 SQLite 版本，方便本地研究使用。  "
+      },
+      {
         "row": 7,
-        "rowsha": "73VPSBicTOvoCvqOPfsvXHp4/SFquVX6NiITz3mxcnk=",
-        "originContent": "- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
-        "translatedContent": "- [2025-08-22] **錯誤修正**：在 Bird-Interact-Agent 代碼中，我們修正了一個錯誤，當評估 phase-2 SQL 時，存儲的 phase-1 SQL 無法成功執行，導致 Phase-2 的成功率降低。此錯誤僅影響 phase1 sql 會對資料庫進行操作（如 CREATE table 等）的任務。"
+        "rowsha": "VxoqSMB6TpN2zObl1GDfFf/otbnzKtVIHirvSq2F8zI=",
+        "originContent": "The full **LiveSQLBench-Base** and **-Large** versions are coming soon!",
+        "translatedContent": "完整版 **LiveSQLBench-Base** 與 **-Large** 即將推出！"
       },
       {
         "row": 8,
@@ -324,9 +324,9 @@
       },
       {
         "row": 9,
-        "rowsha": "QhSpt0Gs7Alk+veU+/7r5eBWjEmUPNckehpOkHHTFfY=",
-        "originContent": "## 🧸 Overview",
-        "translatedContent": "## 🧸 總覽"
+        "rowsha": "73VPSBicTOvoCvqOPfsvXHp4/SFquVX6NiITz3mxcnk=",
+        "originContent": "- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
+        "translatedContent": "- [2025-08-22] **錯誤修復**：在 Bird-Interact-Agent 代碼中，我們修正了一個錯誤，當評估 phase-2 SQL 時，儲存的 phase-1 SQL 無法成功執行，導致第二階段成功率降低。此錯誤僅影響 phase1 sql 會對資料庫進行操作（如 CREATE table 等）的任務。"
       },
       {
         "row": 10,
@@ -336,69 +336,69 @@
       },
       {
         "row": 11,
-        "rowsha": "9U1B81vOnyeDPKlxb6O3XC4FXh0hbLXH8V57gCGlb0Q=",
-        "originContent": "BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.",
-        "translatedContent": "BIRD-INTERACT 是一個互動式 text-to-SQL 基準，**從動態互動角度重新定義 Text-to-SQL 評測方式**。"
+        "rowsha": "QhSpt0Gs7Alk+veU+/7r5eBWjEmUPNckehpOkHHTFfY=",
+        "originContent": "## 🧸 Overview",
+        "translatedContent": "## 🧸 總覽"
       },
       {
         "row": 12,
-        "rowsha": "84g83RdosxtgIw+gRwhL1ror9irKd50meUk3EOxrDGA=",
-        "originContent": "The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.",
-        "translatedContent": "該環境融合了分層知識庫、資料庫文件及基於功能的用戶模擬器，重現企業級環境中的完整 **CRUD** 操作。"
-      },
-      {
-        "row": 13,
-        "rowsha": "9KzX3dvnS81NZYRZ9Lky7nqmWEbBkaBCTMs8AamBzSA=",
-        "originContent": "It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.",
-        "translatedContent": "它提供兩種嚴謹的測試模式：（1）被動的**會話互動**、（2）主動的**代理互動**，涵蓋 600 個標註任務，包括商業智能（BI）、CRUD 操作等，每個任務都附有可執行測試案例。"
-      },
-      {
-        "row": 14,
-        "rowsha": "mpc5AeXDAHxdj52GwIefEDRc0bpXki0gsoYNYWijI0c=",
-        "originContent": "Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.",
-        "translatedContent": "典型評測會觸發模型與用戶模擬器間 1,968-5,496 次互動，而目前最先進的推理模型僅能解決約 **24%** 及 **18%** 的任務，突顯本基準的挑戰性。"
-      },
-      {
-        "row": 15,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 13,
+        "rowsha": "9U1B81vOnyeDPKlxb6O3XC4FXh0hbLXH8V57gCGlb0Q=",
+        "originContent": "BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.",
+        "translatedContent": "BIRD-INTERACT 是一個互動式 text-to-SQL 基準測試，**以動態互動的視角重新定義 Text-to-SQL 評估**。"
+      },
+      {
+        "row": 14,
+        "rowsha": "84g83RdosxtgIw+gRwhL1ror9irKd50meUk3EOxrDGA=",
+        "originContent": "The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.",
+        "translatedContent": "該環境結合了分層知識庫、資料庫文件和以函式為驅動的用戶模擬器，重現企業級真實場景，涵蓋完整 **CRUD** 操作。"
+      },
+      {
+        "row": 15,
+        "rowsha": "9KzX3dvnS81NZYRZ9Lky7nqmWEbBkaBCTMs8AamBzSA=",
+        "originContent": "It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.",
+        "translatedContent": "它提供兩種嚴謹測試模式：（1）被動式 **對話互動** 及（2）主動式 **智能體互動**，涵蓋 600 筆帶註釋任務，包含商業智慧（BI）、CRUD 操作等，每項皆有可執行測試案例。"
+      },
+      {
         "row": 16,
+        "rowsha": "mpc5AeXDAHxdj52GwIefEDRc0bpXki0gsoYNYWijI0c=",
+        "originContent": "Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.",
+        "translatedContent": "標準評測過程中，模型與用戶模擬器之間會產生 1,968-5,496 次互動，目前最先進推理模型僅能解決 **≈24%** 與 **≈18%** 任務，突顯此基準的挑戰性。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
         "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
         "originContent": "<p align=\"center\">",
         "translatedContent": "<p align=\"center\">"
       },
       {
-        "row": 17,
+        "row": 19,
         "rowsha": "75rx/bZj6j98j3RNS6gpBC2JCE4XvCP27x7SUM1Pp/k=",
         "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" ",
         "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" "
       },
       {
-        "row": 18,
+        "row": 20,
         "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
         "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
         "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
       },
       {
-        "row": 19,
+        "row": 21,
         "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
         "originContent": "</p>",
         "translatedContent": "</p>"
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "a+eobES8Y0aPdgWyMeEskYpAfe5mRRebAHJzTW4BWXY=",
-        "originContent": "### ✅ Two Evaluation Modes",
-        "translatedContent": "### ✅ 兩種評測模式"
       },
       {
         "row": 22,
@@ -408,9 +408,9 @@
       },
       {
         "row": 23,
-        "rowsha": "rQgxc4D2aLnRS+OWIF63LnqSZtF255KZkRId/tY989s=",
-        "originContent": "BIRD-INTERACT supports two evaluation modes as mentioned above:",
-        "translatedContent": "BIRD-INTERACT 支援上述兩種評測模式："
+        "rowsha": "a+eobES8Y0aPdgWyMeEskYpAfe5mRRebAHJzTW4BWXY=",
+        "originContent": "### ✅ Two Evaluation Modes",
+        "translatedContent": "### ✅ 兩種評測模式"
       },
       {
         "row": 24,
@@ -420,33 +420,33 @@
       },
       {
         "row": 25,
-        "rowsha": "doLQcF2moo95fuQb//rTr1wBmz+PRVTsyIDgCDLJCr0=",
-        "originContent": "   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.",
-        "translatedContent": "   - **c-Interact**：會話互動，屬於被動模式，流程固定。相關程式與詳細資訊請見 `bird_interact_conv`。"
+        "rowsha": "rQgxc4D2aLnRS+OWIF63LnqSZtF255KZkRId/tY989s=",
+        "originContent": "BIRD-INTERACT supports two evaluation modes as mentioned above:",
+        "translatedContent": "BIRD-INTERACT 支援上述兩種評測模式："
       },
       {
         "row": 26,
-        "rowsha": "DPbnNKRyhiwaDJCP/LcyBaIbe1AFeT6wnnTq78NCOrw=",
-        "originContent": "   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.",
-        "translatedContent": "   - **a-Interact**：代理互動，屬於主動體現模式，流程由模型主導，動態調整。相關程式與詳細資訊請見 `bird_interact_agent`。"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "doLQcF2moo95fuQb//rTr1wBmz+PRVTsyIDgCDLJCr0=",
+        "originContent": "   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.",
+        "translatedContent": "   - **c-Interact**：對話互動，屬於被動模式，流程固定。代碼及詳細資訊可於 `bird_interact_conv` 查詢。"
       },
       {
         "row": 28,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "DPbnNKRyhiwaDJCP/LcyBaIbe1AFeT6wnnTq78NCOrw=",
+        "originContent": "   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.",
+        "translatedContent": "   - **a-Interact**：智能體互動，屬於具體化主動模式，流程由模型動態主導。代碼及詳細資訊可於 `bird_interact_agent` 查詢。"
       },
       {
         "row": 29,
-        "rowsha": "q5RzZ4z97zBrs0+Wz0A587XCSPhq1czDbEhkpV+/69A=",
-        "originContent": "### 🐣 Lite Version",
-        "translatedContent": "### 🐣 輕量版"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 30,
@@ -456,9 +456,9 @@
       },
       {
         "row": 31,
-        "rowsha": "2CBSzGJ6FluIx3SWGBCAVjhuaYkr5V5Oouf6TjmieCI=",
-        "originContent": "We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. ",
-        "translatedContent": "我們釋出了 BIRD-INTERACT 的輕量版 `bird-interact-lite-exp`，內含 270 個專為 PostgreSQL 設計的高品質真實世界任務，是快速實驗的良好起點。"
+        "rowsha": "q5RzZ4z97zBrs0+Wz0A587XCSPhq1czDbEhkpV+/69A=",
+        "originContent": "### 🐣 Lite Version",
+        "translatedContent": "### 🐣 輕量版"
       },
       {
         "row": 32,
@@ -468,9 +468,9 @@
       },
       {
         "row": 33,
-        "rowsha": "4NEf5b/8pW3NO+wyiruRc0fUjzemeI1cDyHO3LSPcQ8=",
-        "originContent": "### 🦜 Full Version",
-        "translatedContent": "### 🦜 完整版"
+        "rowsha": "2CBSzGJ6FluIx3SWGBCAVjhuaYkr5V5Oouf6TjmieCI=",
+        "originContent": "We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. ",
+        "translatedContent": "我們釋出了 BIRD-INTERACT 的輕量版 `bird-interact-lite-exp`，包含 270 筆高品質真實世界任務，專為 PostgreSQL 設計，是快速實驗的良好起點。"
       },
       {
         "row": 34,
@@ -480,9 +480,9 @@
       },
       {
         "row": 35,
-        "rowsha": "qxVDafA3gAj2+/1PZQ/Sh9MVXNARM4e0D2YJ1qokJO8=",
-        "originContent": "The full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.",
-        "translatedContent": "BIRD-INTERACT 的完整版 `bird-interact-full` 是一套涵蓋 600 個 PostgreSQL 任務的全面基準，範圍涵蓋多種 SQL 操作與使用者查詢。完整版即將推出。"
+        "rowsha": "4NEf5b/8pW3NO+wyiruRc0fUjzemeI1cDyHO3LSPcQ8=",
+        "originContent": "### 🦜 Full Version",
+        "translatedContent": "### 🦜 完整版"
       },
       {
         "row": 36,
@@ -492,9 +492,9 @@
       },
       {
         "row": 37,
-        "rowsha": "e1fVIRnf5DJBlNl7U6EoyQI0eVJkYgfI3rTGBDoYd2M=",
-        "originContent": "### Model Performance Results on BIRD-INTERACT-FULL",
-        "translatedContent": "### BIRD-INTERACT-FULL 的模型效能結果"
+        "rowsha": "qxVDafA3gAj2+/1PZQ/Sh9MVXNARM4e0D2YJ1qokJO8=",
+        "originContent": "The full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.",
+        "translatedContent": "BIRD-INTERACT 的完整版 `bird-interact-full` 是一套涵蓋 600 項 PostgreSQL 任務的綜合基準，範圍廣泛，涵蓋多種 SQL 操作與用戶查詢。完整版即將推出。"
       },
       {
         "row": 38,
@@ -504,154 +504,154 @@
       },
       {
         "row": 39,
-        "rowsha": "R2z5Tn93qsANHvoKru7vIhL4TbniwafDJfbyihPd/Ug=",
-        "originContent": "#### 1. **c-Interact Text-to-SQL** Performance",
-        "translatedContent": "#### 1. **c-Interact Text-to-SQL** 效能"
+        "rowsha": "e1fVIRnf5DJBlNl7U6EoyQI0eVJkYgfI3rTGBDoYd2M=",
+        "originContent": "### Model Performance Results on BIRD-INTERACT-FULL",
+        "translatedContent": "### BIRD-INTERACT-FULL 的模型表現結果"
       },
       {
         "row": 40,
-        "rowsha": "Jq9h6d3xn5I7dko6pYZ1kyE7T6AkdSWLxen/zAFM3fQ=",
-        "originContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level              |",
-        "translatedContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level              |"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 4,
-    "Content": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|\n| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 Excellent Chat  |\n| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 Excellent Chat  |\n| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 Good Chat       |\n| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 Good Chat       |\n| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ Standard        |\n| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ Standard        |\n| 7    | GPT-5              | 12.58             | $0.08               | ⚪ Basic           |\n\n#### 2. **a-Interact Text-to-SQL** Performance\n| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level                    |\n|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|\n| 1    | GPT-5              | 25.52             | $0.24               | 🏆 Excellent Interaction |\n| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 Excellent Interaction |\n| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 Good Interaction      |\n| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 Good Interaction      |\n| 5    | O3-Mini            | 16.43             | $0.06               | ✨ Standard              |\n| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ Standard              |\n| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ Basic                 |\n\n> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.\n\n### Interaction-Time Scaling (ITS)\n\nInteraction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n## Environment Setup\n\n1. Run Docker containers for bird-interact-lite database, bird-interact-full database, and evaluation environment:\n  \n  > If you just want to evaluate on `bird-interact-lite`, you could comment out the [`postgresql_full` service](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) in `docker-compose.yml` to speed up the environment setup.\n  \n  Start the environment by running: ",
-    "ContentSha": "Lyrj2wPtSikDk7evnR4eGUnlzDcuEkhnD7wTSy9Ay5g=",
+    "Content": "#### 1. **c-Interact Text-to-SQL** Performance\n| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level              |\n|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|\n| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 Excellent Chat  |\n| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 Excellent Chat  |\n| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 Good Chat       |\n| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 Good Chat       |\n| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ Standard        |\n| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ Standard        |\n| 7    | GPT-5              | 12.58             | $0.08               | ⚪ Basic           |\n\n#### 2. **a-Interact Text-to-SQL** Performance\n| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level                    |\n|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|\n| 1    | GPT-5              | 25.52             | $0.24               | 🏆 Excellent Interaction |\n| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 Excellent Interaction |\n| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 Good Interaction      |\n| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 Good Interaction      |\n| 5    | O3-Mini            | 16.43             | $0.06               | ✨ Standard              |\n| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ Standard              |\n| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ Basic                 |\n\n> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.\n\n### Interaction-Time Scaling (ITS)\n\nInteraction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n## Environment Setup\n\n1. Run Docker containers for bird-interact-lite database, bird-interact-full database, and evaluation environment:\n  \n  > If you just want to evaluate on `bird-interact-lite`, you could comment out the [`postgresql_full` service](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) in `docker-compose.yml` to speed up the environment setup.\n  \n  Start the environment by running: ",
+    "ContentSha": "hFaY01Nr88jVL4YSjNXeRnMd8qb8di+AJENTL3qHq2c=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|\n| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 優異對話         |\n| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 優異對話         |\n| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 良好對話         |\n| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 良好對話         |\n| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ 標準             |\n| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ 標準             |\n| 7    | GPT-5              | 12.58             | $0.08               | ⚪ 基本             |\n\n#### 2. **a-Interact Text-to-SQL** 效能表現\n| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level                    |\n|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|\n| 1    | GPT-5              | 25.52             | $0.24               | 🏆 優異互動             |\n| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 優異互動             |\n| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 良好互動             |\n| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 良好互動             |\n| 5    | O3-Mini            | 16.43             | $0.06               | ✨ 標準                 |\n| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ 標準                 |\n| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ 基本                 |\n\n> \\* 預算參數：初始預算／用戶耐心預算，以我們的虛擬貨幣 *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\"> 為單位。更多細節請參考 [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)。\n\n### 互動時間尺度（ITS）\n\n互動時間尺度（ITS）指的是模型透過多輪互動持續提升最終表現的能力。當這種互動式表現超越模型在完全明確、無歧義任務下的理想單輪表現時，則表示其滿足 **ITS 定律**。隨著用戶耐心增加與互動輪次累積，表現持續提升，展現模型能於長時間對話中維持有效溝通。目前僅發現 claude-3-7-sonnet 滿足 ITS 定律。\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n## 環境安裝\n\n1. 執行 Docker container 啟動 bird-interact-lite 資料庫、bird-interact-full 資料庫與評測環境：\n  \n  > 如果只想在 `bird-interact-lite` 上進行評測，可以將 `docker-compose.yml` 中的 [`postgresql_full` 服務](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) 註解掉以加速環境安裝。\n  \n  透過以下指令啟動環境：",
+    "Translation": "#### 1. **c-Interact Text-to-SQL** 性能\n| 排名 | 模型名稱            | 正規化回報         | 平均成本 (美元)/任務 | 級別                |\n|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|\n| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 優秀對話         |\n| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 優秀對話         |\n| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 良好對話         |\n| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 良好對話         |\n| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ 標準             |\n| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ 標準             |\n| 7    | GPT-5              | 12.58             | $0.08               | ⚪ 基本             |\n\n#### 2. **a-Interact Text-to-SQL** 性能\n| 排名 | 模型名稱            | 正規化回報         | 平均成本 (美元)/任務 | 級別                    |\n|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|\n| 1    | GPT-5              | 25.52             | $0.24               | 🏆 優秀互動              |\n| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 優秀互動              |\n| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 良好互動              |\n| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 良好互動              |\n| 5    | O3-Mini            | 16.43             | $0.06               | ✨ 標準                  |\n| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ 標準                  |\n| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ 基本                  |\n\n> \\* 預算參數：起始預算／用戶耐心預算，透過我們的虛擬貨幣 *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\"> 進行衡量。更多詳情請參見 [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)。\n\n### 互動時間擴展 (ITS)\n\n互動時間擴展（ITS）指模型通過多輪互動不斷提升其最終性能的能力。當這種互動性能超過模型在完全明確、無歧義任務下的理想單輪表現時，我們稱其滿足 **ITS 定律**。隨著用戶耐心增加與互動輪次累積，性能持續提升，展現模型能在長時間對話中維持有效溝通。目前我們僅發現 claude-3-7-sonnet 滿足 ITS 定律。\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n## 環境設置\n\n1. 運行 bird-interact-lite 資料庫、bird-interact-full 資料庫及評測環境的 Docker 容器：\n  \n  > 如果你只想在 `bird-interact-lite` 上評測，可以在 `docker-compose.yml` 中註解掉 [`postgresql_full` 服務](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) 以加快環境設置速度。\n  \n  通過以下命令啟動環境：",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "R2z5Tn93qsANHvoKru7vIhL4TbniwafDJfbyihPd/Ug=",
+        "originContent": "#### 1. **c-Interact Text-to-SQL** Performance",
+        "translatedContent": "#### 1. **c-Interact Text-to-SQL** 性能"
+      },
+      {
+        "row": 2,
+        "rowsha": "Jq9h6d3xn5I7dko6pYZ1kyE7T6AkdSWLxen/zAFM3fQ=",
+        "originContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level              |",
+        "translatedContent": "| 排名 | 模型名稱            | 正規化回報         | 平均成本 (美元)/任務 | 級別                |"
+      },
+      {
+        "row": 3,
         "rowsha": "qk5BEHvGn26A4xMQOUxlM81RNWe62xncRk4IjTUEgFk=",
         "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|",
         "translatedContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|"
       },
       {
-        "row": 2,
+        "row": 4,
         "rowsha": "niovxHIv8QBH9Vb49dzVyYEQLTFso9bR0DXVaoZc0Tc=",
         "originContent": "| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 Excellent Chat  |",
-        "translatedContent": "| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 優異對話         |"
+        "translatedContent": "| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 優秀對話         |"
       },
       {
-        "row": 3,
+        "row": 5,
         "rowsha": "efdWY6XZofU3BTXM7X1QSU3bodDl2zUs6qXYgYo/lDQ=",
         "originContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 Excellent Chat  |",
-        "translatedContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 優異對話         |"
+        "translatedContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 優秀對話         |"
       },
       {
-        "row": 4,
+        "row": 6,
         "rowsha": "nviRDKmcMgsryACogpf/kuPovN+vvfQZ7jOR25fdTZs=",
         "originContent": "| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 Good Chat       |",
         "translatedContent": "| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 良好對話         |"
       },
       {
-        "row": 5,
+        "row": 7,
         "rowsha": "RvN9yOCl1wRxaTwNu/KOntIycX4eUDfB5hhxokbPVMk=",
         "originContent": "| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 Good Chat       |",
         "translatedContent": "| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 良好對話         |"
       },
       {
-        "row": 6,
+        "row": 8,
         "rowsha": "XnrIVaEU6JsLcBVIdTctBZgL3b5qOsvnbLFzA/dVvuc=",
         "originContent": "| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ Standard        |",
         "translatedContent": "| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ 標準             |"
       },
       {
-        "row": 7,
+        "row": 9,
         "rowsha": "i38LlBHIyjGbWdptOTFVCVg9koB64mcJiF+2JcIiv8M=",
         "originContent": "| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ Standard        |",
         "translatedContent": "| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ 標準             |"
       },
       {
-        "row": 8,
+        "row": 10,
         "rowsha": "YfmrCm2i7EZR0ehYI/xncYwVmDUeNwVfSh2xtrrWf0g=",
         "originContent": "| 7    | GPT-5              | 12.58             | $0.08               | ⚪ Basic           |",
         "translatedContent": "| 7    | GPT-5              | 12.58             | $0.08               | ⚪ 基本             |"
       },
       {
-        "row": 9,
+        "row": 11,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 10,
+        "row": 12,
         "rowsha": "Tqql2jza5bb6QlmVOGBB9geprkhJKPZ1jY96SFwnhVQ=",
         "originContent": "#### 2. **a-Interact Text-to-SQL** Performance",
-        "translatedContent": "#### 2. **a-Interact Text-to-SQL** 效能表現"
+        "translatedContent": "#### 2. **a-Interact Text-to-SQL** 性能"
       },
       {
-        "row": 11,
+        "row": 13,
         "rowsha": "0k1L/YlMi6EJx2r9l/+p0/MoPxfokyl2yBuqVKYHrvc=",
         "originContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level                    |",
-        "translatedContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level                    |"
+        "translatedContent": "| 排名 | 模型名稱            | 正規化回報         | 平均成本 (美元)/任務 | 級別                    |"
       },
       {
-        "row": 12,
+        "row": 14,
         "rowsha": "Nj7icDShMepIyOwnKPfnjIUuMT7zkHPHYxjVXL2S9PU=",
         "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|",
         "translatedContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|"
       },
       {
-        "row": 13,
+        "row": 15,
         "rowsha": "HPUqjETPdas09RgDiB02Y5JusE3mBlNYD8nz+Dx7c74=",
         "originContent": "| 1    | GPT-5              | 25.52             | $0.24               | 🏆 Excellent Interaction |",
-        "translatedContent": "| 1    | GPT-5              | 25.52             | $0.24               | 🏆 優異互動             |"
-      },
-      {
-        "row": 14,
-        "rowsha": "bMQ3A+A1VULUzBWGbNnUcN0XlHUVtuXIr4V4Jz8vwVc=",
-        "originContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 Excellent Interaction |",
-        "translatedContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 優異互動             |"
-      },
-      {
-        "row": 15,
-        "rowsha": "rGnh3lbAUKn9WmgeJfVg6KftnPVmhopzlz9DWoXVIXE=",
-        "originContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 Good Interaction      |",
-        "translatedContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 良好互動             |"
+        "translatedContent": "| 1    | GPT-5              | 25.52             | $0.24               | 🏆 優秀互動              |"
       },
       {
         "row": 16,
-        "rowsha": "4j/e+hmJNdDkZIiDoN6zuuevmfNQ0LZbddfDB7qMFQo=",
-        "originContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 Good Interaction      |",
-        "translatedContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 良好互動             |"
+        "rowsha": "bMQ3A+A1VULUzBWGbNnUcN0XlHUVtuXIr4V4Jz8vwVc=",
+        "originContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 Excellent Interaction |",
+        "translatedContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 優秀互動              |"
       },
       {
         "row": 17,
-        "rowsha": "Qat+3srGhiJLNyet0Hc4k2JCHILQ8OY4Styi9pEkXmE=",
-        "originContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ Standard              |",
-        "translatedContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ 標準                 |"
+        "rowsha": "rGnh3lbAUKn9WmgeJfVg6KftnPVmhopzlz9DWoXVIXE=",
+        "originContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 Good Interaction      |",
+        "translatedContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 良好互動              |"
       },
       {
         "row": 18,
-        "rowsha": "J8+i15WAOqjKWwsNKKoZQtRjkMj9kns+HaUE16WPSaY=",
-        "originContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ Standard              |",
-        "translatedContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ 標準                 |"
+        "rowsha": "4j/e+hmJNdDkZIiDoN6zuuevmfNQ0LZbddfDB7qMFQo=",
+        "originContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 Good Interaction      |",
+        "translatedContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 良好互動              |"
       },
       {
         "row": 19,
-        "rowsha": "cAR/cpPakbQWvBq/RxtLIJ5sSCyZ8d5CpAtjqa0S1L8=",
-        "originContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ Basic                 |",
-        "translatedContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ 基本                 |"
+        "rowsha": "Qat+3srGhiJLNyet0Hc4k2JCHILQ8OY4Styi9pEkXmE=",
+        "originContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ Standard              |",
+        "translatedContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ 標準                  |"
       },
       {
         "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "J8+i15WAOqjKWwsNKKoZQtRjkMj9kns+HaUE16WPSaY=",
+        "originContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ Standard              |",
+        "translatedContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ 標準                  |"
       },
       {
         "row": 21,
-        "rowsha": "+Jpw7DNyX62i16RieTingm/y9I/fbyKt3QION65wVVM=",
-        "originContent": "> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.",
-        "translatedContent": "> \\* 預算參數：初始預算／用戶耐心預算，以我們的虛擬貨幣 *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\"> 為單位。更多細節請參考 [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)。"
+        "rowsha": "cAR/cpPakbQWvBq/RxtLIJ5sSCyZ8d5CpAtjqa0S1L8=",
+        "originContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ Basic                 |",
+        "translatedContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ 基本                  |"
       },
       {
         "row": 22,
@@ -661,9 +661,9 @@
       },
       {
         "row": 23,
-        "rowsha": "5u3FiJW4Jxe5q1dPL28qg/MUDpTFWL7rKBi3H4FV4ns=",
-        "originContent": "### Interaction-Time Scaling (ITS)",
-        "translatedContent": "### 互動時間尺度（ITS）"
+        "rowsha": "+Jpw7DNyX62i16RieTingm/y9I/fbyKt3QION65wVVM=",
+        "originContent": "> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.",
+        "translatedContent": "> \\* 預算參數：起始預算／用戶耐心預算，透過我們的虛擬貨幣 *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\"> 進行衡量。更多詳情請參見 [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)。"
       },
       {
         "row": 24,
@@ -673,9 +673,9 @@
       },
       {
         "row": 25,
-        "rowsha": "NwBIsVzW+kYLShpJ6rffKZncWEjgGCQhf/Ih+5DLlLU=",
-        "originContent": "Interaction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.",
-        "translatedContent": "互動時間尺度（ITS）指的是模型透過多輪互動持續提升最終表現的能力。當這種互動式表現超越模型在完全明確、無歧義任務下的理想單輪表現時，則表示其滿足 **ITS 定律**。隨著用戶耐心增加與互動輪次累積，表現持續提升，展現模型能於長時間對話中維持有效溝通。目前僅發現 claude-3-7-sonnet 滿足 ITS 定律。"
+        "rowsha": "5u3FiJW4Jxe5q1dPL28qg/MUDpTFWL7rKBi3H4FV4ns=",
+        "originContent": "### Interaction-Time Scaling (ITS)",
+        "translatedContent": "### 互動時間擴展 (ITS)"
       },
       {
         "row": 26,
@@ -685,39 +685,39 @@
       },
       {
         "row": 27,
-        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
-        "originContent": "<p align=\"center\">",
-        "translatedContent": "<p align=\"center\">"
+        "rowsha": "NwBIsVzW+kYLShpJ6rffKZncWEjgGCQhf/Ih+5DLlLU=",
+        "originContent": "Interaction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.",
+        "translatedContent": "互動時間擴展（ITS）指模型通過多輪互動不斷提升其最終性能的能力。當這種互動性能超過模型在完全明確、無歧義任務下的理想單輪表現時，我們稱其滿足 **ITS 定律**。隨著用戶耐心增加與互動輪次累積，性能持續提升，展現模型能在長時間對話中維持有效溝通。目前我們僅發現 claude-3-7-sonnet 滿足 ITS 定律。"
       },
       {
         "row": 28,
-        "rowsha": "TW0AIFALwgyvJujlCuN+wyzJWtuuF1VkgusDlug821c=",
-        "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" ",
-        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" "
-      },
-      {
-        "row": 29,
-        "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
-        "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
-        "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
-      },
-      {
-        "row": 30,
-        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-        "originContent": "</p>",
-        "translatedContent": "</p>"
-      },
-      {
-        "row": 31,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 29,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 30,
+        "rowsha": "TW0AIFALwgyvJujlCuN+wyzJWtuuF1VkgusDlug821c=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" ",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" "
+      },
+      {
+        "row": 31,
+        "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
+        "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
+        "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
+      },
+      {
         "row": 32,
-        "rowsha": "GRA0o2JYSxg8X2purzLLk9Zt8XnGE8h4/VlGeFmnX9M=",
-        "originContent": "## Environment Setup",
-        "translatedContent": "## 環境安裝"
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
       },
       {
         "row": 33,
@@ -727,21 +727,21 @@
       },
       {
         "row": 34,
-        "rowsha": "tDbEdv5pYPB1U4PN122epOKraa/YbzS/P35WOUd0B4g=",
-        "originContent": "1. Run Docker containers for bird-interact-lite database, bird-interact-full database, and evaluation environment:",
-        "translatedContent": "1. 執行 Docker container 啟動 bird-interact-lite 資料庫、bird-interact-full 資料庫與評測環境："
+        "rowsha": "GRA0o2JYSxg8X2purzLLk9Zt8XnGE8h4/VlGeFmnX9M=",
+        "originContent": "## Environment Setup",
+        "translatedContent": "## 環境設置"
       },
       {
         "row": 35,
-        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
-        "originContent": "  ",
-        "translatedContent": "  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 36,
-        "rowsha": "4mfOdzHzqWZKB8ryaBS2m9y2OzM2DrTzHMY36nSzYxw=",
-        "originContent": "  > If you just want to evaluate on `bird-interact-lite`, you could comment out the [`postgresql_full` service](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) in `docker-compose.yml` to speed up the environment setup.",
-        "translatedContent": "  > 如果只想在 `bird-interact-lite` 上進行評測，可以將 `docker-compose.yml` 中的 [`postgresql_full` 服務](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) 註解掉以加速環境安裝。"
+        "rowsha": "tDbEdv5pYPB1U4PN122epOKraa/YbzS/P35WOUd0B4g=",
+        "originContent": "1. Run Docker containers for bird-interact-lite database, bird-interact-full database, and evaluation environment:",
+        "translatedContent": "1. 運行 bird-interact-lite 資料庫、bird-interact-full 資料庫及評測環境的 Docker 容器："
       },
       {
         "row": 37,
@@ -751,9 +751,21 @@
       },
       {
         "row": 38,
+        "rowsha": "4mfOdzHzqWZKB8ryaBS2m9y2OzM2DrTzHMY36nSzYxw=",
+        "originContent": "  > If you just want to evaluate on `bird-interact-lite`, you could comment out the [`postgresql_full` service](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) in `docker-compose.yml` to speed up the environment setup.",
+        "translatedContent": "  > 如果你只想在 `bird-interact-lite` 上評測，可以在 `docker-compose.yml` 中註解掉 [`postgresql_full` 服務](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) 以加快環境設置速度。"
+      },
+      {
+        "row": 39,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 40,
         "rowsha": "cZZ1ihyKvQOGnE8KvasnKgESAfFl1bO6WjZnSt9gOKs=",
         "originContent": "  Start the environment by running: ",
-        "translatedContent": "  透過以下指令啟動環境："
+        "translatedContent": "  通過以下命令啟動環境："
       }
     ],
     "IsCodeBlock": false
@@ -940,14 +952,255 @@
   },
   {
     "Id": 20,
-    "Content": "   \n   Expected results:\n   - **bird-interact-lite**: \n     - 📈 Total Databases: 18\n     - 📋 Total Tables: 175\n     - 🔢 Total Columns: 2286\n     - 📈 Avg Rows per Table: 1,038.48\n     - 💾 Total Size: 207.15 MB (around)\n   - **bird-interact-full**: \n     - 📈 Total Databases: 22\n     - 📋 Total Tables: 244\n     - 🔢 Total Columns: 2011\n     - 📈 Avg Rows per Table: 1,121.19\n     - 💾 Total Size: 272.00 MB (around)\n\n\n## 📦 Dataset Details\n\n### Dataset Description\n\n- **Database:** The complete PostgreSQL database can be download from [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) and [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view).\n- **data:** Each data instance contain the following main parts:\n   - `selected_database`: The name of the database.  \n   - `query`: The unambiguous user query.  \n   - `amb_user_query`: The user query with injected ambiguities.\n   - `user_query_ambiguity`: The ambiguities injected into the user query.\n   - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.\n   - `knowledge_ambiguity`: The ambiguities created by masked external knowledges. \n   - `sol_sql`: The ground truth SQL solution.  \n   - `preprocess_sql`: SQL queries to run before executing the solution or prediction.  \n   - `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  \n   - `test_cases`: A set of test cases to validate the predicted corrected SQL.\n   - `follow_up`: The labeled follow up questions.\n   - `external_knowledge`: The external knowledge related to the specific task.\n\n- **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.\n- **Curated by:** BIRD Team & Google Cloud\n- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)\n- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)\n  and [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full)",
-    "ContentSha": "tJPxPvHt6HbMNA8X0Am8+yIl4tnAK7JP1jKQNkvUrkw=",
+    "Content": "   \n   Expected results:\n   - **bird-interact-lite**: \n     - 📈 Total Databases: 18\n     - 📋 Total Tables: 175\n     - 🔢 Total Columns: 2286\n     - 📈 Avg Rows per Table: 1,038.48\n     - 💾 Total Size: 207.15 MB (around)\n   - **bird-interact-full**: \n     - 📈 Total Databases: 22\n     - 📋 Total Tables: 244\n     - 🔢 Total Columns: 2011\n     - 📈 Avg Rows per Table: 1,121.19\n     - 💾 Total Size: 272.00 MB (around)\n\n\n## 📦 Dataset Details\n\n### Dataset Description\n\n- **Database:** The complete PostgreSQL database can be download from [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) and [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view).\n- **data:** Each data instance contain the following main parts:\n   - `selected_database`: The name of the database.  \n   - `query`: The unambiguous user query.  \n   - `amb_user_query`: The user query with injected ambiguities.\n   - `user_query_ambiguity`: The ambiguities injected into the user query.\n   - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.\n   - `knowledge_ambiguity`: The ambiguities created by masked external knowledges. \n   - `sol_sql`: The ground truth SQL solution.  \n   - `preprocess_sql`: SQL queries to run before executing the solution or prediction.  \n   - `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  \n   - `test_cases`: A set of test cases to validate the predicted corrected SQL.\n   - `follow_up`: The labeled follow up questions.\n   - `external_knowledge`: The external knowledge related to the specific task.\n\n- **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.\n- **Curated by:** BIRD Team & Google Cloud\n- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)\n- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)\n  and [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full) for PostgreSQL; and [mini-interact](https://huggingface.co/datasets/birdsql/mini-interact) for SQLite.",
+    "ContentSha": "ANT4u8fdSESP/7ALRfKtUXtMleZYx2qrbPJivfF3Vf4=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "   \n   預期結果：\n   - **bird-interact-lite**: \n     - 📈 資料庫總數：18\n     - 📋 資料表總數：175\n     - 🔢 欄位總數：2286\n     - 📈 每個資料表的平均列數：1,038.48\n     - 💾 總大小：207.15 MB（約略值）\n   - **bird-interact-full**: \n     - 📈 資料庫總數：22\n     - 📋 資料表總數：244\n     - 🔢 欄位總數：2011\n     - 📈 每個資料表的平均列數：1,121.19\n     - 💾 總大小：272.00 MB（約略值）\n\n\n## 📦 資料集詳情\n\n### 資料集說明\n\n- **資料庫：** 完整的 PostgreSQL 資料庫可從 [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) 及 [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view) 下載。\n- **data：** 每個資料實例包含以下主要部分：\n   - `selected_database`：資料庫名稱。  \n   - `query`：無歧義的使用者查詢。  \n   - `amb_user_query`：注入歧義的使用者查詢。\n   - `user_query_ambiguity`：注入到使用者查詢的歧義。\n   - `non_critical_ambiguity`：非關鍵性歧義，如順序、限制等。\n   - `knowledge_ambiguity`：由遮蔽外部知識產生的歧義。 \n   - `sol_sql`：標準解 SQL 解答。  \n   - `preprocess_sql`：在執行解答或預測前需執行的 SQL 查詢。  \n   - `clean_up_sql`：測試案例後還原資料庫變動的 SQL 查詢。  \n   - `test_cases`：驗證預測修正後 SQL 的一組測試案例。\n   - `follow_up`：標註的後續問題。\n   - `external_knowledge`：與特定任務相關的外部知識。\n\n- **evaluation：** 評估程式碼可在 [`./evaluation`](./evaluation) 目錄中取得。\n- **策劃者：** BIRD 團隊 & Google Cloud\n- **授權：** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)\n- **HuggingFace 資料集卡片：** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)\n  及 [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full)",
+    "Translation": "   \n   預期結果：\n   - **bird-interact-lite**: \n     - 📈 資料庫總數：18\n     - 📋 資料表總數：175\n     - 🔢 欄位總數：2286\n     - 📈 每個資料表平均列數：1,038.48\n     - 💾 總容量：207.15 MB（約略）\n   - **bird-interact-full**: \n     - 📈 資料庫總數：22\n     - 📋 資料表總數：244\n     - 🔢 欄位總數：2011\n     - 📈 每個資料表平均列數：1,121.19\n     - 💾 總容量：272.00 MB（約略）\n\n\n## 📦 數據集詳情\n\n### 數據集說明\n\n- **資料庫：** 完整的 PostgreSQL 資料庫可從 [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) 及 [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view) 下載。\n- **資料：** 每筆資料實例包含以下主要部分：\n   - `selected_database`：資料庫名稱。  \n   - `query`：明確的使用者查詢。  \n   - `amb_user_query`：帶有歧義的使用者查詢。\n   - `user_query_ambiguity`：注入至使用者查詢的歧義。\n   - `non_critical_ambiguity`：如排序、限制等非關鍵性歧義。\n   - `knowledge_ambiguity`：由外部知識遮蔽產生的歧義。 \n   - `sol_sql`：標準答案 SQL 解決方案。  \n   - `preprocess_sql`：在執行解決方案或預測前需執行的 SQL 查詢。  \n   - `clean_up_sql`：測試案例後還原資料庫變更的 SQL 查詢。  \n   - `test_cases`：用於驗證預測修正 SQL 的一組測試案例。\n   - `follow_up`：標註的後續問題。\n   - `external_knowledge`：與特定任務相關的外部知識。\n\n- **評估：** 評估程式碼於 [`./evaluation`](./evaluation) 目錄中提供。\n- **策劃單位：** BIRD 團隊 & Google Cloud\n- **授權：** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)\n- **HuggingFace 數據集卡片：** PostgreSQL 版本見 [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)\n  及 [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full)；SQLite 版本見 [mini-interact](https://huggingface.co/datasets/birdsql/mini-interact)。",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+        "originContent": "   ",
+        "translatedContent": "   "
+      },
+      {
+        "row": 2,
+        "rowsha": "B5pSKtG/+9GMzzpOYnLe7qrK6mhxroVzNZXAMDLU7hw=",
+        "originContent": "   Expected results:",
+        "translatedContent": "   預期結果："
+      },
+      {
+        "row": 3,
+        "rowsha": "FkBt4PLZIutayIU1YZJtJRqONA4bkIfhbQ275Yq+F5s=",
+        "originContent": "   - **bird-interact-lite**: ",
+        "translatedContent": "   - **bird-interact-lite**: "
+      },
+      {
+        "row": 4,
+        "rowsha": "5NWsT0Fd8R2v0vCGbwQKqvSwN3EhM1t4XrItZ4IyQq0=",
+        "originContent": "     - 📈 Total Databases: 18",
+        "translatedContent": "     - 📈 資料庫總數：18"
+      },
+      {
+        "row": 5,
+        "rowsha": "GxkB9TjFkjTTX7ePGuhRqlpSlH6sSUyesgmiaEDNM4s=",
+        "originContent": "     - 📋 Total Tables: 175",
+        "translatedContent": "     - 📋 資料表總數：175"
+      },
+      {
+        "row": 6,
+        "rowsha": "64NK/0JFIHOBULGy3WKnKPHhEkS+4lQrhVtsfO6n7LA=",
+        "originContent": "     - 🔢 Total Columns: 2286",
+        "translatedContent": "     - 🔢 欄位總數：2286"
+      },
+      {
+        "row": 7,
+        "rowsha": "vp0WOneltYTksEwVArBR77uaVP0nMGm65qwAyAYgQYQ=",
+        "originContent": "     - 📈 Avg Rows per Table: 1,038.48",
+        "translatedContent": "     - 📈 每個資料表平均列數：1,038.48"
+      },
+      {
+        "row": 8,
+        "rowsha": "smSM6RGIjqKiM6lSQbAwIbd+5ZvegnsC6Md/+O+p92o=",
+        "originContent": "     - 💾 Total Size: 207.15 MB (around)",
+        "translatedContent": "     - 💾 總容量：207.15 MB（約略）"
+      },
+      {
+        "row": 9,
+        "rowsha": "q97PZFA/39lTNwJk+iElAfEJ8GvYoZqsb0ikWfAPV0w=",
+        "originContent": "   - **bird-interact-full**: ",
+        "translatedContent": "   - **bird-interact-full**: "
+      },
+      {
+        "row": 10,
+        "rowsha": "RdvWgS8iUhAiF5quZdhTZBus0/m4rU7nqPh3LoKZ6x8=",
+        "originContent": "     - 📈 Total Databases: 22",
+        "translatedContent": "     - 📈 資料庫總數：22"
+      },
+      {
+        "row": 11,
+        "rowsha": "Mxos3+6xN1g+Da5EobFbmY/eHApVkRRmfEF2OW4RH3A=",
+        "originContent": "     - 📋 Total Tables: 244",
+        "translatedContent": "     - 📋 資料表總數：244"
+      },
+      {
+        "row": 12,
+        "rowsha": "1PoYS/otqkIuh9Jz/geFtvrHFHStUi2+8NE+UMA9K8A=",
+        "originContent": "     - 🔢 Total Columns: 2011",
+        "translatedContent": "     - 🔢 欄位總數：2011"
+      },
+      {
+        "row": 13,
+        "rowsha": "4EW0pGD4/KBIHDsNlFvK+POLaGR09I9BWl5eGftNlwE=",
+        "originContent": "     - 📈 Avg Rows per Table: 1,121.19",
+        "translatedContent": "     - 📈 每個資料表平均列數：1,121.19"
+      },
+      {
+        "row": 14,
+        "rowsha": "b5bo53OBUMszCF5iwS5PzApDi4vHki5mOoloknRFcgk=",
+        "originContent": "     - 💾 Total Size: 272.00 MB (around)",
+        "translatedContent": "     - 💾 總容量：272.00 MB（約略）"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "+k7Ca++d5jxjDrqQWYaSmQV+QrsPLeOVDWwp4LEOnLg=",
+        "originContent": "## 📦 Dataset Details",
+        "translatedContent": "## 📦 數據集詳情"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "0CAgopT4uCrcP2XugQo54SQ7+3o6EmaZDPuISb7ZpYs=",
+        "originContent": "### Dataset Description",
+        "translatedContent": "### 數據集說明"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "pkqV5xWW8I11T7Zl8mUQKLCjeKF4+mgKL0ur0oD13wg=",
+        "originContent": "- **Database:** The complete PostgreSQL database can be download from [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) and [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view).",
+        "translatedContent": "- **資料庫：** 完整的 PostgreSQL 資料庫可從 [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) 及 [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view) 下載。"
+      },
+      {
+        "row": 22,
+        "rowsha": "Rg/lq5RTpV9VpKctp3slYhtbuoFhbkfaorRPygzg6Gk=",
+        "originContent": "- **data:** Each data instance contain the following main parts:",
+        "translatedContent": "- **資料：** 每筆資料實例包含以下主要部分："
+      },
+      {
+        "row": 23,
+        "rowsha": "oeZ/uzqCsA5VNpsUV6Q5FUwcPz5hnWM75+LkGTHBx5Y=",
+        "originContent": "   - `selected_database`: The name of the database.  ",
+        "translatedContent": "   - `selected_database`：資料庫名稱。  "
+      },
+      {
+        "row": 24,
+        "rowsha": "oPNVshV/MIPpyhRk3j2Nxvx6eiSjlh78678fwhXHkyY=",
+        "originContent": "   - `query`: The unambiguous user query.  ",
+        "translatedContent": "   - `query`：明確的使用者查詢。  "
+      },
+      {
+        "row": 25,
+        "rowsha": "FCnlkL1lk997F3W0Z2i178PvvixkNotyQ/PDUSEBG3I=",
+        "originContent": "   - `amb_user_query`: The user query with injected ambiguities.",
+        "translatedContent": "   - `amb_user_query`：帶有歧義的使用者查詢。"
+      },
+      {
+        "row": 26,
+        "rowsha": "dwSIKvWoOZ0bAk3/MuxBQZx+roDRkZ8De8Z9EV1g+YE=",
+        "originContent": "   - `user_query_ambiguity`: The ambiguities injected into the user query.",
+        "translatedContent": "   - `user_query_ambiguity`：注入至使用者查詢的歧義。"
+      },
+      {
+        "row": 27,
+        "rowsha": "2uIaqS3MsNEQQa0yxeGCprcga3iAl7rbNcCeOhVqcms=",
+        "originContent": "   - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.",
+        "translatedContent": "   - `non_critical_ambiguity`：如排序、限制等非關鍵性歧義。"
+      },
+      {
+        "row": 28,
+        "rowsha": "jcfQ3RBzqQ5IoWI85TqetWQboWoj/TWcS2YjEGz1euw=",
+        "originContent": "   - `knowledge_ambiguity`: The ambiguities created by masked external knowledges. ",
+        "translatedContent": "   - `knowledge_ambiguity`：由外部知識遮蔽產生的歧義。 "
+      },
+      {
+        "row": 29,
+        "rowsha": "/i3/thp7p1thZ/xCsBw3OHgDabXZMsKgumrhx3ZwzjQ=",
+        "originContent": "   - `sol_sql`: The ground truth SQL solution.  ",
+        "translatedContent": "   - `sol_sql`：標準答案 SQL 解決方案。  "
+      },
+      {
+        "row": 30,
+        "rowsha": "c+FiZvziVNHQ0BSlQNBGyAERMve99Hh3QFKIpYMnmY4=",
+        "originContent": "   - `preprocess_sql`: SQL queries to run before executing the solution or prediction.  ",
+        "translatedContent": "   - `preprocess_sql`：在執行解決方案或預測前需執行的 SQL 查詢。  "
+      },
+      {
+        "row": 31,
+        "rowsha": "xRrHhJsIZKbVIUl3a4LFJeid+TCYKXtGm2FO2voDCJA=",
+        "originContent": "   - `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  ",
+        "translatedContent": "   - `clean_up_sql`：測試案例後還原資料庫變更的 SQL 查詢。  "
+      },
+      {
+        "row": 32,
+        "rowsha": "AN8KsW9EANalz2xbGaJpzkDyz8Piw1aD8GW5coktVLI=",
+        "originContent": "   - `test_cases`: A set of test cases to validate the predicted corrected SQL.",
+        "translatedContent": "   - `test_cases`：用於驗證預測修正 SQL 的一組測試案例。"
+      },
+      {
+        "row": 33,
+        "rowsha": "CJy/lmct2AT3OvidWiH5FLxFjM+3NIuJGemuO6IO3/I=",
+        "originContent": "   - `follow_up`: The labeled follow up questions.",
+        "translatedContent": "   - `follow_up`：標註的後續問題。"
+      },
+      {
+        "row": 34,
+        "rowsha": "rUHKXvHeVB4UqqvGBnj9yJY3C0rN/Oz3IsSbOVCSOLE=",
+        "originContent": "   - `external_knowledge`: The external knowledge related to the specific task.",
+        "translatedContent": "   - `external_knowledge`：與特定任務相關的外部知識。"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "hQpiCMxX9dK0D0byHCQ4cUtoa8tKtWMoWCxcRBrGSks=",
+        "originContent": "- **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.",
+        "translatedContent": "- **評估：** 評估程式碼於 [`./evaluation`](./evaluation) 目錄中提供。"
+      },
+      {
+        "row": 37,
+        "rowsha": "v59KK3oH49UautE6oU56wvhU8e75NEkRJddOGbaFnyo=",
+        "originContent": "- **Curated by:** BIRD Team & Google Cloud",
+        "translatedContent": "- **策劃單位：** BIRD 團隊 & Google Cloud"
+      },
+      {
+        "row": 38,
+        "rowsha": "1/kQI3qUNugGt6yUagQdmVhx1FDPb1fFeNnmxrbHjpM=",
+        "originContent": "- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)",
+        "translatedContent": "- **授權：** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+      },
+      {
+        "row": 39,
+        "rowsha": "EQ6KhGw1snJI5U6ZFWIjj/IpN04AkABGwoqpo5JQnkQ=",
+        "originContent": "- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)",
+        "translatedContent": "- **HuggingFace 數據集卡片：** PostgreSQL 版本見 [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)"
+      },
+      {
+        "row": 40,
+        "rowsha": "O8AjJTL2RWO1kYl3e3uSnI/e0cAoXdHF9HVGPc7mxug=",
+        "originContent": "  and [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full) for PostgreSQL; and [mini-interact](https://huggingface.co/datasets/birdsql/mini-interact) for SQLite.",
+        "translatedContent": "  及 [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full)；SQLite 版本見 [mini-interact](https://huggingface.co/datasets/birdsql/mini-interact)。"
+      }
+    ],
     "IsCodeBlock": false
   },
   {
@@ -1060,31 +1313,170 @@
   },
   {
     "Id": 30,
-    "Content": "```ultree\n.\n├── LICENSE\n├── README.md\n├── bird_interact_conv\n│   ├── ...\n│   └── README.md\n├── bird_interact_agent\n│   ├── ...\n│   └── README.md\n├── evaluation\n│   ├── docker-compose.yml\n│   ├── env\n│   ├── postgre_table_dumps\n│   ├── run\n│   └── src\n├── materials\n│   ├── ...\n└── requirements.txt\n```",
-    "ContentSha": "3hGRjUv79eJo0Be6wEGeNb27jitOp/mZW/K8px6rt3Y=",
+    "Content": "```ultree\n.\n├── LICENSE\n├── README.md\n├── BIRD-Interact-ADK\n│   ├── ...\n│   └── README.md\n├── bird_interact_conv\n│   ├── ...\n│   └── README.md\n├── bird_interact_agent\n│   ├── ...\n│   └── README.md\n├── evaluation\n│   ├── docker-compose.yml\n│   ├── env\n│   ├── postgre_table_dumps\n│   ├── run\n│   └── src\n├── materials\n│   ├── ...\n└── requirements.txt\n```",
+    "ContentSha": "oIOkgMQtVr0XPpX/nT1kEYboU/tVBSwzy8sKNlAP4Gg=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```ultree\n.\n├── LICENSE\n├── README.md\n├── bird_interact_conv\n│   ├── ...\n│   └── README.md\n├── bird_interact_agent\n│   ├── ...\n│   └── README.md\n├── evaluation\n│   ├── docker-compose.yml\n│   ├── env\n│   ├── postgre_table_dumps\n│   ├── run\n│   └── src\n├── materials\n│   ├── ...\n└── requirements.txt\n```",
-    "Status": "ok",
-    "RowTranslations": [],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 31,
-    "Content": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; and **c-interact** can be found in `./bird_interact_conv/README.md`.\n\n## 📋 Todo Lists\n\n- [x] Release lite version, bird-interact-lite (270).\n- [x] Release conversational version, bird-interact-conv.\n- [x] Release agent version, bird-interact-agent.\n- [x] Release Full bird-interact-full (600).\n- [ ] SFT / RL an User Simulator\n\n## Acknowledgement\nWe would like to express our sincere gratitude to **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, and Professor **Shinji Watanabe** for their fruitful discussions and valuable insights that helped improve this project.\n\n## Created By:\nBIRD Team & Google Cloud\n\n\n\n\n\n\n\n\n## Change Log\n\n- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.\n- [2025-10-21] 🐳 **Docker update**: Add the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually! Please pull the latest images from Docker Hub and recreates the containers, e.g. using `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`.\n- [2025-08-22]  🐛 **Bug Fix**: Fix the bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.\n",
-    "ContentSha": "FUDpoibc5+SlCdqkKbKiqw6XDUhbozdXH+mZ9WfdQF0=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "有關運行 **a-interact** 的詳細資訊可參見 `./bird_interact_agent/README.md`；而 **c-interact** 的資訊則可參見 `./bird_interact_conv/README.md`。\n\n## 📋 待辦清單\n\n- [x] 發佈精簡版，bird-interact-lite (270)。\n- [x] 發佈對話版，bird-interact-conv。\n- [x] 發佈代理版，bird-interact-agent。\n- [x] 發佈完整版 bird-interact-full (600)。\n- [ ] SFT / RL 一個用戶模擬器\n\n## 致謝\n我們謹向 **Irina Saparina**、**Mohammadreza Pourreza**、**Mehdi Bouzouina**、**Hailong Li**、**Jiatong Shi** 以及 **Shinji Watanabe** 教授表達誠摯的感謝，感謝他們富有成效的討論和寶貴的見解，有助於提升本專案。\n\n## 創建者：\nBIRD 團隊 & Google Cloud\n\n\n\n\n\n\n\n\n## 更新日誌\n\n- [2025-11-06] 🐛 **錯誤修復** & 🐳 **Docker 更新**：將 sqlglot 版本更新至 26.16.4，以修復用戶模擬器 SQL 解析器無法正確解析 SQL 的錯誤。你可以在 `bird_interact_eval` 環境中透過 `pip install sqlglot==26.16.4` 重新安裝來解決此問題。`bird_interact_eval` 映像檔也已更新，所以你也可以拉取並重建 `bird_interact_eval` 容器。\n- [2025-10-21] 🐳 **Docker 更新**：新增 Full DB Env 的 docker。我們已將 3 個 docker 映像檔（Base/Full DB Env 以及 `a-Interact` 和 `c-Interact` 的評估環境）推送到 Docker Hub，以簡化環境設置。無需手動下載 DB dumps 並自行建構映像檔！請從 Docker Hub 拉取最新映像檔並重新建立容器，例如使用 `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`。\n- [2025-08-22]  🐛 **錯誤修復**：修復在評估 phase-2 SQL 時，已儲存的 phase-1 SQL 無法成功執行，導致 Phase-2 成功率降低的錯誤。此錯誤僅影響 phase1 sql 對資料庫進行某些操作（如 CREATE table 等）的任務。\n",
+    "Translation": "```ultree\n.\n├── LICENSE\n├── README.md\n├── BIRD-Interact-ADK\n│   ├── ...\n│   └── README.md\n├── bird_interact_conv\n│   ├── ...\n│   └── README.md\n├── bird_interact_agent\n│   ├── ...\n│   └── README.md\n├── evaluation\n│   ├── docker-compose.yml\n│   ├── env\n│   ├── postgre_table_dumps\n│   ├── run\n│   └── src\n├── materials\n│   ├── ...\n└── requirements.txt\n```",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "GE0AusEadGNk/GYr/BF/88UKsGyopy2r8aCnyXHh4HI=",
-        "originContent": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; and **c-interact** can be found in `./bird_interact_conv/README.md`.",
-        "translatedContent": "有關運行 **a-interact** 的詳細資訊可參見 `./bird_interact_agent/README.md`；而 **c-interact** 的資訊則可參見 `./bird_interact_conv/README.md`。"
+        "rowsha": "eBv7zL5k1TMCOM1StXazHH570ymiakAwkC4j0AVtzpM=",
+        "originContent": "```ultree",
+        "translatedContent": "```ultree"
+      },
+      {
+        "row": 2,
+        "rowsha": "zbTuKuppzGqDMxu+ltwsqpopnSEynvsDNvwCqC4YOag=",
+        "originContent": ".",
+        "translatedContent": "."
+      },
+      {
+        "row": 3,
+        "rowsha": "qjFZW+CH7vA3mZn1LMINwV6O4bbCxoSaYNxQcl/8P2g=",
+        "originContent": "├── LICENSE",
+        "translatedContent": "├── LICENSE"
+      },
+      {
+        "row": 4,
+        "rowsha": "LoTAQfuqjLD8IIK02XWaCUrSST7uB7c6SX0sC1UqV4I=",
+        "originContent": "├── README.md",
+        "translatedContent": "├── README.md"
+      },
+      {
+        "row": 5,
+        "rowsha": "10NVJ7vcLBpn9q+ni1SOLTSQZ8hBkul07frGvDwqOhI=",
+        "originContent": "├── BIRD-Interact-ADK",
+        "translatedContent": "├── BIRD-Interact-ADK"
+      },
+      {
+        "row": 6,
+        "rowsha": "nXKu1VVyaf/uhkjN7z6RSTeeZoRhNnRzqY84MhYnCJY=",
+        "originContent": "│   ├── ...",
+        "translatedContent": "│   ├── ..."
+      },
+      {
+        "row": 7,
+        "rowsha": "PBuqlrGjnAeVzGL75CmS6Z6Efgkuoqlrp+a0pSX7nOA=",
+        "originContent": "│   └── README.md",
+        "translatedContent": "│   └── README.md"
+      },
+      {
+        "row": 8,
+        "rowsha": "e+LFjoxUGYOJKyqrbPhLw039cbaPmE9xext8WWWBGbM=",
+        "originContent": "├── bird_interact_conv",
+        "translatedContent": "├── bird_interact_conv"
+      },
+      {
+        "row": 9,
+        "rowsha": "/FthLrvkUUX7N/0MDpsdNOm5ukW/7z2I4QQPWujHxps=",
+        "originContent": "│   ├── ...",
+        "translatedContent": "│   ├── ..."
+      },
+      {
+        "row": 10,
+        "rowsha": "VGSslS2XSRjAj/mACUcqCUWhtN6ZtslYPoL9dzv14jM=",
+        "originContent": "│   └── README.md",
+        "translatedContent": "│   └── README.md"
+      },
+      {
+        "row": 11,
+        "rowsha": "nGl2ENeStw0G2gisxuefpyLXlfx5QTnz7UJCeMC4GQA=",
+        "originContent": "├── bird_interact_agent",
+        "translatedContent": "├── bird_interact_agent"
+      },
+      {
+        "row": 12,
+        "rowsha": "/FthLrvkUUX7N/0MDpsdNOm5ukW/7z2I4QQPWujHxps=",
+        "originContent": "│   ├── ...",
+        "translatedContent": "│   ├── ..."
+      },
+      {
+        "row": 13,
+        "rowsha": "VGSslS2XSRjAj/mACUcqCUWhtN6ZtslYPoL9dzv14jM=",
+        "originContent": "│   └── README.md",
+        "translatedContent": "│   └── README.md"
+      },
+      {
+        "row": 14,
+        "rowsha": "tMucDK/CQLCYCnTYc5dnlt4Znkuxo5N6Tn/xy7/3zX8=",
+        "originContent": "├── evaluation",
+        "translatedContent": "├── evaluation"
+      },
+      {
+        "row": 15,
+        "rowsha": "p1uv3noF50YVzYKMeIYN57LNUFPrSRB96Nk0RaQfRmk=",
+        "originContent": "│   ├── docker-compose.yml",
+        "translatedContent": "│   ├── docker-compose.yml"
+      },
+      {
+        "row": 16,
+        "rowsha": "D063pfXhcQ/wxqLeg4rK+BQ9G8UlKJ0rstboyU/OX20=",
+        "originContent": "│   ├── env",
+        "translatedContent": "│   ├── env"
+      },
+      {
+        "row": 17,
+        "rowsha": "Bucc8pFYSe5V1PcCgmXolWTNjItvBSc3BcTgl5B8yiw=",
+        "originContent": "│   ├── postgre_table_dumps",
+        "translatedContent": "│   ├── postgre_table_dumps"
+      },
+      {
+        "row": 18,
+        "rowsha": "YkFhRtZQdoHRWHFRWso+EMl/ZT86nzk9TksshvgZp4Y=",
+        "originContent": "│   ├── run",
+        "translatedContent": "│   ├── run"
+      },
+      {
+        "row": 19,
+        "rowsha": "8i2oQlcwKa2HbCy6oJ2GnbgqgkHWxIpkwesU8Sho1P4=",
+        "originContent": "│   └── src",
+        "translatedContent": "│   └── src"
+      },
+      {
+        "row": 20,
+        "rowsha": "C1rgYDVWb3F+/zJPBSuEPaxRhkOfBjTSUOkVayTs2go=",
+        "originContent": "├── materials",
+        "translatedContent": "├── materials"
+      },
+      {
+        "row": 21,
+        "rowsha": "/FthLrvkUUX7N/0MDpsdNOm5ukW/7z2I4QQPWujHxps=",
+        "originContent": "│   ├── ...",
+        "translatedContent": "│   ├── ..."
+      },
+      {
+        "row": 22,
+        "rowsha": "6nANypW2KXZhNpct/4WcqntssXjXUMey3MYj6/tQvhA=",
+        "originContent": "└── requirements.txt",
+        "translatedContent": "└── requirements.txt"
+      },
+      {
+        "row": 23,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; **c-interact** can be found in `./bird_interact_conv/README.md`; and the **ADK-based implementation** can be found in `./BIRD-Interact-ADK/README.md`.\n\n## 📋 Todo Lists\n\n- [x] Release lite version, bird-interact-lite (270).\n- [x] Release conversational version, bird-interact-conv.\n- [x] Release agent version, bird-interact-agent.\n- [x] Release Full bird-interact-full (600).\n- [x] Release ADK-based implementation, BIRD-Interact-ADK.\n- [ ] SFT / RL an User Simulator\n\n## Acknowledgement\nWe would like to express our sincere gratitude to **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, and Professor **Shinji Watanabe** for their fruitful discussions and valuable insights that helped improve this project.\n\n## Created By:\nBIRD Team & Google Cloud\n\n\n\n\n\n\n\n## Citation\n",
+    "ContentSha": "SWhLUf9FxSXF3JD1Pg80nFu1NB7Xb7zV6xREahGOAiI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "有關執行 **a-interact** 的詳細資訊可參見 `./bird_interact_agent/README.md`；**c-interact** 可參見 `./bird_interact_conv/README.md`；而 **基於 ADK 的實現** 可參見 `./BIRD-Interact-ADK/README.md`。\n\n## 📋 待辦事項清單\n\n- [x] 發布輕量版，bird-interact-lite (270)。\n- [x] 發布對話版，bird-interact-conv。\n- [x] 發布代理版，bird-interact-agent。\n- [x] 發布完整版，bird-interact-full (600)。\n- [x] 發布基於 ADK 的實現，BIRD-Interact-ADK。\n- [ ] SFT / RL 與用戶模擬器\n\n## 致謝\n我們誠摯感謝 **Irina Saparina**、**Mohammadreza Pourreza**、**Mehdi Bouzouina**、**Hailong Li**、**Jiatong Shi** 以及 **Shinji Watanabe** 教授，感謝他們的建設性討論與寶貴見解，幫助我們提升了本專案。\n\n## 製作團隊：\nBIRD 團隊 & Google Cloud\n\n\n\n\n\n\n\n## 引用\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0X3pqPbuJPkZPnZLIumfSpdH4fgLB+BBq4ihdxHrQWQ=",
+        "originContent": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; **c-interact** can be found in `./bird_interact_conv/README.md`; and the **ADK-based implementation** can be found in `./BIRD-Interact-ADK/README.md`.",
+        "translatedContent": "有關執行 **a-interact** 的詳細資訊可參見 `./bird_interact_agent/README.md`；**c-interact** 可參見 `./bird_interact_conv/README.md`；而 **基於 ADK 的實現** 可參見 `./BIRD-Interact-ADK/README.md`。"
       },
       {
         "row": 2,
@@ -1096,7 +1488,7 @@
         "row": 3,
         "rowsha": "f6chlfSVENLsNAyFyteH0qZqANkTbg9qD38E3rR7+l4=",
         "originContent": "## 📋 Todo Lists",
-        "translatedContent": "## 📋 待辦清單"
+        "translatedContent": "## 📋 待辦事項清單"
       },
       {
         "row": 4,
@@ -1108,73 +1500,73 @@
         "row": 5,
         "rowsha": "EL1NQH2bug6G0ymI/d6FG7PFV2GnkPXixeKmwZPR78w=",
         "originContent": "- [x] Release lite version, bird-interact-lite (270).",
-        "translatedContent": "- [x] 發佈精簡版，bird-interact-lite (270)。"
+        "translatedContent": "- [x] 發布輕量版，bird-interact-lite (270)。"
       },
       {
         "row": 6,
         "rowsha": "hKBdzfGYA7Z4jZ++QUac0jtKAk4XdrT5WpTUG30vQPQ=",
         "originContent": "- [x] Release conversational version, bird-interact-conv.",
-        "translatedContent": "- [x] 發佈對話版，bird-interact-conv。"
+        "translatedContent": "- [x] 發布對話版，bird-interact-conv。"
       },
       {
         "row": 7,
         "rowsha": "WfzwLUQQqs71qDxmOxFIOr3TUazlzzHDkM2e4UDJDn8=",
         "originContent": "- [x] Release agent version, bird-interact-agent.",
-        "translatedContent": "- [x] 發佈代理版，bird-interact-agent。"
+        "translatedContent": "- [x] 發布代理版，bird-interact-agent。"
       },
       {
         "row": 8,
         "rowsha": "tfR+oV/Tx2mEPN6r3D2jkGwWZXobjbuEMudF9OxNLv0=",
         "originContent": "- [x] Release Full bird-interact-full (600).",
-        "translatedContent": "- [x] 發佈完整版 bird-interact-full (600)。"
+        "translatedContent": "- [x] 發布完整版，bird-interact-full (600)。"
       },
       {
         "row": 9,
-        "rowsha": "vFAJSKqY7icL0MP2UvbRlITQrKGIlzdRt4TZvsoGFb0=",
-        "originContent": "- [ ] SFT / RL an User Simulator",
-        "translatedContent": "- [ ] SFT / RL 一個用戶模擬器"
+        "rowsha": "mDYQudS6unZYhqGl9aqfEovwaKC/AKuWLGYHfmxiFrg=",
+        "originContent": "- [x] Release ADK-based implementation, BIRD-Interact-ADK.",
+        "translatedContent": "- [x] 發布基於 ADK 的實現，BIRD-Interact-ADK。"
       },
       {
         "row": 10,
+        "rowsha": "vFAJSKqY7icL0MP2UvbRlITQrKGIlzdRt4TZvsoGFb0=",
+        "originContent": "- [ ] SFT / RL an User Simulator",
+        "translatedContent": "- [ ] SFT / RL 與用戶模擬器"
+      },
+      {
+        "row": 11,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 11,
+        "row": 12,
         "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
         "originContent": "## Acknowledgement",
         "translatedContent": "## 致謝"
       },
       {
-        "row": 12,
+        "row": 13,
         "rowsha": "m2QkSisvveyCZX6DzbZF2v3cmidtsWxZeJ2QRiUaFs4=",
         "originContent": "We would like to express our sincere gratitude to **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, and Professor **Shinji Watanabe** for their fruitful discussions and valuable insights that helped improve this project.",
-        "translatedContent": "我們謹向 **Irina Saparina**、**Mohammadreza Pourreza**、**Mehdi Bouzouina**、**Hailong Li**、**Jiatong Shi** 以及 **Shinji Watanabe** 教授表達誠摯的感謝，感謝他們富有成效的討論和寶貴的見解，有助於提升本專案。"
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "translatedContent": "我們誠摯感謝 **Irina Saparina**、**Mohammadreza Pourreza**、**Mehdi Bouzouina**、**Hailong Li**、**Jiatong Shi** 以及 **Shinji Watanabe** 教授，感謝他們的建設性討論與寶貴見解，幫助我們提升了本專案。"
       },
       {
         "row": 14,
-        "rowsha": "mhQeFc5wMr+mccgqoEwgaSGTbadrwRv17Z+l5irQ6EI=",
-        "originContent": "## Created By:",
-        "translatedContent": "## 創建者："
-      },
-      {
-        "row": 15,
-        "rowsha": "BcslIbMQUwitDZ/R23YsQQIVge1FMTXdOH6FqEchx/I=",
-        "originContent": "BIRD Team & Google Cloud",
-        "translatedContent": "BIRD 團隊 & Google Cloud"
-      },
-      {
-        "row": 16,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "mhQeFc5wMr+mccgqoEwgaSGTbadrwRv17Z+l5irQ6EI=",
+        "originContent": "## Created By:",
+        "translatedContent": "## 製作團隊："
+      },
+      {
+        "row": 16,
+        "rowsha": "BcslIbMQUwitDZ/R23YsQQIVge1FMTXdOH6FqEchx/I=",
+        "originContent": "BIRD Team & Google Cloud",
+        "translatedContent": "BIRD 團隊 & Google Cloud"
       },
       {
         "row": 17,
@@ -1220,36 +1612,146 @@
       },
       {
         "row": 24,
-        "rowsha": "Yy1L+liWEPiygBFNsm9+4WmZQmi0NpcYvH+ZHWiB74A=",
-        "originContent": "## Change Log",
-        "translatedContent": "## 更新日誌"
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "## 引用"
       },
       {
         "row": 25,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 32,
+    "Content": "```bibtex\n@inproceedings{\nhuo2026birdinteract,\ntitle={{BIRD}-{INTERACT}: Re-imagining Text-to-{SQL} Evaluation via Lens of Dynamic Interactions},\nauthor={Nan Huo and Xiaohan Xu and Jinyang Li and Per Jacobsson and Shipei Lin and Bowen Qin and Binyuan Hui and Xiaolong Li and Ge Qu and Shuzheng Si and Linheng Han and Edward Alexander and Xintong Zhu and Rui Qin and Ruihan Yu and Yiyao Jin and Feige Zhou and Weihao Zhong and Yun Chen and Hongyu Liu and Chenhao Ma and Fatma Ozcan and Yannis Papakonstantinou and Reynold Cheng},\nbooktitle={The Fourteenth International Conference on Learning Representations},\nyear={2026},\nurl={https://openreview.net/forum?id=nHrYBGujps}\n}\n```",
+    "ContentSha": "ArSX8P7mO2QlG5+suE5YDRNt4tGfaRC5dnkIwniBndw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@inproceedings{\nhuo2026birdinteract,\ntitle={{BIRD}-{INTERACT}: Re-imagining Text-to-{SQL} Evaluation via Lens of Dynamic Interactions},\nauthor={Nan Huo and Xiaohan Xu and Jinyang Li and Per Jacobsson and Shipei Lin and Bowen Qin and Binyuan Hui and Xiaolong Li and Ge Qu and Shuzheng Si and Linheng Han and Edward Alexander and Xintong Zhu and Rui Qin and Ruihan Yu and Yiyao Jin and Feige Zhou and Weihao Zhong and Yun Chen and Hongyu Liu and Chenhao Ma and Fatma Ozcan and Yannis Papakonstantinou and Reynold Cheng},\nbooktitle={The Fourteenth International Conference on Learning Representations},\nyear={2026},\nurl={https://openreview.net/forum?id=nHrYBGujps}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
       },
       {
-        "row": 26,
+        "row": 2,
+        "rowsha": "a41gvp9ljXe3n/DGTCbh/H1WaYS4oApt/l2rGBizMj0=",
+        "originContent": "@inproceedings{",
+        "translatedContent": "@inproceedings{"
+      },
+      {
+        "row": 3,
+        "rowsha": "J8GIoMUJheBiqjyYJWQHLghPUHQviBQhGBIu5dPCRYQ=",
+        "originContent": "huo2026birdinteract,",
+        "translatedContent": "huo2026birdinteract,"
+      },
+      {
+        "row": 4,
+        "rowsha": "XGnPGVTp+NaKDO92eA6YI4AkisFbPVEwpZF/xQGmBLI=",
+        "originContent": "title={{BIRD}-{INTERACT}: Re-imagining Text-to-{SQL} Evaluation via Lens of Dynamic Interactions},",
+        "translatedContent": "title={{BIRD}-{INTERACT}: Re-imagining Text-to-{SQL} Evaluation via Lens of Dynamic Interactions},"
+      },
+      {
+        "row": 5,
+        "rowsha": "8y4re8h87hd3bTeE50uafjmpZ39llDgrWDphld+8JpM=",
+        "originContent": "author={Nan Huo and Xiaohan Xu and Jinyang Li and Per Jacobsson and Shipei Lin and Bowen Qin and Binyuan Hui and Xiaolong Li and Ge Qu and Shuzheng Si and Linheng Han and Edward Alexander and Xintong Zhu and Rui Qin and Ruihan Yu and Yiyao Jin and Feige Zhou and Weihao Zhong and Yun Chen and Hongyu Liu and Chenhao Ma and Fatma Ozcan and Yannis Papakonstantinou and Reynold Cheng},",
+        "translatedContent": "author={Nan Huo and Xiaohan Xu and Jinyang Li and Per Jacobsson and Shipei Lin and Bowen Qin and Binyuan Hui and Xiaolong Li and Ge Qu and Shuzheng Si and Linheng Han and Edward Alexander and Xintong Zhu and Rui Qin and Ruihan Yu and Yiyao Jin and Feige Zhou and Weihao Zhong and Yun Chen and Hongyu Liu and Chenhao Ma and Fatma Ozcan and Yannis Papakonstantinou and Reynold Cheng},"
+      },
+      {
+        "row": 6,
+        "rowsha": "OhPjmMwNhSnj0bfmNyYWIEtSHe1C2JLO8Wn5B+P0qB4=",
+        "originContent": "booktitle={The Fourteenth International Conference on Learning Representations},",
+        "translatedContent": "booktitle={The Fourteenth International Conference on Learning Representations},"
+      },
+      {
+        "row": 7,
+        "rowsha": "pZDT0ZGqf48i7MntOFrhCIBdfEnDj0VfrT8p96Mpb94=",
+        "originContent": "year={2026},",
+        "translatedContent": "year={2026},"
+      },
+      {
+        "row": 8,
+        "rowsha": "tUbZLXY9+oSc58iAGRSd3MbE5qoDimiFsExE3nxyNvs=",
+        "originContent": "url={https://openreview.net/forum?id=nHrYBGujps}",
+        "translatedContent": "url={https://openreview.net/forum?id=nHrYBGujps}"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 33,
+    "Content": "\n\n## Change Log\n\n- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.\n- [2025-10-21] 🐳 **Docker update**: Add the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually! Please pull the latest images from Docker Hub and recreates the containers, e.g. using `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`.\n- [2025-08-22]  🐛 **Bug Fix**: Fix the bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.\n",
+    "ContentSha": "3nQKa18p3B7ZsTW9R6rM+hIsHD/8MJ13vf1LwcTn/yQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 變更日誌\n\n- [2025-11-06] 🐛 **錯誤修正** & 🐳 **Docker 更新**：將 sqlglot 版本更新至 26.16.4，以修復用戶模擬器的 SQL 解析器無法正確解析 SQL 的錯誤。你可以在 `bird_interact_eval` 環境中透過 `pip install sqlglot==26.16.4` 重新安裝來修復此問題。`bird_interact_eval` 映像檔也已更新，因此你也可以拉取並重新建立 `bird_interact_eval` 容器。\n- [2025-10-21] 🐳 **Docker 更新**：新增 Full DB Env 的 Docker。並且我們已將 3 個 Docker 映像檔（Base/Full DB Env，以及 `a-Interact` 和 `c-Interact` 的評估環境）推送至 Docker Hub，以方便環境設定。不需再下載 DB dumps 或手動建立映像檔！請從 Docker Hub 拉取最新映像並重新建立容器，例如使用 `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`。\n- [2025-08-22]  🐛 **錯誤修正**：修正評估 Phase-2 SQL 時，儲存的 Phase-1 SQL 無法成功執行，導致 Phase-2 成功率降低的錯誤。這個錯誤僅影響 Phase1 SQL 對資料庫進行某些操作的任務，例如 CREATE table 等。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 變更日誌"
+      },
+      {
+        "row": 3,
+        "rowsha": "Yy1L+liWEPiygBFNsm9+4WmZQmi0NpcYvH+ZHWiB74A=",
+        "originContent": "## Change Log",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [2025-11-06] 🐛 **錯誤修正** & 🐳 **Docker 更新**：將 sqlglot 版本更新至 26.16.4，以修復用戶模擬器的 SQL 解析器無法正確解析 SQL 的錯誤。你可以在 `bird_interact_eval` 環境中透過 `pip install sqlglot==26.16.4` 重新安裝來修復此問題。`bird_interact_eval` 映像檔也已更新，因此你也可以拉取並重新建立 `bird_interact_eval` 容器。"
+      },
+      {
+        "row": 5,
         "rowsha": "Z1U72G8iUw35F0VXT/QQ4hHQgL/nwD4xFuSMH8lzboc=",
         "originContent": "- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.",
-        "translatedContent": "- [2025-11-06] 🐛 **錯誤修復** & 🐳 **Docker 更新**：將 sqlglot 版本更新至 26.16.4，以修復用戶模擬器 SQL 解析器無法正確解析 SQL 的錯誤。你可以在 `bird_interact_eval` 環境中透過 `pip install sqlglot==26.16.4` 重新安裝來解決此問題。`bird_interact_eval` 映像檔也已更新，所以你也可以拉取並重建 `bird_interact_eval` 容器。"
+        "translatedContent": "- [2025-10-21] 🐳 **Docker 更新**：新增 Full DB Env 的 Docker。並且我們已將 3 個 Docker 映像檔（Base/Full DB Env，以及 `a-Interact` 和 `c-Interact` 的評估環境）推送至 Docker Hub，以方便環境設定。不需再下載 DB dumps 或手動建立映像檔！請從 Docker Hub 拉取最新映像並重新建立容器，例如使用 `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`。"
       },
       {
-        "row": 27,
+        "row": 6,
         "rowsha": "AOso64cmDJc8FxEExtaKElXz++MYq2Lc8TtifY/dAWY=",
         "originContent": "- [2025-10-21] 🐳 **Docker update**: Add the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually! Please pull the latest images from Docker Hub and recreates the containers, e.g. using `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`.",
-        "translatedContent": "- [2025-10-21] 🐳 **Docker 更新**：新增 Full DB Env 的 docker。我們已將 3 個 docker 映像檔（Base/Full DB Env 以及 `a-Interact` 和 `c-Interact` 的評估環境）推送到 Docker Hub，以簡化環境設置。無需手動下載 DB dumps 並自行建構映像檔！請從 Docker Hub 拉取最新映像檔並重新建立容器，例如使用 `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`。"
+        "translatedContent": "- [2025-08-22]  🐛 **錯誤修正**：修正評估 Phase-2 SQL 時，儲存的 Phase-1 SQL 無法成功執行，導致 Phase-2 成功率降低的錯誤。這個錯誤僅影響 Phase1 SQL 對資料庫進行某些操作的任務，例如 CREATE table 等。"
       },
       {
-        "row": 28,
+        "row": 7,
         "rowsha": "H6Zyonsv0aL1AyBf5xeZKrbsY19tVfLl445zOVlMBJc=",
         "originContent": "- [2025-08-22]  🐛 **Bug Fix**: Fix the bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
-        "translatedContent": "- [2025-08-22]  🐛 **錯誤修復**：修復在評估 phase-2 SQL 時，已儲存的 phase-1 SQL 無法成功執行，導致 Phase-2 成功率降低的錯誤。此錯誤僅影響 phase1 sql 對資料庫進行某些操作（如 CREATE table 等）的任務。"
+        "translatedContent": ""
       },
       {
-        "row": 29,
+        "row": 8,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
