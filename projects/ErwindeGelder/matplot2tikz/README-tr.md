@@ -240,6 +240,12 @@ Eğer bu mümkün değilse, bir geçici çözüm olarak aşağıdaki kodu üçü
    # If tikzplotlib is used in this library, it will automatically use matplot2tikz instead.
    ```
 
+Eğer kendi betiklerinizi tikzplotlib'den güncelliyorsanız, basitçe bir ithalat takma adı kullanabilirsiniz:
+
+   ```python
+   import matplot2tikz as tikzplotlib
+   ```
+
 ## Katkıda Bulunma
 
 Hatalarla karşılaşırsanız, katkıda bulunmak isterseniz, matplot2tikz'in neler yapabildiğine dair güzel örnekleriniz varsa veya sadece daha fazla bilgi arıyorsanız, lütfen
@@ -291,6 +297,6 @@ lisansı](https://en.wikipedia.org/wiki/MIT_License) altında yayımlanmıştır
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-04
 
 ---

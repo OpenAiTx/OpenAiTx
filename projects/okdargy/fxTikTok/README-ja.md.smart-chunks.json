@@ -1,0 +1,871 @@
+[
+  {
+    "Id": 1,
+    "Content": "# fxTikTok\n\nEmbed TikTok videos and slideshows on Discord with just `s/i/n`\n\n> [!NOTE]  \n> Have a feature you want to see in fxTikTok or want to report a bug? Make an issue! I would love to hear your feedback.\n\n## 📸 Screenshots\n\n<details>\n  <summary>Click here to preview how fxTikTok looks in action</summary>\n\n| <img src=\"/.github/readme/compare.png\" alt=\"Video Preview\" height=\"400px\" /> |\n| :--------------------------------------------------------------------------: |\n|          Comparing `tiktok.com` vs. `tnktok.com` embeds on Discord           |\n\n| <img src=\"/.github/readme/slideshow.png\" alt=\"Slideshow Preview\" /> |\n| :-----------------------------------------------------------------: |\n|                          Slideshow embeds                           |\n\n| <img src=\"/.github/readme/direct.png\" alt=\"Direct Preview\" height=\"400px\" /> |\n| :--------------------------------------------------------------------------: |\n|                          Direct image/video support                          |\n\n</details>\n\n## 📖 Usage\n\nUsing fxTikTok is easy on Discord. Fix ugly and unresponsive embeds by sending your TikTok link and then typing `s/i/n`\n\n<details>\n  <summary>👁️ Visual learner? Click here to see a GIF tutorial</summary>\n\n  <img src=\"https://raw.githubusercontent.com/okdargy/fxTikTok/hono-rewrite/.github/readme/introduction.gif\" alt=\"Introduction GIF\" height=\"500px\" style=\"border-radius:2%\" />\n</details>\n\n### How does this work?\n\nWhen you send `s/i/n` in Discord, it modifies your most recent message using the [sed](https://www.gnu.org/software/sed/manual/sed.html) format. Specifically, it replaces the first occurrence of the second parameter (`i`) in the message with the third parameter (`n`).\n",
+    "ContentSha": "osc+Qk681xi8zhXXlN+0LccgubJrSo2G1sSDQ0UvQt0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# fxTikTok\n\nDiscord上でTikTokの動画やスライドショーを `s/i/n` だけで埋め込み表示\n\n> [!NOTE]  \n> fxTikTokに欲しい機能やバグの報告がありますか？Issueを作成してください！皆さんのフィードバックをお待ちしています。\n\n## 📸 スクリーンショット\n\n<details>\n  <summary>fxTikTokの動作イメージをプレビューするにはここをクリック</summary>\n\n| <img src=\"/.github/readme/compare.png\" alt=\"Video Preview\" height=\"400px\" /> |\n| :--------------------------------------------------------------------------: |\n|          Discord上での `tiktok.com` と `tnktok.com` 埋め込みの比較           |\n\n| <img src=\"/.github/readme/slideshow.png\" alt=\"Slideshow Preview\" /> |\n| :-----------------------------------------------------------------: |\n|                          スライドショーの埋め込み表示                          |\n\n| <img src=\"/.github/readme/direct.png\" alt=\"Direct Preview\" height=\"400px\" /> |\n| :--------------------------------------------------------------------------: |\n|                          直接画像/動画のサポート                           |\n\n</details>\n\n## 📖 使い方\n\nDiscordでのfxTikTokの使用は簡単です。醜くて反応しない埋め込みを直すには、TikTokリンクを送信してから `s/i/n` と入力してください。\n\n<details>\n  <summary>👁️ 視覚的に学びたい？GIFチュートリアルを見るにはここをクリック</summary>\n\n  <img src=\"https://raw.githubusercontent.com/okdargy/fxTikTok/hono-rewrite/.github/readme/introduction.gif\" alt=\"Introduction GIF\" height=\"500px\" style=\"border-radius:2%\" />\n</details>\n\n### これはどう動くの？\n\nDiscordで `s/i/n` を送信すると、[sed](https://www.gnu.org/software/sed/manual/sed.html)形式を使って直近のメッセージを修正します。具体的には、メッセージ内で2番目のパラメータ（`i`）の最初の出現を3番目のパラメータ（`n`）に置き換えます。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QdoDDo20zdeIcGasFVuqNiChdwHZButfF2/Lz2zmn8M=",
+        "originContent": "# fxTikTok",
+        "translatedContent": "# fxTikTok"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "mKl9H0VuAzOBtEIPWjWA3Gb+0AiQoJpBfEAsRl16L5A=",
+        "originContent": "Embed TikTok videos and slideshows on Discord with just `s/i/n`",
+        "translatedContent": "Discord上でTikTokの動画やスライドショーを `s/i/n` だけで埋め込み表示"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "v3fX4RjxFmnVGouLaQUO99pcF4wnQ7S2jn5cai1aM0I=",
+        "originContent": "> [!NOTE]  ",
+        "translatedContent": "> [!NOTE]  "
+      },
+      {
+        "row": 6,
+        "rowsha": "QO/nlzLTz2eBuMvrsBrFpU6Soe0zcFw7G7TA9Tg5B4A=",
+        "originContent": "> Have a feature you want to see in fxTikTok or want to report a bug? Make an issue! I would love to hear your feedback.",
+        "translatedContent": "> fxTikTokに欲しい機能やバグの報告がありますか？Issueを作成してください！皆さんのフィードバックをお待ちしています。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "NXtpR9o/OxK0/GuwYts3jaIeOhWjWcqdgmsn7axM/io=",
+        "originContent": "## 📸 Screenshots",
+        "translatedContent": "## 📸 スクリーンショット"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 11,
+        "rowsha": "ELZbsfhAbanzl4NpNjFn5KRVUPRmUmx6s05XttxGmFs=",
+        "originContent": "  <summary>Click here to preview how fxTikTok looks in action</summary>",
+        "translatedContent": "  <summary>fxTikTokの動作イメージをプレビューするにはここをクリック</summary>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "zt/4QgyfaGXDBfeI7nkOgaaRXnxvV+X6MOSgPdcYpXI=",
+        "originContent": "| <img src=\"/.github/readme/compare.png\" alt=\"Video Preview\" height=\"400px\" /> |",
+        "translatedContent": "| <img src=\"/.github/readme/compare.png\" alt=\"Video Preview\" height=\"400px\" /> |"
+      },
+      {
+        "row": 14,
+        "rowsha": "ENtPCiuvZ+r8aU6s/32M+c502A4ol9vmoWipr4zc69Q=",
+        "originContent": "| :--------------------------------------------------------------------------: |",
+        "translatedContent": "| :--------------------------------------------------------------------------: |"
+      },
+      {
+        "row": 15,
+        "rowsha": "NaieMWACYjDwjwJ1gccHcWCqr2w2oV3KgOkJtqV1mq8=",
+        "originContent": "|          Comparing `tiktok.com` vs. `tnktok.com` embeds on Discord           |",
+        "translatedContent": "|          Discord上での `tiktok.com` と `tnktok.com` 埋め込みの比較           |"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "566WumsTka5KqugDMETpw9/dSiwbf6YOhIMIio40gEA=",
+        "originContent": "| <img src=\"/.github/readme/slideshow.png\" alt=\"Slideshow Preview\" /> |",
+        "translatedContent": "| <img src=\"/.github/readme/slideshow.png\" alt=\"Slideshow Preview\" /> |"
+      },
+      {
+        "row": 18,
+        "rowsha": "djCLPXg/iaQNw4t70h1WJIYIzGub1bv5HfBHPaY+XZ0=",
+        "originContent": "| :-----------------------------------------------------------------: |",
+        "translatedContent": "| :-----------------------------------------------------------------: |"
+      },
+      {
+        "row": 19,
+        "rowsha": "CPB2oywucdphfJGZOvnp+dCek/yPS287GYgjO1BUZJw=",
+        "originContent": "|                          Slideshow embeds                           |",
+        "translatedContent": "|                          スライドショーの埋め込み表示                          |"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "xIzrI43bJWAt7U2N3Wd1yz+uwv9+y9W1ApJbi4ka+d4=",
+        "originContent": "| <img src=\"/.github/readme/direct.png\" alt=\"Direct Preview\" height=\"400px\" /> |",
+        "translatedContent": "| <img src=\"/.github/readme/direct.png\" alt=\"Direct Preview\" height=\"400px\" /> |"
+      },
+      {
+        "row": 22,
+        "rowsha": "ENtPCiuvZ+r8aU6s/32M+c502A4ol9vmoWipr4zc69Q=",
+        "originContent": "| :--------------------------------------------------------------------------: |",
+        "translatedContent": "| :--------------------------------------------------------------------------: |"
+      },
+      {
+        "row": 23,
+        "rowsha": "hqsNWPMC/Q6G7uPaEciLtwfrjBVPPYmxzDxFu93B/NY=",
+        "originContent": "|                          Direct image/video support                          |",
+        "translatedContent": "|                          直接画像/動画のサポート                           |"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "0Pi/hogznYJAwf7Pn3D9P4JSDWx85w93W10c+PCUZbQ=",
+        "originContent": "## 📖 Usage",
+        "translatedContent": "## 📖 使い方"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "qMlYjbdD9J5ol7m8eS4vzSL9YlUPej7TFXte+kKvZzg=",
+        "originContent": "Using fxTikTok is easy on Discord. Fix ugly and unresponsive embeds by sending your TikTok link and then typing `s/i/n`",
+        "translatedContent": "DiscordでのfxTikTokの使用は簡単です。醜くて反応しない埋め込みを直すには、TikTokリンクを送信してから `s/i/n` と入力してください。"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 32,
+        "rowsha": "6SfNA562IEK8rjxsB/G4B+DELdrCBrnvP0k7FxVgw1Y=",
+        "originContent": "  <summary>👁️ Visual learner? Click here to see a GIF tutorial</summary>",
+        "translatedContent": "  <summary>👁️ 視覚的に学びたい？GIFチュートリアルを見るにはここをクリック</summary>"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "kK1uQDJ/VnEUD1P7qb79Xb7sSBZ2V4gfbrAA6ohS3Ww=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/okdargy/fxTikTok/hono-rewrite/.github/readme/introduction.gif\" alt=\"Introduction GIF\" height=\"500px\" style=\"border-radius:2%\" />",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/okdargy/fxTikTok/hono-rewrite/.github/readme/introduction.gif\" alt=\"Introduction GIF\" height=\"500px\" style=\"border-radius:2%\" />"
+      },
+      {
+        "row": 35,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "Kx7oUnHXo9KLoPGfZQzQAdSmF0bFpb2P6rCfl/WwfX0=",
+        "originContent": "### How does this work?",
+        "translatedContent": "### これはどう動くの？"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "X8IWKier4ADSNKYaR4wIvF7eF9Goh+hNihFHNOSyohk=",
+        "originContent": "When you send `s/i/n` in Discord, it modifies your most recent message using the [sed](https://www.gnu.org/software/sed/manual/sed.html) format. Specifically, it replaces the first occurrence of the second parameter (`i`) in the message with the third parameter (`n`).",
+        "translatedContent": "Discordで `s/i/n` を送信すると、[sed](https://www.gnu.org/software/sed/manual/sed.html)形式を使って直近のメッセージを修正します。具体的には、メッセージ内で2番目のパラメータ（`i`）の最初の出現を3番目のパラメータ（`n`）に置き換えます。"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "|     Before     |     After      |\n| :------------: | :------------: |\n| t**i**ktok.com | t**n**ktok.com |\n\n> [!TIP]\n> If you run a Discord server, I highly recommend adding [FixTweetBot](https://github.com/Kyrela/FixTweetBot) to your server. It automatically modifies links to use embed fixers like fxTikTok, and is highly customizable.\n\n### Using Direct Embeds\n\nDon't want all that statistic clutter on your embed and only want the video or image? Simply change your URL to `d.tnktok.com`\n\n|         Before         |        After         |\n| :--------------------: | :------------------: |\n| **www**.t**i**ktok.com | **d**.t**n**ktok.com |\n\n> Alternatively, you can also set `isDirect` to true thru the URL query by adding `?isDirect=true` at the end of your URL\n\n### \"I don't see the video's caption!\"\n\nBy default, we put the description into the `og:description` tag, but Discord removes that from the embed if there's a video inside the embed. We decided not to add it to the top like what [tfxktok.com](https://tfxktok.com) does to prevent the embed from getting too cluttered with hashtags.\n\nHowever, we want to give users the option to add it in case it brings additional context to the video. You can change your URL to `a.tnktok.com` to add the description to the top.\n\n|         Before         |        After         |\n| :--------------------: | :------------------: |\n| **www**.t**i**ktok.com | **a**.t**n**ktok.com |\n\n> Alternatively, you can also set `addDesc` to true thru the URL query by adding `?addDesc=true` at the end of your URL\n\n### Changing to High Quality\n\nTikTok supports H.265/HEVC (High Efficiency Video Coding) which offers significantly better quality at the same file size compared to H.264, at the cost of compatibility. By default, we use H.264 quality since [many users report issues with embeds breaking with H.265](https://github.com/okdargy/fxTikTok/issues/14), but support enabling H.265.\n\nTo enable high quality H.265 playback, add `?hq=true` or use `hq.tnktok.com`:\n| Before | After |\n| :--------------------: | :------------------: |\n| **www**.t**i**ktok.com | **hq**.t**n**ktok.com |\n\n### Combining Modes\n",
+    "ContentSha": "uaDv2Z3J/DfdHKvfxOY7uFxBa8Bij8y/eVwsgkHvkYM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "|     変更前     |     変更後      |\n| :------------: | :------------: |\n| t**i**ktok.com | t**n**ktok.com |\n\n> [!TIP]\n> Discordサーバーを運営している場合は、[FixTweetBot](https://github.com/Kyrela/FixTweetBot)をサーバーに追加することを強くお勧めします。これはリンクを自動的にfxTikTokのような埋め込み修正ツールに変更し、高度にカスタマイズ可能です。\n\n### 直接埋め込みを使う\n\n統計情報のゴチャゴチャが埋め込みに表示されるのを避けて、動画や画像だけを表示したいですか？単にURLを `d.tnktok.com` に変更してください。\n\n|         変更前         |        変更後         |\n| :--------------------: | :------------------: |\n| **www**.t**i**ktok.com | **d**.t**n**ktok.com |\n\n> または、URLのクエリパラメータで `?isDirect=true` を追加して `isDirect` をtrueに設定することもできます。\n\n### 「動画のキャプションが見えません！」\n\nデフォルトでは、説明文を `og:description` タグに入れていますが、Discordは埋め込み内に動画がある場合、そのタグを埋め込みから削除します。[tfxktok.com](https://tfxktok.com)がやっているように、ハッシュタグで埋め込みが煩雑になるのを防ぐために上部に追加しないことにしました。\n\nしかし、動画に追加の文脈を与える場合があるため、ユーザーが説明文を追加するオプションを提供したいと思います。URLを `a.tnktok.com` に変更すると説明文を上部に追加できます。\n\n|         変更前         |        変更後         |\n| :--------------------: | :------------------: |\n| **www**.t**i**ktok.com | **a**.t**n**ktok.com |\n\n> または、URLのクエリパラメータで `?addDesc=true` を追加して `addDesc` をtrueに設定することもできます。\n\n### 高画質に変更する\n\nTikTokはH.265/HEVC（高効率ビデオコーディング）をサポートしており、同じファイルサイズでH.264よりもはるかに高い画質を提供しますが、互換性の問題があります。多くのユーザーからH.265で埋め込みが壊れる問題が報告されているため、デフォルトではH.264画質を使用していますが、H.265を有効にすることも可能です。\n\n高画質のH.265再生を有効にするには、`?hq=true` を追加するか、`hq.tnktok.com` を使用してください：\n| 変更前 | 変更後 |\n| :--------------------: | :------------------: |\n| **www**.t**i**ktok.com | **hq**.t**n**ktok.com |\n\n### モードの組み合わせ\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ROvx8Z+8wzb/re1QLf4CtjxyqJUgsrXeDozmmHTA0z8=",
+        "originContent": "|     Before     |     After      |",
+        "translatedContent": "|     変更前     |     変更後      |"
+      },
+      {
+        "row": 2,
+        "rowsha": "lgcZ/KXq19OqVbiBOQdlnuhvabg1tgmL9NuRqZ9q8+Y=",
+        "originContent": "| :------------: | :------------: |",
+        "translatedContent": "| :------------: | :------------: |"
+      },
+      {
+        "row": 3,
+        "rowsha": "cjObuhTK6HKWItyXH8bxZ4S2eDeSbfpaPwiAUnnfTH8=",
+        "originContent": "| t**i**ktok.com | t**n**ktok.com |",
+        "translatedContent": "| t**i**ktok.com | t**n**ktok.com |"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+        "originContent": "> [!TIP]",
+        "translatedContent": "> [!TIP]"
+      },
+      {
+        "row": 6,
+        "rowsha": "NgGnP7/9aj2Zth4yJPVTtbf7rPC/G1oC90TRoB/wjqk=",
+        "originContent": "> If you run a Discord server, I highly recommend adding [FixTweetBot](https://github.com/Kyrela/FixTweetBot) to your server. It automatically modifies links to use embed fixers like fxTikTok, and is highly customizable.",
+        "translatedContent": "> Discordサーバーを運営している場合は、[FixTweetBot](https://github.com/Kyrela/FixTweetBot)をサーバーに追加することを強くお勧めします。これはリンクを自動的にfxTikTokのような埋め込み修正ツールに変更し、高度にカスタマイズ可能です。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "7xyvJ70ZQj3HeTT4AFPXHzvIB6lFTTvxV2WpJV5S7iA=",
+        "originContent": "### Using Direct Embeds",
+        "translatedContent": "### 直接埋め込みを使う"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "gythoZgckoAeZVPYsbrRmYG+m6APQ9lVfFYvm2hMHBI=",
+        "originContent": "Don't want all that statistic clutter on your embed and only want the video or image? Simply change your URL to `d.tnktok.com`",
+        "translatedContent": "統計情報のゴチャゴチャが埋め込みに表示されるのを避けて、動画や画像だけを表示したいですか？単にURLを `d.tnktok.com` に変更してください。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Yq2wPPnCXy301hjHCKFQIxODY4Rioi4Pr3L3gt9kyfM=",
+        "originContent": "|         Before         |        After         |",
+        "translatedContent": "|         変更前         |        変更後         |"
+      },
+      {
+        "row": 13,
+        "rowsha": "cThB3GOhCr9cvISVUwBovQUuW01FBtP9Q6pd77VGVbA=",
+        "originContent": "| :--------------------: | :------------------: |",
+        "translatedContent": "| :--------------------: | :------------------: |"
+      },
+      {
+        "row": 14,
+        "rowsha": "TU27i2j5QE+Hzn0OCHQz4L3dJTvX925lsIFfcmIZ++s=",
+        "originContent": "| **www**.t**i**ktok.com | **d**.t**n**ktok.com |",
+        "translatedContent": "| **www**.t**i**ktok.com | **d**.t**n**ktok.com |"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "j1UTu6udd9Braucj/hr2mXZi6e0yhcktkyk3fRd21Dk=",
+        "originContent": "> Alternatively, you can also set `isDirect` to true thru the URL query by adding `?isDirect=true` at the end of your URL",
+        "translatedContent": "> または、URLのクエリパラメータで `?isDirect=true` を追加して `isDirect` をtrueに設定することもできます。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "4YWD/+z2ihXFN7QZ5v3N83uOx2BdRzxVgeNn6TMT7Gs=",
+        "originContent": "### \"I don't see the video's caption!\"",
+        "translatedContent": "### 「動画のキャプションが見えません！」"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "BY2sPWie9p+fieQQdjeNg5L3gLSxRgItaB49HTh0P9U=",
+        "originContent": "By default, we put the description into the `og:description` tag, but Discord removes that from the embed if there's a video inside the embed. We decided not to add it to the top like what [tfxktok.com](https://tfxktok.com) does to prevent the embed from getting too cluttered with hashtags.",
+        "translatedContent": "デフォルトでは、説明文を `og:description` タグに入れていますが、Discordは埋め込み内に動画がある場合、そのタグを埋め込みから削除します。[tfxktok.com](https://tfxktok.com)がやっているように、ハッシュタグで埋め込みが煩雑になるのを防ぐために上部に追加しないことにしました。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "eRETuJNrN18+B3JcSnvcbZrxOuyQl3Mpxbh2AzcLriY=",
+        "originContent": "However, we want to give users the option to add it in case it brings additional context to the video. You can change your URL to `a.tnktok.com` to add the description to the top.",
+        "translatedContent": "しかし、動画に追加の文脈を与える場合があるため、ユーザーが説明文を追加するオプションを提供したいと思います。URLを `a.tnktok.com` に変更すると説明文を上部に追加できます。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "Yq2wPPnCXy301hjHCKFQIxODY4Rioi4Pr3L3gt9kyfM=",
+        "originContent": "|         Before         |        After         |",
+        "translatedContent": "|         変更前         |        変更後         |"
+      },
+      {
+        "row": 25,
+        "rowsha": "cThB3GOhCr9cvISVUwBovQUuW01FBtP9Q6pd77VGVbA=",
+        "originContent": "| :--------------------: | :------------------: |",
+        "translatedContent": "| :--------------------: | :------------------: |"
+      },
+      {
+        "row": 26,
+        "rowsha": "X/ZDPlAzGOatshP9we44qn2/LW2nUvcmYdyltlyowFg=",
+        "originContent": "| **www**.t**i**ktok.com | **a**.t**n**ktok.com |",
+        "translatedContent": "| **www**.t**i**ktok.com | **a**.t**n**ktok.com |"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "Dnyesw182QUQ8xhUo40beEqN/Kvs6GMg8liacNPlJOI=",
+        "originContent": "> Alternatively, you can also set `addDesc` to true thru the URL query by adding `?addDesc=true` at the end of your URL",
+        "translatedContent": "> または、URLのクエリパラメータで `?addDesc=true` を追加して `addDesc` をtrueに設定することもできます。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "Adjo3ImqJTP+nsuVw65mLQofZnXI0Z6xhCVdxkgMBUw=",
+        "originContent": "### Changing to High Quality",
+        "translatedContent": "### 高画質に変更する"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "esHRU1nxLqXFwwt6wxzXRHmjVFBj+PiqdsUF+FKUadE=",
+        "originContent": "TikTok supports H.265/HEVC (High Efficiency Video Coding) which offers significantly better quality at the same file size compared to H.264, at the cost of compatibility. By default, we use H.264 quality since [many users report issues with embeds breaking with H.265](https://github.com/okdargy/fxTikTok/issues/14), but support enabling H.265.",
+        "translatedContent": "TikTokはH.265/HEVC（高効率ビデオコーディング）をサポートしており、同じファイルサイズでH.264よりもはるかに高い画質を提供しますが、互換性の問題があります。多くのユーザーからH.265で埋め込みが壊れる問題が報告されているため、デフォルトではH.264画質を使用していますが、H.265を有効にすることも可能です。"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "E1Rjqq6vwzFTPvTXsA975+5ZCGebbt6ayIPgPVQ4usc=",
+        "originContent": "To enable high quality H.265 playback, add `?hq=true` or use `hq.tnktok.com`:",
+        "translatedContent": "高画質のH.265再生を有効にするには、`?hq=true` を追加するか、`hq.tnktok.com` を使用してください："
+      },
+      {
+        "row": 35,
+        "rowsha": "m4PpJSHh4b/8md8yPSfWMOmpBKEDfriCX4o9710jGk8=",
+        "originContent": "| Before | After |",
+        "translatedContent": "| 変更前 | 変更後 |"
+      },
+      {
+        "row": 36,
+        "rowsha": "cThB3GOhCr9cvISVUwBovQUuW01FBtP9Q6pd77VGVbA=",
+        "originContent": "| :--------------------: | :------------------: |",
+        "translatedContent": "| :--------------------: | :------------------: |"
+      },
+      {
+        "row": 37,
+        "rowsha": "V/WsHSTd/nyaTsuOlxSyJ6WbzJCextPuhW0ePiUPU9Y=",
+        "originContent": "| **www**.t**i**ktok.com | **hq**.t**n**ktok.com |",
+        "translatedContent": "| **www**.t**i**ktok.com | **hq**.t**n**ktok.com |"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "4WIl/+PR85nnUptiE3FSrbPmx3XPoe0gUCDzsoqPsbA=",
+        "originContent": "### Combining Modes",
+        "translatedContent": "### モードの組み合わせ"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "You can combine different modes by using specific hostnames or URL query parameters. For example, if you want to enable H.265 and also see the caption, you can use `hq.a.tnktok.com` or add `?hq=true&addDesc=true` to the URL.\n\n> You cannot use Direct Mode and Caption Mode simultaneously since they contradict themselves.\n\n### Why use tnktok.com?\n\nWe check all the boxes for being one of the best TikTok embedding services with many features that others don't have. Here's a table comparing our service, tnktok.com, with the other TikTok embedding services as well as TikTok's default embeds.\n\n|                                        | [fxTikTok](https://www.tnktok.com) | Default TikTok | [kkScript](https://kktiktok.com/) | [tfxktok.com](https://tfxktok.com) | [EmbedEZ](https://tiktokez.com) |\n| -------------------------------------- | ---------------------------------- | -------------- | --------------------------------- | ---------------------------------- | ------------------------------- |\n| Embed playable videos                  | ☑️                                 | ☑️             | ☑️                                | ☑️                                 | ☑️                              |\n| Embed multi-image slideshows           | ☑️                                 | ❌             | ❌                                | ☑️                                 | ☑️                              |\n| Open source                            | ☑️                                 | ❌             | ❔                                | ❌                                 | ❌                              |\n| Supports direct embeds                 | ☑️                                 | ❌             | ❔                                | ❌                                 | ❌                              |\n| Shows like, shares, comments           | ☑️                                 | ☑️             | ❌                                | ☑️                                 | ☑️                              |\n| Removes tracking for redirects         | ☑️                                 | ❌             | ❌                                | ☑️                                 | ☑️                              |\n| Support for multi-continent short URLs | ☑️                                 | ☑️             | ❌                                | ❌                                 | ☑️                              |\n| Support for h265/high quality          | ☑️                                 | ❌             | ❌                                | ❌                                 | ❌                              |\n| Last commit                            | [![][tnk]][tnkc]                   | N/A            | [![][kkt]][kktc]                  | N/A                                | N/A                             |\n\n[tnk]: https://img.shields.io/github/last-commit/okdargy/fxTikTok?label\n[tnkc]: https://github.com/okdargy/fxTikTok/commits\n[kkt]: https://img.shields.io/github/last-commit/kkscript/kk?label\n[kktc]: https://github.com/kkscript/kk/commits\n\nThe following embed services are not listed due to being unmaintained or simply not working:\n\n- [tiktxk.com](https://tiktxk.com)\n- [vxtiktok.com](https://vxtiktok.com) (redirecting to kkScript)\n\n## 💻 Selfhosting\n\nBy default, when setting up a new fxTikTok instance, the default offload server is `offload.tnktok.com`.\nTo setup your own, just compile and run [`offload.ts`](/src/offload.ts) which will start on port **8787**.\n",
+    "ContentSha": "lTv+O5E7yfUtf/ouqzvFCHIjcmNtWzmVGvlZXxkNlyA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "異なるモードを特定のホスト名やURLクエリパラメータを使って組み合わせることができます。例えば、H.265を有効にしてキャプションも表示したい場合は、`hq.a.tnktok.com` を使うか、URLに `?hq=true&addDesc=true` を追加してください。\n\n> 直接モードとキャプションモードは相反するため、同時に使用することはできません。\n\n### なぜ tnktok.com を使うのか？\n\n私たちは多くの機能を備えた最高のTikTok埋め込みサービスの一つとして、全ての項目を満たしています。他のTikTok埋め込みサービスやTikTokのデフォルト埋め込みと比較した表を以下に示します。\n\n|                                        | [fxTikTok](https://www.tnktok.com) | デフォルトTikTok | [kkScript](https://kktiktok.com/) | [tfxktok.com](https://tfxktok.com) | [EmbedEZ](https://tiktokez.com) |\n| -------------------------------------- | ---------------------------------- | -------------- | --------------------------------- | ---------------------------------- | ------------------------------- |\n| 再生可能な動画を埋め込む               | ☑️                                 | ☑️             | ☑️                                | ☑️                                 | ☑️                              |\n| 複数画像のスライドショーを埋め込む     | ☑️                                 | ❌             | ❌                                | ☑️                                 | ☑️                              |\n| オープンソース                        | ☑️                                 | ❌             | ❔                                | ❌                                 | ❌                              |\n| 直接埋め込みをサポート                | ☑️                                 | ❌             | ❔                                | ❌                                 | ❌                              |\n| いいね、シェア、コメントを表示        | ☑️                                 | ☑️             | ❌                                | ☑️                                 | ☑️                              |\n| リダイレクトのトラッキングを除去      | ☑️                                 | ❌             | ❌                                | ☑️                                 | ☑️                              |\n| 複数大陸対応のショートURLをサポート   | ☑️                                 | ☑️             | ❌                                | ❌                                 | ☑️                              |\n| h265/高画質対応                     | ☑️                                 | ❌             | ❌                                | ❌                                 | ❌                              |\n| 最終コミット                         | [![][tnk]][tnkc]                   | N/A            | [![][kkt]][kktc]                  | N/A                                | N/A                             |\n\n[tnk]: https://img.shields.io/github/last-commit/okdargy/fxTikTok?label  \n[tnkc]: https://github.com/okdargy/fxTikTok/commits  \n[kkt]: https://img.shields.io/github/last-commit/kkscript/kk?label  \n[kktc]: https://github.com/kkscript/kk/commits  \n\n以下の埋め込みサービスはメンテナンスされていないか、正常に動作しないためリストに含まれていません：\n\n- [tiktxk.com](https://tiktxk.com)  \n- [vxtiktok.com](https://vxtiktok.com)（kkScriptへリダイレクト）\n\n## 💻 セルフホスティング\n\n新しいfxTikTokインスタンスをセットアップする際、デフォルトのオフロードサーバーは `offload.tnktok.com` です。  \n独自にセットアップするには、[`offload.ts`](/src/offload.ts) をコンパイルして実行するだけで、ポート **8787** で起動します。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fNthUg3xchDIjMohxvpXEPgm9deULK//QGVG3It+IFw=",
+        "originContent": "You can combine different modes by using specific hostnames or URL query parameters. For example, if you want to enable H.265 and also see the caption, you can use `hq.a.tnktok.com` or add `?hq=true&addDesc=true` to the URL.",
+        "translatedContent": "異なるモードを特定のホスト名やURLクエリパラメータを使って組み合わせることができます。例えば、H.265を有効にしてキャプションも表示したい場合は、`hq.a.tnktok.com` を使うか、URLに `?hq=true&addDesc=true` を追加してください。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "9PO7eF8YchtyCG9Azk+flTCxVXDq0WhLoA3pVjqywjE=",
+        "originContent": "> You cannot use Direct Mode and Caption Mode simultaneously since they contradict themselves.",
+        "translatedContent": "> 直接モードとキャプションモードは相反するため、同時に使用することはできません。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "2z9xtc1vLlsdu3LpzbD+uPNEk/M+ejiS7/Qs2df4JQU=",
+        "originContent": "### Why use tnktok.com?",
+        "translatedContent": "### なぜ tnktok.com を使うのか？"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "e4ZHHluwLALkKML6h64fB+MHwpTyC8eyc4yfS7aaWDQ=",
+        "originContent": "We check all the boxes for being one of the best TikTok embedding services with many features that others don't have. Here's a table comparing our service, tnktok.com, with the other TikTok embedding services as well as TikTok's default embeds.",
+        "translatedContent": "私たちは多くの機能を備えた最高のTikTok埋め込みサービスの一つとして、全ての項目を満たしています。他のTikTok埋め込みサービスやTikTokのデフォルト埋め込みと比較した表を以下に示します。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "3HP+UzNZZIOQKbU7S9Ie20LVhe6yR+1CeNJYO5Xx6y0=",
+        "originContent": "|                                        | [fxTikTok](https://www.tnktok.com) | Default TikTok | [kkScript](https://kktiktok.com/) | [tfxktok.com](https://tfxktok.com) | [EmbedEZ](https://tiktokez.com) |",
+        "translatedContent": "|                                        | [fxTikTok](https://www.tnktok.com) | デフォルトTikTok | [kkScript](https://kktiktok.com/) | [tfxktok.com](https://tfxktok.com) | [EmbedEZ](https://tiktokez.com) |"
+      },
+      {
+        "row": 10,
+        "rowsha": "6svHHZfSxqX1N4s69m02cXhd4uPg46G+fR1Y/zuX2mU=",
+        "originContent": "| -------------------------------------- | ---------------------------------- | -------------- | --------------------------------- | ---------------------------------- | ------------------------------- |",
+        "translatedContent": "| -------------------------------------- | ---------------------------------- | -------------- | --------------------------------- | ---------------------------------- | ------------------------------- |"
+      },
+      {
+        "row": 11,
+        "rowsha": "jAXf623HocMCgPCfPNmRPS48DM5NhDFW9faQsQD6P00=",
+        "originContent": "| Embed playable videos                  | ☑️                                 | ☑️             | ☑️                                | ☑️                                 | ☑️                              |",
+        "translatedContent": "| 再生可能な動画を埋め込む               | ☑️                                 | ☑️             | ☑️                                | ☑️                                 | ☑️                              |"
+      },
+      {
+        "row": 12,
+        "rowsha": "BtT0HHf62GwV3v1Ts26gGVkPRFHLDHIHJW5F9EarCLU=",
+        "originContent": "| Embed multi-image slideshows           | ☑️                                 | ❌             | ❌                                | ☑️                                 | ☑️                              |",
+        "translatedContent": "| 複数画像のスライドショーを埋め込む     | ☑️                                 | ❌             | ❌                                | ☑️                                 | ☑️                              |"
+      },
+      {
+        "row": 13,
+        "rowsha": "2tPQeWi4L2p3sJAIVQ9dCNOSsND9V5bTSUNEpJUi0sQ=",
+        "originContent": "| Open source                            | ☑️                                 | ❌             | ❔                                | ❌                                 | ❌                              |",
+        "translatedContent": "| オープンソース                        | ☑️                                 | ❌             | ❔                                | ❌                                 | ❌                              |"
+      },
+      {
+        "row": 14,
+        "rowsha": "I1vSr8USnfJqpjGoOHV18pSCY42lyBwyECs2b2Y50Vg=",
+        "originContent": "| Supports direct embeds                 | ☑️                                 | ❌             | ❔                                | ❌                                 | ❌                              |",
+        "translatedContent": "| 直接埋め込みをサポート                | ☑️                                 | ❌             | ❔                                | ❌                                 | ❌                              |"
+      },
+      {
+        "row": 15,
+        "rowsha": "pFlE20Xd6EV007pecq//GfSOs2lzjVIqXXAx8LnBIxo=",
+        "originContent": "| Shows like, shares, comments           | ☑️                                 | ☑️             | ❌                                | ☑️                                 | ☑️                              |",
+        "translatedContent": "| いいね、シェア、コメントを表示        | ☑️                                 | ☑️             | ❌                                | ☑️                                 | ☑️                              |"
+      },
+      {
+        "row": 16,
+        "rowsha": "BLuCjrzTK0M8WEV3PqT5BYz9ztqYMgU5L5ZJHX7jA5U=",
+        "originContent": "| Removes tracking for redirects         | ☑️                                 | ❌             | ❌                                | ☑️                                 | ☑️                              |",
+        "translatedContent": "| リダイレクトのトラッキングを除去      | ☑️                                 | ❌             | ❌                                | ☑️                                 | ☑️                              |"
+      },
+      {
+        "row": 17,
+        "rowsha": "p2bpnic1eBLk5CfqKNdBHuwU8sZNTrYYokNu5gyoc1Q=",
+        "originContent": "| Support for multi-continent short URLs | ☑️                                 | ☑️             | ❌                                | ❌                                 | ☑️                              |",
+        "translatedContent": "| 複数大陸対応のショートURLをサポート   | ☑️                                 | ☑️             | ❌                                | ❌                                 | ☑️                              |"
+      },
+      {
+        "row": 18,
+        "rowsha": "r/HLLajlOm58QWYU9R+qzB5YsWp6NbOKk2tvklWuttI=",
+        "originContent": "| Support for h265/high quality          | ☑️                                 | ❌             | ❌                                | ❌                                 | ❌                              |",
+        "translatedContent": "| h265/高画質対応                     | ☑️                                 | ❌             | ❌                                | ❌                                 | ❌                              |"
+      },
+      {
+        "row": 19,
+        "rowsha": "UUFVf6fS4WTuogjhAuNNhqU/GtRPU1upyXsfkoUTekc=",
+        "originContent": "| Last commit                            | [![][tnk]][tnkc]                   | N/A            | [![][kkt]][kktc]                  | N/A                                | N/A                             |",
+        "translatedContent": "| 最終コミット                         | [![][tnk]][tnkc]                   | N/A            | [![][kkt]][kktc]                  | N/A                                | N/A                             |"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Bak7aygLR9nOZrbwqD9Lmk7XRJ+Zxux6yFNKZ6Jt87U=",
+        "originContent": "[tnk]: https://img.shields.io/github/last-commit/okdargy/fxTikTok?label",
+        "translatedContent": "[tnk]: https://img.shields.io/github/last-commit/okdargy/fxTikTok?label  "
+      },
+      {
+        "row": 22,
+        "rowsha": "9LLj4O4y94lES5dP6vB4QpC3B4NyrhFHNB/9C5eHRlk=",
+        "originContent": "[tnkc]: https://github.com/okdargy/fxTikTok/commits",
+        "translatedContent": "[tnkc]: https://github.com/okdargy/fxTikTok/commits  "
+      },
+      {
+        "row": 23,
+        "rowsha": "1/6eTz6ZC6lX7VfjqHzCCGnyQ2ts0oCCbAFo18eaDUY=",
+        "originContent": "[kkt]: https://img.shields.io/github/last-commit/kkscript/kk?label",
+        "translatedContent": "[kkt]: https://img.shields.io/github/last-commit/kkscript/kk?label  "
+      },
+      {
+        "row": 24,
+        "rowsha": "sUYlXhyOq0jTgbmqtmTR19x+L+SBOvHk5L15+YwxvoQ=",
+        "originContent": "[kktc]: https://github.com/kkscript/kk/commits",
+        "translatedContent": "[kktc]: https://github.com/kkscript/kk/commits  "
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "5fKF3UXb3gnjMeo2un42seFynR9dj0rcf5Cl3ncZDh8=",
+        "originContent": "The following embed services are not listed due to being unmaintained or simply not working:",
+        "translatedContent": "以下の埋め込みサービスはメンテナンスされていないか、正常に動作しないためリストに含まれていません："
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "bOgkHxDyRI+fTfkjMTZpuPwbaWaGcXxHceB9RUXvvW4=",
+        "originContent": "- [tiktxk.com](https://tiktxk.com)",
+        "translatedContent": "- [tiktxk.com](https://tiktxk.com)  "
+      },
+      {
+        "row": 29,
+        "rowsha": "xaKLH6IIpkUJ+r2zIfrSceeE9ykdY4USH6Y8c7YmUzQ=",
+        "originContent": "- [vxtiktok.com](https://vxtiktok.com) (redirecting to kkScript)",
+        "translatedContent": "- [vxtiktok.com](https://vxtiktok.com)（kkScriptへリダイレクト）"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "cvfyqAuz5MGP9acucAyUKMdruwik5lVMjjj3gcytgQc=",
+        "originContent": "## 💻 Selfhosting",
+        "translatedContent": "## 💻 セルフホスティング"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "vadI46hSrC51E53sCj9zESu/fZi2GKrQswCUTs6p5y0=",
+        "originContent": "By default, when setting up a new fxTikTok instance, the default offload server is `offload.tnktok.com`.",
+        "translatedContent": "新しいfxTikTokインスタンスをセットアップする際、デフォルトのオフロードサーバーは `offload.tnktok.com` です。  "
+      },
+      {
+        "row": 34,
+        "rowsha": "eGTilRSJVR1I7ColLu1FdCiZOl9QknCgyZk2nRxnGk4=",
+        "originContent": "To setup your own, just compile and run [`offload.ts`](/src/offload.ts) which will start on port **8787**.",
+        "translatedContent": "独自にセットアップするには、[`offload.ts`](/src/offload.ts) をコンパイルして実行するだけで、ポート **8787** で起動します。"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n# Install all necessary dependencies\npnpm install\n# Start your server\nbun run src/offload.ts\n```",
+    "ContentSha": "RxbJWIM9tD0vry9+xbKThh2cGSoqbxQEJtmGkMGBrMc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Install all necessary dependencies\npnpm install\n# Start your server\nbun run src/offload.ts\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "W7W03waRfkCPLb39ZDqVlP7JNN95VHtkFjupo4f41EY=",
+        "originContent": "# Install all necessary dependencies",
+        "translatedContent": "# Install all necessary dependencies"
+      },
+      {
+        "row": 3,
+        "rowsha": "AF0LflwmHcxeL4Vo5poLMOiJoydbVbGOwgp97vAIHpA=",
+        "originContent": "pnpm install",
+        "translatedContent": "pnpm install"
+      },
+      {
+        "row": 4,
+        "rowsha": "fV/HoYbr955DRegN8rMhubk0Myaqaz+TULTMoAuvdus=",
+        "originContent": "# Start your server",
+        "translatedContent": "# Start your server"
+      },
+      {
+        "row": 5,
+        "rowsha": "NiYOC8bT1lbJFp8iYlhNPxvDEel8e2fbEfkv0oIziCk=",
+        "originContent": "bun run src/offload.ts",
+        "translatedContent": "bun run src/offload.ts"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n> I recommend configuring this to your own domain alongside a reverse proxy like [nginx](https://nginx.org) and on top of Cloudflare with protection on.\n\nNext, deploy your Worker with the button below and follow the instructions.\n\n[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/okdargy/fxtiktok)\n\nOnce done, go to \"Settings\" and change your offload server under \"Variables and Secrets\":\n\n<img src=\"https://raw.githubusercontent.com/okdargy/fxTikTok/hono-rewrite/.github/readme/settings.png\" alt=\"Settings Page, showing where to click to change your Offload Server\" height=\"300px\" style=\"border-radius:2%\" />\n\n#### 🎉 That's it! You now have your own fxTikTok instance to use whenever, wherever you like.\n",
+    "ContentSha": "K1MqEYYmig2DvT81WPznBZd31uvSqRx1CrKJ2Ga2vqs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> これを独自ドメインに設定し、[nginx](https://nginx.org) のようなリバースプロキシとCloudflareの保護の上に構築することをお勧めします。\n\n次に、下のボタンでWorkerをデプロイし、指示に従ってください。\n\n[![Cloudflare Workersにデプロイ](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/okdargy/fxtiktok)\n\n完了したら、「Settings」に移動し、「Variables and Secrets」の下でオフロードサーバーを変更してください：\n\n<img src=\"https://raw.githubusercontent.com/okdargy/fxTikTok/hono-rewrite/.github/readme/settings.png\" alt=\"設定ページ、オフロードサーバーを変更する場所を示す\" height=\"300px\" style=\"border-radius:2%\" />\n\n#### 🎉 以上です！これで、いつでもどこでも使えるあなた専用のfxTikTokインスタンスが手に入りました。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "8g1IRqLAUJJ4IGdlpoKnH5Ju7V9vEr5G+nO7RgMdABQ=",
+        "originContent": "> I recommend configuring this to your own domain alongside a reverse proxy like [nginx](https://nginx.org) and on top of Cloudflare with protection on.",
+        "translatedContent": "> これを独自ドメインに設定し、[nginx](https://nginx.org) のようなリバースプロキシとCloudflareの保護の上に構築することをお勧めします。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "qjUOdaD6HhcyICbAtbHV9NtW1ToTeMhoyOJ3Nfp+kr0=",
+        "originContent": "Next, deploy your Worker with the button below and follow the instructions.",
+        "translatedContent": "次に、下のボタンでWorkerをデプロイし、指示に従ってください。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "K14rtuR7+ntzjcEx8aKiVuZebPJ1cYDqrMutm6oCPlI=",
+        "originContent": "[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/okdargy/fxtiktok)",
+        "translatedContent": "[![Cloudflare Workersにデプロイ](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/okdargy/fxtiktok)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "l5sZHX7ItAu4TaDzDK0RG4FijmVK9KQs6TXjWeLKtbg=",
+        "originContent": "Once done, go to \"Settings\" and change your offload server under \"Variables and Secrets\":",
+        "translatedContent": "完了したら、「Settings」に移動し、「Variables and Secrets」の下でオフロードサーバーを変更してください："
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "h3fOYC4n5IZF0rxKyyuXDvbGNc/0w+8xC69sE2ZNigc=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/okdargy/fxTikTok/hono-rewrite/.github/readme/settings.png\" alt=\"Settings Page, showing where to click to change your Offload Server\" height=\"300px\" style=\"border-radius:2%\" />",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/okdargy/fxTikTok/hono-rewrite/.github/readme/settings.png\" alt=\"設定ページ、オフロードサーバーを変更する場所を示す\" height=\"300px\" style=\"border-radius:2%\" />"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "01fCApbDQcLTSK/bHQnh2eLp3cOU/EaeCs6LqiXSp7g=",
+        "originContent": "#### 🎉 That's it! You now have your own fxTikTok instance to use whenever, wherever you like.",
+        "translatedContent": "#### 🎉 以上です！これで、いつでもどこでも使えるあなた専用のfxTikTokインスタンスが手に入りました。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

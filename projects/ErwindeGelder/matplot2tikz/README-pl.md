@@ -240,6 +240,12 @@ zewnętrznego kodu:
    # If tikzplotlib is used in this library, it will automatically use matplot2tikz instead.
    ```
 
+Jeśli aktualizujesz własne skrypty z tikzplotlib, możesz po prostu użyć aliasu importu:
+
+   ```python
+   import matplot2tikz as tikzplotlib
+   ```
+
 ## Współtworzenie
 
 Jeśli napotkasz błędy, chciałbyś wnieść swój wkład, masz ciekawe przykłady możliwości matplot2tikz,
@@ -291,6 +297,6 @@ matplot2tikz jest publikowany na [licencji MIT](https://en.wikipedia.org/wiki/MI
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-04
 
 ---

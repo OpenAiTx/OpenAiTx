@@ -240,6 +240,12 @@ externe code te plaatsen:
    # If tikzplotlib is used in this library, it will automatically use matplot2tikz instead.
    ```
 
+Als u uw eigen scripts bijwerkt van tikzplotlib, kunt u eenvoudig een importalias gebruiken:
+
+   ```python
+   import matplot2tikz as tikzplotlib
+   ```
+
 ## Bijdragen
 
 Als je bugs tegenkomt, wilt bijdragen, mooie voorbeelden hebt van wat matplot2tikz kan doen, of gewoon op zoek bent naar meer informatie, bezoek dan de [GitHub-pagina van matplot2tikz](https://github.com/ErwindeGelder/matplot2tikz).
@@ -291,6 +297,6 @@ licentie](https://nl.wikipedia.org/wiki/MIT-licentie).
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-04
 
 ---

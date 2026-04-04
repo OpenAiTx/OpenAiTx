@@ -240,6 +240,12 @@ pip install matplot2tikz
    # If tikzplotlib is used in this library, it will automatically use matplot2tikz instead.
    ```
 
+إذا كنت تقوم بتحديث النصوص البرمجية الخاصة بك من tikzplotlib، يمكنك ببساطة استخدام اسم مستعار للاستيراد:
+
+   ```python
+   import matplot2tikz as tikzplotlib
+   ```
+
 ## المساهمة
 
 إذا واجهت أخطاء أو كنت ترغب في المساهمة أو لديك أمثلة رائعة لما يمكن أن يفعله matplot2tikz،
@@ -291,6 +297,6 @@ pip install matplot2tikz
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-04
 
 ---

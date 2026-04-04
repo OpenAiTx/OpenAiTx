@@ -239,6 +239,12 @@ pip install matplot2tikz
    # Do other imports, e.g., using `import my_third_party_library`
    # If tikzplotlib is used in this library, it will automatically use matplot2tikz instead.
    ```
+यदि आप अपने स्वयं के स्क्रिप्ट्स को tikzplotlib से अपडेट कर रहे हैं, तो आप बस एक इम्पोर्ट एलियास का उपयोग कर सकते हैं:
+
+
+   ```python
+   import matplot2tikz as tikzplotlib
+   ```
 
 ## योगदान
 
@@ -291,6 +297,6 @@ matplot2tikz [MIT लाइसेंस](https://en.wikipedia.org/wiki/MIT_Licen
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-04
 
 ---

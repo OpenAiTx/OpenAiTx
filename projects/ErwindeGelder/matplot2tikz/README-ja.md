@@ -239,6 +239,12 @@ tikzplotlib の依存関係を matplot2tikz に変更することを推奨しま
    # Do other imports, e.g., using `import my_third_party_library`
    # If tikzplotlib is used in this library, it will automatically use matplot2tikz instead.
    ```
+
+自分自身のスクリプトをtikzplotlibから更新する場合、インポートエイリアスを使用するだけで済みます。
+
+   ```python
+   import matplot2tikz as tikzplotlib
+   ```
 ## 貢献について
 
 バグが発生した場合、貢献したい場合、matplot2tikzの素晴らしい例をお持ちの場合、
@@ -291,6 +297,6 @@ matplot2tikz は [MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-04
 
 ---

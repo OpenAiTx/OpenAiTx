@@ -1,0 +1,585 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" height=170 srcset=\"docs/images/icon-dark.svg\">\n    <source media=\"(prefers-color-scheme: light)\" height=170 srcset=\"docs/images/icon-light.svg\">\n    <img alt=\"venator logo\" height=170 src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/icon-light.svg\">\n  </picture>\n</p>\n\nVenator is a application for recording, viewing, and filtering logs and spans\nfrom programs instrumented with the Rust tracing crate or using OpenTelemetry.\nIt is purpose-built for rapid local development.\n\n<picture>\n  <img alt=\"demo\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-demo.gif\">\n</picture>\n\n## Installation\n\n### With Pre-built Binaries:\n\nBinaries are pre-built and available in the [releases page](https://github.com/kmdreko/venator/releases) for:\n- Windows (x64)\n- MacOS (Intel, Apple silicon)\n\n### With Cargo:\n\nCompiling and installing `venator` from source with Cargo (requires Rust 1.76 or\nnewer):\n",
+    "ContentSha": "d/wH9jSCjLZ7nb/4hgmGocZvNNpISHjXknBVmpH5dGE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" height=170 srcset=\"docs/images/icon-dark.svg\">\n    <source media=\"(prefers-color-scheme: light)\" height=170 srcset=\"docs/images/icon-light.svg\">\n    <img alt=\"venator ロゴ\" height=170 src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/icon-light.svg\">\n  </picture>\n</p>\n\nVenatorは、Rustのtracingクレートで計装されたプログラムやOpenTelemetryを使用したプログラムからのログおよびスパンを記録、表示、フィルタリングするためのアプリケーションです。\n高速なローカル開発向けに特化して設計されています。\n\n<picture>\n  <img alt=\"デモ\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-demo.gif\">\n</picture>\n\n## インストール\n\n### 事前ビルド済みバイナリを使用する場合：\n\nバイナリは[リリースページ](https://github.com/kmdreko/venator/releases)で事前ビルドされており、以下のプラットフォームに対応しています：\n- Windows (x64)\n- MacOS (Intel、Apple silicon)\n\n### Cargoを使う場合：\n\nCargoを使ってソースから`venator`をコンパイルおよびインストールします（Rust 1.76以降が必要です）：\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "su5AYroNuuVkqEBm8k1TtT5+dCom7BoW2XwdJdXXDH8=",
+        "originContent": "  <picture>",
+        "translatedContent": "  <picture>"
+      },
+      {
+        "row": 3,
+        "rowsha": "5RJAN2k1q3ntWmrTQX6SBgM0YsxT1nXeh0BR0mdy3d0=",
+        "originContent": "    <source media=\"(prefers-color-scheme: dark)\" height=170 srcset=\"docs/images/icon-dark.svg\">",
+        "translatedContent": "    <source media=\"(prefers-color-scheme: dark)\" height=170 srcset=\"docs/images/icon-dark.svg\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "s8zI6wcBTLDWVyQHIhL+IeD3OxLaB8tZ2w3ght/prC8=",
+        "originContent": "    <source media=\"(prefers-color-scheme: light)\" height=170 srcset=\"docs/images/icon-light.svg\">",
+        "translatedContent": "    <source media=\"(prefers-color-scheme: light)\" height=170 srcset=\"docs/images/icon-light.svg\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "Q24pByChtyGjP4eO7/WXQOKZ3IITxEaD+7bcbbgzTTY=",
+        "originContent": "    <img alt=\"venator logo\" height=170 src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/icon-light.svg\">",
+        "translatedContent": "    <img alt=\"venator ロゴ\" height=170 src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/icon-light.svg\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "fwrOW0rZI7tz3dwkDxmwV2sRZJ0Cobqsz6oSx8gSbSE=",
+        "originContent": "  </picture>",
+        "translatedContent": "  </picture>"
+      },
+      {
+        "row": 7,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ERjx+NCiT2tLDFV/Q4gvPPHLIS+TI1c4KgMpeTejv0Q=",
+        "originContent": "Venator is a application for recording, viewing, and filtering logs and spans",
+        "translatedContent": "Venatorは、Rustのtracingクレートで計装されたプログラムやOpenTelemetryを使用したプログラムからのログおよびスパンを記録、表示、フィルタリングするためのアプリケーションです。"
+      },
+      {
+        "row": 10,
+        "rowsha": "BRbKOLZYXkW3AM9lXhzHu7LtZYjmWBnNjtqRRHhlt3Y=",
+        "originContent": "from programs instrumented with the Rust tracing crate or using OpenTelemetry.",
+        "translatedContent": "高速なローカル開発向けに特化して設計されています。"
+      },
+      {
+        "row": 11,
+        "rowsha": "biudmk1tt3wUjX5+80w1k5sLZVssFSIrAJLxcJM9iiA=",
+        "originContent": "It is purpose-built for rapid local development.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<picture>"
+      },
+      {
+        "row": 13,
+        "rowsha": "e/EMiq0wEwC6z5ypRmro6x+Ln2VwaUIirlhG4tMgm/E=",
+        "originContent": "<picture>",
+        "translatedContent": "  <img alt=\"デモ\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-demo.gif\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "ASu66YQbelgTBqwlFNfvXaxmQaSV2cOf7duSEB6cPUY=",
+        "originContent": "  <img alt=\"demo\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-demo.gif\">",
+        "translatedContent": "</picture>"
+      },
+      {
+        "row": 15,
+        "rowsha": "hZTTctF/RX64iDLXMWyPifafmJmLfZFAnCkn7yHq8HU=",
+        "originContent": "</picture>",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 17,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 事前ビルド済みバイナリを使用する場合："
+      },
+      {
+        "row": 19,
+        "rowsha": "16Aoki8ioSx0HvUOrbhvPzvLS+fO9t74DZf88GOkGGc=",
+        "originContent": "### With Pre-built Binaries:",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "バイナリは[リリースページ](https://github.com/kmdreko/venator/releases)で事前ビルドされており、以下のプラットフォームに対応しています："
+      },
+      {
+        "row": 21,
+        "rowsha": "jROAd4VCWfljNNQ/7LlaE01nJwn16yA8m/dv6mtRGXM=",
+        "originContent": "Binaries are pre-built and available in the [releases page](https://github.com/kmdreko/venator/releases) for:",
+        "translatedContent": "- Windows (x64)"
+      },
+      {
+        "row": 22,
+        "rowsha": "eaZVqWygfwr0D0H+4KFySN1qSPnxUUKBp0ulhlrxtZs=",
+        "originContent": "- Windows (x64)",
+        "translatedContent": "- MacOS (Intel、Apple silicon)"
+      },
+      {
+        "row": 23,
+        "rowsha": "kfhcZcoIuZqVQdK+u1oE/gF0ymxGyBSS50DYvF/y334=",
+        "originContent": "- MacOS (Intel, Apple silicon)",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Cargoを使う場合："
+      },
+      {
+        "row": 25,
+        "rowsha": "CznU6ou+CdwxmTUDRz7eXum6Wup2qGobKdvWG4x9E50=",
+        "originContent": "### With Cargo:",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Cargoを使ってソースから`venator`をコンパイルおよびインストールします（Rust 1.76以降が必要です）："
+      },
+      {
+        "row": 27,
+        "rowsha": "tJKxfWMvsqnzH4R6v4+Mxb28dwVxU2/iAnWP2frL2kQ=",
+        "originContent": "Compiling and installing `venator` from source with Cargo (requires Rust 1.76 or",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "/ilxUcaLCn28xegF0FkfpfQyaz97Vh/3lIJcXBYOxwk=",
+        "originContent": "newer):",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\ncargo install venator-app\n```",
+    "ContentSha": "mTglxAL32ORa93Rdq9tbc0YSIb/llk1b/hLCVBs+Cw0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncargo install venator-app\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ecrWYi04Gg+18Cp/tQ95uGV3AKmtyWtnwXkTOgk78so=",
+        "originContent": "cargo install venator-app",
+        "translatedContent": "cargo install venator-app"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Usage\n\n### Using OpenTelemetry:\n\nConfigure your program's OpenTelemetry SDK to export logs and traces to\n`127.0.0.1:8362` (Venator's default listening port) and to use `grpc` or\n`http/protobuf`.\n\n### Using Rust Tracing:\n\nIn your instrumented program:\n",
+    "ContentSha": "URygrP/Xlp7kbKiZY+RX0BB58z5fvW0skfEPXlMflUs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 使用方法\n\n### OpenTelemetry の使用:\n\nプログラムの OpenTelemetry SDK を設定して、ログとトレースを\n`127.0.0.1:8362`（Venator のデフォルトリスニングポート）にエクスポートし、\n`grpc` または `http/protobuf` を使用するようにします。\n\n### Rust Tracing の使用:\n\nインストルメントされたプログラム内で:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "koMGkw0WVVm1aQ6CIH+cau/0YiPV00HEZYxJRn2Evks=",
+        "originContent": "### Using OpenTelemetry:",
+        "translatedContent": "### OpenTelemetry の使用:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "018/36pLIhrd5ZfT15sfocZEnXOMkZGIL7QEqC13pTA=",
+        "originContent": "Configure your program's OpenTelemetry SDK to export logs and traces to",
+        "translatedContent": "プログラムの OpenTelemetry SDK を設定して、ログとトレースを"
+      },
+      {
+        "row": 7,
+        "rowsha": "H8Y+UF499h31ev/tFCVieBCTmMmMVveQi2im872vWTU=",
+        "originContent": "`127.0.0.1:8362` (Venator's default listening port) and to use `grpc` or",
+        "translatedContent": "`127.0.0.1:8362`（Venator のデフォルトリスニングポート）にエクスポートし、"
+      },
+      {
+        "row": 8,
+        "rowsha": "FnAEc2NW+YFCNW3PtfCZ9ggwwWgDMEmEhVQexGy/AO0=",
+        "originContent": "`http/protobuf`.",
+        "translatedContent": "`grpc` または `http/protobuf` を使用するようにします。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "uYzUsoWDgWWnIROBcCeoEcnPRVLg74mZMh8DB71BTsA=",
+        "originContent": "### Using Rust Tracing:",
+        "translatedContent": "### Rust Tracing の使用:"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Xd3xZUb9U84terc2KAspwdIWXRdbbMzapFZcUFjlWpg=",
+        "originContent": "In your instrumented program:",
+        "translatedContent": "インストルメントされたプログラム内で:"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```toml\n[dependencies]\nvenator = \"1.1.0\"\n```",
+    "ContentSha": "WQj+h8OGOMT6A0ly5E2LKo+Gc0BVb0PCyA+WgkKD1Xo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\n[dependencies]\nvenator = \"1.1.0\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "v8Amm9lWkEiRx7LTLCNyiQWyvnBgtnoUMrJSqtpA+c8=",
+        "originContent": "[dependencies]",
+        "translatedContent": "[dependencies]"
+      },
+      {
+        "row": 3,
+        "rowsha": "CEQPxdczR7iBsZna0rvkCEhst4qyohVlqDIfWpBj0Go=",
+        "originContent": "venator = \"1.1.0\"",
+        "translatedContent": "venator = \"1.1.0\""
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```rust\nuse venator::Venator;\n\nVenator::default().install();\n```",
+    "ContentSha": "Is0cgmZepbg8CQyH+br3zHerB83IDLuid432Aa5Ka/s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\nuse venator::Venator;\n\nVenator::default().install();\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "MinWNgcSXTzDCJWFUshBQfd8t6rso5fOLb9BOYv4YVg=",
+        "originContent": "use venator::Venator;",
+        "translatedContent": "use venator::Venator;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "EMkCxgx62S6jwIKVrg6G5JGI/LDumZHs34JZQ1jl7tE=",
+        "originContent": "Venator::default().install();",
+        "translatedContent": "Venator::default().install();"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nSee the [documentation](https://docs.rs/venator/latest/venator/) for more.\n\n## Features\n\nEvents can be viewed narrowed by timespan and filtered by attributes, level, and\nother properties. The table of records can include columns of custom properties.\nThe graph shows the counts by level at each bar.\n\n<picture>\n  <img alt=\"screenshots of events screen\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-events.png\">\n</picture>\n\nSpans can likewise be narrowed by timespan and filter. A detail pane can show\nall the properties of selected events and spans. The graph shows spans layered\nhierarchically.\n\n<picture>\n  <img alt=\"screenshots of spans screen\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-spans.png\">\n</picture>\n\nTraces can be viewed that show both events and spans within a single execution.\n\n<picture>\n  <img alt=\"screenshots of trace screen\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-traces.png\">\n</picture>\n",
+    "ContentSha": "/N0SL/dXR8Zb5rFRXH31BPlAI6pfOF47nq7KKogdrw4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "詳細は[ドキュメント](https://docs.rs/venator/latest/venator/)をご覧ください。\n\n## 機能\n\nイベントは、期間で絞り込み、属性、レベル、その他のプロパティでフィルタリングできます。  \nレコードの表にはカスタムプロパティの列を含めることができます。  \nグラフは各バーごとのレベル別のカウントを表示します。\n\n<picture>\n  <img alt=\"イベント画面のスクリーンショット\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-events.png\">\n</picture>\n\nスパンも同様に期間とフィルタで絞り込めます。  \n詳細ペインでは選択したイベントとスパンのすべてのプロパティを表示できます。  \nグラフは階層的に重ねられたスパンを示します。\n\n<picture>\n  <img alt=\"スパン画面のスクリーンショット\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-spans.png\">\n</picture>\n\nトレースは、単一の実行内のイベントとスパンの両方を表示できます。\n\n<picture>\n  <img alt=\"トレース画面のスクリーンショット\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-traces.png\">\n</picture>\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "詳細は[ドキュメント](https://docs.rs/venator/latest/venator/)をご覧ください。"
+      },
+      {
+        "row": 2,
+        "rowsha": "mqBVM2NA7h8AMosVY1MxwSvt4rmi1HGmEIdRh5dFNTk=",
+        "originContent": "See the [documentation](https://docs.rs/venator/latest/venator/) for more.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 機能"
+      },
+      {
+        "row": 4,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "イベントは、期間で絞り込み、属性、レベル、その他のプロパティでフィルタリングできます。  "
+      },
+      {
+        "row": 6,
+        "rowsha": "BN394PvUl0gBJOluw9MQGImiEZvmgNuSZr5ZA5KO9IU=",
+        "originContent": "Events can be viewed narrowed by timespan and filtered by attributes, level, and",
+        "translatedContent": "レコードの表にはカスタムプロパティの列を含めることができます。  "
+      },
+      {
+        "row": 7,
+        "rowsha": "uYB/hzShzu2k8NZS2+Pde0lMfG8GKxiM0Mxv4tEWy4s=",
+        "originContent": "other properties. The table of records can include columns of custom properties.",
+        "translatedContent": "グラフは各バーごとのレベル別のカウントを表示します。"
+      },
+      {
+        "row": 8,
+        "rowsha": "r2m+nsR4ecdIAWxtZvrZvDnKJw66ULj7B8rO6L8298k=",
+        "originContent": "The graph shows the counts by level at each bar.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<picture>"
+      },
+      {
+        "row": 10,
+        "rowsha": "e/EMiq0wEwC6z5ypRmro6x+Ln2VwaUIirlhG4tMgm/E=",
+        "originContent": "<picture>",
+        "translatedContent": "  <img alt=\"イベント画面のスクリーンショット\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-events.png\">"
+      },
+      {
+        "row": 11,
+        "rowsha": "ES0Kiti1TJZs9q7Rvb01q/ulRDdy1f/YInnRp7AOghU=",
+        "originContent": "  <img alt=\"screenshots of events screen\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-events.png\">",
+        "translatedContent": "</picture>"
+      },
+      {
+        "row": 12,
+        "rowsha": "hZTTctF/RX64iDLXMWyPifafmJmLfZFAnCkn7yHq8HU=",
+        "originContent": "</picture>",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "スパンも同様に期間とフィルタで絞り込めます。  "
+      },
+      {
+        "row": 14,
+        "rowsha": "DT6uNS6J9CTtaY1fwsm3USWni3OFz/Gxo8bgxkow9OE=",
+        "originContent": "Spans can likewise be narrowed by timespan and filter. A detail pane can show",
+        "translatedContent": "詳細ペインでは選択したイベントとスパンのすべてのプロパティを表示できます。  "
+      },
+      {
+        "row": 15,
+        "rowsha": "RDAaSn6FsFrxlLSHMi35awSNgJ5edUPXMe1gUnkqLis=",
+        "originContent": "all the properties of selected events and spans. The graph shows spans layered",
+        "translatedContent": "グラフは階層的に重ねられたスパンを示します。"
+      },
+      {
+        "row": 16,
+        "rowsha": "1Cv7/ZzK2/H4z5+oHtlQV2gxChpUhe3RVleVfBcpeOw=",
+        "originContent": "hierarchically.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<picture>"
+      },
+      {
+        "row": 18,
+        "rowsha": "e/EMiq0wEwC6z5ypRmro6x+Ln2VwaUIirlhG4tMgm/E=",
+        "originContent": "<picture>",
+        "translatedContent": "  <img alt=\"スパン画面のスクリーンショット\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-spans.png\">"
+      },
+      {
+        "row": 19,
+        "rowsha": "ExKjBeVJIBv7KfU2VP8Q6YcQpoKwLW+5XlKsYt7oUZs=",
+        "originContent": "  <img alt=\"screenshots of spans screen\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-spans.png\">",
+        "translatedContent": "</picture>"
+      },
+      {
+        "row": 20,
+        "rowsha": "hZTTctF/RX64iDLXMWyPifafmJmLfZFAnCkn7yHq8HU=",
+        "originContent": "</picture>",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "トレースは、単一の実行内のイベントとスパンの両方を表示できます。"
+      },
+      {
+        "row": 22,
+        "rowsha": "IJmXAoCmv9xcnFk/jcPMcT4ZsdqydnEHcAdkxIx1/bw=",
+        "originContent": "Traces can be viewed that show both events and spans within a single execution.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<picture>"
+      },
+      {
+        "row": 24,
+        "rowsha": "e/EMiq0wEwC6z5ypRmro6x+Ln2VwaUIirlhG4tMgm/E=",
+        "originContent": "<picture>",
+        "translatedContent": "  <img alt=\"トレース画面のスクリーンショット\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-traces.png\">"
+      },
+      {
+        "row": 25,
+        "rowsha": "Ki2IdQeYBf1CHCCOo2grWY2S8tuBILQzitEP3h4/TvQ=",
+        "originContent": "  <img alt=\"screenshots of trace screen\" src=\"https://raw.githubusercontent.com/kmdreko/venator/main/docs/images/screenshot-traces.png\">",
+        "translatedContent": "</picture>"
+      },
+      {
+        "row": 26,
+        "rowsha": "hZTTctF/RX64iDLXMWyPifafmJmLfZFAnCkn7yHq8HU=",
+        "originContent": "</picture>",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

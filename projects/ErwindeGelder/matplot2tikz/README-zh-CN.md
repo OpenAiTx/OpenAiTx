@@ -239,6 +239,12 @@ tikzplotlib 依赖更改为 matplot2tikz。
    # Do other imports, e.g., using `import my_third_party_library`
    # If tikzplotlib is used in this library, it will automatically use matplot2tikz instead.
    ```
+如果您正在从 tikzplotlib 更新自己的脚本，您可以简单地使用导入别名：
+
+
+   ```python
+   import matplot2tikz as tikzplotlib
+   ```
 
 ## 贡献
 
@@ -291,6 +297,6 @@ matplot2tikz 以 [MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-04
 
 ---

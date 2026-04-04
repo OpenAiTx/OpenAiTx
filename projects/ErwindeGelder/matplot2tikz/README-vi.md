@@ -240,6 +240,12 @@ của bên thứ ba:
    # If tikzplotlib is used in this library, it will automatically use matplot2tikz instead.
    ```
 
+Nếu bạn đang cập nhật các script của riêng mình từ tikzplotlib, bạn có thể đơn giản sử dụng một bí danh nhập:
+
+   ```python
+   import matplot2tikz as tikzplotlib
+   ```
+
 ## Đóng góp
 
 Nếu bạn gặp lỗi, muốn đóng góp, có những ví dụ hay về những gì matplot2tikz có thể làm được, hoặc chỉ đơn giản là muốn tìm thêm thông tin, hãy truy cập
@@ -291,6 +297,6 @@ matplot2tikz được phát hành theo [giấy phép MIT](https://en.wikipedia.o
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-04
 
 ---

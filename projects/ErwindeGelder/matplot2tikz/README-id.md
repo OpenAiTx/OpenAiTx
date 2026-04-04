@@ -240,6 +240,12 @@ pihak ketiga:
    # If tikzplotlib is used in this library, it will automatically use matplot2tikz instead.
    ```
 
+Jika Anda memperbarui skrip Anda sendiri dari tikzplotlib, Anda dapat menggunakan alias impor:
+
+   ```python
+   import matplot2tikz as tikzplotlib
+   ```
+
 ## Berkontribusi
 
 Jika Anda mengalami bug, ingin berkontribusi, memiliki contoh menarik tentang apa yang dapat dilakukan matplot2tikz,
@@ -291,6 +297,6 @@ matplot2tikz diterbitkan di bawah [lisensi MIT](https://en.wikipedia.org/wiki/MI
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-04
 
 ---

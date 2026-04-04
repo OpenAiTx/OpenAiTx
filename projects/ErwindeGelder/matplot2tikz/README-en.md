@@ -239,6 +239,12 @@ third-party code:
    # Do other imports, e.g., using `import my_third_party_library`
    # If tikzplotlib is used in this library, it will automatically use matplot2tikz instead.
    ```
+
+If you are updating your own scripts from tikzplotlib, you can simply use an import alias:
+
+   ```python
+   import matplot2tikz as tikzplotlib
+   ```
 ## Contributing
 
 If you experience bugs, would like to contribute, have nice examples of what matplot2tikz  
@@ -291,6 +297,6 @@ license](https://en.wikipedia.org/wiki/MIT_License).
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-04
 
 ---
