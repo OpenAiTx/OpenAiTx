@@ -38,6 +38,7 @@
 </p>
 
 <div align="center">
+
 [![][github-release-shield]][github-release-link]
 [![][github-nightly-shield]][github-nightly-link]
 [![][github-license-shield]][github-license-link]
@@ -48,8 +49,7 @@
 </div>
 <div align="center">
 
-<!-- [![][readmex-shield]][readmex-link] -->
-
+[![][readmex-shield]][readmex-link]
 [![][deepwiki-shield]][deepwiki-link]
 [![][zread-shield]][zread-link]
 
@@ -64,60 +64,59 @@
 
 # Pengantar Perangkat Lunak
 
-zyfun adalah manajer multimedia lintas platform yang gratis, sangat sederhana, dan serbaguna, untuk mengelola semua jenis sumber daya T1-T4 secara terpadu, dengan pemutar multi-inti bawaan yang dapat dipilih sesuka hati. Fitur eksklusif "boss key", satu klik sembunyi agar aman saat bekerja diam-diam. Temukan dunia lewat menonton!
+zyfun adalah manajer media lintas platform yang gratis, sangat sederhana, dan serba bisa, yang dapat mengelola semua jenis sumber daya T1-T4 secara terpadu, dengan pemutar multi-inti bawaan yang bisa diganti sesuka hati. Fitur eksklusif boss key, satu klik untuk menyembunyikan aplikasi agar dapat bekerja diam-diam tanpa khawatir. Temukan dunia melalui menonton film!
 
 <details>
 <summary>Klik untuk melihat tangkapan layar perangkat lunak</summary>
 
-|                    Film & TV                     |                   Siaran Langsung                   |
-| :----------------------------------------------: | :--------------------------------------------------: |
-|  ![影视](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-film.png)   | ![直播](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-live.png) |
-|                  **Riwayat**                    |                 **Pemutaran**                        |
-| ![历史](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-history.png) | ![播放](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-play.png) |
+|                    Film                     |                   Siaran Langsung        |
+| :-----------------------------------------: | :--------------------------------------: |
+|  ![Film](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-film.png)   | ![Siaran](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-live.png) |
+|                  **Riwayat**                |                 **Putar**                |
+| ![Riwayat](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-history.png) | ![Putar](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-play.png) |
 
 </details>
 
-
 ## 🌴 Catatan Penting
 
-- Hanya dirilis di Github ini, jangan mudah tertipu; mohon para administrator tidak mempromosikan atau menarik pengguna ke software ini.
-- Sangat menganjurkan tontonan yang legal, software ini hanya sebagai alat pemutar, tidak terkait penyimpanan atau distribusi sumber daya.
-- Hanya untuk pembelajaran dan komunikasi pribadi, harap hapus dalam 24 jam, jangan digunakan untuk tujuan komersial.
-- Versi sebelumnya berasal dari [ZY-Player](https://github.com/Hunlongyu/ZY-Player), ikon didesain oleh @fourbeauty.
-- Sebelum mulai menggunakan, harap baca dan setujui perjanjian pengguna secara lengkap, pastikan mematuhi ketentuan terkait.
+- Hanya dirilis di Github, harap jangan tertipu; para pengelola jangan mempromosikan atau mengarahkan lalu lintas ke perangkat lunak ini.
+- Sangat menganjurkan menonton secara legal, perangkat lunak ini hanya sebagai alat pemutar dan tidak terlibat dalam penyimpanan atau distribusi sumber daya.
+- Hanya untuk pembelajaran dan pertukaran pribadi, harap hapus dalam 24 jam, jangan digunakan untuk tujuan komersial.
+- Berasal dari [ZY-Player](https://github.com/Hunlongyu/ZY-Player), ikon dirancang oleh @fourbeauty.
+- Sebelum mulai menggunakan, harap baca dengan saksama dan setujui perjanjian pengguna, pastikan mematuhi ketentuan yang berlaku.
 
-## 💻 Penjelasan Cross-Platform
+## 💻 Penjelasan Lintas Platform
 
 - **MacOS**:
-  - Jalur database/file/plugin/log: `~/Library/Application Support/zyfun/`
-  - Jalur binary: `~/.zy/bin/`
+  - Jalur Database/Berkas/Plugin/Log: `~/Library/Application Support/zyfun/`
+  - Jalur biner: `~/.zy/bin/`
 - **Linux**:
-  - Jalur database/file/plugin/log: `~/.config/zyfun/`
-  - Jalur binary: `~/.zy/bin/`
+  - Jalur Database/Berkas/Plugin/Log: `~/.config/zyfun/`
+  - Jalur biner: `~/.zy/bin/`
 - **Windows**:
-  - Jalur database/file/plugin/log: `%USERPROFILE%\AppData\Roaming\zyfun\`
-  - Jalur binary: `%USERPROFILE%\.zy\bin\`
+  - Jalur Database/Berkas/Plugin/Log: `%USERPROFILE%\AppData\Roaming\zyfun\`
+  - Jalur biner: `%USERPROFILE%\.zy\bin\`
   <!-- - **OpenHarmony**:
-  - Jalur database/file/plugin/log: `/data/storage/zyfun/base/files/log`
-  - Jalur binary: `~/.zy/bin/`-->
+  - Jalur Database/Berkas/Plugin/Log: `/data/storage/zyfun/base/files/log`
+  - Jalur biner: `~/.zy/bin/`-->
 
-## 🛠️ Unduh & Instal
+## 🛠️ Instalasi & Unduh
 
-> **Unduhan versi pengembangan**: Harus login akun Github
+> **Unduhan versi pengembangan**: Perlu login akun Github
 
-> **Persyaratan minimum**: Sama dengan persyaratan kernel chromium
+> **Persyaratan minimum**: Konsisten dengan persyaratan kernel chromium
 
-| Sistem Operasi | x64 | arm64 | loong64 | Rilis                                                                                                                                                                                                                      | Versi Pengembangan                                                                | Minimum     |
-| :------------: | :-: | :---: | :-----: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------ |
-| Windows        | ✅  |  ✅   |   ➖    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases)                                                                                                                                                                    | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml) | >= win10     |
-|  MacOS         | ✅  |  ✅   |   ➖    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases)                                                                                                                                                                    | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml) | >= macOS12   |
-|  Linux         | ✅  |  ✅   |   ❌    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases) <br/> [Ruyi Linglong App Store](https://store.linyaps.org.cn/) <br/> [Paket AUR](https://aur.archlinux.org/packages?O=0&SeB=nd&K=zyfun&outdated=&SB=p&SO=d&PP=50&submit=Go) | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml) |              |
-| Harmony        | ❌  |  ❌   |   ➖    |                                                                                                                                                                                                                           |                                                                                   |
+| Sistem Operasi | x64 | arm64 | loong64 | Rilis                                                                                                                                                                                                                      | Versi Pengembangan                                                                     | Minimum     |
+| :------: | :-: | :---: | :-----: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------- |
+| Windows  | ✅  |  ✅   |   ➖    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases)                                                                                                                                                                      | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml) | >= win10   |
+|  MacOS   | ✅  |  ✅   |   ➖    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases)                                                                                                                                                                      | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml) | >= macOS12 |
+|  Linux   | ✅  |  ✅   |   ❌    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases) <br/> [Toko Aplikasi RuiYiLingLong](https://store.linyaps.org.cn/) <br/> [Paket AUR](https://aur.archlinux.org/packages?O=0&SeB=nd&K=zyfun&outdated=&SB=p&SO=d&PP=50&submit=Go) | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml) |            |
+| Harmony  | ❌  |  ❌   |   ➖    |                                                                                                                                                                                                                             |                                                                                   |
 
 <details>
 <summary>Klik untuk melihat masalah instalasi</summary>
 
-#### Setelah instalasi MacOS muncul pesan "File rusak"
+#### Setelah instalasi di MacOS muncul pesan "File rusak"
 
 ```bash
 sudo spctl --master-disable
@@ -229,7 +228,7 @@ sudo yum install xdg-utils
       "updatedAt": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)
     }
   ],
-  "sites": [
+  "site": [
     {
       "id": "fddfb425-6fd9-0b39-459f-a21f69739a6e", // 数据唯一uuidv4标识(不可重复)
       "key": "51793af6-c923-5504-85db-0ef686624dec", // <3.4.0 启用> 业务唯一标识(不可重复)
@@ -267,12 +266,13 @@ sudo yum install xdg-utils
       "lang": "zh_CN", // <3.3.4 启用> 语言(<=3.4.0: zh_CN=简体中文,en_US=英文 | system=更随系统,zh_CN=简体中文,zh_TW=繁体中文,en_US=英文)
       "zoom": 1, // <3.4.1 启用> 界面缩放比例(预留)
       "proxy": {
-        "type": "none", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)
+        "type": "system", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)
         "url": "", // 代理地址(支持socks5/http/https协议)
         "bypass": "" // 忽略主机名
       }, <3.4.1 启用> 代理设置
       "defaultHot": "kylive", // <3.4.1 **弃用**> 热搜(kylive=酷云数据,enlightent=云合数据)
       "hot": "kylive", // <3.4.1 启用> 热搜(baidu=百度,douban=豆瓣,enlightent=云合,komect=移动爱家,kylive=酷云,quark=夸克)
+      "association": "douban", // <3.4.4 启用> 搜索联想(douban=豆瓣,iqiyi=爱奇艺,snm=喜粤TV)
       "defaultSearchRecommend": "site", // 搜索推荐 site:站点 quark:夸克 baidu:百度 douban:豆瓣  弃用
       "defaultSearchType": "site", // <3.4.1 **弃用**> 全局搜索模式 site:本站 group:组内 all:全部
       "defaultFilterType": false, // <3.3.7 启用, 3.4.1 **弃用**> 影视搜索过滤关键词
@@ -402,13 +402,12 @@ sudo yum install xdg-utils
 
 Berikut adalah beberapa cara Anda dapat berkontribusi:
 
-- **Kontribusi Kode**: Kembangkan fitur baru atau optimalkan kode yang sudah ada <[Dokumentasi Pengembangan](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Develop.md)>
-- **Perbaiki Bug**: Kirimkan perbaikan untuk bug yang Anda temukan <[Aturan Pengiriman](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Conventional_Commits.md)>
-- **Pemeliharaan Isu**: Bantu mengelola isu di GitHub
-- **Desain Produk**: Ikut serta dalam diskusi desain
-- **Penulisan Dokumentasi**: Tingkatkan manual dan panduan pengguna
-- **Keterlibatan Komunitas**: Bergabung dalam diskusi dan bantu pengguna lain
-- **Dukungan dengan Cinta**: Dukung perkembangan proyek (tidak terbatas pada dana, server, dll) <[kofi](https://ko-fi.com/hiramwong)> <[Aifadian](https://ifdian.net/a/hiram)>
+- **Kontribusi kode**: Kembangkan fitur baru atau optimalkan kode yang ada <[Dokumentasi Pengembangan](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Develop.md)> <[Dokumentasi Mcp](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Mcp.md)>
+- **Perbaikan bug**: Kirimkan perbaikan untuk bug yang Anda temukan <[Standar Pengiriman](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Conventional_Commits.md)>
+- **Pemeliharaan isu**: Membantu mengelola isu GitHub
+- **Desain produk**: Ikut serta dalam diskusi desain
+- **Menulis dokumentasi**: Meningkatkan panduan dan manual pengguna
+- **Partisipasi komunitas**: Bergabung dalam diskusi dan membantu pengguna lain
 
 [![][github-contributors-shield]][github-contributors-link]
 
@@ -435,8 +434,8 @@ Berikut adalah beberapa cara Anda dapat berkontribusi:
 [github-nightly-link]: https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml
 [github-contributors-shield]: https://openomy.app/svg?repo=Hiram-Wong/zyfun&chart=bubble&latestMonth=12
 [github-contributors-link]: https://openomy.app/github/Hiram-Wong/zyfun
-
 [github-license-shield]: https://img.shields.io/github/license/Hiram-Wong/zyfun?label=License&logo=gnu
+
 [github-license-link]: https://github.com/Hiram-Wong/zyfun/blob/main/LICENSE.txt
 [fossa-shield]: https://app.fossa.com/api/projects/git%2Bgithub.com%2FHiram-Wong%2Fzyfun.svg?type=shield
 [fossa-link]: https://app.fossa.com/projects/git%2Bgithub.com%2FHiram-Wong%2Fzyfun?ref=badge_shield
@@ -448,7 +447,7 @@ Berikut adalah beberapa cara Anda dapat berkontribusi:
 <!-- Tautan & Gambar -->
 
 [readmex-shield]: https://raw.githubusercontent.com/CodePhiliaX/resource-trusteeship/main/readmex.svg
-[readmex-link]: https://readmex.com/Hiram-Wong/zyfun
+[readmex-link]: https://readmex.com/Hiram-Wong/ZyPlayer
 [deepwiki-shield]: https://deepwiki.com/badge.svg
 [deepwiki-link]: https://deepwiki.com/Hiram-Wong/zyfun
 [zread-shield]: https://img.shields.io/badge/Ask_Zread-_.svg?style=flat&color=00b0aa&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQuOTYxNTYgMS42MDAxSDIuMjQxNTZDMS44ODgxIDEuNjAwMSAxLjYwMTU2IDEuODg2NjQgMS42MDE1NiAyLjI0MDFWNC45NjAxQzEuNjAxNTYgNS4zMTM1NiAxLjg4ODEgNS42MDAxIDIuMjQxNTYgNS42MDAxSDQuOTYxNTZDNS4zMTUwMiA1LjYwMDEgNS42MDE1NiA1LjMxMzU2IDUuNjAxNTYgNC45NjAxVjIuMjQwMUM1LjYwMTU2IDEuODg2NjQgNS4zMTUwMiAxLjYwMDEgNC45NjE1NiAxLjYwMDFaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik00Ljk2MTU2IDEwLjM5OTlIMi4yNDE1NkMxLjg4ODEgMTAuMzk5OSAxLjYwMTU2IDEwLjY4NjQgMS42MDE1NiAxMS4wMzk5VjEzLjc1OTlDMS42MDE1NiAxNC4xMTM0IDEuODg4MSAxNC4zOTk5IDIuMjQxNTYgMTQuMzk5OUg0Ljk2MTU2QzUuMzE1MDIgMTQuMzk5OSA1LjYwMTU2IDE0LjExMzQgNS42MDE1NiAxMy43NTk5VjExLjAzOTlDNS42MDE1NiAxMC42ODY0IDUuMzE1MDIgMTAuMzk5OSA0Ljk2MTU2IDEwLjM5OTlaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik0xMy43NTg0IDEuNjAwMUgxMS4wMzg0QzEwLjY4NSAxLjYwMDEgMTAuMzk4NCAxLjg4NjY0IDEwLjM5ODQgMi4yNDAxVjQuOTYwMUMxMC4zOTg0IDUuMzEzNTYgMTAuNjg1IDUuNjAwMSAxMS4wMzg0IDUuNjAwMUgxMy43NTg0QzE0LjExMTkgNS42MDAxIDE0LjM5ODQgNS4zMTM1NiAxNC4zOTg0IDQuOTYwMVYyLjI0MDFDMTQuMzk4NCAxLjg4NjY0IDE0LjExMTkgMS42MDAxIDEzLjc1ODQgMS42MDAxWiIgZmlsbD0iI2ZmZiIvPgo8cGF0aCBkPSJNNCAxMkwxMiA0TDQgMTJaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik00IDEyTDEyIDQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K&logoColor=ffffff
@@ -466,6 +465,6 @@ Berikut adalah beberapa cara Anda dapat berkontribusi:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-05
 
 ---

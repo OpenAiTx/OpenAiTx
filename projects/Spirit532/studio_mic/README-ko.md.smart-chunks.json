@@ -1,0 +1,304 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Simple, high quality condenser microphone for under $100\n\nI needed a good quality microphone, but all of the options available were either a bit pricy or just not really good in performance, so I decided to build my own.\n\nThe microphone build uses a clone RK12/CK12 capsule($40-50 on Aliexpress/Ebay/etc, search for \"edge terminated capsule\"), a U87 donor body($15-30, also Aliexpress, search term \"U87 mic\"), and a custom preamp board($20-30, this project).\n\nThe board is very simple, yet high performance - it uses a dual FET input opamp in a single package to both convert the capsule's impedance and provide a differential signal, while the bias is provided by a slightly cursed hex schmitt trigger inverter charge pump.\n\nWith the setup pictured below, the results are, to the non-audiophool ear, perfect. There is practically no self-noise due to the simplicity of the circuit and performance of the chosen opamp, plenty of dynamic range, and no signal distortion/\"coloration\". You get exactly what the capsule sees on the XLR connector.\n\n#### Notes about component choice\n  1. You can use pretty much any FET input opamp, **however** you must pay close attention to the quiescent current. This circuit uses a fairly high impedance power path, and the phantom power standard can't provide much current in the first place. Total power consumption of the two opamps should be no more than ~7-8mA(3.5-4mA per).\n\n  2. Same goes for the hex inverter in terms of power consumption, but otherwise anything will do. You can substitute the part with any 40106 clone of similar functionality.\n  \n  3. Take care to purchase high voltage rated capacitors where specified - this is important! Ceramic capacitors lose capacitance at higher voltages, so X7R class caps rated at 100V or more are preferred(this won't explicitly solve derating, but it will help). All values are  readily available in 0805 size, so it's not an issue.\n\n  4. Choose NP0/C0G capacitors for ceramics if your budget allows. They'll improve performance a little bit, but not by a whole lot. (this will solve derating, but at significant cost)\n  \nThe design is licensed under the MIT license. If you want to build it, go ahead. If you want to sell it, also go ahead, but just mention this page or something. Pretty much none of this is really original and has been done dozens of times(i.e. DJJules/Sound Sleuth over at Instructables, whose circuit I took inspiration from), I just put my own twist on it.\n\n#### Important note about cheap donor bodies\nMost cheap donor bodies will come pre-anodized or even pre-painted, including contact surfaces at separation points(circuit cover, headbasket, nut, spacers, etc), __make sure to sand them down__ to expose metal, or you'll pick up tons of mains hum and other external electrical noise!\n\n\n## Get the board\nIf you can't make or assemble the board yourself... well, uh, good luck, but most assembly houses in China will happily make them for you for not very much money.\nI had a PCBWay affiliate link here, but I wouldn't recommend dealing with them anymore.\n\n## Schematic\n(also available as pdf or KiCad 7 sources, see files)\n\n![Schematic](https://raw.githubusercontent.com/Spirit532/studio_mic/main/sch_img.png)\n\n## PCB render\n![Render](https://raw.githubusercontent.com/Spirit532/studio_mic/main/render.png)\n\n## Assembled board, DIY single-layer version(homemade)\n![Build](https://raw.githubusercontent.com/Spirit532/studio_mic/main/build.jpg)\n",
+    "ContentSha": "ajK7DdaJF3CfJHsjNF8vO/0WYZjWhG4nM4E9MTi1msU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# $100 미만의 간단하고 고품질 콘덴서 마이크\n\n저는 좋은 품질의 마이크가 필요했지만, 시중에 나온 옵션들은 가격이 다소 높거나 성능이 만족스럽지 않아 직접 만들기로 했습니다.\n\n이 마이크 제작에는 클론 RK12/CK12 캡슐(Aliexpress/Ebay 등에서 $40-50, \"edge terminated capsule\" 검색), U87 도너 바디($15-30, 역시 Aliexpress, \"U87 mic\" 검색어), 그리고 맞춤형 프리앰프 보드($20-30, 이 프로젝트)가 사용됩니다.\n\n이 보드는 매우 간단하면서도 고성능입니다 - 듀얼 FET 입력 opamp를 단일 패키지로 사용해 캡슐의 임피던스를 변환하고 차동 신호를 제공하며, 바이어스는 약간 독특한 헥스 슈미트 트리거 인버터 차지 펌프로 공급됩니다.\n\n아래 사진과 같은 구성으로, 비전문가의 귀에는 결과가 완벽합니다. 회로의 단순성과 선택한 opamp의 성능 덕분에 자체 노이즈가 사실상 없고, 충분한 다이내믹 레인지와 신호 왜곡/색채화가 없습니다. XLR 커넥터에서 캡슐이 받는 신호를 그대로 받을 수 있습니다.\n\n#### 부품 선택 관련 참고사항\n  1. 사실상 모든 FET 입력 opamp를 사용할 수 있지만, **정지 전류(quiescent current)에 특히 주의해야 합니다.** 이 회로는 상당히 높은 임피던스 전력 경로를 사용하며, 팬텀 파워 표준은 애초에 많은 전류를 공급하지 못합니다. 두 개의 opamp 전체 소비 전류는 최대 약 7-8mA(각각 3.5-4mA) 이내여야 합니다.\n\n  2. 전력 소비 면에서는 헥스 인버터도 마찬가지지만, 기능이 비슷한 40106 클론 부품으로 대체 가능합니다.\n  \n  3. 지정된 곳에는 고전압 등급의 커패시터를 구매하세요 - 이것이 중요합니다! 세라믹 커패시터는 높은 전압에서 정전용량이 감소하므로 100V 이상 등급의 X7R 클래스 커패시터를 권장합니다(이것이 완전한 디레이팅 해결책은 아니지만 도움이 됩니다). 모든 값은 0805 사이즈로 쉽게 구할 수 있어 문제 없습니다.\n\n  4. 예산이 허락된다면 세라믹 커패시터는 NP0/C0G 타입을 선택하세요. 성능이 약간 향상되지만 크게 차이나진 않습니다. (이것은 디레이팅 문제를 해결하지만 비용이 꽤 듭니다)\n  \n이 설계는 MIT 라이선스 하에 배포됩니다. 직접 제작하셔도 되고, 판매하셔도 되지만 이 페이지나 출처를 언급해 주세요. 사실 이 회로는 완전히 새로운 것이 아니며 여러 번 반복된 것들입니다(예: Instructables의 DJJules/Sound Sleuth 회로에서 영감을 받았습니다). 저는 여기에 제 스타일을 더했을 뿐입니다.\n\n#### 저가 도너 바디에 대한 중요한 참고사항\n대부분의 저가 도너 바디는 분리 지점(회로 커버, 헤드바스켓, 너트, 스페이서 등)의 접촉면까지 아노다이징 또는 도장이 되어 있으니, __반드시 사포로 갈아서 금속을 노출시키세요__. 그렇지 않으면 많은 메인 전원 험과 외부 전기 노이즈가 유입됩니다!\n\n\n## 보드 구하기\n보드를 직접 제작하거나 조립할 수 없다면... 음, 행운을 빕니다만, 중국의 대부분 조립 업체가 저렴한 가격에 제작해 줄 것입니다.\n예전에는 PCBWay 제휴 링크를 올렸으나 이제는 추천하지 않습니다.\n\n## 회로도\n(pdf 또는 KiCad 7 소스도 제공, 파일 참조)\n\n![Schematic](https://raw.githubusercontent.com/Spirit532/studio_mic/main/sch_img.png)\n\n## PCB 렌더링\n![Render](https://raw.githubusercontent.com/Spirit532/studio_mic/main/render.png)\n\n## 조립된 보드, DIY 단층 버전(자가제작)\n![Build](https://raw.githubusercontent.com/Spirit532/studio_mic/main/build.jpg)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "x0H/cnEpbjvZ3OT5weofXFebAPzh5v4eH6wY0rw72wE=",
+        "originContent": "# Simple, high quality condenser microphone for under $100",
+        "translatedContent": "# $100 미만의 간단하고 고품질 콘덴서 마이크"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "294LUpqixJgFnowPDIRFViePGSt6hkDe32NXIaqlQhQ=",
+        "originContent": "I needed a good quality microphone, but all of the options available were either a bit pricy or just not really good in performance, so I decided to build my own.",
+        "translatedContent": "저는 좋은 품질의 마이크가 필요했지만, 시중에 나온 옵션들은 가격이 다소 높거나 성능이 만족스럽지 않아 직접 만들기로 했습니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "W63Ndl1xOFlv2TWe+R1Zsbusim0puc/v9GfsstVJ69g=",
+        "originContent": "The microphone build uses a clone RK12/CK12 capsule($40-50 on Aliexpress/Ebay/etc, search for \"edge terminated capsule\"), a U87 donor body($15-30, also Aliexpress, search term \"U87 mic\"), and a custom preamp board($20-30, this project).",
+        "translatedContent": "이 마이크 제작에는 클론 RK12/CK12 캡슐(Aliexpress/Ebay 등에서 $40-50, \"edge terminated capsule\" 검색), U87 도너 바디($15-30, 역시 Aliexpress, \"U87 mic\" 검색어), 그리고 맞춤형 프리앰프 보드($20-30, 이 프로젝트)가 사용됩니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "0wZlGqK0H0smSmLl/wJKS/NDmVZGKwNqQ/6cH/bugYA=",
+        "originContent": "The board is very simple, yet high performance - it uses a dual FET input opamp in a single package to both convert the capsule's impedance and provide a differential signal, while the bias is provided by a slightly cursed hex schmitt trigger inverter charge pump.",
+        "translatedContent": "이 보드는 매우 간단하면서도 고성능입니다 - 듀얼 FET 입력 opamp를 단일 패키지로 사용해 캡슐의 임피던스를 변환하고 차동 신호를 제공하며, 바이어스는 약간 독특한 헥스 슈미트 트리거 인버터 차지 펌프로 공급됩니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "IK3ZiH5huRUZ34XE+wYs6L4Z22NE55Bg5ngcOBqnhUQ=",
+        "originContent": "With the setup pictured below, the results are, to the non-audiophool ear, perfect. There is practically no self-noise due to the simplicity of the circuit and performance of the chosen opamp, plenty of dynamic range, and no signal distortion/\"coloration\". You get exactly what the capsule sees on the XLR connector.",
+        "translatedContent": "아래 사진과 같은 구성으로, 비전문가의 귀에는 결과가 완벽합니다. 회로의 단순성과 선택한 opamp의 성능 덕분에 자체 노이즈가 사실상 없고, 충분한 다이내믹 레인지와 신호 왜곡/색채화가 없습니다. XLR 커넥터에서 캡슐이 받는 신호를 그대로 받을 수 있습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "iL+eYa9x5Aa+gfzWT071kIBz09wld/zabUFC63iBc7Y=",
+        "originContent": "#### Notes about component choice",
+        "translatedContent": "#### 부품 선택 관련 참고사항"
+      },
+      {
+        "row": 12,
+        "rowsha": "og24EUAa5DkjOoLV3LBtHRoqdrO2wDWoqe0yTc+S8j0=",
+        "originContent": "  1. You can use pretty much any FET input opamp, **however** you must pay close attention to the quiescent current. This circuit uses a fairly high impedance power path, and the phantom power standard can't provide much current in the first place. Total power consumption of the two opamps should be no more than ~7-8mA(3.5-4mA per).",
+        "translatedContent": "  1. 사실상 모든 FET 입력 opamp를 사용할 수 있지만, **정지 전류(quiescent current)에 특히 주의해야 합니다.** 이 회로는 상당히 높은 임피던스 전력 경로를 사용하며, 팬텀 파워 표준은 애초에 많은 전류를 공급하지 못합니다. 두 개의 opamp 전체 소비 전류는 최대 약 7-8mA(각각 3.5-4mA) 이내여야 합니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "mMhFvMujxnPYoqkEEj/EUVItxB89x+S/DjeHkpNVnm0=",
+        "originContent": "  2. Same goes for the hex inverter in terms of power consumption, but otherwise anything will do. You can substitute the part with any 40106 clone of similar functionality.",
+        "translatedContent": "  2. 전력 소비 면에서는 헥스 인버터도 마찬가지지만, 기능이 비슷한 40106 클론 부품으로 대체 가능합니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 16,
+        "rowsha": "wVGQThlPK0wiU5XBUj2Of528DWd9UXKlSV7mtaMlLX8=",
+        "originContent": "  3. Take care to purchase high voltage rated capacitors where specified - this is important! Ceramic capacitors lose capacitance at higher voltages, so X7R class caps rated at 100V or more are preferred(this won't explicitly solve derating, but it will help). All values are  readily available in 0805 size, so it's not an issue.",
+        "translatedContent": "  3. 지정된 곳에는 고전압 등급의 커패시터를 구매하세요 - 이것이 중요합니다! 세라믹 커패시터는 높은 전압에서 정전용량이 감소하므로 100V 이상 등급의 X7R 클래스 커패시터를 권장합니다(이것이 완전한 디레이팅 해결책은 아니지만 도움이 됩니다). 모든 값은 0805 사이즈로 쉽게 구할 수 있어 문제 없습니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "n2nE/pLxR2HflKsFuiw1g6L9PE0J/nLLdMgZJZK5lHU=",
+        "originContent": "  4. Choose NP0/C0G capacitors for ceramics if your budget allows. They'll improve performance a little bit, but not by a whole lot. (this will solve derating, but at significant cost)",
+        "translatedContent": "  4. 예산이 허락된다면 세라믹 커패시터는 NP0/C0G 타입을 선택하세요. 성능이 약간 향상되지만 크게 차이나진 않습니다. (이것은 디레이팅 문제를 해결하지만 비용이 꽤 듭니다)"
+      },
+      {
+        "row": 19,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 20,
+        "rowsha": "ivAvgMx6AC7brYU+0vlC+oWWjzrqsJ2OpWTEsc0RhFU=",
+        "originContent": "The design is licensed under the MIT license. If you want to build it, go ahead. If you want to sell it, also go ahead, but just mention this page or something. Pretty much none of this is really original and has been done dozens of times(i.e. DJJules/Sound Sleuth over at Instructables, whose circuit I took inspiration from), I just put my own twist on it.",
+        "translatedContent": "이 설계는 MIT 라이선스 하에 배포됩니다. 직접 제작하셔도 되고, 판매하셔도 되지만 이 페이지나 출처를 언급해 주세요. 사실 이 회로는 완전히 새로운 것이 아니며 여러 번 반복된 것들입니다(예: Instructables의 DJJules/Sound Sleuth 회로에서 영감을 받았습니다). 저는 여기에 제 스타일을 더했을 뿐입니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "PYtuLE9fvA3/uIIuozMxDwGHp6A/3JKNsKOhD7JvCxQ=",
+        "originContent": "#### Important note about cheap donor bodies",
+        "translatedContent": "#### 저가 도너 바디에 대한 중요한 참고사항"
+      },
+      {
+        "row": 23,
+        "rowsha": "LJthCKUQTrrb/DI/S2ODDLIW4W4ahhxrrB3BLyHf/kI=",
+        "originContent": "Most cheap donor bodies will come pre-anodized or even pre-painted, including contact surfaces at separation points(circuit cover, headbasket, nut, spacers, etc), __make sure to sand them down__ to expose metal, or you'll pick up tons of mains hum and other external electrical noise!",
+        "translatedContent": "대부분의 저가 도너 바디는 분리 지점(회로 커버, 헤드바스켓, 너트, 스페이서 등)의 접촉면까지 아노다이징 또는 도장이 되어 있으니, __반드시 사포로 갈아서 금속을 노출시키세요__. 그렇지 않으면 많은 메인 전원 험과 외부 전기 노이즈가 유입됩니다!"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "qsTeMejDMDlq6zcZ266m8Ty1/eBrXZP2+6nj7RL5iIk=",
+        "originContent": "## Get the board",
+        "translatedContent": "## 보드 구하기"
+      },
+      {
+        "row": 27,
+        "rowsha": "4pcni2oEuAaWAqYXi6g7kPindse7XEV9+h2bvrdy0sI=",
+        "originContent": "If you can't make or assemble the board yourself... well, uh, good luck, but most assembly houses in China will happily make them for you for not very much money.",
+        "translatedContent": "보드를 직접 제작하거나 조립할 수 없다면... 음, 행운을 빕니다만, 중국의 대부분 조립 업체가 저렴한 가격에 제작해 줄 것입니다."
+      },
+      {
+        "row": 28,
+        "rowsha": "c4MSmTUUkxE23+XAKMHt2lRoDlmc9vvW9a9C1wqEO3c=",
+        "originContent": "I had a PCBWay affiliate link here, but I wouldn't recommend dealing with them anymore.",
+        "translatedContent": "예전에는 PCBWay 제휴 링크를 올렸으나 이제는 추천하지 않습니다."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "lJeUi8rz9oeHtjFm9NKhzcOy81lYPThRWgbVUyZVhew=",
+        "originContent": "## Schematic",
+        "translatedContent": "## 회로도"
+      },
+      {
+        "row": 31,
+        "rowsha": "BZrFToHNZV3E675dnJr7lObjto86y+Z44bbMZ/ODt7U=",
+        "originContent": "(also available as pdf or KiCad 7 sources, see files)",
+        "translatedContent": "(pdf 또는 KiCad 7 소스도 제공, 파일 참조)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "3hxlI26gwql5oncDne4cJQF4n+3pFjP2myh+150JJM4=",
+        "originContent": "![Schematic](https://raw.githubusercontent.com/Spirit532/studio_mic/main/sch_img.png)",
+        "translatedContent": "![Schematic](https://raw.githubusercontent.com/Spirit532/studio_mic/main/sch_img.png)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "1zLd+1t2s/JVjS5V28Km2erp+cw8Wdai5Yiz2s7h/Ho=",
+        "originContent": "## PCB render",
+        "translatedContent": "## PCB 렌더링"
+      },
+      {
+        "row": 36,
+        "rowsha": "ZGWpACGeRCPtA/pXgzk1GLUOgodN79wFwVoCiiRQMVQ=",
+        "originContent": "![Render](https://raw.githubusercontent.com/Spirit532/studio_mic/main/render.png)",
+        "translatedContent": "![Render](https://raw.githubusercontent.com/Spirit532/studio_mic/main/render.png)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "OYqlPwzQVeutNQ+ztn13th8CldD7MgmCuurQ8mYM0m8=",
+        "originContent": "## Assembled board, DIY single-layer version(homemade)",
+        "translatedContent": "## 조립된 보드, DIY 단층 버전(자가제작)"
+      },
+      {
+        "row": 39,
+        "rowsha": "oGgTa7go8uFAez+q5CLjKTruEz5SrRn24uk6pS78TPk=",
+        "originContent": "![Build](https://raw.githubusercontent.com/Spirit532/studio_mic/main/build.jpg)",
+        "translatedContent": "![Build](https://raw.githubusercontent.com/Spirit532/studio_mic/main/build.jpg)"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## Capsule mounted in the donor body\n![Capsule](https://raw.githubusercontent.com/Spirit532/studio_mic/main/capsule.png)\n\n## U87 clone donor body\n![Donor](https://raw.githubusercontent.com/Spirit532/studio_mic/main/donor.png)\n",
+    "ContentSha": "ZHL2336KKMc1Fy28/JimLJbCiCXVORJ5KQJcZVYlctY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 도너 바디에 장착된 캡슐\n![Capsule](https://raw.githubusercontent.com/Spirit532/studio_mic/main/capsule.png)\n\n## U87 클론 도너 바디\n![Donor](https://raw.githubusercontent.com/Spirit532/studio_mic/main/donor.png)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0GcErJj1N7flb4HR0RPN/vQ6kQSlaFEw4XLt5CRyc7k=",
+        "originContent": "## Capsule mounted in the donor body",
+        "translatedContent": "## 도너 바디에 장착된 캡슐"
+      },
+      {
+        "row": 2,
+        "rowsha": "VZsowtMy79hZWcjo1lpIgBZLQF/T3YE65HPwyIFRfws=",
+        "originContent": "![Capsule](https://raw.githubusercontent.com/Spirit532/studio_mic/main/capsule.png)",
+        "translatedContent": "![Capsule](https://raw.githubusercontent.com/Spirit532/studio_mic/main/capsule.png)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "pXgV9hf5fxGrz2+M9O75/QEZwdFg1EVR8rDLixoHqLw=",
+        "originContent": "## U87 clone donor body",
+        "translatedContent": "## U87 클론 도너 바디"
+      },
+      {
+        "row": 5,
+        "rowsha": "oiacge4rd4Cf8gQVu9bqBWtwLz/CRBTEKdeOfEpe93U=",
+        "originContent": "![Donor](https://raw.githubusercontent.com/Spirit532/studio_mic/main/donor.png)",
+        "translatedContent": "![Donor](https://raw.githubusercontent.com/Spirit532/studio_mic/main/donor.png)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

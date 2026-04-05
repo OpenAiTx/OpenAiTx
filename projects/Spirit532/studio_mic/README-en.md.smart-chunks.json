@@ -1,0 +1,304 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Simple, high quality condenser microphone for under $100\n\nI needed a good quality microphone, but all of the options available were either a bit pricy or just not really good in performance, so I decided to build my own.\n\nThe microphone build uses a clone RK12/CK12 capsule($40-50 on Aliexpress/Ebay/etc, search for \"edge terminated capsule\"), a U87 donor body($15-30, also Aliexpress, search term \"U87 mic\"), and a custom preamp board($20-30, this project).\n\nThe board is very simple, yet high performance - it uses a dual FET input opamp in a single package to both convert the capsule's impedance and provide a differential signal, while the bias is provided by a slightly cursed hex schmitt trigger inverter charge pump.\n\nWith the setup pictured below, the results are, to the non-audiophool ear, perfect. There is practically no self-noise due to the simplicity of the circuit and performance of the chosen opamp, plenty of dynamic range, and no signal distortion/\"coloration\". You get exactly what the capsule sees on the XLR connector.\n\n#### Notes about component choice\n  1. You can use pretty much any FET input opamp, **however** you must pay close attention to the quiescent current. This circuit uses a fairly high impedance power path, and the phantom power standard can't provide much current in the first place. Total power consumption of the two opamps should be no more than ~7-8mA(3.5-4mA per).\n\n  2. Same goes for the hex inverter in terms of power consumption, but otherwise anything will do. You can substitute the part with any 40106 clone of similar functionality.\n  \n  3. Take care to purchase high voltage rated capacitors where specified - this is important! Ceramic capacitors lose capacitance at higher voltages, so X7R class caps rated at 100V or more are preferred(this won't explicitly solve derating, but it will help). All values are  readily available in 0805 size, so it's not an issue.\n\n  4. Choose NP0/C0G capacitors for ceramics if your budget allows. They'll improve performance a little bit, but not by a whole lot. (this will solve derating, but at significant cost)\n  \nThe design is licensed under the MIT license. If you want to build it, go ahead. If you want to sell it, also go ahead, but just mention this page or something. Pretty much none of this is really original and has been done dozens of times(i.e. DJJules/Sound Sleuth over at Instructables, whose circuit I took inspiration from), I just put my own twist on it.\n\n#### Important note about cheap donor bodies\nMost cheap donor bodies will come pre-anodized or even pre-painted, including contact surfaces at separation points(circuit cover, headbasket, nut, spacers, etc), __make sure to sand them down__ to expose metal, or you'll pick up tons of mains hum and other external electrical noise!\n\n\n## Get the board\nIf you can't make or assemble the board yourself... well, uh, good luck, but most assembly houses in China will happily make them for you for not very much money.\nI had a PCBWay affiliate link here, but I wouldn't recommend dealing with them anymore.\n\n## Schematic\n(also available as pdf or KiCad 7 sources, see files)\n\n![Schematic](https://raw.githubusercontent.com/Spirit532/studio_mic/main/sch_img.png)\n\n## PCB render\n![Render](https://raw.githubusercontent.com/Spirit532/studio_mic/main/render.png)\n\n## Assembled board, DIY single-layer version(homemade)\n![Build](https://raw.githubusercontent.com/Spirit532/studio_mic/main/build.jpg)\n",
+    "ContentSha": "ajK7DdaJF3CfJHsjNF8vO/0WYZjWhG4nM4E9MTi1msU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Simple, high quality condenser microphone for under $100\n\nI needed a good quality microphone, but all of the options available were either a bit pricy or just not really good in performance, so I decided to build my own.\n\nThe microphone build uses a clone RK12/CK12 capsule($40-50 on Aliexpress/Ebay/etc, search for \"edge terminated capsule\"), a U87 donor body($15-30, also Aliexpress, search term \"U87 mic\"), and a custom preamp board($20-30, this project).\n\nThe board is very simple, yet high performance - it uses a dual FET input opamp in a single package to both convert the capsule's impedance and provide a differential signal, while the bias is provided by a slightly cursed hex schmitt trigger inverter charge pump.\n\nWith the setup pictured below, the results are, to the non-audiophool ear, perfect. There is practically no self-noise due to the simplicity of the circuit and performance of the chosen opamp, plenty of dynamic range, and no signal distortion/\"coloration\". You get exactly what the capsule sees on the XLR connector.\n\n#### Notes about component choice\n  1. You can use pretty much any FET input opamp, **however** you must pay close attention to the quiescent current. This circuit uses a fairly high impedance power path, and the phantom power standard can't provide much current in the first place. Total power consumption of the two opamps should be no more than ~7-8mA(3.5-4mA per).\n\n  2. Same goes for the hex inverter in terms of power consumption, but otherwise anything will do. You can substitute the part with any 40106 clone of similar functionality.\n  \n  3. Take care to purchase high voltage rated capacitors where specified - this is important! Ceramic capacitors lose capacitance at higher voltages, so X7R class caps rated at 100V or more are preferred(this won't explicitly solve derating, but it will help). All values are  readily available in 0805 size, so it's not an issue.\n\n  4. Choose NP0/C0G capacitors for ceramics if your budget allows. They'll improve performance a little bit, but not by a whole lot. (this will solve derating, but at significant cost)\n  \nThe design is licensed under the MIT license. If you want to build it, go ahead. If you want to sell it, also go ahead, but just mention this page or something. Pretty much none of this is really original and has been done dozens of times(i.e. DJJules/Sound Sleuth over at Instructables, whose circuit I took inspiration from), I just put my own twist on it.\n\n#### Important note about cheap donor bodies\nMost cheap donor bodies will come pre-anodized or even pre-painted, including contact surfaces at separation points(circuit cover, headbasket, nut, spacers, etc), __make sure to sand them down__ to expose metal, or you'll pick up tons of mains hum and other external electrical noise!\n\n\n## Get the board\nIf you can't make or assemble the board yourself... well, uh, good luck, but most assembly houses in China will happily make them for you for not very much money.\nI had a PCBWay affiliate link here, but I wouldn't recommend dealing with them anymore.\n\n## Schematic\n(also available as pdf or KiCad 7 sources, see files)\n\n![Schematic](https://raw.githubusercontent.com/Spirit532/studio_mic/main/sch_img.png)\n\n## PCB render\n![Render](https://raw.githubusercontent.com/Spirit532/studio_mic/main/render.png)\n\n## Assembled board, DIY single-layer version(homemade)\n![Build](https://raw.githubusercontent.com/Spirit532/studio_mic/main/build.jpg)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "x0H/cnEpbjvZ3OT5weofXFebAPzh5v4eH6wY0rw72wE=",
+        "originContent": "# Simple, high quality condenser microphone for under $100",
+        "translatedContent": "# Simple, high quality condenser microphone for under $100"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "294LUpqixJgFnowPDIRFViePGSt6hkDe32NXIaqlQhQ=",
+        "originContent": "I needed a good quality microphone, but all of the options available were either a bit pricy or just not really good in performance, so I decided to build my own.",
+        "translatedContent": "I needed a good quality microphone, but all of the options available were either a bit pricy or just not really good in performance, so I decided to build my own."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "W63Ndl1xOFlv2TWe+R1Zsbusim0puc/v9GfsstVJ69g=",
+        "originContent": "The microphone build uses a clone RK12/CK12 capsule($40-50 on Aliexpress/Ebay/etc, search for \"edge terminated capsule\"), a U87 donor body($15-30, also Aliexpress, search term \"U87 mic\"), and a custom preamp board($20-30, this project).",
+        "translatedContent": "The microphone build uses a clone RK12/CK12 capsule($40-50 on Aliexpress/Ebay/etc, search for \"edge terminated capsule\"), a U87 donor body($15-30, also Aliexpress, search term \"U87 mic\"), and a custom preamp board($20-30, this project)."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "0wZlGqK0H0smSmLl/wJKS/NDmVZGKwNqQ/6cH/bugYA=",
+        "originContent": "The board is very simple, yet high performance - it uses a dual FET input opamp in a single package to both convert the capsule's impedance and provide a differential signal, while the bias is provided by a slightly cursed hex schmitt trigger inverter charge pump.",
+        "translatedContent": "The board is very simple, yet high performance - it uses a dual FET input opamp in a single package to both convert the capsule's impedance and provide a differential signal, while the bias is provided by a slightly cursed hex schmitt trigger inverter charge pump."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "IK3ZiH5huRUZ34XE+wYs6L4Z22NE55Bg5ngcOBqnhUQ=",
+        "originContent": "With the setup pictured below, the results are, to the non-audiophool ear, perfect. There is practically no self-noise due to the simplicity of the circuit and performance of the chosen opamp, plenty of dynamic range, and no signal distortion/\"coloration\". You get exactly what the capsule sees on the XLR connector.",
+        "translatedContent": "With the setup pictured below, the results are, to the non-audiophool ear, perfect. There is practically no self-noise due to the simplicity of the circuit and performance of the chosen opamp, plenty of dynamic range, and no signal distortion/\"coloration\". You get exactly what the capsule sees on the XLR connector."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "iL+eYa9x5Aa+gfzWT071kIBz09wld/zabUFC63iBc7Y=",
+        "originContent": "#### Notes about component choice",
+        "translatedContent": "#### Notes about component choice"
+      },
+      {
+        "row": 12,
+        "rowsha": "og24EUAa5DkjOoLV3LBtHRoqdrO2wDWoqe0yTc+S8j0=",
+        "originContent": "  1. You can use pretty much any FET input opamp, **however** you must pay close attention to the quiescent current. This circuit uses a fairly high impedance power path, and the phantom power standard can't provide much current in the first place. Total power consumption of the two opamps should be no more than ~7-8mA(3.5-4mA per).",
+        "translatedContent": "  1. You can use pretty much any FET input opamp, **however** you must pay close attention to the quiescent current. This circuit uses a fairly high impedance power path, and the phantom power standard can't provide much current in the first place. Total power consumption of the two opamps should be no more than ~7-8mA(3.5-4mA per)."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "mMhFvMujxnPYoqkEEj/EUVItxB89x+S/DjeHkpNVnm0=",
+        "originContent": "  2. Same goes for the hex inverter in terms of power consumption, but otherwise anything will do. You can substitute the part with any 40106 clone of similar functionality.",
+        "translatedContent": "  2. Same goes for the hex inverter in terms of power consumption, but otherwise anything will do. You can substitute the part with any 40106 clone of similar functionality."
+      },
+      {
+        "row": 15,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 16,
+        "rowsha": "wVGQThlPK0wiU5XBUj2Of528DWd9UXKlSV7mtaMlLX8=",
+        "originContent": "  3. Take care to purchase high voltage rated capacitors where specified - this is important! Ceramic capacitors lose capacitance at higher voltages, so X7R class caps rated at 100V or more are preferred(this won't explicitly solve derating, but it will help). All values are  readily available in 0805 size, so it's not an issue.",
+        "translatedContent": "  3. Take care to purchase high voltage rated capacitors where specified - this is important! Ceramic capacitors lose capacitance at higher voltages, so X7R class caps rated at 100V or more are preferred(this won't explicitly solve derating, but it will help). All values are  readily available in 0805 size, so it's not an issue."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "n2nE/pLxR2HflKsFuiw1g6L9PE0J/nLLdMgZJZK5lHU=",
+        "originContent": "  4. Choose NP0/C0G capacitors for ceramics if your budget allows. They'll improve performance a little bit, but not by a whole lot. (this will solve derating, but at significant cost)",
+        "translatedContent": "  4. Choose NP0/C0G capacitors for ceramics if your budget allows. They'll improve performance a little bit, but not by a whole lot. (this will solve derating, but at significant cost)"
+      },
+      {
+        "row": 19,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 20,
+        "rowsha": "ivAvgMx6AC7brYU+0vlC+oWWjzrqsJ2OpWTEsc0RhFU=",
+        "originContent": "The design is licensed under the MIT license. If you want to build it, go ahead. If you want to sell it, also go ahead, but just mention this page or something. Pretty much none of this is really original and has been done dozens of times(i.e. DJJules/Sound Sleuth over at Instructables, whose circuit I took inspiration from), I just put my own twist on it.",
+        "translatedContent": "The design is licensed under the MIT license. If you want to build it, go ahead. If you want to sell it, also go ahead, but just mention this page or something. Pretty much none of this is really original and has been done dozens of times(i.e. DJJules/Sound Sleuth over at Instructables, whose circuit I took inspiration from), I just put my own twist on it."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "PYtuLE9fvA3/uIIuozMxDwGHp6A/3JKNsKOhD7JvCxQ=",
+        "originContent": "#### Important note about cheap donor bodies",
+        "translatedContent": "#### Important note about cheap donor bodies"
+      },
+      {
+        "row": 23,
+        "rowsha": "LJthCKUQTrrb/DI/S2ODDLIW4W4ahhxrrB3BLyHf/kI=",
+        "originContent": "Most cheap donor bodies will come pre-anodized or even pre-painted, including contact surfaces at separation points(circuit cover, headbasket, nut, spacers, etc), __make sure to sand them down__ to expose metal, or you'll pick up tons of mains hum and other external electrical noise!",
+        "translatedContent": "Most cheap donor bodies will come pre-anodized or even pre-painted, including contact surfaces at separation points(circuit cover, headbasket, nut, spacers, etc), __make sure to sand them down__ to expose metal, or you'll pick up tons of mains hum and other external electrical noise!"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "qsTeMejDMDlq6zcZ266m8Ty1/eBrXZP2+6nj7RL5iIk=",
+        "originContent": "## Get the board",
+        "translatedContent": "## Get the board"
+      },
+      {
+        "row": 27,
+        "rowsha": "4pcni2oEuAaWAqYXi6g7kPindse7XEV9+h2bvrdy0sI=",
+        "originContent": "If you can't make or assemble the board yourself... well, uh, good luck, but most assembly houses in China will happily make them for you for not very much money.",
+        "translatedContent": "If you can't make or assemble the board yourself... well, uh, good luck, but most assembly houses in China will happily make them for you for not very much money."
+      },
+      {
+        "row": 28,
+        "rowsha": "c4MSmTUUkxE23+XAKMHt2lRoDlmc9vvW9a9C1wqEO3c=",
+        "originContent": "I had a PCBWay affiliate link here, but I wouldn't recommend dealing with them anymore.",
+        "translatedContent": "I had a PCBWay affiliate link here, but I wouldn't recommend dealing with them anymore."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "lJeUi8rz9oeHtjFm9NKhzcOy81lYPThRWgbVUyZVhew=",
+        "originContent": "## Schematic",
+        "translatedContent": "## Schematic"
+      },
+      {
+        "row": 31,
+        "rowsha": "BZrFToHNZV3E675dnJr7lObjto86y+Z44bbMZ/ODt7U=",
+        "originContent": "(also available as pdf or KiCad 7 sources, see files)",
+        "translatedContent": "(also available as pdf or KiCad 7 sources, see files)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "3hxlI26gwql5oncDne4cJQF4n+3pFjP2myh+150JJM4=",
+        "originContent": "![Schematic](https://raw.githubusercontent.com/Spirit532/studio_mic/main/sch_img.png)",
+        "translatedContent": "![Schematic](https://raw.githubusercontent.com/Spirit532/studio_mic/main/sch_img.png)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "1zLd+1t2s/JVjS5V28Km2erp+cw8Wdai5Yiz2s7h/Ho=",
+        "originContent": "## PCB render",
+        "translatedContent": "## PCB render"
+      },
+      {
+        "row": 36,
+        "rowsha": "ZGWpACGeRCPtA/pXgzk1GLUOgodN79wFwVoCiiRQMVQ=",
+        "originContent": "![Render](https://raw.githubusercontent.com/Spirit532/studio_mic/main/render.png)",
+        "translatedContent": "![Render](https://raw.githubusercontent.com/Spirit532/studio_mic/main/render.png)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "OYqlPwzQVeutNQ+ztn13th8CldD7MgmCuurQ8mYM0m8=",
+        "originContent": "## Assembled board, DIY single-layer version(homemade)",
+        "translatedContent": "## Assembled board, DIY single-layer version(homemade)"
+      },
+      {
+        "row": 39,
+        "rowsha": "oGgTa7go8uFAez+q5CLjKTruEz5SrRn24uk6pS78TPk=",
+        "originContent": "![Build](https://raw.githubusercontent.com/Spirit532/studio_mic/main/build.jpg)",
+        "translatedContent": "![Build](https://raw.githubusercontent.com/Spirit532/studio_mic/main/build.jpg)"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## Capsule mounted in the donor body\n![Capsule](https://raw.githubusercontent.com/Spirit532/studio_mic/main/capsule.png)\n\n## U87 clone donor body\n![Donor](https://raw.githubusercontent.com/Spirit532/studio_mic/main/donor.png)\n",
+    "ContentSha": "ZHL2336KKMc1Fy28/JimLJbCiCXVORJ5KQJcZVYlctY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Capsule mounted in the donor body\n![Capsule](https://raw.githubusercontent.com/Spirit532/studio_mic/main/capsule.png)\n\n## U87 clone donor body\n![Donor](https://raw.githubusercontent.com/Spirit532/studio_mic/main/donor.png)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0GcErJj1N7flb4HR0RPN/vQ6kQSlaFEw4XLt5CRyc7k=",
+        "originContent": "## Capsule mounted in the donor body",
+        "translatedContent": "## Capsule mounted in the donor body"
+      },
+      {
+        "row": 2,
+        "rowsha": "VZsowtMy79hZWcjo1lpIgBZLQF/T3YE65HPwyIFRfws=",
+        "originContent": "![Capsule](https://raw.githubusercontent.com/Spirit532/studio_mic/main/capsule.png)",
+        "translatedContent": "![Capsule](https://raw.githubusercontent.com/Spirit532/studio_mic/main/capsule.png)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "pXgV9hf5fxGrz2+M9O75/QEZwdFg1EVR8rDLixoHqLw=",
+        "originContent": "## U87 clone donor body",
+        "translatedContent": "## U87 clone donor body"
+      },
+      {
+        "row": 5,
+        "rowsha": "oiacge4rd4Cf8gQVu9bqBWtwLz/CRBTEKdeOfEpe93U=",
+        "originContent": "![Donor](https://raw.githubusercontent.com/Spirit532/studio_mic/main/donor.png)",
+        "translatedContent": "![Donor](https://raw.githubusercontent.com/Spirit532/studio_mic/main/donor.png)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

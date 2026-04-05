@@ -1,0 +1,1249 @@
+[
+  {
+    "Id": 1,
+    "Content": "# codex-as-mcp\n\n[中文版](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/./README.zh-CN.md)\n\n`codex-as-mcp` is a small **Model Context Protocol (MCP)** server that lets MCP clients (Claude Code, Cursor, etc.) delegate work to the **Codex CLI**.\n\nIt exposes two tools that run Codex in the server's current working directory:\n- `spawn_agent(prompt: str)`\n- `spawn_agents_parallel(agents: list[dict])`\n\nUnder the hood, each agent runs something like:\n`codex exec --cd <server cwd> --skip-git-repo-check --dangerously-bypass-approvals-and-sandbox \"<prompt>\"`.\n\nNote: `--dangerously-bypass-approvals-and-sandbox` disables sandboxing and confirmation prompts. Use this server only in repos you trust.\n\n## Use it in Claude Code\n\nThere are two tools in codex-as-mcp\n![tools](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/assets/tools.png)\n\nYou can spawn parallel codex subagents using prompt.\n![alt text](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/assets/claude.png)\n\nHere's a sample Codex session delegating two tasks in parallel.\n![Codex use case](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/assets/codex.png)\n\n## Quick start\n\n### 1. Install Codex CLI\n\n**Requires Codex CLI >= 0.46.0**\n",
+    "ContentSha": "IGEsRr/k8PXjs8CDOtsZVoO4gGB0qJhXfvdLHqisYJY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# codex-as-mcp\n\n[中文版](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/./README.zh-CN.md)\n\n`codex-as-mcp` est un petit serveur **Model Context Protocol (MCP)** qui permet aux clients MCP (Claude Code, Cursor, etc.) de déléguer des tâches au **Codex CLI**.\n\nIl expose deux outils qui exécutent Codex dans le répertoire de travail actuel du serveur :\n- `spawn_agent(prompt: str)`\n- `spawn_agents_parallel(agents: list[dict])`\n\nEn coulisses, chaque agent exécute quelque chose comme :\n`codex exec --cd <server cwd> --skip-git-repo-check --dangerously-bypass-approvals-and-sandbox \"<prompt>\"`.\n\nRemarque : `--dangerously-bypass-approvals-and-sandbox` désactive le sandboxing et les invites de confirmation. Utilisez ce serveur uniquement dans des dépôts en lesquels vous avez confiance.\n\n## Utilisez-le dans Claude Code\n\nIl y a deux outils dans codex-as-mcp\n![tools](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/assets/tools.png)\n\nVous pouvez lancer des sous-agents codex parallèles en utilisant un prompt.\n![alt text](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/assets/claude.png)\n\nVoici une session Codex exemple déléguant deux tâches en parallèle.\n![Cas d'utilisation de Codex](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/assets/codex.png)\n\n## Démarrage rapide\n\n### 1. Installer Codex CLI\n\n**Nécessite Codex CLI >= 0.46.0**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "12zrBdxu3I0rE0q88EbJiPDCQhXASSGBY49rqSauRs4=",
+        "originContent": "# codex-as-mcp",
+        "translatedContent": "# codex-as-mcp"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "wmAc3NS5Mz0xPoZPqBkD6tf8XAmsNZ5vyZpyShUlSSU=",
+        "originContent": "[中文版](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/./README.zh-CN.md)",
+        "translatedContent": "[中文版](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/./README.zh-CN.md)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "f0Wwlf/lHx5BkNK/I7Y4m0DKBqqyW6DfGSbFozzlV74=",
+        "originContent": "`codex-as-mcp` is a small **Model Context Protocol (MCP)** server that lets MCP clients (Claude Code, Cursor, etc.) delegate work to the **Codex CLI**.",
+        "translatedContent": "`codex-as-mcp` est un petit serveur **Model Context Protocol (MCP)** qui permet aux clients MCP (Claude Code, Cursor, etc.) de déléguer des tâches au **Codex CLI**."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "XYo7FUMOI6XR45Hx+PZMR3znleUKc9RfYW00tRaydGU=",
+        "originContent": "It exposes two tools that run Codex in the server's current working directory:",
+        "translatedContent": "Il expose deux outils qui exécutent Codex dans le répertoire de travail actuel du serveur :"
+      },
+      {
+        "row": 8,
+        "rowsha": "zejDV8OaJLTtJoeKpuLkmGcNClUQ0cwGwaX/UpAXxgk=",
+        "originContent": "- `spawn_agent(prompt: str)`",
+        "translatedContent": "- `spawn_agent(prompt: str)`"
+      },
+      {
+        "row": 9,
+        "rowsha": "qQoVKTNiiXXNRKmtqhnfl+mnI24bLeP4N1FFOd+Maco=",
+        "originContent": "- `spawn_agents_parallel(agents: list[dict])`",
+        "translatedContent": "- `spawn_agents_parallel(agents: list[dict])`"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "TjrtIm8wMW0ljWfkviS1pYXf3Zbu5LFbP3KrnavWP34=",
+        "originContent": "Under the hood, each agent runs something like:",
+        "translatedContent": "En coulisses, chaque agent exécute quelque chose comme :"
+      },
+      {
+        "row": 12,
+        "rowsha": "er7H2MCTMitPSVGmrYHcuzvQF5UrqX5VaXfzEa1C/OM=",
+        "originContent": "`codex exec --cd <server cwd> --skip-git-repo-check --dangerously-bypass-approvals-and-sandbox \"<prompt>\"`.",
+        "translatedContent": "`codex exec --cd <server cwd> --skip-git-repo-check --dangerously-bypass-approvals-and-sandbox \"<prompt>\"`."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "rrVZEWczaIuzyL7Kw98NQ1aGVEClyfEFBKdbz2xVoSQ=",
+        "originContent": "Note: `--dangerously-bypass-approvals-and-sandbox` disables sandboxing and confirmation prompts. Use this server only in repos you trust.",
+        "translatedContent": "Remarque : `--dangerously-bypass-approvals-and-sandbox` désactive le sandboxing et les invites de confirmation. Utilisez ce serveur uniquement dans des dépôts en lesquels vous avez confiance."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "LL4iWmh4WGnnJEXiQWG4N1UCTT6rVNWQUmrgTwACyHE=",
+        "originContent": "## Use it in Claude Code",
+        "translatedContent": "## Utilisez-le dans Claude Code"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "24qZBjD/ecPTIrk3h68w47LAjMYvDowduS2sYm23C3E=",
+        "originContent": "There are two tools in codex-as-mcp",
+        "translatedContent": "Il y a deux outils dans codex-as-mcp"
+      },
+      {
+        "row": 19,
+        "rowsha": "/w+EfFf/V7iASqtHQ0dnXnMzx41it3bDPH7xFjFTv3Q=",
+        "originContent": "![tools](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/assets/tools.png)",
+        "translatedContent": "![tools](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/assets/tools.png)"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "1/1kg8g3hSstxCymbiE4tM74q11y/eQx8Kjij5db7Ww=",
+        "originContent": "You can spawn parallel codex subagents using prompt.",
+        "translatedContent": "Vous pouvez lancer des sous-agents codex parallèles en utilisant un prompt."
+      },
+      {
+        "row": 22,
+        "rowsha": "z0iB+J1197OgetpLfRaRntj1Q+qUwDxBOl5tw5PtL8E=",
+        "originContent": "![alt text](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/assets/claude.png)",
+        "translatedContent": "![alt text](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/assets/claude.png)"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "cFEpREo5edJYLgzMVMKCbW06CtTx1BJpm08Li+8jnUE=",
+        "originContent": "Here's a sample Codex session delegating two tasks in parallel.",
+        "translatedContent": "Voici une session Codex exemple déléguant deux tâches en parallèle."
+      },
+      {
+        "row": 25,
+        "rowsha": "ujdbi2Mz+lZpLi6Amugq7NaJ1FdhBW45VUZlXjMtLJc=",
+        "originContent": "![Codex use case](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/assets/codex.png)",
+        "translatedContent": "![Cas d'utilisation de Codex](https://raw.githubusercontent.com/kky42/codex-as-mcp/main/assets/codex.png)"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "lTWxC+mrt6h3iMP1EHwhgic0pFB660ZPhxD7jEhmuWU=",
+        "originContent": "## Quick start",
+        "translatedContent": "## Démarrage rapide"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "AwZxCcofRB8sq33aputic8rSdcEoddxGXEz9XOYQ28c=",
+        "originContent": "### 1. Install Codex CLI",
+        "translatedContent": "### 1. Installer Codex CLI"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "1/zNFliSzEy8ZMIZMov/aJJ1VOqkj5/+WUea/UmVofs=",
+        "originContent": "**Requires Codex CLI >= 0.46.0**",
+        "translatedContent": "**Nécessite Codex CLI >= 0.46.0**"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nnpm install -g @openai/codex@latest\ncodex login\n\n# Verify installation\ncodex --version\n```",
+    "ContentSha": "g7hY8ofPzPOsGEbbe3v/PQBgdbhXq8sm7zKDmoMK9aA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm install -g @openai/codex@latest\ncodex login\n\n# Verify installation\ncodex --version\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "rQ7HjCY9ewqVTL2AKpceDwJxrbmdCaNEigEGIF3EaMk=",
+        "originContent": "npm install -g @openai/codex@latest",
+        "translatedContent": "npm install -g @openai/codex@latest"
+      },
+      {
+        "row": 3,
+        "rowsha": "U7cBTnPs8yDE0byZKFHPsWg/0RjLk0GIxTj8Aems1pc=",
+        "originContent": "codex login",
+        "translatedContent": "codex login"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "CakGwk6bdoW7b9RCQK/HdUg3KniltbLOYl1l9m21vaY=",
+        "originContent": "# Verify installation",
+        "translatedContent": "# Verify installation"
+      },
+      {
+        "row": 6,
+        "rowsha": "oqbvYelDlAlob2iGYJdy5xt9exCB2I8KEjX2oUYmj4I=",
+        "originContent": "codex --version",
+        "translatedContent": "codex --version"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nMake sure Codex CLI can run non-interactively on your machine (provider + credentials in `~/.codex/config.toml`, or via the provider-specific env var it references).\n\n#### Example: third-party provider + `env_key`\n\nIf you're using a third-party provider, configure it in Codex `config.toml` and point `model_provider` at it. When a provider uses `env_key`, Codex CLI expects that env var to be present when it runs.\n\nExample:",
+    "ContentSha": "mVucoC/yU/FGOeYyaIny9Pmb9U2wRVtVIh62wRXS0Cc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nAssurez-vous que Codex CLI peut s'exécuter de manière non interactive sur votre machine (fournisseur + identifiants dans `~/.codex/config.toml`, ou via la variable d'environnement spécifique au fournisseur qu'il référence).\n\n#### Exemple : fournisseur tiers + `env_key`\n\nSi vous utilisez un fournisseur tiers, configurez-le dans le `config.toml` de Codex et pointez `model_provider` vers celui-ci. Lorsqu'un fournisseur utilise `env_key`, Codex CLI s'attend à ce que cette variable d'environnement soit présente lors de son exécution.\n\nExemple :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mhlod3IZB6Qa0EBtDdozq8QC24OeZDsj2yRYY+Kh+d8=",
+        "originContent": "Make sure Codex CLI can run non-interactively on your machine (provider + credentials in `~/.codex/config.toml`, or via the provider-specific env var it references).",
+        "translatedContent": "Assurez-vous que Codex CLI peut s'exécuter de manière non interactive sur votre machine (fournisseur + identifiants dans `~/.codex/config.toml`, ou via la variable d'environnement spécifique au fournisseur qu'il référence)."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "TN8LYfy5dnUFy1lteGRwxgQJt4Ye4xwb7pNz8Pcvk08=",
+        "originContent": "#### Example: third-party provider + `env_key`",
+        "translatedContent": "#### Exemple : fournisseur tiers + `env_key`"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "6sFcoSyZbKWCuYQmc2FdXGDQtEfXA8gUv/c7SxseKu0=",
+        "originContent": "If you're using a third-party provider, configure it in Codex `config.toml` and point `model_provider` at it. When a provider uses `env_key`, Codex CLI expects that env var to be present when it runs.",
+        "translatedContent": "Si vous utilisez un fournisseur tiers, configurez-le dans le `config.toml` de Codex et pointez `model_provider` vers celui-ci. Lorsqu'un fournisseur utilise `env_key`, Codex CLI s'attend à ce que cette variable d'environnement soit présente lors de son exécution."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "Exemple :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```toml\nmodel_provider = \"custom_provider\"\n\n[model_providers.custom_provider]\nname = \"custom_provider\"\nbase_url = \"https://...\"\nwire_api = \"responses\"\nenv_key = \"PROVIDER_API_KEY\"\nshow_raw_agent_reasoning = true\n```",
+    "ContentSha": "o5bZcJt9lvWl/C+HxUKHN5H2jiJZAJ5Qgr9bwZQtvUQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\nmodel_provider = \"custom_provider\"\n\n[model_providers.custom_provider]\nname = \"custom_provider\"\nbase_url = \"https://...\"\nwire_api = \"responses\"\nenv_key = \"PROVIDER_API_KEY\"\nshow_raw_agent_reasoning = true\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "mR1ofFm5gckC09Ll49s/FhQ9RFlAJw6HvKInvgrvqq8=",
+        "originContent": "model_provider = \"custom_provider\"",
+        "translatedContent": "model_provider = \"custom_provider\""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "GCF0lKPw4k0ggOZPrzLMTLIVVvXfyrv5AMkmGdQwa9c=",
+        "originContent": "[model_providers.custom_provider]",
+        "translatedContent": "[model_providers.custom_provider]"
+      },
+      {
+        "row": 5,
+        "rowsha": "YNO9zzLf2ww0JQBmkP1NKWJQs3sUGC9zsoZiIv4Bh5o=",
+        "originContent": "name = \"custom_provider\"",
+        "translatedContent": "name = \"custom_provider\""
+      },
+      {
+        "row": 6,
+        "rowsha": "Fdu1y2BySANAbemGnhAvhrrRj5hpS9mtJJc2qFE5YXE=",
+        "originContent": "base_url = \"https://...\"",
+        "translatedContent": "base_url = \"https://...\""
+      },
+      {
+        "row": 7,
+        "rowsha": "O5tFEIYmD3TKOf5z8aCvBNLh6zjwp6qWWuNYT269oNk=",
+        "originContent": "wire_api = \"responses\"",
+        "translatedContent": "wire_api = \"responses\""
+      },
+      {
+        "row": 8,
+        "rowsha": "T1MIaK3u1tpZInnOtq3tbbrwpzbMzRDg24/DdcOlwCM=",
+        "originContent": "env_key = \"PROVIDER_API_KEY\"",
+        "translatedContent": "env_key = \"PROVIDER_API_KEY\""
+      },
+      {
+        "row": 9,
+        "rowsha": "oGAkZsAjpxou3TN/Q5D9KaR4ussAuSA2b0yLFSkOA8Q=",
+        "originContent": "show_raw_agent_reasoning = true",
+        "translatedContent": "show_raw_agent_reasoning = true"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nWhen using `codex-as-mcp`, make sure the MCP server process has that env var set, so it can pass it through to the spawned `codex` process. The env var name **must match** the `env_key` value above (here: `PROVIDER_API_KEY`).\n\n**Option A (recommended): set env in your MCP client config (if supported)**",
+    "ContentSha": "xIHHxSJTY6Mm5EcmB3OUX7DXjnfpCvvedUdm0eBV/cY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nLors de l'utilisation de `codex-as-mcp`, assurez-vous que le processus serveur MCP a cette variable d'environnement définie, afin qu'il puisse la transmettre au processus `codex` lancé. Le nom de la variable d'environnement **doit correspondre** à la valeur `env_key` ci-dessus (ici : `PROVIDER_API_KEY`).\n\n**Option A (recommandée) : définir la variable d'environnement dans la configuration de votre client MCP (si pris en charge)**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "/8GVc/Qlygp32Hq5UtSfdM4YE130Z6NHzdvxHpmKq/w=",
+        "originContent": "When using `codex-as-mcp`, make sure the MCP server process has that env var set, so it can pass it through to the spawned `codex` process. The env var name **must match** the `env_key` value above (here: `PROVIDER_API_KEY`).",
+        "translatedContent": "Lors de l'utilisation de `codex-as-mcp`, assurez-vous que le processus serveur MCP a cette variable d'environnement définie, afin qu'il puisse la transmettre au processus `codex` lancé. Le nom de la variable d'environnement **doit correspondre** à la valeur `env_key` ci-dessus (ici : `PROVIDER_API_KEY`)."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "NUnAnwLgni/M0nX0U37Ndg5IAwS4olj6bcA8vEPHWt4=",
+        "originContent": "**Option A (recommended): set env in your MCP client config (if supported)**",
+        "translatedContent": "**Option A (recommandée) : définir la variable d'environnement dans la configuration de votre client MCP (si pris en charge)**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```json\n{\n  \"mcpServers\": {\n    \"codex-subagent\": {\n      \"type\": \"stdio\",\n      \"command\": \"uvx\",\n      \"args\": [\"codex-as-mcp@latest\"],\n      \"env\": {\n        \"PROVIDER_API_KEY\": \"KEY_VALUE\"\n      }\n    }\n  }\n}\n```",
+    "ContentSha": "zU97zkyzdiX/WhRrJpsoQZtLLeEVZktBzTTdgZZjr5Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"mcpServers\": {\n    \"codex-subagent\": {\n      \"type\": \"stdio\",\n      \"command\": \"uvx\",\n      \"args\": [\"codex-as-mcp@latest\"],\n      \"env\": {\n        \"PROVIDER_API_KEY\": \"KEY_VALUE\"\n      }\n    }\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZckkIpKixltZLtYSjGOhgJjNOCkOb0HBckGFnZZHIuw=",
+        "originContent": "  \"mcpServers\": {",
+        "translatedContent": "  \"mcpServers\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "Yocbqed8XEInx9DO/8vbv3VoRFgyK0dw9oWx/gpo7bs=",
+        "originContent": "    \"codex-subagent\": {",
+        "translatedContent": "    \"codex-subagent\": {"
+      },
+      {
+        "row": 5,
+        "rowsha": "rG7T7o4m/Y5JXMM/JeipL+oMKF4DayLvaCYkU4mxS4k=",
+        "originContent": "      \"type\": \"stdio\",",
+        "translatedContent": "      \"type\": \"stdio\","
+      },
+      {
+        "row": 6,
+        "rowsha": "9llDQfnHvlzu0nBh9UyARw7Zo68AuagOfz3o/7vXDZk=",
+        "originContent": "      \"command\": \"uvx\",",
+        "translatedContent": "      \"command\": \"uvx\","
+      },
+      {
+        "row": 7,
+        "rowsha": "YcBJnwQf6xUxJOhozprkJQ2AXxL6Q9+J8ZUyhsm1sbo=",
+        "originContent": "      \"args\": [\"codex-as-mcp@latest\"],",
+        "translatedContent": "      \"args\": [\"codex-as-mcp@latest\"],"
+      },
+      {
+        "row": 8,
+        "rowsha": "KCt3f/t8XKXl6Az1UZA2aZO78CIP9Drb2LKKIKd3pfE=",
+        "originContent": "      \"env\": {",
+        "translatedContent": "      \"env\": {"
+      },
+      {
+        "row": 9,
+        "rowsha": "igQXUpxrfdAkeic9UUZUyVulhulaL8xuG+nJ+QFpiuw=",
+        "originContent": "        \"PROVIDER_API_KEY\": \"KEY_VALUE\"",
+        "translatedContent": "        \"PROVIDER_API_KEY\": \"KEY_VALUE\""
+      },
+      {
+        "row": 10,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 11,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 12,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 13,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n**Option B: pass env via server args**",
+    "ContentSha": "/8NhXCyUWmJqLF24nWaUa5Qh/m4MMMqABAaEtqbM9AY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Option B : passer les variables d’environnement via les arguments du serveur**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "CmCwwKIxrr62h6yulqYHyuorUHRhUBmNcGLSmsXYX8w=",
+        "originContent": "**Option B: pass env via server args**",
+        "translatedContent": "**Option B : passer les variables d’environnement via les arguments du serveur**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nuvx codex-as-mcp@latest --env PROVIDER_API_KEY=KEY_VALUE\n```",
+    "ContentSha": "roiQtMTtqdURw4TuYdvJ9CzSdm2G8gf47cuOMqj6kmQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nuvx codex-as-mcp@latest --env PROVIDER_API_KEY=KEY_VALUE\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "aazJCUrDI+ywaPHHkgbmem2nBP012eq4jcseLkt6Wfw=",
+        "originContent": "uvx codex-as-mcp@latest --env PROVIDER_API_KEY=KEY_VALUE",
+        "translatedContent": "uvx codex-as-mcp@latest --env PROVIDER_API_KEY=KEY_VALUE"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n**Option C: add via Codex CLI (`codex mcp add`)**",
+    "ContentSha": "CgKNPDnwtlP2zPK2sm4HFHZ7WBnk1nORLDHLTiXM6go=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Option C : ajouter via Codex CLI (`codex mcp add`)**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "T42fvh7RDHC9tj0DSYZC1IsN5NgWxRO7FJGbVn4aXZw=",
+        "originContent": "**Option C: add via Codex CLI (`codex mcp add`)**",
+        "translatedContent": "**Option C : ajouter via Codex CLI (`codex mcp add`)**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\ncodex mcp add codex-subagent --env PROVIDER_API_KEY=KEY_VALUE -- uvx codex-as-mcp@latest\n```",
+    "ContentSha": "V9xWGyc5MZKtwklmwsHCJXKtpJ/tgP1QGdyBVou0QBE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncodex mcp add codex-subagent --env PROVIDER_API_KEY=KEY_VALUE -- uvx codex-as-mcp@latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "6J/CtpfUgLnkNX+jggiJ1SbMuFOrJ+Fx6iEWI4k30kM=",
+        "originContent": "codex mcp add codex-subagent --env PROVIDER_API_KEY=KEY_VALUE -- uvx codex-as-mcp@latest",
+        "translatedContent": "codex mcp add codex-subagent --env PROVIDER_API_KEY=KEY_VALUE -- uvx codex-as-mcp@latest"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nSecurity note: passing secrets via command-line args may be visible via process lists on your machine; prefer option A when possible.\n\n### 2. Configure MCP\n\nAdd to your `.mcp.json`:",
+    "ContentSha": "ejc4wt89LzEDil2U3xmq6VSAn19GDXAeB8GYNSEP8QM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nNote de sécurité : le passage de secrets via les arguments de la ligne de commande peut être visible via les listes de processus sur votre machine ; préférez l'option A lorsque cela est possible.\n\n### 2. Configurer MCP\n\nAjoutez à votre `.mcp.json` :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y2mT4srXXbDnBcjXPMV31m7C8G4CoyTqvJRtkRIMbIE=",
+        "originContent": "Security note: passing secrets via command-line args may be visible via process lists on your machine; prefer option A when possible.",
+        "translatedContent": "Note de sécurité : le passage de secrets via les arguments de la ligne de commande peut être visible via les listes de processus sur votre machine ; préférez l'option A lorsque cela est possible."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "oUbedLOItJBEhQtNEILGhvC1gkFir8yMVD2/LLKVew8=",
+        "originContent": "### 2. Configure MCP",
+        "translatedContent": "### 2. Configurer MCP"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "rCwLMWjU/oGQ43Q+XbkpXzRcJHbqelrQUFgbE+k5pOM=",
+        "originContent": "Add to your `.mcp.json`:",
+        "translatedContent": "Ajoutez à votre `.mcp.json` :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```json\n{\n  \"mcpServers\": {\n    \"codex-subagent\": {\n      \"type\": \"stdio\",\n      \"command\": \"uvx\",\n      \"args\": [\"codex-as-mcp@latest\"]\n    }\n  }\n}\n```",
+    "ContentSha": "v8KweABHyCzXreo+3akOfICX732Cf19vqd9dhrFvr5U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"mcpServers\": {\n    \"codex-subagent\": {\n      \"type\": \"stdio\",\n      \"command\": \"uvx\",\n      \"args\": [\"codex-as-mcp@latest\"]\n    }\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZckkIpKixltZLtYSjGOhgJjNOCkOb0HBckGFnZZHIuw=",
+        "originContent": "  \"mcpServers\": {",
+        "translatedContent": "  \"mcpServers\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "Yocbqed8XEInx9DO/8vbv3VoRFgyK0dw9oWx/gpo7bs=",
+        "originContent": "    \"codex-subagent\": {",
+        "translatedContent": "    \"codex-subagent\": {"
+      },
+      {
+        "row": 5,
+        "rowsha": "rG7T7o4m/Y5JXMM/JeipL+oMKF4DayLvaCYkU4mxS4k=",
+        "originContent": "      \"type\": \"stdio\",",
+        "translatedContent": "      \"type\": \"stdio\","
+      },
+      {
+        "row": 6,
+        "rowsha": "9llDQfnHvlzu0nBh9UyARw7Zo68AuagOfz3o/7vXDZk=",
+        "originContent": "      \"command\": \"uvx\",",
+        "translatedContent": "      \"command\": \"uvx\","
+      },
+      {
+        "row": 7,
+        "rowsha": "FuBExA50keyaKMQSxWuaKYrnO5LVTnJ5tS239DoarK4=",
+        "originContent": "      \"args\": [\"codex-as-mcp@latest\"]",
+        "translatedContent": "      \"args\": [\"codex-as-mcp@latest\"]"
+      },
+      {
+        "row": 8,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 9,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nOr use Claude Desktop commands:",
+    "ContentSha": "50mDxkjTaRFKgdQpgGFdVbGztKzC+YDBm+NaU6qNsig=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nOu utilisez les commandes Claude Desktop :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "4524BZjWgRshFIDVxS50hyjZZIsEilsmO3oNnfcTkwU=",
+        "originContent": "Or use Claude Desktop commands:",
+        "translatedContent": "Ou utilisez les commandes Claude Desktop :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\nclaude mcp add codex-subagent -- uvx codex-as-mcp@latest\n```",
+    "ContentSha": "GgcCobPR7mFUtkvTTC10rkFnoeVYw6u0HaFQPPjDwAI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nclaude mcp add codex-subagent -- uvx codex-as-mcp@latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "qwwzdgVSw+tv8OKZ9sgf8SmLUvKonafu4DRoqXa7uAM=",
+        "originContent": "claude mcp add codex-subagent -- uvx codex-as-mcp@latest",
+        "translatedContent": "claude mcp add codex-subagent -- uvx codex-as-mcp@latest"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nIf you're configuring Codex CLI directly (for example `~/.config/codex/config.toml`), add:",
+    "ContentSha": "FxTzVKl8jeYqbLg4EfcxGHEsnBBREeVGT6R8QHF3trA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nSi vous configurez Codex CLI directement (par exemple `~/.config/codex/config.toml`), ajoutez :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "EcKU1WbnjbsEWU+bATmoRFb7rzWE43RJVgu/bCOcsk4=",
+        "originContent": "If you're configuring Codex CLI directly (for example `~/.config/codex/config.toml`), add:",
+        "translatedContent": "Si vous configurez Codex CLI directement (par exemple `~/.config/codex/config.toml`), ajoutez :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```toml\n[mcp_servers.subagents]\ntransport = \"stdio\"\ncommand = \"uvx\"\nargs = [\"codex-as-mcp@latest\"]\n# Increase if you see ~60s tool-call timeouts when running longer Codex tasks.\n# tool_timeout_sec = 600\n```",
+    "ContentSha": "swoWag/6EDFiScDNIFDzhP/PwQE3I01if2gylewSo28=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\n[mcp_servers.subagents]\ntransport = \"stdio\"\ncommand = \"uvx\"\nargs = [\"codex-as-mcp@latest\"]\n# Increase if you see ~60s tool-call timeouts when running longer Codex tasks.\n# tool_timeout_sec = 600\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "6ps9lx1La5UKDpHAH9npgPU8gflbW3ZiQoqJScqGaSA=",
+        "originContent": "[mcp_servers.subagents]",
+        "translatedContent": "[mcp_servers.subagents]"
+      },
+      {
+        "row": 3,
+        "rowsha": "v75geA/x5KMOSKFDh12qXLnep3CeVUHMrWs8Abvcazc=",
+        "originContent": "transport = \"stdio\"",
+        "translatedContent": "transport = \"stdio\""
+      },
+      {
+        "row": 4,
+        "rowsha": "nvtAOeKB32alhdaC6EPIesfIgfj2PtYTKnrnxzcmLrk=",
+        "originContent": "command = \"uvx\"",
+        "translatedContent": "command = \"uvx\""
+      },
+      {
+        "row": 5,
+        "rowsha": "FhVinQP7QW268hzIYfV8zmtduE/lhp4k5zZBw8eW858=",
+        "originContent": "args = [\"codex-as-mcp@latest\"]",
+        "translatedContent": "args = [\"codex-as-mcp@latest\"]"
+      },
+      {
+        "row": 6,
+        "rowsha": "GLwIB8U0nVmGc/TNQzn8h4VaBENpfcIeaphZSGszfss=",
+        "originContent": "# Increase if you see ~60s tool-call timeouts when running longer Codex tasks.",
+        "translatedContent": "# Increase if you see ~60s tool-call timeouts when running longer Codex tasks."
+      },
+      {
+        "row": 7,
+        "rowsha": "aEzJ9wzRAEpmjdeQCiStpSlulnqTkRzmGjPe6pXYFmQ=",
+        "originContent": "# tool_timeout_sec = 600",
+        "translatedContent": "# tool_timeout_sec = 600"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n## Tools\n\n- `spawn_agent(prompt: str)` – Spawns an autonomous Codex subagent using the server's working directory and returns the agent's final message.\n- `spawn_agents_parallel(agents: list[dict])` – Spawns multiple Codex subagents in parallel; each item must include a `prompt` key and results include either an `output` or an `error` per agent.\n\n## Troubleshooting\n\n### `spawn_agent` times out after ~60s\n\nIf you see an error like:",
+    "ContentSha": "0Atrh0ZjGjzv5x36RrSzUupWurRujEgcpsD+hYiTG0w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Outils\n\n- `spawn_agent(prompt: str)` – Lance un sous-agent Codex autonome en utilisant le répertoire de travail du serveur et renvoie le message final de l'agent.\n- `spawn_agents_parallel(agents: list[dict])` – Lance plusieurs sous-agents Codex en parallèle ; chaque élément doit inclure une clé `prompt` et les résultats comprennent soit une `output` soit une `error` par agent.\n\n## Dépannage\n\n### `spawn_agent` expire après ~60s\n\nSi vous voyez une erreur comme :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "CydzS0b79+8mTX3P9FBaCLh3NxcUH6yHLsxNHGhspUw=",
+        "originContent": "## Tools",
+        "translatedContent": "## Outils"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "LUhpMAEf1q1e94YzOcgVETz8leg1lpM2VvsK35ngYTs=",
+        "originContent": "- `spawn_agent(prompt: str)` – Spawns an autonomous Codex subagent using the server's working directory and returns the agent's final message.",
+        "translatedContent": "- `spawn_agent(prompt: str)` – Lance un sous-agent Codex autonome en utilisant le répertoire de travail du serveur et renvoie le message final de l'agent."
+      },
+      {
+        "row": 5,
+        "rowsha": "qbvxoT/n5CBms42p9GB1/fK8vLdzWolSf743FjJPbDs=",
+        "originContent": "- `spawn_agents_parallel(agents: list[dict])` – Spawns multiple Codex subagents in parallel; each item must include a `prompt` key and results include either an `output` or an `error` per agent.",
+        "translatedContent": "- `spawn_agents_parallel(agents: list[dict])` – Lance plusieurs sous-agents Codex en parallèle ; chaque élément doit inclure une clé `prompt` et les résultats comprennent soit une `output` soit une `error` par agent."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+        "originContent": "## Troubleshooting",
+        "translatedContent": "## Dépannage"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "IiRRMTt0X5WANfzk5w2hGp6i/TSxy+HlfPaPUSPWNxU=",
+        "originContent": "### `spawn_agent` times out after ~60s",
+        "translatedContent": "### `spawn_agent` expire après ~60s"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "psvY7ysfH+8eFeNOz/5Fsgzfe4ZQ2tFRVdGqio2JFfk=",
+        "originContent": "If you see an error like:",
+        "translatedContent": "Si vous voyez une erreur comme :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```text\ntool call failed for `subagents/spawn_agent`\ntimed out awaiting tools/call after 60s\ndeadline has elapsed\n```",
+    "ContentSha": "x6U/OusFjOOskYB/LEMKPU9SAxE6GqIv313OmVZwZBg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```text\ntool call failed for `subagents/spawn_agent`\ntimed out awaiting tools/call after 60s\ndeadline has elapsed\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
+        "originContent": "```text",
+        "translatedContent": "```text"
+      },
+      {
+        "row": 2,
+        "rowsha": "48NYn4LUobEWGLVKH1Kcb4vkJKmP80Wx7rzec4omNvA=",
+        "originContent": "tool call failed for `subagents/spawn_agent`",
+        "translatedContent": "tool call failed for `subagents/spawn_agent`"
+      },
+      {
+        "row": 3,
+        "rowsha": "jJLRgGMk5MLh6XjCpzm5n5z745qD5TJM9j+zjYSs2Ns=",
+        "originContent": "timed out awaiting tools/call after 60s",
+        "translatedContent": "timed out awaiting tools/call after 60s"
+      },
+      {
+        "row": 4,
+        "rowsha": "36ABmKIWKw2bnfvLO+y+wXtFuJVMyw8rww7gcibTvQc=",
+        "originContent": "deadline has elapsed",
+        "translatedContent": "deadline has elapsed"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\nThis is typically a client-side MCP tool-call timeout. `spawn_agent` does not return until the spawned `codex exec` process finishes, which can take longer than 60 seconds.\n\nFix: increase the tool-call timeout in your MCP client.\n\n#### Codex CLI\n\nIn your Codex config (`~/.codex/config.toml` or `~/.config/codex/config.toml`), set a higher `tool_timeout_sec` for the MCP server:",
+    "ContentSha": "8QLHjwMjWhFzhCphTBEkvWiiVkVU766rdAyFHngeGd8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nCeci est généralement un délai d’attente d’appel d’outil côté client MCP. `spawn_agent` ne retourne pas avant que le processus `codex exec` lancé ne se termine, ce qui peut prendre plus de 60 secondes.\n\nCorrection : augmentez le délai d’attente d’appel d’outil dans votre client MCP.\n\n#### Codex CLI\n\nDans votre configuration Codex (`~/.codex/config.toml` ou `~/.config/codex/config.toml`), définissez un `tool_timeout_sec` plus élevé pour le serveur MCP :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "e+xWi8QDn6pNGvGKiMhaSGEbh8dpoCWovJ7LbrN4bnU=",
+        "originContent": "This is typically a client-side MCP tool-call timeout. `spawn_agent` does not return until the spawned `codex exec` process finishes, which can take longer than 60 seconds.",
+        "translatedContent": "Ceci est généralement un délai d’attente d’appel d’outil côté client MCP. `spawn_agent` ne retourne pas avant que le processus `codex exec` lancé ne se termine, ce qui peut prendre plus de 60 secondes."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "nHU72fpdX97J8ZyiZSDMOd4qOs6ST+BcFTpJbfEdIfY=",
+        "originContent": "Fix: increase the tool-call timeout in your MCP client.",
+        "translatedContent": "Correction : augmentez le délai d’attente d’appel d’outil dans votre client MCP."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "PTqc4Hy5tRCxMW1wEuseEtjAwJDb02XR90NbT8/sXmY=",
+        "originContent": "#### Codex CLI",
+        "translatedContent": "#### Codex CLI"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "J7cujPjQ8OVHEXeE6oowTI0berKF5ZzhWDVnjhb3L2Y=",
+        "originContent": "In your Codex config (`~/.codex/config.toml` or `~/.config/codex/config.toml`), set a higher `tool_timeout_sec` for the MCP server:",
+        "translatedContent": "Dans votre configuration Codex (`~/.codex/config.toml` ou `~/.config/codex/config.toml`), définissez un `tool_timeout_sec` plus élevé pour le serveur MCP :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```toml\n[mcp_servers.subagents]\ntransport = \"stdio\"\ncommand = \"uvx\"\nargs = [\"codex-as-mcp@latest\"]\ntool_timeout_sec = 600\n```",
+    "ContentSha": "MugDXaqf3joSPNOBOKVwWK2bJo7IUW+UskUw8Ttm4pw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\n[mcp_servers.subagents]\ntransport = \"stdio\"\ncommand = \"uvx\"\nargs = [\"codex-as-mcp@latest\"]\ntool_timeout_sec = 600\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "6ps9lx1La5UKDpHAH9npgPU8gflbW3ZiQoqJScqGaSA=",
+        "originContent": "[mcp_servers.subagents]",
+        "translatedContent": "[mcp_servers.subagents]"
+      },
+      {
+        "row": 3,
+        "rowsha": "v75geA/x5KMOSKFDh12qXLnep3CeVUHMrWs8Abvcazc=",
+        "originContent": "transport = \"stdio\"",
+        "translatedContent": "transport = \"stdio\""
+      },
+      {
+        "row": 4,
+        "rowsha": "nvtAOeKB32alhdaC6EPIesfIgfj2PtYTKnrnxzcmLrk=",
+        "originContent": "command = \"uvx\"",
+        "translatedContent": "command = \"uvx\""
+      },
+      {
+        "row": 5,
+        "rowsha": "FhVinQP7QW268hzIYfV8zmtduE/lhp4k5zZBw8eW858=",
+        "originContent": "args = [\"codex-as-mcp@latest\"]",
+        "translatedContent": "args = [\"codex-as-mcp@latest\"]"
+      },
+      {
+        "row": 6,
+        "rowsha": "uCvh+z/Ipg4IfTtaBdhwIUXPw2SH/EChYh7Bxu3rvxE=",
+        "originContent": "tool_timeout_sec = 600",
+        "translatedContent": "tool_timeout_sec = 600"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n#### MCP Inspector / `mcp dev`\n\nIf you're testing locally with the MCP Inspector, increase request timeouts (or run `./test.sh`, which exports these):",
+    "ContentSha": "OkMd2I8WyWO2h57clzhmPjwd2N+gjSskWz/YtKqXwrM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### Inspecteur MCP / `mcp dev`\n\nSi vous testez localement avec l'Inspecteur MCP, augmentez les délais d'attente des requêtes (ou exécutez `./test.sh`, qui exporte ces variables) :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "dWuUbWGiR0lDqQDE0EVh3ycoz3OwuIf9kzJ2uGZKrqk=",
+        "originContent": "#### MCP Inspector / `mcp dev`",
+        "translatedContent": "#### Inspecteur MCP / `mcp dev`"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "UG5CKBIt6AgcHOrmzFTCCbCRq1Ofd2wRMq6HgaCHDhg=",
+        "originContent": "If you're testing locally with the MCP Inspector, increase request timeouts (or run `./test.sh`, which exports these):",
+        "translatedContent": "Si vous testez localement avec l'Inspecteur MCP, augmentez les délais d'attente des requêtes (ou exécutez `./test.sh`, qui exporte ces variables) :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```bash\nexport MCP_SERVER_REQUEST_TIMEOUT=300000\nexport MCP_REQUEST_TIMEOUT_RESET_ON_PROGRESS=true\nexport MCP_REQUEST_MAX_TOTAL_TIMEOUT=28800000\n```",
+    "ContentSha": "H0e+7bWJoOqF+9pJtOuqdcDWZNzVZqri4Pp1WD+5Kiw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nexport MCP_SERVER_REQUEST_TIMEOUT=300000\nexport MCP_REQUEST_TIMEOUT_RESET_ON_PROGRESS=true\nexport MCP_REQUEST_MAX_TOTAL_TIMEOUT=28800000\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "yk2hOsZ/jFvUj+VWXqMNoGvLGl9i72GBYVUQM2ZiogU=",
+        "originContent": "export MCP_SERVER_REQUEST_TIMEOUT=300000",
+        "translatedContent": "export MCP_SERVER_REQUEST_TIMEOUT=300000"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZH4N4sIGok4LJaUDAPhDwUupmPffuK1ZYB10+hriLd4=",
+        "originContent": "export MCP_REQUEST_TIMEOUT_RESET_ON_PROGRESS=true",
+        "translatedContent": "export MCP_REQUEST_TIMEOUT_RESET_ON_PROGRESS=true"
+      },
+      {
+        "row": 4,
+        "rowsha": "/7VKCMTy98uL+dvtepMZzQDE14p4yZ7h67YXkNUc9/8=",
+        "originContent": "export MCP_REQUEST_MAX_TOTAL_TIMEOUT=28800000",
+        "translatedContent": "export MCP_REQUEST_MAX_TOTAL_TIMEOUT=28800000"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

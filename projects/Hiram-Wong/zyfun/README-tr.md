@@ -49,8 +49,7 @@
 </div>
 <div align="center">
 
-<!-- [![][readmex-shield]][readmex-link] -->
-
+[![][readmex-shield]][readmex-link]
 [![][deepwiki-shield]][deepwiki-link]
 [![][zread-shield]][zread-link]
 
@@ -65,59 +64,59 @@
 
 # Yazılım Tanıtımı
 
-zyfun, ücretsiz, son derece basit ve çok yönlü bir çapraz platform medya yöneticisidir. T1-T4 tüm türdeki kaynakları tek noktadan yönetir, dahili çok çekirdekli oynatıcı ile istediğiniz gibi geçiş yapabilirsiniz. Özel patron tuşu ile tek tıkta gizlenir, gizlice video izlerken endişelenmezsiniz. Film izleyerek dünyayı keşfedin!
+zyfun, ücretsiz, son derece basit, çok yönlü ve çapraz platform bir medya yöneticisidir. T1-T4 tüm türdeki kaynakları tek noktadan yönetir, dahili çok çekirdekli oynatıcı ile kolayca geçiş yapabilirsiniz. Özel patron tuşu ile tek tıkla gizlenip işten kaytarmak artık sorun değil. Film izleyerek dünyayı keşfedin!
 
 <details>
-<summary>Yazılım ekran görüntülerini görmek için genişletin</summary>
+<summary>Yazılım ekran görüntülerini açmak için tıklayın</summary>
 
 |                    Film                     |                   Canlı Yayın                   |
 | :-----------------------------------------: | :--------------------------------------: |
 |  ![Film](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-film.png)   | ![Canlı Yayın](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-live.png) |
-|                  **Geçmiş**                   |                 **Oynatma**                 |
-| ![Geçmiş](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-history.png) | ![Oynatma](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-play.png) |
+|                  **Geçmiş**                   |                 **Oynat**                 |
+| ![Geçmiş](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-history.png) | ![Oynat](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-play.png) |
 
 </details>
 
 ## 🌴 Dikkat Edilmesi Gerekenler
 
-- Sadece bu Github'da yayımlanmıştır, dolandırıcılığa karşı dikkatli olun; yöneticiler bu yazılımı tanıtmamalı ve kullanıcı yönlendirmemelidir.
-- Yasal izlemeyi şiddetle savunuyoruz, bu yazılım yalnızca bir oynatıcı olarak kullanılmakta olup, kaynak depolama veya dağıtımı içermemektedir.
-- Yalnızca kişisel öğrenme ve iletişim amaçlıdır, 24 saat içinde lütfen kendiliğinden kaldırınız, ticari amaçla kullanmayınız.
-- Önceki sürümü [ZY-Player](https://github.com/Hunlongyu/ZY-Player) kaynaklıdır, simge @fourbeauty tarafından tasarlanmıştır.
-- Kullanmaya başlamadan önce lütfen kullanıcı sözleşmesini dikkatlice okuyun ve kabul edin, ilgili kurallara uyduğunuzdan emin olun.
+- Sadece Github üzerinden yayınlanmıştır, lütfen dolandırıcılıklara karşı dikkatli olun; yöneticiler bu yazılımı tanıtmasın veya kullanıcı yönlendirmesi yapmasın.
+- Yasal izlemeyi şiddetle tavsiye ediyoruz, bu yazılım yalnızca bir oynatıcı olarak hizmet vermekte olup kaynak depolama veya dağıtımı içermez.
+- Sadece kişisel öğrenme ve iletişim amacıyla kullanılabilir, lütfen 24 saat içinde kendiliğinizden kaldırınız, ticari amaçla kullanmayınız.
+- Önceki sürüm [ZY-Player](https://github.com/Hunlongyu/ZY-Player) kaynaklıdır, ikonlar @fourbeauty tarafından tasarlanmıştır.
+- Kullanıma başlamadan önce lütfen kullanıcı sözleşmesini dikkatlice okuyun ve kabul edin, ilgili kurallara uyduğunuzdan emin olun.
 
-## 💻 Çoklu Platform Açıklaması
+## 💻 Platformlar Arası Açıklama
 
 - **MacOS**:
   - Veritabanı/Dosya/Eklenti/Günlük Yolu: `~/Library/Application Support/zyfun/`
-  - İkili Dosya Yolu: `~/.zy/bin/`
+  - İkili dosya yolu: `~/.zy/bin/`
 - **Linux**:
   - Veritabanı/Dosya/Eklenti/Günlük Yolu: `~/.config/zyfun/`
-  - İkili Dosya Yolu: `~/.zy/bin/`
+  - İkili dosya yolu: `~/.zy/bin/`
 - **Windows**:
   - Veritabanı/Dosya/Eklenti/Günlük Yolu: `%USERPROFILE%\AppData\Roaming\zyfun\`
-  - İkili Dosya Yolu: `%USERPROFILE%\.zy\bin\`
+  - İkili dosya yolu: `%USERPROFILE%\.zy\bin\`
   <!-- - **OpenHarmony**:
   - Veritabanı/Dosya/Eklenti/Günlük Yolu: `/data/storage/zyfun/base/files/log`
-  - İkili Dosya Yolu: `~/.zy/bin/`-->
+  - İkili dosya yolu: `~/.zy/bin/`-->
 
-## 🛠️ İndirme ve Kurulum
+## 🛠️ İndir ve Kur
 
-> **Geliştirici Sürümü İndir**: Github hesabı ile giriş yapmanız gerekir
+> **Geliştirici Sürümü İndir**: Github hesabı ile giriş gereklidir
 
-> **Minimum Gereksinim**: chromium çekirdeği ile aynı gereksinimleri karşılar
+> **Minimum Gereksinimler**: Chromium çekirdeği ile aynı gereksinimler
 
-| İşletim Sistemi | x64 | arm64 | loong64 | Dağıtım                                                                                                                                                                                                                   | Geliştirici Sürüm                                                                  | Minimum Gereksinim |
-| :-------------: | :-: | :---: | :-----: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------ |
-| Windows         | ✅  |  ✅   |   ➖    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases)                                                                                                                                                                    | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml)   | >= win10           |
-|  MacOS          | ✅  |  ✅   |   ➖    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases)                                                                                                                                                                    | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml)   | >= macOS12         |
-|  Linux          | ✅  |  ✅   |   ❌    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases) <br/> [Ruyi Linglong Uygulama Mağazası](https://store.linyaps.org.cn/) <br/> [AUR Paketi](https://aur.archlinux.org/packages?O=0&SeB=nd&K=zyfun&outdated=&SB=p&SO=d&PP=50&submit=Go) | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml)   |                    |
-| Harmony         | ❌  |  ❌   |   ➖    |                                                                                                                                                                                                                           |                                                                                     |
+| İşletim Sistemi | x64 | arm64 | loong64 | Sürüm                                                                                                                                                                                                                      | Geliştirici Sürümü                                                                    | Minimum Gereksinim |
+| :-------------: | :-: | :---: | :-----: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------ |
+| Windows         | ✅  |  ✅   |   ➖    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases)                                                                                                                                                                     | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml)     | >= win10           |
+|  MacOS          | ✅  |  ✅   |   ➖    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases)                                                                                                                                                                     | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml)     | >= macOS12         |
+|  Linux          | ✅  |  ✅   |   ❌    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases) <br/> [Ruyi Linglong Uygulama Mağazası](https://store.linyaps.org.cn/) <br/> [AUR Paketleri](https://aur.archlinux.org/packages?O=0&SeB=nd&K=zyfun&outdated=&SB=p&SO=d&PP=50&submit=Go) | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml)     |                    |
+| Harmony         | ❌  |  ❌   |   ➖    |                                                                                                                                                                                                                            |                                                                                       |
 
 <details>
-<summary>Kurulum Sorunlarını Görmek İçin Genişlet</summary>
+<summary>Kurulum sorunlarını görmek için tıklayın</summary>
 
-#### MacOS Kurulumundan Sonra Açınca "Dosya Bozuk" Uyarısı
+#### MacOS Kurulumundan Sonra Açınca “Dosya Bozulmuş” Uyarısı Alınıyor
 
 ```bash
 sudo spctl --master-disable
@@ -229,7 +228,7 @@ sudo yum install xdg-utils
       "updatedAt": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)
     }
   ],
-  "sites": [
+  "site": [
     {
       "id": "fddfb425-6fd9-0b39-459f-a21f69739a6e", // 数据唯一uuidv4标识(不可重复)
       "key": "51793af6-c923-5504-85db-0ef686624dec", // <3.4.0 启用> 业务唯一标识(不可重复)
@@ -267,12 +266,13 @@ sudo yum install xdg-utils
       "lang": "zh_CN", // <3.3.4 启用> 语言(<=3.4.0: zh_CN=简体中文,en_US=英文 | system=更随系统,zh_CN=简体中文,zh_TW=繁体中文,en_US=英文)
       "zoom": 1, // <3.4.1 启用> 界面缩放比例(预留)
       "proxy": {
-        "type": "none", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)
+        "type": "system", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)
         "url": "", // 代理地址(支持socks5/http/https协议)
         "bypass": "" // 忽略主机名
       }, <3.4.1 启用> 代理设置
       "defaultHot": "kylive", // <3.4.1 **弃用**> 热搜(kylive=酷云数据,enlightent=云合数据)
       "hot": "kylive", // <3.4.1 启用> 热搜(baidu=百度,douban=豆瓣,enlightent=云合,komect=移动爱家,kylive=酷云,quark=夸克)
+      "association": "douban", // <3.4.4 启用> 搜索联想(douban=豆瓣,iqiyi=爱奇艺,snm=喜粤TV)
       "defaultSearchRecommend": "site", // 搜索推荐 site:站点 quark:夸克 baidu:百度 douban:豆瓣  弃用
       "defaultSearchType": "site", // <3.4.1 **弃用**> 全局搜索模式 site:本站 group:组内 all:全部
       "defaultFilterType": false, // <3.3.7 启用, 3.4.1 **弃用**> 影视搜索过滤关键词
@@ -400,29 +400,28 @@ sudo yum install xdg-utils
 
 ## 🤝 Katkıda Bulunma
 
-Aşağıda katkıda bulunabileceğiniz bazı yollar yer almaktadır:
+Aşağıda katkıda bulunabileceğiniz bazı yollar bulunmaktadır:
 
-- **Kod katkısı**: Yeni özellikler geliştirin veya mevcut kodu iyileştirin <[Geliştirme Dokümanı](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Develop.md)>
-- **Hata düzeltme**: Bulduğunuz herhangi bir hatanın düzeltilmesini gönderin <[Gönderim Standartları](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Conventional_Commits.md)>
-- **Sorun yönetimi**: GitHub sorunlarını yönetmeye yardımcı olun
-- **Ürün tasarımı**: Tasarım tartışmalarına katılın
-- **Doküman yazımı**: Kullanıcı el kitabı ve rehberleri geliştirin
-- **Topluluk katılımı**: Tartışmalara katılın ve kullanıcılara yardımcı olun
-- **Sevgiyle destek**: Projenin gelişimini destekleyin (finansman, sunucu vb. dahil) <[kofi](https://ko-fi.com/hiramwong)> <[Sevgiyle Destek](https://ifdian.net/a/hiram)>
+- **Kod Katkısı**: Yeni özellikler geliştirin veya mevcut kodu iyileştirin <[Geliştirme Dokümanı](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Develop.md)> <[Mcp Dokümanı](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Mcp.md)>
+- **Hata Düzeltme**: Bulduğunuz herhangi bir hatanın düzeltmesini gönderin <[Katkı Standartları](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Conventional_Commits.md)>
+- **Sorunları Yönetme**: GitHub sorunlarını yönetmeye yardımcı olun
+- **Ürün Tasarımı**: Tasarım tartışmalarına katılın
+- **Dokümantasyon Yazımı**: Kullanıcı kılavuzlarını ve rehberleri geliştirin
+- **Topluluk Katılımı**: Tartışmalara katılın ve kullanıcılara yardımcı olun
 
 [![][github-contributors-shield]][github-contributors-link]
 
-## 🌟 Yıldız Geçmişi
+## 🌟 Star Geçmişi
 
 <a href="https://www.star-history.com/#Hiram-Wong/zyfun&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Hiram-Wong/zyfun&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Hiram-Wong/zyfun&type=Date" />
-   <img alt="Yıldız Geçmişi Grafiği" src="https://api.star-history.com/svg?repos=Hiram-Wong/zyfun&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Hiram-Wong/zyfun&type=Date" />
  </picture>
 </a>
 
-## 💰 Sponsorlarımız
+## 💰 Destekçiler
 
 - [NodeSupport](https://github.com/NodeSeekDev/NodeSupport) bu projeye sponsor oldu
 - [![image](https://s2.loli.net/2025/04/09/JMyQZUKY2bX4G3q.png)](https://yxvm.com/)
@@ -435,8 +434,8 @@ Aşağıda katkıda bulunabileceğiniz bazı yollar yer almaktadır:
 [github-nightly-link]: https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml
 [github-contributors-shield]: https://openomy.app/svg?repo=Hiram-Wong/zyfun&chart=bubble&latestMonth=12
 [github-contributors-link]: https://openomy.app/github/Hiram-Wong/zyfun
-
 [github-license-shield]: https://img.shields.io/github/license/Hiram-Wong/zyfun?label=License&logo=gnu
+
 [github-license-link]: https://github.com/Hiram-Wong/zyfun/blob/main/LICENSE.txt
 [fossa-shield]: https://app.fossa.com/api/projects/git%2Bgithub.com%2FHiram-Wong%2Fzyfun.svg?type=shield
 [fossa-link]: https://app.fossa.com/projects/git%2Bgithub.com%2FHiram-Wong%2Fzyfun?ref=badge_shield
@@ -448,7 +447,7 @@ Aşağıda katkıda bulunabileceğiniz bazı yollar yer almaktadır:
 <!-- Bağlantılar & Görseller -->
 
 [readmex-shield]: https://raw.githubusercontent.com/CodePhiliaX/resource-trusteeship/main/readmex.svg
-[readmex-link]: https://readmex.com/Hiram-Wong/zyfun
+[readmex-link]: https://readmex.com/Hiram-Wong/ZyPlayer
 [deepwiki-shield]: https://deepwiki.com/badge.svg
 [deepwiki-link]: https://deepwiki.com/Hiram-Wong/zyfun
 [zread-shield]: https://img.shields.io/badge/Ask_Zread-_.svg?style=flat&color=00b0aa&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQuOTYxNTYgMS42MDAxSDIuMjQxNTZDMS44ODgxIDEuNjAwMSAxLjYwMTU2IDEuODg2NjQgMS42MDE1NiAyLjI0MDFWNC45NjAxQzEuNjAxNTYgNS4zMTM1NiAxLjg4ODEgNS42MDAxIDIuMjQxNTYgNS42MDAxSDQuOTYxNTZDNS4zMTUwMiA1LjYwMDEgNS42MDE1NiA1LjMxMzU2IDUuNjAxNTYgNC45NjAxVjIuMjQwMUM1LjYwMTU2IDEuODg2NjQgNS4zMTUwMiAxLjYwMDEgNC45NjE1NiAxLjYwMDFaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik00Ljk2MTU2IDEwLjM5OTlIMi4yNDE1NkMxLjg4ODEgMTAuMzk5OSAxLjYwMTU2IDEwLjY4NjQgMS42MDE1NiAxMS4wMzk5VjEzLjc1OTlDMS42MDE1NiAxNC4xMTM0IDEuODg4MSAxNC4zOTk5IDIuMjQxNTYgMTQuMzk5OUg0Ljk2MTU2QzUuMzE1MDIgMTQuMzk5OSA1LjYwMTU2IDE0LjExMzQgNS42MDE1NiAxMy43NTk5VjExLjAzOTlDNS42MDE1NiAxMC42ODY0IDUuMzE1MDIgMTAuMzk5OSA0Ljk2MTU2IDEwLjM5OTlaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik0xMy43NTg0IDEuNjAwMUgxMS4wMzg0QzEwLjY4NSAxLjYwMDEgMTAuMzk4NCAxLjg4NjY0IDEwLjM5ODQgMi4yNDAxVjQuOTYwMUMxMC4zOTg0IDUuMzEzNTYgMTAuNjg1IDUuNjAwMSAxMS4wMzg0IDUuNjAwMUgxMy43NTg0QzE0LjExMTkgNS42MDAxIDE0LjM5ODQgNS4zMTM1NiAxNC4zOTg0IDQuOTYwMVYyLjI0MDFDMTQuMzk4NCAxLjg4NjY0IDE0LjExMTkgMS42MDAxIDEzLjc1ODQgMS42MDAxWiIgZmlsbD0iI2ZmZiIvPgo8cGF0aCBkPSJNNCAxMkwxMiA0TDQgMTJaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik00IDEyTDEyIDQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K&logoColor=ffffff
@@ -466,6 +465,6 @@ Aşağıda katkıda bulunabileceğiniz bazı yollar yer almaktadır:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-05
 
 ---

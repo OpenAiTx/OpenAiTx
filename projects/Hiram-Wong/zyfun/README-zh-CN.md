@@ -49,8 +49,7 @@
 </div>
 <div align="center">
 
-<!-- [![][readmex-shield]][readmex-link] -->
-
+[![][readmex-shield]][readmex-link]
 [![][deepwiki-shield]][deepwiki-link]
 [![][zread-shield]][zread-link]
 
@@ -80,32 +79,32 @@ zyfun是一款免费、极简、全能的跨平台影音管家，一站式管理
 
 ## 🌴 注意事项
 
-- 仅在Github发布，请勿上当受骗；各管理者请勿宣传或引流本软件。
+- 仅在Github发布，请勿上当受骗；请各位管理员不要宣传和引流本软件。
 - 强烈倡导合法观影，本软件仅作为播放工具，不涉及资源存储或分发。
-- 仅供个人学习交流使用，请于24小时内自觉卸载，严禁商业用途。
+- 仅供个人学习和交流使用，请在24小时内自觉卸载，勿作商业用途。
 - 前身来源于[ZY-Player](https://github.com/Hunlongyu/ZY-Player)，图标由@fourbeauty设计。
-- 在开始使用前，请务必仔细阅读并同意用户协议，确保遵守相关规定。
+- 在开始使用前，请务必详细阅读并同意用户协议，确保遵守相关规定。
 
 ## 💻 跨平台说明
 
 - **MacOS**:
-  - 数据库/文件/插件/日志路径: `~/Library/Application Support/zyfun/`
-  - 二进制路径: `~/.zy/bin/`
+  - 数据库/文件/插件/日志 路径: `~/Library/Application Support/zyfun/`
+  - 二进制 路径: `~/.zy/bin/`
 - **Linux**:
-  - 数据库/文件/插件/日志路径: `~/.config/zyfun/`
-  - 二进制路径: `~/.zy/bin/`
+  - 数据库/文件/插件/日志 路径: `~/.config/zyfun/`
+  - 二进制 路径: `~/.zy/bin/`
 - **Windows**:
-  - 数据库/文件/插件/日志路径: `%USERPROFILE%\AppData\Roaming\zyfun\`
-  - 二进制路径: `%USERPROFILE%\.zy\bin\`
+  - 数据库/文件/插件/日志 路径: `%USERPROFILE%\AppData\Roaming\zyfun\`
+  - 二进制 路径: `%USERPROFILE%\.zy\bin\`
   <!-- - **OpenHarmony**:
-  - 数据库/文件/插件/日志路径: `/data/storage/zyfun/base/files/log`
-  - 二进制路径: `~/.zy/bin/`-->
+  - 数据库/文件/插件/日志 路径: `/data/storage/zyfun/base/files/log`
+  - 二进制 路径: `~/.zy/bin/`-->
 
 ## 🛠️ 下载安装
 
-> **开发版下载**: 需要登录Github账号
+> **开发版下载**: 需登录Github账号
 
-> **最低要求**: 与chromium内核要求保持一致
+> **最低要求**: 和chromium内核要求保持一致
 
 | 操作系统 | x64 | arm64 | loong64 | 发行版                                                                                                                                                                                                                      | 开发版                                                                            | 最低要求   |
 | :------: | :-: | :---: | :-----: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------- |
@@ -229,7 +228,7 @@ sudo yum install xdg-utils
       "updatedAt": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)
     }
   ],
-  "sites": [
+  "site": [
     {
       "id": "fddfb425-6fd9-0b39-459f-a21f69739a6e", // 数据唯一uuidv4标识(不可重复)
       "key": "51793af6-c923-5504-85db-0ef686624dec", // <3.4.0 启用> 业务唯一标识(不可重复)
@@ -267,12 +266,13 @@ sudo yum install xdg-utils
       "lang": "zh_CN", // <3.3.4 启用> 语言(<=3.4.0: zh_CN=简体中文,en_US=英文 | system=更随系统,zh_CN=简体中文,zh_TW=繁体中文,en_US=英文)
       "zoom": 1, // <3.4.1 启用> 界面缩放比例(预留)
       "proxy": {
-        "type": "none", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)
+        "type": "system", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)
         "url": "", // 代理地址(支持socks5/http/https协议)
         "bypass": "" // 忽略主机名
       }, <3.4.1 启用> 代理设置
       "defaultHot": "kylive", // <3.4.1 **弃用**> 热搜(kylive=酷云数据,enlightent=云合数据)
       "hot": "kylive", // <3.4.1 启用> 热搜(baidu=百度,douban=豆瓣,enlightent=云合,komect=移动爱家,kylive=酷云,quark=夸克)
+      "association": "douban", // <3.4.4 启用> 搜索联想(douban=豆瓣,iqiyi=爱奇艺,snm=喜粤TV)
       "defaultSearchRecommend": "site", // 搜索推荐 site:站点 quark:夸克 baidu:百度 douban:豆瓣  弃用
       "defaultSearchType": "site", // <3.4.1 **弃用**> 全局搜索模式 site:本站 group:组内 all:全部
       "defaultFilterType": false, // <3.3.7 启用, 3.4.1 **弃用**> 影视搜索过滤关键词
@@ -402,13 +402,12 @@ sudo yum install xdg-utils
 
 以下是您可以做出贡献的一些方式：
 
-- **贡献代码**：开发新功能或优化现有代码 <[开发文档](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Develop.md)>
+- **贡献代码**：开发新功能或优化现有代码 <[开发文档](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Develop.md)> <[Mcp文档](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Mcp.md)>
 - **修复错误**：提交您发现的任何错误的修复 <[提交规范](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Conventional_Commits.md)>
 - **维护问题**：帮助管理GitHub问题
 - **产品设计**：参与设计讨论
 - **编写文档**：改进用户手册和指南
 - **社区参与**：加入讨论并帮助用户
-- **用爱发电**：支持项目发展（不限于资金，服务器等） <[kofi](https://ko-fi.com/hiramwong)> <[爱发电](https://ifdian.net/a/hiram)>
 
 [![][github-contributors-shield]][github-contributors-link]
 
@@ -427,7 +426,7 @@ sudo yum install xdg-utils
 - [NodeSupport](https://github.com/NodeSeekDev/NodeSupport) 赞助了本项目
 - [![image](https://s2.loli.net/2025/04/09/JMyQZUKY2bX4G3q.png)](https://yxvm.com/)
 
-<!-- 链接与图片 -->
+<!-- Links & Images -->
 
 [github-release-shield]: https://img.shields.io/github/v/release/Hiram-Wong/zyfun?label=Release&logo=github
 [github-release-link]: https://github.com/Hiram-Wong/zyfun/releases
@@ -435,8 +434,8 @@ sudo yum install xdg-utils
 [github-nightly-link]: https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml
 [github-contributors-shield]: https://openomy.app/svg?repo=Hiram-Wong/zyfun&chart=bubble&latestMonth=12
 [github-contributors-link]: https://openomy.app/github/Hiram-Wong/zyfun
-
 [github-license-shield]: https://img.shields.io/github/license/Hiram-Wong/zyfun?label=License&logo=gnu
+
 [github-license-link]: https://github.com/Hiram-Wong/zyfun/blob/main/LICENSE.txt
 [fossa-shield]: https://app.fossa.com/api/projects/git%2Bgithub.com%2FHiram-Wong%2Fzyfun.svg?type=shield
 [fossa-link]: https://app.fossa.com/projects/git%2Bgithub.com%2FHiram-Wong%2Fzyfun?ref=badge_shield
@@ -448,7 +447,7 @@ sudo yum install xdg-utils
 <!-- 链接与图片 -->
 
 [readmex-shield]: https://raw.githubusercontent.com/CodePhiliaX/resource-trusteeship/main/readmex.svg
-[readmex-link]: https://readmex.com/Hiram-Wong/zyfun
+[readmex-link]: https://readmex.com/Hiram-Wong/ZyPlayer
 [deepwiki-shield]: https://deepwiki.com/badge.svg
 [deepwiki-link]: https://deepwiki.com/Hiram-Wong/zyfun
 [zread-shield]: https://img.shields.io/badge/Ask_Zread-_.svg?style=flat&color=00b0aa&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQuOTYxNTYgMS42MDAxSDIuMjQxNTZDMS44ODgxIDEuNjAwMSAxLjYwMTU2IDEuODg2NjQgMS42MDE1NiAyLjI0MDFWNC45NjAxQzEuNjAxNTYgNS4zMTM1NiAxLjg4ODEgNS42MDAxIDIuMjQxNTYgNS42MDAxSDQuOTYxNTZDNS4zMTUwMiA1LjYwMDEgNS42MDE1NiA1LjMxMzU2IDUuNjAxNTYgNC45NjAxVjIuMjQwMUM1LjYwMTU2IDEuODg2NjQgNS4zMTUwMiAxLjYwMDEgNC45NjE1NiAxLjYwMDFaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik00Ljk2MTU2IDEwLjM5OTlIMi4yNDE1NkMxLjg4ODEgMTAuMzk5OSAxLjYwMTU2IDEwLjY4NjQgMS42MDE1NiAxMS4wMzk5VjEzLjc1OTlDMS42MDE1NiAxNC4xMTM0IDEuODg4MSAxNC4zOTk5IDIuMjQxNTYgMTQuMzk5OUg0Ljk2MTU2QzUuMzE1MDIgMTQuMzk5OSA1LjYwMTU2IDE0LjExMzQgNS42MDE1NiAxMy43NTk5VjExLjAzOTlDNS42MDE1NiAxMC42ODY0IDUuMzE1MDIgMTAuMzk5OSA0Ljk2MTU2IDEwLjM5OTlaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik0xMy43NTg0IDEuNjAwMUgxMS4wMzg0QzEwLjY4NSAxLjYwMDEgMTAuMzk4NCAxLjg4NjY0IDEwLjM5ODQgMi4yNDAxVjQuOTYwMUMxMC4zOTg0IDUuMzEzNTYgMTAuNjg1IDUuNjAwMSAxMS4wMzg0IDUuNjAwMUgxMy43NTg0QzE0LjExMTkgNS42MDAxIDE0LjM5ODQgNS4zMTM1NiAxNC4zOTg0IDQuOTYwMVYyLjI0MDFDMTQuMzk4NCAxLjg4NjY0IDE0LjExMTkgMS42MDAxIDEzLjc1ODQgMS42MDAxWiIgZmlsbD0iI2ZmZiIvPgo8cGF0aCBkPSJNNCAxMkwxMiA0TDQgMTJaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik00IDEyTDEyIDQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K&logoColor=ffffff
@@ -466,6 +465,6 @@ sudo yum install xdg-utils
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-05
 
 ---

@@ -49,8 +49,7 @@
 </div>
 <div align="center">
 
-<!-- [![][readmex-shield]][readmex-link] -->
-
+[![][readmex-shield]][readmex-link]
 [![][deepwiki-shield]][deepwiki-link]
 [![][zread-shield]][zread-link]
 
@@ -65,59 +64,59 @@
 
 # Introducción al software
 
-zyfun es un gestor multimedia multiplataforma, gratuito, minimalista y todo en uno, que permite gestionar recursos de todos los tipos T1-T4 en un solo lugar, con reproductor multicore integrado y cambio sencillo entre núcleos. Incluye tecla de jefe exclusiva, para ocultarse con un solo clic y disfrutar sin preocupaciones. ¡Descubre el mundo viendo películas!
+zyfun es un gestor multimedia gratuito, minimalista y versátil multiplataforma, que permite gestionar todo tipo de recursos T1-T4 en un solo lugar. Incluye un reproductor multinúcleo integrado que permite cambiar de motor fácilmente. Tecla exclusiva de “modo jefe” para ocultarte con un solo clic sin preocupaciones. ¡Descubre el mundo viendo películas!
 
 <details>
-<summary>Desplegar para ver capturas del software</summary>
+<summary>Haz clic para ver capturas de pantalla del software</summary>
 
-|                    Películas                 |                   En Vivo                 |
-| :-----------------------------------------: | :--------------------------------------: |
+|                     Cine                    |                    En vivo                |
+| :-----------------------------------------: | :---------------------------------------: |
 |  ![影视](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-film.png)   | ![直播](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-live.png) |
-|                  **Historial**               |                 **Reproducción**          |
+|                  **Historial**              |                 **Reproducción**          |
 | ![历史](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-history.png) | ![播放](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/assets/images/app-play.png) |
 
 </details>
 
-## 🌴 Precauciones
+## 🌴 Notas importantes
 
-- Solo se publica en Github, no caigas en engaños; los administradores no deben promocionar ni atraer usuarios hacia este software.
-- Se promueve encarecidamente el visionado legal, este software es solo una herramienta de reproducción y no involucra almacenamiento o distribución de recursos.
-- Solo para uso personal y educativo, desinstala voluntariamente en 24 horas, no lo uses con fines comerciales.
-- Basado originalmente en [ZY-Player](https://github.com/Hunlongyu/ZY-Player), ícono diseñado por @fourbeauty.
-- Antes de comenzar a usarlo, lee y acepta el acuerdo de usuario, asegurándote de cumplir con las regulaciones correspondientes.
+- Solo se publica en Github, por favor no caiga en estafas; se solicita a los administradores no promocionar ni atraer usuarios a este software.
+- Se promueve fuertemente el visionado legal; este software es solo una herramienta de reproducción y no involucra almacenamiento o distribución de recursos.
+- Solo para uso personal de aprendizaje e intercambio; desinstálelo voluntariamente en 24 horas, no lo utilice con fines comerciales.
+- La versión anterior proviene de [ZY-Player](https://github.com/Hunlongyu/ZY-Player), el icono fue diseñado por @fourbeauty.
+- Antes de comenzar a usarlo, por favor lea detenidamente y acepte el acuerdo de usuario, asegurando el cumplimiento de las normas pertinentes.
 
-## 💻 Notas sobre multiplataforma
+## 💻 Información multiplataforma
 
 - **MacOS**:
-  - Ruta de base de datos/archivos/plugins/registros: `~/Library/Application Support/zyfun/`
+  - Ruta de base de datos/archivos/plug-ins/registros: `~/Library/Application Support/zyfun/`
   - Ruta de binarios: `~/.zy/bin/`
 - **Linux**:
-  - Ruta de base de datos/archivos/plugins/registros: `~/.config/zyfun/`
+  - Ruta de base de datos/archivos/plug-ins/registros: `~/.config/zyfun/`
   - Ruta de binarios: `~/.zy/bin/`
 - **Windows**:
-  - Ruta de base de datos/archivos/plugins/registros: `%USERPROFILE%\AppData\Roaming\zyfun\`
+  - Ruta de base de datos/archivos/plug-ins/registros: `%USERPROFILE%\AppData\Roaming\zyfun\`
   - Ruta de binarios: `%USERPROFILE%\.zy\bin\`
   <!-- - **OpenHarmony**:
-  - Ruta de base de datos/archivos/plugins/registros: `/data/storage/zyfun/base/files/log`
+  - Ruta de base de datos/archivos/plug-ins/registros: `/data/storage/zyfun/base/files/log`
   - Ruta de binarios: `~/.zy/bin/`-->
 
-## 🛠️ Descarga e instalación
+## 🛠️ Instalación y descarga
 
-> **Descarga de versión de desarrollo**: Requiere iniciar sesión con cuenta de Github
+> **Descarga de versión de desarrollo**: requiere inicio de sesión en Github
 
-> **Requisito mínimo**: Mantenerse acorde a los requisitos del núcleo chromium
+> **Requisitos mínimos**: mantener consistencia con los requisitos del núcleo de chromium
 
-| Sistema Operativo | x64 | arm64 | loong64 | Distribución                                                                                                                                                                                                                          | Versión de desarrollo                                                              | Requisitos mínimos |
-| :--------------: | :-: | :---: | :-----: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------ |
-| Windows          | ✅  |  ✅   |   ➖    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases)                                                                                                                                                                                | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml)  | >= win10           |
-|  MacOS           | ✅  |  ✅   |   ➖    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases)                                                                                                                                                                                | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml)  | >= macOS12         |
-|  Linux           | ✅  |  ✅   |   ❌    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases) <br/> [Linyaps App Store](https://store.linyaps.org.cn/) <br/> [AUR Package](https://aur.archlinux.org/packages?O=0&SeB=nd&K=zyfun&outdated=&SB=p&SO=d&PP=50&submit=Go)        | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml)  |                    |
-| Harmony          | ❌  |  ❌   |   ➖    |                                                                                                                                                                                                                                       |                                                                                    |
+| Sistema Operativo | x64 | arm64 | loong64 | Distribución                                                                                                                                                                                                                 | Versión de desarrollo                                                             | Requisitos mínimos |
+| :--------------: | :-: | :---: | :-----: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------ |
+| Windows          | ✅  |  ✅   |   ➖    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases)                                                                                                                                                                      | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml) | >= win10           |
+|  MacOS           | ✅  |  ✅   |   ➖    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases)                                                                                                                                                                      | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml) | >= macOS12         |
+|  Linux           | ✅  |  ✅   |   ❌    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases) <br/> [Tienda de aplicaciones Linyaps](https://store.linyaps.org.cn/) <br/> [Paquete AUR](https://aur.archlinux.org/packages?O=0&SeB=nd&K=zyfun&outdated=&SB=p&SO=d&PP=50&submit=Go) | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml) |                  |
+| Harmony          | ❌  |  ❌   |   ➖    |                                                                                                                                                                                                                             |                                                                                   |
 
 <details>
 <summary>Desplegar para ver problemas de instalación</summary>
 
-#### Al abrir tras instalar en MacOS aparece el mensaje "El archivo está dañado"
+#### MacOS: Al abrir después de instalar, aparece el mensaje "El archivo está dañado"
 
 ```bash
 sudo spctl --master-disable
@@ -229,7 +228,7 @@ sudo yum install xdg-utils
       "updatedAt": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)
     }
   ],
-  "sites": [
+  "site": [
     {
       "id": "fddfb425-6fd9-0b39-459f-a21f69739a6e", // 数据唯一uuidv4标识(不可重复)
       "key": "51793af6-c923-5504-85db-0ef686624dec", // <3.4.0 启用> 业务唯一标识(不可重复)
@@ -267,12 +266,13 @@ sudo yum install xdg-utils
       "lang": "zh_CN", // <3.3.4 启用> 语言(<=3.4.0: zh_CN=简体中文,en_US=英文 | system=更随系统,zh_CN=简体中文,zh_TW=繁体中文,en_US=英文)
       "zoom": 1, // <3.4.1 启用> 界面缩放比例(预留)
       "proxy": {
-        "type": "none", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)
+        "type": "system", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)
         "url": "", // 代理地址(支持socks5/http/https协议)
         "bypass": "" // 忽略主机名
       }, <3.4.1 启用> 代理设置
       "defaultHot": "kylive", // <3.4.1 **弃用**> 热搜(kylive=酷云数据,enlightent=云合数据)
       "hot": "kylive", // <3.4.1 启用> 热搜(baidu=百度,douban=豆瓣,enlightent=云合,komect=移动爱家,kylive=酷云,quark=夸克)
+      "association": "douban", // <3.4.4 启用> 搜索联想(douban=豆瓣,iqiyi=爱奇艺,snm=喜粤TV)
       "defaultSearchRecommend": "site", // 搜索推荐 site:站点 quark:夸克 baidu:百度 douban:豆瓣  弃用
       "defaultSearchType": "site", // <3.4.1 **弃用**> 全局搜索模式 site:本站 group:组内 all:全部
       "defaultFilterType": false, // <3.3.7 启用, 3.4.1 **弃用**> 影视搜索过滤关键词
@@ -398,27 +398,26 @@ sudo yum install xdg-utils
 ```
 </details>
 
-## 🤝 Participar y contribuir
+## 🤝 Participa y contribuye
 
-A continuación se muestran algunas formas en las que puede contribuir:
+A continuación se presentan algunas formas en que puedes contribuir:
 
-- **Contribuir código**: Desarrollar nuevas funciones u optimizar el código existente <[Documentación de desarrollo](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Develop.md)>
-- **Corregir errores**: Enviar correcciones para cualquier error que encuentre <[Normas de envío](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Conventional_Commits.md)>
-- **Mantener issues**: Ayudar a gestionar los issues de GitHub
-- **Diseño de producto**: Participar en discusiones de diseño
-- **Redacción de documentación**: Mejorar manuales y guías de usuario
-- **Participación en la comunidad**: Unirse a debates y ayudar a usuarios
-- **Apoyo con amor**: Apoyar el desarrollo del proyecto (incluye pero no se limita a fondos, servidores, etc.) <[kofi](https://ko-fi.com/hiramwong)> <[爱发电](https://ifdian.net/a/hiram)>
+- **Contribuir código**: Desarrolla nuevas funciones o mejora el código existente <[Documento de desarrollo](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Develop.md)> <[Documento Mcp](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Mcp.md)>
+- **Corregir errores**: Envía correcciones para cualquier error que encuentres <[Norma de envío](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Conventional_Commits.md)>
+- **Mantener issues**: Ayuda a gestionar los issues de GitHub
+- **Diseño de producto**: Participa en discusiones de diseño
+- **Redactar documentación**: Mejora los manuales de usuario y las guías
+- **Participación comunitaria**: Únete a las discusiones y ayuda a los usuarios
 
 [![][github-contributors-shield]][github-contributors-link]
 
-## 🌟 Historial de estrellas
+## 🌟 Historial de Stars
 
 <a href="https://www.star-history.com/#Hiram-Wong/zyfun&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Hiram-Wong/zyfun&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Hiram-Wong/zyfun&type=Date" />
-   <img alt="Historial de estrellas" src="https://api.star-history.com/svg?repos=Hiram-Wong/zyfun&type=Date" />
+   <img alt="Gráfico de historial de estrellas" src="https://api.star-history.com/svg?repos=Hiram-Wong/zyfun&type=Date" />
  </picture>
 </a>
 
@@ -427,7 +426,7 @@ A continuación se muestran algunas formas en las que puede contribuir:
 - [NodeSupport](https://github.com/NodeSeekDev/NodeSupport) patrocinó este proyecto
 - [![image](https://s2.loli.net/2025/04/09/JMyQZUKY2bX4G3q.png)](https://yxvm.com/)
 
-<!-- Enlaces e imágenes -->
+<!-- Enlaces e Imágenes -->
 
 [github-release-shield]: https://img.shields.io/github/v/release/Hiram-Wong/zyfun?label=Release&logo=github
 [github-release-link]: https://github.com/Hiram-Wong/zyfun/releases
@@ -435,8 +434,8 @@ A continuación se muestran algunas formas en las que puede contribuir:
 [github-nightly-link]: https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml
 [github-contributors-shield]: https://openomy.app/svg?repo=Hiram-Wong/zyfun&chart=bubble&latestMonth=12
 [github-contributors-link]: https://openomy.app/github/Hiram-Wong/zyfun
-
 [github-license-shield]: https://img.shields.io/github/license/Hiram-Wong/zyfun?label=License&logo=gnu
+
 [github-license-link]: https://github.com/Hiram-Wong/zyfun/blob/main/LICENSE.txt
 [fossa-shield]: https://app.fossa.com/api/projects/git%2Bgithub.com%2FHiram-Wong%2Fzyfun.svg?type=shield
 [fossa-link]: https://app.fossa.com/projects/git%2Bgithub.com%2FHiram-Wong%2Fzyfun?ref=badge_shield
@@ -448,7 +447,7 @@ A continuación se muestran algunas formas en las que puede contribuir:
 <!-- Enlaces e Imágenes -->
 
 [readmex-shield]: https://raw.githubusercontent.com/CodePhiliaX/resource-trusteeship/main/readmex.svg
-[readmex-link]: https://readmex.com/Hiram-Wong/zyfun
+[readmex-link]: https://readmex.com/Hiram-Wong/ZyPlayer
 [deepwiki-shield]: https://deepwiki.com/badge.svg
 [deepwiki-link]: https://deepwiki.com/Hiram-Wong/zyfun
 [zread-shield]: https://img.shields.io/badge/Ask_Zread-_.svg?style=flat&color=00b0aa&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQuOTYxNTYgMS42MDAxSDIuMjQxNTZDMS44ODgxIDEuNjAwMSAxLjYwMTU2IDEuODg2NjQgMS42MDE1NiAyLjI0MDFWNC45NjAxQzEuNjAxNTYgNS4zMTM1NiAxLjg4ODEgNS42MDAxIDIuMjQxNTYgNS42MDAxSDQuOTYxNTZDNS4zMTUwMiA1LjYwMDEgNS42MDE1NiA1LjMxMzU2IDUuNjAxNTYgNC45NjAxVjIuMjQwMUM1LjYwMTU2IDEuODg2NjQgNS4zMTUwMiAxLjYwMDEgNC45NjE1NiAxLjYwMDFaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik00Ljk2MTU2IDEwLjM5OTlIMi4yNDE1NkMxLjg4ODEgMTAuMzk5OSAxLjYwMTU2IDEwLjY4NjQgMS42MDE1NiAxMS4wMzk5VjEzLjc1OTlDMS42MDE1NiAxNC4xMTM0IDEuODg4MSAxNC4zOTk5IDIuMjQxNTYgMTQuMzk5OUg0Ljk2MTU2QzUuMzE1MDIgMTQuMzk5OSA1LjYwMTU2IDE0LjExMzQgNS42MDE1NiAxMy43NTk5VjExLjAzOTlDNS42MDE1NiAxMC42ODY0IDUuMzE1MDIgMTAuMzk5OSA0Ljk2MTU2IDEwLjM5OTlaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik0xMy43NTg0IDEuNjAwMUgxMS4wMzg0QzEwLjY4NSAxLjYwMDEgMTAuMzk4NCAxLjg4NjY0IDEwLjM5ODQgMi4yNDAxVjQuOTYwMUMxMC4zOTg0IDUuMzEzNTYgMTAuNjg1IDUuNjAwMSAxMS4wMzg0IDUuNjAwMUgxMy43NTg0QzE0LjExMTkgNS42MDAxIDE0LjM5ODQgNS4zMTM1NiAxNC4zOTg0IDQuOTYwMVYyLjI0MDFDMTQuMzk4NCAxLjg4NjY0IDE0LjExMTkgMS42MDAxIDEzLjc1ODQgMS42MDAxWiIgZmlsbD0iI2ZmZiIvPgo8cGF0aCBkPSJNNCAxMkwxMiA0TDQgMTJaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik00IDEyTDEyIDQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K&logoColor=ffffff
@@ -466,6 +465,6 @@ A continuación se muestran algunas formas en las que puede contribuir:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-05
 
 ---

@@ -49,8 +49,7 @@
 </div>
 <div align="center">
 
-<!-- [![][readmex-shield]][readmex-link] -->
-
+[![][readmex-shield]][readmex-link]
 [![][deepwiki-shield]][deepwiki-link]
 [![][zread-shield]][zread-link]
 
@@ -65,7 +64,7 @@
 
 # 軟體介紹
 
-zyfun是一款免費、極簡、全能的跨平台影音管家，一站式管理 T1-T4 全類型資源，內建多核心播放器隨心切換。獨家老板鍵，一鍵隱身摸魚無憂。用觀影發現世界！
+zyfun是一款免費、極簡、全能的跨平台影音管家，一站式管理 T1-T4 全類型資源，內建多核播放器隨心切換。獨家老闆鍵，一鍵隱身摸魚無憂。用觀影發現世界！
 
 <details>
 <summary>展開查看軟體截圖</summary>
@@ -80,44 +79,44 @@ zyfun是一款免費、極簡、全能的跨平台影音管家，一站式管理
 
 ## 🌴 注意事項
 
-- 僅於此 Github 發布，請勿上當受騙；請各管理者不要宣傳及引流本軟體。
+- 僅於Github發布，請勿上當受騙；請各管理者不要宣傳及引流本軟體。
 - 強烈倡導合法觀影，本軟體僅作為播放工具，不涉及資源存儲或分發。
-- 僅供個人學習交流之用，24小時內請自覺卸載，勿作商業用途。
-- 前身來源於 [ZY-Player](https://github.com/Hunlongyu/ZY-Player)，圖示由 @fourbeauty 設計。
+- 僅供個人學習交流之用，請於24小時內自覺卸載，勿作商業用途。
+- 前身來源於[ZY-Player](https://github.com/Hunlongyu/ZY-Player)，圖標由@fourbeauty設計。
 - 在開始使用前，請務必詳讀並同意用戶協議，確保遵守相關規定。
 
 ## 💻 跨平台說明
 
-- **MacOS**：
-  - 資料庫/檔案/插件/日誌 路徑：`~/Library/Application Support/zyfun/`
-  - 執行檔 路徑：`~/.zy/bin/`
-- **Linux**：
-  - 資料庫/檔案/插件/日誌 路徑：`~/.config/zyfun/`
-  - 執行檔 路徑：`~/.zy/bin/`
-- **Windows**：
-  - 資料庫/檔案/插件/日誌 路徑：`%USERPROFILE%\AppData\Roaming\zyfun\`
-  - 執行檔 路徑：`%USERPROFILE%\.zy\bin\`
-  <!-- - **OpenHarmony**：
-  - 資料庫/檔案/插件/日誌 路徑：`/data/storage/zyfun/base/files/log`
-  - 執行檔 路徑：`~/.zy/bin/`-->
+- **MacOS**:
+  - 資料庫/檔案/插件/日誌 路徑: `~/Library/Application Support/zyfun/`
+  - 二進位 路徑: `~/.zy/bin/`
+- **Linux**:
+  - 資料庫/檔案/插件/日誌 路徑: `~/.config/zyfun/`
+  - 二進位 路徑: `~/.zy/bin/`
+- **Windows**:
+  - 資料庫/檔案/插件/日誌 路徑: `%USERPROFILE%\AppData\Roaming\zyfun\`
+  - 二進位 路徑: `%USERPROFILE%\.zy\bin\`
+  <!-- - **OpenHarmony**:
+  - 資料庫/檔案/插件/日誌 路徑: `/data/storage/zyfun/base/files/log`
+  - 二進位 路徑: `~/.zy/bin/`-->
 
 ## 🛠️ 下載安裝
 
-> **開發版下載**：需登入 Github 帳號
+> **開發版下載**: 需登入Github帳號
 
-> **最低要求**：與 chromium 內核要求保持一致
+> **最低要求**: 與chromium核心要求保持一致
 
-| 作業系統  | x64 | arm64 | loong64 | 發行版                                                                                                                                                                                                                      | 開發版                                                                            | 最低要求   |
-| :------: | :-: | :---: | :-----: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------- |
+| 作業系統 | x64 | arm64 | loong64 | 發行版                                                                                                                                                                                                                     | 開發版                                                                            | 最低要求   |
+| :------: | :-: | :---: | :-----: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ---------- |
 | Windows  | ✅  |  ✅   |   ➖    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases)                                                                                                                                                                      | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml) | >= win10   |
 |  MacOS   | ✅  |  ✅   |   ➖    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases)                                                                                                                                                                      | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml) | >= macOS12 |
-|  Linux   | ✅  |  ✅   |   ❌    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases) <br/> [如意玲瓏應用商店](https://store.linyaps.org.cn/) <br/> [AUR 軟體包](https://aur.archlinux.org/packages?O=0&SeB=nd&K=zyfun&outdated=&SB=p&SO=d&PP=50&submit=Go) | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml) |            |
+|  Linux   | ✅  |  ✅   |   ❌    | [GitHub](https://github.com/Hiram-Wong/zyfun/releases) <br/> [如意玲瓏應用商店](https://store.linyaps.org.cn/) <br/> [AUR套件](https://aur.archlinux.org/packages?O=0&SeB=nd&K=zyfun&outdated=&SB=p&SO=d&PP=50&submit=Go) | [GitHub](https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml) |            |
 | Harmony  | ❌  |  ❌   |   ➖    |                                                                                                                                                                                                                             |                                                                                   |
 
 <details>
 <summary>展開查看安裝問題</summary>
 
-#### MacOS 安裝後打開提示「檔案已損壞」
+#### MacOS 安裝後開啟提示「檔案已損壞」
 
 ```bash
 sudo spctl --master-disable
@@ -229,7 +228,7 @@ sudo yum install xdg-utils
       "updatedAt": 1768310498000 // <3.4.1 启用> 更新时间戳(ms)
     }
   ],
-  "sites": [
+  "site": [
     {
       "id": "fddfb425-6fd9-0b39-459f-a21f69739a6e", // 数据唯一uuidv4标识(不可重复)
       "key": "51793af6-c923-5504-85db-0ef686624dec", // <3.4.0 启用> 业务唯一标识(不可重复)
@@ -267,12 +266,13 @@ sudo yum install xdg-utils
       "lang": "zh_CN", // <3.3.4 启用> 语言(<=3.4.0: zh_CN=简体中文,en_US=英文 | system=更随系统,zh_CN=简体中文,zh_TW=繁体中文,en_US=英文)
       "zoom": 1, // <3.4.1 启用> 界面缩放比例(预留)
       "proxy": {
-        "type": "none", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)
+        "type": "system", // 代理类型(system=系统代理,custom=自定义代理,direct=直连)
         "url": "", // 代理地址(支持socks5/http/https协议)
         "bypass": "" // 忽略主机名
       }, <3.4.1 启用> 代理设置
       "defaultHot": "kylive", // <3.4.1 **弃用**> 热搜(kylive=酷云数据,enlightent=云合数据)
       "hot": "kylive", // <3.4.1 启用> 热搜(baidu=百度,douban=豆瓣,enlightent=云合,komect=移动爱家,kylive=酷云,quark=夸克)
+      "association": "douban", // <3.4.4 启用> 搜索联想(douban=豆瓣,iqiyi=爱奇艺,snm=喜粤TV)
       "defaultSearchRecommend": "site", // 搜索推荐 site:站点 quark:夸克 baidu:百度 douban:豆瓣  弃用
       "defaultSearchType": "site", // <3.4.1 **弃用**> 全局搜索模式 site:本站 group:组内 all:全部
       "defaultFilterType": false, // <3.3.7 启用, 3.4.1 **弃用**> 影视搜索过滤关键词
@@ -402,13 +402,12 @@ sudo yum install xdg-utils
 
 以下是您可以做出貢獻的一些方式：
 
-- **貢獻程式碼**：開發新功能或優化現有程式碼 <[開發文件](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Develop.md)>
+- **貢獻程式碼**：開發新功能或優化現有程式碼 <[開發文件](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Develop.md)> <[Mcp文件](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Mcp.md)>
 - **修復錯誤**：提交您發現的任何錯誤的修復 <[提交規範](https://raw.githubusercontent.com/Hiram-Wong/zyfun/main/docs/Conventional_Commits.md)>
-- **維護問題**：協助管理GitHub問題
+- **維護議題**：協助管理GitHub議題
 - **產品設計**：參與設計討論
-- **撰寫文件**：改進使用手冊和指南
+- **編寫文件**：改進使用手冊和指南
 - **社群參與**：加入討論並協助用戶
-- **用愛發電**：支持專案發展(不限於資金、伺服器等) <[kofi](https://ko-fi.com/hiramwong)> <[愛發電](https://ifdian.net/a/hiram)>
 
 [![][github-contributors-shield]][github-contributors-link]
 
@@ -422,7 +421,7 @@ sudo yum install xdg-utils
  </picture>
 </a>
 
-## 💰 金主爸爸
+## 💰 贊助名單
 
 - [NodeSupport](https://github.com/NodeSeekDev/NodeSupport) 贊助了本專案
 - [![image](https://s2.loli.net/2025/04/09/JMyQZUKY2bX4G3q.png)](https://yxvm.com/)
@@ -435,8 +434,8 @@ sudo yum install xdg-utils
 [github-nightly-link]: https://github.com/Hiram-Wong/zyfun/actions/workflows/nightly-build.yml
 [github-contributors-shield]: https://openomy.app/svg?repo=Hiram-Wong/zyfun&chart=bubble&latestMonth=12
 [github-contributors-link]: https://openomy.app/github/Hiram-Wong/zyfun
-
 [github-license-shield]: https://img.shields.io/github/license/Hiram-Wong/zyfun?label=License&logo=gnu
+
 [github-license-link]: https://github.com/Hiram-Wong/zyfun/blob/main/LICENSE.txt
 [fossa-shield]: https://app.fossa.com/api/projects/git%2Bgithub.com%2FHiram-Wong%2Fzyfun.svg?type=shield
 [fossa-link]: https://app.fossa.com/projects/git%2Bgithub.com%2FHiram-Wong%2Fzyfun?ref=badge_shield
@@ -445,10 +444,10 @@ sudo yum install xdg-utils
 [telegram-shield]: https://img.shields.io/badge/IM-Telegram-0088CC?logo=telegram
 [telegram-link]: https://t.me/+IOovrYLP7gYwYmNl
 
-<!-- Links & Images -->
+<!-- 連結與圖片 -->
 
 [readmex-shield]: https://raw.githubusercontent.com/CodePhiliaX/resource-trusteeship/main/readmex.svg
-[readmex-link]: https://readmex.com/Hiram-Wong/zyfun
+[readmex-link]: https://readmex.com/Hiram-Wong/ZyPlayer
 [deepwiki-shield]: https://deepwiki.com/badge.svg
 [deepwiki-link]: https://deepwiki.com/Hiram-Wong/zyfun
 [zread-shield]: https://img.shields.io/badge/Ask_Zread-_.svg?style=flat&color=00b0aa&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQuOTYxNTYgMS42MDAxSDIuMjQxNTZDMS44ODgxIDEuNjAwMSAxLjYwMTU2IDEuODg2NjQgMS42MDE1NiAyLjI0MDFWNC45NjAxQzEuNjAxNTYgNS4zMTM1NiAxLjg4ODEgNS42MDAxIDIuMjQxNTYgNS42MDAxSDQuOTYxNTZDNS4zMTUwMiA1LjYwMDEgNS42MDE1NiA1LjMxMzU2IDUuNjAxNTYgNC45NjAxVjIuMjQwMUM1LjYwMTU2IDEuODg2NjQgNS4zMTUwMiAxLjYwMDEgNC45NjE1NiAxLjYwMDFaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik00Ljk2MTU2IDEwLjM5OTlIMi4yNDE1NkMxLjg4ODEgMTAuMzk5OSAxLjYwMTU2IDEwLjY4NjQgMS42MDE1NiAxMS4wMzk5VjEzLjc1OTlDMS42MDE1NiAxNC4xMTM0IDEuODg4MSAxNC4zOTk5IDIuMjQxNTYgMTQuMzk5OUg0Ljk2MTU2QzUuMzE1MDIgMTQuMzk5OSA1LjYwMTU2IDE0LjExMzQgNS42MDE1NiAxMy43NTk5VjExLjAzOTlDNS42MDE1NiAxMC42ODY0IDUuMzE1MDIgMTAuMzk5OSA0Ljk2MTU2IDEwLjM5OTlaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik0xMy43NTg0IDEuNjAwMUgxMS4wMzg0QzEwLjY4NSAxLjYwMDEgMTAuMzk4NCAxLjg4NjY0IDEwLjM5ODQgMi4yNDAxVjQuOTYwMUMxMC4zOTg0IDUuMzEzNTYgMTAuNjg1IDUuNjAwMSAxMS4wMzg0IDUuNjAwMUgxMy43NTg0QzE0LjExMTkgNS42MDAxIDE0LjM5ODQgNS4zMTM1NiAxNC4zOTg0IDQuOTYwMVYyLjI0MDFDMTQuMzk4NCAxLjg4NjY0IDE0LjExMTkgMS42MDAxIDEzLjc1ODQgMS42MDAxWiIgZmlsbD0iI2ZmZiIvPgo8cGF0aCBkPSJNNCAxMkwxMiA0TDQgMTJaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik00IDEyTDEyIDQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K&logoColor=ffffff
@@ -466,6 +465,6 @@ sudo yum install xdg-utils
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-02-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-05
 
 ---
