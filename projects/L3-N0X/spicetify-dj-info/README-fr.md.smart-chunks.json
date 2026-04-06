@@ -1,0 +1,1157 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Spicetify DJ Info\n\nWelcome to the Spicetify DJ Info Extension! This extension enhances your Spicetify experience by providing valuable song analysis data for each track, including Key, BPM, Popularity and Year. With this extension, you can gain deeper insights into your music library and discover songs perfectly fitting into your DJ set or Playlist.\n\n## ⭐Features\n\n- **Key:** Identify the key of each song in either the standard notation (Dbm) or the Camelot system (3B). The Camelot system simplifies harmonic mixing by categorizing keys into groups that are harmonically compatible. This enables smoother transitions between songs during DJ sets or when creating cohesive playlists.\n- **BPM ♫ (Beats Per Minute):** Get the tempo of each song, which indicates the speed or pace at which the music is played. BPM is useful for creating playlists with similar speed or for selecting songs for specific activities.\n- **Popularity ♥:** Discover how popular your songs are by accessing their popularity ratings. This data can be helpful in understanding the overall reception and popularity of a track.\n- **Year:** Find out when your songs were released. This data can be useful for creating playlists with songs from a specific time period.\n\n![Screenshot](https://raw.githubusercontent.com/L3-N0X/spicetify-dj-info/main/img/playlist.png)\n![Screenshot](https://raw.githubusercontent.com/L3-N0X/spicetify-dj-info/main/img/now-playing.png)\n\n## 💻 Installation\n\nCopy `dist/djinfo.mjs` into your [Spicetify](https://github.com/spicetify/spicetify-cli) extensions directory:\n\n| **Platform** | **Path**                                                                             |\n| ------------ | ------------------------------------------------------------------------------------ |\n| **Linux**    | `~/.config/spicetify/Extensions` or `$XDG_CONFIG_HOME/.config/spicetify/Extensions/` |\n| **MacOS**    | `~/.config/spicetify/Extensions` or `$SPICETIFY_CONFIG/Extensions`                   |\n| **Windows**  | `%appdata%/spicetify/Extensions/`                                                    |\n\nAfter putting the extension file into the correct folder, run the following command to install the extension:\n",
+    "ContentSha": "Vp68x9SwW0FODroTuLIpA1cdNBeX6SeRbLQgW5D8PVk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Spicetify DJ Info\n\nBienvenue dans l'extension Spicetify DJ Info ! Cette extension améliore votre expérience Spicetify en fournissant des données d'analyse précieuses pour chaque piste, y compris la tonalité, le BPM, la popularité et l'année. Avec cette extension, vous pouvez approfondir vos connaissances sur votre bibliothèque musicale et découvrir des chansons parfaitement adaptées à votre set DJ ou playlist.\n\n## ⭐Fonctionnalités\n\n- **Tonalité :** Identifiez la tonalité de chaque chanson en notation standard (Dbm) ou selon le système Camelot (3B). Le système Camelot simplifie le mixage harmonique en classant les tonalités en groupes harmonieux compatibles. Cela permet des transitions plus fluides entre les morceaux lors des sets DJ ou lors de la création de playlists cohérentes.\n- **BPM ♫ (Battements Par Minute) :** Obtenez le tempo de chaque chanson, indiquant la vitesse ou le rythme de la musique. Le BPM est utile pour créer des playlists avec une vitesse similaire ou pour sélectionner des chansons adaptées à des activités spécifiques.\n- **Popularité ♥ :** Découvrez la popularité de vos chansons en accédant à leurs notes de popularité. Ces données peuvent aider à comprendre la réception globale et la popularité d’un morceau.\n- **Année :** Découvrez quand vos chansons ont été publiées. Ces données peuvent être utiles pour créer des playlists avec des morceaux d’une période spécifique.\n\n![Capture d’écran](https://raw.githubusercontent.com/L3-N0X/spicetify-dj-info/main/img/playlist.png)\n![Capture d’écran](https://raw.githubusercontent.com/L3-N0X/spicetify-dj-info/main/img/now-playing.png)\n\n## 💻 Installation\n\nCopiez `dist/djinfo.mjs` dans le répertoire des extensions de votre [Spicetify](https://github.com/spicetify/spicetify-cli) :\n\n| **Plateforme** | **Chemin**                                                                            |\n| -------------- | ------------------------------------------------------------------------------------- |\n| **Linux**      | `~/.config/spicetify/Extensions` ou `$XDG_CONFIG_HOME/.config/spicetify/Extensions/`  |\n| **MacOS**      | `~/.config/spicetify/Extensions` ou `$SPICETIFY_CONFIG/Extensions`                    |\n| **Windows**    | `%appdata%/spicetify/Extensions/`                                                    |\n\nAprès avoir placé le fichier de l’extension dans le dossier approprié, exécutez la commande suivante pour installer l’extension :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Mf2Je1x6+umOPMnTap3UzM1nUd65CkndJcMyv/Z5yTs=",
+        "originContent": "# Spicetify DJ Info",
+        "translatedContent": "# Spicetify DJ Info"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "mUoAc5NcGFTVGEcQcmDkWG0rDnPSGC+0SgadlVA9dNY=",
+        "originContent": "Welcome to the Spicetify DJ Info Extension! This extension enhances your Spicetify experience by providing valuable song analysis data for each track, including Key, BPM, Popularity and Year. With this extension, you can gain deeper insights into your music library and discover songs perfectly fitting into your DJ set or Playlist.",
+        "translatedContent": "Bienvenue dans l'extension Spicetify DJ Info ! Cette extension améliore votre expérience Spicetify en fournissant des données d'analyse précieuses pour chaque piste, y compris la tonalité, le BPM, la popularité et l'année. Avec cette extension, vous pouvez approfondir vos connaissances sur votre bibliothèque musicale et découvrir des chansons parfaitement adaptées à votre set DJ ou playlist."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "sKB4x4HEI7tQ/oN2MdCw/W4uqAye0h9Gqvjx5G8jy6Q=",
+        "originContent": "## ⭐Features",
+        "translatedContent": "## ⭐Fonctionnalités"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "m4HZRjkbhFDXUSRIp71+12V3eyxN14Uat0yGNc84+bU=",
+        "originContent": "- **Key:** Identify the key of each song in either the standard notation (Dbm) or the Camelot system (3B). The Camelot system simplifies harmonic mixing by categorizing keys into groups that are harmonically compatible. This enables smoother transitions between songs during DJ sets or when creating cohesive playlists.",
+        "translatedContent": "- **Tonalité :** Identifiez la tonalité de chaque chanson en notation standard (Dbm) ou selon le système Camelot (3B). Le système Camelot simplifie le mixage harmonique en classant les tonalités en groupes harmonieux compatibles. Cela permet des transitions plus fluides entre les morceaux lors des sets DJ ou lors de la création de playlists cohérentes."
+      },
+      {
+        "row": 8,
+        "rowsha": "huERX6q5+mtHQWo4Y17UiD6djSQMl7kkdlfOC+FMZnk=",
+        "originContent": "- **BPM ♫ (Beats Per Minute):** Get the tempo of each song, which indicates the speed or pace at which the music is played. BPM is useful for creating playlists with similar speed or for selecting songs for specific activities.",
+        "translatedContent": "- **BPM ♫ (Battements Par Minute) :** Obtenez le tempo de chaque chanson, indiquant la vitesse ou le rythme de la musique. Le BPM est utile pour créer des playlists avec une vitesse similaire ou pour sélectionner des chansons adaptées à des activités spécifiques."
+      },
+      {
+        "row": 9,
+        "rowsha": "e2eduOfnd1r7thdf+5YiPa5u8Z4MtNRQOImtMNRGC6o=",
+        "originContent": "- **Popularity ♥:** Discover how popular your songs are by accessing their popularity ratings. This data can be helpful in understanding the overall reception and popularity of a track.",
+        "translatedContent": "- **Popularité ♥ :** Découvrez la popularité de vos chansons en accédant à leurs notes de popularité. Ces données peuvent aider à comprendre la réception globale et la popularité d’un morceau."
+      },
+      {
+        "row": 10,
+        "rowsha": "hF6S5SAaRCFSbLttj9T3cri8FA3mPLMQbLT6NJ1HVMk=",
+        "originContent": "- **Year:** Find out when your songs were released. This data can be useful for creating playlists with songs from a specific time period.",
+        "translatedContent": "- **Année :** Découvrez quand vos chansons ont été publiées. Ces données peuvent être utiles pour créer des playlists avec des morceaux d’une période spécifique."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "D5hPlX3JDoOGg5B9mGo5DlQlGQO/fauqh4Ipl826zDc=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/L3-N0X/spicetify-dj-info/main/img/playlist.png)",
+        "translatedContent": "![Capture d’écran](https://raw.githubusercontent.com/L3-N0X/spicetify-dj-info/main/img/playlist.png)"
+      },
+      {
+        "row": 13,
+        "rowsha": "BKSyzloivdUIvdRVMveVnxUTfPFzBqNXUpp8kiS72aU=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/L3-N0X/spicetify-dj-info/main/img/now-playing.png)",
+        "translatedContent": "![Capture d’écran](https://raw.githubusercontent.com/L3-N0X/spicetify-dj-info/main/img/now-playing.png)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "LRNDQB81qsxkkbsaRuH1096ZVMmfrbi1U63PObCAK8I=",
+        "originContent": "## 💻 Installation",
+        "translatedContent": "## 💻 Installation"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "vTDd3QomvXT8R7t8ci8epdIA9YPwmK7t+8vvxkgfQ4c=",
+        "originContent": "Copy `dist/djinfo.mjs` into your [Spicetify](https://github.com/spicetify/spicetify-cli) extensions directory:",
+        "translatedContent": "Copiez `dist/djinfo.mjs` dans le répertoire des extensions de votre [Spicetify](https://github.com/spicetify/spicetify-cli) :"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "iEeYio6cWxxDFxEOdEsu3dEPN818mF5Q2K3GOFfwdLA=",
+        "originContent": "| **Platform** | **Path**                                                                             |",
+        "translatedContent": "| **Plateforme** | **Chemin**                                                                            |"
+      },
+      {
+        "row": 20,
+        "rowsha": "qvqzFtbe9E5+xGCN9ggpb8hzkadNfmtEF60dgr7RLWs=",
+        "originContent": "| ------------ | ------------------------------------------------------------------------------------ |",
+        "translatedContent": "| -------------- | ------------------------------------------------------------------------------------- |"
+      },
+      {
+        "row": 21,
+        "rowsha": "BLlebv9EB7uzxMmDJHUJ7gcnzeBEsuS4pZDktJqCnf8=",
+        "originContent": "| **Linux**    | `~/.config/spicetify/Extensions` or `$XDG_CONFIG_HOME/.config/spicetify/Extensions/` |",
+        "translatedContent": "| **Linux**      | `~/.config/spicetify/Extensions` ou `$XDG_CONFIG_HOME/.config/spicetify/Extensions/`  |"
+      },
+      {
+        "row": 22,
+        "rowsha": "3lxW+h2zgusZXgOQqlEpZEI6bT+F1IZ3O4BUHI8eoDY=",
+        "originContent": "| **MacOS**    | `~/.config/spicetify/Extensions` or `$SPICETIFY_CONFIG/Extensions`                   |",
+        "translatedContent": "| **MacOS**      | `~/.config/spicetify/Extensions` ou `$SPICETIFY_CONFIG/Extensions`                    |"
+      },
+      {
+        "row": 23,
+        "rowsha": "mSklIFXhRvXQkN4X6n9A9+mtRzTEUepeGO8ITnMvFZo=",
+        "originContent": "| **Windows**  | `%appdata%/spicetify/Extensions/`                                                    |",
+        "translatedContent": "| **Windows**    | `%appdata%/spicetify/Extensions/`                                                    |"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "kM/LnJs1wrzwRLlBxVFZkQ5c/LdqERgZjPXejSmly5E=",
+        "originContent": "After putting the extension file into the correct folder, run the following command to install the extension:",
+        "translatedContent": "Après avoir placé le fichier de l’extension dans le dossier approprié, exécutez la commande suivante pour installer l’extension :"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nspicetify config extensions djinfo.mjs\nspicetify apply\n```",
+    "ContentSha": "snvq34IEssJPeCSSi3GtHKtUMnRCUKsNhfjfAAAsDJk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nspicetify config extensions djinfo.mjs\nspicetify apply\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "0z5ybSXbW9lor5+Umy75UQy8ufo7XnHTBUr74m6np+o=",
+        "originContent": "spicetify config extensions djinfo.mjs",
+        "translatedContent": "spicetify config extensions djinfo.mjs"
+      },
+      {
+        "row": 3,
+        "rowsha": "pjUD308HQuj2Cms998zvAkX2WU/tjXheMv/8hAqdJ7A=",
+        "originContent": "spicetify apply",
+        "translatedContent": "spicetify apply"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nOr you can manually edit your `config-xpui.ini` file. Add your desired extension filenames in the extensions key, separated them by the | character.\nExample:\n",
+    "ContentSha": "/QAZAu5NvQQu5sUpFakZ6HxUq0l1HCiPbf1hnKj23LI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nOu vous pouvez modifier manuellement votre fichier `config-xpui.ini`. Ajoutez les noms de fichiers d'extension souhaités dans la clé extensions, séparés par le caractère |.\nExemple :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "6MZI4TphSUxH9k1bGb0Z+mv5OUP77YR1xRyXYsWfchQ=",
+        "originContent": "Or you can manually edit your `config-xpui.ini` file. Add your desired extension filenames in the extensions key, separated them by the | character.",
+        "translatedContent": "Ou vous pouvez modifier manuellement votre fichier `config-xpui.ini`. Ajoutez les noms de fichiers d'extension souhaités dans la clé extensions, séparés par le caractère |."
+      },
+      {
+        "row": 3,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "Exemple :"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```ini\n[AdditionalOptions]\n...\nextensions = autoSkipExplicit.js|shuffle+.js|trashbin.js|djinfo.mjs\n```",
+    "ContentSha": "+IKDT7Un5frizeKqoOl2Jpo23GFniMYuFSenNIOediE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ini\n[AdditionalOptions]\n...\nextensions = autoSkipExplicit.js|shuffle+.js|trashbin.js|djinfo.mjs\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "NOtYEj4xvNWpEB/tns9NY65hnruGx4mqSUdrkrrtBlQ=",
+        "originContent": "```ini",
+        "translatedContent": "```ini"
+      },
+      {
+        "row": 2,
+        "rowsha": "I2fyKBvq1gjBOPqc9qfOZJZZUoEi7SEwR9YExUSHkx4=",
+        "originContent": "[AdditionalOptions]",
+        "translatedContent": "[AdditionalOptions]"
+      },
+      {
+        "row": 3,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 4,
+        "rowsha": "B156k0yfTWo/Zmc9NuXufIQSE8Kn4a6yY/0gjbNAM74=",
+        "originContent": "extensions = autoSkipExplicit.js|shuffle+.js|trashbin.js|djinfo.mjs",
+        "translatedContent": "extensions = autoSkipExplicit.js|shuffle+.js|trashbin.js|djinfo.mjs"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nThen run:\n",
+    "ContentSha": "lCCYLg24jWBu5fy0SZUxLJOEpb8H7YxQ4+4dxSlEoW4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEnsuite, exécutez :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "B099WfzMNuwIR5/VHAUQErfFgSuF3FPUVhxBD/oCmW8=",
+        "originContent": "Then run:",
+        "translatedContent": "Ensuite, exécutez :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nspicetify apply\n```",
+    "ContentSha": "yTQvx/TpE232LxnmFFPjuKl3bZGuM6a9Iu770M3oOO0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nspicetify apply\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "pjUD308HQuj2Cms998zvAkX2WU/tjXheMv/8hAqdJ7A=",
+        "originContent": "spicetify apply",
+        "translatedContent": "spicetify apply"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n**May cause issues with Star Ratings!**\n\n## ❌ Uninstallation\n\nRun the following command to uninstall the extension (note the - on the end):\n",
+    "ContentSha": "FgXuxgF8rsl/2zKqImqLccQWd45Hj3XqPLxNPY0ANgU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Peut causer des problèmes avec les évaluations par étoiles !**\n\n## ❌ Désinstallation\n\nExécutez la commande suivante pour désinstaller l'extension (notez le - à la fin) :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "qDzHhyk2zKMd1/4w5/AQ+z1IXDC5uBmbFuvBP3W2oMc=",
+        "originContent": "**May cause issues with Star Ratings!**",
+        "translatedContent": "**Peut causer des problèmes avec les évaluations par étoiles !**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "PnPTkf4LiLQiOYFVKxE0eJfBDtf4IMlhO0e1HBakPzk=",
+        "originContent": "## ❌ Uninstallation",
+        "translatedContent": "## ❌ Désinstallation"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "digdHrR9FC60OlEplD4CEvc+TIoCx1egxpYHNQEEST0=",
+        "originContent": "Run the following command to uninstall the extension (note the - on the end):",
+        "translatedContent": "Exécutez la commande suivante pour désinstaller l'extension (notez le - à la fin) :"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\nspicetify config extensions djinfo.mjs-\nspicetify apply\n```",
+    "ContentSha": "mpsHrJt+uwb7zK6tKQJ7HjlDaiiic9skVoLmEjejwes=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nspicetify config extensions djinfo.mjs-\nspicetify apply\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "mPPar8q4PU8w7gAYiV+Sa1lBKXxlpmPEKhtAjil6dDk=",
+        "originContent": "spicetify config extensions djinfo.mjs-",
+        "translatedContent": "spicetify config extensions djinfo.mjs-"
+      },
+      {
+        "row": 3,
+        "rowsha": "pjUD308HQuj2Cms998zvAkX2WU/tjXheMv/8hAqdJ7A=",
+        "originContent": "spicetify apply",
+        "translatedContent": "spicetify apply"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nYou can also manually edit your `config-xpui.ini` file. Just remove the extensions' filename completely.\nExample:\n",
+    "ContentSha": "fPBjj6tPO5tqmJdGW079dn4kqdHq1UG5NQ+5PMjrQtw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nVous pouvez également modifier manuellement votre fichier `config-xpui.ini`. Il suffit de supprimer complètement le nom de fichier des extensions.  \nExemple :  \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "tpuDB9BZW6dpBiMJxyo2q1tHTCbCU268HPSCCJWSs34=",
+        "originContent": "You can also manually edit your `config-xpui.ini` file. Just remove the extensions' filename completely.",
+        "translatedContent": "Vous pouvez également modifier manuellement votre fichier `config-xpui.ini`. Il suffit de supprimer complètement le nom de fichier des extensions.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "Exemple :  "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```ini\n[AdditionalOptions]\n...\nextensions = autoSkipExplicit.js|shuffle+.js|trashbin.js\n```",
+    "ContentSha": "ZM3c6XsJ/yiu7gKtOFxrcUIdoBORi4FU67DIvaqbR0k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ini\n[AdditionalOptions]\n...\nextensions = autoSkipExplicit.js|shuffle+.js|trashbin.js\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "NOtYEj4xvNWpEB/tns9NY65hnruGx4mqSUdrkrrtBlQ=",
+        "originContent": "```ini",
+        "translatedContent": "```ini"
+      },
+      {
+        "row": 2,
+        "rowsha": "I2fyKBvq1gjBOPqc9qfOZJZZUoEi7SEwR9YExUSHkx4=",
+        "originContent": "[AdditionalOptions]",
+        "translatedContent": "[AdditionalOptions]"
+      },
+      {
+        "row": 3,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 4,
+        "rowsha": "1YuiD8m49+e17obWP7RxMUIbM7V+FTMU+v4v70r8dvU=",
+        "originContent": "extensions = autoSkipExplicit.js|shuffle+.js|trashbin.js",
+        "translatedContent": "extensions = autoSkipExplicit.js|shuffle+.js|trashbin.js"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nThen run:\n",
+    "ContentSha": "lCCYLg24jWBu5fy0SZUxLJOEpb8H7YxQ4+4dxSlEoW4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEnsuite, exécutez :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "B099WfzMNuwIR5/VHAUQErfFgSuF3FPUVhxBD/oCmW8=",
+        "originContent": "Then run:",
+        "translatedContent": "Ensuite, exécutez :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\nspicetify apply\n```",
+    "ContentSha": "yTQvx/TpE232LxnmFFPjuKl3bZGuM6a9Iu770M3oOO0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nspicetify apply\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "pjUD308HQuj2Cms998zvAkX2WU/tjXheMv/8hAqdJ7A=",
+        "originContent": "spicetify apply",
+        "translatedContent": "spicetify apply"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## ⚙️ Settings\n\nYou have the option to toggle the visibility of DJ information in the extension. By default, DJ information such as Key, BPM, Popularity, and Year are displayed for each song and also next to the currently playing song. However, if you prefer a cleaner interface, you can easily hide these separately.\n\nTo toggle the visibility of DJ information, follow these steps:\n\n1. Open Spotify\n2. Locate the menu icon on the top-right corner of the interface (your profile picture) and click on the icon\n3. In the menu, find the option 'DJ Info'\n4. In the sub-menu click on the toggle switch to hide or show whatever you want\n5. Click on Apply Changes to make your settings visible\n\n## 📜 Changelog\n\n### V 2.4.0\n\n- Updated to different API\n- Improved styling\n- Added new options for new audio features\n\n### V 2.3.3\n\n- Fixed log spam\n\n### V 2.3.2\n\n- Fixed layout with new mix UI\n\n### V 2.3.1\n\n- Fixed the api breaking the extension\n- Removed Danceability and Energy because they are not available in the new api\n- Added a new UI for the DJ Info and improved the old version, which can still be used by disabling the rich ui\n- Fixed Caching and migrated to a new system which uses IndexedDB instead of LocalStorage\n- The new Camelot Key colors can be customized by overwriting the css variables\n\n### V 2.2.1\n\n- Now finally works correctly in recommendations",
+    "ContentSha": "vz4T2dpJiB0ie11zl4O3vc90YrMdfPX27cPV0qyK1xo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## ⚙️ Paramètres\n\nVous avez la possibilité de basculer la visibilité des informations DJ dans l'extension. Par défaut, les informations DJ telles que la tonalité, le BPM, la popularité et l'année sont affichées pour chaque chanson et également à côté de la chanson en cours de lecture. Cependant, si vous préférez une interface plus épurée, vous pouvez facilement les masquer séparément.\n\nPour basculer la visibilité des informations DJ, suivez ces étapes :\n\n1. Ouvrez Spotify\n2. Trouvez l'icône de menu en haut à droite de l'interface (votre photo de profil) et cliquez sur l'icône\n3. Dans le menu, trouvez l'option 'Infos DJ'\n4. Dans le sous-menu, cliquez sur l'interrupteur pour masquer ou afficher ce que vous voulez\n5. Cliquez sur Appliquer les modifications pour rendre vos réglages visibles\n\n## 📜 Journal des modifications\n\n### V 2.4.0\n\n- Mise à jour vers une API différente\n- Amélioration du style\n- Ajout de nouvelles options pour les nouvelles fonctionnalités audio\n\n### V 2.3.3\n\n- Correction du spam de logs\n\n### V 2.3.2\n\n- Correction de la mise en page avec la nouvelle interface de mix\n\n### V 2.3.1\n\n- Correction de l'API qui cassait l'extension\n- Suppression de la danseabilité et de l'énergie car elles ne sont pas disponibles dans la nouvelle API\n- Ajout d'une nouvelle interface pour les infos DJ et amélioration de l'ancienne version, qui peut toujours être utilisée en désactivant l'interface riche\n- Correction de la mise en cache et migration vers un nouveau système utilisant IndexedDB au lieu de LocalStorage\n- Les nouvelles couleurs de la tonalité Camelot peuvent être personnalisées en écrasant les variables CSS\n\n### V 2.2.1\n\n- Fonctionne désormais correctement dans les recommandations",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "r6Bssne+bHm0rsbmdO4G7vjYz4Cqr6bJmrbfwLjIHbo=",
+        "originContent": "## ⚙️ Settings",
+        "translatedContent": "## ⚙️ Paramètres"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "FWc94/KQkWRmIOHUMZ2iKb/eKTqw0S9K9+xHn3ssKmc=",
+        "originContent": "You have the option to toggle the visibility of DJ information in the extension. By default, DJ information such as Key, BPM, Popularity, and Year are displayed for each song and also next to the currently playing song. However, if you prefer a cleaner interface, you can easily hide these separately.",
+        "translatedContent": "Vous avez la possibilité de basculer la visibilité des informations DJ dans l'extension. Par défaut, les informations DJ telles que la tonalité, le BPM, la popularité et l'année sont affichées pour chaque chanson et également à côté de la chanson en cours de lecture. Cependant, si vous préférez une interface plus épurée, vous pouvez facilement les masquer séparément."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "21Jl/w0ycG9Xc0Fo9Gnu6ND21e0kTSc0ESCpM9K2CKo=",
+        "originContent": "To toggle the visibility of DJ information, follow these steps:",
+        "translatedContent": "Pour basculer la visibilité des informations DJ, suivez ces étapes :"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "gvVE7ANdw32XvgtGjoaEqjoj3i33IP5jqf8oSVjOgQ0=",
+        "originContent": "1. Open Spotify",
+        "translatedContent": "1. Ouvrez Spotify"
+      },
+      {
+        "row": 9,
+        "rowsha": "nvnTc24QDD4If1RlTJXJo8Feej+QkKLeMipN5VYAX6Y=",
+        "originContent": "2. Locate the menu icon on the top-right corner of the interface (your profile picture) and click on the icon",
+        "translatedContent": "2. Trouvez l'icône de menu en haut à droite de l'interface (votre photo de profil) et cliquez sur l'icône"
+      },
+      {
+        "row": 10,
+        "rowsha": "N8otPOuuxzEm/fNn264T18SWzu93WCz3NdvtUI36C7Q=",
+        "originContent": "3. In the menu, find the option 'DJ Info'",
+        "translatedContent": "3. Dans le menu, trouvez l'option 'Infos DJ'"
+      },
+      {
+        "row": 11,
+        "rowsha": "AoBWPYa9yn7yOqnVv6OsDv5qqeXvga6v9+DZExaAZsE=",
+        "originContent": "4. In the sub-menu click on the toggle switch to hide or show whatever you want",
+        "translatedContent": "4. Dans le sous-menu, cliquez sur l'interrupteur pour masquer ou afficher ce que vous voulez"
+      },
+      {
+        "row": 12,
+        "rowsha": "dMUhFwq2YuRFMnLlSkv6j2I6i4wJ4a8mySLVaf2/B1A=",
+        "originContent": "5. Click on Apply Changes to make your settings visible",
+        "translatedContent": "5. Cliquez sur Appliquer les modifications pour rendre vos réglages visibles"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "cS/OmrdMp48ehbzfW+z5U0TSlIxqafSy9PdxtCDoXkA=",
+        "originContent": "## 📜 Changelog",
+        "translatedContent": "## 📜 Journal des modifications"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "CWDXKclV6EOk2cJFPvQFo9PP7eFc+5udbnXjFzBXF5o=",
+        "originContent": "### V 2.4.0",
+        "translatedContent": "### V 2.4.0"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "ArcmEs4KLcYBiBWAtjZtv1IiQMUOrsBBBynOmDAnqeQ=",
+        "originContent": "- Updated to different API",
+        "translatedContent": "- Mise à jour vers une API différente"
+      },
+      {
+        "row": 19,
+        "rowsha": "vBuORMMF6nT4ruHmjHULyKARyL0x4nPO3gAy7v76izw=",
+        "originContent": "- Improved styling",
+        "translatedContent": "- Amélioration du style"
+      },
+      {
+        "row": 20,
+        "rowsha": "6d8N0msdYzdD+FenK2oBQU0kaCCzbTc/L9rjwWRNYtY=",
+        "originContent": "- Added new options for new audio features",
+        "translatedContent": "- Ajout de nouvelles options pour les nouvelles fonctionnalités audio"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "kDirRibnQXU9BzvlJNt5qmagMOMYFZ3wm3o+sjF9CDE=",
+        "originContent": "### V 2.3.3",
+        "translatedContent": "### V 2.3.3"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "rp7o0EbkBE9t+WFP3ROyzYvoncQMBLIKrY5WgRTNL/A=",
+        "originContent": "- Fixed log spam",
+        "translatedContent": "- Correction du spam de logs"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "HfsRE8RrXp1qZ/N18p5IqQSELCyHpXFnPfDNTxOHrK8=",
+        "originContent": "### V 2.3.2",
+        "translatedContent": "### V 2.3.2"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "Lv70N4yHvOZXUx4MwjiRaHdxBzy22nDtEYotP806rDk=",
+        "originContent": "- Fixed layout with new mix UI",
+        "translatedContent": "- Correction de la mise en page avec la nouvelle interface de mix"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "HjCX3OiDDrADE4ZTn2sEePQEDIOgqXUqETCQFNW0g1k=",
+        "originContent": "### V 2.3.1",
+        "translatedContent": "### V 2.3.1"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "y0q9/oS0tsPJp0m8qblBIqcZJEzF3ex9In35GL+VAfU=",
+        "originContent": "- Fixed the api breaking the extension",
+        "translatedContent": "- Correction de l'API qui cassait l'extension"
+      },
+      {
+        "row": 33,
+        "rowsha": "WQbuH0vgUzboFiS5fBmgvfP/DJlkDYTLPgbDNQfF0UA=",
+        "originContent": "- Removed Danceability and Energy because they are not available in the new api",
+        "translatedContent": "- Suppression de la danseabilité et de l'énergie car elles ne sont pas disponibles dans la nouvelle API"
+      },
+      {
+        "row": 34,
+        "rowsha": "yCIUyhLEhhxro/hDydZ99PjOEYd1h+OXGG4tBvmli18=",
+        "originContent": "- Added a new UI for the DJ Info and improved the old version, which can still be used by disabling the rich ui",
+        "translatedContent": "- Ajout d'une nouvelle interface pour les infos DJ et amélioration de l'ancienne version, qui peut toujours être utilisée en désactivant l'interface riche"
+      },
+      {
+        "row": 35,
+        "rowsha": "B+j3rvPdsAAOewsOdnzxP4XLiHKRYl/IH2IURF+uhTs=",
+        "originContent": "- Fixed Caching and migrated to a new system which uses IndexedDB instead of LocalStorage",
+        "translatedContent": "- Correction de la mise en cache et migration vers un nouveau système utilisant IndexedDB au lieu de LocalStorage"
+      },
+      {
+        "row": 36,
+        "rowsha": "s4NrTOtdgQuGWjky4NSOrASdUK1Gy/0U0Ceat+/Z8FM=",
+        "originContent": "- The new Camelot Key colors can be customized by overwriting the css variables",
+        "translatedContent": "- Les nouvelles couleurs de la tonalité Camelot peuvent être personnalisées en écrasant les variables CSS"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "I0cWouXBRqhvsGE/pMXO9adRcSirQSjfHvFE4yMhDqQ=",
+        "originContent": "### V 2.2.1",
+        "translatedContent": "### V 2.2.1"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "PMbEp0+wsRr+RjsM9lwz/rosByRA1CORGmJ7WpMHykA=",
+        "originContent": "- Now finally works correctly in recommendations",
+        "translatedContent": "- Fonctionne désormais correctement dans les recommandations"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "- Cache was improved by far\n- Data is fetched in batches, fixing missing data because of rate limits\n- Working again with new Playlist UI\n- Improved loading performance\n- Improved Error logging\n- Bugfixes for #16, #23, #24 and #25\n\n### V 2.1.1\n\n- Fixed the styles in the recommended songs section\n\n### V 2.1.0\n\n- Added the option to see DJ info in the recommended songs section\n- Fixed a bug where the DJ info would not show up in the Discography section ([#2](https://github.com/L3-N0X/spicetify-dj-info/issues/2))\n- Fixed a bug in the queue ([#9](https://github.com/L3-N0X/spicetify-dj-info/issues/9))\n\n### V 2.0.0\n\n- Improved performance with storing data locally to speed up loading time and reduce API calls\n- Reworked the Settings menu to toggle the visibility of DJ information much easier\n\n### V 1.1.0\n\n- Added the option to toggle Year, Popularity, Danceability and Key in the standard notation\n- Bugfixes\n\n## 🌐 Credits & Thanks\n\nA big shoutout to [obafgkmdh](https://github.com/obafgkmdh) and [FixeQD](https://github.com/FixeQD) for fixing the extension after the internal api broke and migrating the whole api to the internal protobuf based api and also for adding a better file structure with bundling!\n\nAnd also thanks to [Golevka2001](https://github.com/Golevka2001) for the idea for better alignment of the DJ info in the playlist!\n\nBig thanks to [duffey](https://github.com/Tetrax-10) for the main code of displaying something in the playlist and the now playing widget!\n\nAlso thanks to [je09](https://github.com/je09) for contributing the code for displaying both the standard notation and the Camelot system for the key aswell as the option to display it on the left side in now playing!\n\n## 💬 Feedback and Contributions\n\nIf you encounter any issues or have suggestions for improving this extension, feel free to open an issue in the [GitHub repository](https://github.com/L3-N0X/spicetify-dj-info). Contributions are also welcome! Fork the repository, make your changes, and submit a pull request with your improvements.",
+    "ContentSha": "H8VJ4O0a3Z21mK6m213635b1Mp0lKoBXkAkBfjPyGg8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Le cache a été considérablement amélioré  \n- Les données sont récupérées par lots, corrigeant les données manquantes dues aux limites de taux  \n- Fonctionne à nouveau avec la nouvelle interface Playlist  \n- Amélioration des performances de chargement  \n- Amélioration de la journalisation des erreurs  \n- Corrections de bugs pour #16, #23, #24 et #25  \n\n### V 2.1.1  \n\n- Correction des styles dans la section des chansons recommandées  \n\n### V 2.1.0  \n\n- Ajout de l’option pour voir les infos DJ dans la section des chansons recommandées  \n- Correction d’un bug où les infos DJ n’apparaissaient pas dans la section Discographie ([#2](https://github.com/L3-N0X/spicetify-dj-info/issues/2))  \n- Correction d’un bug dans la file d’attente ([#9](https://github.com/L3-N0X/spicetify-dj-info/issues/9))  \n\n### V 2.0.0  \n\n- Amélioration des performances grâce au stockage local des données pour accélérer le temps de chargement et réduire les appels API  \n- Refondation du menu Paramètres pour basculer plus facilement la visibilité des informations DJ  \n\n### V 1.1.0  \n\n- Ajout de l’option pour activer/désactiver l’Année, la Popularité, la Dansabilité et la Tonalité en notation standard  \n- Corrections de bugs  \n\n## 🌐 Crédits & Remerciements  \n\nUn grand merci à [obafgkmdh](https://github.com/obafgkmdh) et [FixeQD](https://github.com/FixeQD) pour avoir réparé l’extension après la rupture de l’API interne, migré toute l’API vers l’API interne basée sur protobuf et également pour avoir ajouté une meilleure structure de fichiers avec le bundling !  \n\nEt aussi merci à [Golevka2001](https://github.com/Golevka2001) pour l’idée d’un meilleur alignement des infos DJ dans la playlist !  \n\nUn grand merci à [duffey](https://github.com/Tetrax-10) pour le code principal affichant les informations dans la playlist et le widget « maintenant en lecture » !  \n\nMerci également à [je09](https://github.com/je09) pour sa contribution au code affichant à la fois la notation standard et le système Camelot pour la tonalité ainsi que l’option de l’afficher sur le côté gauche dans le widget « maintenant en lecture » !  \n\n## 💬 Retour d’expérience et contributions  \n\nSi vous rencontrez des problèmes ou avez des suggestions pour améliorer cette extension, n’hésitez pas à ouvrir un ticket dans le [répertoire GitHub](https://github.com/L3-N0X/spicetify-dj-info). Les contributions sont également les bienvenues ! Forkez le dépôt, effectuez vos modifications, puis soumettez une pull request avec vos améliorations.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "jaPusnRtZEwvOidrYDZDIKo/t6MjgjvFC/PdkWjvV8E=",
+        "originContent": "- Cache was improved by far",
+        "translatedContent": "- Le cache a été considérablement amélioré  "
+      },
+      {
+        "row": 2,
+        "rowsha": "+YtAlcLTmYL/jAj2oKKnhVW0KJPwJe59nu1URILXqYY=",
+        "originContent": "- Data is fetched in batches, fixing missing data because of rate limits",
+        "translatedContent": "- Les données sont récupérées par lots, corrigeant les données manquantes dues aux limites de taux  "
+      },
+      {
+        "row": 3,
+        "rowsha": "PM1lIxywnKqnvryxZ6Z89qC4Q+ktmkcf5/MpBoUcOP8=",
+        "originContent": "- Working again with new Playlist UI",
+        "translatedContent": "- Fonctionne à nouveau avec la nouvelle interface Playlist  "
+      },
+      {
+        "row": 4,
+        "rowsha": "O7W7E6xSJh+z2o+ULfgWLMrp5wJb10r2TdEUCD1Hz4g=",
+        "originContent": "- Improved loading performance",
+        "translatedContent": "- Amélioration des performances de chargement  "
+      },
+      {
+        "row": 5,
+        "rowsha": "kUVCAt8NO2fRHiaObHbAW6CfIdnP+mvv8HB6f6RtRWU=",
+        "originContent": "- Improved Error logging",
+        "translatedContent": "- Amélioration de la journalisation des erreurs  "
+      },
+      {
+        "row": 6,
+        "rowsha": "Dmk13/45dLCqKAKlIwvzmAq7LF6REFLyWBVuUcFlwPc=",
+        "originContent": "- Bugfixes for #16, #23, #24 and #25",
+        "translatedContent": "- Corrections de bugs pour #16, #23, #24 et #25  "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "O0V7WJBjWsaPtJKsouSU3Y774ntnOEGXcFX8X2qI9yc=",
+        "originContent": "### V 2.1.1",
+        "translatedContent": "### V 2.1.1  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "wICCXrcgtaP0qde33BJ+xy8p+/ZHBnUCce+mErLltNc=",
+        "originContent": "- Fixed the styles in the recommended songs section",
+        "translatedContent": "- Correction des styles dans la section des chansons recommandées  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "m/PblWGZ3VEi1lSzdiV/EYbcWTHLK66REAkU0YQD624=",
+        "originContent": "### V 2.1.0",
+        "translatedContent": "### V 2.1.0  "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "nPtg0FYugvlP56eWKtKUhgDlwNDijV/nWHajc4fibTM=",
+        "originContent": "- Added the option to see DJ info in the recommended songs section",
+        "translatedContent": "- Ajout de l’option pour voir les infos DJ dans la section des chansons recommandées  "
+      },
+      {
+        "row": 15,
+        "rowsha": "lz2BjD16UZf5f/RXkLLpjrbpw6JhNt5P7GNbwqYQNFA=",
+        "originContent": "- Fixed a bug where the DJ info would not show up in the Discography section ([#2](https://github.com/L3-N0X/spicetify-dj-info/issues/2))",
+        "translatedContent": "- Correction d’un bug où les infos DJ n’apparaissaient pas dans la section Discographie ([#2](https://github.com/L3-N0X/spicetify-dj-info/issues/2))  "
+      },
+      {
+        "row": 16,
+        "rowsha": "YbZUmh8E4BKsCr6Eqgv0JlS8ZdMkOyzFUjCip6PMOwY=",
+        "originContent": "- Fixed a bug in the queue ([#9](https://github.com/L3-N0X/spicetify-dj-info/issues/9))",
+        "translatedContent": "- Correction d’un bug dans la file d’attente ([#9](https://github.com/L3-N0X/spicetify-dj-info/issues/9))  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "ZRLkaM9UzSKQpZpBcMTx6QBTe/cbHfOD2UPScPblGaM=",
+        "originContent": "### V 2.0.0",
+        "translatedContent": "### V 2.0.0  "
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "RUFl/SpgiE2YGY7Zku16vYl5rJyafW3EpsMNFEC6jHw=",
+        "originContent": "- Improved performance with storing data locally to speed up loading time and reduce API calls",
+        "translatedContent": "- Amélioration des performances grâce au stockage local des données pour accélérer le temps de chargement et réduire les appels API  "
+      },
+      {
+        "row": 21,
+        "rowsha": "f+9fsbqFvBDpatzJWJUCWLLG7iWIwhrMUV4pX+YLdT8=",
+        "originContent": "- Reworked the Settings menu to toggle the visibility of DJ information much easier",
+        "translatedContent": "- Refondation du menu Paramètres pour basculer plus facilement la visibilité des informations DJ  "
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "YboRPoRl8k8jB83U5OvNVUPv17WU35t1bnmoHp3530w=",
+        "originContent": "### V 1.1.0",
+        "translatedContent": "### V 1.1.0  "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "zF8TkBGktzPwwTt8m+tWQ3BAyDHYf/cv0Iz/u+UQs44=",
+        "originContent": "- Added the option to toggle Year, Popularity, Danceability and Key in the standard notation",
+        "translatedContent": "- Ajout de l’option pour activer/désactiver l’Année, la Popularité, la Dansabilité et la Tonalité en notation standard  "
+      },
+      {
+        "row": 26,
+        "rowsha": "Sl2xcpjurSqMgoUnl7ekPTuRI8saskoQhXOxNOT0878=",
+        "originContent": "- Bugfixes",
+        "translatedContent": "- Corrections de bugs  "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "81lHatltQfIvhGE2rOpE3AEeVGb5ACfVUqjRIk+pedQ=",
+        "originContent": "## 🌐 Credits & Thanks",
+        "translatedContent": "## 🌐 Crédits & Remerciements  "
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "5kXtOhATT3WqHEdsFe4aznFd03j2SVsxTEGeXHuKZYo=",
+        "originContent": "A big shoutout to [obafgkmdh](https://github.com/obafgkmdh) and [FixeQD](https://github.com/FixeQD) for fixing the extension after the internal api broke and migrating the whole api to the internal protobuf based api and also for adding a better file structure with bundling!",
+        "translatedContent": "Un grand merci à [obafgkmdh](https://github.com/obafgkmdh) et [FixeQD](https://github.com/FixeQD) pour avoir réparé l’extension après la rupture de l’API interne, migré toute l’API vers l’API interne basée sur protobuf et également pour avoir ajouté une meilleure structure de fichiers avec le bundling !  "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "6Gy2Ib/vfk5AwgvjzfWk3zpQLbdBHuyqiGuw1LvwkVc=",
+        "originContent": "And also thanks to [Golevka2001](https://github.com/Golevka2001) for the idea for better alignment of the DJ info in the playlist!",
+        "translatedContent": "Et aussi merci à [Golevka2001](https://github.com/Golevka2001) pour l’idée d’un meilleur alignement des infos DJ dans la playlist !  "
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "neNhmK01fHINCnD0yf7nlWMrK8Qw4vKc/PV6+QwnViM=",
+        "originContent": "Big thanks to [duffey](https://github.com/Tetrax-10) for the main code of displaying something in the playlist and the now playing widget!",
+        "translatedContent": "Un grand merci à [duffey](https://github.com/Tetrax-10) pour le code principal affichant les informations dans la playlist et le widget « maintenant en lecture » !  "
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "/j/Yf/DspWRLLgopk2D5Qv+t2/Hyz0aJ8w/rpWHETGE=",
+        "originContent": "Also thanks to [je09](https://github.com/je09) for contributing the code for displaying both the standard notation and the Camelot system for the key aswell as the option to display it on the left side in now playing!",
+        "translatedContent": "Merci également à [je09](https://github.com/je09) pour sa contribution au code affichant à la fois la notation standard et le système Camelot pour la tonalité ainsi que l’option de l’afficher sur le côté gauche dans le widget « maintenant en lecture » !  "
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "wuT+cpyNAzUpS/KpTDPRLffVNcXcTQSxJ3dN8hRMQOY=",
+        "originContent": "## 💬 Feedback and Contributions",
+        "translatedContent": "## 💬 Retour d’expérience et contributions  "
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "9ZfR/kp8yN/v2lCWRUw8pM15qkdmbDyB1Eo3FxniNiE=",
+        "originContent": "If you encounter any issues or have suggestions for improving this extension, feel free to open an issue in the [GitHub repository](https://github.com/L3-N0X/spicetify-dj-info). Contributions are also welcome! Fork the repository, make your changes, and submit a pull request with your improvements.",
+        "translatedContent": "Si vous rencontrez des problèmes ou avez des suggestions pour améliorer cette extension, n’hésitez pas à ouvrir un ticket dans le [répertoire GitHub](https://github.com/L3-N0X/spicetify-dj-info). Les contributions sont également les bienvenues ! Forkez le dépôt, effectuez vos modifications, puis soumettez une pull request avec vos améliorations."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "\n## ⚖️ License\n\nThis project is licensed under the [MIT License](https://raw.githubusercontent.com/L3-N0X/spicetify-dj-info/main/LICENSE.md). Feel free to use, modify, and distribute the code as per the terms of this license.\n\n---\n\nEnjoy the enhanced music analysis experience with the Spicetify DJ Info Extension! If you find this extension useful, consider giving it a ⭐️ on GitHub. Thank you for using DJ Info!\n",
+    "ContentSha": "Mf4Catm5NGRmrgGVsQ44Ps7jpmbFVws8japgGZBG1aM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## ⚖️ Licence\n\nCe projet est sous licence [MIT License](https://raw.githubusercontent.com/L3-N0X/spicetify-dj-info/main/LICENSE.md). N'hésitez pas à utiliser, modifier et distribuer le code conformément aux termes de cette licence.\n\n---\n\nProfitez d'une expérience d'analyse musicale améliorée avec l'extension Spicetify DJ Info ! Si vous trouvez cette extension utile, pensez à lui donner une ⭐️ sur GitHub. Merci d'utiliser DJ Info !\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Jm5dhCxWKgINscBdm0MM3RuJxt1FQUwUSceEebwIU/I=",
+        "originContent": "## ⚖️ License",
+        "translatedContent": "## ⚖️ Licence"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "lBK0ZZSvIYtFyIOOHqRL7xeKS7BUjPhJJj6Vo8q9GBw=",
+        "originContent": "This project is licensed under the [MIT License](https://raw.githubusercontent.com/L3-N0X/spicetify-dj-info/main/LICENSE.md). Feel free to use, modify, and distribute the code as per the terms of this license.",
+        "translatedContent": "Ce projet est sous licence [MIT License](https://raw.githubusercontent.com/L3-N0X/spicetify-dj-info/main/LICENSE.md). N'hésitez pas à utiliser, modifier et distribuer le code conformément aux termes de cette licence."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "5IsstFd8M3ZFiGIZljLOaLMQvCbFsq+lGytL+vneOrQ=",
+        "originContent": "Enjoy the enhanced music analysis experience with the Spicetify DJ Info Extension! If you find this extension useful, consider giving it a ⭐️ on GitHub. Thank you for using DJ Info!",
+        "translatedContent": "Profitez d'une expérience d'analyse musicale améliorée avec l'extension Spicetify DJ Info ! Si vous trouvez cette extension utile, pensez à lui donner une ⭐️ sur GitHub. Merci d'utiliser DJ Info !"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
