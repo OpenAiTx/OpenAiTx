@@ -1,0 +1,908 @@
+[
+  {
+    "row": 1,
+    "rowsha": "OrFEKDOW9anMmnRjr7IfSc5brVvHxdi3+K/g6HqwhZ0=",
+    "originContent": "# @343dev/optimizt",
+    "translatedContent": "# @343dev/optimizt"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "qkrV3ba3o3U3ILzPjOX4fMpyiRyl9stilS2jJcxvE4k=",
+    "originContent": "<img align=\"right\" width=\"176\" height=\"176\"",
+    "translatedContent": "<img align=\"right\" width=\"176\" height=\"176\""
+  },
+  {
+    "row": 4,
+    "rowsha": "ntXdTE8Sh0yJj3rwO1ZeN1QdNUeM8wOpXN8Sz8Qz408=",
+    "originContent": "     alt=\"Optimizt logo: OK hand sign with Mona Lisa image between the fingers\"",
+    "translatedContent": "     alt=\"Optimizt logo: OK hand sign with Mona Lisa image between the fingers\""
+  },
+  {
+    "row": 5,
+    "rowsha": "bXtaeGfH7XByD/hoJVh2sjPYN8gOmt9Eiyf/nosky0g=",
+    "originContent": "     src=\"https://raw.githubusercontent.com/343dev/optimizt/main/./docs/logo.png\">",
+    "translatedContent": "     src=\"https://raw.githubusercontent.com/343dev/optimizt/main/./docs/logo.png\">"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "ImU+NSBpW+TBWnEgodM8fxsB23xUCjwXcbAK6S9o6dw=",
+    "originContent": "[![npm](https://img.shields.io/npm/v/@343dev/optimizt.svg)](https://www.npmjs.com/package/@343dev/optimizt)",
+    "translatedContent": "[![npm](https://img.shields.io/npm/v/@343dev/optimizt.svg)](https://www.npmjs.com/package/@343dev/optimizt)"
+  },
+  {
+    "row": 8,
+    "rowsha": "T3rUSFEdbFOMt8mcPlNp2IPIRB26kpFceQ070PDd9MA=",
+    "originContent": "[![Docker](https://img.shields.io/docker/v/343dev/optimizt?label=Docker)](https://hub.docker.com/r/343dev/optimizt)",
+    "translatedContent": "[![Docker](https://img.shields.io/docker/v/343dev/optimizt?label=Docker)](https://hub.docker.com/r/343dev/optimizt)"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "HDcrNJPITKrE9h1StVGH8wFuUb2rmPQcXHlx8cCpUgk=",
+    "originContent": "**Optimizt** is a command-line tool that helps prepare images for the web.",
+    "translatedContent": "**Optimizt** is a command-line tool that helps prepare images for the web."
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "XHD3fPCkBVYO4LcIqCgqf8ECOBC0nPIq4EFSywc0r9M=",
+    "originContent": "It can compress PNG, JPEG, GIF, and SVG lossy or lossless, and create AVIF and WebP versions for raster images.",
+    "translatedContent": "It can compress PNG, JPEG, GIF, and SVG lossy or lossless, and create AVIF and WebP versions for raster images."
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "4Ggvf6kvqr9OcBlhnjjlw1Ta8jPP9v8/mxiQqJgrsts=",
+    "originContent": "## Rationale",
+    "translatedContent": "## Rationale"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "bL/ycbMyHQat/sAajT3h1R2UycvYfQymVC9FQppdAsg=",
+    "originContent": "As frontend developers, we have to care about pictures: compress PNG and JPEG, remove useless parts of SVG, create AVIF and WebP for modern browsers, and so on. One day, we got tired of using a bunch of apps for that, and created one tool that does everything we want.",
+    "translatedContent": "As frontend developers, we have to care about pictures: compress PNG and JPEG, remove useless parts of SVG, create AVIF and WebP for modern browsers, and so on. One day, we got tired of using a bunch of apps for that, and created one tool that does everything we want."
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Usage"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "O+Zu3/m2wrPeCFf4lp5724xbxst86yoGssFXV375Jkw=",
+    "originContent": "Install:",
+    "translatedContent": "Install:"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 23,
+    "rowsha": "sN4MPKju+yYlgsjHdYVGxvI0ZSx5cCpFMa+q7UZUuhI=",
+    "originContent": "npm install -g @343dev/optimizt",
+    "translatedContent": "npm install -g @343dev/optimizt"
+  },
+  {
+    "row": 24,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Optimize!"
+  },
+  {
+    "row": 26,
+    "rowsha": "S4WAv4/0Gc9Ik4WgRJtWdageEdQBJZULkx1WZ92Scbk=",
+    "originContent": "Optimize!",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 29,
+    "rowsha": "hUfCmMh0ga3qYxzZsQf5dZj+gyZecuho58MDr2Pp4E0=",
+    "originContent": "optimizt path/to/picture.jpg",
+    "translatedContent": "optimizt path/to/picture.jpg"
+  },
+  {
+    "row": 30,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "Rie8OTiQKBgnNhp4Tw8E86H9mz940PvJgUyS8qHI2G4=",
+    "originContent": "## Command Line Flags",
+    "translatedContent": "## Command Line Flags"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "CDfKvwdEevrhNsSTAnGggauPoXMIwQiTrKvtcTetfzQ=",
+    "originContent": "- `--avif` — create AVIF versions of images.",
+    "translatedContent": "- `--avif` — create AVIF versions of images."
+  },
+  {
+    "row": 35,
+    "rowsha": "Dvqxg05hwhrQ0RCLNnRv5UqzCwNi9gK5hEj4tnW47mw=",
+    "originContent": "- `--webp` — create WebP versions of images.",
+    "translatedContent": "- `--webp` — create WebP versions of images."
+  },
+  {
+    "row": 36,
+    "rowsha": "gD90t/3bM2oaa1b/W0/P2Id5Vf0lxHVc/j9/R6ctjPI=",
+    "originContent": "- `-f, --force` — recreate AVIF and WebP versions even if they already exist.",
+    "translatedContent": "- `-f, --force` — recreate AVIF and WebP versions even if they already exist."
+  },
+  {
+    "row": 37,
+    "rowsha": "HiWaA/aYXhonU6ulGbOqKjMLSWTgPvCB/m+G7qBFATo=",
+    "originContent": "- `-l, --lossless` — optimize losslessly instead of lossily.",
+    "translatedContent": "- `-l, --lossless` — optimize losslessly instead of lossily."
+  },
+  {
+    "row": 38,
+    "rowsha": "CGEAOk9EKC1aFzfXvKr06XDPX2m7yTfADOAazTOgIfc=",
+    "originContent": "- `-v, --verbose` — show detailed output (e.g. skipped files).",
+    "translatedContent": "- `-v, --verbose` — show detailed output (e.g. skipped files)."
+  },
+  {
+    "row": 39,
+    "rowsha": "hNuRHxMByt+JZ9fuODPeg8hIJQuRdPcNMUtV2eXETPo=",
+    "originContent": "- `-c, --config` — use a custom configuration file instead of the default.",
+    "translatedContent": "- `-c, --config` — use a custom configuration file instead of the default."
+  },
+  {
+    "row": 40,
+    "rowsha": "JL9a3qVPEIUpbyduOs1bfNNg1+YF+TfI0QWoI3VNaEo=",
+    "originContent": "- `-o, --output` — write results to the specified directory.",
+    "translatedContent": "- `-o, --output` — write results to the specified directory."
+  },
+  {
+    "row": 41,
+    "rowsha": "O4PN9T4hnp+foMPc6UptPViWYu1XdSeRpxx/X78hP00=",
+    "originContent": "- `-p, --prefix` — add prefix to optimized file names.",
+    "translatedContent": "- `-p, --prefix` — add prefix to optimized file names."
+  },
+  {
+    "row": 42,
+    "rowsha": "coDqfD6OuN5KFokz/UoFNKLYOzeriemR8YTKt2qLy0g=",
+    "originContent": "- `-s, --suffix` — add suffix to optimized file names.",
+    "translatedContent": "- `-s, --suffix` — add suffix to optimized file names."
+  },
+  {
+    "row": 43,
+    "rowsha": "1fjZKexI+lZ3/1Eodse+HN07o3kOWksAusj1PlhEZTA=",
+    "originContent": "- `-V, --version` — display the tool version.",
+    "translatedContent": "- `-V, --version` — display the tool version."
+  },
+  {
+    "row": 44,
+    "rowsha": "N0YE3ANWic6CLdGaBh4W+Nah+k2lziNs0v0Owwfv2hE=",
+    "originContent": "- `-h, --help` — show help message.",
+    "translatedContent": "- `-h, --help` — show help message."
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "S26wdEyXDtbwhsw5/RfwoNc6EYkI3moIDhrEDjveQB0=",
+    "originContent": "## Usage Examples",
+    "translatedContent": "## Usage Examples"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 49,
+    "rowsha": "rlw6OfZX89xttSehFr+7KooCzLr8aS/Tl+ULqs+g0zY=",
+    "originContent": "# optimize a single image",
+    "translatedContent": "# optimize a single image"
+  },
+  {
+    "row": 50,
+    "rowsha": "hUfCmMh0ga3qYxzZsQf5dZj+gyZecuho58MDr2Pp4E0=",
+    "originContent": "optimizt path/to/picture.jpg",
+    "translatedContent": "optimizt path/to/picture.jpg"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "7v8xuyPer8nXa8tVaXM7uI9oxQz6q9bVaTvGmc1SmYg=",
+    "originContent": "# optimize multiple images losslessly",
+    "translatedContent": "# optimize multiple images losslessly"
+  },
+  {
+    "row": 53,
+    "rowsha": "HVIDhdlHrgvUuj78A6juJniySPlCfwnSyc55+5DYCuI=",
+    "originContent": "optimizt --lossless path/to/picture.jpg path/to/another/picture.png",
+    "translatedContent": "optimizt --lossless path/to/picture.jpg path/to/another/picture.png"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "Apv7fjsEtqQNExIcMUrHgnGqh+pTpZ14lLQ/wziPIwA=",
+    "originContent": "# recursively create AVIF and WebP versions for all images in a directory",
+    "translatedContent": "# recursively create AVIF and WebP versions for all images in a directory"
+  },
+  {
+    "row": 56,
+    "rowsha": "gHlxVv+rJdLr7hXW6ar/oTU9+VWfXjYus8PmhGxGwTw=",
+    "originContent": "optimizt --avif --webp path/to/directory",
+    "translatedContent": "optimizt --avif --webp path/to/directory"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "A2aFbaJGCfCiwDADDxGodE87iJrbJbHaYF7IZS0Bmjo=",
+    "originContent": "# recursively optimize JPEG files in the current directory",
+    "translatedContent": "# recursively optimize JPEG files in the current directory"
+  },
+  {
+    "row": 59,
+    "rowsha": "70OcGUi7w5lHx8YX2P/PSOLnQj1RzOqoLvLErZwMVFg=",
+    "originContent": "find . -iname \\*.jpg -exec optimizt {} +",
+    "translatedContent": "find . -iname \\*.jpg -exec optimizt {} +"
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "ALQI0fidl6pEj83Df/LC0TmucT5Swz8kI9yv0nOvfUI=",
+    "originContent": "## Differences Between Lossy and Lossless",
+    "translatedContent": "## Differences Between Lossy and Lossless"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "gJ8qV3prnQb70pmcfosuNVxRAIsjbd/hMjjd4yRTl2c=",
+    "originContent": "### Lossy (Default)",
+    "translatedContent": "### Lossy (Default)"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "Gh0apVaMfRU26Kchli9FZBW39PoWmgihPYKFu3FyLNQ=",
+    "originContent": "Provides the best balance between file size reduction and minimal visual quality loss.",
+    "translatedContent": "Provides the best balance between file size reduction and minimal visual quality loss."
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "XRdNw/ecKexD5UBiy3KV/g8h22LR/iUKS+PVUH6eeZs=",
+    "originContent": "### Lossless (`--lossless` flag)",
+    "translatedContent": "### Lossless (`--lossless` flag)"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "JidF0Dz80hZM0PoTtlbUsqfppG14zHomWaHWJx5Sc5w=",
+    "originContent": "- **AVIF/WebP**: Uses lossless compression.",
+    "translatedContent": "- **AVIF/WebP**: Uses lossless compression."
+  },
+  {
+    "row": 71,
+    "rowsha": "UYcsNubklGgpbi/nHUst0ubXwvMmets1Mngo/MWA9to=",
+    "originContent": "- **PNG/JPEG/GIF**: Maximizes image quality at the expense of larger file sizes.",
+    "translatedContent": "- **PNG/JPEG/GIF**: Maximizes image quality at the expense of larger file sizes."
+  },
+  {
+    "row": 72,
+    "rowsha": "ELfJ0eWZVl1Us1N8o5MCGaf0nxzD5xblJzpl6LxgUZc=",
+    "originContent": "- **SVG**: Settings are identical in both modes.",
+    "translatedContent": "- **SVG**: Settings are identical in both modes."
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": "## Configuration"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "yFXGfG3w6Uo+DkUhfvgRyyCU+4SamQTCf6OQEiC1ORc=",
+    "originContent": "Image processing leverages:",
+    "translatedContent": "Image processing leverages:"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "Gq8G3Aw5fnr7V2s9EYH0LWX4pySQcpaoCsgTYFHQ3j8=",
+    "originContent": "- [sharp](https://github.com/lovell/sharp) for [JPEG](https://sharp.pixelplumbing.com/api-output#jpeg), [PNG](https://sharp.pixelplumbing.com/api-output#png), [WebP](https://sharp.pixelplumbing.com/api-output#webp), and [AVIF](https://sharp.pixelplumbing.com/api-output#avif).",
+    "translatedContent": "- [sharp](https://github.com/lovell/sharp) for [JPEG](https://sharp.pixelplumbing.com/api-output#jpeg), [PNG](https://sharp.pixelplumbing.com/api-output#png), [WebP](https://sharp.pixelplumbing.com/api-output#webp), and [AVIF](https://sharp.pixelplumbing.com/api-output#avif)."
+  },
+  {
+    "row": 79,
+    "rowsha": "OKqrS7AqdNeoELVSIQ/SXnJC/zz87iCT9O6jCG9TpDk=",
+    "originContent": "- [svgo](https://github.com/svg/svgo) for SVG.",
+    "translatedContent": "- [svgo](https://github.com/svg/svgo) for SVG."
+  },
+  {
+    "row": 80,
+    "rowsha": "DicWeocVwh25XCwUlNwiPGnWmhlOKpnNMVIBy09cJAo=",
+    "originContent": "- [gifsicle](https://github.com/kohler/gifsicle) for GIF.",
+    "translatedContent": "- [gifsicle](https://github.com/kohler/gifsicle) for GIF."
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+    "originContent": "> [!NOTE]",
+    "translatedContent": "> [!NOTE]"
+  },
+  {
+    "row": 83,
+    "rowsha": "Y31wsSc6poQZiLfBZl1z2viilDm5xYnsZSFr6BVQYB0=",
+    "originContent": "> In Lossless mode for JPEG, [Guetzli](https://github.com/google/guetzli) is used. Repeated optimization may degrade visual quality.",
+    "translatedContent": "> In Lossless mode for JPEG, [Guetzli](https://github.com/google/guetzli) is used. Repeated optimization may degrade visual quality."
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "zJzXzEPqeWTT55N5Q0IoE5h/dqYAKghpEuI26OOboak=",
+    "originContent": "Default settings are defined in [.optimiztrc.cjs](./.optimiztrc.cjs), which includes all supported parameters. Disable any parameter by setting it to `false`.",
+    "translatedContent": "Default settings are defined in [.optimiztrc.cjs](./.optimiztrc.cjs), which includes all supported parameters. Disable any parameter by setting it to `false`."
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "lVx9jk8Pb7kvIpV+hro4WIi0Q1Ktpht7yf+4qwQRXE8=",
+    "originContent": "When using `--config path/to/.optimiztrc.cjs`, the specified configuration file will be used. If no `--config` is provided, Optimizt searches recursively from the current directory upward for `.optimiztrc.cjs`. If none is found, defaults are applied.",
+    "translatedContent": "When using `--config path/to/.optimiztrc.cjs`, the specified configuration file will be used. If no `--config` is provided, Optimizt searches recursively from the current directory upward for `.optimiztrc.cjs`. If none is found, defaults are applied."
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+    "originContent": "## Troubleshooting",
+    "translatedContent": "## Troubleshooting"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "85ZfOR4L1smQhN/VvG8XgLpWIY9JAWQ9vO6Y2gglZyo=",
+    "originContent": "### Errors like “spawn guetzli ENOENT”.",
+    "translatedContent": "### Errors like “spawn guetzli ENOENT”."
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "wmZOc++OijbcFYPM95o79OD5gzg7PON2nP1os60nbL8=",
+    "originContent": "Ensure the [ignore-scripts](https://docs.npmjs.com/cli/v6/using-npm/config#ignore-scripts) npm option is disabled.",
+    "translatedContent": "Ensure the [ignore-scripts](https://docs.npmjs.com/cli/v6/using-npm/config#ignore-scripts) npm option is disabled."
+  },
+  {
+    "row": 94,
+    "rowsha": "vlmXOQ5jlLKdUqV+N9JEqMzV6ZRfeuk+A9qpjVrSHks=",
+    "originContent": "Details: [funbox/optimizt/issues/9](https://github.com/funbox/optimizt/issues/9).",
+    "translatedContent": "Details: [funbox/optimizt/issues/9](https://github.com/funbox/optimizt/issues/9)."
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "OBS1Iiz69xWrJ2BM+mQwYtnOOVslL8sxzMrBQ1KAfXI=",
+    "originContent": "## Docker",
+    "translatedContent": "## Docker"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "FhfHmLl796orMBQVw9T8Wmr60NSFW4M9m1q9E3NmEXw=",
+    "originContent": "### Pre-Built Image",
+    "translatedContent": "### Pre-Built Image"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 101,
+    "rowsha": "wh7/HelEk6/c1KGSGAKhlkBRVc+hGnk2qyXdPXqRCZY=",
+    "originContent": "# pull latest",
+    "translatedContent": "# pull latest"
+  },
+  {
+    "row": 102,
+    "rowsha": "HGL1LgK5zQuU0vQIZ8P0w/HvoCdEUmRgB6pQBfeoxOk=",
+    "originContent": "docker pull 343dev/optimizt",
+    "translatedContent": "docker pull 343dev/optimizt"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "0xOvLCSHJ+dTt3abvtveUz270kvf5ByJMMh9nWE7cf0=",
+    "originContent": "# pull specific version",
+    "translatedContent": "# pull specific version"
+  },
+  {
+    "row": 105,
+    "rowsha": "dfiIW1NVB2cZAr8I1ZetBHNFicoPVA3jY+HL8KeZ+bI=",
+    "originContent": "docker pull 343dev/optimizt:9.0.2",
+    "translatedContent": "docker pull 343dev/optimizt:9.0.2"
+  },
+  {
+    "row": 106,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "wivncPUM5YD9DTR7bUHrpulzGoN48oFCjC81eL7qlj8=",
+    "originContent": "### Manual Build",
+    "translatedContent": "### Manual Build"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 111,
+    "rowsha": "zJ7nJbE6toW+WSGqku0XlB49Q3bSN3v6iF4FjBvWaC0=",
+    "originContent": "# clone repository",
+    "translatedContent": "# clone repository"
+  },
+  {
+    "row": 112,
+    "rowsha": "3WFROg056XhjUJb/pN2IPP1/sG15K8+ad+g8Auk9udw=",
+    "originContent": "git clone https://github.com/343dev/optimizt.git",
+    "translatedContent": "git clone https://github.com/343dev/optimizt.git"
+  },
+  {
+    "row": 113,
+    "rowsha": "1Ka9mYOZZC2ypROXWWEjSr3pnIaFGkpozVw4XQxrSpY=",
+    "originContent": "cd optimizt",
+    "translatedContent": "cd optimizt"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "SpuUG80s5d1y/tO0qorfMRML1y39vwhATrD9FfSKZFc=",
+    "originContent": "# build image",
+    "translatedContent": "# build image"
+  },
+  {
+    "row": 116,
+    "rowsha": "JRHNG5A2I0PkOrHvOuICf+w/CJjXmrZ7hNZu6c6oPsg=",
+    "originContent": "docker build --tag 343dev/optimizt .",
+    "translatedContent": "docker build --tag 343dev/optimizt ."
+  },
+  {
+    "row": 117,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Alternatively:"
+  },
+  {
+    "row": 119,
+    "rowsha": "F9gX8t+5i0SsnK6xun8ahfRUYAvWdbUF1i2ujZXb9vY=",
+    "originContent": "Alternatively:",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 122,
+    "rowsha": "0gIjxkVBmV8yFW6eMiqPWhfZUCVfQkCwtF6YvbfKU6o=",
+    "originContent": "# build directly from GitHub",
+    "translatedContent": "# build directly from GitHub"
+  },
+  {
+    "row": 123,
+    "rowsha": "0AvWopIRFL+zQAsThe0Cr/z2m9MY/OwsnecEgwF6EcA=",
+    "originContent": "# ignores .dockerignore (see: https://github.com/docker/cli/issues/2827)",
+    "translatedContent": "# ignores .dockerignore (see: https://github.com/docker/cli/issues/2827)"
+  },
+  {
+    "row": 124,
+    "rowsha": "8FmG9tjdIPoz5l6ca/abBRf92k/U5XnRLrlLUqn0/F4=",
+    "originContent": "docker build --tag 343dev/optimizt https://github.com/343dev/optimizt.git",
+    "translatedContent": "docker build --tag 343dev/optimizt https://github.com/343dev/optimizt.git"
+  },
+  {
+    "row": 125,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "u/K7hzZjxSyJ5IDXmSf/Y5sOiQIcLi34+ltzmky/GqY=",
+    "originContent": "### Run Container",
+    "translatedContent": "### Run Container"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 130,
+    "rowsha": "HE++JiwqJNstzmZo7Pad5TM2wiyUIAHA2ZFBqr32TQo=",
+    "originContent": "# mount current directory to /src in the container",
+    "translatedContent": "# mount current directory to /src in the container"
+  },
+  {
+    "row": 131,
+    "rowsha": "J4hi2b0FhRkLEfef1WmLd6tEkZMxvEKEIJpsLRPeWW4=",
+    "originContent": "docker run --rm --volume $(pwd):/src 343dev/optimizt --webp ./image.png",
+    "translatedContent": "docker run --rm --volume $(pwd):/src 343dev/optimizt --webp ./image.png"
+  },
+  {
+    "row": 132,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "q0zhpTAUmPZ0fAHbDl1A+tJ9IUs9r/VuAlOh9Ymu2WI=",
+    "originContent": "## Integrations",
+    "translatedContent": "## Integrations"
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "2WqZtBdcq0gsVR1J55clTLZXyHrpv7JSxTxauiAyyuU=",
+    "originContent": "Optimizt works seamlessly with:",
+    "translatedContent": "Optimizt works seamlessly with:"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "xQ4YRS5aCUI32MB69agElK/bCeJLGPHTI2q8vCIfk8E=",
+    "originContent": "- [JetBrains IDEs](https://raw.githubusercontent.com/343dev/optimizt/main/./docs/jetbrains.md)",
+    "translatedContent": "- [JetBrains IDEs](https://raw.githubusercontent.com/343dev/optimizt/main/./docs/jetbrains.md)"
+  },
+  {
+    "row": 139,
+    "rowsha": "J2gkljmCVtizt5Rvby/amAFSGJZdnPPTekPN3MXitLI=",
+    "originContent": "- [Visual Studio Code](https://raw.githubusercontent.com/343dev/optimizt/main/./docs/vscode.md)",
+    "translatedContent": "- [Visual Studio Code](https://raw.githubusercontent.com/343dev/optimizt/main/./docs/vscode.md)"
+  },
+  {
+    "row": 140,
+    "rowsha": "ecq5ld5FSOoS+LOkToZ3X8K+BfO/fdZ48c3FZdV82XE=",
+    "originContent": "- [Sublime Text 3](https://raw.githubusercontent.com/343dev/optimizt/main/./docs/sublime-text.md)",
+    "translatedContent": "- [Sublime Text 3](https://raw.githubusercontent.com/343dev/optimizt/main/./docs/sublime-text.md)"
+  },
+  {
+    "row": 141,
+    "rowsha": "gVhft2KkMpPc2/dO+/rHOMluGk+xbVeWcDtgaBr76Ho=",
+    "originContent": "- [GitHub Actions Workflow](https://raw.githubusercontent.com/343dev/optimizt/main/./docs/github.md)",
+    "translatedContent": "- [GitHub Actions Workflow](https://raw.githubusercontent.com/343dev/optimizt/main/./docs/github.md)"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "Ki/tci7t1YXLyKPVAEzGEYwjlGcotYHD5BhL+YLKIPs=",
+    "originContent": "## Articles",
+    "translatedContent": "## Articles"
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "A8E0Wzw1RBlciieSIjVEwaMr/xMlVTqVD/MDcEsHFII=",
+    "originContent": "- [anuwong.com](https://anuwong.com/blog/2023-08-21-save-tons-of-gbs-with-optimizt/) — Compress files before uploading, save tons of GBs. 🇹🇭",
+    "translatedContent": "- [anuwong.com](https://anuwong.com/blog/2023-08-21-save-tons-of-gbs-with-optimizt/) — Compress files before uploading, save tons of GBs. 🇹🇭"
+  },
+  {
+    "row": 146,
+    "rowsha": "W2kNfw4q/0UN058q2MAqGsblaUkUSm2M2mfsv0C6JlA=",
+    "originContent": "- [Linux Format, Issue 277 (July 2021)](https://www.linuxformat.com/archives?issue=277#:~:text=Kitchen%20Tales%2C%20zFRAG%2C-,Optimizt,-and%20SingleFileZ.) — Optimizt is ideal for reducing the disk footprint of images without any reduction in quality.",
+    "translatedContent": "- [Linux Format, Issue 277 (July 2021)](https://www.linuxformat.com/archives?issue=277#:~:text=Kitchen%20Tales%2C%20zFRAG%2C-,Optimizt,-and%20SingleFileZ.) — Optimizt is ideal for reducing the disk footprint of images without any reduction in quality."
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": "## Credits"
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "YvWsdLp4Ifl9bf5PY8iorGT7U9U0sIRmDKuTmKiSWpE=",
+    "originContent": "Cute picture for the project was made by [Igor Garybaldi](http://pandabanda.com/).",
+    "translatedContent": "Cute picture for the project was made by [Igor Garybaldi](http://pandabanda.com/)."
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
