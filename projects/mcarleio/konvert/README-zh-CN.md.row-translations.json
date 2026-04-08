@@ -1,0 +1,1718 @@
+[
+  {
+    "row": 1,
+    "rowsha": "hrY9ZnMujQ4XZd80bHpLzbL/wug7klCJBVH7n81rw4Y=",
+    "originContent": "# Konvert",
+    "translatedContent": "# Konvert"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "Xe5QF4EWBD2QA93lsjCOH9+wN2DK4AncO2tU7wZowcg=",
+    "originContent": "[![Maven Central][maven-image]][maven-url]",
+    "translatedContent": "[![Maven Central][maven-image]][maven-url]"
+  },
+  {
+    "row": 4,
+    "rowsha": "eK+gnfjXrl8TdYsLWk2R7OWlhZ5GOMRBtfMFW1vfk68=",
+    "originContent": "[![License][license-image]](LICENSE)",
+    "translatedContent": "[![License][license-image]](LICENSE)"
+  },
+  {
+    "row": 5,
+    "rowsha": "v7sLarPlffRpy3Vs/KSfD33vM9906PpFvh5q2++039U=",
+    "originContent": "[![Code Coverage][codecov-image]][codecov-url]",
+    "translatedContent": "[![Code Coverage][codecov-image]][codecov-url]"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "u7lLMCeI91u5gHvjgW2vqrF621lWUcPDsMtMyUAb65E=",
+    "originContent": "This is Konvert, a Kotlin mapping code generator using [Kotlin Symbol Processing (KSP)](https://github.com/google/ksp).",
+    "translatedContent": "这是 Konvert，一款基于 [Kotlin 符号处理（KSP）](https://github.com/google/ksp) 的 Kotlin 映射代码生成器。"
+  },
+  {
+    "row": 8,
+    "rowsha": "BM9KMdthc0mX45l9sd+n8TiLXtRCIC5EVU/yUQZH4XY=",
+    "originContent": "Designed specifically for Kotlin and its features, Konvert supports a wide range of use cases.",
+    "translatedContent": "专为 Kotlin 及其特性设计，Konvert 支持广泛的使用场景。"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "+is52hnd2Fd+YOaDQLZwUC/se6/uAUFGD2otvunTxAg=",
+    "originContent": "Major features:",
+    "translatedContent": "主要特性："
+  },
+  {
+    "row": 11,
+    "rowsha": "R242GLcOGbSSbVtqtZXfdzW7gKOZAgHpt8M3hUlx23c=",
+    "originContent": "* 🧩 supports **various class kinds** → `data`, `enum`, `value`, regular POJOs",
+    "translatedContent": "* 🧩 支持 **多种类类型** → `data`、`enum`、`value`、普通 POJO"
+  },
+  {
+    "row": 12,
+    "rowsha": "B2VxwiaiP1uCEVRsRTv5FS9PoZm2qBoq7N5Tqyawcb4=",
+    "originContent": "* 🔄 **Null-safe** by default",
+    "translatedContent": "* 🔄 默认 **空安全**"
+  },
+  {
+    "row": 13,
+    "rowsha": "UNRmQsSibBtyP6sTrmAXNFyyg3xlet+P6P58f1OHB1A=",
+    "originContent": "* ⚙️ **Smart conversions** (`Int` → `String`, `Instant` → `Date`, …)",
+    "translatedContent": "* ⚙️ **智能转换**（`Int` → `String`，`Instant` → `Date`，等）"
+  },
+  {
+    "row": 14,
+    "rowsha": "O92qncy3cPHAryFexJuvsJH8vpVlMwzFbzYviP+pZtk=",
+    "originContent": "   * 🔧 Define **reusable converters** with `@Konverter`",
+    "translatedContent": "   * 🔧 使用 `@Konverter` 定义 **可复用转换器**"
+  },
+  {
+    "row": 15,
+    "rowsha": "vlgNyZYsC0LgN1CE5TpwZ+sVTFshw0JjvbDjBfn+rgY=",
+    "originContent": "   * 🔌 Extend via **SPI** for ultimate control",
+    "translatedContent": "   * 🔌 通过 **SPI** 扩展，实现极致控制"
+  },
+  {
+    "row": 16,
+    "rowsha": "HSyI9A6CMDR66wxJQYugpHUVgcz2GNOnqJDom2O4h7M=",
+    "originContent": "* 🔗 **Collections & maps** — mapping of elements included",
+    "translatedContent": "* 🔗 **集合与映射** — 包括元素映射"
+  },
+  {
+    "row": 17,
+    "rowsha": "WQWgw4rm6kOPcEm4lzehwzvLoAwsVWyQR1gKR+V4HPE=",
+    "originContent": "* 🛠️ **Fine-grained** property mapping customization",
+    "translatedContent": "* 🛠️ **细粒度** 属性映射自定义"
+  },
+  {
+    "row": 18,
+    "rowsha": "FdCGzT5WL8BVp7YgsVQROFHC78EECSfi9+4XnTX/zhc=",
+    "originContent": "* ☕ 100% **Java interoperability**",
+    "translatedContent": "* ☕ 100% **Java 互操作性**"
+  },
+  {
+    "row": 19,
+    "rowsha": "UqKAI33MIFJZmxaVB7kynOutDGSJKznrzIgwx74rokY=",
+    "originContent": "* ✨ Generates **clean, idiomatic Kotlin** code",
+    "translatedContent": "* ✨ 生成 **简洁、惯用的 Kotlin** 代码"
+  },
+  {
+    "row": 20,
+    "rowsha": "QqQD46Di5oApaQ/ha64hGJv2kdtap/8C9ry98c8/Wg0=",
+    "originContent": "   * ⏱️ Generated at **compile time**",
+    "translatedContent": "   * ⏱️ **编译时** 生成"
+  },
+  {
+    "row": 21,
+    "rowsha": "8KnbYg6zvF3TScHwYj5OalUV0UwgjC1qTBKPH5Pn+F0=",
+    "originContent": "   * 🚫 **Zero reflection**, **zero runtime overhead**",
+    "translatedContent": "   * 🚫 **零反射**，**零运行时开销**"
+  },
+  {
+    "row": 22,
+    "rowsha": "detW+uSoEGs7BHQ4VRxVO+IXHaAfQjIfU2u2W3ae1mk=",
+    "originContent": "* 📦 Works seamlessly with **Gradle** and **Maven**",
+    "translatedContent": "* 📦 与 **Gradle** 和 **Maven** 无缝配合"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "jEOhW1q/yyvjzFHmxspV4bg3dEYpYZ/vZ2Y9XKifN+M=",
+    "originContent": "> ℹ️ This README provides a basic overview, for more details have a look at the [documentation](https://mcarleio.github.io/konvert).",
+    "translatedContent": "> ℹ️ 本 README 提供基础概览，详情请查看 [文档](https://mcarleio.github.io/konvert)。"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "B/ii3YwYNSCnN5/JiLrL5uZrAQRZ6+yliijv5jLWknU=",
+    "originContent": "There are three different ways to use Konvert:",
+    "translatedContent": "Konvert 有三种不同的使用方式："
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "dTCFW04Enr/IOqhJ0CnQhIP4H7f0/5mtJwS3YBoMq6o=",
+    "originContent": "1. Using `@KonvertTo`:",
+    "translatedContent": "1. 使用 `@KonvertTo`："
+  },
+  {
+    "row": 31,
+    "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+    "originContent": "   ```kotlin",
+    "translatedContent": "   ```kotlin"
+  },
+  {
+    "row": 32,
+    "rowsha": "IsqSUeXdOy9uQPOmdiVSdaHLlxjhWgu24R+9zZ2xpIY=",
+    "originContent": "   @KonvertTo(PersonDto::class)",
+    "translatedContent": "   @KonvertTo(PersonDto::class)"
+  },
+  {
+    "row": 33,
+    "rowsha": "2P5AW/60S2ulrR3WvAbpf5+dcVMwUU99BuXWyk6js9o=",
+    "originContent": "   data class Person(val firstName: String, val lastName: String)",
+    "translatedContent": "   data class Person(val firstName: String, val lastName: String)"
+  },
+  {
+    "row": 34,
+    "rowsha": "44RB+XxaDxoTn7zS2SLRL6EBPO/o0p7piXFQUYBx4lc=",
+    "originContent": "   data class PersonDto(val firstName: String, val lastName: String)",
+    "translatedContent": "   data class PersonDto(val firstName: String, val lastName: String)"
+  },
+  {
+    "row": 35,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 36,
+    "rowsha": "e4ZATERSzX9oL7pyJA0TOZ/ZEAM4/9fVHxp983SlnWo=",
+    "originContent": "   This will generate the following extension function",
+    "translatedContent": "   这将生成以下扩展函数"
+  },
+  {
+    "row": 37,
+    "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+    "originContent": "   ```kotlin",
+    "translatedContent": "   ```kotlin"
+  },
+  {
+    "row": 38,
+    "rowsha": "BhDJozk9dDCpEE/WRpRjpr5zjVnZRWoSG1HrKXDfQns=",
+    "originContent": "   fun Person.toPersonDto(): PersonDto =",
+    "translatedContent": "   fun Person.toPersonDto(): PersonDto ="
+  },
+  {
+    "row": 39,
+    "rowsha": "p3ZJyF+GQde4weOpt9vil4HIXDUsGcTxxqduEE1ZbfI=",
+    "originContent": "      PersonDto(firstName = firstName, lastName = lastName)",
+    "translatedContent": "      PersonDto(firstName = firstName, lastName = lastName)"
+  },
+  {
+    "row": 40,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "07X+sYH76SGJGSjfnBBXf1ou4ivjJgIWlnpRdT2g1u8=",
+    "originContent": "2. Using `@KonvertFrom` (especially useful, if you cannot change the code of the source class)",
+    "translatedContent": "2. 使用 `@KonvertFrom`（特别有用，如果你无法更改源类的代码）"
+  },
+  {
+    "row": 43,
+    "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+    "originContent": "   ```kotlin",
+    "translatedContent": "   ```kotlin"
+  },
+  {
+    "row": 44,
+    "rowsha": "USzwGyrX6uE66OlVZYvb5DcvcciqOSey4frt7qPDDsY=",
+    "originContent": "   class Person(val firstName: String, val lastName: String) {",
+    "translatedContent": "   class Person(val firstName: String, val lastName: String) {"
+  },
+  {
+    "row": 45,
+    "rowsha": "WE3ds0u07LehkYlWPkpElD94PoXYAsJkJFr7atLLe18=",
+    "originContent": "      @KonvertFrom(PersonDto::class)",
+    "translatedContent": "      @KonvertFrom(PersonDto::class)"
+  },
+  {
+    "row": 46,
+    "rowsha": "T6njv7pb5mjkJf1HzanC+epmKSoCn2eXDseKNHXMF5k=",
+    "originContent": "      companion object",
+    "translatedContent": "      companion object"
+  },
+  {
+    "row": 47,
+    "rowsha": "ycCxQTO9KU+lsNjcZ0AEvZXIAAAOwZgQn1KUCO4GRwY=",
+    "originContent": "   }",
+    "translatedContent": "   }"
+  },
+  {
+    "row": 48,
+    "rowsha": "6+L/BspwbhEwbZ0YL7fHumrPUkeu1+1ogxCBK7kOQ9s=",
+    "originContent": "   class PersonDto(val firstName: String, val lastName: String)",
+    "translatedContent": "   class PersonDto(val firstName: String, val lastName: String)"
+  },
+  {
+    "row": 49,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 50,
+    "rowsha": "e4ZATERSzX9oL7pyJA0TOZ/ZEAM4/9fVHxp983SlnWo=",
+    "originContent": "   This will generate the following extension function",
+    "translatedContent": "   这将生成以下扩展函数"
+  },
+  {
+    "row": 51,
+    "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+    "originContent": "   ```kotlin",
+    "translatedContent": "   ```kotlin"
+  },
+  {
+    "row": 52,
+    "rowsha": "t4GRWs8Wjuft6C22WuDHqLYMwc6ctJnS+w+MVSL8YzE=",
+    "originContent": "   fun Person.Companion.fromPersonDto(personDto: PersonDto): Person =",
+    "translatedContent": "   fun Person.Companion.fromPersonDto(personDto: PersonDto): Person ="
+  },
+  {
+    "row": 53,
+    "rowsha": "KHdCrJ5avjBqqeZeQg7fQCvUHQbHMdcUCYWDzLEatVc=",
+    "originContent": "      Person(firstName = personDto.firstName, lastName = personDto.lastName)",
+    "translatedContent": "      Person(firstName = personDto.firstName, lastName = personDto.lastName)"
+  },
+  {
+    "row": 54,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "2IKHoL7NAkZZew86abKGxQNdWCyI3eHLqYQ4Xzy9rsk=",
+    "originContent": "3. Using `@Konverter`:",
+    "translatedContent": "3. 使用 `@Konverter`："
+  },
+  {
+    "row": 57,
+    "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+    "originContent": "   ```kotlin",
+    "translatedContent": "   ```kotlin"
+  },
+  {
+    "row": 58,
+    "rowsha": "lq8L6qP04lws2eLVuTrGpwIrqQyhz3H6mMfd3XfZb6s=",
+    "originContent": "   class Person(val firstName: String, val lastName: String)",
+    "translatedContent": "   class Person(val firstName: String, val lastName: String)"
+  },
+  {
+    "row": 59,
+    "rowsha": "44RB+XxaDxoTn7zS2SLRL6EBPO/o0p7piXFQUYBx4lc=",
+    "originContent": "   data class PersonDto(val firstName: String, val lastName: String)",
+    "translatedContent": "   data class PersonDto(val firstName: String, val lastName: String)"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "DEp6+RUER/dhLQkDybDROFCaNwa8l5qtxQ1WKYfvunA=",
+    "originContent": "   @Konverter",
+    "translatedContent": "   @Konverter"
+  },
+  {
+    "row": 62,
+    "rowsha": "AkF3SwA66shI0ZT6aovOlOnrd7ZoIaaV3b1V81N+fiQ=",
+    "originContent": "   interface PersonMapper {",
+    "translatedContent": "   interface PersonMapper {"
+  },
+  {
+    "row": 63,
+    "rowsha": "w2pOXxM99VnLtvsqWscUUQ97SUpWaL/SC3Ap1a8hst4=",
+    "originContent": "      fun toDto(person: Person): PersonDto",
+    "translatedContent": "      fun toDto(person: Person): PersonDto"
+  },
+  {
+    "row": 64,
+    "rowsha": "ycCxQTO9KU+lsNjcZ0AEvZXIAAAOwZgQn1KUCO4GRwY=",
+    "originContent": "   }",
+    "translatedContent": "   }"
+  },
+  {
+    "row": 65,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 66,
+    "rowsha": "GxREV1R410fl23ZD95DC7581Oi/44d/Nu4svO7BR+Gc=",
+    "originContent": "   This will generate the following object",
+    "translatedContent": "   这将生成以下对象"
+  },
+  {
+    "row": 67,
+    "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+    "originContent": "   ```kotlin",
+    "translatedContent": "   ```kotlin"
+  },
+  {
+    "row": 68,
+    "rowsha": "StoWXcr9qoq3nlIYpqk+nWnt4KRBmwXlLgvL3r9boSo=",
+    "originContent": "   object PersonMapperImpl: PersonMapper {",
+    "translatedContent": "   object PersonMapperImpl: PersonMapper {"
+  },
+  {
+    "row": 69,
+    "rowsha": "EgR/59IfKb1UQWK7dL6FUtRVij7WT3fkzWohVzd4PsY=",
+    "originContent": "      override fun toDto(person: Person): PersonDto",
+    "translatedContent": "      override fun toDto(person: Person): PersonDto"
+  },
+  {
+    "row": 70,
+    "rowsha": "81ACuyTCDWBZUkzAghzbN/G52tmFIY06MjgowdH0OZM=",
+    "originContent": "         = PersonDto(firstName = person.firstName, lastName = person.lastName)",
+    "translatedContent": "         = PersonDto(firstName = person.firstName, lastName = person.lastName)"
+  },
+  {
+    "row": 71,
+    "rowsha": "ycCxQTO9KU+lsNjcZ0AEvZXIAAAOwZgQn1KUCO4GRwY=",
+    "originContent": "   }",
+    "translatedContent": "   }"
+  },
+  {
+    "row": 72,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 73,
+    "rowsha": "UxbtUnzIMZtOSovzM/nQ0njnNJFXrDq/Qo2zbvvsiVA=",
+    "originContent": "For a simple example project have a look into the [example directory](example).",
+    "translatedContent": "对于一个简单的示例项目，请查看[示例目录](example)。"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "T7Kmg3Jahbdr960NYGe5lsOzsD2h7hdH6o2MrP/P+8k=",
+    "originContent": "### Type mappings",
+    "translatedContent": "### 类型映射"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "IVJgHvz4s+aFMY2Kcx+lDYQj5VfnYJtX+c90PFphc3I=",
+    "originContent": "For simple type mappings, like from `Instant` to `Date`, there already is a type converter provided with Konvert:",
+    "translatedContent": "对于简单的类型映射，比如从 `Instant` 到 `Date`，Konvert 已经提供了一个类型转换器："
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 80,
+    "rowsha": "y3WtXcNCtQU2REEfLP7CWYLJjVC4GtvLViDj7C9GPg8=",
+    "originContent": "@KonvertTo(PersonDto::class)",
+    "translatedContent": "@KonvertTo(PersonDto::class)"
+  },
+  {
+    "row": 81,
+    "rowsha": "mT1CIlp+W6aXkgZfsIGmyb/F5XiBrtHcoytb9Reul3E=",
+    "originContent": "class Person(val name: String, val birthday: Instant)",
+    "translatedContent": "class Person(val name: String, val birthday: Instant)"
+  },
+  {
+    "row": 82,
+    "rowsha": "5HSCb8a6UjFmjl4ceUGRTMq+T82PkHSUqy37qAN4RrI=",
+    "originContent": "class PersonDto(val name: String, val birthday: Date)",
+    "translatedContent": "class PersonDto(val name: String, val birthday: Date)"
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "这将生成以下扩展函数"
+  },
+  {
+    "row": 85,
+    "rowsha": "HE1X7wo622ZyYNxuTe3Xr4UiQufFnub7bHILz39C46Y=",
+    "originContent": "This will generate the following extension function",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 88,
+    "rowsha": "X94s1pq5bGijN7k1/KJBSOpqRuJ/KJakJYP+7xmXK5o=",
+    "originContent": "fun Person.toPersonDto(): PersonDto = PersonDto(",
+    "translatedContent": "fun Person.toPersonDto(): PersonDto = PersonDto("
+  },
+  {
+    "row": 89,
+    "rowsha": "HlGAAB5Rgxto7izPzm2DclkI38f6i82SeFdIABVO3E4=",
+    "originContent": "   name = name,",
+    "translatedContent": "   name = name,"
+  },
+  {
+    "row": 90,
+    "rowsha": "vjf2mBDscSOBoU4VZwrohhhRWSIu7uJ1WcqxA23UfSc=",
+    "originContent": "   birthday = birthday.let { java.util.Date.from(it) }",
+    "translatedContent": "   birthday = birthday.let { java.util.Date.from(it) }"
+  },
+  {
+    "row": 91,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 92,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "ipY+4UZwwriB7K+7UK3/gSV5AitaLDsMJaLb708geiU=",
+    "originContent": "Have a look at the [documentation](https://mcarleio.github.io/konvert/typeconverter/) for a list of provided type converters.",
+    "translatedContent": "请查看[文档](https://mcarleio.github.io/konvert/typeconverter/)以获取提供的类型转换器列表。"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "UJ1NPeQ6P3BTXzGp6+Fwj1Y7dT7gEi1ZSsvhk8gey94=",
+    "originContent": "🛈: You can also create your own type converter library by",
+    "translatedContent": "🛈：您也可以通过实现[TypeConverter](https://raw.githubusercontent.com/mcarleio/konvert/main/converter-api/src/main/kotlin/io/mcarle/konvert/converter/api/TypeConverter.kt)来创建您自己的类型转换器库，并使用[SPI](https://en.wikipedia.org/wiki/Service_provider_interface)进行注册。"
+  },
+  {
+    "row": 97,
+    "rowsha": "HDJfg/CZuZHct6BaPVSkziV0t6DAITUP9U1ngEwg7sE=",
+    "originContent": "implementing [TypeConverter](https://raw.githubusercontent.com/mcarleio/konvert/main/converter-api/src/main/kotlin/io/mcarle/konvert/converter/api/TypeConverter.kt) and register it",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "ny4ac/c5T6usyEEU4SlBEZUHI2xqqGiZSlRlgCNkG3g=",
+    "originContent": "using [SPI](https://en.wikipedia.org/wiki/Service_provider_interface).",
+    "translatedContent": "### 微调"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "3DrewwXN5yVg1IL/xz0tae2Cy1qX0A43+qu+jIXj7JE=",
+    "originContent": "### Fine tuning",
+    "translatedContent": "大多数情况下，源类和目标类的属性名称和类型可能不相同。"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "您可以配置特定映射并重命名生成的扩展函数，如下所示："
+  },
+  {
+    "row": 102,
+    "rowsha": "+hBWjvjAheeh8ZaEIrKM4MvLTXQeJfvHmQhC9UmGfwM=",
+    "originContent": "Most of the time, the source and target classes might not have the same property names and types.",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "6zM/BBkIAAjIMyfxqCPlcznYqJB4eS0czLORreUqqRY=",
+    "originContent": "You can configure specific mappings and rename the generated extension function like this:",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 106,
+    "rowsha": "fG12WOJKqyZhkcZbe2H/xMbCoAW9yqn/52ALEAfXEQ4=",
+    "originContent": "@KonvertTo(",
+    "translatedContent": "@KonvertTo("
+  },
+  {
+    "row": 107,
+    "rowsha": "QVVzobnCyiej0wpYsfJzTqRbwtimd2xJli1lzVOkB+0=",
+    "originContent": "   PersonDto::class,",
+    "translatedContent": "   PersonDto::class,"
+  },
+  {
+    "row": 108,
+    "rowsha": "aA+EFZasiB6v6v4Ina43ZBwl2UpJVKFBJVw7XlwckdI=",
+    "originContent": "   mappings = [",
+    "translatedContent": "   mappings = ["
+  },
+  {
+    "row": 109,
+    "rowsha": "mZ3lSDtqZx+q3dfp/evacM8a/Oeois7xVm4tdyqgeqE=",
+    "originContent": "      Mapping(source = \"firstName\", target = \"givenName\"),",
+    "translatedContent": "      Mapping(source = \"firstName\", target = \"givenName\"),"
+  },
+  {
+    "row": 110,
+    "rowsha": "YNYYmtoWWhpvUCLUP2tZO3WIw2Ds1ahA7j4TuhahKck=",
+    "originContent": "      Mapping(source = \"lastName\", target = \"familyName\")",
+    "translatedContent": "      Mapping(source = \"lastName\", target = \"familyName\")"
+  },
+  {
+    "row": 111,
+    "rowsha": "edDCnRwB7n9J54H/mNOcozMOCxVZB9i5eoj2D4ElhNQ=",
+    "originContent": "   ],",
+    "translatedContent": "   ],"
+  },
+  {
+    "row": 112,
+    "rowsha": "VaVyHvTKRd6G91mmWT+g7P3Nq7Y7xQkjow8g1u1a0BA=",
+    "originContent": "   mapFunctionName = \"asDto\"",
+    "translatedContent": "   mapFunctionName = \"asDto\""
+  },
+  {
+    "row": 113,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 114,
+    "rowsha": "8IbxGfmQMpSCL1z620v3wleVe3bzrnP7Ciq0PchNq6k=",
+    "originContent": "class Person(val firstName: String, val lastName: String)",
+    "translatedContent": "class Person(val firstName: String, val lastName: String)"
+  },
+  {
+    "row": 115,
+    "rowsha": "ezYAf0QqiX/K0rv44QA9v9dxiBKsifhHBaKXxdBZrJw=",
+    "originContent": "class PersonDto(val givenName: String, val familyName: String)",
+    "translatedContent": "class PersonDto(val givenName: String, val familyName: String)"
+  },
+  {
+    "row": 116,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "这将生成以下扩展函数"
+  },
+  {
+    "row": 118,
+    "rowsha": "HE1X7wo622ZyYNxuTe3Xr4UiQufFnub7bHILz39C46Y=",
+    "originContent": "This will generate the following extension function",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+    "originContent": "```kotlin",
+    "translatedContent": "```kotlin"
+  },
+  {
+    "row": 121,
+    "rowsha": "a9cXi/RhxRSHrdTDDJ+wXYPZniBeGSaJW+kT6owccGU=",
+    "originContent": "fun Person.asDto(): PersonDto = PersonDto(",
+    "translatedContent": "fun Person.asDto(): PersonDto = PersonDto("
+  },
+  {
+    "row": 122,
+    "rowsha": "EL3HqeLU8HPBGtV5W9KCoS69yeUjzjUwtY9s7P54WTE=",
+    "originContent": "   givenName = firstName,",
+    "translatedContent": "   givenName = firstName,"
+  },
+  {
+    "row": 123,
+    "rowsha": "S/vRC4iO9CaWnLFSFNS/TjJftRHUrgiil6JRK23tvvQ=",
+    "originContent": "   familyName = lastName",
+    "translatedContent": "   familyName = lastName"
+  },
+  {
+    "row": 124,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 125,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "5XifpSMHYbW2KpknFf9WUVasyWquXt2SEFz4h2B0yi8=",
+    "originContent": "For further functionality, have a look into",
+    "translatedContent": "欲了解更多功能，请参阅"
+  },
+  {
+    "row": 128,
+    "rowsha": "0SQuayPeu5imM9nSHA35OxDwsTOAWOESfor4T4bz4/Y=",
+    "originContent": "the [documentation](https://mcarleio.github.io/konvert/)",
+    "translatedContent": "[文档](https://mcarleio.github.io/konvert/)"
+  },
+  {
+    "row": 129,
+    "rowsha": "lEBdVvkfBD5JF9MyzU1Egk8RnWCKiq8oYIPonPCQCm8=",
+    "originContent": "the KDocs of the [annotations](annotations/src/main/kotlin/io/mcarle/konvert/api),",
+    "translatedContent": "[注解](annotations/src/main/kotlin/io/mcarle/konvert/api)的KDocs，"
+  },
+  {
+    "row": 130,
+    "rowsha": "gFxnHqIHDM1h1zpg5aJU/vMnPSLgI5vC/9HUuVjut/o=",
+    "originContent": "the [example project](example/src/main/kotlin/io/mcarle/konvert/example)",
+    "translatedContent": "[示例项目](example/src/main/kotlin/io/mcarle/konvert/example)"
+  },
+  {
+    "row": 131,
+    "rowsha": "cXEP04mgqR8kTddpWssxcUtcmMe1G8xEEsU44a4rApE=",
+    "originContent": "or the [tests](processor/src/test/kotlin/io/mcarle/konvert/processor).",
+    "translatedContent": "或[测试](processor/src/test/kotlin/io/mcarle/konvert/processor)。"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "BG+cFotflOEBAWTH9fb+nSxWQ3S5CgH1z5eje5cJW0A=",
+    "originContent": "## Gradle Setup",
+    "translatedContent": "## Gradle 设置"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "0kz6EbYK1FAMebNzgTe3xBt5fh5joRugtNBOo3IQoYU=",
+    "originContent": "To use Konvert with Gradle, you have to do the following steps:",
+    "translatedContent": "要在 Gradle 中使用 Konvert，您需要执行以下步骤："
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "oHp1M8cUktUbvB+gBBfGrewPy78JVQ6cMjKNAUK6ZIo=",
+    "originContent": "1. Add `konvert-api` as a dependency to use the annotations:",
+    "translatedContent": "1. 添加 `konvert-api` 作为依赖以使用注解："
+  },
+  {
+    "row": 138,
+    "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+    "originContent": "   ```kotlin",
+    "translatedContent": "   ```kotlin"
+  },
+  {
+    "row": 139,
+    "rowsha": "B6fHOOHkjhCU5nDaW+t2TnJaZ8t1q+KlAvxlrb2CTcE=",
+    "originContent": "   dependencies {",
+    "translatedContent": "   dependencies {"
+  },
+  {
+    "row": 140,
+    "rowsha": "7YPsqZ6itCm1Bz5igrXfM6KExDX+aEhGSZ1gX2tjVEM=",
+    "originContent": "      implementation(\"io.mcarle:konvert-api:$konvertVersion\")",
+    "translatedContent": "      implementation(\"io.mcarle:konvert-api:$konvertVersion\")"
+  },
+  {
+    "row": 141,
+    "rowsha": "ycCxQTO9KU+lsNjcZ0AEvZXIAAAOwZgQn1KUCO4GRwY=",
+    "originContent": "   }",
+    "translatedContent": "   }"
+  },
+  {
+    "row": 142,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "AGo8Ix3rxdF9j58Wsw8grX2DNWVllh/OF+MSNXpdQ0o=",
+    "originContent": "2. Add the KSP plugin:",
+    "translatedContent": "2. 添加 KSP 插件："
+  },
+  {
+    "row": 145,
+    "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+    "originContent": "   ```kotlin",
+    "translatedContent": "   ```kotlin"
+  },
+  {
+    "row": 146,
+    "rowsha": "SZKQcvt9DJosj274E+FrQ8iGwFRNNmYHAqx4N4K3pZI=",
+    "originContent": "   plugins {",
+    "translatedContent": "   plugins {"
+  },
+  {
+    "row": 147,
+    "rowsha": "1xj4lLcXJ4vHbN263/LUXU19FhgQEjt1UcRgqmcqijU=",
+    "originContent": "       id(\"com.google.devtools.ksp\").version(\"2.3.5\")",
+    "translatedContent": "       id(\"com.google.devtools.ksp\").version(\"2.3.5\")"
+  },
+  {
+    "row": 148,
+    "rowsha": "ycCxQTO9KU+lsNjcZ0AEvZXIAAAOwZgQn1KUCO4GRwY=",
+    "originContent": "   }",
+    "translatedContent": "   }"
+  },
+  {
+    "row": 149,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "jAMfj6tC2BJEsQbfQa41IoHCy+LRx8Ww54EeQvdfUpc=",
+    "originContent": "3. Add `konvert` as a `ksp` dependency:",
+    "translatedContent": "3. 将 `konvert` 添加为 `ksp` 依赖："
+  },
+  {
+    "row": 152,
+    "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+    "originContent": "   ```kotlin",
+    "translatedContent": "   ```kotlin"
+  },
+  {
+    "row": 153,
+    "rowsha": "B6fHOOHkjhCU5nDaW+t2TnJaZ8t1q+KlAvxlrb2CTcE=",
+    "originContent": "   dependencies {",
+    "translatedContent": "   dependencies {"
+  },
+  {
+    "row": 154,
+    "rowsha": "CEk0F+hiXD3soD9zeBAiuhggGdd4drQFhmNp8DLQ264=",
+    "originContent": "      ksp(\"io.mcarle:konvert:$konvertVersion\")",
+    "translatedContent": "      ksp(\"io.mcarle:konvert:$konvertVersion\")"
+  },
+  {
+    "row": 155,
+    "rowsha": "ycCxQTO9KU+lsNjcZ0AEvZXIAAAOwZgQn1KUCO4GRwY=",
+    "originContent": "   }",
+    "translatedContent": "   }"
+  },
+  {
+    "row": 156,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "6H6AoY8A8swQaYQiYzFRUYgM6WDAyeJM7k4EN9CNoVA=",
+    "originContent": "## Maven Setup",
+    "translatedContent": "## Maven 设置"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "DzUdKp7hDtO0P9x63z5HBUfZs5fQK3oheCqMk4llB6Y=",
+    "originContent": "To use Konvert with Maven, you have to do the following steps:",
+    "translatedContent": "要在 Maven 中使用 Konvert，您需要执行以下步骤："
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "oHp1M8cUktUbvB+gBBfGrewPy78JVQ6cMjKNAUK6ZIo=",
+    "originContent": "1. Add `konvert-api` as a dependency to use the annotations:",
+    "translatedContent": "1. 添加 `konvert-api` 作为依赖以使用注解："
+  },
+  {
+    "row": 163,
+    "rowsha": "mutP9X130JZiH3BtYsYRdcuDQYIEHrMpIY3Yqjihu/M=",
+    "originContent": "   ```xml",
+    "translatedContent": "   ```xml"
+  },
+  {
+    "row": 164,
+    "rowsha": "l9UcujxaokhhLODthdcE42mv8zCZCObup5RdOvLqOqU=",
+    "originContent": "   <dependency>",
+    "translatedContent": "   <dependency>"
+  },
+  {
+    "row": 165,
+    "rowsha": "YXMZ2HgzXfeIraEnhImjKoe15CrxE9K5hVFFb3YF+4I=",
+    "originContent": "       <groupId>io.mcarle</groupId>",
+    "translatedContent": "       <groupId>io.mcarle</groupId>"
+  },
+  {
+    "row": 166,
+    "rowsha": "EuEOSMX4Pdz9E5N3Lv340wagpWEEI61DDaL4E/Qa7F4=",
+    "originContent": "       <artifactId>konvert-api</artifactId>",
+    "translatedContent": "       <artifactId>konvert-api</artifactId>"
+  },
+  {
+    "row": 167,
+    "rowsha": "Sx5eficYZL3bbpzVUWEn+b7Ly2GeB/eWyWaty34NcGs=",
+    "originContent": "       <version>${konvert.version}</version>",
+    "translatedContent": "       <version>${konvert.version}</version>"
+  },
+  {
+    "row": 168,
+    "rowsha": "IblndLDjoupKvtAzmG/+0z64t0vAcYynvBY6Z3TQjx8=",
+    "originContent": "   </dependency>",
+    "translatedContent": "   </dependency>"
+  },
+  {
+    "row": 169,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "EthH7DQMKKayIaUqxdCDrdiP67RpOMqYhMRbKr2gIj8=",
+    "originContent": "2. Use the [ksp-maven-plugin](https://github.com/mcarleio/ksp-maven-plugin) with `konvert` as a dependency:",
+    "translatedContent": "2. 使用带有 `konvert` 依赖的 [ksp-maven-plugin](https://github.com/mcarleio/ksp-maven-plugin)："
+  },
+  {
+    "row": 172,
+    "rowsha": "mutP9X130JZiH3BtYsYRdcuDQYIEHrMpIY3Yqjihu/M=",
+    "originContent": "   ```xml",
+    "translatedContent": "   ```xml"
+  },
+  {
+    "row": 173,
+    "rowsha": "7VtTfblQG59HwXBn0epGWNv8yAJepKZGQN6SDIiCC2A=",
+    "originContent": "   <plugin>",
+    "translatedContent": "   <plugin>"
+  },
+  {
+    "row": 174,
+    "rowsha": "YXMZ2HgzXfeIraEnhImjKoe15CrxE9K5hVFFb3YF+4I=",
+    "originContent": "       <groupId>io.mcarle</groupId>",
+    "translatedContent": "       <groupId>io.mcarle</groupId>"
+  },
+  {
+    "row": 175,
+    "rowsha": "/T6QgpRet9B/KVbEV27i6/KUV2t5Ug7VjgzQR6s3QTU=",
+    "originContent": "       <artifactId>ksp-maven-plugin</artifactId>",
+    "translatedContent": "       <artifactId>ksp-maven-plugin</artifactId>"
+  },
+  {
+    "row": 176,
+    "rowsha": "o8aB6xIiQFG3TPvig5hR0eftQAslV3o93iC+Eo3/i/A=",
+    "originContent": "       <version>2.3.5-1</version>",
+    "translatedContent": "       <version>2.3.5-1</version>"
+  },
+  {
+    "row": 177,
+    "rowsha": "pUX/SFnKKuo34/IriCY+462bgj5C/S866xfg+xZIdVM=",
+    "originContent": "       <executions>",
+    "translatedContent": "       <executions>"
+  },
+  {
+    "row": 178,
+    "rowsha": "V/hfwGldPl08yIb1zrmiAxPyC8syu0HNFzifgxyuZx8=",
+    "originContent": "           <execution>",
+    "translatedContent": "           <execution>"
+  },
+  {
+    "row": 179,
+    "rowsha": "lUHdObi6BXQ7jSu/fWHEZ2oJg8Irx31Psr8JZ7xOtGI=",
+    "originContent": "               <goals>",
+    "translatedContent": "               <goals>"
+  },
+  {
+    "row": 180,
+    "rowsha": "hj5bnzC1dyA21r6hUNZYzGWdZGZCDV7dDgX+Jm+TP/k=",
+    "originContent": "                   <goal>ksp</goal>",
+    "translatedContent": "                   <goal>ksp</goal>"
+  },
+  {
+    "row": 181,
+    "rowsha": "NHv03d2PrGunG1s/7UCOd2hhtz/7RWmacqu2QNQOVFE=",
+    "originContent": "               </goals>",
+    "translatedContent": "               </goals>"
+  },
+  {
+    "row": 182,
+    "rowsha": "x2A8KqXnqsdf024H44GDpPIoqA0nBSR+mN7Ybj4yojk=",
+    "originContent": "           </execution>",
+    "translatedContent": "           </execution>"
+  },
+  {
+    "row": 183,
+    "rowsha": "98cMXtvo8B1flUU/btanhIFsvwD1AKJzLzUbJz+/hsw=",
+    "originContent": "       </executions>",
+    "translatedContent": "       </executions>"
+  },
+  {
+    "row": 184,
+    "rowsha": "SsbkI2eVbu5hgFH3TJYl03wDfM5Guy8vPCabSRiDbQ0=",
+    "originContent": "       <dependencies>",
+    "translatedContent": "       <dependencies>"
+  },
+  {
+    "row": 185,
+    "rowsha": "gYkKBzhCRV+RhjGEOsF1zpjfMSCvGWZxHVPsWZNqD08=",
+    "originContent": "           <dependency>",
+    "translatedContent": "           <dependency>"
+  },
+  {
+    "row": 186,
+    "rowsha": "TGGifnt+DHcApS4ySx07PAW44D5k1GGOTH3l78hVX8Y=",
+    "originContent": "               <groupId>io.mcarle</groupId>",
+    "translatedContent": "               <groupId>io.mcarle</groupId>"
+  },
+  {
+    "row": 187,
+    "rowsha": "Z1DDeZnbZi/qInKg8DI54Gl8GKD69ruI3AiN21xG5u8=",
+    "originContent": "               <artifactId>konvert</artifactId>",
+    "translatedContent": "               <artifactId>konvert</artifactId>"
+  },
+  {
+    "row": 188,
+    "rowsha": "E/QaKcWO3wme02OVycQZvnvq4+Oo3SNP6Lx+RP8CbZs=",
+    "originContent": "               <version>${konvert.version}</version>",
+    "translatedContent": "               <version>${konvert.version}</version>"
+  },
+  {
+    "row": 189,
+    "rowsha": "jqb+Vc5zxXkBeBmEGCezhNPHGHPaV7QnkmlQJSWh6dU=",
+    "originContent": "           </dependency>",
+    "translatedContent": "           </dependency>"
+  },
+  {
+    "row": 190,
+    "rowsha": "Nk6DTj7rTEysV2Ej2Xob0NQE2EUHczAQYEikaKEJSTU=",
+    "originContent": "       </dependencies>",
+    "translatedContent": "       </dependencies>"
+  },
+  {
+    "row": 191,
+    "rowsha": "AHIxSCO1rUoE61tHk8uiAx8ufXXFi42HhDki22aXrQM=",
+    "originContent": "   </plugin>",
+    "translatedContent": "   </plugin>"
+  },
+  {
+    "row": 192,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 193,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "uKaCI6QhVKzV+yboMRrhN7S1VJeB4XG4KBTPXC/z+Co=",
+    "originContent": "## Further information",
+    "translatedContent": "## 进一步信息"
+  },
+  {
+    "row": 195,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "3n+OU7bxnzUqB37wJ+NVsXuUbwEsYbSgiAUX4bWXNv8=",
+    "originContent": "* Konvert is primarily compiled and tested with JDK >=17. It should also work with anything below JDK 17, but is not guaranteed to.",
+    "translatedContent": "* Konvert 主要使用 JDK >=17 编译和测试。它也应该能在 JDK 17 以下的版本工作，但不保证。"
+  },
+  {
+    "row": 197,
+    "rowsha": "SDJtOC+bZVUk5O+aV7brq9ddCpBbOVENwymy55J8YDI=",
+    "originContent": "* Konvert is able to convert classes from and to classes written in Java (and probably also in other JVM languages).",
+    "translatedContent": "* Konvert 能够将类从 Java（可能还有其他 JVM 语言）编写的类之间进行转换。"
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "/FxZYObCwbUbpOlsp8cyUpRUJbsNrmsrCxwmlgkEx9Y=",
+    "originContent": "### Alternatives",
+    "translatedContent": "### 替代方案"
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "qMH9h3cBRzzOs8EqOY0jxVwxi/TLTl/rIbDFLpUtQAw=",
+    "originContent": "There are some alternatives to Konvert that you might want to check out:",
+    "translatedContent": "以下是一些你可能想了解的 Konvert 替代方案："
+  },
+  {
+    "row": 202,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "BvntfF9CjpssV40gDHx7fh8B95277NI/Y6x0gkVo8SQ=",
+    "originContent": "* [Mappie](https://github.com/Mr-Mappie/mappie)",
+    "translatedContent": "* [Mappie](https://github.com/Mr-Mappie/mappie)"
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 205,
+    "rowsha": "1I8rnr7zoKvNv4eYNgYBRGovwWCmfEvBn14YCAeCGTk=",
+    "originContent": "  Mappie does not use KSP, but instead is a compiler plugin for Kotlin itself.",
+    "translatedContent": "  Mappie 不使用 KSP，而是 Kotlin 自身的编译器插件。"
+  },
+  {
+    "row": 206,
+    "rowsha": "S8bvAvOhH1dBhvlw2VSu179OO0Iw7fOlu3sWnnAZivM=",
+    "originContent": "  It uses reflection rather than String references to **define** the mappings,",
+    "translatedContent": "  它使用反射而非字符串引用来**定义**映射，"
+  },
+  {
+    "row": 207,
+    "rowsha": "MdrrOC72T1Ho5vwffVyk70+VoknKvZUqZbtcocCh+rM=",
+    "originContent": "  but **replaces the reflection** code during compile time with idiomatic Kotlin code.",
+    "translatedContent": "  但在编译时**替换反射**代码为惯用的 Kotlin 代码。"
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 209,
+    "rowsha": "k/ck5V3wjLSC+PFjyiYRjUnlUu8xEf5iNNAokFFGdOQ=",
+    "originContent": "* [MapStruct](https://mapstruct.org/)",
+    "translatedContent": "* [MapStruct](https://mapstruct.org/)"
+  },
+  {
+    "row": 210,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 211,
+    "rowsha": "PK4JVdLqQW3AIRPbA5W23Abi2duopbBiJ1PqlqU45H8=",
+    "originContent": "  MapStruct is a well known Java mapping library using annotation processing (see [kapt](https://kotlinlang.org/docs/kapt.html)).",
+    "translatedContent": "  MapStruct 是一个著名的 Java 映射库，使用注解处理（参见 [kapt](https://kotlinlang.org/docs/kapt.html)）。"
+  },
+  {
+    "row": 212,
+    "rowsha": "oqtBkD4dSQasnJZbzB5HKtlOVhfxI97b5xcUYb3Sjbs=",
+    "originContent": "  Can be used in Kotlin projects, but does not support Kotlin specific features.",
+    "translatedContent": "  可以用于 Kotlin 项目，但不支持 Kotlin 特有特性。"
+  },
+  {
+    "row": 213,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 214,
+    "rowsha": "Rv2D52yDyH3pY3FpuSLU0/pZ3pGgp+W062j6u7k2wxA=",
+    "originContent": "* [kMapper](https://github.com/s0nicyouth/kmapper)",
+    "translatedContent": "* [kMapper](https://github.com/s0nicyouth/kmapper)"
+  },
+  {
+    "row": 215,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "OhCsJzbj6RenSk4QwQ09sEzdZ3Z2GL/Ip3jXUnkQSVU=",
+    "originContent": "  kMapper is also a KSP processor, but seems to only support mapping between Kotlin data classes.",
+    "translatedContent": "  kMapper 也是一个 KSP 处理器，但似乎只支持 Kotlin 数据类之间的映射。"
+  },
+  {
+    "row": 217,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 218,
+    "rowsha": "zYqD2V41JHqMt//EAY7VS3oKHs8Krg3bwj7u5OF340U=",
+    "originContent": "* [ShapeShift️](https://github.com/krud-dev/shapeshift)",
+    "translatedContent": "* [ShapeShift️](https://github.com/krud-dev/shapeshift)"
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 220,
+    "rowsha": "ZoNbPX3ZdlO6fhv5WnQdNh9Sqs7l7CbI7qyTEL625nA=",
+    "originContent": "  ShapeShift uses reflection at runtime to map between classes.",
+    "translatedContent": "  ShapeShift 在运行时使用反射来进行类之间的映射。"
+  },
+  {
+    "row": 221,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 222,
+    "rowsha": "Xh9nTckGVj2T3RnfPqCe4sbp8zf2TelNusTBRIPNjjM=",
+    "originContent": "* **Code yourself** (with AI support)",
+    "translatedContent": "* **自行编码**（借助 AI 支持）"
+  },
+  {
+    "row": 223,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 224,
+    "rowsha": "TGA9Ykd/MRkJJL6VAE6c98TfdH4doH9XVNkmrxdoPuw=",
+    "originContent": "  Indeed, it sometimes can be faster, easier and more flexible to write mapping code manually.",
+    "translatedContent": "  确实，有时手动编写映射代码会更快、更简单且更灵活。"
+  },
+  {
+    "row": 225,
+    "rowsha": "Ny9sSjN/et1gFUlnIdKLJAz2XXsK17T5pAU2HG2PBKU=",
+    "originContent": "  With the help of AI tools nowadays, this repetitive task can be automated to a certain degree.",
+    "translatedContent": "  现今借助 AI 工具，这一重复性任务可以在一定程度上实现自动化。"
+  },
+  {
+    "row": 226,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 227,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 228,
+    "rowsha": "7yG6yJKPL5cg9brIizwUDQZkeD/r3QuaAXwB7XbI5xs=",
+    "originContent": "## Building",
+    "translatedContent": "## 构建"
+  },
+  {
+    "row": 229,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 230,
+    "rowsha": "nRMQHWDe5aR9UhKIweqzglGVNoR+F8UpxTzOkLs+Nvg=",
+    "originContent": "### Gradle",
+    "translatedContent": "### Gradle"
+  },
+  {
+    "row": 231,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 232,
+    "rowsha": "jQ5RWYs6aIMa6oS1088XR0lgLEi0k5AztxoQg4nsWKQ=",
+    "originContent": "To build the project, simply run",
+    "translatedContent": "要构建项目，只需运行"
+  },
+  {
+    "row": 233,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 234,
+    "rowsha": "7TQz57MADnObMSQ3qX7vQUSoS5lnqUXbXrFyvSd39KY=",
+    "originContent": "> gradle build",
+    "translatedContent": "> gradle build"
+  },
+  {
+    "row": 235,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 236,
+    "rowsha": "Bup1bLx3g3BusmkGBO+OVfdbwigvjlYDVrtNHiSFZfs=",
+    "originContent": "#### Run all tests",
+    "translatedContent": "#### 运行所有测试"
+  },
+  {
+    "row": 237,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 238,
+    "rowsha": "GRhFtdwOWaxvL8f//3Y/E3rdO5qQGKP2pbL5TQy+2O4=",
+    "originContent": "By default, only a subset of available tests are executed, which should verify most of Konvert's functionality.",
+    "translatedContent": "默认情况下，只执行部分可用测试，这些测试应验证 Konvert 的大部分功能。"
+  },
+  {
+    "row": 239,
+    "rowsha": "uTMg9dzq8nyvjVnfhjotq4QskZiV6c6TPnsPqzmeS2Y=",
+    "originContent": "To run all tests, append the property `runAllTests`, e.g.:",
+    "translatedContent": "要运行所有测试，请附加属性 `runAllTests`，例如："
+  },
+  {
+    "row": 240,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 241,
+    "rowsha": "rm2TBA60LzweZJPjIUmNz5X29PsI7OQxeIipYV+/l7U=",
+    "originContent": "> gradle test -PrunAllTests",
+    "translatedContent": "> gradle test -PrunAllTests"
+  },
+  {
+    "row": 242,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 243,
+    "rowsha": "2mMUh/WBPxNHjUUe8ZJhHcWcT77DHoUsPD+naSd90X0=",
+    "originContent": "### Documentation",
+    "translatedContent": "### 文档"
+  },
+  {
+    "row": 244,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 245,
+    "rowsha": "V/8XKEo82vqgkDW9fl0siHJp9NN596/XSiaYwdkejYo=",
+    "originContent": "To serve the Jekyll site locally, simply run the following command inside `docs`:",
+    "translatedContent": "要在本地提供 Jekyll 站点，只需在 `docs` 目录内运行以下命令："
+  },
+  {
+    "row": 246,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 247,
+    "rowsha": "7QtWF53hZSTVVqWAKq/1wfNw0gnpxhAUWvpOrVjbEkI=",
+    "originContent": "> docker run --rm -it -v \"$PWD\":/site -p 4000:4000 bretfisher/jekyll-serve",
+    "translatedContent": "> docker run --rm -it -v \"$PWD\":/site -p 4000:4000 bretfisher/jekyll-serve"
+  },
+  {
+    "row": 248,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 249,
+    "rowsha": "E63cx/ia8l7QG99pSowtvpg2ZY9R7toK0+KDDCSoWU8=",
+    "originContent": "### CI",
+    "translatedContent": "### 持续集成"
+  },
+  {
+    "row": 250,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 251,
+    "rowsha": "wyBuMI5uIyeXGg+pIPmrbYD1A06+ml2xcStz/4c3caE=",
+    "originContent": "GitHub Actions are used to:",
+    "translatedContent": "使用 GitHub Actions 来："
+  },
+  {
+    "row": 252,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 253,
+    "rowsha": "d9h3TQmxEwxG1Up41AHSHCO5dboTiL3dRw5shqyIPa8=",
+    "originContent": "* [build and test](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/build.yml)",
+    "translatedContent": "* [构建和测试](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/build.yml)"
+  },
+  {
+    "row": 254,
+    "rowsha": "+Aw9VJl3Bj7EELXbp8RmCKl+jy98WzzlEF5gRtzem4E=",
+    "originContent": "* [release and publish](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/release.yml) to a Maven repository",
+    "translatedContent": "* [发布和上传](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/release.yml) 到 Maven 仓库"
+  },
+  {
+    "row": 255,
+    "rowsha": "YbF5IkBvFH61GQTgU5uW8SnYjjmAyVs31UXVOKJD/ss=",
+    "originContent": "* [generate documentation](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/pages.yml) and deploy it to GitHub Pages.",
+    "translatedContent": "* [生成文档](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/pages.yml) 并部署到 GitHub Pages。"
+  },
+  {
+    "row": 256,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 257,
+    "rowsha": "sZNBxWTOjK92d5uVdMmWULuGrk66hbr3n+TVP60yreM=",
+    "originContent": "## Changelog",
+    "translatedContent": "## 更新日志"
+  },
+  {
+    "row": 258,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 259,
+    "rowsha": "f7sIELeTZsUlzHAdkozkejFyqipsMA7cXO5Hif0yWLQ=",
+    "originContent": "The [changelog](https://raw.githubusercontent.com/mcarleio/konvert/main/CHANGELOG.md) contains all notable changes.",
+    "translatedContent": "[更新日志](https://raw.githubusercontent.com/mcarleio/konvert/main/CHANGELOG.md) 包含所有重要变更。"
+  },
+  {
+    "row": 260,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 261,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## 许可证"
+  },
+  {
+    "row": 262,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 263,
+    "rowsha": "Xm2eTgPJkmwDF70ccSMLiDcofLoQvjiIaoqjKhYl2i8=",
+    "originContent": "    Copyright 2023 Marcel Carlé",
+    "translatedContent": "    版权所有 2023 Marcel Carlé"
+  },
+  {
+    "row": 264,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 265,
+    "rowsha": "7+PbWum3FkEfD9DDYOj7M6kYcxU46nhCqKRjvyM3xKc=",
+    "originContent": "    Licensed under the Apache License, Version 2.0 (the \"License\");",
+    "translatedContent": "    根据 Apache 许可证 2.0 版本（“许可证”）授权；"
+  },
+  {
+    "row": 266,
+    "rowsha": "sJEKzTSN722KI6tQEFawGdGKhk9uJ/vKnv//EZcFa5g=",
+    "originContent": "    you may not use this file except in compliance with the License.",
+    "translatedContent": "    除非符合许可证，否则不得使用此文件。"
+  },
+  {
+    "row": 267,
+    "rowsha": "wH1Nqx+khfTadw0ySYFudDnRcm+L3pE/Gcm8GHEaT0o=",
+    "originContent": "    You may obtain a copy of the License at",
+    "translatedContent": "    您可以在以下地址获得许可证副本："
+  },
+  {
+    "row": 268,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 269,
+    "rowsha": "SITpYlOiCZzSbf1zsyWsPj80vixUetlebSkzifGo8E0=",
+    "originContent": "    http://www.apache.org/licenses/LICENSE-2.0",
+    "translatedContent": "    http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  {
+    "row": 270,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 271,
+    "rowsha": "JIpjO0w54xL/9wYDandBdKIVuD4ryhVsKCegYaviIy8=",
+    "originContent": "    Unless required by applicable law or agreed to in writing, software",
+    "translatedContent": "    除非适用法律要求或书面同意，否则根据许可证分发的软件"
+  },
+  {
+    "row": 272,
+    "rowsha": "kyLJoFyzLLNPgA4f90gouTDU8NgYIzmAHmPzC0rCEV4=",
+    "originContent": "    distributed under the License is distributed on an \"AS IS\" BASIS,",
+    "translatedContent": "    是按“原样”分发的，"
+  },
+  {
+    "row": 273,
+    "rowsha": "SvZ4EzOUdNxPz4TjAFIaKdKFe1+HNja/Jhg8HIfL7ik=",
+    "originContent": "    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+    "translatedContent": "    不附带任何明示或暗示的保证或条件。"
+  },
+  {
+    "row": 274,
+    "rowsha": "a1OaSn895pbIIiSz+8eNKd7envz7z/+OjROWXOyem9M=",
+    "originContent": "    See the License for the specific language governing permissions and",
+    "translatedContent": "    有关权限和"
+  },
+  {
+    "row": 275,
+    "rowsha": "BxgQVtkPqJyUUk8rtyLA5SwrgKIToKOPD7YSP5qwEL8=",
+    "originContent": "    limitations under the License.",
+    "translatedContent": "    许可限制的具体语言，请参阅许可证。"
+  },
+  {
+    "row": 276,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 277,
+    "rowsha": "fZ4QlJ+5ilpYBC+PY7fdTWTIcB99ZcKJEedxUHryM/0=",
+    "originContent": "[maven-image]: https://img.shields.io/maven-central/v/io.mcarle/konvert.svg",
+    "translatedContent": "[maven-image]: https://img.shields.io/maven-central/v/io.mcarle/konvert.svg"
+  },
+  {
+    "row": 278,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 279,
+    "rowsha": "EeYjQb7RMaJJjAcbQ+p8ijJOwaxQSUxnAbkJZ9S4YVg=",
+    "originContent": "[maven-url]: https://central.sonatype.com/artifact/io.mcarle/konvert/",
+    "translatedContent": "[maven-url]: https://central.sonatype.com/artifact/io.mcarle/konvert/"
+  },
+  {
+    "row": 280,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 281,
+    "rowsha": "CSfn3Xwzy3ClBTzkaUFwHAzax/IVdo4qImgBZG4cNcU=",
+    "originContent": "[license-image]: https://img.shields.io/github/license/mcarleio/konvert.svg",
+    "translatedContent": "[license-image]: https://img.shields.io/github/license/mcarleio/konvert.svg"
+  },
+  {
+    "row": 282,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 283,
+    "rowsha": "BWWn5WpqoimKj/ZHkbZWAbWRZPL2vvz4BBjdIaEwvS8=",
+    "originContent": "[codecov-image]: https://img.shields.io/codecov/c/github/mcarleio/konvert.svg",
+    "translatedContent": "[codecov-image]: https://img.shields.io/codecov/c/github/mcarleio/konvert.svg"
+  },
+  {
+    "row": 284,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 285,
+    "rowsha": "1l+kktWQ2W+jryR3TT1oXOJJP8+e0IM0J4AVz6Tyx6U=",
+    "originContent": "[codecov-url]: https://codecov.io/gh/mcarleio/konvert",
+    "translatedContent": "[codecov-url]: https://codecov.io/gh/mcarleio/konvert"
+  },
+  {
+    "row": 286,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

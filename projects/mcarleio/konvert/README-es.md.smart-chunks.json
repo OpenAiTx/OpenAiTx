@@ -1,0 +1,2147 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Konvert\n\n[![Maven Central][maven-image]][maven-url]\n[![License][license-image]](LICENSE)\n[![Code Coverage][codecov-image]][codecov-url]\n\nThis is Konvert, a Kotlin mapping code generator using [Kotlin Symbol Processing (KSP)](https://github.com/google/ksp).\nDesigned specifically for Kotlin and its features, Konvert supports a wide range of use cases.\n\nMajor features:\n* 🧩 supports **various class kinds** → `data`, `enum`, `value`, regular POJOs\n* 🔄 **Null-safe** by default\n* ⚙️ **Smart conversions** (`Int` → `String`, `Instant` → `Date`, …)\n   * 🔧 Define **reusable converters** with `@Konverter`\n   * 🔌 Extend via **SPI** for ultimate control\n* 🔗 **Collections & maps** — mapping of elements included\n* 🛠️ **Fine-grained** property mapping customization\n* ☕ 100% **Java interoperability**\n* ✨ Generates **clean, idiomatic Kotlin** code\n   * ⏱️ Generated at **compile time**\n   * 🚫 **Zero reflection**, **zero runtime overhead**\n* 📦 Works seamlessly with **Gradle** and **Maven**\n\n> ℹ️ This README provides a basic overview, for more details have a look at the [documentation](https://mcarleio.github.io/konvert).\n\n## Usage\n\nThere are three different ways to use Konvert:\n\n1. Using `@KonvertTo`:",
+    "ContentSha": "uNQzLspD5oBpBcvIjgWpzXIfqgyIysiohmTS698uHvI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Konvert\n\n[![Maven Central][maven-image]][maven-url]\n[![License][license-image]](LICENSE)\n[![Code Coverage][codecov-image]][codecov-url]\n\nEste es Konvert, un generador de código de mapeo para Kotlin que utiliza [Kotlin Symbol Processing (KSP)](https://github.com/google/ksp).\nDiseñado específicamente para Kotlin y sus características, Konvert soporta una amplia gama de casos de uso.\n\nCaracterísticas principales:\n* 🧩 soporta **varios tipos de clases** → `data`, `enum`, `value`, POJOs regulares\n* 🔄 **Seguro contra nulos** por defecto\n* ⚙️ **Conversiones inteligentes** (`Int` → `String`, `Instant` → `Date`, …)\n   * 🔧 Define **convertidores reutilizables** con `@Konverter`\n   * 🔌 Extiende mediante **SPI** para control total\n* 🔗 **Colecciones y mapas** — mapeo de elementos incluido\n* 🛠️ **Personalización** detallada del mapeo de propiedades\n* ☕ 100% **interoperabilidad con Java**\n* ✨ Genera código **Kotlin limpio e idiomático**\n   * ⏱️ Generado en **tiempo de compilación**\n   * 🚫 **Cero reflexión**, **cero sobrecarga en tiempo de ejecución**\n* 📦 Funciona perfectamente con **Gradle** y **Maven**\n\n> ℹ️ Este README ofrece una visión básica, para más detalles consulte la [documentación](https://mcarleio.github.io/konvert).\n\n## Uso\n\nHay tres maneras diferentes de usar Konvert:\n\n1. Usando `@KonvertTo`:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "hrY9ZnMujQ4XZd80bHpLzbL/wug7klCJBVH7n81rw4Y=",
+        "originContent": "# Konvert",
+        "translatedContent": "# Konvert"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Xe5QF4EWBD2QA93lsjCOH9+wN2DK4AncO2tU7wZowcg=",
+        "originContent": "[![Maven Central][maven-image]][maven-url]",
+        "translatedContent": "[![Maven Central][maven-image]][maven-url]"
+      },
+      {
+        "row": 4,
+        "rowsha": "eK+gnfjXrl8TdYsLWk2R7OWlhZ5GOMRBtfMFW1vfk68=",
+        "originContent": "[![License][license-image]](LICENSE)",
+        "translatedContent": "[![License][license-image]](LICENSE)"
+      },
+      {
+        "row": 5,
+        "rowsha": "v7sLarPlffRpy3Vs/KSfD33vM9906PpFvh5q2++039U=",
+        "originContent": "[![Code Coverage][codecov-image]][codecov-url]",
+        "translatedContent": "[![Code Coverage][codecov-image]][codecov-url]"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "u7lLMCeI91u5gHvjgW2vqrF621lWUcPDsMtMyUAb65E=",
+        "originContent": "This is Konvert, a Kotlin mapping code generator using [Kotlin Symbol Processing (KSP)](https://github.com/google/ksp).",
+        "translatedContent": "Este es Konvert, un generador de código de mapeo para Kotlin que utiliza [Kotlin Symbol Processing (KSP)](https://github.com/google/ksp)."
+      },
+      {
+        "row": 8,
+        "rowsha": "BM9KMdthc0mX45l9sd+n8TiLXtRCIC5EVU/yUQZH4XY=",
+        "originContent": "Designed specifically for Kotlin and its features, Konvert supports a wide range of use cases.",
+        "translatedContent": "Diseñado específicamente para Kotlin y sus características, Konvert soporta una amplia gama de casos de uso."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "+is52hnd2Fd+YOaDQLZwUC/se6/uAUFGD2otvunTxAg=",
+        "originContent": "Major features:",
+        "translatedContent": "Características principales:"
+      },
+      {
+        "row": 11,
+        "rowsha": "R242GLcOGbSSbVtqtZXfdzW7gKOZAgHpt8M3hUlx23c=",
+        "originContent": "* 🧩 supports **various class kinds** → `data`, `enum`, `value`, regular POJOs",
+        "translatedContent": "* 🧩 soporta **varios tipos de clases** → `data`, `enum`, `value`, POJOs regulares"
+      },
+      {
+        "row": 12,
+        "rowsha": "B2VxwiaiP1uCEVRsRTv5FS9PoZm2qBoq7N5Tqyawcb4=",
+        "originContent": "* 🔄 **Null-safe** by default",
+        "translatedContent": "* 🔄 **Seguro contra nulos** por defecto"
+      },
+      {
+        "row": 13,
+        "rowsha": "UNRmQsSibBtyP6sTrmAXNFyyg3xlet+P6P58f1OHB1A=",
+        "originContent": "* ⚙️ **Smart conversions** (`Int` → `String`, `Instant` → `Date`, …)",
+        "translatedContent": "* ⚙️ **Conversiones inteligentes** (`Int` → `String`, `Instant` → `Date`, …)"
+      },
+      {
+        "row": 14,
+        "rowsha": "O92qncy3cPHAryFexJuvsJH8vpVlMwzFbzYviP+pZtk=",
+        "originContent": "   * 🔧 Define **reusable converters** with `@Konverter`",
+        "translatedContent": "   * 🔧 Define **convertidores reutilizables** con `@Konverter`"
+      },
+      {
+        "row": 15,
+        "rowsha": "vlgNyZYsC0LgN1CE5TpwZ+sVTFshw0JjvbDjBfn+rgY=",
+        "originContent": "   * 🔌 Extend via **SPI** for ultimate control",
+        "translatedContent": "   * 🔌 Extiende mediante **SPI** para control total"
+      },
+      {
+        "row": 16,
+        "rowsha": "HSyI9A6CMDR66wxJQYugpHUVgcz2GNOnqJDom2O4h7M=",
+        "originContent": "* 🔗 **Collections & maps** — mapping of elements included",
+        "translatedContent": "* 🔗 **Colecciones y mapas** — mapeo de elementos incluido"
+      },
+      {
+        "row": 17,
+        "rowsha": "WQWgw4rm6kOPcEm4lzehwzvLoAwsVWyQR1gKR+V4HPE=",
+        "originContent": "* 🛠️ **Fine-grained** property mapping customization",
+        "translatedContent": "* 🛠️ **Personalización** detallada del mapeo de propiedades"
+      },
+      {
+        "row": 18,
+        "rowsha": "FdCGzT5WL8BVp7YgsVQROFHC78EECSfi9+4XnTX/zhc=",
+        "originContent": "* ☕ 100% **Java interoperability**",
+        "translatedContent": "* ☕ 100% **interoperabilidad con Java**"
+      },
+      {
+        "row": 19,
+        "rowsha": "UqKAI33MIFJZmxaVB7kynOutDGSJKznrzIgwx74rokY=",
+        "originContent": "* ✨ Generates **clean, idiomatic Kotlin** code",
+        "translatedContent": "* ✨ Genera código **Kotlin limpio e idiomático**"
+      },
+      {
+        "row": 20,
+        "rowsha": "QqQD46Di5oApaQ/ha64hGJv2kdtap/8C9ry98c8/Wg0=",
+        "originContent": "   * ⏱️ Generated at **compile time**",
+        "translatedContent": "   * ⏱️ Generado en **tiempo de compilación**"
+      },
+      {
+        "row": 21,
+        "rowsha": "8KnbYg6zvF3TScHwYj5OalUV0UwgjC1qTBKPH5Pn+F0=",
+        "originContent": "   * 🚫 **Zero reflection**, **zero runtime overhead**",
+        "translatedContent": "   * 🚫 **Cero reflexión**, **cero sobrecarga en tiempo de ejecución**"
+      },
+      {
+        "row": 22,
+        "rowsha": "detW+uSoEGs7BHQ4VRxVO+IXHaAfQjIfU2u2W3ae1mk=",
+        "originContent": "* 📦 Works seamlessly with **Gradle** and **Maven**",
+        "translatedContent": "* 📦 Funciona perfectamente con **Gradle** y **Maven**"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "jEOhW1q/yyvjzFHmxspV4bg3dEYpYZ/vZ2Y9XKifN+M=",
+        "originContent": "> ℹ️ This README provides a basic overview, for more details have a look at the [documentation](https://mcarleio.github.io/konvert).",
+        "translatedContent": "> ℹ️ Este README ofrece una visión básica, para más detalles consulte la [documentación](https://mcarleio.github.io/konvert)."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Uso"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "B/ii3YwYNSCnN5/JiLrL5uZrAQRZ6+yliijv5jLWknU=",
+        "originContent": "There are three different ways to use Konvert:",
+        "translatedContent": "Hay tres maneras diferentes de usar Konvert:"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "dTCFW04Enr/IOqhJ0CnQhIP4H7f0/5mtJwS3YBoMq6o=",
+        "originContent": "1. Using `@KonvertTo`:",
+        "translatedContent": "1. Usando `@KonvertTo`:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "   ```kotlin\n   @KonvertTo(PersonDto::class)\n   data class Person(val firstName: String, val lastName: String)\n   data class PersonDto(val firstName: String, val lastName: String)\n   ```",
+    "ContentSha": "fneYWwjaaL3VArsxUGyCFreWoGOqicXNqU6pttI0UYk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```kotlin\n   @KonvertTo(PersonDto::class)\n   data class Person(val firstName: String, val lastName: String)\n   data class PersonDto(val firstName: String, val lastName: String)\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+        "originContent": "   ```kotlin",
+        "translatedContent": "   ```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "IsqSUeXdOy9uQPOmdiVSdaHLlxjhWgu24R+9zZ2xpIY=",
+        "originContent": "   @KonvertTo(PersonDto::class)",
+        "translatedContent": "   @KonvertTo(PersonDto::class)"
+      },
+      {
+        "row": 3,
+        "rowsha": "2P5AW/60S2ulrR3WvAbpf5+dcVMwUU99BuXWyk6js9o=",
+        "originContent": "   data class Person(val firstName: String, val lastName: String)",
+        "translatedContent": "   data class Person(val firstName: String, val lastName: String)"
+      },
+      {
+        "row": 4,
+        "rowsha": "44RB+XxaDxoTn7zS2SLRL6EBPO/o0p7piXFQUYBx4lc=",
+        "originContent": "   data class PersonDto(val firstName: String, val lastName: String)",
+        "translatedContent": "   data class PersonDto(val firstName: String, val lastName: String)"
+      },
+      {
+        "row": 5,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "   This will generate the following extension function",
+    "ContentSha": "e4ZATERSzX9oL7pyJA0TOZ/ZEAM4/9fVHxp983SlnWo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   Esto generará la siguiente función de extensión",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "e4ZATERSzX9oL7pyJA0TOZ/ZEAM4/9fVHxp983SlnWo=",
+        "originContent": "   This will generate the following extension function",
+        "translatedContent": "   Esto generará la siguiente función de extensión"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "   ```kotlin\n   fun Person.toPersonDto(): PersonDto =\n      PersonDto(firstName = firstName, lastName = lastName)\n   ```",
+    "ContentSha": "GDnkQWMf45pFkBJajRrVe3D5gFrj3vUEiF5K/v4IIPY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```kotlin\n   fun Person.toPersonDto(): PersonDto =\n      PersonDto(firstName = firstName, lastName = lastName)\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+        "originContent": "   ```kotlin",
+        "translatedContent": "   ```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "BhDJozk9dDCpEE/WRpRjpr5zjVnZRWoSG1HrKXDfQns=",
+        "originContent": "   fun Person.toPersonDto(): PersonDto =",
+        "translatedContent": "   fun Person.toPersonDto(): PersonDto ="
+      },
+      {
+        "row": 3,
+        "rowsha": "p3ZJyF+GQde4weOpt9vil4HIXDUsGcTxxqduEE1ZbfI=",
+        "originContent": "      PersonDto(firstName = firstName, lastName = lastName)",
+        "translatedContent": "      PersonDto(firstName = firstName, lastName = lastName)"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n2. Using `@KonvertFrom` (especially useful, if you cannot change the code of the source class)",
+    "ContentSha": "ioywbNFbfvZeccEMTN3WDx34kRLFgsdcgv5LQOxW+6A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2. Usando `@KonvertFrom` (especialmente útil si no puedes cambiar el código de la clase fuente)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "07X+sYH76SGJGSjfnBBXf1ou4ivjJgIWlnpRdT2g1u8=",
+        "originContent": "2. Using `@KonvertFrom` (especially useful, if you cannot change the code of the source class)",
+        "translatedContent": "2. Usando `@KonvertFrom` (especialmente útil si no puedes cambiar el código de la clase fuente)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "   ```kotlin\n   class Person(val firstName: String, val lastName: String) {\n      @KonvertFrom(PersonDto::class)\n      companion object\n   }\n   class PersonDto(val firstName: String, val lastName: String)\n   ```",
+    "ContentSha": "Nurcl4xTjgfihJ3c6cLtacjXXBO4mDD4fHUbt/0X/jw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```kotlin\n   class Person(val firstName: String, val lastName: String) {\n      @KonvertFrom(PersonDto::class)\n      companion object\n   }\n   class PersonDto(val firstName: String, val lastName: String)\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+        "originContent": "   ```kotlin",
+        "translatedContent": "   ```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "USzwGyrX6uE66OlVZYvb5DcvcciqOSey4frt7qPDDsY=",
+        "originContent": "   class Person(val firstName: String, val lastName: String) {",
+        "translatedContent": "   class Person(val firstName: String, val lastName: String) {"
+      },
+      {
+        "row": 3,
+        "rowsha": "WE3ds0u07LehkYlWPkpElD94PoXYAsJkJFr7atLLe18=",
+        "originContent": "      @KonvertFrom(PersonDto::class)",
+        "translatedContent": "      @KonvertFrom(PersonDto::class)"
+      },
+      {
+        "row": 4,
+        "rowsha": "T6njv7pb5mjkJf1HzanC+epmKSoCn2eXDseKNHXMF5k=",
+        "originContent": "      companion object",
+        "translatedContent": "      companion object"
+      },
+      {
+        "row": 5,
+        "rowsha": "ycCxQTO9KU+lsNjcZ0AEvZXIAAAOwZgQn1KUCO4GRwY=",
+        "originContent": "   }",
+        "translatedContent": "   }"
+      },
+      {
+        "row": 6,
+        "rowsha": "6+L/BspwbhEwbZ0YL7fHumrPUkeu1+1ogxCBK7kOQ9s=",
+        "originContent": "   class PersonDto(val firstName: String, val lastName: String)",
+        "translatedContent": "   class PersonDto(val firstName: String, val lastName: String)"
+      },
+      {
+        "row": 7,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "   This will generate the following extension function",
+    "ContentSha": "e4ZATERSzX9oL7pyJA0TOZ/ZEAM4/9fVHxp983SlnWo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   Esto generará la siguiente función de extensión",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "e4ZATERSzX9oL7pyJA0TOZ/ZEAM4/9fVHxp983SlnWo=",
+        "originContent": "   This will generate the following extension function",
+        "translatedContent": "   Esto generará la siguiente función de extensión"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "   ```kotlin\n   fun Person.Companion.fromPersonDto(personDto: PersonDto): Person =\n      Person(firstName = personDto.firstName, lastName = personDto.lastName)\n   ```",
+    "ContentSha": "ALd072iGt06TY5dHPtyAe46uOmWg+8W8VP/jLx22Ng8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```kotlin\n   fun Person.Companion.fromPersonDto(personDto: PersonDto): Person =\n      Person(firstName = personDto.firstName, lastName = personDto.lastName)\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+        "originContent": "   ```kotlin",
+        "translatedContent": "   ```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "t4GRWs8Wjuft6C22WuDHqLYMwc6ctJnS+w+MVSL8YzE=",
+        "originContent": "   fun Person.Companion.fromPersonDto(personDto: PersonDto): Person =",
+        "translatedContent": "   fun Person.Companion.fromPersonDto(personDto: PersonDto): Person ="
+      },
+      {
+        "row": 3,
+        "rowsha": "KHdCrJ5avjBqqeZeQg7fQCvUHQbHMdcUCYWDzLEatVc=",
+        "originContent": "      Person(firstName = personDto.firstName, lastName = personDto.lastName)",
+        "translatedContent": "      Person(firstName = personDto.firstName, lastName = personDto.lastName)"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n3. Using `@Konverter`:",
+    "ContentSha": "tX6ZejnkT3cmmnc/PJsItRbTUgVGKddZICSnw4Ynt8E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n3. Usando `@Konverter`:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "2IKHoL7NAkZZew86abKGxQNdWCyI3eHLqYQ4Xzy9rsk=",
+        "originContent": "3. Using `@Konverter`:",
+        "translatedContent": "3. Usando `@Konverter`:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "   ```kotlin\n   class Person(val firstName: String, val lastName: String)\n   data class PersonDto(val firstName: String, val lastName: String)\n\n   @Konverter\n   interface PersonMapper {\n      fun toDto(person: Person): PersonDto\n   }\n   ```",
+    "ContentSha": "hwcnXi4e8sf9W8vtZ+X43WGKxprFFphOcnDAOlpIUjQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```kotlin\n   class Person(val firstName: String, val lastName: String)\n   data class PersonDto(val firstName: String, val lastName: String)\n\n   @Konverter\n   interface PersonMapper {\n      fun toDto(person: Person): PersonDto\n   }\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+        "originContent": "   ```kotlin",
+        "translatedContent": "   ```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "lq8L6qP04lws2eLVuTrGpwIrqQyhz3H6mMfd3XfZb6s=",
+        "originContent": "   class Person(val firstName: String, val lastName: String)",
+        "translatedContent": "   class Person(val firstName: String, val lastName: String)"
+      },
+      {
+        "row": 3,
+        "rowsha": "44RB+XxaDxoTn7zS2SLRL6EBPO/o0p7piXFQUYBx4lc=",
+        "originContent": "   data class PersonDto(val firstName: String, val lastName: String)",
+        "translatedContent": "   data class PersonDto(val firstName: String, val lastName: String)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "DEp6+RUER/dhLQkDybDROFCaNwa8l5qtxQ1WKYfvunA=",
+        "originContent": "   @Konverter",
+        "translatedContent": "   @Konverter"
+      },
+      {
+        "row": 6,
+        "rowsha": "AkF3SwA66shI0ZT6aovOlOnrd7ZoIaaV3b1V81N+fiQ=",
+        "originContent": "   interface PersonMapper {",
+        "translatedContent": "   interface PersonMapper {"
+      },
+      {
+        "row": 7,
+        "rowsha": "w2pOXxM99VnLtvsqWscUUQ97SUpWaL/SC3Ap1a8hst4=",
+        "originContent": "      fun toDto(person: Person): PersonDto",
+        "translatedContent": "      fun toDto(person: Person): PersonDto"
+      },
+      {
+        "row": 8,
+        "rowsha": "ycCxQTO9KU+lsNjcZ0AEvZXIAAAOwZgQn1KUCO4GRwY=",
+        "originContent": "   }",
+        "translatedContent": "   }"
+      },
+      {
+        "row": 9,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "   This will generate the following object",
+    "ContentSha": "GxREV1R410fl23ZD95DC7581Oi/44d/Nu4svO7BR+Gc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   Esto generará el siguiente objeto",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GxREV1R410fl23ZD95DC7581Oi/44d/Nu4svO7BR+Gc=",
+        "originContent": "   This will generate the following object",
+        "translatedContent": "   Esto generará el siguiente objeto"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "   ```kotlin\n   object PersonMapperImpl: PersonMapper {\n      override fun toDto(person: Person): PersonDto\n         = PersonDto(firstName = person.firstName, lastName = person.lastName)\n   }\n   ```",
+    "ContentSha": "7woQH4gHcG/H8qa9Yjn4RSE4ia/D4J+H7r65mSS6AUk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```kotlin\n   object PersonMapperImpl: PersonMapper {\n      override fun toDto(person: Person): PersonDto\n         = PersonDto(firstName = person.firstName, lastName = person.lastName)\n   }\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+        "originContent": "   ```kotlin",
+        "translatedContent": "   ```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "StoWXcr9qoq3nlIYpqk+nWnt4KRBmwXlLgvL3r9boSo=",
+        "originContent": "   object PersonMapperImpl: PersonMapper {",
+        "translatedContent": "   object PersonMapperImpl: PersonMapper {"
+      },
+      {
+        "row": 3,
+        "rowsha": "EgR/59IfKb1UQWK7dL6FUtRVij7WT3fkzWohVzd4PsY=",
+        "originContent": "      override fun toDto(person: Person): PersonDto",
+        "translatedContent": "      override fun toDto(person: Person): PersonDto"
+      },
+      {
+        "row": 4,
+        "rowsha": "81ACuyTCDWBZUkzAghzbN/G52tmFIY06MjgowdH0OZM=",
+        "originContent": "         = PersonDto(firstName = person.firstName, lastName = person.lastName)",
+        "translatedContent": "         = PersonDto(firstName = person.firstName, lastName = person.lastName)"
+      },
+      {
+        "row": 5,
+        "rowsha": "ycCxQTO9KU+lsNjcZ0AEvZXIAAAOwZgQn1KUCO4GRwY=",
+        "originContent": "   }",
+        "translatedContent": "   }"
+      },
+      {
+        "row": 6,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "For a simple example project have a look into the [example directory](example).\n\n### Type mappings\n\nFor simple type mappings, like from `Instant` to `Date`, there already is a type converter provided with Konvert:\n",
+    "ContentSha": "EMTAZ8JeFLedTU2zwCrDOqQexTvPyq/M+aHtzzty94o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Para un proyecto de ejemplo simple, eche un vistazo al [directorio de ejemplo](example).\n\n### Mapeos de tipos\n\nPara mapeos de tipos simples, como de `Instant` a `Date`, ya existe un convertidor de tipos proporcionado con Konvert:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UxbtUnzIMZtOSovzM/nQ0njnNJFXrDq/Qo2zbvvsiVA=",
+        "originContent": "For a simple example project have a look into the [example directory](example).",
+        "translatedContent": "Para un proyecto de ejemplo simple, eche un vistazo al [directorio de ejemplo](example)."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "T7Kmg3Jahbdr960NYGe5lsOzsD2h7hdH6o2MrP/P+8k=",
+        "originContent": "### Type mappings",
+        "translatedContent": "### Mapeos de tipos"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "IVJgHvz4s+aFMY2Kcx+lDYQj5VfnYJtX+c90PFphc3I=",
+        "originContent": "For simple type mappings, like from `Instant` to `Date`, there already is a type converter provided with Konvert:",
+        "translatedContent": "Para mapeos de tipos simples, como de `Instant` a `Date`, ya existe un convertidor de tipos proporcionado con Konvert:"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```kotlin\n@KonvertTo(PersonDto::class)\nclass Person(val name: String, val birthday: Instant)\nclass PersonDto(val name: String, val birthday: Date)\n```",
+    "ContentSha": "jfWUdpbe4P1C9uTNFBhKDjNYc40sSWmWqmHV7evtVAc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\n@KonvertTo(PersonDto::class)\nclass Person(val name: String, val birthday: Instant)\nclass PersonDto(val name: String, val birthday: Date)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "y3WtXcNCtQU2REEfLP7CWYLJjVC4GtvLViDj7C9GPg8=",
+        "originContent": "@KonvertTo(PersonDto::class)",
+        "translatedContent": "@KonvertTo(PersonDto::class)"
+      },
+      {
+        "row": 3,
+        "rowsha": "mT1CIlp+W6aXkgZfsIGmyb/F5XiBrtHcoytb9Reul3E=",
+        "originContent": "class Person(val name: String, val birthday: Instant)",
+        "translatedContent": "class Person(val name: String, val birthday: Instant)"
+      },
+      {
+        "row": 4,
+        "rowsha": "5HSCb8a6UjFmjl4ceUGRTMq+T82PkHSUqy37qAN4RrI=",
+        "originContent": "class PersonDto(val name: String, val birthday: Date)",
+        "translatedContent": "class PersonDto(val name: String, val birthday: Date)"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nThis will generate the following extension function\n",
+    "ContentSha": "wBDmPQycUQVn3vjOAQ5ns3guFQJ0Ye12vi4Fq86+l/Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEsto generará la siguiente función de extensión\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "HE1X7wo622ZyYNxuTe3Xr4UiQufFnub7bHILz39C46Y=",
+        "originContent": "This will generate the following extension function",
+        "translatedContent": "Esto generará la siguiente función de extensión"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```kotlin\nfun Person.toPersonDto(): PersonDto = PersonDto(\n   name = name,\n   birthday = birthday.let { java.util.Date.from(it) }\n)\n```",
+    "ContentSha": "iDBnpe5yNY8tinhBdDTsPzdCQC57idxTMeCKdiLPpLw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\nfun Person.toPersonDto(): PersonDto = PersonDto(\n   name = name,\n   birthday = birthday.let { java.util.Date.from(it) }\n)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "X94s1pq5bGijN7k1/KJBSOpqRuJ/KJakJYP+7xmXK5o=",
+        "originContent": "fun Person.toPersonDto(): PersonDto = PersonDto(",
+        "translatedContent": "fun Person.toPersonDto(): PersonDto = PersonDto("
+      },
+      {
+        "row": 3,
+        "rowsha": "HlGAAB5Rgxto7izPzm2DclkI38f6i82SeFdIABVO3E4=",
+        "originContent": "   name = name,",
+        "translatedContent": "   name = name,"
+      },
+      {
+        "row": 4,
+        "rowsha": "vjf2mBDscSOBoU4VZwrohhhRWSIu7uJ1WcqxA23UfSc=",
+        "originContent": "   birthday = birthday.let { java.util.Date.from(it) }",
+        "translatedContent": "   birthday = birthday.let { java.util.Date.from(it) }"
+      },
+      {
+        "row": 5,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nHave a look at the [documentation](https://mcarleio.github.io/konvert/typeconverter/) for a list of provided type converters.\n\n🛈: You can also create your own type converter library by\nimplementing [TypeConverter](https://raw.githubusercontent.com/mcarleio/konvert/main/converter-api/src/main/kotlin/io/mcarle/konvert/converter/api/TypeConverter.kt) and register it\nusing [SPI](https://en.wikipedia.org/wiki/Service_provider_interface).\n\n### Fine tuning\n\nMost of the time, the source and target classes might not have the same property names and types.\nYou can configure specific mappings and rename the generated extension function like this:\n",
+    "ContentSha": "D1uzLkCjfvdVg0Hiv66sllTFkPCOCTsQ0YloY0NPzws=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEcha un vistazo a la [documentación](https://mcarleio.github.io/konvert/typeconverter/) para una lista de convertidores de tipo proporcionados.\n\n🛈: También puedes crear tu propia biblioteca de convertidores de tipo\nimplementando [TypeConverter](https://raw.githubusercontent.com/mcarleio/konvert/main/converter-api/src/main/kotlin/io/mcarle/konvert/converter/api/TypeConverter.kt) y registrarla\nusando [SPI](https://es.wikipedia.org/wiki/Interfaz_de_proveedor_de_servicio).\n\n### Ajuste fino\n\nLa mayoría de las veces, las clases origen y destino pueden no tener los mismos nombres y tipos de propiedades.\nPuedes configurar mapeos específicos y renombrar la función de extensión generada así:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ipY+4UZwwriB7K+7UK3/gSV5AitaLDsMJaLb708geiU=",
+        "originContent": "Have a look at the [documentation](https://mcarleio.github.io/konvert/typeconverter/) for a list of provided type converters.",
+        "translatedContent": "Echa un vistazo a la [documentación](https://mcarleio.github.io/konvert/typeconverter/) para una lista de convertidores de tipo proporcionados."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "UJ1NPeQ6P3BTXzGp6+Fwj1Y7dT7gEi1ZSsvhk8gey94=",
+        "originContent": "🛈: You can also create your own type converter library by",
+        "translatedContent": "🛈: También puedes crear tu propia biblioteca de convertidores de tipo"
+      },
+      {
+        "row": 5,
+        "rowsha": "HDJfg/CZuZHct6BaPVSkziV0t6DAITUP9U1ngEwg7sE=",
+        "originContent": "implementing [TypeConverter](https://raw.githubusercontent.com/mcarleio/konvert/main/converter-api/src/main/kotlin/io/mcarle/konvert/converter/api/TypeConverter.kt) and register it",
+        "translatedContent": "implementando [TypeConverter](https://raw.githubusercontent.com/mcarleio/konvert/main/converter-api/src/main/kotlin/io/mcarle/konvert/converter/api/TypeConverter.kt) y registrarla"
+      },
+      {
+        "row": 6,
+        "rowsha": "ny4ac/c5T6usyEEU4SlBEZUHI2xqqGiZSlRlgCNkG3g=",
+        "originContent": "using [SPI](https://en.wikipedia.org/wiki/Service_provider_interface).",
+        "translatedContent": "usando [SPI](https://es.wikipedia.org/wiki/Interfaz_de_proveedor_de_servicio)."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "3DrewwXN5yVg1IL/xz0tae2Cy1qX0A43+qu+jIXj7JE=",
+        "originContent": "### Fine tuning",
+        "translatedContent": "### Ajuste fino"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "+hBWjvjAheeh8ZaEIrKM4MvLTXQeJfvHmQhC9UmGfwM=",
+        "originContent": "Most of the time, the source and target classes might not have the same property names and types.",
+        "translatedContent": "La mayoría de las veces, las clases origen y destino pueden no tener los mismos nombres y tipos de propiedades."
+      },
+      {
+        "row": 11,
+        "rowsha": "6zM/BBkIAAjIMyfxqCPlcznYqJB4eS0czLORreUqqRY=",
+        "originContent": "You can configure specific mappings and rename the generated extension function like this:",
+        "translatedContent": "Puedes configurar mapeos específicos y renombrar la función de extensión generada así:"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```kotlin\n@KonvertTo(\n   PersonDto::class,\n   mappings = [\n      Mapping(source = \"firstName\", target = \"givenName\"),\n      Mapping(source = \"lastName\", target = \"familyName\")\n   ],\n   mapFunctionName = \"asDto\"\n)\nclass Person(val firstName: String, val lastName: String)\nclass PersonDto(val givenName: String, val familyName: String)\n```",
+    "ContentSha": "+F6oTMZa5oj0Z3ExtAXel7J3axrycCj1hyF2A7J/MfA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\n@KonvertTo(\n   PersonDto::class,\n   mappings = [\n      Mapping(source = \"firstName\", target = \"givenName\"),\n      Mapping(source = \"lastName\", target = \"familyName\")\n   ],\n   mapFunctionName = \"asDto\"\n)\nclass Person(val firstName: String, val lastName: String)\nclass PersonDto(val givenName: String, val familyName: String)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "fG12WOJKqyZhkcZbe2H/xMbCoAW9yqn/52ALEAfXEQ4=",
+        "originContent": "@KonvertTo(",
+        "translatedContent": "@KonvertTo("
+      },
+      {
+        "row": 3,
+        "rowsha": "QVVzobnCyiej0wpYsfJzTqRbwtimd2xJli1lzVOkB+0=",
+        "originContent": "   PersonDto::class,",
+        "translatedContent": "   PersonDto::class,"
+      },
+      {
+        "row": 4,
+        "rowsha": "aA+EFZasiB6v6v4Ina43ZBwl2UpJVKFBJVw7XlwckdI=",
+        "originContent": "   mappings = [",
+        "translatedContent": "   mappings = ["
+      },
+      {
+        "row": 5,
+        "rowsha": "mZ3lSDtqZx+q3dfp/evacM8a/Oeois7xVm4tdyqgeqE=",
+        "originContent": "      Mapping(source = \"firstName\", target = \"givenName\"),",
+        "translatedContent": "      Mapping(source = \"firstName\", target = \"givenName\"),"
+      },
+      {
+        "row": 6,
+        "rowsha": "YNYYmtoWWhpvUCLUP2tZO3WIw2Ds1ahA7j4TuhahKck=",
+        "originContent": "      Mapping(source = \"lastName\", target = \"familyName\")",
+        "translatedContent": "      Mapping(source = \"lastName\", target = \"familyName\")"
+      },
+      {
+        "row": 7,
+        "rowsha": "edDCnRwB7n9J54H/mNOcozMOCxVZB9i5eoj2D4ElhNQ=",
+        "originContent": "   ],",
+        "translatedContent": "   ],"
+      },
+      {
+        "row": 8,
+        "rowsha": "VaVyHvTKRd6G91mmWT+g7P3Nq7Y7xQkjow8g1u1a0BA=",
+        "originContent": "   mapFunctionName = \"asDto\"",
+        "translatedContent": "   mapFunctionName = \"asDto\""
+      },
+      {
+        "row": 9,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 10,
+        "rowsha": "8IbxGfmQMpSCL1z620v3wleVe3bzrnP7Ciq0PchNq6k=",
+        "originContent": "class Person(val firstName: String, val lastName: String)",
+        "translatedContent": "class Person(val firstName: String, val lastName: String)"
+      },
+      {
+        "row": 11,
+        "rowsha": "ezYAf0QqiX/K0rv44QA9v9dxiBKsifhHBaKXxdBZrJw=",
+        "originContent": "class PersonDto(val givenName: String, val familyName: String)",
+        "translatedContent": "class PersonDto(val givenName: String, val familyName: String)"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\nThis will generate the following extension function\n",
+    "ContentSha": "wBDmPQycUQVn3vjOAQ5ns3guFQJ0Ye12vi4Fq86+l/Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEsto generará la siguiente función de extensión\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "HE1X7wo622ZyYNxuTe3Xr4UiQufFnub7bHILz39C46Y=",
+        "originContent": "This will generate the following extension function",
+        "translatedContent": "Esto generará la siguiente función de extensión"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```kotlin\nfun Person.asDto(): PersonDto = PersonDto(\n   givenName = firstName,\n   familyName = lastName\n)\n```",
+    "ContentSha": "TlYWbvMzUkMwU3QOJFSmB7+8qR2vd8t+9LuX/srdMxU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\nfun Person.asDto(): PersonDto = PersonDto(\n   givenName = firstName,\n   familyName = lastName\n)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "a9cXi/RhxRSHrdTDDJ+wXYPZniBeGSaJW+kT6owccGU=",
+        "originContent": "fun Person.asDto(): PersonDto = PersonDto(",
+        "translatedContent": "fun Person.asDto(): PersonDto = PersonDto("
+      },
+      {
+        "row": 3,
+        "rowsha": "EL3HqeLU8HPBGtV5W9KCoS69yeUjzjUwtY9s7P54WTE=",
+        "originContent": "   givenName = firstName,",
+        "translatedContent": "   givenName = firstName,"
+      },
+      {
+        "row": 4,
+        "rowsha": "S/vRC4iO9CaWnLFSFNS/TjJftRHUrgiil6JRK23tvvQ=",
+        "originContent": "   familyName = lastName",
+        "translatedContent": "   familyName = lastName"
+      },
+      {
+        "row": 5,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\nFor further functionality, have a look into\nthe [documentation](https://mcarleio.github.io/konvert/)\nthe KDocs of the [annotations](annotations/src/main/kotlin/io/mcarle/konvert/api),\nthe [example project](example/src/main/kotlin/io/mcarle/konvert/example)\nor the [tests](processor/src/test/kotlin/io/mcarle/konvert/processor).\n\n## Gradle Setup\n\nTo use Konvert with Gradle, you have to do the following steps:\n\n1. Add `konvert-api` as a dependency to use the annotations:",
+    "ContentSha": "3U2gMELB7+niMiMxBO5gTnSGw7AL0mSm4El0RvdT9ms=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nPara más funcionalidades, consulta\nla [documentación](https://mcarleio.github.io/konvert/)\nlos KDocs de las [anotaciones](annotations/src/main/kotlin/io/mcarle/konvert/api),\nel [proyecto de ejemplo](example/src/main/kotlin/io/mcarle/konvert/example)\no las [pruebas](processor/src/test/kotlin/io/mcarle/konvert/processor).\n\n## Configuración de Gradle\n\nPara usar Konvert con Gradle, debes realizar los siguientes pasos:\n\n1. Añade `konvert-api` como dependencia para usar las anotaciones:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5XifpSMHYbW2KpknFf9WUVasyWquXt2SEFz4h2B0yi8=",
+        "originContent": "For further functionality, have a look into",
+        "translatedContent": "Para más funcionalidades, consulta"
+      },
+      {
+        "row": 3,
+        "rowsha": "0SQuayPeu5imM9nSHA35OxDwsTOAWOESfor4T4bz4/Y=",
+        "originContent": "the [documentation](https://mcarleio.github.io/konvert/)",
+        "translatedContent": "la [documentación](https://mcarleio.github.io/konvert/)"
+      },
+      {
+        "row": 4,
+        "rowsha": "lEBdVvkfBD5JF9MyzU1Egk8RnWCKiq8oYIPonPCQCm8=",
+        "originContent": "the KDocs of the [annotations](annotations/src/main/kotlin/io/mcarle/konvert/api),",
+        "translatedContent": "los KDocs de las [anotaciones](annotations/src/main/kotlin/io/mcarle/konvert/api),"
+      },
+      {
+        "row": 5,
+        "rowsha": "gFxnHqIHDM1h1zpg5aJU/vMnPSLgI5vC/9HUuVjut/o=",
+        "originContent": "the [example project](example/src/main/kotlin/io/mcarle/konvert/example)",
+        "translatedContent": "el [proyecto de ejemplo](example/src/main/kotlin/io/mcarle/konvert/example)"
+      },
+      {
+        "row": 6,
+        "rowsha": "cXEP04mgqR8kTddpWssxcUtcmMe1G8xEEsU44a4rApE=",
+        "originContent": "or the [tests](processor/src/test/kotlin/io/mcarle/konvert/processor).",
+        "translatedContent": "o las [pruebas](processor/src/test/kotlin/io/mcarle/konvert/processor)."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "BG+cFotflOEBAWTH9fb+nSxWQ3S5CgH1z5eje5cJW0A=",
+        "originContent": "## Gradle Setup",
+        "translatedContent": "## Configuración de Gradle"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "0kz6EbYK1FAMebNzgTe3xBt5fh5joRugtNBOo3IQoYU=",
+        "originContent": "To use Konvert with Gradle, you have to do the following steps:",
+        "translatedContent": "Para usar Konvert con Gradle, debes realizar los siguientes pasos:"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "oHp1M8cUktUbvB+gBBfGrewPy78JVQ6cMjKNAUK6ZIo=",
+        "originContent": "1. Add `konvert-api` as a dependency to use the annotations:",
+        "translatedContent": "1. Añade `konvert-api` como dependencia para usar las anotaciones:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "   ```kotlin\n   dependencies {\n      implementation(\"io.mcarle:konvert-api:$konvertVersion\")\n   }\n   ```",
+    "ContentSha": "HJf6Yg+9YpqbV9RBA3lV+WQaNnZqELPB/2zCLa0lnew=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```kotlin\n   dependencies {\n      implementation(\"io.mcarle:konvert-api:$konvertVersion\")\n   }\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+        "originContent": "   ```kotlin",
+        "translatedContent": "   ```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "B6fHOOHkjhCU5nDaW+t2TnJaZ8t1q+KlAvxlrb2CTcE=",
+        "originContent": "   dependencies {",
+        "translatedContent": "   dependencies {"
+      },
+      {
+        "row": 3,
+        "rowsha": "7YPsqZ6itCm1Bz5igrXfM6KExDX+aEhGSZ1gX2tjVEM=",
+        "originContent": "      implementation(\"io.mcarle:konvert-api:$konvertVersion\")",
+        "translatedContent": "      implementation(\"io.mcarle:konvert-api:$konvertVersion\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "ycCxQTO9KU+lsNjcZ0AEvZXIAAAOwZgQn1KUCO4GRwY=",
+        "originContent": "   }",
+        "translatedContent": "   }"
+      },
+      {
+        "row": 5,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n2. Add the KSP plugin:",
+    "ContentSha": "L/oOC1FzC+7lWKAchjIaHy+wCBf0pYcXYkw2Bi8CoKs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Agregue el complemento KSP:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. Agregue el complemento KSP:"
+      },
+      {
+        "row": 2,
+        "rowsha": "AGo8Ix3rxdF9j58Wsw8grX2DNWVllh/OF+MSNXpdQ0o=",
+        "originContent": "2. Add the KSP plugin:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "   ```kotlin\n   plugins {\n       id(\"com.google.devtools.ksp\").version(\"2.3.5\")\n   }\n   ```",
+    "ContentSha": "6Rfmw7OiiRP43xlR2KFWdNA9LxbRaH6na5xUWboHfoQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```kotlin\n   plugins {\n       id(\"com.google.devtools.ksp\").version(\"2.3.5\")\n   }\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+        "originContent": "   ```kotlin",
+        "translatedContent": "   ```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "SZKQcvt9DJosj274E+FrQ8iGwFRNNmYHAqx4N4K3pZI=",
+        "originContent": "   plugins {",
+        "translatedContent": "   plugins {"
+      },
+      {
+        "row": 3,
+        "rowsha": "1xj4lLcXJ4vHbN263/LUXU19FhgQEjt1UcRgqmcqijU=",
+        "originContent": "       id(\"com.google.devtools.ksp\").version(\"2.3.5\")",
+        "translatedContent": "       id(\"com.google.devtools.ksp\").version(\"2.3.5\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "ycCxQTO9KU+lsNjcZ0AEvZXIAAAOwZgQn1KUCO4GRwY=",
+        "originContent": "   }",
+        "translatedContent": "   }"
+      },
+      {
+        "row": 5,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n3. Add `konvert` as a `ksp` dependency:",
+    "ContentSha": "Unj25NzIxUSFH97SAjwFNbbWciuUfj+0xSYwnpXZDs0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n3. Añada `konvert` como una dependencia de `ksp`:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jAMfj6tC2BJEsQbfQa41IoHCy+LRx8Ww54EeQvdfUpc=",
+        "originContent": "3. Add `konvert` as a `ksp` dependency:",
+        "translatedContent": "3. Añada `konvert` como una dependencia de `ksp`:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "   ```kotlin\n   dependencies {\n      ksp(\"io.mcarle:konvert:$konvertVersion\")\n   }\n   ```",
+    "ContentSha": "j5k0ZdNI7oHk5ysCXRBFnOeDC4bVbKSaSViznGXjw48=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```kotlin\n   dependencies {\n      ksp(\"io.mcarle:konvert:$konvertVersion\")\n   }\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CFbJc/h/438Y0ECb5nmkW009bvY/xNLVNNLQV8nB45Y=",
+        "originContent": "   ```kotlin",
+        "translatedContent": "   ```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "B6fHOOHkjhCU5nDaW+t2TnJaZ8t1q+KlAvxlrb2CTcE=",
+        "originContent": "   dependencies {",
+        "translatedContent": "   dependencies {"
+      },
+      {
+        "row": 3,
+        "rowsha": "CEk0F+hiXD3soD9zeBAiuhggGdd4drQFhmNp8DLQ264=",
+        "originContent": "      ksp(\"io.mcarle:konvert:$konvertVersion\")",
+        "translatedContent": "      ksp(\"io.mcarle:konvert:$konvertVersion\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "ycCxQTO9KU+lsNjcZ0AEvZXIAAAOwZgQn1KUCO4GRwY=",
+        "originContent": "   }",
+        "translatedContent": "   }"
+      },
+      {
+        "row": 5,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n## Maven Setup\n\nTo use Konvert with Maven, you have to do the following steps:\n\n1. Add `konvert-api` as a dependency to use the annotations:",
+    "ContentSha": "R1gcCwDFXXtzZWwqKM7x+C406oaMbfiF2fVutG5lk0A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Configuración de Maven\n\nPara usar Konvert con Maven, debes realizar los siguientes pasos:\n\n1. Agrega `konvert-api` como dependencia para usar las anotaciones:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "6H6AoY8A8swQaYQiYzFRUYgM6WDAyeJM7k4EN9CNoVA=",
+        "originContent": "## Maven Setup",
+        "translatedContent": "## Configuración de Maven"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "DzUdKp7hDtO0P9x63z5HBUfZs5fQK3oheCqMk4llB6Y=",
+        "originContent": "To use Konvert with Maven, you have to do the following steps:",
+        "translatedContent": "Para usar Konvert con Maven, debes realizar los siguientes pasos:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "oHp1M8cUktUbvB+gBBfGrewPy78JVQ6cMjKNAUK6ZIo=",
+        "originContent": "1. Add `konvert-api` as a dependency to use the annotations:",
+        "translatedContent": "1. Agrega `konvert-api` como dependencia para usar las anotaciones:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "   ```xml\n   <dependency>\n       <groupId>io.mcarle</groupId>\n       <artifactId>konvert-api</artifactId>\n       <version>${konvert.version}</version>\n   </dependency>\n   ```",
+    "ContentSha": "bgc/XJWcNQeGVRRL/IKKM9/lsQ9KjP85X5Bc9AGzVug=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```xml\n   <dependency>\n       <groupId>io.mcarle</groupId>\n       <artifactId>konvert-api</artifactId>\n       <version>${konvert.version}</version>\n   </dependency>\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "mutP9X130JZiH3BtYsYRdcuDQYIEHrMpIY3Yqjihu/M=",
+        "originContent": "   ```xml",
+        "translatedContent": "   ```xml"
+      },
+      {
+        "row": 2,
+        "rowsha": "l9UcujxaokhhLODthdcE42mv8zCZCObup5RdOvLqOqU=",
+        "originContent": "   <dependency>",
+        "translatedContent": "   <dependency>"
+      },
+      {
+        "row": 3,
+        "rowsha": "YXMZ2HgzXfeIraEnhImjKoe15CrxE9K5hVFFb3YF+4I=",
+        "originContent": "       <groupId>io.mcarle</groupId>",
+        "translatedContent": "       <groupId>io.mcarle</groupId>"
+      },
+      {
+        "row": 4,
+        "rowsha": "EuEOSMX4Pdz9E5N3Lv340wagpWEEI61DDaL4E/Qa7F4=",
+        "originContent": "       <artifactId>konvert-api</artifactId>",
+        "translatedContent": "       <artifactId>konvert-api</artifactId>"
+      },
+      {
+        "row": 5,
+        "rowsha": "Sx5eficYZL3bbpzVUWEn+b7Ly2GeB/eWyWaty34NcGs=",
+        "originContent": "       <version>${konvert.version}</version>",
+        "translatedContent": "       <version>${konvert.version}</version>"
+      },
+      {
+        "row": 6,
+        "rowsha": "IblndLDjoupKvtAzmG/+0z64t0vAcYynvBY6Z3TQjx8=",
+        "originContent": "   </dependency>",
+        "translatedContent": "   </dependency>"
+      },
+      {
+        "row": 7,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n2. Use the [ksp-maven-plugin](https://github.com/mcarleio/ksp-maven-plugin) with `konvert` as a dependency:",
+    "ContentSha": "BdQXlZpYQOhnpfwq6j9p2SK20u+3U29tmZONPZ/Ajms=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Use el [ksp-maven-plugin](https://github.com/mcarleio/ksp-maven-plugin) con `konvert` como dependencia:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. Use el [ksp-maven-plugin](https://github.com/mcarleio/ksp-maven-plugin) con `konvert` como dependencia:"
+      },
+      {
+        "row": 2,
+        "rowsha": "EthH7DQMKKayIaUqxdCDrdiP67RpOMqYhMRbKr2gIj8=",
+        "originContent": "2. Use the [ksp-maven-plugin](https://github.com/mcarleio/ksp-maven-plugin) with `konvert` as a dependency:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "   ```xml\n   <plugin>\n       <groupId>io.mcarle</groupId>\n       <artifactId>ksp-maven-plugin</artifactId>\n       <version>2.3.5-1</version>\n       <executions>\n           <execution>\n               <goals>\n                   <goal>ksp</goal>\n               </goals>\n           </execution>\n       </executions>\n       <dependencies>\n           <dependency>\n               <groupId>io.mcarle</groupId>\n               <artifactId>konvert</artifactId>\n               <version>${konvert.version}</version>\n           </dependency>\n       </dependencies>\n   </plugin>\n   ```",
+    "ContentSha": "iUh7PJnTm7ceKlplg/jS5tpD0krbdN/9JVu0ZnLYVys=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```xml\n   <plugin>\n       <groupId>io.mcarle</groupId>\n       <artifactId>ksp-maven-plugin</artifactId>\n       <version>2.3.5-1</version>\n       <executions>\n           <execution>\n               <goals>\n                   <goal>ksp</goal>\n               </goals>\n           </execution>\n       </executions>\n       <dependencies>\n           <dependency>\n               <groupId>io.mcarle</groupId>\n               <artifactId>konvert</artifactId>\n               <version>${konvert.version}</version>\n           </dependency>\n       </dependencies>\n   </plugin>\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "mutP9X130JZiH3BtYsYRdcuDQYIEHrMpIY3Yqjihu/M=",
+        "originContent": "   ```xml",
+        "translatedContent": "   ```xml"
+      },
+      {
+        "row": 2,
+        "rowsha": "7VtTfblQG59HwXBn0epGWNv8yAJepKZGQN6SDIiCC2A=",
+        "originContent": "   <plugin>",
+        "translatedContent": "   <plugin>"
+      },
+      {
+        "row": 3,
+        "rowsha": "YXMZ2HgzXfeIraEnhImjKoe15CrxE9K5hVFFb3YF+4I=",
+        "originContent": "       <groupId>io.mcarle</groupId>",
+        "translatedContent": "       <groupId>io.mcarle</groupId>"
+      },
+      {
+        "row": 4,
+        "rowsha": "/T6QgpRet9B/KVbEV27i6/KUV2t5Ug7VjgzQR6s3QTU=",
+        "originContent": "       <artifactId>ksp-maven-plugin</artifactId>",
+        "translatedContent": "       <artifactId>ksp-maven-plugin</artifactId>"
+      },
+      {
+        "row": 5,
+        "rowsha": "o8aB6xIiQFG3TPvig5hR0eftQAslV3o93iC+Eo3/i/A=",
+        "originContent": "       <version>2.3.5-1</version>",
+        "translatedContent": "       <version>2.3.5-1</version>"
+      },
+      {
+        "row": 6,
+        "rowsha": "pUX/SFnKKuo34/IriCY+462bgj5C/S866xfg+xZIdVM=",
+        "originContent": "       <executions>",
+        "translatedContent": "       <executions>"
+      },
+      {
+        "row": 7,
+        "rowsha": "V/hfwGldPl08yIb1zrmiAxPyC8syu0HNFzifgxyuZx8=",
+        "originContent": "           <execution>",
+        "translatedContent": "           <execution>"
+      },
+      {
+        "row": 8,
+        "rowsha": "lUHdObi6BXQ7jSu/fWHEZ2oJg8Irx31Psr8JZ7xOtGI=",
+        "originContent": "               <goals>",
+        "translatedContent": "               <goals>"
+      },
+      {
+        "row": 9,
+        "rowsha": "hj5bnzC1dyA21r6hUNZYzGWdZGZCDV7dDgX+Jm+TP/k=",
+        "originContent": "                   <goal>ksp</goal>",
+        "translatedContent": "                   <goal>ksp</goal>"
+      },
+      {
+        "row": 10,
+        "rowsha": "NHv03d2PrGunG1s/7UCOd2hhtz/7RWmacqu2QNQOVFE=",
+        "originContent": "               </goals>",
+        "translatedContent": "               </goals>"
+      },
+      {
+        "row": 11,
+        "rowsha": "x2A8KqXnqsdf024H44GDpPIoqA0nBSR+mN7Ybj4yojk=",
+        "originContent": "           </execution>",
+        "translatedContent": "           </execution>"
+      },
+      {
+        "row": 12,
+        "rowsha": "98cMXtvo8B1flUU/btanhIFsvwD1AKJzLzUbJz+/hsw=",
+        "originContent": "       </executions>",
+        "translatedContent": "       </executions>"
+      },
+      {
+        "row": 13,
+        "rowsha": "SsbkI2eVbu5hgFH3TJYl03wDfM5Guy8vPCabSRiDbQ0=",
+        "originContent": "       <dependencies>",
+        "translatedContent": "       <dependencies>"
+      },
+      {
+        "row": 14,
+        "rowsha": "gYkKBzhCRV+RhjGEOsF1zpjfMSCvGWZxHVPsWZNqD08=",
+        "originContent": "           <dependency>",
+        "translatedContent": "           <dependency>"
+      },
+      {
+        "row": 15,
+        "rowsha": "TGGifnt+DHcApS4ySx07PAW44D5k1GGOTH3l78hVX8Y=",
+        "originContent": "               <groupId>io.mcarle</groupId>",
+        "translatedContent": "               <groupId>io.mcarle</groupId>"
+      },
+      {
+        "row": 16,
+        "rowsha": "Z1DDeZnbZi/qInKg8DI54Gl8GKD69ruI3AiN21xG5u8=",
+        "originContent": "               <artifactId>konvert</artifactId>",
+        "translatedContent": "               <artifactId>konvert</artifactId>"
+      },
+      {
+        "row": 17,
+        "rowsha": "E/QaKcWO3wme02OVycQZvnvq4+Oo3SNP6Lx+RP8CbZs=",
+        "originContent": "               <version>${konvert.version}</version>",
+        "translatedContent": "               <version>${konvert.version}</version>"
+      },
+      {
+        "row": 18,
+        "rowsha": "jqb+Vc5zxXkBeBmEGCezhNPHGHPaV7QnkmlQJSWh6dU=",
+        "originContent": "           </dependency>",
+        "translatedContent": "           </dependency>"
+      },
+      {
+        "row": 19,
+        "rowsha": "Nk6DTj7rTEysV2Ej2Xob0NQE2EUHczAQYEikaKEJSTU=",
+        "originContent": "       </dependencies>",
+        "translatedContent": "       </dependencies>"
+      },
+      {
+        "row": 20,
+        "rowsha": "AHIxSCO1rUoE61tHk8uiAx8ufXXFi42HhDki22aXrQM=",
+        "originContent": "   </plugin>",
+        "translatedContent": "   </plugin>"
+      },
+      {
+        "row": 21,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "\n## Further information\n\n* Konvert is primarily compiled and tested with JDK >=17. It should also work with anything below JDK 17, but is not guaranteed to.\n* Konvert is able to convert classes from and to classes written in Java (and probably also in other JVM languages).\n\n### Alternatives\n\nThere are some alternatives to Konvert that you might want to check out:\n\n* [Mappie](https://github.com/Mr-Mappie/mappie)\n\n  Mappie does not use KSP, but instead is a compiler plugin for Kotlin itself.\n  It uses reflection rather than String references to **define** the mappings,\n  but **replaces the reflection** code during compile time with idiomatic Kotlin code.\n\n* [MapStruct](https://mapstruct.org/)\n\n  MapStruct is a well known Java mapping library using annotation processing (see [kapt](https://kotlinlang.org/docs/kapt.html)).\n  Can be used in Kotlin projects, but does not support Kotlin specific features.\n\n* [kMapper](https://github.com/s0nicyouth/kmapper)\n\n  kMapper is also a KSP processor, but seems to only support mapping between Kotlin data classes.\n\n* [ShapeShift️](https://github.com/krud-dev/shapeshift)\n\n  ShapeShift uses reflection at runtime to map between classes.\n\n* **Code yourself** (with AI support)\n\n  Indeed, it sometimes can be faster, easier and more flexible to write mapping code manually.\n  With the help of AI tools nowadays, this repetitive task can be automated to a certain degree.\n\n\n## Building\n\n### Gradle\n\nTo build the project, simply run",
+    "ContentSha": "IkpcEgCJ5nq/2ZUSWRpGYWxq19HvsZju5pb8srZp32A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Más información\n\n* Konvert se compila y prueba principalmente con JDK >=17. También debería funcionar con cualquier versión inferior a JDK 17, pero no está garantizado.\n* Konvert es capaz de convertir clases desde y hacia clases escritas en Java (y probablemente también en otros lenguajes JVM).\n\n### Alternativas\n\nHay algunas alternativas a Konvert que quizás quieras revisar:\n\n* [Mappie](https://github.com/Mr-Mappie/mappie)\n\n  Mappie no usa KSP, sino que es un plugin de compilador para Kotlin.\n  Utiliza reflexión en lugar de referencias de String para **definir** los mapeos,\n  pero **reemplaza el código de reflexión** durante el tiempo de compilación con código idiomático Kotlin.\n\n* [MapStruct](https://mapstruct.org/)\n\n  MapStruct es una conocida biblioteca de mapeo Java que usa procesamiento de anotaciones (ver [kapt](https://kotlinlang.org/docs/kapt.html)).\n  Puede usarse en proyectos Kotlin, pero no soporta características específicas de Kotlin.\n\n* [kMapper](https://github.com/s0nicyouth/kmapper)\n\n  kMapper también es un procesador KSP, pero parece soportar solo mapeo entre clases de datos Kotlin.\n\n* [ShapeShift️](https://github.com/krud-dev/shapeshift)\n\n  ShapeShift usa reflexión en tiempo de ejecución para mapear entre clases.\n\n* **Codifica tú mismo** (con soporte de IA)\n\n  De hecho, a veces puede ser más rápido, fácil y flexible escribir código de mapeo manualmente.\n  Con la ayuda de herramientas de IA hoy en día, esta tarea repetitiva puede automatizarse hasta cierto punto.\n\n\n## Construcción\n\n### Gradle\n\nPara construir el proyecto, simplemente ejecuta\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Más información"
+      },
+      {
+        "row": 2,
+        "rowsha": "uKaCI6QhVKzV+yboMRrhN7S1VJeB4XG4KBTPXC/z+Co=",
+        "originContent": "## Further information",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* Konvert se compila y prueba principalmente con JDK >=17. También debería funcionar con cualquier versión inferior a JDK 17, pero no está garantizado."
+      },
+      {
+        "row": 4,
+        "rowsha": "3n+OU7bxnzUqB37wJ+NVsXuUbwEsYbSgiAUX4bWXNv8=",
+        "originContent": "* Konvert is primarily compiled and tested with JDK >=17. It should also work with anything below JDK 17, but is not guaranteed to.",
+        "translatedContent": "* Konvert es capaz de convertir clases desde y hacia clases escritas en Java (y probablemente también en otros lenguajes JVM)."
+      },
+      {
+        "row": 5,
+        "rowsha": "SDJtOC+bZVUk5O+aV7brq9ddCpBbOVENwymy55J8YDI=",
+        "originContent": "* Konvert is able to convert classes from and to classes written in Java (and probably also in other JVM languages).",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Alternativas"
+      },
+      {
+        "row": 7,
+        "rowsha": "/FxZYObCwbUbpOlsp8cyUpRUJbsNrmsrCxwmlgkEx9Y=",
+        "originContent": "### Alternatives",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Hay algunas alternativas a Konvert que quizás quieras revisar:"
+      },
+      {
+        "row": 9,
+        "rowsha": "qMH9h3cBRzzOs8EqOY0jxVwxi/TLTl/rIbDFLpUtQAw=",
+        "originContent": "There are some alternatives to Konvert that you might want to check out:",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* [Mappie](https://github.com/Mr-Mappie/mappie)"
+      },
+      {
+        "row": 11,
+        "rowsha": "BvntfF9CjpssV40gDHx7fh8B95277NI/Y6x0gkVo8SQ=",
+        "originContent": "* [Mappie](https://github.com/Mr-Mappie/mappie)",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  Mappie no usa KSP, sino que es un plugin de compilador para Kotlin."
+      },
+      {
+        "row": 13,
+        "rowsha": "1I8rnr7zoKvNv4eYNgYBRGovwWCmfEvBn14YCAeCGTk=",
+        "originContent": "  Mappie does not use KSP, but instead is a compiler plugin for Kotlin itself.",
+        "translatedContent": "  Utiliza reflexión en lugar de referencias de String para **definir** los mapeos,"
+      },
+      {
+        "row": 14,
+        "rowsha": "S8bvAvOhH1dBhvlw2VSu179OO0Iw7fOlu3sWnnAZivM=",
+        "originContent": "  It uses reflection rather than String references to **define** the mappings,",
+        "translatedContent": "  pero **reemplaza el código de reflexión** durante el tiempo de compilación con código idiomático Kotlin."
+      },
+      {
+        "row": 15,
+        "rowsha": "MdrrOC72T1Ho5vwffVyk70+VoknKvZUqZbtcocCh+rM=",
+        "originContent": "  but **replaces the reflection** code during compile time with idiomatic Kotlin code.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* [MapStruct](https://mapstruct.org/)"
+      },
+      {
+        "row": 17,
+        "rowsha": "k/ck5V3wjLSC+PFjyiYRjUnlUu8xEf5iNNAokFFGdOQ=",
+        "originContent": "* [MapStruct](https://mapstruct.org/)",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  MapStruct es una conocida biblioteca de mapeo Java que usa procesamiento de anotaciones (ver [kapt](https://kotlinlang.org/docs/kapt.html))."
+      },
+      {
+        "row": 19,
+        "rowsha": "PK4JVdLqQW3AIRPbA5W23Abi2duopbBiJ1PqlqU45H8=",
+        "originContent": "  MapStruct is a well known Java mapping library using annotation processing (see [kapt](https://kotlinlang.org/docs/kapt.html)).",
+        "translatedContent": "  Puede usarse en proyectos Kotlin, pero no soporta características específicas de Kotlin."
+      },
+      {
+        "row": 20,
+        "rowsha": "oqtBkD4dSQasnJZbzB5HKtlOVhfxI97b5xcUYb3Sjbs=",
+        "originContent": "  Can be used in Kotlin projects, but does not support Kotlin specific features.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* [kMapper](https://github.com/s0nicyouth/kmapper)"
+      },
+      {
+        "row": 22,
+        "rowsha": "Rv2D52yDyH3pY3FpuSLU0/pZ3pGgp+W062j6u7k2wxA=",
+        "originContent": "* [kMapper](https://github.com/s0nicyouth/kmapper)",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  kMapper también es un procesador KSP, pero parece soportar solo mapeo entre clases de datos Kotlin."
+      },
+      {
+        "row": 24,
+        "rowsha": "OhCsJzbj6RenSk4QwQ09sEzdZ3Z2GL/Ip3jXUnkQSVU=",
+        "originContent": "  kMapper is also a KSP processor, but seems to only support mapping between Kotlin data classes.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* [ShapeShift️](https://github.com/krud-dev/shapeshift)"
+      },
+      {
+        "row": 26,
+        "rowsha": "zYqD2V41JHqMt//EAY7VS3oKHs8Krg3bwj7u5OF340U=",
+        "originContent": "* [ShapeShift️](https://github.com/krud-dev/shapeshift)",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  ShapeShift usa reflexión en tiempo de ejecución para mapear entre clases."
+      },
+      {
+        "row": 28,
+        "rowsha": "ZoNbPX3ZdlO6fhv5WnQdNh9Sqs7l7CbI7qyTEL625nA=",
+        "originContent": "  ShapeShift uses reflection at runtime to map between classes.",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* **Codifica tú mismo** (con soporte de IA)"
+      },
+      {
+        "row": 30,
+        "rowsha": "Xh9nTckGVj2T3RnfPqCe4sbp8zf2TelNusTBRIPNjjM=",
+        "originContent": "* **Code yourself** (with AI support)",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  De hecho, a veces puede ser más rápido, fácil y flexible escribir código de mapeo manualmente."
+      },
+      {
+        "row": 32,
+        "rowsha": "TGA9Ykd/MRkJJL6VAE6c98TfdH4doH9XVNkmrxdoPuw=",
+        "originContent": "  Indeed, it sometimes can be faster, easier and more flexible to write mapping code manually.",
+        "translatedContent": "  Con la ayuda de herramientas de IA hoy en día, esta tarea repetitiva puede automatizarse hasta cierto punto."
+      },
+      {
+        "row": 33,
+        "rowsha": "Ny9sSjN/et1gFUlnIdKLJAz2XXsK17T5pAU2HG2PBKU=",
+        "originContent": "  With the help of AI tools nowadays, this repetitive task can be automated to a certain degree.",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Construcción"
+      },
+      {
+        "row": 36,
+        "rowsha": "7yG6yJKPL5cg9brIizwUDQZkeD/r3QuaAXwB7XbI5xs=",
+        "originContent": "## Building",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Gradle"
+      },
+      {
+        "row": 38,
+        "rowsha": "nRMQHWDe5aR9UhKIweqzglGVNoR+F8UpxTzOkLs+Nvg=",
+        "originContent": "### Gradle",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Para construir el proyecto, simplemente ejecuta"
+      },
+      {
+        "row": 40,
+        "rowsha": "jQ5RWYs6aIMa6oS1088XR0lgLEi0k5AztxoQg4nsWKQ=",
+        "originContent": "To build the project, simply run",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 32,
+    "Content": "\n> gradle build\n\n#### Run all tests\n\nBy default, only a subset of available tests are executed, which should verify most of Konvert's functionality.\nTo run all tests, append the property `runAllTests`, e.g.:\n\n> gradle test -PrunAllTests\n\n### Documentation\n\nTo serve the Jekyll site locally, simply run the following command inside `docs`:\n\n> docker run --rm -it -v \"$PWD\":/site -p 4000:4000 bretfisher/jekyll-serve\n\n### CI\n\nGitHub Actions are used to:\n\n* [build and test](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/build.yml)\n* [release and publish](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/release.yml) to a Maven repository\n* [generate documentation](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/pages.yml) and deploy it to GitHub Pages.\n\n## Changelog\n\nThe [changelog](https://raw.githubusercontent.com/mcarleio/konvert/main/CHANGELOG.md) contains all notable changes.\n\n## License\n\n    Copyright 2023 Marcel Carlé\n\n    Licensed under the Apache License, Version 2.0 (the \"License\");\n    you may not use this file except in compliance with the License.\n    You may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\n    Unless required by applicable law or agreed to in writing, software\n    distributed under the License is distributed on an \"AS IS\" BASIS,",
+    "ContentSha": "VHZc3fAdiRA54uHulr+96tokCU72T7zB7xKPBfwsgws=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> gradle build\n\n#### Ejecutar todas las pruebas\n\nPor defecto, solo se ejecuta un subconjunto de las pruebas disponibles, que deberían verificar la mayoría de la funcionalidad de Konvert.\nPara ejecutar todas las pruebas, añade la propiedad `runAllTests`, por ejemplo:\n\n> gradle test -PrunAllTests\n\n### Documentación\n\nPara servir el sitio Jekyll localmente, simplemente ejecuta el siguiente comando dentro de `docs`:\n\n> docker run --rm -it -v \"$PWD\":/site -p 4000:4000 bretfisher/jekyll-serve\n\n### CI\n\nGitHub Actions se usan para:\n\n* [compilar y probar](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/build.yml)\n* [lanzar y publicar](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/release.yml) en un repositorio Maven\n* [generar documentación](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/pages.yml) y desplegarla en GitHub Pages.\n\n## Registro de cambios\n\nEl [registro de cambios](https://raw.githubusercontent.com/mcarleio/konvert/main/CHANGELOG.md) contiene todos los cambios notables.\n\n## Licencia\n\n    Copyright 2023 Marcel Carlé\n\n    Licenciado bajo la Licencia Apache, Versión 2.0 (la \"Licencia\");\n    no puedes usar este archivo excepto en conformidad con la Licencia.\n    Puedes obtener una copia de la Licencia en\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\n    A menos que lo exija la ley aplicable o se acuerde por escrito, el software\n    distribuido bajo la Licencia se distribuye \"TAL CUAL\",",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "7TQz57MADnObMSQ3qX7vQUSoS5lnqUXbXrFyvSd39KY=",
+        "originContent": "> gradle build",
+        "translatedContent": "> gradle build"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Bup1bLx3g3BusmkGBO+OVfdbwigvjlYDVrtNHiSFZfs=",
+        "originContent": "#### Run all tests",
+        "translatedContent": "#### Ejecutar todas las pruebas"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "GRhFtdwOWaxvL8f//3Y/E3rdO5qQGKP2pbL5TQy+2O4=",
+        "originContent": "By default, only a subset of available tests are executed, which should verify most of Konvert's functionality.",
+        "translatedContent": "Por defecto, solo se ejecuta un subconjunto de las pruebas disponibles, que deberían verificar la mayoría de la funcionalidad de Konvert."
+      },
+      {
+        "row": 7,
+        "rowsha": "uTMg9dzq8nyvjVnfhjotq4QskZiV6c6TPnsPqzmeS2Y=",
+        "originContent": "To run all tests, append the property `runAllTests`, e.g.:",
+        "translatedContent": "Para ejecutar todas las pruebas, añade la propiedad `runAllTests`, por ejemplo:"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "rm2TBA60LzweZJPjIUmNz5X29PsI7OQxeIipYV+/l7U=",
+        "originContent": "> gradle test -PrunAllTests",
+        "translatedContent": "> gradle test -PrunAllTests"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "2mMUh/WBPxNHjUUe8ZJhHcWcT77DHoUsPD+naSd90X0=",
+        "originContent": "### Documentation",
+        "translatedContent": "### Documentación"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "V/8XKEo82vqgkDW9fl0siHJp9NN596/XSiaYwdkejYo=",
+        "originContent": "To serve the Jekyll site locally, simply run the following command inside `docs`:",
+        "translatedContent": "Para servir el sitio Jekyll localmente, simplemente ejecuta el siguiente comando dentro de `docs`:"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "7QtWF53hZSTVVqWAKq/1wfNw0gnpxhAUWvpOrVjbEkI=",
+        "originContent": "> docker run --rm -it -v \"$PWD\":/site -p 4000:4000 bretfisher/jekyll-serve",
+        "translatedContent": "> docker run --rm -it -v \"$PWD\":/site -p 4000:4000 bretfisher/jekyll-serve"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "E63cx/ia8l7QG99pSowtvpg2ZY9R7toK0+KDDCSoWU8=",
+        "originContent": "### CI",
+        "translatedContent": "### CI"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "wyBuMI5uIyeXGg+pIPmrbYD1A06+ml2xcStz/4c3caE=",
+        "originContent": "GitHub Actions are used to:",
+        "translatedContent": "GitHub Actions se usan para:"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "d9h3TQmxEwxG1Up41AHSHCO5dboTiL3dRw5shqyIPa8=",
+        "originContent": "* [build and test](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/build.yml)",
+        "translatedContent": "* [compilar y probar](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/build.yml)"
+      },
+      {
+        "row": 22,
+        "rowsha": "+Aw9VJl3Bj7EELXbp8RmCKl+jy98WzzlEF5gRtzem4E=",
+        "originContent": "* [release and publish](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/release.yml) to a Maven repository",
+        "translatedContent": "* [lanzar y publicar](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/release.yml) en un repositorio Maven"
+      },
+      {
+        "row": 23,
+        "rowsha": "YbF5IkBvFH61GQTgU5uW8SnYjjmAyVs31UXVOKJD/ss=",
+        "originContent": "* [generate documentation](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/pages.yml) and deploy it to GitHub Pages.",
+        "translatedContent": "* [generar documentación](https://raw.githubusercontent.com/mcarleio/konvert/main/.github/workflows/pages.yml) y desplegarla en GitHub Pages."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "sZNBxWTOjK92d5uVdMmWULuGrk66hbr3n+TVP60yreM=",
+        "originContent": "## Changelog",
+        "translatedContent": "## Registro de cambios"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "f7sIELeTZsUlzHAdkozkejFyqipsMA7cXO5Hif0yWLQ=",
+        "originContent": "The [changelog](https://raw.githubusercontent.com/mcarleio/konvert/main/CHANGELOG.md) contains all notable changes.",
+        "translatedContent": "El [registro de cambios](https://raw.githubusercontent.com/mcarleio/konvert/main/CHANGELOG.md) contiene todos los cambios notables."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licencia"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "Xm2eTgPJkmwDF70ccSMLiDcofLoQvjiIaoqjKhYl2i8=",
+        "originContent": "    Copyright 2023 Marcel Carlé",
+        "translatedContent": "    Copyright 2023 Marcel Carlé"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "7+PbWum3FkEfD9DDYOj7M6kYcxU46nhCqKRjvyM3xKc=",
+        "originContent": "    Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "translatedContent": "    Licenciado bajo la Licencia Apache, Versión 2.0 (la \"Licencia\");"
+      },
+      {
+        "row": 34,
+        "rowsha": "sJEKzTSN722KI6tQEFawGdGKhk9uJ/vKnv//EZcFa5g=",
+        "originContent": "    you may not use this file except in compliance with the License.",
+        "translatedContent": "    no puedes usar este archivo excepto en conformidad con la Licencia."
+      },
+      {
+        "row": 35,
+        "rowsha": "wH1Nqx+khfTadw0ySYFudDnRcm+L3pE/Gcm8GHEaT0o=",
+        "originContent": "    You may obtain a copy of the License at",
+        "translatedContent": "    Puedes obtener una copia de la Licencia en"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "SITpYlOiCZzSbf1zsyWsPj80vixUetlebSkzifGo8E0=",
+        "originContent": "    http://www.apache.org/licenses/LICENSE-2.0",
+        "translatedContent": "    http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "JIpjO0w54xL/9wYDandBdKIVuD4ryhVsKCegYaviIy8=",
+        "originContent": "    Unless required by applicable law or agreed to in writing, software",
+        "translatedContent": "    A menos que lo exija la ley aplicable o se acuerde por escrito, el software"
+      },
+      {
+        "row": 40,
+        "rowsha": "kyLJoFyzLLNPgA4f90gouTDU8NgYIzmAHmPzC0rCEV4=",
+        "originContent": "    distributed under the License is distributed on an \"AS IS\" BASIS,",
+        "translatedContent": "    distribuido bajo la Licencia se distribuye \"TAL CUAL\","
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 33,
+    "Content": "    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n    See the License for the specific language governing permissions and\n    limitations under the License.\n\n[maven-image]: https://img.shields.io/maven-central/v/io.mcarle/konvert.svg\n\n[maven-url]: https://central.sonatype.com/artifact/io.mcarle/konvert/\n\n[license-image]: https://img.shields.io/github/license/mcarleio/konvert.svg\n\n[codecov-image]: https://img.shields.io/codecov/c/github/mcarleio/konvert.svg\n\n[codecov-url]: https://codecov.io/gh/mcarleio/konvert\n",
+    "ContentSha": "NcqqtZhgT2uUjcQpInyDUhh2v7RzkQHqwtnJ5c2r1eY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    SIN GARANTÍAS NI CONDICIONES DE NINGÚN TIPO, ya sean expresas o implícitas.\n    Consulte la Licencia para conocer el idioma específico que rige los permisos y\n    limitaciones bajo la Licencia.\n\n[maven-image]: https://img.shields.io/maven-central/v/io.mcarle/konvert.svg\n\n[maven-url]: https://central.sonatype.com/artifact/io.mcarle/konvert/\n\n[license-image]: https://img.shields.io/github/license/mcarleio/konvert.svg\n\n[codecov-image]: https://img.shields.io/codecov/c/github/mcarleio/konvert.svg\n\n[codecov-url]: https://codecov.io/gh/mcarleio/konvert\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "SvZ4EzOUdNxPz4TjAFIaKdKFe1+HNja/Jhg8HIfL7ik=",
+        "originContent": "    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+        "translatedContent": "    SIN GARANTÍAS NI CONDICIONES DE NINGÚN TIPO, ya sean expresas o implícitas."
+      },
+      {
+        "row": 2,
+        "rowsha": "a1OaSn895pbIIiSz+8eNKd7envz7z/+OjROWXOyem9M=",
+        "originContent": "    See the License for the specific language governing permissions and",
+        "translatedContent": "    Consulte la Licencia para conocer el idioma específico que rige los permisos y"
+      },
+      {
+        "row": 3,
+        "rowsha": "BxgQVtkPqJyUUk8rtyLA5SwrgKIToKOPD7YSP5qwEL8=",
+        "originContent": "    limitations under the License.",
+        "translatedContent": "    limitaciones bajo la Licencia."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "fZ4QlJ+5ilpYBC+PY7fdTWTIcB99ZcKJEedxUHryM/0=",
+        "originContent": "[maven-image]: https://img.shields.io/maven-central/v/io.mcarle/konvert.svg",
+        "translatedContent": "[maven-image]: https://img.shields.io/maven-central/v/io.mcarle/konvert.svg"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "EeYjQb7RMaJJjAcbQ+p8ijJOwaxQSUxnAbkJZ9S4YVg=",
+        "originContent": "[maven-url]: https://central.sonatype.com/artifact/io.mcarle/konvert/",
+        "translatedContent": "[maven-url]: https://central.sonatype.com/artifact/io.mcarle/konvert/"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "CSfn3Xwzy3ClBTzkaUFwHAzax/IVdo4qImgBZG4cNcU=",
+        "originContent": "[license-image]: https://img.shields.io/github/license/mcarleio/konvert.svg",
+        "translatedContent": "[license-image]: https://img.shields.io/github/license/mcarleio/konvert.svg"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "BWWn5WpqoimKj/ZHkbZWAbWRZPL2vvz4BBjdIaEwvS8=",
+        "originContent": "[codecov-image]: https://img.shields.io/codecov/c/github/mcarleio/konvert.svg",
+        "translatedContent": "[codecov-image]: https://img.shields.io/codecov/c/github/mcarleio/konvert.svg"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "1l+kktWQ2W+jryR3TT1oXOJJP8+e0IM0J4AVz6Tyx6U=",
+        "originContent": "[codecov-url]: https://codecov.io/gh/mcarleio/konvert",
+        "translatedContent": "[codecov-url]: https://codecov.io/gh/mcarleio/konvert"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
