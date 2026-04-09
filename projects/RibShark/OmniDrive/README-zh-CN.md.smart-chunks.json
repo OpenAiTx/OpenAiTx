@@ -1,0 +1,382 @@
+[
+  {
+    "Id": 1,
+    "Content": "# OmniDrive\nCopyright © 2026 Rib\n\n## Description\nOmniDrive is a firmware modification for MediaTek MT1959-based optical disc drives manufactured by Hitachi-LG Data Storage that enables features that allow for better, more complete reading of discs, including proprietary game discs.\n\n## Features\n* Lead-in/lead-out reading for CD/DVD/BD and derivatives.\n* Raw sector reading for CD/DVD/BD and derivatives (2352 bytes/sector for CD, 2064 bytes/sector for DVD, 2072 bytes/sector for BD).\n* Custom READ DISC RAW command to read discs, with flags for FUA (bypassing cache), raw addressing (MSF for CD, PSN for DVD/BD), and descrambling (for DVD/BD).\n* The ability to read various proprietary game discs (see table):\n\n| Disc Type | Support | Notes |\n| ---: | :---: | --- |\n| CD (ROM/R/RW) | ☑️ |\n| DVD (ROM/RAM/±R/±RW) | ☑️ |\n| BD (ROM/R/RE) | ☑️ |\n| BD-XL (R/RE) | ☑️ |\n| UHD-BD | ☑️ |\n| PlayStation 3 BD-ROM | ☑️ | Disc contents are encrypted, disc key is not retrievable\n| PlayStation 4 BD-ROM | ☑️ | Disc contents are encrypted, disc key is not retrievable\n| PlayStation 5 BD-ROM | ☑️ | Disc contents are encrypted, disc key is not retrievable\n| Xbox (XGD1) | ✅ |\n| Xbox 360 (XGD2/XGD3) | ✅ |\n| Xbox One/Series (XGD4) | ✅ | Disc contents are encrypted, disc key is not retrievable\n| GameCube (NROM)/Wii (RVL-ROM) | ✅ |\n| GameCube (NR)/Wii (RVT-R) | ❓ |\n| Wii U (WUP-ROM?) | ⚠️ | Can be read as raw, but scrambling algorithm is currently unknown |\n| Wii U (CAT-R) | ☑️ |\n| Dreamcast (GD-ROM/GD-R) | ❎ | Only low-density area can be read |\n\nKey:\n* ☑️ - Native Support (without patched firmware)\n* ✅ - Supported with OmniDrive\n* ⚠️ - Partial support (see notes)\n* ❓ - Unknown support (needs testing)\n* ❎ - Not currently supported\n\n## Building\n### Dependencies",
+    "ContentSha": "3SvI819CiPmbEiNcf4/ZYN9DZWVZGQY819d28fpRQ0U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# OmniDrive\n版权 © 2026 Rib\n\n## 描述\nOmniDrive 是针对由日立-LG 数据存储制造的基于 MediaTek MT1959 的光盘驱动器的固件修改，提供更好、更完整的光盘读取功能，包括专有游戏光盘。\n\n## 功能\n* 支持 CD/DVD/BD 及其衍生光盘的起始区/结束区读取。\n* 支持 CD/DVD/BD 及其衍生光盘的原始扇区读取（CD 为 2352 字节/扇区，DVD 为 2064 字节/扇区，BD 为 2072 字节/扇区）。\n* 自定义 READ DISC RAW 命令读取光盘，带有 FUA 标志（绕过缓存）、原始寻址（CD 为 MSF，DVD/BD 为 PSN）和解扰（DVD/BD）功能。\n* 能读取多种专有游戏光盘（见表格）：\n\n| 光盘类型 | 支持情况 | 备注 |\n| ---: | :---: | --- |\n| CD (ROM/R/RW) | ☑️ |\n| DVD (ROM/RAM/±R/±RW) | ☑️ |\n| BD (ROM/R/RE) | ☑️ |\n| BD-XL (R/RE) | ☑️ |\n| UHD-BD | ☑️ |\n| PlayStation 3 BD-ROM | ☑️ | 光盘内容加密，无法检索光盘密钥\n| PlayStation 4 BD-ROM | ☑️ | 光盘内容加密，无法检索光盘密钥\n| PlayStation 5 BD-ROM | ☑️ | 光盘内容加密，无法检索光盘密钥\n| Xbox (XGD1) | ✅ |\n| Xbox 360 (XGD2/XGD3) | ✅ |\n| Xbox One/Series (XGD4) | ✅ | 光盘内容加密，无法检索光盘密钥\n| GameCube (NROM)/Wii (RVL-ROM) | ✅ |\n| GameCube (NR)/Wii (RVT-R) | ❓ |\n| Wii U (WUP-ROM?) | ⚠️ | 可原始读取，但加扰算法当前未知 |\n| Wii U (CAT-R) | ☑️ |\n| Dreamcast (GD-ROM/GD-R) | ❎ | 仅能读取低密度区域 |\n\n说明：\n* ☑️ - 原生支持（无需补丁固件）\n* ✅ - 通过 OmniDrive 支持\n* ⚠️ - 部分支持（见备注）\n* ❓ - 支持未知（需测试）\n* ❎ - 当前不支持\n\n## 构建\n### 依赖项",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6fDOlhfE3dock1CAb+14pQ6MLjfvRh9vYSXGVazVv2E=",
+        "originContent": "# OmniDrive",
+        "translatedContent": "# OmniDrive"
+      },
+      {
+        "row": 2,
+        "rowsha": "avp5zp4Fq582PKGPToBub/eSTnTUh+M2FAQm7yaBFgI=",
+        "originContent": "Copyright © 2026 Rib",
+        "translatedContent": "版权 © 2026 Rib"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "K0XdQb6cPR2XYn4/Xr3GLliF7Co62hbZTlUnZJsZ2Bk=",
+        "originContent": "## Description",
+        "translatedContent": "## 描述"
+      },
+      {
+        "row": 5,
+        "rowsha": "YE4jhdjeIU5CpWzHfZT2bz9HvKb3NkhfB1UZ2e7hyng=",
+        "originContent": "OmniDrive is a firmware modification for MediaTek MT1959-based optical disc drives manufactured by Hitachi-LG Data Storage that enables features that allow for better, more complete reading of discs, including proprietary game discs.",
+        "translatedContent": "OmniDrive 是针对由日立-LG 数据存储制造的基于 MediaTek MT1959 的光盘驱动器的固件修改，提供更好、更完整的光盘读取功能，包括专有游戏光盘。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 8,
+        "rowsha": "MP9PayHpWsAdaUf1ud8CBrwKuwHKauGiR4oM6rzL1mU=",
+        "originContent": "* Lead-in/lead-out reading for CD/DVD/BD and derivatives.",
+        "translatedContent": "* 支持 CD/DVD/BD 及其衍生光盘的起始区/结束区读取。"
+      },
+      {
+        "row": 9,
+        "rowsha": "JWWG7d+iCXXfl74SZ3SLdlPAjbAn/J1Hc0oqfHS7vm8=",
+        "originContent": "* Raw sector reading for CD/DVD/BD and derivatives (2352 bytes/sector for CD, 2064 bytes/sector for DVD, 2072 bytes/sector for BD).",
+        "translatedContent": "* 支持 CD/DVD/BD 及其衍生光盘的原始扇区读取（CD 为 2352 字节/扇区，DVD 为 2064 字节/扇区，BD 为 2072 字节/扇区）。"
+      },
+      {
+        "row": 10,
+        "rowsha": "XO87/LJWuXpglVrJA9ikk9kEqSWucr9m+pWEB+pD44I=",
+        "originContent": "* Custom READ DISC RAW command to read discs, with flags for FUA (bypassing cache), raw addressing (MSF for CD, PSN for DVD/BD), and descrambling (for DVD/BD).",
+        "translatedContent": "* 自定义 READ DISC RAW 命令读取光盘，带有 FUA 标志（绕过缓存）、原始寻址（CD 为 MSF，DVD/BD 为 PSN）和解扰（DVD/BD）功能。"
+      },
+      {
+        "row": 11,
+        "rowsha": "hIltyX3BEugt6n+etS0i3lLj/mc8poUgLncoFpmALP4=",
+        "originContent": "* The ability to read various proprietary game discs (see table):",
+        "translatedContent": "* 能读取多种专有游戏光盘（见表格）："
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "xvAqYoFNS0pyI6tZTZg3yiDDmGAB7Y0v1BReh/7akLg=",
+        "originContent": "| Disc Type | Support | Notes |",
+        "translatedContent": "| 光盘类型 | 支持情况 | 备注 |"
+      },
+      {
+        "row": 14,
+        "rowsha": "tlFPmcqmIAnfLMcKbJezqkR/mqvvZvlhosT9ygqcnWI=",
+        "originContent": "| ---: | :---: | --- |",
+        "translatedContent": "| ---: | :---: | --- |"
+      },
+      {
+        "row": 15,
+        "rowsha": "fw3I5d4Zk2DYAo2e57E0w1Ru7BIMMO6paBnOYyZbOOE=",
+        "originContent": "| CD (ROM/R/RW) | ☑️ |",
+        "translatedContent": "| CD (ROM/R/RW) | ☑️ |"
+      },
+      {
+        "row": 16,
+        "rowsha": "wsFWDKcNXAl0k7YZohYTFY6NMBP6maZHWnC6oIX6b+w=",
+        "originContent": "| DVD (ROM/RAM/±R/±RW) | ☑️ |",
+        "translatedContent": "| DVD (ROM/RAM/±R/±RW) | ☑️ |"
+      },
+      {
+        "row": 17,
+        "rowsha": "C9XpfJkfPL43KTGHuwjfA+66TywA5FZUo8cDpIUNCm0=",
+        "originContent": "| BD (ROM/R/RE) | ☑️ |",
+        "translatedContent": "| BD (ROM/R/RE) | ☑️ |"
+      },
+      {
+        "row": 18,
+        "rowsha": "drt5Vj2D3MgAvCzoqgAgvDKEMXPRW3ySgyvcY2sG2GE=",
+        "originContent": "| BD-XL (R/RE) | ☑️ |",
+        "translatedContent": "| BD-XL (R/RE) | ☑️ |"
+      },
+      {
+        "row": 19,
+        "rowsha": "Pv8YyNCotibobb4TpndJD52PbKXOBvBSBHWIg15iVuA=",
+        "originContent": "| UHD-BD | ☑️ |",
+        "translatedContent": "| UHD-BD | ☑️ |"
+      },
+      {
+        "row": 20,
+        "rowsha": "WjvandqOfC60i4ijvkXxALQfPh/QMkcNiR2MjmDGVPo=",
+        "originContent": "| PlayStation 3 BD-ROM | ☑️ | Disc contents are encrypted, disc key is not retrievable",
+        "translatedContent": "| PlayStation 3 BD-ROM | ☑️ | 光盘内容加密，无法检索光盘密钥"
+      },
+      {
+        "row": 21,
+        "rowsha": "xFtaFAkwVG0b/u7KicBalQhZTd6A/KUNs6hh2XdmZXE=",
+        "originContent": "| PlayStation 4 BD-ROM | ☑️ | Disc contents are encrypted, disc key is not retrievable",
+        "translatedContent": "| PlayStation 4 BD-ROM | ☑️ | 光盘内容加密，无法检索光盘密钥"
+      },
+      {
+        "row": 22,
+        "rowsha": "HNnjqSTRb8Dl68orwW+SfdekXrc+7+KydDW1mtNkAUg=",
+        "originContent": "| PlayStation 5 BD-ROM | ☑️ | Disc contents are encrypted, disc key is not retrievable",
+        "translatedContent": "| PlayStation 5 BD-ROM | ☑️ | 光盘内容加密，无法检索光盘密钥"
+      },
+      {
+        "row": 23,
+        "rowsha": "vTBf7kMx8Sk09khq3KFWYrULnyQ786si3+sjDfvwOsA=",
+        "originContent": "| Xbox (XGD1) | ✅ |",
+        "translatedContent": "| Xbox (XGD1) | ✅ |"
+      },
+      {
+        "row": 24,
+        "rowsha": "A1kpWbuK+PjV/YmOJJx5YMxaduX+R8ljn8DveieV+ro=",
+        "originContent": "| Xbox 360 (XGD2/XGD3) | ✅ |",
+        "translatedContent": "| Xbox 360 (XGD2/XGD3) | ✅ |"
+      },
+      {
+        "row": 25,
+        "rowsha": "83kJGFoYYWWyRmwmvvzzEJRB3eT7miQ9uXMzrVyyjqY=",
+        "originContent": "| Xbox One/Series (XGD4) | ✅ | Disc contents are encrypted, disc key is not retrievable",
+        "translatedContent": "| Xbox One/Series (XGD4) | ✅ | 光盘内容加密，无法检索光盘密钥"
+      },
+      {
+        "row": 26,
+        "rowsha": "NGfAi+p6fbWn/ujLoMkn8tmN8MVmwCAA+QMIdaav9GE=",
+        "originContent": "| GameCube (NROM)/Wii (RVL-ROM) | ✅ |",
+        "translatedContent": "| GameCube (NROM)/Wii (RVL-ROM) | ✅ |"
+      },
+      {
+        "row": 27,
+        "rowsha": "fQum3mKSW8HODqR09iGAx5aD/+t2k7O9TJbFySQYa3k=",
+        "originContent": "| GameCube (NR)/Wii (RVT-R) | ❓ |",
+        "translatedContent": "| GameCube (NR)/Wii (RVT-R) | ❓ |"
+      },
+      {
+        "row": 28,
+        "rowsha": "iPNIvjhdk9Es4YwQMGmWmRC6cedgx9OiT4C+5uH5zwc=",
+        "originContent": "| Wii U (WUP-ROM?) | ⚠️ | Can be read as raw, but scrambling algorithm is currently unknown |",
+        "translatedContent": "| Wii U (WUP-ROM?) | ⚠️ | 可原始读取，但加扰算法当前未知 |"
+      },
+      {
+        "row": 29,
+        "rowsha": "pDMTOUYqgE4zo++WiC/ya5OGOzdZVxomUpDJ23YzklA=",
+        "originContent": "| Wii U (CAT-R) | ☑️ |",
+        "translatedContent": "| Wii U (CAT-R) | ☑️ |"
+      },
+      {
+        "row": 30,
+        "rowsha": "+peEJvSImLl1lReAui1BvLiYz+ozAfwxUOKMc3tqWSE=",
+        "originContent": "| Dreamcast (GD-ROM/GD-R) | ❎ | Only low-density area can be read |",
+        "translatedContent": "| Dreamcast (GD-ROM/GD-R) | ❎ | 仅能读取低密度区域 |"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "AxFSa8xpRAvNA3yXBV5bs5we7PW4/j6yJcvug+YWjHQ=",
+        "originContent": "Key:",
+        "translatedContent": "说明："
+      },
+      {
+        "row": 33,
+        "rowsha": "rTu59HyuEBmfV6P8jFFvKL2oT0xGiPVHZQS/UGZK9xQ=",
+        "originContent": "* ☑️ - Native Support (without patched firmware)",
+        "translatedContent": "* ☑️ - 原生支持（无需补丁固件）"
+      },
+      {
+        "row": 34,
+        "rowsha": "K9XM7xYi9qWxyAP0HIx7LIh2DTifHPuj4NEIiB1xhb0=",
+        "originContent": "* ✅ - Supported with OmniDrive",
+        "translatedContent": "* ✅ - 通过 OmniDrive 支持"
+      },
+      {
+        "row": 35,
+        "rowsha": "W+ZtoG22YSxzR3M1pZWeP+qbXUDY+HBqVGIVgjfyPGU=",
+        "originContent": "* ⚠️ - Partial support (see notes)",
+        "translatedContent": "* ⚠️ - 部分支持（见备注）"
+      },
+      {
+        "row": 36,
+        "rowsha": "2wv4ZniW6+OkWZ0PtT6FNmeGWfG8nzDXGBSjVDuB76A=",
+        "originContent": "* ❓ - Unknown support (needs testing)",
+        "translatedContent": "* ❓ - 支持未知（需测试）"
+      },
+      {
+        "row": 37,
+        "rowsha": "z1BJfpUV8uAX1dX/WsC5TAhfBAEqFJ5RfVfxp2qeUWE=",
+        "originContent": "* ❎ - Not currently supported",
+        "translatedContent": "* ❎ - 当前不支持"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "7yG6yJKPL5cg9brIizwUDQZkeD/r3QuaAXwB7XbI5xs=",
+        "originContent": "## Building",
+        "translatedContent": "## 构建"
+      },
+      {
+        "row": 40,
+        "rowsha": "cA9I4m4MLDGazdniXFF/VJ7jgnkzPSvBbISFVX7s/5s=",
+        "originContent": "### Dependencies",
+        "translatedContent": "### 依赖项"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "* CMake\n* ninja\n* arm-none-eabi-gcc toolchain\n* [armips](https://github.com/Kingcom/armips)\n* Python 3\n* pycryptodome\n### Instructions\n1. Put the stock LG BU40N 1.00 and ASUS BW-16D1HT 3.02 firmware files in the `firmware` folder. The files should be named the following and have the following checksums:\n\n| Filename | CRC32 | MD5 | SHA-1 |\n| --- | --- | --- | --- |\n| HL-DT-ST_BD-RE_BU40N_1.00.bin | `E3C1A315` | `EDB28FCD7A239281ACE26A468D382A9C` | `9C48677B155154D24A3B95A32B4A29CA02FF40B3` |\n| ASUS_BW-16D1HT_3.02.bin | `84000B21` | `97F0EEABD0B675B4363B2C4749226016` | `F8DF5B579F25DA8D4E5AA5EF79F3005DAC5EB8C7` |\n2. Create a `build` folder and run `cmake -G Ninja ..` from the build folder.\n3. Run `ninja`. The patched firmware files should be output in the `patched_firmware` folder.\n\n## Flashing\nCurrently the recommended method to flash the drives is to use `sdftool` which comes as part of [MakeMKV](https://makemkv.com/). The BU40N firmware should work with all slim drives and the BW-16D1HT firmware should work with all desktop drives.\n",
+    "ContentSha": "1UQTsnHKI9Q8xYQWuJLMjFXwaeeu/D82Ew9KSJBK+Lg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* CMake  \n* ninja  \n* arm-none-eabi-gcc 工具链  \n* [armips](https://github.com/Kingcom/armips)  \n* Python 3  \n* pycryptodome  \n### 使用说明  \n1. 将原厂 LG BU40N 1.00 和 ASUS BW-16D1HT 3.02 固件文件放入 `firmware` 文件夹。文件应命名如下，且具有以下校验和：  \n\n| 文件名 | CRC32 | MD5 | SHA-1 |  \n| --- | --- | --- | --- |  \n| HL-DT-ST_BD-RE_BU40N_1.00.bin | `E3C1A315` | `EDB28FCD7A239281ACE26A468D382A9C` | `9C48677B155154D24A3B95A32B4A29CA02FF40B3` |  \n| ASUS_BW-16D1HT_3.02.bin | `84000B21` | `97F0EEABD0B675B4363B2C4749226016` | `F8DF5B579F25DA8D4E5AA5EF79F3005DAC5EB8C7` |  \n2. 创建一个 `build` 文件夹，并在该文件夹中运行 `cmake -G Ninja ..`。  \n3. 运行 `ninja`。补丁固件文件将输出到 `patched_firmware` 文件夹中。  \n\n## 刷写  \n当前推荐的驱动刷写方法是使用随 [MakeMKV](https://makemkv.com/) 提供的 `sdftool`。BU40N 固件适用于所有轻薄型驱动器，BW-16D1HT 固件适用于所有台式机驱动器。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "SzxKAUq8jckXUFymWgaF0qf7NL/iPaLPaijKYhw+gDA=",
+        "originContent": "* CMake",
+        "translatedContent": "* CMake  "
+      },
+      {
+        "row": 2,
+        "rowsha": "vXYEbvP4zzJ5wooe+Gq9Q8c369j+BexhuGk03aLwVyc=",
+        "originContent": "* ninja",
+        "translatedContent": "* ninja  "
+      },
+      {
+        "row": 3,
+        "rowsha": "EdSq65jkqEjpbeTJyNbFCGvgJxDiDcworuGnIiMokwQ=",
+        "originContent": "* arm-none-eabi-gcc toolchain",
+        "translatedContent": "* arm-none-eabi-gcc 工具链  "
+      },
+      {
+        "row": 4,
+        "rowsha": "3nWnOOoVNmcaG4I+W2+Ni0d3HZ+Pqftx6fhyXyRQ0aw=",
+        "originContent": "* [armips](https://github.com/Kingcom/armips)",
+        "translatedContent": "* [armips](https://github.com/Kingcom/armips)  "
+      },
+      {
+        "row": 5,
+        "rowsha": "p3LEhbGibilH0pQ2cMyKCKYKF74TTDyzWtVd0vzIXUo=",
+        "originContent": "* Python 3",
+        "translatedContent": "* Python 3  "
+      },
+      {
+        "row": 6,
+        "rowsha": "PAJdb/UidCtRdeQSoepiJZLbUQR7xxvG2Z2vir8vaIc=",
+        "originContent": "* pycryptodome",
+        "translatedContent": "* pycryptodome  "
+      },
+      {
+        "row": 7,
+        "rowsha": "TFlU4twEuyXof1ZdEMHNHBpLHvTjuWmBhGLZAVmtP1w=",
+        "originContent": "### Instructions",
+        "translatedContent": "### 使用说明  "
+      },
+      {
+        "row": 8,
+        "rowsha": "3i3zp6pNyvAkootUbeWEt0ZNTpkODMg5O+VK91OPbiY=",
+        "originContent": "1. Put the stock LG BU40N 1.00 and ASUS BW-16D1HT 3.02 firmware files in the `firmware` folder. The files should be named the following and have the following checksums:",
+        "translatedContent": "1. 将原厂 LG BU40N 1.00 和 ASUS BW-16D1HT 3.02 固件文件放入 `firmware` 文件夹。文件应命名如下，且具有以下校验和：  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "qrbfeIQN/Yx9hnH/pgCzrd1O5czR76VtCRLy5za3CZs=",
+        "originContent": "| Filename | CRC32 | MD5 | SHA-1 |",
+        "translatedContent": "| 文件名 | CRC32 | MD5 | SHA-1 |  "
+      },
+      {
+        "row": 11,
+        "rowsha": "8aNGs8Y8p6yIcHbfP1mMvS+F8Ml+MdQ/s4A75STyAQI=",
+        "originContent": "| --- | --- | --- | --- |",
+        "translatedContent": "| --- | --- | --- | --- |  "
+      },
+      {
+        "row": 12,
+        "rowsha": "6lfHXPFydtcFRL4DH62GI00drwHGsVJAyXjh4EAzpU0=",
+        "originContent": "| HL-DT-ST_BD-RE_BU40N_1.00.bin | `E3C1A315` | `EDB28FCD7A239281ACE26A468D382A9C` | `9C48677B155154D24A3B95A32B4A29CA02FF40B3` |",
+        "translatedContent": "| HL-DT-ST_BD-RE_BU40N_1.00.bin | `E3C1A315` | `EDB28FCD7A239281ACE26A468D382A9C` | `9C48677B155154D24A3B95A32B4A29CA02FF40B3` |  "
+      },
+      {
+        "row": 13,
+        "rowsha": "G6mGfp/yKgDHlxgiihAsjntSYBqkKMejfwl85TJw0tw=",
+        "originContent": "| ASUS_BW-16D1HT_3.02.bin | `84000B21` | `97F0EEABD0B675B4363B2C4749226016` | `F8DF5B579F25DA8D4E5AA5EF79F3005DAC5EB8C7` |",
+        "translatedContent": "| ASUS_BW-16D1HT_3.02.bin | `84000B21` | `97F0EEABD0B675B4363B2C4749226016` | `F8DF5B579F25DA8D4E5AA5EF79F3005DAC5EB8C7` |  "
+      },
+      {
+        "row": 14,
+        "rowsha": "TcA7x/HBQnC/CF4Z9S94aIlw4gV8aSUEjzkRR8rqkkg=",
+        "originContent": "2. Create a `build` folder and run `cmake -G Ninja ..` from the build folder.",
+        "translatedContent": "2. 创建一个 `build` 文件夹，并在该文件夹中运行 `cmake -G Ninja ..`。  "
+      },
+      {
+        "row": 15,
+        "rowsha": "QC5EXIKTKuBlmB5xALZ5KbsGtyxV/cdTe9QfczmzFAo=",
+        "originContent": "3. Run `ninja`. The patched firmware files should be output in the `patched_firmware` folder.",
+        "translatedContent": "3. 运行 `ninja`。补丁固件文件将输出到 `patched_firmware` 文件夹中。  "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "3K+RcwDVFYgLsoMYAsMbZRDZvDG/2NyKslMJciKcxCA=",
+        "originContent": "## Flashing",
+        "translatedContent": "## 刷写  "
+      },
+      {
+        "row": 18,
+        "rowsha": "Y26eiLlDGX+E245h+GCDopO6+EvTve6iHwIrhtgcyEo=",
+        "originContent": "Currently the recommended method to flash the drives is to use `sdftool` which comes as part of [MakeMKV](https://makemkv.com/). The BU40N firmware should work with all slim drives and the BW-16D1HT firmware should work with all desktop drives.",
+        "translatedContent": "当前推荐的驱动刷写方法是使用随 [MakeMKV](https://makemkv.com/) 提供的 `sdftool`。BU40N 固件适用于所有轻薄型驱动器，BW-16D1HT 固件适用于所有台式机驱动器。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

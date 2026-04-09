@@ -139,12 +139,14 @@ uv pip install -e .
 playwright install-deps
 playwright install chromium
 npm install --prefix deeppresenter/html2pptx
+modelscope download forceless/fasttext-language-id
 
-docker pull forceless/deeppresenter-sandbox:0.1.0
-docker tag forceless/deeppresenter-sandbox:0.1.0 deeppresenter-sandbox:0.1.0
+docker pull forceless/deeppresenter-sandbox
+docker pull forceless/deeppresenter-host
+docker tag forceless/deeppresenter-sandbox deeppresenter-sandbox
 
 # or build from dockerfile
-docker build -t deeppresenter-sandbox:0.1.0 -f deeppresenter/docker/SandBox.Dockerfile .
+docker build -t deeppresenter-sandbox -f deeppresenter/docker/SandBox.Dockerfile .
 ```
 
 Запустите приложение:
@@ -159,14 +161,14 @@ python webui.py
 
 ```bash
 # Pull the public images to avoid build from source
-docker pull forceless/deeppresenter-sandbox:0.1.0
-docker tag forceless/deeppresenter-sandbox:0.1.0 deeppresenter-sandbox:0.1.0
+docker pull forceless/deeppresenter-sandbox
+docker tag forceless/deeppresenter-sandbox deeppresenter-sandbox
 
 # Or build from source
-docker build -t deeppresenter-sandbox:0.1.0 -f deeppresenter/docker/SandBox.Dockerfile .
+docker build -t deeppresenter-sandbox -f deeppresenter/docker/SandBox.Dockerfile .
 
 # Start the host service
-docker compose up -d deeppresenter-host
+docker compose up -d
 ```
 
 The service exposes the web UI on `http://localhost:7861`.
@@ -304,10 +306,24 @@ The service exposes the web UI on `http://localhost:7861`.
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/Angelenx>
+            <img src=https://avatars.githubusercontent.com/u/39873863?v=4 width="80;"  alt=Angelen/>
+            <br />
+            <sub style="font-size:14px"><b>Angelen</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/imHuZijian>
+            <img src=https://avatars.githubusercontent.com/u/97173940?v=4 width="80;"  alt=BrandonHu/>
+            <br />
+            <sub style="font-size:14px"><b>BrandonHu</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/kylooh>
             <img src=https://avatars.githubusercontent.com/u/26456650?v=4 width="80;"  alt=Eliot White/>
             <br />
-            <sub style="font-size:14px"><b>Элиот Уайт</b></sub>
+            <sub style="font-size:14px"><b>Eliot White</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
@@ -317,6 +333,8 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>EvolvedGhost</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/ISCAS-zwl>
             <img src=https://avatars.githubusercontent.com/u/179820048?v=4 width="80;"  alt=ISCAS-zwl/>
@@ -326,13 +344,11 @@ The service exposes the web UI on `http://localhost:7861`.
     </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/James4Ever0>
-            <img src=https://avatars.githubusercontent.com/u/103997068?v=4 width="80;"  alt=Джеймс Браун/>
+            <img src=https://avatars.githubusercontent.com/u/103997068?v=4 width="80;"  alt=James Brown/>
             <br />
             <sub style="font-size:14px"><b>Джеймс Браун</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/LasRuinasCirculares>
             <img src=https://avatars.githubusercontent.com/u/119716645?v=4 width="80;"  alt=JunZhang/>
@@ -354,11 +370,20 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>Sense_wang</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
         <a href=https://github.com/DeJeune>
             <img src=https://avatars.githubusercontent.com/u/67425183?v=4 width="80;"  alt=SuYao/>
             <br />
             <sub style="font-size:14px"><b>SuYao</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/JiwaniZakir>
+            <img src=https://avatars.githubusercontent.com/u/108548454?v=4 width="80;"  alt=Zakir Jiwani/>
+            <br />
+            <sub style="font-size:14px"><b>Zakir Jiwani</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
@@ -368,14 +393,21 @@ The service exposes the web UI on `http://localhost:7861`.
             <sub style="font-size:14px"><b>Zhenyu</b></sub>
         </a>
     </td>
+    <td align="center" style="word-wrap: break-word; width: 120.0; height: 120.0">
+        <a href=https://github.com/lnennnn>
+            <img src=https://avatars.githubusercontent.com/u/124434018?v=4 width="80;"  alt=lnennnn/>
+            <br />
+            <sub style="font-size:14px"><b>lnennnn</b></sub>
+        </a>
+    </td>
 </tr>
 </table>
 
-[![График истории звезд](https://api.star-history.com/svg?repos=icip-cas/PPTAgent&type=Date)](https://star-history.com/#icip-cas/PPTAgent&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=icip-cas/PPTAgent&type=Date)](https://star-history.com/#icip-cas/PPTAgent&Date)
 
 ## Цитирование 🙏
 
-Если этот проект оказался вам полезен, пожалуйста, используйте следующее для цитирования:
+Если вы считаете этот проект полезным, пожалуйста, используйте следующее для его цитирования:
 ```bibtex
 @inproceedings{zheng-etal-2025-pptagent,
     title = "{PPTA}gent: Generating and Evaluating Presentations Beyond Text-to-Slides",
@@ -419,6 +451,6 @@ The service exposes the web UI on `http://localhost:7861`.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-03-23
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-09
 
 ---
