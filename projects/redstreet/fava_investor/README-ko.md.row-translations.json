@@ -1,0 +1,608 @@
+[
+  {
+    "row": 1,
+    "rowsha": "aVJLvfJgLq6LyyTWPuemOCbzxlp6T+Jby1m+Li1PYZg=",
+    "originContent": "# Fava Investor",
+    "translatedContent": "# Fava 투자자"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "j5j579ZrQyJ+7u6eiobRIOHDKHoWjUBlTSzMD29kREs=",
+    "originContent": "Fava Investor aims to be a comprehensive set of reports, analyses, and tools for",
+    "translatedContent": "Fava 투자자는 [Beancount](https://beancount.github.io/) 및"
+  },
+  {
+    "row": 4,
+    "rowsha": "EgDbTH8WCOlUWx0lh5/XIoZXhFxuQmxgyv39gBh2tTs=",
+    "originContent": "investments, for [Beancount](https://beancount.github.io/) and",
+    "translatedContent": "[Fava](https://github.com/beancount/fava) (소프트웨어로서"
+  },
+  {
+    "row": 5,
+    "rowsha": "hhoH5x3lybhNRTgqiN494qiqDyHCVEIHoNon3rAV/jo=",
+    "originContent": "[Fava](https://github.com/beancount/fava) (software for",
+    "translatedContent": "[평문, 복식부기](https://plaintextaccounting.org/))를 위한"
+  },
+  {
+    "row": 6,
+    "rowsha": "xdD/8DN9mo1dsGbP5u+mMuERu9wNy9yl6vi+hipKzeM=",
+    "originContent": "[plain text, double entry bookkeeping](https://plaintextaccounting.org/)). It is developed as a",
+    "translatedContent": "투자에 관한 종합적인 보고서, 분석 및 도구 세트를 목표로 합니다. 각 모듈은 *Fava 플러그인, Beancount 라이브러리, 그리고"
+  },
+  {
+    "row": 7,
+    "rowsha": "HTqMDwRenfurnh15O+mwrspAcJOXzwVf2MPitOpvYBc=",
+    "originContent": "collection of modules, with each module offering a *Fava plugin, a Beancount library, and",
+    "translatedContent": "쉘 명령어*를 제공하는 모듈 모음으로 개발되었습니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "5F+a0CrYR0Utbaon/TwZ15GF69htakS0g74USw+gBzg=",
+    "originContent": "a shell command*.",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 현재 모듈:"
+  },
+  {
+    "row": 10,
+    "rowsha": "sqn1S/4rb5rV7odVumsT3pRs4Yh9Xx/UIbYJorZwI1I=",
+    "originContent": "### Current modules:",
+    "translatedContent": "- [클래스별 시각적 트리 구조 자산 배분](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/assetalloc_class#readme)"
+  },
+  {
+    "row": 11,
+    "rowsha": "VKaPtdigyDerV+VNElOi2b/lFhTLM6apsvogfmaAiSY=",
+    "originContent": "- [Visual, tree structured asset allocation by class](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/assetalloc_class#readme)",
+    "translatedContent": "- 계좌별 자산 배분"
+  },
+  {
+    "row": 12,
+    "rowsha": "cyOlvnlsxIOT6UxG8rJspCYPVLvzXs4IM52y2uQcyUw=",
+    "originContent": "- Asset allocation by account",
+    "translatedContent": "- [세금 손실 수확기](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/tlh#readme)"
+  },
+  {
+    "row": 13,
+    "rowsha": "IkFzBDibINVCVvhabi8WI5wWuQfliIdTdvVutToUjr0=",
+    "originContent": "- [Tax loss harvestor](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/tlh#readme)",
+    "translatedContent": "- [현금 드래그 분석](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/cashdrag#readme)"
+  },
+  {
+    "row": 14,
+    "rowsha": "2+mR+RZOTM2x2i8u4vSeY5Pb2CT0FtB8ZHG/iqm/E1k=",
+    "originContent": "- [Cash drag analysis](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/cashdrag#readme)",
+    "translatedContent": "- [요약기](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/summarizer#readme)"
+  },
+  {
+    "row": 15,
+    "rowsha": "pZD25Ku2qZabCaBEfcP8hUAuZRMoBbzNVzZrbhcjdcM=",
+    "originContent": "- [Summarizer](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/summarizer#readme)",
+    "translatedContent": "- [이익 최소화기](https://github.com/redstreet/fava_investor/blob/main/fava_investor/modules/minimizegains#readme)"
+  },
+  {
+    "row": 16,
+    "rowsha": "DZYEP/yB36qRK5nqyUd8DdvTYvvaILj5n9i2dBKLduo=",
+    "originContent": "- [Gains minimizer](https://github.com/redstreet/fava_investor/blob/main/fava_investor/modules/minimizegains#readme)",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 데모"
+  },
+  {
+    "row": 18,
+    "rowsha": "FwAjzDznmCWPPPh91IN4AfV1hHd2F8LHAYADCNyVKF4=",
+    "originContent": "### Demo",
+    "translatedContent": "***[pythonanywhere](http://favainvestor.pythonanywhere.com/example-beancount-file/extension/Investor/)에서"
+  },
+  {
+    "row": 19,
+    "rowsha": "/oFQpjsSHuERooYn7EEBuTGcgRQnoFlPVm+XTklIKJs=",
+    "originContent": "***Play with the live demo at",
+    "translatedContent": "라이브 데모를 체험해 보세요***."
+  },
+  {
+    "row": 20,
+    "rowsha": "KSidmTxYXDfxyFvcN51XZl4Q52MfSVDXAnKFE8121H4=",
+    "originContent": "  [pythonanywhere](http://favainvestor.pythonanywhere.com/example-beancount-file/extension/Investor/)***.",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 스크린샷 (날짜 포함):"
+  },
+  {
+    "row": 23,
+    "rowsha": "ogbjLvBuGRwtQlNvnvwSZPJGvEJHclOqj3wfA2CDcac=",
+    "originContent": "#### Screenshots (dated):",
+    "translatedContent": "![스크린샷: TLH](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot.png)"
+  },
+  {
+    "row": 24,
+    "rowsha": "0DrlWJw7TTvsfJTsMN4RkHrR+NaCAF096ImRF1EZCV8=",
+    "originContent": "![Screenshot: TLH](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot.png)",
+    "translatedContent": "![스크린샷: 자산 배분](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot-assetalloc.png)"
+  },
+  {
+    "row": 25,
+    "rowsha": "1Wc0rKEJncbmvVdMffblRCqBIHJBbi9N2qEfVX8qXSo=",
+    "originContent": "![Screenshot: Asset Allocation](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot-assetalloc.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 유틸리티"
+  },
+  {
+    "row": 27,
+    "rowsha": "CMj8oo3YwE9CF+KpT+zwXU1SGJkScqoB44lhh7CgcFI=",
+    "originContent": "### Utilities",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Fava 투자자는 `ticker-util`을 함께 제공하는데, 이는 다음을 위한 유틸리티 모음입니다:"
+  },
+  {
+    "row": 29,
+    "rowsha": "nOnd4abAN5/x/jzSyl9Vod37RxwG/f2dEOGpNHTAtsc=",
+    "originContent": "Fava Investor ships with `ticker-util`, which is a collection of utilities for:",
+    "translatedContent": "- 야후에서 상품(티커)에 대한 정보를 다운로드하고,"
+  },
+  {
+    "row": 30,
+    "rowsha": "8lGENy2JtFXikqPVcfmmnhWUK4BYtg03FbtfKH+vnmo=",
+    "originContent": "- downloading information from Yahoo for commodities (tickers), and annotating your",
+    "translatedContent": "  상품 선언에 메타데이터를 주석 처리"
+  },
+  {
+    "row": 31,
+    "rowsha": "Vxn6ZlK8PkKY03WLhEyJACMmTubSc6LL34axxtPH3Z8=",
+    "originContent": "  commodity declarations with metadata",
+    "translatedContent": "- 최소한의 불완전한 명세로부터 Beancount 파일 내 티커 간 관계 탐색, 예를 들어 동등하거나 실질적으로 동일한 티커, 세금 손실 수확 파트너 그룹 등"
+  },
+  {
+    "row": 32,
+    "rowsha": "91MQQg1SKnA4eeS/gUxKrQfBVRKWkWGiBOlbC7Iq7EM=",
+    "originContent": "- discovering relationships between tickers in your Beancount file, such as equivalent",
+    "translatedContent": "- 수입자를 위한 ISIN 및 기타 티커 식별 정보 제공"
+  },
+  {
+    "row": 33,
+    "rowsha": "n6kKvyFKHJerdksriw7ubrLoAJxjLog2WcShOT7kMWg=",
+    "originContent": "  and substantially identical tickers, and tax loss harvesting partner groups, from a",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "Lc9OfiZrKNvgNSekMublaCJCCuF8HZMc2O+DlNvthQs=",
+    "originContent": "  minimal and incomplete specification",
+    "translatedContent": "더 자세한 내용은 pip로 fava_investor를 설치한 후 다음을 참조하세요:"
+  },
+  {
+    "row": 35,
+    "rowsha": "p9GZa84RMiPzZOVIx0ifSb2QF3M7ALldRy048aAzXXM=",
+    "originContent": "- providing ISIN an other ticker identifying information to your importers",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "GA6B7YL1ne5vRKONpMohk8RRMG0j3OX6tumj+CkzIlo=",
+    "originContent": "For more, install fava_investor via pip, and then see:",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "Y7l9k0mPdr2v8OxWuGYKopR4st/pKOV034ahTsWTCoY=",
+    "originContent": "ticker-util --help",
+    "translatedContent": "ticker-util --help"
+  },
+  {
+    "row": 40,
+    "rowsha": "hUS4zEFZ0AcfEPqKKv5ePcgNaqPuKPKNCxxhGL6ppXs=",
+    "originContent": "ticker-util relate --help",
+    "translatedContent": "ticker-util relate --help"
+  },
+  {
+    "row": 41,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 45,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 46,
+    "rowsha": "0GwVAiDpCUxQithb1WoZQAguCzyohpG/PxKi2RyFbR8=",
+    "originContent": "pip3 install fava-investor",
+    "translatedContent": "pip3 install fava-investor"
+  },
+  {
+    "row": 47,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "Wpy9hb8OysHK0J4tel7nW+hZO8/a9GjuVPDDCDnjxCQ=",
+    "originContent": "Or to install the bleeding edge version from git:",
+    "translatedContent": "또는 git에서 최신 버전을 설치하려면:"
+  },
+  {
+    "row": 50,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 51,
+    "rowsha": "AwslOcLkkLUZZ35FmKtJtdl0PQoHGKBRd7zCSNBPp88=",
+    "originContent": "pip3 install git+https://github.com/redstreet/fava_investor",
+    "translatedContent": "pip3 install git+https://github.com/redstreet/fava_investor"
+  },
+  {
+    "row": 52,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 53,
+    "rowsha": "VR1DUK458qB6CziW0dxAU3JqoG7vDXOhwXPqMrKdiRc=",
+    "originContent": "See [#55](https://github.com/redstreet/fava_investor/issues/55) for MacOS installation.",
+    "translatedContent": "MacOS 설치는 [#55](https://github.com/redstreet/fava_investor/issues/55)를 참조하세요."
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "xq/9N7kav5enCyb5RU6AaWakz0xHksgcaN5NOkwvalY=",
+    "originContent": "Note the latest version of Fava Investor is compatible with both Beancount v2 and v3.",
+    "translatedContent": "최신 버전의 Fava Investor는 Beancount v2와 v3 모두와 호환됩니다."
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "ubQ3dNm5Gby2Kv8QRKz7ePhkNd+B1GkTBj2G4pte/TE=",
+    "originContent": "## Running Fava Investor",
+    "translatedContent": "## Fava Investor 실행하기"
+  },
+  {
+    "row": 58,
+    "rowsha": "7Niq0Y17PxofdNPA1M19kMkodQk0kHKW+Em/N9rDXcU=",
+    "originContent": "### Running in Fava:",
+    "translatedContent": "### Fava 내에서 실행하기:"
+  },
+  {
+    "row": 59,
+    "rowsha": "BR/xPTOo3bSBuGHIjUJDDZYaHv0FV35Hfcx2MY6kUnQ=",
+    "originContent": "Add this to your beancount source, and start up fava as usual:",
+    "translatedContent": "이 내용을 beancount 소스에 추가한 후 평소처럼 fava를 시작하세요:"
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "Z+nEBghhhsCfJInD0XX3MEuIF60BRidDzdfP4tf5r/4=",
+    "originContent": "2000-01-01 custom \"fava-extension\" \"fava_investor\" \"{}\"",
+    "translatedContent": "2000-01-01 custom \"fava-extension\" \"fava_investor\" \"{}\""
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이제 fava의 사이드바에 'Investor' 링크가 표시되어야 합니다. 확장 기능 구성에 대한 자세한 내용은 포함된 `huge-example.beancount`를 참조하십시오."
+  },
+  {
+    "row": 64,
+    "rowsha": "o00+CGsQXYVr4qxO/7oUQqTzN/udpQlmjP/Zx35eBV8=",
+    "originContent": "You should now see an 'Investor' link in the sidebar in fava. For more on how to",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "fm6QgYLDWkvzuk5AV8Dmm+yEdYlnVza+Ku/hjkj0Czk=",
+    "originContent": "configure the extension, see the included `huge-example.beancount`.",
+    "translatedContent": "### 명령줄에서 실행하기:"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "명령줄 인터페이스(CLI)는 `investor` 명령어를 사용하여 액세스하며, 각 모듈에 대한 하위 명령어가 있습니다. 예:"
+  },
+  {
+    "row": 67,
+    "rowsha": "Rnvz5iHYOQenFOLLsyw0PzimpCzSgkrxF77CmaNJZzI=",
+    "originContent": "### Running on the Command-Line:",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "+Qh8entyNDele864LqCUHiHXmT7CRq+6xXP4dTO8CrQ=",
+    "originContent": "The command line interface (CLI) is accessed using the `investor` command, which has",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "lombwb+32Clk5fcBV36uozn8UiX0sV55dwQ19512CDA=",
+    "originContent": "subcommands for each module. Eg:",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 72,
+    "rowsha": "ML5v4BiF1DY0UZ6wC+R6QDepaxU6mIindB7/wAWTEO8=",
+    "originContent": "investor assetalloc-class",
+    "translatedContent": "investor assetalloc-class"
+  },
+  {
+    "row": 73,
+    "rowsha": "+wr8RjvmZNhvGRBJLk+lPdCcC51L5sY+6kuO+6bLLU8=",
+    "originContent": "investor tlh",
+    "translatedContent": "investor tlh"
+  },
+  {
+    "row": 74,
+    "rowsha": "7VPjLyzoAJBWblXqxEqDd3WyRMYwi7f299ysvS0qxsw=",
+    "originContent": "investor --help",
+    "translatedContent": "investor --help"
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "mcwMc+SJg+5qwOrBE8LtNiUP6v/KsV+hY6IaTPlRuew=",
+    "originContent": "Both the CLI and the utility (`ticker-util`) use [click](https://click.palletsprojects.com/en/8.1.x/).",
+    "translatedContent": "Both the CLI and the utility (`ticker-util`) use [click](https://click.palletsprojects.com/en/8.1.x/)."
+  },
+  {
+    "row": 78,
+    "rowsha": "aY5ARvoLCXkmaE2wYxAS54nh/48xN8X5pOBqBt+xSzo=",
+    "originContent": "[See here](https://click.palletsprojects.com/en/8.1.x/shell-completion/#enabling-completion)",
+    "translatedContent": "[See here](https://click.palletsprojects.com/en/8.1.x/shell-completion/#enabling-completion)"
+  },
+  {
+    "row": 79,
+    "rowsha": "nTMKqBsIKAZR+Db+8LFwqsgUXD4yreYeUjan+ykvzHY=",
+    "originContent": "to enable shell completion in zsh, bash, or fish, which is highly recommended.",
+    "translatedContent": "to enable shell completion in zsh, bash, or fish, which is highly recommended."
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "Hhhu5rghwiy6tbHLV2FcXmOtL11+L6FGIgXBRZLLODI=",
+    "originContent": "## Problems?",
+    "translatedContent": "## 문제가 있나요?"
+  },
+  {
+    "row": 82,
+    "rowsha": "GMO5tG3KZykgryAxflfHwxf51cQprhuedSivEF2a4Fg=",
+    "originContent": "- Monitor the terminal you are running fava from to look for error output from",
+    "translatedContent": "- fava를 실행하는 터미널을 모니터링하여 fava_investor의 오류 출력을 확인하세요"
+  },
+  {
+    "row": 83,
+    "rowsha": "z7cpHHogM35T0CdLxOr+5cu1wUkIFWUwpQTzzGfEjY0=",
+    "originContent": "  fava_investor",
+    "translatedContent": "- 버그 보고서 작성 또는 도움 요청 시 위에서 본 오류 메시지를 포함하세요"
+  },
+  {
+    "row": 84,
+    "rowsha": "dGcf+FsghjEPUzao6ezJ7EAECtG+pRSQEbUC0HVhfAU=",
+    "originContent": "- Include the error messages you see above when opening bug reports or asking for help",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 기여하기"
+  },
+  {
+    "row": 86,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "기능, 수정 및 개선 환영합니다. 다음을 기억하세요:"
+  },
+  {
+    "row": 88,
+    "rowsha": "FMwNrXwBKMoQUAl9dpS508yaMZxGIcfVaXMD14a2Jc4=",
+    "originContent": "Features, fixes, and improvements welcome. Remember:",
+    "translatedContent": "- 자유롭게 풀 리퀘스트를 보내세요. 단위 테스트를 포함해 주세요"
+  },
+  {
+    "row": 89,
+    "rowsha": "ZZmAR8ZCay72DS4SsMTrs9mvW2/1m8S8sAXzlwyiB/o=",
+    "originContent": "- Feel free to send send pull requests. Please include unit tests",
+    "translatedContent": "- 더 큰 변경 사항이나 논의가 필요할 수 있는 변경 사항은 먼저 연락하여 논의해 시간을 절약하세요 (이슈 열기)"
+  },
+  {
+    "row": 90,
+    "rowsha": "opUB7Kv99EYK50IK+O1rVTZKnpbOQP5MfGqgYYAcDws=",
+    "originContent": "- For larger changes or changes that might need discussion, please reach out and discuss",
+    "translatedContent": "- 커밋은 적절히 스쿼시해 주세요"
+  },
+  {
+    "row": 91,
+    "rowsha": "uVBNQskgb36h3uVCsU+eoBAOiEVFZ8rV3Jv1vzasAbk=",
+    "originContent": "  first to save time (open an issue) ",
+    "translatedContent": "- 커밋 메시지에는 [컨벤셔널 커밋](https://www.conventionalcommits.org/en/v1.0.0/)을 사용하세요"
+  },
+  {
+    "row": 92,
+    "rowsha": "/kapVgrda+U56+yeWiF+ejtfD1KxgUabn6GDNA3Elf8=",
+    "originContent": "- Please squash your commits (reasonably)",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "43VQqUcs1OxYYuSagPPEzY3dWgKMZ5wYvYxUaNUkvxE=",
+    "originContent": "- Use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for commit messages",
+    "translatedContent": "기여해 주셔서 감사합니다!"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "QnxDjww8SCgfDSs7NPFYN8JFtNArgfCSjLM2BZ6IbkQ=",
+    "originContent": "Thank you for contributing!",
+    "translatedContent": "## 관련 프로젝트"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [Fava Dashboards](https://github.com/andreasgerstmayr/fava-dashboards)"
+  },
+  {
+    "row": 97,
+    "rowsha": "029pqroXXjHSLawpWTocF2CPk5dLz29+pGq/paa0amA=",
+    "originContent": "## Related Projects",
+    "translatedContent": "- [Fava Portfolio Returns](https://github.com/andreasgerstmayr/fava-portfolio-returns)"
+  },
+  {
+    "row": 98,
+    "rowsha": "RvNEMIMpScZQSmuME8KaV4QIKckn4K4cPaxBAzDnAQg=",
+    "originContent": "- [Fava Dashboards](https://github.com/andreasgerstmayr/fava-dashboards)",
+    "translatedContent": "- [Beangrow](https://github.com/beancount/beangrow)"
+  },
+  {
+    "row": 99,
+    "rowsha": "dhFjskW0pwlkjEieww8rtgD5ibZ5+6iOs5Cg5N+sWto=",
+    "originContent": "- [Fava Portfolio Returns](https://github.com/andreasgerstmayr/fava-portfolio-returns)",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "RVbJ8TzuO1M0SlH1pXeWVEaqKB6hnu36YvUbMeuz5ZI=",
+    "originContent": "- [Beangrow](https://github.com/beancount/beangrow)",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

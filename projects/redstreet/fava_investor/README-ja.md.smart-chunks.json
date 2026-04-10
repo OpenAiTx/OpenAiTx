@@ -1,0 +1,751 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Fava Investor\n\nFava Investor aims to be a comprehensive set of reports, analyses, and tools for\ninvestments, for [Beancount](https://beancount.github.io/) and\n[Fava](https://github.com/beancount/fava) (software for\n[plain text, double entry bookkeeping](https://plaintextaccounting.org/)). It is developed as a\ncollection of modules, with each module offering a *Fava plugin, a Beancount library, and\na shell command*.\n\n### Current modules:\n- [Visual, tree structured asset allocation by class](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/assetalloc_class#readme)\n- Asset allocation by account\n- [Tax loss harvestor](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/tlh#readme)\n- [Cash drag analysis](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/cashdrag#readme)\n- [Summarizer](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/summarizer#readme)\n- [Gains minimizer](https://github.com/redstreet/fava_investor/blob/main/fava_investor/modules/minimizegains#readme)\n\n### Demo\n***Play with the live demo at\n  [pythonanywhere](http://favainvestor.pythonanywhere.com/example-beancount-file/extension/Investor/)***.\n\n\n#### Screenshots (dated):\n![Screenshot: TLH](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot.png)\n![Screenshot: Asset Allocation](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot-assetalloc.png)\n\n### Utilities\n\nFava Investor ships with `ticker-util`, which is a collection of utilities for:\n- downloading information from Yahoo for commodities (tickers), and annotating your\n  commodity declarations with metadata\n- discovering relationships between tickers in your Beancount file, such as equivalent\n  and substantially identical tickers, and tax loss harvesting partner groups, from a\n  minimal and incomplete specification\n- providing ISIN an other ticker identifying information to your importers\n\nFor more, install fava_investor via pip, and then see:",
+    "ContentSha": "vlMtnt8hCF8f9UTXoOFUCfo4kQfYFYoX1Ewf/O9hIVA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Fava Investor\n\nFava Investorは、[Beancount](https://beancount.github.io/)および\n[Fava](https://github.com/beancount/fava)（[プレーンテキストによる複式簿記](https://plaintextaccounting.org/)向けソフトウェア）用の\n投資に関する包括的なレポート、分析、ツールのセットを目指しています。これはモジュールの集合として開発されており、\n各モジュールは*Favaプラグイン、Beancountライブラリ、シェルコマンド*を提供します。\n\n### 現在のモジュール:\n- [クラス別の視覚的なツリー構造資産配分](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/assetalloc_class#readme)\n- 口座別資産配分\n- [税損収穫ツール](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/tlh#readme)\n- [キャッシュドラック分析](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/cashdrag#readme)\n- [サマライザー](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/summarizer#readme)\n- [利益最小化ツール](https://github.com/redstreet/fava_investor/blob/main/fava_investor/modules/minimizegains#readme)\n\n### デモ\n***[pythonanywhere](http://favainvestor.pythonanywhere.com/example-beancount-file/extension/Investor/)で\nライブデモをお試しください。***\n\n\n#### スクリーンショット（日付付き）:\n![Screenshot: TLH](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot.png)\n![Screenshot: Asset Allocation](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot-assetalloc.png)\n\n### ユーティリティ\n\nFava Investorには`ticker-util`が付属しており、これは以下のユーティリティの集合です：\n- Yahooからコモディティ（ティッカー）の情報をダウンロードし、\n  コモディティ宣言にメタデータを注釈付けする\n- Beancountファイル内のティッカー間の関係を発見する、例えば同等または実質的に同一のティッカー、\n  そして税損収穫のパートナーグループを、最小かつ不完全な仕様から抽出する\n- インポーターにISINなどのティッカー識別情報を提供する\n\n詳細については、pipでfava_investorをインストールし、以下を参照してください：\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "aVJLvfJgLq6LyyTWPuemOCbzxlp6T+Jby1m+Li1PYZg=",
+        "originContent": "# Fava Investor",
+        "translatedContent": "# Fava Investor"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "j5j579ZrQyJ+7u6eiobRIOHDKHoWjUBlTSzMD29kREs=",
+        "originContent": "Fava Investor aims to be a comprehensive set of reports, analyses, and tools for",
+        "translatedContent": "Fava Investorは、[Beancount](https://beancount.github.io/)および"
+      },
+      {
+        "row": 4,
+        "rowsha": "EgDbTH8WCOlUWx0lh5/XIoZXhFxuQmxgyv39gBh2tTs=",
+        "originContent": "investments, for [Beancount](https://beancount.github.io/) and",
+        "translatedContent": "[Fava](https://github.com/beancount/fava)（[プレーンテキストによる複式簿記](https://plaintextaccounting.org/)向けソフトウェア）用の"
+      },
+      {
+        "row": 5,
+        "rowsha": "hhoH5x3lybhNRTgqiN494qiqDyHCVEIHoNon3rAV/jo=",
+        "originContent": "[Fava](https://github.com/beancount/fava) (software for",
+        "translatedContent": "投資に関する包括的なレポート、分析、ツールのセットを目指しています。これはモジュールの集合として開発されており、"
+      },
+      {
+        "row": 6,
+        "rowsha": "xdD/8DN9mo1dsGbP5u+mMuERu9wNy9yl6vi+hipKzeM=",
+        "originContent": "[plain text, double entry bookkeeping](https://plaintextaccounting.org/)). It is developed as a",
+        "translatedContent": "各モジュールは*Favaプラグイン、Beancountライブラリ、シェルコマンド*を提供します。"
+      },
+      {
+        "row": 7,
+        "rowsha": "HTqMDwRenfurnh15O+mwrspAcJOXzwVf2MPitOpvYBc=",
+        "originContent": "collection of modules, with each module offering a *Fava plugin, a Beancount library, and",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "5F+a0CrYR0Utbaon/TwZ15GF69htakS0g74USw+gBzg=",
+        "originContent": "a shell command*.",
+        "translatedContent": "### 現在のモジュール:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [クラス別の視覚的なツリー構造資産配分](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/assetalloc_class#readme)"
+      },
+      {
+        "row": 10,
+        "rowsha": "sqn1S/4rb5rV7odVumsT3pRs4Yh9Xx/UIbYJorZwI1I=",
+        "originContent": "### Current modules:",
+        "translatedContent": "- 口座別資産配分"
+      },
+      {
+        "row": 11,
+        "rowsha": "VKaPtdigyDerV+VNElOi2b/lFhTLM6apsvogfmaAiSY=",
+        "originContent": "- [Visual, tree structured asset allocation by class](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/assetalloc_class#readme)",
+        "translatedContent": "- [税損収穫ツール](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/tlh#readme)"
+      },
+      {
+        "row": 12,
+        "rowsha": "cyOlvnlsxIOT6UxG8rJspCYPVLvzXs4IM52y2uQcyUw=",
+        "originContent": "- Asset allocation by account",
+        "translatedContent": "- [キャッシュドラック分析](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/cashdrag#readme)"
+      },
+      {
+        "row": 13,
+        "rowsha": "IkFzBDibINVCVvhabi8WI5wWuQfliIdTdvVutToUjr0=",
+        "originContent": "- [Tax loss harvestor](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/tlh#readme)",
+        "translatedContent": "- [サマライザー](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/summarizer#readme)"
+      },
+      {
+        "row": 14,
+        "rowsha": "2+mR+RZOTM2x2i8u4vSeY5Pb2CT0FtB8ZHG/iqm/E1k=",
+        "originContent": "- [Cash drag analysis](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/cashdrag#readme)",
+        "translatedContent": "- [利益最小化ツール](https://github.com/redstreet/fava_investor/blob/main/fava_investor/modules/minimizegains#readme)"
+      },
+      {
+        "row": 15,
+        "rowsha": "pZD25Ku2qZabCaBEfcP8hUAuZRMoBbzNVzZrbhcjdcM=",
+        "originContent": "- [Summarizer](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/summarizer#readme)",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "DZYEP/yB36qRK5nqyUd8DdvTYvvaILj5n9i2dBKLduo=",
+        "originContent": "- [Gains minimizer](https://github.com/redstreet/fava_investor/blob/main/fava_investor/modules/minimizegains#readme)",
+        "translatedContent": "### デモ"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "***[pythonanywhere](http://favainvestor.pythonanywhere.com/example-beancount-file/extension/Investor/)で"
+      },
+      {
+        "row": 18,
+        "rowsha": "FwAjzDznmCWPPPh91IN4AfV1hHd2F8LHAYADCNyVKF4=",
+        "originContent": "### Demo",
+        "translatedContent": "ライブデモをお試しください。***"
+      },
+      {
+        "row": 19,
+        "rowsha": "/oFQpjsSHuERooYn7EEBuTGcgRQnoFlPVm+XTklIKJs=",
+        "originContent": "***Play with the live demo at",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "KSidmTxYXDfxyFvcN51XZl4Q52MfSVDXAnKFE8121H4=",
+        "originContent": "  [pythonanywhere](http://favainvestor.pythonanywhere.com/example-beancount-file/extension/Investor/)***.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### スクリーンショット（日付付き）:"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![Screenshot: TLH](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot.png)"
+      },
+      {
+        "row": 23,
+        "rowsha": "ogbjLvBuGRwtQlNvnvwSZPJGvEJHclOqj3wfA2CDcac=",
+        "originContent": "#### Screenshots (dated):",
+        "translatedContent": "![Screenshot: Asset Allocation](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot-assetalloc.png)"
+      },
+      {
+        "row": 24,
+        "rowsha": "0DrlWJw7TTvsfJTsMN4RkHrR+NaCAF096ImRF1EZCV8=",
+        "originContent": "![Screenshot: TLH](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "1Wc0rKEJncbmvVdMffblRCqBIHJBbi9N2qEfVX8qXSo=",
+        "originContent": "![Screenshot: Asset Allocation](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot-assetalloc.png)",
+        "translatedContent": "### ユーティリティ"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "CMj8oo3YwE9CF+KpT+zwXU1SGJkScqoB44lhh7CgcFI=",
+        "originContent": "### Utilities",
+        "translatedContent": "Fava Investorには`ticker-util`が付属しており、これは以下のユーティリティの集合です："
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Yahooからコモディティ（ティッカー）の情報をダウンロードし、"
+      },
+      {
+        "row": 29,
+        "rowsha": "nOnd4abAN5/x/jzSyl9Vod37RxwG/f2dEOGpNHTAtsc=",
+        "originContent": "Fava Investor ships with `ticker-util`, which is a collection of utilities for:",
+        "translatedContent": "  コモディティ宣言にメタデータを注釈付けする"
+      },
+      {
+        "row": 30,
+        "rowsha": "8lGENy2JtFXikqPVcfmmnhWUK4BYtg03FbtfKH+vnmo=",
+        "originContent": "- downloading information from Yahoo for commodities (tickers), and annotating your",
+        "translatedContent": "- Beancountファイル内のティッカー間の関係を発見する、例えば同等または実質的に同一のティッカー、"
+      },
+      {
+        "row": 31,
+        "rowsha": "Vxn6ZlK8PkKY03WLhEyJACMmTubSc6LL34axxtPH3Z8=",
+        "originContent": "  commodity declarations with metadata",
+        "translatedContent": "  そして税損収穫のパートナーグループを、最小かつ不完全な仕様から抽出する"
+      },
+      {
+        "row": 32,
+        "rowsha": "91MQQg1SKnA4eeS/gUxKrQfBVRKWkWGiBOlbC7Iq7EM=",
+        "originContent": "- discovering relationships between tickers in your Beancount file, such as equivalent",
+        "translatedContent": "- インポーターにISINなどのティッカー識別情報を提供する"
+      },
+      {
+        "row": 33,
+        "rowsha": "n6kKvyFKHJerdksriw7ubrLoAJxjLog2WcShOT7kMWg=",
+        "originContent": "  and substantially identical tickers, and tax loss harvesting partner groups, from a",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "Lc9OfiZrKNvgNSekMublaCJCCuF8HZMc2O+DlNvthQs=",
+        "originContent": "  minimal and incomplete specification",
+        "translatedContent": "詳細については、pipでfava_investorをインストールし、以下を参照してください："
+      },
+      {
+        "row": 35,
+        "rowsha": "p9GZa84RMiPzZOVIx0ifSb2QF3M7ALldRy048aAzXXM=",
+        "originContent": "- providing ISIN an other ticker identifying information to your importers",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "GA6B7YL1ne5vRKONpMohk8RRMG0j3OX6tumj+CkzIlo=",
+        "originContent": "For more, install fava_investor via pip, and then see:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\nticker-util --help\nticker-util relate --help\n```",
+    "ContentSha": "t2OmJ8s7lDni4F2wcsdVR4WkLuLiAhSYCDbMm42CVO8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nticker-util --help\nticker-util relate --help\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7l9k0mPdr2v8OxWuGYKopR4st/pKOV034ahTsWTCoY=",
+        "originContent": "ticker-util --help",
+        "translatedContent": "ticker-util --help"
+      },
+      {
+        "row": 3,
+        "rowsha": "hUS4zEFZ0AcfEPqKKv5ePcgNaqPuKPKNCxxhGL6ppXs=",
+        "originContent": "ticker-util relate --help",
+        "translatedContent": "ticker-util relate --help"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n\n## Installation",
+    "ContentSha": "xcT88hKlYlyy/e5mQhNKAO2O5KwKCSSF9LhSPcdV1cQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## インストール\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 3,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\npip3 install fava-investor\n```",
+    "ContentSha": "WFIM4McAN/uishmU7vCDMgN4rBdH337T2m3PqIL03Iw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip3 install fava-investor\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "0GwVAiDpCUxQithb1WoZQAguCzyohpG/PxKi2RyFbR8=",
+        "originContent": "pip3 install fava-investor",
+        "translatedContent": "pip3 install fava-investor"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nOr to install the bleeding edge version from git:",
+    "ContentSha": "h50+MnkPyNqlfLPlY7bBcehhNiqfChWpxWBmL4DLs/c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nまたは、gitから最新の開発版をインストールするには：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Wpy9hb8OysHK0J4tel7nW+hZO8/a9GjuVPDDCDnjxCQ=",
+        "originContent": "Or to install the bleeding edge version from git:",
+        "translatedContent": "または、gitから最新の開発版をインストールするには："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\npip3 install git+https://github.com/redstreet/fava_investor\n```",
+    "ContentSha": "IF+Hiw7C/AUD/4CB2Lez2JuRxm3o0qjaxVo1n29jVX4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip3 install git+https://github.com/redstreet/fava_investor\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "AwslOcLkkLUZZ35FmKtJtdl0PQoHGKBRd7zCSNBPp88=",
+        "originContent": "pip3 install git+https://github.com/redstreet/fava_investor",
+        "translatedContent": "pip3 install git+https://github.com/redstreet/fava_investor"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "See [#55](https://github.com/redstreet/fava_investor/issues/55) for MacOS installation.\n\nNote the latest version of Fava Investor is compatible with both Beancount v2 and v3.\n\n## Running Fava Investor\n### Running in Fava:\nAdd this to your beancount source, and start up fava as usual:",
+    "ContentSha": "DHP/uIbC98TcFeWriPju/+MLc3WqX2BGovspinf1ywM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "MacOSのインストールについては[#55](https://github.com/redstreet/fava_investor/issues/55)を参照してください。\n\n最新バージョンのFava InvestorはBeancount v2およびv3の両方に対応していることに注意してください。\n\n## Fava Investorの実行\n### Fava内での実行：\nこれをbeancountのソースに追加し、通常通りfavaを起動してください：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "VR1DUK458qB6CziW0dxAU3JqoG7vDXOhwXPqMrKdiRc=",
+        "originContent": "See [#55](https://github.com/redstreet/fava_investor/issues/55) for MacOS installation.",
+        "translatedContent": "MacOSのインストールについては[#55](https://github.com/redstreet/fava_investor/issues/55)を参照してください。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "xq/9N7kav5enCyb5RU6AaWakz0xHksgcaN5NOkwvalY=",
+        "originContent": "Note the latest version of Fava Investor is compatible with both Beancount v2 and v3.",
+        "translatedContent": "最新バージョンのFava InvestorはBeancount v2およびv3の両方に対応していることに注意してください。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ubQ3dNm5Gby2Kv8QRKz7ePhkNd+B1GkTBj2G4pte/TE=",
+        "originContent": "## Running Fava Investor",
+        "translatedContent": "## Fava Investorの実行"
+      },
+      {
+        "row": 6,
+        "rowsha": "7Niq0Y17PxofdNPA1M19kMkodQk0kHKW+Em/N9rDXcU=",
+        "originContent": "### Running in Fava:",
+        "translatedContent": "### Fava内での実行："
+      },
+      {
+        "row": 7,
+        "rowsha": "BR/xPTOo3bSBuGHIjUJDDZYaHv0FV35Hfcx2MY6kUnQ=",
+        "originContent": "Add this to your beancount source, and start up fava as usual:",
+        "translatedContent": "これをbeancountのソースに追加し、通常通りfavaを起動してください："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\n2000-01-01 custom \"fava-extension\" \"fava_investor\" \"{}\"\n```",
+    "ContentSha": "fBkmMWXYeRCWNV++3Kc+WVPXaBDhcsq1jeAgtkq4RaY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n2000-01-01 custom \"fava-extension\" \"fava_investor\" \"{}\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Z+nEBghhhsCfJInD0XX3MEuIF60BRidDzdfP4tf5r/4=",
+        "originContent": "2000-01-01 custom \"fava-extension\" \"fava_investor\" \"{}\"",
+        "translatedContent": "2000-01-01 custom \"fava-extension\" \"fava_investor\" \"{}\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nYou should now see an 'Investor' link in the sidebar in fava. For more on how to\nconfigure the extension, see the included `huge-example.beancount`.\n\n### Running on the Command-Line:\nThe command line interface (CLI) is accessed using the `investor` command, which has\nsubcommands for each module. Eg:\n",
+    "ContentSha": "5ehMEp7l/TrzQ0Vfa0UJIAxbVRjDAOuo8ModLDimU1M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nfavaのサイドバーに「Investor」リンクが表示されているはずです。拡張機能の設定方法の詳細は、同梱の `huge-example.beancount` を参照してください。\n\n### コマンドラインでの実行：\nコマンドラインインターフェース（CLI）は `investor` コマンドでアクセスでき、各モジュールごとのサブコマンドがあります。例：\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "o00+CGsQXYVr4qxO/7oUQqTzN/udpQlmjP/Zx35eBV8=",
+        "originContent": "You should now see an 'Investor' link in the sidebar in fava. For more on how to",
+        "translatedContent": "favaのサイドバーに「Investor」リンクが表示されているはずです。拡張機能の設定方法の詳細は、同梱の `huge-example.beancount` を参照してください。"
+      },
+      {
+        "row": 3,
+        "rowsha": "fm6QgYLDWkvzuk5AV8Dmm+yEdYlnVza+Ku/hjkj0Czk=",
+        "originContent": "configure the extension, see the included `huge-example.beancount`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### コマンドラインでの実行："
+      },
+      {
+        "row": 5,
+        "rowsha": "Rnvz5iHYOQenFOLLsyw0PzimpCzSgkrxF77CmaNJZzI=",
+        "originContent": "### Running on the Command-Line:",
+        "translatedContent": "コマンドラインインターフェース（CLI）は `investor` コマンドでアクセスでき、各モジュールごとのサブコマンドがあります。例："
+      },
+      {
+        "row": 6,
+        "rowsha": "+Qh8entyNDele864LqCUHiHXmT7CRq+6xXP4dTO8CrQ=",
+        "originContent": "The command line interface (CLI) is accessed using the `investor` command, which has",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "lombwb+32Clk5fcBV36uozn8UiX0sV55dwQ19512CDA=",
+        "originContent": "subcommands for each module. Eg:",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\ninvestor assetalloc-class\ninvestor tlh\ninvestor --help\n```",
+    "ContentSha": "vUfUovxas8iX7ioglyT/RFL7u/u35jrP31M24z9GNzY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ninvestor assetalloc-class\ninvestor tlh\ninvestor --help\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ML5v4BiF1DY0UZ6wC+R6QDepaxU6mIindB7/wAWTEO8=",
+        "originContent": "investor assetalloc-class",
+        "translatedContent": "investor assetalloc-class"
+      },
+      {
+        "row": 3,
+        "rowsha": "+wr8RjvmZNhvGRBJLk+lPdCcC51L5sY+6kuO+6bLLU8=",
+        "originContent": "investor tlh",
+        "translatedContent": "investor tlh"
+      },
+      {
+        "row": 4,
+        "rowsha": "7VPjLyzoAJBWblXqxEqDd3WyRMYwi7f299ysvS0qxsw=",
+        "originContent": "investor --help",
+        "translatedContent": "investor --help"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nBoth the CLI and the utility (`ticker-util`) use [click](https://click.palletsprojects.com/en/8.1.x/).\n[See here](https://click.palletsprojects.com/en/8.1.x/shell-completion/#enabling-completion)\nto enable shell completion in zsh, bash, or fish, which is highly recommended.\n\n## Problems?\n- Monitor the terminal you are running fava from to look for error output from\n  fava_investor\n- Include the error messages you see above when opening bug reports or asking for help\n\n## Contributing\n\nFeatures, fixes, and improvements welcome. Remember:\n- Feel free to send send pull requests. Please include unit tests\n- For larger changes or changes that might need discussion, please reach out and discuss\n  first to save time (open an issue) \n- Please squash your commits (reasonably)\n- Use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for commit messages\n\nThank you for contributing!\n\n## Related Projects\n- [Fava Dashboards](https://github.com/andreasgerstmayr/fava-dashboards)\n- [Fava Portfolio Returns](https://github.com/andreasgerstmayr/fava-portfolio-returns)\n- [Beangrow](https://github.com/beancount/beangrow)\n",
+    "ContentSha": "b6H9RcxQoIrpZcjpFRvP5OHCaFEGf7Ol1YRINETDapY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nCLIとユーティリティ（`ticker-util`）はどちらも[click](https://click.palletsprojects.com/en/8.1.x/)を使用しています。\n[zsh、bash、fishでのシェル補完の有効化についてはこちら](https://click.palletsprojects.com/en/8.1.x/shell-completion/#enabling-completion)を参照してください。強く推奨されます。\n\n## 問題がありますか？\n- favaを実行している端末を監視し、fava_investorからのエラー出力を確認してください\n- バグ報告やヘルプを求める際には、上記のエラーメッセージを含めてください\n\n## 貢献について\n\n機能追加、修正、改善を歓迎します。以下を覚えておいてください：\n- プルリクエストを自由に送ってください。ユニットテストを必ず含めてください\n- 大きな変更や議論が必要な変更の場合は、時間節約のために先に連絡して議論してください（issueを開く）\n- コミットは（適切に）スカッシュしてください\n- コミットメッセージには[conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)を使用してください\n\nご協力ありがとうございます！\n\n## 関連プロジェクト\n- [Fava Dashboards](https://github.com/andreasgerstmayr/fava-dashboards)\n- [Fava Portfolio Returns](https://github.com/andreasgerstmayr/fava-portfolio-returns)\n- [Beangrow](https://github.com/beancount/beangrow)\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mcwMc+SJg+5qwOrBE8LtNiUP6v/KsV+hY6IaTPlRuew=",
+        "originContent": "Both the CLI and the utility (`ticker-util`) use [click](https://click.palletsprojects.com/en/8.1.x/).",
+        "translatedContent": "CLIとユーティリティ（`ticker-util`）はどちらも[click](https://click.palletsprojects.com/en/8.1.x/)を使用しています。"
+      },
+      {
+        "row": 3,
+        "rowsha": "aY5ARvoLCXkmaE2wYxAS54nh/48xN8X5pOBqBt+xSzo=",
+        "originContent": "[See here](https://click.palletsprojects.com/en/8.1.x/shell-completion/#enabling-completion)",
+        "translatedContent": "[zsh、bash、fishでのシェル補完の有効化についてはこちら](https://click.palletsprojects.com/en/8.1.x/shell-completion/#enabling-completion)を参照してください。強く推奨されます。"
+      },
+      {
+        "row": 4,
+        "rowsha": "nTMKqBsIKAZR+Db+8LFwqsgUXD4yreYeUjan+ykvzHY=",
+        "originContent": "to enable shell completion in zsh, bash, or fish, which is highly recommended.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 問題がありますか？"
+      },
+      {
+        "row": 6,
+        "rowsha": "Hhhu5rghwiy6tbHLV2FcXmOtL11+L6FGIgXBRZLLODI=",
+        "originContent": "## Problems?",
+        "translatedContent": "- favaを実行している端末を監視し、fava_investorからのエラー出力を確認してください"
+      },
+      {
+        "row": 7,
+        "rowsha": "GMO5tG3KZykgryAxflfHwxf51cQprhuedSivEF2a4Fg=",
+        "originContent": "- Monitor the terminal you are running fava from to look for error output from",
+        "translatedContent": "- バグ報告やヘルプを求める際には、上記のエラーメッセージを含めてください"
+      },
+      {
+        "row": 8,
+        "rowsha": "z7cpHHogM35T0CdLxOr+5cu1wUkIFWUwpQTzzGfEjY0=",
+        "originContent": "  fava_investor",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "dGcf+FsghjEPUzao6ezJ7EAECtG+pRSQEbUC0HVhfAU=",
+        "originContent": "- Include the error messages you see above when opening bug reports or asking for help",
+        "translatedContent": "## 貢献について"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "機能追加、修正、改善を歓迎します。以下を覚えておいてください："
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- プルリクエストを自由に送ってください。ユニットテストを必ず含めてください"
+      },
+      {
+        "row": 13,
+        "rowsha": "FMwNrXwBKMoQUAl9dpS508yaMZxGIcfVaXMD14a2Jc4=",
+        "originContent": "Features, fixes, and improvements welcome. Remember:",
+        "translatedContent": "- 大きな変更や議論が必要な変更の場合は、時間節約のために先に連絡して議論してください（issueを開く）"
+      },
+      {
+        "row": 14,
+        "rowsha": "ZZmAR8ZCay72DS4SsMTrs9mvW2/1m8S8sAXzlwyiB/o=",
+        "originContent": "- Feel free to send send pull requests. Please include unit tests",
+        "translatedContent": "- コミットは（適切に）スカッシュしてください"
+      },
+      {
+        "row": 15,
+        "rowsha": "opUB7Kv99EYK50IK+O1rVTZKnpbOQP5MfGqgYYAcDws=",
+        "originContent": "- For larger changes or changes that might need discussion, please reach out and discuss",
+        "translatedContent": "- コミットメッセージには[conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)を使用してください"
+      },
+      {
+        "row": 16,
+        "rowsha": "uVBNQskgb36h3uVCsU+eoBAOiEVFZ8rV3Jv1vzasAbk=",
+        "originContent": "  first to save time (open an issue) ",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "/kapVgrda+U56+yeWiF+ejtfD1KxgUabn6GDNA3Elf8=",
+        "originContent": "- Please squash your commits (reasonably)",
+        "translatedContent": "ご協力ありがとうございます！"
+      },
+      {
+        "row": 18,
+        "rowsha": "43VQqUcs1OxYYuSagPPEzY3dWgKMZ5wYvYxUaNUkvxE=",
+        "originContent": "- Use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for commit messages",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 関連プロジェクト"
+      },
+      {
+        "row": 20,
+        "rowsha": "QnxDjww8SCgfDSs7NPFYN8JFtNArgfCSjLM2BZ6IbkQ=",
+        "originContent": "Thank you for contributing!",
+        "translatedContent": "- [Fava Dashboards](https://github.com/andreasgerstmayr/fava-dashboards)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Fava Portfolio Returns](https://github.com/andreasgerstmayr/fava-portfolio-returns)"
+      },
+      {
+        "row": 22,
+        "rowsha": "029pqroXXjHSLawpWTocF2CPk5dLz29+pGq/paa0amA=",
+        "originContent": "## Related Projects",
+        "translatedContent": "- [Beangrow](https://github.com/beancount/beangrow)"
+      },
+      {
+        "row": 23,
+        "rowsha": "RvNEMIMpScZQSmuME8KaV4QIKckn4K4cPaxBAzDnAQg=",
+        "originContent": "- [Fava Dashboards](https://github.com/andreasgerstmayr/fava-dashboards)",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "dhFjskW0pwlkjEieww8rtgD5ibZ5+6iOs5Cg5N+sWto=",
+        "originContent": "- [Fava Portfolio Returns](https://github.com/andreasgerstmayr/fava-portfolio-returns)",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "RVbJ8TzuO1M0SlH1pXeWVEaqKB6hnu36YvUbMeuz5ZI=",
+        "originContent": "- [Beangrow](https://github.com/beancount/beangrow)",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

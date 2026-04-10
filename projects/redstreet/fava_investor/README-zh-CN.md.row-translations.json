@@ -1,0 +1,608 @@
+[
+  {
+    "row": 1,
+    "rowsha": "aVJLvfJgLq6LyyTWPuemOCbzxlp6T+Jby1m+Li1PYZg=",
+    "originContent": "# Fava Investor",
+    "translatedContent": "# Fava 投资者"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "j5j579ZrQyJ+7u6eiobRIOHDKHoWjUBlTSzMD29kREs=",
+    "originContent": "Fava Investor aims to be a comprehensive set of reports, analyses, and tools for",
+    "translatedContent": "Fava 投资者旨在为[Beancount](https://beancount.github.io/)和"
+  },
+  {
+    "row": 4,
+    "rowsha": "EgDbTH8WCOlUWx0lh5/XIoZXhFxuQmxgyv39gBh2tTs=",
+    "originContent": "investments, for [Beancount](https://beancount.github.io/) and",
+    "translatedContent": "[Fava](https://github.com/beancount/fava)（用于"
+  },
+  {
+    "row": 5,
+    "rowsha": "hhoH5x3lybhNRTgqiN494qiqDyHCVEIHoNon3rAV/jo=",
+    "originContent": "[Fava](https://github.com/beancount/fava) (software for",
+    "translatedContent": "[纯文本复式记账](https://plaintextaccounting.org/)的软件）提供一套全面的投资报告、分析和工具。它作为一组模块开发，每个模块提供一个*Fava 插件、一个 Beancount 库和一个命令行工具*。"
+  },
+  {
+    "row": 6,
+    "rowsha": "xdD/8DN9mo1dsGbP5u+mMuERu9wNy9yl6vi+hipKzeM=",
+    "originContent": "[plain text, double entry bookkeeping](https://plaintextaccounting.org/)). It is developed as a",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "HTqMDwRenfurnh15O+mwrspAcJOXzwVf2MPitOpvYBc=",
+    "originContent": "collection of modules, with each module offering a *Fava plugin, a Beancount library, and",
+    "translatedContent": "### 当前模块："
+  },
+  {
+    "row": 8,
+    "rowsha": "5F+a0CrYR0Utbaon/TwZ15GF69htakS0g74USw+gBzg=",
+    "originContent": "a shell command*.",
+    "translatedContent": "- [按类别的可视化树状资产配置](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/assetalloc_class#readme)"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 按账户的资产配置"
+  },
+  {
+    "row": 10,
+    "rowsha": "sqn1S/4rb5rV7odVumsT3pRs4Yh9Xx/UIbYJorZwI1I=",
+    "originContent": "### Current modules:",
+    "translatedContent": "- [税损收割工具](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/tlh#readme)"
+  },
+  {
+    "row": 11,
+    "rowsha": "VKaPtdigyDerV+VNElOi2b/lFhTLM6apsvogfmaAiSY=",
+    "originContent": "- [Visual, tree structured asset allocation by class](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/assetalloc_class#readme)",
+    "translatedContent": "- [现金拖累分析](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/cashdrag#readme)"
+  },
+  {
+    "row": 12,
+    "rowsha": "cyOlvnlsxIOT6UxG8rJspCYPVLvzXs4IM52y2uQcyUw=",
+    "originContent": "- Asset allocation by account",
+    "translatedContent": "- [摘要器](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/summarizer#readme)"
+  },
+  {
+    "row": 13,
+    "rowsha": "IkFzBDibINVCVvhabi8WI5wWuQfliIdTdvVutToUjr0=",
+    "originContent": "- [Tax loss harvestor](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/tlh#readme)",
+    "translatedContent": "- [收益最小化器](https://github.com/redstreet/fava_investor/blob/main/fava_investor/modules/minimizegains#readme)"
+  },
+  {
+    "row": 14,
+    "rowsha": "2+mR+RZOTM2x2i8u4vSeY5Pb2CT0FtB8ZHG/iqm/E1k=",
+    "originContent": "- [Cash drag analysis](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/cashdrag#readme)",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "pZD25Ku2qZabCaBEfcP8hUAuZRMoBbzNVzZrbhcjdcM=",
+    "originContent": "- [Summarizer](https://github.com/redstreet/fava_investor/tree/main/fava_investor/modules/summarizer#readme)",
+    "translatedContent": "### 演示"
+  },
+  {
+    "row": 16,
+    "rowsha": "DZYEP/yB36qRK5nqyUd8DdvTYvvaILj5n9i2dBKLduo=",
+    "originContent": "- [Gains minimizer](https://github.com/redstreet/fava_investor/blob/main/fava_investor/modules/minimizegains#readme)",
+    "translatedContent": "***在 [pythonanywhere](http://favainvestor.pythonanywhere.com/example-beancount-file/extension/Investor/) 上体验实时演示。***"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "FwAjzDznmCWPPPh91IN4AfV1hHd2F8LHAYADCNyVKF4=",
+    "originContent": "### Demo",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "/oFQpjsSHuERooYn7EEBuTGcgRQnoFlPVm+XTklIKJs=",
+    "originContent": "***Play with the live demo at",
+    "translatedContent": "#### 截图（日期）："
+  },
+  {
+    "row": 20,
+    "rowsha": "KSidmTxYXDfxyFvcN51XZl4Q52MfSVDXAnKFE8121H4=",
+    "originContent": "  [pythonanywhere](http://favainvestor.pythonanywhere.com/example-beancount-file/extension/Investor/)***.",
+    "translatedContent": "![截图：税损收割](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot.png)"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![截图：资产配置](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot-assetalloc.png)"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "ogbjLvBuGRwtQlNvnvwSZPJGvEJHclOqj3wfA2CDcac=",
+    "originContent": "#### Screenshots (dated):",
+    "translatedContent": "### 工具集"
+  },
+  {
+    "row": 24,
+    "rowsha": "0DrlWJw7TTvsfJTsMN4RkHrR+NaCAF096ImRF1EZCV8=",
+    "originContent": "![Screenshot: TLH](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "1Wc0rKEJncbmvVdMffblRCqBIHJBbi9N2qEfVX8qXSo=",
+    "originContent": "![Screenshot: Asset Allocation](https://raw.githubusercontent.com/redstreet/fava_investor/main/./screenshot-assetalloc.png)",
+    "translatedContent": "Fava 投资者附带 `ticker-util`，这是一组用于："
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 从雅虎下载商品（代码）信息，并为您的商品声明添加元数据注释"
+  },
+  {
+    "row": 27,
+    "rowsha": "CMj8oo3YwE9CF+KpT+zwXU1SGJkScqoB44lhh7CgcFI=",
+    "originContent": "### Utilities",
+    "translatedContent": "- 发现 Beancount 文件中代码之间的关系，如等价和实质相同代码，以及税损收割合作组，基于最小且不完整的规范"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 为您的导入器提供 ISIN 及其他代码识别信息"
+  },
+  {
+    "row": 29,
+    "rowsha": "nOnd4abAN5/x/jzSyl9Vod37RxwG/f2dEOGpNHTAtsc=",
+    "originContent": "Fava Investor ships with `ticker-util`, which is a collection of utilities for:",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "8lGENy2JtFXikqPVcfmmnhWUK4BYtg03FbtfKH+vnmo=",
+    "originContent": "- downloading information from Yahoo for commodities (tickers), and annotating your",
+    "translatedContent": "更多内容，请通过 pip 安装 fava_investor，然后查看："
+  },
+  {
+    "row": 31,
+    "rowsha": "Vxn6ZlK8PkKY03WLhEyJACMmTubSc6LL34axxtPH3Z8=",
+    "originContent": "  commodity declarations with metadata",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "91MQQg1SKnA4eeS/gUxKrQfBVRKWkWGiBOlbC7Iq7EM=",
+    "originContent": "- discovering relationships between tickers in your Beancount file, such as equivalent",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "n6kKvyFKHJerdksriw7ubrLoAJxjLog2WcShOT7kMWg=",
+    "originContent": "  and substantially identical tickers, and tax loss harvesting partner groups, from a",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "Lc9OfiZrKNvgNSekMublaCJCCuF8HZMc2O+DlNvthQs=",
+    "originContent": "  minimal and incomplete specification",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "p9GZa84RMiPzZOVIx0ifSb2QF3M7ALldRy048aAzXXM=",
+    "originContent": "- providing ISIN an other ticker identifying information to your importers",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "GA6B7YL1ne5vRKONpMohk8RRMG0j3OX6tumj+CkzIlo=",
+    "originContent": "For more, install fava_investor via pip, and then see:",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "Y7l9k0mPdr2v8OxWuGYKopR4st/pKOV034ahTsWTCoY=",
+    "originContent": "ticker-util --help",
+    "translatedContent": "ticker-util --help"
+  },
+  {
+    "row": 40,
+    "rowsha": "hUS4zEFZ0AcfEPqKKv5ePcgNaqPuKPKNCxxhGL6ppXs=",
+    "originContent": "ticker-util relate --help",
+    "translatedContent": "ticker-util relate --help"
+  },
+  {
+    "row": 41,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 45,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 46,
+    "rowsha": "0GwVAiDpCUxQithb1WoZQAguCzyohpG/PxKi2RyFbR8=",
+    "originContent": "pip3 install fava-investor",
+    "translatedContent": "pip3 install fava-investor"
+  },
+  {
+    "row": 47,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "Wpy9hb8OysHK0J4tel7nW+hZO8/a9GjuVPDDCDnjxCQ=",
+    "originContent": "Or to install the bleeding edge version from git:",
+    "translatedContent": "或者从 git 安装最新的开发版本："
+  },
+  {
+    "row": 50,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 51,
+    "rowsha": "AwslOcLkkLUZZ35FmKtJtdl0PQoHGKBRd7zCSNBPp88=",
+    "originContent": "pip3 install git+https://github.com/redstreet/fava_investor",
+    "translatedContent": "pip3 install git+https://github.com/redstreet/fava_investor"
+  },
+  {
+    "row": 52,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 53,
+    "rowsha": "VR1DUK458qB6CziW0dxAU3JqoG7vDXOhwXPqMrKdiRc=",
+    "originContent": "See [#55](https://github.com/redstreet/fava_investor/issues/55) for MacOS installation.",
+    "translatedContent": "请参见 [#55](https://github.com/redstreet/fava_investor/issues/55) 了解 MacOS 安装。"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "xq/9N7kav5enCyb5RU6AaWakz0xHksgcaN5NOkwvalY=",
+    "originContent": "Note the latest version of Fava Investor is compatible with both Beancount v2 and v3.",
+    "translatedContent": "请注意，最新版本的 Fava Investor 兼容 Beancount v2 和 v3。"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "ubQ3dNm5Gby2Kv8QRKz7ePhkNd+B1GkTBj2G4pte/TE=",
+    "originContent": "## Running Fava Investor",
+    "translatedContent": "## 运行 Fava Investor"
+  },
+  {
+    "row": 58,
+    "rowsha": "7Niq0Y17PxofdNPA1M19kMkodQk0kHKW+Em/N9rDXcU=",
+    "originContent": "### Running in Fava:",
+    "translatedContent": "### 在 Fava 中运行："
+  },
+  {
+    "row": 59,
+    "rowsha": "BR/xPTOo3bSBuGHIjUJDDZYaHv0FV35Hfcx2MY6kUnQ=",
+    "originContent": "Add this to your beancount source, and start up fava as usual:",
+    "translatedContent": "将此添加到您的 beancount 源文件中，然后像往常一样启动 fava："
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "Z+nEBghhhsCfJInD0XX3MEuIF60BRidDzdfP4tf5r/4=",
+    "originContent": "2000-01-01 custom \"fava-extension\" \"fava_investor\" \"{}\"",
+    "translatedContent": "2000-01-01 custom \"fava-extension\" \"fava_investor\" \"{}\""
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "你现在应该能在 fava 的侧边栏中看到一个“Investor”链接。有关如何配置该扩展的更多信息，请参阅附带的 `huge-example.beancount`。"
+  },
+  {
+    "row": 64,
+    "rowsha": "o00+CGsQXYVr4qxO/7oUQqTzN/udpQlmjP/Zx35eBV8=",
+    "originContent": "You should now see an 'Investor' link in the sidebar in fava. For more on how to",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "fm6QgYLDWkvzuk5AV8Dmm+yEdYlnVza+Ku/hjkj0Czk=",
+    "originContent": "configure the extension, see the included `huge-example.beancount`.",
+    "translatedContent": "### 命令行运行："
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "命令行界面（CLI）通过 `investor` 命令访问，该命令为每个模块提供子命令。例如："
+  },
+  {
+    "row": 67,
+    "rowsha": "Rnvz5iHYOQenFOLLsyw0PzimpCzSgkrxF77CmaNJZzI=",
+    "originContent": "### Running on the Command-Line:",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "+Qh8entyNDele864LqCUHiHXmT7CRq+6xXP4dTO8CrQ=",
+    "originContent": "The command line interface (CLI) is accessed using the `investor` command, which has",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "lombwb+32Clk5fcBV36uozn8UiX0sV55dwQ19512CDA=",
+    "originContent": "subcommands for each module. Eg:",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 72,
+    "rowsha": "ML5v4BiF1DY0UZ6wC+R6QDepaxU6mIindB7/wAWTEO8=",
+    "originContent": "investor assetalloc-class",
+    "translatedContent": "investor assetalloc-class"
+  },
+  {
+    "row": 73,
+    "rowsha": "+wr8RjvmZNhvGRBJLk+lPdCcC51L5sY+6kuO+6bLLU8=",
+    "originContent": "investor tlh",
+    "translatedContent": "investor tlh"
+  },
+  {
+    "row": 74,
+    "rowsha": "7VPjLyzoAJBWblXqxEqDd3WyRMYwi7f299ysvS0qxsw=",
+    "originContent": "investor --help",
+    "translatedContent": "investor --help"
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "mcwMc+SJg+5qwOrBE8LtNiUP6v/KsV+hY6IaTPlRuew=",
+    "originContent": "Both the CLI and the utility (`ticker-util`) use [click](https://click.palletsprojects.com/en/8.1.x/).",
+    "translatedContent": "Both the CLI and the utility (`ticker-util`) use [click](https://click.palletsprojects.com/en/8.1.x/)."
+  },
+  {
+    "row": 78,
+    "rowsha": "aY5ARvoLCXkmaE2wYxAS54nh/48xN8X5pOBqBt+xSzo=",
+    "originContent": "[See here](https://click.palletsprojects.com/en/8.1.x/shell-completion/#enabling-completion)",
+    "translatedContent": "[参见这里](https://click.palletsprojects.com/en/8.1.x/shell-completion/#enabling-completion)"
+  },
+  {
+    "row": 79,
+    "rowsha": "nTMKqBsIKAZR+Db+8LFwqsgUXD4yreYeUjan+ykvzHY=",
+    "originContent": "to enable shell completion in zsh, bash, or fish, which is highly recommended.",
+    "translatedContent": "以启用 zsh、bash 或 fish 的 shell 补全，强烈推荐使用。"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "Hhhu5rghwiy6tbHLV2FcXmOtL11+L6FGIgXBRZLLODI=",
+    "originContent": "## Problems?",
+    "translatedContent": "## 遇到问题？"
+  },
+  {
+    "row": 82,
+    "rowsha": "GMO5tG3KZykgryAxflfHwxf51cQprhuedSivEF2a4Fg=",
+    "originContent": "- Monitor the terminal you are running fava from to look for error output from",
+    "translatedContent": "- 监视运行 fava 的终端，查看 fava_investor 的错误输出"
+  },
+  {
+    "row": 83,
+    "rowsha": "z7cpHHogM35T0CdLxOr+5cu1wUkIFWUwpQTzzGfEjY0=",
+    "originContent": "  fava_investor",
+    "translatedContent": "- 在提交错误报告或寻求帮助时，请包含上述错误信息"
+  },
+  {
+    "row": 84,
+    "rowsha": "dGcf+FsghjEPUzao6ezJ7EAECtG+pRSQEbUC0HVhfAU=",
+    "originContent": "- Include the error messages you see above when opening bug reports or asking for help",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 贡献指南"
+  },
+  {
+    "row": 86,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "欢迎功能、修复和改进。请记住："
+  },
+  {
+    "row": 88,
+    "rowsha": "FMwNrXwBKMoQUAl9dpS508yaMZxGIcfVaXMD14a2Jc4=",
+    "originContent": "Features, fixes, and improvements welcome. Remember:",
+    "translatedContent": "- 欢迎提交拉取请求。请包含单元测试"
+  },
+  {
+    "row": 89,
+    "rowsha": "ZZmAR8ZCay72DS4SsMTrs9mvW2/1m8S8sAXzlwyiB/o=",
+    "originContent": "- Feel free to send send pull requests. Please include unit tests",
+    "translatedContent": "- 对于较大改动或可能需要讨论的更改，请先联系讨论以节省时间（打开 issue）"
+  },
+  {
+    "row": 90,
+    "rowsha": "opUB7Kv99EYK50IK+O1rVTZKnpbOQP5MfGqgYYAcDws=",
+    "originContent": "- For larger changes or changes that might need discussion, please reach out and discuss",
+    "translatedContent": "- 请合理合并您的提交"
+  },
+  {
+    "row": 91,
+    "rowsha": "uVBNQskgb36h3uVCsU+eoBAOiEVFZ8rV3Jv1vzasAbk=",
+    "originContent": "  first to save time (open an issue) ",
+    "translatedContent": "- 提交信息请使用 [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)"
+  },
+  {
+    "row": 92,
+    "rowsha": "/kapVgrda+U56+yeWiF+ejtfD1KxgUabn6GDNA3Elf8=",
+    "originContent": "- Please squash your commits (reasonably)",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "43VQqUcs1OxYYuSagPPEzY3dWgKMZ5wYvYxUaNUkvxE=",
+    "originContent": "- Use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for commit messages",
+    "translatedContent": "感谢您的贡献！"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "QnxDjww8SCgfDSs7NPFYN8JFtNArgfCSjLM2BZ6IbkQ=",
+    "originContent": "Thank you for contributing!",
+    "translatedContent": "## 相关项目"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [Fava Dashboards](https://github.com/andreasgerstmayr/fava-dashboards)"
+  },
+  {
+    "row": 97,
+    "rowsha": "029pqroXXjHSLawpWTocF2CPk5dLz29+pGq/paa0amA=",
+    "originContent": "## Related Projects",
+    "translatedContent": "- [Fava Portfolio Returns](https://github.com/andreasgerstmayr/fava-portfolio-returns)"
+  },
+  {
+    "row": 98,
+    "rowsha": "RvNEMIMpScZQSmuME8KaV4QIKckn4K4cPaxBAzDnAQg=",
+    "originContent": "- [Fava Dashboards](https://github.com/andreasgerstmayr/fava-dashboards)",
+    "translatedContent": "- [Beangrow](https://github.com/beancount/beangrow)"
+  },
+  {
+    "row": 99,
+    "rowsha": "dhFjskW0pwlkjEieww8rtgD5ibZ5+6iOs5Cg5N+sWto=",
+    "originContent": "- [Fava Portfolio Returns](https://github.com/andreasgerstmayr/fava-portfolio-returns)",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "RVbJ8TzuO1M0SlH1pXeWVEaqKB6hnu36YvUbMeuz5ZI=",
+    "originContent": "- [Beangrow](https://github.com/beancount/beangrow)",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
