@@ -1,35 +1,67 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/firemark.png" alt="firemark" width="200">
 </p>
 
 <h1 align="center">firemark</h1>
 
-<p align="center">Una herramienta de marca de agua rápida, con un solo binario, para imágenes y PDFs. Construida en Rust.</p>
+<p align="center">Una herramienta rápida y de un solo binario para marcar con agua imágenes y PDFs. Construida en Rust.</p>
 
-## ¿Por qué marcar con agua tus documentos?
+## ¿Por qué poner marcas de agua en tus documentos?
 
-Cada año, millones de personas son víctimas de fraudes de identidad que comienzan con un
-simple intercambio de documentos. Un escenario común: buscas un piso para alquilar.
-El propietario — o alguien que se hace pasar por él — pide una copia de tu identificación, un recibo de pago,
-un aviso fiscal. Se los envías sin marcar. El "propietario" desaparece, y tus
-documentos ahora se usan para abrir cuentas bancarias, solicitar préstamos o falsificar
-identidades en tu nombre.
+Cada año, millones de personas son víctimas de fraude de identidad que comienza con un
+simple intercambio de documentos. Un escenario común: estás buscando un piso para alquilar.
+El propietario — o alguien que se hace pasar por él — pide una copia de tu DNI, una nómina,
+una notificación de impuestos. Se los envías sin marcar. El "propietario" desaparece, y tus
+documentos ahora se usan para abrir cuentas bancarias, pedir préstamos o falsificar
+identidades a tu nombre.
 
-Marcar con agua cada documento que envíes es la defensa más efectiva.
-Una superposición visible que dice **"Enviado a la agencia XYZ — marzo de 2026 — solo para solicitud de alquiler de piso"** hace que el documento sea inútil para cualquier otro propósito. Si se
-filtra, sabes exactamente de dónde provino.
+Marcar con agua cada documento que envías es la defensa más efectiva.
+Una superposición visible que diga **"Enviado a agencia XYZ — Marzo 2026 — solo solicitud de alquiler de piso"**
+hace que el documento sea inútil para cualquier otro propósito. Si se filtra, sabes exactamente de dónde salió.
 
-firemark hace esto sin esfuerzo: un comando, cualquier imagen o PDF, 17 estilos
+firemark hace esto fácil: un solo comando, cualquier imagen o PDF, 17 estilos
 visuales, patrones criptográficos de filigrana que resisten la edición, y procesamiento por lotes
-para carpetas completas.
+para carpetas enteras.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/paycheck-firemark-comparison.png" alt="Antes y después de la marca de agua" width="800">
+  <img src="https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/paycheck-firemark-comparison.png" alt="Antes y después del marcado de agua" width="800">
   <br>
-  <em>Antes y después — un comando, el documento ahora es rastreable y evidencia manipulación.</em>
+  <em>Antes y después — un solo comando, el documento ahora es rastreable y evidencia manipulación.</em>
 </p>
 
-## Instalar
+## Instalación
 
 Desde [crates.io](https://crates.io/crates/firemark):
 
@@ -251,6 +283,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-11
 
 ---

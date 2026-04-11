@@ -1,199 +1,199 @@
 [
   {
     "Id": 1,
-    "Content": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/firemark.png\" alt=\"firemark\" width=\"200\">\n</p>\n\n<h1 align=\"center\">firemark</h1>\n\n<p align=\"center\">A fast, single-binary watermarking tool for images and PDFs. Built in Rust.</p>\n\n## Why watermark your documents?\n\nEvery year, millions of people fall victim to identity fraud that starts with a\nsimple document exchange. A common scenario: you're looking for a flat to rent.\nThe landlord — or someone posing as one — asks for a copy of your ID, a pay\nstub, a tax notice. You send them unmarked. The \"landlord\" disappears, and your\ndocuments are now used to open bank accounts, take out loans, or forge\nidentities in your name.\n\nWatermarking every document you send out is the single most effective defence.\nA visible overlay that reads **\"Sent to XYZ agency — March 2026 — flat rental\napplication only\"** makes the document useless for any other purpose. If it\nleaks, you know exactly where it came from.\n\nfiremark makes this effortless: one command, any image or PDF, 17 visual\nstyles, cryptographic filigrane patterns that resist editing, and batch\nprocessing for entire folders.\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/paycheck-firemark-comparison.png\" alt=\"Before and after watermarking\" width=\"800\">\n  <br>\n  <em>Before and after — one command, document is now traceable and tamper-evident.</em>\n</p>\n\n## Install\n\nFrom [crates.io](https://crates.io/crates/firemark):\n",
-    "ContentSha": "4OA392jpRsAbb2WlvrIaBh/XyddM69janUX9BmW8UjE=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/firemark.png\" alt=\"firemark\" width=\"200\">\n</p>\n\n<h1 align=\"center\">firemark</h1>\n\n<p align=\"center\">A fast, single-binary watermarking tool for images and PDFs. Built in Rust.</p>\n",
+    "ContentSha": "SAvrwf3Q1gfsA8tIkyuqtRAMqPqlqnNV9z3NGB8a8bY=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/firemark.png\" alt=\"firemark\" width=\"200\">\n</p>\n\n<h1 align=\"center\">firemark</h1>\n\n<p align=\"center\">画像とPDFのための高速な単一バイナリ透かしツール。Rustで構築。</p>\n\n## なぜドキュメントに透かしを入れるのか？\n\n毎年、何百万人もの人々が単純なドキュメント交換から始まる\n身分詐欺の被害に遭っています。よくあるシナリオ：あなたは賃貸物件を探しています。\n大家さん、またはそれを装う誰かが、あなたのIDのコピー、給与明細、税通知書を要求します。\nあなたは透かしなしで送ります。「大家さん」は姿を消し、\nあなたの書類は銀行口座の開設、ローンの借入、または\nあなたの名前を使った身分詐称に利用されます。\n\n送るすべてのドキュメントに透かしを入れることが最も効果的な防御策です。\n「XYZ機関に送信済み — 2026年3月 — 賃貸申請用のみ」という\n目に見えるオーバーレイは、他の目的には書類を無効にします。もし\n漏れた場合でも、どこから来たのか正確に分かります。\n\nfiremarkはこれを簡単にします：ワンコマンドで、任意の画像またはPDFに、\n17種類の視覚スタイル、編集に強い暗号学的フィリグラーネパターン、\nそしてフォルダ全体のバッチ処理が可能です。\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/paycheck-firemark-comparison.png\" alt=\"Before and after watermarking\" width=\"800\">\n  <br>\n  <em>透かし前後 — ワンコマンドでドキュメントは追跡可能かつ改ざん検出可能に。</em>\n</p>\n\n## インストール\n\n[crates.io](https://crates.io/crates/firemark)から：\n",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 言語</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/firemark.png\" alt=\"firemark\" width=\"200\">\n</p>\n\n<h1 align=\"center\">firemark</h1>\n\n<p align=\"center\">Rust製の、高速かつ単一バイナリの画像・PDF向けウォーターマークツール。</p>\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
-        "originContent": "<p align=\"center\">",
-        "translatedContent": "<p align=\"center\">"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 2,
-        "rowsha": "83kKzRW2UD7ihHuBH62dzE0fxkHgoNdd+MRoP1sFQqY=",
-        "originContent": "  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/firemark.png\" alt=\"firemark\" width=\"200\">",
-        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/firemark.png\" alt=\"firemark\" width=\"200\">"
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 3,
-        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-        "originContent": "</p>",
-        "translatedContent": "</p>"
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
       },
       {
         "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 言語</summary>"
       },
       {
         "row": 5,
-        "rowsha": "xcrKgGQ2iOX7B/PwherojT188J3eZ0YoFJCUjqRyVjY=",
-        "originContent": "<h1 align=\"center\">firemark</h1>",
-        "translatedContent": "<h1 align=\"center\">firemark</h1>"
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
       },
       {
         "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
       },
       {
         "row": 7,
-        "rowsha": "taX1tB6zqeijlJ1tcV3EYpBGZXunbK3nZZPBRM5/X7A=",
-        "originContent": "<p align=\"center\">A fast, single-binary watermarking tool for images and PDFs. Built in Rust.</p>",
-        "translatedContent": "<p align=\"center\">画像とPDFのための高速な単一バイナリ透かしツール。Rustで構築。</p>"
+        "rowsha": "cuyz0wwrCoH55TlCP3anAS27VB1VqmI5j74UCO7rsQI=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=en\">English</a>"
       },
       {
         "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "BV8LmDVcwNcxqf4o4TlD0OuGtpTgxMAcCbegdtX3nQ4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-CN\">简体中文</a>"
       },
       {
         "row": 9,
-        "rowsha": "VjeEy91Dri45XyH43cn+3yHOPhxn2sANJxxqT+VYGtc=",
-        "originContent": "## Why watermark your documents?",
-        "translatedContent": "## なぜドキュメントに透かしを入れるのか？"
+        "rowsha": "16TK6RJ/QYZniaReYQKFqzNcQLldyvCeWoouwXBYCD8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-TW\">繁體中文</a>"
       },
       {
         "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "/cbKsucdByjWzRHWyR1lc42hjH8J2Ac5a7aXQHJKe5c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ja\">日本語</a>"
       },
       {
         "row": 11,
-        "rowsha": "lt6o6fhNB9PRKREuOh9cj+ZXc9PXVtb7UgTI1Z9BWaE=",
-        "originContent": "Every year, millions of people fall victim to identity fraud that starts with a",
-        "translatedContent": "毎年、何百万人もの人々が単純なドキュメント交換から始まる"
+        "rowsha": "1fJfFeDuYJug24twyj0sWN2kBX6unoK+uzLhz1Bv69A=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ko\">한국어</a>"
       },
       {
         "row": 12,
-        "rowsha": "icHg36oRATOPQnM8+lkkOWdoU3DVIsAIPEYUodbbzCE=",
-        "originContent": "simple document exchange. A common scenario: you're looking for a flat to rent.",
-        "translatedContent": "身分詐欺の被害に遭っています。よくあるシナリオ：あなたは賃貸物件を探しています。"
+        "rowsha": "JgWLY/41fqL3qckPcftvK3OTr7Fm5YxKjRmRPWzGh1g=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=hi\">हिन्दी</a>"
       },
       {
         "row": 13,
-        "rowsha": "qoxES8Js7cPrqpCDvOA69k1ewDD7mUWWvFtmDNyvvmQ=",
-        "originContent": "The landlord — or someone posing as one — asks for a copy of your ID, a pay",
-        "translatedContent": "大家さん、またはそれを装う誰かが、あなたのIDのコピー、給与明細、税通知書を要求します。"
+        "rowsha": "RzLnVoyYTiWDK4wfDf0eaBy3sTrSrDIz205mA4kddQw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=th\">ไทย</a>"
       },
       {
         "row": 14,
-        "rowsha": "clgovFkjycmeuGsNjdyjzYpxDBrV9dItvl7N24P1P1Q=",
-        "originContent": "stub, a tax notice. You send them unmarked. The \"landlord\" disappears, and your",
-        "translatedContent": "あなたは透かしなしで送ります。「大家さん」は姿を消し、"
+        "rowsha": "m4vAlulhWSXtAWqJb+gC4hQVSgCynIOI9QYq56epht0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fr\">Français</a>"
       },
       {
         "row": 15,
-        "rowsha": "l77/06iA/wntmfYLEumNfyJZ2QJGy0dn3eV71OF2rog=",
-        "originContent": "documents are now used to open bank accounts, take out loans, or forge",
-        "translatedContent": "あなたの書類は銀行口座の開設、ローンの借入、または"
+        "rowsha": "QHG2zU8pP2gyEX+NAyZBw6BzC09kZpAcVCFuuWqbuR8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=de\">Deutsch</a>"
       },
       {
         "row": 16,
-        "rowsha": "VfsoHJEsFvpUYyKGnlL8+/b6Z064ww9AyFtE2pprc6s=",
-        "originContent": "identities in your name.",
-        "translatedContent": "あなたの名前を使った身分詐称に利用されます。"
+        "rowsha": "dVc8zENZZADColo0X1vXDOVx862XCYUE2ynmqY431fo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=es\">Español</a>"
       },
       {
         "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "6JDNrbS9ZYC33dvT/qDbH9Q0FoJ24ucwks6yjwspgDU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=it\">Italiano</a>"
       },
       {
         "row": 18,
-        "rowsha": "a4nlG3fzkWWadWqX3vW//zzFbjdH3n4oNsuRTItT6O0=",
-        "originContent": "Watermarking every document you send out is the single most effective defence.",
-        "translatedContent": "送るすべてのドキュメントに透かしを入れることが最も効果的な防御策です。"
+        "rowsha": "ArEIAX6PbOatsquW2107K03K98duCN3iMsBjidPQwKM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ru\">Русский</a>"
       },
       {
         "row": 19,
-        "rowsha": "QXjV4Vjn2JvsST7ZV+YAxHbRl/YpGVX5SuF0KXnZmok=",
-        "originContent": "A visible overlay that reads **\"Sent to XYZ agency — March 2026 — flat rental",
-        "translatedContent": "「XYZ機関に送信済み — 2026年3月 — 賃貸申請用のみ」という"
+        "rowsha": "qmok7ee36R4ISrXKKdnf61Xlz39dIGtwB9ldUmxsHRI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pt\">Português</a>"
       },
       {
         "row": 20,
-        "rowsha": "hiQTbmMruVgliuwOXJgRkN07DT6zC8YUla/15sy/T64=",
-        "originContent": "application only\"** makes the document useless for any other purpose. If it",
-        "translatedContent": "目に見えるオーバーレイは、他の目的には書類を無効にします。もし"
+        "rowsha": "cXXIylxoAc8jRKTI94KoShrdK08zy5E5lhSgsWDyW8s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=nl\">Nederlands</a>"
       },
       {
         "row": 21,
-        "rowsha": "D4PlMrb+EgKG6XOUvVz6Hkb92It4dFzFnRsRxiKAKSE=",
-        "originContent": "leaks, you know exactly where it came from.",
-        "translatedContent": "漏れた場合でも、どこから来たのか正確に分かります。"
+        "rowsha": "zZm9MR9LaVzZ08fh9em7NixAzFVDd4nc+PX6sTDkUOo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pl\">Polski</a>"
       },
       {
         "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "13OJqL64PErECGzrpl2vynk/2FHFnVOwzYGP6fIB//0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ar\">العربية</a>"
       },
       {
         "row": 23,
-        "rowsha": "XkUZc7HWJz1/PAkrf2IutbkLhGNsglrSDRG1FnylCMs=",
-        "originContent": "firemark makes this effortless: one command, any image or PDF, 17 visual",
-        "translatedContent": "firemarkはこれを簡単にします：ワンコマンドで、任意の画像またはPDFに、"
+        "rowsha": "0rGOCVzie1Z/Bbsr74gHrA4IYK1dBca6j/bij5ahu/c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fa\">فارسی</a>"
       },
       {
         "row": 24,
-        "rowsha": "TDNNiiAM1dBtcaRMcGY6miIGPIUL/ntJuB3vBmJ/4Yo=",
-        "originContent": "styles, cryptographic filigrane patterns that resist editing, and batch",
-        "translatedContent": "17種類の視覚スタイル、編集に強い暗号学的フィリグラーネパターン、"
+        "rowsha": "qAX5cc+tx9aWCVpxp5GMa38vJGNudEC+USwGMTUTLuU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=tr\">Türkçe</a>"
       },
       {
         "row": 25,
-        "rowsha": "5BRet9Zhqz8D1tR00lHTiu68ReT8/ak7LOdTMfW9y3s=",
-        "originContent": "processing for entire folders.",
-        "translatedContent": "そしてフォルダ全体のバッチ処理が可能です。"
+        "rowsha": "Pa7pLMiWEwCUZ/IGy5GN2TAbGF+9v8jmCVmkFJpHNZM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=vi\">Tiếng Việt</a>"
       },
       {
         "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "AZUJKlKuLuQVYt+4yNbY4jxQqCm+Y0K3kLzti3zMZjM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=id\">Bahasa Indonesia</a>"
       },
       {
         "row": 27,
-        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
-        "originContent": "<p align=\"center\">",
-        "translatedContent": "<p align=\"center\">"
+        "rowsha": "EiLmIklCBgN2OT5+ynGZy44B+CsI5c0y2/qtWj4B5KM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=as\">অসমীয়া</"
       },
       {
         "row": 28,
-        "rowsha": "Cz8CjBYeCLIwiouKpclUc+YlpMb8qIDbOAzSKsULs78=",
-        "originContent": "  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/paycheck-firemark-comparison.png\" alt=\"Before and after watermarking\" width=\"800\">",
-        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/paycheck-firemark-comparison.png\" alt=\"Before and after watermarking\" width=\"800\">"
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
       },
       {
         "row": 29,
-        "rowsha": "9LaBX1pLj0uNH7jpkfGU+pcX+uzIPdfr4/tPIT1shWQ=",
-        "originContent": "  <br>",
-        "translatedContent": "  <br>"
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
       },
       {
         "row": 30,
-        "rowsha": "roIxb2r8S+ZkS/YNwgt1cD28kGYC2H3EvY9b0TX6BDE=",
-        "originContent": "  <em>Before and after — one command, document is now traceable and tamper-evident.</em>",
-        "translatedContent": "  <em>透かし前後 — ワンコマンドでドキュメントは追跡可能かつ改ざん検出可能に。</em>"
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
       },
       {
         "row": 31,
-        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-        "originContent": "</p>",
-        "translatedContent": "</p>"
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
       },
       {
         "row": 32,
@@ -203,24 +203,48 @@
       },
       {
         "row": 33,
-        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
-        "originContent": "## Install",
-        "translatedContent": "## インストール"
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
       },
       {
         "row": 34,
+        "rowsha": "83kKzRW2UD7ihHuBH62dzE0fxkHgoNdd+MRoP1sFQqY=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/firemark.png\" alt=\"firemark\" width=\"200\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/firemark.png\" alt=\"firemark\" width=\"200\">"
+      },
+      {
+        "row": 35,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 36,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 35,
-        "rowsha": "jgPtyW1Rex1E9xBDoDY4bknDjMcCZkkYyR0D/JWrCaM=",
-        "originContent": "From [crates.io](https://crates.io/crates/firemark):",
-        "translatedContent": "[crates.io](https://crates.io/crates/firemark)から："
+        "row": 37,
+        "rowsha": "xcrKgGQ2iOX7B/PwherojT188J3eZ0YoFJCUjqRyVjY=",
+        "originContent": "<h1 align=\"center\">firemark</h1>",
+        "translatedContent": "<h1 align=\"center\">firemark</h1>"
       },
       {
-        "row": 36,
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "taX1tB6zqeijlJ1tcV3EYpBGZXunbK3nZZPBRM5/X7A=",
+        "originContent": "<p align=\"center\">A fast, single-binary watermarking tool for images and PDFs. Built in Rust.</p>",
+        "translatedContent": "<p align=\"center\">Rust製の、高速かつ単一バイナリの画像・PDF向けウォーターマークツール。</p>"
+      },
+      {
+        "row": 40,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -230,6 +254,187 @@
   },
   {
     "Id": 2,
+    "Content": "## Why watermark your documents?\n\nEvery year, millions of people fall victim to identity fraud that starts with a\nsimple document exchange. A common scenario: you're looking for a flat to rent.\nThe landlord — or someone posing as one — asks for a copy of your ID, a pay\nstub, a tax notice. You send them unmarked. The \"landlord\" disappears, and your\ndocuments are now used to open bank accounts, take out loans, or forge\nidentities in your name.\n\nWatermarking every document you send out is the single most effective defence.\nA visible overlay that reads **\"Sent to XYZ agency — March 2026 — flat rental\napplication only\"** makes the document useless for any other purpose. If it\nleaks, you know exactly where it came from.\n\nfiremark makes this effortless: one command, any image or PDF, 17 visual\nstyles, cryptographic filigrane patterns that resist editing, and batch\nprocessing for entire folders.\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/paycheck-firemark-comparison.png\" alt=\"Before and after watermarking\" width=\"800\">\n  <br>\n  <em>Before and after — one command, document is now traceable and tamper-evident.</em>\n</p>\n\n## Install\n\nFrom [crates.io](https://crates.io/crates/firemark):\n",
+    "ContentSha": "wg/hQLERCMTj//kTC6wKbWahDzTwJEWHGBU7lgik80I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## なぜドキュメントにウォーターマークを付けるのか？\n\n毎年、何百万人もの人々が、単純な書類のやり取りから始まる\n身元詐欺の被害に遭っています。よくあるシナリオ：あなたは賃貸物件を探しています。\n大家、あるいは大家を装った誰かが、あなたのIDや給与明細、\n税務通知書のコピーを求めてきます。あなたは何も印を付けずに送ります。「大家」は消え、\nあなたの書類は今や銀行口座の開設、ローンの申し込み、または\nあなたの名義での身元詐称に使われてしまいます。\n\n送信するすべての書類にウォーターマークを入れることが、最も効果的な防御策です。\n**「XYZエージェンシー宛送付 — 2026年3月 — 賃貸申込専用」**のような\n目に見えるオーバーレイがあれば、他の目的には使えません。漏洩した場合も、\nどこから流出したのかがすぐに分かります。\n\nfiremarkなら、これが簡単にできます：コマンド一つで、どんな画像やPDFにも、17種類の\nビジュアルスタイル、編集耐性のある暗号学的すかしパターン、フォルダ単位の\nバッチ処理も可能です。\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/paycheck-firemark-comparison.png\" alt=\"Before and after watermarking\" width=\"800\">\n  <br>\n  <em>ビフォー・アフター — コマンド一つで、書類は追跡可能かつ改ざん防止に。</em>\n</p>\n\n## インストール\n\n[crates.io](https://crates.io/crates/firemark)から：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "VjeEy91Dri45XyH43cn+3yHOPhxn2sANJxxqT+VYGtc=",
+        "originContent": "## Why watermark your documents?",
+        "translatedContent": "## なぜドキュメントにウォーターマークを付けるのか？"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "lt6o6fhNB9PRKREuOh9cj+ZXc9PXVtb7UgTI1Z9BWaE=",
+        "originContent": "Every year, millions of people fall victim to identity fraud that starts with a",
+        "translatedContent": "毎年、何百万人もの人々が、単純な書類のやり取りから始まる"
+      },
+      {
+        "row": 4,
+        "rowsha": "icHg36oRATOPQnM8+lkkOWdoU3DVIsAIPEYUodbbzCE=",
+        "originContent": "simple document exchange. A common scenario: you're looking for a flat to rent.",
+        "translatedContent": "身元詐欺の被害に遭っています。よくあるシナリオ：あなたは賃貸物件を探しています。"
+      },
+      {
+        "row": 5,
+        "rowsha": "qoxES8Js7cPrqpCDvOA69k1ewDD7mUWWvFtmDNyvvmQ=",
+        "originContent": "The landlord — or someone posing as one — asks for a copy of your ID, a pay",
+        "translatedContent": "大家、あるいは大家を装った誰かが、あなたのIDや給与明細、"
+      },
+      {
+        "row": 6,
+        "rowsha": "clgovFkjycmeuGsNjdyjzYpxDBrV9dItvl7N24P1P1Q=",
+        "originContent": "stub, a tax notice. You send them unmarked. The \"landlord\" disappears, and your",
+        "translatedContent": "税務通知書のコピーを求めてきます。あなたは何も印を付けずに送ります。「大家」は消え、"
+      },
+      {
+        "row": 7,
+        "rowsha": "l77/06iA/wntmfYLEumNfyJZ2QJGy0dn3eV71OF2rog=",
+        "originContent": "documents are now used to open bank accounts, take out loans, or forge",
+        "translatedContent": "あなたの書類は今や銀行口座の開設、ローンの申し込み、または"
+      },
+      {
+        "row": 8,
+        "rowsha": "VfsoHJEsFvpUYyKGnlL8+/b6Z064ww9AyFtE2pprc6s=",
+        "originContent": "identities in your name.",
+        "translatedContent": "あなたの名義での身元詐称に使われてしまいます。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "a4nlG3fzkWWadWqX3vW//zzFbjdH3n4oNsuRTItT6O0=",
+        "originContent": "Watermarking every document you send out is the single most effective defence.",
+        "translatedContent": "送信するすべての書類にウォーターマークを入れることが、最も効果的な防御策です。"
+      },
+      {
+        "row": 11,
+        "rowsha": "QXjV4Vjn2JvsST7ZV+YAxHbRl/YpGVX5SuF0KXnZmok=",
+        "originContent": "A visible overlay that reads **\"Sent to XYZ agency — March 2026 — flat rental",
+        "translatedContent": "**「XYZエージェンシー宛送付 — 2026年3月 — 賃貸申込専用」**のような"
+      },
+      {
+        "row": 12,
+        "rowsha": "hiQTbmMruVgliuwOXJgRkN07DT6zC8YUla/15sy/T64=",
+        "originContent": "application only\"** makes the document useless for any other purpose. If it",
+        "translatedContent": "目に見えるオーバーレイがあれば、他の目的には使えません。漏洩した場合も、"
+      },
+      {
+        "row": 13,
+        "rowsha": "D4PlMrb+EgKG6XOUvVz6Hkb92It4dFzFnRsRxiKAKSE=",
+        "originContent": "leaks, you know exactly where it came from.",
+        "translatedContent": "どこから流出したのかがすぐに分かります。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "XkUZc7HWJz1/PAkrf2IutbkLhGNsglrSDRG1FnylCMs=",
+        "originContent": "firemark makes this effortless: one command, any image or PDF, 17 visual",
+        "translatedContent": "firemarkなら、これが簡単にできます：コマンド一つで、どんな画像やPDFにも、17種類の"
+      },
+      {
+        "row": 16,
+        "rowsha": "TDNNiiAM1dBtcaRMcGY6miIGPIUL/ntJuB3vBmJ/4Yo=",
+        "originContent": "styles, cryptographic filigrane patterns that resist editing, and batch",
+        "translatedContent": "ビジュアルスタイル、編集耐性のある暗号学的すかしパターン、フォルダ単位の"
+      },
+      {
+        "row": 17,
+        "rowsha": "5BRet9Zhqz8D1tR00lHTiu68ReT8/ak7LOdTMfW9y3s=",
+        "originContent": "processing for entire folders.",
+        "translatedContent": "バッチ処理も可能です。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 20,
+        "rowsha": "Cz8CjBYeCLIwiouKpclUc+YlpMb8qIDbOAzSKsULs78=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/paycheck-firemark-comparison.png\" alt=\"Before and after watermarking\" width=\"800\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/paycheck-firemark-comparison.png\" alt=\"Before and after watermarking\" width=\"800\">"
+      },
+      {
+        "row": 21,
+        "rowsha": "9LaBX1pLj0uNH7jpkfGU+pcX+uzIPdfr4/tPIT1shWQ=",
+        "originContent": "  <br>",
+        "translatedContent": "  <br>"
+      },
+      {
+        "row": 22,
+        "rowsha": "roIxb2r8S+ZkS/YNwgt1cD28kGYC2H3EvY9b0TX6BDE=",
+        "originContent": "  <em>Before and after — one command, document is now traceable and tamper-evident.</em>",
+        "translatedContent": "  <em>ビフォー・アフター — コマンド一つで、書類は追跡可能かつ改ざん防止に。</em>"
+      },
+      {
+        "row": 23,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+        "originContent": "## Install",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "jgPtyW1Rex1E9xBDoDY4bknDjMcCZkkYyR0D/JWrCaM=",
+        "originContent": "From [crates.io](https://crates.io/crates/firemark):",
+        "translatedContent": "[crates.io](https://crates.io/crates/firemark)から："
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
     "Content": "```bash\ncargo install firemark\n```",
     "ContentSha": "XbJgFieZ8j09PXV0a4JZV54JIQ3PV5zFYzeXfnOuIb8=",
     "SectionType": "",
@@ -237,30 +442,11 @@
     "EndLine": 0,
     "Translation": "```bash\ncargo install firemark\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "tNvrHWEo0boLfXhFK3QbG+G8OG6ipOWV9kfvJUCGhcA=",
-        "originContent": "cargo install firemark",
-        "translatedContent": "cargo install firemark"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 3,
+    "Id": 4,
     "Content": "\nFrom source:\n",
     "ContentSha": "TBQbv3gPv1s1pTjkNcpmh2VjmM1aOmGxyFAuZtRqHbo=",
     "SectionType": "",
@@ -268,30 +454,11 @@
     "EndLine": 0,
     "Translation": "ソースから:\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "ソースから:"
-      },
-      {
-        "row": 2,
-        "rowsha": "VnsuLuPBP1bPx3KYVfGrmo0KVH076siNgnBJmulJ2pI=",
-        "originContent": "From source:",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 4,
+    "Id": 5,
     "Content": "```bash\ngit clone https://github.com/Vitruves/firemark.git\ncd firemark\ncargo install --path .\n```",
     "ContentSha": "u2BDBzEenw+35ijpH64JIHO1+EVA1cKKSbNaPwtTQCY=",
     "SectionType": "",
@@ -299,42 +466,11 @@
     "EndLine": 0,
     "Translation": "```bash\ngit clone https://github.com/Vitruves/firemark.git\ncd firemark\ncargo install --path .\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "zyaalFc858Rb8EWvwcFitDQOy1ath4aLNkLs9DH48s4=",
-        "originContent": "git clone https://github.com/Vitruves/firemark.git",
-        "translatedContent": "git clone https://github.com/Vitruves/firemark.git"
-      },
-      {
-        "row": 3,
-        "rowsha": "mGxTG10+kLX1RYrxzMqgQpIDC8dBkrXMCy9+9SygbDI=",
-        "originContent": "cd firemark",
-        "translatedContent": "cd firemark"
-      },
-      {
-        "row": 4,
-        "rowsha": "UrfYV89HEr7Y2LOJNzJS2dfNsaKrBlUdCgPrc5ar/XM=",
-        "originContent": "cargo install --path .",
-        "translatedContent": "cargo install --path ."
-      },
-      {
-        "row": 5,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 5,
+    "Id": 6,
     "Content": "\nProduces a single optimized binary (~5 MB).\n\n## Quick start\n",
     "ContentSha": "jsATMKLQObhdEQ1WkRcfBnUSDYNypurGXytS8gEmT0o=",
     "SectionType": "",
@@ -342,42 +478,11 @@
     "EndLine": 0,
     "Translation": "\n単一の最適化されたバイナリを生成します（約5 MB）。\n\n## クイックスタート\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "m32K0IHLJi8Oi1wtMWw9HWPrqui9AcDTqBsZQUAboms=",
-        "originContent": "Produces a single optimized binary (~5 MB).",
-        "translatedContent": "単一の最適化されたバイナリを生成します（約5 MB）。"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "lTWxC+mrt6h3iMP1EHwhgic0pFB660ZPhxD7jEhmuWU=",
-        "originContent": "## Quick start",
-        "translatedContent": "## クイックスタート"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 6,
+    "Id": 7,
     "Content": "```bash\n# Watermark a single image\nfiremark photo_id.png -m \"Flat rental — SCI Dupont — March 2026\"\n\n# Watermark a PDF\nfiremark tax_notice.pdf -m \"CONFIDENTIAL\" -s \"Do not distribute\"\n\n# Watermark an entire folder recursively\nfiremark ./documents/ -R -m \"Sent to Agency X\" -t stamp\n\n# Preview without writing files\nfiremark id_card.jpg -m \"Draft\" -n\n```",
     "ContentSha": "+g/tazs2TUZKs4qov5at78izSR29en7Q0WPqqThzSak=",
     "SectionType": "",
@@ -385,90 +490,11 @@
     "EndLine": 0,
     "Translation": "```bash\n# Watermark a single image\nfiremark photo_id.png -m \"Flat rental — SCI Dupont — March 2026\"\n\n# Watermark a PDF\nfiremark tax_notice.pdf -m \"CONFIDENTIAL\" -s \"Do not distribute\"\n\n# Watermark an entire folder recursively\nfiremark ./documents/ -R -m \"Sent to Agency X\" -t stamp\n\n# Preview without writing files\nfiremark id_card.jpg -m \"Draft\" -n\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "no63z/LaOVY3r0fDqcUoORgDToHYoXMdfhqyRYW/8V0=",
-        "originContent": "# Watermark a single image",
-        "translatedContent": "# Watermark a single image"
-      },
-      {
-        "row": 3,
-        "rowsha": "JPzUcYBbMAv1XsMH+DQxb00Gq2K73ENWq7pg/8Tz1jA=",
-        "originContent": "firemark photo_id.png -m \"Flat rental — SCI Dupont — March 2026\"",
-        "translatedContent": "firemark photo_id.png -m \"Flat rental — SCI Dupont — March 2026\""
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "3J6mvHeyEGJxBBtLnvbVb0xsGs4xaO8w7I0z5oluaTI=",
-        "originContent": "# Watermark a PDF",
-        "translatedContent": "# Watermark a PDF"
-      },
-      {
-        "row": 6,
-        "rowsha": "5LKQnN2/qhLxWPM0eJ3exUipr5ZpV0mZCsG09WHm5U8=",
-        "originContent": "firemark tax_notice.pdf -m \"CONFIDENTIAL\" -s \"Do not distribute\"",
-        "translatedContent": "firemark tax_notice.pdf -m \"CONFIDENTIAL\" -s \"Do not distribute\""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "7Trp/DVd3nBYF7v61wwyeKm42lXoSR3lYg76Z3RbX3w=",
-        "originContent": "# Watermark an entire folder recursively",
-        "translatedContent": "# Watermark an entire folder recursively"
-      },
-      {
-        "row": 9,
-        "rowsha": "eLSaFTQajX/YwK8eoK0zQ1l20aod5HSoBeIotBxtvt8=",
-        "originContent": "firemark ./documents/ -R -m \"Sent to Agency X\" -t stamp",
-        "translatedContent": "firemark ./documents/ -R -m \"Sent to Agency X\" -t stamp"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "ataNMemxOQG/L9d2Pu9JFgCKqz8JQiG+0VJrNFbc46k=",
-        "originContent": "# Preview without writing files",
-        "translatedContent": "# Preview without writing files"
-      },
-      {
-        "row": 12,
-        "rowsha": "RAke0uI0b8QnJH3rp7TJEtUnIH9TFz8s1BGB68dcvRg=",
-        "originContent": "firemark id_card.jpg -m \"Draft\" -n",
-        "translatedContent": "firemark id_card.jpg -m \"Draft\" -n"
-      },
-      {
-        "row": 13,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 7,
+    "Id": 8,
     "Content": "\nOutput is saved alongside the input as `{name}-watermarked.{ext}` by default.\nUse `-o` to set an explicit output path, or `-S` for a custom suffix.\n\n## Watermark types\n\n| Flag | Style | Description |\n|---|---|---|\n| `diagonal` | Diagonal grid | Full-page repeating diagonal text (default) |\n| `stamp` | Rubber stamp | Large centred stamp with double border |\n| `stencil` | Stencil | Full-width military stencil lettering |\n| `typewriter` | Typewriter | Monospaced typewriter text |\n| `handwritten` | Signature | Handwritten-style signature with underline |\n| `redacted` | Redaction | Full-width black redaction bars |\n| `badge` | Shield | Security shield/badge emblem |\n| `ribbon` | Ribbon | Diagonal corner ribbon banner |\n| `seal` | Seal | Circular notary-style seal |\n| `frame` | Frame | Full-page decorative border |\n| `tile` | Tile | Dense uniform text grid |\n| `mosaic` | Mosaic | Randomised scattered text |\n| `weave` | Weave | Interlocking diagonal weave |\n| `ghost` | Ghost | Ultra-subtle embossed text |\n| `watercolor` | Watercolour | Soft blurred wash effect |\n| `noise` | Noise | Distressed text with pixel noise |\n| `halftone` | Halftone | Text as halftone dot grid |\n",
     "ContentSha": "UrefNcxgDdDBEkHESlxPBr+Qs5+2u3Y7GBW7vTz8Ui4=",
     "SectionType": "",
@@ -476,168 +502,11 @@
     "EndLine": 0,
     "Translation": "出力はデフォルトで入力ファイルと同じ場所に `{name}-watermarked.{ext}` として保存されます。  \n明示的な出力パスを設定するには `-o` を使用し、カスタム接尾辞を設定するには `-S` を使用します。  \n\n## 透かしの種類\n\n| フラグ | スタイル | 説明 |\n|---|---|---|\n| `diagonal` | 斜めグリッド | ページ全体に繰り返される斜めテキスト（デフォルト） |\n| `stamp` | スタンプ | 二重枠の大きな中央スタンプ |\n| `stencil` | ステンシル | ページ幅いっぱいの軍用ステンシル文字 |\n| `typewriter` | タイプライター | 等幅タイプライターテキスト |\n| `handwritten` | 手書き署名 | 下線付き手書き風署名 |\n| `redacted` | 黒塗り | ページ幅いっぱいの黒塗りバー |\n| `badge` | バッジ | セキュリティシールド/バッジの紋章 |\n| `ribbon` | リボン | 斜め角リボンバナー |\n| `seal` | 印章 | 円形の公証人風印章 |\n| `frame` | フレーム | ページ全体の装飾枠 |\n| `tile` | タイル | 密集した均一テキストグリッド |\n| `mosaic` | モザイク | ランダムに散らばったテキスト |\n| `weave` | 織り込み | 交差する斜め織り模様 |\n| `ghost` | ゴースト | 超微細な浮き彫りテキスト |\n| `watercolor` | 水彩 | 柔らかいぼかし効果 |\n| `noise` | ノイズ | ピクセルノイズのある荒れたテキスト |\n| `halftone` | ハーフトーン | ハーフトーンドットのテキストグリッド |\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "出力はデフォルトで入力ファイルと同じ場所に `{name}-watermarked.{ext}` として保存されます。  "
-      },
-      {
-        "row": 2,
-        "rowsha": "s1OYxzJzVDDx6XjZK1Py2VAFnbEJAliZU/bhZ1zuFfg=",
-        "originContent": "Output is saved alongside the input as `{name}-watermarked.{ext}` by default.",
-        "translatedContent": "明示的な出力パスを設定するには `-o` を使用し、カスタム接尾辞を設定するには `-S` を使用します。  "
-      },
-      {
-        "row": 3,
-        "rowsha": "2FBfFqM5bI2RrXN4PXIGhhISC5gq4dmomWEdhKqU4MY=",
-        "originContent": "Use `-o` to set an explicit output path, or `-S` for a custom suffix.",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 透かしの種類"
-      },
-      {
-        "row": 5,
-        "rowsha": "xGBpKEA+Fwb71ec5/ZkgBdYr5kFV6S1UPwzwt9JQZ24=",
-        "originContent": "## Watermark types",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "| フラグ | スタイル | 説明 |"
-      },
-      {
-        "row": 7,
-        "rowsha": "WpSKe0upDOlOTJJ1jOwI/8JwpRlxQuD1QgHJohbKWiQ=",
-        "originContent": "| Flag | Style | Description |",
-        "translatedContent": "|---|---|---|"
-      },
-      {
-        "row": 8,
-        "rowsha": "I8ygK3TzhkY++iR5bHqQEbDSyT8MOLTRXV0nYgW1m0M=",
-        "originContent": "|---|---|---|",
-        "translatedContent": "| `diagonal` | 斜めグリッド | ページ全体に繰り返される斜めテキスト（デフォルト） |"
-      },
-      {
-        "row": 9,
-        "rowsha": "SgyRi7qP64Awfku/kF4DkOnkQFJgp2XCBBehiT2pXCQ=",
-        "originContent": "| `diagonal` | Diagonal grid | Full-page repeating diagonal text (default) |",
-        "translatedContent": "| `stamp` | スタンプ | 二重枠の大きな中央スタンプ |"
-      },
-      {
-        "row": 10,
-        "rowsha": "z8x3/1KJxM1y9xUD2o9B2HksWRepwFdWKcuCHrTrUY4=",
-        "originContent": "| `stamp` | Rubber stamp | Large centred stamp with double border |",
-        "translatedContent": "| `stencil` | ステンシル | ページ幅いっぱいの軍用ステンシル文字 |"
-      },
-      {
-        "row": 11,
-        "rowsha": "P05fJzxHYY15c1YPKYXR16gR4Ug/UxV3FMMTBUDOLro=",
-        "originContent": "| `stencil` | Stencil | Full-width military stencil lettering |",
-        "translatedContent": "| `typewriter` | タイプライター | 等幅タイプライターテキスト |"
-      },
-      {
-        "row": 12,
-        "rowsha": "0iIkH0nug026IGON5jFyExG+zQr9mhm6yiBhybEOyTs=",
-        "originContent": "| `typewriter` | Typewriter | Monospaced typewriter text |",
-        "translatedContent": "| `handwritten` | 手書き署名 | 下線付き手書き風署名 |"
-      },
-      {
-        "row": 13,
-        "rowsha": "eg4jiO81dNFwGOd8p1q+rF2oabMRLEUFAbZSxYI+BaE=",
-        "originContent": "| `handwritten` | Signature | Handwritten-style signature with underline |",
-        "translatedContent": "| `redacted` | 黒塗り | ページ幅いっぱいの黒塗りバー |"
-      },
-      {
-        "row": 14,
-        "rowsha": "/Ohmxz02FHjO7rOjEf+5faC0M8xcBIdN8GzmZhiXeFs=",
-        "originContent": "| `redacted` | Redaction | Full-width black redaction bars |",
-        "translatedContent": "| `badge` | バッジ | セキュリティシールド/バッジの紋章 |"
-      },
-      {
-        "row": 15,
-        "rowsha": "ha1WsMyuSroMdYbDtucrSLAEPja1kTSKkcg2j1qBRXg=",
-        "originContent": "| `badge` | Shield | Security shield/badge emblem |",
-        "translatedContent": "| `ribbon` | リボン | 斜め角リボンバナー |"
-      },
-      {
-        "row": 16,
-        "rowsha": "zKTW/IiqyDhUXWivrVwQiro7ahBdWR+6juTK5p/Eesw=",
-        "originContent": "| `ribbon` | Ribbon | Diagonal corner ribbon banner |",
-        "translatedContent": "| `seal` | 印章 | 円形の公証人風印章 |"
-      },
-      {
-        "row": 17,
-        "rowsha": "pLskUGuuOyOgPL+ZmvK5fmNIiEVZrEse5zaThCrJcSs=",
-        "originContent": "| `seal` | Seal | Circular notary-style seal |",
-        "translatedContent": "| `frame` | フレーム | ページ全体の装飾枠 |"
-      },
-      {
-        "row": 18,
-        "rowsha": "lPBWd6LNkWvkoEoXVEgFl1tyixB4kMUNgtuDdaQxrTE=",
-        "originContent": "| `frame` | Frame | Full-page decorative border |",
-        "translatedContent": "| `tile` | タイル | 密集した均一テキストグリッド |"
-      },
-      {
-        "row": 19,
-        "rowsha": "+ipAHnpLYJkjiJqIjmTnr7BW4HB8VYdeUBAjETFFW2A=",
-        "originContent": "| `tile` | Tile | Dense uniform text grid |",
-        "translatedContent": "| `mosaic` | モザイク | ランダムに散らばったテキスト |"
-      },
-      {
-        "row": 20,
-        "rowsha": "hG/ktqYcIArQTLFo6NEiijkgYKPUfiX6OuKP6ZzkuG8=",
-        "originContent": "| `mosaic` | Mosaic | Randomised scattered text |",
-        "translatedContent": "| `weave` | 織り込み | 交差する斜め織り模様 |"
-      },
-      {
-        "row": 21,
-        "rowsha": "sIVlz/77iLixmfxMZ+D+fEEAniSVcq7X96LrC7aFYmI=",
-        "originContent": "| `weave` | Weave | Interlocking diagonal weave |",
-        "translatedContent": "| `ghost` | ゴースト | 超微細な浮き彫りテキスト |"
-      },
-      {
-        "row": 22,
-        "rowsha": "vuPhTRC+c42zv7VYWRPrzbQJFmIM6lDnTNYR0j0vVlA=",
-        "originContent": "| `ghost` | Ghost | Ultra-subtle embossed text |",
-        "translatedContent": "| `watercolor` | 水彩 | 柔らかいぼかし効果 |"
-      },
-      {
-        "row": 23,
-        "rowsha": "IkTxAO0aOh1y0rg9EVt20wjoAjG/s6E+fUjQoaZNDuQ=",
-        "originContent": "| `watercolor` | Watercolour | Soft blurred wash effect |",
-        "translatedContent": "| `noise` | ノイズ | ピクセルノイズのある荒れたテキスト |"
-      },
-      {
-        "row": 24,
-        "rowsha": "FApad64ygYR9W5r5zEk88B1ZCgqw8Z9pPLq5WXzT35s=",
-        "originContent": "| `noise` | Noise | Distressed text with pixel noise |",
-        "translatedContent": "| `halftone` | ハーフトーン | ハーフトーンドットのテキストグリッド |"
-      },
-      {
-        "row": 25,
-        "rowsha": "fz2txoKAFkCZttoiG/zvqjfyTSz0WvBWSMNkdtdqg/4=",
-        "originContent": "| `halftone` | Halftone | Text as halftone dot grid |",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 8,
+    "Id": 9,
     "Content": "```bash\nfiremark doc.pdf -t stamp -m \"CONFIDENTIAL\" --border --color red\n```",
     "ContentSha": "GRciXZCGKECVYNRWex9N9D0hePt80Mo36XOFbDtNBgI=",
     "SectionType": "",
@@ -645,30 +514,11 @@
     "EndLine": 0,
     "Translation": "```bash\nfiremark doc.pdf -t stamp -m \"CONFIDENTIAL\" --border --color red\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "14/u6Nq96koOdKlg237XXUI7DiDbphLacZseX5BGVFM=",
-        "originContent": "firemark doc.pdf -t stamp -m \"CONFIDENTIAL\" --border --color red",
-        "translatedContent": "firemark doc.pdf -t stamp -m \"CONFIDENTIAL\" --border --color red"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 9,
+    "Id": 10,
     "Content": "\n## Security filigrane\n\nfiremark overlays cryptographic filigrane patterns inspired by banknote\nsecurity features. These fine geometric patterns are extremely difficult to\nremove with image editors.\n\n| Style | Description |\n|---|---|\n| `guilloche` | Sinusoidal wave envelope bands (default) |\n| `rosette` | Spirograph + corner rose curves |\n| `crosshatch` | Fine diagonal diamond lattice |\n| `border` | Wavy nested security border |\n| `lissajous` | Parametric Lissajous figures |\n| `moire` | Concentric circle interference |\n| `spiral` | Archimedean spiral vortex |\n| `mesh` | Hexagonal honeycomb grid |\n| `plume` | Flowing feather-like curves scattered across the surface |\n| `constellation` | Star nodes connected by a fine geometric web |\n| `ripple` | Overlapping elliptical wave fronts from random origins |\n| `full` | All patterns combined |\n| `none` | Disable filigrane |\n",
     "ContentSha": "JEwEkEHQ58v8vHIvpFM4rP2v2tIDPVSwC0K30J2o0oY=",
     "SectionType": "",
@@ -676,150 +526,11 @@
     "EndLine": 0,
     "Translation": "## セキュリティフィリグラン\n\nfiremarkは、紙幣のセキュリティ機能に着想を得た暗号化フィリグランパターンをオーバーレイします。  \nこれらの細かい幾何学模様は画像編集ソフトでの除去が非常に困難です。\n\n| スタイル | 説明 |\n|---|---|\n| `guilloche` | 正弦波エンベロープバンド（デフォルト） |\n| `rosette` | スピログラフ＋コーナーローズ曲線 |\n| `crosshatch` | 細かい斜めのダイヤモンド格子 |\n| `border` | 波状の入れ子状セキュリティボーダー |\n| `lissajous` | パラメトリックリサージュ図形 |\n| `moire` | 同心円干渉模様 |\n| `spiral` | アルキメデスの螺旋渦巻き |\n| `mesh` | 六角形ハニカムグリッド |\n| `plume` | 表面に散らばる流れる羽根状曲線 |\n| `constellation` | 細かい幾何学的網でつながれた星ノード |\n| `ripple` | ランダム起点の重なり合う楕円波面 |\n| `full` | 全パターンの組み合わせ |\n| `none` | フィリグランを無効化 |\n\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## セキュリティフィリグラン"
-      },
-      {
-        "row": 2,
-        "rowsha": "2GQ777cVC8t1vrYsyDUDyLD3h9Ewp0cEQgLJi+8Wevk=",
-        "originContent": "## Security filigrane",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "firemarkは、紙幣のセキュリティ機能に着想を得た暗号化フィリグランパターンをオーバーレイします。  "
-      },
-      {
-        "row": 4,
-        "rowsha": "4y+eUNPbbsLBBbyiTaIFYQw/aS2eo/ynATM9e9TCHKQ=",
-        "originContent": "firemark overlays cryptographic filigrane patterns inspired by banknote",
-        "translatedContent": "これらの細かい幾何学模様は画像編集ソフトでの除去が非常に困難です。"
-      },
-      {
-        "row": 5,
-        "rowsha": "A7nXH2u5vN05Aog2XJnBZRFfcOh3dZg+qi5KZW9GoM0=",
-        "originContent": "security features. These fine geometric patterns are extremely difficult to",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "Y8es8KDHY436RTuARVhPCM+sCZZqU/iYjUAXctAt35I=",
-        "originContent": "remove with image editors.",
-        "translatedContent": "| スタイル | 説明 |"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "|---|---|"
-      },
-      {
-        "row": 8,
-        "rowsha": "Sc/ZHHCn9B5swMK6/WRYYXYtr0qdkPoAQEBcDcEV52E=",
-        "originContent": "| Style | Description |",
-        "translatedContent": "| `guilloche` | 正弦波エンベロープバンド（デフォルト） |"
-      },
-      {
-        "row": 9,
-        "rowsha": "QZm6RU1tOug2VxIMK7a9Z07vwN19PNTMhEFx3GclE1s=",
-        "originContent": "|---|---|",
-        "translatedContent": "| `rosette` | スピログラフ＋コーナーローズ曲線 |"
-      },
-      {
-        "row": 10,
-        "rowsha": "fgcEia47sCLXWNBNvRPXZ7Y5y+IXHkT4lRXeHDwbO+s=",
-        "originContent": "| `guilloche` | Sinusoidal wave envelope bands (default) |",
-        "translatedContent": "| `crosshatch` | 細かい斜めのダイヤモンド格子 |"
-      },
-      {
-        "row": 11,
-        "rowsha": "+5k4Iu3WYaASsOjdEaPY3pFVhQ2H1nLOhAIF2/qxoDs=",
-        "originContent": "| `rosette` | Spirograph + corner rose curves |",
-        "translatedContent": "| `border` | 波状の入れ子状セキュリティボーダー |"
-      },
-      {
-        "row": 12,
-        "rowsha": "xf9lPIO08IIPaCXcUvBn78d8kDNljtLtSogt9CixOoE=",
-        "originContent": "| `crosshatch` | Fine diagonal diamond lattice |",
-        "translatedContent": "| `lissajous` | パラメトリックリサージュ図形 |"
-      },
-      {
-        "row": 13,
-        "rowsha": "oRONmGbAzAYmdYlhu2v0k50yLcuvqXmswzQ3Cv/lc1s=",
-        "originContent": "| `border` | Wavy nested security border |",
-        "translatedContent": "| `moire` | 同心円干渉模様 |"
-      },
-      {
-        "row": 14,
-        "rowsha": "r4vZs4XGXYnK282IJ3KPSHY6SkvW7nhOhbeiQU7nBNU=",
-        "originContent": "| `lissajous` | Parametric Lissajous figures |",
-        "translatedContent": "| `spiral` | アルキメデスの螺旋渦巻き |"
-      },
-      {
-        "row": 15,
-        "rowsha": "nVypBoPcsw5OZYl0NN9wDuzDrXnHfNxrMGvJwkuXfWE=",
-        "originContent": "| `moire` | Concentric circle interference |",
-        "translatedContent": "| `mesh` | 六角形ハニカムグリッド |"
-      },
-      {
-        "row": 16,
-        "rowsha": "EOli6ZUhvte72jQPm+lnlr2jp3ts1eah7r26VAFG+v8=",
-        "originContent": "| `spiral` | Archimedean spiral vortex |",
-        "translatedContent": "| `plume` | 表面に散らばる流れる羽根状曲線 |"
-      },
-      {
-        "row": 17,
-        "rowsha": "zxFYKyygCdhi0QD0Du8EyZ0D1gv5NdAc+HoQpZRKie0=",
-        "originContent": "| `mesh` | Hexagonal honeycomb grid |",
-        "translatedContent": "| `constellation` | 細かい幾何学的網でつながれた星ノード |"
-      },
-      {
-        "row": 18,
-        "rowsha": "5XUe79wZkvFEMF9AHaYntKTe/ZX49BZjybsIe9p5G3o=",
-        "originContent": "| `plume` | Flowing feather-like curves scattered across the surface |",
-        "translatedContent": "| `ripple` | ランダム起点の重なり合う楕円波面 |"
-      },
-      {
-        "row": 19,
-        "rowsha": "RjAWLq/XskbWLn6XoVRRKR9ujBWix/f2RtawDfOOr/4=",
-        "originContent": "| `constellation` | Star nodes connected by a fine geometric web |",
-        "translatedContent": "| `full` | 全パターンの組み合わせ |"
-      },
-      {
-        "row": 20,
-        "rowsha": "jzUvx87vYmo0bg7I5s7EbF267PL8OMCSll1WXoz/qts=",
-        "originContent": "| `ripple` | Overlapping elliptical wave fronts from random origins |",
-        "translatedContent": "| `none` | フィリグランを無効化 |"
-      },
-      {
-        "row": 21,
-        "rowsha": "9G4wWog7wqIJntAI6cZYagyf83k7atIVhIeWLx+xg2Y=",
-        "originContent": "| `full` | All patterns combined |",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "brPapJwus2hhkmJB6iY3SByEl4tmjEcJKaf917kw9TQ=",
-        "originContent": "| `none` | Disable filigrane |",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 10,
+    "Id": 11,
     "Content": "```bash\nfiremark id.png -m \"Rental application\" --filigrane moire\nfiremark id.png -m \"Rental application\" --filigrane none   # disable\n```",
     "ContentSha": "JjL2moZueuBIxbBdpl2ANyMLnBJPtS7XV+pY0Frl6/o=",
     "SectionType": "",
@@ -827,36 +538,11 @@
     "EndLine": 0,
     "Translation": "```bash\nfiremark id.png -m \"Rental application\" --filigrane moire\nfiremark id.png -m \"Rental application\" --filigrane none   # disable\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "WrfWgzD0uofo6zU8skt+E6csMuYWGaa97m6kfS5uttQ=",
-        "originContent": "firemark id.png -m \"Rental application\" --filigrane moire",
-        "translatedContent": "firemark id.png -m \"Rental application\" --filigrane moire"
-      },
-      {
-        "row": 3,
-        "rowsha": "48F4ZviMCebelCbDoG+sxLpOKIOcd3ihY8xO3lMSAug=",
-        "originContent": "firemark id.png -m \"Rental application\" --filigrane none   # disable",
-        "translatedContent": "firemark id.png -m \"Rental application\" --filigrane none   # disable"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 11,
+    "Id": 12,
     "Content": "\n## AI-removal hardening\n\nEvery render is non-deterministic by default. firemark applies universal\npost-render perturbation (alpha jitter, sub-pixel color noise, edge micro-dots,\nsparse ghost pixels) and per-renderer randomization so that no two outputs are\npixel-identical — even with the same settings. This makes it impossible for AI\nvision models to learn a predictable pattern to subtract.\n\nOn top of that, adversarial prompt-injection strips are embedded by default to\nconfuse AI watermark removal tools. Disable with `--no-anti-ai` if you don't\nwant the visible prompt text:\n",
     "ContentSha": "lmfwidcJK6BSVQfXpM3gTuIVqeDHf1R1Yygo07NKC28=",
     "SectionType": "",
@@ -864,90 +550,11 @@
     "EndLine": 0,
     "Translation": "## AI除去耐性強化\n\nすべてのレンダリングはデフォルトで非決定的です。firemarkは普遍的な\nポストレンダリング摂動（アルファジッター、サブピクセルカラーノイズ、エッジの微小点、\nまばらなゴーストピクセル）とレンダラーごとのランダム化を適用し、同じ設定でも\n2つの出力がピクセル単位で同一になることはありません。これによりAI\nビジョンモデルが予測可能なパターンを学習して差し引くことが不可能になります。\n\nさらに、敵対的なプロンプト注入ストリップがデフォルトで埋め込まれており、\nAIウォーターマーク除去ツールを混乱させます。目に見えるプロンプトテキストを\n表示したくない場合は `--no-anti-ai` で無効化してください：\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## AI除去耐性強化"
-      },
-      {
-        "row": 2,
-        "rowsha": "Jsy12MRkKJpAP1YtyBDetZ82jZBdu344Losh+40Wn2c=",
-        "originContent": "## AI-removal hardening",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "すべてのレンダリングはデフォルトで非決定的です。firemarkは普遍的な"
-      },
-      {
-        "row": 4,
-        "rowsha": "UM9MPr6cLKu9Kf8PvuCLkQcu4/aoiZzQgWH6LRcu4kE=",
-        "originContent": "Every render is non-deterministic by default. firemark applies universal",
-        "translatedContent": "ポストレンダリング摂動（アルファジッター、サブピクセルカラーノイズ、エッジの微小点、"
-      },
-      {
-        "row": 5,
-        "rowsha": "PFZZuS94H9+8UJz6KEpU2847QQMnOc/pvpG/DjeOCSQ=",
-        "originContent": "post-render perturbation (alpha jitter, sub-pixel color noise, edge micro-dots,",
-        "translatedContent": "まばらなゴーストピクセル）とレンダラーごとのランダム化を適用し、同じ設定でも"
-      },
-      {
-        "row": 6,
-        "rowsha": "1qMeq2kMkVpgsQlisDzcoQ9awyI66Tpba2qcOz3chXw=",
-        "originContent": "sparse ghost pixels) and per-renderer randomization so that no two outputs are",
-        "translatedContent": "2つの出力がピクセル単位で同一になることはありません。これによりAI"
-      },
-      {
-        "row": 7,
-        "rowsha": "3VTqYfQgY0berHcbAzK56A7NVgg6B4Snwx0QdXq2ee0=",
-        "originContent": "pixel-identical — even with the same settings. This makes it impossible for AI",
-        "translatedContent": "ビジョンモデルが予測可能なパターンを学習して差し引くことが不可能になります。"
-      },
-      {
-        "row": 8,
-        "rowsha": "8151dJyBwmVKLalqgXhxI/86ifhjxhELJpMPMbp0HWE=",
-        "originContent": "vision models to learn a predictable pattern to subtract.",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "さらに、敵対的なプロンプト注入ストリップがデフォルトで埋め込まれており、"
-      },
-      {
-        "row": 10,
-        "rowsha": "55Ig+MMCOBZpXi15q961cQJExizglcC1Pq0RlNin9cs=",
-        "originContent": "On top of that, adversarial prompt-injection strips are embedded by default to",
-        "translatedContent": "AIウォーターマーク除去ツールを混乱させます。目に見えるプロンプトテキストを"
-      },
-      {
-        "row": 11,
-        "rowsha": "1/NvZr/q2m+0IQb8ZIAwW5w6W85rTIpzeFyPFVm1Q/8=",
-        "originContent": "confuse AI watermark removal tools. Disable with `--no-anti-ai` if you don't",
-        "translatedContent": "表示したくない場合は `--no-anti-ai` で無効化してください："
-      },
-      {
-        "row": 12,
-        "rowsha": "5q+WLo0mUHI7QVrE7cosuHm1SxdjlNUFlqmTUPt8tHs=",
-        "originContent": "want the visible prompt text:",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 12,
+    "Id": 13,
     "Content": "```bash\nfiremark doc.png -m \"CONFIDENTIAL\" --no-anti-ai\n```",
     "ContentSha": "X8DV4PIkBfTtNfPlsvTdpeO7S4JpUti9vMdjT0PipSk=",
     "SectionType": "",
@@ -955,30 +562,11 @@
     "EndLine": 0,
     "Translation": "```bash\nfiremark doc.png -m \"CONFIDENTIAL\" --no-anti-ai\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "LJu4N4OTYHXIgk45JSWdVhIGliQ8bLZlUc3DeNqe+7s=",
-        "originContent": "firemark doc.png -m \"CONFIDENTIAL\" --no-anti-ai",
-        "translatedContent": "firemark doc.png -m \"CONFIDENTIAL\" --no-anti-ai"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 13,
+    "Id": 14,
     "Content": "\n## Common options\n",
     "ContentSha": "n4/HJp3JIbJvlmYwZxZx/A4odrEInzqxlQZ0kto4koc=",
     "SectionType": "",
@@ -986,30 +574,11 @@
     "EndLine": 0,
     "Translation": "\n## 共通オプション\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "GbnKFPRIgjXA8Mz6cSAIdnnKKRxlDjxyNiCgYCsb+OE=",
-        "originContent": "## Common options",
-        "translatedContent": "## 共通オプション"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 14,
+    "Id": 15,
     "Content": "```\n-m, --main-text           Primary watermark text\n-s, --secondary-text      Secondary text line\n-t, --type                Watermark style (see table above)\n-o, --output              Output file path\n-S, --suffix              Custom output suffix (default: \"watermarked\")\n-c, --color               Color — name or #RRGGBB (default: blue)\n-O, --opacity             Opacity 0.0–1.0 (default: 0.5)\n-r, --rotation            Angle in degrees (default: -45)\n-p, --position            center, top-left, top-right, bottom-left, bottom-right, tile\n-f, --font                Font name or path to .ttf/.otf\n-I, --image               Overlay an image as watermark\n    --qr-data             Embed a QR code with custom data\n    --qr-code-position    QR code placement (default: center)\n    --qr-code-size        QR code size in pixels (default: auto)\n    --border              Draw a border around the watermark\n    --shadow              Add a drop shadow\n    --filigrane           Security filigrane style (default: guilloche)\n    --no-anti-ai          Disable adversarial prompt injection (on by default)\n```",
     "ContentSha": "OnchCgQnKBCIB6EKcyZr+yZMcWba22XvokSVcrluO38=",
     "SectionType": "",
@@ -1017,132 +586,11 @@
     "EndLine": 0,
     "Translation": "```\n-m, --main-text           Primary watermark text\n-s, --secondary-text      Secondary text line\n-t, --type                Watermark style (see table above)\n-o, --output              Output file path\n-S, --suffix              Custom output suffix (default: \"watermarked\")\n-c, --color               Color — name or #RRGGBB (default: blue)\n-O, --opacity             Opacity 0.0–1.0 (default: 0.5)\n-r, --rotation            Angle in degrees (default: -45)\n-p, --position            center, top-left, top-right, bottom-left, bottom-right, tile\n-f, --font                Font name or path to .ttf/.otf\n-I, --image               Overlay an image as watermark\n    --qr-data             Embed a QR code with custom data\n    --qr-code-position    QR code placement (default: center)\n    --qr-code-size        QR code size in pixels (default: auto)\n    --border              Draw a border around the watermark\n    --shadow              Add a drop shadow\n    --filigrane           Security filigrane style (default: guilloche)\n    --no-anti-ai          Disable adversarial prompt injection (on by default)\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "Sb3oWyOaMGev4o0+hwZTmd7GVArANPT9FDpXUeXYztU=",
-        "originContent": "-m, --main-text           Primary watermark text",
-        "translatedContent": "-m, --main-text           Primary watermark text"
-      },
-      {
-        "row": 3,
-        "rowsha": "rpoH6Hl2USE8QYmrUdBqAuUy9YK/aA1E/qSgtCj2DTk=",
-        "originContent": "-s, --secondary-text      Secondary text line",
-        "translatedContent": "-s, --secondary-text      Secondary text line"
-      },
-      {
-        "row": 4,
-        "rowsha": "buv5EKjmzFo6DJHSyH3LMMiiE+nJe+0H/T1HdeUyNq4=",
-        "originContent": "-t, --type                Watermark style (see table above)",
-        "translatedContent": "-t, --type                Watermark style (see table above)"
-      },
-      {
-        "row": 5,
-        "rowsha": "xkdOiw7Yp7Eeko9roTsqo1qc9ANDgxc8C2xr41odwwI=",
-        "originContent": "-o, --output              Output file path",
-        "translatedContent": "-o, --output              Output file path"
-      },
-      {
-        "row": 6,
-        "rowsha": "08DtnJQL/9i4/BsA3j+5pIBF1gALydmhLMtfXWzMzv8=",
-        "originContent": "-S, --suffix              Custom output suffix (default: \"watermarked\")",
-        "translatedContent": "-S, --suffix              Custom output suffix (default: \"watermarked\")"
-      },
-      {
-        "row": 7,
-        "rowsha": "gHRJv0a6DN3uSIQQhV6ig+VyxE60xCcJqkWGvbWSE8s=",
-        "originContent": "-c, --color               Color — name or #RRGGBB (default: blue)",
-        "translatedContent": "-c, --color               Color — name or #RRGGBB (default: blue)"
-      },
-      {
-        "row": 8,
-        "rowsha": "jSGDou3Bfy38qtT/n0fxnwQQibHoU+gYgV5ZpSdfXCU=",
-        "originContent": "-O, --opacity             Opacity 0.0–1.0 (default: 0.5)",
-        "translatedContent": "-O, --opacity             Opacity 0.0–1.0 (default: 0.5)"
-      },
-      {
-        "row": 9,
-        "rowsha": "VDOqgPAHrcHa4cukHGIKxfmcWPs+ql97eNx5Oj3N4yA=",
-        "originContent": "-r, --rotation            Angle in degrees (default: -45)",
-        "translatedContent": "-r, --rotation            Angle in degrees (default: -45)"
-      },
-      {
-        "row": 10,
-        "rowsha": "FpckuH2EW2GXI+pKsjgLCewopEADI8sS0dvcG3/4KrY=",
-        "originContent": "-p, --position            center, top-left, top-right, bottom-left, bottom-right, tile",
-        "translatedContent": "-p, --position            center, top-left, top-right, bottom-left, bottom-right, tile"
-      },
-      {
-        "row": 11,
-        "rowsha": "BUy1RWdrPnmLkyiv+vRLhLUIVSn0onep60nuv6ptCys=",
-        "originContent": "-f, --font                Font name or path to .ttf/.otf",
-        "translatedContent": "-f, --font                Font name or path to .ttf/.otf"
-      },
-      {
-        "row": 12,
-        "rowsha": "yV80caDotMKJ9M4DFFABRYEq0OxBSfJUDkzPUMc6xHA=",
-        "originContent": "-I, --image               Overlay an image as watermark",
-        "translatedContent": "-I, --image               Overlay an image as watermark"
-      },
-      {
-        "row": 13,
-        "rowsha": "I3iI/qsjelWwIPilzUhWMmOETglPf/6rYTNPfIF9keQ=",
-        "originContent": "    --qr-data             Embed a QR code with custom data",
-        "translatedContent": "    --qr-data             Embed a QR code with custom data"
-      },
-      {
-        "row": 14,
-        "rowsha": "cUh/1bKpRKFNHs87dkLRWbMFdSAAsc2lu0Ok+bwcvcY=",
-        "originContent": "    --qr-code-position    QR code placement (default: center)",
-        "translatedContent": "    --qr-code-position    QR code placement (default: center)"
-      },
-      {
-        "row": 15,
-        "rowsha": "SJZ51gTMqsUl6MXTa0KyjEBwbyE9bgxeaWv+O8jXGgE=",
-        "originContent": "    --qr-code-size        QR code size in pixels (default: auto)",
-        "translatedContent": "    --qr-code-size        QR code size in pixels (default: auto)"
-      },
-      {
-        "row": 16,
-        "rowsha": "5c/DRA+DcPOu/xHxI/HiNsHf/caGG7Kb0iOqLc0yclM=",
-        "originContent": "    --border              Draw a border around the watermark",
-        "translatedContent": "    --border              Draw a border around the watermark"
-      },
-      {
-        "row": 17,
-        "rowsha": "VC3aUMVll8Tq3XAKIlLd517lPNCWggXA9Gdccbr2WAc=",
-        "originContent": "    --shadow              Add a drop shadow",
-        "translatedContent": "    --shadow              Add a drop shadow"
-      },
-      {
-        "row": 18,
-        "rowsha": "k4TLxEOXmrx84kRUu5QSTIPpZ07UfeoKFXR1dsNAH7o=",
-        "originContent": "    --filigrane           Security filigrane style (default: guilloche)",
-        "translatedContent": "    --filigrane           Security filigrane style (default: guilloche)"
-      },
-      {
-        "row": 19,
-        "rowsha": "mFgAq2KXeTPGKNXkk6f+IZocJLXG0uD3a21cxnHQeTE=",
-        "originContent": "    --no-anti-ai          Disable adversarial prompt injection (on by default)",
-        "translatedContent": "    --no-anti-ai          Disable adversarial prompt injection (on by default)"
-      },
-      {
-        "row": 20,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 15,
+    "Id": 16,
     "Content": "\nFor the full list of 70+ flags, see [`CLI.md`](https://raw.githubusercontent.com/Vitruves/firemark/main/CLI.md).\n\n## PDF options\n",
     "ContentSha": "svl1Q4LUCaMRIl9wKxWoLBrex0fHLSFwgEG+snTpEe4=",
     "SectionType": "",
@@ -1150,42 +598,11 @@
     "EndLine": 0,
     "Translation": "\n70以上のフラグの完全なリストについては、[`CLI.md`](https://raw.githubusercontent.com/Vitruves/firemark/main/CLI.md)を参照してください。\n\n## PDFオプション\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "CNtYpMZR4Ho86RMeZlT430Y1MEE7HYcs17ugsQXpvvM=",
-        "originContent": "For the full list of 70+ flags, see [`CLI.md`](https://raw.githubusercontent.com/Vitruves/firemark/main/CLI.md).",
-        "translatedContent": "70以上のフラグの完全なリストについては、[`CLI.md`](https://raw.githubusercontent.com/Vitruves/firemark/main/CLI.md)を参照してください。"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "1rE2TFDrsO4QgopAFByDpw7GIKFutWbhfvhE5iRk3EY=",
-        "originContent": "## PDF options",
-        "translatedContent": "## PDFオプション"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 16,
+    "Id": 17,
     "Content": "```\n    --pages           Pages to watermark (e.g. 1,3-5 or \"all\")\n    --skip-pages      Pages to skip\n    --behind          Place watermark behind content\n    --no-flatten      Keep layers separate (flattened by default)\n    --dpi             Render resolution (default: 150)\n```",
     "ContentSha": "+gJ9i3J1daLNVsSOa0+SX20YdW5QEnOqWt0oIVsEkHM=",
     "SectionType": "",
@@ -1193,54 +610,11 @@
     "EndLine": 0,
     "Translation": "```\n    --pages           Pages to watermark (e.g. 1,3-5 or \"all\")\n    --skip-pages      Pages to skip\n    --behind          Place watermark behind content\n    --no-flatten      Keep layers separate (flattened by default)\n    --dpi             Render resolution (default: 150)\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "6g5peTHKDU0DmzGOswic/1yMF63zUzjfxIlhNKX076o=",
-        "originContent": "    --pages           Pages to watermark (e.g. 1,3-5 or \"all\")",
-        "translatedContent": "    --pages           Pages to watermark (e.g. 1,3-5 or \"all\")"
-      },
-      {
-        "row": 3,
-        "rowsha": "/7v0JQEbKwX9BuEII50i3aOnKyVkv019LPy4s667xkU=",
-        "originContent": "    --skip-pages      Pages to skip",
-        "translatedContent": "    --skip-pages      Pages to skip"
-      },
-      {
-        "row": 4,
-        "rowsha": "fUJMKTyMSXof7gkvFsmAXSFyZ/ZV1CR8AUg+CkEEUYs=",
-        "originContent": "    --behind          Place watermark behind content",
-        "translatedContent": "    --behind          Place watermark behind content"
-      },
-      {
-        "row": 5,
-        "rowsha": "YukZ7rAA31O+xC0qrk7SwGBc8nI5a0ZpQueb0fpsPIQ=",
-        "originContent": "    --no-flatten      Keep layers separate (flattened by default)",
-        "translatedContent": "    --no-flatten      Keep layers separate (flattened by default)"
-      },
-      {
-        "row": 6,
-        "rowsha": "7tfpjwRHMCVT/o83E0Bar/GcrwRSMgvibtchUOEMwu0=",
-        "originContent": "    --dpi             Render resolution (default: 150)",
-        "translatedContent": "    --dpi             Render resolution (default: 150)"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 17,
+    "Id": 18,
     "Content": "\n## Batch processing\n",
     "ContentSha": "/7EA/cR88DeVqgNoocwGdIzKk5kadEvNDi1Lyz4xjI4=",
     "SectionType": "",
@@ -1248,30 +622,11 @@
     "EndLine": 0,
     "Translation": "\n## バッチ処理\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "Zy8yDzoiBPQtIZ0+jms/77elYit+/NCUxhdrvglNY1g=",
-        "originContent": "## Batch processing",
-        "translatedContent": "## バッチ処理"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 18,
+    "Id": 19,
     "Content": "```bash\n# Process all images and PDFs in a folder\nfiremark ./inbox/ -m \"INTERNAL\" -t tile\n\n# Recursive, 8 threads, custom suffix\nfiremark ./docs/ -R -j 8 -m \"Draft\" -S draft\n\n# Dry run — list what would be processed\nfiremark ./docs/ -R -m \"Draft\" -n\n```",
     "ContentSha": "TwS75nywdc8Qg1ugvUG3YAhWVbRnOC4dP5Aq3NoDWrw=",
     "SectionType": "",
@@ -1279,72 +634,11 @@
     "EndLine": 0,
     "Translation": "```bash\n# Process all images and PDFs in a folder\nfiremark ./inbox/ -m \"INTERNAL\" -t tile\n\n# Recursive, 8 threads, custom suffix\nfiremark ./docs/ -R -j 8 -m \"Draft\" -S draft\n\n# Dry run — list what would be processed\nfiremark ./docs/ -R -m \"Draft\" -n\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "Nwc3pzmfEH+5YBWcwI7znR9V6Y/rXHY5v8/ZaQio+xM=",
-        "originContent": "# Process all images and PDFs in a folder",
-        "translatedContent": "# Process all images and PDFs in a folder"
-      },
-      {
-        "row": 3,
-        "rowsha": "4K7myaXs6TvEcCta/mi69zY5yYBlatPID2lrsH2ELBU=",
-        "originContent": "firemark ./inbox/ -m \"INTERNAL\" -t tile",
-        "translatedContent": "firemark ./inbox/ -m \"INTERNAL\" -t tile"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "6sgxwAMahSuUZWVJ/S7icyaAPwQEjREh5k73o7fjbvs=",
-        "originContent": "# Recursive, 8 threads, custom suffix",
-        "translatedContent": "# Recursive, 8 threads, custom suffix"
-      },
-      {
-        "row": 6,
-        "rowsha": "1EAxj+P05Zq6hbiS3hvsglXTa15ycRnJJhZsj60sOdY=",
-        "originContent": "firemark ./docs/ -R -j 8 -m \"Draft\" -S draft",
-        "translatedContent": "firemark ./docs/ -R -j 8 -m \"Draft\" -S draft"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "5KKbbFyJc8IJ2dy6+JILOV4pW/BzB3Snwe7tqOdikkQ=",
-        "originContent": "# Dry run — list what would be processed",
-        "translatedContent": "# Dry run — list what would be processed"
-      },
-      {
-        "row": 9,
-        "rowsha": "I0qPX+hOCUOQfVHQiz9Q1pu7uyiDQ0+iFHCCFDZlqHU=",
-        "originContent": "firemark ./docs/ -R -m \"Draft\" -n",
-        "translatedContent": "firemark ./docs/ -R -m \"Draft\" -n"
-      },
-      {
-        "row": 10,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 19,
+    "Id": 20,
     "Content": "\nAlready-watermarked files (matching the suffix) are automatically skipped on\nre-runs.\n\n## Configuration file\n\nSave options in a TOML file to avoid repeating flags. See\n[`examples/config/firemark.toml`](https://raw.githubusercontent.com/Vitruves/firemark/main/examples/config/firemark.toml) for a full\nexample with two presets: **ultra-secure** (dense tiling, full filigrane, QR\ntraceability, metadata stripping) and **light** (simple diagonal text, no extras).\n",
     "ContentSha": "B/n2BbWCHGz9Qi2oZpCmsDFRZzNj/0BVfe2qtSexCiA=",
     "SectionType": "",
@@ -1352,78 +646,11 @@
     "EndLine": 0,
     "Translation": "すでに透かしが入っているファイル（サフィックスが一致するもの）は\n再実行時に自動的にスキップされます。\n\n## 設定ファイル\n\nフラグの繰り返しを避けるため、オプションをTOMLファイルに保存します。\n2つのプリセットを含む完全な例は、\n[`examples/config/firemark.toml`](https://raw.githubusercontent.com/Vitruves/firemark/main/examples/config/firemark.toml) を参照してください：\n**ultra-secure**（密なタイル配置、完全なフィリグラン、QR追跡、メタデータ削除）と\n**light**（シンプルな斜めテキスト、追加機能なし）です。\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "すでに透かしが入っているファイル（サフィックスが一致するもの）は"
-      },
-      {
-        "row": 2,
-        "rowsha": "4isy+YBTstlhr/AHazh7LdpK3vVZDlytyC2Bi9CnX7w=",
-        "originContent": "Already-watermarked files (matching the suffix) are automatically skipped on",
-        "translatedContent": "再実行時に自動的にスキップされます。"
-      },
-      {
-        "row": 3,
-        "rowsha": "p26kJf4JUrkwcUcqevpO22WXZPIo5gj555ARGVnXYh4=",
-        "originContent": "re-runs.",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 設定ファイル"
-      },
-      {
-        "row": 5,
-        "rowsha": "iv6TC9mZPZPn0bl+JFzbJdWQjb2SFhVz2t4Uj+RcA+s=",
-        "originContent": "## Configuration file",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "フラグの繰り返しを避けるため、オプションをTOMLファイルに保存します。"
-      },
-      {
-        "row": 7,
-        "rowsha": "6n+tB6xsESgegwKRlCJzb0ws4C0lfRWBWSjAKWNw5Yc=",
-        "originContent": "Save options in a TOML file to avoid repeating flags. See",
-        "translatedContent": "2つのプリセットを含む完全な例は、"
-      },
-      {
-        "row": 8,
-        "rowsha": "qIIS38kz+FRMcs+u8+ElxspMh6QAvJ1W+08xFLGgqfc=",
-        "originContent": "[`examples/config/firemark.toml`](https://raw.githubusercontent.com/Vitruves/firemark/main/examples/config/firemark.toml) for a full",
-        "translatedContent": "[`examples/config/firemark.toml`](https://raw.githubusercontent.com/Vitruves/firemark/main/examples/config/firemark.toml) を参照してください："
-      },
-      {
-        "row": 9,
-        "rowsha": "XVAJWHfIDi0k4AHZia75pWPFHTYc5hGh8lw2w1e3vz4=",
-        "originContent": "example with two presets: **ultra-secure** (dense tiling, full filigrane, QR",
-        "translatedContent": "**ultra-secure**（密なタイル配置、完全なフィリグラン、QR追跡、メタデータ削除）と"
-      },
-      {
-        "row": 10,
-        "rowsha": "at0hY7wRbEOoNy7vc82Pny6br/dOvlqtGehSc/k9KX0=",
-        "originContent": "traceability, metadata stripping) and **light** (simple diagonal text, no extras).",
-        "translatedContent": "**light**（シンプルな斜めテキスト、追加機能なし）です。"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 20,
+    "Id": 21,
     "Content": "```toml\n# Global defaults\nmain_text = \"CONFIDENTIAL\"\nsecondary_text = \"{author} — {date}\"\nwatermark_type = \"diagonal\"\ncolor = \"#1a3c6e\"\nopacity = 0.45\nfont_weight = \"bold\"\nfiligrane = \"guilloche\"\nborder = true\n\n[preset.ultra-secure]\nmain_text = \"CONFIDENTIAL — {author}\"\nwatermark_type = \"tile\"\ncolor = \"#CC0000\"\nopacity = 0.6\nfiligrane = \"full\"\nanti_ai = true\nqr_data = \"firemark://{author}/{timestamp}/{uuid}\"\nstrip_metadata = true\n\n[preset.light]\nmain_text = \"COPY\"\nwatermark_type = \"diagonal\"\ncolor = \"#555555\"\nopacity = 0.3\nfiligrane = \"none\"\nanti_ai = false\n```",
     "ContentSha": "w1TgVcmWprT4358TF9cd15u4kzYHzXgiMN+TzpqaRsc=",
     "SectionType": "",
@@ -1431,186 +658,11 @@
     "EndLine": 0,
     "Translation": "```toml\n# Global defaults\nmain_text = \"CONFIDENTIAL\"\nsecondary_text = \"{author} — {date}\"\nwatermark_type = \"diagonal\"\ncolor = \"#1a3c6e\"\nopacity = 0.45\nfont_weight = \"bold\"\nfiligrane = \"guilloche\"\nborder = true\n\n[preset.ultra-secure]\nmain_text = \"CONFIDENTIAL — {author}\"\nwatermark_type = \"tile\"\ncolor = \"#CC0000\"\nopacity = 0.6\nfiligrane = \"full\"\nanti_ai = true\nqr_data = \"firemark://{author}/{timestamp}/{uuid}\"\nstrip_metadata = true\n\n[preset.light]\nmain_text = \"COPY\"\nwatermark_type = \"diagonal\"\ncolor = \"#555555\"\nopacity = 0.3\nfiligrane = \"none\"\nanti_ai = false\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
-        "originContent": "```toml",
-        "translatedContent": "```toml"
-      },
-      {
-        "row": 2,
-        "rowsha": "KifuftPFrCZA2Hpzf554SPrZ8/h4BmIcyX3HMbaTrsI=",
-        "originContent": "# Global defaults",
-        "translatedContent": "# Global defaults"
-      },
-      {
-        "row": 3,
-        "rowsha": "kMov37PbdhFLL0TReNv6CFOP+Xk97r4qeVIIzzyTpOs=",
-        "originContent": "main_text = \"CONFIDENTIAL\"",
-        "translatedContent": "main_text = \"CONFIDENTIAL\""
-      },
-      {
-        "row": 4,
-        "rowsha": "cUG2v1a8AB2/c0UJDHANlqBzjGuYrbbfoxEIr33Myzw=",
-        "originContent": "secondary_text = \"{author} — {date}\"",
-        "translatedContent": "secondary_text = \"{author} — {date}\""
-      },
-      {
-        "row": 5,
-        "rowsha": "sWHOWFt4APnt1E1wm8Uu4YPb5pUE+KFd85yP8UuV1Rw=",
-        "originContent": "watermark_type = \"diagonal\"",
-        "translatedContent": "watermark_type = \"diagonal\""
-      },
-      {
-        "row": 6,
-        "rowsha": "iXgTRYRos9nCSkiElR0bM2rEgi0pryf4EbnWeI9yy5c=",
-        "originContent": "color = \"#1a3c6e\"",
-        "translatedContent": "color = \"#1a3c6e\""
-      },
-      {
-        "row": 7,
-        "rowsha": "CgFRSfVEjTwkjl2yS5gNyQyTpHUlM9tp6RriF17duzM=",
-        "originContent": "opacity = 0.45",
-        "translatedContent": "opacity = 0.45"
-      },
-      {
-        "row": 8,
-        "rowsha": "hYDhVAJsFvUMXcqN3Rff/Sy5uY3isosP1QZdQ0pQ98c=",
-        "originContent": "font_weight = \"bold\"",
-        "translatedContent": "font_weight = \"bold\""
-      },
-      {
-        "row": 9,
-        "rowsha": "FVn50BsL93SENdG0AwDsCAcGFYTHXxSMvbT8P98w2+U=",
-        "originContent": "filigrane = \"guilloche\"",
-        "translatedContent": "filigrane = \"guilloche\""
-      },
-      {
-        "row": 10,
-        "rowsha": "J7cz/l1PAyFTVSfI5iqLg5TtZ4DXALNynD27nFpZUpA=",
-        "originContent": "border = true",
-        "translatedContent": "border = true"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "fcYjBNLrl2YSL7bzGgBNPn6vUMdSYABpvkNMVevhEyg=",
-        "originContent": "[preset.ultra-secure]",
-        "translatedContent": "[preset.ultra-secure]"
-      },
-      {
-        "row": 13,
-        "rowsha": "dqvwhXeEOVWvNRdWoQHPfjsBcfXiwKiqOuT0zNfQVmc=",
-        "originContent": "main_text = \"CONFIDENTIAL — {author}\"",
-        "translatedContent": "main_text = \"CONFIDENTIAL — {author}\""
-      },
-      {
-        "row": 14,
-        "rowsha": "BzCDC2wTQR1vJKhK0Tgb8vANaj2Zz9km4CNFe+Ao6W4=",
-        "originContent": "watermark_type = \"tile\"",
-        "translatedContent": "watermark_type = \"tile\""
-      },
-      {
-        "row": 15,
-        "rowsha": "SEsdpi4rvPMRUZwWeeFVHjy/d2FrV1fGv6nTCwikt1Y=",
-        "originContent": "color = \"#CC0000\"",
-        "translatedContent": "color = \"#CC0000\""
-      },
-      {
-        "row": 16,
-        "rowsha": "i3EwlNheiZ7vJqzMAOLZdJBUzfnnNw/1JxOvFW3+388=",
-        "originContent": "opacity = 0.6",
-        "translatedContent": "opacity = 0.6"
-      },
-      {
-        "row": 17,
-        "rowsha": "sQel8ay6u2ocQjL4pVKv1UuIUxVhgplz5cpwJZ2MXZ0=",
-        "originContent": "filigrane = \"full\"",
-        "translatedContent": "filigrane = \"full\""
-      },
-      {
-        "row": 18,
-        "rowsha": "KmrLlO+KaJlkQ1G3nRC1NB8tzOIgtbJP2j/nPZVzd6U=",
-        "originContent": "anti_ai = true",
-        "translatedContent": "anti_ai = true"
-      },
-      {
-        "row": 19,
-        "rowsha": "q7Xhid3yW+wpS8kr/AhgqEcy17L96FhSVNm+UKwha/U=",
-        "originContent": "qr_data = \"firemark://{author}/{timestamp}/{uuid}\"",
-        "translatedContent": "qr_data = \"firemark://{author}/{timestamp}/{uuid}\""
-      },
-      {
-        "row": 20,
-        "rowsha": "CWSh3j3tmdmuYWpYmsqCpjKnR3wC5KxS4J9sJ2K6R2M=",
-        "originContent": "strip_metadata = true",
-        "translatedContent": "strip_metadata = true"
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "9gkPj/4K8NEG3ffE5DiJNPV2L9/9WLMOGaFEQ9zDJOU=",
-        "originContent": "[preset.light]",
-        "translatedContent": "[preset.light]"
-      },
-      {
-        "row": 23,
-        "rowsha": "JB+beZ9j04Y0bqXIjiJdCLkBQzCnQ94V7+nB/lfsXgo=",
-        "originContent": "main_text = \"COPY\"",
-        "translatedContent": "main_text = \"COPY\""
-      },
-      {
-        "row": 24,
-        "rowsha": "sWHOWFt4APnt1E1wm8Uu4YPb5pUE+KFd85yP8UuV1Rw=",
-        "originContent": "watermark_type = \"diagonal\"",
-        "translatedContent": "watermark_type = \"diagonal\""
-      },
-      {
-        "row": 25,
-        "rowsha": "JgCbxJvjNIG5IQpiaAkIuaq2U69rOB4Hnl4EjPK7zFs=",
-        "originContent": "color = \"#555555\"",
-        "translatedContent": "color = \"#555555\""
-      },
-      {
-        "row": 26,
-        "rowsha": "Ynx3wa3QeMKXHi5jzVXLv3ijMyBvNMzpkxhCOwH2eLI=",
-        "originContent": "opacity = 0.3",
-        "translatedContent": "opacity = 0.3"
-      },
-      {
-        "row": 27,
-        "rowsha": "cQd6sDgoz7o/q7gzWSCDWN0jPGHs9wHK2B+6OikRoRE=",
-        "originContent": "filigrane = \"none\"",
-        "translatedContent": "filigrane = \"none\""
-      },
-      {
-        "row": 28,
-        "rowsha": "TmJCrPKT+GVXz0MWtXrvVkaUq/vBp2KZcOEz3Ctkdac=",
-        "originContent": "anti_ai = false",
-        "translatedContent": "anti_ai = false"
-      },
-      {
-        "row": 29,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 21,
+    "Id": 22,
     "Content": "",
     "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "SectionType": "",
@@ -1618,18 +670,11 @@
     "EndLine": 0,
     "Translation": "",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 22,
+    "Id": 23,
     "Content": "```bash\nfiremark doc.pdf --config firemark.toml\nfiremark doc.pdf --config firemark.toml --preset ultra-secure\nfiremark doc.pdf --config firemark.toml --preset light\nfiremark doc.pdf --save-preset mypreset    # save current flags\nfiremark --list-presets                     # list available presets\n```",
     "ContentSha": "D7oRsd9ryIOLybV14tJPavjwttmOq+Zb0uckG40AmqU=",
     "SectionType": "",
@@ -1637,54 +682,11 @@
     "EndLine": 0,
     "Translation": "```bash\nfiremark doc.pdf --config firemark.toml\nfiremark doc.pdf --config firemark.toml --preset ultra-secure\nfiremark doc.pdf --config firemark.toml --preset light\nfiremark doc.pdf --save-preset mypreset    # save current flags\nfiremark --list-presets                     # list available presets\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "snxyaxUoQKZQgiukrlSDfEucBzhtlh/ypefPFAqqAnI=",
-        "originContent": "firemark doc.pdf --config firemark.toml",
-        "translatedContent": "firemark doc.pdf --config firemark.toml"
-      },
-      {
-        "row": 3,
-        "rowsha": "jeCq5XU6zbCyAy8cISGxnr0Nq0p2Wepd+1PDtkRxorc=",
-        "originContent": "firemark doc.pdf --config firemark.toml --preset ultra-secure",
-        "translatedContent": "firemark doc.pdf --config firemark.toml --preset ultra-secure"
-      },
-      {
-        "row": 4,
-        "rowsha": "s79qxUktV9cHhAKkdYvXUq6k1jVqwGuUqtmLioltHH4=",
-        "originContent": "firemark doc.pdf --config firemark.toml --preset light",
-        "translatedContent": "firemark doc.pdf --config firemark.toml --preset light"
-      },
-      {
-        "row": 5,
-        "rowsha": "uNRsYGYbZ5MKpZ67I5kf2+yTH4WuxQqYirtE7icBlUw=",
-        "originContent": "firemark doc.pdf --save-preset mypreset    # save current flags",
-        "translatedContent": "firemark doc.pdf --save-preset mypreset    # save current flags"
-      },
-      {
-        "row": 6,
-        "rowsha": "uivcv5y6KaFxvadO+9iwKaPmzpSZvonkJJSKbX3ddvk=",
-        "originContent": "firemark --list-presets                     # list available presets",
-        "translatedContent": "firemark --list-presets                     # list available presets"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 23,
+    "Id": 24,
     "Content": "\n## Format support\n\n| Format | Input | Output |\n|---|---|---|\n| PNG | yes | yes |\n| JPEG | yes | yes |\n| PDF | yes | yes |\n| WebP | yes | yes |\n| TIFF | yes | yes |\n\nCross-format conversion is supported (e.g. `firemark photo.webp -o out.pdf`).\n\n## License\n\nMIT\n",
     "ContentSha": "gcukeCP1pRMaDbIJpfDmue0Ih8RbHuu2JYJK8drFEIM=",
     "SectionType": "",
@@ -1692,110 +694,7 @@
     "EndLine": 0,
     "Translation": "\n## フォーマット対応\n\n| フォーマット | 入力 | 出力 |\n|---|---|---|\n| PNG | はい | はい |\n| JPEG | はい | はい |\n| PDF | はい | はい |\n| WebP | はい | はい |\n| TIFF | はい | はい |\n\nクロスフォーマット変換に対応（例：`firemark photo.webp -o out.pdf`）。\n\n## ライセンス\n\nMIT\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "8O+NlZOGS4n+f7TPPtvZOHRAEP1TLFxk8fKmfni0BDI=",
-        "originContent": "## Format support",
-        "translatedContent": "## フォーマット対応"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "/iQIBXyPOxVy5UihZCANMhnj/zPXOyRWpUs8ec5fDoA=",
-        "originContent": "| Format | Input | Output |",
-        "translatedContent": "| フォーマット | 入力 | 出力 |"
-      },
-      {
-        "row": 5,
-        "rowsha": "I8ygK3TzhkY++iR5bHqQEbDSyT8MOLTRXV0nYgW1m0M=",
-        "originContent": "|---|---|---|",
-        "translatedContent": "|---|---|---|"
-      },
-      {
-        "row": 6,
-        "rowsha": "v9EwXlKsd8HNAGYlx48/YYO5Z1dSkfQUyz/ZKzQqKfA=",
-        "originContent": "| PNG | yes | yes |",
-        "translatedContent": "| PNG | はい | はい |"
-      },
-      {
-        "row": 7,
-        "rowsha": "Jq9rJOAFW8Ue6gNSe4nnZSn+buKZwU3VlABHt2o51ic=",
-        "originContent": "| JPEG | yes | yes |",
-        "translatedContent": "| JPEG | はい | はい |"
-      },
-      {
-        "row": 8,
-        "rowsha": "j7pFbXid02vGcURaxL+QznTMGC3y1/cbvNJF7fAEfB0=",
-        "originContent": "| PDF | yes | yes |",
-        "translatedContent": "| PDF | はい | はい |"
-      },
-      {
-        "row": 9,
-        "rowsha": "UH8E2AZGQU+JySLM5cOZAebk19RrVnZNDIwv/IqUqsc=",
-        "originContent": "| WebP | yes | yes |",
-        "translatedContent": "| WebP | はい | はい |"
-      },
-      {
-        "row": 10,
-        "rowsha": "q535TyhmbFVcsX+JQJ1k/uKpsCCziJYhuG+Vsh5uY8Y=",
-        "originContent": "| TIFF | yes | yes |",
-        "translatedContent": "| TIFF | はい | はい |"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "z/ggZdNT1XhobIlKTBAGD5U6j4TWnihPmQS6SttPjA0=",
-        "originContent": "Cross-format conversion is supported (e.g. `firemark photo.webp -o out.pdf`).",
-        "translatedContent": "クロスフォーマット変換に対応（例：`firemark photo.webp -o out.pdf`）。"
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
-        "originContent": "## License",
-        "translatedContent": "## ライセンス"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "5dz/6Da27IpY5JJBm1UOZfuMvcMIUDl55drLM6x+o7c=",
-        "originContent": "MIT",
-        "translatedContent": "MIT"
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

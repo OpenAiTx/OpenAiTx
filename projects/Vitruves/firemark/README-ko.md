@@ -1,33 +1,65 @@
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/firemark.png" alt="firemark" width="200">
 </p>
 
 <h1 align="center">firemark</h1>
 
-<p align="center">이미지와 PDF를 위한 빠른 단일 바이너리 워터마킹 도구. Rust로 제작됨.</p>
+<p align="center">Rust로 제작된 이미지와 PDF를 위한 빠르고 단일 바이너리 워터마킹 도구입니다.</p>
 
-## 문서에 워터마크를 넣어야 하는 이유는?
 
-매년 수백만 명의 사람들이 단순한 문서 교환에서 시작되는 신원 도용의 희생자가 됩니다.  
-일반적인 상황: 임대할 아파트를 찾고 있습니다.  
-집주인 또는 집주인인 척하는 사람이 신분증 사본, 급여 명세서, 세금 고지서를 요구합니다.  
-당신은 워터마크 없는 문서를 보냅니다. "집주인"은 사라지고, 당신의 문서는 은행 계좌 개설, 대출, 또는 당신 이름으로 신원 위조에 사용됩니다.
+## 왜 문서에 워터마크를 추가해야 하나요?
 
-보내는 모든 문서에 워터마크를 넣는 것이 가장 효과적인 방어책입니다.  
-**"XYZ 기관에 발송 — 2026년 3월 — 아파트 임대 신청서 전용"**이라는 가시적 오버레이는 문서를 다른 용도로 사용할 수 없게 만듭니다.  
-만약 문서가 유출된다면, 어디서 유출되었는지 정확히 알 수 있습니다.
+매년 수백만 명의 사람들이 단순한 문서 교환에서 시작된 신원 사기로 피해를 입습니다.
+일반적인 시나리오: 당신은 임대할 아파트를 찾고 있습니다.
+집주인 — 또는 집주인인 척하는 사람이 — 신분증, 급여 명세서, 세금 고지서 사본을 요청합니다.
+당신은 아무 표시 없이 문서를 보내고, "집주인"은 사라집니다. 이제 당신의 문서가 은행 계좌 개설, 대출 신청, 또는 신분 위조에 사용됩니다.
 
-firemark는 이를 손쉽게 만듭니다: 한 줄 명령어로, 모든 이미지나 PDF에, 17가지 시각 스타일, 편집에 강한 암호학적 필리그레인 패턴, 그리고 전체 폴더에 대한 배치 처리 기능을 제공합니다.
+문서를 보낼 때마다 워터마크를 추가하는 것은 가장 효과적인 방어책입니다.
+**"XYZ 기관에 발송 — 2026년 3월 — 아파트 임대 신청용"**이라는 표시가 있는 오버레이는 문서를 다른 목적으로 사용할 수 없게 만듭니다. 유출될 경우, 어디에서 유출됐는지 정확히 알 수 있습니다.
+
+firemark는 이를 손쉽게 만들어줍니다: 한 번의 명령으로 모든 이미지 또는 PDF에 적용, 17가지 시각적 스타일, 편집에 강한 암호화된 필리그린 패턴, 그리고 전체 폴더의 배치 처리 기능을 제공합니다.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/paycheck-firemark-comparison.png" alt="Before and after watermarking" width="800">
+  <img src="https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/paycheck-firemark-comparison.png" alt="워터마크 전후 비교" width="800">
   <br>
-  <em>전과 후 — 한 줄 명령어로 문서가 추적 가능하고 변조 감지가 가능해졌습니다.</em>
+  <em>워터마크 전과 후 — 한 번의 명령으로 문서가 추적 가능하고 변조 방지가 됩니다.</em>
 </p>
 
-## 설치
+## 설치 방법
 
 [crates.io](https://crates.io/crates/firemark)에서:
+
 
 
 
@@ -251,6 +283,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-11
 
 ---

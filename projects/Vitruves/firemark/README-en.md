@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/firemark.png" alt="firemark" width="200">
 </p>
@@ -8,19 +40,19 @@
 
 ## Why watermark your documents?
 
-Every year, millions of people fall victim to identity fraud that starts with a
-simple document exchange. A common scenario: you're looking for a flat to rent.
-The landlord — or someone posing as one — asks for a copy of your ID, a pay
-stub, a tax notice. You send them unmarked. The "landlord" disappears, and your
-documents are now used to open bank accounts, take out loans, or forge
+Every year, millions of people fall victim to identity fraud that begins with a
+simple document exchange. A typical scenario: you're searching for an apartment to rent.
+The landlord — or someone pretending to be one — asks for a copy of your ID, a pay
+stub, a tax notice. You send them without any markings. The "landlord" disappears, and your
+documents are then used to open bank accounts, take out loans, or forge
 identities in your name.
 
-Watermarking every document you send out is the single most effective defence.
-A visible overlay that reads **"Sent to XYZ agency — March 2026 — flat rental
-application only"** makes the document useless for any other purpose. If it
-leaks, you know exactly where it came from.
+Watermarking every document you send out is the single most effective defense.
+A visible overlay stating **"Sent to XYZ agency — March 2026 — flat rental
+application only"** renders the document useless for any other purpose. If it
+leaks, you know exactly where it originated.
 
-firemark makes this effortless: one command, any image or PDF, 17 visual
+firemark makes this easy: one command, any image or PDF, 17 visual
 styles, cryptographic filigrane patterns that resist editing, and batch
 processing for entire folders.
 
@@ -251,6 +283,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-11
 
 ---

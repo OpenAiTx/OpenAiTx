@@ -1,0 +1,433 @@
+[
+  {
+    "Id": 1,
+    "Content": "# <img src=\"https://github.com/user-attachments/assets/b81b9503-948e-4cba-b0a1-f5f809588aad\" width=\"48\"> SwitchWave\nA hardware-accelerated media player for the Nintendo Switch, built on mpv and FFmpeg.\n\n## Features\n- Custom hardware acceleration backend for FFmpeg, with dynamic frequency scaling. The following codecs can be decoded:\n    - MPEG1/2/4\n    - VC1\n    - H.264/AVC (10+ bit not supported by hardware)\n    - H.265/HEVC (12+ bit not supported by hardware)\n    - VP8\n    - VP9 (10+ bit not supported by hardware)\n- Custom graphics backend for mpv using [deko3d](https://github.com/devkitPro/deko3d), supporting:\n    - Playback at 4k60fps\n    - Direct rendering (faster software decoding)\n    - Custom post-processing shaders\n- Custom audio backend for mpv using native Nintendo APIs, supporting layouts up to 5.1 surround\n- Network playback through HTTP/S, Samba, NFS or SFTP\n- External drive support using [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)\n- Rich and responsive user interface, even under load\n\n## Screenshots\n\n<p float=\"center\">\n    <img src=\"https://github.com/user-attachments/assets/09aed446-148a-4276-8b07-336890c224a3\" width=\"413\" />\n    <img src=\"https://github.com/user-attachments/assets/6e354511-47bc-4898-881c-348d5a9e6fbc\" width=\"413\" />\n    <img src=\"https://github.com/user-attachments/assets/b86eb7c6-4229-46c6-8709-86d1a6ee8eed\" width=\"413\" />\n    <img src=\"https://github.com/user-attachments/assets/70f4be3e-fa1e-434a-b76c-4fb6b671f80e\" width=\"413\" />\n</p>\n\n## Setup\n- Download the [latest release](https://github.com/averne/SwitchWave/releases/latest), and extract it to the root of your sd card (be careful to merge and not overwrite folders)\n- Network shares can be configured through the app, as can mpv settings via the built-in editor (refer to the [manual](https://mpv.io/manual/master/))\n- Most relevant runtime parameters can be dynamically adjusted during playback through the menu, or failing that, the console ([manual](https://mpv.io/manual/master/#console))\n\n## Building\n\n### Docker (recommended)",
+    "ContentSha": "qJYHAmuY8RlUCC+Uf/EfbyEaRXuNMZlTQ9CdGtOcbJ0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# <img src=\"https://github.com/user-attachments/assets/b81b9503-948e-4cba-b0a1-f5f809588aad\" width=\"48\"> SwitchWave\n一个为任天堂Switch硬件加速的媒体播放器，基于mpv和FFmpeg构建。\n\n## 功能\n- FFmpeg的自定义硬件加速后端，支持动态频率调节。可解码以下编码格式：\n    - MPEG1/2/4\n    - VC1\n    - H.264/AVC（硬件不支持10位及以上）\n    - H.265/HEVC（硬件不支持12位及以上）\n    - VP8\n    - VP9（硬件不支持10位及以上）\n- mpv的自定义图形后端，使用[deko3d](https://github.com/devkitPro/deko3d)，支持：\n    - 4k60fps播放\n    - 直接渲染（更快的软件解码）\n    - 自定义后期处理着色器\n- mpv的自定义音频后端，使用任天堂原生API，支持最高5.1声道布局\n- 通过HTTP/S、Samba、NFS或SFTP进行网络播放\n- 支持使用[libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)的外部驱动器\n- 丰富且响应迅速的用户界面，即使在负载下也能流畅运行\n\n## 截图\n\n<p float=\"center\">\n    <img src=\"https://github.com/user-attachments/assets/09aed446-148a-4276-8b07-336890c224a3\" width=\"413\" />\n    <img src=\"https://github.com/user-attachments/assets/6e354511-47bc-4898-881c-348d5a9e6fbc\" width=\"413\" />\n    <img src=\"https://github.com/user-attachments/assets/b86eb7c6-4229-46c6-8709-86d1a6ee8eed\" width=\"413\" />\n    <img src=\"https://github.com/user-attachments/assets/70f4be3e-fa1e-434a-b76c-4fb6b671f80e\" width=\"413\" />\n</p>\n\n## 安装\n- 下载[最新版本](https://github.com/averne/SwitchWave/releases/latest)，并解压到SD卡根目录（注意合并而非覆盖文件夹）\n- 可以通过应用配置网络共享，也可以通过内置编辑器配置mpv设置（请参考[手册](https://mpv.io/manual/master/)）\n- 大部分相关运行时参数可通过菜单在播放时动态调整，若无法调整，可使用控制台（[手册](https://mpv.io/manual/master/#console)）\n\n## 构建\n\n### Docker（推荐）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UFcH/R7OB0cymDvjK2Dj78gRdDoXD/3bNPBkPDO3FJ0=",
+        "originContent": "# <img src=\"https://github.com/user-attachments/assets/b81b9503-948e-4cba-b0a1-f5f809588aad\" width=\"48\"> SwitchWave",
+        "translatedContent": "# <img src=\"https://github.com/user-attachments/assets/b81b9503-948e-4cba-b0a1-f5f809588aad\" width=\"48\"> SwitchWave"
+      },
+      {
+        "row": 2,
+        "rowsha": "sHBYYRz1hc7lWumyFYKvsbrxZPehVqoQX4VDlBpOvds=",
+        "originContent": "A hardware-accelerated media player for the Nintendo Switch, built on mpv and FFmpeg.",
+        "translatedContent": "一个为任天堂Switch硬件加速的媒体播放器，基于mpv和FFmpeg构建。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 5,
+        "rowsha": "eNJH04OwgOOLYgLsXZ6tSKR92jQMr2IUVNiSfgo41RA=",
+        "originContent": "- Custom hardware acceleration backend for FFmpeg, with dynamic frequency scaling. The following codecs can be decoded:",
+        "translatedContent": "- FFmpeg的自定义硬件加速后端，支持动态频率调节。可解码以下编码格式："
+      },
+      {
+        "row": 6,
+        "rowsha": "b6QdbeXtvDyBN4+e3+RPIcN7fdMvkPKhMBbopjs+Gxg=",
+        "originContent": "    - MPEG1/2/4",
+        "translatedContent": "    - MPEG1/2/4"
+      },
+      {
+        "row": 7,
+        "rowsha": "Sld/DEDWVJM6nnj/sXbVYWlwpPjB8XYD6sm0uGmZ/tg=",
+        "originContent": "    - VC1",
+        "translatedContent": "    - VC1"
+      },
+      {
+        "row": 8,
+        "rowsha": "D14+CbaH854WyLjv6nhNfUlnGb5htCQKUpt6Fq+TCUA=",
+        "originContent": "    - H.264/AVC (10+ bit not supported by hardware)",
+        "translatedContent": "    - H.264/AVC（硬件不支持10位及以上）"
+      },
+      {
+        "row": 9,
+        "rowsha": "cs9AXWOy0zmCYKX3nV2K7CPUWYjLEnmi25srYD+p638=",
+        "originContent": "    - H.265/HEVC (12+ bit not supported by hardware)",
+        "translatedContent": "    - H.265/HEVC（硬件不支持12位及以上）"
+      },
+      {
+        "row": 10,
+        "rowsha": "z5o/FlW0rnEfQduR6eBj4/jDhZ/bFw3OxKN84U+GLOo=",
+        "originContent": "    - VP8",
+        "translatedContent": "    - VP8"
+      },
+      {
+        "row": 11,
+        "rowsha": "F2QN4Em0FooJiO3cn2eemWQQ1HrFffCYF8xqpX90qvM=",
+        "originContent": "    - VP9 (10+ bit not supported by hardware)",
+        "translatedContent": "    - VP9（硬件不支持10位及以上）"
+      },
+      {
+        "row": 12,
+        "rowsha": "KoGXoQNgi2Vz0hIOVsfXUFlxmdYKhJ8bljLLLrDCvds=",
+        "originContent": "- Custom graphics backend for mpv using [deko3d](https://github.com/devkitPro/deko3d), supporting:",
+        "translatedContent": "- mpv的自定义图形后端，使用[deko3d](https://github.com/devkitPro/deko3d)，支持："
+      },
+      {
+        "row": 13,
+        "rowsha": "tI07M9SxJdFPPGqwUM8Dtp6JcvAvnqKIsnvcJ8/pWhA=",
+        "originContent": "    - Playback at 4k60fps",
+        "translatedContent": "    - 4k60fps播放"
+      },
+      {
+        "row": 14,
+        "rowsha": "Ntvi6vH9tJQHVCRIN4i49a/CBRrc6PVkjRNFdHkC0TU=",
+        "originContent": "    - Direct rendering (faster software decoding)",
+        "translatedContent": "    - 直接渲染（更快的软件解码）"
+      },
+      {
+        "row": 15,
+        "rowsha": "PYnIvCLPXMoyC43fVbvJRqyOStV0oKbSRcqHekbhJmA=",
+        "originContent": "    - Custom post-processing shaders",
+        "translatedContent": "    - 自定义后期处理着色器"
+      },
+      {
+        "row": 16,
+        "rowsha": "Aw18vfIKYHyfYjgS+o3Lg6XwBykngCl9Er9jJqUtH7I=",
+        "originContent": "- Custom audio backend for mpv using native Nintendo APIs, supporting layouts up to 5.1 surround",
+        "translatedContent": "- mpv的自定义音频后端，使用任天堂原生API，支持最高5.1声道布局"
+      },
+      {
+        "row": 17,
+        "rowsha": "0EoUgNPBcr63fW0gnZ3qXBVF49URhF2kGOKk0TzcdKE=",
+        "originContent": "- Network playback through HTTP/S, Samba, NFS or SFTP",
+        "translatedContent": "- 通过HTTP/S、Samba、NFS或SFTP进行网络播放"
+      },
+      {
+        "row": 18,
+        "rowsha": "+K8CKlbJSzQVJD9MnA11RiTZ+1YhNtYD+7e9VP5ycks=",
+        "originContent": "- External drive support using [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)",
+        "translatedContent": "- 支持使用[libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)的外部驱动器"
+      },
+      {
+        "row": 19,
+        "rowsha": "Zt27EWjdKu/tZx9T2yKljPg4aLyLzMzPx34V4p/mWtQ=",
+        "originContent": "- Rich and responsive user interface, even under load",
+        "translatedContent": "- 丰富且响应迅速的用户界面，即使在负载下也能流畅运行"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "CrQ1XO/et1agLOmJnlaLYfcfQdvL77gCZWQqAUysVwM=",
+        "originContent": "## Screenshots",
+        "translatedContent": "## 截图"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "eDt8JkQvnVdCK9B0TCNqgWKdFtDnU+4YLXSXwTLuMTE=",
+        "originContent": "<p float=\"center\">",
+        "translatedContent": "<p float=\"center\">"
+      },
+      {
+        "row": 24,
+        "rowsha": "wJdYWgYkdPqZz+D2PBUwPCL3s14kJwGMKS0veM2115Q=",
+        "originContent": "    <img src=\"https://github.com/user-attachments/assets/09aed446-148a-4276-8b07-336890c224a3\" width=\"413\" />",
+        "translatedContent": "    <img src=\"https://github.com/user-attachments/assets/09aed446-148a-4276-8b07-336890c224a3\" width=\"413\" />"
+      },
+      {
+        "row": 25,
+        "rowsha": "kD9ZDVBHHH9SKkGHZ/JJJRhODRFGtJ70IXMbKSpccPs=",
+        "originContent": "    <img src=\"https://github.com/user-attachments/assets/6e354511-47bc-4898-881c-348d5a9e6fbc\" width=\"413\" />",
+        "translatedContent": "    <img src=\"https://github.com/user-attachments/assets/6e354511-47bc-4898-881c-348d5a9e6fbc\" width=\"413\" />"
+      },
+      {
+        "row": 26,
+        "rowsha": "xYPwHIqwq8OYN5/d+MBJHP3y0bly8pC0JOqzbnHfnew=",
+        "originContent": "    <img src=\"https://github.com/user-attachments/assets/b86eb7c6-4229-46c6-8709-86d1a6ee8eed\" width=\"413\" />",
+        "translatedContent": "    <img src=\"https://github.com/user-attachments/assets/b86eb7c6-4229-46c6-8709-86d1a6ee8eed\" width=\"413\" />"
+      },
+      {
+        "row": 27,
+        "rowsha": "qqvtyKD0NH3SBkF0/uB4mrCSPW2yFvqzeH4CH7jxSGo=",
+        "originContent": "    <img src=\"https://github.com/user-attachments/assets/70f4be3e-fa1e-434a-b76c-4fb6b671f80e\" width=\"413\" />",
+        "translatedContent": "    <img src=\"https://github.com/user-attachments/assets/70f4be3e-fa1e-434a-b76c-4fb6b671f80e\" width=\"413\" />"
+      },
+      {
+        "row": 28,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+        "originContent": "## Setup",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 31,
+        "rowsha": "NXg7BrESOu//DWXGyS3EjADbzpKdk12fLhTOabvPUqk=",
+        "originContent": "- Download the [latest release](https://github.com/averne/SwitchWave/releases/latest), and extract it to the root of your sd card (be careful to merge and not overwrite folders)",
+        "translatedContent": "- 下载[最新版本](https://github.com/averne/SwitchWave/releases/latest)，并解压到SD卡根目录（注意合并而非覆盖文件夹）"
+      },
+      {
+        "row": 32,
+        "rowsha": "GKytQguqMVPAXWJsuFs3yTADWYiNy6W4OX4dB9vpCqA=",
+        "originContent": "- Network shares can be configured through the app, as can mpv settings via the built-in editor (refer to the [manual](https://mpv.io/manual/master/))",
+        "translatedContent": "- 可以通过应用配置网络共享，也可以通过内置编辑器配置mpv设置（请参考[手册](https://mpv.io/manual/master/)）"
+      },
+      {
+        "row": 33,
+        "rowsha": "HhKOW7/KcNz4Cz0zAm5fdyTnBBUaiP37eHHS9Wjtz4w=",
+        "originContent": "- Most relevant runtime parameters can be dynamically adjusted during playback through the menu, or failing that, the console ([manual](https://mpv.io/manual/master/#console))",
+        "translatedContent": "- 大部分相关运行时参数可通过菜单在播放时动态调整，若无法调整，可使用控制台（[手册](https://mpv.io/manual/master/#console)）"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "7yG6yJKPL5cg9brIizwUDQZkeD/r3QuaAXwB7XbI5xs=",
+        "originContent": "## Building",
+        "translatedContent": "## 构建"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "71hb/LZU83EOsvIH34yQoNjsosEsS9S5ZS5R3U+pf2E=",
+        "originContent": "### Docker (recommended)",
+        "translatedContent": "### Docker（推荐）"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\n./build-docker.sh\n```",
+    "ContentSha": "jK4XHxxm+SM0n6RP2mlHC3CRZn8WVVbjAaU8R9A2Y6E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n./build-docker.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Fdm1fWtjnQpEVl1lELXj+d8eXnv95Rs6Vo/Xp61CdYM=",
+        "originContent": "./build-docker.sh",
+        "translatedContent": "./build-docker.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "This builds the toolchain image and compiles everything automatically. Output will be found in `build/`.\n\nTo build with GIMP 3 instead of the default GIMP 2:",
+    "ContentSha": "z5YKNfaTqWq0Xza5erO1vNixsHBcji501353GxQhH5Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "这将自动构建工具链镜像并编译所有内容。输出文件将在 `build/` 中找到。\n\n要使用 GIMP 3 而不是默认的 GIMP 2 进行构建：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bbt4XFPYBuEpiMizSkqMugPFgcXRHVGk2SLSsz5YIpY=",
+        "originContent": "This builds the toolchain image and compiles everything automatically. Output will be found in `build/`.",
+        "translatedContent": "这将自动构建工具链镜像并编译所有内容。输出文件将在 `build/` 中找到。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "mzPYxOND6zMZMLjoN2GbpZE/t8WlRpTyfWdG/DjSZXk=",
+        "originContent": "To build with GIMP 3 instead of the default GIMP 2:",
+        "translatedContent": "要使用 GIMP 3 而不是默认的 GIMP 2 进行构建："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh\nGIMP_VERSION=3 ./build-docker.sh\n```",
+    "ContentSha": "FQIntpIPmmlug9z5AYi28qGb2ZDoMfjvnqNqEd2+9Ys=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nGIMP_VERSION=3 ./build-docker.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ld4IkhwaAoW0dnDcd1IsRXr/cc5h6/6wOe2U3SfdMOA=",
+        "originContent": "GIMP_VERSION=3 ./build-docker.sh",
+        "translatedContent": "GIMP_VERSION=3 ./build-docker.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Manual\n- Set up a [devkitpro](https://devkitpro.org/wiki/devkitPro_pacman) environment for Switch homebrew development.\n- Install the following packages: `switch-bzip2`, `switch-dav1d`, `switch-freetype`, `switch-glm`, `switch-harfbuzz`, `switch-libarchive`, `switch-libass`, `switch-libfribidi`, `switch-libjpeg-turbo`, `switch-libpng`, `switch-libwebp`, `switch-curl`, `switch-libssh2`, `switch-mbedtls`, `switch-ntfs-3g` and `switch-lwext4`. In addition, the following build dependencies are required: `switch-pkg-config`, `dkp-meson-scripts`, `dkp-toolchain-vars`, and [GIMP](https://www.gimp.org/) (2 or 3).\n- Compile and install a GPL build of [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs).\n- Compile and install [libsmb2](misc/libsmb2/) and [libnfs](misc/libnfs/).\n- Configure, compile and install FFmpeg: `make configure-ffmpeg && make build-ffmpeg -j$(nproc)`.\n- Configure, compile and install libuam: `make configure-uam && make build-uam`.\n- Configure, compile and install mpv: `make configure-mpv && make build-mpv`.\n- Finally, compile the main application and build the release distribution: `make dist -j$(nproc)`.\n- Output will be found in `build/`.\n\n## Credits\n- [Behemoth](https://github.com/HookedBehemoth) for the screenshot button overriding method.\n",
+    "ContentSha": "Ql/t7YGTnn8DKCGoOUue7FTC+caSBb2DY4n/J6ETO2U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 手册\n- 设置一个用于Switch自制软件开发的[devkitpro](https://devkitpro.org/wiki/devkitPro_pacman)环境。\n- 安装以下软件包：`switch-bzip2`、`switch-dav1d`、`switch-freetype`、`switch-glm`、`switch-harfbuzz`、`switch-libarchive`、`switch-libass`、`switch-libfribidi`、`switch-libjpeg-turbo`、`switch-libpng`、`switch-libwebp`、`switch-curl`、`switch-libssh2`、`switch-mbedtls`、`switch-ntfs-3g` 和 `switch-lwext4`。此外，还需要以下构建依赖：`switch-pkg-config`、`dkp-meson-scripts`、`dkp-toolchain-vars`，以及 [GIMP](https://www.gimp.org/) (版本2或3)。\n- 编译并安装GPL版本的[libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)。\n- 编译并安装[libsmb2](misc/libsmb2/)和[libnfs](misc/libnfs/)。\n- 配置、编译并安装FFmpeg：`make configure-ffmpeg && make build-ffmpeg -j$(nproc)`。\n- 配置、编译并安装libuam：`make configure-uam && make build-uam`。\n- 配置、编译并安装mpv：`make configure-mpv && make build-mpv`。\n- 最后，编译主应用程序并构建发布版本：`make dist -j$(nproc)`。\n- 输出文件将位于`build/`目录下。\n\n## 致谢\n- 感谢[Behemoth](https://github.com/HookedBehemoth)提供的截图按钮重写方法。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "9OG0gmh7hn/goGKXiq1OEJ97bhWCg/x49US2cADdZYc=",
+        "originContent": "### Manual",
+        "translatedContent": "### 手册"
+      },
+      {
+        "row": 3,
+        "rowsha": "FARo4lqf3j5FV+3cRsWxGZUNnkrcR3f+yf1c8Mhkhc4=",
+        "originContent": "- Set up a [devkitpro](https://devkitpro.org/wiki/devkitPro_pacman) environment for Switch homebrew development.",
+        "translatedContent": "- 设置一个用于Switch自制软件开发的[devkitpro](https://devkitpro.org/wiki/devkitPro_pacman)环境。"
+      },
+      {
+        "row": 4,
+        "rowsha": "MOyxQnnsolroytFQfdVZ4EeLbk625oUBVfiQ1hY868w=",
+        "originContent": "- Install the following packages: `switch-bzip2`, `switch-dav1d`, `switch-freetype`, `switch-glm`, `switch-harfbuzz`, `switch-libarchive`, `switch-libass`, `switch-libfribidi`, `switch-libjpeg-turbo`, `switch-libpng`, `switch-libwebp`, `switch-curl`, `switch-libssh2`, `switch-mbedtls`, `switch-ntfs-3g` and `switch-lwext4`. In addition, the following build dependencies are required: `switch-pkg-config`, `dkp-meson-scripts`, `dkp-toolchain-vars`, and [GIMP](https://www.gimp.org/) (2 or 3).",
+        "translatedContent": "- 安装以下软件包：`switch-bzip2`、`switch-dav1d`、`switch-freetype`、`switch-glm`、`switch-harfbuzz`、`switch-libarchive`、`switch-libass`、`switch-libfribidi`、`switch-libjpeg-turbo`、`switch-libpng`、`switch-libwebp`、`switch-curl`、`switch-libssh2`、`switch-mbedtls`、`switch-ntfs-3g` 和 `switch-lwext4`。此外，还需要以下构建依赖：`switch-pkg-config`、`dkp-meson-scripts`、`dkp-toolchain-vars`，以及 [GIMP](https://www.gimp.org/) (版本2或3)。"
+      },
+      {
+        "row": 5,
+        "rowsha": "v1dQb5v6LrTOjAl+m6ufbq/iFhwMJWLSrdMYv6wsBnQ=",
+        "originContent": "- Compile and install a GPL build of [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs).",
+        "translatedContent": "- 编译并安装GPL版本的[libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)。"
+      },
+      {
+        "row": 6,
+        "rowsha": "I8+Rp3Fn8Y12iuJ/3ExwDF4F3QIsybaLAfMx/Ua2RLs=",
+        "originContent": "- Compile and install [libsmb2](misc/libsmb2/) and [libnfs](misc/libnfs/).",
+        "translatedContent": "- 编译并安装[libsmb2](misc/libsmb2/)和[libnfs](misc/libnfs/)。"
+      },
+      {
+        "row": 7,
+        "rowsha": "46Pcmefto02PbJ/9ES3njdqjf3eAQy0kMAzJM32Opa0=",
+        "originContent": "- Configure, compile and install FFmpeg: `make configure-ffmpeg && make build-ffmpeg -j$(nproc)`.",
+        "translatedContent": "- 配置、编译并安装FFmpeg：`make configure-ffmpeg && make build-ffmpeg -j$(nproc)`。"
+      },
+      {
+        "row": 8,
+        "rowsha": "HDT7ykLcI2siLfVGJAzDG5/CHli0FjmJPIQZ5MIOqyQ=",
+        "originContent": "- Configure, compile and install libuam: `make configure-uam && make build-uam`.",
+        "translatedContent": "- 配置、编译并安装libuam：`make configure-uam && make build-uam`。"
+      },
+      {
+        "row": 9,
+        "rowsha": "OyMG8XORNEaZd1tmMi3QI+M74cAVsUOkZCXttjJBymY=",
+        "originContent": "- Configure, compile and install mpv: `make configure-mpv && make build-mpv`.",
+        "translatedContent": "- 配置、编译并安装mpv：`make configure-mpv && make build-mpv`。"
+      },
+      {
+        "row": 10,
+        "rowsha": "UM2IjIP/qf0PLiHagTFyKHV4gX8LQog7ZcbDNkJdUBQ=",
+        "originContent": "- Finally, compile the main application and build the release distribution: `make dist -j$(nproc)`.",
+        "translatedContent": "- 最后，编译主应用程序并构建发布版本：`make dist -j$(nproc)`。"
+      },
+      {
+        "row": 11,
+        "rowsha": "Qeo3+u9JBiSL6kLeMqrtnrCnnoiTxx1O9d/dbFvsnxw=",
+        "originContent": "- Output will be found in `build/`.",
+        "translatedContent": "- 输出文件将位于`build/`目录下。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "## 致谢"
+      },
+      {
+        "row": 14,
+        "rowsha": "CE400pibvm59xIkiuoA4xeDkmmXPSSg+OMGQRAHW2t8=",
+        "originContent": "- [Behemoth](https://github.com/HookedBehemoth) for the screenshot button overriding method.",
+        "translatedContent": "- 感谢[Behemoth](https://github.com/HookedBehemoth)提供的截图按钮重写方法。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

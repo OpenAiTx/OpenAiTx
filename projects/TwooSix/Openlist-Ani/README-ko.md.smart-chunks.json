@@ -1,0 +1,1281 @@
+[
+  {
+    "Id": 1,
+    "Content": "<h1 align=\"center\">Openlist-Ani</h1>\n\n<p align=\"center\">\n  <b>🎬 RSS 订阅 → 自动下载 → AI 重命名，一站式番剧自动化管理</b>\n</p>\n\n<p align=\"center\">\n  从动漫番剧相关的 RSS 订阅源中自动获取番剧更新，通过 Openlist 离线下载至对应网盘，<br/>\n  并结合 LLM 分析资源名，将资源重命名为 Emby / Jellyfin 可解析的格式。\n</p>\n\n---\n\n## ✨ 特点\n\n- 📡 **自动追番** — 自动获取 RSS 番剧更新并下载\n- 📦 **多网盘支持** — 基于OpenList实现，支持 PikPak、115 等离线下载\n- 🤖 **AI 重命名** — AI 分析资源名 + TMDB 搜索，精准获取番剧名、季度、集数\n- 💬 **智能助理** — 挂载至 Telegram Bot，通过自然语言让 AI 帮你搜索并下载资源\n- 🔔 **更新通知** — 通过 PushPlus、Telegram 等渠道推送更新\n\n## 📋 准备工作\n\n1. 参照 [Openlist 官方文档](https://doc.oplist.org/guide) 部署 Openlist，并搭建好离线下载\n2. 准备好 RSS 订阅链接（如 [Mikan Project](https://mikanani.me)）\n3. 准备好 LLM API Key\n\n## 🚀 快速开始\n\n<details open>\n<summary><b>方式一：PIP 安装（推荐）</b></summary>\n\n**1. 安装**\n",
+    "ContentSha": "fb+fRG8u61EZpWUEG9u3AIfHvlDabi8eQZD6GTBV9l4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<h1 align=\"center\">Openlist-Ani</h1>\n\n<p align=\"center\">\n  <b>🎬 RSS 구독 → 자동 다운로드 → AI 이름 변경, 원스톱 애니메이션 자동 관리</b>\n</p>\n\n<p align=\"center\">\n  애니메이션 관련 RSS 구독 소스에서 자동으로 업데이트를 가져와 Openlist를 통해 오프라인으로 해당 클라우드에 다운로드하고,<br/>\n  LLM을 활용해 리소스 이름을 분석하여 Emby / Jellyfin이 인식할 수 있는 형식으로 이름을 변경합니다.\n</p>\n\n---\n\n## ✨ 특징\n\n- 📡 **자동 애니메이션 추적** — RSS 애니메이션 업데이트 자동 획득 및 다운로드\n- 📦 **다중 클라우드 지원** — OpenList 기반, PikPak, 115 등 오프라인 다운로드 지원\n- 🤖 **AI 이름 변경** — AI가 리소스 이름 분석 + TMDB 검색으로 애니메이션 이름, 시즌, 에피소드 정확히 획득\n- 💬 **스마트 어시스턴트** — Telegram 봇에 연동, 자연어로 AI가 검색 및 다운로드 지원\n- 🔔 **업데이트 알림** — PushPlus, Telegram 등 채널로 업데이트 푸시\n\n## 📋 준비 작업\n\n1. [Openlist 공식 문서](https://doc.oplist.org/guide)를 참고하여 Openlist 배포 및 오프라인 다운로드 설정\n2. RSS 구독 링크 준비 (예: [Mikan Project](https://mikanani.me))\n3. LLM API 키 준비\n\n## 🚀 빠른 시작\n\n<details open>\n<summary><b>방법 1: PIP 설치 (추천)</b></summary>\n\n**1. 설치**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/jNpUxkpN0EILB3H3yF8nNjiU5/V8Jt3TtvN6bYZ+hs=",
+        "originContent": "<h1 align=\"center\">Openlist-Ani</h1>",
+        "translatedContent": "<h1 align=\"center\">Openlist-Ani</h1>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "9hHGOiX9Mj1LXKY8YTNS/YnC8zK29tX10LQ/LwR+QYc=",
+        "originContent": "  <b>🎬 RSS 订阅 → 自动下载 → AI 重命名，一站式番剧自动化管理</b>",
+        "translatedContent": "  <b>🎬 RSS 구독 → 자동 다운로드 → AI 이름 변경, 원스톱 애니메이션 자동 관리</b>"
+      },
+      {
+        "row": 5,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "G9Bl/mfkYVU1dmB6jyFJadzYWVPW9buQ1fsy9bV3Rs0=",
+        "originContent": "  从动漫番剧相关的 RSS 订阅源中自动获取番剧更新，通过 Openlist 离线下载至对应网盘，<br/>",
+        "translatedContent": "  애니메이션 관련 RSS 구독 소스에서 자동으로 업데이트를 가져와 Openlist를 통해 오프라인으로 해당 클라우드에 다운로드하고,<br/>"
+      },
+      {
+        "row": 9,
+        "rowsha": "gaOoNjvukijJ67pg+jhp2vfosmskzG2xy5qqrF8hAR0=",
+        "originContent": "  并结合 LLM 分析资源名，将资源重命名为 Emby / Jellyfin 可解析的格式。",
+        "translatedContent": "  LLM을 활용해 리소스 이름을 분석하여 Emby / Jellyfin이 인식할 수 있는 형식으로 이름을 변경합니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "ygOu8NTM7sIY9s+TeVKZ1KeRDT8zQwiuT24vByNYjlY=",
+        "originContent": "## ✨ 特点",
+        "translatedContent": "## ✨ 특징"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "3zd/WxXp5mESocANjO1WRe/3dglKtFUEutA+xmIaIeE=",
+        "originContent": "- 📡 **自动追番** — 自动获取 RSS 番剧更新并下载",
+        "translatedContent": "- 📡 **자동 애니메이션 추적** — RSS 애니메이션 업데이트 자동 획득 및 다운로드"
+      },
+      {
+        "row": 17,
+        "rowsha": "+6hwGYwwgLR61ljycV9myu/5fuW9sP53Gg2xaOt4dAQ=",
+        "originContent": "- 📦 **多网盘支持** — 基于OpenList实现，支持 PikPak、115 等离线下载",
+        "translatedContent": "- 📦 **다중 클라우드 지원** — OpenList 기반, PikPak, 115 등 오프라인 다운로드 지원"
+      },
+      {
+        "row": 18,
+        "rowsha": "k7XiF3oGdxhc4zsR09x7Io/C5Ix3U2IovY8UUhr6V3U=",
+        "originContent": "- 🤖 **AI 重命名** — AI 分析资源名 + TMDB 搜索，精准获取番剧名、季度、集数",
+        "translatedContent": "- 🤖 **AI 이름 변경** — AI가 리소스 이름 분석 + TMDB 검색으로 애니메이션 이름, 시즌, 에피소드 정확히 획득"
+      },
+      {
+        "row": 19,
+        "rowsha": "P6dwsrATpRpdwgD7XEVU89N82II2IWCfZp2OxHBH2Os=",
+        "originContent": "- 💬 **智能助理** — 挂载至 Telegram Bot，通过自然语言让 AI 帮你搜索并下载资源",
+        "translatedContent": "- 💬 **스마트 어시스턴트** — Telegram 봇에 연동, 자연어로 AI가 검색 및 다운로드 지원"
+      },
+      {
+        "row": 20,
+        "rowsha": "1DjU+k7Zld9VzdlHfhjauuleubvHV0bRj9ZdejA3qTI=",
+        "originContent": "- 🔔 **更新通知** — 通过 PushPlus、Telegram 等渠道推送更新",
+        "translatedContent": "- 🔔 **업데이트 알림** — PushPlus, Telegram 등 채널로 업데이트 푸시"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "Y7kkwi1iXo1lHt0bxpqB+CuqxyRcp/ulNEnLYYaZtB8=",
+        "originContent": "## 📋 准备工作",
+        "translatedContent": "## 📋 준비 작업"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "c94EacU/Agz0QmZ6/NSHyUMH0l0rHB4wPY5UQn3pGCg=",
+        "originContent": "1. 参照 [Openlist 官方文档](https://doc.oplist.org/guide) 部署 Openlist，并搭建好离线下载",
+        "translatedContent": "1. [Openlist 공식 문서](https://doc.oplist.org/guide)를 참고하여 Openlist 배포 및 오프라인 다운로드 설정"
+      },
+      {
+        "row": 25,
+        "rowsha": "pqIfwRyIQ9RiPg5HgRDmxd0FUj25354zyvHQDXMEB4o=",
+        "originContent": "2. 准备好 RSS 订阅链接（如 [Mikan Project](https://mikanani.me)）",
+        "translatedContent": "2. RSS 구독 링크 준비 (예: [Mikan Project](https://mikanani.me))"
+      },
+      {
+        "row": 26,
+        "rowsha": "qocO9ZaVlqsaPfa3ER6oNzL71vXllIlT/fHQlfZ0mF4=",
+        "originContent": "3. 准备好 LLM API Key",
+        "translatedContent": "3. LLM API 키 준비"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "BB3mtM1ND4EO+Ss1aYQr5lcAQqrCYFMGvmfTf2Uyrh8=",
+        "originContent": "## 🚀 快速开始",
+        "translatedContent": "## 🚀 빠른 시작"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "+PsfWr/896Wgd6LIBSaswfTGG/blPuO3+WRqhzxa+4Q=",
+        "originContent": "<details open>",
+        "translatedContent": "<details open>"
+      },
+      {
+        "row": 31,
+        "rowsha": "3Y3lcVcqPDCi5Iyl9jSvqZokXbNilJYphTKdA0KShOA=",
+        "originContent": "<summary><b>方式一：PIP 安装（推荐）</b></summary>",
+        "translatedContent": "<summary><b>방법 1: PIP 설치 (추천)</b></summary>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "VAVpwJt6CQMiR+XfqIg4MpF2so7QBTIaKn4UwptjHDk=",
+        "originContent": "**1. 安装**",
+        "translatedContent": "**1. 설치**"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\npip install openlist-ani\n```",
+    "ContentSha": "ihXnF/OGCkHa9WCdH47QnzK+qZT7u9bXbedNAuLfXPc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install openlist-ani\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "zhhVILW9GD0safWAINO9IP5ffya+N2SJrYJxeW5yTJA=",
+        "originContent": "pip install openlist-ani",
+        "translatedContent": "pip install openlist-ani"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n**2. 创建配置文件**\n\n在运行目录下新建 `config.toml`，填入以下内容：\n",
+    "ContentSha": "BDtIpZl84LtJqLx2opba7NHZypemS3nbCLF5C/QdAPY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**2. 설정 파일 생성**\n\n실행 디렉토리에 `config.toml` 파일을 새로 만들고, 다음 내용을 입력하세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "2/J9M9dEsZZb5Y3jzAqs2W0ofr9pWNPOp7HoBX+AZKg=",
+        "originContent": "**2. 创建配置文件**",
+        "translatedContent": "**2. 설정 파일 생성**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "VDS6qF9PyGpOsZnIB8utiXZa8MV/NBknSBi/8/teSrc=",
+        "originContent": "在运行目录下新建 `config.toml`，填入以下内容：",
+        "translatedContent": "실행 디렉토리에 `config.toml` 파일을 새로 만들고, 다음 내용을 입력하세요:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```toml\n[rss]\nurls = [\"RSS订阅链接\"]\n\n[openlist]\nurl = \"http://localhost:5244\"       # Openlist 访问地址\ntoken = \"\"                          # 令牌，见「设置 → 其他 → 令牌」\ndownload_path = \"/PikPak/Anime\"     # 下载保存路径\noffline_download_tool = \"QBITTORRENT\"  # 离线下载工具\n\n[llm]\nopenai_api_key = \"\"                 # API Key\nopenai_base_url = \"https://api.deepseek.com/v1\"\nopenai_model = \"deepseek-chat\"\n```",
+    "ContentSha": "N1ZfeuVpfQGTKVyzdlhgc6Glwczr89vzcjshByDltf4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\n[rss]\nurls = [\"RSS订阅链接\"]\n\n[openlist]\nurl = \"http://localhost:5244\"       # Openlist 访问地址\ntoken = \"\"                          # 令牌，见「设置 → 其他 → 令牌」\ndownload_path = \"/PikPak/Anime\"     # 下载保存路径\noffline_download_tool = \"QBITTORRENT\"  # 离线下载工具\n\n[llm]\nopenai_api_key = \"\"                 # API Key\nopenai_base_url = \"https://api.deepseek.com/v1\"\nopenai_model = \"deepseek-chat\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "2Sle0uzho4peLotiEZyrzEk0zJmACf8b8SnV7JbI7Hk=",
+        "originContent": "[rss]",
+        "translatedContent": "[rss]"
+      },
+      {
+        "row": 3,
+        "rowsha": "bd2v1rt4LS8vbYMVWd+5Nf6m7jK2BjZP8txaYoiJFCw=",
+        "originContent": "urls = [\"RSS订阅链接\"]",
+        "translatedContent": "urls = [\"RSS订阅链接\"]"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "aVLut8jQ2+pt+t9QOuXgYGhYaoVpVzxY5v+5+u62oh0=",
+        "originContent": "[openlist]",
+        "translatedContent": "[openlist]"
+      },
+      {
+        "row": 6,
+        "rowsha": "doa8FTeOhoZyQb3gV8dq0AAXWS7F1BVMapaYoXZY+ys=",
+        "originContent": "url = \"http://localhost:5244\"       # Openlist 访问地址",
+        "translatedContent": "url = \"http://localhost:5244\"       # Openlist 访问地址"
+      },
+      {
+        "row": 7,
+        "rowsha": "X5aDaI+jBq4T/Sn4/jIWKWVIuVEOtkR3t3Ukjc0bvl4=",
+        "originContent": "token = \"\"                          # 令牌，见「设置 → 其他 → 令牌」",
+        "translatedContent": "token = \"\"                          # 令牌，见「设置 → 其他 → 令牌」"
+      },
+      {
+        "row": 8,
+        "rowsha": "r3vwv0SrViMdxB5j7b/KTfibzKjzFjmcWzcSgmqQYcY=",
+        "originContent": "download_path = \"/PikPak/Anime\"     # 下载保存路径",
+        "translatedContent": "download_path = \"/PikPak/Anime\"     # 下载保存路径"
+      },
+      {
+        "row": 9,
+        "rowsha": "N5u7M0csOpO39IMyrwafSh2RBeadRXi5u9Icqj+ydVg=",
+        "originContent": "offline_download_tool = \"QBITTORRENT\"  # 离线下载工具",
+        "translatedContent": "offline_download_tool = \"QBITTORRENT\"  # 离线下载工具"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "SANtokSRxhPz7/08PnITusBSI8NdN7e9n2bl3kWHyyg=",
+        "originContent": "[llm]",
+        "translatedContent": "[llm]"
+      },
+      {
+        "row": 12,
+        "rowsha": "6JZnPWNqb7SjT4SB5ISrnX5ZEPcb8yNEi+nrPNVcu3U=",
+        "originContent": "openai_api_key = \"\"                 # API Key",
+        "translatedContent": "openai_api_key = \"\"                 # API Key"
+      },
+      {
+        "row": 13,
+        "rowsha": "s2uLZqKcUDq7tfmoXc/1/sTgA7R6OItFJvJFFhWGbD4=",
+        "originContent": "openai_base_url = \"https://api.deepseek.com/v1\"",
+        "translatedContent": "openai_base_url = \"https://api.deepseek.com/v1\""
+      },
+      {
+        "row": 14,
+        "rowsha": "2IfkqfW2so4zyaCXjUh4I5wZaBFVy75iGcIpPY/7ckc=",
+        "originContent": "openai_model = \"deepseek-chat\"",
+        "translatedContent": "openai_model = \"deepseek-chat\""
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n> 完整配置项请参考 [`config.toml.example`](https://raw.githubusercontent.com/TwooSix/Openlist-Ani/master/config.toml.example) 及 [配置说明](https://github.com/TwooSix/Openlist-Ani/wiki/配置说明)\n\n**3. 启动**\n",
+    "ContentSha": "0cRga/p77tjl06e6fKSHjoYphahxNVt17wTPgbTfP0o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> 完整配置项请参考 [`config.toml.example`](https://raw.githubusercontent.com/TwooSix/Openlist-Ani/master/config.toml.example) 及 [配置说明](https://github.com/TwooSix/Openlist-Ani/wiki/配置说明)\n\n**3. 启动**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "eWNkorX7Hhl4gv2Bvx0tGt5GxwA0eNLeFUdipC1JoFA=",
+        "originContent": "> 完整配置项请参考 [`config.toml.example`](https://raw.githubusercontent.com/TwooSix/Openlist-Ani/master/config.toml.example) 及 [配置说明](https://github.com/TwooSix/Openlist-Ani/wiki/配置说明)",
+        "translatedContent": "> 完整配置项请参考 [`config.toml.example`](https://raw.githubusercontent.com/TwooSix/Openlist-Ani/master/config.toml.example) 及 [配置说明](https://github.com/TwooSix/Openlist-Ani/wiki/配置说明)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "IuPaXuNC/skW3X+/IFd4yaisWv73oVGrYT+JI+FS+Bk=",
+        "originContent": "**3. 启动**",
+        "translatedContent": "**3. 启动**"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\nopenlist-ani\n```",
+    "ContentSha": "xLG33V3SsGuxsOiKez3BhZD9+3eumzlCY9ew3hbOl0M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nopenlist-ani\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "mBkGgO35F5fwpPH20ro6oXOE3jnlESUkF7MG1H30n1k=",
+        "originContent": "openlist-ani",
+        "translatedContent": "openlist-ani"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n**4.（可选）启动 AI 助理**\n\n在配置文件中补充助理配置后运行：\n",
+    "ContentSha": "v/oCz4xoPqycV1+RKbaAQIdUq5xe/vFTkteOzhqQ3HM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**4.（선택 사항）AI 어시스턴트 시작**\n\n구성 파일에 어시스턴트 구성을 추가한 후 실행:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "SerhXOHpHFtYIqnKd89O1hB/AWElh2bgL4o/KGrsNCQ=",
+        "originContent": "**4.（可选）启动 AI 助理**",
+        "translatedContent": "**4.（선택 사항）AI 어시스턴트 시작**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "N8H6fA4666SId/l2VH6c6IHaa8bu2ms17UKBmlCFNCc=",
+        "originContent": "在配置文件中补充助理配置后运行：",
+        "translatedContent": "구성 파일에 어시스턴트 구성을 추가한 후 실행:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```toml\n[assistant]\nenabled = true\n\n[assistant.telegram]\nbot_token = \"\"        # 从 @BotFather 获取\nallowed_users = []    # 允许的用户 ID 列表，留空则不限制\n```",
+    "ContentSha": "04D5m3zXbjzCARLTtuSSvyYfKHWKAyBmEuKqbCpC1tM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\n[assistant]\nenabled = true\n\n[assistant.telegram]\nbot_token = \"\"        # 从 @BotFather 获取\nallowed_users = []    # 允许的用户 ID 列表，留空则不限制\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "qqXqDujv229AJjzcnuRP6adyRTKkbZBEn/ni+QlmHgE=",
+        "originContent": "[assistant]",
+        "translatedContent": "[assistant]"
+      },
+      {
+        "row": 3,
+        "rowsha": "u91ReJ0/eNo88z6dw8pF2W/gP8bavBelXifXTLz/NZw=",
+        "originContent": "enabled = true",
+        "translatedContent": "enabled = true"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "a2kCNg1XlndmbKAdMnrxDMiYrnpw6QPCc97Tx26scG8=",
+        "originContent": "[assistant.telegram]",
+        "translatedContent": "[assistant.telegram]"
+      },
+      {
+        "row": 6,
+        "rowsha": "OBXPAEJqixi12sDsRGvHZrEwpbR1BdFpJfX4S5+9Aks=",
+        "originContent": "bot_token = \"\"        # 从 @BotFather 获取",
+        "translatedContent": "bot_token = \"\"        # 从 @BotFather 获取"
+      },
+      {
+        "row": 7,
+        "rowsha": "BL1Ija5Xt65W2Tw8qvN9OW+n+bjkvxjTvRHPKTpxGDo=",
+        "originContent": "allowed_users = []    # 允许的用户 ID 列表，留空则不限制",
+        "translatedContent": "allowed_users = []    # 允许的用户 ID 列表，留空则不限制"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\nopenlist-ani-assistant\n```",
+    "ContentSha": "UqvcAQDOS8uq52nVs9huaIMjyha+aT+3pgSZIdBgYF8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nopenlist-ani-assistant\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ySbmWpf/LS4HxAYTI0L9516A4luZ2mcHvn/KPcMmGMY=",
+        "originContent": "openlist-ani-assistant",
+        "translatedContent": "openlist-ani-assistant"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n</details>\n\n<details>\n<summary><b>方式二：Docker 部署</b></summary>\n\n**1. 准备文件**\n\n在运行目录下创建：\n- `config.toml` — 配置文件（内容同上）\n- `data/` — 数据目录\n\n**2. 启动容器**\n",
+    "ContentSha": "bGpRpF++Y6yjcI3YRmFq7YNlEwMJTNXwB6r3bQgWLoE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n<details>\n<summary><b>방법 2: Docker 배포</b></summary>\n\n**1. 파일 준비**\n\n실행 디렉토리에 생성:\n- `config.toml` — 설정 파일(내용 동일)\n- `data/` — 데이터 디렉토리\n\n**2. 컨테이너 시작**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "Iw9rkI6+OwZaC5rbMet/P1YORqEWJBX6CAVv8qEe5A8=",
+        "originContent": "<summary><b>方式二：Docker 部署</b></summary>",
+        "translatedContent": "<summary><b>방법 2: Docker 배포</b></summary>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "3NYedRqUkWPD4Gdc6A1YSW9W1g3td9nOkP5CZjceEz4=",
+        "originContent": "**1. 准备文件**",
+        "translatedContent": "**1. 파일 준비**"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "9I50fl7wAA3oXXBVHuioEalYmkVLlw845+0PqaO0dSM=",
+        "originContent": "在运行目录下创建：",
+        "translatedContent": "실행 디렉토리에 생성:"
+      },
+      {
+        "row": 10,
+        "rowsha": "Y1zLvGfKMJyafMoSj1cBlHDHwex9rVWdWWz6VFldPvY=",
+        "originContent": "- `config.toml` — 配置文件（内容同上）",
+        "translatedContent": "- `config.toml` — 설정 파일(내용 동일)"
+      },
+      {
+        "row": 11,
+        "rowsha": "C796jNYqLw1fUNoVKxTnm9SF+jbmyh2U4EQ0/gVA3eU=",
+        "originContent": "- `data/` — 数据目录",
+        "translatedContent": "- `data/` — 데이터 디렉토리"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "YGH8vmmQLioC6nT+3a6timV26rKK7299uF1f2pOKg0c=",
+        "originContent": "**2. 启动容器**",
+        "translatedContent": "**2. 컨테이너 시작**"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\ndocker run -d \\\n  --name openlist-ani \\\n  --network host \\\n  -e ENABLE_ASSISTANT=false \\\n  -v /path/to/config.toml:/config.toml \\\n  -v /path/to/data:/data \\\n  twosix26/openlist-ani:latest\n```",
+    "ContentSha": "0ifVyDMpO5sIBfISzug8OnH8EfW5KY/4wRu9DwIwEeI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ndocker run -d \\\n  --name openlist-ani \\\n  --network host \\\n  -e ENABLE_ASSISTANT=false \\\n  -v /path/to/config.toml:/config.toml \\\n  -v /path/to/data:/data \\\n  twosix26/openlist-ani:latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ojlfEE+n8E0w4ysUyon/1wLoS42tdKAfas3wyOTZTg8=",
+        "originContent": "docker run -d \\",
+        "translatedContent": "docker run -d \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "sYnF04TsVYjL254R0cm+m9I11EloeBnhJbrl2R6dRK0=",
+        "originContent": "  --name openlist-ani \\",
+        "translatedContent": "  --name openlist-ani \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "50fDoDshUU/fxFJYJfz5TAoEtcLRRRc5MOukz2m9LdA=",
+        "originContent": "  --network host \\",
+        "translatedContent": "  --network host \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "Jhc/qWTEGLaaTRQh2zWDXYkcK8UjfYuLlGZS0odQog0=",
+        "originContent": "  -e ENABLE_ASSISTANT=false \\",
+        "translatedContent": "  -e ENABLE_ASSISTANT=false \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "19qfrC3gkqIew4HlNVO4VyCaQkgQFyMUi6IdUxP1erE=",
+        "originContent": "  -v /path/to/config.toml:/config.toml \\",
+        "translatedContent": "  -v /path/to/config.toml:/config.toml \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "fNqwrrwQ+vabV8qAdOrDCiWL2HfQDNhX5ELbna0SnKk=",
+        "originContent": "  -v /path/to/data:/data \\",
+        "translatedContent": "  -v /path/to/data:/data \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "Y2it+NGAX9AQvKgvo0bI6+wUaQXbzaqp4rk2hw0P5c4=",
+        "originContent": "  twosix26/openlist-ani:latest",
+        "translatedContent": "  twosix26/openlist-ani:latest"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n> 将 `/path/to/` 替换为你的实际路径。  \n> 如需启用 AI 助理，填写好配置后将 `ENABLE_ASSISTANT` 设为 `true`。  \n> 详细说明见 [Docker 部署指南](https://github.com/TwooSix/Openlist-Ani/wiki/Docker部署指南)。\n\n</details>\n\n<details>\n<summary><b>方式三：从源码编译</b></summary>\n\n#### 前置：安装 uv\n\n<table><tr><td>\n\n**Linux / macOS**",
+    "ContentSha": "mupVRb3apN+DQrA2ecDe1C8RB6VWRUSR4t+l2v/OSLE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> `/path/to/` 를 실제 경로로 바꾸세요.  \n> AI 어시스턴트를 사용하려면 설정을 완료한 후 `ENABLE_ASSISTANT` 를 `true` 로 설정하세요.  \n> 자세한 내용은 [Docker 배포 가이드](https://github.com/TwooSix/Openlist-Ani/wiki/Docker部署指南) 를 참조하세요.\n\n</details>\n\n<details>\n<summary><b>방법 3: 소스 코드에서 컴파일</b></summary>\n\n#### 전제 조건: uv 설치\n\n<table><tr><td>\n\n**Linux / macOS**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> `/path/to/` 를 실제 경로로 바꾸세요.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "YzBZRG9Ke9GvSn46bU3SIVwqPiPsAgmIRQfktcOI3Xg=",
+        "originContent": "> 将 `/path/to/` 替换为你的实际路径。  ",
+        "translatedContent": "> AI 어시스턴트를 사용하려면 설정을 완료한 후 `ENABLE_ASSISTANT` 를 `true` 로 설정하세요.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "LwdDKCIHcESFx11xfPHJWprgPXtvvdNuNaTCHrolNiU=",
+        "originContent": "> 如需启用 AI 助理，填写好配置后将 `ENABLE_ASSISTANT` 设为 `true`。  ",
+        "translatedContent": "> 자세한 내용은 [Docker 배포 가이드](https://github.com/TwooSix/Openlist-Ani/wiki/Docker部署指南) 를 참조하세요."
+      },
+      {
+        "row": 4,
+        "rowsha": "0gcl3VGHZw6EilxqV9Id8f7sDE+0AfhqGqiyW0cmZdw=",
+        "originContent": "> 详细说明见 [Docker 部署指南](https://github.com/TwooSix/Openlist-Ani/wiki/Docker部署指南)。",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 6,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 8,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<summary><b>방법 3: 소스 코드에서 컴파일</b></summary>"
+      },
+      {
+        "row": 9,
+        "rowsha": "XIq4huY4Edb7bdM1Nch0Q2UEsmO96yG3THh3t32NO+8=",
+        "originContent": "<summary><b>方式三：从源码编译</b></summary>",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 전제 조건: uv 설치"
+      },
+      {
+        "row": 11,
+        "rowsha": "lzme8SDC7idD8J5ZY5CynuWYaOjBnhidaNoT1h4tAiI=",
+        "originContent": "#### 前置：安装 uv",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<table><tr><td>"
+      },
+      {
+        "row": 13,
+        "rowsha": "CrfniX1ggExTsZ15pX20zb6zyJIkyEcyu+zr4Ns8LW8=",
+        "originContent": "<table><tr><td>",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Linux / macOS**"
+      },
+      {
+        "row": 15,
+        "rowsha": "yiDsxPX5JJyH2YixZvag1eh33mIwUW/OwF6+7FRXJRA=",
+        "originContent": "**Linux / macOS**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\ncurl -LsSf https://astral.sh/uv/install.sh | sh\n```",
+    "ContentSha": "kMv9jiS8cWqIkYodvqykMNeQ8JPpRzpaXNdHSw3C4GY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl -LsSf https://astral.sh/uv/install.sh | sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "SXf4WaG2g4WedAyrS5IzaiqEJ/gfMyYBMoSjDOk27yI=",
+        "originContent": "curl -LsSf https://astral.sh/uv/install.sh | sh",
+        "translatedContent": "curl -LsSf https://astral.sh/uv/install.sh | sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n</td><td>\n\n**Windows**",
+    "ContentSha": "einpuu1SXil1tZC1vGl6rpwAe7L/Jr4EPGONB6UvAus=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</td><td>\n\n**윈도우**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "FvXqQ+AOkRBdBrnsks/3K5qP/fHDhVO3+fLcyGP3UWM=",
+        "originContent": "</td><td>",
+        "translatedContent": "</td><td>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "QppoFt7K5EyQecr46ag+gpGFLIiULRMFrNYZE/3R5a8=",
+        "originContent": "**Windows**",
+        "translatedContent": "**윈도우**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```powershell\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\n```",
+    "ContentSha": "pOzC0gBbALz1angHg6Q8k1ma9yUOGtms9Y+ySJcVdGo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```powershell\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rdXRxgQRkjxaPscLX0ZwQGKPEZiP5ZYntSpPc/7KWO4=",
+        "originContent": "```powershell",
+        "translatedContent": "```powershell"
+      },
+      {
+        "row": 2,
+        "rowsha": "pWgoq7zhVoRWdCYUc9XV2KLUmQap/gLUDT8aBtvWgl8=",
+        "originContent": "powershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"",
+        "translatedContent": "powershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n</td></tr></table>\n\n> 更多安装方式参考 [uv 官方文档](https://github.com/astral-sh/uv)\n\n#### 步骤\n",
+    "ContentSha": "wI+uBIfD/+svsAVM6NFHp8uh1I7P+pc5sNMpadYJhrk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</td></tr></table>\n\n> 更多安装方式参考 [uv 官方文档](https://github.com/astral-sh/uv)\n\n#### 步骤\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "hofeP0I46hiWgt6+ezhLaCACKoc0ey7X2U5jDEaigD8=",
+        "originContent": "</td></tr></table>",
+        "translatedContent": "</td></tr></table>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "iNOEYwuS+T2pR4wypjwCJwYuXMNnTv8E6AkC2S5ruNU=",
+        "originContent": "> 更多安装方式参考 [uv 官方文档](https://github.com/astral-sh/uv)",
+        "translatedContent": "> 更多安装方式参考 [uv 官方文档](https://github.com/astral-sh/uv)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "XIYG574Lr4b5jV4M4Sx9wgcm/SsOfQHuAbsmvWIMgOM=",
+        "originContent": "#### 步骤",
+        "translatedContent": "#### 步骤"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```bash\n# 1. 克隆仓库\ngit clone https://github.com/TwooSix/Openlist-Ani.git && cd Openlist-Ani\n\n# 2. 切换到最新版本（master 为开发分支，不保证稳定）\ngit checkout v***    # 替换为最新版本号\n\n# 3. 安装依赖\nuv sync --no-dev --frozen\n\n# 4. 创建 config.toml 并填写配置（内容同上）\n\n# 5. 启动\nuv run openlist-ani\n\n# 6.（可选）启动 AI 助理\nuv run openlist-ani-assistant\n```",
+    "ContentSha": "73Pa/szegCyjf0cmR8/Kos07XU5sQtFOA8/0egvODxM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# 1. 克隆仓库\ngit clone https://github.com/TwooSix/Openlist-Ani.git && cd Openlist-Ani\n\n# 2. 切换到最新版本（master 为开发分支，不保证稳定）\ngit checkout v***    # 替换为最新版本号\n\n# 3. 安装依赖\nuv sync --no-dev --frozen\n\n# 4. 创建 config.toml 并填写配置（内容同上）\n\n# 5. 启动\nuv run openlist-ani\n\n# 6.（可选）启动 AI 助理\nuv run openlist-ani-assistant\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "F6q+JaRF8820pSGmGBAtZKE/9+OvTXwl2+nxvoyIvrc=",
+        "originContent": "# 1. 克隆仓库",
+        "translatedContent": "# 1. 克隆仓库"
+      },
+      {
+        "row": 3,
+        "rowsha": "l2RnzVwEvFsApNavTblZhlG/kS5MO/8YZ9tqSp0GO1M=",
+        "originContent": "git clone https://github.com/TwooSix/Openlist-Ani.git && cd Openlist-Ani",
+        "translatedContent": "git clone https://github.com/TwooSix/Openlist-Ani.git && cd Openlist-Ani"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "QhYMRjni8l6RZMzkKQnP8SL20dRehDa56db+ERgBMdc=",
+        "originContent": "# 2. 切换到最新版本（master 为开发分支，不保证稳定）",
+        "translatedContent": "# 2. 切换到最新版本（master 为开发分支，不保证稳定）"
+      },
+      {
+        "row": 6,
+        "rowsha": "XXzkIX74CmYgvn1pg7V9ssXNXHNWMpmWfZ7x7+a/vrM=",
+        "originContent": "git checkout v***    # 替换为最新版本号",
+        "translatedContent": "git checkout v***    # 替换为最新版本号"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "BJ+wJyNmgpiDO5OBeEsBzOtc9d2QyOh9t9z8ZNihV8w=",
+        "originContent": "# 3. 安装依赖",
+        "translatedContent": "# 3. 安装依赖"
+      },
+      {
+        "row": 9,
+        "rowsha": "yq+7gSnzUBRoFw4m7zCGbE+XvcYHDqkM/ZHWHF71B9M=",
+        "originContent": "uv sync --no-dev --frozen",
+        "translatedContent": "uv sync --no-dev --frozen"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "XYVwzj0Nj8g4U4UUzTFA0Dy0iQz5bm1TSZiRiZDDdl4=",
+        "originContent": "# 4. 创建 config.toml 并填写配置（内容同上）",
+        "translatedContent": "# 4. 创建 config.toml 并填写配置（内容同上）"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "/6wVBil2yOWO5y/BihWrMlhBUx7AvvlKL1ALtuPLMGA=",
+        "originContent": "# 5. 启动",
+        "translatedContent": "# 5. 启动"
+      },
+      {
+        "row": 14,
+        "rowsha": "4zIdvcluJAQhaVsgK31gaA1cddFKhAg69COIcebLbC4=",
+        "originContent": "uv run openlist-ani",
+        "translatedContent": "uv run openlist-ani"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "j0epZiEpCoIK+nfBArScdrsAJXIsEowqUF2Hfeqr0vc=",
+        "originContent": "# 6.（可选）启动 AI 助理",
+        "translatedContent": "# 6.（可选）启动 AI 助理"
+      },
+      {
+        "row": 17,
+        "rowsha": "N4NjTCuloHMKyI0UNu4VdjcgQ47U42A6wZtq2IYgf6k=",
+        "originContent": "uv run openlist-ani-assistant",
+        "translatedContent": "uv run openlist-ani-assistant"
+      },
+      {
+        "row": 18,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n</details>\n\n## 📖 文档\n\n- [快速开始](https://github.com/TwooSix/Openlist-Ani/wiki/快速开始)\n- [PIP 安装指南](https://github.com/TwooSix/Openlist-Ani/wiki/PIP安装指南)\n- [Docker 部署指南](https://github.com/TwooSix/Openlist-Ani/wiki/Docker部署指南)\n- [源码编译指南](https://github.com/TwooSix/Openlist-Ani/wiki/源码编译指南)\n- [配置说明](https://github.com/TwooSix/Openlist-Ani/wiki/配置说明)\n\n## 🖼️ 效果展示\n\n| 重命名结果 | 智能助理 |\n| :---: | :---: |\n| <img src=\"https://github.com/TwooSix/Openlist-Ani/blob/master/imgs/show_pic1.png\" width=\"400\"/> | <img src=\"https://github.com/TwooSix/Openlist-Ani/blob/master/imgs/show_pic2.jpg\" width=\"150\"/> |\n",
+    "ContentSha": "r0AmKJQfw9x0fv1ea1cj8l3IMvDjJ2K2mdebU7OBdnM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n</details>\n\n## 📖 문서\n\n- [빠른 시작](https://github.com/TwooSix/Openlist-Ani/wiki/快速开始)\n- [PIP 설치 가이드](https://github.com/TwooSix/Openlist-Ani/wiki/PIP安装指南)\n- [Docker 배포 가이드](https://github.com/TwooSix/Openlist-Ani/wiki/Docker部署指南)\n- [소스코드 컴파일 가이드](https://github.com/TwooSix/Openlist-Ani/wiki/源码编译指南)\n- [설정 설명](https://github.com/TwooSix/Openlist-Ani/wiki/配置说明)\n\n## 🖼️ 효과 시연\n\n| 이름 변경 결과 | 스마트 어시스턴트 |\n| :---: | :---: |\n| <img src=\"https://github.com/TwooSix/Openlist-Ani/blob/master/imgs/show_pic1.png\" width=\"400\"/> | <img src=\"https://github.com/TwooSix/Openlist-Ani/blob/master/imgs/show_pic2.jpg\" width=\"150\"/> |\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "VMLxyO4eJnfU48hhTT+rcRqGHrKErBJyq3IP02+AabM=",
+        "originContent": "## 📖 文档",
+        "translatedContent": "## 📖 문서"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "0A2m1D4rVxzRk72B2ZD3rHwx462vBzmM4tkp9uHCjs4=",
+        "originContent": "- [快速开始](https://github.com/TwooSix/Openlist-Ani/wiki/快速开始)",
+        "translatedContent": "- [빠른 시작](https://github.com/TwooSix/Openlist-Ani/wiki/快速开始)"
+      },
+      {
+        "row": 7,
+        "rowsha": "uZby5d/JgevECdTEyYL54xn+V2GZfJ2FZ8oUchGTH58=",
+        "originContent": "- [PIP 安装指南](https://github.com/TwooSix/Openlist-Ani/wiki/PIP安装指南)",
+        "translatedContent": "- [PIP 설치 가이드](https://github.com/TwooSix/Openlist-Ani/wiki/PIP安装指南)"
+      },
+      {
+        "row": 8,
+        "rowsha": "QAHfGyiJCbqznqesrvQXis1oiIkcK9+DGolyMEFqkQU=",
+        "originContent": "- [Docker 部署指南](https://github.com/TwooSix/Openlist-Ani/wiki/Docker部署指南)",
+        "translatedContent": "- [Docker 배포 가이드](https://github.com/TwooSix/Openlist-Ani/wiki/Docker部署指南)"
+      },
+      {
+        "row": 9,
+        "rowsha": "Vil1dDLXesj9IWH8TpzG4e/vAPZfMKX4F5B1qrYFQos=",
+        "originContent": "- [源码编译指南](https://github.com/TwooSix/Openlist-Ani/wiki/源码编译指南)",
+        "translatedContent": "- [소스코드 컴파일 가이드](https://github.com/TwooSix/Openlist-Ani/wiki/源码编译指南)"
+      },
+      {
+        "row": 10,
+        "rowsha": "q0XJQMvsVxkJfM51qBGGOE/hm7MMEYJWHN/4DiJCNp0=",
+        "originContent": "- [配置说明](https://github.com/TwooSix/Openlist-Ani/wiki/配置说明)",
+        "translatedContent": "- [설정 설명](https://github.com/TwooSix/Openlist-Ani/wiki/配置说明)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "bMxXzYvHj1Zl/14Hbz9RlGJ9eqBTs5kz8UWIahHddvg=",
+        "originContent": "## 🖼️ 效果展示",
+        "translatedContent": "## 🖼️ 효과 시연"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "F31dfPZ2g78Gajknzw+y32LpwSWvBfo0rleM/W0wfbY=",
+        "originContent": "| 重命名结果 | 智能助理 |",
+        "translatedContent": "| 이름 변경 결과 | 스마트 어시스턴트 |"
+      },
+      {
+        "row": 15,
+        "rowsha": "8GaWgmq/f/fdAQFWWPTgmpZPFnre3hdiqonxtP5oJGs=",
+        "originContent": "| :---: | :---: |",
+        "translatedContent": "| :---: | :---: |"
+      },
+      {
+        "row": 16,
+        "rowsha": "ogJ48zL0uX76sdDxVnJFZQdCHR4ZmyxuINz8/PlT1Rk=",
+        "originContent": "| <img src=\"https://github.com/TwooSix/Openlist-Ani/blob/master/imgs/show_pic1.png\" width=\"400\"/> | <img src=\"https://github.com/TwooSix/Openlist-Ani/blob/master/imgs/show_pic2.jpg\" width=\"150\"/> |",
+        "translatedContent": "| <img src=\"https://github.com/TwooSix/Openlist-Ani/blob/master/imgs/show_pic1.png\" width=\"400\"/> | <img src=\"https://github.com/TwooSix/Openlist-Ani/blob/master/imgs/show_pic2.jpg\" width=\"150\"/> |"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

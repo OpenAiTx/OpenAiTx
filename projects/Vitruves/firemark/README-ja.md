@@ -1,33 +1,65 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/firemark.png" alt="firemark" width="200">
 </p>
 
 <h1 align="center">firemark</h1>
 
-<p align="center">画像とPDFのための高速な単一バイナリ透かしツール。Rustで構築。</p>
+<p align="center">Rust製の、高速かつ単一バイナリの画像・PDF向けウォーターマークツール。</p>
 
-## なぜドキュメントに透かしを入れるのか？
+## なぜドキュメントにウォーターマークを付けるのか？
 
-毎年、何百万人もの人々が単純なドキュメント交換から始まる
-身分詐欺の被害に遭っています。よくあるシナリオ：あなたは賃貸物件を探しています。
-大家さん、またはそれを装う誰かが、あなたのIDのコピー、給与明細、税通知書を要求します。
-あなたは透かしなしで送ります。「大家さん」は姿を消し、
-あなたの書類は銀行口座の開設、ローンの借入、または
-あなたの名前を使った身分詐称に利用されます。
+毎年、何百万人もの人々が、単純な書類のやり取りから始まる
+身元詐欺の被害に遭っています。よくあるシナリオ：あなたは賃貸物件を探しています。
+大家、あるいは大家を装った誰かが、あなたのIDや給与明細、
+税務通知書のコピーを求めてきます。あなたは何も印を付けずに送ります。「大家」は消え、
+あなたの書類は今や銀行口座の開設、ローンの申し込み、または
+あなたの名義での身元詐称に使われてしまいます。
 
-送るすべてのドキュメントに透かしを入れることが最も効果的な防御策です。
-「XYZ機関に送信済み — 2026年3月 — 賃貸申請用のみ」という
-目に見えるオーバーレイは、他の目的には書類を無効にします。もし
-漏れた場合でも、どこから来たのか正確に分かります。
+送信するすべての書類にウォーターマークを入れることが、最も効果的な防御策です。
+**「XYZエージェンシー宛送付 — 2026年3月 — 賃貸申込専用」**のような
+目に見えるオーバーレイがあれば、他の目的には使えません。漏洩した場合も、
+どこから流出したのかがすぐに分かります。
 
-firemarkはこれを簡単にします：ワンコマンドで、任意の画像またはPDFに、
-17種類の視覚スタイル、編集に強い暗号学的フィリグラーネパターン、
-そしてフォルダ全体のバッチ処理が可能です。
+firemarkなら、これが簡単にできます：コマンド一つで、どんな画像やPDFにも、17種類の
+ビジュアルスタイル、編集耐性のある暗号学的すかしパターン、フォルダ単位の
+バッチ処理も可能です。
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/paycheck-firemark-comparison.png" alt="Before and after watermarking" width="800">
   <br>
-  <em>透かし前後 — ワンコマンドでドキュメントは追跡可能かつ改ざん検出可能に。</em>
+  <em>ビフォー・アフター — コマンド一つで、書類は追跡可能かつ改ざん防止に。</em>
 </p>
 
 ## インストール
@@ -251,6 +283,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-11
 
 ---

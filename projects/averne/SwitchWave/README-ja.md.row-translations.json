@@ -1,0 +1,368 @@
+[
+  {
+    "row": 1,
+    "rowsha": "UFcH/R7OB0cymDvjK2Dj78gRdDoXD/3bNPBkPDO3FJ0=",
+    "originContent": "# <img src=\"https://github.com/user-attachments/assets/b81b9503-948e-4cba-b0a1-f5f809588aad\" width=\"48\"> SwitchWave",
+    "translatedContent": "# <img src=\"https://github.com/user-attachments/assets/b81b9503-948e-4cba-b0a1-f5f809588aad\" width=\"48\"> SwitchWave"
+  },
+  {
+    "row": 2,
+    "rowsha": "sHBYYRz1hc7lWumyFYKvsbrxZPehVqoQX4VDlBpOvds=",
+    "originContent": "A hardware-accelerated media player for the Nintendo Switch, built on mpv and FFmpeg.",
+    "translatedContent": "Nintendo Switch向けのハードウェアアクセラレーション対応メディアプレーヤーで、mpvおよびFFmpegをベースに構築されています。"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 機能"
+  },
+  {
+    "row": 5,
+    "rowsha": "eNJH04OwgOOLYgLsXZ6tSKR92jQMr2IUVNiSfgo41RA=",
+    "originContent": "- Custom hardware acceleration backend for FFmpeg, with dynamic frequency scaling. The following codecs can be decoded:",
+    "translatedContent": "- FFmpeg用のカスタムハードウェアアクセラレーションバックエンド、動的周波数スケーリング対応。以下のコーデックをデコード可能："
+  },
+  {
+    "row": 6,
+    "rowsha": "b6QdbeXtvDyBN4+e3+RPIcN7fdMvkPKhMBbopjs+Gxg=",
+    "originContent": "    - MPEG1/2/4",
+    "translatedContent": "    - MPEG1/2/4"
+  },
+  {
+    "row": 7,
+    "rowsha": "Sld/DEDWVJM6nnj/sXbVYWlwpPjB8XYD6sm0uGmZ/tg=",
+    "originContent": "    - VC1",
+    "translatedContent": "    - VC1"
+  },
+  {
+    "row": 8,
+    "rowsha": "D14+CbaH854WyLjv6nhNfUlnGb5htCQKUpt6Fq+TCUA=",
+    "originContent": "    - H.264/AVC (10+ bit not supported by hardware)",
+    "translatedContent": "    - H.264/AVC（ハードウェアでは10ビット以上非対応）"
+  },
+  {
+    "row": 9,
+    "rowsha": "cs9AXWOy0zmCYKX3nV2K7CPUWYjLEnmi25srYD+p638=",
+    "originContent": "    - H.265/HEVC (12+ bit not supported by hardware)",
+    "translatedContent": "    - H.265/HEVC（ハードウェアでは12ビット以上非対応）"
+  },
+  {
+    "row": 10,
+    "rowsha": "z5o/FlW0rnEfQduR6eBj4/jDhZ/bFw3OxKN84U+GLOo=",
+    "originContent": "    - VP8",
+    "translatedContent": "    - VP8"
+  },
+  {
+    "row": 11,
+    "rowsha": "F2QN4Em0FooJiO3cn2eemWQQ1HrFffCYF8xqpX90qvM=",
+    "originContent": "    - VP9 (10+ bit not supported by hardware)",
+    "translatedContent": "    - VP9（ハードウェアでは10ビット以上非対応）"
+  },
+  {
+    "row": 12,
+    "rowsha": "KoGXoQNgi2Vz0hIOVsfXUFlxmdYKhJ8bljLLLrDCvds=",
+    "originContent": "- Custom graphics backend for mpv using [deko3d](https://github.com/devkitPro/deko3d), supporting:",
+    "translatedContent": "- [deko3d](https://github.com/devkitPro/deko3d)を使用したmpv用カスタムグラフィックスバックエンド、対応内容："
+  },
+  {
+    "row": 13,
+    "rowsha": "tI07M9SxJdFPPGqwUM8Dtp6JcvAvnqKIsnvcJ8/pWhA=",
+    "originContent": "    - Playback at 4k60fps",
+    "translatedContent": "    - 4k60fpsでの再生"
+  },
+  {
+    "row": 14,
+    "rowsha": "Ntvi6vH9tJQHVCRIN4i49a/CBRrc6PVkjRNFdHkC0TU=",
+    "originContent": "    - Direct rendering (faster software decoding)",
+    "translatedContent": "    - 直接レンダリング（ソフトウェアデコードの高速化）"
+  },
+  {
+    "row": 15,
+    "rowsha": "PYnIvCLPXMoyC43fVbvJRqyOStV0oKbSRcqHekbhJmA=",
+    "originContent": "    - Custom post-processing shaders",
+    "translatedContent": "    - カスタムポストプロセスシェーダー"
+  },
+  {
+    "row": 16,
+    "rowsha": "Aw18vfIKYHyfYjgS+o3Lg6XwBykngCl9Er9jJqUtH7I=",
+    "originContent": "- Custom audio backend for mpv using native Nintendo APIs, supporting layouts up to 5.1 surround",
+    "translatedContent": "- ネイティブNintendo APIを使用したmpv用カスタムオーディオバックエンド、5.1サラウンドまでのレイアウトに対応"
+  },
+  {
+    "row": 17,
+    "rowsha": "0EoUgNPBcr63fW0gnZ3qXBVF49URhF2kGOKk0TzcdKE=",
+    "originContent": "- Network playback through HTTP/S, Samba, NFS or SFTP",
+    "translatedContent": "- HTTP/S、Samba、NFS、SFTPを介したネットワーク再生"
+  },
+  {
+    "row": 18,
+    "rowsha": "+K8CKlbJSzQVJD9MnA11RiTZ+1YhNtYD+7e9VP5ycks=",
+    "originContent": "- External drive support using [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)",
+    "translatedContent": "- [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)を利用した外部ドライブサポート"
+  },
+  {
+    "row": 19,
+    "rowsha": "Zt27EWjdKu/tZx9T2yKljPg4aLyLzMzPx34V4p/mWtQ=",
+    "originContent": "- Rich and responsive user interface, even under load",
+    "translatedContent": "- 負荷がかかっていても豊富でレスポンシブなユーザーインターフェース"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "CrQ1XO/et1agLOmJnlaLYfcfQdvL77gCZWQqAUysVwM=",
+    "originContent": "## Screenshots",
+    "translatedContent": "## スクリーンショット"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "eDt8JkQvnVdCK9B0TCNqgWKdFtDnU+4YLXSXwTLuMTE=",
+    "originContent": "<p float=\"center\">",
+    "translatedContent": "<p float=\"center\">"
+  },
+  {
+    "row": 24,
+    "rowsha": "wJdYWgYkdPqZz+D2PBUwPCL3s14kJwGMKS0veM2115Q=",
+    "originContent": "    <img src=\"https://github.com/user-attachments/assets/09aed446-148a-4276-8b07-336890c224a3\" width=\"413\" />",
+    "translatedContent": "    <img src=\"https://github.com/user-attachments/assets/09aed446-148a-4276-8b07-336890c224a3\" width=\"413\" />"
+  },
+  {
+    "row": 25,
+    "rowsha": "kD9ZDVBHHH9SKkGHZ/JJJRhODRFGtJ70IXMbKSpccPs=",
+    "originContent": "    <img src=\"https://github.com/user-attachments/assets/6e354511-47bc-4898-881c-348d5a9e6fbc\" width=\"413\" />",
+    "translatedContent": "    <img src=\"https://github.com/user-attachments/assets/6e354511-47bc-4898-881c-348d5a9e6fbc\" width=\"413\" />"
+  },
+  {
+    "row": 26,
+    "rowsha": "xYPwHIqwq8OYN5/d+MBJHP3y0bly8pC0JOqzbnHfnew=",
+    "originContent": "    <img src=\"https://github.com/user-attachments/assets/b86eb7c6-4229-46c6-8709-86d1a6ee8eed\" width=\"413\" />",
+    "translatedContent": "    <img src=\"https://github.com/user-attachments/assets/b86eb7c6-4229-46c6-8709-86d1a6ee8eed\" width=\"413\" />"
+  },
+  {
+    "row": 27,
+    "rowsha": "qqvtyKD0NH3SBkF0/uB4mrCSPW2yFvqzeH4CH7jxSGo=",
+    "originContent": "    <img src=\"https://github.com/user-attachments/assets/70f4be3e-fa1e-434a-b76c-4fb6b671f80e\" width=\"413\" />",
+    "translatedContent": "    <img src=\"https://github.com/user-attachments/assets/70f4be3e-fa1e-434a-b76c-4fb6b671f80e\" width=\"413\" />"
+  },
+  {
+    "row": 28,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+    "originContent": "## Setup",
+    "translatedContent": "## セットアップ"
+  },
+  {
+    "row": 31,
+    "rowsha": "NXg7BrESOu//DWXGyS3EjADbzpKdk12fLhTOabvPUqk=",
+    "originContent": "- Download the [latest release](https://github.com/averne/SwitchWave/releases/latest), and extract it to the root of your sd card (be careful to merge and not overwrite folders)",
+    "translatedContent": "- [最新リリース](https://github.com/averne/SwitchWave/releases/latest)をダウンロードし、SDカードのルートに展開してください（フォルダを上書きせずにマージするよう注意）"
+  },
+  {
+    "row": 32,
+    "rowsha": "GKytQguqMVPAXWJsuFs3yTADWYiNy6W4OX4dB9vpCqA=",
+    "originContent": "- Network shares can be configured through the app, as can mpv settings via the built-in editor (refer to the [manual](https://mpv.io/manual/master/))",
+    "translatedContent": "- ネットワーク共有はアプリから設定可能で、mpvの設定も内蔵エディタで編集可能です（[マニュアル](https://mpv.io/manual/master/)参照）"
+  },
+  {
+    "row": 33,
+    "rowsha": "HhKOW7/KcNz4Cz0zAm5fdyTnBBUaiP37eHHS9Wjtz4w=",
+    "originContent": "- Most relevant runtime parameters can be dynamically adjusted during playback through the menu, or failing that, the console ([manual](https://mpv.io/manual/master/#console))",
+    "translatedContent": "- 再生中にメニューや、メニューが使えない場合はコンソールから動的にほとんどのランタイムパラメータを調整可能です（[マニュアル](https://mpv.io/manual/master/#console)）"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "7yG6yJKPL5cg9brIizwUDQZkeD/r3QuaAXwB7XbI5xs=",
+    "originContent": "## Building",
+    "translatedContent": "## ビルド"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "71hb/LZU83EOsvIH34yQoNjsosEsS9S5ZS5R3U+pf2E=",
+    "originContent": "### Docker (recommended)",
+    "translatedContent": "### Docker（推奨）"
+  },
+  {
+    "row": 38,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 39,
+    "rowsha": "Fdm1fWtjnQpEVl1lELXj+d8eXnv95Rs6Vo/Xp61CdYM=",
+    "originContent": "./build-docker.sh",
+    "translatedContent": "./build-docker.sh"
+  },
+  {
+    "row": 40,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 41,
+    "rowsha": "bbt4XFPYBuEpiMizSkqMugPFgcXRHVGk2SLSsz5YIpY=",
+    "originContent": "This builds the toolchain image and compiles everything automatically. Output will be found in `build/`.",
+    "translatedContent": "これはツールチェーンイメージを構築し、すべてを自動的にコンパイルします。出力は `build/` にあります。"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "mzPYxOND6zMZMLjoN2GbpZE/t8WlRpTyfWdG/DjSZXk=",
+    "originContent": "To build with GIMP 3 instead of the default GIMP 2:",
+    "translatedContent": "デフォルトの GIMP 2 ではなく GIMP 3 でビルドするには："
+  },
+  {
+    "row": 44,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 45,
+    "rowsha": "Ld4IkhwaAoW0dnDcd1IsRXr/cc5h6/6wOe2U3SfdMOA=",
+    "originContent": "GIMP_VERSION=3 ./build-docker.sh",
+    "translatedContent": "GIMP_VERSION=3 ./build-docker.sh"
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### マニュアル"
+  },
+  {
+    "row": 48,
+    "rowsha": "9OG0gmh7hn/goGKXiq1OEJ97bhWCg/x49US2cADdZYc=",
+    "originContent": "### Manual",
+    "translatedContent": "- Switchホームブリュー開発用に[devkitpro](https://devkitpro.org/wiki/devkitPro_pacman)環境をセットアップします。"
+  },
+  {
+    "row": 49,
+    "rowsha": "FARo4lqf3j5FV+3cRsWxGZUNnkrcR3f+yf1c8Mhkhc4=",
+    "originContent": "- Set up a [devkitpro](https://devkitpro.org/wiki/devkitPro_pacman) environment for Switch homebrew development.",
+    "translatedContent": "- 次のパッケージをインストールします：`switch-bzip2`、`switch-dav1d`、`switch-freetype`、`switch-glm`、`switch-harfbuzz`、`switch-libarchive`、`switch-libass`、`switch-libfribidi`、`switch-libjpeg-turbo`、`switch-libpng`、`switch-libwebp`、`switch-curl`、`switch-libssh2`、`switch-mbedtls`、`switch-ntfs-3g`、および`switch-lwext4`。さらに、次のビルド依存関係が必要です：`switch-pkg-config`、`dkp-meson-scripts`、`dkp-toolchain-vars`、および[GIMP](https://www.gimp.org/)（2または3）。"
+  },
+  {
+    "row": 50,
+    "rowsha": "MOyxQnnsolroytFQfdVZ4EeLbk625oUBVfiQ1hY868w=",
+    "originContent": "- Install the following packages: `switch-bzip2`, `switch-dav1d`, `switch-freetype`, `switch-glm`, `switch-harfbuzz`, `switch-libarchive`, `switch-libass`, `switch-libfribidi`, `switch-libjpeg-turbo`, `switch-libpng`, `switch-libwebp`, `switch-curl`, `switch-libssh2`, `switch-mbedtls`, `switch-ntfs-3g` and `switch-lwext4`. In addition, the following build dependencies are required: `switch-pkg-config`, `dkp-meson-scripts`, `dkp-toolchain-vars`, and [GIMP](https://www.gimp.org/) (2 or 3).",
+    "translatedContent": "- [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)のGPLビルドをコンパイルしてインストールします。"
+  },
+  {
+    "row": 51,
+    "rowsha": "v1dQb5v6LrTOjAl+m6ufbq/iFhwMJWLSrdMYv6wsBnQ=",
+    "originContent": "- Compile and install a GPL build of [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs).",
+    "translatedContent": "- [libsmb2](misc/libsmb2/)と[libnfs](misc/libnfs/)をコンパイルしてインストールします。"
+  },
+  {
+    "row": 52,
+    "rowsha": "I8+Rp3Fn8Y12iuJ/3ExwDF4F3QIsybaLAfMx/Ua2RLs=",
+    "originContent": "- Compile and install [libsmb2](misc/libsmb2/) and [libnfs](misc/libnfs/).",
+    "translatedContent": "- FFmpegを設定、コンパイル、インストールします：`make configure-ffmpeg && make build-ffmpeg -j$(nproc)`。"
+  },
+  {
+    "row": 53,
+    "rowsha": "46Pcmefto02PbJ/9ES3njdqjf3eAQy0kMAzJM32Opa0=",
+    "originContent": "- Configure, compile and install FFmpeg: `make configure-ffmpeg && make build-ffmpeg -j$(nproc)`.",
+    "translatedContent": "- libuamを設定、コンパイル、インストールします：`make configure-uam && make build-uam`。"
+  },
+  {
+    "row": 54,
+    "rowsha": "HDT7ykLcI2siLfVGJAzDG5/CHli0FjmJPIQZ5MIOqyQ=",
+    "originContent": "- Configure, compile and install libuam: `make configure-uam && make build-uam`.",
+    "translatedContent": "- mpvを設定、コンパイル、インストールします：`make configure-mpv && make build-mpv`。"
+  },
+  {
+    "row": 55,
+    "rowsha": "OyMG8XORNEaZd1tmMi3QI+M74cAVsUOkZCXttjJBymY=",
+    "originContent": "- Configure, compile and install mpv: `make configure-mpv && make build-mpv`.",
+    "translatedContent": "- 最後に、メインアプリケーションをコンパイルし、リリース配布物をビルドします：`make dist -j$(nproc)`。"
+  },
+  {
+    "row": 56,
+    "rowsha": "UM2IjIP/qf0PLiHagTFyKHV4gX8LQog7ZcbDNkJdUBQ=",
+    "originContent": "- Finally, compile the main application and build the release distribution: `make dist -j$(nproc)`.",
+    "translatedContent": "- 出力は`build/`に生成されます。"
+  },
+  {
+    "row": 57,
+    "rowsha": "Qeo3+u9JBiSL6kLeMqrtnrCnnoiTxx1O9d/dbFvsnxw=",
+    "originContent": "- Output will be found in `build/`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## クレジット"
+  },
+  {
+    "row": 59,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": "- スクリーンショットボタンのオーバーライド方法については[Behemoth](https://github.com/HookedBehemoth)に感謝します。"
+  },
+  {
+    "row": 60,
+    "rowsha": "CE400pibvm59xIkiuoA4xeDkmmXPSSg+OMGQRAHW2t8=",
+    "originContent": "- [Behemoth](https://github.com/HookedBehemoth) for the screenshot button overriding method.",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

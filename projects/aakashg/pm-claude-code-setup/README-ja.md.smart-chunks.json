@@ -1,0 +1,1408 @@
+[
+  {
+    "Id": 1,
+    "Content": "# PM Claude Code Setup\n\n[![Stars](https://img.shields.io/github/stars/aakashg/pm-claude-code-setup?style=flat-square)](https://github.com/aakashg/pm-claude-code-setup/stargazers)\n[![License](https://img.shields.io/github/license/aakashg/pm-claude-code-setup?style=flat-square)](LICENSE)\n\nA production-ready Claude Code configuration for product managers. Drop these files into your project and Claude Code immediately understands PM work.\n\nIncludes a `CLAUDE.md` context file, 6 PM skills, and 4 templates. Takes 60 seconds to set up.\n\n**This setup works standalone. The full PM Operating System goes further: 41+ skills, 7 sub-agent perspectives, a complete context library, launch templates, and sprint planning workflows refined over 100+ iterations.**\n\n**[Get the full PM Operating System →](https://www.news.aakashg.com/p/pm-os)**\n\n---\n\n## What's Inside\n",
+    "ContentSha": "UpO5GFnnoYLJGD7aoziKfmmLRHGNIL41w7TW+q47fMc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# PM Claude Code セットアップ\n\n[![Stars](https://img.shields.io/github/stars/aakashg/pm-claude-code-setup?style=flat-square)](https://github.com/aakashg/pm-claude-code-setup/stargazers)\n[![License](https://img.shields.io/github/license/aakashg/pm-claude-code-setup?style=flat-square)](LICENSE)\n\nプロダクトマネージャー向けの本番対応可能なClaude Code設定です。これらのファイルをプロジェクトに入れるだけで、Claude Codeは即座にPMの仕事を理解します。\n\n`CLAUDE.md`コンテキストファイル、6つのPMスキル、4つのテンプレートが含まれています。設定にかかる時間は60秒です。\n\n**このセットアップは単独で機能します。フルPMオペレーティングシステムはさらに進んでおり、41以上のスキル、7つのサブエージェント視点、完全なコンテキストライブラリ、ローンチテンプレート、100回以上の反復で洗練されたスプリント計画ワークフローを備えています。**\n\n**[フルPMオペレーティングシステムを入手 →](https://www.news.aakashg.com/p/pm-os)**\n\n---\n\n## 内容紹介\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HNiyHtvoKyhXVHcgUckxfjuAOz5HpDA5g3jmisznvKc=",
+        "originContent": "# PM Claude Code Setup",
+        "translatedContent": "# PM Claude Code セットアップ"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "8OxGLTRu/uxhGtdBTDg4KJdxaNzmBYWU9ofbqhHc5PY=",
+        "originContent": "[![Stars](https://img.shields.io/github/stars/aakashg/pm-claude-code-setup?style=flat-square)](https://github.com/aakashg/pm-claude-code-setup/stargazers)",
+        "translatedContent": "[![Stars](https://img.shields.io/github/stars/aakashg/pm-claude-code-setup?style=flat-square)](https://github.com/aakashg/pm-claude-code-setup/stargazers)"
+      },
+      {
+        "row": 4,
+        "rowsha": "hJV5+5ldzYS9MrX3+8SCLr82j2atZo6RM94G/bT7klw=",
+        "originContent": "[![License](https://img.shields.io/github/license/aakashg/pm-claude-code-setup?style=flat-square)](LICENSE)",
+        "translatedContent": "[![License](https://img.shields.io/github/license/aakashg/pm-claude-code-setup?style=flat-square)](LICENSE)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Q8tHFgQzpMauoXqlCf3QO+Zw+V0Xe5LNWCIKktzGskU=",
+        "originContent": "A production-ready Claude Code configuration for product managers. Drop these files into your project and Claude Code immediately understands PM work.",
+        "translatedContent": "プロダクトマネージャー向けの本番対応可能なClaude Code設定です。これらのファイルをプロジェクトに入れるだけで、Claude Codeは即座にPMの仕事を理解します。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "ptKRUejSaOXBO9bhMqttFGOJnuTGiMbM5rhwxC5H/lM=",
+        "originContent": "Includes a `CLAUDE.md` context file, 6 PM skills, and 4 templates. Takes 60 seconds to set up.",
+        "translatedContent": "`CLAUDE.md`コンテキストファイル、6つのPMスキル、4つのテンプレートが含まれています。設定にかかる時間は60秒です。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "9Po6YLT7YwYIUejJkUmN6QHZfOdsxwxm6PysAwqy7mg=",
+        "originContent": "**This setup works standalone. The full PM Operating System goes further: 41+ skills, 7 sub-agent perspectives, a complete context library, launch templates, and sprint planning workflows refined over 100+ iterations.**",
+        "translatedContent": "**このセットアップは単独で機能します。フルPMオペレーティングシステムはさらに進んでおり、41以上のスキル、7つのサブエージェント視点、完全なコンテキストライブラリ、ローンチテンプレート、100回以上の反復で洗練されたスプリント計画ワークフローを備えています。**"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "2hLe08fXRDkTOaqyaXrjbxrwyC5kEnTtC52U0VtV2Gc=",
+        "originContent": "**[Get the full PM Operating System →](https://www.news.aakashg.com/p/pm-os)**",
+        "translatedContent": "**[フルPMオペレーティングシステムを入手 →](https://www.news.aakashg.com/p/pm-os)**"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "pvFWaYGXm7DH29ULwY7JbxVz7Ni2PG8QXU59+S+QYv8=",
+        "originContent": "## What's Inside",
+        "translatedContent": "## 内容紹介"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\npm-claude-code-setup/\n├── CLAUDE.md                           # Master context file — drop in your project root\n├── templates/\n│   ├── prd-template.md                 # Blank PRD structure\n│   ├── launch-plan.md                  # Launch planning template\n│   ├── okr-template.md                 # OKR scorecard\n│   └── sprint-review.md               # Sprint review template\n└── .claude/\n    └── skills/\n        ├── prd-writer/                 # \"write a PRD\" → structured PRD with clarifying questions\n        ├── competitive-analysis/       # \"analyze competitor\" → smart/weak/implications framework\n        ├── launch-checklist/           # \"launch checklist\" → risk-scaled pre/post launch plan\n        ├── metrics-definer/            # \"define metrics\" → primary, guardrail, and anti-metrics\n        ├── sprint-planner/             # \"plan sprint\" → capacity-checked sprint with risks\n        └── user-research/              # \"synthesize research\" → evidence-ranked findings\n```",
+    "ContentSha": "P3P2HuEKJdYyGHSq2po97he++ksLe8EQOCs2mtMCZiI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npm-claude-code-setup/\n├── CLAUDE.md                           # Master context file — drop in your project root\n├── templates/\n│   ├── prd-template.md                 # Blank PRD structure\n│   ├── launch-plan.md                  # Launch planning template\n│   ├── okr-template.md                 # OKR scorecard\n│   └── sprint-review.md               # Sprint review template\n└── .claude/\n    └── skills/\n        ├── prd-writer/                 # \"write a PRD\" → structured PRD with clarifying questions\n        ├── competitive-analysis/       # \"analyze competitor\" → smart/weak/implications framework\n        ├── launch-checklist/           # \"launch checklist\" → risk-scaled pre/post launch plan\n        ├── metrics-definer/            # \"define metrics\" → primary, guardrail, and anti-metrics\n        ├── sprint-planner/             # \"plan sprint\" → capacity-checked sprint with risks\n        └── user-research/              # \"synthesize research\" → evidence-ranked findings\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "kh36cSBYK6hrkyMo0gbMRtLM6Fu7lDhJP4WhVVfahWM=",
+        "originContent": "pm-claude-code-setup/",
+        "translatedContent": "pm-claude-code-setup/"
+      },
+      {
+        "row": 3,
+        "rowsha": "jfilit5sklqTN3c8N2Fuh0llPbdtJ3W3bNdpZeUSORo=",
+        "originContent": "├── CLAUDE.md                           # Master context file — drop in your project root",
+        "translatedContent": "├── CLAUDE.md                           # Master context file — drop in your project root"
+      },
+      {
+        "row": 4,
+        "rowsha": "rMDm2H1+lnuzWohBAfLIE5xbwHqWcuPK33x85D7K0lg=",
+        "originContent": "├── templates/",
+        "translatedContent": "├── templates/"
+      },
+      {
+        "row": 5,
+        "rowsha": "aULtGj1lX1fIFNnKY3MCNYgX3TekSVaCdPkhkDY0R88=",
+        "originContent": "│   ├── prd-template.md                 # Blank PRD structure",
+        "translatedContent": "│   ├── prd-template.md                 # Blank PRD structure"
+      },
+      {
+        "row": 6,
+        "rowsha": "2t+QP3PxkFa6pW0P2juJydZmBZ8LIwh5OZP2WNo/Bbo=",
+        "originContent": "│   ├── launch-plan.md                  # Launch planning template",
+        "translatedContent": "│   ├── launch-plan.md                  # Launch planning template"
+      },
+      {
+        "row": 7,
+        "rowsha": "lgdkRUpF5VReWSocQGWbaSdmFPhz+ZYVmeltrN9RMfs=",
+        "originContent": "│   ├── okr-template.md                 # OKR scorecard",
+        "translatedContent": "│   ├── okr-template.md                 # OKR scorecard"
+      },
+      {
+        "row": 8,
+        "rowsha": "fZxECTjbjRxzDXUg5U+tB2GqwdxTjJsT7Fsbvq0CFS4=",
+        "originContent": "│   └── sprint-review.md               # Sprint review template",
+        "translatedContent": "│   └── sprint-review.md               # Sprint review template"
+      },
+      {
+        "row": 9,
+        "rowsha": "90lgkTlnE1ldWPiTq0gLYj2aVt5miTYA7t0Qa1hsfe0=",
+        "originContent": "└── .claude/",
+        "translatedContent": "└── .claude/"
+      },
+      {
+        "row": 10,
+        "rowsha": "aBbhFVW/H5UUZN1/DHPQUDTMcl6N3tX4aCsRvfTjd7U=",
+        "originContent": "    └── skills/",
+        "translatedContent": "    └── skills/"
+      },
+      {
+        "row": 11,
+        "rowsha": "4qoSa0RD542d43h+XLpKY6KVgDvGVvSZjNgSsIr655E=",
+        "originContent": "        ├── prd-writer/                 # \"write a PRD\" → structured PRD with clarifying questions",
+        "translatedContent": "        ├── prd-writer/                 # \"write a PRD\" → structured PRD with clarifying questions"
+      },
+      {
+        "row": 12,
+        "rowsha": "4Bi9eFT0KXpEzPsOw06+HaENY/MolAJn6JexjiryyZA=",
+        "originContent": "        ├── competitive-analysis/       # \"analyze competitor\" → smart/weak/implications framework",
+        "translatedContent": "        ├── competitive-analysis/       # \"analyze competitor\" → smart/weak/implications framework"
+      },
+      {
+        "row": 13,
+        "rowsha": "4x+lyDq8eoQl++IsDxEMMLsU0dKbShKVjHJgUY2OByA=",
+        "originContent": "        ├── launch-checklist/           # \"launch checklist\" → risk-scaled pre/post launch plan",
+        "translatedContent": "        ├── launch-checklist/           # \"launch checklist\" → risk-scaled pre/post launch plan"
+      },
+      {
+        "row": 14,
+        "rowsha": "vgTuXHwTGomrxe8u1bjfqyarwV2Fj7XuK3mD7qx4lSQ=",
+        "originContent": "        ├── metrics-definer/            # \"define metrics\" → primary, guardrail, and anti-metrics",
+        "translatedContent": "        ├── metrics-definer/            # \"define metrics\" → primary, guardrail, and anti-metrics"
+      },
+      {
+        "row": 15,
+        "rowsha": "3gm0oZXpWuuz3BACFQhxMQd9miVZ6LAwn6BScZvL4jE=",
+        "originContent": "        ├── sprint-planner/             # \"plan sprint\" → capacity-checked sprint with risks",
+        "translatedContent": "        ├── sprint-planner/             # \"plan sprint\" → capacity-checked sprint with risks"
+      },
+      {
+        "row": 16,
+        "rowsha": "5SpW9+dTvLDflEl5+H0Xd4Nz3theu/xsfyWn9VYJPRE=",
+        "originContent": "        └── user-research/              # \"synthesize research\" → evidence-ranked findings",
+        "translatedContent": "        └── user-research/              # \"synthesize research\" → evidence-ranked findings"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Quick Setup\n\n**Step 1:** Copy `CLAUDE.md` to your project root:",
+    "ContentSha": "AaRH43IvR2Z5IucYzrRDxXJ55f2KNSFx8o4EWJzF7TI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## クイックセットアップ\n\n**ステップ1:** `CLAUDE.md` をプロジェクトのルートにコピーしてください:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "whDTkdcDH6o4sTo0SZngGpiUJ49K1jUNRHng74VpOiw=",
+        "originContent": "## Quick Setup",
+        "translatedContent": "## クイックセットアップ"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "mA5+gN/3cWiGEbbK8xoQK0GrA+LoKLROFFbOlCcfWqE=",
+        "originContent": "**Step 1:** Copy `CLAUDE.md` to your project root:",
+        "translatedContent": "**ステップ1:** `CLAUDE.md` をプロジェクトのルートにコピーしてください:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\ncp CLAUDE.md /path/to/your/project/\n```",
+    "ContentSha": "O00MmAQVPTiP0kNGJdHZKvxcf/2zwg2bZeqtlbNC0e8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncp CLAUDE.md /path/to/your/project/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "/tYLvluyrNbWKNppTEDFC0qVY/dJF4xhdrMr7ohVhw0=",
+        "originContent": "cp CLAUDE.md /path/to/your/project/",
+        "translatedContent": "cp CLAUDE.md /path/to/your/project/"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n**Step 2:** Copy the skills folder:",
+    "ContentSha": "Bf19mmRcJP5HBTUkak6RMy/rjw4yK2YXaG29zFMwRm0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**ステップ2:** skillsフォルダーをコピーしてください：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "xXp32XhBq744e65orEvhcfdFcJuVFo0V93WqTmLol20=",
+        "originContent": "**Step 2:** Copy the skills folder:",
+        "translatedContent": "**ステップ2:** skillsフォルダーをコピーしてください："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\ncp -r .claude/ /path/to/your/project/\n```",
+    "ContentSha": "Rme9JcT9TBo4vViEpmG52z7ulitDzWAiPTSoXVyHqeo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncp -r .claude/ /path/to/your/project/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "PenGuiH0yBa5/PgHZbc+1cfPUrsD355tfevddV6pNcQ=",
+        "originContent": "cp -r .claude/ /path/to/your/project/",
+        "translatedContent": "cp -r .claude/ /path/to/your/project/"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n**Step 3:** Open Claude Code in your project. It loads automatically.\n\nDone. Claude now knows you're a PM, follows your writing style, and writes PRDs on command.\n\n## What the CLAUDE.md Does\n\n`CLAUDE.md` is a lean config file — not a manual. It tells Claude who you are, how to write, and what rules to follow. Fill in the `[FILL IN]` fields at the top (~2 minutes), and the rest works immediately:\n\n- **Your context** — role, product, metrics, OKRs, terminology\n- **Writing rules** — enforced tone, banned words, output standards\n- **Sub-agent roles** — 6 reviewers in a table (engineer, designer, executive, skeptic, customer, data analyst)\n- **Output standards** — clarifying questions before generating, metrics with baselines, risks with mitigations\n- **Skills reference** — points to `.claude/skills/` without duplicating their logic\n- **MCP connections** — your integrations (Notion, Jira, Slack, etc.)\n\nThe file is intentionally under 60 lines. Claude follows short, specific instructions better than long ones.\n\n## What the PRD Writer Skill Does\n\nSay \"write a PRD\" or \"create a PRD for [feature]\" and Claude:\n\n1. Asks 3-5 clarifying questions first (never generates blind)\n2. Follows a structured format: hypothesis, problem, solution, metrics, non-goals\n3. Flags missing info with `[NEED: data from X]` placeholders\n4. Keeps it under 2 pages unless you ask for more\n5. Includes success metrics with specific numbers and guardrails\n\n## How to Get the Most Out of This Setup\n\n### Chain Sub-Agents\n\nWrite a PRD → \"Review as engineer\" → fix gaps → \"Review as skeptic\" → tighten assumptions → \"Review as customer\" → simplify the value prop. Three passes, three minutes, dramatically better spec.\n\n### Use @ References\n\nDon't paste docs into chat — point to them:\n",
+    "ContentSha": "cYo1nUOJJ0HWxwbPe2sgBqNuZyHFb2PUZmwelyXu6gk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**ステップ3:** プロジェクトでClaude Codeを開きます。自動的に読み込まれます。\n\n完了。ClaudeはあなたがPMであることを認識し、あなたの文体を踏襲し、指示に応じてPRDを作成します。\n\n## CLAUDE.mdの役割\n\n`CLAUDE.md`はマニュアルではなく、簡潔な設定ファイルです。Claudeにあなたが誰であるか、どのように書くか、守るべきルールを伝えます。冒頭の`[FILL IN]`部分を埋めるだけ（約2分）で、すぐに機能します：\n\n- **あなたの文脈** — 役割、製品、指標、OKR、用語\n- **執筆ルール** — 遵守すべきトーン、禁止語句、出力基準\n- **サブエージェントの役割** — 6名のレビュアー（エンジニア、デザイナー、経営者、懐疑派、顧客、データ分析者）を表形式で\n- **出力基準** — 生成前の確認質問、基準値付き指標、リスクと緩和策\n- **スキル参照** — `.claude/skills/`へのリンク（ロジックの重複なし）\n- **MCP連携** — あなたの統合環境（Notion、Jira、Slackなど）\n\nファイルは60行未満に抑えられています。Claudeは短く具体的な指示を長いものよりもよく理解します。\n\n## PRDライタースキルの機能\n\n「PRDを書いて」または「[機能名]のPRDを作成して」と言うと、Claudeは：\n\n1. まず3〜5の確認質問を行う（盲目的に生成しない）\n2. 仮説、問題、解決策、指標、非目標の構造化フォーマットに従う\n3. 情報不足は`[NEED: data from X]`のプレースホルダーで示す\n4. 要求がなければ2ページ以内にまとめる\n5. 具体的な数値とガードレールを含む成功指標を提示する\n\n## このセットアップを最大限活用する方法\n\n### サブエージェントを連鎖させる\n\nPRDを書く → 「エンジニアとしてレビュー」 → ギャップを修正 → 「懐疑派としてレビュー」 → 仮定を厳密化 → 「顧客としてレビュー」 → 価値提案を簡潔化。3回のパスで3分、仕様が劇的に向上。\n\n### @参照を使う\n\nドキュメントをチャットに貼り付けず、参照先を指示してください：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**ステップ3:** プロジェクトでClaude Codeを開きます。自動的に読み込まれます。"
+      },
+      {
+        "row": 2,
+        "rowsha": "9K5uF13bzANg7YpOy7RkuHaNXmiayc5P7/JyRKxBBKw=",
+        "originContent": "**Step 3:** Open Claude Code in your project. It loads automatically.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "完了。ClaudeはあなたがPMであることを認識し、あなたの文体を踏襲し、指示に応じてPRDを作成します。"
+      },
+      {
+        "row": 4,
+        "rowsha": "/niTNLJVHvdyQEQQ/ZR6bEsISJsvNxFPLfkZR/eiq44=",
+        "originContent": "Done. Claude now knows you're a PM, follows your writing style, and writes PRDs on command.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## CLAUDE.mdの役割"
+      },
+      {
+        "row": 6,
+        "rowsha": "CV/sKXvHDy3CvDz6PfFEA750wsIRPcQ15GHzfcZS+Vw=",
+        "originContent": "## What the CLAUDE.md Does",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`CLAUDE.md`はマニュアルではなく、簡潔な設定ファイルです。Claudeにあなたが誰であるか、どのように書くか、守るべきルールを伝えます。冒頭の`[FILL IN]`部分を埋めるだけ（約2分）で、すぐに機能します："
+      },
+      {
+        "row": 8,
+        "rowsha": "ExT30TUiprKmIkBaCfFqbk0mgRPVUWSnaT7ZtIjjtuM=",
+        "originContent": "`CLAUDE.md` is a lean config file — not a manual. It tells Claude who you are, how to write, and what rules to follow. Fill in the `[FILL IN]` fields at the top (~2 minutes), and the rest works immediately:",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **あなたの文脈** — 役割、製品、指標、OKR、用語"
+      },
+      {
+        "row": 10,
+        "rowsha": "3hhLNAUBKd6wK3MSRmcC0lCP+0pzMUH6V6/kw6F53Gg=",
+        "originContent": "- **Your context** — role, product, metrics, OKRs, terminology",
+        "translatedContent": "- **執筆ルール** — 遵守すべきトーン、禁止語句、出力基準"
+      },
+      {
+        "row": 11,
+        "rowsha": "ElEnGtNuu2uDODPulNG0k3rjYPZZ8ip4n+gLo+y8BFg=",
+        "originContent": "- **Writing rules** — enforced tone, banned words, output standards",
+        "translatedContent": "- **サブエージェントの役割** — 6名のレビュアー（エンジニア、デザイナー、経営者、懐疑派、顧客、データ分析者）を表形式で"
+      },
+      {
+        "row": 12,
+        "rowsha": "oEGAEOcjAMS2xC+/q3DxyaRjPQezcf6V56w4uTuW6jY=",
+        "originContent": "- **Sub-agent roles** — 6 reviewers in a table (engineer, designer, executive, skeptic, customer, data analyst)",
+        "translatedContent": "- **出力基準** — 生成前の確認質問、基準値付き指標、リスクと緩和策"
+      },
+      {
+        "row": 13,
+        "rowsha": "/z5m2AOiIRNCSr2ijZzofudpvV9osTuynNi1xfonvuc=",
+        "originContent": "- **Output standards** — clarifying questions before generating, metrics with baselines, risks with mitigations",
+        "translatedContent": "- **スキル参照** — `.claude/skills/`へのリンク（ロジックの重複なし）"
+      },
+      {
+        "row": 14,
+        "rowsha": "1NprJRq9dqCZh4aMc9G5v1POVHsz8Uv8s1zbRklxjjI=",
+        "originContent": "- **Skills reference** — points to `.claude/skills/` without duplicating their logic",
+        "translatedContent": "- **MCP連携** — あなたの統合環境（Notion、Jira、Slackなど）"
+      },
+      {
+        "row": 15,
+        "rowsha": "pfR4FognoUkiTxtNwVIZrZ68bMnQ0+qUPe0Tit1QVes=",
+        "originContent": "- **MCP connections** — your integrations (Notion, Jira, Slack, etc.)",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ファイルは60行未満に抑えられています。Claudeは短く具体的な指示を長いものよりもよく理解します。"
+      },
+      {
+        "row": 17,
+        "rowsha": "G3CiiS8BQx1yEE+FofUXv1ir1V+V0Z5uvPi5+q6gBaw=",
+        "originContent": "The file is intentionally under 60 lines. Claude follows short, specific instructions better than long ones.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## PRDライタースキルの機能"
+      },
+      {
+        "row": 19,
+        "rowsha": "mXlMM4/bia4MB2QwOMoButqQYGHgj+5bwyM67fezpTU=",
+        "originContent": "## What the PRD Writer Skill Does",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "「PRDを書いて」または「[機能名]のPRDを作成して」と言うと、Claudeは："
+      },
+      {
+        "row": 21,
+        "rowsha": "JCUx+xFUrMJ9XaxqCtbtNEfagAnYlOsCMnnA6UApcHg=",
+        "originContent": "Say \"write a PRD\" or \"create a PRD for [feature]\" and Claude:",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. まず3〜5の確認質問を行う（盲目的に生成しない）"
+      },
+      {
+        "row": 23,
+        "rowsha": "0aCe/IGfGijpVAcp68EUnZ0C5QkATWReQN8tG6UV1qM=",
+        "originContent": "1. Asks 3-5 clarifying questions first (never generates blind)",
+        "translatedContent": "2. 仮説、問題、解決策、指標、非目標の構造化フォーマットに従う"
+      },
+      {
+        "row": 24,
+        "rowsha": "kGS23DUsn65uEZFczmaqofEMUquk0lShbOUIEgbV3As=",
+        "originContent": "2. Follows a structured format: hypothesis, problem, solution, metrics, non-goals",
+        "translatedContent": "3. 情報不足は`[NEED: data from X]`のプレースホルダーで示す"
+      },
+      {
+        "row": 25,
+        "rowsha": "wopV6cdn6VaHStZ/IoA2nbngKtZ0cVJFUyOWjzF6r3g=",
+        "originContent": "3. Flags missing info with `[NEED: data from X]` placeholders",
+        "translatedContent": "4. 要求がなければ2ページ以内にまとめる"
+      },
+      {
+        "row": 26,
+        "rowsha": "U3j9kaqTSaNAuhNkAfb8SQILo46pLoET52s9zQtRHzE=",
+        "originContent": "4. Keeps it under 2 pages unless you ask for more",
+        "translatedContent": "5. 具体的な数値とガードレールを含む成功指標を提示する"
+      },
+      {
+        "row": 27,
+        "rowsha": "nW/35dYhJ3DDqIWApLUAg/Y4YgOleYWUWgKJlQCRUng=",
+        "originContent": "5. Includes success metrics with specific numbers and guardrails",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## このセットアップを最大限活用する方法"
+      },
+      {
+        "row": 29,
+        "rowsha": "Zn7k0wL504S5Q4hklRE/Y1QG19QsSk/tpRYm6qFqJ7k=",
+        "originContent": "## How to Get the Most Out of This Setup",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### サブエージェントを連鎖させる"
+      },
+      {
+        "row": 31,
+        "rowsha": "fUMFe5SSQo8Y6vr5jE+izEhb/65TXFBItXeWdrcP2Yo=",
+        "originContent": "### Chain Sub-Agents",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "PRDを書く → 「エンジニアとしてレビュー」 → ギャップを修正 → 「懐疑派としてレビュー」 → 仮定を厳密化 → 「顧客としてレビュー」 → 価値提案を簡潔化。3回のパスで3分、仕様が劇的に向上。"
+      },
+      {
+        "row": 33,
+        "rowsha": "xSk4KQwBqA+iW6K1FFZhw1R6T3VWq17R64Yxha/JkCw=",
+        "originContent": "Write a PRD → \"Review as engineer\" → fix gaps → \"Review as skeptic\" → tighten assumptions → \"Review as customer\" → simplify the value prop. Three passes, three minutes, dramatically better spec.",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### @参照を使う"
+      },
+      {
+        "row": 35,
+        "rowsha": "5bKgHpbvRCAWsCrK766YgDuKX2uEzSfCDk2w/w0zltQ=",
+        "originContent": "### Use @ References",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ドキュメントをチャットに貼り付けず、参照先を指示してください："
+      },
+      {
+        "row": 37,
+        "rowsha": "Xju6BqVrZMp/QMhC0ZvfaX8bVwYASIrUgCOYc04hV0o=",
+        "originContent": "Don't paste docs into chat — point to them:",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\nRead @templates/prd-template.md and use that structure.\nSummarize @meeting-notes/standup-03-04.md into action items.\nCompare @competitor-notes/notion.md against @competitor-notes/monday.md.\n```",
+    "ContentSha": "r/qHl0jCoGsueNFwkc3Q6xLU6QHvBYS+0cvNEtAvrjY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nRead @templates/prd-template.md and use that structure.\nSummarize @meeting-notes/standup-03-04.md into action items.\nCompare @competitor-notes/notion.md against @competitor-notes/monday.md.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "B/ZMIS4RRpSBVTiS3KaoTgqIt94r+KiQke4dH9XBZUs=",
+        "originContent": "Read @templates/prd-template.md and use that structure.",
+        "translatedContent": "Read @templates/prd-template.md and use that structure."
+      },
+      {
+        "row": 3,
+        "rowsha": "Efq+5JgY3Vz9hRQwYUcA6kzp4koqL4hAwuQC/UYVMlU=",
+        "originContent": "Summarize @meeting-notes/standup-03-04.md into action items.",
+        "translatedContent": "Summarize @meeting-notes/standup-03-04.md into action items."
+      },
+      {
+        "row": 4,
+        "rowsha": "4ZLCvBARgkUeOzovxRWA55lF/vwZOU1Iu49qGFbj7u0=",
+        "originContent": "Compare @competitor-notes/notion.md against @competitor-notes/monday.md.",
+        "translatedContent": "Compare @competitor-notes/notion.md against @competitor-notes/monday.md."
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nClaude reads the file on demand. Your context window stays clean.\n\n### Use Plan Mode (Shift+Tab)\n\nToggle before complex tasks. Forces Claude to outline its approach before executing. You approve the plan, then it runs. Best for PRDs with open questions, multi-file edits, anything where \"undo\" is expensive.\n\n### Set Up Hooks\n\nUnlike CLAUDE.md instructions (advisory), hooks run deterministically:\n",
+    "ContentSha": "Lfmswoj1fhMp8b3+BnHapWcfTY7TSezHdW/TCTCCP5g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nClaudeは必要に応じてファイルを読み込みます。あなたのコンテキストウィンドウはクリアなままです。\n\n### プランモードを使用する（Shift+Tab）\n\n複雑なタスクの前に切り替えます。Claudeに実行前にアプローチを概説させます。あなたがプランを承認すると実行されます。未解決の質問があるPRDや複数ファイルの編集、「元に戻す」が高コストな場合に最適です。\n\n### フックの設定\n\nCLAUDE.mdの指示（助言）とは異なり、フックは決定論的に実行されます：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "9LOsLu6l1vLVxpP9MDVsVoaZOo9an3xJ3QdcYRJV5Jg=",
+        "originContent": "Claude reads the file on demand. Your context window stays clean.",
+        "translatedContent": "Claudeは必要に応じてファイルを読み込みます。あなたのコンテキストウィンドウはクリアなままです。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "vjYr0RrKdSrVYC+ve0kzgRRIUs9dpnGN56pAxKIYIxI=",
+        "originContent": "### Use Plan Mode (Shift+Tab)",
+        "translatedContent": "### プランモードを使用する（Shift+Tab）"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "TAWIjHGOMlI+Zpnp4rrzuwqwav67Q/DIQkpUCT+qkAE=",
+        "originContent": "Toggle before complex tasks. Forces Claude to outline its approach before executing. You approve the plan, then it runs. Best for PRDs with open questions, multi-file edits, anything where \"undo\" is expensive.",
+        "translatedContent": "複雑なタスクの前に切り替えます。Claudeに実行前にアプローチを概説させます。あなたがプランを承認すると実行されます。未解決の質問があるPRDや複数ファイルの編集、「元に戻す」が高コストな場合に最適です。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "zeNc5+jSIIAdKwql2nr0WOs5GXl8BX6Vyw0GSPyzyjY=",
+        "originContent": "### Set Up Hooks",
+        "translatedContent": "### フックの設定"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "n7Axwazl87J/+1tLzFBrRpokU3QvPoC73JKWT0kleaU=",
+        "originContent": "Unlike CLAUDE.md instructions (advisory), hooks run deterministically:",
+        "translatedContent": "CLAUDE.mdの指示（助言）とは異なり、フックは決定論的に実行されます："
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\n\"Write a hook that spell-checks every file after I edit it\"\n\"Write a hook that blocks writes to /templates/\"\n\"Write a hook that runs a word count check — block any PRD over 1500 words\"\n```",
+    "ContentSha": "7QSInMzEoDClVd0woPLizY9W2neyS2jnCeDcOf0c8Tg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n\"Write a hook that spell-checks every file after I edit it\"\n\"Write a hook that blocks writes to /templates/\"\n\"Write a hook that runs a word count check — block any PRD over 1500 words\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Khg/82mW/KdeurT4I9FXsDBLRDjncjNiUHoERO4Ijdk=",
+        "originContent": "\"Write a hook that spell-checks every file after I edit it\"",
+        "translatedContent": "\"Write a hook that spell-checks every file after I edit it\""
+      },
+      {
+        "row": 3,
+        "rowsha": "xb5UaFg4Jt/jsU8zVvpHuvyT+8HDThkJ1CiNxdKdwVg=",
+        "originContent": "\"Write a hook that blocks writes to /templates/\"",
+        "translatedContent": "\"Write a hook that blocks writes to /templates/\""
+      },
+      {
+        "row": 4,
+        "rowsha": "gwB2VKJuIIx3OiwtEvXoTjjTBZC49uLEFDtn8PqWO/8=",
+        "originContent": "\"Write a hook that runs a word count check — block any PRD over 1500 words\"",
+        "translatedContent": "\"Write a hook that runs a word count check — block any PRD over 1500 words\""
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nConfigure via `/hooks` or `.claude/settings.json`. Exit code 0 = proceed, exit code 2 = block with feedback.\n\n### Session Management\n\n- **`/clear` between unrelated tasks.** Context bleed is the #1 quality killer.\n- **Cap conversations at ~50 exchanges.** Quality degrades past this.\n- **Use handoffs.** Before ending a long session: \"Write a HANDOFF.md.\" Next session: \"Read @HANDOFF.md and continue.\"\n- **Run parallel sessions.** Multiple terminals, each with its own Claude instance and context window.\n- **Resume sessions.** `claude --continue` for last session, `claude --resume` to pick from history.\n\n### Make CLAUDE.md Self-Improving\n\nWhen Claude makes a mistake, correct it, then: \"Add a rule to CLAUDE.md so you don't make that mistake again.\" Claude proposes the rule, you approve, it edits the file. Next session, the rule is loaded automatically. Prune quarterly.\n\n### Customize the Skills\n\nSkills ship with generic examples. Replace them with real examples from your product. A sprint planner that knows your team's velocity outperforms a generic one every time.\n\n### Feed in Real Artifacts\n\nDon't describe your Slack thread — paste it. Don't summarize the user interview — paste the transcript. Skills extract and structure messy information; raw inputs produce the best output.\n\n### Quick Reference\n",
+    "ContentSha": "GB77HM4Q9zkrnhXV5t6mNIt8pLjtIiXKPc17J8lX8uY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "/hooks または .claude/settings.json で設定します。終了コード0 = 続行、終了コード2 = フィードバック付きでブロック。\n\n### セッション管理\n\n- **無関係なタスク間は `/clear` を使用。** コンテキストの混在は品質低下の最大要因です。\n- **会話は約50回のやり取りで制限。** これを超えると品質が低下します。\n- **ハンドオフを活用。** 長いセッションを終える前に：「HANDOFF.mdを書いてください。」次のセッションで：「@HANDOFF.md を読み、続行してください。」\n- **並行セッションを実行。** 複数のターミナルで、それぞれ独立したClaudeインスタンスとコンテキストウィンドウを使用。\n- **セッションを再開。** 最後のセッションは `claude --continue`、履歴から選択するには `claude --resume`。\n\n### CLAUDE.md を自己改善させる\n\nClaudeがミスをしたら修正し、「そのミスを繰り返さないルールをCLAUDE.mdに追加してください。」と指示。Claudeがルールを提案し、承認するとファイルを編集。次回セッションで自動的にルールが読み込まれます。四半期ごとに整理。\n\n### スキルをカスタマイズ\n\nスキルには汎用例が付属。自社製品の実例に置き換えましょう。チームの速度を理解したスプリントプランナーは、常に汎用的なものより優れています。\n\n### 実際のアーティファクトを投入\n\nSlackのスレッドを説明せずに貼り付けてください。ユーザーインタビューを要約せずに、トランスクリプトを貼り付けます。スキルは散らかった情報を抽出・構造化します。生の入力が最高の出力を生みます。\n\n### クイックリファレンス\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "/hooks または .claude/settings.json で設定します。終了コード0 = 続行、終了コード2 = フィードバック付きでブロック。"
+      },
+      {
+        "row": 2,
+        "rowsha": "WMn+glnuQISmgcKudWwO9RbbQNUzneaeWbz2Lhko8jA=",
+        "originContent": "Configure via `/hooks` or `.claude/settings.json`. Exit code 0 = proceed, exit code 2 = block with feedback.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### セッション管理"
+      },
+      {
+        "row": 4,
+        "rowsha": "f4HMt8sqQbu+XgDArwC8sqh9I6oeidcjyyI/qO7xKXQ=",
+        "originContent": "### Session Management",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **無関係なタスク間は `/clear` を使用。** コンテキストの混在は品質低下の最大要因です。"
+      },
+      {
+        "row": 6,
+        "rowsha": "1W41SjebJotCjO1pSMTx9vxGk4n03UrsAI+nWg4+6KQ=",
+        "originContent": "- **`/clear` between unrelated tasks.** Context bleed is the #1 quality killer.",
+        "translatedContent": "- **会話は約50回のやり取りで制限。** これを超えると品質が低下します。"
+      },
+      {
+        "row": 7,
+        "rowsha": "3aslW3OwCv6UDyK5D31ONc/ua6Zqo8XXbajAC4CbKCM=",
+        "originContent": "- **Cap conversations at ~50 exchanges.** Quality degrades past this.",
+        "translatedContent": "- **ハンドオフを活用。** 長いセッションを終える前に：「HANDOFF.mdを書いてください。」次のセッションで：「@HANDOFF.md を読み、続行してください。」"
+      },
+      {
+        "row": 8,
+        "rowsha": "FXOXzJ8W7TtNBvpO9y4dYrN0/AUViZm0AH5lMikSfVA=",
+        "originContent": "- **Use handoffs.** Before ending a long session: \"Write a HANDOFF.md.\" Next session: \"Read @HANDOFF.md and continue.\"",
+        "translatedContent": "- **並行セッションを実行。** 複数のターミナルで、それぞれ独立したClaudeインスタンスとコンテキストウィンドウを使用。"
+      },
+      {
+        "row": 9,
+        "rowsha": "72Wf8FhILFgLne3ZB3yuoVB9clUhlmvHrwFiDNR1SDY=",
+        "originContent": "- **Run parallel sessions.** Multiple terminals, each with its own Claude instance and context window.",
+        "translatedContent": "- **セッションを再開。** 最後のセッションは `claude --continue`、履歴から選択するには `claude --resume`。"
+      },
+      {
+        "row": 10,
+        "rowsha": "fWWGVLZe+y6vdc/6wBpNFYhw6QZpjU0uH/By2QG8P3U=",
+        "originContent": "- **Resume sessions.** `claude --continue` for last session, `claude --resume` to pick from history.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### CLAUDE.md を自己改善させる"
+      },
+      {
+        "row": 12,
+        "rowsha": "vJH8/IeEjiwRXHPVfyDS463SgwjPqSNtiNrtelVK11M=",
+        "originContent": "### Make CLAUDE.md Self-Improving",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Claudeがミスをしたら修正し、「そのミスを繰り返さないルールをCLAUDE.mdに追加してください。」と指示。Claudeがルールを提案し、承認するとファイルを編集。次回セッションで自動的にルールが読み込まれます。四半期ごとに整理。"
+      },
+      {
+        "row": 14,
+        "rowsha": "jgu/6Jw1B5gY5dX5K/mjyyKUJzz5LNvZZ5vzjypvHS8=",
+        "originContent": "When Claude makes a mistake, correct it, then: \"Add a rule to CLAUDE.md so you don't make that mistake again.\" Claude proposes the rule, you approve, it edits the file. Next session, the rule is loaded automatically. Prune quarterly.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### スキルをカスタマイズ"
+      },
+      {
+        "row": 16,
+        "rowsha": "AjvkiJLl0lNu6ra53PYbBOaY/BtCEgKZQa+9ePRnXkg=",
+        "originContent": "### Customize the Skills",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "スキルには汎用例が付属。自社製品の実例に置き換えましょう。チームの速度を理解したスプリントプランナーは、常に汎用的なものより優れています。"
+      },
+      {
+        "row": 18,
+        "rowsha": "a3VudYP5A8Qq6gnO4Uw3DyTXb28DeGoNuUrclAt1rIg=",
+        "originContent": "Skills ship with generic examples. Replace them with real examples from your product. A sprint planner that knows your team's velocity outperforms a generic one every time.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 実際のアーティファクトを投入"
+      },
+      {
+        "row": 20,
+        "rowsha": "sWrcLMBGXjy7PLH5G3QcqQLKViBtK5CwHKYJLhbqceY=",
+        "originContent": "### Feed in Real Artifacts",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Slackのスレッドを説明せずに貼り付けてください。ユーザーインタビューを要約せずに、トランスクリプトを貼り付けます。スキルは散らかった情報を抽出・構造化します。生の入力が最高の出力を生みます。"
+      },
+      {
+        "row": 22,
+        "rowsha": "aWNHWrq29eo1buefau3fLIGhlTUmTTBZJg/tkupxW2Q=",
+        "originContent": "Don't describe your Slack thread — paste it. Don't summarize the user interview — paste the transcript. Skills extract and structure messy information; raw inputs produce the best output.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### クイックリファレンス"
+      },
+      {
+        "row": 24,
+        "rowsha": "2Y61FiCoxLSz0eD5UmKvlQl71Tdlg/ifahj410CHsPA=",
+        "originContent": "### Quick Reference",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\n/clear              Reset context (CLAUDE.md reloads automatically)\n/hooks              Configure automation hooks\n/init               Generate a starter CLAUDE.md from your project\n/permissions        Set tool access rules\nShift+Tab           Toggle Plan Mode\nEsc                 Cancel current generation\nclaude --continue   Resume last session\nclaude --resume     Pick a specific past session\nclaude -p \"prompt\"  Non-interactive single prompt\n```",
+    "ContentSha": "eiK4p/cVLy134HT00R5D4+9+ijMGUhoH8AuFPblb/+U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n/clear              Reset context (CLAUDE.md reloads automatically)\n/hooks              Configure automation hooks\n/init               Generate a starter CLAUDE.md from your project\n/permissions        Set tool access rules\nShift+Tab           Toggle Plan Mode\nEsc                 Cancel current generation\nclaude --continue   Resume last session\nclaude --resume     Pick a specific past session\nclaude -p \"prompt\"  Non-interactive single prompt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "XGvJHTnaz2mkOqiPDOjiYk8atuINEzMY7SI8ZB6DddU=",
+        "originContent": "/clear              Reset context (CLAUDE.md reloads automatically)",
+        "translatedContent": "/clear              Reset context (CLAUDE.md reloads automatically)"
+      },
+      {
+        "row": 3,
+        "rowsha": "zmp3ol+N+d7+wFpLVbn4tVXILY5n9fnegozXwWbPXLc=",
+        "originContent": "/hooks              Configure automation hooks",
+        "translatedContent": "/hooks              Configure automation hooks"
+      },
+      {
+        "row": 4,
+        "rowsha": "qpu6pLZWUwBl/WbEpntYLh/Og2RVNZbLW570QQSfP9A=",
+        "originContent": "/init               Generate a starter CLAUDE.md from your project",
+        "translatedContent": "/init               Generate a starter CLAUDE.md from your project"
+      },
+      {
+        "row": 5,
+        "rowsha": "SYMf01/Z+eJjpJRaW6FJaetQ4Jln9pwEwwYapPwXCb0=",
+        "originContent": "/permissions        Set tool access rules",
+        "translatedContent": "/permissions        Set tool access rules"
+      },
+      {
+        "row": 6,
+        "rowsha": "em4vjNmHt1UQGZzsbnpoKPGSi0gLYkr2HkZU97nX7gs=",
+        "originContent": "Shift+Tab           Toggle Plan Mode",
+        "translatedContent": "Shift+Tab           Toggle Plan Mode"
+      },
+      {
+        "row": 7,
+        "rowsha": "i2PR8E5RQY9ONwmUqT9qO/5TeOZVampBJYQzArtFa9o=",
+        "originContent": "Esc                 Cancel current generation",
+        "translatedContent": "Esc                 Cancel current generation"
+      },
+      {
+        "row": 8,
+        "rowsha": "M/FVcXwdXPjbIjGnayC6Dc4Cgg+aA2ZnSBT6chFUyuo=",
+        "originContent": "claude --continue   Resume last session",
+        "translatedContent": "claude --continue   Resume last session"
+      },
+      {
+        "row": 9,
+        "rowsha": "LgLXCwCg4cFKeBngHug8mdBc+R2HnOp2mzT1KOGpc+A=",
+        "originContent": "claude --resume     Pick a specific past session",
+        "translatedContent": "claude --resume     Pick a specific past session"
+      },
+      {
+        "row": 10,
+        "rowsha": "5iv6JFNH6c7FtGQr7VNAoSvAZ4dlfdRWQDTZ8kxYb5I=",
+        "originContent": "claude -p \"prompt\"  Non-interactive single prompt",
+        "translatedContent": "claude -p \"prompt\"  Non-interactive single prompt"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n---\n\n## Want the Full Setup?\n\nThis setup covers the core PM workflow. The full PM OS covers every PM task I run daily:\n\n- 41+ custom skills for every PM task\n- 7 sub-agent perspectives (engineer, designer, executive, skeptic, customer, data analyst, legal)\n- Context library with your OKRs, terminology, and team structure\n- Templates for launches, roadmaps, retros, and sprint planning\n- Hooks for automated spell-checking and file protection\n\n**[Get the full PM Operating System →](https://www.news.aakashg.com/p/pm-os)**\n\n---\n\nBuilt by [Aakash Gupta](https://www.aakashg.com) | [Product Growth Newsletter](https://www.news.aakashg.com)\n\n---\n\n## Troubleshooting\n\nCommon issues and fixes.\n\n### Claude doesn't seem to follow my CLAUDE.md instructions\n\n- **Check file location.** CLAUDE.md must be in your project root (the directory where you run `claude`). Claude Code loads it automatically from the working directory.\n- **Check file size.** Beyond ~150 lines, Claude starts ignoring instructions. Prune aggressively. Move domain knowledge into skills.\n- **Check for conflicting instructions.** Contradictory rules produce unpredictable behavior. Audit for conflicts.\n- **Restart the session.** Run `/clear` or start a new terminal. Claude loads CLAUDE.md at session start.\n\n### Skills aren't triggering\n\n- **Verify the path.** Skills must be at `.claude/skills/<skill-name>/SKILL.md` (exact casing matters).\n- **Check the trigger.** The SKILL.md needs a clear trigger phrase that matches how you're asking. If your SKILL.md says \"triggers when user asks to write a PRD\" but you say \"draft a spec,\" Claude may not connect them.\n- **Test with an explicit request.** Try: \"Use the prd-writer skill to write a PRD for X.\" If that works but natural language doesn't, refine your trigger description.\n- **Check that SKILL.md isn't empty or malformed.** Open it and verify it has content.\n\n### Claude forgets context mid-conversation",
+    "ContentSha": "413ZGRBrDpTlMDvzgqfeEsnzIvNyoqBOUEHQlciOjQ0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## フルセットアップが欲しいですか？\n\nこのセットアップはコアのPMワークフローをカバーしています。フルPM OSは私が毎日実行するすべてのPMタスクをカバーします：\n\n- 41以上のカスタムスキルがすべてのPMタスクに対応\n- 7つのサブエージェント視点（エンジニア、デザイナー、経営陣、懐疑主義者、顧客、データアナリスト、法務）\n- OKR、用語集、チーム構成のコンテキストライブラリ\n- ローンチ、ロードマップ、レトロスペクティブ、スプリント計画のテンプレート\n- 自動スペルチェックとファイル保護のフック\n\n**[フルPMオペレーティングシステムを入手する →](https://www.news.aakashg.com/p/pm-os)**\n\n---\n\n[Aakash Gupta](https://www.aakashg.com) 作成 | [プロダクト成長ニュースレター](https://www.news.aakashg.com)\n\n---\n\n## トラブルシューティング\n\nよくある問題と解決策。\n\n### ClaudeがCLAUDE.mdの指示に従わないようです\n\n- **ファイルの場所を確認してください。** CLAUDE.mdはプロジェクトのルート（`claude`を実行するディレクトリ）に置く必要があります。Claude Codeは作業ディレクトリから自動的に読み込みます。\n- **ファイルサイズを確認してください。** 約150行を超えるとClaudeは指示を無視し始めます。積極的に整理してください。ドメイン知識はスキルに移動しましょう。\n- **矛盾する指示がないか確認してください。** 矛盾したルールは予測不可能な動作を引き起こします。矛盾を監査してください。\n- **セッションを再起動してください。** `/clear`を実行するか、新しいターミナルを開始してください。Claudeはセッション開始時にCLAUDE.mdを読み込みます。\n\n### スキルが起動しない\n\n- **パスを確認してください。** スキルは`.claude/skills/<skill-name>/SKILL.md`にある必要があります（大文字・小文字も正確に）。\n- **トリガーを確認してください。** SKILL.mdには、あなたの問いかけと一致する明確なトリガーフレーズが必要です。もしSKILL.mdが「ユーザーがPRDの作成を依頼したときに起動」と書いていて、あなたが「仕様書を作成して」と言うと、Claudeは結びつけられないかもしれません。\n- **明示的なリクエストでテストしてください。** 例：「prd-writerスキルを使ってXのPRDを書いてください。」これで動作するが自然な言葉で動かない場合は、トリガーの説明を改善しましょう。\n- **SKILL.mdが空または不正でないか確認してください。** 開いて内容を確認しましょう。\n\n### Claudeが会話途中でコンテキストを忘れる",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "HvHvvPnM4R44ZiVpcCaPUTJ29cHJUn5NcQM+n4v2Frg=",
+        "originContent": "## Want the Full Setup?",
+        "translatedContent": "## フルセットアップが欲しいですか？"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "YUIxTMYzdcmuKisJp6/526ZjFxpSAFojtg9y9LX71Tw=",
+        "originContent": "This setup covers the core PM workflow. The full PM OS covers every PM task I run daily:",
+        "translatedContent": "このセットアップはコアのPMワークフローをカバーしています。フルPM OSは私が毎日実行するすべてのPMタスクをカバーします："
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "LEuvnUmVI92FSLX14F3InJdG5+pj53Y2JgQQJc9GtLQ=",
+        "originContent": "- 41+ custom skills for every PM task",
+        "translatedContent": "- 41以上のカスタムスキルがすべてのPMタスクに対応"
+      },
+      {
+        "row": 9,
+        "rowsha": "vPK24UJRWAGkXH6R0p0PrsPor6t/M4ILJKpopDgc4sY=",
+        "originContent": "- 7 sub-agent perspectives (engineer, designer, executive, skeptic, customer, data analyst, legal)",
+        "translatedContent": "- 7つのサブエージェント視点（エンジニア、デザイナー、経営陣、懐疑主義者、顧客、データアナリスト、法務）"
+      },
+      {
+        "row": 10,
+        "rowsha": "Ap2MPGBD7gIiQC57wqYHxy4RXcCn5U6iI8J1UjHtJNA=",
+        "originContent": "- Context library with your OKRs, terminology, and team structure",
+        "translatedContent": "- OKR、用語集、チーム構成のコンテキストライブラリ"
+      },
+      {
+        "row": 11,
+        "rowsha": "9OWJrVmsRui66b4vK06zM30+u9XqGQN3vr1cf4utsBI=",
+        "originContent": "- Templates for launches, roadmaps, retros, and sprint planning",
+        "translatedContent": "- ローンチ、ロードマップ、レトロスペクティブ、スプリント計画のテンプレート"
+      },
+      {
+        "row": 12,
+        "rowsha": "pSDII9UiTsMKKRNxN5XFQ1BzD4U1xZ4lf+kTyiCg+0w=",
+        "originContent": "- Hooks for automated spell-checking and file protection",
+        "translatedContent": "- 自動スペルチェックとファイル保護のフック"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "2hLe08fXRDkTOaqyaXrjbxrwyC5kEnTtC52U0VtV2Gc=",
+        "originContent": "**[Get the full PM Operating System →](https://www.news.aakashg.com/p/pm-os)**",
+        "translatedContent": "**[フルPMオペレーティングシステムを入手する →](https://www.news.aakashg.com/p/pm-os)**"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "LlUq5mII/vdvBkeqlm15d7JBPoPimqCsGeSTzZtlJvI=",
+        "originContent": "Built by [Aakash Gupta](https://www.aakashg.com) | [Product Growth Newsletter](https://www.news.aakashg.com)",
+        "translatedContent": "[Aakash Gupta](https://www.aakashg.com) 作成 | [プロダクト成長ニュースレター](https://www.news.aakashg.com)"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+        "originContent": "## Troubleshooting",
+        "translatedContent": "## トラブルシューティング"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "Op37KxHVifRTLnAbBEr9s8ByTP68MWRZ04+dLcJQjeY=",
+        "originContent": "Common issues and fixes.",
+        "translatedContent": "よくある問題と解決策。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "HJ4EoFeDe5URZd21fRqkytGeHulfhxdpc1bYkR8RT28=",
+        "originContent": "### Claude doesn't seem to follow my CLAUDE.md instructions",
+        "translatedContent": "### ClaudeがCLAUDE.mdの指示に従わないようです"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "JFbCniusKhUV6PS/NGC7q0fIXA4NupxfAx4GrZ5WAUA=",
+        "originContent": "- **Check file location.** CLAUDE.md must be in your project root (the directory where you run `claude`). Claude Code loads it automatically from the working directory.",
+        "translatedContent": "- **ファイルの場所を確認してください。** CLAUDE.mdはプロジェクトのルート（`claude`を実行するディレクトリ）に置く必要があります。Claude Codeは作業ディレクトリから自動的に読み込みます。"
+      },
+      {
+        "row": 29,
+        "rowsha": "P4EvVD/nJd5adE+3j5hWdIQ96wt8y5ROd2Bz7Eq9eO8=",
+        "originContent": "- **Check file size.** Beyond ~150 lines, Claude starts ignoring instructions. Prune aggressively. Move domain knowledge into skills.",
+        "translatedContent": "- **ファイルサイズを確認してください。** 約150行を超えるとClaudeは指示を無視し始めます。積極的に整理してください。ドメイン知識はスキルに移動しましょう。"
+      },
+      {
+        "row": 30,
+        "rowsha": "gEMrxy3k+ZnAyAWr6uQbWC0c1vpNmAE6yJ1BjKOWahI=",
+        "originContent": "- **Check for conflicting instructions.** Contradictory rules produce unpredictable behavior. Audit for conflicts.",
+        "translatedContent": "- **矛盾する指示がないか確認してください。** 矛盾したルールは予測不可能な動作を引き起こします。矛盾を監査してください。"
+      },
+      {
+        "row": 31,
+        "rowsha": "WgAwPNXoXqgPX7xoEMD8OzdmqMaDvqp3hUmn5teBmoU=",
+        "originContent": "- **Restart the session.** Run `/clear` or start a new terminal. Claude loads CLAUDE.md at session start.",
+        "translatedContent": "- **セッションを再起動してください。** `/clear`を実行するか、新しいターミナルを開始してください。Claudeはセッション開始時にCLAUDE.mdを読み込みます。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "3fYuRNQYdJ+Qp1t8MEO2Du9tMxv+oU8U22Xj7jLHVwY=",
+        "originContent": "### Skills aren't triggering",
+        "translatedContent": "### スキルが起動しない"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "E68LtXSKk7HdL+1stwyxFDVnT9M75w/ff7+yLlVNsL8=",
+        "originContent": "- **Verify the path.** Skills must be at `.claude/skills/<skill-name>/SKILL.md` (exact casing matters).",
+        "translatedContent": "- **パスを確認してください。** スキルは`.claude/skills/<skill-name>/SKILL.md`にある必要があります（大文字・小文字も正確に）。"
+      },
+      {
+        "row": 36,
+        "rowsha": "nHqYMYoI4cwByFIyaqdTT/ge6Ai3tF5KGTsmFgZIhis=",
+        "originContent": "- **Check the trigger.** The SKILL.md needs a clear trigger phrase that matches how you're asking. If your SKILL.md says \"triggers when user asks to write a PRD\" but you say \"draft a spec,\" Claude may not connect them.",
+        "translatedContent": "- **トリガーを確認してください。** SKILL.mdには、あなたの問いかけと一致する明確なトリガーフレーズが必要です。もしSKILL.mdが「ユーザーがPRDの作成を依頼したときに起動」と書いていて、あなたが「仕様書を作成して」と言うと、Claudeは結びつけられないかもしれません。"
+      },
+      {
+        "row": 37,
+        "rowsha": "uavuW0Pu2eezLCQ0Epeo0OzKg1QGJH27X80w1dl24WA=",
+        "originContent": "- **Test with an explicit request.** Try: \"Use the prd-writer skill to write a PRD for X.\" If that works but natural language doesn't, refine your trigger description.",
+        "translatedContent": "- **明示的なリクエストでテストしてください。** 例：「prd-writerスキルを使ってXのPRDを書いてください。」これで動作するが自然な言葉で動かない場合は、トリガーの説明を改善しましょう。"
+      },
+      {
+        "row": 38,
+        "rowsha": "ars5xTMozm2mpXjFHPb2V/bAzZDFO2D5unFKpyvNBCA=",
+        "originContent": "- **Check that SKILL.md isn't empty or malformed.** Open it and verify it has content.",
+        "translatedContent": "- **SKILL.mdが空または不正でないか確認してください。** 開いて内容を確認しましょう。"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "PMTf5ovMZI/EYyGOsH8sAznu/4TQWk1OOKM2d6/vryA=",
+        "originContent": "### Claude forgets context mid-conversation",
+        "translatedContent": "### Claudeが会話途中でコンテキストを忘れる"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "\n- **Context limits.** Long conversations degrade after ~50 exchanges. Use `/clear` and start fresh with a summary.\n- **Use handoffs.** Before clearing, have Claude write a HANDOFF.md summarizing state, decisions, and next steps. Start the new session with \"Read @HANDOFF.md and continue.\"\n- **Avoid pasting huge docs.** Use `@` references instead of pasting entire documents into chat.\n\n### Hooks aren't running\n\n- **Check `.claude/settings.json`.** Hooks are configured there, not in CLAUDE.md.\n- **Check exit codes.** Hooks use exit 0 (proceed) and exit 2 (block + feedback). Other exit codes may cause unexpected behavior.\n- **Check permissions.** Hook scripts need to be executable (`chmod +x`).\n\n### MCP servers won't connect\n\n- **Verify credentials.** Most MCP servers require API keys or OAuth tokens. Confirm yours are current.\n- **Check server config.** MCP connections are configured in Claude Code settings, not CLAUDE.md. CLAUDE.md only documents them for reference.\n- **Restart Claude Code.** MCP connections initialize at startup.\n\n### \"I changed CLAUDE.md but nothing changed\"\n\nClaude reads CLAUDE.md at session start. Mid-session edits require a reload:\n1. Run `/clear` to reset context (CLAUDE.md reloads automatically)\n2. Or start a new terminal session\n",
+    "ContentSha": "w7LXWUFKCXH1jMBLpFIDCL0R/dWX9bLsYaISfMouy4M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **コンテキスト制限。** 長い会話は約50回のやり取り後に劣化します。`/clear` を使って要約とともに新しく始めてください。  \n- **ハンドオフを使う。** クリアする前に、ClaudeにHANDOFF.mdを作成させて状態、決定事項、次のステップをまとめさせてください。新しいセッションは「Read @HANDOFF.md and continue.」で始めます。  \n- **巨大なドキュメントを貼り付けない。** チャットに全文を貼るのではなく、`@`参照を使ってください。  \n\n### フックが動作しない場合  \n\n- **`.claude/settings.json`を確認。** フックはそこに設定されており、CLAUDE.mdにはありません。  \n- **終了コードを確認。** フックはexit 0（続行）とexit 2（ブロック＋フィードバック）を使います。他の終了コードは予期しない動作を引き起こす可能性があります。  \n- **権限を確認。** フックスクリプトは実行可能である必要があります（`chmod +x`）。  \n\n### MCPサーバーが接続できない場合  \n\n- **認証情報を確認。** 多くのMCPサーバーはAPIキーやOAuthトークンを必要とします。現在のものか確認してください。  \n- **サーバー設定を確認。** MCP接続はClaude Codeの設定で行い、CLAUDE.mdでは参照用にのみ記述されています。  \n- **Claude Codeを再起動。** MCP接続は起動時に初期化されます。  \n\n### 「CLAUDE.mdを変更したが何も変わらない」  \n\nClaudeはセッション開始時にCLAUDE.mdを読み込みます。セッション中の編集はリロードが必要です：  \n1. `/clear`を実行してコンテキストをリセット（CLAUDE.mdは自動で再読み込みされます）  \n2. または新しいターミナルセッションを開始\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **コンテキスト制限。** 長い会話は約50回のやり取り後に劣化します。`/clear` を使って要約とともに新しく始めてください。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "gwAnECtxrZcaU4rUjln0A4HvahSf56mvhYpSfiJftS0=",
+        "originContent": "- **Context limits.** Long conversations degrade after ~50 exchanges. Use `/clear` and start fresh with a summary.",
+        "translatedContent": "- **ハンドオフを使う。** クリアする前に、ClaudeにHANDOFF.mdを作成させて状態、決定事項、次のステップをまとめさせてください。新しいセッションは「Read @HANDOFF.md and continue.」で始めます。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "8nkeMMgOWp84c+sXDes2Uea/GT4xZVii2i1rs+frmo4=",
+        "originContent": "- **Use handoffs.** Before clearing, have Claude write a HANDOFF.md summarizing state, decisions, and next steps. Start the new session with \"Read @HANDOFF.md and continue.\"",
+        "translatedContent": "- **巨大なドキュメントを貼り付けない。** チャットに全文を貼るのではなく、`@`参照を使ってください。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "+mELO6wA05DrgHztxnLCAcUMS7cWsZ61dkCsknA1YY0=",
+        "originContent": "- **Avoid pasting huge docs.** Use `@` references instead of pasting entire documents into chat.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### フックが動作しない場合  "
+      },
+      {
+        "row": 6,
+        "rowsha": "0vq/XoOROSYJx9FugIYak2Kpzf0RZilSvr8O2Lcjee0=",
+        "originContent": "### Hooks aren't running",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **`.claude/settings.json`を確認。** フックはそこに設定されており、CLAUDE.mdにはありません。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "M0x6zs8XeQn5tqMXPYhNZE88vW6Rgn3sYa07UwELoAA=",
+        "originContent": "- **Check `.claude/settings.json`.** Hooks are configured there, not in CLAUDE.md.",
+        "translatedContent": "- **終了コードを確認。** フックはexit 0（続行）とexit 2（ブロック＋フィードバック）を使います。他の終了コードは予期しない動作を引き起こす可能性があります。  "
+      },
+      {
+        "row": 9,
+        "rowsha": "c9vAs2jkaVAPriw9Vko95JBmU+ZRfXheNu6WbEmG3Vo=",
+        "originContent": "- **Check exit codes.** Hooks use exit 0 (proceed) and exit 2 (block + feedback). Other exit codes may cause unexpected behavior.",
+        "translatedContent": "- **権限を確認。** フックスクリプトは実行可能である必要があります（`chmod +x`）。  "
+      },
+      {
+        "row": 10,
+        "rowsha": "CxGvWOn8jQnyRhNwYrQer1AMcTWbv+7bQ0DogD1mEH0=",
+        "originContent": "- **Check permissions.** Hook scripts need to be executable (`chmod +x`).",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### MCPサーバーが接続できない場合  "
+      },
+      {
+        "row": 12,
+        "rowsha": "85uFiyuosiMb/JC8a+tzf5XP2sc1KLk0MGuULn7pWIg=",
+        "originContent": "### MCP servers won't connect",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **認証情報を確認。** 多くのMCPサーバーはAPIキーやOAuthトークンを必要とします。現在のものか確認してください。  "
+      },
+      {
+        "row": 14,
+        "rowsha": "N3+fI9bE6ZdNhvUnKlkkT7UMSEg+TkprzdtKH7WXx2Y=",
+        "originContent": "- **Verify credentials.** Most MCP servers require API keys or OAuth tokens. Confirm yours are current.",
+        "translatedContent": "- **サーバー設定を確認。** MCP接続はClaude Codeの設定で行い、CLAUDE.mdでは参照用にのみ記述されています。  "
+      },
+      {
+        "row": 15,
+        "rowsha": "bfPh8YJD2zzvA45rMrntGCujPOxzypMLsTPMDVIoA+A=",
+        "originContent": "- **Check server config.** MCP connections are configured in Claude Code settings, not CLAUDE.md. CLAUDE.md only documents them for reference.",
+        "translatedContent": "- **Claude Codeを再起動。** MCP接続は起動時に初期化されます。  "
+      },
+      {
+        "row": 16,
+        "rowsha": "rl97YKideu1Xj1d4dllyihWh+AgctPwiH1gOm2Ux2Ac=",
+        "originContent": "- **Restart Claude Code.** MCP connections initialize at startup.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 「CLAUDE.mdを変更したが何も変わらない」  "
+      },
+      {
+        "row": 18,
+        "rowsha": "13SoBxTzYx1rA6xxz2IJyNd7FNMJTPmCf8mu4mkmZxI=",
+        "originContent": "### \"I changed CLAUDE.md but nothing changed\"",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Claudeはセッション開始時にCLAUDE.mdを読み込みます。セッション中の編集はリロードが必要です：  "
+      },
+      {
+        "row": 20,
+        "rowsha": "iSfEDjoezdL7L8J5lnYPqyPI5nLI/cNv052vbYBgO5w=",
+        "originContent": "Claude reads CLAUDE.md at session start. Mid-session edits require a reload:",
+        "translatedContent": "1. `/clear`を実行してコンテキストをリセット（CLAUDE.mdは自動で再読み込みされます）  "
+      },
+      {
+        "row": 21,
+        "rowsha": "NgY1G883YWyvT0kWttqaxdggf2JwTbdSXoETon5yp50=",
+        "originContent": "1. Run `/clear` to reset context (CLAUDE.md reloads automatically)",
+        "translatedContent": "2. または新しいターミナルセッションを開始"
+      },
+      {
+        "row": 22,
+        "rowsha": "4CtRbofA4R9Xe6Ig3HjyPufd2dPECA0wayHBtonYGJA=",
+        "originContent": "2. Or start a new terminal session",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

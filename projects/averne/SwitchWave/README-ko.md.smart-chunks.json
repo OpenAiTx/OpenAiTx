@@ -1,0 +1,433 @@
+[
+  {
+    "Id": 1,
+    "Content": "# <img src=\"https://github.com/user-attachments/assets/b81b9503-948e-4cba-b0a1-f5f809588aad\" width=\"48\"> SwitchWave\nA hardware-accelerated media player for the Nintendo Switch, built on mpv and FFmpeg.\n\n## Features\n- Custom hardware acceleration backend for FFmpeg, with dynamic frequency scaling. The following codecs can be decoded:\n    - MPEG1/2/4\n    - VC1\n    - H.264/AVC (10+ bit not supported by hardware)\n    - H.265/HEVC (12+ bit not supported by hardware)\n    - VP8\n    - VP9 (10+ bit not supported by hardware)\n- Custom graphics backend for mpv using [deko3d](https://github.com/devkitPro/deko3d), supporting:\n    - Playback at 4k60fps\n    - Direct rendering (faster software decoding)\n    - Custom post-processing shaders\n- Custom audio backend for mpv using native Nintendo APIs, supporting layouts up to 5.1 surround\n- Network playback through HTTP/S, Samba, NFS or SFTP\n- External drive support using [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)\n- Rich and responsive user interface, even under load\n\n## Screenshots\n\n<p float=\"center\">\n    <img src=\"https://github.com/user-attachments/assets/09aed446-148a-4276-8b07-336890c224a3\" width=\"413\" />\n    <img src=\"https://github.com/user-attachments/assets/6e354511-47bc-4898-881c-348d5a9e6fbc\" width=\"413\" />\n    <img src=\"https://github.com/user-attachments/assets/b86eb7c6-4229-46c6-8709-86d1a6ee8eed\" width=\"413\" />\n    <img src=\"https://github.com/user-attachments/assets/70f4be3e-fa1e-434a-b76c-4fb6b671f80e\" width=\"413\" />\n</p>\n\n## Setup\n- Download the [latest release](https://github.com/averne/SwitchWave/releases/latest), and extract it to the root of your sd card (be careful to merge and not overwrite folders)\n- Network shares can be configured through the app, as can mpv settings via the built-in editor (refer to the [manual](https://mpv.io/manual/master/))\n- Most relevant runtime parameters can be dynamically adjusted during playback through the menu, or failing that, the console ([manual](https://mpv.io/manual/master/#console))\n\n## Building\n\n### Docker (recommended)",
+    "ContentSha": "qJYHAmuY8RlUCC+Uf/EfbyEaRXuNMZlTQ9CdGtOcbJ0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# <img src=\"https://github.com/user-attachments/assets/b81b9503-948e-4cba-b0a1-f5f809588aad\" width=\"48\"> SwitchWave\n닌텐도 스위치를 위한 하드웨어 가속 미디어 플레이어로, mpv와 FFmpeg를 기반으로 제작되었습니다.\n\n## 기능\n- FFmpeg용 맞춤 하드웨어 가속 백엔드, 동적 주파수 조절 기능 포함. 다음 코덱을 디코딩할 수 있습니다:\n    - MPEG1/2/4\n    - VC1\n    - H.264/AVC (하드웨어에서 10비트 이상 미지원)\n    - H.265/HEVC (하드웨어에서 12비트 이상 미지원)\n    - VP8\n    - VP9 (하드웨어에서 10비트 이상 미지원)\n- [deko3d](https://github.com/devkitPro/deko3d)를 사용한 mpv용 맞춤 그래픽 백엔드, 지원 내용:\n    - 4k60fps 재생\n    - 직접 렌더링 (더 빠른 소프트웨어 디코딩)\n    - 맞춤 후처리 셰이더\n- 닌텐도 네이티브 API를 사용한 mpv용 맞춤 오디오 백엔드, 최대 5.1 서라운드 레이아웃 지원\n- HTTP/S, Samba, NFS 또는 SFTP를 통한 네트워크 재생 지원\n- [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)를 이용한 외장 드라이브 지원\n- 부하가 심한 상황에서도 풍부하고 반응성 좋은 사용자 인터페이스 제공\n\n## 스크린샷\n\n<p float=\"center\">\n    <img src=\"https://github.com/user-attachments/assets/09aed446-148a-4276-8b07-336890c224a3\" width=\"413\" />\n    <img src=\"https://github.com/user-attachments/assets/6e354511-47bc-4898-881c-348d5a9e6fbc\" width=\"413\" />\n    <img src=\"https://github.com/user-attachments/assets/b86eb7c6-4229-46c6-8709-86d1a6ee8eed\" width=\"413\" />\n    <img src=\"https://github.com/user-attachments/assets/70f4be3e-fa1e-434a-b76c-4fb6b671f80e\" width=\"413\" />\n</p>\n\n## 설치\n- [최신 릴리즈](https://github.com/averne/SwitchWave/releases/latest)를 다운로드한 후, SD 카드 루트에 압축을 풉니다 (폴더를 덮어쓰지 않고 병합되도록 주의하세요)\n- 네트워크 공유는 앱 내에서 설정할 수 있으며, mpv 설정도 내장 편집기를 통해 조정할 수 있습니다 ([매뉴얼](https://mpv.io/manual/master/) 참고)\n- 대부분의 실행 시간 매개변수는 재생 중 메뉴에서 동적으로 조정 가능하며, 불가능할 경우 콘솔에서 조정할 수 있습니다 ([매뉴얼](https://mpv.io/manual/master/#console))\n\n## 빌드\n\n### 도커 (권장)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UFcH/R7OB0cymDvjK2Dj78gRdDoXD/3bNPBkPDO3FJ0=",
+        "originContent": "# <img src=\"https://github.com/user-attachments/assets/b81b9503-948e-4cba-b0a1-f5f809588aad\" width=\"48\"> SwitchWave",
+        "translatedContent": "# <img src=\"https://github.com/user-attachments/assets/b81b9503-948e-4cba-b0a1-f5f809588aad\" width=\"48\"> SwitchWave"
+      },
+      {
+        "row": 2,
+        "rowsha": "sHBYYRz1hc7lWumyFYKvsbrxZPehVqoQX4VDlBpOvds=",
+        "originContent": "A hardware-accelerated media player for the Nintendo Switch, built on mpv and FFmpeg.",
+        "translatedContent": "닌텐도 스위치를 위한 하드웨어 가속 미디어 플레이어로, mpv와 FFmpeg를 기반으로 제작되었습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 5,
+        "rowsha": "eNJH04OwgOOLYgLsXZ6tSKR92jQMr2IUVNiSfgo41RA=",
+        "originContent": "- Custom hardware acceleration backend for FFmpeg, with dynamic frequency scaling. The following codecs can be decoded:",
+        "translatedContent": "- FFmpeg용 맞춤 하드웨어 가속 백엔드, 동적 주파수 조절 기능 포함. 다음 코덱을 디코딩할 수 있습니다:"
+      },
+      {
+        "row": 6,
+        "rowsha": "b6QdbeXtvDyBN4+e3+RPIcN7fdMvkPKhMBbopjs+Gxg=",
+        "originContent": "    - MPEG1/2/4",
+        "translatedContent": "    - MPEG1/2/4"
+      },
+      {
+        "row": 7,
+        "rowsha": "Sld/DEDWVJM6nnj/sXbVYWlwpPjB8XYD6sm0uGmZ/tg=",
+        "originContent": "    - VC1",
+        "translatedContent": "    - VC1"
+      },
+      {
+        "row": 8,
+        "rowsha": "D14+CbaH854WyLjv6nhNfUlnGb5htCQKUpt6Fq+TCUA=",
+        "originContent": "    - H.264/AVC (10+ bit not supported by hardware)",
+        "translatedContent": "    - H.264/AVC (하드웨어에서 10비트 이상 미지원)"
+      },
+      {
+        "row": 9,
+        "rowsha": "cs9AXWOy0zmCYKX3nV2K7CPUWYjLEnmi25srYD+p638=",
+        "originContent": "    - H.265/HEVC (12+ bit not supported by hardware)",
+        "translatedContent": "    - H.265/HEVC (하드웨어에서 12비트 이상 미지원)"
+      },
+      {
+        "row": 10,
+        "rowsha": "z5o/FlW0rnEfQduR6eBj4/jDhZ/bFw3OxKN84U+GLOo=",
+        "originContent": "    - VP8",
+        "translatedContent": "    - VP8"
+      },
+      {
+        "row": 11,
+        "rowsha": "F2QN4Em0FooJiO3cn2eemWQQ1HrFffCYF8xqpX90qvM=",
+        "originContent": "    - VP9 (10+ bit not supported by hardware)",
+        "translatedContent": "    - VP9 (하드웨어에서 10비트 이상 미지원)"
+      },
+      {
+        "row": 12,
+        "rowsha": "KoGXoQNgi2Vz0hIOVsfXUFlxmdYKhJ8bljLLLrDCvds=",
+        "originContent": "- Custom graphics backend for mpv using [deko3d](https://github.com/devkitPro/deko3d), supporting:",
+        "translatedContent": "- [deko3d](https://github.com/devkitPro/deko3d)를 사용한 mpv용 맞춤 그래픽 백엔드, 지원 내용:"
+      },
+      {
+        "row": 13,
+        "rowsha": "tI07M9SxJdFPPGqwUM8Dtp6JcvAvnqKIsnvcJ8/pWhA=",
+        "originContent": "    - Playback at 4k60fps",
+        "translatedContent": "    - 4k60fps 재생"
+      },
+      {
+        "row": 14,
+        "rowsha": "Ntvi6vH9tJQHVCRIN4i49a/CBRrc6PVkjRNFdHkC0TU=",
+        "originContent": "    - Direct rendering (faster software decoding)",
+        "translatedContent": "    - 직접 렌더링 (더 빠른 소프트웨어 디코딩)"
+      },
+      {
+        "row": 15,
+        "rowsha": "PYnIvCLPXMoyC43fVbvJRqyOStV0oKbSRcqHekbhJmA=",
+        "originContent": "    - Custom post-processing shaders",
+        "translatedContent": "    - 맞춤 후처리 셰이더"
+      },
+      {
+        "row": 16,
+        "rowsha": "Aw18vfIKYHyfYjgS+o3Lg6XwBykngCl9Er9jJqUtH7I=",
+        "originContent": "- Custom audio backend for mpv using native Nintendo APIs, supporting layouts up to 5.1 surround",
+        "translatedContent": "- 닌텐도 네이티브 API를 사용한 mpv용 맞춤 오디오 백엔드, 최대 5.1 서라운드 레이아웃 지원"
+      },
+      {
+        "row": 17,
+        "rowsha": "0EoUgNPBcr63fW0gnZ3qXBVF49URhF2kGOKk0TzcdKE=",
+        "originContent": "- Network playback through HTTP/S, Samba, NFS or SFTP",
+        "translatedContent": "- HTTP/S, Samba, NFS 또는 SFTP를 통한 네트워크 재생 지원"
+      },
+      {
+        "row": 18,
+        "rowsha": "+K8CKlbJSzQVJD9MnA11RiTZ+1YhNtYD+7e9VP5ycks=",
+        "originContent": "- External drive support using [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)",
+        "translatedContent": "- [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)를 이용한 외장 드라이브 지원"
+      },
+      {
+        "row": 19,
+        "rowsha": "Zt27EWjdKu/tZx9T2yKljPg4aLyLzMzPx34V4p/mWtQ=",
+        "originContent": "- Rich and responsive user interface, even under load",
+        "translatedContent": "- 부하가 심한 상황에서도 풍부하고 반응성 좋은 사용자 인터페이스 제공"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "CrQ1XO/et1agLOmJnlaLYfcfQdvL77gCZWQqAUysVwM=",
+        "originContent": "## Screenshots",
+        "translatedContent": "## 스크린샷"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "eDt8JkQvnVdCK9B0TCNqgWKdFtDnU+4YLXSXwTLuMTE=",
+        "originContent": "<p float=\"center\">",
+        "translatedContent": "<p float=\"center\">"
+      },
+      {
+        "row": 24,
+        "rowsha": "wJdYWgYkdPqZz+D2PBUwPCL3s14kJwGMKS0veM2115Q=",
+        "originContent": "    <img src=\"https://github.com/user-attachments/assets/09aed446-148a-4276-8b07-336890c224a3\" width=\"413\" />",
+        "translatedContent": "    <img src=\"https://github.com/user-attachments/assets/09aed446-148a-4276-8b07-336890c224a3\" width=\"413\" />"
+      },
+      {
+        "row": 25,
+        "rowsha": "kD9ZDVBHHH9SKkGHZ/JJJRhODRFGtJ70IXMbKSpccPs=",
+        "originContent": "    <img src=\"https://github.com/user-attachments/assets/6e354511-47bc-4898-881c-348d5a9e6fbc\" width=\"413\" />",
+        "translatedContent": "    <img src=\"https://github.com/user-attachments/assets/6e354511-47bc-4898-881c-348d5a9e6fbc\" width=\"413\" />"
+      },
+      {
+        "row": 26,
+        "rowsha": "xYPwHIqwq8OYN5/d+MBJHP3y0bly8pC0JOqzbnHfnew=",
+        "originContent": "    <img src=\"https://github.com/user-attachments/assets/b86eb7c6-4229-46c6-8709-86d1a6ee8eed\" width=\"413\" />",
+        "translatedContent": "    <img src=\"https://github.com/user-attachments/assets/b86eb7c6-4229-46c6-8709-86d1a6ee8eed\" width=\"413\" />"
+      },
+      {
+        "row": 27,
+        "rowsha": "qqvtyKD0NH3SBkF0/uB4mrCSPW2yFvqzeH4CH7jxSGo=",
+        "originContent": "    <img src=\"https://github.com/user-attachments/assets/70f4be3e-fa1e-434a-b76c-4fb6b671f80e\" width=\"413\" />",
+        "translatedContent": "    <img src=\"https://github.com/user-attachments/assets/70f4be3e-fa1e-434a-b76c-4fb6b671f80e\" width=\"413\" />"
+      },
+      {
+        "row": 28,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+        "originContent": "## Setup",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 31,
+        "rowsha": "NXg7BrESOu//DWXGyS3EjADbzpKdk12fLhTOabvPUqk=",
+        "originContent": "- Download the [latest release](https://github.com/averne/SwitchWave/releases/latest), and extract it to the root of your sd card (be careful to merge and not overwrite folders)",
+        "translatedContent": "- [최신 릴리즈](https://github.com/averne/SwitchWave/releases/latest)를 다운로드한 후, SD 카드 루트에 압축을 풉니다 (폴더를 덮어쓰지 않고 병합되도록 주의하세요)"
+      },
+      {
+        "row": 32,
+        "rowsha": "GKytQguqMVPAXWJsuFs3yTADWYiNy6W4OX4dB9vpCqA=",
+        "originContent": "- Network shares can be configured through the app, as can mpv settings via the built-in editor (refer to the [manual](https://mpv.io/manual/master/))",
+        "translatedContent": "- 네트워크 공유는 앱 내에서 설정할 수 있으며, mpv 설정도 내장 편집기를 통해 조정할 수 있습니다 ([매뉴얼](https://mpv.io/manual/master/) 참고)"
+      },
+      {
+        "row": 33,
+        "rowsha": "HhKOW7/KcNz4Cz0zAm5fdyTnBBUaiP37eHHS9Wjtz4w=",
+        "originContent": "- Most relevant runtime parameters can be dynamically adjusted during playback through the menu, or failing that, the console ([manual](https://mpv.io/manual/master/#console))",
+        "translatedContent": "- 대부분의 실행 시간 매개변수는 재생 중 메뉴에서 동적으로 조정 가능하며, 불가능할 경우 콘솔에서 조정할 수 있습니다 ([매뉴얼](https://mpv.io/manual/master/#console))"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "7yG6yJKPL5cg9brIizwUDQZkeD/r3QuaAXwB7XbI5xs=",
+        "originContent": "## Building",
+        "translatedContent": "## 빌드"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "71hb/LZU83EOsvIH34yQoNjsosEsS9S5ZS5R3U+pf2E=",
+        "originContent": "### Docker (recommended)",
+        "translatedContent": "### 도커 (권장)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\n./build-docker.sh\n```",
+    "ContentSha": "jK4XHxxm+SM0n6RP2mlHC3CRZn8WVVbjAaU8R9A2Y6E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n./build-docker.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Fdm1fWtjnQpEVl1lELXj+d8eXnv95Rs6Vo/Xp61CdYM=",
+        "originContent": "./build-docker.sh",
+        "translatedContent": "./build-docker.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "This builds the toolchain image and compiles everything automatically. Output will be found in `build/`.\n\nTo build with GIMP 3 instead of the default GIMP 2:",
+    "ContentSha": "z5YKNfaTqWq0Xza5erO1vNixsHBcji501353GxQhH5Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "이것은 툴체인 이미지를 빌드하고 모든 것을 자동으로 컴파일합니다. 출력물은 `build/`에 있습니다.\n\n기본 GIMP 2 대신 GIMP 3으로 빌드하려면:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bbt4XFPYBuEpiMizSkqMugPFgcXRHVGk2SLSsz5YIpY=",
+        "originContent": "This builds the toolchain image and compiles everything automatically. Output will be found in `build/`.",
+        "translatedContent": "이것은 툴체인 이미지를 빌드하고 모든 것을 자동으로 컴파일합니다. 출력물은 `build/`에 있습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "mzPYxOND6zMZMLjoN2GbpZE/t8WlRpTyfWdG/DjSZXk=",
+        "originContent": "To build with GIMP 3 instead of the default GIMP 2:",
+        "translatedContent": "기본 GIMP 2 대신 GIMP 3으로 빌드하려면:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh\nGIMP_VERSION=3 ./build-docker.sh\n```",
+    "ContentSha": "FQIntpIPmmlug9z5AYi28qGb2ZDoMfjvnqNqEd2+9Ys=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nGIMP_VERSION=3 ./build-docker.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ld4IkhwaAoW0dnDcd1IsRXr/cc5h6/6wOe2U3SfdMOA=",
+        "originContent": "GIMP_VERSION=3 ./build-docker.sh",
+        "translatedContent": "GIMP_VERSION=3 ./build-docker.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Manual\n- Set up a [devkitpro](https://devkitpro.org/wiki/devkitPro_pacman) environment for Switch homebrew development.\n- Install the following packages: `switch-bzip2`, `switch-dav1d`, `switch-freetype`, `switch-glm`, `switch-harfbuzz`, `switch-libarchive`, `switch-libass`, `switch-libfribidi`, `switch-libjpeg-turbo`, `switch-libpng`, `switch-libwebp`, `switch-curl`, `switch-libssh2`, `switch-mbedtls`, `switch-ntfs-3g` and `switch-lwext4`. In addition, the following build dependencies are required: `switch-pkg-config`, `dkp-meson-scripts`, `dkp-toolchain-vars`, and [GIMP](https://www.gimp.org/) (2 or 3).\n- Compile and install a GPL build of [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs).\n- Compile and install [libsmb2](misc/libsmb2/) and [libnfs](misc/libnfs/).\n- Configure, compile and install FFmpeg: `make configure-ffmpeg && make build-ffmpeg -j$(nproc)`.\n- Configure, compile and install libuam: `make configure-uam && make build-uam`.\n- Configure, compile and install mpv: `make configure-mpv && make build-mpv`.\n- Finally, compile the main application and build the release distribution: `make dist -j$(nproc)`.\n- Output will be found in `build/`.\n\n## Credits\n- [Behemoth](https://github.com/HookedBehemoth) for the screenshot button overriding method.\n",
+    "ContentSha": "Ql/t7YGTnn8DKCGoOUue7FTC+caSBb2DY4n/J6ETO2U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 매뉴얼\n- Switch 홈브류 개발을 위해 [devkitpro](https://devkitpro.org/wiki/devkitPro_pacman) 환경을 설정합니다.\n- 다음 패키지를 설치합니다: `switch-bzip2`, `switch-dav1d`, `switch-freetype`, `switch-glm`, `switch-harfbuzz`, `switch-libarchive`, `switch-libass`, `switch-libfribidi`, `switch-libjpeg-turbo`, `switch-libpng`, `switch-libwebp`, `switch-curl`, `switch-libssh2`, `switch-mbedtls`, `switch-ntfs-3g` 및 `switch-lwext4`. 추가로 다음 빌드 의존성이 필요합니다: `switch-pkg-config`, `dkp-meson-scripts`, `dkp-toolchain-vars`, 그리고 [GIMP](https://www.gimp.org/) (2 또는 3).\n- [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)의 GPL 빌드를 컴파일하고 설치합니다.\n- [libsmb2](misc/libsmb2/)와 [libnfs](misc/libnfs/)를 컴파일하고 설치합니다.\n- FFmpeg를 구성, 컴파일 및 설치합니다: `make configure-ffmpeg && make build-ffmpeg -j$(nproc)`.\n- libuam을 구성, 컴파일 및 설치합니다: `make configure-uam && make build-uam`.\n- mpv를 구성, 컴파일 및 설치합니다: `make configure-mpv && make build-mpv`.\n- 마지막으로, 메인 애플리케이션을 컴파일하고 릴리스 배포판을 빌드합니다: `make dist -j$(nproc)`.\n- 출력 결과는 `build/`에서 확인할 수 있습니다.\n\n## 크레딧\n- 스크린샷 버튼 오버라이딩 방법에 대해 [Behemoth](https://github.com/HookedBehemoth)에게 감사드립니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 매뉴얼"
+      },
+      {
+        "row": 2,
+        "rowsha": "9OG0gmh7hn/goGKXiq1OEJ97bhWCg/x49US2cADdZYc=",
+        "originContent": "### Manual",
+        "translatedContent": "- Switch 홈브류 개발을 위해 [devkitpro](https://devkitpro.org/wiki/devkitPro_pacman) 환경을 설정합니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "FARo4lqf3j5FV+3cRsWxGZUNnkrcR3f+yf1c8Mhkhc4=",
+        "originContent": "- Set up a [devkitpro](https://devkitpro.org/wiki/devkitPro_pacman) environment for Switch homebrew development.",
+        "translatedContent": "- 다음 패키지를 설치합니다: `switch-bzip2`, `switch-dav1d`, `switch-freetype`, `switch-glm`, `switch-harfbuzz`, `switch-libarchive`, `switch-libass`, `switch-libfribidi`, `switch-libjpeg-turbo`, `switch-libpng`, `switch-libwebp`, `switch-curl`, `switch-libssh2`, `switch-mbedtls`, `switch-ntfs-3g` 및 `switch-lwext4`. 추가로 다음 빌드 의존성이 필요합니다: `switch-pkg-config`, `dkp-meson-scripts`, `dkp-toolchain-vars`, 그리고 [GIMP](https://www.gimp.org/) (2 또는 3)."
+      },
+      {
+        "row": 4,
+        "rowsha": "MOyxQnnsolroytFQfdVZ4EeLbk625oUBVfiQ1hY868w=",
+        "originContent": "- Install the following packages: `switch-bzip2`, `switch-dav1d`, `switch-freetype`, `switch-glm`, `switch-harfbuzz`, `switch-libarchive`, `switch-libass`, `switch-libfribidi`, `switch-libjpeg-turbo`, `switch-libpng`, `switch-libwebp`, `switch-curl`, `switch-libssh2`, `switch-mbedtls`, `switch-ntfs-3g` and `switch-lwext4`. In addition, the following build dependencies are required: `switch-pkg-config`, `dkp-meson-scripts`, `dkp-toolchain-vars`, and [GIMP](https://www.gimp.org/) (2 or 3).",
+        "translatedContent": "- [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)의 GPL 빌드를 컴파일하고 설치합니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "v1dQb5v6LrTOjAl+m6ufbq/iFhwMJWLSrdMYv6wsBnQ=",
+        "originContent": "- Compile and install a GPL build of [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs).",
+        "translatedContent": "- [libsmb2](misc/libsmb2/)와 [libnfs](misc/libnfs/)를 컴파일하고 설치합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "I8+Rp3Fn8Y12iuJ/3ExwDF4F3QIsybaLAfMx/Ua2RLs=",
+        "originContent": "- Compile and install [libsmb2](misc/libsmb2/) and [libnfs](misc/libnfs/).",
+        "translatedContent": "- FFmpeg를 구성, 컴파일 및 설치합니다: `make configure-ffmpeg && make build-ffmpeg -j$(nproc)`."
+      },
+      {
+        "row": 7,
+        "rowsha": "46Pcmefto02PbJ/9ES3njdqjf3eAQy0kMAzJM32Opa0=",
+        "originContent": "- Configure, compile and install FFmpeg: `make configure-ffmpeg && make build-ffmpeg -j$(nproc)`.",
+        "translatedContent": "- libuam을 구성, 컴파일 및 설치합니다: `make configure-uam && make build-uam`."
+      },
+      {
+        "row": 8,
+        "rowsha": "HDT7ykLcI2siLfVGJAzDG5/CHli0FjmJPIQZ5MIOqyQ=",
+        "originContent": "- Configure, compile and install libuam: `make configure-uam && make build-uam`.",
+        "translatedContent": "- mpv를 구성, 컴파일 및 설치합니다: `make configure-mpv && make build-mpv`."
+      },
+      {
+        "row": 9,
+        "rowsha": "OyMG8XORNEaZd1tmMi3QI+M74cAVsUOkZCXttjJBymY=",
+        "originContent": "- Configure, compile and install mpv: `make configure-mpv && make build-mpv`.",
+        "translatedContent": "- 마지막으로, 메인 애플리케이션을 컴파일하고 릴리스 배포판을 빌드합니다: `make dist -j$(nproc)`."
+      },
+      {
+        "row": 10,
+        "rowsha": "UM2IjIP/qf0PLiHagTFyKHV4gX8LQog7ZcbDNkJdUBQ=",
+        "originContent": "- Finally, compile the main application and build the release distribution: `make dist -j$(nproc)`.",
+        "translatedContent": "- 출력 결과는 `build/`에서 확인할 수 있습니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "Qeo3+u9JBiSL6kLeMqrtnrCnnoiTxx1O9d/dbFvsnxw=",
+        "originContent": "- Output will be found in `build/`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 크레딧"
+      },
+      {
+        "row": 13,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "- 스크린샷 버튼 오버라이딩 방법에 대해 [Behemoth](https://github.com/HookedBehemoth)에게 감사드립니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "CE400pibvm59xIkiuoA4xeDkmmXPSSg+OMGQRAHW2t8=",
+        "originContent": "- [Behemoth](https://github.com/HookedBehemoth) for the screenshot button overriding method.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

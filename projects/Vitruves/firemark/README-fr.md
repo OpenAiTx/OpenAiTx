@@ -1,37 +1,69 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Vitruves&project=firemark&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/firemark.png" alt="firemark" width="200">
 </p>
 
 <h1 align="center">firemark</h1>
 
-<p align="center">Un outil rapide de filigrane monobinaire pour images et PDF. Construit en Rust.</p>
+<p align="center">Un outil rapide de filigrane, tout-en-un, pour images et PDF. Développé en Rust.</p>
 
 ## Pourquoi filigraner vos documents ?
 
-Chaque année, des millions de personnes sont victimes de fraudes à l'identité qui commencent par un
-simple échange de documents. Un scénario courant : vous cherchez un appartement à louer.
-Le propriétaire — ou quelqu’un se faisant passer pour lui — demande une copie de votre pièce d’identité, une fiche
-de paie, un avis d’imposition. Vous les envoyez sans marque. Le "propriétaire" disparaît, et vos
-documents sont désormais utilisés pour ouvrir des comptes bancaires, contracter des prêts, ou falsifier
-des identités en votre nom.
+Chaque année, des millions de personnes sont victimes de fraudes à l'identité qui commencent par un simple échange de documents. Un scénario courant : vous cherchez un appartement à louer. Le propriétaire — ou quelqu'un se faisant passer pour lui — demande une copie de votre pièce d'identité, une fiche de paie, un avis d'imposition. Vous les envoyez sans marquage. Le "propriétaire" disparaît, et vos documents sont désormais utilisés pour ouvrir des comptes bancaires, contracter des prêts, ou usurper votre identité.
 
-Filigraner chaque document que vous envoyez est la défense la plus efficace.
-Un filigrane visible indiquant **« Envoyé à l’agence XYZ — mars 2026 — uniquement pour la demande de location »** rend le document inutile à toute autre fin. S’il
-fuit, vous savez exactement d’où il provient.
+Filigraner chaque document que vous envoyez est la défense la plus efficace. Une superposition visible indiquant **"Envoyé à l'agence XYZ — mars 2026 — uniquement pour demande de location"** rend le document inutile pour toute autre utilisation. S'il fuit, vous savez exactement d'où il vient.
 
-firemark rend cela simple : une commande, n’importe quelle image ou PDF, 17 styles visuels,
-des motifs cryptographiques de filigrane résistants à la modification, et un traitement par lots
-pour des dossiers entiers.
+firemark rend cela facile : une commande, n'importe quelle image ou PDF, 17 styles visuels, des motifs de filigrane cryptographiques résistants à l'édition, et le traitement par lot de dossiers entiers.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/paycheck-firemark-comparison.png" alt="Before and after watermarking" width="800">
+  <img src="https://raw.githubusercontent.com/Vitruves/firemark/main/assets/img/paycheck-firemark-comparison.png" alt="Avant et après le filigrane" width="800">
   <br>
-  <em>Avant et après — une seule commande, le document est désormais traçable et infalsifiable.</em>
+  <em>Avant et après — une commande, le document devient traçable et infalsifiable.</em>
 </p>
 
 ## Installation
 
 Depuis [crates.io](https://crates.io/crates/firemark) :
+
+
+
+
+
+
+
+
+
 
 
 ```bash
@@ -251,6 +283,6 @@ MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-11
 
 ---
