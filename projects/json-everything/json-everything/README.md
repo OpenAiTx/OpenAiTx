@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> To ensure the long-term sustainability of this project, a monthly maintenance fee has been introduced.  This fee is required to be paid by all organizations or users of any library from this project who generate revenue. You can pay the fee via [GitHub Sponsors](https://github.com/sponsors/gregsdennis).
+>
+> To enact this, an EULA on binary releases has be added to the repo and Nuget packages that requires payment of the maintenance fee.
+>
+> For more information on who must pay the fee and other frequently asked questions, please see the [Open Source Maintenance Fee](https://opensourcemaintenancefee.org/consumers/) organisation page.
 
 <div align="right">
   <details>
@@ -98,6 +104,11 @@ All libraries are built to .Net Standard 2.0 and .Net 8.
 <td>Generation of schemas from .Net types</td>
 </tr>
 <tr>
+<td>JsonSchema.Net.Api<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Api/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Api.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Api.svg?svg=true"></img></a></td>
+<td>JSON Schema validation for ASP.Net APIs</td>
+</tr>
+<tr>
+<tr>
 <td>JsonSchema.Net.Generation.DataAnnotations<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation.DataAnnotations/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true"></img></a></td>
 <td>Schema generation support for <em>System.ComponentModel.DataAnnotations</em>.</td>
 </tr>
@@ -155,6 +166,7 @@ Error message translations for _JsonSchema.Net_ available in:
 - Italian `it`
 - Norwegian `nb-NO`
 - Polish `pl-PL`
+- Portuguese `pt`
 - Russian `ru`
 - Spanish `es`
 - Swedish `sv-SE`

@@ -1,0 +1,968 @@
+[
+  {
+    "row": 1,
+    "rowsha": "krIdh4u03bdOop1GQi/PQSWqjG6IvY4Zul3Wq4XAC0s=",
+    "originContent": "# Antigravity Workflows - AI Agent Skills System",
+    "translatedContent": "# 무중력 워크플로우 - AI 에이전트 스킬 시스템"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "wQYiGpRCF1jR9J1dkRiJgPLWuj66777qwdPEMFTuG9Q=",
+    "originContent": "> Comprehensive AI Agent skill system for Antigravity IDE. Includes rules, workflows, and skills with automatic activation.",
+    "translatedContent": "> 무중력 IDE를 위한 종합 AI 에이전트 스킬 시스템입니다. 규칙, 워크플로우, 자동 활성화 스킬을 포함합니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "AAU0GHV6S6f9axu6Zx3PzBjDmV/qAQ2ECadA7iSRjO0=",
+    "originContent": "> **Note:** Antigravity has been re-organized based on agent and skill features. The Maestro skill and agent structure has been fully integrated.",
+    "translatedContent": "> **참고:** 무중력은 에이전트 및 스킬 기능을 기반으로 재구성되었습니다. Maestro 스킬과 에이전트 구조가 완전히 통합되었습니다."
+  },
+  {
+    "row": 5,
+    "rowsha": "bRtpAIUrXsx1AK05Rl2N3oJDMdkMBhnhjKvsFh46vM0=",
+    "originContent": "> Reference: [Claude Code Maestro](https://github.com/xenitV1/claude-code-maestro)",
+    "translatedContent": "> 참고: [Claude Code Maestro](https://github.com/xenitV1/claude-code-maestro)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "bL2+2xmmHeMPJ5RShvcnjJht8UbGw6aa0PYz2NenBPU=",
+    "originContent": "## 🚀 Installation",
+    "translatedContent": "## 🚀 설치"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "9NXTharjpiykXcWOWmqCRAdTcmcIGCEabk+DASwTrqs=",
+    "originContent": "### Windows (PowerShell)",
+    "translatedContent": "### 윈도우 (PowerShell)"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "rdXRxgQRkjxaPscLX0ZwQGKPEZiP5ZYntSpPc/7KWO4=",
+    "originContent": "```powershell",
+    "translatedContent": "```powershell"
+  },
+  {
+    "row": 14,
+    "rowsha": "K/lTDgNqconi+AknIU6DvSoCz6gBVyv8cSNh75kfIfs=",
+    "originContent": "# 1. Create directories",
+    "translatedContent": "# 1. Create directories"
+  },
+  {
+    "row": 15,
+    "rowsha": "t2KtnfjbdKAtMTS1IToNCDX76TBI5DWvv/Qvm686xOo=",
+    "originContent": "New-Item -ItemType Directory -Force -Path \"$HOME\\.gemini\\antigravity\"",
+    "translatedContent": "New-Item -ItemType Directory -Force -Path \"$HOME\\.gemini\\antigravity\""
+  },
+  {
+    "row": 16,
+    "rowsha": "Idf7XgAjJQl2xIJdxq1d5o/JLq4LJ8LEzyb0K9s3aeo=",
+    "originContent": "New-Item -ItemType Directory -Force -Path \"$HOME\\.gemini\\global_workflows\"",
+    "translatedContent": "New-Item -ItemType Directory -Force -Path \"$HOME\\.gemini\\global_workflows\""
+  },
+  {
+    "row": 17,
+    "rowsha": "k5L0vIoyUL3D9x3iaX0nlKlUAao1XgBJMP+6juLdOts=",
+    "originContent": "New-Item -ItemType Directory -Force -Path \"$HOME\\.agent\"",
+    "translatedContent": "New-Item -ItemType Directory -Force -Path \"$HOME\\.agent\""
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "zey50xdkU3BazHS3X+/l5veh3NBoHC8u/qBIgvpjPXQ=",
+    "originContent": "# 2. GEMINI.md -> ~/.gemini/",
+    "translatedContent": "# 2. GEMINI.md -> ~/.gemini/"
+  },
+  {
+    "row": 20,
+    "rowsha": "yWWTtnRyXUDkhS32jHrSDfBVl7NFDj7bMQhstMSJvHA=",
+    "originContent": "Copy-Item \".\\GEMINI.md\" \"$HOME\\.gemini\\GEMINI.md\"",
+    "translatedContent": "Copy-Item \".\\GEMINI.md\" \"$HOME\\.gemini\\GEMINI.md\""
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "hx3Qt/EH/QsHKYM/oHqJLg0W9nbnvPYX/ydBrEL3cwE=",
+    "originContent": "# 3. Global Workflows (Commands) -> ~/.gemini/global_workflows/",
+    "translatedContent": "# 3. Global Workflows (Commands) -> ~/.gemini/global_workflows/"
+  },
+  {
+    "row": 23,
+    "rowsha": "OQ6O2bm6ce0qlS6hAVL0PmNj4JpaGfoLfGpGdIkayWk=",
+    "originContent": "Copy-Item \".\\global_workflows\\*\" \"$HOME\\.gemini\\global_workflows\\\"",
+    "translatedContent": "Copy-Item \".\\global_workflows\\*\" \"$HOME\\.gemini\\global_workflows\\\""
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "fNbNHH3b4qxwRA6HSCGGxgJhDlv1ySAtGO4J82jLAT0=",
+    "originContent": "# 4. Antigravity System (Skills) -> ~/.gemini/antigravity/",
+    "translatedContent": "# 4. Antigravity System (Skills) -> ~/.gemini/antigravity/"
+  },
+  {
+    "row": 26,
+    "rowsha": "XMsVRoqjK5eyiM4gGYm8r4sci+IE2Z3WvcivYWmhT3c=",
+    "originContent": "Copy-Item -Recurse \".\\skills\" \"$HOME\\.gemini\\antigravity\\\"",
+    "translatedContent": "Copy-Item -Recurse \".\\skills\" \"$HOME\\.gemini\\antigravity\\\""
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "NpDfM6l1uWJWq2HYF/wGydp6Aki9hahYzdB1AfiCx28=",
+    "originContent": "# 5. Agents -> ~/.agent/",
+    "translatedContent": "# 5. Agents -> ~/.agent/"
+  },
+  {
+    "row": 29,
+    "rowsha": "qy9LSXbVuVWfwAQ9/hiYNPLLJ1u35lpdOakoj+RuyCU=",
+    "originContent": "Copy-Item \".\\.agent\\*\" \"$HOME\\.agent\\\" -Recurse",
+    "translatedContent": "Copy-Item \".\\.agent\\*\" \"$HOME\\.agent\\\" -Recurse"
+  },
+  {
+    "row": 30,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### macOS/Linux (Bash)"
+  },
+  {
+    "row": 32,
+    "rowsha": "nZuA47KvsBRrCgKdmewEuX8HKJUU0uirnSRrQ3wrEZE=",
+    "originContent": "### macOS/Linux (Bash)",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 35,
+    "rowsha": "K/lTDgNqconi+AknIU6DvSoCz6gBVyv8cSNh75kfIfs=",
+    "originContent": "# 1. Create directories",
+    "translatedContent": "# 1. Create directories"
+  },
+  {
+    "row": 36,
+    "rowsha": "momDFDuB7CurU7ki9cKd2SMWVaE8gL7OBFC68MaGi/4=",
+    "originContent": "mkdir -p ~/.gemini/antigravity",
+    "translatedContent": "mkdir -p ~/.gemini/antigravity"
+  },
+  {
+    "row": 37,
+    "rowsha": "WhSlrqewLOAuFjvhew/p96y4ZIADpKrcriqHw8/CwzU=",
+    "originContent": "mkdir -p ~/.gemini/global_workflows",
+    "translatedContent": "mkdir -p ~/.gemini/global_workflows"
+  },
+  {
+    "row": 38,
+    "rowsha": "Y6ee2DL91q5Q5cLZIGpwKytMB8XqHeIyhE4vc19H+ms=",
+    "originContent": "mkdir -p ~/.agent",
+    "translatedContent": "mkdir -p ~/.agent"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "zey50xdkU3BazHS3X+/l5veh3NBoHC8u/qBIgvpjPXQ=",
+    "originContent": "# 2. GEMINI.md -> ~/.gemini/",
+    "translatedContent": "# 2. GEMINI.md -> ~/.gemini/"
+  },
+  {
+    "row": 41,
+    "rowsha": "mpccFFD7pmq/nHDlPqKMN8QTnafV4q5kFzoJeuDROLw=",
+    "originContent": "cp GEMINI.md ~/.gemini/GEMINI.md",
+    "translatedContent": "cp GEMINI.md ~/.gemini/GEMINI.md"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "hx3Qt/EH/QsHKYM/oHqJLg0W9nbnvPYX/ydBrEL3cwE=",
+    "originContent": "# 3. Global Workflows (Commands) -> ~/.gemini/global_workflows/",
+    "translatedContent": "# 3. Global Workflows (Commands) -> ~/.gemini/global_workflows/"
+  },
+  {
+    "row": 44,
+    "rowsha": "niH14vSXtFnUJt3Ap6BBT5VXi8IupuYsIrjsJBKWQqs=",
+    "originContent": "cp -r global_workflows/* ~/.gemini/global_workflows/",
+    "translatedContent": "cp -r global_workflows/* ~/.gemini/global_workflows/"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "fNbNHH3b4qxwRA6HSCGGxgJhDlv1ySAtGO4J82jLAT0=",
+    "originContent": "# 4. Antigravity System (Skills) -> ~/.gemini/antigravity/",
+    "translatedContent": "# 4. Antigravity System (Skills) -> ~/.gemini/antigravity/"
+  },
+  {
+    "row": 47,
+    "rowsha": "D5S9PLjN7cPP0FERqjunWlA4SVRlhwhUKNj/nJ2yx2Y=",
+    "originContent": "cp -r skills ~/.gemini/antigravity/",
+    "translatedContent": "cp -r skills ~/.gemini/antigravity/"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "NpDfM6l1uWJWq2HYF/wGydp6Aki9hahYzdB1AfiCx28=",
+    "originContent": "# 5. Agents -> ~/.agent/",
+    "translatedContent": "# 5. Agents -> ~/.agent/"
+  },
+  {
+    "row": 50,
+    "rowsha": "/3ADwhBafyBcsoe1v2bKj8l4DdLJHQtqeT2rakgIYvY=",
+    "originContent": "cp -r .agent/* ~/.agent/",
+    "translatedContent": "cp -r .agent/* ~/.agent/"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "wAF3vcTT+tOUJTSdGtTRHMM9Mbx5QOfpoQW//HECS+E=",
+    "originContent": "## 📁 Post-Installation Structure",
+    "translatedContent": "## 📁 Post-Installation Structure"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 58,
+    "rowsha": "iR5HXkkWaeupoiiPM/XVYV1359IH9KP9towlAPidrOM=",
+    "originContent": "~/.gemini/                              # Global Config",
+    "translatedContent": "~/.gemini/                              # Global Config"
+  },
+  {
+    "row": 59,
+    "rowsha": "p01rq8iIn3FTWpduyG+8A1L938smhNy60/CdLzdjl9o=",
+    "originContent": "├── GEMINI.md                           # Maestro Configuration",
+    "translatedContent": "├── GEMINI.md                           # Maestro Configuration"
+  },
+  {
+    "row": 60,
+    "rowsha": "AdStzbS7zJO5uZ7iossGcD3a9QjKddzhrXz56r+UPpk=",
+    "originContent": "├── global_workflows/                   # Slash Commands (/)",
+    "translatedContent": "├── global_workflows/                   # Slash Commands (/)"
+  },
+  {
+    "row": 61,
+    "rowsha": "8aFtS7KcONKy98FxL95EbXCWarLQ+bAUH8nxnK2Q8Uo=",
+    "originContent": "│   ├── brainstorm.md                   # /brainstorm",
+    "translatedContent": "│   ├── brainstorm.md                   # /brainstorm"
+  },
+  {
+    "row": 62,
+    "rowsha": "Mym1fyKYGSkPcVyo5l5FSCyGLXP8e/SRRaD++94WDLw=",
+    "originContent": "│   ├── create.md                       # /create",
+    "translatedContent": "│   ├── create.md                       # /create"
+  },
+  {
+    "row": 63,
+    "rowsha": "rInvRRqhLbZ0t3AYblwgM9MfS8gMwUWZnHZ7fszbHcY=",
+    "originContent": "│   └── ...",
+    "translatedContent": "│   └── ..."
+  },
+  {
+    "row": 64,
+    "rowsha": "4eNnn7AzL8CUnttKXim1/pFTDLTOYThaZvUvuIdULqE=",
+    "originContent": "└── antigravity/                        # Core System",
+    "translatedContent": "└── antigravity/                        # Core System"
+  },
+  {
+    "row": 65,
+    "rowsha": "JWyNP90L85ANZrzRQ+JNXemMAgkXMkaXW1bR7MjHgvk=",
+    "originContent": "    └── skills/                         # Skill Library",
+    "translatedContent": "    └── skills/                         # Skill Library"
+  },
+  {
+    "row": 66,
+    "rowsha": "BnN2uY+9bv0XCJA/I4l9IrVntyNZMbMW2YN4hHaIR3g=",
+    "originContent": "        ├── ultrathink.md",
+    "translatedContent": "        ├── ultrathink.md"
+  },
+  {
+    "row": 67,
+    "rowsha": "C2CobrKJOXg4RrFgN1p7mBn2V1niXHno/mFa4h8Q4Js=",
+    "originContent": "        ├── architecture.md",
+    "translatedContent": "        ├── architecture.md"
+  },
+  {
+    "row": 68,
+    "rowsha": "07lIfuxmVfQl/dEUayTWyvvKbFNl2swGfcljy9rCsm4=",
+    "originContent": "        └── ...",
+    "translatedContent": "        └── ..."
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "TDmeb/AdJuwRqwkkwxpsWRqCUIPfRZanDVMu9XPJIEE=",
+    "originContent": "~/.agent/                               # Agents",
+    "translatedContent": "~/.agent/                               # Agents"
+  },
+  {
+    "row": 71,
+    "rowsha": "zMeD9DSAWgqPj3azzj0+uEoxJ59GpaTOchDPKfkEub8=",
+    "originContent": "└── agents/                             # 16 Specialized Agents",
+    "translatedContent": "└── agents/                             # 16 Specialized Agents"
+  },
+  {
+    "row": 72,
+    "rowsha": "MMS1fo68brp24lwqa1EpPxQ1nDE1/6WGAa6Tcm9pc3U=",
+    "originContent": "    ├── orchestrator.md",
+    "translatedContent": "    ├── orchestrator.md"
+  },
+  {
+    "row": 73,
+    "rowsha": "8FZvBFFhBMrEPcCPMEMaDbyyffR4zsXSJHpnn7AEuv0=",
+    "originContent": "    ├── backend-specialist.md",
+    "translatedContent": "    ├── backend-specialist.md"
+  },
+  {
+    "row": 74,
+    "rowsha": "EVxSCGnx6ALjSB9cd4swH9yRVDSmm2cv6tBjcIJqwFo=",
+    "originContent": "    └── ...",
+    "translatedContent": "    └── ..."
+  },
+  {
+    "row": 75,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "u6z6ZDyvQox+JSVJOinHJsP6XmVxExWwEZ5cidVQliA=",
+    "originContent": "## 🤖 Available Agents (16)",
+    "translatedContent": "## 🤖 사용 가능한 에이전트 (16)"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "P6ZvxoIPkZP7jdX6VimGejMJmW+n9+ubigzV3FCDo6s=",
+    "originContent": "| Agent | Domain & Focus |",
+    "translatedContent": "| 에이전트 | 도메인 및 집중 분야 |"
+  },
+  {
+    "row": 82,
+    "rowsha": "rcO3OWN3cPgZGB+Z70CsJj1VU2BTH7E7JHLGnjKYqbw=",
+    "originContent": "|-------|----------------|",
+    "translatedContent": "|-------|----------------|"
+  },
+  {
+    "row": 83,
+    "rowsha": "5p4yiwVud8osXwZyED4Buv1+KjxcKjHglBJlOO0P0JM=",
+    "originContent": "| `orchestrator` | Multi-agent coordination and synthesis |",
+    "translatedContent": "| `orchestrator` | 다중 에이전트 조정 및 통합 |"
+  },
+  {
+    "row": 84,
+    "rowsha": "ez9BuZ1Rr7B+G3V+nZahT9x8ocBqRKoVcnXGEMVGxLg=",
+    "originContent": "| `project-planner` | Discovery, Architecture, and Task Planning |",
+    "translatedContent": "| `project-planner` | 탐색, 아키텍처, 작업 계획 |"
+  },
+  {
+    "row": 85,
+    "rowsha": "H4BHmf0svD8jh0J7pPtkw6BESvK8Ybl6XONrXksmUDg=",
+    "originContent": "| `backend-specialist` | Backend Architect (API + Database + Server) |",
+    "translatedContent": "| `backend-specialist` | 백엔드 아키텍트 (API + 데이터베이스 + 서버) |"
+  },
+  {
+    "row": 86,
+    "rowsha": "a89gax+haOSoy9G4Bntink94PIm/7ut8OCE2E2v78W4=",
+    "originContent": "| `database-architect` | Database Schema, SQL Optimization |",
+    "translatedContent": "| `database-architect` | 데이터베이스 스키마, SQL 최적화 |"
+  },
+  {
+    "row": 87,
+    "rowsha": "c6s06X5wdp7Lzguqk2Z1dpiAokVl4RiMbMdJE/F4+6s=",
+    "originContent": "| `frontend-specialist` | Frontend & Growth (UI/UX + SEO) |",
+    "translatedContent": "| `frontend-specialist` | 프론트엔드 및 성장 (UI/UX + SEO) |"
+  },
+  {
+    "row": 88,
+    "rowsha": "q2iQSTzrRCJ8Yr3Nd1fwKFXyQaPLTHmz6Yud0sn2mok=",
+    "originContent": "| `mobile-developer` | Mobile Specialist (Cross-platform) |",
+    "translatedContent": "| `mobile-developer` | 모바일 전문가 (크로스 플랫폼) |"
+  },
+  {
+    "row": 89,
+    "rowsha": "JtPA5o5XzBOzfywUprLxItzkv5CJJfoUAa8plqyrteM=",
+    "originContent": "| `game-developer` | Game Logic & Assets & Performance |",
+    "translatedContent": "| `game-developer` | 게임 로직 및 자산 및 성능 |"
+  },
+  {
+    "row": 90,
+    "rowsha": "xRnV9El1sjozgQZaqxBupjksjZIyLPm8wWH4du5Poj8=",
+    "originContent": "| `security-auditor` | Cybersecurity Auditing |",
+    "translatedContent": "| `security-auditor` | 사이버 보안 감사 |"
+  },
+  {
+    "row": 91,
+    "rowsha": "R4zbnnuIA8nQPGlY31wzqRsYH5BnuGnFZay9FmLF3Xw=",
+    "originContent": "| `debugger` | Root Cause Analysis & Bug Fixing |",
+    "translatedContent": "| `debugger` | 근본 원인 분석 및 버그 수정 |"
+  },
+  {
+    "row": 92,
+    "rowsha": "oXViLJWUpsdXcytIyJKiKz6Sq7rHZ/iUxSiVzPlMFpA=",
+    "originContent": "| `devops-engineer` | CI/CD, Infrastructure, Deployment |",
+    "translatedContent": "| `devops-engineer` | CI/CD, 인프라, 배포 |"
+  },
+  {
+    "row": 93,
+    "rowsha": "ml+cHqTVKLLYHFz8WubJozGzdLqEVK1yu7npdVNInDo=",
+    "originContent": "| `documentation-writer` | Technical Documentation |",
+    "translatedContent": "| `documentation-writer` | 기술 문서 작성 |"
+  },
+  {
+    "row": 94,
+    "rowsha": "xPxtiWNy7uvrO3qnufJaThKLDU1PiSlFK/a+NGhiXTk=",
+    "originContent": "| `explorer-agent` | Discovery, File Listing, Analysis |",
+    "translatedContent": "| `explorer-agent` | 탐색, 파일 목록 작성, 분석 |"
+  },
+  {
+    "row": 95,
+    "rowsha": "wd6I9+uBKgjcXBnh5zeaaES1esfEiIeNdnr6Lw2T2/c=",
+    "originContent": "| `penetration-tester` | Offensive Security |",
+    "translatedContent": "| `penetration-tester` | 공격 보안 |"
+  },
+  {
+    "row": 96,
+    "rowsha": "Iq0+PsqNU5BGKmVwxflhpkGPNvBuEwWFQtDJ6FVppa4=",
+    "originContent": "| `performance-optimizer` | Speed, Vital Metrics |",
+    "translatedContent": "| `performance-optimizer` | 속도, 주요 지표 |"
+  },
+  {
+    "row": 97,
+    "rowsha": "k6lk7uu2NBvf3GWIU+o0248JiaQ2zWYhMOPfIHTEx2k=",
+    "originContent": "| `seo-specialist` | SEO, GEO, Analytics |",
+    "translatedContent": "| `seo-specialist` | SEO, GEO, 분석 |"
+  },
+  {
+    "row": 98,
+    "rowsha": "Np4hCu1L8ZUFn40Wny1aCSCj0PvGW9L+t8RqSqcP52s=",
+    "originContent": "| `test-engineer` | Testing Strategy, E2E, Unit Tests |",
+    "translatedContent": "| `test-engineer` | 테스트 전략, E2E, 단위 테스트 |"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "pF+xn664CgbvJxvZutdJnv+hH4dG6qAnuAhgdaXuq3E=",
+    "originContent": "## ⚡ Slash Commands (10)",
+    "translatedContent": "## ⚡ 슬래시 명령어 (10)"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "fUZE4K4/TlMoevE3X8hwmD5ituRQOL5b+QmgEflho88=",
+    "originContent": "| Command | Description |",
+    "translatedContent": "| 명령어 | 설명 |"
+  },
+  {
+    "row": 105,
+    "rowsha": "gZZrvc4DyBVOhqMtRyPspS6oKwB1KkzkgrCtPdqMto0=",
+    "originContent": "|---------|-------------|",
+    "translatedContent": "|---------|-------------|"
+  },
+  {
+    "row": 106,
+    "rowsha": "iml4dyJ/dqnMsARuNGsjnkWMw8Tc3bdWhp2pO9eAFs8=",
+    "originContent": "| `/brainstorm` | Structured brainstorming |",
+    "translatedContent": "| `/brainstorm` | 구조화된 브레인스토밍 |"
+  },
+  {
+    "row": 107,
+    "rowsha": "qQnM/OYyUboSNo3XBpHLb708079kuMP5OeIdE+4f6fg=",
+    "originContent": "| `/create` | Create new application |",
+    "translatedContent": "| `/create` | 새 애플리케이션 생성 |"
+  },
+  {
+    "row": 108,
+    "rowsha": "W2CZcshsz7MKgIjRU38nXAw0mSTqGFQ2Rx7LqeKAwMM=",
+    "originContent": "| `/debug` | Debug and troubleshoot |",
+    "translatedContent": "| `/debug` | 디버그 및 문제 해결 |"
+  },
+  {
+    "row": 109,
+    "rowsha": "A7Rbas5hoRelpT+IYUCY+189aPw8q6cHpnjA/8mqgq0=",
+    "originContent": "| `/deploy` | Production deployment |",
+    "translatedContent": "| `/deploy` | 프로덕션 배포 |"
+  },
+  {
+    "row": 110,
+    "rowsha": "c9/6UHEuHBJAKYG3cM2CKbQeLoY9kJSeh483VgmgyXI=",
+    "originContent": "| `/enhance` | Add/update features |",
+    "translatedContent": "| `/enhance` | 기능 추가/업데이트 |"
+  },
+  {
+    "row": 111,
+    "rowsha": "Zafm2X+JOoRIdZoAM815qI2uUNNrF5U2CjzfjBkmFXA=",
+    "originContent": "| `/orchestrate` | Multi-agent coordination |",
+    "translatedContent": "| `/orchestrate` | 다중 에이전트 조정 |"
+  },
+  {
+    "row": 112,
+    "rowsha": "YZoHdjw4DDceC7RvPW9Jq/K1vk8GRDs/jzD8l124syc=",
+    "originContent": "| `/plan` | Task planning |",
+    "translatedContent": "| `/plan` | 작업 계획 |"
+  },
+  {
+    "row": 113,
+    "rowsha": "2v1IYYO9E9ASn5OrHBT/LTFjM0114c4ldaMOvXFiBis=",
+    "originContent": "| `/preview` | Preview server management |",
+    "translatedContent": "| `/preview` | 서버 미리보기 관리 |"
+  },
+  {
+    "row": 114,
+    "rowsha": "d2udiNmPuUxU1biNTyIEkHqQX3L3m3dnaxaSBLlzxCQ=",
+    "originContent": "| `/status` | Project status display |",
+    "translatedContent": "| `/status` | 프로젝트 상태 표시 |"
+  },
+  {
+    "row": 115,
+    "rowsha": "vjX74cGNxItnp2IQFdzJ3tK5jhiVX+n1fV2bSFKCGBY=",
+    "originContent": "| `/test` | Test generation and running |",
+    "translatedContent": "| `/test` | 테스트 생성 및 실행 |"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "BRql1m6XfuEW9ztOBnTDQn3K8O+t+ER5/RoFPfw+quM=",
+    "originContent": "## 📚 Skills (35 Categories)",
+    "translatedContent": "## 📚 기술 (35개 카테고리)"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "BysYRGvtYZ6SVZrVlSh9iT1xUvjG+OMuN10TOJZ/Zj4=",
+    "originContent": "Skills are organized in `~/.gemini/antigravity/skills/` and cover:",
+    "translatedContent": "기술은 `~/.gemini/antigravity/skills/`에 정리되어 있으며 다음을 포함합니다:"
+  },
+  {
+    "row": 122,
+    "rowsha": "GDExna8S6XTgxB4KlXvlgF75zIvH3rHzqOyYKNk058E=",
+    "originContent": "- **Development:** `clean-code`, `react-patterns`, `python-patterns`",
+    "translatedContent": "- **개발:** `clean-code`, `react-patterns`, `python-patterns`"
+  },
+  {
+    "row": 123,
+    "rowsha": "pcnfy6qB6X0yIJXfaC6K7tEtmvdbeNNauiw7+hxMlOU=",
+    "originContent": "- **Architecture:** `architecture`, `api-patterns`, `database-design`",
+    "translatedContent": "- **아키텍처:** `architecture`, `api-patterns`, `database-design`"
+  },
+  {
+    "row": 124,
+    "rowsha": "tVnCUrnqVcu2Sl7qOfY1QJjte9flLJzEgWSLwyYacdo=",
+    "originContent": "- **Quality:** `testing-patterns`, `code-review-checklist`, `tdd-workflow`",
+    "translatedContent": "- **품질:** `testing-patterns`, `code-review-checklist`, `tdd-workflow`"
+  },
+  {
+    "row": 125,
+    "rowsha": "NZNAXdEJ2cEzhDxYEw9BsuS+SVneadDPQh0rPTnlm7g=",
+    "originContent": "- **Security:** `vulnerability-scanner`, `red-team-tactics`",
+    "translatedContent": "- **보안:** `vulnerability-scanner`, `red-team-tactics`"
+  },
+  {
+    "row": 126,
+    "rowsha": "CDRDDRoRPbUBN5Dwwt53uZAZ4Roo+xz2L2mV7TCZ618=",
+    "originContent": "- **Performance:** `performance-profiling`, `tailwind-patterns`",
+    "translatedContent": "- **성능:** `performance-profiling`, `tailwind-patterns`"
+  },
+  {
+    "row": 127,
+    "rowsha": "7rxZ/GTr3JX7yRJcY+bxzRi3AWAdrdsnOwE/yiUG774=",
+    "originContent": "- **SEO/GEO:** `seo-fundamentals`, `geo-fundamentals`",
+    "translatedContent": "- **SEO/GEO:** `seo-fundamentals`, `geo-fundamentals`"
+  },
+  {
+    "row": 128,
+    "rowsha": "eEGxg8nRpmdfO9VfhYdlDrVaQGPUIrN+Tlalg4QJuN8=",
+    "originContent": "- **DevOps:** `deployment-procedures`, `server-management`",
+    "translatedContent": "- **DevOps:** `deployment-procedures`, `server-management`"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "spvoEuWuPOQ7pdiaqYZDmLyDaXGzKnP9tsKy9gWxbGg=",
+    "originContent": "_See `ARCHITECTURE.md` for the complete list._",
+    "translatedContent": "_전체 목록은 `ARCHITECTURE.md`를 참조하세요._"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "5/iygc9ZlWfnVwdSQaGdQt9J80dm11gMW2B4jykmgcU=",
+    "originContent": "## 🎯 Key Features",
+    "translatedContent": "## 🎯 주요 기능"
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "tJYzHi/1YkFtMwMLNbp7je2lEIH1Vji0cn5FkToZ7fs=",
+    "originContent": "- ✅ **16 Specialized Agents** for different development domains",
+    "translatedContent": "- ✅ 다양한 개발 분야별 **16개 전문 에이전트**"
+  },
+  {
+    "row": 137,
+    "rowsha": "GYWVozM/XUvYP5uK7TjlrbBv0/uDRO3V9PBziYQ1TYw=",
+    "originContent": "- ✅ **35 Skill Categories** covering full-stack development",
+    "translatedContent": "- ✅ 풀스택 개발을 아우르는 **35개 기술 카테고리**"
+  },
+  {
+    "row": 138,
+    "rowsha": "BMyiEAoSnYvQOk5XlznhBzkdowbeq1kxnsiifk2tmys=",
+    "originContent": "- ✅ **10 Slash Commands** for streamlined workflows",
+    "translatedContent": "- ✅ 효율적 워크플로우를 위한 **10개 슬래시 명령어**"
+  },
+  {
+    "row": 139,
+    "rowsha": "Dy5muIfIC7M8ANqntVYgY/0+wqpAde0gI65gsnqpa/I=",
+    "originContent": "- ✅ **Maestro v4.1 Standards** integrated",
+    "translatedContent": "- ✅ 통합된 **Maestro v4.1 표준**"
+  },
+  {
+    "row": 140,
+    "rowsha": "iB9wbxh0/fa27Qscg0mhmyu0xxGwMp59c2Fqk51Ew4c=",
+    "originContent": "- ✅ **Dynamic User Paths** (`~/.agent/`, `~/.gemini/antigravity/`)",
+    "translatedContent": "- ✅ **동적 사용자 경로** (`~/.agent/`, `~/.gemini/antigravity/`)"
+  },
+  {
+    "row": 141,
+    "rowsha": "CiYsVvg3cd6eUwRtpL5pHIfiIKIh0p5zIll93Ab2Uus=",
+    "originContent": "- ✅ **Clean Code Mandate** enforced globally",
+    "translatedContent": "- ✅ 전사적 적용되는 **클린 코드 원칙**"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "SoE0pvlABUY6UusrLcAgNz4PkoTle0JWWhESnRMZ7Es=",
+    "originContent": "## 📖 Documentation",
+    "translatedContent": "## 📖 문서"
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "8r7A8Fwluh/LxgzxwQ/VU6A/vx3UkjNcgU7EykOakMk=",
+    "originContent": "- **[ARCHITECTURE.md](https://raw.githubusercontent.com/xenitV1/Antigravity-Workflows/main/ARCHITECTURE.md)** - Full system structure",
+    "translatedContent": "- **[ARCHITECTURE.md](https://raw.githubusercontent.com/xenitV1/Antigravity-Workflows/main/ARCHITECTURE.md)** - 전체 시스템 구조"
+  },
+  {
+    "row": 148,
+    "rowsha": "CalYUl6NfKy6vsTr7/x7sK9D5JRijKd2hQMInCMEuQo=",
+    "originContent": "- **[GEMINI.md](https://raw.githubusercontent.com/xenitV1/Antigravity-Workflows/main/GEMINI.md)** - Maestro configuration & rules",
+    "translatedContent": "- **[GEMINI.md](https://raw.githubusercontent.com/xenitV1/Antigravity-Workflows/main/GEMINI.md)** - Maestro 구성 및 규칙"
+  },
+  {
+    "row": 149,
+    "rowsha": "ZvxHkFlqnHfylZxWtiJYcQ2Hna6cQPmwgs1d7I1qBb8=",
+    "originContent": "- **[CHANGELOG.md](https://raw.githubusercontent.com/xenitV1/Antigravity-Workflows/main/CHANGELOG.md)** - Version history",
+    "translatedContent": "- **[CHANGELOG.md](https://raw.githubusercontent.com/xenitV1/Antigravity-Workflows/main/CHANGELOG.md)** - 버전 기록"
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
+    "originContent": "## 📄 License",
+    "translatedContent": "## 📄 라이선스"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+    "originContent": "MIT License",
+    "translatedContent": "MIT 라이선스"
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "AS7IzUBewQuICrBegkJj5/UYQLxTsRT6JRFgjUgdT+w=",
+    "originContent": "**Developed by:** [@xenit-v0](https://x.com/xenit_v0)",
+    "translatedContent": "**개발자:** [@xenit-v0](https://x.com/xenit_v0)"
+  },
+  {
+    "row": 160,
+    "rowsha": "fXg9A87z0OEY+e+bAlJOh7X78rNMJ/r1J7ygqEtZY68=",
+    "originContent": "**Version:** 0.2.2 (Antigravity IDE Native Support)",
+    "translatedContent": "**버전:** 0.2.2 (안티그래비티 IDE 네이티브 지원)"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> To ensure the long-term sustainability of this project, a monthly maintenance fee has been introduced.  This fee is required to be paid by all organizations or users of any library from this project who generate revenue. You can pay the fee via [GitHub Sponsors](https://github.com/sponsors/gregsdennis).
+>
+> To enact this, an EULA on binary releases has be added to the repo and Nuget packages that requires payment of the maintenance fee.
+>
+> For more information on who must pay the fee and other frequently asked questions, please see the [Open Source Maintenance Fee](https://opensourcemaintenancefee.org/consumers/) organisation page.
 
 <div align="right">
   <details>
@@ -39,11 +45,11 @@
 
 The primary philosophy behind `json-everything` is to ensure that common JSON functionality has good support in the _System.Text.Json_ space.
 
-The first step in this process is to check whether there are other projects that support a particular function.
+The first step to that is checking whether there exist other projects that support a given function.
 
-If so, that effort probably won't be duplicated here. A little further down, you'll find a list of other projects that are doing interesting things with JSON.
+If so, that effort likely won't be duplicated here. A bit farther down you'll find a list of other projects that are doing some cool things with JSON.
 
-If not, it's open for consideration in this project.
+Otherwise, it's open to consideration for this project.
 
 <table>
 <thead>
@@ -83,20 +89,25 @@ If not, it's open for consideration in this project.
 
 ## What's in the box?
 
-There are actually multiple boxes. Each piece of functionality has been separated into its own library, allowing you to pick and choose the ones you need.
+There are actually multiple boxes.  Each piece of functionality has been broken out into its own library, so you can pick and choose the one(s) that you need.
 
-All libraries are built for .Net Standard 2.0 and .Net 8.
+All libraries are built to .Net Standard 2.0 and .Net 8.
 
 <table>
 <tbody>
 <tr>
 <td>JsonSchema.Net<br><a href="https://www.nuget.org/packages/JsonSchema.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.svg?svg=true"></img></a></td>
-<td><a href="https://json-schema.org">JSON Schema</a>, drafts 6 and above</td>
+<td><a href="https://json-schema.org">JSON Schema</a>, drafts 6 and higher</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.Generation<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.svg?svg=true"></img></a></td>
 <td>Generation of schemas from .Net types</td>
 </tr>
+<tr>
+<td>JsonSchema.Net.Api<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Api/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Api.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Api.svg?svg=true"></img></a></td>
+<td>JSON Schema validation for ASP.Net APIs</td>
+</tr>
+<tr>
 <tr>
 <td>JsonSchema.Net.Generation.DataAnnotations<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation.DataAnnotations/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true"></img></a></td>
 <td>Schema generation support for <em>System.ComponentModel.DataAnnotations</em>.</td>
@@ -139,7 +150,7 @@ All libraries are built for .Net Standard 2.0 and .Net 8.
 </tr>
 <tr>
 <td>Json.More.Net<br><a href="https://www.nuget.org/packages/Json.More.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Json.More.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Json.More.Net.svg?svg=true"></img></a></td>
-<td>General-purpose extensions that probably should have been included in <em>System.Text.Json[.Nodes]</em> but weren't</td>
+<td>General-use extensions that probably should have been included in <em>System.Text.Json[.Nodes]</em> but weren't</td>
 </tr>
 <tr>
 <td>Yaml2JsonNode<br><a href="https://www.nuget.org/packages/Yaml2JsonNode/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Yaml2JsonNode.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Yaml2JsonNode.svg?svg=true"></img></a></td>
@@ -148,13 +159,14 @@ All libraries are built for .Net Standard 2.0 and .Net 8.
 </tbody>
 </table>
 
-All of the above libraries provide complete support for their respective specifications.
+All of the above libraries offer complete support for their associated specifications.
 
 Error message translations for _JsonSchema.Net_ available in:
 
 - Italian `it`
 - Norwegian `nb-NO`
 - Polish `pl-PL`
+- Portuguese `pt`
 - Russian `ru`
 - Spanish `es`
 - Swedish `sv-SE`
@@ -214,6 +226,6 @@ This project is supported by the [.NET Foundation](https://dotnetfoundation.org)
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-12
 
 ---

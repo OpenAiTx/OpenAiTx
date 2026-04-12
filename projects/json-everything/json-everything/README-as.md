@@ -1,28 +1,35 @@
+> [!IMPORTANT]
+> এই প্ৰকল্পটোৰ দীঘলীয়া স্থায়িত্ব নিশ্চিত কৰাৰ বাবে, এটা মাহিলী ৰক্ষণাবেক্ষণ মাচুল আৰোপ কৰা হৈছে।  এই মাচুল প্ৰকল্পটোৰ যিকোনো লাইব্ৰেৰিৰ পৰা আয় কৰা সকলো সংস্থা বা ব্যৱহাৰকাৰীয়ে দিবই লাগিব। আপুনি [GitHub Sponsors](https://github.com/sponsors/gregsdennis) ৰ জৰিয়তে মাচুল পৰিশোধ কৰিব পাৰে।
+>
+> এইটো কার্যকৰী কৰাৰ বাবে, বাইনেৰী মুক্তিৰ ওপৰত এটা EULA ৰেপো আৰু Nuget পেকেজত সংযুক্ত কৰা হৈছে, যি ৰক্ষণাবেক্ষণ মাচুল পৰিশোধ বাধ্যতামূলক কৰে।
+>
+> কাক এই মাচুল দিবই লাগিব আৰু অন্যান্য প্ৰায়ই সোধা প্ৰশ্নৰ বাবে, অনুগ্ৰহ কৰি [Open Source Maintenance Fee](https://opensourcemaintenancefee.org/consumers/) সংস্থাৰ পৃষ্ঠাটো চাওক।
+
 <div align="right">
   <details>
-    <summary >🌐 Language</summary>
+    <summary >🌐 ভাষা</summary>
     <div>
       <div align="right">
         <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=en">English</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-CN">সহজ চীনীয়া</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-TW">পৰম্পৰাগত চীনীয়া</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ja">জাপানী</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ko">কোৰীয়</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=hi">হিন্দী</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=th">থাই</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fr">ফ্ৰেঞ্চ</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=de">জাৰ্মান</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=es">স্পেনী</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=it">ইটালীয়</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ru">ৰাছিয়ান</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pt">পৰ্তুগীজ</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=nl">ডাচ</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pl">পোলিচ</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ar">আৰবী</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fa">ফাৰ্ছী</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=tr">তুৰ্কী</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=vi">ভিয়েটনামী</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=id">ইণ্ডোনেছিয়ান</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-CN">简体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-TW">繁體中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ja">日本語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=id">Bahasa Indonesia</a></p>
       </div>
     </div>
   </details>
@@ -34,15 +41,15 @@
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues "Average time to resolve an issue")
 [![License](https://img.shields.io/github/license/json-everything/json-everything)](https://github.com/json-everything/json-everything/blob/master/LICENSE)
 
-## `json-everything` বুলিলে কি বুজোৱা হয়?
+## `json-everything` কি?
 
-`json-everything` ৰ প্ৰধান দৰ্শন হৈছে সাধাৰণ JSON কাৰ্যসমূহৰ _System.Text.Json_ ক্ষেত্ৰত ভাল সমৰ্থন নিশ্চিত কৰা।
+`json-everything` ৰ প্ৰধান দৰ্শন হৈছে, সাধাৰণ JSON কাৰ্যবোৰৰ _System.Text.Json_ ক্ষেত্ৰত ভাল সমৰ্থন নিশ্চিত কৰা।
 
-প্ৰথম পদক্ষেপটো হৈছে, নিৰ্দিষ্ট এটা ফাংচন সমৰ্থন কৰে এনে আন প্রকল্প আছে নে নাই পৰীক্ষা কৰা।
+এইৰ প্ৰথম পদক্ষেপ হৈছে, কোনো এটা কাৰ্যৰ সমৰ্থন কৰা অন্য প্ৰকল্প আছে নে নাই, সেইটো পৰীক্ষা কৰা।
 
-যদি থাকে, সেই প্ৰচেষ্টাটো সম্ভৱত ইয়াত পুনৰাবৃত্তি নহ’ব। অলপ তলত, আপুনি JSON লৈ কিছু আশ্চৰ্যজনক কাম কৰি থকা আন প্রকল্পসমূহৰ এটা তালিকা পাব।
+যদি থাকে, সেই চেষ্টা ইয়াত পুনৰাবৃত্তি কৰা নহ’ব। অলপ তলত, আপুনি JSON ৰ সৈতে কিছু চমৎকাৰ বস্তু কৰা অন্যান্য প্ৰকল্পৰ তালিকা পাব।
 
-নহ’লে, এই প্রকল্পৰ বাবে বিবেচনাৰ বাবে মুকলি।
+নহ’লে, এই প্ৰকল্পত বিবেচনা কৰা হ’ব।
 
 <table>
 <thead>
@@ -77,45 +84,49 @@
 <td align="center"><a href="https://stackoverflow.com/questions/tagged/json-everything"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png" alt="StackOverflow" title="StackOverflow" height="50"></a></td>
 <td align="center"><a href="http://www.jetbrains.com/resharper"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg" alt="Made with Jetbrains Resharper" title="Made with Jetbrains Resharper" height="50"></a></td>
 </tr>
-
 </tbody>
 </table>
 
-## বাকচত কি আছে?
+## বাকচটোত কি আছে?
 
-আচলতে বহুতো বাকচ আছে।  প্ৰতিটো ফাংচনেলিটিক পৃথকে গ্ৰন্থাগাৰত বিভাজিত কৰা হৈছে, যেতিয়া আপুনি আপোনাৰ প্ৰয়োজনীয়টো(সমূহ) বাচি ল’ব পাৰিব।
+আচলতে ইয়াত বহুত বাকচ আছে।  প্ৰতিটো কাৰ্যক্ষমতা পৃথকে পৃথকে নিজৰ লাইব্ৰেৰীত ভাগ কৰা হৈছে, যাতে আপুনি আপোনাৰ প্ৰয়োজনীয়টো বাচি ল’ব পাৰিব।
 
-সকলো গ্ৰন্থাগাৰ .Net Standard 2.0 আৰু .Net 8-ত নিৰ্মিত।
+সকলো লাইব্ৰেৰী .Net Standard 2.0 আৰু .Net 8-ত নিৰ্মাণ কৰা হৈছে।
 
 <table>
 <tbody>
 <tr>
 <td>JsonSchema.Net<br><a href="https://www.nuget.org/packages/JsonSchema.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.svg?svg=true"></img></a></td>
-<td><a href="https://json-schema.org">JSON Schema</a>, drafts 6 আৰু তাৰ ওপৰৰ সংস্কৰণ</td>
+<td><a href="https://json-schema.org">JSON Schema</a>, draft 6 আৰু তাৰ ওপৰৰ সংস্কৰণ</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.Generation<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.svg?svg=true"></img></a></td>
-<td>.Net টাইপৰ পৰা স্কিমা সৃষ্টি</td>
+<td>.Net টাইপসমূহৰ পৰা স্কিমা সৃষ্টি</td>
 </tr>
 <tr>
+<td>JsonSchema.Net.Api<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Api/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Api.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Api.svg?svg=true"></img></a></td>
+<td>ASP.Net API-সমূহৰ বাবে JSON Schema বৈধতা</td>
+</tr>
+<tr>
+<tr>
 <td>JsonSchema.Net.Generation.DataAnnotations<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation.DataAnnotations/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true"></img></a></td>
-<td><em>System.ComponentModel.DataAnnotations</em>-ৰ বাবে স্কিমা সৃষ্টি সহায়।</td>
+<td><em>System.ComponentModel.DataAnnotations</em> ৰ বাবে স্কিমা সৃষ্টি সহায়।</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.DataGeneration<br><a href="https://www.nuget.org/packages/JsonSchema.Net.DataGeneration/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.DataGeneration.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.DataGeneration.svg?svg=true"></img></a></td>
-<td>যাদৃচ্ছিক ইনস্টেন্স ডাটা সৃষ্টি (<a href="https://github.com/bchavez/Bogus">Bogus</a>-ৰ দ্বাৰা চালিত)</td>
+<td>যাদৃচ্ছিক দৃষ্টান্ত তথ্য উৎপাদন (<a href="https://github.com/bchavez/Bogus">Bogus</a> দ্বাৰা শক্তিশালী)</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.Data<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Data/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Data.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Data.svg?svg=true"></img></a></td>
-<td>ইনস্টেন্স আৰু বাহ্যিক ডাটা এক্সেছ কৰাৰ বাবে শব্দভঁৰালি</td>
+<td>ইনষ্টেন্স আৰু বাহ্যিক তথ্য প্ৰৱেশ কৰিবলৈ এটা শব্দভাণ্ডাৰ</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.ArrayExt<br><a href="https://www.nuget.org/packages/JsonSchema.Net.ArrayExt/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.ArrayExt.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.ArrayExt.svg?svg=true"></img></a></td>
-<td>এৰে ভেলিডেশ্যন বিস্তাৰ কৰাৰ বাবে শব্দভঁৰালি</td>
+<td>এৰ্ৰে বৈধতাৰ প্ৰসাৰণৰ বাবে এটা শব্দভাণ্ডাৰ</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.OpenApi<br><a href="https://www.nuget.org/packages/JsonSchema.Net.OpenApi/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.OpenApi.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.OpenApi.svg?svg=true"></img></a></td>
-<td><a href="https://www.openapis.org/">OpenApi 3.1</a> শব্দভঁৰালি বিস্তাৰ ( <a href="https://github.com/gregsdennis/Graeae">Graeae</a>-ত ব্যৱহৃত)</td>
+<td><a href="https://www.openapis.org/">OpenApi 3.1</a> শব্দভাণ্ডাৰ প্ৰসাৰণ ( <a href="https://github.com/gregsdennis/Graeae">Graeae</a> দ্বাৰা ব্যৱহৃত )</td>
 </tr>
 <tr>
 <td>JsonPath.Net<br><a href="https://www.nuget.org/packages/JsonPath.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonPath.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonPath.Net.svg?svg=true"></img></a></td>
@@ -139,81 +150,82 @@
 </tr>
 <tr>
 <td>Json.More.Net<br><a href="https://www.nuget.org/packages/Json.More.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Json.More.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Json.More.Net.svg?svg=true"></img></a></td>
-<td>সাধাৰণ ব্যৱহাৰৰ বিস্তাৰ, যিবোৰ সম্ভৱত <em>System.Text.Json[.Nodes]</em>ত অন্তর্ভুক্ত হ’ব লাগে আছিল, কিন্তু হোৱা নাছিল</td>
+<td>সাধাৰণ ব্যৱহাৰযোগ্য প্ৰসাৰণ, যিবোৰ <em>System.Text.Json[.Nodes]</em> ত অন্তৰ্ভুক্ত হ’ব লাগিছিল কিন্তু নহ’ল</td>
 </tr>
 <tr>
 <td>Yaml2JsonNode<br><a href="https://www.nuget.org/packages/Yaml2JsonNode/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Yaml2JsonNode.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Yaml2JsonNode.svg?svg=true"></img></a></td>
-<td><a href="https://github.com/aaubry/YamlDotNet">YamlDotNet</a>ৰ YAML ডকুমেন্ট মডেল আৰু <code>JsonNode</code>ৰ মাজত পৰিৱৰ্তন (উভয় দিশতে)।</td>
+<td><a href="https://github.com/aaubry/YamlDotNet">YamlDotNet</a> ত YAML নথি মডেল আৰু <code>JsonNode</code> (উভয় দিশত)ৰ মাজত ৰূপান্তৰণ।</td>
 </tr>
 </tbody>
 </table>
+উপৰোক্ত সকলো লাইব্ৰেৰীয়ে তেওঁলোকৰ সংশ্লিষ্ট স্পেচিফিকেশ্যনসমূহৰ সম্পূৰ্ণ সহায় প্ৰদান কৰে।
 
-উপৰোক্ত সকলো লাইব্রেৰীসমূহে নিজৰ সম্পৰ্কিত স্পেচিফিকেশ্যনসমূহৰ পূৰ্ণ সমৰ্থন প্ৰদান কৰে।
+_JsonSchema.Net_ ৰ বাবে ত্ৰুটিৰ বার্তা অনুবাদ উপলব্ধ:
 
-_JsonSchema.Net_ৰ বাবে ত্ৰুটি বার্তা অনুবাদ উপলব্ধ:
-
-- ইটালিয়ান `it`
-- নৰৱেজিয়ান `nb-NO`
+- ইটালিয়ান `it`
+- নৰৱেগিয়ান `nb-NO`
 - পোলিশ `pl-PL`
-- ৰাছিয়ান `ru`
-- স্পেনিছ `es`
+- পোৰ্তুগীজ `pt`
+- ৰাছিয়ান `ru`
+- স্পেনিশ `es`
 - ছুইডিছ `sv-SE`
 - তুৰ্কী `tr-TR`
 
-***টোকা** প্ৰতিটো ভাষা পেক নিজৰ Nuget পেকেজৰ দ্বাৰা প্ৰদান কৰা হৈছে।*
+***নোট** প্ৰত্যেক ভাষা পেকেজ নিজৰ Nuget পেকেজৰ দ্বাৰা প্ৰদান কৰা হৈছে।*
 
-আপুনি JSON Schema Test Suite ফলাফলসমূহ [Bowtie](https://bowtie-json-schema.github.io/bowtie)-তো পৰ্যবেক্ষণ কৰিব পাৰিব, যি একাধিক প্লেটফৰ্মত বিভিন্ন ইমপ্লিমেন্টেশ্যনৰ ওপৰত টেষ্ট সুইট চলায়।
+আপুনি JSON Schema Test Suite ফলাফলসমূহ [Bowtie](https://bowtie-json-schema.github.io/bowtie) ত চাই পাব, যি বিভিন্ন প্লেটফৰ্মত একাধিক ইমপ্লিমেণ্টেশ্যনৰ ওপৰত টেষ্ট চুট চলায়।
 
-***ডিসক্লেইমাৰ** মোৰ লাইব্ৰেৰী, _JsonSchema.Net_, https://jsonschema.net ৱেবছাইটৰ সৈতে সম্পৰ্কিত বা সংযুক্ত নহয়, কেৱল এই দুইটা উৎকৃষ্ট JSON Schema টুল।*
+***বিৰতি** মোৰ লাইব্ৰেৰী, _JsonSchema.Net_, https://jsonschema.net ৱেবচাইটৰ সৈতে সম্পর্কিত বা সংযুক্ত নহয়, কেৱল এই দুয়োটাই উৎকৃষ্ট JSON Schema টুল।*
 
-### অৱসৰগ্ৰহণ কৰা পেকেজসমূহ
+### প্ৰত্যাহৃত পেকেজসমূহ
 
-এই পেকেজসমূহ এই ছুইটৰ অংশ আছিল, কিন্তু এতিয়া সমৰ্থিত নহয়।
+এই পেকেজসমূহো এই চুটৰ অংশ আছিল, কিন্তু এতিয়া সমৰ্থিত নহয়।
 
 <table>
 <tbody>
 <tr>
 <td>JsonSchema.Net.CodeGeneration<br><a href="https://www.nuget.org/packages/JsonSchema.Net.CodeGeneration/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.CodeGeneration.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.CodeGeneration.svg?svg=true"></img></a></td>
-<td>স্কিমাৰ পৰা C# ক'ড উৎপাদন</td>
-<td><a href="https://github.com/corvus-dotnet/Corvus.JsonSchema">Corvus.JsonSchema</a>-ৰ বাবে অৱসৰগ্ৰহণ কৰা</td>
+<td>স্কিমাৰ পৰা C# কোড জেনাৰেচন</td>
+<td><a href="https://github.com/corvus-dotnet/Corvus.JsonSchema">Corvus.JsonSchema</a> ৰ সুবিধাত প্ৰত্যাহৃত</td>
 </tr>
 </tbody>
 </table>
 
 
-## _System.Text.Json_ অন্যান্য প্ৰকল্পসমূহৰ সমৰ্থন
+## _System.Text.Json_ অন্যান্য প্ৰকল্পৰ দ্বাৰা সমৰ্থন
 
-আপুনি ইয়াত আপোনাৰ বিচৰা বস্তু নাপালে, অনুগ্ৰহ কৰি এই উৎকৃষ্ট প্ৰকল্পসমূহৰ এটা চেষ্টা কৰক:
+যদি আপুনি ইয়াত আপোনাৰ প্ৰয়োজনীয় বস্তু নাপাওঁ, অনুগ্ৰহ কৰি এই উৎকৃষ্ট প্ৰকল্পসমূহ চাওঁক:
 
-- [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) ([danielaparker](https://github.com/danielaparker))-ৰ দ্বাৰা
+- [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) by [@danielaparker](https://github.com/danielaparker)
+
   - JSON Pointer
   - JSON Patch
   - JSON Merge Patch
   - JSON Path
   - JMES Path
-- [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) ([mwadams](https://github.com/mwadams))-ৰ দ্বাৰা
-  - C# ক'ড উৎপাদনৰ ফোকাছসহ JSON Schema ভেলিডেচন
-- (আৰু আহিব)
+- [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) দ্বাৰা [@mwadams](https://github.com/mwadams)
+  - JSON Schema মান্যতা C# ক'ড জেনাৰেশ্যনক কেন্দ্ৰ কৰি
+- (অধিক আহিব)
 
-আপুনি যদি JSON ব্যৱহাৰ কৰি এনে কিবা কৰে যি এই ছুইট বা ওপৰৰ প্ৰকল্পসমূহৰ কোনো লাইব্ৰেৰীত অন্তৰ্ভুক্ত নহয়, অনুগ্ৰহ কৰি [feature issue সৃষ্টি কৰক](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml)।
+আপুনি যদি JSON ব্যৱহাৰ কৰে যি এই সুইটত থকা কোনো লাইব্ৰেৰী বা ওপৰত উল্লেখ কৰা প্ৰকল্পৰ দ্বাৰা ঢাকনি কৰা নহয়, অনুগ্ৰহ কৰি [এটা ফিচাৰ ইস্যু সৃষ্টি কৰক](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml)।
 
-আপুনি যদি _System.Text.Json_-ক বঢ়াই অন্য কিবা দ্ৰুত কাম কৰিব পৰা প্ৰকল্পৰ বিষয়ে জানেনে বা পৰিচালনা কৰে, মই ইয়াত তালিকাভুক্ত কৰিব বিচাৰোঁ, গতিকে [সাধাৰণ issue সৃষ্টি কৰক](https://github.com/json-everything/json-everything/issues/new) মোক জনাবলৈ।
+আপুনি যদি কোনো আন প্ৰকল্পৰ ৰক্ষণাবেক্ষণ কৰে বা জানে, যি _System.Text.Json_ লৈ অধিক উন্নত কাম কৰিব পাৰে, মই ইয়াত তালিকা দিব বিচাৰো, গতিকে অনুগ্ৰহ কৰি [এটা সাধাৰণ ইস্যু সৃষ্টি কৰক](https://github.com/json-everything/json-everything/issues/new) মোক জানিবলৈ।
 
 ## অৱদান
 
-অনুগ্ৰহ কৰি অধিক তথ্যৰ বাবে [ক’ড অৱ ক’ণ্ডাক্ট](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) আৰু [CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) ফাইলটো চাওক।
+অনুগ্ৰহ কৰি অধিক তথ্যৰ বাবে [Code of Conduct](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) আৰু [CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) ফাইল চাওক।
 
-## পৃষ্ঠপোষকতা
+## স্পনসরশিপ
 
-যদি আপুনি এই লাইব্ৰেৰীসমূহ উপকাৰী বুলি পাইছে আৰু আগলৈও উন্নয়ন আগবঢ়াবলৈ উৎসাহ দিব বিচাৰে, অনুগ্ৰহ কৰি [maintainers-সমূহক পৃষ্ঠপোষকতা কৰক](https://github.com/sponsors/gregsdennis)।
+আপুনি যদি এই লাইব্ৰেৰীসমূহ উপকাৰি বুলি পাইছ আৰু আগবাঢ়ি উন্নয়নক উৎসাহিত কৰিব বিচাৰিছে, অনুগ্ৰহ কৰি [প্ৰধান ৰক্ষণাবেক্ষণকাৰীসকলক স্পনসর কৰক](https://github.com/sponsors/gregsdennis)।
 
 ## .NET Foundation
 
-এই প্ৰকল্পটো [.NET Foundation](https://dotnetfoundation.org) দ্বাৰা সমৰ্থিত।
+এই প্ৰকল্প [.NET Foundation](https://dotnetfoundation.org) দ্বাৰা সমৰ্থিত।
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-12
 
 ---

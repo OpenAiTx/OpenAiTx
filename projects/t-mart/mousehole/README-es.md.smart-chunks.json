@@ -1,0 +1,1264 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Mousehole, a Seedbox IP Updater for MAM\n\nA background service to update a seedbox IP for MAM and an HTTP server to manage\nit.\n\n![Mousehole Demo](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/images/demo.webp)\n\nThis can be helpful if you are using a host/VPN/seedbox to seed and its IP\naddress is not stable.\n\nFeatures:\n\n- Background service that regularly updates MAM with the IP address of the host.\n\n  Before an update, Mousehole checks that it actually needs to update by\n  comparing the host's current IP address and AS and with the last MAM response.\n\n- Frontend website to manage the service, allowing:\n\n  - Setting your MAM cookie\n  - Displaying status information\n  - Manual triggering of checks\n\n- API server with management endpoints.\n\n  See [API.md](https://github.com/t-mart/mousehole/blob/master/docs/API.md) for\n  details.\n\n## Getting Started\n\nTo use Mousehole, you need to:\n\n1. [Run the service](#running-the-service)\n2. [Set your MAM cookie via the web interface](#setting-your-mam-cookie)\n3. [Handle MAM errors](#handling-errors) (if any)\n\n### Running the service\n\n#### Docker Compose (recommended)\n",
+    "ContentSha": "DhnFwt1pbCg7a5yjdxRqk3NgNLfasj5Eyz1y+th+EPw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Mousehole, un Actualizador de IP para Seedbox en MAM\n\nUn servicio en segundo plano para actualizar la IP de una seedbox para MAM y un servidor HTTP para gestionarlo.\n\n![Mousehole Demo](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/images/demo.webp)\n\nEsto puede ser útil si usas un host/VPN/seedbox para sembrar y su dirección IP no es estable.\n\nCaracterísticas:\n\n- Servicio en segundo plano que actualiza regularmente MAM con la dirección IP del host.\n\n  Antes de una actualización, Mousehole verifica si realmente necesita actualizar\n  comparando la IP actual del host y el AS con la última respuesta de MAM.\n\n- Sitio web frontend para gestionar el servicio, permitiendo:\n\n  - Configurar tu cookie de MAM\n  - Mostrar información de estado\n  - Activar comprobaciones manualmente\n\n- Servidor API con endpoints de gestión.\n\n  Consulta [API.md](https://github.com/t-mart/mousehole/blob/master/docs/API.md) para\n  más detalles.\n\n## Primeros Pasos\n\nPara usar Mousehole, necesitas:\n\n1. [Ejecutar el servicio](#running-the-service)\n2. [Configurar tu cookie de MAM vía la interfaz web](#setting-your-mam-cookie)\n3. [Manejar errores de MAM](#handling-errors) (si los hay)\n\n### Ejecutando el servicio\n\n#### Docker Compose (recomendado)\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LAWP8hBwXaWmOfEo7SlRKwsKOnS7pJAJQNnHwF5JIwU=",
+        "originContent": "# Mousehole, a Seedbox IP Updater for MAM",
+        "translatedContent": "# Mousehole, un Actualizador de IP para Seedbox en MAM"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "E/EDwgOiYGdOwLNu36V4NXAgcfit/BGdakjdyw9XLKo=",
+        "originContent": "A background service to update a seedbox IP for MAM and an HTTP server to manage",
+        "translatedContent": "Un servicio en segundo plano para actualizar la IP de una seedbox para MAM y un servidor HTTP para gestionarlo."
+      },
+      {
+        "row": 4,
+        "rowsha": "WttoosCvlG/A5CRTun3nYhTH2FSsMPsZTcTAM0KdStg=",
+        "originContent": "it.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![Mousehole Demo](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/images/demo.webp)"
+      },
+      {
+        "row": 6,
+        "rowsha": "IfsD0muhOzz0ErKwsEmD9PSThuIp/DqaH1exkho9hMg=",
+        "originContent": "![Mousehole Demo](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/images/demo.webp)",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Esto puede ser útil si usas un host/VPN/seedbox para sembrar y su dirección IP no es estable."
+      },
+      {
+        "row": 8,
+        "rowsha": "fNSE8FOR5SUSfgdQ/QxTyNpewE5a86DU9sDcOfb0jFo=",
+        "originContent": "This can be helpful if you are using a host/VPN/seedbox to seed and its IP",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "8fCtLhZgcaxu3b7hVHcU6DOD1eWB4ZiaPuPHQDmuGg4=",
+        "originContent": "address is not stable.",
+        "translatedContent": "Características:"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "e4hgdvJgNoK8Q5OhPPLTjy7Cw+ICPXtZFjlH7tEw0fI=",
+        "originContent": "Features:",
+        "translatedContent": "- Servicio en segundo plano que actualiza regularmente MAM con la dirección IP del host."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "NNP8Wv641sA59Wo+f3yV1IZwv0WEvooA0XzgPhcCVwU=",
+        "originContent": "- Background service that regularly updates MAM with the IP address of the host.",
+        "translatedContent": "  Antes de una actualización, Mousehole verifica si realmente necesita actualizar"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  comparando la IP actual del host y el AS con la última respuesta de MAM."
+      },
+      {
+        "row": 15,
+        "rowsha": "GOqF0fhmxQ8VlXT168Ol5+Fivz9Kf8SOoqx9PulkPc8=",
+        "originContent": "  Before an update, Mousehole checks that it actually needs to update by",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "a4lynmkW1Y/H1AxMH7TUiCLUVZpJX+Q4ebYmky8SVgw=",
+        "originContent": "  comparing the host's current IP address and AS and with the last MAM response.",
+        "translatedContent": "- Sitio web frontend para gestionar el servicio, permitiendo:"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "RLMOTHj5migxT5mKpkPl/uQodsqSbGc2uqTcJ25H+lY=",
+        "originContent": "- Frontend website to manage the service, allowing:",
+        "translatedContent": "  - Configurar tu cookie de MAM"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  - Mostrar información de estado"
+      },
+      {
+        "row": 20,
+        "rowsha": "TLSkXX8o+LU2sDzCxe9M4HdRguyCpCbM/ndnPEZQp6s=",
+        "originContent": "  - Setting your MAM cookie",
+        "translatedContent": "  - Activar comprobaciones manualmente"
+      },
+      {
+        "row": 21,
+        "rowsha": "b0hSYqx4+fsNBixUqwO2hW3Cg/zePiGcKnuH9LpfOV4=",
+        "originContent": "  - Displaying status information",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "CPTrtEae/4YuS3HjTmf4I5EsDsgvPc1FLfxmxJ2yiVQ=",
+        "originContent": "  - Manual triggering of checks",
+        "translatedContent": "- Servidor API con endpoints de gestión."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "M/Y0yqYvkmb9zvvQOpGi70qgreadlJX1hrmJEkgoGdc=",
+        "originContent": "- API server with management endpoints.",
+        "translatedContent": "  Consulta [API.md](https://github.com/t-mart/mousehole/blob/master/docs/API.md) para"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  más detalles."
+      },
+      {
+        "row": 26,
+        "rowsha": "3oPIOB0UL89dtLPSZzfZGcEIE4mUNDEFSIGpRq7YN7Y=",
+        "originContent": "  See [API.md](https://github.com/t-mart/mousehole/blob/master/docs/API.md) for",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "1NLuuZKT0UHK1hAirS+HFnn/dC/gGjPbygjq/BH+Awg=",
+        "originContent": "  details.",
+        "translatedContent": "## Primeros Pasos"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "Para usar Mousehole, necesitas:"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "ktYpFxhhEDJZo/kZZ8mnEe3CMj/YiYitA+6f1PaDBHY=",
+        "originContent": "To use Mousehole, you need to:",
+        "translatedContent": "1. [Ejecutar el servicio](#running-the-service)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. [Configurar tu cookie de MAM vía la interfaz web](#setting-your-mam-cookie)"
+      },
+      {
+        "row": 33,
+        "rowsha": "Ik9DMbUs+pOhfLsN1ZHVPVxF+d+TpLCbrpymT6TnM+Q=",
+        "originContent": "1. [Run the service](#running-the-service)",
+        "translatedContent": "3. [Manejar errores de MAM](#handling-errors) (si los hay)"
+      },
+      {
+        "row": 34,
+        "rowsha": "hZY6a25REUGeCRTUX2nutNwogbMhCjA7gc+kHXb/Jy4=",
+        "originContent": "2. [Set your MAM cookie via the web interface](#setting-your-mam-cookie)",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "bvJ/iSv16EIVXO0ByfChj/Ro0a5vGRtJbz0WYYzzKiQ=",
+        "originContent": "3. [Handle MAM errors](#handling-errors) (if any)",
+        "translatedContent": "### Ejecutando el servicio"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "7p34QrfkEUz4qLGq2CFYxKktsGPNrhDfCCX2qr/vqzc=",
+        "originContent": "### Running the service",
+        "translatedContent": "#### Docker Compose (recomendado)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "v4k2PBxIgTZVv3Jsf/JfIiwKiObGWPwZkPKo+nFVSfc=",
+        "originContent": "#### Docker Compose (recommended)",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```yaml\nservices:\n  gluetun:\n    image: qmcgaw/gluetun:latest\n    cap_add:\n      - NET_ADMIN\n    devices:\n      - /dev/net/tun:/dev/net/tun\n    ports:\n      - \"5010:5010\" # Mousehole port\n      - \"8080:8080\" # qBittorrent Web UI port\n      - \"6881:6881/tcp\" # qBittorrent TCP torrent port\n      - \"6881:6881/udp\" # qBittorrent UDP torrent port\n    environment:\n      VPN_SERVICE_PROVIDER: \"your-vpn-provider\"\n      FIREWALL_VPN_INPUT_PORTS: \"6881\" # qBittorrent torrent\n      # more is needed here -- see Gluetun documentation\n      # https://github.com/qdm12/gluetun-wiki\n      # https://github.com/qdm12/gluetun-wiki/tree/main/setup/providers\n    restart: unless-stopped\n\n  qbittorrent:\n    image: lscr.io/linuxserver/qbittorrent:latest\n    network_mode: \"service:gluetun\"\n    environment:\n      TZ: Etc/UTC # Set to your timezone for localization\n      WEBUI_PORT: 8080\n      TORRENTING_PORT: 6881\n    restart: unless-stopped\n\n  mousehole:\n    image: tmmrtn/mousehole:latest\n    network_mode: \"service:gluetun\"\n    environment:\n      TZ: Etc/UTC # Set to your timezone for localization\n    volumes:\n      # persist cookie data across container restarts\n      - \"mousehole:/srv/mousehole\"\n    restart: unless-stopped\n\nvolumes:\n  mousehole:\n```",
+    "ContentSha": "fNhmjgVH+KBM9LD5PqnN4nVqecCzGSA7SDce4FT3JRc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\nservices:\n  gluetun:\n    image: qmcgaw/gluetun:latest\n    cap_add:\n      - NET_ADMIN\n    devices:\n      - /dev/net/tun:/dev/net/tun\n    ports:\n      - \"5010:5010\" # Mousehole port\n      - \"8080:8080\" # qBittorrent Web UI port\n      - \"6881:6881/tcp\" # qBittorrent TCP torrent port\n      - \"6881:6881/udp\" # qBittorrent UDP torrent port\n    environment:\n      VPN_SERVICE_PROVIDER: \"your-vpn-provider\"\n      FIREWALL_VPN_INPUT_PORTS: \"6881\" # qBittorrent torrent\n      # more is needed here -- see Gluetun documentation\n      # https://github.com/qdm12/gluetun-wiki\n      # https://github.com/qdm12/gluetun-wiki/tree/main/setup/providers\n    restart: unless-stopped\n\n  qbittorrent:\n    image: lscr.io/linuxserver/qbittorrent:latest\n    network_mode: \"service:gluetun\"\n    environment:\n      TZ: Etc/UTC # Set to your timezone for localization\n      WEBUI_PORT: 8080\n      TORRENTING_PORT: 6881\n    restart: unless-stopped\n\n  mousehole:\n    image: tmmrtn/mousehole:latest\n    network_mode: \"service:gluetun\"\n    environment:\n      TZ: Etc/UTC # Set to your timezone for localization\n    volumes:\n      # persist cookie data across container restarts\n      - \"mousehole:/srv/mousehole\"\n    restart: unless-stopped\n\nvolumes:\n  mousehole:\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
+        "originContent": "services:",
+        "translatedContent": "services:"
+      },
+      {
+        "row": 3,
+        "rowsha": "bLiNIAhwiyZ2pmn3GOa8Ixtka0sSEvnywfYpTJHFKyY=",
+        "originContent": "  gluetun:",
+        "translatedContent": "  gluetun:"
+      },
+      {
+        "row": 4,
+        "rowsha": "LAbx4MIW0T9iPrbj2VHil+l+j78HBLlnemCVwjcH6Mg=",
+        "originContent": "    image: qmcgaw/gluetun:latest",
+        "translatedContent": "    image: qmcgaw/gluetun:latest"
+      },
+      {
+        "row": 5,
+        "rowsha": "BwoHl6+bMMlV6oB1EZNyKVAKfYpahgsUOWH3ak7JAwc=",
+        "originContent": "    cap_add:",
+        "translatedContent": "    cap_add:"
+      },
+      {
+        "row": 6,
+        "rowsha": "dJ5SH3BNGbLggYvkNfamQjNs2etukttgaECtEgbTx94=",
+        "originContent": "      - NET_ADMIN",
+        "translatedContent": "      - NET_ADMIN"
+      },
+      {
+        "row": 7,
+        "rowsha": "jKlTQOdSI1ulf43J5YF6L2MU5nODeCjXCpcLEx+IZsw=",
+        "originContent": "    devices:",
+        "translatedContent": "    devices:"
+      },
+      {
+        "row": 8,
+        "rowsha": "yqkMUL+y0/mdnxWPanRn43qNzurHDwzaPRy0XrEGvTc=",
+        "originContent": "      - /dev/net/tun:/dev/net/tun",
+        "translatedContent": "      - /dev/net/tun:/dev/net/tun"
+      },
+      {
+        "row": 9,
+        "rowsha": "zC/pizDWyg3Eifixwj057XWlvpROf11Egbzi6yNsUnM=",
+        "originContent": "    ports:",
+        "translatedContent": "    ports:"
+      },
+      {
+        "row": 10,
+        "rowsha": "S4g9ODNS0DYuSNsHI7jE8ltgi5HizUlGYUlZ0tvxCaA=",
+        "originContent": "      - \"5010:5010\" # Mousehole port",
+        "translatedContent": "      - \"5010:5010\" # Mousehole port"
+      },
+      {
+        "row": 11,
+        "rowsha": "K3u0fdmjOCI7MCp78A+5drcs/2bL2jmnL1oeLExL/1Q=",
+        "originContent": "      - \"8080:8080\" # qBittorrent Web UI port",
+        "translatedContent": "      - \"8080:8080\" # qBittorrent Web UI port"
+      },
+      {
+        "row": 12,
+        "rowsha": "BCuqppgka5E63nj8108UJ5rbJj5WKLD0dEggvxZEt90=",
+        "originContent": "      - \"6881:6881/tcp\" # qBittorrent TCP torrent port",
+        "translatedContent": "      - \"6881:6881/tcp\" # qBittorrent TCP torrent port"
+      },
+      {
+        "row": 13,
+        "rowsha": "hSZIhiTWZn2uw/lZlJU/HkCDHj0cryYJalCmc128+ZQ=",
+        "originContent": "      - \"6881:6881/udp\" # qBittorrent UDP torrent port",
+        "translatedContent": "      - \"6881:6881/udp\" # qBittorrent UDP torrent port"
+      },
+      {
+        "row": 14,
+        "rowsha": "sXkJpyEkylNBzPW3kPxoGEaBxerjm/Gi42tQVe+pZ+E=",
+        "originContent": "    environment:",
+        "translatedContent": "    environment:"
+      },
+      {
+        "row": 15,
+        "rowsha": "PyZePDD+OyTKMWYP8tB36rPAeusObU3uFaaysucE7A0=",
+        "originContent": "      VPN_SERVICE_PROVIDER: \"your-vpn-provider\"",
+        "translatedContent": "      VPN_SERVICE_PROVIDER: \"your-vpn-provider\""
+      },
+      {
+        "row": 16,
+        "rowsha": "SZffoZzj64Pbns41HdsuuJN2lGijVXXLb0FoT8+FX9g=",
+        "originContent": "      FIREWALL_VPN_INPUT_PORTS: \"6881\" # qBittorrent torrent",
+        "translatedContent": "      FIREWALL_VPN_INPUT_PORTS: \"6881\" # qBittorrent torrent"
+      },
+      {
+        "row": 17,
+        "rowsha": "1UhQ2CqyFAADUR53rGxeW3fYobxYVpjvb+yZSIT0Ztw=",
+        "originContent": "      # more is needed here -- see Gluetun documentation",
+        "translatedContent": "      # more is needed here -- see Gluetun documentation"
+      },
+      {
+        "row": 18,
+        "rowsha": "Khk7E8G7wtQNgHBSN3lTKmDglthNHCZVfst4xN6WiE0=",
+        "originContent": "      # https://github.com/qdm12/gluetun-wiki",
+        "translatedContent": "      # https://github.com/qdm12/gluetun-wiki"
+      },
+      {
+        "row": 19,
+        "rowsha": "9+8wTMzAIYIKzw9TXYnYMSrDBNO05fVi+YlP77kUhtA=",
+        "originContent": "      # https://github.com/qdm12/gluetun-wiki/tree/main/setup/providers",
+        "translatedContent": "      # https://github.com/qdm12/gluetun-wiki/tree/main/setup/providers"
+      },
+      {
+        "row": 20,
+        "rowsha": "oqdQNjD0F32EJ8w6vZoeVMg3BE8Mgh+0Cyujme5MEyg=",
+        "originContent": "    restart: unless-stopped",
+        "translatedContent": "    restart: unless-stopped"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "iEsG5B45RAhahS+Fvj/nR38CZV3D2akoLyzupE+4KTo=",
+        "originContent": "  qbittorrent:",
+        "translatedContent": "  qbittorrent:"
+      },
+      {
+        "row": 23,
+        "rowsha": "uhuvDYUVrdSBFAwLNSQiGzapdT07s8313z+jkjYdDsk=",
+        "originContent": "    image: lscr.io/linuxserver/qbittorrent:latest",
+        "translatedContent": "    image: lscr.io/linuxserver/qbittorrent:latest"
+      },
+      {
+        "row": 24,
+        "rowsha": "8kF82DOYsnsVdux0Yndrw0hKfu7XOTmrN0aUm39XSIY=",
+        "originContent": "    network_mode: \"service:gluetun\"",
+        "translatedContent": "    network_mode: \"service:gluetun\""
+      },
+      {
+        "row": 25,
+        "rowsha": "sXkJpyEkylNBzPW3kPxoGEaBxerjm/Gi42tQVe+pZ+E=",
+        "originContent": "    environment:",
+        "translatedContent": "    environment:"
+      },
+      {
+        "row": 26,
+        "rowsha": "DqTC9yqnOppZd+BSaSE/lnX2A43pYb2Zd4rDVNHRWEU=",
+        "originContent": "      TZ: Etc/UTC # Set to your timezone for localization",
+        "translatedContent": "      TZ: Etc/UTC # Set to your timezone for localization"
+      },
+      {
+        "row": 27,
+        "rowsha": "NykBXAtrtNfaiBk7uS0T7SfZHS90AHaVrKqcYMXUYxE=",
+        "originContent": "      WEBUI_PORT: 8080",
+        "translatedContent": "      WEBUI_PORT: 8080"
+      },
+      {
+        "row": 28,
+        "rowsha": "AVkbviHSw7F3ADWDy4w3drbfRmW+pJLQY4t65CF6Tzc=",
+        "originContent": "      TORRENTING_PORT: 6881",
+        "translatedContent": "      TORRENTING_PORT: 6881"
+      },
+      {
+        "row": 29,
+        "rowsha": "oqdQNjD0F32EJ8w6vZoeVMg3BE8Mgh+0Cyujme5MEyg=",
+        "originContent": "    restart: unless-stopped",
+        "translatedContent": "    restart: unless-stopped"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "9S10vCg/iWqDur8WL/QjNWykracnifWU5UMsCVHZBS4=",
+        "originContent": "  mousehole:",
+        "translatedContent": "  mousehole:"
+      },
+      {
+        "row": 32,
+        "rowsha": "OSKTWobHO+yvOddxUTVGumUOVgVLUVkmHesZGVC/2mc=",
+        "originContent": "    image: tmmrtn/mousehole:latest",
+        "translatedContent": "    image: tmmrtn/mousehole:latest"
+      },
+      {
+        "row": 33,
+        "rowsha": "8kF82DOYsnsVdux0Yndrw0hKfu7XOTmrN0aUm39XSIY=",
+        "originContent": "    network_mode: \"service:gluetun\"",
+        "translatedContent": "    network_mode: \"service:gluetun\""
+      },
+      {
+        "row": 34,
+        "rowsha": "sXkJpyEkylNBzPW3kPxoGEaBxerjm/Gi42tQVe+pZ+E=",
+        "originContent": "    environment:",
+        "translatedContent": "    environment:"
+      },
+      {
+        "row": 35,
+        "rowsha": "DqTC9yqnOppZd+BSaSE/lnX2A43pYb2Zd4rDVNHRWEU=",
+        "originContent": "      TZ: Etc/UTC # Set to your timezone for localization",
+        "translatedContent": "      TZ: Etc/UTC # Set to your timezone for localization"
+      },
+      {
+        "row": 36,
+        "rowsha": "1pMKVoreY6K5n87lYgkNRSAOv421w0HqHzH2XFXyySw=",
+        "originContent": "    volumes:",
+        "translatedContent": "    volumes:"
+      },
+      {
+        "row": 37,
+        "rowsha": "BJ1grJxO7QUv2vDEiu+zBEnee3EWRBGqKgMlh/eebIs=",
+        "originContent": "      # persist cookie data across container restarts",
+        "translatedContent": "      # persist cookie data across container restarts"
+      },
+      {
+        "row": 38,
+        "rowsha": "NWhH85O+taNH+A5b155IcPoPrYrsdm7DzXdyZ0ySPrQ=",
+        "originContent": "      - \"mousehole:/srv/mousehole\"",
+        "translatedContent": "      - \"mousehole:/srv/mousehole\""
+      },
+      {
+        "row": 39,
+        "rowsha": "oqdQNjD0F32EJ8w6vZoeVMg3BE8Mgh+0Cyujme5MEyg=",
+        "originContent": "    restart: unless-stopped",
+        "translatedContent": "    restart: unless-stopped"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 41,
+        "rowsha": "xddxS2HZSubkNLvKyLE6I4v1XoveCG3wK8nGhaS9vwo=",
+        "originContent": "volumes:",
+        "translatedContent": "volumes:"
+      },
+      {
+        "row": 42,
+        "rowsha": "9S10vCg/iWqDur8WL/QjNWykracnifWU5UMsCVHZBS4=",
+        "originContent": "  mousehole:",
+        "translatedContent": "  mousehole:"
+      },
+      {
+        "row": 43,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n\nStarter Docker Compose examples:\n\n- ⭐ [Gluetun + qBittorrent + Mousehole](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/gluetun-qb.md)\n- [Wireguard + qBittorrent + Mousehole](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/wireguard-qb.md)\n- [Non-VPN Example](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/non-vpn.md)\n\nAny VPN setup can be adapted to include Mousehole as a sidecar. See\n[Using Mousehole as a Sidecar with Docker Compose](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/sidecars.md) for\ndetails.\n\n#### Unraid\n\nSee the [Unraid Installation Guide](https://raw.githubusercontent.com/t-mart/mousehole/master/./contrib/unraid/README.md) for\ninstructions.\n\n#### Local\n\nRun the server with:\n",
+    "ContentSha": "W9LveLymePSeMNAZqEFyQE432LmikGIoDgFNA9PQoTY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n\nEjemplos iniciales de Docker Compose:\n\n- ⭐ [Gluetun + qBittorrent + Mousehole](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/gluetun-qb.md)\n- [Wireguard + qBittorrent + Mousehole](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/wireguard-qb.md)\n- [Ejemplo sin VPN](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/non-vpn.md)\n\nCualquier configuración de VPN puede adaptarse para incluir Mousehole como sidecar. Ver\n[Uso de Mousehole como Sidecar con Docker Compose](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/sidecars.md) para\nmás detalles.\n\n#### Unraid\n\nConsulte la [Guía de instalación de Unraid](https://raw.githubusercontent.com/t-mart/mousehole/master/./contrib/unraid/README.md) para\ninstrucciones.\n\n#### Local\n\nEjecute el servidor con:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "hXiVSgq/KybM2IXHYgCngN9tSwNOgVW++gKyvImkobo=",
+        "originContent": "Starter Docker Compose examples:",
+        "translatedContent": "Ejemplos iniciales de Docker Compose:"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "vfqM/aEgUDAFIf+pbGojJqZ07KnAbJj4vRGyxHKQJcY=",
+        "originContent": "- ⭐ [Gluetun + qBittorrent + Mousehole](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/gluetun-qb.md)",
+        "translatedContent": "- ⭐ [Gluetun + qBittorrent + Mousehole](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/gluetun-qb.md)"
+      },
+      {
+        "row": 6,
+        "rowsha": "mogTLZL1L6l+V/W5UojwWRRH7CgcbhpA8n6k9ArDUZc=",
+        "originContent": "- [Wireguard + qBittorrent + Mousehole](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/wireguard-qb.md)",
+        "translatedContent": "- [Wireguard + qBittorrent + Mousehole](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/wireguard-qb.md)"
+      },
+      {
+        "row": 7,
+        "rowsha": "1Op446lejXDvMXpbg5Oyf7sd2yOrKA6fG9XWATJKfMk=",
+        "originContent": "- [Non-VPN Example](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/non-vpn.md)",
+        "translatedContent": "- [Ejemplo sin VPN](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/non-vpn.md)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "6EBfZhTIhPOUPU+WKFLBydryXfH4TMTcQ/ikn6POyjo=",
+        "originContent": "Any VPN setup can be adapted to include Mousehole as a sidecar. See",
+        "translatedContent": "Cualquier configuración de VPN puede adaptarse para incluir Mousehole como sidecar. Ver"
+      },
+      {
+        "row": 10,
+        "rowsha": "Oqch8Stw4KfBR8QPd+CeUhAzuGS/yUxrgyykm/O+vwA=",
+        "originContent": "[Using Mousehole as a Sidecar with Docker Compose](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/sidecars.md) for",
+        "translatedContent": "[Uso de Mousehole como Sidecar con Docker Compose](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/sidecars.md) para"
+      },
+      {
+        "row": 11,
+        "rowsha": "aibhaU2ehSA45aRy7WtUzAI7Ss6KwQ10XK1CbV3AV/M=",
+        "originContent": "details.",
+        "translatedContent": "más detalles."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "vw7J89dYXE4f4lWk1zfrLZJUSj9o3h9TBe/DO0afSQk=",
+        "originContent": "#### Unraid",
+        "translatedContent": "#### Unraid"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "mMzk7nGfgN+EFkT7lqJy/W6NtBQJ3YOhtdsjCVfFfzI=",
+        "originContent": "See the [Unraid Installation Guide](https://raw.githubusercontent.com/t-mart/mousehole/master/./contrib/unraid/README.md) for",
+        "translatedContent": "Consulte la [Guía de instalación de Unraid](https://raw.githubusercontent.com/t-mart/mousehole/master/./contrib/unraid/README.md) para"
+      },
+      {
+        "row": 16,
+        "rowsha": "y9iQGnjgtTvtQAuJ6BJj8vxH/MGV8nPz1qro0Hses40=",
+        "originContent": "instructions.",
+        "translatedContent": "instrucciones."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "d/qJxZubM9F9/i11IEjih3YbFD7gyGoOeKOkruEJQ4E=",
+        "originContent": "#### Local",
+        "translatedContent": "#### Local"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "sEUy1XkEaNtjlLaOIk8J/UkCIREHOxqjC+aryF8+Odc=",
+        "originContent": "Run the server with:",
+        "translatedContent": "Ejecute el servidor con:"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nbun run start\n```",
+    "ContentSha": "UK4li6VqF5GFSxZh1ju3YLIlid8m5e3a+xsll2BGecg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbun run start\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "t3S7Sx8V5KCkpPaj+ZdZgTY0TclJd1F8ApxviDgJ5cY=",
+        "originContent": "bun run start",
+        "translatedContent": "bun run start"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Setting Your MAM Cookie\n\nOnce Mousehole is running, navigate to its web UI at `http://<host>:5010` in\nyour browser. This is likely to be <http://localhost:5010> if you are running it\nlocally.\n\nWhen running for the first time (or if the cookie gets out of sync), you need to\nset Mousehole's cookie manually.\n\nOn navigating to the Mousehole web interface, you will see a form to set the\ncookie -- paste your cookie and click the \"Set\" button.\n\n![Mousehole Cookie Form](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/images/cookie-form.png)\n\nIf you need help getting the cookie, click the \"What do I enter here?\" button\nfor a tutorial.\n\n\n### Handling Errors\n\nEven with Mousehole up and running, things can still go wrong that Mousehole\ncannot fix automatically. Here are some of the common ones:\n\n- [\"Invalid session - ASN mismatch\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/asn-mismatch.md)\n- [\"Invalid session - Invalid cookie\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/invalid-cookie.md)\n- [\"Last Change too recent\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/last-change-too-recent.md)\n\n## Docker Tags\n\nMousehole publishes several image tags to\n[Docker Hub](https://hub.docker.com/r/tmmrtn/mousehole):\n\n- SemVer versions (`0`, `0.1`, `0.1.11`, etc)\n- `latest`, the latest released version\n- `edge`, the tip of `master` branch\n- Pull requests targeting `master` for testing, tagged as `pr-<number>`\n\nChoose `latest` if you do not know which to pick.\n",
+    "ContentSha": "q3tlHS664VpfKBqWUAPWfPLs4B0qfGJ0EpArw8OBM4s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Configuración de su Cookie MAM\n\nUna vez que Mousehole esté en funcionamiento, navegue a su interfaz web en `http://<host>:5010` en\nsu navegador. Es probable que sea <http://localhost:5010> si lo está ejecutando\nlocalmente.\n\nAl ejecutarlo por primera vez (o si la cookie se desincroniza), debe\nconfigurar la cookie de Mousehole manualmente.\n\nAl navegar a la interfaz web de Mousehole, verá un formulario para configurar la\ncookie -- pegue su cookie y haga clic en el botón \"Set\".\n\n![Formulario de Cookie de Mousehole](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/images/cookie-form.png)\n\nSi necesita ayuda para obtener la cookie, haga clic en el botón \"¿Qué debo ingresar aquí?\"\npara un tutorial.\n\n\n### Manejo de Errores\n\nIncluso con Mousehole en funcionamiento, pueden ocurrir problemas que Mousehole\nno puede solucionar automáticamente. Aquí están algunos de los más comunes:\n\n- [\"Sesión inválida - Desajuste ASN\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/asn-mismatch.md)\n- [\"Sesión inválida - Cookie inválida\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/invalid-cookie.md)\n- [\"Último cambio demasiado reciente\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/last-change-too-recent.md)\n\n## Etiquetas de Docker\n\nMousehole publica varias etiquetas de imagen en\n[Docker Hub](https://hub.docker.com/r/tmmrtn/mousehole):\n\n- Versiones SemVer (`0`, `0.1`, `0.1.11`, etc)\n- `latest`, la última versión lanzada\n- `edge`, la punta de la rama `master`\n- Pull requests dirigidos a `master` para pruebas, etiquetados como `pr-<número>`\n\nElija `latest` si no sabe cuál escoger.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "uxkkbEwhIi6ezUAhnVRnp0CWFadCtB8PVR5FfH31xic=",
+        "originContent": "### Setting Your MAM Cookie",
+        "translatedContent": "### Configuración de su Cookie MAM"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "B/ZnNIJrfcs4lS8TwYLfU4m96LafKDy5bwYmE+c0J6Y=",
+        "originContent": "Once Mousehole is running, navigate to its web UI at `http://<host>:5010` in",
+        "translatedContent": "Una vez que Mousehole esté en funcionamiento, navegue a su interfaz web en `http://<host>:5010` en"
+      },
+      {
+        "row": 5,
+        "rowsha": "x+Jz2Z6FHbEPpC3399oQcU5AYuX8RJeiOM+GmPS1UL4=",
+        "originContent": "your browser. This is likely to be <http://localhost:5010> if you are running it",
+        "translatedContent": "su navegador. Es probable que sea <http://localhost:5010> si lo está ejecutando"
+      },
+      {
+        "row": 6,
+        "rowsha": "CQ7rpbbQp4QRlLC3bz7rO6ki7LXnil5lXrm0tO/dQqs=",
+        "originContent": "locally.",
+        "translatedContent": "localmente."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "+0noeC6HWqvR31WnWqzmfNK7ismhQT1mkUkST2xS9P4=",
+        "originContent": "When running for the first time (or if the cookie gets out of sync), you need to",
+        "translatedContent": "Al ejecutarlo por primera vez (o si la cookie se desincroniza), debe"
+      },
+      {
+        "row": 9,
+        "rowsha": "2CjvdC/I5fX9RzPlW65DyglTiHDsXTHrfwnN2mosiz0=",
+        "originContent": "set Mousehole's cookie manually.",
+        "translatedContent": "configurar la cookie de Mousehole manualmente."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "WUS27TmT09+RLcBtx/JM08uOxe+oExDDrftFYzfo0o0=",
+        "originContent": "On navigating to the Mousehole web interface, you will see a form to set the",
+        "translatedContent": "Al navegar a la interfaz web de Mousehole, verá un formulario para configurar la"
+      },
+      {
+        "row": 12,
+        "rowsha": "wsNkhHjjG1tOCvrYRGqgSUKnDBoFMWhwOdts9Nz+xL0=",
+        "originContent": "cookie -- paste your cookie and click the \"Set\" button.",
+        "translatedContent": "cookie -- pegue su cookie y haga clic en el botón \"Set\"."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "mn6BhhR5RDaFrLl63raToA7XXJchcdWsb6G4/qBv5wM=",
+        "originContent": "![Mousehole Cookie Form](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/images/cookie-form.png)",
+        "translatedContent": "![Formulario de Cookie de Mousehole](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/images/cookie-form.png)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "jdOGZrqvfs4/jdSLK9yze+lqv+f5G9A27bpcTc7CLnI=",
+        "originContent": "If you need help getting the cookie, click the \"What do I enter here?\" button",
+        "translatedContent": "Si necesita ayuda para obtener la cookie, haga clic en el botón \"¿Qué debo ingresar aquí?\""
+      },
+      {
+        "row": 17,
+        "rowsha": "P4kFaC1Y6miwMKu/8YeSK4HnL5Oryo7tmdN7yvI6C3A=",
+        "originContent": "for a tutorial.",
+        "translatedContent": "para un tutorial."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "QGybjqL7BbzuK6k39HAtWXR0yHunsgBDjFaAqN0Fb/8=",
+        "originContent": "### Handling Errors",
+        "translatedContent": "### Manejo de Errores"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "bSjartwQ+63zxG5yqmaZh8OS4a1btbglCaCj1b3/A6k=",
+        "originContent": "Even with Mousehole up and running, things can still go wrong that Mousehole",
+        "translatedContent": "Incluso con Mousehole en funcionamiento, pueden ocurrir problemas que Mousehole"
+      },
+      {
+        "row": 23,
+        "rowsha": "d9Y6RRro4lkTzG2HQtcLR4av8G8hOzDDCdwO5w5G/K0=",
+        "originContent": "cannot fix automatically. Here are some of the common ones:",
+        "translatedContent": "no puede solucionar automáticamente. Aquí están algunos de los más comunes:"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "QsJ1hrGlPc/zffmsxjX0IYxBoByAzphbxTtwwHBYQZk=",
+        "originContent": "- [\"Invalid session - ASN mismatch\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/asn-mismatch.md)",
+        "translatedContent": "- [\"Sesión inválida - Desajuste ASN\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/asn-mismatch.md)"
+      },
+      {
+        "row": 26,
+        "rowsha": "A7rDFJuBW6qPcaPiKdQi8QHCsW6gZEBNqBCjG5yr5Sw=",
+        "originContent": "- [\"Invalid session - Invalid cookie\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/invalid-cookie.md)",
+        "translatedContent": "- [\"Sesión inválida - Cookie inválida\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/invalid-cookie.md)"
+      },
+      {
+        "row": 27,
+        "rowsha": "zv+O3ezQt86m7UExXSfvVgmq9Ua8RpqxlTypwlAjpN0=",
+        "originContent": "- [\"Last Change too recent\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/last-change-too-recent.md)",
+        "translatedContent": "- [\"Último cambio demasiado reciente\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/last-change-too-recent.md)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "7g5BkwmYagLwEJ02P0/sdUnVPy6pHQNsDXF6fs6ZHOs=",
+        "originContent": "## Docker Tags",
+        "translatedContent": "## Etiquetas de Docker"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "/rA1RaHTI5zOyNyhcOkide2uSOmlLvehXWfVEQI8Dgg=",
+        "originContent": "Mousehole publishes several image tags to",
+        "translatedContent": "Mousehole publica varias etiquetas de imagen en"
+      },
+      {
+        "row": 32,
+        "rowsha": "W2AoVaDLW3EuRaCdDPV4QqS3s0ca2WaLnMwpp2RJYPI=",
+        "originContent": "[Docker Hub](https://hub.docker.com/r/tmmrtn/mousehole):",
+        "translatedContent": "[Docker Hub](https://hub.docker.com/r/tmmrtn/mousehole):"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "1vbm3ZQT9XSBlFr9Ap8M0RfG3tkCYDpgLADVe4SgcO8=",
+        "originContent": "- SemVer versions (`0`, `0.1`, `0.1.11`, etc)",
+        "translatedContent": "- Versiones SemVer (`0`, `0.1`, `0.1.11`, etc)"
+      },
+      {
+        "row": 35,
+        "rowsha": "XvetFkF1sHOa/jiz8+AUdRYc9etYlHABI7/9g12M6dw=",
+        "originContent": "- `latest`, the latest released version",
+        "translatedContent": "- `latest`, la última versión lanzada"
+      },
+      {
+        "row": 36,
+        "rowsha": "RQxFi/B98/d6GJ0zm71PowewvpmyKqli98Ac+5dOido=",
+        "originContent": "- `edge`, the tip of `master` branch",
+        "translatedContent": "- `edge`, la punta de la rama `master`"
+      },
+      {
+        "row": 37,
+        "rowsha": "Bqf/9huAf0pXDmrBC6DMe81K1UBI18U0rqHYwvID4pM=",
+        "originContent": "- Pull requests targeting `master` for testing, tagged as `pr-<number>`",
+        "translatedContent": "- Pull requests dirigidos a `master` para pruebas, etiquetados como `pr-<número>`"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "OHTVzStDnXss6Pf2l0yO4HW/fKW3yTwGdBKb0lJZjXc=",
+        "originContent": "Choose `latest` if you do not know which to pick.",
+        "translatedContent": "Elija `latest` si no sabe cuál escoger."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "## Environment Variables\n\n- `MOUSEHOLE_PORT`: _(Default `5010`)_ The port on which the HTTP server will\n  listen.\n- `MOUSEHOLE_STATE_DIR_PATH`: _(Default `/srv/mousehole`)_ The directory where\n  the service will store its data.\n- `MOUSEHOLE_USER_AGENT`: _(Default `mousehole-by-timtimtim/<version>`)_ The\n  user agent to use for requests to MAM.\n- `MOUSEHOLE_CHECK_INTERVAL_SECONDS`: _(Default `300` (5 minutes))_ The interval\n  in seconds between checks.\n- `MOUSEHOLE_STALE_RESPONSE_SECONDS`: _(Default `86400` (1 day))_ The number of\n  seconds after which a MAM response is considered stale. This ensures that\n  Mousehole is still talking with MAM at some regular interval and is detecting\n  out-of-band changes to the cookie.\n- `TZ`: _(Default `Etc/UTC`)_ The timezone for displaying localized times.\n\n## Contributing\n\nWant to contribute? Check out the [contribution guidelines](https://raw.githubusercontent.com/t-mart/mousehole/master/./CONTRIBUTING.md).\n\nThere is also a [`contrib`](./contrib/) directory with useful, supplementary\nfunctionality.\n\n## Links\n\n- [Repository](https://github.com/t-mart/mousehole)\n- [Docker Hub image](https://hub.docker.com/r/tmmrtn/mousehole)\n- [Forum post](https://www.myanonamouse.net/f/t/84712/p/p1013257)\n\n## Development\n\n- Start the dev server with:\n",
+    "ContentSha": "CoXDlLnCxv1QKcasmphbXNJqj38fvq2zjU65t1l4iSs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Variables de Entorno\n\n- `MOUSEHOLE_PORT`: _(Por defecto `5010`)_ El puerto en el que el servidor HTTP escuchará.\n- `MOUSEHOLE_STATE_DIR_PATH`: _(Por defecto `/srv/mousehole`)_ El directorio donde\n  el servicio almacenará sus datos.\n- `MOUSEHOLE_USER_AGENT`: _(Por defecto `mousehole-by-timtimtim/<version>`)_ El\n  agente de usuario a usar para las solicitudes a MAM.\n- `MOUSEHOLE_CHECK_INTERVAL_SECONDS`: _(Por defecto `300` (5 minutos))_ El intervalo\n  en segundos entre comprobaciones.\n- `MOUSEHOLE_STALE_RESPONSE_SECONDS`: _(Por defecto `86400` (1 día))_ El número de\n  segundos tras los cuales una respuesta de MAM se considera obsoleta. Esto asegura que\n  Mousehole sigue comunicándose con MAM a intervalos regulares y detecta\n  cambios fuera de banda en la cookie.\n- `TZ`: _(Por defecto `Etc/UTC`)_ La zona horaria para mostrar horas localizadas.\n\n## Contribuir\n\n¿Quieres contribuir? Consulta las [directrices de contribución](https://raw.githubusercontent.com/t-mart/mousehole/master/./CONTRIBUTING.md).\n\nTambién hay un directorio [`contrib`](./contrib/) con funcionalidades útiles y complementarias.\n\n## Enlaces\n\n- [Repositorio](https://github.com/t-mart/mousehole)\n- [Imagen en Docker Hub](https://hub.docker.com/r/tmmrtn/mousehole)\n- [Publicación en el foro](https://www.myanonamouse.net/f/t/84712/p/p1013257)\n\n## Desarrollo\n\n- Inicia el servidor de desarrollo con:\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Zrr2pe6jaInNp0fui9iYRSsRxfAzag3y7RD547nUNBU=",
+        "originContent": "## Environment Variables",
+        "translatedContent": "## Variables de Entorno"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "KATF6hVTJNrLsfbQr/RfOFgEXyBKROVDwjDSCGNosfk=",
+        "originContent": "- `MOUSEHOLE_PORT`: _(Default `5010`)_ The port on which the HTTP server will",
+        "translatedContent": "- `MOUSEHOLE_PORT`: _(Por defecto `5010`)_ El puerto en el que el servidor HTTP escuchará."
+      },
+      {
+        "row": 4,
+        "rowsha": "FAqolOs/1dqyPtdGXHE4Sphi8SdK1TFNZE2x3yustsY=",
+        "originContent": "  listen.",
+        "translatedContent": "- `MOUSEHOLE_STATE_DIR_PATH`: _(Por defecto `/srv/mousehole`)_ El directorio donde"
+      },
+      {
+        "row": 5,
+        "rowsha": "6dLPt4sjapIZzfQUxvF9TgI9EAVMA30MeN1TB7SnNNI=",
+        "originContent": "- `MOUSEHOLE_STATE_DIR_PATH`: _(Default `/srv/mousehole`)_ The directory where",
+        "translatedContent": "  el servicio almacenará sus datos."
+      },
+      {
+        "row": 6,
+        "rowsha": "TRMg4mL76/SjVj8BiKdKaZ/zjmgGbI0DNdWqrGusu1k=",
+        "originContent": "  the service will store its data.",
+        "translatedContent": "- `MOUSEHOLE_USER_AGENT`: _(Por defecto `mousehole-by-timtimtim/<version>`)_ El"
+      },
+      {
+        "row": 7,
+        "rowsha": "y6XFS7teR+UPW+dxUR308Ycoa/vacIob1MVlKkmU61M=",
+        "originContent": "- `MOUSEHOLE_USER_AGENT`: _(Default `mousehole-by-timtimtim/<version>`)_ The",
+        "translatedContent": "  agente de usuario a usar para las solicitudes a MAM."
+      },
+      {
+        "row": 8,
+        "rowsha": "9JKPclwxNPvAcVg30iCG5dgXub8HVjiuDjwPxHZ0tR8=",
+        "originContent": "  user agent to use for requests to MAM.",
+        "translatedContent": "- `MOUSEHOLE_CHECK_INTERVAL_SECONDS`: _(Por defecto `300` (5 minutos))_ El intervalo"
+      },
+      {
+        "row": 9,
+        "rowsha": "au7ETnLYZHVebsqWWOZdPiFBO0QrinlABCTICYG1dro=",
+        "originContent": "- `MOUSEHOLE_CHECK_INTERVAL_SECONDS`: _(Default `300` (5 minutes))_ The interval",
+        "translatedContent": "  en segundos entre comprobaciones."
+      },
+      {
+        "row": 10,
+        "rowsha": "PkiU5p6aXooFXJ8LqoLKAV8wkRPvpTyVEpIvopz69go=",
+        "originContent": "  in seconds between checks.",
+        "translatedContent": "- `MOUSEHOLE_STALE_RESPONSE_SECONDS`: _(Por defecto `86400` (1 día))_ El número de"
+      },
+      {
+        "row": 11,
+        "rowsha": "+nsJ1rgoC0H1lp647Z0xSOGLpANlq7lVGHajm63ys8Y=",
+        "originContent": "- `MOUSEHOLE_STALE_RESPONSE_SECONDS`: _(Default `86400` (1 day))_ The number of",
+        "translatedContent": "  segundos tras los cuales una respuesta de MAM se considera obsoleta. Esto asegura que"
+      },
+      {
+        "row": 12,
+        "rowsha": "LtMg6IzF1gXrFraFS7H4goATsvb7WXvlCGoRqw+oLlY=",
+        "originContent": "  seconds after which a MAM response is considered stale. This ensures that",
+        "translatedContent": "  Mousehole sigue comunicándose con MAM a intervalos regulares y detecta"
+      },
+      {
+        "row": 13,
+        "rowsha": "iOUbowvBzkflkdPCpqTlLEDQUaMiqe9rK3vDmjkIzPw=",
+        "originContent": "  Mousehole is still talking with MAM at some regular interval and is detecting",
+        "translatedContent": "  cambios fuera de banda en la cookie."
+      },
+      {
+        "row": 14,
+        "rowsha": "p05oKzq6fQhzBIHVpjAx2I3Kgd1zHKWyn4cQTs0HB2U=",
+        "originContent": "  out-of-band changes to the cookie.",
+        "translatedContent": "- `TZ`: _(Por defecto `Etc/UTC`)_ La zona horaria para mostrar horas localizadas."
+      },
+      {
+        "row": 15,
+        "rowsha": "K8Jg6zydksnv2t5OCSTiM2czur4C4GHbI7WqtmNDfvw=",
+        "originContent": "- `TZ`: _(Default `Etc/UTC`)_ The timezone for displaying localized times.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Contribuir"
+      },
+      {
+        "row": 17,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "¿Quieres contribuir? Consulta las [directrices de contribución](https://raw.githubusercontent.com/t-mart/mousehole/master/./CONTRIBUTING.md)."
+      },
+      {
+        "row": 19,
+        "rowsha": "vZR2InHpRrx9RlDA59+JVkHFl6rAA6UMGcxzeFpzSdo=",
+        "originContent": "Want to contribute? Check out the [contribution guidelines](https://raw.githubusercontent.com/t-mart/mousehole/master/./CONTRIBUTING.md).",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "También hay un directorio [`contrib`](./contrib/) con funcionalidades útiles y complementarias."
+      },
+      {
+        "row": 21,
+        "rowsha": "yEtnHUMZ+65uDPUHJ/Q36DU71TthTmSOCO1ULznFZZQ=",
+        "originContent": "There is also a [`contrib`](./contrib/) directory with useful, supplementary",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "h/UKYbNHXtXdszwZ8j5P17LsJalFQxWG4ShVsqqK9HI=",
+        "originContent": "functionality.",
+        "translatedContent": "## Enlaces"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "diHpFstuV7UK+A46mhFkbkPIHzxRakTriwoPTCVX3QI=",
+        "originContent": "## Links",
+        "translatedContent": "- [Repositorio](https://github.com/t-mart/mousehole)"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Imagen en Docker Hub](https://hub.docker.com/r/tmmrtn/mousehole)"
+      },
+      {
+        "row": 26,
+        "rowsha": "yRVF+OM4Glv4j6G9hUvS24sIuJYT3sIq7N5vHtS4AnM=",
+        "originContent": "- [Repository](https://github.com/t-mart/mousehole)",
+        "translatedContent": "- [Publicación en el foro](https://www.myanonamouse.net/f/t/84712/p/p1013257)"
+      },
+      {
+        "row": 27,
+        "rowsha": "TpXwie7rNfrS/n43mySu+JOD67ds+9gtJACcyTwu0dg=",
+        "originContent": "- [Docker Hub image](https://hub.docker.com/r/tmmrtn/mousehole)",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "toW3TrXKnhz4rJiv3YnF/FuKjFnBc7n+ZVc/02HnnwE=",
+        "originContent": "- [Forum post](https://www.myanonamouse.net/f/t/84712/p/p1013257)",
+        "translatedContent": "## Desarrollo"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+        "originContent": "## Development",
+        "translatedContent": "- Inicia el servidor de desarrollo con:"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "VDLZoRSGSMShy/Z5Aj3CTj0oqUGZVxbrrdvqZzZMamo=",
+        "originContent": "- Start the dev server with:",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "  ```bash\n  bun run dev\n  ```",
+    "ContentSha": "s7kX8M9L7y8zMoSgV2AfvLzu1K6QtTlFiK7w35GlvyA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```bash\n  bun run dev\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+        "originContent": "  ```bash",
+        "translatedContent": "  ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "+wGHNuvjSwzCqfTTT5pzMatnDJ89jf+ZpF6SKooHisU=",
+        "originContent": "  bun run dev",
+        "translatedContent": "  bun run dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n- New versions can be tagged, released and pushed to Docker Hub by simply\n  changing the version in `package.json` and pushing to GitHub. The CI workflows\n  will take care of the rest.\n\n## Attribution\n\nMouse Hole by Sergey Demushkin from\n[Noun Project](https://thenounproject.com/term/mouse-hole/) (CC BY 3.0)\n",
+    "ContentSha": "SINJP9uJaPDr2QryLV5CJjrN3jF8+u07YQOUFMnirj0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Las nuevas versiones pueden ser etiquetadas, lanzadas y enviadas a Docker Hub simplemente\n  cambiando la versión en `package.json` y haciendo push a GitHub. Los flujos de trabajo de CI\n  se encargarán del resto.\n\n## Atribución\n\nMouse Hole por Sergey Demushkin de\n[Noun Project](https://thenounproject.com/term/mouse-hole/) (CC BY 3.0)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Las nuevas versiones pueden ser etiquetadas, lanzadas y enviadas a Docker Hub simplemente"
+      },
+      {
+        "row": 2,
+        "rowsha": "98yQTqHaLRACtFJ/klLMQ28Dd8A+W9XZhHDfAgFnD6A=",
+        "originContent": "- New versions can be tagged, released and pushed to Docker Hub by simply",
+        "translatedContent": "  cambiando la versión en `package.json` y haciendo push a GitHub. Los flujos de trabajo de CI"
+      },
+      {
+        "row": 3,
+        "rowsha": "1NmsrBJ8EOPvdE5D+oEE4aMDnlj/GZeSc1JMhra6ohQ=",
+        "originContent": "  changing the version in `package.json` and pushing to GitHub. The CI workflows",
+        "translatedContent": "  se encargarán del resto."
+      },
+      {
+        "row": 4,
+        "rowsha": "afWMpPrt6dZYi3vl0rUjlmTI1aYwhm/BId/jJPjd1Gw=",
+        "originContent": "  will take care of the rest.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Atribución"
+      },
+      {
+        "row": 6,
+        "rowsha": "FGtqKJnPOMdcfsmS2eMZgbD/gwOFD876mGymwRJnp5Y=",
+        "originContent": "## Attribution",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Mouse Hole por Sergey Demushkin de"
+      },
+      {
+        "row": 8,
+        "rowsha": "mSxK1oVztqWktXbXzEPuo77/sTyuc88MiFHELQY4e/c=",
+        "originContent": "Mouse Hole by Sergey Demushkin from",
+        "translatedContent": "[Noun Project](https://thenounproject.com/term/mouse-hole/) (CC BY 3.0)"
+      },
+      {
+        "row": 9,
+        "rowsha": "iC9Y5ykhoVJJzpVQRo8R0V1mPakkkCIfN+PJtlQ3rTU=",
+        "originContent": "[Noun Project](https://thenounproject.com/term/mouse-hole/) (CC BY 3.0)",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,229 +1,229 @@
 [
   {
     "Id": 1,
-    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"right\">\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=en\">English</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-CN\">简体中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-TW\">繁體中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ja\">日本語</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ko\">한국어</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=hi\">हिन्दी</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=th\">ไทย</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fr\">Français</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=de\">Deutsch</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=es\">Español</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=it\">Itapano</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ru\">Русский</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pt\">Português</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=nl\">Nederlands</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pl\">Polski</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ar\">العربية</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fa\">فارسی</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=tr\">Türkçe</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=vi\">Tiếng Việt</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=id\">Bahasa Indonesia</a></p>\n      </div>\n    </div>\n  </details>\n</div>\n\n[![Build & Test](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml/badge.svg?branch=master&event=push)](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml)\n[![Test results](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/gregsdennis/28607f2d276032f4d9a7f2c807e44df7/raw/test-results-badge.json)](https://github.com/json-everything/json-everything/actions?query=workflow%3A%22Build+%26+Test%22)\n[![Percentage of issues still open](http://isitmaintained.com/badge/open/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"Percentage of issues still open\")\n[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"Average time to resolve an issue\")\n[![License](https://img.shields.io/github/license/json-everything/json-everything)](https://github.com/json-everything/json-everything/blob/master/LICENSE)\n\n## What is `json-everything`?\n\nThe primary philosophy behind `json-everything` is to ensure that common JSON functionality has good support in the _System.Text.Json_ space.",
-    "ContentSha": "/alm9dZ7iXd56+y0BFTOLsdF80RkK4ze3gQdmaPCE60=",
+    "Content": "> [!IMPORTANT]\n> To ensure the long-term sustainability of this project, a monthly maintenance fee has been introduced.  This fee is required to be paid by all organizations or users of any library from this project who generate revenue. You can pay the fee via [GitHub Sponsors](https://github.com/sponsors/gregsdennis).\n>\n> To enact this, an EULA on binary releases has be added to the repo and Nuget packages that requires payment of the maintenance fee.\n>\n> For more information on who must pay the fee and other frequently asked questions, please see the [Open Source Maintenance Fee](https://opensourcemaintenancefee.org/consumers/) organisation page.\n\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"right\">\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=en\">English</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-CN\">简体中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-TW\">繁體中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ja\">日本語</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ko\">한국어</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=hi\">हिन्दी</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=th\">ไทย</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fr\">Français</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=de\">Deutsch</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=es\">Español</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=it\">Itapano</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ru\">Русский</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pt\">Português</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=nl\">Nederlands</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pl\">Polski</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ar\">العربية</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fa\">فارسی</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=tr\">Türkçe</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=vi\">Tiếng Việt</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=id\">Bahasa Indonesia</a></p>\n      </div>\n    </div>\n  </details>\n</div>\n\n[![Build & Test](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml/badge.svg?branch=master&event=push)](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml)\n[![Test results](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/gregsdennis/28607f2d276032f4d9a7f2c807e44df7/raw/test-results-badge.json)](https://github.com/json-everything/json-everything/actions?query=workflow%3A%22Build+%26+Test%22)\n[![Percentage of issues still open](http://isitmaintained.com/badge/open/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"Percentage of issues still open\")",
+    "ContentSha": "vEH/H+4dMnGtGrWQZBbmTPAletEbAjMsC8cAQNih97c=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 言語</summary>\n    <div>\n      <div align=\"right\">\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=en\">English</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-CN\">简体中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-TW\">繁體中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ja\">日本語</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ko\">한국어</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=hi\">हिन्दी</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=th\">ไทย</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fr\">Français</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=de\">Deutsch</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=es\">Español</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=it\">Itapano</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ru\">Русский</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pt\">Português</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=nl\">Nederlands</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pl\">Polski</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ar\">العربية</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fa\">فارسی</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=tr\">Türkçe</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=vi\">Tiếng Việt</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=id\">Bahasa Indonesia</a></p>\n      </div>\n    </div>\n  </details>\n</div>\n\n[![Build & Test](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml/badge.svg?branch=master&event=push)](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml)\n[![Test results](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/gregsdennis/28607f2d276032f4d9a7f2c807e44df7/raw/test-results-badge.json)](https://github.com/json-everything/json-everything/actions?query=workflow%3A%22Build+%26+Test%22)\n[![Percentage of issues still open](http://isitmaintained.com/badge/open/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"Percentage of issues still open\")\n[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"Average time to resolve an issue\")\n[![License](https://img.shields.io/github/license/json-everything/json-everything)](https://github.com/json-everything/json-everything/blob/master/LICENSE)\n\n## `json-everything`とは？\n\n`json-everything`の主な理念は、一般的なJSON機能が_System.Text.Json_領域で十分にサポートされることを保証することです。",
+    "Translation": "> [!IMPORTANT]\n> このプロジェクトの長期的な持続可能性を確保するため、月額メンテナンス費用が導入されました。 この費用は、本プロジェクトのライブラリを利用して収益を上げているすべての組織やユーザーに支払いが求められます。費用は[GitHub Sponsors](https://github.com/sponsors/gregsdennis)からお支払いいただけます。\n>\n> この施策の実施に伴い、バイナリリリースのEULAがリポジトリおよびNugetパッケージに追加され、メンテナンス費用の支払いが義務付けられます。\n>\n> 費用の支払い義務がある方やその他よくある質問については、[オープンソースメンテナンス費用](https://opensourcemaintenancefee.org/consumers/)組織ページをご覧ください。\n\n<div align=\"right\">\n  <details>\n    <summary >🌐 言語</summary>\n    <div>\n      <div align=\"right\">\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=en\">English</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-CN\">简体中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-TW\">繁體中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ja\">日本語</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ko\">한국어</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=hi\">हिन्दी</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=th\">ไทย</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fr\">Français</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=de\">Deutsch</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=es\">Español</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=it\">Itapano</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ru\">Русский</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pt\">Português</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=nl\">Nederlands</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pl\">Polski</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ar\">العربية</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fa\">فارسی</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=tr\">Türkçe</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=vi\">Tiếng Việt</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=id\">Bahasa Indonesia</a></p>\n      </div>\n    </div>\n  </details>\n</div>\n\n[![Build & Test](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml/badge.svg?branch=master&event=push)](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml)\n[![Test results](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/gregsdennis/28607f2d276032f4d9a7f2c807e44df7/raw/test-results-badge.json)](https://github.com/json-everything/json-everything/actions?query=workflow%3A%22Build+%26+Test%22)\n[![Percentage of issues still open](http://isitmaintained.com/badge/open/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"Percentage of issues still open\")",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "qv0XWtvfGjlacbeo5zWUZHv7PDKhmVRgLu9tBYXFnKs=",
+        "originContent": "> [!IMPORTANT]",
+        "translatedContent": "> [!IMPORTANT]"
+      },
+      {
+        "row": 2,
+        "rowsha": "HmkK5IJYTwe5xGexaMn8RTeHpbS6SAts2kZcSAxqRDg=",
+        "originContent": "> To ensure the long-term sustainability of this project, a monthly maintenance fee has been introduced.  This fee is required to be paid by all organizations or users of any library from this project who generate revenue. You can pay the fee via [GitHub Sponsors](https://github.com/sponsors/gregsdennis).",
+        "translatedContent": "> このプロジェクトの長期的な持続可能性を確保するため、月額メンテナンス費用が導入されました。 この費用は、本プロジェクトのライブラリを利用して収益を上げているすべての組織やユーザーに支払いが求められます。費用は[GitHub Sponsors](https://github.com/sponsors/gregsdennis)からお支払いいただけます。"
+      },
+      {
+        "row": 3,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 4,
+        "rowsha": "nVNmBDAwzdvquunotKEvPbOXhggt1XR/n7RZ75j5O7M=",
+        "originContent": "> To enact this, an EULA on binary releases has be added to the repo and Nuget packages that requires payment of the maintenance fee.",
+        "translatedContent": "> この施策の実施に伴い、バイナリリリースのEULAがリポジトリおよびNugetパッケージに追加され、メンテナンス費用の支払いが義務付けられます。"
+      },
+      {
+        "row": 5,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 6,
+        "rowsha": "/3LgJfhozcMSToC0wE5UPkRBJG62w7vi2eZAOB7DQjY=",
+        "originContent": "> For more information on who must pay the fee and other frequently asked questions, please see the [Open Source Maintenance Fee](https://opensourcemaintenancefee.org/consumers/) organisation page.",
+        "translatedContent": "> 費用の支払い義務がある方やその他よくある質問については、[オープンソースメンテナンス費用](https://opensourcemaintenancefee.org/consumers/)組織ページをご覧ください。"
+      },
+      {
+        "row": 7,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 2,
+        "row": 8,
         "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
         "originContent": "<div align=\"right\">",
         "translatedContent": "<div align=\"right\">"
       },
       {
-        "row": 3,
+        "row": 9,
         "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
         "originContent": "  <details>",
         "translatedContent": "  <details>"
       },
       {
-        "row": 4,
+        "row": 10,
         "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
         "originContent": "    <summary >🌐 Language</summary>",
         "translatedContent": "    <summary >🌐 言語</summary>"
       },
       {
-        "row": 5,
+        "row": 11,
         "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
         "originContent": "    <div>",
         "translatedContent": "    <div>"
       },
       {
-        "row": 6,
+        "row": 12,
         "rowsha": "8YgP7V37PxyNScBtyTBHEQtRYW0a9im1qSfp10FGD6E=",
         "originContent": "      <div align=\"right\">",
         "translatedContent": "      <div align=\"right\">"
       },
       {
-        "row": 7,
+        "row": 13,
         "rowsha": "irRgqVcjCq8TrDVI+qSC0o9cdZRodPZnADpDyni//Ec=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=en\">English</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=en\">English</a></p>"
       },
       {
-        "row": 8,
+        "row": 14,
         "rowsha": "qOgJ6zmkCMm8y1qIQeT9XljMjdymUdYsaN68z65Bed8=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-CN\">简体中文</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-CN\">简体中文</a></p>"
       },
       {
-        "row": 9,
+        "row": 15,
         "rowsha": "jF17tHWRobyqIYdP66LWtoHrk0emAx4irbdWVOYe1mY=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-TW\">繁體中文</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=zh-TW\">繁體中文</a></p>"
       },
       {
-        "row": 10,
+        "row": 16,
         "rowsha": "d+yhY5yZV7tRVPxYEEUP2+71TZacOD2i/Texdohohbg=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ja\">日本語</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ja\">日本語</a></p>"
       },
       {
-        "row": 11,
+        "row": 17,
         "rowsha": "NmCE68hN2cWiZcGQpjEBtyBOJ57O0kPK5cwBpqtE4VU=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ko\">한국어</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ko\">한국어</a></p>"
       },
       {
-        "row": 12,
+        "row": 18,
         "rowsha": "QLDs3WfK0pb00Ue9shzhCBqzPTIKnSdBJNnsrdPive8=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=hi\">हिन्दी</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=hi\">हिन्दी</a></p>"
       },
       {
-        "row": 13,
+        "row": 19,
         "rowsha": "8gORv9Qxmj6sUHxqSmes5QlOCOeB2OyIH0rT3jY7aSs=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=th\">ไทย</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=th\">ไทย</a></p>"
       },
       {
-        "row": 14,
+        "row": 20,
         "rowsha": "btKlS7w8nQpagP43o0PTIFmmS5Qcb4kj00SoMLVIXpg=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fr\">Français</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fr\">Français</a></p>"
       },
       {
-        "row": 15,
+        "row": 21,
         "rowsha": "acQocTxHTmGTS3lbiuHXIK4+qFTdIuI7+uGPvBiOles=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=de\">Deutsch</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=de\">Deutsch</a></p>"
       },
       {
-        "row": 16,
+        "row": 22,
         "rowsha": "8LHQAEln3PbvNyGQvMGmd43yRRl43LEm/pF0+D1zy1U=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=es\">Español</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=es\">Español</a></p>"
       },
       {
-        "row": 17,
+        "row": 23,
         "rowsha": "fUtFLCXljyEwo9tQCM0ukKJUVp90TKTJhBR4EkFFb5I=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=it\">Itapano</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=it\">Itapano</a></p>"
       },
       {
-        "row": 18,
+        "row": 24,
         "rowsha": "jOl9Iztx3b1+xyTIe8GUCe1P4houRKFGD85IdYbAn3A=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ru\">Русский</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ru\">Русский</a></p>"
       },
       {
-        "row": 19,
+        "row": 25,
         "rowsha": "DZfeNVTW+iDwxUiisPeTUCKS1pHgOIDfq+lu3kE+lxM=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pt\">Português</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pt\">Português</a></p>"
       },
       {
-        "row": 20,
+        "row": 26,
         "rowsha": "G7YyPdyKlOW9gkXFx1QDyRjDtsH3Z7mVOsDb5XhVUXg=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=nl\">Nederlands</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=nl\">Nederlands</a></p>"
       },
       {
-        "row": 21,
+        "row": 27,
         "rowsha": "3WOyuMKqS3+fb7B+LL9EP8GiIm9FXgTNWQFXvT/6BXo=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pl\">Polski</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=pl\">Polski</a></p>"
       },
       {
-        "row": 22,
+        "row": 28,
         "rowsha": "+bVhIn6+pRZ23vrl2Lbo5IHi98hJjPqSBKbUqti59zI=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ar\">العربية</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=ar\">العربية</a></p>"
       },
       {
-        "row": 23,
+        "row": 29,
         "rowsha": "REXWkObZcMMQsjtyz+pIL4extfah++btn00+Op1Qgk4=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fa\">فارسی</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=fa\">فارسی</a></p>"
       },
       {
-        "row": 24,
+        "row": 30,
         "rowsha": "xk47ywNXcg6qLZSXyuQQCfq+8wlWAALJUyH6SrZbN28=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=tr\">Türkçe</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=tr\">Türkçe</a></p>"
       },
       {
-        "row": 25,
+        "row": 31,
         "rowsha": "RjcDIpB6aO0vMBiqf+dTSkp9tcuP7j+rSRnjJOD1bP0=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=vi\">Tiếng Việt</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=vi\">Tiếng Việt</a></p>"
       },
       {
-        "row": 26,
+        "row": 32,
         "rowsha": "GngfmdlVj4c/Ls0jgtMxWeLpfru85a7YVoCdwxxNNMs=",
         "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=id\">Bahasa Indonesia</a></p>",
         "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=json-everything&project=json-everything&lang=id\">Bahasa Indonesia</a></p>"
       },
       {
-        "row": 27,
+        "row": 33,
         "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
         "originContent": "      </div>",
         "translatedContent": "      </div>"
       },
       {
-        "row": 28,
+        "row": 34,
         "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
         "originContent": "    </div>",
         "translatedContent": "    </div>"
       },
       {
-        "row": 29,
+        "row": 35,
         "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
         "originContent": "  </details>",
         "translatedContent": "  </details>"
       },
       {
-        "row": 30,
+        "row": 36,
         "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
         "originContent": "</div>",
         "translatedContent": "</div>"
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 32,
-        "rowsha": "UJZAm2ghc7jd3aCS8L7OUp+i3fdkCMx0zX7uxv5hZrk=",
-        "originContent": "[![Build & Test](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml/badge.svg?branch=master&event=push)](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml)",
-        "translatedContent": "[![Build & Test](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml/badge.svg?branch=master&event=push)](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml)"
-      },
-      {
-        "row": 33,
-        "rowsha": "wVEJz3EtJQem2a2KvBZLG2KW63T2Gke09YkpVy7S0lY=",
-        "originContent": "[![Test results](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/gregsdennis/28607f2d276032f4d9a7f2c807e44df7/raw/test-results-badge.json)](https://github.com/json-everything/json-everything/actions?query=workflow%3A%22Build+%26+Test%22)",
-        "translatedContent": "[![Test results](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/gregsdennis/28607f2d276032f4d9a7f2c807e44df7/raw/test-results-badge.json)](https://github.com/json-everything/json-everything/actions?query=workflow%3A%22Build+%26+Test%22)"
-      },
-      {
-        "row": 34,
-        "rowsha": "em0xRbEPHSnFZeiIkE7CjzqHw5SPipNriDUlb2iJ5ng=",
-        "originContent": "[![Percentage of issues still open](http://isitmaintained.com/badge/open/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"Percentage of issues still open\")",
-        "translatedContent": "[![Percentage of issues still open](http://isitmaintained.com/badge/open/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"Percentage of issues still open\")"
-      },
-      {
-        "row": 35,
-        "rowsha": "4ATpL2w4YLNfdXhZbWz6LZfeTDBsFBo6n492glItD8I=",
-        "originContent": "[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"Average time to resolve an issue\")",
-        "translatedContent": "[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"Average time to resolve an issue\")"
-      },
-      {
-        "row": 36,
-        "rowsha": "KNw8xvFoUfRVKwOcgkObTcJhijLM3ZOvSaofMvHlLX8=",
-        "originContent": "[![License](https://img.shields.io/github/license/json-everything/json-everything)](https://github.com/json-everything/json-everything/blob/master/LICENSE)",
-        "translatedContent": "[![License](https://img.shields.io/github/license/json-everything/json-everything)](https://github.com/json-everything/json-everything/blob/master/LICENSE)"
       },
       {
         "row": 37,
@@ -233,335 +233,335 @@
       },
       {
         "row": 38,
-        "rowsha": "MTYpseQTToTXoPv3qp5TOiTlhXCWoIbJMVElvZb5AMA=",
-        "originContent": "## What is `json-everything`?",
-        "translatedContent": "## `json-everything`とは？"
+        "rowsha": "UJZAm2ghc7jd3aCS8L7OUp+i3fdkCMx0zX7uxv5hZrk=",
+        "originContent": "[![Build & Test](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml/badge.svg?branch=master&event=push)](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml)",
+        "translatedContent": "[![Build & Test](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml/badge.svg?branch=master&event=push)](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml)"
       },
       {
         "row": 39,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "wVEJz3EtJQem2a2KvBZLG2KW63T2Gke09YkpVy7S0lY=",
+        "originContent": "[![Test results](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/gregsdennis/28607f2d276032f4d9a7f2c807e44df7/raw/test-results-badge.json)](https://github.com/json-everything/json-everything/actions?query=workflow%3A%22Build+%26+Test%22)",
+        "translatedContent": "[![Test results](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/gregsdennis/28607f2d276032f4d9a7f2c807e44df7/raw/test-results-badge.json)](https://github.com/json-everything/json-everything/actions?query=workflow%3A%22Build+%26+Test%22)"
       },
       {
         "row": 40,
-        "rowsha": "t+DsV/t9tcbCxrwLNf9CTfQ4TlQVJSIMBlyxhXG/ISc=",
-        "originContent": "The primary philosophy behind `json-everything` is to ensure that common JSON functionality has good support in the _System.Text.Json_ space.",
-        "translatedContent": "`json-everything`の主な理念は、一般的なJSON機能が_System.Text.Json_領域で十分にサポートされることを保証することです。"
+        "rowsha": "em0xRbEPHSnFZeiIkE7CjzqHw5SPipNriDUlb2iJ5ng=",
+        "originContent": "[![Percentage of issues still open](http://isitmaintained.com/badge/open/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"Percentage of issues still open\")",
+        "translatedContent": "[![Percentage of issues still open](http://isitmaintained.com/badge/open/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"Percentage of issues still open\")"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "\nThe first step to that is checking whether there exist other projects that support a given function.\n\nIf so, that effort likely won't be duplicated here. A bit farther down you'll find a list of other projects that are doing some cool things with JSON.\n\nOtherwise, it's open to consideration for this project.\n\n<table>\n<thead>\n<tr>\n<th width=\"207\">Playground</th>\n<th width=\"207\">Documentation</th>\n<th width=\"207\">Blog</th>\n<th width=\"207\">Interactive Learning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"https://json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/json-animated.webp\" alt=\"Try it online\" title=\"Try it online\" height=\"50\"><br>json-everything.net</a></td>\n<td align=\"center\"><a href=\"https://docs.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/docs-icon.png\" alt=\"Documentation\" title=\"Documentation\" height=\"50\"><br>docs.json-everything.net</a></td>\n<td align=\"center\"><a href=\"https://blog.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/blog-icon.png\" alt=\"Blog\" title=\"Blog\" height=\"50\"><br>blog.json-everything.net</a></td>\n<td align=\"center\"><a href=\"https://learn.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/learn-icon.png\" alt=\"Learn\" title=\"Learn\" height=\"50\"><br>learn.json-everything.net</a></td>\n</tr>\n</tbody>\n</table>\n\n<table>\n<thead>\n<tr>\n<th width=\"276\">Discuss</th>\n<th width=\"276\">Ask</th>\n<th width=\"276\">Built with</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"https://join.slack.com/t/json-everything/shared_invite/zt-3cfmgde04-o09VBqj6YfpudxTuI3aRhA\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png\" alt=\"Slack\" title=\"Slack\" height=\"50\"></a></td>\n<td align=\"center\"><a href=\"https://stackoverflow.com/questions/tagged/json-everything\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png\" alt=\"StackOverflow\" title=\"StackOverflow\" height=\"50\"></a></td>\n<td align=\"center\"><a href=\"http://www.jetbrains.com/resharper\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg\" alt=\"Made with Jetbrains Resharper\" title=\"Made with Jetbrains Resharper\" height=\"50\"></a></td>\n</tr>",
-    "ContentSha": "2SGg3FLNYr/s7IAmiKQtqxzXNIdNZ1uzVynE3rIb9Vk=",
+    "Content": "[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"Average time to resolve an issue\")\n[![License](https://img.shields.io/github/license/json-everything/json-everything)](https://github.com/json-everything/json-everything/blob/master/LICENSE)\n\n## What is `json-everything`?\n\nThe primary philosophy behind `json-everything` is to ensure that common JSON functionality has good support in the _System.Text.Json_ space.\n\nThe first step to that is checking whether there exist other projects that support a given function.\n\nIf so, that effort likely won't be duplicated here. A bit farther down you'll find a list of other projects that are doing some cool things with JSON.\n\nOtherwise, it's open to consideration for this project.\n\n<table>\n<thead>\n<tr>\n<th width=\"207\">Playground</th>\n<th width=\"207\">Documentation</th>\n<th width=\"207\">Blog</th>\n<th width=\"207\">Interactive Learning</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"https://json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/json-animated.webp\" alt=\"Try it online\" title=\"Try it online\" height=\"50\"><br>json-everything.net</a></td>\n<td align=\"center\"><a href=\"https://docs.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/docs-icon.png\" alt=\"Documentation\" title=\"Documentation\" height=\"50\"><br>docs.json-everything.net</a></td>\n<td align=\"center\"><a href=\"https://blog.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/blog-icon.png\" alt=\"Blog\" title=\"Blog\" height=\"50\"><br>blog.json-everything.net</a></td>\n<td align=\"center\"><a href=\"https://learn.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/learn-icon.png\" alt=\"Learn\" title=\"Learn\" height=\"50\"><br>learn.json-everything.net</a></td>\n</tr>\n</tbody>\n</table>\n\n<table>\n<thead>\n<tr>\n<th width=\"276\">Discuss</th>\n<th width=\"276\">Ask</th>\n<th width=\"276\">Built with</th>\n</tr>\n</thead>",
+    "ContentSha": "4VHa0UerqQtsyylY77vkfSKFZXNTXLqpszNv1mkrxhg=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "最初のステップは、指定された機能をサポートする他のプロジェクトが存在するかどうかを確認することです。\n\nもし存在する場合、その作業はここで重複して行われることはありません。少し下に進むと、JSONを使って面白いことをしている他のプロジェクトのリストが見つかります。\n\nそうでなければ、このプロジェクトで検討の余地があります。\n\n<table>\n<thead>\n<tr>\n<th width=\"207\">プレイグラウンド</th>\n<th width=\"207\">ドキュメント</th>\n<th width=\"207\">ブログ</th>\n<th width=\"207\">対話型学習</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"https://json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/json-animated.webp\" alt=\"Try it online\" title=\"Try it online\" height=\"50\"><br>json-everything.net</a></td>\n<td align=\"center\"><a href=\"https://docs.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/docs-icon.png\" alt=\"Documentation\" title=\"Documentation\" height=\"50\"><br>docs.json-everything.net</a></td>\n<td align=\"center\"><a href=\"https://blog.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/blog-icon.png\" alt=\"Blog\" title=\"Blog\" height=\"50\"><br>blog.json-everything.net</a></td>\n<td align=\"center\"><a href=\"https://learn.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/learn-icon.png\" alt=\"Learn\" title=\"Learn\" height=\"50\"><br>learn.json-everything.net</a></td>\n</tr>\n</tbody>\n</table>\n\n<table>\n<thead>\n<tr>\n<th width=\"276\">ディスカッション</th>\n<th width=\"276\">質問</th>\n<th width=\"276\">開発事例</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"https://join.slack.com/t/json-everything/shared_invite/zt-3cfmgde04-o09VBqj6YfpudxTuI3aRhA\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png\" alt=\"Slack\" title=\"Slack\" height=\"50\"></a></td>\n<td align=\"center\"><a href=\"https://stackoverflow.com/questions/tagged/json-everything\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png\" alt=\"StackOverflow\" title=\"StackOverflow\" height=\"50\"></a></td>\n<td align=\"center\"><a href=\"http://www.jetbrains.com/resharper\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg\" alt=\"Made with Jetbrains Resharper\" title=\"Made with Jetbrains Resharper\" height=\"50\"></a></td>\n</tr>\n",
+    "Translation": "[![課題解決までの平均時間](http://isitmaintained.com/badge/resolution/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"課題解決までの平均時間\")\n[![ライセンス](https://img.shields.io/github/license/json-everything/json-everything)](https://github.com/json-everything/json-everything/blob/master/LICENSE)\n\n## `json-everything`とは？\n\n`json-everything`の主な思想は、一般的なJSON機能に対して_System.Text.Json_空間で十分なサポートを提供することです。\n\nその最初のステップは、特定の機能をサポートする他のプロジェクトが存在するかどうかを確認することです。\n\nもし存在すれば、その取り組みをここで重複することはおそらくありません。もう少し下に進むと、JSONに関して素晴らしいことをしている他のプロジェクトのリストがあります。\n\n存在しなければ、本プロジェクトでの検討対象となります。\n\n<table>\n<thead>\n<tr>\n<th width=\"207\">プレイグラウンド</th>\n<th width=\"207\">ドキュメント</th>\n<th width=\"207\">ブログ</th>\n<th width=\"207\">インタラクティブ学習</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"https://json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/json-animated.webp\" alt=\"オンラインで試す\" title=\"オンラインで試す\" height=\"50\"><br>json-everything.net</a></td>\n<td align=\"center\"><a href=\"https://docs.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/docs-icon.png\" alt=\"ドキュメント\" title=\"ドキュメント\" height=\"50\"><br>docs.json-everything.net</a></td>\n<td align=\"center\"><a href=\"https://blog.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/blog-icon.png\" alt=\"ブログ\" title=\"ブログ\" height=\"50\"><br>blog.json-everything.net</a></td>\n<td align=\"center\"><a href=\"https://learn.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/learn-icon.png\" alt=\"学習\" title=\"学習\" height=\"50\"><br>learn.json-everything.net</a></td>\n</tr>\n</tbody>\n</table>\n\n<table>\n<thead>\n<tr>\n<th width=\"276\">ディスカッション</th>\n<th width=\"276\">質問</th>\n<th width=\"276\">ビルドに使用</th>\n</tr>\n</thead>",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "最初のステップは、指定された機能をサポートする他のプロジェクトが存在するかどうかを確認することです。"
+        "rowsha": "4ATpL2w4YLNfdXhZbWz6LZfeTDBsFBo6n492glItD8I=",
+        "originContent": "[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"Average time to resolve an issue\")",
+        "translatedContent": "[![課題解決までの平均時間](http://isitmaintained.com/badge/resolution/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues \"課題解決までの平均時間\")"
       },
       {
         "row": 2,
-        "rowsha": "CJLIZi1dhHYLp6DBOakn2dUrah3qGElW0u/hG6bs3Ww=",
-        "originContent": "The first step to that is checking whether there exist other projects that support a given function.",
-        "translatedContent": ""
+        "rowsha": "KNw8xvFoUfRVKwOcgkObTcJhijLM3ZOvSaofMvHlLX8=",
+        "originContent": "[![License](https://img.shields.io/github/license/json-everything/json-everything)](https://github.com/json-everything/json-everything/blob/master/LICENSE)",
+        "translatedContent": "[![ライセンス](https://img.shields.io/github/license/json-everything/json-everything)](https://github.com/json-everything/json-everything/blob/master/LICENSE)"
       },
       {
         "row": 3,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "もし存在する場合、その作業はここで重複して行われることはありません。少し下に進むと、JSONを使って面白いことをしている他のプロジェクトのリストが見つかります。"
+        "translatedContent": ""
       },
       {
         "row": 4,
-        "rowsha": "+MmDefLjcp10R+vLFbpZm0BFQzyVDwMp73sb3/nS82Q=",
-        "originContent": "If so, that effort likely won't be duplicated here. A bit farther down you'll find a list of other projects that are doing some cool things with JSON.",
-        "translatedContent": ""
+        "rowsha": "MTYpseQTToTXoPv3qp5TOiTlhXCWoIbJMVElvZb5AMA=",
+        "originContent": "## What is `json-everything`?",
+        "translatedContent": "## `json-everything`とは？"
       },
       {
         "row": 5,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "そうでなければ、このプロジェクトで検討の余地があります。"
+        "translatedContent": ""
       },
       {
         "row": 6,
-        "rowsha": "lHgIKzvwokRuf+i19uouYElGD0QtXihA31xWr8Vd1IE=",
-        "originContent": "Otherwise, it's open to consideration for this project.",
-        "translatedContent": ""
+        "rowsha": "t+DsV/t9tcbCxrwLNf9CTfQ4TlQVJSIMBlyxhXG/ISc=",
+        "originContent": "The primary philosophy behind `json-everything` is to ensure that common JSON functionality has good support in the _System.Text.Json_ space.",
+        "translatedContent": "`json-everything`の主な思想は、一般的なJSON機能に対して_System.Text.Json_空間で十分なサポートを提供することです。"
       },
       {
         "row": 7,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "<table>"
-      },
-      {
-        "row": 8,
-        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
-        "originContent": "<table>",
-        "translatedContent": "<thead>"
-      },
-      {
-        "row": 9,
-        "rowsha": "jYWY2Gw9i2fJAWJcTCVXBaaFvEPDc4j+2hr+8mEFx6I=",
-        "originContent": "<thead>",
-        "translatedContent": "<tr>"
-      },
-      {
-        "row": 10,
-        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
-        "originContent": "<tr>",
-        "translatedContent": "<th width=\"207\">プレイグラウンド</th>"
-      },
-      {
-        "row": 11,
-        "rowsha": "HO1Fk/XI7r2WfTwP3fbmysihBOUTucrzeRTLufxlMMg=",
-        "originContent": "<th width=\"207\">Playground</th>",
-        "translatedContent": "<th width=\"207\">ドキュメント</th>"
-      },
-      {
-        "row": 12,
-        "rowsha": "16hCoYbNt3paBk+Cy8Z6DwqVRKOopyWyThOujePhbqI=",
-        "originContent": "<th width=\"207\">Documentation</th>",
-        "translatedContent": "<th width=\"207\">ブログ</th>"
-      },
-      {
-        "row": 13,
-        "rowsha": "ZruIPbtBzeJokXuitF7klDKyMq4ZBg3IWEMj7WwVdfI=",
-        "originContent": "<th width=\"207\">Blog</th>",
-        "translatedContent": "<th width=\"207\">対話型学習</th>"
-      },
-      {
-        "row": 14,
-        "rowsha": "OWb57BrpYqFHBSoTYC/Hf8ETLozG/88vbZtcd+HgPtw=",
-        "originContent": "<th width=\"207\">Interactive Learning</th>",
-        "translatedContent": "</tr>"
-      },
-      {
-        "row": 15,
-        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
-        "originContent": "</tr>",
-        "translatedContent": "</thead>"
-      },
-      {
-        "row": 16,
-        "rowsha": "8z81qLhQQzInOEU6+9wgnSv4gCaH9xUf/lA7Mf3WGaM=",
-        "originContent": "</thead>",
-        "translatedContent": "<tbody>"
-      },
-      {
-        "row": 17,
-        "rowsha": "ruLeRD2bx8rCRpKgI3bi6XMrSVglUy1Zz5fxtgJzGKo=",
-        "originContent": "<tbody>",
-        "translatedContent": "<tr>"
-      },
-      {
-        "row": 18,
-        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
-        "originContent": "<tr>",
-        "translatedContent": "<td align=\"center\"><a href=\"https://json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/json-animated.webp\" alt=\"Try it online\" title=\"Try it online\" height=\"50\"><br>json-everything.net</a></td>"
-      },
-      {
-        "row": 19,
-        "rowsha": "ajjlBnzWNLNU4/nneKJ6MhAGXX8bBEeT0TicWclS1zo=",
-        "originContent": "<td align=\"center\"><a href=\"https://json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/json-animated.webp\" alt=\"Try it online\" title=\"Try it online\" height=\"50\"><br>json-everything.net</a></td>",
-        "translatedContent": "<td align=\"center\"><a href=\"https://docs.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/docs-icon.png\" alt=\"Documentation\" title=\"Documentation\" height=\"50\"><br>docs.json-everything.net</a></td>"
-      },
-      {
-        "row": 20,
-        "rowsha": "Q8RITPJbgjrSm77fPJDvl8O5BZtII7AEqQzuWxxy0M8=",
-        "originContent": "<td align=\"center\"><a href=\"https://docs.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/docs-icon.png\" alt=\"Documentation\" title=\"Documentation\" height=\"50\"><br>docs.json-everything.net</a></td>",
-        "translatedContent": "<td align=\"center\"><a href=\"https://blog.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/blog-icon.png\" alt=\"Blog\" title=\"Blog\" height=\"50\"><br>blog.json-everything.net</a></td>"
-      },
-      {
-        "row": 21,
-        "rowsha": "/9KzEqkbr5etz8BcFMK+0UiYx2P+YR1jmPaYdbgDgck=",
-        "originContent": "<td align=\"center\"><a href=\"https://blog.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/blog-icon.png\" alt=\"Blog\" title=\"Blog\" height=\"50\"><br>blog.json-everything.net</a></td>",
-        "translatedContent": "<td align=\"center\"><a href=\"https://learn.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/learn-icon.png\" alt=\"Learn\" title=\"Learn\" height=\"50\"><br>learn.json-everything.net</a></td>"
-      },
-      {
-        "row": 22,
-        "rowsha": "81F1Kgy6WAl3x8Ceck76lcmhHDbhrcORYhapavNUnWk=",
-        "originContent": "<td align=\"center\"><a href=\"https://learn.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/learn-icon.png\" alt=\"Learn\" title=\"Learn\" height=\"50\"><br>learn.json-everything.net</a></td>",
-        "translatedContent": "</tr>"
-      },
-      {
-        "row": 23,
-        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
-        "originContent": "</tr>",
-        "translatedContent": "</tbody>"
-      },
-      {
-        "row": 24,
-        "rowsha": "4vVoWe8Fk7ZQhBpbXdv9h+cpmNXJ0MAfuOWjY6ubDls=",
-        "originContent": "</tbody>",
-        "translatedContent": "</table>"
-      },
-      {
-        "row": 25,
-        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
-        "originContent": "</table>",
         "translatedContent": ""
       },
       {
-        "row": 26,
+        "row": 8,
+        "rowsha": "CJLIZi1dhHYLp6DBOakn2dUrah3qGElW0u/hG6bs3Ww=",
+        "originContent": "The first step to that is checking whether there exist other projects that support a given function.",
+        "translatedContent": "その最初のステップは、特定の機能をサポートする他のプロジェクトが存在するかどうかを確認することです。"
+      },
+      {
+        "row": 9,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "+MmDefLjcp10R+vLFbpZm0BFQzyVDwMp73sb3/nS82Q=",
+        "originContent": "If so, that effort likely won't be duplicated here. A bit farther down you'll find a list of other projects that are doing some cool things with JSON.",
+        "translatedContent": "もし存在すれば、その取り組みをここで重複することはおそらくありません。もう少し下に進むと、JSONに関して素晴らしいことをしている他のプロジェクトのリストがあります。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "lHgIKzvwokRuf+i19uouYElGD0QtXihA31xWr8Vd1IE=",
+        "originContent": "Otherwise, it's open to consideration for this project.",
+        "translatedContent": "存在しなければ、本プロジェクトでの検討対象となります。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+        "originContent": "<table>",
         "translatedContent": "<table>"
       },
       {
-        "row": 27,
-        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
-        "originContent": "<table>",
+        "row": 15,
+        "rowsha": "jYWY2Gw9i2fJAWJcTCVXBaaFvEPDc4j+2hr+8mEFx6I=",
+        "originContent": "<thead>",
         "translatedContent": "<thead>"
       },
       {
-        "row": 28,
-        "rowsha": "jYWY2Gw9i2fJAWJcTCVXBaaFvEPDc4j+2hr+8mEFx6I=",
-        "originContent": "<thead>",
+        "row": 16,
+        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+        "originContent": "<tr>",
         "translatedContent": "<tr>"
       },
       {
-        "row": 29,
-        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
-        "originContent": "<tr>",
-        "translatedContent": "<th width=\"276\">ディスカッション</th>"
+        "row": 17,
+        "rowsha": "HO1Fk/XI7r2WfTwP3fbmysihBOUTucrzeRTLufxlMMg=",
+        "originContent": "<th width=\"207\">Playground</th>",
+        "translatedContent": "<th width=\"207\">プレイグラウンド</th>"
       },
       {
-        "row": 30,
-        "rowsha": "XerQ6/N88utp0NoZH/EXYx+w2A4Ipsm6/g/Xd4QWcSY=",
-        "originContent": "<th width=\"276\">Discuss</th>",
-        "translatedContent": "<th width=\"276\">質問</th>"
+        "row": 18,
+        "rowsha": "16hCoYbNt3paBk+Cy8Z6DwqVRKOopyWyThOujePhbqI=",
+        "originContent": "<th width=\"207\">Documentation</th>",
+        "translatedContent": "<th width=\"207\">ドキュメント</th>"
       },
       {
-        "row": 31,
-        "rowsha": "rArLd1yeHUxH/c90xZPDhI/yVkB3GQRna/5I/kZNFdM=",
-        "originContent": "<th width=\"276\">Ask</th>",
-        "translatedContent": "<th width=\"276\">開発事例</th>"
+        "row": 19,
+        "rowsha": "ZruIPbtBzeJokXuitF7klDKyMq4ZBg3IWEMj7WwVdfI=",
+        "originContent": "<th width=\"207\">Blog</th>",
+        "translatedContent": "<th width=\"207\">ブログ</th>"
       },
       {
-        "row": 32,
-        "rowsha": "YTTsiiHkmGFZ7ETiEGq8yzjYGgkk3OvKyD6+1zieXG0=",
-        "originContent": "<th width=\"276\">Built with</th>",
+        "row": 20,
+        "rowsha": "OWb57BrpYqFHBSoTYC/Hf8ETLozG/88vbZtcd+HgPtw=",
+        "originContent": "<th width=\"207\">Interactive Learning</th>",
+        "translatedContent": "<th width=\"207\">インタラクティブ学習</th>"
+      },
+      {
+        "row": 21,
+        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+        "originContent": "</tr>",
         "translatedContent": "</tr>"
       },
       {
-        "row": 33,
-        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
-        "originContent": "</tr>",
+        "row": 22,
+        "rowsha": "8z81qLhQQzInOEU6+9wgnSv4gCaH9xUf/lA7Mf3WGaM=",
+        "originContent": "</thead>",
         "translatedContent": "</thead>"
       },
       {
-        "row": 34,
-        "rowsha": "8z81qLhQQzInOEU6+9wgnSv4gCaH9xUf/lA7Mf3WGaM=",
-        "originContent": "</thead>",
+        "row": 23,
+        "rowsha": "ruLeRD2bx8rCRpKgI3bi6XMrSVglUy1Zz5fxtgJzGKo=",
+        "originContent": "<tbody>",
         "translatedContent": "<tbody>"
       },
       {
+        "row": 24,
+        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+        "originContent": "<tr>",
+        "translatedContent": "<tr>"
+      },
+      {
+        "row": 25,
+        "rowsha": "ajjlBnzWNLNU4/nneKJ6MhAGXX8bBEeT0TicWclS1zo=",
+        "originContent": "<td align=\"center\"><a href=\"https://json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/json-animated.webp\" alt=\"Try it online\" title=\"Try it online\" height=\"50\"><br>json-everything.net</a></td>",
+        "translatedContent": "<td align=\"center\"><a href=\"https://json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/json-animated.webp\" alt=\"オンラインで試す\" title=\"オンラインで試す\" height=\"50\"><br>json-everything.net</a></td>"
+      },
+      {
+        "row": 26,
+        "rowsha": "Q8RITPJbgjrSm77fPJDvl8O5BZtII7AEqQzuWxxy0M8=",
+        "originContent": "<td align=\"center\"><a href=\"https://docs.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/docs-icon.png\" alt=\"Documentation\" title=\"Documentation\" height=\"50\"><br>docs.json-everything.net</a></td>",
+        "translatedContent": "<td align=\"center\"><a href=\"https://docs.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/docs-icon.png\" alt=\"ドキュメント\" title=\"ドキュメント\" height=\"50\"><br>docs.json-everything.net</a></td>"
+      },
+      {
+        "row": 27,
+        "rowsha": "/9KzEqkbr5etz8BcFMK+0UiYx2P+YR1jmPaYdbgDgck=",
+        "originContent": "<td align=\"center\"><a href=\"https://blog.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/blog-icon.png\" alt=\"Blog\" title=\"Blog\" height=\"50\"><br>blog.json-everything.net</a></td>",
+        "translatedContent": "<td align=\"center\"><a href=\"https://blog.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/blog-icon.png\" alt=\"ブログ\" title=\"ブログ\" height=\"50\"><br>blog.json-everything.net</a></td>"
+      },
+      {
+        "row": 28,
+        "rowsha": "81F1Kgy6WAl3x8Ceck76lcmhHDbhrcORYhapavNUnWk=",
+        "originContent": "<td align=\"center\"><a href=\"https://learn.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/learn-icon.png\" alt=\"Learn\" title=\"Learn\" height=\"50\"><br>learn.json-everything.net</a></td>",
+        "translatedContent": "<td align=\"center\"><a href=\"https://learn.json-everything.net\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/learn-icon.png\" alt=\"学習\" title=\"学習\" height=\"50\"><br>learn.json-everything.net</a></td>"
+      },
+      {
+        "row": 29,
+        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+        "originContent": "</tr>",
+        "translatedContent": "</tr>"
+      },
+      {
+        "row": 30,
+        "rowsha": "4vVoWe8Fk7ZQhBpbXdv9h+cpmNXJ0MAfuOWjY6ubDls=",
+        "originContent": "</tbody>",
+        "translatedContent": "</tbody>"
+      },
+      {
+        "row": 31,
+        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+        "originContent": "</table>",
+        "translatedContent": "</table>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+        "originContent": "<table>",
+        "translatedContent": "<table>"
+      },
+      {
+        "row": 34,
+        "rowsha": "jYWY2Gw9i2fJAWJcTCVXBaaFvEPDc4j+2hr+8mEFx6I=",
+        "originContent": "<thead>",
+        "translatedContent": "<thead>"
+      },
+      {
         "row": 35,
-        "rowsha": "ruLeRD2bx8rCRpKgI3bi6XMrSVglUy1Zz5fxtgJzGKo=",
-        "originContent": "<tbody>",
+        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+        "originContent": "<tr>",
         "translatedContent": "<tr>"
       },
       {
         "row": 36,
-        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
-        "originContent": "<tr>",
-        "translatedContent": "<td align=\"center\"><a href=\"https://join.slack.com/t/json-everything/shared_invite/zt-3cfmgde04-o09VBqj6YfpudxTuI3aRhA\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png\" alt=\"Slack\" title=\"Slack\" height=\"50\"></a></td>"
+        "rowsha": "XerQ6/N88utp0NoZH/EXYx+w2A4Ipsm6/g/Xd4QWcSY=",
+        "originContent": "<th width=\"276\">Discuss</th>",
+        "translatedContent": "<th width=\"276\">ディスカッション</th>"
       },
       {
         "row": 37,
-        "rowsha": "jyNocj7g1/fwZuPYW1qAY6Nbzh2E2ScThXbZTtYD+i4=",
-        "originContent": "<td align=\"center\"><a href=\"https://join.slack.com/t/json-everything/shared_invite/zt-3cfmgde04-o09VBqj6YfpudxTuI3aRhA\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png\" alt=\"Slack\" title=\"Slack\" height=\"50\"></a></td>",
-        "translatedContent": "<td align=\"center\"><a href=\"https://stackoverflow.com/questions/tagged/json-everything\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png\" alt=\"StackOverflow\" title=\"StackOverflow\" height=\"50\"></a></td>"
+        "rowsha": "rArLd1yeHUxH/c90xZPDhI/yVkB3GQRna/5I/kZNFdM=",
+        "originContent": "<th width=\"276\">Ask</th>",
+        "translatedContent": "<th width=\"276\">質問</th>"
       },
       {
         "row": 38,
-        "rowsha": "ID7bbuXuK9UEHy/5zyCGuloNnZQza37eC5W5BJCIpgM=",
-        "originContent": "<td align=\"center\"><a href=\"https://stackoverflow.com/questions/tagged/json-everything\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png\" alt=\"StackOverflow\" title=\"StackOverflow\" height=\"50\"></a></td>",
-        "translatedContent": "<td align=\"center\"><a href=\"http://www.jetbrains.com/resharper\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg\" alt=\"Made with Jetbrains Resharper\" title=\"Made with Jetbrains Resharper\" height=\"50\"></a></td>"
+        "rowsha": "YTTsiiHkmGFZ7ETiEGq8yzjYGgkk3OvKyD6+1zieXG0=",
+        "originContent": "<th width=\"276\">Built with</th>",
+        "translatedContent": "<th width=\"276\">ビルドに使用</th>"
       },
       {
         "row": 39,
-        "rowsha": "imCfnIrnNdimRLowLwRSZG2dsj/4ziSkk584G8Hlh+Y=",
-        "originContent": "<td align=\"center\"><a href=\"http://www.jetbrains.com/resharper\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg\" alt=\"Made with Jetbrains Resharper\" title=\"Made with Jetbrains Resharper\" height=\"50\"></a></td>",
+        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+        "originContent": "</tr>",
         "translatedContent": "</tr>"
       },
       {
         "row": 40,
-        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
-        "originContent": "</tr>",
-        "translatedContent": ""
+        "rowsha": "8z81qLhQQzInOEU6+9wgnSv4gCaH9xUf/lA7Mf3WGaM=",
+        "originContent": "</thead>",
+        "translatedContent": "</thead>"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 3,
-    "Content": "</tbody>\n</table>\n\n## What's in the box?\n\nThere are actually multiple boxes.  Each piece of functionality has been broken out into its own library, so you can pick and choose the one(s) that you need.\n\nAll libraries are built to .Net Standard 2.0 and .Net 8.\n\n<table>\n<tbody>\n<tr>\n<td>JsonSchema.Net<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.svg?svg=true\"></img></a></td>\n<td><a href=\"https://json-schema.org\">JSON Schema</a>, drafts 6 and higher</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.Generation<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Generation/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.svg?svg=true\"></img></a></td>\n<td>Generation of schemas from .Net types</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.Generation.DataAnnotations<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Generation.DataAnnotations/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true\"></img></a></td>\n<td>Schema generation support for <em>System.ComponentModel.DataAnnotations</em>.</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.DataGeneration<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.DataGeneration/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.DataGeneration.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.DataGeneration.svg?svg=true\"></img></a></td>\n<td>Random instance data generation (powered by <a href=\"https://github.com/bchavez/Bogus\">Bogus</a>)</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.Data<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Data/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Data.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Data.svg?svg=true\"></img></a></td>\n<td>A vocabulary for accessing instance and external data</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.ArrayExt<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.ArrayExt/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.ArrayExt.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.ArrayExt.svg?svg=true\"></img></a></td>\n<td>A vocabulary for extending array validation</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.OpenApi<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.OpenApi/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.OpenApi.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.OpenApi.svg?svg=true\"></img></a></td>\n<td><a href=\"https://www.openapis.org/\">OpenApi 3.1</a> vocabulary extension (used by <a href=\"https://github.com/gregsdennis/Graeae\">Graeae</a>)</td>\n</tr>\n<tr>",
-    "ContentSha": "CmqGORmzDF9IB5JniKUjF2lc31NWU9AkDqpH2VwTvwQ=",
+    "Content": "<tbody>\n<tr>\n<td align=\"center\"><a href=\"https://join.slack.com/t/json-everything/shared_invite/zt-3cfmgde04-o09VBqj6YfpudxTuI3aRhA\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png\" alt=\"Slack\" title=\"Slack\" height=\"50\"></a></td>\n<td align=\"center\"><a href=\"https://stackoverflow.com/questions/tagged/json-everything\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png\" alt=\"StackOverflow\" title=\"StackOverflow\" height=\"50\"></a></td>\n<td align=\"center\"><a href=\"http://www.jetbrains.com/resharper\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg\" alt=\"Made with Jetbrains Resharper\" title=\"Made with Jetbrains Resharper\" height=\"50\"></a></td>\n</tr>\n</tbody>\n</table>\n\n## What's in the box?\n\nThere are actually multiple boxes.  Each piece of functionality has been broken out into its own library, so you can pick and choose the one(s) that you need.\n\nAll libraries are built to .Net Standard 2.0 and .Net 8.\n\n<table>\n<tbody>\n<tr>\n<td>JsonSchema.Net<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.svg?svg=true\"></img></a></td>\n<td><a href=\"https://json-schema.org\">JSON Schema</a>, drafts 6 and higher</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.Generation<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Generation/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.svg?svg=true\"></img></a></td>\n<td>Generation of schemas from .Net types</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.Api<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Api/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Api.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Api.svg?svg=true\"></img></a></td>\n<td>JSON Schema validation for ASP.Net APIs</td>\n</tr>\n<tr>\n<tr>\n<td>JsonSchema.Net.Generation.DataAnnotations<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Generation.DataAnnotations/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true\"></img></a></td>\n<td>Schema generation support for <em>System.ComponentModel.DataAnnotations</em>.</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.DataGeneration<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.DataGeneration/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.DataGeneration.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.DataGeneration.svg?svg=true\"></img></a></td>\n<td>Random instance data generation (powered by <a href=\"https://github.com/bchavez/Bogus\">Bogus</a>)</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.Data<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Data/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Data.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Data.svg?svg=true\"></img></a></td>",
+    "ContentSha": "ilWBS5Pag2BFGVracnK7F2DzHcnqJ1sHvGuswwV1LZ0=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "</tbody>\n</table>\n\n## 箱の中身は？\n\n実際には複数の箱があります。各機能は独自のライブラリとして分割されているため、必要なものだけを選択して使用できます。\n\nすべてのライブラリは .Net Standard 2.0 および .Net 8 でビルドされています。\n\n<table>\n<tbody>\n<tr>\n<td>JsonSchema.Net<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.svg?svg=true\"></img></a></td>\n<td><a href=\"https://json-schema.org\">JSON Schema</a>、ドラフト6以降</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.Generation<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Generation/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.svg?svg=true\"></img></a></td>\n<td>.Net型からのスキーマ生成</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.Generation.DataAnnotations<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Generation.DataAnnotations/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true\"></img></a></td>\n<td><em>System.ComponentModel.DataAnnotations</em> のスキーマ生成サポート。</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.DataGeneration<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.DataGeneration/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.DataGeneration.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.DataGeneration.svg?svg=true\"></img></a></td>\n<td>ランダムなインスタンスデータ生成（<a href=\"https://github.com/bchavez/Bogus\">Bogus</a> 利用）</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.Data<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Data/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Data.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Data.svg?svg=true\"></img></a></td>\n<td>インスタンスや外部データへのアクセス用語彙</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.ArrayExt<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.ArrayExt/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.ArrayExt.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.ArrayExt.svg?svg=true\"></img></a></td>\n<td>配列バリデーション拡張用語彙</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.OpenApi<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.OpenApi/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.OpenApi.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.OpenApi.svg?svg=true\"></img></a></td>\n<td><a href=\"https://www.openapis.org/\">OpenApi 3.1</a> 用語拡張（<a href=\"https://github.com/gregsdennis/Graeae\">Graeae</a> で使用）</td>\n</tr>\n<tr>",
+    "Translation": "<tbody>\n<tr>\n<td align=\"center\"><a href=\"https://join.slack.com/t/json-everything/shared_invite/zt-3cfmgde04-o09VBqj6YfpudxTuI3aRhA\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png\" alt=\"Slack\" title=\"Slack\" height=\"50\"></a></td>\n<td align=\"center\"><a href=\"https://stackoverflow.com/questions/tagged/json-everything\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png\" alt=\"StackOverflow\" title=\"StackOverflow\" height=\"50\"></a></td>\n<td align=\"center\"><a href=\"http://www.jetbrains.com/resharper\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg\" alt=\"Made with Jetbrains Resharper\" title=\"Made with Jetbrains Resharper\" height=\"50\"></a></td>\n</tr>\n</tbody>\n</table>\n\n## 箱の中身は？\n\n実際には複数の箱があります。各機能は独自のライブラリとして分割されているため、必要なものだけを選択できます。\n\nすべてのライブラリは .Net Standard 2.0 および .Net 8 に対応しています。\n\n<table>\n<tbody>\n<tr>\n<td>JsonSchema.Net<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.svg?svg=true\"></img></a></td>\n<td><a href=\"https://json-schema.org\">JSON Schema</a>、ドラフト6以降対応</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.Generation<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Generation/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.svg?svg=true\"></img></a></td>\n<td>.Net型からスキーマ生成</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.Api<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Api/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Api.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Api.svg?svg=true\"></img></a></td>\n<td>ASP.Net APIのJSONスキーマバリデーション</td>\n</tr>\n<tr>\n<tr>\n<td>JsonSchema.Net.Generation.DataAnnotations<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Generation.DataAnnotations/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true\"></img></a></td>\n<td><em>System.ComponentModel.DataAnnotations</em> のスキーマ生成対応。</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.DataGeneration<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.DataGeneration/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.DataGeneration.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.DataGeneration.svg?svg=true\"></img></a></td>\n<td>ランダムなインスタンスデータ生成（<a href=\"https://github.com/bchavez/Bogus\">Bogus</a>搭載）</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.Data<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Data/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Data.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Data.svg?svg=true\"></img></a></td>",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "ruLeRD2bx8rCRpKgI3bi6XMrSVglUy1Zz5fxtgJzGKo=",
+        "originContent": "<tbody>",
+        "translatedContent": "<tbody>"
+      },
+      {
+        "row": 2,
+        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+        "originContent": "<tr>",
+        "translatedContent": "<tr>"
+      },
+      {
+        "row": 3,
+        "rowsha": "jyNocj7g1/fwZuPYW1qAY6Nbzh2E2ScThXbZTtYD+i4=",
+        "originContent": "<td align=\"center\"><a href=\"https://join.slack.com/t/json-everything/shared_invite/zt-3cfmgde04-o09VBqj6YfpudxTuI3aRhA\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png\" alt=\"Slack\" title=\"Slack\" height=\"50\"></a></td>",
+        "translatedContent": "<td align=\"center\"><a href=\"https://join.slack.com/t/json-everything/shared_invite/zt-3cfmgde04-o09VBqj6YfpudxTuI3aRhA\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png\" alt=\"Slack\" title=\"Slack\" height=\"50\"></a></td>"
+      },
+      {
+        "row": 4,
+        "rowsha": "ID7bbuXuK9UEHy/5zyCGuloNnZQza37eC5W5BJCIpgM=",
+        "originContent": "<td align=\"center\"><a href=\"https://stackoverflow.com/questions/tagged/json-everything\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png\" alt=\"StackOverflow\" title=\"StackOverflow\" height=\"50\"></a></td>",
+        "translatedContent": "<td align=\"center\"><a href=\"https://stackoverflow.com/questions/tagged/json-everything\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png\" alt=\"StackOverflow\" title=\"StackOverflow\" height=\"50\"></a></td>"
+      },
+      {
+        "row": 5,
+        "rowsha": "imCfnIrnNdimRLowLwRSZG2dsj/4ziSkk584G8Hlh+Y=",
+        "originContent": "<td align=\"center\"><a href=\"http://www.jetbrains.com/resharper\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg\" alt=\"Made with Jetbrains Resharper\" title=\"Made with Jetbrains Resharper\" height=\"50\"></a></td>",
+        "translatedContent": "<td align=\"center\"><a href=\"http://www.jetbrains.com/resharper\"><img src=\"https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg\" alt=\"Made with Jetbrains Resharper\" title=\"Made with Jetbrains Resharper\" height=\"50\"></a></td>"
+      },
+      {
+        "row": 6,
+        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+        "originContent": "</tr>",
+        "translatedContent": "</tr>"
+      },
+      {
+        "row": 7,
         "rowsha": "4vVoWe8Fk7ZQhBpbXdv9h+cpmNXJ0MAfuOWjY6ubDls=",
         "originContent": "</tbody>",
         "translatedContent": "</tbody>"
       },
       {
-        "row": 2,
+        "row": 8,
         "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
         "originContent": "</table>",
         "translatedContent": "</table>"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "JBzTkGUcHADjey3kYNzIo829IKYvPFn0bq/qsWpYVCc=",
-        "originContent": "## What's in the box?",
-        "translatedContent": "## 箱の中身は？"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "Eaj3zmBiKfEhjU2s+6trDNxXvwaraw5su3VqJ2c3sc8=",
-        "originContent": "There are actually multiple boxes.  Each piece of functionality has been broken out into its own library, so you can pick and choose the one(s) that you need.",
-        "translatedContent": "実際には複数の箱があります。各機能は独自のライブラリとして分割されているため、必要なものだけを選択して使用できます。"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "FSmo1mZz581xgI2cx72NAqTVhPSLCfbDwfhwIlru/mY=",
-        "originContent": "All libraries are built to .Net Standard 2.0 and .Net 8.",
-        "translatedContent": "すべてのライブラリは .Net Standard 2.0 および .Net 8 でビルドされています。"
       },
       {
         "row": 9,
@@ -571,587 +571,840 @@
       },
       {
         "row": 10,
+        "rowsha": "JBzTkGUcHADjey3kYNzIo829IKYvPFn0bq/qsWpYVCc=",
+        "originContent": "## What's in the box?",
+        "translatedContent": "## 箱の中身は？"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Eaj3zmBiKfEhjU2s+6trDNxXvwaraw5su3VqJ2c3sc8=",
+        "originContent": "There are actually multiple boxes.  Each piece of functionality has been broken out into its own library, so you can pick and choose the one(s) that you need.",
+        "translatedContent": "実際には複数の箱があります。各機能は独自のライブラリとして分割されているため、必要なものだけを選択できます。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "FSmo1mZz581xgI2cx72NAqTVhPSLCfbDwfhwIlru/mY=",
+        "originContent": "All libraries are built to .Net Standard 2.0 and .Net 8.",
+        "translatedContent": "すべてのライブラリは .Net Standard 2.0 および .Net 8 に対応しています。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
         "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
         "originContent": "<table>",
         "translatedContent": "<table>"
       },
       {
-        "row": 11,
+        "row": 17,
         "rowsha": "ruLeRD2bx8rCRpKgI3bi6XMrSVglUy1Zz5fxtgJzGKo=",
         "originContent": "<tbody>",
         "translatedContent": "<tbody>"
       },
       {
-        "row": 12,
+        "row": 18,
         "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
         "originContent": "<tr>",
         "translatedContent": "<tr>"
       },
       {
-        "row": 13,
+        "row": 19,
         "rowsha": "myEjAhxsuC/OuIi0XQVwW4uh7Z7ydDCqQ1YkUN3Q9Z8=",
         "originContent": "<td>JsonSchema.Net<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.svg?svg=true\"></img></a></td>",
         "translatedContent": "<td>JsonSchema.Net<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.svg?svg=true\"></img></a></td>"
       },
       {
-        "row": 14,
+        "row": 20,
         "rowsha": "tAIzJ2rh97kjsWZ615AiC98mJiIQMmDh3Vh5f0a6YZY=",
         "originContent": "<td><a href=\"https://json-schema.org\">JSON Schema</a>, drafts 6 and higher</td>",
-        "translatedContent": "<td><a href=\"https://json-schema.org\">JSON Schema</a>、ドラフト6以降</td>"
+        "translatedContent": "<td><a href=\"https://json-schema.org\">JSON Schema</a>、ドラフト6以降対応</td>"
       },
       {
-        "row": 15,
+        "row": 21,
         "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
         "originContent": "</tr>",
         "translatedContent": "</tr>"
       },
       {
-        "row": 16,
+        "row": 22,
         "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
         "originContent": "<tr>",
         "translatedContent": "<tr>"
       },
       {
-        "row": 17,
+        "row": 23,
         "rowsha": "uI2Jgs3MImhP9QDsCtRa6g8+t0XDe40dUzvDs087LoM=",
         "originContent": "<td>JsonSchema.Net.Generation<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Generation/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.svg?svg=true\"></img></a></td>",
         "translatedContent": "<td>JsonSchema.Net.Generation<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Generation/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.svg?svg=true\"></img></a></td>"
       },
       {
-        "row": 18,
+        "row": 24,
         "rowsha": "Wy7H9E1W47ttHAFMjb+BiYCjya6QbtInSMOtt5O+hOI=",
         "originContent": "<td>Generation of schemas from .Net types</td>",
-        "translatedContent": "<td>.Net型からのスキーマ生成</td>"
+        "translatedContent": "<td>.Net型からスキーマ生成</td>"
       },
       {
-        "row": 19,
+        "row": 25,
         "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
         "originContent": "</tr>",
         "translatedContent": "</tr>"
       },
       {
-        "row": 20,
+        "row": 26,
         "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
         "originContent": "<tr>",
         "translatedContent": "<tr>"
       },
       {
-        "row": 21,
+        "row": 27,
+        "rowsha": "5OaUAbelBz2TT6vLf8NutJ2woI0c6Dzol1AegtDPKX8=",
+        "originContent": "<td>JsonSchema.Net.Api<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Api/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Api.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Api.svg?svg=true\"></img></a></td>",
+        "translatedContent": "<td>JsonSchema.Net.Api<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Api/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Api.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Api.svg?svg=true\"></img></a></td>"
+      },
+      {
+        "row": 28,
+        "rowsha": "kY1V/yT6YP7i52TPQT6epxAnz50DM4lj2GeA0m9z2g0=",
+        "originContent": "<td>JSON Schema validation for ASP.Net APIs</td>",
+        "translatedContent": "<td>ASP.Net APIのJSONスキーマバリデーション</td>"
+      },
+      {
+        "row": 29,
+        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+        "originContent": "</tr>",
+        "translatedContent": "</tr>"
+      },
+      {
+        "row": 30,
+        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+        "originContent": "<tr>",
+        "translatedContent": "<tr>"
+      },
+      {
+        "row": 31,
+        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+        "originContent": "<tr>",
+        "translatedContent": "<tr>"
+      },
+      {
+        "row": 32,
         "rowsha": "voeErz+B6dHsBgqd34ReVCEDAzJnGIw5Pffml1T/w2M=",
         "originContent": "<td>JsonSchema.Net.Generation.DataAnnotations<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Generation.DataAnnotations/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true\"></img></a></td>",
         "translatedContent": "<td>JsonSchema.Net.Generation.DataAnnotations<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Generation.DataAnnotations/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true\"></img></a></td>"
       },
       {
-        "row": 22,
+        "row": 33,
         "rowsha": "cJE9kSHvOm6vy4TR7v4hlMnLrOr5MeMy4fiWkBEGfVg=",
         "originContent": "<td>Schema generation support for <em>System.ComponentModel.DataAnnotations</em>.</td>",
-        "translatedContent": "<td><em>System.ComponentModel.DataAnnotations</em> のスキーマ生成サポート。</td>"
+        "translatedContent": "<td><em>System.ComponentModel.DataAnnotations</em> のスキーマ生成対応。</td>"
       },
       {
-        "row": 23,
+        "row": 34,
         "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
         "originContent": "</tr>",
         "translatedContent": "</tr>"
       },
       {
-        "row": 24,
+        "row": 35,
         "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
         "originContent": "<tr>",
         "translatedContent": "<tr>"
       },
       {
-        "row": 25,
+        "row": 36,
         "rowsha": "t4pkvEulCjo0a5VR7Bc6mU8NKZpysRZKRsjkr3qSh0c=",
         "originContent": "<td>JsonSchema.Net.DataGeneration<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.DataGeneration/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.DataGeneration.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.DataGeneration.svg?svg=true\"></img></a></td>",
         "translatedContent": "<td>JsonSchema.Net.DataGeneration<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.DataGeneration/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.DataGeneration.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.DataGeneration.svg?svg=true\"></img></a></td>"
       },
       {
-        "row": 26,
+        "row": 37,
         "rowsha": "NxvFZrpHRIILR3ihsnlkvbEhVfvyb16A/fYzxQJoJMo=",
         "originContent": "<td>Random instance data generation (powered by <a href=\"https://github.com/bchavez/Bogus\">Bogus</a>)</td>",
-        "translatedContent": "<td>ランダムなインスタンスデータ生成（<a href=\"https://github.com/bchavez/Bogus\">Bogus</a> 利用）</td>"
-      },
-      {
-        "row": 27,
-        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
-        "originContent": "</tr>",
-        "translatedContent": "</tr>"
-      },
-      {
-        "row": 28,
-        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
-        "originContent": "<tr>",
-        "translatedContent": "<tr>"
-      },
-      {
-        "row": 29,
-        "rowsha": "6VcET0la+vi5SKxC4C4VqcQ+vte0mlRwiPBAAIXcvPw=",
-        "originContent": "<td>JsonSchema.Net.Data<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Data/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Data.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Data.svg?svg=true\"></img></a></td>",
-        "translatedContent": "<td>JsonSchema.Net.Data<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Data/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Data.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Data.svg?svg=true\"></img></a></td>"
-      },
-      {
-        "row": 30,
-        "rowsha": "HmSYsHLmh3EBm3aCqlremO0kfIgg3U2wLGJCXPfTnqI=",
-        "originContent": "<td>A vocabulary for accessing instance and external data</td>",
-        "translatedContent": "<td>インスタンスや外部データへのアクセス用語彙</td>"
-      },
-      {
-        "row": 31,
-        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
-        "originContent": "</tr>",
-        "translatedContent": "</tr>"
-      },
-      {
-        "row": 32,
-        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
-        "originContent": "<tr>",
-        "translatedContent": "<tr>"
-      },
-      {
-        "row": 33,
-        "rowsha": "QN20XkWDXHcOZ7w/SnU80fsHlr13Y+FVyRJQVWvIuLs=",
-        "originContent": "<td>JsonSchema.Net.ArrayExt<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.ArrayExt/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.ArrayExt.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.ArrayExt.svg?svg=true\"></img></a></td>",
-        "translatedContent": "<td>JsonSchema.Net.ArrayExt<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.ArrayExt/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.ArrayExt.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.ArrayExt.svg?svg=true\"></img></a></td>"
-      },
-      {
-        "row": 34,
-        "rowsha": "KtZpg6171+QWlWdNeE8hpixo+Sen1xdggNRT7ovx6C0=",
-        "originContent": "<td>A vocabulary for extending array validation</td>",
-        "translatedContent": "<td>配列バリデーション拡張用語彙</td>"
-      },
-      {
-        "row": 35,
-        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
-        "originContent": "</tr>",
-        "translatedContent": "</tr>"
-      },
-      {
-        "row": 36,
-        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
-        "originContent": "<tr>",
-        "translatedContent": "<tr>"
-      },
-      {
-        "row": 37,
-        "rowsha": "ZLhLyW33ihdF4qspb74RHXAMBZ3Rw0CvEZcO9ng/eXQ=",
-        "originContent": "<td>JsonSchema.Net.OpenApi<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.OpenApi/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.OpenApi.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.OpenApi.svg?svg=true\"></img></a></td>",
-        "translatedContent": "<td>JsonSchema.Net.OpenApi<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.OpenApi/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.OpenApi.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.OpenApi.svg?svg=true\"></img></a></td>"
+        "translatedContent": "<td>ランダムなインスタンスデータ生成（<a href=\"https://github.com/bchavez/Bogus\">Bogus</a>搭載）</td>"
       },
       {
         "row": 38,
-        "rowsha": "KUnU4YTikv4nn7Uo+W6rLl+mu4/IgOjgec+fXOb1dHI=",
-        "originContent": "<td><a href=\"https://www.openapis.org/\">OpenApi 3.1</a> vocabulary extension (used by <a href=\"https://github.com/gregsdennis/Graeae\">Graeae</a>)</td>",
-        "translatedContent": "<td><a href=\"https://www.openapis.org/\">OpenApi 3.1</a> 用語拡張（<a href=\"https://github.com/gregsdennis/Graeae\">Graeae</a> で使用）</td>"
-      },
-      {
-        "row": 39,
         "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
         "originContent": "</tr>",
         "translatedContent": "</tr>"
       },
       {
-        "row": 40,
+        "row": 39,
         "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
         "originContent": "<tr>",
         "translatedContent": "<tr>"
+      },
+      {
+        "row": 40,
+        "rowsha": "6VcET0la+vi5SKxC4C4VqcQ+vte0mlRwiPBAAIXcvPw=",
+        "originContent": "<td>JsonSchema.Net.Data<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Data/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Data.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Data.svg?svg=true\"></img></a></td>",
+        "translatedContent": "<td>JsonSchema.Net.Data<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.Data/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.Data.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.Data.svg?svg=true\"></img></a></td>"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 4,
-    "Content": "<td>JsonPath.Net<br><a href=\"https://www.nuget.org/packages/JsonPath.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPath.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPath.Net.svg?svg=true\"></img></a></td>\n<td>JSON Path (<a href=\"https://tools.ietf.org/html/rfc9535\">RFC 9535</a>)</td>\n</tr>\n<tr>\n<td>JsonPatch.Net<br><a href=\"https://www.nuget.org/packages/JsonPatch.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPatch.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPatch.Net.svg?svg=true\"></img></a></td>\n<td>JSON Patch (<a href=\"https://tools.ietf.org/html/rfc6902\">RFC 6902</a>)</td>\n</tr>\n<tr>\n<td>JsonPointer.Net<br><a href=\"https://www.nuget.org/packages/JsonPointer.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPointer.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPointer.Net.svg?svg=true\"></img></a></td>\n<td>JSON Pointer (<a href=\"https://tools.ietf.org/html/rfc6901\">RFC 6901</a>) and Relative JSON Pointer (<a href=\"https://tools.ietf.org/id/draft-handrews-relative-json-pointer-00.html\">Specification</a>)</td>\n</tr>\n<tr>\n<td>JsonLogic<br><a href=\"https://www.nuget.org/packages/JsonLogic/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonLogic.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonLogic.svg?svg=true\"></img></a></td>\n<td>JsonLogic (<a href=\"https://jsonlogic.com\">Website</a>)</td>\n</tr>\n<tr>\n<td>JsonE.Net<br><a href=\"https://www.nuget.org/packages/JsonE.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonE.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonE.Net.svg?svg=true\"></img></a></td>\n<td>JSON-e (<a href=\"https://json-e.js.org/\">Website</a>)</td>\n</tr>\n<tr>\n<td>Json.More.Net<br><a href=\"https://www.nuget.org/packages/Json.More.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/Json.More.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/Json.More.Net.svg?svg=true\"></img></a></td>\n<td>General-use extensions that probably should have been included in <em>System.Text.Json[.Nodes]</em> but weren't</td>\n</tr>\n<tr>\n<td>Yaml2JsonNode<br><a href=\"https://www.nuget.org/packages/Yaml2JsonNode/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/Yaml2JsonNode.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/Yaml2JsonNode.svg?svg=true\"></img></a></td>\n<td>Conversions between the YAML document model in <a href=\"https://github.com/aaubry/YamlDotNet\">YamlDotNet</a> and <code>JsonNode</code> (both directions).</td>\n</tr>\n</tbody>\n</table>\n\nAll of the above libraries offer complete support for their associated specifications.\n\nError message translations for _JsonSchema.Net_ available in:\n\n- Italian `it`\n- Norwegian `nb-NO`\n- Polish `pl-PL`\n- Russian `ru`\n- Spanish `es`\n- Swedish `sv-SE`",
-    "ContentSha": "Nv7vd6udZDgMvH7nr/Tl8WHxcZoDqkc/eiAatSaTKC4=",
+    "Content": "<td>A vocabulary for accessing instance and external data</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.ArrayExt<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.ArrayExt/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.ArrayExt.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.ArrayExt.svg?svg=true\"></img></a></td>\n<td>A vocabulary for extending array validation</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.OpenApi<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.OpenApi/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.OpenApi.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.OpenApi.svg?svg=true\"></img></a></td>\n<td><a href=\"https://www.openapis.org/\">OpenApi 3.1</a> vocabulary extension (used by <a href=\"https://github.com/gregsdennis/Graeae\">Graeae</a>)</td>\n</tr>\n<tr>\n<td>JsonPath.Net<br><a href=\"https://www.nuget.org/packages/JsonPath.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPath.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPath.Net.svg?svg=true\"></img></a></td>\n<td>JSON Path (<a href=\"https://tools.ietf.org/html/rfc9535\">RFC 9535</a>)</td>\n</tr>\n<tr>\n<td>JsonPatch.Net<br><a href=\"https://www.nuget.org/packages/JsonPatch.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPatch.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPatch.Net.svg?svg=true\"></img></a></td>\n<td>JSON Patch (<a href=\"https://tools.ietf.org/html/rfc6902\">RFC 6902</a>)</td>\n</tr>\n<tr>\n<td>JsonPointer.Net<br><a href=\"https://www.nuget.org/packages/JsonPointer.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPointer.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPointer.Net.svg?svg=true\"></img></a></td>\n<td>JSON Pointer (<a href=\"https://tools.ietf.org/html/rfc6901\">RFC 6901</a>) and Relative JSON Pointer (<a href=\"https://tools.ietf.org/id/draft-handrews-relative-json-pointer-00.html\">Specification</a>)</td>\n</tr>\n<tr>\n<td>JsonLogic<br><a href=\"https://www.nuget.org/packages/JsonLogic/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonLogic.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonLogic.svg?svg=true\"></img></a></td>\n<td>JsonLogic (<a href=\"https://jsonlogic.com\">Website</a>)</td>\n</tr>\n<tr>\n<td>JsonE.Net<br><a href=\"https://www.nuget.org/packages/JsonE.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonE.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonE.Net.svg?svg=true\"></img></a></td>\n<td>JSON-e (<a href=\"https://json-e.js.org/\">Website</a>)</td>\n</tr>\n<tr>\n<td>Json.More.Net<br><a href=\"https://www.nuget.org/packages/Json.More.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/Json.More.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/Json.More.Net.svg?svg=true\"></img></a></td>\n<td>General-use extensions that probably should have been included in <em>System.Text.Json[.Nodes]</em> but weren't</td>\n</tr>\n<tr>\n<td>Yaml2JsonNode<br><a href=\"https://www.nuget.org/packages/Yaml2JsonNode/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/Yaml2JsonNode.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/Yaml2JsonNode.svg?svg=true\"></img></a></td>\n<td>Conversions between the YAML document model in <a href=\"https://github.com/aaubry/YamlDotNet\">YamlDotNet</a> and <code>JsonNode</code> (both directions).</td>\n</tr>\n</tbody>\n</table>",
+    "ContentSha": "KzUvieQeBCsmgZ+AwzR3WgHpHFpe3G1xOqJhf/6hP3E=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<td>JsonPath.Net<br><a href=\"https://www.nuget.org/packages/JsonPath.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPath.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPath.Net.svg?svg=true\"></img></a></td>\n<td>JSON Path (<a href=\"https://tools.ietf.org/html/rfc9535\">RFC 9535</a>)</td>\n</tr>\n<tr>\n<td>JsonPatch.Net<br><a href=\"https://www.nuget.org/packages/JsonPatch.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPatch.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPatch.Net.svg?svg=true\"></img></a></td>\n<td>JSON Patch (<a href=\"https://tools.ietf.org/html/rfc6902\">RFC 6902</a>)</td>\n</tr>\n<tr>\n<td>JsonPointer.Net<br><a href=\"https://www.nuget.org/packages/JsonPointer.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPointer.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPointer.Net.svg?svg=true\"></img></a></td>\n<td>JSON Pointer (<a href=\"https://tools.ietf.org/html/rfc6901\">RFC 6901</a>) および Relative JSON Pointer (<a href=\"https://tools.ietf.org/id/draft-handrews-relative-json-pointer-00.html\">仕様</a>)</td>\n</tr>\n<tr>\n<td>JsonLogic<br><a href=\"https://www.nuget.org/packages/JsonLogic/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonLogic.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonLogic.svg?svg=true\"></img></a></td>\n<td>JsonLogic (<a href=\"https://jsonlogic.com\">ウェブサイト</a>)</td>\n</tr>\n<tr>\n<td>JsonE.Net<br><a href=\"https://www.nuget.org/packages/JsonE.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonE.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonE.Net.svg?svg=true\"></img></a></td>\n<td>JSON-e (<a href=\"https://json-e.js.org/\">ウェブサイト</a>)</td>\n</tr>\n<tr>\n<td>Json.More.Net<br><a href=\"https://www.nuget.org/packages/Json.More.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/Json.More.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/Json.More.Net.svg?svg=true\"></img></a></td>\n<td>一般用途の拡張機能で、<em>System.Text.Json[.Nodes]</em> に含まれるべきだったが含まれていないもの</td>\n</tr>\n<tr>\n<td>Yaml2JsonNode<br><a href=\"https://www.nuget.org/packages/Yaml2JsonNode/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/Yaml2JsonNode.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/Yaml2JsonNode.svg?svg=true\"></img></a></td>\n<td><a href=\"https://github.com/aaubry/YamlDotNet\">YamlDotNet</a> の YAML ドキュメントモデルと <code>JsonNode</code> 間の変換（両方向）</td>\n</tr>\n</tbody>\n</table>\n\n上記のすべてのライブラリは、各仕様への完全な対応を提供します。\n\n_JsonSchema.Net_ のエラーメッセージ翻訳は以下の言語で利用可能です：\n\n- イタリア語 `it`\n- ノルウェー語 `nb-NO`\n- ポーランド語 `pl-PL`\n- ロシア語 `ru`\n- スペイン語 `es`\n- スウェーデン語 `sv-SE`",
+    "Translation": "<td>インスタンスおよび外部データへのアクセスのための語彙</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.ArrayExt<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.ArrayExt/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.ArrayExt.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.ArrayExt.svg?svg=true\"></img></a></td>\n<td>配列バリデーションを拡張するための語彙</td>\n</tr>\n<tr>\n<td>JsonSchema.Net.OpenApi<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.OpenApi/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.OpenApi.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.OpenApi.svg?svg=true\"></img></a></td>\n<td><a href=\"https://www.openapis.org/\">OpenApi 3.1</a> の語彙拡張（<a href=\"https://github.com/gregsdennis/Graeae\">Graeae</a> で使用）</td>\n</tr>\n<tr>\n<td>JsonPath.Net<br><a href=\"https://www.nuget.org/packages/JsonPath.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPath.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPath.Net.svg?svg=true\"></img></a></td>\n<td>JSON Path (<a href=\"https://tools.ietf.org/html/rfc9535\">RFC 9535</a>)</td>\n</tr>\n<tr>\n<td>JsonPatch.Net<br><a href=\"https://www.nuget.org/packages/JsonPatch.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPatch.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPatch.Net.svg?svg=true\"></img></a></td>\n<td>JSON Patch (<a href=\"https://tools.ietf.org/html/rfc6902\">RFC 6902</a>)</td>\n</tr>\n<tr>\n<td>JsonPointer.Net<br><a href=\"https://www.nuget.org/packages/JsonPointer.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPointer.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPointer.Net.svg?svg=true\"></img></a></td>\n<td>JSON Pointer (<a href=\"https://tools.ietf.org/html/rfc6901\">RFC 6901</a>) および Relative JSON Pointer (<a href=\"https://tools.ietf.org/id/draft-handrews-relative-json-pointer-00.html\">仕様</a>)</td>\n</tr>\n<tr>\n<td>JsonLogic<br><a href=\"https://www.nuget.org/packages/JsonLogic/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonLogic.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonLogic.svg?svg=true\"></img></a></td>\n<td>JsonLogic (<a href=\"https://jsonlogic.com\">公式サイト</a>)</td>\n</tr>\n<tr>\n<td>JsonE.Net<br><a href=\"https://www.nuget.org/packages/JsonE.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonE.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonE.Net.svg?svg=true\"></img></a></td>\n<td>JSON-e (<a href=\"https://json-e.js.org/\">公式サイト</a>)</td>\n</tr>\n<tr>\n<td>Json.More.Net<br><a href=\"https://www.nuget.org/packages/Json.More.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/Json.More.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/Json.More.Net.svg?svg=true\"></img></a></td>\n<td>一般用途の拡張。<em>System.Text.Json[.Nodes]</em> に本来含まれるべきだったが含まれていない機能</td>\n</tr>\n<tr>\n<td>Yaml2JsonNode<br><a href=\"https://www.nuget.org/packages/Yaml2JsonNode/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/Yaml2JsonNode.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/Yaml2JsonNode.svg?svg=true\"></img></a></td>\n<td><a href=\"https://github.com/aaubry/YamlDotNet\">YamlDotNet</a> の YAMLドキュメントモデルと <code>JsonNode</code> の間の変換（両方向）。</td>\n</tr>\n</tbody>\n</table>",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "HmSYsHLmh3EBm3aCqlremO0kfIgg3U2wLGJCXPfTnqI=",
+        "originContent": "<td>A vocabulary for accessing instance and external data</td>",
+        "translatedContent": "<td>インスタンスおよび外部データへのアクセスのための語彙</td>"
+      },
+      {
+        "row": 2,
+        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+        "originContent": "</tr>",
+        "translatedContent": "</tr>"
+      },
+      {
+        "row": 3,
+        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+        "originContent": "<tr>",
+        "translatedContent": "<tr>"
+      },
+      {
+        "row": 4,
+        "rowsha": "QN20XkWDXHcOZ7w/SnU80fsHlr13Y+FVyRJQVWvIuLs=",
+        "originContent": "<td>JsonSchema.Net.ArrayExt<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.ArrayExt/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.ArrayExt.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.ArrayExt.svg?svg=true\"></img></a></td>",
+        "translatedContent": "<td>JsonSchema.Net.ArrayExt<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.ArrayExt/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.ArrayExt.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.ArrayExt.svg?svg=true\"></img></a></td>"
+      },
+      {
+        "row": 5,
+        "rowsha": "KtZpg6171+QWlWdNeE8hpixo+Sen1xdggNRT7ovx6C0=",
+        "originContent": "<td>A vocabulary for extending array validation</td>",
+        "translatedContent": "<td>配列バリデーションを拡張するための語彙</td>"
+      },
+      {
+        "row": 6,
+        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+        "originContent": "</tr>",
+        "translatedContent": "</tr>"
+      },
+      {
+        "row": 7,
+        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+        "originContent": "<tr>",
+        "translatedContent": "<tr>"
+      },
+      {
+        "row": 8,
+        "rowsha": "ZLhLyW33ihdF4qspb74RHXAMBZ3Rw0CvEZcO9ng/eXQ=",
+        "originContent": "<td>JsonSchema.Net.OpenApi<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.OpenApi/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.OpenApi.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.OpenApi.svg?svg=true\"></img></a></td>",
+        "translatedContent": "<td>JsonSchema.Net.OpenApi<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.OpenApi/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.OpenApi.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.OpenApi.svg?svg=true\"></img></a></td>"
+      },
+      {
+        "row": 9,
+        "rowsha": "KUnU4YTikv4nn7Uo+W6rLl+mu4/IgOjgec+fXOb1dHI=",
+        "originContent": "<td><a href=\"https://www.openapis.org/\">OpenApi 3.1</a> vocabulary extension (used by <a href=\"https://github.com/gregsdennis/Graeae\">Graeae</a>)</td>",
+        "translatedContent": "<td><a href=\"https://www.openapis.org/\">OpenApi 3.1</a> の語彙拡張（<a href=\"https://github.com/gregsdennis/Graeae\">Graeae</a> で使用）</td>"
+      },
+      {
+        "row": 10,
+        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+        "originContent": "</tr>",
+        "translatedContent": "</tr>"
+      },
+      {
+        "row": 11,
+        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+        "originContent": "<tr>",
+        "translatedContent": "<tr>"
+      },
+      {
+        "row": 12,
         "rowsha": "mwzj9q3XI2vb7MRyZGqBskcQgavWxoGP5pWPsQ9gOzo=",
         "originContent": "<td>JsonPath.Net<br><a href=\"https://www.nuget.org/packages/JsonPath.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPath.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPath.Net.svg?svg=true\"></img></a></td>",
         "translatedContent": "<td>JsonPath.Net<br><a href=\"https://www.nuget.org/packages/JsonPath.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPath.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPath.Net.svg?svg=true\"></img></a></td>"
       },
       {
-        "row": 2,
+        "row": 13,
         "rowsha": "vYWMLaZgqhOjOmWRqLHxx1NEqJXN0JvfGIi/Qdz7OaY=",
         "originContent": "<td>JSON Path (<a href=\"https://tools.ietf.org/html/rfc9535\">RFC 9535</a>)</td>",
         "translatedContent": "<td>JSON Path (<a href=\"https://tools.ietf.org/html/rfc9535\">RFC 9535</a>)</td>"
       },
       {
-        "row": 3,
+        "row": 14,
         "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
         "originContent": "</tr>",
         "translatedContent": "</tr>"
       },
       {
-        "row": 4,
+        "row": 15,
         "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
         "originContent": "<tr>",
         "translatedContent": "<tr>"
       },
       {
-        "row": 5,
+        "row": 16,
         "rowsha": "BhtPG4jpAwdDmq9PgmFM+NIdkdOeYDfAB4MgmdidGMo=",
         "originContent": "<td>JsonPatch.Net<br><a href=\"https://www.nuget.org/packages/JsonPatch.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPatch.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPatch.Net.svg?svg=true\"></img></a></td>",
         "translatedContent": "<td>JsonPatch.Net<br><a href=\"https://www.nuget.org/packages/JsonPatch.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPatch.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPatch.Net.svg?svg=true\"></img></a></td>"
       },
       {
-        "row": 6,
+        "row": 17,
         "rowsha": "ifWS9vRbw7XaYWd9kW1zqXcG4yTKuXZ71KUEf+GXmi8=",
         "originContent": "<td>JSON Patch (<a href=\"https://tools.ietf.org/html/rfc6902\">RFC 6902</a>)</td>",
         "translatedContent": "<td>JSON Patch (<a href=\"https://tools.ietf.org/html/rfc6902\">RFC 6902</a>)</td>"
       },
       {
-        "row": 7,
+        "row": 18,
         "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
         "originContent": "</tr>",
         "translatedContent": "</tr>"
       },
       {
-        "row": 8,
+        "row": 19,
         "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
         "originContent": "<tr>",
         "translatedContent": "<tr>"
       },
       {
-        "row": 9,
+        "row": 20,
         "rowsha": "JCzT+WOZgZj6b6llaHOwcoIYsKhRgUSm3ZtMJkAzQWY=",
         "originContent": "<td>JsonPointer.Net<br><a href=\"https://www.nuget.org/packages/JsonPointer.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPointer.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPointer.Net.svg?svg=true\"></img></a></td>",
         "translatedContent": "<td>JsonPointer.Net<br><a href=\"https://www.nuget.org/packages/JsonPointer.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonPointer.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonPointer.Net.svg?svg=true\"></img></a></td>"
       },
       {
-        "row": 10,
+        "row": 21,
         "rowsha": "M9yG4vm4tDZNnEfXwL1BeCz3zIEgU6H+HK95KZRFv7A=",
         "originContent": "<td>JSON Pointer (<a href=\"https://tools.ietf.org/html/rfc6901\">RFC 6901</a>) and Relative JSON Pointer (<a href=\"https://tools.ietf.org/id/draft-handrews-relative-json-pointer-00.html\">Specification</a>)</td>",
         "translatedContent": "<td>JSON Pointer (<a href=\"https://tools.ietf.org/html/rfc6901\">RFC 6901</a>) および Relative JSON Pointer (<a href=\"https://tools.ietf.org/id/draft-handrews-relative-json-pointer-00.html\">仕様</a>)</td>"
       },
       {
-        "row": 11,
+        "row": 22,
         "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
         "originContent": "</tr>",
         "translatedContent": "</tr>"
       },
       {
-        "row": 12,
+        "row": 23,
         "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
         "originContent": "<tr>",
         "translatedContent": "<tr>"
       },
       {
-        "row": 13,
+        "row": 24,
         "rowsha": "3oS3F+19UXCCR7ALo2v6GBMPEyJRV5uKvw1KFfotXXk=",
         "originContent": "<td>JsonLogic<br><a href=\"https://www.nuget.org/packages/JsonLogic/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonLogic.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonLogic.svg?svg=true\"></img></a></td>",
         "translatedContent": "<td>JsonLogic<br><a href=\"https://www.nuget.org/packages/JsonLogic/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonLogic.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonLogic.svg?svg=true\"></img></a></td>"
       },
       {
-        "row": 14,
+        "row": 25,
         "rowsha": "3bQ02crF81IEXjSC7ngnjJ9ZSoWCIfDi9q6fUYyWOh0=",
         "originContent": "<td>JsonLogic (<a href=\"https://jsonlogic.com\">Website</a>)</td>",
-        "translatedContent": "<td>JsonLogic (<a href=\"https://jsonlogic.com\">ウェブサイト</a>)</td>"
+        "translatedContent": "<td>JsonLogic (<a href=\"https://jsonlogic.com\">公式サイト</a>)</td>"
       },
       {
-        "row": 15,
+        "row": 26,
         "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
         "originContent": "</tr>",
         "translatedContent": "</tr>"
       },
       {
-        "row": 16,
+        "row": 27,
         "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
         "originContent": "<tr>",
         "translatedContent": "<tr>"
       },
       {
-        "row": 17,
+        "row": 28,
         "rowsha": "14dl49EERumg7ztQWqtIf6iUBt1BxGQVwac40f4UFjg=",
         "originContent": "<td>JsonE.Net<br><a href=\"https://www.nuget.org/packages/JsonE.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonE.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonE.Net.svg?svg=true\"></img></a></td>",
         "translatedContent": "<td>JsonE.Net<br><a href=\"https://www.nuget.org/packages/JsonE.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonE.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonE.Net.svg?svg=true\"></img></a></td>"
       },
       {
-        "row": 18,
+        "row": 29,
         "rowsha": "SY22k4iV+JCL2mq1gY3iIyNZFk8gn7G6sbKnh6RmNeU=",
         "originContent": "<td>JSON-e (<a href=\"https://json-e.js.org/\">Website</a>)</td>",
-        "translatedContent": "<td>JSON-e (<a href=\"https://json-e.js.org/\">ウェブサイト</a>)</td>"
+        "translatedContent": "<td>JSON-e (<a href=\"https://json-e.js.org/\">公式サイト</a>)</td>"
       },
       {
-        "row": 19,
+        "row": 30,
         "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
         "originContent": "</tr>",
         "translatedContent": "</tr>"
       },
       {
-        "row": 20,
+        "row": 31,
         "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
         "originContent": "<tr>",
         "translatedContent": "<tr>"
       },
       {
-        "row": 21,
+        "row": 32,
         "rowsha": "dLH+XjQ/bUYuDybVKxWtvetAmIARd9ZIBFGxTQoPBmU=",
         "originContent": "<td>Json.More.Net<br><a href=\"https://www.nuget.org/packages/Json.More.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/Json.More.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/Json.More.Net.svg?svg=true\"></img></a></td>",
         "translatedContent": "<td>Json.More.Net<br><a href=\"https://www.nuget.org/packages/Json.More.Net/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/Json.More.Net.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/Json.More.Net.svg?svg=true\"></img></a></td>"
       },
       {
-        "row": 22,
+        "row": 33,
         "rowsha": "wHzERTqO8F1pgqXeosX3M0T6kd9C3/sCWIbdmNhck20=",
         "originContent": "<td>General-use extensions that probably should have been included in <em>System.Text.Json[.Nodes]</em> but weren't</td>",
-        "translatedContent": "<td>一般用途の拡張機能で、<em>System.Text.Json[.Nodes]</em> に含まれるべきだったが含まれていないもの</td>"
+        "translatedContent": "<td>一般用途の拡張。<em>System.Text.Json[.Nodes]</em> に本来含まれるべきだったが含まれていない機能</td>"
       },
       {
-        "row": 23,
+        "row": 34,
         "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
         "originContent": "</tr>",
         "translatedContent": "</tr>"
       },
       {
-        "row": 24,
+        "row": 35,
         "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
         "originContent": "<tr>",
         "translatedContent": "<tr>"
       },
       {
-        "row": 25,
+        "row": 36,
         "rowsha": "ywnk3DaxcVopUerBXC5+WF7Cj56PGbuXjrxee8/zSb0=",
         "originContent": "<td>Yaml2JsonNode<br><a href=\"https://www.nuget.org/packages/Yaml2JsonNode/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/Yaml2JsonNode.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/Yaml2JsonNode.svg?svg=true\"></img></a></td>",
         "translatedContent": "<td>Yaml2JsonNode<br><a href=\"https://www.nuget.org/packages/Yaml2JsonNode/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/Yaml2JsonNode.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/Yaml2JsonNode.svg?svg=true\"></img></a></td>"
       },
       {
-        "row": 26,
+        "row": 37,
         "rowsha": "wKE07e6lCgFEuwI4mHb45OT170owNDGKhg56GYFcM/s=",
         "originContent": "<td>Conversions between the YAML document model in <a href=\"https://github.com/aaubry/YamlDotNet\">YamlDotNet</a> and <code>JsonNode</code> (both directions).</td>",
-        "translatedContent": "<td><a href=\"https://github.com/aaubry/YamlDotNet\">YamlDotNet</a> の YAML ドキュメントモデルと <code>JsonNode</code> 間の変換（両方向）</td>"
+        "translatedContent": "<td><a href=\"https://github.com/aaubry/YamlDotNet\">YamlDotNet</a> の YAMLドキュメントモデルと <code>JsonNode</code> の間の変換（両方向）。</td>"
       },
       {
-        "row": 27,
+        "row": 38,
         "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
         "originContent": "</tr>",
         "translatedContent": "</tr>"
       },
       {
-        "row": 28,
+        "row": 39,
         "rowsha": "4vVoWe8Fk7ZQhBpbXdv9h+cpmNXJ0MAfuOWjY6ubDls=",
         "originContent": "</tbody>",
         "translatedContent": "</tbody>"
       },
       {
-        "row": 29,
+        "row": 40,
         "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
         "originContent": "</table>",
         "translatedContent": "</table>"
-      },
-      {
-        "row": 30,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 31,
-        "rowsha": "X84JJWOBO7BmS6wssj1/riHyuwUN45IECp2K1c8hDxs=",
-        "originContent": "All of the above libraries offer complete support for their associated specifications.",
-        "translatedContent": "上記のすべてのライブラリは、各仕様への完全な対応を提供します。"
-      },
-      {
-        "row": 32,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 33,
-        "rowsha": "V+B8YX44vKzbkslxVoQqA31T7Kz/tAFoonNXiLrCX24=",
-        "originContent": "Error message translations for _JsonSchema.Net_ available in:",
-        "translatedContent": "_JsonSchema.Net_ のエラーメッセージ翻訳は以下の言語で利用可能です："
-      },
-      {
-        "row": 34,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 35,
-        "rowsha": "rgEY1dqzxLW0OqO/u6AQK7NOlmHoLCxpIOMpZPsCIcM=",
-        "originContent": "- Italian `it`",
-        "translatedContent": "- イタリア語 `it`"
-      },
-      {
-        "row": 36,
-        "rowsha": "EccKqcDyZCZpmFxxntkLduCxK+LJm44zsa7Vf1enDDI=",
-        "originContent": "- Norwegian `nb-NO`",
-        "translatedContent": "- ノルウェー語 `nb-NO`"
-      },
-      {
-        "row": 37,
-        "rowsha": "o3kzKB/U0q+FWTVX4d6LT0kPer8hBtzlc4zGE6KTONo=",
-        "originContent": "- Polish `pl-PL`",
-        "translatedContent": "- ポーランド語 `pl-PL`"
-      },
-      {
-        "row": 38,
-        "rowsha": "DugbkTFjISyYDeyF6OCxHIOPhfosdI4LPJKLNFiBx+U=",
-        "originContent": "- Russian `ru`",
-        "translatedContent": "- ロシア語 `ru`"
-      },
-      {
-        "row": 39,
-        "rowsha": "B1KqtbcyIqOTvObJE6bHrfAHu8gGE/s0+dFG3FAyf6A=",
-        "originContent": "- Spanish `es`",
-        "translatedContent": "- スペイン語 `es`"
-      },
-      {
-        "row": 40,
-        "rowsha": "jD5Yw929BDrDGR1kSTufDnH3SMQZl4x4/7V6+p1FEiQ=",
-        "originContent": "- Swedish `sv-SE`",
-        "translatedContent": "- スウェーデン語 `sv-SE`"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 5,
-    "Content": "- Turkish `tr-TR`\n\n***NOTE** Each language pack is provided by its own Nuget package.*\n\nYou can also view JSON Schema Test Suite results on [Bowtie](https://bowtie-json-schema.github.io/bowtie), which runs the test suite against multiple implementations across different platforms.\n\n***DISCLAIMER** My library, _JsonSchema.Net_, is not related to or associated with the website https://jsonschema.net, except that they are both excellent JSON Schema tools.*\n\n### Deprecated packages\n\nThese packages have also been a part of this suite but are no longer supported.\n\n<table>\n<tbody>\n<tr>\n<td>JsonSchema.Net.CodeGeneration<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.CodeGeneration/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img></a></td>\n<td>Generation of C# code from schemas</td>\n<td>Deprecated in favor of <a href=\"https://github.com/corvus-dotnet/Corvus.JsonSchema\">Corvus.JsonSchema</a></td>\n</tr>\n</tbody>\n</table>\n\n\n## _System.Text.Json_ support by other projects\n\nIf you don't find what you're looking for here, please try one of these excellent projects:\n\n- [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) by [@danielaparker](https://github.com/danielaparker)\n  - JSON Pointer\n  - JSON Patch\n  - JSON Merge Patch\n  - JSON Path\n  - JMES Path\n- [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) by [@mwadams](https://github.com/mwadams)\n  - JSON Schema validation with a C# code generation focus\n- (more to come)\n\nIf you use JSON to do something that is not covered by a library in this suite or one of the above projects, feel free to [create a feature issue](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml).\n\nIf you maintain or know of another project that extends _System.Text.Json_ to do cool things, I'd like to list it here, so please [create a general issue](https://github.com/json-everything/json-everything/issues/new) to let me know about it.",
-    "ContentSha": "0kUY8yDQ+uGvu4CN/+W0LUG8GEsDqtJRuEpRxaF+QU8=",
+    "Content": "\nAll of the above libraries offer complete support for their associated specifications.\n\nError message translations for _JsonSchema.Net_ available in:\n\n- Italian `it`\n- Norwegian `nb-NO`\n- Polish `pl-PL`\n- Portuguese `pt`\n- Russian `ru`\n- Spanish `es`\n- Swedish `sv-SE`\n- Turkish `tr-TR`\n\n***NOTE** Each language pack is provided by its own Nuget package.*\n\nYou can also view JSON Schema Test Suite results on [Bowtie](https://bowtie-json-schema.github.io/bowtie), which runs the test suite against multiple implementations across different platforms.\n\n***DISCLAIMER** My library, _JsonSchema.Net_, is not related to or associated with the website https://jsonschema.net, except that they are both excellent JSON Schema tools.*\n\n### Deprecated packages\n\nThese packages have also been a part of this suite but are no longer supported.\n\n<table>\n<tbody>\n<tr>\n<td>JsonSchema.Net.CodeGeneration<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.CodeGeneration/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img></a></td>\n<td>Generation of C# code from schemas</td>\n<td>Deprecated in favor of <a href=\"https://github.com/corvus-dotnet/Corvus.JsonSchema\">Corvus.JsonSchema</a></td>\n</tr>\n</tbody>\n</table>\n\n\n## _System.Text.Json_ support by other projects\n\nIf you don't find what you're looking for here, please try one of these excellent projects:\n\n- [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) by [@danielaparker](https://github.com/danielaparker)",
+    "ContentSha": "k/riAyoOtRQ0/uv0hdqBKlXk5/aMqyNac8r2dI00Nyc=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- トルコ語 `tr-TR`\n\n***注意** 各言語パックは、それぞれの Nuget パッケージによって提供されています。*\n\nJSON Schema Test Suite の結果は、[Bowtie](https://bowtie-json-schema.github.io/bowtie) でも確認できます。これは、複数のプラットフォームで様々な実装に対してテストスイートを実行します。\n\n***免責事項** 私のライブラリ _JsonSchema.Net_ は、https://jsonschema.net というウェブサイトとは関係も提携もありません。ただし、両者とも優れた JSON Schema ツールです。*\n\n### 非推奨パッケージ\n\nこれらのパッケージもこのスイートの一部でしたが、現在はサポートされていません。\n\n<table>\n<tbody>\n<tr>\n<td>JsonSchema.Net.CodeGeneration<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.CodeGeneration/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img></a></td>\n<td>スキーマから C# コードの生成</td>\n<td><a href=\"https://github.com/corvus-dotnet/Corvus.JsonSchema\">Corvus.JsonSchema</a> 推奨のため非推奨</td>\n</tr>\n</tbody>\n</table>\n\n\n## 他プロジェクトによる _System.Text.Json_ サポート\n\nここで目的のものが見つからない場合は、以下の優れたプロジェクトもお試しください:\n\n- [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) （[@danielaparker](https://github.com/danielaparker) による）\n  - JSON ポインタ\n  - JSON パッチ\n  - JSON マージパッチ\n  - JSON パス\n  - JMES パス\n- [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) （[@mwadams](https://github.com/mwadams) による）\n  - C# コード生成を重視した JSON Schema バリデーション\n- （今後追加予定）\n\nJSON を使って、このスイートや上記プロジェクトのライブラリでカバーされていないことを行いたい場合は、[機能リクエスト](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml)を自由に作成してください。\n\n_System.Text.Json_ を拡張して面白いことを行う他のプロジェクトを管理している、またはご存知の場合は、ぜひここに掲載したいので、[一般的な問い合わせ](https://github.com/json-everything/json-everything/issues/new)を作成してお知らせください。",
+    "Translation": "上記のすべてのライブラリは、関連する仕様への完全なサポートを提供しています。\n\n_JsonSchema.Net_ のエラーメッセージ翻訳は以下の言語で利用可能です:\n\n- イタリア語 `it`\n- ノルウェー語 `nb-NO`\n- ポーランド語 `pl-PL`\n- ポルトガル語 `pt`\n- ロシア語 `ru`\n- スペイン語 `es`\n- スウェーデン語 `sv-SE`\n- トルコ語 `tr-TR`\n\n***注意** 各言語パックは、それぞれ独自のNugetパッケージとして提供されています。*\n\nまた、[Bowtie](https://bowtie-json-schema.github.io/bowtie)でJSON Schema Test Suiteの結果を見ることができます。Bowtieは、複数のプラットフォームにわたる様々な実装に対してテストスイートを実行します。\n\n***免責事項** 私のライブラリ _JsonSchema.Net_ は、https://jsonschema.net というウェブサイトとは関係ありませんが、どちらも優れたJSON Schemaツールです。*\n\n### 非推奨パッケージ\n\nこれらのパッケージもこのスイートの一部でしたが、現在はサポートされていません。\n\n<table>\n<tbody>\n<tr>\n<td>JsonSchema.Net.CodeGeneration<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.CodeGeneration/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img></a></td>\n<td>スキーマからC#コードを生成</td>\n<td><a href=\"https://github.com/corvus-dotnet/Corvus.JsonSchema\">Corvus.JsonSchema</a> への移行により非推奨</td>\n</tr>\n</tbody>\n</table>\n\n\n## 他プロジェクトによる _System.Text.Json_ サポート\n\nここでお探しのものが見つからない場合、次の優れたプロジェクトもご利用ください:\n\n- [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) （[@danielaparker](https://github.com/danielaparker) による）\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "2yFNH+jY0rRybTYfcGvf1Wn6BouRBOtqPzlYYkUr1/A=",
-        "originContent": "- Turkish `tr-TR`",
-        "translatedContent": "- トルコ語 `tr-TR`"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "上記のすべてのライブラリは、関連する仕様への完全なサポートを提供しています。"
       },
       {
         "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "X84JJWOBO7BmS6wssj1/riHyuwUN45IECp2K1c8hDxs=",
+        "originContent": "All of the above libraries offer complete support for their associated specifications.",
         "translatedContent": ""
       },
       {
         "row": 3,
-        "rowsha": "dEVJ3cd3bYwapk5RX07XLQ4D32zFw7LEgy0HIxFpnDc=",
-        "originContent": "***NOTE** Each language pack is provided by its own Nuget package.*",
-        "translatedContent": "***注意** 各言語パックは、それぞれの Nuget パッケージによって提供されています。*"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "_JsonSchema.Net_ のエラーメッセージ翻訳は以下の言語で利用可能です:"
       },
       {
         "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "V+B8YX44vKzbkslxVoQqA31T7Kz/tAFoonNXiLrCX24=",
+        "originContent": "Error message translations for _JsonSchema.Net_ available in:",
         "translatedContent": ""
       },
       {
         "row": 5,
-        "rowsha": "DDA/eG8/oo1IONZrOve+zzfNzII7/9oFilAmRLEh06A=",
-        "originContent": "You can also view JSON Schema Test Suite results on [Bowtie](https://bowtie-json-schema.github.io/bowtie), which runs the test suite against multiple implementations across different platforms.",
-        "translatedContent": "JSON Schema Test Suite の結果は、[Bowtie](https://bowtie-json-schema.github.io/bowtie) でも確認できます。これは、複数のプラットフォームで様々な実装に対してテストスイートを実行します。"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- イタリア語 `it`"
       },
       {
         "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "rgEY1dqzxLW0OqO/u6AQK7NOlmHoLCxpIOMpZPsCIcM=",
+        "originContent": "- Italian `it`",
+        "translatedContent": "- ノルウェー語 `nb-NO`"
       },
       {
         "row": 7,
-        "rowsha": "XOuVXtrVpt5jlRMDq3BC7yn4gmIuMo9on1ZVrbSUqMI=",
-        "originContent": "***DISCLAIMER** My library, _JsonSchema.Net_, is not related to or associated with the website https://jsonschema.net, except that they are both excellent JSON Schema tools.*",
-        "translatedContent": "***免責事項** 私のライブラリ _JsonSchema.Net_ は、https://jsonschema.net というウェブサイトとは関係も提携もありません。ただし、両者とも優れた JSON Schema ツールです。*"
+        "rowsha": "EccKqcDyZCZpmFxxntkLduCxK+LJm44zsa7Vf1enDDI=",
+        "originContent": "- Norwegian `nb-NO`",
+        "translatedContent": "- ポーランド語 `pl-PL`"
       },
       {
         "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "o3kzKB/U0q+FWTVX4d6LT0kPer8hBtzlc4zGE6KTONo=",
+        "originContent": "- Polish `pl-PL`",
+        "translatedContent": "- ポルトガル語 `pt`"
       },
       {
         "row": 9,
-        "rowsha": "Az7vtSBt1NET/xtccOOnsdCBuGWrWGtWQA/HCJBmzQE=",
-        "originContent": "### Deprecated packages",
-        "translatedContent": "### 非推奨パッケージ"
+        "rowsha": "9YBG72Tj/MXkZySCK7e2iaIn9PzEY7+XDysZbnQZe3U=",
+        "originContent": "- Portuguese `pt`",
+        "translatedContent": "- ロシア語 `ru`"
       },
       {
         "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "DugbkTFjISyYDeyF6OCxHIOPhfosdI4LPJKLNFiBx+U=",
+        "originContent": "- Russian `ru`",
+        "translatedContent": "- スペイン語 `es`"
       },
       {
         "row": 11,
-        "rowsha": "WtftP1ZRq0xBqLyKyQET10Ez684LPSRFbq6ytqqCXEM=",
-        "originContent": "These packages have also been a part of this suite but are no longer supported.",
-        "translatedContent": "これらのパッケージもこのスイートの一部でしたが、現在はサポートされていません。"
+        "rowsha": "B1KqtbcyIqOTvObJE6bHrfAHu8gGE/s0+dFG3FAyf6A=",
+        "originContent": "- Spanish `es`",
+        "translatedContent": "- スウェーデン語 `sv-SE`"
       },
       {
         "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "jD5Yw929BDrDGR1kSTufDnH3SMQZl4x4/7V6+p1FEiQ=",
+        "originContent": "- Swedish `sv-SE`",
+        "translatedContent": "- トルコ語 `tr-TR`"
       },
       {
         "row": 13,
-        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
-        "originContent": "<table>",
-        "translatedContent": "<table>"
+        "rowsha": "2yFNH+jY0rRybTYfcGvf1Wn6BouRBOtqPzlYYkUr1/A=",
+        "originContent": "- Turkish `tr-TR`",
+        "translatedContent": ""
       },
       {
         "row": 14,
-        "rowsha": "ruLeRD2bx8rCRpKgI3bi6XMrSVglUy1Zz5fxtgJzGKo=",
-        "originContent": "<tbody>",
-        "translatedContent": "<tbody>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "***注意** 各言語パックは、それぞれ独自のNugetパッケージとして提供されています。*"
       },
       {
         "row": 15,
-        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
-        "originContent": "<tr>",
-        "translatedContent": "<tr>"
+        "rowsha": "dEVJ3cd3bYwapk5RX07XLQ4D32zFw7LEgy0HIxFpnDc=",
+        "originContent": "***NOTE** Each language pack is provided by its own Nuget package.*",
+        "translatedContent": ""
       },
       {
         "row": 16,
-        "rowsha": "ML0AvJigm+JtzIVcFZ6coC6bT3uBqWod2TN2HtGf2bs=",
-        "originContent": "<td>JsonSchema.Net.CodeGeneration<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.CodeGeneration/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img></a></td>",
-        "translatedContent": "<td>JsonSchema.Net.CodeGeneration<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.CodeGeneration/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img></a></td>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "また、[Bowtie](https://bowtie-json-schema.github.io/bowtie)でJSON Schema Test Suiteの結果を見ることができます。Bowtieは、複数のプラットフォームにわたる様々な実装に対してテストスイートを実行します。"
       },
       {
         "row": 17,
-        "rowsha": "mwaSkp83N5bh4mWmXx07E54DfX0fOlo4ZKwkn3b4YIE=",
-        "originContent": "<td>Generation of C# code from schemas</td>",
-        "translatedContent": "<td>スキーマから C# コードの生成</td>"
+        "rowsha": "DDA/eG8/oo1IONZrOve+zzfNzII7/9oFilAmRLEh06A=",
+        "originContent": "You can also view JSON Schema Test Suite results on [Bowtie](https://bowtie-json-schema.github.io/bowtie), which runs the test suite against multiple implementations across different platforms.",
+        "translatedContent": ""
       },
       {
         "row": 18,
-        "rowsha": "Md9XrdQRpcC5kWxdSaVC30XA5FFzJ0GuKmCVosOohH8=",
-        "originContent": "<td>Deprecated in favor of <a href=\"https://github.com/corvus-dotnet/Corvus.JsonSchema\">Corvus.JsonSchema</a></td>",
-        "translatedContent": "<td><a href=\"https://github.com/corvus-dotnet/Corvus.JsonSchema\">Corvus.JsonSchema</a> 推奨のため非推奨</td>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "***免責事項** 私のライブラリ _JsonSchema.Net_ は、https://jsonschema.net というウェブサイトとは関係ありませんが、どちらも優れたJSON Schemaツールです。*"
       },
       {
         "row": 19,
-        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
-        "originContent": "</tr>",
-        "translatedContent": "</tr>"
+        "rowsha": "XOuVXtrVpt5jlRMDq3BC7yn4gmIuMo9on1ZVrbSUqMI=",
+        "originContent": "***DISCLAIMER** My library, _JsonSchema.Net_, is not related to or associated with the website https://jsonschema.net, except that they are both excellent JSON Schema tools.*",
+        "translatedContent": ""
       },
       {
         "row": 20,
-        "rowsha": "4vVoWe8Fk7ZQhBpbXdv9h+cpmNXJ0MAfuOWjY6ubDls=",
-        "originContent": "</tbody>",
-        "translatedContent": "</tbody>"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 非推奨パッケージ"
       },
       {
         "row": 21,
-        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
-        "originContent": "</table>",
-        "translatedContent": "</table>"
+        "rowsha": "Az7vtSBt1NET/xtccOOnsdCBuGWrWGtWQA/HCJBmzQE=",
+        "originContent": "### Deprecated packages",
+        "translatedContent": ""
       },
       {
         "row": 22,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
+        "translatedContent": "これらのパッケージもこのスイートの一部でしたが、現在はサポートされていません。"
+      },
+      {
+        "row": 23,
+        "rowsha": "WtftP1ZRq0xBqLyKyQET10Ez684LPSRFbq6ytqqCXEM=",
+        "originContent": "These packages have also been a part of this suite but are no longer supported.",
         "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<table>"
+      },
+      {
+        "row": 25,
+        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+        "originContent": "<table>",
+        "translatedContent": "<tbody>"
+      },
+      {
+        "row": 26,
+        "rowsha": "ruLeRD2bx8rCRpKgI3bi6XMrSVglUy1Zz5fxtgJzGKo=",
+        "originContent": "<tbody>",
+        "translatedContent": "<tr>"
+      },
+      {
+        "row": 27,
+        "rowsha": "m4TGFLRzvx0YLmLMue/0JQ+Zd9Xal1VIBS1erVxEKBU=",
+        "originContent": "<tr>",
+        "translatedContent": "<td>JsonSchema.Net.CodeGeneration<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.CodeGeneration/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img></a></td>"
+      },
+      {
+        "row": 28,
+        "rowsha": "ML0AvJigm+JtzIVcFZ6coC6bT3uBqWod2TN2HtGf2bs=",
+        "originContent": "<td>JsonSchema.Net.CodeGeneration<br><a href=\"https://www.nuget.org/packages/JsonSchema.Net.CodeGeneration/\"><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/vpre/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img><img alt=\"NuGet version\" src=\"https://img.shields.io/nuget/dt/JsonSchema.Net.CodeGeneration.svg?svg=true\"></img></a></td>",
+        "translatedContent": "<td>スキーマからC#コードを生成</td>"
+      },
+      {
+        "row": 29,
+        "rowsha": "mwaSkp83N5bh4mWmXx07E54DfX0fOlo4ZKwkn3b4YIE=",
+        "originContent": "<td>Generation of C# code from schemas</td>",
+        "translatedContent": "<td><a href=\"https://github.com/corvus-dotnet/Corvus.JsonSchema\">Corvus.JsonSchema</a> への移行により非推奨</td>"
+      },
+      {
+        "row": 30,
+        "rowsha": "Md9XrdQRpcC5kWxdSaVC30XA5FFzJ0GuKmCVosOohH8=",
+        "originContent": "<td>Deprecated in favor of <a href=\"https://github.com/corvus-dotnet/Corvus.JsonSchema\">Corvus.JsonSchema</a></td>",
+        "translatedContent": "</tr>"
+      },
+      {
+        "row": 31,
+        "rowsha": "PtdEDOB1aSgnb7wNnHW1mo4VL3Eh6O3aBzC76+S4YE0=",
+        "originContent": "</tr>",
+        "translatedContent": "</tbody>"
+      },
+      {
+        "row": 32,
+        "rowsha": "4vVoWe8Fk7ZQhBpbXdv9h+cpmNXJ0MAfuOWjY6ubDls=",
+        "originContent": "</tbody>",
+        "translatedContent": "</table>"
+      },
+      {
+        "row": 33,
+        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+        "originContent": "</table>",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 他プロジェクトによる _System.Text.Json_ サポート"
+      },
+      {
+        "row": 36,
+        "rowsha": "FPDsLihrTb6HlasR3WBPqzfDtQLHVYUf+PdJPemyf6s=",
+        "originContent": "## _System.Text.Json_ support by other projects",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ここでお探しのものが見つからない場合、次の優れたプロジェクトもご利用ください:"
+      },
+      {
+        "row": 38,
+        "rowsha": "PGaEHNkyDNAzvGNt5ifKbbq1jbweT8D0TpE06+xLvKs=",
+        "originContent": "If you don't find what you're looking for here, please try one of these excellent projects:",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) （[@danielaparker](https://github.com/danielaparker) による）"
+      },
+      {
+        "row": 40,
+        "rowsha": "e+vfbAZ0kVL+6MrxaIQQIFjCBpKdPerAC4tbemudSfE=",
+        "originContent": "- [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) by [@danielaparker](https://github.com/danielaparker)",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "  - JSON Pointer\n  - JSON Patch\n  - JSON Merge Patch\n  - JSON Path\n  - JMES Path\n- [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) by [@mwadams](https://github.com/mwadams)\n  - JSON Schema validation with a C# code generation focus\n- (more to come)\n\nIf you use JSON to do something that is not covered by a library in this suite or one of the above projects, feel free to [create a feature issue](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml).\n\nIf you maintain or know of another project that extends _System.Text.Json_ to do cool things, I'd like to list it here, so please [create a general issue](https://github.com/json-everything/json-everything/issues/new) to let me know about it.\n\n## Contributing\n\nPlease see the [Code of Conduct](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) and the [CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) file for more information.\n\n## Sponsorship\n\nIf you found these libraries helpful and would like to promote continued development, please consider [sponsoring the maintainers](https://github.com/sponsors/gregsdennis).\n\n## .NET Foundation\n\nThis project is supported by the [.NET Foundation](https://dotnetfoundation.org).\n",
+    "ContentSha": "uYXut/lAyys/QSvk47v5Vm21o7PuAOY1K2+uCmoDnLE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - JSON Pointer\n  - JSON Patch\n  - JSON Merge Patch\n  - JSON Path\n  - JMES Path\n- [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) （[@mwadams](https://github.com/mwadams)による）\n  - C#のコード生成に重点を置いたJSON Schemaバリデーション\n- （今後さらに追加予定）\n\nもしJSONを使ってこのスイートや上記プロジェクトでカバーされていないことをしている場合は、[機能追加のIssueを作成](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml)してください。\n\n_System.Text.Json_を拡張して便利なことをしている他のプロジェクトを知っていたり、メンテナンスしている場合は、ここに掲載したいので、[一般的なIssueを作成](https://github.com/json-everything/json-everything/issues/new)してお知らせください。\n\n## コントリビューション\n\n詳細は[行動規範](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md)および[CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md)ファイルをご覧ください。\n\n## スポンサーシップ\n\nこれらのライブラリが役立った場合、継続的な開発を促進するために[メンテナーへのスポンサー](https://github.com/sponsors/gregsdennis)をご検討ください。\n\n## .NET Foundation\n\nこのプロジェクトは[.NET Foundation](https://dotnetfoundation.org)のサポートを受けています。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "AKdOcOp4wnYZXEudh+B20gZzu5K9S73TiMDXX9gH4r8=",
+        "originContent": "  - JSON Pointer",
+        "translatedContent": "  - JSON Pointer"
+      },
+      {
+        "row": 2,
+        "rowsha": "SlQpcmPo5HuvFfsAwdBAddjCINB8mpZ3iOg4aXQ2lW8=",
+        "originContent": "  - JSON Patch",
+        "translatedContent": "  - JSON Patch"
+      },
+      {
+        "row": 3,
+        "rowsha": "xasOGzyxDT1L+gjTEBeJIZQVRcnEp3JNsM+JWPU3Arg=",
+        "originContent": "  - JSON Merge Patch",
+        "translatedContent": "  - JSON Merge Patch"
+      },
+      {
+        "row": 4,
+        "rowsha": "ueJkg3leuKWrJsPMhUE5Ru3tfougAJpI7aah57kRpEo=",
+        "originContent": "  - JSON Path",
+        "translatedContent": "  - JSON Path"
+      },
+      {
+        "row": 5,
+        "rowsha": "i8UG2A4ilehk3zx/tE2vmskhM+AQhXpXsbPPFMJgN6I=",
+        "originContent": "  - JMES Path",
+        "translatedContent": "  - JMES Path"
+      },
+      {
+        "row": 6,
+        "rowsha": "HsWlYbAVT2YC8fSellOKBjo5CU/SzCYnkM8xFZZrH+4=",
+        "originContent": "- [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) by [@mwadams](https://github.com/mwadams)",
+        "translatedContent": "- [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) （[@mwadams](https://github.com/mwadams)による）"
+      },
+      {
+        "row": 7,
+        "rowsha": "znPSOQM41xkp/LpKoCpi7JEHPi7D80v9+EjKsKNOKPw=",
+        "originContent": "  - JSON Schema validation with a C# code generation focus",
+        "translatedContent": "  - C#のコード生成に重点を置いたJSON Schemaバリデーション"
+      },
+      {
+        "row": 8,
+        "rowsha": "8d91cnLBobw/8ENc/PRhwZKBi8EKyKWF2tjNr+QMgaQ=",
+        "originContent": "- (more to come)",
+        "translatedContent": "- （今後さらに追加予定）"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "EP9pZh0W3Tf6BaytvpqaZjz6M4zTR0oTMG9BD411GN4=",
+        "originContent": "If you use JSON to do something that is not covered by a library in this suite or one of the above projects, feel free to [create a feature issue](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml).",
+        "translatedContent": "もしJSONを使ってこのスイートや上記プロジェクトでカバーされていないことをしている場合は、[機能追加のIssueを作成](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml)してください。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "LpFsYKpi/Dgs/V3YI8iY+vFrabNaQoxaYWjWpQpqids=",
+        "originContent": "If you maintain or know of another project that extends _System.Text.Json_ to do cool things, I'd like to list it here, so please [create a general issue](https://github.com/json-everything/json-everything/issues/new) to let me know about it.",
+        "translatedContent": "_System.Text.Json_を拡張して便利なことをしている他のプロジェクトを知っていたり、メンテナンスしている場合は、ここに掲載したいので、[一般的なIssueを作成](https://github.com/json-everything/json-everything/issues/new)してお知らせください。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## コントリビューション"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "/SNJQg5Enh9Jcw5D1ZOOfa+WjfL2PD6JwypypSANO6I=",
+        "originContent": "Please see the [Code of Conduct](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) and the [CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) file for more information.",
+        "translatedContent": "詳細は[行動規範](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md)および[CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md)ファイルをご覧ください。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "voQbiqbwlNUV33MNHQCCUGvbfkRQzADF5mXLxsgZZJ8=",
+        "originContent": "## Sponsorship",
+        "translatedContent": "## スポンサーシップ"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "ta6o9BYlVX1CvntjJ650j32B+jqdXdeNsaqxmW47fXU=",
+        "originContent": "If you found these libraries helpful and would like to promote continued development, please consider [sponsoring the maintainers](https://github.com/sponsors/gregsdennis).",
+        "translatedContent": "これらのライブラリが役立った場合、継続的な開発を促進するために[メンテナーへのスポンサー](https://github.com/sponsors/gregsdennis)をご検討ください。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "FqtqN8vOO6b7K1z2WONWvficosuprvROZPNmh1P2a3U=",
+        "originContent": "## .NET Foundation",
+        "translatedContent": "## .NET Foundation"
       },
       {
         "row": 23,
@@ -1161,193 +1414,12 @@
       },
       {
         "row": 24,
-        "rowsha": "FPDsLihrTb6HlasR3WBPqzfDtQLHVYUf+PdJPemyf6s=",
-        "originContent": "## _System.Text.Json_ support by other projects",
-        "translatedContent": "## 他プロジェクトによる _System.Text.Json_ サポート"
+        "rowsha": "95o2qB49YINxjEhUbIhUV1SvqO4GIwhV+uJqaEwRfQA=",
+        "originContent": "This project is supported by the [.NET Foundation](https://dotnetfoundation.org).",
+        "translatedContent": "このプロジェクトは[.NET Foundation](https://dotnetfoundation.org)のサポートを受けています。"
       },
       {
         "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "PGaEHNkyDNAzvGNt5ifKbbq1jbweT8D0TpE06+xLvKs=",
-        "originContent": "If you don't find what you're looking for here, please try one of these excellent projects:",
-        "translatedContent": "ここで目的のものが見つからない場合は、以下の優れたプロジェクトもお試しください:"
-      },
-      {
-        "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 28,
-        "rowsha": "e+vfbAZ0kVL+6MrxaIQQIFjCBpKdPerAC4tbemudSfE=",
-        "originContent": "- [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) by [@danielaparker](https://github.com/danielaparker)",
-        "translatedContent": "- [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) （[@danielaparker](https://github.com/danielaparker) による）"
-      },
-      {
-        "row": 29,
-        "rowsha": "AKdOcOp4wnYZXEudh+B20gZzu5K9S73TiMDXX9gH4r8=",
-        "originContent": "  - JSON Pointer",
-        "translatedContent": "  - JSON ポインタ"
-      },
-      {
-        "row": 30,
-        "rowsha": "SlQpcmPo5HuvFfsAwdBAddjCINB8mpZ3iOg4aXQ2lW8=",
-        "originContent": "  - JSON Patch",
-        "translatedContent": "  - JSON パッチ"
-      },
-      {
-        "row": 31,
-        "rowsha": "xasOGzyxDT1L+gjTEBeJIZQVRcnEp3JNsM+JWPU3Arg=",
-        "originContent": "  - JSON Merge Patch",
-        "translatedContent": "  - JSON マージパッチ"
-      },
-      {
-        "row": 32,
-        "rowsha": "ueJkg3leuKWrJsPMhUE5Ru3tfougAJpI7aah57kRpEo=",
-        "originContent": "  - JSON Path",
-        "translatedContent": "  - JSON パス"
-      },
-      {
-        "row": 33,
-        "rowsha": "i8UG2A4ilehk3zx/tE2vmskhM+AQhXpXsbPPFMJgN6I=",
-        "originContent": "  - JMES Path",
-        "translatedContent": "  - JMES パス"
-      },
-      {
-        "row": 34,
-        "rowsha": "HsWlYbAVT2YC8fSellOKBjo5CU/SzCYnkM8xFZZrH+4=",
-        "originContent": "- [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) by [@mwadams](https://github.com/mwadams)",
-        "translatedContent": "- [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) （[@mwadams](https://github.com/mwadams) による）"
-      },
-      {
-        "row": 35,
-        "rowsha": "znPSOQM41xkp/LpKoCpi7JEHPi7D80v9+EjKsKNOKPw=",
-        "originContent": "  - JSON Schema validation with a C# code generation focus",
-        "translatedContent": "  - C# コード生成を重視した JSON Schema バリデーション"
-      },
-      {
-        "row": 36,
-        "rowsha": "8d91cnLBobw/8ENc/PRhwZKBi8EKyKWF2tjNr+QMgaQ=",
-        "originContent": "- (more to come)",
-        "translatedContent": "- （今後追加予定）"
-      },
-      {
-        "row": 37,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 38,
-        "rowsha": "EP9pZh0W3Tf6BaytvpqaZjz6M4zTR0oTMG9BD411GN4=",
-        "originContent": "If you use JSON to do something that is not covered by a library in this suite or one of the above projects, feel free to [create a feature issue](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml).",
-        "translatedContent": "JSON を使って、このスイートや上記プロジェクトのライブラリでカバーされていないことを行いたい場合は、[機能リクエスト](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml)を自由に作成してください。"
-      },
-      {
-        "row": 39,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 40,
-        "rowsha": "LpFsYKpi/Dgs/V3YI8iY+vFrabNaQoxaYWjWpQpqids=",
-        "originContent": "If you maintain or know of another project that extends _System.Text.Json_ to do cool things, I'd like to list it here, so please [create a general issue](https://github.com/json-everything/json-everything/issues/new) to let me know about it.",
-        "translatedContent": "_System.Text.Json_ を拡張して面白いことを行う他のプロジェクトを管理している、またはご存知の場合は、ぜひここに掲載したいので、[一般的な問い合わせ](https://github.com/json-everything/json-everything/issues/new)を作成してお知らせください。"
-      }
-    ],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 6,
-    "Content": "\n## Contributing\n\nPlease see the [Code of Conduct](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) and the [CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) file for more information.\n\n## Sponsorship\n\nIf you found these libraries helpful and would like to promote continued development, please consider [sponsoring the maintainers](https://github.com/sponsors/gregsdennis).\n\n## .NET Foundation\n\nThis project is supported by the [.NET Foundation](https://dotnetfoundation.org).\n",
-    "ContentSha": "BRxWA1gM8Ynx0hmRlbP3aykN1yCRss3QCGxmZAxz+dc=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "\n## 貢献について\n\n詳細については、[行動規範](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md)および[CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md)ファイルをご覧ください。\n\n## スポンサーシップ\n\nこれらのライブラリが役立った場合、継続的な開発を支援するために[メンテナーへのスポンサー](https://github.com/sponsors/gregsdennis)をぜひご検討ください。\n\n## .NET Foundation\n\nこのプロジェクトは[.NET Foundation](https://dotnetfoundation.org)によってサポートされています。\n",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
-        "originContent": "## Contributing",
-        "translatedContent": "## 貢献について"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "/SNJQg5Enh9Jcw5D1ZOOfa+WjfL2PD6JwypypSANO6I=",
-        "originContent": "Please see the [Code of Conduct](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) and the [CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) file for more information.",
-        "translatedContent": "詳細については、[行動規範](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md)および[CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md)ファイルをご覧ください。"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "voQbiqbwlNUV33MNHQCCUGvbfkRQzADF5mXLxsgZZJ8=",
-        "originContent": "## Sponsorship",
-        "translatedContent": "## スポンサーシップ"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "ta6o9BYlVX1CvntjJ650j32B+jqdXdeNsaqxmW47fXU=",
-        "originContent": "If you found these libraries helpful and would like to promote continued development, please consider [sponsoring the maintainers](https://github.com/sponsors/gregsdennis).",
-        "translatedContent": "これらのライブラリが役立った場合、継続的な開発を支援するために[メンテナーへのスポンサー](https://github.com/sponsors/gregsdennis)をぜひご検討ください。"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "FqtqN8vOO6b7K1z2WONWvficosuprvROZPNmh1P2a3U=",
-        "originContent": "## .NET Foundation",
-        "translatedContent": "## .NET Foundation"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "95o2qB49YINxjEhUbIhUV1SvqO4GIwhV+uJqaEwRfQA=",
-        "originContent": "This project is supported by the [.NET Foundation](https://dotnetfoundation.org).",
-        "translatedContent": "このプロジェクトは[.NET Foundation](https://dotnetfoundation.org)によってサポートされています。"
-      },
-      {
-        "row": 13,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

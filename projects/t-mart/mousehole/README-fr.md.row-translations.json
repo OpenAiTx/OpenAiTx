@@ -1,0 +1,1160 @@
+[
+  {
+    "row": 1,
+    "rowsha": "LAWP8hBwXaWmOfEo7SlRKwsKOnS7pJAJQNnHwF5JIwU=",
+    "originContent": "# Mousehole, a Seedbox IP Updater for MAM",
+    "translatedContent": "# Mousehole, un Met à Jour d’IP de Seedbox pour MAM"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "E/EDwgOiYGdOwLNu36V4NXAgcfit/BGdakjdyw9XLKo=",
+    "originContent": "A background service to update a seedbox IP for MAM and an HTTP server to manage",
+    "translatedContent": "Un service en arrière-plan pour mettre à jour l’IP d’une seedbox pour MAM et un serveur HTTP pour la gérer."
+  },
+  {
+    "row": 4,
+    "rowsha": "WttoosCvlG/A5CRTun3nYhTH2FSsMPsZTcTAM0KdStg=",
+    "originContent": "it.",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![Mousehole Demo](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/images/demo.webp)"
+  },
+  {
+    "row": 6,
+    "rowsha": "IfsD0muhOzz0ErKwsEmD9PSThuIp/DqaH1exkho9hMg=",
+    "originContent": "![Mousehole Demo](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/images/demo.webp)",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Cela peut être utile si vous utilisez un hôte/VPN/seedbox pour le seed et que son adresse IP"
+  },
+  {
+    "row": 8,
+    "rowsha": "fNSE8FOR5SUSfgdQ/QxTyNpewE5a86DU9sDcOfb0jFo=",
+    "originContent": "This can be helpful if you are using a host/VPN/seedbox to seed and its IP",
+    "translatedContent": "n’est pas stable."
+  },
+  {
+    "row": 9,
+    "rowsha": "8fCtLhZgcaxu3b7hVHcU6DOD1eWB4ZiaPuPHQDmuGg4=",
+    "originContent": "address is not stable.",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Fonctionnalités :"
+  },
+  {
+    "row": 11,
+    "rowsha": "e4hgdvJgNoK8Q5OhPPLTjy7Cw+ICPXtZFjlH7tEw0fI=",
+    "originContent": "Features:",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Service en arrière-plan qui met régulièrement à jour MAM avec l’adresse IP de l’hôte."
+  },
+  {
+    "row": 13,
+    "rowsha": "NNP8Wv641sA59Wo+f3yV1IZwv0WEvooA0XzgPhcCVwU=",
+    "originContent": "- Background service that regularly updates MAM with the IP address of the host.",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "  Avant une mise à jour, Mousehole vérifie qu’elle est réellement nécessaire en"
+  },
+  {
+    "row": 15,
+    "rowsha": "GOqF0fhmxQ8VlXT168Ol5+Fivz9Kf8SOoqx9PulkPc8=",
+    "originContent": "  Before an update, Mousehole checks that it actually needs to update by",
+    "translatedContent": "  comparant l’adresse IP actuelle de l’hôte et l’AS avec la dernière réponse de MAM."
+  },
+  {
+    "row": 16,
+    "rowsha": "a4lynmkW1Y/H1AxMH7TUiCLUVZpJX+Q4ebYmky8SVgw=",
+    "originContent": "  comparing the host's current IP address and AS and with the last MAM response.",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Site web frontal pour gérer le service, permettant :"
+  },
+  {
+    "row": 18,
+    "rowsha": "RLMOTHj5migxT5mKpkPl/uQodsqSbGc2uqTcJ25H+lY=",
+    "originContent": "- Frontend website to manage the service, allowing:",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "  - De définir votre cookie MAM"
+  },
+  {
+    "row": 20,
+    "rowsha": "TLSkXX8o+LU2sDzCxe9M4HdRguyCpCbM/ndnPEZQp6s=",
+    "originContent": "  - Setting your MAM cookie",
+    "translatedContent": "  - D’afficher les informations de statut"
+  },
+  {
+    "row": 21,
+    "rowsha": "b0hSYqx4+fsNBixUqwO2hW3Cg/zePiGcKnuH9LpfOV4=",
+    "originContent": "  - Displaying status information",
+    "translatedContent": "  - De déclencher manuellement des vérifications"
+  },
+  {
+    "row": 22,
+    "rowsha": "CPTrtEae/4YuS3HjTmf4I5EsDsgvPc1FLfxmxJ2yiVQ=",
+    "originContent": "  - Manual triggering of checks",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Serveur API avec points d’accès de gestion."
+  },
+  {
+    "row": 24,
+    "rowsha": "M/Y0yqYvkmb9zvvQOpGi70qgreadlJX1hrmJEkgoGdc=",
+    "originContent": "- API server with management endpoints.",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "  Voir [API.md](https://github.com/t-mart/mousehole/blob/master/docs/API.md) pour"
+  },
+  {
+    "row": 26,
+    "rowsha": "3oPIOB0UL89dtLPSZzfZGcEIE4mUNDEFSIGpRq7YN7Y=",
+    "originContent": "  See [API.md](https://github.com/t-mart/mousehole/blob/master/docs/API.md) for",
+    "translatedContent": "  les détails."
+  },
+  {
+    "row": 27,
+    "rowsha": "1NLuuZKT0UHK1hAirS+HFnn/dC/gGjPbygjq/BH+Awg=",
+    "originContent": "  details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Pour Commencer"
+  },
+  {
+    "row": 29,
+    "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+    "originContent": "## Getting Started",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Pour utiliser Mousehole, vous devez :"
+  },
+  {
+    "row": 31,
+    "rowsha": "ktYpFxhhEDJZo/kZZ8mnEe3CMj/YiYitA+6f1PaDBHY=",
+    "originContent": "To use Mousehole, you need to:",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. [Lancer le service](#running-the-service)"
+  },
+  {
+    "row": 33,
+    "rowsha": "Ik9DMbUs+pOhfLsN1ZHVPVxF+d+TpLCbrpymT6TnM+Q=",
+    "originContent": "1. [Run the service](#running-the-service)",
+    "translatedContent": "2. [Définir votre cookie MAM via l’interface web](#setting-your-mam-cookie)"
+  },
+  {
+    "row": 34,
+    "rowsha": "hZY6a25REUGeCRTUX2nutNwogbMhCjA7gc+kHXb/Jy4=",
+    "originContent": "2. [Set your MAM cookie via the web interface](#setting-your-mam-cookie)",
+    "translatedContent": "3. [Gérer les erreurs MAM](#handling-errors) (le cas échéant)"
+  },
+  {
+    "row": 35,
+    "rowsha": "bvJ/iSv16EIVXO0ByfChj/Ro0a5vGRtJbz0WYYzzKiQ=",
+    "originContent": "3. [Handle MAM errors](#handling-errors) (if any)",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Lancer le service"
+  },
+  {
+    "row": 37,
+    "rowsha": "7p34QrfkEUz4qLGq2CFYxKktsGPNrhDfCCX2qr/vqzc=",
+    "originContent": "### Running the service",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### Docker Compose (recommandé)"
+  },
+  {
+    "row": 39,
+    "rowsha": "v4k2PBxIgTZVv3Jsf/JfIiwKiObGWPwZkPKo+nFVSfc=",
+    "originContent": "#### Docker Compose (recommended)",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 42,
+    "rowsha": "RJrAiv6gGtto8eNkMlWBz9JJSX5+V8e31Tn+rnckXbs=",
+    "originContent": "services:",
+    "translatedContent": "services:"
+  },
+  {
+    "row": 43,
+    "rowsha": "bLiNIAhwiyZ2pmn3GOa8Ixtka0sSEvnywfYpTJHFKyY=",
+    "originContent": "  gluetun:",
+    "translatedContent": "  gluetun:"
+  },
+  {
+    "row": 44,
+    "rowsha": "LAbx4MIW0T9iPrbj2VHil+l+j78HBLlnemCVwjcH6Mg=",
+    "originContent": "    image: qmcgaw/gluetun:latest",
+    "translatedContent": "    image: qmcgaw/gluetun:latest"
+  },
+  {
+    "row": 45,
+    "rowsha": "BwoHl6+bMMlV6oB1EZNyKVAKfYpahgsUOWH3ak7JAwc=",
+    "originContent": "    cap_add:",
+    "translatedContent": "    cap_add:"
+  },
+  {
+    "row": 46,
+    "rowsha": "dJ5SH3BNGbLggYvkNfamQjNs2etukttgaECtEgbTx94=",
+    "originContent": "      - NET_ADMIN",
+    "translatedContent": "      - NET_ADMIN"
+  },
+  {
+    "row": 47,
+    "rowsha": "jKlTQOdSI1ulf43J5YF6L2MU5nODeCjXCpcLEx+IZsw=",
+    "originContent": "    devices:",
+    "translatedContent": "    devices:"
+  },
+  {
+    "row": 48,
+    "rowsha": "yqkMUL+y0/mdnxWPanRn43qNzurHDwzaPRy0XrEGvTc=",
+    "originContent": "      - /dev/net/tun:/dev/net/tun",
+    "translatedContent": "      - /dev/net/tun:/dev/net/tun"
+  },
+  {
+    "row": 49,
+    "rowsha": "zC/pizDWyg3Eifixwj057XWlvpROf11Egbzi6yNsUnM=",
+    "originContent": "    ports:",
+    "translatedContent": "    ports:"
+  },
+  {
+    "row": 50,
+    "rowsha": "S4g9ODNS0DYuSNsHI7jE8ltgi5HizUlGYUlZ0tvxCaA=",
+    "originContent": "      - \"5010:5010\" # Mousehole port",
+    "translatedContent": "      - \"5010:5010\" # Mousehole port"
+  },
+  {
+    "row": 51,
+    "rowsha": "K3u0fdmjOCI7MCp78A+5drcs/2bL2jmnL1oeLExL/1Q=",
+    "originContent": "      - \"8080:8080\" # qBittorrent Web UI port",
+    "translatedContent": "      - \"8080:8080\" # qBittorrent Web UI port"
+  },
+  {
+    "row": 52,
+    "rowsha": "BCuqppgka5E63nj8108UJ5rbJj5WKLD0dEggvxZEt90=",
+    "originContent": "      - \"6881:6881/tcp\" # qBittorrent TCP torrent port",
+    "translatedContent": "      - \"6881:6881/tcp\" # qBittorrent TCP torrent port"
+  },
+  {
+    "row": 53,
+    "rowsha": "hSZIhiTWZn2uw/lZlJU/HkCDHj0cryYJalCmc128+ZQ=",
+    "originContent": "      - \"6881:6881/udp\" # qBittorrent UDP torrent port",
+    "translatedContent": "      - \"6881:6881/udp\" # qBittorrent UDP torrent port"
+  },
+  {
+    "row": 54,
+    "rowsha": "sXkJpyEkylNBzPW3kPxoGEaBxerjm/Gi42tQVe+pZ+E=",
+    "originContent": "    environment:",
+    "translatedContent": "    environment:"
+  },
+  {
+    "row": 55,
+    "rowsha": "PyZePDD+OyTKMWYP8tB36rPAeusObU3uFaaysucE7A0=",
+    "originContent": "      VPN_SERVICE_PROVIDER: \"your-vpn-provider\"",
+    "translatedContent": "      VPN_SERVICE_PROVIDER: \"your-vpn-provider\""
+  },
+  {
+    "row": 56,
+    "rowsha": "SZffoZzj64Pbns41HdsuuJN2lGijVXXLb0FoT8+FX9g=",
+    "originContent": "      FIREWALL_VPN_INPUT_PORTS: \"6881\" # qBittorrent torrent",
+    "translatedContent": "      FIREWALL_VPN_INPUT_PORTS: \"6881\" # qBittorrent torrent"
+  },
+  {
+    "row": 57,
+    "rowsha": "1UhQ2CqyFAADUR53rGxeW3fYobxYVpjvb+yZSIT0Ztw=",
+    "originContent": "      # more is needed here -- see Gluetun documentation",
+    "translatedContent": "      # more is needed here -- see Gluetun documentation"
+  },
+  {
+    "row": 58,
+    "rowsha": "Khk7E8G7wtQNgHBSN3lTKmDglthNHCZVfst4xN6WiE0=",
+    "originContent": "      # https://github.com/qdm12/gluetun-wiki",
+    "translatedContent": "      # https://github.com/qdm12/gluetun-wiki"
+  },
+  {
+    "row": 59,
+    "rowsha": "9+8wTMzAIYIKzw9TXYnYMSrDBNO05fVi+YlP77kUhtA=",
+    "originContent": "      # https://github.com/qdm12/gluetun-wiki/tree/main/setup/providers",
+    "translatedContent": "      # https://github.com/qdm12/gluetun-wiki/tree/main/setup/providers"
+  },
+  {
+    "row": 60,
+    "rowsha": "oqdQNjD0F32EJ8w6vZoeVMg3BE8Mgh+0Cyujme5MEyg=",
+    "originContent": "    restart: unless-stopped",
+    "translatedContent": "    restart: unless-stopped"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "iEsG5B45RAhahS+Fvj/nR38CZV3D2akoLyzupE+4KTo=",
+    "originContent": "  qbittorrent:",
+    "translatedContent": "  qbittorrent:"
+  },
+  {
+    "row": 63,
+    "rowsha": "uhuvDYUVrdSBFAwLNSQiGzapdT07s8313z+jkjYdDsk=",
+    "originContent": "    image: lscr.io/linuxserver/qbittorrent:latest",
+    "translatedContent": "    image: lscr.io/linuxserver/qbittorrent:latest"
+  },
+  {
+    "row": 64,
+    "rowsha": "8kF82DOYsnsVdux0Yndrw0hKfu7XOTmrN0aUm39XSIY=",
+    "originContent": "    network_mode: \"service:gluetun\"",
+    "translatedContent": "    network_mode: \"service:gluetun\""
+  },
+  {
+    "row": 65,
+    "rowsha": "sXkJpyEkylNBzPW3kPxoGEaBxerjm/Gi42tQVe+pZ+E=",
+    "originContent": "    environment:",
+    "translatedContent": "    environment:"
+  },
+  {
+    "row": 66,
+    "rowsha": "DqTC9yqnOppZd+BSaSE/lnX2A43pYb2Zd4rDVNHRWEU=",
+    "originContent": "      TZ: Etc/UTC # Set to your timezone for localization",
+    "translatedContent": "      TZ: Etc/UTC # Set to your timezone for localization"
+  },
+  {
+    "row": 67,
+    "rowsha": "NykBXAtrtNfaiBk7uS0T7SfZHS90AHaVrKqcYMXUYxE=",
+    "originContent": "      WEBUI_PORT: 8080",
+    "translatedContent": "      WEBUI_PORT: 8080"
+  },
+  {
+    "row": 68,
+    "rowsha": "AVkbviHSw7F3ADWDy4w3drbfRmW+pJLQY4t65CF6Tzc=",
+    "originContent": "      TORRENTING_PORT: 6881",
+    "translatedContent": "      TORRENTING_PORT: 6881"
+  },
+  {
+    "row": 69,
+    "rowsha": "oqdQNjD0F32EJ8w6vZoeVMg3BE8Mgh+0Cyujme5MEyg=",
+    "originContent": "    restart: unless-stopped",
+    "translatedContent": "    restart: unless-stopped"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "9S10vCg/iWqDur8WL/QjNWykracnifWU5UMsCVHZBS4=",
+    "originContent": "  mousehole:",
+    "translatedContent": "  mousehole:"
+  },
+  {
+    "row": 72,
+    "rowsha": "OSKTWobHO+yvOddxUTVGumUOVgVLUVkmHesZGVC/2mc=",
+    "originContent": "    image: tmmrtn/mousehole:latest",
+    "translatedContent": "    image: tmmrtn/mousehole:latest"
+  },
+  {
+    "row": 73,
+    "rowsha": "8kF82DOYsnsVdux0Yndrw0hKfu7XOTmrN0aUm39XSIY=",
+    "originContent": "    network_mode: \"service:gluetun\"",
+    "translatedContent": "    network_mode: \"service:gluetun\""
+  },
+  {
+    "row": 74,
+    "rowsha": "sXkJpyEkylNBzPW3kPxoGEaBxerjm/Gi42tQVe+pZ+E=",
+    "originContent": "    environment:",
+    "translatedContent": "    environment:"
+  },
+  {
+    "row": 75,
+    "rowsha": "DqTC9yqnOppZd+BSaSE/lnX2A43pYb2Zd4rDVNHRWEU=",
+    "originContent": "      TZ: Etc/UTC # Set to your timezone for localization",
+    "translatedContent": "      TZ: Etc/UTC # Set to your timezone for localization"
+  },
+  {
+    "row": 76,
+    "rowsha": "1pMKVoreY6K5n87lYgkNRSAOv421w0HqHzH2XFXyySw=",
+    "originContent": "    volumes:",
+    "translatedContent": "    volumes:"
+  },
+  {
+    "row": 77,
+    "rowsha": "BJ1grJxO7QUv2vDEiu+zBEnee3EWRBGqKgMlh/eebIs=",
+    "originContent": "      # persist cookie data across container restarts",
+    "translatedContent": "      # persist cookie data across container restarts"
+  },
+  {
+    "row": 78,
+    "rowsha": "NWhH85O+taNH+A5b155IcPoPrYrsdm7DzXdyZ0ySPrQ=",
+    "originContent": "      - \"mousehole:/srv/mousehole\"",
+    "translatedContent": "      - \"mousehole:/srv/mousehole\""
+  },
+  {
+    "row": 79,
+    "rowsha": "oqdQNjD0F32EJ8w6vZoeVMg3BE8Mgh+0Cyujme5MEyg=",
+    "originContent": "    restart: unless-stopped",
+    "translatedContent": "    restart: unless-stopped"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "xddxS2HZSubkNLvKyLE6I4v1XoveCG3wK8nGhaS9vwo=",
+    "originContent": "volumes:",
+    "translatedContent": "volumes:"
+  },
+  {
+    "row": 82,
+    "rowsha": "9S10vCg/iWqDur8WL/QjNWykracnifWU5UMsCVHZBS4=",
+    "originContent": "  mousehole:",
+    "translatedContent": "  mousehole:"
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Exemples de démarrage Docker Compose :"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "hXiVSgq/KybM2IXHYgCngN9tSwNOgVW++gKyvImkobo=",
+    "originContent": "Starter Docker Compose examples:",
+    "translatedContent": "- ⭐ [Gluetun + qBittorrent + Mousehole](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/gluetun-qb.md)"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [Wireguard + qBittorrent + Mousehole](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/wireguard-qb.md)"
+  },
+  {
+    "row": 88,
+    "rowsha": "vfqM/aEgUDAFIf+pbGojJqZ07KnAbJj4vRGyxHKQJcY=",
+    "originContent": "- ⭐ [Gluetun + qBittorrent + Mousehole](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/gluetun-qb.md)",
+    "translatedContent": "- [Exemple sans VPN](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/non-vpn.md)"
+  },
+  {
+    "row": 89,
+    "rowsha": "mogTLZL1L6l+V/W5UojwWRRH7CgcbhpA8n6k9ArDUZc=",
+    "originContent": "- [Wireguard + qBittorrent + Mousehole](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/wireguard-qb.md)",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "1Op446lejXDvMXpbg5Oyf7sd2yOrKA6fG9XWATJKfMk=",
+    "originContent": "- [Non-VPN Example](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/docker-compose-examples/non-vpn.md)",
+    "translatedContent": "Toute configuration VPN peut être adaptée pour inclure Mousehole en tant que sidecar. Voir"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[Utiliser Mousehole en tant que Sidecar avec Docker Compose](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/sidecars.md) pour"
+  },
+  {
+    "row": 92,
+    "rowsha": "6EBfZhTIhPOUPU+WKFLBydryXfH4TMTcQ/ikn6POyjo=",
+    "originContent": "Any VPN setup can be adapted to include Mousehole as a sidecar. See",
+    "translatedContent": "plus de détails."
+  },
+  {
+    "row": 93,
+    "rowsha": "Oqch8Stw4KfBR8QPd+CeUhAzuGS/yUxrgyykm/O+vwA=",
+    "originContent": "[Using Mousehole as a Sidecar with Docker Compose](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/sidecars.md) for",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "aibhaU2ehSA45aRy7WtUzAI7Ss6KwQ10XK1CbV3AV/M=",
+    "originContent": "details.",
+    "translatedContent": "#### Unraid"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "vw7J89dYXE4f4lWk1zfrLZJUSj9o3h9TBe/DO0afSQk=",
+    "originContent": "#### Unraid",
+    "translatedContent": "Voir le [Guide d’installation Unraid](https://raw.githubusercontent.com/t-mart/mousehole/master/./contrib/unraid/README.md) pour"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "les instructions."
+  },
+  {
+    "row": 98,
+    "rowsha": "mMzk7nGfgN+EFkT7lqJy/W6NtBQJ3YOhtdsjCVfFfzI=",
+    "originContent": "See the [Unraid Installation Guide](https://raw.githubusercontent.com/t-mart/mousehole/master/./contrib/unraid/README.md) for",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "y9iQGnjgtTvtQAuJ6BJj8vxH/MGV8nPz1qro0Hses40=",
+    "originContent": "instructions.",
+    "translatedContent": "#### Local"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "d/qJxZubM9F9/i11IEjih3YbFD7gyGoOeKOkruEJQ4E=",
+    "originContent": "#### Local",
+    "translatedContent": "Lancer le serveur avec :"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "sEUy1XkEaNtjlLaOIk8J/UkCIREHOxqjC+aryF8+Odc=",
+    "originContent": "Run the server with:",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 106,
+    "rowsha": "t3S7Sx8V5KCkpPaj+ZdZgTY0TclJd1F8ApxviDgJ5cY=",
+    "originContent": "bun run start",
+    "translatedContent": "bun run start"
+  },
+  {
+    "row": 107,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "uxkkbEwhIi6ezUAhnVRnp0CWFadCtB8PVR5FfH31xic=",
+    "originContent": "### Setting Your MAM Cookie",
+    "translatedContent": "### Configuration de votre cookie MAM"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "B/ZnNIJrfcs4lS8TwYLfU4m96LafKDy5bwYmE+c0J6Y=",
+    "originContent": "Once Mousehole is running, navigate to its web UI at `http://<host>:5010` in",
+    "translatedContent": "Une fois Mousehole en fonctionnement, accédez à son interface web à `http://<host>:5010` dans"
+  },
+  {
+    "row": 112,
+    "rowsha": "x+Jz2Z6FHbEPpC3399oQcU5AYuX8RJeiOM+GmPS1UL4=",
+    "originContent": "your browser. This is likely to be <http://localhost:5010> if you are running it",
+    "translatedContent": "votre navigateur. Il s'agit probablement de <http://localhost:5010> si vous l'exécutez"
+  },
+  {
+    "row": 113,
+    "rowsha": "CQ7rpbbQp4QRlLC3bz7rO6ki7LXnil5lXrm0tO/dQqs=",
+    "originContent": "locally.",
+    "translatedContent": "localement."
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "+0noeC6HWqvR31WnWqzmfNK7ismhQT1mkUkST2xS9P4=",
+    "originContent": "When running for the first time (or if the cookie gets out of sync), you need to",
+    "translatedContent": "Lors de la première exécution (ou si le cookie est désynchronisé), vous devez"
+  },
+  {
+    "row": 116,
+    "rowsha": "2CjvdC/I5fX9RzPlW65DyglTiHDsXTHrfwnN2mosiz0=",
+    "originContent": "set Mousehole's cookie manually.",
+    "translatedContent": "configurer manuellement le cookie de Mousehole."
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "WUS27TmT09+RLcBtx/JM08uOxe+oExDDrftFYzfo0o0=",
+    "originContent": "On navigating to the Mousehole web interface, you will see a form to set the",
+    "translatedContent": "En accédant à l'interface web de Mousehole, vous verrez un formulaire pour définir le"
+  },
+  {
+    "row": 119,
+    "rowsha": "wsNkhHjjG1tOCvrYRGqgSUKnDBoFMWhwOdts9Nz+xL0=",
+    "originContent": "cookie -- paste your cookie and click the \"Set\" button.",
+    "translatedContent": "cookie -- collez votre cookie et cliquez sur le bouton \"Set\"."
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "mn6BhhR5RDaFrLl63raToA7XXJchcdWsb6G4/qBv5wM=",
+    "originContent": "![Mousehole Cookie Form](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/images/cookie-form.png)",
+    "translatedContent": "![Formulaire de cookie Mousehole](https://raw.githubusercontent.com/t-mart/mousehole/master/docs/images/cookie-form.png)"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "jdOGZrqvfs4/jdSLK9yze+lqv+f5G9A27bpcTc7CLnI=",
+    "originContent": "If you need help getting the cookie, click the \"What do I enter here?\" button",
+    "translatedContent": "Si vous avez besoin d'aide pour obtenir le cookie, cliquez sur le bouton \"Que dois-je entrer ici ?\""
+  },
+  {
+    "row": 124,
+    "rowsha": "P4kFaC1Y6miwMKu/8YeSK4HnL5Oryo7tmdN7yvI6C3A=",
+    "originContent": "for a tutorial.",
+    "translatedContent": "pour un tutoriel."
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "QGybjqL7BbzuK6k39HAtWXR0yHunsgBDjFaAqN0Fb/8=",
+    "originContent": "### Handling Errors",
+    "translatedContent": "### Gestion des erreurs"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "bSjartwQ+63zxG5yqmaZh8OS4a1btbglCaCj1b3/A6k=",
+    "originContent": "Even with Mousehole up and running, things can still go wrong that Mousehole",
+    "translatedContent": "Même avec Mousehole en marche, des problèmes peuvent survenir que Mousehole"
+  },
+  {
+    "row": 130,
+    "rowsha": "d9Y6RRro4lkTzG2HQtcLR4av8G8hOzDDCdwO5w5G/K0=",
+    "originContent": "cannot fix automatically. Here are some of the common ones:",
+    "translatedContent": "ne peut pas corriger automatiquement. En voici quelques-uns courants :"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "QsJ1hrGlPc/zffmsxjX0IYxBoByAzphbxTtwwHBYQZk=",
+    "originContent": "- [\"Invalid session - ASN mismatch\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/asn-mismatch.md)",
+    "translatedContent": "- [\"Session invalide - ASN non concordant\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/asn-mismatch.md)"
+  },
+  {
+    "row": 133,
+    "rowsha": "A7rDFJuBW6qPcaPiKdQi8QHCsW6gZEBNqBCjG5yr5Sw=",
+    "originContent": "- [\"Invalid session - Invalid cookie\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/invalid-cookie.md)",
+    "translatedContent": "- [\"Session invalide - Cookie invalide\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/invalid-cookie.md)"
+  },
+  {
+    "row": 134,
+    "rowsha": "zv+O3ezQt86m7UExXSfvVgmq9Ua8RpqxlTypwlAjpN0=",
+    "originContent": "- [\"Last Change too recent\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/last-change-too-recent.md)",
+    "translatedContent": "- [\"Dernier changement trop récent\"](https://raw.githubusercontent.com/t-mart/mousehole/master/./docs/errors/last-change-too-recent.md)"
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "7g5BkwmYagLwEJ02P0/sdUnVPy6pHQNsDXF6fs6ZHOs=",
+    "originContent": "## Docker Tags",
+    "translatedContent": "## Tags Docker"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "/rA1RaHTI5zOyNyhcOkide2uSOmlLvehXWfVEQI8Dgg=",
+    "originContent": "Mousehole publishes several image tags to",
+    "translatedContent": "Mousehole publie plusieurs tags d’image sur"
+  },
+  {
+    "row": 139,
+    "rowsha": "W2AoVaDLW3EuRaCdDPV4QqS3s0ca2WaLnMwpp2RJYPI=",
+    "originContent": "[Docker Hub](https://hub.docker.com/r/tmmrtn/mousehole):",
+    "translatedContent": "[Docker Hub](https://hub.docker.com/r/tmmrtn/mousehole) :"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "1vbm3ZQT9XSBlFr9Ap8M0RfG3tkCYDpgLADVe4SgcO8=",
+    "originContent": "- SemVer versions (`0`, `0.1`, `0.1.11`, etc)",
+    "translatedContent": "- Versions SemVer (`0`, `0.1`, `0.1.11`, etc.)"
+  },
+  {
+    "row": 142,
+    "rowsha": "XvetFkF1sHOa/jiz8+AUdRYc9etYlHABI7/9g12M6dw=",
+    "originContent": "- `latest`, the latest released version",
+    "translatedContent": "- `latest`, la dernière version publiée"
+  },
+  {
+    "row": 143,
+    "rowsha": "RQxFi/B98/d6GJ0zm71PowewvpmyKqli98Ac+5dOido=",
+    "originContent": "- `edge`, the tip of `master` branch",
+    "translatedContent": "- `edge`, la pointe de la branche `master`"
+  },
+  {
+    "row": 144,
+    "rowsha": "Bqf/9huAf0pXDmrBC6DMe81K1UBI18U0rqHYwvID4pM=",
+    "originContent": "- Pull requests targeting `master` for testing, tagged as `pr-<number>`",
+    "translatedContent": "- Pull requests ciblant `master` pour tests, taguées comme `pr-<number>`"
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "OHTVzStDnXss6Pf2l0yO4HW/fKW3yTwGdBKb0lJZjXc=",
+    "originContent": "Choose `latest` if you do not know which to pick.",
+    "translatedContent": "Choisissez `latest` si vous ne savez pas quoi choisir."
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "Zrr2pe6jaInNp0fui9iYRSsRxfAzag3y7RD547nUNBU=",
+    "originContent": "## Environment Variables",
+    "translatedContent": "## Variables d'environnement"
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "KATF6hVTJNrLsfbQr/RfOFgEXyBKROVDwjDSCGNosfk=",
+    "originContent": "- `MOUSEHOLE_PORT`: _(Default `5010`)_ The port on which the HTTP server will",
+    "translatedContent": "- `MOUSEHOLE_PORT` : _(Par défaut `5010`)_ Le port sur lequel le serveur HTTP écoutera."
+  },
+  {
+    "row": 151,
+    "rowsha": "FAqolOs/1dqyPtdGXHE4Sphi8SdK1TFNZE2x3yustsY=",
+    "originContent": "  listen.",
+    "translatedContent": "- `MOUSEHOLE_STATE_DIR_PATH` : _(Par défaut `/srv/mousehole`)_ Le répertoire où le service stockera ses données."
+  },
+  {
+    "row": 152,
+    "rowsha": "6dLPt4sjapIZzfQUxvF9TgI9EAVMA30MeN1TB7SnNNI=",
+    "originContent": "- `MOUSEHOLE_STATE_DIR_PATH`: _(Default `/srv/mousehole`)_ The directory where",
+    "translatedContent": "- `MOUSEHOLE_USER_AGENT` : _(Par défaut `mousehole-by-timtimtim/<version>`)_ L’agent utilisateur à utiliser pour les requêtes vers MAM."
+  },
+  {
+    "row": 153,
+    "rowsha": "TRMg4mL76/SjVj8BiKdKaZ/zjmgGbI0DNdWqrGusu1k=",
+    "originContent": "  the service will store its data.",
+    "translatedContent": "- `MOUSEHOLE_CHECK_INTERVAL_SECONDS` : _(Par défaut `300` (5 minutes))_ L’intervalle en secondes entre les vérifications."
+  },
+  {
+    "row": 154,
+    "rowsha": "y6XFS7teR+UPW+dxUR308Ycoa/vacIob1MVlKkmU61M=",
+    "originContent": "- `MOUSEHOLE_USER_AGENT`: _(Default `mousehole-by-timtimtim/<version>`)_ The",
+    "translatedContent": "- `MOUSEHOLE_STALE_RESPONSE_SECONDS` : _(Par défaut `86400` (1 jour))_ Le nombre de secondes après lequel une réponse MAM est considérée comme périmée. Cela garantit que Mousehole communique toujours avec MAM à intervalles réguliers et détecte les modifications hors bande du cookie."
+  },
+  {
+    "row": 155,
+    "rowsha": "9JKPclwxNPvAcVg30iCG5dgXub8HVjiuDjwPxHZ0tR8=",
+    "originContent": "  user agent to use for requests to MAM.",
+    "translatedContent": "- `TZ` : _(Par défaut `Etc/UTC`)_ Le fuseau horaire pour l’affichage des heures localisées."
+  },
+  {
+    "row": 156,
+    "rowsha": "au7ETnLYZHVebsqWWOZdPiFBO0QrinlABCTICYG1dro=",
+    "originContent": "- `MOUSEHOLE_CHECK_INTERVAL_SECONDS`: _(Default `300` (5 minutes))_ The interval",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "PkiU5p6aXooFXJ8LqoLKAV8wkRPvpTyVEpIvopz69go=",
+    "originContent": "  in seconds between checks.",
+    "translatedContent": "## Contribution"
+  },
+  {
+    "row": 158,
+    "rowsha": "+nsJ1rgoC0H1lp647Z0xSOGLpANlq7lVGHajm63ys8Y=",
+    "originContent": "- `MOUSEHOLE_STALE_RESPONSE_SECONDS`: _(Default `86400` (1 day))_ The number of",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "LtMg6IzF1gXrFraFS7H4goATsvb7WXvlCGoRqw+oLlY=",
+    "originContent": "  seconds after which a MAM response is considered stale. This ensures that",
+    "translatedContent": "Vous souhaitez contribuer ? Consultez les [directives de contribution](https://raw.githubusercontent.com/t-mart/mousehole/master/./CONTRIBUTING.md)."
+  },
+  {
+    "row": 160,
+    "rowsha": "iOUbowvBzkflkdPCpqTlLEDQUaMiqe9rK3vDmjkIzPw=",
+    "originContent": "  Mousehole is still talking with MAM at some regular interval and is detecting",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "p05oKzq6fQhzBIHVpjAx2I3Kgd1zHKWyn4cQTs0HB2U=",
+    "originContent": "  out-of-band changes to the cookie.",
+    "translatedContent": "Il y a également un répertoire [`contrib`](./contrib/) avec des fonctionnalités utiles et supplémentaires."
+  },
+  {
+    "row": 162,
+    "rowsha": "K8Jg6zydksnv2t5OCSTiM2czur4C4GHbI7WqtmNDfvw=",
+    "originContent": "- `TZ`: _(Default `Etc/UTC`)_ The timezone for displaying localized times.",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Liens"
+  },
+  {
+    "row": 164,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [Dépôt](https://github.com/t-mart/mousehole)"
+  },
+  {
+    "row": 166,
+    "rowsha": "vZR2InHpRrx9RlDA59+JVkHFl6rAA6UMGcxzeFpzSdo=",
+    "originContent": "Want to contribute? Check out the [contribution guidelines](https://raw.githubusercontent.com/t-mart/mousehole/master/./CONTRIBUTING.md).",
+    "translatedContent": "- [Image Docker Hub](https://hub.docker.com/r/tmmrtn/mousehole)"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [Message sur le forum](https://www.myanonamouse.net/f/t/84712/p/p1013257)"
+  },
+  {
+    "row": 168,
+    "rowsha": "yEtnHUMZ+65uDPUHJ/Q36DU71TthTmSOCO1ULznFZZQ=",
+    "originContent": "There is also a [`contrib`](./contrib/) directory with useful, supplementary",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "h/UKYbNHXtXdszwZ8j5P17LsJalFQxWG4ShVsqqK9HI=",
+    "originContent": "functionality.",
+    "translatedContent": "## Développement"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "diHpFstuV7UK+A46mhFkbkPIHzxRakTriwoPTCVX3QI=",
+    "originContent": "## Links",
+    "translatedContent": "- Lancez le serveur de développement avec :"
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "yRVF+OM4Glv4j6G9hUvS24sIuJYT3sIq7N5vHtS4AnM=",
+    "originContent": "- [Repository](https://github.com/t-mart/mousehole)",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "TpXwie7rNfrS/n43mySu+JOD67ds+9gtJACcyTwu0dg=",
+    "originContent": "- [Docker Hub image](https://hub.docker.com/r/tmmrtn/mousehole)",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "toW3TrXKnhz4rJiv3YnF/FuKjFnBc7n+ZVc/02HnnwE=",
+    "originContent": "- [Forum post](https://www.myanonamouse.net/f/t/84712/p/p1013257)",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+    "originContent": "## Development",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 179,
+    "rowsha": "VDLZoRSGSMShy/Z5Aj3CTj0oqUGZVxbrrdvqZzZMamo=",
+    "originContent": "- Start the dev server with:",
+    "translatedContent": ""
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 181,
+    "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+    "originContent": "  ```bash",
+    "translatedContent": "  ```bash"
+  },
+  {
+    "row": 182,
+    "rowsha": "+wGHNuvjSwzCqfTTT5pzMatnDJ89jf+ZpF6SKooHisU=",
+    "originContent": "  bun run dev",
+    "translatedContent": "  bun run dev"
+  },
+  {
+    "row": 183,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- De nouvelles versions peuvent être taguées, publiées et poussées sur Docker Hub en"
+  },
+  {
+    "row": 185,
+    "rowsha": "98yQTqHaLRACtFJ/klLMQ28Dd8A+W9XZhHDfAgFnD6A=",
+    "originContent": "- New versions can be tagged, released and pushed to Docker Hub by simply",
+    "translatedContent": "  modifiant simplement la version dans `package.json` et en poussant sur GitHub. Les"
+  },
+  {
+    "row": 186,
+    "rowsha": "1NmsrBJ8EOPvdE5D+oEE4aMDnlj/GZeSc1JMhra6ohQ=",
+    "originContent": "  changing the version in `package.json` and pushing to GitHub. The CI workflows",
+    "translatedContent": "  workflows CI s’occuperont du reste."
+  },
+  {
+    "row": 187,
+    "rowsha": "afWMpPrt6dZYi3vl0rUjlmTI1aYwhm/BId/jJPjd1Gw=",
+    "originContent": "  will take care of the rest.",
+    "translatedContent": ""
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Attribution"
+  },
+  {
+    "row": 189,
+    "rowsha": "FGtqKJnPOMdcfsmS2eMZgbD/gwOFD876mGymwRJnp5Y=",
+    "originContent": "## Attribution",
+    "translatedContent": ""
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Mouse Hole par Sergey Demushkin de"
+  },
+  {
+    "row": 191,
+    "rowsha": "mSxK1oVztqWktXbXzEPuo77/sTyuc88MiFHELQY4e/c=",
+    "originContent": "Mouse Hole by Sergey Demushkin from",
+    "translatedContent": "[Noun Project](https://thenounproject.com/term/mouse-hole/) (CC BY 3.0)"
+  },
+  {
+    "row": 192,
+    "rowsha": "iC9Y5ykhoVJJzpVQRo8R0V1mPakkkCIfN+PJtlQ3rTU=",
+    "originContent": "[Noun Project](https://thenounproject.com/term/mouse-hole/) (CC BY 3.0)",
+    "translatedContent": ""
+  },
+  {
+    "row": 193,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
