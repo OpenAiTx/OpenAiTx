@@ -1,0 +1,1561 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Diffusion-SDF: Text-to-Shape via Voxelized Diffusion\n\nCreated by [Muheng Li](https://ttlmh.github.io/), [Yueqi Duan](https://duanyueqi.github.io/), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1), and [Jiwen Lu](https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1).\n\n![intro](https://raw.githubusercontent.com/ttlmh/Diffusion-SDF/master/media/intro.png)\n",
+    "ContentSha": "gvPPHHm+BoI8IV12QIgRTtAbZi1pfaRo2Dgp4p8x9w4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Diffusion-SDF: ボクセル化拡散によるテキストから形状への変換\n\n作成者：[李睦衡](https://ttlmh.github.io/)、[段悦琦](https://duanyueqi.github.io/)、[周杰](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1)、および[呂吉文](https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1)。\n\n![intro](https://raw.githubusercontent.com/ttlmh/Diffusion-SDF/master/media/intro.png)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/arvZ9F9IJPr38bOKUu7yBGRt2iajlGui554CTnrC5Q=",
+        "originContent": "# Diffusion-SDF: Text-to-Shape via Voxelized Diffusion",
+        "translatedContent": "# Diffusion-SDF: ボクセル化拡散によるテキストから形状への変換"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "S4JpOYwdRMah0d4uEvSXOgS/hV6NOYFljb+px8vHRGQ=",
+        "originContent": "Created by [Muheng Li](https://ttlmh.github.io/), [Yueqi Duan](https://duanyueqi.github.io/), [Jie Zhou](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1), and [Jiwen Lu](https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1).",
+        "translatedContent": "作成者：[李睦衡](https://ttlmh.github.io/)、[段悦琦](https://duanyueqi.github.io/)、[周杰](https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1)、および[呂吉文](https://scholar.google.com/citations?user=TN8uDQoAAAAJ&hl=en&authuser=1)。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "qeR6FOj4iJQPAOas153Vv8Y+kzp2y+wrUVisAUCFXzU=",
+        "originContent": "![intro](https://raw.githubusercontent.com/ttlmh/Diffusion-SDF/master/media/intro.png)",
+        "translatedContent": "![intro](https://raw.githubusercontent.com/ttlmh/Diffusion-SDF/master/media/intro.png)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "We propose a new generative 3D modeling framework called **Diffusion-SDF** for the challenging task of text-to-shape synthesis. Previous approaches lack flexibility in both 3D data representation and shape generation, thereby failing to generate highly diversified 3D shapes conforming to the given text descriptions. To address this, we propose a SDF autoencoder together with the Voxelized Diffusion model to learn and generate representations for voxelized signed distance fields (SDFs) of 3D shapes. Specifically, we design a novel UinU-Net architecture that implants a local-focused inner network inside the standard U-Net architecture, which enables better reconstruction of patch-independent SDF representations. We extend our approach to further text-to-shape tasks including text-conditioned shape completion and manipulation. Experimental results show that Diffusion-SDF is capable of generating both high-quality and highly diversified 3D shapes that conform well to the given text descriptions. Diffusion-SDF has demonstrated its superiority compared to previous state-of-the-art text-to-shape approaches.",
+    "ContentSha": "cxbTwrwqoqykdsZuJA0S79KgoscFakpeZNh/a0XCdt0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "We propose a new generative 3D modeling framework called **Diffusion-SDF** for the challenging task of text-to-shape synthesis. Previous approaches lack flexibility in both 3D data representation and shape generation, thereby failing to generate highly diversified 3D shapes conforming to the given text descriptions. To address this, we propose a SDF autoencoder together with the Voxelized Diffusion model to learn and generate representations for voxelized signed distance fields (SDFs) of 3D shapes. Specifically, we design a novel UinU-Net architecture that implants a local-focused inner network inside the standard U-Net architecture, which enables better reconstruction of patch-independent SDF representations. We extend our approach to further text-to-shape tasks including text-conditioned shape completion and manipulation. Experimental results show that Diffusion-SDF is capable of generating both high-quality and highly diversified 3D shapes that conform well to the given text descriptions. Diffusion-SDF has demonstrated its superiority compared to previous state-of-the-art text-to-shape approaches.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cxbTwrwqoqykdsZuJA0S79KgoscFakpeZNh/a0XCdt0=",
+        "originContent": "We propose a new generative 3D modeling framework called **Diffusion-SDF** for the challenging task of text-to-shape synthesis. Previous approaches lack flexibility in both 3D data representation and shape generation, thereby failing to generate highly diversified 3D shapes conforming to the given text descriptions. To address this, we propose a SDF autoencoder together with the Voxelized Diffusion model to learn and generate representations for voxelized signed distance fields (SDFs) of 3D shapes. Specifically, we design a novel UinU-Net architecture that implants a local-focused inner network inside the standard U-Net architecture, which enables better reconstruction of patch-independent SDF representations. We extend our approach to further text-to-shape tasks including text-conditioned shape completion and manipulation. Experimental results show that Diffusion-SDF is capable of generating both high-quality and highly diversified 3D shapes that conform well to the given text descriptions. Diffusion-SDF has demonstrated its superiority compared to previous state-of-the-art text-to-shape approaches.",
+        "translatedContent": "We propose a new generative 3D modeling framework called **Diffusion-SDF** for the challenging task of text-to-shape synthesis. Previous approaches lack flexibility in both 3D data representation and shape generation, thereby failing to generate highly diversified 3D shapes conforming to the given text descriptions. To address this, we propose a SDF autoencoder together with the Voxelized Diffusion model to learn and generate representations for voxelized signed distance fields (SDFs) of 3D shapes. Specifically, we design a novel UinU-Net architecture that implants a local-focused inner network inside the standard U-Net architecture, which enables better reconstruction of patch-independent SDF representations. We extend our approach to further text-to-shape tasks including text-conditioned shape completion and manipulation. Experimental results show that Diffusion-SDF is capable of generating both high-quality and highly diversified 3D shapes that conform well to the given text descriptions. Diffusion-SDF has demonstrated its superiority compared to previous state-of-the-art text-to-shape approaches."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n![intro](https://raw.githubusercontent.com/ttlmh/Diffusion-SDF/master/media/pipeline.gif)\n\n[[Project Page]](https://ttlmh.github.io/DiffusionSDF/) [[arXiv]](https://arxiv.org/abs/2212.03293)\n\n## Code\n\n### Installation\nTo set up the Diffusion-SDF environment, you can use the provided `diffusionsdf.yml` file to create a Conda environment. Follow the steps below:\n1. Clone the repository:",
+    "ContentSha": "4k1wERZLBjyXP2mMpL41mPYYL/Zy0i4tnt1Sm2R5WTw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n![intro](https://raw.githubusercontent.com/ttlmh/Diffusion-SDF/master/media/pipeline.gif)\n\n[[プロジェクトページ]](https://ttlmh.github.io/DiffusionSDF/) [[arXiv]](https://arxiv.org/abs/2212.03293)\n\n## コード\n\n### インストール\nDiffusion-SDF 環境をセットアップするには、提供されている `diffusionsdf.yml` ファイルを使って Conda 環境を作成できます。以下の手順に従ってください：\n1. リポジトリをクローンする：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "+pgV6fbwSVt2uneMoqSqDZpUR63hYA8rJ3G5IDDiWMM=",
+        "originContent": "![intro](https://raw.githubusercontent.com/ttlmh/Diffusion-SDF/master/media/pipeline.gif)",
+        "translatedContent": "![intro](https://raw.githubusercontent.com/ttlmh/Diffusion-SDF/master/media/pipeline.gif)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "eaufk4zaRnplO5OlKIAumGEvsDLFYRtqgtEljOK+8/A=",
+        "originContent": "[[Project Page]](https://ttlmh.github.io/DiffusionSDF/) [[arXiv]](https://arxiv.org/abs/2212.03293)",
+        "translatedContent": "[[プロジェクトページ]](https://ttlmh.github.io/DiffusionSDF/) [[arXiv]](https://arxiv.org/abs/2212.03293)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "4keLVkk9ypve3xDO0bVHkuVnQRTYEv/LjmDO8SNrb7U=",
+        "originContent": "## Code",
+        "translatedContent": "## コード"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### インストール"
+      },
+      {
+        "row": 9,
+        "rowsha": "7bJLz01Cr5YuwARet0DlehcYei4LqASUBIXDAxdcgHs=",
+        "originContent": "To set up the Diffusion-SDF environment, you can use the provided `diffusionsdf.yml` file to create a Conda environment. Follow the steps below:",
+        "translatedContent": "Diffusion-SDF 環境をセットアップするには、提供されている `diffusionsdf.yml` ファイルを使って Conda 環境を作成できます。以下の手順に従ってください："
+      },
+      {
+        "row": 10,
+        "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
+        "originContent": "1. Clone the repository:",
+        "translatedContent": "1. リポジトリをクローンする："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\ngit clone https://github.com/ttlmh/Diffusion-SDF.git\n```",
+    "ContentSha": "nZQl7hyobZz/URUd5wfBNTQUO6ryqCMmcOZXkTSMSRk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ngit clone https://github.com/ttlmh/Diffusion-SDF.git\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "jdIcjja5e7Wg7CW4EGkXPs3Ix4js6QtXk/kfLRxMz5A=",
+        "originContent": "git clone https://github.com/ttlmh/Diffusion-SDF.git",
+        "translatedContent": "git clone https://github.com/ttlmh/Diffusion-SDF.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "2. Create the Conda environment using the provided YAML file and activate:",
+    "ContentSha": "cG13bhorzKs4czOqv6oCTEwgfwjdyNF4Waqff9s1ssI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. 提供されたYAMLファイルを使用してConda環境を作成し、アクティベートします：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cG13bhorzKs4czOqv6oCTEwgfwjdyNF4Waqff9s1ssI=",
+        "originContent": "2. Create the Conda environment using the provided YAML file and activate:",
+        "translatedContent": "2. 提供されたYAMLファイルを使用してConda環境を作成し、アクティベートします："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nconda env create -f diffusionsdf.yml\nconda activate diffusionsdf\n```",
+    "ContentSha": "UOtc9jN4QUsfu845ToobfpRwZaXqi/AAMsyhbm5MTkI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nconda env create -f diffusionsdf.yml\nconda activate diffusionsdf\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "MWycZDzgqR7OMSKfxa6nFodQqg/aILwanBKR5/CmfDY=",
+        "originContent": "conda env create -f diffusionsdf.yml",
+        "translatedContent": "conda env create -f diffusionsdf.yml"
+      },
+      {
+        "row": 3,
+        "rowsha": "Hi0Fdj7XPU5gNwj0Cw7mrmCiiGUsD4Qbxiwh4mCJZyM=",
+        "originContent": "conda activate diffusionsdf",
+        "translatedContent": "conda activate diffusionsdf"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Download Pre-trained Models\nDownload the SDF auto-encoder model file (vae_epoch-120.pth: [Baidu Disk](https://pan.baidu.com/s/1z0eh8SXSrn8tbq5epo0r6Q?pwd=f1cv) / [Google Drive](https://drive.google.com/file/d/18MxWYf6IItYOxUzdM5LiWb8dr9zSwA-2/view?usp=sharing)) and the Voxelized Diffusion model file (voxdiff-uinu.ckpt: [Baidu Disk](https://pan.baidu.com/s/1Emu5kFVaYbuKIkdCKlghXQ?pwd=q1wv) / [Google Drive](https://drive.google.com/file/d/1yeB0dJGZvIXdF1V1DhI-fRz6CKnGbIwJ/view?usp=sharing))) from the above links. Place the downloaded model files in the directory ```./ckpt``` .\n\n---\n\n## Inference\n\n### Text-to-Shape Generation\nTo generate 3D shapes from text descriptions using Diffusion-SDF, run:\n",
+    "ContentSha": "SqRFH1N5ZWRApKbl+KyJKONAu1G4fKJBbNwJv9zgBW4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 事前学習済みモデルのダウンロード\nSDFオートエンコーダーモデルファイル（vae_epoch-120.pth: [Baidu Disk](https://pan.baidu.com/s/1z0eh8SXSrn8tbq5epo0r6Q?pwd=f1cv) / [Google Drive](https://drive.google.com/file/d/18MxWYf6IItYOxUzdM5LiWb8dr9zSwA-2/view?usp=sharing)）とボクセライズドディフュージョンモデルファイル（voxdiff-uinu.ckpt: [Baidu Disk](https://pan.baidu.com/s/1Emu5kFVaYbuKIkdCKlghXQ?pwd=q1wv) / [Google Drive](https://drive.google.com/file/d/1yeB0dJGZvIXdF1V1DhI-fRz6CKnGbIwJ/view?usp=sharing)）を上記リンクからダウンロードしてください。ダウンロードしたモデルファイルをディレクトリ```./ckpt```に配置してください。\n\n---\n\n## 推論\n\n### テキストから形状生成\nDiffusion-SDFを使ってテキスト記述から3D形状を生成するには、次のコマンドを実行します：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5ZSMlJ80gGupmnrY7uoPCv2WPPrtMe66EVE5tjhDk2M=",
+        "originContent": "### Download Pre-trained Models",
+        "translatedContent": "### 事前学習済みモデルのダウンロード"
+      },
+      {
+        "row": 3,
+        "rowsha": "tR2tyQc0Ve4U326cxZbNW6fy+KSsAw/y66iwqSqPBfo=",
+        "originContent": "Download the SDF auto-encoder model file (vae_epoch-120.pth: [Baidu Disk](https://pan.baidu.com/s/1z0eh8SXSrn8tbq5epo0r6Q?pwd=f1cv) / [Google Drive](https://drive.google.com/file/d/18MxWYf6IItYOxUzdM5LiWb8dr9zSwA-2/view?usp=sharing)) and the Voxelized Diffusion model file (voxdiff-uinu.ckpt: [Baidu Disk](https://pan.baidu.com/s/1Emu5kFVaYbuKIkdCKlghXQ?pwd=q1wv) / [Google Drive](https://drive.google.com/file/d/1yeB0dJGZvIXdF1V1DhI-fRz6CKnGbIwJ/view?usp=sharing))) from the above links. Place the downloaded model files in the directory ```./ckpt``` .",
+        "translatedContent": "SDFオートエンコーダーモデルファイル（vae_epoch-120.pth: [Baidu Disk](https://pan.baidu.com/s/1z0eh8SXSrn8tbq5epo0r6Q?pwd=f1cv) / [Google Drive](https://drive.google.com/file/d/18MxWYf6IItYOxUzdM5LiWb8dr9zSwA-2/view?usp=sharing)）とボクセライズドディフュージョンモデルファイル（voxdiff-uinu.ckpt: [Baidu Disk](https://pan.baidu.com/s/1Emu5kFVaYbuKIkdCKlghXQ?pwd=q1wv) / [Google Drive](https://drive.google.com/file/d/1yeB0dJGZvIXdF1V1DhI-fRz6CKnGbIwJ/view?usp=sharing)）を上記リンクからダウンロードしてください。ダウンロードしたモデルファイルをディレクトリ```./ckpt```に配置してください。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "j+d4sEsHkglrX0Tjjp/MZxDAlAAy2ZbLKDm+KPC/pIw=",
+        "originContent": "## Inference",
+        "translatedContent": "## 推論"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "e/gZoiDndmiX0AwU1gNy6k9+nPan+IXUhr6EQbtKnkE=",
+        "originContent": "### Text-to-Shape Generation",
+        "translatedContent": "### テキストから形状生成"
+      },
+      {
+        "row": 10,
+        "rowsha": "tfOJJmHSWpiXfN9ZZ/ckPZMPfc2mqVFyASXcOHTR4V0=",
+        "originContent": "To generate 3D shapes from text descriptions using Diffusion-SDF, run:",
+        "translatedContent": "Diffusion-SDFを使ってテキスト記述から3D形状を生成するには、次のコマンドを実行します："
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\npython txt2sdf.py --prompt \"a revolving chair\" --save_obj\n```",
+    "ContentSha": "+XjFx7JCEBRlsvCf3QKdxGuzyICHUgnw6qZJkefcl68=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython txt2sdf.py --prompt \"a revolving chair\" --save_obj\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "6m8Dh8hOtE4qequw6GaSN9Fa4YmN9p3rrTlBkiKCKpo=",
+        "originContent": "python txt2sdf.py --prompt \"a revolving chair\" --save_obj",
+        "translatedContent": "python txt2sdf.py --prompt \"a revolving chair\" --save_obj"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "The generated 3D shape will be saved as GIF renderings and OBJ files under `outputs/`.\n\n### Text-Conditioned Shape Completion\nGiven a partial/incomplete 3D shape (as an `.h5` SDF file) and a text prompt, Diffusion-SDF can complete the missing regions:\n",
+    "ContentSha": "Tf9GYcxJTjRatzzbnEEKPscJGEBspdw4ZEucqNmCXYU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "生成された3D形状は、GIFレンダリングおよびOBJファイルとして`outputs/`フォルダに保存されます。\n\n### テキスト条件付き形状補完\n部分的/不完全な3D形状（`.h5`形式のSDFファイル）とテキストプロンプトが与えられると、Diffusion-SDFは欠損部分を補完できます：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ibe2DzN6WslfsjfYPFTwBRlhGqLCcc7VPT6vmuvsDwc=",
+        "originContent": "The generated 3D shape will be saved as GIF renderings and OBJ files under `outputs/`.",
+        "translatedContent": "生成された3D形状は、GIFレンダリングおよびOBJファイルとして`outputs/`フォルダに保存されます。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "hqSbybWLS3jvMwswYazpVTBL+2xu4eVaVijZi2imOkk=",
+        "originContent": "### Text-Conditioned Shape Completion",
+        "translatedContent": "### テキスト条件付き形状補完"
+      },
+      {
+        "row": 4,
+        "rowsha": "kikF4pRCTvqq56nMW+qUFLUBuvbiskNzBR37crZELx0=",
+        "originContent": "Given a partial/incomplete 3D shape (as an `.h5` SDF file) and a text prompt, Diffusion-SDF can complete the missing regions:",
+        "translatedContent": "部分的/不完全な3D形状（`.h5`形式のSDFファイル）とテキストプロンプトが与えられると、Diffusion-SDFは欠損部分を補完できます："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# Axial cut: mask out the bottom half along the Z axis\npython shape_completion.py \\\n    --input_sdf path/to/partial.h5 \\\n    --prompt \"a wooden chair\" \\\n    --mask_axis z --mask_ratio 0.5\n\n# SDF-value based masking (mask voxels with SDF >= threshold)\npython shape_completion.py \\\n    --input_sdf path/to/shape.h5 \\\n    --prompt \"a dining table\" \\\n    --mask_type threshold --mask_value 0.0\n```",
+    "ContentSha": "8O1Mm41rnO0Gm1Fhtz99bYW1qYU6+G+3odXI+m+LxFM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Axial cut: mask out the bottom half along the Z axis\npython shape_completion.py \\\n    --input_sdf path/to/partial.h5 \\\n    --prompt \"a wooden chair\" \\\n    --mask_axis z --mask_ratio 0.5\n\n# SDF-value based masking (mask voxels with SDF >= threshold)\npython shape_completion.py \\\n    --input_sdf path/to/shape.h5 \\\n    --prompt \"a dining table\" \\\n    --mask_type threshold --mask_value 0.0\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "E/ovksx5E2XRfL0mQXHDaZrPCHhSOV5Ohd32P05d0w4=",
+        "originContent": "# Axial cut: mask out the bottom half along the Z axis",
+        "translatedContent": "# Axial cut: mask out the bottom half along the Z axis"
+      },
+      {
+        "row": 3,
+        "rowsha": "JLC8HzbCFM4TomjNO6STKouwgRVjY1G1qopWq0Mx0Fs=",
+        "originContent": "python shape_completion.py \\",
+        "translatedContent": "python shape_completion.py \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "EqqXPaBjMtSixQYX4c6EJDON1xyQYdP3mzosm8exBaA=",
+        "originContent": "    --input_sdf path/to/partial.h5 \\",
+        "translatedContent": "    --input_sdf path/to/partial.h5 \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "sI0vXGZPbbHOkDpbKuV77pdi5LkjSQFu0/eN10rpst8=",
+        "originContent": "    --prompt \"a wooden chair\" \\",
+        "translatedContent": "    --prompt \"a wooden chair\" \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "y73IJVUsBzkMFI6UihZaJz7JsXUC1lT3eLD5XrIKM7w=",
+        "originContent": "    --mask_axis z --mask_ratio 0.5",
+        "translatedContent": "    --mask_axis z --mask_ratio 0.5"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "tqFdvqiipZI6Z7T3T05qFjhglgRBfPdGluU4rtd3kUA=",
+        "originContent": "# SDF-value based masking (mask voxels with SDF >= threshold)",
+        "translatedContent": "# SDF-value based masking (mask voxels with SDF >= threshold)"
+      },
+      {
+        "row": 9,
+        "rowsha": "JLC8HzbCFM4TomjNO6STKouwgRVjY1G1qopWq0Mx0Fs=",
+        "originContent": "python shape_completion.py \\",
+        "translatedContent": "python shape_completion.py \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "YDThhDErYI2xLXVcT41ymzY78GaVUysohTqxeBwXaSs=",
+        "originContent": "    --input_sdf path/to/shape.h5 \\",
+        "translatedContent": "    --input_sdf path/to/shape.h5 \\"
+      },
+      {
+        "row": 11,
+        "rowsha": "euOIJaugJW3oIHHJDYmX+JtoMsUG4C49gDq6dsuU1+U=",
+        "originContent": "    --prompt \"a dining table\" \\",
+        "translatedContent": "    --prompt \"a dining table\" \\"
+      },
+      {
+        "row": 12,
+        "rowsha": "/E6HbJk2eJhJYGMvUyLHN4njzEWvsDeVjjN52lbL+KU=",
+        "originContent": "    --mask_type threshold --mask_value 0.0",
+        "translatedContent": "    --mask_type threshold --mask_value 0.0"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "Results (GIF renderings and optional OBJ files) are saved under `outputs/shape_completion/`.\n\n### Text-Conditioned Shape Manipulation\nGiven an existing 3D shape and a text prompt, Diffusion-SDF modifies the shape via the SDEdit approach — encoding the shape to latent space, adding noise up to a chosen timestep, then denoising with the new text prompt:\n",
+    "ContentSha": "OMGkWTMsPBe1CgMqf9AGSKz6maTSXNPY5z+TncUPeuo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "結果（GIFレンダリングおよびオプションのOBJファイル）は `outputs/shape_completion/` に保存されます。\n\n### テキスト条件付き形状操作\n既存の3D形状とテキストプロンプトが与えられると、Diffusion-SDFはSDEditアプローチを通じて形状を変更します — 形状を潜在空間にエンコードし、選択したタイムステップまでノイズを加え、次に新しいテキストプロンプトでノイズ除去を行います：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "nW1+HfMQ/dv1TZJtRWJFXKVPedpUMvok+5Othd/u5/8=",
+        "originContent": "Results (GIF renderings and optional OBJ files) are saved under `outputs/shape_completion/`.",
+        "translatedContent": "結果（GIFレンダリングおよびオプションのOBJファイル）は `outputs/shape_completion/` に保存されます。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "lsAnj2/cfmui+kVGfZv5WZ16PpYbCyEKeEdnwQEPjmY=",
+        "originContent": "### Text-Conditioned Shape Manipulation",
+        "translatedContent": "### テキスト条件付き形状操作"
+      },
+      {
+        "row": 4,
+        "rowsha": "b1zPWGCLMLx20LPvEyq3XF0ET6qBVTR+5rfj5VeVnzc=",
+        "originContent": "Given an existing 3D shape and a text prompt, Diffusion-SDF modifies the shape via the SDEdit approach — encoding the shape to latent space, adding noise up to a chosen timestep, then denoising with the new text prompt:",
+        "translatedContent": "既存の3D形状とテキストプロンプトが与えられると、Diffusion-SDFはSDEditアプローチを通じて形状を変更します — 形状を潜在空間にエンコードし、選択したタイムステップまでノイズを加え、次に新しいテキストプロンプトでノイズ除去を行います："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\n# Moderate manipulation (50% noise strength)\npython shape_manipulation.py \\\n    --input_sdf path/to/shape.h5 \\\n    --prompt \"a chair with a cushion\" \\\n    --strength 0.5\n\n# Strong manipulation (75% noise strength — more creative freedom)\npython shape_manipulation.py \\\n    --input_sdf path/to/shape.h5 \\\n    --prompt \"a modern minimalist chair\" \\\n    --strength 0.75\n```",
+    "ContentSha": "GVuOIe0Uv8V7YG89NPC2INIzwMTNa1KSavrZ+oXgSVI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Moderate manipulation (50% noise strength)\npython shape_manipulation.py \\\n    --input_sdf path/to/shape.h5 \\\n    --prompt \"a chair with a cushion\" \\\n    --strength 0.5\n\n# Strong manipulation (75% noise strength — more creative freedom)\npython shape_manipulation.py \\\n    --input_sdf path/to/shape.h5 \\\n    --prompt \"a modern minimalist chair\" \\\n    --strength 0.75\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "KipBx3ATkY4uUWltzX5m0fAu+kwC/Iakh5cBNOa6/BY=",
+        "originContent": "# Moderate manipulation (50% noise strength)",
+        "translatedContent": "# Moderate manipulation (50% noise strength)"
+      },
+      {
+        "row": 3,
+        "rowsha": "Kyul3dWZKwRQrd7jYkBjk4p7i5w5XuTJBNjrB2ILkZ0=",
+        "originContent": "python shape_manipulation.py \\",
+        "translatedContent": "python shape_manipulation.py \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "YDThhDErYI2xLXVcT41ymzY78GaVUysohTqxeBwXaSs=",
+        "originContent": "    --input_sdf path/to/shape.h5 \\",
+        "translatedContent": "    --input_sdf path/to/shape.h5 \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "ki+LBx+C1O9SFeeHmtVAE3ve44svzMpdyW+PVZS2034=",
+        "originContent": "    --prompt \"a chair with a cushion\" \\",
+        "translatedContent": "    --prompt \"a chair with a cushion\" \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "wnRJnN2MxEHzt23iFpVHUT5tFB1kfYpV6Cbeqh28Jhg=",
+        "originContent": "    --strength 0.5",
+        "translatedContent": "    --strength 0.5"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "jkJ9iXBLrqYlG0JbqEVrafQvU58o9i4angXtmd7sGvU=",
+        "originContent": "# Strong manipulation (75% noise strength — more creative freedom)",
+        "translatedContent": "# Strong manipulation (75% noise strength — more creative freedom)"
+      },
+      {
+        "row": 9,
+        "rowsha": "Kyul3dWZKwRQrd7jYkBjk4p7i5w5XuTJBNjrB2ILkZ0=",
+        "originContent": "python shape_manipulation.py \\",
+        "translatedContent": "python shape_manipulation.py \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "YDThhDErYI2xLXVcT41ymzY78GaVUysohTqxeBwXaSs=",
+        "originContent": "    --input_sdf path/to/shape.h5 \\",
+        "translatedContent": "    --input_sdf path/to/shape.h5 \\"
+      },
+      {
+        "row": 11,
+        "rowsha": "TuMNWpmLccWAvC44bTo+6If8XsIXKk4UT+vZuIA8yes=",
+        "originContent": "    --prompt \"a modern minimalist chair\" \\",
+        "translatedContent": "    --prompt \"a modern minimalist chair\" \\"
+      },
+      {
+        "row": 12,
+        "rowsha": "oYSIJlGze7bt+tgY07UykqFiOUCMlmFjXQ66gTcOBOw=",
+        "originContent": "    --strength 0.75",
+        "translatedContent": "    --strength 0.75"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "Results are saved under `outputs/shape_manipulation/`, including a rendering of the original shape for comparison.\n\n---\n\n## Training\n\n### Data Preparation\n\nTraining requires two things: voxelized SDF files for the 3D shapes, and text captions from Text2Shape.\n\n#### Step 0 — Download ShapeNet Core v1\n\nRegister and download [ShapeNet Core v1](https://shapenet.org/) and extract it somewhere (e.g. `data/ShapeNetCore.v1/`).\n\n#### Step 1 — Precompute 64³ SDF volumes\n\nShapeNet provides triangle meshes; the autoencoder and diffusion model need voxelized signed-distance fields on a 64³ grid, stored as HDF5 files. We follow the same preprocessing pipeline as [SDFusion](https://github.com/yccyenchicheng/SDFusion):\n",
+    "ContentSha": "CPmnL5X1sXPGn/1JNpm4WoRgu+Uv+OPt3Q3eZMT5UN8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "結果は `outputs/shape_manipulation/` に保存され、比較用に元の形状のレンダリングも含まれます。\n\n---\n\n## トレーニング\n\n### データ準備\n\nトレーニングには2つのものが必要です：3D形状用のボクセル化されたSDFファイルと、Text2Shapeからのテキストキャプションです。\n\n#### ステップ0 — ShapeNet Core v1のダウンロード\n\n[ShapeNet Core v1](https://shapenet.org/) に登録してダウンロードし、どこかに展開します（例：`data/ShapeNetCore.v1/`）。\n\n#### ステップ1 — 64³ SDFボリュームの事前計算\n\nShapeNetは三角形メッシュを提供します。オートエンコーダーと拡散モデルは64³グリッド上のボクセル化された符号付き距離場を必要とし、HDF5ファイルとして保存します。[SDFusion](https://github.com/yccyenchicheng/SDFusion) と同じ前処理パイプラインに従います：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "abCXNYDt280o3UQ2TM0Cc951wCcIl02bBAm1USa6v5Y=",
+        "originContent": "Results are saved under `outputs/shape_manipulation/`, including a rendering of the original shape for comparison.",
+        "translatedContent": "結果は `outputs/shape_manipulation/` に保存され、比較用に元の形状のレンダリングも含まれます。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "RyMVT8AI38tOz4vO0V79NvmoheEkQCWRArItkq8CyJU=",
+        "originContent": "## Training",
+        "translatedContent": "## トレーニング"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "T/+O5Bj7B+XFOdarqHB3zugJn6cx/u4IF1QSd/nvmew=",
+        "originContent": "### Data Preparation",
+        "translatedContent": "### データ準備"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "C8BnHyOc+rQWaykvfzwBWN0pMr/6PscZ5xNPfK55+8Y=",
+        "originContent": "Training requires two things: voxelized SDF files for the 3D shapes, and text captions from Text2Shape.",
+        "translatedContent": "トレーニングには2つのものが必要です：3D形状用のボクセル化されたSDFファイルと、Text2Shapeからのテキストキャプションです。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Rz1FytCKUi0MEvXj5oBDtklL5SwBRSzCLbrJi9NqDok=",
+        "originContent": "#### Step 0 — Download ShapeNet Core v1",
+        "translatedContent": "#### ステップ0 — ShapeNet Core v1のダウンロード"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "1m8N0cxqZO29C9bULsEOoec6bHB7pWemUjiuPvl7/Mo=",
+        "originContent": "Register and download [ShapeNet Core v1](https://shapenet.org/) and extract it somewhere (e.g. `data/ShapeNetCore.v1/`).",
+        "translatedContent": "[ShapeNet Core v1](https://shapenet.org/) に登録してダウンロードし、どこかに展開します（例：`data/ShapeNetCore.v1/`）。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "FbFPp2L8YIoJI7CiVGvWw2WkNsVk+8pA//nQL+DDAx4=",
+        "originContent": "#### Step 1 — Precompute 64³ SDF volumes",
+        "translatedContent": "#### ステップ1 — 64³ SDFボリュームの事前計算"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "kPCmfYZUhpdx9l3j7Xjl2bD+qITW7O5msXKTqofxGXc=",
+        "originContent": "ShapeNet provides triangle meshes; the autoencoder and diffusion model need voxelized signed-distance fields on a 64³ grid, stored as HDF5 files. We follow the same preprocessing pipeline as [SDFusion](https://github.com/yccyenchicheng/SDFusion):",
+        "translatedContent": "ShapeNetは三角形メッシュを提供します。オートエンコーダーと拡散モデルは64³グリッド上のボクセル化された符号付き距離場を必要とし、HDF5ファイルとして保存します。[SDFusion](https://github.com/yccyenchicheng/SDFusion) と同じ前処理パイプラインに従います："
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\n# Install system dependencies (Ubuntu/Debian)\nsudo apt-get install freeglut3-dev libtbb-dev\n\n# Clone SDFusion and run their SDF generation scripts\n# (see SDFusion repo for the full launcher scripts)\ncd preprocess\nbash launch_create_sdf_shapenet.sh \\\n    --shapenet_root data/ShapeNetCore.v1 \\\n    --out_root data/ShapeNet/sdf\n```",
+    "ContentSha": "BnPkyAOlfNYdjWyt7zq6OLAgDUv0ct/HhF1nKHDKpJg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Install system dependencies (Ubuntu/Debian)\nsudo apt-get install freeglut3-dev libtbb-dev\n\n# Clone SDFusion and run their SDF generation scripts\n# (see SDFusion repo for the full launcher scripts)\ncd preprocess\nbash launch_create_sdf_shapenet.sh \\\n    --shapenet_root data/ShapeNetCore.v1 \\\n    --out_root data/ShapeNet/sdf\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "fSSBjPFH1iOC9ms/zxGeJ7GjnaFSuKrvs5lmz+PH/PI=",
+        "originContent": "# Install system dependencies (Ubuntu/Debian)",
+        "translatedContent": "# Install system dependencies (Ubuntu/Debian)"
+      },
+      {
+        "row": 3,
+        "rowsha": "R+QYMO8nRJcsYpIcjAsLNI+++nQbB6qJtU8tD6UqbmY=",
+        "originContent": "sudo apt-get install freeglut3-dev libtbb-dev",
+        "translatedContent": "sudo apt-get install freeglut3-dev libtbb-dev"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "T6f8xkZ++w5Wf4V+cPBfoBTM85K23ZQY8NOnFOydOEc=",
+        "originContent": "# Clone SDFusion and run their SDF generation scripts",
+        "translatedContent": "# Clone SDFusion and run their SDF generation scripts"
+      },
+      {
+        "row": 6,
+        "rowsha": "1jFYGHSGa6WomAm9mUnOSrT85jRM+3+bJJ95BIRMDco=",
+        "originContent": "# (see SDFusion repo for the full launcher scripts)",
+        "translatedContent": "# (see SDFusion repo for the full launcher scripts)"
+      },
+      {
+        "row": 7,
+        "rowsha": "u3A/RgrVduiWfGKNq7PjDMmjGRQ6fJngGRiavCJ7Q2g=",
+        "originContent": "cd preprocess",
+        "translatedContent": "cd preprocess"
+      },
+      {
+        "row": 8,
+        "rowsha": "D4ZqCaCXoRzCf9gaVTpq9sL9mA3hlidHBdrJD38z6nc=",
+        "originContent": "bash launch_create_sdf_shapenet.sh \\",
+        "translatedContent": "bash launch_create_sdf_shapenet.sh \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "aBeXycGuSXcQJ3otHXYyL27AHfzJhBNgZCHk+0dX+yw=",
+        "originContent": "    --shapenet_root data/ShapeNetCore.v1 \\",
+        "translatedContent": "    --shapenet_root data/ShapeNetCore.v1 \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "6u204tX3kYcsxXpfI3QWQaZi5Vni4Vv/tNQKCG6OapQ=",
+        "originContent": "    --out_root data/ShapeNet/sdf",
+        "translatedContent": "    --out_root data/ShapeNet/sdf"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nThe expected output layout is:",
+    "ContentSha": "d9ssPJ2MEZg6oaQdg9jn8uD05mDhQ90qw/pRRgA+ywA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n期待される出力レイアウトは次のとおりです：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1imZoQx3mwToYtAPhGU65IJcXrIrcJLKw9FmNdxNBYA=",
+        "originContent": "The expected output layout is:",
+        "translatedContent": "期待される出力レイアウトは次のとおりです："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```\ndata/ShapeNet/\n  sdf/\n    <synset_id>/          e.g. 03001627 (chair), 04379243 (table)\n      <model_id>/\n        pc_sdf_sample.h5  float32 array of shape (262144,) = 64³ SDF values\n```",
+    "ContentSha": "5LWEsEoeYifSnlJs/ikqZ4qdjAigy4mkDzYKzOoNBFo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ndata/ShapeNet/\n  sdf/\n    <synset_id>/          e.g. 03001627 (chair), 04379243 (table)\n      <model_id>/\n        pc_sdf_sample.h5  float32 array of shape (262144,) = 64³ SDF values\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "eeGEtx2ffm+1CYjeTtvHDwgePquWLuPGcFnh4CNr+M0=",
+        "originContent": "data/ShapeNet/",
+        "translatedContent": "data/ShapeNet/"
+      },
+      {
+        "row": 3,
+        "rowsha": "d4CpJC8skv7u5FmtENguxPpGifJuZNvlwm2jyMdvTgo=",
+        "originContent": "  sdf/",
+        "translatedContent": "  sdf/"
+      },
+      {
+        "row": 4,
+        "rowsha": "yDgZDS+MRBsm2UCYwuoCd176ciVU5yJl7+Geb0Tybgo=",
+        "originContent": "    <synset_id>/          e.g. 03001627 (chair), 04379243 (table)",
+        "translatedContent": "    <synset_id>/          e.g. 03001627 (chair), 04379243 (table)"
+      },
+      {
+        "row": 5,
+        "rowsha": "jCeCqHy/qHWcBI0ZqA0TeTyTcgN3byrUq99WS3tV7rE=",
+        "originContent": "      <model_id>/",
+        "translatedContent": "      <model_id>/"
+      },
+      {
+        "row": 6,
+        "rowsha": "KvaTN2HDijLCFkLlppIRf8nOotYvxxDzw/f0cuJD/m8=",
+        "originContent": "        pc_sdf_sample.h5  float32 array of shape (262144,) = 64³ SDF values",
+        "translatedContent": "        pc_sdf_sample.h5  float32 array of shape (262144,) = 64³ SDF values"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nThe HDF5 key is `pc_sdf_sample` and the array is stored flat (262144 = 64×64×64 elements).\n\n#### Step 2 — Prepare Text2Shape captions\n\n[Text2Shape](http://text2shape.stanford.edu/) provides natural-language descriptions for ShapeNet **chairs** and **tables** only. Other categories will be trained unconditionally (empty caption).\n",
+    "ContentSha": "rl4UIASUJVSUqsedRspLtXhBEI8IqPtjXJW3iR0NkaE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nHDF5キーは `pc_sdf_sample` であり、配列はフラットに格納されています（262144 = 64×64×64 要素）。\n\n#### ステップ2 — Text2Shapeのキャプションを準備する\n\n[Text2Shape](http://text2shape.stanford.edu/) はShapeNetの**椅子**と**テーブル**に対してのみ自然言語による説明を提供します。その他のカテゴリは無条件（空のキャプション）で学習されます。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "VBuDesDV5pNRhPtXZQC9sCo4vd+2ix9omoomat/mcYU=",
+        "originContent": "The HDF5 key is `pc_sdf_sample` and the array is stored flat (262144 = 64×64×64 elements).",
+        "translatedContent": "HDF5キーは `pc_sdf_sample` であり、配列はフラットに格納されています（262144 = 64×64×64 要素）。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0Yx+0qVAeBF40JrMON2QnUfgbRFcMg9Wn+JcN+llZ48=",
+        "originContent": "#### Step 2 — Prepare Text2Shape captions",
+        "translatedContent": "#### ステップ2 — Text2Shapeのキャプションを準備する"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "mVZT16SdaPfrxL2Re4SME0ahK/AYgkfkF9qHyYxiSMM=",
+        "originContent": "[Text2Shape](http://text2shape.stanford.edu/) provides natural-language descriptions for ShapeNet **chairs** and **tables** only. Other categories will be trained unconditionally (empty caption).",
+        "translatedContent": "[Text2Shape](http://text2shape.stanford.edu/) はShapeNetの**椅子**と**テーブル**に対してのみ自然言語による説明を提供します。その他のカテゴリは無条件（空のキャプション）で学習されます。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```bash\n# Download the caption CSV\nmkdir -p data/ShapeNet/text\nwget http://text2shape.stanford.edu/dataset/captions.tablechair.csv \\\n    -O data/ShapeNet/text/captions.tablechair.csv\n\n# Convert to captions.json and generate train/val/test splits\npython preprocess/prepare_text2shape.py --data_root data/ShapeNet\n```",
+    "ContentSha": "DdpXIrab2oiLF7Jqd8MzD8JGMj36w86H9aJQ4gn8gK0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Download the caption CSV\nmkdir -p data/ShapeNet/text\nwget http://text2shape.stanford.edu/dataset/captions.tablechair.csv \\\n    -O data/ShapeNet/text/captions.tablechair.csv\n\n# Convert to captions.json and generate train/val/test splits\npython preprocess/prepare_text2shape.py --data_root data/ShapeNet\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "rxqJXHN4s3bB088TydGKuhbHsiYm757I9hNoSP8xxro=",
+        "originContent": "# Download the caption CSV",
+        "translatedContent": "# Download the caption CSV"
+      },
+      {
+        "row": 3,
+        "rowsha": "Q8JjFnJ7LDnH319KtiecE8+2nfC6l42r+6o+0uu1W8k=",
+        "originContent": "mkdir -p data/ShapeNet/text",
+        "translatedContent": "mkdir -p data/ShapeNet/text"
+      },
+      {
+        "row": 4,
+        "rowsha": "zRPzhP4cq29ben7iQATrwqKkttSBjbeqLlxTIuVO+TE=",
+        "originContent": "wget http://text2shape.stanford.edu/dataset/captions.tablechair.csv \\",
+        "translatedContent": "wget http://text2shape.stanford.edu/dataset/captions.tablechair.csv \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "YpS2IKTL8+r4Tedizk84En2Cs5BtKWgofsWcdiUZC54=",
+        "originContent": "    -O data/ShapeNet/text/captions.tablechair.csv",
+        "translatedContent": "    -O data/ShapeNet/text/captions.tablechair.csv"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Mr/XCZSWIJqMtdtRk3ed+gNguZnKCLSgib6Pf8ldRLA=",
+        "originContent": "# Convert to captions.json and generate train/val/test splits",
+        "translatedContent": "# Convert to captions.json and generate train/val/test splits"
+      },
+      {
+        "row": 8,
+        "rowsha": "ToAqRIau8+gIoH0X5PDJQMYHXdMAJCRfgEX8QtdkxY8=",
+        "originContent": "python preprocess/prepare_text2shape.py --data_root data/ShapeNet",
+        "translatedContent": "python preprocess/prepare_text2shape.py --data_root data/ShapeNet"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\nThis produces:",
+    "ContentSha": "JzJr4PqF2RVKrVplMUMT3SW5Co7Tn6l64A8tjtIr5sw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "これは以下を生成します:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "これは以下を生成します:"
+      },
+      {
+        "row": 2,
+        "rowsha": "OG3Cc2BFVAR48kXk+5CPKFxUKyhyl2KUdibeN5MJn7c=",
+        "originContent": "This produces:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```\ndata/ShapeNet/\n  text/\n    captions.tablechair.csv   (raw Text2Shape CSV)\n    captions.json             {model_id: [caption, ...]}\n  train_models.json           [model_id, ...]\n  val_models.json\n  test_models.json\n```",
+    "ContentSha": "EFtglv4Jqy72DMDvIiOu5D61iax88AkWOjXb0sCoEQ0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ndata/ShapeNet/\n  text/\n    captions.tablechair.csv   (raw Text2Shape CSV)\n    captions.json             {model_id: [caption, ...]}\n  train_models.json           [model_id, ...]\n  val_models.json\n  test_models.json\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "eeGEtx2ffm+1CYjeTtvHDwgePquWLuPGcFnh4CNr+M0=",
+        "originContent": "data/ShapeNet/",
+        "translatedContent": "data/ShapeNet/"
+      },
+      {
+        "row": 3,
+        "rowsha": "UR0Co6Mpt7t5GlJDswUzo+R5epGxaeGJV2pVrm6R3JY=",
+        "originContent": "  text/",
+        "translatedContent": "  text/"
+      },
+      {
+        "row": 4,
+        "rowsha": "8dFqDIEk85qLrc7/MKRL/Brl6JORZMTt6y38qyu9Mzw=",
+        "originContent": "    captions.tablechair.csv   (raw Text2Shape CSV)",
+        "translatedContent": "    captions.tablechair.csv   (raw Text2Shape CSV)"
+      },
+      {
+        "row": 5,
+        "rowsha": "ZPGVXJlhPwlSNda22PZss9icg8vSSNjtN8StzrEQV3Y=",
+        "originContent": "    captions.json             {model_id: [caption, ...]}",
+        "translatedContent": "    captions.json             {model_id: [caption, ...]}"
+      },
+      {
+        "row": 6,
+        "rowsha": "mw8OyQ6T/m/zGx+Lp+kFwzgNTYIxeskIDrdCgmLwd0o=",
+        "originContent": "  train_models.json           [model_id, ...]",
+        "translatedContent": "  train_models.json           [model_id, ...]"
+      },
+      {
+        "row": 7,
+        "rowsha": "jqC+s11gdsb+ffn1WCUwQHtY8RKkO8/TMo1+in/5IdE=",
+        "originContent": "  val_models.json",
+        "translatedContent": "  val_models.json"
+      },
+      {
+        "row": 8,
+        "rowsha": "+QpBWoBQl9Y5msBAOMZGqYxv74T4Z/xtoOhXeoQrDTQ=",
+        "originContent": "  test_models.json",
+        "translatedContent": "  test_models.json"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\nIf you have ShapeNet's official split JSON files, pass them with `--shapenet_split_dir` to use the canonical splits instead of a random split:\n",
+    "ContentSha": "c6gCRK2CKEuWAC52GECloTred/PRjdXEqi9Nh4P6vqY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nShapeNetの公式分割JSONファイルをお持ちの場合は、`--shapenet_split_dir` オプションで指定すると、ランダム分割の代わりに正規の分割を使用します：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KcfErdRrUYrALM//b41lGsHnFW6PUsu2r/K+xoHIJA0=",
+        "originContent": "If you have ShapeNet's official split JSON files, pass them with `--shapenet_split_dir` to use the canonical splits instead of a random split:",
+        "translatedContent": "ShapeNetの公式分割JSONファイルをお持ちの場合は、`--shapenet_split_dir` オプションで指定すると、ランダム分割の代わりに正規の分割を使用します："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```bash\npython preprocess/prepare_text2shape.py \\\n    --data_root data/ShapeNet \\\n    --shapenet_split_dir data/ShapeNet/splits\n```",
+    "ContentSha": "CFPXAS6Vi1Obcm5E2rgStlMxCckeo9QmSYOkItE6Xss=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython preprocess/prepare_text2shape.py \\\n    --data_root data/ShapeNet \\\n    --shapenet_split_dir data/ShapeNet/splits\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "AOR3WOikELxYPO0JqIPVQ16EABbBeJhX/bvdmD8qK9Y=",
+        "originContent": "python preprocess/prepare_text2shape.py \\",
+        "translatedContent": "python preprocess/prepare_text2shape.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "u/afj/CknLTgv3qaIFnH2mHptBPBw/UJyqforP/EqA4=",
+        "originContent": "    --data_root data/ShapeNet \\",
+        "translatedContent": "    --data_root data/ShapeNet \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "NjwBfwpnNeuomcpe8Ao5oz8nMz0TKULju3fPOi90yJA=",
+        "originContent": "    --shapenet_split_dir data/ShapeNet/splits",
+        "translatedContent": "    --shapenet_split_dir data/ShapeNet/splits"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n### Step 1 — Train the SDF Autoencoder\nTrain the patch-wise variational autoencoder that encodes 64³ SDF volumes into a compact 8³ latent space:\n",
+    "ContentSha": "6XgYSSWoHBA+bY8hnXtuw/gGV9EwgrGEU+VrockrqCs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### ステップ1 — SDFオートエンコーダの訓練\n64³のSDFボリュームをコンパクトな8³の潜在空間にエンコードするパッチ単位の変分オートエンコーダを訓練します：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "YhsPtRbmY5KbXRT94YOqcgZLogB0vAtW7/uq/FBqlrk=",
+        "originContent": "### Step 1 — Train the SDF Autoencoder",
+        "translatedContent": "### ステップ1 — SDFオートエンコーダの訓練"
+      },
+      {
+        "row": 3,
+        "rowsha": "FMb4T1GVOIHjsFJd2waNQCptDn6swSxaTMDC+Acb+1I=",
+        "originContent": "Train the patch-wise variational autoencoder that encodes 64³ SDF volumes into a compact 8³ latent space:",
+        "translatedContent": "64³のSDFボリュームをコンパクトな8³の潜在空間にエンコードするパッチ単位の変分オートエンコーダを訓練します："
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```bash\n# Single GPU\npython train_ae.py --data_root data/ShapeNet --cat all\n\n# Resume from a checkpoint\npython train_ae.py --data_root data/ShapeNet \\\n    --resume ckpt/vae_epoch-120.pth --start_epoch 121\n\n# Multi-GPU (DDP via torchrun)\ntorchrun --nproc_per_node=4 train_ae.py --data_root data/ShapeNet --dist_train\n```",
+    "ContentSha": "EdpIUSOf1vZO6IwLcLDvLY9/vrYF8iqHZ6toNBaXqTY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Single GPU\npython train_ae.py --data_root data/ShapeNet --cat all\n\n# Resume from a checkpoint\npython train_ae.py --data_root data/ShapeNet \\\n    --resume ckpt/vae_epoch-120.pth --start_epoch 121\n\n# Multi-GPU (DDP via torchrun)\ntorchrun --nproc_per_node=4 train_ae.py --data_root data/ShapeNet --dist_train\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "AEi6fXTJb9OddXaFX1Y69LoVkjfWuF+m1FGHYmiD2WU=",
+        "originContent": "# Single GPU",
+        "translatedContent": "# Single GPU"
+      },
+      {
+        "row": 3,
+        "rowsha": "8A9uAr9fo/2/uh2yme9EpDAW9JjfjNBp7KhMbrkBwRo=",
+        "originContent": "python train_ae.py --data_root data/ShapeNet --cat all",
+        "translatedContent": "python train_ae.py --data_root data/ShapeNet --cat all"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "DED75gYX71hVDBRKvbHv3Uw24VPQzY6BkJyu3VbDtGY=",
+        "originContent": "# Resume from a checkpoint",
+        "translatedContent": "# Resume from a checkpoint"
+      },
+      {
+        "row": 6,
+        "rowsha": "jY7YHy/WGCTxWMnaoGxwtbBJ4sopQ6+8uTn5qaMZ71s=",
+        "originContent": "python train_ae.py --data_root data/ShapeNet \\",
+        "translatedContent": "python train_ae.py --data_root data/ShapeNet \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "Hfnr5KjEPu4DACfI7NFhFR0mjmClr0SBPHk5ntBTLEQ=",
+        "originContent": "    --resume ckpt/vae_epoch-120.pth --start_epoch 121",
+        "translatedContent": "    --resume ckpt/vae_epoch-120.pth --start_epoch 121"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Szp/DMELT6nm1qOus0Egq82oJ2Al45nkCMv5cnIMHEs=",
+        "originContent": "# Multi-GPU (DDP via torchrun)",
+        "translatedContent": "# Multi-GPU (DDP via torchrun)"
+      },
+      {
+        "row": 10,
+        "rowsha": "BnukQXiT0CA7hnv4a/g9Xz4vQEgIP6KjS6eq2tGeeg0=",
+        "originContent": "torchrun --nproc_per_node=4 train_ae.py --data_root data/ShapeNet --dist_train",
+        "translatedContent": "torchrun --nproc_per_node=4 train_ae.py --data_root data/ShapeNet --dist_train"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\nCheckpoints are saved to `./ckpt/` as `vae_epoch-{N}.pth`.\n\n### Step 2 — Train the Voxelized Diffusion Model\nAfter the AE is trained, train the text-conditioned 3D diffusion model using PyTorch Lightning:\n",
+    "ContentSha": "lBkB5V6iqHFBPHF9QgOXXFHHYnty5R2D0AG+jsMTHgg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nチェックポイントは `./ckpt/` に `vae_epoch-{N}.pth` として保存されます。\n\n### ステップ2 — ボクセル化拡散モデルの訓練\nAEの訓練が完了したら、PyTorch Lightningを使用してテキスト条件付き3D拡散モデルを訓練します：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "vfhdDPCwvGXBnBi1X517xQgj3eXUbkeSa4o/QycWKxQ=",
+        "originContent": "Checkpoints are saved to `./ckpt/` as `vae_epoch-{N}.pth`.",
+        "translatedContent": "チェックポイントは `./ckpt/` に `vae_epoch-{N}.pth` として保存されます。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "C5+Ko3KDYPNPUJWjlv7nBdJiy13n0Hn6LJcpLEyTbww=",
+        "originContent": "### Step 2 — Train the Voxelized Diffusion Model",
+        "translatedContent": "### ステップ2 — ボクセル化拡散モデルの訓練"
+      },
+      {
+        "row": 5,
+        "rowsha": "UEcHKcIyBEwIxjMBcX4FTv/wC+y22dG9qrO+0MTAnGc=",
+        "originContent": "After the AE is trained, train the text-conditioned 3D diffusion model using PyTorch Lightning:",
+        "translatedContent": "AEの訓練が完了したら、PyTorch Lightningを使用してテキスト条件付き3D拡散モデルを訓練します："
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```bash\n# Single GPU\npython main.py --config configs/voxdiff-uinu.yaml\n\n# Resume from a checkpoint\npython main.py --config configs/voxdiff-uinu.yaml --resume /path/to/checkpoint.ckpt\n\n# Multi-GPU\npython main.py --config configs/voxdiff-uinu.yaml --gpus 0,1,2,3\n```",
+    "ContentSha": "derSSkRUGu3pv/eVB7RKbJMXh2pK4RGy7nId/OKaU7o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Single GPU\npython main.py --config configs/voxdiff-uinu.yaml\n\n# Resume from a checkpoint\npython main.py --config configs/voxdiff-uinu.yaml --resume /path/to/checkpoint.ckpt\n\n# Multi-GPU\npython main.py --config configs/voxdiff-uinu.yaml --gpus 0,1,2,3\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "AEi6fXTJb9OddXaFX1Y69LoVkjfWuF+m1FGHYmiD2WU=",
+        "originContent": "# Single GPU",
+        "translatedContent": "# Single GPU"
+      },
+      {
+        "row": 3,
+        "rowsha": "9EjpLydYG7jD90mccjyM/ij0l4VIOlkb0IIadYVNd1A=",
+        "originContent": "python main.py --config configs/voxdiff-uinu.yaml",
+        "translatedContent": "python main.py --config configs/voxdiff-uinu.yaml"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "DED75gYX71hVDBRKvbHv3Uw24VPQzY6BkJyu3VbDtGY=",
+        "originContent": "# Resume from a checkpoint",
+        "translatedContent": "# Resume from a checkpoint"
+      },
+      {
+        "row": 6,
+        "rowsha": "K4jrjYcBfpaGG55z5dfVmpqUEYsk5VD3G8yT08Dg7O0=",
+        "originContent": "python main.py --config configs/voxdiff-uinu.yaml --resume /path/to/checkpoint.ckpt",
+        "translatedContent": "python main.py --config configs/voxdiff-uinu.yaml --resume /path/to/checkpoint.ckpt"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "binkvyfbTe0WkBziyufsqy5jD8vdPPT1gvGRUQgegeQ=",
+        "originContent": "# Multi-GPU",
+        "translatedContent": "# Multi-GPU"
+      },
+      {
+        "row": 9,
+        "rowsha": "6ffXBhAFO/e3yE04RWPfXZ5HkAiwZSuqWT0BO3I34sE=",
+        "originContent": "python main.py --config configs/voxdiff-uinu.yaml --gpus 0,1,2,3",
+        "translatedContent": "python main.py --config configs/voxdiff-uinu.yaml --gpus 0,1,2,3"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\nCheckpoints are saved under `logs/<run_name>/checkpoints/`.\n\n## Acknowledgement\nOur code is based on [Stable-Diffusion](https://github.com/CompVis/stable-diffusion), and [AutoSDF](https://github.com/yccyenchicheng/AutoSDF).\n\n## Citation\nIf you find our work useful in your research, please consider citing:\n",
+    "ContentSha": "fV5o8YV5G5DVOmVFTbsbmd3TOy6mu8o5uzimI407cQI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "チェックポイントは `logs/<run_name>/checkpoints/` に保存されます。\n\n## 謝辞\n私たちのコードは [Stable-Diffusion](https://github.com/CompVis/stable-diffusion) と [AutoSDF](https://github.com/yccyenchicheng/AutoSDF) を基にしています。\n\n## 引用\nもし本研究があなたの研究に役立った場合は、以下の文献を引用してください：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "チェックポイントは `logs/<run_name>/checkpoints/` に保存されます。"
+      },
+      {
+        "row": 2,
+        "rowsha": "KiVQ8X+U7YQoohBVp9ThGnLtTabXC235BU74O1XlbwM=",
+        "originContent": "Checkpoints are saved under `logs/<run_name>/checkpoints/`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 謝辞"
+      },
+      {
+        "row": 4,
+        "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+        "originContent": "## Acknowledgement",
+        "translatedContent": "私たちのコードは [Stable-Diffusion](https://github.com/CompVis/stable-diffusion) と [AutoSDF](https://github.com/yccyenchicheng/AutoSDF) を基にしています。"
+      },
+      {
+        "row": 5,
+        "rowsha": "ziK6WNOxG1aPvl2rKu8PjRofpEi+ofDF9riSI16UOaM=",
+        "originContent": "Our code is based on [Stable-Diffusion](https://github.com/CompVis/stable-diffusion), and [AutoSDF](https://github.com/yccyenchicheng/AutoSDF).",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 引用"
+      },
+      {
+        "row": 7,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "もし本研究があなたの研究に役立った場合は、以下の文献を引用してください："
+      },
+      {
+        "row": 8,
+        "rowsha": "SXoXJ9aI8szqvoNzUxJwpE6CjMLMb+FUNF7t3AcHwHI=",
+        "originContent": "If you find our work useful in your research, please consider citing:",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```\n@inproceedings{li2023diffusionsdf,\n  author={Li, Muheng and Duan, Yueqi and Zhou, Jie and Lu, Jiwen},\n  title={Diffusion-SDF: Text-to-Shape via Voxelized Diffusion},\n  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\n  year={2023}\n}\n```",
+    "ContentSha": "5qgEPygpqLJRJJS1DPGIcFdAaHot3vbRBhLYb3HhRY8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n@inproceedings{li2023diffusionsdf,\n  author={Li, Muheng and Duan, Yueqi and Zhou, Jie and Lu, Jiwen},\n  title={Diffusion-SDF: Text-to-Shape via Voxelized Diffusion},\n  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\n  year={2023}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "9ZWGiIPCe44jkppulwY8NG+OaZIRLXe90F0Emcs36Sc=",
+        "originContent": "@inproceedings{li2023diffusionsdf,",
+        "translatedContent": "@inproceedings{li2023diffusionsdf,"
+      },
+      {
+        "row": 3,
+        "rowsha": "nfq900DQaz7wZeIwRivJgQ4kkzI1BpANcRSWJEFWbbw=",
+        "originContent": "  author={Li, Muheng and Duan, Yueqi and Zhou, Jie and Lu, Jiwen},",
+        "translatedContent": "  author={Li, Muheng and Duan, Yueqi and Zhou, Jie and Lu, Jiwen},"
+      },
+      {
+        "row": 4,
+        "rowsha": "+h2rt3/tXmdvUZ3bw9eHStf3PSENgbRjuHFOHdeYlfU=",
+        "originContent": "  title={Diffusion-SDF: Text-to-Shape via Voxelized Diffusion},",
+        "translatedContent": "  title={Diffusion-SDF: Text-to-Shape via Voxelized Diffusion},"
+      },
+      {
+        "row": 5,
+        "rowsha": "JnbG31lAZ+4NV7jd4bgbykG5FbGUAahU4jx5E2p1Sq4=",
+        "originContent": "  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},",
+        "translatedContent": "  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},"
+      },
+      {
+        "row": 6,
+        "rowsha": "3Av7xTd9BX7nMuy1VF/5IK4otUrPJnE2oTIVVk8VbF4=",
+        "originContent": "  year={2023}",
+        "translatedContent": "  year={2023}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
