@@ -1,0 +1,732 @@
+[
+  {
+    "Id": 1,
+    "Content": "# <img src=\"https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/logo.png\" width=\"25\" height=\"25\"> Music Assistant Jukebox Integration (Deprecated)\n\n## Notice: this integration is not longer activly being maintained.\n\nMusic Assistant now has a Plugin that should be used instead and offers much of the same features.\nSee https://beta.music-assistant.io/plugins/party-mode/\n\n---\n\nA Home Assistant integration that provides a web-based song request system that integrates with Music Assistant to create an interactive jukebox experience for guests!\n\n![Jukebox Interface](https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/showcase.avifs)\n\n## Features\n- Real-time song search across all connected Music Assistant providers\n- Minimalist responsive design with album artwork display\n- Check whats Now Playing and Up Next in real time.\n- No login required for guests, just share the URL\n- Queue management through Home Assistant entities\n- Auto queues a default party playlist when the request queue is empty\n- Control queuing frequency (limit queue spamming) \n- Access control through Home Assistant\n- Auto revoking/creating access tokens for security\n\nHead on over to [Discussions / FeatureRequests](https://github.com/DJS91/HAMusicAssistantJukebox/discussions) if you want to request new features and general discussion!\n\n## Prerequisites\n\nBefore installing this integration, make sure you have:\n- Home Assistant instance with [Music Assistant](https://github.com/music-assistant/hass-music-assistant) integration\n- Music Assistant Server Addon in Home Assistant (Seperately hosted HA/MA instances may not work)\n- A supported music provider configured in Music Assistant (e.g. Spotify, Apple Music, etc.)\n- Media player entity configured in Home Assistant\n\n## Installation\n\n### HACS (Recommended)\n[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DJS91&repository=HAMusicAssistantJukebox&category=Integration)\n\nor",
+    "ContentSha": "jH5+X337MKEx7yw/8Q6qgMktxcK8te45CyaPIFzkL6c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# <img src=\"https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/logo.png\" width=\"25\" height=\"25\"> Music Assistant Jukebox 統合（非推奨）\n\n## お知らせ：この統合はもはや積極的にメンテナンスされていません。\n\nMusic Assistant には代わりに使用すべきプラグインがあり、多くの同様の機能を提供しています。  \nhttps://beta.music-assistant.io/plugins/party-mode/ をご覧ください。\n\n---\n\nHome Assistant 統合で、Music Assistant と連携したウェブベースの曲リクエストシステムを提供し、ゲスト向けのインタラクティブなジュークボックス体験を作成します！\n\n![ジュークボックスインターフェース](https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/showcase.avifs)\n\n## 機能\n- 接続されたすべての Music Assistant プロバイダーにわたるリアルタイム曲検索\n- アルバムアートワーク表示を備えたミニマリストのレスポンシブデザイン\n- 現在再生中と次に再生予定の曲をリアルタイムで確認可能\n- ゲストはログイン不要、URLを共有するだけで利用可能\n- Home Assistant エンティティを通じたキュー管理\n- リクエストキューが空の場合、自動的にデフォルトのパーティプレイリストをキューに追加\n- キューイング頻度を制御（キューのスパムを制限）\n- Home Assistant を通じたアクセス制御\n- セキュリティのためのアクセストークンの自動取り消し／作成\n\n新機能のリクエストや一般的な議論は、[Discussions / FeatureRequests](https://github.com/DJS91/HAMusicAssistantJukebox/discussions)へどうぞ！\n\n## 前提条件\n\nこの統合をインストールする前に、以下を確認してください：  \n- [Music Assistant](https://github.com/music-assistant/hass-music-assistant) 統合が導入された Home Assistant インスタンス  \n- Home Assistant の Music Assistant サーバーアドオン（別ホストの HA/MA インスタンスは動作しない場合があります）  \n- Music Assistant に設定された対応音楽プロバイダー（例：Spotify、Apple Music など）  \n- Home Assistant に設定されたメディアプレイヤーエンティティ\n\n## インストール\n\n### HACS（推奨）  \n[![Home Assistant インスタンスを開き、Home Assistant Community Store 内でリポジトリを開く](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DJS91&repository=HAMusicAssistantJukebox&category=Integration)\n\nまたは",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "AwK5H+SG8N/VUN8dpGxqzh/xtIWQ8IpcBj2d48+XzeM=",
+        "originContent": "# <img src=\"https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/logo.png\" width=\"25\" height=\"25\"> Music Assistant Jukebox Integration (Deprecated)",
+        "translatedContent": "# <img src=\"https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/logo.png\" width=\"25\" height=\"25\"> Music Assistant Jukebox 統合（非推奨）"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "wHNdQW0LeFT8k+EbVEoiMfgjKYU9l8hpzlAOO7/xLqg=",
+        "originContent": "## Notice: this integration is not longer activly being maintained.",
+        "translatedContent": "## お知らせ：この統合はもはや積極的にメンテナンスされていません。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "K5Fgwht/mEDTYL4gHb+26b+314JM7lB4Vi8bkrfn9tM=",
+        "originContent": "Music Assistant now has a Plugin that should be used instead and offers much of the same features.",
+        "translatedContent": "Music Assistant には代わりに使用すべきプラグインがあり、多くの同様の機能を提供しています。  "
+      },
+      {
+        "row": 6,
+        "rowsha": "PnhxA03WjdIlbuG4/Hn8m+UaN2GLWs695Shwgl+Aih8=",
+        "originContent": "See https://beta.music-assistant.io/plugins/party-mode/",
+        "translatedContent": "https://beta.music-assistant.io/plugins/party-mode/ をご覧ください。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "EcaakahptHdSAzGPw+Our6XGTH9nYUMducvR3ooXRTM=",
+        "originContent": "A Home Assistant integration that provides a web-based song request system that integrates with Music Assistant to create an interactive jukebox experience for guests!",
+        "translatedContent": "Home Assistant 統合で、Music Assistant と連携したウェブベースの曲リクエストシステムを提供し、ゲスト向けのインタラクティブなジュークボックス体験を作成します！"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "XodAA1tEIKbfJbDd6cCLTEFgtxLxee+OkxJnLrIe5lY=",
+        "originContent": "![Jukebox Interface](https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/showcase.avifs)",
+        "translatedContent": "![ジュークボックスインターフェース](https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/showcase.avifs)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 機能"
+      },
+      {
+        "row": 15,
+        "rowsha": "k0ExpIBoQrhma//n9cgEbd+ck+e0P2u1MaZ3sm7MCEo=",
+        "originContent": "- Real-time song search across all connected Music Assistant providers",
+        "translatedContent": "- 接続されたすべての Music Assistant プロバイダーにわたるリアルタイム曲検索"
+      },
+      {
+        "row": 16,
+        "rowsha": "mfDflT10QTRSNzfPy76lqGhX3C2PYanZWa99qNW0S1g=",
+        "originContent": "- Minimalist responsive design with album artwork display",
+        "translatedContent": "- アルバムアートワーク表示を備えたミニマリストのレスポンシブデザイン"
+      },
+      {
+        "row": 17,
+        "rowsha": "3g5WhFKZMhyA/m5kYZ2e5DCKj5UtE1Kod5FLLsZI5cM=",
+        "originContent": "- Check whats Now Playing and Up Next in real time.",
+        "translatedContent": "- 現在再生中と次に再生予定の曲をリアルタイムで確認可能"
+      },
+      {
+        "row": 18,
+        "rowsha": "sOCm7xpWH6bOELVWuKlOlekKjUlZnAYabX4JWVuAIYo=",
+        "originContent": "- No login required for guests, just share the URL",
+        "translatedContent": "- ゲストはログイン不要、URLを共有するだけで利用可能"
+      },
+      {
+        "row": 19,
+        "rowsha": "PoncwxfftwZAYMXAWhvF/3pLau2jNmDiknUnVt4zLNk=",
+        "originContent": "- Queue management through Home Assistant entities",
+        "translatedContent": "- Home Assistant エンティティを通じたキュー管理"
+      },
+      {
+        "row": 20,
+        "rowsha": "y6imd/dGz78fjtTKmgzRIARdVV0VuhJZUGqZlJWMOMA=",
+        "originContent": "- Auto queues a default party playlist when the request queue is empty",
+        "translatedContent": "- リクエストキューが空の場合、自動的にデフォルトのパーティプレイリストをキューに追加"
+      },
+      {
+        "row": 21,
+        "rowsha": "8q7p3o/JvMf8OlHNkIO1FwRf239QEmWjqgqj+tHXYR8=",
+        "originContent": "- Control queuing frequency (limit queue spamming) ",
+        "translatedContent": "- キューイング頻度を制御（キューのスパムを制限）"
+      },
+      {
+        "row": 22,
+        "rowsha": "+W8emJTLGzo/V/d7Ju4ozsJomiQT6OBDJdDepqkNRYw=",
+        "originContent": "- Access control through Home Assistant",
+        "translatedContent": "- Home Assistant を通じたアクセス制御"
+      },
+      {
+        "row": 23,
+        "rowsha": "pEv2mQ5FJfrW3gUsYjJHSzwr9PIuTKgTPnhCpW4aeF8=",
+        "originContent": "- Auto revoking/creating access tokens for security",
+        "translatedContent": "- セキュリティのためのアクセストークンの自動取り消し／作成"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "/6qXKHIbZQgYxDz3Om3txl78pIBXyD6qpXHkOmZp36A=",
+        "originContent": "Head on over to [Discussions / FeatureRequests](https://github.com/DJS91/HAMusicAssistantJukebox/discussions) if you want to request new features and general discussion!",
+        "translatedContent": "新機能のリクエストや一般的な議論は、[Discussions / FeatureRequests](https://github.com/DJS91/HAMusicAssistantJukebox/discussions)へどうぞ！"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+        "originContent": "## Prerequisites",
+        "translatedContent": "## 前提条件"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "IGELD4ocpQ8tN7UuoUrVUkzHP77EylG19pdLPF7aMvs=",
+        "originContent": "Before installing this integration, make sure you have:",
+        "translatedContent": "この統合をインストールする前に、以下を確認してください：  "
+      },
+      {
+        "row": 30,
+        "rowsha": "UUgzFvZUkQ9+FlVltJYbRG4LlZYkJ+pTxzgtjQoXhC0=",
+        "originContent": "- Home Assistant instance with [Music Assistant](https://github.com/music-assistant/hass-music-assistant) integration",
+        "translatedContent": "- [Music Assistant](https://github.com/music-assistant/hass-music-assistant) 統合が導入された Home Assistant インスタンス  "
+      },
+      {
+        "row": 31,
+        "rowsha": "jo2KaE/28lZuKsn07qWqHO0exZXPlaaBvou3ldyud80=",
+        "originContent": "- Music Assistant Server Addon in Home Assistant (Seperately hosted HA/MA instances may not work)",
+        "translatedContent": "- Home Assistant の Music Assistant サーバーアドオン（別ホストの HA/MA インスタンスは動作しない場合があります）  "
+      },
+      {
+        "row": 32,
+        "rowsha": "i8fFqpsWvg4xJ1+MaXmOlIVtI9qUxDvN97GlfoBFpDs=",
+        "originContent": "- A supported music provider configured in Music Assistant (e.g. Spotify, Apple Music, etc.)",
+        "translatedContent": "- Music Assistant に設定された対応音楽プロバイダー（例：Spotify、Apple Music など）  "
+      },
+      {
+        "row": 33,
+        "rowsha": "FN3ZiKqjZs2LU82844+uP1sNGN4J/L3wfsscLmmvOcU=",
+        "originContent": "- Media player entity configured in Home Assistant",
+        "translatedContent": "- Home Assistant に設定されたメディアプレイヤーエンティティ"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "Aq5ATrYouDf5PZPTwD23pAlLQUMAOMHoLVeSNt+OP9U=",
+        "originContent": "### HACS (Recommended)",
+        "translatedContent": "### HACS（推奨）  "
+      },
+      {
+        "row": 38,
+        "rowsha": "NzszujG/qaQMI9iyEuAKhthlsIXbnUSaeJsAOROaM48=",
+        "originContent": "[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DJS91&repository=HAMusicAssistantJukebox&category=Integration)",
+        "translatedContent": "[![Home Assistant インスタンスを開き、Home Assistant Community Store 内でリポジトリを開く](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DJS91&repository=HAMusicAssistantJukebox&category=Integration)"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "cXVRejcLXNLmZOP9KcTqnbXOFwWOuXcv4JClSF5J2tY=",
+        "originContent": "or",
+        "translatedContent": "または"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "1. Add this repository to HACS as a custom repository\n   - HACS > Menu > Custom repositories\n   - URL: `https://github.com/DJS91/HAMusicAssistantJukebox`\n   - Category: Integration\n2. Click Install\n3. Restart Home Assistant\n\n### Manual Installation\n1. Download the latest release\n2. Copy the `custom_components/music_assistant_jukebox` folder to your Home Assistant `custom_components` folder\n3. Restart Home Assistant\n\n## Configuration\n\n1. Go to Settings > Devices & Services\n2. Click \"Add Integration\"\n3. Search for \"Music Assistant Jukebox\"\n4. Select your Music Assistant instance and media player entity\n5. Go to Settings > Automations & Scenes > + Create Automation\n6. Select \"Music Assistant Jukebox Controller\" from the list.\n7. Enter the same media player entity from Step 4 and enter the name of your default playlist from music assistant and click Save.\n\n## Usage\nSwitch on the jukebox using \"JukeBox: Allow access\" switch.\n\nAccess the jukebox via the new \"Music Assistant Jukebox\" Sidebar Panel OR\n\nScan the QR Code entity of choice OR \n\nAccess the jukebox interface directly at:",
+    "ContentSha": "C/eYL9iijmwSixVijJ64byDsb3emq+8jMUy7Y1m+jvU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "1. このリポジトリをHACSにカスタムリポジトリとして追加します\n   - HACS > メニュー > カスタムリポジトリ\n   - URL: `https://github.com/DJS91/HAMusicAssistantJukebox`\n   - カテゴリ: Integration\n2. インストールをクリック\n3. Home Assistantを再起動\n\n### 手動インストール\n1. 最新リリースをダウンロード\n2. `custom_components/music_assistant_jukebox` フォルダをHome Assistantの `custom_components` フォルダにコピー\n3. Home Assistantを再起動\n\n## 設定\n\n1. 設定 > デバイスとサービス に移動\n2. 「インテグレーションを追加」をクリック\n3. 「Music Assistant Jukebox」を検索\n4. Music Assistantのインスタンスとメディアプレイヤーエンティティを選択\n5. 設定 > オートメーションとシーン > ＋オートメーション作成 に移動\n6. リストから「Music Assistant Jukebox Controller」を選択\n7. ステップ4で選択した同じメディアプレイヤーエンティティを入力し、Music Assistantのデフォルトプレイリストの名前を入力して保存をクリック\n\n## 使い方\n「JukeBox: Allow access」スイッチでジュークボックスをオンにします。\n\n新しい「Music Assistant Jukebox」サイドバーパネルからジュークボックスにアクセスするか、\n\n任意のQRコードエンティティをスキャンするか、\n\n直接ジュークボックスインターフェースにアクセスしてください：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "f+cHH4D/odwG8zVjp2BNpjgG4n+6sjExQ8epPb0/HjU=",
+        "originContent": "1. Add this repository to HACS as a custom repository",
+        "translatedContent": "1. このリポジトリをHACSにカスタムリポジトリとして追加します"
+      },
+      {
+        "row": 2,
+        "rowsha": "3qhvyBIt5O6iifVaDokw9hL6VEPJuZ44hrLXdYx3miw=",
+        "originContent": "   - HACS > Menu > Custom repositories",
+        "translatedContent": "   - HACS > メニュー > カスタムリポジトリ"
+      },
+      {
+        "row": 3,
+        "rowsha": "iBuEwA9R3TfiRziUpLKq8wblSLOwdOqZSoqLF3B3aUg=",
+        "originContent": "   - URL: `https://github.com/DJS91/HAMusicAssistantJukebox`",
+        "translatedContent": "   - URL: `https://github.com/DJS91/HAMusicAssistantJukebox`"
+      },
+      {
+        "row": 4,
+        "rowsha": "YkCRgkWFRe4lWERESM2F4XKpmWC92N8MsQsZQbECnhA=",
+        "originContent": "   - Category: Integration",
+        "translatedContent": "   - カテゴリ: Integration"
+      },
+      {
+        "row": 5,
+        "rowsha": "VBGmP2rlMdJG0hcKckvz3RRiQGRu4JBtGf73ekhP9dM=",
+        "originContent": "2. Click Install",
+        "translatedContent": "2. インストールをクリック"
+      },
+      {
+        "row": 6,
+        "rowsha": "6hql401So6UAdLAUTnU7dWYFikv3r/1ZWK/zRwt8FB4=",
+        "originContent": "3. Restart Home Assistant",
+        "translatedContent": "3. Home Assistantを再起動"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "zFp4AHeEmv1K//Saq31Al0AFX5sPI0pcQr+jQf0A/tA=",
+        "originContent": "### Manual Installation",
+        "translatedContent": "### 手動インストール"
+      },
+      {
+        "row": 9,
+        "rowsha": "U2dvimzbdMGizGQ6qVkFXfRhdyXwFex/CDZvj66mVP4=",
+        "originContent": "1. Download the latest release",
+        "translatedContent": "1. 最新リリースをダウンロード"
+      },
+      {
+        "row": 10,
+        "rowsha": "QA7D3IL3GztBadDBLcG5VQYA3dJp9ztKejP+yNu3e1w=",
+        "originContent": "2. Copy the `custom_components/music_assistant_jukebox` folder to your Home Assistant `custom_components` folder",
+        "translatedContent": "2. `custom_components/music_assistant_jukebox` フォルダをHome Assistantの `custom_components` フォルダにコピー"
+      },
+      {
+        "row": 11,
+        "rowsha": "6hql401So6UAdLAUTnU7dWYFikv3r/1ZWK/zRwt8FB4=",
+        "originContent": "3. Restart Home Assistant",
+        "translatedContent": "3. Home Assistantを再起動"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+        "originContent": "## Configuration",
+        "translatedContent": "## 設定"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "W7dl41UN85um8UIBCsEulW8KUdO6YUF1R8K/V+sejeY=",
+        "originContent": "1. Go to Settings > Devices & Services",
+        "translatedContent": "1. 設定 > デバイスとサービス に移動"
+      },
+      {
+        "row": 16,
+        "rowsha": "qt6gvZ7XUrX033FW4nlN6Cq4WTPHDNLSLTmZl+cRkVU=",
+        "originContent": "2. Click \"Add Integration\"",
+        "translatedContent": "2. 「インテグレーションを追加」をクリック"
+      },
+      {
+        "row": 17,
+        "rowsha": "IEWom4YxXQU0kXoP98xE9JK/Au/p7bJDntLVDfhkRV4=",
+        "originContent": "3. Search for \"Music Assistant Jukebox\"",
+        "translatedContent": "3. 「Music Assistant Jukebox」を検索"
+      },
+      {
+        "row": 18,
+        "rowsha": "dKgzw6k1Um8tMMc4GvM2HI4Ee1TVO63SMIb11OCVNQ0=",
+        "originContent": "4. Select your Music Assistant instance and media player entity",
+        "translatedContent": "4. Music Assistantのインスタンスとメディアプレイヤーエンティティを選択"
+      },
+      {
+        "row": 19,
+        "rowsha": "Mv1yxW+lc0cH0kETib70iqsTaH3jSVCLT//xBGI1jRw=",
+        "originContent": "5. Go to Settings > Automations & Scenes > + Create Automation",
+        "translatedContent": "5. 設定 > オートメーションとシーン > ＋オートメーション作成 に移動"
+      },
+      {
+        "row": 20,
+        "rowsha": "ijrR6zEkwOGhhFx/1H4NCFHqCNe5ryMhP/Szf4CZvCY=",
+        "originContent": "6. Select \"Music Assistant Jukebox Controller\" from the list.",
+        "translatedContent": "6. リストから「Music Assistant Jukebox Controller」を選択"
+      },
+      {
+        "row": 21,
+        "rowsha": "x10nxEYeipkJx4jWD9ydobWeDKyag3hoIuPHODbrIfU=",
+        "originContent": "7. Enter the same media player entity from Step 4 and enter the name of your default playlist from music assistant and click Save.",
+        "translatedContent": "7. ステップ4で選択した同じメディアプレイヤーエンティティを入力し、Music Assistantのデフォルトプレイリストの名前を入力して保存をクリック"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使い方"
+      },
+      {
+        "row": 24,
+        "rowsha": "XPc9/1PG8Dt/YF812JOSv0/QpzxXnUz7k7uLPXnQSKY=",
+        "originContent": "Switch on the jukebox using \"JukeBox: Allow access\" switch.",
+        "translatedContent": "「JukeBox: Allow access」スイッチでジュークボックスをオンにします。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "iZAE8EqMJx4+DKOa9e5zNDGceF4rE+/9Y6/giqJ4k6s=",
+        "originContent": "Access the jukebox via the new \"Music Assistant Jukebox\" Sidebar Panel OR",
+        "translatedContent": "新しい「Music Assistant Jukebox」サイドバーパネルからジュークボックスにアクセスするか、"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "WAOLIMzi/6WCTr7qeNcrjZTe3m2uM2tcDFObfWcgpzA=",
+        "originContent": "Scan the QR Code entity of choice OR ",
+        "translatedContent": "任意のQRコードエンティティをスキャンするか、"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "BASN34aqmhj44sBcpgri07RRD4+aDPKoaRqNW+f67I0=",
+        "originContent": "Access the jukebox interface directly at:",
+        "translatedContent": "直接ジュークボックスインターフェースにアクセスしてください："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```\nhttp://homeassistant:8123/local/jukebox/jukebox.html\n```",
+    "ContentSha": "T50zB7cWPQ8TLEvmzRQd3274cQxF/dqC+bilK5nkoJQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nhttp://homeassistant:8123/local/jukebox/jukebox.html\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "7K67km1JCGt+eEJLfo3j8TIyYasDd5cd0PCpZ65+/OY=",
+        "originContent": "http://homeassistant:8123/local/jukebox/jukebox.html",
+        "translatedContent": "http://homeassistant:8123/local/jukebox/jukebox.html"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## Entities\nThe integration adds these entities to Home Assistant:\n\n### Switches\n- `switch.jukebox_queue`: Enable/disable queuing of songs (No manual control required. Managed by automation.)\n- `switch.jukebox_allow_access`: Enable/disable access to the jukebox interface\n- `switch.music_assistant_jukebox_jukebox_play_music_on_start`: Turn on/off if the default playlist plays automatically when the jukbox is turned on.\n  \n### Number\n- `number.jukebox_queue_length`: Shows current queue length (No manual adjustment required, Managed by automation)\n- `number.music_assistant_jukebox_jukebox_queuing_delay`: Set a delay between song requests for guests (seconds) (0 = off)\n  \n### Sensor\n- `music_assistant_jukebox_external_qr_code`: External Jukebox UI Access QR code image for easy sharing on dashboards for users not on your network\n- `music_assistant_jukebox_internal_qr_code`: Internal Jukebox UI Access QR code image for easy sharing for users on your network\n\n## Automation Blueprint\n\nThe integration includes an automation blueprint that handles:\n- Queue length tracking\n- Default playlist fallback\n- Access control\n- Media player control\n\nTo use the blueprint:\n1. Go to Settings > Automations & Scenes\n2. Click \"+ Create Automation\"\n3. Select \"Music Assistant Jukebox Controller\"\n4. Configure:\n   - Media Player: Select your Music Assistant media player\n   - Default Playlist: Enter the name of your fallback playlist\n\n## Credits\nBig thanks to:\n- [OddPirate](https://github.com/TheOddPirate) for their contrubutions to making this into an integration.\n\n- [PilaScat](https://github.com/PilaScat) for their contributions to clean up, polish and UI improvements.\n\n",
+    "ContentSha": "vmjl5DkvhVPbycP7dFnOamG+UmU38A8b+PJ9WuSUB0w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## エンティティ\nこのインテグレーションはHome Assistantに以下のエンティティを追加します：\n\n### スイッチ\n- `switch.jukebox_queue`: 曲のキューイングを有効/無効にします（手動操作不要。オートメーションで管理。）\n- `switch.jukebox_allow_access`: ジュークボックスインターフェースへのアクセスを有効/無効にします\n- `switch.music_assistant_jukebox_jukebox_play_music_on_start`: ジュークボックス起動時にデフォルトプレイリストを自動再生するかどうかをオン/オフします。\n  \n### 数値\n- `number.jukebox_queue_length`: 現在のキューの長さを表示します（手動調整不要、オートメーションで管理）\n- `number.music_assistant_jukebox_jukebox_queuing_delay`: ゲストの曲リクエスト間の遅延を秒単位で設定します（0＝オフ）\n  \n### センサー\n- `music_assistant_jukebox_external_qr_code`: ネットワーク外のユーザー向けにダッシュボードで簡単に共有できる外部ジュークボックスUIアクセス用QRコード画像\n- `music_assistant_jukebox_internal_qr_code`: ネットワーク内のユーザー向けに簡単に共有できる内部ジュークボックスUIアクセス用QRコード画像\n\n## オートメーションブループリント\n\nこのインテグレーションには以下を管理するオートメーションブループリントが含まれています：\n- キュー長の追跡\n- デフォルトプレイリストのフォールバック\n- アクセス制御\n- メディアプレーヤー制御\n\nブループリントの使用方法：\n1. 設定 > オートメーションとシーン に移動\n2. 「+ オートメーションを作成」をクリック\n3. 「Music Assistant Jukebox Controller」を選択\n4. 設定：\n   - メディアプレーヤー：Music Assistantのメディアプレーヤーを選択\n   - デフォルトプレイリスト：フォールバック用プレイリスト名を入力\n\n## クレジット\n大きな感謝を：\n- [OddPirate](https://github.com/TheOddPirate) さん、統合化への貢献に感謝します。\n\n- [PilaScat](https://github.com/PilaScat) さん、クリーンアップ、磨き上げ、UI改善への貢献に感謝します。\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## エンティティ"
+      },
+      {
+        "row": 2,
+        "rowsha": "m20QbzvNF1xHqKe37PjITSvRP/QkAqvVojlobKR5kjE=",
+        "originContent": "## Entities",
+        "translatedContent": "このインテグレーションはHome Assistantに以下のエンティティを追加します："
+      },
+      {
+        "row": 3,
+        "rowsha": "CUazvUQjT2gMIGB1aTbeFwAr1U1ZsNJP7+ACc6c4frw=",
+        "originContent": "The integration adds these entities to Home Assistant:",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### スイッチ"
+      },
+      {
+        "row": 5,
+        "rowsha": "Z4+evvIe72FQlLnWvRdj4gyOl5ZX2i6NJTR4tcrv7SQ=",
+        "originContent": "### Switches",
+        "translatedContent": "- `switch.jukebox_queue`: 曲のキューイングを有効/無効にします（手動操作不要。オートメーションで管理。）"
+      },
+      {
+        "row": 6,
+        "rowsha": "HyxGgNUPSft06gPU8twurmtrXH5OdTiAyC5pMONRhiI=",
+        "originContent": "- `switch.jukebox_queue`: Enable/disable queuing of songs (No manual control required. Managed by automation.)",
+        "translatedContent": "- `switch.jukebox_allow_access`: ジュークボックスインターフェースへのアクセスを有効/無効にします"
+      },
+      {
+        "row": 7,
+        "rowsha": "57rhR/7UDsLvYhN3tKqWeuE1VOzDvz/om3992kQt2fU=",
+        "originContent": "- `switch.jukebox_allow_access`: Enable/disable access to the jukebox interface",
+        "translatedContent": "- `switch.music_assistant_jukebox_jukebox_play_music_on_start`: ジュークボックス起動時にデフォルトプレイリストを自動再生するかどうかをオン/オフします。"
+      },
+      {
+        "row": 8,
+        "rowsha": "ULdj8Cy+rumGU1n6iqRq3qBoqSQha/0Cha3AfvjStus=",
+        "originContent": "- `switch.music_assistant_jukebox_jukebox_play_music_on_start`: Turn on/off if the default playlist plays automatically when the jukbox is turned on.",
+        "translatedContent": "  "
+      },
+      {
+        "row": 9,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "### 数値"
+      },
+      {
+        "row": 10,
+        "rowsha": "Lg7EItIBUL+KAdPTVVMI97W36FCybt78vH/EXkfD1Ro=",
+        "originContent": "### Number",
+        "translatedContent": "- `number.jukebox_queue_length`: 現在のキューの長さを表示します（手動調整不要、オートメーションで管理）"
+      },
+      {
+        "row": 11,
+        "rowsha": "9ssGlVZJHw2JtttoWQQwXkbsKL/W/6aYu3sTjzN/AUY=",
+        "originContent": "- `number.jukebox_queue_length`: Shows current queue length (No manual adjustment required, Managed by automation)",
+        "translatedContent": "- `number.music_assistant_jukebox_jukebox_queuing_delay`: ゲストの曲リクエスト間の遅延を秒単位で設定します（0＝オフ）"
+      },
+      {
+        "row": 12,
+        "rowsha": "Y1L7grJep94/ZMCTe/db4nHFhfUcorwK9Y90oDNb+kM=",
+        "originContent": "- `number.music_assistant_jukebox_jukebox_queuing_delay`: Set a delay between song requests for guests (seconds) (0 = off)",
+        "translatedContent": "  "
+      },
+      {
+        "row": 13,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "### センサー"
+      },
+      {
+        "row": 14,
+        "rowsha": "JsOsLqYf9BHYM96mrgi243tXlnpDgOoCvGFm4fJbY9M=",
+        "originContent": "### Sensor",
+        "translatedContent": "- `music_assistant_jukebox_external_qr_code`: ネットワーク外のユーザー向けにダッシュボードで簡単に共有できる外部ジュークボックスUIアクセス用QRコード画像"
+      },
+      {
+        "row": 15,
+        "rowsha": "1luugbJA4IHmDkSMs/bDtnUbh2CXxBGUd+U5SffC+yY=",
+        "originContent": "- `music_assistant_jukebox_external_qr_code`: External Jukebox UI Access QR code image for easy sharing on dashboards for users not on your network",
+        "translatedContent": "- `music_assistant_jukebox_internal_qr_code`: ネットワーク内のユーザー向けに簡単に共有できる内部ジュークボックスUIアクセス用QRコード画像"
+      },
+      {
+        "row": 16,
+        "rowsha": "X29FSOmitflZJLSt6t5gL6SPV2IHQlqzndlV7nRC5xM=",
+        "originContent": "- `music_assistant_jukebox_internal_qr_code`: Internal Jukebox UI Access QR code image for easy sharing for users on your network",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## オートメーションブループリント"
+      },
+      {
+        "row": 18,
+        "rowsha": "KU8I0mFLWAUv1iI5xJ3PVH+zcZ9Ha1KVB2+U1CCDCHg=",
+        "originContent": "## Automation Blueprint",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "このインテグレーションには以下を管理するオートメーションブループリントが含まれています："
+      },
+      {
+        "row": 20,
+        "rowsha": "VaBeV2L+axzY3v6adZ5Xunobbnr1AxAZP490pXzW8+s=",
+        "originContent": "The integration includes an automation blueprint that handles:",
+        "translatedContent": "- キュー長の追跡"
+      },
+      {
+        "row": 21,
+        "rowsha": "+ZerERo6L00NfWl82WmvGOwaW/h5onAx07KvEULg1OM=",
+        "originContent": "- Queue length tracking",
+        "translatedContent": "- デフォルトプレイリストのフォールバック"
+      },
+      {
+        "row": 22,
+        "rowsha": "P1MbqZh4z+Kfv+zlEA2d0dZD3hYOPw5WaOZ8fp/gnRc=",
+        "originContent": "- Default playlist fallback",
+        "translatedContent": "- アクセス制御"
+      },
+      {
+        "row": 23,
+        "rowsha": "s2/N/k+eraJIU0URMMDZ600PS2x7vAp3GZxYkwt2nOc=",
+        "originContent": "- Access control",
+        "translatedContent": "- メディアプレーヤー制御"
+      },
+      {
+        "row": 24,
+        "rowsha": "PTMucJCQhiM4/Qw1KQkNkRfyVdzImEJrdzg8u94eD0E=",
+        "originContent": "- Media player control",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ブループリントの使用方法："
+      },
+      {
+        "row": 26,
+        "rowsha": "TIIy7eDfZqu2zUd2gxoEUrNLvFyPQtSXsumYPp3DwV0=",
+        "originContent": "To use the blueprint:",
+        "translatedContent": "1. 設定 > オートメーションとシーン に移動"
+      },
+      {
+        "row": 27,
+        "rowsha": "41Twt+wBBIa/VtSKH8Ieocb57WLBZin/zKYFI6ZgtFA=",
+        "originContent": "1. Go to Settings > Automations & Scenes",
+        "translatedContent": "2. 「+ オートメーションを作成」をクリック"
+      },
+      {
+        "row": 28,
+        "rowsha": "Cs73kBEXPBKz/VStT+gM+OmMfBG9WH5mGmVORJwvOqk=",
+        "originContent": "2. Click \"+ Create Automation\"",
+        "translatedContent": "3. 「Music Assistant Jukebox Controller」を選択"
+      },
+      {
+        "row": 29,
+        "rowsha": "vBpwMPGQzdYPMmPAfJfzgc3V6bIGK5d3cgOIdMc5BBQ=",
+        "originContent": "3. Select \"Music Assistant Jukebox Controller\"",
+        "translatedContent": "4. 設定："
+      },
+      {
+        "row": 30,
+        "rowsha": "Ci8r4f0vPKRAj7AkTER4FhGCN3J3y1Lq8GbJN+jqSd4=",
+        "originContent": "4. Configure:",
+        "translatedContent": "   - メディアプレーヤー：Music Assistantのメディアプレーヤーを選択"
+      },
+      {
+        "row": 31,
+        "rowsha": "yCJCO9STqD7Tf2Qq46h4+At7GePDQlc2p8k2AnnohgI=",
+        "originContent": "   - Media Player: Select your Music Assistant media player",
+        "translatedContent": "   - デフォルトプレイリスト：フォールバック用プレイリスト名を入力"
+      },
+      {
+        "row": 32,
+        "rowsha": "Ah0iq9qFYoVYUQ5ZooZ6F/KzVxKwZJT9YusgxJZ9e0c=",
+        "originContent": "   - Default Playlist: Enter the name of your fallback playlist",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## クレジット"
+      },
+      {
+        "row": 34,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "大きな感謝を："
+      },
+      {
+        "row": 35,
+        "rowsha": "7L2eK0ReyOcLP4bVcnUOfoTKpR8qDJsqrJEbb6sNO0c=",
+        "originContent": "Big thanks to:",
+        "translatedContent": "- [OddPirate](https://github.com/TheOddPirate) さん、統合化への貢献に感謝します。"
+      },
+      {
+        "row": 36,
+        "rowsha": "/dU2e5ohaulxf9ryJGtKB3sYo+oRO8Qm9dntimt65ZY=",
+        "originContent": "- [OddPirate](https://github.com/TheOddPirate) for their contrubutions to making this into an integration.",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [PilaScat](https://github.com/PilaScat) さん、クリーンアップ、磨き上げ、UI改善への貢献に感謝します。"
+      },
+      {
+        "row": 38,
+        "rowsha": "zJl6K+nFq8SZ9qtu/r9ZG6AoUSdl6SdOIQyC0RgnxJI=",
+        "originContent": "- [PilaScat](https://github.com/PilaScat) for their contributions to clean up, polish and UI improvements.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

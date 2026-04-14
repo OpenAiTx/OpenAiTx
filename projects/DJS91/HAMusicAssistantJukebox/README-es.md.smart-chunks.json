@@ -1,0 +1,732 @@
+[
+  {
+    "Id": 1,
+    "Content": "# <img src=\"https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/logo.png\" width=\"25\" height=\"25\"> Music Assistant Jukebox Integration (Deprecated)\n\n## Notice: this integration is not longer activly being maintained.\n\nMusic Assistant now has a Plugin that should be used instead and offers much of the same features.\nSee https://beta.music-assistant.io/plugins/party-mode/\n\n---\n\nA Home Assistant integration that provides a web-based song request system that integrates with Music Assistant to create an interactive jukebox experience for guests!\n\n![Jukebox Interface](https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/showcase.avifs)\n\n## Features\n- Real-time song search across all connected Music Assistant providers\n- Minimalist responsive design with album artwork display\n- Check whats Now Playing and Up Next in real time.\n- No login required for guests, just share the URL\n- Queue management through Home Assistant entities\n- Auto queues a default party playlist when the request queue is empty\n- Control queuing frequency (limit queue spamming) \n- Access control through Home Assistant\n- Auto revoking/creating access tokens for security\n\nHead on over to [Discussions / FeatureRequests](https://github.com/DJS91/HAMusicAssistantJukebox/discussions) if you want to request new features and general discussion!\n\n## Prerequisites\n\nBefore installing this integration, make sure you have:\n- Home Assistant instance with [Music Assistant](https://github.com/music-assistant/hass-music-assistant) integration\n- Music Assistant Server Addon in Home Assistant (Seperately hosted HA/MA instances may not work)\n- A supported music provider configured in Music Assistant (e.g. Spotify, Apple Music, etc.)\n- Media player entity configured in Home Assistant\n\n## Installation\n\n### HACS (Recommended)\n[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DJS91&repository=HAMusicAssistantJukebox&category=Integration)\n\nor",
+    "ContentSha": "jH5+X337MKEx7yw/8Q6qgMktxcK8te45CyaPIFzkL6c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# <img src=\"https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/logo.png\" width=\"25\" height=\"25\"> Integración Music Assistant Jukebox (Obsoleta)\n\n## Aviso: esta integración ya no se mantiene activamente.\n\nMusic Assistant ahora tiene un Plugin que debe usarse en su lugar y ofrece muchas de las mismas funciones.  \nVea https://beta.music-assistant.io/plugins/party-mode/\n\n---\n\nUna integración de Home Assistant que proporciona un sistema de solicitud de canciones basado en la web que se integra con Music Assistant para crear una experiencia de jukebox interactiva para los invitados.\n\n![Interfaz Jukebox](https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/showcase.avifs)\n\n## Funciones\n- Búsqueda de canciones en tiempo real en todos los proveedores de Music Assistant conectados  \n- Diseño minimalista y responsive con visualización de la portada del álbum  \n- Consulta lo que se está reproduciendo y lo siguiente en tiempo real.  \n- No se requiere inicio de sesión para los invitados, solo comparte la URL  \n- Gestión de la cola mediante entidades de Home Assistant  \n- Cola automática de una lista de reproducción predeterminada para la fiesta cuando la cola de solicitudes está vacía  \n- Control de la frecuencia de las colas (limita el spam en la cola)  \n- Control de acceso a través de Home Assistant  \n- Revocación/creación automática de tokens de acceso por seguridad\n\nDirígete a [Discusiones / Solicitudes de Funciones](https://github.com/DJS91/HAMusicAssistantJukebox/discussions) si quieres solicitar nuevas funciones o para discusión general.\n\n## Requisitos previos\n\nAntes de instalar esta integración, asegúrate de tener:  \n- Instancia de Home Assistant con la integración [Music Assistant](https://github.com/music-assistant/hass-music-assistant)  \n- Complemento Music Assistant Server en Home Assistant (Instancias HA/MA alojadas por separado pueden no funcionar)  \n- Un proveedor de música compatible configurado en Music Assistant (por ejemplo, Spotify, Apple Music, etc.)  \n- Entidad de reproductor multimedia configurada en Home Assistant\n\n## Instalación\n\n### HACS (Recomendado)  \n[![Abre tu instancia de Home Assistant y abre un repositorio dentro de la Tienda Comunitaria de Home Assistant.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DJS91&repository=HAMusicAssistantJukebox&category=Integration)\n\no",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "AwK5H+SG8N/VUN8dpGxqzh/xtIWQ8IpcBj2d48+XzeM=",
+        "originContent": "# <img src=\"https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/logo.png\" width=\"25\" height=\"25\"> Music Assistant Jukebox Integration (Deprecated)",
+        "translatedContent": "# <img src=\"https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/logo.png\" width=\"25\" height=\"25\"> Integración Music Assistant Jukebox (Obsoleta)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "wHNdQW0LeFT8k+EbVEoiMfgjKYU9l8hpzlAOO7/xLqg=",
+        "originContent": "## Notice: this integration is not longer activly being maintained.",
+        "translatedContent": "## Aviso: esta integración ya no se mantiene activamente."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "K5Fgwht/mEDTYL4gHb+26b+314JM7lB4Vi8bkrfn9tM=",
+        "originContent": "Music Assistant now has a Plugin that should be used instead and offers much of the same features.",
+        "translatedContent": "Music Assistant ahora tiene un Plugin que debe usarse en su lugar y ofrece muchas de las mismas funciones.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "PnhxA03WjdIlbuG4/Hn8m+UaN2GLWs695Shwgl+Aih8=",
+        "originContent": "See https://beta.music-assistant.io/plugins/party-mode/",
+        "translatedContent": "Vea https://beta.music-assistant.io/plugins/party-mode/"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "EcaakahptHdSAzGPw+Our6XGTH9nYUMducvR3ooXRTM=",
+        "originContent": "A Home Assistant integration that provides a web-based song request system that integrates with Music Assistant to create an interactive jukebox experience for guests!",
+        "translatedContent": "Una integración de Home Assistant que proporciona un sistema de solicitud de canciones basado en la web que se integra con Music Assistant para crear una experiencia de jukebox interactiva para los invitados."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "XodAA1tEIKbfJbDd6cCLTEFgtxLxee+OkxJnLrIe5lY=",
+        "originContent": "![Jukebox Interface](https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/showcase.avifs)",
+        "translatedContent": "![Interfaz Jukebox](https://raw.githubusercontent.com/DJS91/HAMusicAssistantJukebox/main/showcase.avifs)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Funciones"
+      },
+      {
+        "row": 15,
+        "rowsha": "k0ExpIBoQrhma//n9cgEbd+ck+e0P2u1MaZ3sm7MCEo=",
+        "originContent": "- Real-time song search across all connected Music Assistant providers",
+        "translatedContent": "- Búsqueda de canciones en tiempo real en todos los proveedores de Music Assistant conectados  "
+      },
+      {
+        "row": 16,
+        "rowsha": "mfDflT10QTRSNzfPy76lqGhX3C2PYanZWa99qNW0S1g=",
+        "originContent": "- Minimalist responsive design with album artwork display",
+        "translatedContent": "- Diseño minimalista y responsive con visualización de la portada del álbum  "
+      },
+      {
+        "row": 17,
+        "rowsha": "3g5WhFKZMhyA/m5kYZ2e5DCKj5UtE1Kod5FLLsZI5cM=",
+        "originContent": "- Check whats Now Playing and Up Next in real time.",
+        "translatedContent": "- Consulta lo que se está reproduciendo y lo siguiente en tiempo real.  "
+      },
+      {
+        "row": 18,
+        "rowsha": "sOCm7xpWH6bOELVWuKlOlekKjUlZnAYabX4JWVuAIYo=",
+        "originContent": "- No login required for guests, just share the URL",
+        "translatedContent": "- No se requiere inicio de sesión para los invitados, solo comparte la URL  "
+      },
+      {
+        "row": 19,
+        "rowsha": "PoncwxfftwZAYMXAWhvF/3pLau2jNmDiknUnVt4zLNk=",
+        "originContent": "- Queue management through Home Assistant entities",
+        "translatedContent": "- Gestión de la cola mediante entidades de Home Assistant  "
+      },
+      {
+        "row": 20,
+        "rowsha": "y6imd/dGz78fjtTKmgzRIARdVV0VuhJZUGqZlJWMOMA=",
+        "originContent": "- Auto queues a default party playlist when the request queue is empty",
+        "translatedContent": "- Cola automática de una lista de reproducción predeterminada para la fiesta cuando la cola de solicitudes está vacía  "
+      },
+      {
+        "row": 21,
+        "rowsha": "8q7p3o/JvMf8OlHNkIO1FwRf239QEmWjqgqj+tHXYR8=",
+        "originContent": "- Control queuing frequency (limit queue spamming) ",
+        "translatedContent": "- Control de la frecuencia de las colas (limita el spam en la cola)  "
+      },
+      {
+        "row": 22,
+        "rowsha": "+W8emJTLGzo/V/d7Ju4ozsJomiQT6OBDJdDepqkNRYw=",
+        "originContent": "- Access control through Home Assistant",
+        "translatedContent": "- Control de acceso a través de Home Assistant  "
+      },
+      {
+        "row": 23,
+        "rowsha": "pEv2mQ5FJfrW3gUsYjJHSzwr9PIuTKgTPnhCpW4aeF8=",
+        "originContent": "- Auto revoking/creating access tokens for security",
+        "translatedContent": "- Revocación/creación automática de tokens de acceso por seguridad"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "/6qXKHIbZQgYxDz3Om3txl78pIBXyD6qpXHkOmZp36A=",
+        "originContent": "Head on over to [Discussions / FeatureRequests](https://github.com/DJS91/HAMusicAssistantJukebox/discussions) if you want to request new features and general discussion!",
+        "translatedContent": "Dirígete a [Discusiones / Solicitudes de Funciones](https://github.com/DJS91/HAMusicAssistantJukebox/discussions) si quieres solicitar nuevas funciones o para discusión general."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+        "originContent": "## Prerequisites",
+        "translatedContent": "## Requisitos previos"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "IGELD4ocpQ8tN7UuoUrVUkzHP77EylG19pdLPF7aMvs=",
+        "originContent": "Before installing this integration, make sure you have:",
+        "translatedContent": "Antes de instalar esta integración, asegúrate de tener:  "
+      },
+      {
+        "row": 30,
+        "rowsha": "UUgzFvZUkQ9+FlVltJYbRG4LlZYkJ+pTxzgtjQoXhC0=",
+        "originContent": "- Home Assistant instance with [Music Assistant](https://github.com/music-assistant/hass-music-assistant) integration",
+        "translatedContent": "- Instancia de Home Assistant con la integración [Music Assistant](https://github.com/music-assistant/hass-music-assistant)  "
+      },
+      {
+        "row": 31,
+        "rowsha": "jo2KaE/28lZuKsn07qWqHO0exZXPlaaBvou3ldyud80=",
+        "originContent": "- Music Assistant Server Addon in Home Assistant (Seperately hosted HA/MA instances may not work)",
+        "translatedContent": "- Complemento Music Assistant Server en Home Assistant (Instancias HA/MA alojadas por separado pueden no funcionar)  "
+      },
+      {
+        "row": 32,
+        "rowsha": "i8fFqpsWvg4xJ1+MaXmOlIVtI9qUxDvN97GlfoBFpDs=",
+        "originContent": "- A supported music provider configured in Music Assistant (e.g. Spotify, Apple Music, etc.)",
+        "translatedContent": "- Un proveedor de música compatible configurado en Music Assistant (por ejemplo, Spotify, Apple Music, etc.)  "
+      },
+      {
+        "row": 33,
+        "rowsha": "FN3ZiKqjZs2LU82844+uP1sNGN4J/L3wfsscLmmvOcU=",
+        "originContent": "- Media player entity configured in Home Assistant",
+        "translatedContent": "- Entidad de reproductor multimedia configurada en Home Assistant"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Instalación"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "Aq5ATrYouDf5PZPTwD23pAlLQUMAOMHoLVeSNt+OP9U=",
+        "originContent": "### HACS (Recommended)",
+        "translatedContent": "### HACS (Recomendado)  "
+      },
+      {
+        "row": 38,
+        "rowsha": "NzszujG/qaQMI9iyEuAKhthlsIXbnUSaeJsAOROaM48=",
+        "originContent": "[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DJS91&repository=HAMusicAssistantJukebox&category=Integration)",
+        "translatedContent": "[![Abre tu instancia de Home Assistant y abre un repositorio dentro de la Tienda Comunitaria de Home Assistant.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DJS91&repository=HAMusicAssistantJukebox&category=Integration)"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "cXVRejcLXNLmZOP9KcTqnbXOFwWOuXcv4JClSF5J2tY=",
+        "originContent": "or",
+        "translatedContent": "o"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "1. Add this repository to HACS as a custom repository\n   - HACS > Menu > Custom repositories\n   - URL: `https://github.com/DJS91/HAMusicAssistantJukebox`\n   - Category: Integration\n2. Click Install\n3. Restart Home Assistant\n\n### Manual Installation\n1. Download the latest release\n2. Copy the `custom_components/music_assistant_jukebox` folder to your Home Assistant `custom_components` folder\n3. Restart Home Assistant\n\n## Configuration\n\n1. Go to Settings > Devices & Services\n2. Click \"Add Integration\"\n3. Search for \"Music Assistant Jukebox\"\n4. Select your Music Assistant instance and media player entity\n5. Go to Settings > Automations & Scenes > + Create Automation\n6. Select \"Music Assistant Jukebox Controller\" from the list.\n7. Enter the same media player entity from Step 4 and enter the name of your default playlist from music assistant and click Save.\n\n## Usage\nSwitch on the jukebox using \"JukeBox: Allow access\" switch.\n\nAccess the jukebox via the new \"Music Assistant Jukebox\" Sidebar Panel OR\n\nScan the QR Code entity of choice OR \n\nAccess the jukebox interface directly at:",
+    "ContentSha": "C/eYL9iijmwSixVijJ64byDsb3emq+8jMUy7Y1m+jvU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "1. Añade este repositorio a HACS como un repositorio personalizado  \n   - HACS > Menú > Repositorios personalizados  \n   - URL: `https://github.com/DJS91/HAMusicAssistantJukebox`  \n   - Categoría: Integración  \n2. Haz clic en Instalar  \n3. Reinicia Home Assistant  \n\n### Instalación Manual  \n1. Descarga la última versión  \n2. Copia la carpeta `custom_components/music_assistant_jukebox` en la carpeta `custom_components` de tu Home Assistant  \n3. Reinicia Home Assistant  \n\n## Configuración  \n\n1. Ve a Configuración > Dispositivos y Servicios  \n2. Haz clic en \"Agregar Integración\"  \n3. Busca \"Music Assistant Jukebox\"  \n4. Selecciona tu instancia de Music Assistant y la entidad del reproductor multimedia  \n5. Ve a Configuración > Automatizaciones y Escenas > + Crear Automatización  \n6. Selecciona \"Controlador Music Assistant Jukebox\" de la lista.  \n7. Introduce la misma entidad del reproductor multimedia del Paso 4 e ingresa el nombre de tu lista de reproducción predeterminada de Music Assistant y haz clic en Guardar.  \n\n## Uso  \nEnciende el jukebox usando el interruptor \"JukeBox: Permitir acceso\".  \n\nAccede al jukebox a través del nuevo Panel Lateral \"Music Assistant Jukebox\" O  \n\nEscanea la entidad del Código QR que prefieras O  \n\nAccede directamente a la interfaz del jukebox en:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "f+cHH4D/odwG8zVjp2BNpjgG4n+6sjExQ8epPb0/HjU=",
+        "originContent": "1. Add this repository to HACS as a custom repository",
+        "translatedContent": "1. Añade este repositorio a HACS como un repositorio personalizado  "
+      },
+      {
+        "row": 2,
+        "rowsha": "3qhvyBIt5O6iifVaDokw9hL6VEPJuZ44hrLXdYx3miw=",
+        "originContent": "   - HACS > Menu > Custom repositories",
+        "translatedContent": "   - HACS > Menú > Repositorios personalizados  "
+      },
+      {
+        "row": 3,
+        "rowsha": "iBuEwA9R3TfiRziUpLKq8wblSLOwdOqZSoqLF3B3aUg=",
+        "originContent": "   - URL: `https://github.com/DJS91/HAMusicAssistantJukebox`",
+        "translatedContent": "   - URL: `https://github.com/DJS91/HAMusicAssistantJukebox`  "
+      },
+      {
+        "row": 4,
+        "rowsha": "YkCRgkWFRe4lWERESM2F4XKpmWC92N8MsQsZQbECnhA=",
+        "originContent": "   - Category: Integration",
+        "translatedContent": "   - Categoría: Integración  "
+      },
+      {
+        "row": 5,
+        "rowsha": "VBGmP2rlMdJG0hcKckvz3RRiQGRu4JBtGf73ekhP9dM=",
+        "originContent": "2. Click Install",
+        "translatedContent": "2. Haz clic en Instalar  "
+      },
+      {
+        "row": 6,
+        "rowsha": "6hql401So6UAdLAUTnU7dWYFikv3r/1ZWK/zRwt8FB4=",
+        "originContent": "3. Restart Home Assistant",
+        "translatedContent": "3. Reinicia Home Assistant  "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "zFp4AHeEmv1K//Saq31Al0AFX5sPI0pcQr+jQf0A/tA=",
+        "originContent": "### Manual Installation",
+        "translatedContent": "### Instalación Manual  "
+      },
+      {
+        "row": 9,
+        "rowsha": "U2dvimzbdMGizGQ6qVkFXfRhdyXwFex/CDZvj66mVP4=",
+        "originContent": "1. Download the latest release",
+        "translatedContent": "1. Descarga la última versión  "
+      },
+      {
+        "row": 10,
+        "rowsha": "QA7D3IL3GztBadDBLcG5VQYA3dJp9ztKejP+yNu3e1w=",
+        "originContent": "2. Copy the `custom_components/music_assistant_jukebox` folder to your Home Assistant `custom_components` folder",
+        "translatedContent": "2. Copia la carpeta `custom_components/music_assistant_jukebox` en la carpeta `custom_components` de tu Home Assistant  "
+      },
+      {
+        "row": 11,
+        "rowsha": "6hql401So6UAdLAUTnU7dWYFikv3r/1ZWK/zRwt8FB4=",
+        "originContent": "3. Restart Home Assistant",
+        "translatedContent": "3. Reinicia Home Assistant  "
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+        "originContent": "## Configuration",
+        "translatedContent": "## Configuración  "
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "W7dl41UN85um8UIBCsEulW8KUdO6YUF1R8K/V+sejeY=",
+        "originContent": "1. Go to Settings > Devices & Services",
+        "translatedContent": "1. Ve a Configuración > Dispositivos y Servicios  "
+      },
+      {
+        "row": 16,
+        "rowsha": "qt6gvZ7XUrX033FW4nlN6Cq4WTPHDNLSLTmZl+cRkVU=",
+        "originContent": "2. Click \"Add Integration\"",
+        "translatedContent": "2. Haz clic en \"Agregar Integración\"  "
+      },
+      {
+        "row": 17,
+        "rowsha": "IEWom4YxXQU0kXoP98xE9JK/Au/p7bJDntLVDfhkRV4=",
+        "originContent": "3. Search for \"Music Assistant Jukebox\"",
+        "translatedContent": "3. Busca \"Music Assistant Jukebox\"  "
+      },
+      {
+        "row": 18,
+        "rowsha": "dKgzw6k1Um8tMMc4GvM2HI4Ee1TVO63SMIb11OCVNQ0=",
+        "originContent": "4. Select your Music Assistant instance and media player entity",
+        "translatedContent": "4. Selecciona tu instancia de Music Assistant y la entidad del reproductor multimedia  "
+      },
+      {
+        "row": 19,
+        "rowsha": "Mv1yxW+lc0cH0kETib70iqsTaH3jSVCLT//xBGI1jRw=",
+        "originContent": "5. Go to Settings > Automations & Scenes > + Create Automation",
+        "translatedContent": "5. Ve a Configuración > Automatizaciones y Escenas > + Crear Automatización  "
+      },
+      {
+        "row": 20,
+        "rowsha": "ijrR6zEkwOGhhFx/1H4NCFHqCNe5ryMhP/Szf4CZvCY=",
+        "originContent": "6. Select \"Music Assistant Jukebox Controller\" from the list.",
+        "translatedContent": "6. Selecciona \"Controlador Music Assistant Jukebox\" de la lista.  "
+      },
+      {
+        "row": 21,
+        "rowsha": "x10nxEYeipkJx4jWD9ydobWeDKyag3hoIuPHODbrIfU=",
+        "originContent": "7. Enter the same media player entity from Step 4 and enter the name of your default playlist from music assistant and click Save.",
+        "translatedContent": "7. Introduce la misma entidad del reproductor multimedia del Paso 4 e ingresa el nombre de tu lista de reproducción predeterminada de Music Assistant y haz clic en Guardar.  "
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Uso  "
+      },
+      {
+        "row": 24,
+        "rowsha": "XPc9/1PG8Dt/YF812JOSv0/QpzxXnUz7k7uLPXnQSKY=",
+        "originContent": "Switch on the jukebox using \"JukeBox: Allow access\" switch.",
+        "translatedContent": "Enciende el jukebox usando el interruptor \"JukeBox: Permitir acceso\".  "
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "iZAE8EqMJx4+DKOa9e5zNDGceF4rE+/9Y6/giqJ4k6s=",
+        "originContent": "Access the jukebox via the new \"Music Assistant Jukebox\" Sidebar Panel OR",
+        "translatedContent": "Accede al jukebox a través del nuevo Panel Lateral \"Music Assistant Jukebox\" O  "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "WAOLIMzi/6WCTr7qeNcrjZTe3m2uM2tcDFObfWcgpzA=",
+        "originContent": "Scan the QR Code entity of choice OR ",
+        "translatedContent": "Escanea la entidad del Código QR que prefieras O  "
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "BASN34aqmhj44sBcpgri07RRD4+aDPKoaRqNW+f67I0=",
+        "originContent": "Access the jukebox interface directly at:",
+        "translatedContent": "Accede directamente a la interfaz del jukebox en:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```\nhttp://homeassistant:8123/local/jukebox/jukebox.html\n```",
+    "ContentSha": "T50zB7cWPQ8TLEvmzRQd3274cQxF/dqC+bilK5nkoJQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nhttp://homeassistant:8123/local/jukebox/jukebox.html\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "7K67km1JCGt+eEJLfo3j8TIyYasDd5cd0PCpZ65+/OY=",
+        "originContent": "http://homeassistant:8123/local/jukebox/jukebox.html",
+        "translatedContent": "http://homeassistant:8123/local/jukebox/jukebox.html"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## Entities\nThe integration adds these entities to Home Assistant:\n\n### Switches\n- `switch.jukebox_queue`: Enable/disable queuing of songs (No manual control required. Managed by automation.)\n- `switch.jukebox_allow_access`: Enable/disable access to the jukebox interface\n- `switch.music_assistant_jukebox_jukebox_play_music_on_start`: Turn on/off if the default playlist plays automatically when the jukbox is turned on.\n  \n### Number\n- `number.jukebox_queue_length`: Shows current queue length (No manual adjustment required, Managed by automation)\n- `number.music_assistant_jukebox_jukebox_queuing_delay`: Set a delay between song requests for guests (seconds) (0 = off)\n  \n### Sensor\n- `music_assistant_jukebox_external_qr_code`: External Jukebox UI Access QR code image for easy sharing on dashboards for users not on your network\n- `music_assistant_jukebox_internal_qr_code`: Internal Jukebox UI Access QR code image for easy sharing for users on your network\n\n## Automation Blueprint\n\nThe integration includes an automation blueprint that handles:\n- Queue length tracking\n- Default playlist fallback\n- Access control\n- Media player control\n\nTo use the blueprint:\n1. Go to Settings > Automations & Scenes\n2. Click \"+ Create Automation\"\n3. Select \"Music Assistant Jukebox Controller\"\n4. Configure:\n   - Media Player: Select your Music Assistant media player\n   - Default Playlist: Enter the name of your fallback playlist\n\n## Credits\nBig thanks to:\n- [OddPirate](https://github.com/TheOddPirate) for their contrubutions to making this into an integration.\n\n- [PilaScat](https://github.com/PilaScat) for their contributions to clean up, polish and UI improvements.\n\n",
+    "ContentSha": "vmjl5DkvhVPbycP7dFnOamG+UmU38A8b+PJ9WuSUB0w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Entidades\nLa integración añade estas entidades a Home Assistant:\n\n### Interruptores\n- `switch.jukebox_queue`: Activar/desactivar la cola de canciones (No se requiere control manual. Gestionado por automatización.)\n- `switch.jukebox_allow_access`: Activar/desactivar el acceso a la interfaz del jukebox\n- `switch.music_assistant_jukebox_jukebox_play_music_on_start`: Activar/desactivar si la lista de reproducción predeterminada se reproduce automáticamente al encender el jukebox.\n  \n### Número\n- `number.jukebox_queue_length`: Muestra la longitud actual de la cola (No se requiere ajuste manual, gestionado por automatización)\n- `number.music_assistant_jukebox_jukebox_queuing_delay`: Establece un retraso entre las solicitudes de canciones para invitados (segundos) (0 = desactivado)\n  \n### Sensor\n- `music_assistant_jukebox_external_qr_code`: Código QR de acceso a la interfaz externa del Jukebox para compartir fácilmente en paneles con usuarios que no estén en tu red\n- `music_assistant_jukebox_internal_qr_code`: Código QR de acceso a la interfaz interna del Jukebox para compartir fácilmente con usuarios en tu red\n\n## Plano de Automatización\n\nLa integración incluye un plano de automatización que gestiona:\n- Seguimiento de la longitud de la cola\n- Reproducción de lista predeterminada como respaldo\n- Control de acceso\n- Control del reproductor multimedia\n\nPara usar el plano:\n1. Ve a Configuración > Automatizaciones y Escenas\n2. Haz clic en \"+ Crear Automatización\"\n3. Selecciona \"Controlador de Jukebox de Music Assistant\"\n4. Configura:\n   - Reproductor Multimedia: Selecciona tu reproductor multimedia de Music Assistant\n   - Lista Predeterminada: Ingresa el nombre de tu lista de reproducción de respaldo\n\n## Créditos\nUn gran agradecimiento a:\n- [OddPirate](https://github.com/TheOddPirate) por sus contribuciones para convertir esto en una integración.\n\n- [PilaScat](https://github.com/PilaScat) por sus contribuciones en limpieza, pulido y mejoras de la interfaz.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "m20QbzvNF1xHqKe37PjITSvRP/QkAqvVojlobKR5kjE=",
+        "originContent": "## Entities",
+        "translatedContent": "## Entidades"
+      },
+      {
+        "row": 3,
+        "rowsha": "CUazvUQjT2gMIGB1aTbeFwAr1U1ZsNJP7+ACc6c4frw=",
+        "originContent": "The integration adds these entities to Home Assistant:",
+        "translatedContent": "La integración añade estas entidades a Home Assistant:"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Z4+evvIe72FQlLnWvRdj4gyOl5ZX2i6NJTR4tcrv7SQ=",
+        "originContent": "### Switches",
+        "translatedContent": "### Interruptores"
+      },
+      {
+        "row": 6,
+        "rowsha": "HyxGgNUPSft06gPU8twurmtrXH5OdTiAyC5pMONRhiI=",
+        "originContent": "- `switch.jukebox_queue`: Enable/disable queuing of songs (No manual control required. Managed by automation.)",
+        "translatedContent": "- `switch.jukebox_queue`: Activar/desactivar la cola de canciones (No se requiere control manual. Gestionado por automatización.)"
+      },
+      {
+        "row": 7,
+        "rowsha": "57rhR/7UDsLvYhN3tKqWeuE1VOzDvz/om3992kQt2fU=",
+        "originContent": "- `switch.jukebox_allow_access`: Enable/disable access to the jukebox interface",
+        "translatedContent": "- `switch.jukebox_allow_access`: Activar/desactivar el acceso a la interfaz del jukebox"
+      },
+      {
+        "row": 8,
+        "rowsha": "ULdj8Cy+rumGU1n6iqRq3qBoqSQha/0Cha3AfvjStus=",
+        "originContent": "- `switch.music_assistant_jukebox_jukebox_play_music_on_start`: Turn on/off if the default playlist plays automatically when the jukbox is turned on.",
+        "translatedContent": "- `switch.music_assistant_jukebox_jukebox_play_music_on_start`: Activar/desactivar si la lista de reproducción predeterminada se reproduce automáticamente al encender el jukebox."
+      },
+      {
+        "row": 9,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 10,
+        "rowsha": "Lg7EItIBUL+KAdPTVVMI97W36FCybt78vH/EXkfD1Ro=",
+        "originContent": "### Number",
+        "translatedContent": "### Número"
+      },
+      {
+        "row": 11,
+        "rowsha": "9ssGlVZJHw2JtttoWQQwXkbsKL/W/6aYu3sTjzN/AUY=",
+        "originContent": "- `number.jukebox_queue_length`: Shows current queue length (No manual adjustment required, Managed by automation)",
+        "translatedContent": "- `number.jukebox_queue_length`: Muestra la longitud actual de la cola (No se requiere ajuste manual, gestionado por automatización)"
+      },
+      {
+        "row": 12,
+        "rowsha": "Y1L7grJep94/ZMCTe/db4nHFhfUcorwK9Y90oDNb+kM=",
+        "originContent": "- `number.music_assistant_jukebox_jukebox_queuing_delay`: Set a delay between song requests for guests (seconds) (0 = off)",
+        "translatedContent": "- `number.music_assistant_jukebox_jukebox_queuing_delay`: Establece un retraso entre las solicitudes de canciones para invitados (segundos) (0 = desactivado)"
+      },
+      {
+        "row": 13,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 14,
+        "rowsha": "JsOsLqYf9BHYM96mrgi243tXlnpDgOoCvGFm4fJbY9M=",
+        "originContent": "### Sensor",
+        "translatedContent": "### Sensor"
+      },
+      {
+        "row": 15,
+        "rowsha": "1luugbJA4IHmDkSMs/bDtnUbh2CXxBGUd+U5SffC+yY=",
+        "originContent": "- `music_assistant_jukebox_external_qr_code`: External Jukebox UI Access QR code image for easy sharing on dashboards for users not on your network",
+        "translatedContent": "- `music_assistant_jukebox_external_qr_code`: Código QR de acceso a la interfaz externa del Jukebox para compartir fácilmente en paneles con usuarios que no estén en tu red"
+      },
+      {
+        "row": 16,
+        "rowsha": "X29FSOmitflZJLSt6t5gL6SPV2IHQlqzndlV7nRC5xM=",
+        "originContent": "- `music_assistant_jukebox_internal_qr_code`: Internal Jukebox UI Access QR code image for easy sharing for users on your network",
+        "translatedContent": "- `music_assistant_jukebox_internal_qr_code`: Código QR de acceso a la interfaz interna del Jukebox para compartir fácilmente con usuarios en tu red"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "KU8I0mFLWAUv1iI5xJ3PVH+zcZ9Ha1KVB2+U1CCDCHg=",
+        "originContent": "## Automation Blueprint",
+        "translatedContent": "## Plano de Automatización"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "VaBeV2L+axzY3v6adZ5Xunobbnr1AxAZP490pXzW8+s=",
+        "originContent": "The integration includes an automation blueprint that handles:",
+        "translatedContent": "La integración incluye un plano de automatización que gestiona:"
+      },
+      {
+        "row": 21,
+        "rowsha": "+ZerERo6L00NfWl82WmvGOwaW/h5onAx07KvEULg1OM=",
+        "originContent": "- Queue length tracking",
+        "translatedContent": "- Seguimiento de la longitud de la cola"
+      },
+      {
+        "row": 22,
+        "rowsha": "P1MbqZh4z+Kfv+zlEA2d0dZD3hYOPw5WaOZ8fp/gnRc=",
+        "originContent": "- Default playlist fallback",
+        "translatedContent": "- Reproducción de lista predeterminada como respaldo"
+      },
+      {
+        "row": 23,
+        "rowsha": "s2/N/k+eraJIU0URMMDZ600PS2x7vAp3GZxYkwt2nOc=",
+        "originContent": "- Access control",
+        "translatedContent": "- Control de acceso"
+      },
+      {
+        "row": 24,
+        "rowsha": "PTMucJCQhiM4/Qw1KQkNkRfyVdzImEJrdzg8u94eD0E=",
+        "originContent": "- Media player control",
+        "translatedContent": "- Control del reproductor multimedia"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "TIIy7eDfZqu2zUd2gxoEUrNLvFyPQtSXsumYPp3DwV0=",
+        "originContent": "To use the blueprint:",
+        "translatedContent": "Para usar el plano:"
+      },
+      {
+        "row": 27,
+        "rowsha": "41Twt+wBBIa/VtSKH8Ieocb57WLBZin/zKYFI6ZgtFA=",
+        "originContent": "1. Go to Settings > Automations & Scenes",
+        "translatedContent": "1. Ve a Configuración > Automatizaciones y Escenas"
+      },
+      {
+        "row": 28,
+        "rowsha": "Cs73kBEXPBKz/VStT+gM+OmMfBG9WH5mGmVORJwvOqk=",
+        "originContent": "2. Click \"+ Create Automation\"",
+        "translatedContent": "2. Haz clic en \"+ Crear Automatización\""
+      },
+      {
+        "row": 29,
+        "rowsha": "vBpwMPGQzdYPMmPAfJfzgc3V6bIGK5d3cgOIdMc5BBQ=",
+        "originContent": "3. Select \"Music Assistant Jukebox Controller\"",
+        "translatedContent": "3. Selecciona \"Controlador de Jukebox de Music Assistant\""
+      },
+      {
+        "row": 30,
+        "rowsha": "Ci8r4f0vPKRAj7AkTER4FhGCN3J3y1Lq8GbJN+jqSd4=",
+        "originContent": "4. Configure:",
+        "translatedContent": "4. Configura:"
+      },
+      {
+        "row": 31,
+        "rowsha": "yCJCO9STqD7Tf2Qq46h4+At7GePDQlc2p8k2AnnohgI=",
+        "originContent": "   - Media Player: Select your Music Assistant media player",
+        "translatedContent": "   - Reproductor Multimedia: Selecciona tu reproductor multimedia de Music Assistant"
+      },
+      {
+        "row": 32,
+        "rowsha": "Ah0iq9qFYoVYUQ5ZooZ6F/KzVxKwZJT9YusgxJZ9e0c=",
+        "originContent": "   - Default Playlist: Enter the name of your fallback playlist",
+        "translatedContent": "   - Lista Predeterminada: Ingresa el nombre de tu lista de reproducción de respaldo"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "## Créditos"
+      },
+      {
+        "row": 35,
+        "rowsha": "7L2eK0ReyOcLP4bVcnUOfoTKpR8qDJsqrJEbb6sNO0c=",
+        "originContent": "Big thanks to:",
+        "translatedContent": "Un gran agradecimiento a:"
+      },
+      {
+        "row": 36,
+        "rowsha": "/dU2e5ohaulxf9ryJGtKB3sYo+oRO8Qm9dntimt65ZY=",
+        "originContent": "- [OddPirate](https://github.com/TheOddPirate) for their contrubutions to making this into an integration.",
+        "translatedContent": "- [OddPirate](https://github.com/TheOddPirate) por sus contribuciones para convertir esto en una integración."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "zJl6K+nFq8SZ9qtu/r9ZG6AoUSdl6SdOIQyC0RgnxJI=",
+        "originContent": "- [PilaScat](https://github.com/PilaScat) for their contributions to clean up, polish and UI improvements.",
+        "translatedContent": "- [PilaScat](https://github.com/PilaScat) por sus contribuciones en limpieza, pulido y mejoras de la interfaz."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
