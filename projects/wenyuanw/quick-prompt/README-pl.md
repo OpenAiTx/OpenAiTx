@@ -1,4 +1,4 @@
-# Szybka Podpowiedź
+# Quick Prompt
 
 <div align="right">
   <details>
@@ -34,92 +34,88 @@
   <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
 </p>
 
-Potężne rozszerzenie przeglądarki skupiające się na zarządzaniu podpowiedziami i szybkim wprowadzaniu tekstu. Pomaga użytkownikom tworzyć, zarządzać i organizować bazę podpowiedzi oraz błyskawicznie wstawiać przygotowane treści Prompt w dowolnym polu tekstowym na stronie internetowej, zwiększając wydajność pracy.
+Potężne rozszerzenie do przeglądarki, skoncentrowane na zarządzaniu promptami oraz szybkim wprowadzaniu tekstu. Pomaga użytkownikom tworzyć, zarządzać i organizować bazę promptów oraz błyskawicznie wstawiać zapisane treści Prompt do dowolnego pola tekstowego na stronie, zwiększając efektywność pracy.
 
-> Ponieważ wtyczka przeglądarki działa tylko w wersji webowej, udostępniłem także [wtyczkę Raycast](https://github.com/wenyuanw/quick-prompt-raycast) o tych samych funkcjach, kompatybilną z formatem danych rozszerzenia przeglądarki i obsługującą płynne przenoszenie danych JSON.
+> Ponieważ wtyczka do przeglądarki działa tylko w środowisku webowym, udostępniono otwarty [plugin Raycast](https://github.com/wenyuanw/quick-prompt-raycast) o identycznej funkcjonalności, kompatybilny z formatem danych rozszerzenia, umożliwiający bezproblemową migrację za pomocą tych samych danych JSON.
 
 ## ✨ Funkcje
 
-- 📚 **Zarządzanie podpowiedziami**: Wygodne tworzenie, edycja i organizacja własnej bazy podpowiedzi
-- 🚀 **Szybkie wprowadzanie**: W każdym polu tekstowym na stronie wpisz `/p`, aby szybko wywołać selektor podpowiedzi
-- ⌨️ Obsługa skrótów klawiszowych do otwierania selektora podpowiedzi i zapisywania zaznaczonego tekstu jako podpowiedzi
-- 📑 Obsługa menu kontekstowego (prawy przycisk myszy) do bezpośredniego zapisu zaznaczonego tekstu jako podpowiedzi
-- 🎯 Obsługa własnych podpowiedzi, w tym kategorie, tytuły, treść, tagi oraz zmienne
-- 🧑‍💻 **Obsługa zmiennych**: W podpowiedziach możesz użyć zmiennych w formacie `{{nazwa_zmiennej}}`, a podczas użycia podać ich wartość
-- 💾 **Kopia zapasowa danych**: Możliwość eksportu i importu bazy podpowiedzi, ułatwiając migrację i kopie zapasowe między urządzeniami
-- 🔗 **Synchronizacja z Notion**: Możliwość synchronizacji bazy podpowiedzi z bazą danych Notion
-- 🔍 Obsługa wyszukiwania i filtrowania podpowiedzi
-- 🌙 Automatyczne dopasowanie do jasnego i ciemnego motywu systemowego
+- 📚 **Zarządzanie promptami**: Wygodne tworzenie, edytowanie i zarządzanie własną biblioteką promptów
+- 🚀 **Szybkie wprowadzanie**: W dowolnym polu tekstowym na stronie wywołaj selektor promptów wpisując `/p`
+- ⌨️ Obsługa konfigurowalnych skrótów klawiszowych do otwierania selektora promptów i zapisywania zaznaczonego tekstu jako promptu
+- 📑 Obsługa zapisywania zaznaczonego tekstu jako prompt poprzez menu kontekstowe (prawy przycisk myszy)
+- 🎯 Obsługa własnych promptów, w tym kategoryzacji, tytułu, treści, tagów i zmiennych
+- 🧑‍💻 **Wsparcie zmiennych**: Możliwość używania zmiennych w formacie `{{nazwa_zmiennej}}` w promptach i podawania ich wartości podczas użycia
+- 💾 **Kopia zapasowa danych**: Eksport i import bazy promptów, łatwa migracja i kopia zapasowa między urządzeniami
+- 🔗 **Synchronizacja w chmurze**: Możliwość synchronizacji bazy promptów z bazą Notion lub Gitee/GitHub Gist
+- 🔍 Wyszukiwanie i filtrowanie promptów
+- 🌙 Automatyczne dostosowanie do trybu jasnego/ciemnego systemu
 
-## ⚠️ Znane problemy
+## 🚀 Sposób użycia
 
-- Na stronie Doubao (doubao.com), po wywołaniu selektora podpowiedzi przez `/p`, w niektórych polach tekstowych `/p` nie zostaje usunięte. Bez obaw, ja i mój stary kompan Cursor pracujemy dniami i nocami nad rozwiązaniem i postaramy się naprawić to jak najszybciej!
-
-## 🚀 Jak używać
-
-1. **Szybkie wywołanie**: Wpisz `/p` w dowolnym polu tekstowym na stronie, aby wywołać selektor podpowiedzi
-2. **Skrót klawiszowy do selektora**: Użyj `Ctrl+Shift+P` (Windows/Linux) lub `Command+Shift+P` (macOS), aby otworzyć selektor podpowiedzi
-3. **Wybierz podpowiedź**: Kliknij potrzebną podpowiedź w wyświetlonym selektorze; zostanie ona automatycznie wstawiona do bieżącego pola tekstowego
-4. **Szybkie zapisywanie podpowiedzi**: Zaznacz dowolny tekst, a następnie użyj `Ctrl+Shift+S` (Windows/Linux) lub `Command+Shift+S` (macOS), aby błyskawicznie zapisać go jako podpowiedź
-5. **Zapis przez menu kontekstowe**: Zaznacz tekst, kliknij prawym przyciskiem myszy i wybierz "Zapisz tę podpowiedź", aby dodać zaznaczenie do bazy podpowiedzi
-6. **Eksport bazy podpowiedzi**: Na stronie zarządzania kliknij przycisk "Eksportuj", aby zapisać wszystkie podpowiedzi do pliku JSON na dysku
-7. **Import bazy podpowiedzi**: Na stronie zarządzania kliknij przycisk "Importuj", aby załadować podpowiedzi z pliku JSON (możesz dodać je do istniejących lub nadpisać bazę)
+1. **Szybkie wywołanie**: Wprowadź `/p` w dowolnym polu tekstowym, aby wywołać selektor promptów
+2. **Otwieranie selektora skrótem**: Użyj `Ctrl+Shift+P` (Windows/Linux) lub `Command+Shift+P` (macOS), by otworzyć selektor promptów
+3. **Wybieranie promptu**: Kliknij na żądany prompt w wyskakującym selektorze, a zostanie automatycznie wstawiony do bieżącego pola tekstowego
+4. **Szybkie zapisywanie promptu**: Po zaznaczeniu tekstu użyj `Ctrl+Shift+S` (Windows/Linux) lub `Command+Shift+S` (macOS), aby szybko zapisać go jako prompt
+5. **Zapisywanie z menu kontekstowego**: Po zaznaczeniu tekstu kliknij prawym przyciskiem i wybierz "Zapisz ten prompt", aby dodać zaznaczoną treść do promptów
+6. **Eksport bazy promptów**: Na stronie zarządzania kliknij przycisk "Eksportuj", aby zapisać wszystkie prompty w pliku JSON na dysku
+7. **Import bazy promptów**: Na stronie zarządzania kliknij przycisk "Importuj", aby dodać prompty z pliku JSON z dysku (możliwość łączenia lub nadpisywania obecnych promptów)
 
 ## 📸 Podgląd interfejsu
 
-Quick Prompt oferuje intuicyjny i przyjazny interfejs do łatwego zarządzania i korzystania z podpowiedzi.
+Quick Prompt oferuje intuicyjny i przyjazny interfejs, dzięki któremu łatwo zarządzasz i używasz promptów.
 
-### Selektor podpowiedzi
+### Selektor promptów
 
-![Selektor podpowiedzi](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)
+![提示词选择器](https://github.com/user-attachments/assets/41b9897c-d701-4ff0-97f7-2f1754f570a8)
 
-![Selektor podpowiedzi](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
+![提示词选择器](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
 
-Użyj skrótu `/p` lub skrótu klawiszowego, aby szybko wywołać selektor podpowiedzi w dowolnym polu tekstowym i wygodnie wybrać oraz wstawić potrzebną podpowiedź.
+Użyj skrótu `/p` lub skrótu klawiszowego, aby szybko wywołać selektor promptów w dowolnym polu tekstowym i wygodnie wybrać oraz wstawić potrzebny prompt.
 
-### Strona zarządzania podpowiedziami
+### Strona zarządzania promptami
 
-![Zarządzanie podpowiedziami](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
+![提示词管理](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
 
-Na stronie zarządzania możesz tworzyć nowe podpowiedzi, edytować istniejące, dodawać tagi i zarządzać kategoriami. Interfejs jest przejrzysty i łatwy w obsłudze.
+Na stronie zarządzania możesz tworzyć nowe prompty, edytować istniejące, dodawać tagi oraz zarządzać kategoriami. Interfejs jest przejrzysty i prosty w obsłudze.
 
-### Zapis przez menu kontekstowe
+### Zapisywanie przez menu kontekstowe
 
-![Zapis przez menu kontekstowe](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
+![Zapisywanie przez menu kontekstowe](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
 
-Zaznacz dowolny tekst na stronie, kliknij prawym przyciskiem i natychmiast zapisz go jako podpowiedź, zwiększając efektywność pracy.
+Wystarczy zaznaczyć dowolny tekst na stronie internetowej, kliknąć prawym przyciskiem, aby szybko zapisać go jako prompt, zwiększając efektywność pracy.
 
-### Wprowadzanie zmiennych do podpowiedzi
+### Wprowadzanie zmiennych prompta
 
-![Okno zmiennych podpowiedzi](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
+![Okno zmiennych prompta](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
 
-Podpowiedzi obsługują konfigurowalne zmienne — po wybraniu pojawia się okno do wprowadzenia ich wartości.
+Prompty obsługują konfigurację zmiennych, po wybraniu pojawia się okno do wprowadzenia odpowiednich wartości.
 
-## ⚙️ Konfiguracja własna
+## ⚙️ Konfiguracja niestandardowa
 
-1. Kliknij ikonę rozszerzenia, a następnie przycisk "Zarządzaj podpowiedziami"
+1. Kliknij ikonę rozszerzenia, a następnie przycisk "Zarządzaj promptami"
 2. Na stronie zarządzania możesz:
-   - Dodawać nowe podpowiedzi
-   - Edytować istniejące podpowiedzi
-   - Usuwać niepotrzebne podpowiedzi
-   - Dodawać tagi do podpowiedzi w celu kategoryzacji
-   - Eksportować bazę podpowiedzi do kopii zapasowej
-   - Importować wcześniej zarchiwizowaną bazę podpowiedzi
+   - Dodawać nowe prompty
+   - Edytować istniejące prompty
+   - Usuwać niepotrzebne prompty
+   - Dodawać tagi do promptów w celu kategoryzacji
+   - Eksportować bazę promptów do backupu
+   - Importować wcześniej zapisany backup bazy promptów
 
 ## 📦 Instrukcja instalacji
 
-### Instalacja ze sklepu z aplikacjami
+### Instalacja ze sklepu aplikacji
 
-Dostępne już w Chrome Web Store! [Kliknij tutaj, aby pobrać i zainstalować](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)
+Rozszerzenie dostępne jest w Chrome Web Store! [Kliknij tutaj, aby pobrać i zainstalować](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)
 
-### Pobieranie z GitHub Releases
+### Pobierz z GitHub Releases
 
 1. Wejdź na [stronę GitHub Releases](https://github.com/wenyuanw/quick-prompt/releases)
-2. Pobierz najnowszą wersję gotowego pakietu rozszerzenia
+2. Pobierz najnowszą wersję gotowej paczki rozszerzenia
 3. Rozpakuj pobrany plik
-4. Zainstaluj zbudowane rozszerzenie zgodnie z poniższymi instrukcjami
+4. Postępuj zgodnie z instrukcją poniżej, aby zainstalować gotowe rozszerzenie
 
-### Budowanie ze źródeł
+### Kompilacja ze źródeł
 
 1. Sklonuj repozytorium
    ```bash
@@ -145,11 +141,12 @@ Dostępne już w Chrome Web Store! [Kliknij tutaj, aby pobrać i zainstalować](
    # 构建扩展 (Firefox)
    pnpm build:firefox
    ```
+
 ### Instalacja zbudowanego rozszerzenia
 
 #### Chrome / Edge
 1. Otwórz stronę zarządzania rozszerzeniami (`chrome://extensions` lub `edge://extensions`)
-2. Włącz "Tryb deweloperski"
+2. Włącz "Tryb dewelopera"
 3. Kliknij "Załaduj rozpakowane rozszerzenie"
 4. Wybierz katalog `.output/chrome-mv3/` projektu
 
@@ -163,11 +160,11 @@ Dostępne już w Chrome Web Store! [Kliknij tutaj, aby pobrać i zainstalować](
 
 MIT
 
-## 🤝 Przewodnik dla współtwórców
+## 🤝 Przewodnik po kontrybucji
 
-Zachęcamy do zgłaszania Pull Requestów i Issue!
+Zapraszamy do zgłaszania Pull Requests i Issues!
 
-1. Sforkuj to repozytorium
+1. Forknij to repozytorium
 2. Utwórz swoją gałąź funkcjonalności (`git checkout -b feature/amazing-feature`)
 3. Zatwierdź swoje zmiany (`git commit -m 'Add some amazing feature'`)
 4. Wypchnij na gałąź (`git push origin feature/amazing-feature`)
@@ -175,7 +172,7 @@ Zachęcamy do zgłaszania Pull Requestów i Issue!
 
 ## 👏 Lista współtwórców
 
-Dziękujemy wszystkim deweloperom za wkład w projekt!
+Dziękujemy wszystkim deweloperom, którzy przyczynili się do projektu!
 
 <a href="https://github.com/wenyuanw/quick-prompt/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=wenyuanw/quick-prompt" />
@@ -187,9 +184,8 @@ Dziękujemy wszystkim deweloperom za wkład w projekt!
 [![Star History Chart](https://api.star-history.com/svg?repos=wenyuanw/quick-prompt&type=Date)](https://www.star-history.com/#wenyuanw/quick-prompt&Date)
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-16
 
 ---

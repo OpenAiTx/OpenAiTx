@@ -1,281 +1,473 @@
 [
   {
     "Id": 1,
-    "Content": "# Nutty [![Translation status](https://hosted.weblate.org/widgets/nutty/-/svg-badge.svg)](https://hosted.weblate.org/engage/nutty/?utm_source=widget) [![Build Status](https://travis-ci.org/babluboy/nutty.svg?branch=master)](https://travis-ci.org/babluboy/nutty) [![Snap Status](https://build.snapcraft.io/badge/babluboy/nutty.svg)](https://build.snapcraft.io/user/babluboy/nutty) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FZP8GK839VGQC)\nA Network Utility\n\nAuthor: Siddhartha Das\n\nA simple application made for elementary OS to provide essential information on network related aspects. The information presented in as the following tabs.<br>\n1. My Info: Provides basic and detailed information for the device network card<br>\n2. Usage: Provides network data usage in two views - historical usage and current usage<br>\n3. Speed: Check Upload and Download speeds and get route times to a host<br>\n4. Ports: Provides information on active ports and application using them on the local device<br>\n5. Devices: Monitors, alerts and provides information on the other devices connected on the network<br>\n\nCheck the Nutty website for details on features, shortcuts, installation guides for Ubuntu and other supported distros, etc. : <br>\nhttps://babluboy.github.io/nutty/\n\n## Building, Testing, and Installation from Source\n\nYou'll need the following dependencies to build:\n* libgranite-dev\n* libnotify-dev\n* libxml2-dev\n* libxml2-utils\n* libgee-0.8-dev\n* libgtk-3-dev\n* libsqlite3-dev\n* meson\n* valac\n\nAnd these dependencies to execute:\n* net-tools\n* nethogs\n* nmap\n* traceroute\n* vnstat\n* curl\n* wireless-tools\n* iproute2\n* pciutils\n\nSometimes vnstat is not started upon install, use the appropriate init system command to start vnstat daemon i.e. `sudo systemctl enable vnstat`",
-    "ContentSha": "ySl6zqjd3c7mSFKRfittCDjer5wlp6lFQdbmtB/1Duw=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Nutty [![Translation status](https://hosted.weblate.org/widgets/nutty/-/svg-badge.svg)](https://hosted.weblate.org/engage/nutty/?utm_source=widget) [![Build Status](https://travis-ci.org/babluboy/nutty.svg?branch=master)](https://travis-ci.org/babluboy/nutty) [![Snap Status](https://build.snapcraft.io/badge/babluboy/nutty.svg)](https://build.snapcraft.io/user/babluboy/nutty) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FZP8GK839VGQC)\nA Network Utility\n\nAuthor: Siddhartha Das\n\nA simple application made for elementary OS to provide essential information on network related aspects. The information presented in as the following tabs.<br>\n1. My Info: Provides basic and detailed information for the device network card<br>\n2. Usage: Provides network data usage in two views - historical usage and current usage<br>",
+    "ContentSha": "SK3VOAYCIseGzmawk+wl4CWY7DuRg6yRWZRfmvH0bJ4=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# Nutty [![Translation status](https://hosted.weblate.org/widgets/nutty/-/svg-badge.svg)](https://hosted.weblate.org/engage/nutty/?utm_source=widget) [![Build Status](https://travis-ci.org/babluboy/nutty.svg?branch=master)](https://travis-ci.org/babluboy/nutty) [![Snap Status](https://build.snapcraft.io/badge/babluboy/nutty.svg)](https://build.snapcraft.io/user/babluboy/nutty) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FZP8GK839VGQC)\n네트워크 유틸리티\n\n작성자: Siddhartha Das\n\nelementary OS용으로 만들어진 간단한 애플리케이션으로 네트워크 관련 필수 정보를 제공합니다. 정보는 다음 탭으로 제시됩니다.<br>\n1. 내 정보: 장치 네트워크 카드에 대한 기본 및 상세 정보를 제공합니다<br>\n2. 사용량: 네트워크 데이터 사용량을 두 가지 뷰로 제공합니다 - 과거 사용량과 현재 사용량<br>\n3. 속도: 업로드 및 다운로드 속도를 확인하고 호스트까지의 경로 시간을 얻습니다<br>\n4. 포트: 로컬 장치에서 활성 포트 및 이를 사용하는 애플리케이션 정보를 제공합니다<br>\n5. 장치: 네트워크에 연결된 다른 장치를 모니터링하고 알림을 제공하며 정보를 제공합니다<br>\n\n기능, 단축키, 우분투 및 기타 지원 배포판 설치 가이드 등 자세한 내용은 Nutty 웹사이트를 확인하세요 : <br>\nhttps://babluboy.github.io/nutty/\n\n## 소스에서 빌드, 테스트 및 설치\n\n빌드하려면 다음 의존성이 필요합니다:\n* libgranite-dev\n* libnotify-dev\n* libxml2-dev\n* libxml2-utils\n* libgee-0.8-dev\n* libgtk-3-dev\n* libsqlite3-dev\n* meson\n* valac\n\n실행하려면 다음 의존성이 필요합니다:\n* net-tools\n* nethogs\n* nmap\n* traceroute\n* vnstat\n* curl\n* wireless-tools\n* iproute2\n* pciutils\n\n가끔 vnstat가 설치 후 시작되지 않는 경우가 있으니, 적절한 init 시스템 명령어를 사용하여 vnstat 데몬을 시작하세요. 예: `sudo systemctl enable vnstat`",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Nutty [![번역 상태](https://hosted.weblate.org/widgets/nutty/-/svg-badge.svg)](https://hosted.weblate.org/engage/nutty/?utm_source=widget) [![빌드 상태](https://travis-ci.org/babluboy/nutty.svg?branch=master)](https://travis-ci.org/babluboy/nutty) [![Snap 상태](https://build.snapcraft.io/badge/babluboy/nutty.svg)](https://build.snapcraft.io/user/babluboy/nutty) [![기부](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FZP8GK839VGQC)\n네트워크 유틸리티\n\n저자: Siddhartha Das\n\nelementary OS를 위해 제작된 간단한 애플리케이션으로, 네트워크 관련 필수 정보를 제공합니다. 정보는 다음과 같은 탭으로 제공됩니다.<br>\n1. 내 정보: 디바이스 네트워크 카드에 대한 기본 및 상세 정보 제공<br>\n2. 사용량: 네트워크 데이터 사용량을 두 가지 보기로 제공 - 과거 사용량과 현재 사용량<br>",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "5nC4KqU42IJyS7FyTt4co6+BGGR7gH4CcvBE+fLE+8U=",
-        "originContent": "# Nutty [![Translation status](https://hosted.weblate.org/widgets/nutty/-/svg-badge.svg)](https://hosted.weblate.org/engage/nutty/?utm_source=widget) [![Build Status](https://travis-ci.org/babluboy/nutty.svg?branch=master)](https://travis-ci.org/babluboy/nutty) [![Snap Status](https://build.snapcraft.io/badge/babluboy/nutty.svg)](https://build.snapcraft.io/user/babluboy/nutty) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FZP8GK839VGQC)",
-        "translatedContent": "# Nutty [![Translation status](https://hosted.weblate.org/widgets/nutty/-/svg-badge.svg)](https://hosted.weblate.org/engage/nutty/?utm_source=widget) [![Build Status](https://travis-ci.org/babluboy/nutty.svg?branch=master)](https://travis-ci.org/babluboy/nutty) [![Snap Status](https://build.snapcraft.io/badge/babluboy/nutty.svg)](https://build.snapcraft.io/user/babluboy/nutty) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FZP8GK839VGQC)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 언어</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "QUw+f/nT+QBKH5t3mrdj8Mzz3J7ImXuBtWDBVxQuLl4=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "Kcepma4yAk+0s7eBZDVDV0ro1YAvTmizjaJX0xMRCKY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "WGdwQK/DOx2eEJpYgwAFsh+7GozM2QNFhoqmh7AfrDE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "qFyEUZ7+9n7MIiUhYuERePuFRhP6q1YDwO+rGjTk2z8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "UsLqkNv0VT67kBBl6bgjzbosFXUDGh4j/4jfbqN5T/o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "Y64prWkGm5/23iXZjkVFhzfxoVRN+ZaIyp8qdujlVjc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "B3VikDJSjapMJgIXfnbcvFemQ4Vdonm0dskqfCpYxtU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "RgHRLCFawku3kpBXpSGJtAtcVlBqZowMrfT2TLcmIKg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "wdRHo0cKnVCdG6PAeXsVWjj6JJAun4k1YnMu+HuhhGk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "dAyQP8jTYA4ImzX8fbFeSA1zaGYcys5Ca5p+4vx3EoU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "p5VbqxKli+T3278JCXe7Zf9tob0uG9MVp3faFQZZatc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "o7SgeKX9//J4oKq7gpn20QGxFcgrBzdel2QpMRXsQCY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "k2F8hJ7Xw5PxwdmPUNhUongdX5+FWDA2esR0YGTQhqo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "y48njbW0+dXw0sW19xtotw5aN7P7oTyzK4KDAGF5br0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "hjfxT3DkhZXVfSE3Q1qLvguYwb7B+H6z0YpqrDh6nKg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "OtZlb3uEN9Ym30QtXtwxzvPbYYWjX3SCUGCVyKICbv4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "+V4obPu00Fampp4KUb/0Lih1jvjS1dzpGdPLFf+7fqc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "mzP+N52UzSegUwLGRilLRSUhj2Ym3qIDmZrw6mKOcSU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "qi/nHLdFb3+8mHXx+daZZY0WMKs6uqqQrEVjdTbCz2o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "ziqbbUtpA/DNSwX5S6/F4wppLG1vTo9VdVquIE3dx2U=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "+akSZl1nl9mFTRgLA1alKKnT5k49ZXkUPJ2SI0p1RfE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "5nC4KqU42IJyS7FyTt4co6+BGGR7gH4CcvBE+fLE+8U=",
+        "originContent": "# Nutty [![Translation status](https://hosted.weblate.org/widgets/nutty/-/svg-badge.svg)](https://hosted.weblate.org/engage/nutty/?utm_source=widget) [![Build Status](https://travis-ci.org/babluboy/nutty.svg?branch=master)](https://travis-ci.org/babluboy/nutty) [![Snap Status](https://build.snapcraft.io/badge/babluboy/nutty.svg)](https://build.snapcraft.io/user/babluboy/nutty) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FZP8GK839VGQC)",
+        "translatedContent": "# Nutty [![번역 상태](https://hosted.weblate.org/widgets/nutty/-/svg-badge.svg)](https://hosted.weblate.org/engage/nutty/?utm_source=widget) [![빌드 상태](https://travis-ci.org/babluboy/nutty.svg?branch=master)](https://travis-ci.org/babluboy/nutty) [![Snap 상태](https://build.snapcraft.io/badge/babluboy/nutty.svg)](https://build.snapcraft.io/user/babluboy/nutty) [![기부](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FZP8GK839VGQC)"
+      },
+      {
+        "row": 34,
         "rowsha": "5u0Wezxj7EOWyyGYE0iMlU7fRwgkKFnN7MDyuS+CcVY=",
         "originContent": "A Network Utility",
         "translatedContent": "네트워크 유틸리티"
       },
       {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "vmoj0cLSrDvcprfv/gvIZB5XJFqQiQO2QdrpqViNR6Y=",
-        "originContent": "Author: Siddhartha Das",
-        "translatedContent": "작성자: Siddhartha Das"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "LQPDk7kdqrYDq46w2aF2qU4YGvzRq2VCEXW8jba07U4=",
-        "originContent": "A simple application made for elementary OS to provide essential information on network related aspects. The information presented in as the following tabs.<br>",
-        "translatedContent": "elementary OS용으로 만들어진 간단한 애플리케이션으로 네트워크 관련 필수 정보를 제공합니다. 정보는 다음 탭으로 제시됩니다.<br>"
-      },
-      {
-        "row": 7,
-        "rowsha": "941cKpjj+2pj2rLbPD+8wQ+vrUWVnrP0c9rEqKX/i40=",
-        "originContent": "1. My Info: Provides basic and detailed information for the device network card<br>",
-        "translatedContent": "1. 내 정보: 장치 네트워크 카드에 대한 기본 및 상세 정보를 제공합니다<br>"
-      },
-      {
-        "row": 8,
-        "rowsha": "JSi8peFD/grY4nJAe3D9ai2XKgZYkuj02s7R+FbXpXs=",
-        "originContent": "2. Usage: Provides network data usage in two views - historical usage and current usage<br>",
-        "translatedContent": "2. 사용량: 네트워크 데이터 사용량을 두 가지 뷰로 제공합니다 - 과거 사용량과 현재 사용량<br>"
-      },
-      {
-        "row": 9,
-        "rowsha": "YePuGz5HZY8Y9fjqgKPcuxz5xdnvRmGrw1fVYxtXKV8=",
-        "originContent": "3. Speed: Check Upload and Download speeds and get route times to a host<br>",
-        "translatedContent": "3. 속도: 업로드 및 다운로드 속도를 확인하고 호스트까지의 경로 시간을 얻습니다<br>"
-      },
-      {
-        "row": 10,
-        "rowsha": "JUbX+PivYmGL6W3YJjDOkYGybze3QR0Fr127LaTGjQk=",
-        "originContent": "4. Ports: Provides information on active ports and application using them on the local device<br>",
-        "translatedContent": "4. 포트: 로컬 장치에서 활성 포트 및 이를 사용하는 애플리케이션 정보를 제공합니다<br>"
-      },
-      {
-        "row": 11,
-        "rowsha": "fQl2lZM/dUiN5GtTXwpIAPRkBG3D+nOWtD3/cz5X6Ak=",
-        "originContent": "5. Devices: Monitors, alerts and provides information on the other devices connected on the network<br>",
-        "translatedContent": "5. 장치: 네트워크에 연결된 다른 장치를 모니터링하고 알림을 제공하며 정보를 제공합니다<br>"
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "uV9efTu4bdRb2WSif8eYW/DMEGSwLz1KshEwB2gJdaQ=",
-        "originContent": "Check the Nutty website for details on features, shortcuts, installation guides for Ubuntu and other supported distros, etc. : <br>",
-        "translatedContent": "기능, 단축키, 우분투 및 기타 지원 배포판 설치 가이드 등 자세한 내용은 Nutty 웹사이트를 확인하세요 : <br>"
-      },
-      {
-        "row": 14,
-        "rowsha": "y4mc9tjTP2vYcpskGRGY/hV3bc0h4n5WUC8NfF848Vg=",
-        "originContent": "https://babluboy.github.io/nutty/",
-        "translatedContent": "https://babluboy.github.io/nutty/"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "/vCpQPfsODjRaDkL5HRFwy1DrwdZ6tWuwaPkkHPi0qU=",
-        "originContent": "## Building, Testing, and Installation from Source",
-        "translatedContent": "## 소스에서 빌드, 테스트 및 설치"
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "nrGZNZyEyohRwTUBnC2mVl7V0W68OGind9utO1X8UKA=",
-        "originContent": "You'll need the following dependencies to build:",
-        "translatedContent": "빌드하려면 다음 의존성이 필요합니다:"
-      },
-      {
-        "row": 19,
-        "rowsha": "Z0ZJPZtlfmSvBHqwl5zpZ/XanhjFGDUX9DE7tqiBCsc=",
-        "originContent": "* libgranite-dev",
-        "translatedContent": "* libgranite-dev"
-      },
-      {
-        "row": 20,
-        "rowsha": "wISIJRGIYYfk5LVd/lhy/sBgaZhCAfyPUwN/MODDyHc=",
-        "originContent": "* libnotify-dev",
-        "translatedContent": "* libnotify-dev"
-      },
-      {
-        "row": 21,
-        "rowsha": "1A8TiU0lSQqRlJ8GVwOGrFKJEiarQ7GLxoEROXgFtKw=",
-        "originContent": "* libxml2-dev",
-        "translatedContent": "* libxml2-dev"
-      },
-      {
-        "row": 22,
-        "rowsha": "Lcg0Qq/MN5xReby4eLE5p1TtjiRmT3VM29wg/eYMkfw=",
-        "originContent": "* libxml2-utils",
-        "translatedContent": "* libxml2-utils"
-      },
-      {
-        "row": 23,
-        "rowsha": "Gg0absJuJenMpxtHsFOWLo8KGa4gU/ba0QHLd/oJvgU=",
-        "originContent": "* libgee-0.8-dev",
-        "translatedContent": "* libgee-0.8-dev"
-      },
-      {
-        "row": 24,
-        "rowsha": "JseBjL8clYczdkAUON9jYQQIOagqy8tQYtQceUESi1U=",
-        "originContent": "* libgtk-3-dev",
-        "translatedContent": "* libgtk-3-dev"
-      },
-      {
-        "row": 25,
-        "rowsha": "2BUDr5+EybWuXciItgm6T4soIJuZsa6WAkILiUJn5Fo=",
-        "originContent": "* libsqlite3-dev",
-        "translatedContent": "* libsqlite3-dev"
-      },
-      {
-        "row": 26,
-        "rowsha": "pyu3mZkbswlGVvDZNun27oHHBOrCGbN6SGvO8tsJCRE=",
-        "originContent": "* meson",
-        "translatedContent": "* meson"
-      },
-      {
-        "row": 27,
-        "rowsha": "6JiZupfTf0YAnTQQ7p+1RmTko6yoTXQ4N5wJWPgY19E=",
-        "originContent": "* valac",
-        "translatedContent": "* valac"
-      },
-      {
-        "row": 28,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 29,
-        "rowsha": "bO/C9sgvd96/fF6/aSOQCoGBZ88CR1kMwB5pl4LuZUY=",
-        "originContent": "And these dependencies to execute:",
-        "translatedContent": "실행하려면 다음 의존성이 필요합니다:"
-      },
-      {
-        "row": 30,
-        "rowsha": "lCuKLeBXRpRXqU2v/k7myOHDFgVmfXhMlYgH3Q6o3gc=",
-        "originContent": "* net-tools",
-        "translatedContent": "* net-tools"
-      },
-      {
-        "row": 31,
-        "rowsha": "PL+kgFPlc2/MC0KKF8IlvgLDHIwaIxTTZt7bSu8C2xY=",
-        "originContent": "* nethogs",
-        "translatedContent": "* nethogs"
-      },
-      {
-        "row": 32,
-        "rowsha": "z9F6+F9sJJTCuf4D/zTSL2N0PW/l5vJJGpTk8qmggVc=",
-        "originContent": "* nmap",
-        "translatedContent": "* nmap"
-      },
-      {
-        "row": 33,
-        "rowsha": "XgpA7XAGHt1qZJgbzmtYkLeCD8wZXst/QoCYP87y89c=",
-        "originContent": "* traceroute",
-        "translatedContent": "* traceroute"
-      },
-      {
-        "row": 34,
-        "rowsha": "FaQSEJDOK9CX0mjCLZKkxd5Qko+H8FkqyoeI/TXNCB4=",
-        "originContent": "* vnstat",
-        "translatedContent": "* vnstat"
-      },
-      {
         "row": 35,
-        "rowsha": "n5ZMDRMjAn2jUdqfgymWQp2nvNEJ+qVUtGyxvane/Hw=",
-        "originContent": "* curl",
-        "translatedContent": "* curl"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 36,
-        "rowsha": "qqzFHFmb2cVQCckebt2yw7Lch05Gulfno5dmPlfUKOU=",
-        "originContent": "* wireless-tools",
-        "translatedContent": "* wireless-tools"
+        "rowsha": "vmoj0cLSrDvcprfv/gvIZB5XJFqQiQO2QdrpqViNR6Y=",
+        "originContent": "Author: Siddhartha Das",
+        "translatedContent": "저자: Siddhartha Das"
       },
       {
         "row": 37,
-        "rowsha": "r+xOZtNoVP6XwXLD5XprOHKqunvntaLySgNoBv2RVXQ=",
-        "originContent": "* iproute2",
-        "translatedContent": "* iproute2"
-      },
-      {
-        "row": 38,
-        "rowsha": "z6QSdKA0NXalMeO2EroQLGofN6RX+xfCWGqPyS/ta+U=",
-        "originContent": "* pciutils",
-        "translatedContent": "* pciutils"
-      },
-      {
-        "row": 39,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 38,
+        "rowsha": "LQPDk7kdqrYDq46w2aF2qU4YGvzRq2VCEXW8jba07U4=",
+        "originContent": "A simple application made for elementary OS to provide essential information on network related aspects. The information presented in as the following tabs.<br>",
+        "translatedContent": "elementary OS를 위해 제작된 간단한 애플리케이션으로, 네트워크 관련 필수 정보를 제공합니다. 정보는 다음과 같은 탭으로 제공됩니다.<br>"
+      },
+      {
+        "row": 39,
+        "rowsha": "941cKpjj+2pj2rLbPD+8wQ+vrUWVnrP0c9rEqKX/i40=",
+        "originContent": "1. My Info: Provides basic and detailed information for the device network card<br>",
+        "translatedContent": "1. 내 정보: 디바이스 네트워크 카드에 대한 기본 및 상세 정보 제공<br>"
+      },
+      {
         "row": 40,
-        "rowsha": "nADxgVUpuQglYAYhFE5gIdZ5Cwk8HQUyws9GM1nwQ7o=",
-        "originContent": "Sometimes vnstat is not started upon install, use the appropriate init system command to start vnstat daemon i.e. `sudo systemctl enable vnstat`",
-        "translatedContent": "가끔 vnstat가 설치 후 시작되지 않는 경우가 있으니, 적절한 init 시스템 명령어를 사용하여 vnstat 데몬을 시작하세요. 예: `sudo systemctl enable vnstat`"
+        "rowsha": "JSi8peFD/grY4nJAe3D9ai2XKgZYkuj02s7R+FbXpXs=",
+        "originContent": "2. Usage: Provides network data usage in two views - historical usage and current usage<br>",
+        "translatedContent": "2. 사용량: 네트워크 데이터 사용량을 두 가지 보기로 제공 - 과거 사용량과 현재 사용량<br>"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "\nRun `meson build` to configure the build environment and run `ninja test` to build\n",
-    "ContentSha": "PJDn8OrxFgcQWr56cqFhWByFQUk7oZ7z16QB6Er+hLA=",
+    "Content": "3. Speed: Check Upload and Download speeds and get route times to a host<br>\n4. Ports: Provides information on active ports and application using them on the local device<br>\n5. Devices: Monitors, alerts and provides information on the other devices connected on the network<br>\n\nCheck the Nutty website for details on features, shortcuts, installation guides for Ubuntu and other supported distros, etc. : <br>\nhttps://babluboy.github.io/nutty/\n\n## Building, Testing, and Installation from Source\n\nYou'll need the following dependencies to build:\n* libgranite-dev\n* libnotify-dev\n* libxml2-dev\n* libxml2-utils\n* libgee-0.8-dev\n* libgtk-3-dev\n* libsqlite3-dev\n* meson\n* valac\n\nAnd these dependencies to execute:\n* net-tools\n* nethogs\n* nmap\n* traceroute\n* vnstat\n* curl\n* wireless-tools\n* iproute2\n* pciutils\n\nSometimes vnstat is not started upon install, use the appropriate init system command to start vnstat daemon i.e. `sudo systemctl enable vnstat`\n\nRun `meson build` to configure the build environment and run `ninja test` to build\n",
+    "ContentSha": "bowWJDnNNXKtysg9UDLG9cSI3ZB1VmdAsMZBEcWp9Wg=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "`meson build`를 실행하여 빌드 환경을 구성하고 `ninja test`를 실행하여 빌드하세요\n\n",
+    "Translation": "3. 속도: 업로드 및 다운로드 속도를 확인하고 호스트까지의 경로 시간을 측정합니다<br>\n4. 포트: 로컬 장치에서 활성화된 포트와 이를 사용하는 애플리케이션 정보를 제공합니다<br>\n5. 장치: 네트워크에 연결된 다른 장치를 모니터링, 경고 및 정보 제공을 합니다<br>\n\nNutty 웹사이트에서 기능, 단축키, Ubuntu 및 기타 지원 배포판 설치 가이드 등 자세한 내용을 확인하세요: <br>\nhttps://babluboy.github.io/nutty/\n\n## 소스에서 빌드, 테스트 및 설치\n\n빌드를 위해 다음 종속성이 필요합니다:\n* libgranite-dev\n* libnotify-dev\n* libxml2-dev\n* libxml2-utils\n* libgee-0.8-dev\n* libgtk-3-dev\n* libsqlite3-dev\n* meson\n* valac\n\n실행을 위해서는 다음 종속성이 필요합니다:\n* net-tools\n* nethogs\n* nmap\n* traceroute\n* vnstat\n* curl\n* wireless-tools\n* iproute2\n* pciutils\n\n가끔 vnstat가 설치 후 바로 시작되지 않을 수 있으니, 적절한 init 시스템 명령어로 vnstat 데몬을 시작하세요. 예: `sudo systemctl enable vnstat`\n\n`meson build` 명령으로 빌드 환경을 구성하고 `ninja test` 명령으로 빌드하세요\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "`meson build`를 실행하여 빌드 환경을 구성하고 `ninja test`를 실행하여 빌드하세요"
+        "rowsha": "YePuGz5HZY8Y9fjqgKPcuxz5xdnvRmGrw1fVYxtXKV8=",
+        "originContent": "3. Speed: Check Upload and Download speeds and get route times to a host<br>",
+        "translatedContent": "3. 속도: 업로드 및 다운로드 속도를 확인하고 호스트까지의 경로 시간을 측정합니다<br>"
       },
       {
         "row": 2,
-        "rowsha": "B4UfCgnOSjTSb1FGcaog05Ju46ypG42DXyfET+H3bRM=",
-        "originContent": "Run `meson build` to configure the build environment and run `ninja test` to build",
-        "translatedContent": ""
+        "rowsha": "JUbX+PivYmGL6W3YJjDOkYGybze3QR0Fr127LaTGjQk=",
+        "originContent": "4. Ports: Provides information on active ports and application using them on the local device<br>",
+        "translatedContent": "4. 포트: 로컬 장치에서 활성화된 포트와 이를 사용하는 애플리케이션 정보를 제공합니다<br>"
       },
       {
         "row": 3,
+        "rowsha": "fQl2lZM/dUiN5GtTXwpIAPRkBG3D+nOWtD3/cz5X6Ak=",
+        "originContent": "5. Devices: Monitors, alerts and provides information on the other devices connected on the network<br>",
+        "translatedContent": "5. 장치: 네트워크에 연결된 다른 장치를 모니터링, 경고 및 정보 제공을 합니다<br>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "uV9efTu4bdRb2WSif8eYW/DMEGSwLz1KshEwB2gJdaQ=",
+        "originContent": "Check the Nutty website for details on features, shortcuts, installation guides for Ubuntu and other supported distros, etc. : <br>",
+        "translatedContent": "Nutty 웹사이트에서 기능, 단축키, Ubuntu 및 기타 지원 배포판 설치 가이드 등 자세한 내용을 확인하세요: <br>"
+      },
+      {
+        "row": 6,
+        "rowsha": "y4mc9tjTP2vYcpskGRGY/hV3bc0h4n5WUC8NfF848Vg=",
+        "originContent": "https://babluboy.github.io/nutty/",
+        "translatedContent": "https://babluboy.github.io/nutty/"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "/vCpQPfsODjRaDkL5HRFwy1DrwdZ6tWuwaPkkHPi0qU=",
+        "originContent": "## Building, Testing, and Installation from Source",
+        "translatedContent": "## 소스에서 빌드, 테스트 및 설치"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "nrGZNZyEyohRwTUBnC2mVl7V0W68OGind9utO1X8UKA=",
+        "originContent": "You'll need the following dependencies to build:",
+        "translatedContent": "빌드를 위해 다음 종속성이 필요합니다:"
+      },
+      {
+        "row": 11,
+        "rowsha": "Z0ZJPZtlfmSvBHqwl5zpZ/XanhjFGDUX9DE7tqiBCsc=",
+        "originContent": "* libgranite-dev",
+        "translatedContent": "* libgranite-dev"
+      },
+      {
+        "row": 12,
+        "rowsha": "wISIJRGIYYfk5LVd/lhy/sBgaZhCAfyPUwN/MODDyHc=",
+        "originContent": "* libnotify-dev",
+        "translatedContent": "* libnotify-dev"
+      },
+      {
+        "row": 13,
+        "rowsha": "1A8TiU0lSQqRlJ8GVwOGrFKJEiarQ7GLxoEROXgFtKw=",
+        "originContent": "* libxml2-dev",
+        "translatedContent": "* libxml2-dev"
+      },
+      {
+        "row": 14,
+        "rowsha": "Lcg0Qq/MN5xReby4eLE5p1TtjiRmT3VM29wg/eYMkfw=",
+        "originContent": "* libxml2-utils",
+        "translatedContent": "* libxml2-utils"
+      },
+      {
+        "row": 15,
+        "rowsha": "Gg0absJuJenMpxtHsFOWLo8KGa4gU/ba0QHLd/oJvgU=",
+        "originContent": "* libgee-0.8-dev",
+        "translatedContent": "* libgee-0.8-dev"
+      },
+      {
+        "row": 16,
+        "rowsha": "JseBjL8clYczdkAUON9jYQQIOagqy8tQYtQceUESi1U=",
+        "originContent": "* libgtk-3-dev",
+        "translatedContent": "* libgtk-3-dev"
+      },
+      {
+        "row": 17,
+        "rowsha": "2BUDr5+EybWuXciItgm6T4soIJuZsa6WAkILiUJn5Fo=",
+        "originContent": "* libsqlite3-dev",
+        "translatedContent": "* libsqlite3-dev"
+      },
+      {
+        "row": 18,
+        "rowsha": "pyu3mZkbswlGVvDZNun27oHHBOrCGbN6SGvO8tsJCRE=",
+        "originContent": "* meson",
+        "translatedContent": "* meson"
+      },
+      {
+        "row": 19,
+        "rowsha": "6JiZupfTf0YAnTQQ7p+1RmTko6yoTXQ4N5wJWPgY19E=",
+        "originContent": "* valac",
+        "translatedContent": "* valac"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "bO/C9sgvd96/fF6/aSOQCoGBZ88CR1kMwB5pl4LuZUY=",
+        "originContent": "And these dependencies to execute:",
+        "translatedContent": "실행을 위해서는 다음 종속성이 필요합니다:"
+      },
+      {
+        "row": 22,
+        "rowsha": "lCuKLeBXRpRXqU2v/k7myOHDFgVmfXhMlYgH3Q6o3gc=",
+        "originContent": "* net-tools",
+        "translatedContent": "* net-tools"
+      },
+      {
+        "row": 23,
+        "rowsha": "PL+kgFPlc2/MC0KKF8IlvgLDHIwaIxTTZt7bSu8C2xY=",
+        "originContent": "* nethogs",
+        "translatedContent": "* nethogs"
+      },
+      {
+        "row": 24,
+        "rowsha": "z9F6+F9sJJTCuf4D/zTSL2N0PW/l5vJJGpTk8qmggVc=",
+        "originContent": "* nmap",
+        "translatedContent": "* nmap"
+      },
+      {
+        "row": 25,
+        "rowsha": "XgpA7XAGHt1qZJgbzmtYkLeCD8wZXst/QoCYP87y89c=",
+        "originContent": "* traceroute",
+        "translatedContent": "* traceroute"
+      },
+      {
+        "row": 26,
+        "rowsha": "FaQSEJDOK9CX0mjCLZKkxd5Qko+H8FkqyoeI/TXNCB4=",
+        "originContent": "* vnstat",
+        "translatedContent": "* vnstat"
+      },
+      {
+        "row": 27,
+        "rowsha": "n5ZMDRMjAn2jUdqfgymWQp2nvNEJ+qVUtGyxvane/Hw=",
+        "originContent": "* curl",
+        "translatedContent": "* curl"
+      },
+      {
+        "row": 28,
+        "rowsha": "qqzFHFmb2cVQCckebt2yw7Lch05Gulfno5dmPlfUKOU=",
+        "originContent": "* wireless-tools",
+        "translatedContent": "* wireless-tools"
+      },
+      {
+        "row": 29,
+        "rowsha": "r+xOZtNoVP6XwXLD5XprOHKqunvntaLySgNoBv2RVXQ=",
+        "originContent": "* iproute2",
+        "translatedContent": "* iproute2"
+      },
+      {
+        "row": 30,
+        "rowsha": "z6QSdKA0NXalMeO2EroQLGofN6RX+xfCWGqPyS/ta+U=",
+        "originContent": "* pciutils",
+        "translatedContent": "* pciutils"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "nADxgVUpuQglYAYhFE5gIdZ5Cwk8HQUyws9GM1nwQ7o=",
+        "originContent": "Sometimes vnstat is not started upon install, use the appropriate init system command to start vnstat daemon i.e. `sudo systemctl enable vnstat`",
+        "translatedContent": "가끔 vnstat가 설치 후 바로 시작되지 않을 수 있으니, 적절한 init 시스템 명령어로 vnstat 데몬을 시작하세요. 예: `sudo systemctl enable vnstat`"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "B4UfCgnOSjTSb1FGcaog05Ju46ypG42DXyfET+H3bRM=",
+        "originContent": "Run `meson build` to configure the build environment and run `ninja test` to build",
+        "translatedContent": "`meson build` 명령으로 빌드 환경을 구성하고 `ninja test` 명령으로 빌드하세요"
+      },
+      {
+        "row": 35,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -292,50 +484,7 @@
     "EndLine": 0,
     "Translation": "```\ngit clone https://github.com/babluboy/nutty.git\ncd nutty\nmeson build --prefix=/usr\ncd build\nninja\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "gxmKacpGu505XdTEXh9FrQZaXfyrVT9/Jbi2Sd7kt1M=",
-        "originContent": "git clone https://github.com/babluboy/nutty.git",
-        "translatedContent": "git clone https://github.com/babluboy/nutty.git"
-      },
-      {
-        "row": 3,
-        "rowsha": "KpwA73GBGZ83DCqpbAEQO3HR4jQd9kJ5UwOtCQjC6wo=",
-        "originContent": "cd nutty",
-        "translatedContent": "cd nutty"
-      },
-      {
-        "row": 4,
-        "rowsha": "RUYBkf9FQ9g/sMa7Xfi7uPN9PZL5LsIOlcXjvfN1kQU=",
-        "originContent": "meson build --prefix=/usr",
-        "translatedContent": "meson build --prefix=/usr"
-      },
-      {
-        "row": 5,
-        "rowsha": "2E91V0MAwN4o4nI9U0XkQPFhdwGamzSnsb7s2xe+3Uw=",
-        "originContent": "cd build",
-        "translatedContent": "cd build"
-      },
-      {
-        "row": 6,
-        "rowsha": "VEgllRdxFuYQOwdtvzBkjl0FN90e2c9a5FYvqKcA1Hs=",
-        "originContent": "ninja",
-        "translatedContent": "ninja"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -347,26 +496,7 @@
     "EndLine": 0,
     "Translation": "설치하려면 `sudo ninja install`을 사용한 후, `com.github.babluboy.nutty`로 실행하십시오.\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "설치하려면 `sudo ninja install`을 사용한 후, `com.github.babluboy.nutty`로 실행하십시오."
-      },
-      {
-        "row": 2,
-        "rowsha": "Nf+PD5wl1M47y3q4MEktKbQFOfmshdlrfORrNR6Hxcg=",
-        "originContent": "To install, use `sudo ninja install`, then execute with `com.github.babluboy.nutty`",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -378,32 +508,7 @@
     "EndLine": 0,
     "Translation": "```\nsudo ninja install\ncom.github.babluboy.nutty\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "/LSDjI/rKuyWW1JSEuwDi3IxTWhm0Y8eHo/5AKu38oc=",
-        "originContent": "sudo ninja install",
-        "translatedContent": "sudo ninja install"
-      },
-      {
-        "row": 3,
-        "rowsha": "zt4+zyg8U5jM+QuSlqOjSI+KrNjjTCE2JdDCe+8nb9k=",
-        "originContent": "com.github.babluboy.nutty",
-        "translatedContent": "com.github.babluboy.nutty"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -415,20 +520,7 @@
     "EndLine": 0,
     "Translation": "제거하려면 빌드 디렉터리로 이동하여 실행하십시오.\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "제거하려면 빌드 디렉터리로 이동하여 실행하십시오."
-      },
-      {
-        "row": 2,
-        "rowsha": "zBKQdpBV7f7xcqO8t+XPiqjAVs1pwtCR+AuOJ3bD2RE=",
-        "originContent": "To uninstall ,go to the build directory and run",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -440,26 +532,7 @@
     "EndLine": 0,
     "Translation": "```\nsudo ninja uninstall\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "qZWQZu9/a79LaIs7lBds4Rasta6c5Sjlh/wJZ2EyXLg=",
-        "originContent": "sudo ninja uninstall",
-        "translatedContent": "sudo ninja uninstall"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -471,32 +544,7 @@
     "EndLine": 0,
     "Translation": "### Deb 패키지에서 설치하기\n\n`.deb` 패키지에서 Nutty를 설치하려면 위에 나열된 Nutty 실행에 필요한 모든 종속 항목이 설치되어 있는지 확인하세요 (빌드 종속 항목은 필요 없음). 그런 다음 아래 명령어를 실행하세요\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### Deb 패키지에서 설치하기"
-      },
-      {
-        "row": 2,
-        "rowsha": "5K6vwJaLfHjBBRO4UYh2PbuZ0m1XlwNslpZq0z9OkGo=",
-        "originContent": "### Installation from Deb package",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "`.deb` 패키지에서 Nutty를 설치하려면 위에 나열된 Nutty 실행에 필요한 모든 종속 항목이 설치되어 있는지 확인하세요 (빌드 종속 항목은 필요 없음). 그런 다음 아래 명령어를 실행하세요"
-      },
-      {
-        "row": 4,
-        "rowsha": "df5NOIzcO5fnjJAO7HvRpnA+b/ZiKVAbTM/1LwNSdAE=",
-        "originContent": "To install Nutty from the `.deb` package make sure you have installed all the above execution dependencies of Nutty (no need build dependencies). Then run the below command",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -508,26 +556,7 @@
     "EndLine": 0,
     "Translation": "```bash\nsudo dpkg -i <deb-package-name>.deb\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "FTMX+70/NfS1Zsky0E7zXe7IvBEiHQLfDwHGK4i4nPg=",
-        "originContent": "sudo dpkg -i <deb-package-name>.deb",
-        "translatedContent": "sudo dpkg -i <deb-package-name>.deb"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -539,20 +568,7 @@
     "EndLine": 0,
     "Translation": "\n그리고 `.deb` 패키지를 통해 설치된 Nutty를 제거하려면 실행하세요",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "ZBk+2DbcLCv0pPXAiBW0TAw3xYKOhpLwYRbYcD07G0o=",
-        "originContent": "And to uninstall Nutty installed via `.deb` package run",
-        "translatedContent": "그리고 `.deb` 패키지를 통해 설치된 Nutty를 제거하려면 실행하세요"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -564,26 +580,7 @@
     "EndLine": 0,
     "Translation": "```bash\nsudo apt autoremove com.github.babluboy.nutty\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "ZLgxh04GN9VnqBlfvcZLuSrljwGSydH6zea/Ri5vRdA=",
-        "originContent": "sudo apt autoremove com.github.babluboy.nutty",
-        "translatedContent": "sudo apt autoremove com.github.babluboy.nutty"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -595,20 +592,7 @@
     "EndLine": 0,
     "Translation": "만약 Nutty의 `.deb` 패키지를 직접 빌드하고 싶다면 위의 빌드 종속성을 설치한 후 실행하세요\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "만약 Nutty의 `.deb` 패키지를 직접 빌드하고 싶다면 위의 빌드 종속성을 설치한 후 실행하세요"
-      },
-      {
-        "row": 2,
-        "rowsha": "xUn5LQ5PocOP1Kx0XsjN+wP35Y0QdYFqVfcURTTzuwU=",
-        "originContent": "If you want to directly build the `.deb` package of Nutty yourself then install the above build dependencies and then run",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -620,44 +604,7 @@
     "EndLine": 0,
     "Translation": "```bash\ngit clone https://github.com/babluboy/nutty.git\ncd nutty\ndpkg-buildpackage -us -uc\ncd ..\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "gxmKacpGu505XdTEXh9FrQZaXfyrVT9/Jbi2Sd7kt1M=",
-        "originContent": "git clone https://github.com/babluboy/nutty.git",
-        "translatedContent": "git clone https://github.com/babluboy/nutty.git"
-      },
-      {
-        "row": 3,
-        "rowsha": "KpwA73GBGZ83DCqpbAEQO3HR4jQd9kJ5UwOtCQjC6wo=",
-        "originContent": "cd nutty",
-        "translatedContent": "cd nutty"
-      },
-      {
-        "row": 4,
-        "rowsha": "IgglyHmRLxvxBBky0TirhNYVl2RB9lKsd6WdouPVGFk=",
-        "originContent": "dpkg-buildpackage -us -uc",
-        "translatedContent": "dpkg-buildpackage -us -uc"
-      },
-      {
-        "row": 5,
-        "rowsha": "7MeL2ie4MsaVajW98e6Pt1n4VCWp6MhdKO21I7tnefU=",
-        "originContent": "cd ..",
-        "translatedContent": "cd .."
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -669,44 +616,7 @@
     "EndLine": 0,
     "Translation": "\n\n## Screenshot\n\n![screenshot](https://raw.githubusercontent.com/babluboy/nutty/gh-pages/images/Nutty_Device_Alert.png)\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "//9AuIIaXy9mvaAGc/r6mkESt/laTi9ivwat9mNHcs0=",
-        "originContent": "## Screenshot",
-        "translatedContent": "## Screenshot"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "T6QiOlzKnQexr09ztk6Ji50wTeo+U+jHCZqhDZZZ/aE=",
-        "originContent": "![screenshot](https://raw.githubusercontent.com/babluboy/nutty/gh-pages/images/Nutty_Device_Alert.png)",
-        "translatedContent": "![screenshot](https://raw.githubusercontent.com/babluboy/nutty/gh-pages/images/Nutty_Device_Alert.png)"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

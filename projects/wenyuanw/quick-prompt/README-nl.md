@@ -8,23 +8,23 @@
         <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=en">Engels</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=it">Itapano</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ja">Japans</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ko">Koreaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=th">Thais</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fr">Frans</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=de">Duits</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=es">Spaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=it">Italiaans</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ru">Russisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pt">Portugees</a>
         | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=pl">Pools</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=ar">Arabisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=fa">Perzisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=tr">Turks</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=vi">Vietnamees</a>
+        | <a href="https://openaitx.github.io/view.html?user=wenyuanw&project=quick-prompt&lang=id">Indonesisch</a>
       </div>
     </div>
   </details>
@@ -34,40 +34,36 @@
   <img src="https://raw.githubusercontent.com/wenyuanw/quick-prompt/main/./assets/icon.png" alt="Quick Prompt Logo" width="128" style="background: transparent;">
 </p>
 
-Een krachtige browserextensie, gericht op promptbeheer en snel invoeren. Helpt gebruikers bij het creëren, beheren en organiseren van een promptbibliotheek en het snel invoegen van vooraf ingestelde prompts in elk invoerveld op een webpagina, waardoor de efficiëntie wordt verhoogd.
+Een krachtige browserextensie gericht op promptbeheer en snelle invoer. Helpt gebruikers bij het creëren, beheren en organiseren van een promptbibliotheek en het snel invoegen van vooraf ingestelde promptinhoud in elk invoerveld op webpagina’s, waardoor de efficiëntie wordt verhoogd.
 
-> Omdat browserextensies alleen voor webpagina's werken, is er een identieke [Raycast-extensie](https://github.com/wenyuanw/quick-prompt-raycast) open source gemaakt. Compatibel met het dataformaat van de browserextensie, ondersteunt naadloze migratie via dezelfde JSON-data.
+> Omdat browserextensies alleen op het web kunnen worden gebruikt, is er een gelijkwaardige [Raycast-extensie](https://github.com/wenyuanw/quick-prompt-raycast) open source gemaakt, compatibel met het gegevensformaat van de browserextensie en ondersteunt naadloze migratie via dezelfde JSON-gegevens.
 
-## ✨ Functies
+## ✨ Functies en Kenmerken
 
-- 📚 **Promptbeheer**: Eenvoudig je promptbibliotheek aanmaken, bewerken en beheren
-- 🚀 **Snel invoeren**: Snel de promptkiezer activeren in elk webinvoerveld met `/p`
-- ⌨️ Ondersteunt sneltoetsconfiguratie voor het openen van de promptkiezer & het opslaan van geselecteerde tekst als prompt
-- 📑 Ondersteunt het direct opslaan van geselecteerde tekst als prompt via het contextmenu (rechtermuisknop)
+- 📚 **Promptbeheer**: Gemakkelijk prompts aanmaken, bewerken en beheren in je promptbibliotheek
+- 🚀 **Snelle invoer**: Activeer de promptkiezer snel in elk webpagina-invoerveld met `/p`
+- ⌨️ Ondersteunt sneltoetsconfiguratie voor het openen van de promptkiezer & geselecteerde tekst opslaan als prompt
+- 📑 Ondersteunt opslaan van geselecteerde tekst als prompt via het rechtermuisklikmenu
 - 🎯 Ondersteunt aangepaste prompts, inclusief categorie, titel, inhoud, labels en variabelen
-- 🧑‍💻 **Variabelenondersteuning**: In prompts kun je variabelen gebruiken in de vorm `{{variabelenaam}}`, waarbij je bij gebruik een waarde kunt invullen
-- 💾 **Databack-up**: Ondersteunt exporteren en importeren van de promptbibliotheek, handig voor migratie en back-up tussen apparaten
-- 🔗 **Notion-synchronisatie**: Ondersteunt synchronisatie van de promptbibliotheek met een Notion-database
-- 🔍 Ondersteunt zoeken en filteren van prompts
-- 🌙 Past zich automatisch aan het lichte of donkere systeemthema aan
-
-## ⚠️ Bekende problemen
-
-- Op de Doubao-website (doubao.com) kan het voorkomen dat `/p` niet wordt verwijderd uit sommige invoervelden nadat de promptkiezer is geactiveerd. Geen zorgen, samen met mijn trouwe partner Cursor werk ik dag en nacht aan een oplossing, hopelijk is het snel gefixt!
+- 🧑‍💻 **Variabelenondersteuning**: Gebruik variabelen in prompts met het formaat `{{variabelenaam}}`, bij gebruik kun je specifieke waarden invullen
+- 💾 **Databack-up**: Ondersteunt exporteren en importeren van de promptbibliotheek voor eenvoudige migratie en back-up tussen apparaten
+- 🔗 **Cloudsynchronisatie**: Synchroniseer je promptbibliotheek met een Notion-database of Gitee/GitHub Gist
+- 🔍 Ondersteunt zoek- en filterfuncties voor prompts
+- 🌙 Past automatisch aan het licht/donker systeemthema aan
 
 ## 🚀 Gebruiksaanwijzing
 
-1. **Snel activeren**: Typ `/p` in elk tekstinvoerveld op een webpagina om de promptkiezer te activeren
-2. **Promptkiezer openen met sneltoets**: Gebruik `Ctrl+Shift+P` (Windows/Linux) of `Command+Shift+P` (macOS) om de promptkiezer te openen
-3. **Prompt selecteren**: Klik op de gewenste prompt in de pop-upkiezer; deze wordt automatisch ingevoegd in het huidige invoerveld
-4. **Snel prompt opslaan**: Selecteer tekst en gebruik `Ctrl+Shift+S` (Windows/Linux) of `Command+Shift+S` (macOS) om snel op te slaan als prompt
-5. **Opslaan via contextmenu**: Selecteer tekst, klik met de rechtermuisknop en kies "Deze prompt opslaan" om de selectie als prompt te bewaren
-6. **Promptbibliotheek exporteren**: Klik op de knop "Exporteren" in het beheerscherm om alle prompts als JSON-bestand lokaal op te slaan
-7. **Promptbibliotheek importeren**: Klik op de knop "Importeren" in het beheerscherm om prompts vanuit een lokaal JSON-bestand te importeren (ondersteunt samenvoegen of overschrijven van bestaande prompts)
+1. **Snel activeren**: Typ `/p` in het tekstinvoerveld op elke webpagina om de promptkiezer te openen
+2. **Sneltoets voor promptkiezer**: Gebruik `Ctrl+Shift+P` (Windows/Linux) of `Command+Shift+P` (macOS) om de promptkiezer te openen
+3. **Selecteer prompt**: Klik in de popup-zoeker op de gewenste prompt, deze wordt automatisch in het huidige invoerveld ingevoegd
+4. **Snel prompt opslaan**: Selecteer willekeurige tekst en gebruik `Ctrl+Shift+S` (Windows/Linux) of `Command+Shift+S` (macOS) om snel op te slaan als prompt
+5. **Opslaan via rechtermuisknop**: Selecteer tekst, klik met rechts en kies "Prompt opslaan" om geselecteerde inhoud op te slaan als prompt
+6. **Prompts exporteren**: Klik op de knop "Exporteren" op de beheerpagina om alle prompts als JSON-bestand lokaal op te slaan
+7. **Prompts importeren**: Klik op de knop "Importeren" op de beheerpagina om prompts uit een lokaal JSON-bestand te importeren (ondersteunt samenvoegen of overschrijven)
 
 ## 📸 Interfacevoorbeeld
 
-Quick Prompt biedt een intuïtieve, gebruiksvriendelijke interface, zodat je prompts eenvoudig kunt beheren en toepassen.
+Quick Prompt biedt een intuïtieve en gebruiksvriendelijke interface voor het eenvoudig beheren en gebruiken van prompts.
 
 ### Promptkiezer
 
@@ -75,50 +71,49 @@ Quick Prompt biedt een intuïtieve, gebruiksvriendelijke interface, zodat je pro
 
 ![Promptkiezer](https://github.com/user-attachments/assets/22d9d30c-b4c3-4e34-a0a0-8ef51e2cb942)
 
-Gebruik de `/p` snelcode of sneltoets om in elk invoerveld snel de promptkiezer te openen, zodat je eenvoudig prompts kunt kiezen en invoegen.
+Gebruik de sneltoets `/p` of de sneltoetscombinatie om de promptkiezer snel op te roepen in elk invoerveld, zodat je eenvoudig gewenste prompts kunt selecteren en invoegen.
 
 ### Promptbeheerpagina
 
 ![Promptbeheer](https://github.com/user-attachments/assets/371ae51e-1cee-4a66-a2a5-cca017396872)
 
-Op de beheerpagina kun je nieuwe prompts aanmaken, bestaande bewerken, labels toevoegen en categorieën beheren. De interface is overzichtelijk en gebruiksvriendelijk.
+Op de beheerpagina kun je nieuwe prompts aanmaken, bestaande prompts bewerken, labels toevoegen en categorieën beheren. De interface is overzichtelijk en gemakkelijk te gebruiken.
 
-### Opslaan via contextmenu
+### Opslaan via rechtermuisklikmenu
 
-![Opslaan via contextmenu](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
+![Opslaan via rechtermuisklikmenu](https://github.com/user-attachments/assets/17fc3bfd-3fa4-4b0b-ae1a-5cfd0b62be2e)
 
-Selecteer eenvoudigweg tekst op een webpagina, klik met de rechtermuisknop en sla deze direct op als prompt voor meer efficiëntie.
+Selecteer eenvoudigweg elke tekst op de webpagina, klik met de rechtermuisknop om deze snel als prompt op te slaan en verhoog zo uw efficiëntie.
 
-### Promptvariabelen invoeren
+### Invoer van promptvariabelen
 
 ![Promptvariabelen pop-up](https://github.com/user-attachments/assets/c91c1156-983a-454d-aad0-5698b0291b9b)
 
-Prompts ondersteunen variabelen; na selectie verschijnt een pop-up om de juiste waarde voor de variabelen in te voeren.
+Prompts ondersteunen het configureren van variabelen; na selectie verschijnt er een pop-up om de variabele in te voeren.
 
 ## ⚙️ Aangepaste configuratie
 
-1. Klik op het extensiepictogram en klik vervolgens op de knop "Beheer prompts"
-
+1. Klik op het extensie-icoon en vervolgens op de knop "Beheer prompts"
 2. Op de beheerderspagina kun je:
    - Nieuwe prompts toevoegen
    - Bestaande prompts bewerken
    - Onnodige prompts verwijderen
-   - Labels toevoegen om prompts te categoriseren
-   - De promptbibliotheek exporteren voor een back-up
-   - Eerder geback-upte promptbibliotheken importeren
+   - Labels toevoegen aan prompts voor classificatie
+   - Promptbibliotheek exporteren voor back-up
+   - Eerder geback-upte promptbibliotheek importeren
 
 ## 📦 Installatiehandleiding
 
-### Installeren via de Chrome Web Store
+### Installeren via de appwinkel
 
 Nu beschikbaar in de Chrome Web Store! [Klik hier om te downloaden en te installeren](https://chromewebstore.google.com/detail/quick-prompt/hnjamiaoicaepbkhdoknhhcedjdocpkd)
 
 ### Downloaden via GitHub Releases
 
 1. Ga naar de [GitHub Releases pagina](https://github.com/wenyuanw/quick-prompt/releases)
-2. Download het nieuwste gebouwde plug-inpakket
+2. Download het meest recente, gebouwde pluginpakket
 3. Pak het gedownloade bestand uit
-4. Installeer de gebouwde extensie volgens de onderstaande instructies
+4. Installeer de gebouwde extensie volgens de instructies hieronder
 
 ### Bouwen vanuit de broncode
 
@@ -146,7 +141,8 @@ Nu beschikbaar in de Chrome Web Store! [Klik hier om te downloaden en te install
    # 构建扩展 (Firefox)
    pnpm build:firefox
    ```
-### Het installeren van de gebouwde extensie
+
+### Geïnstalleerde extensie bouwen
 
 #### Chrome / Edge
 1. Open de extensiebeheerpagina (`chrome://extensions` of `edge://extensions`)
@@ -158,15 +154,15 @@ Nu beschikbaar in de Chrome Web Store! [Klik hier om te downloaden en te install
 1. Open `about:debugging`
 2. Klik op "Deze Firefox"
 3. Klik op "Tijdelijke add-on laden"
-4. Selecteer het bestand `manifest.json` in de map `.output/firefox-mv2/` van het project
+4. Selecteer het bestand `manifest.json` in de `.output/firefox-mv2/` map van het project
 
 ## 📄 Licentie
 
 MIT
 
-## 🤝 Richtlijnen voor bijdragen
+## 🤝 Bijdragehandleiding
 
-Pull Requests en Issues zijn van harte welkom!
+Pull Requests en Issues zijn welkom!
 
 1. Fork deze repository
 2. Maak je feature branch (`git checkout -b feature/amazing-feature`)
@@ -174,23 +170,22 @@ Pull Requests en Issues zijn van harte welkom!
 4. Push naar de branch (`git push origin feature/amazing-feature`)
 5. Open een Pull Request
 
-## 👏 Overzicht van bijdragers
+## 👏 Lijst van bijdragers
 
-Bedankt aan alle ontwikkelaars die aan dit project bijdragen!
+Dank aan alle ontwikkelaars die aan het project hebben bijgedragen!
 
 <a href="https://github.com/wenyuanw/quick-prompt/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=wenyuanw/quick-prompt" />
 </a>
 
 
-## Sterren-geschiedenis
+## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=wenyuanw/quick-prompt&type=Date)](https://www.star-history.com/#wenyuanw/quick-prompt&Date)
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-16
 
 ---

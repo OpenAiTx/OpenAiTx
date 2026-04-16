@@ -1,0 +1,974 @@
+[
+  {
+    "row": 1,
+    "rowsha": "KJWbb/G+/mx/68bbxNDWIi/r95yDyQgbUqdIKC/VbJc=",
+    "originContent": "# gnome-gamma-tool",
+    "translatedContent": "# gnome-gamma-tool"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "WXuqV+0rUR6JSud49cKwEdddI8mPuuPJBKpbIhMlVPE=",
+    "originContent": "A command-line tool that let's you change gamma, contrast and brightness in GNOME and Cinnamon in a persistent manner by creating a color profile with the VCGT table.",
+    "translatedContent": "一个命令行工具，允许你通过创建带有 VCGT 表的色彩配置文件，以持久的方式更改 GNOME 和 Cinnamon 中的伽马、对比度和亮度。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+    "originContent": "## Disclaimer",
+    "translatedContent": "## 免责声明"
+  },
+  {
+    "row": 6,
+    "rowsha": "KUo4XrS18KNlu+zgrgNAEtg5S4+TfXW7baCEilIO6E4=",
+    "originContent": "**This only works with GNOME and Cinnamon**. Tested on Fedora with GNOME 42-48 and Cinnamon, it might not work with older/newer versions, albeit profiles already generated should continue to work.",
+    "translatedContent": "**此工具仅适用于 GNOME 和 Cinnamon**。已在 Fedora 上的 GNOME 42-48 和 Cinnamon 版本测试，可能无法在旧版/新版中正常工作，但已生成的配置文件应继续有效。"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "wzESOQBl+BcFizEkQmtF37T0sxl28E9vGUHHsw1VPTs=",
+    "originContent": "This is rather hacky, color profiles were not meant to be used like that. But I think the use case is rare enough to justify this. After all, if your monitor doesn't let you change the gamma, isn't that a problem with the monitor?",
+    "translatedContent": "这是相当黑客式的做法，色彩配置文件本不打算这样使用。但我认为这种使用场景足够少见，值得这么做。毕竟，如果你的显示器不允许你更改伽马，这难道不是显示器的问题吗？"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "GB7TtAolkJoAu/PWUSp1QW1aK6PYJO5R1jk/xKMujUU=",
+    "originContent": "See [How it works](#how-it-works) for a more detailed description.",
+    "translatedContent": "详见[工作原理](#how-it-works)部分的详细说明。"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "1N2PwtDE0OcimbIcEJDyDrboVpMwTexUnlBXc5w4BnA=",
+    "originContent": "**Note:** it's not possible to change the screen saturation or hue (due to VCGT limitations), but you can try using [gnome-saturation-extension](https://github.com/zb3/gnome-saturation-extension) (which has its drawbacks though).",
+    "translatedContent": "**注意：**由于 VCGT 的限制，无法更改屏幕的饱和度或色调，但你可以尝试使用 [gnome-saturation-extension](https://github.com/zb3/gnome-saturation-extension)（不过该扩展也有其缺点）。"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 15,
+    "rowsha": "WJc2YhnJ0dY22xPRtY9n5GfER3wrAeNQBGRlY66wZ3E=",
+    "originContent": "There's no need to install this, just clone this repository:",
+    "translatedContent": "无需安装，只需克隆此仓库："
+  },
+  {
+    "row": 16,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 17,
+    "rowsha": "2KVzSzAM1LYj/L8wRFFIKMtrwoWDcpWbh6jS75TgRcc=",
+    "originContent": "git clone https://github.com/zb3/gnome-gamma-tool",
+    "translatedContent": "git clone https://github.com/zb3/gnome-gamma-tool"
+  },
+  {
+    "row": 18,
+    "rowsha": "w1OLO55RTVO1Z8jG1uL3u9tlWfrB+6imLQ+lkOgy464=",
+    "originContent": "cd gnome-gamma-tool",
+    "translatedContent": "cd gnome-gamma-tool"
+  },
+  {
+    "row": 19,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "UY5m6ooM3TrBAsw5GzKVSbuj8LxiKPaBBAVkRrrhKN4=",
+    "originContent": "**If** you're using Debian/Ubuntu, you might also need to install the `gir1.2-colord-1.0` package first:",
+    "translatedContent": "**如果**你使用的是 Debian/Ubuntu，可能还需要先安装 `gir1.2-colord-1.0` 软件包："
+  },
+  {
+    "row": 22,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 23,
+    "rowsha": "19o4sNwszDcOMOeadvf19/ZBiI66dPNdd/Pv1mb8V7E=",
+    "originContent": "sudo apt install gir1.2-colord-1.0",
+    "translatedContent": "sudo apt install gir1.2-colord-1.0"
+  },
+  {
+    "row": 24,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 25,
+    "rowsha": "uA2KrhUo47iiLDrZDjca4ljmmVXunlm737QR+F4kuh8=",
+    "originContent": "for OpenSUSE, you might need to install the `typelib-1_0-Colord-1_0` package instead:",
+    "translatedContent": "对于 OpenSUSE，您可能需要安装 `typelib-1_0-Colord-1_0` 软件包："
+  },
+  {
+    "row": 26,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 27,
+    "rowsha": "DeaYnizytIC7hmW91XRbQbu2Aj+yuZl1Gqsl/N6RSZQ=",
+    "originContent": "sudo zypper install typelib-1_0-Colord-1_0",
+    "translatedContent": "sudo zypper install typelib-1_0-Colord-1_0"
+  },
+  {
+    "row": 28,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 29,
+    "rowsha": "y46nMYLJO5AdPy+bZBkwgN/MTfwRr/VXITCXFxqKjek=",
+    "originContent": "if you're using NixOS, check [this comment](https://github.com/zb3/gnome-gamma-tool/issues/28#issuecomment-3112277504)",
+    "translatedContent": "如果你使用的是 NixOS，请查看[此评论](https://github.com/zb3/gnome-gamma-tool/issues/28#issuecomment-3112277504)"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "nC+uFnf20wWHzyNzYiUr/InY2RuBRrE/71rtYj/qlB0=",
+    "originContent": "Then you can invoke the tool like this:",
+    "translatedContent": "然后你可以这样调用该工具："
+  },
+  {
+    "row": 32,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 33,
+    "rowsha": "qFvbv+7oW9frvd3RjO/j3tt39aPzppJTnbLdyvqCLcE=",
+    "originContent": "./gnome-gamma-tool.py",
+    "translatedContent": "./gnome-gamma-tool.py"
+  },
+  {
+    "row": 34,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 35,
+    "rowsha": "RjRSKN03mMqZL8rd49MWIU6qyKCj0l8n4l/Lvj5rEG4=",
+    "originContent": "(if this doesn't work, please open a new issue [here](https://github.com/zb3/gnome-gamma-tool/issues/new))",
+    "translatedContent": "（如果这不起作用，请在[这里](https://github.com/zb3/gnome-gamma-tool/issues/new)打开一个新问题）"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "tDhE5NSF5Ds25SngIlvM8Ovn1ibWRhLfXrGKJSrjg3E=",
+    "originContent": "Once the new profile is installed, this tool can be safely removed.",
+    "translatedContent": "一旦新的配置文件安装完成，该工具可以安全移除。"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 调整屏幕伽马"
+  },
+  {
+    "row": 40,
+    "rowsha": "43yW5gFpM5SJskFQb77k9EaU34BzrUnRxGKLUkJJPEE=",
+    "originContent": "### Adjusting screen gamma",
+    "translatedContent": "`-g` 参数允许您指定伽马校正因子。您也可以使用 `R:G:B` 形式为单独通道设置。"
+  },
+  {
+    "row": 41,
+    "rowsha": "QuCNXXV2NeaaX8wYb0JgeY2Vv3I4GJipntDGnJOk/II=",
+    "originContent": "The `-g` argument let's you specify the gamma correction factor. You can also use the `R:G:B` form to set it for individual channels.",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "例如："
+  },
+  {
+    "row": 43,
+    "rowsha": "ZSdEoqsolUu6/XgP12wVwr1VdZRTL5B/EOrRmJcnr5U=",
+    "originContent": "For example:",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 45,
+    "rowsha": "vnLIfav6shVXWE+pnAmgqamETGELEBW0oovAp6AYxdk=",
+    "originContent": "./gnome-gamma-tool.py -g 0.8",
+    "translatedContent": "./gnome-gamma-tool.py -g 0.8"
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "cXVRejcLXNLmZOP9KcTqnbXOFwWOuXcv4JClSF5J2tY=",
+    "originContent": "or",
+    "translatedContent": "or"
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "MQ/Oag+3OUanVZv2U9AdKtuL1DaU2Or/vC3nonWMSt4=",
+    "originContent": "./gnome-gamma-tool.py -g 0.8:0.8:0.8",
+    "translatedContent": "./gnome-gamma-tool.py -g 0.8:0.8:0.8"
+  },
+  {
+    "row": 50,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "JXw0TjW2bYQrYmVCKJ63vdIpWiQsq5NjTmNDx60BjWQ=",
+    "originContent": "### Adjusting contrast (or inverting colors)",
+    "translatedContent": "### 调整对比度（或反转颜色）"
+  },
+  {
+    "row": 53,
+    "rowsha": "LEMNoFX6Z6LCy0t9yHSUpt9hzby50WHULKm0fI/4KZ0=",
+    "originContent": "You can also change the contrast using the `-c` parameter. `1` is the default value, while `-1` will effectively invert the colors. Make sure not to use the `0` value here as it will make your display all grey...",
+    "translatedContent": "您也可以使用 `-c` 参数来更改对比度。`1` 是默认值，而 `-1` 则会有效地反转颜色。请确保不要使用 `0`，因为这会使显示变成全灰色..."
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "ZSdEoqsolUu6/XgP12wVwr1VdZRTL5B/EOrRmJcnr5U=",
+    "originContent": "For example:",
+    "translatedContent": "例如："
+  },
+  {
+    "row": 56,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 57,
+    "rowsha": "iC+HGQKxfqJ5pfl73aj+Kz2Gb8pYtZ3lXXlerEqkkPw=",
+    "originContent": "./gnome-gamma-tool.py -c -1",
+    "translatedContent": "./gnome-gamma-tool.py -c -1"
+  },
+  {
+    "row": 58,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "请注意，它总是从初始状态开始，因此上述命令将撤销任何先前的伽马调整，但您可以组合不同的选项："
+  },
+  {
+    "row": 60,
+    "rowsha": "JFBOClQySEEIJwgFIUp9EObaJcRxuXPnw7W2SFlbUQ0=",
+    "originContent": "Note that it always starts from the initial state, hence the command above will undo any previous gamma adjustments, but you can combine different options:",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "3SyDcyeHPGRv4OqVzOekJak9ZBxObrzURx364FN2L1k=",
+    "originContent": "./gnome-gamma-tool.py -g 0.8 -c 0.5",
+    "translatedContent": "./gnome-gamma-tool.py -g 0.8 -c 0.5"
+  },
+  {
+    "row": 64,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "uvDs/pyzW/0OhvrZLmxQmk6V7+3ZwclfNQWIRUYdT2A=",
+    "originContent": "Per-channel settings work here too, so for instance it's possible to invert the blue channel while keeping red and green intact. Can you guess how this would look like? Give it a try:",
+    "translatedContent": "这里同样适用每通道设置，因此例如可以反转蓝色通道，同时保持红色和绿色不变。你能猜出这会是什么样子吗？试试看吧："
+  },
+  {
+    "row": 67,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 68,
+    "rowsha": "VQKuZtlXy/xYArUKj474XTr+zxnI0jiOGhpI0DAOPpc=",
+    "originContent": "./gnome-gamma-tool.py -c=1:1:-1",
+    "translatedContent": "./gnome-gamma-tool.py -c=1:1:-1"
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "fp9nQWo84xRIglAjRk/15Tkjg0VNVknCDmrtXDP1stA=",
+    "originContent": "Was that what you expected? :)",
+    "translatedContent": "那是你预期的吗？ :)"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "vndKARl74Hw1Sf/Otu22j/rEQ5atohBGKc8O3McXVSM=",
+    "originContent": "### Changing color temperature",
+    "translatedContent": "### 更改色温"
+  },
+  {
+    "row": 73,
+    "rowsha": "yc5YNBHnX/DM/9t24wyKRE4sX20EcUtaxaaGXAWji9Q=",
+    "originContent": "Color temperature can also be changed, use the `-t` option to specify the temperature. Values work just like in `redshift` where `6500` is the neutral value. Note that this doesn't prevent the night light feature from working, it's just that night light adjustments are made \"on top of\" what gnome-gamma-tool does.",
+    "translatedContent": "色温也可以更改，使用 `-t` 选项指定温度。数值的使用方式与 `redshift` 相同，`6500` 是中性值。请注意，这不会阻止夜间模式功能的运行，只是夜间模式的调整是在 gnome-gamma-tool 所做调整的“基础上”进行的。"
+  },
+  {
+    "row": 74,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 75,
+    "rowsha": "yhtD/97PKBgKjhfhSRPcflvrO34nYrI8T8nOy4Uqo9Q=",
+    "originContent": "./gnome-gamma-tool.py -t 5000",
+    "translatedContent": "./gnome-gamma-tool.py -t 5000"
+  },
+  {
+    "row": 76,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "mSxRB/ShwdrIHikMrrrvPO4Ocdxy6fosZwVHgEgEq7o=",
+    "originContent": "### Adjust brightness (kinda)",
+    "translatedContent": "### 调整亮度（有点）"
+  },
+  {
+    "row": 79,
+    "rowsha": "xcByOH8FrKp8s1VzKmkSxolO1KND77dj+8iaUNu/KbE=",
+    "originContent": "You can also adjust brightness with this tool, but it's not possible to increase the physical display brightness, it's only possible to decrease it by decreasing the maximum brightness value. Use the `-b` option to do that, it accepts values from `0` to `1`, where `1` is the neutral value:",
+    "translatedContent": "您也可以使用此工具调整亮度，但无法增加物理显示器的亮度，只能通过降低最大亮度值来减少亮度。使用 `-b` 选项来实现，取值范围是 `0` 到 `1`，其中 `1` 为中性值："
+  },
+  {
+    "row": 80,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 81,
+    "rowsha": "p9WlGUyYYkEmddvbU8LFOC7iA+70jNYwnFcu5icGbVc=",
+    "originContent": "./gnome-gamma-tool.py -b 0.7",
+    "translatedContent": "./gnome-gamma-tool.py -b 0.7"
+  },
+  {
+    "row": 82,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "这里还有另一个选项允许你*增加* *最小*亮度值。它是`-bm`选项，同样接受从`0`到`1`的值，这次`0`是中性值。执行以下操作后："
+  },
+  {
+    "row": 84,
+    "rowsha": "Fb3oiMWN2gJpPi9apctGiiIrmA+W+erHktzKktUNG64=",
+    "originContent": "There's another option here which let's you *increase* the *minimum* brightness value. It's the `-bm` option which also accepts values from `0` to `1`, this time `0` being the neutral value. After doing:",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 86,
+    "rowsha": "lD9lSL0tQbPoGK4AhB6+6vrKwJ/sHdCmDXgdiDSD8CI=",
+    "originContent": "./gnome-gamma-tool.py -bm 0.3",
+    "translatedContent": "./gnome-gamma-tool.py -bm 0.3"
+  },
+  {
+    "row": 87,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 88,
+    "rowsha": "pPRAIFdgJuVB7c0+0XDhXI85WjZAHfJPKu/sfGJDe+I=",
+    "originContent": "the output value will never be smaller than `0.3` so black won't be black but actually grey, while white will still be white and colors in between will be multiplied accordingly. It's also possible to invert colors using the combination of `-b` and `-bm`:",
+    "translatedContent": "输出值永远不会小于 `0.3`，因此黑色不会是纯黑，而实际上是灰色，而白色仍然是白色，中间的颜色将相应地被乘以。也可以使用 `-b` 和 `-bm` 的组合来反转颜色："
+  },
+  {
+    "row": 89,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 90,
+    "rowsha": "PjXbCpGi0FEs7TXf+kShthCRdAw3HcYAxDURZxBwxRk=",
+    "originContent": "./gnome-gamma-tool.py -b 0 -bm 1",
+    "translatedContent": "./gnome-gamma-tool.py -b 0 -bm 1"
+  },
+  {
+    "row": 91,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "VMr3ZXoyuQeCvfn0LsTfKL9XjZ9UER/yUjTTazpKZL0=",
+    "originContent": "And... that's not all, because these also work per individual channels, thanks to the `R:G:B` notation. This opens up new possibilities, like... making your screen more green (which you couldn't achieve with color temperature):",
+    "translatedContent": "而且……这还不是全部，因为这些也适用于各个独立通道，这要归功于 `R:G:B` 表示法。这开启了新的可能性，比如……让你的屏幕更绿（这是色温无法实现的）："
+  },
+  {
+    "row": 94,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 95,
+    "rowsha": "zi5akyEQOKprfCUwQ/bUsMCShe0QWMT/8WmloYIa2i4=",
+    "originContent": "./gnome-gamma-tool.py -b 1:2:1",
+    "translatedContent": "./gnome-gamma-tool.py -b 1:2:1"
+  },
+  {
+    "row": 96,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 97,
+    "rowsha": "LwuzcLWvRkH48326q/ntVUP9A3KY849OLRKe22fryaM=",
+    "originContent": "The above gets transformed into `0.5:1:0.5` first, and technically it makes your screen less red and less blue, but practically it makes the screen appear more green. What a useful feature, don't you think so?",
+    "translatedContent": "上面首先被转换成 `0.5:1:0.5`，从技术上讲，它使你的屏幕减少了红色和蓝色，但实际上它使屏幕看起来更绿。多么有用的功能，你不觉得吗？"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "4QUsdB0OYjQsYdWH2E2NOERrQD7Mw3cjX/6OZt2i4ks=",
+    "originContent": "### If you have multiple displays",
+    "translatedContent": "### 如果你有多个显示器"
+  },
+  {
+    "row": 101,
+    "rowsha": "097NsCZ09I7jt6GbqEEyGOO53zvw3oT+V9iWcR2RezI=",
+    "originContent": "You can specify the display *index* using the `-d` option (the first one has index `0` but that's the default one so you don't need to use this argument in this case...). The order of displays is the same as in the `Settings -> Color` panel. Here comes the example:",
+    "translatedContent": "你可以使用 `-d` 选项指定显示器的 *索引*（第一个的索引是 `0`，但这是默认的，所以在这种情况下你不需要使用这个参数……）。显示器的顺序与 `设置 -> 颜色` 面板中的顺序相同。下面是示例："
+  },
+  {
+    "row": 102,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 103,
+    "rowsha": "Ukxrgevfbxv7zjHDFlRdTLpi9JbTTpbzmvg3D4Ik3iI=",
+    "originContent": "./gnome-gamma-tool.py -d 1 -g 0.7",
+    "translatedContent": "./gnome-gamma-tool.py -d 1 -g 0.7"
+  },
+  {
+    "row": 104,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "你也可以使用 `-a` 选项对所有显示器应用更改："
+  },
+  {
+    "row": 106,
+    "rowsha": "vM0ctQ8MefClJTBVpp9tPVWBM9IyC2VuCrUR3Kmaz/o=",
+    "originContent": "You can also apply changes to all displays using the `-a` option:",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 108,
+    "rowsha": "+02dKBsKlSaqq7XjCGuV+9jn3y1xSpqH6NCD28+mMxI=",
+    "originContent": "./gnome-gamma-tool.py -a -g 0.7",
+    "translatedContent": "./gnome-gamma-tool.py -a -g 0.7"
+  },
+  {
+    "row": 109,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "KbEHDuYx7UNHp3okmY6YYvrn7G52llOR7jKQKBiDpqk=",
+    "originContent": "### Exporting to a file",
+    "translatedContent": "### 导出到文件"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "b5s/hns6rW8+om0aPTBo6RUWUpWR2gwiQNGrtfR+J/U=",
+    "originContent": "If you just want to create an ICC profile with the proper VCGT table but without interacting with your current configuration, you can use the `-o`/`--out-file` argument. Note that it will not load your current profile, so the output will be a sRGB profile unless you use the `-i`/`--in-file` argument to specify the base profile.",
+    "translatedContent": "如果您只想创建一个带有正确 VCGT 表的 ICC 配置文件，但不想与当前配置交互，可以使用 `-o`/`--out-file` 参数。请注意，它不会加载您当前的配置文件，因此输出将是一个 sRGB 配置文件，除非您使用 `-i`/`--in-file` 参数指定基础配置文件。"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "dL1fl7mHHGXRZDygp30slivVgVJ3kK/Cg9WS45V6m64=",
+    "originContent": "You can then import and apply it using a tool like `colormgr`.",
+    "translatedContent": "然后，您可以使用像 `colormgr` 这样的工具导入并应用它。"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 118,
+    "rowsha": "7Ow47emRxyPaq00z5t80/V4f0V4X7aVEMEIHwDiyGRo=",
+    "originContent": "# Create myprofile.icc file",
+    "translatedContent": "# Create myprofile.icc file"
+  },
+  {
+    "row": 119,
+    "rowsha": "M25idK0YUQN7JHBrd6eA8QOH2K/c0i/is7fztFHYgaU=",
+    "originContent": "python3 ./gnome-gamma-tool.py --min-brightness 0.05 --brightness 0.95 --out-file myprofile.icc",
+    "translatedContent": "python3 ./gnome-gamma-tool.py --min-brightness 0.05 --brightness 0.95 --out-file myprofile.icc"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "wHK8wiOK1HgWnLHia0ouZ6rBPnpKNwav9TEvlGfZGDs=",
+    "originContent": "# This command will print Device ID, save it",
+    "translatedContent": "# This command will print Device ID, save it"
+  },
+  {
+    "row": 122,
+    "rowsha": "QXytMiB31lpUczrS5IyXh3POg/Ekq5ICXKfTxYj/jNQ=",
+    "originContent": "colormgr get-devices",
+    "translatedContent": "colormgr get-devices"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "HT7rskNvSe8gqAVSKzQC5Cjs1bwuFDF4TM3J7VazkgE=",
+    "originContent": "# This command will print Profile ID, save it",
+    "translatedContent": "# This command will print Profile ID, save it"
+  },
+  {
+    "row": 125,
+    "rowsha": "s+tdwkKdqFAIeS1Md5ZPJiGSW2UVjdRtUaTi7UqDgEY=",
+    "originContent": "colormgr import-profile myprofile.icc",
+    "translatedContent": "colormgr import-profile myprofile.icc"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "s2Zb51CpGQORk1fcuKkcFidtQLPUfICSmhPCtHREr5Q=",
+    "originContent": "# This command will affect colors immediately",
+    "translatedContent": "# This command will affect colors immediately"
+  },
+  {
+    "row": 128,
+    "rowsha": "ppn0b7N3jIASGiwFYBtTuyDV8wnlALV3geBkHUHqZCE=",
+    "originContent": "colormgr device-add-profile $displayId $profileId",
+    "translatedContent": "colormgr device-add-profile $displayId $profileId"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "icfJpje0aU6vTFZXNASmxyOx28BrrBZDZk0wDGisfLY=",
+    "originContent": "# This command will remove imported profile and revert colors to original state immediately.",
+    "translatedContent": "# This command will remove imported profile and revert colors to original state immediately."
+  },
+  {
+    "row": 131,
+    "rowsha": "SuFhfT9/EBMbC35KmyfsgOC4u6929NKR5plThRVLECU=",
+    "originContent": "colormgr delete-profile $profileId",
+    "translatedContent": "colormgr delete-profile $profileId"
+  },
+  {
+    "row": 132,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 工作原理"
+  },
+  {
+    "row": 134,
+    "rowsha": "WuQ4YQzxbjHrWEpFPXb0XZT20bsUdRRGrE6Z4+N8M6g=",
+    "originContent": "## How it works",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Mutter（GNOME 的合成器）没有实现任何可用的 Wayland 协议，因此像 `gammastep` 或 `wl-gammactl` 这样的工具无法工作。Mutter 通过 D-Bus 暴露了 `SetCrtcGamma` 方法，这个方法确实有效。但这不是 gnome-gamma-tool 实现其目的的方式，因为："
+  },
+  {
+    "row": 136,
+    "rowsha": "JEJqbg+iIG6+noFhaCbDqr5i/7BZTNdgMcSiaPYr0/4=",
+    "originContent": "Mutter (GNOME's compositor) does not implement any Wayland protocols that could help, so tools like `gammastep` or `wl-gammactl` won't work. Mutter, however, exposes the `SetCrtcGamma` method via D-Bus, and that method really works. Yet it's not how gnome-gamma-tool achieves it's purpose because:",
+    "translatedContent": "* 该值不会被保存，因此效果不具备持久性"
+  },
+  {
+    "row": 137,
+    "rowsha": "hOv79qYgEpL0jlXLa7sScSum+sS3wdrY6f9tnr0+IDE=",
+    "originContent": "* the value is not saved anywhere so the effect is not persistent",
+    "translatedContent": "* 该方法已被另一个守护进程调用，因此效果只是暂时的。"
+  },
+  {
+    "row": 138,
+    "rowsha": "ko03wSZAgn8eDTY41KoBKuVh8BJFoxDD5vU4NTfWUeM=",
+    "originContent": "* this method is already called by another daemon, so the effect is only temporary.",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "该方法通常由 `gsd-color` 守护进程（间接）调用，目前有两件事会影响其参数："
+  },
+  {
+    "row": 140,
+    "rowsha": "6fzaFR5JHJoVJelT1UOTq6IozV5tO0ZeMmiHIMm7ehk=",
+    "originContent": "That method is normally called by the `gsd-color` daemon (indirectly), and currently there are two things that can affect its arguments:",
+    "translatedContent": "* 当前启用的色彩配置文件的 VCGT 表（通过 colord 获取）"
+  },
+  {
+    "row": 141,
+    "rowsha": "2DWK12IFEwgjwhbErHI1O5wEYh20HdzR1tPSJD555ck=",
+    "originContent": "* VCGT table of the currently enabled color profile (retrieved via colord)",
+    "translatedContent": "* 来自“夜间灯光”设置的色温"
+  },
+  {
+    "row": 142,
+    "rowsha": "feppAXdt0HoZOxnn/SxtxpH1yTi9nxZny7zT8RcgRSU=",
+    "originContent": "* color temperature derived from the \"night light\" settings",
+    "translatedContent": "（这两者会被合并）"
+  },
+  {
+    "row": 143,
+    "rowsha": "Wgfk6xsTvsQBlmzdAOXzRZD6ZM3MRhqippePu+gaVfU=",
+    "originContent": "(these two are combined together)",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "现在，似乎显而易见的解决方案是修补 `gsd-color`，以便也考虑其他因素（如 GSettings 属性），这样你就可以通过 `gsettings` 命令调整伽玛。这样也为以后在显示面板添加 GUI 打开了可能性。"
+  },
+  {
+    "row": 145,
+    "rowsha": "gZPJeEvMM62yfs56E2I+fvVkFUYb0zxs1Yvmk8+zx+U=",
+    "originContent": "Now, it might seem that the obvious solution here is to patch `gsd-color` to also take other things (like a GSettings property) into account, so you could tweak the gamma via the `gsettings` command. This would also open the possibility of adding a GUI to the Display panel later.",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "然而，这不是 gnome-gamma-tool 的工作方式，因为修补 `gsd-color` 只有在该补丁将被合并到上游时才有意义。否则，我（也可能是你）完全无法接受需要应用自定义补丁并重建 GNOME 的部分组件。这就是为什么 gnome-gamma-tool 安装了带有正确“VCGT”表的色彩配置文件。"
+  },
+  {
+    "row": 147,
+    "rowsha": "evBT0ycAzV4MMFgCLEeHEHKkz/Wtn2gC4ZTcMVZiUKQ=",
+    "originContent": "Yet again, this is not how gnome-gamma-tool operates, because patching `gsd-color` only makes sense if this patch is to be merged upstream. Otherwise it's completely unacceptable for me (and probably for you too) to have to apply custom patches and rebuild parts of GNOME. That's why gnome-gamma-tool installs a color profile with the correct \"VCGT\" table set up.",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`gsd-color` 不管理色彩配置文件，它通过 colord 提供的 API 观察它们。要让 `gsd-color` 识别一个配置文件，必须完成以下操作："
+  },
+  {
+    "row": 149,
+    "rowsha": "onqK+HrKKq+StOodg4+T0bSrzsTjOzSmly37kV8nyak=",
+    "originContent": "`gsd-color` doesn't manage color profiles, it observes them using the API provided by colord. To make a profile recognized by `gsd-color`, these things must be done:",
+    "translatedContent": "* 为给定设备启用色彩配置文件"
+  },
+  {
+    "row": 150,
+    "rowsha": "MM39aF5dJU7IVoh8wMPLzaaHJHi2TKEd4mGkaia92tA=",
+    "originContent": "* color profiles must be enabled for a given device",
+    "translatedContent": "* 安装该配置文件（在 colord 数据库中）"
+  },
+  {
+    "row": 151,
+    "rowsha": "K7hNuoNvKbZPF1vEp9CF30m3830IeuNGt0F7KKNlHvY=",
+    "originContent": "* that profile needs to be installed (in the colord database)",
+    "translatedContent": "* 将该配置文件与设备关联"
+  },
+  {
+    "row": 152,
+    "rowsha": "OAlAI04QRGxIb0VKIvNq/AwZIeAuxwgvaPu1PJNnsXM=",
+    "originContent": "* that profile must be associated with the device",
+    "translatedContent": "* 启用该配置文件"
+  },
+  {
+    "row": 153,
+    "rowsha": "trMgJe8JSEEoBBo6ka60H/ThNS7AzVFNPhk9wBQMlQc=",
+    "originContent": "* that profile must be enabled",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "所有这些步骤都是通过 colord 通过 D-Bus 暴露的 API 完成的。gnome-gamma-tool 不会从头创建新配置文件（除非你指定了 `-o`/`--out-file`），而是克隆当前配置文件并仅修改 VCGT 表。默认情况下，当前配置文件是由 `gsd-color` 从 EDID 数据生成的。"
+  },
+  {
+    "row": 155,
+    "rowsha": "vReP66SU10IvlEIC7qm6vbZLkCfWp6Swp9E2rEqHaQo=",
+    "originContent": "All those steps are performed using the API exposed by colord via D-Bus. gnome-gamma-tool doesn't create the new profile from scratch (unless you specify `-o`/`--out-file`), but it clones the current one and only modifies the VCGT table. By default, the current profile is the one generated by `gsd-color` from EDID data.",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`gsd-color` 使用 D-Bus 信号监听设备/配置文件更改，因此它会捕获我们的配置文件更改，然后最终调用 `SetCrtcGamma`。就是这样！"
+  },
+  {
+    "row": 157,
+    "rowsha": "OXiW1sbItQSpPkwvAO+xl4xBkFTREg3huOXuHCYYzFY=",
+    "originContent": "`gsd-color` listens for device/profile changes using D-Bus signals so it picks up our profile change and then eventually calls `SetCrtcGamma`. That's it!",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "那么，这个“VCGT”是什么？VCGT（视频卡伽玛表）基本上映射颜色通道（R、G 和 B）的值。比如如果一个通道的值是 `X`，那么 VCGT 指定它应转换为 `Y`。当然，并非每个输入值都有 VCGT 条目，该表只有 256 个条目，值是插值计算的（但这不是由 gnome-gamma-tool 完成的）。"
+  },
+  {
+    "row": 159,
+    "rowsha": "TuGnhh0BPptjn3IZ5394Q7xpTrzI9syUCY9AyHxNfqk=",
+    "originContent": "What is this \"VCGT\" then? The VCGT (Video Card Gamma Table) basically maps color channel (R, G and B) values. Like if a channel has value `X` then the VCGT specifies that this should be translated to `Y`. Of course not every input value has a VCGT entry, that table has just 256 entries and the values are interpolated (but this is not done by gnome-gamma-tool).",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "VCGT 使得可以改变伽玛（通过指数运算）、对比度和亮度，但不能通过这种方式改变色调，因为一个通道无法影响另一个通道。"
+  },
+  {
+    "row": 161,
+    "rowsha": "rKZUWPtFlRlMaixySOm5fv8fJUkpXm3feyeqj8X9M4w=",
+    "originContent": "VCGT makes it possible to change gamma (via exponentiation), contrast and brightness, but it's not possible to change hue this way, because one channel can't affect any other.",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

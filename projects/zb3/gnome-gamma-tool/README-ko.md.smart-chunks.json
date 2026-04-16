@@ -1,0 +1,1429 @@
+[
+  {
+    "Id": 1,
+    "Content": "# gnome-gamma-tool\n\nA command-line tool that let's you change gamma, contrast and brightness in GNOME and Cinnamon in a persistent manner by creating a color profile with the VCGT table.\n\n## Disclaimer\n**This only works with GNOME and Cinnamon**. Tested on Fedora with GNOME 42-48 and Cinnamon, it might not work with older/newer versions, albeit profiles already generated should continue to work.\n\nThis is rather hacky, color profiles were not meant to be used like that. But I think the use case is rare enough to justify this. After all, if your monitor doesn't let you change the gamma, isn't that a problem with the monitor?\n\nSee [How it works](#how-it-works) for a more detailed description.\n\n**Note:** it's not possible to change the screen saturation or hue (due to VCGT limitations), but you can try using [gnome-saturation-extension](https://github.com/zb3/gnome-saturation-extension) (which has its drawbacks though).\n\n## Usage\nThere's no need to install this, just clone this repository:",
+    "ContentSha": "CyLsNIWovGrMMDyJYIFdjJ8FZdBd5c69SiK41WC3nM8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# gnome-gamma-tool\n\nGNOME 및 Cinnamon에서 VCGT 테이블을 사용하여 색상 프로필을 생성함으로써 감마, 대비 및 밝기를 영구적으로 변경할 수 있는 명령줄 도구입니다.\n\n## 면책 조항\n**이 도구는 GNOME 및 Cinnamon에서만 작동합니다**. Fedora의 GNOME 42-48 및 Cinnamon에서 테스트되었으며, 이전 또는 최신 버전에서는 작동하지 않을 수 있지만 이미 생성된 프로필은 계속 작동할 것입니다.\n\n이 방법은 다소 해킹에 가깝습니다. 색상 프로필은 원래 이렇게 사용하도록 설계되지 않았습니다. 하지만 이 사용 사례가 드물기 때문에 정당화된다고 생각합니다. 결국, 모니터가 감마를 변경하지 못하게 한다면 그건 모니터의 문제 아닐까요?\n\n자세한 설명은 [작동 원리](#how-it-works)를 참조하세요.\n\n**참고:** VCGT 제한으로 인해 화면 채도나 색조를 변경하는 것은 불가능하지만, [gnome-saturation-extension](https://github.com/zb3/gnome-saturation-extension)을 사용해 볼 수 있습니다(단점도 있습니다).\n\n## 사용법\n설치할 필요 없이 이 저장소를 클론하면 됩니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "KJWbb/G+/mx/68bbxNDWIi/r95yDyQgbUqdIKC/VbJc=",
+        "originContent": "# gnome-gamma-tool",
+        "translatedContent": "# gnome-gamma-tool"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "WXuqV+0rUR6JSud49cKwEdddI8mPuuPJBKpbIhMlVPE=",
+        "originContent": "A command-line tool that let's you change gamma, contrast and brightness in GNOME and Cinnamon in a persistent manner by creating a color profile with the VCGT table.",
+        "translatedContent": "GNOME 및 Cinnamon에서 VCGT 테이블을 사용하여 색상 프로필을 생성함으로써 감마, 대비 및 밝기를 영구적으로 변경할 수 있는 명령줄 도구입니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+        "originContent": "## Disclaimer",
+        "translatedContent": "## 면책 조항"
+      },
+      {
+        "row": 6,
+        "rowsha": "KUo4XrS18KNlu+zgrgNAEtg5S4+TfXW7baCEilIO6E4=",
+        "originContent": "**This only works with GNOME and Cinnamon**. Tested on Fedora with GNOME 42-48 and Cinnamon, it might not work with older/newer versions, albeit profiles already generated should continue to work.",
+        "translatedContent": "**이 도구는 GNOME 및 Cinnamon에서만 작동합니다**. Fedora의 GNOME 42-48 및 Cinnamon에서 테스트되었으며, 이전 또는 최신 버전에서는 작동하지 않을 수 있지만 이미 생성된 프로필은 계속 작동할 것입니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "wzESOQBl+BcFizEkQmtF37T0sxl28E9vGUHHsw1VPTs=",
+        "originContent": "This is rather hacky, color profiles were not meant to be used like that. But I think the use case is rare enough to justify this. After all, if your monitor doesn't let you change the gamma, isn't that a problem with the monitor?",
+        "translatedContent": "이 방법은 다소 해킹에 가깝습니다. 색상 프로필은 원래 이렇게 사용하도록 설계되지 않았습니다. 하지만 이 사용 사례가 드물기 때문에 정당화된다고 생각합니다. 결국, 모니터가 감마를 변경하지 못하게 한다면 그건 모니터의 문제 아닐까요?"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "GB7TtAolkJoAu/PWUSp1QW1aK6PYJO5R1jk/xKMujUU=",
+        "originContent": "See [How it works](#how-it-works) for a more detailed description.",
+        "translatedContent": "자세한 설명은 [작동 원리](#how-it-works)를 참조하세요."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "1N2PwtDE0OcimbIcEJDyDrboVpMwTexUnlBXc5w4BnA=",
+        "originContent": "**Note:** it's not possible to change the screen saturation or hue (due to VCGT limitations), but you can try using [gnome-saturation-extension](https://github.com/zb3/gnome-saturation-extension) (which has its drawbacks though).",
+        "translatedContent": "**참고:** VCGT 제한으로 인해 화면 채도나 색조를 변경하는 것은 불가능하지만, [gnome-saturation-extension](https://github.com/zb3/gnome-saturation-extension)을 사용해 볼 수 있습니다(단점도 있습니다)."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 15,
+        "rowsha": "WJc2YhnJ0dY22xPRtY9n5GfER3wrAeNQBGRlY66wZ3E=",
+        "originContent": "There's no need to install this, just clone this repository:",
+        "translatedContent": "설치할 필요 없이 이 저장소를 클론하면 됩니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\ngit clone https://github.com/zb3/gnome-gamma-tool\ncd gnome-gamma-tool\n```",
+    "ContentSha": "eG6i9232UhVcZZ8tX5+0/D1DgqVmEx5ubFSnRuTAzdM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ngit clone https://github.com/zb3/gnome-gamma-tool\ncd gnome-gamma-tool\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "2KVzSzAM1LYj/L8wRFFIKMtrwoWDcpWbh6jS75TgRcc=",
+        "originContent": "git clone https://github.com/zb3/gnome-gamma-tool",
+        "translatedContent": "git clone https://github.com/zb3/gnome-gamma-tool"
+      },
+      {
+        "row": 3,
+        "rowsha": "w1OLO55RTVO1Z8jG1uL3u9tlWfrB+6imLQ+lkOgy464=",
+        "originContent": "cd gnome-gamma-tool",
+        "translatedContent": "cd gnome-gamma-tool"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n**If** you're using Debian/Ubuntu, you might also need to install the `gir1.2-colord-1.0` package first:",
+    "ContentSha": "gLwCNkAlJu4VOrVGgeRZaLDDfX8mmFuAicngHDAj6rs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**만약** Debian/Ubuntu를 사용 중이라면, 먼저 `gir1.2-colord-1.0` 패키지를 설치해야 할 수도 있습니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**만약** Debian/Ubuntu를 사용 중이라면, 먼저 `gir1.2-colord-1.0` 패키지를 설치해야 할 수도 있습니다:"
+      },
+      {
+        "row": 2,
+        "rowsha": "UY5m6ooM3TrBAsw5GzKVSbuj8LxiKPaBBAVkRrrhKN4=",
+        "originContent": "**If** you're using Debian/Ubuntu, you might also need to install the `gir1.2-colord-1.0` package first:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\nsudo apt install gir1.2-colord-1.0\n```",
+    "ContentSha": "W/e9udSEX88QHYzYKFgkw79XlH7X9AvrAcnNgxpWvAM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nsudo apt install gir1.2-colord-1.0\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "19o4sNwszDcOMOeadvf19/ZBiI66dPNdd/Pv1mb8V7E=",
+        "originContent": "sudo apt install gir1.2-colord-1.0",
+        "translatedContent": "sudo apt install gir1.2-colord-1.0"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "for OpenSUSE, you might need to install the `typelib-1_0-Colord-1_0` package instead:",
+    "ContentSha": "uA2KrhUo47iiLDrZDjca4ljmmVXunlm737QR+F4kuh8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "OpenSUSE의 경우 대신 `typelib-1_0-Colord-1_0` 패키지를 설치해야 할 수 있습니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uA2KrhUo47iiLDrZDjca4ljmmVXunlm737QR+F4kuh8=",
+        "originContent": "for OpenSUSE, you might need to install the `typelib-1_0-Colord-1_0` package instead:",
+        "translatedContent": "OpenSUSE의 경우 대신 `typelib-1_0-Colord-1_0` 패키지를 설치해야 할 수 있습니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nsudo zypper install typelib-1_0-Colord-1_0\n```",
+    "ContentSha": "Pk12BpZ7OtbNMXGl5Gv3vd4egCAbH+kBQ/sXR0uwzgc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nsudo zypper install typelib-1_0-Colord-1_0\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "DeaYnizytIC7hmW91XRbQbu2Aj+yuZl1Gqsl/N6RSZQ=",
+        "originContent": "sudo zypper install typelib-1_0-Colord-1_0",
+        "translatedContent": "sudo zypper install typelib-1_0-Colord-1_0"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "if you're using NixOS, check [this comment](https://github.com/zb3/gnome-gamma-tool/issues/28#issuecomment-3112277504)\n\nThen you can invoke the tool like this:",
+    "ContentSha": "EGkrBRfVcLrdrY16x5e70jQeXsPLkUx32fxXX0qoa9E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "만약 NixOS를 사용 중이라면, [이 댓글](https://github.com/zb3/gnome-gamma-tool/issues/28#issuecomment-3112277504)을 확인하세요.\n\n그런 다음 도구를 다음과 같이 호출할 수 있습니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "y46nMYLJO5AdPy+bZBkwgN/MTfwRr/VXITCXFxqKjek=",
+        "originContent": "if you're using NixOS, check [this comment](https://github.com/zb3/gnome-gamma-tool/issues/28#issuecomment-3112277504)",
+        "translatedContent": "만약 NixOS를 사용 중이라면, [이 댓글](https://github.com/zb3/gnome-gamma-tool/issues/28#issuecomment-3112277504)을 확인하세요."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "nC+uFnf20wWHzyNzYiUr/InY2RuBRrE/71rtYj/qlB0=",
+        "originContent": "Then you can invoke the tool like this:",
+        "translatedContent": "그런 다음 도구를 다음과 같이 호출할 수 있습니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\n./gnome-gamma-tool.py\n```",
+    "ContentSha": "qF8JFLlPVlchNioOOJuaprPjhH9FzLIilRzmncTjYjw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./gnome-gamma-tool.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "qFvbv+7oW9frvd3RjO/j3tt39aPzppJTnbLdyvqCLcE=",
+        "originContent": "./gnome-gamma-tool.py",
+        "translatedContent": "./gnome-gamma-tool.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "(if this doesn't work, please open a new issue [here](https://github.com/zb3/gnome-gamma-tool/issues/new))\n\nOnce the new profile is installed, this tool can be safely removed.\n\n\n### Adjusting screen gamma\nThe `-g` argument let's you specify the gamma correction factor. You can also use the `R:G:B` form to set it for individual channels.\n\nFor example:",
+    "ContentSha": "IVsNUlC34l+bLZ7NznrlUZAda8xJEPE9pfdSZuJZAy4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "(이 방법이 작동하지 않으면 [여기](https://github.com/zb3/gnome-gamma-tool/issues/new)에서 새 이슈를 열어주세요)\n\n새 프로필이 설치되면 이 도구는 안전하게 제거할 수 있습니다.\n\n\n### 화면 감마 조정\n`-g` 인수를 사용하면 감마 보정 값을 지정할 수 있습니다. 개별 채널에 대해 `R:G:B` 형식을 사용하여 설정할 수도 있습니다.\n\n예를 들어:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RjRSKN03mMqZL8rd49MWIU6qyKCj0l8n4l/Lvj5rEG4=",
+        "originContent": "(if this doesn't work, please open a new issue [here](https://github.com/zb3/gnome-gamma-tool/issues/new))",
+        "translatedContent": "(이 방법이 작동하지 않으면 [여기](https://github.com/zb3/gnome-gamma-tool/issues/new)에서 새 이슈를 열어주세요)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "tDhE5NSF5Ds25SngIlvM8Ovn1ibWRhLfXrGKJSrjg3E=",
+        "originContent": "Once the new profile is installed, this tool can be safely removed.",
+        "translatedContent": "새 프로필이 설치되면 이 도구는 안전하게 제거할 수 있습니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "43yW5gFpM5SJskFQb77k9EaU34BzrUnRxGKLUkJJPEE=",
+        "originContent": "### Adjusting screen gamma",
+        "translatedContent": "### 화면 감마 조정"
+      },
+      {
+        "row": 7,
+        "rowsha": "QuCNXXV2NeaaX8wYb0JgeY2Vv3I4GJipntDGnJOk/II=",
+        "originContent": "The `-g` argument let's you specify the gamma correction factor. You can also use the `R:G:B` form to set it for individual channels.",
+        "translatedContent": "`-g` 인수를 사용하면 감마 보정 값을 지정할 수 있습니다. 개별 채널에 대해 `R:G:B` 형식을 사용하여 설정할 수도 있습니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ZSdEoqsolUu6/XgP12wVwr1VdZRTL5B/EOrRmJcnr5U=",
+        "originContent": "For example:",
+        "translatedContent": "예를 들어:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\n./gnome-gamma-tool.py -g 0.8\n```",
+    "ContentSha": "yOCKncXMBozWE05zQoY47Lagua61abvWDjmYGLRAdWw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./gnome-gamma-tool.py -g 0.8\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "vnLIfav6shVXWE+pnAmgqamETGELEBW0oovAp6AYxdk=",
+        "originContent": "./gnome-gamma-tool.py -g 0.8",
+        "translatedContent": "./gnome-gamma-tool.py -g 0.8"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "or",
+    "ContentSha": "cXVRejcLXNLmZOP9KcTqnbXOFwWOuXcv4JClSF5J2tY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "or",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cXVRejcLXNLmZOP9KcTqnbXOFwWOuXcv4JClSF5J2tY=",
+        "originContent": "or",
+        "translatedContent": "or"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\n./gnome-gamma-tool.py -g 0.8:0.8:0.8\n```",
+    "ContentSha": "NvLIe83mx9KggKtArC5ch5/bYLalgwnZGUjIP5Rhklo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./gnome-gamma-tool.py -g 0.8:0.8:0.8\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "MQ/Oag+3OUanVZv2U9AdKtuL1DaU2Or/vC3nonWMSt4=",
+        "originContent": "./gnome-gamma-tool.py -g 0.8:0.8:0.8",
+        "translatedContent": "./gnome-gamma-tool.py -g 0.8:0.8:0.8"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### Adjusting contrast (or inverting colors)\nYou can also change the contrast using the `-c` parameter. `1` is the default value, while `-1` will effectively invert the colors. Make sure not to use the `0` value here as it will make your display all grey...\n\nFor example:",
+    "ContentSha": "NMGtJFPxzKT5JrL0aqz/JvnInVyQLZtP9v3XBcd+2WM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 대비 조정(또는 색상 반전)\n`-c` 매개변수를 사용하여 대비를 변경할 수도 있습니다. `1`이 기본값이며, `-1`은 색상을 효과적으로 반전시킵니다. 여기서 `0` 값을 사용하지 마세요. 화면이 모두 회색으로 표시됩니다...\n\n예를 들어:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 대비 조정(또는 색상 반전)"
+      },
+      {
+        "row": 2,
+        "rowsha": "JXw0TjW2bYQrYmVCKJ63vdIpWiQsq5NjTmNDx60BjWQ=",
+        "originContent": "### Adjusting contrast (or inverting colors)",
+        "translatedContent": "`-c` 매개변수를 사용하여 대비를 변경할 수도 있습니다. `1`이 기본값이며, `-1`은 색상을 효과적으로 반전시킵니다. 여기서 `0` 값을 사용하지 마세요. 화면이 모두 회색으로 표시됩니다..."
+      },
+      {
+        "row": 3,
+        "rowsha": "LEMNoFX6Z6LCy0t9yHSUpt9hzby50WHULKm0fI/4KZ0=",
+        "originContent": "You can also change the contrast using the `-c` parameter. `1` is the default value, while `-1` will effectively invert the colors. Make sure not to use the `0` value here as it will make your display all grey...",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "예를 들어:"
+      },
+      {
+        "row": 5,
+        "rowsha": "ZSdEoqsolUu6/XgP12wVwr1VdZRTL5B/EOrRmJcnr5U=",
+        "originContent": "For example:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```\n./gnome-gamma-tool.py -c -1\n```",
+    "ContentSha": "3LqQtHsg/D9xJ+iwrLX5jwCDNJRio18SseHIafK8te0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./gnome-gamma-tool.py -c -1\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "iC+HGQKxfqJ5pfl73aj+Kz2Gb8pYtZ3lXXlerEqkkPw=",
+        "originContent": "./gnome-gamma-tool.py -c -1",
+        "translatedContent": "./gnome-gamma-tool.py -c -1"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nNote that it always starts from the initial state, hence the command above will undo any previous gamma adjustments, but you can combine different options:\n",
+    "ContentSha": "tN/N4goZA72oSdcNZ7yOexCGmq+OqZYj8rMlNBgSGSs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n항상 초기 상태에서 시작한다는 점에 유의하세요, 따라서 위 명령어는 이전의 감마 조정을 모두 취소하지만, 다양한 옵션을 조합할 수 있습니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "JFBOClQySEEIJwgFIUp9EObaJcRxuXPnw7W2SFlbUQ0=",
+        "originContent": "Note that it always starts from the initial state, hence the command above will undo any previous gamma adjustments, but you can combine different options:",
+        "translatedContent": "항상 초기 상태에서 시작한다는 점에 유의하세요, 따라서 위 명령어는 이전의 감마 조정을 모두 취소하지만, 다양한 옵션을 조합할 수 있습니다:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```\n./gnome-gamma-tool.py -g 0.8 -c 0.5\n```",
+    "ContentSha": "sdhzLejtCMwcaqqFC6nK6bepKgaDXDHVf+HAXxuWxcg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./gnome-gamma-tool.py -g 0.8 -c 0.5\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3SyDcyeHPGRv4OqVzOekJak9ZBxObrzURx364FN2L1k=",
+        "originContent": "./gnome-gamma-tool.py -g 0.8 -c 0.5",
+        "translatedContent": "./gnome-gamma-tool.py -g 0.8 -c 0.5"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nPer-channel settings work here too, so for instance it's possible to invert the blue channel while keeping red and green intact. Can you guess how this would look like? Give it a try:",
+    "ContentSha": "e07xyYNX6nobeFXn85h/XEYOSK0SbEC4BJozYrHI/n4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "채널별 설정도 여기서 작동하므로, 예를 들어 파란색 채널만 반전시키고 빨간색과 녹색은 그대로 유지할 수 있습니다. 이것이 어떻게 보일지 짐작할 수 있나요? 한번 시도해 보세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "채널별 설정도 여기서 작동하므로, 예를 들어 파란색 채널만 반전시키고 빨간색과 녹색은 그대로 유지할 수 있습니다. 이것이 어떻게 보일지 짐작할 수 있나요? 한번 시도해 보세요:"
+      },
+      {
+        "row": 2,
+        "rowsha": "uvDs/pyzW/0OhvrZLmxQmk6V7+3ZwclfNQWIRUYdT2A=",
+        "originContent": "Per-channel settings work here too, so for instance it's possible to invert the blue channel while keeping red and green intact. Can you guess how this would look like? Give it a try:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```\n./gnome-gamma-tool.py -c=1:1:-1\n```",
+    "ContentSha": "d7DLf7MgVs/bgWi/qDsulvW9Rd9PNgNU2aAMWnXt4L4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./gnome-gamma-tool.py -c=1:1:-1\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "VQKuZtlXy/xYArUKj474XTr+zxnI0jiOGhpI0DAOPpc=",
+        "originContent": "./gnome-gamma-tool.py -c=1:1:-1",
+        "translatedContent": "./gnome-gamma-tool.py -c=1:1:-1"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "Was that what you expected? :)\n\n### Changing color temperature\nColor temperature can also be changed, use the `-t` option to specify the temperature. Values work just like in `redshift` where `6500` is the neutral value. Note that this doesn't prevent the night light feature from working, it's just that night light adjustments are made \"on top of\" what gnome-gamma-tool does.",
+    "ContentSha": "w/7Ll/uV+T42iOHZo76kj5uc2ne6BsYgNwxSdJnL1BE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "그게 기대한 것이었나요? :)\n\n### 색온도 변경\n색온도도 변경할 수 있으며, `-t` 옵션을 사용하여 온도를 지정합니다. 값은 `redshift`에서처럼 작동하며 `6500`이 중립값입니다. 이 기능은 야간 조명 기능이 작동하는 것을 막지 않으며, 단지 야간 조명 조정이 gnome-gamma-tool이 하는 작업 위에 \"덧붙여\" 이루어진다는 점에 유의하세요.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fp9nQWo84xRIglAjRk/15Tkjg0VNVknCDmrtXDP1stA=",
+        "originContent": "Was that what you expected? :)",
+        "translatedContent": "그게 기대한 것이었나요? :)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "vndKARl74Hw1Sf/Otu22j/rEQ5atohBGKc8O3McXVSM=",
+        "originContent": "### Changing color temperature",
+        "translatedContent": "### 색온도 변경"
+      },
+      {
+        "row": 4,
+        "rowsha": "yc5YNBHnX/DM/9t24wyKRE4sX20EcUtaxaaGXAWji9Q=",
+        "originContent": "Color temperature can also be changed, use the `-t` option to specify the temperature. Values work just like in `redshift` where `6500` is the neutral value. Note that this doesn't prevent the night light feature from working, it's just that night light adjustments are made \"on top of\" what gnome-gamma-tool does.",
+        "translatedContent": "색온도도 변경할 수 있으며, `-t` 옵션을 사용하여 온도를 지정합니다. 값은 `redshift`에서처럼 작동하며 `6500`이 중립값입니다. 이 기능은 야간 조명 기능이 작동하는 것을 막지 않으며, 단지 야간 조명 조정이 gnome-gamma-tool이 하는 작업 위에 \"덧붙여\" 이루어진다는 점에 유의하세요."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```\n./gnome-gamma-tool.py -t 5000\n```",
+    "ContentSha": "sT/pUek78SF6WDKopITJ1RPSaC5nErytiN6rXSbtwNY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./gnome-gamma-tool.py -t 5000\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "yhtD/97PKBgKjhfhSRPcflvrO34nYrI8T8nOy4Uqo9Q=",
+        "originContent": "./gnome-gamma-tool.py -t 5000",
+        "translatedContent": "./gnome-gamma-tool.py -t 5000"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n### Adjust brightness (kinda)\nYou can also adjust brightness with this tool, but it's not possible to increase the physical display brightness, it's only possible to decrease it by decreasing the maximum brightness value. Use the `-b` option to do that, it accepts values from `0` to `1`, where `1` is the neutral value:",
+    "ContentSha": "LdwLy7UWI7irIVKPBGth9TcuLrFzgrzFSyCyojNitTU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 밝기 조절 (약간)\n이 도구로 밝기를 조절할 수도 있지만, 물리적 디스플레이 밝기를 증가시키는 것은 불가능하며 최대 밝기 값을 줄여서 감소시키는 것만 가능합니다. `-b` 옵션을 사용하여 조절할 수 있으며, `0`에서 `1` 사이의 값을 받는데 `1`이 중립값입니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 밝기 조절 (약간)"
+      },
+      {
+        "row": 2,
+        "rowsha": "mSxRB/ShwdrIHikMrrrvPO4Ocdxy6fosZwVHgEgEq7o=",
+        "originContent": "### Adjust brightness (kinda)",
+        "translatedContent": "이 도구로 밝기를 조절할 수도 있지만, 물리적 디스플레이 밝기를 증가시키는 것은 불가능하며 최대 밝기 값을 줄여서 감소시키는 것만 가능합니다. `-b` 옵션을 사용하여 조절할 수 있으며, `0`에서 `1` 사이의 값을 받는데 `1`이 중립값입니다:"
+      },
+      {
+        "row": 3,
+        "rowsha": "xcByOH8FrKp8s1VzKmkSxolO1KND77dj+8iaUNu/KbE=",
+        "originContent": "You can also adjust brightness with this tool, but it's not possible to increase the physical display brightness, it's only possible to decrease it by decreasing the maximum brightness value. Use the `-b` option to do that, it accepts values from `0` to `1`, where `1` is the neutral value:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```\n./gnome-gamma-tool.py -b 0.7\n```",
+    "ContentSha": "lUbbhH2W0YSzA8JslOOVIfY9DXuhwD2ORe9kAvHXlZg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./gnome-gamma-tool.py -b 0.7\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "p9WlGUyYYkEmddvbU8LFOC7iA+70jNYwnFcu5icGbVc=",
+        "originContent": "./gnome-gamma-tool.py -b 0.7",
+        "translatedContent": "./gnome-gamma-tool.py -b 0.7"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\nThere's another option here which let's you *increase* the *minimum* brightness value. It's the `-bm` option which also accepts values from `0` to `1`, this time `0` being the neutral value. After doing:",
+    "ContentSha": "vMAMFfMT1mEy/Mdx03Gv/6/ZXx+ATvI0udb1EDSVFg4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n여기에는 *최소* 밝기 값을 *증가*시킬 수 있는 또 다른 옵션이 있습니다. 이것은 `-bm` 옵션으로, 이번에는 `0`이 중립 값인 `0`부터 `1`까지의 값을 허용합니다. 다음을 수행한 후:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Fb3oiMWN2gJpPi9apctGiiIrmA+W+erHktzKktUNG64=",
+        "originContent": "There's another option here which let's you *increase* the *minimum* brightness value. It's the `-bm` option which also accepts values from `0` to `1`, this time `0` being the neutral value. After doing:",
+        "translatedContent": "여기에는 *최소* 밝기 값을 *증가*시킬 수 있는 또 다른 옵션이 있습니다. 이것은 `-bm` 옵션으로, 이번에는 `0`이 중립 값인 `0`부터 `1`까지의 값을 허용합니다. 다음을 수행한 후:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```\n./gnome-gamma-tool.py -bm 0.3\n```",
+    "ContentSha": "TJE19M9KfYkbcv6nLoIfMbtz4Bn6NpAXGnF3dqxkhsA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./gnome-gamma-tool.py -bm 0.3\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "lD9lSL0tQbPoGK4AhB6+6vrKwJ/sHdCmDXgdiDSD8CI=",
+        "originContent": "./gnome-gamma-tool.py -bm 0.3",
+        "translatedContent": "./gnome-gamma-tool.py -bm 0.3"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "the output value will never be smaller than `0.3` so black won't be black but actually grey, while white will still be white and colors in between will be multiplied accordingly. It's also possible to invert colors using the combination of `-b` and `-bm`:",
+    "ContentSha": "pPRAIFdgJuVB7c0+0XDhXI85WjZAHfJPKu/sfGJDe+I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "출력 값은 절대 `0.3`보다 작아지지 않으므로 검정색은 실제로 회색이 되며, 흰색은 여전히 흰색이고 그 사이의 색상은 그에 맞게 곱해집니다. 또한 `-b`와 `-bm` 조합을 사용하여 색상을 반전시킬 수도 있습니다.:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pPRAIFdgJuVB7c0+0XDhXI85WjZAHfJPKu/sfGJDe+I=",
+        "originContent": "the output value will never be smaller than `0.3` so black won't be black but actually grey, while white will still be white and colors in between will be multiplied accordingly. It's also possible to invert colors using the combination of `-b` and `-bm`:",
+        "translatedContent": "출력 값은 절대 `0.3`보다 작아지지 않으므로 검정색은 실제로 회색이 되며, 흰색은 여전히 흰색이고 그 사이의 색상은 그에 맞게 곱해집니다. 또한 `-b`와 `-bm` 조합을 사용하여 색상을 반전시킬 수도 있습니다.:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```\n./gnome-gamma-tool.py -b 0 -bm 1\n```",
+    "ContentSha": "g7NESzwBNZmTSJgLqKT0VZUpRz3OsMAol+h4PPvKXps=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./gnome-gamma-tool.py -b 0 -bm 1\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "PjXbCpGi0FEs7TXf+kShthCRdAw3HcYAxDURZxBwxRk=",
+        "originContent": "./gnome-gamma-tool.py -b 0 -bm 1",
+        "translatedContent": "./gnome-gamma-tool.py -b 0 -bm 1"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\nAnd... that's not all, because these also work per individual channels, thanks to the `R:G:B` notation. This opens up new possibilities, like... making your screen more green (which you couldn't achieve with color temperature):",
+    "ContentSha": "HU/ZcNrRo5d/E9DBkoknelf4ZEoNbExPlBNDTB0I+H0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "그리고... 그것이 전부가 아닙니다, 왜냐하면 이것들은 `R:G:B` 표기법 덕분에 개별 채널별로도 작동하기 때문입니다. 이것은 색온도로는 달성할 수 없었던 화면을 더 녹색으로 만드는 것과 같은 새로운 가능성을 열어줍니다.:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "그리고... 그것이 전부가 아닙니다, 왜냐하면 이것들은 `R:G:B` 표기법 덕분에 개별 채널별로도 작동하기 때문입니다. 이것은 색온도로는 달성할 수 없었던 화면을 더 녹색으로 만드는 것과 같은 새로운 가능성을 열어줍니다.:"
+      },
+      {
+        "row": 2,
+        "rowsha": "VMr3ZXoyuQeCvfn0LsTfKL9XjZ9UER/yUjTTazpKZL0=",
+        "originContent": "And... that's not all, because these also work per individual channels, thanks to the `R:G:B` notation. This opens up new possibilities, like... making your screen more green (which you couldn't achieve with color temperature):",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```\n./gnome-gamma-tool.py -b 1:2:1\n```",
+    "ContentSha": "ZntJLw7PAAWTeNS/2lFeqeSJFePhBNmomU5bha56pA8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./gnome-gamma-tool.py -b 1:2:1\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "zi5akyEQOKprfCUwQ/bUsMCShe0QWMT/8WmloYIa2i4=",
+        "originContent": "./gnome-gamma-tool.py -b 1:2:1",
+        "translatedContent": "./gnome-gamma-tool.py -b 1:2:1"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "The above gets transformed into `0.5:1:0.5` first, and technically it makes your screen less red and less blue, but practically it makes the screen appear more green. What a useful feature, don't you think so?\n\n\n### If you have multiple displays\nYou can specify the display *index* using the `-d` option (the first one has index `0` but that's the default one so you don't need to use this argument in this case...). The order of displays is the same as in the `Settings -> Color` panel. Here comes the example:",
+    "ContentSha": "M+YO2W6/MY99nrIKEgSar0I21ZqFMhVIDV8GxMbuRsk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "위는 먼저 `0.5:1:0.5`로 변환되며, 기술적으로는 화면의 빨강과 파랑이 줄어들지만 실제로는 화면이 더 초록색으로 보이게 합니다. 유용한 기능이죠, 그렇지 않나요?\n\n\n### 여러 대의 디스플레이가 있는 경우\n`-d` 옵션을 사용하여 디스플레이 *인덱스*를 지정할 수 있습니다(첫 번째 디스플레이는 인덱스 `0`이며 기본값이므로 이 경우에는 이 인수를 사용할 필요가 없습니다...). 디스플레이 순서는 `설정 -> 색상` 패널과 동일합니다. 예시는 다음과 같습니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LwuzcLWvRkH48326q/ntVUP9A3KY849OLRKe22fryaM=",
+        "originContent": "The above gets transformed into `0.5:1:0.5` first, and technically it makes your screen less red and less blue, but practically it makes the screen appear more green. What a useful feature, don't you think so?",
+        "translatedContent": "위는 먼저 `0.5:1:0.5`로 변환되며, 기술적으로는 화면의 빨강과 파랑이 줄어들지만 실제로는 화면이 더 초록색으로 보이게 합니다. 유용한 기능이죠, 그렇지 않나요?"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "4QUsdB0OYjQsYdWH2E2NOERrQD7Mw3cjX/6OZt2i4ks=",
+        "originContent": "### If you have multiple displays",
+        "translatedContent": "### 여러 대의 디스플레이가 있는 경우"
+      },
+      {
+        "row": 5,
+        "rowsha": "097NsCZ09I7jt6GbqEEyGOO53zvw3oT+V9iWcR2RezI=",
+        "originContent": "You can specify the display *index* using the `-d` option (the first one has index `0` but that's the default one so you don't need to use this argument in this case...). The order of displays is the same as in the `Settings -> Color` panel. Here comes the example:",
+        "translatedContent": "`-d` 옵션을 사용하여 디스플레이 *인덱스*를 지정할 수 있습니다(첫 번째 디스플레이는 인덱스 `0`이며 기본값이므로 이 경우에는 이 인수를 사용할 필요가 없습니다...). 디스플레이 순서는 `설정 -> 색상` 패널과 동일합니다. 예시는 다음과 같습니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "```\n./gnome-gamma-tool.py -d 1 -g 0.7\n```",
+    "ContentSha": "weqrDOdBAVBMuT7/HxvzsNEgND7jlg5jDVkiv6okGX4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./gnome-gamma-tool.py -d 1 -g 0.7\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ukxrgevfbxv7zjHDFlRdTLpi9JbTTpbzmvg3D4Ik3iI=",
+        "originContent": "./gnome-gamma-tool.py -d 1 -g 0.7",
+        "translatedContent": "./gnome-gamma-tool.py -d 1 -g 0.7"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "\nYou can also apply changes to all displays using the `-a` option:",
+    "ContentSha": "I5OMZhjBtfWAqS0X5cKn3ut3/FeuckG94fKdWk1ls5s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n`-a` 옵션을 사용하여 모든 디스플레이에 변경 사항을 적용할 수도 있습니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "vM0ctQ8MefClJTBVpp9tPVWBM9IyC2VuCrUR3Kmaz/o=",
+        "originContent": "You can also apply changes to all displays using the `-a` option:",
+        "translatedContent": "`-a` 옵션을 사용하여 모든 디스플레이에 변경 사항을 적용할 수도 있습니다:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 32,
+    "Content": "```\n./gnome-gamma-tool.py -a -g 0.7\n```",
+    "ContentSha": "QKpQGCyCJP1XaTce7RiwpQ0px4NwcenS5mvmNw9pwpM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./gnome-gamma-tool.py -a -g 0.7\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "+02dKBsKlSaqq7XjCGuV+9jn3y1xSpqH6NCD28+mMxI=",
+        "originContent": "./gnome-gamma-tool.py -a -g 0.7",
+        "translatedContent": "./gnome-gamma-tool.py -a -g 0.7"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 33,
+    "Content": "\n### Exporting to a file\n\nIf you just want to create an ICC profile with the proper VCGT table but without interacting with your current configuration, you can use the `-o`/`--out-file` argument. Note that it will not load your current profile, so the output will be a sRGB profile unless you use the `-i`/`--in-file` argument to specify the base profile.\n\nYou can then import and apply it using a tool like `colormgr`.\n",
+    "ContentSha": "Pxze8Omo6z1MN1TyqTV1Zz97C04bgda+ernoMorU8vI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 파일로 내보내기\n\n현재 구성을 건드리지 않고 올바른 VCGT 테이블이 포함된 ICC 프로파일만 만들고 싶다면 `-o`/`--out-file` 인수를 사용할 수 있습니다. 현재 프로파일을 불러오지 않으므로, `-i`/`--in-file` 인수로 기본 프로파일을 지정하지 않으면 출력은 sRGB 프로파일이 됩니다.\n\n그런 다음 `colormgr` 같은 도구를 사용하여 가져오고 적용할 수 있습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KbEHDuYx7UNHp3okmY6YYvrn7G52llOR7jKQKBiDpqk=",
+        "originContent": "### Exporting to a file",
+        "translatedContent": "### 파일로 내보내기"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "b5s/hns6rW8+om0aPTBo6RUWUpWR2gwiQNGrtfR+J/U=",
+        "originContent": "If you just want to create an ICC profile with the proper VCGT table but without interacting with your current configuration, you can use the `-o`/`--out-file` argument. Note that it will not load your current profile, so the output will be a sRGB profile unless you use the `-i`/`--in-file` argument to specify the base profile.",
+        "translatedContent": "현재 구성을 건드리지 않고 올바른 VCGT 테이블이 포함된 ICC 프로파일만 만들고 싶다면 `-o`/`--out-file` 인수를 사용할 수 있습니다. 현재 프로파일을 불러오지 않으므로, `-i`/`--in-file` 인수로 기본 프로파일을 지정하지 않으면 출력은 sRGB 프로파일이 됩니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "dL1fl7mHHGXRZDygp30slivVgVJ3kK/Cg9WS45V6m64=",
+        "originContent": "You can then import and apply it using a tool like `colormgr`.",
+        "translatedContent": "그런 다음 `colormgr` 같은 도구를 사용하여 가져오고 적용할 수 있습니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 34,
+    "Content": "```\n# Create myprofile.icc file\npython3 ./gnome-gamma-tool.py --min-brightness 0.05 --brightness 0.95 --out-file myprofile.icc\n\n# This command will print Device ID, save it\ncolormgr get-devices\n\n# This command will print Profile ID, save it\ncolormgr import-profile myprofile.icc\n\n# This command will affect colors immediately\ncolormgr device-add-profile $displayId $profileId\n\n# This command will remove imported profile and revert colors to original state immediately.\ncolormgr delete-profile $profileId\n```",
+    "ContentSha": "Fg9CzTmzB/XpJTxoK53H5TyKU5Xw/oshItQMkfu4Oiw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n# Create myprofile.icc file\npython3 ./gnome-gamma-tool.py --min-brightness 0.05 --brightness 0.95 --out-file myprofile.icc\n\n# This command will print Device ID, save it\ncolormgr get-devices\n\n# This command will print Profile ID, save it\ncolormgr import-profile myprofile.icc\n\n# This command will affect colors immediately\ncolormgr device-add-profile $displayId $profileId\n\n# This command will remove imported profile and revert colors to original state immediately.\ncolormgr delete-profile $profileId\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "7Ow47emRxyPaq00z5t80/V4f0V4X7aVEMEIHwDiyGRo=",
+        "originContent": "# Create myprofile.icc file",
+        "translatedContent": "# Create myprofile.icc file"
+      },
+      {
+        "row": 3,
+        "rowsha": "M25idK0YUQN7JHBrd6eA8QOH2K/c0i/is7fztFHYgaU=",
+        "originContent": "python3 ./gnome-gamma-tool.py --min-brightness 0.05 --brightness 0.95 --out-file myprofile.icc",
+        "translatedContent": "python3 ./gnome-gamma-tool.py --min-brightness 0.05 --brightness 0.95 --out-file myprofile.icc"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "wHK8wiOK1HgWnLHia0ouZ6rBPnpKNwav9TEvlGfZGDs=",
+        "originContent": "# This command will print Device ID, save it",
+        "translatedContent": "# This command will print Device ID, save it"
+      },
+      {
+        "row": 6,
+        "rowsha": "QXytMiB31lpUczrS5IyXh3POg/Ekq5ICXKfTxYj/jNQ=",
+        "originContent": "colormgr get-devices",
+        "translatedContent": "colormgr get-devices"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "HT7rskNvSe8gqAVSKzQC5Cjs1bwuFDF4TM3J7VazkgE=",
+        "originContent": "# This command will print Profile ID, save it",
+        "translatedContent": "# This command will print Profile ID, save it"
+      },
+      {
+        "row": 9,
+        "rowsha": "s+tdwkKdqFAIeS1Md5ZPJiGSW2UVjdRtUaTi7UqDgEY=",
+        "originContent": "colormgr import-profile myprofile.icc",
+        "translatedContent": "colormgr import-profile myprofile.icc"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "s2Zb51CpGQORk1fcuKkcFidtQLPUfICSmhPCtHREr5Q=",
+        "originContent": "# This command will affect colors immediately",
+        "translatedContent": "# This command will affect colors immediately"
+      },
+      {
+        "row": 12,
+        "rowsha": "ppn0b7N3jIASGiwFYBtTuyDV8wnlALV3geBkHUHqZCE=",
+        "originContent": "colormgr device-add-profile $displayId $profileId",
+        "translatedContent": "colormgr device-add-profile $displayId $profileId"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "icfJpje0aU6vTFZXNASmxyOx28BrrBZDZk0wDGisfLY=",
+        "originContent": "# This command will remove imported profile and revert colors to original state immediately.",
+        "translatedContent": "# This command will remove imported profile and revert colors to original state immediately."
+      },
+      {
+        "row": 15,
+        "rowsha": "SuFhfT9/EBMbC35KmyfsgOC4u6929NKR5plThRVLECU=",
+        "originContent": "colormgr delete-profile $profileId",
+        "translatedContent": "colormgr delete-profile $profileId"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 35,
+    "Content": "\n## How it works\n\nMutter (GNOME's compositor) does not implement any Wayland protocols that could help, so tools like `gammastep` or `wl-gammactl` won't work. Mutter, however, exposes the `SetCrtcGamma` method via D-Bus, and that method really works. Yet it's not how gnome-gamma-tool achieves it's purpose because:\n* the value is not saved anywhere so the effect is not persistent\n* this method is already called by another daemon, so the effect is only temporary.\n\nThat method is normally called by the `gsd-color` daemon (indirectly), and currently there are two things that can affect its arguments:\n* VCGT table of the currently enabled color profile (retrieved via colord)\n* color temperature derived from the \"night light\" settings\n(these two are combined together)\n\nNow, it might seem that the obvious solution here is to patch `gsd-color` to also take other things (like a GSettings property) into account, so you could tweak the gamma via the `gsettings` command. This would also open the possibility of adding a GUI to the Display panel later.\n\nYet again, this is not how gnome-gamma-tool operates, because patching `gsd-color` only makes sense if this patch is to be merged upstream. Otherwise it's completely unacceptable for me (and probably for you too) to have to apply custom patches and rebuild parts of GNOME. That's why gnome-gamma-tool installs a color profile with the correct \"VCGT\" table set up.\n\n`gsd-color` doesn't manage color profiles, it observes them using the API provided by colord. To make a profile recognized by `gsd-color`, these things must be done:\n* color profiles must be enabled for a given device\n* that profile needs to be installed (in the colord database)\n* that profile must be associated with the device\n* that profile must be enabled\n\nAll those steps are performed using the API exposed by colord via D-Bus. gnome-gamma-tool doesn't create the new profile from scratch (unless you specify `-o`/`--out-file`), but it clones the current one and only modifies the VCGT table. By default, the current profile is the one generated by `gsd-color` from EDID data.\n\n`gsd-color` listens for device/profile changes using D-Bus signals so it picks up our profile change and then eventually calls `SetCrtcGamma`. That's it!\n\nWhat is this \"VCGT\" then? The VCGT (Video Card Gamma Table) basically maps color channel (R, G and B) values. Like if a channel has value `X` then the VCGT specifies that this should be translated to `Y`. Of course not every input value has a VCGT entry, that table has just 256 entries and the values are interpolated (but this is not done by gnome-gamma-tool).\n\nVCGT makes it possible to change gamma (via exponentiation), contrast and brightness, but it's not possible to change hue this way, because one channel can't affect any other.\n",
+    "ContentSha": "QWlxM4ik/MYx+LWAmZME4BA0t5QN2AQyulGBQH7C69M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 작동 원리\n\nMutter(GNOME의 컴포지터)는 도움을 줄 수 있는 Wayland 프로토콜을 구현하지 않으므로 `gammastep`이나 `wl-gammactl` 같은 도구는 작동하지 않습니다. 그러나 Mutter는 D-Bus를 통해 `SetCrtcGamma` 메서드를 노출하며, 이 메서드는 실제로 작동합니다. 하지만 gnome-gamma-tool이 이 방법을 사용하지 않는 이유는:\n* 값이 어디에도 저장되지 않아 효과가 지속되지 않음\n* 이 메서드는 이미 다른 데몬에 의해 호출되어 효과가 일시적임\n\n이 메서드는 보통 `gsd-color` 데몬에 의해(간접적으로) 호출되며, 현재 그 인자에 영향을 줄 수 있는 두 가지가 있습니다:\n* 현재 활성화된 컬러 프로파일의 VCGT 테이블(colord를 통해 가져옴)\n* \"야간 조명\" 설정에서 파생된 색온도\n(이 두 가지가 결합됨)\n\n여기서 명백한 해결책은 `gsd-color`를 패치하여 다른 요소들(예: GSettings 속성)도 고려하게 하는 것처럼 보일 수 있으며, 그렇게 하면 `gsettings` 명령어를 통해 감마를 조정할 수 있습니다. 나중에 디스플레이 패널에 GUI를 추가할 가능성도 열립니다.\n\n하지만 다시 말하지만, 이것이 gnome-gamma-tool이 작동하는 방식이 아닙니다. 왜냐하면 `gsd-color` 패치는 이 패치가 업스트림에 병합될 경우에만 의미가 있기 때문입니다. 그렇지 않으면 사용자(아마도 여러분도 포함해)가 커스텀 패치를 적용하고 GNOME 일부를 다시 빌드해야 하는 것은 전혀 받아들일 수 없습니다. 그래서 gnome-gamma-tool은 올바른 \"VCGT\" 테이블이 설정된 컬러 프로파일을 설치합니다.\n\n`gsd-color`는 컬러 프로파일을 관리하지 않고, colord가 제공하는 API를 사용해 그것들을 관찰합니다. `gsd-color`가 프로파일을 인식하려면 다음 작업이 수행되어야 합니다:\n* 특정 장치에 대해 컬러 프로파일이 활성화되어야 함\n* 해당 프로파일이 설치되어 있어야 함(colord 데이터베이스에)\n* 해당 프로파일이 장치와 연관되어야 함\n* 해당 프로파일이 활성화되어야 함\n\n이 모든 단계는 colord가 D-Bus를 통해 노출하는 API를 사용해 수행됩니다. gnome-gamma-tool은 새 프로파일을 처음부터 만들지 않고(단, `-o`/`--out-file`를 지정하지 않는 한) 현재 프로파일을 복제하고 VCGT 테이블만 수정합니다. 기본적으로 현재 프로파일은 EDID 데이터를 기반으로 `gsd-color`가 생성한 프로파일입니다.\n\n`gsd-color`는 D-Bus 신호를 사용해 장치/프로파일 변경을 감지하므로, 우리의 프로파일 변경을 포착하고 결국 `SetCrtcGamma`를 호출합니다. 그게 전부입니다!\n\n그렇다면 이 \"VCGT\"란 무엇인가요? VCGT(Video Card Gamma Table)는 기본적으로 색상 채널(R, G, B) 값을 매핑합니다. 예를 들어 채널 값이 `X`라면 VCGT는 이를 `Y`로 변환해야 한다고 지정합니다. 물론 모든 입력 값이 VCGT 항목을 가진 것은 아니며, 이 테이블은 256개의 항목만 있고 값은 보간됩니다(하지만 이것은 gnome-gamma-tool에서 수행하지 않습니다).\n\nVCGT는 감마(지수 연산), 대비 및 밝기를 변경할 수 있게 하지만, 한 채널이 다른 채널에 영향을 줄 수 없기 때문에 색조는 이 방법으로 변경할 수 없습니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 작동 원리"
+      },
+      {
+        "row": 2,
+        "rowsha": "WuQ4YQzxbjHrWEpFPXb0XZT20bsUdRRGrE6Z4+N8M6g=",
+        "originContent": "## How it works",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Mutter(GNOME의 컴포지터)는 도움을 줄 수 있는 Wayland 프로토콜을 구현하지 않으므로 `gammastep`이나 `wl-gammactl` 같은 도구는 작동하지 않습니다. 그러나 Mutter는 D-Bus를 통해 `SetCrtcGamma` 메서드를 노출하며, 이 메서드는 실제로 작동합니다. 하지만 gnome-gamma-tool이 이 방법을 사용하지 않는 이유는:"
+      },
+      {
+        "row": 4,
+        "rowsha": "JEJqbg+iIG6+noFhaCbDqr5i/7BZTNdgMcSiaPYr0/4=",
+        "originContent": "Mutter (GNOME's compositor) does not implement any Wayland protocols that could help, so tools like `gammastep` or `wl-gammactl` won't work. Mutter, however, exposes the `SetCrtcGamma` method via D-Bus, and that method really works. Yet it's not how gnome-gamma-tool achieves it's purpose because:",
+        "translatedContent": "* 값이 어디에도 저장되지 않아 효과가 지속되지 않음"
+      },
+      {
+        "row": 5,
+        "rowsha": "hOv79qYgEpL0jlXLa7sScSum+sS3wdrY6f9tnr0+IDE=",
+        "originContent": "* the value is not saved anywhere so the effect is not persistent",
+        "translatedContent": "* 이 메서드는 이미 다른 데몬에 의해 호출되어 효과가 일시적임"
+      },
+      {
+        "row": 6,
+        "rowsha": "ko03wSZAgn8eDTY41KoBKuVh8BJFoxDD5vU4NTfWUeM=",
+        "originContent": "* this method is already called by another daemon, so the effect is only temporary.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 메서드는 보통 `gsd-color` 데몬에 의해(간접적으로) 호출되며, 현재 그 인자에 영향을 줄 수 있는 두 가지가 있습니다:"
+      },
+      {
+        "row": 8,
+        "rowsha": "6fzaFR5JHJoVJelT1UOTq6IozV5tO0ZeMmiHIMm7ehk=",
+        "originContent": "That method is normally called by the `gsd-color` daemon (indirectly), and currently there are two things that can affect its arguments:",
+        "translatedContent": "* 현재 활성화된 컬러 프로파일의 VCGT 테이블(colord를 통해 가져옴)"
+      },
+      {
+        "row": 9,
+        "rowsha": "2DWK12IFEwgjwhbErHI1O5wEYh20HdzR1tPSJD555ck=",
+        "originContent": "* VCGT table of the currently enabled color profile (retrieved via colord)",
+        "translatedContent": "* \"야간 조명\" 설정에서 파생된 색온도"
+      },
+      {
+        "row": 10,
+        "rowsha": "feppAXdt0HoZOxnn/SxtxpH1yTi9nxZny7zT8RcgRSU=",
+        "originContent": "* color temperature derived from the \"night light\" settings",
+        "translatedContent": "(이 두 가지가 결합됨)"
+      },
+      {
+        "row": 11,
+        "rowsha": "Wgfk6xsTvsQBlmzdAOXzRZD6ZM3MRhqippePu+gaVfU=",
+        "originContent": "(these two are combined together)",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "여기서 명백한 해결책은 `gsd-color`를 패치하여 다른 요소들(예: GSettings 속성)도 고려하게 하는 것처럼 보일 수 있으며, 그렇게 하면 `gsettings` 명령어를 통해 감마를 조정할 수 있습니다. 나중에 디스플레이 패널에 GUI를 추가할 가능성도 열립니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "gZPJeEvMM62yfs56E2I+fvVkFUYb0zxs1Yvmk8+zx+U=",
+        "originContent": "Now, it might seem that the obvious solution here is to patch `gsd-color` to also take other things (like a GSettings property) into account, so you could tweak the gamma via the `gsettings` command. This would also open the possibility of adding a GUI to the Display panel later.",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "하지만 다시 말하지만, 이것이 gnome-gamma-tool이 작동하는 방식이 아닙니다. 왜냐하면 `gsd-color` 패치는 이 패치가 업스트림에 병합될 경우에만 의미가 있기 때문입니다. 그렇지 않으면 사용자(아마도 여러분도 포함해)가 커스텀 패치를 적용하고 GNOME 일부를 다시 빌드해야 하는 것은 전혀 받아들일 수 없습니다. 그래서 gnome-gamma-tool은 올바른 \"VCGT\" 테이블이 설정된 컬러 프로파일을 설치합니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "evBT0ycAzV4MMFgCLEeHEHKkz/Wtn2gC4ZTcMVZiUKQ=",
+        "originContent": "Yet again, this is not how gnome-gamma-tool operates, because patching `gsd-color` only makes sense if this patch is to be merged upstream. Otherwise it's completely unacceptable for me (and probably for you too) to have to apply custom patches and rebuild parts of GNOME. That's why gnome-gamma-tool installs a color profile with the correct \"VCGT\" table set up.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`gsd-color`는 컬러 프로파일을 관리하지 않고, colord가 제공하는 API를 사용해 그것들을 관찰합니다. `gsd-color`가 프로파일을 인식하려면 다음 작업이 수행되어야 합니다:"
+      },
+      {
+        "row": 17,
+        "rowsha": "onqK+HrKKq+StOodg4+T0bSrzsTjOzSmly37kV8nyak=",
+        "originContent": "`gsd-color` doesn't manage color profiles, it observes them using the API provided by colord. To make a profile recognized by `gsd-color`, these things must be done:",
+        "translatedContent": "* 특정 장치에 대해 컬러 프로파일이 활성화되어야 함"
+      },
+      {
+        "row": 18,
+        "rowsha": "MM39aF5dJU7IVoh8wMPLzaaHJHi2TKEd4mGkaia92tA=",
+        "originContent": "* color profiles must be enabled for a given device",
+        "translatedContent": "* 해당 프로파일이 설치되어 있어야 함(colord 데이터베이스에)"
+      },
+      {
+        "row": 19,
+        "rowsha": "K7hNuoNvKbZPF1vEp9CF30m3830IeuNGt0F7KKNlHvY=",
+        "originContent": "* that profile needs to be installed (in the colord database)",
+        "translatedContent": "* 해당 프로파일이 장치와 연관되어야 함"
+      },
+      {
+        "row": 20,
+        "rowsha": "OAlAI04QRGxIb0VKIvNq/AwZIeAuxwgvaPu1PJNnsXM=",
+        "originContent": "* that profile must be associated with the device",
+        "translatedContent": "* 해당 프로파일이 활성화되어야 함"
+      },
+      {
+        "row": 21,
+        "rowsha": "trMgJe8JSEEoBBo6ka60H/ThNS7AzVFNPhk9wBQMlQc=",
+        "originContent": "* that profile must be enabled",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 모든 단계는 colord가 D-Bus를 통해 노출하는 API를 사용해 수행됩니다. gnome-gamma-tool은 새 프로파일을 처음부터 만들지 않고(단, `-o`/`--out-file`를 지정하지 않는 한) 현재 프로파일을 복제하고 VCGT 테이블만 수정합니다. 기본적으로 현재 프로파일은 EDID 데이터를 기반으로 `gsd-color`가 생성한 프로파일입니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "vReP66SU10IvlEIC7qm6vbZLkCfWp6Swp9E2rEqHaQo=",
+        "originContent": "All those steps are performed using the API exposed by colord via D-Bus. gnome-gamma-tool doesn't create the new profile from scratch (unless you specify `-o`/`--out-file`), but it clones the current one and only modifies the VCGT table. By default, the current profile is the one generated by `gsd-color` from EDID data.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`gsd-color`는 D-Bus 신호를 사용해 장치/프로파일 변경을 감지하므로, 우리의 프로파일 변경을 포착하고 결국 `SetCrtcGamma`를 호출합니다. 그게 전부입니다!"
+      },
+      {
+        "row": 25,
+        "rowsha": "OXiW1sbItQSpPkwvAO+xl4xBkFTREg3huOXuHCYYzFY=",
+        "originContent": "`gsd-color` listens for device/profile changes using D-Bus signals so it picks up our profile change and then eventually calls `SetCrtcGamma`. That's it!",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "그렇다면 이 \"VCGT\"란 무엇인가요? VCGT(Video Card Gamma Table)는 기본적으로 색상 채널(R, G, B) 값을 매핑합니다. 예를 들어 채널 값이 `X`라면 VCGT는 이를 `Y`로 변환해야 한다고 지정합니다. 물론 모든 입력 값이 VCGT 항목을 가진 것은 아니며, 이 테이블은 256개의 항목만 있고 값은 보간됩니다(하지만 이것은 gnome-gamma-tool에서 수행하지 않습니다)."
+      },
+      {
+        "row": 27,
+        "rowsha": "TuGnhh0BPptjn3IZ5394Q7xpTrzI9syUCY9AyHxNfqk=",
+        "originContent": "What is this \"VCGT\" then? The VCGT (Video Card Gamma Table) basically maps color channel (R, G and B) values. Like if a channel has value `X` then the VCGT specifies that this should be translated to `Y`. Of course not every input value has a VCGT entry, that table has just 256 entries and the values are interpolated (but this is not done by gnome-gamma-tool).",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "VCGT는 감마(지수 연산), 대비 및 밝기를 변경할 수 있게 하지만, 한 채널이 다른 채널에 영향을 줄 수 없기 때문에 색조는 이 방법으로 변경할 수 없습니다."
+      },
+      {
+        "row": 29,
+        "rowsha": "rKZUWPtFlRlMaixySOm5fv8fJUkpXm3feyeqj8X9M4w=",
+        "originContent": "VCGT makes it possible to change gamma (via exponentiation), contrast and brightness, but it's not possible to change hue this way, because one channel can't affect any other.",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

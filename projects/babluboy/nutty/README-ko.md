@@ -1,21 +1,53 @@
-# Nutty [![Translation status](https://hosted.weblate.org/widgets/nutty/-/svg-badge.svg)](https://hosted.weblate.org/engage/nutty/?utm_source=widget) [![Build Status](https://travis-ci.org/babluboy/nutty.svg?branch=master)](https://travis-ci.org/babluboy/nutty) [![Snap Status](https://build.snapcraft.io/badge/babluboy/nutty.svg)](https://build.snapcraft.io/user/babluboy/nutty) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FZP8GK839VGQC)
+
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=babluboy&project=nutty&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# Nutty [![번역 상태](https://hosted.weblate.org/widgets/nutty/-/svg-badge.svg)](https://hosted.weblate.org/engage/nutty/?utm_source=widget) [![빌드 상태](https://travis-ci.org/babluboy/nutty.svg?branch=master)](https://travis-ci.org/babluboy/nutty) [![Snap 상태](https://build.snapcraft.io/badge/babluboy/nutty.svg)](https://build.snapcraft.io/user/babluboy/nutty) [![기부](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FZP8GK839VGQC)
 네트워크 유틸리티
 
-작성자: Siddhartha Das
+저자: Siddhartha Das
 
-elementary OS용으로 만들어진 간단한 애플리케이션으로 네트워크 관련 필수 정보를 제공합니다. 정보는 다음 탭으로 제시됩니다.<br>
-1. 내 정보: 장치 네트워크 카드에 대한 기본 및 상세 정보를 제공합니다<br>
-2. 사용량: 네트워크 데이터 사용량을 두 가지 뷰로 제공합니다 - 과거 사용량과 현재 사용량<br>
-3. 속도: 업로드 및 다운로드 속도를 확인하고 호스트까지의 경로 시간을 얻습니다<br>
-4. 포트: 로컬 장치에서 활성 포트 및 이를 사용하는 애플리케이션 정보를 제공합니다<br>
-5. 장치: 네트워크에 연결된 다른 장치를 모니터링하고 알림을 제공하며 정보를 제공합니다<br>
+elementary OS를 위해 제작된 간단한 애플리케이션으로, 네트워크 관련 필수 정보를 제공합니다. 정보는 다음과 같은 탭으로 제공됩니다.<br>
+1. 내 정보: 디바이스 네트워크 카드에 대한 기본 및 상세 정보 제공<br>
+2. 사용량: 네트워크 데이터 사용량을 두 가지 보기로 제공 - 과거 사용량과 현재 사용량<br>
+3. 속도: 업로드 및 다운로드 속도를 확인하고 호스트까지의 경로 시간을 측정합니다<br>
+4. 포트: 로컬 장치에서 활성화된 포트와 이를 사용하는 애플리케이션 정보를 제공합니다<br>
+5. 장치: 네트워크에 연결된 다른 장치를 모니터링, 경고 및 정보 제공을 합니다<br>
 
-기능, 단축키, 우분투 및 기타 지원 배포판 설치 가이드 등 자세한 내용은 Nutty 웹사이트를 확인하세요 : <br>
+Nutty 웹사이트에서 기능, 단축키, Ubuntu 및 기타 지원 배포판 설치 가이드 등 자세한 내용을 확인하세요: <br>
 https://babluboy.github.io/nutty/
 
 ## 소스에서 빌드, 테스트 및 설치
 
-빌드하려면 다음 의존성이 필요합니다:
+빌드를 위해 다음 종속성이 필요합니다:
 * libgranite-dev
 * libnotify-dev
 * libxml2-dev
@@ -26,7 +58,7 @@ https://babluboy.github.io/nutty/
 * meson
 * valac
 
-실행하려면 다음 의존성이 필요합니다:
+실행을 위해서는 다음 종속성이 필요합니다:
 * net-tools
 * nethogs
 * nmap
@@ -37,9 +69,9 @@ https://babluboy.github.io/nutty/
 * iproute2
 * pciutils
 
-가끔 vnstat가 설치 후 시작되지 않는 경우가 있으니, 적절한 init 시스템 명령어를 사용하여 vnstat 데몬을 시작하세요. 예: `sudo systemctl enable vnstat`
-`meson build`를 실행하여 빌드 환경을 구성하고 `ninja test`를 실행하여 빌드하세요
+가끔 vnstat가 설치 후 바로 시작되지 않을 수 있으니, 적절한 init 시스템 명령어로 vnstat 데몬을 시작하세요. 예: `sudo systemctl enable vnstat`
 
+`meson build` 명령으로 빌드 환경을 구성하고 `ninja test` 명령으로 빌드하세요
 
 ```
 git clone https://github.com/babluboy/nutty.git
@@ -89,6 +121,6 @@ cd ..
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-04-16
 
 ---
