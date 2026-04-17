@@ -1,0 +1,788 @@
+[
+  {
+    "row": 1,
+    "rowsha": "olbg7UXvJsYcm0cIIWZP0HYRdkNf4AlDjTKGsWtrEaE=",
+    "originContent": "# CreamLinux",
+    "translatedContent": "# CreamLinux"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "wA6hqPlOMqMdQV29ieiyt+OZHxz90IoIDJf/55W7a2o=",
+    "originContent": "CreamLinux is a GUI application for Linux that simplifies the management of DLC IDs in Steam games. It provides a user-friendly interface to install and configure CreamAPI (for native Linux games) and SmokeAPI (for Windows games running through Proton).",
+    "translatedContent": "CreamLinux 是一款 Linux 图形界面应用程序，简化了 Steam 游戏中 DLC ID 的管理。它提供了一个用户友好的界面，用于安装和配置 CreamAPI（适用于原生 Linux 游戏）和 SmokeAPI（适用于通过 Proton 运行的 Windows 游戏）。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Xxg3jn2rrYc2vqXojMlA8F/BGHEUU4xL8dHUKTYyjrc=",
+    "originContent": "## Watch the demo here:",
+    "translatedContent": "## 观看演示视频："
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "OVuVFXdc61UOfgTZriL4XFYCN4d509ylelPVxbDj2Q8=",
+    "originContent": "[![Watch the demo](https://raw.githubusercontent.com/Novattz/creamlinux-installer/main/./src/assets/screenshot1.png)](https://www.youtube.com/watch?v=neUDotrqnDM)",
+    "translatedContent": "[![观看演示](https://raw.githubusercontent.com/Novattz/creamlinux-installer/main/./src/assets/screenshot1.png)](https://www.youtube.com/watch?v=neUDotrqnDM)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "4JrSWTIo9mOf7tvKWCYqCBFn3dVrlGyJqms14cRUDZk=",
+    "originContent": "## Beta Status",
+    "translatedContent": "## 测试版状态"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "xy+dt/EvLhVG8gL77NhmphiR6khWmRSGQ81UdgfB6Ew=",
+    "originContent": "⚠️ **IMPORTANT**: CreamLinux is currently in BETA. This means:",
+    "translatedContent": "⚠️ **重要提示**：CreamLinux 当前处于测试版阶段。这意味着："
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "cbo7/FnPjz25Dkni4tV/1FxqpBNCrY9Qkomk6i2pFec=",
+    "originContent": "- Some features may be incomplete or subject to change",
+    "translatedContent": "- 某些功能可能尚不完整或会有所变动"
+  },
+  {
+    "row": 14,
+    "rowsha": "ZaUom0OSOOOQcAms8eNkwAi5qTqRZpvW0aOgm714+Ew=",
+    "originContent": "- You might encounter bugs or unexpected behavior",
+    "translatedContent": "- 你可能会遇到错误或意外行为"
+  },
+  {
+    "row": 15,
+    "rowsha": "e07NDPDaIRcQ+8kdSbGNbYJbH68PMA9ZnXBaxUsx/ko=",
+    "originContent": "- The application is under active development",
+    "translatedContent": "- 应用程序正在积极开发中"
+  },
+  {
+    "row": 16,
+    "rowsha": "WvBqw/PFCfbas4pml2KQzxSx3u6Oxgp9WhcfZn8YXTg=",
+    "originContent": "- Your feedback and bug reports are invaluable",
+    "translatedContent": "- 你的反馈和错误报告非常宝贵"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "gzTD3q/CXDMOShIwaROdIIPvdAX7fKcXRbc6DbC6leI=",
+    "originContent": "While the core functionality is working, please be aware that this is an early release. Im continuously working to improve stability, add features, and enhance the user experience. Please report any issues you encounter on [GitHub Issues page](https://github.com/Novattz/creamlinux-installer/issues).",
+    "translatedContent": "虽然核心功能正常，但请注意这是早期版本。我会持续努力改进稳定性，添加功能，并提升用户体验。请在 [GitHub Issues 页面](https://github.com/Novattz/creamlinux-installer/issues) 报告你遇到的任何问题。"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 功能"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "TOsR+6UyDfy5mZIvzmwWxKWVM9VPsT2Zo8raxGItvq8=",
+    "originContent": "- **Auto-discovery**: Automatically finds Steam games installed on your system",
+    "translatedContent": "- **自动发现**：自动查找系统中安装的 Steam 游戏"
+  },
+  {
+    "row": 23,
+    "rowsha": "7V5nobHTTSsKNPvgaSJ22xKwep1lHf7KM67kL0d4mis=",
+    "originContent": "- **Native support**: Installs CreamLinux for native Linux games",
+    "translatedContent": "- **原生支持**：为原生 Linux 游戏安装 CreamLinux"
+  },
+  {
+    "row": 24,
+    "rowsha": "N62r2xl7ccZ72TN+YM8BuXmiQqUdkVtKHXVgrOwOz9c=",
+    "originContent": "- **Proton support**: Installs SmokeAPI for Windows games running through Proton",
+    "translatedContent": "- **Proton 支持**：为通过 Proton 运行的 Windows 游戏安装 SmokeAPI"
+  },
+  {
+    "row": 25,
+    "rowsha": "+Z/wVXL5trHf9qEdU/O9jS6L9xP3RMLXxQb3gzhJyhI=",
+    "originContent": "- **DLC management**: Easily select which DLCs to enable",
+    "translatedContent": "- **DLC 管理**：轻松选择启用哪些 DLC"
+  },
+  {
+    "row": 26,
+    "rowsha": "qmmWnT6XLxC3QNwC4UyXYW7/+R512xunY26j1dq2YsM=",
+    "originContent": "- **Modern UI**: Clean, responsive interface that's easy to use",
+    "translatedContent": "- **现代界面**：简洁、响应迅速且易于使用的界面"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "aWn6Nfm/IKO6LTkJ6YGwN51reAc6ksI95Sc/RrbGVGc=",
+    "originContent": "### AppImage (Recommended)",
+    "translatedContent": "### AppImage（推荐）"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "69SihapxSVeSpGruwbWURfoxvv+RVj2OE4nNblRAXnI=",
+    "originContent": "1. Download the latest `creamlinux.AppImage` from the [Releases](https://github.com/Novattz/creamlinux-installer/releases) page",
+    "translatedContent": "1. 从[发布](https://github.com/Novattz/creamlinux-installer/releases)页面下载最新的 `creamlinux.AppImage`"
+  },
+  {
+    "row": 33,
+    "rowsha": "5fxsyoJK7tnksXGqPXs5VwcTbpRE26n8JuOGdgpVbI4=",
+    "originContent": "2. Make it executable:",
+    "translatedContent": "2. 赋予其执行权限："
+  },
+  {
+    "row": 34,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 35,
+    "rowsha": "SAKgkPgUyuGlTLdm4rR/3TYQWCmIWjP25mHa/jPlMm0=",
+    "originContent": "   chmod +x creamlinux.AppImage",
+    "translatedContent": "   chmod +x creamlinux.AppImage"
+  },
+  {
+    "row": 36,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 37,
+    "rowsha": "VpXjdhNOVZRTDDqSdPnzNYHRZR5yAzepaECynTllH9o=",
+    "originContent": "3. Run it:",
+    "translatedContent": "3. 运行它："
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 40,
+    "rowsha": "GYCJtEeueVuYXKT6MQA3RnvXkxHRvyCDIsHp0ouppU4=",
+    "originContent": "   ./creamlinux.AppImage",
+    "translatedContent": "   ./creamlinux.AppImage"
+  },
+  {
+    "row": 41,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "   对于Nvidia用户使用此命令："
+  },
+  {
+    "row": 43,
+    "rowsha": "MA3vP+joV1fhSlOz1pKJFvYpN5JpGdNPGJgtCxUwmd0=",
+    "originContent": "   For Nvidia users use this command:",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 46,
+    "rowsha": "f2UDKlzrbC2sNUumkU6iuv3hhS02UmZofevUJPeEJa8=",
+    "originContent": "   WEBKIT_DISABLE_DMABUF_RENDERER=1 ./creamlinux.AppImage",
+    "translatedContent": "   WEBKIT_DISABLE_DMABUF_RENDERER=1 ./creamlinux.AppImage"
+  },
+  {
+    "row": 47,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "PAXb+78le1M0tGja912lMO3lYkrLbLJt5NASw7VyGDg=",
+    "originContent": "### Building from Source",
+    "translatedContent": "### 从源代码构建"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "YJ9an2nCjbda0JOWCBaxTn5kBQ5lsvAwZCNxWnbuBw0=",
+    "originContent": "#### Prerequisites",
+    "translatedContent": "#### 先决条件"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "Rm7YIFA2b8s1zbicOynaoP8UiA4SY+/uuniSZiRat/o=",
+    "originContent": "- Rust 1.77.2 or later",
+    "translatedContent": "- Rust 1.77.2 或更高版本"
+  },
+  {
+    "row": 54,
+    "rowsha": "i+8csZsLopSWCx4bHBrWWt1vzCnrBw11ZdYqMHTJr90=",
+    "originContent": "- Node.js 18 or later",
+    "translatedContent": "- Node.js 18 或更高版本"
+  },
+  {
+    "row": 55,
+    "rowsha": "UnnlEvZArfLMBAQ1bRZ8sOCc28jukzfkuVNi0exkpsg=",
+    "originContent": "- webkit2gtk-4.1 (libwebkit2gtk-4.1 for debian)",
+    "translatedContent": "- webkit2gtk-4.1（Debian 系统为 libwebkit2gtk-4.1）"
+  },
+  {
+    "row": 56,
+    "rowsha": "eqageo4ix0fkL5Neh3+Sxg5CEeDUNRWxnso9xNjrAts=",
+    "originContent": "- npm or yarn",
+    "translatedContent": "- npm 或 yarn"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "h7YJ/OaUkXmtegg+48nydtdBpN/DiFVQ3nywLvr3UM4=",
+    "originContent": "#### Steps",
+    "translatedContent": "#### 步骤"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
+    "originContent": "1. Clone the repository:",
+    "translatedContent": "1. 克隆仓库："
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 63,
+    "rowsha": "ZLYncdBGRE0T8I0S3TCw93Bvor/fibhKzJAN+UbLmVo=",
+    "originContent": "   git clone https://github.com/Novattz/creamlinux-installer.git",
+    "translatedContent": "   git clone https://github.com/Novattz/creamlinux-installer.git"
+  },
+  {
+    "row": 64,
+    "rowsha": "xcBJ8zBLW8LhZ2O3ReKxo5H9ssHsaIEuOD3b8hDQO8g=",
+    "originContent": "   cd creamlinux-installer",
+    "translatedContent": "   cd creamlinux-installer"
+  },
+  {
+    "row": 65,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. 安装依赖项："
+  },
+  {
+    "row": 67,
+    "rowsha": "ksJZLSOlzyNqFrMTkpmMOmHTn1mDIM8A+zSqlEvTL7E=",
+    "originContent": "2. Install dependencies:",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 70,
+    "rowsha": "hSpRiJeKvo13WiNK1X/j43r+dnRxSSRc82P1t5/C0eA=",
+    "originContent": "   npm install # or yarn",
+    "translatedContent": "   npm install # or yarn"
+  },
+  {
+    "row": 71,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "un4mp0IgkNU+JVEzQ9V8zHWYCBBit5rx3ZfcoQApr+E=",
+    "originContent": "3. Build the application:",
+    "translatedContent": "3. 构建应用程序："
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 76,
+    "rowsha": "VJuHDdXms2Bp0nEHhC8ihOTv26elYvZB1W2IQ+i8DcA=",
+    "originContent": "   NO_STRIP=true npm run tauri build",
+    "translatedContent": "   NO_STRIP=true npm run tauri build"
+  },
+  {
+    "row": 77,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "eBQD29ioo/6bE+81VSzPhsML03q7/+IkB51Kmf8Czck=",
+    "originContent": "4. The compiled binary will be available in `src-tauri/target/release/creamlinux`",
+    "translatedContent": "4. 编译后的二进制文件将位于 `src-tauri/target/release/creamlinux`"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "AX86QmnkDzcvztFnKdDMqbi+dd6Fh/IYPLZqxboGLA8=",
+    "originContent": "### Desktop Integration",
+    "translatedContent": "### 桌面集成"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "JfjhGPPONbkjqZbzZfMVwJ1yXMib0s/S4tL3+M27SLs=",
+    "originContent": "If you're using the AppImage version, you can integrate it into your desktop environment:",
+    "translatedContent": "如果您使用的是 AppImage 版本，可以将其集成到您的桌面环境中："
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "H/bQO7psRBXYffGld41xWUZ/QYBjCsXW2HRYJTpT/EU=",
+    "originContent": "1. Create a desktop entry file:",
+    "translatedContent": "1. 创建一个桌面条目文件："
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 88,
+    "rowsha": "XnQCxbobfOaaf8V9HRdsxjn/kaRK2LLsbcbF3/ddfJQ=",
+    "originContent": "   mkdir -p ~/.local/share/applications",
+    "translatedContent": "   mkdir -p ~/.local/share/applications"
+  },
+  {
+    "row": 89,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "0hli5cW4eRwassfVbDe4CZ8vA4aMhiGq1oJz0ghr5yY=",
+    "originContent": "2. Create `~/.local/share/applications/creamlinux.desktop` with the following content (adjust the path to your AppImage):",
+    "translatedContent": "2. 创建 `~/.local/share/applications/creamlinux.desktop` 文件，内容如下（根据您的 AppImage 路径进行调整）："
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 94,
+    "rowsha": "SGjComdwuFlfWgnxsvQCi/0Fc8dp9FFbIBd4/WGKyKc=",
+    "originContent": "   [Desktop Entry]",
+    "translatedContent": "   [Desktop Entry]"
+  },
+  {
+    "row": 95,
+    "rowsha": "8TH6UYpY2OZN3rB6DvBPt4P7d+em+yWdt01zkGh0y/0=",
+    "originContent": "   Name=Creamlinux",
+    "translatedContent": "   Name=Creamlinux"
+  },
+  {
+    "row": 96,
+    "rowsha": "YyEI/nP+wZKzZOlMgd1jZUId8oVB8ug4nkaCQfAebhY=",
+    "originContent": "   Exec=/absolute/path/to/CreamLinux.AppImage",
+    "translatedContent": "   Exec=/absolute/path/to/CreamLinux.AppImage"
+  },
+  {
+    "row": 97,
+    "rowsha": "mCawalJEHWmB93lI2pJLZswR2EKpxzl5XCfi61Z1AOA=",
+    "originContent": "   Icon=/absolute/path/to/creamlinux-icon.png",
+    "translatedContent": "   Icon=/absolute/path/to/creamlinux-icon.png"
+  },
+  {
+    "row": 98,
+    "rowsha": "VoNtxeAaO2rkxf/ffgLMxXXg4XGDEXFpJPhsO4xYZuk=",
+    "originContent": "   Type=Application",
+    "translatedContent": "   Type=Application"
+  },
+  {
+    "row": 99,
+    "rowsha": "oatkieUOI80lIjs95R1sBE4qTDlO/Ae4+LSagOfwxTY=",
+    "originContent": "   Categories=Game;Utility;",
+    "translatedContent": "   Categories=Game;Utility;"
+  },
+  {
+    "row": 100,
+    "rowsha": "3LddA4q+fV8vqzmrO4jBXIQBnddjXlHbVZzEEO6Ia8Q=",
+    "originContent": "   Comment=DLC Manager for Steam games on Linux",
+    "translatedContent": "   Comment=DLC Manager for Steam games on Linux"
+  },
+  {
+    "row": 101,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "uyLOCLOQETN0dvJYUWQeM5+2KZVtgByZEPTp2LTcMNI=",
+    "originContent": "3. Update your desktop database so creamlinux appears in your app launcher:",
+    "translatedContent": "3. 更新您的桌面数据库，使 creamlinux 出现在您的应用启动器中："
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 106,
+    "rowsha": "45rkv1Ddz4Fzf4dAPl4R/UnLhOcZ/DDDtT6XBEsf2zA=",
+    "originContent": "update-desktop-database ~/.local/share/applications",
+    "translatedContent": "update-desktop-database ~/.local/share/applications"
+  },
+  {
+    "row": 107,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+    "originContent": "## Troubleshooting",
+    "translatedContent": "## 故障排除"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "RkRAwQVP7sn7/Owemvt8kSXbJ+bqNfpGvNpbr3Nkbgc=",
+    "originContent": "### Common Issues",
+    "translatedContent": "### 常见问题"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "CJiZeWV33BmLn4mQa+5G05jdRaSyuk5/1xhNDuCzzCA=",
+    "originContent": "- **Game doesn't load**: Make sure the launch options are correctly set in Steam",
+    "translatedContent": "- **游戏无法加载**：确保Steam中的启动选项设置正确"
+  },
+  {
+    "row": 114,
+    "rowsha": "XDHWXDGDSpO6X2F/m7ybK/Or1t/Ctb5NX6v8jZC5t9s=",
+    "originContent": "- **DLCs not showing up**: Try refreshing the game list and reinstalling",
+    "translatedContent": "- **DLC未显示**：尝试刷新游戏列表并重新安装"
+  },
+  {
+    "row": 115,
+    "rowsha": "P3ZyO6nMCXyGcDRritheVJWtCVam81CODWlP7AqG1KU=",
+    "originContent": "- **Cannot find Steam**: Ensure Steam is installed and you've launched it at least once",
+    "translatedContent": "- **找不到Steam**：确保已安装Steam并至少启动过一次"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "WaUeoa0eng5QBOxXgxCqrkDBWkXHYxs4VPLyrfHSJlU=",
+    "originContent": "### Debug Logs",
+    "translatedContent": "### 调试日志"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "H1TLxlnOuYdwsBkK9SotircAP4VyFDA0kVZR2kPvSBQ=",
+    "originContent": "Logs are stored at: `~/.cache/creamlinux/creamlinux.log`",
+    "translatedContent": "日志存储位置：`~/.cache/creamlinux/creamlinux.log`"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## 许可证"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "Euo//9l3psRTDEAJq0VqyQFajt9suYnQRUo5LeQOV6I=",
+    "originContent": "This project is licensed under the MIT License - see the [LICENSE](https://raw.githubusercontent.com/Novattz/creamlinux-installer/main/LICENSE.md) file for details.",
+    "translatedContent": "本项目采用MIT许可证 - 详情见[LICENSE](https://raw.githubusercontent.com/Novattz/creamlinux-installer/main/LICENSE.md)文件。"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": "## 致谢"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "Tj94/fAvVTgiS481rgaUpoMgvuZEQMi2otnyqPGSo6I=",
+    "originContent": "- [Creamlinux](https://github.com/anticitizn/creamlinux) - Native support",
+    "translatedContent": "- [Creamlinux](https://github.com/anticitizn/creamlinux) - 原生支持"
+  },
+  {
+    "row": 128,
+    "rowsha": "sf91kQHrgjKkRCCLGlmIkPN/GJVXWhCBVY3/Sk4JU5A=",
+    "originContent": "- [SmokeAPI](https://github.com/acidicoala/SmokeAPI) - Proton support",
+    "translatedContent": "- [SmokeAPI](https://github.com/acidicoala/SmokeAPI) - Proton支持"
+  },
+  {
+    "row": 129,
+    "rowsha": "rf98tMlAr13qyPYrNzaGFY4GXTmO54tY9xREldJPv74=",
+    "originContent": "- [Tauri](https://tauri.app/) - Framework for building the desktop application",
+    "translatedContent": "- [Tauri](https://tauri.app/) - 桌面应用框架"
+  },
+  {
+    "row": 130,
+    "rowsha": "BnhXHW7/WMnmDOzUJWMQ37Op0FYPWaw2QwON/oetxn4=",
+    "originContent": "- [React](https://reactjs.org/) - UI library",
+    "translatedContent": "- [React](https://reactjs.org/) - UI库"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
