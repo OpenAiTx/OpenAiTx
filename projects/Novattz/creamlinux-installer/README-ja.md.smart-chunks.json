@@ -8,206 +8,7 @@
     "EndLine": 0,
     "Translation": "# CreamLinux\n\nCreamLinuxは、SteamゲームのDLC ID管理を簡素化するLinux向けGUIアプリケーションです。ネイティブLinuxゲーム向けのCreamAPIおよびProton経由で動作するWindowsゲーム向けのSmokeAPIのインストールと設定を、ユーザーフレンドリーなインターフェースで提供します。\n\n## デモを見る：\n\n[![デモを見る](https://raw.githubusercontent.com/Novattz/creamlinux-installer/main/./src/assets/screenshot1.png)](https://www.youtube.com/watch?v=neUDotrqnDM)\n\n## ベータステータス\n\n⚠️ **重要**: CreamLinuxは現在ベータ版です。これは以下を意味します：\n\n- 一部の機能は未完成または変更される可能性があります\n- バグや予期しない動作に遭遇する可能性があります\n- アプリケーションは積極的に開発中です\n- フィードバックやバグ報告は非常に重要です\n\nコア機能は動作していますが、これは初期リリースであることにご注意ください。安定性の向上、機能追加、ユーザー体験の改善に継続的に取り組んでいます。問題があれば[GitHub Issuesページ](https://github.com/Novattz/creamlinux-installer/issues)にて報告してください。\n\n## 特徴\n\n- **自動検出**: システムにインストールされたSteamゲームを自動的に検出\n- **ネイティブサポート**: ネイティブLinuxゲーム向けにCreamLinuxをインストール\n- **Protonサポート**: Proton経由で動作するWindowsゲーム向けにSmokeAPIをインストール\n- **DLC管理**: 有効にするDLCを簡単に選択可能\n- **モダンUI**: 使いやすいクリーンでレスポンシブなインターフェース\n\n## インストール\n\n### AppImage（推奨）\n\n1. 最新の `creamlinux.AppImage` を[リリース](https://github.com/Novattz/creamlinux-installer/releases)ページからダウンロード\n2. 実行可能にする：",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "olbg7UXvJsYcm0cIIWZP0HYRdkNf4AlDjTKGsWtrEaE=",
-        "originContent": "# CreamLinux",
-        "translatedContent": "# CreamLinux"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "wA6hqPlOMqMdQV29ieiyt+OZHxz90IoIDJf/55W7a2o=",
-        "originContent": "CreamLinux is a GUI application for Linux that simplifies the management of DLC IDs in Steam games. It provides a user-friendly interface to install and configure CreamAPI (for native Linux games) and SmokeAPI (for Windows games running through Proton).",
-        "translatedContent": "CreamLinuxは、SteamゲームのDLC ID管理を簡素化するLinux向けGUIアプリケーションです。ネイティブLinuxゲーム向けのCreamAPIおよびProton経由で動作するWindowsゲーム向けのSmokeAPIのインストールと設定を、ユーザーフレンドリーなインターフェースで提供します。"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "Xxg3jn2rrYc2vqXojMlA8F/BGHEUU4xL8dHUKTYyjrc=",
-        "originContent": "## Watch the demo here:",
-        "translatedContent": "## デモを見る："
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "OVuVFXdc61UOfgTZriL4XFYCN4d509ylelPVxbDj2Q8=",
-        "originContent": "[![Watch the demo](https://raw.githubusercontent.com/Novattz/creamlinux-installer/main/./src/assets/screenshot1.png)](https://www.youtube.com/watch?v=neUDotrqnDM)",
-        "translatedContent": "[![デモを見る](https://raw.githubusercontent.com/Novattz/creamlinux-installer/main/./src/assets/screenshot1.png)](https://www.youtube.com/watch?v=neUDotrqnDM)"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "4JrSWTIo9mOf7tvKWCYqCBFn3dVrlGyJqms14cRUDZk=",
-        "originContent": "## Beta Status",
-        "translatedContent": "## ベータステータス"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "xy+dt/EvLhVG8gL77NhmphiR6khWmRSGQ81UdgfB6Ew=",
-        "originContent": "⚠️ **IMPORTANT**: CreamLinux is currently in BETA. This means:",
-        "translatedContent": "⚠️ **重要**: CreamLinuxは現在ベータ版です。これは以下を意味します："
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "cbo7/FnPjz25Dkni4tV/1FxqpBNCrY9Qkomk6i2pFec=",
-        "originContent": "- Some features may be incomplete or subject to change",
-        "translatedContent": "- 一部の機能は未完成または変更される可能性があります"
-      },
-      {
-        "row": 14,
-        "rowsha": "ZaUom0OSOOOQcAms8eNkwAi5qTqRZpvW0aOgm714+Ew=",
-        "originContent": "- You might encounter bugs or unexpected behavior",
-        "translatedContent": "- バグや予期しない動作に遭遇する可能性があります"
-      },
-      {
-        "row": 15,
-        "rowsha": "e07NDPDaIRcQ+8kdSbGNbYJbH68PMA9ZnXBaxUsx/ko=",
-        "originContent": "- The application is under active development",
-        "translatedContent": "- アプリケーションは積極的に開発中です"
-      },
-      {
-        "row": 16,
-        "rowsha": "WvBqw/PFCfbas4pml2KQzxSx3u6Oxgp9WhcfZn8YXTg=",
-        "originContent": "- Your feedback and bug reports are invaluable",
-        "translatedContent": "- フィードバックやバグ報告は非常に重要です"
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "gzTD3q/CXDMOShIwaROdIIPvdAX7fKcXRbc6DbC6leI=",
-        "originContent": "While the core functionality is working, please be aware that this is an early release. Im continuously working to improve stability, add features, and enhance the user experience. Please report any issues you encounter on [GitHub Issues page](https://github.com/Novattz/creamlinux-installer/issues).",
-        "translatedContent": "コア機能は動作していますが、これは初期リリースであることにご注意ください。安定性の向上、機能追加、ユーザー体験の改善に継続的に取り組んでいます。問題があれば[GitHub Issuesページ](https://github.com/Novattz/creamlinux-installer/issues)にて報告してください。"
-      },
-      {
-        "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 20,
-        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
-        "originContent": "## Features",
-        "translatedContent": "## 特徴"
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "TOsR+6UyDfy5mZIvzmwWxKWVM9VPsT2Zo8raxGItvq8=",
-        "originContent": "- **Auto-discovery**: Automatically finds Steam games installed on your system",
-        "translatedContent": "- **自動検出**: システムにインストールされたSteamゲームを自動的に検出"
-      },
-      {
-        "row": 23,
-        "rowsha": "7V5nobHTTSsKNPvgaSJ22xKwep1lHf7KM67kL0d4mis=",
-        "originContent": "- **Native support**: Installs CreamLinux for native Linux games",
-        "translatedContent": "- **ネイティブサポート**: ネイティブLinuxゲーム向けにCreamLinuxをインストール"
-      },
-      {
-        "row": 24,
-        "rowsha": "N62r2xl7ccZ72TN+YM8BuXmiQqUdkVtKHXVgrOwOz9c=",
-        "originContent": "- **Proton support**: Installs SmokeAPI for Windows games running through Proton",
-        "translatedContent": "- **Protonサポート**: Proton経由で動作するWindowsゲーム向けにSmokeAPIをインストール"
-      },
-      {
-        "row": 25,
-        "rowsha": "+Z/wVXL5trHf9qEdU/O9jS6L9xP3RMLXxQb3gzhJyhI=",
-        "originContent": "- **DLC management**: Easily select which DLCs to enable",
-        "translatedContent": "- **DLC管理**: 有効にするDLCを簡単に選択可能"
-      },
-      {
-        "row": 26,
-        "rowsha": "qmmWnT6XLxC3QNwC4UyXYW7/+R512xunY26j1dq2YsM=",
-        "originContent": "- **Modern UI**: Clean, responsive interface that's easy to use",
-        "translatedContent": "- **モダンUI**: 使いやすいクリーンでレスポンシブなインターフェース"
-      },
-      {
-        "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 28,
-        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
-        "originContent": "## Installation",
-        "translatedContent": "## インストール"
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 30,
-        "rowsha": "aWn6Nfm/IKO6LTkJ6YGwN51reAc6ksI95Sc/RrbGVGc=",
-        "originContent": "### AppImage (Recommended)",
-        "translatedContent": "### AppImage（推奨）"
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 32,
-        "rowsha": "69SihapxSVeSpGruwbWURfoxvv+RVj2OE4nNblRAXnI=",
-        "originContent": "1. Download the latest `creamlinux.AppImage` from the [Releases](https://github.com/Novattz/creamlinux-installer/releases) page",
-        "translatedContent": "1. 最新の `creamlinux.AppImage` を[リリース](https://github.com/Novattz/creamlinux-installer/releases)ページからダウンロード"
-      },
-      {
-        "row": 33,
-        "rowsha": "5fxsyoJK7tnksXGqPXs5VwcTbpRE26n8JuOGdgpVbI4=",
-        "originContent": "2. Make it executable:",
-        "translatedContent": "2. 実行可能にする："
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -219,26 +20,7 @@
     "EndLine": 0,
     "Translation": "   ```bash\n   chmod +x creamlinux.AppImage\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
-        "originContent": "   ```bash",
-        "translatedContent": "   ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "SAKgkPgUyuGlTLdm4rR/3TYQWCmIWjP25mHa/jPlMm0=",
-        "originContent": "   chmod +x creamlinux.AppImage",
-        "translatedContent": "   chmod +x creamlinux.AppImage"
-      },
-      {
-        "row": 3,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -250,20 +32,7 @@
     "EndLine": 0,
     "Translation": "3. 実行してください：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "VpXjdhNOVZRTDDqSdPnzNYHRZR5yAzepaECynTllH9o=",
-        "originContent": "3. Run it:",
-        "translatedContent": "3. 実行してください："
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -275,26 +44,7 @@
     "EndLine": 0,
     "Translation": "   ```bash\n   ./creamlinux.AppImage\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
-        "originContent": "   ```bash",
-        "translatedContent": "   ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "GYCJtEeueVuYXKT6MQA3RnvXkxHRvyCDIsHp0ouppU4=",
-        "originContent": "   ./creamlinux.AppImage",
-        "translatedContent": "   ./creamlinux.AppImage"
-      },
-      {
-        "row": 3,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -306,26 +56,7 @@
     "EndLine": 0,
     "Translation": "\n   Nvidiaユーザーはこのコマンドを使用してください:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "MA3vP+joV1fhSlOz1pKJFvYpN5JpGdNPGJgtCxUwmd0=",
-        "originContent": "   For Nvidia users use this command:",
-        "translatedContent": "   Nvidiaユーザーはこのコマンドを使用してください:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -337,26 +68,7 @@
     "EndLine": 0,
     "Translation": "   ```\n   WEBKIT_DISABLE_DMABUF_RENDERER=1 ./creamlinux.AppImage\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      },
-      {
-        "row": 2,
-        "rowsha": "f2UDKlzrbC2sNUumkU6iuv3hhS02UmZofevUJPeEJa8=",
-        "originContent": "   WEBKIT_DISABLE_DMABUF_RENDERER=1 ./creamlinux.AppImage",
-        "translatedContent": "   WEBKIT_DISABLE_DMABUF_RENDERER=1 ./creamlinux.AppImage"
-      },
-      {
-        "row": 3,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -368,92 +80,7 @@
     "EndLine": 0,
     "Translation": "\n### ソースからのビルド\n\n#### 前提条件\n\n- Rust 1.77.2以降\n- Node.js 18以降\n- webkit2gtk-4.1（Debianではlibwebkit2gtk-4.1）\n- npmまたはyarn\n\n#### 手順\n\n1. リポジトリをクローンする：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "PAXb+78le1M0tGja912lMO3lYkrLbLJt5NASw7VyGDg=",
-        "originContent": "### Building from Source",
-        "translatedContent": "### ソースからのビルド"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "YJ9an2nCjbda0JOWCBaxTn5kBQ5lsvAwZCNxWnbuBw0=",
-        "originContent": "#### Prerequisites",
-        "translatedContent": "#### 前提条件"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "Rm7YIFA2b8s1zbicOynaoP8UiA4SY+/uuniSZiRat/o=",
-        "originContent": "- Rust 1.77.2 or later",
-        "translatedContent": "- Rust 1.77.2以降"
-      },
-      {
-        "row": 7,
-        "rowsha": "i+8csZsLopSWCx4bHBrWWt1vzCnrBw11ZdYqMHTJr90=",
-        "originContent": "- Node.js 18 or later",
-        "translatedContent": "- Node.js 18以降"
-      },
-      {
-        "row": 8,
-        "rowsha": "UnnlEvZArfLMBAQ1bRZ8sOCc28jukzfkuVNi0exkpsg=",
-        "originContent": "- webkit2gtk-4.1 (libwebkit2gtk-4.1 for debian)",
-        "translatedContent": "- webkit2gtk-4.1（Debianではlibwebkit2gtk-4.1）"
-      },
-      {
-        "row": 9,
-        "rowsha": "eqageo4ix0fkL5Neh3+Sxg5CEeDUNRWxnso9xNjrAts=",
-        "originContent": "- npm or yarn",
-        "translatedContent": "- npmまたはyarn"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "h7YJ/OaUkXmtegg+48nydtdBpN/DiFVQ3nywLvr3UM4=",
-        "originContent": "#### Steps",
-        "translatedContent": "#### 手順"
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
-        "originContent": "1. Clone the repository:",
-        "translatedContent": "1. リポジトリをクローンする："
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -465,32 +92,7 @@
     "EndLine": 0,
     "Translation": "   ```bash\n   git clone https://github.com/Novattz/creamlinux-installer.git\n   cd creamlinux-installer\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
-        "originContent": "   ```bash",
-        "translatedContent": "   ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "ZLYncdBGRE0T8I0S3TCw93Bvor/fibhKzJAN+UbLmVo=",
-        "originContent": "   git clone https://github.com/Novattz/creamlinux-installer.git",
-        "translatedContent": "   git clone https://github.com/Novattz/creamlinux-installer.git"
-      },
-      {
-        "row": 3,
-        "rowsha": "xcBJ8zBLW8LhZ2O3ReKxo5H9ssHsaIEuOD3b8hDQO8g=",
-        "originContent": "   cd creamlinux-installer",
-        "translatedContent": "   cd creamlinux-installer"
-      },
-      {
-        "row": 4,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -502,26 +104,7 @@
     "EndLine": 0,
     "Translation": "\n2. 依存関係をインストールします:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "ksJZLSOlzyNqFrMTkpmMOmHTn1mDIM8A+zSqlEvTL7E=",
-        "originContent": "2. Install dependencies:",
-        "translatedContent": "2. 依存関係をインストールします:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -533,26 +116,7 @@
     "EndLine": 0,
     "Translation": "   ```bash\n   npm install # or yarn\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
-        "originContent": "   ```bash",
-        "translatedContent": "   ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "hSpRiJeKvo13WiNK1X/j43r+dnRxSSRc82P1t5/C0eA=",
-        "originContent": "   npm install # or yarn",
-        "translatedContent": "   npm install # or yarn"
-      },
-      {
-        "row": 3,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -564,26 +128,7 @@
     "EndLine": 0,
     "Translation": "\n3. アプリケーションをビルドする:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "un4mp0IgkNU+JVEzQ9V8zHWYCBBit5rx3ZfcoQApr+E=",
-        "originContent": "3. Build the application:",
-        "translatedContent": "3. アプリケーションをビルドする:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -595,26 +140,7 @@
     "EndLine": 0,
     "Translation": "   ```bash\n   NO_STRIP=true npm run tauri build\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
-        "originContent": "   ```bash",
-        "translatedContent": "   ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "VJuHDdXms2Bp0nEHhC8ihOTv26elYvZB1W2IQ+i8DcA=",
-        "originContent": "   NO_STRIP=true npm run tauri build",
-        "translatedContent": "   NO_STRIP=true npm run tauri build"
-      },
-      {
-        "row": 3,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -626,62 +152,7 @@
     "EndLine": 0,
     "Translation": "\n4. コンパイルされたバイナリは `src-tauri/target/release/creamlinux` にあります。\n\n### デスクトップ統合\n\nAppImageバージョンを使用している場合、デスクトップ環境に統合できます：\n\n1. デスクトップエントリファイルを作成します：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "eBQD29ioo/6bE+81VSzPhsML03q7/+IkB51Kmf8Czck=",
-        "originContent": "4. The compiled binary will be available in `src-tauri/target/release/creamlinux`",
-        "translatedContent": "4. コンパイルされたバイナリは `src-tauri/target/release/creamlinux` にあります。"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "AX86QmnkDzcvztFnKdDMqbi+dd6Fh/IYPLZqxboGLA8=",
-        "originContent": "### Desktop Integration",
-        "translatedContent": "### デスクトップ統合"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "JfjhGPPONbkjqZbzZfMVwJ1yXMib0s/S4tL3+M27SLs=",
-        "originContent": "If you're using the AppImage version, you can integrate it into your desktop environment:",
-        "translatedContent": "AppImageバージョンを使用している場合、デスクトップ環境に統合できます："
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "H/bQO7psRBXYffGld41xWUZ/QYBjCsXW2HRYJTpT/EU=",
-        "originContent": "1. Create a desktop entry file:",
-        "translatedContent": "1. デスクトップエントリファイルを作成します："
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -693,26 +164,7 @@
     "EndLine": 0,
     "Translation": "   ```bash\n   mkdir -p ~/.local/share/applications\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
-        "originContent": "   ```bash",
-        "translatedContent": "   ```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "XnQCxbobfOaaf8V9HRdsxjn/kaRK2LLsbcbF3/ddfJQ=",
-        "originContent": "   mkdir -p ~/.local/share/applications",
-        "translatedContent": "   mkdir -p ~/.local/share/applications"
-      },
-      {
-        "row": 3,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -724,26 +176,7 @@
     "EndLine": 0,
     "Translation": "\n2. `~/.local/share/applications/creamlinux.desktop` を以下の内容で作成します（AppImageのパスは適宜調整してください）：\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "0hli5cW4eRwassfVbDe4CZ8vA4aMhiGq1oJz0ghr5yY=",
-        "originContent": "2. Create `~/.local/share/applications/creamlinux.desktop` with the following content (adjust the path to your AppImage):",
-        "translatedContent": "2. `~/.local/share/applications/creamlinux.desktop` を以下の内容で作成します（AppImageのパスは適宜調整してください）："
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -755,62 +188,7 @@
     "EndLine": 0,
     "Translation": "   ```\n   [Desktop Entry]\n   Name=Creamlinux\n   Exec=/absolute/path/to/CreamLinux.AppImage\n   Icon=/absolute/path/to/creamlinux-icon.png\n   Type=Application\n   Categories=Game;Utility;\n   Comment=DLC Manager for Steam games on Linux\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      },
-      {
-        "row": 2,
-        "rowsha": "SGjComdwuFlfWgnxsvQCi/0Fc8dp9FFbIBd4/WGKyKc=",
-        "originContent": "   [Desktop Entry]",
-        "translatedContent": "   [Desktop Entry]"
-      },
-      {
-        "row": 3,
-        "rowsha": "8TH6UYpY2OZN3rB6DvBPt4P7d+em+yWdt01zkGh0y/0=",
-        "originContent": "   Name=Creamlinux",
-        "translatedContent": "   Name=Creamlinux"
-      },
-      {
-        "row": 4,
-        "rowsha": "YyEI/nP+wZKzZOlMgd1jZUId8oVB8ug4nkaCQfAebhY=",
-        "originContent": "   Exec=/absolute/path/to/CreamLinux.AppImage",
-        "translatedContent": "   Exec=/absolute/path/to/CreamLinux.AppImage"
-      },
-      {
-        "row": 5,
-        "rowsha": "mCawalJEHWmB93lI2pJLZswR2EKpxzl5XCfi61Z1AOA=",
-        "originContent": "   Icon=/absolute/path/to/creamlinux-icon.png",
-        "translatedContent": "   Icon=/absolute/path/to/creamlinux-icon.png"
-      },
-      {
-        "row": 6,
-        "rowsha": "VoNtxeAaO2rkxf/ffgLMxXXg4XGDEXFpJPhsO4xYZuk=",
-        "originContent": "   Type=Application",
-        "translatedContent": "   Type=Application"
-      },
-      {
-        "row": 7,
-        "rowsha": "oatkieUOI80lIjs95R1sBE4qTDlO/Ae4+LSagOfwxTY=",
-        "originContent": "   Categories=Game;Utility;",
-        "translatedContent": "   Categories=Game;Utility;"
-      },
-      {
-        "row": 8,
-        "rowsha": "3LddA4q+fV8vqzmrO4jBXIQBnddjXlHbVZzEEO6Ia8Q=",
-        "originContent": "   Comment=DLC Manager for Steam games on Linux",
-        "translatedContent": "   Comment=DLC Manager for Steam games on Linux"
-      },
-      {
-        "row": 9,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -822,26 +200,7 @@
     "EndLine": 0,
     "Translation": "\n3. デスクトップデータベースを更新して、creamlinux がアプリランチャーに表示されるようにします:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "uyLOCLOQETN0dvJYUWQeM5+2KZVtgByZEPTp2LTcMNI=",
-        "originContent": "3. Update your desktop database so creamlinux appears in your app launcher:",
-        "translatedContent": "3. デスクトップデータベースを更新して、creamlinux がアプリランチャーに表示されるようにします:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -853,26 +212,7 @@
     "EndLine": 0,
     "Translation": "```bash\nupdate-desktop-database ~/.local/share/applications\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "45rkv1Ddz4Fzf4dAPl4R/UnLhOcZ/DDDtT6XBEsf2zA=",
-        "originContent": "update-desktop-database ~/.local/share/applications",
-        "translatedContent": "update-desktop-database ~/.local/share/applications"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -884,152 +224,7 @@
     "EndLine": 0,
     "Translation": "## トラブルシューティング\n\n### よくある問題\n\n- **ゲームが起動しない**: Steamの起動オプションが正しく設定されているか確認してください\n- **DLCが表示されない**: ゲームリストを更新し、再インストールを試みてください\n- **Steamが見つからない**: Steamがインストールされており、一度は起動していることを確認してください\n\n### デバッグログ\n\nログは次の場所に保存されています: `~/.cache/creamlinux/creamlinux.log`\n\n## ライセンス\n\nこのプロジェクトはMITライセンスの下でライセンスされています - 詳細は[LICENSE](https://raw.githubusercontent.com/Novattz/creamlinux-installer/main/LICENSE.md)ファイルをご覧ください。\n\n## クレジット\n\n- [Creamlinux](https://github.com/anticitizn/creamlinux) - ネイティブサポート\n- [SmokeAPI](https://github.com/acidicoala/SmokeAPI) - Protonサポート\n- [Tauri](https://tauri.app/) - デスクトップアプリケーション構築のためのフレームワーク\n- [React](https://reactjs.org/) - UIライブラリ\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## トラブルシューティング"
-      },
-      {
-        "row": 2,
-        "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
-        "originContent": "## Troubleshooting",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### よくある問題"
-      },
-      {
-        "row": 4,
-        "rowsha": "RkRAwQVP7sn7/Owemvt8kSXbJ+bqNfpGvNpbr3Nkbgc=",
-        "originContent": "### Common Issues",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- **ゲームが起動しない**: Steamの起動オプションが正しく設定されているか確認してください"
-      },
-      {
-        "row": 6,
-        "rowsha": "CJiZeWV33BmLn4mQa+5G05jdRaSyuk5/1xhNDuCzzCA=",
-        "originContent": "- **Game doesn't load**: Make sure the launch options are correctly set in Steam",
-        "translatedContent": "- **DLCが表示されない**: ゲームリストを更新し、再インストールを試みてください"
-      },
-      {
-        "row": 7,
-        "rowsha": "XDHWXDGDSpO6X2F/m7ybK/Or1t/Ctb5NX6v8jZC5t9s=",
-        "originContent": "- **DLCs not showing up**: Try refreshing the game list and reinstalling",
-        "translatedContent": "- **Steamが見つからない**: Steamがインストールされており、一度は起動していることを確認してください"
-      },
-      {
-        "row": 8,
-        "rowsha": "P3ZyO6nMCXyGcDRritheVJWtCVam81CODWlP7AqG1KU=",
-        "originContent": "- **Cannot find Steam**: Ensure Steam is installed and you've launched it at least once",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### デバッグログ"
-      },
-      {
-        "row": 10,
-        "rowsha": "WaUeoa0eng5QBOxXgxCqrkDBWkXHYxs4VPLyrfHSJlU=",
-        "originContent": "### Debug Logs",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "ログは次の場所に保存されています: `~/.cache/creamlinux/creamlinux.log`"
-      },
-      {
-        "row": 12,
-        "rowsha": "H1TLxlnOuYdwsBkK9SotircAP4VyFDA0kVZR2kPvSBQ=",
-        "originContent": "Logs are stored at: `~/.cache/creamlinux/creamlinux.log`",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## ライセンス"
-      },
-      {
-        "row": 14,
-        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
-        "originContent": "## License",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "このプロジェクトはMITライセンスの下でライセンスされています - 詳細は[LICENSE](https://raw.githubusercontent.com/Novattz/creamlinux-installer/main/LICENSE.md)ファイルをご覧ください。"
-      },
-      {
-        "row": 16,
-        "rowsha": "Euo//9l3psRTDEAJq0VqyQFajt9suYnQRUo5LeQOV6I=",
-        "originContent": "This project is licensed under the MIT License - see the [LICENSE](https://raw.githubusercontent.com/Novattz/creamlinux-installer/main/LICENSE.md) file for details.",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## クレジット"
-      },
-      {
-        "row": 18,
-        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
-        "originContent": "## Credits",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- [Creamlinux](https://github.com/anticitizn/creamlinux) - ネイティブサポート"
-      },
-      {
-        "row": 20,
-        "rowsha": "Tj94/fAvVTgiS481rgaUpoMgvuZEQMi2otnyqPGSo6I=",
-        "originContent": "- [Creamlinux](https://github.com/anticitizn/creamlinux) - Native support",
-        "translatedContent": "- [SmokeAPI](https://github.com/acidicoala/SmokeAPI) - Protonサポート"
-      },
-      {
-        "row": 21,
-        "rowsha": "sf91kQHrgjKkRCCLGlmIkPN/GJVXWhCBVY3/Sk4JU5A=",
-        "originContent": "- [SmokeAPI](https://github.com/acidicoala/SmokeAPI) - Proton support",
-        "translatedContent": "- [Tauri](https://tauri.app/) - デスクトップアプリケーション構築のためのフレームワーク"
-      },
-      {
-        "row": 22,
-        "rowsha": "rf98tMlAr13qyPYrNzaGFY4GXTmO54tY9xREldJPv74=",
-        "originContent": "- [Tauri](https://tauri.app/) - Framework for building the desktop application",
-        "translatedContent": "- [React](https://reactjs.org/) - UIライブラリ"
-      },
-      {
-        "row": 23,
-        "rowsha": "BnhXHW7/WMnmDOzUJWMQ37Op0FYPWaw2QwON/oetxn4=",
-        "originContent": "- [React](https://reactjs.org/) - UI library",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

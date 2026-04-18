@@ -1,0 +1,2531 @@
+[
+  {
+    "Id": 1,
+    "Content": "# trading-skills\n\n[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)\n![CLI](https://img.shields.io/badge/-CLI-000000?logo=linux&logoColor=white)\n![Financial Data](https://img.shields.io/badge/-Financial%20Data-4A90E2?logo=data)\n\n> **Comprehensive financial data CLI for Tushare Pro** | **7+ trading skill modules** | **52+ data tools** | **Production-ready**\n\nA professional-grade skill development and training project featuring comprehensive tools for financial data querying, analysis, and trading strategy development. Built with a modular skill architecture, complete CLI implementation, and extensive test coverage.\n\n---\n\n## 📋 Features\n\n- **7 Specialized Skill Modules**: Stock, Futures, Index, Forex, Alpha, Concepts, Financial\n- **52+ Data Query Tools**: Full parity with Tushare Pro API coverage\n- **Production CLI**: Type-safe command-line client with caching and multiple output formats\n- **Comprehensive Testing**: 992+ tests covering CLI, cache, config, and data output\n- **Skill-Based Learning**: Modular knowledge base for understanding trading concepts and data\n- **Git-Based Configuration**: Configuration management via version control\n\n---\n\n## 📁 Project Structure\n",
+    "ContentSha": "eQNGQNG/mYGeHRopTZ9K15r6pt3pCiS/0ix7N9DzrBk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# trading-skills\n\n[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)\n![CLI](https://img.shields.io/badge/-CLI-000000?logo=linux&logoColor=white)\n![Données Financières](https://img.shields.io/badge/-Donn%C3%A9es%20Financi%C3%A8res-4A90E2?logo=data)\n\n> **CLI complète pour données financières Tushare Pro** | **7+ modules de compétences en trading** | **52+ outils de données** | **Prêt pour la production**\n\nUn projet professionnel de développement de compétences et de formation proposant des outils complets pour la requête de données financières, l’analyse et le développement de stratégies de trading. Construit avec une architecture modulaire de compétences, une implémentation CLI complète et une couverture de tests étendue.\n\n---\n\n## 📋 Fonctionnalités\n\n- **7 Modules de Compétences Spécialisés** : Actions, Futures, Indices, Forex, Alpha, Concepts, Financier\n- **52+ Outils de Requête de Données** : Parité complète avec la couverture API de Tushare Pro\n- **CLI de Production** : Client en ligne de commande typé avec mise en cache et formats de sortie multiples\n- **Tests Complets** : Plus de 992 tests couvrant CLI, cache, configuration et sortie de données\n- **Apprentissage Basé sur les Compétences** : Base de connaissances modulaire pour comprendre les concepts de trading et les données\n- **Configuration Basée sur Git** : Gestion de configuration via contrôle de version\n\n---\n\n## 📁 Structure du Projet\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "H6Z0Gkpzmq0IaMs01uNkjYXmTClwcWZVbDE4A9pjHHg=",
+        "originContent": "# trading-skills",
+        "translatedContent": "# trading-skills"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "kNXhLY8YmWfpS7fipIOtrOkfVQgbY50pD5F0LWSjHXY=",
+        "originContent": "[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)",
+        "translatedContent": "[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+      },
+      {
+        "row": 4,
+        "rowsha": "u6mAbDIS0FzOIIbvPIGqpa7+c5CRcgOpTrMgbXUvlSw=",
+        "originContent": "![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)",
+        "translatedContent": "![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)"
+      },
+      {
+        "row": 5,
+        "rowsha": "r+3KLiQ6e2CvPmzVvbcMYzoQuLL4oKNrYHGnjHfFU4k=",
+        "originContent": "![CLI](https://img.shields.io/badge/-CLI-000000?logo=linux&logoColor=white)",
+        "translatedContent": "![CLI](https://img.shields.io/badge/-CLI-000000?logo=linux&logoColor=white)"
+      },
+      {
+        "row": 6,
+        "rowsha": "EsTgwkumbX3wmA1WdPHNhePggBcVIZb2Y9TUeTyxI4c=",
+        "originContent": "![Financial Data](https://img.shields.io/badge/-Financial%20Data-4A90E2?logo=data)",
+        "translatedContent": "![Données Financières](https://img.shields.io/badge/-Donn%C3%A9es%20Financi%C3%A8res-4A90E2?logo=data)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "cm7GnpOiuLn0i67R9PLnjLbmwWfHIGtsd31KQUR9mhc=",
+        "originContent": "> **Comprehensive financial data CLI for Tushare Pro** | **7+ trading skill modules** | **52+ data tools** | **Production-ready**",
+        "translatedContent": "> **CLI complète pour données financières Tushare Pro** | **7+ modules de compétences en trading** | **52+ outils de données** | **Prêt pour la production**"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "3Aw/eA1iDdvggeGBcTSP+NXEp1QST7Apb1YfUQQVcPc=",
+        "originContent": "A professional-grade skill development and training project featuring comprehensive tools for financial data querying, analysis, and trading strategy development. Built with a modular skill architecture, complete CLI implementation, and extensive test coverage.",
+        "translatedContent": "Un projet professionnel de développement de compétences et de formation proposant des outils complets pour la requête de données financières, l’analyse et le développement de stratégies de trading. Construit avec une architecture modulaire de compétences, une implémentation CLI complète et une couverture de tests étendue."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "lVsnDMPAiTAmq664mLRPblsKK2RD0jrTuqTBBgDCc6M=",
+        "originContent": "## 📋 Features",
+        "translatedContent": "## 📋 Fonctionnalités"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Px/huvxEe5uIR3HApYvDy7a5bhupyaDmbUZuwiH42NQ=",
+        "originContent": "- **7 Specialized Skill Modules**: Stock, Futures, Index, Forex, Alpha, Concepts, Financial",
+        "translatedContent": "- **7 Modules de Compétences Spécialisés** : Actions, Futures, Indices, Forex, Alpha, Concepts, Financier"
+      },
+      {
+        "row": 17,
+        "rowsha": "IG1CANJak9FqO2+2dTP3Fnt7piqjS20TngbWUmI/T6s=",
+        "originContent": "- **52+ Data Query Tools**: Full parity with Tushare Pro API coverage",
+        "translatedContent": "- **52+ Outils de Requête de Données** : Parité complète avec la couverture API de Tushare Pro"
+      },
+      {
+        "row": 18,
+        "rowsha": "5/EXdW6EyxzTXeDTkAIeAwzWRSLlTvuns+ybYegpo7I=",
+        "originContent": "- **Production CLI**: Type-safe command-line client with caching and multiple output formats",
+        "translatedContent": "- **CLI de Production** : Client en ligne de commande typé avec mise en cache et formats de sortie multiples"
+      },
+      {
+        "row": 19,
+        "rowsha": "U7MyRiXCz5oYpWybn+hPRmtvOCQCx9Jd7WlVwafkVV8=",
+        "originContent": "- **Comprehensive Testing**: 992+ tests covering CLI, cache, config, and data output",
+        "translatedContent": "- **Tests Complets** : Plus de 992 tests couvrant CLI, cache, configuration et sortie de données"
+      },
+      {
+        "row": 20,
+        "rowsha": "V8S1kodCigmVvC88Ba1uHQfVGe3dicEw+DpoqZdrSSI=",
+        "originContent": "- **Skill-Based Learning**: Modular knowledge base for understanding trading concepts and data",
+        "translatedContent": "- **Apprentissage Basé sur les Compétences** : Base de connaissances modulaire pour comprendre les concepts de trading et les données"
+      },
+      {
+        "row": 21,
+        "rowsha": "+mWXw/QQ5EERHkElaEcwIWwB6BopvVKdFSPf042ZboA=",
+        "originContent": "- **Git-Based Configuration**: Configuration management via version control",
+        "translatedContent": "- **Configuration Basée sur Git** : Gestion de configuration via contrôle de version"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "J+2kA+i8tz3LjivQ0RcsUzCYWvN2UHGcYExXmtR1Hsk=",
+        "originContent": "## 📁 Project Structure",
+        "translatedContent": "## 📁 Structure du Projet"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\ntrading-skills/\n├── skills/                      # Trading skill modules (7 categories)\n│   ├── tushare-stock/          # Stock trading fundamentals and techniques\n│   ├── tushare-futures/        # Futures contracts and strategies\n│   ├── tushare-index/          # Index data and analysis\n│   ├── tushare-forex/          # Foreign exchange trading\n│   ├── tushare-alpha/          # Alpha factor generation\n│   ├── tushare-concepts/       # Key trading and financial concepts\n│   └── tushare-financial/      # Financial statement analysis\n├── tools/tushare_cli/          # CLI implementation\n│   ├── src/                    # Python package\n│   │   └── tushare_cli/        # Main CLI code\n│   │       ├── commands/       # Command modules by category\n│   │       ├── api.py          # Tushare API wrapper\n│   │       ├── cache.py        # Response caching layer\n│   │       ├── config.py       # Configuration management\n│   │       ├── output.py       # Output formatting (JSON, CSV, Table)\n│   │       └── main.py         # CLI entry point\n│   └── pyproject.toml          # Package configuration\n├── tests/                       # Test suite (992+ tests)\n│   └── tushare_cli/           # CLI tests\n│       ├── test_cache.py       # Cache functionality tests\n│       ├── test_commands_*.py  # Command tests by category\n│       ├── test_config.py      # Configuration tests\n│       ├── test_main.py        # CLI entry point tests\n│       └── test_output.py      # Output format tests\n└── docs/plans/                 # Design and implementation plans\n```",
+    "ContentSha": "qV5VHmbSPcNMPSLhR4nCE7g+6+Z1X4ocdvDvuiqg2XY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ntrading-skills/\n├── skills/                      # Trading skill modules (7 categories)\n│   ├── tushare-stock/          # Stock trading fundamentals and techniques\n│   ├── tushare-futures/        # Futures contracts and strategies\n│   ├── tushare-index/          # Index data and analysis\n│   ├── tushare-forex/          # Foreign exchange trading\n│   ├── tushare-alpha/          # Alpha factor generation\n│   ├── tushare-concepts/       # Key trading and financial concepts\n│   └── tushare-financial/      # Financial statement analysis\n├── tools/tushare_cli/          # CLI implementation\n│   ├── src/                    # Python package\n│   │   └── tushare_cli/        # Main CLI code\n│   │       ├── commands/       # Command modules by category\n│   │       ├── api.py          # Tushare API wrapper\n│   │       ├── cache.py        # Response caching layer\n│   │       ├── config.py       # Configuration management\n│   │       ├── output.py       # Output formatting (JSON, CSV, Table)\n│   │       └── main.py         # CLI entry point\n│   └── pyproject.toml          # Package configuration\n├── tests/                       # Test suite (992+ tests)\n│   └── tushare_cli/           # CLI tests\n│       ├── test_cache.py       # Cache functionality tests\n│       ├── test_commands_*.py  # Command tests by category\n│       ├── test_config.py      # Configuration tests\n│       ├── test_main.py        # CLI entry point tests\n│       └── test_output.py      # Output format tests\n└── docs/plans/                 # Design and implementation plans\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "PMOKI9PLAYGy3SLRrdvLokgaBnfEOOFiY/QOzq94suQ=",
+        "originContent": "trading-skills/",
+        "translatedContent": "trading-skills/"
+      },
+      {
+        "row": 3,
+        "rowsha": "caOo5PMYy0AS+a6R661x/ALGTSsdRQ28qjwBB012PfE=",
+        "originContent": "├── skills/                      # Trading skill modules (7 categories)",
+        "translatedContent": "├── skills/                      # Trading skill modules (7 categories)"
+      },
+      {
+        "row": 4,
+        "rowsha": "+gDeq0DXUanSsu/vYgBXL9cbJW8hRUXCPGL+L8qY6cA=",
+        "originContent": "│   ├── tushare-stock/          # Stock trading fundamentals and techniques",
+        "translatedContent": "│   ├── tushare-stock/          # Stock trading fundamentals and techniques"
+      },
+      {
+        "row": 5,
+        "rowsha": "cUa35MpTICcxpFwv/QuNo8O8n6VF6xhjrufn3YNGi6M=",
+        "originContent": "│   ├── tushare-futures/        # Futures contracts and strategies",
+        "translatedContent": "│   ├── tushare-futures/        # Futures contracts and strategies"
+      },
+      {
+        "row": 6,
+        "rowsha": "zSuoe9urRnDu9CutM/MRcFI2CYnrVhQq94WckCf8X3g=",
+        "originContent": "│   ├── tushare-index/          # Index data and analysis",
+        "translatedContent": "│   ├── tushare-index/          # Index data and analysis"
+      },
+      {
+        "row": 7,
+        "rowsha": "vTeLRFrleIFQ8PkcQBstgloFpKFBJ6Ph1gZDGoO7SC8=",
+        "originContent": "│   ├── tushare-forex/          # Foreign exchange trading",
+        "translatedContent": "│   ├── tushare-forex/          # Foreign exchange trading"
+      },
+      {
+        "row": 8,
+        "rowsha": "F5cdG5+zMovPx1m4qkgrXvY5HB+yrG695eLwwqmWXvA=",
+        "originContent": "│   ├── tushare-alpha/          # Alpha factor generation",
+        "translatedContent": "│   ├── tushare-alpha/          # Alpha factor generation"
+      },
+      {
+        "row": 9,
+        "rowsha": "dyzvRLOOkqPSIFAAN1eNUa+cHQ8+OWBf8rJKLM7R6Qs=",
+        "originContent": "│   ├── tushare-concepts/       # Key trading and financial concepts",
+        "translatedContent": "│   ├── tushare-concepts/       # Key trading and financial concepts"
+      },
+      {
+        "row": 10,
+        "rowsha": "XxYL8QHFKa8k8joWcLbhMhs+m0H+qkwCBdYziz2Hyd0=",
+        "originContent": "│   └── tushare-financial/      # Financial statement analysis",
+        "translatedContent": "│   └── tushare-financial/      # Financial statement analysis"
+      },
+      {
+        "row": 11,
+        "rowsha": "2u17TiTM2HrOpDqKncltw2Lk5Zq0sz6ZhYczFTH53Go=",
+        "originContent": "├── tools/tushare_cli/          # CLI implementation",
+        "translatedContent": "├── tools/tushare_cli/          # CLI implementation"
+      },
+      {
+        "row": 12,
+        "rowsha": "yMjRVEP7fIRDtCB5pbNayIkoAn3YhUsVtWmHK5v1pr8=",
+        "originContent": "│   ├── src/                    # Python package",
+        "translatedContent": "│   ├── src/                    # Python package"
+      },
+      {
+        "row": 13,
+        "rowsha": "89REMCTc6xWMUu5nGTTasA1f3mBhgzjgRkwmHny2Gos=",
+        "originContent": "│   │   └── tushare_cli/        # Main CLI code",
+        "translatedContent": "│   │   └── tushare_cli/        # Main CLI code"
+      },
+      {
+        "row": 14,
+        "rowsha": "5kh87QLWHrSoG0WUZ5C+708nMJzjTc4maQ5+arTOnSE=",
+        "originContent": "│   │       ├── commands/       # Command modules by category",
+        "translatedContent": "│   │       ├── commands/       # Command modules by category"
+      },
+      {
+        "row": 15,
+        "rowsha": "NhBqe9gdm7cBBkv/0JQIWL8iA5q4INYgDu/UykZKILE=",
+        "originContent": "│   │       ├── api.py          # Tushare API wrapper",
+        "translatedContent": "│   │       ├── api.py          # Tushare API wrapper"
+      },
+      {
+        "row": 16,
+        "rowsha": "qmaK9eRaFuZad/AuRJgMxmRdxhF7XVQni76jBglDI6c=",
+        "originContent": "│   │       ├── cache.py        # Response caching layer",
+        "translatedContent": "│   │       ├── cache.py        # Response caching layer"
+      },
+      {
+        "row": 17,
+        "rowsha": "WSB8Hp2s2USl4vahv9Baj29Pd/qKE0DZx3S3sob30bc=",
+        "originContent": "│   │       ├── config.py       # Configuration management",
+        "translatedContent": "│   │       ├── config.py       # Configuration management"
+      },
+      {
+        "row": 18,
+        "rowsha": "BMn74mLuj3TVqL7Rwp5qJafr0A5zQPHBs3K2GAMNamk=",
+        "originContent": "│   │       ├── output.py       # Output formatting (JSON, CSV, Table)",
+        "translatedContent": "│   │       ├── output.py       # Output formatting (JSON, CSV, Table)"
+      },
+      {
+        "row": 19,
+        "rowsha": "WSPp+LADcITdDCVrqcN9e92XKwA0RCWPGqTAZabLe+0=",
+        "originContent": "│   │       └── main.py         # CLI entry point",
+        "translatedContent": "│   │       └── main.py         # CLI entry point"
+      },
+      {
+        "row": 20,
+        "rowsha": "+johRQaIDrl7jx9xdN8VKM2biuLz4e6d4V112BGCGFE=",
+        "originContent": "│   └── pyproject.toml          # Package configuration",
+        "translatedContent": "│   └── pyproject.toml          # Package configuration"
+      },
+      {
+        "row": 21,
+        "rowsha": "o5dOs70PtfIvlXt59k4PvrVD+ZqSQpxJDHHMaqnrOVo=",
+        "originContent": "├── tests/                       # Test suite (992+ tests)",
+        "translatedContent": "├── tests/                       # Test suite (992+ tests)"
+      },
+      {
+        "row": 22,
+        "rowsha": "EXolpDsF3rGzAGm0aLOhRLctnsA+UMR/ReDJMOXvLnI=",
+        "originContent": "│   └── tushare_cli/           # CLI tests",
+        "translatedContent": "│   └── tushare_cli/           # CLI tests"
+      },
+      {
+        "row": 23,
+        "rowsha": "O12dIbFEdCVxbfT/nflCz7V4IhH9W9f/W7LbKWzK5zw=",
+        "originContent": "│       ├── test_cache.py       # Cache functionality tests",
+        "translatedContent": "│       ├── test_cache.py       # Cache functionality tests"
+      },
+      {
+        "row": 24,
+        "rowsha": "BFrEHVj8StdmR5gKVTKtsNQW2Wk1oJuEAe104hPCP9w=",
+        "originContent": "│       ├── test_commands_*.py  # Command tests by category",
+        "translatedContent": "│       ├── test_commands_*.py  # Command tests by category"
+      },
+      {
+        "row": 25,
+        "rowsha": "7boPycmcuGZRxXKh6dyVkxJ+SC4eOlOenXCSfVF1h8A=",
+        "originContent": "│       ├── test_config.py      # Configuration tests",
+        "translatedContent": "│       ├── test_config.py      # Configuration tests"
+      },
+      {
+        "row": 26,
+        "rowsha": "NnPN/dJ7LObmHuBD2NJJHOxn9JJjETykXUWXZB+GX58=",
+        "originContent": "│       ├── test_main.py        # CLI entry point tests",
+        "translatedContent": "│       ├── test_main.py        # CLI entry point tests"
+      },
+      {
+        "row": 27,
+        "rowsha": "WW523waJiKFz7wdGvm4Pu8bm00NmXgYYJ9Hi3KLVlnk=",
+        "originContent": "│       └── test_output.py      # Output format tests",
+        "translatedContent": "│       └── test_output.py      # Output format tests"
+      },
+      {
+        "row": 28,
+        "rowsha": "O38CA8KYAR09thTdUzjEBK5yxgVQ47TybfQSl9sDKN4=",
+        "originContent": "└── docs/plans/                 # Design and implementation plans",
+        "translatedContent": "└── docs/plans/                 # Design and implementation plans"
+      },
+      {
+        "row": 29,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n---\n\n## 🚀 Quick Start\n\n### 1. Install the CLI\n",
+    "ContentSha": "BXdPKmeEiYFYGVso8FvCYzqQQYCSnccCUh48le4UopM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 🚀 Quick Start\n\n### 1. Install the CLI\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
+        "originContent": "## 🚀 Quick Start",
+        "translatedContent": "## 🚀 Quick Start"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "MuqH+RD0aePpF4+AMSZbmWxZGX42HBS1I/G+ipUtfLk=",
+        "originContent": "### 1. Install the CLI",
+        "translatedContent": "### 1. Install the CLI"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n# Clone the repository\ngit clone git@github.com:oopslink/trading-skills.git\ncd trading-skills\n\n# Install the CLI in development mode\npip install -e tools/tushare_cli/\n```",
+    "ContentSha": "wPiDq096MZkagNXegwfYTXS/6AGixErXV+j4drJC+6Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Clone the repository\ngit clone git@github.com:oopslink/trading-skills.git\ncd trading-skills\n\n# Install the CLI in development mode\npip install -e tools/tushare_cli/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "EJ1kGcOyM89S1RwOEHSj/NB/bjY/T7n0DRgAblC5zSQ=",
+        "originContent": "# Clone the repository",
+        "translatedContent": "# Clone the repository"
+      },
+      {
+        "row": 3,
+        "rowsha": "YF+saL12WeP02G0qTy4nGpPPCjJlH8dzE14es4BgM9g=",
+        "originContent": "git clone git@github.com:oopslink/trading-skills.git",
+        "translatedContent": "git clone git@github.com:oopslink/trading-skills.git"
+      },
+      {
+        "row": 4,
+        "rowsha": "AzZ61JSwITt/QInClnqsRm6yD+s66Ef4kZWrUDRH7Vc=",
+        "originContent": "cd trading-skills",
+        "translatedContent": "cd trading-skills"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "PyRWFbfGML4J0errM5ReeQnGdAN5BZnpi6l9sDhwHzg=",
+        "originContent": "# Install the CLI in development mode",
+        "translatedContent": "# Install the CLI in development mode"
+      },
+      {
+        "row": 7,
+        "rowsha": "uciDaLUFHSVhu9NR8rhtQ8dBd3UwUazSIg4vMOxzpHo=",
+        "originContent": "pip install -e tools/tushare_cli/",
+        "translatedContent": "pip install -e tools/tushare_cli/"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### 2. Set Up Your Tushare Token\n\nGet your token at [Tushare Pro](https://tushare.pro/user/token)\n",
+    "ContentSha": "Fqbg9BNlUwrhv+ZSp0ZAXAlh78IedAF7jOqBMvihmQA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 2. Configurez votre jeton Tushare\n\nObtenez votre jeton sur [Tushare Pro](https://tushare.pro/user/token)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mfMeJWN/p5/bpayRmOBh6UnO9aljbst3MKtDz9/1ASE=",
+        "originContent": "### 2. Set Up Your Tushare Token",
+        "translatedContent": "### 2. Configurez votre jeton Tushare"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "YdkXSw2XcHufyxJZDczHO1s2gBjAOeb38mz/e09GaiE=",
+        "originContent": "Get your token at [Tushare Pro](https://tushare.pro/user/token)",
+        "translatedContent": "Obtenez votre jeton sur [Tushare Pro](https://tushare.pro/user/token)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# Option 1: Config file (recommended, persists across sessions)\ntushare-cli config set-token YOUR_TOKEN\n\n# Option 2: Environment variable\nexport TUSHARE_TOKEN=YOUR_TOKEN\n\n# Option 3: Command-line flag\ntushare-cli --token YOUR_TOKEN stock daily --ts-code 000001.SZ\n```",
+    "ContentSha": "pshjtpvN3SIRrozNJmgB5pFPgM0pPrjo3wJU+h1yFH8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Option 1: Config file (recommended, persists across sessions)\ntushare-cli config set-token YOUR_TOKEN\n\n# Option 2: Environment variable\nexport TUSHARE_TOKEN=YOUR_TOKEN\n\n# Option 3: Command-line flag\ntushare-cli --token YOUR_TOKEN stock daily --ts-code 000001.SZ\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "I7XC8dz5PzZeYr1650jmAlWInv6CeF6EC1hqQxdhnRY=",
+        "originContent": "# Option 1: Config file (recommended, persists across sessions)",
+        "translatedContent": "# Option 1: Config file (recommended, persists across sessions)"
+      },
+      {
+        "row": 3,
+        "rowsha": "zAZJN5c9R9jXOG883lLHGxI4STnVrAEALlSxfHuasw8=",
+        "originContent": "tushare-cli config set-token YOUR_TOKEN",
+        "translatedContent": "tushare-cli config set-token YOUR_TOKEN"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "6iyEPUUL0DrLRLJNmmiH7b1iY5nAIfeU2lDVkprzIdc=",
+        "originContent": "# Option 2: Environment variable",
+        "translatedContent": "# Option 2: Environment variable"
+      },
+      {
+        "row": 6,
+        "rowsha": "ErfspWKR0bTmi//IkQrCn7wBwNhi96IGkv2+K6ay5W8=",
+        "originContent": "export TUSHARE_TOKEN=YOUR_TOKEN",
+        "translatedContent": "export TUSHARE_TOKEN=YOUR_TOKEN"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "BpUy+cROPhEXyScXtA55S0bV6A2kwTFncjRYfBO7C5Q=",
+        "originContent": "# Option 3: Command-line flag",
+        "translatedContent": "# Option 3: Command-line flag"
+      },
+      {
+        "row": 9,
+        "rowsha": "3hdTiwSeYO/iPE4QD7nTX80emJoqCO7CJJMAoI1TQXY=",
+        "originContent": "tushare-cli --token YOUR_TOKEN stock daily --ts-code 000001.SZ",
+        "translatedContent": "tushare-cli --token YOUR_TOKEN stock daily --ts-code 000001.SZ"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### 3. Set Up Skills in Claude Code (Optional)\n\nIf you want to use the trading skills in Claude Code:\n",
+    "ContentSha": "cP8gOYv3LTL5dgnHqLDA4MLgA/OQrwdF8UDDF4u5ld4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 3. Configurer les compétences dans Claude Code (Optionnel)\n\nSi vous souhaitez utiliser les compétences de trading dans Claude Code :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "FM0garNPn7FNBNsFn8RGPQfTdPg2rh40Hp0qpBbGraU=",
+        "originContent": "### 3. Set Up Skills in Claude Code (Optional)",
+        "translatedContent": "### 3. Configurer les compétences dans Claude Code (Optionnel)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "cD/lUPlneH5lroSCD7CZvlg0NdRaxeFonM8Sz+qSGG8=",
+        "originContent": "If you want to use the trading skills in Claude Code:",
+        "translatedContent": "Si vous souhaitez utiliser les compétences de trading dans Claude Code :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\n/plugin marketplace add oopslink/trading-skills\n/plugin install trading-skills@trading-skills\n```",
+    "ContentSha": "JScFh+1f5hYidfFjy8Dgm4+Tnou4RANZdNS2ThiyOMQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n/plugin marketplace add oopslink/trading-skills\n/plugin install trading-skills@trading-skills\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "uoR5dRrmWMFzkZdBSvMQh9PPu1QHhYotSKlSl3b9tdo=",
+        "originContent": "/plugin marketplace add oopslink/trading-skills",
+        "translatedContent": "/plugin marketplace add oopslink/trading-skills"
+      },
+      {
+        "row": 3,
+        "rowsha": "9MS3Ezx9AbmBtUo4CqryBKcqgX9gHJX3Hztzy4Voq3Y=",
+        "originContent": "/plugin install trading-skills@trading-skills",
+        "translatedContent": "/plugin install trading-skills@trading-skills"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nThis will install all 7 trading skill modules, making them available as reference knowledge in Claude Code conversations.\n\n### 4. Try Your First Query\n",
+    "ContentSha": "zh5fcphcGREbxvHJfQu/iJkqW15kJtKHYo1DbEkFy9Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Cela installera les 7 modules de compétences en trading, les rendant disponibles comme connaissances de référence dans les conversations Claude Code.\n\n### 4. Essayez votre première requête\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Cela installera les 7 modules de compétences en trading, les rendant disponibles comme connaissances de référence dans les conversations Claude Code."
+      },
+      {
+        "row": 2,
+        "rowsha": "FxsU9bSPozNtjiga3pjlPUjFtJ/gc/bzgUmnN4GExQM=",
+        "originContent": "This will install all 7 trading skill modules, making them available as reference knowledge in Claude Code conversations.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 4. Essayez votre première requête"
+      },
+      {
+        "row": 4,
+        "rowsha": "R7UxJejFSu6Rs5px7cCUKlo59dphlVWmMcXub32stlU=",
+        "originContent": "### 4. Try Your First Query",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# Get stock daily data\ntushare-cli stock daily --ts-code 000001.SZ\n\n# Get in JSON format\ntushare-cli stock daily --ts-code 000001.SZ --format json\n\n# Get with caching enabled\ntushare-cli --cache stock daily --ts-code 000001.SZ\n```",
+    "ContentSha": "GP/8SHAZaVdnqqz4RmP1T75WdMyemE0dLy7UIOr4Zv8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Get stock daily data\ntushare-cli stock daily --ts-code 000001.SZ\n\n# Get in JSON format\ntushare-cli stock daily --ts-code 000001.SZ --format json\n\n# Get with caching enabled\ntushare-cli --cache stock daily --ts-code 000001.SZ\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "C7NJlmUbzsf1owK9FRckbnTaz15zh3vilr4tFaBUWps=",
+        "originContent": "# Get stock daily data",
+        "translatedContent": "# Get stock daily data"
+      },
+      {
+        "row": 3,
+        "rowsha": "qa5ZrVibKfFtTJF4fEcyHc/jUms1x6KmhXsEcS6Ev1Q=",
+        "originContent": "tushare-cli stock daily --ts-code 000001.SZ",
+        "translatedContent": "tushare-cli stock daily --ts-code 000001.SZ"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "lIQ2C8a3ywu5lkt4YxRXtQdEi2qrBTGKHLNkLP3XBgw=",
+        "originContent": "# Get in JSON format",
+        "translatedContent": "# Get in JSON format"
+      },
+      {
+        "row": 6,
+        "rowsha": "epwOTPH10MjPYiqN5S8Uh8golwv8i5zTuPqDe5i7Fek=",
+        "originContent": "tushare-cli stock daily --ts-code 000001.SZ --format json",
+        "translatedContent": "tushare-cli stock daily --ts-code 000001.SZ --format json"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "R54THcnF844KNscqPz1xHGiE+CslCfrOAYUQg8L3PbQ=",
+        "originContent": "# Get with caching enabled",
+        "translatedContent": "# Get with caching enabled"
+      },
+      {
+        "row": 9,
+        "rowsha": "sh6QyQ6A10JTzN6NK7bqrUNMqC+EEYLprYhDHOotUJA=",
+        "originContent": "tushare-cli --cache stock daily --ts-code 000001.SZ",
+        "translatedContent": "tushare-cli --cache stock daily --ts-code 000001.SZ"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n---\n\n## 📚 API Categories\n\n| Category | Skills | Commands | Data Tools |\n|----------|--------|----------|------------|\n| **Stock** | tushare-stock | 8+ commands | Daily, Adj, Weekly, Monthly, Quotes |\n| **Futures** | tushare-futures | 7+ commands | Daily, Continuous, Margin |\n| **Index** | tushare-index | 6+ commands | Daily, Weekly, Constituents |\n| **Forex** | tushare-forex | 4+ commands | Daily, OHLC |\n| **Alpha** | tushare-alpha | 5+ commands | Factors, Scoring, Backtesting |\n| **Concepts** | tushare-concepts | 3+ commands | Concept Stocks, Updates |\n| **Financial** | tushare-financial | 6+ commands | Income, Balance, Cashflow, Indicators |\n\n---\n\n## 🛠️ Usage Examples\n\n### Query Stock Data\n",
+    "ContentSha": "aYGQOq9NMldaKXsdFj9uO8Pz0ejk9X+GKEVr8mwgZ3M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 📚 Catégories d'API\n\n| Catégorie | Compétences | Commandes | Outils de données |\n|----------|--------|----------|------------|\n| **Actions** | tushare-stock | 8+ commandes | Quotidien, Ajusté, Hebdomadaire, Mensuel, Cotations |\n| **Futures** | tushare-futures | 7+ commandes | Quotidien, Continu, Marge |\n| **Indice** | tushare-index | 6+ commandes | Quotidien, Hebdomadaire, Constituants |\n| **Forex** | tushare-forex | 4+ commandes | Quotidien, OHLC |\n| **Alpha** | tushare-alpha | 5+ commandes | Facteurs, Scoring, Backtesting |\n| **Concepts** | tushare-concepts | 3+ commandes | Actions Conceptuelles, Mises à jour |\n| **Financier** | tushare-financial | 6+ commandes | Revenus, Bilan, Flux de trésorerie, Indicateurs |\n\n---\n\n## 🛠️ Exemples d'utilisation\n\n### Interroger les données boursières\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "EQknzVJ2grGLw3dL1FKUqbgNHMGHnYtjOGPdnyqbuqI=",
+        "originContent": "## 📚 API Categories",
+        "translatedContent": "## 📚 Catégories d'API"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "VwXtpl4/Ny/jelhzYMyNQPHv3+8j5yoDrNJpksBw7a4=",
+        "originContent": "| Category | Skills | Commands | Data Tools |",
+        "translatedContent": "| Catégorie | Compétences | Commandes | Outils de données |"
+      },
+      {
+        "row": 7,
+        "rowsha": "NEiljeqppHVam9O5Rd1CWFFOxbfg3dq4DlEWK/6uhws=",
+        "originContent": "|----------|--------|----------|------------|",
+        "translatedContent": "|----------|--------|----------|------------|"
+      },
+      {
+        "row": 8,
+        "rowsha": "le12CbVrSMdm4gl0rsgoJpXqGD97G5hrDXGiWCQXf/0=",
+        "originContent": "| **Stock** | tushare-stock | 8+ commands | Daily, Adj, Weekly, Monthly, Quotes |",
+        "translatedContent": "| **Actions** | tushare-stock | 8+ commandes | Quotidien, Ajusté, Hebdomadaire, Mensuel, Cotations |"
+      },
+      {
+        "row": 9,
+        "rowsha": "aYp/IV6MdjtOgZ7UQ+5XCagq2Xc+0fRm6P67FQ7JqPo=",
+        "originContent": "| **Futures** | tushare-futures | 7+ commands | Daily, Continuous, Margin |",
+        "translatedContent": "| **Futures** | tushare-futures | 7+ commandes | Quotidien, Continu, Marge |"
+      },
+      {
+        "row": 10,
+        "rowsha": "+jbKUOp+LZZNrAy/SjqBKZ/ikRvA7kvnlZyMPs7MrZU=",
+        "originContent": "| **Index** | tushare-index | 6+ commands | Daily, Weekly, Constituents |",
+        "translatedContent": "| **Indice** | tushare-index | 6+ commandes | Quotidien, Hebdomadaire, Constituants |"
+      },
+      {
+        "row": 11,
+        "rowsha": "7mROQX5fOgK+KMJLxTVEOaDkuS+zU7uXPbgM3gzjhhE=",
+        "originContent": "| **Forex** | tushare-forex | 4+ commands | Daily, OHLC |",
+        "translatedContent": "| **Forex** | tushare-forex | 4+ commandes | Quotidien, OHLC |"
+      },
+      {
+        "row": 12,
+        "rowsha": "4+W/GNKPYULA4WDvoYZEf4UGpzYcwRX7gAYeY/bP5z8=",
+        "originContent": "| **Alpha** | tushare-alpha | 5+ commands | Factors, Scoring, Backtesting |",
+        "translatedContent": "| **Alpha** | tushare-alpha | 5+ commandes | Facteurs, Scoring, Backtesting |"
+      },
+      {
+        "row": 13,
+        "rowsha": "K+gwQEvByromWQLbLDPSEJXv0j6o7yY9MFr8Vv9bkmc=",
+        "originContent": "| **Concepts** | tushare-concepts | 3+ commands | Concept Stocks, Updates |",
+        "translatedContent": "| **Concepts** | tushare-concepts | 3+ commandes | Actions Conceptuelles, Mises à jour |"
+      },
+      {
+        "row": 14,
+        "rowsha": "xSRld9uOeSXk780grUGMeZfk5Izble50sgMuaoQ2Fk0=",
+        "originContent": "| **Financial** | tushare-financial | 6+ commands | Income, Balance, Cashflow, Indicators |",
+        "translatedContent": "| **Financier** | tushare-financial | 6+ commandes | Revenus, Bilan, Flux de trésorerie, Indicateurs |"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "u3ROEWmmRd8ZFsynnJbUSo7eRwEswxpB9qi1JDceDfw=",
+        "originContent": "## 🛠️ Usage Examples",
+        "translatedContent": "## 🛠️ Exemples d'utilisation"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "8ly3zcT4Mi6lM8TGddsp+5aBPlsa4OTxZ1xrvjiaCXk=",
+        "originContent": "### Query Stock Data",
+        "translatedContent": "### Interroger les données boursières"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\n# Daily prices for a stock\ntushare-cli stock daily --ts-code 000001.SZ --start-date 20240101\n\n# Weekly prices\ntushare-cli stock weekly --ts-code 000001.SZ\n\n# Stock quotes (real-time equivalent)\ntushare-cli stock quotes --ts-code 000001.SZ\n```",
+    "ContentSha": "hjhLNT2XtCSjEtM6oo5LIB64EM2DeNAU6MFk0B+eSsc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Daily prices for a stock\ntushare-cli stock daily --ts-code 000001.SZ --start-date 20240101\n\n# Weekly prices\ntushare-cli stock weekly --ts-code 000001.SZ\n\n# Stock quotes (real-time equivalent)\ntushare-cli stock quotes --ts-code 000001.SZ\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "DW3yASodkaWfc5yEZX0z0c7sfLKr3oP/z74RRQvommk=",
+        "originContent": "# Daily prices for a stock",
+        "translatedContent": "# Daily prices for a stock"
+      },
+      {
+        "row": 3,
+        "rowsha": "KJjnJA0ytnW2oHftsZ5RHHqmJIPQORguPPd+Gj1TyL4=",
+        "originContent": "tushare-cli stock daily --ts-code 000001.SZ --start-date 20240101",
+        "translatedContent": "tushare-cli stock daily --ts-code 000001.SZ --start-date 20240101"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "KVkXHfZT511ab8vsuyu91uTLe6yAWJewmdMUIbomhTA=",
+        "originContent": "# Weekly prices",
+        "translatedContent": "# Weekly prices"
+      },
+      {
+        "row": 6,
+        "rowsha": "vd8QA1FEzSeGwle7bHIQI2D47kg0n/PP/KekePjzLyM=",
+        "originContent": "tushare-cli stock weekly --ts-code 000001.SZ",
+        "translatedContent": "tushare-cli stock weekly --ts-code 000001.SZ"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "WTNUyW8tRw5qYwubIQu6/fAmxtxnKRm/OeX+CHIKfc4=",
+        "originContent": "# Stock quotes (real-time equivalent)",
+        "translatedContent": "# Stock quotes (real-time equivalent)"
+      },
+      {
+        "row": 9,
+        "rowsha": "HEAHlKzTQGKDKs9YrYjcYQYw7XK/o29VN1IMoHJ5SVk=",
+        "originContent": "tushare-cli stock quotes --ts-code 000001.SZ",
+        "translatedContent": "tushare-cli stock quotes --ts-code 000001.SZ"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### Query Futures Data\n",
+    "ContentSha": "CCFP7rGO7SB8Y1CyeVVYz/75VIQr/1VUJvFti7tssio=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Interroger les données futures\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "XWmGWv+4rbUlVeb4QZm8Ifd+gLqoPsBQjvQVzNZkVDY=",
+        "originContent": "### Query Futures Data",
+        "translatedContent": "### Interroger les données futures"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\n# Futures daily data\ntushare-cli futures daily --ts-code IF --trade-date 20240115\n\n# Continuous contract data\ntushare-cli futures continuous --ts-code IF --start-date 20240101\n```",
+    "ContentSha": "+b82QIJE3g1ZpIlCnrxK1zHhRdAYJQ9K6TH7sYQlE98=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Futures daily data\ntushare-cli futures daily --ts-code IF --trade-date 20240115\n\n# Continuous contract data\ntushare-cli futures continuous --ts-code IF --start-date 20240101\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "vEPel2sioVOKfX5reVhkr/uSJL3ZxVu9dVM5IEwRlKw=",
+        "originContent": "# Futures daily data",
+        "translatedContent": "# Futures daily data"
+      },
+      {
+        "row": 3,
+        "rowsha": "AlxRFRtJgfpMYEAfyM1IuE2Yh3LRekJ4ix+8MaeIj3c=",
+        "originContent": "tushare-cli futures daily --ts-code IF --trade-date 20240115",
+        "translatedContent": "tushare-cli futures daily --ts-code IF --trade-date 20240115"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "kSGEy1hUubwMdHTaeBFs0kq9cpvG9PG61M2AGQ4hMPo=",
+        "originContent": "# Continuous contract data",
+        "translatedContent": "# Continuous contract data"
+      },
+      {
+        "row": 6,
+        "rowsha": "4dF7Z5gKfQwDu2XMwzzaCjoccm5SteqbutaHLLTu3gA=",
+        "originContent": "tushare-cli futures continuous --ts-code IF --start-date 20240101",
+        "translatedContent": "tushare-cli futures continuous --ts-code IF --start-date 20240101"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n### Query Index Data\n",
+    "ContentSha": "9+5sPClpGByu/mCLtWeBFc7XzaCdzYwHQiol7YDoKC0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Données de l'index de requête\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "VVNUlSOY8OnoRjf8nAwq8qjqbUS9jWQ1zusNqWh4S38=",
+        "originContent": "### Query Index Data",
+        "translatedContent": "### Données de l'index de requête"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\n# Index daily data\ntushare-cli index daily --ts-code 000001.SH\n\n# Index constituents\ntushare-cli index constituents --ts-code 000001.SH\n```",
+    "ContentSha": "tQwVT3/0p0ToFWfd9XJQu6K62Jvbcyc58X8dwgr86oo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Index daily data\ntushare-cli index daily --ts-code 000001.SH\n\n# Index constituents\ntushare-cli index constituents --ts-code 000001.SH\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "H6X9cYonca1ujwaYCRLjq8xQ9aAQt548oZEsQJ4FFEw=",
+        "originContent": "# Index daily data",
+        "translatedContent": "# Index daily data"
+      },
+      {
+        "row": 3,
+        "rowsha": "6dfK4VydzJlj4jHvey9F6y88Enn/sSP7BZWDuoO9oBQ=",
+        "originContent": "tushare-cli index daily --ts-code 000001.SH",
+        "translatedContent": "tushare-cli index daily --ts-code 000001.SH"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "M7mcl+jlu3M7Db5MKzdmtHckoE6PjMG9ct+Dm/4PZ1Y=",
+        "originContent": "# Index constituents",
+        "translatedContent": "# Index constituents"
+      },
+      {
+        "row": 6,
+        "rowsha": "i3QNd2f7IE79Ojk1Kwn109+LzREMTMcX363VvYcE6os=",
+        "originContent": "tushare-cli index constituents --ts-code 000001.SH",
+        "translatedContent": "tushare-cli index constituents --ts-code 000001.SH"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### Output Formats\n",
+    "ContentSha": "R82rBm+EccccFQfQOaiH3Bz/4kDe1weHq/PvggGvBWY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Formats de sortie\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "AzsG08MlbvKTXAbgKhdypWrJCURYAuSR2BgZBTbL1/A=",
+        "originContent": "### Output Formats",
+        "translatedContent": "### Formats de sortie"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```bash\n# Table format (default)\ntushare-cli stock daily --ts-code 000001.SZ\n\n# JSON format\ntushare-cli stock daily --ts-code 000001.SZ --format json\n\n# CSV format\ntushare-cli stock daily --ts-code 000001.SZ --format csv\n```",
+    "ContentSha": "Fgts2qwST3jFvyGJdBLcFhnxVJj33Kyr4WuI9s0lhqs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Table format (default)\ntushare-cli stock daily --ts-code 000001.SZ\n\n# JSON format\ntushare-cli stock daily --ts-code 000001.SZ --format json\n\n# CSV format\ntushare-cli stock daily --ts-code 000001.SZ --format csv\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "5ccdvIlY2oRhVaqPJ6msusoqtv8YU/LooAwkjJ0bIPk=",
+        "originContent": "# Table format (default)",
+        "translatedContent": "# Table format (default)"
+      },
+      {
+        "row": 3,
+        "rowsha": "qa5ZrVibKfFtTJF4fEcyHc/jUms1x6KmhXsEcS6Ev1Q=",
+        "originContent": "tushare-cli stock daily --ts-code 000001.SZ",
+        "translatedContent": "tushare-cli stock daily --ts-code 000001.SZ"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "/m7eE6g3gS3sMAlB8BEGqjsg07h8cTZNP77lrQC2wDg=",
+        "originContent": "# JSON format",
+        "translatedContent": "# JSON format"
+      },
+      {
+        "row": 6,
+        "rowsha": "epwOTPH10MjPYiqN5S8Uh8golwv8i5zTuPqDe5i7Fek=",
+        "originContent": "tushare-cli stock daily --ts-code 000001.SZ --format json",
+        "translatedContent": "tushare-cli stock daily --ts-code 000001.SZ --format json"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "F4NqoRo3jO+6GXuv8pOA2k21ha0a/7ind/NgNTD+Cc8=",
+        "originContent": "# CSV format",
+        "translatedContent": "# CSV format"
+      },
+      {
+        "row": 9,
+        "rowsha": "usDZSm+yeMDG3e1w3xpe9MJ/lfN8ouRKEZ8LMMbSpKI=",
+        "originContent": "tushare-cli stock daily --ts-code 000001.SZ --format csv",
+        "translatedContent": "tushare-cli stock daily --ts-code 000001.SZ --format csv"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n---\n\n## 🧪 Testing\n\nRun the comprehensive test suite:\n",
+    "ContentSha": "ZpKv2pArNLP+BTzySudG4I4gHAa7WYxamlXjlYs/a4U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 🧪 Testing\n\nRun the comprehensive test suite:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "GWBYhBNFbH8BdEzX+j1HpskC2CS68xfhN55Ao4hqhdk=",
+        "originContent": "## 🧪 Testing",
+        "translatedContent": "## 🧪 Testing"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "q0uYE3UwtDGlyZMjTxHpHIpiTEPUiMCpYbPuft52M04=",
+        "originContent": "Run the comprehensive test suite:",
+        "translatedContent": "Run the comprehensive test suite:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```bash\n# Run all tests\npytest tests/\n\n# Run tests with coverage\npytest tests/ --cov=tools/tushare_cli/src/tushare_cli\n\n# Run specific test file\npytest tests/tushare_cli/test_commands_stock.py\n\n# Run with verbose output\npytest tests/ -v\n```",
+    "ContentSha": "uT+DbX1VWSyrK3TgVdL5Y3mEOzsYXmnCT3VXLFnLt4E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Run all tests\npytest tests/\n\n# Run tests with coverage\npytest tests/ --cov=tools/tushare_cli/src/tushare_cli\n\n# Run specific test file\npytest tests/tushare_cli/test_commands_stock.py\n\n# Run with verbose output\npytest tests/ -v\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "G8XO4hflMPkSdQlgMEmAsNnFjaJfHW43zGjr2CL2xk0=",
+        "originContent": "# Run all tests",
+        "translatedContent": "# Run all tests"
+      },
+      {
+        "row": 3,
+        "rowsha": "aibKmJ8p9lwXCLhJIZMNyoBEpQGCNWMPs1MOzleFXKA=",
+        "originContent": "pytest tests/",
+        "translatedContent": "pytest tests/"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "VvCnlawVUwfrX1q8Nta8GZNeqEHgZK/qrvCAsHxg+PA=",
+        "originContent": "# Run tests with coverage",
+        "translatedContent": "# Run tests with coverage"
+      },
+      {
+        "row": 6,
+        "rowsha": "awgOHiyvYKfLWLzLG430faBbjbkrks8q9PsdNwv9Ems=",
+        "originContent": "pytest tests/ --cov=tools/tushare_cli/src/tushare_cli",
+        "translatedContent": "pytest tests/ --cov=tools/tushare_cli/src/tushare_cli"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "oz96LOGAQB+8xlPKRbZ4z4KkKpyhBlcbAjsnlTeYS+w=",
+        "originContent": "# Run specific test file",
+        "translatedContent": "# Run specific test file"
+      },
+      {
+        "row": 9,
+        "rowsha": "zY7SkGJqZmqne2j1xHkXaHQIiSCe20RF1ZUDeUNXN3c=",
+        "originContent": "pytest tests/tushare_cli/test_commands_stock.py",
+        "translatedContent": "pytest tests/tushare_cli/test_commands_stock.py"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "0pt7MYnUfXd+ZTdC2vlbWUOkuNXTJxTXf8pZ9fJtq1M=",
+        "originContent": "# Run with verbose output",
+        "translatedContent": "# Run with verbose output"
+      },
+      {
+        "row": 12,
+        "rowsha": "kbAdQUCIONXUiAvzxKMMaHeED3swIR4ETQTITa8p6ic=",
+        "originContent": "pytest tests/ -v",
+        "translatedContent": "pytest tests/ -v"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\nThe project includes **992+ tests** covering:\n- CLI command execution\n- API caching behavior\n- Configuration management\n- Output formatting\n- Error handling\n\n---\n\n## 📖 Skills Documentation\n\nEach trading skill is documented in detail:\n\n- **[tushare-stock](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-stock/SKILL.md)** - Stock trading fundamentals\n- **[tushare-futures](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-futures/SKILL.md)** - Futures markets & strategies\n- **[tushare-index](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-index/SKILL.md)** - Index analysis\n- **[tushare-forex](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-forex/SKILL.md)** - Foreign exchange\n- **[tushare-alpha](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-alpha/SKILL.md)** - Alpha generation\n- **[tushare-concepts](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-concepts/SKILL.md)** - Trading concepts\n- **[tushare-financial](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-financial/SKILL.md)** - Financial statements\n\n---\n\n## 🔧 Configuration\n\n### Setting Configuration\n",
+    "ContentSha": "nZr0NC4J+nRq3iLmxUK+o5k9zG9hFYCx7QONPueXikw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nLe projet comprend **plus de 992 tests** couvrant :\n- Exécution des commandes CLI\n- Comportement du cache API\n- Gestion de la configuration\n- Formatage de la sortie\n- Gestion des erreurs\n\n---\n\n## 📖 Documentation des compétences\n\nChaque compétence de trading est documentée en détail :\n\n- **[tushare-stock](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-stock/SKILL.md)** - Fondamentaux du trading d’actions\n- **[tushare-futures](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-futures/SKILL.md)** - Marchés et stratégies à terme\n- **[tushare-index](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-index/SKILL.md)** - Analyse des indices\n- **[tushare-forex](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-forex/SKILL.md)** - Change de devises\n- **[tushare-alpha](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-alpha/SKILL.md)** - Génération d’alpha\n- **[tushare-concepts](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-concepts/SKILL.md)** - Concepts de trading\n- **[tushare-financial](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-financial/SKILL.md)** - États financiers\n\n---\n\n## 🔧 Configuration\n\n### Configuration des paramètres\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "s+V3bEBJ+tCF9JkYUul4+rUSUndx3PhiUHZlBSgT8Dk=",
+        "originContent": "The project includes **992+ tests** covering:",
+        "translatedContent": "Le projet comprend **plus de 992 tests** couvrant :"
+      },
+      {
+        "row": 3,
+        "rowsha": "6jritX6MuyshkGg2UtxG6QrwzcijAPa8Vdw+CaZiMj4=",
+        "originContent": "- CLI command execution",
+        "translatedContent": "- Exécution des commandes CLI"
+      },
+      {
+        "row": 4,
+        "rowsha": "jJRCKxGlseAjzztvLdrzr52LF4s3axb3oSKH6oyNHEY=",
+        "originContent": "- API caching behavior",
+        "translatedContent": "- Comportement du cache API"
+      },
+      {
+        "row": 5,
+        "rowsha": "Vev+KJDXdbhXXvoJJNmZEpsKuMd2knaJiG9TCnnqawU=",
+        "originContent": "- Configuration management",
+        "translatedContent": "- Gestion de la configuration"
+      },
+      {
+        "row": 6,
+        "rowsha": "y5xqvv/b2BQ/n1wvfWlSiHHh09eomeoE44HTJwBZrLQ=",
+        "originContent": "- Output formatting",
+        "translatedContent": "- Formatage de la sortie"
+      },
+      {
+        "row": 7,
+        "rowsha": "zIF2/8s/KGmLqwoDNwPuGDGt1DFArlv7GdKrCbyhGL8=",
+        "originContent": "- Error handling",
+        "translatedContent": "- Gestion des erreurs"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "STStr8isaWffUF5+eNJ8b0wGeoAJVZo5YKsH5ATuuYY=",
+        "originContent": "## 📖 Skills Documentation",
+        "translatedContent": "## 📖 Documentation des compétences"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "g6PwdR3mUNcypApReJ0lIOkyEOEKm7WX0Bw+/Ov4ncY=",
+        "originContent": "Each trading skill is documented in detail:",
+        "translatedContent": "Chaque compétence de trading est documentée en détail :"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "QDYUswSkduDA8U8OJc66GsjJGB+9hTocvBLaU7Uqwsk=",
+        "originContent": "- **[tushare-stock](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-stock/SKILL.md)** - Stock trading fundamentals",
+        "translatedContent": "- **[tushare-stock](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-stock/SKILL.md)** - Fondamentaux du trading d’actions"
+      },
+      {
+        "row": 16,
+        "rowsha": "4A8JsUm4siojdwLuls0f27WeJ4+CZkPRSAeTY1guGGo=",
+        "originContent": "- **[tushare-futures](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-futures/SKILL.md)** - Futures markets & strategies",
+        "translatedContent": "- **[tushare-futures](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-futures/SKILL.md)** - Marchés et stratégies à terme"
+      },
+      {
+        "row": 17,
+        "rowsha": "Hbmulfq4iD/E5x3n2l6RmHOzpT/vj2LIIZeeNniBzz8=",
+        "originContent": "- **[tushare-index](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-index/SKILL.md)** - Index analysis",
+        "translatedContent": "- **[tushare-index](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-index/SKILL.md)** - Analyse des indices"
+      },
+      {
+        "row": 18,
+        "rowsha": "oZOlQlPtTaiyZbxutWrZSO0K6ia2OJIu8nEyENgkjrk=",
+        "originContent": "- **[tushare-forex](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-forex/SKILL.md)** - Foreign exchange",
+        "translatedContent": "- **[tushare-forex](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-forex/SKILL.md)** - Change de devises"
+      },
+      {
+        "row": 19,
+        "rowsha": "UpmXTa3/87xEk7ejef0lkET3QU49v18GHt3jdMPSgSs=",
+        "originContent": "- **[tushare-alpha](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-alpha/SKILL.md)** - Alpha generation",
+        "translatedContent": "- **[tushare-alpha](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-alpha/SKILL.md)** - Génération d’alpha"
+      },
+      {
+        "row": 20,
+        "rowsha": "/L8IFaFt9uGS7RlK7s6q2x6iUJtFIwUbxwA8H4QvE90=",
+        "originContent": "- **[tushare-concepts](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-concepts/SKILL.md)** - Trading concepts",
+        "translatedContent": "- **[tushare-concepts](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-concepts/SKILL.md)** - Concepts de trading"
+      },
+      {
+        "row": 21,
+        "rowsha": "HQHZG0OJn/d7+gwgYh+3KccP/pG5PJEu4a+rApHUQec=",
+        "originContent": "- **[tushare-financial](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-financial/SKILL.md)** - Financial statements",
+        "translatedContent": "- **[tushare-financial](https://raw.githubusercontent.com/oopslink/trading-skills/main/skills/tushare-financial/SKILL.md)** - États financiers"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "Qrhuldxx9LaEVTFNDTzl1dnmoL/UVFF1ECqQfbiCcLI=",
+        "originContent": "## 🔧 Configuration",
+        "translatedContent": "## 🔧 Configuration"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "5kxWNQVioPQnsgfdkRNDvAV7QDNtluZO56ws//d6wyo=",
+        "originContent": "### Setting Configuration",
+        "translatedContent": "### Configuration des paramètres"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```bash\n# Set Tushare token\ntushare-cli config set-token YOUR_TOKEN\n\n# View current configuration\ntushare-cli config show\n\n# Reset to defaults\ntushare-cli config reset\n```",
+    "ContentSha": "N8LCus2wfn3FDJX8p8d9xR6x2u0xb8vq/ru7CTWbi+w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Set Tushare token\ntushare-cli config set-token YOUR_TOKEN\n\n# View current configuration\ntushare-cli config show\n\n# Reset to defaults\ntushare-cli config reset\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "4ezEpnrH2PY7mg8NS9fDuGmN9jDbGzWBMpibfZUp4Rs=",
+        "originContent": "# Set Tushare token",
+        "translatedContent": "# Set Tushare token"
+      },
+      {
+        "row": 3,
+        "rowsha": "zAZJN5c9R9jXOG883lLHGxI4STnVrAEALlSxfHuasw8=",
+        "originContent": "tushare-cli config set-token YOUR_TOKEN",
+        "translatedContent": "tushare-cli config set-token YOUR_TOKEN"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "PqP1951NlkOV9S9jIYwjptzp/KdmKJBDkyi96/UcrMU=",
+        "originContent": "# View current configuration",
+        "translatedContent": "# View current configuration"
+      },
+      {
+        "row": 6,
+        "rowsha": "Xm6pxhr/j7IL34SVontv3Nw4OaGtN1RqKyCFDMrwETc=",
+        "originContent": "tushare-cli config show",
+        "translatedContent": "tushare-cli config show"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "voPUE7tUucC0IduR56E7dVIdDENMaOeuQSQBvbFYp9U=",
+        "originContent": "# Reset to defaults",
+        "translatedContent": "# Reset to defaults"
+      },
+      {
+        "row": 9,
+        "rowsha": "SVXPG73Dq+mS/rhMgv5/JFfLPxIBj3vEDgn9KGXpVBc=",
+        "originContent": "tushare-cli config reset",
+        "translatedContent": "tushare-cli config reset"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n### Environment Variables\n",
+    "ContentSha": "FnhrMVje179zoK0Xyqx9ldEWSfguagt1Fl94Xegcfbk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Variables d'environnement\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "z0e1mPGeKrXDpgwT5hpUsqWlMTlzlzBoJvcLaIVPlLI=",
+        "originContent": "### Environment Variables",
+        "translatedContent": "### Variables d'environnement"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```bash\nTUSHARE_TOKEN=your_token_here\nTUSHARE_CACHE_ENABLED=true\nTUSHARE_CACHE_TTL=3600\n```",
+    "ContentSha": "mZYGCeOQOqaqL83cvNsilbY4qQy6AC+nevEgbCEPyCg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nTUSHARE_TOKEN=your_token_here\nTUSHARE_CACHE_ENABLED=true\nTUSHARE_CACHE_TTL=3600\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "PEtmtDfmbPiJqEh9/lQ8K9Gne10DyhWE/mP28ObA7LQ=",
+        "originContent": "TUSHARE_TOKEN=your_token_here",
+        "translatedContent": "TUSHARE_TOKEN=your_token_here"
+      },
+      {
+        "row": 3,
+        "rowsha": "XbBvU2ufmXrrCSDWAIR2b7+9jDr/SCVjN/CoKp4oYR4=",
+        "originContent": "TUSHARE_CACHE_ENABLED=true",
+        "translatedContent": "TUSHARE_CACHE_ENABLED=true"
+      },
+      {
+        "row": 4,
+        "rowsha": "vtt6fp4Cc5uh62Ezbx5xemSRqVzWsJQna/Q0rDUuZ48=",
+        "originContent": "TUSHARE_CACHE_TTL=3600",
+        "translatedContent": "TUSHARE_CACHE_TTL=3600"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n---\n\n## 💾 Caching\n\nThe CLI includes intelligent response caching:\n",
+    "ContentSha": "r4Muv9j5XuPLsHnZ5bbJ7X3poGcCR5syMilcFnI/wxM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 💾 Caching\n\nThe CLI includes intelligent response caching:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "b1wlt84pfxQb37K1zmX92CCa3/naL7LccT27zJPAtb0=",
+        "originContent": "## 💾 Caching",
+        "translatedContent": "## 💾 Caching"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "CrsO8CDFFCUlL60KzpjjSv8xjOhdaED6zVO4/IvNWco=",
+        "originContent": "The CLI includes intelligent response caching:",
+        "translatedContent": "The CLI includes intelligent response caching:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```bash\n# Enable cache (cache TTL: 3600 seconds by default)\ntushare-cli --cache stock daily --ts-code 000001.SZ\n\n# Clear cache\ntushare-cli cache clear\n\n# Check cache status\ntushare-cli cache status\n```",
+    "ContentSha": "4p1J2I0egtjpFTvpwt03lu+PX1pxQiQenp9XS/9KAwA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Enable cache (cache TTL: 3600 seconds by default)\ntushare-cli --cache stock daily --ts-code 000001.SZ\n\n# Clear cache\ntushare-cli cache clear\n\n# Check cache status\ntushare-cli cache status\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "nWihw4hCkBd9WSV0vG93wJDEap0Nh+CWwIejrAYlNik=",
+        "originContent": "# Enable cache (cache TTL: 3600 seconds by default)",
+        "translatedContent": "# Enable cache (cache TTL: 3600 seconds by default)"
+      },
+      {
+        "row": 3,
+        "rowsha": "sh6QyQ6A10JTzN6NK7bqrUNMqC+EEYLprYhDHOotUJA=",
+        "originContent": "tushare-cli --cache stock daily --ts-code 000001.SZ",
+        "translatedContent": "tushare-cli --cache stock daily --ts-code 000001.SZ"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "7eRFGs7UWPDGJ98G33UUtQX/P0U5Nmcxm7iLmVmXNtg=",
+        "originContent": "# Clear cache",
+        "translatedContent": "# Clear cache"
+      },
+      {
+        "row": 6,
+        "rowsha": "qUFmOIW/c5jgsYI3f0lgZtUPPWF4p/kdT0+IwzJYcTE=",
+        "originContent": "tushare-cli cache clear",
+        "translatedContent": "tushare-cli cache clear"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "pI0lFPJAVkK5IPsFsQT+VDkQr9YFAX5AV8OTaUpyDQM=",
+        "originContent": "# Check cache status",
+        "translatedContent": "# Check cache status"
+      },
+      {
+        "row": 9,
+        "rowsha": "lEAsg8CMlxj5OZNf5lzzzHwT2T6j8J9M1ABaxL3FwRM=",
+        "originContent": "tushare-cli cache status",
+        "translatedContent": "tushare-cli cache status"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\nBenefits:\n- Reduces API calls and costs\n- Improves query performance\n- Respects rate limits\n\n---\n\n## � Claude Code Integration\n\n### Using as a Plugin\n\nThis project is designed to work seamlessly with Claude Code as a complete trading skills plugin suite:\n",
+    "ContentSha": "YS+xNR/l7+CiLyfHH2tpK8jH38bv/aBTRuuScxSG+4Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nAvantages :\n- Réduit les appels API et les coûts\n- Améliore les performances des requêtes\n- Respecte les limites de débit\n\n---\n\n## � Intégration Claude Code\n\n### Utilisation en tant que plugin\n\nCe projet est conçu pour fonctionner parfaitement avec Claude Code en tant que suite complète de plugins de compétences de trading :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "4T8BjAqfflARtseatiFQV9GZWY7FQbJA4IfR4cmxrPs=",
+        "originContent": "Benefits:",
+        "translatedContent": "Avantages :"
+      },
+      {
+        "row": 3,
+        "rowsha": "zbEE3mfTw67QVVSFhIYHZhFWTGXxnnqKBKGUKvrqLcE=",
+        "originContent": "- Reduces API calls and costs",
+        "translatedContent": "- Réduit les appels API et les coûts"
+      },
+      {
+        "row": 4,
+        "rowsha": "f5QPeZASfpHeBlx85vfeybkdvHmlcPaNa29SyQqnuWA=",
+        "originContent": "- Improves query performance",
+        "translatedContent": "- Améliore les performances des requêtes"
+      },
+      {
+        "row": 5,
+        "rowsha": "z6Fm433VYQ3rIELtuXKcAjD/HkqHH8SnTYEeMSmHo9w=",
+        "originContent": "- Respects rate limits",
+        "translatedContent": "- Respecte les limites de débit"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "YPEi18Z56f7UWdFuhyotvoqN8EYN9ISprTpbPTKYmXg=",
+        "originContent": "## � Claude Code Integration",
+        "translatedContent": "## � Intégration Claude Code"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "nax1tWQb8w7840k7NKetb77dVdOs5mX5KC181ke434k=",
+        "originContent": "### Using as a Plugin",
+        "translatedContent": "### Utilisation en tant que plugin"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "iVfvoMfDnWVWJN/QsVQlDvdBrBzJrPA7GQqK9wkJ6vY=",
+        "originContent": "This project is designed to work seamlessly with Claude Code as a complete trading skills plugin suite:",
+        "translatedContent": "Ce projet est conçu pour fonctionner parfaitement avec Claude Code en tant que suite complète de plugins de compétences de trading :"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```bash\n# Step 1: Add the plugin marketplace entry\n/plugin marketplace add oopslink/trading-skills\n\n# Step 2: Install the plugin with all skill modules\n/plugin install trading-skills@trading-skills\n```",
+    "ContentSha": "EzlJUkA4qx1xlSElr1XsCdlFCIqA+la8G3whL3bETSQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Step 1: Add the plugin marketplace entry\n/plugin marketplace add oopslink/trading-skills\n\n# Step 2: Install the plugin with all skill modules\n/plugin install trading-skills@trading-skills\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "zdwUiNHE3AQYFKBqYEx0K6Ihij1AiqhfQulTZPFJV6U=",
+        "originContent": "# Step 1: Add the plugin marketplace entry",
+        "translatedContent": "# Step 1: Add the plugin marketplace entry"
+      },
+      {
+        "row": 3,
+        "rowsha": "uoR5dRrmWMFzkZdBSvMQh9PPu1QHhYotSKlSl3b9tdo=",
+        "originContent": "/plugin marketplace add oopslink/trading-skills",
+        "translatedContent": "/plugin marketplace add oopslink/trading-skills"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "lrHcohCqYczi5TtnvQ8v/bShkX0MllLI671TMah67U8=",
+        "originContent": "# Step 2: Install the plugin with all skill modules",
+        "translatedContent": "# Step 2: Install the plugin with all skill modules"
+      },
+      {
+        "row": 6,
+        "rowsha": "9MS3Ezx9AbmBtUo4CqryBKcqgX9gHJX3Hztzy4Voq3Y=",
+        "originContent": "/plugin install trading-skills@trading-skills",
+        "translatedContent": "/plugin install trading-skills@trading-skills"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n**What this installs:**\n- All 7 trading skill modules (stock, futures, index, forex, alpha, concepts, financial)\n- Full knowledge base for trading concepts and Tushare API\n- Reference documentation for each data category\n- Integration with Claude Code's skill system\n\n### Using Skills in Claude Code\n\nOnce installed, you can reference any skill in your Claude Code conversations:\n",
+    "ContentSha": "WozFUNdG00bHJzyqhFj7moXHkCtaUTg7KVY7pyIjQFY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**Ce que cela installe :**\n- Tous les 7 modules de compétences de trading (actions, contrats à terme, indices, forex, alpha, concepts, finances)\n- Base de connaissances complète pour les concepts de trading et l’API Tushare\n- Documentation de référence pour chaque catégorie de données\n- Intégration avec le système de compétences de Claude Code\n\n### Utilisation des compétences dans Claude Code\n\nUne fois installé, vous pouvez référencer n’importe quelle compétence dans vos conversations Claude Code :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "9jMWtvpsdiGmdZ5tMFucnPs+Y0vT9y6KXGgcMSoK+a8=",
+        "originContent": "**What this installs:**",
+        "translatedContent": "**Ce que cela installe :**"
+      },
+      {
+        "row": 3,
+        "rowsha": "oYt3TdQ+dz30EQMHK5/RjQt7bv2b6OGHc5XtrkX6neE=",
+        "originContent": "- All 7 trading skill modules (stock, futures, index, forex, alpha, concepts, financial)",
+        "translatedContent": "- Tous les 7 modules de compétences de trading (actions, contrats à terme, indices, forex, alpha, concepts, finances)"
+      },
+      {
+        "row": 4,
+        "rowsha": "VF6RNaLz7hhoAlwxkMbqjy4w4u400qa+sntKrBYlnmw=",
+        "originContent": "- Full knowledge base for trading concepts and Tushare API",
+        "translatedContent": "- Base de connaissances complète pour les concepts de trading et l’API Tushare"
+      },
+      {
+        "row": 5,
+        "rowsha": "KBw37tqFFVYdDeiW9Er1DVfo4zbriNZafVGGVevZ3KE=",
+        "originContent": "- Reference documentation for each data category",
+        "translatedContent": "- Documentation de référence pour chaque catégorie de données"
+      },
+      {
+        "row": 6,
+        "rowsha": "8axUpAJpGef07B7tzjFpSjd1z3/9uusmOjQS31n6DmY=",
+        "originContent": "- Integration with Claude Code's skill system",
+        "translatedContent": "- Intégration avec le système de compétences de Claude Code"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "giLS70Psg1a4NwSXs34zCaQFp69d1TVV6TiujsLZyZo=",
+        "originContent": "### Using Skills in Claude Code",
+        "translatedContent": "### Utilisation des compétences dans Claude Code"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "3PE84RW2XsxpEQIWxqhGdP+sMwV090eKvOux6b/wFIs=",
+        "originContent": "Once installed, you can reference any skill in your Claude Code conversations:",
+        "translatedContent": "Une fois installé, vous pouvez référencer n’importe quelle compétence dans vos conversations Claude Code :"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "```\n@skill tushare-stock     # Stock trading concepts and techniques\n@skill tushare-futures   # Futures market knowledge\n@skill tushare-index     # Index data and analysis\n@skill tushare-forex     # Foreign exchange trading\n@skill tushare-alpha     # Alpha factor generation\n@skill tushare-concepts  # Financial and trading terminology\n@skill tushare-financial # Financial statement analysis\n```",
+    "ContentSha": "PapoZUvRvQj3fiTLWb/e1ZrLTH3sruFVn0ApY8x+Ijs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n@skill tushare-stock     # Stock trading concepts and techniques\n@skill tushare-futures   # Futures market knowledge\n@skill tushare-index     # Index data and analysis\n@skill tushare-forex     # Foreign exchange trading\n@skill tushare-alpha     # Alpha factor generation\n@skill tushare-concepts  # Financial and trading terminology\n@skill tushare-financial # Financial statement analysis\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "8VFFoKOtapJ7W1A63mrzW5YO4YsBSzFI0Y4o2Tmd7s0=",
+        "originContent": "@skill tushare-stock     # Stock trading concepts and techniques",
+        "translatedContent": "@skill tushare-stock     # Stock trading concepts and techniques"
+      },
+      {
+        "row": 3,
+        "rowsha": "7JUeX6PTmX9kFHnHwCwLSApgg8vYQy1rjZ0SWi/3TGA=",
+        "originContent": "@skill tushare-futures   # Futures market knowledge",
+        "translatedContent": "@skill tushare-futures   # Futures market knowledge"
+      },
+      {
+        "row": 4,
+        "rowsha": "noClPf0laSKu60BsKH+vZTQzYkbq7IBwsc1Qe0hhkTc=",
+        "originContent": "@skill tushare-index     # Index data and analysis",
+        "translatedContent": "@skill tushare-index     # Index data and analysis"
+      },
+      {
+        "row": 5,
+        "rowsha": "fz1qP2zIcGy1tlPeOu9OcDffDppkohbu0J52MNC3rbo=",
+        "originContent": "@skill tushare-forex     # Foreign exchange trading",
+        "translatedContent": "@skill tushare-forex     # Foreign exchange trading"
+      },
+      {
+        "row": 6,
+        "rowsha": "40kPKQmC5UTMGb8lNXB/3XMUQDtXQpsFEUy/l6g0Sfg=",
+        "originContent": "@skill tushare-alpha     # Alpha factor generation",
+        "translatedContent": "@skill tushare-alpha     # Alpha factor generation"
+      },
+      {
+        "row": 7,
+        "rowsha": "Jn+xYacReNNGhROJeFs6rUsBQ//iBxb62HtM4C6vn0c=",
+        "originContent": "@skill tushare-concepts  # Financial and trading terminology",
+        "translatedContent": "@skill tushare-concepts  # Financial and trading terminology"
+      },
+      {
+        "row": 8,
+        "rowsha": "Gzu6ESvRmHuDHhDxeRT7QoWWlxPuvt0hRlK6r4uJA9s=",
+        "originContent": "@skill tushare-financial # Financial statement analysis",
+        "translatedContent": "@skill tushare-financial # Financial statement analysis"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "\n### Local Development Setup\n\nFor local development or if not using the marketplace:\n",
+    "ContentSha": "PyRg2qvB6UbNAB0Xp5BI5mzecVJho/DzcCxubX8htaQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Configuration du développement local\n\nPour le développement local ou si vous n’utilisez pas la marketplace :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "pAfapzi1Kd5lbE2ioAPfw7ulCleqfsytAHNwdZKqI14=",
+        "originContent": "### Local Development Setup",
+        "translatedContent": "### Configuration du développement local"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "2GD9p5ToM7PjlL3J6nc7GQvscj95OpvUU32vRLd5VSU=",
+        "originContent": "For local development or if not using the marketplace:",
+        "translatedContent": "Pour le développement local ou si vous n’utilisez pas la marketplace :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 32,
+    "Content": "```bash\n# Clone the repository\ngit clone https://github.com/oopslink/trading-skills.git\ncd trading-skills\n\n# Install CLI tools\npip install -e tools/tushare_cli/\n\n# Skills are automatically available in the project\n# Reference them via: @skill tushare-<category>\n```",
+    "ContentSha": "LnfplnH1iLaBT3BNE4J6LVwhzZZDxRHqI/DAeyujJfE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Clone the repository\ngit clone https://github.com/oopslink/trading-skills.git\ncd trading-skills\n\n# Install CLI tools\npip install -e tools/tushare_cli/\n\n# Skills are automatically available in the project\n# Reference them via: @skill tushare-<category>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "EJ1kGcOyM89S1RwOEHSj/NB/bjY/T7n0DRgAblC5zSQ=",
+        "originContent": "# Clone the repository",
+        "translatedContent": "# Clone the repository"
+      },
+      {
+        "row": 3,
+        "rowsha": "JldBWWMpE1cpAzFt/1qykyR5Ae7+zsm2AAwKK8cL5mI=",
+        "originContent": "git clone https://github.com/oopslink/trading-skills.git",
+        "translatedContent": "git clone https://github.com/oopslink/trading-skills.git"
+      },
+      {
+        "row": 4,
+        "rowsha": "AzZ61JSwITt/QInClnqsRm6yD+s66Ef4kZWrUDRH7Vc=",
+        "originContent": "cd trading-skills",
+        "translatedContent": "cd trading-skills"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "fxF3ILfvvpezbNmau5jXz4RmGmJJI/gU1w4jcYjEAuA=",
+        "originContent": "# Install CLI tools",
+        "translatedContent": "# Install CLI tools"
+      },
+      {
+        "row": 7,
+        "rowsha": "uciDaLUFHSVhu9NR8rhtQ8dBd3UwUazSIg4vMOxzpHo=",
+        "originContent": "pip install -e tools/tushare_cli/",
+        "translatedContent": "pip install -e tools/tushare_cli/"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yZ5SQ0QzgWXsDSlvrh52pSwfMdTFf52cS0A+LcZAkjY=",
+        "originContent": "# Skills are automatically available in the project",
+        "translatedContent": "# Skills are automatically available in the project"
+      },
+      {
+        "row": 10,
+        "rowsha": "2rSNWiVuPgs9/s5ZtjfA0wOwlktwoK4DzoqxAHbyyl0=",
+        "originContent": "# Reference them via: @skill tushare-<category>",
+        "translatedContent": "# Reference them via: @skill tushare-<category>"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 33,
+    "Content": "\n---\n\n## �📋 Design & Planning\n\n- [Tushare CLI Design](https://raw.githubusercontent.com/oopslink/trading-skills/main/docs/plans/2026-03-03-tushare-cli-design.md) - Architecture and API design\n- [Tushare CLI Implementation](https://raw.githubusercontent.com/oopslink/trading-skills/main/docs/plans/2026-03-03-tushare-cli-impl.md) - Implementation details\n\n---\n\n## 📝 License\n\nMIT License - see [LICENSE](LICENSE) file for details\n\n---\n\n## 🤝 Contributing\n\nContributions are welcome! Please note:\n\n- All new trading skills must follow the [SKILL.md format](https://raw.githubusercontent.com/oopslink/trading-skills/main/CLAUDE.md)\n- Add tests for new commands\n- Update documentation as needed\n- Follow the project structure conventions\n\n---\n\n## 📞 Support\n\n- 📖 Check the skill documentation for learning about trading concepts\n- 🐛 Report issues in the issue tracker\n- 💬 Discuss ideas in discussions\n\n---\n\n**Built with ❤️ for financial data enthusiasts and traders**\n",
+    "ContentSha": "6lGYWdijsLcABp46aj/f8ffWQRA2MU1nL5Rnc9lbzyg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## �📋 Conception & Planification\n\n- [Conception du CLI Tushare](https://raw.githubusercontent.com/oopslink/trading-skills/main/docs/plans/2026-03-03-tushare-cli-design.md) - Architecture et conception de l’API\n- [Implémentation du CLI Tushare](https://raw.githubusercontent.com/oopslink/trading-skills/main/docs/plans/2026-03-03-tushare-cli-impl.md) - Détails de l’implémentation\n\n---\n\n## 📝 Licence\n\nLicence MIT - voir le fichier [LICENSE](LICENSE) pour les détails\n\n---\n\n## 🤝 Contribution\n\nLes contributions sont les bienvenues ! Veuillez noter :\n\n- Toutes les nouvelles compétences de trading doivent suivre le [format SKILL.md](https://raw.githubusercontent.com/oopslink/trading-skills/main/CLAUDE.md)\n- Ajouter des tests pour les nouvelles commandes\n- Mettre à jour la documentation si nécessaire\n- Respecter les conventions de structure du projet\n\n---\n\n## 📞 Support\n\n- 📖 Consultez la documentation de la compétence pour apprendre les concepts du trading\n- 🐛 Signalez les problèmes dans le suivi des issues\n- 💬 Discutez des idées dans les discussions\n\n---\n\n**Conçu avec ❤️ pour les passionnés de données financières et les traders**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "U8yq0BGMQi2ndm0xnLdebQT3kmbyQbhGYZVUQmS9kPQ=",
+        "originContent": "## �📋 Design & Planning",
+        "translatedContent": "## �📋 Conception & Planification"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "t4SDhwXehHO5FeIdbiI+rr4X3wc59mYzajqJYI2o7ok=",
+        "originContent": "- [Tushare CLI Design](https://raw.githubusercontent.com/oopslink/trading-skills/main/docs/plans/2026-03-03-tushare-cli-design.md) - Architecture and API design",
+        "translatedContent": "- [Conception du CLI Tushare](https://raw.githubusercontent.com/oopslink/trading-skills/main/docs/plans/2026-03-03-tushare-cli-design.md) - Architecture et conception de l’API"
+      },
+      {
+        "row": 7,
+        "rowsha": "px+g+Y3kcCAQV0YAcigp1xSolTgDrzrLUvzPEbs7igY=",
+        "originContent": "- [Tushare CLI Implementation](https://raw.githubusercontent.com/oopslink/trading-skills/main/docs/plans/2026-03-03-tushare-cli-impl.md) - Implementation details",
+        "translatedContent": "- [Implémentation du CLI Tushare](https://raw.githubusercontent.com/oopslink/trading-skills/main/docs/plans/2026-03-03-tushare-cli-impl.md) - Détails de l’implémentation"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "/bQvlvaRWY9zIHAn3VQUzqbCmwMTGIdxnaCzM+Hj0DA=",
+        "originContent": "## 📝 License",
+        "translatedContent": "## 📝 Licence"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "YDLUzP56Yfn+CNhunf+oVnQJHqIrN9FKkuR5hdAXsOw=",
+        "originContent": "MIT License - see [LICENSE](LICENSE) file for details",
+        "translatedContent": "Licence MIT - voir le fichier [LICENSE](LICENSE) pour les détails"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+        "originContent": "## 🤝 Contributing",
+        "translatedContent": "## 🤝 Contribution"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "MBGDGTGmLaaIXio4LEzVymJxtdEGXdTWx6QJx5VbSig=",
+        "originContent": "Contributions are welcome! Please note:",
+        "translatedContent": "Les contributions sont les bienvenues ! Veuillez noter :"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "TPo89dGHh7F9sr1En9QrVxTw+5q3np19f2y3Tp5zLlE=",
+        "originContent": "- All new trading skills must follow the [SKILL.md format](https://raw.githubusercontent.com/oopslink/trading-skills/main/CLAUDE.md)",
+        "translatedContent": "- Toutes les nouvelles compétences de trading doivent suivre le [format SKILL.md](https://raw.githubusercontent.com/oopslink/trading-skills/main/CLAUDE.md)"
+      },
+      {
+        "row": 22,
+        "rowsha": "aGPJYrwguGenIyIyeEMrZwhn0X7Pk+qKA6XUoDqGJPU=",
+        "originContent": "- Add tests for new commands",
+        "translatedContent": "- Ajouter des tests pour les nouvelles commandes"
+      },
+      {
+        "row": 23,
+        "rowsha": "/Lo5Zx6STHK4TMEGt43uRuUsapUWECqXnG/YgXhdRjQ=",
+        "originContent": "- Update documentation as needed",
+        "translatedContent": "- Mettre à jour la documentation si nécessaire"
+      },
+      {
+        "row": 24,
+        "rowsha": "E5ChbjhL3IQp/TScL9ChbK+jL62Kd8xHNgqsJ2uqcGU=",
+        "originContent": "- Follow the project structure conventions",
+        "translatedContent": "- Respecter les conventions de structure du projet"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "0Mzf4K8fWgF/YyGh5nMJTGpp3i11g9CiS/cqP/bZm7k=",
+        "originContent": "## 📞 Support",
+        "translatedContent": "## 📞 Support"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "R6fJBPMoHP3O6xdpdWCvlsF1LFCybSn7M7HWlIZ6wCY=",
+        "originContent": "- 📖 Check the skill documentation for learning about trading concepts",
+        "translatedContent": "- 📖 Consultez la documentation de la compétence pour apprendre les concepts du trading"
+      },
+      {
+        "row": 31,
+        "rowsha": "6rn3j+z4TbWqUlC9ZzNz8ntgdCfXT1Zvb0hPjMwMdBU=",
+        "originContent": "- 🐛 Report issues in the issue tracker",
+        "translatedContent": "- 🐛 Signalez les problèmes dans le suivi des issues"
+      },
+      {
+        "row": 32,
+        "rowsha": "8xwXuoKLkJ+FtelN9NPj3oteSNfZBMnpeXknkaWru88=",
+        "originContent": "- 💬 Discuss ideas in discussions",
+        "translatedContent": "- 💬 Discutez des idées dans les discussions"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "LoBugr8FdM4vLQteFuldTuO9AwuxSNTOOc1rrJsmfIo=",
+        "originContent": "**Built with ❤️ for financial data enthusiasts and traders**",
+        "translatedContent": "**Conçu avec ❤️ pour les passionnés de données financières et les traders**"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
