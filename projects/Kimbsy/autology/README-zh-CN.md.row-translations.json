@@ -1,0 +1,638 @@
+[
+  {
+    "row": 1,
+    "rowsha": "A6jrjqDIxFz/cAvGraQC/4ALFT4qUHoQpdbGVf3MOPI=",
+    "originContent": "# Autology",
+    "translatedContent": "# Autology"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "FH+6jLxPkhy7fBWEN+3a+ARukeY6aKPZfk4Osgxt9r8=",
+    "originContent": "A hot take on Lisp metaprogramming, `Autology` is a Lisp with access",
+    "translatedContent": "关于 Lisp 元编程的一个热门观点，`Autology` 是一个可以访问自身解释器的 Lisp。"
+  },
+  {
+    "row": 4,
+    "rowsha": "uSQdY4sDs18uNRp55iwf6wEcMwNagx+xUiOVvlgf9JA=",
+    "originContent": "to its own interpreter.",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "我在伦敦 Clojurians（2025-05-13）做过关于这个项目的演讲："
+  },
+  {
+    "row": 6,
+    "rowsha": "GX5UBnAidfmg/SYq0W1pE5rq4Noyzjh+I7ZM+/mCD7k=",
+    "originContent": "I gave a talk about this project with London Clojurians (2025-05-13):",
+    "translatedContent": "[Autology: Writing a self-rewriting Lisp - London Clojurians (YouTube)](https://www.youtube.com/watch?v=ptN53mef_IY)"
+  },
+  {
+    "row": 7,
+    "rowsha": "WtfCLPIbRSu6bPgsmIuaSpIM6aTYvxptWZfrPYEu9WY=",
+    "originContent": "[Autology: Writing a self-rewriting Lisp - London Clojurians (YouTube)](https://www.youtube.com/watch?v=ptN53mef_IY)",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "我也在克拉科夫的 Lambda Days（2025-06-13）做过同一演讲的简短版："
+  },
+  {
+    "row": 9,
+    "rowsha": "Qkz8QWzGufagZ83XaJnUf38XvfyYOI1R75fOehh43Ek=",
+    "originContent": "I also gave a shorter version of the same talk at Lmabda Days in Krakow (2025-06-13):",
+    "translatedContent": "[Autology: Writing a self-rewriting Lisp - Lambda Days (YouTube)](https://www.youtube.com/watch?v=-cppTsLgVbI)"
+  },
+  {
+    "row": 10,
+    "rowsha": "zKB4epHNyuvVLXv/iMWfX9O4H0biYEs5dUPczMcqnAk=",
+    "originContent": "[Autology: Writing a self-rewriting Lisp - Lambda Days (YouTube)](https://www.youtube.com/watch?v=-cppTsLgVbI)",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# 它是什么？"
+  },
+  {
+    "row": 12,
+    "rowsha": "HthW4C4UdR48C1VwvMZf/4h7I7ZJa1LOGCAk31ce52c=",
+    "originContent": "# What is it?",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Autology 是一个函数式解释型 Lisp 语言，用 Clojure 编写。"
+  },
+  {
+    "row": 14,
+    "rowsha": "wQczje+3jera4rUfBgF7UX2bxTPI0UTOxmDl3WYK4tY=",
+    "originContent": "Autology is a functional interpreted Lisp language, written in Clojure.",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Autology 解释器函数被定义为一个数据结构，Autology 程序可以访问它，它绑定在变量 `*i*` 上。"
+  },
+  {
+    "row": 16,
+    "rowsha": "Q8GczVs6FWJOWxeLFUY1ZL9LxuDifhuayi10HCbzJKU=",
+    "originContent": "The Autology interpreter function is defined as a data structure which is available to the Autology program, it is bound to the variable `*i*`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "每当需要求值一个表达式时，Autology 会从当前词法作用域的执行环境中获取 `*i*` 的当前值，并用它来求值该表达式。"
+  },
+  {
+    "row": 18,
+    "rowsha": "qf2SK2TlHGNcY1hNdiYET2uadDL3zNW48sW0382ditc=",
+    "originContent": "Whenever an expression needs to be evaluated, Autology will retrieve the current value of `*i*` from the current lexically scoped execution environment and use it to evaluate the expression.",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "通过绑定新的 `*i*` 值，我们可以在程序运行时修改 Autology 语言的行为。"
+  },
+  {
+    "row": 20,
+    "rowsha": "wdLseNOBB39eWIMjBbHXEqYHnseEDhn5QDGR7uJQsY8=",
+    "originContent": "By binding new values of `*i*` we can modify the behaviour of the Autology language while our program is running.",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# 为什么要做这个？"
+  },
+  {
+    "row": 22,
+    "rowsha": "HmYRp7LY2ZF/Ktsscu7B5f5lmIbqZDqFpt5QCZGy0Fc=",
+    "originContent": "# Why have you done this?",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "主要是为了乐趣和探索一个有趣的想法。"
+  },
+  {
+    "row": 24,
+    "rowsha": "P+vOylua0W7KnUBfnK6NEAaQ0grxHptgmSx7nzS2V10=",
+    "originContent": "Mainly for fun and to explore a neat idea.",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Autology 本身并不是一个特别实用的语言，它非常慢且资源消耗大。"
+  },
+  {
+    "row": 26,
+    "rowsha": "PfGNS73mI+as4XDb1OeyBCTljgcNhxPLrQB9tNn5asY=",
+    "originContent": "Autology is not a particularly useful language as-is, its very slow and resource intensive.",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "宏是 Lisp 语言修改语法或行为的常用工具，但这些通常只在编译时可用。Autology 允许在运行时动态重写语言。"
+  },
+  {
+    "row": 28,
+    "rowsha": "X2TNpfL3tHTZ9t5MG5gcIT6UGMZibz7wMr8hKzIJuzA=",
+    "originContent": "Macros are the normal tool for Lisp languages to modify their syntax or behaviour, but these are normally only available at compile time. Autology allows dynamic rewriting of the language at runtime.",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "即使是其他非 Lisp 语言也能定义某种领域特定语言来让程序员更清晰地表达问题，但这些通常范围相当有限。Autology 允许完全临时重写语言的语法，同时定义新特性或移除现有特性。"
+  },
+  {
+    "row": 30,
+    "rowsha": "QWjiAElEE3ju8aTfD6TbxmqqpTeQml4zQCcoQEoFG8Q=",
+    "originContent": "Even other non-Lisp languages are able to define some form of Domain Specific Language to allow programmers to express problems more clearly, however these are generally quite restrictive in scope. Autology allows full ad-hoc re-writing of the syntax of the language, as well as defining new features or removing existing ones.",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# 使用方法"
+  },
+  {
+    "row": 32,
+    "rowsha": "VQl64phXBjjplyWiGKNjjWZLPM0chOlnOxoC73zDU/k=",
+    "originContent": "# Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "你可以使用项目根目录下的 `autology` 脚本来运行 autology 程序："
+  },
+  {
+    "row": 34,
+    "rowsha": "kwMcOzJuVn49KSN+tp5GBpfMVHRloC8ItW6sN1ngvzM=",
+    "originContent": "You can run an autology program using the `autology` script in the project root:",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "Y6v7xufAvmbatIzztP4pBa4ofBzN02kFdof9dt2wfWY=",
+    "originContent": "``` Bash",
+    "translatedContent": "``` Bash"
+  },
+  {
+    "row": 37,
+    "rowsha": "WN8+8SL/6IWytq0kDqFNHzDh2JmgTB4sg2TW6JiM5sM=",
+    "originContent": "./autology foo.atl",
+    "translatedContent": "./autology foo.atl"
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "有几个示例程序可供您入门："
+  },
+  {
+    "row": 40,
+    "rowsha": "FvRLtQDF+3FCKd+kJgSxnAV2RFhcOQcHbmjuc44lDSA=",
+    "originContent": "There are several example programs provided to get you started:",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "Y6v7xufAvmbatIzztP4pBa4ofBzN02kFdof9dt2wfWY=",
+    "originContent": "``` Bash",
+    "translatedContent": "``` Bash"
+  },
+  {
+    "row": 43,
+    "rowsha": "YamPR0ythQt57hYexu7scEFZEmXXbhnwnxuU/8FrkX0=",
+    "originContent": "./autology resources/examples/eval-order-1.atl",
+    "translatedContent": "./autology resources/examples/eval-order-1.atl"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "5sE0dbyM3k4s8y0FjUrWB0+buZ3a+6UZx7CRFGmzk5c=",
+    "originContent": "./autology resources/examples/eval-order-2.atl",
+    "translatedContent": "./autology resources/examples/eval-order-2.atl"
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "您也可以通过不传递任何参数来运行 REPL："
+  },
+  {
+    "row": 48,
+    "rowsha": "YhGEeMwXXDxAQn9wJVSVZGUiG9duOl3NwcmK1Egn8oA=",
+    "originContent": "You can also run a REPL by passing no args:",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "Y6v7xufAvmbatIzztP4pBa4ofBzN02kFdof9dt2wfWY=",
+    "originContent": "``` Bash",
+    "translatedContent": "``` Bash"
+  },
+  {
+    "row": 51,
+    "rowsha": "npr0wxZn6gx3/8G+gcfvqLQcP7r7WKGq4CiZMRqUz54=",
+    "originContent": "./autology",
+    "translatedContent": "./autology"
+  },
+  {
+    "row": 52,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "an5CgTdpi9HT9NLdTfQtaTpCZkRUD/a5dlboewG0Rno=",
+    "originContent": "@NOTE: the REPL could really use some work.",
+    "translatedContent": "@注意：REPL 确实需要改进。"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "hAsp9w8H7hCMeEyYp1QGq7oqkUO/fyWoBnxLEM/nqUE=",
+    "originContent": "# What can you do with it?",
+    "translatedContent": "# 你能用它做什么？"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "gFK7dq52QMU/TFo2XtfliM6juWMODYqScAvIT2gyRLk=",
+    "originContent": "Well to start with you might like to add functions to the language. Autology doesn't have them by default, but we can rebind the `*i*` symbol to a data structure representing a new interpreter function, one that does have functions.",
+    "translatedContent": "首先你可能想给语言添加函数。Autology 默认没有函数，但我们可以重新绑定 `*i*` 符号到一个表示新解释器函数的数据结构，这个解释器确实支持函数。"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "u0V2mF5fpPYi9J7xTsaJKcJfJkoyqonDz6oZ8AyX0Us=",
+    "originContent": "```Clojure",
+    "translatedContent": "```Clojure"
+  },
+  {
+    "row": 61,
+    "rowsha": "WSCwZZz+PLo21SefDK+pfEz2ALr6YbompvA1vVM5sro=",
+    "originContent": "(bind (;; grab a copy of the `:atl/eval-list` section of the",
+    "translatedContent": "(bind (;; grab a copy of the `:atl/eval-list` section of the"
+  },
+  {
+    "row": 62,
+    "rowsha": "TL5wt28JutaOZoDM6Lt/sTiR6Nkc1K+SrvjPCH1K0io=",
+    "originContent": "       ;; interpreter which is responsible for evaluating lists.",
+    "translatedContent": "       ;; interpreter which is responsible for evaluating lists."
+  },
+  {
+    "row": 63,
+    "rowsha": "paXffif0lSiMNbr4sIZekTIw2yJh7rmPv28DWH7Btx0=",
+    "originContent": "       original (get-marker *i* :atl/eval-list)",
+    "translatedContent": "       original (get-marker *i* :atl/eval-list)"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "fbHAhB13gizbnYJ42RztvMn6aLe247Xpkb5yp+VYX+w=",
+    "originContent": "       ;; define a case test+body for use when the list expression",
+    "translatedContent": "       ;; define a case test+body for use when the list expression"
+  },
+  {
+    "row": 66,
+    "rowsha": "2p6BgMZV2nU+SvGv2vUIPGXYgIbpUNzWDRcWQaprhfk=",
+    "originContent": "       ;; starts with our function special form, in this case `λ`.",
+    "translatedContent": "       ;; starts with our function special form, in this case `λ`."
+  },
+  {
+    "row": 67,
+    "rowsha": "9YBRKoCGi8WBEM9p0SFf8Uu/2laME3H9TDg1N0j393c=",
+    "originContent": "       λ-form (qu (λ (let [[_λ params body] e]",
+    "translatedContent": "       λ-form (qu (λ (let [[_λ params body] e]"
+  },
+  {
+    "row": 68,
+    "rowsha": "y5szJ8VFV10IqzbgkNc0FbrI00tHbyphpySO1Nw6IeY=",
+    "originContent": "                       (fn [& values]",
+    "translatedContent": "                       (fn [& values]"
+  },
+  {
+    "row": 69,
+    "rowsha": "ePLFedXpPfXK3RTAEMQbEmrd8xOfddaehHoWvJKasnU=",
+    "originContent": "                         (autology.core/evaluate",
+    "translatedContent": "                         (autology.core/evaluate"
+  },
+  {
+    "row": 70,
+    "rowsha": "PYplLPKWVFAWZezIQXki9jPyr6ktVWGtArgquXGzOyM=",
+    "originContent": "                          body",
+    "translatedContent": "                          body"
+  },
+  {
+    "row": 71,
+    "rowsha": "afL5SoOE2KifZ9WZ3cpavjFThE13cg3v/hV6u7BTg14=",
+    "originContent": "                          (reduce (fn [acc-env [s v]]",
+    "translatedContent": "                          (reduce (fn [acc-env [s v]]"
+  },
+  {
+    "row": 72,
+    "rowsha": "LIirhhWoum/WqAgxw82Eg5Ygw8G/cdjE+rTOqlBoTQg=",
+    "originContent": "                                    (assoc acc-env s v))",
+    "translatedContent": "                                    (assoc acc-env s v))"
+  },
+  {
+    "row": 73,
+    "rowsha": "02hrndZGotNMeafu822p+92W93jI2Vb6w5vpK+1S4/s=",
+    "originContent": "                                  env",
+    "translatedContent": "                                  env"
+  },
+  {
+    "row": 74,
+    "rowsha": "oCdymB65l0OJiVs8DB286aa4gh+yUok96gTqiN6VKOc=",
+    "originContent": "                                  (zipmap params values)))))))",
+    "translatedContent": "                                  (zipmap params values)))))))"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "3JoS9b1K/oX78vz7nFUqWQENqJEWhdnPxsKgUfyh+B8=",
+    "originContent": "       ;; rebind `*i*` to be a new interpreter with the",
+    "translatedContent": "       ;; rebind `*i*` to be a new interpreter with the"
+  },
+  {
+    "row": 77,
+    "rowsha": "/lGCVG/4l9zbSuNbg1p6p6DZ1sDRBOSNqxVe11Ua+mY=",
+    "originContent": "       ;; `:atl/eval-list` section replaced with a version that",
+    "translatedContent": "       ;; `:atl/eval-list` section replaced with a version that"
+  },
+  {
+    "row": 78,
+    "rowsha": "WUMBkEFpAFQ9M5UHjuJEk1iPyZfx/3KyBDlVOxR+Bh4=",
+    "originContent": "       ;; includes our lambda handling special form.",
+    "translatedContent": "       ;; includes our lambda handling special form."
+  },
+  {
+    "row": 79,
+    "rowsha": "VPIGGWMCNxUU9JnVzbNhYgDa1IyN0vOC0ALtfPFtvwY=",
+    "originContent": "       *i* (replace-marker *i* :atl/eval-list",
+    "translatedContent": "       *i* (replace-marker *i* :atl/eval-list"
+  },
+  {
+    "row": 80,
+    "rowsha": "itV/n3MsJ0To8eswGJbKHWiQqc/q7pzJ7F7heY44kvM=",
+    "originContent": "                           (list :atl/eval-list",
+    "translatedContent": "                           (list :atl/eval-list"
+  },
+  {
+    "row": 81,
+    "rowsha": "DR0a/z/ytLWZcXmJp5aTHpO3pW/Bt/xqvuFloKY+JK4=",
+    "originContent": "                                 (concat (butlast original)",
+    "translatedContent": "                                 (concat (butlast original)"
+  },
+  {
+    "row": 82,
+    "rowsha": "O+aq1Z1C8Z83Y/MEyl2XXSehtqK+8rerBVbhmYBaciM=",
+    "originContent": "                                         λ-form",
+    "translatedContent": "                                         λ-form"
+  },
+  {
+    "row": 83,
+    "rowsha": "empA3WExoqI4NsBIUKZeEhAjrzit1G73HyYPjPdVFgY=",
+    "originContent": "                                         (list (last original)))))",
+    "translatedContent": "                                         (list (last original)))))"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "vF2Ki9eJTMMzL9vTqePvk5idqD9PHLv4uigYEAEmud4=",
+    "originContent": "       ;; We can now immediately define functions since the",
+    "translatedContent": "       ;; We can now immediately define functions since the"
+  },
+  {
+    "row": 86,
+    "rowsha": "8wfpij8FF0Ugqg+/ZXIyXMcw5ClO7IgyhL6+XT6ORKo=",
+    "originContent": "       ;; interpreter will have already been updated to evaluate the",
+    "translatedContent": "       ;; interpreter will have already been updated to evaluate the"
+  },
+  {
+    "row": 87,
+    "rowsha": "B3dd1lmnaA3VoBCdIt0cROw4lyYDT/Zf9DrJKpvxy7s=",
+    "originContent": "       ;; remaining bindings like this one.",
+    "translatedContent": "       ;; remaining bindings like this one."
+  },
+  {
+    "row": 88,
+    "rowsha": "TfDLWV7cNZ7C5xYNmEqAGreYxWtG0vXeEYX+j8vkLEY=",
+    "originContent": "       double (λ (n)",
+    "translatedContent": "       double (λ (n)"
+  },
+  {
+    "row": 89,
+    "rowsha": "10JoA7TkPcK8erhyqNDs8ca/h1s3qrI49enORuyxt50=",
+    "originContent": "                 (+ n n)))",
+    "translatedContent": "                 (+ n n)))"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "G7wbef7Ti8G3UYrTSEhk27wdHNtj/C5Tvkq29D9QGs4=",
+    "originContent": "      ;; Finally we can invoke our new function!",
+    "translatedContent": "      ;; Finally we can invoke our new function!"
+  },
+  {
+    "row": 92,
+    "rowsha": "PmavtEieHIM9DF3mKsxR5X1Csn6rM67ft1GvmsZT3gY=",
+    "originContent": "      (double (double (double (double (double 1.3125))))))",
+    "translatedContent": "      (double (double (double (double (double 1.3125))))))"
+  },
+  {
+    "row": 93,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "之后，几乎任何你想要的东西！"
+  },
+  {
+    "row": 95,
+    "rowsha": "LrQbDcsohyyEmjSM0Uvj6S+bSr5hVfUcjXbwFlOgdv0=",
+    "originContent": "After that, pretty much anything you want!",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 为什么不将求值策略从应用序求值切换到正常序求值？"
+  },
+  {
+    "row": 97,
+    "rowsha": "31o/OlY3TXZV79T8lAACMw+SnjsFFIFL9c+fFCxkYCM=",
+    "originContent": "- Why not switch form applicative order evaluation to normal order evaluation?",
+    "translatedContent": "- 也许修改语言，使其使用续延传递风格？"
+  },
+  {
+    "row": 98,
+    "rowsha": "7rYAENj6/VNWK2lCC4fRcUD8Wpi4DhRvMu8TYwVvHQw=",
+    "originContent": "- Maybe modify the language so it uses a continuation passing style?",
+    "translatedContent": "- 在你的程序内定义一个元循环 Lisp，该 Lisp 不仅能访问自身的解释器，还能访问自指解释器。"
+  },
+  {
+    "row": 99,
+    "rowsha": "8Z79VzhKsyhOY8FlIKgSiTXjik/Cxn5qNYEREZyiLBM=",
+    "originContent": "- Define a metacircular Lisp inside your program which has access to it's own interpreter as well at the Autology interpreter.",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# 运行测试"
+  },
+  {
+    "row": 101,
+    "rowsha": "tHNnyKNSkagtJZOFqKnkFV8ViCmgW+rly9Ij4SArNr4=",
+    "originContent": "# Run tests",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 104,
+    "rowsha": "xWsH6X1FUgBs3eF2GO52gc7PxlT4VOqECSj22RP65jY=",
+    "originContent": "clojure -X:test",
+    "translatedContent": "clojure -X:test"
+  },
+  {
+    "row": 105,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
